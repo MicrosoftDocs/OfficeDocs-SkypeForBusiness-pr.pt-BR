@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Saiba mais sobre as políticas de configuração de aplicativo no Microsoft Teams e como usá-los para aplicativos de pin para personalizar as equipes para usuários em sua organização.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 29fcd5541e4817a2c5880316bba33d7d55047444
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: 5633e5158a3f19ea8960e957b91537547d2580a1
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664744"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747658"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -85,6 +85,14 @@ Você pode usar o Centro de administração do Microsoft Teams atribuir uma pol�
 3. Em **política de instalação do aplicativo de equipes**, selecione a política de instalação do aplicativo que deseja atribuir e escolha **Salvar**.
 
     ![App-instalação-políticas-atribuir-policy.png](media/app-setup-policies-assign-policy.png)
+
+Você também pode atribuir uma política de instalação do aplicativo para um ou mais usuários da seguinte maneira:
+
+1. Vá para **o Centro de administração do Microsoft equipes** > **apps equipes** > **políticas de instalação**.
+2. Selecione a política clicando à esquerda do nome da política.
+3. Selecione **Gerenciar usuários**.
+4. No painel de **Gerenciar usuários** , procure o usuário pelo nome de exibição ou nome de usuário, selecione o nome e selecione **Adicionar**. Repita essa etapa para cada usuário que você deseja adicionar.
+5. Quando terminar de adicionar usuários, selecione **Salvar**.
 
 ### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>Atribuir uma política de instalação do aplicativo personalizado aos usuários em um grupo
 

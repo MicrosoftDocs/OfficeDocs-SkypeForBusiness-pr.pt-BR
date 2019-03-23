@@ -3,7 +3,7 @@ title: Gerenciar políticas de reunião
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 03/01/2019
+ms.date: 03/22/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Saiba como gerenciar as configurações de diretiva em equipes de reunião.
-ms.openlocfilehash: 344c45761ebbb326162d2c62b4fb8cac25f47645
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: dc2870786c586715164dde94fdd6795f04f567bc
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664712"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747666"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião em equipes
 
@@ -55,16 +55,20 @@ Em seguida, atribua a política aos usuários.
 > [!NOTE] 
 > Um usuário pode ser atribuído a política de reunião de apenas um por vez. 
 
-## <a name="assign-a-meeting-policy-to-a-user"></a>Atribuir uma política de reunião para um usuário
+## <a name="assign-a-meeting-policy-to-users"></a>Atribuir uma política de reunião aos usuários
 
-Para atribuir uma política, vá para **o Centro de administração do Microsoft equipes** > **usuários**. 
+Se você estiver aplicando a política a um usuário, selecione **os usuários** no painel de navegação à esquerda e clique em nome para exibição do usuário. Na página do usuário, ao lado de **políticas atribuído**, selecione **Editar**. Em seguida, no painel **Editar políticas de usuário** , em **política de reunião**, selecione a política de reunião na lista suspensa e selecione **Salvar**. Você também pode atribuir políticas da lista de usuários. Para fazer isso, selecione o usuário clicando à esquerda do nome para exibição do usuário. Selecione **Editar configurações**. Em seguida, no painel **Editar configurações** , em **política de reunião**, selecione a política na lista suspensa e selecione **Salvar**. 
  
-Se você estiver aplicando a política a um usuário, selecione o nome de exibição do usuário. Ao lado de **políticas atribuído**, selecione **Editar**. Em seguida, no painel **Editar políticas de usuário** , em **política de reunião**, selecione a política de reunião na lista suspensa e selecione **Salvar**. Você também pode editar as configurações da lista de usuários. Para fazer isso, selecione o usuário clicando à esquerda do nome para exibição do usuário. Selecione **Editar configurações**. Em seguida, no painel **Editar configurações** , em **política de reunião**, selecione a política na lista suspensa e selecione **Salvar**. 
+Se você estiver aplicando uma política para mais de um usuário, selecione os **usuários** no painel de navegação à esquerda e selecione cada usuário clicando à esquerda do nome de usuário e, em seguida, clique em **Editar configurações**. No painel **Editar configurações** , em **política de reunião**, selecione a política na lista suspensa e, em seguida, selecione **Salvar**.
  
-Se você estiver aplicando uma política para mais de um usuário, selecione cada um dos usuários clicando à esquerda do nome de usuário e, em seguida, clique em **Editar configurações**. No painel **Editar configurações** , em **política de reunião**, selecione a política na lista suspensa e selecione **Salvar**.
- 
-Você também pode fazer isso indo para **o Centro de administração do Microsoft equipes** > **reuniões** >  **políticas de reunião**. Selecione a política e selecione **Gerenciar usuários**. No painel de **Gerenciar usuários** , procure o usuário por nome para exibição ou o usuário. Selecione o nome e selecione **Adicionar**. Quando terminar de adicionar usuários, selecione **Salvar**.
+Você também pode atribuir uma política de reunião para um ou mais usuários da seguinte maneira:
 
+1. Vá para **o Centro de administração do Microsoft equipes** > **reuniões** > **políticas de reunião**.
+2. Selecione a política clicando à esquerda do nome da política.
+3. Selecione **Gerenciar usuários**.
+4. No painel de **Gerenciar usuários** , procure o usuário pelo nome de exibição ou nome de usuário, selecione o nome e selecione **Adicionar**. Repita essa etapa para cada usuário que você deseja adicionar.
+5. Quando terminar de adicionar usuários, selecione **Salvar**.
+ 
 > [!NOTE] 
 > Você não pode excluir uma política, se os usuários são atribuídos a ela. Você deve primeiro atribuir uma política diferente a todos os usuários afetados e, em seguida, você pode excluir a diretiva original.
  

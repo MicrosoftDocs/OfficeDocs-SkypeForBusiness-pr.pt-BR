@@ -16,20 +16,20 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: Este artigo aborda a lista de certificados para o Microsoft Teams e os recursos compatíveis com os telefones certificados for Microsoft Teams telefones.
-ms.openlocfilehash: c7b5278acf8b03cdd2f27b6f10a4e83be74b5a2f
-ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
+ms.openlocfilehash: 2a5ae7d996d2b89aae02e4104e762dfa916c9f55
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30720436"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747642"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefones para o Microsoft Teams
 
 Teams da Microsoft oferece suporte a um portfólio de telefones de mesa para usuários que requerem uma experiência de telefone tradicional. Este artigo aborda a lista de certificados para o Microsoft Teams e os recursos compatíveis com os telefones certificados for Microsoft Teams telefones. Para obter as informações mais recentes e atualizadas nas equipes certified dispositivos, vá para [Equipes Marketplace](http://office.com/teamsdevices).
 
-## <a name="teams-certified-ip-phones"></a>Equipes certificada telefones IP 
+## <a name="teams-certified-ip-phones"></a>Equipes certificada telefones IP
 
-Para oferecer uma experiência de Teams Microsoft confiável e de alta qualidade em telefones, estamos parceria e trabalhando ativamente com Yealink, Crestron, Polycom e Audiocodes para desenvolver e certificar um portfólio ampla de telefones de mesa e dispositivos de áudio de sala de conferência. Consulte [atualmente certificados telefones IP](/SkypeForBusiness/certification/teams-ip-phones.md#currently-certified-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) para dispositivos suportados atuais.
+Para oferecer uma experiência de Teams Microsoft confiável e de alta qualidade em telefones, estamos parceria e trabalhando ativamente com Yealink, Crestron, Polycom e Audiocodes para desenvolver e certificar um portfólio ampla de telefones de mesa e dispositivos de áudio de sala de conferência. Consulte [atualmente certificados telefones IP](/SkypeForBusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json#currently-certified-ip-phones) para dispositivos suportados atuais.
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Conjunto de recursos de telefone Teams da Microsoft
 

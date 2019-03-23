@@ -14,15 +14,14 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar o live eventos no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6847a4db0a2517e90535aa5ab013b030fb36f38
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4c249c6e63b8342b524b54afc2a6d30be3e92b25
+ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463192"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30771762"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Quando você estiver planejando eventos ao vivo de equipes para armazenar grandes reuniões em sua organização, há vários fatores que você precisa considerar antes de começar a defini-la sempre para cima. 
 
@@ -30,8 +29,8 @@ Quando você estiver planejando eventos ao vivo de equipes para armazenar grande
 Os seguintes pré-requisitos são necessários para o usuário agendar um evento de equipes ao vivo.
 
 Aqui estão as licenças que devem ser atribuídas:  
-- Uma licença do Office 365 Enterprise E3 ou E5 ou uma licença do Office 365 A3 ou A5. 
-- Uma Teams da Microsoft, Skype para os negócios e a licença do Microsoft Stream.
+- Uma licença do Office 365 Enterprise E1, E3 ou E5 ou uma licença do Office 365 A3 ou A5. 
+- Uma licença Teams da Microsoft e Microsoft Stream.
 
 É importante saber o que uma licença do Office 365 é necessário para participar de um evento ao vivo como um usuário autenticado, mas isso depende do método de produção usado:
 
@@ -42,6 +41,8 @@ Para obter mais informações sobre licenciamento, consulte [Licenciamento de co
 
 O usuário deverá ter:
 - Agendamento de reuniões privadas em equipes habilitadas (*- AllowPrivateMeetingScheduling TeamsMeetingPolicy o parâmetro = True*).
+- Compartilhamento de vídeo ativado em reuniões de equipes (*- AllowIPVideo TeamsMeetingPolicy o parâmetro = True*).
+- Compartilhamento de tela habilitado em reuniões de equipes (*- ScreenSharingMode TeamsMeetingPolicy o parâmetro = EntireScreen*).
 - Live evento agenda em equipes habilitadas (*- AllowBroadcastScheduling TeamsMeetingBroadcastPolicy o parâmetro = True*).
 - Permissões para criar eventos ao vivo no Microsoft Stream (para [produção codificador externo](#production)).
 
@@ -64,7 +65,7 @@ O usuário deverá ter:
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos ao vivo de equipes e transmissão de reunião do Skype
 A tabela a seguir destaca os principais recursos e capacidades oferecidas em eventos ao vivo e como eles diferem da transmissão do Skype reunião. 
 
-|**Recurso**   |**Transmissão de Reunião do Skype** |**Eventos ao vivo de equipes (início rápido)** |**Eventos ao vivo de equipes (codificador externo)** |
+|**Recurso**   |**Transmissão de Reunião do Skype** |**Eventos produzidos no Microsoft Teams** |**Eventos produzido no dispositivo ou aplicativo externo** |
 |---------|---------|---------|---------|
 |Tamanho máximo de audiência |10.000 participantes |10.000 participantes * |10.000 participantes * |
 |Duração máxima de evento ao vivo |4 horas |4 horas |4 horas |
@@ -75,8 +76,9 @@ A tabela a seguir destaca os principais recursos e capacidades oferecidas em eve
 |Cliente de produtor no Mac |X  | & #x 2714; (As equipes) |& #x 2714; (Stream, equipes via fluxo incorporar) |
 |Contagem de participantes na interface do usuário do produtor |X  |& #x 2714; (As equipes) |& #x 2714; (Stream, equipes via fluxo incorporar) |
 |Permite que vários apresentadores |& #x 2714; (Skype para negócios) |& #x 2714; (As equipes) |N/D  |
-Convidar um apresentador durante a reunião |& #x 2714; (Skype para negócios) |X |N/D |
+|Convidar um apresentador durante a reunião |& #x 2714; (Skype para negócios) |X |N/D |
 |Apresentador de ingresso na Web e dispositivos móveis |& #x 2714; (Skype para negócios)  |X |N/D |
+|Os apresentadores de convidado & federados/participantes |& #x 2714; (Skype para negócios)  | (em breve) |N/D |
 |Apresentador – acesso à PSTN |X |& #x 2714; (As equipes) |N/D |
 |Apresentar uma tela |X |& #x 2714; (As equipes) |N/D |
 |Apresentar um PowerPoint (compartilhamento de PPT) |& #x 2714; |X (minimizado via compartilhamento de tela) |N/D |
@@ -105,14 +107,14 @@ Você pode usar eventos ao vivo de equipes em vários regiões no mundo inteiro.
 - Vá Canadá Local
 
 **Exclusões e considerações**
-- **Ir locais:** Reino Unido, Índia e outros locais de ir de equipes da Microsoft não são suportados no momento.
+- **Ir locais:** Reino Unido, Índia, Austrália, Japão e outros locais de ir de equipes da Microsoft não são suportados no momento.
 - **China:** Membros da equipe de evento e os participantes não poderão usar eventos ao vivo de equipes, porque o Windows Azure CDN não está acessível na China. Uma solução alternativa é usar uma conexão VPN, que obtém o cliente conectado CDN via rede corporativa do cliente da empresa.
 
 ## <a name="next-steps"></a>Próximas etapas
 Vá para [Configurar o para equipes de eventos ao vivo](set-up-for-teams-live-events.md).
 
 ### <a name="related-topics"></a>Tópicos relacionados
-- [Quais são as equipes live eventos?](what-are-teams-live-events.md)
-- [Configurar para equipes eventos ao vivo](set-up-for-teams-live-events.md)
+- [O que são os eventos ao vivo do Teams?](what-are-teams-live-events.md)
+- [Configurar eventos ao vivo do Teams](set-up-for-teams-live-events.md)
 - [Definir configurações de eventos ao vivo em equipes](configure-teams-live-events.md)
 

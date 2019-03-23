@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Use o estacionamento de chamada e recuperação para colocar uma chamada em espera no serviço de equipes na nuvem.
-ms.openlocfilehash: 48052768ce172fda88b3e034277c4454988b32db
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 416458b1f7c134fca3294107bd82bbd0f2300abc
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353470"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747650"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento e recuperação de chamadas no Microsoft Teams
 
@@ -60,6 +60,16 @@ Você deve ser um administrador para configurar o estacionamento de chamada e re
 
 Para obter informações sobre como usar o estacionamento de chamada e recuperar um recurso, consulte [estacionamento de uma chamada em equipes](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
 
+### <a name="assign-a-call-park-policy"></a>Atribuir uma política de estacionamento de chamada
+
+Siga estas etapas para atribuir uma política de estacionamento de chamada a um ou mais usuários:
+
+1. Vá para **o Centro de administração do Microsoft equipes** > **voz** > **políticas de estacionamento de chamadas**.
+2. Selecione a política clicando à esquerda do nome da política.
+3. Selecione **Gerenciar usuários**.
+4. No painel de **Gerenciar usuários** , procure o usuário pelo nome de exibição ou nome de usuário, selecione o nome e selecione **Adicionar**. Repita essa etapa para cada usuário que você deseja adicionar.
+5. Quando terminar de adicionar usuários, selecione **Salvar**.
+ 
 ### <a name="configure-call-park-and-retrieve-with-powershell"></a>Configurar o estacionamento de chamada e recuperar com o PowerShell
 
 Use o cmdlet [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) do PowerShell para criar uma política de estacionamento de chamada.

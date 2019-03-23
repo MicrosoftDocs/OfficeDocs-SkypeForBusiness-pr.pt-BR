@@ -16,16 +16,14 @@ description: Conheça as etapas para configurar ao vivo de eventos em equipes, i
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bd650e9f34a63007cee63ae8d7ce604e28abddd
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 957db93e2eb8cba5b2b35388b00ed4d38b21d6ca
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464520"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747674"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
-
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Quando você estiver configurando para eventos ao vivo, há diversas etapas que devem ser executadas:
 
@@ -77,6 +75,17 @@ Se você criou uma política personalizada de eventos ao vivo, atribuí-lo aos u
 2. Ao lado de **políticas atribuído**, escolha **Editar**. 
 3. Selecione a política de eventos ao vivo que você deseja atribuir e, em seguida, escolha **Salvar**. 
 
+Você também pode atribuir uma política de eventos ao vivo para um ou mais usuários da seguinte maneira:
+
+![as equipes de logotipo-30x30.png](../media/teams-logo-30x30.png) Usando o Centro de administração do Microsoft Teams
+
+1. Vá para **reuniões** > **políticas de eventos ao vivo**.
+2. Selecione a política clicando à esquerda do nome da política.
+3. Selecione **Gerenciar usuários**.
+4. No painel de **Gerenciar usuários** , procure o usuário pelo nome de exibição ou nome de usuário, selecione o nome e selecione **Adicionar**. Repita essa etapa para cada usuário que você deseja adicionar.
+5. Quando terminar de adicionar usuários, selecione **Salvar**.
+ 
+
 ### <a name="enable-users-to-schedule-external-encoder-events"></a>Habilitar os usuários agendem eventos externos codificador
 
 Para os usuários agendem eventos codificador externo, você deve também faça o seguinte:
@@ -111,7 +120,7 @@ Depois de configurar a solução SDN ou eCDN, você está pronto para configurar
 Vá para [Configure live em equipes nas configurações dos eventos](configure-teams-live-events.md).
 
 ### <a name="related-topics"></a>Tópicos relacionados
-- [Quais são as equipes live eventos?](what-are-teams-live-events.md)
-- [Planejamento de eventos ao vivo de equipes](plan-for-teams-live-events.md)
+- [O que são os eventos ao vivo do Teams?](what-are-teams-live-events.md)
+- [Planejar eventos ao vivo do Teams](plan-for-teams-live-events.md)
 - [Definir configurações de eventos ao vivo em equipes](configure-teams-live-events.md)
 
