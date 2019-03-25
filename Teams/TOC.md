@@ -24,6 +24,7 @@
 ## [Gerenciar políticas de mensagens](messaging-policies-in-teams.md)
 ## [Introdução aos modelos do Microsoft Teams](get-started-with-teams-templates.md)
 ## [Modelos do Teams para Assistência médica](healthcare/healthcare-templates.md)
+## [Modelos do Teams para varejo](get-started-with-retail-teams-templates.md)
 ## [Visão geral da associação dinâmica de equipes](dynamic-memberships.md)
 ## [Presença](presence-admins.md)
 ## [Comunicar-se com os usuários do Teams em outras organizações](let-your-teams-users-communicate-with-other-people.md)
@@ -34,6 +35,9 @@
 ## [Aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md)
 ### [Permissões e considerações dos aplicativos](app-permissions.md)
 ### [Configurações de administração para aplicativos no Teams](admin-settings.md)
+### [Gerenciar políticas de permissões de aplicativo no Teams](teams-app-permission-policies.md)
+### [Gerenciar políticas de configuração de aplicativo no Teams](teams-app-setup-policies.md)
+### [Gerenciar políticas de aplicativo personalizado e as configurações no Teams](teams-custom-app-policies-and-settings.md)
 ### [Adicionar bots para bate-papos privados e canais no Teams](add-bots.md)
 ### [Usar guias internas e personalizadas](built-in-custom-tabs.md)
 ### [Usar o Office 365 e conectores personalizados](Office-365-custom-connectors.md)
@@ -317,7 +321,7 @@
 ### Atendedores automáticos e filas de chamadas 
 #### [O que são atendedores automáticos do Sistema de Telefonia](what-are-phone-system-auto-attendants.md)
 #### [Configurar os atendedores automáticos do Sistema Telefônico](create-a-phone-system-auto-attendant.md)
-#### [Exemplo de pequenas empresas - Configurar um atendedor automático](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Exemplo de pequenas empresas - Configurar um atendedor automático](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Gerenciar contas de recursos no Microsoft Teams](manage-resource-accounts.md)
 #### [Criar uma fila de chamada no Sistema Telefônico](create-a-phone-system-call-queue.md)
 #### [Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams](answer-auto-attendant-and-call-queue-calls.md)
@@ -688,7 +692,7 @@
 ## Teams para trabalhadores de contato direto
 ### [O Microsoft StaffHub será desativado](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
 ### [Gerenciar o aplicativo Turnos para sua organização no Teams](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Introdução aos modelos de Equipes de varejo](get-started-with-retail-teams-templates.md)
+### [Introdução aos modelos do Teams para varejo](get-started-with-retail-teams-templates.md)
 
 ## [Plano para o Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plano para o Microsoft 365 Government - GCC Alto](plan-for-government-gcc-high.md)
