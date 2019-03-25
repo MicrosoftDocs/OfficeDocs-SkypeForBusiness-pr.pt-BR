@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 718b239da2d65bc01675f91c68ad18f7dee68c3e
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 2908ff9bec8be1eaf7d6dc09ff03adb9ae3ea9ea
+ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641228"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737812"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -257,6 +257,10 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Guia do OneNote herdada  <br/> |Guias do OneNote herdadas criadas durante a visualização pública do Microsoft Teams não podem ser renomeadas nem excluídas.  <br/> |Não há solução alternativa. <br/> |8/11/2017  <br/> |
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Função de pesquisa na guia de lista do SharePoint  <br/> |A tentativa de abrir um arquivo da função de pesquisa da guia de lista do SharePoint acionará uma solicitação de “Será necessário um novo aplicativo para abrir essa sobre”, e o arquivo não será aberto. <br/> |Abrir diretamente na lista em vez de na barra de pesquisa. <br/> |11/02/2019  <br/> |
 
 ## <a name="teams"></a>Microsoft Teams
 
