@@ -1,13 +1,13 @@
 ---
-title: Lista de verificação de acesso para convidado do Microsoft Teams
+title: Lista de verificação de acesso de convidado Teams da Microsoft
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 01/22/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
-description: Use esta lista de verificação para ajudar a configurar o acesso de convidado no Microsoft Access de convidado equipes.
+description: Use esta lista de verificação para ajudar a configurar o acesso de convidado no Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 404754c373d46b9b6e5578107415d61bbb87f97e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
+ms.sourcegitcommit: fba1151c968aa2c43d0c5b42b889b2cdd8dba3cd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463464"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "30795582"
 ---
-<a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidado de equipes
+<a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidado equipes
 ==========================================
 
 Use esta lista de verificação para ajudá-lo a ativar e configurar o recurso de acesso de convidado no Microsoft Teams acordo com as preferências de sua organização.
@@ -65,7 +65,7 @@ Algumas coisas lembrar:
 4. Em **usuários externos**, clique em **configurações de gerenciar externo de colaboração**.
 5. Na página **configurações de colaboração externa** , certifique-se de **que membros podem convidar** estiver definida como **Sim**.
 
-      ![Captura de tela mostra um exemplo de uma alternância de configurações de AAD. ](media/guest-access-checklist-AADSettings1.png)
+      ![Captura de tela mostra um exemplo de uma alternância de configurações AAD. ](media/guest-access-checklist-AADSettings1.png)
 
     Para suportar os convidados, **os membros podem convidar** deve ser definida como **Sim**. 
    
@@ -93,7 +93,7 @@ No mínimo, você deve ativar acesso como convidado for Microsoft Teams sob o **
 1. No Centro de administração de equipes, selecione **configurações de toda a organização** > **acesso de convidado**.
 2. Defina a opção de **Permitir o acesso de convidado em equipes da Microsoft** para **ativado**.
 
-    ![Captura de tela mostra um exemplo de uma alternância de configurações de equipes](media/set-up-guests-image1.png)
+    ![Captura de tela mostra um exemplo de uma alternância de configurações de equipes](media/guest-access-checklist-set-up-guests-image1.png)
 
 3. Nesta página mesmo, configure qualquer outra configuração de convidado que você precisa.
 4. Clique em **Salvar**.
@@ -107,7 +107,7 @@ Certifique-se de que os usuários podem adicionar convidados. Veja como:
 
 1. No Centro de administração do Microsoft 365, vá para **configurações** > **segurança & privacidade**.
 
-     ![Captura de tela mostra um exemplo de um configurações de serviços](media/guest-access-checklist-Office365Admin_Services_addins.png)
+     ![Captura de tela mostra um exemplo de configurações de serviços](media/guest-access-checklist-Office365Admin_Services_addins.png)
 
 2. Em **compartilhamento**, selecione **Editar**.
 
@@ -128,7 +128,7 @@ Certifique-se de que os usuários podem adicionar convidados. Veja como:
 3. No Centro de administração do SharePoint, selecione **compartilhamento**.
 4. Verifique se a opção para **não permitir o compartilhamento fora da sua organização** *não* está selecionado.
  
-     ![Captura de tela mostra um exemplo de uma alternância de configurações de Sparepoint Online.](media/guest-access-checklist-SPOSettings1.png)
+     ![Captura de tela mostra um exemplo de uma alternância de configurações SparePoint Online.](media/guest-access-checklist-SPOSettings1.png)
 
 
 ## <a name="-step-6-enable-specific-settings-for-channels"></a>□ Etapa 6: Habilitar configurações específicas para canais 

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Implante um sempre no grupo de disponibilidade na sua Skype (instalação) para o Business Server deployment.
-ms.openlocfilehash: b773c10766b33e57eb8a132d98ef0e0cdc180123
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: 2877af4d7ccf8fea0087ce67d7e92ecc5e2f8ccd
+ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342216"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30800114"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Implantar um grupo de disponibilidade sempre ativada em um servidor de Back-End no Skype para Business Server
  
@@ -88,8 +88,10 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
    - Abra o SQL Server Configuration Manager. Na árvore no lado esquerdo da tela, clique em **Serviços do SQL Server** e, em seguida, clique duas vezes no serviço SQL Server.  
     
    - Na caixa **Propriedades**, selecione a guia **Alta Disponibilidade AlwaysOn**. Marque a caixa de seleção **Habilitar Grupos de Disponibilidade AlwaysOn**. Reinicie o serviço SQL Server quando solicitado.
+   
+6. Use o construtor de topologias para criar o pool de Front-End, conforme explicado em [criar e publicar a nova topologia no Skype para Business Server](../../deploy/install/create-and-publish-new-topology.md). Quando você fizer isso, especifique a AG como o repositório SQL para o pool.
     
-6. Criar o grupo de disponibilidade.
+7. Criar o grupo de disponibilidade.
     
    - Abra o SQL Server Management Studio e conecte-se à instância do SQL Server.
     
@@ -120,9 +122,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
    - Na página Validação, confira se as verificações de validação foram bem-sucedidas e, em seguida, clique em **Avançar**.
     
    - Na página **Resumo**, verifique todas as configurações e clique em Concluir.
-    
-7. Use o construtor de topologias para criar o pool de Front-End, conforme explicado em [criar e publicar a nova topologia no Skype para Business Server](../../deploy/install/create-and-publish-new-topology.md). Quando você fizer isso, especifique a AG como o repositório SQL para o pool.
-    
+      
 8. Após o pool e o AG são implantados, realize algumas etapas finais para certificar-se de que os logons do SQL estão em cada uma das réplicas no grupo de disponibilidade do AlwaysOn. 
     
    - Abra o construtor de topologia, selecione **Baixar topologia da implantação existente**e clique em **Okey**.
