@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2908ff9bec8be1eaf7d6dc09ff03adb9ae3ea9ea
-ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
+ms.openlocfilehash: a9abe6e17a4c11dd2e1943643c7030eadd5bd0ba
+ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30737812"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30771730"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -178,7 +178,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Número máximo de participantes de reuniões  <br/> |Cada reunião do Microsoft Teams pode ter até 80 participantes.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/> |
+|Número máximo de participantes de reuniões  <br/> |Cada reunião do Microsoft Teams pode ter até 250 participantes.  <br/> |Crie eventos ao vivo no teams que podem hospedar 10000 usuários.  <br/> |13/03/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -249,10 +249,6 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Integração entre o Planner e o Microsoft Teams com o Planner online <br/> |Os buckets de tarefas no Planner não são mostrados na experiência online do Planner.  <br/> |Não há solução alternativa. <br/> |28/02/2017  <br/>|
-
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|Guia de página do SharePoint renderizado como uma tela em branco <br/> |Domínios intuitivos do SharePoint Online não têm suporte no momento. A experiência do usuário é uma tela em branco ao se tentar adicionar uma guia de página do SharePoint. <br/> |Não há solução alternativa. <br/> |20/08/18  <br/>|
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
