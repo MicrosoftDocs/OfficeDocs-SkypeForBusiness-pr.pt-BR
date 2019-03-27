@@ -1,5 +1,6 @@
 ---
 title: Configurações de segurança do serviço Web criar novo ou modificar existentes
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 0cab55c810c9031d1356e293ea9780055e75c36a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 0aac4465175070bc8dd844450329bcc6ce3230cd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263538"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875844"
 ---
-# <a name="web-service-security-settings-create-new-or-modify-existing"></a>Configurações de segurança do serviço Web: Criar nova ou modificar existentes
+# <a name="web-service-security-settings-create-new-or-modify-existing"></a>Definições de Segurança de Serviços Web: Criar Novas ou Modificar Existentes
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 

@@ -1,5 +1,6 @@
 ---
 title: Planejamento para arquivamento no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Resumo: Leia este tópico para saber como planejar para arquivamento no Skype para Business Server.'
-ms.openlocfilehash: 352ef56b3030a28b6a039b6408becc24db5eced9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 164a3207153986e788a7db47b86014063e37e0e5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969008"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876518"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Planejamento para arquivamento no Skype para Business Server
  
@@ -177,7 +178,7 @@ O acesso aos dados arquivados depende de onde eles estão armazenados:
   
 - **Armazenamento do Microsoft Exchange**. Se você escolher a opção de integração do Exchange, Skype para Business Server deposita o arquivamento de conteúdo no repositório do Exchange para todos os usuários hospedados no Exchange, e que tenha tido suas caixas de correio colocadas em retenção In-loco. Os dados arquivados são armazenados na pasta de itens recuperáveis usuário caixas de correio, que é geralmente invisível para usuários e só poderá ser pesquisada por usuários com uma função de **Gerenciamento de descoberta** do Exchange. Exchange habilita a pesquisa federada e descoberta, juntamente com o SharePoint, se ele for implantado. Para obter mais detalhes sobre o armazenamento, retenção e descoberta de dados armazenados no Exchange, consulte a documentação do Exchange e SharePoint.
     
-- **Skype para armazenamento de arquivamento Business Server**. Se você configurar Skype para bancos de dados de arquivamento do servidor de negócios, Skype para depósitos Business Server arquivamento de conteúdo no Skype para bancos de dados de arquivamento do servidor de negócios para todos os usuários não hospedados no Exchange e que não tiveram suas caixas de correio colocadas em retenção In-loco. Esses dados não podem ser pesquisados, mas é possível exportá-los para formatos que podem ser pesquisados com o uso de outras ferramentas. Para obter detalhes sobre como exportar dados armazenados nos bancos de dados de arquivamento, consulte [exportar os dados arquivados no Skype para Business Server](../../manage/archiving/export-archived-data.md).
+- **Skype para armazenamento de arquivamento Business Server**. Se você configurar Skype para bancos de dados de arquivamento do servidor de negócios, Skype para depósitos Business Server arquivamento de conteúdo no Skype para bancos de dados de arquivamento do servidor de negócios para todos os usuários não hospedados no Exchange e que não tiveram suas caixas de correio colocadas em retenção In-loco. This data is not searchable, but it can be exported to formats that are searchable using other tools. Para obter detalhes sobre como exportar dados armazenados nos bancos de dados de arquivamento, consulte [exportar os dados arquivados no Skype para Business Server](../../manage/archiving/export-archived-data.md).
     
 ## <a name="for-more-information"></a>Para obter mais informações
 

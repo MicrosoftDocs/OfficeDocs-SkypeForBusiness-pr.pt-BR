@@ -1,5 +1,6 @@
 ---
-title: Adicionar opções de IP do servidor de borda
+title: Adicionar Opções de IP de Servidor de Borda
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 description: 'Microsoft Lync Server 2013 permite que você configure endereços IPv4 e IPv6 para cada interface para o servidor de borda e o pool de borda. Para fazer isso, faça o seguinte:'
-ms.openlocfilehash: 8bf379c4ce8d23990cd004e8307b9bd4508bc45b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a78a1c31c31c0ebe9e271d2f00f2cb5c2e959270
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20999566"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877661"
 ---
-# <a name="add-edge-server-ip-options"></a>Adicionar opções de IP do servidor de borda
+# <a name="add-edge-server-ip-options"></a>Adicionar Opções de IP de Servidor de Borda
  
 Microsoft Lync Server 2013 permite que você configure endereços IPv4 e IPv6 para cada interface para o servidor de borda e o pool de borda. Para fazer isso, faça o seguinte:
   

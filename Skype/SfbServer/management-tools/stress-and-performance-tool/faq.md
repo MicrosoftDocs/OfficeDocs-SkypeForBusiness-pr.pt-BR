@@ -1,5 +1,6 @@
 ---
 title: Perguntas frequentes para o Skype para Business Server 2015 ferramenta de Stress e desempenho
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 11/11/2015
@@ -10,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Skype para negócios 2015 ferramenta de Stress e desempenho perguntas frequentes (FAQ), útil para descobrir quais configurações da ferramenta são suportadas, solução de problemas de ferramenta e esclarecimento sobre behaviours, que você pode ver ao executando as ferramentas de Stress e desempenho .
-ms.openlocfilehash: 730f9620e4aa498df26cc24f3c17ea1bd2ad7d5d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f71ff02d1bcb6bb858aa4e00144e55bf43c4cbd5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873447"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Perguntas frequentes para o Skype para Business Server 2015 ferramenta de Stress e desempenho
  

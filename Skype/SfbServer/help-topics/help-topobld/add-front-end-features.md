@@ -1,5 +1,6 @@
 ---
-title: Adicionar recursos de Front-End
+title: Adicionar Recursos de Front End
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 description: Selecione cada recurso que você deseja habilitar para o pool de Front-End. No mínimo, você deve implantar mensagens instantâneas (IM), que está sempre habilitada e não pode ser desmarcado. Você também tem a opção de implantação de outros recursos, como conferências, Enterprise Voice e (CAC) do controle de admissão de chamadas. Alguns recursos dependem de sua topologia.
-ms.openlocfilehash: 1927ab0641295abc0d1f052f1a368adcce392c27
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 18071b61a6858da2558f29363cc88970fa585b7b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255821"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877647"
 ---
-# <a name="add-front-end-features"></a>Adicionar recursos de Front-End
+# <a name="add-front-end-features"></a>Adicionar Recursos de Front End
 
 Selecione cada recurso que você deseja habilitar para o pool de Front-End. No mínimo, você deve implantar mensagens instantâneas (IM), que está sempre habilitada e não pode ser desmarcado. Você também tem a opção de implantação de outros recursos, como conferências, Enterprise Voice e (CAC) do controle de admissão de chamadas. Alguns recursos dependem de sua topologia.
 

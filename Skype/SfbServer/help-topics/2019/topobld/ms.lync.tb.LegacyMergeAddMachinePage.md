@@ -1,5 +1,6 @@
 ---
 title: Máquina de Adição de Mesclagem de Legado
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para definir os computadores que compõem o pool de Servidor de Borda, insira o nome de domínio totalmente qualificado (FQDN) de pelo menos um computador que faz parte do pool de Borda consolidado e herdado, com carga balanceada.
-ms.openlocfilehash: 54f5cdd55426d75bc81b11fe72ae93691c04a3fe
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 321dccd39bb4a50d873f3dba0831f296932050e3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062943"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877465"
 ---
 # <a name="legacy-merge-add-machine"></a>Máquina de Adição de Mesclagem de Legado
  

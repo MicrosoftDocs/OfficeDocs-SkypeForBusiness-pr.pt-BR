@@ -1,5 +1,6 @@
 ---
 title: Resumo de configurações do Skype for Business Online
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Neste resumo do Skype para configurações de usuário e organização de negócios pode ajudá-lo a saber mais sobre conectividade de IM público, convites para reuniões, registro de chamadas e reuniões e muito mais.  '
-ms.openlocfilehash: 95368d06cbd243aa5b57b7e68ec1e99db81b2fb0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: df16f6893da94e456bc873a74c8e0a1639eda3db
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865593"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876059"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Resumo de configurações do Skype for Business Online
 
@@ -35,7 +36,7 @@ O **Skype para centro de administração de negócios** inclui configurações p
 ## <a name="skype-for-business-online-organization-settings"></a>Configurações de organização do Skype for Business Online
 <a name="__top"> </a>
 
-|**Configuração**|**Descrição**|**Padrão**|**Saiba Mais**|
+|**Configuração**|**Descrição**|**Padrão**|**Saiba mais**|
 |:-----|:-----|:-----|:-----|
 |Federação de domínios  <br/> |Comunicar com outras organizações que usam o Skype for Business Online.  <br/> |Habilitado  <br/> |[Permitir que os usuários entrem em contato com usuários externos do Skype for Business](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |Conectividade de mensagem de chat Pública  <br/> |Comunicar com usuários do Skype for Business Online.  <br/> |Habilitado  <br/> |[Permitir que os usuários entrem em contato com usuários externos do Skype for Business](allow-users-to-contact-external-skype-for-business-users.md) <br/> |

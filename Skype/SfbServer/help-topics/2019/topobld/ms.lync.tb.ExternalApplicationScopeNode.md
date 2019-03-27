@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Aplicativo Externo
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado) do pool, a configuração de replicação e o pool de próximo salto desse pool de aplicativos confiáveis. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 6af01dac202001ff6f44d9f871fcc5fb5e0f9dd0
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 07f98e277cead81ee9ea636ceb247f490327776d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061118"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876031"
 ---
 # <a name="external-application-scope-node"></a>Nó de Escopo de Aplicativo Externo
  

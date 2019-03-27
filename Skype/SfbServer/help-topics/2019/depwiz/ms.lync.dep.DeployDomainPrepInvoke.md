@@ -1,5 +1,6 @@
 ---
-title: Preparar domínio atual (invocar)
+title: Preparar Domínio Atual (Invocar)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 27553998-2adf-4727-a6e8-841679603ff2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Página executando comandos exibe um resumo das tarefas como que eles são executados. Leia a tela Resumo e certifique-se de que as tarefas foram bem-sucedidas e que não há nenhum erro. Revise os avisos para certificar-se de que eles esperados. Abaixo do painel Resumo, você deverá ver o status da tarefa: concluída. Na lista suspensa, o arquivo de log Preparar domínio deve estar visível. Se não for, selecione o arquivo de log e, em seguida, clique em Exibir Log para revisar as ações detalhadas e os resultados das tarefas. Clique em Concluir para concluir a preparação do domínio.'
-ms.openlocfilehash: 5be329fa15576f181a6ba0dd7aa1f32d4ec28c0d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 15f4964f882a18f0c96616903b552ccf31ca4c53
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006815"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877172"
 ---
-# <a name="prepare-current-domain-invoke"></a>Preparar domínio atual (invocar)
+# <a name="prepare-current-domain-invoke"></a>Preparar Domínio Atual (Invocar)
  
 Página **Executando comandos** exibe um resumo das tarefas como que eles são executados. Leia a tela Resumo e certifique-se de que as tarefas foram bem-sucedidas e que não há nenhum erro. Revise os avisos para certificar-se de que eles esperados. Abaixo do painel Resumo, você deverá ver **status da tarefa: concluída**. Na lista suspensa, o arquivo de log **Preparar domínio** deve estar visível. Se não for, selecione o arquivo de log e clique em **Exibir Log** para revisar as ações detalhadas e os resultados das tarefas. Clique em **Concluir** para concluir a preparação do domínio.
   

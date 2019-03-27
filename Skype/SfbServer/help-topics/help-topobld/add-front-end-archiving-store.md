@@ -1,5 +1,6 @@
 ---
-title: Adicionar repositório de arquivamento Front-End
+title: Adicionar Repositório de Arquivamento Front End
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 description: O arquivamento requer uma edição de 64 bits com suporte do software de banco de dados Microsoft SQL Server para armazenar os dados de arquivamento. Você pode selecionar um banco de dados do SQL Server definido anteriormente a ser usado para arquivamento, ou definir um novo banco de dados do SQL Server, especificando um nome de domínio totalmente qualificado (FQDN) do servidor no qual o banco de dados do SQL Server residir, além da instância do SQL Se servidor & que você deseja usar para o novo banco de dados do SQL Server (que pode ser a instância padrão ou uma instância nomeada que você especificar).
-ms.openlocfilehash: be924cb8ff418e75f50dbaceaa875397f498ba8d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bbdcd20333897078dea7deddc716d67dcca1b2f5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243443"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873490"
 ---
-# <a name="add-front-end-archiving-store"></a>Adicionar repositório de arquivamento Front-End
+# <a name="add-front-end-archiving-store"></a>Adicionar Repositório de Arquivamento Front End
 
 O arquivamento requer uma edição de 64 bits com suporte do software de banco de dados Microsoft SQL Server para armazenar os dados de arquivamento. Você pode selecionar um banco de dados do SQL Server definido anteriormente a ser usado para arquivamento, ou definir um novo banco de dados do SQL Server, especificando um nome de domínio totalmente qualificado (FQDN) do servidor no qual o banco de dados do SQL Server residir, além da instância do SQL Se servidor & que você deseja usar para o novo banco de dados do SQL Server (que pode ser a instância padrão ou uma instância nomeada que você especificar).
 

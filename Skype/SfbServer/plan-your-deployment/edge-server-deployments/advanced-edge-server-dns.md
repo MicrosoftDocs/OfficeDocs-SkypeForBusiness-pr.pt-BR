@@ -1,5 +1,6 @@
 ---
 title: Advanced DNS do servidor de borda planejando Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Resumo: Revise os cenários de Skype para opções de implantação de servidor de negócios. Se você deseja que um único servidor ou preferir um pool de servidores com o DNS ou HLB, este tópico deve ajudar.'
-ms.openlocfilehash: 4631f7120bb091f3a9666edd4ab2d92cfdf52a00
-ms.sourcegitcommit: ce3f40d2ffdf452111a317a019eeebf807b0c78a
+ms.openlocfilehash: e6619056d7c8a69f63fa22007a7702b41480719f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30537562"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872955"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Advanced DNS do servidor de borda planejando Skype para Business Server
  
@@ -196,7 +197,7 @@ Portanto, agora que sabemos que tudo isso, se você precisar requisito automáti
 > [!NOTE]
 > Além disso, os valores FQDN do pool de Front-End alteram entre os exemplos de contoso.com e fabrikam.com, mas os endereços IP permanecem os mesmos. Isso ocorre porque os usuários que estiver entrando de qualquer domínio SIP usarão o mesmo pool de Front-End para configuração automática. 
   
-## <a name="dns-disaster-recovery"></a>Recuperação de desastres de DNS
+## <a name="dns-disaster-recovery"></a>DNS disaster recovery
 <a name="DNSDR"> </a>
 
 Para configurar o DNS para redirecionar Skype para tráfego da web Business Server para sua sites de failover e a recuperação de desastres (DR), você precisará usar um provedor DNS que ofereça suporte a GeoDNS. Você pode configurar seus registros DNS para oferecer suporte a recuperação de desastres, para que os recursos que utilizam serviços web continuam mesmo se um pool de Front-End inteiro cair. Esse recurso de DR suporta URLs simples de Descoberta Automática, de reunião e discado.
@@ -254,7 +255,7 @@ O balanceamento de carga DNS não pode ser usado para:
   
 - Tráfego web cliente-para-servidor para seus servidores Front-End ou um diretor.
     
-Para ir um pouco mais aprofundado na como um registro de SRV de DNS selecionados quando o texto com várias registros DNS forem retornados por uma consulta, o serviço de borda de acesso sempre seleciona o registro com a prioridade numérica mais baixa e, se desempate for necessária, o peso numérico mais alto. Isto é consistente com a [Documentação da Internet Engineering Task Force](https://www.ietf.org/rfc/rfc2782.txt).
+Para ir um pouco mais aprofundado na como um registro de SRV de DNS selecionados quando o texto com várias registros DNS forem retornados por uma consulta, o serviço de borda de acesso sempre seleciona o registro com a prioridade numérica mais baixa e, se desempate for necessária, o peso numérico mais alto. Isso é consistente com [a documentação do Internet Engineering Task Force](https://www.ietf.org/rfc/rfc2782.txt).
   
 Assim, por exemplo, se seu primeiro registro SRV de DNS tem um peso 20 e uma prioridade 40 e seu segundo registro SRV de DNS tem um peso 10 e uma prioridade 50, o primeiro registro vai ser escolhido, pois tem a prioridade menor de 40. A Prioridade é sempre considerada primeiro, e esse é o primeiro host de destino de um cliente. E se dois destinos tiverem a mesma prioridade? 
   

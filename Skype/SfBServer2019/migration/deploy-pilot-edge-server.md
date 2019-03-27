@@ -1,5 +1,6 @@
 ---
-title: Implantar o servidor de borda piloto
+title: Implantar um Servidor de Borda piloto
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este tópico destaca as definições de configuração, que você deve estar ciente antes de implantar sua Skype para o servidor de borda de 2019 Business Server. Os processos de implantação e configuração de Skype para Business Server 2019 serão bastante similares às Skype para Business Server 2015. Esta seção destaca somente os principais pontos que devem ser considerados como parte da sua implantação do pool piloto. Para obter etapas detalhadas, consulte Implantando o acesso de usuário externo em Skype for Business Server 2019 na documentação de implantação, que descreve o processo de implantação e também oferece informações de configuração de acesso de usuário externo.
-ms.openlocfilehash: 3ae1508c56ac3240cfb9904415090ff1bdf18677
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5b755d0ba8802c47a176cb3375a87b6523f35fad
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029857"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876195"
 ---
-# <a name="deploy-pilot-edge-server"></a>Implantar o servidor de borda piloto
+# <a name="deploy-pilot-edge-server"></a>Implantar um Servidor de Borda piloto
 
 Este tópico destaca as definições de configuração, que você deve estar ciente antes de implantar sua Skype para o servidor de borda de 2019 Business Server. Os processos de implantação e configuração de Skype para Business Server 2019 serão bastante similares às Skype para Business Server 2015. Esta seção destaca somente os principais pontos que devem ser considerados como parte da sua implantação do pool piloto. <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->

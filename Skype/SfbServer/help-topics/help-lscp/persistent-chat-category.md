@@ -1,5 +1,6 @@
 ---
 title: Categoria de Chat Persistente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: É possível usar a seção Categoria da página Chat Persistente para configurar as categorias. Uma categoria de sala de bate-papo persistente é uma estrutura lógica para organizar salas de chat. Uma categoria define um conjunto padrão de listas de controle de acesso (ACLs) para controle dos usuários e dos grupos de usuários que podem criar ou ingressar em salas de chat. É possível usar as categorias para aplicar paredes éticas entre diferentes subdivisões dentro de suas organizações.
-ms.openlocfilehash: 0b700118433431cece68098f04468ac1228fbc0a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8d5b14b0ce9bf46b9f6cf8ff7ab99c2859858a93
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374254"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875704"
 ---
 # <a name="persistent-chat-category"></a>Categoria de Chat Persistente
  
@@ -43,7 +44,7 @@ Para criar uma nova categoria, consulte [Gerenciar categorias no servidor de Cha
     
 2. No menu **Iniciar** , selecione o Skype para painel de controle do Business Server ou abrir uma janela de navegador e insira a URL do administrador.
     
-3. Na barra de navegação esquerda, clique em **Chat Persistente** e depois em **Categoria**.
+3. Na barra de navegação esquerda, clique em **Chat Persistente** e clique em **Categoria**.
     
     Para várias implantações de pool de servidor de Chat persistente, selecione o pool apropriado na lista suspensa.
     
@@ -53,20 +54,20 @@ Para criar uma nova categoria, consulte [Gerenciar categorias no servidor de Cha
     
 6. Em **Nova categoria**, faça o seguinte:
     
-7. Em **Nome**, especifique um nome para a nova categoria de sala.
+7. Em  **Nome**, especifique um nome para a nova categoria de sala.
     
-8. Em **Descrição**, forneça uma descrição detalhada para a categoria da sala (por exemplo, uma categoria de sala para Contoso).
+8. Em  **Descrição**, forneça uma descrição detalhada para a categoria da sala (por exemplo, uma categoria de sala para Contoso).
     
-9. Para controlar se os convites podem ser ativados por salas de chat que pertencem a tal categoria, selecione ou desmarque a caixa de seleção **Habilitar convites**. Se marcada, as salas nesta categoria poderão ter convites ativados ou desativados; se estiver desmarcada, as salas nessa categoria não podem ter convite. Se uma sala tiver convites ativado, quando um novo membro é adicionado a uma sala, ele obtém uma notificação da nova sala em seu cliente de Chat persistente.
+9. Para controlar se os convites podem ser ativados por salas de chat que pertencem a tal categoria, selecione ou limpe a caixa de marcação **Habilitar convites**. Se marcado, as salas nesta categoria poderão ter convites ativados ou desativados; em caso de não marcado, as salas nessa categoria não podem ter convite. Se uma sala tiver convites ativado, quando um novo membro é adicionado a uma sala, ele obtém uma notificação da nova sala em seu cliente de Chat persistente.
     
-10. Para controlar carregamentos de arquivo nas salas de chat pertencentes a esta categoria, selecione ou desmarque a caixa de seleção **Habilitar carregamento de arquivo**. Se estiver marcada, as salas desta categoria podem habilitar ou desabilitar carregamentos de arquivos; se estiver desmarcada, as salas nesta categoria não podem ter arquivos carregados.
+10. Para controlar o envio de arquivo nas salas de chat pertencentes a esta categoria, selecione ou desmarque a caixa de seleção **Habilitar carregamento de arquivo**. Se estiver marcada, as salas desta categoria podem habilitar ou desabilitar carregamentos de arquivos; se estiver desmarcada, as salas nesta categoria não podem ter arquivos carregados.
     
      > [!IMPORTANT]
      > Esta configuração é aplicada no servidor, pois aplicativos personalizados ou antigos clientes de Chat de grupo que usam o servidor Office Communications Server 2007 R2 grupo bate-papo ou no Lync Server 2010, Chat de grupo podem postar arquivos em uma sala. O cliente do Lync 2013 não tem o recurso de upload/download de arquivos, portanto, se você tiver uma implantação do Lync 2013 pura ou o cliente do Lync 2013, não é possível postar arquivos em uma sala de chat Persistent Chat Server. 
   
 11. Para controlar o histórico de chat, marque ou desmarque a caixa de seleção **Habilitar o histórico de chat** . Se marcada, as salas de chat se tornam persistentes; caso contrário, as mensagens de chat não são persistentes. Se a conformidade estiver habilitada, as salas de chat serão salvas em conformidade, mas os usuários não poderão acessar mensagens antigas. Essa opção pode ser usada para salas designadas para colaboração em tempo real e ad hoc que não necessitem de histórico de chat para ser mantido.
     
-12. Em **Editar categoria**, faça o seguinte:
+12. Em  **Editar categoria**, faça o seguinte:
     
     - Em **associação**, na seção **membros permitidos** , adicione ou remova usuários e outras entidades do Active Directory Domain Services (usuários, grupos de distribuição, unidades organizacionais e assim por diante) que são permitidas a serem adicionados como membros de salas de bate-papo que pertencem à categoria. As entidades permitidas por uma categoria podem pesquisar por salas na categoria (a menos que uma sala esteja oculta, caso o qual apenas membros da sala podem pesquisar por ela no diretório).
     
@@ -76,7 +77,7 @@ Para criar uma nova categoria, consulte [Gerenciar categorias no servidor de Cha
     
 13. Clique em **Confirmar**.
     
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 Para obter detalhes sobre os recursos de servidor de Chat persistente e recursos, consulte [Plan for Persistent Chat Server in Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server na Skype para Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)e [Gerenciar o servidor de Chat persistente no Skype para Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
   

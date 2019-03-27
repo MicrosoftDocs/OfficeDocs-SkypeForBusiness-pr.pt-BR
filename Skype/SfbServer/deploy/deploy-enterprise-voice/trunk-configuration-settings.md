@@ -1,5 +1,6 @@
 ---
 title: Criar uma nova coleção de tronco definições de configuração no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 'Resumo: Saiba como criar uma nova coleção de tronco definições de configuração usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: f4cb53cecc54ebd547cd6992c4d89aaf2ea9e586
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5f3fd6b704a99be13ab71153352b174f769a28cc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882176"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877682"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Criar uma nova coleção de tronco definições de configuração no Skype para Business Server 
 
@@ -32,11 +33,11 @@ As configurações do tronco SIP definem o relacionamento e as capacidades entre
     
 - Se é necessário criptografia de Protocolo de Transporte Seguro em Tempo Real (SRTP) em cada tronco.
     
-Quando você instala o Skype para Business Server, uma coleção global de definições de configuração de tronco SIP é criada para você. Além disso, os administradores podem criar conjuntos de configurações personalizadas no escopo local ou de serviço (apenas para o serviço de gateway PSTN).
+Quando você instala o Skype para Business Server, uma coleção global de definições de configuração de tronco SIP é criada para você. Além disso, os administradores podem criar coleções de configurações personalizadas no escopo do site ou no escopo do serviço (somente para o serviço de gateway PSTN).
   
 Ao criar definições de configuração de tronco SIP usando Skype para painel de controle do Business Server, as seguintes opções estão disponíveis para você.
   
-|**Configuração de interface do usuário**|**Parâmetro do PowerShell**|**Descrição**|
+|**Configuração de UI**|**Parâmetro do PowerShell**|**Descrição**|
 |:-----|:-----|:-----|
 |Nome  <br/> |Identidade  <br/> |Identificador exclusivo para a coleção. Esta propriedade é somente leitura; não é possível modificar a Identidade de uma coleção de configurações do tronco.  <br/> |
 |Descrição  <br/> |Descrição  <br/> |Fornece uma forma para os administradores armazenarem informações sobre as configurações (por exemplo, o motivo da configuração do tronco).  <br/> |

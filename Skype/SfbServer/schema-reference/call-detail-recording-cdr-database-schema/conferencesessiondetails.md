@@ -1,5 +1,6 @@
 ---
 title: Exibir ConferenceSessionDetails
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: O modo de exibição ConferenceSessionDetails armazena informações sobre sessões com vários participantes. Cada registro representa uma sessão de conferência, que poderia ser a sessão com foco ou a sessão com um servidor de conferência específico. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
-ms.openlocfilehash: 8e81f33a68fc90a589f4d3574f9ca3070076c479
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 448b73326f7caf7657d146939eb01729e97628f9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874120"
 ---
 # <a name="conferencesessiondetails-view"></a>Exibir ConferenceSessionDetails
  
@@ -26,7 +28,7 @@ O modo de exibição ConferenceSessionDetails armazena informações sobre sess�
 |**SessionIdSeq** <br/> |int  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com SessionIdTime para identificar exclusivamente uma sessão. Consulte a [tabela no Skype para Business Server 2015 de diálogos](dialogs.md) para obter mais informações. <br/> |
 |**InviteTime** <br/> |datetime  <br/> |Hora da primeira solicitação INVITE. Normalmente, este campo é preenchido pelos dados gerados a partir da mensagem de convite inicial da sessão. Se não houver nenhuma mensagem CONVIDAR o campo é preenchido com a data e hora da primeira relevante mensagem SIP (BYE, cancelar, mensagem ou INFO).  <br/> |
 |**ConferenceUri** <br/> |nvarchar(450)  <br/> |URI da conferência.  <br/> |
-|**ConferenceUriType** <br/> |nvarchar(256)  <br/> |URI do tipo de conferência. Consulte a [tabela UriTypes](uritypes.md) para obter mais informações. <br/> |
+|**ConferenceUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI de conferência. Consulte a [tabela UriTypes](uritypes.md) para obter mais informações. <br/> |
 |**ConfInstance** <br/> |Identificador exclusivo  <br/> |Identificador que diferencia entre instâncias de conferências recorrentes. Cada instância de conferência recorrente tem o mesmo ConferenceURI, mas um valor de ConfInstance diferente.  <br/> |
 |**McuConferenceUri** <br/> |nvarchar(450)  <br/> |URI do servidor de conferência.  <br/> |
 |**McuConferenceUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI do servidor de conferência. Consulte a [tabela UriTypes](uritypes.md) para obter mais informações. <br/> |

@@ -1,5 +1,6 @@
 ---
 title: Gerenciar categorias no Servidor de Chat Persistente no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Resumo: Saiba como gerenciar categorias de servidor de Chat persistente no Skype para Business Server 2015.'
-ms.openlocfilehash: 01b1bad9fd8b68eee68e1980fcb79f69462e9dfa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a0d70ec0266fc85d94c44c11ba15e42eea0be44b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979502"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874190"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gerenciar categorias no Servidor de Chat Persistente no Skype for Business Server 2015
  
 **Resumo:** Saiba como gerenciar categorias de servidor de Chat persistente no Skype para Business Server 2015.
   
-Uma categoria é uma estrutura lógica para organizar salas de chat. Uma categoria define um conjunto padrão das listas de controle de acesso (ACLs) para controlar os usuários e grupos de usuários que podem criar ou ingressar em salas de chat. Categorias de sala de chat contêm salas de chat, mas não outras categorias. Cada categoria descreve seu conteúdo com metadados, como nome e descrição. A categoria tem propriedades que podem ser definidas para controlar o comportamento da sala de chat que pertencem a ele; Por exemplo, se as salas de bate-papo permitir convites ou carregamentos de arquivo ou contêm o histórico de Chat. 
+Uma categoria é uma estrutura lógica para organizar salas de chat. Uma categoria define um conjunto padrão das listas de controle de acesso (ACLs) para controlar os usuários e grupos de usuários que podem criar ou ingressar em salas de chat. Categorias de sala de chat contêm salas de chat, mas não outras categorias. Cada categoria descreve o conteúdo com metadados, como Name e Description. A categoria tem propriedades que podem ser definidas para controlar o comportamento da sala de chat que pertencem a ele; Por exemplo, se as salas de bate-papo permitir convites ou carregamentos de arquivo ou contêm o histórico de Chat. 
   
 Criar e gerenciar salas de chat é mais fácil com o uso correto das categorias. Como um administrador do Servidor de Chat Persistente, você poderá definir Membros Permitidos e Criadores para cada categoria, além de definir as configurações e os comportamentos padrão da sala de chat que serão aplicados à todas as salas de chat criadas na categoria. Por exemplo, se você definir uma lista da categoria para contoso.com, você pode adicionar qualquer grupo ou usuário na Contoso como membro em salas de chat nessa categoria. Se definir Membros permitidos em uma categoria para Vendas, apenas grupos e usuários nesta lista de distribuição poderão ser adicionados como membros nas salas de chat em tal categoria. A propriedade Criadores permite que você controle quem pode criar salas de chat na categoria. Após a sala de chat ser criada, qualquer pessoa do grupo Membros Permitidos poderá ser designada como Gerente para operações de gerenciamento contínuo nas salas (por exemplo, alterações e aprovações de associação).
   
@@ -46,7 +47,7 @@ Você pode configurar e gerenciar categorias usando o Painel de Controle ou por 
     
 2. No menu **Iniciar** , selecione o Skype para painel de controle do Business Server ou abrir uma janela de navegador e insira a URL do administrador.
     
-3. Na barra de navegação esquerda, clique em **Chat Persistente** e depois em **Categoria**.
+3. Na barra de navegação esquerda, clique em **Chat Persistente** e clique em **Categoria**.
     
     Para várias implantações de pool de servidor de Chat persistente, selecione o pool apropriado na lista suspensa.
     
@@ -56,17 +57,17 @@ Você pode configurar e gerenciar categorias usando o Painel de Controle ou por 
     
 6. Em **Nova categoria**, faça o seguinte:
     
-   - Em **Nome**, especifique um nome para a nova categoria de sala.
+   - Em  **Nome**, especifique um nome para a nova categoria de sala.
     
-   - Em **Descrição**, forneça uma descrição detalhada para a categoria da sala (por exemplo, uma categoria de sala para Contoso).
+   - Em  **Descrição**, forneça uma descrição detalhada para a categoria da sala (por exemplo, uma categoria de sala para Contoso).
     
-   - Para controlar se os convites podem ser ativados por salas de chat que pertencem a tal categoria, selecione ou desmarque a caixa de seleção **Habilitar convites**. Se marcada, as salas nesta categoria poderão ter convites ativados ou desativados; se estiver desmarcada, as salas nessa categoria não podem ter convite. Se uma sala tiver convites ativado, quando um novo membro é adicionado a uma sala, ele obtém uma notificação da nova sala em seu cliente de Chat persistente.
+   - Para controlar se os convites podem ser ativados por salas de chat que pertencem a tal categoria, selecione ou limpe a caixa de marcação **Habilitar convites**. Se marcado, as salas nesta categoria poderão ter convites ativados ou desativados; em caso de não marcado, as salas nessa categoria não podem ter convite. Se uma sala tiver convites ativado, quando um novo membro é adicionado a uma sala, ele obtém uma notificação da nova sala em seu cliente de Chat persistente.
     
-   - Para controlar carregamentos de arquivo nas salas de chat pertencentes a esta categoria, selecione ou desmarque a caixa de seleção **Habilitar carregamento de arquivo**. Se estiver marcada, as salas desta categoria podem habilitar ou desabilitar carregamentos de arquivos; se estiver desmarcada, as salas nesta categoria não podem ter arquivos carregados.
+   - Para controlar o envio de arquivo nas salas de chat pertencentes a esta categoria, selecione ou desmarque a caixa de seleção **Habilitar carregamento de arquivo**. Se estiver marcada, as salas desta categoria podem habilitar ou desabilitar carregamentos de arquivos; se estiver desmarcada, as salas nesta categoria não podem ter arquivos carregados.
     
    - Para controlar o histórico de chat, marque ou desmarque a caixa de seleção **Habilitar o histórico de chat** . Se marcada, as salas de chat se tornam persistentes; caso contrário, as mensagens de chat não são persistentes. Se a conformidade estiver habilitada, as salas de chat serão salvas em conformidade, mas os usuários não poderão acessar mensagens antigas. Essa opção pode ser usada para salas designadas para colaboração em tempo real e ad hoc que não necessitem de histórico de chat para ser mantido.
     
-7. Em **Editar categoria**, faça o seguinte:
+7. Em  **Editar categoria**, faça o seguinte:
     
    - Em **associação**, na seção **membros permitidos** , adicione ou remova usuários e outras entidades do Active Directory Domain Services (usuários, grupos de distribuição, unidades organizacionais e assim por diante) que são permitidas a serem adicionados como membros de salas de bate-papo que pertencem à categoria. As entidades permitidas por uma categoria podem pesquisar por salas na categoria (a menos que uma sala esteja oculta, caso o qual apenas membros da sala podem pesquisar por ela no diretório).
     
@@ -98,11 +99,11 @@ Você pode configurar categorias usando os seguintes cmdlets do Windows PowerShe
     
 - Criadores. Especifica os usuários que têm permissão para criar salas de chat dentro da categoria.
     
-- Lista. Especifica os usuários que têm permissão para acessar salas de chat dentro da categoria.
+- Membros Permitidos. Especifica os usuários que têm permissão para acessar salas de chat dentro da categoria.
     
 - DeniedMembers. Lista os usuários que não têm permissão para acessar as salas de chat dentro da categoria.
     
-Para obter informações completas sobre a sintaxe do cmdlet, incluindo todos os parâmetros, consulte [Skype do Shell de gerenciamento do Business Server 2015](../management-shell.md).
+Para obter mais informações sobre a sintaxe cmdlet, incluindo todos os parâmetros, consulte [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 ### <a name="create-a-new-category"></a>Criar uma nova categoria
 

@@ -1,5 +1,6 @@
 ---
 title: Implantar o monitoramento no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Resumo: Saiba como implantar o monitoramento no Skype para Business Server.'
-ms.openlocfilehash: 0bcc324e9f37b37078719e3e5c0e5ffe1518f5cd
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 147d20c7a6b85ef294711602748ee474b4e9abd3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252384"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878102"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Implantar o monitoramento no Skype para Business Server
 
@@ -54,7 +55,7 @@ Embora o monitoramento já está instalada e ativada em cada servidor Front-End,
 
 |**Fase**|**Etapas**|**Associação de grupo e função**|**Documentação**|
 |:-----|:-----|:-----|:-----|
-|**Instalar os pré-requisitos de hardware e software** <br/> |Instale uma versão do Microsoft SQL Server suportada no computador que atuará como armazenamento de dados back-end do monitoramento.  <br/> |Usuário do domínio que também é membro do grupo local de administradores.  <br/> |[Hardware suportado](https://technet.microsoft.com/library/5f9c085d-205e-4235-9061-9ad875283cb0.aspx) <br/> [Server Software and Infrastructure Support](https://technet.microsoft.com/library/4ee5fe38-0191-4710-9aa2-df8895e8c51b.aspx) <br/> |
+|**Instalar os pré-requisitos de hardware e software** <br/> |Instale uma versão do Microsoft SQL Server suportada no computador que atuará como armazenamento de dados back-end do monitoramento.  <br/> |Usuário do domínio que também é membro do grupo local de administradores.  <br/> |[Supported Hardware](https://technet.microsoft.com/library/5f9c085d-205e-4235-9061-9ad875283cb0.aspx) <br/> [Server Software and Infrastructure Support](https://technet.microsoft.com/library/4ee5fe38-0191-4710-9aa2-df8895e8c51b.aspx) <br/> |
 |**Criar a topologia interna apropriada para dar suporte ao monitoramento** <br/> |Skype de uso para o construtor de topologia de servidor de negócios adicionar à topologia, bancos de dados de monitoramento, em seguida, publique a topologia atualizada.  <br/> |Para definir uma topologia, um usuário que seja membro do grupo Usuários local.  <br/> Para publicar a topologia, um usuário que seja membro do grupo Administradores de domínio e do grupo RTCUniversalServerAdmins.  <br/> |[Associar um repositório de monitoramento um pool de Front-End no Skype para Business Server](associate-a-monitoring-store.md) <br/> |
 |**Habilitar a configuração de monitoramento apropriada** <br/> |Habilite o registro de detalhes das chamadas (CDR) e/ou o monitoramento da Qualidade da Experiência (QoE) no escopo global e/ou local.  <br/> |Um usuário que seja membro do grupo RTCUniversalServerAdmins ou que tenha sido atribuído a uma função RBAC que fornece acesso aos cmdlets CsCdrConfiguration e CsQoEConfiguration.  <br/> |[Configurar o registro de detalhes de chamada e configurações de qualidade da experiência no Skype para Business Server](call-detail-recording-and-qoe.md) <br/> |
 
@@ -94,6 +95,6 @@ Se você preferir, você também pode habilitar o QoE monitoring de dentro do Sk
 
 Como observado, os exemplos precedentes habilitam o monitoramento no escopo global; isto é, eles habilitam o monitoramento CDR e QoE em toda a sua organização. Como alternativa, é possível criar definições de configurações CDR e QoE separadas no escopo local e habilitar ou desabilitar seletivamente o monitoramento de cada local. Por exemplo, é possível habilitar o monitoramento CDR para seu local Redmond e desabilitar o monitoramento CDR para Dublin. Para obter mais informações sobre como gerenciar suas definições de configuração de monitoramento, consulte o tópico do guia de implantação [Configure chamada gravação de detalhes e configurações de qualidade da experiência no Skype para Business Server](call-detail-recording-and-qoe.md).
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Plano para monitoramento no Skype para Business Server](../../plan-your-deployment/monitoring.md)

@@ -1,5 +1,6 @@
 ---
 title: Ativação e desativação de bypass de mídia
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Use os procedimentos neste artigo para habilitar ou desabilitar o bypass de mídia usando o Skype para painel de controle do servidor de negócios.
-ms.openlocfilehash: f595ab5380575f34c0a470cb58c82459841ee4d7
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: eebbc111f0d205be8dced9ec8ddb5150deff8119
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222755"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874278"
 ---
-# <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Habilitando e desabilitando media bypass no Skype para Business Server
+# <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Habilitar e desabilitar bypass de mídia no Skype for Business Server
 
 Use os procedimentos neste artigo para habilitar ou desabilitar o bypass de mídia usando o Skype para painel de controle do servidor de negócios.
 

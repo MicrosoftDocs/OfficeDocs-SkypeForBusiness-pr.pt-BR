@@ -1,5 +1,6 @@
 ---
-title: Nó de escopo de servidores de monitoramento
+title: Nó de Escopo de Servidores de Monitoramento
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'O nó Monitoring Servers lista os Monitoring Servers em sua topologia. Você pode realizar a seguinte ação:'
-ms.openlocfilehash: fcb72dcbcbca0c2242785aaec95d36006896e5f6
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: 'O nó Monitoring Servers lista os Monitoring Servers em sua topologia. Você pode executar as seguintes ações:'
+ms.openlocfilehash: 6b44ddd868bb530e76849b2653306665ef785d24
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057192"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877196"
 ---
-# <a name="monitoring-servers-scope-node"></a>Nó de escopo de servidores de monitoramento
+# <a name="monitoring-servers-scope-node"></a>Nó de Escopo de Servidores de Monitoramento
  
-O nó **Monitoring Servers** lista os Monitoring Servers em sua topologia. Você pode realizar a seguinte ação:
+O nó **Monitoring Servers** lista os Monitoring Servers em sua topologia. Você pode executar as seguintes ações:
   
 - O **novo servidor de monitoramento**. Inicia o assistente **Definir novo Monitoring Server** , que você usa para adicionar um novo servidor de monitoramento à topologia.
     

@@ -1,5 +1,6 @@
 ---
-title: Migrar os números de acesso de discagem
+title: Migrar números de acesso de discagem
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Migrar números de acesso de discagem para Skype para Business Server 2019 requer executando o cmdlet Move-CsApplicationEndpoint para migrar os objetos de contato. Durante o install herdado e Skype para Business Server 2019 período de coexistência, números de acesso de discagem que você criou em Skype for Business Server 2019 se comportam de forma semelhante aos números de acesso de discagem criados na instalar herdada, conforme descrito neste seção.
-ms.openlocfilehash: 697ffb05e54722576f15dce2b4e7f0721b255aa2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7f7aef113018a27e70b88e166d365195c07dce9c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370725"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874707"
 ---
-# <a name="migrate-dial-in-access-numbers"></a>Migrar os números de acesso de discagem
+# <a name="migrate-dial-in-access-numbers"></a>Migrar números de acesso de discagem
 
 Migrar números de acesso de discagem para Skype para Business Server 2019 requer executando o cmdlet **Move-CsApplicationEndpoint** para migrar os objetos de contato. Durante o install herdado e Skype para Business Server 2019 período de coexistência, números de acesso de discagem que você criou em Skype for Business Server 2019 se comportam de forma semelhante aos números de acesso de discagem criados na instalar herdada, conforme descrito neste seção. 
 

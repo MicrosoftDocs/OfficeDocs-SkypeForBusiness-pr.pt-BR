@@ -1,5 +1,6 @@
 ---
 title: Criar um pool VIS no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Resumo: Crie um pool de servidores de interoperabilidade de vídeo no Skype para Business Server usando o construtor de topologias.'
-ms.openlocfilehash: 65771e72250ad1d5e9625bdd6cc1a8d47b5dabe2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 484cb1c504680dde393d24ce65606e415d070edb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373455"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874106"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Criar um pool VIS no Skype para Business Server
  
@@ -62,7 +63,7 @@ ms.locfileid: "25373455"
     > Para melhorar a resiliência, convém configurar um pool de servidor de interoperabilidade de vídeo ou VIS segundo ou um pool de Front-End de backup. Consulte [Resiliency mechanisms](../../plan-your-deployment/video-interop-server.md#resiliency) para mais informações.
   
 Todas as tarefas executadas usando o Construtor de Topologias devem estar concluídas. Prossiga com a instalação do software no novo servidor ou servidores VIS.
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Implantar a função de servidor VIS no Skype para Business Server](deploy-the-vis-server-role.md)
 

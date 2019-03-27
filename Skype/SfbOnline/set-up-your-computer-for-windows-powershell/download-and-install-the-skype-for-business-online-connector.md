@@ -1,5 +1,6 @@
 ---
 title: Baixe e instale o Skype para módulo Business Connector Online
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: 'Baixar, instalar e usar o Skype para o Business Connector Online para criar uma sessão remota do Windows PowerShell que se conecta ao Skype para negócios Online. '
-ms.openlocfilehash: deffed8da6b5b7a7c2ae522782f5316744de3394
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f7b7fa418b31a7b826319fc75c943819193161ea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858327"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873497"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Baixe e instale o Skype para módulo Business Connector Online
 

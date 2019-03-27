@@ -1,5 +1,6 @@
 ---
 title: Configurações de próximo salto do Servidor de interoperabilidade de vídeo
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5a161404-b294-47fa-ad62-0e12bffcd8e4
 description: As etapas necessárias para definir uma nova VIS ou vídeo Gateway no construtor de topologia são descritas online em criar um pool VIS no Skype para Business Server 2015.
-ms.openlocfilehash: 4b13743c658e8c8d03ef647565e4819537770425
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 4fca7fef3ad8bb048a06e253fb2a794d5e6d765e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504177"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876384"
 ---
 # <a name="video-interop-server-next-hop-settings"></a>Configurações de próximo salto do Servidor de interoperabilidade de vídeo
  
@@ -31,6 +32,6 @@ As etapas de configuração para um novo servidor de interoperabilidade de víde
   
  As configurações para um VTC que precisam ser definidas na GUI Cisco para interoperação com um Gateway de vídeo e um VIS são descritas online em [Configure um VTC para interoperação com Skype para Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Planejar Servidor de Interoperabilidade de Vídeo no Skype for Business Server 2015](../../plan-your-deployment/video-interop-server.md)

@@ -1,5 +1,6 @@
 ---
 title: Implantar o bypass de mídia no Cloud Connector Edition
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Leia este tópico para saber sobre etapas para implantar o bypass de mídia com o conector de nuvem Edition versão 2.0 e posteriores.
-ms.openlocfilehash: a764c17af7c23d27305f9e2f3e88eaed6edc33cf
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: f4ea5449e7a324ae206241af25d12ecabf9c5259
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561911"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878046"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implantar o bypass de mídia no Cloud Connector Edition
  
@@ -99,7 +100,7 @@ Depois de replicadas as alterações, o serviço Web no Servidor de Mediação c
   
 ## <a name="disable-media-bypass-permanently"></a>Desabilitar o bypass de mídia permanentemente
 
-Para a desabilitação permanente do bypass de mídia, um administrador de locatários precisa executar os seguintes comandos:  
+Para a desabilitação permanente do bypass de mídia, um administrador de locatários precisa executar os seguintes comandos: 
   
 ```
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
@@ -184,7 +185,7 @@ Neste ponto, os clientes que fizerem consultas DNS da sub-rede de Amsterdã para
 > Se o aparelho de CCE não parece estar recebendo as configurações atualizadas, verifique se o aparelho é capaz de contatar o locatário via o PowerShell remoto. Você pode usar o PowerShell remoto para verificar o status de aparelho com Get-CsHybridPSTNAppliance ou usar o PowerShell para verificar o status com o Get-CcApplianceStatus no host CCE.
 
   
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Consulte Também
 <a name="Example"> </a>
 
-[Planejar o bypass de mídia no Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
+[Plano para bypass de mídia no Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)

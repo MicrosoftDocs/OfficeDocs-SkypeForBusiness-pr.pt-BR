@@ -1,5 +1,6 @@
 ---
 title: Relatório de registro do usuário no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 'Resumo: Saiba mais sobre o relatório de registro de usuário no Skype para Business Server.'
-ms.openlocfilehash: 6136e90700bf371621f2b7b27c87453ceb04d854
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ba60e691a8f2c7c976fa1c8dbe79ee3668e9c81a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001625"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873440"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>Relatório de registro do usuário no Skype para Business Server
  
@@ -65,7 +66,7 @@ A métrica de usuários ativos exclusivos também fornece dados mais significati
   
 ## <a name="filters"></a>Filtros
 
-Os filtros fornecem uma maneira de obter um resultado mais refinado de conjunto de dados ou visualizar os dados resultantes de maneiras diferentes. Por exemplo, o relatório de registro do usuário permite exibir dados para todos os servidores de borda e seu pool de registradores ou exibir dados para um pool individual. Você também pode escolher como os dados devem ser agrupados. Nesse caso, registros agrupados por hora, dia, semana ou mês.
+Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibir os dados retornados de diferentes formas. Por exemplo, o relatório de registro do usuário permite exibir dados para todos os servidores de borda e seu pool de registradores ou exibir dados para um pool individual. Você também pode escolher como os dados devem ser agrupados. Nesse caso, registros agrupados por hora, dia, semana ou mês.
   
 A tabela a seguir lista os filtros que você pode usar com o Relatório de registro do usuário.
   
@@ -73,10 +74,10 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de regis
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
-|**De** <br/> |Data e hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 03/07/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
-|**Até** <br/> |Data e hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 03/07/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
+|**De** <br/> |Data e hora de início do intervalo de tempo. Para ver os dados por hora, insira a data e hora de início desta forma:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 3/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
+|**Até** <br/> |Data e hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 3/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
 |**Intervalo** <br/> | Intervalo de tempo. Selecione uma das seguintes opções: <br/>  Por hora (é possível exibir no máximo 25 horas) <br/>  Diariamente (é possível exibir no máximo 31 dias) <br/>  Semanalmente (é possível exibir no máximo 12 semanas) <br/>  Mensalmente (é possível exibir no máximo 12 meses) <br/>  Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, apenas o número máximo de valores (começando pela data de início) será exibido. Por exemplo, se você selecionar o intervalo Por dia com a data de início 7/7/2015 e a data de término 28/2/2015, os dados serão exibidos para o intervalo de 7/8/2015 00:00 a 7/9/2015 00:00 (ou seja, um total de 31 dias de dados). <br/> |
-|**Pool** <br/> |FQDN (Nome de domínio totalmente qualificado) do Pool de registradores ou Servidor de Borda. Você pode selecionar um pool individual ou escolher **[Todos]** para visualizar os dados de todos os pools. Essa lista suspensa é automaticamente preenchida com base nos registros no banco de dados. <br/> |
+|**Pool** <br/> |FQDN (Nome de domínio totalmente qualificado) do pool de Registradores Avançados ou Servidores de Borda. Você pode selecionar um pool individual ou escolher **[Todos]** para visualizar os dados de todos os pools. Essa lista suspensa é automaticamente preenchida com base nos registros no banco de dados. <br/> |
    
 ## <a name="metrics"></a>Métricas
 
@@ -86,7 +87,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Registro de
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Por hora** <br/> **Por dia** <br/> **Por semana** <br/> **Por mês** <br/> |Não  <br/> |Indica o intervalo de tempo selecionado na barra de ferramentas de filtro. Quando aplicável, é possível clicar em determinado intervalo de tempo para exibir informações detalhadas sobre ele. Por exemplo, se você estiver usando o intervalo Por dia e clicar em 7/7/2015, verá um detalhamento por hora da atividade de registro do usuário para a data em questão.  <br/> |
+|**Por hora** <br/> **Diário** <br/> **Semanal** <br/> **Mensal** <br/> |Não  <br/> |Indica o intervalo de tempo selecionado na barra de ferramentas de filtro. Quando aplicável, é possível clicar em determinado intervalo de tempo para exibir informações detalhadas sobre ele. Por exemplo, se você estiver usando o intervalo Por dia e clicar em 7/7/2015, verá um detalhamento por hora da atividade de registro do usuário para a data em questão.  <br/> |
 |**Total de logons** <br/> |Não  <br/> |Número total de sessões de logon bem-sucedidas.  <br/> |
 |**Logons internos** <br/> |Não  <br/> |Número total de logons dentro da rede interna.  <br/> |
 |**Logons externos** <br/> |Não  <br/> |Número total logons de fora da rede interna, usando o Servidor de Borda.  <br/> |

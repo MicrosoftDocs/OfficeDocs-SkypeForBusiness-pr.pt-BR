@@ -1,5 +1,6 @@
 ---
 title: Configurar os computadores que serão monitorados no Skype for Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: Instalar os arquivos de agente do Operations Manager no Skype para Business Server 2019 computador a serem monitorados e configure o computador para atuar como um proxy do System Center.'
-ms.openlocfilehash: 3f2e17dcaa32a37f0ae7b5ef73cd6f351c9d4bc1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 90608d9233bea466b523418553d5421735234aee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536001"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875415"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>Configurar os computadores que serão monitorados no Skype for Business Server
 
@@ -26,9 +27,9 @@ Cada Skype para Business Server 2019 computador que você deseja monitorar deve 
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>Instalando um Certificado no Nó Inspetor Localizado Fora da Rede do Perímetro
 <a name="watcher_node_outside"> </a>
 
-Agentes do System Center Operations Manager executando em um perímetro de rede (por exemplo, um Skype para servidor de borda do servidor de negócios), fora da empresa (por exemplo, um nó do Inspetor de transação sintética externo) ou em uma relação de confiança do Active Directory podem exigir a limites, a configuração de um servidor de Gateway do System Center Operations Manager. Essa função de servidor permite que os agentes que não tenham uma relação de confiança com o Servidor de Gerenciamento Raiz gerem alertas. Para obter detalhes, consulte [Gerenciando Servidores de Gateway no Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh212823.aspx).
+Agentes do System Center Operations Manager executando em um perímetro de rede (por exemplo, um Skype para servidor de borda do servidor de negócios), fora da empresa (por exemplo, um nó do Inspetor de transação sintética externo) ou em uma relação de confiança do Active Directory podem exigir a limites, a configuração de um servidor de Gateway do System Center Operations Manager. Essa função de servidor permite que os agentes que não tenham uma relação de confiança com o Servidor de Gerenciamento Raiz gerem alertas. Para obter detalhes, consulte [Gerenciando servidores de Gateway do Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh212823.aspx).
 
-Se você implantar um agente em um desses locais, você também precisará solicitar e configurar um certificado que permite que o nó do Inspetor enviar alertas para o System Center Operations Manager. Para simplificar esse processo, a equipe do Operations Manager criou um conjunto de utilitários que permitem que você solicitar e instalar o tipo de certificado correto no computador do nó do Inspetor. Para detalhes e para saber como baixar esses utilitários, consulte o artigo de blog [Obtaining Certificates for Non-Domain Joined Agents Made Easy With Certificate Generation Wizard" (Obtendo certificados para agentes não ingressados e que não são de domínio com o Assistente de geração de certificado) em](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409).
+Se você implantar um agente em um desses locais, você também precisará solicitar e configurar um certificado que permite que o nó do Inspetor enviar alertas para o System Center Operations Manager. Para simplificar esse processo, a equipe do Operations Manager criou um conjunto de utilitários que permitem que você solicitar e instalar o tipo de certificado correto no computador do nó do Inspetor. Para obter detalhes e para baixar esses utilitários, consulte [Obtendo certificados para fora do domínio ingressou agentes facilitados com o Assistente de geração de certificado](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409).
 
 ### <a name="installing-the-operation-manager-agent-files"></a>Instalando os arquivos de Agente do Operation Manager
 
@@ -54,7 +55,7 @@ Se você implantar um agente em um desses locais, você também precisará solic
 
 11. Clique em **Sair**.
 
-Para o System Center 2012, você pode verificar que o agente foi criado por clicando em **Iniciar**, clicando em **Todos os programas**, clicando em **System Center Operations Manager 2012**e, em seguida, clicando em **Shell de 2012 do Operations Manager**. No Shell do Operations Manager, digite o seguinte comando do Windows PowerShell e pressione ENTER:
+Para o System Center 2012, você pode verificar que o agente foi criado por clicando em **Iniciar**, clicando em **Todos os programas**, clicando em **System Center Operations Manager 2012**e, em seguida, clicando em **Shell de 2012 do Operations Manager**. In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:
 ```
 Get-SCOMAgent
 ```

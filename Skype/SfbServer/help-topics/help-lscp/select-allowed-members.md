@@ -1,5 +1,6 @@
 ---
 title: Selecionar Membros Permitidos
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: Criando e gerenciando salas de Chat persistente são muito mais fácil com o uso correto das categorias. Um administrador de Chat persistente pode definir uma lista de membros para cada categoria e também pode definir as configurações de sala de chat padrão e os comportamentos que serão aplicados a todas as salas de chat criadas na categoria. Administradores de Chat persistente criar e gerenciar categorias usando o painel de controle ou os cmdlets do Windows PowerShell.
-ms.openlocfilehash: 5d1cf35524ae510655cb474c23b09a73b830802f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cc35d1659dc7dc7cdc6ba77d17bbc3b439256c63
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250756"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874532"
 ---
 # <a name="select-allowed-members"></a>Selecionar Membros Permitidos
 
@@ -29,19 +30,19 @@ Usuários, Unidades Organizacionais (OUs) e grupos de usuários identificados co
 
 É possível executar as seguintes tarefas na página **Selecionar Membros Permitidos**:
 
-- [Configurar categorias](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
+- [Configure Categories](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
 
-- [Novos recursos de servidor de bate-papo persistente](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
+- [New Persistent Chat Server Features](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
 
 Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
 
-## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorias salas de bate-papo
+## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorias salas de chat
 
 Em **associação**, na seção **membros permitidos** , adicione ou remova usuários e outras entidades do Active Directory Domain Services (usuários, grupos de distribuição, unidades organizacionais e assim por diante) que são permitidas a serem adicionados como membros de salas de bate-papo que pertencem à categoria. As entidades permitidas por uma categoria podem pesquisar por salas na categoria (a menos que uma sala esteja oculta, caso o qual apenas membros da sala podem pesquisar por ela no diretório).
 
 
 Para obter detalhes sobre os recursos de servidor de Chat persistente e capacidades, consulte [Visão geral do servidor de Chat persistente](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com as configurações de servidor de Chat persistente, consulte [Configuring Persistent Chat Server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) na documentação de implantação e [Managing Lync Server 2013, Persistent Chat Server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) na documentação operações.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
-[Noções básicas sobre a associação do bate-papo persistente](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
+[Understanding Persistent Chat Membership](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)

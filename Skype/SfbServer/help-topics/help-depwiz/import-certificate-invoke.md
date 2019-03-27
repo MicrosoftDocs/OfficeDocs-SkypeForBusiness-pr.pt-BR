@@ -1,5 +1,6 @@
 ---
-title: Importar certificado (invocar)
+title: Importar Certificado (Invocar)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1c248faa-2023-48b2-8cac-9a28045b72c3
 description: Na página executando comandos, revise as informações de resumo do certificado importado. Na lista suspensa, selecione o arquivo de log de importação de certificado. Certifique-se de que o arquivo de log de importação de certificado esteja visível na lista suspensa. Clique em Exibir Log para revisar os detalhes da importação de certificado. Quando você terminar de revisar o resumo e o arquivo de log, clique em Concluir.
-ms.openlocfilehash: 15f02d50e57c9482ae84e3e90c609fdc047364d6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cf2791b2fe208264ba5d6d17d3d6d7aa38749a20
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020534"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877137"
 ---
-# <a name="import-certificate-invoke"></a>Importar certificado (invocar)
+# <a name="import-certificate-invoke"></a>Importar Certificado (Invocar)
  
 Na página **Executando comandos** , revise as informações de resumo do certificado importado. Na lista suspensa, selecione o arquivo de log de importação de certificado. Certifique-se de que o arquivo de log de importação de certificado esteja visível na lista suspensa. Clique em **Exibir Log** para revisar os detalhes da importação de certificado. Quando você terminar de revisar o resumo e o arquivo de log, clique em **Concluir**.
   

@@ -1,5 +1,6 @@
 ---
 title: Definindo regras de conversão no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype para Business Server Enterprise Voice roteia as chamadas com base em números de telefone normalizados no formato e. 164. Isso significa que todas as cadeias de caracteres discadas devem ser normalizadas formato e. 164 para fins de executar a pesquisa inversa (RNL) para que eles podem ser traduzidos para seu URI de SIP correspondente. Skype para Business Server fornece a capacidade de manipular o ID chamado e apresentação da ID do chamador.
-ms.openlocfilehash: e3feda41a3057ea6f0ae6d7946f3e21e75ba7f81
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: b85241cfa7fc8f14732c92994660cdeb2088c874
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223000"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875472"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Definindo regras de conversão no Skype para Business Server
 
@@ -75,40 +76,40 @@ Se você deseja definir uma regra de conversão digitando um conjunto de valores
     
     **^\+(\d{9}\d+)$** 
 
-    O campo  **Regra de conversão** especifica um padrão para o formato de números convertidos. Esse padrão tem duas partes:
+    O campo  **Regra de conversão** especifica um padrão para o formato de números convertidos. Este padrão possui duas partes:
     - Um valor (por exemplo, **$1**) que representa o número de dígitos no padrão correspondido
-    - (Opcional) Um valor que pode ser anexado digitando no campo **Dígitos a adicionar**
+    - (Opcional) Um valor que pode ser anexado digitando no campo **dígitos a adicionar**
 
-    Usando os valores do exemplo anterior, **011$1** aparece no campo **Regra de conversão**.
+    Usando os valores do exemplo anterior, **011$ 1** aparece no campo **regra de conversão** .
     
-    Quando essa regra de conversão é aplicada, +441235551010 se torna 011441235551010.
-7. Clique em **OK** para salvar a regra de tradução.
-8. Clique em  **OK** para salvar a configuração de tronco.
+    Quando essa regra de conversão é aplicada, + 441235551010 se torna 011441235551010.
+7. Clique em **Okey** para salvar a regra de conversão.
+8. Clique em **Okey** para salvar a configuração do tronco.
 9. Na página **Configuração de tronco**n, clique em **Confirmar**e clique em **Confirmar tudo**. 
 
 > [!Note]
-> Sempre que criar ou modificar uma regra de conversão, será necessário executar o comando **Confirmar tudo** para publicar a alteração de configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz](https://technet.microsoft.com/en-us/library/gg413088(v=ocs.15).aspx). 
+> Sempre que você cria ou modificar uma regra de conversão, você precisará executar o comando de **Confirmar todos** para publicar a alteração de configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz](https://technet.microsoft.com/en-us/library/gg413088(v=ocs.15).aspx). 
 
 ### <a name="create-or-modify-a-translation-rule-manually"></a>Criar ou modificar uma regra de conversão manualmente
 
 Se você deseja definir uma regra de conversão escrevendo uma expressão regular para o padrão de correspondência e a regra de conversão, siga estas etapas. 
 
-**Como definir uma regra de conversão manualmente**
+**Para definir uma regra de conversão manualmente**
 
 1. Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [permissões de instalação delegadas](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel de controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Skype para painel de controle corporativos, consulte [Install and abrir ferramentas administrativas](../../management-tools/install-and-open-administrative-tools.md).
 3. Para começar a definir uma regra de conversão, siga as etapas em [Configure um tronco com media bypass](GET LINK AFTER MIGRATION)por meio da etapa 10 ou [Configure um tronco sem media bypass](GET LINK AFTER MIGRATION) até a etapa 9.
-4. No campo **Nome**, na página **Nova Regra de Conversão** ou **Editar Regra de Conversão**, digite um nome que descreva o padrão de número sendo convertido.
+4. No campo **nome** na página **Nova regra de conversão** ou **Editar regra de conversão** , digite um nome que descreva o padrão numérico que está sendo convertido.
 5. (Opcional) Em **Descrição**, digite uma descrição da regra de conversão; Por exemplo, **interurbana discagem internacional EUA**.
-6. Clique em  **Editar** na parte inferior da seção  **Compilar uma Regra de Conversão**.
+6. Clique em **Editar** na parte inferior da seção **criar uma regra de conversão** .
 7. Insira o seguinte em tipo de uma **Expressão Regular**:
-    - No campo  **Corresponder a este padrão**, especifique o padrão que será usado para corresponder aos números a serem convertidos.
-    - No campo  **Regra de conversão**, especifique o padrão para o formato dos números convertidos.
+    - Em **corresponder este padrão**, especifique o padrão que será usado para corresponder os números a serem convertidos.
+    - Em **regra de conversão**, especifique um padrão para o formato dos números convertidos.
 
     Por exemplo, se você digitar ** ^ \+(\d{9}\d+)$** em **corresponder este padrão** e **011$ 1** na **regra de conversão**, a regra converterá + 441235551010 em 011441235551010.
-8. Clique em  **OK** para salvar a regra de tradução.
-9. Clique em  **OK** para salvar a configuração de tronco.
-10. Na página  **Configuração do Tronco**, clique em  **Confirmar** e clique em  **Confirmar tudo**. 
+8. Clique em **Okey** para salvar a regra de conversão.
+9. Clique em **Okey** para salvar a configuração do tronco.
+10. Na página **Configuração do Tronco**, clique em **Confirmar** e clique em **Confirmar tudo**. 
 
 > [!Note] 
-> Sempre que criar ou modificar uma regra de conversão, será necessário executar o comando **Confirmar tudo** para publicar a alteração de configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz](https://technet.microsoft.com/en-us/library/gg413088(v=ocs.15).aspx). 
+> Sempre que você cria ou modificar uma regra de conversão, você precisará executar o comando de **Confirmar todos** para publicar a alteração de configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz](https://technet.microsoft.com/en-us/library/gg413088(v=ocs.15).aspx). 

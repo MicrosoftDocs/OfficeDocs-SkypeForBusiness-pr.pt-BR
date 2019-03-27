@@ -1,5 +1,6 @@
 ---
 title: Exportar ou importar um arquivo de configuração de rota de voz no Skype para negócios
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: 'Resumo: Saiba como exportar ou importar um arquivo de configuração de roteamento de voz no Skype para Business Server usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: 5cf9021a1cc18daf90fc719723962959142ad92e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8f0d8f4e221cbe23ac37c4126a9d26aac46e6d53
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886786"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874840"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Exportar ou importar um arquivo de configuração de rota de voz no Skype para negócios
  
@@ -36,7 +37,7 @@ Se você tiver feito as alterações não confirmadas às configurações em qua
     
 2. Abra o Skype para painel de controle do servidor de negócios.
     
-3. Na barra de navegação esquerda, clique em **Roteamento de Voz**.
+3. Na barra de navegação esquerdo, clique em **Roteamento de voz**.
     
 4. No menu **Ações**, clique em **Exportar configuração**.
     

@@ -1,5 +1,6 @@
 ---
 title: Gerenciar opções de arquivamento no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: 'Resumo: Saiba como configurar opções de arquivamento para Skype para Business Server.'
-ms.openlocfilehash: 235a0170a4301e48caeae17b7315a174ca2c8aee
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: db0fbe113f38065e85419b05d39fd0176b5ba845
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993564"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877780"
 ---
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>Gerenciar opções de arquivamento no Skype para Business Server
 
@@ -42,7 +43,7 @@ Você pode especificar opções de configuração nos seguintes níveis:
     
 - Configurações opcionais de nível do pool que especificam como o arquivamento é implementado para um pool específico
     
-Você pode excluir uma configuração de site ou de pool, mas não a configuração global. Se você excluir a configuração global, ela será automaticamente redefinida para os valores padrão. Para obter detalhes sobre como as configurações de arquivamento são implementadas e a hierarquia de arquivamento configurações, consulte [Planejar para arquivamento no Skype para Business Server](../../plan-your-deployment/archiving/archiving.md).
+Você pode excluir uma configuração de site ou de pool, mas não pode excluir a configuração global. Se você excluir a configuração global, ela automaticamente retorna para os valores padrão. Para obter detalhes sobre como as configurações de arquivamento são implementadas e a hierarquia de arquivamento configurações, consulte [Planejar para arquivamento no Skype para Business Server](../../plan-your-deployment/archiving/archiving.md).
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>Configurar opções de arquivamento usando o Painel de Controle
 

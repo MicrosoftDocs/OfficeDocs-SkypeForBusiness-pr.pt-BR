@@ -1,5 +1,6 @@
 ---
-title: Configurar uma região de rede
+title: Configurar uma Região de Rede
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 1d3fe1f6-e987-4b21-aafd-4ceaf523027a
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: cd39f818744b44382a50c665b8f8c2ce3804a696
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f871f08cda4c90716a587c0bb5d9530d4eb456ab
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255679"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876645"
 ---
-# <a name="configure-a-network-region"></a>Configurar uma região de rede
+# <a name="configure-a-network-region"></a>Configurar uma Região de Rede
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 

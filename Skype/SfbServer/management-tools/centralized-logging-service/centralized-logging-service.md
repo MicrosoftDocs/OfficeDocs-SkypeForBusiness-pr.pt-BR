@@ -1,5 +1,6 @@
 ---
 title: Serviço centralizado de registro em log no Skype for Business 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Resumo: Saiba sobre os componentes de serviço e as definições de configuração para o serviço de registro em log centralizado no Skype para Business Server 2015.'
-ms.openlocfilehash: b2234ac1b52ff41108573f6a90a07bfa28c50a58
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6f1766e97c318a11095aa2f064cd09a0785c1562
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372457"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877752"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Serviço centralizado de registro em log no Skype for Business 2015
  
@@ -41,7 +42,7 @@ The Centralized Logging Service pode:
     
   - Definir o escopo da sessão de registro em log nas opções **Site** (executa capturas de registro em log em computadores somente naquele local) ou **Global** (executa capturas de registro log em todos os computadores da implantação).
     
-The Centralized Logging Service é uma poderosa ferramenta de solução de problemas para problemas grandes ou pequenos, da análise de causa raiz para problemas de desempenho. Todos os exemplos são mostrados usando o Skype para Business Server Management Shell. A ajuda é providenciada para a ferramenta de linha de comando usando a ferramenta em si, mas há um conjunto limitado de funções que você pode executar pela linha de comando. Usando o Skype do Shell de gerenciamento do servidor de negócios, você tem acesso a um conjunto muito maior e muito mais configurável de recursos, que deve ser sempre sua primeira opção. 
+The Centralized Logging Service é uma poderosa ferramenta de solução de problemas para problemas grandes ou pequenos, da análise de causa raiz para problemas de desempenho. Todos os exemplos são mostrados usando o Skype para Business Server Management Shell. Ajuda é fornecida para a ferramenta de linha de comando através da própria ferramenta, mas há um conjunto limitado de funções que você pode executar a partir da linha de comando. Usando o Skype do Shell de gerenciamento do servidor de negócios, você tem acesso a um conjunto muito maior e muito mais configurável de recursos, que deve ser sempre sua primeira opção. 
   
 ## <a name="logging-service-components"></a>Componente de serviço de registro em log
 
@@ -53,11 +54,11 @@ The Centralized Logging Service é uma poderosa ferramenta de solução de probl
     
 **Comunicações do ClsController com o ClsAgent**
 
-![Relacionamento entre CLSController e CLSAgent.](../../media/Ops_CLS_Architecture.jpg)
+![Relação entre CLSController e com o CLSAgent.](../../media/Ops_CLS_Architecture.jpg)
   
 Executar comandos usando a interface de linha de comando do Windows Server ou usando o Skype do Shell de gerenciamento do servidor de negócios. Os comandos são executados no computador que você fez logon e enviados ao ClsAgent localmente, ou para outros computadores e pools em sua implantação.
   
-O ClsAgent mantém um arquivo de índice de todos os arquivos .CACHE que ele tem na máquina local. Com o ClsAgent aloca-los de modo que eles são distribuídos uniformemente pelos volumes definidos pela opção CacheFileLocalFolders, nunca consumindo mais de 80% de cada volume (ou seja, o local do cache local e a porcentagem é configurável usando-se o ** Set-CsClsConfiguration** cmdlet). O ClsAgent é responsável também por expirar arquivos de log de rastreamento de eventos antigos no cache (.etl) para fora da máquina local. Depois de duas semanas (ou seja, o período de tempo é configurável usando-se o cmdlet **Set-CsClsConfiguration** ) esses arquivos são copiados para um compartilhamento de arquivo e excluídos do computador local. Para obter detalhes, consulte [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Quando uma solicitação de pesquisa é recebida, os critérios de pesquisa são usados para selecionar o conjunto de arquivos .etl em cache para fazer a pesquisa baseada nos valores no índice mantido pelo agente.
+O ClsAgent mantém um arquivo de índice de todos os arquivos .CACHE que ele tem na máquina local. O ClsAgent os aloca de forma que fiquem distribuídos uniformemente nos volumes definidos na opção CacheFileLocalFolders, nunca consumindo mais de 80% de cada volume (isto é, o local do cache local e a porcentagem são configuráveis usando o cmdlet **Set-CsClsConfiguration**). O ClsAgent é responsável também por expirar arquivos de log de rastreamento de eventos antigos no cache (.etl) para fora da máquina local. Após duas semanas (isto é, o cronograma configurável usando o cmdlet **Set-CsClsConfiguration**, esses arquivos são copiados para um compartilhamento de arquivos e excluído do computador local. Para obter detalhes, consulte [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Quando uma solicitação de pesquisa é recebida, os critérios de pesquisa são usados para selecionar o conjunto de arquivos .etl em cache para fazer a pesquisa baseada nos valores no índice mantido pelo agente.
   
 > [!NOTE]
 > Arquivos que são movidos do computador local para o compartilhamento de arquivos podem ser pesquisados pelo ClsAgent. Assim que o ClsAgent move os arquivos para o compartilhamento de arquivos, a expiração e remoção de arquivos não são mantidas pelo ClsAgent. Você deve definir uma tarefa administrativa para monitorar o tamanho dos arquivos no compartilhamento de arquivos e excluí-los ou arquivá-los. 
@@ -99,9 +100,9 @@ The Centralized Logging Service está configurado para definir o que é o servi�
    ```
 
     > [!TIP]
-    > Você pode reduzir ou expandir o escopo das definições de configuração que são retornados definindo `-Identity` e um escopo, como "Site: Redmond", para retornar apenas o CsClsConfiguration para o site Redmond. Se você deseja obter informações detalhadas sobre uma determinada parte da configuração, você pode canalizar a saída em outro cmdlet do Windows PowerShell. Por exemplo, para obter detalhes sobre os cenários definidos na configuração para o "Redmond" local, digite: `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
+    > Você pode reduzir ou expandir o escopo das definições de configuração que são retornados definindo `-Identity` e um escopo, como "Site: Redmond", para retornar apenas o CsClsConfiguration para o site Redmond. Se você deseja obter informações detalhadas sobre uma determinada parte da configuração, você pode canalizar a saída em outro cmdlet do Windows PowerShell. Por exemplo, para obter detalhes sobre os cenários definidos na configuração para o site "Redmond", digite:`Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
   
-     ![Amostra de saída do Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
+     ![Exemplo de saída do Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
   
     O resultado do cmdlet exibe a configuração atual do the Centralized Logging Service.
     
@@ -109,7 +110,7 @@ The Centralized Logging Service está configurado para definir o que é o servi�
 |:-----|:-----|
 |**Identidade** <br/> |Identifica o escopo e o nome para esta configuração. Há apenas uma configuração global e uma configuração por local.  <br/> |
 |**Cenários** <br/> |Lista de todos os cenários que são definidos para esta configuração.  <br/> |
-|**SearchTerms** <br/> |Termos de busca definidos para a configuração. Office 365, não a implantações em instalações.  <br/> |
+|**Termos de busca** <br/> |Termos de busca definidos para a configuração. Office 365, não a implantações em instalações.  <br/> |
 |**SecurityGroups** <br/> |Grupos de segurança definidos que controlam quem (isto é, membros dos grupos de segurança) podem ver computadores com base no local que estão. Site, nesse contexto, é o site, conforme definido no construtor de topologia.  <br/> |
 |**Regiões** <br/> |Regiões definidas são utilizadas para coletar SecurityGroups em uma região, por exemplo EMEA.  <br/> |
 |**EtlFileRolloverSizeMB** <br/> |O parâmetro indica o tamanho máximo do arquivo de log antes que um log de rastreio de evento (.etl) novo seja criado. Um novo arquivo de log é criado quando o tamanho definido é atingido, mesmo se o tempo máximo definido no EtlFileRolloverMinutes não tiver sido atingido ainda.  <br/> |

@@ -1,5 +1,6 @@
 ---
 title: Tabela AppSharingMetricsThreshold
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 description: A tabela AppSharingMetricsThreshold contém valores ótimos e aceitáveis para as métricas de qualidade da experiência usadas com compartilhamento de aplicativos. Esses limites são usados para determinar se a experiência de compartilhamento de aplicativo deve ser classificado como insatisfatória.
-ms.openlocfilehash: 1ccf60fc9668d2ad2943929affad6fd4a078c789
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bddad99803ab6683985b0f44ed5df509b84344f3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877039"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>Tabela AppSharingMetricsThreshold
  
@@ -22,7 +24,7 @@ A tabela AppSharingMetricsThreshold contém valores ótimos e aceitáveis para a
   
 Esta tabela foi introduzida no Microsoft Lync Server 2013.
   
-|**Coluna**|**Tipo de dados**|**Índice de chaves /**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**CallType** <br/> |int  <br/> |Primária  <br/> |Tipo de chamada feita.  <br/> |
 |**AppliedBandwidthLimitOptimal** <br/> |int  <br/> ||Limitação de largura de banda otimizado para compartilhamento de aplicativos. O valor padrão é 1.000.000.  <br/> |

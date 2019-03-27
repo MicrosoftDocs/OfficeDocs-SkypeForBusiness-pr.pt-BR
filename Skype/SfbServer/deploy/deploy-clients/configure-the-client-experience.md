@@ -1,5 +1,6 @@
 ---
 title: Configurar a experiência do cliente com Skype para negócios 2015
+ms.reviewer: ''
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Resumo: Leia este tópico para saber como configurar a experiência do cliente para Skype para usuários comerciais.'
-ms.openlocfilehash: 9e2a7d53788eda36fc18cb9094cde096864ce2ba
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b8d258236a5254aa1dab5e86edb9586ea514c689
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375355"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875789"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurar a experiência do cliente com Skype para negócios 2015
  
@@ -98,19 +99,19 @@ Se você quiser exibir a interface do usuário do Lync quando os usuários inici
 
 A interface do usuário do Lync será exibida quando os usuários iniciarem o cliente Skype for Business pela primeira vez.
   
-### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Controlar a exibição do tutorial da tela de boas-vindas
+### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Tutorial de controle da exibição da tela de boas-vindas
 
 Quando os usuários abrem o Skype para o cliente de negócios, o comportamento padrão é exibir uma tela de boas-vindas que inclui *7 dicas rápidas para a maioria das pessoas pedir*. Você pode desativar a exibição da tela de boas-vindas, mais ainda permitir que os usuários acessem o tutorial adicionando o seguinte valor do Registro no computador cliente:
   
 Na chave **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]**, crie um novo **Valor de DWORD (32 bits)**. O **Nome do valor** deve ser **IsBasicTutorialSeenByUser**, e os **Dados do valor** devem ser definidos como **1**.
   
-A chave deve ser semelhante a esta:
+A chave resultante deve se parecer com a seguinte:
   
 `"IsBasicTutorialSeenByUser"=dword:00000001`
 
 ### <a name="turn-off-the-client-tutorial"></a>Desativar o tutorial do cliente
 
-Se você não quiser que os usuários acessem o tutorial, desative o tutorial do cliente com o seguinte valor do Registro:
+Se não quiser que seus usuários tenham acesso ao tutorial, você pode desligar o tutorial do cliente com o seguinte valor de Registro:
   
 Na chave **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]**, crie um novo **Valor de DWORD (32 bits)**. O **Nome do valor** deve ser **TutorialFeatureEnabled**, e os **Dados do valor** devem ser definidos como **0**.
   
@@ -130,11 +131,11 @@ Se sua organização tem ambas Skype para Business Server e o Lync Server implan
 |**Versão do servidor**|**Configuração EnableSkypeUI**|**Experiência do cliente**|
 |:-----|:-----|:-----|
 |Skype for Business Server |Padrão  <br/> |Skype for Business  <br/> |
-|Skype for Business Server  |Verdadeiro  <br/> |Skype for Business  <br/> |
-|Skype for Business Server  |Falso  <br/> |Usuário é solicitado a alternar para o modo do Lync (usuário pode alternar para Skype para negócios posteriormente se você alterar a configuração de interface do usuário para $true)  <br/> |
+|Skype for Business Server  |True  <br/> |Skype for Business  <br/> |
+|Skype for Business Server  |False  <br/> |Usuário é solicitado a alternar para o modo do Lync (usuário pode alternar para Skype para negócios posteriormente se você alterar a configuração de interface do usuário para $true)  <br/> |
 |Lync Server 2010 ou o Lync Server 2013 (com patches corretas)  <br/> |Padrão  <br/> |Usuário é solicitado a alternar para o modo do Lync (usuário pode alternar para Skype para negócios posteriormente se você alterar a configuração de interface do usuário para $true)  <br/> |
-|Lync Server 2010 ou o Lync Server 2013 (com patches corretas)  <br/> |Verdadeiro  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 ou o Lync Server 2013 (com patches corretas)  <br/> |Falso  <br/> |Usuário é solicitado a alternar para o modo do Lync (usuário pode alternar para Skype para negócios posteriormente se você alterar a configuração de interface do usuário para $true)  <br/> |
+|Lync Server 2010 ou o Lync Server 2013 (com patches corretas)  <br/> |True  <br/> |Skype for Business  <br/> |
+|Lync Server 2010 ou o Lync Server 2013 (com patches corretas)  <br/> |False  <br/> |Usuário é solicitado a alternar para o modo do Lync (usuário pode alternar para Skype para negócios posteriormente se você alterar a configuração de interface do usuário para $true)  <br/> |
 |Lync Server 2010 ou o Lync Server 2013 (sem patches)  <br/> |Padrão  <br/> |Usuário é solicitado a alternar para o modo do Lync (o usuário não pode alternar para Skype para negócios posterior)  <br/> |
    
 A próxima tabela mostra a experiência do cliente quando o administrador altera a configuração inicial para a experiência do Skype UI:
@@ -142,10 +143,10 @@ A próxima tabela mostra a experiência do cliente quando o administrador altera
 
 |**Versão do servidor**|**Configuração EnableSkypeUI**|**Cliente UI = Lync**|**Interface do usuário do cliente = Skype for Business**|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Server |Verdadeiro  <br/> |Usuário é solicitado a alternar para Skype para negócios  <br/> |Skype for Business  <br/> |
-|Skype for Business Server |Falso  <br/> |Modo do Lync  <br/> |Usuário é solicitado a alternar para o modo do Lync  <br/> |
-|Lync Server 2010 ou o Lync Server 2013 (com patches corretas)  <br/> |Verdadeiro  <br/> |Usuário é solicitado a alternar para Skype para negócios  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 ou o Lync Server 2013 (com patches corretas)  <br/> |Falso  <br/> |Modo do Lync  <br/> |Usuário é solicitado a alternar para o modo do Lync  <br/> |
+|Skype for Business Server |True  <br/> |Usuário é solicitado a alternar para Skype para negócios  <br/> |Skype for Business  <br/> |
+|Skype for Business Server |False  <br/> |Modo do Lync  <br/> |Usuário é solicitado a alternar para o modo do Lync  <br/> |
+|Lync Server 2010 ou o Lync Server 2013 (com patches corretas)  <br/> |True  <br/> |Usuário é solicitado a alternar para Skype para negócios  <br/> |Skype for Business  <br/> |
+|Lync Server 2010 ou o Lync Server 2013 (com patches corretas)  <br/> |False  <br/> |Modo do Lync  <br/> |Usuário é solicitado a alternar para o modo do Lync  <br/> |
 |Lync Server 2010 ou o Lync Server 2013 (sem patches)  <br/> |Padrão  <br/> |Modo do Lync (não é possível alternar para Skype para negócios)  <br/> |Modo do Lync (não é possível alternar para Skype para negócios)  <br/> |
    
 As versões de patch necessárias para gerenciar a configuração do Skype para o cliente de negócios são:
@@ -154,7 +155,7 @@ As versões de patch necessárias para gerenciar a configuração do Skype para 
     
 - Lync Server 2013 - atualização cumulativa de dezembro de 2014 (5.0.8308.857) para o Lync Server 2013. Para obter informações, consulte [atualizações do Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532772).
     
-## <a name="create-a-group-policy-object-to-modify-the-registry-on-a-domain-joined-computer"></a>Criar um Objeto de Política de Grupo para modificar o Registro em um computador que ingressou no domínio
+## <a name="create-a-group-policy-object-to-modify-the-registry-on-a-domain-joined-computer"></a>Crie um Objeto de Política de Grupo para modificar o registro em um computador com ingresso no domínio
 
 A atualização do registro para exibir a experiência do cliente do Lync na primeira vez que um usuário inicia o Skype para negócios 2015 cliente deve ser feita apenas uma vez. Se você usar um Objeto de Política de Grupo (GPO) para atualizar o Registro, será preciso definir o objeto para um novo valor em vez de atualizar os Dados de valor. Quando o GPO for aplicado, se não existir um novo valor, o GPO o criará e configurará os Dados de valor para 0. 
   
@@ -189,11 +190,11 @@ O procedimento a seguir descreve como modificar o registro para que a experiênc
    
 8. Clique em **OK** para salvar as alterações e feche o GPO.
     
-Em seguida, você precisará vincular o GPO que você criou para o grupo de usuários ao qual a política será atribuída, como uma UO.
+Em seguida, você terá de vincular o GPO criado ao grupo de usuários ao qual você deseja atribuir a política, tal como uma unidade organizacional (OU).
   
 ### <a name="to-use-the-gpo-to-assign-the-policy"></a>Para usar o GPO para atribuir a política
 
-1. No Console de Gerenciamento de Política de Grupo, clique com o botão direito do mouse na UO para a qual você deseja atribuir a política e selecione **Vincular a um GPO existente**.
+1. No Console de Gerenciamento de Política de Grupo, clique com o botão direito do mouse na OU à qual você deseja atribuir a política e, em seguida, selecione **Vincular a um GPO existente**.
     
 2. Na caixa de diálogo **Selecionar GPO**, selecione o GPO que você criou e clique em **OK**.
     

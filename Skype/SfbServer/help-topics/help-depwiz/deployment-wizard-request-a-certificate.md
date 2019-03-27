@@ -1,5 +1,6 @@
 ---
 title: Assistente de implantação solicitar um certificado
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
 description: Para obter detalhes sobre como usar o Assistente de implantação para instalar Skype para Business Server 2015, consulte instalar Skype for Business Server 2015.
-ms.openlocfilehash: 448583706f1f9a0f4afd92f99474594fe429b149
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8adc283a2196b8bc1b86f39e6365bb112060203a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874263"
 ---
 # <a name="deployment-wizard-request-a-certificate"></a>Assistente de Implantação: Solicitar um Certificado
  

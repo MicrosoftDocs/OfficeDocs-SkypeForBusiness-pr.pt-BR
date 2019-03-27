@@ -1,5 +1,6 @@
 ---
-title: Opção-CcVersion
+title: Switch-CcVersion
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
-description: O cmdlet Switch-CcVersion desconecta o dispositivo em execução e alterna para um dispositivo recentemente implantado ou de backup.
-ms.openlocfilehash: 651dad80ef5c9907eb6c182527b646da7aa5acc8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'O cmdlet Switch-CcVersion desconecta o dispositivo em execução e alterna para um dispositivo recentemente implantado ou de backup. '
+ms.openlocfilehash: 73ae9b4f93a2488dea29f3271565ac3d25759fd1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872856"
 ---
-# <a name="switch-ccversion"></a>Opção-CcVersion
+# <a name="switch-ccversion"></a>Switch-CcVersion
  
-O cmdlet Switch-CcVersion desconecta o dispositivo em execução e alterna para um dispositivo recentemente implantado ou de backup. 
+O cmdlet Switch-CcVersion desconecta o dispositivo em execução e alterna para um dispositivo recentemente implantado ou de backup.  
   
 ```
 Switch-CcVersion [-Force]
@@ -37,7 +39,7 @@ Switch-CcVersion
 
 ### <a name="example-2"></a>Exemplo 2
 
-O próximo exemplo drena os serviços do dispositivo em execução no momento e interrompe os serviços  compulsoriamente, quando a drenagem dos serviços falha.  O comando, então, alterna para um dispositivo implantado recentemente ou de backup:
+O próximo exemplo drena os serviços do dispositivo em execução no momento e interrompe os serviços  compulsoriamente, quando a drenagem dos serviços falha. O comando, então, alterna para um dispositivo implantado recentemente ou de backup:
   
 ```
 Switch-CcVersion -Force
@@ -53,7 +55,7 @@ O cmdlet do comutador-CcVersion esvazia os serviços de nuvem conector no servid
 
 |**Parâmetro**|**Obrigatório**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| Forçar <br/> | Opcional <br/> |System.Management.Automation.SwitchParameter  <br/> | Interrompe compulsoriamente os serviços, quando a drenagem dos serviços falha. <br/> |
+| Forçar <br/> | Opcional <br/> |System.Management.Automation.SwitchParameter  <br/> |  Interrompe compulsoriamente os serviços, quando a drenagem dos serviços falha. <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
@@ -63,9 +65,9 @@ Nenhum
 ## <a name="return-types"></a>Tipos de retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum
+Nenhum 
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 <a name="ReturnTypes"> </a>
 
 Nenhum

@@ -1,5 +1,6 @@
 ---
 title: Configurar a integração do Cloud Connector com seu locatário do Office 365
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Saiba como configurar a integração do Cloud Connector com seu locatário do Office 365.
-ms.openlocfilehash: 837775fea5a128dbbb8d143f15064e08d9267756
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 52b66d7870f8416b1dda1a3b5f34f8f028f65557
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729376"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877892"
 ---
-# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
+# <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configurar a integração do Cloud Connector com seu locatário do Office 365
  
 Saiba como configurar a integração do Cloud Connector com seu locatário do Office 365.
   
@@ -42,7 +43,7 @@ Se você usa o protocolo TLS entre os Servidores de Mediação e os gateways, é
     
 3. Importe o Certificado de Autoridade de Certificação raiz emitido para seu gateway nos Servidores de Mediação. Para obter um certificado SSL para o gateway, use o serviço da Autoridade de Certificação em execução no computador do Active Directory do Cloud Connector, da seguinte maneira:
     
-   - Modifique o modelo do servidor web existente para permitir que os usuários autenticados se inscrevam ou crie um novo modelo de servidor web para configurar outras propriedades e permitir que os usuários autenticados se inscrevam. Para obter instruções detalhadas, consulte  [Modelos de certificado](https://technet.microsoft.com/en-us/library/cc730705.aspx).
+   - Modifique o modelo do servidor web existente para permitir que os usuários autenticados se inscrevam ou crie um novo modelo de servidor web para configurar outras propriedades e permitir que os usuários autenticados se inscrevam. Para obter instruções detalhadas, consulte [Modelos de certificado](https://technet.microsoft.com/en-us/library/cc730705.aspx).
     
    - Solicite um certificado usando o snap-in certificado selecionando o modelo de servidor Web que você habilitou. Certifique-se de adicionar o nome comum no assunto e o nome DNS no nome alternativo com o FQDN do gateway e confirmar a chave privada que tornam a chave privada exportável está selecionada em Opções de chave. 
     
@@ -54,7 +55,7 @@ Confira se você concluiu as etapas de atualização de seu domínio no Office 3
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Adicionar registros DNS ao Office 365 para borda
 
-Adicione os seguintes registros DNS a seu locatário do Office 365. Para obter informações sobre como adicionar registros DNS a seu locatário do Office 365, consulte [Adicionar ou editar registros DNS personalizados no Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
+Adicione os seguintes registros DNS a seu locatário do Office 365. Para obter informações sobre como adicionar registros DNS para seu locatário do Office 365, consulte [Adicionar ou editar registros DNS personalizados no Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
   
 1. Adicionar um registro DNS A à Borda de Acesso
     
@@ -88,7 +89,7 @@ Se você usa o protocolo TLS entre os Servidores de Mediação e os gateways, é
     
 3. Importe o Certificado de Autoridade de Certificação raiz emitido para seu gateway nos Servidores de Mediação. Para obter um certificado SSL para o gateway, use o serviço da Autoridade de Certificação em execução no computador do Active Directory do Cloud Connector, da seguinte maneira:
     
-   - Modificar o modelo de servidor Web existente para permitir que os usuários autenticados registrar ou criar um novo modelo de servidor Web para configurar outras propriedades e permitir que os usuários autenticados que se inscrevam. Para obter instruções detalhadas, consulte  [Modelos de certificado](https://technet.microsoft.com/library/cc730705.aspx).
+   - Modificar o modelo de servidor Web existente para permitir que os usuários autenticados registrar ou criar um novo modelo de servidor Web para configurar outras propriedades e permitir que os usuários autenticados que se inscrevam. Para obter instruções detalhadas, consulte [Modelos de certificado](https://technet.microsoft.com/library/cc730705.aspx).
     
    - Solicite um certificado usando o snap-in certificado selecionando o modelo de servidor Web que você habilitou. Certifique-se de adicionar o nome comum no assunto e o nome DNS no nome alternativo com o FQDN do gateway e confirmar a chave privada que tornam a chave privada exportável está selecionada em Opções de chave. 
     
@@ -98,7 +99,7 @@ Se você usa o protocolo TLS entre os Servidores de Mediação e os gateways, é
     
 ## <a name="set-up-your-users-in-office-365"></a>Configurar usuários no Office 365
 
-Faça logon no portal de administração do Office 365, adicione os usuários que serão habilitados para serviços de voz online e atribua a licença E5 ou o complemento do Sistema de Telefonia do Office 365 à licença E3 para esses usuários. Para obter informações sobre como adicionar usuários, consulte [Adicionar usuários individualmente ao Office 365 para empresas](https://support.office.com/en-US/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Faça logon no portal de administração do Office 365, adicione os usuários que serão habilitados para serviços de voz online e atribua a licença E5 ou o complemento do Sistema de Telefonia do Office 365 à licença E3 para esses usuários. Para obter informações sobre como adicionar usuários, consulte [Adicionar usuários para o Office 365 para empresas](https://support.office.com/en-US/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
   
 ## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>Habilitar usuários para os serviços de voz e de caixa postal do Sistema de Telefonia do Office 365
 

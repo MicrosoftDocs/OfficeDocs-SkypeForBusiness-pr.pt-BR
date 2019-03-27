@@ -1,5 +1,6 @@
 ---
 title: Requisitos de servidor no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumo: Prepare seu Skype para servidores de negócios Server 2015 com este tópico. Hardware, sistema operacional, bancos de dados, software, todos os requisitos do sistema e recomendações estão aqui ajudar a garantir uma instalação bem-sucedida e a implantação de farm de servidores.'
-ms.openlocfilehash: f9c85fb774362e00c8b34e9cc0343e71e499ce49
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 1c970a517fbb984d09aeba066a69726c9461a12c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210641"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875894"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Requisitos de servidor no Skype for Business Server 2015
  
@@ -48,7 +49,7 @@ Hardware recomendado para servidores Front-End, servidores Back-End, servidores 
 |:-----|:-----|
 |CPU  <br/> |Processador duplo de 64 bits, núcleo hexagonal, 2.26 gigahertz (GHz) ou superior.  <br/> Processadores Intel Itanium não são suportados para Skype para funções de negócios Server 2015.  <br/> |
 |Memória  <br/> |32 gigabytes (GB).  <br/> |
-|Disco  <br/> |UMA DAS OPÇÕES:  <br/> • 8 ou mais unidades de disco rígido de 10000 RPM com pelo menos 72 GB de espaço livre (dois dos discos usando RAID 1 e 6 usando RAID 10).   <br/> OU  <br/> • Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho similar ao de 8 unidades de disco mecânicas de 10000 RPM.  <br/> |
+|Disco  <br/> |UMA DESTAS OPÇÕES:  <br/> • 8 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB livre em disco espaço (dois dos discos usando RAID 1 e 6 usar RAID 10).  <br/> OR  <br/> • Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho similar para 8 unidades de disco mecânicas 10.000 RPM.  <br/> |
 |Rede  <br/> |1 adaptador de rede duplo, 1 Gbps ou superior (2 adaptadores de rede podem ser usados, mas eles precisam estar combinados com um único endereço MAC e um único endereço IP).  <br/> Configurações duas ou multihomed são **não** suportado para servidores Front-End, servidores Back-End, Standard Edition servidores e os servidores de Chat persistente. <br/> Desde que não sejam expostos ao sistema operacional e sejam usados para monitorar e gerenciar o hardware de servidor, você pode ter sistemas de gerenciamento fora de banda, como DRAC ou ILO. Esse cenário não constitui um servidor multihomed e tem suporte.<br/> |
    
 Hardware recomendado para servidores de borda, servidores de mediação autônomo, servidores de interoperabilidade de vídeo e diretores:
@@ -57,7 +58,7 @@ Hardware recomendado para servidores de borda, servidores de mediação autônom
 |:-----|:-----|
 |CPU  <br/> |Processador duplo de 64 bits, quad-core, 2.26 gigahertz (GHz) ou superior.  <br/> Processadores Intel Itanium não são suportados para Skype para funções de negócios Server 2015.  <br/> |
 |Memória  <br/> |16 GB.  <br/> |
-|Disco  <br/> |UMA DESTAS OPÇÕES:  <br/> • 4 ou mais unidades de disco rígido de 10000 RPM com pelo menos 72 GB de espaço livre (os discos devem estar em uma configuração de 2x RAID 1).  <br/> OU  <br/> • Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho similar ao de 4 unidades de disco mecânicas de 10000 RPM.  <br/> |
+|Disco  <br/> |UMA DESTAS OPÇÕES:  <br/> • 4 ou mais 10.000 RPM discos rígidos com pelo menos 72 GB livre (os discos devem estar em uma configuração de RAID 1 2x) de espaço em disco.  <br/> OR  <br/> • Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho similar a 4 unidades de disco mecânicas 10.000 RPM.  <br/> |
 |Rede  <br/> |1 adaptador de rede duplo, 1 Gbps ou superior (2 adaptadores de rede podem ser usados, mas eles precisam estar combinados com um único endereço MAC e um único endereço IP).  <br/> São configurações duas multihomed ou **não** tem suporte para servidores de interoperabilidade de vídeo e diretores. <br/> Servidores de borda exigem duas interfaces de rede que são adaptadores de rede dual-port, 1 Gbps ou superior (ou dois adaptador de rede pareados, com um total de quatro, sendo que cada par está combinado com um único endereço MAC e um único endereço IP).  <br/> Em autônoma, a instalação de placas de interface de rede adicionais (NICs) para permitir que a configuração de um endereço IP PSTN específico de servidores de mediação é suportado.  <br/> |
    
 ## <a name="operating-systems-for-skype-for-business-server-2015"></a>Sistemas operacionais para Skype para Business Server 2015
@@ -74,15 +75,15 @@ Depois que você tiver o hardware no lugar, você precisará instalar os sistema
 Se não for dessa lista, ele não funcionará corretamente, não tente novas instalações do Skype para Business Server 2015.
   
 > [!NOTE]
-> Você pode ter notado que o Windows Server 2008 R2 não está nessa lista. Isso porque recomendamos o Windows Server 2012 R2 para todos os novos servidores a serem usados para o Skype for Business. Você só poderia usar o Windows Server 2008 R2 quando já tiver servidores instalados com o Lync Server 2013 e quiser fazer uma atualização in-loco desses servidores. O Windows Server 2008 R2 chegou ao final do ciclo de vida do suporte comercial no dia 13 de janeiro de 2015. 
+> Você deve ter percebido que Windows Server 2008 R2 não estiver nesta lista. Isso acontece porque, recomendamos que o Windows Server 2012 R2 para todos os novos servidores a serem usados para SFB. Você deve apenas ser usando Windows Server 2008 R2 quando você tiver servidores existentes com o Lync Server 2013 já instalado e você estiver pretendem fazer uma atualização in-loco deles. Windows Server 2008 R2 atingiu o final do ciclo de vida de suporte base em 1/13/2015. 
   
 Além da última versão do service pack, as atualizações a seguir devem estar instaladas quando for pertinente para você:
   
-- Para o Windows Server 2012, instale o artigo 2858668 da base de dados de conhecimento antes de fazer uma atualização. [Obtenha-o aqui](https://support.microsoft.com/en-us/kb/2858668/).
+- Para o Windows Server 2012, instale o artigo 2858668 da base de dados de conhecimento antes de fazer uma atualização. [Obtê-lo aqui](https://support.microsoft.com/en-us/kb/2858668/).
     
 - Se você tem o Windows Server 2012 R2, instale o artigo 2982006 da base de dados de conhecimento antes de fazer uma atualização. [Ele é encontrado aqui](https://support.microsoft.com/en-us/kb/2982006/).
     
-- Se você está fazendo uma atualização em uma caixa do Windows Server 2008 R2 (veja a Observação acima), instale o artigo 2533623 da base de dados de conhecimento primeiro. [Você encontra tudo neste link](https://support.microsoft.com/en-us/kb/2533623/).
+- Se você está fazendo uma atualização em uma caixa do Windows Server 2008 R2 (veja a Observação acima), instale o artigo 2533623 da base de dados de conhecimento primeiro. [É neste link](https://support.microsoft.com/en-us/kb/2533623/).
     
 ## <a name="back-end-databases-that-will-work-with-skype-for-business-server-2015"></a>Bancos de dados back-end compatíveis com o Skype for Business Server 2015
 <a name="DBs"> </a>
@@ -102,7 +103,7 @@ Se você não vir a edição do SQL Server que você deseja usar listado aqui, v
 > Você vai também precisa instalar o SQL Server Reporting Services para a função Monitoring Server.
 
 ### <a name="microsoft-exchange-storage"></a>Armazenamento do Microsoft Exchange
-Arquivos de conteúdo das reuniões, tais como apresentações em PowerPoint, são arquivados como anexo. Se você deseja armazenar Skype para dados de arquivo morto de negócios com os dados de conformidade do Exchange, você deve usar o Exchange para sua implantação do Exchange e certifique-se de que o tamanho máximo de armazenamento suporta o armazenamento dos arquivos de conteúdo de reunião. Você deve implantar o Exchange antes de implantar e habilitar o arquivamento usando a opção de integração do Microsoft Exchange. 
+Meeting content files, such as PowerPoint presentations, are archived as attachments. Se você deseja armazenar Skype para dados de arquivo morto de negócios com os dados de conformidade do Exchange, você deve usar o Exchange para sua implantação do Exchange e certifique-se de que o tamanho máximo de armazenamento suporta o armazenamento dos arquivos de conteúdo de reunião. Você deve implantar o Exchange antes de implantar e habilitar o arquivamento usando a opção de integração do Microsoft Exchange. 
     
     If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
   
@@ -152,9 +153,9 @@ Dezesseis nós:
 - Microsoft SQL Server 2012 Enterprise (edição de 64 bits) e é recomendável executar com o service pack mais recente.
 
 > [!IMPORTANT]
-> Para atualizar, queremos para garantir que em seus servidores Front-End você possui pelo menos, SQL Server 2012 SP1 instalado antes da atualização. [Aqui está o link](https://www.microsoft.com/en-us/download/details.aspx?id=35575) para o SP1, se quiser baixá-lo imediatamente.
+> Para atualizar, queremos para garantir que em seus servidores Front-End você possui pelo menos, SQL Server 2012 SP1 instalado antes da atualização. [Aqui está um link](https://www.microsoft.com/en-us/download/details.aspx?id=35575) para o SP1, se você quiser baixá-lo imediatamente.
   
-Se você precisar ler até obter mais informações sobre o espelhamento SQL, temos uma alta disponibilidade de servidor Back-End em Skype para tópico Business Server 2015. Configure o clustering do SQL Server para Skype para Business Server 2015 tem as etapas para obtenção de clustering ready. Há também outros links sobre clustering de failover para SQL, para as versões [2014](https://technet.microsoft.com/en-us/library/hh231721.aspx), [2012](https://technet.microsoft.com/en-us/library/hh231721%28v=sql.110%29.aspx) e [2008](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
+Se você precisar ler até obter mais informações sobre o espelhamento SQL, temos uma alta disponibilidade de servidor Back-End em Skype para tópico Business Server 2015. Configure o clustering do SQL Server para Skype para Business Server 2015 tem as etapas para obtenção de clustering ready. Também há ainda mais links em failover cluster do SQL, de [2014](https://technet.microsoft.com/en-us/library/hh231721.aspx), [2012](https://technet.microsoft.com/en-us/library/hh231721%28v=sql.110%29.aspx)e [2008](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
   
 > [!NOTE]
 > Novo na versão 2015 é suporte SQL Always On. Ele é suportado, e você pode ler mais sobre ele no tópico de [alta disponibilidade do servidor Back-End no Skype para Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md) .
@@ -171,7 +172,7 @@ Há algumas coisas que você vai precisar instalar ou configurar para qualquer s
   
 |**Software/função**|**Detalhes**|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |Skype todos os servidores do Business Server precisa Windows PowerShell 3.0 instalado.  <br/> • Se você estiver fazendo a instalação no Windows Server 2012 ou Windows Server 2012 R2, você estiver definido, pois ele já está.  <br/> • Se você estiver fazendo uma atualização no Windows Server 2008 R2, você pode baixar o [Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595) para instalá-la. <br/> **Dica:** quando tiver a versão correta do PowerShell, acesse o prompt do PowerShell e digite `$PSVersionTable` para confirmar se você tem o build versão 6.2.9200.0 ou posterior. Você verá todas as informações de que precisa.<br/> |
+|Windows PowerShell 3.0  <br/> |Skype todos os servidores do Business Server precisa Windows PowerShell 3.0 instalado.  <br/> • Se você estiver fazendo a instalação no Windows Server 2012 ou Windows Server 2012 R2, você estiver definido, pois ele já está.  <br/> • Se você estiver fazendo uma atualização no Windows Server 2008 R2, você pode baixar o [Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595) para instalá-la. <br/> **Dica:** Depois que você tiver o PowerShell correto no daí, confirme se ele está BuildVersion 6.2.9200.0 ou posterior indo para o PowerShell solicitar e digitando `$PSVersionTable`. Isso deve trazer às informações que necessárias.  <br/> |
 |Microsoft .NET Framework  <br/> |Os serviços WCF é um **recurso** que não tenha instalado como um recurso do Windows, em **Gerenciador de servidores**, nenhum download necessário. <br/> • Você precisará certificar-se, quando você instalar esse recurso, ou se ele já estiver instalado e você está verificando nele, a opção de **Ativação de HTTP** também é verificada e instalada, da seguinte forma: <br/> ![Captura de tela mostrando a opção de ativação de HTTP sob os recursos do .NET Framework 4.5. ](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png)Não se preocupe se você receber um pop-up adicional dizendo algumas outras coisas precisam ser instalados para ativação de HTTP ser instalado. Isso é normal, então clique em OK e siga em frente. Se a janela pop-up não aparecer, isso significa que essas coisas já estão instaladas e você pode seguir em frente.  <br/> Microsoft .NET Framework geralmente é instalado quando o Windows Server 2012 R2 ou Windows Server 2016 estão instalados. Skype para Business Server funciona com as seguintes versões do Microsoft .NET Framework:  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6. x  <br/> • .NET 4.7.1 e superiores (para Skype para Business Server CU 5 ou versões posteriores)  <br/>  .NET framework 3.5 provavelmente será instalado por padrão em sua máquina do Windows Server 2008 R2 (definitivamente Certifique-se antes de atualizar), mas ele realmente não será em seus servidores do Windows Server 2012/Windows Server 2012 R2 (para instalações novas). Para adicioná-lo no, você precisará ter acesso à sua unidade de instalação ou mídia (o local do Windows Server foi instalado a partir ou onde os arquivos de instalação estão agora). Depois, você poderá instalá-lo como um recurso do Gerenciador do Servidor e apontar para a mídia de instalação (mais especificamente, a pasta **\sources\sxs**) quando solicitado, e então continuar a instalação. <br/> |
 |Media Foundation  <br/> |Para Windows Server 2016, Windows Server 2012 e Windows Server 2012 R2 o Windows Media Format Runtime é instalado com o Microsoft Media Foundation.  <br/> Todos os servidores Front-End e servidores Standard Edition usados para conferências exigem o Windows Media Format Runtime executar os arquivos Windows Media Audio (. wma) que reproduzem os aplicativos estacionamento de chamada, grupo de resposta e comunicado para anúncios e música.  <br/> |
 |Windows Identity Foundation  <br/> |Precisamos Windows Identity Foundation 3.5 para suportar cenários de autenticação de servidor-para-servidor para Skype para Business Server 2015.  <br/> • Para Windows Server 2012 e Windows Server 2012 R2, não é necessário para baixar qualquer coisa. Abra o **Gerenciador do Servidor** e vá para o **Assistente de Adição de Funções e Recursos**. O **Windows Identity Foundation 3.5** está listado na seção **Recursos**. Se ela estiver marcada, você está bom. Caso contrário, clique em Avançar para acessar o botão **Instalar**. <br/> |
@@ -183,7 +184,7 @@ Há algumas coisas que você vai precisar instalar ou configurar para qualquer s
 |:-----|:-----|
 |IIS (Serviços de Informações da Internet)  <br/> |O IIS é necessário em todos os servidores Front-End, bem como todos os servidores Standard Edition, com os seguintes módulos selecionados:  <br/> • Os recursos HTTP comuns: padrão de conteúdo de documento, erros de HTTP, estático  <br/> • Integridade e diagnósticos: log, ferramentas de log de rastreamento de HTTP  <br/> • Desempenho: compactação de conteúdo estático, compressão de conteúdo dinâmico  <br/> • Segurança: filtragem de solicitações, autenticação de mapeamento de certificado de cliente, a autenticação do Windows  <br/> Desenvolvimento de aplicativos •: extensibilidade do .NET 3.5, extensibilidade do .NET 4.5, ASP.NET 3.5, ASP.NET 4.5, extensões ISAPI, filtros ISAPI  <br/> • Ferramentas de gerenciamento: Console de gerenciamento do IIS, Scripts de gerenciamento do IIS e ferramentas  <br/> Devemos observar acesso anônimo também é necessária, mas você obterá que, quando você instala o IIS, portanto você não tem um lugar para selecioná-la na lista.  <br/> |
 |Tempo de Execução do Windows Media Format  <br/> | Para Windows Server 2016, Windows Server 2012 e Windows Server 2012 R2, você precisará instalar o recurso de **Media Foundation** no **Gerenciador do servidor**. Agora, na verdade, você pode iniciar sua Skype para Business Server 2015 instalação sem este aqui, mas você será solicitado a instalá-lo e, em seguida, reinicializar o servidor, antes do Skype para Business Server 2015 instalar continua. É melhor fazer isso com antecedência. <br/> |
-|Silverlight  <br/> |Você pode instalar a versão mais recente do Silverlight  [neste link](https://www.microsoft.com/silverlight/).  <br/> |
+|Silverlight  <br/> |Você pode instalar a versão mais recente do Silverlight [neste](https://www.microsoft.com/silverlight/)link.  <br/> |
    
 > [!NOTE] 
 > Você também pode precisar habilitar a pesquisa no diretório se você estiver usando um balanceador de carga. Caso contrário, será carregada uma página em branco que o balanceador de carga pode considerar uma falha. 
@@ -253,7 +254,7 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
  **Servidores de Chat persistente também precisa:**
   
-Enfileiramento de Mensagens, também é chamado MSMQ. Esse é um componente do Windows Server e você pode instalá-lo sob a seção de recursos no Gerenciador de servidores. Se quiser ler mais a respeite, veja [Instalando e gerenciando o Enfileiramento de Mensagens](https://technet.microsoft.com/en-us/library/cc771474.aspx).
+Enfileiramento de Mensagens, também é chamado MSMQ. Esse é um componente do Windows Server e você pode instalá-lo sob a seção de recursos no Gerenciador de servidores. Se você quiser ler mais sobre isso, confira [Instalando e gerenciando o serviço de enfileiramento](https://technet.microsoft.com/en-us/library/cc771474.aspx).
   
  **Últimas observações:**
   

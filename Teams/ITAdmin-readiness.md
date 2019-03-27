@@ -1,5 +1,6 @@
 ---
 title: Treinamento para o administrador do Microsoft Teams
+ms.reviewer: ''
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -14,12 +15,12 @@ search.appverid: MET150
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para os administradores sobre como planejar, implantar e executar Teams da Microsoft.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f166d3a00fbf0ea9b51fa1d083ed490d7323df0c
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 8294854a3ff4ed7d38b90380b1e1e25230f859d1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641156"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872706"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 
@@ -97,7 +98,7 @@ Use os recursos de treinamento sobre as equipes, ensinar aos outros usuários ou
 | Eventos ao vivo | [Vídeo](https://aka.ms/teams-live-events-session) | [Deck](https://aka.ms/teams-live-events-deck) |
 | Introdução do sistema de telefone | [Vídeo](https://aka.ms/teams-phone-system) | [Deck](https://aka.ms/teams-phone-system-deck) |
 | Direcionar circulação | [Vídeo](https://aka.ms/teams-direct-routing) | [Deck](https://aka.ms/teams-direct-routing-deck) |
-| Atualização do Skype for Business para o Microsoft Teams | [Vídeo 1: Introdução à atualização](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: Planejar a atualização](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: Interoperabilidade e coexistência](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: Experiência do administrador](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|
+| Atualização do Skype for Business para o Teams | [Vídeo 1: Introdução à atualização](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: Planejar a atualização](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: Interoperabilidade e coexistência](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: Experiência do administrador](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|
 
 <h2>Guias de início rápido</h2>
 

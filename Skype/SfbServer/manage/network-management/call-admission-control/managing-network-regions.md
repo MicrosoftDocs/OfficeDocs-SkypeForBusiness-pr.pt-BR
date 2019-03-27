@@ -1,5 +1,6 @@
 ---
 title: Gerenciando as regiões de rede
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Região de rede * são os hubs de rede ou o backbones usados na configuração do bypass de mídia, E9-1-1 e controle de admissão chamada.
-ms.openlocfilehash: 3fe6707e6949fa47a9cc5e96703e06132ed8cb2f
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: ea574fe981af679e4d841d786daf04460d1fb7c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223308"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877626"
 ---
-# <a name="managing-network-regions-in-skype-for-business-server"></a>Gerenciando regiões de rede Skype para Business Server
+# <a name="managing-network-regions-in-skype-for-business-server"></a>Gerenciar regiões de rede no Skype for Business Server
 
 *Regiões de rede* são os hubs de rede ou o backbones usados na configuração do bypass de mídia, E9-1-1 e controle de admissão chamada. Use os procedimentos a seguir para exibir, criar ou modificar regiões de rede. Por exemplo, se você já criou regiões de rede para um recurso de voz, você não precisará criar novas regiões de rede; outros recursos avançados do Enterprise Voice usará esses mesmos regiões de rede. No entanto, pode ser necessário modificar uma definição de região da rede existente para aplicar as configurações específicas do recurso. Por exemplo, se você cria regiões da rede para o E9-1-1 (que não exige um local central associado) e depois implanta o serviço de controle de admissão de chamadas, precisará modificar as definições de região da rede para especificar um local central. 
 

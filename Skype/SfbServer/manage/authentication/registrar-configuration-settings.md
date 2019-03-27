@@ -1,5 +1,6 @@
 ---
 title: Gerenciar definições de configuração de registrador no Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: 'Resumo: Gerencie definições de configuração de registrador para Skype para Business Server.'
-ms.openlocfilehash: 65dfae7e518ef1b561a6782f9555de2d5dd6a6fa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a1dda801049313cc2fc4dead94b524c300885924
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998992"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877053"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>Gerenciar definições de configuração de registrador no Skype para Business Server
  
@@ -27,7 +28,7 @@ ms.locfileid: "20998992"
     
 - **NTLM** Esta é a autenticação baseada em senha disponível para os clientes que usam um esquema de hash de desafio-resposta na senha. Essa é a única forma de autenticação disponível para clientes sem conectividade com um Centro de distribuição de chaves (controlador de domínio Kerberos), como usuários remotos. Se um servidor autenticar somente usuários remotos, escolha NTLM.
     
-- **Autenticação de certificado** Este é o novo método de autenticação quando o servidor precisa obter certificados de clientes do Lync Phone Edition, telefones de área comum, Skype para a empresa e o aplicativo da Windows Store do Lync. Nos clientes do Lync Phone Edition, depois que um usuário entra no e é autenticado com êxito, fornecendo um número de identificação pessoal (PIN), Skype para Business Server e provisiona o URI do SIP para o telefone e provisiona um Skype para Business Server assinado certificado ou um certificado de usuário que identifica Joe (ex.: SN=joe@contoso.com) para o telefone. Esse certificado é usado para autenticar com o registrador e serviços da Web.
+- **Autenticação de certificado** Este é o novo método de autenticação quando o servidor precisa obter certificados de clientes do Lync Phone Edition, telefones de área comum, Skype para a empresa e o aplicativo da Windows Store do Lync. Nos clientes do Lync Phone Edition, depois que um usuário entra no e é autenticado com êxito, fornecendo um número de identificação pessoal (PIN), Skype para Business Server e provisiona o URI do SIP para o telefone e provisiona um Skype para Business Server assinado certificado ou um certificado de usuário que identifica Joe (ex.: SN=joe@contoso.com) para o telefone. This certificate is used for authenticating with the Registrar and Web Services.
     
 > [!NOTE]
 > Recomendamos a habilitação do Kerberos e NTLM quando um servidor suporta autenticação para clientes remotos e empresariais. O Servidor de Borda e os servidores internos se comunicam para assegurar que somente a autenticação NTLM seja oferecida aos clientes remotos. Se somente Kerberos for habilitado nesses servidores, não poderão autenticar usuários remotos. Se os usuários empresariais também autenticarem com base no servidor, o Kerberos será usado. 

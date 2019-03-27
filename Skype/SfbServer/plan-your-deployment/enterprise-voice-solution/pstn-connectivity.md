@@ -1,5 +1,6 @@
 ---
 title: Componentes de conectividade PSTN em Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: Saiba mais sobre o tronco SIP e gateways PSTN para o Enterprise Voice no Skype para Business Server.
-ms.openlocfilehash: d770e47917d8fc1d56e6a74d896938151ac00895
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 06c4b79d07b776b4f5820f67ab86ac958db32686
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887988"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876997"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Componentes de conectividade PSTN em Skype para Business Server
  
@@ -55,7 +56,7 @@ Cenários de integração de PBX Enterprise Voice com suporte são os seguintes:
 - Conexão PBX TDM, com um gateway PSTN autônomo.
     
 > [!NOTE]
-> O bypass de mídia não irá interoperar com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e fez alguns testes com IP-PBXs da Cisco. Bypass de mídia é suportado somente com produtos e versões listadas em [Unified Communications programa de interoperabilidade aberta - Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406). 
+> O bypass de mídia não irá interoperar com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com os parceiros certificados e realizou alguns testes com IP-PBXs da Cisco. Bypass de mídia é suportado somente com produtos e versões listadas em [Unified Communications programa de interoperabilidade aberta - Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406). 
   
 Para obter detalhes sobre parceiros que oferecem soluções do Enterprise Voice, consulte o [site do Microsoft Unified Communications Partners](https://go.microsoft.com/fwlink/p/?linkId=202836).
   

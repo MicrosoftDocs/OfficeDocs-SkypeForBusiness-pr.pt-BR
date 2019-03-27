@@ -1,5 +1,6 @@
 ---
-title: Remover o banco de dados do SQL Server para um servidor de monitoramento
+title: Remover banco de dados do SQL Server de um servidor de Monitoramento
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Depois de remover um Monitoring Server, você pode remover os bancos de dados do SQL Server que hospedava os dados do servidor. Use os procedimentos a seguir para remover as definições do construtor de topologia e, em seguida, remover os arquivos de banco de dados e log do servidor de banco de dados.
-ms.openlocfilehash: 85999f1bbb3fc443edcab9d1f1354f26187c6a75
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7e299eb2de3fc0820cd4497c2956c71ceec79910
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373354"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876339"
 ---
-# <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>Remover o banco de dados do SQL Server para um servidor de monitoramento
+# <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>Remover banco de dados do SQL Server de um servidor de Monitoramento
 
 Depois de remover um Monitoring Server, você pode remover os bancos de dados do SQL Server que hospedava os dados do servidor. Use os procedimentos a seguir para remover as definições do construtor de topologia e, em seguida, remover os arquivos de banco de dados e log do servidor de banco de dados.
   

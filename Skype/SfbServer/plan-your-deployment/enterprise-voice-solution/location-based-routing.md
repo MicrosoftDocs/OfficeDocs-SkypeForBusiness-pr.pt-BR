@@ -1,5 +1,6 @@
 ---
 title: Plano para roteamento baseado em local no Skype para negócios
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Planejando o roteamento baseado em local no Skype para Business Server Enterprise Voice, incluindo a interação com a delegação e toque simultâneo e os cenários com suporte para roteamento baseado no local.
-ms.openlocfilehash: 1e4f19d96306db31be0606dbfda799e93c2d34e0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 2e9070e5ecddcf88e5edac8064409177caa82b4d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886095"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874361"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Plano para roteamento baseado em local no Skype para negócios
 
@@ -103,7 +104,7 @@ A tabela a seguir ilustra como baseados em local roteamento afeta o roteamento d
 |:-----|:-----|:-----|:-----|
 |Roteamento da chamada PSTN recebida  <br/> |Chamada de entrada é roteada para pontos de extremidade do receptor  <br/> |Chamada de entrada não é roteada para pontos de extremidade do receptor  <br/> |Chamada de entrada não é roteada para pontos de extremidade do receptor  <br/> |
 
-### <a name="call-transfers-and-call-forwarding"></a>Transferências e encaminhamento de chamadas
+### <a name="call-transfers-and-call-forwarding"></a>Transferência e encaminhamento de chamadas
 
 Quando um ponto de extremidade PSTN está envolvido, roteamento baseado em local analisa o local do ponto de extremidade do calle e o ponto de extremidade em que a chamada será transferida ou encaminhada para (ou seja, o destino de transferência/encaminhar). Roteamento baseado em local determina se a chamada deve ser transferida ou encaminhada dependendo do local de ambos os pontos de extremidade.
 
@@ -236,7 +237,7 @@ A tabela a seguir identifica os clientes que suporta roteamento baseado no local
 |O Lync Mobile 2010  <br/> |sim  <br/> ||
 
 > [!NOTE]
-> Para desativar o VoIP para Skype para clientes corporativos, atribua uma política de mobilidade com a configuração, de áudio/vídeo IP desabilitada para todos os usuários habilitados para roteamento baseado no local. Para obter mais detalhes sobre a política de mobilidade, consulte [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+> Para desativar o VoIP para Skype para clientes corporativos, atribua uma política de mobilidade com a configuração, de áudio/vídeo IP desabilitada para todos os usuários habilitados para roteamento baseado no local. Para obter mais detalhes sobre política de mobilidade, consulte [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
 
 ## <a name="capabilities-not-supported-by-location-based-routing"></a>Recursos não suportados pelo Roteamento Baseado em Local
 

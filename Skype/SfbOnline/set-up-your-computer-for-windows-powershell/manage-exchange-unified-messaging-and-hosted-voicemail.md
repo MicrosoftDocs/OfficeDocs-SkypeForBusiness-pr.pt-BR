@@ -1,5 +1,6 @@
 ---
 title: Gerenciar a Unificação de Mensagens do Exchange e a caixa postal hospedada
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Use o PowerShell para gerenciar recursos de Unificação de mensagens do Exchange, como o atendedor automático e acesso ao assinante e caixa postal hospedada no Skype para negócios Online.
-ms.openlocfilehash: d00328ad50bdcfeea326255d1dcd6d22daa9a3a4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 02fda8c315807899983741f94c1f825de1ebf1a9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372850"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873507"
 ---
 # <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Gerenciar a Unificação de Mensagens do Exchange e a caixa postal hospedada
 

@@ -1,5 +1,6 @@
 ---
 title: Os usuários editam o usuário
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,20 +13,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 9935f5c9546c1382a35d6adb0ea4f625be0a3391
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 18b9d5f6ccae5216888fd8c9be541790c13ce70f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258561"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877430"
 ---
-# <a name="users-edit-user"></a>Usuários: Editar usuário
+# <a name="users-edit-user"></a>Usuários: Editar Usuário
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 
-- [Habilitar ou desabilitar usuários para o Lync Server 2010](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [Enable or Disable Users for Lync Server 2010](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
 
-- [Habilitar usuários do Enterprise Voice no Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [Atribuir uma política de conferência para modificar a experiência de reunião padrão do usuário](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
 
@@ -33,13 +34,13 @@ O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 
 - [Atribuir uma política de PIN por usuário no Skype for Business Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
 
-- [Configurar a federação, acesso de usuário remoto e conectividade de IM pública para usuários](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
 - [Configurar o arquivamento das comunicações do usuário](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
 - [Atribuir uma política de local a um usuário](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
-- [Configurar telefonia para usuários](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Configure Telephony for Users](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
 - [Atribuir uma política de mobilidade por usuário](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
 

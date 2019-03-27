@@ -1,5 +1,6 @@
 ---
-title: Solicitação de certificado (nomes alternativos da entidade)
+title: Solicitação de Certificado (Nomes de Entidade Alternativos)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 ROBOTS: NOINDEX, NOFOLLOW
 description: O nome da entidade / página nomes de entidade alternativos apresenta um resumo do nome da entidade e todos os nomes de entidade alternativos que preencherão o certificado. Os nomes apresentados para o nome da entidade e nomes de entidade alternativos são coletados do documento definição, como ela foi criada quando a implantação foi definida no construtor de topologias.
-ms.openlocfilehash: 02a6f4a88c76004966b6d81bc55b3fef1c133e7c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c3de09f21ee0b1121d5bb081c33a5d4d32ea7518
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026754"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873293"
 ---
-# <a name="certificate-request-subject-alternate-names"></a>Solicitação de certificado (nomes alternativos da entidade)
+# <a name="certificate-request-subject-alternate-names"></a>Solicitação de Certificado (Nomes de Entidade Alternativos)
  
 O **nome da entidade / nomes alternativos da entidade** página apresenta um resumo do nome da entidade e todos os nomes de entidade alternativos que preencherão o certificado. Os nomes apresentados para o nome da entidade e nomes de entidade alternativos são coletados do documento definição, como ela foi criada quando a implantação foi definida no construtor de topologias.
   

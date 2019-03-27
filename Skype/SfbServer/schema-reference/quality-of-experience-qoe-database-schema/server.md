@@ -1,5 +1,6 @@
 ---
 title: Tabela Server
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
 description: A tabela de servidor é uma tabela de suporte. Cada registro representa um servidor.
-ms.openlocfilehash: be48b90cc727ebfd0320b38ac0d89a302dab6b07
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 877743f5d589cd4fea34039786b33bd410069bb3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874305"
 ---
 # <a name="server-table"></a>Tabela Server
  
 A tabela de servidor é uma tabela de suporte. Cada registro representa um servidor. 
   
-|**Coluna**|**Tipo de dados**|**Índice de chaves /**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ServerKey** <br/> |int  <br/> |Primária  <br/> |Número exclusivo que identifica o servidor.  <br/> |
 |**FQDNOrIP** <br/> |nvarchar(256)  <br/> |índice  <br/> |Cadeia de caracteres de endereço MAC.  <br/> |

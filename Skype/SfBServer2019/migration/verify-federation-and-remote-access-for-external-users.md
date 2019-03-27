@@ -1,5 +1,6 @@
 ---
-title: Verificar a federação e acesso remoto para usuários externos
+title: Verificar o acesso remoto e de federação para usuários externos
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Após a transição da rota de federação para o Skype para o servidor de borda de 2019 Business Server, você deve executar alguns testes funcionais para verificar se a Federação funciona conforme o esperado. Testes de acesso de usuário externo devem incluir a cada tipo de usuário externo que sua organização suporta, incluindo qualquer um ou todos os itens a seguir.
-ms.openlocfilehash: ce0e2dd6ee7d4fb605f844d7dfb26b3f9d13bf14
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3a520b39d76ab93f4ec7fcaacd139b3f83a3326a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027232"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876694"
 ---
-# <a name="verify-federation-and-remote-access-for-external-users"></a>Verificar a federação e acesso remoto para usuários externos
+# <a name="verify-federation-and-remote-access-for-external-users"></a>Verificar o acesso remoto e de federação para usuários externos
 
 Após a transição da rota de federação para o Skype para o servidor de borda de 2019 Business Server, você deve executar alguns testes funcionais para verificar se a Federação funciona conforme o esperado. Testes de acesso de usuário externo devem incluir a cada tipo de usuário externo que sua organização suporta, incluindo qualquer um ou todos os itens a seguir.
   

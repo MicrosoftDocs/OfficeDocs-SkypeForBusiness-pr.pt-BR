@@ -1,5 +1,6 @@
 ---
-title: Remover um servidor Front-End de um pool
+title: Remover um Servidor Front-End de um pool
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Servidor Front-End não pode existir como um computador autônomo. Ele deve ser definido como um pool de Front-End, mesmo se houver apenas um único computador no pool.
-ms.openlocfilehash: a9f0adc991355b6f79b20365795ffaf92fa230e2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f026570f0dff377ba7ca0c28975a685e236a9e13
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028940"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874735"
 ---
-# <a name="remove-a-front-end-server-from-a-pool"></a>Remover um servidor Front-End de um pool
+# <a name="remove-a-front-end-server-from-a-pool"></a>Remover um Servidor Front-End de um pool
 
 Servidor Front-End não pode existir como um computador autônomo. Ele deve ser definido como um pool de Front-End, mesmo se houver apenas um único computador no pool.
   

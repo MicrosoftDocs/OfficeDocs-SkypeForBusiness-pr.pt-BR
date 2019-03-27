@@ -1,5 +1,6 @@
 ---
-title: Remover o banco de dados do SQL Server para um servidor de arquivamento
+title: Remover o banco de dados do Servidor SQL de um servidor de Arquivamento
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Depois de remover um servidor de arquivamento, você pode remover os bancos de dados do SQL Server que hospedava os dados do pool. Use os procedimentos a seguir para remover as definições do construtor de topologia e, em seguida, remover os arquivos de banco de dados e log do servidor de banco de dados.
-ms.openlocfilehash: b7c1fe6591564a690ea1da55fb65eb1071661d63
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: acb402dd6cb28be5b607b8a358524dfc0c1fea69
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370798"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875437"
 ---
-# <a name="remove-the-sql-server-database-for-an-archiving-server"></a>Remover o banco de dados do SQL Server para um servidor de arquivamento
+# <a name="remove-the-sql-server-database-for-an-archiving-server"></a>Remover o banco de dados do Servidor SQL de um servidor de Arquivamento
 
 Depois de remover um servidor de arquivamento, você pode remover os bancos de dados do SQL Server que hospedava os dados do pool. Use os procedimentos a seguir para remover as definições do construtor de topologia e, em seguida, remover os arquivos de banco de dados e log do servidor de banco de dados.
   

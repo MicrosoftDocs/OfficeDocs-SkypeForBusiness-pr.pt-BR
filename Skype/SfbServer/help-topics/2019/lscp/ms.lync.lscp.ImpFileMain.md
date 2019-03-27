@@ -1,5 +1,6 @@
 ---
-title: Filtro de arquivo
+title: Filtro de Arquivo
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 6178d9e5-a919-4a7d-9633-d5f155556306
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 9d68dbcfc41e7f470c7a22e978e8609defa5af8d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a4e6ab21ac1dc5b52bea4cd5e8d8c02fd642d8da
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250256"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877787"
 ---
-# <a name="file-filter"></a>Filtro de arquivo
+# <a name="file-filter"></a>Filtro de Arquivo
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 

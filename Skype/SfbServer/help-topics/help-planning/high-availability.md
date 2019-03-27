@@ -1,5 +1,6 @@
 ---
-title: Alta disponibilidade (ferramenta de planejamento)
+title: High Availability (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,16 +13,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
-description: O esquema principal de alta disponibilidade para a maioria das funções de servidor em Skype para Business Server 2015 se baseia em redundância de servidor por meio do pool. Se um servidor que executa determinada função de servidor falhar, os outros servidores que executam a mesma função no pool assumirão a carga daquele servidor.
-ms.openlocfilehash: 8441db5ee4a84c573ed6a1642473b827382e4654
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: O esquema principal de alta disponibilidade para a maioria das funções de servidor em Skype para Business Server 2015 se baseia em redundância de servidor por meio do pool. Se um servidor que estiver executando uma determinada função do servidor falhar, os outros servidores no pool que executam a mesma função assumirão a carga desse servidor.
+ms.openlocfilehash: 50cc5f371e4964555aae2a7f50ce3d1431f4f10c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874022"
 ---
-# <a name="high-availability-planning-tool"></a>Alta disponibilidade (ferramenta de planejamento)
+# <a name="high-availability-planning-tool"></a>High Availability (Planning Tool)
  
-O esquema principal de alta disponibilidade para a maioria das funções de servidor em Skype para Business Server 2015 se baseia em redundância de servidor por meio do pool. Se um servidor que executa determinada função de servidor falhar, os outros servidores que executam a mesma função no pool assumirão a carga daquele servidor.
+O esquema principal de alta disponibilidade para a maioria das funções de servidor em Skype para Business Server 2015 se baseia em redundância de servidor por meio do pool. Se um servidor que estiver executando uma determinada função do servidor falhar, os outros servidores no pool que executam a mesma função assumirão a carga desse servidor.
   
 Skype para Business Server 2015 requer pelo menos dois servidores Front-End para habilitar a alta disponibilidade. A ferramenta de planejamento usa os seguintes critérios para determinar se ele adicionará servidores adicionais para dar suporte à alta disponibilidade:
   

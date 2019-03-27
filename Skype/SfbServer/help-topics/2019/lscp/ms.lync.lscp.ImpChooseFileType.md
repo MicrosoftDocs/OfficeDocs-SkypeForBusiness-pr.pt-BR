@@ -1,5 +1,6 @@
 ---
-title: Selecionar extensões de tipo de arquivo
+title: Selecionar Extensões de Tipo de Arquivo
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use a caixa de diálogo Selecionar extensões de tipo de arquivo para selecionar as extensões de tipo de arquivo que você deseja bloquear ou permitir marcando (para bloquear) ou desmarcando (para permitir) as caixas de seleção ao lado das extensões de arquivo Digite extensões. Clique na seta para expandir uma categoria e exibir todas as extensões de tipo de arquivo para essa categoria. Se você deseja selecionar todas as extensões de tipo de arquivo para uma categoria, selecione o nome da categoria.
-ms.openlocfilehash: e9dd652859a5aeda5c1d8a95b20964018b88e3de
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 17ded977e4b5d4dc217ca8d2743d1e5ac369c342
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975124"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873454"
 ---
-# <a name="select-file-type-extensions"></a>Selecionar extensões de tipo de arquivo
+# <a name="select-file-type-extensions"></a>Selecionar Extensões de Tipo de Arquivo
  
 Use a caixa de diálogo **Selecionar extensões de tipo de arquivo** para selecionar as extensões de tipo de arquivo que você deseja bloquear ou permitir marcando (para bloquear) ou desmarcando (para permitir) as caixas de seleção ao lado das extensões de **extensões de tipo de arquivo**. Clique na seta para expandir uma categoria e exibir todas as extensões de tipo de arquivo para essa categoria. Se você deseja selecionar todas as extensões de tipo de arquivo para uma categoria, selecione o nome da categoria. 
   

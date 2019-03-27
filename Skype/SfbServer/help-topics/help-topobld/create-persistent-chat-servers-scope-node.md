@@ -1,5 +1,6 @@
 ---
 title: Criar Nó de Escopo de Servidores de Chat Persistente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 'Você direito do mouse em Pool de Chat persistente no construtor de topologias para executar o seguinte:'
-ms.openlocfilehash: e8126dd3576d71a955c45a53c4fd2cd66eb14142
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 76027854078ca7ab90422943964fb920f8e85fd9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503435"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877955"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Criar Nó de Escopo de Servidores de Chat Persistente
  
@@ -31,7 +32,7 @@ Além da opção Novo Pool de Chat Persistente, é possível executar as seguint
     
 - **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
     
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Planejar Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

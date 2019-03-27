@@ -1,5 +1,6 @@
 ---
-title: Infraestrutura de voz (ferramenta de planejamento)
+title: Voice Infrastructure (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 description: Skype para Business Server 2015 fornece uma conectividade PSTN confiável e escalável usando troncos SIP, conexões SIP diretas com um gateway PSTN ou conexões SIP diretas com um PBX. Para obter detalhes, consulte Plan for conectividade PSTN em Skype para Business Server 2015.
-ms.openlocfilehash: 085cdd065a92543e8c5709553477d115fdb3ce1a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2edde6f20edbfa91b652ef2dfdab501a7b753f71
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873032"
 ---
-# <a name="voice-infrastructure-planning-tool"></a>Infraestrutura de voz (ferramenta de planejamento)
+# <a name="voice-infrastructure-planning-tool"></a>Voice Infrastructure (Planning Tool)
  
 Skype para Business Server 2015 fornece uma conectividade PSTN confiável e escalável usando troncos SIP, conexões SIP diretas com um gateway PSTN ou conexões SIP diretas com um PBX. Para obter detalhes, consulte [Planejar a conectividade PSTN em Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
   

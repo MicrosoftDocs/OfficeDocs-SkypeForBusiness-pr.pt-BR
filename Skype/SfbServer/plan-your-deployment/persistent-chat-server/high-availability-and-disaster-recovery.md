@@ -1,5 +1,6 @@
 ---
 title: Plano para alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Resumo: Leia este tópico para saber como planejar para alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype Business Server 2015.'
-ms.openlocfilehash: 90f01de0ca7efef8fdcda4f03fa4bfaa28bd4fcc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 88584c43cb205d10d2baacb6cb31c4e8fdbb228a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971652"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874791"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Plano para alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business Server 2015
  
@@ -47,7 +48,7 @@ Antes de configurar o servidor de Chat persistente para alta disponibilidade e r
     
 ## <a name="disaster-recovery-and-high-availability-solutions"></a>Soluções de recuperação de desastre e alta disponibilidade
 
-Skype para Business Server suporta vários modos de alta disponibilidade para seus servidores Back-End, incluindo o espelhamento de banco de dados. Para obter mais informações, consulte o [plano de alta disponibilidade e recuperação de desastres em Skype para Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
+Skype para Business Server suporta vários modos de alta disponibilidade para seus servidores Back-End, incluindo o espelhamento de banco de dados. Para obter mais informações, veja [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
   
 A solução de recuperação de desastres para o servidor de Chat persistente descrito neste tópico baseia-se em um pool do servidor de Chat persistente ampliado. Não há requisitos para uma VLAN (rede local virtual) ampliada. Por alongamento um pool do servidor de Chat persistente, você configurar um pool na topologia logicamente, mas você coloque os servidores fisicamente no pool em dois diferentes de data centers. Configure o espelhamento do SQL Server para o banco de dados do mesmo modo e implante o banco de dados e o espelho no mesmo data center. Você deve configurar um banco de dados de backup no data center secundário (com um espelho opcional para fornecer alta disponibilidade durante a recuperação de desastre). Esse é o banco de dados de backup usado para failover durante a recuperação de desastre. 
   
@@ -81,7 +82,7 @@ A Figura 1 mostra uma topologia ampliada do pool de servidor de Chat persistente
     
 **Pool de servidor de chat persistente ampliado quando os data centers estão localizados geograficamente com alta largura de banda/baixa latência.**
 
-![Pool Estendido de Chat Persistente com alta largura de banda/baixa latência](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
+![Alongado Pool de Chat persistente com alta largura de banda/baixa latência](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
   
 Figura 2 mostra uma topologia ampliada do pool de servidor de Chat persistente onde os data centers estão Geo-localizados com baixa largura de banda/alta latência.
   
@@ -105,6 +106,6 @@ Figura 2 mostra uma topologia ampliada do pool de servidor de Chat persistente o
     
 **Pool de servidor de chat persistente ampliado quando os data centers estão localizados geograficamente com baixa largura de banda/alta latência.**
 
-![Pool Estendido de Chat Persistente com baixa largura de banda/alta latência](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
+![Alongado Pool de Chat persistente com baixa largura de banda/alta latência](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
   
 

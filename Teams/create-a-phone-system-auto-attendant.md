@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendedores automáticos de sistema telefônico (nuvem PBX) para eficiente tratamento de chamadas para sua organização.
-ms.openlocfilehash: 83a59090e447a5bfbda4cf72481b9d6b1ce21a0e
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5071b3c26809e56df4cdd922ed1df2e67fc9481c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542315"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873475"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Configurar os atendedores automáticos do Sistema Telefônico
 
@@ -37,19 +37,21 @@ Se você deseja saber mais sobre os atendedores automáticos, consulte [Cite ate
 > [!NOTE]
 > Este artigo se aplica ao Microsoft Teams e Skype para Business Online.
 
-## <a name="step-1---getting-started"></a>Etapa 1 - Introdução
+## <a name="step-1---get-started"></a>Etapa 1 - Introdução
 
-- Antes de criar e configurar suas atendedores automáticos, se o atendedor automático terá um número de telefone (e muitos segundo nível solicita ou aninhadas vão de atendedores automáticos não exigem um número de telefone) será necessário obter ou transferir sua chamada Tarifada existente ou serviço gratuito números . Após você fazer a chamada Tarifada ou números gratuitos de serviço, eles serão exibidas no **Centro de administração do Microsoft equipes** > **voz** > página**números de telefone** . Para obter seus números de serviço, consulte [Getting números de telefone de serviço](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)ou, se você deseja transferir e o número de serviço existente, consulte [transferir os números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md). **User (subscriber)** numbers can't be assigned to auto attendants. Se você estiver fora dos Estados Unidos, você não pode usar o Centro de administração do Microsoft Teams para obter números de serviço; Vá [aqui](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- Antes de criar e configurar suas atendedores automáticos, se o atendedor automático terá um número de telefone (e muitos segundo nível solicita ou aninhadas vão de atendedores automáticos não exigem um número de telefone) será necessário obter ou transferir sua chamada Tarifada existente ou serviço gratuito números . Após você fazer a chamada Tarifada ou números gratuitos de serviço, eles serão exibidas no **Centro de administração do Microsoft equipes** > **voz** > página**números de telefone** . Para obter seus números de serviço, consulte [Getting números de telefone de serviço](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)ou, se você deseja transferir e o número de serviço existente, consulte [transferir os números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md). **User (subscriber)** numbers can't be assigned to auto attendants. Se você estiver fora dos Estados Unidos, você não pode usar o Centro de administração do Microsoft Teams para obter números de serviço; Vá [aqui](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
     > [!CAUTION]
     > Para obter e usar números de telefone gratuitos, você precisa configurar Créditos de Comunicação. Para fazer isso, consulte [O que são Créditos de Comunicação?](what-are-communications-credits.md) e [Configurar Créditos de Comunicação para a sua organização](set-up-communications-credits-for-your-organization.md).
   
-- Sua organização deve ter (no mínimo), uma licença Enterprise E3 plus **Sistema telefônico** ou uma licença Enterprise E5. O número de licenças de usuário do **Sistema telefônico** atribuídos afeta o número de números de serviço que estão disponíveis a serem usados para atendedores automáticos. Os números dos atendedores automáticos que depende das licenças de **Sistema telefônico** e **Audioconferência** números que são atribuídas em sua organização. Para saber mais sobre licenciamento, vá [aqui](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Sua organização deve ter (no mínimo), uma licença Enterprise E3 plus **Sistema telefônico** ou uma licença Enterprise E5. O número de licenças de usuário do **Sistema telefônico** atribuídos afeta o número de números de serviço que estão disponíveis a serem usados para atendedores automáticos. Os números dos atendedores automáticos que depende das licenças de **Sistema telefônico** e **Audioconferência** números que são atribuídas em sua organização. Para saber mais sobre o licenciamento, consulte [Skype para licenciamento de complemento de negócios](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) ou [equipes da Microsoft de licenciamento de complemento](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). .
 
     > [!TIP]
-    > Para redirecionar chamadas para um operador ou uma opção de menu que é um usuário Online com uma licença de **Sistema telefônico** , você precisará habilitá-los para o Enterprise Voice ou atribuir chamar planos no Office 365 para acessá-los. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Você também pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Para redirecionar chamadas para um operador ou uma opção de menu que é um usuário Online com uma licença de **Sistema telefônico** , você precisará habilitá-los para o Enterprise Voice ou atribuir chamar planos no Office 365 para acessá-los. Consulte [Atribuir Skype para licenças de negócios](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) ou [equipes da Microsoft atribuir licenças](assign-teams-licenses.md). Você também pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2---create-a-new-auto-attendant"></a>Etapa 2 - Criar um novo atendedor automático
+
+[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > Cada fila de chamada é necessário ter uma [conta do recurso](manage-resource-accounts.md)de associada. Você deve criar a conta do recurso primeiro, depois você pode associá-lo para o atendedor automático.
@@ -363,12 +365,13 @@ Veja os cmdlets necessários para gerenciar um atendedor automático.
 
 [Veja aqui o que você obtém com o Sistema de Telefonia no Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[Obter números de telefone de serviço](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[Obter números de telefone de serviço](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-[Disponibilidade de audioconferência e planos de chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
 [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
 [O que são atendedores automáticos do Sistema de Telefonia?](what-are-phone-system-auto-attendants.md)
 
-[Exemplo de pequenas empresas - Configurar um atendedor automático](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
+[Exemplo de pequenas empresas - Configurar um atendedor automático](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa
+)  

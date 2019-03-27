@@ -11,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Este artigo explica as preparações de infraestrutura para implantar sistemas de sala Skype v2.
-ms.openlocfilehash: 24ad623b81df5735c9034d8526e6b028e82dfb83
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 89c035816784bf160ad7f1ed821ed0effe916f31
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371879"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876069"
 ---
-# <a name="prepare-your-environment"></a>Prepare seu ambiente
+# <a name="prepare-your-environment"></a>Preparar seu ambiente
 
 Esta seção contém uma visão geral das etapas necessárias para preparar seu Skype para o ambiente de negócios para que você possa usar todos os recursos de sistemas de sala Skype v2.
   
@@ -84,30 +84,30 @@ Sistemas de sala Skype v2 foi projetado para herdar as configurações de Proxy 
 3. No **Windows de pesquisa** caixa tipo da esquerda inferior Regedit (tanto tempo pressione tela ou clique com botão direito e escolha **Executar como administrador**).
     
 4. Clique na pasta HKEY_USERS (você verá uma lista de SIDs de usuários do computador) e verifique se a pasta raiz HKEY_USERS está selecionada.
-    
-    Você será solicitado para um nome de chave para seu Hive carregado recentemente; Digite Skype (agora você deve ver as configurações do registro para o usuário Skype).
-    
+       
 5. Clique em arquivo e escolha **Carregar Hive.**
     
 6. Procure a para o **C:\Users\Skype** pasta e digite o nome de arquivo. dat de caixa em pressione o botão Abrir
-    
-7. Abra a chave do Skype e navegue até HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet configurações e certifique-se de que essas configurações são inseridas: 
+
+7. Você será solicitado para um nome de chave para seu Hive carregado recentemente; Digite Skype (agora você deve ver as configurações do registro para o usuário Skype).
+ 
+8. Abra a chave do Skype e navegue até HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet configurações e certifique-se de que essas configurações são inseridas: 
     
     [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
     
-    "MigrateProxy" = DWORD: 00000001
+    "MigrateProxy"=dword:00000001
     
-    "ProxyEnable" = DWORD: 00000001
+    "ProxyEnable"=dword:00000001
     
     "ProxyServer"="xx.xx.xx.xx:8080"
     
     Se ProxyServer não existir, talvez seja necessário adicionar essa chave como uma cadeia de caracteres. Altere xx.xx.xx.xx:8080 para o ip/host e a porta de seu servidor proxy.
     
-8. Depois que terminar de fazer as alterações, realce o usuário Skype principais (pasta raiz do Skype) e escolha descarregar seção no menu Arquivo do registro (será solicitado para confirmação - selecionar **Sim** ).
+9. Depois que terminar de fazer as alterações, realce o usuário Skype principais (pasta raiz do Skype) e escolha descarregar seção no menu Arquivo do registro (será solicitado para confirmação - selecionar **Sim** ).
     
-9. Agora, você pode fechar o editor do Registro e digitar logoff na caixa de pesquisa do Windows.
+10. Agora, você pode fechar o editor do Registro e digitar logoff na caixa de pesquisa do Windows.
     
-10. Voltando à tela de entrada, escolha o usuário **Skype**. Se todas as etapas anteriores forem bem-sucedidas, o dispositivo de v2 Skype sala sistemas serão entrar com êxito.
+11. Voltando à tela de entrada, escolha o usuário **Skype**. Se todas as etapas anteriores forem bem-sucedidas, o dispositivo de v2 Skype sala sistemas serão entrar com êxito.
     
 Para usar esse aplicativo, você deve poder conectar-se aos pontos de extremidades descritos abaixo. Para ver os endereços IP, expanda a seção de endereços IP abaixo da tabela que descreve o fluxo de tráfego.
   
@@ -124,7 +124,7 @@ Para usar esse aplicativo, você deve poder conectar-se aos pontos de extremidad
 |Vídeo  <br/> |Computador cliente ou usuário conectado  <br/> |TCP/UDP 50.020-50039  <br/> |\*. contoso.com  <br/> |Não  <br/> |Sim  <br/> |[Skype para intervalos de IP de negócios](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50.000-59.999  <br/> |
 |Compartilhamento de área de trabalho  <br/> |Computador cliente ou usuário conectado  <br/> |TCP/UDP 50.040-50059  <br/> |\*. contoso.com  <br/> |Não  <br/> |Sim  <br/> |[Skype para intervalos de IP de negócios](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50.000-59.999  <br/> |
 |Notificações por push do Lync Mobile para o Lync Mobile 2010 em dispositivos iOS. Você não precisa disso para dispositivos móveis Android, Nokia Symbian ou Windows Phone.  <br/> |Computador cliente ou usuário conectado  <br/> |Portas efêmeras  <br/> |\*. contoso.com  <br/> |Não  <br/> |Sim  <br/> |[Skype para intervalos de IP de negócios](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
-|Telemetria do Skype  <br/> |Computador cliente ou usuário conectado  <br/> |Portas efêmeras  <br/> |skypemaprdsitus.trafficmanager.NET  <br/> pipe.Skype.com  <br/> |Não  <br/> |Não  <br/> |N/D  <br/> |TCP 443  <br/> |
+|Telemetria do Skype  <br/> |Computador cliente ou usuário conectado  <br/> |Portas efêmeras  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Não  <br/> |Não  <br/> |N/D  <br/> |TCP 443  <br/> |
 |Dicas rápidas do cliente Skype  <br/> |Computador cliente ou usuário conectado  <br/> |Portas efêmeras  <br/> |quicktips.skypeforbusiness.com  <br/> |Não  <br/> |Não  <br/> |N/D  <br/> |TCP 443  <br/> |
    
 > [!NOTE]
@@ -164,7 +164,7 @@ Muito como qualquer dispositivo do Windows, o nome da máquina podem ser renomea
   
  Se você gostaria de renomear o computador após ingressá-lo a um domínio, use o comando PowerShell renomear computador seguido pelo nome do novo do computador.
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Planejar a sala Skype v2 de sistemas](skype-room-systems-v2-0.md)
 

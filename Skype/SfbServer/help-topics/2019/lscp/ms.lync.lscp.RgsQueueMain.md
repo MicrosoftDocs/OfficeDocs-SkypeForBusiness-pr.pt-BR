@@ -1,5 +1,6 @@
 ---
-title: Fila de grupos de resposta
+title: Fila de Grupos de Resposta
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Filas de espera do grupo de resposta chamadas para um grupo de resposta em espera até que um operador responde à chamada.
-ms.openlocfilehash: d42290fc43464de3c540a2a642f71ba161a71dd3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1c4d8418623b61d82a0ccb3b0bc942ebbc5f07f3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250585"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874861"
 ---
-# <a name="response-groups-queue"></a>Fila de grupos de resposta
+# <a name="response-groups-queue"></a>Fila de Grupos de Resposta
 
 Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Filas de espera do grupo de resposta chamadas para um grupo de resposta em espera até que um operador responde à chamada.
 

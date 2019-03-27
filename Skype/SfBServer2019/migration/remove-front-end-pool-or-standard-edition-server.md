@@ -1,5 +1,6 @@
 ---
-title: Remover o pool de Front-End ou servidor Standard Edition
+title: Remover um pool Front-End ou um servidor Standard Edition
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este tópico o orienta o processo de remoção de um pool de Front-End ou um Standard Edition servidor Front-End. Quando você remover um pool de Front-End, você pode remover cada servidor Front-End que pertence ao pool como parte do processo de remoção do pool. Quando você remove um Standard Edition servidor Front-End, você deve remover a definição de repositório SQL do construtor de topologia.
-ms.openlocfilehash: 7e56f2e9ff57536d1f065452f299a9af33a46aee
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 394edcd6f5c89478ed98abebe0be29720d009107
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028884"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872714"
 ---
-# <a name="remove-front-end-pool-or-standard-edition-server"></a>Remover o pool de Front-End ou servidor Standard Edition
+# <a name="remove-front-end-pool-or-standard-edition-server"></a>Remover um pool Front-End ou um servidor Standard Edition
 
 Este artigo o orienta o processo de remoção de um pool de Front-End ou um Standard Edition servidor Front-End. Quando você remover um pool de Front-End, você pode remover cada servidor Front-End que pertence ao pool como parte do processo de remoção do pool. Quando você remove um Standard Edition servidor Front-End, você deve remover a definição de repositório SQL do construtor de topologia.
   

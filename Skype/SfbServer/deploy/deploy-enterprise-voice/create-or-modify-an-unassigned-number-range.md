@@ -1,5 +1,6 @@
 ---
 title: Criar ou modificar um intervalo de números não atribuído no Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
-description: Criar, modificar ou excluir intervalos de números não atribuídos para o aplicativo de anúncio no Skype para Business Server Enterprise Voice. Isso afeta como o sistema lida com as chamadas para números não atribuídos.
-ms.openlocfilehash: 519f4b753314325b1af71f11f94ea669e78148a1
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+description: Criar, modificar ou excluir intervalos de números não atribuídos para o aplicativo de anúncio no Skype para Business Server Enterprise Voice. Isso afeta o modo como nas chamadas para números não atribuídos são administradas.
+ms.openlocfilehash: 9546e4caaab30ae7582866dbcefd680b04de33f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625663"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872892"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Criar ou modificar um intervalo de números não atribuído no Skype para Business Server
  
-Criar, modificar ou excluir intervalos de números não atribuídos para o aplicativo de anúncio no Skype para Business Server Enterprise Voice. Isso afeta como o sistema lida com as chamadas para números não atribuídos.
+Criar, modificar ou excluir intervalos de números não atribuídos para o aplicativo de anúncio no Skype para Business Server Enterprise Voice. Isso afeta o modo como nas chamadas para números não atribuídos são administradas.
   
 Skype para Business Server permite que você quer dizer que o que acontece às chamadas recebidas para números de telefone são válidos para a sua organização, mas não estão atribuídos a um usuário ou um telefone. Para lidar com essas chamadas, configure uma tabela de números não atribuídos. Você pode usar a tabela para rotear as chamadas para um aplicativo de anúncio ou para um servidor de UM do Exchange.
   
@@ -92,7 +93,7 @@ Use um dos seguintes procedimentos para configurar intervalos de números não a
     
 2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
     
-3. Use o **New-CsUnassignedNumber** para criar um novo intervalo de números não atribuído. Use o **Set-CsUnassignedNumber** para modificar um intervalo de números não atribuído existente.
+3. Use **New-CsUnassignedNumber** para criar um intervalo de números não atribuídos. Use **Set-CsUnassignedNumber** para modificar um intervalo de números não atribuídos existente.
     
     > [!TIP]
     > Se você tiver intervalos sobrepostos e desejar que os intervalos sejam aplicados em uma ordem específica, inclua o parâmetro Prioridade. O intervalo com a maior prioridade será aplicado à chamada. O valor 0 representa a prioridade mais alta.
@@ -166,7 +167,7 @@ Use um dos seguintes procedimentos para configurar intervalos de números não a
     > [!NOTE]
     > Para obter detalhes sobre mais opções, consulte [Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/remove-cscallparkorbit?view=skype-ps). 
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [New-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   

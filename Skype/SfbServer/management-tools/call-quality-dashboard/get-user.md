@@ -1,5 +1,6 @@
 ---
-title: Obter do usuário
+title: Obter usuário
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
 description: 'Resumo: Saiba mais sobre a operação de usuário obter, que faz parte do serviço de usuário. O serviço de usuário é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: 3508336eda934cf317f857d7ad7e903cb7298e00
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2d3c5febe30af2ea4d41d94aec026c25e27f21b9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533270"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874945"
 ---
-# <a name="get-user"></a>Obter do usuário
+# <a name="get-user"></a>Obter usuário
  
 **Resumo:** Saiba mais sobre a operação de usuário obter, que faz parte do serviço de usuário. O serviço de usuário é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
   
 A operação obter usuários é parte do serviço do usuário na API repositório para o painel de controle de qualidade de chamada.
   
-## <a name="get-user"></a>Obter do usuário
+## <a name="get-user"></a>Obter usuário
 
 Obtenha o usuário retornos de um registro de usuário do repositório.
   

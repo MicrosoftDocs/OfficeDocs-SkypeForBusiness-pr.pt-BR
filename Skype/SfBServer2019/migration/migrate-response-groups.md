@@ -1,5 +1,6 @@
 ---
 title: Migrar grupos de resposta
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Depois que os usuários são movidos para Skype para Business Server 2019 pools, você pode migrar seus grupos de resposta. Migrando de resposta grupos inclui copiando os grupos de operadores, filas, fluxos de trabalho, arquivos de áudio e mover objetos de contato do grupo de resposta da implantação herdada para o Skype para Business Server 2019 pool. Após migrar seus grupos de resposta de legado, as chamadas para os grupos de resposta são manipuladas pelo aplicativo grupo de resposta no Skype para Business Server 2019 pool. Chamadas para grupos de resposta não são processadas pelo pool herdado.
-ms.openlocfilehash: 89149210e8041fbc84834cec83e1c1fe13d0765c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 17ba19be3b574436f3a175457264654d8c28ebd0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372934"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876310"
 ---
 # <a name="migrate-response-groups"></a>Migrar grupos de resposta
 

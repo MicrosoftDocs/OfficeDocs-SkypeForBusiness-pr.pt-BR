@@ -1,5 +1,6 @@
 ---
 title: Nó de escopo dos troncos de vídeo SIP
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a4df43f5-0563-4738-a020-7aec3bc46e17
 ROBOTS: NOINDEX, NOFOLLOW
 description: As etapas necessárias para definir uma nova VIS ou vídeo Gateway no construtor de topologia são descritas online em criar um pool VIS no Skype para Business Server.
-ms.openlocfilehash: 02e70d43bbb22a69b6cbe37b7d52cdea8db58d23
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: dfa881341b72ee70f62a70fbf538b15480de52de
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060448"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875606"
 ---
 # <a name="sip-video-trunks-scope-node"></a>Nó de escopo dos troncos de vídeo SIP
  
@@ -31,6 +32,6 @@ As etapas de configuração para um novo servidor de interoperabilidade de víde
   
  As configurações para um VTC que precisam ser definidas na GUI Cisco para interoperação com um Gateway de vídeo e um VIS são descritas online em [Configure um VTC para interoperação com Skype para Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Planejar o servidor de interoperabilidade de vídeo no Skype for Business Server](../../../plan-your-deployment/video-interop-server.md)

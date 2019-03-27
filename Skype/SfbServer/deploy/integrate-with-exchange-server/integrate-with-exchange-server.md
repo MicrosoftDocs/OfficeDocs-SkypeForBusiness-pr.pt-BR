@@ -1,5 +1,6 @@
 ---
 title: Integrar Skype para Business Server com o Exchange Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: 'Resumo: Revise as etapas de integração para Exchange Server 2016 ou Exchange Server 2013 e Skype para Business Server.'
-ms.openlocfilehash: 9cb59b956a30a26f095dde1b550daa9e2a9634a1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d08bf95894febb224e88cc1c40dce1f693b99704
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247184"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873531"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>Integrar Skype para Business Server com o Exchange Server
 
@@ -48,6 +49,6 @@ Se você estiver integrando Skype para negócios Online com o Exchange Server no
 
 [Configurar o repositório de contatos pessoais nos computadores cliente para Skype para Business Server](personal-contacts-store.md)
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Plano para integrar o Skype for Business e o Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)

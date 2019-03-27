@@ -1,5 +1,6 @@
 ---
 title: Solicitação de Certificado (Domínios SIP)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
-description: Na configuração do domínio SIP na página nomes de entidade alternativos (SANs), você deve selecionar a caixa de seleção para seu domínio primário do protocolo de iniciação de sessão (SIP) e quaisquer outros domínios SIP, se sua infraestrutura e implantação atende aos critérios listados.
-ms.openlocfilehash: 3a46aa736ded99566e00b557e71db0e677cf1dd2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Na página Configuração do Domínio SIP em SANs (Nomes Alternativos da Entidade), marque a caixa de seleção para o seu e quaisquer outros domínios SIP, caso sua infraestrutura e implantação atenderem os critérios listados.
+ms.openlocfilehash: b54ef02199700309f21ff792fa3754bbaccc3abf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875655"
 ---
 # <a name="certificate-request-sip-domains"></a>Solicitação de Certificado (Domínios SIP)
  

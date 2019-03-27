@@ -1,5 +1,6 @@
 ---
 title: Tabela Conference
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2a2c327c-4719-42dc-a3bb-6dbc0864d9af
 description: A tabela de conferência é uma tabela de suporte. Cada registro representa uma conferência ou sessão ponto a ponto.
-ms.openlocfilehash: 0390f1f9da264ab5269c7bfdcb4a86c08097b835
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bae144ff574f19155e11b8a2fbfd3548df356c2a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874036"
 ---
 # <a name="conference-table"></a>Tabela Conference
  
 A tabela de conferência é uma tabela de suporte. Cada registro representa uma conferência ou sessão ponto a ponto.
   
-|**Coluna**|**Tipo de dados**|**Índice de chaves /**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceKey** <br/> |int  <br/> |Primária  <br/> |Número exclusivo que identifica o registro desta conferência.  <br/> |
 |**ConfURI** <br/> |nvarchar(450)  <br/> |exclusivo  <br/> |Caso se trate de uma conferência ou DialogID se este de URI de conferência é uma sessão ponto a ponto.  <br/> |

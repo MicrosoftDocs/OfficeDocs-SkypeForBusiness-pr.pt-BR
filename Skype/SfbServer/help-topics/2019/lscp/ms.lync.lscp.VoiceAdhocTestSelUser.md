@@ -1,5 +1,6 @@
 ---
-title: Selecione os usuários do Enterprise Voice
+title: Selecionar Usuários de Enterprise Voice
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use a caixa de diálogo Selecionar usuários do Enterprise Voice para localizar usuários habilitados para o Enterprise Voice. Na caixa Pesquisar, digite o endereço SIP ou exibir o nome do usuário que você deseja localizar e clique em localizar. Para selecionar um usuário, clique no usuário na lista de resultados da pesquisa e clique em Okey. Se você não conseguir localizar o usuário que você estiver procurando por, que o usuário não pode ser habilitado para o Enterprise Voice.
-ms.openlocfilehash: 615f25aee7a697a4679e929b5067c404939d13a6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a801a35fd02bca06179c70c38b285d412aee0428
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998978"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878095"
 ---
-# <a name="select-enterprise-voice-users"></a>Selecione os usuários do Enterprise Voice
+# <a name="select-enterprise-voice-users"></a>Selecionar Usuários de Enterprise Voice
  
 Use a caixa de diálogo **Selecionar usuários do Enterprise Voice** para localizar usuários habilitados para o Enterprise Voice. Na caixa Pesquisar, digite o endereço SIP ou exibir o nome do usuário que você deseja localizar e, em seguida, clique em **Localizar**. Para selecionar um usuário, clique no usuário na lista de resultados da pesquisa e clique em **Okey**. Se você não conseguir localizar o usuário que você estiver procurando por, que o usuário não pode ser habilitado para o Enterprise Voice. 
   

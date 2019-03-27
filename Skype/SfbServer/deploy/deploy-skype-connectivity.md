@@ -1,5 +1,6 @@
 ---
 title: Implantar a conectividade do Skype no Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumo: Saiba como conectar Skype para Business Server com Skype consumidor. Também conhecida como a conectividade do Skype.'
-ms.openlocfilehash: 33b24ff4ea609240bbb1a1bbea4a8e25154dc14a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3dd48661b230f4e780505be4aeb05bbe9ff82340
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372450"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874504"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implantar a conectividade do Skype no Skype para Business Server
  
@@ -156,7 +157,7 @@ A federação é necessária para permitir que os usuários do Skype se comuniqu
   
 A federação é necessária para permitir que os usuários do Skype se comuniquem com os usuários do Skype for Business em sua organização. A PIC é uma classe de federação e deve ser configurada para permitir que seus usuários do Skype for Business Server se comuniquem com os usuários do Skype. A federação e a PIC são configuradas por meio da caixa de diálogo de configuração de borda do Painel de Controle do Skype for Business, conforme mostra a figura.
   
-![Definir Novo Pool de Borda](../media/32d7f255-c6ad-426d-96c2-2ef4d81f3b51.png)
+![Definir Novo Pool de borda](../media/32d7f255-c6ad-426d-96c2-2ef4d81f3b51.png)
   
 > [!NOTE]
 > Os atributos EnableSkypeIdRouting e EnableSkypeDirectorySearch devem ser definidos como true nas configurações de provedor público (consulte as instruções mais adiante) para que a pesquisa funcione. 
@@ -176,7 +177,7 @@ Usando o Shell de Gerenciamento do Skype for Business Server, o administrador de
   
 Para novas instalações, você pode configurar a Conectividade Skype ao habilitar o provedor público do Skype, por meio do Painel de Controle do Skype for Business Server, conforme mostra a figura.
   
-![Provedores federados SIP](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
+![Provedores Federados SIP](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
   
 > [!NOTE]
 > Para configurar a Conectividade Skype ao atualizar para o Skype for Business Server, você deve remover o provedor público existente do Skype e adicioná-lo novamente. 
@@ -231,7 +232,7 @@ A tabela a seguir descreve o status de interoperabilidade entre a versão mais r
   
 |**Cliente**|**Pesquisa de diretórios do Skype e Adicionar contatos**|**Interop de áudio e vídeo e mensagens instantâneas do Skype**|
 |:-----|:-----|:-----|
-|Skype for Business  <br/> |Sim  <br/> |Sim  <br/> |
+|Skype for Business  <br/> |Sim   <br/> |Sim   <br/> |
 |Skype for Business para Mac  <br/> |É possível adicionar (sem pesquisa)  <br/> |Sim  <br/> |
 |Lync Desktop 2013  <br/> |É possível adicionar (sem pesquisa)  <br/> |Sim  <br/> |
 |Lync Web App – online e local  <br/> |N/D  <br/> |N/D  <br/> |
@@ -239,7 +240,7 @@ A tabela a seguir descreve o status de interoperabilidade entre a versão mais r
 |Lync Mobile – Android  <br/> |Em breve  <br/> |Sim  <br/> |
 |Lync Mobile – iOS  <br/> |Em breve  <br/> |Sim  <br/> |
 |Sistema de Salas do Lync  <br/> |Em breve  <br/> |Sim  <br/> |
-|Lync Modern App (Win 8.1)  <br/> |Sim  <br/> |Sim  <br/> |
+|Lync Modern App (Win 8.1)  <br/> |Sim  <br/> |Sim   <br/> |
 |Lync Mac 2011  <br/> |É possível adicionar (sem pesquisa)  <br/> |Sim  <br/> |
 |Lync Desktop 2010  <br/> |É possível adicionar (sem pesquisa)  <br/> |Sim  <br/> |
 |Lync Phone Edition  <br/> |N/D  <br/> |N/D  <br/> |

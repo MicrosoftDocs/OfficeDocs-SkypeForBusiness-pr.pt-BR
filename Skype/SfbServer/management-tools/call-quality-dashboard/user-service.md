@@ -1,5 +1,6 @@
 ---
 title: Serviço de usuário para CQD
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: 'Resumo: Saiba mais sobre o serviço de usuário, que é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: 42268078337e41b2dff595f58963f94656c2fd66
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4ee4594e86b14655c94472b516b9e04da674e3f0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532109"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872878"
 ---
 # <a name="user-service-for-cqd"></a>Serviço de usuário para CQD
  
@@ -23,7 +24,7 @@ ms.locfileid: "26532109"
   
 O serviço de usuário é parte da API do repositório para painel de controle de qualidade de chamada.
   
-## <a name="user-service"></a>Serviço de usuário
+## <a name="user-service"></a>Serviço do usuário
 
 API do repositório fornece um modelo de gerenciamento de usuário simplificada onde o provisionamento (criando novas contas de usuário) do usuário é automático e implícita. Quando um usuário faz uma solicitação em relação a API do repositório pela primeira vez, o repositório cria um novo registro de usuário. 
   
@@ -48,7 +49,7 @@ As operações do REST estão incluídas na tabela a seguir.
   
 |**Operação**|**Descrição**|
 |:-----|:-----|
-|[Colocar os usuários](get-users.md) <br/> |Retorna uma lista de usuários no repositório.  <br/> |
-|[Obter do usuário](get-user.md) <br/> |Retorna um registro de usuário.  <br/> |
+|[Obter usuários](get-users.md) <br/> |Retorna uma lista de usuários no repositório.  <br/> |
+|[Obter usuário](get-user.md) <br/> |Retorna um registro de usuário.  <br/> |
    
 

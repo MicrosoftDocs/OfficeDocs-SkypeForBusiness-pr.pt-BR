@@ -1,5 +1,6 @@
 ---
 title: Definir um gateway no construtor de topologia no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: 'Resumo: Saiba como definir um gateway PSTN no construtor de topologia no Skype para Business Server.'
-ms.openlocfilehash: 50c5dca09608f6b0ef9046109e434f3ccbbba0d3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 036c6805ab2c4821ee1bb0544b75553ab40c7100
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886793"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876317"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Definir um gateway no construtor de topologia no Skype para Business Server
  
@@ -58,7 +59,7 @@ Siga estas etapas para usar o construtor de topologias para definir um ponto com
 9. Em **porta do servidor de mediação associado**, digite a porta de escuta do servidor de mediação usará para mensagens SIP do gateway.
     
     > [!NOTE]
-    > Com suporte a troncos múltiplos no Skype para Business Server, você pode definir várias portas no servidor de mediação para comunicação com vários gateways PSTN de sinalização do SIP. Ao definir um tronco, a **porta do servidor de mediação associado** deve estar dentro do intervalo das portas de escuta para o protocolo respectivo permitidos pelo servidor de mediação. Esse intervalo de portas é definido em Skype para Business Server e os Pools de mediação. O pool do servidor de mediação de interesse do mouse em e selecione **Editar propriedades**. Especifique a faixa de porta no campo **Portas de ouvinte**.
+    > Com suporte a troncos múltiplos no Skype para Business Server, você pode definir várias portas no servidor de mediação para comunicação com vários gateways PSTN de sinalização do SIP. Ao definir um tronco, a **porta do servidor de mediação associado** deve estar dentro do intervalo das portas de escuta para o protocolo respectivo permitidos pelo servidor de mediação. Esse intervalo de portas é definido em Skype para Business Server e os Pools de mediação. O pool do servidor de mediação de interesse do mouse em e selecione **Editar propriedades**. Specify the port range in the **Listening ports** field.
   
 10. Verifique se o ponto definido está funcionando e usando o FQDN ou o endereço IP que você especificou. Depois, clique em **Concluir**.
     

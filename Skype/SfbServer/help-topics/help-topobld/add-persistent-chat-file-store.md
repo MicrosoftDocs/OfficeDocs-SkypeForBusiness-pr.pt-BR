@@ -1,5 +1,6 @@
 ---
 title: Adicionar Repositório de Arquivo de Chat Persistente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 description: Você deve especificar um compartilhamento de arquivos a ser usado como o repositório de arquivos para o servidor Standard Edition ou o pool de Front-Ends Enterprise Edition. É possível usar um compartilhamento de arquivos existente para o repositório de arquivos ou definir um novo especificando o FQDN (nome de domínio totalmente qualificado) do servidor de arquivos no qual o compartilhamento de arquivos deve estar localizado e um nome de pasta para o novo compartilhamento de arquivos.
-ms.openlocfilehash: 6463cb2c572be5d367e8788fc121ed0981bcb8a9
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: f5645a1e9d85f773e9faa273e703594a1617d359
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503820"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873123"
 ---
 # <a name="add-persistent-chat-file-store"></a>Adicionar Repositório de Arquivo de Chat Persistente
  
@@ -30,9 +31,9 @@ Você deve especificar um compartilhamento de arquivos a ser usado como o reposi
 > Você pode definir o compartilhamento de arquivos no Construtor de Topologias antes de criar o repositório de arquivos, mas deve criar o repositório de arquivos no local definido por você antes de publicar a topologia. 
   
 > [!IMPORTANT]
-> Quando você adicionar um servidor de Chat persistente ou servidor de Chat persistente pool a sua topologia, construtor de topologia deve ser capaz de configurar o arquivo armazenar e configurar o controle de acesso discricionário DACLs (listas) no compartilhamento de arquivos a serem usados para o repositório de arquivos. Isso exige que, quando executar o Construtor de Topologias para publicar a nova topologia, você esteja conectado com uma conta que tenha permissões de controle total (ler/escrever/modificar) sobre o compartilhamento de arquivos. 
+> Quando você adicionar um servidor de Chat persistente ou servidor de Chat persistente pool a sua topologia, construtor de topologia deve ser capaz de configurar o arquivo armazenar e configurar o controle de acesso discricionário DACLs (listas) no compartilhamento de arquivos a serem usados para o repositório de arquivos. Isso exige que, quando executar o Construtor de Topologias para publicar a nova topologia, você esteja conectado com uma conta que tenha permissões de controle total (ler/escrever/modificar) para o compartilhamento de arquivos. 
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Planejar Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

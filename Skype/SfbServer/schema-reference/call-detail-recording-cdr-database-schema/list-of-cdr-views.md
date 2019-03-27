@@ -1,5 +1,6 @@
 ---
-title: Lista de exibições de CDR
+title: Lista de Exibições de CDR
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: Modos de exibição fornecem uma maneira fácil de acessar informações sobre os cenários mais comuns usados para retornar dados do banco de dados de CDR. É recomendável que você use modos de exibição para a criação de relatórios personalizados em vez de usar o CDR real tabelas de banco de dados; Isso ocorre porque os modos de exibição do banco de dados são mais prováveis manter a compatibilidade com versões futuras com versões anteriores.
-ms.openlocfilehash: d0ccf227af5bf205acd57660ca9cc51ba27e103e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7767a80069201e5ec07ea68d4bdef3a6a5977e4d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876856"
 ---
-# <a name="list-of-cdr-views"></a>Lista de exibições de CDR
+# <a name="list-of-cdr-views"></a>Lista de Exibições de CDR
  
 Modos de exibição fornecem uma maneira fácil de acessar informações sobre os cenários mais comuns usados para retornar dados do banco de dados de CDR. É recomendável que você use modos de exibição para a criação de relatórios personalizados em vez de usar o CDR real tabelas de banco de dados; Isso ocorre porque os modos de exibição do banco de dados são mais prováveis manter a compatibilidade com versões futuras com versões anteriores.
   

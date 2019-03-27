@@ -1,5 +1,6 @@
 ---
 title: Gerenciando configurações de grupo de resposta de nível de aplicativo no Skype para negócios
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Gerenciando configurações de grupo de resposta de nível de aplicativo, como configurações de música de espera e chamada de retorno, no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 4a44ee8988925025b81eac6bd1ee340a3bbef81b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ceb59b041918836f00f2a568ab8f93f638ecdac5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23890940"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873693"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Gerenciando configurações de grupo de resposta de nível de aplicativo no Skype para negócios
  
 Gerenciando configurações de grupo de resposta de nível de aplicativo, como configurações de música de espera e chamada de retorno, no Skype para Business Server Enterprise Voice.
   
-Configurações de nível de aplicativo para o aplicativo grupo de resposta incluem a configuração de música de espera padrão, o arquivo de áudio de música de espera padrão, o período de cortesia de chamada de retorno do agente e a configuração do contexto da chamada. Você pode definir apenas um conjunto de configurações do aplicativo por pool. Para exibir as configurações de nível de aplicativo, use o cmdlet **Get-CsRgsConfiguration** . Para modificar as configurações de nível de aplicativo, use o cmdlet **Set-CsRgsConfiguration** .
+Configurações de nível de aplicativo para o aplicativo grupo de resposta incluem a configuração de música de espera padrão, o arquivo de áudio de música de espera padrão, o período de cortesia de chamada de retorno do agente e a configuração do contexto da chamada. Você pode definir apenas um conjunto de configurações do aplicativo por pool. Para exibir as configurações do aplicativo, use o cmdlet **Get-CsRgsConfiguration**. Para modificar as configurações do aplicativo, use o cmdlet **Set-CsRgsConfiguration**.
   
 A música de espera padrão é tocada quando uma chamada é coloca em espera, apenas se nenhuma música de espera personalizada for definida. O contexto de chamada está disponível somente para filas atribuídas aos fluxos de trabalho interativos. Se o contexto de chamada for ativado, um agente poderá ver informações como o tempo de espera do chamador ou perguntas e respostas do fluxo de trabalho quando a chamada for recebida.
   
@@ -53,7 +54,7 @@ A música de espera padrão é tocada quando uma chamada é coloca em espera, ap
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -DefaultMusicOnHoldFile <$x>
    ```
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   

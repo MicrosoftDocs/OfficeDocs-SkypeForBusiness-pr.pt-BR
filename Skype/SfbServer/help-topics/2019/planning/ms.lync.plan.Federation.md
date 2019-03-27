@@ -1,5 +1,6 @@
 ---
-title: Federação (ferramenta de planejamento)
+title: Federation (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Servidores de borda podem ser configurados para permitir que os usuários internos e externos acesso aos contatos em organizações parceiras ou serviços.
-ms.openlocfilehash: f42767554ebfb588609b05948ff0162597582d9b
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 001a48fd6888eca9c633332202be782561846cc2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21068289"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874413"
 ---
-# <a name="federation-planning-tool"></a>Federação (ferramenta de planejamento)
+# <a name="federation-planning-tool"></a>Federation (Planning Tool)
  
 Servidores de borda podem ser configurados para permitir que os usuários internos e externos acesso aos contatos em organizações parceiras ou serviços.
   

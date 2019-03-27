@@ -1,5 +1,6 @@
 ---
-title: Definir o FQDN do Gateway PSTN
+title: Definir o Gateway PSTN do FQDN
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,19 +13,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: Você pode especificar o nome de domínio totalmente qualificado (FQDN) do gateway PSTN (rede) telefônica comutada pública que conectará seus componentes do Enterprise Voice a uma PSTN ou privada Central de comutação telefônica (PBX).
-ms.openlocfilehash: 2f1c8eea8a8d3334d5c95e0b606799ad2f9c5f6b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 586b59185187379b2f93bb0e7a67383b892153d7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257483"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877885"
 ---
-# <a name="define-the-pstn-gateway-fqdn"></a>Definir o FQDN do Gateway PSTN
+# <a name="define-the-pstn-gateway-fqdn"></a>Definir o Gateway PSTN do FQDN
 
 Você pode especificar o nome de domínio totalmente qualificado (FQDN) do gateway PSTN (rede) telefônica comutada pública que conectará seus componentes do Enterprise Voice a uma PSTN ou privada Central de comutação telefônica (PBX).
 
 Para obter detalhes, consulte [PSTN connectivity components no Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Opções de implantação de Gateway PSTN](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)

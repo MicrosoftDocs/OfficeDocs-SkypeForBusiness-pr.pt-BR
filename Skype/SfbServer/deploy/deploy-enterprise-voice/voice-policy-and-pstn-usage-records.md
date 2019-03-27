@@ -1,5 +1,6 @@
 ---
 title: Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Resumo: Criar ou modificar políticas de voz e configurar registros de uso PSTN usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: 53414afd6fcf3ee365caad9a168c88f101e8788b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9a7847e918be71b88a7ba32c986c18f7659905ee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371707"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875571"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios
 
@@ -128,7 +129,7 @@ ms.locfileid: "25371707"
 
    - Para usar os mesmos registros de uso de PSTN para encaminhamento de chamadas e toque simultâneo que esta política de voz, selecione a opção **Encaminhar usando os usos de PSTN da chamada** no menu suspenso.
 
-   - Para permitir que o encaminhamento de chamadas e toque simultâneo para Skype interna Business somente para usuários, selecione a opção **rota interna Skype Business somente para usuários** no menu suspenso. As chamadas não serão encaminhadas para números PSTN externos.
+   - Para permitir que o encaminhamento de chamadas e toque simultâneo para Skype interna Business somente para usuários, selecione a opção **rota interna Skype Business somente para usuários** no menu suspenso. Calls will not be forwarded to external PSTN numbers.
 
    - Para especificar registros de uso de PSTN diferentes para encaminhamento de chamadas e toque simultâneos que os usados para esta política de voz, selecione a opção **Encaminhar usando usos de PSTN personalizados** no menu suspenso. Essa opção exibe um controle para selecionar registros de uso de PSTN existentes ou criar novos registros de uso de PSTN especificamente para encaminhamento de chamadas e toque simultâneo.
 
@@ -277,7 +278,7 @@ ms.locfileid: "25371707"
 
    - Para usar os mesmos registros de uso de PSTN para encaminhamento de chamadas e toque simultâneo que esta política de voz, selecione a opção **Encaminhar usando os usos de PSTN da chamada** no menu suspenso.
 
-   - Para permitir que o encaminhamento de chamadas e toque simultâneo para Skype interna Business somente para usuários, selecione **rota interna Skype Business somente para usuários** no menu suspenso. As chamadas não serão encaminhadas para números PSTN externos.
+   - Para permitir que o encaminhamento de chamadas e toque simultâneo para Skype interna Business somente para usuários, selecione **rota interna Skype Business somente para usuários** no menu suspenso. Calls will not be forwarded to external PSTN numbers.
 
    - Para usar registros de uso do PSTN diferentes dos usados nesta política de voz para encaminhamento de chamadas e toque simultâneo, selecione a opção **Rotear com usos de PSTN personalizados** no menu suspenso. Esta opção exibe um controle para selecionar registros de uso do PSTN existentes ou criar novos registros de uso do PSTN, especificamente para encaminhamento de chamadas e toques simultâneos.
 
@@ -302,7 +303,7 @@ ms.locfileid: "25371707"
 
    - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios](create-or-modify-a-voice-route.md).
 
-   - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**. Para obter detalhes, consulte [modificar uma rota de voz](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
+   - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**. Para obter detalhes, consulte [Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
 
      d. Clique em **OK**.
 
@@ -318,7 +319,7 @@ ms.locfileid: "25371707"
 
      - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios](create-or-modify-a-voice-route.md).
 
-     - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**. Para obter detalhes, consulte [modificar uma rota de voz](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
+     - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**. Para obter detalhes, consulte [Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
 
      c. Clique em **OK**.
 
@@ -333,7 +334,7 @@ ms.locfileid: "25371707"
 
 12. (Opcional) Escape de caixa postal detecta que uma chamada foi atendida imediatamente por correio de voz de celular do usuário e desconecta a chamada para a correio de voz de celular. Isso permite que a chamada para continuar a ligar para logon do usuário do outros pontos de extremidade dando ao usuário a oportunidade de atender à chamada. Para obter detalhes sobre como configurar uma política de caixa postal, consulte [Configurar escape da caixa postal no Skype para negócios](configure-voice-mail-escape.md).
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Exibir registros de uso PSTN em Skype para negócios](view-pstn-usage-records.md)
 

@@ -1,5 +1,6 @@
 ---
 title: Planejar para grandes reuniões em Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Resumo: Leia este tópico para saber mais sobre práticas recomendadas para implementar e gerenciar grandes reuniões em Skype para Business Server.'
-ms.openlocfilehash: d77a3b3fa5f989f36fd9097499de0fd75991b5e4
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: 3c4b00a961aa8c687ad4a420cade08af908ca102
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342209"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877903"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planejar para grandes reuniões em Skype para Business Server
  
@@ -26,7 +27,7 @@ O tamanho de reuniões que suporta o Skype para Business Server depende se a con
 > Este tópico se concentra em práticas recomendadas para grandes reuniões suportados pelo Skype para Business Server. Se sua organização requer maiores capacidades de reunião, você deve considerar a implementação de um ambiente híbrido que tiram vantagens do Skype transmitir reunião, um novo serviço online que faz parte do Office 365. 
 
 > [!NOTE]
-> A Transmissão de Reunião do Skype habilita os usuários a hospedarem e divulgarem a grandes públicos online reuniões com até 10.000 participantes. O uso de Transmissão de Reunião do Skype exige que o Skype for Business Server esteja configurado como híbrido em um locatário do Office 365 de produção. Todos os usuários devem estabelecer um locatário online, isso é um pré-requisito. Se estiver interessado em implantar uma solução híbrida capaz de aproveitar a Transmissão de Reunião do Skype, consulte [O que é uma Transmissão de Reunião do Skype?](https://go.microsoft.com/fwlink/?LinkId=617071) e [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md). 
+> A Transmissão de Reunião do Skype habilita os usuários a hospedarem e divulgarem a grandes públicos online reuniões com até 10.000 participantes. O uso de Transmissão de Reunião do Skype exige que o Skype for Business Server esteja configurado como híbrido em um locatário do Office 365 de produção. Todos os usuários devem estabelecer um locatário online, isso é um pré-requisito. Se você está interessado Implantando uma solução híbrida que podem tirar proveito da transmissão do Skype reunião, consulte [o que é uma transmissão do Skype reunião?](https://go.microsoft.com/fwlink/?LinkId=617071) e [configurar sua implantação no local para transmissão do Skype reunião](../../deploy/configure-skype-meeting-broadcast.md). 
   
 Grandes reuniões costumam ter as seguintes características:
   

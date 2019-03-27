@@ -1,5 +1,6 @@
 ---
 title: Esquema do banco de dados de Chat Persistente
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: Documenta o esquema do banco de dados de Chat persistente no Skype para Business Server.
-ms.openlocfilehash: 1c78ea53438484fb0ad573a815c10ad76f08edca
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 37b22077157def7ea25a5cf70b23a0272a58956e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874043"
 ---
 # <a name="persistent-chat-database-schema"></a>Esquema do banco de dados de Chat Persistente
  
@@ -37,12 +39,12 @@ Siga estas práticas recomendadas:
     
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Lista de tabelas do servidor de Chat persistente](list-of-persistent-chat-server-tables.md)
+- [Tabelas de lista de Servidores de Chat Persistente](list-of-persistent-chat-server-tables.md)
     
 - [Lista das tabelas de conformidade do servidor de Chat persistente no Skype para Business Server](list-of-persistent-chat-server-compliance-tables.md)
     
-- [Detalhes das tabelas do servidor de Chat persistentes](persistent-chat-server-table-details.md)
+- [Detalhes da tabela do Servidor de Chat Persistente](persistent-chat-server-table-details.md)
     
-- [Exemplos de consultas do banco de dados de bate-papo persistente](sample-persistent-chat-database-queries.md)
+- [Amostragem de consultas de banco de dados de Chat Persistente](sample-persistent-chat-database-queries.md)
     
 

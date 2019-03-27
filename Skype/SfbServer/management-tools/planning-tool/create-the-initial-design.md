@@ -1,5 +1,6 @@
 ---
 title: Criar o design de topologia inicial para o Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,14 +12,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Depois de concluir a instalação do Skype para ferramenta de planejamento do Business Server, você estará pronto para iniciar a ferramenta de planejamento e começar a projetar o Skype proposto para infraestrutura de Business Server 2015.
-ms.openlocfilehash: 73fd6f4a83ec5aec6808124728c1c73419bcdd28
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 132db1bfacac5d5faec17c2edceb72fe7736f887
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246663"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876892"
 ---
-# <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Criar o design de topologia inicial para o Skype for Business Server 2015
+# <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Create the initial topology design for Skype for Business Server 2015
 
 Depois de concluir a instalação do Skype para ferramenta de planejamento do Business Server, você estará pronto para iniciar a ferramenta de planejamento e começar a projetar o Skype proposto para infraestrutura de Business Server 2015.
 
@@ -74,6 +75,6 @@ Depois de concluir a instalação do Skype para ferramenta de planejamento do Bu
 
 16. A ferramenta de planejamento exibe a página de topologia Global. Agora você pode começar a edição, atualizando ou alterar a topologia usando as ferramentas disponíveis na ferramenta de planejamento.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
-[Editando o Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Editing the Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)

@@ -1,5 +1,6 @@
 ---
 title: Implantar regiões de rede, sites e sub-redes em Skype para negócios
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Criar ou modificar regiões de rede, sites de rede e associar subredes no Skype para Business Server. Todos esses são usados para os recursos avançados do Enterprise Voice: desvio de mídia, chamar o controle de admissão e roteamento baseado no local.'
-ms.openlocfilehash: fe6edf779d00b96918d8bf92ac7e749b9c003f15
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 91ce871d3e8d4871693b7ad28cf4659ea0bb0c4c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297646"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875479"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Implantar regiões de rede, sites e sub-redes em Skype para negócios
 
@@ -225,7 +226,7 @@ Todos os endereços IP públicos configurados dos Servidores de Borda de Áudio/
 
 1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
 
-2. Execute o cmdlet **New-CsNetworkSubnet** para associar uma sub-rede um site de rede:
+2. Execute o cmdlet  **New-CsNetworkSubnet** para associar uma sub-rede a um site da rede:
 
    ```
    New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
@@ -280,7 +281,7 @@ Todos os endereços IP públicos configurados dos Servidores de Borda de Áudio/
 7. Clique em **ID do site da rede** e selecione o ID do site para o qual está adicionando esta sub-rede.
 
     > [!NOTE]
-    > Se os sites da rede ainda não estiverem criados, a lista estará vazia. Para obter detalhes sobre o procedimento, consulte [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). Também é possível recuperar IDs de site para sua implantação executando o cmdlet **Get-CsNetworkSite** . Para obter detalhes, consulte o Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
+    > Se os sites da rede ainda não estiverem criados, a lista estará vazia. Para obter detalhes sobre o procedimento, consulte [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). Você também pode recuperar as IDs do site para sua implantação executando o cmdlet **Get-CsNetworkSite**. Para obter detalhes, consulte o Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
 
 8. Opcionalmente, clique em  **Descrição** e digite informações adicionais para descrever esta sub-rede.
 
@@ -310,7 +311,7 @@ Por exemplo, se a lista de endereços IP no alerta especifica 10.121.248.226 e 1
 
 2. Certifique-se de que ambas as sub-redes 10.121.248.0/24 e 10.121.249.0/24 estejam associadas a um site da rede.
 
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Consulte Também
 <a name="BKMK_AssociateSubnets"> </a>
 
 
@@ -326,7 +327,7 @@ Por exemplo, se a lista de endereços IP no alerta especifica 10.121.248.226 e 1
 
 [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/get-csnetworksubnet?view=skype-ps)
 
-[Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
+[Set-CsNetworkSubnet.](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
 
 [Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
 

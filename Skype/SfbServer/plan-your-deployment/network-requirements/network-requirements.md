@@ -1,5 +1,6 @@
 ---
 title: Plan network requirements for Skype for Business
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Resumo: Revise as considerações de componente de rede abaixo antes de implementar Skype para Business Server.'
-ms.openlocfilehash: e05e40bc460ddddc6d9576d9842ab592f16e1481
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 338a2d273fbba2bd006c5ed5acdd878338333b8a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408169"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877843"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -47,7 +48,7 @@ Para a integração com Rede Telefônica Pública Comutada (PSTN), você pode us
 
 Requisitos de rede para áudio/vídeo (A / V) em um Skype para Business Server implantação incluem o seguinte:
 
-- Se você estiver implantando um único servidor de borda ou um pool de borda usando o balanceamento de carga do DNS, você pode configurar o firewall _externo_ para executar a conversão de endereço de rede (NAT). Você não pode configurar o firewall _interno_ para executar a NAT. Para obter detalhes, consulte [planejamento de firewall e de porta](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
+- Se você estiver implantando um único servidor de borda ou um pool de borda usando o balanceamento de carga do DNS, você pode configurar o firewall _externo_ para executar a conversão de endereço de rede (NAT). Não é possível configurar o firewall _internal_ para executar NAT. Para obter detalhes, consulte [planejamento de firewall e de porta](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
 
     > [!IMPORTANT]
     > Se você tiver um pool de borda e estiver usando um balanceador de carga de hardware, você deve usar endereços IP públicos nos servidores de borda e você não poderá utilizar NAT para os servidores ou o pool no seu dispositivo com capacidade para NAT (por exemplo, um appliance de firewall ou alternar de LAN. Para obter detalhes, consulte [os cenários de servidor de borda no Skype para Business Server](../edge-server-deployments/scenarios.md).
@@ -80,21 +81,21 @@ A tabela a seguir explica as configurações de exceções recomendadas do IPsec
 
 |Nome da regra |IP de origem |IP de destino |Protocolo |Porta de origem |Porta de destino |Requisito de autenticação |
 |:--- |:--- |:--- |:--- |:---|:---|:--- |
-|Entrada interna do Servidor de Borda A/V|Qualquer  |Interno do Servidor de Borda A/V|UDP e TCP|Qualquer |Qualquer |Não autenticar|
-|Entrada externa do Servidor de Borda A/V|Qualquer  |Externo do Servidor de Borda A/V|UDP e TCP|Qualquer |Qualquer |Não autenticar|
-|Saída interna do Servidor de Borda A/V|Interno do Servidor de Borda A/V  |Externo do Servidor de Borda A/V |UDP e TCP|Qualquer |Qualquer |Não autenticar|
-|Saída externa do Servidor de Borda A/V|Externo do Servidor de Borda A/V |Qualquer |UDP e TCP|Qualquer |Qualquer |Não autenticar|
-|Entrada do Servidor de Mediação|Qualquer  |Servidores de mediação |UDP e TCP|Qualquer |Qualquer |Não autenticar|
-|Saída do Servidor de Mediação|Servidores de mediação  |Qualquer|UDP e TCP|Qualquer |Qualquer |Não autenticar|
-|Entrada do Atendedor de Conferência|Qualquer um  |Servidor Front-End executando o Atendedor de Conferência |UDP e TCP|Qualquer |Qualquer |Não autenticar|
-|Saída do Atendedor de Conferência|Servidor Front-End executando o Atendedor de Conferência  |Qualquer|UDP e TCP|Qualquer |Qualquer |Não autenticar|
-|Entrada de Conferência A/V|Qualquer|Servidores Front-End|UDP e TCP|Qualquer |Qualquer |Não autenticar|
-|Saída de Conferência A/V|Servidores Front-End|Qualquer|UDP e TCP|Qualquer |Qualquer |Não autenticar|
-|Entrada do Exchange|Qualquer|Unificação de Mensagens do Exchange|UDP e TCP|Qualquer |Qualquer |Não autenticar|
-|Entrada dos Servidores de Compartilhamento de Aplicativo|Qualquer um|Servidores de Compartilhamento de Aplicativos|UDP e TCP|Qualquer |Qualquer |Não autenticar|
-|Saída do Servidor de Compartilhamento de Aplicativos|Servidores de Compartilhamento de Aplicativos| Qualquer |UDP e TCP|Qualquer |Qualquer |Não autenticar|
-|Saída do Exchange|Unificação de Mensagens do Exchange|Qualquer|UDP e TCP|Qualquer |Qualquer |Não autenticar|
-|Clientes| Qualquer  |Qualquer|UDP e TCP|Qualquer |Qualquer |Não autenticar|
+|Entrada interna do Servidor de Borda A/V|Qualquer um  |Interno do Servidor de Borda A/V|UDP e TCP|Qualquer um  |Qualquer um |Não autenticar|
+|Entrada externa do Servidor de Borda A/V|Qualquer um  |Externo do Servidor de Borda A/V|UDP e TCP|Qualquer um  |Qualquer um |Não autenticar|
+|Saída interna do Servidor de Borda A/V|Interno do Servidor de Borda A/V  |Externo do Servidor de Borda A/V |UDP e TCP|Qualquer um  |Qualquer um |Não autenticar|
+|Saída externa do Servidor de Borda A/V|Externo do Servidor de Borda A/V |Qualquer um |UDP e TCP|Qualquer um  |Qualquer um |Não autenticar|
+|Entrada do Servidor de Mediação|Qualquer um  |Servidores de mediação |UDP e TCP|Qualquer um  |Qualquer um |Não autenticar|
+|Saída do Servidor de Mediação|Servidores de mediação  |Qualquer um|UDP e TCP|Qualquer um  |Qualquer um |Não autenticar|
+|Entrada do Atendedor de Conferência|Qualquer um  |Servidor Front-End executando o Atendedor de Conferência |UDP e TCP|Qualquer um  |Qualquer um |Não autenticar|
+|Saída do Atendedor de Conferência|Servidor Front-End executando o Atendedor de Conferência  |Qualquer um|UDP e TCP|Qualquer um  |Qualquer um |Não autenticar|
+|Entrada de Conferência A/V|Qualquer um|Servidores Front-End|UDP e TCP|Qualquer um  |Qualquer um |Não autenticar|
+|Saída de Conferência A/V|Servidores Front-End|Qualquer um|UDP e TCP|Qualquer um  |Qualquer um |Não autenticar|
+|Entrada do Exchange|Qualquer um|Unificação de Mensagens do Exchange|UDP e TCP|Qualquer um  |Qualquer um |Não autenticar|
+|Entrada dos Servidores de Compartilhamento de Aplicativo|Qualquer um|Servidores de Compartilhamento de Aplicativos|UDP e TCP|Qualquer um  |Qualquer um |Não autenticar|
+|Saída do Servidor de Compartilhamento de Aplicativos|Servidores de Compartilhamento de Aplicativos| Qualquer um |UDP e TCP|Qualquer um  |Qualquer um |Não autenticar|
+|Saída do Exchange|Unificação de Mensagens do Exchange|Qualquer um|UDP e TCP|Qualquer um  |Qualquer um |Não autenticar|
+|Clientes| Qualquer um  |Qualquer um|UDP e TCP|Qualquer um  |Qualquer um |Não autenticar|
 |         |         |         |         |         |         |         |
 
 
@@ -184,10 +185,10 @@ Além da largura de banda necessária para o tráfego do protocolo de transporte
 
 **Largura de banda de RTCP**
 
-|**Media**|**Largura de banda máxima de RTCP (Kbps)**|
+|**Mídia**|**Largura de banda máxima de RTCP (Kbps)**|
 |:-----|:-----|
 |Áudio  <br/> |5  <br/> |
-|Vídeo (somente H.264 ou RTVideo enviado/recebido)  <br/> | 10  <br/> |
+|Vídeo (somente H.264 ou RTVideo enviado/recebido)  <br/> |10  <br/> |
 |Vídeo (somente H.264 ou RTVideo enviado/recebido)  <br/> |15  <br/> |
 
 Para planejamento da capacidade, as duas larguras de banda mencionadas a seguir são:
@@ -202,7 +203,7 @@ As tabelas abaixo fornecem valores de largura de banda para diversos cenários.
 
 **Planejamento da capacidade de áudio/vídeo em sessões ponto a ponto**
 
-|**Media**|**Codec**|**Largura de banda de fluxo típico (Kbps)**|**Largura de banda de fluxo máximo sem FEC**|**Largura de banda de fluxo máximo com FEC**|
+|**Mídia**|**Codec**|**Largura de banda de fluxo típico (Kbps)**|**Largura de banda de fluxo máximo sem FEC**|**Largura de banda de fluxo máximo com FEC**|
 |:-----|:-----|:-----|:-----|:-----|
 |Áudio  <br/> |Banda ampla RTAudio  <br/> |39,8  <br/> |62  <br/> |91  <br/> |
 |Áudio  <br/> |Banda estreita RTAudio  <br/> |29,3  <br/> |44,8  <br/> |56,6  <br/> |
@@ -214,7 +215,7 @@ As tabelas abaixo fornecem valores de largura de banda para diversos cenários.
 
 **Planejamento de capacidade de áudio/vídeo para conferências**
 
-|**Media**|**Codec típico**|**Largura de banda de fluxo típico (Kbps)**|**Largura de banda de fluxo máximo sem FEC**|**Largura de banda de fluxo máximo com FEC**|
+|**Mídia**|**Codec típico**|**Largura de banda de fluxo típico (Kbps)**|**Largura de banda de fluxo máximo sem FEC**|**Largura de banda de fluxo máximo com FEC**|
 |:-----|:-----|:-----|:-----|:-----|
 |Áudio  <br/> |G.722  <br/> |46,1  <br/> |100,6  <br/> |164,6  <br/> |
 |Áudio  <br/> |Siren  <br/> |25,5  <br/> |52,6  <br/> |68,6  <br/> |
@@ -241,7 +242,7 @@ A largura de banda típica do fluxo de vídeo panorâmico é baseada em disposit
 
 **Planejamento de capacidade de áudio para PSTN**
 
-|**Media**|**Codec típico**|**Largura de banda de fluxo típico (Kbps)**|**Largura de banda de fluxo máximo sem FEC**|**Largura de banda de fluxo máximo com FEC**|
+|**Mídia**|**Codec típico**|**Largura de banda de fluxo típico (Kbps)**|**Largura de banda de fluxo máximo sem FEC**|**Largura de banda de fluxo máximo com FEC**|
 |:-----|:-----|:-----|:-----|:-----|
 |Áudio  <br/> |G. 711 (Isso inclui participantes por PSTN em conferências)  <br/> |64,8  <br/> |97  <br/> |161  <br/> |
 |Áudio  <br/> |Banda estreita RTAudio  <br/> |30,9  <br/> |44,8  <br/> |56,6  <br/> |
@@ -274,7 +275,7 @@ Skype para Business Server oferece suporte completo para QoS: significa que as o
 
 QoS também é discutido no whitepaper de [Planejamento de rede, monitoramento e solução de problemas com o Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) com detalhes adicionais e profundidade. Enquanto o conteúdo refere-se explicitamente para o Lync 2010 e Lync 2013, as considerações para Skype para Business Server permanecem inalteradas.
 
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Consulte Também
 <a name="man_QOS"> </a>
 
 [Planejamento para IPv6 no Skype for Business](ipv6.md)

@@ -1,5 +1,6 @@
 ---
-title: Obter dados de integração com o últimos
+title: Obter Últimos Dados de Integração
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 'Resumo: Saiba mais sobre a operação obter dados de integração com o último, que é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: b2e759766987b6ee52795845ee55546920181807
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 33681e38b2dfeac635d3e3c7bd05e67980e0a598
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531784"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874420"
 ---
-# <a name="get-last-integration-data"></a>Obter dados de integração com o últimos
+# <a name="get-last-integration-data"></a>Obter Últimos Dados de Integração
  
 **Resumo:** Saiba mais sobre a operação obter dados de integração com o último, que é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
   
 A operação de obter dados de integração com o último é parte da API de dados para o painel de qualidade de chamada.
   
-## <a name="get-last-integration-data"></a>Obter dados de integração com o últimos
+## <a name="get-last-integration-data"></a>Obter Últimos Dados de Integração
 
 Operação de dados do último integração Get retorna a lista de sucesso últimas 5/falha de arquivamento e o processamento de cubo.
   

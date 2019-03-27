@@ -1,5 +1,6 @@
 ---
 title: Expansor de Configurações de Serviços Web
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: Construtor de topologia, você pode modificar as configurações de porta usadas para ambos os seus serviços web internos e externos. Além disso, e se você estiver implantando o balanceamento de carga de sistema de nome de domínio (DNS), você pode usar o construtor de topologias para configurar o nome de domínio totalmente qualificado (FQDN) do pool que resolve para os endereços IP físicos de todos os servidores desse pool.
-ms.openlocfilehash: 537f9faaf89fbf82e80741d022e0913aa57a02f9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 776ff33dabc331a3cf0a2107e7f0006bf2291fdb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875036"
 ---
 # <a name="web-services-settings-expander"></a>Expansor de Configurações de Serviços Web
  

@@ -1,5 +1,6 @@
 ---
 title: O que é reduzido do Skype para Business Server 2019
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: Esses recursos foram removidos do Skype para Business Server 2019.'
-ms.openlocfilehash: 399c5f219ae5a088c4e7f8aa40f40344885d571e
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: bd7519e66632c005d81ff9fc110684f6c4854c41
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561608"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876652"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>O que é reduzido do Skype para Business Server 2019
 
@@ -56,7 +57,7 @@ Para obter mais detalhes, consulte [Planejar mobilidade para Skype para Business
 
 As seguintes ferramentas não estarão disponíveis para uso em uma versão inicial do Skype para Business Server 2019:
 
-- Skype para Calculadora de planejamento de capacidade do servidor de negócios
+- Calculadora de planejamento de capacidade do Skype for Business Server
 - Skype para Business Server as ferramentas de depuração
 - Skype para ferramentas do Business Server Resource Kit (algumas ferramentas serão removidas)
     - Parquímetro de Chamada
@@ -70,8 +71,8 @@ Não há suporte para as seguintes ferramentas com Skype para Business Server 20
 - Skype for Business Server 2015 Planning Tool
 - Skype for Business Server 2015 Stress and Performance Tool
 
-### <a name="see-also"></a>Consulte também
+### <a name="see-also"></a>Consulte Também
 
 [O que há de novo no Skype para Business Server 2019](whats-new.md)
 
-[Migração da federação XMPP](migration/migrating-xmpp-federation.md)
+[Migrar a federação XMPP](migration/migrating-xmpp-federation.md)
