@@ -1,5 +1,6 @@
 ---
 title: Planejamento de serviços de emergência no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Saiba mais sobre os serviços do Enhanced 9-1-1 (E9-1-1) no Skype para Business Server Enterprise Voice, incluindo a aquisição de local e o roteamento de chamada.
-ms.openlocfilehash: 19c660152903c1091612060bfd808bea5a116d2f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 4dba79c1c1b1b1fed0f60ea4f4c4a9a1d1baea92
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884389"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893807"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planejamento de serviços de emergência no Skype para Business Server
 
@@ -75,7 +76,7 @@ O Skype para o cliente de negócios inclui os dados de PIDF-LO como parte de uma
 
 O diagrama a seguir mostra como um Skype para o cliente de negócios adquire um local (exceto para o método de localização com base no endereço MAC do cliente terceirizado):
 
-![Diagrama de Como o cliente adquire um local](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
+![Como o cliente adquire um diagrama de local](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
 
 Para um cliente adquirir um local, as seguintes etapas devem ser executadas:
 
@@ -89,13 +90,13 @@ Para um cliente adquirir um local, as seguintes etapas devem ser executadas:
 
 ## <a name="routing-e9-1-1-calls-using-a-sip-trunk"></a>Encaminhamento de chamadas E9-1-1 usando um tronco SIP
 
-Usar um tronco SIP para conectar-se a um provedor de serviços de E9-1-1 qualificado é um modo pelo qual você pode implantar E9-1-1. Para obter detalhes sobre como usar um gateway ELIN para se conectar a uma rede telefônica pública comutada (PSTN)-based E9-1-1 provedor de serviços, consulte [Roteamento de chamadas de E9-1-1 usando um Gateway ELIN](https://technet.microsoft.com/library/5a3997e3-898d-49cb-922a-4184c3373350.aspx).
+Usar um tronco SIP para conectar-se a um provedor de serviços de E9-1-1 qualificado é um modo pelo qual você pode implantar E9-1-1. Para obter detalhes sobre usar um gateway ELIN para se conectar a um provedor de serviços de E9-1-1 baseado em PSTN (rede telefônica pública comutada), veja [Routing E9-1-1 Calls by Using an ELIN Gateway](https://technet.microsoft.com/library/5a3997e3-898d-49cb-922a-4184c3373350.aspx).
 
 O diagrama a seguir mostra como uma chamada de emergência é encaminhada do Skype para Business Server para o PSAP atendimento público seguro ponto () quando você usa um tronco SIP e o provedor de serviço qualificado E9-1-1.
 
 **Encaminhamento de chamadas E9-1-1 através de um tronco SIP**
 
-![Roteamento da chamada de emergência do Lync Server para PSAP](../../media/Plan_LyncServer_E911_CallRouting.jpg)
+![Roteamento de chamadas de emergência do Lync Server para PSAP](../../media/Plan_LyncServer_E911_CallRouting.jpg)
 
 Quando uma chamada de emergência é feita de uma Skype compatível para o cliente Business Server:
 
@@ -124,13 +125,13 @@ Quando um Skype para o cliente de negócios obtém seu local do serviço de info
 Os gateways ELIN oferecem suporte a chamadas de emergência somente de dentro da rede da sua organização. Eles não oferecem suporte a chamadas de emergência realizadas fora da sua rede.
 
 > [!NOTE]
-> Para obter detalhes sobre como usar uma conexão de tronco SIP para chamadas de emergência, consulte [Roteamento de chamadas de E9-1-1 usando um tronco SIP](https://technet.microsoft.com/library/157753c3-fe74-4e2c-81da-ee06911d4cc2.aspx).
+> Para obter detalhes sobre como usar uma conexão de tronco SIP para chamadas de emergência, veja [Routing E9-1-1 Calls by Using a SIP Trunk](https://technet.microsoft.com/library/157753c3-fe74-4e2c-81da-ee06911d4cc2.aspx).
 
 O diagrama a seguir mostra como uma chamada de emergência é encaminhada do Skype para Business Server para o PSAP quando você usa um gateway ELIN.
 
 **Encaminhar chamadas de E9-1-1 com um gateway ELIN**
 
-![Mostra como uma chamada para serviços de emergência percorre o Servidor de Mediação e depois prossegue até o provedor de serviços de emergência. Depois disso, há a opção de enviar uma mensagem instantânea à segurança do local e/ou uma chamada de volta ao chamador original.](../../media/Plan_LyncServer_E911_ELINCallRouting.jpg)
+![Mostra como uma chamada para serviços de emergência viaja através do servidor de mediação e, em seguida, ao provedor de serviços de emergência. Depois de fazer isso pode opcionalmente haver uma mensagem Instantânea enviada para a segurança no local e/ou uma chamada de volta para o chamador original.](../../media/Plan_LyncServer_E911_ELINCallRouting.jpg)
 
 1. Um SIP INVITE contendo o local, o número de retorno de URL de notificação e de conferência (opcional) e número de retorno de chamada do chamador é encaminhado para Skype para Business Server.
 
