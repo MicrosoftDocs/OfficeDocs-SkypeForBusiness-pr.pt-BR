@@ -1,5 +1,6 @@
 ---
-title: Selecionar um serviço de comunicado
+title: Selecionar um Serviço de Comunicado
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use selecionar uma caixa de diálogo do serviço de comunicado para selecionar um serviço de anúncio que lidará com as chamadas recebidas para um intervalo de números não atribuídos.
-ms.openlocfilehash: aa606074eeebb67109a9633611888a0c8f37f702
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e307ce4caa0f2f68807ea0a5bd663b3993dfdcd7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001803"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882839"
 ---
-# <a name="select-an-announcement-service"></a>Selecionar um serviço de comunicado
+# <a name="select-an-announcement-service"></a>Selecionar um Serviço de Comunicado
  
 Use a caixa de diálogo **Selecionar um serviço de comunicado** para selecionar um serviço de anúncio que lidará com as chamadas recebidas para um intervalo de números não atribuídos.
   

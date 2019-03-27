@@ -1,5 +1,6 @@
 ---
 title: Planejar para vários números de emergências Skype Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: Leia este tópico para saber como planejar para vários números de emergências Skype Business Server.
-ms.openlocfilehash: 6a27539641544682f6cb0905d8434f632fa868f2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e3ecbc039dac510a1ebc5eb989773c1f32c3b6ac
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891518"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880760"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planejar para vários números de emergências Skype Business Server
  
@@ -43,7 +44,7 @@ Ao planejar vários números de emergência, tenha em mente o seguinte:
   
 - Para cada número de emergência, você pode especificar zero ou mais máscaras de discagem de emergência, que são exclusivas de uma política de local determinado.
     
-    Uma máscara de discagem é um número que você deseja converter no valor do número de discagem de emergência quando ela for discada. Por exemplo, suponha que você digite um valor 212 nesse campo e o botão de número de emergência tenha o valor 911. Quando um usuário discar 212, o número será convertido em 911. Isso permite a números de emergências alternativos para ser discado e ainda têm a chamada acessar os serviços de emergências (por exemplo, se alguém de um país ou região com um número de emergência diferente tentar discar que o país ou região de número, e não o número para o país ou região que estiverem em). Você pode definir várias máscaras de discagem de emergência, separando os valores com ponto e vírgula. Por exemplo, 212; 414. O limite de cadeia de caracteres para uma máscara de discagem é de 100 caracteres. Cada caractere deve ser um dígito de 0 a 9.
+    Uma máscara de discagem é um número que você deseja converter no valor do número de discagem de emergência quando ela for discada. Por exemplo, suponha que você digite um valor 212 nesse campo e o botão de número de emergência tenha o valor 911. Quando um usuário discar 212, o número será convertido em 911. Isso permite a números de emergências alternativos para ser discado e ainda têm a chamada acessar os serviços de emergências (por exemplo, se alguém de um país ou região com um número de emergência diferente tentar discar que o país ou região de número, e não o número para o país ou região que estiverem em). É possível definir várias máscaras de discagem de emergência separando os valores com ponto e vírgulas. Por exemplo, 212;414. O limite de cadeia de caracteres para uma máscara de discagem é de 100 caracteres. Cada caractere deve ser um dígito de 0 a 9.
     
 - Cada política de local tem um único uso de PSTN (rede telefônica pública comutada), que é adotado para determinar qual rota de voz é utilizada para rotear chamadas de emergência de clientes que usam essa política. O uso pode ter uma única rota por número de emergência.
     
@@ -73,9 +74,12 @@ A tabela a seguir mostra exemplos de políticas de local (nem todos os atributos
 
 |**Nome da política de local**|**E911 habilitado**|**Cadeia de discagem de emergência**|**Máscara de discagem**|**Números de emergência**|**Uso de PSTN**|**Local necessário**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Estados Unidos  <br/> |Sim  <br/> |911  <br/> | 112; 999 <br/> ||USEmergency  <br/> |Sim  <br/> |
-|US-Hospital  <br/> |Sim  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Sim  <br/> |
-|Londres  <br/> |Sim  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112-911; 117; 118  <br/> |GBEmergency  <br/> |Não  <br/> |
+|Estados Unidos  <br/> |Sim  <br/> |911  
+  <br/> | 112;999 <br/> ||USEmergency  <br/> |Sim  <br/> |
+|US-Hospital  <br/> |Sim  <br/> |911  
+  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Sim  <br/> |
+|Londres  <br/> |Sim  <br/> |999  
+  <br/> |144  <br/> |999-144  <br/> 112-911; 117; 118  <br/> |GBEmergency  <br/> |Não  <br/> |
 |Índia  <br/> |Sim  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |Não  <br/> |
    
  **Estados Unidos** — não há nenhum requisito para vários números de emergências. Nos Estados Unidos, você deve usar as configurações de cadeia de caracteres de discagem de emergência e de máscara de discagem antigas.

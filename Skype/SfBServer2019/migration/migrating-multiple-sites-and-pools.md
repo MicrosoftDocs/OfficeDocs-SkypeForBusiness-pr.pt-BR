@@ -1,5 +1,6 @@
 ---
-title: Migrando múltiplos sites e pools
+title: Migrar vários sites e pools
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Skype para Business Server 2019 oferece suporte a implantações de vários locais e do pool de múltiplos. O processo de migração de vários pools para Skype for Business Server 2019 requer as seguintes considerações:'
-ms.openlocfilehash: 74c622c1cde4a01c51749c6942c898e11e1551f9
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5e369adb51bf95f4e3c3d12688d1e39611aa5692
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531761"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888658"
 ---
-# <a name="migrating-multiple-sites-and-pools"></a>Migrando múltiplos sites e pools
+# <a name="migrating-multiple-sites-and-pools"></a>Migrar vários sites e pools
 
 Skype para Business Server 2019 oferece suporte a implantações de vários locais e do pool de múltiplos. O processo de migração de vários pools para Skype for Business Server 2019 requer as seguintes considerações: 
   

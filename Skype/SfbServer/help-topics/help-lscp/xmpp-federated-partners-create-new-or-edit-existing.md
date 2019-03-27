@@ -1,5 +1,6 @@
 ---
 title: Parceiros federados XMPP criar novo ou editar existente
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 965eb16dc17ac5724892d518f17ac20e3991fd1a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 63627c1ee3612e9f531bf7c96e07694c7f971eb0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245562"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885059"
 ---
-# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>Parceiros federados XMPP: Criar nova ou editar existente
+# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>Parceiros Federados XMPP: Criar Novos ou Editar Existentes
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 

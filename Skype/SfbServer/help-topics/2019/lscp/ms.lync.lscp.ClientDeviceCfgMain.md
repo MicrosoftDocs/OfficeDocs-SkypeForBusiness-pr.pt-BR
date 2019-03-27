@@ -1,5 +1,6 @@
 ---
 title: Configuração do Log de Dispositivos
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: O Serviço Web de Atualização de Dispositivo cria automaticamente os arquivos de log que registram a atividade de atualização do dispositivo. Como parte da estratégia de gerenciamento de dados da sua organização, convém definir limites sobre o tamanho do cache de dados de log, tamanho do arquivo de log ou o período de tempo que um arquivo de log é mantido antes de ele será limpo. Você pode alterar essas configurações de acordo com requisitos da sua organização. Se você não quiser que o Serviço Web de Atualização de Dispositivo exclua os arquivos de log automaticamente, será possível excluí-los manualmente, conforme o necessário. As configurações de log podem ser alteradas globalmente ou de acordo com o site.
-ms.openlocfilehash: c9e7c28b20309b8de5f2f35466125aa4f863b6d8
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 68e5e7d569f3a0436f80bb081b0785e5278bcb0d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250749"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892389"
 ---
 # <a name="device-log-configuration"></a>Configuração do Log de Dispositivos
 
@@ -57,6 +58,6 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
 
 - **Atualizar** É possível atualizar a lista de configuração de log de dispositivo para verificar o status das opções de configuração de log de todos os dispositivos.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Modificar as configurações para os arquivos de Log da atividade de atualização de dispositivo](https://technet.microsoft.com/library/9b57f126-1853-43b3-bbd4-06401e6498bd.aspx)

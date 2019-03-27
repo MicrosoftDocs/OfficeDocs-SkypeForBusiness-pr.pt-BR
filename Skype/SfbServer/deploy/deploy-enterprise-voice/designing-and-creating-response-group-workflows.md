@@ -1,5 +1,6 @@
 ---
 title: Projetando e criando fluxos de trabalho do grupo de resposta no Skype para negócios
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Projetar e criar fluxos de trabalho do grupo de resposta, no Skype para Business Server Enterprise Voice. São abordados os fluxos de trabalho interativos e do grupo de busca.
-ms.openlocfilehash: 9bb701cf3d4894ff46127b04a3132b6b1fb5895a
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: efa77ffa0a1d7b8fda3720c3002c5364216af8eb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27264857"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895552"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Projetando e criando fluxos de trabalho do grupo de resposta no Skype para negócios
 
@@ -43,7 +44,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 
 4. Na página **Fluxo de Trabalho**, clique em **Criar ou editar um fluxo de trabalho**.
 
-5. No campo de pesquisa **Selecionar um serviço** , digite todo ou parte do nome do serviço **ApplicationServer** que hospeda o fluxo de trabalho que você deseja criar ou alterar. Na lista resultante de serviços, clique no serviço desejado e em **OK**.
+5. No campo de pesquisa **Selecione um Serviço**, digite parte ou todo o nome do serviço do **ApplicationServer** que hospeda o fluxo de trabalho que você deseja alterar ou criar. Na lista resultante de serviços, clique no serviço que você deseja e clique em **OK**.
 
     > [!NOTE]
     > Abre a ferramenta de configuração de grupo de resposta. Você também pode abrir a ferramenta de configuração de grupo de resposta diretamente a partir de um navegador da web, digitando o seguinte URL: https://\<webPoolFqdn\>/RgsConfig.
@@ -216,7 +217,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
    ```
 
      > [!NOTE]
-     > Para usar um arquivo de áudio para o prompt, use o cmdlet **Import-CsRgsAudioFile** . Para obter detalhes, consulte [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
+     > Para usar um arquivo de áudio no prompt, use o cmdlet **Import-CsRgsAudioFile**. Para obter detalhes, consulte [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
 
 4. Obtenha a identidade da fila ou pergunta onde as chamadas serão direcionadas. Na linha de comando, execute:
 
@@ -243,7 +244,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 
 6. Se você deseja definir o horário comercial e feriados, é necessário criá-los antes de criar ou modificar o fluxo de trabalho. Para obter detalhes, consulte [horário comercial de grupo de resposta (opcional) definir no Skype para negócios](optional-define-response-group-business-hours.md) e [conjuntos de feriados do grupo de resposta (opcional) definir Skype para negócios](optional-define-response-group-holiday-sets.md).
 
-7. Se você quiser prompts de chamadas recebidas fora do horário comercial ou em feriados, use o cmdlet **New-CsRgsPrompt** para definir o prompt e use o **New-CsRgsCallAction** para definir a ação a ser executada após o aviso. Para obter detalhes, consulte [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) e [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
+7. Se você deseja ter prompts para chamadas recebidas fora do horário comercial ou em feriados, use o cmdlet **New-CsRgsPrompt** para definir o prompt e use o **New-CsRgsCallAction** para definir a ação a ser realizada após o prompt. Para obter detalhes, consulte [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) e [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
 
 8. Recuperar o nome de serviço para o serviço de grupo de resposta do Lync Server e atribuí-la a uma variável. No comando, execute:
 
@@ -314,7 +315,7 @@ A figura a seguir mostra o fluxo de chamadas.
 
  **Fluxo de chamada interativa de um nível**
 
-![Projetar fluxos de chamada usando a resposta de voz interativa](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
+![Criar fluxos de chamada usando a resposta de voz interativa interativa](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
 
 #### <a name="ivr-with-two-levels-of-questions"></a>IVR com dois níveis de perguntas
 
@@ -346,7 +347,7 @@ A figura a seguir mostra o fluxo de chamadas.
 
  **Fluxo de chamada interativa de dois níveis**
 
-![Projetar fluxos de chamada usando a resposta de voz interativa](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
+![Criar fluxos de chamada usando a resposta de voz interativa interativa](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
 
 ### <a name="best-practices"></a>Práticas recomendadas
 
@@ -376,7 +377,7 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 
 4. Na página **Fluxo de Trabalho**, clique em **Criar ou editar um fluxo de trabalho**.
 
-5. No campo de pesquisa **Selecionar um serviço** , digite todo ou parte do nome do serviço **ApplicationServer** que hospeda o fluxo de trabalho que você deseja criar ou modificar. Na lista resultante de serviços, clique no serviço desejado e em **OK**.
+5. No campo de pesquisa **Selecionar um serviço**, digite parte ou o nome inteiro do serviço **ApplicationServer** que hospeda o fluxo de trabalho que deseja criar ou modificar. Na lista resultante de serviços, clique no serviço que você deseja e clique em **OK**.
 
     > [!NOTE]
     > Abre a ferramenta de configuração de grupo de resposta. Você também pode abrir a ferramenta de configuração de grupo de resposta diretamente a partir de um navegador da web, digitando o seguinte URL: https://\<webPoolFqdn\>/RgsConfig.
@@ -641,7 +642,7 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
      > [!NOTE]
      > Todos os usuários que tenham sido designados como gerente de um grupo de resposta devem ser atribuídos à função CsResponseGroupManager. Se os usuário não têm essa função, não será possível gerenciar grupos de resposta.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [(Opcional) Conjuntos de feriados do grupo de resposta definir Skype para negócios](optional-define-response-group-holiday-sets.md)
 

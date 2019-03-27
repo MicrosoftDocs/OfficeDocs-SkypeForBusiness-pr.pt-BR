@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Servidor de Borda
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nó mostra a configuração do nome de domínio totalmente qualificado do pool (FQDN) e outras configurações básicas para esse pool de Borda. É possível executar as seguintes ações:'
-ms.openlocfilehash: 4bf8d4f19eb4108b025986d530fe746c6b687775
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 9df6d1c25c49024572dcdc7806053ccdeaa4a43b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062749"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890245"
 ---
 # <a name="edge-server-scope-node"></a>Nó de Escopo de Servidor de Borda
  

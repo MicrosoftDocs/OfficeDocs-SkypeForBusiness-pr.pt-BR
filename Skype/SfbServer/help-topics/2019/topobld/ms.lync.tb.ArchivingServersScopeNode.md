@@ -1,5 +1,6 @@
 ---
 title: Nó do Escopo dos Servidores de Arquivamento
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 ROBOTS: NOINDEX, NOFOLLOW
 description: No Construtor de Topologias é possível executar tarefas relacionadas a um Servidor de Arquivamento individual clicando com o botão direito do mouse em Servidor de Arquivamento na árvore do console, clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e depois na opção a seguir do Servidor de Arquivamento.
-ms.openlocfilehash: 881ccca58456f227f868a2a0e288b2c0a139583d
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: e6233c42576b6346852146b9a58ccc06d0df4e25
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082640"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889871"
 ---
 # <a name="archiving-servers-scope-node"></a>Nó do Escopo dos Servidores de Arquivamento
  

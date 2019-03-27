@@ -1,5 +1,6 @@
 ---
 title: Exibir MediaLine
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: O modo de exibição de MediaLine armazena informações sobre cada linha de mídia no banco de dados. Normalmente, uma sessão de áudio conterá uma linha de mídia de áudio. Um áudio e vídeo (A / V) sessão normalmente contém uma linha de mídia de áudio e uma linha de mídia de vídeo; No entanto, a sessão pode conter duas linhas de mídia de vídeo, se um dispositivo de conferência for usado, ou se o modo de exibição de galeria é usado. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
-ms.openlocfilehash: 11905ae9ccc67bb166702f4d43f19d1b52bfbe7b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 04037bae4b2f04058667d42205a2e0b33abacb4f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894213"
 ---
 # <a name="medialine-view"></a>Exibir MediaLine
  
@@ -28,7 +30,7 @@ O modo de exibição de MediaLine armazena informações sobre cada linha de mí
 |CallerIceWarningFlags  <br/> |int  <br/> |Informações sobre o processo de conectividade ICE (estabelecimento interativa) descritas em bits sinalizadores para o chamador. Para obter detalhes, consulte a qualidade da experiência do Monitoring Server especificação do protocolo.  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |Informações sobre o processo de conectividade ICE (estabelecimento interativa) descritas em bits sinalizadores para o receptor. Para obter detalhes, consulte a qualidade da experiência do Monitoring Server especificação do protocolo.  <br/> |
 |Segurança  <br/> |tinyint  <br/> |Perfil de segurança em uso. 0 é NONE, 1 é o SRTP, 2 é V1.  <br/> |
-|Transport  <br/> |tinyint  <br/> |Tipo de transporte. 0 é UDP, 1 é TCP.  <br/> |
+|Transporte  <br/> |tinyint  <br/> |Tipo de transporte. 0 é UDP, 1 é TCP.  <br/> |
 |CallerIPAddr  <br/> |var(50)  <br/> |Endereço IP do chamador. Isso pode ser o endereço de um IPv4 ou IPv6.  <br/> |
 |CallerPort  <br/> |int  <br/> |Porta usada pelo chamador.  <br/> |
 |CallerInside  <br/> |bit  <br/> |Indica se ou não o chamador está dentro da rede da organização. 1 significa que o chamador está dentro da rede corporativa. 0 significa que o chamador está fora da rede.  <br/> |

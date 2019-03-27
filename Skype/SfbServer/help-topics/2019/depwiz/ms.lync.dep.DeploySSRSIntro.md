@@ -1,5 +1,6 @@
 ---
-title: SQL Server Reporting Services (Introdução)
+title: SQL Server Reporting Services (Grupos)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cada pool de Front-End e o aparelho de filial persistente podem ter apenas um que Monitoring Server associado a ela. Quando monitoring estiver habilitado para o site, o Monitoring Server fornece detalhes das chamadas (CDR) de gravação e coleta de dados de qualidade da experiência (QoE) e relatórios.
-ms.openlocfilehash: 6feb7d5dc61e4cc7405b108e4b09b3852b0ead21
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 95a16d0d634f115a06e1fd48a105dbad45a29048
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966084"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893269"
 ---
-# <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (Introdução)
+# <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (Grupos)
  
 Cada pool de Front-End e o aparelho de filial persistente podem ter apenas um que Monitoring Server associado a ela. Quando monitoring estiver habilitado para o site, o Monitoring Server fornece detalhes das chamadas (CDR) de gravação e coleta de dados de qualidade da experiência (QoE) e relatórios.
   

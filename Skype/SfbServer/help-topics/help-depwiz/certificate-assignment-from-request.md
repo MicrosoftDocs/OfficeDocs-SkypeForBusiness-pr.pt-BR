@@ -1,5 +1,6 @@
 ---
 title: Atribuição de Certificado (da solicitação)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
-description: Página atribuição de certificado inicia o processo de atribuir um certificado para os usos solicitados no servidor de função. Clique em Exibir detalhes de certificados para exibir o certificado. Você pode selecionar na guia geral, na guia detalhes ou a guia caminho de certificação. Na guia Geral exibirá informações básicas sobre o certificado, como a autoridade de certificação emissora e o status de uma chave privada. A guia Detalhes exibirá informações de certificado como o nome da entidade, nomes alternativos de entidade e outros detalhes. A guia caminho de certificação exibirá o certificatechain do trustfrom o certificado por meio de quaisquer autoridades de certificação emissora ou intermediário (se estiverem presentes) para a autoridade de certificação raiz.
-ms.openlocfilehash: c90993b1a793a7013a094258be52ca47be54f98f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: A página Atribuição de Certificado inicie o processo de atribuição de um certificado para os usos solicitados no servidor de função. Clique em Exibir Detalhes do Certificado para exibir o certificado. Você pode selecionar na guia geral, na guia detalhes ou a guia caminho de certificação. Na guia Geral exibirá informações básicas sobre o certificado, como a autoridade de certificação emissora e o status de uma chave privada. A guia Detalhes exibirá informações de certificado como o nome da entidade, nomes alternativos de entidade e outros detalhes. A guia caminho de certificação exibirá o certificatechain do trustfrom o certificado por meio de quaisquer autoridades de certificação emissora ou intermediário (se estiverem presentes) para a autoridade de certificação raiz.
+ms.openlocfilehash: 544f101fa68c5dc5a66c522fd2cdbd19352d99d1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892403"
 ---
 # <a name="certificate-assignment-from-request"></a>Atribuição de Certificado (da solicitação)
  

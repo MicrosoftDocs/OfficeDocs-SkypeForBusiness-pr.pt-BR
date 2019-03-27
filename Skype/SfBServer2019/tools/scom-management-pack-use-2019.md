@@ -1,5 +1,6 @@
 ---
 title: Gerenciar Skype para negócios 2019 de servidor usando o pacote de gerenciamento do SCOM
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: Saiba como configurar seu Skype para Business Server 2019 infra-estrutura para funcionar com o System Center Operations Manager.'
-ms.openlocfilehash: 89aeb18f896510dd251519b8a4fb618012d7e222
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 003d2f13373b9d13ea5dc64fab43693deecbc20d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26535996"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899036"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Gerenciar Skype para negócios 2019 de servidor usando o pacote de gerenciamento do SCOM
  
@@ -41,7 +42,7 @@ Os pacotes de gerenciamento podem ser usados com o System Center Operations Mana
   
 |**Configuração**|**Suporte?**|
 |:-----|:-----|
-|Sistema operacional Windows Server 2008 R2  <br/> Sistema operacional Windows Server 2012 R2  <br/> |Sim. Ambos em Skype para servidor de Business Server 2019 e nós do Inspetor de transação sintética.  <br/> |
+|Sistema operacional Windows Server 2008 R2  <br/> Sistema operacional Windows Server 2012 R2  <br/> |Sim. Ambos em Skype para servidor de Business Server 2019 e nós do Inspetor de transação sintética.  <br/> |
 |Servidores em Cluster  <br/> |Sem suporte.  <br/> |
 |Monitoramento sem agente  <br/> |Sem suporte.  <br/> |
 |Ambiente Virtual  <br/> |Sim.  <br/> |
@@ -56,7 +57,7 @@ A tabela a seguir mostra a capacidade e os requisitos de sistema operacional par
 |:-----|:-----|
 |CPU  <br/> |Um dos seguintes:  <br/> Processador de 64 bits, quad-core, 2.33 GHz ou superior  <br/> Processador de 2 vias e 64 bits, dual-core, 2.33 GHz ou superior  <br/> |
 |Memória  <br/> |8 GB  <br/> |
-|Sistema operacional  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
+|Sistema operacional  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
 |Rede  <br/> |1 adaptador de rede com 1 Gbps  <br/> |
    
 ## <a name="prerequisites"></a>Pré-requisitos
@@ -143,7 +144,7 @@ Skype para pacotes de gerenciamento do Business Server 2019 oferecem maior cober
 ||||
 |:-----|:-----|:-----|
 |9  <br/> |Conferências de áudio/vídeo  <br/> |Disponíveis no Lync Server 2010 e posteriores  <br/> |
-| 10  <br/> |Conferência de dados  <br/> |Disponíveis no Lync Server 2013 e posteriores  <br/> |
+|10  <br/> |Conferência de dados  <br/> |Disponíveis no Lync Server 2013 e posteriores  <br/> |
 |11  <br/> |Conferência de Mensagens Instantâneas  <br/> |Disponíveis no Lync Server 2010 e posteriores  <br/> |
 |12  <br/> | Chat Persistente <br/> |Disponíveis no Lync Server 2013 e posteriores  <br/> |
 |13  <br/> |Iniciador de Ingresso (reuniões agendadas)  <br/> |Disponíveis no Lync Server 2013 e posteriores  <br/> |
@@ -180,13 +181,13 @@ A tabela a seguir mostra os estados de integridade de objetos do Skype para Busi
 |Skype para Inspetor de porta do servidor de negócios  <br/> |Uma instância da Porta verifica a execução em um pool.  <br/> |
 |Inspetor de URL Simples  <br/> |Realiza a sondagem HTTPS dos URLs simples configurados em uma implantação.  <br/> |
    
-![SCOM Rollup](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
+![Pacote cumulativo de atualizações do SCOM](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
 Um Skype para pool de servidores de negócios pode conter vários Skype individual para sistemas de Business Server (com mais de um Skype para Business Server role, Skype para o serviço servidor de negócios e Skype para o componente do servidor de negócios). Portanto, a falha de um servidor individual ou componente é menos importante para a integridade geral do Skype para o pool de servidores corporativos, porque a outros servidores no mesmo pool podem fornecer o serviço de aplicativo para o cliente. A integridade serão acumular em um nível de porcentagem do Skype para pool de servidores de negócios. 
   
 O Skype para Inspetor de Pool do servidor de negócios executa as transações sintéticas contra um Skype para pool de servidores de negócios. A falha consecutiva de uma ou mais transações sintéticas (um processo conhecido como intervalo consecutivo de sondagem) atingirá o estado crítico de integridade a nível do pool (o pior de qualquer transação sintética), conforme mostrado no diagrama a seguir. 
   
-![Sondagem consecutiva de SCOM Rollup](../../SfbServer/media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
+![Sondagem de pacote cumulativo de atualizações do SCOM consecutiva](../../SfbServer/media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
   
 ## <a name="best-practice-create-a-management-pack-for-customizations"></a>Prática recomendada: Criar um Pacote de Gerenciamento para personalizações
 
@@ -200,57 +201,57 @@ A criação de um novo pacote de gerenciamento para armazenar personalizações 
 
 Os links abaixo conectam você com as informações sobre tarefas comuns que estão associados aos Pacotes de Monitoramento do System Center 2012:
   
-- [Clico de Vida do Pacote de Gerenciamento](https://technet.microsoft.com/en-us/library/hh212732.aspx)
+- [Ciclo de vida do pacote de gerenciamento](https://technet.microsoft.com/en-us/library/hh212732.aspx)
     
-- [Como Importar um Pacote de Gerenciamento no Operations Manager 2012 ](https://technet.microsoft.com/en-us/library/hh212691.aspx)
+- [Como importar um pacote de gerenciamento do Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh212691.aspx)
     
-- [Como sobrepor uma Regra ou Monitor ](https://technet.microsoft.com/en-us/library/hh212869.aspx)
+- [Como substituir um Monitor ou regra](https://technet.microsoft.com/en-us/library/hh212869.aspx)
     
-- [Como Criar uma Conta Executar Como no Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh321655.aspx)
+- [Como criar uma execução como conta no Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh321655.aspx)
     
-- [Gerenciando Contas Executar como e Perfis](https://technet.microsoft.com/en-us/library/hh212714.aspx)
+- [Gerenciando executar como contas e perfis](https://technet.microsoft.com/en-us/library/hh212714.aspx)
     
-- [Como Exportar um Pacote de Gerenciamento do Operations Manager](https://technet.microsoft.com/en-us/library/hh320149.aspx)
+- [Como exportar um pacote de gerenciamento do Operations Manager](https://technet.microsoft.com/en-us/library/hh320149.aspx)
     
-- [Como Remover um Pacote de Gerenciamento do Operations Manager](https://technet.microsoft.com/en-us/library/hh230746.aspx)
+- [Como remover um pacote de gerenciamento do Operations Manager](https://technet.microsoft.com/en-us/library/hh230746.aspx)
     
 Os links abaixo conectam você com as informações sobre tarefas comuns que estão associados aos Pacotes de Monitoramento do System Center 2007:
   
-- [Administrando o Ciclo de Vida do Pacote de Gerenciamento](https://go.microsoft.com/fwlink/p/?LinkId=211463)
+- [Administrando o ciclo de vida do pacote de gerenciamento](https://go.microsoft.com/fwlink/p/?LinkId=211463)
     
-- [Como Importar um Pacote de Gerenciamento no Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=142351)
+- [Como importar um pacote de gerenciamento do Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=142351)
     
-- [Como Monitorar Usando Substituições](https://go.microsoft.com/fwlink/p/?LinkID=117777)
+- [Como monitorar usando substitui](https://go.microsoft.com/fwlink/p/?LinkID=117777)
     
-- [Como Criar uma Conta Executar como no Operations Manager 2007 ](https://go.microsoft.com/fwlink/p/?LinkID=165410)
+- [Como criar uma execução como conta no Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=165410)
     
-- [Como Modificar um Perfil Executar como Existente](https://go.microsoft.com/fwlink/p/?LinkID=165412)
+- [Como modificar um tempo de execução como perfil existente](https://go.microsoft.com/fwlink/p/?LinkID=165412)
     
-- [Como Exportar Personalizações do Pacote de Gerenciamento](https://go.microsoft.com/fwlink/p/?LinkId=209940)
+- [Como exportar personalizações do pacote de gerenciamento](https://go.microsoft.com/fwlink/p/?LinkId=209940)
     
-- [Como Remover um Pacote de Gerenciamento](https://go.microsoft.com/fwlink/p/?LinkId=209941)
+- [Como remover um pacote de gerenciamento](https://go.microsoft.com/fwlink/p/?LinkId=209941)
     
-Para perguntas sobre o Operations Manager e pacotes de monitoramento, consulte o [fórum da comunidade do System Center Operations Manager](https://go.microsoft.com/fwlink/p/?LinkID=179635).
+Para fazer perguntas sobre o Operations Manager e pacotes de monitoramento, consulte o [Fórum da comunidade do System Center Operations Manager](https://go.microsoft.com/fwlink/p/?LinkID=179635).
   
 Um recurso útil é o blog do [System Center Operations Manager Unleashed](https://opsmgrunleashed.wordpress.com/) , que contém "Por exemplo" postagens para pacotes de monitoramento específicos.
   
 Para obter informações adicionais sobre o Operations Manager, consulte os seguintes blogs: 
   
-- [Blog da Equipe do Operations Manager](https://blogs.technet.com/momteam/default.aspx)
+- [Blog da equipe do Operations Manager](https://blogs.technet.com/momteam/default.aspx)
     
-- [Blog do OpsMgr de Kevin Holman](https://blogs.technet.com/kevinholman/default.aspx)
+- [Blog de OpsMgr de Kevin Holman](https://blogs.technet.com/kevinholman/default.aspx)
     
 - [Ideias sobre OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
     
 - [Blog de Raphael Burri](https://rburri.wordpress.com/)
     
-- [Gerenciamento de Espaço de BWren](https://blogs.technet.com/brianwren/default.aspx)
+- [Espaço de gerenciamento do BWren](https://blogs.technet.com/brianwren/default.aspx)
     
-- [Ops Mgr ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
+- [Operações Mgr + +](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
     
 > [!IMPORTANT]
 > Todas as informações e conteúdos em sites que não sejam da Microsoft são fornecidos pelo proprietário ou por usuários do website. A Microsoft não oferece garantias expressas, implícitas ou estatutárias relativas às informações contidas nesse website. 
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Skype para ferramentas de gerenciamento de servidor 2019 de negócios](../management-tools-2019.md)

@@ -1,5 +1,6 @@
 ---
-title: Planejamento de resiliência do Enterprise Voice em Skype para Business Server
+title: Plan for Enterprise Voice resiliency in Skype for Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Saiba como suporte a resiliência de voz em Skype para Business Server Enterprise Voice, em sites centrais e sites de filiais. Opções de site de filial incluem Implantando aparelhos de filial persistente ou servidores de filial persistente.
-ms.openlocfilehash: b93e93e32baf67b71c2a1eb842455973ee619f80
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8b6b414cc1667c0764ac8878ea0f06da7468e781
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374756"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887796"
 ---
-# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planejamento de resiliência do Enterprise Voice em Skype para Business Server
+# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Plan for Enterprise Voice resiliency in Skype for Business Server
 
 Saiba como suporte a resiliência de voz em Skype para Business Server Enterprise Voice, em sites centrais e sites de filiais. Opções de site de filial incluem Implantando aparelhos de filial persistente ou servidores de filial persistente.
 
@@ -219,7 +220,7 @@ A figura a seguir mostra as topologias recomendadas para a resiliência do site 
 
 **Opções de resiliência do site de filial**
 
-![Opções de resiliência da ramificação de voz](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
+![Opções de resiliência de ramificação de voz](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
 
 #### <a name="survivable-branch-appliance-details"></a>Detalhes do Aparelho de Filial Persistente
 
@@ -243,7 +244,7 @@ Skype para Business Server suporta até dois aparelho de filial persistente em u
 
 O aparelho de filial persistente é fabricado pela fabricantes originais dos equipamentos em parceria com a Microsoft e implantado em nome por revendedores de valor agregados. Essa implantação deve ocorrer somente após Skype para Business Server foi implantado no site central, uma conexão WAN para o site de filial está em vigor e usuários do site de filial estão habilitados para o Enterprise Voice.
 
-Para obter detalhes sobre essas fases, consulte [Implantando um servidor ou aparelho de filial persistente](https://technet.microsoft.com/library/cb780c14-dc5f-41ba-8092-f20ae905bd16.aspx) na documentação de implantação.
+Para obter detalhes sobre essas fases, consulte [Deploying a Survivable Branch Appliance or Server](https://technet.microsoft.com/library/cb780c14-dc5f-41ba-8092-f20ae905bd16.aspx) na documentação de Implantação.
 
 |**Fase**|**Etapas**|**Direitos do usuário**|
 |:-----|:-----|:-----|
@@ -279,7 +280,7 @@ Se um site de filial não tiver um servidor DNS, existem duas formas alternativa
 > [!IMPORTANT]
 > Ao criar uma rota de backup do escritório da filial, é recomendável adicionar dois registros de uso do telefone PSTN à política do usuário do escritório da filial e atribuir rotas separadas a cada um deles. A primeira linha ou primário, rota seria direcionar chamadas para o gateway associados com o aparelho de filial persistente (SBA) ou o servidor de ramificação; o segundo ou backup, rota seria direcionar chamadas ao gateway no site central. Ao direcionar as chamadas, o SBA ou o servidor da filial tentará todas as rotas atribuídas ao primeiro registro de uso PSTN, antes de tentar o segundo registro.
 
-Para ajudar a garantir que as chamadas de entrada aos usuários do site de filial atingirá esses usuários quando o gateway de filial ou o componente do Windows do site do aparelho de filial persistente está indisponível (que ocorreria, por exemplo, se o aparelho de filial persistente ou uma filial Gateway estiverem fora do ar para manutenção), criar uma rota de failover no gateway (ou trabalhar com seu provedor de Direct Inward Dialing (DID)) para redirecionar chamadas recebidas para o pool de registradores de backup no site central. A partir desse local, as chamadas serão encaminhadas através do link WAN para os usuários da filial. Certifique-se de que a rota converte números concordem com o gateway PSTN ou formatos de número de telefone aceitos do outro ponto tronco. Para obter detalhes sobre como criar uma rota de failover, consulte [Configurando uma rota de Failover](https://technet.microsoft.com/library/76e48df4-3b78-4fb7-b1f7-c1e604b81bad.aspx). Além disso, crie planos de discagem de nível de serviço para o tronco associado ao gateway no site de filial a fim de normalizar as chamadas de entrada. Se você tiver dois aparelhos de filial persistente em um site de filial, você pode criar um plano de discagem de nível de site para ambas as situações, a menos que um plano de nível de serviço separado para cada é necessário.
+Para ajudar a garantir que as chamadas de entrada aos usuários do site de filial atingirá esses usuários quando o gateway de filial ou o componente do Windows do site do aparelho de filial persistente está indisponível (que ocorreria, por exemplo, se o aparelho de filial persistente ou uma filial Gateway estiverem fora do ar para manutenção), criar uma rota de failover no gateway (ou trabalhar com seu provedor de Direct Inward Dialing (DID)) para redirecionar chamadas recebidas para o pool de registradores de backup no site central. A partir desse local, as chamadas serão encaminhadas através do link WAN para os usuários da filial. Certifique-se de que a rota converte números concordem com o gateway PSTN ou formatos de número de telefone aceitos do outro ponto tronco. Para obter detalhes sobre como criar uma rota de failover, consulte [Configuring a Failover Route](https://technet.microsoft.com/library/76e48df4-3b78-4fb7-b1f7-c1e604b81bad.aspx). Além disso, crie planos de discagem de nível de serviço para o tronco associado ao gateway no site de filial a fim de normalizar as chamadas de entrada. Se você tiver dois aparelhos de filial persistente em um site de filial, você pode criar um plano de discagem de nível de site para ambas as situações, a menos que um plano de nível de serviço separado para cada é necessário.
 
 > [!NOTE]
 > Para contabilizar o consumo de recursos do site central pelos usuários de um site de filial que dependam do site central para fins de presença, conferência ou failover, é recomendável considerar cada usuário do site de filial como se estivesse registrado no site central. No momento, não há nenhum limite no número de usuários do site de filial, incluindo usuários registrados com um aparelho de filial persistente.
@@ -358,7 +359,7 @@ Finalmente, usuários do site de filial devem ser configurados para Enterprise V
 
 #### <a name="requirements-for-survivable-branch-servers"></a>Requisitos para Servidores de Filial Persistente
 
-Os requisitos para servidores de filial persistente são iguais os requisitos para um servidor Front-End. Para obter detalhes, consulte [requisitos de servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Os requisitos para servidores de filial persistente são iguais os requisitos para um servidor Front-End. Para obter mais detalhes, consulte [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
 
 #### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>Requisitos do Skype de larga escala para implantações de filiais de servidor de negócios
 
@@ -383,8 +384,8 @@ Para obter detalhes, consulte [requisitos de servidor para Skype para Business S
 |:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
 | Rota Local de Redmond  <br/> | ^\+1 (425           | 206                     | 253)(\d{7})$  <br/>                       | Local  <br/> RedmondLocal  <br/>                |
 | Rota Local de Dallas  <br/>  | ^\+1 (972           | 214                     | 469)(\d{7})$  <br/>                       | Local  <br/>                                    |
-| Rota Universal  <br/>     | ^\+?(\d\*)$  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
-| Rota de Usuários de Dallas  <br/>  | ^\+?(\d\*)$  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
+| Rota Universal  <br/>     | ^\+?(\d\*)$  <br/> | GlobalPSTNHopoff  <br/> | Tronco 1  <br/> Tronco 2  <br/> Tronco 3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
+| Rota de Usuários de Dallas  <br/>  | ^\+?(\d\*)$  <br/> | DallasUsers  <br/>      | Tronco 3  <br/>                             | Dallas-GW1  <br/>                               |
 
 Na tabela 1, um uso de telefone de GlobalPSTNHopoff é adicionado após o uso de telefone DallasUsers na Política de Chamada de Dallas. Isso permite que as chamadas com a política de chamada de Dallas usem rotas configuradas para o uso de telefone GlobalPSTNHopoff, caso uma rota para o uso do telefone DallasUsers não esteja disponível.
 

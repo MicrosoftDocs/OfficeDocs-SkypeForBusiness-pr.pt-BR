@@ -1,5 +1,6 @@
 ---
 title: Implantar o painel de controle de qualidade de chamada para Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumo: Saiba mais sobre o processo de implantação para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: a4e8cfb48e0d9efc93b6c107db1ab9051f928e4d
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: ee67ddd0c0c9c3f2d169831c50dda49240d2ec7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735164"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883613"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Implantar o painel de controle de qualidade de chamada para Skype para Business Server
  
@@ -31,7 +32,7 @@ Painel de controle de qualidade de chamada (CQD) consiste em três componentes p
     
 - **Portal**, onde os usuários podem facilmente consultar e visualizar os dados do QoE.
     
-![Componentes do CQD](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
+![Componentes CQD](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
 O processo de instalação para arquivo morto de QoE envolve criando o banco de dados de arquivo morto de QoE, implantando um procedimento armazenado do SQL Server que irá mover os dados da fonte de banco de dados de métricas de QoE em banco de dados de arquivamento do QoE e configurando o trabalho do SQL Server Agent para executar o armazenado procedimento em intervalos regulares. 
   
@@ -179,7 +180,7 @@ A próxima etapa é configurar o painel do CQD. Depois que os usuários são aut
   
 3. Alterar authenticatedUserOverride para **UseWorkerProcessUser**.
     
-     ![Implantar Painel de Qualidade da Chamada - Editor de Configuração](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
+     ![Implantar o painel de qualidade de chamada - Editor de configuração](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
   
 4. Clique em **Aplicar** no lado direito da página.
     

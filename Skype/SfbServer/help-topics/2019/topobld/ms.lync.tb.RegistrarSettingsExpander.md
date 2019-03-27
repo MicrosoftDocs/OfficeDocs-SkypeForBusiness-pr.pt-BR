@@ -1,5 +1,6 @@
 ---
-title: Expansor de configurações de registrador
+title: Expansor de configurações do Registrador Avançado
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 ROBOTS: NOINDEX, NOFOLLOW
 description: Resiliência oferece alta disponibilidade e recuperação de desastres para o pool de registrador. Fornecendo um registrador de backup em caso de falha do registrador principal, o backup registrador possa assumir o controle para o registro com falha, permitindo que os usuários se conectem e se comunicar. Os usuários podem potencialmente experimentar funcionalidade reduzida, dependendo de qual sistemas falharam com o registrador principal.
-ms.openlocfilehash: ff8193ced1f731812cdd4d4095013d1a7cf72cee
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: dff7561a1e461283768601515a52207de1b4140b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067535"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893080"
 ---
-# <a name="registrar-settings-expander"></a>Expansor de configurações de registrador
+# <a name="registrar-settings-expander"></a>Expansor de configurações do Registrador Avançado
  
 Resiliência oferece alta disponibilidade e recuperação de desastres para o pool de registrador. Fornecendo um registrador de backup em caso de falha do registrador principal, o backup registrador possa assumir o controle para o registro com falha, permitindo que os usuários se conectem e se comunicar. Os usuários podem potencialmente experimentar funcionalidade reduzida, dependendo de qual sistemas falharam com o registrador principal.
   

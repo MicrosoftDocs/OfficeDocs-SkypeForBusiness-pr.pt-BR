@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Tronco
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você direito do mouse em um tronco SIP existente no construtor de topologias para executar o seguinte:'
-ms.openlocfilehash: 2ce46a56efd8f17c2a59ca27c8b8730712d6bc01
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 1d6b38d7146a53afb96db7552a43cf881fc41974
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061709"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891579"
 ---
 # <a name="trunk-scope-node"></a>Nó de Escopo de Tronco
  

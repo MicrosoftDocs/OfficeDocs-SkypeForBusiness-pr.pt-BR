@@ -1,5 +1,6 @@
 ---
 title: Planejar o sistema de mensagens instantâneas e presença em Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 'Resumo: Saiba como planejar para mensagens instantâneas e presença no Skype Business Server.'
-ms.openlocfilehash: e68a7b427545105db9ed543e2f1ad77411ba88b7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8d26ad08242248f08e2e54ba7e46d2aa112e362a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002230"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898205"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planejar o sistema de mensagens instantâneas e presença em Skype for Business Server
  
@@ -36,7 +37,7 @@ O sistema de mensagens instantâneas e a presença são sempre executados nos po
   
 ### <a name="enabling-communication-with-external-users"></a>Habilitando a comunicação com usuários externos
 
-É possível aumentar muito os benefícios do seu investimento no Skype for Business Server habilitando seus usuários a se comunicarem com usuários externos. Os usuários externos podem incluir:
+Você poderá aumentar consideravelmente os benefícios do investimento em Skype para Business Server, permitindo que os usuários se comuniquem com usuários externos. Entre os usuários externos podem estar:
   
 - Usuários remotos: os usuários da organização, quando eles estão trabalhando fora dos firewalls e estão usando seus laptops ou outro Skype para dispositivos do servidor de negócios.
     
@@ -48,16 +49,16 @@ O sistema de mensagens instantâneas e a presença são sempre executados nos po
 > AOL, Yahoo e Google Talk não são mais suportados. 
   
 > [!NOTE]
-> Para habilitar qualquer um ou todos esses cenários, é necessário implantar um Servidor de Borda para ajudar a permitir comunicações seguras entre sua implantação do Skype for Business Server e os usuários externos. Os usuários remotos e usuários em organizações federadas da sua organização poderão vejam a presença uns dos outros e se comunicar usando mensagens Instantâneas. 
+> Para habilitar um ou todos esses cenários, você precisará implantar um servidor de borda para ajudar a habilitar comunicações seguras entre seu Skype para implantação de servidor de negócios e os usuários externos. Os usuários remotos e usuários em organizações federadas da sua organização poderão vejam a presença uns dos outros e se comunicar usando mensagens Instantâneas. 
   
 > [!NOTE]
 > O protocolo XMPP é suportado apenas para cenários de certificação UCCP e JITC. 
   
 ### <a name="archiving-im-content"></a>Conteúdo de arquivamento de IM
 
-O Skype for Business oferece recursos que você pode usar se sua organização devem seguir os regulamentos de conformidade. É possível usar o Arquivamento para arquivar o conteúdo de mensagens de IM de todos os usuários em sua organização ou apenas usuários específicos. Para obter detalhes, consulte [Planejar para arquivamento no Skype para Business Server](archiving/archiving.md). 
+Skype para Business Server fornece recursos que você pode usar se a sua organização deve seguir regulamentos de conformidade. É possível usar a função Arquivamento para arquivar o conteúdo de mensagens instantâneas de todos os usuários de sua organização ou apenas de usuários específicos. Para obter detalhes, consulte [Planejar para arquivamento no Skype para Business Server](archiving/archiving.md). 
   
-Se você também tem o Microsoft Exchange Server 2013 implantado, é possível integrar o arquivamento dos dados do Exchange com o arquivamento dos dados do Skype for Business Server e usar uma única ferramenta para pesquisar ambos os tipos de dados arquivados. Para obter mais informações, consulte [Configurar Skype para Business Server usar o arquivamento do Exchange Server](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
+Se você também tiver implantado do Microsoft Exchange Server 2013, você pode integrar o arquivamento de dados do Exchange com o arquivamento de Skype para dados do servidor de negócios e usar uma única ferramenta para pesquisar os dois tipos de dados arquivados. Para obter mais informações, consulte [Configurar Skype para Business Server usar o arquivamento do Exchange Server](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
   
 ### <a name="topologies-and-components"></a>Topologias e componentes
 

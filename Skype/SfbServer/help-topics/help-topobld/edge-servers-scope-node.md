@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Servidores de Borda
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
-description: 'O nó pools de borda lista os pools de borda em sua topologia. Você pode realizar a seguinte ação:'
-ms.openlocfilehash: 62e77cbf86a692d6245ad262918188e3e0e15a11
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'O nó de Pools de Borda lista os pools de Borda de sua topologia. Você pode executar as seguintes ações:'
+ms.openlocfilehash: 7cdd190f1a39d51815ccfd3751f193adacd02cca
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891682"
 ---
 # <a name="edge-servers-scope-node"></a>Nó de Escopo de Servidores de Borda
  

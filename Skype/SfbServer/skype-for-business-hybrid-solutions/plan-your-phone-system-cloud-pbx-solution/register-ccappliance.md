@@ -1,5 +1,6 @@
 ---
 title: Register-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: O cmdlet Register-CcAppliance registra as informações do dispositivo para um site PSTN em uma configuração de locatário online. Um dispositivo deve ser registrado antes de ele poder ser implantado e gerenciado pelo serviço de gerenciamento do Skype for Business Cloud Connector Edition.
-ms.openlocfilehash: 8f1156ccd32b101e6eab957bc3ce7549a3bcc7d7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e753f92c84b880da6aac060b65726bda5f9ba1ae
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892270"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
@@ -54,7 +56,7 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-Você deve fornecer o nome e a senha da conta do administrador do locatário. Use a conta que você criou para o gerenciamento on-line do conector de nuvem. 
+Você precisa fornecer o nome e a senha da conta do administrador do locatário. Use a conta que você criou para o gerenciamento online do Cloud Connector. 
   
 Em versão 1.4.2 e anteriormente, siga as instruções para fornecer a senha do certificado externo, senha de admin do modo de segurança, senha de admin do domínio e senha de admin VM. 
   
@@ -85,8 +87,8 @@ Na seguinte situação, o cmdlet falhará e indicará que o dispositivo já foi 
 
 |**Parâmetro**|**Obrigatório**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-|SiteName  <br/> |Opcional  <br/> |System. String  <br/> |O nome do site PSTN com o qual o dispositivo foi registrado. O valor padrão é o SiteName no arquivo CloudConnector.ini.  <br/> |
-|ApplianceName  <br/> |Opcional  <br/> |System. String  <br/> |Nome do dispositivo padrão. O valor padrão é o nome do computador do servidor host.  <br/> |
+|SiteName  <br/> |Opcional   <br/> |System.String  <br/> |O nome do site PSTN com o qual o dispositivo foi registrado. O valor padrão é o SiteName no arquivo CloudConnector.ini.  <br/> |
+|ApplianceName  <br/> |Opcional   <br/> |System.String  <br/> |Nome do dispositivo padrão. O valor padrão é o nome do computador do servidor host.  <br/> |
 |Local  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Verifique as configurações para registro local sem conexão com a configuração de locatário online.  <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
@@ -99,15 +101,15 @@ Nenhum. O cmdlet Register-CcAppliance não aceita a entrada por pipeline.
 
 Nenhum
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 <a name="ReturnTypes"> </a>
 
-[Cancelar o registro de CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
-[Publicar-CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
 [Install-CcAppliance](install-ccappliance.md)
   
-[Desinstalar-CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
 

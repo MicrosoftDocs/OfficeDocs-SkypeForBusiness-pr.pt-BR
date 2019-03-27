@@ -1,5 +1,6 @@
 ---
-title: Remover o banco de dados do SQL Server para um pool de Front-End
+title: Remover o banco de dados do Servidor SQL para um pool Front-End
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Depois de remover um pool de Front-End ou reconfigure o pool para usar um banco de dados diferente, você pode remover os bancos de dados do SQL Server que hospedava os dados do pool. Use os procedimentos a seguir para remover as definições do construtor de topologia e, em seguida, remover os arquivos de banco de dados e log do servidor de banco de dados.
-ms.openlocfilehash: 35c9429fc16aef886945f8b0adcd5894ce40b834
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4ba60a905d5f4cda56cf5277e1be2db80d906ca0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373123"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893779"
 ---
-# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Remover o banco de dados do SQL Server para um pool de Front-End
+# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Remover o banco de dados do Servidor SQL para um pool Front-End
 
 Depois de remover um pool de Front-End ou reconfigure o pool para usar um banco de dados diferente, você pode remover os bancos de dados do SQL Server que hospedava os dados do pool. Use os procedimentos a seguir para remover as definições do construtor de topologia e, em seguida, remover os arquivos de banco de dados e log do servidor de banco de dados.
   

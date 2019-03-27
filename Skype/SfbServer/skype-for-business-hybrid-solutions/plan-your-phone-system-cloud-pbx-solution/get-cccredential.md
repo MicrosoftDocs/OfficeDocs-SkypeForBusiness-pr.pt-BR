@@ -1,5 +1,6 @@
 ---
 title: Get-CcCredential
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: 'O cmdlet Get-CcCredential retorna a credencial da implantação atual do Skype for Business Cloud Connector Edition. '
-ms.openlocfilehash: cff2ba89f7ebf3151a92a753e4dc6adc490dde05
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 651190f31ad44e0bb2375bbf4a70951c2011e1a7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569991"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898392"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
@@ -61,7 +62,7 @@ Write-Host $text
 
 |**Parâmetro**|**Obrigatório**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |Obrigatório  <br/> | System. String <br/> | O valor AccountType pode ser um dos seguintes: <br/>  VmAdmin: o administrador local de máquinas virtuais do conector de nuvem. <br/>  DomainAdmin: o administrador de domínio da máquina virtual do Cloud Connector. <br/>  SafeModeAdmin: o SafeModeAdmin do controlador de domínio da máquina virtual do Cloud Connector. <br/>  ExternalCert: conta do certificado externo instalado no Servidor de Borda. <br/>  TenantAdmin: administrador do locatário do O365. <br/> |
+| AccountType <br/> |Obrigatório  <br/> | System.String <br/> | O valor AccountType pode ser um dos seguintes: <br/>  VmAdmin: o administrador local de máquinas virtuais do conector de nuvem. <br/>  DomainAdmin: o administrador de domínio da máquina virtual do Cloud Connector. <br/>  SafeModeAdmin: o SafeModeAdmin do controlador de domínio da máquina virtual do Cloud Connector. <br/>  ExternalCert: conta do certificado externo instalado no Servidor de Borda. <br/>  TenantAdmin: administrador do locatário do O365. <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

@@ -1,5 +1,6 @@
 ---
 title: Planejar o estacionamento de chamada no Skype for Business
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planejamento de estacionamento de chamada no Skype para Business Server Enterprise Voice, que permite colocar chamadas em espera e transferir chamadas para departamentos. Inclui planejamento de capacidade, chamadas e clientes compatíveis.
-ms.openlocfilehash: 328c94507c393aba1edc7253bdf962a2904a44d6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 92c896bb610827108379af2bca38cd7a89639af2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883352"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894062"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planejar o estacionamento de chamada no Skype for Business
  
@@ -51,7 +52,7 @@ O aplicativo Estacionamento de Chamada é um componente do Enterprise Voice. Qua
 
 O aplicativo de estacionamento de chamada é instalado automaticamente quando você implanta o Enterprise Voice. Habilitar o estacionamento de chamada, configurando a política de voz.
   
-### <a name="software-requirements"></a>Requisitos de software 
+### <a name="software-requirements"></a>Requisitos de software
 
 Todos os servidores Front-End e servidores Standard Edition onde o estacionamento de chamadas está implantado devem ter o Windows Media Format Runtime instalado para servidores que executam o Windows Server 2008 R2 ou Microsoft Media Foundation para servidores que executam o Windows Server 2012 ou Windows Server 2012 R2. Para Windows Server 2008 R2, Windows Media Format Runtime é instalado como parte da experiência de área de trabalho do Windows. Windows Media Format Runtime ou Microsoft Media Foundation é obrigatório para arquivos de Windows Media Audio (. wma) que reproduz de estacionamento de chamadas para a música em espera.
   
@@ -60,7 +61,7 @@ Todos os servidores Front-End e servidores Standard Edition onde o estacionament
 O aplicativo de estacionamento de chamada usa a **porta 5075** para solicitações de escuta SIP.
     
 > [!NOTE]
-> Essa porta é uma configuração padrão que você pode alterar usando o cmdlet **Set-CsApplicationServer** . Para obter detalhes sobre esse cmdlet, consulte a documentação do Shell de gerenciamento do Lync Server.
+> Esta porta é uma configuração padrão, que pode ser alterada usando o cmdlet **Set-CsApplicationServer**. Para obter detalhes sobre esse cmdlet, consulte a documentação do Shell de gerenciamento do Lync Server.
   
 ### <a name="audio-file-requirements"></a>Requisitos do arquivo de áudio
 
@@ -126,7 +127,7 @@ A tabela a seguir descreve o modelo de usuário do estacionamento de chamadas qu
   
 **Modelo de usuário do estacionamento de chamada**
 
-|**Métrica**|**Por pool de Front-End <br/> (com 8 servidores Front-End)**|**Por servidor Standard Edition**|
+|**Indicador**|**Por pool de Front-End <br/> (com 8 servidores Front-End)**|**Por servidor Standard Edition**|
 |:-----|:-----|:-----|
 |Taxa de estacionamento  <br/> |8 por minuto  <br/> |1 por minuto  <br/> |
 |Recuperar a taxa de chamada estacionada  <br/> |8 por minuto  <br/> |1 por minuto  <br/> |

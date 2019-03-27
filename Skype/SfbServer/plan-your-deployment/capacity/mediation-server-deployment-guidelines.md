@@ -1,5 +1,6 @@
 ---
 title: Diretrizes de implantação para o servidor de mediação em Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: Este tópico descreve as diretrizes de planejamento para implantação de servidor de mediação.
-ms.openlocfilehash: 0b22a285be9e04929d53faffb58e0f7a3f8f3750
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 1a35d2f0bb74cfd78cba8924e6cafb6ce601d647
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561897"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896110"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Diretrizes de implantação para o servidor de mediação em Skype para Business Server
  
@@ -55,6 +56,6 @@ Para interações com um IP-PBX, se o IP-PBX não suporta corretamente interaç�
 Finalmente, se o site central tiver um PBX TDM, ou se o IP-PBX não elimina a necessidade de um gateway PSTN, você deve implantar um gateway de rota de chamada conectando o servidor de mediação e o PBX.
   
 > [!NOTE]
-> Para aprimorar o desempenho de mídia do Servidor de Mediação autônomo, você deve habilitar o RSS (receive-side scaling) nos adaptadores de rede nesses servidores. O RSS permite que pacotes de entrada sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "[Receive-Side aprimoramentos de dimensionamento no Windows Server](https://go.microsoft.com/fwlink/p/?LinkId=268731)". Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede. 
+> Para aprimorar o desempenho de mídia do Servidor de Mediação autônomo, você deve habilitar o RSS (receive-side scaling) nos adaptadores de rede nesses servidores. O RSS permite que pacotes de entrada sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "[Receive-Side aprimoramentos de dimensionamento no Windows Server](https://go.microsoft.com/fwlink/p/?LinkId=268731)". Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede. 
   
 

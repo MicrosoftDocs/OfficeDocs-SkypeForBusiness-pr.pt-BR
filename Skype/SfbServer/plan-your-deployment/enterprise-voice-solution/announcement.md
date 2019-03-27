@@ -1,5 +1,6 @@
 ---
 title: Plano para o aplicativo de anúncio no Skype para negócios
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: Planejamento para o aplicativo de anúncio no Skype para Business Server Enterprise Voice, que configura o que fazer com que as chamadas telefônicas para números telefônicos não atribuídos em suas organizações. Inclui requisitos de arquivo de áudio.
-ms.openlocfilehash: 2642dc13653f18520371b31c9e5ff41bc6a479d3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5e3b9af1a6bdc83081a1a8f17cd4963337efbbb6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882102"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896557"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Plano para o aplicativo de anúncio no Skype para negócios
 
@@ -34,7 +35,7 @@ A forma como você configura a tabela de número não atribuído depende de como
 
 Aplicativo comunicado a é instalado automaticamente com o aplicativo grupo de resposta. Os aplicativos de anúncio e grupo de resposta são componentes padrão de uma implantação do Enterprise Voice: quando você implanta o Enterprise Voice, ambos os aplicativos serão implantados automaticamente.
 
-### <a name="software-requirements"></a>Requisitos de software 
+### <a name="software-requirements"></a>Requisitos de software
 
 Todos os servidores Front-End ou Standard Edition servidores que executam o aplicativo de anúncio devem ter o Windows Media Format Runtime instalado para servidores que executam o Windows Server 2008 R2 ou Microsoft Media Foundation para servidores que executam o Windows Server 2012 ou Windows Server 2012 R2. Para Windows Server 2008 R2, o Windows Media Format Runtime é instalado como parte da experiência de área de trabalho do Windows. Windows Media Format Runtime ou Microsoft Foundation de mídia é necessário para arquivos do Windows Media Audio (. wma) que executa o aplicativo de comunicado para anúncios e música.
 
@@ -43,10 +44,10 @@ Todos os servidores Front-End ou Standard Edition servidores que executam o apli
 O aplicativo de anúncio usa a **porta 5071** para solicitações de escuta SIP.
 
 > [!NOTE]
-> Essa porta é a configuração padrão, que você pode alterar usando o cmdlet **Set-CsApplicationServer** . Para obter detalhes sobre esse cmdlet, consulte o Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
+> Essa porta é a definição padrão, que você pode modificar usando o cmdlet  **Set-CsApplicationServer**. Para obter detalhes sobre esse cmdlet, consulte o Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
 
 ### <a name="audio-file-requirements"></a>Requisitos do arquivo de áudio
 
-O aplicativo de anúncio suporta o formato de arquivo Wave (. wav) e Windows Media audio (. wma) formato de arquivo para músicas e comunicados. Requisitos do arquivo de áudio para o aplicativo de anúncio são iguais do aplicativo grupo de resposta. Para obter detalhes, consulte [Requisitos técnicos para grupos de resposta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+O aplicativo de anúncio suporta o formato de arquivo Wave (. wav) e Windows Media audio (. wma) formato de arquivo para músicas e comunicados. Requisitos do arquivo de áudio para o aplicativo de anúncio são iguais do aplicativo grupo de resposta. Para detalhes, consulte  [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 

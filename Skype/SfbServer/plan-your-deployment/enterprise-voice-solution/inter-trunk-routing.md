@@ -1,5 +1,6 @@
 ---
 title: Roteamento intertronco no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: Saiba como Skype para Business Server Enterprise Voice oferece suporte ao roteamento intertronco.
-ms.openlocfilehash: c8c4232bbb4bb2007aa7d01bce1d26a7c5dd6901
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 281e722898655e463c3db281014421ae224c2cec
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886155"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892657"
 ---
 # <a name="inter-trunk-routing-in-skype-for-business-server"></a>Roteamento intertronco no Skype para Business Server
  
@@ -28,7 +29,7 @@ Skype para Business Server fornece gerenciamento de sessão básica por meio do 
   
 A figura a seguir ilustra o Skype para Business Server fornecendo interconectividade entre um gateway PSTN e um IP-PBX.
   
-![Diagrama do gateway PSTN de conexão/IP-PBX do Lync Server](../../media/inter_trunk01.jpg)
+![Conectando o diagrama IP-PBX/gateway PSTN do Lync Server](../../media/inter_trunk01.jpg)
   
 A próxima figura ilustra o Skype para Business Server conectando dois sistemas IP-PBX.
   

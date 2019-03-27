@@ -1,5 +1,6 @@
 ---
 title: Expansor de Configurações Gerais de Servidor de Mediação
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,12 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
-ms.openlocfilehash: ecb8a924bc72dd8220ab5d40481418cbec78737a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 302be8ca1a4eb57cbb5fa3fc629b1982c2e0f2fd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969849"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899516"
 ---
 # <a name="mediation-server-general-settings-expander"></a>Expansor de Configurações Gerais de Servidor de Mediação
  
@@ -24,7 +25,7 @@ ms.locfileid: "20969849"
 
 ## <a name="general-settings"></a>Configurações gerais
 
-Nome de domínio totalmente qualificado (FQDN) do pool do servidor de mediação ou servidor de mediação. Edite o FQDN do servidor para alterar o valor. É necessário ter um registro (A) de host DNS (Sistema de Nome de Domínio) que coincida com o novo valor.
+Nome de domínio totalmente qualificado (FQDN) do pool do servidor de mediação ou servidor de mediação. Edite o FQDN do servidor para alterar o valor. É necessário ter um registro (A) de host de Sistema de Nomes de Domínio (DNS) que coincida com o novo valor.
   
 Na seção **associações** , você pode selecionar um servidor de borda ou pool de servidores de borda para associar o pool do servidor de mediação ou servidor de mediação. Você seleciona a borda que os componentes de mídia do servidor de mediação usará para o Enterprise Voice de usuário externo.
   

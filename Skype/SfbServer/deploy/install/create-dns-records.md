@@ -1,5 +1,6 @@
 ---
 title: Criar registros DNS para Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 'Resumo: Saiba como configurar o DNS e criar registros DNS para uma instalação do Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 0090cdd19d0bef8b73ad79bd8c7f0d36a5044a48
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 35e8aecea74cc74cda6ea086a1765642885a091e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885456"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890680"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Criar registros DNS para Skype for Business Server
  
 **Resumo:** Saiba como configurar o DNS e criar registros DNS para uma instalação do Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Para Skype para Business Server funcionem adequadamente, várias configurações de sistema de nome de domínio (DNS) devem ser in-loco. Isso é para que os clientes instruídos como acessar os serviços e que os servidores saber sobre umas às outras. Essas configurações precisam ser concluída apenas uma vez por implantação porque uma vez você atribuir uma entrada DNS, ele está disponível em todo o domínio. As etapas 1 a 5 podem ser executadas em qualquer ordem. No entanto, você deve executar as etapas 6, 7 e 8 nesta ordem, após concluir as etapas 1 a 5, conforme descrito no diagrama. Criar registros DNS compreende a etapa 5 de 8. Para obter mais informações sobre o planejamento de DNS, consulte [requisitos de ambiente para Skype para Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [requisitos de servidor para Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
+Para Skype para Business Server funcionem adequadamente, várias configurações de sistema de nome de domínio (DNS) devem ser in-loco. Isso é para que os clientes instruídos como acessar os serviços e que os servidores saber sobre umas às outras. Essas configurações precisam ser concluída apenas uma vez por implantação porque uma vez você atribuir uma entrada DNS, ele está disponível em todo o domínio. Você pode executar os passos 1 a 5 em qualquer ordem. Entretanto, deve executar as etapas 6, 7 e 8 na ordem certa, e após as etapas de 1 a 5, conforme descrito no diagrama. Criar registros DNS compreende a etapa 5 de 8. Para obter mais informações sobre o planejamento de DNS, consulte [requisitos de ambiente para Skype para Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [requisitos de servidor para Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 > [!IMPORTANT]
 > É importante notar que este é apenas um exemplo de como criar registros DNS em um ambiente DNS do Windows Server. Há muitas outras entradas DNS necessários para Skype para Business Server e o procedimento para criar registros DNS depende do sistema que você está usando para gerenciar o DNS em sua organização. Para obter uma lista completa dos requisitos de DNS, consulte [requisitos de DNS para Skype para Business Server](../../plan-your-deployment/network-requirements/dns.md). 
@@ -49,10 +50,10 @@ Este exemplo está usando uma carga balanceada FQDN do DNS chamada pool.contoso.
 |FQDN do pool  <br/> |A  <br/> |pool.contoso.local  <br/> |Endereço IP de servidor SFB03  <br/> |DNS  <br/> |
 |FQDN do SFB03  <br/> |A  <br/> |SFB03.contoso.local  <br/> |Endereço IP de servidor SFB03  <br/> |DNS  <br/> |
 |Descoberta Automática do Skype for Business  <br/> |A  <br/> |lyncdiscoverinternal.contoso.local  <br/> |VIP para Serviços Web Internos  <br/> |Software e hardware suportados  <br/> |
-|URL Simples de Reunião  <br/> |A  <br/> |Meet.contoso.local  <br/> |VIP para Serviços Web Internos  <br/> |Software e hardware suportados  <br/> |
-|URL Simples de Discagem  <br/> |A  <br/> |Dialin.contoso.local  <br/> |VIP para Serviços Web Internos  <br/> |Software e hardware suportados  <br/> |
-|URL Simples de Agendador da Web  <br/> |A  <br/> |Scheduler.contoso.local  <br/> |VIP para Serviços Web Internos  <br/> |Software e hardware suportados  <br/> |
-|URL Simples de Administração  <br/> |A  <br/> |Admin.contoso.local  <br/> |VIP para Serviços Web Internos  <br/> |Software e hardware suportados  <br/> |
+|URL Simples de Reunião  <br/> |A  <br/> |meet.contoso.local  <br/> |VIP para Serviços Web Internos  <br/> |Software e hardware suportados  <br/> |
+|URL Simples de Discagem  <br/> |A  <br/> |dialin.contoso.local  <br/> |VIP para Serviços Web Internos  <br/> |Software e hardware suportados  <br/> |
+|URL Simples de Agendador da Web  <br/> |A  <br/> |scheduler.contoso.local  <br/> |VIP para Serviços Web Internos  <br/> |Software e hardware suportados  <br/> |
+|URL Simples de Administração  <br/> |A  <br/> |admin.contoso.local  <br/> |VIP para Serviços Web Internos  <br/> |Software e hardware suportados  <br/> |
 |Descoberta Herdada  <br/> |SRV  <br/> |_sipinternaltls._tcp.contoso.local  <br/> |FQDN do Pool (porta 5061)  <br/> |N/D  <br/> |
    
 ### <a name="create-dns-records"></a>Criar registros DNS
@@ -65,7 +66,7 @@ Este exemplo está usando uma carga balanceada FQDN do DNS chamada pool.contoso.
     
 4. Clique com o botão direito sobre o domínio SIP e selecione **Novo Host (A ou AAAA)**, conforme mostra a figura.
     
-     ![selecionando o novo registro A](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
+     ![selecionando um registro de novo](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
   
 5. Na caixa **Nome**, digite o nome do registro host (o nome do domínio será automaticamente acrescentado).
     
@@ -104,7 +105,7 @@ Este exemplo está usando uma carga balanceada FQDN do DNS chamada pool.contoso.
     
 14. Clique em **Host que oferece este serviço** e digite o FQDN do pool ou o servidor Standard Edition.
     
-     ![Instantâneo da nova caixa de diálogo de registro de recurso.](../../media/54b1aac5-a2ec-41fe-90c0-02eaeaa9d1b4.png)
+     ![Captura de tela da caixa de diálogo de registro de recurso novo.](../../media/54b1aac5-a2ec-41fe-90c0-02eaeaa9d1b4.png)
   
 15. Clique em **OK** e em **Concluído**.
     
@@ -124,6 +125,6 @@ Este exemplo está usando uma carga balanceada FQDN do DNS chamada pool.contoso.
     
 7. O resultado esperado deve ser similar ao mostrado na figura. Observe que nem todos os registros DNS são mostrados na amostra do resultado, mas todos os registros devem ser verificados. 
     
-     ![Verifique as configurações de dns.](../../media/4fcaa70f-7717-4939-9652-d2048d6293cc.png)
+     ![Verifique se as configurações de dns.](../../media/4fcaa70f-7717-4939-9652-d2048d6293cc.png)
   
 

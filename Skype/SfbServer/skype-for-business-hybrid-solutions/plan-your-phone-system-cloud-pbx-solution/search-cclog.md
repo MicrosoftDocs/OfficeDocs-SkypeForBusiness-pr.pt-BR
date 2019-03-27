@@ -1,5 +1,6 @@
 ---
-title: CcLog de pesquisa
+title: Search-CcLog
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: O cmdlet Search-CcLog pesquisa os logs da chamada de entrada e saída no diretório de log do dispositivo do Skype for Business Cloud Connector Edition.
-ms.openlocfilehash: 3d7d34f2e069b9c4ed728dcc805af5ccf9d13067
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e11e82ba105ed58efa6892165a19c6a4c4de0429
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892762"
 ---
-# <a name="search-cclog"></a>CcLog de pesquisa
+# <a name="search-cclog"></a>Search-CcLog
  
 O cmdlet Search-CcLog pesquisa os logs da chamada de entrada e saída no diretório de log do dispositivo do Skype for Business Cloud Connector Edition.
   
@@ -53,9 +55,9 @@ O cmdlet  Search-CsClsLogging fornece uma opção de linha de comando para pesqu
 
 |**Parâmetro**|**Obrigatório**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-|StartTime  <br/> | Obrigatório <br/> |DateTime  <br/> | Data e hora inicial das entradas de log a serem pesquisadas. Especificada no fuso horário local. <br/> |
-|EndTime  <br/> |Obrigatório  <br/> |DateTime  <br/> |Data e hora final das entradas de log a serem pesquisadas. Especificada no fuso horário local.  <br/> |
-|FileName  <br/> |Obrigatório  <br/> |System. String  <br/> |Especifica o caminho completo do arquivo de texto que contém os resultados da pesquisa.  <br/> |
+|StartTime   <br/> | Obrigatório <br/> |System.Datetime  <br/> | Data e hora inicial das entradas de log a serem pesquisadas. Especificada no fuso horário local. <br/> |
+|EndTime  <br/> |Obrigatório  <br/> |System.Datetime  <br/> |Data e hora final das entradas de log a serem pesquisadas. Especificada no fuso horário local.  <br/> |
+|FileName  <br/> |Obrigatório  <br/> |System.String  <br/> |Especifica o caminho completo do arquivo de texto que contém os resultados da pesquisa.  <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
@@ -67,10 +69,10 @@ Nenhum. O cmdlet Search-CcLog não aceita a entrada por pipeline.
 
 Nenhum
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 <a name="ReturnTypes"> </a>
 
-[Iniciar-CcLogging](start-cclogging.md)
+[Start-CcLogging](start-cclogging.md)
   
 [Stop-CcLogging](stop-cclogging.md)
   

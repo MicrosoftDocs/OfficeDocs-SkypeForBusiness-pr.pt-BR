@@ -1,5 +1,6 @@
 ---
 title: Gerenciando a qualidade do serviço (QoS)
+ms.reviewer: ''
 ms:assetid: ab1051c3-8380-4d72-86df-37a61b1e4a41
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg405409(v=OCS.15)
 ms:contentKeyID: 48185049
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: A qualidade do serviço (QoS) é uma tecnologia de rede usada em algumas organizações para ajudar a fornecer uma experiência de usuário final ideal para comunicações de áudio e vídeos.
-ms.openlocfilehash: 4b75ff3640ec44922176199bdc35d336250a38f9
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: e8d5cf9da3be6537d4531683cfbbb9e437b66b77
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222902"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891143"
 ---
 # <a name="managing-quality-of-service-qos-in-skype-for-business-server"></a>Gerenciando a qualidade do serviço (QoS) no Skype para Business Server
 

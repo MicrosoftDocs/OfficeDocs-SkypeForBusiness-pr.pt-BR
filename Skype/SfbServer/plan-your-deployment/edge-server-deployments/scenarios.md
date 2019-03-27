@@ -1,5 +1,6 @@
 ---
 title: Cenários de servidor de borda no Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Resumo: Revise esses cenários para ajudá-lo a planejar sua topologia de servidor de borda no Skype Business Server.'
-ms.openlocfilehash: 6343c69c493992656b17aaadb5e1450baec85560
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 26bdb7e007c3ba0da6c5590db4c1e6953e43e701
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885177"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881532"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Cenários de servidor de borda no Skype para Business Server
  
@@ -42,49 +43,49 @@ Existem dispositivos NAT que permitem NAT64 (IPv6 para IPv4) e NAT66 (IPv6 para 
 
 Com este cenário, não há opção para alta disponibilidade. Isso significa que você gastará menos no hardware e terá uma implantação mais simples. Se alta disponibilidade for necessária, verifique os cenários consolidados em escala abaixo.
   
-![Cenário de borda para borda consolidada única e IP privado usando NAT](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
+![Cenário de borda de única borda consolidada com IP privados usando NAT](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
   
 ### <a name="port-diagram"></a>Diagrama de porta
 
 Também temos um diagrama para portas para servidores de borda consolidada única.
   
-![Perímetro de rede para borda consolidada única para cenário de borda](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![Borda consolidada do perímetro de rede de um único cenário de borda](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
 ## <a name="single-consolidated-skype-for-business-server-edge-server-with-public-ip-addresses"></a>Único consolidado Skype para servidor de borda do servidor de negócios com endereços IP públicos
 
 Com este cenário, não há opção para alta disponibilidade. Isso significa que você gastará menos no hardware e terá uma implantação mais simples. Se alta disponibilidade for necessária, verifique os cenários consolidados em escala abaixo.
   
-![Cenário de borda para borda consolidada única e IP público](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
+![Cenário de borda de única borda consolidada com IP públicos](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
   
 ### <a name="port-diagram"></a>Diagrama de porta
 
 Também temos um diagrama para portas para servidores de borda consolidada única.
   
-![Perímetro de rede para borda consolidada única para cenário de borda](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![Borda consolidada do perímetro de rede de um único cenário de borda](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-private-ip-addresses-and-nat"></a>Skype consolidada em escala para o pool de borda do servidor de negócios, com o DNS de carga balanceamento e particulares endereços IP e NAT
 
 Com este cenário, você poderá ter alta disponibilidade em sua implantação de Borda, o que oferece vantagens de escalabilidade e suporte a failover.
   
-![Cenário de borda para DNS LB com borda consolidada dimensionada e IP privado usando NAT](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
+![Cenário de borda para borda consolidada dimensionada, DNS LB com IP privados usando NAT](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
   
 ### <a name="port-diagram"></a>Diagrama de porta
 
 Também temos um diagrama para pools de borda consolidados em escala com balanceamento de carga DNS.
   
-![Perímetro de rede para borda consolidada dimensionada para cenário de borda usando DNS LB](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![Rede de perímetro para o cenário de borda dimensionado consolidada de borda usando o DNS LB](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-public-ip-addresses"></a>Os endereços IP públicos e balanceamento de carga do Skype consolidada em escala para o pool de borda do servidor de negócios, com DNS
 
 Com este cenário, você poderá ter alta disponibilidade em sua implantação de Borda, o que oferece vantagens de escalabilidade e suporte a failover.
   
-![Cenário de borda para DNS LB com borda consolidada dimensionada com IP público](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
+![Cenário de borda para borda consolidada dimensionada, DNS LB com IP públicos](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
   
 ### <a name="port-diagram"></a>Diagrama de porta
 
 Também temos um diagrama para pools de borda consolidados em escala com balanceamento de carga DNS.
   
-![Perímetro de rede para borda consolidada dimensionada para cenário de borda usando DNS LB](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![Rede de perímetro para o cenário de borda dimensionado consolidada de borda usando o DNS LB](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-hardware-load-balancing"></a>Dimensionada consolidada Skype para pool de borda do servidor de negócios, com balanceamento de carga de hardware
 
@@ -96,6 +97,6 @@ Com este cenário, você poderá ter alta disponibilidade em sua implantação d
 
 Também temos um diagrama para pools de borda consolidados em escala com balanceamento de carga de hardware
   
-![Portas e protocolos de Rede de Perímetro do Servidor de Borda](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeHLB.jpg)
+![Protocolos e portas de rede de perímetro do servidor de borda](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeHLB.jpg)
   
 

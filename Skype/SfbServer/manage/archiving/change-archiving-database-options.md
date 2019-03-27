@@ -1,5 +1,6 @@
 ---
 title: Alterar as opções de banco de dados de arquivamento no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 'Resumo: Saiba como alterar as opções de banco de dados arquivamento para Skype para Business Server.'
-ms.openlocfilehash: 40cb0d6a3e0a55ad5221c55105355a7838835d30
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8e2c1f0ef90f193f157b1387f1fa65278efea60d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371964"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891227"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>Alterar as opções de banco de dados de arquivamento no Skype para Business Server
 
@@ -41,7 +42,7 @@ Para tornar qualquer uma dessas alterações, você deve executar o construtor d
     
 4. No menu **Ação**, clique em **Editar propriedades**. 
     
-5. Na caixa de diálogo **Editar Propriedades**, clique em **Geral**.
+5. Na caixa de diálogo **Editar propriedades**, clique em **Geral**.
     
 6. Role a tela para baixo até **Arquivamento**.
     

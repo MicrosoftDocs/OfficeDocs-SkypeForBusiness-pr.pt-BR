@@ -1,5 +1,6 @@
 ---
-title: Remover instâncias do SQL Server e os bancos de dados do servidor Back-End
+title: Remover instâncias SQL Server e bancos de dados no Servidor Back-End
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Remover os bancos de dados do Microsoft SQL Server e instâncias depois de remover os servidores que executam que são dependentes neles ou após reconfigurar os servidores para usar outro banco de dados. Você precisará executar o procedimento neste tópico quando você desativa o servidor SQL atual ou reconfigurar o servidor atual de forma que ele processa os bancos de dados obsoletas ou indisponível.
-ms.openlocfilehash: 648c808ee293c4fa33352d0f68ba337e4a489d27
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 531d4c06daa7dacd2a616244c13207b3e79dca4c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027876"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898737"
 ---
-# <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>Remover instâncias do SQL Server e os bancos de dados do servidor Back-End
+# <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>Remover instâncias SQL Server e bancos de dados no Servidor Back-End
 
 Remover os bancos de dados do Microsoft SQL Server e instâncias depois de remover os servidores que executam que são dependentes neles ou após reconfigurar os servidores para usar outro banco de dados. Você precisará executar o procedimento neste tópico quando você desativa o servidor SQL atual ou reconfigurar o servidor atual de forma que ele processa os bancos de dados obsoletas ou indisponível.
   
@@ -23,10 +24,10 @@ Para remover os bancos de dados ou instâncias do servidor de arquivamento ou o 
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Remover o banco de dados do SQL Server para um pool de Front-End](remove-the-sql-server-database-for-a-front-end-pool.md)
+- [Remover o banco de dados do Servidor SQL para um pool Front-End](remove-the-sql-server-database-for-a-front-end-pool.md)
     
-- [Remover o banco de dados do SQL Server para um servidor de monitoramento](remove-the-sql-server-database-for-a-monitoring-server.md)
+- [Remover banco de dados do SQL Server de um servidor de Monitoramento](remove-the-sql-server-database-for-a-monitoring-server.md)
     
-- [Remover o banco de dados do SQL Server para um servidor de arquivamento](remove-the-sql-server-database-for-an-archiving-server.md)
+- [Remover o banco de dados do Servidor SQL de um servidor de Arquivamento](remove-the-sql-server-database-for-an-archiving-server.md)
     
 

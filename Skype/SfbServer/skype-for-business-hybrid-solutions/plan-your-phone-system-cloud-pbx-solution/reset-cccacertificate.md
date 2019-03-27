@@ -1,5 +1,6 @@
 ---
 title: Reset-CcCACertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
 description: O cmdlet Reset-CcCACertificate reinstala o servidor AD de serviço de Autoridade de Certificação para criar um novo certificado de Autoridade de Certificação raiz.
-ms.openlocfilehash: dc86c39e844accc789ba7a3503aa6261d40e5cb2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1ed9aaa8b7caf1edd5324d082094fa247c858853
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898533"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  
@@ -59,9 +61,9 @@ Nenhum.
 ## <a name="see-also"></a>Consulte também
 <a name="ReturnTypes"> </a>
 
-[Renovar-CcCACertificate](renew-cccacertificate.md) Somente versão 1.4.2
+[Renew-CcCACertificate](renew-cccacertificate.md) Somente a versão 1.4.2
   
-[Renovar-CcServerCertificate](renew-ccservercertificate.md) Somente versão 1.4.2
+[Renew-CcServerCertificate](renew-ccservercertificate.md) Somente a versão 1.4.2
   
 [Update-CcCACertificate](update-cccacertificate.md) Versão 2.0 e posterior
   

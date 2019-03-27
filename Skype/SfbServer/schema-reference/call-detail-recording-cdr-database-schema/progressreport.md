@@ -1,5 +1,6 @@
 ---
 title: Tabela ProgressReport
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: Relatórios de progresso se baseiam em dados carregados pelo cliente ao banco de dados quando uma chamada ou sessão for concluída. Relatórios de progresso serão gravados apenas para chamadas e sessões Skype para Business Server 2015 determina que podem ser úteis para fins de diagnóstico.
-ms.openlocfilehash: 9acf54e7fb00917ad8263d4c40e534beb29b628c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6d638411f39956664c977e87785a1269ee788a5f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899754"
 ---
 # <a name="progressreport-table"></a>Tabela ProgressReport
  
@@ -22,7 +24,7 @@ Relatórios de progresso se baseiam em dados carregados pelo cliente ao banco de
   
 Os campos ErrorTime, ErrorReportSeq e ProgressReportSeq não se referem necessariamente aos erros, mas a mensagens que indicam o status das chamadas ou mensagens.
   
-|**Coluna**|**Tipo de dados**|**Índice de chaves /**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ErrorTime** <br/> |datetime  <br/> |Primária, estrangeira  <br/> |Data e hora do relatório de erro de andamento que contém o relatório de andamento. Consulte a [tabela ErrorReport Skype para Business Server 2015](errorreport.md) para obter mais informações. <br/> |
 |**Identificação de erro** <br/> |int  <br/> |Primária, estrangeira  <br/> |Número de identificação usado em conjunto com ErrorTime, ProgressReportSeq para identificar exclusivamente um relatório de andamento. Consulte a [tabela ErrorReport Skype para Business Server 2015](errorreport.md) para obter mais informações. <br/> |

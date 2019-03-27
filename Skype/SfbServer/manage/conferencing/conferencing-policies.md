@@ -1,5 +1,6 @@
 ---
 title: Gerenciar políticas de conferência do Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
 description: 'Resumo: Saiba como gerenciar políticas de conferência do Skype para Business Server.'
-ms.openlocfilehash: d5fed0c6615747069d71015fca33144ca41dd64b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 96b2f5e27aa65931f5cd76499e1a3f66b817baa5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986654"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898141"
 ---
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Gerenciar políticas de conferência do Skype para Business Server
  

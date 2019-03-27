@@ -1,5 +1,6 @@
 ---
 title: Revisar os relatórios do administrador no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,14 +12,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Os Relatórios de Administrador são informações detalhadas para implantações e operações. Os relatórios são gerados com base nas seleções marcadas em Criar Locais. O designer pode adicionar mais valor aos Relatórios de Administrador editando os diagramas de rede e definindo os endereços IP completos e os FQDNs (nome de domínio totalmente qualificado) para servidores, pools e balanceadores de carga.
-ms.openlocfilehash: 1aec87246082083d981d8783d1abc31b5f96bc55
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5cab8231428ace2a0d77132481819eed304d3519
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261585"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898191"
 ---
-# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Revisar os relatórios do administrador no Skype for Business Server 2015
+# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Review the Administrator Reports in Skype for Business Server 2015
 
 Os Relatórios de Administrador são informações detalhadas para implantações e operações. Os relatórios são gerados com base nas seleções marcadas em **Criar Locais**. O designer pode adicionar mais valor aos Relatórios de Administrador editando os diagramas de rede e definindo os endereços IP completos e os FQDNs (nome de domínio totalmente qualificado) para servidores, pools e balanceadores de carga.
 
@@ -37,7 +38,7 @@ O recurso Relatórios do administrador permite:
 
 O Skype para relatório do administrador de negócios é o primeiro de quatro relatórios valiosos que Documente seu design detalhadamente. As informações desse relatório, e dos outros três relatórios associados, são úteis para suas Equipes de Tecnologia da Informação:
 
-![Relatório do administrador de resumo geral](../../media/General_Summary_Report_Admin_Report.png)
+![Relatório de administração de resumo geral](../../media/General_Summary_Report_Admin_Report.png)
 
 O Relatório de Resumo lista as informações gerais de configuração associadas à sua rede de Borda. O local, o FQDN (nome de domínio totalmente qualificado) e endereço IP, o tipo de rede e os comentários específicos a uma determinada função são documentados.
 
@@ -71,18 +72,18 @@ Skype para Business Server 2015 tem um conjunto potencialmente complexo de regra
 
 Do ponto de vista do gerenciamento de firewall, o relatório deve ser revisado cuidadosamente para garantir que não haja nenhum conflito com as regras de firewall existentes e que não hajam políticas ou procedimentos que possam ser violados.
 
-![Relatório do administrador do firewall](../../media/Firewall_Report_Admin_Report.png)
+![Relatório do administrador de firewall](../../media/Firewall_Report_Admin_Report.png)
 
 ## <a name="review-the-dns-report"></a>Examinar o relatório de DNS
 <a name="DNS_Report"> </a>
 
 O Relatório de DNS que faz parte dos Relatórios do Administrador fornece detalhes sobre todas as entradas recomendadas e conhecidas para o DNS (Sistema de Nomes de Domínio) nas redes de perímetro, internas e externas. Se o designer tiver concluído as edições no diagrama de rede e todos os endereços IP e FQDNs (nomes de domínio totalmente qualificados) estiverem definidos com seus valores de produção, o Relatório de DNS apresentará um excelente recurso de configuração. Este relatório também pode ser usado como um documento para solução de problemas operacionais.
 
-![Relatório do Administrador DNS](../../media/DNS_Report_Admin_Report.png)
+![Relatório do administrador DNS](../../media/DNS_Report_Admin_Report.png)
 
 Você deve ter uma revisão detalhada do Relatório DNS feita por sua equipe de gerenciamento do DNS para garantir que não existam erros que possam causem dificuldade durante a implantação ou compliquem uma sessão de solução de problemas.
 
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Consulte Também
 <a name="DNS_Report"> </a>
 
-[Revisando os Relatórios do Administrador](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
+[Reviewing the Administrator Reports](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)

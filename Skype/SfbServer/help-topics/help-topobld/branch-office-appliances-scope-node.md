@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Aparelhos de Filial
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
-description: 'O nó de aparelhos de filial persistente lista os aparelhos de filial persistente neste site de filial. Você pode realizar a seguinte ação:'
-ms.openlocfilehash: c31e91d3d6076950b80dae9f34faa97700031c7a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'O nó de aparelhos de filial persistente lista os aparelhos de filial persistente neste site de filial. Você pode executar as seguintes ações:'
+ms.openlocfilehash: 980c2a26787dd1e7f34f3c002771c211aded1f4a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897514"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Nó de Escopo de Aparelhos de Filial
  

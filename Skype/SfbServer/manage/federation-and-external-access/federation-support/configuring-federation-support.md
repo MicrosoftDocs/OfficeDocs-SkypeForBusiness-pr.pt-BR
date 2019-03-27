@@ -1,5 +1,6 @@
 ---
-title: Configurando o suporte de federação para um Skype para cliente Business Online
+title: Configurando o suporte de federação para um cliente do Skype for Business Online cliente
+ms.reviewer: ''
 ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
 ms:contentKeyID: 48185669
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Se você implantar o Skype para negócios em sua organização, você pode federar os domínios do Skype um ou mais para clientes corporativos on-line. '
-ms.openlocfilehash: 978da18a4ae639e52dedd6971c1a2291c94cb9f1
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 70eda58c5d01b09c9f3e00ef8f3ac0391a90ed07
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223364"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899719"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Configurando o suporte de federação para um Skype para cliente Business Online no Skype para Business Server 
 
@@ -70,7 +71,7 @@ A federação com um Skype para cliente Business Online requer que você conclua
     
       - **Identidade** Especifica um identificador de valor de cadeia de caracteres exclusiva para o provedor de hospedagem que você está criando. Observe que o comando falhará se um provedor existente já tiver sido configurado com essa identidade.
     
-      - **ProxyFQDN** Especifica o nome de domínio totalmente qualificado (FQDN) para o servidor proxy usado pelo provedor de hospedagem. Esse valor não pode ser modificado. Se o provedor de hospedagem alterar o seu servidor proxy, será necessário excluir e recriar a entrada desse provedor.
+      - **ProxyFQDN** especifica o nome de domínio totalmente qualificado (FQDN) para o servidor de proxy usado pelo provedor de hospedagem. Esse valor não pode ser modificado. Se o provedor de hospedagem alterar o seu servidor proxy, será necessário excluir e recriar a entrada desse provedor.
     
       - **VerificationLevel** Especifica como (ou se) as mensagens enviadas de um provedor de hospedagem são verificadas para garantir que sejam enviados a partir daquele provedor.
     

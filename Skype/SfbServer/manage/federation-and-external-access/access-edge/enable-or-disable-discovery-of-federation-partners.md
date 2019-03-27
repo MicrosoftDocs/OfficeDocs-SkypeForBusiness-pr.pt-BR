@@ -1,5 +1,6 @@
 ---
 title: Habilitar ou desabilitar descoberta de parceiros de federação
+ms.reviewer: ''
 ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182550(v=OCS.15)
 ms:contentKeyID: 48184857
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: No momento você implantado servidores de borda e habilitado a federação para sua organização, você deve especificou se deseja suportar a descoberta automática de domínios de parceiro federado.
-ms.openlocfilehash: afa022ae1a52124c3dabaf788de8308ba9834227
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: de61d8180a8f4e8f8be13abaab3d8911d2c6e22c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222846"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887995"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>Habilitar ou desabilitar a descoberta de parceiros de federação no Skype para Business Server
 

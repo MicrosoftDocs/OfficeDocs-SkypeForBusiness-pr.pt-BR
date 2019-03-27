@@ -1,5 +1,6 @@
 ---
 title: Exclusões de varredura Skype para Business Server de antivírus
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Visão geral do interoperação de scanner antivírus com Skype para Business Server.
-ms.openlocfilehash: 782f7bc6fe004eb5106fa07c93b6f22993849d98
-ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
+ms.openlocfilehash: 377c9e8fb9de71187978fe541a23f43cc2282749
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24975191"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895962"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusões de varredura Skype para Business Server de antivírus
 
@@ -122,7 +123,7 @@ Para garantir que o scanner antivírus não interfere com a operação do Skype 
 
 - Diretórios e arquivos:
 
-  - %systemroot%\system32\LogFiles
+  - %systemroot%\System32\LogFiles
 
   - %systemroot%\SysWow64\LogFiles
 
@@ -143,7 +144,7 @@ Para garantir que o scanner antivírus não interfere com a operação do Skype 
 
   - Repositório de compartilhamento de arquivo(específico no Construtor de Topologias). Os repositórios de arquivos são especificados no Construtor de Topologias.
 
-  - Os arquivos de logs e dados do SQL Server, incluindo aqueles para o banco de dados de back-end, armazenamento de usuário, arquivamento, monitoramento, e repositório de application. Os arquivos da base de dados e os logs podem ser especificados no Construtor de Topologias. Para obter detalhes sobre os arquivos de dados e log para cada banco de dados, incluindo nomes padrão, consulte a [localização do arquivo de Log e de dados do SQL Server](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) na documentação de implantação.
+  - Os arquivos de logs e dados do SQL Server, incluindo aqueles para o banco de dados de back-end, armazenamento de usuário, arquivamento, monitoramento, e repositório de application. Os arquivos da base de dados e os logs podem ser especificados no Construtor de Topologias. Para mais detalhes sobre os dados e arquivos de log para cada base de dados, incluindo os nomes padrão, consulte [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) na Documentação de implantação.
 
   - Arquivos do SQL Server dados e log, incluindo aqueles para o banco de dados front-end, Skype para repositório corporativo e RtcDatabase repositório. Normalmente, eles estão sob %localdrive%\CSData.
 

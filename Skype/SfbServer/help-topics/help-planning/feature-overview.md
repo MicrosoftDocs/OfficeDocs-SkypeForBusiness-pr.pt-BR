@@ -1,5 +1,6 @@
 ---
-title: Visão geral do recurso (ferramenta de planejamento)
+title: Feature Overview (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,16 +13,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
-description: Ferramenta de Planejamento do Skype for Business Server 2015
-ms.openlocfilehash: 8d35b9babe99b4899cda51804f40dd6e3302feeb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Skype for Business Server 2015 Planning Tool
+ms.openlocfilehash: f04935f7dc4d27883e40b388051b9affa4ec30e9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899733"
 ---
-# <a name="feature-overview-planning-tool"></a>Visão geral do recurso (ferramenta de planejamento)
+# <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
-Ferramenta de Planejamento do Skype for Business Server 2015
+Skype for Business Server 2015 Planning Tool
   
 Você pode usar a página de **Sites centrais** da ferramenta de planejamento para projetar o Skype para implantação de servidor de negócios. Você pode criar tanto uma implantação centralizada quanto um distribuída. Uma implantação centralizada tem somente um site central, que hospedar Skype todos os usuários corporativos em sua organização. Uma implantação distribuída possui mais de um site central. Se você implantar o Skype para Business Server em vários sites centrais, você irá inserir o número de usuários em cada site central na ferramenta de planejamento.
   
@@ -141,7 +143,7 @@ Os elementos restantes foram populados com respostas que você forneceu às perg
     
     Aplicativo grupo de resposta atende e distribui chamadas para um operador de assistência técnica disponível automaticamente.
     
-- **Anúncio**
+- **Comunicado**
     
     Se você planeja implantar o Enterprise Voice, você talvez queira ser capaz de configurar o modo como as chamadas telefônicas são tratadas se o número discado é válido, mas não atribuído a uma área comum do usuário. Os administradores podem configurar o Serviço de Comunicado para que essas chamadas sejam transferidas para um destino predeterminado (número telefônico ou URI SIP) ou reproduzir um comunicado em áudio ou ambos. O aplicativo de Anúncio ajuda a evitar situações em que o chamador disca para um número errado e ouve um tom de ocupado ou em que o cliente SIP recebe uma mensagem de erro. A funcionalidade de Serviço de Comunicado é um recurso típico de PBX. 
     

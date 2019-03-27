@@ -1,5 +1,6 @@
 ---
 title: Chat, equipes, canais e aplicativos no Microsoft Teams
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 123d5cfb8744ad07cc9df2a8765a9fc897289f48
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 8dc365921871f8c39c9189571bee0214f4316c08
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461736"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898941"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipes, canais e aplicativos no Microsoft Teams
 
@@ -50,12 +51,12 @@ Estas são as configurações de chat, equipes e canais que a maioria das organi
 
 ### <a name="teams-administrators"></a>Administradores do Teams
 
-O Teams oferece um conjunto personalizado de funções de administrador que pode ser usado para gerenciar o Teams para sua organização. As funções fornecem vários recursos para administradores. 
+O Teams fornece um conjunto personalizado de funções de administrador que pode ser usado para gerenciar o programa na organização. As funções fornecem vários recursos para administradores. 
 
-| Pergunte-se | Ação |
+| Pergunte a si mesmo | Ação |
 |--------------|--------|
-|A quem será atribuída a função de Administrador de Comunicação do Teams?|Para saber mais sobre as funções de administrador do Teams, confira [Usar funções de administrador do Microsoft Teams para gerenciar o Teams](using-admin-roles.md).|
-|A quem será atribuída função de Engenheiro de Suporte de Comunicações do Teams?|Para atribuir funções de administrador, confira [Atribuir funções de administrador e não administrador aos usuários com o Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
+|A quem será atribuída a função de Administrador de Comunicações de Equipes?|Para saber mais sobre as funções de administrador do Teams, confira [Usar funções de administrador para gerenciar o Microsoft Teams](using-admin-roles.md).|
+|A quem será atribuída função de Engenheiro de Suporte de Comunicações de Equipes?|Para atribuir funções de administrador, confira [Atribuir funções de administrador e não administrador aos usuários com o Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
 |A quem será atribuída a função de Especialista de Suporte de Comunicações do Teams?||
 |||
 

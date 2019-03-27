@@ -1,5 +1,6 @@
 ---
 title: Tipo de regra de conversão uma expressão Regular
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Em corresponder este campo padrão, especifique o padrão que será usado para corresponder os números a serem convertidos. No campo regra de conversão, especifique um padrão para o formato dos números convertidos. '
-ms.openlocfilehash: 5a3696122c721fab3ece2d33a573d0e2f089fb96
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: d75bde018b0a16ab3fb8e505d5ae8d0bc2d4604f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069523"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898575"
 ---
-# <a name="translation-rule-type-a-regular-expression"></a>Regra de conversão: Digite uma expressão Regular
+# <a name="translation-rule-type-a-regular-expression"></a>Regra de Conversão: Digite uma Expressão Regular
  
 No campo **corresponder este padrão** , especifique o padrão que será usado para corresponder os números a serem convertidos. No campo **regra de conversão** , especifique um padrão para o formato dos números convertidos. Por exemplo, se você inserir ^\+(\d{9}\d+)$ no campo **corresponder este padrão** e 011$ 1 no campo **regra de conversão** , a regra converterá + 441235551010 em 011441235551010. 
   

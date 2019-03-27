@@ -1,5 +1,6 @@
 ---
 title: Novidades no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: "Resumo: Leia este tópico para conhecer os novos recursos do Skype para Business Server 2015. Para obter informações detalhadas sobre a nova experiência do cliente, consulte que Lync agora é Skype para negócios – consulte What's new."
-ms.openlocfilehash: e1ae2a046b955e83ccc7c811984a526c26f7c526
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 053bbc4c427e322499a56eb7d74109c8b0ec4a7e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "24961026"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899663"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Novidades no Skype for Business Server 2015
 

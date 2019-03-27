@@ -1,5 +1,6 @@
 ---
 title: Remove-CcCertificationAuthorityFile
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
 description: O cmdlet Remove-CcCertificationAuthorityFile remove o arquivo de backup do serviço de autoridade de certificação na pasta CA sob o diretório de compartilhamento de sites para Skype para o conector de nuvem Business Edition.
-ms.openlocfilehash: 0cc2470d6ee9312646feb3d459d6fb7a4c2bb30b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 52f3dc8642b9f3177b215b9cd102bbd50cd22fea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899621"
 ---
 # <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
@@ -47,11 +49,11 @@ Nenhum. O cmdlet Remove-CcCertificationAuthorityFile não aceita a entrada por p
 ## <a name="return-types"></a>Tipos de retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum
+Nenhum 
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 <a name="ReturnTypes"> </a>
 
-[CcCertificationAuthority de backup](backup-cccertificationauthority.md)
+[Backup-CcCertificationAuthority](backup-cccertificationauthority.md)
   
 

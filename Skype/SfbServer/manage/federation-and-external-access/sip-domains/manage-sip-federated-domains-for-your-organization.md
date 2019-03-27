@@ -1,5 +1,6 @@
 ---
 title: Gerenciar domínios SIP federados para sua organização
+ms.reviewer: ''
 ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
 ms:contentKeyID: 48679565
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Saiba como gerenciar e configurar domínios SIP que você pode federar
-ms.openlocfilehash: 565971ccf5cd4cbf62f08acc91e15f9615d350f7
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 83623b41e0d9adb1e4539958344214fd2ebe0db9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223084"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892256"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Gerenciar domínios federados SIP para sua organização no Skype para Business Server
 
@@ -90,10 +91,10 @@ Além disso, você deve configurar e aplicar a política aos usuários que você
 
 ## <a name="see-also"></a>Consulte Também
 
-[Configurar políticas para controlar o acesso de usuário federado](../external-access-policies/configure-policies-to-control-federated-user-access.md)  
+[Configurar políticas para controlar acesso de usuário federado](../external-access-policies/configure-policies-to-control-federated-user-access.md)  
 
 [Habilitar ou desabilitar federação e conectividade de IM pública](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 
-[Habilitar ou desabilitar a descoberta de parceiros de Federação](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
+[Habilitar ou desabilitar descoberta de parceiros de federação](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
   
 

@@ -1,5 +1,6 @@
 ---
 title: Convert-CcIsoToVhdx
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
 description: O cmdlet Convert-CcIsoToVhdx cria um arquivo VHDX (disco rígido virtual) base usando um arquivo ISO do Windows Server 2012 R2 fornecido pelo cliente. O arquivo VHDX será usado durante a implantação do Skype for Business Cloud Connector Edition.
-ms.openlocfilehash: 9bf27e7161a3d5c74cc972df12246c36226be8cc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 181d1af762d1f8c9c8f3e65a4411b317ab36ce4a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898484"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  
@@ -28,7 +30,7 @@ Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpd
 
 |**Parâmetro**|**Obrigatório**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-|IsoFilePath  <br/> | Obrigatório <br/> |System. String  <br/> | O caminho do arquivo ISO do Windows Server 2012 R2.  <br/> |
+|IsoFilePath  <br/> | Obrigatório <br/> |System.String  <br/> | O caminho do arquivo ISO do Windows Server 2012 R2.  <br/> |
 |GeneralizeOnly  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Se o processo de conversão falhar durante a atualização do Windows, você pode tentar configurar uma rede/proxy e atualizar o Windows manualmente. Após a conclusão do trabalho manual, você pode executar este cmdlet com o parâmetro -GeneralizeOnly e ele concluirá as tarefas  restantes.   <br/> |
 |PauseBeforeUpdate  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Para atualizar o Windows, alguma configuração manual de rede/proxy na VM base pode ser necessária. O processo de conversão pausará antes da atualização do Windows, se esse parâmetro for fornecido. Depois que a configuração manual for concluída, será possível retomar o processo.   <br/> |
    
@@ -72,9 +74,9 @@ Nenhum. O cmdlet Convert-CcIsoToVhdx não aceita a entrada por pipeline.
 ## <a name="return-types"></a>Tipos de retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum
+Nenhum 
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 <a name="ReturnTypes"> </a>
 
 Nenhum

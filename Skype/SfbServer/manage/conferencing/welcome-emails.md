@@ -1,5 +1,6 @@
 ---
 title: Enviar e-mail de boas vindas discada usuários em Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Resumo: Saiba como receba os usuários conferência discada no Skype para Business Server.'
-ms.openlocfilehash: 90c56fd97d9eb51c96c1a0cb149f732a31a70743
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 51c4dbc04b44cb33e27cbe09f22608836485e9ad
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373710"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898491"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Enviar e-mail de boas vindas discada usuários em Skype para Business Server
  
@@ -51,7 +52,7 @@ Normalmente, você usar o cmdlet **Set-CsClientPin** para redefinir o PIN, mas v
    [-Credential <SMTP server credentials used to send email with the specified From address>]
    ```
 
-**SmtpServer** Por padrão, o script usa o valor do ambiente reservadas variável **$PSEmailServer** para esse parâmetro. Se a variável **$PSEmailServer** não estiver definida, você deve especificar esse parâmetro.
+**SmtpServer** Por padrão, o script usa o valor do ambiente reservadas variável **$PSEmailServer** para esse parâmetro. Se a variável  **$PSEmailServer** não for definida, será necessário especificar esse parâmetro.
     
 **Credencial** Por padrão, o script usa as credenciais do usuário atual. Se o usuário atual não tiver permissão para enviar email em nome do endereço do remetente, será necessário especificar esse parâmetro. Como regra geral, especifique esse parâmetro se você não especificar seu endereço de email como o endereço do remetente.
     

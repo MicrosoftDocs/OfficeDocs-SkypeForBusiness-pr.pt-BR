@@ -1,5 +1,6 @@
 ---
-title: Adicionar monitoramento de diretor
+title: Adicionar Monitoramento de Diretor
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 description: 'Você pode definir o SQL Server store de monitoramento Configurando as propriedades a seguintes:'
-ms.openlocfilehash: cb246ab0fb6413e5bc47ac2d18a9f568d0571f9d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1c9ad1ffcff2d48f1fcd87dabb23e3b4af984224
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973868"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890512"
 ---
-# <a name="add-director-monitoring"></a>Adicionar monitoramento de diretor
+# <a name="add-director-monitoring"></a>Adicionar Monitoramento de Diretor
  
 Você pode **definir o SQL Server store de monitoramento** Configurando as propriedades a seguintes:
   
@@ -37,7 +38,7 @@ Você pode **definir o SQL Server store de monitoramento** Configurando as propr
     
     Clique em **novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para o repositório de testemunha de espelhamento.
     
-Clique em  **Voltar** para voltar à caixa de diálogo de definição de pool anterior.
+Clique em **Voltar** para voltar à caixa de diálogo de definição anterior.
   
 Clique em **Avançar** depois de concluir a inserção das opções para essa caixa de diálogo prosseguir com a configuração.
   

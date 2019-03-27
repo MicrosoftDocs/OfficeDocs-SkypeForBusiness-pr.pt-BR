@@ -1,5 +1,6 @@
 ---
 title: Configurar uma rota de voz do E9-1-1 no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Configure rotas de voz do E9-1-1 no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: a465dd40eb79224db4e021a227f46fb0f1f6a129
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 04890782eb9c550428d89c99304c5a7951fc34b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890319"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894919"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Configurar uma rota de voz do E9-1-1 no Skype para Business Server
  
@@ -27,7 +28,7 @@ Configure rotas de voz do E9-1-1 no Skype para Business Server Enterprise Voice.
 Para implantar o E9-1-1, é preciso primeiro configurar uma rota de voz de chamada de emergência. Para obter detalhes sobre a criação de rotas de voz, consulte [criar ou modificar uma rota de voz no Skype para negócios](create-or-modify-a-voice-route.md). É possível definir mais de uma rota se, por exemplo, sua implantação incluir um tronco SIP primário e um secundário. 
   
 > [!NOTE]
-> Para incluir informações de localização em um E9-1-1 INVITE, você precisa configurar o tronco SIP que se conecta ao provedor de serviços de E9-1-1 para encaminhar as chamadas de emergência através do gateway. Para fazer isso, defina o sinalizador EnablePIDFLOSupport no cmdlet **Set-CsTrunkConfiguration** como True. O valor padrão de EnablePIDFLOSupport é False. Por exemplo: `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` não é necessário habilitar o recebimento locais para pública fallback comutada gateways do telefone PSTN (rede) e gateways ELIN Emergency Location Identification número ().
+> Para incluir informações de localização em um E9-1-1 INVITE, você precisa configurar o tronco SIP que se conecta ao provedor de serviços de E9-1-1 para encaminhar as chamadas de emergência através do gateway. Para isso, defina o sinalizador EnablePIDFLOSupport no cmdlet **Set-CsTrunkConfiguration** como True. O valor padrão de EnablePIDFLOSupport é False. Por exemplo: `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` não é necessário habilitar o recebimento locais para pública fallback comutada gateways do telefone PSTN (rede) e gateways ELIN Emergency Location Identification número ().
   
 ### <a name="to-configure-an-e9-1-1-voice-route"></a>Para configurar uma rota de voz de E9-1-1
 

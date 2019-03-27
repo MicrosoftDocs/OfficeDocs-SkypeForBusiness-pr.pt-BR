@@ -1,5 +1,6 @@
 ---
 title: Planejar a solução Enterprise Voice no Skype Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Resumo: Saiba mais sobre as opções para planejar uma solução unificada de comunicações de voz e em Skype Business Server.'
-ms.openlocfilehash: 23bd0663be3a5e8a2dfc98c83bccacf9a5b1b793
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d564c609bdcb869db47986179d18a518c1bcab34
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885036"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893644"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planejar a solução Enterprise Voice no Skype Business Server
  
@@ -32,7 +33,7 @@ Você pode também usar Enterprise Voice e a chamada Via trabalho juntos.
   
 - Enterprise Voice é a oferta de voz mais completa do mercado. Trata-se de uma solução de VoIP baseada em software que fornece um rico conjunto de recursos, incluindo integração com o Outlook e o Exchange, e diversos recursos poderosos, como Grupo de Resposta, Estacionamento de Chamada, chamada de equipe, atendimento de chamada de grupo e suporte aprimorado a a Emergency E9-1-1. Com o Enterprise Voice, os usuários usar um dispositivo de áudio como um headset com seu computador, ou um telefone habilitado para VoIP, em vez de uma PSTN tradicional ou telefone PBX.
     
-- Chamada Via trabalho oferece uma maneira de integrar seu Skype para solução de negócios com seus sistemas de telefone PBX existentes. Um usuário habilitado para chamada Via trabalho pode clicar em Skype para a chamada a outro usuário, tanto dentro de sua implantação ou um usuário externo de negócios. A chamada é realizada usando o telefone PBX do usuário. Além disso, esses usuários podem clicar em Skype for Business ingressar em conferências.
+- Chamada Via trabalho oferece uma maneira de integrar seu Skype para solução de negócios com seus sistemas de telefone PBX existentes. Um usuário habilitado para chamada Via trabalho pode clicar em Skype para a chamada a outro usuário, tanto dentro de sua implantação ou um usuário externo de negócios. The call is completed using the user's PBX phone. Além disso, esses usuários podem clicar em Skype for Business ingressar em conferências.
     
     Implantando a chamada Via trabalho também é um benefício para usuários que ainda tenham telefones PBX, mas estão sendo movido para o Enterprise Voice, pois permite que esses usuários sendo usando seu Skype para o cliente de negócios para controlar suas chamadas telefônicas.
     
@@ -43,7 +44,7 @@ Obviamente, você pode ter alguns dos usuários habilitados para o Enterprise Vo
 > [!NOTE]
 > Controle de chamada remota era um recurso oferecido nas versões anteriores do Lync Server, permitindo que os usuários usem sua Skype para o cliente de negócios para fazer e receber chamadas telefônicas seus telefones PBX. Controle não é suportado para usuários de chamada remota hospedados no Skype para servidores Business Server, mas há suporte para usuários com Skype para clientes corporativos que ainda estão hospedados em servidores executando o Lync Server 2013. 
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 
 [Planejar o Enterprise Voice no Skype for Business Server](enterprise-voice.md)

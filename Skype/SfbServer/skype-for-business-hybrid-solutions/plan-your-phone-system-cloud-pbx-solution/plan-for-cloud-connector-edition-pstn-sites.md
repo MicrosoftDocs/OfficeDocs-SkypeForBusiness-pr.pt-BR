@@ -1,5 +1,6 @@
 ---
 title: Plano para sites PSTN do Cloud Connector Edition
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Leia este tópico para saber como planejar os sites de nuvem conector Edition PSTN para garantir o roteamento de chamada de eficiência e economia.
-ms.openlocfilehash: fa224bd4fa3dc1d0be5db8104e414f9a78d01b30
-ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
+ms.openlocfilehash: 4bf702314e46e1f8281ac6237dd8a7829900440e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25576516"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897612"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Plano para sites PSTN do Cloud Connector Edition
  
@@ -28,13 +29,13 @@ Este tópico descreve o que você precisa saber sobre a edição do conector de 
   
 ## <a name="cloud-connector-pstn-sites-and-call-routing"></a>Sites PSTN do Cloud Connector e roteamento de chamadas
 
-Sites de PSTN do conector de nuvem são uma construção de topologia criada para evitar interurbano desnecessário e tarifas entre países e para garantir que as chamadas de emergência saídas são roteadas para o tronco apropriado. Para assegurar um roteamento de chamadas econômico e eficiente, incluindo chamadas para serviços de emergência, é preciso planejar seus sites PSTN e a atribuição dos usuários a cada site. 
+Sites de PSTN do conector de nuvem são uma construção de topologia criada para evitar interurbano desnecessário e tarifas entre países e para garantir que as chamadas de emergência saídas são roteadas para o tronco apropriado. Para garantir a rentável e eficiente do roteamento de chamadas, incluindo chamadas aos serviços de emergência, você deve planejar cuidadosamente os sites PSTN e como os usuários são atribuídos a cada site. 
   
-Como parte do planejamento do Cloud Connector, é extremamente importante que você se comunique com as operadoras sobre a localização de seus escritórios e usuários, e onde terminam os troncos PSTN da operadora. Você precisa trabalhar com seus operadoras para determinar como chamadas de emergência podem ser roteadas e use essas informações para definir os sites de nuvem conector PSTN e atribuir usuários para os sites apropriados. Por exemplo, você precisa garantir que os troncos que terminam em um data center no qual o site PSTN é ampliado sejam configurados para lidar com o roteamento de entrada e de saída de todos os números atribuídos aos usuários nesse site. 
+Como parte de seu planejamento para o conector de nuvem, é essencial que você conversa com seus operadoras sobre onde seus escritórios e os usuários estão localizados e onde os troncos PSTN encerrar da operadora. Você precisa trabalhar com seus operadoras para determinar como chamadas de emergência podem ser roteadas e use essas informações para definir os sites de nuvem conector PSTN e atribuir usuários para os sites apropriados. Por exemplo, você precisa garantir que os troncos que terminam em um data center no qual o local de PSTN é ampliado sejam configurados para lidar com o roteamento de entrada e de saída de todos os números atribuídos aos usuários nesse site. 
   
-Cada dispositivo do conector de nuvem pode ser conectado ao vários Gateways IP, IP PBXs ou controladores de borda de sessão (SBCs). Porque os Gateways e PBXs estão conectados ao troncos de telecomunicações (PRI ou SIP troncos), aparelhos de conector de nuvem logicamente conectados a troncos PSTN para chamadas de entrada e saídas. Com o Cloud Connector e a conectividade PSTN local, você obtém o tronco e os números de telefone associados da sua operadora local. Se a sua empresa é de grande porte, talvez vocês usem mais de uma operadora, especialmente se a empresa estiver em mais de uma cidade, um estado ou um país. Como a operadora é proprietária do número de telefone, ela é responsável pela administração das chamadas de emergência.
+Cada dispositivo do conector de nuvem pode ser conectado ao vários Gateways IP, IP PBXs ou controladores de borda de sessão (SBCs). Porque os Gateways e PBXs estão conectados ao troncos de telecomunicações (PRI ou SIP troncos), aparelhos de conector de nuvem logicamente conectados a troncos PSTN para chamadas de entrada e saídas. Com o conector de nuvem e conectividade PSTN local, obtenha o tronco e os números de telefone associados da operadora local. Se a sua empresa é de grande porte, talvez vocês usem mais de uma operadora, especialmente se a empresa estiver em mais de uma cidade, um estado ou um país. Como a operadora é proprietária do número de telefone, ela é responsável pela administração das chamadas de emergência.
   
-Skype para Business Online trata todos os aparelhos de conector de nuvem em um site igualmente e encaminharão as chamadas de saída em uma base de rotação para aparelhos de conector de nuvem no mesmo site. Cada Cloud Connector em um site é conectado de maneira cruzada ao mesmo conjunto de troncos PSTN (totalmente entrelaçado). Como cada usuário é associado a um site de PSTN do conector de nuvem, qualquer chamada de saída do usuário (normal ou de emergência) será atribuída a um dos appliances nuvem conector no site do PSTN que o usuário está associado. 
+Skype para Business Online trata todos os aparelhos de conector de nuvem em um site igualmente e encaminharão as chamadas de saída em uma base de rotação para aparelhos de conector de nuvem no mesmo site. Cada conector de nuvem em um site é cruzado conectados ao mesmo conjunto de troncos PSTN (totalmente integrado). Como cada usuário é associado a um site de PSTN do conector de nuvem, qualquer chamada de saída do usuário (normal ou de emergência) será atribuída a um dos appliances nuvem conector no site do PSTN que o usuário está associado. 
   
 Conector de nuvem faz o roteamento de chamadas estática para seu anexado Gateways de IP, o IP-PBXs, o SBCs ou a troncos diretos de PSTN. Conector de nuvem não ainda foi capaz de roteamento dinâmico a um tronco com base no destino (para roteamento de menor custo) ou com base na origem (estática ou dinâmica as chamadas de emergência). Chamadas de entrada não são um problema, desde que a chamada só possa vir de um tronco associado com o número. Chamadas de saída, no entanto, podem ir para qualquer aparelho de conector de nuvem em um site (e por extensão troncos PSTN anexados a esse aparelho de conector de nuvem) que podem causar indesejadas chamadas de longa distância. Além disso, as chamadas de emergência não modificará se o site de nuvem conector PSTN é alongado em datacenters com diferentes códigos de área ou operadoras.
   
@@ -42,7 +43,7 @@ Conector de nuvem faz o roteamento de chamadas estática para seu anexado Gatewa
 
 O exemplo a seguir mostra como agrupar troncos aos sites PSTN e como atribuir usuários à lista de sites. Para a empresa Contoso, considere o seguinte:
   
-- Existem quatro usuários:   
+- Existem quatro usuários:  
     
   - Usuário A em Redmond WA (EUA)
     

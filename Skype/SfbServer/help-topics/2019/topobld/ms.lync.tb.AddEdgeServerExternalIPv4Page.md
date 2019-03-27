@@ -1,5 +1,6 @@
 ---
-title: Adicionar IPv4 externo de servidor de borda
+title: Adicionar IPv4 Externo de Servidor de Borda
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: d4f22de3-d825-495e-9e85-99a75b8a20e3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Em IPv4 externo, insira o endereço IP externo que aponta para o serviço de borda de acesso, serviço de borda de webconferência e uma / serviço de borda V.
-ms.openlocfilehash: 5124f53767bf024322586af322fa75c6ba9019c7
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 0b312c2da89f7877c8d28a34836e6ecb22d0a6cf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060102"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893347"
 ---
-# <a name="add-edge-server-external-ipv4"></a>Adicionar IPv4 externo de servidor de borda
+# <a name="add-edge-server-external-ipv4"></a>Adicionar IPv4 Externo de Servidor de Borda
  
 Em **IPv4 externo**, insira o endereço IP externo que aponta para o serviço de borda de acesso, serviço de borda de webconferência e uma / serviço de borda V.
   

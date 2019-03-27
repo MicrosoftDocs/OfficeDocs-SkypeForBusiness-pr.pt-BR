@@ -1,5 +1,6 @@
 ---
 title: Servidor relatório qualidade de mídia tendência no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 description: 'Resumo: Saiba mais sobre o servidor Media Quality tendência Report no Skype para Business Server.'
-ms.openlocfilehash: 1d4f2407dc7a4cc56e1688a955f4196a450114f4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ca49d800972b238da038631584b7ac7d2879cb07
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21029118"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883690"
 ---
 # <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Servidor relatório qualidade de mídia tendência no Skype para Business Server
  
@@ -44,12 +45,12 @@ Os filtros são uma forma de obter dados mais direcionados ou visualizar os dado
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
-|**De** <br/> |Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 03/07/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
-|**Até** <br/> |Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 03/07/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
+|**De** <br/> |Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 3/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
+|**Até** <br/> |Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 3/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
 |**Intervalo** <br/> | Intervalo de tempo. Selecione uma das seguintes opções: <br/>  Por hora (é possível exibir no máximo 25 horas) <br/>  Diariamente (é possível exibir no máximo 31 dias) <br/>  Por semana (é possível exibir no máximo 12 semanas) <br/>  Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Por dia com a data de início 7/8/2015 e a data de término 28/9/2015, os dados serão exibidos para os dias de 7/8/2015 00:00 a 7/9/2012 00:00 (ou seja, um total de 31 dias de dados). <br/> |
 |**Tipo de Servidor** <br/> | Tipo de servidor envolvido na chamada. Os valores permitidos são <br/>  Servidor de Mediação <br/>  Servidor de Conferência A/V <br/>  Servidor de Borda A/V <br/>  Gateway (Servidor de Mediação) <br/>  Gateway (Bypass do servidor de mediação) <br/>  Servidor de conferência AS <br/> |
 |**Servidores** <br/> |Nome do servidor envolvido na sessão; essa lista suspensa é preenchida automaticamente com base no valor do filtro de tipo de arquivo. É possível selecionar até cinco servidores diferentes ao compilar o relatório.  <br/> |
-|**Tipo de acesso** <br/> | Indica se o participante fez logon a partir da rede interna ou de uma rede externa. Os valores permitidos são: <br/>  [Todos] <br/>  Interno <br/>  Externa <br/> |
+|**Tipo de acesso** <br/> | Indica se o participante fez logon a partir da rede interna ou de uma rede externa. Os valores permitidos são: <br/>  [Todos] <br/>  Interno <br/>  Externo <br/> |
 |**Tipo de rede** <br/> | Indica o tipo de rede ao qual o participante estava conectado. Os valores permitidos são: <br/>  [Todos] <br/>  Com fio <br/>  Sem fio <br/> |
 |**VPN** <br/> | Indica se o participante externos estava usando conexão VPN durante a sessão. Os valores permitidos são: <br/>  [Todos] <br/>  VPN <br/>  Não-VPN <br/> |
    
@@ -62,9 +63,9 @@ A tabela a seguir lista as informações fornecidas no relatório de tendências
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Volume da chamada** <br/> |Não  <br/> |Número total de chamadas.  <br/> |
-|**Degradação (MOS)** <br/> |Não  <br/> |Quantidade média de degradação do MOS (pontuação média de opção) apresentaram durante uma chamada. Valores de degradação podem variar de uma baixa de 0,0 a uma alta de 5.0; um valor de 0,5 ou menos representa degradação aceitável. Historicamente, pontuações de opções médias foram calculadas com usuários classificando a qualidade de uma chamada em uma escala de 1 a 5. Skype para Business Server usa um conjunto de algoritmos para prever como usuários classificou uma chamada.  <br/> Valores altos de degradação podem ser causados por congestionamento, falta de largura de banda, congestionamento ou interferência na rede sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |
+|**Degradação (MOS)** <br/> |Não  <br/> |Quantidade média de degradação do MOS (pontuação média de opção) apresentaram durante uma chamada. Valores de degradação podem variar de uma baixa de 0,0 a uma alta de 5.0; um valor de 0,5 ou menos representa degradação aceitável. As pontuações médias de opinião costumava ser calculadas a partir da classificação da qualidade de uma chamada em uma escala de 1 a 5, feita pelos dos usuários. Skype para Business Server usa um conjunto de algoritmos para prever como usuários classificou uma chamada.  <br/> Valores altos de degradação podem ser causados por congestionamento, falta de largura de banda, congestionamento ou interferência na rede sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |
 |**Porcentagem de chamadas ruins** <br/> |Não  <br/> |O número total de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada em que no mínimo uma das métricas excedeu o valor permitido (por exemplo, uma chamada com tremulação excessiva).  <br/> |
-|**Viagem de ida e volta (ms)** <br/> |Não  <br/> |Quantidade média de tempo (em milissegundos) exigida para que um pacote de protocolo RTP vá até um ponto de extremidade e retorne. Tempos de ida e volta de 200 milissegundos ou menos são considerados de qualidade aceitável.  <br/> Altos valores de tempo de resposta podem ser causados por roteamento de chamadas internacionais, configuração incorreta de um roteamento ou um servidor de mídia sobrecarregado. Tempos de resposta altos resultam em dificuldades para conversas de áudio bidirecionais e em tempo real.  <br/> |
+|**Ida e volta (ms)** <br/> |Não  <br/> |Quantidade média de tempo (em milissegundos) exigida para que um pacote de protocolo RTP vá até um ponto de extremidade e retorne. Tempos de ida e volta de 200 milissegundos ou menos são considerados de qualidade aceitável.  <br/> Altos valores de tempo de resposta podem ser causados por roteamento de chamadas internacionais, configuração incorreta de um roteamento ou um servidor de mídia sobrecarregado. Tempos de resposta altos resultam em dificuldades para conversas de áudio bidirecionais e em tempo real.  <br/> |
 |**Perda de pacote** <br/> |Não  <br/> |Taxa média de perda de pacotes de RTP (protocolo de transporte em tempo real). (A perda de pacotes ocorre quando pacotes de RTP, um protocolo usado para transmitir áudio e vídeo pela Internet, falha ao tentar alcançar seu destino). Altas taxas de perda geralmente são causadas por congestionamento, insuficiência da largura de banda, congestionamento ou interferência na rede sem fio ou um servidor de mídia sobrecarregado. A perda de pacotes normalmente resulta em distorção ou perda de áudio.  <br/> |
 |**Tremulação (ms)** <br/> |Não  <br/> |Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medição de quanto uma chamada treme.) Valores altos de tremulação são normalmente causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em perda ou distorção de áudio.  <br/> |
 |**Taxa de correção oculta** <br/> |Não  <br/> |Taxa média de amostras de áudio ocultas para o número total de amostras. (Uma amostra de áudio oculta é uma técnica usada para suavizar a transição abrupta que normalmente seria causada por pacotes de rede descartados.) Valores altos indicam níveis consideráveis de perda de ocultação aplicada causada por perda de pacote ou tremulação e resulta na perda ou distorção de áudio.  <br/> |

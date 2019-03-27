@@ -1,5 +1,6 @@
 ---
 title: Relatório de controle de admissão de chamadas no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: 'Resumo: Saiba mais sobre os relatórios de controle de admissão chamada usada no Skype para Business Server.'
-ms.openlocfilehash: c3828eb890ed8f70c41bc669785278f9be017893
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 88d1db546e488452d73e7a5e39dcba990402a210
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21011243"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897427"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>Relatório de controle de admissão de chamadas no Skype para Business Server
  
@@ -48,8 +49,8 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Cont
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
-|**De** <br/> |Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início da seguinte forma:  <br/> 17/7/12015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
-|**Até** <br/> |Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final da seguinte forma:  <br/> 17/7/12015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
+|**De** <br/> |Data/hora de início do intervalo de tempo. Para ver os dados por horas, insira a data e hora de início desta forma:  <br/> 17/7/12015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
+|**Até** <br/> |Data/hora de término do intervalo de tempo. Para ver os dados por horas, insira a data e hora de término desta forma:  <br/> 17/7/12015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
 |**Pool** <br/> |FQDN (Nome de domínio totalmente qualificado) do Pool de registradores ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em **[Todos]** para ver os dados de todos os pools. Essa lista suspensa é automaticamente preenchida para você com base nos registros no banco de dados.<br/> |
 |**Tipo de atividade** <br/> | Tipo de atividade. Selecione uma das seguintes atividades: <br/>  [Todos] <br/>  Ponto a Ponto <br/>  Conferência <br/> |
 |**Categoria da chamada** <br/> | Indica o motivo de o CAC ter sido usado para a chamada. Selecione uma das seguintes opções: <br/>  [Todos] <br/>  Chamada rejeitada devido ao controle de admissão de chamadas <br/>  Chamadas roteadas novamente por PSTN devido ao controle de admissão de chamadas <br/> |
@@ -69,7 +70,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Controle de
 |**Hora do convite** <br/> |Sim  <br/> |Data e hora de envio do convite inicial da sessão para o usuário remetente.  <br/> |
 |**Hora da resposta** <br/> |Sim  <br/> |Data e hora de recebimento da aceitação do convite.  <br/> |
 |**Hora de término** <br/> |Sim  <br/> |Data e hora de encerramento da sessão.  <br/> |
-|**ID do Diagnóstico** <br/> |Sim  <br/> |Identificador exclusivo (na forma de cabeçalho ms-diagnostics) anexado a uma mensagem SIP que fornece informações úteis para solucionar erros. Os cabeçalhos Diagnóstico são opcionais (é possível ter sessões SIP que não os incluem), e as IDs de diagnóstico são relatadas somente para as sessões com algum tipo de problema.  <br/> |
+|**ID do Diagnóstico** <br/> |Sim  <br/> |Identificador exclusivo (na forma de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que fornece informações úteis para resolução de erros. Os cabeçalhos de diagnóstico são opcionais (é possível ter sessões SIP que não os incluem), e as IDs de diagnóstico são relatadas somente em sessões com algum tipo de problema.  <br/> |
    
 ## <a name="metrics-for-conferencing-sessions"></a>Métricas para sessões de conferência
 

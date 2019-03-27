@@ -1,5 +1,6 @@
 ---
 title: Planejamento de conferência no Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 'Resumo: Leia este tópico para saber mais sobre os recursos de conferência e capacidades no Skype para Business Server.'
-ms.openlocfilehash: d1ac78876df97d2420c0951c9c2e1a9a41e451ce
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cefd631f1750d7eaa4404a2fe2ffa8aa91675824
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375794"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899432"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planejamento de conferência no Skype para Business Server
  
@@ -38,7 +39,7 @@ Este tópico inclui as seguintes seções:
 
 Há quatro tipos de conferência disponíveis no Skype para Business Server: webconferências, áudio e vídeo (A / V) conferência, conferência discada e conferência de mensagem instantânea (IM). 
   
-Você pode optar por habilitar todos os tipos ou usar apenas um tipo, dependendo de suas necessidades. Por exemplo, você pode permitir que todos os tipos, incluindo conferência discada permitir que os usuários que não conseguem ingressar em uma conferência com um Skype para cliente corporativos chamada e participar de áudio da reunião de um telefone. Quando você implanta o Skype para Business Server, recursos de conferência de mensagem Instantânea serão implantados automaticamente; você especificar se deseja implantar a web, A / V e conferência discada usando o construtor de topologias. Para obter mais informações, consulte [Deploy conferência no Skype para Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md). 
+Você pode optar por habilitar todos os tipos de conferências ou usar apenas um deles, dependendo de suas necessidades. Por exemplo, você pode permitir que todos os tipos, incluindo conferência discada permitir que os usuários que não conseguem ingressar em uma conferência com um Skype para cliente corporativos chamada e participar de áudio da reunião de um telefone. Quando você implanta o Skype para Business Server, recursos de conferência de mensagem Instantânea serão implantados automaticamente; você especificar se deseja implantar a web, A / V e conferência discada usando o construtor de topologias. Para obter mais informações, consulte [Deploy conferência no Skype para Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md). 
   
 Nas subseções a seguir, estão descritos os recursos e as funcionalidades de cada tipo de conferência.
   
@@ -133,7 +134,7 @@ O tamanho de reuniões que suporta o Skype para Business Server depende se a con
     
 Para obter mais informações sobre o gerenciamento de grandes reuniões, consulte [Planejar para grandes reuniões em Skype para Business Server](large-meetings.md).
   
-Se sua organização requer maiores capacidades de reunião, você deve considerar a implementação de um ambiente híbrido que tiram vantagens do Skype transmitir reunião, um serviço online que faz parte do Office 365. A Transmissão de Reunião do Skype habilita os usuários a hospedarem e divulgarem a grandes públicos online reuniões com até 10.000 participantes. O uso de Transmissão de Reunião do Skype exige que o Skype for Business Server esteja configurado como híbrido em um locatário do Office 365 de produção. Todos os usuários devem estabelecer um locatário online, isso é um pré-requisito. Se você estiver interessado em implantar uma solução híbrida que pode tirar proveito da transmissão do Skype reunião, consulte [Configure sua implantação no local para transmissão do Skype reunião](../../deploy/configure-skype-meeting-broadcast.md).
+Se sua organização requer maiores capacidades de reunião, você deve considerar a implementação de um ambiente híbrido que tiram vantagens do Skype transmitir reunião, um serviço online que faz parte do Office 365. A Transmissão de Reunião do Skype habilita os usuários a hospedarem e divulgarem a grandes públicos online reuniões com até 10.000 participantes. O uso de Transmissão de Reunião do Skype exige que o Skype for Business Server esteja configurado como híbrido em um locatário do Office 365 de produção. O pré-requisito é que todos os usuários tenham um locatário online. Se você estiver interessado em implantar uma solução híbrida que possa tirar proveito da Transmissão de Reunião do Skype, consulte [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md).
   
 ## <a name="determine-your-organizations-needs"></a>Determine as necessidades da sua organização
 
@@ -175,7 +176,7 @@ Ao determinar quais funcionalidades de conferência serão implantadas, você pr
     
   - **Usuários remotos.** Os usuários da organização, quando eles estão trabalhando fora dos firewalls e estão usando seus laptops ou outro Skype para dispositivos do servidor de negócios.
     
-  - **Usuários federados.** Os usuários de empresas que você trabalhe com quem também executar Skype para Business Server. Para habilitar seus usuários a contatar facilmente esses usuários, crie relacionamentos federados com essas empresas.
+  - **Usuários federados.** Os usuários de empresas que você trabalhe com quem também executar Skype para Business Server. Para habilitar que seus usuários entrem em contato facilmente com esses usuários, crie relacionamentos federados com essas empresas.
     
   - **Usuários anônimos.** Quaisquer outros usuários externos que são convidados especificamente por seus usuários para participar de conferências específicas. O organizador de uma reunião em sua empresa pode enviar um convite de uma conferência por email a um usuário externo. O email inclui um link no qual o usuário externo pode clicar para ingressar na conferência.
     

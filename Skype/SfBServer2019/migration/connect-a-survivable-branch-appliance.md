@@ -1,5 +1,6 @@
 ---
 title: Conectar um aparelho de filial persistente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Cada aparelho de filial persistente (SBA) é associado um pool de Front-End que serve como um registrador de backup para o SBA. Quando o pool é migrado para o Skype para Business Server 2019, o SBA Front-End deve ser removido de pool Front-End, enquanto o pool é atualizado, depois que o pool foi migrado para o Skype para Business Server 2019, o SBA pode ser novamente associado a F Front atualizados pool de término. Isso envolve excluindo o SBA da topologia de legado no construtor de topologia e depois adicionar o SBA para o Skype para Business Server 2019 topologia. Usuários hospedados no SBA primeiro deve ser movido para outro pool de Front-End antes de remover o SBA da topologia de legado. Após o SBA é adicionado ao Skype para Business Server 2019 topologia, esses usuários, em seguida, podem ser movidos volta ao SBA. Essas etapas estão resumidas abaixo:'
-ms.openlocfilehash: ff35032d9abc5c1435e44dea7aca83d841b404c6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e4917b20e9e680627e92935dcb10ebf06c2e3d2d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373746"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887474"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Conectar um aparelho de filial persistente
 
@@ -37,7 +38,7 @@ Cada aparelho de filial persistente (SBA) é associado um pool de Front-End que 
     
 4. (Opcional) Clique em **Descrição**e digite uma descrição significativa para o site de filial.
     
-5. Clique em **Avançar**.
+5. Click **Next**.
     
 6. (Opcional) Na próxima caixa de diálogo **Definir novo Site de filial** , siga um destes procedimentos: 
     

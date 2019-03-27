@@ -1,5 +1,6 @@
 ---
 title: Gerenciar locais para gateways ELIN no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Decisões necessárias para planejar um banco de dados de informações de local ou um semelhante banco de dados externo, para uma implantação do E9-1-1 usando gateways ELIN, no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 622593285ef4b1643f19d54f6c7d2f5c1e956c84
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 858493089c6c0e274a45616ea4b93a3fdf69e010
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885661"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894688"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Gerenciar locais para gateways ELIN no Skype para Business Server
 
@@ -32,10 +33,10 @@ Para fazer com que o Skype para Business Server ofereça automaticamente locais 
 
 - Carregue os ELINs no banco de dados de Identificação de Localização Automática (ALI) da transportadora PSTN.
 
-Para obter detalhes sobre como executar essas tarefas, consulte [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) na documentação de implantação.
+Para obter detalhes sobre como realizar estas tarefas, consulte [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) na documentação de Implantação.
 
 > [!NOTE]
-> Locais adicionados ao banco de dados local central não estão disponíveis para o cliente até que tenham sido publicadas usando um Skype para o comando do Shell de gerenciamento do servidor de negócios e são replicados para as lojas locais do pool. Para obter detalhes, consulte [publicação the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) na documentação de implantação.
+> Locais adicionados ao banco de dados local central não estão disponíveis para o cliente até que tenham sido publicadas usando um Skype para o comando do Shell de gerenciamento do servidor de negócios e são replicados para as lojas locais do pool. Para obter detalhes, consulte [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) na documentação Implantação.
 
 Esta seção descreve coisas a considerar conforme você planeja atualizar e manter o banco de dados de localização.
 
@@ -85,7 +86,7 @@ Usando a opção de serviço de informações de localização secundário para 
 
 Para integrar com o serviço de informações de local, o banco de dados de terceiros deve seguir o Skype para esquema de solicitação/resposta do Business servidor local. Para obter detalhes, consulte o [Serviço Web para o protocolo de suporte do E911](https://go.microsoft.com/fwlink/p/?linkid=213819). Para obter detalhes sobre como implantar um serviço de informações de localização secundária, consulte [Configure um serviço de informações de localização secundário no Skype para Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) na documentação de implantação.
 
-Para obter detalhes sobre como preencher o banco de dados local, consulte [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) na documentação de implantação.
+Para obter detalhes sobre como preencher o banco de dados de local, consulte [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) na documentação Implantação.
 
 ## <a name="maintaining-the-location-database"></a>Manutenção do banco de dados de local
 

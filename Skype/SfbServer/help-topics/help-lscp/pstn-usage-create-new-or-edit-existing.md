@@ -1,5 +1,6 @@
 ---
 title: Uso da PSTN criar novo ou editar existente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 7e995794bc58d1935ef7bc58527fbdeb98a2dafe
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a40eb1f2369942aefbb6f7407ee105a59e168824
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244636"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888777"
 ---
-# <a name="pstn-usage-create-new-or-edit-existing"></a>Uso PSTN: Criar nova ou editar existente
+# <a name="pstn-usage-create-new-or-edit-existing"></a>Uso PSTN: Criar Novo ou Editar Existente
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 

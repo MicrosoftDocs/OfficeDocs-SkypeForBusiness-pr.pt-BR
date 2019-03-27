@@ -1,5 +1,6 @@
 ---
 title: Adicionar uma política de local a um site de rede no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: Atribua políticas de localização E9-1-1 a sites de rede no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: caf7de4816c30ba77a4215457b503ac0f8fe9640
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7a6930fddcadc9b9eb772d20c21ff1e13be6bef0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370879"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890343"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Adicionar uma política de local a um site de rede no Skype para Business Server
  
@@ -28,7 +29,7 @@ Os exemplos a seguir mostram como adicionar a política de local de **Redmond** 
   
 Para obter detalhes sobre como trabalhar com sites de rede, consulte a documentação do Shell de gerenciamento do Lync Server para os seguintes cmdlets:
   
-- **New-CsNetworkSite.**
+- **New-CsNetworkSite**
     
 - **Get-CsNetworkSite**
     

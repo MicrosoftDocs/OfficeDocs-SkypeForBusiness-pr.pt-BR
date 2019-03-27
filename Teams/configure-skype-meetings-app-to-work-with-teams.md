@@ -1,5 +1,6 @@
 ---
 title: Configurar o aplicativo de Reuniões do Skype para trabalhar com as equipes
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
@@ -13,12 +14,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db5b1c20ee531fef24a74cb347f3e4df27541178
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 8071b248219d2e69465ef19e8dc966e87de58754
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542219"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891472"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar o aplicativo de Reuniões do Skype para trabalhar com as equipes
 ===================================================
@@ -40,7 +41,7 @@ Os usuários que usam o aplicativo do Skype reuniões com equipes estão sujeito
 - Os usuários não têm nenhuma opção para alterar o seu dispositivo de vídeo.
 - Depois que um usuário é atualizado para equipes, se o usuário está em uma reunião usando o App do Skype reuniões e, em seguida, recebe uma chamada de equipes, a reunião no Skype reuniões App não será colocada em espera. Em vez disso, o usuário está conectado para ambas as chamadas.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 Para obter mais informações sobre o aplicativo do Skype reuniões, consulte:
 

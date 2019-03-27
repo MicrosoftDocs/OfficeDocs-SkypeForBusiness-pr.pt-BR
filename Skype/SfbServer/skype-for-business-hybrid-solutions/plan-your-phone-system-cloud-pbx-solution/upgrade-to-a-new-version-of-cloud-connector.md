@@ -1,5 +1,6 @@
 ---
 title: Atualizar para uma nova versão do Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Saiba como atualizar sua implantação do Cloud Connector Edition.
-ms.openlocfilehash: c0946cf26181df81327412c2dc0efc227b5a5586
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5b3ca4b216bc376c9e23424fb978b5cd83e4aa41
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370624"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897647"
 ---
-# <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Atualizar para uma nova versão do Cloud Connector
+# <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Upgrade to a new version of Cloud Connector
  
 Saiba como atualizar sua implantação do Cloud Connector Edition.
   
@@ -61,7 +62,7 @@ Atualização automática requer que o serviço de nuvem conector está funciona
   - Esvazie o dispositivo antigo e alterne a conexão da rede para o novo dispositivo.
     
 > [!NOTE]
->  Quando o conector de nuvem atualiza para uma nova compilação, cmdlets de conector de nuvem não pode ser atualizados. Isso pode acontecer, por exemplo, se uma janela do PowerShell permanecerá aberta durante a atualização automática. Para carregar os cmdlets atualizados, você pode fazer uma das seguintes etapas: > fechar PowerShell no aparelho de conector de nuvem e, em seguida, reabrir PowerShell. > ou, você pode executar Import-Module CloudConnector-Force.
+>  Quando o conector de nuvem atualiza para uma nova compilação, cmdlets de conector de nuvem não pode ser atualizados. Isso pode acontecer, por exemplo, se uma janela do PowerShell permanecerá aberta durante a atualização automática. Para carregar os cmdlets atualizados, você pode fazer um das seguintes etapas: gt _ PowerShell Close no dispositivo do conector de nuvem e reabra PowerShell.> ou, você pode executar Import-Module CloudConnector-Force.
   
 ## <a name="upgrade-a-single-site-to-a-new-version"></a>Atualizar um único site para uma nova versão
 <a name="BKMK_Upgrade"> </a>
@@ -86,7 +87,7 @@ Se existir somente um dispositivo no site que você deseja atualizar, faça o se
    Start-CcDownload
    ```
 
-6. Execute o seguinte cmdlet para iniciar a instalação:  
+6. Execute o seguinte cmdlet para iniciar a instalação: 
     
    ```
    Install-CcAppliance -Upgrade

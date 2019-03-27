@@ -1,5 +1,6 @@
 ---
 title: Gravação (CDR) no Skype para Business Server de detalhes da chamada
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: 'Resumo: Saiba mais sobre o registro de registros (CDR) usados no Skype para Business Server de detalhes de chamada.'
-ms.openlocfilehash: 77462b87bb7e4f368a2af3f32069c2893ad4f234
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 11631acc14c47dfb10d33fa761bf6362d00ca049
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966549"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890956"
 ---
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Gravação (CDR) no Skype para Business Server de detalhes da chamada
  
@@ -34,6 +35,6 @@ O CDR (registro de detalhes das chamadas) registra informações de uso e diagn�
     
 - [Limpar manualmente o registro de detalhes da chamada e bancos de dados de qualidade da experiência no Skype para Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Configurar o registro de detalhes de chamada e configurações de qualidade da experiência no Skype para Business Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)

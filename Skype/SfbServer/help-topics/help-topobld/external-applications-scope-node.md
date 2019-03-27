@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Aplicativos Externos
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: 'O nó de servidores de aplicativos confiáveis lista os pools de aplicativos confiáveis neste site. Pools de aplicativos confiáveis contenham servidores que executem aplicativos confiáveis de comunicação unificada da Microsoft, mas não execute Skype para funções de servidor de negócios. Você pode realizar a seguinte ação:'
-ms.openlocfilehash: c7f877e069b240c80219ce24f15943b2cce5fb08
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'O nó de servidores de aplicativos confiáveis lista os pools de aplicativos confiáveis neste site. Pools de aplicativos confiáveis contenham servidores que executem aplicativos confiáveis de comunicação unificada da Microsoft, mas não execute Skype para funções de servidor de negócios. Você pode executar as seguintes ações:'
+ms.openlocfilehash: 3554487210ed415e1a49c78194b4fb858cd1d20e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894034"
 ---
 # <a name="external-applications-scope-node"></a>Nó de Escopo de Aplicativos Externos
  
-O nó **servidores de aplicativos confiáveis** lista os pools de aplicativos confiáveis neste site. Pools de aplicativos confiáveis contenham servidores que executem aplicativos confiáveis de comunicação unificada da Microsoft, mas não execute Skype para funções de servidor de negócios. Você pode realizar a seguinte ação:
+O nó **servidores de aplicativos confiáveis** lista os pools de aplicativos confiáveis neste site. Pools de aplicativos confiáveis contenham servidores que executem aplicativos confiáveis de comunicação unificada da Microsoft, mas não execute Skype para funções de servidor de negócios. Você pode executar as seguintes ações:
   
 - **Novo Pool de Aplicativos Confiáveis**. Inicia o assistente para **Definir Novo Pool de Aplicativos Confiáveis** que é usado para adicionar um novo pool de aplicativos confiáveis à topologia.
     

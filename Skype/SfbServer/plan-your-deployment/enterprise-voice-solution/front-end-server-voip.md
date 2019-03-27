@@ -1,5 +1,6 @@
 ---
 title: Front-End VoIP do servidor de componentes para Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: Saiba mais sobre os componentes do Enterprise Voice que estão localizados em servidores Front End Skype para Business Server, incluindo o serviço de tradução e vários componentes de roteamento.
-ms.openlocfilehash: 5b99ea77d31f1697b0809c4089c801b2df729a29
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: caeec86f4b4a965570773ee4bc51a4e752e76e46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888894"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892798"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Front-End VoIP do servidor de componentes para Skype para Business Server
 

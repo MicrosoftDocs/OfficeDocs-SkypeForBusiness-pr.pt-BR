@@ -1,5 +1,6 @@
 ---
-title: Obtenha Item
+title: Obter item
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 'Resumo: Saiba mais sobre a operação obter Item, que é parte do serviço do Item. O serviço de Item é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: 12b52bdd51e8ba59f1aa90e2a366b3e11fb54805
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1f86c318139d328f414bf1290c66ddd7ccb7e20a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532359"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889439"
 ---
-# <a name="get-item"></a>Obtenha Item
+# <a name="get-item"></a>Obter item
  
 **Resumo:** Saiba mais sobre a operação obter Item, que é parte do serviço do Item. O serviço de Item é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
   
 A operação obter Item é parte do serviço do Item na API repositório para o painel de controle de qualidade de chamada.
   
-## <a name="get-item"></a>Obtenha Item
+## <a name="get-item"></a>Obter item
 
 Obtenha o Item Retorna um item específico no repositório.
   

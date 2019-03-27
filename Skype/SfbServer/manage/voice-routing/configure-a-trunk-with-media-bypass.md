@@ -1,5 +1,6 @@
 ---
 title: Configurar um tronco com bypass de mídia no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Siga estas etapas se desejar configurar um tronco com o bypass de mídia habilitado. '
-ms.openlocfilehash: 68fd463f5afbde8dafa6ddb305e080374b2925b2
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 468c03668a7097252aee4e0593b8576bebd5c55c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223462"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895206"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Configurar um tronco com bypass de mídia no Skype para Business Server
 
@@ -22,7 +23,7 @@ Siga estas etapas se desejar configurar um tronco com o bypass de mídia habilit
 É altamente recomendável habilitar o bypass de mídia. No entanto, antes de habilitá-lo em um tronco SIP, confirme se seu provedor do tronco SIP oferece suporte ao bypass de mídia e pode acomodar os requisitos para habilitar o cenário com êxito. Especificamente, o provedor deve ter os endereços IP dos servidores na rede interna da sua organização. Se o provedor não oferecer suporte a esse cenário, o bypass de mídia não terá êxito. Para obter detalhes, consulte [Plan for mídia que o desvio Skype para negócios](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
 
 > [!NOTE]
-> Bypass de mídia não interoperam com cada gateway do telefônica pública comutada (PSTN) de rede, IP-PBX e o controlador de borda de sessão (SBC). A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e realizou alguns testes com os IP-PBXs da Cisco. Bypass de mídia é suportado somente com os produtos e versões que estão listadas na página de [Infraestrutura de telefonia para Skype para Business Server](../../../SfbPartnerCertification/certification/infra-gateways.md) . 
+> Bypass de mídia não interoperam com cada gateway do telefônica pública comutada (PSTN) de rede, IP-PBX e o controlador de borda de sessão (SBC). A Microsoft testou um conjunto de gateways PSTN e SBCs com os parceiros certificados e realizou alguns testes com IP-PBXs da Cisco. Bypass de mídia é suportado somente com os produtos e versões que estão listadas na página de [Infraestrutura de telefonia para Skype para Business Server](../../../SfbPartnerCertification/certification/infra-gateways.md) . 
 
 
 Uma configuração de tronco, como descrita abaixo, agrupa um conjunto de parâmetros que são aplicados a troncos atribuídos a essa configuração de tronco. O escopo de uma configuração de tronco específica pode ser global (para todos os troncos que não têm configuração de site ou pool mais específica), ou para um site ou pool. A configuração de tronco no nível do pool é usada para fazer o escopo de uma configuração de tronco específico para um único tronco.
@@ -58,7 +59,7 @@ Uma configuração de tronco, como descrita abaixo, agrupa um conjunto de parâm
 9. Se o ponto do tronco suporta o recebimento de solicitações SIP REFER do servidor de mediação, marque a caixa de seleção **Habilitar o envio de referência ao gateway** . 
 
     > [!NOTE] 
-    > Se esta opção for desabilitada enquanto a opção **Habilitar bypass de mídia** estiver selecionada, configurações adicionais são necessárias. Se o ponto do tronco não suporta recebendo solicitações SIP REFER do servidor de mediação e desvio de mídia está habilitado, você também deve executar o cmdlet **Set-CsTrunkConfiguration** para desabilitar RTCP para chamadas ativas e mantidas para suportar condições adequadas para desvio de mídia. Como alternativa, é possível selecionar **Ativar referenciamento usando controle de chamada de terceiros** se quiser que as chamadas transferidas contornem a mídia e o gateway não suporte solicitações SIP REFER. 
+    > Se esta opção for desabilitada enquanto a opção **Habilitar bypass de mídia** estiver selecionada, configurações adicionais são necessárias. Se o ponto do tronco não oferecer suporte ao recebimento de solicitações SIP REFER do Servidor de Mediação e o bypass de mídia estiver habilitado, você também deve executar o cmdlet **Set-CsTrunkConfiguration** para desabilitar o RTCP para chamadas ativas e em espera para suportar as condições adequadas para bypass de mídia. Como alternativa, é possível selecionar **Ativar referenciamento usando controle de chamada de terceiros** se quiser que as chamadas transferidas contornem a mídia e o gateway não suporte solicitações SIP REFER. 
 
 10. (Opcional) Para permitir roteamento entre troncos, associe e configure os registros de uso de PSTN a essa configuração de tronco. Os usos da PSTN associados a essa configuração de tronco serão aplicados para todas as chamadas recebidas por meio do tronco que não é provenientes de um Skype para ponto de extremidade do servidor de negócios. Para gerenciar os registros de uso de PSTN associados à configuração de tronco, use um dos métodos a seguir:
     - Para selecionar um ou mais registros de uma lista de todos os registros de uso PSTN disponíveis em sua implantação do Enterprise Voice, clique em **Selecionar**. Realce os registros que você deseja associar a essa configuração de tronco e depois, clique em **OK**.

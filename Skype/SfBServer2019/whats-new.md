@@ -1,5 +1,6 @@
 ---
 title: O que há de novo no Skype para Business Server 2019 | Recursos
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: Esses recursos são novos no Skype para Business Server 2019.'
-ms.openlocfilehash: 4eb674293b152109a9743fce5114fe11e3e97158
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 770cfa8934f40e8ab847b7d77a60f18250c64842
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30058979"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891775"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>O que há no Skype para Business Server 2019
 
@@ -22,7 +23,7 @@ ms.locfileid: "30058979"
 
 Novos recursos do Skype para Business Server 2019 incluem o seguinte:
   
-- Caixa postal de nuvem  
+- Caixa postal da nuvem  
 - Conector de dados de chamada
 - Migração lado a lado
 
@@ -49,6 +50,6 @@ Com o conector de dados de chamada, você pode executar as seguintes tarefas usa
 
 Consulte o [Plano de chamar o conector de dados](../sfbhybrid/hybrid/plan-call-data-connector.md) para obter mais informações.
 
-### <a name="see-also"></a>Consulte também
+### <a name="see-also"></a>Consulte Também
 
 [O que é reduzido do Skype para Business Server 2019](deprecated.md)

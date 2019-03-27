@@ -1,5 +1,6 @@
 ---
 title: Planejar para chamada Via trabalho no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Planejamento de chamada Via trabalho no Skype para Business Server, que permite integração entre o Skype para a empresa e seu sistema telefônico PBX, para que os usuários podem utilizar Skype for Business para controlar seus telefones PBX.
-ms.openlocfilehash: b7c1765af7140bdfc1a0e304dd94218231ed41c7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3a2452f732d55f305d91cee9cd2b940f7bb3c88e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887916"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891661"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Planejar para chamada Via trabalho no Skype para Business Server
  
 Planejamento de chamada Via trabalho no Skype para Business Server, que permite integração entre o Skype para a empresa e seu sistema telefônico PBX, para que os usuários podem utilizar Skype for Business para controlar seus telefones PBX.
   
- **Chamada Via trabalho** é um novo recurso do Skype para Business Server, que permite que você integre sua Skype para solução de negócios com seus sistemas de telefone PBX existentes. Um usuário habilitado para chamada Via trabalho pode clicar em Skype para a chamada a outro usuário, tanto dentro de sua implantação ou um usuário externo de negócios. A chamada é realizada usando o telefone PBX do usuário. Isso permite que um usuário com um telefone PBX incluir áudio em seu rich Skype para conversas de negócios. Nas versões anteriores de chamada remota do Lync Server controle era um recurso que permitia aos usuários controlar seus telefones PBX com o Lync Server. Skype para Business Server, esse recurso foi substituído com a chamada Via trabalho.
+ **Chamada Via trabalho** é um novo recurso do Skype para Business Server, que permite que você integre sua Skype para solução de negócios com seus sistemas de telefone PBX existentes. Um usuário habilitado para chamada Via trabalho pode clicar em Skype para a chamada a outro usuário, tanto dentro de sua implantação ou um usuário externo de negócios. The call is completed using the user's PBX phone. Isso permite que um usuário com um telefone PBX incluir áudio em seu rich Skype para conversas de negócios. Nas versões anteriores de chamada remota do Lync Server controle era um recurso que permitia aos usuários controlar seus telefones PBX com o Lync Server. Skype para Business Server, esse recurso foi substituído com a chamada Via trabalho.
   
 Chamada Via trabalho permite que o seguinte para usuários de telefone PBX
   
@@ -96,7 +97,7 @@ Chamada Via trabalho é uma solução de voz que requer pouca configuração de 
 
 Para habilitar os usuários para chamada Via trabalho, você deve ter alguns programas de pré-requisito no lugar. Para obter mais informações sobre esses pré-requisitos e para obter etapas sobre como habilitar usuários para chamada Via trabalho, consulte [Implantar chamada Via trabalho no Skype para Business Server 2015](../../deploy/deploy-call-via-work.md). 
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Planejar o controle de chamada remota no Skype para negócios](remote-call-control.md)
   

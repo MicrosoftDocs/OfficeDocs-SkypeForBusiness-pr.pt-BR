@@ -1,5 +1,6 @@
 ---
 title: Modificar as definições de configuração de tronco SIP no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 'Resumo: Saiba como modificar as definições de configuração de tronco SIP usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: 176e685fd0eb2677854329640014528a24d8bebf
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6fbae1279ec1734cd67269651c65dc7c278ca3a3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888350"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898695"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modificar as definições de configuração de tronco SIP no Skype para Business Server
  
@@ -32,11 +33,11 @@ As configurações do tronco SIP definem o relacionamento e as capacidades entre
     
 - Se é necessário criptografia de Protocolo de Transporte Seguro em Tempo Real (SRTP) em cada tronco.
     
-Quando você instala o Skype para Business Server, uma coleção global de definições de configuração de tronco SIP é criada para você. Além disso, os administradores podem criar conjuntos de configurações personalizadas no escopo local ou de serviço (apenas para o serviço de gateway PSTN). Qualquer uma dessas coleções podem serem modificada posteriormente usando qualquer um dos Skype para painel de controle de servidor de negócios ou Skype para Business Server Management Shell.
+Quando você instala o Skype para Business Server, uma coleção global de definições de configuração de tronco SIP é criada para você. Além disso, os administradores podem criar coleções de configurações personalizadas no escopo do site ou no escopo do serviço (somente para o serviço de gateway PSTN). Qualquer uma dessas coleções podem serem modificada posteriormente usando qualquer um dos Skype para painel de controle de servidor de negócios ou Skype para Business Server Management Shell.
   
 Ao modificar as definições de configuração de tronco SIP usando Skype para painel de controle do Business Server, as seguintes opções estão disponíveis para você.
   
-|**Configuração de interface do usuário**|**Parâmetro do PowerShell**|**Descrição**|
+|**Configuração de UI**|**Parâmetro do PowerShell**|**Descrição**|
 |:-----|:-----|:-----|
 |Nome  <br/> |Identidade  <br/> |Identificador exclusivo para a coleção. Esta propriedade é somente leitura; não é possível modificar a Identidade de uma coleção de configurações do tronco.  <br/> |
 |Descrição  <br/> |Descrição  <br/> |Fornece uma forma para os administradores armazenarem informações sobre as configurações (por exemplo, o motivo da configuração do tronco).  <br/> |

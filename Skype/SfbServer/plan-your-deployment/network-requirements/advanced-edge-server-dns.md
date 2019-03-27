@@ -1,5 +1,6 @@
 ---
 title: Advanced DNS do servidor de borda planejando Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Resumo: Revise os cenários de Skype para opções de implantação de servidor de negócios. Se você deseja que um único servidor ou preferir um pool de servidores com o DNS ou HLB, este tópico deve ajudar.'
-ms.openlocfilehash: ce65c0e79b2863bf1e2fb2ccd7f14d6aa7953161
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 88f3da6a006c74393b487a55e85a16aa56bd968b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889836"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893066"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Advanced DNS do servidor de borda planejando Skype para Business Server
  
@@ -196,7 +197,7 @@ Portanto, agora que sabemos que tudo isso, se você precisar requisito automáti
 > [!NOTE]
 > Além disso, os valores FQDN do pool de Front-End alteram entre os exemplos de contoso.com e fabrikam.com, mas os endereços IP permanecem os mesmos. Isso ocorre porque os usuários que estiver entrando de qualquer domínio SIP usarão o mesmo pool de Front-End para configuração automática. 
   
-## <a name="dns-disaster-recovery"></a>Recuperação de desastres de DNS
+## <a name="dns-disaster-recovery"></a>DNS disaster recovery
 <a name="DNSDR"> </a>
 
 Para configurar o DNS para redirecionar Skype para tráfego da web Business Server para sua sites de failover e a recuperação de desastres (DR), você precisará usar um provedor DNS que ofereça suporte a GeoDNS. Você pode configurar seus registros DNS para oferecer suporte a recuperação de desastres, para que os recursos que utilizam serviços web continuam mesmo se um pool de Front-End inteiro cair. Esse recurso de DR suporta URLs simples de Descoberta Automática, de reunião e discado.
@@ -207,14 +208,14 @@ Todos os registros DNS nesta tabela são exemplos.
   
 |**Registro GeoDNS**|**Registros de Pool**|**Registros CNAME**|**Registros DNS (selecione uma opção)**|
 |:-----|:-----|:-----|:-----|
-|Reunir-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Alias Meet.contoso.com para Pool1InternalWebFQDN.contoso.com  <br/> Alias Meet.contoso.com para Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Use o primário, conecte-se ao secundário em caso de falha  <br/> |
-|Reunir-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Alias Meet.contoso.com para Pool1ExternalWebFQDN.contoso.com  <br/> Alias Meet.contoso.com para Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Use o primário, conecte-se ao secundário em caso de falha  <br/> |
+|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Alias Meet.contoso.com para Pool1InternalWebFQDN.contoso.com  <br/> Alias Meet.contoso.com para Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Use o primário, conecte-se ao secundário em caso de falha  <br/> |
+|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Alias Meet.contoso.com para Pool1ExternalWebFQDN.contoso.com  <br/> Alias Meet.contoso.com para Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Use o primário, conecte-se ao secundário em caso de falha  <br/> |
 |Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Alias Dialin.contoso.com para Pool1InternalWebFQDN.contoso.com  <br/> Alias Dialin.contoso.com para Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Use o primário, conecte-se ao secundário em caso de falha  <br/> |
 |Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Alias Dialin.contoso.com para Pool1ExternalWebFQDN.contoso.com  <br/> Alias Dialin.contoso.com para Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Use o primário, conecte-se ao secundário em caso de falha  <br/> |
 |Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Alias Lyncdiscoverinternal.contoso.com para Pool1InternalWebFQDN.contoso.com  <br/> Alias Lyncdiscoverinternal.contoso.com para Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Use o primário, conecte-se ao secundário em caso de falha  <br/> |
 |Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Alias Lyncdiscover.contoso.com para Pool1ExternalWebFQDN.contoso.com  <br/> Alias Lyncdiscover.contoso.com para Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Use o primário, conecte-se ao secundário em caso de falha  <br/> |
-|Agendador-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Alias Scheduler.contoso.com para Pool1InternalWebFQDN.contoso.com  <br/> Alias Scheduler.contoso.com para Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Use o primário, conecte-se ao secundário em caso de falha  <br/> |
-|Agendador-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Alias Scheduler.contoso.com para Pool1ExternalWebFQDN.contoso.com  <br/> Alias Scheduler.contoso.com para Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Use o primário, conecte-se ao secundário em caso de falha  <br/> |
+|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Alias Scheduler.contoso.com para Pool1InternalWebFQDN.contoso.com  <br/> Alias Scheduler.contoso.com para Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Use o primário, conecte-se ao secundário em caso de falha  <br/> |
+|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Alias Scheduler.contoso.com para Pool1ExternalWebFQDN.contoso.com  <br/> Alias Scheduler.contoso.com para Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Use o primário, conecte-se ao secundário em caso de falha  <br/> |
    
 ## <a name="dns-load-balancing"></a>Balanceamento de carga DNS
 <a name="DNSLB"> </a>
@@ -227,9 +228,9 @@ Por exemplo, se houver três servidores Front-End em um pool chamado pool01. con
     
    |||
    |:-----|:-----|
-   |pool01. contoso.com  <br/> |192.168.10.90  <br/> |
-   |pool01. contoso.com  <br/> |192.168.10.91  <br/> |
-   |pool01. contoso.com  <br/> |192.168.10.92  <br/> |
+   |pool01.contoso.com  <br/> |192.168.10.90  <br/> |
+   |pool01.contoso.com  <br/> |192.168.10.91  <br/> |
+   |pool01.contoso.com  <br/> |192.168.10.92  <br/> |
    
 - O cliente tenta estabelecer uma conexão TCP com um dos endereços IP. Em caso de falha, o cliente tenta o próximo endereço IP em cache.
     

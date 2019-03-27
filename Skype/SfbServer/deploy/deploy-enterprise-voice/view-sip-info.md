@@ -1,5 +1,6 @@
 ---
 title: Exibir informações sobre individuais troncos SIP no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: 'Resumo: Saiba como exibir informações sobre troncos SIP no Skype para Business Server.'
-ms.openlocfilehash: 41f0946c0400e34b7cb876048e73fda073657b61
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 105d093b302bc61816464ed3998ab985769f5e54
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881977"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898631"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Exibir informações sobre individuais troncos SIP no Skype para Business Server
  
@@ -26,7 +27,7 @@ ms.locfileid: "23881977"
   
 Troncos SIP são usados para conectar o Skype para Business Server voz pela rede de telefone IP com a comutação telefônica PSTN (rede pública). Na versão anterior do produto, os troncos foram usados para rotear chamadas de saída de um Servidor de Mediação para um gateway PSTN e cada gateway estava limitado a um único tronco. Como resultado, um gateway PSTN e um tronco SIP eram essencialmente idênticos. Para os administradores, isso significava que seria possível exibir informações sobre um tronco SIP individual simplesmente exibindo informações sobre o gateway PSTN associado.
   
-Em Skype para Business Server, no entanto, vários troncos podem agora ser atribuídos a um único gateway PSTN; Isso significa que os gateways e troncos não estão mais o mesmo. Por sua vez, isso significa que os administradores devem usar o novo cmdlet [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) para exibir informações sobre um tronco SIP individual.
+Em Skype para Business Server, no entanto, vários troncos podem agora ser atribuídos a um único gateway PSTN; Isso significa que os gateways e troncos não estão mais o mesmo. Por outro lado, isso significa que os administradores devem usar o novo cmdlet [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) para exibir informações sobre um tronco SIP individual.
   
 ### <a name="to-view-information-for-all-your-sip-trunks"></a>Para visualizar as informações de todos os seus troncos SIP
 

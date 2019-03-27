@@ -1,5 +1,6 @@
 ---
 title: Tabelas de lista de Servidores de Chat Persistente
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 description: O esquema de banco de dados de Chat persistente consiste as tabelas a seguir.
-ms.openlocfilehash: d9a00095cb18e63cc29e16ae66e608127afad606
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e2ce24bb37c3ea4eaee0986f0243033ab4a8a18a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898540"
 ---
 # <a name="list-of-persistent-chat-server-tables"></a>Tabelas de lista de Servidores de Chat Persistente
  
@@ -24,12 +26,12 @@ O esquema de banco de dados de Chat persistente consiste as tabelas a seguir.
 
 |**Tabela**|**Descrição**|
 |:-----|:-----|
-|[a tabela tblADCookie](tbladcookie.md) <br/> |Contém os cookies atuais de sincronização de Lightweight Directory Access Protocol (LDAP). Cada linha corresponde a um domínio do Active Directory Domain Services que o servidor de Chat persistente está monitorando ativamente para que as alterações. (Apenas aos domínios do Active Directory que são relevantes para o servidor de Chat persistente são representados nesta tabela).  <br/> |
-|[Principalmemberdifference](tblprincipalmemberdifference.md) <br/> |Contém as alterações de associação do grupo (tanto adicionadas e removidas membros) que ainda não foram processadas pelas etapas posteriores de sincronização do Active Directory e é uma das tabelas (juntamente com a tabela tblADUpdates tabela) temporárias que é usado na primeira etapa da sincronização do Active Directory.  <br/> As alterações de associação são armazenadas, processadas ou ambos, somente para grupos listados na tabela tblPrincipal ou que já possuem membros listados.  <br/> |
-|[a tabela tblADUpdates](tbladupdates.md) <br/> |Contém alterações aos serviços de domínio Active Directory que ainda não foram processadas pelas etapas posteriores de sincronização do Active Directory e é uma das tabelas (juntamente com a tabela Principalmemberdifference) temporárias que é usado na primeira etapa do Active Directory Sincronizar.  <br/> Alterações ao Active Directory são armazenadas, processadas ou ambos somente para entidades já listadas na tabela tblPrincipal.  <br/> |
+|[tblADCookie](tbladcookie.md) <br/> |Contém os cookies atuais de sincronização de Lightweight Directory Access Protocol (LDAP). Cada linha corresponde a um domínio do Active Directory Domain Services que o servidor de Chat persistente está monitorando ativamente para que as alterações. (Apenas aos domínios do Active Directory que são relevantes para o servidor de Chat persistente são representados nesta tabela).  <br/> |
+|[tblPrincipalMemberDifference](tblprincipalmemberdifference.md) <br/> |Contém as alterações de associação do grupo (tanto adicionadas e removidas membros) que ainda não foram processadas pelas etapas posteriores de sincronização do Active Directory e é uma das tabelas (juntamente com a tabela tblADUpdates tabela) temporárias que é usado na primeira etapa da sincronização do Active Directory.  <br/> As alterações de associação são armazenadas, processadas ou ambos, somente para grupos listados na tabela tblPrincipal ou que já possuem membros listados.  <br/> |
+|[tblADUpdates](tbladupdates.md) <br/> |Contém alterações aos serviços de domínio Active Directory que ainda não foram processadas pelas etapas posteriores de sincronização do Active Directory e é uma das tabelas (juntamente com a tabela Principalmemberdifference) temporárias que é usado na primeira etapa do Active Directory Sincronizar.  <br/> Alterações ao Active Directory são armazenadas, processadas ou ambos somente para entidades já listadas na tabela tblPrincipal.  <br/> |
 |[tblPrincipalMembers](tblprincipalmembers.md) <br/> |Contém associações de entidade.  <br/> |
 |[tblPrincipalMeta](tblprincipalmeta.md) <br/> |Contém as entidades que precisam ser atualizadas do Active Directory.  <br/> |
-|[Skippedaffiliations](tblskippedaffiliations.md) <br/> |Contém afiliações que não podem ser atualizadas por algum motivo, geralmente devido a erros de acesso do Active Directory.  <br/> Esta tabela é apenas informativo. Seu conteúdo não é usado.  <br/> As entidades com afiliações que não podem ser atualizadas corretamente são mantidas na tabela tblPrincipalMeta e têm outra chance de serem atualizadas.  <br/> |
+|[tblSkippedAffiliations](tblskippedaffiliations.md) <br/> |Contém afiliações que não podem ser atualizadas por algum motivo, geralmente devido a erros de acesso do Active Directory.  <br/> Esta tabela é apenas informativo. Seu conteúdo não é usado.  <br/> As entidades com afiliações que não podem ser atualizadas corretamente são mantidas na tabela tblPrincipalMeta e têm outra chance de serem atualizadas.  <br/> |
    
 ## <a name="principals-affiliations-nodes-scopes-and-roles"></a>Entidades, afiliações, nós, escopos e funções
 
@@ -42,7 +44,7 @@ O esquema de banco de dados de Chat persistente consiste as tabelas a seguir.
 |[tblRoleType](tblroletype.md) <br/> |Contém os tipos de funções e suas permissões associados conjuntos. Esta tabela de pesquisa é estática.  <br/> |
 |[tblScopePrincipal](tblscopeprincipal.md) <br/> |Contém escopos atribuídos a nós.  <br/> |
 |[tblPrincipalRole](tblprincipalrole.md) <br/> |Contém funções atribuídas a nós.  <br/> |
-|[tabela Siopwhitelist](tblsiopwhitelist.md) <br/> |Contém os Add-ins registrados que podem ser associados a nós.  <br/> |
+|[tblSiopWhiteList](tblsiopwhitelist.md) <br/> |Contém os Add-ins registrados que podem ser associados a nós.  <br/> |
 |[tblEnumAttribute](tblenumattribute.md) <br/> |Contém apenas os atributos "Visibility" e "Behavior" codificados usados na tabela tblNode.  <br/> |
 |[tblEnumValue](tblenumvalue.md) <br/> |Contém os valores dos atributos "Visibility" e "Behavior" codificados usados na tabela tblNode.  <br/> |
    

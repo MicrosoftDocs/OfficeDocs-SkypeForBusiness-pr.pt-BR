@@ -1,5 +1,6 @@
 ---
 title: Configurar o bypass de mídia no Skype para Business Server para sempre ignorar o servidor de mediação
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 description: Habilite bypass de mídia para sempre ignorar o servidor de mediação no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 2671a4df1b7c068e650cba35be6409f97b8682f8
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 31ecb80df342ac68ba6bb28b20248648bd5808c8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881851"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880176"
 ---
 # <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Configurar o bypass de mídia no Skype para Business Server para sempre ignorar o servidor de mediação
  
@@ -42,7 +43,7 @@ Se você não tem boa conectividade entre Skype para pontos de extremidade de ne
     
 6. Clique em **Confirmar**.
     
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Planejar o bypass de mídia no Skype para negócios](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   

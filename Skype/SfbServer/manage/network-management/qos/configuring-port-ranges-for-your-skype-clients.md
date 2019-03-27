@@ -1,5 +1,6 @@
 ---
 title: Configurando intervalos de porta e uma política de qualidade de serviço para seus clientes
+ms.reviewer: ''
 ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
 ms:contentKeyID: 48183694
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artigo descreve como configurar intervalos de portas para seus clientes e configurando políticas de qualidade de serviço do Skype para Business Server para clientes executando o Windows 10.
-ms.openlocfilehash: 112d5a42b3bf4ac89bf7adc98b3ca56e8797482e
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 2e5328406634302a1b076eec8466e7f7b9245150
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223224"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881518"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configurando intervalos de porta e uma política de qualidade de serviço para os clientes do Skype para Business Server
 
@@ -262,6 +263,6 @@ Se você gostaria de valores DSCP de marca para todos os adaptadores de rede em 
 
 Após criar e configurar o novo valor do registro, você precisará reiniciar o computador para que as alterações entrem em vigor.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Criar um objeto de diretiva de grupo no Windows 10](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)

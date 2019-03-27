@@ -1,5 +1,6 @@
 ---
 title: Configurar as configurações globais de desvio de mídia no Skype para Business Server usem informações de site e da região
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: Configure o bypass de mídia a ser usado para apenas alguns sites e regiões Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: cb3d29a57fa3ff9719ae26197106005667921ade
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 93cc6bea9a4f130bd4b2c0e455b979b477888eeb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888669"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892734"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurar as configurações globais de desvio de mídia no Skype para Business Server usem informações de site e da região
  
@@ -54,7 +55,7 @@ Em seguida, adicione sub-redes ao site da rede, conforme descrito em [Associate 
 > [!IMPORTANT]
 > Se ainda não tiverem sido criadas as regiões e os sites de rede, é preciso criá-los antes de prosseguir com a implantação do bypass de mídia. Para obter detalhes, consulte [Deploy regiões de rede, sites e sub-redes em Skype para negócios](deploy-network.md). 
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets)
 

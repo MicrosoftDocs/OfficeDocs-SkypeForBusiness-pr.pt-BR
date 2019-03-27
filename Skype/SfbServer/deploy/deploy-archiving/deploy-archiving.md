@@ -1,5 +1,6 @@
 ---
 title: Implantar o arquivamento para Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
 description: 'Resumo: Leia este tópico para saber como implantar o arquivamento para Skype para Business Server.'
-ms.openlocfilehash: b1df3b3b14ec31f0c2c4d3d94f41ff23411c7f45
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0598d1a35523cc38d85320206b065b85e025687e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997628"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895066"
 ---
 # <a name="deploy-archiving-for-skype-for-business-server"></a>Implantar o arquivamento para Skype para Business Server
  
@@ -39,7 +40,7 @@ A tabela a seguir fornece uma visão geral das etapas necessárias para implanta
   
 |**Fase**|**Etapas**|**Funções e associações de grupo**|**Documentação**|
 |:-----|:-----|:-----|:-----|
-|**Instalar pré-requisitos de hardware e software** <br/> |Para usar a integração do Microsoft Exchange (usando o Exchange para armazenamento de arquivamento para alguns ou todos os usuários), você precisa de uma implantação existente do Exchange.  <br/> Para usar bancos de dados de arquivamento separados (usando bancos de dados do SQL Server) para armazenamento de arquivamento para alguns ou todos os usuários, SQL Server no servidor que armazenará os dados de arquivamento.  <br/> O Arquivamento é executado nos Servidores Front-End de um pool Enterprise e Servidores Standard Edition. Não há requisitos adicionais de hardware ou software além daqueles necessários para instalar esses servidores.  <br/> |Usuário do domínio que é membro do grupo local de administradores.  <br/> |[Requisitos de servidor no Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Requisitos de ambiente para o Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/>  [Plano para integrar o Skype for Business e o Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) <br/>[Requisitos de sistema do Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) |
+|**Instalar pré-requisitos de hardware e software** <br/> |Para usar a integração do Microsoft Exchange (usando o Exchange para armazenamento de arquivamento para alguns ou todos os usuários), você precisa de uma implantação existente do Exchange.  <br/> Para usar bancos de dados de arquivamento separados (usando bancos de dados do SQL Server) para armazenamento de arquivamento para alguns ou todos os usuários, SQL Server no servidor que armazenará os dados de arquivamento.  <br/> O Arquivamento é executado nos Servidores Front-End de um pool Enterprise e Servidores Standard Edition. Não há requisitos adicionais de hardware ou software além daqueles necessários para instalar esses servidores.  <br/> |Usuário do domínio que é membro do grupo local de administradores.  <br/> |[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/>  [Plano para integrar o Skype for Business e o Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md) <br/>[Requisitos de sistema do Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) |
 |**Criar a topologia interna apropriada para dar suporte ao arquivamento (somente se não usando a integração do Microsoft Exchange para todos os usuários em sua implantação)** <br/> |Execute o construtor de topologias para adicionar o Skype para arquivamento de bancos de dados (bancos de dados do SQL Server) do servidor de negócios à topologia e, em seguida, publique a topologia.  <br/> |Para definir a topologia a fim de incorporar bancos de dados de arquivamento, uma conta que é membro do grupo local de usuários.  <br/> Para publicar a topologia, uma conta que seja membro do grupo de administradores de domínio e do grupo RTCUniversalServerAdmins e que tem permissões de controle total (leitura/gravação/modificar) no compartilhamento de arquivos a serem usados para o Skype para repositório de arquivos do servidor de negócios (para que topologia Construtor pode configurar as DACLs necessárias).  <br/> |[Adicionar bancos de dados de arquivamento a uma implantação existente no Skype para Business Server](add-archiving-databases.md) <br/> |
 |**Configurar a autenticação de servidor-para-servidor (somente se estiver usando a integração do Microsoft Exchange)** <br/> |Configure servidores para habilitar a autenticação entre Skype para Business Server e o Exchange. É recomendável executar **Test-CsExchangeStorageConnectivity testuser_sipUri-pasta Dumpster** para validar a conectividade com o armazenamento de arquivamento antes de habilitar o arquivamento do Exchange. <br/> |Uma conta com permissões adequadas para gerenciar certificados nos servidores.  <br/> |Gerencie autenticação servidor para servidor  <br/> |
 |**Configure políticas e opções de arquivamento** <br/> |Configurar o arquivamento, incluindo se devemos usar a integração do Microsoft Exchange, a política global e quaisquer políticas de site e de usuário (quando não usando a integração do Microsoft Exchange para todo o armazenamento de dados) e arquivamento específico opções, como o modo crítico e dados Exportar e limpeza.  <br/> Se estiver usando a integração com o Microsoft Exchange, configure as políticas de retenção de In-loco do Exchange conforme apropriado.  <br/> |Grupo RTCUniversalServerAdmins (somente Windows PowerShell) ou atribua usuários à função CSArchivingAdministrator ou CSAdministrator.  <br/> |[Configurar opções de arquivamento para Skype para Business Server](configure-archiving-options.md) <br/> Documentação do produto do Exchange (se estiver usando a integração do Microsoft Exchange).  <br/> |

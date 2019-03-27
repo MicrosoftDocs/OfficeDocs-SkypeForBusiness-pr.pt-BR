@@ -1,5 +1,6 @@
 ---
 title: Gerenciar configurações do Serviço de Log Centralizado no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Resumo: Saiba como recuperar, atualizar e criar definições de configuração para o serviço de registro em log centralizado no Skype para Business Server 2015.'
-ms.openlocfilehash: 62902a25e50043f2e03eda907f4ba572249b1a60
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1aab363f88b7639e2eb61f9101864bac20cc0aa0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375598"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896928"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Gerenciar configurações do Serviço de Log Centralizado no Skype for Business Server 2015
 
@@ -58,7 +59,7 @@ Escopo de um único computador pode ser definido durante a execução de um [Sea
 Escopos de site e Global forem definidos nos cmdlets **New -**, **Set -** e **Remove -** Centralized Logging Service. Os exemplos a seguir demonstram como definir o escopo global ou de um site.
 
 > [!IMPORTANT]
-> Os comandos mostrados podem conter parâmetros e conceitos que são abordados em outras seções. Os comandos de exemplo destinam-se a demonstrar o uso do **-Identity** parâmetro para definir o escopo e os outros parâmetros são incluídos para preservar a integridade e para especificar o escopo. Para obter detalhes sobre os cmdlets **Set-CsClsConfiguration** , consulte [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) na documentação operações.
+> Os comandos mostrados podem conter parâmetros e conceitos que são abordados em outras seções. Os comandos de exemplo destinam-se a demonstrar o uso do **-Identity** parâmetro para definir o escopo e os outros parâmetros são incluídos para preservar a integridade e para especificar o escopo. Para obter detalhes sobre os cmdlets do **Set-CsClsConfiguration**, consulte [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) na documentação Operações.
 
 ### <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>Para recuperar a configuração atual do Centralized Logging Service
 
@@ -72,7 +73,7 @@ Escopos de site e Global forem definidos nos cmdlets **New -**, **Set -** e **Re
 
 Use os cmdlets **New-CsClsConfiguration** e **Set-CsClsConfiguration** para criar uma nova configuração ou para atualizar uma configuração existente. Quando você executar **Get-CsClsConfiguration**, ele exibe informações similares a seguinte captura de tela, onde a implantação atualmente tem a configuração Global, mas nenhuma configuração de site definida:
 
-![Amostra de saída do Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
+![Exemplo de saída do Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
 
 ### <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>Para recuperar a configuração atual do serviço de log centralizado em log do repositório local do computador
 
@@ -179,13 +180,13 @@ Por exemplo, para remover uma configuração de Centralized Logging Service que 
 > Esta é a nova configuração que foi criada no procedimento "para criar uma nova configuração de serviço de registro em log centralizado."
 
 Se decidir remover a configuração no nível do site, o site usará as configurações globais.
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Configurar provedores para Serviço de Log Centralizado no Skype for Business Server 2015](configure-providers.md)
 
 [Configurar cenários para o Serviço de Log Centralizado no Skype for Business Server 2015](configure-scenarios.md)
 
-[Serviço centralizado de registro em log no Skype for Business 2015](centralized-logging-service.md)
+[Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)
 
 [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
 

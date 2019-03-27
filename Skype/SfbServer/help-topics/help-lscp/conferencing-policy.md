@@ -1,5 +1,6 @@
 ---
 title: Política de conferência
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: Política de conferência define os recursos e capacidades que os usuários tenham disponíveis durante uma conferência (também conhecida como reunião).
-ms.openlocfilehash: eef820f60db158d258fcc588cc76229afdbd9981
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 7e331f92753af8714eeb5a709178b0675de41e95
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263545"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893424"
 ---
 # <a name="conferencing-policy"></a>Política de conferência
 
@@ -74,6 +75,6 @@ A lista a seguir descreve os campos na página.
 
 - **Gravação** Verificado se a política de conferência Especifica que a gravação é permitida em conferências.
 
-Para obter detalhes sobre os recursos de conferência e capacidades, consulte [Visão geral de conferência](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com políticas de conferência, consulte [Políticas de conferência](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) na documentação operações.
+Para obter detalhes sobre recursos de conferência, consulte [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) na documentação Planejamento. Para obter detalhes sobre como trabalhar com políticas de conferência, consulte  [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) na documentação Operações.
 
 

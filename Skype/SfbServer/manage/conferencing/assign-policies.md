@@ -1,5 +1,6 @@
 ---
 title: Atribuir políticas de conferência do Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: 'Resumo: Saiba como atribuir políticas de conferência do Skype para Business Server.'
-ms.openlocfilehash: 90a291c707be70d3d30d868013ec38b33f684050
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 44e29842fd11d600aa5a692e98b5ddbb72149ade
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969708"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892629"
 ---
 # <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Atribuir políticas de conferência do Skype para Business Server
  

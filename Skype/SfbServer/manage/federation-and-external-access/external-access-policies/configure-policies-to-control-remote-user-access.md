@@ -1,5 +1,6 @@
 ---
 title: Configurar políticas para controle de acesso de usuário remoto
+ms.reviewer: ''
 ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398725(v=OCS.15)
 ms:contentKeyID: 48184825
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Você configurar uma ou mais políticas de acesso de usuário externo para controlar se os usuários remotos podem colaborar com Skype interna para usuários corporativos Server. Para controlar o acesso de usuário remoto, você pode configurar políticas no nível global, site e nível de usuário.
-ms.openlocfilehash: 7b8fdd83859b03d659d8fa346e0d2aa459c04ac6
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: f6d316f022e671bc7f7e70ebbe2a801b0b3e312c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222944"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899530"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>Configurar políticas para controlar o acesso de usuário remoto no Skype para Business Server
 

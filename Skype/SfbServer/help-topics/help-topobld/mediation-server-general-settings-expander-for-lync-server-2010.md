@@ -1,5 +1,6 @@
 ---
-title: Expansor de configurações gerais do servidor de mediação do Lync Server 2010
+title: Expansor de Configurações Gerais do Servido de Mediação para Lync Server 2010
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 'Você editar as propriedades dos servidores de mediação nessa caixa de diálogo. No lado esquerdo é um conjunto de links rápidos para orientá-lo às definições de configurações gerais, configurações de próximo salto e configurações de gateway PSTN. Em cada seção são as seguintes configurações:'
-ms.openlocfilehash: bc26a6b92746e2cf1453d9ee789500011469527f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a5af8e844c82d1af194e0c59fde67725c019ec99
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375968"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892424"
 ---
-# <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Expansor de configurações gerais do servidor de mediação do Lync Server 2010
+# <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Expansor de Configurações Gerais do Servido de Mediação para Lync Server 2010
 
 Você editar as propriedades dos servidores de mediação nessa caixa de diálogo. No lado esquerdo é um conjunto de links rápidos para orientá-lo às definições de configurações gerais, configurações de próximo salto e configurações de gateway PSTN. Em cada seção são as seguintes configurações:
 
@@ -44,7 +45,7 @@ Você editar as propriedades dos servidores de mediação nessa caixa de diálog
 
 - Uma lista de troncos SIP e gateways que são definidos e configurados para sua implantação está listada. Se nenhuma entrada estiverem presente, não existem configurados para sua implantação de gateways PSTN ou troncos SIP. Definir e configurar gateways em **Componentes compartilhados** e troncos no construtor de topologia.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Visão geral dos troncos SIP](https://technet.microsoft.com/library/204f2c21-436f-4b2d-93ea-d6db98fa2952.aspx)
 

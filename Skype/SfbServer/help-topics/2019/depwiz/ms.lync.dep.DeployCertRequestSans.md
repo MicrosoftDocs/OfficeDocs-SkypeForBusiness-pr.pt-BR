@@ -1,5 +1,6 @@
 ---
 title: Solicitação de Certificado (Nomes de Entidade Alternativos Adicionais)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 ROBOTS: NOINDEX, NOFOLLOW
 description: A opção Configurar Nomes Alternativos da Entidade Adicionais fornece a oportunidade de adicionar outros nomes alternativos da entidade (SANs) ao certificado antes de finalizar e solicitar o certificado. Para adicionar o SAN, digite o nome de domínio totalmente qualificado (FQDN) do SAN e clique em Adicionar. Se você tiver adicionado um SAN que precise ser excluído, destaque a entrada do SAN e clique em Remover. Para remover todas as entradas de SAN adicionadas, clique em Desmarcar Tudo.
-ms.openlocfilehash: 7410319f0f04d5e162476919978ef2f92eeabd0e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d7ab2e2c1fe427e437ba35ee6ef2e46641d22faf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21011339"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894006"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>Solicitação de Certificado (Nomes de Entidade Alternativos Adicionais)
  

@@ -1,5 +1,6 @@
 ---
 title: Alta disponibilidade e gerenciamento de Pool de Front-Ends
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Saiba mais sobre o gerenciamento de pool de Front-End do Skype para Business Server, incluindo o gerenciamento de pools, perda de quórum e etapas especiais para pools com apenas dois servidores Front-End.
-ms.openlocfilehash: ba15e090829256188763a0e7791cebb29f097422
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 43c8e3fffb010bf268f94970b5cca25ecee7cd58
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005243"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894192"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Alta disponibilidade e gerenciamento de Pool de Front-Ends
  
