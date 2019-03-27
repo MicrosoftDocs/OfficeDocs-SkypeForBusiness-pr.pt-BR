@@ -1,5 +1,6 @@
 ---
-title: tabela tblComplianceFanout
+title: tblComplianceFanout
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,27 +11,28 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f5d9f342-a7cb-4b54-baa6-e656256b75ad
 description: a tabela tblComplianceFanout contém todos os servidores que processaram um evento de conformidade.
-ms.openlocfilehash: f9141a6f7144c20d8039756387a889cc25cc8f50
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7f24b1a78dab16b43036734e21d5a8a9b876ca7a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874045"
 ---
-# <a name="tblcompliancefanout"></a><span data-ttu-id="cf5a0-103">tabela tblComplianceFanout</span><span class="sxs-lookup"><span data-stu-id="cf5a0-103">tblComplianceFanout</span></span>
+# <a name="tblcompliancefanout"></a><span data-ttu-id="d9e86-103">tblComplianceFanout</span><span class="sxs-lookup"><span data-stu-id="d9e86-103">tblComplianceFanout</span></span>
  
-<span data-ttu-id="cf5a0-104">a tabela tblComplianceFanout contém todos os servidores que processaram um evento de conformidade.</span><span class="sxs-lookup"><span data-stu-id="cf5a0-104">tblComplianceFanout contains all servers that processed a compliance event.</span></span>
+<span data-ttu-id="d9e86-104">a tabela tblComplianceFanout contém todos os servidores que processaram um evento de conformidade.</span><span class="sxs-lookup"><span data-stu-id="d9e86-104">tblComplianceFanout contains all servers that processed a compliance event.</span></span>
   
-<span data-ttu-id="cf5a0-105">**Colunas**</span><span class="sxs-lookup"><span data-stu-id="cf5a0-105">**Columns**</span></span>
+<span data-ttu-id="d9e86-105">**Colunas**</span><span class="sxs-lookup"><span data-stu-id="d9e86-105">**Columns**</span></span>
 
-|<span data-ttu-id="cf5a0-106">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="cf5a0-106">**Column**</span></span>|<span data-ttu-id="cf5a0-107">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="cf5a0-107">**Type**</span></span>|<span data-ttu-id="cf5a0-108">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="cf5a0-108">**Description**</span></span>|
+|<span data-ttu-id="d9e86-106">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="d9e86-106">**Column**</span></span>|<span data-ttu-id="d9e86-107">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="d9e86-107">**Type**</span></span>|<span data-ttu-id="d9e86-108">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="d9e86-108">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="cf5a0-109">fanoutEventID</span><span class="sxs-lookup"><span data-stu-id="cf5a0-109">fanoutEventID</span></span>  <br/> |<span data-ttu-id="cf5a0-110">int</span><span class="sxs-lookup"><span data-stu-id="cf5a0-110">int</span></span>  <br/> |<span data-ttu-id="cf5a0-111">ID do evento.</span><span class="sxs-lookup"><span data-stu-id="cf5a0-111">Event ID.</span></span>  <br/> |
-|<span data-ttu-id="cf5a0-112">fanoutServerID</span><span class="sxs-lookup"><span data-stu-id="cf5a0-112">fanoutServerID</span></span>  <br/> |<span data-ttu-id="cf5a0-113">int</span><span class="sxs-lookup"><span data-stu-id="cf5a0-113">int</span></span>  <br/> |<span data-ttu-id="cf5a0-114">Identidade do servidor (correspondente à tabela Tblserveridentity).</span><span class="sxs-lookup"><span data-stu-id="cf5a0-114">Server identity (corresponding to tblServerIdentity.serverID table).</span></span>  <br/> |
+|<span data-ttu-id="d9e86-109">fanoutEventID</span><span class="sxs-lookup"><span data-stu-id="d9e86-109">fanoutEventID</span></span>  <br/> |<span data-ttu-id="d9e86-110">int</span><span class="sxs-lookup"><span data-stu-id="d9e86-110">int</span></span>  <br/> |<span data-ttu-id="d9e86-111">ID do evento.</span><span class="sxs-lookup"><span data-stu-id="d9e86-111">Event ID.</span></span>  <br/> |
+|<span data-ttu-id="d9e86-112">fanoutServerID</span><span class="sxs-lookup"><span data-stu-id="d9e86-112">fanoutServerID</span></span>  <br/> |<span data-ttu-id="d9e86-113">int</span><span class="sxs-lookup"><span data-stu-id="d9e86-113">int</span></span>  <br/> |<span data-ttu-id="d9e86-114">Identidade do servidor (correspondente à tabela Tblserveridentity).</span><span class="sxs-lookup"><span data-stu-id="d9e86-114">Server identity (corresponding to tblServerIdentity.serverID table).</span></span>  <br/> |
    
-<span data-ttu-id="cf5a0-115">**Chave**</span><span class="sxs-lookup"><span data-stu-id="cf5a0-115">**Key**</span></span>
+<span data-ttu-id="d9e86-115">**Chave**</span><span class="sxs-lookup"><span data-stu-id="d9e86-115">**Key**</span></span>
 
-|<span data-ttu-id="cf5a0-116">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="cf5a0-116">**Column**</span></span>|<span data-ttu-id="cf5a0-117">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="cf5a0-117">**Description**</span></span>|
+|<span data-ttu-id="d9e86-116">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="d9e86-116">**Column**</span></span>|<span data-ttu-id="d9e86-117">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="d9e86-117">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="cf5a0-118">fanoutEventID</span><span class="sxs-lookup"><span data-stu-id="cf5a0-118">fanoutEventID</span></span>  <br/> |<span data-ttu-id="cf5a0-119">Chave estrangeira com pesquisa na tabela Tblcompliancedata.</span><span class="sxs-lookup"><span data-stu-id="cf5a0-119">Foreign key with lookup in tblComplianceData.cmplEventID table.</span></span>  <br/> |
+|<span data-ttu-id="d9e86-118">fanoutEventID</span><span class="sxs-lookup"><span data-stu-id="d9e86-118">fanoutEventID</span></span>  <br/> |<span data-ttu-id="d9e86-119">Chave estrangeira com pesquisa na tabela Tblcompliancedata.</span><span class="sxs-lookup"><span data-stu-id="d9e86-119">Foreign key with lookup in tblComplianceData.cmplEventID table.</span></span>  <br/> |
    
 
