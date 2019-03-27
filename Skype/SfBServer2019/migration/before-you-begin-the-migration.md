@@ -1,5 +1,6 @@
 ---
 title: Antes de começar a migração
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,21 +9,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Antes de começar, recomendamos que você leia este documento e siga as orientações para se familiarizar com as funções correspondentes:'
-ms.openlocfilehash: 6ecf783ceb2d3b98ab4e9d93dfec6d87bc1ce506
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 695e70e4517bc24c239f2c99c1bbcb3f65420785
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029423"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888602"
 ---
-# <a name="before-you-begin-the-migration"></a><span data-ttu-id="7cb56-103">Antes de começar a migração</span><span class="sxs-lookup"><span data-stu-id="7cb56-103">Before you begin the migration</span></span>
+# <a name="before-you-begin-the-migration"></a><span data-ttu-id="956fe-103">Antes de começar a migração</span><span class="sxs-lookup"><span data-stu-id="956fe-103">Before you begin the migration</span></span>
 
-<span data-ttu-id="7cb56-104">Antes de começar, recomendamos que você leia os artigos a seguir para se familiarizar com as funções correspondentes.</span><span class="sxs-lookup"><span data-stu-id="7cb56-104">Before you begin, we recommend that you read the following articles to familiarize yourself with deploying the corresponding roles.</span></span>
+<span data-ttu-id="956fe-104">Antes de começar, recomendamos que você leia os artigos a seguir para se familiarizar com as funções correspondentes.</span><span class="sxs-lookup"><span data-stu-id="956fe-104">Before you begin, we recommend that you read the following articles to familiarize yourself with deploying the corresponding roles.</span></span>
     
-## <a name="in-this-section"></a><span data-ttu-id="7cb56-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="7cb56-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="956fe-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="956fe-105">In this section</span></span>
 
-- [<span data-ttu-id="7cb56-106">Processo de migração</span><span class="sxs-lookup"><span data-stu-id="7cb56-106">Migration process</span></span>](migration-process.md)
+- [<span data-ttu-id="956fe-106">Processo de migração</span><span class="sxs-lookup"><span data-stu-id="956fe-106">Migration process</span></span>](migration-process.md)
     
-- [<span data-ttu-id="7cb56-107">Fases da migração</span><span class="sxs-lookup"><span data-stu-id="7cb56-107">Migration phases</span></span>](migration-phases.md)
+- [<span data-ttu-id="956fe-107">Fases de migração</span><span class="sxs-lookup"><span data-stu-id="956fe-107">Migration phases</span></span>](migration-phases.md)
     
 

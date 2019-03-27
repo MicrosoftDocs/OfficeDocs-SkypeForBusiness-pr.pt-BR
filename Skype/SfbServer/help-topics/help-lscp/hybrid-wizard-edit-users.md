@@ -1,5 +1,6 @@
 ---
 title: Híbrido assistente Editar usuários
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,16 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
-description: Use o assistente Editar Usuários para modificar as contas de usuário na sua implantação. Para obter mais informações, consulte usar o Assistente de capacidade de gerenciamento híbrido.
-ms.openlocfilehash: fb38d0626e8594cf2263bd07ec7b857ca4271f0a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: Use o assistente Editar Usuários para modificar as contas de usuário na sua implantação. Para mais informações, consulte Use the Hybrid Manageability wizard.
+ms.openlocfilehash: d2ab65d40595828ba979f9d046ab584bad16d97c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256263"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885666"
 ---
-# <a name="hybrid-wizard-edit-users"></a><span data-ttu-id="48953-104">Assistente híbrido: Editar usuários</span><span class="sxs-lookup"><span data-stu-id="48953-104">Hybrid Wizard: Edit Users</span></span>
+# <a name="hybrid-wizard-edit-users"></a><span data-ttu-id="b9f04-104">Assistente híbrido: Editar usuários</span><span class="sxs-lookup"><span data-stu-id="b9f04-104">Hybrid Wizard: Edit Users</span></span>
 
-<span data-ttu-id="48953-105">Use o assistente Editar Usuários para modificar as contas de usuário na sua implantação.</span><span class="sxs-lookup"><span data-stu-id="48953-105">Use the Edit Users wizard to modify the user accounts in your deployment.</span></span> <span data-ttu-id="48953-106">Para obter mais informações, consulte [usar o Assistente de capacidade de gerenciamento híbrido](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="48953-106">For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
+<span data-ttu-id="b9f04-p102">Use o assistente Editar Usuários para modificar as contas de usuário na sua implantação. Para mais informações, consulte [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span><span class="sxs-lookup"><span data-stu-id="b9f04-p102">Use the Edit Users wizard to modify the user accounts in your deployment. For more information, see [Use the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).</span></span>
 
 

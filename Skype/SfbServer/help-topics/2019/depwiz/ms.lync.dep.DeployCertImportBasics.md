@@ -1,5 +1,6 @@
 ---
-title: Importar certificado (Introdução)
+title: Importar Certificado (Introdução)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,20 +13,20 @@ localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para importar um certificado, você deve fornecer um caminho para o arquivo de certificado. Na caixa de texto de arquivo Selecionar certificado, você pode digitar o caminho completo e nome de arquivo, ou clique no botão Procurar e navegue até o local do caminho e o nome de arquivo (geralmente, um arquivo. p7b,. pfx ou. cer).
-ms.openlocfilehash: 6d46f79b84bc66a80624fd7a8010addc60e840f6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3cc7da881d33dd61435e238b7ec43a55064a1017
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967966"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886223"
 ---
-# <a name="import-certificate-intro"></a><span data-ttu-id="e0570-104">Importar certificado (Introdução)</span><span class="sxs-lookup"><span data-stu-id="e0570-104">Import Certificate (Intro)</span></span>
+# <a name="import-certificate-intro"></a><span data-ttu-id="2f01a-104">Importar Certificado (Introdução)</span><span class="sxs-lookup"><span data-stu-id="2f01a-104">Import Certificate (Intro)</span></span>
  
-<span data-ttu-id="e0570-105">Para importar um certificado, você deve fornecer um caminho para o arquivo de certificado.</span><span class="sxs-lookup"><span data-stu-id="e0570-105">To import a certificate, you must provide a path to the certificate file.</span></span> <span data-ttu-id="e0570-106">Na caixa de texto **arquivo Selecionar certificado** , você pode digitar o caminho completo e nome de arquivo, ou clique no botão **Procurar** e navegue até o local do caminho e o nome de arquivo (geralmente, um arquivo. p7b,. pfx ou. cer).</span><span class="sxs-lookup"><span data-stu-id="e0570-106">In the **Select Certificate file** text box, you can either type the full path and file name, or click the **Browse** button and navigate to the path location and the file name (typically, a .p7b, .pfx, or .cer file).</span></span>
+<span data-ttu-id="2f01a-105">Para importar um certificado, você deve fornecer um caminho para o arquivo de certificado.</span><span class="sxs-lookup"><span data-stu-id="2f01a-105">To import a certificate, you must provide a path to the certificate file.</span></span> <span data-ttu-id="2f01a-106">Na caixa de texto **arquivo Selecionar certificado** , você pode digitar o caminho completo e nome de arquivo, ou clique no botão **Procurar** e navegue até o local do caminho e o nome de arquivo (geralmente, um arquivo. p7b,. pfx ou. cer).</span><span class="sxs-lookup"><span data-stu-id="2f01a-106">In the **Select Certificate file** text box, you can either type the full path and file name, or click the **Browse** button and navigate to the path location and the file name (typically, a .p7b, .pfx, or .cer file).</span></span>
   
-<span data-ttu-id="e0570-107">Se o certificado contiver uma chave privada, marque a caixa de seleção **arquivo de certificado contém a chave privada do certificado**.</span><span class="sxs-lookup"><span data-stu-id="e0570-107">If the certificate contains a private key, select the check box **Certificate file contains certificate's private key**.</span></span> <span data-ttu-id="e0570-108">Quando essa caixa de seleção estiver marcada, a entrada de texto **senha** é habilitada.</span><span class="sxs-lookup"><span data-stu-id="e0570-108">When this check box is selected, the **Password** text input is enabled.</span></span> <span data-ttu-id="e0570-109">Se você tiver um certificado com uma chave privada associada a ela, uma senha é geralmente colocada na chave privada quando o certificado é criado.</span><span class="sxs-lookup"><span data-stu-id="e0570-109">If you have a certificate with a private key associated with it, a password is usually placed on the private key when the certificate is created.</span></span> <span data-ttu-id="e0570-110">Você digitar a senha para a chave privada para permitir que o certificado e a chave particular a ser importado para o repositório de certificados.</span><span class="sxs-lookup"><span data-stu-id="e0570-110">You input the password for the private key to allow the certificate and the private key to be imported into the certificate store.</span></span> <span data-ttu-id="e0570-111">Quando você forneceu as informações para o caminho do arquivo de certificado e, opcionalmente, a senha da chave privada, se necessário, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="e0570-111">When you have provided the information for the certificate file path, and optionally the private key password, if required, click **Next**.</span></span>
+<span data-ttu-id="2f01a-107">Se o certificado contiver uma chave privada, marque a caixa de seleção **arquivo de certificado contém a chave privada do certificado**.</span><span class="sxs-lookup"><span data-stu-id="2f01a-107">If the certificate contains a private key, select the check box **Certificate file contains certificate's private key**.</span></span> <span data-ttu-id="2f01a-108">Quando essa caixa de seleção estiver marcada, a entrada de texto **senha** é habilitada.</span><span class="sxs-lookup"><span data-stu-id="2f01a-108">When this check box is selected, the **Password** text input is enabled.</span></span> <span data-ttu-id="2f01a-109">Se você tiver um certificado com uma chave privada associada a ela, uma senha é geralmente colocada na chave privada quando o certificado é criado.</span><span class="sxs-lookup"><span data-stu-id="2f01a-109">If you have a certificate with a private key associated with it, a password is usually placed on the private key when the certificate is created.</span></span> <span data-ttu-id="2f01a-110">Você digitar a senha para a chave privada para permitir que o certificado e a chave particular a ser importado para o repositório de certificados.</span><span class="sxs-lookup"><span data-stu-id="2f01a-110">You input the password for the private key to allow the certificate and the private key to be imported into the certificate store.</span></span> <span data-ttu-id="2f01a-111">Quando você forneceu as informações para o caminho do arquivo de certificado e, opcionalmente, a senha da chave privada, se necessário, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="2f01a-111">When you have provided the information for the certificate file path, and optionally the private key password, if required, click **Next**.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="e0570-112">Se você não souber a senha para a chave privada, a importação falhará.</span><span class="sxs-lookup"><span data-stu-id="e0570-112">If you do not know the password for the private key, the import will fail.</span></span> 
+> <span data-ttu-id="2f01a-112">Se você não souber a senha para a chave privada, a importação falhará.</span><span class="sxs-lookup"><span data-stu-id="2f01a-112">If you do not know the password for the private key, the import will fail.</span></span> 
   
 

@@ -1,5 +1,6 @@
 ---
-title: Verificar a replicação da preparação da floresta
+title: Verificar a Replicação da Preparação da Floresta
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,26 +13,26 @@ localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para confirmar que tenham a replicação do Catálogo Global e a criação de objetos durante a preparação da floresta foi bem-sucedida, faça o seguinte:'
-ms.openlocfilehash: 26ea7b544e3b38c47fd33bdcd0dbaa22f49e59be
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 77b7265ce101b7428f6bfde1ed5840dac9e0a99e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967937"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880648"
 ---
-# <a name="verify-replication-of-forest-preparation"></a><span data-ttu-id="83c4b-103">Verificar a replicação da preparação da floresta</span><span class="sxs-lookup"><span data-stu-id="83c4b-103">Verify Replication of Forest Preparation</span></span>
+# <a name="verify-replication-of-forest-preparation"></a><span data-ttu-id="69c12-103">Verificar a Replicação da Preparação da Floresta</span><span class="sxs-lookup"><span data-stu-id="69c12-103">Verify Replication of Forest Preparation</span></span>
  
-<span data-ttu-id="83c4b-104">Para confirmar que tenham a replicação do Catálogo Global e a criação de objetos durante a preparação da floresta foi bem-sucedida, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="83c4b-104">To confirm that the replication of the Global Catalog and the creation of objects during Forest Preparation have been successful, do the following:</span></span>
+<span data-ttu-id="69c12-104">Para confirmar que tenham a replicação do Catálogo Global e a criação de objetos durante a preparação da floresta foi bem-sucedida, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="69c12-104">To confirm that the replication of the Global Catalog and the creation of objects during Forest Preparation have been successful, do the following:</span></span>
   
-1. <span data-ttu-id="83c4b-105">Em um controlador de domínio (preferencialmente em um local remoto de outros controladores de domínio), na floresta na qual a Preparação da floresta foi executada, abra **Usuários e Computadores do Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="83c4b-105">On a domain controller (preferably in a remote site from the other domain controllers), in the forest where the Forest Preparation was run, open **Active Directory Users and Computers**.</span></span>
+1. <span data-ttu-id="69c12-105">Em um controlador de domínio (preferencialmente em um local remoto de outros controladores de domínio), na floresta na qual a Preparação da floresta foi executada, abra **Usuários e Computadores do Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="69c12-105">On a domain controller (preferably in a remote site from the other domain controllers), in the forest where the Forest Preparation was run, open **Active Directory Users and Computers**.</span></span>
     
-2. <span data-ttu-id="83c4b-106">Em **Usuários e Computadores do Active Directory**, expanda o nome de domínio da sua floresta ou um domínio filho.</span><span class="sxs-lookup"><span data-stu-id="83c4b-106">In **Active Directory Users and Computers**, expand the domain name of your forest or a child domain.</span></span>
+2. <span data-ttu-id="69c12-106">Em **Usuários e Computadores do Active Directory**, expanda o nome de domínio da sua floresta ou um domínio filho.</span><span class="sxs-lookup"><span data-stu-id="69c12-106">In **Active Directory Users and Computers**, expand the domain name of your forest or a child domain.</span></span>
     
-3. <span data-ttu-id="83c4b-107">Clique no recipiente de **usuários** no painel esquerdo e procure o grupo Universal CsAdministrator no painel lateral direita.</span><span class="sxs-lookup"><span data-stu-id="83c4b-107">Click the **Users** container on the left side pane and look for the Universal group CsAdministrator in the right side pane.</span></span> <span data-ttu-id="83c4b-108">Se CsAdministrator (entre oito outros novos grupos universais que começam com Cs) estiver presente, a replicação da preparação da floresta foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="83c4b-108">If CsAdministrator (among eight other new Universal groups that begin with Cs) is present, replication of the Forest Preparation has been successful.</span></span>
+3. <span data-ttu-id="69c12-107">Clique no recipiente de **usuários** no painel esquerdo e procure o grupo Universal CsAdministrator no painel lateral direita.</span><span class="sxs-lookup"><span data-stu-id="69c12-107">Click the **Users** container on the left side pane and look for the Universal group CsAdministrator in the right side pane.</span></span> <span data-ttu-id="69c12-108">Se CsAdministrator (entre oito outros novos grupos universais que começam com Cs) estiver presente, a replicação da preparação da floresta foi bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="69c12-108">If CsAdministrator (among eight other new Universal groups that begin with Cs) is present, replication of the Forest Preparation has been successful.</span></span>
     
-4. <span data-ttu-id="83c4b-109">Se os grupos ainda não estiver presente, você pode forçar a replicação ou aguarde 15 minutos e atualizar o painel do lado direito.</span><span class="sxs-lookup"><span data-stu-id="83c4b-109">If the group(s) is not yet present, you can force the replication or wait 15 minutes and refresh the right side pane.</span></span> <span data-ttu-id="83c4b-110">Quando os grupos estiverem presentes, a replicação será concluída.</span><span class="sxs-lookup"><span data-stu-id="83c4b-110">When the groups are present, replication is complete.</span></span>
+4. <span data-ttu-id="69c12-109">Se os grupos ainda não estiver presente, você pode forçar a replicação ou aguarde 15 minutos e atualizar o painel do lado direito.</span><span class="sxs-lookup"><span data-stu-id="69c12-109">If the group(s) is not yet present, you can force the replication or wait 15 minutes and refresh the right side pane.</span></span> <span data-ttu-id="69c12-110">Quando os grupos estiverem presentes, a replicação será concluída.</span><span class="sxs-lookup"><span data-stu-id="69c12-110">When the groups are present, replication is complete.</span></span>
     
 > [!TIP]
-> <span data-ttu-id="83c4b-111">Se desejar examinar os arquivos de log são criados pelo Skype para o Assistente de implantação do Business Server, você pode encontrá-los no computador onde o Assistente de implantação foi executado, no diretório de usuários do usuário Active Directory Domain Services que executou a etapa.</span><span class="sxs-lookup"><span data-stu-id="83c4b-111">If you want to review the log files that are created by the Skype for Business Server Deployment Wizard, you can find them on the computer where the Deployment Wizard was run, in the Users directory of the Active Directory Domain Services user who ran the step.</span></span> <span data-ttu-id="83c4b-112">Por exemplo, se o usuário logado como administrador de domínio no domínio Contoso.net, os arquivos de log estão localizados em: C:\Users\Administrator.Contoso\AppData\Local\Temp</span><span class="sxs-lookup"><span data-stu-id="83c4b-112">For example, if the user logged in as the domain administrator in the domain Contoso.net, the log files are located in: C:\Users\Administrator.Contoso\AppData\Local\Temp</span></span> 
+> <span data-ttu-id="69c12-111">Se desejar examinar os arquivos de log são criados pelo Skype para o Assistente de implantação do Business Server, você pode encontrá-los no computador onde o Assistente de implantação foi executado, no diretório de usuários do usuário Active Directory Domain Services que executou a etapa.</span><span class="sxs-lookup"><span data-stu-id="69c12-111">If you want to review the log files that are created by the Skype for Business Server Deployment Wizard, you can find them on the computer where the Deployment Wizard was run, in the Users directory of the Active Directory Domain Services user who ran the step.</span></span> <span data-ttu-id="69c12-112">Por exemplo, se o usuário logado como administrador de domínio no domínio Contoso.net, os arquivos de log estão localizados em: C:\Users\Administrator.Contoso\AppData\Local\Temp</span><span class="sxs-lookup"><span data-stu-id="69c12-112">For example, if the user logged in as the domain administrator in the domain Contoso.net, the log files are located in: C:\Users\Administrator.Contoso\AppData\Local\Temp</span></span> 
   
 

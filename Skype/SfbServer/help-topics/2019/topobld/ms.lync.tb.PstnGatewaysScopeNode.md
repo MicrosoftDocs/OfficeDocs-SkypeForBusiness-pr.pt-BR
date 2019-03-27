@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Gateways PSTN
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,26 +12,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'O nó de Gateways PSTN lista os gateways PSTN (rede telefônica pública comutada) da sua topologia. Você pode realizar a seguinte ação:'
-ms.openlocfilehash: 094dbf42d9e8acd1bda9994c3de1a1049d211941
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: 'O nó de Gateways PSTN lista os gateways PSTN (rede telefônica pública comutada) da sua topologia. Você pode executar as seguintes ações:'
+ms.openlocfilehash: fe9c9167d13fb869786b68380e115cc0d6c190cb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21059074"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890308"
 ---
-# <a name="pstn-gateways-scope-node"></a><span data-ttu-id="ed22d-104">Nó de Escopo de Gateways PSTN</span><span class="sxs-lookup"><span data-stu-id="ed22d-104">PSTN Gateways Scope Node</span></span>
+# <a name="pstn-gateways-scope-node"></a><span data-ttu-id="4f6e7-104">Nó de Escopo de Gateways PSTN</span><span class="sxs-lookup"><span data-stu-id="4f6e7-104">PSTN Gateways Scope Node</span></span>
  
-<span data-ttu-id="ed22d-p102">O nó de **Gateways PSTN** lista os gateways PSTN (rede telefônica pública comutada) da sua topologia. Você pode realizar a seguinte ação:</span><span class="sxs-lookup"><span data-stu-id="ed22d-p102">The **PSTN Gateways** node lists the public switched telephone networks (PSTN) gateways in your topology. You can perform the following action:</span></span>
+<span data-ttu-id="4f6e7-p102">O nó de **Gateways PSTN** lista os gateways PSTN (rede telefônica pública comutada) da sua topologia. Você pode realizar a seguinte ação:</span><span class="sxs-lookup"><span data-stu-id="4f6e7-p102">The **PSTN Gateways** node lists the public switched telephone networks (PSTN) gateways in your topology. You can perform the following action:</span></span>
   
-- <span data-ttu-id="ed22d-p103">**Novo Gateway IP/PSTN**. Iniciar o assistente **Definir Novo Gateway IP/PSTN** usado para adicionar um novo gateway PSTN à topologia.</span><span class="sxs-lookup"><span data-stu-id="ed22d-p103">**New IP/PSTN Gateway**. Starts the **Define New IP/PSTN Gateway** wizard, which you use to add a new PSTN gateway to the topology.</span></span>
+- <span data-ttu-id="4f6e7-p103">**Novo Gateway IP/PSTN**. Iniciar o assistente **Definir Novo Gateway IP/PSTN** usado para adicionar um novo gateway PSTN à topologia.</span><span class="sxs-lookup"><span data-stu-id="4f6e7-p103">**New IP/PSTN Gateway**. Starts the **Define New IP/PSTN Gateway** wizard, which you use to add a new PSTN gateway to the topology.</span></span>
     
-<span data-ttu-id="ed22d-109">Além das opções de gateway PSTN, você pode executar as seguintes tarefas gerais:</span><span class="sxs-lookup"><span data-stu-id="ed22d-109">In addition to the PSTN gateway options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="4f6e7-109">Além das opções de gateway PSTN, você pode executar as seguintes tarefas gerais:</span><span class="sxs-lookup"><span data-stu-id="4f6e7-109">In addition to the PSTN gateway options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="ed22d-p104">**Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia ou publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.</span><span class="sxs-lookup"><span data-stu-id="ed22d-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
+- <span data-ttu-id="4f6e7-p104">**Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia ou publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.</span><span class="sxs-lookup"><span data-stu-id="4f6e7-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
     
-- <span data-ttu-id="ed22d-p105">**Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens para mostrar ou ocultar nos modos de exibição da árvore de console.</span><span class="sxs-lookup"><span data-stu-id="ed22d-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="4f6e7-p105">**Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens para mostrar ou ocultar nos modos de exibição da árvore de console.</span><span class="sxs-lookup"><span data-stu-id="4f6e7-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="ed22d-p106">**Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.</span><span class="sxs-lookup"><span data-stu-id="ed22d-p106">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="4f6e7-p106">**Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.</span><span class="sxs-lookup"><span data-stu-id="4f6e7-p106">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

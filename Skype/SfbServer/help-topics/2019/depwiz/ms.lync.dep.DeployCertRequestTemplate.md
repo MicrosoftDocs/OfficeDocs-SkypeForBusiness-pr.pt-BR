@@ -1,5 +1,6 @@
 ---
 title: Solicitação de Certificado (Especificar Modelo)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,18 +13,18 @@ localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 ROBOTS: NOINDEX, NOFOLLOW
 description: A página Especificar Modelo de Certificado Alternativo permite que você defina um modelo de certificado diferente do modelo de certificado WebServer usado por padrão. Marque a caixa de seleção Usar um modelo de certificado alternativo para autoridade de certificação selecionada e defina o nome do modelo de certificado alternativo na caixa de texto Nome do modelo de certificado. É necessário usar o nome do modelo definido na autoridade de certificação (AC). Clique em Voltar para voltar à página anterior. Clique em Cancelar para encerrar o processo de solicitação de certificado.
-ms.openlocfilehash: 77d26d0587139b4ea3e1f0a6745e8771a1188c8f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3940162eb8369942828018c84d0de69107110b37
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006919"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894786"
 ---
-# <a name="certificate-request-specify-termplate"></a><span data-ttu-id="7e79b-107">Solicitação de Certificado (Especificar Modelo)</span><span class="sxs-lookup"><span data-stu-id="7e79b-107">Certificate Request (Specify Termplate)</span></span>
+# <a name="certificate-request-specify-termplate"></a><span data-ttu-id="24a3d-107">Solicitação de Certificado (Especificar Modelo)</span><span class="sxs-lookup"><span data-stu-id="24a3d-107">Certificate Request (Specify Termplate)</span></span>
  
-<span data-ttu-id="7e79b-p102">A página **Especificar Modelo de Certificado Alternativo** permite que você defina um modelo de certificado diferente do modelo de certificado WebServer usado por padrão. Marque a caixa de seleção **Usar um modelo de certificado alternativo para autoridade de certificação selecionada** e defina o nome do modelo de certificado alternativo na caixa de texto **Nome do modelo de certificado**. É necessário usar o nome do modelo definido na autoridade de certificação (AC). Clique em **Voltar** para voltar à página anterior. Clique em **Cancelar** para encerrar o processo de solicitação de certificado.</span><span class="sxs-lookup"><span data-stu-id="7e79b-p102">The **Specify Alternate Certificate Template** page enables you to define a certificate template other than the WebServer certificate template that is used by default. Select the check box **Use alternate certificate template for selected certification authority**, and then define the name of the alternate certificate template in the text box **Certificate template name**. You must use the name of the template as it is defined in the certification authority (CA). Click **Back** to go back to the previous page. Click **Cancel** to end the certificate request process.</span></span>
+<span data-ttu-id="24a3d-p102">A página **Especificar Modelo de Certificado Alternativo** permite que você defina um modelo de certificado diferente do modelo de certificado WebServer usado por padrão. Marque a caixa de seleção **Usar um modelo de certificado alternativo para autoridade de certificação selecionada** e defina o nome do modelo de certificado alternativo na caixa de texto **Nome do modelo de certificado**. É necessário usar o nome do modelo definido na autoridade de certificação (AC). Clique em **Voltar** para voltar à página anterior. Clique em **Cancelar** para encerrar o processo de solicitação de certificado.</span><span class="sxs-lookup"><span data-stu-id="24a3d-p102">The **Specify Alternate Certificate Template** page enables you to define a certificate template other than the WebServer certificate template that is used by default. Select the check box **Use alternate certificate template for selected certification authority**, and then define the name of the alternate certificate template in the text box **Certificate template name**. You must use the name of the template as it is defined in the certification authority (CA). Click **Back** to go back to the previous page. Click **Cancel** to end the certificate request process.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="7e79b-p103">Use essa opção somente se for instruído por sua AC pública de que deve usar um modelo específico definido em seu sistema para emissão de certificados. Se o certificado estiver sendo emitido por sua AC interna, seu administrador de AC deve orientá-lo sobre qual nome usar para o modelo de certificado alternativo. Essa opção é extremamente valiosa em casos nos quais sua organização definiu um novo modelo WebServer e desabilitou o modelo de WebServer padrão.</span><span class="sxs-lookup"><span data-stu-id="7e79b-p103">You should use this option only if you are advised by your public CA that you should use a specific template that is defined on their system for issuing certificates. If the certificate is being issued by your internal CA, your CA administrator should advise you what name to use for the alternate certificate template. This option is extremely valuable in cases where your organization has defined a new WebServer template and has disabled the default WebServer template.</span></span> 
+> <span data-ttu-id="24a3d-p103">Use essa opção somente se for instruído por sua AC pública de que deve usar um modelo específico definido em seu sistema para emissão de certificados. Se o certificado estiver sendo emitido por sua AC interna, seu administrador de AC deve orientá-lo sobre qual nome usar para o modelo de certificado alternativo. Essa opção é extremamente valiosa em casos nos quais sua organização definiu um novo modelo WebServer e desabilitou o modelo de WebServer padrão.</span><span class="sxs-lookup"><span data-stu-id="24a3d-p103">You should use this option only if you are advised by your public CA that you should use a specific template that is defined on their system for issuing certificates. If the certificate is being issued by your internal CA, your CA administrator should advise you what name to use for the alternate certificate template. This option is extremely valuable in cases where your organization has defined a new WebServer template and has disabled the default WebServer template.</span></span> 
   
 
