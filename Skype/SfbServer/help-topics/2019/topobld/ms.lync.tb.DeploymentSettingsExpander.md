@@ -1,5 +1,6 @@
 ---
 title: Expansor de Configurações de Implantação
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'É possível editar as propriedades de uma implantação existente com as seguintes seções:'
-ms.openlocfilehash: 733f71ffbb2f1e49fb73da6727a9df7586273d5b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b5e953f165c9e54fa2e7891b7562e840c78b3144
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255413"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878158"
 ---
 # <a name="deployment-settings-expander"></a>Expansor de Configurações de Implantação
 
@@ -25,7 +26,7 @@ ms.locfileid: "23255413"
 
 - Domínio SIP
 
-- URLs simples
+- URLs simples 
 
 - Servidor de Gerenciamento Central
 
@@ -70,9 +71,9 @@ O Servidor de Gerenciamento Central pode ser alterado de um pool de Front-Ends d
 > [!IMPORTANT]
 > Depois de definir, publicar e implantar o repositório de Gerenciamento Central da infraestrutura, você não pode mudar o local do repositório de Gerenciamento Central sem realocar o repositório de Gerenciamento Central para outro Front-End por meio de um processo externo.
 
-Para obter detalhes sobre como mover o repositório de gerenciamento Central, consulte [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) na referência de cmdlet do Windows PowerShell.
+Para obter detalhes sobre como mover o repositório do Servidor de Gerenciamento Central, consulte [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) na referência de cmdlet do Windows PowerShell.
 
 
-Para obter detalhes sobre como definir essas configurações, consulte [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
+Para obter detalhes sobre como definir e configurar estas configurações, consulte [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
 
 

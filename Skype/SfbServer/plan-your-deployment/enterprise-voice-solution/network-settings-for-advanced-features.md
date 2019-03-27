@@ -1,5 +1,6 @@
 ---
 title: Configurações de rede para os recursos avançados do Enterprise Voice no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Aprender sobre regiões de rede, sites de rede e sub-redes IP. Todas estas devem ser configuradas para implantar o plano de bypass de mídia no Skype para os negócios, planejar chamada de controle de admissão no Skype para Business Server), ou plano para serviços de emergência no Skype para servidor de negócios no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 6dad93aa2d5ef235b07f2189329f94d94b1a3d02
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a37cf9aea2ef400a61a0b457e1973b05d079ec74
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885654"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882310"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Configurações de rede para os recursos avançados do Enterprise Voice no Skype para Business Server
 
@@ -33,7 +34,7 @@ Este tópico fornece uma visão geral dos requisitos de configuração que são 
 Uma região de rede é um hub de rede ou backbone de rede usada somente na configuração do serviço de controle de admissão de chamadas (CAC),  E9-1-1 e bypass de mídia.
 
 > [!NOTE]
-> Regiões de rede não são iguais Skype para regiões de conferência discada Business Server, que são necessárias para associar números de acesso de conferência discada um ou mais Skype para planos de discagem Business Server. Para obter detalhes sobre regiões de conferência discada, consulte [Planning for Dial-In Conferencing](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx).
+> Regiões de rede não são iguais Skype para regiões de conferência discada Business Server, que são necessárias para associar números de acesso de conferência discada um ou mais Skype para planos de discagem Business Server. Para obter detalhes sobre as regiões de conferência de discagem, consulte [Planning for Dial-In Conferencing](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx).
 
 CAC exige que cada região de rede tenha um Skype associado para o site central Business Server, que gerencia o tráfego de mídia com a região (ou seja, faz decisões com base em políticas que você configurou, relacionadas ou não um áudio em tempo real ou sessão de vídeo pode ser estabelecido). Skype para sites de central de Business Server não representam localizações geográficas, mas sim lógicos grupos de servidores que estão configurados como um pool ou um conjunto de pools.
 
@@ -59,7 +60,7 @@ Para cada site de rede, você precisará trabalhar com seu administrador de rede
 No exemplo, o site de Nova York na região da América do Norte pode ser atribuído às seguintes sub-redes IP: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Suponha que Bob, que geralmente trabalha em Detroit, viaja para o escritório de Nova York para treinamento. Quando ele liga o computador e se conecta à rede, seu computador terá um endereço IP em um dos quatro intervalos alocados para Nova York, por exemplo 172.29.80.103.
 
 > [!CAUTION]
-> As subredes IP especificadas durante a configuração de rede no servidor devem corresponder ao formato oferecido por computadores clientes para poder ser usado adequadamente pelo bypass de mídia. Um Skype para o cliente de negócios leva seu endereço IP local e mascara o endereço IP com a máscara de sub-rede associada. Ao determinar o ID de bypass associado com cada cliente, o Registrador irá comparar a lista de subredes IP associadas com cada local de rede na subrede oferecida pelo cliente para uma correspondência exata. Por este motivo, é importante que as subredes inseridas durante a configuração de rede no servidor sejam subredes reais ao invés de subredes virtuais. (Se implantar o controle de admissão de chamada, mas o bypass de mídia não, o controle de admissão de chamada funcionará corretamente, mesmo se você configurar o virtuais sub-redes.) Por exemplo, se um Skype para o cliente de negócios faz logon em um computador com um endereço IP de 172.29.81.57 com uma máscara de sub-rede do IP de 255.255.255.0, ele solicitará o ID de desvio que está associado à sub-rede 172.29.81.0. Se a sub-rede for definida como 172.29.0.0/16, embora o cliente pertença à sub-rede virtual, o Registrador Avançado não considerará isso uma correspondência porque ele está procurando especificamente pela sub-rede 172.29.81.0. Portanto, é importante que o administrador insere sub-redes exatamente como fornecidos pela Skype para clientes corporativos (que são provisionados com sub-redes durante a configuração de rede, estática ou pelo Dynamic Host Configuration Protocol (DHCP).)
+> As subredes IP especificadas durante a configuração de rede no servidor devem corresponder ao formato oferecido por computadores clientes para poder ser usado adequadamente pelo bypass de mídia. Um Skype para o cliente de negócios leva seu endereço IP local e mascara o endereço IP com a máscara de sub-rede associada. Ao determinar o ID de bypass associado com cada cliente, o Registrador irá comparar a lista de subredes IP associadas com cada local de rede na subrede oferecida pelo cliente para uma correspondência exata. Por este motivo, é importante que as subredes inseridas durante a configuração de rede no servidor sejam subredes reais ao invés de subredes virtuais. (Se implantar o controle de admissão de chamada, mas o bypass de mídia não, o controle de admissão de chamada funcionará corretamente, mesmo se você configurar o virtuais sub-redes.) Por exemplo, se um Skype para o cliente de negócios faz logon em um computador com um endereço IP de 172.29.81.57 com uma máscara de sub-rede do IP de 255.255.255.0, ele solicitará o ID de desvio que está associado à sub-rede 172.29.81.0. Se a subrede for definida como 172.29.0.0/16, embora o cliente pertença à subrede virtual, o Registrador não irá considerar uma correspondência porque ele está procurando especificamente pela subrede 172.29.81.0. Portanto, é importante que o administrador insere sub-redes exatamente como fornecidos pela Skype para clientes corporativos (que são provisionados com sub-redes durante a configuração de rede, estática ou pelo Dynamic Host Configuration Protocol (DHCP).)
 
 ## <a name="associating-subnets-with-network-sites"></a>Associando Subredes aos Locais de Rede
 
@@ -67,7 +68,7 @@ Cada subrede na rede corporativa deve ser associado um site de rede (ou seja, ca
 
 Para associar sub-redes a sites de rede, você poderá usar a seção **Configuração de rede** do Skype para painel de controle do Business Server, ou você pode usar o Skype do Shell de gerenciamento do servidor de negócios. Para obter instruções, consulte [associar uma sub-rede a um Site de rede](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx) na documentação de implantação ou consulte o Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Planejar o controle de admissão de chamada no Skype for Business Server](call-admission-control.md)
 

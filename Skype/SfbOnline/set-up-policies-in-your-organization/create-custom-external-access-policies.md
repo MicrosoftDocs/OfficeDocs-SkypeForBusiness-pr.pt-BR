@@ -1,5 +1,6 @@
 ---
 title: Criar políticas personalizadas de acesso externo
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Skype para Business Online permite que você crie políticas de acesso externo adicionais. Ao contrário de políticas de cliente ou de conferência, onde você pode ter várias combinações, há três políticas de acesso externo predefinido que podem abranger a maioria dos cenários.
-ms.openlocfilehash: a822e09875bbef1fcd1472ac988a32cadfaf5850
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: b368c7d30e74225f7808f9f3728691040e75016f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561692"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878773"
 ---
 # <a name="create-custom-external-access-policies"></a>Criar políticas personalizadas de acesso externo
 

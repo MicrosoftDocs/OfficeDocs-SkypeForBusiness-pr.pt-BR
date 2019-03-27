@@ -1,5 +1,6 @@
 ---
 title: Excluir uma política no Skype de arquivamento para Business Server existente
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: 'Resumo: Saiba como excluir uma política de arquivamento para Skype para Business Server.'
-ms.openlocfilehash: 0446999923b462311f941b6653157b41000b1f43
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1210dacc85ea28d2968d602431d5a9bdf7bcc4b9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973098"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878425"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Excluir uma política no Skype de arquivamento para Business Server existente
 

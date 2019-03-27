@@ -1,5 +1,6 @@
 ---
 title: Plenejamento da topologia do Servidor de Chat Persistente
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: 'Resumo: Leia este tópico para saber mais sobre os componentes de servidor de Chat persistente e topologias em Skype para Business Server 2015.'
-ms.openlocfilehash: 9f771cddb8d3176840e8df1a34339f33e8ccac5f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6d385477256150e35b305c996dccbab7ab22f4ba
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968251"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879234"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>Plenejamento da topologia do Servidor de Chat Persistente
  
@@ -96,7 +97,7 @@ A figura a seguir mostra todos os componentes de uma topologia para um único se
   
 **Topologia de servidor único**
 
-![Servidor de Chat Persistente - Topologia de Servidor Único](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
+![Servidor de Chat persistente - topologia de servidor único](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
   
 ### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Servidor Enterprise Edition com um múltiplos Servidores de Chat Persistente
 
@@ -106,7 +107,7 @@ A figura a seguir mostra todos os componentes de uma topologia de vários servid
   
 **Topologia de vários servidores**
 
-![Servidor de Chat Persistente - Topologia de Vários Servidores](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
+![Servidor de Chat persistente - topologia de vários servidores](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
   
 As topologias de vários servidores fornecem a funcionalidade de pool de servidores. Em um pool de servidores, os serviços de Chat persistente comunicarem em compartilham dados. Por exemplo, histórico de chat que foi lançado originalmente para um serviço de bate-papo persistente está disponível a partir de qualquer serviço de bate-papo persistente no sistema. Um arquivo carregado por meio de um serviço de Chat persistente pode ser acessado por qualquer serviço de Chat persistente. Os usuários podem se conectar ao diferentes Persistent Chat Server servidores Front-End e podem se comunicar entre si. A porta padrão TCP 8011 conecta um servidor a um pool de servidores e é usado pelos serviços do Chat persistente para se comunicar entre si ou para fins administrativos.
   

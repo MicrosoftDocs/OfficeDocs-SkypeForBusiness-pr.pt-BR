@@ -1,5 +1,6 @@
 ---
 title: Planejar o painel de controle de qualidade de chamada for Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Resumo: Saiba mais sobre o que considerar ao planejar o painel de controle de qualidade de chamada.'
-ms.openlocfilehash: 684ec4ead9d6292cb316f1330bace65149151fbf
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: ee82d56747ee4f4241f2630a5a6fd3136ff42be4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729455"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884418"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planejar o painel de controle de qualidade de chamada for Skype para Business Server 
  
@@ -55,7 +56,7 @@ Resumindo, CQD requer os seguintes elementos:
     
 - O IIS hospeda CQD Portal da Web
     
-![Componentes do CQD](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
+![Componentes CQD](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
 A mesma arquitetura CQD suporta o Lync Server 2013 e Skype para negócios. 
   
@@ -126,7 +127,7 @@ CQD vem com vários componentes, e ele o ajuda a entender os requisitos de cada 
 > [!NOTE]
 > Para arquivar de QoE e o cubo, determinadas opções de implantação exigem edições de Business Intelligence ou Enterprise do Microsoft SQL Server. Consulte a seção [requisitos de infraestrutura para CQD](plan.md#Infrastructure_Req) abaixo para obter mais detalhes.
   
-![Componentes do CQD](../../media/a52f2e6c-a4dd-4de3-879c-47295d2366c3.png)
+![Componentes CQD](../../media/a52f2e6c-a4dd-4de3-879c-47295d2366c3.png)
   
 ### <a name="single-server-configuration"></a>Configuração de servidor único
 
@@ -144,11 +145,11 @@ Em uma configuração multiservidor, o arquivamento de QoE, cubo e Portal podem 
     
   **Hospedando o Portal da Web CQD e CQD cubo em máquinas diferentes.** As organizações que talvez tenham requisitos para separar o Portal CQD da instalação do SQL Server ou que talvez queira combinar e adequar edições do SQL Server para a instância do SQL Server e a instância do SQL Server Analysis Services podem optar por instalar o Portal CQD e Cubo de CQD em máquinas diferentes. O componente de arquivo morto do QoE também pode ser o único componente CQD que foi instalado, se a organização simplesmente quer ter um método sustentável para arquivar os dados do QoE sem atingir os limites de desempenho no Monitoring Server.
   
-![CQD com um único servidor](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
+![Servidor único CQD](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
   
  **Hospedando um Portal separado da produção"" Portal "desenvolvimento".** As organizações que desenvolvem seus próprios relatórios personalizados (via APIs REST) talvez prefira implantar instâncias adicionais do Portal (CQD) junto com a produção de Portal que usuários regulares acessam para monitoramento da qualidade de chamada ou investigações. O Portal de desenvolvimento pode isolar quaisquer modificações no portal do ambiente de produção. Os portais da web adicionais podem ser implantados em máquinas diferentes (mostradas abaixo) ou implantados no diretórios web diferente na mesma máquina (não mostrados). Para realizar o último, o portal da web CQD adicional deve ser copiado para a máquina de produção manualmente porque o processo de instalação CQD sempre implanta o Portal da Web CQD o site padrão com nomes de aplicativo da web predefinido.
   
-![Planejar vários servidores do CQD](../../media/2326e61e-b485-43e6-9f82-145237ba89cf.png)
+![Planejar CQD Multi Server](../../media/2326e61e-b485-43e6-9f82-145237ba89cf.png)
   
 ### <a name="supported-topologies"></a>Topologias suportadas
 
@@ -186,7 +187,7 @@ Esta seção torna a pressuposição de que há um único banco de dados QoEMetr
 
 |**Máquina**|**Núcleos de CPU**|**RAM**|**Cubo no mesmo disco e arquivamento de QoE**|**Arquivo morto do QoE e SQL Temp DB no mesmo disco**|
 |:-----|:-----|:-----|:-----|:-----|
-|Máquina virtual  <br/> |4  <br/> |7 GB  <br/> |Sim  <br/> |Sim  <br/> |
+|Máquina virtual  <br/> |4  <br/> |7 GB  <br/> |Sim   <br/> |Sim  <br/> |
 |4 núcleos  <br/> |4  <br/> |20 GB  <br/> |Sim  <br/> |Não  <br/> |
 |8 núcleos  <br/> |8  <br/> |32 GB  <br/> |Sim  <br/> |Não  <br/> |
 |16 núcleos  <br/> |16  <br/> |128 GB  <br/> |Não  <br/> |Não  <br/> |

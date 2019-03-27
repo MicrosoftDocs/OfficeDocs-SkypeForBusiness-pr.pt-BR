@@ -1,5 +1,6 @@
 ---
-title: Monitoramento (ferramenta de planejamento)
+title: Monitoring (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: No Skype para Business Server, monitoring é usado para coletar informações de uso e dados de qualidade da experiência (QoE) sobre os que os usuários estão envolvidos em sessões de comunicação.
-ms.openlocfilehash: 7974f8925817a15d0144ee5324d7d7b68d61c672
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 902a9b5a4c9f4ffacb79ce80328b634362563afa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253575"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880169"
 ---
-# <a name="monitoring-planning-tool"></a>Monitoramento (ferramenta de planejamento)
+# <a name="monitoring-planning-tool"></a>Monitoring (Planning Tool)
 
 No Skype para Business Server, monitoring é usado para coletar informações de uso e dados de qualidade da experiência (QoE) sobre os que os usuários estão envolvidos em sessões de comunicação.
 

@@ -1,5 +1,6 @@
 ---
 title: Configurando políticas para o Skype para Business Server 2015 ferramenta de Stress e desempenho
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 11/11/2015
@@ -10,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
 description: Configuração de diretiva para Skype em ferramenta de desempenho e estresse do Business Server 2015.
-ms.openlocfilehash: 5bdeb4c65b3649e7d417550578e277e01e55fcc3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c5dd20df0cac3121169f6eb5659eb6339d7875e2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881204"
 ---
 # <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Configurando políticas para o Skype para Business Server 2015 ferramenta de Stress e desempenho
  
@@ -74,7 +76,7 @@ Você precisará o script de exemplo RoutingRules.ps1 para roteamento de voz. Qu
   
 Por exemplo, o parâmetro SimpleName na chamada para o cmdlet **New-CsDialPlan** no exemplo RoutingRules.ps1 deve ser usado para o valor de LocationProfile na figura a seguir de UserProfileGenerator.exe:
   
-![Ferramenta de configuração de carga do Skype for Business, guia de cenários de voz, configurações avançadas para as Conversas.](../../media/59f42e4e-8f1e-4d43-9ae2-9e6026191951.png)
+![Skype para ferramenta de configuração de carga de negócios, guia de cenários de voz, as configurações avançadas de conversas.](../../media/59f42e4e-8f1e-4d43-9ae2-9e6026191951.png)
   
 Para obter detalhes, você pode revisar os cmdlets do Enterprise Voice.
   
@@ -83,7 +85,7 @@ Para obter detalhes, você pode revisar os cmdlets do Enterprise Voice.
 
 Primeiro, revise o script ConferenceAutoAttendantConfiguration.ps1. Você vai querer tome nota do número de telefone ConferencingAutoAttendant (1121111111 por padrão), para que você pode inseri-lo na ferramenta de configuração de LyncPerfTool para geração de configuração, como a seguir:
   
-![O guia de cenários de voz que mostra o nível de carga da conferência e o número de telefone.](../../media/a3ea5fc0-8b3d-4842-b809-f137f470dbdc.png)
+![Os cenários de voz mostrando a carga de conferência nível da guia e número de telefone.](../../media/a3ea5fc0-8b3d-4842-b809-f137f470dbdc.png)
   
 Você encontrará mais detalhes na conferência discada e conferência cmdlets.
   
@@ -104,7 +106,7 @@ Você precisará executar as seguintes etapas para configurar os testes para cha
   
 2. Configure endereços ao preencher os valores na guia **Configuração do serviço de informações de local** no UserProvisioningTool, conforme mostrado na figura a seguir:
     
-     ![Ferramenta de provisionamento do usuário que mostra o número de endereços, sub-redes, comutadores e portas.](../../media/ebe85a0c-750f-4301-97d4-d158a40ea98a.png)
+     ![Ferramenta mostrando o número de endereços, sub-redes, comutadores e portas de provisionamento de usuário.](../../media/ebe85a0c-750f-4301-97d4-d158a40ea98a.png)
   
 3. Quando você inseriu tudo para o UserProvisioningTool, clique no botão de **Gerar arquivos de configuração do LIS** .
     
@@ -115,6 +117,6 @@ Você precisará executar as seguintes etapas para configurar os testes para cha
 
 O exemplo de script é ResponseGroupConfiguration.ps1. Também há cmdlets do aplicativo de grupo de resposta para analisar para obter mais detalhes de configuração. O diagrama a seguir mostrará alguns dos detalhes de configuração:
   
-![A ferramenta de configuração do Grupo de Resposta que mostra os fluxos de trabalho existentes para testes.](../../media/e218a345-4813-4332-8cff-b48de05017ef.jpg)
+![Ferramenta de configuração de grupo de resposta mostrando os fluxos de trabalho existentes para o teste.](../../media/e218a345-4813-4332-8cff-b48de05017ef.jpg)
   
 

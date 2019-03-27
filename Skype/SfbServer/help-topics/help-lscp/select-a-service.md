@@ -1,5 +1,6 @@
 ---
 title: Selecionar um Serviço
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: Use a caixa de diálogo Selecionar um Serviço para localizar serviços disponíveis no seu ambiente. Para usar um serviço existente, clique em um serviço na lista e clique em OK.
-ms.openlocfilehash: 99a6011906254dd26fa1f8e2812ecbbf4f8a3f7f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cc5a65521cc8f7b508abd06256026fb769be47e8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247546"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880543"
 ---
 # <a name="select-a-service"></a>Selecionar um Serviço
 
@@ -29,21 +30,21 @@ Para obter detalhes sobre os diferentes procedimentos que você pode executar us
 
 É possível executar as seguintes tarefas na página **Selecionar um Serviço**:
 
-- [Configurar categorias](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
+- [Configure Categories](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
 
-- [Configurar suplementos para salas](https://technet.microsoft.com/library/4eeaf19e-8369-4f6f-af65-a283cf7daa1c.aspx)
+- [Configure Add-ins for Rooms](https://technet.microsoft.com/library/4eeaf19e-8369-4f6f-af65-a283cf7daa1c.aspx)
 
-- [Configurar opções do servidor de bate-papo persistente globalmente ou para o Pool do servidor de bate-papo persistente](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
+- [Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
 
 Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
 
-## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorias salas de bate-papo
+## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorias salas de chat
 
 Em **Selecionar um serviço**, selecione o serviço correspondente para o pool de servidor de Chat persistente no qual a categoria precisa ser criado. O serviço é o servidor de Chat persistente pool (cliente) de Chat persistente usado para identificar qual categoria de pool pertence. Uma categoria pode pertencer a apenas um pool do servidor de Chat persistente e não pode ser movida para outro ou compartilhada com outro pool.
 
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>Para configurar suplementos para salas de chat
 
-Em **Selecionar um serviço**, selecione o serviço correspondente para o pool do servidor de Chat persistente onde você precisa criar o suplemento. Os Suplementos não podem ser movidos de um pool a outro nem compartilhado entre pools diferentes.
+Em **Selecionar um serviço**, selecione o serviço correspondente para o pool do servidor de Chat persistente onde você precisa criar o suplemento. Suplementos não podem ser movidos de um pool a outro nem compartilhado entre pools diferentes.
 
 ## <a name="to-configure-persistent-chat-options-for-a-specific-persistent-chat-server-pool"></a>Para configurar as opções de Chat persistente para um pool específico do servidor de Chat persistente
 

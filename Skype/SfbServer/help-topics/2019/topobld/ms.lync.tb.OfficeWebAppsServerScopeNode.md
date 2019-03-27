@@ -1,5 +1,6 @@
 ---
 title: Expansor de Nó de Escopo do Servidor do Office Web Apps
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você direito do mouse em Office Web Apps Servers no construtor de topologias para executar o seguinte:'
-ms.openlocfilehash: 344d7a6b5a76ae8e83b1053f3f43ee24b97645fb
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 0ba093ca1988586b27fe63f661cc0232d59e2bb3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069417"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882780"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expansor de Nó de Escopo do Servidor do Office Web Apps
  
@@ -27,10 +28,10 @@ Você direito do mouse em **Office Web Apps Servers** no construtor de topologia
     
 Além da opção novo Office Web Apps Server, você pode executar as seguintes tarefas gerais:
   
-![Nó de escopo do servidor do Office Web Apps](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Nó de escopo de servidor de WebApps do Office](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
-- **Topologia**. Você pode usar esta opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia ou publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia ou publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
     
-- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
+- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
     
 

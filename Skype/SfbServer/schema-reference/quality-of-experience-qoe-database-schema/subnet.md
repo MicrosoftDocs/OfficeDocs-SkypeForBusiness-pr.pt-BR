@@ -1,5 +1,6 @@
 ---
 title: Tabela Subnet
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
 description: A tabela de sub-rede é uma tabela de suporte. Cada registro representa uma sub-rede definida na configuração de configuração de rede.
-ms.openlocfilehash: ed54341e66c3370086047eb9b073d2560172a261
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: aa91202bfb46a96f86ea3a631be3b964a17a6058
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880473"
 ---
 # <a name="subnet-table"></a>Tabela Subnet
  
 A tabela de sub-rede é uma tabela de suporte. Cada registro representa uma sub-rede definida na configuração de configuração de rede.
   
-|**Coluna**|**Tipo de dados**|**Índice de chaves /**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**SubnetIP** <br/> |int  <br/> |Primária, estrangeira  <br/> |Representação de inteiro para o IP da sub-rede.  <br/> |
 |**Máscara de sub-rede** <br/> |int  <br/> ||Máscara de sub-rede.  <br/> |

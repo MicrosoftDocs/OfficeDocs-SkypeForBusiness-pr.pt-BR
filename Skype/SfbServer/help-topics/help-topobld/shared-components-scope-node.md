@@ -1,5 +1,6 @@
 ---
 title: Nó de escopo de componentes compartilhados
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 description: Você right clicar em componentes compartilhados na árvore de hierarquia do construtor de topologias para criar novos componentes compartilhados ou para acessar as opções de nível de topologia.
-ms.openlocfilehash: 5fe8e8e51a8a831174ea2ffc67f7ce4db86f4c2b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0e48d23942922963af66ea8c28429682c68c7267
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21014237"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883479"
 ---
 # <a name="shared-components-scope-node"></a>Nó de escopo de componentes compartilhados
  
@@ -34,6 +35,6 @@ Selecione **novo** para criar um novo filestore, um novo Gateway IP/PSTN, um nov
   
 Você selecionar a **topologia** , clique em opções para abrir um novo documento de topologia. Abrir um documento de topologia existente, fazer Download da topologia atual do repositório de gerenciamento Central, salvar uma cópia do documento a topologia atual, publicar o documento da topologia atual, instalar banco de dados para criar as configurações de banco de dados configurado no momento, Mescle o Office Communications Server 2007 R2 no implantação atual ou para remover implantação.
   
-![Nó de escopo de componentes compartilhados C](../../media/Shared_Components_Scope_NodeC.jpg)
+![Nó de escopo de componentes C compartilhadas](../../media/Shared_Components_Scope_NodeC.jpg)
   
 

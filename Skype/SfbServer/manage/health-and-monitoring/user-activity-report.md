@@ -1,5 +1,6 @@
 ---
 title: Relatório de atividades do usuário no Skype para Business Server 25
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 'Resumo: Saiba mais sobre o relatório de atividade do usuário no Skype para Business Server.'
-ms.openlocfilehash: eecdd9879bf4fbf32c98505684631041332b5e2f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3fb69e68052ae5f3b1938de95291fb7fa5a3ac88
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374763"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884695"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>Relatório de atividades do usuário no Skype para Business Server
 
@@ -30,13 +31,13 @@ Se você fizer isso, o relatório de atividades do usuário irá retornar inform
 
 - **Ken** burg@litwareinc.com
 
-- **Ken**. Sanchez@litwareinc.com
+- **Ken**.Sanchez@litwareinc.com
 
 - **Ken** nedy@litwareinc.com
 
 Para garantir que as informações somente para Ken Myer for retornado, digite seu URI completo (Ken.Myer@litwareinc.com) na caixa de pesquisa ou pelo menos suficiente tipo de Ken URI exclusivamente distingui-lo de outros usuários em sua organização. Por exemplo:
 
-Ken.My
+Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>Para acessar o Relatório de Atividades do Usuário
 
@@ -116,12 +117,12 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Ativi
 
 | **Nome**                   | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |:---------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **De** <br/>             | Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início da seguinte forma:  <br/> 17/7/12015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/>                                                      |
-| **Até** <br/>               | Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final da seguinte forma:  <br/> 17/7/12015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/>                                                             |
+| **De** <br/>             | Data/hora de início do intervalo de tempo. Para ver os dados por horas, insira a data e hora de início desta forma:  <br/> 17/7/12015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/>                                                      |
+| **Até** <br/>               | Data/hora de término do intervalo de tempo. Para ver os dados por horas, insira a data e hora de término desta forma:  <br/> 17/7/12015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/>                                                             |
 | **Tipo de atividade** <br/>    | Tipo de atividade. Selecione uma das seguintes opções: <br/>  [Todos] <br/>  Ponto a ponto <br/>  Conferência <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Modalidade** <br/>         | A Modalidade disponível para você varia de acordo com o Tipo de Atividade selecionado. Se o tipo de atividade for-a-ponto, você poderá selecionar mensagens Instantâneas; Transferência de arquivos; Aplicativo compartilhamento; Voz; ou vídeo como a modalidade.  <br/> Se o Tipo de Atividade for Conferência, você poderá selecionar conferência Telefônica de Mensagem Instantânea; conferência da Web; Compartilhamento de Aplicativos; conferência de Voz/Vídeo; ou conferência Telefônica.  <br/>                                                                                                                                                                                                                                            |
 | **Categoria da sessão** <br/> | Indica se a atividade em questão teve sucesso ou falhou. Selecione uma das seguintes opções: <br/>  [Todos] <br/>  Sucesso <br/>  Falha esperada <br/>  Falha inesperada <br/>  Uma "falha esperada" é uma falha prevista; por exemplo, se um usuário configurou seu status para Não Perturbe, é previsto que qualquer chamada para ele irá falhar. Uma "falha inesperada" ocorre em um sistema que parecia saudável. Por exemplo, uma chamada não deveria ser terminada se o chamador for colocado em espera. Se isso ocorrer, será sinalizado como uma falha inesperada. <br/> |
-| **Prefixo de URI do usuário** <br/>  | Endereço SIP para o usuário. Para exibir registros somente para o usuário Ken Myer, digite o endereço SIP de Ken Myer. Por exemplo:  <br/> SIP:kenmyer@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Prefixo de URI do usuário** <br/>  | Endereço SIP para o usuário. Para exibir registros somente para o usuário Ken Myer, digite o endereço SIP de Ken Myer. Por exemplo:  <br/> sip:kenmyer@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 ## <a name="metrics-for-peer-to-peer-sessions"></a>Métricas para sessões ponto a ponto
 
@@ -138,7 +139,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 |**Hora do convite** <br/> |Sim  <br/> |Data e hora em que o convite inicial para entrar na sessão ponto a ponto foi enviado.  <br/> |
 |**Hora da resposta** <br/> |Sim  <br/> |Data e hora em que o usuário "Para" aceitou o convite para a sessão.  <br/> |
 |**Hora final** <br/> |Sim  <br/> |Data e hora em que a sessão ponto a ponto terminou.  <br/> |
-|**ID do Diagnóstico** <br/> |Sim  <br/> |Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas. Os cabeçalhos diagnósticos são opcionais (é possível ter sessões SIP que não os incluem), e os IDs diagnósticos são relatados somente para as sessões com algum tipo de problema.  <br/> |
+|**ID do Diagnóstico** <br/> |Sim  <br/> |Identificador exclusivo (na forma de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que fornece informações úteis para resolução de erros. Os cabeçalhos de diagnóstico são opcionais (é possível ter sessões SIP que não os incluem), e as IDs de diagnóstico são relatadas somente em sessões com algum tipo de problema.  <br/> |
 
 ## <a name="metrics-for-conferencing-sessions"></a>Métricas para sessões de conferência
 

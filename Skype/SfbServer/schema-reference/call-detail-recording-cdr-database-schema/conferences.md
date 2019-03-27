@@ -1,5 +1,6 @@
 ---
 title: Tabela de conferências em Skype para Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: Cada registro desta tabela contém detalhes de chamada sobre uma conferência.
-ms.openlocfilehash: f0d90f7abb99bce012e864fa2485386c335de409
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f0401c150f3835772ba0df20f8c02c64c9919921
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881950"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>Tabela de conferências em Skype para Business Server 2015
  
 Cada registro desta tabela contém detalhes de chamada sobre uma conferência.
   
-|**Coluna**|**Tipo de dados**|**Índice de chaves /**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Primária  <br/> |Hora em que a solicitação de conferência foi capturada pelo agente de CDR. Usado apenas como uma chave primária para identificar exclusivamente uma instância de conferência.  <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primária  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com **SessionIdTime** para identificar exclusivamente uma instância de conferência. * <br/> |
@@ -30,7 +32,7 @@ Cada registro desta tabela contém detalhes de chamada sobre uma conferência.
 |**ConferenceEndTime** <br/> |datetime  <br/> | <br/> |Hora de início da conferência.  <br/> |
 |**PoolId** <br/> |int  <br/> |Externa  <br/> |Número de identificação para identificar o pool no qual a conferência foi capturada. Consulte a [tabela de Pools](pools.md) para obter mais informações. <br/> |
 |**OrganizerId** <br/> |Int  <br/> |Externa  <br/> |Número de identificação para identificar o organizador URI desta conferência. Consulte a [tabela de usuários](users.md) para obter mais informações. <br/> |
-|**Sinalizador** <br/> |smallint  <br/> || Uma máscara de bits que contém os atributos de conferência. Os valores possíveis são: <br/>  0X01 <br/>  Sintética <br/>  Transação <br/> |
+|**Sinalizador** <br/> |smallint  <br/> || Uma máscara de bits que contém os atributos de conferência. Valores possíveis são: <br/>  0X01 <br/>  Sintética <br/>  Transação <br/> |
 |**Processadas** <br/> |bit  <br/> ||Campo interno usado pelo serviço de monitoramento.  <br/> Este campo foi introduzido no Microsoft Lync Server 2013.  <br/> |
 |**LastModifiedTime** <br/> |DateTime  <br/> ||Para uso interno pelo serviço de monitoramento.  <br/> Este campo foi introduzido no Skype para Business Server 2015.  <br/> |
    

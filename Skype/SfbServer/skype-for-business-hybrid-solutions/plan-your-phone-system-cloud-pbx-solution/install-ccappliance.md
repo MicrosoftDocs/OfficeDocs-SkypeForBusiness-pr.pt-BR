@@ -1,5 +1,6 @@
 ---
 title: Install-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: 'O cmdlet Install-CcAppliance instala o dispositivo do Skype for Business Cloud Connector Edition — incluindo as máquinas virtuais do AD, do Repositório de Gerenciamento Central, do Servidor de Mediação e do Servidor de Borda — no servidor host. '
-ms.openlocfilehash: d35a102f7d3ade7b64bcf43388eaf03dc455c27b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 8f1a8b7d99a555006c1d69ee52f2403e9bf0a874
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569984"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880211"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
@@ -66,7 +67,7 @@ O parâmetro -ShowStepsOnly é apenas para solução de problemas.
   
 ### <a name="example-5"></a>Exemplo 5
 
-O exemplo seguinte gera arquivos de configuração para cada etapa de implantação no servidor host. Arquivos de configuração são salvas o \<ApplianceRoot\>\Instances\\< versão\>-default\ExportedConfig pasta no servidor host:
+O exemplo seguinte gera arquivos de configuração para cada etapa de implantação no servidor host. Arquivos de configuração são salvas o \<ApplianceRoot\>\Instances\\<Version\>-default\ExportedConfig pasta no servidor host:
   
 ```
 Install-CcAppliance -PrepareOnly
@@ -89,14 +90,14 @@ O parâmetro SkipExistingObjects deve ser usado em conjunto com o parâmetro Ste
   
 Para determinar as etapas da implantação, execute o seguinte comando:
   
-Install-CcAppliance - ShowStepsOnly
+Install-CcAppliance -ShowStepsOnly
   
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
 O cmdlet Install-CcAppliance é usado para implantar o conector de nuvem para um novo aparelho ou atualizar um aparelho existente para a versão mais recente.
   
-Se você tiver um novo aplicativo, certifique-se de ler o tópico Preparar seu ambiente para o Cloud Connector primeiro, executar o cmdlet Register-CcAppliance para registrar o dispositivo e depois executar o cmdlet Install-CcAppliance. Para obter mais informações, consulte [implantar um único site no conector de nuvem](deploy-a-single-site-in-cloud-connector.md) e [implantar vários sites em nuvem de conector](deploy-multiple-sites-in-cloud-connector.md). 
+Se você tiver um novo aplicativo, certifique-se de ler o tópico Preparar seu ambiente para o Cloud Connector primeiro, executar o cmdlet Register-CcAppliance para registrar o dispositivo e depois executar o cmdlet Install-CcAppliance. Para obter mais informações, consulte [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) e [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
 Se você tiver uma implantação existente do conector de nuvem e você deseja atualizar, siga as instruções [de atualização para uma nova versão do conector de nuvem](upgrade-to-a-new-version-of-cloud-connector.md).
   
@@ -108,7 +109,7 @@ Se você tiver uma implantação existente do conector de nuvem e você deseja a
 |PrepareOnly  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |  Gerar arquivos de configuração para cada etapa da implantação. Este parâmetro tem a finalidade exclusiva de solução de problemas.  <br/> |
 |ShowStepsOnly  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Exibir apenas os nomes das etapas de implantação. Este parâmetro tem a finalidade exclusiva de solução de problemas.  <br/> |
 |SkipExistingObjects  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Este parâmetro deve ser usado em conjunto com o parâmetro Steps. Este parâmetro tem a finalidade exclusiva de solução de problemas.  <br/> |
-|Etapas  <br/> |Opcional  <br/> |System. Array  <br/> |Executar as etapas de implantação. Este parâmetro tem a finalidade exclusiva de solução de problemas.  <br/> |
+|Etapas  <br/> |Opcional  <br/> |System.Array  <br/> |Executar as etapas de implantação. Este parâmetro tem a finalidade exclusiva de solução de problemas.  <br/> |
 |Atualizar  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Atualizar o Cloud Connector existente para a versão mais recente.  <br/> |
 |UpdateAllCredentials  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Remova todas as credenciais de nuvem conector no cache. Pedir para o usuário especificar as informações das novas credenciais para a instalação.  <br/> |
    
@@ -122,15 +123,15 @@ Nenhum. O cmdlet Install-CcAppliance não aceita a entrada por pipeline.
 
 Nenhum
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 <a name="ReturnTypes"> </a>
 
-[Publicar-CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
 [Register-CcAppliance](register-ccappliance.md)
   
-[Cancelar o registro de CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
-[Desinstalar-CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
 

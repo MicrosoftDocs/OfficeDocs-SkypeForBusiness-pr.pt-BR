@@ -1,5 +1,6 @@
 ---
 title: Associar Appliance de Escritório com Borda
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 description: Se você tiver servidores de borda implantados e deve fornecer serviços de mídia para uso externo, escolha o servidor de borda ou pool que será associado com o aparelho de filial persistente ou servidor de filial persistente, selecionando-o na lista suspensa. Clique em Avançar para continuar.
-ms.openlocfilehash: 1fc6d734511a8e4bf614694057727c35f209f96c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2e20b11ec58cbccca1acc625a0676675b9833219
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878533"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>Associar Appliance de Escritório com Borda
  

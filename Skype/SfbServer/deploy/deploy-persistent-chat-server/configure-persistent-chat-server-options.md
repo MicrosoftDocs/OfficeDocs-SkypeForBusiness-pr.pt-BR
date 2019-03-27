@@ -1,5 +1,6 @@
 ---
 title: Configurar opções do Servidor de Chat Persistente no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 'Resumo: Saiba como configurar opções de servidor de Chat persistente em escopo global, site ou nível de pool no Skype para Business Server 2015.'
-ms.openlocfilehash: 5d8bf63332ca991117e0fbd3beddc97855617274
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: fd4d9ed10c2629f714d336190e5c85b2dfe1621e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375997"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883753"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Configurar opções do Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -38,7 +39,7 @@ Você pode especificar várias opções para o servidor de Chat persistente que 
 
 Para configurar as opções globais do servidor de Chat persistente:
   
-1. A partir de uma conta de usuário com a função CsPersistentChatAdministrator ou CsAdministrator atribuída, faça o logon em qualquer computador na sua implantação interna.
+1. A partir de uma conta de usuário com a função CsPersistentChatAdministrator ou CsAdministrator atribuída, faça o logon em qualquer computador na sua implementação interna.
     
 2. No menu **Iniciar** , selecione o Skype para painel de controle do Business Server ou abrir uma janela de navegador e insira a URL do administrador.
     
@@ -55,18 +56,18 @@ Para configurar as opções globais do servidor de Chat persistente:
     
    - Em **Nome**, especifique um nome para a nova configuração. Por padrão, o nome do site já existe.
     
-   - Em **Histórico de chat padrão**, defina o número de mensagens de chat que serão processadas para cada sala após a primeira solicitação. Por padrão, o número é 30. Este é o padrão global e os administradores podem desativar o histórico de chat por categoria.
+   - Em **Histórico de chat padrão**, defina o número de mensagens de chat que serão processadas para cada sala após a primeira solicitação. Por padrão, esse número é 30. Esse é o padrão global, e os administradores podem desabilitar o histórico de chat por categoria.
     
      > [!IMPORTANT]
      > Servidor de Chat persistente irá armazenar em cache essas mensagens na memória, portanto, se você aumentar esse número, mais mensagens serão armazenada na cache. Você sempre pode acessar conteúdo histórico pela pesquisa. O número padrão simplesmente determina o número máximo de mensagens que você vê inicialmente ao se conectar a uma sala de bate-papo. 
   
-   - Em **Tamanho máximo do arquivo (KB)**, selecione o tamanho máximo do arquivo de cada histórico de chat. Por padrão, o número é 20 MB (20.000 KB). Este é o tamanho máximo para um arquivo que pode ser carregado em qualquer sala de chat no sistema (para o qual cada carregamento de arquivo está habilitado por sua configuração de **Categoria** correspondente).
+   - Em **Tamanho máximo do arquivo (KB)**, selecione o tamanho máximo de arquivo de cada histórico de chat. Por padrão, o número é 20 MB (20.000 KB). Esse é o tamanho máximo de arquivo que pode ser carregado em qualquer sala de chat no sistema (para a qual os carregamentos de arquivo estão habilitados pela configuração de **Categoria** correspondente).
     
-   - Em **Limite de atualização do participante**, selecione o limite para as atualizações de participantes. Persistent Chat Server envia informações de lista de participação (que estão conectadas a uma sala de bate-papo) para todos os participantes, até que o número de usuários conectados atinge esse número. Por padrão, o número é 75. Esse limite indica o número máximo de participantes em uma determinada sala além da qual servidor de Chat persistente interrompe o envio de atualizações da lista de participação para os clientes conectados sobre quem está presente na sala.
+   - Em **Limite de atualizações do participante**, selecione o limite para atualizações de participantes. Persistent Chat Server envia informações de lista de participação (que estão conectadas a uma sala de bate-papo) para todos os participantes, até que o número de usuários conectados atinge esse número. Por padrão, o número é 75. Esse limite indica o número máximo de participantes em uma determinada sala além da qual servidor de Chat persistente interrompe o envio de atualizações da lista de participação para os clientes conectados sobre quem está presente na sala.
     
-   - (Opcional). Na **URL de gerenciamento de sala**, selecione a URL de gerenciamento de sala. Esta é a URL para o gerenciamento da sala personalizada baseada na Web. Se você não precisa personalizar o gerenciamento de sala e é simplesmente usar a configuração padrão, deixe essa opção em branco. Após a URL ser definida, é aplicada como a URL de gerenciamento da sala interna e externa.
+   - (Opcional). Na **URL de gerenciamento de sala**, selecione a URL de gerenciamento de sala. Essa é a URL para o gerenciamento personalizado de salas baseado na Web. Se você não precisa personalizar o gerenciamento de sala e é simplesmente usar a configuração padrão, deixe essa opção em branco. Uma vez definida a URL, ela será aplicada como a URL interna e externa de gerenciamento de salas.
     
-     Se desejar personalizar a sua experiência de criação de sala e incluir o fluxo de trabalho de negócios específicos, você pode criar uma solução de gerenciamento de sala personalizado usando o Persistent Chat Server Software Development Kit (SDK), hospedá-lo em algum lugar e insira a URL aqui. Esta URL é enviada para o cliente para que quando um usuário tentar exibir ou criar uma sala, ele ou ela seja direcionado para sua solução de gerenciamento de sala personalizada.
+     Se desejar personalizar a sua experiência de criação de sala e incluir o fluxo de trabalho de negócios específicos, você pode criar uma solução de gerenciamento de sala personalizado usando o Persistent Chat Server Software Development Kit (SDK), hospedá-lo em algum lugar e insira a URL aqui. Essa URL será enviada para o cliente de modo que, quando um usuário tentar exibir ou criar uma sala, ele será direcionado para sua solução personalizada de gerenciamento de salas.
     
 7. Clique em **Confirmar**.
     
@@ -74,7 +75,7 @@ Para configurar as opções globais do servidor de Chat persistente:
 
 Para configurar opções de um pool do servidor de Chat persistente específico.
   
-1. A partir de uma conta de usuário com a função CsPersistentChatAdministrator ou CsAdministrator atribuída, faça o logon em qualquer computador na sua implantação interna.
+1. A partir de uma conta de usuário com a função CsPersistentChatAdministrator ou CsAdministrator atribuída, faça o logon em qualquer computador na sua implementação interna.
     
 2. No menu **Iniciar** , selecione o Skype para painel de controle do servidor de negócios, ou abra uma janela de navegador e insira a URL do administrador.
     
@@ -88,18 +89,18 @@ Para configurar opções de um pool do servidor de Chat persistente específico.
     
    - Em **Nome**, especifique um nome para a nova configuração. Por padrão, o nome do pool do site já existe.
     
-   - Em **Histórico de chat padrão**, defina o número de mensagens de chat que serão processadas para cada sala após a primeira solicitação. Por padrão, o número é 30. Este é o padrão global e os administradores podem desativar o histórico de chat por categoria.
+   - Em **Histórico de chat padrão**, defina o número de mensagens de chat que serão processadas para cada sala após a primeira solicitação. Por padrão, esse número é 30. Esse é o padrão global, e os administradores podem desabilitar o histórico de chat por categoria.
     
      > [!IMPORTANT]
      > Servidor de Chat persistente irá armazenar em cache essas mensagens na memória, portanto, se você aumentar esse número, mais mensagens serão armazenada na cache. Você sempre pode acessar conteúdo histórico pela pesquisa. O número padrão simplesmente determina o número máximo de mensagens que você vê inicialmente ao se conectar a uma sala de bate-papo. 
   
-   - Em **Tamanho máximo do arquivo (KB)**, selecione o tamanho máximo do arquivo de cada histórico de chat. Por padrão, o número é 20 MB (20.000 KB). Este é o tamanho máximo para um arquivo que pode ser carregado em qualquer sala de chat no sistema (para o qual cada carregamento de arquivo está habilitado por sua configuração de **Categoria** correspondente).
+   - Em **Tamanho máximo do arquivo (KB)**, selecione o tamanho máximo de arquivo de cada histórico de chat. Por padrão, o número é 20 MB (20.000 KB). Esse é o tamanho máximo de arquivo que pode ser carregado em qualquer sala de chat no sistema (para a qual os carregamentos de arquivo estão habilitados pela configuração de **Categoria** correspondente).
     
-   - Em **Limite de atualização do participante**, selecione o limite para as atualizações de participantes. Persistent Chat Server envia informações de lista de participação (que estão conectadas a uma sala de bate-papo) para todos os participantes, até que o número de usuários conectados atinge esse número. Por padrão, o número é 75. Esse limite indica o número máximo de participantes em uma determinada sala além da qual servidor de Chat persistente interrompe o envio de atualizações da lista de participação para os clientes conectados sobre quem está presente na sala.
+   - Em **Limite de atualizações do participante**, selecione o limite para atualizações de participantes. Persistent Chat Server envia informações de lista de participação (que estão conectadas a uma sala de bate-papo) para todos os participantes, até que o número de usuários conectados atinge esse número. Por padrão, o número é 75. Esse limite indica o número máximo de participantes em uma determinada sala além da qual servidor de Chat persistente interrompe o envio de atualizações da lista de participação para os clientes conectados sobre quem está presente na sala.
     
-   - Em **URL de gerenciamento da sala**, selecione a URL de gerenciamento da sala. Esta é a URL para uma implantação de gerenciamento de sala baseado na Web. Se você não precisa personalizar o gerenciamento de sala e é simplesmente usar a configuração padrão, deixe essa opção em branco.
+   - Em **URL de gerenciamento de salas**, selecione a URL de gerenciamento de salas. Essa é a URL para uma implantação de gerenciamento de salas baseado na Web. Se você não precisa personalizar o gerenciamento de sala e é simplesmente usar a configuração padrão, deixe essa opção em branco.
     
-     Se desejar personalizar a sua experiência de criação de sala e incluir o fluxo de trabalho de negócios específicos, você pode criar uma solução de gerenciamento de sala personalizado usando o Persistent Chat Server Software Development Kit (SDK), hospedá-lo em algum lugar e insira a URL aqui. Esta URL é enviada para o cliente para que quando um usuário tentar exibir/criar uma sala, ele ou ela seja direcionado para sua solução de gerenciamento de sala personalizada.
+     Se desejar personalizar a sua experiência de criação de sala e incluir o fluxo de trabalho de negócios específicos, você pode criar uma solução de gerenciamento de sala personalizado usando o Persistent Chat Server Software Development Kit (SDK), hospedá-lo em algum lugar e insira a URL aqui. Essa URL será enviada para o cliente de modo que, quando um usuário tentar exibir ou criar uma sala, ele será direcionado para sua solução personalizada de gerenciamento de salas.
     
 7. Clique em **Confirmar**.
     

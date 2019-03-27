@@ -1,5 +1,6 @@
 ---
 title: Autenticação de cliente e usuário para Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Um usuário confiável é aquele cujas credenciais foram autenticadas por um servidor confiável no Skype para Business Server. Esse servidor é geralmente um servidor Standard Edition, servidor de Front End Enterprise Edition ou diretor. Skype para Business Server depende do Active Directory Domain Services como o repositório de back-end único e confiável de credenciais de usuário.
-ms.openlocfilehash: a4f8661ba7f56e2bc5704af383dbd80e6a6869ac
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: f8f006ac3f727553f612070ea9bdbf696d81a97e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532321"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883232"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Autenticação de cliente e usuário para Skype para Business Server
  

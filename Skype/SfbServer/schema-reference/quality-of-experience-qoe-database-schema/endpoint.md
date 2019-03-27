@@ -1,5 +1,6 @@
 ---
 title: Tabela Endpoint
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,21 +11,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
 description: A tabela de ponto de extremidade é uma tabela de suporte que armazena informações sobre os pontos de extremidade que tenham participado em sessões gravadas no banco de dados. Cada registro na tabela representa um ponto de extremidade.
-ms.openlocfilehash: 64eb55a0c1bebe7f2ce992351ce21db2fdc575d7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f9c304408006ef9caf5521b8f0bbe28c2d917abe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882994"
 ---
 # <a name="endpoint-table"></a>Tabela Endpoint
  
 A tabela de ponto de extremidade é uma tabela de suporte que armazena informações sobre os pontos de extremidade que tenham participado em sessões gravadas no banco de dados. Cada registro na tabela representa um ponto de extremidade.
   
-|**Coluna**|**Tipo de dados**|**Índice de chaves /**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**EndpointKey** <br/> |int  <br/> |Primária  <br/> |Número exclusivo que identifica este ponto de extremidade.  <br/> |
 |**Nome** <br/> |nvarchar(256)  <br/> |Exclusivo  <br/> |Nome do ponto de extremidade.  <br/> |
-|**SISTEMA OPERACIONAL** <br/> |nvarchar (128)  <br/> | <br/> |Sistema operacional (SO) do ponto de extremidade.  <br/> |
+|**Sistema operacional** <br/> |nvarchar (128)  <br/> | <br/> |Sistema operacional (SO) do ponto de extremidade.  <br/> |
 |**CPUName** <br/> |nvarchar (128)  <br/> ||Nome da CPU do ponto de extremidade.  <br/> |
 |**CPUNumberOfCores** <br/> |smallint  <br/> ||Número de núcleos de CPU do ponto de extremidade.  <br/> |
 |**CPUProcessorSpeed** <br/> |int  <br/> ||Velocidade do processador da CPU do ponto de extremidade.  <br/> |

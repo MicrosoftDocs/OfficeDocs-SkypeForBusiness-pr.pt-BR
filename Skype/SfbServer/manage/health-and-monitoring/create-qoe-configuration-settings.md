@@ -1,5 +1,6 @@
 ---
 title: Criar definições de configuração de qualidade da experiência no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: 'Resumo: Saiba mais sobre configurações de Quality of Experience (QoE) no Skype para Business Server.'
-ms.openlocfilehash: 678f57ba06008244bf9872ee44b26ea0c1e9a0f2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 971d3488d0c6d20586e33424c1fbb2b197b31241
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968192"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883183"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Criar definições de configuração de qualidade da experiência no Skype para Business Server
  
@@ -26,7 +27,7 @@ Quando você instala o Skype para Business Server, uma única coleção global d
   
 Configurações de QoE podem ser criadas usando qualquer um dos Skype para painel de controle do Business Server ou o cmdlet [New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) . Se você estiver usando o Skype para painel de controle do Business Server para criar novas configurações as seguintes opções estarão disponíveis para você:
   
-|**Configuração de UI**|**Parâmetro do PowerShell**|**Descrição**|
+|**Configuração de interface do usuário**|**Parâmetro do PowerShell**|**Descrição**|
 |:-----|:-----|:-----|
 |Nome  <br/> |Identidade  <br/> |Identificador exclusivo das configurações a serem criadas. As configurações de QoE só podem ser criadas no escopo do site.  <br/> |
 |Habilitar monitoramento de dados de QoE  <br/> |EnableQoE  <br/> |Especifica se os registros QoE serão coletados e salvos no banco de dados de monitoramento.  <br/> |
@@ -38,7 +39,7 @@ Configurações de QoE podem ser criadas usando qualquer um dos Skype para paine
   
 ### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para criar definições de configuração de QoE usando Skype para o painel de controle do servidor de negócios
 
-1. Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte **Delegate Setup Permissions**.
+1. Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte **Delegate Setup Permissions**.
     
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
     

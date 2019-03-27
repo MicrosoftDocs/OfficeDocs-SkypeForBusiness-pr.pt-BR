@@ -1,5 +1,6 @@
 ---
 title: Configurar a alta disponibilidade e a recuperação de desastres para o Servidor de Chat Persistente no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 'Resumo: Leia este tópico para saber como configurar alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business Server 2015.'
-ms.openlocfilehash: f0bf1a98bb8967a7310844d9aa85d17d4ef4d167
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5c53652cf5084b5a6c021c38f71f1cccc0322efa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880480"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar a alta disponibilidade e a recuperação de desastres para o Servidor de Chat Persistente no Skype for Business Server 2015
  
 **Resumo:** Leia este tópico para saber como configurar alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business Server 2015.
   
-Skype para Business Server suporta vários modos de alta disponibilidade para seus servidores Back-End, incluindo o espelhamento de banco de dados. Para obter mais informações, consulte o [plano de alta disponibilidade e recuperação de desastres em Skype para Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Skype para Business Server suporta vários modos de alta disponibilidade para seus servidores Back-End, incluindo o espelhamento de banco de dados. Para obter mais informações, veja [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 > [!NOTE]
 > Não há suporte para grupos de disponibilidade do AlwaysOn com servidores de Chat persistente. 

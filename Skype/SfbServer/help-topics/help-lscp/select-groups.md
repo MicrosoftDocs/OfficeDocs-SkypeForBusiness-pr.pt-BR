@@ -1,5 +1,6 @@
 ---
-title: Selecionar grupos
+title: Selecionar Grupos
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: Filas de espera do grupo de resposta chamadas aos grupos de resposta em espera até que um operador responde à chamada. Filas atribuiu a grupos de operadores. Quando você cria ou editar uma fila, use a caixa de diálogo Selecionar grupos para selecionar um ou mais grupos de operadores a ser atribuído à fila.
-ms.openlocfilehash: 36193ae3155da4284f062d9a8906c9d6f5a13db9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fc03bbc95c1604ef13380a52fa214f9fd65f35b4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245842"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878519"
 ---
-# <a name="select-groups"></a>Selecionar grupos
+# <a name="select-groups"></a>Selecionar Grupos
 
 Filas de espera do grupo de resposta chamadas aos grupos de resposta em espera até que um operador responde à chamada. Filas atribuiu a grupos de operadores. Quando você cria ou editar uma fila, use a caixa de diálogo **Selecionar grupos** para selecionar um ou mais grupos de operadores a ser atribuído à fila.
 
@@ -35,6 +36,6 @@ A lista a seguir descreve os campos na caixa de diálogo **Selecionar grupos** e
 
 - **Método de roteamento** Exibe o tipo de roteamento definido para o grupo de operadores.
 
-Para obter detalhes sobre como trabalhar com filas, consulte [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) na documentação operações.
+Para obter detalhes sobre como trabalhar com filas, consulte  [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) na documentação Operações.
 
 

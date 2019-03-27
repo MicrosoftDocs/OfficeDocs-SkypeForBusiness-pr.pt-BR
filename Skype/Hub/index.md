@@ -1,14 +1,11 @@
----
+--- 
 layout: HubPage
 hide_bc: true
 title: Skype for Business
+ms.reviewer: null
+ms.author: kenwith
+author: kenwith
 description: Skype for Business
-ms.openlocfilehash: 47a7383bb6383c1dad338dc022c9f4e471210a86
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069456"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -144,7 +141,7 @@ ms.locfileid: "30069456"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Skype Room Systems versão 2</h3>
-                                                    <p>Saiba como planejar, implantar e gerenciar os Sistemas de Salas Skype v2.</p>
+                                                    <p>Aprenda a planejar, implantar e gerenciar Sistemas de salas do Skype v2.</p>
                                                 </div>
                                             </div>
                                         </div>

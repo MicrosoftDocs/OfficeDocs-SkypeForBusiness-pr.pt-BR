@@ -1,5 +1,6 @@
 ---
-title: Expansor de configurações de repositório SQL
+title: Expansor de Configurações de Repositório SQL
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: Para editar as propriedades de um banco de dados do SQL Server, você deve alterar a instância de banco de dados do SQL Server. Você não pode usar a caixa de diálogo Editar propriedades para executar tarefas como mover o banco de dados do servidor de arquivamento de um computador para outro. Além disso, você não pode usar a caixa de diálogo Editar propriedades para alterar a instância do SQL Server que hospeda o repositório de gerenciamento Central.
-ms.openlocfilehash: 7b2c442208afc0cd5d18b6171a0829ecae3e7ab1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: aab2797ccd0e96c01be33742faf7e00debbd76a8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373987"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880704"
 ---
-# <a name="sql-store-settings-expander"></a>Expansor de configurações de repositório SQL
+# <a name="sql-store-settings-expander"></a>Expansor de Configurações de Repositório SQL
  
 Para editar as propriedades de um banco de dados do SQL Server, você deve alterar a instância de banco de dados do SQL Server. Você não pode usar a caixa de diálogo **Editar propriedades** para executar tarefas como mover o banco de dados do servidor de arquivamento de um computador para outro. Além disso, você não pode usar a caixa de diálogo **Editar propriedades** para alterar a instância do SQL Server que hospeda o repositório de gerenciamento Central.
   

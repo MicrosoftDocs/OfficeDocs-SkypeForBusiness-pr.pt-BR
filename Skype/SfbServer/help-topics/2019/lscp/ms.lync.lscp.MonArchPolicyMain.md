@@ -1,5 +1,6 @@
 ---
 title: Política de Arquivamento
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Use as políticas de arquivamento para habilitar e desabilitar arquivamento para usuários hospedados no Skype para Business Server. Em cada política de Arquivamento, é possível habilitar ou desabilitar o arquivamento para uma das seguintes opções, ou para ambas:'
-ms.openlocfilehash: d673aa5474864d99895efc1e16e1e307f078c72f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4af5b5d8eb0f59d6899a73b7de6516d665fe041e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973818"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884793"
 ---
 # <a name="archiving-policy"></a>Política de Arquivamento
  

@@ -1,5 +1,6 @@
 ---
-title: Vídeo com base em compartilhamento de tela para Skype para Business Server
+title: Compartilhamento de tela baseado em vídeo do Skype for Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/20/2018
@@ -9,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype para obter informações de planejamento e configuração de Business Server para vídeo com base no compartilhamento de tela (VbSS)
-ms.openlocfilehash: 84547168eb883522005480fb07ff2bfb9abd54f6
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: d899e07fc478e33c4480cd235b3eb0cafd95ecba
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993430"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878911"
 ---
-# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Vídeo com base em compartilhamento de tela para Skype para Business Server 
+# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Compartilhamento de tela baseado em vídeo do Skype for Business Server 
  
 Com base em vídeo de tela compartilhamento (VbSS) do Skype para Business Server 2015 agora está disponível para download: [Skype para KB3061064 de atualização cumulativa do Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=47690). VbSS está incluído no Skype para Business Server 2019.
   
@@ -189,7 +190,7 @@ A grande vantagem é, depois que você instalou o Skype para Business Server 201
 > [!NOTE]
 > Em um Skype com vários participante para a reunião de negócios, todos os pontos de extremidade do cliente respeitam a configuração de diretiva para o organizador da reunião. 
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Skype para Business Server 2015 atualização cumulativa KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690)
   

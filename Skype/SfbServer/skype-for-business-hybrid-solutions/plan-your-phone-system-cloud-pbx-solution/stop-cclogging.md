@@ -1,5 +1,6 @@
 ---
 title: Stop-CcLogging
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fee9eda7-ad15-40d2-b9fe-21c5462d3309
 description: O cmdlet Stop-CcLogging para de gerar logs de chamadas de entrada e de saída para o dispositivo do Skype for Business Cloud Connector Edition.
-ms.openlocfilehash: abecc5acc6a454b2965fbf79caadb23f2256e4cd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: eaccde49421cd22e32b23b89d8b5ea42dd073912
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879620"
 ---
 # <a name="stop-cclogging"></a>Stop-CcLogging
  
@@ -65,11 +67,11 @@ Nenhum. O cmdlet Stop-CcLogging não aceita a entrada por pipeline.
 
 Nenhum
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 <a name="ReturnTypes"> </a>
 
-[CcLog de pesquisa](search-cclog.md)
+[Search-CcLog](search-cclog.md)
   
-[Iniciar-CcLogging](start-cclogging.md)
+[Start-CcLogging](start-cclogging.md)
   
 

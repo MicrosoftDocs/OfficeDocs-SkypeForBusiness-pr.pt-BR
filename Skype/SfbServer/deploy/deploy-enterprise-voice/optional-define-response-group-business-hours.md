@@ -1,5 +1,6 @@
 ---
 title: (Opcional) Grupo de resposta definir expediente no Skype para negócios
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: Criar ou modificar o grupo de resposta em horário comercial, em Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: a5f24d218ab15cb1307f042363147c9e915a351e
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: ba10f513495d21c7f94397350c1227cb77fe588b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546803"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884674"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Opcional) Grupo de resposta definir expediente no Skype para negócios 
  
@@ -23,7 +24,7 @@ Criar ou modificar o grupo de resposta em horário comercial, em Skype para Busi
   
 ## <a name="defining-business-hours"></a>Definir o horário comercial
 
-As configurações de horário comercial definem quando o fluxo de trabalho está disponível para atender a chamadas e especificar as ações a serem executadas para chamadas fora do horário comercial. Administradores de grupo de resposta podem usar o cmdlet **New-CsRgsHoursOfBusiness** para criar agendamentos predefinidos que você pode usar qualquer número de grupos de resposta.
+As configurações de horário comercial definem quando o fluxo de trabalho está disponível para atender a chamadas e especificar as ações a serem executadas para chamadas fora do horário comercial. Os administradores do Grupo de Resposta podem usar o cmdlet  **New-CsRgsHoursOfBusiness** para criar programações predefinidas que você pode usar para vários grupos de resposta.
   
 > [!TIP]
 > Ao criar ou modificar um fluxo de trabalho, é possível especificar uma programação personalizada aplicada apenas a este fluxo de trabalho. Para obter detalhes, consulte [Projetando e criando fluxos de trabalho de grupo no Skype para negócios de resposta](designing-and-creating-response-group-workflows.md). 
@@ -61,7 +62,7 @@ As configurações de horário comercial definem quando o fluxo de trabalho est�
    New-CsRgsHoursOfBusiness -Parent "ApplicationServer:Redmond.contoso.com" -Name "Help Desk Business Hours" -MondayHours1 $a -TuesdayHours1 $a -WednesdayHours1 $a -ThursdayHours1 $a -FridayHours1 $a -SaturdayHours1 $b -SaturdayHours2 $c
    ```
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [New-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   

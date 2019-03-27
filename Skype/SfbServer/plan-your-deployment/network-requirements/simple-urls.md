@@ -1,5 +1,6 @@
 ---
 title: Requisitos de DNS para URLs simples no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Resumo: Revise as considerações de URL simples neste tópico antes de implementar os registros DNS para Skype para Business Server.'
-ms.openlocfilehash: 89100dc91b9b4a69a295bcbf5992b205fafb15ca
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1fffb1303381797a800a235d3965fe387e4d8eb2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373426"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878547"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Requisitos de DNS para URLs simples no Skype para Business Server
 
@@ -22,7 +23,7 @@ ms.locfileid: "25373426"
 
 URLs simples facilitam o ingresso de reuniões para seus usuários e conhecendo o Skype para ferramentas administrativas do Business Server mais fácil para os administradores. URLs simples usam seu próprio domínio, que não deverá corresponder a qualquer um dos domínios SIP que você define. 
 
-Skype para Business Server suporta as seguintes três URLs simples: atenda, Dial-In e administrador. É necessário para configurar URLs simples de reunião e discagem e a URL simples de Admin é opcional. Os registros de DNS necessários para dar suporte às URLs simples dependem de como elas foram definidas e se você deseja dar suporte à recuperação de desastre para URLs simples. 
+Skype para Business Server suporta as seguintes três URLs simples: atenda, Dial-In e administrador. É necessário para configurar URLs simples de reunião e discagem e a URL simples de Admin é opcional. Os registros de sistema de nome de domínio (DNS) que você precisa oferecer suporte a URLs simples dependem de como você definiu essas URLs simples e se você deseja oferecer suporte a recuperação de desastres para URLs simples. 
 
 ## <a name="simple-url-scope"></a>Escopo de URL Simple
 
@@ -66,9 +67,9 @@ Se você usar essa opção, você precisa de um registro DNS A separado para cad
 
 | **URL simples** <br/> | **Exemplo** <br/>                                                                                                    |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
-| Reunião  <br/>          | https://meet.contoso.com, https://meet.fabrikam.com, e assim por diante (um para cada domínio SIP em sua organização)  <br/> |
+| Reunir  <br/>          | https://meet.contoso.com, https://meet.fabrikam.com, e assim por diante (um para cada domínio SIP em sua organização)  <br/> |
 | Discagem  <br/>       | <https://dialin.contoso.com>  <br/>                                                                                  |
-| Administrador  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
+| Admin  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
 
 Com a opção 2, as URLs simples são baseados no nome de domínio SfB2015.contoso.com. Portanto, você precisa apenas um registro DNS A que permite que todos os três tipos de URLs simples. Esse registro DNS A referencia SfB2015.contoso.com. Além disso, você ainda precisa registros de DNS A separados para outros domínios SIP em sua organização. 
 
@@ -77,9 +78,9 @@ Com a opção 2, as URLs simples são baseados no nome de domínio SfB2015.conto
 
 | **URL simples** <br/> | **Exemplo** <br/>                                                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| Reunião  <br/>          | https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet, e assim por diante (um para cada domínio SIP em sua organização)  <br/> |
+| Reunir  <br/>          | https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet, e assim por diante (um para cada domínio SIP em sua organização)  <br/> |
 | Discagem  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                                          |
-| Administrador  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
+| Admin  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
 
 Opção 3 é mais útil se você tiver vários domínios SIP, e você deseja que eles possuem atender a URLs simples separada, mas deseja minimizar os requisitos de certificado e de registro DNS para essas URLs simples. 
 
@@ -88,16 +89,16 @@ Opção 3 é mais útil se você tiver vários domínios SIP, e você deseja que
 
 | **URL simples** <br/> | **Exemplo** <br/>                                                                                                      |
 |:---------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| Reunião  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
+| Reunir  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
 | Discagem  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                            |
-| Administrador  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
+| Admin  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
 
 ## <a name="disaster-recovery-option-for-simple-urls"></a>Opção de recuperação de desastres para URLs simples
 <a name="BK_Valid"> </a>
 
-Se você tiver vários sites que contêm os pools de Front-End e seu provedor de DNS suporta GeoDNS, você pode configurar seus registros DNS para URLs simples dar suporte a recuperação de desastres, para que a funcionalidade de URL simples continuará, mesmo se um pool de Front-End inteiro cair. Esse recurso de recuperação de desastres dá suporte às URLs simples de reunião e discagem.
+Se você tiver vários sites que contêm os pools de Front-End e seu provedor de DNS suporta GeoDNS, você pode configurar seus registros DNS para URLs simples dar suporte a recuperação de desastres, para que a funcionalidade de URL simples continuará, mesmo se um pool de Front-End inteiro cair. Oferece suporte a esse recurso de recuperação de desastres, a reunião e discagem URLs simples.
 
-Para fazer essa configuração, crie dois endereços de GeoDNS. Cada endereço contém dois registros A de DNS ou CNAME que resolvem em dois pools que são emparelhados para fins de recuperação de desastres. Um endereço de GeoDNS é usado para acesso interno e resolve no FQDN interno da Web ou endereço IP do balanceador de carga dos dois pools. O outro endereço GeoDNS é usado para acesso externo e resolve no FQDN externo da Web ou endereço IP do balanceador de carga dos dois pools. Veja a seguir um exemplo da URL simples de reunião, usando os FQDNs dos pools: 
+Para configurar isso, crie dois endereços de GeoDNS. Cada endereço tem dois registros DNS A ou CNAME que resolvem dois pools que são combinados juntos para fins de recuperação de desastres. Um endereço de GeoDNS é usado para acesso interno e resolve para o web internos FQDN ou carga balanceador endereço IP para os dois pools. O outro endereço GeoDNS é usado para acesso externo e resolve para o web externos FQDN ou carga balanceador endereço IP para os dois pools. O exemplo a seguir é um exemplo para a URL simples Meet, usando os FQDNs para os pools. 
 
 ```
 Meet-int.geolb.contoso.com
@@ -111,22 +112,22 @@ Meet-ext.geolb.contoso.com
      Pool2ExternalWebFQDN.contoso.com
 ```
 
-Em seguida, crie registros CNAME que resolvam sua URL simples de reunião (como meet.contoso.com) nos dois endereços de GeoDNS.
+Em seguida, crie registros CNAME que decomponham sua URL simples Meet (como meet.contoso.com) para os dois endereços de GeoDNS.
 
 > [!NOTE]
-> Se sua rede usar grampeamento (encaminhamento de todo o tráfego das URLs simples pelos links externos, inclusive o tráfego que vem de dentro da sua organização), será possível simplesmente configurar os endereços externos de GeoDNS e resolver a URL simples de reunião apenas nesses endereços externos.
+> Se a sua rede usa hairpinning (roteamento todo seu URL simples o tráfego através do link externo, incluindo o tráfego que vem de dentro da sua organização), em seguida, basta configurar o endereço de GeoDNS externo e resolver sua URL simples Meet apenas que endereço externo.
 
-Quando esse método é usado, é possível configurar cada endereço de GeoDNS para usar um método de round robin e distribuir solicitações nos dois pools ou para conectar-se principalmente com um pool (como o pool geograficamente mais próximo) e usar o outro pool apenas em caso de falhas de conectividade. 
+Quando você usa esse método, você pode configurar cada endereço de GeoDNS para usar um método de rodízio para distribuir as solicitações para os dois pools, ou para conectar-se principalmente para um pool (por exemplo, o pool localizado geograficamente mais próximos) e usar o outro pool apenas no caso de Falha de conectividade. 
 
-Você pode definir a mesma configuração para a URL simples de discagem. Para fazer isso, crie registros adicionais, como aqueles no exemplo anterior, substituindo `dialin` para `meet` nos registros DNS. Para a URL simples de administrador, use uma das três opções listadas anteriormente nesta seção.
+Você pode configurar a mesma configuração para a URL simples Dial-In. Para fazer isso, crie registros adicionais, como aqueles no exemplo anterior, substituindo `dialin` para `meet` nos registros DNS. Para a URL simples Admin, use uma das três opções listadas anteriormente nesta seção.
 
-Depois que essa configuração é definida, é preciso usar um aplicativo de monitoramento para definir o monitoramento de HTTP e rastrear falhas. Para acesso externo, monitor para certificar-se de que lyncdiscover obter HTTPS.<sipdomain> solicitações para a endereço IP balanceador FQDN ou carga para os dois pools da web externos são bem-sucedidas. Por exemplo, as solicitações a seguir não deve conter qualquer cabeçalho **ACCEPT** e deve retornar **200 Okey**.
+Depois que essa configuração estiver configurada, você deve usar um aplicativo de monitoramento para configurar o monitoramento de HTTP de detecção de falhas. Para acesso externo, monitor para certificar-se de que lyncdiscover obter HTTPS.<sipdomain> solicitações para a endereço IP balanceador FQDN ou carga para os dois pools da web externos são bem-sucedidas. Por exemplo, as solicitações a seguir não deve conter qualquer cabeçalho **ACCEPT** e deve retornar **200 Okey**.
 
 ```
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```
 
-Para acesso interno, é preciso monitorar a porta 5061 no FQDN interno da Web ou no endereço IP do balanceador de carga dos dois pools. Se alguma falha de conectividade for detectada, os VIPs desses pools deverão fechar as portas 80, 443 e 4443.
+Para acesso interno, você deve monitorar a porta 5061 na web FQDN interna ou endereço IP do balanceador para os dois pools de carga. Se forem detectadas quaisquer falhas de conectividade, o VIP para estes pools deve fechar as portas 80, 443 e 4443.
 
 

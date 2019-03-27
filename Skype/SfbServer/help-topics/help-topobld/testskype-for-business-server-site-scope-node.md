@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Site do Servidor Lync
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 description: 'Este nó mostra um dos sites definidos na sua topologia. É possível realizar as seguintes ações:'
-ms.openlocfilehash: ad3bb8f7c8fc723d60598b6f81f8ad2282ffea00
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 74b031df3e88222c7f23e1c3a8b43a67ba6dc669
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878963"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>Nó de Escopo de Site do Servidor Lync
  

@@ -1,5 +1,6 @@
 ---
 title: Planejamento para IPv6 no Skype for Business
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Resumo: Implemente IPv6 antes de instalar o Skype para Business Server.'
-ms.openlocfilehash: b500a0b3f4b99b97b1fc3a89eda7c5736953d854
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c2ac3470646c78e0a7312fb9390a712321793915
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888343"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884744"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planejamento para IPv6 no Skype for Business
  
@@ -26,7 +27,7 @@ ms.locfileid: "23888343"
   
 Skype para Business Server inclui o suporte para IP versão 6 (IPv6) endereços, juntamente com o suporte contínuo de IP versão 4 (IPv4) endereços. 
 
-Os endereços IPv4 são endereços 32 bits que permitem a um computador se comunicar pela Internet. Devido ao número crescente de dispositivos em todo o mundo, os endereços IPv4 disponíveis executaram check-out. Dessa forma, muitos novos dispositivos estejam mudando para usar endereços IPv6. Os endereços IPv6 executam a mesma função que os endereços IPv4 (com alguns recursos adicionais), mas em vez de usar somente 32 bits, os endereços IPv6 usam 128 bits. Isso fornece não apenas um novo conjunto de endereços, mas também um número muito maior deles. 
+Os endereços IPv4 são endereços 32 bits que permitem a um computador se comunicar pela Internet. Devido ao número crescente de dispositivos em todo o mundo, os endereços IPv4 disponíveis executaram check-out. Dessa forma, muitos novos dispositivos estejam mudando para usar endereços IPv6. Os endereços IPv6 executam a mesma função que os endereços IPv4 (com alguns recursos adicionais), mas em vez de usar somente 32-bits, os endereços IPv6 usam 128 bits. Isso fornece não apenas um novo conjunto de endereços, mas também um número muito maior deles. 
 
 Um endereço IPv4 típico parece com o seguinte: 192.0.2.235, enquanto um endereço IPv6 parece com o seguinte: 2001:0db8:85a3:0000:0000:8a2e:0370:7334. A alteração na formatação e funcionalidade para dispositivos que usam os endereços IPv6 requer várias considerações de implantação e configuração no seu Skype para instalação do servidor de negócios. 
 
@@ -132,8 +133,8 @@ A tabela a seguir mostra a matriz de suporte entre o pool do servidor Front-End 
 
 ||**Pool de borda: IPv4** <br/> |**Pool de borda: Pilha dual** <br/> |**Pool de borda: IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
-|**Pool de Front-Ends: IPv4** <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|**Pool de Front-Ends: Pilha dual** <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|**Pool de Front-Ends: IPv4** <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
+|**Pool de Front-Ends: Pilha dual** <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
 |**Pool de Front-Ends: IPv6** <br/> |Não  <br/> |Não  <br/> |Sim\*  <br/> |
    
 \*Use essa combinação somente em um ambiente de laboratório.
@@ -200,10 +201,10 @@ Os cenários a seguir são suportados durante a migração e coexistência:
     
 - Skype para pool de servidores de negócios no modo apenas IPv6, se o pool apenas IPv6 estiver em silo.
     
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Consulte Também
 <a name="migration"> </a>
 
-[Configurar tipos de endereço IP no Skype for Business](ip-address-types.md)
+[Configure IP address types in Skype for Business](ip-address-types.md)
 
 [Arquitetura de endereçamento do IP versão 6](https://tools.ietf.org/html/rfc4291)
   

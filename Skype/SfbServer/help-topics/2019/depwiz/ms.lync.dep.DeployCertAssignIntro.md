@@ -1,5 +1,6 @@
 ---
 title: Atribuição de Certificado (Introdução)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 26d6b07e-d2c7-4ff7-aca4-4bbb29f13f8d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para começar a atribuir um certificado para uso em Skype para Business Server, clique em Avançar.
-ms.openlocfilehash: 4e5b3df124a1a826a564023a8faf8bed762fc757
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 804bcf6f91c42c48f5a7ad68d91c2c3c2312b06c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996605"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884425"
 ---
 # <a name="certificate-assignment-intro"></a>Atribuição de Certificado (Introdução)
  

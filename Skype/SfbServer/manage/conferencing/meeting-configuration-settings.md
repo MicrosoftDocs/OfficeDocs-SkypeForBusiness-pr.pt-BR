@@ -1,5 +1,6 @@
 ---
 title: Gerenciar configurações de reunião no Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: 'Resumo: Aprenda a gerenciar configurações de reunião no Skype para Business Server.'
-ms.openlocfilehash: 28f0dc37579f762b8ae3b0ac8ac58440c6ce5e24
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 90d1004101f1dd3b4737c7bfa4414438a65c54a6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966063"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883218"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Gerenciar configurações de reunião no Skype para Business Server
  
@@ -58,7 +59,7 @@ Para gerenciar reuniões usando Skype do Shell de gerenciamento do servidor de n
 |:-----|:-----|
 |[Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |Retorna informações sobre as definições de configuração de reunião em uso na organização.  <br/> |
 |[New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |Cria uma nova coleção de configurações de reunião em escopo do site ou serviço.  <br/> |
-|[Remove-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |Exclui um conjunto existente de configurações de reunião.  <br/> |
+|[Remove-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |Exclui um conjunto existente das configurações de reunião.  <br/> |
 |[Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |Modifica as definições de configuração de reunião em uso na organização.  <br/> |
    
 

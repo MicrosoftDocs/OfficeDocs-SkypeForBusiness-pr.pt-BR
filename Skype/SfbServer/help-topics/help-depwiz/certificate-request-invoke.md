@@ -1,5 +1,6 @@
 ---
-title: Solicitação de certificado (invocar)
+title: Solicitação de Certificado (Invocar)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c60afd78-147a-42ce-8673-314acbfd6cc7
 description: Página executando comandos exibe um painel de status de tarefas como os comandos executados para a geração de solicitação de certificado. Depois que as tarefas são concluídas, a lista suspensa abaixo do painel Resumo contém uma lista de arquivos de log. Use a lista suspensa para selecionar um arquivo de log para exibir e, em seguida, clique em Exibir Log. Internet Explorer será inicie e exiba o arquivo de log. No caso de uma solicitação com falha, você deve revisar os arquivos de log para determinar o motivo da falha. Você pode executar novamente a solicitação de certificado para resolver o problema, corrigir o problema indicado no arquivo de log. Continue, no entanto, as páginas de solicitação de certificado e solicitar o certificado novamente.
-ms.openlocfilehash: 544b54241e55369ff5b98a0c979fc55515001357
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3b87f63c8d12deb753dc8225861d4fc38bacf3a9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968994"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880232"
 ---
-# <a name="certificate-request-invoke"></a>Solicitação de certificado (invocar)
+# <a name="certificate-request-invoke"></a>Solicitação de Certificado (Invocar)
  
 Página **Executando comandos** exibe um painel de status de tarefas como os comandos executados para a geração de solicitação de certificado. Depois que as tarefas são concluídas, a lista suspensa abaixo do painel Resumo contém uma lista de arquivos de log. Use a lista suspensa para selecionar um arquivo de log para exibir e, em seguida, clique em **Exibir Log**. Internet Explorer será inicie e exiba o arquivo de log. No caso de uma solicitação com falha, você deve revisar os arquivos de log para determinar o motivo da falha. Você pode executar novamente a solicitação de certificado para resolver o problema, corrigir o problema indicado no arquivo de log. Continue, no entanto, as páginas de solicitação de certificado e solicitar o certificado novamente.
   

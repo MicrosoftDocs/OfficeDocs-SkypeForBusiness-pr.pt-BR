@@ -1,5 +1,6 @@
 ---
-title: Registro de detalhes da chamada
+title: Registro de Detalhes de Chamada
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: f50306758210e95ec3bfebe3e5d4682b4f7aaae9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: bf84b22bc92da97b96737545eed1429a8c02d8cd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982430"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883855"
 ---
-# <a name="call-detail-recording"></a>Registro de detalhes da chamada
+# <a name="call-detail-recording"></a>Registro de Detalhes de Chamada
  
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
   

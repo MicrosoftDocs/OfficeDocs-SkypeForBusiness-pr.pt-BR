@@ -1,5 +1,6 @@
 ---
-title: Expansor de configurações de registrador para o Lync Server para 2010
+title: Expansor de Configurações de Registrador para o Lync Server for 2010
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: 'Você pode edita as configurações de resiliência e configure as seguintes propriedades:'
-ms.openlocfilehash: 5d6fffdadeb96ed72caf9478cbcaefe754d8e24c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 03c85341d8267e199cebbe8b3e3764e32ccc7f5d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374052"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884765"
 ---
-# <a name="registrar-settings-expander-for-lync-server-for-2010"></a>Expansor de configurações de registrador para o Lync Server para 2010
+# <a name="registrar-settings-expander-for-lync-server-for-2010"></a>Expansor de Configurações de Registrador para o Lync Server for 2010
  
 Você pode edita as configurações de **resiliência** e configure as seguintes propriedades:
   

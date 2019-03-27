@@ -1,5 +1,6 @@
 ---
-title: Mova os usuários restantes
+title: Mover usuários restantes
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Você pode mover usuários para o novo Skype para implantação Business Server 2019 usando qualquer um dos Skype para painel de controle do Business Server ou Skype do Shell de gerenciamento do servidor de negócios. Alguns requisitos para garantir uma transição suave para o Skype para Business Server 2019 devem ser atendidos. Para obter detalhes sobre os pré-requisitos para concluir os procedimentos neste tópico, consulte Configure clientes para migração. Para obter etapas detalhadas sobre como mover usuários, consulte a fase 4: mover usuários de teste para o pool piloto.'
-ms.openlocfilehash: 7bc5d942ddcf30cad84ceb5badf8817de2b254a0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9f984b7fac919decce521c6dafc587a4ac86de50
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030494"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878320"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>Mover usuários restantes para Skype para Business Server 2019
 

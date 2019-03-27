@@ -1,5 +1,6 @@
 ---
 title: Políticas de restrição de chamadas de saída para audioconferência e chamadas PSTN do usuário
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Os administradores podem controlar o tipo de usuário final e conferência PSTN chamadas de áudio que podem ser feitas pelos usuários.
-ms.openlocfilehash: 97df093168e896eabbc210545d516f386e1a6d25
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 36f116acb62cd16863cb547a11fe5687457a8a4e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753468"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881835"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restrição de chamadas de saída para audioconferência e chamadas PSTN do usuário
 
-Como administrador, você pode usar controles de chamada de saída para restringir o tipo de usuário final e conferência PSTN chamadas de áudio que podem ser feitas pelos usuários em sua organização. 
+Como administrador, você pode usar os controles de chamadas de saída para restringir o tipo de audioconferência e as chamadas PSTN de usuários finais que podem ser feitas pelos usuários em sua organização. 
 
 Controles de chamada de saída podem ser aplicados em uma base por usuário e fornecem os seguintes dois controles para restringir independentemente de cada tipo de chamadas de saída. Por padrão, ambos os controles são definidos para permitir que as chamadas de saída nacionais e internacionais. 
 

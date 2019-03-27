@@ -1,5 +1,6 @@
 ---
 title: Modo de exibição de sessão
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: O modo de exibição de sessão armazena informações sobre sessões que têm registros no banco de dados. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
-ms.openlocfilehash: 056067b0c0e06b3ce9eb862898345fe4c8ff131c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c72773b4ff87786ab5b4e73b67e89032dc393fa1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880218"
 ---
 # <a name="session-view"></a>Modo de exibição de sessão
  
@@ -28,7 +30,7 @@ O modo de exibição de sessão armazena informações sobre sessões que têm r
 |DialogCategory  <br/> |bit  <br/> |Categoria do diálogo; 0 é Skype para Business Server para a perna do servidor de mediação; 1 é o servidor de mediação para o trecho de gateway PSTN.  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |Indica se ou não a chamada foi ignorada.  <br/> |
 |MediaBypassWarningFlag  <br/> |int  <br/> |Este campo, se presente, indica por que uma chamada não foi ignorada, mesmo se o desvio de correspondem de IDs. Skype para Business Server, somente um valor é definido:  <br/> 0x0001 - ID de desvio desconhecida adaptador de rede padrão  <br/> |
-|StartTime  <br/> |datetime  <br/> |Hora de início da chamada.  <br/> |
+|StartTime   <br/> |datetime  <br/> |Hora de início da chamada.  <br/> |
 |EndTime  <br/> |datetime  <br/> |Hora de término da chamada.  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |FQDN do pool do chamador.  <br/> |
 |CalleePool  <br/> |nvarchar(256)  <br/> |FQDN do pool do receptor.  <br/> |

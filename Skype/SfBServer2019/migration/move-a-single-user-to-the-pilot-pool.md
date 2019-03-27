@@ -1,5 +1,6 @@
 ---
 title: Mover um usuário único ao pool piloto
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Você pode mover um usuário de seu pool herdado para seu Skype para pool de piloto Business Server 2019 usando Skype para painel de controle do Business Server 2019 ou Skype para Business Server 2019 Management Shell. No exemplo abaixo, na coluna pool registrador, pool01. contoso.NET é o pool herdado e seis desses usuários conectados a esse pool. Use os procedimentos a seguir para mover um usuário para sua Skype para pool de negócios Server 2019 usando Skype para painel de controle do Business Server 2019 e Skype do Shell de gerenciamento do servidor de negócios.
-ms.openlocfilehash: 6742c5fc00c9d53030ac32ee698686bb8b11fa07
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 94896ce2ea05a3102d5a7643e3f26430e74bfe19
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372742"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880246"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>Mover um usuário único ao pool piloto
 
@@ -27,7 +28,7 @@ Você pode mover um usuário de seu pool herdado para seu Skype para pool de pil
     
 3. Clique em **usuários**, clique em **Pesquisar**e clique em **Localizar**.
     
-4. Selecione um usuário que você deseja mover para o Skype para Business Server 2019 pool. Neste exemplo, podemos moverá Sara Davis do usuário.
+4. Selecione um usuário que você deseja mover para o Skype para Business Server 2019 pool. Neste exemplo, moveremos a usuária Sara Davis.
     
 5. No menu **Ação**, selecione **Mover usuários selecionados para o pool**.
     

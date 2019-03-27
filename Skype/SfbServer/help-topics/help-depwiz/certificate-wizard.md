@@ -1,5 +1,6 @@
 ---
 title: Assistente de Certificado
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
-description: Para solicitar, atribuir, remover ou exibir certificados, você deve usar o Assistente de certificado. É necessário estar conectado como membro do grupo RTCUniversalServerAdmins. Para solicitar um certificado de uma autoridade de certificação (AC) pública, não são necessárias quaisquer associações de grupo adicionais. Para solicitar um certificado de infraestrutura de chave pública (PKI) de sua organização, será necessário confirmar o que adicionais — se houver — você precisará de associações de grupo. Durante a tarefa de solicitação, você pode inserir credenciais alternativas que serão usadas para solicitar que o certificado em sua PKI emissão da autoridade de certificação.
-ms.openlocfilehash: d700a6cae510bbc12ed2e37c9c3df166d2704269
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Para Solicitar, Atribuir, Remover ou Exibir certificados, use o Assistente de Certificado. É necessário estar conectado como membro do grupo RTCUniversalServerAdmins. Para solicitar um certificado de uma autoridade de certificação (AC) pública, não são necessárias quaisquer associações de grupo adicionais. Para solicitar um certificado de infraestrutura de chave pública (PKI) de sua organização, será necessário confirmar o que adicionais — se houver — você precisará de associações de grupo. Durante a tarefa de solicitação, você pode inserir credenciais alternativas que serão usadas para solicitar que o certificado em sua PKI emissão da autoridade de certificação.
+ms.openlocfilehash: 7d20fe489928a430c972c7e48e0938ff1eb1622d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880239"
 ---
 # <a name="certificate-wizard"></a>Assistente de Certificado
  

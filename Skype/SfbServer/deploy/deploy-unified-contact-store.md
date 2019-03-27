@@ -1,5 +1,6 @@
 ---
 title: 'Implantar o armazenamento unificado de contatos no Skype para Business Server '
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 'Resumo: Habilite o repositório unificado de contatos no Skype para Business Server.'
-ms.openlocfilehash: 36515e9542a18d422254292b0cf2a2b4ef937178
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5e7fb34d03459be5066d154e89fa8e27dc060757
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978218"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882562"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Implantar o armazenamento unificado de contatos no Skype para Business Server
  
@@ -33,7 +34,7 @@ Depois que contatos um usuário foram migrados, que ocorre automaticamente quand
   
 ## <a name="enable-users-for-unified-contact-store"></a>Habilitar usuários para repositório unificado de contatos
 
-Quando você implantar Skype para Business Server e publica a topologia, o armazenamento unificado de contatos está habilitado para todos os usuários por padrão. Você não precisará executar qualquer ação adicional para permitir o armazenamento de contato unificado após a implantação do Skype para Business Server. No entanto, você pode usar o cmdlet **Set-CsUserServicesPolicy** para personalizar quais usuários têm unificada disponíveis do repositório de contato. Você pode habilitar esse recurso globalmente, por local, por locatário ou por indivíduos ou grupos de indivíduos.
+Quando você implantar Skype para Business Server e publica a topologia, o armazenamento unificado de contatos está habilitado para todos os usuários por padrão. Você não precisará executar qualquer ação adicional para permitir o armazenamento de contato unificado após a implantação do Skype para Business Server. Contudo, você pode usar o cmdlet **Set-CsUserServicesPolicy** para definir quais usuários têm o repositório unificado de contatos disponível. Você pode habilitar esse recurso globalmente, por local, por locatário ou por indivíduos ou grupos de indivíduos.
   
 ### <a name="to-enable-users-for-unified-contact-store"></a>Para permitir o repositório unificado de contatos
 
@@ -107,21 +108,21 @@ Se o usuário fizer logon com um cliente anterior ou o Lync, ou se o usuário n�
   
 - Verifique a chave do registro no computador cliente:
     
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\\< URL SIP\>\UCS
+    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\\<SIP URL\>\UCS
     
     Se os contatos do usuário são armazenados no Exchange 2013, essa chave contém um valor do InUCSMode de 2165.
     
-- Execute o cmdlet **Test-CsUnifiedContactStore** . No Skype para a linha de comando do Shell de gerenciamento do servidor de negócios, digite:
+- Execute o cmdlet **Test-CsUnifiedContactStore**. No Skype para a linha de comando do Shell de gerenciamento do servidor de negócios, digite:
     
   ```
   Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
   ```
 
-    Se **Test-CsUnifiedContactStore** tiver êxito, os contatos do usuário foram migrados para o armazenamento unificado de contatos.
+    Se o **Test-CsUnifiedContactStore** tiver êxito, os contatos do usuário foram migrados para o repositório de contatos unificados.
     
 ## <a name="roll-back-migrated-users"></a>Reversão de Usuários Migrados
 
-Se você precisar reverter o contato unificado armazenar recurso, reverter os contatos somente se você mover o usuário de volta para o Exchange 2010 ou o Lync Server 2010. Para reverter, desabilite a política para o usuário e, em seguida, execute o cmdlet **Invoke-CsUcsRollback** . Simplesmente executar **Invoke-CsUcsRollback** sozinho não é suficiente para garantir a reversão permanente, porque a migração do repositório unificado de contatos será iniciada novamente se a diretiva não está desabilitada. Por exemplo, se um usuário é revertido porque Exchange 2013 será revertida para o Exchange 2010 e, em seguida, a caixa de correio do usuário é movida para o Exchange 2013, a migração do repositório unificado de contatos será iniciada novamente sete dias após a reversão, desde que o repositório de contato unificado ainda está habilitado para o usuário na política de serviços de usuário.
+Se você precisar reverter o contato unificado armazenar recurso, reverter os contatos somente se você mover o usuário de volta para o Exchange 2010 ou o Lync Server 2010. Para reverter, desabilite a política do usuário e execute o cmdlet **Invoke-CsUcsRollback**. Apenas executar o **Invoke-CsUcsRollback** não é suficiente para garantir uma reversão permanente, porque a migração do repositório de contato unificado será iniciada novamente se a política não estiver desabilitada. Por exemplo, se um usuário é revertido porque Exchange 2013 será revertida para o Exchange 2010 e, em seguida, a caixa de correio do usuário é movida para o Exchange 2013, a migração do repositório unificado de contatos será iniciada novamente sete dias após a reversão, desde que o repositório de contato unificado ainda está habilitado para o usuário na política de serviços de usuário.
   
 O cmdlet **Move-CsUser** automaticamente reverte o repositório de contatos do usuário do Exchange 2013 para Skype para Business Server nas seguintes situações:
   

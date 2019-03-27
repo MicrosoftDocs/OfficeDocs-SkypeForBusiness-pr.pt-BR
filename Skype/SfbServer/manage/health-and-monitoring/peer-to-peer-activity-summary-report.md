@@ -1,5 +1,6 @@
 ---
 title: Relatório de resumo de atividade ponto a ponto no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 'Resumo: Saiba mais sobre o relatório de resumo de atividade ponto a ponto no Skype para Business Server.'
-ms.openlocfilehash: 20eab96b870b0ce4bef0e516116cbc39d6a4c7e5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0502fc3880a4a04369f6717e67093d359c2b8af7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975722"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882567"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Relatório de resumo de atividade ponto a ponto no Skype para Business Server
  
@@ -62,7 +63,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
-|**De** <br/> |Data e hora de início do intervalo de tempo. Para ver os dados por hora, insira a data e hora de início desta forma:  <br/> 17/7/2015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
+|**De** <br/> |Data e hora de início do intervalo de tempo. Para ver os dados por hora, insira a data e hora de início desta forma:  <br/> 17/7/12015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
 |**Até** <br/> |Data e hora de término do intervalo de tempo. Para ver os dados por hora, insira a data e hora de término desta forma:  <br/> 17/7/2015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
 |**Intervalo** <br/> | Intervalo de tempo. Selecione uma das seguintes opções: <br/>  Por hora (é possível exibir no máximo 25 horas) <br/>  Diariamente (é possível exibir no máximo 31 dias) <br/>  Semanalmente (é possível exibir no máximo 12 semanas) <br/>  Mensal (é possível exibir no máximo 12 meses) <br/>  Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diariamente com a data de início 17/7/2015 e uma data de término de 28/2/2015, os dados serão exibidos para os dias 7/8/2015, meia-noite, até 7/9/2015, meia-noite (ou seja, um total de 31 dias de dados). <br/> |
    
@@ -74,7 +75,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Resumo de A
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Por hora** <br/> **Por dia** <br/> **Por semana** <br/> **Por mês** <br/> |Não  <br/> |Indica o intervalo de tempo selecionado na barra de ferramentas do filtro. Quando aplicável, é possível clicar em um determinado intervalo de tempo para exibir informações detalhadas desse intervalo. Por exemplo, se você estiver usando o intervalo Diário e clicar em 17/7/2015, você verá uma divisão por hora da atividade de registro do usuário para essa data.  <br/> |
+|**Por hora** <br/> **Diário** <br/> **Semanal** <br/> **Mensal** <br/> |Não  <br/> |Indica o intervalo de tempo selecionado na barra de ferramentas do filtro. Quando aplicável, é possível clicar em um determinado intervalo de tempo para exibir informações detalhadas desse intervalo. Por exemplo, se você estiver usando o intervalo Diário e clicar em 17/7/2015, você verá uma divisão por hora da atividade de registro do usuário para essa data.  <br/> |
 |**Total de sessões ponto a ponto** <br/> |Não  <br/> |Número total de sessões ponto a ponto conduzidas, independentemente do tipo de sessão.  <br/> |
 |**Total de sessões de mensagens instantâneas ponto a ponto** <br/> |Não  <br/> |Número total de sessões de mensagens instantâneas (IM) ponto a ponto. Quando você clica nesse item, o relatório mostra o Relatório de Mensagens Instantâneas Ponto a Ponto para o período selecionado.  <br/> |
 |**Total de mensagens instantâneas ponto a ponto** <br/> |Não  <br/> |Número total de mensagens instantâneas enviadas em sessões ponto a ponto. Quando você clica nesse item, o relatório mostra o Relatório de Mensagens Instantâneas Ponto a Ponto para o período selecionado.  <br/> |

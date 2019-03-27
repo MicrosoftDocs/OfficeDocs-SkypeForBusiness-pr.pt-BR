@@ -1,5 +1,6 @@
 ---
 title: Requisitos de hardware e software para conferências no Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Resumo: Leia este tópico para saber mais sobre os requisitos de hardware e software para conferências no Skype para Business Server.'
-ms.openlocfilehash: 0029bca57477d52e1886ff476984477bdac75b97
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3385395eb34e69fadcdce4ba4bf529a347a2979c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247666"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883925"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Requisitos de hardware e software para conferências no Skype para Business Server
 
@@ -44,15 +45,15 @@ Se você optou por habilitar a webconferência, será necessário planejar:
 
 ### <a name="file-store"></a>Repositório de Arquivos
 
-O Skype para serviço de webconferência Business Server armazena o conteúdo compartilhado durante as reuniões no armazenamento de arquivos. Como parte da implantação, você deve especificar um compartilhamento de arquivo a ser usado como o repositório de arquivos para o servidor Standard Edition ou pool de Front End do Enterprise Edition. Você pode usar um repositório de arquivos existente ou especificar um novo compartilhamento de arquivos determinando o nome de domínio totalmente qualificado (FQDN) do servidor de arquivos em que o repositório estará localizado e um nome de pasta para o novo compartilhamento de arquivos. Para obter mais informações, consulte [criar um compartilhamento de arquivo no Skype para Business Server](../../deploy/install/create-a-file-share.md). O serviço de webconferências criptografa o conteúdo antes de armazená-lo no repositório de arquivos.
+O Skype para serviço de webconferência Business Server armazena o conteúdo compartilhado durante as reuniões no armazenamento de arquivos. Como parte da implantação, você deve especificar um compartilhamento de arquivo a ser usado como o repositório de arquivos para o servidor Standard Edition ou pool de Front End do Enterprise Edition. É possível usar um compartilhamento de arquivos existente para o repositório de arquivos ou definir um novo especificando o FQDN (nome de domínio totalmente qualificado) do servidor de arquivos no qual o compartilhamento de arquivos deve estar localizado e um nome de pasta para o novo compartilhamento de arquivos. Para obter mais informações, consulte [criar um compartilhamento de arquivo no Skype para Business Server](../../deploy/install/create-a-file-share.md). O serviço de webconferências criptografa o conteúdo antes de armazená-lo no repositório de arquivos.
 
 Skype para Business Server suporta o uso de compartilhamentos de arquivos em armazenamento anexado diretamente (DAS) ou uma rede de área de armazenamento (SAN), incluindo o sistema de arquivos distribuídos (DFS) e em uma matriz redundante de discos independentes (RAID) para repositórios de arquivos. Depois que o Skype para o Assistente de implantação do Business Server definiu o local do compartilhamento de arquivo, Skype para Business Server cria uma estrutura de pastas em um compartilhamento de arquivo semelhante a:
 
 - 1-ApplicationServer-1
 
-- CentralMgmt-1-1
+- 1-CentralMgmt-1
 
-- WebServices-1-1
+- 1-WebServices-1
 
   - CollabContent
 
@@ -74,7 +75,7 @@ Para obter informações sobre como configurar Skype para Business Server funcio
 
 Para planejar a conferência A/V, você precisa saber a largura de banda de rede necessária para o tipo de mídia de conferência que sua organização requer. Isso pode incluir áudio, vídeo e vídeo panorâmico. Sem largura de banda suficiente, a experiência do usuário pode ser gravemente prejudicada.
 
-Para obter informações sobre planejamento para conferências de capacidade de áudio e vídeo, consulte [planejar requisitos de rede de Skype para negócios](../../plan-your-deployment/network-requirements/network-requirements.md).
+Para obter informações sobre planejamento de funcionalidades de áudio e vídeo para conferências, consulte [Plan network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md).
 
 Você pode usar o controle de admissão de chamadas (CAC) para gerenciar a largura de banda de rede usada pelo / conferência V. Isso é importante para redes restritos, como links de largura de banda limitada entre central e sites de filiais. Para obter detalhes, consulte [Planejar o controle de admissão de chamada no Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
 
@@ -98,7 +99,7 @@ Você precisará instalar o seguinte Skype para componentes de servidor de negó
 
 - Pelo menos um Servidor de Mediação e pelo menos um gateway PSTN
 
-Para conferência discada, o serviço de aplicativo, o aplicativo Atendedor de conferência e o aplicativo de anúncio de conferência apresentam os mesmos requisitos de sistema operacional, como servidores Front-End. Para obter detalhes, consulte [requisitos de servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Para conferência discada, o serviço de aplicativo, o aplicativo Atendedor de conferência e o aplicativo de anúncio de conferência apresentam os mesmos requisitos de sistema operacional, como servidores Front-End. Para obter mais detalhes, consulte [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
 
 Aplicativo Atendedor de conferência e o aplicativo de anúncio de conferência requerem que o Windows Media Format Runtime é instalado nos servidores Front-End. O Windows Media Format é exigido para reproduzir arquivos WMA (Windows Media Audio) que são usados para músicas em espera, nomes gravados e prompts. Se você estiver instalando no Windows Server 2012 ou Windows Server 2012 R2 (que é recomendável), você precisará instalar o Microsoft Foundation de mídia para obter o Windows Media Format Runtime. Se você estiver instalando em qualquer versão do Windows Server antes do Windows 2012, precisará certificar-se de que o Windows Desktop Experience está instalado para obter o Windows Media Format Runtime.
 

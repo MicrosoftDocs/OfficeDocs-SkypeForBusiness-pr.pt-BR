@@ -1,5 +1,6 @@
 ---
 title: Funções administrativas e Skype para painel de controle do servidor de negócios
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para permitir que você delegue tarefas administrativas enquanto mantém altos padrões de segurança, Skype para Business Server suporta controle de acesso baseado em função (RBAC).
-ms.openlocfilehash: 96b76a0ca0a18b27cc0d56232dc72df0fae55980
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 928b0c9602c309e63c3fb6a61bdbcceeb2d9f539
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247000"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881664"
 ---
 # <a name="administrative-roles-and-skype-for-business-server-control-panel"></a>Funções administrativas e Skype para painel de controle do servidor de negócios
 

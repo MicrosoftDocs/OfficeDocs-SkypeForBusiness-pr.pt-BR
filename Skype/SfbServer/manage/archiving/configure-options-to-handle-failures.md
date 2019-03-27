@@ -1,5 +1,6 @@
 ---
 title: Configurar opções de arquivamento para lidar com falhas no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 'Resumo: Saiba como bloquear sessões de mensagens Instantâneas e conferência no caso de um Skype para falha do servidor de negócios que impediriam a arquivamento.'
-ms.openlocfilehash: 952ee82ca3be045fc0407a6ce2f61fdaead12030
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4fe63319f2b480557c73e238f2b19692df06440f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998711"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883015"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurar opções de arquivamento para lidar com falhas no Skype para Business Server
 

@@ -1,5 +1,6 @@
 ---
 title: Configurar um tronco sem bypass de mídia no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Siga estas etapas se desejar configurar um tronco com o bypass de mídia habilitado. '
-ms.openlocfilehash: 0fd05c69f72bcf6688d4ce2f8cd52fb610a4c1a6
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 623de0439e6c6297808e54eb2ae050aa95f6533d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223322"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881929"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurar um tronco sem bypass de mídia no Skype para Business Server
 
@@ -28,7 +29,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
 4. Na página **Configuração do Tronco**, use um dos métodos a seguir para configurar um tronco:
     - Dê um duplo clique em um tronco existente (por exemplo, o tronco **Global**) para exibir a caixa de diálogo **Editar Configuração do Tronco**.
     - Clique em **Novo** e depois, selecione um escopo para a nova configuração de tronco:
-        - **Tronco de site**: escolha o site para essa configuração de tronco em **Selecionar um Site**e clique em **Okey**. Observe que se uma configuração de tronco já tiver sido criada para um site, o site não aparecerá em **Selecionar um Site**. Essa configuração de tronco será aplicada a todos os troncos do site.
+        - **Tronco de site**: escolha o site para essa configuração de tronco em **Selecionar um Site**e clique em **Okey**. Observe que se uma configuração de tronco já tiver sido criada para um site, o site não aparecerá em **Selecionar um Site**. Essa configuração de tronco será aplicada a todos os troncos no site.
         - **Tronco do pool**: escolha um nome para o tronco ao qual essa configuração de tronco se aplica em **Selecionar um Serviço** e clique em **OK**. Esse tronco pode ser o tronco raiz, ou qualquer definidos no construtor de topologia de troncos adicionais. Observe que se uma configuração de tronco já tiver sido criada para um tronco específico, o tronco não aparecerá em **Selecionar um Serviço**.
     > [!Note] 
     > Depois de selecionar o escopo da configuração de tronco, ele não poderá ser alterado. O campo **Nome** é pré-preenchido com o nome do site ou serviço associado à configuração de tronco e não pode ser alterado. 
@@ -95,7 +96,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
     > [!Caution] 
     > Não associe regras de conversão a um tronco se não houver regras de conversão configuradas no ponto do tronco associado porque as duas regras podem entrar em conflito. 
 
-17. Verifique se as regras de conversão do tronco estão organizadas na ordem correta. Para alterar a posição de uma regra na lista, destaque o nome da regra e clique na seta para cima ou para baixo.
+17. Verifique se as regras de conversão do tronco estão organizadas na ordem correta. Para alterar a posição de uma regra na lista, destaque o nome da regra e clique em cima ou seta para baixo.
 
     > [!Important] 
     > Skype para Business Server percorre a lista de regras de conversão de cima para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um tronco de forma que um número discado possa corresponder a mais de uma regra de conversão, certifique-se de que as regras mais restritivas estejam classificadas acima das regras menos restritivas. Por exemplo, se você incluiu uma regra de conversão que corresponda a qualquer número de 11 dígitos e uma regra de conversão que corresponda somente a números de 11 dígitos que comecem com +1425, certifique-se de que a regra que corresponda a qualquer número de 11 dígitos esteja classificada abaixo da regra mais restritiva. 

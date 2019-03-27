@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este artigo para saber mais sobre como implantar sistemas de sala Skype v2.
-ms.openlocfilehash: 7d9a24b69c1e91c5193f67b6bdc321981265cda7
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: 7d80a803038724e8818ab01f6b4ae54b552cabcd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26539069"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879774"
 ---
 # <a name="deployment-overview"></a>Visão geral de implantação
 
@@ -27,7 +27,7 @@ Implantação de sistemas de sala Skype v2 essencialmente é dividido em fases:
 - Confirmando que seus locais de implantação (salas) atendam as dependências de implantação
 - Criando Skype para contas de negócios e do Exchange e atribuindo a elas nos dispositivos de console (consulte [Configurar contas para sistemas de sala Skype v2](room-systems-v2-configure-accounts.md))
 - Fazer uma nova imagem Microsoft Surface tablets para funcionar como consoles de v2 de sistemas de sala Skype (consulte [Configure um console do Skype sala sistemas v2](console.md) ou o [guia de implantação em massa implantar sistemas de sala Skype v2](room-systems-scale.md))
-- (Opcional) Configurando o pacote de gerenciamento do Microsoft Operations para seus sistemas (consulte [gerenciamento de v2 implantar sistemas do Skype sala com OMS](with-oms.md))
+- (Opcional) Configurando o pacote de gerenciamento do Microsoft Operations para seus sistemas (consulte [gerenciamento de v2 implantar sistemas do Skype sala com o Azure Monitor](azure-monitor.md))
 - Configurando consoles em salas de reunião e conectando-se a dispositivos periféricos você precisa (consulte a documentação de OEM para seu conjunto de dispositivos)
 
 Os técnicos de AV podem ser usados para a última tarefa, mas sua organização departamento de TI será necessário fazer as outras partes do processo. 
@@ -48,7 +48,7 @@ Você pode encontrar mais informações sobre essas dependências nos links de o
 |    |     |
 |-----------|------------|
 | ![](../../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Confirme que os sites atendem aos requisitos de chave de sistemas de sala Skype v2.</li><li>Confirme que você forneceu largura de banda suficiente para cada site.</li></ul>| 
-| ![](../../media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Começa a planejar sua implantação de dispositivo e a configuração.</li></ul>| 
+| ![](../../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Começa a planejar sua implantação de dispositivo e a configuração.</li></ul>| 
 
 **Dica Pro-** Da perspectiva de planejamento de site por site, você pode achar ativos a seguir úteis. Eles abrangem mais do que apenas de sistemas de sala Skype v2 e podem ser usados em uma distribuição completa do Skype para Business Online:
 
@@ -57,7 +57,7 @@ Você pode encontrar mais informações sobre essas dependências nos links de o
 -   [Site de distribuição e planejamento de migração - Playbook](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_16)
 
     > [!NOTE]
-    > No playbook, preencha as tarefas na seção "4.3 – > salas de conferência" sob a planilha de "4-pontos de extremidade" para cada site onde você estiver planejando implantar sistemas de sala Skype v2 dispositivos. Isso permitirá que você use a script posteriormente no processo de provisionamento de conta de em massa. 
+    > Conclua as tarefas na seção "4.3 – gt _ salas de conferência" playbook, sob a planilha de "4-pontos de extremidade" para cada site onde você estiver planejando implantar sistemas de sala Skype v2 dispositivos. Isso permitirá que você use a script posteriormente no processo de provisionamento de conta de em massa. 
 
 ## <a name="service-readiness"></a>Prontidão de serviço
 
@@ -82,14 +82,14 @@ Para obter mais informações sobre contas de sistemas de sala Skype, consulte [
 |    |     |
 |-----------|------------|
 | ![](../../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida quais cenários você suporte e identificar requisitos de licenciamento para suas contas de serviço do Skype sala sistemas v2.</li></ul>| 
-| ![](../../media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Prepare para hospedar máquina e contas de serviço.</li></ul>| 
+| ![](../../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Prepare para hospedar máquina e contas de serviço.</li></ul>| 
 
 
 _Conta de serviço do exemplo Skype sala sistemas v2 tabela de planejamento_
 
 | **Site**  | **Nome da sala** | **Tipo de sala** | **Recursos de sala futuras**                                                 | **Recursos de conta v2 de sistemas de sala do Skype**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Matriz de Londres | Curie         | Médio        | 1 tela, áudio e vídeo plus apresentação <br>Acesso de conferência discada<br> Acesso ao PSTN  | Habilitado para Skype para os negócios, habilitados para o Exchange (caixa de correio de recursos) <br>Habilitado para serviços de audioconferência <br>Habilitado para o sistema telefônico |
+| Matriz de Londres | Curie         | Média        | 1 tela, áudio e vídeo plus apresentação <br>Acesso de conferência discada<br> Acesso ao PSTN  | Habilitado para Skype para os negócios, habilitados para o Exchange (caixa de correio de recursos) <br>Habilitado para serviços de audioconferência <br>Habilitado para o sistema telefônico |
 | Matriz de Sidnei | Hill          | Grande         | 2 telas, áudio e vídeos plus apresentação<br>Acesso de conferência discada<br> Acesso ao PSTN  | Habilitado para Skype para os negócios, habilitados para o Exchange (caixa de correio de recursos)<br> Habilitado para serviços de audioconferência <br>Habilitado para o sistema telefônico |
 
 
@@ -134,7 +134,7 @@ Se sua organização tiver várias salas de conferências que exigem vários, co
 |    |     |
 |-----------|------------|
 | ![](../../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida a convenção de nomenclatura para suas contas de v2 Skype sistemas de sala.</li><li>Decida se você vai criar contas individuais ou use scripts de provisionamento em massa.</li></ul>| 
-| ![](../../media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Começa a planejar sua implantação do dispositivo.</li></ul>| 
+| ![](../../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Começa a planejar sua implantação do dispositivo.</li></ul>| 
 
 
 ### <a name="device-software-installation"></a>Instalação de software de dispositivo 
@@ -143,23 +143,23 @@ Ao planejar implantar Skype sala Systemsv2, você tem um número de opções a s
 
 | **Cenário**            | **Abordagem**         |
 |-------------------------|-----------------------|   
-|Implantando um pequeno número de dispositivos de sistemas de sala Skype (< 10). | Se usando Surface Pro – sistemas com base em Skype sala v2, siga as [instruções de instalação para por dispositivo instalar](console.md). [Este vídeo à mão o orienta durante o processo.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Se estiver usando uma solução integrada, implantado por meio da imagem de fornecedor e definir configurações, conforme necessário. |
+|Implantando um pequeno número de dispositivos de sistemas de sala Skype (<10). | Se usando Surface Pro – sistemas com base em Skype sala v2, siga as [instruções de instalação para por dispositivo instalar](console.md). [Este vídeo à mão o orienta durante o processo.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Se estiver usando uma solução integrada, implantado por meio da imagem de fornecedor e definir configurações, conforme necessário. |
 | Implantando entre 10 e 50 dispositivos de um fornecedor único.     | Criar uma imagem baseada em WIM, pausar após a [etapa 6 neste guia](console.md)e capturar uma imagem de distribuição a ser usado com a tecnologia de distribuição clonagem.    |
-| Implementando mais de 50 dispositivos de sistemas de sala Skype, Implementando dispositivos de mais de um fornecedor ou a necessidade de agentes de específicas da organização como parte da implantação. | Use uma tarefa baseadas em sequencer construção e distribuição plataforma de software, como o [System Center Configuration Manager](with-oms.md).  |
+| Implementando mais de 50 dispositivos de sistemas de sala Skype, Implementando dispositivos de mais de um fornecedor ou a necessidade de agentes de específicas da organização como parte da implantação. | Use uma tarefa baseadas em sequencer construção e distribuição plataforma de software, como o [System Center Configuration Manager](room-systems-scale.md).  |
 
 **Dica pro** - v2 de sistemas de sala Skype Each deve ter um nome de máquina válido e exclusivo em sua rede. Muitos de monitoramento e alerta sistemas exibem o nome da máquina como um identificador de chave, portanto, é importante desenvolver uma convenção de nomenclatura para implantações do Skype sala sistemas v2 que permite que o pessoal de suporte localizar facilmente os sistemas de sala Skype v2 que foi sinalizado como exigir uma ação. Um exemplo pode estar usando um padrão de SRS*Site*-o*Nome da sala* (SRS-LON-CURIE). 
 
 
 Como parte da implantação, você também precisará considerar sua estratégia para gerenciar e configurar as [contas locais](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) que são criados pelo instalador do aplicativo do Skype sistemas de sala.
 
-Podemos fornecer orientação sobre como usar o [Pacote de gerenciamento do Microsoft Operations](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/oms-management) para monitorar a implantação do Skype sala sistemas v2 e reportar sobre disponibilidade, erros de hardware e software e versão do aplicativo do Skype sala sistemas v2. Se você decidir usar o pacote de gerenciamento de operações do Microsoft, você deve instalar o agente do pacote de gerenciamento de operações como parte do processo de instalação de software e configurar as informações de conexão do espaço de trabalho do seu espaço de trabalho. 
+Podemos fornecer orientação sobre como usar o [Microsoft Azure Monitor](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) para monitorar a implantação do Skype sala sistemas v2 e reportar sobre disponibilidade, erros de hardware e software e versão do aplicativo do Skype sala sistemas v2. Se você decidir usar o pacote de gerenciamento de operações do Microsoft, você deve instalar o agente do pacote de gerenciamento de operações como parte do processo de instalação de software e configurar as informações de conexão do espaço de trabalho do seu espaço de trabalho. 
 
 Uma consideração adicional é se o v2 Skype sala sistemas serão associados a um domínio. Informações sobre os benefícios da associação de domínio podem ser encontradas em [Considerações de ingresso de domínio do sistema de sala Skype](domain-joining-considerations.md). 
 
 |    |     |
 |-----------|------------|
 | ![](../../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida a convenção de nomenclatura de dispositivo de sistemas de sala Skype a ser usado durante a implantação.</li><li>Decida se você vai ingressar dispositivos do Skype sala sistemas v2 para o seu domínio e como gerenciar e configurar as contas locais. </li><li>Decida se irá usar o pacote de gerenciamento de operações para monitorar a implantação de v2 Skype sistemas de sala.</li><li>Decida qual método você usará para implantar o software e os operadores ao sistema v2 Skype sala sistemas em preparação para a implantação de dispositivo. </li></ul>| 
-| ![](../../media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Começa a planejar sua abordagem de implantação de dispositivo.</li></ul>| 
+| ![](../../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Começa a planejar sua abordagem de implantação de dispositivo.</li></ul>| 
 
 
 ### <a name="device-deployment"></a>Implantação de dispositivo
@@ -170,13 +170,13 @@ Depois que você implantou o software para as unidades de v2 Skype sala sistemas
 |    |     |
 |-----------|------------|
 | ![](../../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida quem irá gerenciar a implantação de site por site.</li><li> Identifique os recursos que instalará os dispositivos de sistemas de sala Skype v2 no site e realizar a configuração e testes.</li></ul>| 
-| ![](../../media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Inicie o dispositivo de teste.</li></ul>| 
+| ![](../../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Inicie o dispositivo de teste.</li></ul>| 
 
 _Tabela de implantação de exemplo_
 
 | **Site**  | **Nome da sala** | **Tipo de sala** | **Sistema de v2 de sistemas de sala do Skype**  | **Dispositivos periféricos**  | **Nome do computador do Skype sala sistemas v2**  | **Conta do recurso de v2 de sistemas de sala do Skype**  |
 |-----------|---------------|---------------|-----------------------------------|------------------|------------------------------------------|---------------------------------------------|
-| Matriz de Londres | Curie         | Médio        |                                   |                  |                                          |                                             |
+| Matriz de Londres | Curie         | Média        |                                   |                  |                                          |                                             |
 | Matriz de Sidnei | Hill          | Grande         |                                   |                  |                                          |                                             |
 
 ### <a name="skype-room-systems-v2-application-and-peripheral-device-configuration"></a>Aplicativo do Skype sala sistemas v2 e configuração de dispositivos periféricos 
@@ -192,7 +192,7 @@ Você pode usar o [PowerShell remoto](../../manage/skype-room-systems-v2/room-sy
 |    |     |
 |-----------|------------|
 | ![](../../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se você vai configurar cada sistema v2 de sistemas de sala do Skype manualmente ou usar um arquivo XML de central (um por dispositivo do Skype sala sistemas v2).</li></ul>| 
-| ![](../../media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Defina sua abordagem de gerenciamento remoto.</li></ul>| 
+| ![](../../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Defina sua abordagem de gerenciamento remoto.</li></ul>| 
 
 ### <a name="testing"></a> Testes
 
@@ -210,7 +210,7 @@ _Tabela de ativos de exemplo_
 
 | **Site**  | **Nome da sala** | **Tipo de sala** | **Sistemas de sala Skype v2 não serial.**  | **Dispositivos periféricos / Serial n º portas /**  | **Nome do computador do Skype sala sistemas v2**  | **Conta de serviço do Skype sala sistemas v2**  | **Data implantada** |
 |-----------|---------------|---------------|------------------------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|-------------------|
-| Matriz de Londres | Curie         | Médio        |                                          |                                          |                                          |                                            |                   |
+| Matriz de Londres | Curie         | Média        |                                          |                                          |                                          |                                            |                   |
 | Matriz de Sidnei | Hill          | Grande         |                                          |                                          |                                          |                                            |                   |
 
 

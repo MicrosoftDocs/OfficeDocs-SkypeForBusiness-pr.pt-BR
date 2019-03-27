@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8b3105889021408983c8e3ae249c74833e65ced
-ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
+ms.openlocfilehash: 5d92e30617fb62000cd4b10dac29ec23eee1feaa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30800069"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882958"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparo da rede da sua organização para o Microsoft Teams
 
@@ -65,20 +65,13 @@ Para testar os dois segmentos de rede, você pode usar a [Ferramenta de avaliaç
 
 
 ## <a name="bandwidth-requirements"></a>Requisitos de largura de banda
-
+Teams da Microsoft oferece a melhor conteúdo de áudio, vídeo e compartilhamento experiência independentemente condições da sua rede. Com a variáveis codecs, mídia pode ser negociada em ambientes de largura de banda limitada com um impacto mínimo. Mas onde a largura de banda não for uma preocupação, experiências podem ser otimizadas por qualidade, incluindo backup resolução de vídeo 1080p, até 30fps para vídeo e 15fps para conteúdo e áudio de alta fidelidade.
 
 Este artigo descreve uma versão concisa de como a largura de banda é utilizada por áudio de tempo real do Microsoft Teams, vídeo e compartilhamento modalidades em vários casos de uso. As equipes é sempre conservadoras na utilização de largura de banda e pode fornecer a qualidade de vídeo HD em 1.2Mbps.  O consumo de largura de banda real em cada chamada de áudio/vídeo ou reunião irá variar, com base em vários fatores, como vídeo layout, resolução de vídeo e vídeos quadros por segundo. Quando houver mais largura de banda qualidade e uso aumentará para oferecer a melhor experiência.
 
 
-|Bandwidth(up/down) |Cenários |
-|---|---|
-|30 kbps |Chamadas de áudio ponto a ponto |
-|130 kbps |As chamadas de áudio ponto a ponto e compartilhamento de tela |
-|500 kbps |Vídeo de chamar 360p a 30fps de qualidade de ponto a ponto |
-|1.2 Mbps |Vídeo com qualidade chamar com resolução de HD 720 pixels a 30fps HD-a-ponto |
-|1,5 Mbps |Vídeo com qualidade de chamada com resolução de HD 1080p em 30fps HD-a-ponto |
-|500kbps/1Mbps |Grupo de chamada de vídeo |
-|1Mbps/2Mbps |Grupo de HD vídeo chamar (vídeos de 540p na tela 1080p) |
+[!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
+
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.

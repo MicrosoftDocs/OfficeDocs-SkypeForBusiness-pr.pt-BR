@@ -1,5 +1,6 @@
 ---
-title: Adicionar repositório SQL
+title: Adicionar Repositório SQL
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para definir um novo repositório SQL, o que significa que você está especificando um banco de dados baseado em SQL Server e uma instância do SQL Server — uma instância padrão ou uma instância nomeada — especifique o seguinte.
-ms.openlocfilehash: c77174d83253a8df910e63f5e4f8cc50fdb98cf3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5f362d66f7764c69e51a3d54c51ba251a93ae5f9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245157"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878228"
 ---
-# <a name="add-sql-store"></a>Adicionar repositório SQL
+# <a name="add-sql-store"></a>Adicionar Repositório SQL
 
 Para definir um novo repositório SQL, o que significa que você está especificando um banco de dados baseado em SQL Server e uma instância do SQL Server — uma instância padrão ou uma instância nomeada — especifique o seguinte.
 

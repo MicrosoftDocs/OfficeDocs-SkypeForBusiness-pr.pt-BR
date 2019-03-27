@@ -1,5 +1,6 @@
 ---
 title: Tabela VideoStream
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: Cada registro representa um fluxo de vídeo. Normalmente, uma linha de mídia de vídeo contém dois fluxos de vídeo.
-ms.openlocfilehash: 27a9c8cdd8b1975b7854147b5855a8494155ce2a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d6eeeb96acc766859d6b57594bd11a5538593da3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881678"
 ---
 # <a name="videostream-table"></a>Tabela VideoStream
  
 Cada registro representa um fluxo de vídeo. Normalmente, uma linha de mídia de vídeo contém dois fluxos de vídeo.
   
-|**Coluna**|**Tipo de dados**|**Índice de chaves /**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primária  <br/> |Referenciado de [MediaLine table](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primária  <br/> |R referenciado de [MediaLine table](medialine-0.md).  <br/> |
@@ -29,7 +31,7 @@ Cada registro representa um fluxo de vídeo. Normalmente, uma linha de mídia de
 |**VideoPayloadDescription** <br/> |smallint  <br/> |Externo, primário  <br/> |Descrição de carga. Consulte a [tabela PayloadDescription](payloaddescription.md) para obter mais informações. <br/> |
 |**JitterInterArrival** <br/> |int  <br/> | <br/> |Instabilidade média da rede estatísticas do protocolo de controle de Tempo Real (RTCP).  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |Tremulação máxima da rede durante a sessão de vídeo.  <br/> |
-|**Ida e volta** <br/> |int  <br/> | <br/> |Tempo de ida e volta de estatísticas RTCP.  <br/> |
+|**RoundTrip** <br/> |int  <br/> | <br/> |Tempo de ida e volta de estatísticas RTCP.  <br/> |
 |**RoundTripMax** <br/> |int  <br/> | <br/> |Tempo máximo de ida e volta do stream de vídeo.  <br/> |
 |**PacketLossRate** <br/> |decimal(5,4)  <br/> | <br/> |Taxa de perda média de pacotes durante a chamada.  <br/> |
 |**PacketLossRateMax** <br/> |decimal(5,4)  <br/> | <br/> |Perda máxima de pacotes observada durante a chamada.  <br/> |

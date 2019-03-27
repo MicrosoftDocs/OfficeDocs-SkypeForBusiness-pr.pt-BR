@@ -1,5 +1,6 @@
 ---
-title: Adicionar Pool de diretor
+title: Adicionar Pool de Diretor
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para definir o FQDN do pool de diretor, selecione um pool de vários computadores que consiste em dois ou mais diretores em um pool com balanceamento de carga, ou um pool de computador único. Você também deverá digitar o nome de domínio totalmente qualificado (FQDN) que será usado para conectar ao pool de diretores ou FQDN do Diretor único. Para um pool de computadores de diretor, isso seria a entrada de sistema de nome de domínio (DNS) para o IP virtual de um balanceador de carga de hardware ou a entrada DNS compartilhada para balanceamento de carga DNS.
-ms.openlocfilehash: b375fd2d48a53264b47526325f538af2116183fa
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: f659b45fd758d07b9cf96b59b57654bb8cf2fd28
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21063467"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879311"
 ---
-# <a name="add-director-pool"></a>Adicionar Pool de diretor
+# <a name="add-director-pool"></a>Adicionar Pool de Diretor
  
 Para **definir o FQDN do pool de diretor**, selecione um **pool de vários computadores** que consiste em dois ou mais diretores em um pool com balanceamento de carga ou um **pool de computador único**. Você também deverá digitar o nome de domínio totalmente qualificado (FQDN) que será usado para conectar ao pool de diretores ou FQDN do Diretor único. Para um pool de computadores de diretor, isso seria a entrada de sistema de nome de domínio (DNS) para o IP virtual de um balanceador de carga de hardware ou a entrada DNS compartilhada para balanceamento de carga DNS.
   

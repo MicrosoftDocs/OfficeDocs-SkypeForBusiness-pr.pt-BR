@@ -1,5 +1,6 @@
 ---
 title: Configurar políticas de conferência para sua organização
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Conferência é uma parte importante do Skype for Business Online: a conferência permite que grupos de usuários reúnam-se online para ver slides e vídeo, compartilhar aplicativos, trocar arquivos ou para comunicarem-se e colaborar.'
-ms.openlocfilehash: 35cbafdbd69f3241cc1634e4edff455b4c35926d
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 46e22191875709f13936db395563eb9f7326300f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561652"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884530"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Configurar políticas de conferência para sua organização
 

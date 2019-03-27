@@ -1,5 +1,6 @@
 ---
 title: Solicitação de Certificado (Autoridade de Certificação)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
-description: 'Quando você faz uma solicitação de certificado para uma CA (autoridade de certificação online) (normalmente, esses são os servidores que estão em sua rede interna) na página Escolher uma autoridade de certificação (CA), são apresentadas duas opções:'
-ms.openlocfilehash: 6fea8ba9500e1612ff13796f4c58550687baa99a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Ao fazer uma solicitação de certificado para uma autoridade de certificação online (AC) (normalmente, servidores que estão em sua rede interna) na página Escolher uma Autoridade de Certificação (AC), as duas opções a seguir são apresentadas:'
+ms.openlocfilehash: 5681f570a6c418263545386afecfe4b7329bc45c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880190"
 ---
 # <a name="certificate-request-certificate-authority"></a>Solicitação de Certificado (Autoridade de Certificação)
  

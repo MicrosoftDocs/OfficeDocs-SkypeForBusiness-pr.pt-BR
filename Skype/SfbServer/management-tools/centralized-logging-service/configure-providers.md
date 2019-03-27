@@ -1,5 +1,6 @@
 ---
 title: Configurar provedores para Serviço de Log Centralizado no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Resumo: Aprenda a configurar provedores de cenário para o serviço de registro em log centralizado no Skype para Business Server 2015.'
-ms.openlocfilehash: e67a1dee9227624ecc94c50437f60781435b2fe8
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 36eb16eb1aea584e1ca28670ea75bd3a262ceb1a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372489"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882205"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurar provedores para Serviço de Log Centralizado no Skype for Business Server 2015
  
@@ -123,7 +124,7 @@ Introduzidos em [Centralized Logging Service no Skype para negócios 2015](centr
 New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
 ```
 
-Onde $LyssProvider é a variável que contém o cenário definido criado com **New-CsClsProvider**.
+Em que $LyssProvider é a variável que contém o cenário definido criado com **New-CsClsProvider**.
 ### <a name="to-change-an-existing-centralized-logging-service-scenario-provider"></a>Para alterar um provedor de cenário Centralized Logging Service existente
 
 1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
@@ -142,7 +143,7 @@ Onde $LyssProvider é a variável que contém o cenário definido criado com **N
 
 O resultado final do comando é que cenário site:Redmond/RedmondLyssInfo terá atualizado os sinalizadores e o nível do provedor atribuído a ele. Você pode exibir o novo cenário usando Get-CsClsScenario. Para obter detalhes, consulte [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps).
 > [!CAUTION]
-> **New-ClsCsProvider** não verifica para determinar se os sinalizadores são válidos. Certifique-se de que os sinalizadores (por exemplo, TF_DIAG ou TF_CONNECTION) estejam grafados corretamente. Se os sinalizadores não estiverem grafados corretamente, o provedor não poderá retornar as informações de log esperadas.
+> **New-ClsCsProvider** não faz uma verificação para determinar se os sinalizadores são válidos. Certifique-se de que os sinalizadores (por exemplo, TF_DIAG ou TF_CONNECTION) estejam grafados corretamente. Se os sinalizadores não estiverem grafados corretamente, o provedor não poderá retornar as informações de log esperadas.
   
 Se você quiser adicionar mais provedores a esse cenário, digite:
 
@@ -150,12 +151,12 @@ Se você quiser adicionar mais provedores a esse cenário, digite:
 Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSProvider, $CASProvider, S4Provider}
 ```
 
-Onde cada provedor definido com a diretiva Add já foi definida usando o processo de **New-CsClsProvider** .
+Onde cada provedor definido com a diretiva Add já foi definido com o uso do processo **New-CsClsProvider**.
 ### <a name="to-remove-a-scenario-provider"></a>Para remover um provedor de cenário
 
 1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
     
-2. Os cmdlets fornecidos permitem que você atualize os provedores existentes e crie novos provedores. Para remover um provedor, você deve usar a diretiva de substituição para o parâmetro do provedor para **Set-CsClsScenario**. A única maneira de remover completamente um provedor é substituí-lo por um provedor redefinido com o mesmo nome e usar a diretiva Update. Por exemplo, nosso provedor LyssProvider está definido com o tipo de log WPP, o nível definido para Debug e os sinalizadores definidos como TF_CONNECTION e TF_DIAG. Você precisa alterar os sinalizadores como "All". Para alterar o provedor, digite o seguinte:
+2. Os cmdlets fornecidos permitem que você atualize os provedores existentes e crie novos provedores. Para remover um provedor, você precisa usar a diretiva Replace do parâmetro Provider para **Set-CsClsScenario**. A única maneira de remover completamente um provedor é substituí-lo por um provedor redefinido com o mesmo nome e usar a diretiva Update. Por exemplo, nosso provedor LyssProvider está definido com o tipo de log WPP, o nível definido para Debug e os sinalizadores definidos como TF_CONNECTION e TF_DIAG. Você precisa alterar os sinalizadores como "All". Para alterar o provedor, digite o seguinte:
     
    ```
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
@@ -178,10 +179,10 @@ Onde cada provedor definido com a diretiva Add já foi definida usando o process
    ```
 
     > [!CAUTION]
-    > O cmdlet **Remove-CsClsScenario** não solicitar confirmação. O cenário será excluído junto com os provedores atribuídos a ele. Você pode recriar o cenário executando novamente os comandos usados para criá-lo inicialmente. Não há um procedimento para recuperar cenários ou provedores removidos.
+    > O cmdlet **Remove-CsClsScenario** não solicita sua confirmação. O cenário será excluído junto com os provedores atribuídos a ele. Você pode recriar o cenário executando novamente os comandos usados para criá-lo inicialmente. Não há um procedimento para recuperar cenários ou provedores removidos.
   
-Quando você remover um cenário usando o cmdlet **Remove-CsClsScenario** , remover completamente o cenário do escopo. Para usar os cenários que você criou e os provedores que faziam parte dele, crie novos provedores e atribua-os a um novo cenário.
-## <a name="see-also"></a>Consulte também
+Quando você remove um cenário usando o cmdlet **Remove-CsClsScenario**, ele é completamente removido do escopo. Para usar os cenários que você criou e os provedores que faziam parte dele, crie novos provedores e atribua-os a um novo cenário.
+## <a name="see-also"></a>Consulte Também
 
 [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)
   

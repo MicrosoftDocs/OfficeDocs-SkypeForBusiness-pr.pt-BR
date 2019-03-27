@@ -1,5 +1,6 @@
 ---
-title: Dados qualidade da experiência (QoE)
+title: Dados de QoE (Qualidade da Experiência)
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 3d46cafbd8bb0f5414c21fc5414a582f7ea0f991
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9d877d8b63d8d7ebfd7f5e0bdae2f074822dc59d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973553"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882709"
 ---
-# <a name="quality-of-experience-qoe-data"></a>Dados qualidade da experiência (QoE)
+# <a name="quality-of-experience-qoe-data"></a>Dados de QoE (Qualidade da Experiência)
  
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
   

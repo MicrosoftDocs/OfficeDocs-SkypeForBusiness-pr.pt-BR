@@ -1,5 +1,6 @@
 ---
 title: Definir troncos adicionais no construtor de topologia no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 'Resumo: Saiba como definir um tronco adicional entre um servidor de mediação e um par de gateway no construtor de topologia no Skype para Business Server.'
-ms.openlocfilehash: 1f70a1d99ebff1bbc1fbd162b322185b3cd21690
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 874d32053f4c3d91f16818bd34dc11806de8692c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370656"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881957"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Definir troncos adicionais no construtor de topologia no Skype para Business Server
  
@@ -57,7 +58,7 @@ Um tronco é uma conexão lógica entre um servidor de mediação e um gateway.
     > Com suporte a troncos múltiplos no Skype para Business Server, dois troncos com nomes de tronco diferentes podem ser configurados com a mesma **porta do servidor de mediação associado** e **Porta de escuta do gateway IP/PSTN**
   
     > [!NOTE]
-    > Com suporte a troncos múltiplos no Skype para Business Server, as portas de sinalização do SIP de vários pode ser definido no servidor de mediação para comunicação com vários correspondentes. Ao definir um tronco, o número da **porta do servidor de mediação associado** deve ser dentro do intervalo das portas de escuta para o protocolo respectivo permitidos pelo servidor de mediação. Esse intervalo de portas é definido em Skype para pools Business Server e o servidor de mediação. O pool do servidor de mediação relevante do mouse em e selecione **Editar propriedades**. Especifique o intervalo de portas no campo **Portas de escuta**.
+    > Com suporte a troncos múltiplos no Skype para Business Server, as portas de sinalização do SIP de vários pode ser definido no servidor de mediação para comunicação com vários correspondentes. Ao definir um tronco, o número da **porta do servidor de mediação associado** deve ser dentro do intervalo das portas de escuta para o protocolo respectivo permitidos pelo servidor de mediação. Esse intervalo de portas é definido em Skype para pools Business Server e o servidor de mediação. O pool do servidor de mediação relevante do mouse em e selecione **Editar propriedades**. Specify the port range in the **Listening ports** field.
   
 7. Clique em **OK**. 
     

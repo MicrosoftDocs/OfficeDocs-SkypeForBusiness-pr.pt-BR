@@ -1,5 +1,6 @@
 ---
 title: Verificar a integridade do serviço para o Microsoft Teams
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,12 +14,12 @@ search.appverid: MET150
 description: É uma boa prática verificar se o serviço do Teams está íntegro, bem como outros componentes do Office 365, como o Exchange, o SharePoint e o OneDrive for Business.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 128c313773ece66dc46643a8de227a21ace4ff4d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3e4365d253148377fc61cd9bdb6300f7c76df298
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464032"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879944"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Verificar a integridade do serviço para o Microsoft Teams
 ===========================================

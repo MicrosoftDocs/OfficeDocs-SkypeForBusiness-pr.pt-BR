@@ -1,5 +1,6 @@
 ---
 title: Planejar-se para Grupos do Office 365 ao criar equipes no Microsoft Teams
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a54549fd1e82affecad6a69d17e10cf6e1dc763
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 016831a9c3d5cac6c331d6112adbc2738ec8382b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640678"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884382"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planejar-se para Grupos do Office 365 ao criar equipes no Microsoft Teams
 ==========================================================
@@ -28,7 +29,7 @@ Ao considerar o uso dos Grupos do Office 365 ou ao criar equipes, considere para
 
 Existem dois cenários que justificam uma discussão em torno do planejamento dos Grupos do Office 365 e seu impacto em (ou pelo) Microsoft Teams:
 
--   Primeiro, uma vez que os clientes podem ter investimentos existentes nos Grupos, no momento temos suporte para grupos públicos e privados com até 2500 membros. Conforme mencionado anteriormente, você deseja gerenciar a associação de pessoas para uma equipe usando o cliente de equipes em vez do console de web de administração do Office 365. Dado neste cenário, se as pessoas são usadas para threaded conversas em grupos do Office 365, vale a pena observar que uma conversa de grupos é essencialmente eletrônico e não o mesmo que uma mensagem de bate-papo em um canal de equipes. Informe essa diferença ao seu pessoal ou sugira que adotem um formato de mensagens de bate-papo mais flexível no Teams, em vez de enviar e-mails aos grupos usando o Outlook ou o OWA.
+-   Em primeiro lugar, desde que os clientes poderia ter os investimentos existentes em grupos, oferecemos suporte atualmente grupos públicos e particulares de menor do que 5000 membros. Conforme mencionado anteriormente, você deseja gerenciar a associação de pessoas para uma equipe usando o cliente de equipes em vez do console de web de administração do Office 365. Dado neste cenário, se as pessoas são usadas para threaded conversas em grupos do Office 365, vale a pena observar que uma conversa de grupos é essencialmente eletrônico e não o mesmo que uma mensagem de bate-papo em um canal de equipes. Informe essa diferença ao seu pessoal ou sugira que adotem um formato de mensagens de bate-papo mais flexível no Teams, em vez de enviar e-mails aos grupos usando o Outlook ou o OWA.
 
 -   Em segundo lugar, para os clientes que não possuem Grupos definidos no Office 365, você pode criá-los usando o portal de administração do Office 365, o Teams web ou os clientes desktop. Conforme mencionado anteriormente, gerencie todas as futuras assinaturas do Grupo do Office 365 usando o cliente Teams. Desde que a associação para uma equipe também está definindo a associação aos grupos do Office 365, você deve preparar as pessoas para que essa alteração.
  

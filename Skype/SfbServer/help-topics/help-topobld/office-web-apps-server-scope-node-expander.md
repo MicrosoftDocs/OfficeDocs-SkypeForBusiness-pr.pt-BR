@@ -1,5 +1,6 @@
 ---
 title: Expansor de Nó de Escopo do Servidor do Office Web Apps
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 description: 'Você direito do mouse em Office Web Apps Servers no construtor de topologias para executar o seguinte:'
-ms.openlocfilehash: fccc7fc89c069b45a9482c3cea21b9faf189dc74
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 58dd287b4749ed0855e8bf122397622b681e73d6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884213"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expansor de Nó de Escopo do Servidor do Office Web Apps
  
@@ -26,10 +28,10 @@ Você direito do mouse em **Office Web Apps Servers** no construtor de topologia
     
 Além da opção novo Office Web Apps Server, você pode executar as seguintes tarefas gerais:
   
-![Nó de escopo do servidor do Office Web Apps](../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Nó de escopo de servidor de WebApps do Office](../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
-- **Topologia**. Você pode usar esta opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia ou publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia ou publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
     
-- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
+- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
     
 

@@ -1,5 +1,6 @@
 ---
 title: 'Gerenciar os números de acesso de conferência discada em Skype para Business Server '
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 'Resumo: Saiba como gerenciar os números de acesso de conferência discada em Skype para Business Server.'
-ms.openlocfilehash: a9e93b52a329a4fdce6817a758b6c6dcb29a0348
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c074cb9417e39d8964996f643b90f8fe3e0fd7b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008185"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883518"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Gerenciar os números de acesso de conferência discada em Skype para Business Server
  
@@ -90,9 +91,9 @@ Você pode modificar os números de acesso discado usando Skype para o painel de
     
     Esse número é exibido em convites de reunião e na página da Web de Configurações de Conferência Discada.
     
-6. Em **Nome de exibição**, digite uma descrição para o número de acesso de discagem. Este é o nome que está associado ao número de acesso de discagem no Skype para resultados de pesquisa de negócios.
+6. Em **Nome para exibição**, digite uma descrição para o número de acesso de discagem. Este é o nome que está associado ao número de acesso de discagem no Skype para resultados de pesquisa de negócios.
     
-    Este nome é exibido no cliente quando um usuário chama o número de acesso. 
+    Esse nome é exibido no cliente quando um usuário disca o número de acesso. 
     
 7. Em **URI da Linha**, digite o número E.164 do número de acesso de discagem em formato TEL URI, incluindo o símbolo + antes do número e excluindo espaços. Por exemplo, tel:+14255550200.
     
@@ -111,7 +112,7 @@ Você pode modificar os números de acesso discado usando Skype para o painel de
 9. Em  **Pool**, clique no pool que está executado a instância Atendedor de Conferência que dá suporte ao número de acesso de discagem.
     
     > [!NOTE]
-    > Se você precisar alterar o pool depois de criar o número de acesso, você deve usar o cmdlet **Move-CsApplicationEndpoint** ou excluir e recriar o número de acesso.
+    > Se for preciso alterar o pool depois de criar o número de acesso, deve-se usar o cmdlet do **Move-CsApplicationEndpoint** ou excluir e recriar o número de acesso.
   
 10. Em **Idioma principal**, clique no idioma no qual as solicitações são reproduzidas para esse número de acesso de discagem. 
     

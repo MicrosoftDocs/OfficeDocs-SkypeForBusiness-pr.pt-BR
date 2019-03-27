@@ -1,5 +1,6 @@
 ---
 title: Atribuir uma política de acesso de usuário externo
+ms.reviewer: ''
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Se um usuário tiver sido habilitado para Skype para Business Server, você pode configurar a federação SIP, acesso de usuário remoto e pública mensagens instantâneas conectividade (IM) no Skype para painel de controle do Business Server, aplicando as políticas adequadas a usuários específicos.
-ms.openlocfilehash: 3498b7aabaddc80053efca70b89198c224147c0e
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: f07a407fee6f32f4cd4207c93ca19341e409ea78
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222839"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881497"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Atribuir uma política de acesso de usuário externo a um Skype para usuário comercial habilitado
 
@@ -39,12 +40,12 @@ Use o procedimento neste tópico para aplicar uma política de acesso de usuári
 
 3.  Na barra de navegação esquerda, clique em **Usuários** e pesquise a conta de usuário que deseja configurar.
 
-4.  Na tabela que lista os resultados da pesquisa, clique na conta de usuário, clique em **Editar** e, em seguida, clique em **Mostrar detalhes**.
+4.  Na tabela que lista os resultados da pesquisa, clique na conta do usuário, em **Editar** e em **Exibir detalhes**.
 
 5.  Em **Editar Skype para usuário de servidor de negócios** em **política de acesso externo**, selecione a política de usuário que você deseja aplicar.
      
 > [!NOTE]  
-> O ** \<automática >** configurações se aplicam as configurações de política global ou de servidor padrão.
+> O ** \<Automatic>** configurações se aplicam as configurações de política global ou de servidor padrão.
 
 
 ## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Atribuindo políticas de acesso externo por usuário usando Cmdlets do Windows PowerShell

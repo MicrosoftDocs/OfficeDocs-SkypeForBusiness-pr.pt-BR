@@ -1,5 +1,6 @@
 ---
 title: Suplemento de Chat Persistente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você pode usar a seção Add-in da página Chat persistente para associar URLs salas de Chat persistente. Essas URLs aparecem no cliente na sala de chat no painel de extensão da conversa. Um administrador precisa adicionar Suplementos à lista de suplementos registrados, e os gerentes/Criadores de sala de chat precisam associar salas a um dos suplementos registrados antes de os usuários poderem ver essa atualização em seu cliente.
-ms.openlocfilehash: 302bb3fbf58d19eac59c9983b4a32474bc6cdf40
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f5cdc444a5cca1a79d16042fc356c02c9ef77342
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20984425"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879952"
 ---
 # <a name="persistent-chat-add-in"></a>Suplemento de Chat Persistente
 

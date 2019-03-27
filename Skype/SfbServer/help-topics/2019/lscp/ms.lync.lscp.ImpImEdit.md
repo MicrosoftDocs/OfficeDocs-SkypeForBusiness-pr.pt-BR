@@ -1,5 +1,6 @@
 ---
 title: Filtro de URL criar novo ou editar existente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: c2bcd3a589151b5b6848f6bfd02635ba1a08bfa2
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 08071375327308da7660e0c225ad3a30408a81bf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241922"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884779"
 ---
-# <a name="url-filter-create-new-or-edit-existing"></a>Filtro de URL: Criar nova ou editar existente
+# <a name="url-filter-create-new-or-edit-existing"></a>Filtro URL: Criar Novo ou Editar Existente
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 

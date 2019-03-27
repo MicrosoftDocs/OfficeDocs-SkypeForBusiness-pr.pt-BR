@@ -1,5 +1,6 @@
 ---
 title: Habilitar usuários para o Enterprise Voice no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 'Resumo: Saiba como permitir que os usuários façam e recebam chamadas usando o Enterprise Voice no Skype para Business Server.'
-ms.openlocfilehash: 9e1435c73a175ef40b4962ace41f4c7690f85953
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b02155f424e8b3f29881caf8c4a29db6f76cb807
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883753"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882966"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Habilitar usuários para o Enterprise Voice no Skype para Business Server
  
@@ -55,10 +56,10 @@ Após a implantação do Enterprise Voice ou chamada Via trabalho, você pode us
     
 9. Clique em **Confirmar**.
     
-Para finalizar a habilitação de um usuário para o Enterprise Voice, certifique-se que o usuário é atribuído a uma política de voz e um plano de discagem, global (atribuído por padrão) ou específico do usuário. Por padrão, todos os usuários recebem uma política de voz global e plano de discagem. Se uma política de voz ou plano de discagem existe no nível do site para o site na qual a conta do usuário está hospedada, estas políticas de site serão aplicadas automaticamente ao usuário. Para aplicar uma política de voz por usuário ou plano a um usuário de discagem, você deve executar os cmdlets **Grant-CsVoicePolicy** e **Grant-CsDialPlan** . Para obter detalhes, consulte os procedimentos a seguir para este tópico.
-## <a name="voice-policy-assignment"></a>Atribuição da política de voz
+Para finalizar a habilitação de um usuário para o Enterprise Voice, certifique-se que o usuário é atribuído a uma política de voz e um plano de discagem, global (atribuído por padrão) ou específico do usuário. Por padrão, todos os usuários recebem uma política de voz global e plano de discagem. Se um plano de discagem ou política de voz existir no nível do site para o site no qual a conta de usuário está hospedada, as políticas de site serão automaticamente aplicadas ao usuário. Para aplicar uma política de voz por usuário ou plano a um usuário de discagem, você deve executar os cmdlets **Grant-CsVoicePolicy** e **Grant-CsDialPlan** . Para obter detalhes, consulte os seguintes procedimentos neste tópico.
+## <a name="voice-policy-assignment"></a>Atribuição de política de voz
 
-Políticas de voz global e no nível do site são automaticamente atribuídas a todas as contas de usuário que estão habilitadas para o Enterprise Voice. É possível também criar políticas de voz que são aplicadas a usuários ou grupos específicos. Essas políticas por usuário devem ser atribuídas explicitamente aos usuários ou grupos. Se desejar usar o modelo global ou de site de política de voz para todos os usuários habilitados para o Enterprise Voice, você pode pular esta seção e continuam a [Atribuição de plano de discagem](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) seção mais adiante neste tópico.
+Políticas de voz global e no nível do site são automaticamente atribuídas a todas as contas de usuário que estão habilitadas para o Enterprise Voice. Você também pode criar políticas de voz que se aplicam a usuários ou grupos específicos. Essas políticas por usuário devem ser explicitamente atribuídas a usuários ou grupos. Se desejar usar o modelo global ou de site de política de voz para todos os usuários habilitados para o Enterprise Voice, você pode pular esta seção e continuam a [Atribuição de plano de discagem](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) seção mais adiante neste tópico.
   
 ### <a name="to-assign-a-user-specific-voice-policy"></a>Para atribuir uma política de voz específica do usuário
 
@@ -66,7 +67,7 @@ Políticas de voz global e no nível do site são automaticamente atribuídas a 
     
 2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
     
-3. Para atribuir uma política de voz do usuário existente para um usuário, execute o seguinte no prompt de comando:
+3. Para atribuir uma política de voz de usuário existente a um usuário, execute o seguinte no prompt de comando:
     
    ```
    Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
@@ -80,12 +81,12 @@ Políticas de voz global e no nível do site são automaticamente atribuídas a 
 
     Neste exemplo, o usuário com o nome de exibição Bob Kelly é atribuído a política de voz com o nome **VoicePolicyJapan**.
     
-## <a name="dial-plan-assignment"></a>Atribuição do plano de discagem
+## <a name="dial-plan-assignment"></a>Atribuição de plano de discagem
 <a name="BKMK_DialPlanAssignment"> </a>
 
-Para concluir a configuração da conta de usuário para usuários do Enterprise Voice ou usuários de conferência discada, o usuário deve ser atribuído um plano de discagem. As contas do usuário usarão automaticamente o plano de discagem global ou, se existir, o plano de discagem local, quando você não atribuir explicitamente um plano de discagem por usuário existente. Se você deseja usar global ou de site de plano de discagem para todos os usuários habilitados para o Enterprise Voice, você poderá ignorar esta seção.
+Para concluir a configuração da conta de usuário para usuários do Enterprise Voice ou usuários de conferência discada, o usuário deve ser atribuído um plano de discagem. Contas de usuário usarão o plano de discagem global automaticamente ou, se houver, o plano de discagem de nível de site, quando você não atribuir explicitamente um plano de discagem por usuário existente. Se você deseja usar global ou de site de plano de discagem para todos os usuários habilitados para o Enterprise Voice, você poderá ignorar esta seção.
   
-### <a name="to-assign-a-user-specific-dial-plan"></a>Para atribuir um plano de discagem específico a um usuário
+### <a name="to-assign-a-user-specific-dial-plan"></a>Para atribuir um plano de discagem específico do usuário
 
 1. Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
     

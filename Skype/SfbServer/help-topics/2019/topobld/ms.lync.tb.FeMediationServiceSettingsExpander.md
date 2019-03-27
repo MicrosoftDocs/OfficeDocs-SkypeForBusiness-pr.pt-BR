@@ -1,5 +1,6 @@
 ---
 title: Expansor de Configurações de Serviço de Mediação
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Em Servidor de Mediação, você pode especificar o seguinte:'
-ms.openlocfilehash: 7a42bca81f823fd22d933dd8460cf644605d7908
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+description: 'No caso do Servidor de Mediação, você pode especificar o seguinte:'
+ms.openlocfilehash: 3e860f6b597479787fa09fed57d413e5492fe6eb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261151"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882506"
 ---
 # <a name="mediation-service-settings-expander"></a>Expansor de Configurações de Serviço de Mediação
 
-Em **Servidor de Mediação**, você pode especificar o seguinte:
+No caso do **Servidor de Mediação**, você pode especificar o seguinte:
 
 Se você estiver colocando o servidor de mediação para o pool de Front-End ou servidor Standard Edition, marque a caixa de seleção **servidor de mediação posicionado habilitado**. Se você escolher não coloque o servidor de mediação, não há nenhuma configuração definíveis nesta seção.
 

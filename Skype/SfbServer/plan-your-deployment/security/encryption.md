@@ -1,5 +1,6 @@
 ---
 title: Criptografia do Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Skype para Business Server usa o TLS e MTLS para criptografar mensagens instantâneas. Todo o tráfego de servidor para servidor necessita do MTLS, independentemente se o tráfego está restrito à rede interna ou se ultrapassa seu perímetro. Quando a conexão Skype para Business Server a 3º sistemas IPPBX de terceiros ou troncos SIP TLS é opcional, mas altamente recomendado entre o servidor de mediação e o gateway de mídia. Se o TLS for configurado neste link, o MTLS será necessário. Portanto, o gateway deve ser configurado com um certificado de uma autoridade de certificação confiável pelo servidor de mediação.
-ms.openlocfilehash: 7ed4297ef766b769827b6805087d02f0ad708fe7
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: e4a58cf10d268dedadb34556206e1c7227d4fdf5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069629"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879206"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Criptografia do Skype para Business Server
  
@@ -34,7 +35,7 @@ A seguinte tabela resume os requisitos de protocolo para cada tipo de tráfego.
 |:-----|:-----|
 |Servidor para Servidor  <br/> |MTLS  <br/> |
 |Cliente para Servidor  <br/> |TLS  <br/> |
-|Mensagens instantâneas e presença  <br/> |TLS   <br/> |
+|Mensagens instantâneas e presença  <br/> |TLS  <br/> |
 |Compartilhamento de mídia de áudio, vídeo e de área de trabalho  <br/> |SRTP  <br/> |
 |Compartilhamento de área de trabalho (sinalização)  <br/> |TLS  <br/> |
 |Webconferência  <br/> |TLS  <br/> |

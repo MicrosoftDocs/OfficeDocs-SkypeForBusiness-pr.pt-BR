@@ -1,5 +1,6 @@
 ---
 title: Relatório de lista de chamada o grupo de resposta no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: 'Resumo: Saiba mais sobre o aplicativo de grupo de resposta no Skype para Business Server.'
-ms.openlocfilehash: c85d94c975cb7e104fdefc50ab935cf695223127
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5fe2665a90d5a2122965dd89fdf58087d910de47
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372920"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883256"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>Relatório de lista de chamada o grupo de resposta no Skype para Business Server
 
@@ -92,9 +93,9 @@ Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibi
 
 | **Nome**               | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |:-----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **De** <br/>         | Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 03/07/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
-| **Até** <br/>           | Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 03/07/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/>        |
-| **URI do Fluxo de Trabalho** <br/> | Permite limitar os dados retornados ao fluxo de trabalho do Grupo de Resposta especificado. Para usar esse filtro, insira o endereço SIP do Fluxo de Trabalho. Por exemplo:  <br/> SIP:helpdesk@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                            |
+| **De** <br/>         | Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 3/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
+| **Até** <br/>           | Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 3/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/>        |
+| **URI do Fluxo de Trabalho** <br/> | Permite limitar os dados retornados ao fluxo de trabalho do Grupo de Resposta especificado. Para usar esse filtro, insira o endereço SIP do Fluxo de Trabalho. Por exemplo:  <br/> sip:helpdesk@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                            |
 | **Chamadas** <br/>        | Você pode selecionar um dos seguintes tipos de chamadas: <br/>  Chamadas Recebidas <br/>  Chamadas Bem-sucedidas <br/>  Chamadas Oferecidas <br/>  Chamadas Atendidas <br/>  Chamadas Transferidas <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
 
 ## <a name="metrics"></a>Métricas

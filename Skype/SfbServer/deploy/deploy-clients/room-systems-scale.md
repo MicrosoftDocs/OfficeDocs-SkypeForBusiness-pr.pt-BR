@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este tópico para saber mais sobre como implantar sistemas de sala Skype v2 em implantações de grande escala.
-ms.openlocfilehash: 3188748c1222a87d0861693c5b0c85ede3cba5a9
-ms.sourcegitcommit: 2a34c9955d2cf54085dee527ea493ce991ef2e10
+ms.openlocfilehash: 39884e660ca757827570f6c7c4005baa7b59a1b0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30340474"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880774"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Implantar sistemas de sala Skype v2 usando o System Center Configuration Manager
 
@@ -141,7 +141,7 @@ Você precisa criar e configurar os pacotes a seguir e, em seguida, distribuí-l
 | SRS v2 - configurar a instalação do SRS         | Pacote de software       | Pacote para configurar a implantação do aplicativo v2 sistemas de sala do Skype                          |
 | SRS v2 - pacote de atualizações de sistema operacional          | Pacote de software       | Pacote para implantar as atualizações obrigatórias do sistema operacional                                      |
 | SRS v2 - pacote do certificado raiz    | Pacote de software       | Opcional - pacote para implantar o certificado raiz (não é necessário para unidades de domínio)  |
-| SRS v2 - pacote do Microsoft OMS agente | Pacote de software       | Opcional - pacote para implantar e configurar o agente do pacote de gerenciamento de operações do Microsoft|
+| SRS v2 - Microsoft pacote do agente de monitoramento | Pacote de software       | Opcional - pacote para implantar e configurar o agente do pacote de gerenciamento de operações do Microsoft|
 | SRS v2 - pacote de plano de fundo do WinPE    | Pacote de software       | Pacote para a imagem de plano de fundo personalizado a ser usada com imagens de inicialização                           |
 | Windows 10 Enterprise                | Imagem do sistema operacional | Pacote para o arquivo de instalação do sistema operacional (WIM)                          |
 | Surface Pro                          | Pacote de driver         | Pacote para drivers de dispositivo e firmware Microsoft Surface Pro                     |
@@ -155,7 +155,7 @@ Gerenciador de configuração requer os arquivos de origem de pacote para ser or
 
 Crie a seguinte estrutura de pasta no site de administração central do System Center Configuration Manager ou sites primário ou em um compartilhamento de servidor que você está usando para arquivos de origem do pacote de host:
 
--   SRS v2 - pacote do Microsoft OMS agente
+-   SRS v2 - Microsoft pacote do agente de monitoramento
 -   SRS v2 - pacote de atualizações de sistema operacional
 -   SRS v2 - pacote do certificado raiz
 -   SRS v2 - Set-SRSComputerName pacote
@@ -171,23 +171,23 @@ Crie a seguinte estrutura de pasta no site de administração central do System 
 > [!TIP]
 > Você também pode [Baixar](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) e usar o arquivo zip que inclui a estrutura de pasta para os pacotes e os scripts que você precisará usar o modelo de sequência de tarefa, que você precisa importar.
 
-### <a name="create-the-microsoft-operations-management-suite-agent-package"></a>Crie o pacote do pacote de gerenciamento de operações do Microsoft agent
+### <a name="create-the-monitoring-agent-package"></a>Criar o pacote do agente de monitoramento
 
-1. Baixe o agente do pacote de gerenciamento de operações X-64 contra <https://go.microsoft.com/fwlink/?LinkId=828603>.
+1. Baixe o agente de monitoramento da <https://go.microsoft.com/fwlink/?LinkId=828603>.
 
-2. Extraia o pacote para a pasta **SRS v2 - pacote do Microsoft OMS agente** abrindo uma janela de Prompt de comando e inserindo **/c de MMASetup-AMD64.exe:** no prompt de comando.
+2. Extraia o pacote para a pasta **SRS v2 - Microsoft Monitoring Agent Package** abrindo uma janela de Prompt de comando e inserindo **/c de MMASetup-AMD64.exe:** no prompt de comando.
 
 3. No console do Configuration Manager, vá para **A biblioteca de Software** \> **Gerenciamento de aplicativos** \> **pacotes**e, em seguida, selecione **Criar pacote**.
 
 4. Insira as informações a seguir para criar o pacote:
 
-   - Nome<strong>: SRS v2 - pacote do Microsoft OMS agente</strong>
+   - Nome<strong>: SRS v2 - Microsoft Monitoring Agent pacote</strong>
 
    - Fabricante<strong>: Microsoft Corporation</strong>
 
    - Versão<strong>: 8.1.11081.0</strong> (Insira a versão do arquivo de instalação baixado)
 
-   - Marque a caixa de seleção **Este pacote contém arquivos de origem** , insira o caminho da pasta **SRS v2 - pacote do Microsoft OMS agente** e selecione **Avançar**.
+   - Marque a caixa de seleção **Este pacote contém arquivos de origem** , insira o caminho da pasta **SRS v2 - pacote de agente de monitoramento Microsoft** e selecione **Avançar**.
 
 5. Selecione **não criar um programa**e selecione **Avançar**.
 
@@ -623,12 +623,12 @@ Você pode baixar e facilmente importar uma sequência de tarefas de amostra e p
       -   Habilite esta etapa se você precisa para implantar um certificado raiz para as unidades de v2 Skype sistemas de sala.
       -   Se você precisar realizar esta etapa, verifique o **SRS v2 – pacote do certificado raiz** e o **redirecionamento de sistema de arquivo desabilitar 64 bits** são selecionados.
 
-   10. **Instalar e configurar o agente de OMS**: essa etapa instala a versão de 64 bits do agente do pacote de gerenciamento de operações do Microsoft e configura o agente para se conectar ao seu espaço de trabalho de análise de Log.
-       -   Esta etapa é desabilitada por padrão. Habilite esta etapa somente se você vai usar OMS para monitorar a integridade de unidades de v2 seus sistemas de sala Skype.
+   10. **Instalar e configurar o agente de monitoração**: essa etapa instala a versão de 64 bits do agente do Microsoft Azure Monitor e configura o agente para se conectar ao seu espaço de trabalho de análise de Log.
+       -   Esta etapa é desabilitada por padrão. Habilite esta etapa somente se você pretende usar o agente de monitoramento para monitorar a integridade de unidades de v2 seus sistemas de sala Skype.
        -   Editar esta etapa e atualizar os parâmetros de linha de comando para especificar sua **ID de espaço de trabalho** e a **Chave do espaço de trabalho**.
-       -   Consulte [computadores com Windows se conectar ao serviço de Log de análise no Windows Azure](with-oms.md#configure-test-devices-for-operations-management-suite-setup) para obter mais informações sobre como obter a ID de espaço de trabalho de pacote de gerenciamento de operações e a chave primária.
-       -   Verifique se que o **redirecionamento de sistema de arquivo desabilitar 64 bits** e **SRS v2 – pacote do agente do Microsoft OMS** estão selecionadas.
-       -   Para obter mais informações sobre como monitorar a integridade da sua implantação do Skype sala sistemas v2, consulte [gerenciamento de v2 de sistemas de sala Skype planejar com OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) e [gerenciamento de v2 implantar sistemas do Skype sala com OMS](with-oms.md#configure-test-devices-for-operations-management-suite-setup).
+       -   Consulte [Configure testar dispositivos para monitoramento do Windows Azure](azure-monitor.md#configure-test-devices-for-azure-monitoring) para obter mais informações sobre como obter a ID de espaço de trabalho de pacote de gerenciamento de operações e a chave primária.
+       -   Verifique se o **redirecionamento de sistema de arquivo desabilitar 64 bits** e **SRS v2 – pacote de agente de monitoramento do Microsoft** estão marcada.
+       -   Para obter mais informações sobre como monitorar a integridade da sua implantação do Skype sala sistemas v2, consulte [sistemas de sala Skype planejar o gerenciamento de v2 com o Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [gerenciamento de v2 de sistemas de sala Skype implantar com o Azure Monitor](azure-monitor.md) e [Gerenciar Skype sala Dispositivos de v2 sistemas com o Windows Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md).
 
    11. **Arquivos de configuração de v2 SRS de cópia**: esta etapa copia os arquivos de instalação e configuração necessários do kit de implantação do Skype sala sistemas v2 para o disco rígido local. Sem personalização é necessária para esta etapa.
        -   Verifique se o **SRS v2 – SRS pacote de aplicativo** e o **redirecionamento de sistema de arquivo desabilitar 64 bits** são selecionado.

@@ -1,5 +1,6 @@
 ---
 title: Configurar cenários para o Serviço de Log Centralizado no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 'Resumo: Saiba como criar, modificar e remover cenários para o serviço de registro em log centralizado no Skype para Business Server 2015.'
-ms.openlocfilehash: e80324d4228aec503c887927459e42188741837f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 453c9c593e53dca186b09e1ba835bc8f94bb7112
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373927"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878298"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurar cenários para o Serviço de Log Centralizado no Skype for Business Server 2015
  
@@ -56,7 +57,7 @@ Conforme introduzidos em [Centralized Logging Service no Skype para negócios 20
 
 1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
     
-2. Para criar um novo cenário para uma sessão de log, use [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps) e definir o nome do cenário (ou seja, como ele vai ser unicamente identificado). Escolha um tipo de formato de registro em log entre WPP (ou seja, o pré-processador de rastreamento de software do Windows, que é o padrão), EventLog (ou seja, o formato de log de eventos do Windows) ou IISLog (ou seja, o arquivo de formato ASCII baseado no formato de arquivo de log do IIS). Em seguida, defina o nível (conforme definido em Níveis de registro em log, neste tópico) e os sinalizadores (conforme definido em Sinalizadores, neste tópico).
+2. Para criar um novo cenário para uma sessão de registro em log, use [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps) e defina o nome do cenário (ou seja, como ele será identificado exclusivamente). Escolha um tipo de formato de registro em log entre WPP (ou seja, o pré-processador de rastreamento de software do Windows, que é o padrão), EventLog (ou seja, o formato de log de eventos do Windows) ou IISLog (ou seja, o arquivo de formato ASCII baseado no formato de arquivo de log do IIS). Em seguida, defina o nível (conforme definido em Níveis de registro em log, neste tópico) e os sinalizadores (conforme definido em Sinalizadores, neste tópico).
     
     Para este cenário de exemplo, usaremos LyssProvider como a variável de provedor de exemplo.
     
@@ -141,7 +142,7 @@ Conforme introduzidos em [Centralized Logging Service no Skype para negócios 20
    Remove-CsClsScenario -Identity "site:Redmond/LyssServiceScenario"
    ```
 
-O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastreamentos que foram coletados ainda estão disponíveis nos logs para pesquisa.
+O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastreamentos que foram coletados ainda estarão disponíveis nos logs para pesquisa.
 ### <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clsscenarioeditpsm1-module"></a>Para carregar e descarregar o cmdlet Edit-CsClsScenario usando o módulo ClsScenarioEdit.psm1
 
 1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.

@@ -1,5 +1,6 @@
 ---
 title: Selecionar Membros Permitidos
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Criando e gerenciando salas de Chat persistente são muito mais fácil com o uso correto das categorias. Um administrador de Chat persistente pode definir uma lista de membros para cada categoria e também pode definir as configurações de sala de chat padrão e os comportamentos que serão aplicados a todas as salas de chat criadas na categoria. Administradores de Chat persistente criar e gerenciar categorias usando o painel de controle ou os cmdlets do Windows PowerShell.
-ms.openlocfilehash: 192f9ed8fc5afaa5cfb586ce8b517a72daec333c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d47e60214b6f448b880e1eda646e6b4c936d192d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20994819"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878904"
 ---
 # <a name="select-allowed-members"></a>Selecionar Membros Permitidos
 

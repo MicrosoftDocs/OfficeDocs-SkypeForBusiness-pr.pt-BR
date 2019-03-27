@@ -1,5 +1,6 @@
 ---
-title: Certificado pendente (retornado)
+title: Certificado Pendente (Retornado)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 description: A página Status da solicitação de certificado Online retorna o status atual do certificado. Se o certificado ainda está em um estado de aprovação pendente com o administrador da autoridade de certificação — que é, se não tiver sido ainda foi aprovada — o status dela indicará que o certificado ainda está sendo processado.
-ms.openlocfilehash: 98f5070590753e2fbd0adcc62b186777dee77521
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 468a8686c80d8605df5c4b3fde58b54c2eced7f7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000145"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879973"
 ---
-# <a name="pending-certificate-returned"></a>Certificado pendente (retornado)
+# <a name="pending-certificate-returned"></a>Certificado Pendente (Retornado)
  
 A página **Status da solicitação de certificado Online** retorna o status atual do certificado. Se o certificado ainda está em um estado de aprovação pendente com o administrador da autoridade de certificação — que é, se não tiver sido ainda foi aprovada — o status dela indicará que o certificado ainda está sendo processado.
   

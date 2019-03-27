@@ -1,5 +1,6 @@
 ---
 title: Provedores Federados SIP
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,17 +13,17 @@ localization_priority: Normal
 ms.assetid: 0e875ac6-8afb-45bc-bcaa-3c7451125fae
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 3555e318bdac9381423bf659db1c9dc2d794d427
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: dc06cabaeddd5bf9f64eae4d26761656ef8bf9dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254575"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882485"
 ---
-# <a name="sip-federated-providers"></a>Provedores federados SIP
+# <a name="sip-federated-providers"></a>Provedores Federados SIP
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 
-- [Gerenciar SIP Federated Providers para sua organização](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+- [Manage SIP Federated Providers for Your Organization](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
 
 

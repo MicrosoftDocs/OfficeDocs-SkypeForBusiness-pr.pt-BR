@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Visão geral do gerenciamento de sistemas de sala Skype v2.
-ms.openlocfilehash: b30406c9f186fad699056a78ed1b18da9f59537a
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: edd73c6ecf973d0d066b5f46d949a792bc0910c5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699349"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880282"
 ---
 # <a name="management-overview"></a>Visão geral do gerenciamento 
 
 É essencial que você desenvolver e executar manutenção contínua e a experiência de operações para garantir que seus sistemas de v2 Skype sala sistemas estão disponíveis para os usuários e oferecem um ótimo usuário. 
 
-## <a name="monitoring"></a>Monitoramento 
+## <a name="monitoring"></a>Monitoramento 
 
 Sistemas de sala Skype v2 sistemas de monitoramento consistem em duas atividades principais:
 
@@ -35,7 +35,7 @@ Sistemas de sala Skype v2 sistemas de monitoramento consistem em duas atividades
 Para garantir que os usuários sejam capazes de usar as unidades do Skype sala sistemas v2, as unidades devem estar na, conectado à rede com o aplicativo de v2 de sistemas de sala Skype configurado corretamente e estar conectadas ao funcionamento dispositivos periféricos. 
 
 
-Informações sobre o estado do aplicativo de v2 Skype sala sistemas e dispositivos periféricos conectados são gravadas pelo aplicativo Skype sala sistemas v2 para o log de eventos do Windows e documentadas [neste artigo](oms.md#understand-the-log-entries). 
+Informações sobre o estado do aplicativo de v2 Skype sala sistemas e dispositivos periféricos conectados é gravadas pelo aplicativo Skype sala sistemas v2 para o log de eventos do Windows e documentadas no [entender as entradas de log](azure-monitor.md#understand-the-log-entries). 
 
 |**Configuração**|**Permite**|
 |:-----|:-----|
@@ -43,20 +43,20 @@ Informações sobre o estado do aplicativo de v2 Skype sala sistemas e dispositi
 |Gerenciamento - de energia\> nas AC, desative tela após 10 minutos  <br/> Gerenciamento - de energia\> em AC, nunca colocar o sistema no modo de suspensão  <br/> |Permite que os sistemas de sala Skype v2 desativar exibe anexado e automaticamente de ativação  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Ou equivalentes meios de desativação de expiração de senha da conta local. Falha ao fazer isso, eventualmente, fará com que a conta do Skype falha de logon reclamando uma senha expirada. Observe que isso afeta todas as contas locais na máquina, e assim falha configurar isso também fará com que a conta administrativa na caixa eventualmente expire também.  <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
    
-A transferência de arquivos usando Políticas de Grupo é abordada em [Configurar um item Arquivo](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
+Transferência de arquivos usando diretivas de grupo será discutido em [Configure um Item do arquivo](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
   
 ## <a name="remote-management-using-powershell"></a>Gerenciamento remoto usando o PowerShell
 <a name="RemotePS"> </a>
 
 
-Recomendamos que você use o pacote do Microsoft Operations Manager para monitorar os sistemas de v2 Skype sistemas de sala. Para obter orientação sobre como configurar o monitoramento e alerta básica, consulte [gerenciamento de v2 de implantar sistemas do Skype sala com OMS](../../deploy/deploy-clients/with-oms.md). 
+Recomendamos que você use o pacote do Microsoft Operations Manager para monitorar os sistemas de v2 Skype sistemas de sala. Para obter orientação sobre como configurar o monitoramento e alerta básica, consulte [gerenciamento de v2 de implantar sistemas do Skype sala com Monitor do Azure](../../deploy/deploy-clients/azure-monitor.md). 
 
 Usando este guia, você pode criar um painel simples de usar para identificar problemas com suas unidades v2 de sistemas de sala Skype entre sua implantação. 
 
 |    |     |
 |-----------|------------|
 |![](../../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Confirme que você usará o pacote de gerenciamento de operações para monitorar sua implantação do Skype sala sistemas v2.</li><li>Decida a lista de distribuição de destino que você usará para alertas de email.</li></ul>|
-|![](../../media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Defina sua qualidade e a confiabilidade abordagem de monitoramento.</li></ul>|
+|![](../../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Defina sua qualidade e a confiabilidade abordagem de monitoramento.</li></ul>|
 
 ## <a name="quality-and-reliability-monitoring-cqd"></a>Qualidade e confiabilidade monitoring (CQD)
 
@@ -82,7 +82,7 @@ Recomendamos que você configure conforme descrito na seção acima para que sua
 Para obter mais informações sobre o modo de administração e solução de problemas, consulte [gerenciar sistemas de sala Skype v2](room-systems-v2-operations.md#admin-mode-and-device-management). 
 
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Ajuda da versão 2 de sistemas de sala do Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

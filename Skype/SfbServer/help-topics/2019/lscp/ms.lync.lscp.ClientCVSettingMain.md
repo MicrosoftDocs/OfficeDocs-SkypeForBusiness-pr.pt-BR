@@ -1,5 +1,6 @@
 ---
-title: Configuração de versão do cliente
+title: Configuração de Versão de Cliente
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Além de especificar a versão dos clientes que você deseja suportar em seu ambiente, você também pode especificar uma ação padrão para clientes que ainda não tenham uma política de versão definida. Isso permite restringir quais versões dos clientes são usados em seu ambiente, que pode ajudar a controlar os custos associados ao suporte de várias versões do cliente.
-ms.openlocfilehash: a7e2a1289e229828ad496f8f30211f09b73c3ad7
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c83dc832d6ea866a7f29f0a98213ea25853cd2f7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243606"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879837"
 ---
-# <a name="client-version-configuration"></a>Configuração de versão do cliente
+# <a name="client-version-configuration"></a>Configuração de Versão de Cliente
 
 Além de especificar a versão dos clientes que você deseja suportar em seu ambiente, você também pode especificar uma ação padrão para clientes que ainda não tenham uma política de versão definida. Isso permite restringir quais versões dos clientes são usados em seu ambiente, que pode ajudar a controlar os custos associados ao suporte de várias versões do cliente.
 
@@ -52,5 +53,5 @@ As listas a seguir descrevem os menus, comando, campos e propriedades na página
 
 - **Atualizar** É possível atualizar a lista de configuração de versão do cliente para verificar o status das opções de todas as configurações de versão do cliente.
 
-Para obter detalhes sobre a interoperabilidade entre clientes e versões de cliente, consulte [Client Interoperability](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com as configurações de versão de cliente, consulte [modificar a ação padrão para clientes não explicitamente suportados ou restritos](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) na documentação operações.
+Para obter detalhes sobre a interoperabilidade entre clientes e versões de cliente, consulte [Client Interoperability](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com configurações de versão de cliente, consulte [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) na documentação Operações.
 

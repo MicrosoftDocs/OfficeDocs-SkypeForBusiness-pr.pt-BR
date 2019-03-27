@@ -1,5 +1,6 @@
 ---
 title: Documentação das Ferramentas do Kit de Recursos do Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: Este tópico descreve as ferramentas do Skype para Business Server 2015 Resource Kit, incluindo o propósito de cada ferramenta e exemplos de seu uso. O Skype para Business Server 2015 Resource Kit ajuda a facilitar as tarefas de rotina para administradores de TI que implantam e gerenciam Skype para Business Server 2015. Por exemplo, a ferramenta Web Conf Data pode ser usada para controlar facilmente os dados carregados pelos usuários durante uma reunião online. A ferramenta SEFAUtil pode ser usada para configurar o encaminhamento e as respostas de chamadas de representantes para os usuários. Recomendamos que os administradores de TI para usar essas ferramentas para gerenciar com mais eficiência Skype para Business Server 2015.
-ms.openlocfilehash: d58ba07a06b29ffe03eadc38beb55d3cb623b8cd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 730ba434a70f49b01b70aaf0d9f1ac889bd2ba75
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533431"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879858"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Documentação das Ferramentas do Kit de Recursos do Skype for Business Server 2015
 
@@ -253,7 +254,7 @@ O registro da linha do tempo permite que o usuário da ferramenta especifique o 
 
 2. **Data de término** Trata-se da data de término da linha do tempo para a qual o relatório deve ser gerado; por exemplo, 30 de setembro de 2010.
 
-     ![Datas de início e término na Utilização da Largura de Banda A](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
+     ![Datas de início e término da utilização de largura de banda A](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
 
 #### <a name="step-2---specify-the-file-directories"></a>Etapa 2 – Especificar os diretórios do arquivo
 
@@ -263,7 +264,7 @@ Os seguintes diretórios de arquivo devem ser especificados pelo usuário, como 
 
 - **Local de armazenamento de arquivo temporário** O local de arquivo temporário onde os arquivos intermediários são armazenados enquanto o relatório está sendo gerado.
 
-![Arquivos de diretórios na Análise da Utilização da Largura de Banda](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
+![Diretórios de arquivo a largura de banda utilização idor de análise](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
 
 > [!NOTE]
 > Forneça ao usuário da ferramenta acesso suficiente aos arquivos de logs do servidor e à pasta de repositório de arquivos temporários.
@@ -272,11 +273,11 @@ Os seguintes diretórios de arquivo devem ser especificados pelo usuário, como 
 
 Para coletar os logs e iniciar o visualizador de relatórios, clique em **Executar**, como mostrado abaixo. Esta etapa coleta os dados necessários.
 
-![Coletando dados da Análise de Utilização de Largura de Banda](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
+![Coleta de dados no Analy de utilização de largura de banda](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
 
 Se a validação da entrada for bem-sucedida, a mensagem abaixo será exibida.
 
-![Notificação de coleta de logs no Bandwidth Utili](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
+![Logs de notificação coletada em Utili a largura de banda](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
 
 Clique em **OK**. BandwidthUtilizationAnalyzer.xlsm será iniciado automaticamente. Siga as instrução na caixa de mensagens. Para obter mais detalhes, consulte **Uso do BandwidthUtilizationAnalyzer.xlsm ** na próxima seção.
 
@@ -289,19 +290,19 @@ Clique em **OK**. BandwidthUtilizationAnalyzer.xlsm será iniciado automaticamen
 
 2. Quando uma pasta de arquivos for aberta, selecione consolidated.csv na localização especificada na caixa de mensagens, como a seguir. A localização também é mostrada como **C:\Temp**.
 
-     ![Como abrir uma pasta no BandwidthUtilizationAnalyzer.](../media/Reskit_2012_Tools_Documentation_Image9.jpg)
+     ![Abrindo uma pasta no BandwidthUtilizationAnalyzer.](../media/Reskit_2012_Tools_Documentation_Image9.jpg)
 
 3. Clique em **Importar**.
 
 4. A plotagem gráfica é gerada automaticamente. Ela será disponibilizada assim que o ponteiro de trabalho em segundo plano desaparecer.
 
-     ![Aplicando filtros no modo de exibição Relatórios.](../media/Reskit_2012_Tools_Documentation_Image11.jpg)
+     ![Aplicar filtros no modo relatório.](../media/Reskit_2012_Tools_Documentation_Image11.jpg)
 
 #### <a name="applying-filters-to-the-report-view"></a>Aplicando filtros ao visualizador de relatórios
 
 Os filtros que podem ser aplicados ao visualizador de relatórios, conforme mostrado abaixo, são descritos da seguinte forma:
 
-![Aplicando filtros no modo de exibição Relatórios.](../media/Reskit_2012_Tools_Documentation_Image11.jpg)
+![Aplicar filtros no modo relatório.](../media/Reskit_2012_Tools_Documentation_Image11.jpg)
 
 1. **Nome** Filtrar por links WAN (o filtro se situa no lado direito do gráfico). O prefixo denota os tipos de links a seguir; consulte a caixa (azul) vertical:
 
@@ -334,27 +335,27 @@ As imagens abaixo mostram os filtros descritos anteriormente.
 
 Filtrar por **Nome**. Selecione a lista de links que precisam ser exibidos no gráfico.
 
-![Filtrando por nome em BandwidthUtilizationAnalyzer.](../media/Reskit_2012_Tools_Documentation_Image12.jpg)
+![Filtragem por nome em BandwidthUtilizationAnalyzer.](../media/Reskit_2012_Tools_Documentation_Image12.jpg)
 
 Filtrar por **Limite excedido**. Selecione **True** para impor o filtro.
 
-![Filtrando por Limite Excedido.](../media/Reskit_2012_Tools_Documentation_Image13.jpg)
+![Filtragem por excedido o limite.](../media/Reskit_2012_Tools_Documentation_Image13.jpg)
 
 Filtrar por **Níveis críticos**. Selecione **True** para impor o filtro.
 
-![Filtrando por Níveis Críticos.](../media/Reskit_2012_Tools_Documentation_Image14.jpg)
+![Filtragem por níveis de críticos.](../media/Reskit_2012_Tools_Documentation_Image14.jpg)
 
 Filtrar por **Subutilizado**. Selecione **True** para impor o filtro.
 
-![Filtrando por Sub-utilizados.](../media/Reskit_2012_Tools_Documentation_Image15.jpg)
+![Filtragem por sob utilizada.](../media/Reskit_2012_Tools_Documentation_Image15.jpg)
 
 Filtrar por **Tipo de Link**. Selecione um ou mais tipos que precisam ser exibidos.
 
-![Filtrando por tipo de Link.](../media/Reskit_2012_Tools_Documentation_Image16.jpg)
+![Filtragem por tipo de Link.](../media/Reskit_2012_Tools_Documentation_Image16.jpg)
 
 Filtrar por **Região**. Selecione uma lista de regiões cujos links precisam ser exibidos.
 
-![Filtrando por Região.](../media/Reskit_2012_Tools_Documentation_Image17.jpg)
+![Filtragem por região.](../media/Reskit_2012_Tools_Documentation_Image17.jpg)
 
 ### <a name="requirements"></a>Requisitos
 
@@ -440,23 +441,23 @@ Integrated Security=false;"/>
 
 Implantado intervalos de órbita: o parâmetro -o lista todos os intervalos de órbita que são configurados para este pool como mostrado
 
-![Intervalos de órbitas no Estacionador de Chamadas.](../media/Reskit_2012_Tools_Documentation_Image18.jpg)
+![Intervalos de órbita na chamada Parkometer.](../media/Reskit_2012_Tools_Documentation_Image18.jpg)
 
 Atualmente estacionadas chamadas: o parâmetro - n lista todas as Órbitas atualmente em uso desse pool, conforme mostrado
 
-![Chamadas estacionadas no momento no Estacionador de Chamadas.](../media/Reskit_2012_Tools_Documentation_Image19.jpg)
+![Chamadas estacionadas atualmente na chamada Parkometer.](../media/Reskit_2012_Tools_Documentation_Image19.jpg)
 
 Número de Órbitas livres: o parâmetro -f lista o número de Órbitas atualmente gratuitos do pool, conforme mostrado
 
-![Órbitas livres no Estacionador de Chamadas.](../media/Reskit_2012_Tools_Documentation_Image20.jpg)
+![Órbitas gratuitas na chamada Parkometer.](../media/Reskit_2012_Tools_Documentation_Image20.jpg)
 
 Recentemente estacionadas chamadas: - r \<n\> listas de parâmetro o \<n\> última estacionadas chamadas, conforme mostrado
 
-![Chamadas estacionadas recentemente no Estacionador de Chamadas.](../media/Reskit_2012_Tools_Documentation_Image21.jpg)
+![Chamadas estacionadas recentemente na chamada Parkometer.](../media/Reskit_2012_Tools_Documentation_Image21.jpg)
 
 Reserva de órbita de teste: -t \<n\> parâmetro testa reservar uma órbita no banco de dados, conforme mostrado
 
-![Reservas de órbitas de teste no Estacionador de Chamadas.](../media/Reskit_2012_Tools_Documentation_Image22.jpg)
+![Reservas de órbita de teste na chamada Parkometer.](../media/Reskit_2012_Tools_Documentation_Image22.jpg)
 
 ### <a name="summary"></a>Resumo
 
@@ -547,7 +548,7 @@ Para a versão de serviço on-line, se o pacote do SCOM do Skype para Business S
 
 Essa ferramenta aumentará a carga de CPU e de E/S no front-end em que estiver sendo executada e também em outros front-ends se os dados não pertencerem ao front-end no qual a ferramenta estiver sendo executada. Recomendamos executar essa ferramenta quando os front-ends não estiverem sob uma carga de E/S e CPU pesada, por exemplo, fora dos horários de pico. Em segundo lugar, essa ferramenta leva de 2 a 3 minutos para importar um arquivo de dados. Lembre-se disso ao estimar por quanto tempo a ferramenta será executada. O arquivo de log detalhado gerado pela ferramenta será exibido por padrão no Repositório de Arquivos. Exclua-o se não houver nenhum erro relatado, pois o arquivo de log pode ter muitos megabytes.
 
-![Amostra de eventos de registro de eventos do Servidor de Armazenamento.](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
+![Eventos de log de eventos do servidor de armazenamento de amostra.](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
 
 ### <a name="requirements"></a>Requisitos
 
@@ -878,19 +879,19 @@ Exibir os links de topologia de rede do CAC da empresa em uma interface gráfica
 
  **Topologia de rede CAC carga e o modo de exibição de um Skype para Business Server 2015 implantação em um formato gráfico**: Skype para administradores corporativos Server 2015 pode carregar e exibir a configuração de topologia de rede do CAC em qualquer Skype para computador Business Server 2015 por usando a opção **Baixar a configuração de rede** , conforme mostrado na figura a seguir. A ferramenta irá falhar baixar ou exibir a configuração quando implantado em um computador que não tem conectividade com o Skype para Business Server 2015 repositório de configuração.
 
-![Baixando configurações de rede.](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
+![Baixando a configuração de rede.](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
 
  **Topologia de rede de carga e o CAC do modo de exibição de um arquivo de log do servidor de política de largura de banda em um formato gráfico:** Skype para servidores de diretiva de largura de banda do Business Server 2015 salve a topologia de rede CAC como parte do mecanismo de registro em log sob o Skype para o local de compartilhamento de arquivo Business Server 2015. Skype para administradores corporativos Server 2015 pode exibir tal arquivo em um formato gráfico, utilizando a opção de **Configuração de rede aberta** , conforme mostrado abaixo.
 
-![Abrindo um arquivo de registro do Servidor de Políticas de Largura de Banda.](../media/Reskit_2012_Tools_Documentation_Image24.jpg)
+![Abrindo um arquivo de log do servidor de política de largura de banda.](../media/Reskit_2012_Tools_Documentation_Image24.jpg)
 
 Salvar e armazenar a topologia de rede do CAC em um formato XML no disco: Skype para administradores corporativos Server 2015 pode salvar o arquivo de configuração de topologia de rede do CAC em um formato XML usando a opção **Salvar uma cópia da configuração de rede** , conforme mostrado abaixo. O arquivo de configuração salvo pode ser usado offline para fins de exibição gráfica.
 
-![Salvando a configuração de rede como arquivo XML.](../media/Reskit_2012_Tools_Documentation_Image25.jpg)
+![Salvando a configuração de rede como um arquivo XML.](../media/Reskit_2012_Tools_Documentation_Image25.jpg)
 
 Salvar e diagrama de topologia de rede CAC repositório no formato JPG ou BMP: Skype para administradores corporativos Server 2015 pode salvar a configuração de topologia de rede do CAC em um formato gráfico (formatos de arquivo JPG e BMP) usando o diagrama **Salvar a configuração de rede como imagem** opção conforme mostrado abaixo.
 
-![Salvando a configuração de rede como imagem.](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
+![Salvando a configuração de rede como uma imagem.](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
  <strong>Dados de configuração de topologia de rede CAC do modo de exibição:</strong> Skype para administradores corporativos Server 2015 pode exibir os dados de configuração de rede relacionados como regiões de rede, sites de rede, perfis de largura de banda e endereços IP de sub-rede de site em um formato textual usando a opção de dados de configuração de rede do modo de exibição conforme mostrado abaixo.
 
@@ -898,7 +899,7 @@ Salvar e diagrama de topologia de rede CAC repositório no formato JPG ou BMP: S
 
  **Topologia de rede CAC do modo de exibição em um estilo de modo de exibição de árvore:** Skype para administradores corporativos Server 2015 pode exibir os dados de configuração de rede relacionados em um estilo de modo de exibição de árvore gráfica usando o painel de controle no lado esquerdo da janela de ferramenta, conforme mostrado abaixo.
 
-![Exibindo dados de configuração de rede na visualização de árvore.](../media/Reskit_2012_Tools_Documentation_Image28.jpg)
+![Exibindo dados de configuração de rede em uma exibição de árvore.](../media/Reskit_2012_Tools_Documentation_Image28.jpg)
 
  **Conectores personalizados de definir CAC links de topologia (por exemplo, links de região do site, a região e to-site) de rede:** Skype para administradores corporativos Server 2015 pode definir conectores personalizados de gráficos para os links de WAN de configuração de rede CAC usando a opção de configurações, conforme mostrado abaixo. Isso ajuda a diferenciar entre os vários tipos de links de rede provisionados na configuração da rede.
 
@@ -906,7 +907,7 @@ Salvar e diagrama de topologia de rede CAC repositório no formato JPG ou BMP: S
 
  **Informações de site de topologia de rede CAC do modo de exibição, as informações de região e políticas de largura de banda provisionados:** Skype para administradores corporativos Server 2015 pode exibir informações de região de rede CAC relacionadas, informações de site e largura de banda do CAC provisionamento informações usando as opções mostradas abaixo. Por exemplo, clique em **Informações** em uma região da rede ou objeto do site da rede.
 
-![Definindo conectores personalizados para sua rede.](../media/Reskit_2012_Tools_Documentation_Image30.jpg)
+![A definição de conectores personalizados para a sua rede.](../media/Reskit_2012_Tools_Documentation_Image30.jpg)
 
 ### <a name="summary"></a>Resumo
 
@@ -931,7 +932,7 @@ A ferramenta Live de agente do grupo de resposta foi criada com o serviço de gr
 
 A figura abaixo ilustra a interface principal do Agente do Grupo de Resposta em Tempo Real.
 
-![A ferramenta Agente de Grupo de Respostas Dinâmico.](../media/Reskit_2012_Tools_Documentation_Image37.JPG)
+![A ferramenta Live de agente do grupo de resposta.](../media/Reskit_2012_Tools_Documentation_Image37.JPG)
 
 Os seguintes três recursos principais estão disponíveis para os agentes do Agente do Grupo de Resposta em Tempo Real:
 
@@ -957,7 +958,7 @@ O Agente do Grupo de Resposta em Tempo Real pode ser personalizado de acordo com
 
 A figura abaixo ilustra a caixa de diálogo Opções que os agentes podem usar para configurar as teclas de atalho e o endereço de host. Essa caixa de diálogo é acessada clicando no botão Opções no canto superior direito da interface principal.
 
-![A caixa de diálogo de opções do Agente de Grupo de Respostas Dinâmico.](../media/Reskit_2012_Tools_Documentation_Image38.JPG)
+![A caixa de diálogo Live opções de agente de grupo resposta.](../media/Reskit_2012_Tools_Documentation_Image38.JPG)
 
 As três configurações diferentes a seguir podem ser personalizadas na configuração do Agente do Grupo de Resposta em Tempo Real:
 
@@ -971,11 +972,11 @@ As três configurações diferentes a seguir podem ser personalizadas na configu
 
 A figura abaixo ilustra como chamar ou enviar uma mensagem instantânea para outro agente clicando com o botão direito do mouse no contato no painel à direita.
 
-![Realizar uma chamada ou enviar chat.](../media/Reskit_2012_Tools_Documentation_Image39.JPG)
+![Fazer uma chamada ou enviar uma mensagem Instantânea.](../media/Reskit_2012_Tools_Documentation_Image39.JPG)
 
 A figura abaixo ilustra como o Agente do Grupo de Resposta em Tempo Real exibe o número atual de chamadas na fila e o tempo de espera mais longo entre todas as chamadas de entrada.
 
-![Visualizando informações da fila.](../media/Reskit_2012_Tools_Documentation_Image40.JPG)
+![Visualizando informações de fila.](../media/Reskit_2012_Tools_Documentation_Image40.JPG)
 
 ### <a name="summary"></a>Resumo
 
@@ -1064,7 +1065,7 @@ A ferramenta SEFAUtil pode ser executada apenas em um computador que faça parte
     > Uma porta diferente pode ser usada, se necessário.
     
     > [!NOTE]
-    > FQDN do pool: O FQDN do servidor ou pool que hospedará o aplicativo SEFAUtil (normalmente um Skype para o servidor Front-End do Business > ou pool).
+    > FQDN do pool: O FQDN do servidor ou pool que hospedará o aplicativo SEFAUtil (normalmente um Skype para servidor de Front-End do Business gt _ ou pool).
     > FQDN do pool registrador: O FQDN do Skype para o servidor Front-End corporativos ou pool associado a esse pool de aplicativos.
     > Site do pool: A ID de Site do site no qual o pool está hospedado.
 
@@ -1153,7 +1154,7 @@ Este exemplo desabilita imediatamente o encaminhamento de chamadas.
 SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com  /disablefwdimmediate
 ```
 
- **Resultado**
+ **Saída**
 
 ```
 User Aor: sip:katarina@contoso.com
@@ -1172,7 +1173,7 @@ Este exemplo adiciona um usuário como um representante e configura o toque simu
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate:joe@contoso.com /simulringdelegates
 ```
 
- **Resultado**
+ **Saída**
 
 ```
 User Aor: sip:katarina@contoso.com
@@ -1501,7 +1502,7 @@ Os principais requisitos necessários para executar a ferramenta com êxito são
 
 O script Move-CsAnnouncementConfiguration exige os dois parâmetros descritos na tabela abaixo. 
 
-![Parâmetros Move-CsAnnouncementConfiguration.](../media/Reskit_2012_Tools_Documentation_Image41.JPG)
+![Parâmetros de CsAnnouncementConfiguration de movimentação.](../media/Reskit_2012_Tools_Documentation_Image41.JPG)
 
 ### <a name="examples"></a>Exemplos
 
@@ -1563,7 +1564,7 @@ A ferramenta deve ser executada com privilégios de administrador com acesso ao 
 
 A tabela a seguir descreve os parâmetros, alguns dos quais são usados nos exemplos.
 
-![Parâmetros da ferramenta Web Conf Data.](../media/Reskit_2012_Tools_Documentation_Image51.JPG)
+![Parâmetros de Conf dados ferramenta da Web.](../media/Reskit_2012_Tools_Documentation_Image51.JPG)
 
 ```
 WebConfDataTool.exe /User:user0@contoso.com /Action:query ""/ExpirationDate:08/09/2010 12:00:00""

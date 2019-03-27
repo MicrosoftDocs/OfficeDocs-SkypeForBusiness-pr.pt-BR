@@ -1,5 +1,6 @@
 ---
 title: Configuração de Dispositivos
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
 description: Uma configuração de dispositivo é uma coleção de definições utilizadas para gerenciar Skype para dispositivos de negócios Phone Edition, globalmente ou dentro de um site. Essas configurações permitem que você configure aspectos como o modo de segurança necessário, o nível de log do dispositivo, as configurações de QoS (Qualidade de voz do serviço) e se os telefones devem ser bloqueados automaticamente após um período especificado de inatividade.
-ms.openlocfilehash: fac770e05b6e85644f813c026dea51e855584e2a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 89050d6a2aaeeb94a6884dabc06bb01671809791
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008367"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881232"
 ---
 # <a name="device-configuration"></a>Configuração de Dispositivos
  
@@ -51,7 +52,7 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
     
 - **Atualizar** É possível atualizar a lista de configuração de dispositivo para verificar o status das opções de todas as configurações de dispositivo.
     
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Configuração de Dispositivo: Criar Nova ou Editar Existente](ms.lync.lscp.ClientDeviceTestEdit.md)
 
