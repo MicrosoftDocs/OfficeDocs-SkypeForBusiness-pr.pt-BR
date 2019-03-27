@@ -1,5 +1,6 @@
 ---
 title: Gravação (CDR) no Skype para Business Server de detalhes da chamada
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,31 +10,31 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: 'Resumo: Saiba mais sobre o registro de registros (CDR) usados no Skype para Business Server de detalhes de chamada.'
-ms.openlocfilehash: 77462b87bb7e4f368a2af3f32069c2893ad4f234
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 11631acc14c47dfb10d33fa761bf6362d00ca049
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966549"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890956"
 ---
-# <a name="call-detail-recording-cdr-in-skype-for-business-server"></a><span data-ttu-id="10bd2-103">Gravação (CDR) no Skype para Business Server de detalhes da chamada</span><span class="sxs-lookup"><span data-stu-id="10bd2-103">Call detail recording (CDR) in Skype for Business Server</span></span>
+# <a name="call-detail-recording-cdr-in-skype-for-business-server"></a><span data-ttu-id="d65a2-103">Gravação (CDR) no Skype para Business Server de detalhes da chamada</span><span class="sxs-lookup"><span data-stu-id="d65a2-103">Call detail recording (CDR) in Skype for Business Server</span></span>
  
-<span data-ttu-id="10bd2-104">**Resumo:** Saiba mais sobre o registro de registros (CDR) usados no Skype para Business Server de detalhes de chamada.</span><span class="sxs-lookup"><span data-stu-id="10bd2-104">**Summary:** Learn about the Call detail recording (CDR) records used in Skype for Business Server.</span></span>
+<span data-ttu-id="d65a2-104">**Resumo:** Saiba mais sobre o registro de registros (CDR) usados no Skype para Business Server de detalhes de chamada.</span><span class="sxs-lookup"><span data-stu-id="d65a2-104">**Summary:** Learn about the Call detail recording (CDR) records used in Skype for Business Server.</span></span>
   
-<span data-ttu-id="10bd2-105">O CDR (registro de detalhes das chamadas) registra informações de uso e diagnóstico sobre atividades ponto a ponto, incluindo serviço de mensagens instantâneas, chamadas VoIP, compartilhamento de aplicativos, transferência de arquivos e reuniões.</span><span class="sxs-lookup"><span data-stu-id="10bd2-105">Call detail recording (CDR) records usage and diagnostic information about peer-to-peer activities, including instance messaging, Voice over Internet Protocol (VoIP) calls, application sharing, file transfer, and meetings.</span></span> <span data-ttu-id="10bd2-106">Os dados de uso podem ser utilizados para calcular o retorno sobre o investimento, enquanto os dados de diagnóstico podem ser usados para solucionar problemas de atividades ponto a ponto e reuniões.</span><span class="sxs-lookup"><span data-stu-id="10bd2-106">The usage data can be used to calculate return on investment (ROI) and the diagnostic data can be used to troubleshoot peer-to-peer activities and meetings.</span></span> <span data-ttu-id="10bd2-107">Quando você instala o Skype para Business Server, você também instalará um conjunto predefinido de definições de configuração global para CDR.</span><span class="sxs-lookup"><span data-stu-id="10bd2-107">When you install Skype for Business Server, you will also install a predefined collection of global configuration settings for CDR.</span></span> <span data-ttu-id="10bd2-108">Use os tópicos desta seção para configurar o CDR.</span><span class="sxs-lookup"><span data-stu-id="10bd2-108">Use the topics in this section to configure CDR.</span></span>
+<span data-ttu-id="d65a2-105">O CDR (registro de detalhes das chamadas) registra informações de uso e diagnóstico sobre atividades ponto a ponto, incluindo serviço de mensagens instantâneas, chamadas VoIP, compartilhamento de aplicativos, transferência de arquivos e reuniões.</span><span class="sxs-lookup"><span data-stu-id="d65a2-105">Call detail recording (CDR) records usage and diagnostic information about peer-to-peer activities, including instance messaging, Voice over Internet Protocol (VoIP) calls, application sharing, file transfer, and meetings.</span></span> <span data-ttu-id="d65a2-106">Os dados de uso podem ser utilizados para calcular o retorno sobre o investimento, enquanto os dados de diagnóstico podem ser usados para solucionar problemas de atividades ponto a ponto e reuniões.</span><span class="sxs-lookup"><span data-stu-id="d65a2-106">The usage data can be used to calculate return on investment (ROI) and the diagnostic data can be used to troubleshoot peer-to-peer activities and meetings.</span></span> <span data-ttu-id="d65a2-107">Quando você instala o Skype para Business Server, você também instalará um conjunto predefinido de definições de configuração global para CDR.</span><span class="sxs-lookup"><span data-stu-id="d65a2-107">When you install Skype for Business Server, you will also install a predefined collection of global configuration settings for CDR.</span></span> <span data-ttu-id="d65a2-108">Use os tópicos desta seção para configurar o CDR.</span><span class="sxs-lookup"><span data-stu-id="d65a2-108">Use the topics in this section to configure CDR.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="10bd2-109">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="10bd2-109">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d65a2-109">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="d65a2-109">In this section</span></span>
 
-- [<span data-ttu-id="10bd2-110">Informações de configuração de CDR de modo de exibição no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="10bd2-110">View CDR configuration information in Skype for Business Server</span></span>](view-configuration-information.md)
+- [<span data-ttu-id="d65a2-110">Informações de configuração de CDR de modo de exibição no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="d65a2-110">View CDR configuration information in Skype for Business Server</span></span>](view-configuration-information.md)
     
-- [<span data-ttu-id="10bd2-111">Habilitar gravação de detalhes de chamada no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="10bd2-111">Enable call detail recording in Skype for Business Server</span></span>](enable-cdr.md)
+- [<span data-ttu-id="d65a2-111">Habilitar gravação de detalhes de chamada no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="d65a2-111">Enable call detail recording in Skype for Business Server</span></span>](enable-cdr.md)
     
-- [<span data-ttu-id="10bd2-112">Criar ou modificar uma coleção de definições de configuração de CDR em Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="10bd2-112">Create or modify a collection of CDR configuration settings in Skype for Business Server</span></span>](create-or-modify-a-collection-of-settings.md)
+- [<span data-ttu-id="d65a2-112">Criar ou modificar uma coleção de definições de configuração de CDR em Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="d65a2-112">Create or modify a collection of CDR configuration settings in Skype for Business Server</span></span>](create-or-modify-a-collection-of-settings.md)
     
-- [<span data-ttu-id="10bd2-113">Excluir um conjunto existente de definições de configuração de CDR em Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="10bd2-113">Delete an existing collection of CDR configuration settings in Skype for Business Server</span></span>](delete-configuration-settings.md)
+- [<span data-ttu-id="d65a2-113">Excluir um conjunto existente de definições de configuração de CDR em Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="d65a2-113">Delete an existing collection of CDR configuration settings in Skype for Business Server</span></span>](delete-configuration-settings.md)
     
-- [<span data-ttu-id="10bd2-114">Limpar manualmente o registro de detalhes da chamada e bancos de dados de qualidade da experiência no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="10bd2-114">Manually purge the call detail recording and Quality of Experience databases in Skype for Business Server</span></span>](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+- [<span data-ttu-id="d65a2-114">Limpar manualmente o registro de detalhes da chamada e bancos de dados de qualidade da experiência no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="d65a2-114">Manually purge the call detail recording and Quality of Experience databases in Skype for Business Server</span></span>](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     
-## <a name="see-also"></a><span data-ttu-id="10bd2-115">Consulte também</span><span class="sxs-lookup"><span data-stu-id="10bd2-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d65a2-115">Consulte Também</span><span class="sxs-lookup"><span data-stu-id="d65a2-115">See also</span></span>
 
-[<span data-ttu-id="10bd2-116">Configurar o registro de detalhes de chamada e configurações de qualidade da experiência no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="10bd2-116">Configure call detail recording and Quality of Experience settings in Skype for Business Server</span></span>](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)
+[<span data-ttu-id="d65a2-116">Configurar o registro de detalhes de chamada e configurações de qualidade da experiência no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="d65a2-116">Configure call detail recording and Quality of Experience settings in Skype for Business Server</span></span>](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)

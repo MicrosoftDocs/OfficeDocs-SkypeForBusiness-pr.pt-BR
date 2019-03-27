@@ -1,5 +1,6 @@
 ---
 title: Confirmação de definições de configuração de voz não confirmadas
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,20 +12,21 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
-description: Você pode usar a caixa de diálogo Definições de configuração de voz não confirmadas para revisar todas as alterações feitas. Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções. Quando terminar, clique em confirmar para confirmar todas essas alterações ou clique em Cancelar para voltar e modificar suas alterações.
-ms.openlocfilehash: 9010bea8b79f1d8cbf2eeae1b27bfa551c71dae7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Você pode usar a caixa de diálogo Definições de Configuração de Voz Não Autorizadas para revisar todas as alterações feitas. Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções. Quando terminar, clique em  Confirmar para confirmar todas as alterações ou em  Cancelar para voltar e modificar as alterações.
+ms.openlocfilehash: ad937912a2a2b0de13b8f9c86ab18791a3fcc767
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880879"
 ---
-# <a name="uncommitted-voice-configuration-settings-commit"></a><span data-ttu-id="ec3d3-105">Definições de Configuração de Voz Não Confirmadas: Confirmar</span><span class="sxs-lookup"><span data-stu-id="ec3d3-105">Uncommitted Voice Configuration Settings: Commit</span></span>
+# <a name="uncommitted-voice-configuration-settings-commit"></a><span data-ttu-id="bcd9a-105">Definições de Configuração de Voz Não Confirmadas: Confirmar</span><span class="sxs-lookup"><span data-stu-id="bcd9a-105">Uncommitted Voice Configuration Settings: Commit</span></span>
  
-<span data-ttu-id="ec3d3-p102">Você pode usar a caixa de diálogo **Definições de Configuração de Voz Não Autorizadas** para revisar todas as alterações feitas. Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções. Quando terminar, clique em  **Confirmar** para confirmar todas as alterações ou em  **Cancelar** para voltar e modificar as alterações.</span><span class="sxs-lookup"><span data-stu-id="ec3d3-p102">You can use the **Uncommitted Voice Configuration Settings** dialog box to review all of the changes that you have made. Scroll through the dialog box to review all of the uncommitted changes, or click the arrows to expand or collapse the different sections. When you are finished, either click **Commit** to commit all of these changes, or click **Cancel** to go back and modify your changes.</span></span>
+<span data-ttu-id="bcd9a-p102">Você pode usar a caixa de diálogo **Definições de Configuração de Voz Não Autorizadas** para revisar todas as alterações feitas. Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções. Quando terminar, clique em  **Confirmar** para confirmar todas as alterações ou em  **Cancelar** para voltar e modificar as alterações.</span><span class="sxs-lookup"><span data-stu-id="bcd9a-p102">You can use the **Uncommitted Voice Configuration Settings** dialog box to review all of the changes that you have made. Scroll through the dialog box to review all of the uncommitted changes, or click the arrows to expand or collapse the different sections. When you are finished, either click **Commit** to commit all of these changes, or click **Cancel** to go back and modify your changes.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="ec3d3-109">Caso clique em  **Confirmar**, você confirmará  **todas** as alterações listadas na caixa de diálogo  **Definições de Configuração de Voz Não Autorizadas**.</span><span class="sxs-lookup"><span data-stu-id="ec3d3-109">If you click **Commit**, you will commit **all** of the changes that are listed in the **Uncommitted Voice Configuration Settings** dialog box.</span></span>
+> <span data-ttu-id="bcd9a-109">Caso clique em  **Confirmar**, você confirmará  **todas** as alterações listadas na caixa de diálogo  **Definições de Configuração de Voz Não Autorizadas**.</span><span class="sxs-lookup"><span data-stu-id="bcd9a-109">If you click **Commit**, you will commit **all** of the changes that are listed in the **Uncommitted Voice Configuration Settings** dialog box.</span></span>
   
-<span data-ttu-id="ec3d3-110">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="ec3d3-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="bcd9a-110">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="bcd9a-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

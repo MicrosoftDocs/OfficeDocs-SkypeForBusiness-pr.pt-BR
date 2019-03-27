@@ -1,5 +1,6 @@
 ---
 title: Tipo de regra de conversão uma expressão Regular
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,16 +13,16 @@ localization_priority: Normal
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Em corresponder este campo padrão, especifique o padrão que será usado para corresponder os números a serem convertidos. No campo regra de conversão, especifique um padrão para o formato dos números convertidos. '
-ms.openlocfilehash: 5a3696122c721fab3ece2d33a573d0e2f089fb96
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: d75bde018b0a16ab3fb8e505d5ae8d0bc2d4604f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069523"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898575"
 ---
-# <a name="translation-rule-type-a-regular-expression"></a><span data-ttu-id="a5835-104">Regra de conversão: Digite uma expressão Regular</span><span class="sxs-lookup"><span data-stu-id="a5835-104">Translation Rule: Type a Regular Expression</span></span>
+# <a name="translation-rule-type-a-regular-expression"></a><span data-ttu-id="0d43b-104">Regra de Conversão: Digite uma Expressão Regular</span><span class="sxs-lookup"><span data-stu-id="0d43b-104">Translation Rule: Type a Regular Expression</span></span>
  
-<span data-ttu-id="a5835-105">No campo **corresponder este padrão** , especifique o padrão que será usado para corresponder os números a serem convertidos.</span><span class="sxs-lookup"><span data-stu-id="a5835-105">In the **Match this pattern** field, specify the pattern that will be used to match the numbers to be translated.</span></span> <span data-ttu-id="a5835-106">No campo **regra de conversão** , especifique um padrão para o formato dos números convertidos.</span><span class="sxs-lookup"><span data-stu-id="a5835-106">In the **Translation rule** field, specify a pattern for the format of translated numbers.</span></span> <span data-ttu-id="a5835-107">Por exemplo, se você inserir ^\+(\d{9}\d+)$ no campo **corresponder este padrão** e 011$ 1 no campo **regra de conversão** , a regra converterá + 441235551010 em 011441235551010.</span><span class="sxs-lookup"><span data-stu-id="a5835-107">For example, if you enter ^\+(\d{9}\d+)$ in the **Match this pattern** field and 011$1 in the **Translation rule** field, the rule will translate +441235551010 to 011441235551010.</span></span> 
+<span data-ttu-id="0d43b-105">No campo **corresponder este padrão** , especifique o padrão que será usado para corresponder os números a serem convertidos.</span><span class="sxs-lookup"><span data-stu-id="0d43b-105">In the **Match this pattern** field, specify the pattern that will be used to match the numbers to be translated.</span></span> <span data-ttu-id="0d43b-106">No campo **regra de conversão** , especifique um padrão para o formato dos números convertidos.</span><span class="sxs-lookup"><span data-stu-id="0d43b-106">In the **Translation rule** field, specify a pattern for the format of translated numbers.</span></span> <span data-ttu-id="0d43b-107">Por exemplo, se você inserir ^\+(\d{9}\d+)$ no campo **corresponder este padrão** e 011$ 1 no campo **regra de conversão** , a regra converterá + 441235551010 em 011441235551010.</span><span class="sxs-lookup"><span data-stu-id="0d43b-107">For example, if you enter ^\+(\d{9}\d+)$ in the **Match this pattern** field and 011$1 in the **Translation rule** field, the rule will translate +441235551010 to 011441235551010.</span></span> 
   
  
   

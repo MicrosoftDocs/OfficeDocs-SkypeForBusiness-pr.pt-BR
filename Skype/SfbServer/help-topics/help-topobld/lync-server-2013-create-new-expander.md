@@ -1,5 +1,6 @@
 ---
-title: Lync Server 2013 criar novo expansor
+title: Lync Server 2013 Criar Novo Expansor
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 description: Você pode criar novas funções de servidor no nó Lync Server 2013 do construtor de topologias com botão direito do mouse em Lync Server 2013, selecione Novo e selecione a função de servidor a ser criada.
-ms.openlocfilehash: 9c6ca8c2ee103d1f7049b1fc743ed6e06612b2ad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e15c2f326642903df7b1512009f56897f26ebec5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002415"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895629"
 ---
-# <a name="lync-server-2013-create-new-expander"></a><span data-ttu-id="757f8-103">Lync Server 2013 criar novo expansor</span><span class="sxs-lookup"><span data-stu-id="757f8-103">Lync Server 2013 Create New Expander</span></span>
+# <a name="lync-server-2013-create-new-expander"></a><span data-ttu-id="797b6-103">Lync Server 2013 Criar Novo Expansor</span><span class="sxs-lookup"><span data-stu-id="797b6-103">Lync Server 2013 Create New Expander</span></span>
  
-<span data-ttu-id="757f8-104">Você pode criar novas funções de servidor no nó Lync Server 2013 do construtor de topologias com botão direito do mouse em **Lync Server 2013**, selecione **novo**e selecione a função de servidor a ser criada.</span><span class="sxs-lookup"><span data-stu-id="757f8-104">You can create new server roles in the Lync Server 2013 node of Topology Builder by right clicking on **Lync Server 2013**, select **New**, then select the server role to create.</span></span>
+<span data-ttu-id="797b6-104">Você pode criar novas funções de servidor no nó Lync Server 2013 do construtor de topologias com botão direito do mouse em **Lync Server 2013**, selecione **novo**e selecione a função de servidor a ser criada.</span><span class="sxs-lookup"><span data-stu-id="797b6-104">You can create new server roles in the Lync Server 2013 node of Topology Builder by right clicking on **Lync Server 2013**, select **New**, then select the server role to create.</span></span>
   
 
