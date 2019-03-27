@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4b1dc313fa1ea223e7c55f066b869b29c098fd2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b3aab01d03b3239918c48bfb250df00208f76a7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460824"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891135"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Planejar Microsoft 365 governamental - implantações GCC alta
 
@@ -101,7 +101,7 @@ Para acomodar os requisitos de nossos clientes de nuvem do governo, há algumas 
 | | Gravação na nuvem | Em todas as agências governamentais |
 | | Notas de reunião | Disponível |
 | | Reuniões de transmissão | Em todas as agências governamentais |
-| | Reuniões federados | Disponível |
+| | Reuniões de federado nuvem UE (GCCH para GCCH) | Disponível |
 | | Suporte de Hub superfície | Em todas as agências governamentais |
 | Chamadas | Contatos | Disponível |
 | | Histórico | Disponível |

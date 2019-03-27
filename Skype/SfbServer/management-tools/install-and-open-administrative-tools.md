@@ -1,5 +1,6 @@
 ---
 title: Instalar e abrir ferramentas administrativas
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este tópico descreve como instalar e abra as ferramentas administrativas que você precisa para implantar e gerenciar Skype para negócios.
-ms.openlocfilehash: a27f16ab72d8fcdd4a5c440909dfb40baadd2572
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 260d84f071558ff54511b8650868db3ebb56abcb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223161"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899474"
 ---
 # <a name="install-and-open-administrative-tools"></a>Instalar e abrir ferramentas administrativas
 
@@ -41,7 +42,7 @@ Use os procedimentos a seguir para abrir ferramentas administrativas para implan
 - [Assistente de Implantação](#deployment-wizard)
 - [Construtor de Topologias](#topology-builder) 
 - [Painel de Controle do Skype for Business Server](#skype-for-business-server-control-panel)
-- [Shell de Gerenciamento do Skype for Business Serverl](#skype-for-business-server-management-shell)
+- [Shell de Gerenciamento do Skype for Business Server](#skype-for-business-server-management-shell)
 
 ## <a name="deployment-wizard"></a>Assistente de Implantação
 
@@ -86,7 +87,7 @@ Use um dos seguintes procedimentos para abrir o Skype para painel de controle do
 1. Usando uma conta de usuário que seja membro da função CsAdministrator ou outra função que possui direitos de usuário apropriados e permissões para a tarefa a ser executada, faça logon em um computador no qual você instalou Skype para Business Server ou, no mínimo , o Skype para ferramentas administrativas do servidor de negócios. Para definir configurações, o computador deve ter uma resolução de tela mínima de 1024 x 768.
 2. Inicie o Skype para painel de controle do Business Server: clique em **Iniciar**, clique em **Todos os programas**, aponte para **Ferramentas administrativas**, aponte para **Skype para Business Server**e clique em **Skype para painel de controle do Business Server**.
 
-## <a name="skype-for-business-server-management-shell"></a>Shell de Gerenciamento do Skype for Business Serverl 
+## <a name="skype-for-business-server-management-shell"></a>Shell de Gerenciamento do Skype for Business Server 
 
 Use o procedimento a seguir para abrir o Skype do Shell de gerenciamento de servidor de negócios administrar servidores, usuários, clientes e dispositivos no seu ambiente usando a linha de comando.
 

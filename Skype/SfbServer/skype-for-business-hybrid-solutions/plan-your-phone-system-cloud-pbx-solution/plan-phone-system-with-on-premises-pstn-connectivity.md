@@ -1,5 +1,6 @@
 ---
 title: Planejar o sistema telefônico no Office 365 com conectividade PSTN local no Skype Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Aprenda sobre as considerações de planejamento para o sistema telefônico no Office 365 (nuvem PBX) com uma conectividade PSTN local.
-ms.openlocfilehash: f0e73b2541bdab8d3e37db02bc023667ae942578
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: 3c3dcb8316cdd3665d7570d16777a8b4195c4a82
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454040"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897911"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planejar o sistema telefônico no Office 365 com conectividade PSTN local no Skype Business Server
 
@@ -100,7 +101,7 @@ Além disso você deve garantir que o seguinte:
 
     Se você estiver usando o Lync Server 2013, consulte [Planning for Enterprise Voice no Lync Server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) e [Implantando o Enterprise Voice no Lync Server 2013](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx).
 
-- **Sincronização do Active Directory** Você deve configurar a sincronização do Active Directory usando Connect do Azure AD. Para obter mais informações, consulte [Gerenciando o Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
+- **Sincronização do Active Directory** Você deve configurar a sincronização do Active Directory usando Connect do Azure AD. Para obter mais informações, consulte [Gerenciando Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
 
     > [!NOTE]
     > Você deve usar a versão 1.0.9125.0 ou posterior do AAD Connect. Se você estiver usando uma versão anterior das ferramentas do AAD Connect ou do DirSync, atualize para a versão com suporte. Você pode atualizar sua instalação atual e manter qualquer regra personalizada que você tenha definido em seu ambiente. 

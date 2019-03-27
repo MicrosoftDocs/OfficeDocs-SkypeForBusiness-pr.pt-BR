@@ -1,5 +1,6 @@
 ---
 title: Gerenciar as conferências em Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: 'Resumo: Saiba como gerenciar as conferências em Skype para Business Server.'
-ms.openlocfilehash: 031c0b19d8132d9c8658702a5bdb30d84b418ae3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 683da834b6de82d9da857ad4ab0a07e2ac4a6731
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973336"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895122"
 ---
 # <a name="manage-conferencing-in-skype-for-business-server"></a>Gerenciar as conferências em Skype para Business Server
  
@@ -96,8 +97,8 @@ Você pode usar o seguinte Skype para cmdlets do Shell de gerenciamento do Busin
 |:-----|:-----|
 |[Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |Retorna informações sobre as configurações de reunião atualmente em uso na sua organização. As configurações de reunião ajudam a ditar os tipos de reuniões que os usuários podem criar, além de controlar como (ou se) usuários anônimos e usuários de conferência discada podem ingressar nessas reuniões.  <br/> |
 |[New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |Cria uma nova coleção de configurações de reunião em escopo do site ou serviço. Observe que essas configurações só afetam reuniões programadas; eles não afetam as reuniões ad hoc criados clicando-se a opção reunir agora Skype para negócios.  <br/> |
-|[Remove-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |Exclui um conjunto existente de configurações de reunião.  <br/> |
-|[Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |Modifica as definições de configuração de reunião em uso na organização.  <br/> |
+|[Remove-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |Exclui um conjunto existente das configurações de reunião.  <br/> |
+|[Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |Modifica as configurações de reunião atualmente em uso na sua organização.  <br/> |
    
 **Definições de configuração de conferência**
 
@@ -125,7 +126,7 @@ Você pode usar o seguinte Skype para cmdlets do Shell de gerenciamento do Busin
 |[New-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingaccessnumber?view=skype-ps) <br/> |Cria um novo número de acesso de conferência discada.  <br/> |
 |[New-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingconfiguration?view=skype-ps) <br/> |Cria uma nova coleção de definições de configuração de conferências discadas. Essas configurações determinam como o Skype para Business Server responde quando os usuários entram ou saem de uma conferência discada. Mais especificamente, são retornadas informações sobre a exigência feita aos participantes de registrarem ou não o seu nome ao entrar em uma conferência e como (ou se) o sistema anunciará que alguém entrou na chamada ou a abandonou.  <br/> |
 |[New-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |Cria uma uma nova coleção de configurações de sinalização DTMF (multifrequência de tom dual) usada para conferência discada.  <br/> |
-|[New-CsDialPlan.](https://docs.microsoft.com/powershell/module/skype/new-csdialplan?view=skype-ps) <br/> |Cria um novo plano de discagem.  <br/> |
+|[New-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/new-csdialplan?view=skype-ps) <br/> |Cria um novo plano de discagem.  <br/> |
 |[Remove-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/remove-csconferencedirectory?view=skype-ps) <br/> |Remove um diretório de conferência existente. Os diretórios de conferência são usados para ajudar os usuários de conferências discadas a localizar informações da conferência.  <br/> |
 |[Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps) <br/> |Remove um número de acesso de conferência discada existente.  <br/> |
 |[Remove-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csdialinconferencingconfiguration?view=skype-ps) <br/> |Remove uma ou mais coleções das definições de configuração da conferência discada. Essas configurações determinam como o Skype para Business Server responde quando os usuários entram ou saem de uma conferência discada.  <br/> |
@@ -149,7 +150,7 @@ Você pode usar o seguinte Skype para cmdlets do Shell de gerenciamento do Busin
 
 |**Cmdlet**|**Descrição**|
 |:-----|:-----|
-|[Disable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/disable-csmeetingroom?view=skype-ps) <br/> |Desabilita um Skype para sala de reunião Business Server. Uma sala de reunião é um dispositivo de conferência para resolver cenários de colaboração e conferência de vídeo em pequenas salas de conferência. Quando você desabilitar uma sala de reunião é remover todos o Skype dos atributos do Active Directory de negócios específicas de servidor atribuída à conta de usuário que representa a sala de reunião do objeto. No entanto, a própria conta de usuário do Active Directory não é excluída.  <br/> |
+|[Disable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/disable-csmeetingroom?view=skype-ps) <br/> |Desabilita um Skype para sala de reunião Business Server. Uma sala de reunião é um dispositivo de conferência projetado para resolver cenários de colaboração e conferência de vídeo em pequenas salas de conferência. Quando você desabilitar uma sala de reunião é remover todos o Skype dos atributos do Active Directory de negócios específicas de servidor atribuída à conta de usuário que representa a sala de reunião do objeto. No entanto, a própria conta de usuário do Active Directory não é excluída.  <br/> |
 |[Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/enable-csmeetingroom?view=skype-ps) <br/> |Permite que um Skype para sala de reunião Business Server. Para habilitar uma sala de reunião, você primeiro deve criar uma conta de usuário Active Directory que representará aquele sistema. Observe que, embora os objetos da sala de reunião sejam baseados em contas de usuário, esses objetos não serão exibidos quando você executar o cmdlet Get-CsUser.  <br/> |
 |[Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) <br/> |Retorna informações sobre o aviso de isenção de responsabilidade de conferência usado na organização. O aviso de isenção de responsabilidade de conferência é uma mensagem que é exibida aos usuários que ingressam na conferência usando um hyperlink (por exemplo: usuários que colam o link para a conferência em um navegador, como o Windows Internet Explorer).  <br/> |
 |[Get-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/get-csmeetingroom?view=skype-ps) <br/> |Retorna informações sobre todos o Skype para Business Server configuradas para uso na organização de salas de reunião.  <br/> |

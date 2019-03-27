@@ -1,5 +1,6 @@
 ---
 title: Validar sua implantação de borda no Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -11,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 'Resumo: Saiba como verificar se sua implantação do servidor de borda ou pool de servidor de borda está funcionando no Skype para Business Server.'
-ms.openlocfilehash: 267a02407a66614d0c78592da073307979136e39
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 63c4cb1af599da191d0e0f4b95cfdaa775a64ba4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883545"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878603"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Validar sua implantação de borda no Skype para Business Server
  

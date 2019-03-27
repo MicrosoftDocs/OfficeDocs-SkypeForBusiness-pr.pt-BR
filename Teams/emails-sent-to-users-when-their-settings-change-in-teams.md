@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba as informações que são enviadas automaticamente aos usuários por e-mail quando suas configurações de conferência discada são alteradas no Microsoft Teams. '
-ms.openlocfilehash: cdd45eaad709ed2060cc0b0f9700e213ea884b72
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 67e4945095b9ed7e69632741e04b4ac384741feb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633330"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883415"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>E-mails enviados para os usuários quando suas configurações são alteradas no Microsoft Teams
 
@@ -77,7 +77,7 @@ Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habi
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Alterar as mensagens de e-mail enviadas a eles
 
-Você pode fazer alterações nos e-mails enviados automaticamente para os usuários, incluindo o endereço de e-mail e o nome de exibição incluído em *De* nas informações de contato. Por padrão, o remetente dos e-mails será o Office 365, mas é possível alterar o endereço de e-mail e o nome exibido com o Windows PowerShell. Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Você pode fazer alterações para email que será enviado automaticamente aos usuários. Por padrão, o remetente dos e-mails será do Office 365, mas você pode alterar o nome para exibição usando o Windows PowerShell. Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>E se você não quiser que eles recebam e-mails?
 

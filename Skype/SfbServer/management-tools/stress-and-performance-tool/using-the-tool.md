@@ -1,5 +1,6 @@
 ---
 title: Usando o Skype para Business Server 2015 ferramenta de Stress e desempenho
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/13/2018
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Para executar o Skype para Business Server 2015 ferramenta de Stress e desempenho, você vai precisa possam gerenciar usuários, contatos e perfis de usuário, configurar a ferramenta para execução e, em seguida, examine a saída ou resultados que são produzidos pela ferramenta.
-ms.openlocfilehash: 829bedbd2a042234e67285045ac67cff30064936
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7ce25ec13af020734e0784392e457f96399a2398
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375436"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884839"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Usando o Skype para Business Server 2015 ferramenta de Stress e desempenho
  
@@ -88,7 +89,7 @@ Se você tiver um arquivo XML pré-configurado que já contenha suas configuraç
     
 9. No campo de **Índice iniciar** , forneça o número inicial que vai ser usado como um sufixo para o prefixo do nome de usuário (por exemplo, o prefixo é "TestUser" e o primeiro nome será finalizado em "0" no exemplo abaixo.)
     
-     ![Ferramenta de provisionamento do usuário que mostra a guia de criação de usuário.](../../media/591d8280-8979-4a8c-83bc-af126e87bf29.png)
+     ![Ferramenta mostrando a guia de criação de usuário de provisionamento de usuário.](../../media/591d8280-8979-4a8c-83bc-af126e87bf29.png)
   
 #### <a name="create-users-button"></a>Criar um botão de usuários
 
@@ -121,7 +122,7 @@ Quando você clica no botão **Excluir usuários** , os parâmetros de entrada d
 
 Este guia lhe permite fornecer detalhes de contatos dos usuários de seu teste.
   
-![Ferramenta de provisionamento do usuário que mostra a guia de criação de conteúdo.](../../media/dfb7fdf1-fb97-4e8e-8608-c4995f95dd5b.png)
+![Ferramenta mostrando a guia de criação de conteúdo de provisionamento de usuário.](../../media/dfb7fdf1-fb97-4e8e-8608-c4995f95dd5b.png)
   
 ### <a name="to-configure-users-contacts-do-the-following"></a>Para configurar os contatos dos usuários, faça o seguinte:
 
@@ -148,7 +149,7 @@ Este guia lhe permite fornecer detalhes de contatos dos usuários de seu teste.
 
 O Skype para ferramenta de desempenho e estresse do Business Server 2015 pode simular o recurso de expansão de lista de distribuição (DL) no Skype para 2015 de negócios do cliente. Você pode ignorar esta etapa se você não pretende habilitar expansão DL na ferramenta de provisionamento de usuário.
   
-![Ferramenta de provisionamento do usuário que mostra a guia de Criação de Listas de Distribuição.](../../media/4b689306-70c4-4569-9842-15c73f038eb6.png)
+![Ferramenta de provisionamento de usuário mostrando a guia de criação de listas de distribuição.](../../media/4b689306-70c4-4569-9842-15c73f038eb6.png)
   
 Na guia lista de distribuição permite que você crie DLs que a ferramenta de Stress e desempenho usará para o recurso de expansão de lista de distribuição. Antes de criar DLs, Skype para Business Server 2015 precisa ser implantado, incluindo tendo executar ForestPrep. Se isso não for feito, os atributos DL não existirá no esquema do AD, portanto, a ferramenta não poderão criar DLs.
   
@@ -170,7 +171,7 @@ Quando você clica no botão Criar listas de distribuição, a ferramenta de con
 
 O Skype para ferramenta de desempenho e estresse do Business Server 2015 também pode gerar os arquivos de configuração fictício para o serviço de informações de local. Observe que o serviço de informações de local geralmente não têm impacto significativo no desempenho nos servidores. 
   
-![Ferramenta de provisionamento de usuário que mostra a guia de Config de Serviço de Info de Localização.](../../media/227662a2-e0c3-4e34-ab54-5f1459344f30.png)
+![Ferramenta de provisionamento de usuário mostrando a guia Configuração do serviço de informações de local.](../../media/227662a2-e0c3-4e34-ab54-5f1459344f30.png)
   
 Se você escolher testar esse recurso, preencha os valores no formulário e clique no botão gerar os arquivos de configuração LIS, que criará. Arquivos CSV chamado:
   
@@ -208,7 +209,7 @@ Inicie a ferramenta de configuração de carga (UserProfileGenerator.exe) e pree
 
 Na guia **Configuração comum** da ferramenta de configuração de carga é mostrada abaixo. Preencha os campos da guia Configuração comum, conforme descrito nas etapas a seguir.
   
-![A aba de provisionamento do usuário que exibe a guia de configurações comuns.](../../media/c25df343-3550-47fb-88e0-29194338fee2.png)
+![A guia de provisionamento de usuário mostrando a guia Configuração comum.](../../media/c25df343-3550-47fb-88e0-29194338fee2.png)
   
 1. No campo de **Número de máquinas disponíveis** , digite o número de computadores que você deseja usar para executar a ferramenta de Stress e desempenho (LyncPerfTool.exe). Recomendamos que você tenha um computador para cada 4500 usuários que você vai ser simulando, mas esse número pode variar se você reduzir o nível de carga, ou usar apenas um subconjunto dos recursos disponíveis da ferramenta (níveis de carregamento são definidos na guia Geral cenários).
     
@@ -236,7 +237,7 @@ Na guia **Configuração comum** da ferramenta de configuração de carga é mos
     
 #### <a name="general-scenarios-tab"></a>Guia de cenários gerais
 
-![Ferramenta de configuração de carga que mostra a guia geral de cenários.](../../media/45792e57-4322-4c20-956f-fe480b0de1a7.png)
+![Ferramenta de configuração mostrando a guia geral de cenários de carregamento.](../../media/45792e57-4322-4c20-956f-fe480b0de1a7.png)
   
 Você pode configurar os parâmetros e os níveis de carga para cada um dos cenários gerais oferecidos pelo determinando o que você deseja executar ou deixar desabilitado. Aqui estão as opções gerais:
   
@@ -296,11 +297,11 @@ As opções são:
 - **Servidor de mediação e PSTN-** Precisa de cada servidor de mediação que você deseja usar seu próprio simulador de PSTN. Depois que você determinou qual você vai usar para o simulador de cliente, configuração seu servidor de mediação para rotear chamadas para esse computador no simulador PSTN você configurou. Clique no botão **Adicionar** para configurar um valor para o servidor de mediação.
     
     > [!NOTE]
-    > Cada cenário tem um botão Avançado, localizado ao lado dela. Caixas de diálogo Avançado contêm configurações específicas para cada cenário que alteram o comportamento da ferramenta de desempenho e estresse e habilitar personalização. > Para cada cenário na guia voz cenários, se o valor de nível de carga for **personalizado**, em seguida, a taxa de conversa será calculada pelo usando o campo correspondente na caixa de diálogo Avançado. O nome do campo pode ser diferente, dependendo do cenário, mas a descrição do campo de estado será: *Observação esse número será usada apenas se personalizado estiver selecionado no menu suspenso* .
+    > Cada cenário tem um botão Avançado, localizado ao lado dela. Caixas de diálogo Avançado contêm configurações específicas para cada cenário que alteram o comportamento da ferramenta de desempenho e estresse e habilitar personalização. gt _ para cada cenário na guia voz cenários, se o valor de nível de carga for **personalizado**, em seguida, a taxa de conversa será calculado usando-se o campo correspondente na caixa de diálogo Avançado. O nome do campo pode ser diferente, dependendo do cenário, mas a descrição do campo de estado será: *Observação esse número será usada apenas se personalizado estiver selecionado no menu suspenso* .
   
 #### <a name="web-app-tab"></a>Guia de aplicativo da Web
 
-![Ferramenta de configuração de carga, guia aplicativo da Web.](../../media/505b54ef-8140-4dec-a43e-08091f592b34.png)
+![Ferramenta de configuração de carga, na guia Web app.](../../media/505b54ef-8140-4dec-a43e-08091f592b34.png)
   
 Web App oferece suporte a cenários de conferência por meio do servidor do Unified Communications Web API (UCWA) que está instalado em um servidor Front-End. Use a guia Web App para configurar todos os cenários relacionados ao aplicativo web. As opções são:
   
@@ -315,13 +316,13 @@ Web App oferece suporte a cenários de conferência por meio do servidor do Unif
 - **Conferência de voz-** Selecione um valor para o nível de carga.
     
 > [!NOTE]
-> Cada um dos cenários tem um botão **Avançado** localizado ao lado dela. Caixas de diálogo avançadas contêm valores específicos para cada cenário que irá alterar o comportamento da ferramenta de desempenho e estresse e habilitar personalização. > para cada um dos cenários Web App, se o nível de carga for **personalizado**, em seguida, o valor especificado no ** ConversationsPerHour** campo é usado em vez da padrão.
+> Cada um dos cenários tem um botão **Avançado** localizado ao lado dela. Caixas de diálogo avançadas contêm valores específicos para cada cenário que irá alterar o comportamento da ferramenta de desempenho e estresse e habilitar customization.> para cada um dos cenários Web App, se o nível de carga for **personalizado**, em seguida, o valor especificado de ** ConversationsPerHour** campo é usado em vez da padrão.
   
 #### <a name="mobility-tab"></a>Guia de mobilidade
 
 Use esta guia para configurar todos os cenários relacionados a mobilidade.
   
-![Ferramenta de configuração de carga Guia de Mobilidade.](../../media/30af39c2-50ea-476a-8a56-ce2ddf08517e.png)
+![Guia de mobilidade de ferramenta de configuração de carga.](../../media/30af39c2-50ea-476a-8a56-ce2ddf08517e.png)
   
 As opções aqui são:
   
@@ -330,13 +331,13 @@ As opções aqui são:
 - **Presença e mensagens instantâneas P2P/áudio-** Selecione um valor para o nível de carga habilitar a simulação de mobilidade.
     
 > [!NOTE]
-> Cada um dos cenários tem um botão **Avançado** localizado ao lado dela. Caixas de diálogo avançadas contêm valores específicos para cada cenário que irá alterar o comportamento da ferramenta de desempenho e estresse e habilitar personalização. > para cada um dos cenários de mobilidade, se o nível de carga for **personalizado**, em seguida, o valor especificado no ** ConversationsPerHour** campo é usado em vez da padrão.
+> Cada um dos cenários tem um botão **Avançado** localizado ao lado dela. Caixas de diálogo avançadas contêm valores específicos para cada cenário que irá alterar o comportamento da ferramenta de desempenho e estresse e habilitar customization.> para cada um dos cenários de mobilidade, se o nível de carga for **personalizado**, em seguida, o valor especificado de ** ConversationsPerHour** campo é usado em vez da padrão.
   
 #### <a name="summary-tab"></a>Guia Resumo
 
 A guia Resumo indica quais usuários a ser usado para cada um dos cenários.
   
-![Ferramenta de configuração de carga Guia de Resumo.](../../media/436fb3f2-d73e-402d-bc6e-e8a6740819d2.png)
+![Carregar a guia Resumo da ferramenta de configuração.](../../media/436fb3f2-d73e-402d-bc6e-e8a6740819d2.png)
   
 A guia Resumo indica quais usuários a ser usado para cada um dos cenários. 
   
@@ -346,7 +347,7 @@ Verificar **Add (RunClient.bat) entrar atraso ao iniciar** a fim de incluir os a
   
 Clique em **Gerar arquivos** e selecione a pasta onde você deseja gerar a configuração. Uma caixa de diálogo será exibida quando os arquivos foram criados com êxito.
   
-![A caixa de mensagem "Arquivos de configuração de carregamento gerados com êxito". Apenas clique em OK.](../../media/c3c1d4a0-cb44-4837-8124-03354f5d9d8c.png)
+![A caixa de mensagem gerados com êxito os arquivos de configuração de carga. Basta clicar em Okey.](../../media/c3c1d4a0-cb44-4837-8124-03354f5d9d8c.png)
   
 ## <a name="run-lyncperftool"></a>Executar LyncPerfTool
 <a name="BKMK_RunTool"> </a>

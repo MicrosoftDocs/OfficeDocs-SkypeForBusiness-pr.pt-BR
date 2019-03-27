@@ -1,5 +1,6 @@
 ---
 title: Política de conferência criar nova ou editar existente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: A política de conferência define os recursos e capacidades disponíveis aos usuários durante uma conferência (também conhecida como reunião).
-ms.openlocfilehash: 71c1f020c0706a3c51b60830a22466899c5dbe94
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d040a10b5e53ed438992b9dc614bd8d61cfaefd0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243154"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879930"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Política de Conferência: Criar Nova ou Editar Existente
 
@@ -104,6 +105,6 @@ A lista a seguir descreve os campos na página.
     > [!NOTE]
     > **Permitir vários fluxos de vídeo** determina se uma conferência permite vários fluxos de vídeo.
 
-Para obter detalhes sobre os recursos de conferência e capacidades, consulte [Visão geral de conferência](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com políticas de conferência, consulte [Políticas de conferência](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) na documentação operações.
+Para obter detalhes sobre recursos de conferência, consulte [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) na documentação Planejamento. Para obter detalhes sobre como trabalhar com políticas de conferência, consulte  [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) na documentação Operações.
 
 

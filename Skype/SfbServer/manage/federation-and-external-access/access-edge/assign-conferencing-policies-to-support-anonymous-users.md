@@ -1,5 +1,6 @@
 ---
 title: Atribuir políticas de conferência para suporte de usuários anônimos
+ms.reviewer: ''
 ms:assetid: 662de022-1111-40f7-bad4-f2b686f30973
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521007(v=OCS.15)
 ms:contentKeyID: 48184333
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Você controla quem pode convidar usuários anônimos, configurando uma política de conferência para oferecer suporte a usuários anônimos e aplicar essa política de conferência para usuários específicos.
-ms.openlocfilehash: 5d3ade88a9d4ca0f639d7119da53f8180af6c30d
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 62ff84b19fadbeaf0f26fa3e5869026254d28d1f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222727"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881124"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Atribuir políticas de conferência para oferecer suporte aos usuários anônimos Skype para Business Server 
 
@@ -48,7 +49,7 @@ Use o procedimento desta seção para aplicar uma política de conferência que 
 
 6.  Na barra de navegação à esquerda, clique em **usuários**e pesquise a conta de usuário que você deseja configurar.
 
-7.  Na tabela que lista os resultados da pesquisa, clique na conta de usuário, clique em **Editar** e, em seguida, clique em **Mostrar detalhes**.
+7.  Na tabela que lista os resultados da pesquisa, clique na conta do usuário, em **Editar** e em **Exibir detalhes**.
 
 8.  Em **Editar Skype para usuário de servidor de negócios** em **política de conferência**, selecione a política de usuário com a configuração de acesso de usuário anônimo que você deseja aplicar a este usuário.  
 

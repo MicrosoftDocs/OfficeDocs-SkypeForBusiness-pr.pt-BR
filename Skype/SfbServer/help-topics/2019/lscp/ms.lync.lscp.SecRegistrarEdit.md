@@ -1,5 +1,6 @@
 ---
 title: Configurações de segurança do registrador criar novo ou editar existente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 5517d77ac6503888e3e8aaac8a93dd864d7494c7
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 08cf62e361e8c153ca03c42c5f3e92cf2bba7cc8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252784"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882083"
 ---
-# <a name="registrar-security-settings-create-new-or-edit-existing"></a>Configurações de segurança do registrador: Criar nova ou editar existente
+# <a name="registrar-security-settings-create-new-or-edit-existing"></a>Definições de Segurança de Registrador: Criar Novas ou Editar Existentes
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 

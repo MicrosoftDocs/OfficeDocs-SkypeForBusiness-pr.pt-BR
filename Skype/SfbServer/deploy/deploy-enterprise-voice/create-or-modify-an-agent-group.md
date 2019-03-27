@@ -1,5 +1,6 @@
 ---
 title: Criar ou modificar um grupo de operadores em Skype para negócios
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Criar ou modificar um grupo de operadores no grupo de resposta, no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 0eb94658abac8d137b915fd5a499364b43b51916
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 16dafbfc3157e08a187be5799c5901115d738b48
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370681"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894533"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Criar ou modificar um grupo de operadores em Skype para negócios
  
@@ -120,7 +121,7 @@ Use um dos procedimentos a seguir para criar ou modificar um grupo de agentes.
     
 2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
     
-3. Use o **New-CsRgsAgentGroup** para criar um novo grupo de agentes. Use o **Set-CsRgsAgentGroup** para modificar um grupo de operadores existente. Na linha de comando, execute:
+3. Use  **New-CsRgsAgentGroup** para criar um novo grupo de agentes. Use  **Set-CsRgsAgentGroup** para modificar um grupo de agentes existente. Na linha de comando, execute:
     
    ```
    New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];
@@ -141,7 +142,7 @@ Use um dos procedimentos a seguir para criar ou modificar um grupo de agentes.
    Get-CsRgsAgentGroup -Name "Help Desk"
    ```
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
   

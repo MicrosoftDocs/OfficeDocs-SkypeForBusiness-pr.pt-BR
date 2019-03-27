@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Instância SQL
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Este nó mostra o nome de domínio totalmente qualificado (FQDN) deste Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse servidor SQL. Você pode realizar as seguintes ações:'
-ms.openlocfilehash: b77c3fd9b72c979f76a3c347951c099e2561f089
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: 'Este nó mostra o nome de domínio totalmente qualificado (FQDN) deste Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse servidor SQL. Você pode executar as seguintes ações:'
+ms.openlocfilehash: 2c87deeb0e49b23572e7b8c8cf2b330703c5835f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21058532"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886392"
 ---
 # <a name="sql-instance-scope-node"></a>Nó de Escopo de Instância SQL
  
-Este nó mostra o nome de domínio totalmente qualificado (FQDN) deste Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse servidor SQL. É possível executar as seguintes ações:
+Este nó mostra o nome de domínio totalmente qualificado (FQDN) deste Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse servidor SQL. Você pode executar as seguintes ações:
   
 - **Editar Propriedades**. Abre a página **Editar propriedades** para este servidor, onde você pode alterar o FQDN do servidor (se a topologia já não é publicada) e a instância do SQL Server a ser usado.
     

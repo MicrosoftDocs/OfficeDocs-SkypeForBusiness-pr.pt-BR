@@ -1,5 +1,6 @@
 ---
 title: Definir FQDN de Chat Persistente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você cria um novo servidor de Chat persistente ou o pool de servidor de Chat persistente usando o assistente Definir Novo Pool de Chat persistente. Selecione um  Pool de vários computadores ou um Pool com um único computador. Se você selecionar um pool com um único computador e precisar mais tarde de um pool com vários computadores, será necessário remover o pool com um único computador e definir um pool com vários computadores.
-ms.openlocfilehash: a7b07fae815b27c1dac031a3694f1effe2193dd4
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: e05eb50751b92c9f4ce6b05c23314683afd5b5dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061110"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898610"
 ---
 # <a name="define-persistent-chat-fqdn"></a>Definir FQDN de Chat Persistente
 

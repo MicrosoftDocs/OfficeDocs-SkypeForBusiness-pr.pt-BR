@@ -1,5 +1,6 @@
 ---
 title: Tabela MediaLine
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: Cada registro representa uma única linha de mídia. (Uma sessão de áudio geralmente contém uma linha de mídia de áudio. Um áudio e vídeo (A / V) sessão geralmente contém uma linha de mídia de áudio e uma linha de mídia de vídeo, embora a sessão pode conter duas linhas de mídia de vídeo, se um dispositivo de conferência for usado, ou se o modo de exibição de galeria é usado.
-ms.openlocfilehash: fdbfc89e4d805ab30a1e870504fba72d2febe60a
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 11c309091211ce0bc480fa032e0f1dbbbbf533cd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505080"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896067"
 ---
 # <a name="medialine-table"></a>Tabela MediaLine
  
@@ -30,7 +31,7 @@ Cada registro representa uma única linha de mídia. (Uma sessão de áudio gera
 |**CallerIceWarningFlags** <br/> |int  <br/> | <br/> |Informações sobre o processo de conectividade ICE (estabelecimento interativa) descrito em sinalizadores de bits. Para obter detalhes, consulte a *Qualidade da experiência do Monitoring Server especificação de protocolo* , disponível para download. <br/> |
 |**CalleeIceWarningFlags** <br/> |int  <br/> | <br/> |Mesmo como CallerIceWarningFlags, mas no lado do receptor. Para obter detalhes, consulte a *Qualidade da experiência do Monitoring Server especificação de protocolo* , disponível para download. <br/> |
 |**Segurança** <br/> |tinyint  <br/> | <br/> |O perfil de segurança em uso. 0 é NONE, 1 é o SRTP, 2 é V1.  <br/> |
-|**Transport** <br/> |tinyint  <br/> | <br/> |0 é UDP, 1 é TCP.  <br/> |
+|**Transporte** <br/> |tinyint  <br/> | <br/> |0 é UDP, 1 é TCP.  <br/> |
 |**CallerIPAddr** <br/> |int  <br/> |Externa  <br/> |Endereço IP do chamador. Consulte a [tabela IPAddress](ipaddress.md) para obter mais informações. <br/> |
 |**CallerPort** <br/> |int  <br/> | <br/> | Porta usada pelo chamador. <br/> |
 |**CallerSubnet** <br/> |int  <br/> | Externa <br/> |A sub-rede do chamador. Consulte a [tabela IPAddress](ipaddress.md) para obter mais informações. <br/> |

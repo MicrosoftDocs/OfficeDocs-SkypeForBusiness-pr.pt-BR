@@ -1,5 +1,6 @@
 ---
-title: Implantar o Gerenciador de estatísticas para Skype para Business Server
+title: Implantar o Gerenciador de estatísticas do Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Resumo: Leia este tópico para saber como implantar o Gerenciador de estatísticas para Skype para Business Server.'
-ms.openlocfilehash: ef2dd51306dc2806161fc0c0d4b11087a2f466ea
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 901720f87cf1c0bf78f558ed0d031bd41377799a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297696"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898255"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implantar o Gerenciador de estatísticas para Skype para Business Server
+# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implantar o Gerenciador de estatísticas do Skype for Business Server
  
 **Resumo:** Leia este tópico para saber como implantar o Gerenciador de estatísticas para Skype para Business Server.
   
@@ -67,7 +68,7 @@ Para preparar a máquina host, você precisará instalar o sistema de cache de n
     
     Instaladores não assinados podem ser baixados do[https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    Se necessário, binários assinados estão disponíveis por meio de gerenciadores de pacotes populares: [Nuget](https://www.nuget.org/packages/Redis-64/) e [Choclatey](https://chocolatey.org/packages/redis-64).
+    Se for necessário, binários assinados estão disponíveis por meio de gerentes de pacote populares: [Nuget](https://www.nuget.org/packages/Redis-64/) e [Choclatey](https://chocolatey.org/packages/redis-64).
     
    - Execute o msi fornecido e siga as instruções.
     
@@ -298,8 +299,8 @@ A Microsoft recomenda que você use um certificado assinado por uma autoridade d
 
 Para obter mais informações, consulte:
   
-- [Planejar para o Gerenciador de estatísticas de Skype Business Server](plan.md)
+- [Planejar o Gerenciador de estatísticas do Skype for Business Server](plan.md)
     
-- [Atualizar o Gerenciador de estatísticas para Skype para Business Server](upgrade.md)
+- [Atualizar o Gerenciador de estatísticas do Skype for Business Server](upgrade.md)
     
 - [Solucionar problemas de gerente de estatísticas para Skype para Business Server](troubleshoot.md) ß

@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Aparelho de Filial
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
-description: 'Esse nó mostra o nome de domínio totalmente qualificado (FQDN), associado pools e servidores e informações de resiliência sobre esse aparelho de filial persistente. Você pode realizar as seguintes ações:'
-ms.openlocfilehash: 0a4290ad15b9484f7410f8f490c636d45f2def27
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Esse nó mostra o nome de domínio totalmente qualificado (FQDN), associado pools e servidores e informações de resiliência sobre esse aparelho de filial persistente. Você pode executar as seguintes ações:'
+ms.openlocfilehash: 71063adcf5e7a69210e0576851539e960c70a639
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886581"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nó de Escopo de Aparelho de Filial
  
-Esse nó mostra o nome de domínio totalmente qualificado (FQDN), associado pools e servidores e informações de resiliência sobre esse aparelho de filial persistente. É possível executar as seguintes ações:
+Esse nó mostra o nome de domínio totalmente qualificado (FQDN), associado pools e servidores e informações de resiliência sobre esse aparelho de filial persistente. Você pode executar as seguintes ações:
   
 - **Editar Propriedades**. Abre a página **Editar propriedades** para esse aparelho de filial persistente, onde você pode alterar o FQDN (se a topologia já não é publicada), as associações e configurações de resiliência.
     

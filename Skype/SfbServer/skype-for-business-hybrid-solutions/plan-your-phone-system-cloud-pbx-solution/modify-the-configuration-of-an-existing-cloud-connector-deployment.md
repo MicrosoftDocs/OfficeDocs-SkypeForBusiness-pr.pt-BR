@@ -1,5 +1,6 @@
 ---
 title: Modificar a configuração de uma implantação do Cloud Connector existente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Siga as etapas deste tópico para modificar a configuração de um Skype existente para o conector de nuvem Business Edition 1.4.1 ou implantação posterior.
-ms.openlocfilehash: be3c7cbbc1395000dbb84bab0c9be0a866fb4403
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: abe7d9be6ec0ae48ff8cbac09475c6a41bf2a49f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375369"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893052"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modificar a configuração de uma implantação do Cloud Connector existente
  
@@ -63,7 +64,7 @@ Se houver apenas um dispositivo no site, quando quiser alterar as definições d
 
 Se houver mais de um dispositivo no site, você deverá seguir estas etapas, modificar o arquivo CloudConnector.ini e reimplantar os dispositivos um a um.
   
-1. Execute o seguinte cmdlet para desinstalar todas as máquinas virtuais existentes do dispositivo atual. 
+1. Execute o seguinte cmdlet para desinstalar todas as máquinas virtuais existentes do dispositivo atual.  
     
    ```
    Uninstall-CcAppliance
@@ -147,9 +148,9 @@ Se você desabilitou as atualizações automáticas do sistema operacional ou at
    New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
    ```
 
-   - Atribuir janelas de tempo de atualização ao site. 
+   - Atribuir janelas de tempo de atualização ao site.  
     
-     As janelas de tempo de atualização do Bits e do sistema operacional são configuradas separadamente. É possível atribuir uma ou várias janelas de tempo a ambos. Cada janela de tempo pode ser atribuída a diferentes locais e finalidades (atualização do Bits e atualização do sistema operacional). Execute o seguinte cmdlet para definir a janela de tempo do site: 
+     As janelas de tempo de atualização do Bits e do sistema operacional são configuradas separadamente. É possível atribuir uma ou várias janelas de tempo a ambos. Cada janela de tempo pode ser atribuída a diferentes locais e finalidades (atualização do Bits e atualização do sistema operacional). Execute o seguinte cmdlet para definir a janela de tempo do site:  
     
    ```
    Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
@@ -172,17 +173,17 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > Esta seção é aplicável à versão 2.0 e versões posteriores do Cloud Connector. 
   
-Todas as credenciais do conector de nuvem são armazenadas no seguinte arquivo: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml ". Quando a senha no servidor host for alterado, você precisará atualizar as credenciais armazenadas localmente.
+Todas as credenciais do conector de nuvem são armazenadas no seguinte arquivo: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml ". Quando for alterada a senha do servidor host, você precisará atualizar as credenciais armazenadas localmente.
   
 Para atualizar as credenciais armazenadas localmente no dispositivo do conector de nuvem, use os cmdlets [Get-CcCredential](get-cccredential.md) e [Set-CcCredential](set-cccredential.md) e siga estas etapas:
   
 1. Execute os seguintes comandos para recuperar as senhas das quais você precisará mais tarde:  
     
-   - Get-CcCredential - AccountType DomainAdmin - DisplayPassword
+   - Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
    - Get-CcCredential -AccountType VMAdmin -DisplayPassword
     
-   - Get-CcCredential - AccountType CceService - DisplayPassword
+   - Get-CcCredential -AccountType CceService -DisplayPassword
     
 2. Altere a senha da sua conta no servidor host.
     
@@ -190,7 +191,7 @@ Para atualizar as credenciais armazenadas localmente no dispositivo do conector 
     
 4. Exclua o arquivo a seguir: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml ".
     
-5. Iniciar um console do PowerShell como administrador e execute "Register-CcAppliance-Local" digitem novamente as senhas seguindo a descrição. Certifique-se de que você insira a mesma senha que você inseriu antes para a implantação do conector de nuvem.
+5. Iniciar um console do PowerShell como administrador e execute "Register-CcAppliance-Local" digitem novamente as senhas seguindo a descrição. Certifique-se de inserir a mesma senha que você inseriu anteriormente para a implantação do Cloud Connector.
     
 Por padrão, VmAdmin e DomainAdmin usam a mesma senha que o CceService. Se as senhas de DomainAdmin, VMAdmin e CceService retornadas na etapa 1 forem diferentes, você deverá executar as seguintes etapas:
   
@@ -323,8 +324,6 @@ Se você precisar alterar o domínio SIP primário em sua implantação do conec
 6. 
     
     Remova o registro do site de cada um dos sites executando o seguinte cmdlet no PowerShell do Skype for Business Online:
-
-
     
    ```
    Remove-CsHybridPSTNSite

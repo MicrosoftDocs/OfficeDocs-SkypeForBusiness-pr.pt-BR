@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Instâncias do SQL
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
-description: 'A sintaxe SQL armazena listas de nó bancos de dados do SQL Server em sua topologia. Você pode realizar a seguinte ação:'
-ms.openlocfilehash: 3253f0c1ed6658dc07aed09eb3c4a70dca43bebf
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'A sintaxe SQL armazena listas de nó bancos de dados do SQL Server em sua topologia. Você pode executar as seguintes ações:'
+ms.openlocfilehash: c9ff02ca1514d1b77d2d633aaff02a5269ca0693
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891220"
 ---
 # <a name="sql-instances-scope-node"></a>Nó de Escopo de Instâncias do SQL
  

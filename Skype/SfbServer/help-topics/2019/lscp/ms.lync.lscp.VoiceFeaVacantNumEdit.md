@@ -1,5 +1,6 @@
 ---
 title: Número de telefone não atribuídos criar novo ou editar existente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: Números não atribuídos são números de telefone válidos para sua organização, mas que não são atribuídos a um usuário ou telefone. A tabela de números não atribuídos identifica como você deseja lidar com chamadas para números não atribuídos.
-ms.openlocfilehash: f4428a0f3ec5e1da5267c23f9064815206262893
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 176e1b0485b9fc9584b770e4708cad0bf0662e00
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373840"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897361"
 ---
-# <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Número de telefone não atribuído: Criar nova ou editar existente
+# <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Número de Telefone Não Atribuído: Criar Novo ou Editar Existente
 
 > [!NOTE]
 > UM do Exchange permanece disponível na Skype para Business Server 2019 ao integrar Skype para negócios 2019 com Exchange 2013 ou 2016 do Exchange. Devido às alterações no suporte no Exchange 2019, a integração de UM do Exchange está sendo desprovisionamento emphasised em favor de recursos de caixa postal de nuvem e atendedor automático de nuvem.
@@ -41,7 +42,7 @@ A lista a seguir descreve os campos na página.
 
   - Se o número inicial ou o número final do intervalo incluir um número de ramal, ambos os números devem incluir um ramal, que deve ser o mesmo para ambos.
 
-  - Os números devem corresponder à expressão regular (tel:) ? (\+) ? [1-9] \d{0,17}(; ext = [1-9] \d{0,9}) ?. Isso significa que o número pode começar com o cadeia de caracteres tel: (se você não especificar uma cadeia de caracteres ele será automaticamente adicionado para você), um sinal de adição (+) e um dígito entre 1 e 9. O número de telefone pode ter até 17 dígitos e pode ser seguido de um ramal no formato ;ext=, seguido do número do ramal.
+  - Os números devem corresponder à expressão regular (tel:) ? (\+) ? [1-9] \d{0,17}(; ext = [1-9] \d{0,9}) ?. Isso significa que o número pode começar com o cadeia de caracteres tel: (se você não especificar uma cadeia de caracteres ele será automaticamente adicionado para você), um sinal de adição (+) e um dígito entre 1 e 9. O número de telefone pode ter até 17 dígitos e pode ser seguido de um ramal no formato ;ext= seguido do número do ramal.
 
 - **Serviço de comunicado** Selecione **comunicado** ter o aplicativo de anúncio de lidar com a chamada de entrada ou **UM do Exchange** para ter uma Exchange atendedor automático de UM lidar com a chamada de entrada.
 
@@ -55,6 +56,6 @@ A lista a seguir descreve os campos na página.
 
   - **Número de telefone do atendedor automático** Selecione o número de telefone para o Atendedor de automático UM do Exchange.
 
-Para obter detalhes sobre o comunicado recursos e capacidades, consulte o [plano para o aplicativo de anúncio no Skype para negócios](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte [Configurar o roteamento de números não atribuídos telefone](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) na documentação operações.
+Para obter detalhes sobre o comunicado recursos e capacidades, consulte o [plano para o aplicativo de anúncio no Skype para negócios](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte  [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) na documentação Operações.
 
 

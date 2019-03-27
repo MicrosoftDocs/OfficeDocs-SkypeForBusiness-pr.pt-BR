@@ -1,5 +1,6 @@
 ---
-title: Desinstalar-CcAppliance
+title: Uninstall-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
 description: 'O cmdlet Uninstall-CcAppliance cancela a instalação do dispositivo  em execução do Skype for Business Cloud Connector Edition no servidor host. '
-ms.openlocfilehash: 325e21d28ef87f9d27e87721452bc3d67d197169
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7b2def71eee17c81b6f178a18d4c248557a0f022
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885645"
 ---
-# <a name="uninstall-ccappliance"></a>Desinstalar-CcAppliance
+# <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
 O cmdlet Uninstall-CcAppliance cancela a instalação do dispositivo  em execução do Skype for Business Cloud Connector Edition no servidor host.  
   
@@ -61,7 +63,7 @@ Se você estiver desinstalando a versão atual de execução do conector de nuve
 
 |**Parâmetro**|**Obrigatório**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| Versão <br/> | Opcional <br/> |System. String  <br/> | A versão do conector de nuvem que será desinstalado do servidor host. Se não for especificado, desinstale a versão atual em execução. <br/> |
+| Versão <br/> | Opcional <br/> |System.String  <br/> | A versão do conector de nuvem que será desinstalado do servidor host. Se não for especificado, desinstale a versão atual em execução. <br/> |
 |Forçar  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Se você estiver desinstalando a versão atual em execução, tente esvaziar os servidores no Servidor de Mediação e do Servidor de Borda antes de desinstalar as máquinas virtuais. Se você especificar o comutador "Forçar", mesmo se os serviços de esvaziamento falharem, as máquinas virtuais serão desinstaladas. Este parâmetro é usado somente para desinstalar a versão atual em execução.  <br/> |
 |Confirmar  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Pedir a confirmação do usuário para desinstalar as máquinas virtuais. O valor padrão é TRUE.  <br/> |
    
@@ -75,15 +77,15 @@ Nenhum. O cmdlet Uninstall-CcAppliance não aceita a entrada por pipeline.
 
 Nenhum
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 <a name="ReturnTypes"> </a>
 
 [Install-CcAppliance](install-ccappliance.md)
   
-[Publicar-CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
 [Register-CcAppliance](register-ccappliance.md)
   
-[Cancelar o registro de CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
 

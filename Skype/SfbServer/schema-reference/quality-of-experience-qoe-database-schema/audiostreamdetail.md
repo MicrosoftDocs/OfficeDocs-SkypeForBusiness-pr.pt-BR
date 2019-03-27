@@ -1,5 +1,6 @@
 ---
 title: Exibir audiostreamdetail
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: A exibir Audiostreamdetail armazena informações sobre cada transmissão de áudio no banco de dados. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
-ms.openlocfilehash: 4dadc53f0641e2d59dc72b2add433c69fc9b8ad1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c5078a0d936cce0dec29ddfee3813db7334aba71
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895283"
 ---
 # <a name="audiostreamdetail-view"></a>Exibir audiostreamdetail
  
@@ -25,7 +27,7 @@ A exibir Audiostreamdetail armazena informações sobre cada transmissão de áu
 |SessionTime  <br/> |datetime  <br/> |Referenciado de [MediaLine table](medialine-0.md).  <br/> |
 |SessionSeq  <br/> |int  <br/> |Referenciado de [MediaLine table](medialine-0.md).  <br/> |
 |StreamId  <br/> |int  <br/> |ID exclusiva dentro de uma linha de mídia.  <br/> |
-|StartTime  <br/> |datetime  <br/> |Hora de início de sessão.  <br/> |
+|StartTime   <br/> |datetime  <br/> |Hora de início de sessão.  <br/> |
 |EndTime  <br/> |datetime  <br/> |Hora de término da sessão.  <br/> |
 |DialogCategory  <br/> |bit  <br/> |Categoria do diálogo: 0 é o Skype para Business Server para a perna do servidor de mediação; 1 é o servidor de mediação para o trecho de gateway PSTN.  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |Sinalizador que indica se a chamada foi ignorada ou não.  <br/> |
@@ -57,7 +59,7 @@ A exibir Audiostreamdetail armazena informações sobre cada transmissão de áu
 |ConnectivityIce  <br/> |tinyint  <br/> |Informações sobre o caminho de mídia, como direto ou retransmitido. Consulte a [tabela MediaLine](medialine-0.md) para obter mais informações. <br/> |
 |CallerIceWarningFlags  <br/> |int  <br/> |Informações sobre o processo de conectividade ICE (estabelecimento interativa) descritas em bits sinalizadores para o chamador. Para obter detalhes, consulte a qualidade da experiência do Monitoring Server especificação do protocolo.  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |Informações sobre o processo de conectividade ICE (estabelecimento interativa) descritas em bits sinalizadores para o receptor. Para obter detalhes, consulte a qualidade da experiência do Monitoring Server especificação do protocolo.  <br/> |
-|Transport  <br/> |tinyint  <br/> |Tipo de transporte: 0 é UDP, 1 é TCP.  <br/> |
+|Transporte  <br/> |tinyint  <br/> |Tipo de transporte: 0 é UDP, 1 é TCP.  <br/> |
 |CallerIPAddr  <br/> |var(50)  <br/> |Endereço IP do chamador. Isso pode ser um IPv4 ou um endereço IPv6.  <br/> |
 |CallerPort  <br/> |int  <br/> |Porta usada pelo chamador.  <br/> |
 |CallerInside  <br/> |bit  <br/> |Indica se o chamador está dentro da rede de intervalo: 1 chamador de significa está dentro da rede corporativa, 0 significa que o chamador está fora da rede.  <br/> |
@@ -145,7 +147,7 @@ A exibir Audiostreamdetail armazena informações sobre cada transmissão de áu
 |RatioConcealedSamplesAvg  <br/> |decimal(5,2)  <br/> |Taxa média de amostras escondidas geradas pelo Reparo de áudio para exemplos típicos.  <br/> |
 |RatioStretchedSamplesAvg  <br/> |decimal(5,2)  <br/> |Taxa média de amostras corrigidas geradas pelo Reparo de áudio para exemplos típicos.  <br/> |
 |RatioCompressedSamplesAvg  <br/> |decimal(5,2)  <br/> |Taxa média de amostras compactadas geradas pelo Reparo de áudio para exemplos típicos.  <br/> |
-|Ida e volta  <br/> |int  <br/> |Tempo de ida e volta de estatísticas RTCP.  <br/> |
+|RoundTrip  <br/> |int  <br/> |Tempo de ida e volta de estatísticas RTCP.  <br/> |
 |RoundTripMax  <br/> |int  <br/> |Tempo máximo de ida e volta para o fluxo de áudio.  <br/> |
 |OverallAvgNetworkMOS  <br/> |decimal(3,2)  <br/> |Média de banda larga MOS de rede para a chamada. Essa métrica depende de perda de pacotes, tremulação e codec usado. O intervalo é 1.0 para 5.0.  <br/> |
 |OverallMinNetworkMOS  <br/> |decimal(3,2)  <br/> |Mínimo de banda ampla MOS de rede para a chamada.  <br/> |

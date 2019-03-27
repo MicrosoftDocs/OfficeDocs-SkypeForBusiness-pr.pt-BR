@@ -1,5 +1,6 @@
 ---
 title: Configurar o Servidor de Gerenciamento principal
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: Configurar o servidor de gerenciamento primário, instalar o System Center Operations Manager e importar pacotes de gerenciamento para Skype para Business Server 2019.'
-ms.openlocfilehash: 39ed469227c607084dc030fa003700074a6aae9a
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a1e77a46b450e7f2e8f706099224ae314618ed78
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26535994"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895674"
 ---
 # <a name="configure-the-primary-management-server"></a>Configurar o Servidor de Gerenciamento principal
 
@@ -57,7 +58,7 @@ Você pode estender os recursos do System Center Operations Manager por meio da 
 - **O componente e o pacote de gerenciamento do usuário** (Microsoft.LS.2019.Monitoring.ComponentAndUser.mp) rastreia Skype para problemas do Business Server registrada nos logs de eventos, registrados por contadores de desempenho ou logado os registros de detalhes de chamadas (CDRs) ou os bancos de dados de qualidade da experiência (QoE). Para resolver problemas críticos o System Center Operations Manager pode ser configurado para notificar imediatamente os administradores por meio de email, mensagem instantânea ou mensagens de SMS. (SMS é a tecnologia usada para o envio de mensagens de texto de um dispositivo móvel para outro.)
 
     > [!NOTE]
-    >  Para obter detalhes sobre como configurar a notificação do Operations Manager, consulte [Configurando a notificação](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
+    >  Para obter detalhes sobre a configuração de notificação do Operations Manager, consulte [Configurando notificações](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
 
 - **O pacote de gerenciamento de monitoramento ativo** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) proativamente testes principais Skype para componentes de servidor de negócios, fazer o login no sistema, trocando mensagens instantâneas ou fazer chamadas para um telefone localizado na PSTN (rede telefônica pública comutada ). Esses testes são realizados com o uso de cmdlets de transação sintéticos do Skype for Business Server. Por exemplo, o cmdlet **Test-CsIM** é usado para simular uma conversa de mensagens instantâneas entre um par de usuários de teste. Se essa conversa simulada falhar, um alerta será gerado.
 

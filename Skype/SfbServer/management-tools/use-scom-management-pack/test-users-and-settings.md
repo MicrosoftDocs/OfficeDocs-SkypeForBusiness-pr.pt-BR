@@ -1,5 +1,6 @@
 ---
 title: Configurar usuários de teste e configurações do nó do inspetor
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 'Resumo: Configure contas de usuário de teste e configurações de nó do observador do Skype para transações sintéticas do Business Server.'
-ms.openlocfilehash: 257814108a276d049ed4ac9173fde6dfa4473ff2
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 121e07d8bee20bef1b8fd4b06e51cf0313c018d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789388"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895213"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Configurar usuários de teste e configurações do nó do inspetor
  
@@ -369,7 +370,7 @@ Neste exemplo, um Skype para regra Business Server precisará existir para encam
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Transação sintética do Servidor de Interoperabilidade de Vídeo (VIS)
 
-A transação sintética do VIS (Servidor de Interoperabilidade de Vídeo) exige que você baixe e instale os arquivos de apoio da transação sintética ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
+A transação sintética do servidor de interoperabilidade de vídeo (VIS) requer que você baixe e instale os arquivos de suporte de transação sintética ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
   
 Para instalar VISSTSupportPackage.msi, certifique-se de que as dependências (em Requisitos de Sistema) para o msi já se encontram instaladas. Executar VISSTSupportPackage.msi para realizar uma instalação simples. O arquivo. msi instala todos os arquivos no seguinte caminho: "%ProgramFiles%\VIS pacote de suporte de transação sintética".
   

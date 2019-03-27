@@ -1,5 +1,6 @@
 ---
 title: Chamar Diagnostic Reports (per user) no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 'Resumo: Saiba mais sobre os por usuário chamada relatórios de diagnóstico usada no Skype para Business Server.'
-ms.openlocfilehash: 16b9fc5ef612f0f47fcb7501c6bd2b6dc38770e1
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 0c8e17151ab07814db2b07d1f0dda3ead3a509f9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214623"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899296"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Chamar Diagnostic Reports (per user) no Skype para Business Server
   
@@ -116,8 +117,8 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Ativi
 
 | **Nome**   | **Descrição**  |
 |:-----------|:--------|
-| **De** <br/>             | Data/hora de início do intervalo de tempo. Para ver os dados por horas, insira a data e hora de início desta forma:  <br/> 17/7/2015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/>                                                      |
-| **Até** <br/>               | Data/hora de término do intervalo de tempo. Para ver os dados por horas, insira a data e hora de término desta forma:  <br/> 17/7/2015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/>                                                             |
+| **De** <br/>             | Data/hora de início do intervalo de tempo. Para ver os dados por horas, insira a data e hora de início desta forma:  <br/> 17/7/12015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/>                                                      |
+| **Até** <br/>               | Data/hora de término do intervalo de tempo. Para ver os dados por horas, insira a data e hora de término desta forma:  <br/> 17/7/12015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 17/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 13/7/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/>                                                             |
 | **Tipo de atividade** <br/>    | Tipo de atividade. Selecione uma das seguintes opções: <br/>  [Todos] <br/>  Ponto a ponto <br/>  Conferência <br/>      |
 | **Modalidade** <br/>         | A Modalidade disponível para você varia de acordo com o Tipo de Atividade selecionado. Se o tipo de atividade for-a-ponto, você poderá selecionar mensagens Instantâneas; Transferência de arquivos; Aplicativo compartilhamento; Voz; ou vídeo como a modalidade.  <br/> Se o Tipo de Atividade for Conferência, você poderá selecionar conferência Telefônica de Mensagem Instantânea; conferência da Web; Compartilhamento de Aplicativos; conferência de Voz/Vídeo; ou conferência Telefônica.  <br/>         |
 | **Categoria da sessão** <br/> | Indica se a atividade em questão teve sucesso ou falhou. Selecione uma das seguintes opções: <br/>  [Todos] <br/>  Sucesso <br/>  Falha esperada <br/>  Falha inesperada <br/>  Uma "falha esperada" é uma falha prevista; por exemplo, se um usuário configurou seu status para Não Perturbe, é previsto que qualquer chamada para ele irá falhar. Uma "falha inesperada" ocorre em um sistema que parecia saudável. Por exemplo, uma chamada não deveria ser terminada se o chamador for colocado em espera. Se isso ocorrer, será sinalizado como uma falha inesperada. <br/> |
@@ -138,7 +139,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 |**Hora do convite** <br/> |Sim  <br/> |Data e hora em que o convite inicial para entrar na sessão ponto a ponto foi enviado.  <br/> |
 |**Hora da resposta** <br/> |Sim  <br/> |Data e hora em que o usuário "Para" aceitou o convite para a sessão.  <br/> |
 |**Hora final** <br/> |Sim  <br/> |Data e hora em que a sessão ponto a ponto terminou.  <br/> |
-|**ID do Diagnóstico** <br/> |Sim  <br/> |Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas. Os cabeçalhos diagnósticos são opcionais (é possível ter sessões SIP que não os incluem), e os IDs diagnósticos são relatados somente para as sessões com algum tipo de problema.  <br/> |
+|**ID do Diagnóstico** <br/> |Sim  <br/> |Identificador exclusivo (na forma de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que fornece informações úteis para resolução de erros. Os cabeçalhos de diagnóstico são opcionais (é possível ter sessões SIP que não os incluem), e as IDs de diagnóstico são relatadas somente em sessões com algum tipo de problema.  <br/> |
 
 ## <a name="metrics-for-conferencing-sessions"></a>Métricas para sessões de conferência
 
@@ -148,7 +149,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**URI da Conferência** <br/> |Sim  <br/> |Identificador exclusivo da conferência. Quando você clica neste item, é mostrado o Relatório de Detalhes da Conferência para a sessão selecionada. Quando você expande esse item, o relatório mostra as informações sobre os participantes. Para obter os detalhes, consulte "Métricas para participantes da conferência", mais adiante neste tópico.  <br/> |
+|**URI de conferência** <br/> |Sim  <br/> |Identificador exclusivo da conferência. Quando você clica neste item, é mostrado o Relatório de Detalhes da Conferência para a sessão selecionada. Quando você expande esse item, o relatório mostra as informações sobre os participantes. Para obter os detalhes, consulte "Métricas para participantes da conferência", mais adiante neste tópico.  <br/> |
 |**Organizador** <br/> |Sim  <br/> |Endereço SIP do usuário que organizou a conferência.  <br/> |
 |**Pool** <br/> |Sim  <br/> |Nome do Servidor de Borda (se houver) usado na conferência.  <br/> |
 |**Hora inicial** <br/> |Sim  <br/> |Data e hora em que a conferência começou.  <br/> |
@@ -167,5 +168,5 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 |**Conectividade** <br/> |Não  <br/> |Tipo de conexão da rede. Por exemplo, "De Interno" para conexão interna ou "De PSTN" os usuários discados.  <br/> |
 |**Hora da ingresso** <br/> |Não  <br/> |Data e hora em que o usuário entrou na conferência.  <br/> |
 |**Hora da saída** <br/> |Não  <br/> |Data e hora em que o usuário saiu da conferência.  <br/> |
-|**ID do Diagnóstico** <br/> |Não  <br/> |Identificador exclusivo (na forma de cabeçalho ms-diagnostics) anexado a uma mensagem SIP que fornece informações úteis para solucionar erros. Os cabeçalhos Diagnóstico são opcionais (é possível ter sessões SIP que não os incluem), e as IDs de diagnóstico são relatadas somente para as sessões com algum tipo de problema.  <br/> |
+|**ID do Diagnóstico** <br/> |Não  <br/> |Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas. Os cabeçalhos diagnósticos são opcionais (é possível ter sessões SIP que não os incluem), e os IDs diagnósticos são relatados somente para as sessões com algum tipo de problema.  <br/> |
 

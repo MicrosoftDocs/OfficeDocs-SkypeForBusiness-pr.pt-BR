@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Troncos
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Clique com o botão troncos no construtor de topologias para executar o seguinte:'
-ms.openlocfilehash: c30e7eebcbedfca43e42b23f4e496fc866542039
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 40f125e88c93cf3090dff73dcadc07f6154d01f8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082563"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891572"
 ---
-# <a name="trunks-scope-node"></a>Nó de escopo de troncos
+# <a name="trunks-scope-node"></a>Nó de Escopo de Troncos
  
 Clique com o botão **troncos** no construtor de topologias para executar o seguinte:
   
@@ -27,10 +28,10 @@ Clique com o botão **troncos** no construtor de topologias para executar o segu
     
 Além da opção Novo Tronco, você pode executar as seguintes tarefas gerais:
   
-![Nó de escopo de troncos](../../../media/Trunks_Scope_Node.jpg)
+![Nó de Escopo de Troncos](../../../media/Trunks_Scope_Node.jpg)
   
-- **Topologia**. Você pode usar esta opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia ou publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia ou publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
     
-- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
+- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
     
 

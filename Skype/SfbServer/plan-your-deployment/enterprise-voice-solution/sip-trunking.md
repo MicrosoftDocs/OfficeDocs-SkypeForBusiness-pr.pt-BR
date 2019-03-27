@@ -1,5 +1,6 @@
 ---
 title: Tronco SIP no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: Saiba mais sobre o tronco SIP no Skype para Business Server Enterprise Voice
-ms.openlocfilehash: 502629c794ed95b5d6228880c8fe37a23eb86af9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 98b107d02d223ea8bad555c5aa0802f8f7581807
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882231"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892953"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>Tronco SIP no Skype para Business Server
 
@@ -146,14 +147,14 @@ Para obter detalhes sobre os provedores de tronco SIP certificado pela Microsoft
 
 A figura a seguir ilustra a topologia de tronco SIP no Skype para Business Server.
 
-**Topologia de tronco SIP**
+**Topologia de troncos SIP**
 
 ![Topologia de tronco SIP](../../media/669fb55d-7c81-4e21-9421-fabc43d6e064.jpg)
 
 Conforme mostra o diagrama, uma VPN (rede virtual privada) IP é usada para a conectividade entre a rede corporativa e o provedor de serviços da rede de telefonia pública comutada (PSTN). O objetivo desta rede privada é fornecer conectividade IP, aprimorar a segurança e (opcionalmente) obter garantias de qualidade de serviços (QoS). Devido à natureza de uma VPN, não é necessário usar protocolo TLS para o tráfego de sinalização SIP ou SRTP para tráfego de mídia.  As conexões entre a empresa e o provedor de serviços consistem, portanto, em conexões TCP básicas para SIP e RTP básico (via protocolo UDP) em mídia encapsulada através de uma VPN IP. Certifique-se de que todos os firewalls entre os roteadores VPN possuem portas abertas para permitir a comunicação e que os endereços IP nas bordas externas dos roteadores VPN sejam roteáveis publicamente.
 
 > [!IMPORTANT]
-> Contate seu provedor de serviços para determinar se ele oferece suporte para alta disponibilidade, incluindo failover. Em caso positivo, você precisará determinar os procedimentos para configurá-lo. Por exemplo, você precisa configurar apenas um endereço IP e um tronco SIP em cada servidor de mediação, ou você precisa configurar vários troncos SIP em cada servidor de mediação? > Se você tiver vários sites centrais, pergunte também se o provedor de serviço tem a capacidade de habilitar conexões para e de outro site central.
+> Contate seu provedor de serviços para determinar se ele oferece suporte para alta disponibilidade, incluindo failover. Em caso positivo, você precisará determinar os procedimentos para configurá-lo. Por exemplo, você precisa configurar apenas um endereço IP e um tronco SIP em cada servidor de mediação, ou você precisa configurar vários troncos SIP em cada servidor de mediação? Se você tiver vários sites centrais, gt _ pergunte também se o provedor de serviço tem a capacidade de habilitar conexões para e de outro site central.
 
 > [!NOTE]
 > Para o tronco SIP, é altamente recomendável que você implante servidores de mediação autônomo. Para obter detalhes, consulte [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx) na documentação de implantação.
@@ -180,7 +181,7 @@ Se você usa um servidor VPN, é recomendável seguir as seguintes diretrizes:
 
 - Criptografe dados na VPN usando GRE (encapsulamento de roteamento genérico).
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Tronco Branch site SIP no Skype para Business Server](branch-site.md)
 

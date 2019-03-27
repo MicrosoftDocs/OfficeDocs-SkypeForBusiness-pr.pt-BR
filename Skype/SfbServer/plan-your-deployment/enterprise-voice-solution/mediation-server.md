@@ -1,5 +1,6 @@
 ---
 title: Componente do servidor de mediação no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: Saiba mais sobre servidores de mediação no Skype para Business Server, incluindo suas topologias suportadas e suas relações M:N troncos, bypass de mídia e controle de admissão de chamada.
-ms.openlocfilehash: 3f8b1e9fa1c1026c89fb67456e33ee0758140ee7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 237892f446250332e00616dcc8a08abf9c59d741
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882278"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889165"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Componente do servidor de mediação no Skype para Business Server
  
@@ -158,7 +159,7 @@ Você pode usar o Microsoft Lync Server 2013, ferramenta de planejamento para av
  Servidores de mediação no site central podem ser usado para rotear chamadas para o IP-PBXs ou gateways PSTN em filiais. No entanto, se você implantar troncos SIP, você deve implantar um servidor de mediação no site onde finaliza a cada tronco. Ter um servidor de mediação em que o site central rotear chamadas para um IP-PBX ou gateway PSTN em um site de filial não exige o uso de media bypass. Porém, se você puder habilitar o bypass de mídia, isso reduzirá a latência do caminho de mídia e melhorará a qualidade da mídia, pois o caminho de mídia não será mais necessário para seguir o caminho de sinalização. Bypass de mídia também diminui a carga de processamento no pool.
   
 > [!NOTE]
-> O bypass de mídia não interopera com todos os gateways PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e fez alguns testes com IP-PBXs da Cisco. Bypass de mídia é suportado somente com produtos e versões listadas em [Unified Communications programa de interoperabilidade aberta - Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=268730). 
+> O bypass de mídia não interoperará com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com os parceiros certificados e realizou alguns testes com IP-PBXs da Cisco. Bypass de mídia é suportado somente com produtos e versões listadas em [Unified Communications programa de interoperabilidade aberta - Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=268730). 
   
 Se a resiliência de site de filial for necessária, um aparelho de filial persistente ou a combinação de um servidor Front-End, um servidor de mediação e um gateway deve ser implantada no site da filial. (A pressuposição com resiliência de site de filial é que presença e conferência não são resilientes no site.) Para obter orientação sobre o site de filial Planejando o voice, consulte [Planejar a resiliência do Enterprise Voice em Skype para Business Server](enterprise-voice-resiliency.md).
   

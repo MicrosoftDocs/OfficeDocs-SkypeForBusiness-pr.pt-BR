@@ -1,5 +1,6 @@
 ---
 title: Requisitos de sistema do servidor de borda no Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Resumo: Saiba mais sobre os requisitos de sistema para o servidor de borda no Skype para Business Server.'
-ms.openlocfilehash: 16cc2a5e640872fe8c57113c7aaca588efab121a
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 34114833b516f49fb36742cbde9361e1bb1d3be3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626157"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879923"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos de sistema do servidor de borda no Skype para Business Server
  

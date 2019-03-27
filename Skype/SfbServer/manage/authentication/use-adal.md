@@ -1,5 +1,6 @@
 ---
 title: Como usar a Autenticação do modem (ADAL) com o Skype for Business
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5ca71746-ead6-4e8c-90b1-461e846d1f4a
 description: Este artigo explica como usar a autenticação moderno (que se baseia na biblioteca de autenticação do Active Directory (ADAL) e OAuth 2.0) que podem ser encontradas no de 2016 março atualização cumulativa do Skype for Business para Skype para Business Server 2015.
-ms.openlocfilehash: 0121e1a99aab70b10a00dbcf72d3a8be8a50553a
-ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
+ms.openlocfilehash: d6e78d60371b56c3a2cc959ded0ec7d7394d82cb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30800136"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894069"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>How to use Modern Authentication (ADAL) with Skype for Business
  

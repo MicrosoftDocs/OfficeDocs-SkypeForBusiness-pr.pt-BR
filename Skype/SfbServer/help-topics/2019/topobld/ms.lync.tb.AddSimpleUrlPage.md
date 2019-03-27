@@ -1,5 +1,6 @@
 ---
-title: Adicionar URL simples
+title: Adicionar URL Simples
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para adicionar URLs simples adicionais para a definição da implantação, especifique a URL da nova URL simple.
-ms.openlocfilehash: ef26dc814340f9dd2acfa57290d5493946ba5f15
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 393f5b39ea19a156f814a4c3dc5b0a13aab35fce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061154"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898342"
 ---
-# <a name="add-simple-url"></a>Adicionar URL simples
+# <a name="add-simple-url"></a>Adicionar URL Simples
  
 Para adicionar URLs simples adicionais para a definição da implantação, especifique a URL da nova URL simple. O formato da URL é http:// _\<tipo de URL simples\>.\< nome de domínio\> _ ou _http://\<nome de domínio\>/\<tipo de URL simples\>_, onde o tipo de URL simples é um dos seguintes:
   
-- Reunião
+- Reunir
     
 - Discar
     

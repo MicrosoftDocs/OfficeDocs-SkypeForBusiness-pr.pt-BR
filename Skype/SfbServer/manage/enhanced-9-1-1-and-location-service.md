@@ -1,5 +1,6 @@
 ---
 title: Gerenciar o 9-1-1 avançado e serviço de localidade
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype para Business Server suporta Enhanced 9-1-1 (E9-1-1) chamando do Skype para clientes corporativos. Quando você configura Skype para Business Server para E9-1-1, as chamadas de emergência colocadas do Skype para negócios incluem informações de local de resposta de emergência (ERL) do banco de dados de serviço de informações de local.
-ms.openlocfilehash: ef45f6e30e65a9a3fe79fd51576c24a6a4dfb318
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 31e1d529c8fb60145bc1ab4a22a75660d9f3ef63
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223455"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895150"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Gerenciar 9-1-1 avançado e o serviço de local no Skype visita do servidor
 

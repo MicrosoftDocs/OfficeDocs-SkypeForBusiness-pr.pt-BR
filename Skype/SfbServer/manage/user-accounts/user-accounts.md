@@ -1,5 +1,6 @@
 ---
 title: Gerenciar contas de usuário do Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: As seções deste artigo descrevem como habilitar, desabilitar temporariamente ou remover usuários do Active Directory do Skype para Business Server.
-ms.openlocfilehash: 918bdf556f040c115abf5869ad7a7dcd76a3271f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2140ae4209e0b91e0d1188a01f96d2d81cac27ef
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250791"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883683"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Gerenciar contas de usuário do Skype para Business Server
 
@@ -196,7 +197,7 @@ Para remover uma conta de usuário, use o cmdlet Disable-CsUser. Por exemplo:
 
 Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps) .
 
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Consulte Também
 <a name="Remove"> </a>
 
 [Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps)

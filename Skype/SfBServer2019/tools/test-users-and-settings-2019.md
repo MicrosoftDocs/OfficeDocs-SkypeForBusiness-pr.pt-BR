@@ -1,5 +1,6 @@
 ---
 title: Configurar usuários de teste e configurações do nó do inspetor
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: Configure contas de usuário de teste e configurações de nó do observador do Skype para transações sintéticas do Business Server.'
-ms.openlocfilehash: 3348d0407321ca53a771e2783b0f27c6463143f4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6137d72ce35ffdacaacb85890b387d5f9fc8ab9a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26535992"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897483"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Configurar usuários de teste e configurações do nó do inspetor
  
@@ -364,7 +365,7 @@ Neste exemplo, um Skype para regra Business Server precisará existir para encam
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Transação sintética do Servidor de Interoperabilidade de Vídeo (VIS)
 
-A transação sintética do VIS (Servidor de Interoperabilidade de Vídeo) exige que você baixe e instale os arquivos de apoio da transação sintética ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
+A transação sintética do servidor de interoperabilidade de vídeo (VIS) requer que você baixe e instale os arquivos de suporte de transação sintética ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
   
 Para instalar VISSTSupportPackage.msi, certifique-se de que as dependências (em Requisitos de Sistema) para o msi já se encontram instaladas. Executar VISSTSupportPackage.msi para realizar uma instalação simples. O arquivo. msi instala todos os arquivos no seguinte caminho: "%ProgramFiles%\VIS pacote de suporte de transação sintética".
   

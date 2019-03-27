@@ -1,5 +1,6 @@
 ---
 title: Criar ou modificar uma fila de espera no Skype para negócios
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Criar ou modificar uma fila de espera do grupo de resposta, em Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: a77940bae3dd720594619ebffc1858dae2a161ba
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d564a40f8e650042fe23ff1db6262c6d1c5b93a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374512"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895510"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Criar ou modificar uma fila de espera no Skype para negócios
  
@@ -41,7 +42,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
 4. Na página **Fila**, siga um destes procedimentos:
     
-   - Para criar uma nova fila, clique em **Nova**. Em **Selecionar um serviço**, digite parte ou todo o nome do serviço **ApplicationServer** onde você deseja adicionar a fila no campo de pesquisa. Na lista resultante de serviços, clique no serviço que você deseja e clique em **OK**.
+   - Para criar uma nova fila, clique em **Nova**. Em **Selecionar um serviço**, digite uma parte ou o nome inteiro do serviço do **ApplicationServer** onde deseja adicionar a fila no campo de pesquisa. Na lista resultante de serviços, clique no serviço que você deseja e clique em **OK**.
     
    - Para modificar uma fila existente, digite uma parte ou o nome inteiro da fila no campo de pesquisa. Na lista resultante de filas, clique na fila que você deseja, em **Editar**e em **Mostrar detalhes**.
     
@@ -118,7 +119,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
    ```
 
    > [!NOTE]
-   > Para usar um arquivo de áudio para o prompt, use o cmdlet **Import-CsRgsAudioFile** . Para obter detalhes, consulte [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+   > Para usar um arquivo de áudio no prompt, use o cmdlet **Import-CsRgsAudioFile**. Para obter detalhes, consulte [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 4. Defina a ação que será executada quando o limite de tempo da fila for atingido e salve-o em um variável. Na linha de comando, execute:
     
@@ -148,7 +149,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
    ```
 
       > [!NOTE]
-      > Para usar um arquivo de áudio para o prompt, use o cmdlet **Import-CsRgsAudioFile** . Para obter detalhes, consulte [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+      > Para usar um arquivo de áudio no prompt, use o cmdlet **Import-CsRgsAudioFile**. Para obter detalhes, consulte [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 6. Defina a ação que será executada quando o limite de excedente da fila for atingido e salve-o em uma variável. Na linha de comando, execute:
     
@@ -198,7 +199,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     Get-CsRgsQueue -Name "Help Desk"
     ```
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   

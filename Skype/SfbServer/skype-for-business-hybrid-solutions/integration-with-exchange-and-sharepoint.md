@@ -1,5 +1,6 @@
 ---
 title: Integração com o Exchange e SharePoint
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Resumo: Saiba mais sobre Skype para integração de Business Server 2015 com o Exchange e SharePoint.'
-ms.openlocfilehash: 98e84fdac1e070c10bdcfb99278e78fb6f56a9a6
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 91291f960636b8fd0c41519ff65830b98b631e8c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210611"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879959"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integração com o Exchange e SharePoint
 
@@ -71,7 +72,7 @@ As tabelas a seguir listam os recursos suportados em uma implantação híbrida 
 |Delegação da reunião  <br/> |Com suporte apenas quando ambos os usuários estão hospedados online na mesma floresta ou quando ambos estão hospedados no local. Para obter mais informações, consulte [Skype para soluções híbridas de negócios](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Perdidas histórico de conversas e Logs de chamada são gravados de correio do Exchange do usuário  <br/> ||
 |Arquivamento de conteúdo (IM e reunião) no Exchange  <br/> |Para obter mais informações, consulte a [Lista de verificação de implantação para arquivamento](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
-|Pesquise o conteúdo arquivado  <br/> |Para obter mais informações, consulte [Configurar o Exchange para o SharePoint eDiscovery Center](https://go.microsoft.com/fwlink/p/?LinkId=285448) <br/> |
+|Pesquise o conteúdo arquivado  <br/> |Para obter mais informações, consulte em [Configure o Exchange para SharePoint eDiscovery Center](https://go.microsoft.com/fwlink/p/?LinkId=285448) <br/> |
 |Caixa postal  <br/> |Para obter mais informações, consulte [Fornecendo Lync Server 2013 caixa postal aos usuários no hospedado UM do Exchange](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx).  <br/> |
 
  **Skype para Business Online e do Exchange no local**

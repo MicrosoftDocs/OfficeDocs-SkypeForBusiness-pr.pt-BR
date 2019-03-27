@@ -1,5 +1,6 @@
 ---
-title: Instalar repositório de configuração Local invocar (configuração)
+title: Instalar Invocação do Repositório de Configuração Local (Configuração)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para iniciar a instalação do banco de dados que acomodará a cópia local de somente leitura do repositório de gerenciamento Central, selecione entre recuperar a configuração definida publicada usando o construtor de topologias da Central já instalado e configurado Repositório de gerenciamento ou ler a configuração definida de outra mídia. Para um computador que esteja na rede interna da sua organização, selecione recuperar configuração automaticamente do repositório de gerenciamento Central.
-ms.openlocfilehash: 87d2620b6b4b9eb36ee96e7f9b693016620d3a49
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 21cf742be33ab79daa733cbc52aa557b6ccee145
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003142"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886265"
 ---
-# <a name="install-local-configuration-store-invoke-configure"></a>Instalar repositório de configuração Local invocar (configuração)
+# <a name="install-local-configuration-store-invoke-configure"></a>Instalar Invocação do Repositório de Configuração Local (Configuração)
  
 Para iniciar a instalação do banco de dados que acomodará a cópia local de somente leitura do repositório de gerenciamento Central, selecione entre recuperar a configuração definida publicada usando o construtor de topologias da Central já instalado e configurado Repositório de gerenciamento ou ler a configuração definida de outra mídia. Para um computador que esteja na rede interna da sua organização, selecione **recuperar configuração automaticamente do repositório de gerenciamento Central**.
   

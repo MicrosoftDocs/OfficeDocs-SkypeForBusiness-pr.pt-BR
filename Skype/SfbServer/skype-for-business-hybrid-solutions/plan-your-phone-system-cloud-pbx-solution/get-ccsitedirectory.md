@@ -1,5 +1,6 @@
 ---
 title: Get-CcSiteDirectory
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
-description: O cmdlet Get-CcSiteDirectory mostra o diretório atual em que os arquivos de configuração no nível do site são armazenados. A pasta contém o VHD de base e os arquivos de instalação do Skype for Business Cloud Connector Edition. Essa pasta deve ser compartilhada com todos os outros dispositivos de um site do conector de nuvem.
-ms.openlocfilehash: e75e20a18960510bf75a8ca4cfc97ffd9daa894f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: O cmdlet Get-CcSiteDirectory mostra o diretório atual em que os arquivos de configuração no nível do site estão armazenados. A pasta contém o VHD de base e os arquivos de instalação do Skype for Business Cloud Connector Edition. Essa pasta deve ser compartilhada com todos os outros dispositivos de um site do conector de nuvem.
+ms.openlocfilehash: d0869f3cbd1c43e523107a0ff8dce6fd769889a8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882394"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  
-O cmdlet Get-CcSiteDirectory mostra o diretório atual em que os arquivos de configuração no nível do site são armazenados. A pasta contém o VHD de base e os arquivos de instalação do Skype for Business Cloud Connector Edition. Essa pasta deve ser compartilhada com todos os outros dispositivos de um site do conector de nuvem.
+O cmdlet Get-CcSiteDirectory mostra o diretório atual em que os arquivos de configuração no nível do site estão armazenados. A pasta contém o VHD de base e os arquivos de instalação do Skype for Business Cloud Connector Edition. Essa pasta deve ser compartilhada com todos os outros dispositivos de um site do conector de nuvem.
   
 Este cmdlet se aplica ao Cloud Connector Edition 1.4.1, 1.4.2.
   
@@ -44,7 +46,7 @@ Get-CcSiteDirectory
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-Para fornecer alta disponibilidade e a afinidade de gateway, aparelhos de conector de nuvem podem ser combinados em sites. Os usuários são atribuídos a sites, em vez de aparelhos de conector de nuvem. Cada site tem uma pasta compartilhada onde o VHD de base e os arquivos de instalação do Cloud Connector são armazenados. Appliances usam essa pasta durante a implantação. A pasta padrão é C:\Users\%userprofile%\CloudConnector\SiteRoot. Você pode alterar o caminho usando o cmdlet Set-CcSiteDirectory.
+Para fornecer alta disponibilidade e a afinidade de gateway, aparelhos de conector de nuvem podem ser combinados em sites. Os usuários são atribuídos a sites, em vez de aparelhos de conector de nuvem. Cada site possui uma pasta compartilhada onde os arquivos de instalação base do VHD e o conector de nuvem são armazenados. Os dispositivos usam essa pasta durante a implantação. A pasta padrão é C:\Users\%userprofile%\CloudConnector\SiteRoot. Você pode alterar o caminho usando o cmdlet Set-CcSiteDirectory.
   
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

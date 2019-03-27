@@ -1,5 +1,6 @@
 ---
 title: Exibir videostreamdetail
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: A exibir Videostreamdetail armazena informações sobre cada transmissão de vídeo no banco de dados. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
-ms.openlocfilehash: d102a5e99cfcecb7d5e2e35b113e13509662af4f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6bafdbed3152bc73b2988e31877d8b7203557d46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884432"
 ---
 # <a name="videostreamdetail-view"></a>Exibir videostreamdetail
  
@@ -26,7 +28,7 @@ A exibir Videostreamdetail armazena informações sobre cada transmissão de ví
 |SessionSeq  <br/> |int  <br/> |Referenciado de [MediaLine table](medialine-0.md).  <br/> |
 |MediaLineLabel  <br/> |tinyint  <br/> |Referenciado de [MediaLine table](medialine-0.md).  <br/> |
 |StreamId  <br/> |int  <br/> |ID exclusiva dentro de uma linha de mídia.  <br/> |
-|StartTime  <br/> |datetime  <br/> |Hora de início de sessão.  <br/> |
+|StartTime   <br/> |datetime  <br/> |Hora de início de sessão.  <br/> |
 |EndTime  <br/> |datetime  <br/> |Hora de término da sessão.  <br/> |
 |CallPriority  <br/> |int  <br/> |Prioridade da chamada.  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |FQDN do pool do chamador.  <br/> |
@@ -54,7 +56,7 @@ A exibir Videostreamdetail armazena informações sobre cada transmissão de ví
 |ConnectivityIce  <br/> |tinyint  <br/> |Informações sobre o caminho de mídia, como direto ou retransmitido. Consulte a [tabela MediaLine](medialine-0.md) para obter mais informações. <br/> |
 |CallerIceWarningFlags  <br/> |int  <br/> |Informações sobre o processo de conectividade ICE (estabelecimento interativa) descritas em bits sinalizadores para o chamador. Para obter detalhes, consulte a qualidade da experiência do Monitoring Server especificação do protocolo.  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |Informações sobre o processo de conectividade ICE (estabelecimento interativa) descritas em bits sinalizadores para o receptor. Para obter detalhes, consulte a qualidade da experiência do Monitoring Server especificação do protocolo.  <br/> |
-|Transport  <br/> |int  <br/> |Tipo de transporte: 0 é UDP, 1 é TCP.  <br/> |
+|Transporte  <br/> |int  <br/> |Tipo de transporte: 0 é UDP, 1 é TCP.  <br/> |
 |CallerIPAddr  <br/> |var(50)  <br/> |Endereço IP do chamador. Isso pode ser um IPv4 ou um endereço IPv6.  <br/> |
 |CallerPort  <br/> |int  <br/> |Porta usada pelo chamador.  <br/> |
 |CallerInside  <br/> |bit  <br/> |Indica se o chamador está dentro da rede da organização. 1 significa que o chamador está dentro da rede corporativa, 0 significa que o chamador está fora da rede.  <br/> |
@@ -87,7 +89,7 @@ A exibir Videostreamdetail armazena informações sobre cada transmissão de ví
 |AppliedBandwidthLimit  <br/> |int  <br/> |Largura de banda real aplicada ao envio determinado lado fluxo dado várias configurações de política (ativar, API, SDP, servidor de políticas e assim por diante). Isso não deve ser confundido com a largura de banda efetiva porque pode haver uma largura de banda efetiva inferior com base na estimativa de largura de banda. Isto é, basicamente, a largura de banda máxima, que o fluxo de envio pode demorar limites impostos pela estimativa de largura de banda de bloqueio.  <br/> |
 |JitterInterArrival  <br/> |int  <br/> |Instabilidade média da rede estatísticas do protocolo de controle de Tempo Real (RTCP).  <br/> |
 |JitterInterArrivalMax  <br/> |int  <br/> |Tremulação máxima da rede durante a chamada.  <br/> |
-|Ida e volta  <br/> |int  <br/> |Tempo de ida e volta de estatísticas RTCP.  <br/> |
+|RoundTrip  <br/> |int  <br/> |Tempo de ida e volta de estatísticas RTCP.  <br/> |
 |RoundTripMax  <br/> |int  <br/> |Tempo máximo de ida e volta para o fluxo de áudio.  <br/> |
 |PacketLossRate  <br/> |decimal(5,4)  <br/> |Taxa de perda média de pacotes durante a chamada.  <br/> |
 |PacketLossRateMax  <br/> |decimal(5,4)  <br/> |Perda máxima de pacotes observada durante a chamada.  <br/> |

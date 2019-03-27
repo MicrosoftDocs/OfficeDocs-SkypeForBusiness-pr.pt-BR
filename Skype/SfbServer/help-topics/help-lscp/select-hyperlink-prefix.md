@@ -1,5 +1,6 @@
 ---
-title: Selecionar prefixo de hiperlink
+title: Selecionar Prefixo de Hiperlink
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: Use a caixa de diálogo Selecionar prefixo de hiperlink para selecionar os tipos de hiperlinks que você deseja bloquear, enviar uma mensagem de aviso ou permitir marcando (para bloquear ou enviar uma mensagem de aviso) ou desmarcando (para permitir) as caixas de seleção para suas extensões das categorias em Prefixos de hiperlink. Clique na seta para expandir uma categoria e exibir todos os prefixos de hiperlink para essa categoria. Se você deseja selecionar todos os prefixos de hiperlink para uma categoria, selecione o nome da categoria.
-ms.openlocfilehash: 341a2be3e951d6c72dc92725550d3b6d7644b334
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d0811bab0d7e44e7e7fb2fec116b9aa65a78a530
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20990963"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882625"
 ---
-# <a name="select-hyperlink-prefix"></a>Selecionar prefixo de hiperlink
+# <a name="select-hyperlink-prefix"></a>Selecionar Prefixo de Hiperlink
  
 Use a caixa de diálogo **Selecionar prefixo de hiperlink** para selecionar os tipos de hiperlinks que você deseja bloquear, enviar uma mensagem de aviso ou permitir marcando (para bloquear ou enviar uma mensagem de aviso) ou desmarcando (para permitir) as caixas de seleção para as suas extensões do categorias em **prefixos de hiperlink**. Clique na seta para expandir uma categoria e exibir todos os prefixos de hiperlink para essa categoria. Se você deseja selecionar todos os prefixos de hiperlink para uma categoria, selecione o nome da categoria. 
   

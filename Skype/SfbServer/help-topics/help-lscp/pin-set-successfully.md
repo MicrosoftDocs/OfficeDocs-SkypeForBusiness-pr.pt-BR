@@ -1,5 +1,6 @@
 ---
-title: PIN definido com sucesso
+title: PIN Definido com Sucesso
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 description: Para usar o email para enviar o PIN para o usuário, clique em abrir meu aplicativo de email para enviar o novo PIN para o usuário. Para copiar o PIN para a mensagem de email, selecione Mostrar PIN.
-ms.openlocfilehash: cf0815f879fba028c004d41b6282107e573e21cb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 47d5bbe0252bbe473729dd792a5f647bfbe37bc6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20990111"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893793"
 ---
-# <a name="pin-set-successfully"></a>PIN definido com sucesso
+# <a name="pin-set-successfully"></a>PIN Definido com Sucesso
  
 Para usar o email para enviar o PIN para o usuário, clique em **abrir meu aplicativo de email para enviar o novo PIN ao usuário**. Para copiar o PIN para a mensagem de email, selecione **Mostrar PIN**. 
   

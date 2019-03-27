@@ -1,5 +1,6 @@
 ---
 title: Criar e publicar a nova topologia no Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Resumo: Saiba como criar, publicar e verifique se uma nova topologia antes de instalar o Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: c2879b2323ffe85624c852d70028ab2388b4feb7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ba141e76732705008ded4e8e03737154bc45b1c6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371331"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886672"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Criar e publicar a nova topologia no Skype para Business Server
  
@@ -29,7 +30,7 @@ Antes de instalar o Skype para system Business Server em cada um dos servidores 
   
 ![Diagrama de visão geral](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
   
-## <a name="create-and-publish-new-topology"></a>Criar e publicar nova topologia
+## <a name="create-and-publish-new-topology"></a>Create and publish new topology
 
 Você pode usar Skype para o construtor de topologia de servidor de negócios para projetar, definir, configurar e publicar as topologias. Essa ferramenta foi instalada quando você instalou as Ferramentas Administrativas no início do artigo. Há diversas opções diferentes para a criação da topologia. Neste procedimento, você criará uma topologia básica com conferências.
   
@@ -72,7 +73,7 @@ Você pode usar Skype para o construtor de topologia de servidor de negócios pa
     > [!TIP]
     > Skype para Business Server Enterprise Edition pode incluir vários servidores trabalhando juntos para fornecer a função de Front-End. Quando vários servidores são usados para atender a função, ele é denominado um pool. Assim, vários servidores trabalhando juntos para fornecer a função de Front-End também é conhecida como o pool de Front-End. Skype para Business Server Standard Edition pode incluir apenas um único servidor para fornecer a função de Front-End. É comum referir-se ao pool de Front-End, mesmo se um único servidor está fornecendo a função. 
   
-     ![Defina o pool front-end.](../../media/c1447557-261e-4260-a362-ab8d19070eb9.png)
+     ![Defina o pool de front-end.](../../media/c1447557-261e-4260-a362-ab8d19070eb9.png)
   
 3. Digite os FQDNs de todos os computadores do pool e clique em **Avançar**, conforme mostra a figura.
     
@@ -151,7 +152,7 @@ Você pode usar Skype para o construtor de topologia de servidor de negócios pa
   
     - Opcionalmente, insira a URL base externa em **URL Base Externa**. Insira a URL base externa para diferenciá-la do nome de domínio interno. Por exemplo, seu domínio interno é contoso.local, mas seu nome de domínio externo é contoso.com. Você deve definir a URL usando o nome do domínio contoso.com, pois deve ser possível resolvê-la no DNS público. Isso também é importante no caso de um proxy reverso. O nome de domínio da URL base externa seria igual ao nome de domínio do FQDN do proxy inverso. As mensagens instantâneas e presença exigem acesso HTTP ao pool de front-ends em clientes móveis.
     
-      ![Substitua os serviços Web.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
+      ![Substitua os serviços web.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
 11. Se você selecionou **Conferência** na página **Selecionar Recursos**, o sistema solicitará que você selecione um servidor do Office Web Apps. Clique em **Novo** para iniciar a caixa de diálogo.
     
@@ -167,7 +168,7 @@ Você pode usar Skype para o construtor de topologia de servidor de negócios pa
 
 1. No construtor de topologia, com o botão direito no nó superior do **Skype para Business Server** e clique em **Editar propriedades**, conforme mostrado na figura.
     
-     ![Clique com o botão direito em Skype for Business Server e selecione Editar Propriedades.](../../media/692c18dd-8e99-4239-ae7b-5e855d866afa.png)
+     ![Clique com botão direito Skype para Business Server e selecione Editar propriedades.](../../media/692c18dd-8e99-4239-ae7b-5e855d866afa.png)
   
 2. No painel **URLs Simples**, selecione **URLs de acesso telefônico:** (Discagem) ou **URLs de Reunião:** (Reunião) para editar. Em seguida, clique em **Editar URL**.
     
@@ -210,7 +211,7 @@ Você pode usar Skype para o construtor de topologia de servidor de negócios pa
     > [!NOTE]
     > Você pode clicar em **Avançado** para configurar os locais dos arquivos de banco de dados.
   
-     ![Selecione o servidor de Repositório de Gerenciamento Central.](../../media/764478b5-8480-42c5-854f-649bb121cd94.png)
+     ![Servidor do repositório de gerenciamento Central Select.](../../media/764478b5-8480-42c5-854f-649bb121cd94.png)
   
 9. Na página **Selecionar bancos de dados**, selecione os bancos de dados que deseja publicar.
     

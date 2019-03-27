@@ -1,5 +1,6 @@
 ---
 title: (Opcional) Conjuntos de feriados do grupo de resposta definir Skype para negócios
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: Criar ou modificar os conjuntos de feriados do grupo de resposta, em Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: f959b69462ecc3d3d37d6febfbf043a48f9dd4ad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cc34c7a2e3f03b99bc29852766926e6c63c2463f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974744"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883841"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Opcional) Conjuntos de feriados do grupo de resposta definir Skype para negócios
  
@@ -52,7 +53,7 @@ As configurações de feriados definem os dias nos quais um grupo de respostas e
    New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com" -Name "2018 Holidays" -HolidayList ($a, $b)
    ```
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Projetando e criando fluxos de trabalho do grupo de resposta no Skype para negócios](designing-and-creating-response-group-workflows.md)
 

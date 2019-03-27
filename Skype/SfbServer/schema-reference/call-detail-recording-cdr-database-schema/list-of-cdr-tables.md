@@ -1,5 +1,6 @@
 ---
 title: Lista de tabelas CDR Skype para Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: O esquema de banco de dados (CDR) de registro de detalhes de chamada consiste nas tabelas a seguir.
-ms.openlocfilehash: 7e224b8170ec078cafaec2fe3cbf4cf9819eba41
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 977c48b58c5b1d1c0f21fbac07a28ec6efb0bfd6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881197"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Lista de tabelas CDR Skype para Business Server 2015
  
@@ -27,9 +29,9 @@ O esquema de banco de dados (CDR) de registro de detalhes de chamada consiste na
 |[Tabela CallPriorities Skype para Business Server 2015](callpriorities.md) <br/> |Armazena a lista de prioridades de chamada possíveis, tais como emergência, urgente, normal, não urgente e muito mais.  <br/> |
 |[Tabela ConferenceJoinTimeThresholds no Skype para Business Server 2015](conferencejointimethresholds.md) <br/> |Armazena os limites de classificação utilizados pelo relatório de resumo de tempo de ingresso de conferência.  <br/> |
 |[Tabela DeRegisterType Skype para Business Server 2015](deregistertype.md) <br/> |Armazena a lista de possível usuário cancelamento de registro de motivos, como "cliente iniciado," "registro expirou",""Falha de cliente"e muito mais.  <br/> |
-|[Tabela mediaList](medialist.md) <br/> |Armazena a lista de tipos de mídia que podem gerar as entradas no banco de dados (por exemplo, mensagens Instantâneas, áudio, vídeo e transferência de arquivos).  <br/> |
+|[Tabela MediaList](medialist.md) <br/> |Armazena a lista de tipos de mídia que podem gerar as entradas no banco de dados (por exemplo, mensagens Instantâneas, áudio, vídeo e transferência de arquivos).  <br/> |
 |[Tabela PurgeSettings](purgesettings.md) <br/> |Armazena informações que especificam se (e quando) desatualizadas call detail Records, registros serão excluídos automaticamente do banco de dados de CDR.  <br/> |
-|[Tabela de funções](roles.md) <br/> |Armazena a lista de possíveis funções de conferência (por exemplo, o participante e apresentador).  <br/> |
+|[Tabela Roles](roles.md) <br/> |Armazena a lista de possíveis funções de conferência (por exemplo, o participante e apresentador).  <br/> |
 |[Tabela SIPResponseMetaData](sipresponsemetadata.md) <br/> |Armazena uma lista de códigos de resposta SIP e a classificação e a definição de cada um desses códigos.  <br/> |
    
 ## <a name="supporting-tables"></a>Tabelas de suporte
@@ -47,12 +49,12 @@ O esquema de banco de dados (CDR) de registro de detalhes de chamada consiste na
 |[Tabela de fabricantes no Skype para Business Server 2015](manufacturers.md) <br/> |Armazena uma lista de fabricantes de dispositivos (telefone de mesa).  <br/> |
 |[Tabela MCUs Skype para Business Server 2015](mcus.md) <br/> |Armazena informações sobre os vários A / V Conferencing Servers e seus URIs.  <br/> |
 |[Tabela MediationServers](mediationservers.md) <br/> |Armazena uma lista de servidores de mediação que são usados para chamadas VoIP.  <br/> |
-|[Tabela de telefones](phones.md) <br/> |Armazena todos os números de telefone usados em chamadas VoIP que foram arquivadas ou que tiveram seus detalhes chamada gravados.  <br/> |
-|[Tabela de pools](pools.md) <br/> |Armazena os nomes do pool no qual IM as mensagens são capturadas.  <br/> |
+|[Tabela Phones](phones.md) <br/> |Armazena todos os números de telefone usados em chamadas VoIP que foram arquivadas ou que tiveram seus detalhes chamada gravados.  <br/> |
+|[Tabela Pools](pools.md) <br/> |Armazena os nomes do pool no qual IM as mensagens são capturadas.  <br/> |
 |[Tabela de servidores](servers.md) <br/> |Armazena o nome dos servidores envolvidos em chamadas.  <br/> |
-|[Tabela de locatários](tenants.md) <br/> |Armazena os locatários suportados pelo implantação atual. Há alguns inquilinos interna para usuário corporativo, usuários federados, usuários de conectividade IM públicos e usuários anônimos.  <br/> |
+|[Tabela Tenants](tenants.md) <br/> |Armazena os locatários suportados pelo implantação atual. Há alguns inquilinos interna para usuário corporativo, usuários federados, usuários de conectividade IM públicos e usuários anônimos.  <br/> |
 |[Tabela UserAgentDef](useragentdef.md) <br/> |Mapeia identificadores de agente do usuário aos nomes descritivos dos agentes.  <br/> |
-|[Tabela de usuários](users.md) <br/> |Armazena o usuário URIs de usuários que tenham participado em sessões gravadas ou arquivadas neste banco de dados.  <br/> |
+|[Tabela Users](users.md) <br/> |Armazena o usuário URIs de usuários que tenham participado em sessões gravadas ou arquivadas neste banco de dados.  <br/> |
 |[Tabela UserStatistics](userstatistics.md) <br/> |Armazena informações sobre o uso de um usuário individual do sistema.  <br/> |
    
 ## <a name="tables-specific-to-conference-cdr-records"></a>Tabelas específicas para registros de CDR de conferências
@@ -77,7 +79,7 @@ O esquema de banco de dados (CDR) de registro de detalhes de chamada consiste na
 |:-----|:-----|
 |[Tabela SessionDetails](sessiondetails.md) <br/> |Armazena informações sobre cada sessão ponto a ponto, incluindo o início e hora de término, ID de usuário, código de resposta e contagem de mensagem para cada usuário.  <br/> |
 |[Tabela FileTransfers Skype para Business Server 2015](filetransfers-0.md) <br/> |Armazena informações sobre a transferência de arquivos do nome de sessões, incluindo o arquivo e resultam (aceita, rejeitada ou cancelada).  <br/> |
-|[Tabela de mídia](media.md) <br/> |Armazena informações sobre os diferentes tipos de mídia envolvidos em sessões ponto a ponto.  <br/> |
+|[Tabela Media](media.md) <br/> |Armazena informações sobre os diferentes tipos de mídia envolvidos em sessões ponto a ponto.  <br/> |
    
 ## <a name="table-for-voip-call-details"></a>Tabela de detalhes das chamadas VoIP
 

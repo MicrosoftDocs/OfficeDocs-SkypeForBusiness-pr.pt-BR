@@ -1,5 +1,6 @@
 ---
 title: Categorias de chat persistente, salas de chat e funções de usuário no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Resumo: Leia este tópico para saber mais sobre categorias, salas de bate-papo e funções de administrador e usuário para o servidor de bate-papo persistente no Skype para Business Server 2015.'
-ms.openlocfilehash: 83aa18d427c97ba54dcc3c66e684a4e13ed0c5df
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0a65d5d8944d28ba834fac461051f23fcdd98800
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983774"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898856"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Categorias de chat persistente, salas de chat e funções de usuário no Skype for Business Server 2015
  
@@ -39,7 +40,7 @@ As categorias permitem que você organize salas de chat e controle quais usuári
 A lógica principal do conceito de Membros Permitidos e Negados é baseada em paredes éticas. Por exemplo, é comum que instituições bancárias e financeiras tenham limites éticos que impeçam investidores e analistas de compartilharem comunicações enquanto implementam políticas e convenções. Para cumprir esse requisito, um administrador pode criar categorias de modo que uma categoria permita que salas sejam criadas e usadas por investidores e a outra categoria, por analistas. Os usuários não poderão ser adicionados como membro de uma sala de chat se a categoria pai impedir isso.
   
 > [!IMPORTANT]
-> Membros permitidos e negados em uma categoria não são os mesmos uma função de **membro** , que se aplica a uma sala de Chat persistente. > pesquisas exibam todas as salas de bate-papo abertura e encerramento para o qual o usuário que está executando a pesquisa está na lista de membros permitidos e negados. Salas secretas não são exibidas, a menos que o usuário que fez a pesquisa seja membro de uma delas. O usuário pode pesquisar apenas as salas das quais ele já é membro ou às quais ele pode solicitar associação. 
+> Membros permitidos e negados em uma categoria não são iguais uma função de **membro** , que se aplica ao room.> Chat persistente e exibição de pesquisas todas abrir e fechado para que o usuário que está executando a pesquisa está no permitidos de salas de chat e lista de membros negados. Salas secretas não são exibidas, a menos que o usuário que fez a pesquisa seja membro de uma delas. O usuário pode pesquisar apenas as salas das quais ele já é membro ou às quais ele pode solicitar associação. 
   
 ## <a name="chat-rooms-and-user-roles"></a>Salas de chat e funções de usuário
 
@@ -65,7 +66,7 @@ Além dos permitidos e membros negados para categorias, você também pode contr
 
 Estas são as funções de administrador para o servidor de Chat persistente:
   
-- **Administrador de Chat persistente**: função de administrador de Chat persistente a, bem como criar e gerenciar categorias de sala de chat que definem quem pode gerenciar salas de chat (modificar todas as propriedades, incluindo a associação, gerentes, categorias, salas de marca como disabled), pode criar e acessar as salas de bate-papo. Os administradores também podem marcar salas de chat como desabilitadas e limpar salas de chat que não estão mais ativas. Os administradores não estão sujeitos às restrições dos Criadores ou Membros Permitidos. Eles podem criar qualquer tipo de sala de chat e adicionar a si próprios como membros de qualquer sala. Os administradores podem também modificar e gerenciar a configuração de Chat persistente (Propriedades do pool, as configurações globais e configuração de conformidade) e pode também pretende e implementar a migração de uma implantação de servidor de Chat de grupo mais antiga para Skype para Business Server 2015 Servidor de Chat persistente.
+- **Administrador de Chat persistente**: função de administrador de Chat persistente a, bem como criar e gerenciar categorias de sala de chat que definem quem pode gerenciar salas de chat (modificar todas as propriedades, incluindo a associação, gerentes, categorias, salas de marca como disabled), pode criar e acessar as salas de bate-papo. Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active. Administrators are not subject to the Creators or Allowed Members restrictions. Administrators can create any kind of chat room and add themselves as a member to any chat room. Os administradores podem também modificar e gerenciar a configuração de Chat persistente (Propriedades do pool, as configurações globais e configuração de conformidade) e pode também pretende e implementar a migração de uma implantação de servidor de Chat de grupo mais antiga para Skype para Business Server 2015 Servidor de Chat persistente.
     
     Administradores de Chat persistente são capazes de administrar o servidor de Chat persistente usando cmdlets do Windows PowerShell remotamente (ou seja, de um computador diferente do servidor de Chat persistente). Servidor de Chat persistente verifica que Persistent Chat Administrator é um membro do grupo local administrador RTC Local em Persistent Chat Server servidor Front-End.
     

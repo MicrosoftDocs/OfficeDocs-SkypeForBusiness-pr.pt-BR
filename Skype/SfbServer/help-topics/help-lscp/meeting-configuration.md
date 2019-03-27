@@ -1,5 +1,6 @@
 ---
 title: Configuração de Reunião
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 description: Definições de configuração de reunião definem o tipo de conferências (também calledmeetings) que os usuários podem criar e controlar como (ou se) usuários anônimos e usuários de conferência discada podem participar dessas conferências. Essas configurações se aplicam apenas às reuniões agendadas. Elas não se aplicam à reuniões ad-hoc criadas clicando na opção Reunir Agora no cliente.
-ms.openlocfilehash: 7d815877375759a45de4df6543eca8ef82af1481
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 32bbb6861271623e0a4126d98e36c28542ddfc8d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244206"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885125"
 ---
 # <a name="meeting-configuration"></a>Configuração de Reunião
 
@@ -62,6 +63,6 @@ A lista a seguir descreve os campos na página.
 
 - **Escopo** Identifica o escopo da configuração de reunião: global, site ou pool.
 
-Para obter detalhes sobre como trabalhar com configurações de reunião, consulte [criar uma ou modificar um conjunto de definições de configuração do reunião](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) na documentação operações.
+Para obter detalhes sobre como trabalhar com configurações de reunião, consulte  [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) na documentação Operações.
 
 

@@ -1,5 +1,6 @@
 ---
 title: Amostras de Desenvolvimento para o CQD
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Resumo: Revise amostras de desenvolvimento e tutorial para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: 994a26af99ec141b531ed3011a42f626c0c62886
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: eb2e195a9eaac54b01af6d0da498fda6fafe374c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531064"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887369"
 ---
 # <a name="cqd-development-samples"></a>Amostras de Desenvolvimento para o CQD
 
@@ -39,7 +40,7 @@ O CQD oferece acesso rápido e fácil às informações de qualidade da chamada 
 
 Os relatórios mostrados no portal da web são agrupados em "conjuntos de relatório". A figura mostra um conjunto de relatórios com dois relatórios. Cada relatório do painel abaixo mostra os resultados da consulta sobre o número de chamadas boas, chamadas ruins e porcentagem de chamadas ruins em vários meses, com vários filtros aplicados. 
 
-![Relatório de amostra de CQD](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
+![Exemplo de relatório de CQD](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
 O CQD é criado de acordo com a Metodologia de Qualidade de Chamada (CQM), portanto, o conjunto padrão de relatórios é projetado para se alinhar ao fluxo de investigação introduzido pela CQM. Os usuários também têm a flexibilidade para editar ou criar relatórios personalizados para atender às suas necessidades. No entanto, como existem várias maneiras para visualizar os dados, a visualização fornecida pelo CQD pode não atender completamente às necessidades de cada usuário. Nessas situações, um usuário pode aproveitar as APIs de Dados e de Repositório para criar páginas de relatório personalizadas. Veremos alguns exemplos neste tutorial.
 
@@ -51,7 +52,7 @@ Quando você navegar até a página inicial CQD (por exemplo, http://localhost/c
 
 O CQD já é bastante flexível para personalizar relatórios, mas pode haver situações em que os usuários precisam agregar os dados em diversos relatórios criados no CQD. Por exemplo, pode haver a necessidade de criar um relatório que mostra o percentual de chamadas ruins em todas as combinações possíveis de chamadas com fio em uma tabela (um resultado como a figura):
 
-![Tabela do CQD](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
+![Tabela CQD](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
 
 Com o Portal fornecido pelo CQD, um usuário precisaria navegar até vários relatórios para extrair e registrar a porcentagem de chamadas ruins para cada um, o que pode ser laborioso se houver muitos pontos de dados a serem coletados. As APIs de Dados fornecem aos usuários uma forma programática de fazer isso recuperando dados do Serviço de Dados (por exemplo, via chamadas AJAX). 
 
@@ -59,7 +60,7 @@ Com o Portal fornecido pelo CQD, um usuário precisaria navegar até vários rel
 
 Vejamos um exemplo simples primeiro. Se quisermos mostrar a contagem de Fluxos de áudio bons e fluxo de áudio ruins de fevereiro de 2015 em uma página HTML como a figura:
 
-![Relatório de exemplo de CQD](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
+![Exemplo de relatório de CQD](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
 
 É preciso enviar uma chamada para o Serviço de Dados com os parâmetros corretos e mostrar os resultados da consulta em uma tabela HTML. A seguir, uma amostra do código JavaScript:
 
@@ -346,7 +347,7 @@ Aqui estão as etapas detalhadas para acessar a página de scorecard na figura d
    ],
    ```
 
-   Aqui a dimensão `[Scenarios].[ScenarioPair]` for definido como igual `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. O `[Scenario.][ScenarioPair]` é uma dimensão especial criada para simplificar a criação de relatórios. Ela tem seis valores correspondentes a `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Portanto, em vez de usar uma combinação de seis filtros para definir um cenário, basta usar um filtro. No nosso exemplo, o valor `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` converte o cenário onde: primeiro é servidor, segundo não for server, primeiro está dentro, segundo está dentro, primeiro tipo de conexão é por fio, e o segundo tipo de conexão é por fio, qual é a definição exata de " Servidor-cliente-Inside com fio".
+   Aqui a dimensão `[Scenarios].[ScenarioPair]` for definido como igual `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. O `[Scenario.][ScenarioPair]` é uma dimensão especial criada para simplificar a criação de relatórios. Ele tem seis valores correspondentes a `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Portanto, em vez de usar uma combinação de seis filtros para definir um cenário, basta usar um filtro. No nosso exemplo, o valor `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` converte o cenário onde: primeiro é servidor, segundo não for server, primeiro está dentro, segundo está dentro, primeiro tipo de conexão é por fio, e o segundo tipo de conexão é por fio, qual é a definição exata de " Servidor-cliente-Inside com fio".
 
 3. Crie um conjunto de filtros por cenário. Cada linha do scorecard, na figura, representa um cenário diferente, que será um filtro diferente (enquanto as dimensões e as medições permanecem as mesmas). 
 

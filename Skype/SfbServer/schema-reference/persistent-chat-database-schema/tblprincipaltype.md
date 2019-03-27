@@ -1,5 +1,6 @@
 ---
 title: tblPrincipalType
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: Principaltype contém os tipos principais para categorizar o que está na tabela tblPrincipal.
-ms.openlocfilehash: d5c710e1301344c853ef39aeff3b57f62c630c95
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: ab2cb28971f0564a082e0caed01e7fc622c41201
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19505122"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887432"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -40,15 +41,15 @@ Principaltype contém os tipos principais para categorizar o que está na tabela
 
 |**ID**|**Função**|**Descrição**|**Usuário**|
 |:-----|:-----|:-----|:-----|
-|1  <br/> |Qualquer  <br/> |Entidade genérica com nenhum tipo conhecido. Não é usada na tabela tblPrincipal.  <br/> ||
+|1  <br/> |Qualquer um  <br/> |Entidade genérica com nenhum tipo conhecido. Não é usada na tabela tblPrincipal.  <br/> ||
 |2  <br/> |Dopode  <br/> |Entidade genérica do tipo de usuário. Não é usada na tabela tblPrincipal.  <br/> |Sim  <br/> |
 |3  <br/> |AnyGroup  <br/> |Entidade genérica com semântica de grupo. Não é usada na tabela tblPrincipal.  <br/> ||
 |4  <br/> |SystemUser  <br/> |Entidade usada internamente pelo servidor de Chat persistente.  <br/> ||
 |5  <br/> |Usuário  <br/> |Usuário regular.  <br/> |Sim  <br/> |
 |8  <br/> |CONTROLADOR DE DOMÍNIO  <br/> |Controlador de domínio do Active Directory dos serviços de domínio.  <br/> ||
 |9  <br/> |Grupo  <br/> |Grupo de segurança do Active Directory.  <br/> ||
-| 10  <br/> |Pasta  <br/> |Contêiner do Active Directory ou unidade organizacional.  <br/> ||
+|10  <br/> |Pasta  <br/> |Contêiner do Active Directory ou unidade organizacional.  <br/> ||
    
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [tblPrincipal](tblprincipal.md)

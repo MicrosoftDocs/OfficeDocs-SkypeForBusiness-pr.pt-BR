@@ -1,5 +1,6 @@
 ---
 title: Tabela SessionDetails
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: Cada registro representa uma sessão de ponto a ponto, o que poderia ser um telefonema VoIP-VoIP, sessão de mensagens Instantâneas de dois participantes ou outro tipo de sessão. Você pode executar uma junção de tabelas com a tabela de mídia para encontrar os detalhes de cada mídia envolvidos nesta sessão.
-ms.openlocfilehash: 9c6cbe0b69871aa4876777b235d14f8a7ced0e15
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e499c8d443742bacfcdbe9c129e884cae4dd96a0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889921"
 ---
 # <a name="sessiondetails-table"></a>Tabela SessionDetails
  
@@ -22,7 +24,7 @@ Cada registro representa uma sessão de ponto a ponto, o que poderia ser um tele
   
 Observe que o IsUser1IntegratedWithDeskPhone e os campos de IsUser2IntegratedWithDeskPhone foram retirados da tabela SessionDetails usada no Skype para Business Server 2015.
   
-|**Coluna**|**Tipo de dados**|**Índice de chaves /**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |Primária, estrangeira  <br/> |Hora da solicitação de sessão. Usado em conjunto com **SessionIdSeq** para identificar exclusivamente uma sessão. Consulte a [tabela no Skype para Business Server 2015 de diálogos](dialogs.md) para obter mais informações. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primária, estrangeira  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com **SessionIdTime** para identificar exclusivamente um session.*, consulte a [tabela no Skype para Business Server 2015 de diálogos](dialogs.md) para obter mais informações. <br/> |

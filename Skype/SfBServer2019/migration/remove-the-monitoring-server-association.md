@@ -1,5 +1,6 @@
 ---
-title: Remover a associação do servidor de monitoramento
+title: Remover a associação do Servidor de Monitoramento
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Para remover o Monitoring Server, você precisará alterar ou desmarque a dependência no pool de Front-End associado, servidor Front-End, o aparelho de filial e o servidor de filial persistente. Você editar as propriedades do pool de Front-End, servidor Front-End, servidor de filial persistente e aparelho de filial persistente para remover a dependência. Depois que você desmarcar a dependência e excluir o servidor no construtor de topologia, você será notificado de que o objeto de armazenamento de banco de dados associado no construtor de topologia também será excluído.
-ms.openlocfilehash: 01fb53a054da8f9e39dbbfbdd1ddfc08f345a1c2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 854e95969d08d14d626bb374073091ae4ae39630
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030382"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892699"
 ---
-# <a name="remove-the-monitoring-server-association"></a>Remover a associação do servidor de monitoramento
+# <a name="remove-the-monitoring-server-association"></a>Remover a associação do Servidor de Monitoramento
 
 Para remover o Monitoring Server, você precisará alterar ou desmarque a dependência a associado Front End pool, servidor Front-End, aparelho de filial persistente e servidor de filial persistente. Você editar as propriedades do pool Front-End, servidor Front-End, aparelho de filial persistente e servidor de filial persistente para remover a dependência. Depois que você desmarcar a dependência e excluir o servidor no construtor de topologia, você será notificado de que o objeto de armazenamento de banco de dados associado no construtor de topologia também será excluído.
   

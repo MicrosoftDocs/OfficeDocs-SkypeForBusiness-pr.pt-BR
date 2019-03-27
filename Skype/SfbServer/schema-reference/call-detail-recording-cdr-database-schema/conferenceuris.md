@@ -1,5 +1,6 @@
 ---
 title: Tabela ConferenceUris Skype para Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
 description: A tabela de ConfereneUris é uma tabela de suporte que armazena uma lista de uma conferência diversos URIs que tenham participado em sessões de conferência registradas no banco de dados. Cada registro na tabela representa um URI de conferência.
-ms.openlocfilehash: 921bb448ffe50d62aa7680db0e8097c186eef8e7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6f373774b652e9858af84dd4c16b51fcb3c5d493
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887768"
 ---
 # <a name="conferenceuris-table-in-skype-for-business-server-2015"></a>Tabela ConferenceUris Skype para Business Server 2015
  
 A tabela de ConfereneUris é uma tabela de suporte que armazena uma lista de uma conferência diversos URIs que tenham participado em sessões de conferência registradas no banco de dados. Cada registro na tabela representa um URI de conferência.
   
-|**Coluna**|**Tipo de dados**|**Índice de chaves /**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**NextUpdateTS** <br/> |datetime  <br/> |Primária  <br/> |Carimbo de hora, interno usado.  <br/> |
 |**ConferenceUriId** <br/> |int  <br/> |Primária  <br/> |Número exclusivo que identifica o URI desta conferência.  <br/> |

@@ -1,5 +1,6 @@
 ---
 title: Os usuários atribuir políticas
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: a1bc0a6260c7ab62d6f45932b6f5d551296d31dd
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5909e1dbfac3299913589762338b7a755ab85c46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243295"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895299"
 ---
-# <a name="users-assign-policies"></a>Usuários: Atribuir políticas
+# <a name="users-assign-policies"></a>Usuários: Atribuir Políticas
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 
@@ -29,13 +30,13 @@ O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 
 - [Atribuir uma política de PIN por usuário no Skype for Business Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
 
-- [Configurar a federação, acesso de usuário remoto e conectividade de IM pública para usuários](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
 - [Configurar o arquivamento das comunicações do usuário](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
 - [Atribuir uma política de local a um usuário](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
-- [Configurar telefonia para usuários](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Configure Telephony for Users](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
 - [Atribuir uma política de mobilidade por usuário](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
 

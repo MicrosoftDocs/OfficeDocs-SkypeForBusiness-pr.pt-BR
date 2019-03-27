@@ -1,5 +1,6 @@
 ---
 title: Verificar a topologia no Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 'Resumo: Saiba como verificar o Skype para a topologia de servidor de negócios e os servidores do Active Directory estão funcionando conforme o esperado. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: ed06860837805886f1d2287f23281edb90c470c1
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 03dfb45c03aa104cc5a9b265a37c347380590877
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881970"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896418"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Verificar a topologia no Skype para Business Server
  
 **Resumo:** Saiba como verificar o Skype para a topologia de servidor de negócios e os servidores do Active Directory estão funcionando conforme o esperado. Baixe uma versão de avaliação gratuita do Skype para Business Server a partir do [Centro de avaliação do Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Depois que a topologia publicada e o Skype para componentes do sistema Business Server instalado em cada um dos servidores na topologia, você estará pronto para verificar se a topologia está funcionando conforme o esperado. Isso inclui a opção confirmar que a configuração tenha propagadas check-out para todos os servidores do Active Directory para que o domínio inteiro reconheça que Skype para a empresa está disponível no domínio. As etapas 1 a 5 podem ser executadas em qualquer ordem. No entanto, você deve executar as etapas 6, 7 e 8 nesta ordem, após concluir as etapas 1 a 5, conforme descrito no diagrama. A verificação da topologia é a etapa 8 de 8.
+Depois que a topologia publicada e o Skype para componentes do sistema Business Server instalado em cada um dos servidores na topologia, você estará pronto para verificar se a topologia está funcionando conforme o esperado. Isso inclui a opção confirmar que a configuração tenha propagadas check-out para todos os servidores do Active Directory para que o domínio inteiro reconheça que Skype para a empresa está disponível no domínio. Você pode executar os passos 1 a 5 em qualquer ordem. No entanto, você deve executar as etapas 6, 7 e 8 nesta ordem, após concluir as etapas 1 a 5, conforme descrito no diagrama. A verificação da topologia é a etapa 8 de 8.
   
 ![Diagrama de visão geral.](../../media/c8698b53-1282-4978-a9a6-ca3f7a778f60.png)
   
@@ -59,7 +60,7 @@ A etapa final é testar o pool de Front-End e confirme que o Skype para clientes
     
 9. No painel de resultados da pesquisa, selecione os usuários que você quer adicionar e clique em **OK**.
     
-10. Na página **Novo Skype para usuário de servidor de negócios** , os usuários que você selecionou estão na exibição de **usuários** . Na lista **Atribuir usuários a um pool**, selecione o servidor onde os usuários devem ser hospedados.
+10. Na página **Novo Skype para usuário de servidor de negócios** , os usuários que você selecionou estão na exibição de **usuários** . In the **Assign users to a pool** list, select the server where the users should reside.
     
     A seguinte lista inclui as opções que você pode usar para configurar os objetos.
     
@@ -85,11 +86,11 @@ A etapa final é testar o pool de Front-End e confirme que o Skype para clientes
     
     Para testar a funcionalidade básica, selecione a opção que você prefere para que a configuração **URI SIP do usuário Generate** (as outras opções nas configurações padrão de uso de configuração) e clique em **Habilitar**, conforme mostrado na figura.
     
-     ![Habilite os usuários no Painel de Controle.](../../media/7ee8717d-9a1f-4864-8f45-71071c88878f.png)
+     ![Permitir que os usuários no painel de controle.](../../media/7ee8717d-9a1f-4864-8f45-71071c88878f.png)
   
 11. Será exibida uma página de resumo mostrando uma marca de verificação na coluna **Habilitado** para indicar que os objetos agora estão configurados. A coluna **Endereço SIP** exibe o endereço necessário para a configuração de login do usuário.
     
-     ![Usuários adicionados ao Painel de Controle do Skype for Business Server.](../../media/8960548a-8d6d-44c5-bc01-6f9fb11b7588.png)
+     ![Usuários adicionados à Skype para painel de controle do servidor de negócios.](../../media/8960548a-8d6d-44c5-bc01-6f9fb11b7588.png)
   
 12. Faça o logon de um usuário em um computador que tenha ingressado no domínio e outro usuário em outro computador no domínio.
     

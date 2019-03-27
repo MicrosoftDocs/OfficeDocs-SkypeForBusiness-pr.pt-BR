@@ -1,5 +1,6 @@
 ---
 title: Criar ou modificar um intervalo de órbita de estacionamento de chamada no Skype para negócios
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Criar ou modificar uma tabela de intervalo de órbita de estacionamento de chamada no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 6892c48c95b7c5e84242a1456855e869a70e532b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 23de2c42ff7b7e8bf3c020eaf3bb5050524b87d3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370688"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896117"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Criar ou modificar um intervalo de órbita de estacionamento de chamada no Skype para negócios
 
@@ -38,7 +39,7 @@ Utilize um dos seguintes procedimentos para criar ou modificar um intervalo de �
 
 ### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Usar Skype para painel de controle do Business Server para criar ou modificar um intervalo de números para estacionamento de chamadas
 
-1. Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte **Delegate Setup Permissions**.
+1. Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte **Delegate Setup Permissions**.
 
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.
 
@@ -77,7 +78,7 @@ Utilize um dos seguintes procedimentos para criar ou modificar um intervalo de �
 
 2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
 
-3. Use o **New-CsCallParkOrbit** para criar um novo intervalo de números de órbita. Use o **Set-CsCallParkOrbit** para modificar um intervalo existente de números de órbita.
+3. Use o **New-CsCallParkOrbit** para criar um novo intervalo de números de órbitas. Use o **Set-CsCallParkOrbit** para modificar um intervalo de números de órbitas de estacionamento de chamada existente.
 
     Na linha de comando, execute:
 
@@ -97,7 +98,7 @@ Utilize um dos seguintes procedimentos para criar ou modificar um intervalo de �
    Set-CsCallParkOrbit -Identity "Redmond orbit 1" -NumberRangeStart 500 -NumberRangeEnd 699
    ```
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [New-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 

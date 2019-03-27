@@ -1,5 +1,6 @@
 ---
 title: Agente CLS do Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Resumo: Saiba como usar o registro de serviço de registro em log centralizado (CLS) no Skype para Business Server 2015.'
-ms.openlocfilehash: b9a42c671f90d00434a94a27830753d58afb9e0b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5b2a2f7e447215d291aa763982acae1a6e64b8a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372125"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897925"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>Agente CLS do Skype for Business Server 2015
  
@@ -68,7 +69,7 @@ Para interromper um cenário existente:
     
 4. A interface do usuário será habilitada novamente quando o cenário tiver sido interrompido, e os detalhes da ação também serão exibidos na área de Resultados do Comando do PowerShell.
     
-![Início e parada do CLS Logger](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
+![Parar e iniciar o registro de CLS](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
   
 ## <a name="search-for-logs"></a>Pesquisar logs
 
@@ -106,7 +107,7 @@ Para pesquisar por logs, selecione a guia "Pesquisa CLS Logs" e clique no botão
 > 
 > **Ignorar logs de rede** Ignora a pesquisa pelos logs de rede, se estiver marcado.
     
-![Registros de pesquisa do CLS Logger](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
+![Logs de pesquisa de registro CLS](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
 ## <a name="create-a-scenario"></a>Criar um cenário
 
@@ -121,7 +122,7 @@ Para pesquisar por logs, selecione a guia "Pesquisa CLS Logs" e clique no botão
     
 ## <a name="modify-a-scenario"></a>Modificar um cenário
 
-![Captura de tela do Agente CLS, editar cenários](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![Captura de tela de registro de CLS, editar cenários](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
 1. Na guia **Editar Cenários**, encontre o cenário que você deseja modificar.
     

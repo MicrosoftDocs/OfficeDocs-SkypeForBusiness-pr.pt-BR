@@ -1,5 +1,6 @@
 ---
-title: Remover a associação do servidor de arquivamento
+title: Remover a associação de Servidor de Arquivamento
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Para remover um servidor de arquivamento, você precisará alterar ou desmarque a dependência no pool de Front-End associado, servidor Front-End, o aparelho de filial e o servidor de filial persistente. Você editar as propriedades do pool de Front-End, servidor Front-End, servidor de filial persistente e aparelho de filial persistente para remover a dependência. Depois que você desmarcar a dependência e você excluir o servidor no construtor de topologia, você será notificado de que o objeto de armazenamento de banco de dados associado no construtor de topologia também será excluído.
-ms.openlocfilehash: 7438145f5822de8f95e881f114983fdb9351d4b9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 15e6b33decb11ce7ed4550b0d84cc346a0baf073
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028870"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884397"
 ---
-# <a name="remove-the-archiving-server-association"></a>Remover a associação do servidor de arquivamento
+# <a name="remove-the-archiving-server-association"></a>Remover a associação de Servidor de Arquivamento
 
 Para remover um servidor de arquivamento, você precisará alterar ou desmarque a dependência a associado Front End pool, servidor Front-End, aparelho de filial persistente e servidor de filial persistente. Você editar as propriedades do pool Front-End, servidor Front-End, aparelho de filial persistente e servidor de filial persistente para remover a dependência. Depois que você desmarcar a dependência e excluir o servidor no construtor de topologia, você será notificado de que o objeto de armazenamento de banco de dados associado no construtor de topologia também será excluído.
   

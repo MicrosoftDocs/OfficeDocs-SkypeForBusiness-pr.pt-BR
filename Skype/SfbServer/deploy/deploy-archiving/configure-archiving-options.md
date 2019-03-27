@@ -1,5 +1,6 @@
 ---
 title: Configurar opções de arquivamento para Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: 'Resumo: Leia este tópico para saber como configurar opções de arquivamento iniciais para Skype para Business Server. Inicialmente, você define as configurações de arquivamento quando faz a implementação, mas você pode alterar, adicionar e excluir configurações depois da implementação.'
-ms.openlocfilehash: 186ebae95c3d4d27ef634c0ca9ae1bc99bbfa253
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 80501c01c4e05e0578685b42f8fb83b7faed6c59
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020411"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896292"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>Configurar opções de arquivamento para Skype para Business Server
  

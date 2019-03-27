@@ -1,5 +1,6 @@
 ---
 title: Informações de configuração de CDR de modo de exibição no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: 'Resumo: Saiba como usar a gravação de detalhes das chamadas (CDR) no Skype para Business Server.'
-ms.openlocfilehash: 6abdd508cdb8ecbd89054596b024e27376c70a38
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: edf3f719ed3d859ff6d7a6c4fcebbf22356277d5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979410"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896725"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>Informações de configuração de CDR de modo de exibição no Skype para Business Server
  
@@ -22,7 +23,7 @@ ms.locfileid: "20979410"
   
 O registro de detalhes das chamadas (CDR) permite rastrear o uso de aspectos como as sessões de mensagens instantâneas ponto a ponto, chamadas de telefone VoIP e chamadas de conferência. Esses dados de uso incluem informações os usuários envolvidos na chamadas, o horário e o período da chamada.
   
-Quando você instala o Skype para Business Server, uma única coleção global de definições de configuração de CDR é criada para você. Os administradores também têm a opção de criar conjuntos de configurações personalizadas que podem ser aplicadas a sites individuais. Você pode exibir as definições de configuração de CDR em uso na sua organização usando Skype para painel de controle do Business Server ou o cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) .
+Quando você instala o Skype para Business Server, uma única coleção global de definições de configuração de CDR é criada para você. Os administradores têm a opção de criar coleções de definições personalizadas que podem ser aplicadas a sites individuais. Você pode exibir as definições de configuração de CDR em uso na sua organização usando Skype para painel de controle do Business Server ou o cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) .
   
 ### <a name="to-view-cdr-configuration-information-by-using-skype-for-business-server-control-panel"></a>Para exibir informações de configuração de CDR usando Skype para o painel de controle do servidor de negócios
 

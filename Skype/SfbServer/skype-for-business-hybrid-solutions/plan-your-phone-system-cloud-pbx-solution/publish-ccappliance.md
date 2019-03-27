@@ -1,5 +1,6 @@
 ---
-title: Publicar-CcAppliance
+title: Publish-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
 description: 'O cmdlet Publish-CcAppliance obtém informações sobre alta disponibilidade da configuração do locatário online e depois as publica para o dispositivo do Skype for Business Cloud Connector Edition no servidor host. '
-ms.openlocfilehash: c0a2639156a0794ec34fd62a58027255d24d461e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 119b5e816555eedf221d9db06be15e6a778936d4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879802"
 ---
-# <a name="publish-ccappliance"></a>Publicar-CcAppliance
+# <a name="publish-ccappliance"></a>Publish-CcAppliance
  
 O cmdlet Publish-CcAppliance obtém informações sobre alta disponibilidade da configuração do locatário online e depois as publica para o dispositivo do Skype for Business Cloud Connector Edition no servidor host.  
   
@@ -52,17 +54,17 @@ Nenhum. O cmdlet Publish-CcAppliance não aceita a entrada por pipeline.
 ## <a name="return-types"></a>Tipos de retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum
+Nenhum 
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 <a name="ReturnTypes"> </a>
 
 [Install-CcAppliance](install-ccappliance.md)
   
-[Desinstalar-CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
 [Register-CcAppliance](register-ccappliance.md)
   
-[Cancelar o registro de CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
 

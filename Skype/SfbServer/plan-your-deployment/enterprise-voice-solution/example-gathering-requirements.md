@@ -1,5 +1,6 @@
 ---
 title: Coletar requisitos para controle de admissão de chamada no Skype para Business Server de exemplo
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: Fornece um exemplo detalhado de planejamento para controle de admissão de chamada no Skype para Business Server Enterprise Voice, incluindo Coletando informações sobre sites, regiões e largura de banda da rede.
-ms.openlocfilehash: f5c050e33271958c103b5ea6ecd9f7a13d9da998
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b406db2a4ddf2b0ff25128774577407e0e3acaf6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375186"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893908"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Exemplo: Requisitos de coleta para chamadas telefônicas controle de admissão Skype Business Server
 
@@ -106,7 +107,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
 
    **Região de rede de CAC América do Norte com três sites de rede sem restrição de largura de banda (Chicago, Nova York e Detroit) e três sites de rede com restrição de largura de banda de WAN (Portland, Reno e Albuquerque)**
 
-     ![Exemplo de sites de rede restritos por uma largura de banda WAN](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
+     ![Sites de rede de exemplo com restrição de largura de banda WAN](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
 
 5. Para cada link de WAN com restrição de largura de banda, determine o seguinte:
 
@@ -124,8 +125,8 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
      | **Site de rede**   | **Região de rede**   | **Limite de BW**      | **Limite de áudio**   | **Limite de sessão de áudio** | **Limite de vídeo**   | **Limite de sessão de vídeo** |
      |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|
      | Albuquerque  <br/> | América do Norte  <br/> | 5.000  <br/>      | 2.000  <br/>      | 175  <br/>              | 1.400  <br/>      | 700  <br/>              |
-     | Reno  <br/>        | América do Norte  <br/> | 10.000  <br/>     | 4.000  <br/>      | 175  <br/>              | entre 2.800  <br/>      | 700  <br/>              |
-     | Portland  <br/>    | América do Norte  <br/> | 5.000  <br/>      | 4.000  <br/>      | 175  <br/>              | entre 2.800  <br/>      | 700  <br/>              |
+     | Reno  <br/>        | América do Norte  <br/> | 10.000  <br/>     | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              |
+     | Portland  <br/>    | América do Norte  <br/> | 5.000  <br/>      | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              |
      | Nova York  <br/>    | América do Norte  <br/> | (sem limite)  <br/> | (sem limite)  <br/> | (sem limite)  <br/>       | (sem limite)  <br/> | (sem limite)  <br/>       |
      | Chicago  <br/>     | América do Norte  <br/> | (sem limite)  <br/> | (sem limite)  <br/> | (sem limite)  <br/>       | (sem limite)  <br/> | (sem limite)  <br/>       |
      | Detroit  <br/>     | América do Norte  <br/> | (sem limite)  <br/> | (sem limite)  <br/> | (sem limite)  <br/>       | (sem limite)  <br/> | (sem limite)  <br/>       |
@@ -137,7 +138,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
     > Cada sub-rede em sua rede precisa estar associada a um local de rede, mesmo se o local de rede não sofrer restrição de largura de banda. Isso é devido ao controle de admissão de chamada usar as informações da sub-rede para determinar em qual local de rede um ponto de extremidade está localizado. Quando os locais de ambas as partes na sessão são determinados, o controle de admissão de chamada pode determinar se há largura de banda suficiente para estabelecer uma chamada. Quando uma sessão é estabelecida sobre um link que não possui limites de largura de banda, um alerta é gerado. 
 
     > [!IMPORTANT]
-    > Se você implantar Servidores de Borda de Áudio/Vídeo, os endereços IP públicos de cada Servidor de Borda deverão ser associados ao local externo no qual o Servidor de Borda está implantado. Cada endereço IP público do Servidor de Borda A/V deve ser adicionado aos seus parâmetros de configuração de rede como uma sub-rede com uma máscara de sub-rede 32. Por exemplo, se você implantar Servidores de Borda A/V em Chicago, para cada endereço IP externo desses servidores, crie uma sub-rede com uma máscara de sub-rede 32 e associe o local de rede Chicago a essas sub-redes. Para obter detalhes sobre os endereços IP públicos, consulte [planejar requisitos de rede de Skype para negócios](../../plan-your-deployment/network-requirements/network-requirements.md). 
+    > Se você implantar Servidores de Borda de Áudio/Vídeo, os endereços IP públicos de cada Servidor de Borda deverão ser associados ao local externo no qual o Servidor de Borda está implantado. Cada endereço IP público do Servidor de Borda A/V deve ser adicionado aos seus parâmetros de configuração de rede como uma sub-rede com uma máscara de sub-rede 32. Por exemplo, se você implantar Servidores de Borda A/V em Chicago, para cada endereço IP externo desses servidores, crie uma sub-rede com uma máscara de sub-rede 32 e associe o local de rede Chicago a essas sub-redes. Para obter detalhes sobre endereços IP públicos, consulte [Plan network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md) na documentação Planejamento. 
 
     Um alerta KHI (Key Health Indicator) é acionado, especificando uma lista de endereços IP presentes em sua rede, mas que não estão associados a uma sub-rede, ou a sub-rede que inclui os endereços IP não está associada a um local de rede. Esse alerta não será acionado novamente durante um período de oito horas. Veja a seguir as informações relevantes do alerta e um exemplo:
 
@@ -165,8 +166,8 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
    | **Site de rede**   | **Região de rede**   | **Limite de BW**      | **Limite de áudio**   | **Limite de sessão de áudio** | **Limite de vídeo**   | **Limite de sessão de vídeo** | **Sub-redes**                                                            |
    |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|:-----------------------------------------------------------------------|
    | Albuquerque  <br/> | América do Norte  <br/> | 5.000  <br/>      | 2.000  <br/>      | 175  <br/>              | 1.400  <br/>      | 700  <br/>              | 172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24  <br/> |
-   | Reno  <br/>        | América do Norte  <br/> | 10.000  <br/>     | 4.000  <br/>      | 175  <br/>              | entre 2.800  <br/>      | 700  <br/>              | 157.57.210.0/23, 172.28.151.128/25  <br/>                              |
-   | Portland  <br/>    | América do Norte  <br/> | 5.000  <br/>      | 4.000  <br/>      | 175  <br/>              | entre 2.800  <br/>      | 700  <br/>              | 172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/>                  |
+   | Reno  <br/>        | América do Norte  <br/> | 10.000  <br/>     | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              | 157.57.210.0/23, 172.28.151.128/25  <br/>                              |
+   | Portland  <br/>    | América do Norte  <br/> | 5.000  <br/>      | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              | 172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/>                  |
    | Nova York  <br/>    | América do Norte  <br/> | (sem limite)  <br/> | (sem limite)  <br/> | (sem limite)  <br/>       | (sem limite)  <br/> | (sem limite)  <br/>       | 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24  <br/> |
    | Chicago  <br/>     | América do Norte  <br/> | (sem limite)  <br/> | (sem limite)  <br/> | (sem limite)  <br/>       | (sem limite)  <br/> | (sem limite)  <br/>       | 157.57.211.0/23, 172.28.152.128/25  <br/>                              |
    | Detroit  <br/>     | América do Norte  <br/> | (sem limite)  <br/> | (sem limite)  <br/> | (sem limite)  <br/>       | (sem limite)  <br/> | (sem limite)  <br/>       | 172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23  <br/>                  |
@@ -184,12 +185,12 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
 
    **Links de região de rede com limites de largura de banda associados**
 
-     ![Exemplo de limitações entre 2 regiões](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
+     ![Exemplo de limitações entre 3 regiões](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
 
    **Informações de largura de banda de link de região (largura de banda em kbps)**
 
 
-   | **Nome do link de região**  | **First Region**     | **Second Region** | **Limite de BW**  | **Limite de áudio** | **Limite de sessão de áudio** | **Limite de vídeo** | **Limite de sessão de vídeo** |
+   | **Nome do link de região**  | **Primeira região**     | **Segunda região** | **Limite de BW**  | **Limite de áudio** | **Limite de sessão de áudio** | **Limite de vídeo** | **Limite de sessão de vídeo** |
    |:----------------------|:---------------------|:------------------|:--------------|:----------------|:------------------------|:----------------|:------------------------|
    | LINK-NA-EMEA  <br/>   | América do Norte  <br/> | EMEA  <br/>       | 50.000  <br/> | 20.000  <br/>   | 175  <br/>              | 14.000  <br/>   | 700  <br/>              |
    | LINK-EMEA-APAC  <br/> | EMEA  <br/>          | APAC  <br/>       | 25.000  <br/> | 10.000  <br/>   | 175  <br/>              | 7.000  <br/>    | 700  <br/>              |
@@ -203,7 +204,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
    **Rotas de região**
 
 
-   | **Nome da rota de região**  | **First Region**     | **Second Region** | **Links de região**                    |
+   | **Nome da rota de região**  | **Primeira região**     | **Segunda região** | **Links de região**                    |
    |:-----------------------|:---------------------|:------------------|:------------------------------------|
    | ROTA-NA-EMEA  <br/>   | América do Norte  <br/> | EMEA  <br/>       | LINK-NA-EMEA  <br/>                 |
    | ROTA-EMEA-APAC  <br/> | EMEA  <br/>          | APAC  <br/>       | LINK-EMEA-APAC  <br/>               |
@@ -222,7 +223,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
 
    **Região da rede CAC América do Norte mostrando as capacidades de largura de banda e limites de largura de banda para o link entre sites entre Reno e Albuquerque**
 
-     ![Exemplos de sites de rede restritos pela largura de banda WAN](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
+     ![Sites de rede restrita pelo exemplo de largura de banda WAN](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
 
    **Informações de largura de banda para link entre locais entre dois locais de rede (largura de banda em kbps)**
 

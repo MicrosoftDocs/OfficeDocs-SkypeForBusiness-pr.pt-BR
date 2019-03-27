@@ -1,5 +1,6 @@
 ---
 title: Instalar o Skype for Business Server em servidores na topologia
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 'Resumo: Saiba como instalar o Skype para componentes de sistema do servidor de negócios em cada servidor na topologia. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: c6122bea5af5be0e08f2510a6fae4b9c0e406df4
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: caa933e3469227fe0fa2aab680f53ddee445256e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887263"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891899"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Instalar o Skype for Business Server em servidores na topologia
  
 **Resumo:** Saiba como instalar o Skype para componentes de sistema do servidor de negócios em cada servidor na topologia. Baixe uma versão de avaliação gratuita do Skype para Business Server a partir do [Centro de avaliação do Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Depois que a topologia é carregada no repositório de gerenciamento Central e o Active Directory sabe quais servidores executarão quais funções, você precisará instalar o Skype para system Business Server em cada um dos servidores na topologia. As etapas 1 a 5 podem ser executadas em qualquer ordem. No entanto, as etapas 6, 7 e 8 devem ser executadas nesta ordem, após concluir as etapas 1 a 5, conforme descrito no diagrama. Instalar o Skype para system Business Server é a etapa 7 de 8.
+Depois que a topologia é carregada no repositório de gerenciamento Central e o Active Directory sabe quais servidores executarão quais funções, você precisará instalar o Skype para system Business Server em cada um dos servidores na topologia. Você pode executar os passos 1 a 5 em qualquer ordem. No entanto, as etapas 6, 7 e 8 devem ser executadas nesta ordem, após concluir as etapas 1 a 5, conforme descrito no diagrama. Instalar o Skype para system Business Server é a etapa 7 de 8.
   
 ![Diagrama de visão geral.](../../media/6855713d-a5b4-4e5b-8f83-fef3d7a5ec5d.png)
   
@@ -51,7 +52,7 @@ Depois de publicar uma topologia, você pode instalar o Skype para componentes d
 > [!IMPORTANT]
 > Antes de começar a instalação, certifique-se de que o Windows Server seja atualizada usando o Windows Update. 
   
-![Windows Server atualizado.](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
+![Windows Server até a data.](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
   
 ### <a name="install-skype-for-business-server-system"></a>Instale o Skype para o sistema de Business Server
 
@@ -66,7 +67,7 @@ Depois de publicar uma topologia, você pode instalar o Skype para componentes d
     > [!NOTE]
     > Muitas organizações têm o Windows Server Update Services (WSUS) implantado em seus ambientes empresariais. O WSUS permite que os administradores gerenciem completamente a distribuição de atualizações que são lançadas pelo Microsoft Update para computadores na sua rede. Como parte da versão de atualização cumulativa 1 Skype para Business Server introduziu suporte para a configuração inteligente funcionar com o WSUS. Clientes com o WSUS que estão implantando Skype para Business Server pela primeira vez ou atualizando do ambiente do Lync Server 2013 usando o recurso de atualização In-loco terão configuração inteligente buscando atualizações Skype para Windows do WSUS em vez de busca de atualizações do MU. Os clientes que desejarem usar o Smart Setup precisam executar o SmartSetupWithWSUS.psq em todos os computadores antes de executar o setup.exe. 
   
-     ![Captura de tela da Configuração Inteligente.](../../media/d35c6cd9-3b8d-4510-871c-30ad07b1f4f2.png)
+     ![Captura de tela de instalação inteligente.](../../media/d35c6cd9-3b8d-4510-871c-30ad07b1f4f2.png)
   
 5. Na página Assistente para implantação, clique em **instalar ou Skype de atualização para o sistema de servidor de negócios**.
     
@@ -105,7 +106,7 @@ Depois de publicar uma topologia, você pode instalar o Skype para componentes d
   
 5. Verifique se as duas primeiras etapas foram concluídas conforme o esperado. Verifique se há uma marca de seleção verde com a palavra **Concluído** conforme mostra a figura.
     
-     ![Duas etapas iniciais concluídas de instalação de componentes.](../../media/59851804-d805-4fa8-854b-60c3de2d109f.png)
+     ![Primeiro duas etapas concluídas desde a instalação de componentes.](../../media/59851804-d805-4fa8-854b-60c3de2d109f.png)
   
 6. Execute o **Windows Update** novamente para verificar se há atualizações depois de instalar o Skype para componentes de servidor de negócios.
     
@@ -158,9 +159,9 @@ Depois de publicar uma topologia, você pode instalar o Skype para componentes d
     
 15. Na página **Executando Comandos**, clique em **Avançar**.
     
-16. Na página **Status da Solicitação de Certificado Online**, revise as informações retornadas. Observe que o certificado foi emitido e instalado no repositório de certificados local. Se ele é relatado como tendo sido emitido e instalado, mas não é válida, certifique-se de que o certificado raiz da autoridade de certificação foi instalado no repositório de autoridade de certificação de raiz confiáveis do servidor. Consulte a documentação da AC sobre como recuperar um certificado AC raiz confiável. Se precisar visualizar o certificado recuperado, clique em **Exibir Detalhes do Certificado**. Por padrão, a caixa de seleção para **atribuir o certificado para Skype para usos de certificado de servidor de negócios** está selecionada. Se quiser atribuir manualmente o certificado, desmarque a caixa de seleção e clique em **Concluir**.
+16. On the **Online Certificate Request Status** page, review the information returned. You should note that the certificate was issued and installed into the local certificate store. Se ele é relatado como tendo sido emitido e instalado, mas não é válida, certifique-se de que o certificado raiz da autoridade de certificação foi instalado no repositório de autoridade de certificação de raiz confiáveis do servidor. Refer to your CA documentation on how to retrieve a Trusted Root CA certificate. If you need to view the retrieved certificate, click **View Certificate Details**. Por padrão, a caixa de seleção para **atribuir o certificado para Skype para usos de certificado de servidor de negócios** está selecionada. If you want to manually assign the certificate, clear the check box, and then click **Finish**.
     
-17. Se você ter desmarcado a caixa de seleção para **atribuir o certificado para Skype para usos de certificado de servidor de negócios** na página anterior, você será apresentada com a página de **Atribuição de certificado** . Clique em **Avançar**.
+17. Se você ter desmarcado a caixa de seleção para **atribuir o certificado para Skype para usos de certificado de servidor de negócios** na página anterior, você será apresentada com a página de **Atribuição de certificado** . Click **Next**.
     
 18. Na página **Repositório de Certificados**, selecione o certificado que você solicitou. Se você quiser ver o certificado, clique em **Exibir Detalhes do Certificado** e clique em **Avançar** para continuar.
     
@@ -173,7 +174,7 @@ Depois de publicar uma topologia, você pode instalar o Skype para componentes d
     
 21. Na página **Assistente de Certificados**, verifique se todos os serviços têm uma marca de seleção verde indicando que há um certificado atribuído a eles, incluindo o OAuthTokenIssuer, conforme mostra a figura, e clique em **Fechar**.
     
-     ![Certificados instalados e atribuídos corretamente.](../../media/d8e1911c-d096-4f88-97a9-d2a704defa17.png)
+     ![Os certificados instalados e atribuído corretamente.](../../media/d8e1911c-d096-4f88-97a9-d2a704defa17.png)
   
     > [!TIP]
     > Se estiver instalando em um ambiente de laboratório e tiver configurado a autoridade de certificação usando os Serviços de Certificados do Active Directory, você terá que reiniciar o servidor que está executando os serviços de certificados e o servidor front-end para que a atribuição de certificados seja concluída com sucesso. 
@@ -185,15 +186,15 @@ Depois de publicar uma topologia, você pode instalar o Skype para componentes d
 
 1. Examine os pré-requisitos para a **Etapa 4: iniciar serviços**.
     
-2. Se esse for um pool de front-ends Enterprise Edition com pelo menos três servidores, o Windows Fabric será usado, e você deverá usar o cmdlet **Start-CsPool**. Se um único servidor for usado, que é sempre o caso com o Standard Edition, você se pergunta use o cmdlet **Start-CsWindowsService** . Neste exemplo, estamos usando Enterprise Edition com três servidores Front-End do pool, abra o **Skype para Business Server Management Shell** e execute o cmdlet **Start-CsPool** , conforme mostrado na figura. Para as demais funções, incluindo o servidor Standard Edition, você deve usar o cmdlet **Start-CsWindowsService**. Para a implantação de funções além da função de front-end, consulte a documentação para saber como proceder com essas funções específicas.
+2. If this is an Enterprise Edition Front End pool with at least three servers, Windows Fabric is used, and you must use the **Start-CsPool** cmdlet. Se um único servidor for usado, que é sempre o caso com o Standard Edition, você se pergunta use o cmdlet **Start-CsWindowsService** . Neste exemplo, estamos usando Enterprise Edition com três servidores Front-End do pool, abra o **Skype para Business Server Management Shell** e execute o cmdlet **Start-CsPool** , conforme mostrado na figura. For all other roles, including Standard Edition server, you must use **Start-CsWindowsService**. To deploy roles other than the Front End role, see documentation for those particular roles.
     
-     ![Inicie os serviços do Skype for Business.](../../media/f52ec719-9476-419f-9a78-df08368395f7.png)
+     ![Inicie o Skype para serviços corporativos.](../../media/f52ec719-9476-419f-9a78-df08368395f7.png)
   
 3. Na página **Executando comandos**, depois que todos os serviços forem iniciados com sucesso, clique em **Finalizar**.
     
     > [!IMPORTANT]
     > O comando para iniciar os serviços no servidor é um método de esforço melhor para relatar que os serviços foram iniciados de fato. Ele pode não refletir o estado real do serviço. Recomendamos que você use a etapa **Status do serviço (opcional)** para abrir o MMC (Console de Gerenciamento da Microsoft) e verificar se os serviços foram iniciados com êxito, conforme mostra a figura. Se qualquer Skype para serviço de Business Server não foi iniciada, você pode se service no MMC do mouse em e, em seguida, clique em **Iniciar**. 
   
-     ![Verifique se os serviços iniciaram.](../../media/47906fb7-9d37-4d55-8d8d-e5a4a2366510.png)
+     ![Verifique se os serviços foram iniciados.](../../media/47906fb7-9d37-4d55-8d8d-e5a4a2366510.png)
   
 

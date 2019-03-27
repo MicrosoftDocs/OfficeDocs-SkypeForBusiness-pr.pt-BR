@@ -1,5 +1,6 @@
 ---
-title: Associar Front End com monitoramento
+title: Associar Front End com Monitoramento
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cada pool de Front-End e o aparelho de filial persistente podem ter apenas um que Monitoring Server associado a ela. Quando monitoring estiver habilitado para o site, o Monitoring Server fornece detalhes das chamadas (CDR) de gravação e coleta de dados de qualidade da experiência (QoE) e relatórios.
-ms.openlocfilehash: 6180f7d6fc48db5293ffae8eaba5f95c34267358
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: b6a1f46f24e016fe7fab9b620bf3240c23b0d6b2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060810"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896897"
 ---
-# <a name="associate-front-end-with-monitoring"></a>Associar Front End com monitoramento
+# <a name="associate-front-end-with-monitoring"></a>Associar Front End com Monitoramento
  
 Cada pool de Front-End e o aparelho de filial persistente podem ter apenas um que Monitoring Server associado a ela. Quando monitoring estiver habilitado para o site, o Monitoring Server fornece detalhes das chamadas (CDR) de gravação e coleta de dados de qualidade da experiência (QoE) e relatórios.
   

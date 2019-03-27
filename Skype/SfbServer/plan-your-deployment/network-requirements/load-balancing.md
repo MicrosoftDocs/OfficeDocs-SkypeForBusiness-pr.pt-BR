@@ -1,5 +1,6 @@
 ---
 title: Requisitos de balanceamento de carga para o Skype for Business
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Resumo: Revise a carga balanceamento considerações antes de implementar Skype para Business Server.'
-ms.openlocfilehash: ed3572b16126ce16b423d4ffe0d60d1f84d6b3cf
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: a7e8e70088c83276c36334c5d9a1e3be1538ca38
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408162"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897886"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos de balanceamento de carga para o Skype for Business
  
@@ -109,7 +110,7 @@ Se estiver implantando dispositivos móveis, o balanceador de carga de hardware 
 > Se você estiver implantando os dispositivos móveis, o balanceador de carga de hardware deve ser capaz de carregar individualmente balancear a cada solicitação de uma conexão TCP. Os aplicativos móveis mais recentes do Apple iOS exigem a versão 1.2 do protocolo TLS.  
   
 > [!CAUTION]
-> Para obter informações sobre balanceadores de carga de hardware de terceiros, consulte [Infraestrutura para o Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
+> Para obter detalhes sobre balanceadores de carga de hardware de terceiros, consulte [infraestrutura para Skype para negócios](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
 A seguir, são apresentados os requisitos do balanceador de carga de hardware para serviços Web do pool de diretores e de front-end:
   
@@ -150,23 +151,23 @@ Defina o monitoramento de portas nos balanceadores de carga de hardware para det
 
 Skype para Business Server habilita DNS com carga balanceada, uma solução de software que pode reduzir significativamente a administração de sobrecarga de balanceamento de carga em sua rede. Balanceamento de carga DNS equilibra o tráfego de rede que seja exclusivo para Skype para Business Server, como o tráfego SIP e tráfego de mídia.
   
-Se você implantar o balanceamento de carga do DNS, administração da sua organização sobrecarga de balanceadores de carga de hardware será minimizada. Além disso, a solução complexa de problemas relacionados à configuração incorreta de balanceadores de carga de tráfego SIP será eliminada. Você também pode impedir as conexões de servidor para que seja possível assumir servidores offline. O balanceamento de carga de DNS também garante que os problemas do balanceador de carga de hardware não afetem elementos do tráfego SIP, como o encaminhamento básico de chamadas.
+Se você implantar o balanceamento de carga do DNS, administração da sua organização sobrecarga de balanceadores de carga de hardware será minimizada. Além disso, solução de problemas complexos de problemas relacionados à configuração incorreta de balanceadores de carga para o tráfego SIP será eliminada. Você também pode impedir que as conexões de servidor para que você possa tirar servidores offline. Balanceamento de carga DNS também garante que problemas de Balanceador de carga de hardware não afetam elementos de tráfego SIP como o roteamento de chamada básica.
 
 O diagrama a seguir mostra um exemplo que inclui tanto interna e balanceamento de carga de DNS externo: 
   
 **Diagrama da rede de borda que usa endereços IPv4 públicos**
 
-![exemplo de diagrama de rede de DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
+![exemplo de diagrama de rede do DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
-Se usar o balanceamento de carga DNS, você também poderá adquirir balanceadores de carga de hardware de custo mais baixo do que se usasse os balanceadores de carga de hardware para todos os tipos de tráfego. Você deve usar os balanceadores de carga que passaram qualificação de interoperabilidade o teste com Skype Business Server. Para obter detalhes sobre o teste de interoperabilidade do balanceador de carga, consulte [Parceiros de Balanceador de carga do Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=202452). O seu conteúdo se aplica a Skype para Business Server.
+Se você usar o balanceamento de carga do DNS, você também poderá adquirir balanceadores de carga de hardware de menor custo que se você usar os balanceadores de carga de hardware para todos os tipos de tráfego. Você deve usar os balanceadores de carga que passaram qualificação de interoperabilidade o teste com Skype Business Server. Para obter detalhes sobre o teste de interoperabilidade do balanceador de carga, consulte [Parceiros de Balanceador de carga do Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=202452). O seu conteúdo se aplica a Skype para Business Server.
   
-O balanceamento de carga DNS é suportado para pools de front-ends, pools de servidores de borda, pools de diretores e pools autônomos do Servidor de Mediação.
+Balanceamento de carga DNS é suportado para pools de Front-End, pools do servidor de borda, pools do diretor e pools de servidor de mediação autônomos.
   
-O balanceamento de carga do DNS normalmente é implementado no nível dos aplicativos. O aplicativo (por exemplo, um cliente executando o Skype para negócios), tenta se conectar a um servidor em um pool Estabelecendo conexão com um dos endereços IP retornados da consulta para o nome de domínio totalmente qualificado (FQDN) do pool de registrar o DNS A e AAAA (se for usado o endereçamento IPv6). 
+Balanceamento de carga DNS é normalmente implementado no nível do aplicativo. O aplicativo (por exemplo, um cliente executando o Skype para negócios), tenta se conectar a um servidor em um pool Estabelecendo conexão com um dos endereços IP retornados da consulta para o nome de domínio totalmente qualificado (FQDN) do pool de registrar o DNS A e AAAA (se for usado o endereçamento IPv6). 
   
-Por exemplo, se houver três servidores front-end em um pool chamado pool01.contoso.com, acontecerá o seguinte:
+Por exemplo, se houver três servidores de front-end em um pool chamado pool01. contoso.com, acontecerá o seguinte:
   
-- Clientes executando o Skype para negócios consultam DNS para pool01. contoso.com. A consulta retorna três endereços de IP e os armazena em cache da seguinte maneira (não necessariamente nesta ordem):
+- Clientes executando o Skype para negócios consultam DNS para pool01. contoso.com. A consulta retorna os endereços de IP três e armazena em cache da seguinte maneira (não necessariamente na ordem):
     
     pool01. contoso.com 192.168.10.90
     
@@ -174,118 +175,118 @@ Por exemplo, se houver três servidores front-end em um pool chamado pool01.cont
     
     pool01. contoso.com 192.168.10.92
     
-- O cliente tenta estabelecer uma conexão TCP com um dos endereços IP. Em caso de falha, o cliente tenta o próximo endereço IP em cache.
+- O cliente tentará estabelecer uma conexão de protocolo de controle de transmissão (TCP) para um dos endereços IP. Se isso falhar, o cliente experimenta o próximo endereço IP no cache.
     
 - Se a conexão TCP for bem -sucedida, o cliente negocia o TLS para se conectar ao Registrador Avançado primário em pool01.contoso.com.
     
 - Se o cliente experimenta todas as entradas em cache sem uma conexão bem-sucedida, o usuário é notificado de que nenhum servidor executando o Skype para Business Server está disponível no momento.
     
 > [!NOTE]
-> O balanceamento de carga com base em DNS é diferente do round robin de DNS (DNS RR), que normalmente faz referência ao balanceamento de carga confiando no DNS para fornecer uma ordem diferente de endereços IP correspondentes aos servidores de um pool. Normalmente, o DNS RR só habilita a distribuição de carga, mas não habilita o failover. Por exemplo, se a conexão com um endereço IP retornado pela consulta DNS A e AAAA (se estiver usando o endereçamento IPv6) falhar, a conexão falha. Portanto, o round robin de DNS por si só é menos confiável do que o balanceamento de carga com base em DNS. O round robin de DNS pode ser usado em conjunto com o balanceamento de carga do DNS. 
+> Balanceamento de carga baseado em DNS é diferente do DNS round robin (DNS RR) que normalmente se refere ao balanceamento de carga aplicando depender do DNS para fornecer uma ordem diferente do IP endereços correspondente para os servidores em um pool. Geralmente RR DNS somente permite carregar distribuição, mas não habilitar o failover. Por exemplo, se a conexão para o um endereço IP retornado pelo DNS A e AAAA (se você estiver usando endereçamento IPv6) consulta falhar, a conexão falha. Portanto, o DNS round robin por si só é menos confiável que o balanceamento de carga baseado em DNS. Você pode usar o DNS balanceamento de carga round robin em conjunto com o DNS. 
   
-O balanceamento de carga do DNS é usado para:
+Balanceamento de carga DNS é usado para o seguinte:
   
-- Balanceamento de carga SIP entre servidores para servidores de borda
+- Servidor-para-servidor SIP para os servidores de borda de balanceamento de carga
     
-- Balanceamento de carga de aplicativos de Serviços de Aplicativos de Comunicações Unificadas (UCAS), como o Atendedor Automático de Conferências, Grupo de Resposta e Estacionamento de Chamada
+- Aplicativos de serviços de aplicativos de comunicação unificada (UCAS) como conferência automático Attendant, grupo de resposta e estacionamento de chamada de balanceamento de carga
     
-- Evitar novas conexões a aplicativos UCAS (também conhecido como "drenagem")
+- Impedindo novas conexões a aplicativos UCAS (também conhecido como "drenagem")
     
-- Balanceamento de carga de todo o tráfego do cliente para o servidor entre clientes e servidores de borda
+- Todo o tráfego cliente-para-servidor entre clientes e servidores de borda de balanceamento de carga
     
-O balanceamento de carga do DNS não pode ser usado para:
+Balanceamento de carga DNS não pode ser usado para o seguinte:
   
-- Tráfego web do cliente para o servidor para diretor ou servidores de front-end
+- Tráfego web cliente-para-servidor para diretor ou servidores Front-End
     
-Balanceamento de carga do DNS e tráfego federado:
+Tráfego federado e de balanceamento de carga de DNS:
   
-Se uma consulta SRV do DNS retornar vários registros, o serviço de borda de acesso sempre escolherá o registro SRV de DNS com a prioridade numérica mais baixa e peso numérico mais alto. O Internet Engineering Task Force "Um RR DNS para especificar a localização dos serviços (DNS SRV)" de documento [RFC 2782, RR SRV de DNS](https://www.ietf.org/rfc/rfc2782.txt) Especifica que, se houver vários SRV de DNS registros definidos, prioridade é usada primeiro, depois de peso. Por exemplo, o registro SRV do DNS A tem peso 20 e prioridade 40 e o registro SRV do DNS B tem peso 10 e prioridade 50. O registro SRV do DNS A com prioridade 40 será selecionado. As regras a seguir se aplicam à seleção de registros SRV de DNS:
+Se vários registros DNS forem retornados por uma consulta SRV de DNS, a borda de acesso, serviço selecionará sempre o SRV de DNS registre-se com a prioridade numérica mais baixa e o peso numérico mais alto. O Internet Engineering Task Force "Um RR DNS para especificar a localização dos serviços (DNS SRV)" de documento [RFC 2782, RR SRV de DNS](https://www.ietf.org/rfc/rfc2782.txt) Especifica que, se houver vários SRV de DNS registros definidos, prioridade é usada primeiro, depois de peso. Por exemplo, registro SRV de DNS uma tem ponderação de 20 e uma prioridade de 40 e o registro SRV de DNS B tem um peso de 10 e a prioridade de 50. Um registro de SRV de DNS com prioridade 40 será selecionado. As seguintes regras se aplicam à seleção de registro SRV de DNS:
   
-- A prioridade é considerada primeiro. O cliente DEVE tentar entrar em contato com o host de destino definido pelo registro SRV do DNS com a prioridade numérica mais baixa que ele puder atingir. Os destinos com a mesma prioridade DEVEM ser examinados em uma ordem definida pelo campo de peso.
+- Prioridade é considerada pela primeira vez. Um cliente deve tentar contatar o host de destino definido pelo registro SRV de DNS com a mais baixa prioridade numerada pode alcançar. Destinos com a mesma prioridade devem ser tentados em uma ordem definida no campo de peso.
     
-- O campo de peso especifica um peso relativo para as entradas com a mesma prioridade. Pesos superiores DEVEM ser informados com uma probabilidade maior de ser proporcionalmente selecionado. Os administradores de DNS devem usar o peso 0 quando não houver qualquer seleção de servidor para fazer. Na presença de registros contendo pesos maiores que 0, os registros com peso 0 devem ter uma chance muito pequena de serem selecionados.
+- O campo de peso Especifica uma importância relativa para entradas com a mesma prioridade. Maiores espessuras devem ser dada proporcionalmente maior probabilidade de ser selecionada. Os administradores de DNS devem usar o peso 0 quando não houver qualquer seleção de servidor para fazer. Na presença de registros que contenham espessuras maiores do que 0, os registros com peso 0 devem ter uma muito pequena chance de serem selecionados.
     
-Se vários registros SRV do DNS com prioridade e peso iguais forem retornados, o serviço de borda de acesso escolherá o primeiro registro SRV recebido do servidor DNS.
+Se vários registros SRV de DNS com prioridade e peso iguais forem retornados, o serviço de borda de acesso selecionará o registro SRV que foi recebido pela primeira vez do servidor DNS.
   
-### <a name="dns-load-balancing-on-front-end-pools-and-director-pools"></a>Balanceamento de carga de DNS em pools de front-ends e de diretores
+### <a name="dns-load-balancing-on-front-end-pools-and-director-pools"></a>DNS com carga balanceada no diretor e Pools de Front-End Pools
 
-Você pode usar o  balanceamento de carga de DNS para o tráfego SIP em pools de front-ends e de diretores. Com o balanceamento de carga de DNS implantado, você também precisará usar os balanceadores de carga de hardware para esses pools, mas somente para tráfego HTTPS do cliente para o servidor. O balanceador de carga de hardware é usado para tráfego HTTPS de clientes nas portas 443 e 80. 
+Você pode usar para o tráfego SIP em pools de Front-End e pools de diretor de balanceamento de carga DNS. Com balanceamento de carga DNS implantado, você ainda precisará também usar balanceadores de carga de hardware para estes pools, mas somente para tráfego HTTPS de cliente-para-servidor. O balanceador de carga de hardware é usado para tráfego HTTPS de clientes em portas 443 e 80. 
   
-Embora você ainda precise de balanceadores de carga de hardware para esses pools, a configuração e administração desses balanceadores será destinada principalmente ao tráfego HTTPS, ao qual os administradores dos balanceadores de carga de hardware estão acostumados.
+Embora você ainda precisará balanceadores de carga de hardware para estes pools, sua configuração e administração será principalmente para tráfego HTTPS, que os administradores dos balanceadores de carga de hardware estão acostumados.
   
-#### <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>Balanceamento de carga de DNS e suporte aos clientes e servidores mais antigos
+#### <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>DNS balanceamento de carga e suporte a clientes e servidores mais antigos
 
 Failover automático de balanceamento suporta apenas para servidores que executam o Skype para Business Server ou o Lync Server 2010 e para o Lync 2013 e Skype para clientes de negócios de carga do DNS. Versões anteriores do Office Communications Server e de clientes ainda podem se conectar aos pools executando o balanceamento de carga DNS, mas se eles não podem fazer com que uma conexão para o primeiro servidor que balanceamento de carga DNS se refere a eles, eles não conseguem fazer failover para outro servidor no pool . 
   
-Além disso, se você estiver usando UM do Exchange, você deve usar o mínimo do Exchange 2010 SP1 para obter suporte para Skype para balanceamento de carga de DNS do servidor de negócios. Se você usar uma versão anterior do Exchange, seus usuários não terão acesso às funcionalidades de failover para estes cenários do UM do Exchange:
+Além disso, se você estiver usando UM do Exchange, você deve usar o mínimo do Exchange 2010 SP1 para obter suporte para Skype para balanceamento de carga de DNS do servidor de negócios. Se você usar uma versão anterior do Exchange, os usuários não terão os recursos de failover para esses cenários UM do Exchange:
   
-- A reprodução da caixa postal do Enterprise no telefone
+- Reproduzir suas mensagens de voz do Enterprise no telefone dela
     
-- A transferência de chamadas de um atendedor automático de UM do Exchange
+- Transferindo chamadas de um Exchange atendedor automático de UM
     
 Todos os outros cenários UM do Exchange funcionarão corretamente.
   
-#### <a name="deploying-dns-load-balancing-on-front-end-pools-and-director-pools"></a>A implantação do balanceamento de carga DNS em  pools do Diretor e  pools de Front-End
+#### <a name="deploying-dns-load-balancing-on-front-end-pools-and-director-pools"></a>Implantando DNS com carga balanceada no diretor e Pools de Front-End Pools
 <a name="BK_FE_Dir"> </a>
 
-A implantação do balanceamento de carga de DNS nos pools de front-ends e de diretores requer a execução de algumas etapas extra com os registros de DNS e FQDNs.
+Implantando o DNS balanceamento de carga em pools de Front-End e pools do Diretor requer executar algumas etapas extras com os registros de DNS e FQDNs.
   
 - Um pool que usa o balanceamento de carga DNS deve ter dois FQDNs: regular pool FQDN que é usada pelo DNS e balanceamento de carga (por exemplo, pool01. contoso.com), resolve para o IPs físico dos servidores no pool e outro FQDN Web do pool services (tais como web01.contoso.com), que se resolva como o endereço IP virtual do pool. 
     
     No construtor de topologia, se você deseja implantar o DNS com carga balanceada para um pool, para criar esse FQDN extra para serviços da Web do pool selecione a caixa de seleção **FQDN do pool de serviços Web internos de substituição** e digite os nomes FQDN, no **especificar as URLs do Web Services para Este Pool** página.
     
-- Para suportar o FQDN usado pelo balanceamento de carga de DNS, você deve provisionar o DNS para resolver o FQDN do pool (como pool01.contoso.com) para os endereços IP de todos os servidores no pool (por exemplo, 192.168.1.1, 192.168.1.2 e assim por diante). Você deve incluir somente os endereços IP dos servidores que estão atualmente implantados.
+- Para suportar o FQDN usado pelo balanceamento de carga DNS, você deve provisionar o DNS para resolver o FQDN do pool (por exemplo, pool01. contoso.com) para os endereços IP de todos os servidores no pool (por exemplo, 192.168.1.1, 192.168.1.2 e assim por diante). Você deve incluir somente os endereços IP de servidores que são implantados no momento.
     
     > [!CAUTION]
     > Se você tiver mais de um pool de Front-End ou servidor Front-End os serviços Web externos FQDN deve ser exclusivo. Por exemplo, se você definir os serviços Web externos FQDN de um servidor Front-End como **pool01. contoso.com**, você não pode usar **pool01. contoso.com** para outro pool de Front-End ou servidor Front-End. Se você estiver implantando o diretores também, o external FQDN definido para qualquer Diretor de serviços da Web ou pool de diretores deve ser exclusivo de qualquer outro diretor ou diretor do pool, bem como qualquer pool Front-End ou servidor Front-End. Caso decida substituir os serviços web internos com um FQDN auto-definido, cada FQDN deve ser exclusivo de qualquer outro pool de Front-End, diretor ou um pool de diretores.
   
-### <a name="dns-load-balancing-on-edge-server-pools"></a>Balanceamento de carga de DNS em pools de servidores de borda
+### <a name="dns-load-balancing-on-edge-server-pools"></a>DNS com carga balanceada em Pools de servidor de borda
 <a name="BK_Edge"> </a>
 
-Você pode implantar o balanceamento de carga DNS em pools de servidor de borda. Se você fizer isso, deve estar ciente de algumas considerações.
+Você pode implantar o DNS com carga balanceada em pools de servidor de borda. Se fizer isso, você deve estar ciente dos algumas considerações.
   
-Usar o balanceamento de carga de DNS nos servidores de borda provoca perda da capacidade de failover nos seguintes cenários:
+Usando o DNS o balanceamento de carga em seus servidores de borda provoca uma perda da capacidade de failover nos seguintes cenários:
   
 - Federação com organizações que estão executando versões do Skype para Business Server lançadas anteriormente para o Lync Server 2010.
     
 - Troca de mensagens instantâneas com usuários de serviços de mensagem instantânea (IM) pública AOL e Yahoo!, além dos provedores baseados em XMPP e servidores, como o Google Talk, atualmente o único parceiro XMPP com suporte.
     
-Esses cenários funcionarão desde que todos os servidores de borda no pool estejam funcionando. Se houver um servidor de borda indisponível, as solicitações enviadas para esses cenários falharão, em vez de serem encaminhadas para outro servidor de borda.
+Esses cenários funcionará desde que todos os servidores de borda no pool estão em execução, mas se um servidor de borda não estiver disponível, quaisquer solicitações para esses cenários que sejam enviadas a ele falhará, em vez de roteamento para outro servidor de borda.
   
- Se você estiver usando UM do Exchange, você deve usar um mínimo de Exchange 2013 para obter suporte para Skype Business servidor DNS para balanceamento de carga na borda. Se você usar uma versão mais antiga do Exchange, seus usuários remotos não terão funcionalidades de failover para estes cenários de UM do Exchange:
+ Se você estiver usando UM do Exchange, você deve usar um mínimo de Exchange 2013 para obter suporte para Skype Business servidor DNS para balanceamento de carga na borda. Se você usar uma versão anterior do Exchange, os usuários remotos não terá recursos de failover para esses cenários UM do Exchange:
   
-- A reprodução da caixa postal do Enterprise no telefone
+- Reproduzir suas mensagens de voz do Enterprise no telefone dela
     
-- A transferência de chamadas de um atendedor automático de UM do Exchange
+- Transferindo chamadas de um Exchange atendedor automático de UM
     
 Todos os outros cenários UM do Exchange funcionarão corretamente.
   
-As interfaces de bordas interna e externa devem usar o mesmo tipo de balanceamento de carga. Não é possível usar o balanceamento de carga de DNS em uma interface de borda e o balanceamento de carga de hardware na outra interface.
+As interfaces de Borda interna e externa precisam usar o mesmo tipo de balanceamento de carga. Não é possível usar balanceamento de carga DNS em uma interface de Borda e balanceamento de carga de hardware na outra interface de Borda.
   
-#### <a name="deploying-dns-load-balancing-on-edge-server-pools"></a>Implantando o balanceamento de carga de DNS em pools de servidores de borda
+#### <a name="deploying-dns-load-balancing-on-edge-server-pools"></a>Implantando DNS com carga balanceada em Pools de servidor de borda
 
-Para implantar o balanceamento de carga DNS na interface externa do seu pool de Servidor de Borda, são necessárias as seguintes entradas DNS:
+Para implantar o DNS com carga balanceada na interface externa do seu pool do servidor de borda, você precisa ter as seguintes entradas DNS:
   
-- Para o serviço de borda de acesso, você precisa de uma entrada para cada servidor do pool. Cada entrada deve resolver o FQDN do serviço de borda de acesso (por exemplo, sip.contoso.com) para o endereço IP desse serviço em um dos servidores de borda do pool.
+- Para o serviço de borda de acesso, você precisa de uma entrada para cada servidor no pool. Cada entrada deve resolver o FQDN do serviço de borda de acesso (por exemplo, sip.contoso.com) para o endereço IP do serviço em um dos servidores de borda no pool de borda de acesso.
     
-- Para o serviço de borda de webconferência, você precisa de uma entrada para cada servidor do pool. Cada entrada deve resolver o FQDN do serviço de borda de webconferência (por exemplo, webconf.contoso.com) para o endereço IP desse serviço em um dos servidores de borda do pool.
+- Para o serviço de borda de webconferência, você precisa de uma entrada para cada servidor no pool. Cada entrada deve resolver o FQDN do serviço de borda de webconferência (por exemplo, webconf.contoso.com) para o endereço IP do serviço em um dos servidores de borda no pool de borda de webconferência.
     
-- Para o serviço de borda de áudio e vídeo, você precisa de uma entrada para cada servidor do pool. Cada entrada deve resolver o FQDN do serviço de borda de áudio/vídeo (por exemplo, av.contoso.com) para o endereço IP do serviço de borda de V em um dos servidores de borda no pool /.
+- Para o serviço de borda de áudio/vídeo, você precisa de uma entrada para cada servidor no pool. Cada entrada deve resolver o FQDN do serviço de borda de áudio/vídeo (por exemplo, av.contoso.com) para o endereço IP do serviço de borda de V em um dos servidores de borda no pool /.
     
-Para implantar o balanceamento de carga de DNS na interface interna do pool de servidores de borda, você deve adicionar um registro A de DNS que resolva o FQDN interno do pool de servidores de borda para o endereço IP de cada servidor do pool.
+Para implantar o DNS com carga balanceada na interface interna do seu pool do servidor de borda, você deve adicionar um registro DNS A, que resolve o FQDN interno do pool de servidores de borda para o endereço IP de cada servidor no pool.
   
-### <a name="using-dns-load-balancing-on-mediation-server-pools"></a>Usando o balanceamento de carga DNS em pools do servidor de mediação
+### <a name="using-dns-load-balancing-on-mediation-server-pools"></a>Usando o DNS com carga balanceada em Pools de servidor de mediação
 <a name="BK_Mediation"> </a>
 
-Você pode usar um balanceamento de carga de DNS em pools autônomos do Servidor de Mediação. Todo o tráfego SIP e de mídia será balanceado pelo balanceamento de carga de DNS.
+Você pode usar o DNS com carga balanceada em pools de servidor de mediação autônomos. Todo o tráfego SIP e a mídia é balanceado pelo balanceamento de carga do DNS.
   
-Para implantar o balanceamento de carga de DNS em um pool do Servidor de Mediação, você deve provisionar o DNS para resolver o FQDN do pool (por exemplo, mediationpool1.contoso.com) para os endereços IP de todos os servidores no pool (por exemplo, 192.168.1.1, 192.168.1.2 e assim por diante).
+Para implantar o DNS com carga balanceada em um pool do servidor de mediação, você deve provisionar o DNS para resolver o FQDN (por exemplo, mediationpool1.contoso.com) do pool para os endereços IP de todos os servidores no pool (por exemplo, 192.168.1.1, 192.168.1.2 e assim por diante).
   
-### <a name="blocking-traffic-to-a-server-with-dns-load-balancing"></a>Bloquer o Tráfego a um Servidor com Balanceamento de Carga DNS
+### <a name="blocking-traffic-to-a-server-with-dns-load-balancing"></a>Bloqueando o tráfego para um servidor com balanceamento de carga DNS
 <a name="BK_Mediation"> </a>
 
 Se você usar um balanceamento de carga DNS e precisar bloquear o tráfego para um computador específico, não é suficiente apenas remover as entradas do endereço IP do Pool FQDN. Você deve remover a entrada DNS do computador. 
   
-Observe que para tráfego de servidor-para-servidor, Skype para Business Server usa o balanceamento de carga de reconhecimento de topologia. Os servidores leem a topologia publicada no repositório de gerenciamento Central para obter os FQDNs dos servidores na topologia e distribuam automaticamente o tráfego entre os servidores. Para bloquear o recebimento de tráfego entre servidores em um servidor, você deve remover o servidor da topologia. 
+Observe que para tráfego de servidor-para-servidor, Skype para Business Server usa o balanceamento de carga de reconhecimento de topologia. Os servidores leem a topologia publicada no repositório de gerenciamento Central para obter os FQDNs dos servidores na topologia e distribuam automaticamente o tráfego entre os servidores. Para bloquear um servidor de recebimento do tráfego de servidor-para-servidor, você deve remover o servidor da topologia. 
   
 

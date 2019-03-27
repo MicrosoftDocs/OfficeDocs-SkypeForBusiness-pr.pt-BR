@@ -1,5 +1,6 @@
 ---
-title: Expansor de configurações de Site do Lync Server
+title: Expansor de Configurações de Site do Servidor Lync
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar as propriedades de um site existente, faça o seguinte:'
-ms.openlocfilehash: b9660fcfbabc1276a5a470d6f83752981c35c54f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fdbcd5ddb62de7d4d4040e0b790e3475e20372c7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258232"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887044"
 ---
-# <a name="lync-server-site-settings-expander"></a>Expansor de configurações de Site do Lync Server
+# <a name="lync-server-site-settings-expander"></a>Expansor de Configurações de Site do Servidor Lync
 
 Para editar as propriedades de um site existente, faça o seguinte:
 
@@ -40,7 +41,7 @@ Se a configuração de federação no servidor de borda ou pool tiver sido confi
 > [!CAUTION]
 > Essa configuração afetará todos os sites. Certifique-se de que a configuração que você está configurando neste site é apropriada para todos os sites.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 Para obter detalhes, consulte [Topologies for External User Access](https://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx).
 

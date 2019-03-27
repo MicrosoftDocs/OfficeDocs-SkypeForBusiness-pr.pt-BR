@@ -1,5 +1,6 @@
 ---
-title: Expansor de configurações SBA do registrador
+title: Expansor de configurações SBA do Registrador Avançado
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 description: 'Você pode edita as configurações de resiliência e configure as seguintes propriedades:'
-ms.openlocfilehash: f4237972f271ed65e323d67637d9428631c9a899
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 118c7e3eda7fc8422483989880f7ae0b31b9842f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375875"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896698"
 ---
-# <a name="registrar-sba-settings-expander"></a>Expansor de configurações SBA do registrador
+# <a name="registrar-sba-settings-expander"></a>Expansor de configurações SBA do Registrador Avançado
 
 Você pode edita as configurações de **resiliência** e configure as seguintes propriedades:
 
@@ -38,6 +39,6 @@ Você pode edita as configurações de **resiliência** e configure as seguintes
 
   **Ajuda** Exibe essa tela de ajuda.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Planejamento para o Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)

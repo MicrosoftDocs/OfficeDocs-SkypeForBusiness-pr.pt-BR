@@ -1,5 +1,6 @@
 ---
 title: Implantar o Skype para o cliente de negócios no Office 365
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Saiba como planejar e implantar Skype para negócios em organizações pequenas, médias e grandes e tornar disponível aos usuários. '
-ms.openlocfilehash: c96d4759e25370997b9af8d42d8130d7964962df
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6dccd022d82519c1dfdce13f767e5b0a2531eb10
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372567"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896789"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Implantar o Skype para o cliente de negócios no Office 365
 
@@ -52,7 +53,7 @@ Como o [administrador](https://support.office.com/en-us/article/eac4d046-1afd-4f
     ![Escolha o software que você deseja que o usuário acesse.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> Se você precisar ver quais planos estão atribuídos a pessoas da sua organização, entrar com o novo centro de administração do Office 365 > **usuários** > **usuários ativos**. Selecione a pessoa na lista e procure em **licenças do produto**. Se você estiver usando o Centro de administração do Office 365 clássico, procure em **licença atribuído**. 
+> Se você precisar ver quais planos estão atribuídos a pessoas da sua organização, entrar com o novo Office 365 admin center gt _ **usuários** > **usuários ativos**. Selecione a pessoa na lista e procure em **licenças do produto**. Se você estiver usando o Centro de administração do Office 365 clássico, procure em **licença atribuído**. 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>Implantando manualmente Skype for Business para seus usuários
 <a name="bkmk_manual_1"> </a>
@@ -150,7 +151,7 @@ Você pode controlar com que frequência você obtenha atualizações de recurso
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
+[Instalar o Skype for Business Online](set-up-skype-for-business-online.md)
   
 [Licenciamento de complementos do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   

@@ -1,5 +1,6 @@
 ---
-title: Aprimorar a grupos existentes do Office 365 com o Microsoft Teams
+title: Aprimorar grupos existentes do Office 365 com o Microsoft Teams
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,22 +15,22 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13b34da03c35706fafb02a4e9e02eab629a4a399
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 665a8197b81ec823ef73962babdcbfecc664b03f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568412"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885287"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Aprimorar a grupos existentes do Office 365 com o Microsoft Teams
 =======================================================
 
-Os usuários do Microsoft Teams podem aprimorar um grupo existente do Office 365 com a funcionalidade do Microsoft Teams. Quando desejarem aprimorar um grupo público do Office 365, os usuários poderão fazê-lo se o número de membros for igual ou inferior a 2500.
+Os usuários do Microsoft Teams podem aprimorar um grupo existente do Office 365 com a funcionalidade do Microsoft Teams. Ao olhar aprimorando a um grupo de 365 público do Office, os usuários podem fazer que se o número de membros é igual ou menor do que 5000.
 
 Para isso, os usuários deverão seguir o fluxo de criar uma nova equipe a partir do cliente do Microsoft Teams. Selecione **criar uma equipe de um grupo existente do Office 365** na parte inferior da tela e escolha o grupo existente que você deseja melhorar com Teams da Microsoft. Os membros do grupo existente serão adicionados como membros da equipe automaticamente.
 
 > [!IMPORTANT]
-> Somente os proprietários de grupo do Office 365 têm permissão para aprimorar a um grupo existente com Microsoft Teams, e esse grupo deve conter 2500 menor que usuários. Equipes que já foram aprimoradas não aparecerá na lista.
+> Somente os proprietários de grupo do Office 365 têm permissão para aprimorar a um grupo existente com Microsoft Teams, e esse grupo deve conter menos de 5.000 usuários. Equipes que já foram aprimoradas não aparecerá na lista.
 >
 >A opção **criar uma equipe de um grupo existente do Office 365** não estará disponível a menos que essas condições forem atendidas.
 

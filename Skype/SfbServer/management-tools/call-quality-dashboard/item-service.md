@@ -1,5 +1,6 @@
 ---
 title: Serviço de item para o painel de controle de qualidade de chamada (CQD)
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: 'Resumo: Saiba mais sobre o serviço de Item, que é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: 5e5198afd95d6c9e1de517054053b724a54b1105
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 28a705d488519e439a0fd4c9c9345b1d540fd949
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532595"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895941"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Serviço de item para o painel de controle de qualidade de chamada (CQD)
  
@@ -23,7 +24,7 @@ ms.locfileid: "26532595"
   
 O serviço de Item é parte da API do repositório para painel de controle de qualidade de chamada.
   
-## <a name="item-service"></a>Serviço de item
+## <a name="item-service"></a>Serviço de itens
 
 API do repositório oferece um serviço de gerenciamento de conteúdo simples, conhecido como serviço de item, que pode ser usado para armazenar qualquer conteúdo definido pelo aplicativo para usuários. 
   
@@ -50,9 +51,9 @@ As operações do REST estão incluídas na tabela a seguir.
 |**Operação**|**Descrição**|
 |:-----|:-----|
 |[Obter itens](get-items.md) <br/> |Obter itens retorna todos os itens no repositório.  <br/> |
-|[Obtenha Item](get-item.md) <br/> |Obtenha o Item Retorna um Item específico.  <br/> |
-|[Obter itens sub-recurso](get-sub-items.md) <br/> |Obter itens sub-recurso retorna subitens de um Item específico.  <br/> |
-|[Obter ancestrais do Item](get-item-ancestors.md) <br/> |Get Item ancestrais retorna ancestrais de um Item específico.  <br/> |
+|[Obter item](get-item.md) <br/> |Obtenha o Item Retorna um Item específico.  <br/> |
+|[Obter subitens](get-sub-items.md) <br/> |Obter itens sub-recurso retorna subitens de um Item específico.  <br/> |
+|[Obter o Item Predecessor](get-item-ancestors.md) <br/> |Get Item ancestrais retorna ancestrais de um Item específico.  <br/> |
 |[Atualizar Item](update-item.md) <br/> |Atualize um item específico no repositório.  <br/> |
    
 

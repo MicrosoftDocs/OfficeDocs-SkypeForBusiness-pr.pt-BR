@@ -1,5 +1,6 @@
 ---
 title: Planejar Aparência de linha compartilhada no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
 description: Leia este tópico para saber como planejar para Shared linha aparência (SLA) no Skype 2015 do servidor de negócios, novembro de 2015 atualizações cumulativas.
-ms.openlocfilehash: b65d637426b0a8533089b21021bce566373ca9f1
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: ae19afbffce6f51abd811a0062c611ee130c4e4d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "23884505"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892678"
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Planejar Aparência de linha compartilhada no Skype for Business Server 2015
  

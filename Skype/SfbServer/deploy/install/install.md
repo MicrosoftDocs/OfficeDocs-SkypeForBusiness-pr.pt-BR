@@ -1,5 +1,6 @@
 ---
 title: Instalar o Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
 description: 'Resumo: Saiba como preparar seu ambiente para uma instalação do Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: d5c1290e4a7a1beeb2310c69f0c63d7f549e0d76
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 041c60c23e5edc56a0332f7e0321fd1aac5970f8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026038"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898519"
 ---
 # <a name="install-skype-for-business-server"></a>Instalar o Skype for Business Server
  
@@ -39,7 +40,7 @@ Skype para Business Server é um produto avançado e o processo de instalação 
 > [!IMPORTANT]
 > Os procedimentos nesta seção têm como finalidade servir de exemplo, usando um conjunto limitado de requisitos e assumindo que decisões específicas já foram tomadas. Os procedimentos reais, que você precisará instalar Skype para Business Server provavelmente será muito diferentes. Use os procedimentos nesta seção como um exemplo apenas e não como um guia passo a passo para instalar o Skype para Business Server em cada ambiente. 
   
-Aprendendo Skype para Business Server e executando-se pela primeira vez envolvem oito etapas principais. Você deve compreender os procedimentos de exemplo nesta seção não estão os somente procedimentos necessários para instalar o Skype for Business Server. As seguintes oito etapas são simplesmente exemplos para ajudá-lo compreendam o processo geral e obtém uma trabalhando o ambiente de e a execução. As etapas 1 a 5 podem ser executadas em qualquer ordem. No entanto, você deve executar as etapas 6, 7 e 8 nesta ordem, após concluir as etapas 1 a 5, conforme descrito no diagrama. As oito etapas são:
+Aprendendo Skype para Business Server e executando-se pela primeira vez envolvem oito etapas principais. Você deve compreender os procedimentos de exemplo nesta seção não estão os somente procedimentos necessários para instalar o Skype for Business Server. As seguintes oito etapas são simplesmente exemplos para ajudá-lo compreendam o processo geral e obtém uma trabalhando o ambiente de e a execução. Você pode executar os passos 1 a 5 em qualquer ordem. Entretanto, deve executar as etapas 6, 7 e 8 na ordem certa, e após as etapas de 1 a 5, conforme descrito no diagrama. As oito etapas são:
   
 ![Visão geral do processo de instalação.](../../media/b1a59b39-a7f0-4781-ac4d-2dfef7ca3700.png)
   

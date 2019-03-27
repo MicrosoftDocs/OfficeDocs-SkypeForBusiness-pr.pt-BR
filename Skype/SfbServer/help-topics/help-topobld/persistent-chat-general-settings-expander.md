@@ -1,5 +1,6 @@
 ---
 title: Expansor de Configurações Gerais de Chat Persistente
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 'Você pode editar as configurações gerais para o servidor de Chat persistente ou o pool de servidor de Chat persistente configurando ou definindo essas propriedades:'
-ms.openlocfilehash: 912cacaa050962b85d8e3f70bec78f01306909d6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5300a6353bb683bfe2a010cda00c43e0faa839b8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374956"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884375"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Expansor de Configurações Gerais de Chat Persistente
  
@@ -111,7 +112,7 @@ Você pode editar as configurações de **associações** para o servidor de Cha
   
   **Ajuda** Exibe essa tela de ajuda.
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Planejar Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

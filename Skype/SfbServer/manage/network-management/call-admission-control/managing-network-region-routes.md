@@ -1,5 +1,6 @@
 ---
 title: Gerenciando rotas de região de rede
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Uma rota de região de rede define a rota entre um par de regiões de rede. Cada par de regiões de rede em sua implantação de controle de admissão de chamada exige uma rota de região de rede.
-ms.openlocfilehash: 98d7f0ce8f6cb89aa443c5dc8863afd34c355ff3
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 12e8d9072df3affdb6e47b6ddb0452e0ee5982a5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223154"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898120"
 ---
-# <a name="managing-network-region-routes-in-skype-for-business-server"></a>Gerenciando rotas de região de rede no Skype para Business Server
+# <a name="managing-network-region-routes-in-skype-for-business-server"></a>Gerenciar roteamento de regiões de rede no Skype for Business Server
 
 Uma *rota de região de rede* define a rota entre um par de regiões de rede. Cada par de regiões de rede em sua implantação de controle de admissão de chamada exige uma rota de região de rede. Isso permite que cada região da rede dentro da implantação acesse todas as demais regiões. Use os procedimentos neste artilce para exibir, criar, modificar ou excluir rotas de região de rede.
 
@@ -135,11 +136,11 @@ Cada região contida em uma configuração de (CAC) do controle de admissão de 
 
 ## <a name="see-also"></a>Consulte Também
 
-[Gerenciando regiões de rede Skype para Business Server](managing-network-regions.md)
+[Gerenciar regiões de rede no Skype for Business Server](managing-network-regions.md)
 
 [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)  
 
-[Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute) 
+[Set-CsNetworkInterRegionRoute.](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute) 
  
 [Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)  
 

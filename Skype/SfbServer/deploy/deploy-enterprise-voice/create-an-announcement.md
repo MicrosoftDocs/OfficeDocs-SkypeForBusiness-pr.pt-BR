@@ -1,5 +1,6 @@
 ---
 title: Criar ou excluir um anúncio no Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,13 +13,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-description: Criar ou excluir comunicados para o aplicativo de anúncio no Skype para Business Server Enterprise Voice. Isso afeta como o sistema lida com as chamadas para números não atribuídos.
-ms.openlocfilehash: cbdcaed3d5908b76f0932f3461dfc21716f74b32
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: Criar ou excluir comunicados para o aplicativo de anúncio no Skype para Business Server Enterprise Voice. Isso afeta o modo como nas chamadas para números não atribuídos são administradas.
+ms.openlocfilehash: cf6fc0ce754e30e4d52e968dc3a167bbe87a5a83
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372291"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885572"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Criar ou excluir um anúncio no Skype para Business Server
 
@@ -28,7 +29,7 @@ Ao configurar comunicados, na verdade você está configurando como deseja manip
 
 Você precisa criar anúncios antes de definir a tabela de números não atribuídos. Você precisa executar esta etapa para todos os anúncios que usam um prompt de áudio, de TTS ou nenhum prompt.
 
-Este tópico descreve como importar e criar comunicados. Para obter detalhes sobre como atribuir comunicados na tabela de números não atribuído, consulte [Configurar a tabela de número não atribuído](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).
+Este tópico descreve como importar e criar comunicados. Para obter detalhes sobre como atribuir comunicados na tabela de números não atribuídos, consulte [Configure the Unassigned Number Table](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).
 
 ## <a name="create-a-new-announcement-for-unassigned-numbers"></a>Criar um novo comunicado para números não atribuídos
 
@@ -36,9 +37,9 @@ Para criar um novo comunicado, é necessário executar as seguintes etapas:
 
 1. Para prompts de áudio, grave o arquivo de áudio usando seu aplicativo de gravação de áudio favorito.
 
-2. Para prompts de áudio, execute o cmdlet **Import-CsAnnouncementFile** para importar o conteúdo do arquivo de áudio para o repositório de arquivos.
+2. Para prompts de áudio, execute o cmdlet **Import-CsAnnouncementFile** para importar o conteúdo do arquivo de áudio para o Repositório de Arquivos.
 
-3. Execute o cmdlet **New-CsAnnouncement** , para criar e nomear o comunicado. Execute esta etapa para criar comunicados com um prompt de áudio, um prompt TTS (text-to-speech), ou sem prompt.
+3. Execute o cmdlet **New-CsAnnouncement** para criar e nomear o comunicado. Execute esta etapa para criar comunicados com um prompt de áudio, um prompt TTS (text-to-speech), ou sem prompt.
 
     > [!TIP]
     > Pode ser desejável criar um comunicado sem prompt (por exemplo, se você deseja transferir chamadas para um destino específico sem reproduzir uma mensagem).
@@ -112,7 +113,7 @@ Para criar um novo comunicado, é necessário executar as seguintes etapas:
     > [!NOTE]
     > Para obter detalhes sobre mais opções, consulte [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) e [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps).
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Criar ou excluir um anúncio no Skype para Business Server](create-an-announcement.md)
 

@@ -1,5 +1,6 @@
 ---
 title: Usando relatórios de monitoramento no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 'Resumo: Saiba sobre o monitoramento de relatórios no Skype para Business Server.'
-ms.openlocfilehash: 68fcf3a738d2cf849bd51959a86f2d61e53db603
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 11eb398d45102cb73fa02e61f63e0eda56e70200
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003790"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896782"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>Usando relatórios de monitoramento no Skype para Business Server 
  
 **Resumo:** Saiba mais sobre o monitoramento de relatórios no Skype para Business Server.
   
-Skype para Business Server inclui um conjunto de relatórios padrão publicados pelo serviço de relatório do Microsoft SQL Server. Esses relatórios, que podem ser acessados com um navegador da Web, oferecem informações sobre utilização, diagnóstico de chamadas e qualidade de mídia, todas baseadas nos registros de detalhes das chamadas (CDR) e de Qualidade da Experiência (QoE) armazenados nos bancos de dados de CDR e QoE.
+Skype para Business Server inclui um conjunto de relatórios padrão publicados pelo serviço de relatório do Microsoft SQL Server. Esses relatórios, que podem ser acessados por meio de navegadores, fornecem informações de uso, diagnóstico de chamada e qualidade de mídia, com base em registros de detalhes das chamadas (CDR) e qualidade da experiência (QoE) armazenados nos bancos de dados de CDR e QoE.
   
 Para usar esses relatórios, você deve instalar os relatórios do Monitoring em um computador que esteja executando uma instância do SQL Server.
   

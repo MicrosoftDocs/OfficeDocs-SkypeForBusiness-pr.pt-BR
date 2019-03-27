@@ -1,5 +1,6 @@
 ---
 title: Pesquisar logs de captura criados para o Serviço de Registro em Log no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 'Resumo: Saiba como pesquisar e ler logs de captura Centralized Logging Service no Skype for Business Server 2015.'
-ms.openlocfilehash: 9429ef0f2c14552c615e4d7f81c497ea9bb546f3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b1f049260eff7524e5a728852b3dcd99526d8742
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372216"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895884"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Pesquisar logs de captura criados para o Serviço de Registro em Log no Skype for Business Server 2015
  
@@ -32,7 +33,7 @@ Os recursos de pesquisa em the Centralized Logging Service serão útil e podero
     
 O CLSAgent em cada computador cria os logs com base no cenário ou cenários (dois cenários por computador podem estar funcionando em um determinado momento). Os logs e seu índice e arquivos de cache associados são gerenciados pelo CLSAgent. Ao definir e executar uma pesquisa, o comando de pesquisa instrui o CLSAgent sobre qual informação deve ser recuperada. O CLSAgent executa a consulta nos arquivos de log, arquivos de cache e arquivos de índice e coloca-os na ordem de tempo delta, entrada mais antiga primeiro e continuando para a última entrada mais recente. O CLSController agrega (combina) os logs e os coloca na ordem de tempo delta, da entrada mais antiga para a entrada mais recente.
   
-Depois de cada pesquisa, o cmdlet **Sync-CsClsLogging** é executado e ele libera o cache usado por pesquisas (não deve ser confundido com os arquivos de cache mantidos pelo com o CLSAgent). Descarregar o cache ajuda a garantir que há um log limpo e um armazenamento de captura de arquivo de rastreamento no CLSController para a próxima operação de pesquisa.
+Após cada pesquisa, o cmdlet **Sync-CsClsLogging** é executado e descarrega o cache usado pelas pesquisas (não deve ser confundido com os arquivos de cache mantidos pelo CLSAgent). Descarregar o cache ajuda a garantir que há um log limpo e um armazenamento de captura de arquivo de rastreamento no CLSController para a próxima operação de pesquisa.
   
 Para obter o máximo benefício do the Centralized Logging Service, você precisa de uma boa compreensão de como configurar a pesquisa para que retorne apenas as mensagens de rastreamento dos logs do computador e o pool que são relevantes para o problema que você estiver pesquisando. problemas
   

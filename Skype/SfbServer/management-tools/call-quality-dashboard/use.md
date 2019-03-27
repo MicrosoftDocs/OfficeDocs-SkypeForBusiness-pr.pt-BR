@@ -1,5 +1,6 @@
 ---
 title: Usar o painel de controle de qualidade de chamada para Skype para o servidor de negócios
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Resumo: Saiba mais sobre como usar o painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: 6b431bb34ca6350662fbae720c61d2033d95fba4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 856035642d1d8a818abe5f0a106c90270d706516
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533424"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891516"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Usar o painel de controle de qualidade de chamada para Skype para o servidor de negócios
  
@@ -176,7 +177,7 @@ Um fluxo de CQD será bom, ruim ou não classificado. O CQM 1.5 agora usa a segu
     
 **Classificador/definição de chamada ruim**
 
-|**Métrica**|**Limite**|
+|**Indicador**|**Limite**|
 |:-----|:-----|
 |DDegradationAvg  <br/> |Maior que 1,0 (-1 MOS de rede)  <br/> |
 |RoundTrip  <br/> |Maior que 500   <br/> |
@@ -200,9 +201,9 @@ CQD não usa os campos de chamador/receptor. Eles têm sido renomeado "Primeiro"
 |:-----|:-----|:-----|:-----|
 |2 (AVMCU)   <br/> |4 (Skype for Business)   <br/> |Ponto de Extremidade 1  <br/> |Ponto de Extremidade 2  <br/> |
 |2 (AVMCU)   <br/> |1 (mMediationServer)   <br/> |Ponto de Extremidade 2  <br/> |Ponto de Extremidade 1  <br/> |
-|4 (Skype for Business)   <br/> |4 (Skype for Business)   <br/> |O Chamador em MediaLine   <br/> |O Autor da Chamada em MMediaLine  <br/> |
+|4 (Skype for Business)  <br/> |4 (Skype for Business)   <br/> |O Chamador em MediaLine   <br/> |O Autor da Chamada em MMediaLine  <br/> |
    
-Se ambos os pontos de extremidade forem do mesmo tipo, o CQD tornará a entrada do Chamador Primeiro e o Autor da Chamada passará a ser o Segundo. Veja mais informações [neste blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx).
+Se ambos os pontos de extremidade forem do mesmo tipo, o CQD tornará a entrada do Chamador Primeiro e o Autor da Chamada passará a ser o Segundo. Consulte [Este blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx) para obter mais informações.
   
 ## <a name="accounting-for-vpn"></a>Justificar a VPN
 
@@ -234,7 +235,7 @@ Exemplo: quando você precisar obter todos os fluxos de um edifício, UNION prop
 
 Se a conexão Sem Fio é gerenciada internamente, você pode recriar os relatórios de conexão Sem Fio no bucket Gerenciado.  
   
-![Divisão do relatório de CQD](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
+![Divisão de relatório CQD](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
   
 ## <a name="operational-processes"></a>Processos operacionais
 

@@ -1,5 +1,6 @@
 ---
 title: Tabela ConferenceSessionDetails Skype para Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: Cada registro representa uma sessão de conferência, que poderia ser a sessão com foco ou a sessão com um servidor de conferência específico.
-ms.openlocfilehash: 72f2eb11c79348ad72815be7acfd337a40d288af
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ab51ff0c75ba5ea9c6164fdee00be65ff5538c73
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885709"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>Tabela ConferenceSessionDetails Skype para Business Server 2015
  
 Cada registro representa uma sessão de conferência, que poderia ser a sessão com foco ou a sessão com um servidor de conferência específico.
   
-|**Coluna**|**Tipo de dados**|**Índice de chaves /**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |DateTime  <br/> |Primária, estrangeira  <br/> |Hora da solicitação de sessão; usado em conjunto com **SessionIdSeq** para identificar exclusivamente uma sessão de conferência. Consulte a [tabela no Skype para Business Server 2015 de diálogos](dialogs.md) para obter mais informações. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primária, estrangeira  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com **SessionIdTime** para identificar exclusivamente uma sessão de conferência. Consulte a [tabela no Skype para Business Server 2015 de diálogos](dialogs.md) para obter mais informações. * <br/> |

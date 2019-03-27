@@ -1,5 +1,6 @@
 ---
 title: Planejamento de capacidade uso de modelo de usuário do Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: Este artigo fornece orientação sobre quantos servidores são necessários em um site para o número de usuários neste site, de acordo com o uso descrito em modelos de usuário Skype for Business Server.
-ms.openlocfilehash: 1e802bc130086bcefc8fd06cbacd3f21222d6d0a
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 13c7a1bdbbfc20f13dec2c6d9999b80caf4078dd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789402"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886230"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Planejamento de capacidade uso de modelo de usuário do Skype para Business Server
 
@@ -81,7 +82,7 @@ A tabela a seguir mostra a largura de banda média para IM e presença, consider
 |1,3 Kpbs  <br/> |13 Mbps  <br/> |
 
 > [!NOTE]
-> Para melhorar o desempenho de mídia do co localizado uma / funcionalidade de conferência V e o servidor de mediação em seus servidores Front-End, você deve habilitar receber do lado do dimensionamento (RSS) nos adaptadores de rede em seus servidores Front-End. O RSS permite que pacotes de entrada sejam manipulados em paralelo por vários processadores no servidor. Para obter mais detalhes, consulte [Receive Side Scaling (RSS) na documentação do Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede.
+> Para melhorar o desempenho de mídia do co localizado uma / funcionalidade de conferência V e o servidor de mediação em seus servidores Front-End, você deve habilitar receber do lado do dimensionamento (RSS) nos adaptadores de rede em seus servidores Front-End. O RSS permite que pacotes de entrada sejam tratados paralelamente por vários processadores no servidor. Para obter detalhes, consulte [Receber lado dimensionamento (RSS) na documentação do Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede.
 
 ## <a name="conferencing-maximums"></a>Máximos de Conferência
 
@@ -105,7 +106,7 @@ Você deve implantar um servidor de borda para cada 12.000 usuários remotos que
 Ao contar o número de usuários para os servidores de borda, inclua os usuários hospedados em aparelhos de filial persistente e servidores de filial persistente em filiais que estão associados um pool de Front-End neste site.
 
 > [!NOTE]
-> Para melhorar o desempenho do serviço de borda de webconferência V nos servidores de borda, / você deve habilitar o recebimento do lado do dimensionamento (RSS) nos adaptadores de rede em seus servidores de borda. O RSS permite que pacotes de entrada sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, verifique "[Receber lado dimensionamento (RSS) no Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede.
+> Para melhorar o desempenho do serviço de borda de webconferência V nos servidores de borda, / você deve habilitar o recebimento do lado do dimensionamento (RSS) nos adaptadores de rede em seus servidores de borda. O RSS permite que pacotes de entrada sejam tratados paralelamente por vários processadores no servidor. Para obter detalhes, verifique "[Receber lado dimensionamento (RSS) no Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede.
 
 ## <a name="director"></a>Diretor
 
@@ -149,7 +150,7 @@ Todas as tabelas a seguir supõem a utilização resumida em [modelos de usuári
 > Esse número é muito menor do que os números para o servidor de mediação autônomo. Isso acontece porque o servidor Front-End tem que lidar com outros recursos e funções para os 6600 usuários hospedagem nele, além de transcodificação necessária para chamadas de voz.
 
 > [!NOTE]
-> Para melhorar o desempenho do servidor de mediação, você deve habilitar o recebimento do lado do dimensionamento (RSS) nos adaptadores de rede em seus servidores de mediação. O RSS permite que pacotes de entrada sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "[Receive-Side Scaling no Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede.
+> Para melhorar o desempenho do servidor de mediação, você deve habilitar o recebimento do lado do dimensionamento (RSS) nos adaptadores de rede em seus servidores de mediação. O RSS permite que pacotes de entrada sejam tratados paralelamente por vários processadores no servidor. Para obter detalhes, consulte "[Receive-Side Scaling no Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede.
 
 ## <a name="back-end-server"></a>Servidor Back-End
 

@@ -1,5 +1,6 @@
 ---
 title: Configurar CUCM para interoperação com Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 'Resumo: Configure CUCM para trabalhar com Skype para Business Server.'
-ms.openlocfilehash: 6ace5eb2f6cb9763bf78b3930536ae50f8fee815
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 630ab5165c3c7bb3a64663d54ef750fe9275f932
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986555"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888033"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Configurar CUCM para interoperação com Skype para Business Server
  
@@ -138,6 +139,6 @@ Agora, o gateway de vídeo do CUCM está configurado para funcionar com o VIS. V
 > [!NOTE]
 > Para melhorar a resiliência, convém configurar esse gateway CUCM para trabalhar com um pool de servidor de interoperabilidade de vídeo ou VIS segundo. Consulte [Resiliency mechanisms](../../plan-your-deployment/video-interop-server.md#resiliency) para obter mais informações.
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Configurar um VTC para interoperação com Skype para Business Server](configure-a-vtc-for-interoperation.md)

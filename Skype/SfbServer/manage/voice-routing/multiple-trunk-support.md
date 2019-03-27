@@ -1,5 +1,6 @@
 ---
 title: Suporte a troncos múltiplos no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype para a funcionalidade do Business Server suporta vários associações entre gateways e servidores de mediação. Essas associações são feitas por meio da definição de um tronco, que é uma associação de lógica entre um pool do servidor de mediação e um gateway PSTN (rede) telefônica pública comutada, controlador de borda de sessão (SBC) ou IP-PBX. Use o construtor de topologia para associar os gateways com servidores de mediação (ou seja, troncos).
-ms.openlocfilehash: 086d345eb7492423526466cc77a2ce0d0d9a998e
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 5d093bee56597474f0cefcf1053536774f2eb795
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222783"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896564"
 ---
 # <a name="multiple-trunk-support-in-skype-for-business-server"></a>Suporte a troncos múltiplos no Skype para Business Server
 

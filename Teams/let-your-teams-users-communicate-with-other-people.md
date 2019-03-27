@@ -1,5 +1,6 @@
 ---
 title: Comunicar-se com os usuários do Teams em outra organização
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: Consulte como configurar equipes para permitir que os usuários se comuniquem com usuários de outra organização.
-ms.openlocfilehash: b3aa366d26399f3d899da471d41823e79f4bc0f1
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: c3faf65dd3f36c193a75e74e73d90bf5e9be11df
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494241"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894184"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que o bate-papo de usuários equipes e se comunicar com usuários de outra organização de equipes
 

@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
-ms.openlocfilehash: fefad8a37d53760a81b2ea78e73bbd75069c848f
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: b3e6a6341e917b49eed6f1c89dcadfe29bcdaf10
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645353"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891596"
 ---
 # <a name="release-notes"></a>Notas de versão 
 
@@ -53,9 +53,11 @@ Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Sistemas de sala Skype v2 recurso Introdução e resoluções de problemas
 
+
 ### <a name="40780-03142018"></a>4.0.78.0 (14/03/2018)
 Introduzido nessa atualização:
 - Correção de bug "travar na inicialização do app" que afetado dispositivos na compilação de Windows 10 RS2 herdado.  
+
 
 ### <a name="40760-03042019"></a>4.0.76.0 (04/03/2019)
 Introduzido nessa atualização:
@@ -180,7 +182,7 @@ Introduzido nessa atualização:
 ### <a name="2020-03152017"></a>2.0.2.0 (15/03/2017)
 Introduzido nessa atualização: 
 - Seleção de usuário no aplicativo de dispositivos USB de áudio e vídeos de sala de reunião
-- Integrado status da sala console relatórios para clientes usando o pacote de gerenciamento do Microsoft Operations (consulte [management v2 de sistemas de sala Skype planejar com OMS](oms-management.md)) 
+- Sala integrada de relatórios para clientes que usam o Microsoft Operations Management Suite, agora o Azure Monitor de status de console  
 
 ### <a name="release-to-market--1272016"></a>Versão ao mercado (7/12/2016)
 **Recursos:** 

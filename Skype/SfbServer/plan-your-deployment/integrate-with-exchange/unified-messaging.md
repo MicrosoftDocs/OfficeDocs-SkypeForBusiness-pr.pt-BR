@@ -1,5 +1,6 @@
 ---
 title: Planejar para integração de Unificação de Mensagens do Exchange no Skype for Business
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Resumo: Revise esse tópico durante o planejamento para integrar o Skype para servidor de negócios com o Exchange 2013 ou 2016.'
-ms.openlocfilehash: ee6e6bc81c4bd0b2291b7f4be7ceb13894d2aec2
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 951b31e36290bda0d6bd171c4a7df8f6aa4ff337
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059184"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886014"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planejar para integração de Unificação de Mensagens do Exchange no Skype for Business
 
@@ -52,7 +53,7 @@ Skype para Business Server, Enterprise Voice utiliza a infraestrutura do Exchang
 
 - **Atendedor automático** Atendedor automático é um recurso de UM do Exchange que pode ser usado para configurar um número de telefone que os usuários externos pode discar para falar com representantes da empresa. Especificamente, ele fornece uma série de avisos de voz que auxiliam um chamador externo a navegar por um sistema de menus. A lista de opções disponíveis é configurada no servidor UM do Exchange pelo administrador de UM do Exchange.
 
-- **Serviços de fax** UM do Exchange inclui recursos de fax, que permitem aos usuários receber faxes de entrada em suas caixas de correio do Exchange. Para obter detalhes, consulte [Unificação de Mensagens](https://go.microsoft.com/fwlink/p/?linkId=135652) na documentação do Microsoft Exchange Server.
+- **Serviços de fax** UM do Exchange inclui recursos de fax, que permitem aos usuários receber faxes de entrada em suas caixas de correio do Exchange. Para obter detalhes, consulte [Unified Messaging](https://go.microsoft.com/fwlink/p/?linkId=135652) na documentação do Microsoft Exchange Server.
 
     > [!NOTE]
     > Serviços de fax fornecidos pelo servidor UM do Exchange não estão disponíveis no Skype para implantações de servidor de negócios que são integradas com o Microsoft Exchange Server 2010, Exchange 2010 com o service pack mais recente, Exchange 2013 ou 2016 do Exchange.
@@ -115,7 +116,7 @@ As seguintes configurações de exemplo fornecem resiliência de UM do Exchange.
 
 **Exemplo 1: Resiliência de UM do Exchange**
 
-![Diagrama de resiliência de UM do Exchange](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
+![Diagrama de resiliência UM do Exchange](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
 
 No exemplo 1, os servidores UM 1 e 2 do Exchange são ativados no data center de Tukwila e os servidores UM 3 e 4 do Exchange são ativados no data center de Dublin. No caso de uma paralisação UM do Exchange em Tukwila, os registros DNS (Sistema de Nomes de Domínio) para os servidores de 1 e 2 devem ser configurados para apontar aos servidores 3 e 4, respectivamente. No caso de uma paralisação UM do Exchange em Dublin, os registros DNS para os servidores 3 e 4 devem ser configurados para apontar aos servidores 1 e 2 respectivamente.
 
@@ -124,7 +125,7 @@ No exemplo 1, os servidores UM 1 e 2 do Exchange são ativados no data center de
 
 **Exemplo 2: Resiliência de UM do Exchange**
 
-![Diagrama de resiliência de UM do Exchange](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
+![Diagrama de resiliência UM do Exchange](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
 
 No exemplo 2, sob condições operacionais comuns, os servidores UM 1 e 2 do Exchange são ativados no data center de Tukwila e os servidores UM 3 e 4 do Exchange são ativados no data center de Dublin. Os quatro servidores estão incluídos no plano de discagem de URI do SIP dos usuários de Tukwila; no entanto, os servidores 3 e 4 estão desativados. No caso de uma paralisação UM Exchange em Tukwila, por exemplo, os servidores UM 1 e 2 do Exchange devem ser desativados e os servidores UM 3 e 4 do Exchange devem ser habilitados para que o tráfego UM do Exchange de Tukwila seja roteado para os servidores em Dublin.
 
@@ -132,15 +133,15 @@ Para obter detalhes sobre como habilitar ou desabilitar o Unified Messaging no E
 
 Para obter detalhes sobre como habilitar ou desabilitar o Unified Messaging no Microsoft Exchange Server 2010, consulte:
 
-- [Habilitar a Unificação de Mensagens no Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204418)
+- [Habilitar a Unificação de mensagens no Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204418)
 
-- [Desabilitar a Unificação de Mensagens no Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
+- [Desabilitar a Unificação de mensagens no Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 
 Unificação de mensagens do Exchange não estiver mais presente no Exchange 2019, se você tiver o Exchange 2019 e você deseja as funcionalidades equivalentes, que você precisará usar o serviço de correio de voz de nuvem descrito em [serviço de caixa postal planejar de nuvem](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md).
 
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Visão geral do processo de implantação para integração de Unificação de Mensagens local e Skype for Business](deployment-overview.md)

@@ -1,5 +1,6 @@
 ---
 title: Associar Front-End com Página do Servidor do Office Web Apps
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: O Servidor do Office Web Apps fornece serviços parecidos com o carregamento de um documento pelo apresentador para uso em uma reunião, mas possibilita outros recursos que não havia nas versões anteriores.
-ms.openlocfilehash: 4d8d297175cfb003078d80c19a5ace24771a1f49
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 925a27d4b1ddffd40038f71b5cc9d7a3404efba3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248051"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897556"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Associar Front-End com Página do Servidor do Office Web Apps
 
@@ -33,6 +34,6 @@ As opções nessa caixa de diálogo são as seguintes:
 
 3. Clique em **Novo** para definir um novo Servidor do Office Web Apps para sua implantação.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
-[Publicação do Office Web Apps Server usando um servidor Proxy reverso](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
+[Publishing Office Web Apps Server Using a Reverse Proxy Server](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)

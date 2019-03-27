@@ -1,5 +1,6 @@
 ---
 title: Configurar o Roteamento Direto
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Saiba como configurar o roteamento direto do Microsoft Phone System.
-ms.openlocfilehash: 5c2d90ccb88c0e654239ec02a5780778a7db6bbe
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 20bd29bdd2ba83050bd83513f513732ce646cbbe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569778"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883563"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -449,7 +450,7 @@ A tabela a seguir resume o roteamento designações de uso de "Sem restrições"
 
 
   > [!NOTE]
-  > - A ordem de usos da PSTN em políticas de roteamento de voz é crítica. Os usos são aplicados na ordem, e se uma correspondência for encontrada no uso do primeiro, em seguida, outros usos são nunca avaliados. O uso da PSTN "Internacional" deve ser colocado após o uso da PSTN "Somente nos EUA." Para alterar a ordem dos usos da PSTN, execute o `Set-CSOnlineRouteRoutingPolicy` comando. <br/>Por exemplo, para alterar a ordem de "EUA e Canadá" primeiro e "Internacional" segundo a ordem inversa execute:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+  > - A ordem de usos da PSTN em políticas de roteamento de voz é crítica. Os usos são aplicados na ordem, e se uma correspondência for encontrada no uso do primeiro, em seguida, outros usos são nunca avaliados. O uso da PSTN "Internacional" deve ser colocado após o uso da PSTN "Somente nos EUA." Para alterar a ordem dos usos da PSTN, execute o `Set-CSOnlineVoiceRoutingPolicy` comando. <br/>Por exemplo, para alterar a ordem de "EUA e Canadá" primeiro e "Internacional" segundo a ordem inversa execute:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - A prioridade para "Outros + 1" e "Internacional" Voice routes recebem automaticamente. Eles não importam, desde que eles têm prioridades mais baixas que "Redmond 1" e "Redmond 2".
 
 #### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>Exemplo da política de roteamento de voz para o usuário John Woods

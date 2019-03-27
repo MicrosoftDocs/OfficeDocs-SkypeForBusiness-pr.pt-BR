@@ -1,5 +1,6 @@
 ---
 title: Requisitos de DNS para Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Resumo: Revise as considerações de DNS neste tópico antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 649528c21254625b1aac8d2933c59988138b38b1
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: c54f2b8509d0849ee8949dfb4c0275450e533d3f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069577"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891984"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Requisitos de DNS para Skype para Business Server
 
@@ -26,9 +27,9 @@ ms.locfileid: "30069577"
 
 Este artigo aborda apenas Planejando o DNS para Skype para implantações de Business Server na rede de no local de uma organização. Para Skype para Business Online, consulte a "IP e URLs do Office 365 intervalos de endereços" em [https://aka.ms/o365ips](https://aka.ms/o365ips).
 
-Um servidor DNS (serviço) do nome de domínio mapeia nomes de host (como www.<span> </span> Contoso<span></span>. com, provavelmente um servidor web) para endereços IP (por exemplo, 10.10.10.10). Eles ajuda na comunicação entre os clientes e servidores interdependentes na rede Quando você configura uma implementação do Skype para Business Server 2015, você precisará certificar-se de que o mapeamento de novos nomes de servidor (geralmente refletindo a função que eles vai ser espalham) coincide com os endereços IP atribuídos a eles.
+Um servidor DNS (serviço) do nome de domínio mapeia nomes de host (como www.<span> </span> Contoso<span></span>. com, provavelmente um servidor web) para endereços IP (por exemplo, 10.10.10.10). Ele ajuda os clientes e servidores interdependentes se comunicar entre si na rede. Quando você configura uma implementação do Skype para Business Server 2015, você precisará certificar-se de que o mapeamento de novos nomes de servidor (geralmente refletindo a função que eles vai ser espalham) coincide com os endereços IP atribuídos a eles.
 
-Isso pode parecer desanimador bit em um primeiro momento, o trabalho pesado para o planejamento, isso pode ser feito usando o [Skype para ferramenta de planejamento do Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50357). Depois de responder às perguntas do assistente sobre os recursos que pretende usar, para cada local que definir, você poderá exibir o Relatório de DNS no Relatório de administração de borda e usar as informações fornecidas nele para criar seus registros DNS. Também é possível ajustar muitos dos nomes e endereços IP usados. Para obter detalhes, consulte [Examinar o relatório de DNS](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report). Lembre-se de que você pode exportar o Relatório de administração de borda em uma planilha do Excel, e o Relatório de DNS será uma das planilhas no arquivo. Enquanto esta ferramenta inclui recursos [preteridos do Skype para Business Server 2019](../../../SfBServer2019/deprecated.md), ele ainda pode ser usado para criar um plano de inicial, se esses recursos não estão selecionados.
+Isso pode parecer desanimador bit em um primeiro momento, o trabalho pesado para o planejamento, isso pode ser feito usando o [Skype para ferramenta de planejamento do Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50357). Depois que você tiver ido pelas perguntas do assistente sobre quais recursos você planeja usar, para cada site que você define você pode exibir o relatório de DNS dentro do relatório de administração de borda e use as informações na lista para criar seus registros DNS. Você também pode fazer ajustes muitos dos nomes e endereços IP usados para obter detalhes consulte [Review o relatório de DNS](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report). Lembre-Lembre-se pode exportar o relatório de administração de borda para uma planilha do Excel e o relatório de DNS será uma das planilhas no arquivo. Enquanto esta ferramenta inclui recursos [preteridos do Skype para Business Server 2019](../../../SfBServer2019/deprecated.md), ele ainda pode ser usado para criar um plano de inicial, se esses recursos não estão selecionados.
 
 Quando você estiver instalando uma nova implementação, conforme descrito em [criar registros DNS para Skype para Business Server](../../deploy/install/create-dns-records.md) e criar sua topologia para o Skype para Business Server, reconhecemos que você pode optar por usar os recursos DNS feitos no Windows Server 2016 ou um pacote DNS de terceiros, portanto, vamos manter as discussões neste artigo gerais em vez de específicos. Vamos detalhar o que é necessário, e você decide como vai suprir essas necessidades.
 
@@ -49,7 +50,7 @@ As tabelas a seguir mostram os registros DNS que Skype para Business Server usa 
 |A/AAAA   |FQDN de substituição de serviços Web externos do pool Enterprise  <br/> *Ramal de Web<span></span>contoso<span></span>.com*   |VIP HLB para serviços de Web externos do servidor Front-End  <br/>*68.123.56.90*   |Necessário para habilitar o cliente para o tráfego de web server, como baixar o Skype para negócios Web App. Necessário caso os clientes móveis resolvam o DNS internamente. Pode resolver para IP da Internet ou IP de proxy reverso DMZ.   ||
 |A/AAAA   | FQDN do servidor back End do SQL Server <br/> *SQL1. <span> </span>contoso<span></span>.com*   |endereço IP do servidor  <br/> *192.168.11.90*   |Mapeia o nome do servidor para um servidor SQL de back-end como trabalhar com o pool de Front-End como o respectivo endereço IP   ||
 |A/AAAA   |FQDN do servidor back End do servidor espelho SQL  <br/> *SQL2. <span> </span>contoso<span></span>.com*   |endereço IP do servidor  <br/> *192.168.11.91*   |Mapeia o nome do servidor para um servidor de espelho do SQL de back-end como trabalhar com o pool de Front-End como o respectivo endereço IP   ||
-|A/AAAA   |FQDN do pool de diretor  <br/>**Observação:** Não aplicável ao usar um servidor de diretor autônomo <br/> *DirPool. <span> </span>contoso<span></span>.com*   |Endereços IP do pool de diretor  <br/> DNS LB *192.168.21.132, 192.168.21.133* , 192.168.21.134   |Balanceamento de carga DNS de servidores do Pool de Diretores. Mapeamentos de nome de pool para o pool de diretor para um endereço IP, consulte [Implantando o balanceamento de carga do DNS em Pools de Front-Ends e Pools de diretor](load-balancing.md#BK_FE_Dir) <br/> Um Diretor pode autenticar um usuário e é opcional.   ||
+|A/AAAA   |FQDN do pool de diretor  <br/>**Observação:** Não aplicável ao usar um servidor de diretor autônomo <br/> *DirPool. <span> </span>contoso<span></span>.com*   |Endereços IP do pool de diretor  <br/> DNS LB *192.168.21.132, 192.168.21.133* , 192.168.21.134   |Balanceamento de servidores do Pool de diretor de carga do DNS. Mapeamentos de nome de pool para o pool de diretor para um endereço IP, consulte [Implantando o balanceamento de carga do DNS em Pools de Front-Ends e Pools de diretor](load-balancing.md#BK_FE_Dir) <br/> Um Diretor pode autenticar um usuário e é opcional.   ||
 |A/AAAA   |FQDN do Diretor   |Endereço IP do servidor de cada servidor do Diretor   |Mapeamentos de nome de pool para o Diretor como um endereço IP, consulte [Implantando o balanceamento de carga do DNS em Pools de Front-Ends e Pools de diretor](load-balancing.md#BK_FE_Dir)  ||
 |A/AAAA   |FQDN de pool de servidor de mediação   |Endereços IP do pool   |A função de Servidor de Mediação é opcional. Você pode colocalizar os serviços fornecidos por um servidor de mediação para o pool ou servidor front-end. Consulte [usando o DNS com carga balanceada em Pools de servidor de mediação](load-balancing.md#BK_Mediation)  ||
 |A/AAAA   |FQDN do servidor de mediação   |Endereço IP do servidor   |Você pode colocalizar os serviços fornecidos por um servidor de mediação para o pool ou servidor front-end. Consulte [usando o DNS com carga balanceada em Pools de servidor de mediação](load-balancing.md#BK_Mediation)  ||
@@ -79,7 +80,7 @@ O diagrama a seguir mostra um exemplo que inclui registros DNS internos e extern
 
 **Diagrama da rede de borda que usa endereços IPv4 públicos**
 
-![exemplo de diagrama de rede de DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
+![exemplo de diagrama de rede do DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
 
 **Mapeamentos de DNS da rede de perímetro (interfaces interna e externa)**
 
@@ -91,7 +92,7 @@ O diagrama a seguir mostra um exemplo que inclui registros DNS internos e extern
 |A/AAAA   |Serviço de borda de webconferência FQDN do Pool da Web  <br/>*Webcon1. <span> </span>contoso<span></span>.com*  |Endereços de IP de Web externa de serviço de borda de webconferência  <br/> 131.107.16.90, 131.107.16.91   |O serviço de borda de webconferência permite que os usuários externos ingressem em reuniões hospedadas em sua Skype interno para ambiente de servidor de negócios.   |Y   |
 |A/AAAA   |*antivírus.\<domínio sip\> * FQDN do pool <br/>*AV1. <span> </span>contoso<span></span>.com*  |Endereços IP externos de borda A/V  <br/> 131.107.16.170, 131.107.16.171   |A / serviço de borda V torna áudio, vídeo, compartilhamento de aplicativos e transferência de arquivos disponíveis para usuários externos.   |Y   |
 |CNAME   |SIP. * \<sipdomain\>* <br/> SIP. * <span> </span>contoso<span></span>.com*  |FQDN do pool de Borda de acesso externo  <br/>*Access1. <span> </span>contoso<span></span>.com*  |Localiza o pool do servidor de borda. Consulte [passo a passo do Skype para clientes corporativos localizando serviços](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)  |Y   |
-|SRV   |\_SIP. \_tls. * \<sipdomain\> * <br/>\_SIP. \_tls. <span> </span> *contoso<span></span>.com*  |FQDN de borda de acesso externo  <br/>_Access1. <span> </span>contoso<span></span>.com_  |Usado para o acesso de usuários externos Consulte [passo a passo do Skype para clientes corporativos localizando serviços](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)  |Y   |
+|SRV   |\_SIP. \_tls. * \<sipdomain\> * <br/>\_SIP. \_tls. <span> </span> *contoso<span></span>.com*  |FQDN de borda de acesso externo  <br/>_Access1. <span> </span>contoso<span></span>.com_  |Usada para acesso de usuário externo. Consulte [passo a passo do Skype para clientes corporativos localizando serviços](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)  |Y   |
 |SRV   |\_sipfederationtls. \_tcp. * \<sipdomain\> * <br/>\_sipfederationtls. \_tcp. <span> </span> *contoso<span></span>.com*  |FQDN de borda de acesso externo  <br/>*Access1. <span> </span>contoso<span></span>.com*  |Usado para federação e conectividade de IM pública   |& #x 2776;  |
 |SRV   |\_servidor de XMPP. \_tcp. *<sipdomain\> * <br/>\_servidor de XMPP. \_tcp. * <span> </span>contoso<span></span>.com*  |FQDN de borda de acesso externo  <br/>*Access1. <span> </span>contoso<span></span>.com*  |O serviço de Proxy XMPP aceita e envia mensagens de protocolo XMPP de presença e mensagem extensível e para parceiros federados XMPP configurados.   |Y, para implantar a federação; caso contrário, opcional  <br/> Não está disponível no Skype para Business Server 2019.|
 |SRV   |\_sipfederationtls. \_tcp. * \<sipdomain\> * <br/>\_sipfederationtls. \_tcp. * <span> </span>contoso<span></span>.com*  |FQDN de borda de acesso externo  <br/>*Access1. <span> </span>contoso<span></span>.com*  |Para suportar o serviço de notificação de Push e Apple Push Notification service, você deve criar um registro SRV para cada domínio SIP. & #x 2778;  ||

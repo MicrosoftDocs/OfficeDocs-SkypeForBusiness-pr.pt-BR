@@ -1,5 +1,6 @@
 ---
-title: Defina o tronco raiz para um novo IP ou Gateway PSTN
+title: Definir a árvore raiz para um novo IP ou gateway PSTN
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Defina o tronco raiz para o IP ou rede telefônica pública comutada (PSTN) Configurando o seguinte:'
-ms.openlocfilehash: db81656591376696de2f8fbf0732cc2007528863
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 830b0625e63ebab7ddf94490a5a56c3c6e52611e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242243"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896851"
 ---
-# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Defina o tronco raiz para um novo IP ou Gateway PSTN
+# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definir a árvore raiz para um novo IP ou gateway PSTN
 
 Defina o tronco raiz para o IP ou rede telefônica pública comutada (PSTN) Configurando o seguinte:
 
@@ -33,7 +34,7 @@ Defina o tronco raiz para o IP ou rede telefônica pública comutada (PSTN) Conf
 
 - **Porta do servidor de mediação associado**: defina a porta que o servidor de mediação selecionado está escutando
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Configurar um tronco com bypass de mídia no Skype para Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
