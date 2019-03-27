@@ -1,7 +1,7 @@
 ---
 title: Criar uma fila de chamada no Sistema Telefônico
-ms.author: tonysmit
-author: tonysmit
+ms.author: jambirk
+author: jambirk
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Saiba como configurar o sistema telefônico para filas de chamada do Office 365 (nuvem PBX) proporcionar uma organizacional saudação, música de espera e redirecionando chamadas para chamar agentes em listas de distribuição e grupos de segurança. Você também pode definir o tamanho máximo da fila, o tempo limite e opções de manipulação de chamada.
-ms.openlocfilehash: f22b840bfde011937305732e61748d8a1feae390
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+description: Saiba como configurar o sistema telefônico para filas de chamada de sistema telefônico proporcionar um organizacional saudação, música de espera e redirecionando chamadas para chamar agentes em listas de distribuição e grupos de segurança. Você também pode definir o tamanho máximo da fila, o tempo limite e opções de manipulação de chamada.
+ms.openlocfilehash: 924885ff62bb0e7e2ba0f25cc348dc62eb29ec32
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633270"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898162"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Criar uma fila de chamada no Sistema Telefônico
 
@@ -64,7 +64,7 @@ Para começar a usar as filas de chamada, é importante lembrar algumas coisas:
     > [!NOTE]
     > Para redirecionar chamadas para pessoas na sua organização que estiverem Online, eles devem ter uma licença de **Sistema telefônico** e ser habilitados para o Enterprise Voice ou tem chamando de planos do Office 365. Consulte [Atribuir Skype para licenças de negócios](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) ou [equipes da Microsoft atribuir licenças](assign-teams-licenses.md). Para habilitá-los para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- Para saber mais sobre a chamada de planos do Office 365, consulte [Cite chamar planos no Office 365?](what-are-calling-plans-in-office-365.md) e [Chamar planos do Office 365](calling-plans-for-office-365.md).
+- Para saber mais sobre a chamada de planos do Office 365, consulte [sistema telefônico e chamar planos](calling-plan-landing-page.md) e [Chamar planos do Office 365](calling-plans-for-office-365.md).
 
     > [!NOTE]
     > Usuários hospedados no local usando o Lync Server 2010 não são suportados como uma fila de chamada agentes.
@@ -108,6 +108,8 @@ Antes de você poder criar e configurar as filas de chamada, será necessário r
 Se você estiver configurando atendedores automáticos, você só pode precisar atribuir um número de telefone a conta do recurso do atendedor automático principal e faça com que ele chamadores diretos para sua fila de espera de chamada. Se for esse o caso, a fila chamada precisará ser criados antes que você pode criar uma opção no atendedor automático que seleciona a fila de chamada.
   
 ## <a name="step-3---create-a-new-call-queue"></a>Etapa 3: criar uma nova fila de chamada
+
+[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > Cada fila de chamada é necessário ter uma [conta do recurso](manage-resource-accounts.md)de associada. Você deve criar a conta do recurso primeiro, depois você pode associá-lo à fila de chamada.

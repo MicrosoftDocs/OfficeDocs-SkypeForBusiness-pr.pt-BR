@@ -1,5 +1,6 @@
 ---
 title: Tabela AudioStream
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Cada registro representa um fluxo de áudio. Uma linha de mídia de áudio normalmente contém dois fluxos de áudio.
-ms.openlocfilehash: 2e910eb3f6717beed4ba228237f16b96471aea29
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 7c1e7ae70a04aabc7db704aaaad873bc5b2100c9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570048"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894132"
 ---
 # <a name="audiostream-table"></a>Tabela AudioStream
  
@@ -43,7 +44,7 @@ Cada registro representa um fluxo de áudio. Uma linha de mídia de áudio norma
 |**DegradationPacketLossAvg** <br/> |decimal(3,2)  <br/> | <br/> |Degradação de MOS de rede causada por perda de pacotes.  <br/> |
 |**AudioPayloadDescription** <br/> |int  <br/> |Externa  <br/> |O Codec de áudio usado para a chamada, referenciada de PayloadDescription Table.  <br/> |
 |**AudioSampleRate** <br/> |int  <br/> | <br/> |Taxa de amostragem para o fluxo de áudio.  <br/> |
-|**Ida e volta** <br/> |int  <br/> | <br/> |Tempo de ida e volta de estatísticas RTCP. Para qualidade aceitável este deve ser menor que 100ms.  <br/> |
+|**RoundTrip** <br/> |int  <br/> | <br/> |Tempo de ida e volta de estatísticas RTCP. Para qualidade aceitável este deve ser menor que 100ms.  <br/> |
 |**RoundTripMax** <br/> |int  <br/> | <br/> |Tempo máximo de ida e volta para o fluxo de áudio.  <br/> |
 |**OverallAvgNetworkMOS** <br/> |decimal(3,2)  <br/> | <br/> |Média de banda larga MOS de rede para a chamada. Essa métrica depende de perda de pacotes, tremulação e codec usado. O intervalo é [1.0 para 5.0].  <br/> |
 |**OverallMinNetworkMOS** <br/> |decimal(3,2)  <br/> | <br/> |Banda larga mínima MOS de rede para a chamada.  <br/> |

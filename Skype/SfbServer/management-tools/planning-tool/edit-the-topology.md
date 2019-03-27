@@ -1,5 +1,6 @@
 ---
 title: Editar a topologia no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Após concluir as perguntas iniciais da entrevista, você poderá editar o nome de domínio totalmente qualificado (FQDN) e o endereço IP do site. Para isso, na página Topologia Global, clique duas vezes no site que deseja editar.
-ms.openlocfilehash: 65b23bf764f802da0f535dcc86cfb5170481161b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 75f2bd04f09b6638071faff1aa70dc8870d11fea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263813"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895143"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Editar a topologia no Skype for Business Server 2015
 
@@ -24,7 +25,7 @@ Após concluir as perguntas iniciais da entrevista, você poderá editar o nome 
 
 A ferramenta de planejamento exibe a topologia de site para o site selecionado. Na parte inferior da página do site, existem quatro guias:
 
-![Topologia do site da ferramenta de planejamento](../../media/Planning_Tool_Site_Topology.png)
+![Topologia de Site da ferramenta de planejamento](../../media/Planning_Tool_Site_Topology.png)
 
 - Topologia de site - a página exibida atualmente com uma visão geral da topologia, conforme recomendado.
 
@@ -32,7 +33,7 @@ A ferramenta de planejamento exibe a topologia de site para o site selecionado. 
 
 - Relatório de administração de borda - o relatório de administração de borda contém um total de quatro relatórios:
 
-     ![Página de Relatórios administrativos de borda](../../media/Planning_Tool_Summary_Report.png)
+     ![Página de relatórios administrativos de borda](../../media/Planning_Tool_Summary_Report.png)
 
   - Relatório de resumo - um relatório geral das configurações para a configuração de rede de borda. Se você editar os valores na página **Diagrama da rede de borda ** para a topologia TCP/IP e os valores do FQDN que irão ser usados na implantação atual, tais endereços e nomes serão representados aqui. De outro modo, o texto padrão aparecerá.
 
@@ -52,7 +53,7 @@ A ferramenta de planejamento exibe a topologia de site para o site selecionado. 
 
 A maioria do trabalho que um designer faz o Skype para ferramenta de planejamento do Business Server 2015 consiste em definir as entradas para os endereços IP e nomes de domínio totalmente qualificados (FQDNs) para as entradas no diagrama de rede. As informações inseridas nessa página estende aos relatórios e outras informações contidas na ferramenta de planejamento.
 
-![Diagrama da Rede de ferramentas de planejamento](../../media/Planning_Tool_Network_Diagram.png)
+![Diagrama de rede da ferramenta de planejamento](../../media/Planning_Tool_Network_Diagram.png)
 
 A ferramenta de planejamento cria um diagrama de rede com o texto padrão para endereços IP e FQDNs.
 
@@ -78,7 +79,7 @@ Após ter concluído todas as edições, salve a topologia completando as seguin
 
 Para salvar o design da ferramenta de planejamento, clique em **arquivo**e, em seguida, clique em **Salvar topologia** ou **Salvar topologia como**. Se uma caixa de diálogo **Salvar Ferramenta de Planejamento como** for exibida, digite um nome para o arquivo em **Nome do arquivo** e clique em **Salvar**.
 
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Consulte Também
 <a name="Edit_Network_diagram"> </a>
 
-[Editando o Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Editing the Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)

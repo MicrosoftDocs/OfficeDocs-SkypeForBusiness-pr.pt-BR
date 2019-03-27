@@ -1,5 +1,6 @@
 ---
 title: Planejar o servidor de interoperabilidade de vídeo no Skype for Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 'Resumo: Revise esse tópico durante o planejamento para integrar o Skype para Business Server com os dispositivos de terceiros teleconferência.'
-ms.openlocfilehash: c4308b27371c9e0da312eee0fa5c52602674c45c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 015f93496879e84c1959db7d6b46b765e0d286e1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975631"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894249"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>Planejar o servidor de interoperabilidade de vídeo no Skype for Business Server
  
 **Resumo:** Analise este tópico durante o planejamento para integrar o Skype para Business Server com os dispositivos de terceiros teleconferência.
   
-Skype para Business Server agora permite que você integre determinadas soluções VTC (Video Teleconferencing System) de terceiros. A nova função de servidor que permite a este interoperabilidade de conferência de vídeo é o vídeo interoperacional Server (VIS), que no momento é implementado como uma função de servidor autônomo disponível somente para instalações locais. Um VIS atua como um intermediário entre um sistema de teleconferência de terceiros e um Skype para implantação de servidor de negócios. Para essa versão, o VIS se concentra na interoperabilidade com os sistemas de vídeo da Cisco e da Tandberg. Revise este artigo para determinar quando usar esse recurso no seu Skype para instalação do servidor de negócios.
+Skype para Business Server agora permite que você integre determinadas soluções VTC (Video Teleconferencing System) de terceiros. A nova função de servidor que permite a este interoperabilidade de conferência de vídeo é o vídeo interoperacional Server (VIS), que no momento é implementado como uma função de servidor autônomo disponível somente para instalações locais. Um VIS atua como um intermediário entre um sistema de teleconferência de terceiros e um Skype para implantação de servidor de negócios. Nesta versão, o enfoque do VIS está na interoperabilidade com sistemas de vídeo da Cisco e da Tandberg. Revise este artigo para determinar quando usar esse recurso no seu Skype para instalação do servidor de negócios.
   
 ## <a name="device-interoperability"></a>Interoperabilidade de dispositivos
 
@@ -100,7 +101,7 @@ O VIS é compatível com chamada recebida de um CUCM que seja transmitido sobre 
   
 1. **VIS Failover de Pool** Se o pool VIS principal que o gateway de vídeo aponta para está desativado, a recuperação é possível se o gateway de vídeo tiver definido troncos para pools de VIS duas (ou mais). Se o gateway de vídeo determinar que não pode fazer chamadas para o pool de VIS primário, ele simplesmente encaminhará as chamadas para o pool de VIS secundário.
     
-     ![Diagrama de failover de pool do VIS](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
+     ![Diagrama de failover de pool VIS](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
   
     Um determinado pool VIS pode ter troncos para vários gateways, mas normalmente um gateway específico não pode ter troncos à vários pools VIS, então um truques precisam ser feito para oferecer suporte a esse failover: definir FDQNs de 2 no DNS que ser resolvido para o mesmo endereço IP de um gateway de vídeo. Representar cada FQDN como um gateway separado de vídeo no documento de topologia, onde cada gateway vídeo tem um tronco para um pool VIS diferente e recuperação agora é possível. (Se o TLS for usado, os vários nomes precisará estar no SAN do certificado do gateway de vídeo.)
     
@@ -109,7 +110,7 @@ O VIS é compatível com chamada recebida de um CUCM que seja transmitido sobre 
   
 2. **Failover de Front-End** Se um pool VIS recebe uma chamada de CUCM, mas não consegue acessar seu pool de registrador ou Front-End de próximo salto primário, as chamadas são direcionadas para um pool de Front-End de backup.
     
-     ![Diagrama de failover do front-end](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
+     ![Diagrama de failover do Front end](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
   
     O VIS vai ficar atento ao status do seu pool de Front-End principal e seu pool de Front-End de backup (a configuração é encontrada na configuração de backup para o serviço de registrador no documento de topologia). Ele envia votações opções vez a cada minuto para ambos os pools e se houver falhas consecutivas cinco a VIS supõe que um determinado pool de Front-End está desativado. Se o pool de Front-End primário está marcado como para baixo e há é uma disponível configurado backup o VIS envia novas chamadas do gateway ao pool de Front-End de backup. Depois que o pool de Front-End principal volta, voltarão a VIS usando o pool de Front-End primário para novas chamadas.
     
@@ -183,7 +184,7 @@ O suporte a VTCs que entram para reuniões online via VIS local não faz parte d
 
 O suporte a VTCs que entram para reuniões federadas via VIS não faz parte do Skype for Business.
   
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Consulte Também
 <a name="resiliency"> </a>
 
 [Implante o servidor de interoperabilidade de vídeo em Skype para Business Server](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)

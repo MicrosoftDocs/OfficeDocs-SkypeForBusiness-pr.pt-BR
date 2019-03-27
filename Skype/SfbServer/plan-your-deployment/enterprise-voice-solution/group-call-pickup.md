@@ -1,5 +1,6 @@
 ---
 title: Planejar a retirada de chamada do grupo no Skype for Business
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Planejamento de atendimento de chamada do grupo no Skype para Business Server Enterprise Voice, que permite aos usuários atender chamadas originalmente pretendidas para outras pessoas.
-ms.openlocfilehash: 561dc483194b497e06007dfcecfcd43fb62c678a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ce00ebcacfe8703bcec6418ea620b3d4fe525a68
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882087"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892868"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Planejar a retirada de chamada do grupo no Skype for Business
  
@@ -115,7 +116,7 @@ A tabela a seguir descreve o modelo de usuário de atendimento de chamada do gru
   
 **Modelo de usuário retirada de chamada de grupo**
 
-|**Métrica**|**Por pool de Front-End <br/> (com 8 servidores Front-End)**|**Por servidor Standard Edition**|
+|**Indicador**|**Por pool de Front-End <br/> (com 8 servidores Front-End)**|**Por servidor Standard Edition**|
 |:-----|:-----|:-----|
 |Número recomendado de usuários por grupo  <br/> |50  <br/> |50  <br/> |
 |Número recomendado de grupos  <br/> |500  <br/> |60  <br/> |

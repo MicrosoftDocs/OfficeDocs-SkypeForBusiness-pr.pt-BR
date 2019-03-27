@@ -1,5 +1,6 @@
 ---
 title: Implantar pool piloto
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Uma das primeiras etapas necessárias para a migração para Skype para Business Server 2019 é implantar um pool piloto. O pool piloto é onde você testar a coexistência do Skype para Business Server 2019 com sua implantação herdada. Coexistência é um estado temporário que dura até você moveu todos os usuários e os pools para Skype para Business Server 2019.
-ms.openlocfilehash: 9a713a567d33121449ca83516bed35b574e0da01
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e0ac949b0cc7a52e1da5edd9f150e5f59717c08f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027848"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890652"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>Implantar o Skype para o pool piloto Business Server 2019
 

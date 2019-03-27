@@ -1,5 +1,6 @@
 ---
 title: Habilitando o controle de admissão de chamada
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: " Depois de configurar a rede de (CAC) do controle de admissão de chamada, você deve habilitar o CAC para impor as limitações de largura de banda."
-ms.openlocfilehash: 9c264305a38bf4bf9ef3716c5df82d74155e8936
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: a683fe0f437fc1c3fa92784313135d094e43c8b1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222832"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897640"
 ---
-# <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Habilitando o controle de admissão de chamada no Skype para Business Server
+# <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Habilitar o controle de admissão de chamada no Skype for Business Server
 
 O serviço de controle de admissão de chamadas (CAC) é uma rede de regiões, sites e sub-redes que permite impor restrições às transmissões de áudio e vídeo com base na largura de banda disponível. Depois de configurar a rede CAC, você deve habilitar o CAC para impor as limitações de largura de banda. Você pode usar o Skype para painel de controle do Business Server para fazer isso.
 

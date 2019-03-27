@@ -1,5 +1,6 @@
 ---
 title: Implantar o Enterprise Voice no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 'Resumo: Saiba como implantar o Enterprise Voice para Skype para Business Server em um site central.'
-ms.openlocfilehash: 57b74d7e77eb8aca89400930fc38a5e92abdde5a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 463eb0a7fce174a33116bcb63f129aa59c8eba9c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886514"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895608"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Implantar o Enterprise Voice no Skype para Business Server
 
@@ -57,7 +58,7 @@ Esta seção inclui procedimentos para implantações em que um servidor de medi
 
 - [Implantar os recursos de gerenciamento de chamada do Skype para negócios](deploy-call-management-features.md)
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Planejar o Enterprise Voice no Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 

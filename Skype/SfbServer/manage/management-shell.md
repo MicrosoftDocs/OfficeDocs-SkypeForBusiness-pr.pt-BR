@@ -1,5 +1,6 @@
 ---
 title: Shell de Gerenciamento do Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: O Skype do Shell de gerenciamento do Business Server fornece a interface de linha de comando para gerenciamento e administração de servidor. Ele é baseado no Windows PowerShell e inclui um conjunto abrangente de gerenciamento e administração cmdlets específicos ao Skype e produtos de servidor herdados do Lync.
-ms.openlocfilehash: 34bf761cfa6d9cfe648360319084b3a304d9f6e6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 243ff7a684bb14f73ef9f4836ce00e8048fbb236
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997353"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884196"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Shell de Gerenciamento do Skype for Business Server
  
@@ -32,7 +33,7 @@ Skype para Business Server é fornecido com mais de 700 cmdlets que permitem que
 Get-Help New-CsVoicePolicy -Full
 ```
 
-O comando anterior recupera a Ajuda completa disponível para o cmdlet **New-CsVoicePolicy** . Para exibir a Ajuda para um cmdlet diferente, substitua **New-CsVoicePolicy** com o nome do cmdlet para o qual você deseja recuperar a Ajuda.
+O comando anterior recupera a ajuda completa disponível para o cmdlet **New-CsVoicePolicy**. Para exibir a ajuda para um cmdlet diferente, substitua **New-CsVoicePolicy** pelo nome do cmdlet para o qual você deseja recuperar a ajuda.
   
 Para recuperar uma lista completa dos cmdlets disponíveis para gerenciamento do Skype for Business Server, digite o seguinte no prompt de comando do shell: 
   
@@ -47,13 +48,13 @@ Informações importantes sobre o Windows PowerShell no Skype para Business Serv
 - Para executar o Skype para cmdlets Business Server, abra o Skype do Shell de gerenciamento do servidor de negócios.
     
     > [!CAUTION]
-    > Se você abrir uma janela do Windows PowerShell, em vez do Skype do Shell de gerenciamento do servidor de negócios, por padrão você pode não conseguir executar os cmdlets do Skype. Para executar o Skype para cmdlets do servidor de negócios de dentro do Windows PowerShell, primeiro digite o seguinte no prompt de comando do Windows PowerShell: >`Import-Module SkypeforBusiness`
+    > Se você abrir uma janela do Windows PowerShell, em vez do Skype do Shell de gerenciamento do servidor de negócios, por padrão você pode não conseguir executar os cmdlets do Skype. Para executar o Skype para cmdlets do servidor de negócios de dentro do Windows PowerShell, primeiro digite o seguinte no prompt de comando do Windows PowerShell: gt _`Import-Module SkypeforBusiness`
   
 - Skype do Shell de gerenciamento do servidor de negócios é instalado automaticamente em cada Skype para Business Server Enterprise Edition servidor Front-End ou servidor Standard Edition.
     
 - Você pode atualizar o Skype para conteúdo de Ajuda do Shell de gerenciamento do Business Server executando o cmdlet [Update-Help](https://technet.microsoft.com/en-us/library/hh849720.aspx) . O cmdlet Update-Help baixa e instala os mais novos arquivos de ajuda disponíveis para todos os módulos instalados no computador, inclusive devido às Skype atualizações para cmdlets de negócios.
     
-    Por padrão, o cmdlet **Update-Help** atualizará todos os módulos instalados no seu Skype para Business Server. Se você deseja atualizar apenas determinados módulos, você pode usar o parâmetro do _módulo_ para limitar o escopo do cmdlet. O exemplo a seguir atualiza apenas o Skype para módulo comercial.
+    Por padrão, o cmdlet **Update-Help** atualizará todos os módulos instalados no seu Skype para Business Server. Se quiser atualizar apenas alguns módulos, você pode usar o parâmetro _Module_ para limitar o escopo do cmdlet. O exemplo a seguir atualiza apenas o Skype para módulo comercial.
     
   ```
   Update-Help -Module SkypeforBusiness

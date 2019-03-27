@@ -1,5 +1,6 @@
 ---
 title: Classes de esquema e descrições Skype para Business Server
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: Esta seção descreve todas as classes de esquema usadas pelo Skype para Business Server.
-ms.openlocfilehash: 20d85e879bb9bfb040150423d47836b6e6803c37
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0bb34a93ec23df67d19026e82e29769e0aeb9ab2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926557"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Classes de esquema e descrições Skype para Business Server
  

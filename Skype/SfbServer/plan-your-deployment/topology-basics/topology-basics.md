@@ -1,5 +1,6 @@
 ---
 title: Noções básicas de topologia para Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Resumo: Escolha sua topologia para Skype para Business Server. Saiba mais sobre a colocação do servidor para Skype para Business Server.'
-ms.openlocfilehash: 5d2589d6ba7878ea69c8860ad99f182912e471dd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 566d044defd69dd9ae79bc964c9a587332649b42
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886162"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881615"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Noções básicas de topologia para Skype para Business Server
 
@@ -133,7 +134,7 @@ Servidor Front-End inclui o seguinte:
 
 - Componentes da Web para tarefas com suporte baseadas na Web, como agendador da Web e iniciador de ingresso.
 
-- Opcionalmente, Arquivamento, para arquivar o conteúdo de reuniões e comunicações de IM por motivos de conformidade. Para obter detalhes, consulte [Planning for Archiving](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx) na documentação de planejamento.
+- Opcionalmente, Arquivamento, para arquivar o conteúdo de reuniões e comunicações de IM por motivos de conformidade. Para obter detalhes, consulte [Planning for Archiving](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx) na documentação de Planejamento.
 
     No Lync Server 2010 e versões anteriores, monitoramento e arquivamento eram funções de servidor separadas, não alocadas no servidor Front-End.
 
@@ -172,7 +173,7 @@ Para obter detalhes, consulte o [componente de servidor de mediação em Skype p
 
 ### <a name="video-interop-server"></a>Servidor de Interoperabilidade de Vídeo
 
-Servidor de interoperabilidade de vídeo é uma nova função a partir do Skype para Business Server 2015. Ele permite que você integre sua Skype para implantação de servidor de negócios determinadas soluções VTC (Video Teleconferencing System) de terceiros. Um VIS atua como um intermediário entre um sistema de teleconferência de terceiros 3º e um Skype para implantação de servidor de negócios. Para essa versão, o VIS se concentra na interoperabilidade com os sistemas de vídeo da Cisco e da Tandberg.
+Servidor de interoperabilidade de vídeo é uma nova função a partir do Skype para Business Server 2015. Ele permite que você integre sua Skype para implantação de servidor de negócios determinadas soluções VTC (Video Teleconferencing System) de terceiros. Um VIS atua como um intermediário entre um sistema de teleconferência de terceiros 3º e um Skype para implantação de servidor de negócios. Nesta versão, o enfoque do VIS está na interoperabilidade com sistemas de vídeo da Cisco e da Tandberg.
 
 Para obter detalhes, consulte [Planejar para o servidor de interoperabilidade de vídeo no Skype para Business Server](../../plan-your-deployment/video-interop-server.md).
 
@@ -191,7 +192,7 @@ Servidores que executam o Skype para Business Server Standard Edition também po
 
 Para obter detalhes, consulte [Plan for Persistent Chat Server in Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
 
-## <a name="high-availability-and-disaster-recovery-support"></a>Suporte à alta disponibilidade e recuperação de desastre
+## <a name="high-availability-and-disaster-recovery-support"></a>Suporte para alta disponibilidade e recuperação de desastre
 
 Skype para Business Server oferece alta disponibilidade por redundância de servidor por meio do pool. Se um servidor que executa determinada função falhar, os demais servidores do pool que executam a mesma função assumirão a carga desse servidor. Isso se aplica a Servidores Front-End, Servidores de Borda, Servidores de Mediação e Diretores.
 
@@ -296,6 +297,6 @@ O compartilhamento de arquivo pode estar em um servidor separado ou você pode c
 
 - Você não é possível colocar nenhum componente de UM do Exchange ou o componente de servidor do SharePoint com qualquer Skype para a função de servidor de negócios.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Topologias de referência do Skype para Business Server](reference-topologies.md)
