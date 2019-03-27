@@ -1,5 +1,6 @@
 ---
 title: Casos de teste de roteamento de voz de teste
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,24 +13,24 @@ localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 6d043d7dbf4c74b1b2fae7dd421fcf48759bd90b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2cdd4fac098f0a3906a380ba947229cef50d7ea2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247774"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881880"
 ---
-# <a name="test-voice-routing-test-cases"></a><span data-ttu-id="4719b-104">Testar roteamento de voz: casos de teste</span><span class="sxs-lookup"><span data-stu-id="4719b-104">Test Voice Routing: Test Cases</span></span>
+# <a name="test-voice-routing-test-cases"></a><span data-ttu-id="b9b1a-104">Testar Roteamento de Voz: Casos de Teste</span><span class="sxs-lookup"><span data-stu-id="b9b1a-104">Test Voice Routing: Test Cases</span></span>
 
-<span data-ttu-id="4719b-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="4719b-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b9b1a-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="b9b1a-105">What do you want to do?</span></span> <span data-ttu-id="b9b1a-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="b9b1a-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="4719b-107">Criar um caso de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="4719b-107">Create a Voice Routing Test Case</span></span>](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
+- [<span data-ttu-id="b9b1a-107">Criar um caso de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="b9b1a-107">Create a Voice Routing Test Case</span></span>](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
 
-- [<span data-ttu-id="4719b-108">Exportar casos de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="4719b-108">Export Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/489ac472-1a35-4755-b390-48f7cdf31e94.aspx)
+- [<span data-ttu-id="b9b1a-108">Exportar casos de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="b9b1a-108">Export Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/489ac472-1a35-4755-b390-48f7cdf31e94.aspx)
 
-- [<span data-ttu-id="4719b-109">Importar casos de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="4719b-109">Import Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/6546e24c-9ad2-428b-92b2-63948ed0f884.aspx)
+- [<span data-ttu-id="b9b1a-109">Importar casos de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="b9b1a-109">Import Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/6546e24c-9ad2-428b-92b2-63948ed0f884.aspx)
 
-- [<span data-ttu-id="4719b-110">Executar casos de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="4719b-110">Run Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
+- [<span data-ttu-id="b9b1a-110">Executar casos de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="b9b1a-110">Run Voice Routing Test Cases</span></span>](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
 
 
 

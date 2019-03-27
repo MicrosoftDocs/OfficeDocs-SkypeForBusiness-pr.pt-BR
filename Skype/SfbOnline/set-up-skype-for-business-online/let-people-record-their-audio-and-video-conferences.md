@@ -1,5 +1,6 @@
 ---
 title: Permitir que as pessoas gravem suas conferências de áudio e vídeo
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,37 +19,37 @@ f1keywords:
 ms.custom:
 - Setup
 description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
-ms.openlocfilehash: ddd560970b84333f14fcc039c4c1501874048c50
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0e642dc8075c4a7cdcc6d3846cf0c69bca3e2e01
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849897"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881180"
 ---
-# <a name="let-people-record-their-audio-and-video-conferences"></a><span data-ttu-id="c2258-103">Permitir que as pessoas gravem suas conferências de áudio e vídeo</span><span class="sxs-lookup"><span data-stu-id="c2258-103">Let people record their audio and video conferences</span></span>
+# <a name="let-people-record-their-audio-and-video-conferences"></a><span data-ttu-id="4c8f9-103">Permitir que as pessoas gravem suas conferências de áudio e vídeo</span><span class="sxs-lookup"><span data-stu-id="4c8f9-103">Let people record their audio and video conferences</span></span>
 
-## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a><span data-ttu-id="c2258-104">Escolher o padrão de gravação de configuração para um único usuário ou para todos em sua organização</span><span class="sxs-lookup"><span data-stu-id="c2258-104">Choose the default recording setting for a single user or everyone in your organization</span></span>
+## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a><span data-ttu-id="4c8f9-104">Escolher o padrão de gravação de configuração para um único usuário ou para todos em sua organização</span><span class="sxs-lookup"><span data-stu-id="4c8f9-104">Choose the default recording setting for a single user or everyone in your organization</span></span>
 
-<span data-ttu-id="c2258-105">![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**</span><span class="sxs-lookup"><span data-stu-id="c2258-105">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="4c8f9-105">![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**</span><span class="sxs-lookup"><span data-stu-id="4c8f9-105">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
 
-1. <span data-ttu-id="c2258-106">Vá para o **Centro de administração do Office 365** > **Skype para os negócios**e, em seguida, clique em **usuários**.</span><span class="sxs-lookup"><span data-stu-id="c2258-106">Go to the **Office 365 admin center** > **Skype for Business**, and then click **Users**.</span></span>
+1. <span data-ttu-id="4c8f9-106">Vá para o **Centro de administração do Office 365** > **Skype para os negócios**e, em seguida, clique em **usuários**.</span><span class="sxs-lookup"><span data-stu-id="4c8f9-106">Go to the **Office 365 admin center** > **Skype for Business**, and then click **Users**.</span></span>
     
-2. <span data-ttu-id="c2258-107">Na página **usuários** , selecione o usuário ou usuários na lista e clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="c2258-107">On the **Users** page, select the user or users from the list, and then click **Edit**.</span></span>
+2. <span data-ttu-id="4c8f9-107">Na página **usuários** , selecione o usuário ou usuários na lista e clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="4c8f9-107">On the **Users** page, select the user or users from the list, and then click **Edit**.</span></span>
     
-3. <span data-ttu-id="c2258-108">Na **página Opções**, clique em **reuniões e conversas de registro**e clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="c2258-108">On the **Options page**, click **Record conversations and meetings**, and then click **Save**.</span></span>
+3. <span data-ttu-id="4c8f9-108">Na **página Opções**, clique em **reuniões e conversas de registro**e clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="4c8f9-108">On the **Options page**, click **Record conversations and meetings**, and then click **Save**.</span></span>
     
-<span data-ttu-id="c2258-p101">Quando a gravação está ativada, os organizadores ou apresentadores podem gravar uma reunião ou chamada em conferência do Skype for Business Online. A ativação ou desativação da gravação afeta todas as pessoas da organização.</span><span class="sxs-lookup"><span data-stu-id="c2258-p101">When recording is turned on, organizers or presenters can record a Skype for Business Online meeting or conference call. Turning recording on or off affects everyone in your organization.</span></span>
+<span data-ttu-id="4c8f9-p101">Quando a gravação está ativada, os organizadores ou apresentadores podem gravar uma reunião ou chamada em conferência do Skype for Business Online. A ativação ou desativação da gravação afeta todas as pessoas da organização.</span><span class="sxs-lookup"><span data-stu-id="4c8f9-p101">When recording is turned on, organizers or presenters can record a Skype for Business Online meeting or conference call. Turning recording on or off affects everyone in your organization.</span></span>
   
-|<span data-ttu-id="c2258-111">**Incluído nas gravações**</span><span class="sxs-lookup"><span data-stu-id="c2258-111">**Included in recordings**</span></span>|<span data-ttu-id="c2258-112">**Não incluído nas gravações**</span><span class="sxs-lookup"><span data-stu-id="c2258-112">**Not included in recordings**</span></span>|
+|<span data-ttu-id="4c8f9-111">**Incluído nas gravações**</span><span class="sxs-lookup"><span data-stu-id="4c8f9-111">**Included in recordings**</span></span>|<span data-ttu-id="4c8f9-112">**Não incluído nas gravações**</span><span class="sxs-lookup"><span data-stu-id="4c8f9-112">**Not included in recordings**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="c2258-113">Áudio e vídeo em HD</span><span class="sxs-lookup"><span data-stu-id="c2258-113">Audio and HD video</span></span>  <br/> <span data-ttu-id="c2258-114">Apresentações do PowerPoint e do quadro de comunicações</span><span class="sxs-lookup"><span data-stu-id="c2258-114">PowerPoint and whiteboard presentations</span></span>  <br/> <span data-ttu-id="c2258-115">Sessões de compartilhamento de área de trabalho ou de programas</span><span class="sxs-lookup"><span data-stu-id="c2258-115">Desktop or program sharing sessions</span></span>  <br/> |<span data-ttu-id="c2258-116">Páginas do OneNote compartilhadas</span><span class="sxs-lookup"><span data-stu-id="c2258-116">Shared OneNote pages</span></span>  <br/> <span data-ttu-id="c2258-117">Anotações do PowerPoint</span><span class="sxs-lookup"><span data-stu-id="c2258-117">PowerPoint annotations</span></span>  <br/> <span data-ttu-id="c2258-118">Arquivos compartilhados (anexos)</span><span class="sxs-lookup"><span data-stu-id="c2258-118">Shared files (attachments)</span></span>  <br/> |
+|<span data-ttu-id="4c8f9-113">Áudio e vídeo em HD</span><span class="sxs-lookup"><span data-stu-id="4c8f9-113">Audio and HD video</span></span>  <br/> <span data-ttu-id="4c8f9-114">Apresentações do PowerPoint e do quadro de comunicações</span><span class="sxs-lookup"><span data-stu-id="4c8f9-114">PowerPoint and whiteboard presentations</span></span>  <br/> <span data-ttu-id="4c8f9-115">Sessões de compartilhamento de área de trabalho ou de programas</span><span class="sxs-lookup"><span data-stu-id="4c8f9-115">Desktop or program sharing sessions</span></span>  <br/> |<span data-ttu-id="4c8f9-116">Páginas do OneNote compartilhadas</span><span class="sxs-lookup"><span data-stu-id="4c8f9-116">Shared OneNote pages</span></span>  <br/> <span data-ttu-id="4c8f9-117">Anotações do PowerPoint</span><span class="sxs-lookup"><span data-stu-id="4c8f9-117">PowerPoint annotations</span></span>  <br/> <span data-ttu-id="4c8f9-118">Arquivos compartilhados (anexos)</span><span class="sxs-lookup"><span data-stu-id="4c8f9-118">Shared files (attachments)</span></span>  <br/> |
    
-<span data-ttu-id="c2258-119">Para obter detalhes, consulte [gravação do Lync, salvar e publicar](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) e [Gerenciador de gravação do Lync](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b).</span><span class="sxs-lookup"><span data-stu-id="c2258-119">For details, see [Lync recording save and publish](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) and [Lync recording manager](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b).</span></span> 
+<span data-ttu-id="4c8f9-119">Para obter detalhes, consulte [gravação do Lync, salvar e publicar](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) e [Gerenciador de gravação do Lync](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b).</span><span class="sxs-lookup"><span data-stu-id="4c8f9-119">For details, see [Lync recording save and publish](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) and [Lync recording manager](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b).</span></span> 
   
-## <a name="related-topics"></a><span data-ttu-id="c2258-120">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="c2258-120">Related topics</span></span>
-[<span data-ttu-id="c2258-121">Configurar o Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="c2258-121">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a><span data-ttu-id="4c8f9-120">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="4c8f9-120">Related topics</span></span>
+[<span data-ttu-id="4c8f9-121">Configurar o Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="4c8f9-121">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
-[<span data-ttu-id="c2258-122">Permitir que os usuários do Skype for Business adicionem contatos do Skype</span><span class="sxs-lookup"><span data-stu-id="c2258-122">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="4c8f9-122">Permitir que os usuários do Skype for Business adicionem contatos do Skype</span><span class="sxs-lookup"><span data-stu-id="4c8f9-122">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
 
   
  
