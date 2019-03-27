@@ -1,5 +1,6 @@
 ---
 title: Configurar um tronco sem bypass de mídia no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Resumo: Configure um tronco sem bypass de mídia habilitado para Skype para Business Server.'
-ms.openlocfilehash: 0efd8452a6e4f227ad05cc667a48d3881f7238c9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 25bb4a71983fa6f31ac85a1b2a8f4624219b36c9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373199"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886837"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurar um tronco sem bypass de mídia no Skype para Business Server
 
@@ -40,12 +41,12 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
 
    - Clique em **Novo** e depois, selecione um escopo para a nova configuração de tronco:
 
-   - **Tronco de site**: escolha o site para essa configuração de tronco em **Selecionar um Site**e clique em **Okey**. Observe que se uma configuração de tronco já tiver sido criada para um site, o site não aparecerá em **Selecionar um Site**. Essa configuração de tronco será aplicada a todos os troncos do site.
+   - **Tronco de site**: escolha o site para essa configuração de tronco em **Selecionar um Site**e clique em **Okey**. Observe que se uma configuração de tronco já tiver sido criada para um site, o site não aparecerá em **Selecionar um Site**. Essa configuração de tronco será aplicada a todos os troncos no site.
 
    - **Tronco do pool**: escolha um nome para o tronco ao qual essa configuração de tronco se aplica em **Selecionar um Serviço** e clique em **OK**. Esse tronco pode ser o tronco raiz, ou qualquer definidos no construtor de topologia de troncos adicionais. Observe que se uma configuração de tronco já tiver sido criada para um tronco específico, o tronco não aparecerá em **Selecionar um Serviço**.
 
      > [!NOTE]
-     > Depois de selecionar o escopo da configuração de tronco, ele não poderá ser alterado. > O campo **nome** é preenchido previamente com o nome da site do configuração do tronco ou serviço associado e não pode ser alterado.
+     > Depois de selecionar o escopo da configuração de tronco, ele não poderá ser alterado. gt _ o campo **nome** é preenchido previamente com o nome da site do configuração do tronco ou serviço associado e não pode ser alterado.
 
 4. Selecione uma das seguintes opções de **Nível de suporte de criptografia**:
 
@@ -162,7 +163,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
     > [!NOTE]
     > Sempre que criar ou modificar uma configuração de tronco, você deve executar o comando **Confirmar tudo** para publicar a alteração na configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Configurar um tronco com bypass de mídia no Skype para Business Server](configure-trunk-with-media-bypass.md)
 

@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Repositórios de Arquivos
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'O nó de Repositórios de Arquivos lista os Repositórios de Arquivos em sua topologia. Você pode executar a seguinte ação:'
-ms.openlocfilehash: 2510061abeeedbdd63d16c37edb80dfdb25ce0ed
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: 'O nó de Repositórios de Arquivos lista os Repositórios de Arquivos em sua topologia. Você pode executar as seguintes ações:'
+ms.openlocfilehash: 616a4e5aa61550842d68319da1e54b9048fb3a58
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057269"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887250"
 ---
 # <a name="file-stores-scope-node"></a>Nó de Escopo de Repositórios de Arquivos
  

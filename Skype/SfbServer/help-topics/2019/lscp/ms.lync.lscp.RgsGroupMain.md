@@ -1,5 +1,6 @@
 ---
 title: Grupo de grupos de resposta
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Um grupo de operadores é um grupo de pessoas que são projetados para atender chamadas de grupo de resposta.
-ms.openlocfilehash: c14f801055ace0190114b9d108e55af5d5256554
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 52032cd3c5141ce407809301db7cfc3a93557de5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246397"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886082"
 ---
-# <a name="response-groups-group"></a>Grupos de resposta: grupo
+# <a name="response-groups-group"></a>Grupos de Resposta: Grupo
 
 Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Um grupo de operadores é um grupo de pessoas que são projetados para atender chamadas de grupo de resposta.
 
@@ -53,6 +54,6 @@ A lista a seguir descreve os campos na página.
 
 - **Descrição** A descrição do grupo de agentes.
 
-Para obter detalhes sobre os recursos de grupo de resposta, consulte o [plano para o aplicativo de grupo de resposta no Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com grupos de operadores, consulte [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) na documentação operações.
+Para obter detalhes sobre os recursos de grupo de resposta, consulte o [plano para o aplicativo de grupo de resposta no Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com grupos de agente, consulte [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) na documentação Operações.
 
 

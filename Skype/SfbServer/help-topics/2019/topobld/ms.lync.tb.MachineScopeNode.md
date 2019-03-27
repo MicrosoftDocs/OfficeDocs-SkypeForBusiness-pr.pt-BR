@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Máquina
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nó mostra a configuração do nome de domínio totalmente qualificado do servidor (FQDN) e a configuração do endereço IP para este servidor. É possível executar as seguintes ações:'
-ms.openlocfilehash: e45cafd4d859d8f327759db71d4e69b218beefc9
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: bb17be142976a98374639af84f498955aef77379
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21063685"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888406"
 ---
 # <a name="machine-scope-node"></a>Nó de Escopo de Máquina
  

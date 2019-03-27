@@ -1,5 +1,6 @@
 ---
 title: Configurando intervalos de porta e uma qualidade de serviço para seus servidores de borda
+ms.reviewer: ''
 ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
 ms:contentKeyID: 48184469
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artigo descreve como configurar intervalos de portas para servidores de borda e como configurar uma política de qualidade de serviço para o seu A / V servidores de borda.
-ms.openlocfilehash: b0f0b9c974b547004204a624840877aed71a02ff
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 11fdb542c6256c21e169480194bc5154bf1c1428
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223126"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886371"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Configurando intervalos de porta e uma política de qualidade de serviço para os servidores de borda em Skype para Business Server
 

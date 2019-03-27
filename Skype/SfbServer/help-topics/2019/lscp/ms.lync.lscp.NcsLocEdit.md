@@ -1,5 +1,6 @@
 ---
 title: Política de local criar nova ou editar existente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: É possível configurar as políticas de local para determinar se o 9-1-1 Avançado (E9-1-1) está habilitado e como ele é usado, além de como as informações de local são usadas para usuários e contatos.
-ms.openlocfilehash: 794a549d4ad4fc1ecd8845820abbd95ea34107c3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d148b7b546b5c0e239c1fbccfdbcf27e0a3840fa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263258"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886209"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Política de Local: Criar Nova ou Editar Existente
 
@@ -50,7 +51,7 @@ A lista a seguir descreve os campos na página.
 
 - **Número de discagem de E9-1-1** Especifique o número discado para acessar os serviços de emergências.
 
-- **Máscara de discagem de E9-1-1** Especifique um número discado pelo usuário, que então é traduzido para o número de discagem de emergência. Por exemplo, insira um valor de 212 nesse campo de modo que um usuário possa discar 212 a fim de entrar em contato com os serviços de emergência. Isso permite a números de emergências alternativos para ser discado e ainda têm a chamada acessar os serviços de emergências (por exemplo, se alguém de um país ou região com um número de emergência diferente tentar discar que o país ou região de número, e não o número para o país ou região que estiverem em). Você pode definir várias máscaras de discagem de emergência, separando os valores com ponto e vírgula. Por exemplo, 212;414. O tamanho máximo da cadeia de caracteres é de 100 caracteres. Cada caractere precisa ser um dígito de 0 a 9.
+- **Máscara de discagem de E9-1-1** Especifique um número discado pelo usuário, que então é traduzido para o número de discagem de emergência. Por exemplo, insira um valor de 212 nesse campo de modo que um usuário possa discar 212 a fim de entrar em contato com os serviços de emergência. Isso permite a números de emergências alternativos para ser discado e ainda têm a chamada acessar os serviços de emergências (por exemplo, se alguém de um país ou região com um número de emergência diferente tentar discar que o país ou região de número, e não o número para o país ou região que estiverem em). É possível definir várias máscaras de discagem de emergência separando os valores com ponto e vírgulas. Por exemplo, 212;414. O tamanho máximo da cadeia de caracteres é de 100 caracteres. Cada caractere precisa ser um dígito de 0 a 9.
 
     > [!IMPORTANT]
     > Certifique-se de que a máscara de discagem não seja a mesma que o número em um intervalo de números de estacionamento de chamada, pois o roteamento de estacionamento de chamada tem precedência sobre a conversão da cadeia de caracteres de discagem de emergência. Para ver os intervalos de números do estacionamento de chamada, clique em **Recursos de voz** na barra de navegação à esquerda e clique em **Estacionamento de chamadas**.
@@ -65,6 +66,6 @@ A lista a seguir descreve os campos na página.
 
   - **Bidirecional** Especifica que o terceiro pode participar da chamada entre o chamador e o operador de PSAP.
 
-Para obter detalhes sobre os recursos de serviço de emergência do Enterprise Voice e recursos, consulte [Visão geral do E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com políticas de localização, consulte [Configurando a política de local](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) na documentação operações.
+Para obter detalhes sobre os recursos de serviço de emergência do Enterprise Voice e recursos, consulte [Visão geral do E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com políticas de local, consulte [Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) na documentação Operações.
 
 

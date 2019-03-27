@@ -1,5 +1,6 @@
 ---
 title: Antes de começar a migração
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Antes de começar, recomendamos que você leia este documento e siga as orientações para se familiarizar com as funções correspondentes:'
-ms.openlocfilehash: 6ecf783ceb2d3b98ab4e9d93dfec6d87bc1ce506
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 695e70e4517bc24c239f2c99c1bbcb3f65420785
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029423"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888602"
 ---
 # <a name="before-you-begin-the-migration"></a>Antes de começar a migração
 
@@ -23,6 +24,6 @@ Antes de começar, recomendamos que você leia os artigos a seguir para se famil
 
 - [Processo de migração](migration-process.md)
     
-- [Fases da migração](migration-phases.md)
+- [Fases de migração](migration-phases.md)
     
 

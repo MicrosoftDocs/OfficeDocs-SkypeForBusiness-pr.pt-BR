@@ -1,5 +1,6 @@
 ---
 title: Serviço de configurações de usuário para o painel de controle de qualidade de chamada (CQD)
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
 description: 'Resumo: Saiba mais sobre o serviço de configurações de usuário, que é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: 00d0662e777ef2f13c9783fe4b79d5c582faa8af
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8cb30c0f079834c14879e2ce6cbd14201f5bbdcb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531888"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888228"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>Serviço de configurações de usuário para o painel de controle de qualidade de chamada (CQD)
  
@@ -38,6 +39,6 @@ As operações do REST estão incluídas na tabela a seguir.
 |**Operação**|**Descrição**|
 |:-----|:-----|
 |[Obter configurações de usuário](get-user-settings.md) <br/> |Configurações de usuário Get retorna uma lista de configurações para um usuário especificado.  <br/> |
-|[Obter a configuração do usuário](get-user-setting.md) <br/> |Obtenha a configuração do usuário retorna a configuração de um único usuário.  <br/> |
+|[Obter configuração de usuário](get-user-setting.md) <br/> |Obtenha a configuração do usuário retorna a configuração de um único usuário.  <br/> |
    
 

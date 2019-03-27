@@ -1,5 +1,6 @@
 ---
 title: Usuários exibir ou configurar plano de discagem
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 49c77aff1c74fb7240fa00a18cd6deeaf33210f1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b831ee19b09e38b456c251e1aacb3390274446a2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241953"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894933"
 ---
-# <a name="users-view-or-configure-dial-plan"></a>Usuários: Exibir ou configurar plano de discagem
+# <a name="users-view-or-configure-dial-plan"></a>Usuários: Exibir ou Configurar Plano de Discagem
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 

@@ -1,5 +1,6 @@
 ---
 title: Regra de normalização criar nova ou editar existente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 8606d4d3247aad6efbcc85a6567718feab83e915
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5edc9a7679c58d35a461698951c77dd9def42408
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23262138"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890175"
 ---
-# <a name="normalization-rule-create-new-or-edit-existing"></a>Regra de normalização: Criar nova ou editar existente
+# <a name="normalization-rule-create-new-or-edit-existing"></a>Regra de Normalização: Criar Nova ou Editar Existente
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 

@@ -1,5 +1,6 @@
 ---
 title: Skype para resoluções de vídeo de cliente de negócios
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Resumo: Revise os requisitos de vídeo do cliente durante o planejamento de Skype para Business Server.'
-ms.openlocfilehash: 0150acf98a2d5219975cf33c573f31f755db62f0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a17e3e269f24e74c5403c053723d544898560f34
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886140"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886687"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype para resoluções de vídeo de cliente de negócios
  
@@ -66,23 +67,23 @@ As três tabelas a seguir explicam a capacidade máxima de codificação e decod
 
 |**Capacidade de resolução do codificador**|**Capacidade de resolução do decodificador**|**Requisito**|
 |:-----|:-----|:-----|
-|424 x 240  <br/> |424x240 (640x360 a 15fps para cenários apenas de recepção)  <br/> |1 Núcleo e VideoEncodeScore ≥ 4,0  <br/> |
-|640 x 360  <br/> |640 x 360  <br/> |2 Núcleos e VideoEncodeScore ≥ 4,5  <br/> |
-|640 x 360  <br/> |1280 x 720  <br/> |2 Núcleos e VideoEncodeScore ≥ 4,5  <br/> |
-|640 x 360  <br/> |1920 x 1080  <br/> |4 Núcleos e VideoEncodeScore ≥ 4,5  <br/> |
-|1280 x 720  <br/> |1280 x 720  <br/> |4 Núcleos e VideoEncodeScore ≥ 7.3  <br/> |
-|1280 x 720  <br/> |1920 x 1080  <br/> |4 Núcleos e VideoEncodeScore ≥ 7.3  <br/> |
-|1920 x 1080  <br/> |1920 x 1080  <br/> |N/D  <br/> |
+|424x240  <br/> |424x240 (640x360 a 15fps para cenários apenas de recepção)  <br/> |1 Núcleo e VideoEncodeScore ≥ 4,0  <br/> |
+|640x360  <br/> |640x360  <br/> |2 Núcleos e VideoEncodeScore ≥ 4,5  <br/> |
+|640x360  <br/> |1280x720  <br/> |2 Núcleos e VideoEncodeScore ≥ 4,5  <br/> |
+|640x360  <br/> |1920x1080  <br/> |4 Núcleos e VideoEncodeScore ≥ 4,5  <br/> |
+|1280x720  <br/> |1280x720  <br/> |4 Núcleos e VideoEncodeScore ≥ 7.3  <br/> |
+|1280x720  <br/> |1920x1080  <br/> |4 Núcleos e VideoEncodeScore ≥ 7.3  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |N/D  <br/> |
    
 **Computador com DXVA, mas sem codificador acelerado por hardware**
 
 |**Capacidade de resolução do codificador**|**Capacidade de resolução do decodificador**|**Requisito**|
 |:-----|:-----|:-----|
-|424 x 240  <br/> |1920 x 1080  <br/> |1 Núcleo e VideoEncodeScore ≥ 3,0  <br/> |
-|640 x 360  <br/> |1920 x 1080  <br/> |2 Núcleos e VideoEncodeScore ≥ 4,5  <br/> |
-|960 x 540  <br/> |1920 x 1080  <br/> |2 Núcleos e VideoEncodeScore ≥ 6,0  <br/> |
-|1280 x 720  <br/> |1920 x 1080  <br/> |4 Núcleos e VideoEncodeScore ≥ 6,7  <br/> |
-|1920 x 1080  <br/> |1920 x 1080  <br/> |4 Núcleos e VideoEncodeScore ≥ 8,2  <br/> |
+|424x240  <br/> |1920x1080  <br/> |1 Núcleo e VideoEncodeScore ≥ 3,0  <br/> |
+|640x360  <br/> |1920x1080  <br/> |2 Núcleos e VideoEncodeScore ≥ 4,5  <br/> |
+|960x540  <br/> |1920x1080  <br/> |2 Núcleos e VideoEncodeScore ≥ 6,0  <br/> |
+|1280x720  <br/> |1920x1080  <br/> |4 Núcleos e VideoEncodeScore ≥ 6,7  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |4 Núcleos e VideoEncodeScore ≥ 8,2  <br/> |
    
 > [!NOTE]
 > A pontuação WinSAT no Windows 7 está limitada ao máximo de 7,9. Dessa forma, a capacidade de codificação de um computador sem um codificador acelerado por hardware pode ser atingida somente no Windows 8 ou no Windows 8.1, onde a pontuação WinSAT máxima é 9,9. 
@@ -91,8 +92,8 @@ As três tabelas a seguir explicam a capacidade máxima de codificação e decod
 
 |**Capacidade de resolução do codificador**|**Capacidade de resolução do decodificador**|**Requisito**|
 |:-----|:-----|:-----|
-|1280 x 720  <br/> |1920 x 1080  <br/> |Toda a segunda e a terceira geração Intel HD Graphics  <br/> |
-|1920 x 1080  <br/> |1920 x 1080  <br/> |Segunda e terceira geração Intel HD Graphics e GraphicsScore ≥ 5,0  <br/> |
+|1280x720  <br/> |1920x1080  <br/> |Toda a segunda e a terceira geração Intel HD Graphics  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |Segunda e terceira geração Intel HD Graphics e GraphicsScore ≥ 5,0  <br/> |
    
 ## <a name="mobile-device-video-capabilities"></a>Capacidade de vídeo de dispositivos móveis
 

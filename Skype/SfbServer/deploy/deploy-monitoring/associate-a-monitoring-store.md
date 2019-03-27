@@ -1,5 +1,6 @@
 ---
 title: Associar um repositório de monitoramento um pool de Front-End no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 'Resumo: Saiba como associar pools de Front-End com um repositório de monitoramento usado pelo Skype para Business Server.'
-ms.openlocfilehash: a7a7965016ed659d120cf4bff642e85e9941b193
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1156883202218dd536926f44f40e6ba774b17cb7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968206"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887141"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Associar um repositório de monitoramento um pool de Front-End no Skype para Business Server 
 **Resumo:** Saiba como associar pools de Front-End com um repositório de monitoramento usado pelo Skype para Business Server.
@@ -79,7 +80,7 @@ Como alternativa, você pode instalar o banco de dados de monitoramento, executa
     
 5. Na página **Especificar caminho para MSIs** , digite o caminho para o arquivo ocscore. msi (um arquivo incluído com sua Skype para a mídia de instalação do Business Server) e clique em **Avançar**.
     
-6. Na página **Executando Comandos**, clique em **Concluir**.
+6. Na página **Executando comandos** clique em **Concluir**.
     
 Para garantir que todos o Skype necessário para serviços de Business Server foram iniciados, clique em **Executar** sob o título **etapa 4: iniciar serviços** na página **implantar**
   

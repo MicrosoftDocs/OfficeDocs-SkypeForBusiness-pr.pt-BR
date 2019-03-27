@@ -1,5 +1,6 @@
 ---
-title: Verificar a replicação de partição do esquema
+title: Verificar Replicação de Partição do Esquema
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para verificar se a extensão do esquema foi replicada com êxito em sua floresta do Active Directory Domain Services, faça o seguinte:'
-ms.openlocfilehash: bfcc5cba79f023c746aac3d5c312871003f333b2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: dc621d82edc9133ce45b93e781799419e55efe38
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020462"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887918"
 ---
-# <a name="verify-replication-of-schema-partition"></a>Verificar a replicação de partição do esquema
+# <a name="verify-replication-of-schema-partition"></a>Verificar Replicação de Partição do Esquema
  
 Para verificar se a extensão do esquema foi replicada com êxito em sua floresta do Active Directory Domain Services, faça o seguinte:
   

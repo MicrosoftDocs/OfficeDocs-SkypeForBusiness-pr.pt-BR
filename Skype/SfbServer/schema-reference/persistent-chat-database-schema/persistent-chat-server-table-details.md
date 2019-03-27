@@ -1,5 +1,6 @@
 ---
 title: Detalhes da tabela do Servidor de Chat Persistente
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: Os tópicos a seguir detalham as colunas em cada uma das tabelas de esquema do banco de dados de Chat persistente.
-ms.openlocfilehash: 016974ff261cd862b888158f729e4baaff504366
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5ee15bfab456f2e2e5c1ea535a1b521f9544a352
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992795"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889650"
 ---
 # <a name="persistent-chat-server-table-details"></a>Detalhes da tabela do Servidor de Chat Persistente
  
@@ -23,17 +24,17 @@ Os tópicos a seguir detalham as colunas em cada uma das tabelas de esquema do b
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [a tabela tblADCookie](tbladcookie.md)
+- [tblADCookie](tbladcookie.md)
     
-- [Principalmemberdifference](tblprincipalmemberdifference.md)
+- [tblPrincipalMemberDifference](tblprincipalmemberdifference.md)
     
-- [a tabela tblADUpdates](tbladupdates.md)
+- [tblADUpdates](tbladupdates.md)
     
 - [tblPrincipalMembers](tblprincipalmembers.md)
     
 - [tblPrincipalMeta](tblprincipalmeta.md)
     
-- [Skippedaffiliations](tblskippedaffiliations.md)
+- [tblSkippedAffiliations](tblskippedaffiliations.md)
     
 - [tblPrincipalType](tblprincipaltype.md)
     
@@ -49,7 +50,7 @@ Os tópicos a seguir detalham as colunas em cada uma das tabelas de esquema do b
     
 - [tblPrincipalRole](tblprincipalrole.md)
     
-- [tabela Siopwhitelist](tblsiopwhitelist.md)
+- [tblSiopWhiteList](tblsiopwhitelist.md)
     
 - [tblEnumAttribute](tblenumattribute.md)
     
@@ -79,7 +80,7 @@ Os tópicos a seguir detalham as colunas em cada uma das tabelas de esquema do b
     
 - [tblComplianceData](tblcompliancedata.md)
     
-- [tabela tblComplianceFanout](tblcompliancefanout.md)
+- [tblComplianceFanout](tblcompliancefanout.md)
     
 - [tblComplianceParticipant](tblcomplianceparticipant.md)
     

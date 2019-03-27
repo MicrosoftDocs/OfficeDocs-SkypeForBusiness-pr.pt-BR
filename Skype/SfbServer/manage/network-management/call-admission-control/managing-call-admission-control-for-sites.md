@@ -1,5 +1,6 @@
 ---
 title: Gerenciando o controle de admissão de chamada para sites
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Sites de rede são os escritórios ou locais dentro de cada região de rede de chamam (CAC) do controle de admissão, E9-1-1 e implantações de bypass de mídia.
-ms.openlocfilehash: ecf23a8a052afbd21b02f8ff5507c248d42b7118
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 53140cf03110991f2c757e5d52e30a6c7db1d7de
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223168"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895416"
 ---
-# <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Gerenciando o controle de admissão de chamada para sites no Skype para Business Server
+# <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Gerenciar o controle de admissão de chamadas para sites no Skype for Business Server
 
 Sites de rede são os escritórios ou locais dentro de cada região de rede de chamam (CAC) do controle de admissão, E9-1-1 e implantações de bypass de mídia. Use os procedimentos neste artigo para configurar o controle de admissão de chamada para sites de rede.
 
@@ -205,7 +206,7 @@ Os sites de rede são os escritórios ou locais configurados em cada região de 
 
 [New-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)
 
-[Set-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSite)
+[Set-CsNetworkSite.](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSite)
 
 [Remove-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSite)  
 

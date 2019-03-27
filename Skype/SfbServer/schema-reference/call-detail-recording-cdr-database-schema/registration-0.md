@@ -1,5 +1,6 @@
 ---
 title: Exibir registro
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: O modo de exibição do registro armazena informações sobre o registro do usuário. Este modo de exibição foi introduzido no Lync Server 2013.
-ms.openlocfilehash: e116c2609f1f26268eaaa3413c3a4491da096585
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bf6797bee124653515744d3c1bcd481c2ea1bfc2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887883"
 ---
 # <a name="registration-view"></a>Exibir registro
  

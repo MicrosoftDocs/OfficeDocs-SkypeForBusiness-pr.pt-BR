@@ -1,5 +1,6 @@
 ---
 title: Configurar a Unificação de Mensagens do Exchange Server para a caixa postal do Skype for Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Resumo: Configure o Unificação de mensagens do Exchange Server para Skype para caixa postal Business Server.'
-ms.openlocfilehash: 03511671e0535e07dbc10e50b427364c3502a674
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 60f9398b7a35ad211ede22ee0e0e7f9689bbc8d7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059191"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887897"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configurar a Unificação de Mensagens do Exchange Server para a caixa postal do Skype for Business Server
  
@@ -205,7 +206,7 @@ O Exchange Server deve ser configurado com um certificado de servidor para se co
 6. Clique em **Fechar**e, em seguida, clique em **Okey**. 
 7. Na árvore de console, expanda **certificados (computador Local)**, expanda **Autoridades de certificação raiz confiáveis**e clique em **certificados**.
 8. Clique com o botão **certificados**, clique em **All Tasks**e clique em **Importar**.
-9. Clique em **Avançar**. 
+9. Click **Next**. 
 10. Clique em **Procurar** para localizar o arquivo e clique em **Avançar**. (O arquivo terá. cer ou uma extensão de arquivo. p7b, dependendo da codificação selecionada na etapa 3 de **para baixar o certificado de autoridade de certificação**.
 11. Clique em **Colocar todos os certificados** no armazenamento a seguir.
 12. Clique em **Procurar**e selecione **Autoridades de certificação raiz confiáveis**. 

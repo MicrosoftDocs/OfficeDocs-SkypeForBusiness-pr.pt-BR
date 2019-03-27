@@ -1,5 +1,6 @@
 ---
 title: Tabela Session
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: Cada registro representa uma sessão que envolve o áudio ou áudio e vídeo. Ele contém informações gerais sobre a sessão. Uma sessão é definida como um diálogo de protocolo de iniciação de sessão (SIP) de áudio ou vídeo entre dois pontos de extremidade.
-ms.openlocfilehash: 24acf23d2dab2dbc4b6586e40aa49cba632d6a68
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7a0ea3f9753529c22299ef46017b863c314319b5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881375"
 ---
 # <a name="session-table"></a>Tabela Session
  
 Cada registro representa uma sessão que envolve o áudio ou áudio e vídeo. Ele contém informações gerais sobre a sessão. Uma sessão é definida como um diálogo de protocolo de iniciação de sessão (SIP) de áudio ou vídeo entre dois pontos de extremidade.
   
-|**Coluna**|**Tipo de dados**|**Índice de chaves /**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primária  <br/> |Referenciado pela [Dialog table](dialog.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primária  <br/> |Referenciado pela [Dialog table](dialog.md).  <br/> |
@@ -29,7 +31,7 @@ Cada registro representa uma sessão que envolve o áudio ou áudio e vídeo. El
 |**DialogCategory** <br/> |bit  <br/> | <br/> |Categoria do diálogo; 0 é Skype para Business Server para a perna do servidor de mediação; 1 é o servidor de mediação para o trecho de gateway PSTN.  <br/> |
 |**MediationServerBypassFlag** <br/> |bit  <br/> ||Sinalizador que indica se a chamada foi ignorada ou não.  <br/> |
 |**MediaBypassWarningFlag** <br/> |int  <br/> ||Este campo, se presente, indica por que uma chamada não foi ignorada, mesmo se o desvio de correspondem de IDs. Skype para Business Server, somente um valor é definido.  <br/> 0x0001 - ID de desvio desconhecida adaptador de rede padrão.  <br/> |
-|**StartTime** <br/> |datetime  <br/> | <br/> |Hora de início da chamada.  <br/> |
+|**StartTime ** <br/> |datetime  <br/> | <br/> |Hora de início da chamada.  <br/> |
 |**EndTime** <br/> |datetime  <br/> | <br/> |Hora de término da chamada.  <br/> |
 |**CallerPool** <br/> |int  <br/> |Externa  <br/> |O pool do chamador. Referenciado da [tabela de Pool](pool.md).  <br/> |
 |**CalleePool** <br/> |int  <br/> |Externa  <br/> |O pool do receptor da chamada. Referenciado da [tabela de Pool](pool.md).  <br/> |

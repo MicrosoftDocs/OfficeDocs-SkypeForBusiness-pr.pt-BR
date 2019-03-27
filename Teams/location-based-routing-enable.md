@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 809e48e4a770906b93642356cc5f37fd03c411c4
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e68b239d00e67d942f80a259facb87c80ddf2a55
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460328"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886028"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar o Roteamento baseado na localização para o Roteamento direto
 
@@ -39,7 +39,7 @@ Este artigo descreve como habilitar o roteamento baseado no local para roteament
 
 ## <a name="enable-location-based-routing-for-users"></a>Habilitar o roteamento baseado no local para usuários
 
-1. Use o ``Set-CsOnlinePstnUsages`` cmdlet para definir os usos da PSTN. Para vários usos, separe cada uso com uma vírgula.
+1. Use o cmdlet [Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) para definir os usos PSTN. Para vários usos, separe cada uso com uma vírgula.
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 
@@ -48,7 +48,7 @@ Este artigo descreve como habilitar o roteamento baseado no local para roteament
     ```
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. Use o ``New-CsOnlineVoiceRoutingPolicy`` cmdlet para criar uma política de roteamento de voz para associar o usuário os usos da PSTN apropriados.
+2. Use o cmdlet [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) para criar uma política de roteamento de voz para associar o usuário os usos da PSTN apropriados.
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
@@ -71,13 +71,12 @@ Este artigo descreve como habilitar o roteamento baseado no local para roteament
     |ID da política de voz online   |Política de roteamento de voz online de Délhi   |Política de roteamento de voz online de Hyderabad    |
     |Usos da PSTN online  |Interurbano  |Interurbano, Local, interno  |
 
-    Para obter mais informações, consulte [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
-3. Use o ``Grant-CsOnlineVoiceRoutingPolicy`` políticas de roteamento aos usuários que precisam ser impostas restrições de roteamento de voz de cmdlet para associar online.
+3. Use o cmdlet [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) para associar políticas de roteamento de voz online aos usuários que precisam ser impostas restrições de roteamento.
     ```
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
 ## <a name="enable-location-based-routing-for-network-sites"></a>Habilitar o roteamento baseado no local para sites de rede
-1.  Use o ``Set-CsTenantNetworkSite`` cmdlet para habilitar o roteamento baseado no local e associar as políticas de roteamento para os locais de rede que precisam para impor restrições de roteamento de voz.
+1.  Use o cmdlet [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) para habilitar o roteamento baseado no local e associar as políticas de roteamento de voz aos seus sites de rede que precisam para impor restrições de roteamento.
     ```
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
@@ -97,7 +96,7 @@ Este artigo descreve como habilitar o roteamento baseado no local para roteament
     |Sub-redes     |Subrede 1 (Délhi)     |Subrede 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>Habilitar o roteamento baseado no local para gateways
-1. Use o ``New-CsOnlinePstnGateway`` cmdlet para criar uma configuração de gateway para cada site de rede ou gateway. 
+1. Use o cmdlet [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) para criar uma configuração de gateway para cada site de rede ou gateway. 
 
     ```
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignallingPort <listening port used> -Enabled $true 
@@ -110,7 +109,7 @@ Este artigo descreve como habilitar o roteamento baseado no local para roteament
     ```
     Para obter mais informações, consulte [Configurar o roteamento direto](direct-routing-configure.md).
     
-2. Use o ``Set-CSOnlinePSTNGateway`` cmdlet para habilitar o roteamento baseado no local para seus gateways que precisam para impor restrições de roteamento. 
+2. Use o cmdlet [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) para habilitar o roteamento baseado no local para seus gateways que precisam para impor restrições de roteamento. 
 
     Habilitar o roteamento baseado no local para os gateways que roteiem as chamadas para os gateways PSTN que rotear as chamadas para a PSTN e associe o site de rede onde se encontra o gateway.
 
@@ -152,7 +151,7 @@ Este artigo descreve como habilitar o roteamento baseado no local para roteament
 
 Para impor o roteamento baseado no local para usuários específicos, configurar a política de voz dos usuários para evitar que as tarifas PTSN desvio. 
 
-Use o ``Grant-CsTeamsCallingPolicy`` o desvio de cmdlet para habilitar o roteamento baseado em local, impedindo a execução de tarifas PSTN.
+Use o cmdlet [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) para habilitar o roteamento baseado na localização, impedindo a execução de desvio de tarifas PSTN.
 
 ```
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 

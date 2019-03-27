@@ -1,5 +1,6 @@
 ---
 title: URL simples do modo de exibição de topologia
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: c17f13f2-2e45-44d6-b56d-74ec8989eef1
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 1868bf9be5fc8fded079d863b65f8e57df20001d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 272cf5f0b341487e0cc9b9ee7264653666246a5b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243989"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887285"
 ---
-# <a name="topology-view-simple-url"></a>Topologia: Exibir URL simples
+# <a name="topology-view-simple-url"></a>Topologia: Exibir URL Simples
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 

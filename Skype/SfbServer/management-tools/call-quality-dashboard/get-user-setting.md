@@ -1,5 +1,6 @@
 ---
-title: Obter a configuração do usuário
+title: Obter configuração de usuário
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
 description: 'Resumo: Saiba mais sobre a operação de obter a configuração do usuário, que faz parte do serviço de configurações de usuário. O serviço de configurações de usuário é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: 286939271bdc99790f125beabb68735dd4c5f758
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 003850ed4e6f1e49fc0e8bafe8dfa7d828cae63f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530710"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888997"
 ---
-# <a name="get-user-setting"></a>Obter a configuração do usuário
+# <a name="get-user-setting"></a>Obter configuração de usuário
  
 **Resumo:** Saiba mais sobre a operação de obter a configuração do usuário, que faz parte do serviço de configurações de usuário. O serviço de configurações de usuário é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
   
 A operação de obter a configuração do usuário é parte do serviço de configurações do usuário na API repositório para o painel de controle de qualidade de chamada.
   
-## <a name="get-user-setting"></a>Obter a configuração do usuário
+## <a name="get-user-setting"></a>Obter configuração de usuário
 
 Obtenha a configuração do usuário retorna a configuração de um único usuário.
   

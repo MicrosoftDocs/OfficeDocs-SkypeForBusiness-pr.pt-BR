@@ -1,5 +1,6 @@
 ---
 title: Criar uma nova coleção de tronco definições de configuração no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Definições de configuração de tronco SIP definem a relação e os recursos entre um servidor de mediação e o gateway PSTN (rede) telefônica pública comutada, uma troca de filial IP público (PBX) ou um controlador de borda de sessão (SBC) no provedor de serviços.
-ms.openlocfilehash: cdf38667d18db3525432fe4e5786481175183a5c
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 86a731c07f3c7289e5eabcd74bb3ccf37ec4df9d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223175"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890448"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Criar uma nova coleção de tronco definições de configuração no Skype para Business Server
 
@@ -22,7 +23,7 @@ Definições de configuração de tronco SIP definem a relação e os recursos e
 - As condições nas quais os pacotes RTCP (protocolo) de controle de transporte em tempo real são enviados.
 - Ou não a criptografia do protocolo em tempo real seguro (SRTP) é necessário em cada tronco.
 
-Quando você instala o Skype para Business Server, uma coleção global de definições de configuração de tronco SIP é criada para você. Além disso, os administradores podem criar conjuntos de configurações personalizadas no escopo local ou de serviço (apenas para o serviço de gateway PSTN).
+Quando você instala o Skype para Business Server, uma coleção global de definições de configuração de tronco SIP é criada para você. Além disso, os administradores podem criar coleções de configurações personalizadas no escopo do site ou no escopo do serviço (somente para o serviço de gateway PSTN).
 
 Ao criar usingSkype de definições de configuração de tronco SIP para o painel de controle do Business Server, as seguintes opções estão disponíveis para você:
 

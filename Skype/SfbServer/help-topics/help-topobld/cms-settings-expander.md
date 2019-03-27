@@ -1,5 +1,6 @@
 ---
 title: Expansor de Configurações de CMS
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
-description: O Servidor de Gerenciamento Central pode ser alterado de um pool de Front-Ends definido para outro pool de Front-Ends definido. Para alterar o local do servidor de gerenciamento Central, selecione o pool de Front-End na lista suspensa em servidor de Front-End para instalar o servidor de gerenciamento Central. Um Servidor Front-End pode ser um pool de Front-Ends Enterprise Edition ou um Servidor Front-End Standard Edition.
-ms.openlocfilehash: cb285b61d8754ba2c78656baad8b599300736c8f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: O Servidor de Gerenciamento Central pode ser alterado de um pool de Front-Ends definido para outro pool de Front-Ends definido. Para alterar o local do Servidor de Gerenciamento Central, selecione na lista suspensa o pool de Front-Ends em Servidor Front-End no qual instalar o Servidor de Gerenciamento Central em:. Um Servidor Front-End pode ser um pool de Front-Ends Enterprise Edition ou um Servidor Front-End Standard Edition.
+ms.openlocfilehash: 2808f71bf0bef6cdcc3521f879e6755a8f540f5e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887425"
 ---
 # <a name="cms-settings-expander"></a>Expansor de Configurações de CMS
  
@@ -25,6 +27,6 @@ O Servidor de Gerenciamento Central pode ser alterado de um pool de Front-Ends d
 > [!IMPORTANT]
 > Se você tiver definido, publicado e implantado o Repositório de Gerenciamento Central da infraestrutura, não será possível alterar o local do Repositório de Gerenciamento Central sem realocá-lo para outro Front-End por meio de um processo externo. 
   
-Para obter detalhes sobre como mover o servidor de gerenciamento Central repositório, consulte [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) na referência de cmdlet do Windows PowerShell.
+Para obter detalhes sobre como mover o repositório do Servidor de Gerenciamento Central, consulte [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) na referência de cmdlet do Windows PowerShell.
   
 

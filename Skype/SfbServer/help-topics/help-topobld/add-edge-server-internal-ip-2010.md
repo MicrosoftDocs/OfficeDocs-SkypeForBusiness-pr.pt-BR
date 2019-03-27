@@ -1,5 +1,6 @@
 ---
-title: Adicionar IP interno do servidor de borda 2010
+title: Adicionar IP Interno de Servidor de Borda 2010
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 661dd74e-c42a-4905-a9c6-6efe02acc5f8
 description: Use esta página para especificar o endereço IP interno e o nome de domínio totalmente qualificado (FQDN) do servidor de borda.
-ms.openlocfilehash: 255fa5e6a8268c090fbe7a6614ba86e3c39d4830
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 93038c1ac9f376649054d5276532ef8ab18eb3d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260577"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883782"
 ---
-# <a name="add-edge-server-internal-ip-2010"></a>Adicionar IP interno do servidor de borda 2010
+# <a name="add-edge-server-internal-ip-2010"></a>Adicionar IP Interno de Servidor de Borda 2010
 
 Use esta página para especificar o endereço IP interno e o nome de domínio totalmente qualificado (FQDN) do servidor de borda.
 

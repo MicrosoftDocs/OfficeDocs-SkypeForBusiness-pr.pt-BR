@@ -1,5 +1,6 @@
 ---
 title: Definir configurações de estacionamento de chamada no Skype para negócios
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,23 +14,23 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Modificar configurações de estacionamento de chamada no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 4a80b9e60085c3091aacbbf619f0dbe672b64251
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ab2fec9a0455316ea1b0fcba6a771b91f0d115d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373674"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891647"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Definir configurações de estacionamento de chamada no Skype para negócios
 
 Modificar configurações de estacionamento de chamada no Skype para Business Server Enterprise Voice.
 
-Se você não quiser usar configurações de estacionamento de chamada padrão, você pode personalizá-los. Quando você instala o aplicativo de estacionamento de chamadas, configurações globais são configuradas por padrão. É possível modificar as configurações globais e também especificar configurações específicas do site. Use o cmdlet **New-CsCpsConfiguration** para criar novas configurações específicas do site. Use o cmdlet **Set-CsCpsConfiguration** para modificar as configurações existentes.
+Se você não quiser usar configurações de estacionamento de chamada padrão, você pode personalizá-los. Quando você instala o aplicativo de estacionamento de chamadas, configurações globais são configuradas por padrão. É possível modificar as configurações globais e também especificar configurações específicas do site. Use o cmdlet **New-CsCpsConfiguration** para criar configurações específicas do site. Use o cmdlet **Set-CsCpsConfiguration** para modificar as configurações existentes.
 
 > [!NOTE]
 > No mínimo, recomendamos configurar a opção **OnTimeoutURI** para o destino de fallback a ser usado quando uma chamada estacionada excede o tempo limite e o retorno de toque falha.
 
-Use o cmdlet **New-CsCpsConfiguration** ou o cmdlet **Set-CsCpsConfiguration** para definir qualquer uma das seguintes configurações:
+Use os cmdets **New-CsCpsConfiguration** ou **Set-CsCpsConfiguration** para definir qualquer uma das seguintes configurações:
 
 
 | **Esta opção:**                     | **Especifica:**                                                                                                                                                                                                                                                                                                                   |
@@ -58,7 +59,7 @@ Use o cmdlet **New-CsCpsConfiguration** ou o cmdlet **Set-CsCpsConfiguration** p
    New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com
    ```
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Personalizar a música de espera do estacionamento de chamadas no Skype for Business 2015](customize-call-park-music-on-hold.md)
 

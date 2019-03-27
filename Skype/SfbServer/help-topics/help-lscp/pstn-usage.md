@@ -1,5 +1,6 @@
 ---
-title: Uso da PSTN
+title: Uso de PSTN
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 08d7877d-0ef4-4630-b6b0-ee76cbe4ce25
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 679c69fe1003008ccd96b2f34b73a1e5ead758aa
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 781d45ebd7f18702e4ec8d89450fb2d23a75d716
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250784"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887841"
 ---
-# <a name="pstn-usage"></a>Uso da PSTN
+# <a name="pstn-usage"></a>Uso de PSTN
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 

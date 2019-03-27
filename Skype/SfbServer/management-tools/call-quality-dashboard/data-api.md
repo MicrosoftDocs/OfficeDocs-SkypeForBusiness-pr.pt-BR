@@ -1,5 +1,6 @@
 ---
 title: API de dados para o painel de qualidade de chamada (CQD) no Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 'Resumo: Saiba mais sobre o API Rata para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: 0af168c46e8b2732d5c967550391ab52459ddf95
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8dd04971533a8631b4f95be2f13bad84e41963d7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531754"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881800"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de dados para o painel de qualidade de chamada (CQD) no Skype para Business Server
  
@@ -32,12 +33,12 @@ As operações do REST estão incluídas na tabela a seguir.
 
 |**Operação**|**Descrição**|
 |:-----|:-----|
-|[Obtenha o cubo](get-cube.md) <br/> |Obter a lista de medidas e dimensões disponíveis.  <br/> |
-|[Obtenha os membros de dimensão](get-dimension-members.md) <br/> |Operação de membros da dimensão Get retorna a lista de membros de uma dimensão específica. Ele também dá a capacidade de filtrar a lista de membro e obtenha um subconjunto, para reduzir o custo de transferência de transmissão.  <br/> |
-|[Executar a consulta](run-query.md) <br/> |Execute a consulta operação fornece a capacidade de executar uma consulta no cubo com base em filtros, medidas e dimensões especificadas e retornar os dados de volta.  <br/> |
+|[Obter o cubo](get-cube.md) <br/> |Obter a lista de medidas e dimensões disponíveis.  <br/> |
+|[Obtenha os Membros da Dimensão](get-dimension-members.md) <br/> |Operação de membros da dimensão Get retorna a lista de membros de uma dimensão específica. Ele também dá a capacidade de filtrar a lista de membro e obtenha um subconjunto, para reduzir o custo de transferência de transmissão.  <br/> |
+|[Executar Consulta](run-query.md) <br/> |Execute a consulta operação fornece a capacidade de executar uma consulta no cubo com base em filtros, medidas e dimensões especificadas e retornar os dados de volta.  <br/> |
 |[Limpar Cache](clear-cache.md) <br/> |Operação de Clear Cache exclui o cache no servidor para consultas e dados. Isso redefinirá o cache e abordaremos dados atualizados do cubo de QoE posteriormente para novas solicitações.  <br/> |
 |[Obter o Log de integração](get-integration-log.md) <br/> |Obtenha a operação retorna uma lista de entradas de log descrevendo as atividades no cubo de QoE de processamento de Log de integração.  <br/> |
-|[Obter dados de integração com o últimos](get-last-integration-data.md) <br/> |Obtenha os últimos dados de integração do cubo.  <br/> |
+|[Obter Últimos Dados de Integração](get-last-integration-data.md) <br/> |Obtenha os últimos dados de integração do cubo.  <br/> |
    
  **Suporte (CORS) API de dados de compartilhamento de recursos de entre origens**
   

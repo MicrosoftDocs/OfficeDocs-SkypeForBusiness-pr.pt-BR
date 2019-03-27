@@ -1,5 +1,6 @@
 ---
-title: Verificar a replicação da preparação da floresta
+title: Verificar a Replicação da Preparação da Floresta
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para confirmar que tenham a replicação do Catálogo Global e a criação de objetos durante a preparação da floresta foi bem-sucedida, faça o seguinte:'
-ms.openlocfilehash: 26ea7b544e3b38c47fd33bdcd0dbaa22f49e59be
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 77b7265ce101b7428f6bfde1ed5840dac9e0a99e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967937"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880648"
 ---
-# <a name="verify-replication-of-forest-preparation"></a>Verificar a replicação da preparação da floresta
+# <a name="verify-replication-of-forest-preparation"></a>Verificar a Replicação da Preparação da Floresta
  
 Para confirmar que tenham a replicação do Catálogo Global e a criação de objetos durante a preparação da floresta foi bem-sucedida, faça o seguinte:
   

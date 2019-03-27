@@ -1,5 +1,6 @@
 ---
 title: Serviços de domínio do Active Directory para Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Serviços de domínio do Active Directory funciona como o serviço de diretório para redes do Windows Server 2003, Windows Server 2008, Windows Server 2012 e Windows Server 2012 R2. Serviços de domínio Active Directory também atuam como base no qual o Skype infra-estrutura de segurança do servidor de negócios está sendo construída. A finalidade desta seção é descrever como Skype para Business Server usa os serviços de domínio do Active Directory para criar uma ambiente confiável para mensagens Instantâneas, conferência Web, mídia e voz. Para obter detalhes sobre como preparar seu ambiente para serviços de domínio do Active Directory, consulte instalar Skype para Business Server na documentação de implantação. Para obter detalhes sobre a função dos serviços de domínio do Active Directory em redes do Windows Server, consulte a documentação para a versão do sistema operacional que você está usando.
-ms.openlocfilehash: 19e09126e07055b2c76487ba8dad1cc7c5777bc5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1664f3b354078c79429b20e7654b363ce9fccb7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20980806"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892382"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Serviços de domínio do Active Directory para Skype para Business Server
  
@@ -58,7 +59,7 @@ Para obter detalhes sobre específicos grupos universais criados durante a prepa
   
 ## <a name="role-based-access-control"></a>Controle de Acesso Baseado em Função
 
-Além de criar grupos de serviços e administração universais e de adicionar grupos de serviços e de administração aos grupos universais adequados, a preparação da floresta também cria grupos de Controle de acesso baseado em função (RBAC). Para obter detalhes sobre os grupos específicos de RBAC criados pela preparação de floresta, consulte [alterações feitas pela preparação da floresta no Skype para Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) na documentação de implantação. Para obter mais informações sobre grupos RBAC, consulte [o controle de acesso baseado em função (RBAC) para Skype para Business Server](role-based-access-control-rbac.md).
+Além de criar grupos de serviços e administração universais e de adicionar grupos de serviços e de administração aos grupos universais adequados, a preparação da floresta também cria grupos de Controle de acesso baseado em função (RBAC). Para obter mais detalhes sobre os grupos de RBAC específicos criados pela preparação da floresta, consulte [Changes made by forest preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) na Documentação de implantação. Para obter mais informações sobre grupos RBAC, consulte [o controle de acesso baseado em função (RBAC) para Skype para Business Server](role-based-access-control-rbac.md).
   
 ## <a name="access-control-entries-aces-and-inheritance"></a>Entradas de controle de acesso (ACEs) e Herança
 
@@ -111,6 +112,6 @@ Além disso, para permitir que as implantações do Microsoft Office Communicati
 |Servidores proxy  <br/> |Skype para Business Server não oferece suporte para compatibilidade com versões anteriores para servidores proxy  <br/> |
    
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Preparar o Active Directory para Skype para Business Server](../../deploy/install/prepare-active-directory.md)

@@ -1,5 +1,6 @@
 ---
 title: Criar ou modificar uma coleção de definições de configuração de CDR em Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 'Resumo: Saiba mais sobre os detalhes de chamada (CDR) de gravação no Skype para Business Server.'
-ms.openlocfilehash: f1bbf12f3766156b5f30ef3f2760669791e8c4c0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 563aeb37a0d6ae8cc10f73fe8d5d6808b9a051a9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20970369"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892995"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Criar ou modificar uma coleção de definições de configuração de CDR em Skype para Business Server
  
@@ -26,7 +27,7 @@ Quando você instala o Skype para Business Server uma única coleção global de
   
 Você pode criar definições de configuração de CDR usando qualquer um dos Skype para painel de controle do Business Server ou o cmdlet [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) . Você pode usar o Skype para painel de controle do Business Server ou o cmdlet [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) para modificar definições existentes. Se você estiver usando o Skype para painel de controle do Business Server para criar ou modificar as configurações, as seguintes opções estarão disponíveis para você:
   
-|**Configuração de UI**|**Parâmetro do PowerShell**|**Descrição**|
+|**Configuração de interface do usuário**|**Parâmetro do PowerShell**|**Descrição**|
 |:-----|:-----|:-----|
 |Nome  <br/> |Identidade  <br/> |Identificador exclusivo das definições de configuração CDR sendo criada. Estas configurações podem ser criadas apenas no escopo local.  <br/> |
 |Habilitar monitoramento de CDRs  <br/> |EnableCDR  <br/> |Indica se o CDR está habilitado ou não.  <br/> |

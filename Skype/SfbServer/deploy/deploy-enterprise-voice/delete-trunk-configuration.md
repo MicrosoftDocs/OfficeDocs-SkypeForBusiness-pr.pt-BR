@@ -1,5 +1,6 @@
 ---
 title: Excluir um conjunto existente de definições de configuração de tronco SIP no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Resumo: Saiba como excluir uma coleção de definições de configuração do tronco usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: 27e022588798e848cf690bb643d921e46d827b39
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: da86cbaf45afa47de580c02ab74e3b0b9bb344bf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890534"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890547"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Excluir um conjunto existente de definições de configuração de tronco SIP no Skype para Business Server
  
@@ -52,7 +53,7 @@ Os administradores também podem criar definições personalizadas de configura�
     
 5. Na caixa de diálogo **Skype para painel de controle do Business Server** , clique em **Okey**.
     
-6. Se mudar de ideia e decidir não excluir o conjunto, clique em **Confirmar** e, depois, em **Cancelar todas as alterações não confirmadas**. Quando for exibida a caixa de diálogo **Skype para painel de controle do Business Server** , clique em **Okey**.
+6. If you change your mind and decide not to delete the collection, click **Commit** and then click **Cancel All Uncommitted Changes**. Quando for exibida a caixa de diálogo **Skype para painel de controle do Business Server** , clique em **Okey**.
     
 ## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>Removendo definições de configuração de tronco usando Skype para Cmdlets do Shell de gerenciamento de servidor de negócios
 

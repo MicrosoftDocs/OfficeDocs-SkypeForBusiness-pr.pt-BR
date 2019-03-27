@@ -1,5 +1,6 @@
 ---
 title: Implantar a ferramenta de SEFAUtil em Skype para negócios
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Implantando a ferramenta de SEFAUtil em Skype para Business Server.
-ms.openlocfilehash: 1b2f981a438b71b44eb5d4c760e98d1d777f7235
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 64319438604e30ab7187885eb82daf554d176917
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532781"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886813"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Implantar a ferramenta de SEFAUtil em Skype para negócios
  
@@ -40,7 +41,7 @@ Você pode executar a ferramenta de SEFAUtil em qualquer pool de Front-End em su
     
 2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
     
-3. A ferramenta SEFAUtil só pode ser executada em um computador que integra um pool de aplicativos confiáveis. Se necessário, definir um pool de aplicativos confiáveis para o pool de Front-End no qual você pretende executar SEFAUtil. Na linha de comando, digite:
+3. A ferramenta SEFAUtil só pode ser executada em um computador que integra um pool de aplicativos confiáveis. Se necessário, definir um pool de aplicativos confiáveis para o pool de Front-End no qual você pretende executar SEFAUtil. Na linha de comando, execute:
     
    ```
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
@@ -71,7 +72,7 @@ Você pode executar a ferramenta de SEFAUtil em qualquer pool de Front-End em su
     
     a. Execute a ferramenta no prompt de comando do Windows com privilégios de administrador para exibir as configurações de encaminhamento de chamada de um usuário de sua implantação.
     
-    b. Exiba as configurações de um usuário de encaminhamento de chamadas. Na linha de comando, digite:
+    b. Exiba as configurações de um usuário de encaminhamento de chamadas. Na linha de comando, execute:
     
    ```
    SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>

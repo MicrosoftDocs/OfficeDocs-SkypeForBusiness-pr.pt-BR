@@ -1,5 +1,6 @@
 ---
 title: Iniciar ou interromper captura de log CLS no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Resumo: Saiba como iniciar ou parar uma sessão de captura do log de Centralized Logging Service no Skype para Business Server 2015.'
-ms.openlocfilehash: d3dc2ca58964908bda0d8c2de845297bb0cb951b
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 982aecf9da4e8ca08d734a4adb35d8a34a3bb816
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699856"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887327"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Iniciar ou interromper captura de log CLS no Skype for Business Server 2015
  
@@ -47,16 +48,16 @@ The Centralized Logging Service oferece duas maneiras de comandos do problema. U
    ```
 
     > [!NOTE]
-    > O cenário AlwaysOn não tem uma duração padrão. Este cenário será executado até você pará-lo explicitamente com o cmdlet **Stop-CsClsLogging** . Para detalhes, consulte [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Para todos os outros cenários, a duração padrão é 4 horas. 
+    > O cenário AlwaysOn não tem uma duração padrão. Este cenário será executado até que o pare precisamente com o cmdlet **Stop-CsClsLogging**. Para detalhes, consulte [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Para todos os outros cenários, a duração padrão é 4 horas. 
   
 3. Pressione Enter para executar o comando. 
     
     > [!NOTE]
     > Pode levar algum tempo (30 a 60 segundos) para que os comandos sejam executados e recebam o status dos computadores em sua implantação. 
   
-     ![Executando Start-CsClsLogging.](../../media/Ops_CLS_Show_and_Start_ClsLogging.jpg)
+     ![A execução de Start-CsClsLogging.](../../media/Ops_CLS_Show_and_Start_ClsLogging.jpg)
   
-4. Para iniciar outro cenários, use o cmdlet **Start-CsClsLogging** com o nome do cenário adicional para executar o seguinte (por exemplo, o cenário **autenticação**):
+4. Para iniciar outro cenários, use o cmdlet **Start-CsClsLogging** com o nome do cenário adicional para executar o seguinte (por exemplo, o cenário **Autenticação**):
     
    ```
    Start-CsClsLogging -Scenario Authentication
@@ -79,7 +80,7 @@ The Centralized Logging Service oferece duas maneiras de comandos do problema. U
 
     O execução com sucesso deste cenário devolve um resultado como o seguinte:
     
-     ![Executando Start-CsClsLogging.](../../media/Ops_CsClsLogging_UserReplicator_Exp.jpg)
+     ![A execução de Start-CsClsLogging.](../../media/Ops_CsClsLogging_UserReplicator_Exp.jpg)
   
 Observe que, neste exemplo, o cenário AlwaysOn é executado e o cenário UserReplicator também está sendo executado. 
     
@@ -118,7 +119,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Show-CsClsLogging
    ```
 
-   ![Console do Windows PowerShell após a chamada a Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+   ![Console do Windows PowerShell depois de chamar Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
    O resultado de Show-CsClsLogging é um resumo dos cenários em execução e em qual escopo eles estão em execução. Para obter detalhes, consulte [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
     
@@ -139,7 +140,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     > Os logs criados durante a sessão de registro em log usando o cenário UserReplicator não são excluídos. O registro em log ainda está disponível para execução de pesquisas usando o comando Search-CsClsLogging. Para obter detalhes, consulte [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps). 
   
 Agindo como o comando acompanhante para Start-CsClsLogging, o cmdlet Stop-CsClsLogging encerra a sessão de registro em log, definida pelos cenários, e retém os logs criados pela sessão de registro em log. É possível executar dois cenários em um determinado computador a qualquer momento. O método de parar um cenário para coletar informações usando outro cenário é uma tarefa comum que pode ser executada durante grande parte das soluções de problemas de carga de trabalho.
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Consulte Também
 <a name="stop"> </a>
 
 [Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)

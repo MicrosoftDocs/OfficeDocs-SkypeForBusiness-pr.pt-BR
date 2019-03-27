@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Aplicativo Externo
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado) do pool, a configuração de replicação e o pool de próximo salto desse pool de aplicativos confiáveis. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 169abb029187ad610c170b37b20b6b030d266726
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d1ae8f5f6bfb4d6d517c9889d730b98f7f5d2322
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891199"
 ---
 # <a name="external-application-scope-node"></a>Nó de Escopo de Aplicativo Externo
  

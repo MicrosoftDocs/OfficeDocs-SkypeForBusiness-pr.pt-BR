@@ -1,5 +1,6 @@
 ---
 title: Configurar e solucionar problemas de delegação do Skype for Business Online
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Este artigo explica como configurar e solucionar problemas Skype para delegação Business Online. Este artigo fornece orientações para as etapas de solução de problemas, práticas recomendadas e recomendações de instalação.
-ms.openlocfilehash: e3131b28be1ad01e0965b2739dc152a627826d5e
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 450aee07691a007b976aafffc05d34c3e7ef85f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546671"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887831"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Configurar e solucionar problemas de delegação do Skype for Business Online
 
@@ -55,8 +56,8 @@ Configurando e instalando a delegação funcione corretamente dependem seguir es
 ||**Outlook 2013**|**Outlook 2016**|
 |:-----|:-----|:-----|
 |**Lync/Skype para negócios básicos do cliente**| Não suportado |Não suportado
-|**Skype for Business 2015**|Compatível | Compatível |
-|**Skype para 2016 de negócios**|Compatível | Compatível |
+|**Skype for Business 2015**|Compatível | Compatível|
+|**Skype para 2016 de negócios**|Compatível | Compatível|
 
    
 ### <a name="licensing-requirements"></a>Requisitos de licenciamento
@@ -105,7 +106,7 @@ Para configurar o Skype para delegação Business Online, siga estas etapas:
     
 ### <a name="verify-success"></a>Verificar o sucesso
 
-Se a instalação for bem-sucedida, o delegado deve ver o que **você foi adicionado como um representante para < nome >** mensagem e também que o grupo de **pessoas para as quais gerenciar chamadas** é criado. Representante verá que o grupo de **delegados** é criado.
+Se a instalação for bem-sucedida, o representante verá **você foi adicionado como um representante < Name>** a mensagem e também que o grupo de **pessoas para as quais gerenciar chamadas** é criado. Representante verá que o grupo de **delegados** é criado.
   
 > [!NOTE]
 > Permissões de delegação normalmente aparecem em até 30 minutos do processo de instalação. No entanto, esse processo pode levar até 24 horas para ser concluída. 

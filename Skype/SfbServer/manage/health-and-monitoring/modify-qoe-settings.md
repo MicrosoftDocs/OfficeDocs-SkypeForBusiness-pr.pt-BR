@@ -1,5 +1,6 @@
 ---
 title: Modificar as configurações de qualidade da experiência no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 'Resumo: Saiba como especificar a retenção de dados de QoE em Skype para Business Server.'
-ms.openlocfilehash: 743f3df6f58392e7d9107be9ae4c9313ef7a6781
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 4a2197d3d66a5b871682ba187bf607480f2da175
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243450"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887453"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Modificar as configurações de qualidade da experiência no Skype para Business Server
 
@@ -29,7 +30,7 @@ O procedimento a seguir descreve como definir as configurações de limpeza para
 
 ### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>Para especificar a retenção de dados de QoE usando Skype para o painel de controle do servidor de negócios
 
-1.  Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte **Delegate Setup Permissions**.
+1.  Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte **Delegate Setup Permissions**.
 
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.
 
@@ -65,6 +66,6 @@ Você pode criar configurações de retenção de QoE usando o Windows PowerShel
 
 Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) .
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
-[Implantando o Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

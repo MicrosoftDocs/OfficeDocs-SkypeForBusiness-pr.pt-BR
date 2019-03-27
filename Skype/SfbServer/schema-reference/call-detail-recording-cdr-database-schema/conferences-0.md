@@ -1,5 +1,6 @@
 ---
 title: Exibir conferências
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 description: O modo de exibição de conferências armazena informações sobre as conferências. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
-ms.openlocfilehash: 98fbf972badeb6cf3b179c8fa408626f2224f5b3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 42bdbed9cceb8d50e2de8ddbe29ba406e4a0a2f5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887803"
 ---
 # <a name="conferences-view"></a>Exibir conferências
  
@@ -33,6 +35,6 @@ O modo de exibição de conferências armazena informações sobre as conferênc
 |**OrganizerType** <br/> |nvarchar(256)  <br/> |Tipo de URI do usuário que organizou a conferência. Consulte a [tabela UriTypes](uritypes.md) para obter mais informações. <br/> |
 |**OrganizerTenant** <br/> |nvarchar(256)  <br/> |Locatário do usuário que organizou a conferência. Consulte a [tabela de inquilinos](tenants.md) para obter mais informações. <br/> |
 |**Pool** <br/> |nvarchar(256)  <br/> |Nome de domínio totalmente qualificado do pool que hospeda a conferência.  <br/> |
-|**Sinalizador** <br/> |smallint  <br/> |Máscara de bits que contém os atributos de conferência. Os valores possíveis são:  <br/> 0X01 - transação sintética  <br/> |
+|**Sinalizador** <br/> |smallint  <br/> |Máscara de bits que contém os atributos de conferência. Valores possíveis são:  <br/> 0X01 - transação sintética  <br/> |
    
 

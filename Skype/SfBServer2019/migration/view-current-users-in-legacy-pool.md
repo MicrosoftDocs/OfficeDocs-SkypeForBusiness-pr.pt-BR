@@ -1,5 +1,6 @@
 ---
 title: Exibir usuários atuais no pool herdado
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Antes de aprender as várias maneiras que você pode mover usuários entre pools, primeiro deve determinar quais usuários existir no pool herdado. A imagem abaixo, a coluna pool registrador identifica seis usuários que estão configurados para o pool herdado. Esses são os usuários de teste que podemos serão transferidos para o Skype para Business Server 2019 pool.
-ms.openlocfilehash: 172d73c35986a57941a1a6778fbf52f21367f3f1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 980c3c48e026f929e95fcd9f9784b7d2a534c6cc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028814"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894470"
 ---
 # <a name="view-current-users-in-legacy-pool"></a>Exibir usuários atuais no pool herdado
 

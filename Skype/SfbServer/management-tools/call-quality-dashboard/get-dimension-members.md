@@ -1,5 +1,6 @@
 ---
-title: Obtenha os membros de dimensão
+title: Obtenha os Membros da Dimensão
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: 'Resumo: Saiba mais sobre a operação obter membros da dimensão. A operação obter membros da dimensão é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: 4c53e809d13b1ceb386c6727805402be9dfaf7f8
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 59cc44cfabca8f216b9d03046fbe697daccbaee2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532984"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897098"
 ---
-# <a name="get-dimension-members"></a>Obtenha os membros de dimensão
+# <a name="get-dimension-members"></a>Obtenha os Membros da Dimensão
  
 **Resumo:** Saiba mais sobre a operação obter membros da dimensão. A operação obter membros da dimensão é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
   
 A operação obter membros da dimensão é parte da API de dados para o painel de qualidade de chamada.
   
-## <a name="get-dimension-members"></a>Obtenha os membros de dimensão
+## <a name="get-dimension-members"></a>Obtenha os Membros da Dimensão
 
 Operação de membros da dimensão Get retorna a lista de membros de uma dimensão específica. Ele também dá a capacidade de filtrar a lista de membro e obtenha um subconjunto, para reduzir o custo de transferência de transmissão.
   

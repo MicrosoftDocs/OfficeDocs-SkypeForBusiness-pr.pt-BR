@@ -1,5 +1,6 @@
 ---
 title: Filtro de arquivo criar novo ou editar existente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: a203b237e41805828a1cb6d3ed69361e9a5bc0eb
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d563a33f68a7ebe863bca5109746f69327c1a6c5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248206"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892368"
 ---
-# <a name="file-filter-create-new-or-edit-existing"></a>Filtro de arquivo: Criar novo ou editar existente
+# <a name="file-filter-create-new-or-edit-existing"></a>Filtro de Arquivo: Criar Novo ou Editar Existente
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 

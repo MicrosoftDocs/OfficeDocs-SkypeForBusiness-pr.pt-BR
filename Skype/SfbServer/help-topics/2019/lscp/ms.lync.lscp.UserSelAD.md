@@ -1,5 +1,6 @@
 ---
 title: Selecionar no Active Directory
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: ae1f6ed7-08da-41e1-b327-50e4a22992e6
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use selecionar na caixa de diálogo do Active Directory para localizar usuários que você deseja habilitar para Skype para Business Server. Na caixa de pesquisa, digite o endereço SIP ou o nome para exibição do usuário que você deseja localizar. Para recuperar todos os usuários disponíveis, não digite nada na caixa de pesquisa.
-ms.openlocfilehash: 061636c5db637bb6bd966d956abc162ae7a3cd6a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e0c9c32a7e66a73cd843fb3b3f6079e6dc11f02c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20972962"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894611"
 ---
 # <a name="select-from-active-directory"></a>Selecionar no Active Directory
  

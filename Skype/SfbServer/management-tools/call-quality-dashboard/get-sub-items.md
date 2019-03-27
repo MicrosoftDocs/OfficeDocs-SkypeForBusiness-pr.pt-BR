@@ -1,5 +1,6 @@
 ---
-title: Obter itens sub-recurso
+title: Obter subitens
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
 description: 'Resumo: Saiba mais sobre a operação obter itens sub, que é parte do serviço do Item. O serviço de Item é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: 648f514ff03361673962052445d25076437057b9
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 41287978338bce49d8d8c30d1d6b91b9b2498acc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531071"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889004"
 ---
-# <a name="get-sub-items"></a>Obter itens sub-recurso
+# <a name="get-sub-items"></a>Obter subitens
  
 **Resumo:** Saiba mais sobre a operação obter itens sub, que é parte do serviço do Item. O serviço de Item é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
   
 A operação obter itens sub-recurso é parte do serviço do Item na API repositório para o painel de controle de qualidade de chamada.
   
-## <a name="get-sub-items"></a>Obter itens sub-recurso
+## <a name="get-sub-items"></a>Obter subitens
 
 Obter itens sub-recurso retorna subitens de um Item específico.
   

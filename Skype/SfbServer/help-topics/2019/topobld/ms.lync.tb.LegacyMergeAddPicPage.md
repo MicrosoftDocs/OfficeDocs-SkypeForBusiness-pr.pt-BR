@@ -1,5 +1,6 @@
 ---
-title: Mesclagem de legado
+title: Mesclagem Herdada
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 ROBOTS: NOINDEX, NOFOLLOW
 description: O FQDN externo de webconferência permite que usuários externos para participar de reuniões no local. Insira o nome de domínio totalmente qualificado (FQDN) da interface externa de conferência da web do servidor de borda herdado.
-ms.openlocfilehash: bd8fba515f2eb9a3f272f7d2f4f70bbc4a0716f5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5402508ac733eb7a550fe4984850f8e889ae3929
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253568"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889060"
 ---
-# <a name="legacy-merge"></a>Mesclagem de legado
+# <a name="legacy-merge"></a>Mesclagem Herdada
 
 O **FQDN externo de webconferência** permite que usuários externos para participar de reuniões no local. Insira o nome de domínio totalmente qualificado (FQDN) da interface externa de conferência da web do servidor de borda herdado.
 

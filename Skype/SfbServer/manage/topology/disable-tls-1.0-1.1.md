@@ -1,5 +1,6 @@
 ---
 title: Desabilitar o TLS 1.0/1.1 no Skype para Business Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: heidip
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumo: Preparar e implementar desabilitando TLS 1.0 e 1.1 em seus ambientes.'
-ms.openlocfilehash: f99cf01ceb952298e90d296461e0d2b663f92c5d
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: c10be59bb3e14ccb0a3ac315891789e8a0e2ce64
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493930"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886597"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Desabilitar o TLS 1.0/1.1 no Skype para Business Server 2015
 
@@ -26,7 +27,7 @@ A finalidade deste artigo é fornecer as diretrizes necessárias para você prep
 - [Pré-requisitos e processo](#prerequisites-and-process)
 - [Cenários de implantação avançada](#advanced-deployment-scenarios)
 
-## <a name="background"></a>Segundo plano
+## <a name="background"></a>Plano de fundo
 
 Os principais fatores para fornecer TLS 1.0 e suporte de disable 1.1 para Skype para Business Server local são os requisitos de conselho de padrões de segurança do setor de cartões de pagamento (PCI) e os padrões de processamento de informações federais. Para obter mais informações para os requisitos de PCI podem ser encontradas [aqui](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls).  Não é possível para o Microsoft fornecem orientação sobre ou não a sua organização é obrigada aderir a essas ou outros requisitos. Você deve determinar se ele é necessário para desabilitar o TLS 1.0 e/ou 1.1 em seus ambientes.
 
@@ -38,7 +39,7 @@ Microsoft gerou um white paper sobre TLS disponíveis [aqui](https://cloudblogs.
 
 ### <a name="fully-tested-and-supported-servers"></a>Servidores totalmente testadas e suportadas
 
-- Skype para Business Server 2019
+- Skype for Business Server 2019
 - Skype para Business Server 2015 CU6 HF2 6.0.9319.516 ([março 2018 atualizar](https://support.microsoft.com/en-us/help/4086059/march-2018-cumulative-update-6-0-9319-516-for-skype-for-business)) e superiores em: 
     - Windows Server 2012 (com 3140245 KB ou atualização que substitui), 2012 R2 ou 2016
 - In-loco atualizados Skype para Business Server 2015, com CU6 HF2 e superiores em 

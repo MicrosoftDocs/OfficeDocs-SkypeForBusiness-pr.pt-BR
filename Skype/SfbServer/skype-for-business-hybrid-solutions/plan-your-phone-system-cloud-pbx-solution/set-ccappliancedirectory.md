@@ -1,5 +1,6 @@
 ---
 title: Set-CcApplianceDirectory
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
 description: O cmdlet Set-CcApplianceDirectory define o diretório de trabalho no servidor host do Skype for Business Cloud Connector Edition. Todos os arquivos de implantação são armazenados nesse diretório.
-ms.openlocfilehash: 67fda4f1ef7da0f9a7e61b1099c7edb3b96ad62c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 16c9c858d770b7d4a74c9030ebdc760f5a9f25e9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888179"
 ---
 # <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  
@@ -40,7 +42,7 @@ Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
 
 |**Parâmetro**|**Obrigatório**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| Path <br/> | Obrigatório <br/> |System. String  <br/> | Especifica o caminho onde todos os arquivos da implantação são armazenados. <br/> |
+| Path <br/> | Obrigatório <br/> |System.String  <br/> | Especifica o caminho onde todos os arquivos da implantação são armazenados. <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
@@ -50,9 +52,9 @@ Nenhum. O cmdlet Set-CcApplianceDirectory não aceita a entrada por pipeline.
 ## <a name="return-types"></a>Tipos de retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum
+Nenhum 
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 <a name="ReturnTypes"> </a>
 
 Nenhum

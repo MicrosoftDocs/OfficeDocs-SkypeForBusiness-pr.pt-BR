@@ -1,5 +1,6 @@
 ---
 title: Implantar espelhamento de SQL para alta disponibilidade do servidor back-end no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Para que seja possível implantar o espelhamento de SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: o principal, o espelho e a testemunha. Para obter detalhes, consulte cumulativa 9 do pacote de atualização para SQL Server 2008 Service Pack 1.'
-ms.openlocfilehash: 9ea6e8a48fbcc3f5938c33e9d06db3c882f28de2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ebf1d222bff572100fe7824e52acdef2ff85216d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373797"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886272"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implantar o espelhamento do SQL para servidor Back-End alta disponibilidade em Skype para Business server 2015
 
@@ -49,7 +50,7 @@ Com o espelhamento de SQL, você pode configurar a topologia do espelhamento qua
 > Usando o construtor de topologia ou cmdlets para configurar e remover SQL espelhamento é aceito somente quando o principal, espelho e servidores de testemunha (se desejar) pertencem ao mesmo domínio. Se quiser configurar o espelhamento SQL entre servidores de domínios diferentes, consulte a documentação do SQL Server.
 
 > [!IMPORTANT]
-> Sempre que fizer uma alteração em uma relação de espelhamento de banco de dados back-end, você deverá reiniciar todos os servidores front-end do pool.  > Para uma alteração de espelhamento, (por exemplo, alterando o local de um espelho), você deve usar o construtor de topologias para executar estas três etapas:
+> Sempre que fizer uma alteração em uma relação de espelhamento de banco de dados back-end, você deverá reiniciar todos os servidores front-end do pool.  gt _ para uma alteração de espelhamento, (por exemplo, alterando o local de um espelho), você deve usar o construtor de topologias para executar estas três etapas:
 
 1. Remova o espelhamento do servidor espelho antigo.
 
@@ -58,7 +59,7 @@ Com o espelhamento de SQL, você pode configurar a topologia do espelhamento qua
 3. Publique a topologia.
 
 > [!NOTE]
-> Um compartilhamento de arquivos deve ser criado para os arquivos espelho a serem gravados, e o serviço no qual o SQL Server e o SQL Agent estão sendo executados precisam de acesso de leitura/gravação. Se o serviço SQL Server está sendo executado em contexto de serviço de rede, você pode adicionar \<domínio\>\\< NOME_SERVIDOR_SQL\>$ do Principal e espelho SQL Servers para as permissões de compartilhamento. O $ é importante para identificar que esta é uma conta de computador.
+> Um compartilhamento de arquivos deve ser criado para os arquivos espelho a serem gravados, e o serviço no qual o SQL Server e o SQL Agent estão sendo executados precisam de acesso de leitura/gravação. Se o serviço SQL Server está sendo executado em contexto de serviço de rede, você pode adicionar \<domínio\>\\<SQLSERVERNAME\>$ do Principal e espelho SQL Servers para as permissões de compartilhamento. O $ é importante para identificar que esta é uma conta de computador.
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>Para configurar o espelhamento SQL durante a criação de um pool no construtor de topologia
 
@@ -236,11 +237,11 @@ A maneira mais fácil de configurar o espelhamento é usando o construtor de top
 
     **Install-CsMirrorDatabase** instala o espelho e configura o espelhamento para todos os bancos de dados que estão presentes no repositório de SQL principal. Se você deseja configurar o espelhamento de bancos de dados somente específicos, você pode usar a opção - DatabaseType, ou se você quiser configurar o espelhamento para todos os bancos de dados, com exceção de alguns, você pode usar a opção - ExcludeDatabaseList, juntamente com uma lista separada por vírgulas de banco de dados nomes a serem excluídos.
 
-    Por exemplo, se você adicionar a opção a seguir a **Install-CsMirrorDatabase**, todos os bancos de dados, com exceção de rtcab e rtcxds Databases serão espelhados.
+    Por exemplo, caso você adicione a opção a seguir a **Install-CsMirrorDatabase**, todos os bancos de dados serão espelhados, com exceção de rtcab e rtcxds.
 
     `-ExcludeDatabaseList rtcab,rtcxds`
 
-   Por exemplo, se você adicionar a opção a seguir a **Install-CsMirrorDatabase**, somente, os bancos de dados rtcab, rtcshared e rtcxds Databases serão espelhados.
+   Por exemplo, caso você adicione a opção a seguir a **Install-CsMirrorDatabase**, somente os bancos de dados rtcab, rtcshared e rtcxds serão espelhados.
 
     `-DatabaseType User`
 

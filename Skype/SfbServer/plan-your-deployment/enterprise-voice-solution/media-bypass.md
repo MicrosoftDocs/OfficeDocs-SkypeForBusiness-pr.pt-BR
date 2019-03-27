@@ -1,5 +1,6 @@
 ---
 title: Planejar o bypass de mídia no Skype para negócios
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Decisões necessárias para planejar a mídia os endereços no Skype Business Server Enterprise Voice. Inclui interoperabilidade com o controle de admissão de chamadas (CAC).
-ms.openlocfilehash: b9cb62e8153f7eb54159637954ea13cda72b6817
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 26cf20fcd7b8378d99da21be46bd6ca219b82196
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885312"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884860"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planejar o bypass de mídia no Skype para negócios
 
@@ -36,7 +37,7 @@ A figura a seguir exibe caminhos de mídia e sinalização básicos em topologia
 
 **Caminhos de mídia e sinalização com e sem desvio de mídia**
 
-![Imposição da conexão de bypass de mídia do CAC de voz](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![Imposição de Conexão voz CAC Media Bypass](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 Bypass de mídia é útil quando você deseja minimizar o número de servidores de mediação implantados. Normalmente, um pool de servidores de mediação será implantado em um site central, e ele controlará gateways em sites de filiais. Habilitar o bypass de mídia permite que a mídia para chamadas PSTN de clientes em sites locais flua diretamente pelos gateways para estes sites. Skype para Business Server rotas de chamada de saída e políticas do Enterprise Voice deve ser configurado corretamente para que as chamadas PSTN de clientes em um site de filial são roteadas para o gateway apropriado.
 
@@ -101,7 +102,7 @@ O bypass de mídia e o CAC trabalham juntos para gerenciar o controle de largura
 
     Ainda que o CAC esteja desabilitado globalmente, a política de largura de banda precisa ser definida para cada site e link se você quiser usar a configuração site-e-região para controlar a decisão de bypass. O valor real da restrição de largura de banda ou seu modalidade não importa. O objetivo final é que o sistema calcule automaticamente as IDs diferentes de bypass para associar aos locais diferentes que não estão bem conectados. Definir a restrição da largura de banda por definição significa que um link não está bem conectado.
 
-- O CAC está habilitado, mas o bypass de mídia não. Isso se aplica apenas onde todos os gateways e IP-PBXs não estão bem conectados ou não atendem outros requisitos para o bypass de mídia. Para obter detalhes sobre os requisitos para bypass de mídia, consulte [Requirements for Bypass de mídia](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx).
+- O CAC está habilitado, mas o bypass de mídia não. Isso se aplica apenas onde todos os gateways e IP-PBXs não estão bem conectados ou não atendem outros requisitos para o bypass de mídia. Para obter detalhes sobre requisitos de bypass de mídia, consulte [Requirements for Media Bypass](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx).
 
 ## <a name="technical-requirements"></a>Requisitos técnicos
 

@@ -1,5 +1,6 @@
 ---
-title: Cancelar o registro de CcAppliance
+title: Unregister-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: O cmdlet Unregister-CcAppliance cancela o registro do dispositivo do Skype for Business Cloud Connector Edition atual a partir de um site PSTN na configuração online do locatário.
-ms.openlocfilehash: 21bd0a7dffc6a395f829af68a61dfd7523d2c09a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6ee21f66c2b189aff8c8aa7d831369536618b18c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892001"
 ---
-# <a name="unregister-ccappliance"></a>Cancelar o registro de CcAppliance
+# <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
 O cmdlet Unregister-CcAppliance cancela o registro do dispositivo do Skype for Business Cloud Connector Edition atual a partir de um site PSTN na configuração online do locatário.
   
@@ -63,8 +65,8 @@ Após o aparelho não registrado, reinicie o serviço de gerenciamento do conect
 
 |**Parâmetro**|**Obrigatório**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| SiteName <br/> |Opcional  <br/> |System. String  <br/> |O nome do site PSTN onde o dispositivo foi registrado. O valor padrão é o SiteName no arquivo CloudConnector.ini.  <br/> |
-|ApplianceName  <br/> |Opcional  <br/> |System. String  <br/> |Nome do dispositivo padrão. O valor padrão é o nome do computador do servidor host.  <br/> |
+| SiteName <br/> |Opcional   <br/> |System.String  <br/> |O nome do site PSTN onde o dispositivo foi registrado. O valor padrão é o SiteName no arquivo CloudConnector.ini.  <br/> |
+|ApplianceName  <br/> |Opcional   <br/> |System.String  <br/> |Nome do dispositivo padrão. O valor padrão é o nome do computador do servidor host.  <br/> |
 |Local  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Verifique a configuração do registro localmente sem conectar-se a uma configuração de locatário online.  <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
@@ -77,15 +79,15 @@ Nenhum. O cmdlet Unregister-CcAppliance não aceita a entrada por pipeline.
 
 Nenhum
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 <a name="ReturnTypes"> </a>
 
 [Register-CcAppliance](register-ccappliance.md)
   
 [Install-CcAppliance](install-ccappliance.md)
   
-[Desinstalar-CcAppliance](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
-[Publicar-CcAppliance](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
 

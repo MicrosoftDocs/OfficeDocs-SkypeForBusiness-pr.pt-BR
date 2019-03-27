@@ -1,5 +1,6 @@
 ---
 title: Verifique se o ambiente de legado
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Antes de implantar o Skype para negócios 2019 de servidor em um estado de coexistência, você precisará verificar se os serviços de legado foi configurados e iniciados. É importante identificar os principais serviços e recursos que existem no seu ambiente herdado, antes de implantar um Skype para o pool piloto Business Server 2019. Antes de implantar o Microsoft Skype para Business Server 2019 XMPP em um estado de coexistência com uma implantação de XMPP herdado, você precisa verificar se os serviços XMPP herdados foram configurados e iniciados e identifique qual parceiro federado é a configuração de XMPP herdado dando suporte.
-ms.openlocfilehash: d6e4585e127009117345d1220458196b5b461b6a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0f9812efe966d72eba1eeead9d74780f2ba16661
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030424"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887343"
 ---
 # <a name="verify-the-legacy-environment"></a>Verificar o ambiente de legado
 

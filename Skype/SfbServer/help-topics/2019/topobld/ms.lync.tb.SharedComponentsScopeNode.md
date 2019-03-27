@@ -1,5 +1,6 @@
 ---
 title: Nó de escopo de componentes compartilhados
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você right clicar em componentes compartilhados na árvore de hierarquia do construtor de topologias para criar novos componentes compartilhados ou para acessar as opções de nível de topologia.
-ms.openlocfilehash: 36395e21e3b697c5fc881223a223c70e32e10386
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 68b11a03edb129c0249f3a8816e44eea065a69f3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060152"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893087"
 ---
 # <a name="shared-components-scope-node"></a>Nó de escopo de componentes compartilhados
  
@@ -34,6 +35,6 @@ Selecione **novo** para criar um novo filestore, um novo Gateway IP/PSTN, um nov
   
 Você selecionar a **topologia** , clique em opções para abrir um novo documento de topologia. Abrir um documento de topologia existente, fazer Download da topologia atual do repositório de gerenciamento Central, salvar uma cópia do documento a topologia atual, publicar o documento da topologia atual, instalar banco de dados para criar as configurações de banco de dados configurado no momento, Mescle o Office Communications Server 2007 R2 no implantação atual ou para remover implantação.
   
-![Nó de escopo de componentes compartilhados C](../../../media/Shared_Components_Scope_NodeC.jpg)
+![Nó de escopo de componentes C compartilhadas](../../../media/Shared_Components_Scope_NodeC.jpg)
   
 

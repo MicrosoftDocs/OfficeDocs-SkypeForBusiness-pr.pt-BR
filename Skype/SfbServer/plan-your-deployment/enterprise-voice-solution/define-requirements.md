@@ -1,5 +1,6 @@
 ---
 title: Definir seus requisitos para chamadas de emergência Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: Resume as etapas necessárias para habilitar o E9-1-1 em Skype para Business Server Enterprise Voice, dependendo se você tem um provedor de serviços de E9-1-1 de tronco SIP ou um gateway ELIN.
-ms.openlocfilehash: 200e7fc8461f6628ab4827953a274ae8922646b6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3ddcb25b86689f29831872f24a1893d5ff2f1f4c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882042"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885358"
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>Definir seus requisitos para chamadas de emergência Skype para Business Server
  
@@ -37,7 +38,7 @@ Antes de começar uma Skype para implantação de servidor de negócios E9-1-1, 
 |[Definir a experiência do usuário para adquirir manualmente um local no Skype para Business Server](manually-acquiring-a-location.md) <br/> |[Definir a experiência do usuário para adquirir manualmente um local no Skype para Business Server](manually-acquiring-a-location.md) <br/> |
 |[Projetar o tronco SIP para E9-1-1 em Skype para Business Server](design-the-sip-trunk.md) <br/> |[Incluir o suporte de segurança em Skype para Business Server](security-desk.md) <br/> |
 |[Incluir o suporte de segurança em Skype para Business Server](security-desk.md) <br/> |[Planejar políticas de local Skype for Business Server](location-policies.md) <br/> |
-|[Escolher um provedor de serviço E9-1-1 para Skype para Business Server](choose-a-service-provider.md) <br/> |[Atribuir o escopo da política de local no Skype para Business Server](location-policy-scope.md) <br/> |
+|[Escolher um fornecedor de serviço E9-1-1 no Skype for Business Server](choose-a-service-provider.md) <br/> |[Atribuir o escopo da política de local no Skype para Business Server](location-policy-scope.md) <br/> |
 |[Planejar políticas de local Skype for Business Server](location-policies.md) <br/> ||
 |[Atribuir o escopo da política de local no Skype para Business Server](location-policy-scope.md) <br/> ||
    

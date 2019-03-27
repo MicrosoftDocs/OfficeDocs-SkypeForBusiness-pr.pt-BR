@@ -1,5 +1,6 @@
 ---
 title: Mover vários usuários para o pool piloto
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Você pode mover vários usuários do seu pool herdado para seu Skype para pool de piloto Business Server 2019 usando Skype para painel de controle do Business Server 2019 ou Skype para Business Server 2019 Management Shell.
-ms.openlocfilehash: 3b01613e16e41ed2ee7aac7bc6c443e19db933c2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c77598d531fa4640d64a61e22ace17e39d87b005
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372506"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888298"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Mover vários usuários para o pool piloto
 

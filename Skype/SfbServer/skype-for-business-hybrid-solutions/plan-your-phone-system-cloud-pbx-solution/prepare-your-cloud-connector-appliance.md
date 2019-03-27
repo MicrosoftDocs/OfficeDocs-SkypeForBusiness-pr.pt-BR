@@ -1,5 +1,6 @@
 ---
 title: Preparar o dispositivo do Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,21 +14,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Saiba mais sobre como preparar seu aparelho de conector de nuvem para implantação e usar com o sistema telefônico no Office 365 (nuvem PBX).
-ms.openlocfilehash: 336136021041131189261c8c3b57c46ca8b53809
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3716c7c4b9d4b8daa0a4995ed7e3d77b400b587f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371199"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887313"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Preparar o dispositivo do Cloud Connector
 
 Saiba mais sobre como preparar seu aparelho de conector de nuvem para implantação e usar com o sistema telefônico no Office 365 (nuvem PBX).
 
-Esta seção descreve como obter os arquivos de instalação do Skype for Business Cloud Connector Edition, instalar o software Cloud Connector e preparar o dispositivo do Cloud Connector para implantação. Depois de ter concluído todas as etapas desta seção, você estará pronto para implantar o Cloud Connector em um único site ou em vários sites. Se você possui uma implantação existente do conector de nuvem e você ainda não tiver atualizado para o conector de nuvem versão 2.1, consulte [atualizar para uma nova versão do conector de nuvem](upgrade-to-a-new-version-of-cloud-connector.md).
+Esta seção descreve como obter os arquivos de instalação do Skype for Business Cloud Connector Edition, instalar o software do Cloud Connector e preparar o dispositivo do Cloud Connector para implantação. Depois de ter concluído todas as etapas desta seção, você estará pronto para implantar o Cloud Connector em um único site ou em vários sites. Se você possui uma implantação existente do conector de nuvem e você ainda não tiver atualizado para o conector de nuvem versão 2.1, consulte [atualizar para uma nova versão do conector de nuvem](upgrade-to-a-new-version-of-cloud-connector.md).
 
 > [!NOTE]
-> A Microsoft oferece suporte à versão atual do Edition do conector de nuvem, versão 2.1. Se você configurou a atualização automática, o Cloud Connector será atualizado automaticamente. Se você configurou a atualização manual, você precisará atualizar para a versão 2.1 até 60 dias após o lançamento. Microsoft dará suporte a versão anterior para 60 dias após o lançamento do 2.1 para permitir que o seu tempo para atualizar. 
+> A Microsoft oferece suporte à versão atual do Edition do conector de nuvem, versão 2.1. Se você tiver configurado a atualização automática, o Cloud Connector será atualizado automaticamente. Se você configurou a atualização manual, você precisará atualizar para a versão 2.1 até 60 dias após o lançamento. Microsoft dará suporte a versão anterior para 60 dias após o lançamento do 2.1 para permitir que o seu tempo para atualizar. 
 
 > [!NOTE]
 > Para o conector de nuvem versão 2.1 e posterior, o aparelho de host deve ter o .NET Framework 4.6.1 ou posterior instalado. 
@@ -118,7 +119,7 @@ Esta seção descreve como obter os arquivos de instalação do Skype for Busin
     Especificar o caminho completo do certificado externo, incluindo o nome do arquivo. O certificado pode ser armazenado localmente ou em um compartilhamento de arquivo. Se o certificado for armazenado em uma pasta compartilhada, essa pasta deverá ser criada no primeiro dispositivo de cada site e deverá ser acessível por outros dispositivos pertencentes ao mesmo site. Esse cmdlet copia o certificado externo para o **Diretório de Dispositivos**.
 
     > [!IMPORTANT]
-    > **Se você tiver atualizado para o Cloud Connector versão 1.4.2 ou posteriores**, verifique se o certificado externo preparado contém chaves privadas e a cadeia completa de certificados, inclusive o certificado de Autoridade de Certificação raiz e os certificados de Autoridade de Certificação intermediária.   **Se você NÃO tiver atualizado ainda para o Cloud Connector versão 1.4.2**, certifique-se de que  o certificado externo preparado contém chaves privadas. Esse certificado externo deve ser emitido pela Autoridade de Certificação que é confiável para o Windows por padrão.
+    > **Se você tiver atualizado para o Cloud Connector versão 1.4.2 ou posteriores**, verifique se o certificado externo preparado contém chaves privadas e a cadeia completa de certificados, inclusive o certificado de Autoridade de Certificação raiz e os certificados de Autoridade de Certificação intermediária. **Se você NÃO tiver atualizado ainda para o Cloud Connector versão 1.4.2**, certifique-se de que  o certificado externo preparado contém chaves privadas. Esse certificado externo deve ser emitido pela Autoridade de Certificação que é confiável para o Windows por padrão.
 
 ## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Definir o caminho do certificado de gateway PSTN externo/SBC
 
@@ -157,7 +158,7 @@ Para atualizar o arquivo, execute o seguinte cmdlet para obter o modelo (CloudCo
 Export-CcConfigurationSampleFile
 ```
 
-O modelo é armazenado no **Diretório de Dispositivos**. 
+O modelo é armazenado no **Diretório de Dispositivos**.
 
 Depois de atualizá-lo com os valores para seu ambiente, salve o arquivo como CloudConnector.ini no **Diretório de Dispositivos**. Você pode executar o **Get-CcApplianceDirectory** para determinar o caminho do **Diretório de Dispositivos**.
 
@@ -242,15 +243,15 @@ Esta etapa prepara o VHDX (arquivo do disco virtual) a partir da imagem ISO do W
 
 Antes de continuar com esta etapa, verifique se o comutador corpnet foi criado. Além disso, confirme se as seguintes configurações estão corretas no arquivo CloudConnector.ini:
 
-- [Network] CorpnetSwitchName
+- [Network]CorpnetSwitchName
 
-- [Comuns] BaseVMIP
+- [Common]BaseVMIP
 
-- [Network] CorpnetIPPrefixLength
+- [Network]CorpnetIPPrefixLength
 
-- [Network] CorpnetDefaultGateway
+- [Network]CorpnetDefaultGateway
 
-- [Network] CorpnetDNSIPAddress
+- [Network]CorpnetDNSIPAddress
 
 Inicie um console do PowerShell como administrador e execute o seguinte cmdlet para converter a imagem ISO em um VHD:
 
@@ -263,7 +264,7 @@ Especifique o caminho completo da imagem ISO. Inclua o nome do arquivo. Por exem
 O arquivo VHD criado é armazenado na pasta \Bits\VHD **Diretório de sites** . Você pode obter o caminho do **Diretório de Sites** executando **Get-CcSiteDirectory**.
 
 > [!IMPORTANT]
-> Por padrão, as configurações de proxy não são feitas na VM base. Se for necessário um proxy no seu ambiente de rede para atualizar a VM via Windows Update, adicione a opção - PauseBeforeUpdate quando você executa "Convert-CcIsoToVhdx". O script pausará antes do Windows Update e você terá a oportunidade para configurar manualmente a proxy no VM. Quando a configuração do proxy for concluída e a VM conseguir acessar a Internet, você poderá retomar o script para concluir as etapas restantes. 
+> Por padrão, as configurações de proxy não são definidas na VM base. Se for necessário um proxy no seu ambiente de rede para atualizar a VM via Windows Update, adicione a opção - PauseBeforeUpdate quando você executa "Convert-CcIsoToVhdx". O script pausará antes do Windows Update e você terá a oportunidade para configurar manualmente a proxy no VM. Quando a configuração do proxy for concluída e a VM conseguir acessar a Internet, você poderá retomar o script para concluir as etapas restantes. 
 
 ### <a name="create-vhds-for-a-multi-site-deployment"></a>Criar VHDs para a implantação de vários sites
 
@@ -308,6 +309,6 @@ Um inquilino do Office 365 com o Skype para Business Online e o sistema telefôn
 
 Algumas etapas de instalação do Office 365 exigem que você usar o PowerShell remoto do inquilino (TRPS) para configurar seu locatário do Office 365. **Isso deve ser instalado no servidor host.** Você pode baixar o Skype para módulo Business Online do PowerShell do: [Skype para negócios Online, o módulo do Windows PowerShell](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
 
-Crie um Skype dedicado para a conta de administrador de negócios para o gerenciamento on-line do conector de nuvem, por exemplo, CceOnlineManagmentAdministrator. Essa conta será usada pelo dispositivo para adicionar ou remover dispositivos, habilitar ou desabilitar a atualização automática do sistema operacional, habilitar ou desabilitar a atualização automática de binários. Defina a senha dessa conta para nunca expirar, assim não será necessário alterá-la para o serviço sempre que ela expirar.
+Crie um Skype dedicado para a conta de administrador de negócios para o gerenciamento on-line do conector de nuvem, por exemplo, CceOnlineManagmentAdministrator. Essa conta será usada pelo dispositivo para adicionar ou remover dispositivos, habilitar ou desabilitar a atualização automática do sistema operacional, habilitar ou desabilitar a atualização automática de binários. Defina a senha dessa conta como nunca expirar, assim não será necessário alterá-la para o serviço sempre que ela expirar.
 
 

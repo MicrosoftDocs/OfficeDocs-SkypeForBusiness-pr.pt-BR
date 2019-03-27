@@ -1,5 +1,6 @@
 ---
 title: Recuperação de desastres testes no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Executar uma recuperação do sistema para um Skype para o pool de servidores Business Server testar seu processo de recuperação de desastres documentadas
-ms.openlocfilehash: d401d27c1cc0f5b04c6e256a1e55f6847c9c35ba
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 876470f0e4193f02efe0a2094be80f7bdf891fdd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222720"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884961"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Recuperação de desastres testes no Skype para Business Server
 
@@ -45,12 +46,12 @@ Depois que esses dados for restaurados, os usuários efetivamente podem conectar
 
 A produção Skype para pool de negócios será referenciada pelos clientes estão usando a configuração automática e registros SRV de DNS:
 
-- SRV: _sip._tls. \<domínio > /CNAME: SIP. \<domínio >
-- CNAME: SIP. \<domínio > /cvc-pool-1. \<domínio >
+- SRV: _sip._tls. \<domain> /CNAME: SIP. \<domain>
+- CNAME: SIP. \<domain> /cvc-pool-1. \<domain>
 
 Para facilitar o failover, esse registro CNAME deve ser atualizado para referenciar o FQDN DROCSPool:
 
-- CNAME: SIP.<domain> / DROCSPool. \<domínio >
-- SIP. \<domínio >
-- Antivírus.\<domínio >
-- webconf. \<domínio >
+- CNAME: SIP.<domain> / DROCSPool. \<domain>
+- SIP. \<domain>
+- Antivírus.\<domain>
+- webconf. \<domain>

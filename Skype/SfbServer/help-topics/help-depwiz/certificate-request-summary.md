@@ -1,5 +1,6 @@
 ---
 title: Solicitação de Certificado (Resumo)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e907e36b-c168-464c-8b52-edd409704a02
-description: A página de resumo de solicitação de certificado exibe um resumo detalhado de todas as opções e configurações para o certificado. O resumo representa o que a solicitação de certificado conterá, e subsequentemente, como o certificado será emitido. Revise com atenção o resumo para se certificar de que todas as outras entradas e opções selecionadas estão corretas. Se suas seleções estão corretas, clique em Avançar para continuar com a geração da solicitação e prepará-lo para envio para a autoridade de certificação (CA).
-ms.openlocfilehash: b1724300480560f92425d5eada02523826784370
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: A página Resumo da Solicitação de Certificado exibe um resumo detalhado de todas as opções e configurações para o certificado. O resumo representa o que a solicitação de certificado conterá, e subsequentemente, como o certificado será emitido. Revise com atenção o resumo para se certificar de que todas as outras entradas e opções selecionadas estão corretas. Se suas seleções estiverem corretas, clique em Avançar para continuar com a geração da solicitação e prepará-la para envio para a Autoridade de Certificação (AC).
+ms.openlocfilehash: 01bbc157fd9ce1791b20306d462021a0029a666b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886462"
 ---
 # <a name="certificate-request-summary"></a>Solicitação de Certificado (Resumo)
  

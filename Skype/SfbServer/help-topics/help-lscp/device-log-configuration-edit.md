@@ -1,5 +1,6 @@
 ---
 title: Edição de configuração de Log de dispositivo
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Você pode adicionar uma configuração de log de dispositivo para a página Editar configuração de Log que determina o tamanho de cache máximo do log, tamanho do arquivo de log máximo ou período de tempo que um arquivo de log é mantido antes de ele será limpo. Você pode alterar essas configurações de acordo com requisitos da sua organização.
-ms.openlocfilehash: fac6dd8aae7c1081c268d35ea0336b41eb7c6f55
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 09d0bc24ad61be98864fd1f37964c01f1fba84ba
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969991"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888263"
 ---
-# <a name="device-log-configuration-edit"></a>Configuração de Log de dispositivo: Editar
+# <a name="device-log-configuration-edit"></a>Configuração de Log de Dispositivo: Editar
  
 Você pode adicionar uma configuração de log de dispositivo para a página **Editar configuração de Log** que determina o tamanho de cache máximo do log, tamanho do arquivo de log máximo ou período de tempo que um arquivo de log é mantido antes de ele será limpo. Você pode alterar essas configurações de acordo com requisitos da sua organização.
   
@@ -50,6 +51,6 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
     
 - **Dias para manter os arquivos de log (1-365)** Você pode especificar o número de dias que os arquivos de log são mantidos antes de serem expurgados. O padrão é 10 dias.
     
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Configuração do Log de Dispositivos](device-log-configuration.md)

@@ -1,5 +1,6 @@
 ---
 title: Aplicativo confiável de topologia
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 74736e154de6448b7a9f8778b865f2e8d11cd274
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 0a387833649da2a6b94d639ad76379b6f4816106
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260584"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890069"
 ---
-# <a name="topology-trusted-application"></a>Topologia: Aplicativo confiável
+# <a name="topology-trusted-application"></a>Topologia: Aplicativo Confiável
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 

@@ -1,5 +1,6 @@
 ---
 title: Expansor de Configurações de Próximo Salto de Chat Persistente
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 description: Você pode configurar Persistent Chat próximo pool de salto selecionando um servidor Front-End ou um pool de Front-End da lista.
-ms.openlocfilehash: 1b870ddedc5feca3bce38153d1ed4b4dc181f1e6
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 9aebee08f1b8004df096e21a65bb3639ccfcee08
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503729"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889942"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>Expansor de Configurações de Próximo Salto de Chat Persistente
  
@@ -29,7 +30,7 @@ Você pode configurar o **pool do próximo salto** de Chat persistente, selecion
   
  **Ajuda** Exibe essa tela de ajuda.
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Planejar Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

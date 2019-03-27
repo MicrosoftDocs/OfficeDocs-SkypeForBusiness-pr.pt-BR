@@ -1,5 +1,6 @@
 ---
 title: Skype para solução de problemas para erros de entrada no Business Online para administradores
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Saiba as causas comuns para Skype para erros de entrada Business Online e trabalho por meio de solucionar esses problemas. '
-ms.openlocfilehash: b9eccd817fbb9a67fcbce61d73b4a701c6b063de
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 369dc9347903335227641b1afebb1fd199d64541
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789080"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886991"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Skype para solução de problemas para erros de entrada no Business Online para administradores
 

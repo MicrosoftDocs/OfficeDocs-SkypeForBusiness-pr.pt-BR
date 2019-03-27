@@ -1,5 +1,6 @@
 ---
 title: Tabela ErrorCategory no Skype para Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fde3b73-9a2f-44dd-b8dc-6df512303ff1
 description: 'A tabela ErrorCategory contém o nome amigável para cada Skype para a classificação de diagnóstico Business Server 2015. Por padrão, o Skype para Business Server 2015 usa as seguintes classificações:'
-ms.openlocfilehash: 23df7ecb7e10dc104e6274edb762369ad539f8fe
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 70322d30b516d003fcac015a4eda7382a13cd2be
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886956"
 ---
 # <a name="errorcategory-table-in-skype-for-business-server-2015"></a>Tabela ErrorCategory no Skype para Business Server 2015
  
@@ -28,7 +30,7 @@ A tabela ErrorCategory contém o nome amigável para cada Skype para a classific
     
 Esta tabela foi introduzida no Microsoft Lync Server 2013.
   
-|**Coluna**|**Tipo de dados**|**Índice de chaves /**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**CategoryId** <br/> |tinyint  <br/> |Primária  <br/> |Identificador exclusivo para a classificação.  <br/> |
 |**Nome** <br/> |nvarchar(256)  <br/> || Valor e o nome amigável atribuído para a classificação. Os valores permitidos são: <br/>  0--êxito <br/>  1-- falha esperada <br/>  2 - Falha inesperada <br/> |

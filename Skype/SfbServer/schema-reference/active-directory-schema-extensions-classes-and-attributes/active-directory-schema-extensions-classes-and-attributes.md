@@ -1,5 +1,6 @@
 ---
-title: Extensões de esquema do active Directory, classes e atributos
+title: Extensões, classes e atributos do esquema do Active Directory
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: 'Esta seção de referência inclui as seguintes informações:'
-ms.openlocfilehash: f185a11bdc5d3700839be2f1306e266d9ab6af26
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 37dee1a029a0d8872452082aebb9b8f0fcf2f072
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888833"
 ---
-# <a name="active-directory-schema-extensions-classes-and-attributes"></a>Extensões de esquema do active Directory, classes e atributos
+# <a name="active-directory-schema-extensions-classes-and-attributes"></a>Extensões, classes e atributos do esquema do Active Directory
  
 Esta seção de referência inclui as seguintes informações: 
   

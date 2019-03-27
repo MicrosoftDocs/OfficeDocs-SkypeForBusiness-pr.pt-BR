@@ -1,5 +1,6 @@
 ---
 title: Expansor de Configurações Gerais de Aparelho de Filial
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 'Para editar as configurações para um aparelho de filial persistente ou o servidor de filial persistente existente, são apresentadas as seguintes seções:'
-ms.openlocfilehash: 4d394a0904d0e623708439d3c87a98284b109fc5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 336d64edfac0bda730a289284075267d7e7984d5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255071"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884940"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expansor de Configurações Gerais de Aparelho de Filial
 
@@ -65,13 +66,13 @@ No caso do **Servidor de Mediação**, você pode especificar o seguinte:
 
 A caixa de seleção **servidor de mediação colocado ativado** não está disponível em um aparelho de filial persistente ou servidor de filial persistente pois o servidor de mediação está colocado.
 
-Você define a porta de escuta nos servidores de pool para o protocolo TLS. Por padrão, essa porta é a 5067. Se você selecionar **Habilitar porta TCP**, será necessário definir uma porta TCP para o Servidor de Mediação colocado. Essa é uma configuração opcional, e você deverá verificar seus requisitos de gateway ou PSTN a fim de determinar se isso é necessário. Por padrão, o valor da porta TCP é 5068.
+Você define a porta de escuta nos servidores de pool para o protocolo TLS. Por padrão, essa porta é a 5067. Se você selecionar **Habilitar porta TCP**, será necessário definir uma porta TCP para o Servidor de Mediação colocado. Essa é uma configuração opcional, e você deverá verificar seus requisitos de gateway ou PSTN a fim de determinar se isso é necessário. Por padrão, o valor de porta TCP é 5068.
 
 Você define os gateways PSTN associados com o servidor de mediação colocado. Se você já tenha definido gateways, eles estarão disponíveis para associar o servidor de mediação. Caso não tenha definido nenhum gateway, mas eles estejam disponíveis para tal, selecione **Novo**. Você também pode remover os gateways que já estiverem configurados para o servidor de mediação. Selecione o gateway e clique em **Remover**.
 
 Se você tiver mais de um gateway associado a um servidor de mediação, o primeiro gateway associado será o gateway padrão. Caso precise escolher outro gateway como gateway padrão, selecione o gateway para tornar padrão e clique em **Tornar Padrão**.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 Para obter detalhes sobre como definir e configurar as definições para o aparelho de filial persistente ou servidor de filial persistente, consulte [Branch-Site Resiliency Solutions](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
 

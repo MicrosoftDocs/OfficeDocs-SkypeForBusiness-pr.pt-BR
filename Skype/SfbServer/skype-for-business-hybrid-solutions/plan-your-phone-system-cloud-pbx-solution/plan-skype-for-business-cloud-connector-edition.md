@@ -1,5 +1,6 @@
 ---
 title: Plano do Skype for Business Edição Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de máquinas virtuais (VMs) compactadas que implementam conectividade PSTN local com o Sistema de Telefonia do Office 365 (Cloud PBX).
-ms.openlocfilehash: 4d03d8ea6936ad906de01a5b478fce01d62113c4
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: da594ba2511b7e3a296eb57b825489305d9473d9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454132"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888749"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plano do Skype for Business Edição Cloud Connector
 
@@ -39,7 +40,7 @@ Edição de conector de nuvem 2.1 agora está disponível. Se você ainda não t
 
 Edição de conector de nuvem é uma oferta de híbrida que consiste em um conjunto de Industrializados máquinas virtuais (VMs) implementar a conectividade PSTN local com o sistema telefônico no Office 365. Implantando um Skype mínimo para a topologia de servidor de negócios em um ambiente virtualizado, os usuários em sua organização hospedados na nuvem podem receber serviços PBX de nuvem da Microsoft, mas conectividade PSTN é fornecida por meio de voz no local existente infraestrutura.
 
-![Diagrama de topologia que mostra o Gateway do Cloud PBX conectando o Cloud PBX a uma implantação local do Skype for Business.](../../media/bd898e69-6458-4276-aebe-1854f28ed6fa.png)
+![Diagrama de topologia mostrando Gateway PBX de nuvem conexão PBX de nuvem para uma implantação local do Skype para negócios.](../../media/bd898e69-6458-4276-aebe-1854f28ed6fa.png)
 
 Já que o Cloud Connector permite integrar os serviços do Sistema de Telefonia do Office 365 com o seu ambiente de telefonia existente, por exemplo, PBX, dispositivos analógicos e Call Centers, você pode implementar uma migração em fases da sua solução de telefonia existente para o Sistema de Telefonia do Office 365.
 
@@ -49,7 +50,7 @@ O Cloud Connector fornecerá o roteamento entre os usuários hospedados no local
 
 Considere o seguinte ao planejar a implantação de nuvem conector Edition:
 
-- Para usar o conector de nuvem para tirar proveito das soluções de voz de nuvem, você precisará Inscreva-se para um locatário do Office 365 que inclui o sistema telefônico no Office 365. Se você ainda não tem um locatário do Office 365, veja como se inscrever aqui: [Office 365 para empresas](https://products.office.com/en-us/business/office). Observe que você precisará se inscrever para um plano que inclua Skype para negócios Online.
+- Para usar o conector de nuvem para tirar proveito das soluções de voz de nuvem, você precisará Inscreva-se para um locatário do Office 365 que inclui o sistema telefônico no Office 365. Se você ainda não tiver um locatário do Office 365, você pode aprender como Inscreva-se aqui: [Office 365 para empresas](https://products.office.com/en-us/business/office). Observe que você precisará se inscrever para um plano que inclua Skype para negócios Online.
 
 - Para registrar os aparelhos de conector de nuvem com o Skype para serviço de Business Online e executar vários cmdlets, o conector de nuvem 2.0 e posterior exige uma conta dedicada do Office 365 com o Skype para direitos de administrador de locatário de negócios. As versões do Cloud Connector anteriores à 2.0 exigem uma conta dedicada do Office 365 com direitos de administrador global de locatários.
 
@@ -176,7 +177,7 @@ Ao planejar sua topologia, considere o seguinte:
 
 O diagrama a seguir mostra um único appliance de nuvem conector Edition em um único site do PSTN. Observe que o conector de nuvem consiste em quatro VMs instaladas em uma máquina host física que está contido em uma rede de perímetro para fins de segurança.
 
-![Um Cloud Connector com um site PSTN](../../media/7ffe6953-8c66-4323-940e-cd2e6c3c2a66.png)
+![Nuvem de um conector com um PSTN Site](../../media/7ffe6953-8c66-4323-940e-cd2e6c3c2a66.png)
 
 ### <a name="multiple-cloud-connector-appliances-within-a-single-pstn-site"></a>Vários dispositivos do Cloud Connector em um único site PSTN
 
@@ -194,7 +195,7 @@ O diagrama a seguir mostra um único appliance de nuvem conector Edition em um �
 
     Para a versão menor do conector de nuvem, N + 2 caixas suportam 50\*chamadas simultâneas do N com disponibilidade de 99,9%.
 
-![Dois Cloud Connectors em um site PSTN](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
+![Dois conectores de nuvem em 1 Site PSTN](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
 
 ### <a name="multiple-pstn-sites-with-one-or-more-cloud-connectors-per-site"></a>Vários sites PSTN com uma ou mais instâncias de Cloud Connector por site
 
@@ -249,7 +250,7 @@ Antes de implantar Edition do conector de nuvem, certifique-se de que ter o segu
 
 - PBX/Tronco qualificado ou SBC/Gateway qualificado (um mínimo de dois gateways é recomendado).
 
-    O Cloud Connector dá suporte aos mesmos SBCs (Controladores de Borda da Sessão) que são certificados para o Skype for Business. Para obter mais informações, veja [Infraestrutura de Telefonia para o Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).
+    O Cloud Connector dá suporte aos mesmos SBCs (Controladores de Borda da Sessão) que são certificados para o Skype for Business. Para obter mais informações, consulte [Infraestrutura de telefonia para Skype para negócios](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).
 
 - Uma conta de administrador do servidor local com permissões para instalar e configurar o Hyper-V em servidores host. A conta deve ter permissões de administrador no servidor local onde o Hyper-V está instalado e configurado.
 
@@ -338,10 +339,10 @@ Essa tabela mostra as portas e os intervalos de portas para a habilitação da c
 
 
 
-|**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de Destino**|
+|**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de destino**|
 |:-----|:-----|:-----|:-----|
-|Componente de mediação do conector de nuvem  <br/> |SBC/Gateway de PSTN:  <br/> |Qualquer  <br/> |TCP 5060\*\*  <br/> |
-|SBC/Gateway de PSTN:  <br/> |Componente de mediação do conector de nuvem  <br/> |Qualquer  <br/> |TCP 5068/TLS 5067  <br/> |
+|Componente de mediação do conector de nuvem  <br/> |SBC/Gateway de PSTN:  <br/> |Qualquer um  <br/> |TCP 5060\*\*  <br/> |
+|SBC/Gateway de PSTN:  <br/> |Componente de mediação do conector de nuvem  <br/> |Qualquer um  <br/> |TCP 5068/TLS 5067  <br/> |
 |Componente de mediação do conector de nuvem  <br/> |SBC/Gateway de PSTN:  <br/> |UDP 49 152-57 500  <br/> |Qualquer\*\*\*  <br/> |
 |SBC/Gateway de PSTN:  <br/> |Componente de mediação do conector de nuvem  <br/> |Qualquer\*\*\*  <br/> |UDP 49 152-57 500  <br/> |
 |Componente de mediação do conector de nuvem  <br/> |Clientes internos  <br/> |TCP 49 152-57 500\*  <br/> |TCP 50.000-50.019  <br/> (Opcional)  <br/> |
@@ -379,15 +380,15 @@ Nesse caso, todo o tráfego de mídia para a internet irá fluir através da bor
 
 |**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de destino**|
 |:-----|:-----|:-----|:-----|
-|Qualquer  <br/> |Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |TCP(MTLS) 5061  <br/> |
-|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP(MTLS) 5061  <br/> |
-|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP 80  <br/> |
-|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |UDP 53  <br/> |
-|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP 53  <br/> |
+|Qualquer um  <br/> |Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |TCP(MTLS) 5061  <br/> |
+|Interface externa da borda de conector de nuvem  <br/> |Qualquer um   <br/> |Qualquer um  <br/> |TCP(MTLS) 5061  <br/> |
+|Interface externa da borda de conector de nuvem  <br/> |Qualquer um   <br/> |Qualquer um  <br/> |TCP 80  <br/> |
+|Interface externa da borda de conector de nuvem  <br/> |Qualquer um   <br/> |Qualquer um  <br/> |UDP 53  <br/> |
+|Interface externa da borda de conector de nuvem  <br/> |Qualquer um   <br/> |Qualquer um  <br/> |TCP 53  <br/> |
 |Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
-|Qualquer  <br/> |Interface externa da borda de conector de nuvem  <br/> |TCP 50.000-59.999  <br/> |TCP 443  <br/> |
+|Qualquer um  <br/> |Interface externa da borda de conector de nuvem  <br/> |TCP 50.000-59.999  <br/> |TCP 443  <br/> |
 |Qualquer um  <br/> |Interface externa da borda de conector de nuvem  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
-|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |TCP 50.000-59.999  <br/> |TCP 443  <br/> |
+|Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |TCP 50.000-59.999  <br/> |TCP 443  <br/> |
 
 A próxima tabela mostra as portas e intervalos de portas para habilitar a comunicação entre o componente de borda do conector de nuvem para o firewall externo. Esta tabela mostra a solução recomendada.
 
@@ -401,15 +402,15 @@ Nesse caso, todo o tráfego de mídia para o ponto de extremidade na internet po
 
 |**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de destino**|
 |:-----|:-----|:-----|:-----|
-|Qualquer  <br/> |Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |TCP(MTLS) 5061  <br/> |
-|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP(MTLS) 5061  <br/> |
-|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP 80  <br/> |
-|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |UDP 53  <br/> |
-|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP 53  <br/> |
-|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |TCP 50.000-59.999  <br/> |Qualquer  <br/> |
-|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |UDP 3478; UDP 50,000-59,999  <br/> |Qualquer  <br/> |
-|Qualquer  <br/> |Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |TCP 443; TCP 50,000-59,999  <br/> |
-|Qualquer  <br/> |Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |Requisitos de conectividade com a Internet do host  <br/> |
+|Qualquer um  <br/> |Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |TCP(MTLS) 5061  <br/> |
+|Interface externa da borda de conector de nuvem  <br/> |Qualquer um   <br/> |Qualquer um  <br/> |TCP(MTLS) 5061  <br/> |
+|Interface externa da borda de conector de nuvem  <br/> |Qualquer um   <br/> |Qualquer um  <br/> |TCP 80  <br/> |
+|Interface externa da borda de conector de nuvem  <br/> |Qualquer um   <br/> |Qualquer um  <br/> |UDP 53  <br/> |
+|Interface externa da borda de conector de nuvem  <br/> |Qualquer um   <br/> |Qualquer um  <br/> |TCP 53  <br/> |
+|Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |TCP 50.000-59.999  <br/> |Qualquer um  <br/> |
+|Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |UDP 3478; UDP 50,000-59,999  <br/> |Qualquer um   <br/> |
+|Qualquer um  <br/> |Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |TCP 443; TCP 50,000-59,999  <br/> |
+|Qualquer um  <br/> |Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |Requisitos de conectividade com a Internet do host  <br/> |
 
 ### <a name="host-internet-connectivity-requirements"></a>Requisitos de conectividade com a Internet do host
 <a name="BKMB_Ports"> </a>
@@ -420,11 +421,11 @@ A máquina host deve ser capaz de acessar recursos externos para instalar com ê
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Saída  <br/> |IPs de host do conector de nuvem  <br/> |qualquer um  <br/> |qualquer um  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Saída  <br/> |IPs de host do conector de nuvem  <br/> |qualquer um  <br/> |qualquer um  <br/> |80, 443  <br/> |TCP  <br/> |Lista de certificados revogados (CRL)  <br/> |
-|Saída  <br/> |IPs de host de Connectorr de nuvem  <br/> |qualquer um  <br/> |qualquer um  <br/> |80, 443  <br/> |TCP  <br/> |Atualização do conector de nuvem  <br/> Skype for Business Online  <br/> PowerShell do Administrador  <br/> Windows Update  <br/> |
+|Saída  <br/> |IPs de host de Connectorr de nuvem  <br/> |qualquer um  <br/> |qualquer um  <br/> |80, 443  <br/> |TCP  <br/> |Atualização do conector de nuvem  <br/> PowerShell do Administrador  <br/> PowerShell do Administrador  <br/> Se forem necessárias regras mais restritivas, veja as seguintes URLs de lista de permissões:  <br/> |
 
 Se forem necessárias regras mais restritivas, veja as seguintes URLs de lista de permissões:
 
-- [URLs de lista de certificados revogados](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) em [URLs e intervalos de endereços IP do Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
+- [As URLs de listas de revogação de certificado](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) no [Office 365 URLs e intervalos de endereços IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
 - Atualização do Windows: [como configurar um Firewall para atualizações de Software](https://technet.microsoft.com/en-us/library/bb693717.aspx)
 
@@ -525,12 +526,12 @@ Ao configurar informações de gateway, lembre-se do seguinte:
 |Senha do Administrador do Modo de Segurança  <br/> Somente a versão 1.4.2  <br/> |Senha de administrador do modo de segurança para domínio interno do CC.  <br/> ||
 |Senha de administrador de domínio do conector de nuvem  <br/> Somente a versão 1.4.2  <br/> |Senha para nuvem conector administrador de domínio (diferente do seu domínio de produção). Nome de Usuário é Administrador. Não é possível alterar o nome de usuário.  <br/> ||
 |Senha de Administrador de Máquinas Virtuais  <br/> Somente a versão 1.4.2  <br/> |Usado para configurar a rede de gerenciamento durante a implantação.  <br/> Nome de Usuário é Administrador. Não é possível alterar o nome de usuário.   <br/> ||
-|CABackupFile  <br/> Versão 2.0 e posteriores  <br/> |Usado para salvar o serviço da autoridade de certificação do servidor do Active Directory em um arquivo durante a implantação de vários dispositivos em um site do conector de nuvem. Certifique-se de usar a mesma senha para todos os dispositivos em um site do Cloud Connector a fim de importar com êxito o arquivo de backup da AC no novo dispositivo adicionado.  <br/> ||
-|CCEService  <br/> Versão 2.0 e posteriores  <br/> |Usado para o serviço de Gerenciamento do Cloud Connector; precisa de acesso ao diretório de sites do Cloud Connector. Certifique-se de usar a mesma senha para todos os dispositivos dentro de um site do Cloud Connector.   <br/> ||
+|CABackupFile  <br/> Versão 2.0 e posterior  <br/> |Usado para salvar o serviço da autoridade de certificação do servidor do Active Directory em um arquivo durante a implantação de vários dispositivos em um site do conector de nuvem. Certifique-se de usar a mesma senha para todos os dispositivos em um site do Cloud Connector a fim de importar com êxito o arquivo de backup da AC no novo dispositivo adicionado.  <br/> ||
+|CCEService  <br/> Versão 2.0 e posterior  <br/> |Usado para o serviço de Gerenciamento do Cloud Connector; precisa de acesso ao diretório de sites do Cloud Connector. Certifique-se de usar a mesma senha para todos os dispositivos dentro de um site do Cloud Connector.   <br/> ||
 |Administração de locatários do Office 365  <br/> | O Cloud Connector utiliza a conta para atualização e gerenciamento de configurações de locatário do Cloud Connector: <br/>  Versão 2.0 e posteriores: credenciais para um dedicado do Office 365 considerar com Skype direitos de administrador de negócios. <br/>  Versões anteriores à 2.0: credenciais para uma conta dedicada do Office 365 com os direitos de administrador global de locatários. <br/> ||
-|Habilitar o suporte REFER  <br/> |Isso definirá se o suporte a SIP REFER está habilitado ou não na Configuração do Tronco de seu IP/PBX. O valor padrão é True. Se seu Gateway IP/PBX é compatível com o suporte REFER, deixe True. Caso contrário, o valor precisa ser alterado para False. Se não tiver certeza sobre o suporte do gateway a REFER, consulte [IP-PBXs e gateways qualificados](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).   <br/> ||
-|EnableFastFailoverTimer  <br/> Versão 2.0 e posteriores  <br/> |Com o valor padrão "Verdadeiro", se as chamadas de saída não for atendidas pelo gateway dentro de 10 segundos eles serão roteados para o próximo gateway disponível; Se não houver nenhuma troncos adicionais, em seguida, a chamada será descartada automaticamente.  <br/> No entanto, em uma organização com redes e respostas de gateway lentas, ou quando o processo de estabelecimento de chamadas demora mais de 10 segundos, isso pode resultar em chamadas canceladas sem necessidade.  <br/> Quando se faz chamadas para alguns países, por exemplo, os Emirados Árabes Unidos ou o Afeganistão, o processo de estabelecimento de chamada pode levar mais de 10 segundos. Você precisará alterar o valor para False se encontrar problemas semelhantes. Não se esqueça de alterar a configuração correspondente no SBC ou no Gateway conectado.  <br/> O valor pode ser True ou False. O padrão é True.  <br/> ||
-|ForwardCallHistory  <br/> Versão 2.0 e posteriores  <br/> | Utiliza-se esse parâmetro para a ativação dos cabeçalhos SIP que são usados para relatar o chamador inicial em cenários de Toque simultâneo, Encaminhamento de chamadas e Transferência de chamadas. Definir o parâmetro como True ativará dois cabeçalhos SIP:<br/>  Informações do Histórico <br/>  Mencionado por <br/>  O cabeçalho de histórico-Info é usado para solicitações SIP de direcionamento novamente e "faz recomendações um mecanismo padrão para capturar as informações de histórico de solicitação para habilitar uma ampla variedade de serviços para redes e usuários finais" ([RFC 4244 - seção 1.1](http://www.ietf.org/rfc/rfc4244.txt)). Para as interfaces de tronco do Cloud Connector, isso é usado em cenários de Toque simultâneo e Encaminhamento de chamadas.  <br/>  O valor pode ser True ou False. O padrão é False.<br/> ||
+|Habilitar o suporte REFER  <br/> |Isso definirá se o suporte a SIP REFER está habilitado ou não na Configuração do Tronco de seu IP/PBX. O valor padrão é True. Se seu Gateway IP/PBX é compatível com o suporte REFER, deixe True. Caso contrário, o valor precisa ser alterado para False. Se você não tiver certeza se seu gateway suporta REFER, consulte [qualificado IP-PBXs e Gateways](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).   <br/> ||
+|EnableFastFailoverTimer  <br/> Versão 2.0 e posterior  <br/> |Com o valor padrão "Verdadeiro", se as chamadas de saída não for atendidas pelo gateway dentro de 10 segundos eles serão roteados para o próximo gateway disponível; Se não houver nenhuma troncos adicionais, em seguida, a chamada será descartada automaticamente.  <br/> No entanto, em uma organização com redes e respostas de gateway lentas, ou quando o processo de estabelecimento de chamadas demora mais de 10 segundos, isso pode resultar em chamadas canceladas sem necessidade.  <br/> Quando se faz chamadas para alguns países, por exemplo, os Emirados Árabes Unidos ou o Afeganistão, o processo de estabelecimento de chamada pode levar mais de 10 segundos. Você precisará alterar o valor para False se encontrar problemas semelhantes. Não se esqueça de alterar a configuração correspondente no SBC ou no Gateway conectado.  <br/> O valor pode ser True ou False. O padrão é True.  <br/> ||
+|ForwardCallHistory  <br/> Versão 2.0 e posterior  <br/> | Utiliza-se esse parâmetro para a ativação dos cabeçalhos SIP que são usados para relatar o chamador inicial em cenários de Toque simultâneo, Encaminhamento de chamadas e Transferência de chamadas. Definir o parâmetro como True ativará dois cabeçalhos SIP:<br/>  Informações do Histórico <br/>  Mencionado por <br/>  O cabeçalho de histórico-Info é usado para solicitações SIP de direcionamento novamente e "faz recomendações um mecanismo padrão para capturar as informações de histórico de solicitação para habilitar uma ampla variedade de serviços para redes e usuários finais" ([RFC 4244 - seção 1.1](http://www.ietf.org/rfc/rfc4244.txt)). Para as interfaces de tronco do Cloud Connector, isso é usado em cenários de Toque simultâneo e Encaminhamento de chamadas.  <br/>  O valor pode ser True ou False. O padrão é False.<br/> ||
 |Encaminhamento PAI  <br/> Versão 2.0 e posteriores  <br/> |A PAI é uma extensão privada para o SIP que permite aos servidores SIP declarar a identidade dos usuários autenticados. Para o provedor de tronco SIP, a PAI pode ser usada para fins de cobrança caso os cabeçalhos Informações do Histórico e Mencionado por não estejam presentes. Quando Forward P-Asserted-Identity está habilitado na configuração, o servidor de mediação encaminhará cabeçalhos PAI com SIP &amp; Tel URI do conector de nuvem para o tronco SIP. O servidor de mediação encaminhará cabeçalhos PAI com tel URI &amp; números e. 164 só recebidos no tronco SIP ao conector de nuvem. O Servidor de Mediação também enviará quaisquer cabeçalhos de Privacidade recebidos em qualquer direção. Se o SIP solicitação enviada pelo servidor de mediação inclui um cabeçalho de privacidade do formulário - "privacidade: id" em conjunto com o cabeçalho do PAI, em seguida, a identidade-declarada deve ser mantida privada fora do domínio de confiança de rede.  <br/> O valor pode ser True ou False. O padrão é False.  <br/> ||
 
 ### <a name="certificate-requirements"></a>Requisitos de certificado
@@ -641,7 +642,7 @@ No primeiro diagrama, um usuário interno estabelece uma chamada de saída da se
 
 6. O componente de Mediação envia o tráfego para o gateway de PSTN.
 
-![Fluxo da Mídia de Saída para Cloud Connector](../../media/c495a2bb-305c-46ef-b16d-b8f9f2b937a8.png)
+![Fluxo de mídia de saída para o conector de nuvem](../../media/c495a2bb-305c-46ef-b16d-b8f9f2b937a8.png)
 
 No próximo diagrama, um usuário interno recebe uma chamada de entrada da seguinte maneira:
 
@@ -657,7 +658,7 @@ No próximo diagrama, um usuário interno recebe uma chamada de entrada da segui
 
 6. O tráfego de mídia será estabelecido entre o gateway e o componente de Mediação e entre o componente de Mediação e o ponto de extremidade.
 
-![Fluxo da Mídia de Entrada para Cloud Connector](../../media/ba5da6f6-e357-43c6-9e8f-4bfdde97c176.png)
+![Fluxo de mídia de entrada para o conector de nuvem](../../media/ba5da6f6-e357-43c6-9e8f-4bfdde97c176.png)
 
 ## <a name="monitoring-and-troubleshooting"></a>Monitoramento e solução de problemas
 <a name="BKMK_Monitor"> </a>
@@ -709,7 +710,7 @@ Para obter mais informações, consulte:
 
 - [Configurar e gerenciar o Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
 
-- [Planejar o bypass de mídia no Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
+- [Plano para bypass de mídia no Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
 
 - [Implantar o bypass de mídia no Cloud Connector Edition](deploy-media-bypass-in-cloud-connector.md)
 

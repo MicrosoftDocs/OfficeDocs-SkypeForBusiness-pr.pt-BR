@@ -1,5 +1,6 @@
 ---
-title: Preparar a floresta atual (local do grupo Universal)
+title: Preparar a Floresta Atual (Local do Grupo Universal)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você deve indicar onde você precisa criar grupos universais na floresta. A página de local do grupo Universal usa o domínio no qual o computador que você efetuou logon em é um membro de como o padrão. Se você preferir criar os grupos universais em um domínio que não seja o domínio Local padrão, selecione o FQDN do domínio e digite o nome de domínio totalmente qualificado (FQDN) na caixa de texto. Fornecer que um domínio alternativo é útil quando você estiver executando a tarefa de preparação de floresta de um domínio diferente de onde você deseja que os grupos universais criados. Clique em Avançar para continuar.
-ms.openlocfilehash: 0abf9be2bea6b69545d2274c34fd433b0ecc9c00
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c886ff701a1e66221f5fa75c50e847d33560b32e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20980013"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879150"
 ---
-# <a name="prepare-current-forest-universal-group-location"></a>Preparar a floresta atual (local do grupo Universal)
+# <a name="prepare-current-forest-universal-group-location"></a>Preparar a Floresta Atual (Local do Grupo Universal)
  
 Você deve indicar onde você precisa criar grupos universais na floresta. A página de **Local do grupo Universal** usa o domínio no qual o computador que você efetuou logon em é um membro de como o padrão. Se você preferir criar os grupos universais em um domínio diferente do **domínio Local**padrão, selecione o **FQDN do domínio** e digite o nome de domínio totalmente qualificado (FQDN) na caixa de texto. Fornecer que um domínio alternativo é útil quando você estiver executando a tarefa de preparação de floresta de um domínio diferente de onde você deseja que os grupos universais criados. Clique em **Avançar** para continuar.
   
