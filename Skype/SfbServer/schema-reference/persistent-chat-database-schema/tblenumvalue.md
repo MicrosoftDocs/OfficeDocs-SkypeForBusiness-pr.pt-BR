@@ -1,5 +1,6 @@
 ---
 title: tblEnumValue
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: a tabela tblEnumValue é uma tabela embutida em código que contém os valores de visibilidade e comportamento dos atributos que são usados na tabela Node.
-ms.openlocfilehash: 4e17e5fc167342c106e7b5354d90c7fc284785c3
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 579b2747ea753b8a701d11dd806178427cbb27b3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19505073"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881166"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
@@ -46,6 +47,6 @@ a tabela tblEnumValue é uma tabela embutida em código que contém os valores d
 |5  <br/> |2  <br/> |auditório  <br/> |
 |6  <br/> |1  <br/> |Abrir  <br/> |
    
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [tblNode](tblnode.md)

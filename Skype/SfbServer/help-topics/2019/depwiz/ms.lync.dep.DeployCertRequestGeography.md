@@ -1,5 +1,6 @@
 ---
-title: Solicitação de certificado (geografia)
+title: Solicitação de Certificado (Geografia)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
 ROBOTS: NOINDEX, NOFOLLOW
 description: Página informações geográficas solicita informações adicionais para a solicitação de certificado. Nessa página, selecione país e, em seguida, você tipo estado/província e Cidade/localidade em uma caixa de texto. Observe que você não deve usar abreviações e deve digitar o nome completo do estado/província e Cidade/localidade.
-ms.openlocfilehash: 3c0a2749100d4d188c80bdf664694438231ad5c5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: bfb19bbeea3004094443fc7f2e3ffe3733353e61
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21025995"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889640"
 ---
-# <a name="certificate-request-geography"></a>Solicitação de certificado (geografia)
+# <a name="certificate-request-geography"></a>Solicitação de Certificado (Geografia)
  
 Página **Informações geográficas** solicita informações adicionais para a solicitação de certificado. Nesta página, você selecione o **país**e digite **estado/província** e **Cidade/localidade** em uma caixa de texto. Observe que você não deve usar abreviações e deve digitar o nome completo do estado/província e Cidade/localidade.
   

@@ -1,5 +1,6 @@
 ---
-title: Adicionar repositório de servidor SQL de servidor de arquivamento
+title: Adicionar Repositório de Servidor SQL para Servidor de Arquivamento
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 description: Servidor de arquivamento requer uma edição de 64 bits com suporte de software de banco de dados do SQL Server para armazenar os dados de arquivamento. Você pode selecionar um banco de dados do SQL Server previamente definido para ser usado para arquivamento ou definir um novo banco de dados do SQL Server, especificando um nome de domínio totalmente qualificado (FQDN) do servidor no qual residirá o banco de dados do SQL Server e a instância do SQL Server que você deseja usar para o novo banco de dados do SQL Server (que pode ser a instância padrão ou uma instância nomeada que você especificar).
-ms.openlocfilehash: aa30df0ccc76544e4d51d99d6a031cda58af3c0c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c8b8c9545b5c3957250dbb696dc7fba7a3dccdb4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256494"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899726"
 ---
-# <a name="add-archiving-server-sql-server-store"></a>Adicionar repositório de servidor SQL de servidor de arquivamento
+# <a name="add-archiving-server-sql-server-store"></a>Adicionar Repositório de Servidor SQL para Servidor de Arquivamento
 
 Servidor de arquivamento requer uma edição de 64 bits com suporte de software de banco de dados do SQL Server para armazenar os dados de arquivamento. Você pode selecionar um banco de dados do SQL Server previamente definido para ser usado para arquivamento ou definir um novo banco de dados do SQL Server, especificando um nome de domínio totalmente qualificado (FQDN) do servidor no qual residirá o banco de dados do SQL Server e a instância do SQL Server que você deseja usar para o novo banco de dados do SQL Server (que pode ser a instância padrão ou uma instância nomeada que você especificar).
 

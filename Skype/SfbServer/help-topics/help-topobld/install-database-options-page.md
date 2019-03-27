@@ -1,5 +1,6 @@
 ---
-title: Instalar página de opções do banco de dados
+title: Instalar Página de Opções de Banco de Dados
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 description: 'Você configurar opções avançadas para o posicionamento de arquivos de log e de banco de dados no SQL Server. As opções disponíveis são:'
-ms.openlocfilehash: 70e8a8024b24d334eb0e1e26bfa3ba45d7fd6b2d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: e610b28bc4cf1c6ce2bcac5f155e6e65e7fdc363
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242264"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892354"
 ---
-# <a name="install-database-options-page"></a>Instalar página de opções do banco de dados
+# <a name="install-database-options-page"></a>Instalar Página de Opções de Banco de Dados
 
 Você configurar opções avançadas para o posicionamento de arquivos de log e de banco de dados no SQL Server. As opções disponíveis são:
 
@@ -41,6 +42,6 @@ Você configurar opções avançadas para o posicionamento de arquivos de log e 
 
  **Ajuda**: clique no botão Ajuda para acessar esta página de Ajuda.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Localização do arquivo de Log e de dados do SQL Server](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)

@@ -1,5 +1,6 @@
 ---
 title: Edge Network (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 'A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os seguintes componentes criam a topologia de Borda da rede de perímetro. Exceto quando observado, os componentes fazem parte dos cenários de servidor de borda no Skype para Business Server 2015 e estão na rede de perímetro. Os componentes de Borda incluem o seguinte:'
-ms.openlocfilehash: 8a7dab2c702127bfffa8823fb364e87274cc00c2
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: e80373250c87ed0c51e5c1fbba629b2d8df801da
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504695"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894163"
 ---
 # <a name="edge-network-planning-tool"></a>Edge Network (Planning Tool)
  
@@ -34,7 +35,7 @@ A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os s
     
 - Balanceamento de carga para Topologias de Borda Dimensionadas (balanceamento de carga DNS ou um balanceador de carga de hardware)
     
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Planejar implantações do Servidor de Borda no Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   

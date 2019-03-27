@@ -1,5 +1,6 @@
 ---
-title: Adicionar página repositório de monitoramento do Front End
+title: Adicionar Página de Repositório de Monitoramento do Front End
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você definir o repositório de monitoramento do SQL Server, definindo as seguintes propriedades:'
-ms.openlocfilehash: 14528aeb86d34f96d54d3cf4088ea8d2b08dfd88
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 2de5788c52f91a2ef2395aaa3c1f580170f1c765
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065338"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896837"
 ---
-# <a name="add-front-end-monitoring-store-page"></a>Adicionar página repositório de monitoramento do Front End
+# <a name="add-front-end-monitoring-store-page"></a>Adicionar Página de Repositório de Monitoramento do Front End
  
 Você **definir o SQL Server store de monitoramento** Configurando as propriedades a seguintes:
   
@@ -37,7 +38,7 @@ Você **definir o SQL Server store de monitoramento** Configurando as propriedad
     
     Clique em **novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para o repositório de testemunha de espelhamento.
     
-Clique em  **Voltar** para voltar à caixa de diálogo de definição de pool anterior.
+Clique em **Voltar** para voltar à caixa de diálogo de definição anterior.
   
 Clique em **Avançar** depois de concluir a inserção das opções para essa caixa de diálogo prosseguir com a configuração.
   
@@ -45,6 +46,6 @@ Clique em **Cancelar** para descartar todas as alterações e encerrar o assiste
   
 Clique em **Ajuda** para acessar a ajuda contextual, como esta página.
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Associar um repositório de monitoramento um pool de Front-End no Skype para Business Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

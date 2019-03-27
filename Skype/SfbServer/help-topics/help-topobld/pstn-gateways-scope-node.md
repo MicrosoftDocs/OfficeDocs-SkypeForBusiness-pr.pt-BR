@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Gateways PSTN
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
-description: 'O nó Gateways PSTN lista gateways telefônica pública comutada (PSTN) de redes em sua topologia. Você pode realizar a seguinte ação:'
-ms.openlocfilehash: ca0dd1ed0588914e452b64de24cec418f9f11f2c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'O nó de Gateways PSTN lista os gateways PSTN (rede telefônica pública comutada) da sua topologia. Você pode executar as seguintes ações:'
+ms.openlocfilehash: 45e33d99b02e52b2d262c9bf897cd78aeb7a6ade
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891248"
 ---
 # <a name="pstn-gateways-scope-node"></a>Nó de Escopo de Gateways PSTN
  

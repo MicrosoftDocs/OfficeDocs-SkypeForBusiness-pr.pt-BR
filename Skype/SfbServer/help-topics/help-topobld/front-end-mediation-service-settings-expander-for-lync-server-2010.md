@@ -1,5 +1,6 @@
 ---
-title: Expansor de configurações de serviço de mediação de Front-End do Lync Server 2010
+title: Expansor de Configurações do Serviço de Mediação de Front End para Lync Server 2010
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: 'Você editar as propriedades das configurações de gateway PSTN do servidor de mediação nessa caixa de diálogo. Defina as seguintes configurações:'
-ms.openlocfilehash: a70ec5e569b60c28e8ec91e86d09ac5f5285ee00
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1a189481eebafc18e925df391c55fa5ced656d91
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371488"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889270"
 ---
-# <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Expansor de configurações de serviço de mediação de Front-End do Lync Server 2010
+# <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Expansor de Configurações do Serviço de Mediação de Front End para Lync Server 2010
  
 Você editar as propriedades das configurações de **gateway PSTN do servidor de mediação** nessa caixa de diálogo. Defina as seguintes configurações:
   

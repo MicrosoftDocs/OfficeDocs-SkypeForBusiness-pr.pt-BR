@@ -1,5 +1,6 @@
 ---
 title: Usar a autenticação de dois fatores com Skype para o cliente de negócios e Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 'Resumo: Use a autenticação de dois fatores com Skype para Business Server e do Skype para negócios.'
-ms.openlocfilehash: 734e63d22610dab44cc221290b462e51e93291f1
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: 0c66808f22655e3f78a23930adc84dcbc31af6bb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25694551"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894199"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Usar a autenticação de dois fatores com Skype para o cliente de negócios e Skype para Business Server
  
@@ -49,7 +50,7 @@ Quando tiver terminado de uso do Skype for Business, você pode fechar a exibiç
 |:-----|:-----|:-----|
 |Fechar  <br/> |Fecha o seu vídeo, mas permite que o Skype para sessão de negócios identificado com seu usuário ID continue em execução. Isso acontece para que você possa continuar a obter notificações e a interagir com outras pessoas. <br/> <br/> Você pode obter a exibição de volta a qualquer momento clicando o Skype para o ícone de negócios na barra de tarefas ou área de notificação na parte inferior da tela.  <br/> | Na Skype para a janela principal de negócios, siga um destes procedimentos: <br/> 1. Selecione o botão **Opções** e selecione o **arquivo** > **Close**.  <br/> 2. Clique no botão **Fechar** (X) no canto superior direito da janela. <br/> |
 |Sair  <br/> |Termina a sessão associada com sua ID de usuário, mas Skype para negócios continua a ser executado em segundo plano. Quando você sair, a janela de entrada aparecerá.  <br/> **Dica:** Selecione **Excluir minhas informações de entrada** quando você sair remover o registro de sua ID de logon e senha do computador. Fazer isso torna mais fácil para o pessoal de suporte solucionar problemas de entrada. Também ajuda a garantir que suas informações de entrada fiquem mais seguras ao dificultar que usuários não autorizados façam logon com suas credenciais. <br/> |Na Skype para a janela principal de negócios, selecione o botão **Opções** e selecione o **arquivo** > **Sair**.  <br/> |
-|Fechar  <br/> |Encerra a sua Skype para sessão de negócios e desligado Skype for Business no seu computador. Depois de sair, se você deseja reiniciar, selecione **Iniciar** > **Todos os programas** > Skype para negócios. <br/> |Na Skype para a janela principal de negócios, selecione o botão **Opções** e selecione o **arquivo** > **Sair**.  <br/> |
+|Fechar  <br/> |Encerra a sua Skype para sessão de negócios e desligado Skype for Business no seu computador. Depois de sair, se você deseja reiniciar, selecione **Iniciar** > **Todos os programas** gt _ Skype para negócios. <br/> |Na Skype para a janela principal de negócios, selecione o botão **Opções** e selecione o **arquivo** > **Sair**.  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>Entrar no Skype for Business com um Cartão Inteligente
 
@@ -140,7 +141,7 @@ Antes de usar seu cartão inteligente pela primeira vez, é recomendável que vo
     > [!NOTE]
     > Se você não tiver recebido um número PIN de cartão inteligente do pessoal de suporte, use o valor padrão, que é 12345678. 
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Gerenciar a autenticação de dois fatores no Skype para Business Server](two-factor-authentication.md)
   

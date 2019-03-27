@@ -1,5 +1,6 @@
 ---
 title: Instalar os pré-requisitos para Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: 'Resumo: Saiba mais sobre os servidores e funções de servidor, que você deve configurar antes de instalar o Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 11a4d4240415dc11ce42ceb8f9643b52c91c9e2c
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 0efa8a7fb06c1577d1b55fe42bfe88ca238e485e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297631"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894660"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>Instalar os pré-requisitos para Skype para Business Server
  
@@ -39,7 +40,7 @@ Skype para Business Server requer o sistema operacional Windows Server e um núm
 > [!IMPORTANT]
 > Antes de começar, certifique-se de que o Windows Server seja atualizada usando o Windows Update. 
   
-![Windows Server atualizado.](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
+![Windows Server até a data.](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
   
 Assista as etapas do vídeo para **os pré-requisitos de instalação**:
   
@@ -52,7 +53,7 @@ Você pode instalar as funções e necessários recursos usando o Gerenciador de
 1. Instale os recursos de software de pré-requisito listados em [requisitos de servidor para Skype para Business Server](../../../SfBServer2019/plan/system-requirements.md). O software necessário deve ser no servidor que executará o Skype para Business Server.
     
     > [!CAUTION]
-    > O Windows Server 2012 R2 não instala todos os arquivo de origem para os recursos necessários por padrão. Se o servidor não estiver conectado à Internet, você terá que inserir a mídia do Windows Server 2012 R2 e selecionar **Especificar um caminho de origem alternativo** para instalar os recursos necessários. Os arquivos de origem estão localizados no diretório sources\sxs. Por exemplo, se a mídia do Windows Server 2012 R2 estiver na unidade D, você teria que definir o caminho como `d:\sources\sxs`. É importante que você tenha as atualizações mais recentes do Windows Update. Se você não estiver conectado à Internet, terá que instalar manualmente todas as atualizações importantes, bem como quaisquer pré-requisitos para as atualizações necessárias. 
+    > O Windows Server 2012 R2 não instala todos os arquivo de origem para os recursos necessários por padrão. Se o servidor não estiver conectado à Internet, você terá que inserir a mídia do Windows Server 2012 R2 e selecionar **Especificar um caminho de origem alternativo** para instalar os recursos necessários. Os arquivos de origem estão localizados no diretório sources\sxs. Por exemplo, se a mídia do Windows Server 2012 R2 está na unidade D, você faria definir o caminho `d:\sources\sxs`. É importante que você tenha as atualizações mais recentes do Windows Update. Se você não estiver conectado à Internet, terá que instalar manualmente todas as atualizações importantes, bem como quaisquer pré-requisitos para as atualizações necessárias. 
   
 1. Quando a caixa de diálogo indicar que a instalação foi concluída, você terá que reiniciar o servidor para concluir o processo.
     

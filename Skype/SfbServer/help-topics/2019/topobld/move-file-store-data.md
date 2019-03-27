@@ -1,5 +1,6 @@
 ---
 title: Dados do repositório de arquivos de movimentação para um novo repositório de arquivos no Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Se você precisa remover o servidor de arquivos que esteja atuando como o repositório de arquivos para seu Skype para implantação de servidor de negócios ou se você precisar fazer outras alterações que tornaria o arquivo atual armazenam indisponível, você precisará criar um novo compartilhamento. Em seguida deverá executar as seguintes etapas:'
-ms.openlocfilehash: 5051e7ef9c0008fb3b98f7e4b7c67a06a5465d1e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0f9552e9de66924524ef2ac5c66d125689061b88
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375919"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890385"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Dados do repositório de arquivos de movimentação para um novo repositório de arquivos no Skype para Business Server
 
@@ -54,7 +55,7 @@ Se você precisa remover o servidor de arquivos que esteja atuando como o reposi
 10. Em **Definir Novo Repositório de Arquivos**, em **FQDN do servidor de arquivo**, digite o FQDN (nome de domínio totalmente qualificado) do servidor de arquivos. Em **Compartilhamento de arquivos**, digite o nome da pasta para o novo compartilhamento de arquivos e clique em **OK**.
 
      > [!IMPORTANT]
-     > Essa etapa define um novo repositório de arquivos para uso no construtor de topologia. Você o define apenas uma vez, não para cada servidor. Antes de você publicar a topologia, deverá criar o compartilhamento de arquivos definido no servidor de arquivos definido. Para obter detalhes, consulte [Define the File Store para o Front-End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
+     > Essa etapa define um novo repositório de arquivos para uso no construtor de topologia. Você o define apenas uma vez, não para cada servidor. Antes de você publicar a topologia, deverá criar o compartilhamento de arquivos definido no servidor de arquivos definido. Para obter detalhes, consulte [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
 
 11. Para cada servidor ou pool que usa o repositório de arquivos, faça o seguinte:
 
@@ -77,13 +78,13 @@ Se você precisa remover o servidor de arquivos que esteja atuando como o reposi
 
 17. Quando a cópia de dados estiver concluída, no painel de controle do Lync Server, clique em **topologia**e, em seguida, clique em **Status**.
 
-18. Para cada servidor ou pool cujos serviços você interrompeu, selecione o servidor ou pool, clique em **Ação** e em **Iniciar todos os serviços**.
+18. Para cada servidor ou pool cujos serviços você interrompeu, selecione o servidor ou pool, clique em **Ação** e em **Iniciar todos os serviços**.         
 
-19. Remova o antigo repositório de arquivos da topologia e publique a topologia. Para obter detalhes, consulte [Remover um repositório de arquivos](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
+19. Remova o antigo repositório de arquivos da topologia e publique a topologia. Para obter detalhes, veja [Remove a file store](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
 
 20. (Opcional) Faça logon no computador que contém o repositório de arquivos que você acabou de remover como membro do grupo local de administradores ou do grupo de administradores de domínio e remova o antigo diretório e compartilhamento de arquivos.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Reatribuir um servidor para um repositório de arquivo diferente](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
 

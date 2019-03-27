@@ -1,5 +1,6 @@
 ---
 title: Treinamento para o administrador do Microsoft Teams
+ms.reviewer: ''
 description: Obtenha o treinamento que você precisa gerenciar Teams da Microsoft em sua organização
 author: dearbeen
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: dearbeen
-ms.openlocfilehash: 84d409f18fb6e6f4832ad4f5912f2b50fef05736
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5bc3f744ff3bf04388de1ba19c02c4ad64f6263f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30540940"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891106"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 
@@ -120,7 +121,7 @@ Saiba como gerenciar equipes para sua organização.
 
 ---
 
-<h2>O que há de novo</h2>
+<h2>Novidades</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -135,7 +136,7 @@ Saiba como gerenciar equipes para sua organização.
                     <div class="cardText">
                         <h3>Artigos</h3>
                         <p><a 
-                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Configurar o Sistema de Telefonia em sua organização</a></p>
+                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Configurar o Sistema de Telefonia na sua organização</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Integração de terceiros com a Audioconferência</a></p>
                     </div>
                 </div>

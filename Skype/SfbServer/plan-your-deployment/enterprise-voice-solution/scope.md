@@ -1,5 +1,6 @@
 ---
 title: Definir o escopo da implantação do E9-1-1 Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: Decisões necessárias para planejar uma implantação do E9-1-1 em Skype Business Server Enterprise Voice.
-ms.openlocfilehash: 01b6b1656826977444928583ff08e8cb23b2982d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 014ef9a07679341a7d5eada4ecbad382a9576b61
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886286"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889137"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Definir o escopo da implantação do E9-1-1 Skype para Business Server
 
@@ -36,7 +37,7 @@ Antes de configurar Skype for Business para E9-1-1, você precisará planejar su
 
  **Como você implantará o E9-1-1 em sites de filiais?**
 
- A resiliência de voz é um conceito importante para compreender quando implantar o E9-1-1 no site local. Se você tiver centralizados troncos SIP F-9-1-1 e ocorre uma interrupção da WAN, clientes entrando não poderá obter um local de serviço de informações de local ou para se conectar ao provedor de serviços de serviços de emergência. Skype para negócios fornece várias estratégias para manipular a resiliência de voz em filiais, incluindo: tendo redes de dados resiliente, implantando um tronco SIP em cada ramificação da árvore ou envio de chamadas de emergência check-out para o gateway local durante interrupções. Para obter detalhes, consulte [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
+ A resiliência de voz é um conceito importante para compreender quando implantar o E9-1-1 no site local. Se você tiver centralizados troncos SIP F-9-1-1 e ocorre uma interrupção da WAN, clientes entrando não poderá obter um local de serviço de informações de local ou para se conectar ao provedor de serviços de serviços de emergência. Skype para negócios fornece várias estratégias para manipular a resiliência de voz em filiais, incluindo: tendo redes de dados resiliente, implantando um tronco SIP em cada ramificação da árvore ou envio de chamadas de emergência check-out para o gateway local durante interrupções. Para obter detalhes, consulte  [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
 
  **Você habilitará o E9-1-1 para usuários trabalhando fora da rede?**
 

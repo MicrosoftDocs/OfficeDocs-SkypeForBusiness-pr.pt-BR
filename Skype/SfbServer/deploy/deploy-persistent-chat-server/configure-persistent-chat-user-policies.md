@@ -1,5 +1,6 @@
 ---
 title: Configurar políticas de usuário de Chat Persistente no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 'Resumo: Leia este tópico para saber como criar políticas de usuário inicial para o servidor de Chat persistente no Skype para Business Server 2015. As diretivas de usuário de Chat persistentes determinam se ou não os usuários poderão acesso a salas de bate-papo.'
-ms.openlocfilehash: 186611977a1a9dfa77549e8f0c5df6b863718eee
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e082898d92e622827e2543316b07a8be224c56c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000833"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883704"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Configurar políticas de usuário de Chat Persistente no Skype for Business Server 2015
  
@@ -114,7 +115,7 @@ Após criar as políticas, você pode aplicá-las a uma conta de usuário da seg
     
 3. Na barra de navegação esquerda, clique em **Usuários** e pesquise a conta de usuário que deseja configurar.
     
-4. Na tabela que lista os resultados da pesquisa, clique na conta de usuário, clique em **Editar** e, em seguida, clique em **Mostrar detalhes**.
+4. Na tabela que lista os resultados da pesquisa, clique na conta do usuário, em **Editar** e em **Exibir detalhes**.
     
 5. Em **Editar Skype para usuário de servidor de negócios** em **política de Chat persistente**, selecione a política de usuário de Chat persistente que você deseja aplicar.
     

@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Servidores Front-End
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
-description: 'O nó pools de Front End do Enterprise Edition lista os pools de Front-End neste site e os nós de servidores Standard Edition Front End lista os servidores Standard Edition neste site. Você pode realizar a seguinte ação:'
-ms.openlocfilehash: 4ba5bbc6f49c5f5ec63a8fb6f9766ce38c14a833
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'O nó de Pools de Front-Ends Enterprise Edition lista os pools de Front-Ends neste site, e o nó de Servidores Front-End Standard Edition lista os servidores Standard Edition neste site. Você pode executar as seguintes ações:'
+ms.openlocfilehash: cce9e2d52b20ad9b439435f12111fdc1e9bf7b8b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896669"
 ---
 # <a name="front-end-servers-scope-node"></a>Nó de Escopo de Servidores Front-End
  

@@ -1,5 +1,6 @@
 ---
 title: Configurar a conferência discada no Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Resumo: Leia este tópico para saber como configurar a conferência discada no Skype para Business Server.'
-ms.openlocfilehash: 3c4460761fadd1dee523eb15949da8fc1bf69f14
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dbd851f416fb3bc91a556753ce33d2ef80976ff2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372399"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881504"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurar a conferência discada no Skype para Business Server
  
@@ -152,7 +153,7 @@ Antes de criar números de acesso discado, primeiro você precisa planejar as re
   
 5. Em **Número de exibição**, digite o número de telefone que os usuários de telefone da rede telefônica pública comutada (PSTN) digitam para participar de uma conferência. Esse número é exibido em convites de reunião e na página da Web de Configurações de Conferência Discada.
     
-6. Em **Nome de exibição**, digite uma descrição para o número de acesso de discagem. Este é o nome que está associado ao número de acesso de discagem no Skype para resultados de pesquisa de negócios. Este nome é exibido no cliente quando um usuário chama o número de acesso. 
+6. Em **Nome para exibição**, digite uma descrição para o número de acesso de discagem. Este é o nome que está associado ao número de acesso de discagem no Skype para resultados de pesquisa de negócios. Esse nome é exibido no cliente quando um usuário disca o número de acesso. 
     
 7. Em **URI da Linha**, digite o número E.164 do número de acesso de discagem em formato TEL URI, incluindo o símbolo + antes do número e excluindo espaços. Por exemplo, tel:+14255550200.
     
@@ -171,7 +172,7 @@ Antes de criar números de acesso discado, primeiro você precisa planejar as re
 9. Em  **Pool**, clique no pool que está executado a instância Atendedor de Conferência que dá suporte ao número de acesso de discagem.
     
     > [!NOTE]
-    > Se você precisar alterar o pool depois de criar o número de acesso, você deve usar o cmdlet [Move-CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) ou excluir e recriar o número de acesso.
+    > Se for preciso alterar o pool depois de criar o número de acesso, deve-se usar o cmdlet do [Move-CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) ou excluir e recriar o número de acesso.
   
 10. Em **Idioma principal**, clique no idioma no qual as solicitações são reproduzidas para esse número de acesso de discagem. 
     
@@ -194,7 +195,7 @@ A política de conferência é uma configuração de conta de usuário que espec
   
 Para obter mais informações sobre como configurar políticas de conferência, consulte [Gerenciar políticas de conferência no Skype para Business Server](../../manage/conferencing/conferencing-policies.md).
   
-## <a name="assign-a-line-uri-to-a-user-account"></a>Assign a Line URI to a user account
+## <a name="assign-a-line-uri-to-a-user-account"></a>Atribuir um URI da Linha a uma conta de usuário
 <a name="BKMK_AssignaLineURI"> </a>
 
 Os usuários de discagem digitam o número de telefone ou a extensão e um PIN para participar nas conferências como usuários autenticados. A telefonia **URI da linha** especificada no Skype para contas de usuário do Business Server é necessária para autenticação.

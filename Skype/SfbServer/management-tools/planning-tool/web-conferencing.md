@@ -1,5 +1,6 @@
 ---
-title: Webconferência (ferramenta de planejamento)
+title: Web Conferencing (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: Skype para negócios 2015 de servidor de webconferência inclui a colaboração de documentos, compartilhamento de aplicativos e compartilhamento da área de trabalho.
-ms.openlocfilehash: 3755a922970942451f08e19c2ba59884cd8b91d3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8363d1b0cd7487600e0df8d924efc5c282fc3adb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890020"
 ---
-# <a name="web-conferencing-planning-tool"></a>Webconferência (ferramenta de planejamento)
+# <a name="web-conferencing-planning-tool"></a>Web Conferencing (Planning Tool)
  
 Skype para negócios 2015 de servidor de webconferência inclui a colaboração de documentos, compartilhamento de aplicativos e compartilhamento da área de trabalho.
   
@@ -28,12 +30,12 @@ Skype para negócios 2015 de servidor de webconferência inclui a colaboração 
   
 Para detalhes de planejamento sobre a ativação da conferência pela Web na sua empresa, consulte os seguintes tópicos: 
   
-- [Planejamento de conferência no Skype para Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Planejar para conferência no Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
     
-- [Requisitos de hardware e software para conferências no Skype para Business Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [Requisitos de hardware e software para conferência no Skype for Business Server 2015](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [Planejar a conferência discada no Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [Plan for dial-in conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [Planejar para grandes reuniões em Skype para Business Server 2015](../../plan-your-deployment/conferencing/large-meetings.md)
+- [Planejar reuniões grandes no Skype for Business Server 2015](../../plan-your-deployment/conferencing/large-meetings.md)
     
 

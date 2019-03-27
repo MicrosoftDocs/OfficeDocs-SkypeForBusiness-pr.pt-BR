@@ -1,5 +1,6 @@
 ---
-title: Expansor de configurações AV MCU
+title: Expansor de Configurações AV MCU
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar as propriedades de um A / pool V Conferencing Server que você já tenha definido, faça o seguinte:'
-ms.openlocfilehash: 9bbdeb4d03971884d6a68ed858da94912f2f6911
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 60e5a5b8600dd82d4ec66c7f68581e1d32a182aa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069551"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893466"
 ---
-# <a name="av-mcu-settings-expander"></a>Expansor de configurações AV MCU
+# <a name="av-mcu-settings-expander"></a>Expansor de Configurações AV MCU
  
 Para editar as propriedades de um A / pool V Conferencing Server que você já tenha definido, faça o seguinte:
   

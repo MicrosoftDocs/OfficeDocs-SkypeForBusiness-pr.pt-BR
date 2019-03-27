@@ -1,5 +1,6 @@
 ---
 title: Gerenciar política de acesso externo para sua organização
+ms.reviewer: ''
 ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)
 ms:contentKeyID: 48184160
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Depois de implantar um ou mais servidores de borda, você deverá habilitar os tipos de acesso externo que serão suportados pela sua organização.
-ms.openlocfilehash: 2cdd27fc09b21a38760616e0223b05548b3debb8
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: bdc1a87476849a6e8383d5561af6e1b3af477869
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222923"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892875"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>Gerenciar política de acesso externo para sua organização
 
@@ -27,7 +28,7 @@ Por padrão, não há nenhuma diretiva configurada para oferecer suporte ao aces
 
   - **Política global**   a política global é criada quando você implanta os servidores de borda. Por padrão, não há opções de acesso de usuário externo estão habilitadas na política global. Para suportar o acesso de usuário externo no nível global, você deve configurar a política global para oferecer suporte a um ou mais tipos de opções de acesso de usuário externo. A política global se aplica a todos os usuários em sua organização, mas as políticas de site e políticas de usuário substituem a política global. Se você excluir a política global, você não removê-lo. Em vez disso, redefini-lo para a configuração padrão.
 
-  - **Política de site**   você pode criar e configurar uma ou mais políticas de site para limitar o suportam para acesso de usuário externo a sites específicos. A configuração da política de site substitui a política global, mas somente para o site específico coberto pela política de site. Por exemplo, se você habilitar o acesso de usuário remoto na política global, você pode especificar uma política de site que desabilita o acesso de usuário remoto para um site específico. Por padrão, uma política de site é aplicada a todos os usuários do site, mas você pode atribuir uma política de usuário a um usuário para substituir a configuração de política de site.
+  - **Política de site**   você pode criar e configurar uma ou mais políticas de site para limitar o suportam para acesso de usuário externo a sites específicos. A configuração no site substitui a política global, mas somente para o site específico coberto pela política de site. Por exemplo, se você habilitar o acesso de usuário remoto na política global, você pode especificar uma política de site que desabilita o acesso de usuário remoto para um site específico. Por padrão, uma política de site é aplicada a todos os usuários do site, mas você pode atribuir uma política de usuário a um usuário para substituir a configuração de política de site.
 
   - **Política de usuário**   você pode criar e configurar uma ou mais políticas de usuário para limitar o suportam para acesso de usuário remoto a usuários específicos. A configuração na política de site e substituições de diretiva de usuário global, mas somente para os usuários específicos aos quais a política de usuário é atribuída. Por exemplo, se você habilitar o acesso de usuário remoto na política global e política de site, você pode especificar uma política de usuário que desabilita o acesso de usuário remoto e, em seguida, atribuir essa política de usuário para usuários específicos. Se você criar uma política de usuário, você deverá aplicá-la a um ou mais usuários antes que ele entra em vigor.
 

@@ -1,5 +1,6 @@
 ---
-title: Configurar servidores de aplicativos confiáveis
+title: Configurar servidores de aplicativo confiáveis
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Em um ambiente misto, se você criar um novo servidor de aplicativos confiáveis, você deve definir o pool do próximo salto para ser um Skype para Business Server 2019 pool. Em um ambiente misto, tanto o pool herdado e o Skype para Business Server 2019 pool aparecem na lista suspensa. Não há suporte para selecionar o pool herdado.
-ms.openlocfilehash: d1c79e044145a4739cf1b7bfb3992320be1e4ab3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 79f4de527008d2d9bf295fcb82eee433d04a1691
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027743"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890885"
 ---
-# <a name="configure-trusted-application-servers"></a>Configurar servidores de aplicativos confiáveis
+# <a name="configure-trusted-application-servers"></a>Configurar servidores de aplicativo confiáveis
 
 Em um ambiente misto, se você criar um novo servidor de aplicativos confiáveis, você deve definir o pool do próximo salto para ser um Skype para Business Server 2019 pool. Em um ambiente misto, tanto o pool herdado e o Skype para Business Server 2019 pool aparecem na lista suspensa. Não há suporte para selecionar o pool herdado.
   
@@ -30,7 +31,7 @@ Em um ambiente misto, se você criar um novo servidor de aplicativos confiáveis
     
 3. Insira o **FQDN do Pool** do pool de aplicativos confiáveis e selecione se será servidor único ou vários servidores. 
     
-4. Clique em **Avançar**.
+4. Click **Next**.
     
 5. Na página **Selecionar o próximo salto** , na lista, selecione o Skype para pool de negócios 2019 Front-End Server. 
     

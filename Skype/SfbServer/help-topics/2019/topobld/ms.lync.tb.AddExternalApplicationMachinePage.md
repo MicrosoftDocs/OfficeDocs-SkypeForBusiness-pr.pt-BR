@@ -1,5 +1,6 @@
 ---
-title: Adicionar máquina de aplicativo confiável
+title: Adicionar máquina de Aplicativo Confiável
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: e951328e-d06b-4c9d-af21-305b2357188b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Especifique o nome de domínio totalmente qualificado (FQDN) de cada computador que você deseja adicionar como um servidor de aplicativos confiáveis neste pool. Depois de adicionar um computador à lista, você poderá atualizar o FQDN do computador ou removê-lo do pool em qualquer ocasião antes de publicar a topologia. Depois de publicar a topologia, alterando o FQDN requer, excluindo o servidor no construtor de topologia e, em seguida, adicionando um novo servidor ao pool com o novo FQDN.
-ms.openlocfilehash: 1c064570e4451d80c72bfc1a3bb6dd3fe9d185c4
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 1508b7ace9b2ecec9db1b97a2cd71fab740bc2e9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21059004"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881901"
 ---
-# <a name="add-trusted-application-machine"></a>Adicionar máquina de aplicativo confiável
+# <a name="add-trusted-application-machine"></a>Adicionar máquina de Aplicativo Confiável
  
 Especifique o nome de domínio totalmente qualificado (FQDN) de cada computador que você deseja adicionar como um servidor de aplicativos confiáveis neste pool. Depois de adicionar um computador à lista, você poderá atualizar o FQDN do computador ou removê-lo do pool em qualquer ocasião antes de publicar a topologia. Depois de publicar a topologia, alterando o FQDN requer, excluindo o servidor no construtor de topologia e, em seguida, adicionando um novo servidor ao pool com o novo FQDN. 
   

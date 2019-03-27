@@ -1,5 +1,6 @@
 ---
-title: Renovar-CcCACertificate
+title: Renew-CcCACertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
 description: O cmdlet Renew-CcCACertificate renova o certficado de Autoridade de Certificação raiz do Skype for Business Cloud Connector Edition que está prestes a expirar ou já expirou. Este comando foi alterado para atualização-CcCACertificate na nuvem conector 2.0 e versões posteriores.
-ms.openlocfilehash: bfcf7c69e27af8ebf83c85a8c90cc46491fbc454
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 616abb35d577b816368854396a201b9f07b40d12
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893859"
 ---
-# <a name="renew-cccacertificate"></a>Renovar-CcCACertificate
+# <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
 O cmdlet Renew-CcCACertificate renova o certficado de Autoridade de Certificação raiz do Skype for Business Cloud Connector Edition que está prestes a expirar ou já expirou. Este comando foi alterado para atualização-CcCACertificate na nuvem conector 2.0 e versões posteriores.
   
@@ -58,14 +60,14 @@ Nenhum. O cmdlet Renew-CcCACertificate não aceita a entrada por pipeline.
 ## <a name="return-types"></a>Tipos de retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum
+Nenhum 
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 <a name="ReturnTypes"> </a>
 
 [Reset-CcCACertificate](reset-cccacertificate.md)
   
-[Renovar-CcServerCertificate](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

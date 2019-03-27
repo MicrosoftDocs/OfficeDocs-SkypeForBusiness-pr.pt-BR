@@ -1,5 +1,6 @@
 ---
-title: Planejar para o Gerenciador de estatísticas de Skype Business Server
+title: Planejar o Gerenciador de estatísticas do Skype for Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Resumo: Leia este tópico para saber mais sobre o Gerenciador de estatísticas para Skype para Business Server.'
-ms.openlocfilehash: a73e58acdd91b4112537fa0028bf2c134e9c0fce
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 7e086dda9bfea755265d2c77413989f8cc634df7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297855"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893985"
 ---
-# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planejar para o Gerenciador de estatísticas de Skype Business Server
+# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planejar o Gerenciador de estatísticas do Skype for Business Server
 
 **Resumo:** Leia este tópico para saber mais sobre o Gerenciador de estatísticas para Skype para Business Server.
 
@@ -119,7 +120,7 @@ Em uma implantação local, um único servidor hospeda todos os componentes do G
 
 O diagrama a seguir mostra uma implantação local, no qual o site do Gerenciador de estatísticas, Hub, ouvinte e relacionada no sistema de armazenamento em cache são hospedados em uma única máquina. Gerenciador de estatísticas está monitorando três Skype para servidores de negócios, cada um deles têm um único operador transmitir dados para o ouvinte. Os usuários se conectar a um único site para exibir todos os dados agregados pelo Gerenciador de estatísticas:
 
-![Implantação local do Gerente de Estatísticas](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
+![Implantação do Stats Manager local](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
 ## <a name="requirements"></a>Requisitos
 <a name="BKMK_Requirements"> </a>
@@ -176,8 +177,8 @@ Todo o tráfego entre os servidores é criptografado.
 
 Para obter mais informações, consulte:
 
-- [Implantar o Gerenciador de estatísticas para Skype para Business Server](deploy.md)
+- [Implantar o Gerenciador de estatísticas do Skype for Business Server](deploy.md)
 
-- [Atualizar o Gerenciador de estatísticas para Skype para Business Server](upgrade.md)
+- [Atualizar o Gerenciador de estatísticas do Skype for Business Server](upgrade.md)
 
-- [Solucionar problemas de gerente de estatísticas para Skype para Business Server](troubleshoot.md)
+- [Solução de problemas do Gerenciador de estatísticas do Skype for Business Server](troubleshoot.md)

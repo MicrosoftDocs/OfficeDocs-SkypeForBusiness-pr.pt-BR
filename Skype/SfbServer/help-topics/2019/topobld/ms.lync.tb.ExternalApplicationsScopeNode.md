@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Aplicativos Externos
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'O nó de servidores de aplicativos confiáveis lista os pools de aplicativos confiáveis neste site. Pools de aplicativos confiáveis contenham servidores que executem aplicativos confiáveis de comunicação unificada da Microsoft, mas não execute Skype para funções de servidor de negócios. Você pode realizar a seguinte ação:'
-ms.openlocfilehash: 24f167f8ab81983d596c2686da7342c6858830ff
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: 'O nó de servidores de aplicativos confiáveis lista os pools de aplicativos confiáveis neste site. Pools de aplicativos confiáveis contenham servidores que executem aplicativos confiáveis de comunicação unificada da Microsoft, mas não execute Skype para funções de servidor de negócios. Você pode executar as seguintes ações:'
+ms.openlocfilehash: 7c61306e8466daa8d543f02c9a1de99a129cc40a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062619"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890217"
 ---
 # <a name="external-applications-scope-node"></a>Nó de Escopo de Aplicativos Externos
  
-O nó **servidores de aplicativos confiáveis** lista os pools de aplicativos confiáveis neste site. Pools de aplicativos confiáveis contenham servidores que executem aplicativos confiáveis de comunicação unificada da Microsoft, mas não execute Skype para funções de servidor de negócios. Você pode realizar a seguinte ação:
+O nó **servidores de aplicativos confiáveis** lista os pools de aplicativos confiáveis neste site. Pools de aplicativos confiáveis contenham servidores que executem aplicativos confiáveis de comunicação unificada da Microsoft, mas não execute Skype para funções de servidor de negócios. Você pode executar as seguintes ações:
   
 - **Novo Pool de Aplicativos Confiáveis**. Inicia o assistente para **Definir Novo Pool de Aplicativos Confiáveis** que é usado para adicionar um novo pool de aplicativos confiáveis à topologia.
     

@@ -1,5 +1,6 @@
 ---
 title: Associar VIS à borda
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
 ROBOTS: NOINDEX, NOFOLLOW
 description: As etapas necessárias para definir uma nova VIS ou vídeo Gateway no construtor de topologia são descritas online em criar um pool VIS no Skype para Business Server.
-ms.openlocfilehash: 3dec6cd5b892cc97db594d9119b7f88265e99cf6
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: ed037798d3f063840794eb474acfb5814ba6db35
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069177"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890105"
 ---
 # <a name="associate-vis-with-edge"></a>Associar VIS à borda
  
@@ -31,6 +32,6 @@ As etapas de configuração para um novo servidor de interoperabilidade de víde
   
  As configurações para um VTC que precisam ser definidas na GUI Cisco para interoperação com um Gateway de vídeo e um VIS são descritas online em [Configure um VTC para interoperação com Skype para Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Planejar o servidor de interoperabilidade de vídeo no Skype for Business Server](../../../plan-your-deployment/video-interop-server.md)

@@ -1,5 +1,6 @@
 ---
 title: Export-CcConfigurationSampleFile
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
 description: O cmdlet Export-CcConfigurationSampleFile exporta um arquivo (.ini) de configuração de amostra do Skype for Business Cloud Connector Edition para o diretório de um dispositivo do Cloud Connector. Você pode modificar e renomear o arquivo para usar na implantação.
-ms.openlocfilehash: f91b9c7eb8ade4e5edcf1c83c5ddef205e0f3721
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3154ff3492899de244c3033e4e35345132d04f20
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893304"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
@@ -56,9 +58,9 @@ Nenhum. O cmdlet Export-CcConfigurationSampleFile não aceita a entrada por pipe
 ## <a name="return-types"></a>Tipos de retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum
+Nenhum 
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 <a name="ReturnTypes"> </a>
 
 [Set-CcApplianceDirectory](set-ccappliancedirectory.md)

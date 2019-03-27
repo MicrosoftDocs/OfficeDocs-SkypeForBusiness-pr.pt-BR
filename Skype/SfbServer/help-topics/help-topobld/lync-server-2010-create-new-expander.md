@@ -1,5 +1,6 @@
 ---
-title: O Lync Server 2010 criar novo expansor
+title: Lync Server 2010 Criar Novo Expansor
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ef810ad3-1689-4c21-b995-d45e5486f8b0
 description: Você pode criar novas funções de servidor no nó do Lync Server 2010 do construtor de topologia com botão direito do mouse em Lync Server 2010, selecione Novo e selecione a função de servidor a ser criada.
-ms.openlocfilehash: 67a6714bf941d7d70fc8e047e18d5f499cfb706d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6f4e42e891768cdc9d75cb006939ff7ec6a9c4d5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008512"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889822"
 ---
-# <a name="lync-server-2010-create-new-expander"></a>O Lync Server 2010 criar novo expansor
+# <a name="lync-server-2010-create-new-expander"></a>Lync Server 2010 Criar Novo Expansor
  
 Você pode criar novas funções de servidor no nó do Lync Server 2010 do construtor de topologia com botão direito do mouse em **Lync Server 2010**, selecione **novo**e selecione a função de servidor a ser criada.
   

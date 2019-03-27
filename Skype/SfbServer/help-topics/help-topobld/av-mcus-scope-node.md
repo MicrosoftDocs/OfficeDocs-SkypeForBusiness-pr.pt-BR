@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de MCUs de A/V
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
-description: 'A / lista de nó de pools de conferência V A / V Conferencing pools na sua topologia. Você pode realizar a seguinte ação:'
-ms.openlocfilehash: 24ab8e2bb054db24fe660705692d730e00f6ae7b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'O nó de Pools de Conferência A/V lista os pools de Conferência A/V da sua topologia. Você pode executar as seguintes ações:'
+ms.openlocfilehash: fc715cf617f641fa0f627c15815e7d55ab87074c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897434"
 ---
 # <a name="av-mcus-scope-node"></a>Nó de Escopo de MCUs de A/V
  

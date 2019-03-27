@@ -1,5 +1,6 @@
 ---
 title: Tipo de regra de conversão uma expressão Regular
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 description: Em corresponder este campo padrão, especifique o padrão que será usado para corresponder os números a serem convertidos. No campo regra de conversão, especifique um padrão para o formato dos números convertidos. Por exemplo, se você inserir ^\+(\d{9}\d+)$ em corresponder este padrão de campo e 011$ 1 no campo regra de conversão, a regra converterá + 441235551010 em 011441235551010.
-ms.openlocfilehash: 3f09668bcad5a74db40e62679e46ddefe88e13db
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f6fa4b1d0225f081d041adfeb1b0a86385813b8f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003025"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892148"
 ---
-# <a name="translation-rule-type-a-regular-expression"></a>Regra de conversão: Digite uma expressão Regular
+# <a name="translation-rule-type-a-regular-expression"></a>Regra de Conversão: Digite uma Expressão Regular
  
 No campo **corresponder este padrão** , especifique o padrão que será usado para corresponder os números a serem convertidos. No campo **regra de conversão** , especifique um padrão para o formato dos números convertidos. Por exemplo, se você inserir ^\+(\d{9}\d+)$ no campo **corresponder este padrão** e 011$ 1 no campo **regra de conversão** , a regra converterá + 441235551010 em 011441235551010.
   

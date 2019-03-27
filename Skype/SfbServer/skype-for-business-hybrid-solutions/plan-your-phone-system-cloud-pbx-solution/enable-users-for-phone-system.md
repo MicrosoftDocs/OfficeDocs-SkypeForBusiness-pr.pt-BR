@@ -1,5 +1,6 @@
 ---
 title: Habilitar usuários para o sistema telefônico no Office 365 com conectividade PSTN local no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc3db88-0210-4804-b54e-ba4af1234884
 description: Este tópico descreve como habilitar usuários para o sistema telefônico no Office 365 com uma conectividade PSTN local. Antes de seguir as etapas neste tópico, leia o seguinte:.
-ms.openlocfilehash: 7427bf33c275d55b99c240aaf192d180c2d63945
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: a3eec7adbd4897889cbc2ef8c7e985231c53bc99
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30642200"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889214"
 ---
 # <a name="enable-users-for-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Habilitar usuários para o sistema telefônico no Office 365 com conectividade PSTN local no Skype para Business Server
  
@@ -35,7 +36,7 @@ Este tópico descreve como habilitar usuários para o sistema telefônico no Off
     
 ## <a name="moving-users-to-phone-system-in-office-365-with-on-premises-pstn-connectivity"></a>Mover usuários para o sistema telefônico no Office 365 com conectividade PSTN de local
 
-Antes de mover os usuários para Skype para Business Online, é recomendável que você habilite seus usuários no local no Skype para Business Server ou o Lync Server 2013 e depois movê-los online. Para obter mais informações, consulte [Planejar a conectividade híbrida entre Skype para Business Server e do Skype para Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) e a seção de considerações especiais de [habilitar os usuários para o Enterprise Voice no local](enable-the-users-for-enterprise-voice-on-premises.md). 
+Antes de mover os usuários para Skype para Business Online, é recomendável que você habilite seus usuários no local no Skype para Business Server ou o Lync Server 2013 e depois movê-los online. Para obter mais informações, consulte [Planejar a conectividade híbrida entre Skype para Business Server e do Skype para Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) e a seção de considerações especiais de [habilitar os usuários para o Enterprise Voice no local](enable-the-users-for-enterprise-voice-on-premises.md) (executado enquanto os usuários estão hospedados no local). 
   
 Todos os usuários devem ser criados no Active Directory no local e sincronizados para o Office 365 usando a versão suportada do Windows Azure AD conector. Você não pode habilitar usuários para o sistema telefônico no Office 365, que foram criados diretamente no Azure AD. Se você deseja habilitar o sistema telefônico no Office 365 com conectividade PSTN de local para um usuário que foi criado no Azure AD, você precisará criar uma nova conta para o usuário no seu local AD, configurar a conta local e depois sincronizar a conta usando uma versão com suporte da ferramenta do conector do Windows Azure AD. 
   
@@ -47,8 +48,8 @@ Habilitando um usuário para o sistema telefônico no Office 365 com uma conecti
     
 - [Sincronizar usuários para as nuvem e atribuir licenças](synchronize-users-to-the-cloud-and-assign-licenses.md) (executado usando o Office 365).
     
-- [Mover usuários locais Skype para negócios Online](move-on-premises-users-to-skype-for-business-online.md) (executado usando o Windows PowerShell no local, mas usando suas credenciais de administrador do Office 365).
+- [Mover usuários locais Skype para negócios Online](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online) (executado usando o Windows PowerShell no local, mas usando suas credenciais de administrador do Office 365).
     
-- [Habilitar usuários para Enterprise Voice online e o sistema telefônico no correio de voz do Office 365](enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md) (executado usando o PowerShell remoto).
+- [Habilitar usuários para Enterprise Voice online e o sistema telefônico no correio de voz do Office 365](enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md) (executado usando o PowerShell remoto.
     
 

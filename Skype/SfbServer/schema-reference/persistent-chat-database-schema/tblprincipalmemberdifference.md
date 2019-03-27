@@ -1,5 +1,6 @@
 ---
-title: Principalmemberdifference
+title: tblPrincipalMemberDifference
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b94f555-6888-4fe0-a048-4660a2513276
 description: a tabela Principalmemberdifference inclui as alterações de associação do grupo (tanto adicionadas e removidas membros) que ainda não foram processadas pelas etapas posteriores de sincronização de serviços de domínio do Active Directory.
-ms.openlocfilehash: 603c8345f2adc2ba7d5eb04835218fd3e83d8ed4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 77b246e96dbd13464b5655fe87d5a10861db30c7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885551"
 ---
-# <a name="tblprincipalmemberdifference"></a>Principalmemberdifference
+# <a name="tblprincipalmemberdifference"></a>tblPrincipalMemberDifference
  
 a tabela Principalmemberdifference inclui as alterações de associação do grupo (tanto adicionadas e removidas membros) que ainda não foram processadas pelas etapas posteriores de sincronização de serviços de domínio do Active Directory.
   

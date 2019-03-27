@@ -1,5 +1,6 @@
 ---
 title: Adicionar Repositório de Servidor SQL de Chat Persistente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 description: Configure os repositórios do SQL Server que fornecerão bancos de dados para o servidor de Chat persistente ou o pool de servidor de Chat persistente.
-ms.openlocfilehash: 58c18c7ae541ff4413e6cbaf17c2d4ad8933c191
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 856c74db37ef99243e024b0c044b20d095ca6ba6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503715"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899558"
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>Adicionar Repositório de Servidor SQL de Chat Persistente
  
@@ -45,7 +46,7 @@ Clique em **Cancelar** para descartar todas as alterações e encerrar o assiste
   
 Clique em **Ajuda** para acessar a ajuda contextual, como esta página.
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Planejar Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

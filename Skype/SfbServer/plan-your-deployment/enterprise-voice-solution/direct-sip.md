@@ -1,5 +1,6 @@
 ---
 title: Conexões SIP diretas no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Conexões SIP diretas são suportadas entre Skype para Business Server e os gateways PSTN e PBX IP no Enterprise Voice.
-ms.openlocfilehash: 041009c5299f441e1b0e1a05c2af1e855f13f2b8
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1ddcf66fb19f39661ffdd4cffdff754999db90d3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374578"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890126"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexões SIP diretas no Skype para Business Server
 
@@ -53,7 +54,7 @@ A figura a seguir mostra a topologia genérica da implantação do Enterprise Vo
 
 **Opção de implantação incremental**
 
-![Diagrama de opção da migração por departamento](../../media/Fig28_Departmental_migration_option.jpg)
+![Diagrama de opção da migração departamental](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
 > Se você estiver se conectando seu Skype para implantação de servidor de negócios para um parceiro certificado do SIP direto, não é necessário um gateway PSTN (rede) telefônica comutada pública entre o servidor de mediação e o PBX. Para obter uma lista de parceiros certificados SIP direto, consulte o [Microsoft Unified Communications programa de interoperabilidade aberta](https://go.microsoft.com/fwlink/p/?linkId=203309).
@@ -94,7 +95,7 @@ A figura a seguir mostra uma topologia típica de uma implantação de somente V
 
 **Opção de implantação de somente VoIP**
 
-![Opção de implantação Greenfidle](../../media/Fig29_Greenfield_deployment_option.jpg)
+![Implantação greenfidle](../../media/Fig29_Greenfield_deployment_option.jpg)
 
 > [!NOTE]
 > O caminho de mídia ilustrado tem o bypass de mídia habilitado (a configuração recomendada). Se você optar por desabilitar bypass de mídia, o caminho de mídia é roteado por meio do servidor de mediação.

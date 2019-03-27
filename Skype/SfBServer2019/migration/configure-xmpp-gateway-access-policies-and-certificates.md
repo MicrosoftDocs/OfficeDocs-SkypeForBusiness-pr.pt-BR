@@ -1,5 +1,6 @@
 ---
 title: Configurar políticas e certificados de acesso ao gateway de XMPP
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Federação XMPP define uma implantação externa com base nas mensagens extensível e protocolo de presença (XMPP). Uma configuração de XMPP permite que os usuários acessem usuários de domínio XMPP por:'
-ms.openlocfilehash: 2ec2440365907632523728238c51cc90e894c84e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 65ef8904660eaa75ddd10238a6561ea91b9f7278
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027855"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889970"
 ---
 # <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>Configurar políticas e certificados de acesso ao gateway de XMPP
 
@@ -34,7 +35,7 @@ Quando você configura políticas para suporte de XMPP federados parceiros, as d
     
 2. Na barra de navegação à esquerda, clique em **federação e acesso externo**e, em seguida, clique em **Política de acesso externo**.
     
-3. Clique em **Novo** e em **Política de usuário**.
+3. Clique em **Novo** e em **Política do usuário**.
     
 4. Insira um nome para a política de usuário de acesso externo.
     

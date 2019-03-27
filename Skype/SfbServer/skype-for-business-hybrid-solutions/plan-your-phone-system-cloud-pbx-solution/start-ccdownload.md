@@ -1,5 +1,6 @@
 ---
-title: Iniciar-CcDownload
+title: Start-CcDownload
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
 description: O cmdlet Start-CcDownload baixa os bits e o arquivo msi do Skype for Business Cloud Connector Edition de forma sincronizada.
-ms.openlocfilehash: aec8d5c1848e7e55d6ed4b7e4d3633942f74ab55
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cc157825df75a4534422cb0a2fd07abb0ae0daea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893835"
 ---
-# <a name="start-ccdownload"></a>Iniciar-CcDownload
+# <a name="start-ccdownload"></a>Start-CcDownload
  
 O cmdlet Start-CcDownload baixa os bits e o arquivo msi do Skype for Business Cloud Connector Edition de forma sincronizada.
   
@@ -63,8 +65,8 @@ Se houver uma nova versão disponível no site de download, Start-CcDownload ir�
 
 |**Parâmetro**|**Obrigatório**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-|DownloadUrlRoot  <br/> | Opcional <br/> |System. String  <br/> | Site de download a URL completa de uma versão específica do conector de nuvem em particular. Use esse parâmetro com cuidado — Certifique-se de que você está ciente de qual versão do conector de nuvem você estiver baixando os dados. <br/> |
-|DownloadBitsOnly  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Ignore a etapa de baixar e instalar o MSI do site de download, baixe apenas os bits do Cloud Connector.  <br/> |
+|DownloadUrlRoot   <br/> | Opcional  <br/> |System.String  <br/> | Site de download a URL completa de uma versão específica do conector de nuvem em particular. Use esse parâmetro com cuidado — Certifique-se de que você está ciente de qual versão do conector de nuvem você estiver baixando os dados. <br/> |
+|DownloadBitsOnly   <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Ignore a etapa de baixar e instalar o MSI do site de download, baixe apenas os bits do Cloud Connector.  <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
@@ -74,9 +76,9 @@ Nenhum. O cmdlet Start-CcDownload não aceita a entrada por pipeline.
 ## <a name="return-types"></a>Tipos de retorno
 <a name="ReturnTypes"> </a>
 
-Nenhum
+Nenhum 
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 <a name="ReturnTypes"> </a>
 
 Nenhum

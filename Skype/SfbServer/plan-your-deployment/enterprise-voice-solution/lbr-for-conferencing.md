@@ -1,5 +1,6 @@
 ---
 title: Roteamento baseado no local para conferências no Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planejamento de roteamento baseado no local para conferências no Skype para Business Server Enterprise Voice, incluindo com consultoria transferências de chamada.
-ms.openlocfilehash: 810b93d20fe9bdbf0ae057250509b1e9ec612afe
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: cdb043aca3f2e2ac4278de1782f756d395016770
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240735"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892960"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Roteamento baseado no local para conferências no Skype para Business Server
 
@@ -77,7 +78,7 @@ Além das aplicando roteamento baseado no local para Skype para reuniões de neg
 
 **Fluxo da Transferência de Chamada Consultiva**
 
-![Diagrama de roteamento baseado em local para conferência](../../media/LocationBasedRoutingForConferencing.jpg)
+![Roteamento de diagrama de conferência baseada no local](../../media/LocationBasedRoutingForConferencing.jpg)
 
 Quando um usuário habilitado para roteamento baseado em local inicia uma transferência com consultoria chamada de um ponto de extremidade PSTN (conforme mostrado na figura anterior), isso cria duas chamadas ativas, uma chamada entre o usuário PSTN e Skype para o usuário de negócios A e o outro entre Skype para Skype para comercial do usuário B. o seguinte comportamento e usuário corporativos é imposto pelo roteamento baseado no local para o aplicativo de conferência:
 
@@ -116,9 +117,9 @@ A tabela a seguir identifica a combinação das funções de servidor e de vers�
 |Atualização Cumulativa 2 do Lync Server 2013  <br/> |Atualização Cumulativa 1 do Lync Server 2013  <br/> |Não  <br/> |
 |Atualização Cumulativa 2 do Lync Server 2013  <br/> |Lync Server 2010  <br/> |Não  <br/> |
 |Atualização Cumulativa 2 do Lync Server 2013  <br/> |Office Communications Server 2007 R2  <br/> |Não  <br/> |
-|Atualização Cumulativa 1 do Lync Server 2013  <br/> |Qualquer  <br/> |Não  <br/> |
-|Lync Server 2010  <br/> |Qualquer  <br/> |Não  <br/> |
-|Office Communications Server 2007 R2  <br/> |Qualquer  <br/> |Não  <br/> |
+|Atualização Cumulativa 1 do Lync Server 2013  <br/> |Qualquer um  <br/> |Não  <br/> |
+|Lync Server 2010  <br/> |Qualquer um  <br/> |Não  <br/> |
+|Office Communications Server 2007 R2  <br/> |Qualquer um  <br/> |Não  <br/> |
 
 ## <a name="configuration-of-location-based-routing-for-conferencing"></a>Configuração de roteamento baseado na localização de conferência
 
@@ -142,7 +143,7 @@ Por exemplo, se o aplicativo "UdcAgent" tiver um valor de prioridade de "2", o a
 
 Após localizar o valor de prioridade correto para o serviço de roteamento com base no local para o aplicativo de conferência, digite o seguinte cmdlet para cada pool de front-end ou servidor Standard Edition que hospeda usuários habilitados para o roteamento baseado no local:
 
-New-CsServerApplication-Identity Service: Registrar:`<Pool FQDN`> / LBRouting-prioridade \<aplicativo prioridade\> -habilitado $true-$true - Uri crítico<http://www.microsoft.com/LCS/LBRouting> 
+New-CsServerApplication-Identity Service: Registrar:`<Pool FQDN`gt _ / LBRouting - prioridade \<aplicativo prioridade\> -habilitado $true-$true - Uri crítico<http://www.microsoft.com/LCS/LBRouting> 
 
 Por exemplo:
 

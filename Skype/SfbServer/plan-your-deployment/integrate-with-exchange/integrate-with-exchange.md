@@ -1,5 +1,6 @@
 ---
 title: Plano para integrar o Skype for Business e o Exchange
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Resumo: Revise neste tópico para obter informações sobre como integrar o Skype para Business Server com o Exchange Server 2016 ou Exchange Server 2013.'
-ms.openlocfilehash: 13be5cf29369b84db74052b36dec288220b91395
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: 3e94e1ab399e8a8a825826e37a281b377a31037e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015337"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892333"
 ---
-# <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plano para integrar o Skype for Business e o Exchange
+# <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan to integrate Skype for Business and Exchange
  
 **Resumo:** Analise este tópico para obter informações sobre como integrar o Skype para Business Server com o Exchange Server 2016 ou Exchange Server 2013.
   
@@ -89,29 +90,29 @@ A tabela a seguir fornece detalhes sobre os recursos suportados em várias combi
   
 ||**2013/Exchange 2016/2010 (no local) + Skype para Business Server (no local)**|**O Exchange Online + Skype para Business Server (no local)**|**Exchange 2010 (no local) + Skype para negócios Online**|**Exchange 2016/2013(on premises) + Skype para negócios Online**|**Exchange Online + Skype para negócios on-line**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Presença no Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|Responder via IM, Chamada PSTN, Chamada do Skype ou Chamada de Vídeo a partir de um email do Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|Agende e participe de reuniões online via Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|Presença no Outlook Web App  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Responder via IM, Chamada PSTN, Chamada do Skype ou Chamada de Vídeo a partir de um OWA email  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Agende e participe de reuniões online via Outlook Web App  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|IM/Presença em clientes de dispositivos móveis  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|Participe de reuniões online em clientes de dispositivos móveis  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|Publique o status com base nas informações de ocupado/livre do calendário do Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|Presença no Outlook  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |
+|Responder via IM, Chamada PSTN, Chamada do Skype ou Chamada de Vídeo a partir de um email do Outlook  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |
+|Agende e participe de reuniões online via Outlook  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |
+|Presença no Outlook Web App  <br/> |S  <br/> |S  <br/> |N  <br/> |N  <br/> |Y  <br/> |
+|Responder via IM, Chamada PSTN, Chamada do Skype ou Chamada de Vídeo a partir de um OWA email  <br/> |S  <br/> |S  <br/> |N  <br/> |N  <br/> |Y  <br/> |
+|Agende e participe de reuniões online via Outlook Web App  <br/> |S  <br/> |S  <br/> |N  <br/> |N  <br/> |Y  <br/> |
+|IM/Presença em clientes de dispositivos móveis  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |
+|Participe de reuniões online em clientes de dispositivos móveis  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |
+|Publique o status com base nas informações de ocupado/livre do calendário do Outlook  <br/> |Y  <br/> |S  <br/> |S  <br/> |S  <br/> |Y  <br/> |
 |Lista de contatos (via repositório de contato unificado)  <br/> |Sim (requer o Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Alta resolução fotos de contatos (requer o Lync 2013 ou Skype para clientes de negócios no mínimo. Não há suporte para LWA, aplicativos móveis, Lync 2010, Lync para Mac e outros clientes mais antigos).  <br/> |Sim (requer o Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
-|Delegação da reunião  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|Perdidas histórico de conversas e Logs de chamada são gravados de correio do exchange do usuário  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|Alta resolução fotos de contatos (requer o Lync 2013 ou Skype para clientes de negócios no mínimo. Não há suporte para LWA, aplicativos móveis, Lync 2010, Lync para Mac e outros clientes mais antigos).  <br/> |Sim (requer o Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |S  <br/> |S  <br/> |
+|Delegação da reunião  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |
+|Perdidas histórico de conversas e Logs de chamada são gravados de correio do exchange do usuário  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |S  <br/> |
 |Arquivamento de conteúdo (IM e reunião) no Exchange  <br/> |Sim (requer o Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
 |Pesquise o conteúdo arquivado  <br/> |Sim (requer o Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Caixa Postal UM do Exchange  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |N  <br/> |
-|Histórico da Conversa no Lado do Servidor  <br/> |Y  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
+|Caixa Postal UM do Exchange  <br/> |S  <br/> |S  <br/> |N  <br/> |N  <br/> |N  <br/> |
+|Histórico da Conversa no Lado do Servidor  <br/> |Y  <br/> |S  <br/> |N  <br/> |S  <br/> |S  <br/> |
 
 > [!NOTE]
 > Há um serviço de correio de voz de nuvem que é suportado para Skype para Business Online, Skype para Business Server 2019, Skype para Business Server 2015 e Lync Server 2013.
 > 
 
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Consulte Também
 <a name="feature_support"> </a>
 
 [Configurar a integração entre o local Skype para Business Server e o Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)

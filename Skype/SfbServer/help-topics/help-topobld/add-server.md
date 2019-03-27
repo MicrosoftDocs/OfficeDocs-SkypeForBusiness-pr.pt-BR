@@ -1,5 +1,6 @@
 ---
-title: Adicionar servidor
+title: Adicionar Servidor
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 description: 'Para adicionar um novo servidor a um pool existente de servidores, na qual o pool é um dos seguintes:'
-ms.openlocfilehash: 6e45048eba1758f6944ea822113622c03703d315
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6aaa8c29e6eb8ae7742b28aff82a25bd596a2cdb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372962"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887169"
 ---
-# <a name="add-server"></a>Adicionar servidor
+# <a name="add-server"></a>Adicionar Servidor
  
 Para adicionar um novo servidor a um pool existente de servidores, na qual o pool é um dos seguintes:
   
@@ -51,7 +52,7 @@ Cada um dos novos servidores de pool tem requisitos diferentes. Nas seções a s
     
 - Selecione **usar todos os endereços IP configurados**, que significa que qualquer endereço IP definido no computador será usado. Como alternativa, você pode selecionar **limitar o uso do serviço aos endereços IP selecionados** e insira um endereço IP específico no novo servidor. O endereço IP inserido é o único endereço IP qual responderá para os serviços hospedados.
     
-  **Servidor de Mediação**
+  **Servidor de mediação**
   
 - O FQDN do novo servidor como definido no DNS.
     

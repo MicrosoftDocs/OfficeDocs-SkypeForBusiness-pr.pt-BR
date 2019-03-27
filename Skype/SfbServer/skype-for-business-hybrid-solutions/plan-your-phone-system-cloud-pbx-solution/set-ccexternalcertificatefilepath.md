@@ -1,5 +1,6 @@
 ---
 title: Set-CcExternalCertificateFilePath
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: O cmdlet Set-CcExternalCertificateFilePath especifica o caminho onde o certificado para o Servidor de Mediação ou para o Servidor de Borda é armazenado.
-ms.openlocfilehash: 89216fb2b56130dd76b711a483c6279ac1073392
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 059d0f2fbf5fee708ceccd0d6e10ad4286fe4f85
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895346"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
@@ -67,7 +69,7 @@ O certificado do Servidor de Mediação será necessário se o TLS for usado ent
 
 |**Parâmetro**|**Obrigatório**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| Destino  <br/> | Obrigatório <br/> |System. String  <br/> |Digite o caminho do arquivo solicitado. Os tipos incluem:  <br/> EdgeServer (padrão)  <br/> MediationServer  <br/> |
+| Destino  <br/> | Obrigatório <br/> |System.String  <br/> |Digite o caminho do arquivo solicitado. Os tipos incluem:  <br/> EdgeServer (padrão)  <br/> MediationServer  <br/> |
 |Importar  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Indica que o certificado deve ser importado para o Servidor de Mediação. Este parâmetro não será necessário se você implantar um dispositivo pela primeira vez. O parâmetro será necessário se você desejar alterar o certificado existente em uma versão já implantada.  <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
@@ -80,7 +82,7 @@ O cmdlet Set-CcExternalCertificateFilePath não aceita a entrada por pipeline.
 
 Nenhum
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 <a name="ReturnTypes"> </a>
 
 [Get-CcExternalCertificateFilePath](get-ccexternalcertificatefilepath.md)

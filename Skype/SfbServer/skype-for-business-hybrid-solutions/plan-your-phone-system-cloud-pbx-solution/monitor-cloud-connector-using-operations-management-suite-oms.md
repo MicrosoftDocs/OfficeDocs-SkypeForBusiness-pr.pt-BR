@@ -1,5 +1,6 @@
 ---
-title: Monitorar o conector de nuvem usando o pacote de gerenciamento de operações (OMS)
+title: Monitor Cloud Connector using Operations Management Suite (OMS).
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Leia este tópico para saber como monitorar sua versão do conector de nuvem 2.1 e a implantação posterior usando o pacote de gerenciamento de operações da Microsoft (OMS).
-ms.openlocfilehash: 36d70a1504eab085d319e46d03c3c6f0bd9d14f3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2077b5525984cc3d9948e7602036dfbb7f0ee4b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532077"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886075"
 ---
-# <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Monitorar o conector de nuvem usando o pacote de gerenciamento de operações (OMS)
+# <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Monitor Cloud Connector using Operations Management Suite (OMS).
 
 Leia este tópico para saber como monitorar sua versão do conector de nuvem 2.1 e a implantação posterior usando o pacote de gerenciamento de operações da Microsoft (OMS).
 
@@ -49,7 +50,7 @@ Antes de poder usar OMS para monitorar sua implantação do conector de nuvem, v
 
 Você precisará configurar seu ambiente do local do conector de nuvem para usar o OMS. Para fazer isso, você precisará sua ID de espaço de trabalho do OMS e a chave, que pode ser encontrado usando o portal OMS da seguinte maneira: configurações--\>fontes conectado –\> servidores Windows:
 
-![Captura de tela do Cloud Connector OMS](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
+![Captura de tela para nuvem conector OMS](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
 Como configurar o conector de nuvem para usar o OMS depende do seu cenário:
 
@@ -240,7 +241,7 @@ O exemplo a seguir lista os contadores de capacidade de chamada que devem ser mo
 
 - LS:MediationServer - saída Calls(_Total)\- chamadas de desvio de mídia ativa
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 Para obter mais informações sobre como trabalhar com OMS, consulte o seguinte:
 

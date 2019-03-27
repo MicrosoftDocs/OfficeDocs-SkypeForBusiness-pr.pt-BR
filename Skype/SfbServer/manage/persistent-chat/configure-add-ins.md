@@ -1,5 +1,6 @@
 ---
 title: Configurar suplementos para salas de Chat Persistente no Skype for Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Resumo: Saiba como configurar suplementos para salas de chat Persistent Chat Server na Skype para Business Server 2015.'
-ms.openlocfilehash: 4fe6c5fa15118949bd559ddb280ddf56fe41b360
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b43340f44b7ce41a1d77768f10a96bff651afc3f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372696"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885951"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configurar suplementos para salas de Chat Persistente no Skype for Business Server 2015
  
@@ -40,9 +41,9 @@ Para configurar suplementos para salas de chat usando o Painel de Controle:
     
     Para várias implantações de pool de servidor de Chat persistente, selecione o pool apropriado na lista suspensa.
     
-4. Na página **Suplementos**, clique em **Novo**.
+4. Na página  **Suplementos**, clique em **Novo**.
     
-5. Em **Selecionar um serviço**, selecione o serviço correspondente para o pool do servidor de Chat persistente onde você precisa criar o suplemento. Os Suplementos não podem ser movidos de um pool a outro nem compartilhado entre pools diferentes.
+5. Em **Selecionar um serviço**, selecione o serviço correspondente para o pool do servidor de Chat persistente onde você precisa criar o suplemento. Suplementos não podem ser movidos de um pool a outro nem compartilhado entre pools diferentes.
     
 6. Em **Suplementos novos**, faça o seguinte:
     
@@ -54,7 +55,7 @@ Para configurar suplementos para salas de chat usando o Painel de Controle:
     
 ## <a name="configure-add-ins-by-using-windows-powershell"></a>Configure suplementos usando o Windows PowerShell
 
-Você pode configurar suplementos para salas de chat usando os seguintes cmdlets do Windows PowerShell. Para obter detalhes sobre a sintaxe, incluindo todos os parâmetros disponíveis, consulte [Skype do Shell de gerenciamento do Business Server 2015](../management-shell.md).
+Você pode configurar suplementos para salas de chat usando os seguintes cmdlets do Windows PowerShell. Para detalhes sobre sintaxe, incluindo todos os parâmetros disponíveis, consulte [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 
 |**Cmdlet**|**Descrição**|

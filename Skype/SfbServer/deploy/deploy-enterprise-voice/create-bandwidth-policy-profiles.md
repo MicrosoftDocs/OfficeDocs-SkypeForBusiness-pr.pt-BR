@@ -1,5 +1,6 @@
 ---
 title: Criar largura de banda perfis de política no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: Criar ou modificar políticas de largura de banda, que são usadas pelo controle de admissão de chamada do Enterprise Voice no Skype para Business Server.
-ms.openlocfilehash: ac1c5ab43e810ca152097c256e087ee176caa2d3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 26f0e81d4f148888b9c8f61b774dcd476bd102d5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885356"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887782"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Criar largura de banda perfis de política no Skype para Business Server 
  
@@ -89,9 +90,9 @@ As políticas de exemplo criadas no procedimento a seguir definem limites para o
     
 12. Para concluir a criação de perfis de política de largura de banda para a sua topologia, repita as etapas de 4 a 11 com as configurações para outros perfis de política de largura de banda.
     
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
-[New-CsNetworkBandwidthPolicyProfile.](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
 [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
   

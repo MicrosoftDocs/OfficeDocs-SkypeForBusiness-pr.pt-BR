@@ -1,5 +1,6 @@
 ---
 title: Nó de Escopo de Repositório de Arquivos
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nó mostra o nome de domínio totalmente qualificado (FQDN) e os pools dependentes para esse repositório de arquivos. É possível executar as seguintes ações:'
-ms.openlocfilehash: fd5ee616bae7e955e9d7f47a3d731fc9a255e7d4
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: c68e9dbfbcd5e97439bc1a274c470aef264a986f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069276"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897306"
 ---
 # <a name="file-store-scope-node"></a>Nó de Escopo de Repositório de Arquivos
  

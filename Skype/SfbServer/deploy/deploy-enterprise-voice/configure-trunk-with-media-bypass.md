@@ -1,5 +1,6 @@
 ---
 title: Configurar um tronco com bypass de mídia no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Resumo: Configure um tronco com bypass de mídia habilitado para Skype para Business Server. Isso permitirá a minimizar o número de servidores de mediação, supondo que o seu provedor de tronco SIP lhe fornecer apoio.'
-ms.openlocfilehash: dd206fa2850219c3737905994fb81bf28d981ea7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e63ec28f863f93eed03eb4a1d2955c90434cc6ce
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373082"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892685"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Configurar um tronco com bypass de mídia no Skype para Business Server
 
@@ -52,7 +53,7 @@ Uma configuração de tronco, como descrita abaixo, agrupa um conjunto de parâm
    - **Tronco do pool**: Escolha o nome do tronco ao qual essa configuração de tronco se aplica. Esse tronco pode ser o tronco raiz ou qualquer definidos no construtor de topologia de troncos adicionais. Em **Selecionar um Serviço**, clique em **OK**. Observe que se uma configuração de tronco já tiver sido criada para um tronco específico, o tronco não aparecerá em **Selecionar um Serviço**.
 
       > [!NOTE]
-      > Depois de selecionar o escopo da configuração de tronco, ele não poderá ser alterado. > O campo **nome** é pré-preenchido com o nome da site do configuração do tronco ou serviço associado e não pode ser alterado.
+      > Depois de selecionar o escopo da configuração de tronco, ele não poderá ser alterado. gt _ o campo **nome** é pré-preenchido com o nome da site do configuração do tronco ou serviço associado e não pode ser alterado.
 
 4. Especifique um valor em **Máximo de caixas de diálogo iniciais com suporte**. Este é o número máximo de respostas bifurcadas que um gateway de rede de telefonia comutada pública (PSTN), IP-PBX, ou Controlador de Borda de Sessão (SBC) ITSP pode receber para um INVITE enviado para o Servidor de Mediação. O valor padrão é 20.
 
@@ -77,7 +78,7 @@ Uma configuração de tronco, como descrita abaixo, agrupa um conjunto de parâm
 8. Se o ponto do tronco suporta o recebimento de solicitações SIP REFER do servidor de mediação, marque a caixa de seleção **Habilitar o envio de referência ao gateway** .
 
     > [!NOTE]
-    > Se esta opção for desabilitada enquanto a opção **Habilitar bypass de mídia** estiver selecionada, configurações adicionais são necessárias. Se o ponto do tronco não suporta recebendo solicitações SIP REFER do servidor de mediação e desvio de mídia está habilitado, você também deve executar o cmdlet **Set-CsTrunkConfiguration** para desabilitar RTCP para chamadas ativas e mantidas para suportar condições adequadas para desvio de mídia. Como alternativa, é possível selecionar **Ativar referenciamento usando controle de chamada de terceiros** se quiser que as chamadas transferidas contornem a mídia e o gateway não suporte solicitações SIP REFER.
+    > Se esta opção for desabilitada enquanto a opção **Habilitar bypass de mídia** estiver selecionada, configurações adicionais são necessárias. Se o ponto do tronco não oferecer suporte ao recebimento de solicitações SIP REFER do Servidor de Mediação e o bypass de mídia estiver habilitado, você também deve executar o cmdlet **Set-CsTrunkConfiguration** para desabilitar o RTCP para chamadas ativas e em espera para suportar as condições adequadas para bypass de mídia. Como alternativa, é possível selecionar **Ativar referenciamento usando controle de chamada de terceiros** se quiser que as chamadas transferidas contornem a mídia e o gateway não suporte solicitações SIP REFER.
 
 9. (Opcional) Para permitir roteamento entre troncos, associe e configure os registros de uso de PSTN a essa configuração de tronco. Os usos da PSTN associados a essa configuração de tronco serão aplicados para todas as chamadas recebidas por meio do tronco que não é provenientes de um Skype para ponto de extremidade do servidor de negócios. Para gerenciar os registros de uso de PSTN associados à configuração de tronco, use um dos métodos a seguir:
 
@@ -181,7 +182,7 @@ Uma configuração de tronco, como descrita abaixo, agrupa um conjunto de parâm
     > Sempre que criar ou modificar uma configuração de tronco, você deve executar o comando **Confirmar tudo** para publicar a alteração na configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.
 
 Depois de ter configurado o tronco, continue Configurando media bypass escolhendo entre global media bypass opções, conforme descrito em [o bypass de mídia Deploy no Skype para Business Server](deploy-media-bypass.md) na documentação de implantação.
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Configurar um tronco sem bypass de mídia no Skype para Business Server](configure-trunk-without-media-bypass.md)
 

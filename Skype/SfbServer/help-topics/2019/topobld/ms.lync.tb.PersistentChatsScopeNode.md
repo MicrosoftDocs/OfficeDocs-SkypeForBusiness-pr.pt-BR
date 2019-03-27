@@ -1,5 +1,6 @@
 ---
 title: Criar Nó de Escopo de Servidores de Chat Persistente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você direito do mouse em Pool de Chat persistente no construtor de topologias para executar o seguinte:'
-ms.openlocfilehash: 4fcb9201b30298b34235bef1d066527673ff2eaf
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 930d144c31dfcd83326ca9c9aa13ee386a950d6c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082547"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894220"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Criar Nó de Escopo de Servidores de Chat Persistente
 

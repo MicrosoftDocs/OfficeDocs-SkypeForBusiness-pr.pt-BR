@@ -1,5 +1,6 @@
 ---
 title: Permitir que os usuários do Skype for Business adicionem contatos do Skype
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,13 +18,13 @@ f1keywords: None
 ms.custom:
 - Setup
 - LIL_Placement
-description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: 3961aaa5bfe8ca17a28fa736f64a91a48414a494
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 'Veja como permitir que as pessoas que estão usando o Skype for Business entrem em contato com os usuários do Skype for Business que estão foram da organização e os adicionem na sua lista de contatos.  '
+ms.openlocfilehash: 212393154cb2b730ce18f5be9b03495e747e207c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371947"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885456"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Permitir que os usuários do Skype for Business adicionem contatos do Skype
 
@@ -37,13 +38,13 @@ Para fazer isso, você precisa ter [permissões de administrador](https://suppor
     
 2. No Centro de administração do Office 365, vá para **Centros de Administração** > **Skype for Business**. 
     
-    ![Choose the Skype for Business admin center.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
+    ![Escolha o Centro de administração do Skype for Business.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   
 3. No **Centro de administração do Skype for Business**, escolha **Organização** > **Comunicações externas**. 
     
 4. Por padrão, seus usuários podem se comunicar com todas as outras pessoas do mundo que usam Skype for Business (supondo que seu firewall tenha sido configurado para permitir isso). 
     
-    ![Choose Let people use Skype for Business to communicate with Skype.](../images/333789f8-2ea6-4bbd-805b-18130f427999.png)
+    ![Selecione a opção Permitir que as pessoas usem o Skype for Business para se comunicar com o Skype.](../images/333789f8-2ea6-4bbd-805b-18130f427999.png)
   
     Se você quer que seus usuários conversem com os usuários do Skype, MAS não quer que eles conversem com usuários que usam o Skype for Business, escolha **Ativado somente para os domínios permitidos**. Quando você habilita o contato com os usuários do Skype, o skype.com é adicionado automaticamente como um domínio permitido nos bastidores. 
     
@@ -67,7 +68,7 @@ Para testar sua configuração, você precisa de um contato no Skype que não se
     
 2. Saia do Skype for Business e entre novamente, assim você verá a opção para pesquisar o Diretório do Skype. 
     
-    ![When Skype Directory is highlighted, you can search for people who have Skype accounts.](../images/76ee9fab-1ac3-4f4a-9569-f5f2606dbb7a.png)
+    ![Quando o Diretório do Skype estiver em destaque, você poderá pesquisar por pessoas que têm contas Skype.](../images/76ee9fab-1ac3-4f4a-9569-f5f2606dbb7a.png)
   
 3. No Skype for Business, pesquise seu contato no Skype e envie uma solicitação para chat. 
     

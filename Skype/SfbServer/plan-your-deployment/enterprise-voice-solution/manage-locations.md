@@ -1,5 +1,6 @@
 ---
 title: Gerenciar locais para provedores de serviços de tronco SIP no Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Decisões necessárias para planejar um banco de dados de informações de local ou um semelhante banco de dados externo, para uma implantação do E9-1-1 usando provedores de tronco SIP, em Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 5920abd848645354b95c4b9ba2dc9b8a27410ef6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 07b6c95ad36e740d5dec6bb882766f876da52626
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887051"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886036"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Gerenciar locais para provedores de serviços de tronco SIP no Skype para Business Server
 
 Decisões necessárias para planejar um banco de dados de informações de local ou um semelhante banco de dados externo, para uma implantação do E9-1-1 usando provedores de tronco SIP, em Skype para Business Server Enterprise Voice.
 
-Para configurar o Skype para Business Server localize automaticamente clientes dentro de uma rede, você precisa preencher o banco de dados de serviço de informações de local com um wiremap de rede e publicar os locais ou vincular a um banco de dados externo que já contenha os mapeamentos corretos. Como parte desse processo, é necessário validar os endereços cívicos dos locais com seu provedor de serviço de E9-1-1. Para obter detalhes, consulte [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) na documentação de implantação.
+Para configurar o Skype para Business Server localize automaticamente clientes dentro de uma rede, você precisa preencher o banco de dados de serviço de informações de local com um wiremap de rede e publicar os locais ou vincular a um banco de dados externo que já contenha os mapeamentos corretos. Como parte desse processo, é necessário validar os endereços cívicos dos locais com seu provedor de serviço de E9-1-1. Para obter detalhes, consulte [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) na documentação Implantação.
 
 Você preenche o banco de dados do Serviço de Informações de Local com um Local de Resposta de Emergência (ERL), que consiste de um endereço civil e o endereço específico dentro de um edifício. Campo de **local** do serviço de informações de local, que é o local específico dentro de um edifício, tem um tamanho máximo de 20 caracteres (incluindo espaços). Dentro deste comprimento limitado, tente incluir o seguinte:
 
@@ -35,7 +36,7 @@ Você preenche o banco de dados do Serviço de Informações de Local com um Loc
 - Se o local for aproximado por ser determinado por um ponto de acesso sem fio, você pode adicionar a palavra **[perto]** (por exemplo, "próximo ao 1º andar 1234").
 
 > [!NOTE]
-> Locais adicionados ao banco de dados local central não estão disponíveis para o cliente até que eles são publicados usando um Skype para o comando do Shell de gerenciamento do servidor de negócios e são replicados para as lojas locais do pool. Para obter detalhes, consulte [publicação the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) na documentação de implantação.
+> Locais adicionados ao banco de dados local central não estão disponíveis para o cliente até que eles são publicados usando um Skype para o comando do Shell de gerenciamento do servidor de negócios e são replicados para as lojas locais do pool. Para obter detalhes, consulte [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) na documentação Implantação.
 
 As seções a seguir discutem as considerações que devem ser analisadas ao preencher e manter o banco de dados de local.
 
@@ -53,7 +54,7 @@ Usando a opção de serviço de informações de localização secundário para 
 
 Para integrar com o serviço de informações de local, o banco de dados de terceiros deve seguir o esquema de solicitação/resposta do Lync Server local. Para obter detalhes, consulte ["[MS-E911WS]: o serviço Web para a especificação de protocolo do E911 suporte"](https://go.microsoft.com/fwlink/p/?linkid=213819). Para obter detalhes sobre como implantar um serviço de informações de localização secundária, consulte [Configure um serviço de informações de localização secundário no Skype para Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) na documentação de implantação.
 
-Para obter detalhes sobre como preencher o banco de dados local, consulte [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) na documentação de implantação.
+Para obter detalhes sobre como preencher o banco de dados de local, consulte [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) na documentação Implantação.
 
 ## <a name="maintaining-the-location-database"></a>Manutenção do banco de dados de local
 
