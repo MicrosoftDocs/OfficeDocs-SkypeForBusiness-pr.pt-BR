@@ -1,5 +1,6 @@
 ---
 title: Planejar o armazenamento unificado de contatos no Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,34 +12,34 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 description: 'Resumo: Revise esse tópico durante o planejamento para integrar o Skype para Business Server com o Exchange 2013.'
-ms.openlocfilehash: b66282f43e6203d1477c9076de45bba3e9c344ff
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fd408466034646938d002c609a263e71077e5b94
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21011481"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882653"
 ---
-# <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a><span data-ttu-id="ed144-103">Planejamento de repositório unificado de contatos no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="ed144-103">Plan for unified contact store in Skype for Business Server 2015</span></span>
+# <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a><span data-ttu-id="8f0d0-103">Planejamento de repositório unificado de contatos no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="8f0d0-103">Plan for unified contact store in Skype for Business Server 2015</span></span>
  
-<span data-ttu-id="ed144-104">**Resumo:** Analise este tópico durante o planejamento para integrar o Skype para servidor de negócios com o Exchange 2013 ou 2016.</span><span class="sxs-lookup"><span data-stu-id="ed144-104">**Summary:** Review this topic while planning to integrate Skype for Business Server with Exchange 2013 or 2016.</span></span>
+<span data-ttu-id="8f0d0-104">**Resumo:** Analise este tópico durante o planejamento para integrar o Skype para servidor de negócios com o Exchange 2013 ou 2016.</span><span class="sxs-lookup"><span data-stu-id="8f0d0-104">**Summary:** Review this topic while planning to integrate Skype for Business Server with Exchange 2013 or 2016.</span></span>
   
-<span data-ttu-id="ed144-105">Repositório unificado de contatos fornece uma experiência consistente de contato em produtos do Microsoft Office e permite que os usuários armazenem todas as informações de contato no Exchange 2013, mas permite que as informações estejam disponíveis globalmente entre Skype para negócios, Exchange, o Outlook e o Outlook Web Access.</span><span class="sxs-lookup"><span data-stu-id="ed144-105">Unified contact store provides a consistent contact experience across Microsoft Office products, and enables users to store all contact information in Exchange 2013 but allows the information to be available globally across Skype for Business, Exchange, Outlook, and Outlook Web Access.</span></span>
+<span data-ttu-id="8f0d0-105">Repositório unificado de contatos fornece uma experiência consistente de contato em produtos do Microsoft Office e permite que os usuários armazenem todas as informações de contato no Exchange 2013, mas permite que as informações estejam disponíveis globalmente entre Skype para negócios, Exchange, o Outlook e o Outlook Web Access.</span><span class="sxs-lookup"><span data-stu-id="8f0d0-105">Unified contact store provides a consistent contact experience across Microsoft Office products, and enables users to store all contact information in Exchange 2013 but allows the information to be available globally across Skype for Business, Exchange, Outlook, and Outlook Web Access.</span></span>
   
-## <a name="requirements-for-unified-contact-store"></a><span data-ttu-id="ed144-106">Requisitos do repositório unificado de contatos</span><span class="sxs-lookup"><span data-stu-id="ed144-106">Requirements for unified contact store</span></span>
+## <a name="requirements-for-unified-contact-store"></a><span data-ttu-id="8f0d0-106">Requisitos para repositório unificado de contato</span><span class="sxs-lookup"><span data-stu-id="8f0d0-106">Requirements for unified contact store</span></span>
 
-<span data-ttu-id="ed144-107">Para implementar o armazenamento unificado de contatos no Skype para Business Server:</span><span class="sxs-lookup"><span data-stu-id="ed144-107">To implement unified contact store in Skype for Business Server:</span></span>
+<span data-ttu-id="8f0d0-107">Para implementar o armazenamento unificado de contatos no Skype para Business Server:</span><span class="sxs-lookup"><span data-stu-id="8f0d0-107">To implement unified contact store in Skype for Business Server:</span></span>
   
-- <span data-ttu-id="ed144-108">Você deve estar executando o Skype para Business Server e o Exchange 2013 ou 2016.</span><span class="sxs-lookup"><span data-stu-id="ed144-108">You must be running Skype for Business Server and Exchange 2013 or 2016.</span></span>
+- <span data-ttu-id="8f0d0-108">Você deve estar executando o Skype para Business Server e o Exchange 2013 ou 2016.</span><span class="sxs-lookup"><span data-stu-id="8f0d0-108">You must be running Skype for Business Server and Exchange 2013 or 2016.</span></span>
     
-- <span data-ttu-id="ed144-109">Os usuários devem usar Skype for Business para migrar seus contatos do Skype para Business Server para o Exchange 2013 ou 2016.</span><span class="sxs-lookup"><span data-stu-id="ed144-109">Users must use Skype for Business to migrate their contacts from Skype for Business Server to Exchange 2013 or 2016.</span></span>
+- <span data-ttu-id="8f0d0-109">Os usuários devem usar Skype for Business para migrar seus contatos do Skype para Business Server para o Exchange 2013 ou 2016.</span><span class="sxs-lookup"><span data-stu-id="8f0d0-109">Users must use Skype for Business to migrate their contacts from Skype for Business Server to Exchange 2013 or 2016.</span></span>
     
-- <span data-ttu-id="ed144-110">Caixas de correio do usuário devem ser migradas para o Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="ed144-110">User mailboxes must be migrated to Exchange 2013.</span></span>
+- <span data-ttu-id="8f0d0-110">Caixas de correio do usuário devem ser migradas para o Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="8f0d0-110">User mailboxes must be migrated to Exchange 2013.</span></span>
     
-- <span data-ttu-id="ed144-111">Você deve ter configurada entre Skype para Business Server e o Exchange 2013 ou 2016 de autenticação de servidor-para-servidor.</span><span class="sxs-lookup"><span data-stu-id="ed144-111">You must have server-to-server authentication configured between Skype for Business Server and Exchange 2013 or 2016.</span></span>
+- <span data-ttu-id="8f0d0-111">Você deve ter configurada entre Skype para Business Server e o Exchange 2013 ou 2016 de autenticação de servidor-para-servidor.</span><span class="sxs-lookup"><span data-stu-id="8f0d0-111">You must have server-to-server authentication configured between Skype for Business Server and Exchange 2013 or 2016.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="ed144-112">Para obter requisitos detalhados sobre como configurar a autenticação entre Skype para Business Server e o Exchange 2013 ou 2016, consulte [gerenciar autenticação de servidor-para-servidor (OAuth) e aplicativos de parceiros no Skype para Business Server](../../manage/authentication/server-to-server-and-partner-applications.md) nas operações documentação.</span><span class="sxs-lookup"><span data-stu-id="ed144-112">For detailed requirements about setting up authentication between Skype for Business Server and Exchange 2013 or 2016, see [Manage server-to-server authentication (OAuth) and partner applications in Skype for Business Server](../../manage/authentication/server-to-server-and-partner-applications.md) in the Operations documentation.</span></span>
+    > <span data-ttu-id="8f0d0-112">Para obter requisitos detalhados sobre como configurar a autenticação entre Skype para Business Server e o Exchange 2013 ou 2016, consulte [gerenciar autenticação de servidor-para-servidor (OAuth) e aplicativos de parceiros no Skype para Business Server](../../manage/authentication/server-to-server-and-partner-applications.md) nas operações documentação.</span><span class="sxs-lookup"><span data-stu-id="8f0d0-112">For detailed requirements about setting up authentication between Skype for Business Server and Exchange 2013 or 2016, see [Manage server-to-server authentication (OAuth) and partner applications in Skype for Business Server](../../manage/authentication/server-to-server-and-partner-applications.md) in the Operations documentation.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="ed144-113">Consulte também</span><span class="sxs-lookup"><span data-stu-id="ed144-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8f0d0-113">Consulte Também</span><span class="sxs-lookup"><span data-stu-id="8f0d0-113">See also</span></span>
 
-[<span data-ttu-id="ed144-114">Implantar o armazenamento unificado de contatos no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="ed144-114">Deploy unified contact store in Skype for Business Server</span></span>](../../deploy/deploy-unified-contact-store.md)
+[<span data-ttu-id="8f0d0-114">Implantar o armazenamento unificado de contatos no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="8f0d0-114">Deploy unified contact store in Skype for Business Server</span></span>](../../deploy/deploy-unified-contact-store.md)

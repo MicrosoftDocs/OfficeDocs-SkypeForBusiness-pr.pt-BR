@@ -1,5 +1,6 @@
 ---
-title: Importar certificado (resumo)
+title: Importar Certificado (Resumo)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
 ROBOTS: NOINDEX, NOFOLLOW
 description: Na página Importar resumo de certificado, são apresentadas um resumo do nome do arquivo, o caminho e a presença de uma chave privada. Depois de revisar o resumo, clique próximo ao continue.
-ms.openlocfilehash: d0fe73061035ef9e0ff09836f41a60793c9d0fa5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0a0bb6baa672386fc55a7b572a69d8322edda4cc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20990218"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886907"
 ---
-# <a name="import-certificate-summary"></a><span data-ttu-id="ddf59-104">Importar certificado (resumo)</span><span class="sxs-lookup"><span data-stu-id="ddf59-104">Import Certificate (Summary)</span></span>
+# <a name="import-certificate-summary"></a><span data-ttu-id="a419b-104">Importar Certificado (Resumo)</span><span class="sxs-lookup"><span data-stu-id="a419b-104">Import Certificate (Summary)</span></span>
  
-<span data-ttu-id="ddf59-105">Na página **Importar resumo de certificado** , são apresentadas um resumo do nome do arquivo, o caminho e a presença de uma chave privada.</span><span class="sxs-lookup"><span data-stu-id="ddf59-105">On the **Import Certificate Summary** page, you are presented with a summary of the File Name, path, and presence of a private key.</span></span> <span data-ttu-id="ddf59-106">Após revisar o resumo, clique em **Avançar** para continuar.</span><span class="sxs-lookup"><span data-stu-id="ddf59-106">After you have reviewed the summary, click **Next** to continue.</span></span>
+<span data-ttu-id="a419b-105">Na página **Importar resumo de certificado** , são apresentadas um resumo do nome do arquivo, o caminho e a presença de uma chave privada.</span><span class="sxs-lookup"><span data-stu-id="a419b-105">On the **Import Certificate Summary** page, you are presented with a summary of the File Name, path, and presence of a private key.</span></span> <span data-ttu-id="a419b-106">Após revisar o resumo, clique em **Avançar** para continuar.</span><span class="sxs-lookup"><span data-stu-id="a419b-106">After you have reviewed the summary, click **Next** to continue.</span></span>
   
 

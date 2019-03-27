@@ -1,5 +1,6 @@
 ---
 title: Expansor de Configuração de Serviço de Mediação
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7cfc838f-845b-4b73-bbdf-3c0c9b9aac1b
 description: Use esta página para definir as portas de escuta para este servidor de mediação e definir suas associações com gateways PSTN (rede) telefônica pública comutada.
-ms.openlocfilehash: d1cd9ee1bce52dc748d2cd12193a84b985ab5cf5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ac8897dbafd44c0c6942c0de4477ebb6e16f3b4b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887719"
 ---
-# <a name="mediation-service-setting-expander"></a><span data-ttu-id="d6e1d-103">Expansor de Configuração de Serviço de Mediação</span><span class="sxs-lookup"><span data-stu-id="d6e1d-103">Mediation Service Setting Expander</span></span>
+# <a name="mediation-service-setting-expander"></a><span data-ttu-id="babf1-103">Expansor de Configuração de Serviço de Mediação</span><span class="sxs-lookup"><span data-stu-id="babf1-103">Mediation Service Setting Expander</span></span>
  
-<span data-ttu-id="d6e1d-104">Use esta página para definir as portas de escuta para este servidor de mediação e definir suas associações com gateways PSTN (rede) telefônica pública comutada.</span><span class="sxs-lookup"><span data-stu-id="d6e1d-104">Use this page to set the listening ports for this Mediation Server, and set its associations with public switched telephone network (PSTN) gateways.</span></span> 
+<span data-ttu-id="babf1-104">Use esta página para definir as portas de escuta para este servidor de mediação e definir suas associações com gateways PSTN (rede) telefônica pública comutada.</span><span class="sxs-lookup"><span data-stu-id="babf1-104">Use this page to set the listening ports for this Mediation Server, and set its associations with public switched telephone network (PSTN) gateways.</span></span> 
   
 

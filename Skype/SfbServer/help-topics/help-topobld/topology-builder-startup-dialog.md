@@ -1,5 +1,6 @@
 ---
 title: Caixa de diálogo de inicialização do Construtor de Topologias
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,27 +13,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Iniciar o construtor de topologias para configurar as propriedades e a configuração da sua implantação do Microsoft Lync Server 2013. Na inicialização, o construtor de topologias exibe uma caixa de diálogo que pergunta qual será a fonte do documento de topologia. Você selecionar uma das três opções:'
-ms.openlocfilehash: 5140c16f96b641dec74cb6919571365a7751ae0b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: df784ea76497cb038eb46f929844662066a298aa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260822"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891092"
 ---
-# <a name="topology-builder-startup-dialog"></a><span data-ttu-id="0b6a8-105">Caixa de diálogo de inicialização do Construtor de Topologias</span><span class="sxs-lookup"><span data-stu-id="0b6a8-105">Topology Builder Startup Dialog</span></span>
+# <a name="topology-builder-startup-dialog"></a><span data-ttu-id="96f28-105">Caixa de diálogo de inicialização do Construtor de Topologias</span><span class="sxs-lookup"><span data-stu-id="96f28-105">Topology Builder Startup Dialog</span></span>
 
-<span data-ttu-id="0b6a8-106">Iniciar o construtor de topologias para configurar as propriedades e a configuração da sua implantação do Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0b6a8-106">You start Topology Builder to configure the properties and configuration of your Microsoft Lync Server 2013 deployment.</span></span> <span data-ttu-id="0b6a8-107">Na inicialização, o construtor de topologias exibe uma caixa de diálogo que pergunta qual será a fonte do documento de topologia.</span><span class="sxs-lookup"><span data-stu-id="0b6a8-107">On startup, Topology Builder displays a dialog that asks what the source of the topology document will be.</span></span> <span data-ttu-id="0b6a8-108">Você selecionar uma das três opções:</span><span class="sxs-lookup"><span data-stu-id="0b6a8-108">You select one of three options:</span></span>
+<span data-ttu-id="96f28-106">Iniciar o construtor de topologias para configurar as propriedades e a configuração da sua implantação do Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="96f28-106">You start Topology Builder to configure the properties and configuration of your Microsoft Lync Server 2013 deployment.</span></span> <span data-ttu-id="96f28-107">Na inicialização, o construtor de topologias exibe uma caixa de diálogo que pergunta qual será a fonte do documento de topologia.</span><span class="sxs-lookup"><span data-stu-id="96f28-107">On startup, Topology Builder displays a dialog that asks what the source of the topology document will be.</span></span> <span data-ttu-id="96f28-108">Você selecionar uma das três opções:</span><span class="sxs-lookup"><span data-stu-id="96f28-108">You select one of three options:</span></span>
 
-- <span data-ttu-id="0b6a8-109">**Baixar topologia da implantação existente** Selecione essa opção se você executou o construtor de topologia e publicar com êxito sua topologia para o servidor de gerenciamento Central.</span><span class="sxs-lookup"><span data-stu-id="0b6a8-109">**Download Topology from existing deployment** Select this option if you have run Topology Builder and have successfully published your topology to the Central Management Server.</span></span> <span data-ttu-id="0b6a8-110">Essa opção solicita e downloads uma cópia local da configuração atual, permitindo que você editar e configurar a implantação existente.</span><span class="sxs-lookup"><span data-stu-id="0b6a8-110">This option requests and downloads a local copy of the current configuration, allowing you to edit and configure the existing deployment.</span></span>
+- <span data-ttu-id="96f28-109">**Baixar topologia da implantação existente** Selecione essa opção se você executou o construtor de topologia e publicar com êxito sua topologia para o servidor de gerenciamento Central.</span><span class="sxs-lookup"><span data-stu-id="96f28-109">**Download Topology from existing deployment** Select this option if you have run Topology Builder and have successfully published your topology to the Central Management Server.</span></span> <span data-ttu-id="96f28-110">Essa opção solicita e downloads uma cópia local da configuração atual, permitindo que você editar e configurar a implantação existente.</span><span class="sxs-lookup"><span data-stu-id="96f28-110">This option requests and downloads a local copy of the current configuration, allowing you to edit and configure the existing deployment.</span></span>
 
-- <span data-ttu-id="0b6a8-111">**Abrir a topologia de um arquivo local** Selecione essa opção se você estiver configurando uma implantação, mas ainda não publicado a configuração.</span><span class="sxs-lookup"><span data-stu-id="0b6a8-111">**Open Topology from a local file** Select this option if you are configuring a deployment but have not yet published the configuration.</span></span> <span data-ttu-id="0b6a8-112">Essa opção permite que você salvar uma cópia local do trabalho de configuração no construtor de topologia e voltar a ele mais tarde.</span><span class="sxs-lookup"><span data-stu-id="0b6a8-112">This option allows you to save a local copy of the configuration work in Topology Builder and come back to it at a later time.</span></span>
+- <span data-ttu-id="96f28-111">**Abrir a topologia de um arquivo local** Selecione essa opção se você estiver configurando uma implantação, mas ainda não publicado a configuração.</span><span class="sxs-lookup"><span data-stu-id="96f28-111">**Open Topology from a local file** Select this option if you are configuring a deployment but have not yet published the configuration.</span></span> <span data-ttu-id="96f28-112">Essa opção permite que você salvar uma cópia local do trabalho de configuração no construtor de topologia e voltar a ele mais tarde.</span><span class="sxs-lookup"><span data-stu-id="96f28-112">This option allows you to save a local copy of the configuration work in Topology Builder and come back to it at a later time.</span></span>
 
-- <span data-ttu-id="0b6a8-113">**Nova topologia** Selecione essa opção para começar a configuração de um novo documento de topologia.</span><span class="sxs-lookup"><span data-stu-id="0b6a8-113">**New Topology** Select this option to begin the configuration of a new topology document.</span></span> <span data-ttu-id="0b6a8-114">Essa opção abre um novo documento de topologia que você configurar para atender os requisitos de implantação que você irá configurar.</span><span class="sxs-lookup"><span data-stu-id="0b6a8-114">This option opens a new topology document that you configure to meet the requirements for the deployment that you will configure.</span></span>
+- <span data-ttu-id="96f28-113">**Nova topologia** Selecione essa opção para começar a configuração de um novo documento de topologia.</span><span class="sxs-lookup"><span data-stu-id="96f28-113">**New Topology** Select this option to begin the configuration of a new topology document.</span></span> <span data-ttu-id="96f28-114">Essa opção abre um novo documento de topologia que você configurar para atender os requisitos de implantação que você irá configurar.</span><span class="sxs-lookup"><span data-stu-id="96f28-114">This option opens a new topology document that you configure to meet the requirements for the deployment that you will configure.</span></span>
 
 ![Caixa de diálogo de inicialização do Construtor de Topologias](../../media/Topology_Builder_Startup_Dialog.jpg)
 
-## <a name="see-also"></a><span data-ttu-id="0b6a8-116">Consulte também</span><span class="sxs-lookup"><span data-stu-id="0b6a8-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="96f28-116">Consulte Também</span><span class="sxs-lookup"><span data-stu-id="96f28-116">See also</span></span>
 
-[<span data-ttu-id="0b6a8-117">Introdução ao Lync Server 2013 Preview</span><span class="sxs-lookup"><span data-stu-id="0b6a8-117">Introduction to Lync Server 2013 Preview</span></span>](https://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
+[<span data-ttu-id="96f28-117">Introdução ao Lync Server 2013 Preview</span><span class="sxs-lookup"><span data-stu-id="96f28-117">Introduction to Lync Server 2013 Preview</span></span>](https://technet.microsoft.com/library/99dd6b65-e591-421f-852b-ee9fe9588998.aspx)
 
-[<span data-ttu-id="0b6a8-118">Ferramentas administrativas do Lync Server</span><span class="sxs-lookup"><span data-stu-id="0b6a8-118">Lync Server Administrative Tools</span></span>](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)
+[<span data-ttu-id="96f28-118">Lync Server Administrative Tools</span><span class="sxs-lookup"><span data-stu-id="96f28-118">Lync Server Administrative Tools</span></span>](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx)
