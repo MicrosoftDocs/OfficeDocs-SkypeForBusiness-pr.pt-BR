@@ -1,5 +1,6 @@
 ---
 title: Aplicativos, bots e conectores no Microsoft Teams
+ms.reviewer: ''
 description: Use esses recursos de implantação para ajudá-lo a implantar os aplicativos na Microsoft.
 ms.topic: article
 author: LolaJacobsen
@@ -14,20 +15,18 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7ccc2c489d4423b906aec92dcb594f82a380e40
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 00653ebb796f0b33fa1461327ad173378fed8e28
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460792"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873165"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Aplicativos, bots e conectores no Microsoft Teams
 
 Os aplicativos permitem encontrar conteúdo em seus serviços favoritos e partilhá-lo diretamente no Teams. Eles ajudam você a fazer coisas como localizar serviços na parte superior de um canal, bater-papo com bots ou compartilhar e atribuir tarefas. Para saber mais, leia [Visão geral de aplicativos no Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
 É recomendável incluir os aplicativos em destaque, como o Planner, na implementação inicial do Teams. Adicione outros aplicativos, bots e conectores ao direcionar a adoção do Teams.
-
-
 
 ## <a name="apps-deployment-decisions"></a>Decisões de implantação de aplicativos
 
@@ -39,13 +38,13 @@ Estas são as configurações de aplicativos que a maioria das organizações de
 
 ### <a name="app-availability-settings"></a>Configurações de disponibilidade do aplicativo 
 
-O Teams oferece vários aplicativos próprios (fornecidos pela Microsoft) e de terceiros para envolver usuários, dar suporte à produtividade e integrar serviços comerciais comumente usados no Teams. Obtenha aplicativos na Teams Store. Por padrão, todos os aplicativos, incluindo os aplicativos externos enviados pelo processo de aprovação da [Teams Store](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process) são ativados para todos os usuários. Por exemplo, os usuários podem usar o aplicativo do Planner para criar e gerenciar tarefas de equipe no Teams.
+O Teams oferece vários aplicativos publicados pela Microsoft e por terceiros para envolver usuários, dar apoio à produtividade e integrar serviços empresariais normalmente usados no Teams. Obtenha aplicativos na Teams Store. Por padrão, todos os aplicativos, incluindo aplicativos personalizados enviados por meio do[processo de aprovação do Teams Store](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), são ativados para todos os usuários.  Por exemplo, os usuários podem usar o aplicativo do Planner para criar e gerenciar tarefas de equipe no Teams.
 
-Por padrão, todos os aplicativos externos e fornecido pela Microsoft estão disponíveis e é possível ativar ou desativar aplicativos individuais. Há uma configuração global que permite ativar ou desativar todos os aplicativos externos para toda a organização.
+Por padrão, todos os aplicativos personalizados e fornecidos pela Microsoft estão disponíveis, e é possível ativar ou desativar aplicativos individualmente. Há uma configuração de toda a organização que permite ativar ou desativar aplicativos personalizados para toda a sua organização.
 
 | Pergunte-se | Ação |
 |--------------|--------|
-|Vai alterar as configurações padrão dos aplicativos Teams? | Para obter mais informações sobre como configurar a disponibilidade de aplicativos externos, confira [Configurações de administrador para aplicativos no Microsoft Teams](admin-settings.md).|
+|Vai alterar as configurações padrão dos aplicativos Teams? | Para mais informações sobre políticas e configurações que podem ser usadas no gerenciamento de aplicativos da sua organização, confira as[Configurações de Administrador para aplicativos no Microsoft Teams](admin-settings.md).|
 |||
 
 ### <a name="app-permissions-and-other-considerations"></a>Permissões de aplicativos e outras considerações
