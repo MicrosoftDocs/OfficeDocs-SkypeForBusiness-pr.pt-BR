@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba mais sobre o que sistema telefônico pode fazer por você. '
-ms.openlocfilehash: 511f5892bad23901e30e1e3e1c5feacf43fa97f0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 41694fcc91ccb1d7bdf4df38c39a6554851d2a8f
+ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884241"
+ms.locfileid: "30934776"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>O que é o Sistema de Telefonia no Office 365?
 
@@ -69,7 +69,7 @@ Planos de chamada (locais e nacionais e internacionais) estão disponíveis nas 
 
 - **Filas de chamada**  Com o sistema telefônico, você pode criar saudações de fila de chamada que são usadas quando alguém chama um número de telefone para sua organização; Isso inclui a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que a chamada está escutando a música em espera. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização. Consulte [criar uma fila de chamada do sistema telefônico](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
-- **Caixa postal** Quando você obtiver uma licença de sistema telefônico para um usuário, esse usuário poderá obter o correio de voz que foi deixado por chamadores. Caixa postal do sistema telefônico automaticamente é configurado e provisionado para usuários depois que você atribuir uma licença de sistema telefônico e um número de telefone para acessá-los. Consulte [Configurar a caixa postal do sistema telefônico](set-up-phone-system-voicemail.md).
+- **Caixa postal** Quando você obtiver uma licença de sistema telefônico para um usuário, esse usuário poderá obter o correio de voz que foi deixado por chamadores. Caixa postal de nuvem é configurada automaticamente e provisionado para usuários depois que você atribuir uma licença de sistema telefônico e um número de telefone para acessá-los. Consulte [Configurar a caixa postal de nuvem](set-up-phone-system-voicemail.md).
 
 Se você estiver pronto para começar, consulte [Configurando o sistema telefônico na sua organização](setting-up-your-phone-system.md).
 

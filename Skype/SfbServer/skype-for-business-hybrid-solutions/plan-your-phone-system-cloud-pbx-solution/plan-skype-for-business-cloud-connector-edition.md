@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de máquinas virtuais (VMs) compactadas que implementam conectividade PSTN local com o Sistema de Telefonia do Office 365 (Cloud PBX).
-ms.openlocfilehash: da594ba2511b7e3a296eb57b825489305d9473d9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 21a37b40b0069df9043c69814e40853ced16ce7e
+ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888749"
+ms.locfileid: "30934753"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plano do Skype for Business Edição Cloud Connector
 
@@ -74,7 +74,7 @@ Considere o seguinte ao planejar a implantação de nuvem conector Edition:
 
 - O Cloud Connector 2.1 e versões posteriores dão suporte ao monitoramento do Cloud Connector usando o OMS (Operations Management Suite). Para obter mais informações, veja [Monitor Cloud Connector using Operations Management Suite (OMS)](monitor-cloud-connector-using-operations-management-suite-oms.md).
 
-- Conector de nuvem está disponível em todos os países onde o Office 365 Enterprise E5 está disponível. No entanto, devido a vários regulamentos, o conector de nuvem não pode ser configurado se o local de locatário estiver definido como um dos seguintes países: Argélia, Bangladesh, Botsuana, Brunei, Camarões, Costa do Marfim, Gana, Líbano, Macau, Maurício, Namíbia, Paraguai, Senegal.
+- Conector de nuvem está disponível em todos os países onde o Office 365 Enterprise E5 está disponível.
 
 Este tópico inclui as seguintes seções:
 

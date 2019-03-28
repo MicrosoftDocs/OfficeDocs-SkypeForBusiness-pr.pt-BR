@@ -1,5 +1,5 @@
 ---
-title: Configurar a caixa postal do Sistema de Telefonia
+title: Configurar a caixa postal de nuvem
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,24 +20,24 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: e0f966d178fb775ff8f9283c6a8097487e8933a2
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: 'Saiba como configurar a caixa postal de nuvem para seus usuários. '
+ms.openlocfilehash: 8219934b8e95962f0e9ea81f4965ad9e5c55fb34
+ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541900"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30934768"
 ---
-# <a name="set-up-phone-system-voicemail"></a>Configurar a caixa postal do Sistema de Telefonia
+# <a name="set-up-cloud-voicemail"></a>Configurar a caixa postal de nuvem
 
-Este artigo destina-se o [administrador do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) que deseje configurar o recurso de caixa postal do sistema telefônico para que todos na empresa.
+Este artigo destina-se o [administrador do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) que deseje configurar o recurso de caixa postal de nuvem para que todos na empresa.
 
 > [!NOTE]
-> Phone System voicemail supports depositing voicemail messages only in an Exchange mailbox and doesn't support any third-party email systems. As a fallback mechanism, Phone System voicemail can resend messages using SMTP, which means users with a mailbox on a third-party email system will receive their voicemail messages with no guaranteed service uptime or other voicemail features, such as changing their greetings and other settings.
+> Caixa postal de nuvem oferece suporte a mensagens de caixa postal depositar somente em uma caixa de correio do Exchange e não tem suporte para qualquer sistemas de email de terceiros. Como um mecanismo de fallback, caixa postal de nuvem pode reenviar mensagens usando o SMTP, o que significa que os usuários com uma caixa de correio em um sistema de email de terceiros receberá suas mensagens de caixa postal com nenhum tempo de atividade do serviço garantido ou outros recursos de caixa postal, como alterar suas saudações e outras configurações.
 
-## <a name="cloud-only-environments-set-up-phone-system-voicemail"></a>Ambientes somente em nuvem: configurar a caixa postal do sistema telefônico
+## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>Ambientes somente em nuvem: configurar a caixa postal de nuvem
 
-Skype para usuários corporativos Online e planos de chamada, caixa postal do sistema telefônico é automaticamente configurado e provisionado para usuários depois que você atribuir uma licença de **Sistema telefônico** e um número de telefone para acessá-los.
+Skype para usuários corporativos Online e planos de chamada, caixa postal de nuvem é automaticamente configurado e provisionado para usuários depois que você atribuir uma licença de **Sistema telefônico** e um número de telefone para acessá-los.
   
 1. Se o recurso de sistema telefônico não está incluído no seu plano, você pode precisar adquirir licenças de complemento do **Sistema telefônico** . Você também pode precisar adquirir uma licença do Exchange Online. Consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
@@ -47,13 +47,13 @@ Skype para usuários corporativos Online e planos de chamada, caixa postal do si
 
 ## <a name="phone-system-with-on-premises-environments"></a>Sistema de Telefonia com ambientes locais
 
-As seguintes informações são sobre como configurar a caixa postal do Sistema de Telefonia para funcionar com ambientes de Planos de Chamada locais.
+As seguintes informações são sobre como configurar a caixa postal de nuvem para funcionar com ambientes de chamar planejar locais.
   
 1. Se o recurso de sistema telefônico não está incluído no seu plano, você pode precisar adquirir licenças de complemento do **Sistema telefônico** . Você também precisará comprar uma licença do Exchange Online. Consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
 2. [Atribuir ou remover licenças para o Office 365 para empresas](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), as [equipes da Microsoft atribuir licenças](assign-teams-licenses.md)e as licenças do Exchange Online para as pessoas na sua empresa.
     
-3. Siga as instruções na seção **habilitar usuários para serviços de correio de voz e voz de sistema telefônico** a [Configurar Skype for Business Edition do conector de nuvem guia](https://technet.microsoft.com/library/mt605228.aspx).
+3. Siga as instruções na seção **habilitar usuários para serviços de caixa postal e voz do sistema telefônico** a [Configurar Skype for Business Edition do conector de nuvem guia](https://technet.microsoft.com/library/mt605228.aspx).
 
 4. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
 
@@ -122,7 +122,7 @@ Temos informações de treinamento e artigos para ajudar seus usuários a obter 
 - [Treinamento do Skype for Business 2016](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
 ## <a name="related-topics"></a>Tópicos relacionados
-[Configurar o Skype for Business Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[Instalar o Skype for Business Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
 

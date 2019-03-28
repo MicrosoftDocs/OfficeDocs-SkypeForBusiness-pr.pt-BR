@@ -15,27 +15,27 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6972a09a169560d255c2bb118f80dbbdfb2c7f4f
-ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
+ms.openlocfilehash: 4865d66d4d3ff1257d0fc4bd355a65c7c1330101
+ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30800128"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30934784"
 ---
 <a name="about-upgrade-basic"></a>
 
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Experiência e conformidade do cliente do Teams a modos de coexistência
 
 > [!NOTE]
-> Esta página descreve importantes futuras alterações no comportamento do cliente de equipes, quando os usuários estiverem em qualquer uma do Skype para modos de negócios (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
+> Esta página descreve alterações importantes, liberadas recentemente no comportamento do cliente de equipes, quando os usuários estiverem em qualquer uma do Skype para modos de negócios (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
 
 
 A finalidade dos modos de coexistência é fornecer uma experiência previsível simple para usuários finais como transição de organizações do Skype para negócios às equipes.  Para uma organização mudando para equipes, o modo TeamsOnly é o destino final para cada usuário, embora nem todos os usuários precisam ser atribuídas TeamsOnly (ou qualquer outro modo) ao mesmo tempo.  Antes de usuários está atingindo o modo TeamsOnly, as organizações podem usar qualquer um do Skype para modos de negócios (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) para garantir a comunicação entre os usuários que são TeamsOnly e aqueles que não são ainda previsível. 
 
-Quando um usuário estiver em qualquer um do Skype para modos de negócios, todas as chamadas e chats de entrada são roteadas para Skype do usuário para o cliente de negócios. Para evitar a confusão do usuário final e garantir o roteamento apropriado, a funcionalidade de chamada e bate-papo no cliente equipes destina-se a ser desabilitado quando um usuário está em qualquer uma do Skype para modos de negócios. Da mesma forma, agendamento de reuniões em equipes é destinado a ser explicitamente desabilitado quando os usuários estiverem nos modos de SfBOnly ou SfBWithTeamsCollab e explicitamente habilitado quando um usuário está no modo de SfBWithTeamsCollabAndMeetings.  Para desabilitar automaticamente a funcionalidade de bate-papo e chamar a funcionalidade, bem como habilitar/desabilitar baseada no modo de agendamento de reunião está agora começando a distribuição para os clientes de toque.  
+Quando um usuário estiver em qualquer um do Skype para modos de negócios, todas as chamadas e chats de entrada são roteadas para Skype do usuário para o cliente de negócios. Para evitar a confusão do usuário final e garantir o roteamento apropriado, a funcionalidade de chamada e bate-papo no cliente equipes está desabilitada quando um usuário está em qualquer uma do Skype para modos de negócios. Da mesma forma, o agendamento de reuniões em equipes é explicitamente desabilitado quando os usuários estiverem nos modos de SfBOnly ou SfBWithTeamsCollab e explicitamente habilitado quando um usuário está no modo de SfBWithTeamsCollabAndMeetings.   
 
-Antes dessa funcionalidade, a orientação da Microsoft foi garantir a experiência de usuário apropriados, definindo as configurações correspondentes na mensagem, chamar e políticas de reunião. No entanto, não havia nenhuma imposição formal, e desde que os usuários por padrão tinham acesso total a todas as funcionalidades no cliente equipes, alguns usuários podem ter retidas acesso a algumas ou todas essas experiências no cliente de equipes, independentemente do seu modo.  Como resultado, como essa funcionalidade rola check-out, alguns usuários podem ver uma alteração na sua experiência no cliente equipes conforme a experiência do usuário começa para se adequar ao seu modo.  A tabela abaixo mostra o novo comportamento:
-
+## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Como a funcionalidade disponível no cliente de equipes muda com base no modo
+A funcionalidade disponível no equipes dependes no modo de coexistência do usuário, como definido pelo TeamsUpgradePolicy. A tabela a seguir resume o comportamento:
 
 |Modo de usuário efetivo|Experiência com o cliente de equipes|
 |---|---|
@@ -44,18 +44,20 @@ Antes dessa funcionalidade, a orientação da Microsoft foi garantir a experiên
 |SfBWithTeamsCollab ou SfBOnly<sup>2</sup>|Agendamento de reunião não está disponível|
 |||
 
+As capturas de tela a seguintes ilustram a diferença entre modo TeamsOnly ou Ilhas e todos os outros modos. Observe que os ícones de bate-papo e chamadas estão disponíveis com TeamsOnly ou Ilhas modo (captura de tela da esquerda), mas não com outros modos (captura de tela direita):
+
+![Mostra as comparações de modo de equipes](media/teams-mode-comparison.png)
+
+
+ 
 **Observações:**
 <sup>1</sup> bate-papo de reunião ainda está disponível.
 
 <sup>2</sup> no momento, SfBwithTeamsCollab e SfBOnly se comportam da mesma, mas a intenção é para o modo de SfBOnly também desativar a funcionalidade de arquivos e canais em equipes; No entanto, não há atualmente nenhuma configuração que permite essa funcionalidade em equipes a ser desabilitado.
 
 
-## <a name="how-organizations-can-prepare-for-automatic-ux-conformance-to-modes"></a>Como as organizações podem preparar quanto à conformidade eu automática com modos
-
-Antes que essa alteração aplicação, as organizações podem atingir a experiência desejada no cliente equipes usando políticas adicionais, conforme descrito nesta seção. Isso garante que a distribuição seja perfeita para usuários finais. Observe que depois que a alteração rola check-out, definir essas diretivas não será necessária.  Como alternativa, as organizações que não deseja para os usuários a funcionalidade no cliente equipes, reduziram podem deslocar seus usuários para o modo de ilhas ou TeamsOnly, no entanto, que afetará o roteamento, bem.
-
-Para configurar manualmente a experiência do usuário final, os administradores usam as seguintes políticas e configurações:
-
+## <a name="impact-of-mode-on-other-policy-settings"></a>Impacto do modo em outras configurações de política
+Conforme descrito acima, do impacto de modo para a coexistência do usuário a funcionalidade para a qual está disponível no cliente de equipes do usuário. Isso significa que o valor do modo pode têm precedência sobre o valor de outras configurações de política, dependendo do modo. Especificamente, o modo de coexistência impacta se as seguintes configurações de diretiva são observadas:
 
 |**Modalidade (App)**|**Policy.Setting**|
 |---|---|
@@ -64,8 +66,7 @@ Para configurar manualmente a experiência do usuário final, os administradores
 |Agendamento de reuniões|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 
-
-Os administradores devem definir cada uma dessas configurações para os seguintes valores para um determinado modo:
+Os administradores precisam *não* explicitamente definir essas configurações de diretiva quando usando o modo de coexistência, mas ele é importante entender que essas configurações efetivamente se comportam como a seguir para um determinado modo. 
 
 |Modo|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
 |---|---|---|---|---|
@@ -74,18 +75,17 @@ Os administradores devem definir cada uma dessas configurações para os seguint
 |SfBWithTeamsCollab ou SfBOnly|Desabilitado|Desabilitado|Desabilitado|Desabilitado|
 ||||||
 
-Antes da distribuição de conformidade automática da experiência do usuário com base em modos, o `Grant-CsTeamsUpgradePolicy` cmdlet verifica a configuração das respectivas configurações na TeamsMessagingPolicy, TeamsCallingPolicy e TeamsMeetingPolicy para determinar se essas as configurações são compatíveis com o modo especificado. Se qualquer um não estejam configurado corretamente, o grant terá êxito, mas um aviso será fornecido no PowerShell indicando quais configurações específicas não estão configuradas corretamente. Abaixo é um exemplo de como o aviso do PowerShell pode parecer:
+Em breve, o `Grant-CsTeamsUpgradePolicy` cmdlet irá verificar a configuração das respectivas configurações na TeamsMessagingPolicy, TeamsCallingPolicy e TeamsMeetingPolicy para determinar se essas configurações serão ser substituídas pelos TeamsUpgradePolicy e em caso afirmativo, um mensagem informativa é fornecida no PowerShell.  Conforme observado anteriormente, não é necessário definir essas outras configurações de diretiva. Abaixo é um exemplo de aviso PowerShell se parece com:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 
-`WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.`
-
-Na visualização tal um aviso, o administrador subsequentemente deve atualizar as políticas indicadas para oferecer uma experiência de usuário compatíveis do final em equipes. Se o administrador decide não agir como resultado de aviso, os usuários ainda podem ter acesso ao chat, chamar e/ou recursos de agendamento no equipes dependendo dos valores de TeamsMessagingPolicy, TeamsCallingPolicy e TeamsMeetingPolicy, de reunião qual pode resultar em uma experiência de usuário final confusa.
-
-Depois que a conformidade automática da experiência do cliente equipes com base no modo de TeamsUpgradePolicy estiver disponível, não será necessário para definir essas políticas. O valor do modo de TeamsUpgradePolicy terá precedência sobre os valores dessas configurações específicas. Conformidade automática é obtida durante a solução de diretiva com a infra-estrutura da diretiva. Em caso de conflito das configurações diferentes, o comportamento com base no modo vencerá os valores de AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling e AllowChannelMeetingScheduling. Depois que a conformidade automática é entregue, os avisos do PowerShell serão atualizados para informar ao administrador que automaticamente aplicará a experiência do cliente, apesar de todos os valores de TeamsMessagingPolicy, TeamsCallingPolicy e TeamsMeetingPolicy.
+`WARNING: The user 'user1@contoso.com' currently has enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling, however these values will be ignored. This is because you are granting this user TeamsUpgradePolicy with mode=SfBWithTeamsCollab, which causes the Teams client to behave as if they are disabled.`
 
 
 
+# <a name="related-topics"></a>Tópicos relacionados
+
+[Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 
 
