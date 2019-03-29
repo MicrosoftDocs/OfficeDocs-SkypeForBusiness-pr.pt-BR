@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d473408b054d1e7a89ad5ce27c1686cce181d9e
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 98a66e0335daf0e74c96d0a2dad18f89bd1f4c5f
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568684"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948183"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -128,14 +128,14 @@ Para saber mais sobre os locais de emergência em relação à chamada planos, r
 
 ## <a name="voicemail"></a>Caixa postal
 
-Caixa postal de sistema telefônico, possibilitada pela serviços de caixa postal do Azure, suporta depósitos de correio de voz em somente caixas postais do Exchange e não oferece suporte a sistemas de email de terceiros.
+Caixa postal de nuvem, possibilitada pela serviços de caixa postal do Azure, suporta depósitos de correio de voz em somente caixas postais do Exchange e não oferece suporte a sistemas de email de terceiros.
 
-Por padrão, o sistema telefônico voicemail funciona com o Exchange Online; No entanto ele tenha um mínimo com suporte Exchange local versão e implantação modelo para permitir a entrega de mensagens de caixa postal para caixas de correio do usuário na implantação do Exchange local.
+Por padrão, a caixa postal de nuvem funciona com o Exchange Online; No entanto ele tenha um mínimo com suporte Exchange local versão e implantação modelo para permitir a entrega de mensagens de caixa postal para caixas de correio do usuário na implantação do Exchange local.
 
-A caixa postal do Sistema de Telefonia inclui transcrição da caixa postal que, por padrão, está habilitada para todos os usuários da organização. Suas necessidades de negócios podem exigir que você desative as transcrições de caixa postal para usuários específicos ou todos em toda a organização. Se a sua organização decidir manter a transcrição do correio de voz habilitada, você precisa considerar também se mascaramento de obscenidades transcrição caixa postal precisa estar habilitado. Consulte [definir políticas de caixa postal na sua organização](set-up-phone-system-voicemail.md) para obter mais detalhes.
+Caixa postal de nuvem inclui transcrições de caixa postal, que é ativada por padrão para todos os usuários em sua organização. Suas necessidades de negócios podem exigir que você desative as transcrições de caixa postal para usuários específicos ou todos em toda a organização. Se a sua organização decidir manter a transcrição do correio de voz habilitada, você precisa considerar também se mascaramento de obscenidades transcrição caixa postal precisa estar habilitado. Consulte [definir políticas de caixa postal na sua organização](set-up-phone-system-voicemail.md) para obter mais detalhes.
 
 >[!NOTE]
-> Foi implementado um mecanismo de fallback de modo que a caixa postal do Sistema de Telefonia possa reenviar mensagens usando o protocolo SMTP. Isso quer dizer que os usuários com uma caixa de correio em um sistema de email de terceiros receberá suas mensagens da caixa postal. Esse mecanismo não inclui o tempo de atividade de serviço garantido ou outros recursos de caixa postal, como alterar a saudação da caixa postal.
+> Um mecanismo de fallback foi implementado para que a caixa postal de nuvem pode reenviar mensagens usando o SMTP, o que significa que os usuários que têm uma caixa de correio em um sistema de email de terceiros receberá suas mensagens de caixa postal. Esse mecanismo não inclui o tempo de atividade de serviço garantido ou outros recursos de caixa postal, como alterar a saudação da caixa postal.
 
 Para obter mais informações sobre a caixa postal na implementação de um sistema telefônico, consulte [Sistema telefônico com planos de chamada](calling-plan-landing-page.md).
 
@@ -143,11 +143,11 @@ Para obter mais informações sobre a caixa postal na implementação de um sist
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se você habilitará o sistema telefônico de caixa postal na sua implementação chamando planos.</li><li>Se usando o Exchange local e a implantação existente não atender seus requisitos para dar suporte a caixa postal de sistema telefônico, escolha uma das opções disponíveis (atualização e configuração de suporte de caixa postal do sistema telefônico, migrar para o Exchange Online ou alavancar o mecanismo de fallback descrito anteriormente).</li><li>Decida se vai habilitar ou desabilitar a transcrição do correio de voz e caixa postal mascaramento de obscenidades transcrição em toda a organização ou usuários específicos.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Se aplicável, documente os pontos de decisão do Exchange para oferecer suporte à caixa postal do sistema telefônico.</li><li>Se você vai habilitar/desabilitar caixa postal, transcrições de caixa postal e caixa postal mascaramento de obscenidades transcrição somente para usuários específicos, essa lista de usuários do documento.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se você habilitará o correio de voz de nuvem na sua implementação chamando planos.</li><li>Se usando o Exchange local e a implantação existente não atender seus requisitos para dar suporte a caixa postal de nuvem, escolha uma das opções disponíveis (atualização e o programa de instalação para suporte de caixa postal de nuvem, migrar para o Exchange Online ou aproveitar o fallback mecanismo descrito anteriormente).</li><li>Decida se vai habilitar ou desabilitar a transcrição do correio de voz e caixa postal mascaramento de obscenidades transcrição em toda a organização ou usuários específicos.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Se aplicável, documente os pontos de decisão do Exchange para oferecer suporte à caixa postal de nuvem.</li><li>Se você vai habilitar/desabilitar caixa postal, transcrições de caixa postal e caixa postal mascaramento de obscenidades transcrição somente para usuários específicos, essa lista de usuários do documento.</li></ul>|
 
 > [!TIP]
-> Detalhes de caixa postal de sistema de telefone para o sistema telefônico com a implementação de planos de chamada podem ser documentados como a seguir.
+> Detalhes de caixa postal de nuvem para o sistema telefônico com implementação chamando planos podem ser documentados como a seguir.
 > 
 > |Usuário |Caixa de correio do Exchange |Habilitar a caixa postal? |Transcrição do correio de voz |Mascaramento de obscenidades de transcrição de caixa postal |
 > |------------------|------------------|-------------------|----------|----------|

@@ -1,7 +1,7 @@
 ---
 title: Criar uma fila de chamada no Sistema Telefônico
-author: CarolynRowe
-ms.author: crowe
+author: Jambirk
+ms.author: jambirk
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -21,12 +21,12 @@ f1keywords: ms.teamsadmincenter.callqueues.overview
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o sistema telefônico para filas de chamada do Office 365 (nuvem PBX) proporcionar uma organizacional saudação, música de espera e redirecionando chamadas para chamar agentes em listas de distribuição e grupos de segurança. Você também pode definir o tamanho máximo da fila, o tempo limite e opções de manipulação de chamada. '
-ms.openlocfilehash: 204959e68fa398300352e477fc7e78ea870aa359
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: c76f7e00c8c12e79c0dc333e05d4ccb0ca75266a
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664626"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952347"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Criar uma fila de chamada no Sistema Telefônico
 
@@ -173,7 +173,7 @@ No **Centro de administração de equipes da Microsoft**, clique em ![sfb-logoti
 ![Número 2](../images/sfbcallout2.png)<br/><br/>**Quando o número máximo de chamadas é atingido** Quando a fila chamada atinge seu tamanho máximo (definido usando a configuração **máximo de chamadas na fila** ), você pode escolher o que acontece às novas chamadas de entrada.
 * **Desconectar com um sinal de ocupado** A chamada será desconectada.
 * **Encaminhar essa chamada para** Quando você escolhe essa opção, você terá estas opções:
-  * **Pessoa na sua empresa** Um usuário Online com uma licença de **Sistema telefônico** e ser habilitado para o Enterprise Voice ou ter um plano de chamada. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para fazer isso, selecione uma **pessoa na sua empresa** e defina essa pessoa para que suas chamadas encaminhadas diretamente para a caixa postal. <br/> <br/>Para saber sobre o licenciamento necessários para a caixa postal, consulte [Configure a caixa postal do sistema telefônico](/microsoftteams/set-up-phone-system-voicemail). 
+  * **Pessoa na sua empresa** Um usuário Online com uma licença de **Sistema telefônico** e ser habilitado para o Enterprise Voice ou ter um plano de chamada. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para fazer isso, selecione uma **pessoa na sua empresa** e defina essa pessoa para que suas chamadas encaminhadas diretamente para a caixa postal. <br/> <br/>Para saber sobre o licenciamento necessários para a caixa postal, consulte [Configure a caixa postal de nuvem](/microsoftteams/set-up-phone-system-voicemail). 
 
     > [!Note]
     > Usuários hospedados no local usando o Lync Server 2010 não são suportados.<br/>
@@ -187,7 +187,7 @@ No **Centro de administração de equipes da Microsoft**, clique em ![sfb-logoti
 ![Número 4](../images/sfbcallout4.png)<br/><br/>**Quando uma chamada esgota** Quando a chamada alcança o limite definido na configuração de **quanto tempo uma chamada pode esperar na fila** , você pode escolher o que acontece com essa chamada:
 * **Desconectar** A chamada será desconectada.
 * **Encaminhar essa chamada para** Quando você escolhe essa opção, você terá estas opções:
-  * **Pessoa na sua empresa** Um usuário Online com uma licença de **Sistema telefônico** e ser habilitado para o Enterprise Voice ou ter planos de chamada. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para fazer isso, selecione uma **pessoa na sua empresa** e defina essa pessoa para que suas chamadas encaminhadas diretamente para a caixa postal. </br><br/>  Para saber sobre o licenciamento necessários para a caixa postal, consulte [Configure a caixa postal do sistema telefônico](/microsoftteams/set-up-phone-system-voicemail). 
+  * **Pessoa na sua empresa** Um usuário Online com uma licença de **Sistema telefônico** e ser habilitado para o Enterprise Voice ou ter planos de chamada. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para fazer isso, selecione uma **pessoa na sua empresa** e defina essa pessoa para que suas chamadas encaminhadas diretamente para a caixa postal. </br><br/>  Para saber sobre o licenciamento necessários para a caixa postal, consulte [Configure a caixa postal de nuvem](/microsoftteams/set-up-phone-system-voicemail). 
 
     > [!Note]
     > Usuários hospedados no local usando o Lync Server 2010 não são suportados.<br/>

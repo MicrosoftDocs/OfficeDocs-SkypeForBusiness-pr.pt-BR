@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Saiba mais sobre licenças de complemento recursos aos quais você obterá com cada licença, como comprá-los para o seu produto e como usar sua operadora existente com eles. Você pode obter informações sobre preços e plano de detalhes para o Office 365, créditos de comunicação, e planos de chamada.
-ms.openlocfilehash: 8b3e68fe89f2a7f07f5f117d60c2a74327a891ca
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 9413a8384aadc08d77bf16bf155d12a8edad9447
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633222"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948365"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Licenciamento do complemento do Microsoft Teams
 
@@ -95,7 +95,7 @@ Para documentação abrangente sobre como planejar sua implantação, incluindo 
 
 - [Configurar equipes](../microsoft-teams.md)
     
-- [Configurar a caixa postal do Sistema de Telefonia - Ajuda para administradores](../set-up-phone-system-voicemail.md)
+- [Configurar a caixa postal de nuvem - ajuda de Admin](../set-up-phone-system-voicemail.md)
     
 - [Chamar planos para o Office 365](../calling-plans-for-office-365.md) e [Configurar planos de chamada](../set-up-calling-plans.md)
     
