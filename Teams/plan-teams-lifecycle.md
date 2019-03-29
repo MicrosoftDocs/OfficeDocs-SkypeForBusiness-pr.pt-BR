@@ -15,10 +15,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b5686ec27495c8bbefbd07701031ddc179244986
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2019
+ms.lasthandoff: 03/27/2019
 ms.locfileid: "30641355"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planejar o gerenciamento de ciclo de vida no Teams
@@ -37,32 +37,32 @@ Os conceitos e as definições a seguir afetam as decisões que você toma para 
 
 **Microsoft Teams**
 
-A _team_ is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Office 365 Groups, and changes to Office 365 group membership sync to the team. Like other Office 365 Groups, Teams come auto-provisioned with an Exchange mailbox, a SharePoint site, a OneNote notebook, and other assets within Office 365. [Learn more about Office 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Uma _equipe_ é um conjunto de pessoas, conteúdo e ferramentas que possibilitam a colaboração. Uma equipe define quem são seus membros e as permissões e as políticas que se aplicam a eles. As equipes são criadas em Grupos do Office 365. Alterações na associação a um grupo do Office 365 são sincronizadas com a equipe. Assim como outros Grupos do Office 365, as Equipes são provisionadas automaticamente com uma caixa de correio do Exchange, um site do SharePoint, um bloco de anotações do OneNote e outros ativos no Office 365. [Saiba mais sobre os Grupos do Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 **Canais**
 
-Channels are the collaboration spaces within a team where the actual work is done. Each channel represents a different topic or workstream within the overall team. For each channel, a folder is automatically created on the SharePoint site to store all files shared to that channel, making it easy for users to find and work on the documents they care about. Channels can also be extended with apps that are relevant to the particular workstream—for example, you can add a Power BI dashboard to a channel to track the success of one aspect of your project.
+Canais são os espaços de colaboração em uma equipe nos quais o trabalho real é feito. Cada canal representa um tópico ou fluxo de trabalho diferente na equipe geral. Para cada canal, uma pasta é criada automaticamente no site do SharePoint para armazenar todos os arquivos compartilhados do canal. Assim, os usuários podem localizar e trabalhar mais facilmente com os documentos mais importantes. Os canais também podem ser ampliados com aplicativos que são relevantes para um fluxo de trabalho específico. Por exemplo, você pode adicionar um painel do Power BI a um canal para acompanhar o êxito de um aspecto do projeto.
 
 **Tipos de acesso de equipe**
 
 Determinam quem pode ingressar na equipe:
 
--   _Private_ teams are restricted to team members approved by the team owner(s). This is a typical setting for project teams and virtual teams in a large organization.
--   _Public_ teams are open for anyone in the organization to join directly. This is useful for collaboration on topics of general interest to people in different departments working on different projects. This is a good default setting for smaller organizations.
+-   As equipes _privadas_ estão restritas aos membros da equipe aprovados pelo(s) proprietário(s) dela. Essa é uma configuração típica para equipes de projeto e equipes virtuais em uma grande organização.
+-   As equipes _públicas_ são abertas para que qualquer pessoa na organização ingresse nelas diretamente. Isso é útil para colaboração em tópicos de interesse geral para pessoas de vários departamentos que trabalham em diferentes projetos. Essa é uma boa configuração padrão para organizações menores.
 
 **Tipos de usuários de equipes e funções administrativas** 
 
 Os tipos de usuários da equipe determinam o grau de controle que cada membro da equipe tem:
 
--   _Team creator_ has permissions to create a group or team in the directory. The admin can constrain this user type to a subset of admins or users. For more information, see [Manage who can create Office 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
--   _Team owner_ manages membership and settings for the team. There can be as many as 10 team owners per team.
+-   O _criador da equipe_ tem permissões para criar um grupo ou uma equipe no diretório. O administrador pode restringir esse tipo de usuário a um subconjunto de administradores ou usuários. Para obter mais informações, confira [Gerenciar quem pode criar Grupos do Office 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
+-   O _proprietário da equipe_ gerencia a associação e as configurações da equipe. Pode haver até 10 proprietários por equipe.
 -   Um _membro da equipe_ é um membro de sua organização que participa de uma equipe.
--   _Guest_ is a user who’s external to your organization. Anyone with an email address can be invited as a guest if your organization has enabled [guest access](guest-access.md).
+-   Um _convidado da equipe_ é um usuário que é externo à sua organização. Qualquer pessoa com um endereço de email poderá ser convidada se a organização tiver habilitado o [acesso de convidado](guest-access.md).
 
 > [!Note]
 > Saiba mais sobre os recursos de proprietário de equipe e de membro de equipe no artigo [Atribuir função e permissões no Microsoft Teams](assign-roles-permissions.md).
 
-Teams admin roles determine what capabilities each admin role holder has. These are described in the following table.
+As funções de administrador de equipe determinam quais recursos cada detentor da função de administrador tem. Isso é descrito na tabela a seguir.
 
 <table>
  <thead>
@@ -87,12 +87,12 @@ Teams admin roles determine what capabilities each admin role holder has. These 
 <tr>
 <td valign="top" colspan="2">Especialista em Comunicações de Equipes</td>
 <td valign="top">Solucionar problemas de comunicação no Teams usando ferramentas básicas</td>
-<td valign="top">Access to the user profile page for troubleshooting calls in Call Analytics. Can only view user information for the specific user being searched for.<sup>3</sup></td>
+<td valign="top">Acessar a página de perfil do usuário para solucionar problemas de chamadas na Análise de Chamada. Só pode exibir informações do usuário específico que está sendo pesquisado.<sup>3</sup></td>
 </tr>
 <tr>
 <td valign="top" colspan="2">Engenheiro de Suporte de Comunicações de Equipes</td>
 <td valign="top">Solucionar problemas de comunicação no Teams usando ferramentas avançadas</td>
-<td valign="top">Access to the user profile page for troubleshooting calls in Call Analytics. Can view the full call record information.<sup>3</sup></td>
+<td valign="top">Acessar a página de perfil do usuário para solucionar problemas de chamadas na Análise de Chamada. Pode exibir as informações completas do registro de chamada.<sup>3</sup></td>
 </tr>
 <tr>
 </tbody>
@@ -108,13 +108,13 @@ Teams admin roles determine what capabilities each admin role holder has. These 
 
 ## <a name="it-decisions-to-make-before-getting-started"></a>Decisões de TI a serem tomadas antes de começar
 
-Before you roll Teams out to your organization, implement any governance policies that your organization has decided it requires. These can include items like naming conventions, expiration policies, retention policies, and more. Generally speaking, it’s much easier to implement these requirements prior to scaling your deployment across your organization.
+Antes de distribuir o Teams a sua organização, implemente as políticas de governança que a organização considerou necessárias. Elas podem incluir convenções de nomenclatura, políticas de expiração, políticas de retenção e muito mais. De modo geral, é muito mais fácil implementar esses requisitos antes de realizar a implantação em toda a organização.
 
 Para obter mais informações, confira [Planejar a governança no Teams](plan-teams-governance.md).
 
 ## <a name="teams-lifecycle-stages"></a>Etapas do ciclo de vida de equipes
 
-Generally speaking, a team has a purpose that’s aligned with a project or accomplishing a goal. Even if a team was formed based on a shared interest, the team membership will probably change over time and the discussion might grow stale—only to surface again in a slightly different way in a different team.
+De modo geral, uma equipe tem um propósito que está alinhado a um projeto ou a uma meta. Mesmo que uma equipe tenha sido formada com base em um interesse em comum, a associação a ela provavelmente mudará com o tempo e a discussão poderá se tornar obsoleta, mas surgir novamente de maneira um pouco diferente em outra equipe.
 
 Cada equipe tem um começo, quando ela é criada e os canais são configurados; um meio, quando a equipe é usada e a colaboração ocorre para corresponder ao ritmo do fluxo de trabalho; e, às vezes, um fim, quando a equipe conclui seu propósito e chega ao fim da vida útil. 
 
@@ -124,7 +124,7 @@ Para obter mais informações, confira [Gerenciar equipes no Centro de administr
 
 #### <a name="create-the-team"></a>Criar a equipe
 
-The first step is to define the goal of the team (which can range from business processes to org structure to projects, or simply creating an open, unstructured collaboration hub). Defining the team goal goes hand in hand with identifying the right people. As far as practicable, it’s a good idea to foster open collaboration by aiming for broad membership. 
+A primeira etapa é definir o objetivo da equipe. Ele pode consistir em processos de negócios, na estrutura organizacional de projetos ou apenas na criação de um hub de colaboração aberto e não estruturado. A definição do objetivo da equipe está vinculada à identificação das pessoas certas. Na medida do possível, convém promover a colaboração aberta, visando uma ampla associação. 
 
 Os proprietários da equipe convidam membros, definem a imagem e a descrição da equipe e podem definir permissões para membros individuais. 
 
@@ -135,10 +135,10 @@ Os proprietários da equipe convidam membros, definem a imagem e a descrição d
 
 As equipes podem ser criadas por meio de diversos métodos:
 
--   Create the team from scratch. Add members by using individual email aliases or usernames, or expand a distribution list.
--   Create the team from an existing team, and use its channel configuration and any app configuration as a template. You can optionally also use its membership list.
+-   Crie a equipe do zero. Adicione membros usando aliases de email ou nomes de usuário individuais ou expanda uma lista de distribuição.
+-   Crie a equipe com base em uma equipe existente e use sua configuração de canal e qualquer configuração de aplicativo como modelo. Opcionalmente, você também pode usar sua lista de membros.
 -   Adicione uma equipe a um Grupo do Office 365 existente. Assim, a equipe também terá acesso à caixa de correio e ao site do SharePoint do grupo.
--   Use the Microsoft Graph Teams APIs or PowerShell cmdlets to create teams. The APIs can programmatically create teams based on Global Address Book attributes (such as region or department) or business processes (client engagements or classroom rosters, for example).
+-   Use as APIs do Teams do Microsoft Graph ou cmdlets do PowerShell para criar equipes. As APIs podem criar equipes de forma programática com base nos atributos do Catálogo de Endereços Global (como região ou departamento) ou em processos empresariais (compromissos de clientes ou listas de participantes de salas de aula, por exemplo).
 
 Use estes links para obter mais informações sobre como organizar as equipes:
 
