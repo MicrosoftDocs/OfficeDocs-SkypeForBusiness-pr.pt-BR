@@ -1,5 +1,5 @@
 ---
-title: Caixa postal do Sistema de Telefonia
+title: Caixa postal da nuvem
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,14 +17,14 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom: None
-description: Saiba mais sobre a caixa postal do sistema telefônico.
-ms.openlocfilehash: 69e0908552149ff171d41961d8721b4a4f6ab615
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+description: Saiba mais sobre a caixa postal de nuvem.
+ms.openlocfilehash: 6c224d3b00234bc65f724f7c255049b3be9edbe8
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856415"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948129"
 ---
-# <a name="phone-system-voicemail"></a><span data-ttu-id="497d0-103">Caixa postal do Sistema de Telefonia</span><span class="sxs-lookup"><span data-stu-id="497d0-103">Phone System voicemail</span></span>
+# <a name="cloud-voicemail"></a><span data-ttu-id="98111-103">Caixa postal da nuvem</span><span class="sxs-lookup"><span data-stu-id="98111-103">Cloud Voicemail</span></span>
 
 
