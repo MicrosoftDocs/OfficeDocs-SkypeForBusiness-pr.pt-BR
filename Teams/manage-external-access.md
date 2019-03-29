@@ -14,12 +14,12 @@ search.appverid: MET150
 description: O administrador de TI pode configurar acesso externo para outros domínios (federação) permitir que os usuários desses domínios participar de equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97b322969d3975b6f9ca2b2079d46fe95ef45e52
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b04b125f5cb998c71f161bf31809a39097accf6c
+ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459920"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955018"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Gerenciar o acesso externo (federação) no Microsoft Teams
 ======================================================
@@ -36,17 +36,17 @@ Consulte a tabela para obter uma comparação de externos e convidado para acess
 
 | Recurso | Usuários de acesso externo | Usuários de acesso de convidado |
 |---------|-----------------------|--------------------|
-| Usuário puder conversar com alguém em outra empresa | Sim |Sim  |
-| Usuário pode chamar alguém em outra empresa | Sim | Sim  |
+| Usuário puder conversar com alguém em outra empresa | Sim |Sim |
+| Usuário pode chamar alguém em outra empresa | Sim | Sim |
 | Usuário poderá ver se alguém de outra empresa está disponível para o bate-papo ou chamada | Sim | Sim<sup>1</sup> |
 | Usuários podem pesquisar para usuários por meio de inquilinos externos | Sim<sup>2</sup> | Não |
 | Usuário pode compartilhar arquivos | Não | Sim |
 | Usuário pode acessar os recursos de equipes | Não | Sim |
 | Usuário pode ser adicionado a um chat de grupo | Não | Sim |
-| Usuário pode ser adicionado a uma reunião | Sim | Sim  |
+| Usuário pode ser adicionado a uma reunião | Sim | Sim |
 | Usuários adicionais podem ser adicionados a uma conversa com um usuário externo | Nenhum<sup>3</sup> | N/D |
-| Usuário é identificado como um participante externo | Sim | Sim  |
-| A presença é exibida | Sim | Sim  |
+| Usuário é identificado como um participante externo | Sim | Sim |
+| A presença é exibida | Sim | Sim |
 | Ausência temporária mensagem é mostrada | Não | Sim |
 | Usuário individual poderão ser bloqueado. | Não | Sim |
 | @mentions são suportados | Não | Sim |
@@ -56,7 +56,7 @@ Consulte a tabela para obter uma comparação de externos e convidado para acess
 <sup>2</sup> somente por email ou endereço de protocolo de iniciação de sessão (SIP).<br>
 <sup>3</sup> bate-papo (federado) externo é 1:1 somente.
 
-## <a name="turn-on-or-turn-off-external-access"></a>Ativar ou desativar o acesso externo
+## <a name="turn-on-or-turn-off-external-access-users-can-communicate-with-skype-for-business-and-teams-users"></a>Ativar ou desativar o acesso externo (os usuários podem se comunicar com Skype para usuários empresariais e equipes)
 
 Você pode usar o & Teams Microsoft Skype para centro de administração de negócios para gerenciar o acesso externo.
 
@@ -64,7 +64,7 @@ Você pode usar o & Teams Microsoft Skype para centro de administração de neg�
 
      ![Captura de tela de acesso externo de configurações de toda a organização](media/manage-external-access-1.png).
 
-2. Alterne a chave de **acesso externo** para **ativada** ou **desativada**.
+2. Alterne a chave **usuários podem se comunicar com Skype para usuários empresariais e equipes** para **ativada** ou **desativada**.
 
      ![Captura de tela da opção de acesso externo ativada](media/manage-external-access-2.png).
 

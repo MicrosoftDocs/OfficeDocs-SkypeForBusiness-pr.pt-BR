@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
-ms.openlocfilehash: b3e6a6341e917b49eed6f1c89dcadfe29bcdaf10
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 8de76d085bad4ec8fc7c52c0f46a416d9b1cac82
+ms.sourcegitcommit: 0ea63f45cb31852fea6894cc6ffb0ae1ae444e64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891596"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30950253"
 ---
 # <a name="release-notes"></a>Notas de versão 
 
@@ -61,7 +61,7 @@ Introduzido nessa atualização:
 
 ### <a name="40760-03042019"></a>4.0.76.0 (04/03/2019)
 Introduzido nessa atualização:
-- Teclado DTMF para reuniões de Teams da Microsoft. Para tornar Teams Microsoft seu cliente de chamada padrão, os administradores devem defina IsTeamsDefaultClient como true
+- Teclado DTMF para Microsoft equipes P2P reuniões e chamadas PSTN. Para tornar Teams Microsoft seu cliente de chamada padrão, os administradores devem defina IsTeamsDefaultClient como true
 - Fixa vídeo de entrada de um participante remoto para tela inteira na frente da exibição da sala. Use o comando de "Fixar" da lista de participação dos participantes no console
 - Aprimoramentos para notificações de Lobby com a adição da notificação Front de sala
 - Frente da exibição da sala remove o ícone de projeção quando beacon Bluetooth não está habilitada no dispositivo de sistema de sala

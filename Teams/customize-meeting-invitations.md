@@ -1,5 +1,5 @@
 ---
-title: Personalizar os convites para reuniões Teams da Microsoft
+title: Personalizar os convites para reunião no Microsoft Teams
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -17,21 +17,21 @@ appliesto:
 f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Saiba como incluir o logotipo, aviso de isenção legal e outras informações em seus convites de reunião.
-ms.openlocfilehash: 0b5c050e2a7d530348db632bfd0471f2df807422
-ms.sourcegitcommit: 17348a197c8ed76d587f3c3d0ff36c56414183f0
+ms.openlocfilehash: ab42ddbc427ec344b8e4cf0f85e11f1426a5c6c4
+ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30477594"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955002"
 ---
-# <a name="customize-meeting-invitations-in-microsoft-teams"></a>Personalizar os convites para reuniões Teams da Microsoft
+# <a name="customize-meeting-invitations-in-microsoft-teams"></a>Personalizar os convites para reunião no Microsoft Teams
 
 Como um administrador, você pode garantir que todas as Teams Microsoft convites de reunião incluem algumas informações úteis, que os usuários talvez precisem, como links para seu site de suporte e aviso de isenção legal, logotipo de sua empresa e outro texto que você deseja incluir. 
 
 ## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Dicas para criar um logotipo para convites de reunião
 
 1. Crie uma imagem que é não ultrapassa 188 pixels de largura por 30 pixels de altura (é muito pequeno).
-2. Salve a imagem no formato JPG.
+2. Salve a imagem no formato JPG ou PNG.
 3. Armazene a imagem em um local central que todos na sua empresa podem acessar, como um compartilhamento de rede compartilhado OneDrive para a pasta de negócios, pasta de recados e assim por diante.
 
     Agora você pode adicioná-lo dos convites para reuniões. Consulte as próximas etapas.
@@ -42,7 +42,7 @@ Como um administrador, você pode garantir que todas as Teams Microsoft convites
 2. A partir do Centro de administração do Office 365, escolha **Admin centrais** > **& equipes Skype**.
 3. No Centro de administração do Microsoft Teams, escolha **reuniões** > **configurações de reunião**.
 4. Conclua o seguinte:
-    - **URL do logotipo** - insira a URL onde o logotipo de sua está armazenado. Lembre-se de que ele deve estar no formato JPG!
+    - **URL do logotipo** - insira a URL onde o logotipo de sua está armazenado. Lembre-se de que ele deve estar no formato JPG ou PNG!
     - **URL legais** - se a sua organização tem um site legal que você deseja de pessoas para ir para se eles tiverem preocupações legais, insira a URL aqui.
     - **URL de ajuda** – se sua organização tem um site de suporte que você deseja de pessoas para ir para se eles tiverem problemas, digite a URL aqui.
     - **Rodapé** – nota de rodapé Enter um somente texto adequado para seus usuários.

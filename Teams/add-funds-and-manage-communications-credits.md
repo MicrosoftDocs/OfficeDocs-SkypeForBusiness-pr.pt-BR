@@ -29,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Aprenda a pagar créditos de comunicação (consumo de PSTN) para Skype para serviços corporativos e consulte planos para manter os usuários com acesso ao sistema de telefone contínua. '
-ms.openlocfilehash: bbb24094e7aefd428e510273a922dab4461b7dde
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 0305e432534188f0dd8276fb29c9c764cc26bfeb
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569076"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948337"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Adicionar fundos e gerenciar Créditos de Comunicação
 
@@ -84,7 +84,7 @@ Para ver uma tabela com a licença ou licenças que são necessárias para cada 
 
 - [Instalar o Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Configurar a caixa postal do Sistema de Telefonia - Ajuda para administradores](set-up-phone-system-voicemail.md)
+- [Configurar a caixa postal de nuvem - ajuda de Admin](set-up-phone-system-voicemail.md)
     
 - [Configurar Planos de Chamadas](set-up-calling-plans.md) e [Planos de Chamadas para o Office 365](calling-plans-for-office-365.md)
         

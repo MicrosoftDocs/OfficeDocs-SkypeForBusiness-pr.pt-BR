@@ -1,5 +1,5 @@
 ---
-title: Configurar a conferência de áudio for Microsoft Teams
+title: Configurar audioconferência no Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Aprenda a configurar dial-in ou conferência de áudio para as pessoas na sua empresa que precisam usar um telefone para ingressar em chamadas de conferência. '
-ms.openlocfilehash: c5925677889d9a81e15ccb15494163fd28c14639
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 30e79282f04c2d1b4dc7ff01673461b7a18254fd
+ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30635517"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955026"
 ---
-# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar a conferência de áudio for Microsoft Teams
+# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar audioconferência no Microsoft Teams
 
 Em alguns casos, as pessoas na sua organização precisará usar um telefone para efetuar uma chamada para uma reunião. Microsoft Teams inclui o recurso de conferência de áudio para apenas essa situação! As pessoas podem ligar para reuniões de equipes usando um telefone, em vez de usar o aplicativo de equipes em um PC ou dispositivo móvel. 
   
@@ -51,7 +51,7 @@ Acesse [Disponibilidade do país e região para audioconferência e planos de ch
     >[!NOTE] 
     > Serviços de audioconferência é incluído no Office 365 Enterprise E5 licenças e como um complemento.
         
-2. Depois que você adquire as licenças de audioconferência, é preciso atribuí-las às pessoas em sua organização que irão agendar ou realizar as reuniões. Consulte [Atribuir licenças aos usuários no Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) , você comprou às pessoas em sua organização que pretende agendar ou líder de reuniões.
+2. Depois que você adquire as licenças de conferência de áudio, você precisará atribuí-las às pessoas em sua organização que estão indo para agendar ou liderança de reuniões. Consulte [Atribuir licenças aos usuários no Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) , você comprou às pessoas em sua organização que pretende agendar ou líder de reuniões.
     
 3. Também é recomendável que você atribua licenças créditos de comunicação (são gratuitas) para as mesmas pessoas a quem você atribuiu as licenças na etapa anterior. Para saber como configurar os créditos de comunicação, consulte [Configurar créditos de comunicação para sua organização](set-up-communications-credits-for-your-organization.md).
     

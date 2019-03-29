@@ -20,16 +20,16 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: O sistema telefônico no Office 365 fornece uma ID de chamador padrão que é o número de telefone atribuído do usuário. Você pode alterar ou bloquear a ID de chamadas (também chamada de ID da linha de chamada) de um usuário. Saiba mais sobre como usar o ID do chamador em sua organização indo como ID do chamador pode ser usado na sua organização.
-ms.openlocfilehash: 2d2684e79008d63cc625020e8fcbc35061332b13
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+description: The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going How can caller ID be used in your organization.
+ms.openlocfilehash: f57a0a2dc2158949879df8e3755b64183b534f3a
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561625"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952403"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Definir a identificação de chamadas para um usuário
-O sistema telefônico no Office 365 fornece uma ID de chamador padrão que é o número de telefone atribuído do usuário. Você pode alterar ou bloquear a ID de chamadas (também chamada de ID da linha de chamada) de um usuário. Saiba mais sobre como usar o ID do chamador em sua organização indo [como ID do chamador pode ser usado na sua organização](how-can-caller-id-be-used-in-your-organization.md).
+The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
   
 > [!TIP]
 > Você não pode bloquear as chamadas recebidas atualmente no Skype for Business Online. 
@@ -44,7 +44,7 @@ Há duas configurações que você pode alterar:
     > [!NOTE]
     > [!OBSERVAçãO] Se você desejar usar o parâmetro  _Service_, especifique um número de serviço válido.
   
-- **Bloquear seu ID de chamadas de saída** Você pode bloquear a ID de chamadas de saída sejam enviadas em chamadas PSTN de saída de um usuário. Isso impede que o número de telefone seja exibido no telefone da pessoa que está sendo chamada.
+- **Block their outbound caller ID** You can block the outgoing Caller ID from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called.
     
 - **Bloquear seu ID de chamadas de entrada** Você pode bloquear um usuário receba a ID do chamador em qualquer chamadas PSTN de entrada.
     
@@ -84,7 +84,7 @@ Para saber mais sobre essas configurações e como você pode usá-las, clique [
    > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.
    > 
    > ```
-   > Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+   > Import-Module -Name SkypeOnlineConnector
    > ```
    > 
    > ```
@@ -162,7 +162,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

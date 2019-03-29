@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Página de aterrissagem à implantação de voz de nuvem em equipes
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b9398e7a468c023949a0b7079d2924a9e1f0924
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: abc8d3e552820ee93b5ccd1fc968e914ac5287ba
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664914"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948373"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz na nuvem no Microsoft Teams
 
@@ -28,7 +28,7 @@ Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você im
 
 Voz nuvem oferece recursos de Private Branch Exchange (PBX) e as opções para conectar-se para a comutação telefônica PSTN (rede pública).
 
-Este artigo ajuda você a decidir se você precisa alterar as configurações de voz da nuvem padrão, com base no perfil da sua organização e requisitos de negócios, e em seguida, ele o orienta durante cada alteração. Podemos ter dividir as configurações em dois grupos, começando com o conjunto básico de [alterações que estão mais provável fazer](#core-deployment-decisions). O segundo grupo inclui [configurações adicionais](#additional-deployment-decisions) que poderão ser configuradas com base nas necessidades da organização.
+Este artigo ajuda você a decidir se você precisa alterar as configurações de voz da nuvem padrão, com base no perfil da sua organização e requisitos de negócios, e em seguida, ele o orienta durante cada alteração. Podemos ter dividir as configurações em dois grupos, começando com o conjunto básico de [alterações que estão mais provável fazer](#core-deployment-decisions). O segundo grupo inclui [configurações adicionais](#additional-deployment-decisions) que poderão ser configuradas com base nas necessidades de sua organização.
 
 É recomendável que todas as organizações for percorrendo as decisões de núcleo e em seguida, se sua organização tiver requisitos adicionais, examine o material a seguir.
 
@@ -42,7 +42,7 @@ Os artigos a seguir fornecem mais informações sobre a implantação e uso de r
 - [Sistema telefônico com a chamada de planos](calling-plan-landing-page.md)
 - [Roteamento Direto do Sistema Telefônico](direct-routing-landing-page.md)
 - [Implantação do Cloud Voice](cloud-voice-deployment.md)
-- [Soluções de Telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Soluções de telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Assista a sessão a seguir para saber mais sobre o sistema telefônico: [Introdução ao sistema de telefone em equipes da Microsoft](https://aka.ms/teams-phone-system)
 
 
@@ -85,11 +85,11 @@ Talvez você queira alterar as configurações para o seguinte, com base nas nec
 
 ### <a name="voicemail"></a>Caixa postal
 
-Caixa postal de sistema telefônico, possibilitada pela serviços de caixa postal do Azure, suporta depósitos de correio de voz em somente caixas postais do Exchange e não oferece suporte a sistemas de email de terceiros. A caixa postal do Sistema de Telefonia inclui transcrição da caixa postal que, por padrão, está habilitada para todos os usuários da organização. Suas necessidades de negócios podem exigir que você desative as transcrições de caixa postal para usuários específicos ou todos em toda a organização.
+Caixa postal de nuvem, possibilitada pela serviços de caixa postal do Azure, suporta depósitos de correio de voz em somente caixas postais do Exchange e não oferece suporte a sistemas de email de terceiros. Caixa postal de nuvem inclui transcrições de caixa postal, que é ativada por padrão para todos os usuários em sua organização. Suas necessidades de negócios podem exigir que você desative as transcrições de caixa postal para usuários específicos ou todos em toda a organização.
 
 |Pergunte a si mesmo|Ação |
 |:------------|:-------|
-| Você deseja habilitar a caixa postal de sistema telefônico? | Para obter procedimentos de instalação de caixa postal, consulte [Configure a caixa postal do sistema telefônico](set-up-phone-system-voicemail.md).
+| Você deseja habilitar a caixa postal de nuvem? | Para obter procedimentos de instalação de caixa postal, consulte [Configure a caixa postal de nuvem](set-up-phone-system-voicemail.md).
 | Você deseja habilitar a transcrição do correio de voz para alguns ou todos os meus usuários? | Para desativar a transcrição do correio de voz, consulte [definir políticas de caixa postal na sua organização](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
 |||
 

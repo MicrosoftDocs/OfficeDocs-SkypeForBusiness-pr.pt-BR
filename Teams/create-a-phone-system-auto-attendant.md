@@ -3,7 +3,7 @@ title: Configurar os atendedores automáticos do Sistema Telefônico
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: waseemh
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendedores automáticos de sistema telefônico (nuvem PBX) para eficiente tratamento de chamadas para sua organização.
-ms.openlocfilehash: 5071b3c26809e56df4cdd922ed1df2e67fc9481c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: ad60bf758c339a801d63e0f8886a9e92329d286a
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873475"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952433"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Configurar os atendedores automáticos do Sistema Telefônico
 
@@ -50,8 +50,6 @@ Se você deseja saber mais sobre os atendedores automáticos, consulte [Cite ate
     > Para redirecionar chamadas para um operador ou uma opção de menu que é um usuário Online com uma licença de **Sistema telefônico** , você precisará habilitá-los para o Enterprise Voice ou atribuir chamar planos no Office 365 para acessá-los. Consulte [Atribuir Skype para licenças de negócios](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) ou [equipes da Microsoft atribuir licenças](assign-teams-licenses.md). Você também pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2---create-a-new-auto-attendant"></a>Etapa 2 - Criar um novo atendedor automático
-
-[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > Cada fila de chamada é necessário ter uma [conta do recurso](manage-resource-accounts.md)de associada. Você deve criar a conta do recurso primeiro, depois você pode associá-lo para o atendedor automático.
@@ -373,5 +371,5 @@ Veja os cmdlets necessários para gerenciar um atendedor automático.
 
 [O que são atendedores automáticos do Sistema de Telefonia?](what-are-phone-system-auto-attendants.md)
 
-[Exemplo de pequenas empresas - Configurar um atendedor automático](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa
+[Exemplo de pequena empresa - Configurar um atendedor automático](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa
 )  

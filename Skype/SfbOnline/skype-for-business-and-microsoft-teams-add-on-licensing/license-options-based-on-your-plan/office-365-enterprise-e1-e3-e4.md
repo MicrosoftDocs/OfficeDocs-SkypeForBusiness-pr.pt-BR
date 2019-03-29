@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba como comprar licenças de complemento, recursos e como comprar os planos E1, E3 e E4 do Office 365 Enterprise. '
-ms.openlocfilehash: 0ff3a0cb4ff29f98dd5a3b69490eeb2c9a513eaa
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 74518e09344136e399ed0307ff7bff110ac8e9d9
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120303"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948201"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 e E4
 
@@ -36,9 +36,9 @@ Se você já adquiriu o [Office 365 Enterprise E1](https://products.office.com/e
 |**Para adicionar este recurso** <br/> |**Você precisa comprar** <br/> |
 |**Audioconferência** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |Complemento de **Audioconferência** <br/>Após adquirir a licença, a Microsoft será seu provedor de serviços de audioconferência. |
 |**Números de discagem gratuita para acesso de discagem para suas reuniões e a capacidade de discar a partir de uma reunião para adicionar alguém chamando qualquer número de telefone do mundo** <br/> |[Créditos de Comunicação](/microsoftteams/add-funds-and-manage-communications-credits)|
-|**Sistema de Telefonia** <br/> |1. complemento do **Sistema de telefonia do office 365** <br/> 2. Planos de chamada: compre um [Plano de chamadas](/MicrosoftTeams/calling-plans-for-office-365) do Office 365. <br/>  Ou, use o [serviço de telefonia do seu provedor existente](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**Caixa postal do Sistema de Telefonia** <br/> |Para os planos E1 e E4, compre o Exchange Online Plan 2. <br/>Ou mude para um Pacote do Office que venha com o Exchange Online Plan 2, como o Office 365 E3. |
-|**Planos de Chamadas** <br/> |1. Complemento do **Sistema de Telefonia** <br/> 2. [Plano de Chamadas](/MicrosoftTeams/calling-plans-for-office-365): você pode comprá-lo somente depois de ter comprado o complemento de **Sistema de Telefonia**. <br/> |
+|**Sistema Telefônico** <br/> |1. complemento do **Sistema de telefonia do office 365** <br/> 2. chamada planos: Compre uma [Chamada plano](/MicrosoftTeams/calling-plans-for-office-365) do Office 365. <br/>  Ou, use o [serviço de telefonia do seu provedor existente](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
+|**Caixa postal da nuvem** <br/> |Para os planos E1 e E4, compre o Exchange Online Plan 2. <br/>Ou mude para um Pacote do Office que venha com o Exchange Online Plan 2, como o Office 365 E3. |
+|**Planos de chamadas** <br/> |1. complemento de **sistema telefônico** <br/> 2. [plano de chamada](/MicrosoftTeams/calling-plans-for-office-365): você pode comprar isso somente depois que você compra o complemento de **Sistema telefônico** . <br/> |
    
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Clientes E1 e E3: Como ver preços e comprar
