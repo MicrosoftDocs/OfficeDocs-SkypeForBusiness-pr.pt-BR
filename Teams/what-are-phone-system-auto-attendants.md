@@ -1,5 +1,5 @@
 ---
-title: O que são atendedores automáticos do Sistema de Telefonia?
+title: Cite atendedores automáticos de sistema telefônico.
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,14 +22,14 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Saiba quais são os atendedores automáticos de sistema telefônico e como usá-los.
-ms.openlocfilehash: 036044f779d964b19db53e7e568bb5df86ff372c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 03eec73f8274ab9b5cbe67624b0ef1158d548a4a
+ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879332"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31003863"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>O que são atendedores automáticos do Sistema de Telefonia?
+# <a name="what-are-phone-system-auto-attendants"></a>Cite atendedores automáticos de sistema telefônico.
 
 Sistema telefônico no Office 365 fornece atendedores automáticos, que podem ser usados para permitir que externo e internos chamadores mover através de um sistema de menu localizar e colocar ou transferir chamadas para usuários da empresa ou departamentos na organização.
   
@@ -53,17 +53,22 @@ Um atendedor automático de sistema telefônico tem os seguintes recursos:
 ## <a name="getting-started"></a>Introdução
 
 Para começar a usar os atendedores automáticos, é importante lembrar-se de que:
-  
-- Você precisa atribuir uma licença de sistema telefônico a uma conta de recurso que será associada ao seu atendedor automático. Para saber mais sobre o licenciamento, consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+- Um atendedor automático é necessário ter uma conta de recurso associado. Consulte [Gerenciar contas de recursos em equipes](manage-resource-accounts.md) para obter detalhes sobre as contas de recursos.
+- Se você planeja atribua um número de roteamento direto, você precisará adquirir e atribuir as seguintes licenças às suas contas de recurso \(Office 365 Enterprise E1, E3 ou E5, com o complemento de sistema telefônico\).
+- Se você estiver atribuindo um número de serviço da Microsoft em vez disso, você precisará adquirir e atribuir as seguintes licenças à sua conta do recurso \(Office 365 Enterprise E1, E3 ou E5, com o complemento de sistema telefônico e um plano de chamar\).
+
+> [!NOTE] 
+> Microsoft está trabalhando em um modelo de licenciamento apropriado para aplicativos como atendedores automáticos de nuvem e filas de chamada, para agora você precisa usar o modelo de licenciamento por usuário.
     
     > [!TIP]
-    > Para redirecionar chamadas para um operador ou uma opção de menu que é um usuário Online com uma licença de **Sistema telefônico** , você precisará habilitá-los para o Enterprise Voice ou atribuir chamar planos para acessá-los. Consulte [as equipes da Microsoft atribuir licenças](assign-teams-licenses.md). Você também pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Para obter e usar números gratuitos de serviço para seus atendedores automáticos, você precisará configurar créditos de comunicações. Para fazer isso, consulte [Cite Communications créditos?](what-are-communications-credits.md) e [Configurar créditos de comunicações para sua organização](set-up-communications-credits-for-your-organization.md).
 
     > [!IMPORTANT]
     > [!IMPORTANTE] Os números de telefone (assinante) não podem ser atribuídos aos atendedores automáticos  somente números de telefone de serviço chamadas gratuitas ou tarifadas podem ser usados.
-- Um atendedor automático é necessário ter uma conta de recurso associado. Consulte [Gerenciar contas de recursos em equipes](manage-resource-accounts.md) para obter detalhes sobre as contas de recursos.
+
 - Um sistema de atendedor automático completa geralmente envolverá atendedores automáticos de vários e somente pode exigir um número de telefone atribuído único para o automático de nível superior ou entrada attendant. Outros atendedores automáticos ou filas de chamada no sistema completa somente serão necessário um número de telefone se você deseja fornecer vários pontos de entrada para o sistema.
 - É possível aplicar mais de um número de telefone a um atendedor automático associando mais de uma conta de recurso para um atendedor automático.
   
@@ -125,8 +130,8 @@ As pessoas que ligarem poderão falar os nomes nos seguintes formatos:
 |:-----|:-----|:-----|:-----|
 |Nome + Sobrenome |Completo |Amos Marble |Amos Marble |
 |Sobrenome + Nome |Completo  |Marble Amos |Amos Marble |
-|FirstName |Completo |Amos |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Amos Jones |
-|LastName |Completo |Marble |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Ben Marble |
+|Nome |Completo |Amos |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Amos Jones |
+|Sobrenome |Completo |Marble |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Ben Marble |
 
 > [!NOTE]
 > Poderá demorar até 36 horas para um novo usuário ter seu nome listado no diretório para discagem por nome com reconhecimento de fala devido à latência de replicação do Active Directory.

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Resumo: Leia este tópico para saber mais sobre práticas recomendadas para implementar e gerenciar grandes reuniões em Skype para Business Server.'
-ms.openlocfilehash: 3c4b00a961aa8c687ad4a420cade08af908ca102
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 4ef45f5393e389a3c6a1246041d058d1e0b387f1
+ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877903"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31003871"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planejar para grandes reuniões em Skype para Business Server
  
@@ -189,8 +189,14 @@ Crie uma nova política de conferência específica para grandes reuniões e, de
 > [!NOTE]
 > Suporte para grandes reuniões em Skype para Business Server requer que a configuração de **AllowLargeMeetings** seja definido como true. Quando essa configuração estiver definida como true, o Skype para experiência de negócios será otimizada para reuniões extra grandes quando os usuários ingressem na reunião. Especificamente, em uma reunião grande, Skype para negócios não mostrará a atualização da lista de participantes completo de reunião, que é um gargalo de desempenho para o cliente e Skype para Business Server ou inicial. Em vez disso, o Skype para negócios mostrará apenas informações sobre o usuário e a lista de apresentadores da reunião. Skype para negócios ainda mostrará o número total de participantes disponíveis em grandes reuniões.
 
+A configuração - AllowLargeMeetings $true faz com que o seguinte: · Oculta a lista de participação do participante. · Desabilita os erros na janela de mensagens Instantâneas.
+· Desabilita o vídeo com vários participante.
+· Desabilita a capacidade de promover um participante a apresentador. Você deve planejar com antecedência e declarar todos os apresentadores antes da reunião.
+· Desabilita a capacidade de desativar o mudo de participantes individuais.
+· Desabilita a capacidade de aplicar o recurso de bloqueio destaque de vídeo aos participantes.
+· Discagem PSTN em usuários, será possível desativar o mudo usando * 6 porque pessoais assistência Virtual que é responsável por DTMF comandos no active grandes reuniões está faltando.
+· Se o apresentador/organizador agenda uma reunião onde todos devem ser ativado primeiro ("mudo All"), usuários PSTN serão ativados em toda a chamada e não será capazes de desativar o mudo.
 
-  
 Exceto pela configuração **Tamanho máximo das reuniões**, todas as outras configurações de política de conferência especificadas aqui são obrigatórias para desativar as funcionalidades de conferência que não são necessárias em grandes reuniões.
   
 Além disso, você precisará configurar o pool de reunião grande dedicado, de modo que cada Skype para usuário Business Server quem é responsável por gerenciar o agendamento de reunião e de hospedados no pool tem as permissões apropriadas. Para tanto, siga estes passos:
