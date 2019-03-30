@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Resumo: revisão dos clientes e aplicativos compatíveis com o Skype for Business.'
-ms.openlocfilehash: bde1e70699de8adfdf58a7cc892405d8eee8675c
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: 0aff83afc14401e3b8d165f108415cb32c407e60
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993377"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012744"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planejar clientes e dispositivos
 
@@ -78,9 +78,9 @@ O [Agendador do Skype for Business Web](https://sched.lync.com) é uma ferrament
 
 Um ambiente VDI (Virtual Desktop Infrastructure) é usado em algumas organizações nas quais os problemas de segurança e conformidade são particularmente suscetíveis. O uso do Skype for Business com recursos completos de áudio e vídeo em uma conexão como essa requer grande volume de processamento de áudio e vídeo no cliente hospedado em uma área de trabalho virtual. Há um plug-in VDI adicional disponível que descarrega esse processamento para o computador local do usuário final e reduz a carga na área de trabalho virtual. Consulte [Planejar o Skype for Business em ambientes de VDI](vdi-environments.md) para obter detalhes sobre o uso desses plug-ins.
 
-### <a name="skype-room-systems-v2"></a>Skype Room Systems versão 2
+### <a name="microsoft-teams-rooms"></a>Salas de equipes da Microsoft
 
-Os Sistemas de Salas Skype v2 são a mais recente solução de conferência da Microsoft, que usa uma interface familiar do Skype for Business e é facilmente implantada e gerenciada, aproveitando o equipamento existente, como painéis LCD, para facilitar a instalação. Os Sistemas de Salas Skype v2 usam um aplicativo UWP desenvolvido especificamente que é executado em um Surface Pro 4 ou Surface Pro em modo de console (uma vez implantado, o aplicativo UWP é o único que será executado no dispositivo), e ele requer sua própria conta de dispositivo em sua implementação do Skype for Business. O software é atualizado via Windows Store e Windows Update. Consulte https://aka.ms/SRSDocs para obter detalhes sobre o uso desses consoles de sala em sua implantação.
+Salas de equipes da Microsoft é a solução conferência mais recente da Microsoft que usa uma interface familiar e é facilmente implantada e gerenciado, aproveitando equipamento existente como painéis LCD para facilitar a instalação. Salas de equipes da Microsoft usa um aplicativo desenvolvido especificamente de UWP executando em um 4 de Surface Pro ou Surface Pro em um modo de console (uma vez implantado o aplicativo UWP é o único aplicativo que serão executados no dispositivo) e é preciso ter sua própria conta de dispositivo na implementação. O software é atualizado via Windows Store e Windows Update. Consulte https://aka.ms/SRSDocs para obter detalhes sobre o uso desses consoles de sala em sua implantação. 
 
 ### <a name="skype-for-business-on-surface-hub"></a>Skype for Business no Surface Hub
 
@@ -139,7 +139,7 @@ MSI é um método de instalação mais tradicional, usado nos clientes Skype for
 
 O Skype for Business Server 2019 e o Skype for Business Online dão suporte aos seguintes clientes lançados anteriormente: Skype for Business 2016, Skype for Business 2015, Lync 2013.
 
-O Skype for Business Server 2015 é compatível com os seguintes clientes previamente lançados: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition e Lync 2010 Attendant. Para obter informações sobre esses clientes quando usados com outros servidores, consulte [Tabelas de comparação dos clientes para o Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) e [Tabelas de Comparação dos Clientes para o Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+Skype para Business Server 2015 suporta os seguintes clientes lançados anteriormente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition e Atendedor do Lync 2010. Para obter informações sobre esses clientes quando usados com outros servidores, consulte [Tabelas de comparação dos clientes para o Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) e [Tabelas de Comparação dos Clientes para o Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
 
 
 ## <a name="client-system-requirements"></a>Requisitos do sistema do cliente
@@ -165,7 +165,7 @@ Consulte os artigos a seguir para entender os recursos, as plataformas, os siste
 
 - [Atualizações para o cliente Mac do Skype for Business](mac-requirements.md)
 
-- [Planejar os Sistemas de Salas Skype v2](skype-room-systems-v2-0.md)
+- [Planejar para salas de equipes da Microsoft](skype-room-systems-v2-0.md)
 
 - [Planejar o Skype for Business em ambientes VDI](vdi-environments.md)
 

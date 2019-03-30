@@ -9,13 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
+ms.collection: M365-voice
 description: Leia sobre como implantar o sistema de sala do Skype, uma reunião solução de sala consiste em integrada de hardware e software que é otimizado para ingressar Skype para reuniões de negócios.
-ms.openlocfilehash: 94a9b1cb7ff3f341a51944cdc678bc66e44831cb
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 26ce5f6e50d26b408a8bce5d167e4e7b6046e514
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699314"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012564"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>Planejamento da implantação do sistema de sala do Skype em Skype para negócios
  
@@ -25,7 +26,7 @@ Leia sobre como implantar o sistema de sala do Skype, uma reunião solução de 
 > Para os fins deste conteúdo, Skype for Business para sistema de sala inteligente, Crestron RL, e Polycom CX8000 vai ser referida como sistema de sala Skype. 
 
 > [!NOTE]
-> Sistemas de sala Skype v2 é um produto diferente com diferentes dependências e procedimentos de implantação. Para obter informações sobre os sistemas de sala Skype v2, consulte [Planejar sistemas de sala Skype v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md).
+> Salas de equipes da Microsoft é um produto diferente com diferentes dependências e procedimentos de implantação. Para obter informações sobre as salas de equipes da Microsoft, consulte [Planejar salas de equipes da Microsoft](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md).
   
  Sistema de sala do Skype é um Skype para o cliente de comunicação unificada de negócios que foi otimizada para Skype para reuniões de negócios em salas de conferência físico.
   
@@ -79,7 +80,7 @@ A tabela a seguir indica o suporte de cliente do sistema do Skype sala com vers�
 |**Exchange**|**No local**|**Online**|**Híbrido**|
 |:-----|:-----|:-----|:-----|
 |Exchange 2010  <br/> |Sim (floresta única apenas)  <br/> |N/D  <br/> |N/D  <br/> |
-|Exchange 2013  <br/> |Sim (suporte a várias florestas disponível para Exchange 2013 CU6 e versões mais recentes)  <br/> |Sim  <br/> |Sim  <br/> |
-|Exchange 2016  <br/> |Sim (multi floresta suporte disponível)  <br/> |Sim  <br/> |Sim  <br/> |
+|Exchange 2013  <br/> |Sim (suporte a várias florestas disponível para Exchange 2013 CU6 e versões mais recentes)  <br/> |Sim  <br/> |Sim   <br/> |
+|Exchange 2016  <br/> |Sim (multi floresta suporte disponível)  <br/> |Sim  <br/> |Sim   <br/> |
    
 

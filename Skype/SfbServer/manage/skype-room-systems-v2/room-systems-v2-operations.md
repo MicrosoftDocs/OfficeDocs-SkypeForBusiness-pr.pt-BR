@@ -1,5 +1,5 @@
 ---
-title: Operações e manutenção de v2 de sistemas de sala do Skype
+title: Operações e manutenção de salas de equipes da Microsoft
 ms.author: jambirk
 author: jambirk
 ms.reviewer: davgroom
@@ -8,27 +8,28 @@ ms.date: 5/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+ms.collection: M365-voice
 localization_priority: Normal
-description: Leia este tópico para saber mais sobre o gerenciamento de sistemas de sala Skype v2, a próxima geração de sistemas de sala Skype.
-ms.openlocfilehash: 29c3af2b73f9a8b1277abdc6a47afeb69cb26ef2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: Leia este tópico para saber mais sobre o gerenciamento de salas de equipes da Microsoft, a próxima geração de sistemas de sala Skype.
+ms.openlocfilehash: 907abcbe07e52369aefa5065a359f0a3769b20c5
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889319"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013040"
 ---
-# <a name="skype-room-systems-v2-maintenance-and-operations"></a>Operações e manutenção de v2 de sistemas de sala do Skype 
+# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Operações e manutenção de salas de equipes da Microsoft 
  
-Leia este tópico para saber mais sobre o gerenciamento de sistemas de sala Skype v2, a próxima geração de sistemas de sala Skype.
+Leia este tópico para saber mais sobre o gerenciamento de salas de equipes da Microsoft, a próxima geração de sistemas de sala Skype.
   
-Sistemas de sala Skype v2 é a solução de conferência mais recente da Microsoft projetada para transformar a sala de reunião em um Skype rica e colaboração para a experiência de negócios. Os usuários apreciarão a interface familiar do Skype for Business, e os administradores de TI ficarão satisfeitos com a implantação e o gerenciamento fáceis do aplicativo Reunião do Skype para Windows 10. Sistemas de sala Skype v2 foi projetado para aproveitar o equipamento existente como painéis LCD para facilitar da instalação para trazer Skype for Business para sala de reunião.
+Salas de equipes da Microsoft é a solução de conferência mais recente da Microsoft projetada para transformar a sala de reunião em um Skype rica e colaboração para a experiência de negócios. Os usuários apreciarão a interface familiar do Skype for Business, e os administradores de TI ficarão satisfeitos com a implantação e o gerenciamento fáceis do aplicativo Reunião do Skype para Windows 10. Salas de equipes da Microsoft foi projetada para aproveitar o equipamento existente como painéis LCD para facilitar da instalação para trazer Skype for Business para sala de reunião.
   
-Com uma configuração adicional, gerenciamento remoto é possível usando o Monitor do Microsoft Azure, conforme descrito em [sistemas de sala Skype planejar o gerenciamento de v2 com o Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [gerenciamento de v2 implantar sistemas do Skype sala com o Azure Monitor](../../deploy/deploy-clients/azure-monitor.md), [Gerenciar Dispositivos de v2 Skype sala sistemas com o Windows Azure Monitor](azure-monitor.md). Você também pode [Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md), incluindo a aplicação de um tema de tela personalizado. 
+Com uma configuração adicional, gerenciamento remoto é possível usando o Microsoft Azure Monitor conforme descrito em [gerenciamento de planejar salas de equipes da Microsoft com o Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [gerenciamento de implantar o Microsoft equipes salas com Monitor do Azure](../../deploy/deploy-clients/azure-monitor.md), [Gerenciar Dispositivos de salas de equipes da Microsoft com o Azure Monitor](azure-monitor.md). Você também pode [Gerenciar salas de equipes da Microsoft configurações remotamente com um arquivo de configuração XML do console](xml-config-file.md), que inclui a aplicação de um tema de exibição personalizado. 
   
-## <a name="collecting-logs-on-skype-room-systems-v2"></a>Coletando logs no Skype Room Systems versão 2
+## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Como salvar logs em salas de equipes da Microsoft
 <a name="Logs"> </a>
 
-Para coletar logs, você deve chamar o script de conjunto de log que acompanha o aplicativo de v2 Skype sistemas de sala. No modo Admin, inicie um prompt de comandos com privilégios elevados e emita o seguinte comando:
+Para coletar logs, você deve chamar o script de conjunto de log que acompanha o aplicativo Microsoft equipes salas. No modo Admin, inicie um prompt de comandos com privilégios elevados e emita o seguinte comando:
   
 ```
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -44,13 +45,13 @@ Configure a tela frontal da sala para o modo Estendido. Isso garantirá que o co
 > [!NOTE]
 > A TV usada em uma sala de exibição precisa suportar/habilitar o recurso CEC (Controle Eletrônico do Consumidor) do HDMI para que possa alternar automaticamente do modo de espera para uma fonte de vídeo ativa.  Esse recurso não é suportado em todas as TVs. 
   
-## <a name="skype-room-systems-v2-reset-factory-restore"></a>Redefinição do Skype Room Systems versão 2 (restauração de fábrica)
+## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Redefinição de salas de equipes da Microsoft (restauração de fábrica)
 <a name="Reset"> </a>
 
-Se a sistemas de sala Skype v2 não está funcionando bem, realizar uma restauração de fábrica pode ajudar. Isso pode ser feito no aplicativo configurações na guia **recuperação** abaixo **Redefinir este PC**, selecione **começar**e **Remover tudo**. Siga as instruções restantes para redefinir o dispositivo.
+Se salas de equipes da Microsoft não está funcionando bem, realizar uma restauração de fábrica pode ajudar. Isso pode ser feito no aplicativo configurações na guia **recuperação** abaixo **Redefinir este PC**, selecione **começar**e **Remover tudo**. Siga as instruções restantes para redefinir o dispositivo.
   
 > [!NOTE]
-> Há um problema conhecido onde o v2 Skype sala sistemas podem se tornar disponível se a opção **Manter Meus arquivos - remove aplicativos e configurações, mas mantém os arquivos pessoais** está selecionada durante o processo de redefinição do Windows. Faça _não_ use esta opção.
+> Há um problema conhecido onde as salas de equipes da Microsoft podem se tornar disponível se a opção **Manter Meus arquivos - remove aplicativos e configurações, mas mantém os arquivos pessoais** está selecionada durante o processo de redefinição do Windows. Faça _não_ use esta opção.
   
 ## <a name="supported-remote-options"></a>Opções remotas com suporte
 <a name="RemoteOptions"> </a>
@@ -66,16 +67,16 @@ A tabela a seguir resume as operações remotas possíveis e os métodos que voc
 |Configuração de contas do Skype  <br/> |Sem suporte no momento  <br/> |Sem suporte no momento  <br/> |
 |Acesso aos logs  <br/> |Sem suporte no momento  <br/> |Sem suporte no momento  <br/> |
    
-## <a name="configuring-group-policy-for-skype-room-systems-v2"></a>Configurando a Política de Grupo para o Skype Room Systems versão 2
+## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>Configurando a diretiva de grupo para salas de equipes da Microsoft
 <a name="GroupPolicy"> </a>
 
-Esta seção aborda as configurações do sistema que sistemas de sala Skype v2 depende funcione corretamente. Ao ingressar em sistemas de sala Skype v2 para um domínio, certifique-se de que sua política de grupo não substituem as definições na tabela a seguir.
+Esta seção aborda as configurações do sistema Microsoft equipes salas depende funcione corretamente. Ao ingressar em salas de equipes da Microsoft a um domínio, certifique-se de que sua política de grupo não substituem as definições na tabela a seguir.
   
 
 |**Configuração**|**Permite**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Permite que os sistemas de sala Skype v2 inicialize  <br/> |
-|Gerenciamento - de energia\> nas AC, desative tela após 10 minutos  <br/> Gerenciamento - de energia\> em AC, nunca colocar o sistema no modo de suspensão  <br/> |Permite que os sistemas de sala Skype v2 desativar exibe anexado e automaticamente de ativação  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Permite que o Microsoft salas de equipes inicialize  <br/> |
+|Gerenciamento - de energia\> nas AC, desative tela após 10 minutos  <br/> Gerenciamento - de energia\> em AC, nunca colocar o sistema no modo de suspensão  <br/> |Habilita a salas de equipes da Microsoft desativar exibe anexado e automaticamente de ativação  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Ou equivalentes meios de desativação de expiração de senha da conta local. Falha ao fazer isso, eventualmente, fará com que a conta do Skype falha de logon reclamando uma senha expirada. Observe que isso afeta todas as contas locais na máquina, e assim falha configurar isso também fará com que a conta administrativa na caixa eventualmente expire também.  <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
    
 Transferência de arquivos usando diretivas de grupo será discutido em [Configure um Item do arquivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
@@ -95,14 +96,14 @@ Você pode executar as seguintes operações de gerenciamento remotamente usando
     
 - Recuperar logs
     
-- Transferir arquivos (requer um v2 de sistemas de sala Skype associados a um domínio)
+- Transferir arquivos (requer um salas de equipes do Microsoft associados a um domínio)
     
 > [!NOTE]
-> Essa funcionalidade está desativada por padrão. Você precisa ativar o PowerShell remoto para o seu ambiente no sistema sistemas de sala Skype v2 executar as operações abaixo. Consulte a documentação sobre **[Enable-PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** para obter informações sobre como habilitar o PowerShell remoto.
+> Essa funcionalidade está desativada por padrão. Você precisa ativar o PowerShell remoto para o seu ambiente no sistema de salas de equipes da Microsoft executar as operações abaixo. Consulte a documentação sobre **[Enable-PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** para obter informações sobre como habilitar o PowerShell remoto.
   
 Por exemplo, você pode habilitar o PowerShell Remoto da seguinte maneira:
   
-1. Entrar como administrador em um dispositivo de v2 Skype sistemas de sala.
+1. Entrar como administrador em um dispositivo de salas de equipes da Microsoft.
     
 2. Abra um prompt de comando do PowerShell.
     
@@ -110,7 +111,7 @@ Por exemplo, você pode habilitar o PowerShell Remoto da seguinte maneira:
     
 Para executar uma operação de gerenciamento:
   
-1. Entrar em um PC com credenciais de conta que tem permissão para executar comandos do PowerShell em um dispositivo de v2 Skype sistemas de sala.
+1. Entrar em um PC com credenciais de conta que tem permissão para executar comandos do PowerShell em um dispositivo de salas de equipes da Microsoft.
     
 2. Abra um prompt de comando do PowerShell regular no PC.
     
@@ -169,17 +170,17 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>Atualizações de software
 <a name="SWupdate"> </a>
 
-Por padrão, sistemas de sala Skype v2 tenta se conectar ao repositório do Windows para obter a versão mais recente do software do Skype sala sistemas v2, portanto, o dispositivo exigirá regular acesso à internet. Antes de contatar o Microsoft com problemas de suporte, certifique-se de que o dispositivo do Skype sala sistemas v2 é carregado com a versão mais recente do aplicativo.
+Por padrão, o Microsoft equipes salas tenta se conectar ao repositório do Windows para obter a versão mais recente do software de salas de equipes da Microsoft, para que o dispositivo exigirá regular acesso à internet. Antes de contatar o Microsoft com problemas de suporte, certifique-se de que o dispositivo de salas de equipes da Microsoft é carregado com a versão mais recente do aplicativo.
   
-Por padrão, sistemas de sala Skype v2 se conecta ao Windows Update para recuperar o sistema operacional e atualizações de firmware de dispositivos periféricos USB e instalará fora do horário de comercial configurado. Para configurar o horário comercial, entre na conta de administrador e execute o aplicativo Configurações.
+Por padrão, salas de equipes da Microsoft se conecta ao Windows Update para recuperar o sistema operacional e atualizações de firmware de dispositivos periféricos USB e as instala fora do horário de comercial configurado. Para configurar o horário comercial, entre na conta de administrador e execute o aplicativo Configurações.
   
-Se você deseja gerenciar atualizações manualmente e não conseguem siga o procedimento de normal para [Microsoft Store for Business](https://businessstore.microsoft.com/store) para [distribuir aplicativos de offline](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), você pode adquirir as arquivo APPX apropriado e dependências do [kit de implantação](https://go.microsoft.com/fwlink/?linkid=851168) (de as instruções para [Configurar um console do Skype sala sistemas v2](../../deploy/deploy-clients/console.md)) que podem ser usados com o SCCM. A versão do kit de implantação sofra a versão do repositório, portanto pode não sempre corresponder a compilação mais recente disponível.
+Se você deseja gerenciar atualizações manualmente e não conseguem siga o procedimento de normal para [Microsoft Store for Business](https://businessstore.microsoft.com/store) para [distribuir aplicativos de offline](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), você pode adquirir as arquivo APPX apropriado e dependências do [kit de implantação](https://go.microsoft.com/fwlink/?linkid=851168) (de as instruções para [Configurar um console de salas de equipes da Microsoft](../../deploy/deploy-clients/console.md)) que podem ser usados com o SCCM. A versão do kit de implantação sofra a versão do repositório, portanto pode não sempre corresponder a compilação mais recente disponível.
   
 ### <a name="to-update-using-powershell"></a>Para atualizar usando Powershell
 
 1. Extraia o pacote da instalação [MSI](https://go.microsoft.com/fwlink/?linkid=851168) para um compartilhamento de dispositivo pode acessar.
     
-2. Execute o seguinte script direcionando os dispositivos de v2 Skype sala sistemas, alterando \<compartilhar\> ao dispositivo compartilhar conforme apropriado:
+2. Execute o seguinte script direcionando os dispositivos de salas de equipes da Microsoft, alterando \<compartilhar\> ao dispositivo compartilhar conforme apropriado:
     
 ```
 Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
@@ -190,7 +191,7 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
 
 Algumas funções de gerenciamento, como manualmente instalando um certificado de autoridade de certificação privado, exigem colocando o dispositivo Surface Pro no modo de administrador. 
   
-### <a name="switching-to-admin-mode-and-back-when-the-skype-room-systems-v2-app-is-running"></a>Alternando para o modo de administração e voltar quando o aplicativo do Skype sala sistemas v2 está sendo executado
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Alternando para o modo de administração e voltar quando o aplicativo de salas de equipes da Microsoft está sendo executado
 
 1. Desligar todas as chamadas em andamento e retornar à tela inicial.
     
@@ -215,13 +216,13 @@ Algumas funções de gerenciamento, como manualmente instalando um certificado d
     
 10. Saia da conta de Administrador.
     
-11. Retorna a sistemas de sala Skype v2 selecionando o ícone de conta de usuário no lado esquerdo da tela e, em seguida, selecionando **Skype**.
+11. Retorne à Microsoft equipes salas selecionando o ícone de conta de usuário no lado esquerdo da tela e, em seguida, selecionando **Skype**.
     
     Se o usuário **Skype** não estiver listado, você pode precisar selecionar **outro usuário** e insira **. \skype** como o nome de usuário e de entrada.
     
 O console agora é novamente em seu modo de operação normal. O procedimento a seguir exige que você anexar um teclado para o dispositivo, se ainda não estiver já anexado. 
   
-### <a name="switching-to-admin-mode-and-back-when-the-skype-room-systems-v2-app-crashes"></a>Alternando para o modo de administração e quando o aplicativo do Skype sala sistemas v2 cai
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Alternando para o modo de administração e quando o aplicativo Microsoft equipes salas de travamento
 
 1. Pressione a tecla do Windows cinco vezes em uma sucessão rápida. Isso levará você para a tela de logon do Windows. 
     
@@ -234,19 +235,19 @@ O console agora é novamente em seu modo de operação normal. O procedimento a 
     
 4. Quando tiver terminado, reinicie a máquina.
     
-   O console é reiniciado em seu modo de operação normal, executando o aplicativo de v2 Skype sistemas de sala. Você pode remover o teclado, se ele foi conectado para permitir que você executar esse procedimento.
+   O console é reiniciado em seu modo de operação normal, executando o aplicativo Microsoft equipes salas. Você pode remover o teclado, se ele foi conectado para permitir que você executar esse procedimento.
    ## <a name="troubleshooting-tips"></a>Dicas para solução de problemas
    <a name="TS"> </a>
 
 - Convites de reunião podem não aparecer quando enviado nos limites do domínio (por exemplo, entre as duas empresas). Nesses casos, os administradores de TI devem decidir se deseja permitir que usuários externos agendar uma reunião.
     
-- Sistemas de sala Skype v2 não tem suporte para os redirecionamentos de descoberta automática do Exchange por meio do Exchange 2010.
+- Salas de equipes da Microsoft não suporta os redirecionamentos de descoberta automática do Exchange por meio do Exchange 2010.
     
 - Em geral, é uma boa prática para administradores de TI desabilitar quaisquer pontos de extremidade de áudio não pretendem usar.
     
 - Caso seja exibida uma imagem espelhada na visualização da sala, o administrador de TI pode corrigir isso desligando e ligando a câmera ou invertendo a orientação da imagem com o controle remoto da câmera.
     
-- Sabe-se que pode ocorrer a perda do acesso à tela touch do console. Nesses casos, o problema em alguns casos, é resolvido reiniciando-se o sistema de v2 Skype sistemas de sala.
+- Sabe-se que pode ocorrer a perda do acesso à tela touch do console. Nesses casos, o problema em alguns casos, é resolvido reiniciando-se o sistema de salas de equipes da Microsoft.
     
 - Sabe-se que pode ocorrer a perda do áudio local ao conectar um computador ao console via entrada com fio. Nesses casos, reiniciar o computador pode resolver o problema de reprodução do áudio local.
     

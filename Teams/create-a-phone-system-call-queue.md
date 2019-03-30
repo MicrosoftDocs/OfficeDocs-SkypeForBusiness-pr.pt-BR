@@ -1,5 +1,5 @@
 ---
-title: Criar uma fila de chamada no Sistema Telefônico
+title: Criar uma fila de chamada
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar o sistema telefônico para filas de chamada de sistema telefônico proporcionar um organizacional saudação, música de espera e redirecionando chamadas para chamar agentes em listas de distribuição e grupos de segurança. Você também pode definir o tamanho máximo da fila, o tempo limite e opções de manipulação de chamada.
-ms.openlocfilehash: 924885ff62bb0e7e2ba0f25cc348dc62eb29ec32
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a44bd5b00b47655dc950ee01f82ffd0c0a308466
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898162"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012969"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Criar uma fila de chamada no Sistema Telefônico
 
@@ -41,10 +41,11 @@ Filas de chamada do sistema telefônico podem fornecer:
 
 Quando alguém chama para um número de telefone que está associado uma fila de espera de chamada através da [conta do recurso](manage-resource-accounts.md), ele ouvirá uma saudação primeiro (se qualquer um estiver configurado) e, em seguida, eles serão colocados na fila e aguarde o próximo operador de chamada disponível. A pessoa chamando em ouvirá música enquanto eles estão em espera aguardando e as chamadas serão oferecidas aos operadores na ordem *Primeiro na, primeiro Out* (FIFO) chamada.
   
-Aguardando na fila de todas as chamadas serão distribuídas usando um modo de roteamento attendant ou o modo serial de roteamento:
+Aguardando na fila de todas as chamadas serão distribuídas usando um dos seguintes métodos:
   
 - Com o Atendedor de roteamento, a primeira chamada na fila tocarão todos os operadores ao mesmo tempo.
 - Com o roteamento em série, a primeira chamada na fila tocarão todos os agentes de chamada um de cada vez.
+- Com o rodízio, roteamento de chamadas de entrada é balanceado para que cada agente de chamada receberá o mesmo número de chamadas da fila.
 
     > [!NOTE]
     > Agentes de chamada que estão **Offline**, tem definido sua presença como **Não incomodar** ou tem decidido para fora da fila de chamada não serão chamados.
@@ -59,16 +60,18 @@ Aguardando na fila de todas as chamadas serão distribuídas usando um modo de r
 
 Para começar a usar as filas de chamada, é importante lembrar algumas coisas:
   
-- Sua organização deve ter (no mínimo), uma licença Enterprise E3 plus **Sistema telefônico** ou uma licença Enterprise E5. O número de licenças de usuário do **Sistema telefônico** atribuídos afeta o número de números de serviço que estão disponíveis para serem usados para as filas de chamada. O número de filas de chamada, que você pode ter é dependente do número de licenças de **Sistema telefônico** e **Conferência de áudio** que são atribuídas em sua organização. Para saber mais sobre o licenciamento, consulte [Skype para licenciamento de complemento de negócios](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) ou [equipes da Microsoft de licenciamento de complemento](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) .
+- Um atendedor automático é necessário ter uma conta de recurso associado. Consulte [Gerenciar contas de recursos em equipes](manage-resource-accounts.md) para obter detalhes sobre as contas de recursos.
+- Se você planeja atribua um número de roteamento direto, você precisará adquirir e atribuir as seguintes licenças às suas contas de recurso \(Office 365 Enterprise E1, E3 ou E5, com o complemento de sistema telefônico\).
+- Se você estiver atribuindo um número de serviço da Microsoft em vez disso, você precisará adquirir e atribuir as seguintes licenças à sua conta do recurso \(Office 365 Enterprise E1, E3 ou E5, com o complemento de sistema telefônico e um plano de chamar\).
 
-    > [!NOTE]
-    > Para redirecionar chamadas para pessoas na sua organização que estiverem Online, eles devem ter uma licença de **Sistema telefônico** e ser habilitados para o Enterprise Voice ou tem chamando de planos do Office 365. Consulte [Atribuir Skype para licenças de negócios](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) ou [equipes da Microsoft atribuir licenças](assign-teams-licenses.md). Para habilitá-los para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!NOTE] 
+> Microsoft está trabalhando em um modelo de licenciamento apropriado para aplicativos como atendedores automáticos de nuvem e filas de chamada, para agora você precisa usar o modelo de licenciamento por usuário.
+
+> [!NOTE]
+> Para redirecionar chamadas para pessoas na sua organização que estiverem Online, eles devem ter uma licença de **Sistema telefônico** e ser habilitados para o Enterprise Voice ou tem chamando de planos do Office 365. Consulte [Atribuir Skype para licenças de negócios](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) ou [equipes da Microsoft atribuir licenças](assign-teams-licenses.md). Para habilitá-los para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Para saber mais sobre a chamada de planos do Office 365, consulte [sistema telefônico e chamar planos](calling-plan-landing-page.md) e [Chamar planos do Office 365](calling-plans-for-office-365.md).
 
-    > [!NOTE]
-    > Usuários hospedados no local usando o Lync Server 2010 não são suportados como uma fila de chamada agentes.
-  
 - Você só pode atribuir Chamada Tarifada e números de telefone de chamada gratuita do serviço que você obteve no **Centro de administração de equipes da Microsoft** ou transferidos do outro provedor de serviços para as filas de chamada do sistema telefônico. Para obter e usar números gratuitos de serviço, você precisará configurar créditos de comunicações.
 
     > [!NOTE]
@@ -175,9 +178,6 @@ Você pode selecionar até 200 agentes de chamada pertencentes a listas de mala 
 
 - Usuários online com uma licença de **Sistema telefônico** e um plano de chamada que são adicionados a um grupo do Office 365, uma lista de distribuição habilitado para email ou um grupo de segurança. Poderá demorar até 30 minutos para um novo operador adicionado para uma lista de distribuição ou um grupo de segurança para começar a receber chamadas de uma fila de chamada. Um grupo de segurança ou de lista de distribuição recém-criado pode levar até 48 horas para se tornar disponível para ser usado com filas de chamada. Recém-criadas grupos do Office 365 estão disponíveis quase imediatamente.
 
-  > [!NOTE]
-  > Usuários hospedados no local usando o Lync Server 2010 não são suportados.
-
 ![Configure filas de chamada.](media/skype-for-business-add-agents-to-call-queue.png)
 
 ![Número 2](media/sfbcallout2.png)
@@ -241,10 +241,8 @@ A configuração padrão é 30 segundos, mas ela pode ser definida por até 3 mi
 
   - **Pessoa na sua empresa** Um usuário Online com uma licença de **Sistema telefônico** e ser habilitado para o Enterprise Voice ou ter um plano de chamada. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para fazer isso, selecione uma **pessoa na sua empresa** e defina essa pessoa para que suas chamadas encaminhadas diretamente para a caixa postal.
 
-  Para saber sobre o licenciamento necessários para a caixa postal, consulte [Configure a caixa postal do sistema telefônico](set-up-phone-system-voicemail.md).
+  Para saber sobre o licenciamento necessários para a caixa postal, consulte [Configure a caixa postal de nuvem](set-up-phone-system-voicemail.md).
 
-    > [!Note]
-    > Usuários hospedados no local usando o Lync Server 2010 não são suportados.
   - **Aplicativo de voz** Selecione o nome de qualquer um uma fila de espera de chamada ou que já tenha sido criado atendedor automático.
 
 * * *
@@ -263,16 +261,13 @@ O valor de tempo limite pode ser definido em segundos, em intervalos de 15 segun
 - **Redirecionar essa chamada para** Quando você escolhe essa opção, você terá estas opções:
   - **Pessoa na sua empresa** Um usuário Online com uma licença de **Sistema telefônico** e ser habilitado para o Enterprise Voice ou ter planos de chamada. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para fazer isso, selecione uma **pessoa na sua empresa** e defina essa pessoa para que suas chamadas encaminhadas diretamente para a caixa postal.
 
-  Para saber sobre o licenciamento necessários para a caixa postal, consulte [Configure a caixa postal do sistema telefônico](set-up-phone-system-voicemail.md).
-
-    > [!Note]
-    > Usuários hospedados no local usando o Lync Server 2010 não são suportados.
+  Para saber sobre o licenciamento necessários para a caixa postal, consulte [Configure a caixa postal de nuvem](set-up-phone-system-voicemail.md).
 
   - **Aplicativo de voz** Selecione o nome de qualquer um uma fila de espera de chamada ou que já tenha sido criado atendedor automático.
 
-## <a name="changing-a-users-caller-id-to-be-a-call-queues-phone-number"></a>Alterar a ID de chamadas de um usuário para ser um número de telefone da chamada de uma fila
+## <a name="changing-a-users-caller-id-for-outbound-calls"></a>Alterando o ID do usuário chamador para chamadas de saída 
 
-Você pode proteger a identidade de um usuário alterando sua ID de chamador das chamadas de saída para uma fila de chamada em vez disso, criando uma política utilizando o cmdlet **New-CallingLineIdentity** .
+Você pode proteger a identidade de um usuário, alterando seu ID do chamador para chamadas de saída para uma fila de espera de chamada, atendedor automático ou qualquer número de serviço em vez disso, criando uma política utilizando o cmdlet **New-CsCallingLineIdentity** .
 
 Para fazer isso, execute:
 
@@ -296,13 +291,13 @@ Você também pode usar o Windows PowerShell para criar e configurar filas de ch
 
 Aqui estão os cmdlets que você precisa para gerenciar uma fila de espera de chamada.
   
-- [New-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796459.aspx)
+- [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
 
-- [Set-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796457.aspx)
+- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue?view=skype-ps)
 
-- [Get-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796458.aspx)
+- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue?view=skype-ps)
 
-- [Remove-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796456.aspx)
+- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue?view=skype-ps)
 
 ### <a name="more-about-windows-powershell"></a>Mais sobre o Windows PowerShell
 
@@ -324,6 +319,6 @@ Aqui estão os cmdlets que você precisa para gerenciar uma fila de espera de ch
 
 [Obter números de telefone de serviço](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilidade de audioconferência e planos de chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)

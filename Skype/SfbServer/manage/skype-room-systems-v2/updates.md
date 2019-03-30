@@ -1,5 +1,5 @@
 ---
-title: Gerenciar atualizações do Windows para sala Skype v2 de sistemas
+title: Gerenciar atualizações do Windows para salas de equipes da Microsoft
 ms.author: jambirk
 author: jambirk
 ms.reviewer: davgroom
@@ -9,18 +9,19 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+ms.collection: M365-voice
 ms.assetid: ''
-description: Gerenciar atualizações do Windows para sala Skype v2 de sistemas
-ms.openlocfilehash: 4b1b0bc27be3f8277fde0c641efe5359ca002d65
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+description: Gerenciar atualizações do Windows para salas de equipes da Microsoft
+ms.openlocfilehash: 723ecf20fb835a3d942270e9de6d59416a9cd14a
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532137"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013099"
 ---
 # <a name="manage-windows-updates"></a>Gerenciar atualizações do Windows
 
-Sistema de sala Skype v2 (SRS v2) é executado no Windows 10 Enterprise IoT ou Windows 10 Enterprise (VL) e recebe as mesmas compilações de atualizações do Windows e o sistema operacional como uma área de trabalho padrão.
+Salas de equipes da Microsoft é executado no Windows 10 Enterprise IoT ou Windows 10 Enterprise (VL) e recebe as mesmas compilações de atualizações do Windows e o sistema operacional como uma área de trabalho padrão.
 
 Atualizações do Windows podem ser gerenciadas de algumas maneiras diferentes:
 
@@ -43,8 +44,8 @@ Atualizações do Windows podem ser gerenciadas de algumas maneiras diferentes:
 
 ### <a name="feature-updates"></a>Atualizações de recurso
 
-Ao contrário de atualizações de qualidade e não-Deferable, Windows 10 "Recurso atualizações" (versões principais do sistema operacional) só serão instaladas depois que a Microsoft testa e valida a funcionalidade de um determinado atualizações com SRS v2. Mesmo se for liberado para o canal de delimitadas anual (ou multidifusão se você tiver sistemas definido como aquele canal para teste) ou até mesmo manualmente enviado por suas próprias configurações ou tentativas, ele não permitirá que a instalação até que o bloco de nosso end seja removido.
+Ao contrário de atualizações de qualidade e não-Deferable, Windows 10 "Recurso atualizações" (versões principais do sistema operacional) só serão instaladas depois que a Microsoft testa e valida a funcionalidade de um determinado atualizações com salas de equipes da Microsoft. Mesmo se for liberado para o canal de delimitadas anual (ou multidifusão se você tiver sistemas definido como aquele canal para teste) ou até mesmo manualmente enviado por suas próprias configurações ou tentativas, ele não permitirá que a instalação até que o bloco de nosso end seja removido.
 
-Um SRS v2 "-prontos", usando as mãos desativa abordagem, não serão instalar uma atualização do Windows ou reinicializar um dispositivo automaticamente por causa de uma atualização do Windows. No entanto, sistemas podem baixar uma atualização e aguarde a próxima reinicialização instalá-lo. A menos que alguém reinicializações-lo manualmente, instalação deve acontecer a reinicialização noturna automática. Atualizações do Windows deve ser transparentes na sala, a interface do usuário nunca deve ser interrompido por atualizações do Windows.
+Microsoft equipes sala "out-of-box", usando as mãos desativa abordagem, não será instalar uma atualização do Windows ou reinicializar um dispositivo automaticamente por causa de uma atualização do Windows. No entanto, sistemas podem baixar uma atualização e aguarde a próxima reinicialização instalá-lo. A menos que alguém reinicializações-lo manualmente, instalação deve acontecer a reinicialização noturna automática. Atualizações do Windows deve ser transparentes na sala, a interface do usuário nunca deve ser interrompido por atualizações do Windows.
 
 Se você optar por associação de domínio, use o SCCM ou WSUS e preste atenção especial nas diretivas ou ações que podem resultar em dispositivo instalar uma atualização ou forçar uma reinicialização durante o horário comercial. Se você tiver sistemas em sua implantação reinicializando durante o uso ou alertas sobre atualizações do Windows através da interface do usuário, você desejará examinar sua configuração.

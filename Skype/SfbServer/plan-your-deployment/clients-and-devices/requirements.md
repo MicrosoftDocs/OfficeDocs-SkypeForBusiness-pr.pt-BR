@@ -1,5 +1,5 @@
 ---
-title: Requisitos do Skype Room Systems versão 2
+title: Requisitos de salas de equipes da Microsoft
 ms.author: jambirk
 author: jambirk
 ms.reviewer: davgroom
@@ -10,34 +10,35 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
-description: Este artigo resume os requisitos para dar suporte a sistemas de sala Skype v2.
-ms.openlocfilehash: bc1cfdfe8d7d470396617421cdcfdc6aab50a9bc
-ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
+ms.collection: M365-voice
+description: Este artigo resume os requisitos para dar suporte a salas de equipes da Microsoft.
+ms.openlocfilehash: aff26f2f69b134569b8792df79c2afa4e4a18318
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770417"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012991"
 ---
-# <a name="skype-room-systems-v2-requirements"></a>Requisitos do Skype Room Systems versão 2
+# <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas de equipes da Microsoft
 
-Este artigo resume os requisitos para dar suporte a sistemas de sala Skype v2. 
+Este artigo resume os requisitos para dar suporte a salas de equipes da Microsoft. 
 
-Sua implantação envolve a criação de conta, conforme descrito em [implantar sistemas de sala Skype v2](../../deploy/deploy-clients/room-systems-v2.md) e configurar um console de reunião, conforme descrito em [Configure um console do Skype sala sistemas v2](../../deploy/deploy-clients/console.md). 
+Sua implantação envolve a criação de conta, conforme descrito em [Salas de equipes Microsoft implantar](../../deploy/deploy-clients/room-systems-v2.md) e configurar um console de reunião, conforme descrito em [Configure um console de salas de equipes da Microsoft](../../deploy/deploy-clients/console.md). 
 
 Você também pode precisar referir-se a:
 
-- [Licenciamento de complementos do Skype for Business](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [Opções com base no seu plano de licença: v2 de sistemas de sala do Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Licenciamento do complemento Skype for Business](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+- [Opções com base no seu plano de licença: salas de equipes da Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Sistemas de sala Skype v2 destina-se a uso com Skype para Business Server 2019, Skype para Business Server 2015, Microsoft Teams ou Skype para Business Online. <br><br>Não são devem trabalhar com sistemas de sala Skype v2 plataformas anteriores, como o Lync Server 2013.
+> Salas de equipes da Microsoft é destinada para uso com Skype para Business Server 2019, Skype para Business Server 2015, Microsoft Teams ou Skype para negócios Online. <br><br>Plataformas anteriores, como o Lync Server 2013 não são devem trabalhar com salas de equipes da Microsoft.
 
 > [!NOTE]
-> Se estiver usando um servidor do Exchange em prem, sistemas de sala Skype v2 requer o uso do Exchange Server 2013 SP1 ou posterior.
+> Se estiver usando um servidor do Exchange em prem, salas de equipes da Microsoft requer o uso do Exchange Server 2013 SP1 ou posterior.
 
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 
-Sistemas de sala Skype v2 pode ser dimensionado para tamanhos diferentes de sala por meio de Acessórios dependendo periféricos de áudio e vídeos. O hardware listado neste artigo suporta os modos de reunião de equipes e Skype.  Periféricos de áudio e vídeos conectem-se a sistemas de sala Skype v2 por meio de uma conexão USB ou HDMI no dispositivo de encaixe. Também será necessário:
+Microsoft equipes salas pode ser dimensionado para tamanhos diferentes de sala por meio de Acessórios dependendo periféricos de áudio e vídeos. O hardware listado neste artigo suporta os modos de reunião de equipes e Skype.  Conectem periféricos de áudio e vídeos para salas de equipes da Microsoft por meio de uma conexão USB ou HDMI no dispositivo de encaixe. Também será necessário:
 
 - Um 32GB ou disco maior de USB, que você irá configurar como inicializável mídia de instalação do Windows para Windows 10 Enterprise. 
 
@@ -73,18 +74,18 @@ Sistemas de sala Skype v2 pode ser dimensionado para tamanhos diferentes de sala
 
 **Versões de firmware para periféricos USB de áudio e vídeos de certificado**
 
-|Periféricos v2 de sistemas de sala do Skype|Versão de firmware certificada para sistemas de sala Skype v2|
+|Periféricos de salas de equipes da Microsoft|Versão de firmware certificada para salas de equipes da Microsoft|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Áudio - 1.0.172  <br/> Vídeo - 1.0.156  <br/> |
-|[Logitech ConferenceCam Connect](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
-|[Logitech Group](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
+|[Conectar Logitech ConferenceCam](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
+|[Grupo Logitech](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
 |[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam) <br/> | 8.0.914 <br/> |
 |[Logitech PTZ Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> | 1.1.219 <br/> |
 |[Logitech PTZ Pro 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2) <br/> |
 |[Polycom RealPresence Trio](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4,7511  <br/> |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0  <br/> |
-|[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0,70232 <br/> |
+|[Polycom CX5100 ](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0,70232 <br/> |
 |[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15  <br/> |
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
@@ -108,11 +109,11 @@ Sistemas de sala Skype v2 pode ser dimensionado para tamanhos diferentes de sala
     > A TV usada em uma sala de exibição precisa suportar/habilitar o recurso CEC (Controle Eletrônico do Consumidor) do HDMI para que possa alternar automaticamente do modo de espera para uma fonte de vídeo ativa.  Esse recurso não é suportado em todas as TVs. 
 
 > [!NOTE]
-> Sistemas de sala Skype v2 não usa um teclado. Se necessário, o administrador deve usar o teclado virtual. Um mouse ou teclado USB serão necessária quando o dispositivo de v2 Skype sala sistemas de geração de imagens. 
+> Salas de equipes da Microsoft não usa um teclado. Se necessário, o administrador deve usar o teclado virtual. Um mouse ou teclado USB serão necessária quando o dispositivo Microsoft equipes salas de geração de imagens. 
 
 As tabelas a seguir fornecem recomendações para periféricos com base no tamanho de sala:
 
-**Skype sala sistemas v2 Certified periféricos de áudio**
+**Salas de equipes da Microsoft certificadas periféricos de áudio**
 
 |Tipo de sala|Número de pessoas|Distância máxima recomendada entre o microfone e a pessoa que está falando|Dispositivo, de acordo com o tamanho máximo da sala|Comentários|
 |:-----|:-----|:-----|:-----|:-----|
@@ -121,7 +122,7 @@ As tabelas a seguir fornecem recomendações para periféricos com base no taman
 |**Médio** <br/> 18' x 20'  <br/> |6-12  <br/> |2.4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 msegs  <br/> |O Logitech MeetUp inclui uma câmera de forma que ele deve ser posicionado à frente da sala (não o centro da tabela para capturar participantes da reunião local).  <br/> Em geral, salas com longos retangulares ou em forma de u tabelas podem se beneficiar de microfones de satélite adicionais.  <br/> O SP 220 MS deve ser usado em configuração de corrente margarida.  <br/> |
 |**Grande** <br/> 15' x 32 °  <br/> |16 de 12  <br/> |3m  <br/> Essa distância também se aplica à área coberta por cada microfone parabólico adicional conectado ao dispositivo de áudio em questão.   <br/> |Grupo Logitech + microfones de satélite  <br/> Microfones de satélite Polycom Trio +  <br/> Polycom CX5100 + microfones de satélite  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 msegs + microfones de satélite  <br/> |Todos os dispositivos de áudio listados nesta linha dão suporte a opções de microfones parabólicos.  <br/> O CX5100 inclui uma câmera interna de 360 graus; assim, o dispositivo pode ser posicionado no centro da mesa.  <br/> O SP 220 MS deve ser usado em configuração de corrente margarida.  <br/> |
 
-**Skype sala sistemas v2 Certified periféricos de vídeo**
+**Salas de equipes da Microsoft certificadas periféricos de vídeo**
 
 |Tipo de sala|Número de pessoas|Dispositivo pelo tamanho ideal de sala|Comentários|
 |:-----|:-----|:-----|:-----|
@@ -133,23 +134,23 @@ As tabelas a seguir fornecem recomendações para periféricos com base no taman
  > [!NOTE]
  > Parte frontal da resolução de vídeo de sala deve ser definido como não maior do que 1920x1080p.
 
-## <a name="required-software-downloads"></a>Downloads de software necessários
+## <a name="required-software-downloads"></a>Downloads de software necessárias
 
-Para criar sua própria imagem do Skype sala sistemas v2, siga as instruções em [Configure um console do Skype sala sistemas v2](../../deploy/deploy-clients/console.md). Essas instruções vão orientá-lo por meio de baixar todo o software necessário para o processo de instalação. 
+Para criar sua própria imagem de salas de equipes da Microsoft, siga as instruções em [Configure um console de salas de equipes da Microsoft](../../deploy/deploy-clients/console.md). Essas instruções vão orientá-lo por meio de baixar todo o software necessário para o processo de instalação. 
 
 > [!NOTE]
 > Profissionais de TI precisará ter acesso aos arquivos do Windows 10 Enterprise ISO por meio de seu contrato de licenciamento por volume.
 
-Além disso, você pode querer uma cópia do [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), frequentemente usadas para provisionar contas do Skype sala sistemas v2.
+Além disso, você pode querer uma cópia do [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), que pode ser usada para provisionar contas de salas de equipes da Microsoft.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
-[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
+[Planejar para salas de equipes da Microsoft](skype-room-systems-v2-0.md)
 
-[Implantar o Skype Room Systems versão 2](../../deploy/deploy-clients/room-systems-v2.md)
+[Implantar salas de equipes da Microsoft](../../deploy/deploy-clients/room-systems-v2.md)
 
-[Configurar o console do Skype Room Systems versão 2](../../deploy/deploy-clients/console.md)
+[Configurar um console de salas de equipes da Microsoft](../../deploy/deploy-clients/console.md)
 
-[Gerenciar o Skype Room Systems versão 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gerenciar salas de equipes da Microsoft](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Licenciamento de complementos do Skype for Business](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

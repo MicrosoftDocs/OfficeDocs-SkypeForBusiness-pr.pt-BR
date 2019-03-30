@@ -9,20 +9,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
+ms.collection: M365-voice
 description: Leia estes tópicos para aprender como provisionar as contas do Exchange e Skype para o Sistema de Salas do Skype.
-ms.openlocfilehash: ec812f569e096d31fb1085d196037677edf5da37
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 2da978d84ac763a27bba135e1899e83955b4fb53
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699271"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012551"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Provisionamento de contas do Exchange e Skype do Sistema de Salas do Skype
  
 Leia estes tópicos para aprender como provisionar as contas do Exchange e Skype para o Sistema de Salas do Skype. 
 
 > [!NOTE]
-> Sistemas de sala Skype v2 é um produto diferente com diferentes dependências e procedimentos de implantação. Para obter informações sobre os sistemas de sala Skype v2, consulte sistemas de sala Skype v2 [Visão geral da implantação](room-systems-v2.md).
+> Salas de equipes da Microsoft é um produto diferente com diferentes dependências e procedimentos de implantação. Para obter informações sobre as salas de equipes da Microsoft, consulte a [Visão geral da implantação](room-systems-v2.md)do Microsoft equipes salas.
   
 > [!NOTE]
 > Provisionamento de conta de sistema de sala Skype depende do tipo de topologia que sua organização tem. Para saber mais sobre topologias do Active Directory, consulte [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 

@@ -1,5 +1,5 @@
 ---
-title: Use a ferramenta de recuperação de v2 de sistemas de sala do Skype
+title: Use a ferramenta de recuperação de salas de equipes da Microsoft
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,31 +8,32 @@ ms.date: 4/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+ms.collection: M365-voice
 localization_priority: Normal
-description: Este artigo discute como usar a ferramenta de recuperação para sistemas de sala Skype v2, que você usaria para trazer um sistema desatualizado para um estado com suporte.
-ms.openlocfilehash: 04bce72f6a8812c35b92f9f92d445cdf8765d110
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+description: Este artigo discute como usar a ferramenta de recuperação para salas de equipes da Microsoft, que você usaria para trazer um sistema desatualizado para um estado com suporte.
+ms.openlocfilehash: 9580a94c96b7982a3030ccc0435be8e05f7c4a25
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965986"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013077"
 ---
-# <a name="use-the-skype-room-systems-v2-recovery-tool"></a>Use a ferramenta de recuperação de v2 de sistemas de sala do Skype
+# <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Use a ferramenta de recuperação de salas de equipes da Microsoft
  
-Este artigo discute como usar a ferramenta de recuperação para sistemas de sala Skype v2, que você usaria para trazer um sistema desatualizado para um estado com suporte. Quando o console do Skype sala sistemas v2 mostra um erro "system config desatualizada", você usaria esta ferramenta.
+Este artigo discute como usar a ferramenta de recuperação para salas de equipes da Microsoft, que você usaria para trazer um sistema desatualizado para um estado com suporte. Quando o console de salas de equipes da Microsoft mostra um erro "system config desatualizada", você usaria esta ferramenta.
   
 
 <a name="Prerequisites"> </a>  
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Baixe o mais recente [pacote de instalação do Skype sala sistemas v2](https://go.microsoft.com/fwlink/?linkid=851168) e extraia-o para um USB memória pente ou compartilhamento de rede acessível ao dispositivo v2 Skype sistemas de sala.
+Baixe o mais recente [pacote de instalação de salas de equipes da Microsoft](https://go.microsoft.com/fwlink/?linkid=851168) e extraia-o para um USB memória pente ou compartilhamento de rede acessível para o dispositivo de salas de equipes da Microsoft.
 
 Você também pode precisar instalar [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu).
 
 <a name="Windows-ver"> </a>
 ## <a name="verify-windows-version"></a>Verifique se a versão do Windows 
 
-1. Login com uma conta de administrador indo para **Configurações > Configuração do Windows > Admin entrar** do dispositivo v2 Skype sistemas de sala. Essa opção leva a tela de login.
+1. Login com uma conta de administrador, indo para **Settings> Windows Setting> Admin entrar** do dispositivo Microsoft equipes salas. Essa opção leva a tela de login.
 2. Conta de entrada em uma conta de administrador, o administrador padrão que está sendo `admin` com a senha `sfb`.
 3. Clique no menu Iniciar e digite `winver.exe` na caixa Pesquisar e clique em **Comando executar* no resultado.
 4. Anote o número após 'Versão' na segunda linha do painel informações.
@@ -52,17 +53,17 @@ Você também pode precisar instalar [KB4089848](http://download.windowsupdate.c
 <a name="Perform"> </a>
 ## <a name="perform-a-recovery"></a>Executar uma recuperação
 
-1. Entrar com a conta de administrador no seu dispositivo de v2 Skype sistemas de sala e inicie um prompt de comando elevado.
-2. Verifique se o Skype sala v2 dispositivos de sistemas que você seja capaz de acessar o `RecoveryTool.ps1` arquivo, que está incluído nos arquivos extraídos do pacote de instalação do Skype sala sistemas v2. O kit pode ser encontrado no compartilhamento de rede ou unidade USB usado durante a preparação de pré-requisitos.
+1. Entrar com a conta de administrador no seu dispositivo de salas de equipes da Microsoft e inicie um prompt de comando elevado.
+2. Verificar do dispositivo salas de equipes da Microsoft se você é capaz de acessar o `RecoveryTool.ps1` arquivo, que está incluído nos arquivos extraídos do pacote de instalação do Microsoft equipes salas. O kit pode ser encontrado no compartilhamento de rede ou unidade USB usado durante a preparação de pré-requisitos.
 3. Execute o comando Powershell.exe `-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`.
 4. Quando solicitado, selecione a opção o script `1:"Repair System"`.
-5. Após a conclusão, reinicialize o dispositivo de v2 de sistemas de sala Skype. Ela será reinicializar novamente automaticamente e surgirem recuperada totalmente a segunda vez.
+5. Após a conclusão, reinicialize o dispositivo de salas de equipes da Microsoft. Ela será reinicializar novamente automaticamente e surgirem recuperada totalmente a segunda vez.
 
 
 
 <a name="See"> </a>  
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Consulte Também
  
-[Ajuda da versão 2 de sistemas de sala do Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Ajuda do Microsoft equipes salas](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Gerenciar o Skype Room Systems versão 2](skype-room-systems-v2.md)
+[Gerenciar salas de equipes da Microsoft](skype-room-systems-v2.md)

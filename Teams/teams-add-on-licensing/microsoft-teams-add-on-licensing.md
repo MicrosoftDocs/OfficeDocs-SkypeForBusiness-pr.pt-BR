@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Saiba mais sobre licenças de complemento recursos aos quais você obterá com cada licença, como comprá-los para o seu produto e como usar sua operadora existente com eles. Você pode obter informações sobre preços e plano de detalhes para o Office 365, créditos de comunicação, e planos de chamada.
-ms.openlocfilehash: 9413a8384aadc08d77bf16bf155d12a8edad9447
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.openlocfilehash: 497881fc073297df36f0b26280e51694c69babcf
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948365"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013062"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Licenciamento do complemento do Microsoft Teams
 
@@ -51,11 +51,11 @@ Dependendo de qual plano que você já tem, você pode adquirir licenças de com
 |||
 |:-----|:-----|
 |**Recurso** <br/> |**Descrição** <br/> |
-|**Audioconferência** <br/> |Em alguns casos, as pessoas na sua organização precisará usar um telefone para efetuar uma chamada para uma reunião de equipes, em vez de usar seu computador. Use o recurso de conferência de áudio para essa situação.  <br/> Para descobrir se a Audioconferência está disponível em seu país ou região, consulte [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> Se você estiver procurando por como muito ele custos, consulte [precificação para audioconferências](https://products.office.com/microsoft-teams/online-meeting-solutions).  <br/> |
+|**Serviços de audioconferência** <br/> |Em alguns casos, as pessoas na sua organização precisará usar um telefone para efetuar uma chamada para uma reunião de equipes, em vez de usar seu computador. Use o recurso de conferência de áudio para essa situação.  <br/> Para descobrir se a Audioconferência está disponível em seu país ou região, consulte [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> Se você estiver procurando por como muito ele custos, consulte [precificação para audioconferências](https://products.office.com/microsoft-teams/online-meeting-solutions).  <br/> |
 |**Números de chamada gratuita para acesso discado às conferências e a capacidade de discar de uma conferência para adicionar alguém usando qualquer número de telefone do mundo** <br/> |Se você adicionar a Audioconferência, recomendamos que você [Configure Créditos de Comunicações](../set-up-communications-credits-for-your-organization.md). <br/> |
 |**Sistema Telefônico** <br/> |Um PBX é um sistema telefônico corporativo. O sistema telefônico no Office 365 é um serviço hospedado do telefone. Ele fornece recursos de PBX tradicionais e inovadores, mas sem equipamentos caros e complicados. [Aqui está o que fazer com o sistema telefônico no Office 365](../here-s-what-you-get-with-phone-system.md).  <br/> Se você estiver procurando por como muito ele custos, consulte [Sistema telefônico](https://products.office.com/microsoft-teams/voice-calling).  <br/> |
 |**Planos de chamadas** <br/> |Chamadas para outros usuários equipes estão disponível, mas se você deseja que os usuários sejam capazes de chamar quaisquer números de telefone fora da sua empresa, fazer uma [Chamada planejar](../calling-plans-for-office-365.md). Existem Planos de Chamadas Domésticas e Planos de Chamadas Domésticas e Internacionais no Office 365.  <br/> Se você estiver procurando por como muito ele custos, consulte [Chamar planejar preços](https://products.office.com/en-us/microsoft-teams/voice-calling).  <br/> |
-|**Skype Room Systems v2** <br/> |Este aplicativo não é um complemento, mas um recurso que traz vídeo, áudio e compartilhamento de conteúdo para salas de conferência. Consulte [Skype v2 de sistemas de sala](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
+|**Salas de equipes da Microsoft** <br/> |Este aplicativo não é um complemento, mas um recurso que traz vídeo, áudio e compartilhamento de conteúdo para salas de conferência. Consulte [Rooms equipes da Microsoft](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
 
 Precisamos conversar com alguém sobre todas as opções de complementos? [Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
@@ -68,7 +68,7 @@ As opções de licenciamento de complemento disponíveis para você depende do s
 - [O Office 365 Enterprise E1 ou E3](office-365-enterprise-e1-e3.md)
 - [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (sem audioconferência)](office-365-enterprise-e5-without-audio-conferencing.md)
-- [Skype Room Systems v2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Salas de equipes da Microsoft](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 - [GOV, EDU e instituições sem fins lucrativos](gov-edu-and-nonprofit-organizations.md)
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Como descobrir os preços e comprar licenças complementares
