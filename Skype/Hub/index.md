@@ -140,8 +140,8 @@ description: Skype for Business
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Skype Room Systems versão 2</h3>
-                                                    <p>Aprenda a planejar, implantar e gerenciar Sistemas de salas do Skype v2.</p>
+                                                    <h3>Salas de equipes da Microsoft</h3>
+                                                    <p>Aprenda a planejar, implantar e gerenciar salas de equipes da Microsoft.</p>
                                                 </div>
                                             </div>
                                         </div>
