@@ -187,26 +187,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-## [Interoperabilidade de vídeo em nuvem](cloud-video-interop.md)
-
-## Eventos ao vivo
-### [O que são os eventos ao vivo do Teams?](teams-live-events/what-are-teams-live-events.md)
-### [Planejar eventos ao vivo do Teams](teams-live-events/plan-for-teams-live-events.md)
-### [Configurar eventos ao vivo do Teams](teams-live-events/set-up-for-teams-live-events.md)
-### [Usar o PowerShell para definir políticas de eventos ao vivo do Teams](teams-live-events/set-teams-live-events-policies-using-powershell.md)
-### [Definir configurações de eventos ao vivo do Teams](teams-live-events/configure-teams-live-events.md)
-
-<!-- ============================================================ -->
-
 ### Referência
 #### [Idiomas suportados na audioconferência](audio-conferencing-supported-languages.md)
 
@@ -305,6 +285,26 @@
 <!-- ============================================================ -->
 
 
+
+
+
+
+
+
+
+## [Interoperabilidade de vídeo em nuvem](cloud-video-interop.md)
+
+## Eventos ao vivo
+### [O que são os eventos ao vivo do Teams?](teams-live-events/what-are-teams-live-events.md)
+### [Planejar eventos ao vivo do Teams](teams-live-events/plan-for-teams-live-events.md)
+### [Configurar eventos ao vivo do Teams](teams-live-events/set-up-for-teams-live-events.md)
+### [Usar o PowerShell para definir políticas de eventos ao vivo do Teams](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+### [Definir configurações de eventos ao vivo do Teams](teams-live-events/configure-teams-live-events.md)
+
+<!-- ============================================================ -->
+
+
+
 # [Cloud voice](cloud-voice-landing-page.md)
 ## Sistema Telefônico
 ### [O que é o Sistema de Telefonia](what-is-phone-system-in-office-365.md)
@@ -312,7 +312,7 @@
 ### [Configurar o Sistema de Telefonia](setting-up-your-phone-system.md)
 ### [Configurar telefones de área comuns](set-up-common-area-phones.md)
 ### Caixa postal
-#### [Configurar a caixa postal do Sistema de Telefonia](set-up-phone-system-voicemail.md)
+#### [Configurar a caixa postal na nuvem](set-up-phone-system-voicemail.md)
 #### [Alterar o idioma padrão da caixa postal](change-the-default-language-for-greetings-and-emails.md)
 #### [Idiomas de mensagens e saudações da caixa postal](languages-for-voicemail-greetings-and-messages.md)
 ### ID do chamador
