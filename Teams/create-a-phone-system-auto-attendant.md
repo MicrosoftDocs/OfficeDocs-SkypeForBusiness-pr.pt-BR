@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendedores automáticos de sistema telefônico (nuvem PBX) para eficiente tratamento de chamadas para sua organização.
-ms.openlocfilehash: 8bf33e911e11ab7561cc09e0cd18f4cfaf314d98
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 32fbf066524ec73b6cfa683a493dc93c58932d7c
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013091"
+ms.locfileid: "31013649"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Configurar os atendedores automáticos do Sistema Telefônico
 
@@ -211,7 +211,7 @@ Para configurar suas opções de menu, depois de selecionar as teclas de discage
   - Uma **Pessoa da sua empresa** com uma licença de **Sistema de Telefonia** habilitada para Enterprise Voice ou com um Plano de Chamadas do Office 365 atribuído. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para fazer isso, selecione **a pessoa da sua empresa** e defina essa pessoa para que suas chamadas encaminhadas diretamente para a caixa postal.
 
     > [!Note]
-    > A **Pessoa da sua empresa** pode ser um usuário Online ou um usuário hospedado no local usando o Skype for Business Server 2015 ou o Lync Server 2013. Não há suporte para Lync Server 2010.
+    > A **Pessoa da sua empresa** pode ser um usuário Online ou um usuário hospedado no local usando o Skype for Business Server 2015 ou o Lync Server 2013. 
     - Outro **atendedor automático**
 
        Você pode usar um atendedor automático existente para criar um segundo nível das opções de menu que contém um submenu. These are called nested auto attendants. Para enviar a chamada para um atendedor automático aninhados, selecione a **pessoa na empresa** e atribuir uma conta de recurso, um que já tenha um atendedor automático associado ou um que você irá associar a um atendedor automático depois que terminar criando este atendedor automático.
@@ -227,8 +227,6 @@ Para configurar suas opções de menu, depois de selecionar as teclas de discage
 
 **Discagem por nome** Se você escolher essa opção, isso permitirá que as pessoas que ligam para pesquisar por pessoas em uma organização usando a pesquisa de diretório. Você pode selecionar as pessoas que serão listadas como disponíveis ou indisponíveis para Discagem por Nome na página **Escopo de discagem**. Qualquer usuário online com uma licença de **Sistema de Telefonia** ou hospedado no local usando o Skype for Business Server 2015 ou o Lync Server 2013 pode ser encontrado com a Discagem por Nome.
 
-> [!WARNING]
-> Usuários hospedados no local usando o Lync 2010 **não podem ser acessados** com a Discagem por Nome.
 
 * * *
 
@@ -280,7 +278,7 @@ Os nomes de feriados podem ter até 64 caracteres e devem ser únicos para o mes
   - Uma **Pessoa da sua empresa** com uma licença de **Sistema de Telefonia** habilitada para Enterprise Voice ou com Planos de Chamadas do Office 365 atribuídos. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para fazer isso, selecione a **pessoa na sua empresa**e defina essa pessoa para que suas chamadas encaminhadas diretamente para a caixa postal.
 
     > [!Note]
-    > A **Pessoa da sua empresa** pode ser um usuário Online ou um usuário hospedado no local usando o Skype for Business Server 2015 ou o Lync Server 2013. Não há suporte para Lync Server 2010.
+    > A **Pessoa da sua empresa** pode ser um usuário Online ou um usuário hospedado no local usando o Skype for Business Server 2015 ou o Lync Server 2013. 
 
   - Uma **fila de chamadas** para transferir a chamada para uma fila de chamada existente que você definiu.
   - Outro **atendedor automático**, para criar um segundo nível das opções de menu que contém um submenu. These are called nested auto attendants.
@@ -301,9 +299,6 @@ Nesta página, você pode configurar quais usuários em sua organização poder�
 - **Todos os usuários online** O uso dessa opção permite que todas as pessoas da organização sejam incluídas na pesquisa do diretório. Todos os usuários Online com uma licença de **Sistema de Telefonia**, bem como os usuários hospedados no local que usam o Skype for Business Server 2015 ou o Lync Server 2013, que têm Planos de Chamadas no Office 365, serão listados.
 - **Grupo de usuário personalizado** Se você usar essa opção, você pode procurar um grupo do Office 365, lista de distribuição ou grupo de segurança que foi criado em sua organização e as pessoas adicionadas para este grupo do Office 365, lista de distribuição ou grupo de segurança que são um dos **usuários Online com uma Licença do sistema telefônico** ou hospedado no local usando Skype para Business Server 2015 ou o Lync Server 2013. Você pode adicionar vários grupos do Office 365, listas de distribuição e grupos de segurança.
 
-  > [!Caution]
-  > Usuários locais de implantações do Lync Server 2010 não listados quando alguém pesquisará o diretório usando discagem por nome.
-
 * * *
 
 ![Número 2](media/sfbcallout2.png)
@@ -312,9 +307,6 @@ Usando a opção **Excluir** , você tem duas opções:
 
 - **Nenhuma** O uso desta opção indicará que nenhum usuário online será excluído da pesquisa de diretório.
 - **Grupo de usuário personalizado** Se você usar essa opção, você pode procurar um grupo do Office 365, lista de distribuição ou grupo de segurança que foi criado em sua organização, e todas as pessoas adicionado a esse grupo do Office 365, lista de distribuição ou grupos de segurança serão excluídos da pesquisa de diretório. Você pode adicionar vários grupos do Office 365, listas de distribuição e grupos de segurança.
-
-  > [!Caution]
-  > Usuários locais de implantações do Lync Server 2010 não listados quando alguém pesquisará o diretório usando discagem por nome.
 
 > [!NOTE]
 > Poderá demorar até 36 horas para um novo usuário ter seu nome listado no diretório quando alguém usa discagem pelo nome, com reconhecimento de fala.
@@ -337,24 +329,23 @@ Você também pode usar o Windows PowerShell para criar e configurar atendedores
 
 Veja os cmdlets necessários para gerenciar um atendedor automático.
 
- 
-- [New-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps) 
-- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant?view=skype-ps) 
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps) 
-- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps) 
-- [New-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps) 
-- [New-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
-- [New-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps) 
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps) 
+- [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csOrganizationalautoattendant?view=skype-ps)  
+- [Set-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csOrganizationalautoattendant?view=skype-ps) 
+- [Get-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csOrganizationalautoattendant?view=skype-ps) 
+- [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csOrganizationalautoattendantholidays?view=skype-ps) 
+- [Remove-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csOrganizationalautoattendant?view=skype-ps) 
+- [New-CsOrganizationalAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csOrganizationalautoattendantmenu?view=skype-ps) 
+- [New-CsOrganizationalOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
+- [New-CsOrganizationalAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsOrganizationalAutoAttendantCallFlow?view=skype-ps) 
+- [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsOrganizationalAutoAttendantHolidays?view=skype-ps) 
 - [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps) 
 - [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) 
 - [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps) 
-- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps) 
-- [New-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps) 
-- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps) 
-- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps) 
-- [New-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
+- [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsOrganizationalAutoAttendantSupportedTimeZone?view=skype-ps)
+- [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsOrganizationalAutoAttendantCallHandlingAssociation?view=skype-ps)
+- [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsOrganizationalAutoAttendantSupportedLanguage?view=skype-ps)
+- [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csOrganizationalautoattendantholidays?view=skype-ps) 
+- [New-CsOrganizationalAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
 
 ### <a name="more-about-windows-powershell"></a>Mais sobre o Windows PowerShell
 

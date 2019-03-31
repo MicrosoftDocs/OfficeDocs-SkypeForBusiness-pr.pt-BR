@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a41e16b8e813fe3f8acb1a41d9c2751fa7c71e4c
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: b620f163f1dc071bde8a0ed43bf7fe546a9bc04a
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640934"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013633"
 ---
 # <a name="get-started-with-teams-templates"></a>Introdução aos modelos do Microsoft Teams 
 
@@ -64,14 +64,14 @@ Por padrão, o modelo base é definido para o **padrão** que não contenha nenh
 
 | Tipo de modelo base | baseTemplateId | Propriedades que acompanham este modelo base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`standard` | Não há aplicativos adicionais e propriedades |
-| Educação-<br>Equipe de classe | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | Aplicativos:<ul><li>Bloco de anotações de classe do OneNote (fixados a guia **Geral** ) </li><li>Aplicativo de atribuições (fixado a guia **Geral** )</li></ul> Propriedades de equipe:<ul><li>Visibilidade da equipe é definido como **HiddenMembership** (não pode ser substituída)</li></ul> |
-| Educação-<br>Equipe de equipe | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | Aplicativos:<ul><li>Bloco de anotações de equipe do OneNote (fixados a guia **Geral** )</li></ul> |
-|Educação-<br>Equipe PLC |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Aplicativos:<ul><li>Anotações do OneNote PLC (fixados a guia **Geral** )</ul></li>|
-| Varejo-<br>Repositório | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | Canais:<ul><li>Deslocar da entrega</li><li>Aprendizado</li></ul>Propriedades da equipe<ul><li>Visibilidade da equipe pública</li></ul>Permissões de membro<ul><li>Impedir que os membros da criação, atualizem ou remoção de canais</li><li>Impedir que os membros adicionem ou removam aplicativos</li><li>Impedir que os membros da criação, atualizem ou remoção de conectores</li></ul> |
-| Varejo-<br>Gerenciador de colaboração | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | Canais:<ul><li>Deslocar da entrega</li><li>Aprendizado</li></ul>Propriedades de equipe:<ul><li>Visibilidade da equipe definida como privado</li></ul>Permissões de membro:<ul><li>Impedir que os membros da criação, atualizem ou remoção de canais</li><li>Impedir que os membros adicionem ou removam aplicativos</li><li>Impedir que os membros da criação, atualizem ou remoção de conectores</li></ul>|
-| Saúde-<br>Bairro |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWard` |Canais: <ul><li>Anúncios\*</li><li>Huddles\*</li><li>Arredonda</li><li>Criação da equipe\*</li><li>Treinamento\*</li></ul>\*Canais de auto-favorited |
-|Saúde-<br>Hospital | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospital` |Canais:<ul><li>Anúncios\*</li><li>Conformidade\*</li><li>Custódia</li><li>Recursos humanos</li></li><li>Farmácia</li></ul>\*Auto-favorited channel|
+| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | Não há aplicativos adicionais e propriedades |
+| Educação-<br>Equipe de classe | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Aplicativos:<ul><li>Bloco de anotações de classe do OneNote (fixados a guia **Geral** ) </li><li>Aplicativo de atribuições (fixado a guia **Geral** )</li></ul> Propriedades de equipe:<ul><li>Visibilidade da equipe é definido como **HiddenMembership** (não pode ser substituída)</li></ul> |
+| Educação-<br>Equipe de equipe | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Aplicativos:<ul><li>Bloco de anotações de equipe do OneNote (fixados a guia **Geral** )</li></ul> |
+|Educação-<br>Equipe PLC |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Aplicativos:<ul><li>Anotações do OneNote PLC (fixados a guia **Geral** )</ul></li>|
+| Varejo-<br>Repositório | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canais:<ul><li>Deslocar da entrega</li><li>Aprendizado</li></ul>Propriedades da equipe<ul><li>Visibilidade da equipe pública</li></ul>Permissões de membro<ul><li>Impedir que os membros da criação, atualizem ou remoção de canais</li><li>Impedir que os membros adicionem ou removam aplicativos</li><li>Impedir que os membros da criação, atualizem ou remoção de conectores</li></ul> |
+| Varejo-<br>Gerenciador de colaboração | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canais:<ul><li>Deslocar da entrega</li><li>Aprendizado</li></ul>Propriedades de equipe:<ul><li>Visibilidade da equipe definida como privado</li></ul>Permissões de membro:<ul><li>Impedir que os membros da criação, atualizem ou remoção de canais</li><li>Impedir que os membros adicionem ou removam aplicativos</li><li>Impedir que os membros da criação, atualizem ou remoção de conectores</li></ul>|
+| Saúde-<br>Bairro |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canais: <ul><li>Anúncios\*</li><li>Huddles\*</li><li>Arredonda</li><li>Criação da equipe\*</li><li>Treinamento\*</li></ul>\*Canais de auto-favorited |
+|Saúde-<br>Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canais:<ul><li>Anúncios\*</li><li>Conformidade\*</li><li>Custódia</li><li>Recursos humanos</li></li><li>Farmácia</li></ul>\*Auto-favorited channel|
 |||
 
 > [!NOTE]
@@ -84,4 +84,4 @@ Por padrão, o modelo base é definido para o **padrão** que não contenha nenh
 - [Nova equipe](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Treinamento de administrador para o Microsoft Teams](itadmin-readiness.md)
 - [Introdução aos modelos de Equipes de varejo](get-started-with-retail-teams-templates.md)
-- [Introdução ao modelos de equipes de atendimento médico](healthcare/healthcare-templates.md)
+- [Introdução aos modelos do Teams para Organizações de Assistência Médica](expand-teams-across-your-org/healthcare/healthcare-templates.md)
