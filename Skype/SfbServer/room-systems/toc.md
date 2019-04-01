@@ -1,12 +1,11 @@
-# [Skype Room Systems v2](index.md)
-
+# [Salas do Microsoft Teams](index.md)
 ## Plano
-### [Visão geral do planejamento do Skype Room Systems versão 2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+### [Visão geral do planejamento de Salas do Microsoft Teams](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ### [Suporte para versões](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
 ### [Notas de versão](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [Preparar seu ambiente](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [Requisitos](../plan-your-deployment/clients-and-devices/requirements.md)
-### [Licenciamento online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+### [Licenciamento online](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 ### [Planejar o gerenciamento com o Monitor do Azure](../plan-your-deployment/clients-and-devices/azure-monitor.md)
 
 ## Implantar
@@ -19,6 +18,7 @@
 ### [Configurar um console](../deploy/deploy-clients/console.md)
 ### [Com o System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
 ### [Gerenciamento com o Monitor do Azure](../deploy/deploy-clients/azure-monitor.md)
+### [Migrar SRS v1 ou LRS](../deploy/deploy-clients/lrs-migration.md)
 
 ## Gerenciar
 ### [Visão geral do gerenciamento](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
@@ -27,4 +27,4 @@
 ### [Dispositivos com o Monitor do Azure](../manage/skype-room-systems-v2/azure-monitor.md)
 ### [Configurações com um arquivo XML](../manage/skype-room-systems-v2/xml-config-file.md)
 ### [Usar a ferramenta de recuperação](../manage/skype-room-systems-v2/recovery-tool.md)
-### [Migrar](../deploy/deploy-clients/lrs-migration.md)
+
