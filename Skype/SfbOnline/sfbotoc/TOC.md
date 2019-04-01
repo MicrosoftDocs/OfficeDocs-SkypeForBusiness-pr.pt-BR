@@ -224,11 +224,11 @@
 #### [Implantando telefones do Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
 #### [Configuração de Telefones de Área Comum (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
-### [Veja o você recebe com o Sistema de Telefonia](/microsoftteams/here-s-what-you-get-with-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### Caixa postal do Sistema de Telefonia
+### [Veja o que você obtém com o Sistema de Telefonia](/microsoftteams/here-s-what-you-get-with-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### Caixa Postal na Nuvem
 #### [Alterar o idioma padrão para emails e saudações de caixa postal em sua organização](/microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Idiomas de mensagens e saudações da caixa postal](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Configurar a caixa postal do Sistema de Telefonia - Ajuda para administradores](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+#### [Configurar a Caixa Postal na Nuvem - Ajuda da administração](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Configurar o Sistema de Telefonia na sua organização](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [O que são atendedores automáticos do Sistema de Telefonia?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Configurar os atendedores automáticos do Sistema Telefônico](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

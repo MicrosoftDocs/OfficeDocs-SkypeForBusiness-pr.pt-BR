@@ -1,9 +1,10 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Treinamento ministrado por instrutor e vídeos para administradores do Microsoft Teams
+title: Treinamento com instrutor e vídeos para usuários do Microsoft Teams
 ms.reviewer: ''
-description: Inscreva-se para classes ministrado por instrutor aprender sobre o Microsoft Teams.
+description: Inscreva-se nas aulas guiadas por um instrutor para aprender tudo sobre o Microsoft Teams.
+localization_priority: Priority
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
@@ -11,26 +12,26 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: ddbd1a70cdc6617deb413e4b3e216b35fa9425d9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: MT
+ms.openlocfilehash: a33fc22f3a00d995c5399a99537508a769be9e89
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898212"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952375"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Treinamento ministrado por instrutor for Microsoft Teams</h1>
+        <h1>Treinamento do Microsoft Teams com instrutor</h1>
         <ul class="pivots">
             <li>
-                <a href="#tab1">Treinamento ministrado por instrutor</a>
+                <a href="#tab1">Treinamento guiado por instrutor</a>
                 <ul id="tab1">
                     <li>
                         <a href="#tab1-all"></a>
                         <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>A Microsoft está entusiasmado hospedar uma série de classes de treinamento gratuito, ao vivo, online projetados para ajudá-lo e em execução com equipes.Se você for um tomador de decisões de negócios, admin, IT Pro ou usuário final, você encontrará uma classe que é a certa para você. Participar para ver as equipes em ação, tire suas dúvidas e interagir com nossos instrutores ao vivo. Para mais oportunidades de treinamento, incluindo versões sob demanda de treinamento ao vivo, Confira nosso <a href="https://docs.microsoft.com/microsoftteams/enduser-training">treinamento de usuários finais de sob demanda</a>.<br><br>Clique em um lado para registrar.</p>
+                                    <p>A Microsoft está feliz por hospedar uma série de sessões de treinamento online, gratuitas e ao vivo desenvolvidas para você começar a trabalhar com o Teams.Seja você um tomador de decisão de negócios, administrador, profissional de TI ou usuário final, você encontrará a aula ideal. Participe para ver o Teams em ação, tire suas dúvidas e interaja com os nossos instrutores ao vivo. Para mais oportunidades de treinamento, incluindo versões sob demanda de treinamento ao vivo, confira nosso <a href="https://docs.microsoft.com/microsoftteams/enduser-training">treinamento do usuário final sob demanda</a>.<br><br>Clique em um bloco para registrar.</p>
                                 </div>
                             </li>
                             <li>
@@ -44,8 +45,8 @@ ms.locfileid: "30898212"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>#ThisIsTeams - visão geral do Microsoft Teams</h3>
-                                                    <p>O que é o Microsoft Teams? Participe para esta orientação de 30 minutos descobrir o que há de equipes e como ela pode funcionar para você. (Audiência: todos)</p>
+                                                    <h3>#ThisIsTeams – visão geral do Microsoft Teams</h3>
+                                                    <p>O que é o Microsoft Teams? Venha conferir este orientação de 30 minutos e descobrir o que é o Teams é e como ele pode trabalhar para você. (Público-alvo: Todos)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -63,8 +64,8 @@ ms.locfileid: "30898212"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Introdução ao equipes</h3>
-                                                    <p>De bate-papo e reuniões usando canais e equipes, os usuários deixarão nesta sessão com o foundation usar equipes com confiança. (Audiência: os usuários finais)</p>
+                                                    <h3>Introdução ao Teams</h3>
+                                                    <p>De chat e reuniões até equipes e canais, os usuários deixarão esta sessão com a base para usar o Teams com confiança. (Público-alvo: Usuários finais)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -82,8 +83,8 @@ ms.locfileid: "30898212"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Dicas de equipes & truques</h3>
-                                                <p>Compreenda as formas criativas para otimizar e organizar equipes em seu trabalho diário. (Audiência: os usuários finais)</p>
+                                                <h3>Dicas e truques do Teams</h3>
+                                                <p>Entenda maneiras criativas de otimizar e organizar o Teams em seu trabalho diário. (Público-alvo: Usuários finais)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -101,8 +102,8 @@ ms.locfileid: "30898212"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Gerenciar a atualização do Skype for Business para equipes</h3>
-                                                <p>Plano & implementar uma atualização bem-sucedida para equipes (audiência: profissionais de TI, gerentes de alteração de adoção)</p>
+                                                <h3>Gerencie a atualização do Skype for Business para o Teams</h3>
+                                                <p>Planejar e implementar uma atualização bem-sucedida do Teams (Público-alvo: profissionais de TI, gerentes de adoção de mudanças)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -120,8 +121,8 @@ ms.locfileid: "30898212"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Alternar do Skype for Business para equipes: orientação do usuário final</h3>
-                                                    <p>Obtenha o que você precisa iniciar rapidamente usando equipes durante sua transição do Skype para a equipes de negócios. (Audiência: os usuários finais)</p>
+                                                <h3>Migrar do Skype for Business para o Teams: orientações ao usuário final</h3>
+                                                    <p>Obtenha o que precisar para começar rapidamente a usar o Teams durante a transição do Skype for Business para o Teams. (Público-alvo: Usuários finais)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -139,8 +140,8 @@ ms.locfileid: "30898212"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Equipes de educação - seminários na Web</h3>
-                                                <p>Saiba como usar as equipes em educação superior. (Audiência: equipe, alunos, Formação Acadêmica, pesquise Corpo Docente, profissionais de TI)</p>
+                                                <h3>Teams for Education - Webinars</h3>
+                                                <p>Saiba como usar o Teams na educação superior. (Público-alvo: Funcionários, alunos, acadêmicos, centros de pesquisa, profissionais de TI)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -158,8 +159,8 @@ ms.locfileid: "30898212"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Otimizando as equipes de reuniões</h3>
-                                                <p>Saiba como você pode aproveitar as equipes para seu pre, durante e postar a experiência de reuniões. (Audiência: os usuários finais)</p>
+                                                <h3>Otimizar Reuniões com o Teams</h3>
+                                                <p>Saiba como aproveitar o Teams na sua experiência antes, durante e depois das reuniões. (Público-alvo: Usuários finais)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -177,8 +178,8 @@ ms.locfileid: "30898212"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Firstline trabalhadores com equipes</h3>
-                                                <p>Saiba mais sobre os recursos de trabalhador firstline recentemente liberado em equipes. (Audiência: os usuários finais)</p>
+                                                <h3>Trabalhadores de Contato Direto com o Teams</h3>
+                                                <p>Saiba mais sobre os novos recursos para trabalhadores de contato direto no Teams. (Público-alvo: Usuários finais)</p>
                                             </div>
                                         </div>
                                     </div>
