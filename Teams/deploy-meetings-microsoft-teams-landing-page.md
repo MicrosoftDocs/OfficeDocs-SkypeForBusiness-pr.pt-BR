@@ -15,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afd7e15f759caafdc76dc2f20777f4d3ab66d672
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: f4cd3af52b98bb80d7424b84be71416dbceb6250
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889765"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013054"
 ---
 # <a name="meetings--conferencing-in-microsoft-teams"></a>Conferências e reuniões no Microsoft Teams
 
@@ -156,7 +156,7 @@ As organizações que têm muitas salas de conferência talvez queiram adotar um
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
-| O que preciso fazer para implementar sistemas de sala de conferência?|Confira os artigos sobre [Sistemas de Salas Skype versão 2](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
+| O que preciso fazer para implementar sistemas de sala de conferência?|Confira os artigos [Planejar Salas do Microsoft Teams salas](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
 |||
 
 ### <a name="cloud-video-interop"></a>Interoperabilidade de vídeo em nuvem
