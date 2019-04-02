@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumo: Saiba como adicionar, remover, patch ou atualizar os servidores Front-End do Skype para Business Server.'
-ms.openlocfilehash: c7ccaee0ee70c10b855053fb63c39cfead148f4e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: bfd090ab007523ff05795aff012e4a01da4a0175
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875219"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026178"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Gerenciar servidores de Front-End em Skype para Business Server
  
@@ -47,6 +47,9 @@ Você pode usar o procedimento a seguir, quando a adição ou remoção de um se
     
     > [!IMPORTANT]
     > Ao adicionar ou remover um servidor do pool em sua topologia e depois publicar a topologia atualizada, todos os servidores no pool serão reiniciados ao mesmo tempo. Durante a reinicialização dos servidores, o pool permanece offline, o que interrompe o serviço para os usuários conectados a esse pool. Para evitar a interrupção do serviço para os usuários, planeje a publicação da topologia com o novo servidor no pool fora do horário comercial. 
+  
+  > [!NOTE]
+> Além disso, quando você adicionar ou remove um servidor ao pool, você deve executar o Skype para o Assistente de implantação de servidor de negócios em cada computador adicionado ou removido, para obter mais informações, consulte [Instalar Skype para Business Server nos servidores na topologia](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
   
 4. Se você tiver alterado o número de servidores em seu pool de Front-End em qualquer uma das seguintes maneiras, redefinir o pool com digitando o seguinte cmdlet: Reset-CsPoolRegistrarState - ResetType FullReset - PoolFqdn 
     

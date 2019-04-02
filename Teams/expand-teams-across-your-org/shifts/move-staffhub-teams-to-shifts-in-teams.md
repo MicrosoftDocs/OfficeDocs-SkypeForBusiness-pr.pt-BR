@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49d8ea5235c490b38c0ef52bf5cf5a9903c4137c
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 2eb6e6616d1164dad462e349a80e7ac36cc5ce1e
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013277"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026209"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover suas equipes da Microsoft StaffHub para mudanças na Teams da Microsoft
 
@@ -128,7 +128,7 @@ Aqui está um exemplo da resposta obtido quando uma movimentação está em anda
 
 ### <a name="raise-awareness"></a>Aumente a conscientização
 
-Quando você está pronto para ir além suas equipes piloto e mover a equipe de StaffHub da sua organização para equipes, é importante se comunicar pela primeira vez a alteração em sua organização. Difundir o word sobre mudanças e a transição para equipes atenção, estimular o interesse e direcionar a adoção.
+Quando você está pronto para ir além suas equipes piloto e mover as equipes de StaffHub da sua organização para equipes, é importante se comunicar pela primeira vez a alteração em sua organização. Difundir o word sobre mudanças e a transição para equipes atenção, estimular o interesse e direcionar a adoção.
 
 ### <a name="move-your-staffhub-teams"></a>Mover suas equipes StaffHub
 

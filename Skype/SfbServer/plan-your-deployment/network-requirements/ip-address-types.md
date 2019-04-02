@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Resumo: Revise as considerações de tipo de endereço IP abaixo antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 82c2cac46efe2513c6506bf57ab5c181c7a32202
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 4ebf8c3329358e526f86dd90eb4cbc0340d06606
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892120"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026053"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configure IP address types in Skype for Business
 
@@ -51,7 +51,7 @@ Usando o construtor de topologias, execute as etapas no procedimento a seguir pa
    - **Endereço IP da PSTN**. Defina um endereço IP da PSTN quando um Servidor de mediação for colocado no Servidor Front-End. Este endereço deve ser compatível com o formato do tipo de endereço selecionado.
 
 > [!NOTE]
-> Não há suporte para a instalação de placas de interface de rede adicionais (NICs) para dar suporte a configuração de endereço IP PSTN nos servidores Front-End. Para obter mais informações sobre configurações de NIC com suporte para Skype para Business Server, consulte [Server hardware platforms do Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+> A instalação de placas de interface de rede adicionais (NICs) para suportar a configuração de endereço IP PSTN (ou por qualquer outro motivo) nos servidores Front-End não é suportada. Para obter mais informações sobre configurações de NIC com suporte para Skype para Business Server, consulte [Server hardware platforms do Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>Implantar tipos de endereço IP no Servidor de Mediação
 

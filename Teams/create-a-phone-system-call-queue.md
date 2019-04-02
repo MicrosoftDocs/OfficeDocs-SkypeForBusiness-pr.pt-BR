@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar o sistema telefônico para filas de chamada de sistema telefônico proporcionar um organizacional saudação, música de espera e redirecionando chamadas para chamar agentes em listas de distribuição e grupos de segurança. Você também pode definir o tamanho máximo da fila, o tempo limite e opções de manipulação de chamada.
-ms.openlocfilehash: a44bd5b00b47655dc950ee01f82ffd0c0a308466
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: be8055dfe1d92caa7e3416740856ab2b6578e799
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012969"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026225"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Criar uma fila de chamada no Sistema Telefônico
 
@@ -209,7 +209,7 @@ Para acessar a opção de recusar, operadores podem fazer o seguinte:
  3. Na página de configurações do usuário, clique em **Chamar filas**e desmarque as caixas de seleção para qualquer filas para o qual deseja rejeitar.
 
     > [!NOTE]
-    > Agentes usando Mac, mobile, ou clientes do Lync 2013 ou usuários de voz híbrida que estão hospedados no local usando Skype para o servidor de negócios 2015, pode ir para [https://aka.ms/cqsettings](https://aka.ms/cqsettings) para acessar o consentimento check-out de opção.
+    > Agentes usando aplicativos ou pontos de extremidade diferente do Skype para Desktop de negócios pode acessar o consentimento check-out de opção do portal de configurações do usuário [https://aka.ms/cqsettings](https://aka.ms/cqsettings).
 
 ![Número 2](media/sfbcallout2.png)
 **configuração de alerta de operador**
@@ -319,6 +319,6 @@ Aqui estão os cmdlets que você precisa para gerenciar uma fila de espera de ch
 
 [Obter números de telefone de serviço](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-[Disponibilidade de audioconferência e planos de chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)

@@ -1,5 +1,5 @@
 ---
-title: Suporte de migração Exchange Unified Messaging Online
+title: Suporte à migração da Unificação de Mensagens do Exchange Online
 ms.author: heidip
 author: heidip
 manager: serdars
@@ -10,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft é retirada de Unificação de mensagens (ExchUMO) serviço do Exchange Online por de 2020 fevereiro. Este artigo resume o que afetaram os clientes devem saber e fazer para planejar seu continuidade de negócios.
-ms.openlocfilehash: 8d09a9a16104420bfbe225aefefab57399f8dec5
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 2622b95e8bae7d5721665c5691c1c76691207e74
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059163"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026241"
 ---
-# <a name="exchange-unified-messaging-online-migration-support"></a>Suporte de migração Exchange Unified Messaging Online  
+# <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online  
 
 Refere-se o [comunicado](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) em 8 de fevereiro de 2019, Microsoft é retirada de Unificação de mensagens (ExchUMO) serviço do Exchange Online por de 2020 fevereiro. Este artigo oferece um resumo das quais clientes afetados deve saber e fazer para planejar seu continuidade de negócios. 
  
@@ -66,7 +66,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 
 3. **Planejar a migração de atendedor automático**
     
-    Admins pode começar a migrar seus atendedores automáticos de ExchUMO para o atendedor automático da nuvem a qualquer momento. Para obter mais detalhes, consulte [Configurar um atendedor automático de sistema telefônico](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md) . Microsoft planos fornecer recursos de atendedor automático adicionais que os clientes considerar essenciais para sua migração por de 2019 março. Os administradores devem avaliar o conjunto de recursos e migrar suas instâncias do atendedor automático de acordo. Para comparação da lista de recursos, consulte a [matriz de recurso de serviços em nuvem ExchUMO e Windows Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Admins pode começar a migrar seus atendedores automáticos de ExchUMO para o atendedor automático da nuvem a qualquer momento. Para obter mais detalhes, consulte [Configurar um atendedor automático de sistema telefônico](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) . Microsoft planos fornecer recursos de atendedor automático adicionais que os clientes considerar essenciais para sua migração por de 2019 março. Os administradores devem avaliar o conjunto de recursos e migrar suas instâncias do atendedor automático de acordo. Para comparação da lista de recursos, consulte a [matriz de recurso de serviços em nuvem ExchUMO e Windows Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Planejar sua validação após a migração de caixa postal e teste**
 
@@ -93,7 +93,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 
 
 
-| Serviço do  | Nível de recurso | Recurso | Notas  | Nuvem VM/AA  | ExUMO |
+| Serviço | Nível de recurso | Recurso | Observações  | Nuvem VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VM  | Recursos do serviço| Suporte a PBX de terceiros 3rd    |  | N   | Y    |
 | VM | Recursos do serviço  | Suporte Skype para Business Server   |  | Q1CY19 | Y    |
@@ -170,7 +170,7 @@ Ao testar a funcionalidade de caixa postal depois que os usuários foram migrado
 
 - Validar o acesso de caixa postal em todos os tipos de ponto de extremidade em sua organização: telefones IP e aplicativos. 
 - Valide com usuários de amostra que o configurado saudações personalizadas são reproduzidas a chamadores.   
-- Se sua organização tiver um requisito legal ou de conformidade para desabilitar a transcrição para usuários, verifique se que ele está desabilitado postar a migração. Para obter mais detalhes, consulte [Configure a caixa postal do sistema telefônico](/microsoftteams/set-up-phone-system-voicemail).
+- Se sua organização tiver um requisito legal ou de conformidade para desabilitar a transcrição para usuários, verifique se que ele está desabilitado postar a migração. Para obter mais detalhes, consulte [Configure a caixa postal de nuvem](/microsoftteams/set-up-phone-system-voicemail).
 - Se você já tiver configurado as regras e políticas de máquina virtual do Exchange, certifique-se de que eles são eficazes.
 - Familiarize-se com os cmdlets do PowerShell do serviço de caixa postal de nuvem para alterar as configurações do usuário.  
 
@@ -193,8 +193,8 @@ A seguir está uma visão geral da experiência do usuário final voicemail migr
 
 #### <a name="user-management-and-provisioning-in-cvm"></a>Gerenciamento de usuário e provisionamento em CVM 
 
-Skype para novos usuários de negócios será provisionada automaticamente para a caixa postal no serviço CVM quando criado. Nenhum trabalho adicional admin ou a licença é necessária para provisionar novos usuários para caixa postal. Consulte [Configure a caixa postal do sistema telefônico](/microsoftteams/set-up-phone-system-voicemail) para saber mais sobre como gerenciar as políticas para usuários novos e existentes.
+Skype para novos usuários de negócios será provisionada automaticamente para a caixa postal no serviço CVM quando criado. Nenhum trabalho adicional admin ou a licença é necessária para provisionar novos usuários para caixa postal. Consulte [Configure a caixa postal de nuvem](/microsoftteams/set-up-phone-system-voicemail) para saber mais sobre como gerenciar as políticas para usuários novos e existentes.
 
 #### <a name="admin-auto-attendant-management-experience"></a>Experiência de gerenciamento de atendedor automático de Admin 
 
-Consulte [Set up um atendedor automático de sistema telefônico](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md) para saber mais sobre como configurar e gerenciar os atendedores automáticos. 
+Consulte [Set up um atendedor automático de sistema telefônico](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) para saber mais sobre como configurar e gerenciar os atendedores automáticos. 

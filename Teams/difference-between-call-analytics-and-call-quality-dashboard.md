@@ -3,8 +3,8 @@ title: Análise de Chamada e Painel de Qualidade de Chamadas
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney, gageames
-ms.topic: article
+ms.reviewer: mikedav, siunies, gageames
+ms.topic: conceptual
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Saiba mais sobre a análise de chamada e painel de controle de qualidade de chamada e quando usá-los para monitorar e solucionar problemas de qualidade da chamada.
-ms.openlocfilehash: 693e17152d3c51ae51efaa0977d5d83b5c5f2297
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 057d74a5c0dcda70119eb16eed3a048b459c087c
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543003"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026217"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análise de Chamada e Painel de Qualidade de Chamadas
 
-Skype para negócios e o Teams da Microsoft oferecem duas maneiras para monitorar e solucionar problemas de qualidade da chamada: análise de chamada e o painel de controle de qualidade de chamada. Este artigo descreve os dois e informa quando usar cada uma delas.
+Skype para negócios e o Teams da Microsoft oferecem duas maneiras para monitorar e solucionar problemas de qualidade da chamada: análise de chamada e o painel de controle de qualidade de chamada (CQD). Este artigo descreve os dois e informa quando usar cada uma delas.
 
 Análise de chamada e CQD executem em paralelo e podem ser usado independentemente ou em conjunto. Por exemplo, diga uma especialista em suporte determina que precisa de mais ajuda solucionar um problema de chamada de comunicações. Especialista de suporte a comunicações passa a chamada para um engenheiro de suporte de comunicações, quem tem acesso mais informações na análise de chamada do que as comunicações especialista de suporte. Por sua vez, o engenheiro de suporte de comunicações alertando engenheiro de rede para um problema. O engenheiro de rede poderia verificar CQD para ver se um problema geral de sites relacionados poderia ser uma Colaborador causa de problemas de chamada.
 
@@ -66,7 +66,7 @@ Para obter detalhes sobre como configurar a análise de chamada, consulte [Confi
   
 ## <a name="whats-the-call-quality-dashboard-and-when-should-i-use-it"></a>Qual é o painel de controle de qualidade de chamada, e quando devo usá-lo?
   
-Onde a autoridade de certificação foi projetada para ajudar os administradores e operadores de assistência técnica a solucionar problemas de qualidade de chamada com chamadas específicos, o painel de qualidade de chamada (CQD) foi projetado para ajudar administradores Teams da Microsoft, Skype para os administradores corporativos, e os engenheiros de rede otimizam uma rede. CQD alterna o foco de usuários específicos e em vez disso, analisa agregam informações de todo um Microsoft Teams ou Skype para organização de negócios. Para obter mais detalhes, consulte [recursos do painel de qualidade de chamada do Skype para negócios Online](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD).
+Enquanto a chamada Analytics foi projetado para ajudar os administradores e operadores de assistência técnica solucionem problemas de qualidade de chamada com chamadas específicos, o painel de qualidade de chamada (CQD) foi projetado para ajudar os administradores de equipes, Skype para os administradores corporativos, e uma rede de otimizar a engenheiros de rede. CQD alterna o foco de usuários específicos e em vez disso, analisa agregam informações de todo um equipes ou Skype para organização de negócios. Para obter mais detalhes, consulte [recursos do painel de qualidade de chamada para equipes e Skype para negócios Online](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD).
   
 Talvez a qualidade de chamadas ruins do usuário é devido a um problema de rede que também está afetando a muitos outros usuários. A experiência de chamada individual não está visível no CQD, mas a qualidade geral de chamadas realizadas usando o Microsoft Teams ou Skype para negócios é capturada. Com o CQD, geral padrões podem ficar aparentes, permitindo que os engenheiros de rede tornar informadas avaliações de qualidade de chamada. CQD fornece relatórios de métricas de qualidade de chamada que lhe dão ideias sobre chamam geral qualidade, fluxos de servidor-cliente, fluxos de cliente e a qualidade de voz [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
   

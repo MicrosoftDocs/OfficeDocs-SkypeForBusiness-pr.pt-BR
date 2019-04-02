@@ -9,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Uma das primeiras etapas necessárias para a migração para Skype para Business Server 2019 é implantar um pool piloto. O pool piloto é onde você testar a coexistência do Skype para Business Server 2019 com sua implantação herdada. Coexistência é um estado temporário que dura até você moveu todos os usuários e os pools para Skype para Business Server 2019.
-ms.openlocfilehash: e0ac949b0cc7a52e1da5edd9f150e5f59717c08f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 26f391a485c991aa3575498b98b181f1b5ac761c
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890652"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026046"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>Implantar o Skype para o pool piloto Business Server 2019
 
@@ -53,6 +53,10 @@ Quando você implanta um pool piloto, você pode usar o assistente Definir Novo 
 10. Para publicar sua topologia, clique com botão direito no nó do **Skype para Business Server** e, em seguida, clique em **Publicar topologia**.
   
 11. Quando o processo de publicação for concluído, clique em **Concluir**.
+
+12. Antes de mover para a próxima seção chamado "Verificar a coexistência do pool piloto com o pool herdado" você precisa instalar o Skype para Business Server novo pool Front-End piloto que definimos apenas na topologia publicada, siga os procedimentos descritos aqui [instalar Skype para Servidor de negócios nos servidores na topologia](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+
+13. Após a conclusão da etapa anterior, move para a próxima seção para verificar a coexistência do pool piloto com o pool herdado.
     
 <!-- To install a local copy of the configuration store and start the required services, see 
 [Setting up Front End Servers and Front End pools for Skype for Business Server 2019](../deployment/deploying-lync-server-2013/setting-up-front-end-servers-and-front-end-pools.md) in the Deployment documentation.  -->

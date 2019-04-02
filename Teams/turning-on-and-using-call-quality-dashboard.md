@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Consulte como ativar e usar o Skype para Business Online chamada qualidade Dashboard e obter relatórios de resumo de qualidade de chamadas. '
-ms.openlocfilehash: 134d0f636719592edca1060d86fbf4fb7c2d9db6
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 38332fdcf8cb2f5e1f26d45b67d85dc17610a42d
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543139"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026233"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativando e usando o painel de controle de qualidade de chamada para Teams da Microsoft e Skype para Business Online
 
@@ -77,7 +77,7 @@ Depois de entrar, uma vez ativado, o CQD começará a coletando e o processament
 > [!NOTE]
 > Pode levar algumas horas para processar dados suficientes para exibir resultados significativos nos relatórios. 
   
-## <a name="features-of-the-call-quality-dashboard-for-skype-for-business-online"></a>Recursos do painel de qualidade de chamada do Skype para negócios Online
+## <a name="features-of-the-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Recursos do painel de qualidade de chamada para equipes da Microsoft e Skype para negócios Online 
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
 Relatórios de resumo de CQD fornecem um subconjunto dos recursos planejados para relatórios detalhados. As diferenças entre as duas edições estão resumidas aqui:
@@ -85,17 +85,17 @@ Relatórios de resumo de CQD fornecem um subconjunto dos recursos planejados par
 |**Recurso**|**Relatórios de resumo**|**Relatórios detalhados**|
 |:-----|:-----|:-----|
 |Métrica de compartilhamento de aplicativo  <br/> |Não  <br/> |Sim  <br/> |
-|Criando o suporte de informações do cliente  <br/> |Sim  <br/> |Sim   <br/> |
+|Criando o suporte de informações do cliente  <br/> |Sim  <br/> |Sim  <br/> |
 |Suporte à análise de detalhamento  <br/> |Não  <br/> |Sim  <br/> |
 |Métricas de confiabilidade de mídia  <br/> |Não  <br/> |Sim  <br/> |
-|Relatórios de caixa  <br/> |Sim  <br/> |Sim   <br/> |
-|Visão geral de relatórios  <br/> |Sim  <br/> |Sim   <br/> |
+|Relatórios de caixa  <br/> |Sim  <br/> |Sim  <br/> |
+|Visão geral de relatórios  <br/> |Sim  <br/> |Sim  <br/> |
 |Conjunto de relatório por usuário  <br/> |Não  <br/> |Sim  <br/> |
 |Relatório definido personalização (Adicionar, excluir, modificar relatórios)  <br/> |Não  <br/> |Sim  <br/> |
 |Métricas de compartilhamento de tela com base em vídeo  <br/> |Não  <br/> |Sim  <br/> |
 |Métricas de vídeo  <br/> |Não  <br/> |Sim  <br/> |
 |Quantidade de dados disponíveis  <br/> |Últimos seis meses  <br/> |Últimos seis meses  <br/> |
-|Dados de Teams da Microsoft  <br/> |Sim  <br/> |Sim   <br/> |
+|Dados de Teams da Microsoft  <br/> |Sim  <br/> |Sim  <br/> |
    
 ### <a name="out-of-the-box-reports"></a>Relatórios de caixa
 
