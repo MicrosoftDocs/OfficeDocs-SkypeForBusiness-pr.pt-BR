@@ -22,7 +22,6 @@
 ## [Práticas recomendadas para organizar equipes no Teams](best-practices-organizing.md)
 ## [Criar uma equipe englobando toda a organização no Teams](create-an-org-wide-team.md)
 ## [Gerenciar políticas de mensagens](messaging-policies-in-teams.md)
-## [Introdução aos modelos do Microsoft Teams](get-started-with-teams-templates.md)
 ## [Modelos do Teams para Assistência médica](healthcare/healthcare-templates.md)
 ## [Modelos do Teams para varejo](get-started-with-retail-teams-templates.md)
 ## [Visão geral da associação dinâmica de equipes](dynamic-memberships.md)
@@ -626,9 +625,40 @@
 ### [Migração e interoperabilidade com o Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistência com o Skype for Business](coexistence-chat-calls-presence.md)
 ### [Experiência e conformidade do cliente do Teams a modos de coexistência](teams-client-experience-and-conformance-to-coexistence-modes.md)
+
 <!-- ============================================================ -->
+
 #       
 #        
+
+<!-- ============================================================ -->
+
+# [Expandir o Teams em sua organização](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
+## [Introdução aos modelos do Teams](get-started-with-teams-templates.md)
+## [Turnos do Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md) 
+### [O Microsoft StaffHub será desativado](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
+### [Recursos dos Firstline Worker em breve estarão disponíveis no Microsoft Teams](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
+### [Mova as suas equipes do Microsoft StaffHub para Turnos no Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
+### [Gerenciar o aplicativo Turnos para sua organização no Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+## [Teams para Serviços de Saúde](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
+### [Introdução aos modelos do Teams para Organizações de Serviços de Saúde](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+## [Teams para a Educação](expand-teams-across-your-org/teams-for-education-landing-page.md)
+### [Início rápido - Administradores do Teams for Education](teams-quick-start-edu.yml)
+### [Recursos do Teams para administradores de Educação](resources-teams-edu.md)
+### [Perguntas frequentes sobre governança do Microsoft Education para administradores](plan-teams-governance-edu.md)
+
+## [Teams para o Varejo](expand-teams-across-your-org/teams-for-retail-landing-page.md)
+### [Introdução aos modelos de varejo do Teams](get-started-with-retail-teams-templates.md)
+
+## [Teams para a Administração Pública](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [Plano para o Microsoft 365 Government - GCC](plan-for-government-gcc.md)
+### [Plano para o Microsoft 365 Government - GCC Alto](plan-for-government-gcc-high.md)
+### [Plano para o Microsoft 365 Government - DoD](plan-for-government-dod.md)
+
+#       
+#        
+
+<!-- ============================================================ -->
 
 # [Treinamento](training-microsoft-teams-landing-page.md)
 ## [Treinamento do Teams com instrutor](instructor-led-training-teams-landing-page.md)
@@ -683,20 +713,6 @@
 #### [Ativando e usando o Painel de Qualidade de Chamadas](turning-on-and-using-call-quality-dashboard.md)
 #### [Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Classificação de fluxo no painel de qualidade da chamada](stream-classification-in-call-quality-dashboard.md)
-
-## Microsoft Teams for Education
-### [Início rápido - Administradores do Teams for Education](teams-quick-start-edu.yml)
-### [Recursos do Teams para administradores de Educação](resources-teams-edu.md)
-### [Perguntas frequentes sobre governança do Microsoft Education para administradores](plan-teams-governance-edu.md)
-
-## Teams para trabalhadores de contato direto
-### [O Microsoft StaffHub será desativado](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
-### [Gerenciar o aplicativo Turnos para sua organização no Teams](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Introdução aos modelos do Teams para varejo](get-started-with-retail-teams-templates.md)
-
-## [Plano para o Microsoft 365 Government - GCC](plan-for-government-gcc.md)
-### [Plano para o Microsoft 365 Government - GCC Alto](plan-for-government-gcc-high.md)
-### [Plano para o Microsoft 365 Government - DoD](plan-for-government-dod.md)
 
 ## [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
 ### [Referência do cmdlet do PowerShell para o Teams](https://docs.microsoft.com/powershell/module/teams)
