@@ -1,5 +1,5 @@
 ---
-title: Configurar a caixa postal de nuvem
+title: Configurar a caixa postal na nuvem
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,19 +21,19 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar a caixa postal de nuvem para seus usuários. '
-ms.openlocfilehash: 8219934b8e95962f0e9ea81f4965ad9e5c55fb34
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: 26594c9d955cb21dc5751491e1857525660bdcae
+ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934768"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31041930"
 ---
-# <a name="set-up-cloud-voicemail"></a>Configurar a caixa postal de nuvem
+# <a name="set-up-cloud-voicemail"></a>Configurar a caixa postal na nuvem
 
 Este artigo destina-se o [administrador do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) que deseje configurar o recurso de caixa postal de nuvem para que todos na empresa.
 
 > [!NOTE]
-> Caixa postal de nuvem oferece suporte a mensagens de caixa postal depositar somente em uma caixa de correio do Exchange e não tem suporte para qualquer sistemas de email de terceiros. Como um mecanismo de fallback, caixa postal de nuvem pode reenviar mensagens usando o SMTP, o que significa que os usuários com uma caixa de correio em um sistema de email de terceiros receberá suas mensagens de caixa postal com nenhum tempo de atividade do serviço garantido ou outros recursos de caixa postal, como alterar suas saudações e outras configurações.
+> Caixa postal de nuvem oferece suporte a mensagens de caixa postal depositar somente em uma caixa de correio do Exchange e não tem suporte para qualquer sistemas de email de terceiros. 
 
 ## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>Ambientes somente em nuvem: configurar a caixa postal de nuvem
 
@@ -43,7 +43,7 @@ Skype para usuários corporativos Online e planos de chamada, caixa postal de nu
     
 2. [Atribuir ou remover licenças para o Office 365 para empresas](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), as [equipes da Microsoft atribuir licenças](assign-teams-licenses.md)e as licenças do Exchange Online para as pessoas na sua empresa. Depois disso, elas poderão receber mensagens de voz!
     
-3. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
+3. Suporte a transcrição do correio de voz foi adicionada a partir de março de 2017 e é habilitado por padrão para todos os usuários e organizações. Você pode desativar a transcrição para sua organização usando o Windows PowerShell e seguindo as etapas abaixo.
 
 ## <a name="phone-system-with-on-premises-environments"></a>Sistema de Telefonia com ambientes locais
 
@@ -53,13 +53,16 @@ As seguintes informações são sobre como configurar a caixa postal de nuvem pa
     
 2. [Atribuir ou remover licenças para o Office 365 para empresas](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), as [equipes da Microsoft atribuir licenças](assign-teams-licenses.md)e as licenças do Exchange Online para as pessoas na sua empresa.
     
-3. Siga as instruções na seção **habilitar usuários para serviços de caixa postal e voz do sistema telefônico** a [Configurar Skype for Business Edition do conector de nuvem guia](https://technet.microsoft.com/library/mt605228.aspx).
+3. Siga as instruções correspondentes PSTN local chamando a solução implantada para seus usuários. Edition do conector de nuvem, siga as instruções na seção **habilitar usuários para serviços de caixa postal e voz do sistema telefônico** a [Configurar Skype for Business Edition do conector de nuvem guia](https://technet.microsoft.com/library/mt605228.aspx). Para chamar com Skype para Business Server PSTN, siga a [habilitar os usuários para o Enterprise Voice no local](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises). Roteamento direto de equipes, siga a seção **Configurar o número de telefone e habilitar enterprise voice e caixa postal** de [Configurar o roteamento direto](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail).
 
-4. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
+4. Suporte a transcrição do correio de voz foi adicionada a partir de março de 2017 e é habilitado por padrão para todos os usuários e organizações. Você pode desativar a transcrição para sua organização usando o Windows PowerShell e seguindo as etapas abaixo.
 
-5. Você também pode ver a [suporte da caixa postal do Azure para o Exchange Server](https://support.microsoft.com/kb/3195158) para aprender a configurar a entrega das mensagens de caixa postal do Azure para usuários do Sistema de Telefonia que possuem caixas de correio locais.
+5. Mensagens de caixa postal são entregues a caixa de correio do Exchange dos usuários por meio do SMTP roteada por meio do Exchange Online Protection. Para habilitar a entrega bem-sucedida dessas mensagens, certifique-se de que os conectores do Exchange estão configurados corretamente entre seus servidores Exchange e o Exchange Online Protection. [Conectores de uso para configurar o fluxo de emails](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
-6. Também leia e siga as etapas descritas no seguinte documento: [Assistente de configuração híbrida](https://docs.microsoft.com/exchange/hybrid-configuration-wizard)
+6. Para ativar os recursos de caixa postal como personalizando saudação, dial-in de acesso e caixa postal visual, é necessária a conectividade do Office 365 para caixa postal do Exchange server por meio de serviços Web do Exchange. Para habilitar essa conectividade, você deve configurar o novo Oauth do Exchange descrevem do protocolo de autenticação em [Configure OAuth authentication entre organizações do Exchange e o Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
+
+> [!NOTE]
+> O Assistente de híbrida do Exchange execução do Exchange 2013 CU5 ou superior lidará com os requisitos nas etapas 5 e 6 automaticamente. 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Configuração de políticas de caixa postal em sua organização
 

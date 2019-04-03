@@ -18,18 +18,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc17bda47861512900be908a6efaf60847377d09
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e3b51b56b8cc8a1f08d756cdab245915a2ac6824
+ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541516"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31041938"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar a pesquisa de diretório no escopo do Microsoft Teams
 
 A pesquisa de diretório com escopo Teams Microsoft permite que as organizações a criar limites virtuais que controlam como os usuários podem localizar e se comunicar com outros usuários em suas organizações. 
 
-Teams Microsoft permite que as organizações fornecem exibições personalizadas do diretório para seus usuários. Microsoft Teams usa [políticas de catálogo de endereços do Exchange](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) para oferecer suporte a esses modos de exibição personalizados. Depois que as diretivas estão habilitadas, os resultados retornados pelo procura por outros usuários (por exemplo, para iniciar um chat ou adicionar membros a uma equipe) terá o escopo de acordo com as diretivas configuradas. Os usuários não poderão pesquisar ou descobrir equipes quando com escopo de pesquisa está em vigor. 
+Teams Microsoft permite que as organizações fornecem exibições personalizadas do diretório para seus usuários. Microsoft Teams usa [políticas de catálogo de endereços do Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) para oferecer suporte a esses modos de exibição personalizados. Depois que as diretivas estão habilitadas, os resultados retornados pelo procura por outros usuários (por exemplo, para iniciar um chat ou adicionar membros a uma equipe) terá o escopo de acordo com as diretivas configuradas. Os usuários não poderão pesquisar ou descobrir equipes quando com escopo de pesquisa está em vigor. 
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>Quando você deve usar as pesquisas de diretório com escopo?
 
@@ -38,14 +38,14 @@ Cenários que se beneficiam de pesquisas de diretório com escopo são semelhant
 - Sua organização tem várias empresas dentro no locatário que você deseja manter separadas. 
 - Sua escola quer limitar os chats entre professores e alunos. 
  
-Você pode aprender mais sobre como as políticas de catálogo de endereços podem ser usadas [aqui](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-scenarios?view=exchserver-2019).
+Para saber como usar políticas de catálogo de endereços, leia o [Catálogo de endereços, diretivas no Exchange Online](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
 
 > [!IMPORTANT]
 > Políticas de catálogo de endereços fornecem apenas uma virtual separação de usuários da perspectiva de diretório. Os usuários ainda podem iniciar a comunicação com outras pessoas, fornecendo endereços de email completo. Também é importante observar que quaisquer dados de usuário que tinham já foram armazenados em cache, antes da aplicação de políticas de catálogo de endereços novos ou atualizados, ficará disponíveis para os usuários por até 30 dias.
 
 ## <a name="enable-scoped-directory-search"></a>Habilitar a pesquisa de diretório com escopo
 
-1.  Use políticas de catálogo de endereços para configurar sua organização em subgrupos virtuais. Para obter mais informações, consulte [procedimentos para políticas de catálogo de endereços](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-procedures?view=exchserver-2019).
+1.  Use políticas de catálogo de endereços para configurar sua organização em subgrupos virtuais. Para obter mais informações, consulte [procedimentos para políticas de catálogo de endereços](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
 
 2.  Entrar no Centro de administração do Microsoft 365, selecione **centrais de Admin**e selecione **equipes & Skype**.
  

@@ -2,6 +2,7 @@
 title: Visão geral de equipes e canais no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
+ms.reviewer: ''
 manager: serdars
 ms.date: 11/02/2018
 ms.topic: conceptual
@@ -17,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8677354bf6a8e500e1ee138fef65327711e74105
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8ea532f31bff01ba31e22f9253db157a9466a733
+ms.sourcegitcommit: 27621c3ba369d2a54b092a3fa007e22c8a5030ef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647437"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31038560"
 ---
 > [!NOTE]
 > Revise as seguintes informações para entender o bate-papo, equipes, canais, apps & em equipes. Em seguida, vá para [implantar chat, equipes, canais, apps & em equipes](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para percorrer a uma lista de decisões importantes para a distribuição de equipes.
@@ -97,4 +98,4 @@ O Microsoft Teams é ótimo para quebrar os silos organizacionais e promover equ
 
 ## <a name="org-wide-teams"></a>Equipes de toda a organização
 
-Se sua organização tiver não mais de 1.000 usuários, você pode criar uma equipe de toda a organização. As equipes de toda a organização fornecem uma maneira automática para todas as pessoas em uma organização de uma parte de uma única equipe para colaboração. Para obter mais informações, incluindo práticas recomendadas para criar e gerenciar uma equipe de toda a organização, consulte [criar uma equipe de toda a organização em equipes da Microsoft](create-an-org-wide-team.md).
+Se sua organização tiver usuários não ultrapassa 2.500, você pode criar uma equipe de toda a organização. As equipes de toda a organização fornecem uma maneira automática para todas as pessoas em uma organização de uma parte de uma única equipe para colaboração. Para obter mais informações, incluindo práticas recomendadas para criar e gerenciar uma equipe de toda a organização, consulte [criar uma equipe de toda a organização em equipes da Microsoft](create-an-org-wide-team.md).
