@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9abe6e17a4c11dd2e1943643c7030eadd5bd0ba
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
+ms.openlocfilehash: e3dc7e1797c1e5c1551abad40cf6598f11e01ada
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771730"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026099"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -108,7 +108,8 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Suporte para o cliente web do Safari  <br/> |Os usuários que tentam abrir o cliente Microsoft Teams no Safari são direcionados para baixar o cliente desktop. A Microsoft está examinando o suporte do Safari e compartilhará as atualizações por meio do [Roteiro do Microsoft Teams](https://aka.ms/TeamsRoadmap).  <br/> |Use navegadores da Internet com suporte: Internet Explorer 11+, Microsoft Edge 12+, Chrome 51.0+ e Firefox 47.0+.  <br/> |02/11/2016  <br/> |
+|Suporte para o cliente web do Safari  <br/> | O Teams agora está disponível para visualização no Safari 11.1+ no macOS. Durante a visualização, os usuários podem encontrar problemas relacionados à Prevenção Inteligente de Rastreamento do Safari [Problemas Conhecidos do Safari](https://go.microsoft.com/fwlink/?linkid=2062082).  <br/> | Enquanto o suporte ao navegador Safari estiver em visualização, vá para **Preferências> Privacidade**  e desmarque a configuração  **Impedir acompanhamento intersite**  . Em seguida, feche o navegador e volte para teams.microsoft.com no Safari. <br/> |02/11/2016  <br/> |
+
 
 ## <a name="channels"></a>Canais
 
