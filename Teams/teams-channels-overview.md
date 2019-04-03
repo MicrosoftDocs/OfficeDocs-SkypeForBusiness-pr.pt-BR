@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ea532f31bff01ba31e22f9253db157a9466a733
-ms.sourcegitcommit: 27621c3ba369d2a54b092a3fa007e22c8a5030ef
+ms.openlocfilehash: 415f4d94cf64de76ed3d7b4a7243d419d092999c
+ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31038560"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "31043361"
 ---
 > [!NOTE]
 > Revise as seguintes informações para entender o bate-papo, equipes, canais, apps & em equipes. Em seguida, vá para [implantar chat, equipes, canais, apps & em equipes](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para percorrer a uma lista de decisões importantes para a distribuição de equipes.
@@ -98,4 +98,4 @@ O Microsoft Teams é ótimo para quebrar os silos organizacionais e promover equ
 
 ## <a name="org-wide-teams"></a>Equipes de toda a organização
 
-Se sua organização tiver usuários não ultrapassa 2.500, você pode criar uma equipe de toda a organização. As equipes de toda a organização fornecem uma maneira automática para todas as pessoas em uma organização de uma parte de uma única equipe para colaboração. Para obter mais informações, incluindo práticas recomendadas para criar e gerenciar uma equipe de toda a organização, consulte [criar uma equipe de toda a organização em equipes da Microsoft](create-an-org-wide-team.md).
+Se sua organização tiver não mais de 5.000 usuários, você pode criar uma equipe de toda a organização. As equipes de toda a organização fornecem uma maneira automática para todas as pessoas em uma organização de uma parte de uma única equipe para colaboração. Para obter mais informações, incluindo práticas recomendadas para criar e gerenciar uma equipe de toda a organização, consulte [criar uma equipe de toda a organização em equipes da Microsoft](create-an-org-wide-team.md).
