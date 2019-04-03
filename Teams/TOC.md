@@ -22,8 +22,6 @@
 ## [Práticas recomendadas para organizar equipes no Teams](best-practices-organizing.md)
 ## [Criar uma equipe englobando toda a organização no Teams](create-an-org-wide-team.md)
 ## [Gerenciar políticas de mensagens](messaging-policies-in-teams.md)
-## [Modelos do Teams para Assistência médica](healthcare/healthcare-templates.md)
-## [Modelos do Teams para varejo](get-started-with-retail-teams-templates.md)
 ## [Visão geral da associação dinâmica de equipes](dynamic-memberships.md)
 ## [Presença](presence-admins.md)
 ## [Comunicar-se com os usuários do Teams em outras organizações](let-your-teams-users-communicate-with-other-people.md)
@@ -592,6 +590,7 @@
 #       
 #        
 
+
 <!-- ============================================================ -->
 # [Atualizar para o Teams](upgrade-introduction.md)
 ## [Introdução](upgrade-start-here.md)
@@ -627,21 +626,22 @@
 ### [Experiência e conformidade do cliente do Teams a modos de coexistência](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
 <!-- ============================================================ -->
+# 
+# 
 
-#       
-#        
-
-<!-- ============================================================ -->
-
-# [Expandir o Teams em sua organização](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
+# [Expandir o Teams em sua organização](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [Introdução aos modelos do Teams](get-started-with-teams-templates.md)
-## [Turnos do Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md) 
+## [Turnos do Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [O Microsoft StaffHub será desativado](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Recursos dos Firstline Worker em breve estarão disponíveis no Microsoft Teams](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
 ### [Mova as suas equipes do Microsoft StaffHub para Turnos no Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Gerenciar o aplicativo Turnos para sua organização no Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Gerencie o aplicativo Turnos para sua organização no Microsoft Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+
 ## [Teams para Serviços de Saúde](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
-### [Introdução aos modelos do Teams para Organizações de Serviços de Saúde](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### [Introdução ao Teams para Organizações de Saúde](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [Introdução aos modelos do Teams para Organizações de Saúde](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### [Introdução às Mensagens Seguras para Organizações de Saúde](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+
 ## [Teams para a Educação](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Início rápido - Administradores do Teams for Education](teams-quick-start-edu.yml)
 ### [Recursos do Teams para administradores de Educação](resources-teams-edu.md)
@@ -655,8 +655,10 @@
 ### [Plano para o Microsoft 365 Government - GCC Alto](plan-for-government-gcc-high.md)
 ### [Plano para o Microsoft 365 Government - DoD](plan-for-government-dod.md)
 
-#       
-#        
+<!-- ============================================================ -->
+
+# 
+# 
 
 <!-- ============================================================ -->
 
@@ -665,6 +667,7 @@
 ## [Treinamento para o administrador do Teams](itadmin-readiness.md)
 ## [Treinamento para o usuário final do Teams](enduser-training.md)
 <!-- ============================================================ -->
+
 
 # Referência
 
