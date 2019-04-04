@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Oferece aos profissionais de TI informações sobre as atualizações mais recentes de versões perpétuas dos clientes do Skype for Business 2016, do Skype for Business 2015 e do Lync 2013
-ms.openlocfilehash: 2c430b28cb16c5d3d06b0cf5fff02278ccd498fd
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 8b82923625b8ce686a5898a3d271734aeb8e4ab0
+ms.sourcegitcommit: 4175b376cb8b406dcb3c338dcddf9f01c15eca5e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408303"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "31398369"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Atualizações mais recentes das versões do Skype for Business que usam o Windows Installer (MSI)
 
 Use os links desta página para obter mais informações e baixar as atualizações mais recentes das versões perpétuas dos clientes do Skype for Business 2016, do Skype for Business 2015 e do Lync 2013.
 
 > [!NOTE]
-> - As informações deste artigo se aplicam somente às versões perpétuas do Skype for Business que usam a tecnologia de instalação do Windows Installer (MSI). Por exemplo, se você tiver instalado uma versão licenciada por volume do Skype for Business, como o Skype for Business incluído no Office Professional Plus 2016.
+> - The information in this article only applies to perpetual versions of Skype for Business that use the Windows Installer (MSI) installation technology. For example, if you installed a volume licensed version of Skype for Business, such as Skype for Business included with Office Professional Plus 2016.
 > - As informações deste artigo não se aplicam às versões do Skype for Business do Office 365, como o Skype for Business incluído no Office 365 ProPlus.
 > - Para obter as atualizações mais recentes do cliente móvel, vá para a loja de aplicativos de seu cliente móvel (iTunes, Google Play ou Microsoft Store) para ver os detalhes e instalar as atualizações.
 > - Para descobrir a versão do Skype for Business que você está usando, consulte [Que versão do Skype for Business eu tenho?](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
@@ -30,7 +30,7 @@ Use os links desta página para obter mais informações e baixar as atualizaç�
 
 A compatibilidade do Skype for Business com o Office 365 e seu ambiente local depende dos requisitos do sistema para a sua implantação:
 
-- O Office 365 funciona com qualquer versão do Skype for Business que esteja em suporte base, incluindo a versão mais recente do Skype for Business 2016. Para versões anteriores do Skype for Business, somente aqueles que têm suporte estendido podem continuar a trabalhar com o Office 365, embora com funcionalidade reduzida. Para obter mais informações, consulte [Política de Ciclo de Vida da Microsoft](https://support.microsoft.com/lifecycle).
+- Office 365 works with any version of Skype for Business that is in mainstream support, which includes the latest version of Skype for Business 2016. For previous versions of Skype for Business, only those that have extended support may continue to work with Office 365, although with reduced functionality. For more information, see [Microsoft Lifecycle Policy](https://support.microsoft.com/lifecycle).
 
 - Para implantações locais do Skype for Business Server, siga os requisitos do sistema da sua versão do Skype for Business:
 
@@ -42,6 +42,9 @@ A compatibilidade do Skype for Business com o Office 365 e seu ambiente local de
 
 |Número do pacote|Número KB|Data do lançamento|
 |:---  |:---  |:---  |
+|Atualização do Skype for Business 2016 |[KB 4462234](https://support.microsoft.com/kb/4462234/) | Abril de 2019|
+|Atualização do Skype for Business 2016 |[KB 4462190](https://support.microsoft.com/kb/4462190/) | Março de 2019|
+|Atualização do Skype for Business 2016 |[KB 4462114](https://support.microsoft.com/kb/4462114/) | Fevereiro de 2019|
 |Atualização do Skype for Business 2016 |[KB 4461586](https://support.microsoft.com/kb/4461586/) | Janeiro de 2019|
 |Atualização do Skype for Business 2016 |[KB 4461545](https://support.microsoft.com/kb/4461545/) | Dezembro de 2018|
 |Atualização de segurança do Skype for Business 2016 |[KB 4461473](https://support.microsoft.com/kb/4461473/) | Novembro de 2018|
@@ -84,6 +87,7 @@ A compatibilidade do Skype for Business com o Office 365 e seu ambiente local de
 
 |Número do pacote|Número KB|Data do lançamento|
 |:--- |:--- |:--- |
+|Atualização do Skype for Business 2015/Lync 2013 |[KB 4462207](https://support.microsoft.com/kb/4462207/)| Abril de 2019 |
 |Atualização do Skype for Business 2015/Lync 2013 |[KB 4461557](https://support.microsoft.com/kb/4461557/)| Janeiro de 2019 |
 |Atualização de segurança do Skype for Business 2015/Lync 2013 |[KB 4461487](https://support.microsoft.com/kb/4461487/)| Novembro de 2018 |
 |Atualização do Skype for Business 2015/Lync 2013 |[KB 4461446](https://support.microsoft.com/kb/4461446/)| Outubro de 2018 |
@@ -133,10 +137,7 @@ A compatibilidade do Skype for Business com o Office 365 e seu ambiente local de
 
 ### <a name="skype-for-business-on-mac-client-updates"></a>Atualizações para o cliente Mac do Skype for Business
 
-|Número do pacote|Data do lançamento|
-|:--- |:--- |
-|[Atualização do Skype for Business no Mac](https://www.microsoft.com/en-us/download/details.aspx?id=54108) | Junho de 2018 |
-|[Notas da versão atual do Skype for Business para Mac](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac) | Junho de 2018 |
+[Notas da versão atual do Skype for Business para Mac](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac)
 
 * * *
 
@@ -144,6 +145,7 @@ A compatibilidade do Skype for Business com o Office 365 e seu ambiente local de
 
 Número do pacote|Número KB|Data do lançamento|
 |:--- |:--- |:--- |
+|Atualização do Skype for Business 2015/Lync 2013 |[KB 4462207](https://support.microsoft.com/kb/4462207/)| Abril de 2019 |
 |Atualização do Skype for Business 2015/Lync 2013 |[KB 4461557](https://support.microsoft.com/kb/4461557/)| Janeiro de 2019 |
 |Atualização de segurança do Skype for Business 2015/Lync 2013 |[KB 4461487](https://support.microsoft.com/kb/4461487/)| Novembro de 2018 |
 |Atualização do Skype for Business 2015/Lync 2013 |[KB 4461446](https://support.microsoft.com/kb/4461446/)| Outubro de 2018 |
