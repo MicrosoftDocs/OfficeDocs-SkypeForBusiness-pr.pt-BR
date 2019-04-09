@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d92e30617fb62000cd4b10dac29ec23eee1feaa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: cf48da12ddd1088c499f9d0703dc229d5b5df605
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882958"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516787"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparo da rede da sua organização para o Microsoft Teams
 
@@ -66,9 +66,6 @@ Para testar os dois segmentos de rede, você pode usar a [Ferramenta de avaliaç
 
 ## <a name="bandwidth-requirements"></a>Requisitos de largura de banda
 Teams da Microsoft oferece a melhor conteúdo de áudio, vídeo e compartilhamento experiência independentemente condições da sua rede. Com a variáveis codecs, mídia pode ser negociada em ambientes de largura de banda limitada com um impacto mínimo. Mas onde a largura de banda não for uma preocupação, experiências podem ser otimizadas por qualidade, incluindo backup resolução de vídeo 1080p, até 30fps para vídeo e 15fps para conteúdo e áudio de alta fidelidade.
-
-Este artigo descreve uma versão concisa de como a largura de banda é utilizada por áudio de tempo real do Microsoft Teams, vídeo e compartilhamento modalidades em vários casos de uso. As equipes é sempre conservadoras na utilização de largura de banda e pode fornecer a qualidade de vídeo HD em 1.2Mbps.  O consumo de largura de banda real em cada chamada de áudio/vídeo ou reunião irá variar, com base em vários fatores, como vídeo layout, resolução de vídeo e vídeos quadros por segundo. Quando houver mais largura de banda qualidade e uso aumentará para oferecer a melhor experiência.
-
 
 [!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
 

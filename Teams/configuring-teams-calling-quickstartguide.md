@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cd8f5a2d0402418bb2a8c0e5a2c20bc95aeef68
-ms.sourcegitcommit: 2dd1369e5112b0c4ed7c6b0be8a17489b71f494a
+ms.openlocfilehash: 980bb0ad6602cc25df5743f1932fbc76092e7842
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30469742"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516819"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guia de Início Rápido: como configurar Planos de Chamadas no Microsoft Teams
 ==============================================================
@@ -37,22 +37,22 @@ Com a inclusão dos Planos de Chamadas, um recurso do Office 365 acionado pelo S
 
 ![Fazendo chamadas no Microsoft Teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Pré-requisitos para habilitar a guia **Chamadas** no Microsoft Teams
-Para habilitar a guia **chamadas** em equipes os usuários precisam ter o 1:1 chamando ativados nas equipes e usando um cliente de equipes que ofereça suporte a chamada de equipes de 1:1. Para saber como gerenciar 1:1 chamando em equipes, leia [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Para saber quais clientes suportam a chamada, leia [limites e as especificações para equipes da Microsoft](https://docs.microsoft.com/en-us/microsoftteams/limits-specifications-teams).
+Para habilitar a guia **chamadas** em equipes os usuários precisam ter o 1:1 chamando ativados nas equipes e usando um cliente de equipes que ofereça suporte a chamada de equipes de 1:1. Para saber como gerenciar 1:1 chamando em equipes, leia [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Para saber quais clientes suportam a chamada, leia [limites e as especificações para equipes da Microsoft](https://docs.microsoft.com/microsoftteams/limits-specifications-teams).
 
 > [!NOTE]
 > Atualmente, caixa postal não estarão disponível na guia chamadas, a menos que o usuário está habilitado para chamadas PSTN. 
 
 ## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Pré-requisitos para habilitar o **Teclado de discagem** em equipes
-Para habilitar a guia **Teclado de discagem** em equipes e permitir que os usuários façam e recebam chamadas PSTN, você precisará provisionar usuários para o sistema telefônico e planos de chamada. Para saber como configurar planos de chamada, leia [Configurar planos de chamada](https://docs.microsoft.com/en-us/microsoftteams/set-up-calling-plans).
+Para habilitar a guia **Teclado de discagem** em equipes e permitir que os usuários façam e recebam chamadas PSTN, você precisará provisionar usuários para o sistema telefônico e planos de chamada. Para saber como configurar planos de chamada, leia [Configurar planos de chamada](https://docs.microsoft.com/microsoftteams/set-up-calling-plans).
 
 > [!NOTE]
-> Você também pode usar o roteamento direto para permitir que os usuários Obrigat e receber chamadas PSTN. Para saber como configurar o roteamento direto, leia a [Configurar o roteamento direto](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure).
+> Você também pode usar o roteamento direto para permitir que os usuários façam e recebam chamadas PSTN. Para saber como configurar o roteamento direto, leia a [Configurar o roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-configure).
 
 ## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>Usando TeamsUpgradePolicy para controlar onde chamadas land
 Para controlar se as chamadas de entrada (e bate-papos) land em equipes ou Skype para os negócios, os administradores usam TeamsUpgradePolicy, usando o [Centro de administração de equipes da Microsoft](https://aka.ms/teamsadmincenter) ou usando uma sessão remota do Windows PowerShell com o [Skype para negócios](https://docs.microsoft.com/powershell/module/skype) cmdlets.
 
 
-A configuração padrão do TeamsUpgradePolicy é o modo de ilhas, que foi projetado para garantir que os fluxos de trabalho não são interrompidos durante uma implantação de equipes de negócios existentes. Por padrão, as chamadas VoIP, PSTN e federadas para seus usuários continuarão sendo encaminhadas para o Skype for Business até que você atualize a política para habilitar as chamadas de entrada para o Microsoft Teams.  Quando os destinatários estão no modo de ilhas:
+A configuração padrão do TeamsUpgradePolicy é o modo de ilhas, que foi projetado para garantir que os fluxos de trabalho não são interrompidos durante uma implantação de equipes de negócios existentes. Por padrão, a VoIP, PSTN e chamadas federadas para seus usuários continuarão a ser roteadas para Skype para negócios até que você atualiza a política para permitir que as chamadas de entrada para equipes.  Quando os destinatários estão no modo de ilhas:
 
  - Entrada VOIP chama esse Skype originado na for Business sempre land no Skype do destinatário para o cliente de negócios.
  - Entrada VOIP chama originados no land equipes em equipes, *se o remetente e o receptor estiverem no mesmo inquilino*.
@@ -71,12 +71,12 @@ Para garantir que os usuários recebem todas as chamadas recebidas de VOIP e PST
     Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
 
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 [Configurar Planos de Chamadas](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
 [Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-[Sistema de Telefonia com Planos de Chamadas](calling-plan-landing-page.md)
+[Sistema telefônico com a chamada de planos](calling-plan-landing-page.md)
 
-[Referência de cmdlets do PowerShell para o Skype for Business](https://docs.microsoft.com/powershell/module/skype)
+[Skype para referência de cmdlet do PowerShell de negócios](https://docs.microsoft.com/powershell/module/skype)
 

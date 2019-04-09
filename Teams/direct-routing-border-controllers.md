@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Parceiros da Microsoft com fornecedores SBC selecionados para certificar a seus SBCs funcionam com o roteamento direto.
-ms.openlocfilehash: ec9c3b152858e9e1968340d20d20996bf3dfbfb0
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: ed394326f56c9647036d2b4785dcf04b59caeba6
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664720"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517123"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -65,3 +65,5 @@ A tabela abaixo lista os dispositivos de certificados para o roteamento direto.
 |                                                                                                                   |      AP 6350           |    & #10004;   |   Pendente    |     ECZ8.1m1p6  |                                             
 |                                                                                                                    |      VME           |    & #10004;    |   Pendente    |     ECZ8.1m1p6   |
 |                     [SISTEMAS DE TE](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     & #10004;   |  & #10004;   |      V3.16.2      |
+
+Para envie seus comentários sobre o produto sobre equipes, como ideias para novos recursos, visite [Uservoice](https://microsoftteams.uservoice.com)

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Resumo: Revise o suporte de recurso para o cliente móvel durante o planejamento de Skype para Business Server.'
-ms.openlocfilehash: f04d0162113db68e2507930e827904110b69066f
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 6d43d5dbadbc11abaabde8858c75273a0190b324
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965745"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520159"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparação de recursos do cliente móvel para Skype para negócios
  
@@ -62,7 +62,7 @@ As tabelas a seguir listam os recursos que estão disponíveis para Skype para u
 ## <a name="sign-in-push-notifications-and-general-features"></a>Conexão, notificações por push e recursos gerais
 
  
- | Recurso/capacidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
+ | Recurso/funcionalidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Skype para sessão de negócios permanece conectada no  <br/> |& #x 2714;|& #x 2714; & #x 2776; |& #x 2714; & #x 2776; |& #x 2714;|
 |Suporte para notificações de push  <br/> |& #x 2714; & #x 2778; |& #x 2714;|& #x 2714;|& #x 2714;|
@@ -86,7 +86,7 @@ Em dispositivos iOS, Skype para negócios desconecta-se automaticamente depois q
 ## <a name="enhanced-presence-support"></a>Suporte para presença avançada
 
 
- | Recurso/capacidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
+ | Recurso/funcionalidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Publicar e exibir status  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Exibir status com base nas informações de disponibilidade de calendário  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
@@ -165,7 +165,7 @@ Em dispositivos iOS, Skype para negócios desconecta-se automaticamente depois q
 |Acessar lista de participação da reunião detalhada para conferências de IM  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Compartilhar área de trabalho ou programa  <br/> |& #x 2714;||||
 |Exibir a área de trabalho compartilhada ou programa (VbSS ou RDP)  <br/> |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |
-|Exibir arquivos compartilhados do PowerPoint  <br/> |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |
+|Exibir arquivos compartilhados do PowerPoint  <br/> |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714; & #x 2777; & #x 2778; |& #x 2714; & #x 2777; & #x 2778;|
 |Carregar e apresentar arquivos do PowerPoint  <br/> |& #x 2714;||& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |
 |Usar ferramentas de reunião (usar quadro de comunicações, conduzir votações, compartilhar arquivos)  <br/> |& #x 2714;||||
 |Navegar por uma lista de suas reuniões  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
@@ -176,11 +176,13 @@ Em dispositivos iOS, Skype para negócios desconecta-se automaticamente depois q
  & #x 2776;  Para usuários do Office 365, esse recurso exige Enterprise Voice, o que faz parte da licença E5.
   
  & #x 2777;  Requer uma conexão WiFi por padrão.
+ 
+ & #x 2778;  Exibindo vídeo incorporado em apresentações do PowerPoint não é suportado.
   
 ## <a name="telephony-support"></a>Suporte a telefonia
 
 
- | Recurso/capacidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
+ | Recurso/funcionalidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |No Skype para os negócios, toque no ícone de chamada para chamar um contato  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Transferir uma chamada  <br/> |& #x 2714;|& #x 2714;|& #x 2714;||
@@ -211,14 +213,14 @@ Em dispositivos iOS, Skype para negócios desconecta-se automaticamente depois q
 |Iniciar IM com um contato federado  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Conduzir chamadas de duas partes com usuários externos  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Conduzir chamadas de várias partes com usuários externos  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|Usar chamada via trabalho para alcançar um contato federado em seu telefone móvel chamando o seu número comercial publicado & #x 2776;            <br/> ||& #x 2714;|& #x 2714;|& #x 2714;|
+|Usar chamada via trabalho para alcançar um contato federado em seu telefone móvel chamando seus & de número de trabalho publicado #x 2776;            <br/> ||& #x 2714;|& #x 2714;|& #x 2714;|
    
  & #x 2776;  Por padrão, os usuários federados são atribuídos a relação de privacidade contatos externos. Para que seja possível chamar um contato federado em seu telefone celular ligando para seu número comercial publicado, o contato federado deve atribuir manualmente a você a relação de privacidade Colegas.
   
 ## <a name="address-book-integration"></a>Integração do catálogo de endereços
 
 
- | Recurso/capacidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
+ | Recurso/funcionalidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Ligar para contatos do catálogo de endereços do dispositivo  <br/> ||& #x 2714;|& #x 2714;|& #x 2714;|
 |Tornar Skype para chamadas de negócios para os contatos diretamente do catálogo de endereços do dispositivo  <br/> ||||& #x 2714;|

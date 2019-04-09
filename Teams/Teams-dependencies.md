@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87b0e6bf1f920ea4eaab4a4ed2bfb3f314b60601
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: 4e1c81d0c93505e98bdc2159d2fad7464c7c3aeb
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026060"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516827"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar acesso de convidados no Microsoft Teams
 ===========================================
@@ -45,6 +45,8 @@ O próximo diagrama mostra, em um alto nível, como a experiência do usuário f
 ![Diagrama de fluxos de convite e resgate](media/authorize-guest-image1.png)
 
 É importante observar aqui que conectores, bots e aplicativos podem exigir seu próprio conjunto de permissões e/ou concorda específicos à conta de usuário. Essas talvez precisem ser concedidas separadamente. Da mesma forma, o SharePoint pode impor limites compartilhamento extra externos para um usuário específico, grupos de usuários ou até mesmo no nível do site.
+
+Os dois diagramas anteriores também estão disponíveis no [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/media/teams_dependencies.vsdx?raw=true).
 
 ## <a name="control-guest-access-in-azure-active-directory"></a>Controlar o acesso de convidado no Windows Azure Active Directory
 

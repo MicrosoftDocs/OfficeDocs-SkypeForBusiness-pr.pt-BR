@@ -19,16 +19,16 @@ search.appverid: MET150
 description: Saiba mais sobre as políticas de permissão do aplicativo no Microsoft Teams e como usá-los para controlar quais aplicativos estão disponíveis para usuários em sua organização.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: e88493e5ecb764f207ee0eebd9a46e68db3671cd
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: 49200d597811d87ce27d94d9bb19577def6355c1
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747682"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520220"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gerenciar políticas de permissões de aplicativo no Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
 
 Como um administrador, você pode usar políticas de permissão de aplicativo para controlar quais aplicativos estão disponíveis para usuários do Microsoft Teams em sua organização. Você pode permitir ou bloquear todos os aplicativos ou aplicativos específicos publicados pela Microsoft, terceiros e sua organização. Quando você bloqueia um aplicativo, os usuários não conseguem instalá-lo do repositório de app equipes.
 
@@ -178,5 +178,5 @@ Por exemplo, quando um aplicativo for bloqueado, os usuários não podem fazer q
 
  ## <a name="related-topics"></a>Tópicos relacionados
 - [Configurações de administração para aplicativos no Teams](admin-settings.md)
-- [Gerenciar políticas de configuração de aplicativo em equipes](teams-app-setup-policies.md)
-- [Gerenciar políticas de aplicativo personalizado e configurações no equipes](teams-custom-app-policies-and-settings.md)
+- [Gerenciar políticas de configuração de aplicativo no Teams](teams-app-setup-policies.md)
+- [Gerenciar políticas de aplicativo personalizado e as configurações no Teams](teams-custom-app-policies-and-settings.md)

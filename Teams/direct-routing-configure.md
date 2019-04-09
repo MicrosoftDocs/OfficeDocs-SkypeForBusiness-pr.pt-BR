@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Saiba como configurar o roteamento direto do Microsoft Phone System.
-ms.openlocfilehash: 20bd29bdd2ba83050bd83513f513732ce646cbbe
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a26972e16758a00e2afc5d39029cfb1504b974c4
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883563"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517259"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -479,7 +479,7 @@ As etapas para criar o uso da PSTN "Internacional", "Internacional", da rota de 
    OnlinePstnUsages          : {International} 
    OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
    Name                            : International
-   SupressCallerId           :
+   SuppressCallerId          :
    AlternateCallerId         :
    </pre>
 3. Em seguida, crie uma política de roteamento de voz "Sem restrições". O uso de PSTN "Redmond 1" e "Redmond" são reutilizadas nesta política de roteamento de voz para preservar a ação especial para chamadas de número "+1 425 XXX XX XX" e "+1 206 XXX XX XX" como local ou no local.

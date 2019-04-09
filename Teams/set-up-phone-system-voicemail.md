@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar a caixa postal de nuvem para seus usuários. '
-ms.openlocfilehash: 26594c9d955cb21dc5751491e1857525660bdcae
-ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
+ms.openlocfilehash: 3f8729c9737bcbf0e7731ac61b38d56d708e15dc
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31041930"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517148"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar a caixa postal na nuvem
 
@@ -59,7 +59,7 @@ As seguintes informações são sobre como configurar a caixa postal de nuvem pa
 
 5. Mensagens de caixa postal são entregues a caixa de correio do Exchange dos usuários por meio do SMTP roteada por meio do Exchange Online Protection. Para habilitar a entrega bem-sucedida dessas mensagens, certifique-se de que os conectores do Exchange estão configurados corretamente entre seus servidores Exchange e o Exchange Online Protection. [Conectores de uso para configurar o fluxo de emails](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
-6. Para ativar os recursos de caixa postal como personalizando saudação, dial-in de acesso e caixa postal visual, é necessária a conectividade do Office 365 para caixa postal do Exchange server por meio de serviços Web do Exchange. Para habilitar essa conectividade, você deve configurar o novo Oauth do Exchange descrevem do protocolo de autenticação em [Configure OAuth authentication entre organizações do Exchange e o Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
+6. Para habilitar os recursos de caixa postal como personalizando saudações e caixa postal visual no Skype para clientes corporativos, é necessária a conectividade do Office 365 para caixa postal do Exchange server por meio de serviços Web do Exchange. Para habilitar essa conectividade, você deve configurar o novo Oauth do Exchange descrevem do protocolo de autenticação em [Configure OAuth authentication entre organizações do Exchange e o Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
 
 > [!NOTE]
 > O Assistente de híbrida do Exchange execução do Exchange 2013 CU5 ou superior lidará com os requisitos nas etapas 5 e 6 automaticamente. 
@@ -127,6 +127,8 @@ Temos informações de treinamento e artigos para ajudar seus usuários a obter 
 ## <a name="related-topics"></a>Tópicos relacionados
 [Instalar o Skype for Business Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
-[Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
+[Veja aqui o que você obtém com o Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
+
+[Plano de migração para o Skype for Business Server e Exchange Server](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-um-migration)
 
 

@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Saiba quais são os atendedores automáticos de sistema telefônico e como usá-los.
-ms.openlocfilehash: 03eec73f8274ab9b5cbe67624b0ef1158d548a4a
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 1f5d54308836f0677db26e63003ab04c60ef395a
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31003863"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517251"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>Cite atendedores automáticos de sistema telefônico.
 
@@ -76,7 +76,7 @@ Para começar a usar os atendedores automáticos, é importante lembrar-se de qu
 
 ### <a name="dial-by-name"></a>Discar por Nome
 
-Discagem pelo nome, é um recurso de um atendedor automático que também é conhecida como a pesquisa de diretório. Ele permite que as pessoas que chamar o atendedor automático para usar voz (reconhecimento de fala) ou suas respostas de teclado (DTMF) do telefone para inserir um nome completo ou parcial para pesquisar o diretório da empresa, localizar a pessoa e, em seguida, tem transferir a chamada para eles. Usuários que deverão ter localizado e alcançado utilizando discagem por nome **não é necessário ter um número de telefone ou chamar planos atribuiu a eles, mas eles devem ter uma licença de sistema telefônico**. Discagem por nome ainda poderão localizar e transferir chamadas para usuários hospedados em diferentes países ou regiões para organizações multinacionais Teams da Microsoft.
+Discagem pelo nome, é um recurso de um atendedor automático que também é conhecida como a pesquisa de diretório. Ele permite que as pessoas que chamar o atendedor automático para usar voz (reconhecimento de fala) ou suas respostas de teclado (DTMF) do telefone para inserir um nome completo ou parcial para pesquisar o diretório da empresa, localizar a pessoa e, em seguida, tem transferir a chamada para eles. Usuários que deverão ter localizado e alcançado utilizando discagem por nome **não é necessário tiverem um número de telefone ou chamar planos atribuiu a eles, mas eles devem ter uma licença de sistema telefônico se eles são usuários online ou EV habilitado para onpremises usuários**. Discagem por nome ainda poderão localizar e transferir chamadas para usuários hospedados em diferentes países ou regiões para organizações multinacionais Teams da Microsoft.
 
 ### <a name="maximum-directory-size"></a>Tamanho máximo do diretório
 

@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 560e1f81db6e8150bcd8d686747bfb297cbfcf84
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: bdb998587eefd0eb15477b26799d487e041df220
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569978"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516795"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem 
 =========================================
@@ -27,7 +27,7 @@ ms.locfileid: "30569978"
 > [!Tip]
 > Assista a sessão a seguir para saber como equipes interage com o Windows Azure Active Directory (AAD), grupos do Office 365, Exchange, SharePoint e OneDrive for Business: [Fundamentos das equipes da Microsoft](https://aka.ms/teams-foundations)
 
-Para a experiência completa com o Microsoft Teams, todos os usuários devem estar habilitados para o Exchange Online, para o SharePoint Online e para a criação de grupos no Office 365.
+Para a experiência completa com o Teams, todos os usuários devem estar habilitados para o Exchange Online, para o SharePoint Online e para a criação de grupos no Office 365.
 
 As caixas de correio dos usuários do Exchange não podem ficar hospedadas online nem no local. Os usuários hospedados no Exchange Online ou no Exchange Dedicated vNext podem usar todos os recursos do Microsoft Teams. Eles podem criar e ingressar em equipes e canais, criar e visualizar reuniões, fazer chamadas e chats, modificar imagens do perfil do usuário, adicionar e configurar conectores, guias e bots.
 
@@ -66,13 +66,15 @@ Informações adicionais:
 
 -   No Microsoft Teams, os recursos de segurança e conformidade, como o eDiscovery, o Content Search, arquivamento e retenção legal, funcionam melhor nos ambientes do Exchange Online e do SharePoint Online. Para conversas em canais, as mensagens serão rastreadas para a caixa de correio de grupo no Exchange Online, onde estão disponíveis para o eDiscovery. Se o SharePoint Online e o OneDrive for Business (usando contas de trabalho ou escolares) estiverem habilitados em toda a organização e para os usuários, esses recursos de conformidade estarão disponíveis para todos os arquivos dentro do Teams também.
 
--   Para o Exchange local, você deve configurar o novo protocolo de autenticação OAuth do Exchange, conforme descrito em [Configure OAuth authentication entre organizações do Exchange e o Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
+-   Para o Exchange local, você deve configurar o novo protocolo de autenticação OAuth do Exchange, conforme descrito em [Configure OAuth authentication entre organizações do Exchange e o Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). 
+
+-  Controlar e proteger a configuração de políticas de conformidade em equipes e do Exchange usando o Access condicional. Para obter mais informações, consulte [como políticas de acesso condicional funcionam para equipes?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams) .
 
 > [!NOTE]
 > No momento, se sua organização tiver exigências de conformidade para garantir que todas as discussões nas reuniões sejam detectáveis, é necessário desabilitar as reuniões privadas se o organizador tiver uma caixa de correio no Exchange.
 > 
 > [!IMPORTANT]
-> Em uma implantação híbrida do Exchange, conteúdo de mensagens de chat é pesquisável independentemente de terem participantes de bate-papo com uma caixa de correio baseadas em nuvem ou local. Para saber mais, leia [Searching caixas de correio baseadas em nuvem para usuários no Office 365 local](https://docs.microsoft.com/en-us/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para saber sobre a procura por conteúdo em equipes, leia a [Pesquisa de conteúdo no Centro de conformidade do & de segurança do Office 365](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+> Em uma implantação híbrida do Exchange, conteúdo de mensagens de chat é pesquisável independentemente de terem participantes de bate-papo com uma caixa de correio baseadas em nuvem ou local. Para saber mais, leia [Searching caixas de correio baseadas em nuvem para usuários no Office 365 local](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para saber sobre a procura por conteúdo em equipes, leia a [Pesquisa de conteúdo no Centro de conformidade do & de segurança do Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 > 
 > [!TIP]
 > Para obter informações sobre como usar o Connect do Azure AD para sincronizar com o Windows Azure Active Directory, consulte [integrando suas identidades no local com o Windows Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).

@@ -1,5 +1,5 @@
 ---
-title: Configurar audioconferência no Microsoft Teams
+title: Configurar a conferência de áudio for Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Aprenda a configurar dial-in ou conferência de áudio para as pessoas na sua empresa que precisam usar um telefone para ingressar em chamadas de conferência. '
-ms.openlocfilehash: 30e79282f04c2d1b4dc7ff01673461b7a18254fd
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.openlocfilehash: 7ff24dd2b29eabbad46759471b69c3619e4e7b24
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955026"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517172"
 ---
-# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar audioconferência no Microsoft Teams
+# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar a conferência de áudio for Microsoft Teams
 
 Em alguns casos, as pessoas na sua organização precisará usar um telefone para efetuar uma chamada para uma reunião. Microsoft Teams inclui o recurso de conferência de áudio para apenas essa situação! As pessoas podem ligar para reuniões de equipes usando um telefone, em vez de usar o aplicativo de equipes em um PC ou dispositivo móvel. 
   
@@ -74,7 +74,7 @@ Para audioconferências, você não pode usar números de telefone para usuário
 
 Depois que você obtenha sua chamada Tarifada e/ou números de telefone gratuitos para sua ponte de conferência, você precisa atribuir números para que possam ser usadas em convites de reunião.  
 
-Siga essas stesps para atribuir um novo número de telefone para sua ponte de conferência de áudio.
+Siga estas etapas para atribuir um novo número de telefone para sua ponte de conferência de áudio.
 
 ![logotipo-sfb-30x30.png](media/sfb-logo-30x30.png) **usando o Skype para o Centro de administração de negócios:**
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75710a428273a38954de38ef5b6094d412aa3085
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 0cffa4e5eef3b5b120e38b103d04adbca08bef0e
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640966"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517083"
 ---
 # <a name="user-presence-in-teams"></a>Presença do usuário no Microsoft Teams
 
@@ -64,7 +64,6 @@ As seguintes configurações de administração no Skype para negócios são dif
 - Recursos de cliente não incomodar e inovadora sempre estão habilitados para usuários de equipes.
 - Calendário (inclui OOF & outras informações de calendário) integração está sempre habilitada para usuários em equipes se integrado com o Outlook.
 - O indicador *ausente desde* (se estiver em um ambiente de duplo com Skype for Business) ou *visto pela última vez* está sempre habilitada para usuários de equipes.
-- A definição de um status de presença personalizados não está habilitada para usuários em equipes.
 
 > [!NOTE]
 > A capacidade de um administrador de equipes de personalizar essas configurações não é suportada no momento.

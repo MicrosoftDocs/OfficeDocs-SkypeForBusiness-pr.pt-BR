@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Saiba mais sobre as políticas de configuração de aplicativo no Microsoft Teams e como usá-los para aplicativos de pin para personalizar as equipes para usuários em sua organização.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 5633e5158a3f19ea8960e957b91537547d2580a1
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: dc5800d6231245be1b562dbedef44608232f04c1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747658"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517099"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -54,11 +54,12 @@ Você pode usar o Centro de administração do Microsoft Teams para criar uma po
 1. No painel de navegação à esquerda do Centro de administração do Microsoft Teams, vá para **equipes apps** > **políticas de instalação**.
 2. Selecione **nova política**.
 3. Insira um nome descritivo para a política e, em seguida, clique em **Adicionar aplicativos**.
-4. No painel **Adicionar fixados apps** , pesquise os aplicativos que você deseja adicionar e, em seguida, clique em **Adicionar**. Você também pode filtrar apps pela política de permissão do aplicativo. Quando você tiver escolhido sua lista de aplicativos, clique em **Adicionar**.
+4. Ativar ou desativar **Permitir carregamento aplicativos personalizados**, dependendo se você deseja permitir que os usuários carregar os aplicativos personalizados para equipes.
+5. No painel **Adicionar fixados apps** , pesquise os aplicativos que você deseja adicionar e, em seguida, clique em **Adicionar**. Você também pode filtrar apps pela política de permissão do aplicativo. Quando você tiver escolhido sua lista de aplicativos, clique em **Adicionar**.
 
      ![App-instalação-políticas-adicionar-apps.png](media/app-setup-policies-add-apps.png)
 
-5. Organize os aplicativos na ordem que você deseja que eles aparecem em equipes e clique em **Salvar**.
+6. Organize os aplicativos na ordem que você deseja que eles aparecem em equipes e clique em **Salvar**.
 
     ![App-Setup-Policies-New-Policy-Setup.PNG](media/app-setup-policies-new-policy-setup.png)
 
@@ -173,6 +174,6 @@ Certifique-se de que você siga as diretrizes de logotipo antes de enviar o apli
 
  ## <a name="related-topics"></a>Tópicos relacionados
 - [Configurações de administração para aplicativos no Teams](admin-settings.md)
-- [Gerenciar políticas de permissão de aplicativo em equipes](teams-app-permission-policies.md)
-- [Gerenciar políticas de aplicativo personalizado e configurações no equipes](teams-custom-app-policies-and-settings.md)
+- [Gerenciar políticas de permissões de aplicativo no Teams](teams-app-permission-policies.md)
+- [Gerenciar políticas de aplicativo personalizado e as configurações no Teams](teams-custom-app-policies-and-settings.md)
 - [Publicar um aplicativo para o catálogo de aplicativos do locatário do cliente equipes](tenant-apps-catalog-teams.md)

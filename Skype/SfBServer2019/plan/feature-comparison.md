@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: Skype para Business Server 2019 ou Skype para administradores corporativos Online pode usar estas tabelas para entender quais recursos são suportados em quais clientes.'
-ms.openlocfilehash: 296e96af455b7cea8cddf833acff19a665349933
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: f11a6c5c31267dabd2d8125a604a659a71168d6c
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789108"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516923"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparação de recursos do cliente de desktop do Skype para Business Server 2019
 
@@ -29,7 +29,7 @@ ms.locfileid: "27789108"
 
 Alguns recursos disponíveis com o Skype para Business Server 2019 não estão disponíveis no Skype para negócios Online; consulte [Online ou híbrida limitações de conta de usuário](feature-comparison.md#Online-Hybrid) para obter informações específicas. Skype para administradores de negócios Online talvez queira consulte [Skype para negócios Online Service Description](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) para obter informações sobre os planos de diferentes disponíveis para eles.
 
-As tabelas a seguir mostram os recursos que estão disponíveis com cada cliente que funciona com o Skype para Business Server 2019 ou Skype para negócios Online. Convém também consulte [comparação de recursos do cliente móvel para Skype for Business](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) para telefone inteligente e tablet comparações de recursos do cliente. A Licença de Acesso para Cliente ou a Licença de Assinatura do Usuário que sua organização comprar também afetará os recursos que estarão disponíveis para os usuários. A implantação do cliente completo ou básico para os usuários dependerá da licença ou do plano que sua organização escolher comprar. Veja o [Guia de licenciamento](https://products.office.com/en-us/skype-for-business/it-pros) para obter mais detalhes.
+As tabelas a seguir mostram os recursos que estão disponíveis com cada cliente que funciona com o Skype para Business Server 2019 ou Skype para negócios Online. Convém também consulte [comparação de recursos do cliente móvel para Skype for Business](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) para telefone inteligente e tablet comparações de recursos do cliente. A Licença de Acesso para Cliente ou a Licença de Assinatura do Usuário que sua organização comprar também afetará os recursos que estarão disponíveis para os usuários. A implantação do cliente completo ou básico para os usuários dependerá da licença ou do plano que sua organização escolher comprar. Consulte o [Guia de licenciamento](https://products.office.com/en-us/skype-for-business/it-pros) para obter mais detalhes.
 
 > [!IMPORTANT]
 > Skype para Business Server 2019 e Skype para Business Online suportam os seguintes clientes lançados anteriormente: Lync 2013, Skype para negócios 2015 e Skype para negócios 2016, bem como o Skype para 2019 de negócios do cliente. Para obter informações sobre esses clientes quando usado com outros servidores, consulte a [comparação de recursos do cliente de Desktop do Skype para negócios 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)e [tabelas de comparação do cliente do Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) . 
@@ -44,7 +44,7 @@ As tabelas a seguir mostram os recursos que estão disponíveis com cada cliente
 Esta tabela abrange os recursos de Presença Avançada que vão além de uma simples indicação de que o usuário está online, offline, ocupado, etc. 
 
 
-| Recurso/funcionalidade                                                                                  | Skype para o cliente de negócios 2015, 2016 ou 2019 | Skype for Business para Mac | Cliente do Lync 2013 |
+| Recurso/capacidade                                                                                  | Skype para o cliente de negócios 2015, 2016 ou 2019 | Skype for Business para Mac | Cliente do Lync 2013 |
 |:----------------------------------------------------------------------------------------------------|:----------------------------------------------|:--------------------------|:-----------------|
 | Publicar status                                                                                      | & #x 2714;                                      | & #x 2714; & #x 2776;         | & #x 2714;         |
 | Exibir status                                                                                         | & #x 2714;                                      | & #x 2714;                  | & #x 2714;         |
@@ -128,7 +128,7 @@ Para obter detalhes, consulte o [Skype para negócios Online Service Description
 |Usar e editar notas de reunião do OneNote  |& #x 2714;||Somente editar (sem adicionar)  |& #x 2714;|& #x 2714;|
 |Usar um quadro de comunicações |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
 |Realizar votações |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
-|Carregar arquivos para compartilhar com outras pessoas |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
+|Carregar arquivos para compartilhar com outras pessoas |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Agendar um reunião ou conferência |Outlook ou Skype para Agendador da Web de negócios  |Outlook ou Skype para Agendador da Web de negócios |Skype para Agendador da Web de negócios |Outlook ou Skype para Agendador da Web de negócios   |Outlook ou Agendador da Web do Lync |  
 |Q&amp;um gerente |& #x 2714;|||||
 |Desabilitar vídeo de participante |& #x 2714;||& #x 2714;|||
@@ -141,7 +141,7 @@ Para obter detalhes, consulte o [Skype para negócios Online Service Description
 |Definir Destaque de Vídeo (bloquear vídeo) |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;| 
 |Conceder/cancelar controle de compartilhamento de tela  |& #x 2714;||& #x 2714;|||
 
- & #x 2776;  Os participantes não é possível controlar as áreas de trabalho que são compartilhadas por Skype for Business no Mac, Lync para Mac 2011, ou o Communicator para Mac 2011 usuários. Skype for Business no Mac, Lync para Mac 2011 e Communicator para Mac 2011 usuários não podem controlar áreas de trabalho compartilhadas por usuários do Windows. Isso também não funciona com o Skype for Business no Mac OSX.
+ & #x 2776;  Os participantes não é possível controlar as áreas de trabalho que são compartilhadas por Skype for Business no Mac, Lync para Mac 2011, ou o Communicator para Mac 2011 usuários. Skype for Business no Mac, Lync para Mac 2011 e Communicator para Mac 2011 usuários não podem controlar áreas de trabalho compartilhadas por usuários do Windows. Isso também não funcionará para Skype para negócios Web App em Max OSX.
 
  & #x 2777;  Para Skype para Business Online, esse recurso exige o Microsoft conferência de PSTN, Unificação de mensagens do Exchange ou um provedor de serviços de audioconferência de terceiros.
 
@@ -280,7 +280,7 @@ As contas do usuário podem existir online ou no local e isso afetará os recurs
 
 - Usuários externos: realizar chamadas de dois ou vários participantes com usuários externos.
 
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Consulte Também
 <a name="Types"> </a>
 
 [Planejar clientes e dispositivos](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)

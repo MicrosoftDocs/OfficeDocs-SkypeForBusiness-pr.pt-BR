@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Saiba como configurar uma borda controlador sessão (SBC) para atender a vários locatários.
-ms.openlocfilehash: 53cc4d6f9d930c9069ac39d81e304b0265669b5e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 26c2263747b33eab5c6e27a1a22b13fd44af7874
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893339"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517220"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -118,7 +118,7 @@ Para obter mais informações sobre funções de administração e como atribuir
 3. Click **Next**.
 4. No exemplo, o locatário já tiver adatum.biz como um nome de domínio verificado. O assistente não pedirá para verificação adicional porque customers.adatum.biz é um subdomínio para o nome já está registrado. No entanto, se você adicionar um FQDN que não foi verificado antes, você precisará percorrer o processo de verificação. O processo de verificação é [descrito abaixo](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
-    ![Confirmação de nome de domínio verfied](media/direct-routing-3-sbc-verify-domain.png)
+    ![Confirmação de um nome de domínio verificado](media/direct-routing-3-sbc-verify-domain.png)
 
 5.  Clique em **Avançar**e na página **Configurações de DNS de atualização** , selecione **eu adicionará os registros DNS irei** e clique em **Avançar**.
 6.  Na próxima página, limpe todos os valores (a menos que você deseja usar o nome de domínio para o Exchange, SharePoint ou equipes/Skype for Business), clique em **Avançar**e, em seguida, clique em **Concluir**. Certifique-se de que seu novo domínio se situa o status de instalação completo.

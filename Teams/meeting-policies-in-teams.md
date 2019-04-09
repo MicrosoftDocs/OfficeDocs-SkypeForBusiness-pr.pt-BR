@@ -21,17 +21,17 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Saiba como gerenciar as configurações de diretiva em equipes de reunião.
-ms.openlocfilehash: dc2870786c586715164dde94fdd6795f04f567bc
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: a31f663a7714a0a5af09e6fddd9436e710582fa1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747666"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517196"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião em equipes
 
 ::: zone target="docs"
-Políticas de reunião são usadas para controlar os recursos disponíveis aos participantes para reuniões agendadas por usuários em sua organização da reunião. Depois de criar uma política e faça as alterações, você pode atribuir usa para a política. 
+Políticas de reunião são usadas para controlar os recursos disponíveis aos participantes para reuniões agendadas por usuários em sua organização da reunião. Depois de criar uma política e faça as alterações, você pode atribuir usuários à diretiva. 
 
 Por padrão, uma política de chamada Global (toda a organização padrão) é criada. Todos os usuários em sua organização serão atribuídos a política de reunião por padrão. Você pode fazer alterações para esta política ou criar uma ou mais políticas personalizadas e atribuir usuários a eles. Quando você cria uma política personalizada, você pode permitir ou impedir que certos recursos disponíveis para os usuários e atribuí-la a um ou mais usuários com as configurações aplicadas a eles. 
 

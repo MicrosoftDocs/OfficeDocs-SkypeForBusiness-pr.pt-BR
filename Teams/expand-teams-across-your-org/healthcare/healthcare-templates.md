@@ -1,5 +1,5 @@
 ---
-title: Introdução aos modelos do Teams para Organizações de Assistência Médica
+title: Introdução aos modelos do Teams para Organizações de Saúde
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -14,15 +14,15 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Introdução aos modelos do Teams para Organizações de Assistência Médica
-ms.openlocfilehash: 5482afa3302085f113a57ec7b6b9f3f188f7cffc
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: Introdução aos modelos do Teams para Organizações de Saúde
+ms.openlocfilehash: 38b2067bc91a79ff2efa8bc20726ad14d793aa24
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013625"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517107"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introdução aos modelos do Teams para Organizações de Assistência Médica
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introdução aos modelos do Teams para Organizações de Saúde
 
 Modelos de Teams da Microsoft permitem que você rapidamente e criar facilmente equipes, fornecendo um modelo predefinido de configurações, canais e pré-instaladas apps.
 
@@ -55,6 +55,9 @@ O modelo de hospital destina-se a comunicação e a colaboração entre vários 
 ## <a name="how-to-use-first-party-templates"></a>Como usar modelos de terceiros primeiro
 
 Para usar esses modelos, basta altere a propriedade 'template@odata.bind' no corpo da solicitação de 'padrão' para o TemplateIDs acima.  Para obter mais informações sobre como implantar os modelos de equipes, consulte o [artigo sobre a criação de uma equipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)do Microsoft Graph.
+
+> [!NOTE]
+> Os canais no modelo serão criados automaticamente sob a guia Geral.
 
 ### <a name="example-hospital-template-extension-script"></a>Exemplo: Script de extensão do modelo de Hospital
 
@@ -160,6 +163,6 @@ Para usar esses modelos, basta altere a propriedade 'template@odata.bind' no cor
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Introdução aos modelos do Microsoft Teams](../../get-started-with-teams-templates.md)
+[Introdução aos modelos do Teams](../../get-started-with-teams-templates.md)
 
-[Introdução ao equipes para organizações de saúde](teams-in-hc.md)
+[Introdução ao Teams para Organizações de Saúde](teams-in-hc.md)

@@ -1,5 +1,5 @@
 ---
-title: Planejar o bypass de mídia com o roteamento direto
+title: Planejar o bypass de mídia com Roteamento Direto
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como planejar o bypass de mídia com roteamento direto de sistema do telefone.
-ms.openlocfilehash: 6a152fed20dde9d641abfab1bdba7b211f2dcdb9
-ms.sourcegitcommit: 27cf21fb02632e9f65dfa2f995120fb927114b3d
+ms.openlocfilehash: 308150121733f5f135d248404c663634ddaeea7c
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30649208"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517243"
 ---
-# <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com o roteamento direto
+# <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
 ## <a name="about-media-bypass-with-direct-routing"></a>Sobre o bypass de mídia com o roteamento direto
 
@@ -47,7 +47,7 @@ Mas vamos supor que um usuário está na mesma rede como o SBC ou construção. 
 
 ![Mostra a sinalização e o fluxo de mídia com bypass de mídia](media/direct-routing-media-bypass-2.png)
 
-Protocolos aproveita chamados conectividade ICE (estabelecimento interativa) no cliente de equipes e ICE luz do SBC de desvio de mídia. Esses protocolos habilite o roteamento direto usar o caminho de mídia mais direto para a melhor qualidade. ICE e luz ICE são WebRTC padrões. Para obter informações detalhadas sobre esses protocolos, consulte RFC 5245.
+Protocolos aproveita chamados conectividade ICE (estabelecimento interativa) no cliente de equipes e ICE luz do SBC de desvio de mídia. Esses protocolos habilite o roteamento direto usar o caminho de mídia mais direto para a melhor qualidade. ICE e ICE Lite são WebRTC padrões. Para obter informações detalhadas sobre esses protocolos, consulte RFC 5245.
 
 
 ## <a name="call-flow-and-firewall-planning"></a>Planejamento de firewall e de fluxo de chamadas
@@ -136,7 +136,7 @@ No caminho de mídia das chamadas não desviada para usuários finais | Sempre |
 No caminho de mídia para ignorados chamadas para usuários finais | Nunca | Se o cliente não consegue acessar o SBC no endereço IP público | 
 No caminho de mídia para aplicativos de voz | Sempre | Nunca | 
 Pode fazer a transcodificação (B2BUA)\* | Sim | Não, retransmite apenas áudio entre os pontos de extremidade | 
-Número de instancess mundial e local | total de 8: 2 pol conosco Leste e Oeste; 2 pol Amsterdã e Dublin; 2 de Hong Kong e Cingapura; 2 no Japão (que está sendo adicionado ao Q1CY2019)  | Vários
+Número de instâncias mundiais e local | total de 8: 2 pol conosco Leste e Oeste; 2 pol Amsterdã e Dublin; 2 de Hong Kong e Cingapura; 2 no Japão (que está sendo adicionado ao Q1CY2019)  | Vários
 
 O intervalo IP é 52.112.0.0 /14 (endereços IP de 52.112.0.1 a 52.115.255.254). 
 
@@ -154,7 +154,7 @@ As equipes retransmissões de transporte são sempre no caminho de mídia nos se
 - Chamada será um usuário federado de equipes
 - Chamada é encaminhada ou transferida para um Skype para o usuário de negócios
 
-Enusre seu SBC possui acesso para o retransmissões de transporte, conforme descrito abaixo.    
+Certifique-se de que seu SBC tem acesso a retransmissões de transporte, conforme descrito abaixo.    
 
 
 ## <a name="sip-signaling-fqdns-and-firewall-ports"></a>Sinalização SIP: FQDNs e portas de firewall
@@ -220,7 +220,7 @@ O intervalo de portas de retransmissões de transporte as equipes é mostrado na
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
 UDP/SRTP | Retransmissão de transporte | SBC | 50 000-59 999    | Definidos no SBC |
-| UDP/SRTP | SBC | Retransmissão de transporte | Definidos no SBC | 50 000 a 59 9999, 3478, 3479     |
+| UDP/SRTP | SBC | Retransmissão de transporte | Definidos no SBC | 50 000 – 59 999, 3478, 3479     |
 
 
 Observação: A Microsoft recomenda pelo menos duas portas por chamada simultânea no SBC. Como a Microsoft tem duas versões do retransmissões de transporte, é necessário o seguinte:
@@ -289,7 +289,7 @@ Se os usuários preferem aplicativos da Web de equipes em Microsoft Edge, Google
  
 ## <a name="see-also"></a>Consulte Também
 
-[Configurar o bypass de mídia com o roteamento direto](direct-routing-configure-media-bypass.md)
+[Configurar o bypass de mídia com Roteamento Direto](direct-routing-configure-media-bypass.md)
 
 
 

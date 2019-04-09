@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4865d66d4d3ff1257d0fc4bd355a65c7c1330101
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: 363da62c378a60cb85a9544339dbf7ccd699b7c0
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934784"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517075"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -35,7 +35,7 @@ A finalidade dos modos de coexistência é fornecer uma experiência previsível
 Quando um usuário estiver em qualquer um do Skype para modos de negócios, todas as chamadas e chats de entrada são roteadas para Skype do usuário para o cliente de negócios. Para evitar a confusão do usuário final e garantir o roteamento apropriado, a funcionalidade de chamada e bate-papo no cliente equipes está desabilitada quando um usuário está em qualquer uma do Skype para modos de negócios. Da mesma forma, o agendamento de reuniões em equipes é explicitamente desabilitado quando os usuários estiverem nos modos de SfBOnly ou SfBWithTeamsCollab e explicitamente habilitado quando um usuário está no modo de SfBWithTeamsCollabAndMeetings.   
 
 ## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Como a funcionalidade disponível no cliente de equipes muda com base no modo
-A funcionalidade disponível no equipes dependes no modo de coexistência do usuário, como definido pelo TeamsUpgradePolicy. A tabela a seguir resume o comportamento:
+A funcionalidade disponível nas equipes depende do modo de coexistência do usuário, como definido pelo TeamsUpgradePolicy. A tabela a seguir resume o comportamento:
 
 |Modo de usuário efetivo|Experiência com o cliente de equipes|
 |---|---|

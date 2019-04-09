@@ -14,12 +14,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 description: Este documento descreve o comportamento de bate-papo, roteamento de chamadas e presença entre usuários das equipes e Skype para os negócios, federados, tanto no locatário com base em modos de TeamsUpgrade atribuídos. Ela inclui as otimizações de roteamento, o comportamento de presença, bem como a alteração do modo de TeamsUpgrade padrão de *legado* para *Ilhas* e a iminente retirada de *legado*.
-ms.openlocfilehash: c6343b7f62249dab6e02c1e42fce1cc567f5035a
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569699"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517212"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 
@@ -27,8 +27,6 @@ Coexistência e interoperabilidade entre os usuários e Skype para clientes empr
 
 Qualquer usuário sempre será atribuído um modo de TeamsUpgrade, por padrão, ou explicitamente pelo administrador. O valor padrão é *Ilhas*. Atualizado para equipes de usuários têm o modo de *TeamsOnly*. *SfBOnly*, *SfBWithTeamsCollab*e *SfBWithTeamsCollabAndMeetings* também são modos possíveis.
 
-> [!NOTE]
-> Modo *herdado* foi preterido; os usuários que estavam em modo *Legacy* foram convertidos em modo *Ilhas* .
 
 ## <a name="routing-parameters"></a>Parâmetros de roteamento
 
@@ -49,7 +47,7 @@ Os parâmetros que determinam o método de roteamento de thread são:
 - Se a conversa for novo ou parte de um thread existente
 - Se a conversa é no locatário ou federados
 - Se a conversa é possível
-    - Interoperabilidade de *no locatário* requer que o inquilino é puro online ou Skype para o híbrido de negócios. Inquilinos puramente no local não podem ter interoperabilidade no inquilino.
+    - Interoperabilidade de *no locatário* requer que o inquilino é puro online ou Skype para o híbrido de negócios. Puramente local inquilinos não podem ter interoperabilidade no inquilino.
     - *A federação de locatário entre* sempre requer Skype adequado para configuração da federação de negócios, bem como a configuração apropriada de federação de equipes de ambos os locatários. Skype para o híbrido de negócios não é necessário de um inquilino.
     - Se o Skype para a conta de negócios do originador hospedados no local, o que o usuário não pode usar o cliente de equipes para a interoperabilidade no locatário ou para federação. Esse usuário só pode usar o Skype para o cliente de negócios para interoperabilidade e federação.
     - As equipes de comunicação de equipes é sempre possíveis no inquilino.
@@ -61,7 +59,7 @@ Os parâmetros que determinam o método de roteamento de thread são:
 
 ## <a name="in-tenant-routing-for-new-chats-or-calls"></a>Roteamento de chamadas ou novos chats no locatário 
 
-As tabelas a seguir capturam o roteamento de chamadas e no locatário chat e são válidas para novas chamadas ou chats não iniciados a partir de um segmento preexistente. Ele descreve qual cliente receberá uma nova chamada ou bate-papo, se foi originada por um usuário à esquerda, para um usuário de destinatário no locatário à direita.
+As tabelas a seguir capturam o roteamento de chamadas e no locatário chat e são válidas para novas chamadas ou chats não iniciados a partir de um segmento pré-existente. Ele descreve qual cliente receberá uma nova chamada ou bate-papo, se foi originada por um usuário à esquerda, para um usuário de destinatário no locatário à direita.
 
 Mensagens enviadas aos usuários TeamsOnly sempre roteará para equipes. Mensagens enviadas a SfB\* usuários sempre roteará para Skype para os negócios, se a conversa for possível, conforme descrito acima. Mensagens enviadas aos usuários Ilhas sempre roteará para o mesmo cliente do qual eles foram enviados.
 
@@ -123,7 +121,7 @@ As tabelas a seguir descrevem qual cliente receberá uma chamada do originador (
 | TeamsOnly |Microsoft Teams |Online| &boxv;|*Skype for Business* |
 |  | | | | 
 
-**Tabela 2b: federados novo bate-papo ou roteamento de chamadas para a um destinatário em uma SfB\* modo**
+**Tabela 2b: federados novo bate-papo ou roteamento de chamadas para um destinatário em uma SfB\* modo**
 
 | <br/><br/>Modo   | Originador<br/><br/> Cliente| <br/><br/>SfB hospedados| |  Destinatário<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
@@ -178,8 +176,6 @@ Para saber qual comportamento esperar, você precisará compreender o que a pres
     * De equipes, qualquer outro usuário em um locatário federado verá Skype do usuário ilhas de presença de negócios; Isso é alinhado com a tabela de roteamento federada acima
     * Do Skype para os negócios, qualquer outro usuário verá Skype do usuário ilhas de presença de negócios (no locatário e federada); Isso é alinhado com as tabelas de roteamento acima
 
-> [!NOTE]
-> Isso é uma recente alteração da implementação anterior (chamada de presença unificada) que mostrou uma presença combinada, agregada de equipes e do Skype do destino para clientes corporativos. Essa abordagem anterior tornou-se confuso para os usuários conforme ele for frequentemente resultar em exibindo imprecisa presença, ou seja, um usuário que não estão sendo pode ser acessado mesmo que sua presença mostrou online.
 
 ## <a name="in-tenant-presence"></a>Presença locatário
 
@@ -216,5 +212,6 @@ Para alinhar a presença e a acessibilidade em segmentos pré-existente, a prese
 Em particular, se um destinatário anteriormente possuía um thread de conversação interoperabilidade persistente com foi atualizado para equipes, que thread deixará de refletir presença precisa e deixará de ser roteável. Você deve iniciar um novo segmento.
 
 ## <a name="related-links"></a>Links relacionados
+[Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [Vídeo: Gerenciar a interoperabilidade entre SfB e equipes e coexistência](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

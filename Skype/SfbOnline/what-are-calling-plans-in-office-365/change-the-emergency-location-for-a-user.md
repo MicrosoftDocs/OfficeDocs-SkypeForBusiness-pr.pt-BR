@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. '
-ms.openlocfilehash: c55f8f51ee7d94ad3b9e0c91c0bb67c319a28c46
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+description: 'Saiba como alterar o local de emergência para seus usuários. Com um número ilimitado de locais, você pode alterar os locais de emergência quando seus funcionários se mudam de andares ou prédios. '
+ms.openlocfilehash: 79ba52d65dc87b36397d4d0a8df121ac1fec8262
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046492"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516938"
 ---
 # <a name="assign-or-change-the-emergency-location-for-a-user"></a>Atribuir ou alterar o local de emergência para um usuário
 
@@ -60,6 +60,9 @@ Para saber como obter um Plano de chamada no Office 365 e quanto eles custam, co
     Se você deseja adicionar um novo local de emergência que aparecerá na lista, consulte [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
 ## <a name="related-topics"></a>Tópicos relacionados
+
+[Atribuir uma resposta de emergência locais por meio do powershell](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsOnlineVoiceUser.md)
+
 [Adicionar ou remover um endereço de emergência para sua organização](add-or-remove-an-emergency-address-for-your-organization.md)
 
 [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-or-remove-an-emergency-location-for-your-organization.md)

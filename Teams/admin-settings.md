@@ -3,12 +3,12 @@ title: Configurações de administração para aplicativos no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 03/18/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: ritikag
-description: Saiba como permitir e habilitar aplicativos no Microsoft Teams, incluindo o carregamento lateral de aplicativos externos.
+ms.reviewer: ritikag, lajin
+description: Saiba mais sobre as políticas e configurações que você pode usar para gerenciar aplicativos para sua organização no Microsoft Teams.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -18,54 +18,54 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad61e412bbbe0a880a279179f40124895d6e38a5
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 034ac8eeb5529179013540b1911a7bbc34b49014
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568404"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520144"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurações de administração para aplicativos no Microsoft Teams
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Aplicativos são guias, conectores, bots ou qualquer combinação destas três, fornecido pelo equipes (apps primários e também conhecido como aplicativos padrão) ou por um terceiro (também conhecido como aplicativos externos). No Centro de administração do Microsoft 365, você pode habilitar e desabilitar aplicativos padrão e definir configurações para controlar aplicativos externos. Essas configurações permitem especificar quais aplicativos externos são permitidos e não permitidos, novo comportamento de aplicativo externo, e se os aplicativos do lado do carregamento é permitido.
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
 
- Para gerenciar as configurações de administração para aplicativos em equipes, vá para o Centro de administração do Microsoft 365 e escolha **configurações** > **Serviços & complementos** > **Equipes da Microsoft**. Se você tiver entrado como administrador do Office 365, este link deverá direcioná-lo corretamente:
+Aplicativos fornecem da caixa ferramentas para sua organização aproveitar ao máximo sem equipes. Esses aplicativos combinam a funcionalidade de guias, extensões de mensagens, conectores e bots fornecidos pela Microsoft, criada por terceiros ou por desenvolvedores em sua organização.
 
-https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
+Você pode gerenciar aplicativos para sua organização no **equipes apps** no Centro de administração do Microsoft Teams. Você pode definir políticas para controlar quais aplicativos estão disponíveis para usuários de equipes em sua organização, personalizar equipes pela fixação de aplicativos que são mais importantes para seus usuários e especifique se os usuários podem carregar aplicativos personalizados (também conhecido como sideloading). Essas políticas e configurações lhe granular controle sobre quais aplicativos estão disponíveis, como eles são exibidos em equipes e quem pode usá-los com base nas necessidades de sua organização.
 
-Para saber mais sobre as configurações do administrador de aplicativos, veja este vídeo: 
- 
-|  |  |
-|---------|---------|
-| Gerenciando a experiência de aplicativos no Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
+## <a name="app-permission-policies"></a>Políticas de permissão de aplicativo
 
-## <a name="allow-external-apps-in-teams"></a>Permitir aplicativos externos no Teams
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Por padrão, a **permissão de aplicativos externos no Microsoft Teams** está habilitada para todos os aplicativos. Se você desativar essa configuração, todos os aplicativos de terceiros externos serão desabilitados. 
+Com as diretivas de permissão do aplicativo, você pode bloquear ou permitir aplicativos, toda a organização ou para usuários específicos.  Quando você bloqueia um aplicativo, todas as interações com esse aplicativo são desabilitadas e o aplicativo não aparece em equipes para usuários.
 
-## <a name="enable-new-external-apps-by-default"></a>Habilitar novos aplicativos externos por padrão
+Por exemplo, você pode usar políticas de permissão de aplicativo para:
 
-#### <a name="trophy-best-practice-manage-external-apps-individually"></a>:trophy: Prática recomendada: Gerenciar aplicativos externos individualmente 
- 
-Para ativar alguns aplicativos (e desativar outros), desative **Allow sideloading of external apps** (Permitir o sideload de aplicativos externos). Em seguida, desative os aplicativos que você não quer que os usuários utilizem. Opcional: desative a opção **Enable new external apps by default** (Habilitar novos aplicativos externos por padrão) (se quiser controlar os novos aplicativos). 
+- Desabilite um aplicativo que apresenta uma permissão ou o risco de perda de dados para sua organização.
+- Gradualmente distribuir novos de terceiros ou aplicativos internos personalizados a usuários específicos.
+- Simplificar a experiência do usuário, especialmente quando você inicia a aplicação equipes em toda a organização.
 
-> [!NOTE]
-> Aplicativos padrão, como as criadas pela Microsoft, não são afetados pela definição **habilitar novos aplicativos externos por padrão** . Novos aplicativos estão habilitados por padrão quando lançada pela Microsoft.
+Para saber mais, vá para [Gerenciar políticas de permissão de aplicativo em equipes](teams-app-permission-policies.md).
 
-Quando essa configuração é ativada, os usuários podem ativar novos aplicativos assim que são adicionados ao catálogo de aplicativos de equipes. Para abrir o catálogo de aplicativos do Teams, clique em **Loja** na parte inferior do Teams e clique em **Aplicativos**. Se você quiser controlar quais aplicativos estão disponíveis, desative esta configuração. Obviamente, se você desativá-la, precisará lembrar de revisar os novos aplicativos periodicamente para que sua organização não perca novos aplicativos bacanas. 
+## <a name="app-setup-policies"></a>Políticas de configuração de aplicativo
 
-O sideload é a forma de adicionar um aplicativo ao Teams carregando um arquivo zip diretamente para uma equipe. O sideload permite testar um aplicativo durante seu desenvolvimento. E também possibilita a criação de um aplicativo somente para uso interno, compartilhando-o com a sua equipe sem enviá-lo para o catálogo de aplicativos do Teams na Office Store. 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Apenas os proprietários de equipes ou os membros aos quais foram concedidas permissões podem fazer sideload de aplicativos no Teams.  
+Políticas de configuração de aplicativo permitem que você personalizar a experiência de aplicativo para seus usuários. Você escolher os aplicativos que você deseja fixar para a barra de aplicativos nos clientes de equipes e a ordem em que eles aparecem, na web, desktop e clientes móveis.
 
-![Captura de tela da seção de aplicativos externos expandida.] (media/teams-tenant-wide-settings-external-apps.png "Captura de tela da seção aplicativos externos expandida mostrando aplicativos externos")
+Eis alguns exemplos de como você pode usar políticas de configuração de aplicativo:
+- Gerar conscientização e adoção dos principais aplicativos. Por exemplo, fixa um aplicativo de gerenciamento de recrutamento e talento personalizado para os usuários da sua equipe de RH.
+- Fixar os principais recursos de equipes, como o bate-papo, equipes e chamar seletivamente. Isso pode ajudar a garantir que os usuários estão participando de atividades específicas dentro de equipes.
 
-## <a name="creating-and-uploading-app-packages"></a>Criação e upload de pacotes de aplicativos 
+Para saber mais, veja [Gerenciar políticas de configuração de aplicativo em equipes](teams-app-setup-policies.md).
 
-Para saber mais sobre os aplicativos, consulte [desenvolver aplicativos para equipes](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview). 
+## <a name="custom-app-policies-and-settings"></a>Configurações e políticas de aplicativo personalizado
 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
+As equipes permite aos desenvolvedores na sua organização para compilar, testar e implantar aplicativos personalizados para outros usuários. Aplicativos personalizados podem ser adicionados às equipes carregando um pacote de aplicativos em um arquivo. zip diretamente para uma equipe ou o contexto de pessoal. Você pode usar políticas de configuração de aplicativo para controlar quem pode carregar os aplicativos personalizados na sua organização. Você também pode definir configurações de toda a organização para controlar se os usuários podem interagir com aplicativos personalizados específicos.
 
+Para saber mais, vá para [configurações em equipes e gerenciar políticas de aplicativo personalizado](teams-custom-app-policies-and-settings.md).

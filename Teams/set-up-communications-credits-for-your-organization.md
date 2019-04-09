@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: afe1ce61a5c5f137b5123cb530094d6a651ecf7f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 48283d2c8ecaf121457197bf09ffb70afc59803b
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541780"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517067"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de Comunicação para sua organização
 
@@ -76,6 +76,8 @@ Para obter mais informações, consulte [Licenciamento de complemento de equipes
 
       > [!NOTE]
      > Fundos serão aplicados somente ao Communications créditos na Microsoft publicado taxas quando os serviços são usados. Os fundos não usados no prazo de 12 meses a contar da data de compra expirarão e serão cancelados. 
+     > 
+     > Cobrança mensal para comunicação créditos só será aplicado se tiver sido usado o fundo alocados para saber como verificar seu uso mensal, leia [Skype para relatório de uso de PSTN de negócios](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. Insira suas informações de pagamento e clique em **Fazer pedido**.
     >[!IMPORTANT]
@@ -83,7 +85,7 @@ Para obter mais informações, consulte [Licenciamento de complemento de equipes
     
 Cada organização terá o uso de diferente do volume de chamada planejar e taxas a serem considerados. You will need to get this type of usage data from your current service provider. As organizações que já usam Skype para Business Online já como seu provedor de serviços podem obter dados de uso, revisá-lo do **Skype para centro de administração de negócios** > **relatórios** > relatório de**detalhes de uso do PSTN** .
   
-Quando você estiver configurando créditos de comunicações, você precisará investigue o uso de chamada para sua organização determinar os valores que você precisará colocar em. Você pode obter informações de uso de chamadas examinando o relatório **Detalhes de uso de PSTN**. Este relatório permite exportar os registros de dados de chamadas para o Excel, se você deseja exportar os dados para armazenamento ou criar relatórios personalizados. Para ver o uso, consulte [Skype para relatório de uso de PSTN de negócios](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
+Quando você estiver configurando créditos de comunicações, você precisará investigue o uso de chamada para sua organização determinar os valores que você precisa. Você pode obter informações de uso de chamadas examinando o relatório **Detalhes de uso de PSTN**. Este relatório permite exportar os registros de dados de chamadas para o Excel, se você precisar armazenar os dados ou criar relatórios personalizados. Para saber como ver o uso, leia [Skype para relatório de uso de PSTN de negócios](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Etapa 3: Atribuir uma licença de comunicações créditos aos usuários
 
@@ -114,9 +116,9 @@ Para ver uma tabela com a licença ou licenças que são necessárias para cada 
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Configurar o Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+- [Instalar o Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Configurar a caixa postal do Sistema de Telefonia - Ajuda para o administrador](set-up-phone-system-voicemail.md)
+- [Configurar a Caixa Postal na Nuvem - Ajuda da administração](set-up-phone-system-voicemail.md)
     
 - [Configurar Planos de Chamadas](set-up-calling-plans.md) e [Planos de Chamadas para o Office 365](calling-plans-for-office-365.md)
     
