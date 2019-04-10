@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft é retirada de Unificação de mensagens (ExchUMO) serviço do Exchange Online por de 2020 fevereiro. Este artigo resume o que afetaram os clientes devem saber e fazer para planejar seu continuidade de negócios.
-ms.openlocfilehash: 2622b95e8bae7d5721665c5691c1c76691207e74
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: e318e6aac1e4c5ab2b9934fd655dc3112120f36b
+ms.sourcegitcommit: 38b501cedfe5fa4ab0126f58926fe2ce4f0cdd0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026241"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31740930"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online  
 
@@ -66,7 +66,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 
 3. **Planejar a migração de atendedor automático**
     
-    Admins pode começar a migrar seus atendedores automáticos de ExchUMO para o atendedor automático da nuvem a qualquer momento. Para obter mais detalhes, consulte [Configurar um atendedor automático de sistema telefônico](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) . Microsoft planos fornecer recursos de atendedor automático adicionais que os clientes considerar essenciais para sua migração por de 2019 março. Os administradores devem avaliar o conjunto de recursos e migrar suas instâncias do atendedor automático de acordo. Para comparação da lista de recursos, consulte a [matriz de recurso de serviços em nuvem ExchUMO e Windows Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Admins pode começar a migrar seus atendedores automáticos de ExchUMO para o atendedor automático da nuvem a qualquer momento. Para obter mais detalhes, consulte [Configurar um atendedor automático de sistema telefônico](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) . Microsoft planos fornecer recursos de atendedor automático adicionais que os clientes considerar essenciais para sua migração por de 2019 março. Os administradores devem avaliar o conjunto de recursos e migrar suas instâncias do atendedor automático de acordo. Para comparação da lista de recursos, consulte a [matriz de recurso de serviços em nuvem ExchUMO e Windows Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Planejar sua validação após a migração de caixa postal e teste**
 
@@ -95,8 +95,8 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 
 | Serviço | Nível de recurso | Recurso | Observações  | Nuvem VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| VM  | Recursos do serviço| Suporte a PBX de terceiros 3rd    |  | N   | Y    |
-| VM | Recursos do serviço  | Suporte Skype para Business Server   |  | Q1CY19 | Y    |
+| VM  | Recursos do serviço| Suporte a PBX de terceiros 3rd    | Incluindo todos os recursos fornecidos para 3º PBX de terceiros, como MWI (indicador de espera de mensagem) usando SIP notificar mensagens do Exchange UM Online | N   | Y    |
+| VM | Recursos do serviço  | Suporte Skype para Business Server   |  | Y | S    |
 | VM | Recursos do serviço | Suporte para as equipes da Microsoft|  | Y | N    |
 | VM | Recursos do serviço | Bloqueio e descoberta eletrônica  | Segurança e conformidade  | S | S    |
 | VM | Recursos do serviço | Suporte de regras do Exchange | Segurança e conformidade  | S | S    |
@@ -119,7 +119,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 | VM | Recursos de usuário | Enviando uma mensagem de voz a um grupo de usuários  |Difusão de caixa postal   | N | Y   |
 | VM | Recursos de usuário | Notificação de caixa postal usando o SMS    | Os usuários podem receber um SMS quando possuem um novo correio de voz    | N | Y    |
 | VM | Recursos de usuário | Idiomas de saudação com suporte | Detalhes aqui:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | Y | S    |
-| VM | Recursos de usuário | Regras de atendimento de chamada |  | Q1CY19 | Y    |
+| VM | Recursos de usuário | Regras de atendimento de chamada |  | Y | S    |
 | VM | Recursos de usuário | Tocar no telefone (PSTN) – para reproduzir a mensagem | Ligar para mim na minha célula para ouvir a mensagem de voz  | N | Y    |
 | VM | Recursos de usuário | Tocar no telefone (Auth) - reproduzir a mensagem | Ligar para mim no meu dispositivo autenticado  | Y | S    |
 | VM | Recursos de usuário | Caixa de correio compartilhada entre vários usuários |  | Y | S    |

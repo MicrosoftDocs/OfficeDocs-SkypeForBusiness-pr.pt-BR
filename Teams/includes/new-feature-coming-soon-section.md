@@ -1,0 +1,1 @@
+Esse recurso ainda não foi liberado. Ela será foi anunciada e estarão disponíveis em breve.Se você for um administrador, você pode descobrir quando esse recurso será lançado no Centro de mensagens (no [Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home)).

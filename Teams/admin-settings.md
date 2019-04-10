@@ -18,19 +18,17 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 034ac8eeb5529179013540b1911a7bbc34b49014
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 1caac1d6d96b93f686e4eb0fe71e39248da30f11
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520144"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749665"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurações de administração para aplicativos no Microsoft Teams
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
-
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
 
 Aplicativos fornecem da caixa ferramentas para sua organização aproveitar ao máximo sem equipes. Esses aplicativos combinam a funcionalidade de guias, extensões de mensagens, conectores e bots fornecidos pela Microsoft, criada por terceiros ou por desenvolvedores em sua organização.
 
@@ -38,7 +36,7 @@ Você pode gerenciar aplicativos para sua organização no **equipes apps** no C
 
 ## <a name="app-permission-policies"></a>Políticas de permissão de aplicativo
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 Com as diretivas de permissão do aplicativo, você pode bloquear ou permitir aplicativos, toda a organização ou para usuários específicos.  Quando você bloqueia um aplicativo, todas as interações com esse aplicativo são desabilitadas e o aplicativo não aparece em equipes para usuários.
 
@@ -52,7 +50,7 @@ Para saber mais, vá para [Gerenciar políticas de permissão de aplicativo em e
 
 ## <a name="app-setup-policies"></a>Políticas de configuração de aplicativo
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Políticas de configuração de aplicativo permitem que você personalizar a experiência de aplicativo para seus usuários. Você escolher os aplicativos que você deseja fixar para a barra de aplicativos nos clientes de equipes e a ordem em que eles aparecem, na web, desktop e clientes móveis.
 
@@ -64,7 +62,7 @@ Para saber mais, veja [Gerenciar políticas de configuração de aplicativo em e
 
 ## <a name="custom-app-policies-and-settings"></a>Configurações e políticas de aplicativo personalizado
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 As equipes permite aos desenvolvedores na sua organização para compilar, testar e implantar aplicativos personalizados para outros usuários. Aplicativos personalizados podem ser adicionados às equipes carregando um pacote de aplicativos em um arquivo. zip diretamente para uma equipe ou o contexto de pessoal. Você pode usar políticas de configuração de aplicativo para controlar quem pode carregar os aplicativos personalizados na sua organização. Você também pode definir configurações de toda a organização para controlar se os usuários podem interagir com aplicativos personalizados específicos.
 
