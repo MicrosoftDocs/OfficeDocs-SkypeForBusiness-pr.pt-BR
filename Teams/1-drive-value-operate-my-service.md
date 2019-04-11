@@ -15,12 +15,12 @@ description: Tarefas e atividades necessárias para gerenciamento de serviço de
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbf0da1cab0f350b9abc7b01e6583e54a996c687
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 47628a52d91c3a9d0492accf9bcb8bce926f3649
+ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569475"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "31765177"
 ---
 # <a name="operate-my-service"></a>Operar meu serviço
 
@@ -440,7 +440,7 @@ Mesmo que ter seguido as diretrizes anteriores, usuários em sua organização a
 
 4.  **Visite a comunidade do Microsoft Teams:** [Comunidade de equipes da Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) oferece espaços dedicados para equipes. A comunidade de equipes fornece uma lista de discussão, postagens de blog e centralizados em torno de equipes de comunicados. Você pode postar uma pergunta ou discussões anteriores para soluções de pesquisa ao seu problema.
 
-5.  **Entre em contato com o suporte da Microsoft:** Você pode contatar o Microsoft Support para problemas com equipes online ou por telefone. Para obter informações, consulte [suporte para as equipes da Microsoft do contato](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+5.  **Entre em contato com o suporte da Microsoft:** Você pode contatar o Microsoft Support para problemas com equipes online ou por telefone. Para obter informações, consulte [suporte para produtos de negócios do contato](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
     Para Premier clientes, suporte a solicitações podem ser iniciadas seguindo as orientações em [contate o suporte for Microsoft Teams (Premier clientes)](https://support.microsoft.com/premier/contacts).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tarefas diariamente/semanalmente/mensal/conforme necessário
@@ -465,7 +465,7 @@ Mesmo que ter seguido as diretrizes anteriores, usuários em sua organização a
 
 [Verificar a integridade do serviço do Microsoft Teams](service-health.md)
 
-[Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+[Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [Suporte Premier do contato](https://support.microsoft.com/premier/contacts)
 
@@ -514,7 +514,7 @@ Para suportar usuários, uma organização pode exigir qualquer número de taref
 
 Que sua organização cresce ou contrai, é importante que você planeje licenciamento para necessidades atuais e futuras. Não há uma licença de equipes base, além de licenciamento para recursos de voz de nuvem ([Sistema de telefonia](here-s-what-you-get-with-phone-system.md) e [Conferência de áudio](https://products.office.com/skype-for-business/audio-conferencing)).
 
-Para equipes, as licenças de sistema telefônico exigem licenças [Chamar planejar](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) associadas. Chamar o plano de licenciamento permite fazer e receber chamadas de telefone internacionais e/ou domésticas. Esses planos são baseados em uso e tem pools minutos associados a eles. Provisionamento [Communications créditos](what-are-communications-credits.md) garantirá que você nunca executar fora de serviço.
+Para equipes, as licenças de sistema telefônico exigem licenças de [Planos de chamar](calling-plan-landing-page.md) associadas. Chamar o plano de licenciamento permite fazer e receber chamadas de telefone internacionais e/ou domésticas. Esses planos são baseados em uso e tem pools minutos associados a eles. Provisionamento [Communications créditos](what-are-communications-credits.md) garantirá que você nunca executar fora de serviço.
 
 Serviços de audioconferência permite a conferência discada tolled e serviços de conferência de discagem domésticas. Conferência discada gratuita ou não-doméstico cenários de discagem podem causar a incorrer em encargos adicionais para os quais [Comunicações créditos](what-are-communications-credits.md) são necessários.
 
