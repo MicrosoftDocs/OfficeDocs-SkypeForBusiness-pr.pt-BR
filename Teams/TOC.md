@@ -101,6 +101,7 @@
 #### [Instalar o Teams usando MSI](msi-deployment.md)
 #### [Habilitar o Teams em sua organização](Office-365-set-up.md)
 #### [URLs e intervalos de endereços IP do Office 365](office-365-urls-ip-address-ranges.md)
+#### [Teams para infraestruturas de área de trabalho virtualizada (VDI)](teams-for-vdi.md)
 #### [Implantar o Teams para o Surface Hub](teams-surface-hub.md)
 
 ### Licenças
@@ -144,7 +145,7 @@
 ### [Tutorial: Audioconferência no Teams](Tutorial-Audio-Conferencing.yml)
 ### [Experimentar ou comprar audioconferência no Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Período de discagem gratuita da audioconferência](complimentary-dial-out-period.md)
-
+### [Benefício da assinatura de Audioconferência “Discar”/”Ligar para mim”](audio-conferencing-subscription-dial-out.md)
 
 ### [Configurar audioconferência no Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
@@ -702,7 +703,7 @@
 
 ## Solucionar problemas e suporte
 ### [Problemas conhecidos do Teams](Known-issues.md)
-### [Recursos de suporte para o Teams](support-resources.md)
+### [Recursos de suporte para o Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Solucionar problemas de conectividade do cliente Teams](connectivity-issues.md)
 ### [Usar arquivos de registro para solucionar problemas no Teams](log-files.md)
 ### [Verificar a integridade do serviço para o Teams](service-health.md)
