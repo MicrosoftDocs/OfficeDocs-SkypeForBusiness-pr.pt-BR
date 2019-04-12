@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como planejar o bypass de mídia com roteamento direto de sistema do telefone.
-ms.openlocfilehash: 308150121733f5f135d248404c663634ddaeea7c
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: b3a31e23ef065840d830c111c64e0618d90aa71b
+ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517243"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31827877"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -66,7 +66,7 @@ Se o usuário tem acesso direto para o endereço IP público do SBC, o fluxo de 
 
 O diagrama a seguir mostra o fluxo de chamadas quando o desvio de mídia está habilitado, o cliente é interno e o cliente pode alcançar o endereço IP público do SBC (direct media): 
 
-- As setas e os valores numéricos dos caminhos estejam de acordo com o documento Microsoft equipes Online fluxos de chamada.
+- As setas e os valores numéricos dos caminhos estejam de acordo com o artigo de [fluxos de chamada de equipes da Microsoft](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
 
 - Sempre a sinalização SIP leva caminhos 4 e 4' (dependendo da direção do tráfego). Mídia permanece local e leva 5b caminho.
 
@@ -87,7 +87,7 @@ Por exemplo, suponha que o usuário seja externo, e o administrador de locatári
 
 O diagrama a seguir mostra o fluxo de chamadas quando o desvio de mídia está habilitado, o cliente for externo e o cliente não consegue acessar o endereço IP público do controlador de borda de sessão (mídia é retransmitida por equipes retransmissão de transporte).
 
-- As setas e os valores numéricos dos caminhos estejam de acordo com o documento Microsoft equipes Online fluxos de chamada.
+- As setas e os valores numéricos dos caminhos estejam de acordo com o artigo de [fluxos de chamada de equipes da Microsoft](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
 
 - Mídia é retransmitida via caminhos 3, 3', 4 e 4'
 
@@ -101,7 +101,7 @@ O diagrama a seguir mostra o fluxo de chamadas quando o desvio de mídia está h
 
 O diagrama a seguir mostra o fluxo de chamadas quando o desvio de mídia está habilitado, o cliente for externo e o cliente pode alcançar o endereço IP público do SBC (direct mídia).
 
-- As setas e os valores numéricos dos caminhos estejam de acordo com o documento Microsoft equipes Online fluxos de chamada.
+- As setas e os valores numéricos dos caminhos estejam de acordo com o artigo de [fluxos de chamada de equipes da Microsoft](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
 
 - Sempre a sinalização SIP leva caminhos 3 e 3' (dependendo da direção do tráfego). Fluxos de mídia usando o caminho 2.
 
@@ -125,7 +125,7 @@ O diagrama a seguir mostra dois fluxos de chamada – um com bypass de mídia ha
 
 - O Proxy SIP é um componente que converte a sinalização de HTTP REST usados em equipes para SIP.    
 
-![Mostra mostra dois fluxos de chamada – um com Bypass de mídia habilitado e o segundo com Bypass de mídia é desabilitado)](media/direct-routing-media-bypass-6.png)
+![Mostra dois fluxos de chamada – um com Bypass de mídia habilitado e o segundo com Bypass de mídia desabilitado)](media/direct-routing-media-bypass-6.png)
 
 
 A tabela a seguir resume a diferença entre os processadores de mídia e retransmissões de transporte.

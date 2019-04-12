@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Leia este tópico para saber mais sobre como configurar contas para salas de equipes da Microsoft no Exchange e Skype para negócios.
-ms.openlocfilehash: cbff055a80a156deab0446e5da08fa4fe9bb3808
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 7606f31dde96236111b4a44919427245fa32215d
+ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012888"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31828948"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurar contas para salas de equipes da Microsoft
  
@@ -52,7 +52,7 @@ Cada conta de dispositivo é exclusiva para um único dispositivo de salas de eq
 - Sua infra-estrutura deve ser configurada para permitir a salas de equipes da Microsoft para validar a conta do dispositivo e acessar os serviços Microsoft apropriados.
     
 > [!IMPORTANT]
-> É recomendável que a conta seja criada antes da instalação do hardware. O ideal é iniciar a preparação da conta de duas a três semanas antes da instalação. 
+> É recomendável que a conta seja criada antes da instalação do hardware. O ideal é iniciar a preparação da conta de duas a três semanas antes da instalação. Em ambientes híbridos, a conta usada para salas de equipes da Microsoft deve ter habilitada no Sync AAD porque a autenticação de salas de equipes da Microsoft requer autenticação de 365 0ffice de sincronização de senha.
   
 Você pode considerar uma conta do dispositivo como a conta do recurso que pessoas reconhecem como conta de uma conferência da sala ou uma reunião do espaço. Para agendar uma reunião usando essa sala de conferência, convide a conta para essa reunião. Para usar o Microsoft equipes salas mais eficiência, faça o mesmo com a conta de dispositivo que é atribuída a cada uma delas.
   
