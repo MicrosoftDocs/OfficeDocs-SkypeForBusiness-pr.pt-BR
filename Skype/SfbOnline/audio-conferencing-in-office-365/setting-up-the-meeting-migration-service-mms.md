@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Serviço de migração (MMS) de reunião é um serviço executado em segundo plano e que é atualizado automaticamente Skype para reuniões de negócios e Teams da Microsoft para usuários. MMS foi projetado para eliminar a necessidade de usuários executar a ferramenta de migração de reunião para atualizar seu Skype para reuniões de negócios e Teams da Microsoft.
-ms.openlocfilehash: e700725fc95957647bea8fe44d6a73a34bd16ab8
-ms.sourcegitcommit: 2d79898281258e123a86d9a0a2bc1211ee6b039e
+description: Serviço de migração (MMS) de reunião é um serviço executado em segundo plano e que é atualizado automaticamente Skype para reuniões de negócios e Teams da Microsoft para usuários. MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
+ms.openlocfilehash: 90953f1352f54a8411513a78ccfda8bfb5356883
+ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28019572"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31836852"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Usando o serviço de migração de reunião (MMS)
 
@@ -41,7 +41,7 @@ O serviço de migração de reunião (MMS) é um serviço que atualiza reuniões
 Por padrão, MMS é acionado automaticamente em cada um desses casos, embora os administradores podem desabilitá-lo no nível do locatário. Além disso, os administradores podem usar um cmdlet do PowerShell para disparar manualmente a migração de reunião para um determinado usuário.
 
 > [!NOTE]
-> A capacidade de converter Skype para reuniões de negócios para reuniões de equipes e a capacidade de atualizar reuniões existentes de equipes para modificar as definições de audioconferência é atualmente limitado somente a clientes de toque.
+> A capacidade de converter Skype para reuniões de negócios para reuniões de equipes e a capacidade de atualizar reuniões existentes de equipes para modificar as definições de audioconferência é atualmente limitado somente a clientes de toque. A Microsoft espera disponibilizar essa funcionalidade para todos os clientes um dia em maio de 2019.
 
 **Limitações**: A reunião não pode ser usado o serviço de migração se qualquer uma das seguintes se aplicar:
 
@@ -113,7 +113,7 @@ Nem todas as alterações nas configurações de conferência de áudio de um us
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>Atualizando reuniões ao atribuir TeamsUpgradePolicy
 
 > [!NOTE]
-> Esta seção descreve a funcionalidade que atualmente só está disponível para os clientes de toque.
+> Esta seção descreve a funcionalidade que atualmente só está disponível para os clientes de toque. A Microsoft espera disponibilizar essa funcionalidade para todos os clientes um dia em maio de 2019.
 
 Por padrão, migração de reunião será automaticamente acionada quando um usuário recebe uma instância de `TeamsUpgradePolicy` com `mode=TeamsOnly` ou `mode= SfBWithTeamsCollabAndMeetings`. Se você não deseja migrar reuniões quando a concessão de ambos os modos, em seguida, especifique `MigrateMeetingsToTeams $false` em `Grant-CsTeamsUpgradePolicy`.
 
@@ -146,7 +146,7 @@ Usando o Windows PowerShell, você pode verificar o status das migrações em an
 
 ### <a name="check-the-status-of-meeting-migrations"></a>Verificar o status de migrações de reunião
 
-Você usa o `Get-CsMeetingMigrationStatus` cmdlet para verificar o status de migrações de reunião. Veja alguns exemplos a seguir.
+Você usa o `Get-CsMeetingMigrationStatus` cmdlet para verificar o status de migrações de reunião. Abaixo estão alguns exemplos.
 
 - Para obter um status de resumo de todas as migrações do MMS, execute o seguinte comando que fornece uma exibição tabular de todos os estados de migração:
 
@@ -172,7 +172,7 @@ Você usa o `Get-CsMeetingMigrationStatus` cmdlet para verificar o status de mig
     ```
 Se você vir qualquer migrações que falharam, execute a ação para resolver esses problemas assim que possível, desde que as pessoas não conseguirá dial-in para as reuniões organizadas por esses usuários até que você resolvê-los. Se `Get-CsMeetingMigrationStatus` mostra qualquer migrações em estado falho, execute estas etapas:
  
-1. Determine quais usuários são afetados. Execute o comando a seguir para obter a lista de usuários afetados e o erro específico que foi informado:
+1. Determine quais usuários são afetados. Execute o seguinte comando para obter a lista de usuários afetados e o erro específico que foi relatado:
 
     ```
     Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table Identity, LastMessage
@@ -211,6 +211,6 @@ Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Experimentar ou comprar audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
 [Mover usuários entre locais e em nuvem](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
