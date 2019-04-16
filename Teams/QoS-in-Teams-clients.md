@@ -15,14 +15,14 @@ MS.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1f80ede0432c3666a1974b1e0c8d7fa3dc2bbfc
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 101deb10cf3d86dbc97116cad269556683d03be4
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408263"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869842"
 ---
-# <a name="set-qos-on-windows-clients"></a>Conjunto de QoS nos clientes do Windows
+# <a name="set-qos-on-windows-clients"></a>Definir o QoS em clientes do Windows
 
 Você pode usar a QoS baseada em diretivas dentro da diretiva de grupo para definir o intervalo de porta de origem para o valor DSCP predefinido no cliente equipes. Os intervalos de porta especificados na tabela a seguir são um ponto de partida para criar uma política para cada carga de trabalho.
 
@@ -37,7 +37,7 @@ Tipo de tráfego de mídia| Intervalo de porta de origem do cliente |Protocolo|V
 
 Sempre que possível, configure as configurações de QoS baseada em diretivas dentro de um objeto de diretiva de grupo. As etapas a seguir serão bastante similares às [Configurando intervalos de porta e uma política de qualidade de serviço para seus clientes em Skype para Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), que tem alguns detalhes adicionais que talvez não seja necessários.
 
-Para criar uma política de QoS de áudio para computadores que ingressaram dominio Windows 10, primeiro faça logon em um computador no qual o gerenciamento de diretiva de grupo tenha sido instalado. Abra Gerenciamento de diretiva de grupo (clique em Iniciar, aponte para ferramentas administrativas e clique em gerenciamento de diretiva de grupo) e, em seguida, conclua as seguintes etapas:
+Para criar uma política de QoS de áudio para computadores associados a um domínio do Windows 10, primeiro faça logon em um computador no qual o gerenciamento de diretiva de grupo tenha sido instalado. Abra Gerenciamento de diretiva de grupo (clique em Iniciar, aponte para ferramentas administrativas e clique em gerenciamento de diretiva de grupo) e, em seguida, conclua as seguintes etapas:
 
 1. Em gerenciamento de diretiva de grupo, localize o contêiner onde a nova diretiva deve ser criada. Por exemplo, se todos os computadores cliente estão localizados em uma unidade Organizacional denominada **clientes**, a nova diretiva deve ser criada na unidade Organizacional cliente.
 

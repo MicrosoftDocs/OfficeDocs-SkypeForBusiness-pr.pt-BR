@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76367a02920500a8e329ff5a2fa984f922d763ca
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4bfbc65edac21c39a7135588d420c3515344d45d
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465040"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869818"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação do usuário")
 
@@ -36,7 +36,7 @@ Este artigo faz parte do estágio de preparação de usuários de sua atualizaç
 Para obter o valor máximo de equipes, os usuários devem realmente usá-lo, mas obtendo usuários alterar a maneira como eles funcionam nem sempre é fácil. Demorando para entender os usuários e projetar o plano de preparação direita pode ajudar a facilitar a alteração e acelerar a adoção das equipes. Essas atividades devem ser concluídas em paralelo com a preparação da preparação técnica:
 
 - [Avaliando organizacional alterar preparação](https://aka.ms/OrgReadiness): Isso inclui a compreensão quem são os usuários, como eles usará a nova tecnologia e como prontamente eles se adaptar para alterar. Isso também é uma oportunidade para identificar os perfis de usuário específicos que beneficiam de inclusão focado.
-- [Preparar um plano de preparação do usuário](https://aka.ms/UserReadinessPlan): consistindo divulgação, treinamento e atividades de suporte, o seu plano de preparação deve abranger ambas sua base de usuários ampla e voltadas perfis, como identificados no artigo [como avaliar a preparação de alteração](https://aka.ms/OrgReadiness) .
+- [Preparar um plano de preparação do usuário](https://aka.ms/UserReadinessPlan): consistindo em atividades de suporte, treinamento e divulgação, seu plano de preparação deve abranger sua base de usuários ampla e o direcionado perfis, conforme identificado no artigo [como avaliar a preparação de alteração](https://aka.ms/OrgReadiness) .
 
 > [!Tip]
 > Baixe o [Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit) para materiais de preparação do usuário de modelo, como communications e pesquisas de usuário, além de um plano de teste piloto e um exemplo de plano de projeto de atualização.

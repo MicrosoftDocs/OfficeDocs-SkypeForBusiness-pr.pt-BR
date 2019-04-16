@@ -13,57 +13,57 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 appliesto: Microsoft Teams
-description: Parceiros da Microsoft com fornecedores SBC selecionados para certificar a seus SBCs funcionam com o roteamento direto.
+description: A Microsoft faz parceria com fornecedores selecionados de SBC (controlador de borda da sessão) para garantir que seus SBCs sejam compatíveis com o Roteamento Direto.
 ms.openlocfilehash: 142cda95c8bd45e3e52059863ad837927e144aa7
 ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/11/2019
 ms.locfileid: "31808042"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
-Parceiros da Microsoft com selecionado fornecedores de controladores de borda de sessão (SBC) para certificar que seus trabalhos SBCs com o roteamento direto. 
+A Microsoft faz parceria com fornecedores selecionados de Controlador de Borda da Sessão (SBC) para garantir que seus SBCs sejam compatíveis com o Roteamento Direto. 
 
-Com cada fornecedor, Microsoft: 
+Em relação a cada fornecedor, a Microsoft: 
 
-- Funciona em conjunto com os fornecedores SBC nos protocolos interconexão SIP.
-- Realiza testes intensos por meio de um laboratório de terceiros; somente os dispositivos que passaram nos testes são certificados. 
-- Executa testes diários com todos os dispositivos de certificados em ambientes de produção e de pré-produção. Validar os dispositivos em ambientes de pré-produção e garante que as novas versões de código de roteamento direto na nuvem funcionará com certificados SBCs. 
-- Tem um processo de suporte em conjunto com os fornecedores SBC.
+- Trabalha em conjunto com os fornecedores de SBCs nos protocolos de interconexão SIP.
+- Realiza testes intensivos por meio de um laboratório de terceiros; somente os dispositivos aprovados nos testes são certificados. 
+- Realiza testes diários com todos os dispositivos certificados em ambientes de produção e pré-produção. A validação dos dispositivos em ambientes de pré-produção garante que as novas versões do código de Roteamento Direto na nuvem funcionarão com os SBCs certificados. 
+- Tem um processo de suporte conjunto com os fornecedores de SBCs.
 
 
   > [!NOTE]
-  > Microsoft suporta apenas o sistema telefônico se um dispositivo de certificados ou dispositivos conectados por meio de roteamento direto. A Microsoft se reserva o direito de rejeitar casos de suporte em que um dispositivo não certificados está conectado ao sistema telefônico via roteamento direto. 
+  > A Microsoft dará suporte ao Sistema de Telefonia somente se um ou vários dispositivos certificados estiverem conectados via Roteamento Direto. A Microsoft se reserva o direito de rejeitar casos de suporte em que há um dispositivo não certificado conectado ao Sistema de Telefonia via Roteamento Direto. 
 
-A tabela abaixo lista os dispositivos de certificados para o roteamento direto. 
+A tabela a seguir lista os dispositivos certificados para Roteamento Direto. 
 
-[Saiba mais sobre o roteamento direto](https://aka.ms/dr). Se você tiver alguma dúvida sobre o programa de certificação de SBC para roteamento direto envie um e-mail para drsbccertification@microsoft.com
+[Saiba mais sobre o Roteamento Direto](https://aka.ms/dr). Se tiver alguma dúvida sobre o programa de certificação de SBCs para Roteamento Direto, envie um email para drsbccertification@microsoft.com
 
 
-|                                                       Fornecedor                                                        |       Produto       | Bypass de mídia não | Bypass de mídia | Versão do software |
+|                                                       Fornecedor                                                        |       Produto       | Sem bypass de mídia | Bypass de mídia | Versão do software |
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     & #10004;     |   & #10004;    |  7.20A.250.003   |
-|                                                                                                                     |   Mediant 800 SBC   |     & #10004;     |   & #10004;     |  7.20A.250.003   |
-|                                                                                                                     |  Mediant 2600 SBC   |     & #10004;     |   & #10004;    |  7.20A.250.003   |
-|                                                                                                                     |  Mediant 4000 SBC   |     & #10004;     |   & #10004;     |  7.20A.250.003   |
-|                                                                                                                     | Mediant 1000B SBC  |     & #10004;     |   & #10004;     |  7.20A.250.003   |
-|                                                                                                                     | Virtual Edition SBC |     & #10004;     |   & #10004;     |  7.20A.250.003  |
-|  [Comunicações de faixa de opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     & #10004;     |   & #10004;    |       6.2       |
-|                                                                                                                     |      SBC 5210       |     & #10004;     |  & #10004;    |       6.2       |
-|                                                                                                                     |      SBC 5400       |     & #10004;     |   & #10004;   |       6.2       |
-|                                                                                                                     |      SBC 7000       |     & #10004;     |   & #10004;    |       6.2       |
-|                                                                                                                     |       SBC SWe       |     & #10004;     |   & #10004;   |       6.2       |
-|                                                                                                                     |      SBC 1000       |     & #10004;     |   & #10004;    |      v8.0.1     |
-|                                                                                                                     |      SBC 2000       |     & #10004;     |   & #10004;   |     v8.0.1     |
-|                                                                                                                     |    SBC SWe Lite     |     & #10004;     |  & #10004;    |      v8.0.1    |
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Pense SBC 365    |     & #10004;     |   Pendente    |       V 1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    & #10004;     |    & #10004;    |   8.3.0.0.1 |
-|                                                                                                                    |    AP 3900           |    & #10004;     |    & #10004;   |   8.3.0.0.1  | 
-|                                                                                                                    |      AP 4600         |    & #10004;   |    & #10004;     |     8.3.0.0.1  |
-|                                                                                                                    |      AP 6300         |    & #10004;   |    & #10004;     |     8.3.0.0.1  |
-|                                                                                                                   |      AP 6350           |    & #10004;   |    & #10004;    |     8.3.0.0.1  |                                             
-|                                                                                                                    |      VME           |    & #10004;    |    & #10004;    |     8.3.0.0.1   |
-|                     [SISTEMAS DE TE](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     & #10004;   |  & #10004;   |      V3.16.2      |
+| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20A.250.003   |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20A.250.003   |
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20A.250.003   |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20A.250.003   |
+|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   &#10004;     |  7.20A.250.003   |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20A.250.003  |
+|  [Comunicações da faixa de opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V6.2       |
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V6.2       |
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V6.2       |
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V6.2       |
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V6.2       |
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v8.0.1     |
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v8.0.1     |
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v8.0.1    |
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Pendente    |       V1.4       |
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |
+|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  | 
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |                                             
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |
 
-Para envie seus comentários sobre o produto sobre equipes, como ideias para novos recursos, visite [Uservoice](https://microsoftteams.uservoice.com)
+Para nos fornecer comentários sobre o Teams, como ideias para novos recursos, acesse [Uservoice](https://microsoftteams.uservoice.com)

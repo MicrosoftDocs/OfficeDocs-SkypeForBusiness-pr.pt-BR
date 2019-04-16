@@ -1,9 +1,9 @@
 ---
-title: Política de chamada no Microsoft Teams
+title: Políticas de chamada no Microsoft Teams
 author: LolaJacobsen
 ms.author: tonysmit
 manager: serdars
-ms.date: 04/12/2019
+ms.date: 04/15/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
@@ -17,14 +17,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c97fd5ff9228d0761f55f2f56b9a908cc3861c29
-ms.sourcegitcommit: 82490c2ef74900c348c14968b605a313b5bf3078
+ms.openlocfilehash: 20dc75dfeb39fbd7a00e6c389dc923617265cc0b
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2019
-ms.locfileid: "31860254"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869802"
 ---
-<a name="calling-policy-in-microsoft-teams"></a>Política de chamada no Microsoft Teams
+<a name="calling-policies-in-microsoft-teams"></a>Políticas de chamada no Microsoft Teams
 ==========================================
 
 No Microsoft Teams, chamando políticas controlam quais chamadas e recursos de encaminhamento de chamadas estão disponíveis aos usuários. As políticas de chamada determinam se um usuário pode fazer chamadas privadas, use o encaminhamento de chamadas ou usam rotear as chamadas para caixa postal, chamadas de envio para grupos de chamada, toque para outros usuários ou números de telefone externo simultâneo, delegação para chamadas de entrada e saídas, e assim por diante. Uma política global de padrão é criada automaticamente, mas os administradores também podem criar e atribuir políticas personalizadas de chamada.
@@ -41,6 +41,14 @@ No Microsoft Teams, chamando políticas controlam quais chamadas e recursos de e
 |Permite a delegação de chamadas de entrada e saídas | Permite que as chamadas de entrada sejam roteadas para os representantes; permite que representantes para fazer chamadas de saída em nome dos usuários para o qual eles têm permissões delegadas. |
 |Impedir que o desvio de Chamada Tarifada e enviar chamadas pela PSTN | Essa configuração para **ativado** enviará chamadas através de PSTN e incorrer encargos em vez de utilizar a rede e obter isenção das tarifas. |
 |Ocupado em ocupado está disponível durante uma chamada.| Configura as chamadas recebidas como são manipulados quando um usuário já estiver em uma chamada ou conferência. Chamadas de entrada ou novas podem ser rejeitadas com um sinal de ocupado. |
+
+### <a name="busy-options-busy-on-busy-setting"></a>Opções de ocupado (ocupado na configuração ocupado)
+
+Opções de disponibilidade é uma nova configuração em equipes chamadas diretivas que permite que você configure as chamadas de entrada como são manipuladas quando um usuário já estiver em uma chamada ou conferência ou colocou uma chamada em espera. Chamadas de entrada ou novas podem ser rejeitadas com um sinal de ocupado. Você pode habilitar opções de disponibilidade em um nível de locatário ou em um nível de usuário. 
+
+Independentemente de como suas opções de disponibilidade são configuradas, os usuários em uma chamada ou conferência ou aqueles com uma chamada em espera não são impedidos desde o início de novas chamadas ou conferências.
+
+Você pode usar o ocupado na configuração ocupada em chamar as configurações de diretiva para configurar as opções de disponibilidade. Essa configuração é desabilitada por padrão.
 
 ## <a name="create-a-custom-calling-policy"></a>Criar uma política personalizada de chamada
 
