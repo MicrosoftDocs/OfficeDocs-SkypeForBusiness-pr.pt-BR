@@ -61,6 +61,7 @@
 ### [Gerenciar recursos do Teams em sua organização](enable-features-office-365.md)
 ### [Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [Gerenciar o Teams no Centro de administração do Microsoft Teams](manage-teams-in-modern-portal.md)
+### [Gerenciar a versão gratuita do Teams](manage-freemium.md)
 ### [Atribuir proprietários e membros da equipe no Teams](assign-roles-permissions.md)
 ### [Configurar o aplicativo de Reuniões do Skype para trabalhar com as equipes](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Comunicar-se com os usuários do Teams em outras organizações](let-your-teams-users-communicate-with-other-people.md)
@@ -325,6 +326,7 @@
 #### [Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams](answer-auto-attendant-and-call-queue-calls.md)
 ### [Recuperação e estacionamento de chamadas](call-park-and-retrieve.md)
 ### [Atendimento de chamada de grupo e compartilhamento de chamada](call-sharing-and-group-call-pickup.md)
+### [Política de chamada](teams-calling-policy.md)
 ### [Aparência de linha compartilhada](shared-line-appearance.md)
 
 ## [Planos de chamadas](calling-plan-landing-page.md)
