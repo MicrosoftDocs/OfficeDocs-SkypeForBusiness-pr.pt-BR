@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 4cfb143bc8d86bbd5340cb7dddc203563ec1d093
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a8660693fefdca2ecfdfe327927e89431d0fe5db
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896081"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914566"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Veja aqui o que você obtém com o Sistema de Telefonia no Office 365
 
@@ -44,7 +44,7 @@ Usando o sistema telefônico, seu Skype para usuários comerciais receberá os s
 |||
 |:-----|:-----|
 |**Sistema telefônico no recurso do Office 365** <br/> |**Descrição** <br/> |
-|[O que são atendedores automáticos do Sistema de Telefonia?](what-are-phone-system-auto-attendants.md) <br/> |Sistema telefônico atendedores automáticos podem ser usados para criar um sistema de menu para a sua organização que permite que os chamadores externos e internos mover através de um sistema de menu localizar e colocar ou transferir chamadas para usuários da empresa ou departamentos na organização.  <br/> |
+|[Cite atendedores automáticos de nuvem.](what-are-phone-system-auto-attendants.md) <br/> |Atendedores automáticos de nuvem podem ser usados para criar um sistema de menu para a sua organização que permite externo e internos chamadores mover através de um sistema de menu localizar e colocar ou transferir chamadas para usuários da empresa ou departamentos na organização.  <br/> |
 |Responder/iniciar chamadas (por nome e número)  <br/> |Responder a chamadas de entrada com um toque e fazer chamadas de saída discando o número telefônico completo ou clicando em um nome no Skype for Business ou no Outlook.  <br/> |
 |[Defina opções de encaminhamento de chamadas no Skype for Business](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Faça ou atenda chamadas em nome de um gerente com o qual você trabalha. As notificações deixam claro para todos os participantes quando as chamadas estão sendo atendidas ou feitas por outra pessoa.  <br/> |
 |[Encaminhamento de chamadas e toque simultâneo](https://support.office.com/article/967d9aaf-3fed-448b-ab96-40bbc9a11a20) <br/> |Esses recursos permitem configurar regras de encaminhamento para que suas chamadas possam acompanhá-lo em qualquer lugar e para que você possa encaminhar chamadas para colegas de trabalho ou para a caixa postal.  <br/> |
@@ -52,7 +52,7 @@ Usando o sistema telefônico, seu Skype para usuários comerciais receberá os s
 |Chamada em espera/recuperar  <br/> | Use quando várias chamadas ocorrerem ao mesmo tempo. Quando você atender ou fizer outra chamada, a chamada atual ficará em modo de espera automaticamente. <br/> |
 |[Transferir uma chamada do Skype for Business](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |Transfira chamadas para outra pessoa. Ou, se você precisar sair do escritório mas quiser continuar a conversa, você pode transferir as chamadas do seu telefone IP ou PC para seu telefone celular ou tablet.  <br/> |
 |ID do Chamador  <br/> |Chamadas de dentro da empresa exibem uma ID de chamada que obtém as informações do diretório corporativo, mostrando a foto e o cargo, em vez de apenas um número de telefone.  <br/> |
-|[Criar uma fila de chamada no Sistema Telefônico](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Telefonema de sistema filas incluem saudações que são usadas quando alguém chama um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que chamada está escutando a música em espera.  <br/> |
+|[Criar uma fila de chamada de nuvem](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Filas de chamada de nuvem incluem saudações que são usadas quando alguém ligar para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que são de chamada escutando música em espera.  <br/> |
 |[Diga-me quando o status de alguém mudar](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | Esse recurso permite que você marque pessoas que estão atualmente indisponíveis. Assim, você receberá uma notificação quando uma dessas pessoas estiver pronta para receber telefonemas. <br/> |
 |Clientes para PC, Mac e Mobile  <br/> | Isso lhe discando recursos em dispositivos, tablets e celulares PCs e telefones de mesa IP. <br/> |
 |Alternância de dispositivo  <br/> |Habilita você a fazer a chamada ou reunião em outro dispositivo.  <br/> |
@@ -65,7 +65,7 @@ Usando o sistema telefônico, seu Skype para usuários comerciais receberá os s
 |Skype e chamadas de federados  <br/> |Você pode pesquisar por qualquer pessoa no diretório Skype, e depois com segurança conectem, se comunicar e colaborar com eles.  <br/> |
 |[Defina opções de encaminhamento de chamadas no Skype for Business](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Envia as chamadas para sua equipe imediatamente ou após um período de tempo determinado.  <br/> |
 |[Fazer e receber uma chamada de vídeo usando o Skype for Business](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Você pode ver o nome do interlocutor e a transmissão de vídeo em uma pequena janela flutuante. Assim, você sempre estará pronto para responder a perguntas. <br/> |
-|[Verificar a caixa postal e as opções do Skype for Business](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Aqui está o funcionamento da caixa postal do sistema telefônico: quando um usuário recebe uma caixa postal, ele é entregue a suas caixas de correio como um email com a mensagem de caixa postal como um anexo. Também é possível ouvir suas mensagens através de um telefone de mesa certificado pelo Skype, em todos os aplicativos do Skype for Business ou no Lync for Mac 2011.  <br/> Caixa postal do sistema telefônico inclui saudação personalizada, o indicador de espera de mensagem e responder com chamada. Você pode ter todas as mensagens da caixa postal depositadas em caixas de correio e disponibilizadas pelo Skype for Business em seu computador, dispositivo móvel e telefone IP.  <br/> |
+|[Verificar a caixa postal e as opções do Skype for Business](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Como funciona a caixa postal de nuvem: quando um usuário recebe uma caixa postal, ele é entregue a suas caixas de correio como um email com a mensagem de caixa postal como um anexo. Também é possível ouvir suas mensagens através de um telefone de mesa certificado pelo Skype, em todos os aplicativos do Skype for Business ou no Lync for Mac 2011.  <br/> Caixa postal de nuvem inclui saudação personalizada, o indicador de espera de mensagem e responder com chamada. Você pode ter todas as mensagens da caixa postal depositadas em caixas de correio e disponibilizadas pelo Skype for Business em seu computador, dispositivo móvel e telefone IP.  <br/> |
    
 ## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>Planejar e configurar o sistema telefônico no Office 365
 <a name="bkmk_setup"> </a>
@@ -82,11 +82,11 @@ Consulte estes artigos para planejar e configurar o sistema telefônico na sua e
 
 - [Configurar planos de chamar](set-up-calling-plans.md): Este artigo tem instruções passo a passo para configurar o com seus números de telefone ou para transferir seus números de telefone existente para Skype para negócios.
     
-- [Planejar seu sistema telefônico na solução do Office 365 (PBX nuvem)](https://go.microsoft.com/fwlink/?LinkId=708645): Este artigo dispõe todas as opções de implantação. Ele também tem informações sobre o planejamento de uma solução inteiramente de nuvem. 
+- [Soluções de telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions): Este artigo dispõe todas as opções de implantação. Ele também tem informações sobre o planejamento de uma solução inteiramente de nuvem. 
     
 - [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Saiba quais licenças você precisará comprar para obter o sistema telefônico no Office 365.
     
-- [Configurar a caixa postal do Sistema de Telefonia - Ajuda para administradores](set-up-phone-system-voicemail.md)
+- [Configurar a Caixa Postal na Nuvem - Ajuda da administração](set-up-phone-system-voicemail.md)
     
 - [Descubra o Skype for Business](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): Ajude as pessoas da sua empresa a usar os recursos do Skype for Business. 
 

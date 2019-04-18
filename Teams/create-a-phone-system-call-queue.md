@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Saiba como configurar o sistema telefônico para filas de chamada de sistema telefônico proporcionar um organizacional saudação, música de espera e redirecionando chamadas para chamar agentes em listas de distribuição e grupos de segurança. Você também pode definir o tamanho máximo da fila, o tempo limite e opções de manipulação de chamada.
-ms.openlocfilehash: 1260f74deecefd93dcb9e8d99c4ea5063918a720
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+description: Saiba como configurar o sistema de telefone para filas de chamada de nuvem para proporcionar um organizacional saudação, música de espera e redirecionando chamadas para chamar agentes em listas de distribuição e grupos de segurança. Você também pode definir o tamanho máximo da fila, o tempo limite e opções de manipulação de chamada.
+ms.openlocfilehash: da178761658460812bc1d0330f3540be43c3e6e6
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808058"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914640"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Criar uma fila de chamada no Sistema Telefônico
+# <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada de nuvem
 
-Telefonema de sistema filas incluem saudações que são usadas quando alguém chama um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que chamada está escutando a música em espera. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização.
+Filas de chamada de nuvem incluem saudações que são usadas quando alguém ligar para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que são de chamada escutando música em espera. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização.
   
-Filas de chamada do sistema telefônico podem fornecer:
+Filas de chamada de nuvem podem fornecer:
   
 - Uma saudação organizacional.
 - Música enquanto as pessoas estão aguardando espera.
@@ -76,12 +76,12 @@ Para começar a usar as filas de chamada, é importante lembrar algumas coisas:
   
 - Para saber mais sobre a chamada de planos do Office 365, consulte [sistema telefônico e chamar planos](calling-plan-landing-page.md) e [Chamar planos do Office 365](calling-plans-for-office-365.md).
 
-- Você só pode atribuir Chamada Tarifada e números de telefone de chamada gratuita do serviço que você obteve no **Centro de administração de equipes da Microsoft** ou transferidos do outro provedor de serviços para as filas de chamada do sistema telefônico. Para obter e usar números gratuitos de serviço, você precisará configurar créditos de comunicações.
+- Você só pode atribuir Chamada Tarifada e números de telefone de chamada gratuita do serviço que você obteve no **Centro de administração de equipes da Microsoft** ou transferidos do outro provedor de serviços para as filas de chamada de nuvem. Para obter e usar números gratuitos de serviço, você precisará configurar créditos de comunicações.
 
     > [!NOTE]
     > Números de telefone do usuário (assinante) não podem ser atribuídos a chamada filas-apenas tarifas de serviço ou números de telefone gratuitos podem ser usados.
   
-- Quando você estiver distribuindo as chamadas de entrada de uma fila de espera de chamada de sistema telefônico, esses clientes são suportados para os agentes de chamada:
+- Quando você estiver distribuindo as chamadas de entrada de uma fila de chamada de nuvem, esses clientes são suportados para os agentes de chamada:
 
   - Skype para o cliente de desktop de negócios 2016 (versões de 32 e 64 bits)
 

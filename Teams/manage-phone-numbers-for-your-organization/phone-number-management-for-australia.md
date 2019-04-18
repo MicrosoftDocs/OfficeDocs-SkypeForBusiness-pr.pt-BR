@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre a obtenção e gerenciando números de telefone na Austrália para Skype para Business Online e Teams da Microsoft.
-ms.openlocfilehash: ea2c095f811083b9a453e2d9ecf7ffdb0f737be2
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: b576aa51d3fa5d773b054b8fe8eeb44db3d2b520
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543083"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914681"
 ---
 # <a name="phone-number-management-for-australia"></a>Gerenciamento de números de telefone para a Austrália
 Na Austrália, podemos ter uma parceria com Sprint para a compra e o provisionamento de planos de chamada. Sprint vender chamar planos e fornecem o suporte para gerenciamento número de telefone para números de usuário e de serviço para atendedores automáticos e filas de chamada. No entanto, os números de serviço e licenças para audioconferências serão ainda vendidas e gerenciadas pelo Office 365.
@@ -39,7 +39,7 @@ Para obter mais informações, consulte [gerenciar números de telefone para sua
 |**O que você deseja fazer?**|**Execute estas etapas e baixe os formulários corretos**|
 |:-----|:-----|
 |Obtenha novos números de telefone do usuário para planos de chamar na Austrália.   <br/> |Entre em contato [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan) para novos números de telefone para seus usuários. Eles irá adicionar esses números para sua organização para que você pode atribui-los aos seus usuários. <br/>
-|Se você estiver utilizando a Sprint chamando para o Office 365, você pode obter novos números de telefone de serviço que podem ser usados com os atendedores automáticos de sistema telefônico e filas de chamada da Austrália do sprint. <br/> |Entre em contato [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan) para novos números de telefone. Eles irá adicionar esses números para sua organização para que você pode atribuí-las aos seus atendedores automáticos e filas de chamada. Se você não estiver usando o ato de chamar Sprint, contate o nossa mesa ManagementService de número da Microsoft para obter os números de serviço da Microsoft, [entre em contato conosco](mailto:ptnapac@microsoft.com). <br/>|
+|Se você estiver utilizando a Sprint chamando para o Office 365, você pode obter novos números de telefone de serviço que podem ser usados com os atendedores automáticos de nuvem e filas de chamada da Austrália do sprint. <br/> |Entre em contato [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan) para novos números de telefone. Eles irá adicionar esses números para sua organização para que você pode atribuí-las aos seus atendedores automáticos e filas de chamada. Se você não estiver usando o ato de chamar Sprint, contate o nossa mesa ManagementService de número da Microsoft para obter os números de serviço da Microsoft, [entre em contato conosco](mailto:ptnapac@microsoft.com). <br/>|
 |Obtenha novos números de telefone do serviço de conferência de áudio na Austrália.   <br/> |[Entre em contato conosco](mailto:ptnapac@microsoft.com).|
 |Obtenha números de telefone transferidos para o Office 365 para usuários, atendedores automáticos e filas de espera de chamada.  <br/> |Entre em contato com a [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan) para transferir os números de telefone. Em seguida, eles adicionará esses números para sua organização.  <br/> |
 |Obtenha números de telefone transferidos para o Office 365 para usar com a conferência de áudio.  |[Entre em contato conosco](mailto:ptnapac@microsoft.com) |

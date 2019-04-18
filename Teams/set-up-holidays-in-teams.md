@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: Saiba como configurar feriados em Microsoft Teams e conectá-los para o atendedor automático.
-ms.openlocfilehash: 72feed025e43eb7242f75608534db45d74aca9c9
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: afec7fc3f1bbe47c907b823711db3b8b8ef3aded
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517115"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914574"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurar feriados no Microsoft Teams
 
@@ -33,7 +33,7 @@ Você pode vincular os feriados para atendedores automáticos que você criar de
 
 Um bom exemplo é criar um feriado Natal para quando muitos dos seus funcionários não estão no trabalho. Após criar o feriado e definir horários, e em seguida, adicione o feriado a sua principal atendedor automático para quando as pessoas liga, eles ouvirá uma mensagem de áudio que você criou. Algo parecido com "são fechamos de Natal de 22 de dezembro por meio de 27 de dezembro. Deixe-em uma mensagem de voz para que podemos retornar sua chamada quando estamos no escritório."
 
-Para obter mais informações sobre atendentes automáticos, consulte [Cite atendedores automáticos de sistema telefônico](what-are-phone-system-auto-attendants.md)?  
+Para obter mais informações sobre atendentes automáticos, consulte [Cite atendedores automáticos de nuvem](what-are-phone-system-auto-attendants.md)?  
 
 ## <a name="create-a-holiday"></a>Criar um feriado
 
@@ -88,4 +88,4 @@ Para obter mais informações sobre atendentes automáticos, consulte [Cite aten
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Quais são os atendedores automáticos de sistema telefônico](what-are-phone-system-auto-attendants.md)?
+[Quais são os atendedores automáticos de nuvem](what-are-phone-system-auto-attendants.md)?

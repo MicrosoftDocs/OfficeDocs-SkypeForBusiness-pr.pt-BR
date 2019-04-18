@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft é retirada de Unificação de mensagens (ExchUMO) serviço do Exchange Online por de 2020 fevereiro. Este artigo resume o que afetaram os clientes devem saber e fazer para planejar seu continuidade de negócios.
-ms.openlocfilehash: e318e6aac1e4c5ab2b9934fd655dc3112120f36b
-ms.sourcegitcommit: 38b501cedfe5fa4ab0126f58926fe2ce4f0cdd0c
+ms.openlocfilehash: 703c51f3d42c9eea12964230693e602428454754
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31740930"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914674"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online  
 
@@ -66,7 +66,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 
 3. **Planejar a migração de atendedor automático**
     
-    Admins pode começar a migrar seus atendedores automáticos de ExchUMO para o atendedor automático da nuvem a qualquer momento. Para obter mais detalhes, consulte [Configurar um atendedor automático de sistema telefônico](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) . Microsoft planos fornecer recursos de atendedor automático adicionais que os clientes considerar essenciais para sua migração por de 2019 março. Os administradores devem avaliar o conjunto de recursos e migrar suas instâncias do atendedor automático de acordo. Para comparação da lista de recursos, consulte a [matriz de recurso de serviços em nuvem ExchUMO e Windows Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Admins pode começar a migrar seus atendedores automáticos de ExchUMO para o atendedor automático da nuvem a qualquer momento. Para obter mais detalhes, consulte [Configurar um atendedor automático de nuvem](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) . Microsoft planos fornecer recursos de atendedor automático adicionais que os clientes considerar essenciais para sua migração por de 2019 março. Os administradores devem avaliar o conjunto de recursos e migrar suas instâncias do atendedor automático de acordo. Para comparação da lista de recursos, consulte a [matriz de recurso de serviços em nuvem ExchUMO e Windows Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Planejar sua validação após a migração de caixa postal e teste**
 
@@ -197,4 +197,4 @@ Skype para novos usuários de negócios será provisionada automaticamente para 
 
 #### <a name="admin-auto-attendant-management-experience"></a>Experiência de gerenciamento de atendedor automático de Admin 
 
-Consulte [Set up um atendedor automático de sistema telefônico](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) para saber mais sobre como configurar e gerenciar os atendedores automáticos. 
+Consulte [Set up um atendedor automático da nuvem](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) para saber mais sobre como configurar e gerenciar os atendedores automáticos. 

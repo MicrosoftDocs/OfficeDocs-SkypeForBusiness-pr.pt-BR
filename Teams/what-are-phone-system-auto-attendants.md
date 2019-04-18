@@ -1,10 +1,10 @@
 ---
-title: Cite atendedores automáticos de sistema telefônico.
+title: Cite atendedores automáticos de nuvem.
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
-ms.date: 9/1/2018
+ms.date: 4/2/2019
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
@@ -21,23 +21,23 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
-description: Saiba quais são os atendedores automáticos de sistema telefônico e como usá-los.
-ms.openlocfilehash: 46828acc60f6960416f8aeb18452da0ae5e31e68
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+description: Saiba quais são os atendedores automáticos de nuvem e como usá-los.
+ms.openlocfilehash: 1d9c72817b865b323b9d018710c9201b51bb56a3
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808082"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914624"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>Cite atendedores automáticos de sistema telefônico.
+# <a name="what-are-cloud-auto-attendants"></a>Cite atendedores automáticos de nuvem.
 
 Sistema telefônico no Office 365 fornece atendedores automáticos, que podem ser usados para permitir que externo e internos chamadores mover através de um sistema de menu localizar e colocar ou transferir chamadas para usuários da empresa ou departamentos na organização.
   
 Um atendedor automático é uma série de prompts de voz ou arquivos de áudio que os chamadores ouvem, em vez de um operador humano quando ele liga uma organização. Quando as pessoas chamam um número associado a um atendedor automático, suas escolhas podem redirecionar a chamada para um usuário ou localizar alguém em sua organização e conecte-se a esse usuário. Eles podem express suas escolhas e interagir com o sistema de menus usando um teclado numérico do telefone (DTMF) ou o reconhecimento de fala.
   
-Para configurar um atendedor automático para o sistema telefônico no Office 365, vá [Configurar um atendedor automático de sistema telefônico](create-a-phone-system-auto-attendant.md).
+Para configurar um atendedor automático para o sistema telefônico no Office 365, vá para [Configurar um atendedor automático de nuvem](create-a-phone-system-auto-attendant.md).
   
-Um atendedor automático de sistema telefônico tem os seguintes recursos:
+Um atendedor automático da nuvem tem os seguintes recursos:
   
 - Ele oferece saudações corporativas ou informativas.
 - Ele oferece menus corporativos personalizados. Você pode personalizar esses menus para ter mais do que um nível.
@@ -199,7 +199,7 @@ O operador pode ser definido como:
 - Um usuário do Microsoft Teams ou um Skype for Business no usuário local que esteja habilitado para Enterprise Voice.
   
 - Outro atendedor automático que é configurado para sua organização.
-- Qualquer fila de chamada existente que é configurada em sua organização. Para obter mais informações sobre filas de espera de chamada, consulte [criar uma fila de chamada do sistema telefônico](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- Qualquer fila de chamada existente que é configurada em sua organização. Para obter mais informações sobre filas de espera de chamada, consulte [criar uma fila de chamada de nuvem](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 ### <a name="business-hours-and-call-handling"></a>Horários comerciais e administração de chamada
 
@@ -212,14 +212,14 @@ Cada atendedor automático tem opções de atendimento de chamadas que podem ser
   - Redirecionar a chamada para um usuário de Teams da Microsoft que tem uma licença de **Sistema telefônico** que esteja habilitado para Enterprise Voice ou chamar planos atribuiu a eles. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para isso, selecione uma **Pessoa em sua empresa** e defina as chamadas dessa pessoa para serem encaminhadas diretamente para a caixa postal.
 
   
-  - Redirecione a chamada para uma fila de espera de chamada. Para obter mais informações sobre filas de espera de chamada, consulte [criar uma fila de chamada do sistema telefônico](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+  - Redirecione a chamada para uma fila de espera de chamada. Para obter mais informações sobre filas de espera de chamada, consulte [criar uma fila de chamada de nuvem](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
   - Redirecione a chamada para outro atendedor automático que você definiu.
 - Criar opções de menu e reproduzir o prompt do menu para o chamador. Por exemplo: "Pressione 1 para Vendas, Pressione 2 para Serviços. Para falar com o operador, pressione 0 a qualquer momento."
 
 ### <a name="menu-options"></a>Opções do menu
 
-Atendedores automáticos da telefone sistema permitem que você crie os prompts de menu ("Pressione 1 para vendas, pressione 2 para serviços") e defina as opções de menu para rotear chamadas com base em que o usuário seleciona. A configuração das opções de menu de um atendedor automático permite que uma organização forneça orientação interativa para levar a pessoa a seu destino mais rápido, sem contar com um operador humano para administrar as chamadas de entrada. Os prompts de menu podem ser criados usando texto em fala (gerada pelo sistema prompts) ou carregando um arquivo de áudio que foi registrado. O reconhecimento de fala usa comandos de voz para navegação sem usar as mãos, mas os chamadores também podem usar o teclado do telefone para navegar pelos menus.
+Atendedores automáticos de nuvem permitem que você crie os prompts de menu ("Pressione 1 para vendas, pressione 2 para serviços") e defina as opções de menu para rotear chamadas com base em que o usuário seleciona. A configuração das opções de menu de um atendedor automático permite que uma organização forneça orientação interativa para levar a pessoa a seu destino mais rápido, sem contar com um operador humano para administrar as chamadas de entrada. Os prompts de menu podem ser criados usando texto em fala (gerada pelo sistema prompts) ou carregando um arquivo de áudio que foi registrado. O reconhecimento de fala usa comandos de voz para navegação sem usar as mãos, mas os chamadores também podem usar o teclado do telefone para navegar pelos menus.
   
 Teclas 0 a 9 podem ser atribuídas às **Opções de Menu** em um atendedor automático usando o Skype para o Centro de administração de negócios. Diferentes conjuntos de opções de menu podem ser criadas para os horários comerciais e horários fora do expediente, e você pode habilitar ou desabilitar o Discar por Nome nas **Opções de Menu**. As teclas podem ser mapeadas para transferir as chamadas para:
   
@@ -230,7 +230,7 @@ Teclas 0 a 9 podem ser atribuídas às **Opções de Menu** em um atendedor auto
   
 O nome de cada opção de menu torna-se uma palavra-chave de reconhecimento de fala, se tiver sido habilitado o reconhecimento de fala. Por exemplo, os chamadores podem dizer "One" para selecionar a opção de menu mapeada para a tecla 1 ou simplesmente dizem "Sales" para selecionar a opção de menu mesmo chamada "Sales".
   
-Para configurar um atendedor automático e as opções de menu, vá [Configurar um atendedor automático de sistema telefônico](create-a-phone-system-auto-attendant.md).
+Para configurar um atendedor automático e as opções de menu, vá [Configurar um atendedor automático de nuvem](create-a-phone-system-auto-attendant.md).
   
 ### <a name="assigning-phone-numbers-for-an-auto-attendant"></a>Atribuindo números de telefone para um atendedor automático
 

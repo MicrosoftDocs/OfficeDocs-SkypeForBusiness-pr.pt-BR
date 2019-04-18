@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Saiba mais sobre como gerenciar contas de recurso no Microsoft Teams
-ms.openlocfilehash: 3e3dbfb43498041296cb9cfb79341a3f40f2eda0
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+ms.openlocfilehash: e8d3da4938a5040972b3c4853434808ca7457c90
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808050"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914590"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
@@ -127,13 +127,13 @@ Para implementações que são híbrida com Skype para Business Server:
 
 Para implementações em equipes ou Skype para Business Online:
 
-[O que são atendedores automáticos do Sistema de Telefonia?](what-are-phone-system-auto-attendants.md)
+[Cite atendedores automáticos de nuvem.](what-are-phone-system-auto-attendants.md)
 
-[Configurar os atendedores automáticos do Sistema Telefônico](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+[Configurar um atendedor automático de nuvem](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
-[Exemplo de pequena empresa - Configurar um atendedor automático](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
+[Exemplo de pequenas empresas - Configurar um atendedor automático](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[Criar uma fila de chamada no Sistema Telefônico](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+[Criar uma fila de chamada de nuvem](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 

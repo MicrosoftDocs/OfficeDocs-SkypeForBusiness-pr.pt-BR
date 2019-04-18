@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Página de aterrissagem à implantação de voz de nuvem em equipes
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abc8d3e552820ee93b5ccd1fc968e914ac5287ba
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.openlocfilehash: 47c534eba93c6f5af21a75fa20b5015fac00c674
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948373"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914608"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz na nuvem no Microsoft Teams
 
@@ -28,7 +28,7 @@ Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você im
 
 Voz nuvem oferece recursos de Private Branch Exchange (PBX) e as opções para conectar-se para a comutação telefônica PSTN (rede pública).
 
-Este artigo ajuda você a decidir se você precisa alterar as configurações de voz da nuvem padrão, com base no perfil da sua organização e requisitos de negócios, e em seguida, ele o orienta durante cada alteração. Podemos ter dividir as configurações em dois grupos, começando com o conjunto básico de [alterações que estão mais provável fazer](#core-deployment-decisions). O segundo grupo inclui [configurações adicionais](#additional-deployment-decisions) que poderão ser configuradas com base nas necessidades de sua organização.
+Este artigo ajuda você a decidir se você precisa alterar as configurações de voz da nuvem padrão, com base no perfil da sua organização e requisitos de negócios, e em seguida, ele o orienta durante cada alteração. Podemos ter dividir as configurações em dois grupos, começando com o conjunto básico de [alterações que estão mais provável fazer](#core-deployment-decisions). O segundo grupo inclui [configurações adicionais](#additional-deployment-decisions) que poderão ser configuradas com base nas necessidades da organização.
 
 É recomendável que todas as organizações for percorrendo as decisões de núcleo e em seguida, se sua organização tiver requisitos adicionais, examine o material a seguir.
 
@@ -127,20 +127,20 @@ Quais usuários exigem um plano de discagem personalizado e qual plano de discag
 
 ### <a name="call-queues"></a>Filas de chamadas
 
-Telefonema de sistema filas incluem saudações que são usadas quando alguém chama um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que chamada está escutando a música em espera. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização. 
+Filas de chamada de nuvem incluem saudações que são usadas quando alguém ligar para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que são de chamada escutando música em espera. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização. 
 
 
 |Pergunte a si mesmo|Ação |
 |:------------|:-------|
-| Minha organização precisa chama filas? | Para obter mais informações, consulte [criar uma fila de espera de chamada de sistema telefônico](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) e a [configuração do seu sistema telefônico](setting-up-your-phone-system.md). |
+| Minha organização precisa chama filas? | Para obter mais informações, consulte [criar uma fila de espera de chamada de nuvem](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) e a [configuração do seu sistema telefônico](setting-up-your-phone-system.md). |
 
 ### <a name="auto-attendants"></a>Atendedores automáticos
 
-Sistema telefônico atendedores automáticos podem ser usados para criar um sistema de menu para a sua organização que permite que os chamadores externos e internos mover através de um sistema de menu localizar e colocar ou transferir chamadas para usuários da empresa ou departamentos na organização.
+Atendedores automáticos de nuvem podem ser usados para criar um sistema de menu para a sua organização que permite externo e internos chamadores mover através de um sistema de menu localizar e colocar ou transferir chamadas para usuários da empresa ou departamentos na organização.
 
 |Pergunte a si mesmo|Ação |
 |:------------|:-------|
-| Minha organização precisa de atendedores automáticos? | Para obter mais informações, consulte [Cite atendedores automáticos de sistema telefônico](what-are-phone-system-auto-attendants.md) e [Configurar um atendedor automático de sistema telefônico](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). |
+| Minha organização precisa de atendedores automáticos? | Para obter mais informações, consulte [Cite atendedores automáticos de nuvem](what-are-phone-system-auto-attendants.md) e [Configurar um atendedor automático de nuvem](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). |
 
 ### <a name="devices"></a>Dispositivos
 

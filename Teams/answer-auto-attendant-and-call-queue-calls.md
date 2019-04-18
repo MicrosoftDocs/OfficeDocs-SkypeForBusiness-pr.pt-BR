@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: Descreve os atendedores automáticos de sistema telefônico e filas de chamada e explica como você pode atender essas chamadas em equipes.
+description: Descreve os atendedores automáticos de nuvem e filas de chamada e explica como você pode atender essas chamadas em equipes.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,23 +15,23 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91c0d1ae8034766759baa9b832cbefd399306fd2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 8a94f8220cca2058e993f73241e62ff3ad0ea4f2
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875974"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914540"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams
 ===========================================================
 
-Os usuários de equipes podem receber e atenda as chamadas do Skype para Business Online atendedor automático e filas de chamadas diretamente do seu cliente de equipes. Para usuários de equipes, o recurso de atendedor automático agora está disponível no mercado e a capacidade de fila de chamada está no modo de visualização. 
+Os usuários de equipes podem receber e atender chamadas de atendedores automáticos de nuvem e filas de chamada diretamente do seu cliente de equipes. Para usuários de equipes, o recurso de atendedor automático agora está disponível no mercado e a capacidade de fila de chamada está no modo de visualização. 
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>Cite atendedores automáticos de um e filas de chamada?
 
-Atendedores automáticos da telefone sistema fornecem uma série de prompts de voz ou um arquivo de áudio que os chamadores ouvem, em vez de um operador humano quando ele liga para uma organização. Um atendedor automático permite que os chamadores se movam pelo sistema de menus, façam chamadas ou localizem usuários usando um teclado de telefone (DTMF) ou entradas de voz usando reconhecimento de voz.
+Atendedores automáticos de nuvem fornecem uma série de prompts de voz ou um arquivo de áudio que os chamadores ouvem, em vez de um operador humano quando ele liga para uma organização. Um atendedor automático permite que os chamadores se movam pelo sistema de menus, façam chamadas ou localizem usuários usando um teclado de telefone (DTMF) ou entradas de voz usando reconhecimento de voz.
 
-Telefonema de sistema filas incluem saudações que são usadas quando alguém chama um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que chamada está escutando a música em espera. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização.
+Filas de chamada de nuvem incluem saudações que são usadas quando alguém ligar para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que são de chamada escutando música em espera. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização.
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>Manipulação de uma chamada de fila de chamada e atendente automático
 
@@ -57,12 +57,12 @@ Suporte para chamadas de fila de chamada e atendedor automático está disponív
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurar o suporte de fila attendant e chamada de automático for Microsoft Teams
 
-Para receber o atendedor automático e chamar as chamadas de fila em Teams da Microsoft, você precisa configurar sua política de interoperabilidade e atualização de política. Analise a [migração e interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios](migration-interop-guidance-for-teams-with-skype.md). Se você não tiver o atendedor automático e/ou chamada fila configurado e gostaria de fazê-lo, consulte [Configurar um atendedor automático de sistema telefônico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) e [criar uma fila de chamada do sistema telefônico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+Para receber o atendedor automático e chamar as chamadas de fila em Teams da Microsoft, você precisa configurar sua política de interoperabilidade e atualização de política. Analise a [migração e interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios](migration-interop-guidance-for-teams-with-skype.md). Se você não tiver o atendedor automático e/ou chamada fila configurado e gostaria de fazê-lo, consulte [Configurar um atendedor automático da nuvem](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) e [criar uma fila de chamada de nuvem](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 -   [Qual é o sistema telefônico no Office 365](what-is-phone-system-in-office-365.md)
--   [Criar uma fila de chamada no Sistema Telefônico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
--   [O que são atendedores automáticos do Sistema de Telefonia?](what-are-phone-system-auto-attendants.md)
--   [Configurar os atendedores automáticos do Sistema Telefônico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [Criar uma fila de chamada de nuvem](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [Cite atendedores automáticos de nuvem.](what-are-phone-system-auto-attendants.md)
+-   [Configurar um atendedor automático de nuvem](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
