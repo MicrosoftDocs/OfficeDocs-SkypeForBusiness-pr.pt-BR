@@ -230,10 +230,10 @@
 #### [Idiomas de mensagens e saudações da caixa postal](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Configurar a Caixa Postal na Nuvem - Ajuda da administração](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Configurar o Sistema de Telefonia na sua organização](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [O que são atendedores automáticos do Sistema de Telefonia?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Configurar os atendedores automáticos do Sistema Telefônico](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Exemplo de pequena empresa - Configurar um atendedor automático](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
-### [Criar uma fila de chamada no Sistema Telefônico](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Quais são os atendedores automáticos do Cloud?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+#### [Configurar um atendedor automático do Cloud](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+#### [Exemplo de pequenas empresas - Configurar um atendedor automático](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
+### [Criar uma fila de chamada do Cloud](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 
 
