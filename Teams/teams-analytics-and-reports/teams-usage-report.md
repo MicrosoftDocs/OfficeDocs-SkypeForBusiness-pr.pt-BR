@@ -13,42 +13,42 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: Saiba como usar o relatório de uso de equipes no Centro de administração Teams da Microsoft para obter uma visão geral da atividade de equipes em sua organização.
+description: Saiba como usar o relatório de uso do Teams no centro de administração do Microsoft Teams para obter uma visão geral das atividades to Teams na sua organização.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0307d0b0d8c0d2501aa8f61693c4c9c01d30cc07
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
-ms.translationtype: MT
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30569930"
 ---
 # <a name="microsoft-teams-usage-report"></a>Relatório de uso do Microsoft Teams
 
-O relatório de uso de equipes no Centro de administração do Microsoft Teams fornece uma visão geral da atividade de uso em equipes, incluindo o número de usuários ativos e canais, portanto, você pode ver rapidamente quantos usuários em sua organização estiver usando equipes para se comunicar e Colabore. Você pode exibir informações de uso para equipes, incluindo o número de mensagens e canais, convidados e usuários ativos em cada equipe.
+O relatório de uso do Teams no centro de administração do Microsoft Teams apresenta uma visão geral da atividade de uso no Teams, incluindo o número de usuários e canais ativos, para que você possa ver rapidamente quantos usuários na sua organização estão usando o Teams para se comunicar e colaborar. Você pode visualizar as informações de uso de equipes, incluindo o número de usuários e canais ativos, convidados e mensagens em cada equipe.
 
-![Captura de tela do relatório de uso de equipes no Centro de administração de equipes da Microsoft] (../media/teams-reports-teams-usage.png "Captura de tela do relatório de uso de equipes no Centro de administração de equipes da Microsoft")
+![Captura de tela do relatório de uso do Teams no centro de administração do Microsoft Teams](../media/teams-reports-teams-usage.png "Captura de tela do relatório de uso no centro de administração do Microsoft Teams")
 
 ## <a name="view-the-report"></a>Exibir o relatório
 
-1. Vá para o Centro de administração do Microsoft Teams, no painel de navegação esquerdo, clique em **relatórios de & de análise**e em um **relatório**, selecione **o uso de equipes**. 
-2. Em **intervalo de datas**, selecione um intervalo e clique em **Executar relatório**.
+1. Acesse o centro de administração do Microsoft Teams, na navegação à esquerda, clique em **Análises e Relatórios** e em seguida, em **Relatório**, selecione **uso do Teams**. 
+2. Em **Intervalo de dados**, selecione intervalo e em seguida clique em **Executar relatório**.
 
-## <a name="interpret-the-report"></a>Interpretar o relatório
+## <a name="interpret-the-report"></a>Interpretar relatório
 
-![Captura de tela do relatório de uso de equipes no Centro de administração de equipes da Microsoft] (../media/teams-reports-teams-usage-with-callouts.png "Captura de tela do relatório de uso de equipes no Centro de administração de equipes da Microsoft com textos explicativos numerados")
+![Captura de tela do relatório de uso do Teams no centro de administração do Microsoft Teams](../media/teams-reports-teams-usage-with-callouts.png "Captura de tela do relatório de uso no centro de administração do Microsoft Teams com textos explicativos numerados")
 
-|Legenda |Descrição  |
+|Texto explicativo |Descrição  |
 |--------|-------------|
-|**1**   |O relatório de atividade de uso de equipes pode ser exibido para tendências pela últimos 7 dias ou 28 dias. |
+|**1**   |O relatório de atividade de uso do Teams pode ser consultado sobre tendências dos últimos 7 ou 28 dias. |
 |**2**   |Cada relatório tem uma data de geração. O relatório geralmente reflete um período de latência de atividade de 24 a 48 horas. |
-|**3**   |<ul><li>O eixo X do gráfico é o intervalo de datas selecionado para o relatório.</li> <li> O eixo Y é a contagem de itens ativos ou atividade.</li> </ul>Passe o mouse sobre o ponto que representa um item ou atividade em uma determinada data para ver o número de instâncias desse item ou atividade em que a data fornecida.|
-|**4**   |Você pode filtrar o que você vê no gráfico, clicando em um item na legenda. Por exemplo, clique em **usuários ativos Total**, **equipes & canais de usuários ativos**, **canais ativos**ou **mensagens** para ver apenas as informações relacionadas a cada uma delas. Alterar essa opção não altera as informações na tabela. |
-|**5**   |A tabela fornece uma análise de uso pela equipe. <ul><li>**Nome para exibição** é o nome de exibição da equipe. Você pode clicar no nome de exibição para ir à página de configurações da equipe no Centro de administração do Microsoft Teams. </li> <li>**Privacidade** se refere ao se a equipe é uma equipe privada ou a equipe pública.</li> <li>**Usuários ativos** é o número de usuários ativos na equipe de no período de tempo especificado.</li><li>**Convidados que** é o número de convidados na equipe de no período de tempo especificado.</li> </li> </ul>Para ver as informações que você deseja na tabela, certifique-se de adicionar as colunas na tabela. |
+|**3**   |<ul><li>O eixo X no gráfico representa o intervalo selecionado de datas para o relatório.</li> <li> O eixo Y representa a contagem dos itens ativos ou atividade.</li> </ul>Passe o mouse sobre o ponto que representa um item ou atividade em uma determinada data para ver o número de instâncias de tal item ou atividade na data determinada.|
+|**4**   |Você pode filtrar o que se vê no gráfico clicando em um item na legenda. Por exemplo, clique em **Total de usuários ativos**, **Usuários ativos de equipes e canais**, **Canais ativos** ou **Mensagem** para ver apenas as informações relacionadas a cada um. Ao alterar esta seleção, as informações da tabela não são alteradas. |
+|**5**   |A tabela oferece um detalhamento do uso por equipe. <ul><li>**Nome de exibição** é o nome de exibição da equipe. Você pode clicar no nome de exibição para acessar a página de configurações da equipe no centro de administração do Microsoft Teams. </li> <li>**Privacidade** refere-se à equipe ser particular ou pública.</li> <li>**Usuários ativos** é o número de usuários ativos na equipe no período de tempo especificado.</li><li>**Convidados** é o número de convidados na equipe no período de tempo especificado.</li> </li> </ul>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela. |
 |**6**   |Selecione **Editar colunas** para adicionar ou remover colunas na tabela. 
-|**7**   |Selecione **˙˙˙**e, em seguida, **imprime gráfico** para imprimir o gráfico. |
+|**7**   |Selecione **˙˙˙** e em seguida **Imprimir gráfico** para imprimir o gráfico. |
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Análise de equipes e relatórios](teams-reporting-reference.md)
+- [Análises e relatórios do Teams](teams-reporting-reference.md)
 - [Relatório de atividades do usuário do Teams](user-activity-report.md)
 - [Relatório de uso de dispositivos do Teams](device-usage-report.md)
