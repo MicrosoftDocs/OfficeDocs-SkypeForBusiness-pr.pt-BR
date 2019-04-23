@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.date: 01/28/2019
+ms.date: 04/18/2019
 ms.reviewer: LolaJ
 description: Encontre o caminho certo para implementar o Microsoft Teams em sua organização. Conheça a infraestrutura do Teams e a utilização do Teams com o Office 365.
 localization_priority: Priority
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cb72d55b41edf6c44b84461d234c42782ee6873
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: cf50b6f7acba602ec001c340e2cbe999c610e693
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649280"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959224"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bem-vindo ao Microsoft Teams
 Se você é o administrador do Microsoft Teams em sua organização, está no lugar certo. Se você está pronto para começar a usar o Teams, comece em [Como implementar o Teams](How-to-roll-out-teams.md).
@@ -29,16 +29,20 @@ Se não estiver familiarizado com o Teams e quiser saber mais, continue a ler.
 
 ## <a name="overview-of-teams"></a>Visão geral do Teams
 
-Se você é novo no Teams, confira este vídeo curto, [Bem-vindo ao Teams](https://youtu.be/s3aQV3T0D6c). O Microsoft Teams se fundamenta em grupos do Office 365, no Office Graph e na mesma segurança, conformidade e gerenciamento de nível corporativo que o restante do Office 365. O Microsoft Teams utiliza as identidades armazenadas no Azure AD (Azure Active Directory). Quando você cria uma equipe, é criado o seguinte:
+Se você é novo no Teams, confira este vídeo curto, [Bem-vindo ao Teams](https://youtu.be/s3aQV3T0D6c). O Microsoft Teams se fundamenta em grupos do Office 365, no Office Graph e na mesma segurança, conformidade e gerenciamento de nível corporativo que o restante do Office 365. O Microsoft Teams utiliza as identidades armazenadas no Azure AD (Azure Active Directory). Pra ver onde o Teams se encaixa no contexto do Microsoft 365, confira este pôster da arquitetura: [Teams como parte do Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+
+Quando você cria uma equipe, é criado o seguinte:
 - Um novo [grupo do Office 365](office-365-groups.md)
 - Um site do [SharePoint Online](sharepoint-onedrive-interact.md) e uma biblioteca de documentos para armazenar arquivos da equipe
 - Uma caixa de correio e um calendário compartilhados do [Exchange Online](exchange-teams-interact.md)
 - Um bloco de anotações do OneNote
 - Vínculos com outros aplicativos do Office 365, como o Planner e o Power BI
 
-Quando você cria uma equipe com base em um grupo existente, a associação, o site, a caixa de correio e o bloco de anotações desse grupo são exibidos no Teams. Não perca a nova [equipe de toda a organização](create-an-org-wide-team.md), um tipo especial de equipe que reúne todos os usuários de sua organização e mantém a associação atualizada com o Active Directory à medida que usuários ingressam na organização e saem dela. 
+Quando você cria uma equipe com base em um grupo existente, a associação, o site, a caixa de correio e o bloco de anotações desse grupo são exibidos no Teams. Para saber mais, confira este pôster: [Grupos no Microsoft 365 para Arquitetos TI](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-Para personalizar e estender o Teams, adicione aplicativos de terceiros por meio de [guias, conectores e bots](deploy-apps-microsoft-teams-landing-page.md). Com o Teams, você pode incluir pessoas de fora da organização [adicionando-as como convidadas](guest-access.md) a uma equipe ou um canal. Como parte do Office 365, o Teams oferece uma [plataforma de desenvolvimento](https://docs.microsoft.com/pt-BR/microsoftteams/platform) robusta para que você possa criar o hub de trabalho em equipe necessário para sua organização. 
+Não perca [a equipe de toda a organização](create-an-org-wide-team.md), um tipo especial de equipe que reúne todos os usuários de sua organização e mantém a associação atualizada com o Active Directory à medida que usuários ingressam na organização e saem dela. 
+
+Para personalizar e estender o Teams, adicione aplicativos de terceiros por meio de [guias, conectores e bots](deploy-apps-microsoft-teams-landing-page.md). Com o Teams, você pode incluir pessoas de fora da organização [adicionando-as como convidadas](guest-access.md) a uma equipe ou um canal. Como parte do Office 365, o Teams oferece uma [plataforma de desenvolvimento](https://docs.microsoft.com/microsoftteams/platform) robusta para que você possa criar o hub de trabalho em equipe necessário para sua organização. 
 
 ![Aplicativo para desktop e aplicativos móveis do Teams](media/teams-overview-hub.png)
 
@@ -46,9 +50,10 @@ Para personalizar e estender o Teams, adicione aplicativos de terceiros por meio
 ## <a name="managing-teams"></a>Gerenciamento do Teams
 
 Como administrador, você vai gerenciar o Teams pelo Centro de administração do Microsoft Teams. Para saber mais:
+- [Usar as funções de administrador para gerenciar o Teams](using-admin-roles.md)
 - [Gerenciar o Teams no Centro de administração do Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
-- [Gerenciar o Teams durante a transição para o novo Centro de administração do Microsoft Teams](manage-teams-in-modern-portal.md)
-
+- [Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams](manage-teams-in-modern-portal.md)
+- [Ativar os recursos do Microsoft Teams na sua organização do Office 365](enable-features-office-365.md)
 
 Para ficar por dentro do que será lançado para o Microsoft Teams e todos os outros produtos e serviços do Office 365 em sua organização, confira o [Centro de mensagens ](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) e o [Roteiro do Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). Você receberá comunicados sobre recursos novos e atualizados, alterações planejadas e problemas para se manter informado e preparado. 
 
