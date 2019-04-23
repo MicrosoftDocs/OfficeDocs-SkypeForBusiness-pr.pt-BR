@@ -14,22 +14,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Leia este tópico para saber mais sobre o hardware, software e requisitos de infraestrutura para execução Skype para negócios em um Mac.
-ms.openlocfilehash: 694f64933f4618b5c2157f7a35acdf9339d52919
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: bd8522684131d1119ce91c100a2aeeeec4797a70
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965624"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993554"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype para negócios nos requisitos de cliente do Mac
  
 Leia este tópico para saber mais sobre o hardware, software e requisitos de infraestrutura para execução Skype para negócios em um Mac.
   
-O [Skype for Business no cliente Mac](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3#Mac) está disponível para download.
+O [Skype for Business no Mac cliente](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3#Mac) está disponível para download.
   
-## <a name="hardware-and-software-requirements-for-skype-for-business-on-the-mac"></a>Requisitos de hardware e software do Skype for Business no Mac
+## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Requisitos de hardware e software para Skype for Business no Mac
 
-O Skype for Business no cliente Mac requer Mac OS X El Capitan e superior e usa pelo menos 100MB de espaço em disco. Oferecemos suporte para o uso de dispositivos de áudio e vídeo totalmente integrados. Dispositivos externos devem estar no [Skype para catálogo de soluções de negócios](https://partnersolutions.skypeforbusiness.com/solutionscatalog). 
+O Skype for Business no cliente do Mac requer Mac OS X El Capitan e superior e usa pelo menos 100MB de espaço em disco. Oferecemos suporte para o uso de dispositivos de áudio e vídeo totalmente integrados. Dispositivos externos devem estar no [Skype para catálogo de soluções de negócios](https://partnersolutions.skypeforbusiness.com/solutionscatalog). 
   
 > [!NOTE]
 > Esta lista é preliminar e alguns dispositivos podem ser qualificados do Lync, mas não têm suporte em Skype for Business no Mac. Consulte os [requisitos do sistema](https://products.office.com/en-us/office-system-requirements) para o hardware mínimo necessário.
@@ -44,16 +44,16 @@ Skype para Business Server 2015 também suporta os seguintes clientes herdados e
  
 Esses clientes não são suportados pelo Skype para Business Server 2019.
    
-## <a name="infrastructure-requirements-for-skype-for-business-on-the-mac"></a>Requisitos de infraestrutura do Skype for Business no Mac
+## <a name="infrastructure-requirements-for-skype-for-business-on-mac"></a>Requisitos de infraestrutura para Skype for Business no Mac
 <a name="Infrastructure"> </a>
 
-O Skype for Business no cliente Mac aproveita a plataforma de gerenciamento de comunicação unificada (UCMP), bem como o Unified Communications Web API (UCWA) que usam nossos clientes de mobilidade.
+O Skype for Business no cliente do Mac aproveita a plataforma de gerenciamento de comunicação unificada (UCMP), bem como o Unified Communications Web API (UCWA) que usam nossos clientes de mobilidade.
   
 O cliente tem os mesmos requisitos que nossos clientes de mobilidade, de que você deve ter um Servidor de Borda de Acesso e um Proxy Reverso implantados em uma configuração compatível. 
   
 ### <a name="authentication"></a>Autenticação
 
-O Skype for Business no cliente Mac oferece suporte a autenticação baseada em certificado, autenticação moderno da Microsoft e a autenticação multifator quando implantado e ativado.
+O Skype for Business no cliente do Mac oferece suporte a autenticação baseada em certificado, autenticação moderno da Microsoft e a autenticação multifator quando implantado e ativado.
   
 > [!NOTE]
 > Devido a uma limitação atual, as credenciais do usuário Exchange devem ser o mesmo que seus Skype credenciais de negócios. 
@@ -74,7 +74,7 @@ Mobilidade deve ser implantada corretamente para o Skype for Business no cliente
     
 Para obter mais informações, consulte: [Implantação de mobilidade no Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=798224)e o [Guia de mobilidade do Microsoft Lync Server 2010](https://go.microsoft.com/fwlink//p/?LinkId=798226).
   
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 <a name="Infrastructure"> </a>
 
 [Requisitos de DNS para Skype para Business Server](../../plan-your-deployment/network-requirements/dns.md)

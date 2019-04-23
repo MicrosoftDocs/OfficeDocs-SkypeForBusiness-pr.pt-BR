@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Saiba como gerenciar configurações para reuniões de equipes que os usuários a agendar em sua organização.
-ms.openlocfilehash: ec43fe9c436de612440bbec687868dc4de749191
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 4ded26dae69b5afef1d9fafb4819a73475c44898
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494243"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959533"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -98,8 +98,8 @@ Tipo de tráfego de mídia| Intervalo de porta de origem do cliente\* |Protocolo
 |Compartilhamento de tela do aplicativo| 50,040 – 50,059      |TCP/UDP |18        |Assured Forwarding (AF21)|
 | | | | |
 
-\*Os intervalos de porta que você atribuir não podem sobrepor-se e devem ser adjacentes entre si.
+\*Os intervalos de porta que você atribuir não podem sobrepor e devem ser adjacentes entre si.
 
-Configurando intervalos de portas para diferentes tipos de tráfego é apenas uma etapa do tratamento de mídia de tempo real, consulte [Quality of a Service (QoS) em equipes](qos-in-teams.md) for muito mais detalhes. Se você ativar ou alterar as configurações no Centro de administração de equipes, você precisará [Aplicar configurações correspondentes a todos os dispositivos do usuário](QoS-in-Teams-clients.md) e os dispositivos de rede interna totalmente implementar as alterações a serem QoS em equipes.
+Configurando intervalos de portas para diferentes tipos de tráfego é apenas uma etapa do tratamento de mídia em tempo real; consulte [Quality of a Service (QoS) em equipes](qos-in-teams.md) for muito mais detalhes. Se você ativar ou alterar as configurações no Centro de administração do Microsoft Teams, você precisará [Aplicar configurações correspondentes a todos os dispositivos do usuário](QoS-in-Teams-clients.md) e os dispositivos de rede interna totalmente implementar as alterações a serem QoS em equipes.
 
 Depois de QoS tenha sido usado por um tempo, você terá informações de uso sobre a demanda para cada uma dessas três cargas de trabalho e você pode escolher quais alterações a serem feitas com base em suas necessidades específicas. [Painel de qualidade de chamada](turning-on-and-using-call-quality-dashboard.md) serão úteis com isso.

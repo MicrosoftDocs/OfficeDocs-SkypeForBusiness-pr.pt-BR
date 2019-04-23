@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Saiba mais sobre a análise de chamada e painel de controle de qualidade de chamada e quando usá-los para monitorar e solucionar problemas de qualidade da chamada.
-ms.openlocfilehash: 057d74a5c0dcda70119eb16eed3a048b459c087c
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: c85bcecd31c978616e5394740efac6bb5c28c07c
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026217"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993650"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análise de Chamada e Painel de Qualidade de Chamadas
 
@@ -77,7 +77,7 @@ Com a Ajuda do CQD Location-Enhanced relatórios, a qualidade da chamada agrega�
 ![Captura de tela de relatórios de localização avançada do painel de qualidade de chamada. Guias mostradas são Overview, prédios - com fio, prédios - WiFi e Mobile (LTE). Um filtro está sendo aplicado para exibir os fluxos de um edifício específico.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
-> Para habilitar os modos de exibição de construção específicos no CQD, um administrador deve [carregar as informações de construção](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload) na página de carregamento de dados de Inquilino do CQD.
+> Para habilitar exibições edifício ou ponto de extremidade específicos no CQD, um administrador deve [carregar as informações de construção ou ponto de extremidade](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) na página de carregamento de dados de Inquilino do CQD. 
 
 Se desejar que não-administradores, como agentes de assistência técnica, para usar o painel de qualidade de chamada, você pode atribuir esses usuários a função **Engenheiro de suporte de comunicação de equipes**, **Especialista equipes de suporte de comunicações**ou **Leitor de relatórios** . Usuários com as seguintes funções podem acessar o painel de controle de qualidade de chamada:
 

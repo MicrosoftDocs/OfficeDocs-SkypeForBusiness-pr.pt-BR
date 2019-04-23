@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e31cfcecf519489f21a99e9e68c14d92639a624c
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: b9c95e8eea5081be4b26732914cff7618b415021
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494161"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959382"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -64,7 +64,7 @@ Líderes sênior são responsáveis por sucesso da empresa; Certifique-se de man
 
 <a name="step-2"></a>
 
-## <a name="step-2-prepare-your-organization-for-teams"></a>Etapa 2. Preparar sua organização para equipes
+## <a name="step-2-prepare-your-organization-for-teams"></a>Etapa 2. Preparar sua organização para o Teams
 
 *(Aproximadamente quatro a seis semanas antes da atualização)*
 
@@ -75,10 +75,10 @@ As equipes oferece compatível Skype para a funcionalidade de negócios — como
 
 **Recursos:**
 
-- [Visão geral do Microsoft Teams](Teams-overview.md)
+- [Visão geral do Teams](Teams-overview.md)
 - [Saiba mais sobre as equipes e canais](teams-channels-overview.md)
 - [Concluir planejamento técnico](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [Gerenciar sistemas de sala do Skype](https://aka.ms/srsdocs)
+- [Gerenciar Salas do Microsoft Teams](https://aka.ms/MTRDocs)
 
 [Retornar ao topo](#about-upgrade-basic)
 
@@ -113,7 +113,7 @@ Fornecendo um amplo aviso para seus usuários fornecerá-los de tempo para se fa
 
 **Recursos:**
 
-- [Gerenciar recursos de equipes em sua organização](enable-features-office-365.md)
+- [Gerenciar configurações de Teams da Microsoft para sua organização](enable-features-office-365.md)
 - [E-mail de exemplo: comunicado aos usuários sobre Skype para negócios](upgrade-emails-surveys.md#step-4-email)
 
 [Retornar ao topo](#about-upgrade-basic)
@@ -164,7 +164,7 @@ Hoje é o dia em que sua organização oficialmente atualiza para equipes como s
 
 **Recursos:**
 
-- [Definir seu coexistência e as configurações de atualização](setting-your-coexistence-and-upgrade-settings.md)
+- [Definir suas configurações de coexistência e atualização](setting-your-coexistence-and-upgrade-settings.md)
 - [E-mail de exemplo: os usuários a equipes de boas-vindas](upgrade-emails-surveys.md#step-7-email)
 
 [Retornar ao topo](#about-upgrade-basic)

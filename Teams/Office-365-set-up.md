@@ -1,5 +1,5 @@
 ---
-title: Ativar Teams da Microsoft em sua organização do Office 365
+title: Ativar o Microsoft Teams em sua organização do Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1bf865f9efd7960e7c0df10859d6c821130990b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e68746631b6e30aedac347c8fb1c0c3c24d26675
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460920"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959144"
 ---
 # <a name="enable-teams-in-your-organization"></a>Permita que as equipes em sua organização
 
@@ -32,7 +32,7 @@ ms.locfileid: "30460920"
 Por padrão, o Microsoft Teams é ativado para todas as organizações. Se você usou o Microsoft Teams durante a prévia, a configuração permanecerá a mesma. 
 
 
-Como administrador da sua organização, você pode atribuir licenças de usuários para controlar o acesso individual ao Microsoft Teams e pode permitir ou bloquear quais fontes de conteúdo podem ser usadas no Microsoft Teams. Para obter mais informações, consulte [os recursos de gerenciar equipes da Microsoft em sua organização do Office 365](enable-features-office-365.md) ou [as configurações de administração para aplicativos em equipes da Microsoft](admin-settings.md) . 
+Como administrador da sua organização, você pode atribuir licenças de usuários para controlar o acesso individual ao Microsoft Teams e pode permitir ou bloquear quais fontes de conteúdo podem ser usadas no Microsoft Teams. Para obter mais informações, consulte [configurações de gerenciar equipes da Microsoft para a sua organização](enable-features-office-365.md) ou [as configurações de administração para aplicativos em equipes da Microsoft](admin-settings.md) . 
 
 
  

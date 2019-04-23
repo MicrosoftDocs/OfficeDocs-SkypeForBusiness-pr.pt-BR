@@ -1,5 +1,5 @@
 ---
-title: Gerenciamento do acesso de convidados no Microsoft Teams
+title: Gerenciar o acesso de convidados no Microsoft Teams
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
@@ -14,19 +14,19 @@ search.appverid: MET150
 description: Os administradores de TI podem adicionar convidados em nível de locatário, definir e gerenciar políticas e permissões de usuários convidados, determinar quais usuários podem convidar convidados e extrair relatórios sobre a atividade do usuário convidado.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5be03fb6e28519c53457b6eaabd050a5d9a6bb3b
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 601582953136b982245bc7f4b2976c64d37424e7
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493937"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959240"
 ---
-<a name="manage-guest-access-in-microsoft-teams"></a>Gerenciamento do acesso de convidados no Microsoft Teams
+<a name="manage-guest-access-in-microsoft-teams"></a>Gerenciar o acesso de convidados no Microsoft Teams
 ======================================
 
 **Convidado** é um tipo de licença de usuário/na Microsoft Teams que está incluído com todas as inscrições de educação do Office 365, Office 365 Enterprise e Business Premium do Office 365. Não é necessária nenhuma licença adicional do Office 365. O acesso de convidados no Teams é uma configuração em nível de locatário e está desabilitado por padrão. Para obter detalhes sobre como habilitar o acesso de convidado, consulte [Ativar ou desativar o acesso de convidado para equipes da Microsoft](set-up-guests.md).
 
-Depois que o tipo de licença de **usuário/Convidado** está ativado, você pode definir configurações para convidados por meio dos controles descritas na [dos [recursos de gerenciar equipes da Microsoft em sua organização do Office 365](enable-features-office-365.md) e gerenciar equipes durante a transição para o novo sistema operacional Microsoft Centro de administração de equipes](manage-teams-skypeforbusiness-admin-center.md).     
+Depois que o tipo de licença de **usuário/Convidado** está ativado, você pode definir configurações para convidados por meio dos controles descritas nas [configurações de gerenciar equipes da Microsoft para a sua organização](enable-features-office-365.md) e [gerenciar equipes durante a transição para o novo Teams da Microsoft Centro de administração](manage-teams-skypeforbusiness-admin-center.md).     
     
 Administradores de TI podem adicionar convidados a nível de locatário, definir e gerenciar permissões e as diretivas de usuário convidado e recepção relatórios sobre as atividades do usuário convidado. Esses controles estão disponíveis por meio do Centro de administração do Microsoft Teams. O conteúdo e as atividades dos usuários convidados estão sob a mesma proteção de conformidade e auditoria que o restante do Office 365.
 

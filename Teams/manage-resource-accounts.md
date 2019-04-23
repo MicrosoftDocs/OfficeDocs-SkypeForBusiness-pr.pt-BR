@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Saiba mais sobre como gerenciar contas de recurso no Microsoft Teams
-ms.openlocfilehash: e8d3da4938a5040972b3c4853434808ca7457c90
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: a5b03c8bca7bcc8e012331afe9835a8de6cfe99a
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914590"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959501"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
@@ -65,51 +65,65 @@ Para atribuir um número de telefone a uma conta de recurso, você precisará ob
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Criar uma conta de recurso no Centro de administração do Microsoft Teams
 
-Para criar uma conta de recurso no Centro de administração do Microsoft Teams, vá para **configurações de toda a organização** > **contas de recurso**, clique em **+ Add**. Na janela pop-up, preencha o nome para exibição e o nome de usuário para a conta do recurso (o nome de domínio deve preencher automaticamente), em seguida, clique em **Salvar**.
+No Centro de administração do Microsoft Teams, navegue até **configurações de toda a organização** > **contas de recurso**. 
+
+![asd](media/r-a-master.png)
+
+![número 1](media/sfbcallout1.png)
+
+Para criar um novo recurso conta, clique em **+ nova conta**. Na janela pop-up, preencha o nome para exibição e o nome de usuário para a conta do recurso (o nome de domínio deve preencher automaticamente), em seguida, clique em **Salvar**.
 
 ![conta do recurso](media/res-acct.png)
 
-Você também precisará aplicar uma licença para a conta do recurso, conforme descrito em [Atribuir licenças aos usuários no Office 365 para empresas](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide)
+Em seguida, você precisará aplicar uma licença para a conta do recurso, conforme descrito em [Atribuir licenças aos usuários no Office 365 para empresas](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
 
-Depois que você criou a conta do recurso e atribuído a licença, você pode clicar em **Cancelar atribuir/atribuição** para atribuir um número de telefone para a conta do recurso, ou para atribuir a conta do recurso a uma fila de chamada e atendente automático.
+![número 3](media/sfbcallout3.png) depois que você criou a conta do recurso e atribuído a licença, você pode clicar em **Cancelar atribuir/atribuição** para atribuir um número de telefone para a conta do recurso ou atribuir o recurso de conta para um atendedor automático ou chamada fila que já existe. Se sua fila de chamada ou atendedor automático precisa ser criado, você pode vincular a conta do recurso enquanto você criá-lo. Clique em **Salvar** quando terminar.
+
+![atribuir a conta de recurso](media/r-a-assign.png)
+
+![número 2](media/sfbcallout2.png) você pode editar o nome de exibição da conta de recurso usando a opção de **Editar** .  Clique em **Salvar** quando terminar.
+![Editar a conta do recurso](media/r-a-edit.png)
 
 ## <a name="create-a-resource-account-in-powershell"></a>Criar uma conta de recurso no Powershell
 
 Para planos de chamada da Microsoft, você só pode atribuir Chamada Tarifada e números de telefone de chamada gratuita do serviço que você obteve no **Centro de administração de equipes da Microsoft** ou duas portas de outro provedor de serviços para uma conta de recurso. Para obter e usar números gratuitos de serviço, você precisará configurar créditos de comunicações.
 
-Dependendo se o seu número de telefone está localizado online ou no local, você precisará conectar-se ao prompt do Powershell apropriado com privilégios de administrador.
+Dependendo se a sua conta do recurso está localizada online ou no local, você precisará conectar-se ao prompt do Powershell apropriado com privilégios de administrador. 
+- O Powershell seguinte exemplos de cmdlet presumem que a conta do recurso hospedada online usando [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) para criar uma conta de recurso hospedada online.
 
+- Para o recurso contas hospedados no local no Skype para Business Server 2019 que pode ser usado com filas de chamada de nuvem e atendedores automáticos de nuvem, consulte [Configurar filas de chamada de nuvem](/skypeforbusiness/SfbHybrid/hybrid/configure-call-queue.md) ou [Configurar atendentes automáticos da nuvem](/skypeforbusiness/SfbHybrid/hybrid/configure-cloud-auto-attendant.md). Implementações híbridas (os números hospedados no roteamento direto) usará [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps).
 
-- Implementações híbridas (os números hospedados no roteamento direto) usará [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) para criar uma conta de recurso hospedada no local.  
-- Somente online implementações usará [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) ter uma conta de recurso hospedada online.
+O aplicativo IDs que você precisa usar durante a criação do aplicativo instâncias são:
+- **Atendedor automático:** ce933385-9390-45d1-9512-c8d228074e07
+- **Chamada fila:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-O exemplo a seguir é um exemplo de ambiente online da criação de conta do recurso com um atendedor automático ApplicationID. Para uma fila de espera de chamada, você pode usar o seguinte ApplicationID 11cd3e2e-fccb-42ad-ad00-878b93575e07:
+> [!NOTE]
+> Se você deseja que a fila chamada ou a ser pesquisada pelos usuários no local atendedor automático, você deve criar seu recurso contas no local, desde que as contas de recursos online não são sincronizadas para baixo até o Active Directory.
+
+1. Para criar uma conta de recurso online para usar com um uso de auto attendant, o comando a seguir.  
 
 ``` Powershell
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
-$resacct=Get-MsolUser -UserPrincipalName testra1@contoso.com
 ```
 
-Consulte [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps) para obter mais detalhes sobre esse comando.
+2. Não será capaz de usar a conta do recurso até que você aplique uma licença a ela. Como aplicar uma licença a uma conta no Centro de administração do O365, consulte [atribuir licenças aos usuários no Office 365 para empresas] (https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user , bem como [Atribuir Skype para licenças de negócios](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) .
 
-> [!NOTE]
-> É mais fácil definir o número de telefone online usando o Centro de administração do Microsoft Teams, conforme descrito na próxima seção. Você também pode usar o `Set-CsOnlineVoiceApplicationInstance` comando para uma atribuir um número de telefone para a conta do recurso após sua criação inicial conforme mostrado:
+3. (Opcional) Depois que a licença correta é aplicada à conta de recurso, você pode definir um número de telefone para a conta do recurso conforme mostrado abaixo. Nem todas as contas de recursos exigirá um número de telefone. Se você não aplicou uma licença para a conta do recurso, a atribuição de número de telefone falhará.
 
 ``` Powershell
-Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
+Set-CsOnlineVoiceApplicationInstance -Identity testra1@contoso.com
  -TelephoneNumber +14255550100
 Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 ```
 
-Se você não aplicar uma licença ao criar a conta do recurso a atribuição de número de telefone falhará. 
-
 Consulte [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) para obter mais detalhes sobre esse comando.
 
-
+> [!NOTE]
+> É mais fácil definir o número de telefone online usando o Centro de administração do Microsoft Teams, conforme descrito anteriormente.
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>Gerenciar configurações de conta do recurso no Centro de administração do Microsoft Teams
 
-Para gerenciar configurações de conta do recurso no Centro de administração do Microsoft Teams, vá para **configurações de toda a organização**  > **contas de recurso**, selecione a conta do recurso que você precisa alterar as configurações para e clique no botão **Editar** . na tela **Editar a conta do recurso** , você poderá alterar a:
+Para gerenciar configurações de conta do recurso no Centro de administração do Microsoft Teams, vá para **configurações de toda a organização**  > **contas de recurso**, selecione a conta do recurso que você precisa alterar as configurações para e clique no botão **Editar** . na tela **Editar a conta do recurso** , você poderá alterar essas configurações:
 
 - **Nome para exibição** para a conta
 - Chamada de fila ou que usa a conta do atendedor automático
@@ -127,13 +141,13 @@ Para implementações que são híbrida com Skype para Business Server:
 
 Para implementações em equipes ou Skype para Business Online:
 
-[Cite atendedores automáticos de nuvem.](what-are-phone-system-auto-attendants.md)
+[Quais são os atendedores automáticos do Cloud?](what-are-phone-system-auto-attendants.md)
 
-[Configurar um atendedor automático de nuvem](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+[Configurar um atendedor automático do Cloud](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
 [Exemplo de pequenas empresas - Configurar um atendedor automático](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[Criar uma fila de chamada de nuvem](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+[Criar uma fila de chamada do Cloud](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: O novo Skype para a área de relatórios do Centro de administração de negócios mostra você chamada e de áudio conferência atividade em sua organização. Ele permite extrair relatórios para proporcionar mais granular insight sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de detalhes do uso de PSTN do Skype for Business para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir os detalhes de uso de PSTN de conferência de áudio, incluindo o custo da chamada para que você possa entender o seu uso e chamada faturamento detalhes para determinar o uso em sua organização.
-ms.openlocfilehash: 9522cf7919808d059146e977de35a5590a05286f
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: 2a0db39852169cbb4c1dacab178d2f5b3b96dc7e
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453942"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993544"
 ---
 # <a name="pstn-usage-report"></a>Relatório de uso de PSTN
 
@@ -34,7 +34,7 @@ Confira a [Visão geral de relatórios](https://support.office.com/article/0d6df
 Nesse relatório, juntamente com o outro Skype para relatórios de negócios, oferece detalhes sobre a atividade, incluindo a chamar o uso em sua organização. Esses detalhes são muito úteis quando você investigando, planejamento e tornando outros negócios decisões para sua organização e para configurar a [comunicação créditos](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> [!OBSERVAçãO] Você pode ver todos os relatórios do Skype for Business quando faz logon como administrador no Centro de administração do Office 365. 
+> [!OBSERVAçãO] Você pode ver todos os relatórios do Skype for Business ao fazer logon como um administrador no Centro de administração do Office 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Como acessar o relatório de detalhes do uso de PSTN do Skype for Business
 
@@ -98,6 +98,9 @@ Esta é a aparência do relatório.
 ***
 > [!NOTE]
 > Você também não poderá ver "nenhum dado" em alguns campos. "Nenhum dado" significa que o campo não for aplicável para o tipo de chamada ou recurso. 
+***
+> [!NOTE]
+> Se você tiver um plano de chamada Sprint, você não verá quaisquer registros de detalhe de chamada no relatório de uso do PSTN. Entre em contato com a Sprint para suas necessidades de relatórios. 
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Clique para arrastar uma coluna para **Para agrupar por uma coluna específica, arraste e solte o cabeçalho da coluna aqui** se desejar criar uma exibição que agrupe todos os dados em uma ou mais colunas.
  ***

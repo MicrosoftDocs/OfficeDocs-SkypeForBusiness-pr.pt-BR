@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1caac1d6d96b93f686e4eb0fe71e39248da30f11
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.openlocfilehash: c089aed27acb4f7864bf5dc1948b0b55a4643790
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749665"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959152"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurações de administração para aplicativos no Microsoft Teams
 ==========================================
@@ -49,8 +49,6 @@ Por exemplo, você pode usar políticas de permissão de aplicativo para:
 Para saber mais, vá para [Gerenciar políticas de permissão de aplicativo em equipes](teams-app-permission-policies.md).
 
 ## <a name="app-setup-policies"></a>Políticas de configuração de aplicativo
-
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Políticas de configuração de aplicativo permitem que você personalizar a experiência de aplicativo para seus usuários. Você escolher os aplicativos que você deseja fixar para a barra de aplicativos nos clientes de equipes e a ordem em que eles aparecem, na web, desktop e clientes móveis.
 

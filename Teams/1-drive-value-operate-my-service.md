@@ -15,12 +15,12 @@ description: Tarefas e atividades necessárias para gerenciamento de serviço de
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47628a52d91c3a9d0492accf9bcb8bce926f3649
-ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
+ms.openlocfilehash: 45de98935cdba03697c84172ba7a0c081b0811da
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "31765177"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959232"
 ---
 # <a name="operate-my-service"></a>Operar meu serviço
 
@@ -480,7 +480,7 @@ Depois que o serviço Microsoft Teams tiver sido implantado, você precisará ex
 ### <a name="service-administration"></a>Administração do serviço
 
 O serviço de equipes tem várias configurações que podem ser configuradas todo o inquilino.
-Alterações feitas nas configurações de locatário afetam todos os usuários que tiverem sido habilitados para equipes. Para obter uma lista detalhada dessas configurações, consulte [recursos de gerenciar equipes da Microsoft em sua organização do Office 365](enable-features-office-365.md).
+Alterações feitas nas configurações de locatário afetam todos os usuários que tiverem sido habilitados para equipes. Para obter uma lista detalhada dessas configurações, consulte [configurações de gerenciar equipes da Microsoft para sua organização](enable-features-office-365.md).
 
 ### <a name="user-administration"></a>Administração do usuário
 

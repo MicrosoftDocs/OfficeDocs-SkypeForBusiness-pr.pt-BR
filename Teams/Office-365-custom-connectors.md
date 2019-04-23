@@ -14,17 +14,17 @@ search.appverid: MET150
 description: Os conectores mantêm a sua equipe atualizada ao entregar conteúdo e atualizações de serviços que você usa com frequência diretamente em um canal.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95053dbc4526ca3502ba986414c8e757d2cb7ad3
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: bdb4184ed203994f1275c9c074371655a627b1fe
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461128"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993435"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Usar o Office 365 e conectores personalizados no Microsoft Teams
 =======================================================
 
-Os conectores mantêm a sua equipe atualizada ao entregar conteúdo e atualizações de serviços que você usa com frequência diretamente em um canal. Com os conectores, os usuários do Microsoft Teams podem receber atualizações de serviços populares, como Twitter, Trello, Wunderlist, GitHub e VSTS no fluxo de bate-papo de suas equipes.
+Os conectores mantêm a sua equipe atualizada ao entregar conteúdo e atualizações de serviços que você usa com frequência diretamente em um canal. Com conectores, os usuários do Microsoft Teams podem receber atualizações dos serviços de populares, como o Twitter, Trello, Wunderlist, GitHub e serviços do Azure DevOps dentro do fluxo de bate-papo na sua equipe.
 
 Qualquer membro de uma equipe pode conectar sua equipe aos serviços de nuvem populares com os conectores se permitem as permissões de equipe e todos os membros da equipe são notificados das atividades de serviço. Conectores continuará funcionando mesmo após o membro que tenha inicialmente o conector tenha deixado a instalação. Qualquer membro de equipe com as permissões para adicionar ou remover possível modificar a configuração de conectores por outros membros.
 

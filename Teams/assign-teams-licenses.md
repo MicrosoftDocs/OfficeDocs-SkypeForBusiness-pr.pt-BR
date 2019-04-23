@@ -1,6 +1,6 @@
 ---
 title: Atribuir licenças do Teams
-author: lolaj
+author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 12/14/2018
@@ -14,12 +14,12 @@ ms.reviewer: mikedav
 description: Saiba como atribuir licenças para recursos como audioconferências, o sistema telefônico, e planos de chamada.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c679a43262a5cd10756b0f5ea542f1341018b615
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 46966b7cad855ef6336b501564cde89dffd6b2b2
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993625"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Atribuir licenças Teams da Microsoft
 
@@ -98,7 +98,7 @@ for each ($user in $users)
 | Enterprise E5 (com Sistema de Telefonia) | ENTERPRISEPREMIUM |
 | Enterprise E3 | ENTERPRISEPACK | 
 | Enterprise E1 | STANDARDPACK | 
-| Sistema de Telefonia | MCOEV |
+| Sistema Telefônico | MCOEV |
 | Plano de chamadas internacionais do & domésticas | MCOPSTN2 |
 | Planejar chamar domésticas (3000 minutos por usuário/mês para PR/US/CA, 1200 minutos por usuário/mês para países da UE) | MCOPSTN1 |
 | Planejar chamar domésticas (120 minutos por usuário/mês para cada país) </br>*Observação: este plano não está disponível nos EUA*. | MCOPSTN5 |

@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype para regras de normalização Business Server use expressões regulares do .NET Framework para converter números de telefone discado formato e. 164; em outras palavras, as regras de normalização levar o número de telefone discado por um usuário e converta esse número para o formato usado internamente pelo Skype para Business Server. Cada plano de discagem deve ter uma ou mais regras de normalização atribuídas.
-ms.openlocfilehash: 8e32ac485763c626d7d4347bb194fb4c4f3dba44
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a1157e9cf435fdd655e9d1772294fa3f57acf3f4
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993512"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Definindo regras de normalização no Skype para Business Server
 
@@ -36,7 +36,7 @@ Se você deseja criar ou modificar uma regra de normalização no Skype para pai
 
 1. Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [permissões de instalação delegadas](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o painel de controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Skype para painel de controle corporativos, consulte [Install and abrir ferramentas administrativas](../../management-tools/install-and-open-administrative-tools.md).
-3. (Opcional) Siga as etapas em [criar um plano de discagem](GET LINK AFTER MIGRATION) por meio da etapa 11 ou [modificar um plano de discagem](GET LINK AFTER MIGRATION) até a etapa 10. 
+3. (Opcional) Siga as etapas em [criar um plano de discagem](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan) por meio da etapa 11 ou [modificar um plano de discagem](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan) até a etapa 10. 
 4. Em  **Nova Regra de Normalização** ou **Editar Regra de Normalização**, digite um nome que descreva o padrão numérico que está sendo normalizado em **Nome** (por exemplo, **5DigitExtension**).
 5. (Opcional) Em **Descrição**, digite uma descrição da regra de normalização (por exemplo, "Converte extensões de cinco dígitos").
 6. Em **Compilar uma Regra de Normalização**, digite valores nos campos a seguir:

@@ -1,5 +1,5 @@
 ---
-title: Visão Geral do PowerShell do Teams
+title: Visão geral do PowerShell equipes
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -13,21 +13,21 @@ ms.collection:
 description: Saiba como usar os controles do PowerShell para gerenciar Teams da Microsoft.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 497aeba1e339e3c079de9eb4a23182e8f727f278
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 1e85261b133d8f1562bcca7d79f83eb21e345be2
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897199"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959358"
 ---
-# <a name="teams-powershell-overview"></a>Visão Geral do PowerShell do Teams
+# <a name="teams-powershell-overview"></a>Visão geral do PowerShell equipes
 
 Microsoft Teams tem um rico conjunto de ferramentas para administradores de TI gerenciar o produto através do Centro de administração do Microsoft Teams, controles do PowerShell e APIs do gráfico. Este guia explica como podemos estruturar nossos cmdlets do PowerShell para administradores de TI ser usado e fornece ponteiros a documentação adicional. Observe que as diferentes funções de administrador de equipes têm acesso aos cmdlets diferentes. Para obter mais informações, consulte [equipes da Microsoft que usar funções de administrador para gerenciar equipes](using-admin-roles.md).
 
 ## <a name="which-modules-do-you-need-to-use"></a>Quais módulos você precisa usar?
 
 Os controles do PowerShell para gerenciar equipes estão em dois diferentes módulos do PowerShell: 
-- [Módulo de PowerShell de equipes da Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5) (pública preview): O PowerShell de equipes módulo contém todos os cmdlets que você precisa criar e gerenciar equipes.  
+- [Módulo de PowerShell de equipes da Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/) : O PowerShell de equipes módulo contém todos os cmdlets que você precisa criar e gerenciar equipes.  
 - [Skype para o módulo de PowerShell corporativos](https://www.microsoft.com/en-us/download/details.aspx?id=39366): O Skype para o módulo de PowerShell Business contém os cmdlets para gerenciar diretivas, configurações e outras ferramentas de equipes. 
 
 A documentação de referência para os controles do PowerShell você saberá qual módulo contiver o cmdlet que você está investigando. (Eventualmente, os dois módulos serão combinados.)
@@ -38,9 +38,9 @@ Leia as [equipes da Microsoft que usar funções de administrador para gerenciar
 
 ## <a name="creating-and-managing-teams-via-powershell"></a>Criando e gerenciando equipes via PowerShell
 
-Os cmdlets para criar e gerenciar as equipes estão no [módulo de PowerShell de equipes da Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3). 
+Os cmdlets para criar e gerenciar as equipes estão no [módulo de PowerShell de equipes da Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/). 
 
-As equipes contam com grupos do O365, portanto quando você criar uma equipe, você cria um grupo. Há um conjunto de cmdlets fornecidos para funcionando com a equipe principal e suas configurações (``new-team``, ``get-team``, ``set-teamfunsettings``, ``set-teammessagingsettings``, ``set-teamguestsettings``, ``set-teammembersettings``), gerenciamento de usuários de equipe (``add-teamuser``, ``remove-teamuser``), bem como os cmdlets para gerenciar os canais da equipe (``new-teamchannel`` , ``remove-teamchannel``). Todos esses cmdlets podem ser executados como os usuários finais, mas eles funcionam, somente nas equipes que você possui ou é um membro do. Se você for um Administrador Global ou administrador de serviço de equipes, você poderá agir em todas as equipes em sua organização.
+As equipes contam com grupos do O365, portanto quando você criar uma equipe, você cria um grupo. Há um conjunto de cmdlets fornecidos para funcionando com a equipe principal e suas configurações (``new-team``, ``get-team``, ``set-team``), gerenciamento de usuários de equipe (``add-teamuser``, ``remove-teamuser``), bem como os cmdlets para gerenciar os canais da equipe (``new-teamchannel``, ``remove-teamchannel``). Todos esses cmdlets podem ser executados como os usuários finais, mas eles funcionam, somente nas equipes que você possui ou é um membro do. Se você for um Administrador Global ou administrador de serviço de equipes, você poderá agir em todas as equipes em sua organização.
 
 > **GroupId** usados em que o módulo de cmdlets do PowerShell de equipes da Microsoft é o mesmo que a propriedade **Identity** retornada por ``Get-UnifiedGroup`` no módulo de PowerShell do Exchange.
 

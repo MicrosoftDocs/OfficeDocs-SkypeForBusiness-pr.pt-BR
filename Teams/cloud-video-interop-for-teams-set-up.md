@@ -1,6 +1,6 @@
 ---
-title: Configurar a interoperabilidade de vídeo de nuvem for Microsoft Teams
-author: lolaj
+title: Configurar a interoperabilidade de vídeo na nuvem para o Microsoft Teams
+author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
@@ -14,20 +14,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b51bcd5cd5813c317c79a5f89656e11423d91412
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b171b3fb5e73561ea5aea54e6e4f25bfabe6b0dc
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462536"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993617"
 ---
-# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurar a interoperabilidade de vídeo de nuvem for Microsoft Teams
+# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurar a interoperabilidade de vídeo na nuvem para o Microsoft Teams
 
 Depois que você tiver [escolhido em seus parceiros de interoperabilidade de vídeo de nuvem](cloud-video-interop.md), você precisará planejar sua implantação, get configurar com detalhes de provisionamento e chave do locatário de parceiro e consentimento para o aplicativo de interoperabilidade de vídeo em sua organização. O diagrama a seguir destaca o processo. 
 
 ![Implantando CVI na sua organização](media/deploying-cvi.png)
 
-## <a name="plan"></a>Planejamento
+## <a name="plan"></a>Plano
 
 Consulte a [Interoperabilidade de vídeo de nuvem para equipes da Microsoft](cloud-video-interop.md) para obter informações sobre como identificar um parceiro ou parceiros para uso na sua organização. 
 
@@ -37,7 +37,7 @@ Planejar a habilitação de ampla de site com base no/simultâneos/usuário:
 - Selecione o plano de licença ideal para sua organização. 
 - Planejamento de capacidade de VMs é que você está hospedando sua infra-estrutura de vídeo.
 
-## <a name="configure"></a>Configurar 
+## <a name="configure"></a>Configuração 
 
 Para configurar a interoperabilidade de vídeo de nuvem, siga estas etapas. 
 
