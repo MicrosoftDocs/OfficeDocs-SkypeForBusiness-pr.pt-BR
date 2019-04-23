@@ -1,14 +1,14 @@
 ---
-title: Gerenciar os recursos do Microsoft Teams em sua organização do Office 365
+title: 'Gerencie as configurações do Microsoft Teams para sua organização '
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/29/2018
+ms.date: 04/18/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 search.appverid: MET150
-description: Saiba como ativar ou desativar os aplicativos Microsoft Teams em sua organização do Office 365, inclusive guias, conectores, bots ou qualquer combinação dos três.
+description: Saiba como ativar ou desativar as configurações de toda a organização do Microsoft Teams para sua organização, incluindo os aplicativos, o acesso externo, o acesso de convidado, as configurações do Teams e as preferências da Atualização do Teams.
 localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
@@ -17,20 +17,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a302d27884f92fb5cf17cc605cead6addbe98bfd
-ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
+ms.openlocfilehash: a61a9e31e2c1ba7c33da3a09d213e1ab0339756b
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30683888"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959264"
 ---
-# <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gerenciar os recursos do Microsoft Teams em sua organização do Office 365
+# <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gerencie as configurações do Microsoft Teams para sua organização 
 
 Todas as configurações do Teams serão migradas em breve para o novo centro de administração do Microsoft Teams. O único recurso do Teams gerenciado no centro de administração do Microsoft 365 consiste nos Aplicativos. 
 
 A menos que haja aluma especificação em contrário, o valor padrão das opções é **Ativado**.
 
-## <a name="tenant-wide-settings"></a>Configurações de locatário 
+## <a name="tenant-wide-settings-in-the-microsoft-365-admin-center"></a>As configurações de todos os locatários no Centro de administração do Microsoft 365
 
 Você pode desativar ou ativar aplicativos para o Microsoft Teams em **Configurações de todos os locatários** no centro de administração do Microsoft 365. 
 
@@ -44,31 +44,37 @@ Os aplicativos são guias, conectores, bots ou qualquer combinação desses trê
 
 #### <a name="default-apps"></a>Aplicativos padrão
 
-These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
+Esses aplicativos, como Planner, Elogiar e Clima, são fornecidos pelo Teams. Para ativar um aplicativo, marque a caixa de seleção dele. Para desativar um aplicativo, desmarque a caixa de seleção. 
 
 ![Captura de tela da seção Aplicativos Padrão.](media/teams-manage-features-in-office365-image1.png "Captura de tela da seção Aplicativos Padrão.")
 
 #### <a name="external-apps"></a>Aplicativos externos
 
-These apps are provided by third parties. You can configure the following settings for external apps.
+Esses aplicativos são fornecidos por terceiros. Você pode definir as configurações a seguir para aplicativos externos.
 
 ![Captura de tela da seção Aplicativos externos.](media/teams-manage-features-in-office365-image2.png "Captura de tela da seção Aplicativos externos, mostrando configurações que você pode ativar e desativar")
 
 - **Allow external apps in Microsoft Teams** (Permitir aplicativos externos no Microsoft Teams): quando essa configuração está ativada, os usuários podem adicionar aplicativos externos disponíveis para sua organização. 
 
-- **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
+- **Permitir sideload de aplicativos externos**: Se você deseja habilitar alguns aplicativos externos e desativar outros, desative essa configuração e, em seguida, na lista de aplicativos externos, desative os aplicativos que você não quer que os usuários tenham acesso. Quando essa configuração é ativada, os proprietários e membros de equipe que recebem permissão podem fazer o sideload de aplicativos para o Teams. 
 
-- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
+- **Habilitar novos aplicativos externos por padrão**: Quando essa configuração está ativada, os usuários podem ativar novos aplicativos assim que eles são adicionados ao catálogo de aplicativos do Teams. Desative essa configuração para poder controlar os novos aplicativos. Obviamente, se você desativá-la, precisará lembrar de examinar os novos aplicativos periodicamente para que sua organização não perca novos aplicativos. 
 
-Para saber mais, veja [Configurações de administração para aplicativos no Microsoft Teams](admin-settings.md). 
+Para saber mais, veja [Configurações de administração para aplicativos no Teams](admin-settings.md). 
 
-## <a name="teams-org-wide-settings"></a>Configurações de toda a organização do Microsoft Teams
-
+## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Configurações da organização do Teams no centro de administração do Microsoft Teams.
 Você pode controlar as configurações de usuário em toda a organização no centro de administração do Microsoft Teams. Para editar as configurações de toda a organização, vá até o centro de administração do Microsoft Teams e escolha **Configurações gerais da organização**. Você pode definir as seguintes configurações.
 
 ### <a name="external-access"></a>Acesso externo
 
 O **acesso externo** permite que os usuários do Microsoft Teams e do Skype for Business se comuniquem com usuários que estão fora da organização. Para configurar o acesso externo, vá para [Let your Teams users chat and communicate with users in another Teams organization](let-your-teams-users-communicate-with-other-people.md) (Permitir que os usuários do Microsoft Teams conversem e se comuniquem com usuários em outra organização do Microsoft Teams).
+
+Para adicionar ou bloquear um domínio:
+
+1. Selecione **Adicionar um domínio**.
+2. Em Adicionar um painel de domínio, insira o nome de domínio e clique na barra de espaços para salvar o nome.
+3. Selecione **Permitido** ou **Bloqueado**.
+4. Selecione **Concluído** para salvar as alterações. 
 
 ### <a name="guest-access"></a>Acesso de convidados
 
@@ -100,7 +106,7 @@ Essas configurações controlam o comportamento da conta de recurso para disposi
 - **Set content PIN** (Definir o PIN do conteúdo) ‒ exija que os usuários insiram esse PIN para impedir o acesso não autorizado a documentos. Isso impede que um usuário não autorizado ingresse em reuniões e acesse anexos.
 - **Resource accounts can send messages** (Contas de recurso podem enviar mensagens) ‒ **ative** essa configuração para permitir que mensagens sejam enviadas da conta de recurso do Surface Hub.
 
-#### <a name="search"></a>Pesquisa
+#### <a name="search-by-name"></a>Pesquisar por nome
 
 A pesquisa de diretório no escopo do Microsoft Teams usa a APB (política de catálogo de endereços) do Exchange para permitir que as organizações criem limites virtuais que controlam como os usuários podem encontrar e se comunicar com outros usuários na organização. Você pode usar uma pesquisa de diretório no escopo em situações como estas:
 

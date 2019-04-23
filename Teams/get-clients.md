@@ -1,5 +1,5 @@
 ---
-title: Obter clientes para o Microsoft Teams
+title: Obter clientes do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,39 +13,39 @@ MS.collection:
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar os vários clientes disponíveis for Teams Microsoft que incluem web, a área de trabalho (Windows e Mac) e a mobile (Android e iOS).
+description: Aprenda a usar os vários clientes disponíveis para o Microsoft Teams, que incluem web, área de trabalho (Windows e Mac) e dispositivos móveis (Android e iOS).
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 43344ac9ea00c15bcb4fb7518d727ccc9cff92de
 ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/27/2019
 ms.locfileid: "30934711"
 ---
-<a name="get-clients-for-microsoft-teams"></a>Obter clientes para o Microsoft Teams 
+<a name="get-clients-for-microsoft-teams"></a>Obter clientes do Microsoft Teams 
 ===========================
 
-Microsoft Teams possui clientes móveis e disponíveis para a área de trabalho web (Windows e Mac), (Android e iOS). Todos esses clientes precisam de uma conexão à internet ativa e não são suportados em modo offline.
+O Microsoft Teams tem clientes disponíveis para desktop (Windows e Mac), web e dispositivos móveis (Android e iOS). Todos esses clientes precisam de uma conexão à internet ativa e não são suportados em modo offline.
 
 > [!NOTE]
-> 29 de novembro de 2018, você não conseguirá usar Teams Microsoft para o aplicativo do Windows 10 S (Preview), disponível do Microsoft Store efetiva. Recomendamos que você use um dos aplicativos equipes descritos a seguir neste artigo após 29 de novembro.
+> A partir de 29 de novembro de 2018, você não poderá mais usar o aplicativo Microsoft Teams para Windows 10 S (Visualização), disponível na Microsoft Store. Depois de 29 de novembro, recomendamos que você use um dos aplicativos Teams descritos abaixo neste artigo.
 
-<a name="desktop-client"></a>Cliente de área de trabalho
+<a name="desktop-client"></a>Cliente de desktop
 --------------
 
 > [!Tip]
-> Assista a sessão de seguir para saber mais sobre os benefícios da área de trabalho do Windows, cliente, como planejar para ele e como implantá-la: [Equipes Windows Desktop Client](https://aka.ms/teams-clients)
+> Assista à sessão a seguir para conhecer os benefícios do Windows Desktop Client e como planejar e executar sua implantação: [Cliente de Desktop do Microsoft Teams](https://aka.ms/teams-clients)
 
-O cliente de desktop do Microsoft Teams é um aplicativo autônomo e atualmente não faz parte do Office 365 ProPlus. As equipes está disponível para o Windows (7 +), versões de 32 bits e 64 bits e macOS (10.10 +). No Windows, equipes requer o .NET Framework 4.5 ou posterior; o instalador de equipes se oferecerá para instalá-lo se você não tiver a ele. 
+O cliente de área de trabalho do Microsoft Teams é um aplicativo autônomo e atualmente não faz parte do Office 365 ProPlus. Teams está disponível para Windows (7+) nas versões de 32 e 64 bits e para macOS (10.10+). No Windows, o Teams exige o .NET Framework 4.5 ou posterior; o instalador do Teams oferecerá instalá-lo para você se você não o tiver. 
 
-Os clientes de área de trabalho oferecem suporte a comunicação em tempo real (áudio, vídeo e conteúdo compartilhamento) para reuniões de equipe, chamadas individuais chamando e particulares do grupo.
+Os clientes de área de trabalho fornecem suporte de comunicação em tempo real (áudio, vídeo e compartilhamento de conteúdo) para reuniões de equipe, chamadas em grupo e chamadas individuais privadas.
 
-Clientes de área de trabalho podem ser baixados e instalados pelos usuários finais diretamente do [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) se eles têm as permissões apropriadas de locais (direitos de administrador não são necessários para instalar o cliente de equipes em um PC, mas são necessários em um Mac).
+Os clientes de desktop podem ser baixados e instalados diretamente pelos usuários finais[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) se tiverem as permissões locais apropriadas (direitos de administrador não são necessários para instalar o cliente Teams em um PC, mas são necessários em um Mac).
 
-Administradores de TI podem escolher seu método preferencial para distribuir os arquivos de instalação para computadores em sua organização, como o System Center Configuration Manager (Windows) ou Jamf Pro (macOS). Para obter o pacote MSI para distribuição do Windows, consulte [instalar equipes da Microsoft usando o MSI](msi-deployment.md).
+Os administradores de TI podem escolher seu método preferido para distribuir os arquivos de instalação aos computadores de sua organização, como o System Center Configuration Manager (Windows) ou o Jamf Pro (macOS). Para obter o pacote MSI para distribuições do Windows, consulte [Instalar o Microsoft Teams usando MSI](msi-deployment.md).
 
 > [!NOTE]
 > A distribuição do cliente por esses mecanismos é apenas para a instalação inicial dos clientes Microsoft Teams, e não para atualizações futuras.
@@ -55,19 +55,19 @@ Administradores de TI podem escolher seu método preferencial para distribuir os
 A instalação do Microsoft Teams para Windows oferece instaladores para download nas arquiteturas de 32 bits e 64 bits.
 
 > [!NOTE]
-> A arquitetura (32 bits versus 64 bits) do Microsoft Teams é independente da arquitetura do Windows e do Office que está instalado.
+> A arquitetura (32 bits vs. 64 bits) do Microsoft Teams é independente da arquitetura do Windows e do Office instalados.
 
 O cliente Windows é implantado na pasta AppData localizada no perfil do usuário. A implantação no perfil local do usuário permite que o cliente seja instalado sem exigir direitos elevados. O cliente Windows aproveita os seguintes locais:
 
-- % LocalAppData %\\Microsoft\\equipes
+- %LocalAppData%\\Microsoft\\Teams
 
-- % LocalAppData %\\Microsoft\\TeamsMeetingsAddin
+- %LocalAppData%\\Microsoft\\TeamsMeetingsAddin
 
-- % AppData %\\Microsoft\\equipes
+- %AppData%\\Microsoft\\Teams
 
-- % LocalAppData %\\SquirrelTemp
+- %LocalAppData%\\SquirrelTemp
 
-Quando os usuários iniciam uma chamada usando o cliente Microsoft Teams pela primeira vez, eles podem notar um aviso com as configurações de firewall do Windows, que solicita que os usuários permitam a comunicação. Os usuários podem ser instruídos para ignorar essa mensagem porque a chamada funcione, mesmo quando o aviso é descartado.
+Quando os usuários iniciam uma chamada usando o cliente Microsoft Teams pela primeira vez, eles podem notar um aviso com as configurações de firewall do Windows, que solicita que os usuários permitam a comunicação. Os usuários podem ser instruídos a ignorar esta mensagem porque a chamada funcionará mesmo quando o aviso for recusado.
 
 ![Captura de tela de um diálogo do Alerta de Segurança do Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
@@ -76,42 +76,42 @@ Quando os usuários iniciam uma chamada usando o cliente Microsoft Teams pela pr
 
 ### <a name="mac"></a>Mac
 
-Usuários de Mac podem instalar equipes usando um arquivo de instalação do pacote para computadores macOS. É obrigatório acesso administrativo para instalar o cliente Mac. O cliente macOS é instalado na pasta/aplicativos.
+Usuários de Mac podem instalar o Teams usando um arquivo de instalação PKG para computadores macOS. É necessário acesso administrativo para instalar o cliente Mac. O cliente macOS é instalado na pasta /Applications.
 
-#### <a name="install-teams-by-using-the-pkg-file"></a>Instalar as equipes usando o arquivo de pacote
+#### <a name="install-teams-by-using-the-pkg-file"></a>Instalar o Teams usando o arquivo PKG
 
-1. Na [página de download de equipes](https://teams.microsoft.com/downloads), **Mac**, clique em **Baixar**.
-2. Clique duas vezes o arquivo de pacote.
-3. Siga o Assistente de instalação para concluir a instalação.
-4. Pasta/aplicativos equipes serão instaladas. É uma instalação de toda a máquina.
-
-> [!NOTE]
-> Durante a instalação, o pacote vai solicitar credenciais de administrador. O usuário precisa digitar as credenciais de administrador, independentemente de estarem ou não o usuário é um administrador.
-
-Se um usuário atualmente tem uma instalação DMG das equipes e quiser substituí-la com a instalação do pacote, o usuário deve:
-
-1. Saia do aplicativo de equipes.
-2. Desinstale o aplicativo de equipes.
-3. Instale o arquivo de pacote.
-
-Administradores de TI podem usar implantação gerenciada de equipes para distribuir os arquivos de instalação para todos os Macs na sua organização, como Jamf Pro.
+1. Na [página de download do Teams](https://teams.microsoft.com/downloads), em **Mac**, clique em **Download**.
+2. Clique duas vezes no arquivo PKG.
+3. Siga o assistente de instalação para concluir a instalação.
+4. O Teams será instalado na pasta /Applications. É uma instalação em toda a máquina.
 
 > [!NOTE]
-> Se você perceber problemas ao instalar o pacote, fale conosco. Na seção **comentários** no final deste artigo, clique em **comentários sobre o produto**.
+> Durante a instalação, o PKG solicitará credenciais de administrador. O usuário precisa inserir as credenciais de administrador, independentemente de o usuário ser ou não um administrador.
+
+Se um usuário tiver atualmente uma instalação DMG do Teams e quiser substituí-lo pela instalação PKG, o usuário deverá:
+
+1. Sair do aplicativo Teams.
+2. Desinstalar o aplicativo do Teams.
+3. Instalar o arquivo PKG.
+
+Os administradores de TI podem usar a implantação gerenciada do Teams para distribuir os arquivos de instalação para todos os Macs de sua organização, como o Jamf Pro.
+
+> [!NOTE]
+> Se você tiver problemas ao instalar o PKG, avise-nos. Na seção **Comentários**, no final deste artigo, clique em **Comentários sobre o produto**.
 
 <a name="web-client"></a>Clientes Web 
 ----------
 
-O cliente da web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) é um cliente de funcional completo que pode ser usado em uma variedade de navegadores. O cliente web oferece suporte a reuniões e chamadas usando webRTC, portanto, há não plug-in ou download necessário para executar as equipes em um navegador da web. O navegador deve ser configurado para permitir que os cookies de terceiros. 
+O cliente Web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) é um cliente completo e funcional que pode ser usado em vários navegadores. O cliente Web suporta Chamadas e Reuniões usando o webRTC, portanto, não há necessidade de usar um plugin ou download para executar o Teams em um navegador da web. O navegador deve ser configurado para permitir cookies de terceiros. 
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-Cliente web executa a detecção de versão do navegador após a conexão com [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). Se for detectada uma versão sem suporte do navegador, ela será bloqueie o acesso à interface da web e recomendável que o usuário baixe o cliente de área de trabalho ou aplicativos móveis.
+O cliente Web executa a detecção da versão do navegador ao se conectar[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). Se uma versão do navegador não suportada for detectada, ela bloqueará o acesso à interface da Web e recomendará que o usuário faça o download do cliente de desktop ou do aplicativo para dispositivos móveis.
 
 <a name="mobile-clients"></a>Clientes móveis
 --------------
 
-Aplicativos móveis Microsoft Teams estão disponíveis para Android e iOS e são voltados para usuários no go participando de bate-papo com base em conversas e permitir que as chamadas de áudio ponto a ponto. Para aplicativos móveis, vá para o mobile relevante armazena Google tocar e loja de App Apple. O aplicativo do Windows Phone foi desativado 20 de julho de 2018 e talvez não funcione mais. 
+Os aplicativos móveis da Microsoft Teams estão disponíveis para Android e iOS e são voltados para usuários em trânsito que participam de conversas baseadas em bate-papo e permitem chamadas de áudio ponto a ponto. Para aplicativos para dispositivos móveis, acesse as lojas relevantes, Google Play e a Apple App Store. O aplicativo Windows Phone foi retirado em 20 de julho de 2018 e pode não funcionar mais. 
 
 As plataformas móveis suportadas para os aplicativos móveis da Microsoft Teams são as seguintes:
 
@@ -120,7 +120,7 @@ As plataformas móveis suportadas para os aplicativos móveis da Microsoft Teams
 -   **iOS**: 10.0 ou posterior
 
 > [!NOTE]
-> A versão móvel deve estar disponível para o público na ordem para equipes trabalhem conforme o esperado.
+> A versão móvel deve estar disponível ao público para que o Teams funcione conforme o esperado.
 
 Os aplicativos móveis são distribuídos e atualizados apenas pela respectiva loja de aplicativos da plataforma móvel e não estão disponíveis para ser distribuídos por meio de soluções MDM (gerenciamento de dispositivos móveis) ou carregamento lateral.
 
@@ -147,10 +147,10 @@ No momento, não estão disponibilizadas opções para administradores de TI def
 
 ![Captura de tela das configurações de notificação.](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-<a name="sample-powershell-script"></a>Exemplo de Script do PowerShell
+<a name="sample-powershell-script"></a>Exemplo de script do PowerShell
 ----------------------------
 
-Este script de amostra, o que precisa ser executado em computadores clientes no contexto de uma conta de administrador com privilégios elevados, criará uma nova regra de firewall de entrada para cada pasta de usuário encontrada no c:\users. Quando equipes encontrar esta regra, ele impedirá o aplicativo de equipes de solicitar aos usuários para criar regras de firewall quando os usuários fazem sua primeira chamada de equipes. 
+Este script de exemplo, que precisa ser executado em computadores clientes no contexto de uma conta de administrador elevada, criará uma nova regra de firewall de entrada para cada pasta de usuário encontrada em c:\usuários. Quando o Teams encontrar essa regra, impedirá que o aplicativo do Teams solicite que os usuários criem regras de firewall quando os usuários fizerem a primeira chamada no Teams. 
 
 ```
 
