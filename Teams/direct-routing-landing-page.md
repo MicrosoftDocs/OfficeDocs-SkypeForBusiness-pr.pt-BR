@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.date: 01/28/2019
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
@@ -14,12 +14,12 @@ search.appverid: MET150
 F1keywords: ms.teamsadmincenter.directrouting.overview
 description: Página de aterrissagem do roteamento direto
 appliesto: Microsoft Teams
-ms.openlocfilehash: 5710ddd2c3715f0cfd1e4b1ca5b45058c9741e18
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 8f2e213b1e77217640f66e050f470b66f9750ef0
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569858"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198088"
 ---
 # <a name="phone-system-direct-routing"></a>Roteamento Direto do Sistema Telefônico
 
@@ -43,11 +43,11 @@ Além disso, convém ler os artigos a seguir, dependendo dos requisitos:
 -  [Contas de usuário em um ambiente híbrido com conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 - Assista a sessão de seguir para saber mais sobre o roteamento direto: [Roteamento direta em equipes da Microsoft](https://aka.ms/teams-direct-routing)
 
-## <a name="core-deployment-decisions"></a>Decisões importantes sobre implantação
+## <a name="core-deployment-decisions"></a>Decisões principais de implantação
 
 Estas são as decisões principais a serem considerados para roteamento direto. 
 
-|Pergunte a si mesmo|Ação |
+|Pergunte-se|Ação |
 | :------------|:-------|
 |Para os usuários que eu habilitará o roteamento direto? | Para obter mais informações, consulte [habilitar usuários para atendimento de roteamento direto](direct-routing-configure.md#enable-users-for-direct-routing-service). |
 Eu tenho as licenças necessárias para roteamento direto? | Para obter mais informações, consulte [licenciamento e outros requisitos](direct-routing-plan.md#licensing-and-other-requirements).
@@ -57,7 +57,7 @@ Eu tenho as licenças necessárias para roteamento direto? | Para obter mais inf
 
 Com o roteamento direto, você pode conectar seu próprio controlador de borda de sessão (SBC) diretamente ao sistema telefônico.  Para obter uma lista de certificados SBCs, consulte [Suporte para controladores de borda de sessão](direct-routing-border-controllers.md).
 
-|Pergunte a si mesmo|Ação |
+|Pergunte-se|Ação |
 |:------------|:-------|
 | Onde e como posso implantará SBCs? | Para obter mais informações, consulte [Configurar o roteamento direto](direct-routing-configure.md) | 
 Eu tenho vários locatários? | Para obter mais informações, consulte [Configurar um controlador de borda de sessão para vários locatários](direct-routing-sbc-multiple-tenants.md).|
@@ -67,7 +67,7 @@ Eu tenho vários locatários? | Para obter mais informações, consulte [Configu
 
 Você precisará configurar o sistema telefônico para rotear as chamadas para os SBCs específicos.
 
-|Pergunte a si mesmo|Ação |
+|Pergunte-se|Ação |
 |:------------|:-------|
 | Quais políticas de roteamento de voz, uso da PSTN e roteamentos de voz preciso criar? | Para informações de roteamento de voz, consulte [Configurar o roteamento de voz](direct-routing-configure.md#configure-voice-routing).
 | Os usuários que serão atribuídos para a política de roteamento de voz que eu definem? | Consulte os exemplos em [Configurar o roteamento de voz](direct-routing-configure.md#configure-voice-routing). |
@@ -77,7 +77,7 @@ Você precisará configurar o sistema telefônico para rotear as chamadas para o
 
 Roteamento direto somente é compatível com Microsoft Teams. Para fazer ou receber chamadas PSTN por meio de roteamento direto, você precisa configurar as políticas necessárias para garantir que as chamadas recebidas são recebidas em equipes. Você pode configurar usuários para definir as equipes como seu cliente preferencial para chamadas por Configurando o usuário para o modo somente equipes ou configuração de equipes como o cliente de chamada preferencial, atribuindo o TeamsCallingPolicy e o TeamsInteropPolicy.
 
-|Pergunte a si mesmo|Ação |
+|Pergunte-se|Ação |
 |:------------|:-------|
 |Como serão definidas equipes como cliente preferencial para chamadas? | Para obter mais informações, consulte [definir equipes da Microsoft como o preferencial chamar cliente para usuários](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).|
 |||
@@ -86,7 +86,7 @@ Roteamento direto somente é compatível com Microsoft Teams. Para fazer ou rece
 
 Talvez você queira, considere o seguinte, com base nas necessidades e a configuração da sua organização:
 
-| Pergunte a si mesmo| Ação |
+| Pergunte-se| Ação |
 | :------------|:-------|
 | Você tem um Skype existente para implantação de servidor de negócios com conectividade híbrida configurada? |  Para entender como as contas de usuário em um ambiente híbrido são provisionadas e gerenciados, consulte [contas de usuário em um ambiente híbrido com conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md).| 
 | Você está migrando roteamento direta a partir de chamar planejar ou um Skype para ambiente de local de negócios? | Para entender mais sobre a migração para o roteamento direta a partir de um ambiente existente, consulte [Migrando para o roteamento direto](direct-routing-migrating.md). |

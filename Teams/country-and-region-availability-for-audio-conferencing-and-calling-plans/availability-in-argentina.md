@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Argentina.
 ms.openlocfilehash: c87e8578597d9e185cec60f332af5ac758a3047c
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542699"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198421"
 ---
 # <a name="availability-in-argentina"></a>Disponibilidade na Argentina
 
@@ -67,7 +67,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | <ul><li>Buenos Aires <li>Córdoba <li>La Plata <li>Mar Del Plata <li>Mendoza <br/>  <li>San Miguel de Tucuman <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | <ul><li>Buenos Aires <li>Córdoba <li>La Plata <li>Mar Plata Del <li>Mendoza <br/>  <li>SAN Miguel de Tucuman <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Números gratuitos tarifados estão disponíveis?  <br/> |Sim  <br/> |
    

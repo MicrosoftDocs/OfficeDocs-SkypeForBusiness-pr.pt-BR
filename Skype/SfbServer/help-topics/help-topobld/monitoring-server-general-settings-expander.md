@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 description: 'No Construtor de Topologias, você pode editar as propriedades de um Monitoring Server individual. Basta clicar com o botão direito do mouse nesse Monitoring Server e, na árvore de console, clicar em Ação na barra de ferramentas ou clicar em uma tarefa no painel Ações e depois em Editar Propriedades e alterar qualquer uma destas opções:'
 ms.openlocfilehash: d096603f2a3ec5f0644c666f8f76b02b8d01d99d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891012"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199998"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Expansor de Configurações Gerais de Servidor de Monitoramento
  

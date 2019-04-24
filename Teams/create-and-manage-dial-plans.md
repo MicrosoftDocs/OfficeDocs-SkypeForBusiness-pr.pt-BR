@@ -20,22 +20,22 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to create calling dial plans (PSTN Calling dial plans) in Office 365 and how to manage them. '
+description: 'Saiba como criar planos de discagem de chamada (planos de discagem PSTN chamar) no Office 365 e como gerenciá-los. '
 ms.openlocfilehash: a499ddb9a9788fce9bdd9bfb2a5bd6e8d1d0f687
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543316"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199213"
 ---
 # <a name="create-and-manage-dial-plans"></a>Criar e gerenciar planos de discagem
 
 Depois que você planejou os planos de discagem para sua organização e percebeu todas as regras de normalização que precisam ser criados para roteamento de chamadas, você precisará usar o Windows PowerShell para criar os planos de discagem e faça as alterações de configuração.
   
 > [!NOTE]
-> [!OBSERVAçãO] O Centro de administração do Skype for Business não pode ser usado para criar e gerenciar planos de discagem. 
+> O Skype para centro de administração de negócios não pode ser usado para criar e gerenciar planos de discagem. 
   
-## <a name="verifying-and-starting-remote-powershell"></a>Verificar e iniciar o PowerShell Remoto
+## <a name="verifying-and-starting-remote-powershell"></a>Verificando e inicie o PowerShell remoto
 
  **Verifique se está executando o Windows PowerShell 3.0 ou versão superior**
   
@@ -68,11 +68,11 @@ Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 
 
 Se você quiser obter mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Conectando-se ao Skype para negócios Online usando o Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
-## <a name="creating-and-managing-your-dial-plans"></a>Criar e gerenciar planos de discagem
+## <a name="creating-and-managing-your-dial-plans"></a>Criando e gerenciando seus planos de discagem
 
-Você pode usar um único cmdlet ou um script do PowerShell para criar e gerenciar os planos de discagem de locatário.
+Você pode usar um cmdlet único ou um script do PowerShell para criar e gerenciar planos de discagem de locatário.
   
-### <a name="using-single-cmdlets"></a>Usar cmdlets únicos
+### <a name="using-single-cmdlets"></a>Usando cmdlets único
 
 - Para criar um novo plano de discagem, execute:
     
@@ -80,16 +80,16 @@ Você pode usar um único cmdlet ou um script do PowerShell para criar e gerenci
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Para obter outros exemplos e parâmetros, veja [New-CsTenantDialPlan](https://technet.microsoft.com/library/mt775026.aspx).
+    Para outros parâmetros e exemplos, consulte [New-CsTenantDialPlan](https://technet.microsoft.com/library/mt775026.aspx).
     
-- Para criar alterações de configuração para um plano de discagem existente, execute:
+- Para fazer alterações de configuração em um plano de discagem existente, execute:
     
   ```
   Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Para obter outros exemplos e parâmetros, veja [Set-CsTenantDialPlan](https://technet.microsoft.com/library/mt775023.aspx).
+    Para outros parâmetros e exemplos, consulte [Set-CsTenantDialPlan](https://technet.microsoft.com/library/mt775023.aspx).
     
 - Para adicionar usuários a um plano de discagem, execute:
     
@@ -97,15 +97,15 @@ Você pode usar um único cmdlet ou um script do PowerShell para criar e gerenci
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    Para obter outros exemplos e parâmetros, veja [Grant-CsTenantDialPlan](https://technet.microsoft.com/library/mt775021.aspx).
+    Para outros parâmetros e exemplos, consulte [Grant-CsTenantDialPlan](https://technet.microsoft.com/library/mt775021.aspx).
     
-- Para exibir as configurações sobre um plano de discagem, execute:
+- Para exibir as configurações em um plano de discagem, execute:
     
   ```
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    Para obter outros exemplos e parâmetros, veja [Get-CsTenantDialPlan](https://technet.microsoft.com/library/mt775024.aspx).
+    Para outros parâmetros e exemplos, consulte [Get-CsTenantDialPlan](https://technet.microsoft.com/library/mt775024.aspx).
     
 - Para excluir um plano de discagem, execute:
     
@@ -113,27 +113,27 @@ Você pode usar um único cmdlet ou um script do PowerShell para criar e gerenci
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    Para obter outros exemplos e parâmetros, veja [Remove-CsTenantDialPlan](https://technet.microsoft.com/library/mt775020.aspx).
+    Para outros parâmetros e exemplos, consulte [Remove-CsTenantDialPlan](https://technet.microsoft.com/library/mt775020.aspx).
     
-- Para ver as configurações do plano de discagem efetivo, execute:
+- Para ver as configurações de plano de discagem eficaz, execute:
     
   ```
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    Para obter outros exemplos e parâmetros, veja [Get-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775022.aspx).
+    Para outros parâmetros e exemplos, consulte [Get-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775022.aspx).
     
-- Para testar as configurações efetivas de um plano de discagem, execute:
+- Para testar as configurações de um plano de discagem em vigor, execute:
     
   ```
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255551234 -Identity 1849827b-a810-40a8-8f77-e94250d4680b_US_TenantDialPlanRedmond
   ```
 
-    Para obter outros exemplos e parâmetros, veja [Test-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775025.aspx).
+    Para outros parâmetros e exemplos, consulte [Test-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775025.aspx).
     
-### <a name="using-a-powershell-script"></a>Usar um script do PowerShell
+### <a name="using-a-powershell-script"></a>Usando um script do PowerShell
 
-Execute este script para excluir uma regra de normalização que esteja associada a um plano de discagem de locatário sem precisar excluir primeiro o plano de discagem de locatário:
+Execute essa opção para excluir uma regra de normalização que é associada a um locatário plano de discagem sem precisar excluir o plano de discagem de locatário primeiro:
 ```
 $b1=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
@@ -141,12 +141,12 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
 $b2=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$b2}
 ```
-Execute este script para adicionar a regra de normalização a seguir ao plano de discagem de locatário existente chamado RedmondDialPlan.
+Executar este procedimento adicionar a seguinte regra de normalização ao plano de discagem existente do locatário denominado RedmondDialPlan.
 ```
 $nr1=New-CsVoiceNormalizationRule -Parent Global -Description 'Organization extension dialing' -Pattern '^(\\d{3})$' -Translation '+14255551$1' -Name NR1 -IsInternalExtension $false -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 ```
-Execute este script para remover a seguinte regra de normalização do plano de discagem de locatário existente chamado RedmondDialPlan.
+Executar este procedimento remover a seguinte regra de normalização do plano de discagem existente do locatário denominado RedmondDialPlan.
 ```
 $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
@@ -172,7 +172,7 @@ $nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[Number 1]
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
-Execute este script para localizar todos os usuários que receberam o plano de discagem de locatário RedmondDialPlan.
+Execute esta opção para localizar todos os usuários que receberam a RedmondDialPlan locatário plano de discagem.
   
 ```
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
@@ -183,7 +183,7 @@ Execute esta opção para excluir policyname para todos os usuários que têm Ho
 Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
 ```
 
-Execute estes scripts para adicionar um plano de discagem local existente chamado OPDP1 como um plano de discagem de locatário para sua organização. Você precisará primeiro salvar o local plano para um arquivo. XML de discagem e usá-lo para criar o novo plano de discagem de locatário.
+Execute estas para adicionar que denominado OPDP1 como um plano de discagem do locatário para sua organização de plano de discagem de local existente. Você precisará primeiro salvar o local plano para um arquivo. XML de discagem e usá-lo para criar o novo plano de discagem de locatário.
   
 Execute esta opção para salvar o plano de discagem do local para o arquivo. XML.
   
@@ -193,7 +193,7 @@ $DPFileName = "dialplan.xml"
 Get-CsDialplan $DPName | Export-Clixml $DPFileName
 ```
 
-Execute este script para criar o novo plano de discagem de locatário.
+Execute esta opção para criar o novo plano de discagem de locatário.
   
 ```
 $DPFileName = "dialplan.xml"
@@ -207,7 +207,7 @@ $NormRules += $nr2
 }
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
-## <a name="want-to-know-more-about-windows-powershell"></a>Quer saber mais sobre o Windows PowerShell?
+## <a name="want-to-know-more-about-windows-powershell"></a>Quer saber mais sobre o Windows Powershell?
 
 - O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     

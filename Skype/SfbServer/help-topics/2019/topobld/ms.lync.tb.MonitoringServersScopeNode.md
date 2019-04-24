@@ -14,11 +14,11 @@ ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'O nó Monitoring Servers lista os Monitoring Servers em sua topologia. Você pode executar as seguintes ações:'
 ms.openlocfilehash: 6b44ddd868bb530e76849b2653306665ef785d24
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201704"
 ---
 # <a name="monitoring-servers-scope-node"></a>Nó de Escopo de Servidores de Monitoramento
  

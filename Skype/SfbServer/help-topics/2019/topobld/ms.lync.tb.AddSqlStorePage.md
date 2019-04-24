@@ -14,11 +14,11 @@ ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para definir um novo repositório SQL, o que significa que você está especificando um banco de dados baseado em SQL Server e uma instância do SQL Server — uma instância padrão ou uma instância nomeada — especifique o seguinte.
 ms.openlocfilehash: 5f362d66f7764c69e51a3d54c51ba251a93ae5f9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201995"
 ---
 # <a name="add-sql-store"></a>Adicionar Repositório SQL
 

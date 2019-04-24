@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
 description: 'Resumo: Saiba mais sobre o subrelatório de resumo P2P no Skype para Business Server.'
 ms.openlocfilehash: c36102eaa3fbf3dd970176316c11dd366b2a8fca
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198103"
 ---
 # <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Subrelatório de resumo P2P no Skype para Business Server
  

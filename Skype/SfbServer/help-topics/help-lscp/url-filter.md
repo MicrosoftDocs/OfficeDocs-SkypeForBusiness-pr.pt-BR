@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 2677dcba-92f6-432a-9e2f-f7ad72497e3c
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 ms.openlocfilehash: e7604cb36d1c47e11db7e7d41611e9ceba303169
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877549"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219962"
 ---
 # <a name="url-filter"></a>Filtro de URL
 

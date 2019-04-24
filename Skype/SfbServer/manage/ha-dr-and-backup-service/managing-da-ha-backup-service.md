@@ -9,11 +9,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Saiba mais sobre os procedimentos para operações de recuperação de desastres, bem como para manter o serviço de Backup, que sincroniza os dados nos pools de Front-Ends emparelhados.
 ms.openlocfilehash: 103e0aa274e40fd997981bd6de595ceca089b710
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892410"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199823"
 ---
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Gerenciando Skype para o serviço de Backup, alta disponibilidade e recuperação de desastres Business Server
 

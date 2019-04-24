@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Como parte da implantação do Enterprise Voice, você pode configurar um tronco entre um servidor de mediação e um ou mais pares para fornecer conectividade PSTN (rede) telefônica pública comutada clientes Enterprise Voice e dispositivos em sua organização.
 ms.openlocfilehash: 5e07f0152aac32c4d57962cf619e56777221c955
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214764"
 ---
 # <a name="configuring-trunks-in-skype-for-business-server"></a>Configurando troncos no Skype para Business Server
 

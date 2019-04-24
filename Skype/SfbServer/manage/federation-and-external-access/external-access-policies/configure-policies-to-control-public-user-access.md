@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: úblicos conectividade (IM) de mensagens instantâneos permite que os usuários em sua organização usar mensagens Instantâneas para se comunicar com usuários de serviços de IM fornecidos por provedores de serviços IM públicos.
 ms.openlocfilehash: 3ed19bf692ccc7dfc39466e304b3b1371164758c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197608"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Configurar políticas para controlar o acesso de usuário público na Skype para Business Server
 

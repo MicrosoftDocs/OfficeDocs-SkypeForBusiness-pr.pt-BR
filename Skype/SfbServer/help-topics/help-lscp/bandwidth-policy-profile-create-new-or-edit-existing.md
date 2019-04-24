@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 7c1d072e-a891-48a9-81c0-3696e372f222
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 ms.openlocfilehash: 7435e3d9cc0ebc0a75ee6a5da1cf6e32c3b0367d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200932"
 ---
 # <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a>Perfil de Política de Largura de Banda: Criar Novo ou Editar Existente
 

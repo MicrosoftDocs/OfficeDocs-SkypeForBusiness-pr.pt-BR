@@ -18,11 +18,11 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessart
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6a4b0013e3e3ca31baea21e4e733a9606f3765c6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202594"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Habilitar ou desabilitar o acesso de convidados no Microsoft Teams
 ======================================
@@ -34,7 +34,7 @@ As configurações do convidado são definidas no Azure Active Directory. Leva e
 > [!IMPORTANT]
 > Para habilitar a experiência completa do recurso de acesso de convidados, é importante compreender a dependência de autorização básica entre o Microsoft Teams, o Azure Active Directory e o Office 365. Para obter mais informações, consulte [Autorizar acesso de convidados no Microsoft Teams](Teams-dependencies.md).
 
-## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado versus acesso externo (federação)
+## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado vs. acesso externo (federação)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 

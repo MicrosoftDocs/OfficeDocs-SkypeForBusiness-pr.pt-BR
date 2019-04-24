@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 description: Na caixa de diálogo Mover Usuários, é possível selecionar os pools de origem e de destino para mover as contas de usuário de um pool para outro em sua implantação.
 ms.openlocfilehash: 2ef78e35bbe05318c91332654c1b6ec86c8075e8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885516"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200706"
 ---
 # <a name="move-all-users"></a>Mover Todos os Usuários
 

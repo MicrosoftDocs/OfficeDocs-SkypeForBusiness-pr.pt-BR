@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Resumo: Gerencie autenticação de dois fatores no Skype para Business Server.'
 ms.openlocfilehash: ce6d43b8ace741a754cb4406235534fd83e414b3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222874"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Gerenciar a autenticação de dois fatores no Skype para Business Server
  
@@ -107,7 +107,7 @@ Esse recurso deve ser habilitado em situações em que há grandes preocupaçõe
 
 Configurando um Proxy do ADFS ou Proxy reverso para suportar Skype para autenticação de dois fatores comerciais de redes externas não é abordada nestes tópicos.
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Configurar a autenticação de dois fatores no Skype para Business Server](configure-two-factor.md)
   

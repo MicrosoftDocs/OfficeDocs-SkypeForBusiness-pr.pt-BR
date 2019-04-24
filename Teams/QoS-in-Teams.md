@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e72b4b4fdfdbe6d31ca3543d23b67cb515568e4f
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494025"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194535"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar a qualidade do serviço (QoS) em equipes da Microsoft
 
@@ -47,7 +47,7 @@ Na maioria dos casos, a rede de sua empresa conectar-se para a nuvem será uma r
 
 ## <a name="verify-your-network-is-ready"></a>Verifique se a que sua rede está pronta
 
-Se você estiver considerando uma implementação de QoS, você já deve ter determinado seus requisitos de largura de banda e outros [requisitos de rede](prepare-network.md). Os cálculos de largura de banda do Microsoft Teams são complexos e, para ajudar, foi criada uma calculadora. Para acessar a Calculadora, vá para [Planejador de rede](https://aka.ms/bwcalc/) em MyAdvisor.
+Se você estiver considerando uma implementação de QoS, você já deve ter determinado seus requisitos de largura de banda e outros [requisitos de rede](prepare-network.md). Cálculos de largura de banda for Microsoft Teams são complexos e para ajudar com isso, uma calculadora foi criada. Para acessar a Calculadora, vá para [Planejador de rede](https://aka.ms/bwcalc/) em MyAdvisor.
   
   Congestionamento de tráfego em uma rede muito afetará a qualidade da mídia. Falta de largura de banda leva a degradação do desempenho e uma experiência de usuário ruim. À medida que cresce de uso e a adoção de equipes, use a emissão de relatórios, [análise de chamada e o painel de controle de qualidade de chamada](difference-between-call-analytics-and-call-quality-dashboard.md) para identificar problemas e faça ajustes usando QoS e adições seletiva de largura de banda.
 

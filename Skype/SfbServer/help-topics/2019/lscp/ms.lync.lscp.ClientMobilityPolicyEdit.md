@@ -14,11 +14,11 @@ ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
 description: Na caixa de diálogo Editar política de mobilidade, você pode editar os detalhes de uma política de mobilidade.
 ms.openlocfilehash: 0c10beff86078be294e39a32327b4562446d935d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215847"
 ---
 # <a name="edit-client-mobility-policy"></a>Editar Política de Mobilidade do Cliente
 
@@ -39,7 +39,7 @@ As listas a seguir descrevem os menus, comando, campos e propriedades na página
 
 Para obter detalhes sobre políticas de mobilidade, consulte [Mobility Policies](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx).
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 

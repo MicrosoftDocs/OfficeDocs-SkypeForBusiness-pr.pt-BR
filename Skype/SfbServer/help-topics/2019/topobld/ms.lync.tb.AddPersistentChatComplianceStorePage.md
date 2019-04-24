@@ -14,11 +14,11 @@ ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 ROBOTS: NOINDEX, NOFOLLOW
 description: Configure a repositórios de conformidade do SQL Server que fornecerão bancos de dados para o servidor de Chat persistente ou o recurso de conformidade do servidor de Chat persistente.
 ms.openlocfilehash: 08ca69ab6a949a906da800b677b3f63213686803
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896004"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202016"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>Adicionar Repositório do SQL Server de Conformidade de Chat Persistente
 

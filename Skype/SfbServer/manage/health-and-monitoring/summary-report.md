@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 'Resumo: Saiba mais sobre o diagnóstico relatório de resumo chamadas usada no Skype para Business Server.'
 ms.openlocfilehash: f575d258c5207e5a0361f3c47613fb10b8c0f1f8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873433"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197657"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Chamar o relatório de resumo de diagnóstico em Skype para Business Server
  

@@ -19,20 +19,20 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
+description: Saiba o que você precisa e como os organizadores de reunião podem chamar para outras pessoas usando o Skype para negócios.
 ms.openlocfilehash: 49130a14391e014d1e7aea21c62abaf2385296d8
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229531"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Discagem externa de um Skype para reunião de negócios para que outras pessoas poderá ingressar nela
 
 > [!NOTE]
-> Se você estiver procurando informações sobre fazer uma discagem externa em uma reunião do Teams, consulte [Discagem externa em uma reunião do Teams para que outras pessoas possam participar](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
+> Se você estiver procurando informações sobre discando check-out de uma reunião de equipes, consulte [discando check-out de uma reunião de equipes para que outras pessoas poderá ingressar nela](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
 
-Como organizador da reunião, você pode discar usando o Skype para o aplicativo de negócios para permitir que o ingresso de outras pessoas na reunião mesma usando seus telefones. Apesar de não ser necessário, quando estiver discando para alguém, recomenda-se que você disque o número completo, incluindo o código do país/região. Para que a discagem funcione:
+Como organizador da reunião, você pode discar usando o Skype para o aplicativo de negócios para permitir que o ingresso de outras pessoas na reunião mesma usando seus telefones. Embora ele não é obrigatório, quando você estiver discando a alguém, é recomendável que você disque o número completo, incluindo o código de país/região. Para obter a discagem externa para funcionar:
   
 - Você pode discar somente se você ingressar em uma reunião usando um Skype para o aplicativo de negócios.
     
@@ -45,21 +45,21 @@ Para adicionar outros participantes por meio de discagem para as reuniões da su
 
  **Etapa 1:** Na reunião convidar, use a opção **Convidar mais pessoas** podem para discar para um número de telefone.
   
-![Dial-out with Skype for Business.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
+![Discagem externa com Skype para negócios.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
   
  **Etapa 2:** Insira o número de telefone completo, incluindo o código de país/região na caixa.
   
-![Dial-out phone number in Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![Número de telefone de discagem no Skype para negócios](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
-## <a name="supported-countries-and-regions"></a>Países e regiões aceitos
+## <a name="supported-countries-and-regions"></a>Regiões e países com suporte
 
-A discagem está disponível apenas para alguns países/regiões. Para obter uma lista completa, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Discagem externa só está disponível para alguns países/regiões. Para obter uma lista completa, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Quer saber mais sobre serviços de audioconferência?
 
-[Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Experimentar ou comprar audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- [Licenciamento de complementos do Skype for Business](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [Licenciamento do complemento Skype for Business](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
 ## <a name="related-topics"></a>Tópicos relacionados
 

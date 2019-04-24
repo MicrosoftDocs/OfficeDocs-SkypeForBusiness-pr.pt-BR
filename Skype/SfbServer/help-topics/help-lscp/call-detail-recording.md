@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 ms.openlocfilehash: bf84b22bc92da97b96737545eed1429a8c02d8cd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234785"
 ---
 # <a name="call-detail-recording"></a>Registro de Detalhes de Chamada
  

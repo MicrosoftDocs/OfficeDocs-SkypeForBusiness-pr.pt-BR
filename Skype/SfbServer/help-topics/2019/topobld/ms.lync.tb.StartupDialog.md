@@ -14,11 +14,11 @@ ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Iniciar o construtor de topologias para configurar as propriedades e a configuração da sua implantação. Na inicialização, o construtor de topologias exibe uma caixa de diálogo que pergunta qual será a fonte do documento de topologia. Você selecionar uma das três opções:'
 ms.openlocfilehash: eb464902ff7ce1cd20a18be4829753e2ad8528c1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201571"
 ---
 # <a name="topology-builder-startup-dialog"></a>Caixa de diálogo de inicialização do Construtor de Topologias
  

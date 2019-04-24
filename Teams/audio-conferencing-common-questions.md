@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: A seguir estão algumas das principais perguntas que recebemos de nossos clientes que desejam usar conferência de áudio.
-ms.openlocfilehash: 104f4affe4eb5459d8647174fea1801af4bff826
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e66b9d7abbed35cf73119b05d283aa0d408f3b8a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465216"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198772"
 ---
 # <a name="audio-conferencing-common-questions"></a>Perguntas comuns sobre a Audioconferência
 
@@ -37,15 +37,15 @@ A seguir estão algumas das principais perguntas que recebemos de nossos cliente
 
 Chamando em reuniões é muito útil quando as pessoas estão em trânsito, por exemplo e não podem participar de uma reunião usando o Skype para o aplicativo de negócios ou Teams da Microsoft em seus dispositivos móveis ou laptop. Mas há outros cenários que usando um telefone para participar de uma Skype para negócios ou Microsoft Teams reunião pode ser uma opção melhor que usando um aplicativo em um computador:
   
-- Conectividade com a Internet limitada.
+- Conectividade com a Internet é limitada.
     
-- Reunião apenas com áudio.
+- Uma reunião é áudio apenas.
     
-- A pessoa tentou ingressar em uma reunião do Skype for Business e houve uma falha.
+- A pessoa que tentou ingressar em uma Skype para reunião de negócios e ela falhou.
     
 - A qualidade da chamada é melhor se eles discarem.
     
-- As pessoas podem ingressar em uma reunião com as "mãos livres" por meio de dispositivos Bluetooth.
+- As pessoas podem ingressar em uma reunião "viva voz" usando dispositivos Bluetooth.
     
 - As pessoas encontram é mais fácil e conveniente para sua situação.
     
@@ -59,11 +59,11 @@ Se você estiver chamando usando um telefone ou o Skype para aplicativos de neg�
 
 Sim, os números de telefone gratuitos (números de serviço) estão disponíveis, mas somente em alguns países/regiões. Para obter uma lista dos números que estão disponíveis, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
-## <a name="how-many-local-dial-in-numbers-are-currently-supported"></a>Quantos números de discagem locais são suportados?
+## <a name="how-many-local-dial-in-numbers-are-currently-supported"></a>Quantos locais números de discagem são suportados atualmente?
 
-Há números locais de discagem que são atribuídos a você quando você adquirir as licenças para audioconferências. Esses números serão incluídos no convite da reunião. Eles estarão disponíveis somente para sua organização. O telefone atribuído à sua organização, e esse número é compartilhado por usuários dentro dessa organização que estiverem habilitados para conferência de áudio. Assim, Skype para negócios ou Microsoft Teams reuniões agendadas pelo usuário A e B de outro usuário ambos terá o mesmo número de discagem.
+Há números locais de discagem que são atribuídos a você quando você adquirir as licenças para audioconferências. Os números de discagem serão incluídos no convite da reunião. Esses números locais serão apenas disponíveis para sua organização. O telefone atribuído à sua organização, e esse número é compartilhado por usuários dentro dessa organização que estiverem habilitados para conferência de áudio. Assim, Skype para negócios ou Microsoft Teams reuniões agendadas pelo usuário A e B de outro usuário ambos terá o mesmo número de discagem.
   
-Números de discagem locais e, em alguns casos, internacionais do país em que sua empresa está localizada serão incluídos no convite da reunião. Se um participante da reunião usar um número diferente incluído no convite, será um número de telefone compartilhado.
+Números de discagem locais, e também em alguns casos internacionais números de discagem do país onde está localizada, a sua organização serão incluídas no convite da reunião. Se um participante da reunião usa um número diferente incluem no convite da, ele será um número de telefone compartilhado.
   
 ## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-office-365-support"></a>Quantos discada números internacionais dá suporte a conferência de áudio no Office 365?
 
@@ -75,19 +75,19 @@ Se os números de telefone para conferência de áudio não estão disponíveis 
   
 ## <a name="what-is-the-maximum-length-of-the-audio-conferencing-meetings"></a>Qual é o tamanho máximo das reuniões de conferência de áudio?
 
-A duração máxima depende de quem participa da reunião e do tipo de autenticação usado para participar.
+O comprimento máximo de tempo depende de quem está na reunião e o tipo de autenticação que usaram para ingressar na reunião.
   
 |**Participantes da reunião**|**Hora de término da reunião**|
 |:-----|:-----|
-|Existem usuários que tiverem ingressado usando o Skype para aplicativos de negócios ou Microsoft Teams ou tenham discado na reunião.  <br/> |A reunião é encerrada se não houver alteração na lista de participantes após 24 horas.  <br/> |
-|Todos os participantes discaram para a reunião, mas alguém usou um PIN para entrar.  <br/> |A reunião é encerrada após 24 horas.  <br/> |
-|Todos os usuários discados à reunião, mas não havia qualquer pessoa que usado um PIN para entrar na reunião.  <br/> |A reunião é encerrada após 4 horas.  <br/> |
+|Existem usuários que tiverem ingressado usando o Skype para aplicativos de negócios ou Microsoft Teams ou tenham discado na reunião.  <br/> |A reunião ser encerrada se não houver nenhuma alteração à lista de participantes após 24 horas.  <br/> |
+|Todos os usuários discados à reunião, mas alguém tiver usado um PIN para entrar na reunião.  <br/> |A reunião ser encerrada após 24 horas.  <br/> |
+|Todos os usuários discados à reunião, mas não havia qualquer pessoa que usado um PIN para entrar na reunião.  <br/> |A reunião terminará após quatro horas.  <br/> |
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>Quantos participantes de telefone total pode ter em reuniões?
 
 Serviços de audioconferência permite que até 250 participantes de telefone.
   
-Para saber mais sobre os limites da conferência, consulte [Limites do Skype for Business Online](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits).
+Para saber sobre limites de reunião, consulte [Skype para limites de negócios on-line](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits).
   
 ## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>Por que os usuários começam a receber emails com suas informações de conferência de áudio?
 
@@ -95,9 +95,9 @@ Adicionamos um novo recurso que permite a você, o [administrador](https://suppo
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>Conferência de áudio podem ser usada pelos usuários que fazem parte de uma implantação local do Skype para Business Server?
 
-Ainda não chegamos nesse ponto. No entanto, você pode continuar a usar a conferência de áudio que está disponível no Skype para Business Server junto com um gateway PSTN para os usuários no local. 
+Não estamos lá. No entanto, você pode continuar a usar a conferência de áudio que está disponível no Skype para Business Server junto com um gateway PSTN para os usuários no local. 
   
-## <a name="can-a-user-get-a-personal-conference-id"></a>Os usuários podem obter uma ID de conferência pessoal?
+## <a name="can-a-user-get-a-personal-conference-id"></a>Um usuário pode obter a uma ID de conferência pessoais?
 
 Skype para usuários empresariais e Teams Microsoft será aleatoriamente atribuído IDs de conferência e não é possível reservar ou defina uma ID de conferência estáticos que só podem ser usadas. 
   
@@ -105,20 +105,20 @@ Skype para usuários empresariais e Teams Microsoft será aleatoriamente atribu�
 
 Não há suporte atualmente para usuários habilitados para conferência de áudio ingressar em uma reunião do Skype transmissão.
   
-## <a name="can-a-user-get-operator-assistance-during-a-meeting"></a>Um usuário pode obter assistência do operador durante uma reunião?
+## <a name="can-a-user-get-operator-assistance-during-a-meeting"></a>Um usuário pode obter a assistência de operador durante uma reunião?
 
-Não, o usuário não pode pressionar *0 para obter assistência do operador durante a reunião. Se houver problemas com a conferência de áudio, um administrador para uma organização pode contatar o [suporte da Microsoft para o Office 365](https://support.office.com/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+Não, um usuário não é possível obter qualquer assistência de operador ou suporte pressionando * 0 durante a reunião. Se houver problemas com a conferência de áudio, um administrador para uma organização pode contatar o [suporte da Microsoft para o Office 365](https://support.office.com/article/Microsoft-support-for-Office-365-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
-## <a name="how-does-a-user-access-or-change-their-conference-id"></a>Como um usuário pode acessar ou alterar seu ID de conferência?
+## <a name="how-does-a-user-access-or-change-their-conference-id"></a>Como não acesso a um usuário ou alterar sua ID de conferência?
 
 Um Skype para negócios ou Microsoft Teams usuário pode encontrar o ID de conferência atribuída a eles pelo agendamento de uma reunião no Outlook e Outlook na web. Além disso, os usuários podem encontrar a ID de conferência no email que será enviado para acessá-los depois que eles são configurados.
   
 > [!NOTE]
-> [!OBSERVAçãO] Os usuários não poderão redefinir o ID de conferência. A ID de conferência pode apenas ser redefinida por você, o [administrador](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), para a organização. 
+> Os usuários não poderão redefinir seu ID de conferência. A ID de conferência pode apenas ser redefinida por você, o [administrador](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), para a organização. 
   
 Estamos trabalhando em uma solução que permitem o acesso de usuário e redefinir uma ID de conferência sem a Ajuda do administrador de. uma organização
   
-## <a name="how-does-a-user-access-or-change-hisher-pin"></a>Como um usuário pode acessar ou alterar seu PIN?
+## <a name="how-does-a-user-access-or-change-hisher-pin"></a>Como não acesso a um usuário ou alterar seu PIN?
 
 O Skype para negócios ou Microsoft Teams usuário pode encontrar o PIN em um email que será enviado para acessá-los depois que eles são configurados.
   
@@ -127,9 +127,9 @@ O Skype para negócios ou Microsoft Teams usuário pode encontrar o PIN em um em
   
 Estamos trabalhando em uma solução que permitem o acesso de usuário e redefinir um PIN sem a Ajuda de um administrador de organização.
   
-## <a name="what-in-meeting-dial-pad-commands-are-supported"></a>Quais comandos do teclado de discagem são aceitos na reunião?
+## <a name="what-in-meeting-dial-pad-commands-are-supported"></a>Quais comandos do teclado de discagem na reunião são suportados?
 
-- *6 (Ativa/desativa Mudo para si mesmo)
+- * 6 (mudo/desativar o mudo)
     
 - * 1 (reproduz as descrições dos comandos do teclado de discagem disponíveis) 
     
@@ -141,17 +141,17 @@ Sim, os participantes podem discar internacionalmente e convidar outros chamador
 
 Quando um usuário é atribuído com uma licença de **Conferência de áudio** e o usuário cria um novo Skype para negócios ou Microsoft Teams reunião no Outlook ou no Outlook na web, os números de telefone de discagem e as IDs de conferência são adicionados ao convite da reunião automaticamente.
   
-## <a name="how-does-a-user-schedule-and-start-a-meeting-when-all-attendees-will-be-using-a-phone-to-dial-in"></a>Como um usuário pode agendar e iniciar uma reunião em que todos os participantes usarão o telefone?
+## <a name="how-does-a-user-schedule-and-start-a-meeting-when-all-attendees-will-be-using-a-phone-to-dial-in"></a>Como um cronograma de usuário e iniciar uma reunião quando todos os participantes irá usar um telefone para discagem?
 
 Agendar uma reunião que ingressarão por todos os participantes que usam um telefone para discagem não é diferente de agendar uma reunião online regular. No entanto, há duas maneiras de iniciar uma reunião em que todos os participantes usam um telefone discada:
 
 - **Opção #1**: por padrão, se o organizador da reunião e todos os participantes estão participando de uma reunião usando um telefone, o organizador da reunião precisa digitar seu PIN de conferência de áudio para iniciá-lo. Os chamadores essa pergunta se desejam autenticar como o organizador de uma reunião determinado quando eles disquem o número de telefone de uma reunião online. Todos os participantes que ingressem na reunião via discada antes que o organizador seja iniciado será colocado no lobby e escutará música em espera. Depois que o organizador inicia inserindo o seu PIN de conferência de áudio, todos os participantes no lobby serão automaticamente ingressar na reunião.
 
-- **Opção 2**: se a configuração "Permitir não autenticado para os chamadores para ser as primeira pessoas em uma reunião" (desabilitada por padrão) está habilitada para um determinado organizador, então todas as reuniões agendadas por esse usuário poderá ser iniciado sem ter que o organizador de entrada é ou seu PIN de conferência áudio. Quando essa configuração estiver habilitada, a reunião será iniciado assim que o participante primeiro ingressa-lo por meio de um número de telefone de discagem e ele não será colocado no lobby. Para obter informações adicionais, consulte [configurações de conferência de áudio de gerenciar para um usuário em equipes da Microsoft](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) ou [audioconferências gerenciar configurações de um usuário no Skype para negócios Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
+- **Opção 2**: se a configuração "Permitir não autenticado para os chamadores para ser as primeira pessoas em uma reunião" (desabilitada por padrão) está habilitada para um determinado organizador, então todas as reuniões agendadas por esse usuário poderá ser iniciado sem ter que o organizador inserir seu ou seu PIN de conferência áudio. Quando essa configuração estiver habilitada, a reunião será iniciado assim que o participante primeiro ingressa-lo por meio de um número de telefone de discagem e ele não será colocado no lobby. Para obter informações adicionais, consulte [configurações de conferência de áudio de gerenciar para um usuário em equipes da Microsoft](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) ou [audioconferências gerenciar configurações de um usuário no Skype para negócios Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
    
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar o Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[Instalar o Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
 [Números de telefone para audioconferência no Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
 

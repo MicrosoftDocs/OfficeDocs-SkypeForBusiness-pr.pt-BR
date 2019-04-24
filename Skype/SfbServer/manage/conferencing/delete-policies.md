@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: 'Resumo: Saiba como excluir políticas de conferência do Skype para Business Server.'
 ms.openlocfilehash: 404e981af46b29bd95b36ca402c9f691e34737a5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873363"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222804"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>Excluir políticas de conferência do Skype para Business Server
  

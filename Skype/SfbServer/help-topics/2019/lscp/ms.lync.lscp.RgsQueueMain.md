@@ -14,11 +14,11 @@ ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Filas de espera do grupo de resposta chamadas para um grupo de resposta em espera até que um operador responde à chamada.
 ms.openlocfilehash: 1c4d8418623b61d82a0ccb3b0bc942ebbc5f07f3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215210"
 ---
 # <a name="response-groups-queue"></a>Fila de Grupos de Resposta
 

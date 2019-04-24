@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype para Business Server Enterprise Voice roteia as chamadas com base em números de telefone normalizados no formato e. 164. Isso significa que todas as cadeias de caracteres discadas devem ser normalizadas formato e. 164 para fins de executar a pesquisa inversa (RNL) para que eles podem ser traduzidos para seu URI de SIP correspondente. Skype para Business Server fornece a capacidade de manipular o ID chamado e apresentação da ID do chamador.
 ms.openlocfilehash: b85241cfa7fc8f14732c92994660cdeb2088c874
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875472"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214649"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Definindo regras de conversão no Skype para Business Server
 

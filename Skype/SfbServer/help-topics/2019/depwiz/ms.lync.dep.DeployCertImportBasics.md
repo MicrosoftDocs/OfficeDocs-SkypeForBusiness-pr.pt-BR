@@ -14,11 +14,11 @@ ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para importar um certificado, você deve fornecer um caminho para o arquivo de certificado. Na caixa de texto de arquivo Selecionar certificado, você pode digitar o caminho completo e nome de arquivo, ou clique no botão Procurar e navegue até o local do caminho e o nome de arquivo (geralmente, um arquivo. p7b,. pfx ou. cer).
 ms.openlocfilehash: 3cc7da881d33dd61435e238b7ec43a55064a1017
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886223"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216498"
 ---
 # <a name="import-certificate-intro"></a>Importar Certificado (Introdução)
  

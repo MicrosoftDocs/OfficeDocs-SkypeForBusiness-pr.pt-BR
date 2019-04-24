@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 'Resumo: Saiba mais sobre a operação de executar consulta, que é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
 ms.openlocfilehash: 8a1bea338039914695e16d1294f28abfe1e4b559
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899148"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217478"
 ---
 # <a name="run-query"></a>Executar Consulta
 

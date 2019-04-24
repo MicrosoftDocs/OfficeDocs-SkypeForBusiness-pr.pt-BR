@@ -15,11 +15,11 @@ appliesto:
 - Microsoft Teams
 description: Este documento descreve o comportamento de bate-papo, roteamento de chamadas e presença entre usuários das equipes e Skype para os negócios, federados, tanto no locatário com base em modos de TeamsUpgrade atribuídos. Ela inclui as otimizações de roteamento, o comportamento de presença, bem como a alteração do modo de TeamsUpgrade padrão de *legado* para *Ilhas* e a iminente retirada de *legado*.
 ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517212"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198780"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 

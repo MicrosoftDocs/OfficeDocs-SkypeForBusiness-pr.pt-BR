@@ -14,11 +14,11 @@ ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Na página nova configuração de dispositivo ou Editar configuração de dispositivo, você pode criar ou modificar um conjunto de configurações usadas para gerenciar Skype para negócios Phone Edition. Essas configurações permitem que você configure aspectos como o modo de segurança necessário, o nível de log do dispositivo, as configurações de QoS (Qualidade de voz do serviço) e se os telefones devem ser bloqueados automaticamente após um período especificado de inatividade.
 ms.openlocfilehash: 3dd7c9f782160b0f8a58d15e749276b4b2ee6adf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877004"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215812"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Configuração de Dispositivo: Criar Nova ou Editar Existente
  
@@ -60,7 +60,7 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
     
   - **Tempo limite de bloqueio de telefone** Você pode especificar o comprimento mínimo de tempo antes que os bloqueios de telefone em si. O intervalo para o tempo limite é de 0 a 60 minutos; o valor padrão é de 10 minutos. Insira o valor no formato HH:MM:SS.
     
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Configuração do dispositivo](ms.lync.lscp.ClientDeviceCfgMain.md)
 

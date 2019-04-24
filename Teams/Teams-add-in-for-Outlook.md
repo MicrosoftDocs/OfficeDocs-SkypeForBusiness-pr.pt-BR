@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: dbe0b72c03d8e85deff538924c17dac8f0d3773c
 ms.sourcegitcommit: daf65bf09ca57554da744602d2551db53caedde5
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/09/2019
 ms.locfileid: "30512985"
@@ -35,7 +35,7 @@ O suplemento de Reunião do Teams é instalado automaticamente para os usuários
 ![Captura de tela do suplemento do Teams na faixa de opções do Outlook.](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
-> Os usuários do Windows 7 devem instalar a [atualização para Universal C Runtime no Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para o suplemento de reunião de equipes trabalhem.
+> Os usuários do Windows 7 devem instalar a [atualização para o Universal C Runtime no Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para que o suplemento de Reunião do Teams funcione.
 
 Se o suplemento de Reunião do Teams não for exibido, instrua os usuários a fechar o Outlook e o Teams e reiniciar o cliente Teams primeiro, depois entrar no Teams e então reiniciar o cliente Outlook, exatamente nessa ordem.
 
@@ -53,9 +53,9 @@ Para saber mais sobre como configurar a autenticação, veja [Modelos de identid
 
 ## <a name="enable-private-meetings"></a>Habilitar reuniões privadas
 
-Permitir o agendamento para reuniões privadas deve ser habilitada no Centro de administração do Microsoft Teams para o plug-in obter implantado. No Centro de administração, vá para **reuniões** > **Políticas de reunião**e na seção **Geral** , alternar **Permitir o agendamento de reuniões privadas** para diante.)
+A permissão de agendamento de reuniões privadas deve ser habilitada no centro de administração do Microsoft Teams para que o plug-in seja implantado. No centro de administração, vá para **Reuniões** > **Políticas de Reunião**, e na seção **Geral**, ative **Permitir agendamento de reuniões particulares** para Ativado.)
 
-![Captura de tela das configurações no Centro de administração do equipes da Microsoft.](media/teams-add-in-for-outlook-image1.png)
+![Captura de tela das configurações no centro de administração do Microsoft Teams.](media/teams-add-in-for-outlook-image1.png)
 
 O cliente Teams instala o suplemento correto, determinando se os usuários precisam da versão de 32 ou de 64 bits.
 
@@ -70,18 +70,18 @@ O suplemento de Reunião do Teams ainda está desenvolvendo funcionalidades, ent
 - No momento, você pode apenas convidar pessoas da sua empresa, pois ainda não é possível o ingresso de usuários externos nas reuniões.
 - O suplemento destina-se a reuniões agendadas com participantes específicos, não a reuniões em um canal. As reuniões do canal devem ser agendadas dentro do Teams. Atualmente, o suplemento de Reunião do Teams no Outlook está disponível apenas para usuários do Windows, mas o suporte para Mac será disponibilizado em breve.
 - O suplemento não funcionará se houver um proxy de autenticação no caminho de rede do computador do usuário e dos serviços do Teams.
-- O add-in está sendo distribuído incrementalmente e pode não estar disponível para a sua organização ainda.
+- O suplemento está sendo implementado de forma incremental e pode não estar disponível para sua organização ainda.
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
-Se você não conseguir a reunião de equipes suplemento para Outlook a fim de instalar, tente essas etapas de solução de problemas.
+Se você não conseguir instalar o suplemento Teams Meeting para o Outlook, tente estas etapas de solução de problemas.
 
-- Certifique-se de que tiverem sido aplicadas a todas as atualizações disponíveis para o cliente de desktop do Outlook 
-- Reinicie o cliente de área de trabalho de equipes.
-- Sair e entrar novamente para o cliente de desktop equipes.
-- Reinicie o cliente de desktop do Outlook. (Certifique-se de que o Outlook não está em execução no modo de admin.)
-- Verifique se que o nome da conta de usuário que fez logon não contém espaços. (Isso é um problema conhecido e será corrigido em uma atualização futura.)
-- Certifique-se de logon único (SSO) está habilitado.
+- Garantir que todas as atualizações disponíveis para o cliente de Outlook desktop tenham sido aplicadas 
+- Reinicie o cliente de área de trabalho do Teams.
+- Saia e entre novamente no cliente de área de trabalho do Teams.
+- Reinicie o cliente para área de trabalho do Outlook. (Certifique-se de que o Outlook não esteja sendo executado no modo de administrador.)
+- Certifique-se de que o nome da conta do usuário que efetuou logon não contenha espaços. (Esse é um problema conhecido e será corrigido em uma atualização futura.)
+- Certifique-se de que o logon único (SSO) esteja ativado.
 
 Para obter orientações gerais sobre como desabilitar suplementos, veja [Exibir, gerenciar e instalar suplemento nos programas do Office](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 

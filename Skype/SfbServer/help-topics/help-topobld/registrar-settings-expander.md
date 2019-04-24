@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: Resiliência oferece alta disponibilidade e recuperação de desastres para o pool de registrador. Fornecendo um registrador de backup em caso de falha do registrador principal, o backup registrador possa assumir o controle para o registro com falha, permitindo que os usuários se conectem e se comunicar. Os usuários podem potencialmente experimentar funcionalidade reduzida, dependendo de qual sistemas falharam com o registrador principal.
 ms.openlocfilehash: afe640a5560c11f90381875aa67f5fe25c70044c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219152"
 ---
 # <a name="registrar-settings-expander"></a>Expansor de configurações do Registrador Avançado
  

@@ -1,5 +1,5 @@
 ---
-title: Atualizar o Gerenciador de estatísticas do Skype for Business Server
+title: Atualizar o Gerenciador de Estatísticas do Skype for Business Server
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,17 +12,17 @@ ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Resumo: Leia este tópico para saber como atualizar o Gerenciador de estatísticas Skype for Business Server.'
 ms.openlocfilehash: 8ff7eeb9c0abbd0482248f9b69db4013edda6495
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198451"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Atualizar o Gerenciador de estatísticas do Skype for Business Server
+# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Atualizar o Gerenciador de Estatísticas do Skype for Business Server
  
 **Resumo:** Leia este tópico para saber como atualizar o Gerenciador de estatísticas Skype for Business Server.
   
-Este tópico descreve como atualizar uma instalação existente do Gerenciador de estatísticas Skype for Business Server — uma ferramenta poderosa que permite que você visualize Skype para dados de integridade e desempenho do servidor de negócios em tempo real. Você pode sondar dados de desempenho em centenas de servidores por cada alguns segundos e exiba os resultados instantaneamente no site do Gerenciador de estatísticas. 
+Este tópico descreve como atualizar uma instalação existente do Gerenciador de estatísticas Skype for Business Server — uma ferramenta poderosa que permite que você visualize Skype para dados de integridade e desempenho do servidor de negócios em tempo real. É possível sondar dados de desempenho em centenas de servidores em intervalos de alguns segundos e ver os resultados instantaneamente no site do Gerenciador de Estatísticas. 
   
 Para obter mais informações sobre o Gerenciador de estatísticas e os novos recursos na versão 2.0, consulte [Planejar para o Gerenciador de estatísticas de Skype para Business Server](plan.md) e o [Gerente estatísticas implantar Skype para Business Server](deploy.md).
   
@@ -105,9 +105,9 @@ Se, por algum motivo, a atualização automatizada falhar, é possível executar
 ## <a name="for-more-information"></a>Para obter mais informações
 <a name="BKMK_Fixed"> </a>
 
-Para obter mais informações, consulte:
+Para obter mais informações, consulte o seguinte:
   
-- [Planejar o Gerenciador de estatísticas do Skype for Business Server](plan.md)
+- [Planejar o Gerenciador de Estatísticas do Skype for Business Server](plan.md)
     
 - [Implantar o Gerenciador de estatísticas do Skype for Business Server](deploy.md)
     

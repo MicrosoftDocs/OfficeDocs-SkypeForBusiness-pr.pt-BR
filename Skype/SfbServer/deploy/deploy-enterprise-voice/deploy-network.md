@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Criar ou modificar regiões de rede, sites de rede e associar subredes no Skype para Business Server. Todos esses são usados para os recursos avançados do Enterprise Voice: desvio de mídia, chamar o controle de admissão e roteamento baseado no local.'
 ms.openlocfilehash: 91ce871d3e8d4871693b7ad28cf4659ea0bb0c4c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223110"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Implantar regiões de rede, sites e sub-redes em Skype para negócios
 
@@ -311,7 +311,7 @@ Por exemplo, se a lista de endereços IP no alerta especifica 10.121.248.226 e 1
 
 2. Certifique-se de que ambas as sub-redes 10.121.248.0/24 e 10.121.249.0/24 estejam associadas a um site da rede.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 <a name="BKMK_AssociateSubnets"> </a>
 
 

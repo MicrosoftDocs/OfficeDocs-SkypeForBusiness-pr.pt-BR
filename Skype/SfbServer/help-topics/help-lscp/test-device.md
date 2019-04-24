@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 description: É possível adicionar um dispositivo de teste à página Dispositivo de Teste e usar esse dispositivo para verificar a funcionalidade de novas atualizações antes de implantar as atualizações a dispositivos de produção. É possível testar um dispositivo globalmente (em todo seu ambiente) ou dentro de um único site. Você identifica um dispositivo de teste por seu endereço MAC (Controle de acesso à mídia) ou número de série. Quando você adiciona um dispositivo, ela será exibida na lista na página Testar dispositivo do Skype para painel de controle do Business Server.
 ms.openlocfilehash: 09a087b9ae370a9ae04265161351df2c32a71d59
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200482"
 ---
 # <a name="test-device"></a>Dispositivo de Teste
 
@@ -53,7 +53,7 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
 - **Atualizar** É possível atualizar a lista de dispositivo de teste para verificar o status das opções de todos os dispositivos de teste.
 
 Para obter detalhes sobre como testar os dispositivos, consulte [Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) na documentação Operações.
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Dispositivo de Teste: Criar Novo ou Editar Existente](test-device-create-new-or-edit-existing.md)
 

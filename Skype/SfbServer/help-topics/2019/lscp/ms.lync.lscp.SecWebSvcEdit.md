@@ -14,11 +14,11 @@ ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 ms.openlocfilehash: 0aac4465175070bc8dd844450329bcc6ce3230cd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875844"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215112"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>Definições de Segurança de Serviços Web: Criar Novas ou Modificar Existentes
 

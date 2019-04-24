@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: ID do chamador pode ser controlado para chamadas de entrada e saídas dos usuários de sistema telefônico usando uma política denominada CallingLineIdentity.
 ms.openlocfilehash: df6c7c053b5dce4ffb1d121a1adbf829efda9943
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047893"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229883"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Como a identificação de chamadas pode ser usada em sua organização
 
@@ -49,7 +49,7 @@ Existem três opções disponíveis para a identificação de chamada PSTN de sa
   
 - O número de telefone atribuído ao usuário, que é o padrão.
     
-- Um número de telefone que é classificado como um *serviço* e número de *chamada gratuita* em seus Planos de Chamada no inventário de números de telefono do Office 365. Geralmente é atribuído a um atendente automático da organização ou a uma fila de chamadas.
+- A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
     
 - Definido como anônimo.
     
@@ -63,7 +63,7 @@ Para definir a identificação de chamada de saída, consulte [Definir a identif
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>Controle de usuário final de identificação de chamada de saída
 
-O atributo EnableUserOverride permite que um único ou vários usuários alterem a configuração da identificação de chamada para **Anônimo**. Isso é aplicável apenas quando uma política CallingLineIdentity é configurada com um parâmetro CallingIDSubstitute da LineURI ou Substitute. O valor padrão do EnableUserOverride é False.
+The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
 Seus usuários finais podem definido sua ID de chamador como **anônimo** usando a guia **configurações** no Skype para o cliente de desktop de negócios, selecione **chamadas de um usuário final** (se habilitado pelo administrador), selecione informações de número e o perfil **Ocultar meu telefone para todas as chamadas **.
   
@@ -78,7 +78,7 @@ Seus usuários finais podem definido sua ID de chamador como **anônimo** usando
    
 ## <a name="inbound-caller-id"></a>Identificação de chamada de entrada
 
-O atributo BlockIncomingCallerID permite o bloqueio da identificação de chamada nas chamadas PSTN de entrada. Você pode definir esse atributo, mas ele não está disponível para seus usuários finais na página de configurações do usuário. E ele está disponível atualmente apenas com a conectividade PSTN Online.
+The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. And it is currently available only with Online PSTN connectivity.
   
 Para definir a identificação de chamada de saída, consulte [Definir a identificação de chamadas para um usuário](set-the-caller-id-for-a-user.md).
   
