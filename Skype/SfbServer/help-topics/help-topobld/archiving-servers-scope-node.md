@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 description: No Construtor de Topologias é possível executar tarefas relacionadas a um Servidor de Arquivamento individual clicando com o botão direito do mouse em Servidor de Arquivamento na árvore do console, clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e depois na opção a seguir do Servidor de Arquivamento.
 ms.openlocfilehash: 60f79b174f992718488a7eacb2d578dc05bf472f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30926522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227464"
 ---
 # <a name="archiving-servers-scope-node"></a>Nó do Escopo dos Servidores de Arquivamento
  

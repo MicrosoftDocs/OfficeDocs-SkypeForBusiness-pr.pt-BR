@@ -1,5 +1,5 @@
 ---
-title: Equipes de infraestrutura de área de trabalho virtualizada
+title: Teams para Infraestrutura de Área de Trabalho Virtualizada
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,13 +16,13 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c351e0cefc5e4de4ff74a175af4dee064bf96f3f
-ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "31869826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223420"
 ---
-# <a name="teams-for-virtualized-desktop-infrastructure"></a>Equipes de infraestrutura de área de trabalho virtualizada
+# <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
 Este artigo descreve os requisitos e limitações para usar o Microsoft Teams em um ambiente virtualizado.
 

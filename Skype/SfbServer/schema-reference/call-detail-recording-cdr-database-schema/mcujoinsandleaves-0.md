@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 description: O modo de exibição McuJoinsAndLeaves armazena informações sobre a participação de usuários e deixar informações para um servidor de conferência. Cada registro nesse modo de exibição contém detalhes de chamada sobre uma combinação de um servidor de conferência e ingressar ou deixar de usuário. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 ms.openlocfilehash: db759e324689cfbad92389f30c8fd632c24ebd5e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892805"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212984"
 ---
 # <a name="mcujoinsandleaves-view"></a>Exibir McuJoinsAndLeaves
  

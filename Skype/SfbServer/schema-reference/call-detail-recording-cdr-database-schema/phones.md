@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
 description: A tabela de telefones é uma tabela de suporte. Cada registro na tabela armazena informações sobre um número de telefone envolvido em chamadas VoIP que têm registros no banco de dados.
 ms.openlocfilehash: 733adec46e948c3b7f1d804f57011110355078f4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894639"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212884"
 ---
 # <a name="phones-table"></a>Tabela Phones
  

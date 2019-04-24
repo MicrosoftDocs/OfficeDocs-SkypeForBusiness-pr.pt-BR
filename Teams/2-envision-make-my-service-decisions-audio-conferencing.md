@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 9b6bd854de7af09ebea6b66a6393beb751f11770
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569994"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241536"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -161,7 +161,7 @@ Se você deve transferir números de telefone de ponte de conferência existente
 
 Para saber mais sobre os números de telefone de ponte de conferência, revise os seguintes artigos:
 
--   [Configurar a conferência de áudio for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
+-   [Configurar Audioconferência no Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 -   [Números de telefone para audioconferência](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
 

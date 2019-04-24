@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: Modos de exibição fornecem uma maneira fácil de acessar informações sobre os cenários mais comuns usados para retornar dados do banco de dados de CDR. É recomendável que você use modos de exibição para a criação de relatórios personalizados em vez de usar o CDR real tabelas de banco de dados; Isso ocorre porque os modos de exibição do banco de dados são mais prováveis manter a compatibilidade com versões futuras com versões anteriores.
 ms.openlocfilehash: 7767a80069201e5ec07ea68d4bdef3a6a5977e4d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213005"
 ---
 # <a name="list-of-cdr-views"></a>Lista de Exibições de CDR
  

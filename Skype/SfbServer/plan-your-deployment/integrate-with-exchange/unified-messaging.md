@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Resumo: Revise esse tópico durante o planejamento para integrar o Skype para servidor de negócios com o Exchange 2013 ou 2016.'
 ms.openlocfilehash: 951b31e36290bda0d6bd171c4a7df8f6aa4ff337
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886014"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213934"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planejar para integração de Unificação de Mensagens do Exchange no Skype for Business
 
@@ -142,6 +142,6 @@ Para obter detalhes sobre como habilitar ou desabilitar o Unified Messaging no M
 Unificação de mensagens do Exchange não estiver mais presente no Exchange 2019, se você tiver o Exchange 2019 e você deseja as funcionalidades equivalentes, que você precisará usar o serviço de correio de voz de nuvem descrito em [serviço de caixa postal planejar de nuvem](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md).
 
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Visão geral do processo de implantação para integração de Unificação de Mensagens local e Skype for Business](deployment-overview.md)

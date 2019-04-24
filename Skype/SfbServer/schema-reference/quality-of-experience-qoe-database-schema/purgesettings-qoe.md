@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
 description: 'A tabela PurgeSettings contém informações que especificam se (e quando) registros desatualizados do Quality of Experience serão excluídos automaticamente do banco de dados de QoE. Observe que informações relacionadas a limpeza também podem ser obtidas no dentro do Skype do Shell de gerenciamento do servidor de negócios, executando o seguinte comando:'
 ms.openlocfilehash: b9aaa8b5fd988e1fb1476ec75077507b55aaf9d1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212331"
 ---
 # <a name="purgesettings-table-qoe"></a>Tabela PurgeSettings (QoE)
  

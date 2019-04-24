@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Remover os bancos de dados do Microsoft SQL Server e instâncias depois de remover os servidores que executam que são dependentes neles ou após reconfigurar os servidores para usar outro banco de dados. Você precisará executar o procedimento neste tópico quando você desativa o servidor SQL atual ou reconfigurar o servidor atual de forma que ele processa os bancos de dados obsoletas ou indisponível.
 ms.openlocfilehash: 531d4c06daa7dacd2a616244c13207b3e79dca4c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898737"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231501"
 ---
 # <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>Remover instâncias SQL Server e bancos de dados no Servidor Back-End
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: e3e38035-457c-4173-bdb9-d53a7420eba2
 description: A tabela ContentTypes é uma tabela de suporte que armazena uma lista dos tipos de conteúdo usados em sessões ponto a ponto e de sessões de conferência. Cada registro na tabela representa um tipo de conteúdo.
 ms.openlocfilehash: 77bbe375a5870d11c7e4a17a0f32392fe14975a0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213246"
 ---
 # <a name="contenttypes-table-in-skype-for-business-server-2015"></a>Tabela ContentTypes Skype para Business Server 2015
  

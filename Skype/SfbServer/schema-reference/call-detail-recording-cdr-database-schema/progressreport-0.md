@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
 description: O modo de exibição ProgressReport armazena informações sobre as sessões concluídas. Relatórios de progresso serão gravados apenas para chamadas e sessões que determina de Lync Server 2013 podem ser úteis para fins de diagnóstico. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 ms.openlocfilehash: 5f7cbba2580b83a65dbce00588f3c567317f4df4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212870"
 ---
 # <a name="progressreport-view"></a>Exibir ProgressReport
  

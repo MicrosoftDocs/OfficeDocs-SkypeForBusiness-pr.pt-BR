@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Recuperação de desastres, Skype para Business Server oferece pareamento com failover no caso de um pool cair do pool.
 ms.openlocfilehash: 56108fe2187b37fd6f3094d68a8cc89bac436bea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897420"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214081"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Front-End pool disaster recovery no Skype para Business Server
  
@@ -97,6 +97,6 @@ Outra solução possível é usar o IPSec apenas para ajudar a proteger os dados
 > [!CAUTION]
 >  O IPsec não deve ser usado para substituir a segurança no nível de aplicativo, como SSL/TLS. Uma vantagem de usar o IPsec é que ele pode fornecer segurança ao tráfego da rede para os aplicativos existentes sem ter de alterá-los. As empresas que deseja apenas o transporte seguro entre os dois data centers devem consultar seus respectivos fornecedores de hardware de rede sobre as maneiras de configurar as conexões WAN seguras usando o equipamento do fornecedor.
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Implantar pools de Front-End pareados para recuperação de desastres em Skype para Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)

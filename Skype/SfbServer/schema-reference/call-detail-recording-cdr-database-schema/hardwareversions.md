@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ca05582b-082c-4bab-9233-36fc9434dbca
 description: A tabela HardwareVersions é uma tabela de suporte. Cada registro armazena informações sobre a versão de hardware de um dispositivo.
 ms.openlocfilehash: 93eb75278958cba72a4a521c588445e4fadb2e3f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892671"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213050"
 ---
 # <a name="hardwareversions-table-in-skype-for-business-server-2015"></a>Tabela HardwareVersions no Skype para Business Server 2015
  

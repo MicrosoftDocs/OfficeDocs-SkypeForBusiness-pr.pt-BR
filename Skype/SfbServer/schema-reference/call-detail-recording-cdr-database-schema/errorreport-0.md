@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: O modo de exibição ErrorReport armazena informações sobre erros informados. Cada registro é uma ocorrência de erro. Os erros são capturado pelo agente CDR executado no servidor front-end ou enviado pelo cliente. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 ms.openlocfilehash: 8d72ad73b5894e73b7d95b1b11bc10dffcabc5f7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213120"
 ---
 # <a name="errorreport-view"></a>Exibir ErrorReport
  

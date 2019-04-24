@@ -1,5 +1,5 @@
 ---
-title: Fluxos de chamada Teams da Microsoft
+title: Fluxos de chamadas do Microsoft Teams
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 description: Descreve como equipes usa fluxos do Office 365 em várias topologias.
 ms.openlocfilehash: ecdeb6dc4e1e7219dc8c01c710877437661e0ceb
-ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31828933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232009"
 ---
-# <a name="microsoft-teams-call-flows"></a>Fluxos de chamada Teams da Microsoft
+# <a name="microsoft-teams-call-flows"></a>Fluxos de chamadas do Microsoft Teams
 
 > [!Tip]
 > Assista a sessão a seguir para saber como equipes aproveita sua rede e como planejar a conectividade de rede ideal: [Planejamento da rede de equipes](https://aka.ms/teams-networking)

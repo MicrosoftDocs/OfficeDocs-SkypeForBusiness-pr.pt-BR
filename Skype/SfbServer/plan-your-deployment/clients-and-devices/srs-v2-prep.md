@@ -13,11 +13,11 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: Este artigo explica as preparações de infraestrutura para implantar o Microsoft equipes salas.
 ms.openlocfilehash: ac1bcfc374350bde38d8e37f8870e1d3223a511c
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012998"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214495"
 ---
 # <a name="prepare-your-environment"></a>Preparar seu ambiente
 
@@ -38,7 +38,7 @@ Esta seção contém uma visão geral das etapas necessárias para preparar seu 
    - Se sua rede é executada através de um proxy, você também precisa do endereço de proxy ou de informações do script.
     
      > [!NOTE]
-     > Salas de equipes da Microsoft não oferece suporte a entrada HDCP, o que foi observada causar problemas com HDMI absorver funcionalidade (vídeo, áudio). Tome cuidado para garantir que os switches conectados ao Microsoft equipes salas tenham opções HDCP desativadas. 
+     > O SkypeRoomSystemv2 não oferece suporte à entrada HDCP, pois foi observado que ela causa conflitos com a funcionalidade de ingestão HDMI (vídeo e áudio). Certifique-se que as chaves conectadas às Salas do Microsoft Teams estejam com as opções HDCP desativadas. 
   
 3. Para aprimorar sua experiência, a Microsoft coleta dados. Para coletar dados, estes sites devem ser autorizados:
     
@@ -133,7 +133,7 @@ Você usará pacotes de provisionamento para fazer autenticação no Exchange Se
 Após o ingresso no domínio, você pode usar a Política de Grupo ou o Gerenciamento de Computador Local para definir um Grupo de Segurança como administrador local, da mesma forma como faria com um computador Windows em seu domínio. Qualquer membro desse grupo de segurança pode inserir as respectivas credenciais e desbloquear as configurações.
   
 > [!NOTE]
-> Se o seu dispositivo Microsoft equipes salas perde a confiança com o domínio (por exemplo, se você remover as salas de equipes da Microsoft do domínio depois que ele for unido ao domínio), você não conseguirá autenticar no dispositivo e abra o backup das configurações. Como alternativa, é possível entrar com a conta de Administrador local. 
+> Se seu dispositivo de Salas do Microsoft Teams perder confiabilidade com o domínio (por exemplo, se você remover as Salas do Microsoft Teams do domínio após terem sido agregadas a ele), você não poderá autenticar esse dispositivo e abrir Configurações. A solução é fazer logon com a conta de Administrador local. 
   
 ## <a name="local-accounts"></a>Contas locais
 
@@ -158,7 +158,7 @@ Muito como qualquer dispositivo do Windows, o nome da máquina podem ser renomea
   
  Se você gostaria de renomear o computador após ingressá-lo a um domínio, use o comando PowerShell renomear computador seguido pelo nome do novo do computador.
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Planejar as salas de equipes da Microsoft](skype-room-systems-v2-0.md)
 
@@ -168,4 +168,4 @@ Muito como qualquer dispositivo do Windows, o nome da máquina podem ser renomea
   
 [Configurar um console de salas de equipes da Microsoft](../../deploy/deploy-clients/console.md)
   
-[Gerenciar salas de equipes da Microsoft](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gerenciar Salas do Microsoft Teams](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

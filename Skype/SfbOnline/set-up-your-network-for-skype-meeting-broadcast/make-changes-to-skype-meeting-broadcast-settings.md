@@ -20,11 +20,11 @@ ms.custom:
 - SMB
 description: Você pode habilitar a transmissão do Skype reunião e fazer alterações em configurações e políticas para essas reuniões.
 ms.openlocfilehash: 7145f246ff7b3b6edbcae84f2ca2f5bc381ea501
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851699"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226270"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Fazer alterações nas configurações de transmissão do Skype reunião para sua organização
 

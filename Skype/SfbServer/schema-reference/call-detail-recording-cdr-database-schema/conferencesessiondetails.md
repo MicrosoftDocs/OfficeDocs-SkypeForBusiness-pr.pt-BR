@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: O modo de exibição ConferenceSessionDetails armazena informações sobre sessões com vários participantes. Cada registro representa uma sessão de conferência, que poderia ser a sessão com foco ou a sessão com um servidor de conferência específico. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 ms.openlocfilehash: 448b73326f7caf7657d146939eb01729e97628f9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874120"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213225"
 ---
 # <a name="conferencesessiondetails-view"></a>Exibir ConferenceSessionDetails
  

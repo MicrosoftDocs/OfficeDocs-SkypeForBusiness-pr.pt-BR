@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: 'Resumo: Informações para organizações que não usam o Office 365 e precisar acessar reuniões hospedadas por organizações que fazem.'
 ms.openlocfilehash: 00862a4acecb8a5e6555f44d9416a2efa5834e61
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965902"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214509"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Requisitos mínimos de rede do Aplicativo Skype Meetings
  
@@ -38,7 +38,7 @@ As informações listadas aqui são um subconjunto dos [intervalos de endereços
 |**Aplicativo Reuniões do Skype** | \*. lync.com <br/>\*. infra.lync.com<br/>\*. pipe.aria.microsoft.com<br/>\*. sfbassets.com<br/>\*. msecnd.net<br/>\*difusão<span></span>. officeapps.live.com <br/>\*PowerPoint<span></span>. officeapps.live.com <br/>\*. office.live.com<br/>\*. cdn.office.net<br/>*.s-microsoft.com<br/>        |   Esses endereços IP são atualizados com frequência.  Consulte [Skype para intervalos de IP de negócios](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) , bem como os [Intervalos de IP Online do Office](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)         |TCP: 80 &amp; 443<br/>UDP: 3478-3481<br/>
 |**Microsoft Teams**    | \*<span></span>. microsoft.com <br/>\*<span></span>. skype.com | Esses endereços IP são atualizados com frequência.  Consulte [Skype para intervalos de IP de negócios](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) , bem como os [Intervalos de IP Online do Office](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)      |TCP: 443 <br/> UDP: 3478-3481
 
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 <a name="BKMK_Conferencing"> </a>
 
 [Planejar para clientes de reuniões (Web App e reuniões App)](meetings-clients.md)

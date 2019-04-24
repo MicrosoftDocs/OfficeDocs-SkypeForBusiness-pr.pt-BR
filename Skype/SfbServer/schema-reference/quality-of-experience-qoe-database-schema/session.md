@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: Cada registro representa uma sessão que envolve o áudio ou áudio e vídeo. Ele contém informações gerais sobre a sessão. Uma sessão é definida como um diálogo de protocolo de iniciação de sessão (SIP) de áudio ou vídeo entre dois pontos de extremidade.
 ms.openlocfilehash: 7a0ea3f9753529c22299ef46017b863c314319b5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881375"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212373"
 ---
 # <a name="session-table"></a>Tabela Session
  

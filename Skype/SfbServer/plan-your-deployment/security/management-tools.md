@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: 'No Skype para Business Server, as ferramentas de gerenciamento são implementadas usando o Windows PowerShell. Windows PowerShell inclui um ambiente de linha de comando, comandos específicos do produto e uma linguagem de script completa. Skype para as ferramentas de Business Server que são implementadas usando o Windows PowerShell incluem o seguinte:'
 ms.openlocfilehash: 743823e5465d6fa18f46d0f8f38802098416d7e6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882618"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213589"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShell e Skype para as ferramentas de gerenciamento de servidor de negócios
  

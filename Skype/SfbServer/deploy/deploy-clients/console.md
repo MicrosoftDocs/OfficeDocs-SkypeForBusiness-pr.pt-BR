@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Este artigo descreve como configurar o console de salas de equipes da Microsoft e seus periféricos.
-ms.openlocfilehash: 9027057314d405788e81d4d27f9ce4e5d5649a48
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 2d3d9acdc3c72754232304364812fd2af9f3f6cb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520152"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212751"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar um console de salas de equipes da Microsoft
 
@@ -250,7 +250,7 @@ Use a seguinte lista de verificação enquanto efetua uma verificação final se
 |☐  <br/> |O encaixe pode girar livremente  <br/> |
 |☐  <br/> |O brilho da tela é aceitável para o ambiente  <br/> |
    
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 <a name="Checklist"> </a>
 
 [Planejar para salas de equipes da Microsoft](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
@@ -259,4 +259,4 @@ Use a seguinte lista de verificação enquanto efetua uma verificação final se
   
 [Configurar um console de salas de equipes da Microsoft](console.md)
   
-[Gerenciar salas de equipes da Microsoft](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gerenciar Salas do Microsoft Teams](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

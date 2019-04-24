@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Resumo: Leia este tópico para saber mais sobre categorias, salas de bate-papo e funções de administrador e usuário para o servidor de bate-papo persistente no Skype para Business Server 2015.'
 ms.openlocfilehash: 0a65d5d8944d28ba834fac461051f23fcdd98800
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213778"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Categorias de chat persistente, salas de chat e funções de usuário no Skype for Business Server 2015
  

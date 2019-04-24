@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 description: O modo de exibição de conferências armazena informações sobre as conferências. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 ms.openlocfilehash: 42bdbed9cceb8d50e2de8ddbe29ba406e4a0a2f5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887803"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213267"
 ---
 # <a name="conferences-view"></a>Exibir conferências
  

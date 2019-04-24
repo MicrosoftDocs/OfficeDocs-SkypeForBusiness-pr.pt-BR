@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: Provavelmente, você já executou etapas para projetar a tolerância a falhas em seu sistema, usando práticas como assegurar a redundância de hardware, proteger contra falta de energia, instalar rotineiramente atualizações de segurança e medidas antivírus e atividade do Monitoring Server. Essas práticas beneficiam não apenas sua Skype infra-estrutura de servidor de negócios, mas também toda a sua rede. Se você não implementou essas práticas, recomendamos que você faça isso antes de implantar o Skype para Business Server.
 ms.openlocfilehash: 86d18e1d9d34b5f65f4cb938e13a9829af1646bb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885803"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213624"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Práticas recomendadas para a infraestrutura principal no Skype para Business Server
  

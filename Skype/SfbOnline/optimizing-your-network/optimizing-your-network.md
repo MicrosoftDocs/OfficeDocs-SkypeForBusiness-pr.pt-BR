@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: Os seguintes requisitos são realmente importantes para garantir a integridade de longo prazo e o sucesso do Skype todos os recursos de Business Online você estiver configurando para sua organização. Nós sabemos que algumas das você são muito técnicas - este documento é para você, mas há algumas das que não são. Se você precisar de ajuda para configurar Skype para Business Online, você deve ler este documento para se familiarizar com as coisas que você precisa considerar. Ele também fornecerá a você as coisas para falar sobre quando você estiver trabalhando com Microsoft FastTrack Center, seu Microsoft Services e equipes de conta, ou com parceiros da Microsoft para descobrir como você pode atender a esses requisitos.
 ms.openlocfilehash: aac6a85b78df7477a6e62ddbf766015182bb7a2b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234524"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Como otimizar sua rede para o Skype for Business Online
 
