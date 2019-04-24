@@ -15,38 +15,38 @@ ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: Habilitar usuários para atendimento de chamada do grupo no Skype para Business Server Enterprise Voice e atribua um número de grupo.
 ms.openlocfilehash: f2d02aa4993e103b786894f642dd88ca93dcf354
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881476"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212492"
 ---
-# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a><span data-ttu-id="f8179-103">Habilitar o atendimento de chamada de grupo para usuários e atribuir um número de grupo no Skype para negócios</span><span class="sxs-lookup"><span data-stu-id="f8179-103">Enable Group Call Pickup for users and assign a group number in Skype for Business</span></span>
+# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a><span data-ttu-id="fbb52-103">Habilitar o atendimento de chamada de grupo para usuários e atribuir um número de grupo no Skype para negócios</span><span class="sxs-lookup"><span data-stu-id="fbb52-103">Enable Group Call Pickup for users and assign a group number in Skype for Business</span></span>
 
-<span data-ttu-id="f8179-104">Habilitar usuários para atendimento de chamada do grupo no Skype para Business Server Enterprise Voice e atribua um número de grupo.</span><span class="sxs-lookup"><span data-stu-id="f8179-104">Enable users for Group Call Pickup in Skype for Business Server Enterprise Voice, and assign a group number.</span></span>
+<span data-ttu-id="fbb52-104">Habilitar usuários para atendimento de chamada do grupo no Skype para Business Server Enterprise Voice e atribua um número de grupo.</span><span class="sxs-lookup"><span data-stu-id="fbb52-104">Enable users for Group Call Pickup in Skype for Business Server Enterprise Voice, and assign a group number.</span></span>
 
-<span data-ttu-id="f8179-105">Depois de adicionar os números de retirada de grupo de chamada à tabela de órbita de estacionamento de chamada, você usar a ferramenta de SEFAUtil para atribuir os números de grupo aos usuários e habilitar o atendimento de chamada de grupo para eles.</span><span class="sxs-lookup"><span data-stu-id="f8179-105">After you add call pickup group numbers to the call park orbit table, you use the SEFAUtil tool to assign the group numbers to users and enable Group Call Pickup for them.</span></span>
+<span data-ttu-id="fbb52-105">Depois de adicionar os números de retirada de grupo de chamada à tabela de órbita de estacionamento de chamada, você usar a ferramenta de SEFAUtil para atribuir os números de grupo aos usuários e habilitar o atendimento de chamada de grupo para eles.</span><span class="sxs-lookup"><span data-stu-id="fbb52-105">After you add call pickup group numbers to the call park orbit table, you use the SEFAUtil tool to assign the group numbers to users and enable Group Call Pickup for them.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="f8179-106">Em uma implantação híbrida, não atribua um grupo de atendimento de chamada de grupo para usuários hospedados online.</span><span class="sxs-lookup"><span data-stu-id="f8179-106">In a hybrid deployment, do not assign a Group Call Pickup group to users who are homed online.</span></span> <span data-ttu-id="f8179-107">Os usuários hospedados online não podem participar de atendimento de chamada do grupo.</span><span class="sxs-lookup"><span data-stu-id="f8179-107">Users who are homed online cannot participate in Group Call Pickup.</span></span> <span data-ttu-id="f8179-108">Isso significa que suas chamadas não podem ser atendidas por outros usuários, e eles não podem responder chamadas no lugar de outros usuários.</span><span class="sxs-lookup"><span data-stu-id="f8179-108">That is, their calls cannot be answered by other users, and they cannot answer calls to other users.</span></span>
+> <span data-ttu-id="fbb52-106">Em uma implantação híbrida, não atribua um grupo de atendimento de chamada de grupo para usuários hospedados online.</span><span class="sxs-lookup"><span data-stu-id="fbb52-106">In a hybrid deployment, do not assign a Group Call Pickup group to users who are homed online.</span></span> <span data-ttu-id="fbb52-107">Os usuários hospedados online não podem participar de atendimento de chamada do grupo.</span><span class="sxs-lookup"><span data-stu-id="fbb52-107">Users who are homed online cannot participate in Group Call Pickup.</span></span> <span data-ttu-id="fbb52-108">Isso significa que suas chamadas não podem ser atendidas por outros usuários, e eles não podem responder chamadas no lugar de outros usuários.</span><span class="sxs-lookup"><span data-stu-id="fbb52-108">That is, their calls cannot be answered by other users, and they cannot answer calls to other users.</span></span>
 
-### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a><span data-ttu-id="f8179-109">Para atribuir um número de grupo e habilitar o atendimento de chamada de grupo para um usuário</span><span class="sxs-lookup"><span data-stu-id="f8179-109">To assign a group number and enable Group Call Pickup for a user</span></span>
+### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a><span data-ttu-id="fbb52-109">Para atribuir um número de grupo e habilitar o atendimento de chamada de grupo para um usuário</span><span class="sxs-lookup"><span data-stu-id="fbb52-109">To assign a group number and enable Group Call Pickup for a user</span></span>
 
-1. <span data-ttu-id="f8179-110">Realize logon no computador em que você instalou a ferramenta SEFAUtil com direitos de administrador.</span><span class="sxs-lookup"><span data-stu-id="f8179-110">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
+1. <span data-ttu-id="fbb52-110">Realize logon no computador em que você instalou a ferramenta SEFAUtil com direitos de administrador.</span><span class="sxs-lookup"><span data-stu-id="fbb52-110">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
 
-2. <span data-ttu-id="f8179-111">Na linha de comando, execute:</span><span class="sxs-lookup"><span data-stu-id="f8179-111">At the command line, run:</span></span>
+2. <span data-ttu-id="fbb52-111">Na linha de comando, execute:</span><span class="sxs-lookup"><span data-stu-id="fbb52-111">At the command line, run:</span></span>
 
    ```
    SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
    ```
 
-    <span data-ttu-id="f8179-112">Por exemplo, para atribuir o número de grupo 199 a um usuário:</span><span class="sxs-lookup"><span data-stu-id="f8179-112">For example, to assign group number 199 to a user:</span></span>
+    <span data-ttu-id="fbb52-112">Por exemplo, para atribuir o número de grupo 199 a um usuário:</span><span class="sxs-lookup"><span data-stu-id="fbb52-112">For example, to assign group number 199 to a user:</span></span>
 
    ```
    SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
    ```
 
-## <a name="see-also"></a><span data-ttu-id="f8179-113">Consulte Também</span><span class="sxs-lookup"><span data-stu-id="f8179-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fbb52-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="fbb52-113">See also</span></span>
 
-[<span data-ttu-id="f8179-114">Disable Group Pickup for Users</span><span class="sxs-lookup"><span data-stu-id="f8179-114">Disable Group Pickup for Users</span></span>](https://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
+[<span data-ttu-id="fbb52-114">Disable Group Pickup for Users</span><span class="sxs-lookup"><span data-stu-id="fbb52-114">Disable Group Pickup for Users</span></span>](https://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
 
