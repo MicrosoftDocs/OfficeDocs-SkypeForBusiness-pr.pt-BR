@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planejamento de estacionamento de chamada no Skype para Business Server Enterprise Voice, que permite colocar chamadas em espera e transferir chamadas para departamentos. Inclui planejamento de capacidade, chamadas e clientes compatíveis.
 ms.openlocfilehash: 92c896bb610827108379af2bca38cd7a89639af2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894062"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207024"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planejar o estacionamento de chamada no Skype for Business
  

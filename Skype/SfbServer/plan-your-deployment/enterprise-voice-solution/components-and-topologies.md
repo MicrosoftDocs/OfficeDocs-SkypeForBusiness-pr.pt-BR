@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Planejamento do CAC (controle de admissão de chamadas) se você tiver uma rede MPLS, um tronco SIP ou um gateway PSTN de terceiros ou PBX. Aplica-se à Skype para o Business Server Enterprise Voice.
 ms.openlocfilehash: 7022ade98dbd614023a4faaea283b939fa658e73
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872835"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207949"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Componentes e topologias para chamar o controle de admissão no Skype para negócios
 

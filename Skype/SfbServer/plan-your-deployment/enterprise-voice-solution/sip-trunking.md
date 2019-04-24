@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: Saiba mais sobre o tronco SIP no Skype para Business Server Enterprise Voice
 ms.openlocfilehash: 98b107d02d223ea8bad555c5aa0802f8f7581807
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892953"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206829"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>Tronco SIP no Skype para Business Server
 
@@ -181,7 +181,7 @@ Se você usa um servidor VPN, é recomendável seguir as seguintes diretrizes:
 
 - Criptografe dados na VPN usando GRE (encapsulamento de roteamento genérico).
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Tronco Branch site SIP no Skype para Business Server](branch-site.md)
 

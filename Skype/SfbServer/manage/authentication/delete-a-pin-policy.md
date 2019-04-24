@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
 description: 'Resumo: Exclua discada um usuário PIN para Skype para Business Server.'
 ms.openlocfilehash: d8b8a901e15e0b301dcce149b3f55a27f8298af6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893262"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211022"
 ---
 # <a name="delete-a-pin-policy-in-skype-for-business-server"></a>Excluir uma política PIN no Skype para Business Server
  

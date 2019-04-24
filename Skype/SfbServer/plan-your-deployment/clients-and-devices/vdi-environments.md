@@ -15,13 +15,13 @@ ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: Este tópico aborda considerações de planejamento para uso do Skype for Business durante a conexão a uma área de trabalho remota virtual.
 ms.openlocfilehash: 0d24426ea661e5a2d445e4fd7ef90d6a41518692
-ms.sourcegitcommit: 2a34c9955d2cf54085dee527ea493ce991ef2e10
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30340409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207248"
 ---
-# <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planejar para o Skype for Business em ambientes VDI
+# <a name="plan-for-skype-for-business-in-vdi-environments"></a>Plan for Skype for Business in VDI environments
  
 Este tópico aborda considerações de planejamento para uso do Skype for Business durante a conexão a uma área de trabalho remota virtual. 
   
@@ -29,7 +29,7 @@ Um ambiente VDI (Virtual Desktop Infrastructure) é usado em algumas organizaç�
   
 Há três soluções disponíveis para o componente de plug-in de VDI, oferecido pela Microsoft, Citrix ou VMWare. Para implantações de novas, a Microsoft recomenda o uso da solução de pacote de otimização do Citrix HDX em tempo real ou o pacote de virtualização VMWare horizonte. O plug-in original do Lync VDI ainda é suportado para o restante do seu ciclo de vida.
   
-- O **Lync VDI plug-in** foi desenvolvido para o Lync 2013 e é compatível com o Lync 2013 ou Skype para cliente 2015 corporativos em execução em uma área de trabalho virtual. Trata-se de um aplicativo autônomo que é instalado no computador local e permite o uso de dispositivos de áudio e vídeo locais com um cliente em uma área de trabalho virtual. O plug-in não exige um Skype para cliente Business seja instalado no computador local ou cliente fino, que deve ser executado sistemas operacionais Windows 7, Windows 8 ou Windows Server 2008. (Dispositivos cliente fino usando estes sistemas operacionais e suportada pela Microsoft incluem: Dell Wyse Z90D7, Dell Wyse R90L7, Dell Wyse X90m7, t610 HP e HP t5740e.) Esse plug-in ainda é suportado, mas não há atualizações futuras estão planejadas. Para ambientes virtuais baseados em Citrix, recomenda-se a utilização do Citrix RealTime Optimization Pack.
+- O **Lync VDI plug-in** foi desenvolvido para o Lync 2013 e é compatível com o Lync 2013 ou Skype para cliente 2015 corporativos em execução em uma área de trabalho virtual. It's a stand-alone application that installs on the local computer and allows the use of local audio and video devices with a client on a virtual desktop. O plug-in não exige um Skype para cliente Business seja instalado no computador local ou cliente fino, que deve ser executado sistemas operacionais Windows 7, Windows 8 ou Windows Server 2008. (Dispositivos cliente fino usando estes sistemas operacionais e suportada pela Microsoft incluem: Dell Wyse Z90D7, Dell Wyse R90L7, Dell Wyse X90m7, t610 HP e HP t5740e.) Esse plug-in ainda é suportado, mas não há atualizações futuras estão planejadas. For Citrix-based virtual environments, the Citrix RealTime Optimization Pack is recommended.
     
 - O **Pacote de otimização de tempo real do Citrix** aproveita o Lync VDI plug-in e trabalha com o Lync 2013 ou Skype para clientes corporativos 2016 em uma área de trabalho virtual. Ele foi desenvolvido em parceria entre a Citrix e a Microsoft para aperfeiçoar o plug-in VDI original. Esse pacote pode ser instalado em clientes com sistemas operacionais Windows e não Windows (inclusive Windows 10, Mac e Linux). Ele consiste em dois componentes: o conector de tempo real (que é instalado na área de trabalho virtual) e o mecanismo de mídia em tempo real (que é instalado na máquina de local do usuário final). Esses dois componentes permitem que o computador local do usuário usar o Skype para cliente corporativos em execução na área de trabalho virtual com o / processamento V movido para o computador local. Para ambientes de área de trabalho virtual baseados em Citrix, recomenda-se a utilização do Citrix RealTime Optimization Pack, para o qual há mais suporte planejado.
     
@@ -47,9 +47,9 @@ Uma lista completa dos recursos e tecnologias suportadas pode ser encontrada no 
   
 Confira os seguintes links para obter mais informações:
   
-- Citrix [HDX RealTime Optimization Pack 2.1](https://docs.citrix.com/en-us/hdx-optimization/2-1.mdl)
+- Citrix [HDX em tempo real otimização Pack 2.1](https://docs.citrix.com/en-us/hdx-optimization/2-1.mdl)
     
-- [Technical Overview ](https://docs.citrix.com/en-us/hdx-optimization/2-1/about.mdl)
+- [Visão geral técnica](https://docs.citrix.com/en-us/hdx-optimization/2-1/about.mdl)
     
 - [CTX200279 Skype para suporte ao recurso de negócios](https://support.citrix.com/article/CTX200279)
     
@@ -91,20 +91,20 @@ Confira os seguintes links para obter mais informações:
     
 - [Implantar o Lync VDI plug-in com Skype para Business Server](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
     
-- Artigo do Citrix Knowledge Center [CTX138408](https://support.citrix.com/article/CTX138408)
+- Artigo do Centro de dados de conhecimento do Citrix [CTX138408](https://support.citrix.com/article/CTX138408)
     
-O plug-in VDI da Microsoft está disponível em [Microsoft Lync VDI 2013 Plug-In (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) ou [Microsoft Lync VDI 2013 Plug-In (64 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35454). Esse plug-in é compatível com o Skype para negócios 2015 cliente, apesar do nome.
+O Microsoft VDI plugin está disponível no [Microsoft Lync 2013 de VDI plugin (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) ou o [plug-in VDI do Microsoft Lync 2013 (64 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35454). Esse plug-in é compatível com o Skype para negócios 2015 cliente, apesar do nome.
   
 ### <a name="supported-virtualization-technologies-and-known-limitations"></a>Tecnologias de virtualização suportadas e limitações conhecidas
 <a name="Supported_virt"> </a>
 
-Permite que o plug-in Lync VDI, áudio e vídeo de chamar para as tecnologias de virtualização suportados. Em conformidade com as regulamentações de telefonia padrão, o suporte para E911 também está incluído. As seções a seguir descrevem as tecnologias de virtualização que são compatíveis com o Lync VDI plug-in e as limitações do recurso conhecido.
+Permite que o plug-in Lync VDI, áudio e vídeo de chamar para as tecnologias de virtualização suportados. Em conformidade com os regulamentos de telefonia padrão, o suporte para o E911 também está incluído. As seções a seguir descrevem as tecnologias de virtualização que são compatíveis com o Lync VDI plug-in e as limitações do recurso conhecido.
   
 #### <a name="support-for-virtualization-technologies"></a>Suporte para Tecnologias de Virtualização
 
-O plug-in Lync VDI oferece suporte a área de trabalho completa sessões remotas no cenário com área de trabalho virtual pessoal, mas não no cenário de sessão da área de trabalho remota. Esses cenários podem ser descritos da seguinte forma:
+O plug-in Lync VDI oferece suporte a área de trabalho completa sessões remotas no cenário com área de trabalho virtual pessoal, mas não no cenário de sessão da área de trabalho remota. Esses cenários podem ser descritos como segue:
   
-- **Com suporte: áreas de trabalho virtuais personalizadas ou VDI (Virtual Desktop Infrastructure).** Neste cenário, cada usuário faz logon em uma área de trabalho virtual personalizável e pode salvar arquivos na área de trabalho que persiste entre as sessões. Microsoft Remote Desktop Services e o modo de exibição do VMware horizonte são implementações de exemplo que foram testadas para uso com o Skype para negócios 2015. Outras implementações em processo de validação incluem o Citrix XenDesktop. Para obter informações sobre ambientes VDI específicos do fornecedor e sobre hardware de cliente que foram testados pela Microsoft, veja [Infrastructure qualified for Microsoft Lync](https://go.microsoft.com/fwlink/?LinkID=313435).
+- **Com suporte: Áreas de Trabalho Virtuais Personalizadas ou Virtual Desktop Infrastructure (VDI). ** Neste cenário, cada usuário faz logon em uma área de trabalho virtual personalizável e pode salvar arquivos na área de trabalho que persiste entre as sessões. Microsoft Remote Desktop Services e o modo de exibição do VMware horizonte são implementações de exemplo que foram testadas para uso com o Skype para negócios 2015. Outras implementações em processo de validação incluem o Citrix XenDesktop. Para obter informações sobre ambientes de VDI específica do fornecedor e o hardware de cliente que foram testados pela Microsoft, consulte [infraestrutura qualificados do Microsoft Lync](https://go.microsoft.com/fwlink/?LinkID=313435).
     
 - **Sem suporte: sessões da área de trabalho remota.** Neste cenário, cada usuário faz logon em uma sessão da área de trabalho virtual genérica que não pode ser personalizada. Exemplos incluem sessões de área de trabalho remota (RDSH) Microsoft e Citrix XenApp combinada com Citrix receptor.
     
@@ -130,11 +130,11 @@ Computador local do usuário deve atender aos seguintes requisitos:
     
 - Se você estiver usando os serviços de área de trabalho remota, escolha o 32 bits ou 64 bits Lync VDI plug-in para coincidir com o sistema operacional do computador local. Não é obrigatório que o computador local e a máquina virtual tenham sistemas operacionais de 32 bits ou de 64 bits. Se você estiver usando outra plataforma ou solução de virtualização, consulte os requisitos do provedor.
     
-- O computador local deve estar executando a [última versão do cliente de área de trabalho remota](https://go.microsoft.com/fwlink/p/?LinkId=268032). Instale as últimas atualizações do cliente de Serviços de Área de Trabalho Remota da Microsoft ou o software cliente de área de trabalho remota mais recente do seu provedor de soluções de virtualização. 
+- O computador local deve estar executando a [versão mais recente do cliente de desktop remoto](https://go.microsoft.com/fwlink/p/?LinkId=268032). Instale as últimas atualizações do cliente de Serviços de Área de Trabalho Remota da Microsoft ou o software cliente de área de trabalho remota mais recente do seu provedor de soluções de virtualização. 
     
 - No computador local, as configurações do cliente de área de trabalho remota devem ser definidas para que o áudio seja reproduzido no computador local e a gravação remota seja desabilitada. Para definir essas configurações para a Conexão de área de trabalho remota no Windows, consulte a próxima seção, "para definir as configurações de Conexão de área de trabalho remota." 
     
-O plug-in VDI da Microsoft está disponível em [Microsoft Lync VDI 2013 Plug-In (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) ou [Microsoft Lync VDI 2013 Plug-In (64 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35454).
+O Microsoft VDI plugin está disponível no [Microsoft Lync 2013 de VDI plugin (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) ou o [plug-in VDI do Microsoft Lync 2013 (64 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35454).
   
 #### <a name="known-feature-limitations"></a>Limitações conhecidas dos recursos
 <a name="VDI_prereq"> </a>
@@ -164,7 +164,7 @@ Não há suporte para o Lync VDI plug-in em um ambiente do Office 365.
 > [!NOTE]
 > O Citrix RealTime Optimization Pack dá suporte ao Office 365. Baseado em Citrix ambientes virtuais, examine a documentação de [Visão geral técnica](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) do Citrix para a lista de recursos com suporte e versões.
   
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 <a name="Citrix_RT"> </a>
 
 [Implantar o Lync VDI plug-in com Skype para Business Server](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)

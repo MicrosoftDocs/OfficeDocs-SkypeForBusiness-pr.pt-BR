@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: Skype para Business Server 2015 ou Skype para administradores corporativos Online pode usar estas tabelas para entender quais recursos são suportados em quais clientes.'
 ms.openlocfilehash: 498d444fa79b25d2a85f8e7bf04968512b00bf66
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635673"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207416"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparação de recursos do cliente de desktop do Skype para Business Server 2015
 
@@ -32,10 +32,10 @@ Alguns recursos disponíveis com o Skype para Business Server 2015 não estão d
 
 Consulte a [comparação de recursos do cliente de Desktop do Skype para 2019 de negócios](../../../SfBServer2019/plan/feature-comparison.md) para o cliente de suporte no Skype para Business Server 2019.
   
-As tabelas a seguir mostram os recursos que estão disponíveis com cada cliente que funciona com o Skype para Business Server 2015 ou Skype para negócios Online. Convém também consulte [comparação de recursos do cliente móvel para Skype for Business](mobile-feature-comparison.md) para telefone inteligente e tablet comparações de recursos do cliente. A Licença de Acesso para Cliente ou a Licença de Assinatura do Usuário que sua organização comprar também afetará os recursos que estarão disponíveis para os usuários. A implantação do cliente completo ou básico para os usuários dependerá da licença ou do plano que sua organização escolher comprar. Veja o [Guia de licenciamento](https://products.office.com/en-us/skype-for-business/it-pros) para obter mais detalhes.
+As tabelas a seguir mostram os recursos que estão disponíveis com cada cliente que funciona com o Skype para Business Server 2015 ou Skype para negócios Online. Convém também consulte [comparação de recursos do cliente móvel para Skype for Business](mobile-feature-comparison.md) para telefone inteligente e tablet comparações de recursos do cliente. A Licença de Acesso para Cliente ou a Licença de Assinatura do Usuário que sua organização comprar também afetará os recursos que estarão disponíveis para os usuários. A implantação do cliente completo ou básico para os usuários dependerá da licença ou do plano que sua organização escolher comprar. Consulte o [Guia de licenciamento](https://products.office.com/en-us/skype-for-business/it-pros) para obter mais detalhes.
   
 > [!IMPORTANT]
-> Skype para Business Server 2015 e Skype para Business Online suportam os seguintes clientes lançados anteriormente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition e Atendedor do Lync 2010. Para obter informações sobre esses clientes quando usados com outros servidores, consulte [Tabelas de comparação dos clientes para o Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) e [Tabelas de Comparação dos Clientes para Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+> Skype para Business Server 2015 e Skype para Business Online suportam os seguintes clientes lançados anteriormente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition e Atendedor do Lync 2010. Para obter informações sobre esses clientes quando usado com outros servidores, consulte as [tabelas de comparação do cliente do Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) e [tabelas de comparação do cliente do Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
 
 > [!NOTE]
 > O cliente do **Lync 2010 Attendant** não é suportado no Skype para Business Online.
@@ -68,7 +68,7 @@ Esta tabela abrange os recursos relacionados ao gerenciamento de contatos de IM 
 
 |Recurso/funcionalidade|Cliente Skype for Business 2015 ou 2016|Skype for Business para Mac | Cliente do Lync 2013 | Aplicativo Lync Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator para Mac 2011 | Lync para Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Lista de Contatos pré-populada |& #x 2714;|||||||||
+|Lista de contatos preenchida previamente |& #x 2714;|||||||||
 |Exibir e modificar a lista de contatos |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Marcar contatos para alertas de alteração de status |& #x 2714;|& #x 2714;|& #x 2714;||& #x 2714;|& #x 2714;||||
 |Controlar relações de privacidade |& #x 2714;||& #x 2714;||& #x 2714;|& #x 2714;||||
@@ -120,7 +120,7 @@ Para obter detalhes, consulte o [Skype para negócios Online Service Description
   
 |Recurso/funcionalidade | Skype para 2016 de negócios do cliente | Skype for Business para Mac | Skype for Business Web App | Skype para 2015 de negócios do cliente | Cliente do Lync 2013 | Aplicativo Lync Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator para Mac 2011 | Lync para Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Adicionar áudio de computador |& #x 2714;|& #x 2714;|& #x 2714;(requires plug-in) |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Adicionar áudio do computador |& #x 2714;|& #x 2714;|& #x 2714;(requires plug-in) |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Adicionar vídeo |& #x 2714;|& #x 2714;|& #x 2714;(requires plug-in) |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|||& #x 2714;|& #x 2714;|
 |Exibir vídeo com vários participantes (modo de exibição de galeria) |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||||
 |Compartilhamento de tela baseado em vídeo |& #x 2714;|& #x 2714;|& #x 2714; Somente exibição |||||||||
@@ -150,7 +150,7 @@ Para obter detalhes, consulte o [Skype para negócios Online Service Description
 |Definir Destaque de Vídeo (bloquear vídeo) |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||& #x 2714;|
 |Conceder/cancelar controle de compartilhamento de tela |& #x 2714;||& #x 2714;|||||||||
 
- & #x 2776;  Os participantes não é possível controlar as áreas de trabalho que são compartilhadas por Skype for Business no Mac, Lync para Mac 2011, ou o Communicator para Mac 2011 usuários. Skype for Business no Mac, Lync para Mac 2011 e Communicator para Mac 2011 usuários não podem controlar áreas de trabalho compartilhadas por usuários do Windows. Isso também não funciona com o Skype for Business no Mac OSX.
+ & #x 2776;  Os participantes não é possível controlar as áreas de trabalho que são compartilhadas por Skype for Business no Mac, Lync para Mac 2011, ou o Communicator para Mac 2011 usuários. Skype for Business no Mac, Lync para Mac 2011 e Communicator para Mac 2011 usuários não podem controlar áreas de trabalho compartilhadas por usuários do Windows. Isso também não funcionará para Skype para negócios Web App em Max OSX.
   
  & #x 2777;  Para Skype para Business Online, este recurso exige o Microsoft Conferencing de PSTN, Unificação de mensagens do Exchange, ou um 3rd provedor de serviços de audioconferência de terceiros.
   
@@ -279,7 +279,7 @@ As contas do usuário podem existir online ou no local e isso afetará os recurs
 - Suporte de IM: Escalonar uma sala de Chat persistente para um Skype para reunião de negócios com um clique
 - Usuários externos: realizar chamadas de dois ou vários participantes com usuários externos.
 
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 
 <a name="Types"> </a>
 

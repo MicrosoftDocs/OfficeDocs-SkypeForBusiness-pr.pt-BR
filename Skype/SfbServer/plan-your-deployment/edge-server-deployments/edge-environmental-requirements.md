@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Resumo: Saiba sobre os requisitos de ambientais para o servidor de borda no Skype para Business Server.'
 ms.openlocfilehash: eaa6c1ac5b1d014f6c2bb54a342dabd4c6388c2e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207157"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Requisitos de ambiente de servidor de borda no Skype para Business Server
  

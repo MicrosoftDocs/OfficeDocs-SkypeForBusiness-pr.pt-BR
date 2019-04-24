@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8a94f8220cca2058e993f73241e62ff3ad0ea4f2
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210924"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams
 ===========================================================
@@ -62,7 +62,7 @@ Para receber o atendedor automático e chamar as chamadas de fila em Teams da Mi
 ## <a name="related-topics"></a>Tópicos relacionados
 
 -   [Qual é o sistema telefônico no Office 365](what-is-phone-system-in-office-365.md)
--   [Criar uma fila de chamada de nuvem](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
--   [Cite atendedores automáticos de nuvem.](what-are-phone-system-auto-attendants.md)
--   [Configurar um atendedor automático de nuvem](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [Criar uma fila de chamada do Cloud](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [Quais são os atendedores automáticos do Cloud?](what-are-phone-system-auto-attendants.md)
+-   [Configurar um atendedor automático do Cloud](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

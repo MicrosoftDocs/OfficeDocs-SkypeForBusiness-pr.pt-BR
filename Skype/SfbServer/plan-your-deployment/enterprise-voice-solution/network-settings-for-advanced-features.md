@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Aprender sobre regiões de rede, sites de rede e sub-redes IP. Todas estas devem ser configuradas para implantar o plano de bypass de mídia no Skype para os negócios, planejar chamada de controle de admissão no Skype para Business Server), ou plano para serviços de emergência no Skype para servidor de negócios no Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: a37cf9aea2ef400a61a0b457e1973b05d079ec74
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206554"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Configurações de rede para os recursos avançados do Enterprise Voice no Skype para Business Server
 
@@ -68,7 +68,7 @@ Cada subrede na rede corporativa deve ser associado um site de rede (ou seja, ca
 
 Para associar sub-redes a sites de rede, você poderá usar a seção **Configuração de rede** do Skype para painel de controle do Business Server, ou você pode usar o Skype do Shell de gerenciamento do servidor de negócios. Para obter instruções, consulte [associar uma sub-rede a um Site de rede](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx) na documentação de implantação ou consulte o Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Planejar o controle de admissão de chamada no Skype for Business Server](call-admission-control.md)
 
