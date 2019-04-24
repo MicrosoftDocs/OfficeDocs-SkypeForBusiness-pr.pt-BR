@@ -14,18 +14,18 @@ ms.assetid: 1b2c8676-b132-4ba0-a242-a1edf30a3d44
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 ms.openlocfilehash: 783f3451f0aa9c1d4f8cda8762d0739b1022b771
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873391"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215742"
 ---
-# <a name="dial-in-access-number"></a><span data-ttu-id="a5c1d-104">Número de Acesso de Discagem</span><span class="sxs-lookup"><span data-stu-id="a5c1d-104">Dial-in Access Number</span></span>
+# <a name="dial-in-access-number"></a><span data-ttu-id="a52e1-104">Número de Acesso de Discagem</span><span class="sxs-lookup"><span data-stu-id="a52e1-104">Dial-in Access Number</span></span>
 
-<span data-ttu-id="a5c1d-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="a5c1d-105">What do you want to do?</span></span> <span data-ttu-id="a5c1d-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="a5c1d-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="a52e1-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="a52e1-105">What do you want to do?</span></span> <span data-ttu-id="a52e1-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="a52e1-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="a5c1d-107">Create or Modify a Dial-in Conferencing Access Number</span><span class="sxs-lookup"><span data-stu-id="a5c1d-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
+- [<span data-ttu-id="a52e1-107">Create or Modify a Dial-in Conferencing Access Number</span><span class="sxs-lookup"><span data-stu-id="a52e1-107">Create or Modify a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx)
 
-- [<span data-ttu-id="a5c1d-108">Delete a Dial-in Conferencing Access Number</span><span class="sxs-lookup"><span data-stu-id="a5c1d-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
+- [<span data-ttu-id="a52e1-108">Delete a Dial-in Conferencing Access Number</span><span class="sxs-lookup"><span data-stu-id="a52e1-108">Delete a Dial-in Conferencing Access Number</span></span>](https://technet.microsoft.com/library/199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7.aspx)
 
 

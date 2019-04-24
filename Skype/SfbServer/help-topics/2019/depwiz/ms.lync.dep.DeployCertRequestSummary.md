@@ -14,14 +14,14 @@ ms.assetid: e907e36b-c168-464c-8b52-edd409704a02
 ROBOTS: NOINDEX, NOFOLLOW
 description: A página Resumo da Solicitação de Certificado exibe um resumo detalhado de todas as opções e configurações para o certificado. O resumo representa o que a solicitação de certificado conterá, e subsequentemente, como o certificado será emitido. Revise com atenção o resumo para se certificar de que todas as outras entradas e opções selecionadas estão corretas. Se suas seleções estiverem corretas, clique em Avançar para continuar com a geração da solicitação e prepará-la para envio para a Autoridade de Certificação (AC).
 ms.openlocfilehash: da1d1ccaf7a3e998ee5365b7ed375eff9b8b8eae
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216302"
 ---
-# <a name="certificate-request-summary"></a><span data-ttu-id="83c76-106">Solicitação de Certificado (Resumo)</span><span class="sxs-lookup"><span data-stu-id="83c76-106">Certificate Request (Summary)</span></span>
+# <a name="certificate-request-summary"></a><span data-ttu-id="09b05-106">Solicitação de Certificado (Resumo)</span><span class="sxs-lookup"><span data-stu-id="09b05-106">Certificate Request (Summary)</span></span>
  
-<span data-ttu-id="83c76-p102">A página **Resumo da Solicitação de Certificado** exibe um resumo detalhado de todas as opções e configurações para o certificado. O resumo representa o que a solicitação de certificado conterá, e subsequentemente, como o certificado será emitido. Revise com atenção o resumo para se certificar de que todas as outras entradas e opções selecionadas estão corretas. Se suas seleções estiverem corretas, clique em **Avançar** para continuar com a geração da solicitação e prepará-la para envio para a Autoridade de Certificação (AC).</span><span class="sxs-lookup"><span data-stu-id="83c76-p102">The **Certificate Request Summary** page displays a detailed summary of all options and configurations for the certificate. The summary represents what the certificate request will contain, and subsequently, how the certificate will be issued. You should carefully review the summary to make sure that all of the entries and options that you selected are correct. If your selections are correct, click **Next** to continue with the generation of the request and prepare it for sending to the Certification Authority (CA).</span></span>
+<span data-ttu-id="09b05-p102">A página **Resumo da Solicitação de Certificado** exibe um resumo detalhado de todas as opções e configurações para o certificado. O resumo representa o que a solicitação de certificado conterá, e subsequentemente, como o certificado será emitido. Revise com atenção o resumo para se certificar de que todas as outras entradas e opções selecionadas estão corretas. Se suas seleções estiverem corretas, clique em **Avançar** para continuar com a geração da solicitação e prepará-la para envio para a Autoridade de Certificação (AC).</span><span class="sxs-lookup"><span data-stu-id="09b05-p102">The **Certificate Request Summary** page displays a detailed summary of all options and configurations for the certificate. The summary represents what the certificate request will contain, and subsequently, how the certificate will be issued. You should carefully review the summary to make sure that all of the entries and options that you selected are correct. If your selections are correct, click **Next** to continue with the generation of the request and prepare it for sending to the Certification Authority (CA).</span></span>
   
 

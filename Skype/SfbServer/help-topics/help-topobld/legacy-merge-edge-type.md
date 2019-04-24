@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
 description: Para um único servidor de borda ou com balanceamento de carga consolidada do servidor de borda, clique em Avançar para especificar informações de configuração. Para uma borda expandida, cada configuração de servidor deve ser alterada para uma configuração de borda consolidada, antes que ele possa ser mesclado com o Lync Server 2013.
 ms.openlocfilehash: c7bc67f8114eaaa37646e5d5c7dcc307217413a0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875085"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200198"
 ---
-# <a name="legacy-merge-edge-type"></a><span data-ttu-id="2fcb8-104">Tipo de Borda de Mesclagem de Legado</span><span class="sxs-lookup"><span data-stu-id="2fcb8-104">Legacy Merge Edge Type</span></span>
+# <a name="legacy-merge-edge-type"></a><span data-ttu-id="e5d71-104">Tipo de Borda de Mesclagem de Legado</span><span class="sxs-lookup"><span data-stu-id="e5d71-104">Legacy Merge Edge Type</span></span>
  
-<span data-ttu-id="2fcb8-105">Para um servidor **Único servidor de borda** ou **com balanceamento de carga de borda consolidada** , clique em **próximo** para especificar informações de configuração.</span><span class="sxs-lookup"><span data-stu-id="2fcb8-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="2fcb8-106">Para uma **Borda expandida**, cada configuração de servidor deve ser alterada para uma configuração de borda consolidada, antes que ele possa ser mesclado com o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2fcb8-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged with Lync Server 2013.</span></span> 
+<span data-ttu-id="e5d71-105">Para um servidor **Único servidor de borda** ou **com balanceamento de carga de borda consolidada** , clique em **próximo** para especificar informações de configuração.</span><span class="sxs-lookup"><span data-stu-id="e5d71-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="e5d71-106">Para uma **Borda expandida**, cada configuração de servidor deve ser alterada para uma configuração de borda consolidada, antes que ele possa ser mesclado com o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e5d71-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged with Lync Server 2013.</span></span> 
   
 
