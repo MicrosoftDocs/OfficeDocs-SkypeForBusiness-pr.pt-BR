@@ -1,11 +1,17 @@
---- 
+---
 layout: HubPage
 hide_bc: true
 title: Skype for Business
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 description: Skype for Business
+ms.openlocfilehash: a08b6ecdaf09ade237332e08a23ddbfeb9c5eb64
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32195011"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -140,8 +146,8 @@ description: Skype for Business
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Salas de equipes da Microsoft</h3>
-                                                    <p>Aprenda a planejar, implantar e gerenciar salas de equipes da Microsoft.</p>
+                                                    <h3>Salas do Microsoft Teams</h3>
+                                                    <p>Aprenda a planejar, implantar e gerenciar Salas no Microsoft Teams.</p>
                                                 </div>
                                             </div>
                                         </div>

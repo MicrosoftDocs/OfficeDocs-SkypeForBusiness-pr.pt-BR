@@ -15,28 +15,28 @@ localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 'A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os seguintes componentes criam a topologia de Borda da rede de perímetro. Exceto quando observado, os componentes fazem parte dos cenários de servidor de borda no Skype para Business Server 2015 e estão na rede de perímetro. Os componentes de Borda incluem o seguinte:'
 ms.openlocfilehash: e80373250c87ed0c51e5c1fbba629b2d8df801da
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894163"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222664"
 ---
-# <a name="edge-network-planning-tool"></a><span data-ttu-id="d0866-106">Edge Network (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="d0866-106">Edge Network (Planning Tool)</span></span>
+# <a name="edge-network-planning-tool"></a><span data-ttu-id="1d81d-106">Edge Network (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="1d81d-106">Edge Network (Planning Tool)</span></span>
  
-<span data-ttu-id="d0866-107">A maioria dos componentes de Borda é implantada em uma rede de perímetro.</span><span class="sxs-lookup"><span data-stu-id="d0866-107">Most Edge components are deployed in a perimeter network.</span></span> <span data-ttu-id="d0866-108">Os seguintes componentes criam a topologia de Borda da rede de perímetro.</span><span class="sxs-lookup"><span data-stu-id="d0866-108">The following components make up the Edge topology of the perimeter network.</span></span> <span data-ttu-id="d0866-109">Exceto onde observado, os componentes fazem parte dos [cenários de servidor de borda no Skype para Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) e estão na rede de perímetro.</span><span class="sxs-lookup"><span data-stu-id="d0866-109">Except where noted, the components are part of [Edge Server scenarios in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) and are in the perimeter network.</span></span> <span data-ttu-id="d0866-110">Os componentes de Borda incluem o seguinte:</span><span class="sxs-lookup"><span data-stu-id="d0866-110">Edge components include the following:</span></span>
+<span data-ttu-id="1d81d-107">A maioria dos componentes de Borda é implantada em uma rede de perímetro.</span><span class="sxs-lookup"><span data-stu-id="1d81d-107">Most Edge components are deployed in a perimeter network.</span></span> <span data-ttu-id="1d81d-108">Os seguintes componentes criam a topologia de Borda da rede de perímetro.</span><span class="sxs-lookup"><span data-stu-id="1d81d-108">The following components make up the Edge topology of the perimeter network.</span></span> <span data-ttu-id="1d81d-109">Exceto onde observado, os componentes fazem parte dos [cenários de servidor de borda no Skype para Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) e estão na rede de perímetro.</span><span class="sxs-lookup"><span data-stu-id="1d81d-109">Except where noted, the components are part of [Edge Server scenarios in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) and are in the perimeter network.</span></span> <span data-ttu-id="1d81d-110">Os componentes de Borda incluem o seguinte:</span><span class="sxs-lookup"><span data-stu-id="1d81d-110">Edge components include the following:</span></span>
   
-- <span data-ttu-id="d0866-111">Servidor(es) de borda</span><span class="sxs-lookup"><span data-stu-id="d0866-111">Edge Server(s)</span></span>
+- <span data-ttu-id="1d81d-111">Servidor(es) de borda</span><span class="sxs-lookup"><span data-stu-id="1d81d-111">Edge Server(s)</span></span>
     
-- <span data-ttu-id="d0866-112">Proxy reverso</span><span class="sxs-lookup"><span data-stu-id="d0866-112">Reverse proxy</span></span>
+- <span data-ttu-id="1d81d-112">Proxy reverso</span><span class="sxs-lookup"><span data-stu-id="1d81d-112">Reverse proxy</span></span>
     
-- <span data-ttu-id="d0866-113">Firewall</span><span class="sxs-lookup"><span data-stu-id="d0866-113">Firewall</span></span>
+- <span data-ttu-id="1d81d-113">Firewall</span><span class="sxs-lookup"><span data-stu-id="1d81d-113">Firewall</span></span>
     
-- <span data-ttu-id="d0866-114">Diretores (opcional e logicamente localizado na rede interna)</span><span class="sxs-lookup"><span data-stu-id="d0866-114">Directors (optional, and logically located on the internal network)</span></span>
+- <span data-ttu-id="1d81d-114">Diretores (opcional e logicamente localizado na rede interna)</span><span class="sxs-lookup"><span data-stu-id="1d81d-114">Directors (optional, and logically located on the internal network)</span></span>
     
-- <span data-ttu-id="d0866-115">Balanceamento de carga para Topologias de Borda Dimensionadas (balanceamento de carga DNS ou um balanceador de carga de hardware)</span><span class="sxs-lookup"><span data-stu-id="d0866-115">Load balancing for Scaled Edge Topologies (either DNS load balancing or a hardware load balancer)</span></span>
+- <span data-ttu-id="1d81d-115">Balanceamento de carga para Topologias de Borda Dimensionadas (balanceamento de carga DNS ou um balanceador de carga de hardware)</span><span class="sxs-lookup"><span data-stu-id="1d81d-115">Load balancing for Scaled Edge Topologies (either DNS load balancing or a hardware load balancer)</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="d0866-116">Consulte Também</span><span class="sxs-lookup"><span data-stu-id="d0866-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1d81d-116">Confira também</span><span class="sxs-lookup"><span data-stu-id="1d81d-116">See also</span></span>
 
-[<span data-ttu-id="d0866-117">Planejar implantações do Servidor de Borda no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="d0866-117">Plan for Edge Server deployments in Skype for Business Server 2015</span></span>](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[<span data-ttu-id="1d81d-117">Planejar implantações do Servidor de Borda no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="1d81d-117">Plan for Edge Server deployments in Skype for Business Server 2015</span></span>](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[<span data-ttu-id="d0866-118">Requisitos de sistema do Servidor de Borda no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="d0866-118">Edge Server system requirements in Skype for Business Server 2015</span></span>](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+[<span data-ttu-id="1d81d-118">Requisitos de sistema do Servidor de Borda no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="1d81d-118">Edge Server system requirements in Skype for Business Server 2015</span></span>](../../plan-your-deployment/edge-server-deployments/system-requirements.md)

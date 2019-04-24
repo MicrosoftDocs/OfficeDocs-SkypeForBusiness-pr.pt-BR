@@ -14,18 +14,18 @@ localization_priority: Normal
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 ms.openlocfilehash: fb858569f3f5891151dc0e473974d1ba6f9c1627
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882555"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200776"
 ---
-# <a name="federated-domains-create-new-or-edit-existing"></a><span data-ttu-id="786a4-104">Domínios Federados: Criar Novos ou Editar Existentes</span><span class="sxs-lookup"><span data-stu-id="786a4-104">Federated Domains: Create New or Edit Existing</span></span>
+# <a name="federated-domains-create-new-or-edit-existing"></a><span data-ttu-id="b8a50-104">Domínios Federados: Criar Novos ou Editar Existentes</span><span class="sxs-lookup"><span data-stu-id="b8a50-104">Federated Domains: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="786a4-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="786a4-105">What do you want to do?</span></span> <span data-ttu-id="786a4-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="786a4-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b8a50-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="b8a50-105">What do you want to do?</span></span> <span data-ttu-id="b8a50-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="b8a50-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="786a4-107">Configure Access for Federated Partners</span><span class="sxs-lookup"><span data-stu-id="786a4-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="b8a50-107">Configure Access for Federated Partners</span><span class="sxs-lookup"><span data-stu-id="b8a50-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="786a4-108">Monitor and Control Federated Partner Access</span><span class="sxs-lookup"><span data-stu-id="786a4-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
+- [<span data-ttu-id="b8a50-108">Monitor and Control Federated Partner Access</span><span class="sxs-lookup"><span data-stu-id="b8a50-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
 
 

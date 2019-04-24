@@ -1,1 +1,1 @@
-<span data-ttu-id="85379-101">A amostra inclui o arquivo. Basta substituir este pelo texto desejado.</span><span class="sxs-lookup"><span data-stu-id="85379-101">Sample include file - just replace this text with your own.</span></span>
+<span data-ttu-id="ed885-101">A amostra inclui o arquivo. Basta substituir este pelo texto desejado.</span><span class="sxs-lookup"><span data-stu-id="ed885-101">Sample include file - just replace this text with your own.</span></span>

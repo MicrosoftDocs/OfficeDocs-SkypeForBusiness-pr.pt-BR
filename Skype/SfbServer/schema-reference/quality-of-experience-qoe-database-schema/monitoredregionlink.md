@@ -12,19 +12,19 @@ localization_priority: Normal
 ms.assetid: cebda194-7be3-42d6-b6f0-c86f8b0f200a
 description: A tabela MonitoredRegionLink é uma tabela de suporte. Cada registro representa um vínculo entre dois países/regiões.
 ms.openlocfilehash: 0df5cd8abe957ed952bdf656a67e1d423cc57f33
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884411"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212457"
 ---
-# <a name="monitoredregionlink-table"></a><span data-ttu-id="7dbfb-104">Tabela MonitoredRegionLink</span><span class="sxs-lookup"><span data-stu-id="7dbfb-104">MonitoredRegionLink table</span></span>
+# <a name="monitoredregionlink-table"></a><span data-ttu-id="840d2-104">Tabela MonitoredRegionLink</span><span class="sxs-lookup"><span data-stu-id="840d2-104">MonitoredRegionLink table</span></span>
  
-<span data-ttu-id="7dbfb-105">A tabela MonitoredRegionLink é uma tabela de suporte.</span><span class="sxs-lookup"><span data-stu-id="7dbfb-105">The MonitoredRegionLink table is a supporting table.</span></span> <span data-ttu-id="7dbfb-106">Cada registro representa um vínculo entre dois países/regiões.</span><span class="sxs-lookup"><span data-stu-id="7dbfb-106">Each record represents one link between two countries/regions.</span></span>
+<span data-ttu-id="840d2-105">A tabela MonitoredRegionLink é uma tabela de suporte.</span><span class="sxs-lookup"><span data-stu-id="840d2-105">The MonitoredRegionLink table is a supporting table.</span></span> <span data-ttu-id="840d2-106">Cada registro representa um vínculo entre dois países/regiões.</span><span class="sxs-lookup"><span data-stu-id="840d2-106">Each record represents one link between two countries/regions.</span></span>
   
-|<span data-ttu-id="7dbfb-107">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="7dbfb-107">**Column**</span></span>|<span data-ttu-id="7dbfb-108">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="7dbfb-108">**Data Type**</span></span>|<span data-ttu-id="7dbfb-109">**Chave/índice**</span><span class="sxs-lookup"><span data-stu-id="7dbfb-109">**Key/Index**</span></span>|<span data-ttu-id="7dbfb-110">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="7dbfb-110">**Details**</span></span>|
+|<span data-ttu-id="840d2-107">**Coluna**</span><span class="sxs-lookup"><span data-stu-id="840d2-107">**Column**</span></span>|<span data-ttu-id="840d2-108">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="840d2-108">**Data Type**</span></span>|<span data-ttu-id="840d2-109">**Chave/índice**</span><span class="sxs-lookup"><span data-stu-id="840d2-109">**Key/Index**</span></span>|<span data-ttu-id="840d2-110">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="840d2-110">**Details**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="7dbfb-111">**Region1Key**</span><span class="sxs-lookup"><span data-stu-id="7dbfb-111">**Region1Key**</span></span> <br/> |<span data-ttu-id="7dbfb-112">int</span><span class="sxs-lookup"><span data-stu-id="7dbfb-112">int</span></span>  <br/> |<span data-ttu-id="7dbfb-113">Primária, estrangeira</span><span class="sxs-lookup"><span data-stu-id="7dbfb-113">Primary, Foreign</span></span>  <br/> |<span data-ttu-id="7dbfb-114">Referência da [Region table](region.md).</span><span class="sxs-lookup"><span data-stu-id="7dbfb-114">Referenced from the [Region table](region.md).</span></span>  <br/> |
-|<span data-ttu-id="7dbfb-115">**Region2Key**</span><span class="sxs-lookup"><span data-stu-id="7dbfb-115">**Region2Key**</span></span> <br/> |<span data-ttu-id="7dbfb-116">int</span><span class="sxs-lookup"><span data-stu-id="7dbfb-116">int</span></span>  <br/> |<span data-ttu-id="7dbfb-117">Primária, estrangeira</span><span class="sxs-lookup"><span data-stu-id="7dbfb-117">Primary, Foreign</span></span>  <br/> |<span data-ttu-id="7dbfb-118">Referência da [Region table](region.md).</span><span class="sxs-lookup"><span data-stu-id="7dbfb-118">Referenced from the [Region table](region.md).</span></span>  <br/> |
+|<span data-ttu-id="840d2-111">**Region1Key**</span><span class="sxs-lookup"><span data-stu-id="840d2-111">**Region1Key**</span></span> <br/> |<span data-ttu-id="840d2-112">int</span><span class="sxs-lookup"><span data-stu-id="840d2-112">int</span></span>  <br/> |<span data-ttu-id="840d2-113">Primária, estrangeira</span><span class="sxs-lookup"><span data-stu-id="840d2-113">Primary, Foreign</span></span>  <br/> |<span data-ttu-id="840d2-114">Referência da [Region table](region.md).</span><span class="sxs-lookup"><span data-stu-id="840d2-114">Referenced from the [Region table](region.md).</span></span>  <br/> |
+|<span data-ttu-id="840d2-115">**Region2Key**</span><span class="sxs-lookup"><span data-stu-id="840d2-115">**Region2Key**</span></span> <br/> |<span data-ttu-id="840d2-116">int</span><span class="sxs-lookup"><span data-stu-id="840d2-116">int</span></span>  <br/> |<span data-ttu-id="840d2-117">Primária, estrangeira</span><span class="sxs-lookup"><span data-stu-id="840d2-117">Primary, Foreign</span></span>  <br/> |<span data-ttu-id="840d2-118">Referência da [Region table](region.md).</span><span class="sxs-lookup"><span data-stu-id="840d2-118">Referenced from the [Region table](region.md).</span></span>  <br/> |
    
 

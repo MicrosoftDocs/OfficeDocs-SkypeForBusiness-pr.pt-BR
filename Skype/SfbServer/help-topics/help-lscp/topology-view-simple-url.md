@@ -14,19 +14,19 @@ localization_priority: Normal
 ms.assetid: c17f13f2-2e45-44d6-b56d-74ec8989eef1
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 ms.openlocfilehash: bfb0a5cf30ac19e99c89482ae4cffbb2bb4d4762
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200447"
 ---
-# <a name="topology-view-simple-url"></a><span data-ttu-id="658dc-104">Topologia: Exibir URL Simples</span><span class="sxs-lookup"><span data-stu-id="658dc-104">Topology: View Simple URL</span></span>
+# <a name="topology-view-simple-url"></a><span data-ttu-id="9d0a4-104">Topologia: Exibir URL Simples</span><span class="sxs-lookup"><span data-stu-id="9d0a4-104">Topology: View Simple URL</span></span>
 
-<span data-ttu-id="658dc-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="658dc-105">What do you want to do?</span></span> <span data-ttu-id="658dc-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="658dc-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="9d0a4-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="9d0a4-105">What do you want to do?</span></span> <span data-ttu-id="9d0a4-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="9d0a4-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="658dc-107">Editar ou configurar URLs simples</span><span class="sxs-lookup"><span data-stu-id="658dc-107">Edit or Configure Simple URLs</span></span>](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
+- [<span data-ttu-id="9d0a4-107">Editar ou configurar URLs simples</span><span class="sxs-lookup"><span data-stu-id="9d0a4-107">Edit or Configure Simple URLs</span></span>](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
 
-- [<span data-ttu-id="658dc-108">Gerenciando URL simples</span><span class="sxs-lookup"><span data-stu-id="658dc-108">Managing Simple URLs</span></span>](https://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
+- [<span data-ttu-id="9d0a4-108">Gerenciando URL simples</span><span class="sxs-lookup"><span data-stu-id="9d0a4-108">Managing Simple URLs</span></span>](https://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
 
-<span data-ttu-id="658dc-109">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="658dc-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="9d0a4-109">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="9d0a4-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

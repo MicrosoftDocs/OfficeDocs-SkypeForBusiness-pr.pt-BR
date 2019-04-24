@@ -20,10 +20,10 @@ ms.custom:
 - Legal
 description: 'Esse conteúdo deve ser publicado para atender aos requisitos de acessibilidade, conformidade e regulamentação do Skype for Business Online na França. '
 ms.openlocfilehash: 1681bedf95938a9eddc5f9e65862855a1591fd0c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865549"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199594"
 ---
-# <a name="legal-and-regulatory"></a><span data-ttu-id="bc54a-103">Jurídico e regulatório</span><span class="sxs-lookup"><span data-stu-id="bc54a-103">Legal and regulatory</span></span>
+# <a name="legal-and-regulatory"></a><span data-ttu-id="8a5fc-103">Jurídico e regulatório</span><span class="sxs-lookup"><span data-stu-id="8a5fc-103">Legal and regulatory</span></span>

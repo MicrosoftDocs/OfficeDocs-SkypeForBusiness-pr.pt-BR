@@ -14,22 +14,22 @@ localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 description: 'Para especificar detalhes de site para um site, faça o seguinte:'
 ms.openlocfilehash: caba9060f082778e768aac615ea369b02ef0e11f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877238"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32247314"
 ---
-# <a name="add-branch-site-details"></a><span data-ttu-id="effea-103">Adicionar Detalhes de Site de Filial</span><span class="sxs-lookup"><span data-stu-id="effea-103">Add Branch Site Details</span></span>
+# <a name="add-branch-site-details"></a><span data-ttu-id="320ec-103">Adicionar Detalhes de Site de Filial</span><span class="sxs-lookup"><span data-stu-id="320ec-103">Add Branch Site Details</span></span>
 
-<span data-ttu-id="effea-104">Para especificar detalhes de site para um site, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="effea-104">To specify site details for a site, do the following:</span></span>
+<span data-ttu-id="320ec-104">Para especificar detalhes de site para um site, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="320ec-104">To specify site details for a site, do the following:</span></span>
 
-<span data-ttu-id="effea-p101">Especifique um nome de cidade para o novo site de filial. O valor Cidade é uma entrada opcional.</span><span class="sxs-lookup"><span data-stu-id="effea-p101">Specify a city name for the new branch site. The City value is an optional entry.</span></span>
+<span data-ttu-id="320ec-p101">Especifique um nome de cidade para o novo site de filial. O valor Cidade é uma entrada opcional.</span><span class="sxs-lookup"><span data-stu-id="320ec-p101">Specify a city name for the new branch site. The City value is an optional entry.</span></span>
 
-<span data-ttu-id="effea-p102">Especifique um nome de estado/província para o novo site de filial. O valor Estado/Província é uma entrada opcional</span><span class="sxs-lookup"><span data-stu-id="effea-p102">Specify a state/province name for the new branch site. The State/Province value is an optional entry.</span></span>
+<span data-ttu-id="320ec-p102">Especifique um nome de estado/província para o novo site de filial. O valor Estado/Província é uma entrada opcional</span><span class="sxs-lookup"><span data-stu-id="320ec-p102">Specify a state/province name for the new branch site. The State/Province value is an optional entry.</span></span>
 
-<span data-ttu-id="effea-p103">Especifique um nome de código de país/região para o novo site de filial. O valor Código de País/Região é uma entrada opcional</span><span class="sxs-lookup"><span data-stu-id="effea-p103">Specify a country/region Code name for the new branch site. The Country/Region Code value is an optional entry.</span></span>
+<span data-ttu-id="320ec-p103">Especifique um nome de código de país/região para o novo site de filial. O valor Código de País/Região é uma entrada opcional</span><span class="sxs-lookup"><span data-stu-id="320ec-p103">Specify a country/region Code name for the new branch site. The Country/Region Code value is an optional entry.</span></span>
 
-<span data-ttu-id="effea-111">Para obter informações adicionais, consulte [Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx).</span><span class="sxs-lookup"><span data-stu-id="effea-111">For additional information, see [Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx).</span></span>
+<span data-ttu-id="320ec-111">Para obter informações adicionais, consulte [Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx).</span><span class="sxs-lookup"><span data-stu-id="320ec-111">For additional information, see [Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx).</span></span>
 
 
