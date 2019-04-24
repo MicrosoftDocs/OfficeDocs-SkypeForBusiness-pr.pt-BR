@@ -91,7 +91,7 @@
 ###### [Recebimento de chamadas em grupo](../../SfbServer/plan-your-deployment/enterprise-voice-solution/group-call-pickup.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [Grupo de Resposta](../../SfbServer/plan-your-deployment/enterprise-voice-solution/response-group.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [Comunicado](../../SfbServer/plan-your-deployment/enterprise-voice-solution/announcement.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-##### [Aparência da linha compartilhada](../../SfbServer/plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+##### [Aparência de linha compartilhada ](../../SfbServer/plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Opções de ocupado](../../SfbServer/plan-your-deployment/enterprise-voice-solution/busy-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Telefonar via trabalho](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Controle de chamada remota](../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
