@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in.
+description: Saiba como atribuir, alterar ou remover um número de telefone de trabalho para usuários do Skype for Business de modo que outras empresas e clientes possam ligar para eles.
 ms.openlocfilehash: 0e354956d1077b2f81de7b889d8085f05db038c4
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235688"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Atribuir, alterar ou remover o número de telefone de um usuário
 
@@ -50,7 +50,7 @@ Quando você está configurando usuários para que eles possam fazer e receber c
 Para saber como obter Planos de Chamadas no Office 365 e quanto custam, consulte [Licenças complementares do Skype for Business e Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
-> Uma maneira para ver se um usuário tem uma licença atribuída é indo para **Skype para centro de administração de negócios** > **voz** > **usuários de voz** e selecionando o usuário. Se uma licença foi distribuída, ele será anotado sob **licença atribuído**. Você também pode usar o Centro de administração do Office 365. 
+> One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. 
   
  ## <a name="assign-a-phone-number-to-a-user"></a>Atribuir um número de telefone a um usuário
  
@@ -80,7 +80,7 @@ Para saber como obter Planos de Chamadas no Office 365 e quanto custam, consulte
 8. Depois de escolher o número de telefone e o endereço de emergência, clique em **Salvar**.
     
     > [!NOTE]
-    > Devido a latência entre o Office 365 e Skype para Business Online, possivelmente pode demorar até 24 horas para usuários estejam habilitados. Se após 24 horas, se o número de telefone não é atribuído corretamente, faça o [contate o suporte para produtos de negócios - ajuda de Admin](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Estamos aqui para ajudar! 
+    > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
   
 
 

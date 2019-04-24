@@ -14,11 +14,11 @@ ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir um servidor de mediação, especifique as configurações que associar o servidor de mediação com um servidor Front-End e com um servidor de borda ou pool. Para associar o servidor de mediação ou o pool com um servidor de borda ou pool de servidor de borda, faça o seguinte:'
 ms.openlocfilehash: 03d0cc7c1333151274b67d9eef657d33931501ea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874434"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220646"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Associar Servidor de Mediação com Borda
  

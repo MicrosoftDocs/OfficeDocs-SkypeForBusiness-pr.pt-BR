@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
 ms.openlocfilehash: 81cc2f0c959bb4c611abc7ff198e6c5befc58c21
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865263"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210852"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute e QoS no Skype for Business Online
 
@@ -149,11 +149,11 @@ Definimos três personas para a Dewey Law LLC.: "Executivos/Parceiros", "Associa
   
  **Personas e perfis de uso (Planilha "Persona": Colunas A a P)**
   
-|**Pessoal**|**Mensagens Instantâneas/Presença**|**Áudio P2P**|**Vídeo P2P**|**Áudio da conferência**|**Vídeo da conferência**|**Compartilhamento da área de trabalho**|**Audioconferência**|**Lync 2010 RTV_Type**|**Usuários remotos**|**Lync 2013 áudio estéreo**|**Lync 2013 qualidade de vídeo**|**Lync 2013 comportamento dos usuários para janela de vídeo P2P**|**Lync 2013 Uso de Multi-view**|
+|**Pessoal**|**Mensagens Instantâneas/Presença**|**Áudio P2P**|**Vídeo P2P**|**Áudio da conferência**|**Vídeo da conferência**|**Compartilhamento da área de trabalho**|**Serviços de audioconferência**|**Lync 2010 RTV_Type**|**Usuários remotos**|**Lync 2013 áudio estéreo**|**Lync 2013 qualidade de vídeo**|**Lync 2013 comportamento dos usuários para janela de vídeo P2P**|**Lync 2013 Uso de Multi-view**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Executivos/ Parceiros  <br/> |Alto  <br/> |Médio  <br/> |Baixo  <br/> |Médio  <br/> |Médio  <br/> |Nenhum  <br/> |Médio  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Melhor  <br/> |Típico  <br/> |Típico  <br/> |
-|Associados/ Assistentes jurídicos  <br/> |Alto  <br/> |Médio  <br/> |Baixo  <br/> |Médio  <br/> |Alto  <br/> |Alto  <br/> |Médio  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Médio  <br/> |Típico  <br/> |Típico  <br/> |
-|Administradores de TI  <br/> |Alto  <br/> |Médio  <br/> |Nenhum  <br/> |Baixo  <br/> |Nenhum  <br/> |Nenhum  <br/> |Médio  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Médio  <br/> |Típico  <br/> |Típico  <br/> |
+|Executivos/ Parceiros  <br/> |Alto  <br/> |Médio  <br/> |Baixo  <br/> |Média  <br/> |Média  <br/> |Nenhum  <br/> |Média  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Melhor  <br/> |Típico  <br/> |Típico  <br/> |
+|Associados/ Assistentes jurídicos  <br/> |Alto  <br/> |Média  <br/> |Baixo  <br/> |Média  <br/> |Alto  <br/> |Alto  <br/> |Média  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Médio  <br/> |Típico  <br/> |Típico  <br/> |
+|Administradores de TI  <br/> |Alto  <br/> |Média  <br/> |Nenhum  <br/> |Baixo  <br/> |Nenhum  <br/> |Nenhum  <br/> |Média  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Médio  <br/> |Típico  <br/> |Típico  <br/> |
    
 Será necessário digitar as informações na tabela **Distribuição de usuários por locais e posições** acima na planilha "Locais" da Calculadora de largura de banda do Lync 2010 e 2013. Como o número de usuários nos escritórios regionais é idêntico, eles são definidos para um "Local" e especificamos que existiam três instâncias dele. O mesmo foi feito para as filiais grandes e pequenas com 24 e 50 usuários no local, respectivamente.
   

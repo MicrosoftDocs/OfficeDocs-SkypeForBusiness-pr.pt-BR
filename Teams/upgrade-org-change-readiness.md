@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0ac397a7ba54a81a2d92cf4823144da2b0c56a3c
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649448"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222537"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação do usuário")
 
@@ -110,7 +110,7 @@ Para obter o máximo proveito de equipes, desenvolver uma estratégia de trabalh
 
 **Trabalho em equipe centrada no project: evento de lançamento do produto** (por exemplo: sua organização está preparando-se para o início de um novo produto no mercado e estiver planejando implantar um evento promocional amplo para reconhecimento de unidade, gerar líderes e incentivar vendas).
 
-| Consideração | Notas |
+| Consideração | Observações |
 |----|---|
 | Principais atributos |<ul><li>Participantes da equipe entre com vários fluxos de trabalho do projeto</li><li>Reuniões direcionados frequentes</li><li>Muitas peças/pessoas chegando juntos (orçamento, agendas, apresentações, registro e assim por diante)</li></ul> |
 | Hoje desafios de trabalho em equipe |<ul><li>Fluxos de trabalho estiver trabalhando em silos com status geral dos projetos de visibilidade limitada ou entre os esforços de equipe:<br><ul><li>Conversas desconectadas e a falta de "quem está fazendo o que" </li><li>Informações rastreadas em vários locais com nenhuma visibilidade de várias equipes</li></ul><li>Tempo de perda de produtividade ao trazendo um novo membro na placa ou chegando perto de falta de uma reunião</li></ul>|
@@ -121,7 +121,7 @@ A integração do aplicativo de suporte ou alinhamento em equipes <sup>1</sup> .
 
 **Trabalho em equipe centrados em pessoas: equipe de vendas** (por exemplo: seu dispersas regional de vendas necessidades fique conectado em trânsito, permanecer alinhado no pipeline de equipe e entender os principais ofertas e iniciativas que podem ajudar a unidade até se atingir as metas de cota anual)
 
-| Consideração | Notas |
+| Consideração | Observações |
 |----|---|
 | Principais atributos | <ul><li>Trabalhar remotamente (na estrada, hotéis, sites de clientes)</li><li>Relacionamento focados – core externo</li></ul> |
 | Hoje desafios de trabalho em equipe |<ul><li>Conversas repetidas com vários representantes no campo (bate-papo, chamadas, reuniões, etc) – não é possível obter todos juntos ao mesmo tempo</li><li>Perdidas oportunidades de aprender com vendas "wins" – word boca compartilhamento somente</li><li>Continuamente embaralhamento entre aplicativos:<ul><li>Pipeline de vendas no Excel</li><li>Tendências no Power BI</li><li>Material adicional de vendas em email</li><li>Recursos de demonstração do cliente no SharePoint</li><li>1:1 chats e reuniões no momento</li><li>Âmbito da comunidade de vendas no Yammer</li></ul></ul> |

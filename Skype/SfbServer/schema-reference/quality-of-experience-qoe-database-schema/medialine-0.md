@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: Cada registro representa uma única linha de mídia. (Uma sessão de áudio geralmente contém uma linha de mídia de áudio. Um áudio e vídeo (A / V) sessão geralmente contém uma linha de mídia de áudio e uma linha de mídia de vídeo, embora a sessão pode conter duas linhas de mídia de vídeo, se um dispositivo de conferência for usado, ou se o modo de exibição de galeria é usado.
 ms.openlocfilehash: 11c309091211ce0bc480fa032e0f1dbbbbf533cd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896067"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212541"
 ---
 # <a name="medialine-table"></a>Tabela MediaLine
  

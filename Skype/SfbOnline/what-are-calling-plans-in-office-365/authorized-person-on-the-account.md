@@ -1,5 +1,5 @@
 ---
-title: Pessoa autorizada na conta
+title: Pessoa autorizada a conta
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: Saiba por que você precisa adicionar uma pessoa autorizada que pode fazer alterações à conta quando você usar o Assistente de nova ordem de porta do número Local.
 ms.openlocfilehash: 0220e999a2454cd4fb80fadd19678e9108e4707b
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233231"
 ---
-# <a name="authorized-person-on-the-account"></a>Pessoa autorizada na conta
+# <a name="authorized-person-on-the-account"></a>Pessoa autorizada a conta
 
 No Assistente de **Nova ordem de porta do número Local** , você deve inserir o nome da pessoa que está autorizado a fazer alterações à conta com o provedor de serviços ou operadora. O nome não é usado para processar a ordem de porta, mas é usado no caso de litígio, ou se algo está incorreto quando números são duas portas. Essa pessoa será responsável para a carta de autorização (LOA) para uma ordem de porta.
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
 description: Skype para Business Server oferece alta disponibilidade com servidor pooling de recuperação de desastres com pareamento do pool e vários modos de alta disponibilidade servidor Back-End, incluindo grupos de disponibilidade do AlwaysOn, espelhamento de banco de dados e o cluster de failover do SQL.
 ms.openlocfilehash: bbd3c4092962e757a7565f1da054c82438a79ded
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876772"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225494"
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>Implantar alta disponibilidade e recuperação de desastre
  
@@ -31,7 +31,7 @@ Esta seção explica como implantar esses recursos e também aborda as etapas qu
 
 [Planejar para alta disponibilidade e recuperação de desastres no Skype Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Implantar um grupo de disponibilidade do AlwaysOn em um servidor de Back-End no Skype para Business Server](alwayson-availability-group.md)
 

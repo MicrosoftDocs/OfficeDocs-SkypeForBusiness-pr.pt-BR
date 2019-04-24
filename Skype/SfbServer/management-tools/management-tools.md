@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: 'Resumo: Aprenda sobre as ferramentas de gerenciamento do serviço do Skype para Business Server 2015.'
 ms.openlocfilehash: 0d3a4ec86fd1110fbbb75da399db990f1694e5cd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875247"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217602"
 ---
 # <a name="skype-for-business-server-2015-management-tools"></a>Ferramentas de gerenciamento do Skype for Business Server 2015
  
@@ -41,7 +41,7 @@ Skype Business Server 2015 software de comunicações (anteriormente Lync Server
 |![ícone do painel](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Skype for Business Server 2015 Capacity Planning Calculator](capacity-planning-calculator.md) <br/> |A Calculadora de Planejamento do Skype for Business Server 2015 ajuda a modelar uma topologia das necessidades de sua organização.  <br/> |
 |![ícone de rede](../media/c74d45da-b10f-43c9-aa80-b1935f45c3ee.png)|[Skype for Business Server 2015 Stress and Performance Tool](stress-and-performance-tool/stress-and-performance-tool.md) <br/> |Essa ferramenta permite executar uma variedade de testes relacionados ao desempenho com carga de usuário para seu ambiente Skype for Business Server 2015. Scripts de amostra são fornecidos com a ferramenta para ajudar você a satisfazer as necessidades exclusivas de seu ambiente.<br/>**Observação:** Essa ferramenta não será atualizada para Skype para Business Server 2019. |
    
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Ferramentas do Lync Server 2013](https://technet.microsoft.com/en-us/library/dn163598%28v=ocs.15%29.aspx)
   

@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: Você pode navegar o Skype para ferramenta de planejamento do Business Server 2015 usando uma combinação de uma barra de ferramentas, botões de página específico e links e painéis de contexto específico. Esses painéis fornecem informações de planejamento e capacidade importantes para as opções de seleção em uma determinada página.
 ms.openlocfilehash: 64e8157c6511316d047709a47009769843f95958
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217342"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navegar pela Ferramenta de Planejamento no Skype for Business Server 2015
 
@@ -43,7 +43,7 @@ Além disso, as informações de hardware são exibidas na visão geral no paine
 
 ![Painel de ações da ferramenta de planejamento](../../media/Planning_Tool_Actions_Pane.jpg)
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Create the initial topology design for Skype for Business Server 2015](create-the-initial-design.md)
 

@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Suécia.
 ms.openlocfilehash: 8b9270c8fe95f87143f40c22d0ce0bdc54ab780c
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543147"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221967"
 ---
 # <a name="availability-in-sweden"></a>Disponibilidade na Suécia
 
@@ -67,7 +67,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Gotemburgo <li>  Helsingborg <li>  Linkoping <li>  Malmo <li>  Orebro <li>  Estocolmo <li>  Uppsala <li>  Vasteras </ul> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Gothenburg <li>  Helsingborg <li>  Linkoping <li>  Malmo <li>  Orebro <li>  Estocolmo <li>  Uppsala <li>  Vasteras </ul> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    

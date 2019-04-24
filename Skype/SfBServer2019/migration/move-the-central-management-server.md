@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Após migrar para o Skype para Business Server 2019, você precisa mover o servidor de gerenciamento Central para o Skype para Business Server 2019 servidor Front-End ou pool, antes de poder remover o servidor herdado.
 ms.openlocfilehash: dc85548a3c81e55267bc0ed3a32e53860e4bce09
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894744"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231571"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Mover o servidor de gerenciamento Central herdado para Skype para Business Server 2019
 

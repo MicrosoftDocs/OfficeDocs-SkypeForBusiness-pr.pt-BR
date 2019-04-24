@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Resumo: Saiba como recuperar, atualizar e criar definições de configuração para o serviço de registro em log centralizado no Skype para Business Server 2015.'
 ms.openlocfilehash: 1aab363f88b7639e2eb61f9101864bac20cc0aa0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217507"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Gerenciar configurações do Serviço de Log Centralizado no Skype for Business Server 2015
 
@@ -180,7 +180,7 @@ Por exemplo, para remover uma configuração de Centralized Logging Service que 
 > Esta é a nova configuração que foi criada no procedimento "para criar uma nova configuração de serviço de registro em log centralizado."
 
 Se decidir remover a configuração no nível do site, o site usará as configurações globais.
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Configurar provedores para Serviço de Log Centralizado no Skype for Business Server 2015](configure-providers.md)
 

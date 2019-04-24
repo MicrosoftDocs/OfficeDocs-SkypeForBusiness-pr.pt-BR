@@ -14,11 +14,11 @@ ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para obter detalhes sobre como usar o Assistente de implantação para instalar Skype para Business Server, consulte instalar Skype for Business Server.
 ms.openlocfilehash: bd221c090a739d276a554f4dc2ae1fc576c7c373
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216407"
 ---
 # <a name="deployment-wizard-request-a-certificate"></a>Assistente de Implantação: Solicitar um Certificado
  

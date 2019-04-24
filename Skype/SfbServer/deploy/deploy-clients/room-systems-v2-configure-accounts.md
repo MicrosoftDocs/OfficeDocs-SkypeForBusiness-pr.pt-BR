@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: ''
 description: Leia este tópico para saber mais sobre como configurar contas para salas de equipes da Microsoft no Exchange e Skype para negócios.
 ms.openlocfilehash: 7606f31dde96236111b4a44919427245fa32215d
-ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31828948"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214881"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurar contas para salas de equipes da Microsoft
  
@@ -82,11 +82,11 @@ A maneira mais fácil de configurar as contas do dispositivo é configurá-los u
   
 Se você preferir usar a interface do usuário do Office 365 sobre cmdlets do Windows PowerShell, algumas etapas podem ser realizadas manualmente. Consulte o [tópico Criando uma conta de dispositivo usando o Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Planejar para salas de equipes da Microsoft](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
 [Configurar um console de salas de equipes da Microsoft](console.md)
   
-[Gerenciar salas de equipes da Microsoft](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gerenciar Salas do Microsoft Teams](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

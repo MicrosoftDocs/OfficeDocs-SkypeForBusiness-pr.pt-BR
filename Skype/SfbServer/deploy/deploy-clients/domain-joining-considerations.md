@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Leia este tópico para saber como ingressar o PC do cliente do Sistema de Salas do Skype em seu domínio.
 ms.openlocfilehash: 3a457e73b3509967043b1ef11d1e5017f2190434
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699592"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219441"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Considerações de ingresso no domínio do Sistema de Salas do Skype
  
@@ -64,7 +64,7 @@ Mesmo que você crie uma Unidade Organizacional e bloqueie herança, há algumas
   
 Você pode ter várias abordagens para resolver esses problemas. Recomendamos que você consulte os especialistas em Active Directory para garantir que sejam fornecidas a você as configurações de GPO apropriadas ou pelo menos uma Unidade Organizacional na qual as políticas descritas anteriormente não existem. É recomendável para habilitar o Quality of Service (QoS) para dispositivos de sistema do Skype sala.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Confira também
   
 [Configuração de Dispositivo: Criar Nova ou Editar Existente](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

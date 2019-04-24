@@ -14,11 +14,11 @@ ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: Números não atribuídos são números de telefone válidos para sua organização, mas que não são atribuídos a um usuário ou telefone. A tabela de números não atribuídos identifica como você deseja lidar com chamadas para números não atribuídos.
 ms.openlocfilehash: f3031d14b6baf352ec761cf6b3ea1e97fa79a326
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221543"
 ---
 # <a name="unassigned-phone-number"></a>Número de Telefone Não Atribuído
 

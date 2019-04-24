@@ -14,11 +14,11 @@ ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você pode usar as políticas de arquivamento para controlar o arquivamento das comunicações internas e externas em sua implantação para usuários hospedados no Skype para Business Server. As políticas de arquivamento incluem a política global, e, como opção, uma ou mais políticas de site e de usuário:'
 ms.openlocfilehash: c43992fe808abf3350fc07ff21b8cbd92a4047a6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215441"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Política de Arquivamento: Criar Nova ou Editar Existente
  

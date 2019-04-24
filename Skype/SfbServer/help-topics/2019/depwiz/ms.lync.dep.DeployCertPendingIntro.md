@@ -14,11 +14,11 @@ ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para processar uma solicitação de certificado online pendentes, ou seja, uma solicitação que tenha sido emitida para sua autoridade de certificação online mas administrativamente é definida para exigir um processo de aprovação manual, clique em Avançar.
 ms.openlocfilehash: c8882eb2f93dd210b5888ad55bc5d85a6abedc12
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877245"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216512"
 ---
 # <a name="pending-certificate-intro"></a>Certificado Pendente (Introdução)
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 description: 'Você direito do mouse em um tronco SIP existente no construtor de topologias para executar o seguinte:'
 ms.openlocfilehash: 881409acb5b45b1f6662d96bfda110cbf1381f2a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878364"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219040"
 ---
 # <a name="trunk-scope-node"></a>Nó de Escopo de Tronco
  

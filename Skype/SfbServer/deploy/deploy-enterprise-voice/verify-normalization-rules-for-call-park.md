@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 description: Saiba mais sobre as regras de normalização para estacionamento de chamada no Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: 794d64efcefbc4b36fac84e6356df46df76dc5a2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222552"
 ---
 # <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a>Verifique se as regras de normalização para estacionamento de chamada no Skype para negócios
  
@@ -30,7 +30,7 @@ Saiba mais sobre as regras de normalização para estacionamento de chamada no S
 > [!IMPORTANT]
 > Certifique-se de que a regra de normalização padrão em seus planos de discagem não contém **^(\d\*)**. Caso contrário, a regra de normalização de estacionamento de chamada nunca será executado.
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Criar ou modificar um plano de discagem no Skype para Business Server](dial-plans.md)
 

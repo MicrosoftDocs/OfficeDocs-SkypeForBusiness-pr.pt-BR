@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Depois de concluir a instalação do Skype para ferramenta de planejamento do Business Server, você estará pronto para iniciar a ferramenta de planejamento e começar a projetar o Skype proposto para infraestrutura de Business Server 2015.
 ms.openlocfilehash: 132db1bfacac5d5faec17c2edceb72fe7736f887
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876892"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217226"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Create the initial topology design for Skype for Business Server 2015
 
@@ -75,6 +75,6 @@ Depois de concluir a instalação do Skype para ferramenta de planejamento do Bu
 
 16. A ferramenta de planejamento exibe a página de topologia Global. Agora você pode começar a edição, atualizando ou alterar a topologia usando as ferramentas disponíveis na ferramenta de planejamento.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Editing the Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: ''
 description: Microsoft é retirada de Unificação de mensagens (ExchUMO) serviço do Exchange Online por de 2020 fevereiro. Este artigo resume o que afetaram os clientes devem saber e fazer para planejar seu continuidade de negócios.
 ms.openlocfilehash: 703c51f3d42c9eea12964230693e602428454754
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914674"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244459"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online  
 

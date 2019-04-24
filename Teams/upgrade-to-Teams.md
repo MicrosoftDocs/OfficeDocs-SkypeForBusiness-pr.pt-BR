@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 640ea739b91a8e4904d5ac93a73c533d980033c1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218729"
 ---
 ![Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação] (media/upgrade-banner-deployment.png "Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação")
 
@@ -38,7 +38,7 @@ Este artigo faz parte do estágio de implantação e a implementação da sua jo
 
 Escolha sua jornada de atualização com base em sua implantação atual do Skype para negócios:
 
-- [Atualização do Skype para negócios Online para equipes](https://aka.ms/SkypeToTeams-UpgradeOnline)
+- [Atualizar do Skype for Business Online para o Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)
 - [Atualizar do Skype para o híbrido de negócios para equipes](https://aka.ms/SkypeToTeams-UpgradeHybrid)
 - [Atualização do Skype para negócios local para equipes](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
 

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 'Resumo: Saiba como modificar as definições de configuração de tronco SIP usando o Skype para painel de controle do servidor de negócios.'
 ms.openlocfilehash: 6fbae1279ec1734cd67269651c65dc7c278ca3a3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223024"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modificar as definições de configuração de tronco SIP no Skype para Business Server
  

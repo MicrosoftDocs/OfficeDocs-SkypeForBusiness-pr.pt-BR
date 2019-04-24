@@ -14,11 +14,11 @@ ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
 description: Notificação por Push e Push Notification Clearing House (PNCH) são duas partes importantes do recurso de mobilidade. Notificação por Push é o processo no qual uma mensagem é enviada ao PNCH. A mensagem é mantida aqui até que possa ser entregue ao cliente móvel ou até esgotar o tempo limite.
 ms.openlocfilehash: 96c20e19444f275076b18830a89d74dba93df39b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880204"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215805"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Cliente móvel: Crie ou edite a Configuração de Notificação por Push
  

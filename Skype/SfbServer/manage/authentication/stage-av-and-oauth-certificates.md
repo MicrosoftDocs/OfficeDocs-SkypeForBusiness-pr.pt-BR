@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 'Resumo: Estágio AV e OAuth certificados para Skype para Business Server.'
 ms.openlocfilehash: 859f4f1cd28eaa930f7cf3697e7ed5349f1bc966
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218915"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Preparar certificados AV e OAuth no Skype para Business Server usando - Roll in Set-CsCertificate
  
@@ -82,7 +82,7 @@ Para compreender melhor o processo que Set-CsCertificate, - Roll e - EffectiveDa
   
 ![Usando o Roll e os parâmetros de EffectiveDate.](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
   
-|**Legenda**|**Estágio**|
+|**Texto explicativo**|**Estágio**|
 |:-----|:-----|
 |1  <br/> |Início: 22/07/2015 00:00:00  <br/> O certificado AudioVideoAuthentication atual expira 14:00:00 em 22/07/2015. Isso é determinado pelo carimbo de data/hora de vencimento no certificado. Planeje a substituição e sobreposição do certificado na conta para sobreposição de 8 horas (tempo do token padrão) antes do certificado existente atingir a hora de vencimento. O tempo limite 02:00:00 é utilizado neste exemplo para permitir que o administrador tenha tempo suficiente para colocar e provisionar os novos certificados antes da hora efetiva 06:00:00.  <br/> |
 |2  <br/> |22/07/2015 02:00:00 - 22/07/2015 05:59:59  <br/> Definir os certificados nos servidores de borda com tempo efetivo de 6:00:00 AM (4 horas prazo é neste exemplo, mas pode ser mais tempo) usando Set-CsCertificate-tipo \<tipo de uso de certificados\> -Thumbprint \<impressão digital do novo certificado\> - Distribuir - EffectiveDate \<cadeia de caracteres de data/hora do tempo efetivo para o novo certificado\>  <br/> |
@@ -129,7 +129,7 @@ Quando a hora efetiva é atingida (21/07/2015 1:00:00 AM), todos os novos tokens
 Remove-CsCertificate -Type OAuthTokenIssuer -Previous 
 ```
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Gerenciar a autenticação de servidor-para-servidor (OAuth) e aplicativos de parceiros no Skype para Business Server](server-to-server-and-partner-applications.md)
 

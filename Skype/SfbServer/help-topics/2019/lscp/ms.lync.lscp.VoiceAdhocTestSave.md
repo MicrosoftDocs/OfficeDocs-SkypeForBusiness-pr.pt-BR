@@ -14,11 +14,11 @@ ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você pode usar a caixa de diálogo Salvar informações roteamento de voz caso de teste para salvar um caso de teste de roteamento de voz temporário. Em Salvar informações roteamento de voz caso de teste, digite o nome que você deseja conceder a este caso de teste em nome e, em seguida, clique em Okey.
 ms.openlocfilehash: 7e1c3eb48930ac1a227c3ad95da5074de0cb9c3f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878137"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221508"
 ---
 # <a name="save-voice-routing-test-case-information"></a>Salvar Informações de Caso de Teste de Roteamento de Voz
  

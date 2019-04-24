@@ -14,11 +14,11 @@ ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 ms.openlocfilehash: f1495ab62c0b9cf25944361ddee687aaecfd6bc7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893094"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215385"
 ---
 # <a name="network-configuration-global-setting"></a>Configuração de Rede: Definição Global
 

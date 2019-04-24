@@ -1,5 +1,5 @@
 ---
-title: Discando a partir de uma reunião do Microsoft Teams para que outras pessoas possam participar
+title: Discar de uma reunião do Microsoft Teams para que outras pessoas possam ingressar
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,15 +19,15 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Saiba do que você precisa e como os organizadores da reunião podem ligar para outras pessoas usando o Teams.
+description: Saiba o que você precisa e como os organizadores de reunião podem chamar para outras pessoas usando equipes.
 ms.openlocfilehash: 37f44eb96a33307b12eef485e2fdabf985ab8562
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543268"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236076"
 ---
-# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Discando a partir de uma reunião do Microsoft Teams para que outras pessoas possam participar
+# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Discar de uma reunião do Microsoft Teams para que outras pessoas possam ingressar
 
 Como organizador da reunião, você pode discar usando o aplicativo de equipes para permitir que outras pessoas ingressem na reunião mesma usando seus telefones.
 
@@ -48,9 +48,9 @@ Aqui está como obter dial-out para funcionar:
   
 ![Convidar alguém ou uma caixa de número de discagem](media/invite-someone-box.png)
     
-## <a name="supported-countries-and-regions"></a>Países e regiões aceitos
+## <a name="supported-countries-and-regions"></a>Regiões e países com suporte
 
-A discagem está disponível apenas para alguns países/regiões. Para obter uma lista completa, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Discagem externa só está disponível para alguns países/regiões. Para obter uma lista completa, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 ## <a name="allow-users-to-dial-in"></a>Permitir que os usuários discam
 

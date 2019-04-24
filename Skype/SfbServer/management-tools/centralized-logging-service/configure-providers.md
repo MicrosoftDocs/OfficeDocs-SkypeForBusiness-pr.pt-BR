@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Resumo: Aprenda a configurar provedores de cenário para o serviço de registro em log centralizado no Skype para Business Server 2015.'
 ms.openlocfilehash: 36eb16eb1aea584e1ca28670ea75bd3a262ceb1a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882205"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217499"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurar provedores para Serviço de Log Centralizado no Skype for Business Server 2015
  
@@ -182,7 +182,7 @@ Onde cada provedor definido com a diretiva Add já foi definido com o uso do pro
     > O cmdlet **Remove-CsClsScenario** não solicita sua confirmação. O cenário será excluído junto com os provedores atribuídos a ele. Você pode recriar o cenário executando novamente os comandos usados para criá-lo inicialmente. Não há um procedimento para recuperar cenários ou provedores removidos.
   
 Quando você remove um cenário usando o cmdlet **Remove-CsClsScenario**, ele é completamente removido do escopo. Para usar os cenários que você criou e os provedores que faziam parte dele, crie novos provedores e atribua-os a um novo cenário.
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)
   

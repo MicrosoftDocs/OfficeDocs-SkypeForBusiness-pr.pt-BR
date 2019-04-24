@@ -14,11 +14,11 @@ ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 ROBOTS: NOINDEX, NOFOLLOW
 description: O endereço IP público é o endereço IP que é usado pelo conversão de endereço de rede (NAT). O endereço IP deverá ser roteável publicamente. Isso é necessário porque você selecionou o endereço IP externo desse pool é convertido em + pela opção de NAT na página Selecionar recursos deste assistente de borda.
 ms.openlocfilehash: b8bd7db50c860b7d4215da8a45d3a8087e036714
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876461"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220945"
 ---
 # <a name="add-edge-server-nat-ip"></a>Adicionar IP NAT de Servidor de Borda
 

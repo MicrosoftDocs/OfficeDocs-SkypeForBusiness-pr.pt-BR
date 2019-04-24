@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 'Resumo: Configure o repositório unificado de contatos para Exchange Server e do Skype para Business Server.'
 ms.openlocfilehash: fd58c0cfd86092bb1a6004ac4d70c98c51062ea1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216610"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Configurar o Skype for Business Server para usar o repositório unificado de contatos
  

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
 description: Tópicos de planejamento para autenticação e autorização para Skype para Business Server, incluindo a integração com outros produtos
 ms.openlocfilehash: 662eb90758bb22a9ef65492d9c9c1a99af778f23
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873377"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214114"
 ---
 # <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>Discutir autenticação e autorização em Skype para negócios
 

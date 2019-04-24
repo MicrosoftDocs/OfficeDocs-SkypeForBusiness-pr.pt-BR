@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: 'Você pode edita as configurações de resiliência e configure as seguintes propriedades:'
 ms.openlocfilehash: 03c85341d8267e199cebbe8b3e3764e32ccc7f5d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884765"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219166"
 ---
 # <a name="registrar-settings-expander-for-lync-server-for-2010"></a>Expansor de Configurações de Registrador para o Lync Server for 2010
  

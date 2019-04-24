@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumo: Saiba como conectar Skype para Business Server com Skype consumidor. Também conhecida como a conectividade do Skype.'
 ms.openlocfilehash: 3dd48661b230f4e780505be4aeb05bbe9ff82340
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219687"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implantar a conectividade do Skype no Skype para Business Server
  

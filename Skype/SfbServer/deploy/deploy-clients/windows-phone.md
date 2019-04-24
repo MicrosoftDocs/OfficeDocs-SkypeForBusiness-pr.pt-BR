@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Resumo: Saiba como instalar e testar Skype for Business no seu Windows Phone.'
 ms.openlocfilehash: f944b5d80928bd1454893dedc3bb4d56ba2d3033
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894954"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214854"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Skype for Business Server 2015: Instalar e testar o Skype for Business para Windows Phone
  

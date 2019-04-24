@@ -14,11 +14,11 @@ ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: É possível configurar as políticas de local para determinar se o 9-1-1 Avançado (E9-1-1) está habilitado e como ele é usado, além de como as informações de local são usadas para usuários e contatos.
 ms.openlocfilehash: d148b7b546b5c0e239c1fbccfdbcf27e0a3840fa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215427"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Política de Local: Criar Nova ou Editar Existente
 

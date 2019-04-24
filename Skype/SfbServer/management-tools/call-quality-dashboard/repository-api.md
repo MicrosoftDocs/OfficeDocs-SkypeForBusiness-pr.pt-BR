@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 'Resumo: Saiba mais sobre o API de repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
 ms.openlocfilehash: 9181cd1454311bb5446bb18f51af56914387e7c3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898807"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217653"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API do repositório para o painel de qualidade de chamada (CQD) no Skype para Business Server
  

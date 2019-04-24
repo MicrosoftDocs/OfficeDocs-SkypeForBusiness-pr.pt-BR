@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Resumo: Configure um tronco sem bypass de mídia habilitado para Skype para Business Server.'
 ms.openlocfilehash: 25bb4a71983fa6f31ac85a1b2a8f4624219b36c9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886837"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223596"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurar um tronco sem bypass de mídia no Skype para Business Server
 
@@ -163,7 +163,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
     > [!NOTE]
     > Sempre que criar ou modificar uma configuração de tronco, você deve executar o comando **Confirmar tudo** para publicar a alteração na configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Configurar um tronco com bypass de mídia no Skype para Business Server](configure-trunk-with-media-bypass.md)
 

@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 82577b8e8102baca9ea9681bb94d4a0c73f8b01e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465152"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218673"
 ---
 ![Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação] (media/upgrade-banner-deployment.png "Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação")
 
@@ -34,7 +34,7 @@ Este artigo faz parte do estágio de implantação e a implementação da sua jo
 - [Preparado sua organização](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Conduzido um piloto](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="upgrade-from-skype-for-business-online-to-teams"></a>Atualização do Skype para negócios Online para equipes
+# <a name="upgrade-from-skype-for-business-online-to-teams"></a>Atualizar do Skype for Business Online para o Teams
 
 Siga as orientações neste artigo se você implantou integralmente Skype para Business Online e deseja atualizar seus usuários do Skype for Business para equipes. Você pode atualizar usuários seletivamente ou tudo em, com base na atualização jornada que sua organização tenha escolhido, atribuindo-se o modo de atualização e coexistência apropriada para seus usuários.
 

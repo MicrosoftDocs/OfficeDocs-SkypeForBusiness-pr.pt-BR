@@ -19,11 +19,11 @@ ms.custom:
 - Reporting
 description: 'Nesse relatório, juntamente com outro Skype para relatórios de negócios, oferece detalhes sobre a atividade, incluindo o uso da PSTN em toda a organização. '
 ms.openlocfilehash: 2cd12c19911df796ae33bd841e8fd15b987cf366
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453952"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239835"
 ---
 # <a name="users-blocked-report"></a>Relatório de usuários bloqueados
 
@@ -61,7 +61,7 @@ A tabela mostra uma divisão de todos os usuários são impedidos de fazer chama
 Clique para arrastar uma coluna para **Para agrupar por uma coluna específica, arraste e solte o cabeçalho da coluna aqui** se desejar criar uma exibição que agrupe todos os dados em uma ou mais colunas.
 ***
 ![Número 3](../images/sfbcallout3.png)<br/>
-Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar no botão **Exportar para Excel**.  
+Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar no botão **Exportar para Excel**.   
 
 Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se houver menos do que 2.000 usuários, você pode classificar e filtrar dentro da tabela no relatório em si. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.
 ***

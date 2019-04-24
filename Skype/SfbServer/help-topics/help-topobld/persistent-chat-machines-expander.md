@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: Ativar ou desativar um implantados Persistent Chat Server ou o pool de servidor de Chat persistente usando os servidores ou pools listados nas configurações de estado da máquina. Selecione um servidor ou pool na lista e clique no botão Tornar Ativo para definir um servidor ou pool como ativo.
 ms.openlocfilehash: 8318bc734e3532e4fb1c03f0ea796ecbed9ffdc0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875099"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219279"
 ---
 # <a name="persistent-chat-machines-expander"></a>Expansor de Máquinas de Chat Persistente
  
@@ -32,7 +32,7 @@ Defina um implantados Persistent Chat Server ou o pool de servidor de Chat persi
   
  **Ajuda** Exibe essa tela de ajuda.
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Planejar Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: bb7d2abd-d033-4d7d-b588-6d9228c3eccf
 description: 'Resumo: Implante a função de servidor VIS no Skype para Business Server.'
 ms.openlocfilehash: 3f3c48279ba08ca124f11ac0fb90c457ae69ac9d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884554"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219626"
 ---
 # <a name="deploy-video-interop-server-in-skype-for-business-server"></a>Implante o servidor de interoperabilidade de vídeo em Skype para Business Server
  

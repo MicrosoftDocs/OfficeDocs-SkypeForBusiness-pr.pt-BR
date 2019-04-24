@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Antes de começar Projetando e planejar seu Skype para infraestrutura de Business Server 2015 usando o Skype para ferramenta de planejamento do Business Server 2015, primeiro você deve instalar a ferramenta de planejamento. A ferramenta de planejamento não precisa ser implantado em uma estação de trabalho ou um servidor que faz parte do domínio ou da infra-estrutura onde você planeja instalar Skype para Business Server 2015. O arquivo Leiame que acompanha a ferramenta de planejamento detalha as informações importantes sobre como instalar e usar a ferramenta. Algumas das informações no arquivo Leiame estão reproduzidas aqui para esclarecimento.
 ms.openlocfilehash: 616cec026dfc5890cffc3975ea421d98ec13e412
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217296"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Instalar a Ferramenta de Planejamento no Skype for Business Server 2015
 
@@ -106,7 +106,7 @@ Exportar seu design para o Microsoft Visio cria um diagrama para ser usado com s
 
 - Diagrama de rede - diagrama detalhando a configuração do servidor de borda com endereços IP e FQDNs associados de borda. Balanceamento de carga de DNS e balanceadores de carga de hardware também estão incluídos. Além disso, os diretores e o pool de Front-End ou de servidor Front-End são exibidos, com LB de DNS associado ou HLB e o endereço IP atribuído (a ferramenta de planejamento oferece suporte a endereços IPv4 e IPv6) e o FQDN.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 <a name="Optional_Software"> </a>
 
 [Installing the Planning Tool](https://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)

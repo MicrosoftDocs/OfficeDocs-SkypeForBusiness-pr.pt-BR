@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: 'Resumo: Saiba mais sobre o serviço de usuário, que é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
 ms.openlocfilehash: 4ee4594e86b14655c94472b516b9e04da674e3f0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217639"
 ---
 # <a name="user-service-for-cqd"></a>Serviço de usuário para CQD
  

@@ -14,11 +14,11 @@ ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Se você tiver servidores de borda implantados e deve fornecer serviços de mídia para uso externo, escolha o servidor de borda ou pool que será associado com o aparelho de filial persistente ou servidor de filial persistente, selecionando-o na lista suspensa. Clique em Avançar para continuar.
 ms.openlocfilehash: ba98cbbed88251511d789137e6af716642749973
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220653"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>Associar Appliance de Escritório com Borda
  

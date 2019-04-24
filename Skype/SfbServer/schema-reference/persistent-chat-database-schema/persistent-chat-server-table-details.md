@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: Os tópicos a seguir detalham as colunas em cada uma das tabelas de esquema do banco de dados de Chat persistente.
 ms.openlocfilehash: 5ee15bfab456f2e2e5c1ea535a1b521f9544a352
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889650"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212667"
 ---
 # <a name="persistent-chat-server-table-details"></a>Detalhes da tabela do Servidor de Chat Persistente
  

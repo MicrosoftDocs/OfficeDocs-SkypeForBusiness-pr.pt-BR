@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Saiba como exibir o status do serviço, iniciar e parar serviços e evitar sessões de serviços.
 ms.openlocfilehash: 6913ce2cbef6c12a61d7d4751b35a71371ffb991
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215168"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Gerenciar serviços no Skype para Business Server
 

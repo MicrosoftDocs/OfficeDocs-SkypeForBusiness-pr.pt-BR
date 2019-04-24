@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Os Relatórios de Administrador são informações detalhadas para implantações e operações. Os relatórios são gerados com base nas seleções marcadas em Criar Locais. O designer pode adicionar mais valor aos Relatórios de Administrador editando os diagramas de rede e definindo os endereços IP completos e os FQDNs (nome de domínio totalmente qualificado) para servidores, pools e balanceadores de carga.
 ms.openlocfilehash: 5cab8231428ace2a0d77132481819eed304d3519
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222710"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Review the Administrator Reports in Skype for Business Server 2015
 
@@ -83,7 +83,7 @@ O Relatório de DNS que faz parte dos Relatórios do Administrador fornece detal
 
 Você deve ter uma revisão detalhada do Relatório DNS feita por sua equipe de gerenciamento do DNS para garantir que não existam erros que possam causem dificuldade durante a implantação ou compliquem uma sessão de solução de problemas.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 <a name="DNS_Report"> </a>
 
 [Reviewing the Administrator Reports](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)

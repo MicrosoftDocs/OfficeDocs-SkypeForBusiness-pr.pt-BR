@@ -16,15 +16,16 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e85d6e44c37b1b7a56b2b525d28fdbeab266d4b8
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211173"
 ---
-# <a name="quality-of-experience-review-guide"></a>Qualidade da experiência Revise o guia
+# <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
-<!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->Este guia é sobre a fase de unidade de valor para o Microsoft Teams e Skype para negócios Online. Você pode [baixar uma versão do Word](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) deste guia.
+<!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
+Este guia é sobre a fase de unidade de valor para o Microsoft Teams e Skype para negócios Online. Você pode [baixar uma versão do Word](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) deste guia.
 
 ## <a name="introduction"></a>Introdução
 
@@ -35,15 +36,15 @@ Para que o maior impacto sobre como melhorar a experiência do usuário, as orga
 
 _Figura 1 - operacionais áreas de chave abordadas neste guia_
 
-Continuamente avaliando e correção as áreas descritas neste guia, você pode reduzir seu potencial para afetar negativamente a qualidade da experiência dos usuários. A maioria dos problemas de experiência do usuário encontrados em uma implantação podem ser agrupados nas seguintes categorias:
+Continuamente avaliando e correção as áreas descritas neste guia, você pode reduzir seu potencial para afetar negativamente a qualidade da experiência dos usuários. A maioria dos problemas de experiência do usuário encontrada em uma implantação pode ser agrupada nas seguintes categorias:
 
--   Configuração de firewall ou proxy incompleta
--   Baixa cobertura de Wi-Fi
+-   Configuração incompleta do firewall ou proxy
+-   Cobertura insatisfatória da rede Wi-Fi
 -   Largura de banda insuficiente
 -   VPN
 -   Versões de cliente inconsistentes ou desatualizadas e drivers
 -   Dispositivos de áudio não otimizados ou internos
--   Sub-redes problemáticos ou dispositivos de rede
+-   Dispositivos de rede ou sub-redes com problemas
 
 Através de planejamento adequado e design antes de implantar equipes ou Skype para Business Online, você pode reduzir a quantidade de esforço que serão necessários para manter experiências de alta qualidade.
 
@@ -416,7 +417,7 @@ Muitas das dimensões e medidas em CQD são classificadas como primeira ou segun
 
 -   **Segundo** sempre será um ponto de extremidade do cliente, a menos que o stream está entre dois pontos de extremidade do servidor.
 
--   Se ambos os pontos de extremidade são do mesmo tipo, a escolha do qual é a primeira é baseada em ordem interna da categoria de agente de usuário. Isso assegura que a ordenação seja consistente.
+-   Se ambos os pontos de extremidade são do mesmo tipo, a escolha do qual é a primeira é baseada em ordem interna da categoria de agente de usuário. Isso garante que a ordenação é consistente.
 
 Para obter mais informações sobre como determinar o ponto de extremidade de primeiro ou segundo quando eles estão ambos os mesmos, consulte [dimensões e medidas disponíveis no CQD](https://aka.ms/cqd-dm).
 
@@ -563,7 +564,7 @@ Filtros de consulta são implementados, usando o Editor de consulta em CQD. Esse
 
 _Tabela 3 - filtros de consulta_
 
-| Filtro         | Descrição          | Exemplo de filtro de consulta CQD      |
+| Filter         | Descrição          | Exemplo de filtro de consulta CQD      |
 |----------------|----------------------|-------------------------------|
 | Sem valores em branco   | Alguns filtros não tem a opção para filtrar valores em branco. Para filtrar valores em branco manualmente, use a expressão em branco e definir o filtro é igual a ou não for igual a, dependendo das suas necessidades.      | Construção do segundo nome \< \> \^ \\s\*\$                       |
 | Excluir subredes comuns | Sem um arquivo de construção válido para separar gerenciada de redes não gerenciados, redes domésticas serão incluídos nos relatórios. Essas sub-redes residencial estão fora do escopo do controle de TI e podem ser rapidamente excluídos de um relatório. Sub-redes comuns, como definido neste guia, são 10.0.0.0, 192.168.1.0 e 192.168.0.0. | Segunda sub-rede \< \> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
@@ -575,9 +576,9 @@ Filtros do relatório são implementados adicionando um filtro ao relatório ren
 
 _Tabela 4 - filtros do relatório_
 
-| Filtro     | Descrição                            | Exemplo de filtro de relatório CQD         |
+| Filter     | Descrição                            | Exemplo de filtro de relatório CQD         |
 |------------|----------------------------------------|-----------------------------------|
-| Month      | Comece com o ano primeiro e, em seguida, mês. | 10 de 2017                           |
+| Mês      | Comece com o ano primeiro e, em seguida, mês. | 10 de 2017                           |
 | Alfabético | Filtra quaisquer caracteres alfabéticos. | [a-z]                             |
 | Numérico    | Filtra todos os caracteres numéricos.    | [0-9]                             |
 | Porcentagem | Filtra uma porcentagem.              | ([3-9]\\.) \|([3-9])\|([1-9][0-9]) |
@@ -794,7 +795,7 @@ Essas ferramentas são baseadas nas PowerShell e podem aproveitar os serviços e
 
 Para obter mais informações sobre essa ferramenta, consulte [esta postagem de blog](https://aka.ms/cqdtools).
 
-#### <a name="network-planner"></a> Planejador de rede
+#### <a name="network-planner"></a>Network Planner
 
 Planejador de rede determina e organiza seus requisitos de rede para sua implantação de voz de nuvem em apenas algumas etapas simples. Fornecendo a que sua organização da rede detalhes e o uso de voz de nuvem, você pode obter um cálculo aproximado dos requisitos de rede para sua implantação de voz de nuvem, gerenciar e exportar esses detalhes para geração de relatórios e exibir áreas para investigação futura e próximas etapas.
 
@@ -1237,7 +1238,7 @@ Números de versão do Skype para negócios podem ser encontrados por meio de li
 
 -   [Informações sobre atualizações para o Office ProPlus versões](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
 -   [Histórico de atualização do Office 365 ProPlus](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
--   [Skype para downloads de negócios e atualizações](/SkypeForBusiness/software-updates)
+-   [Downloads e atualizações do Skype for Business](/SkypeForBusiness/software-updates)
 
 ### <a name="devices"></a>Dispositivos
 
@@ -1316,14 +1317,14 @@ A qualidade de mídia em tempo real (áudio, vídeo e compartilhamento de aplica
 
 _A tabela 12 - requisitos de desempenho de rede_
 
-| Métrica                            | Cliente para o Microsoft Edge           | Edge do cliente para o Microsoft Edge    |
+| Indicador                            | Cliente para a borda da Microsoft           | Borda de cliente para a borda da Microsoft    |
 |-----------------------------------|------------------------------------|------------------------------------|
-| Latência (unidirecional)                 | \<50 ms                            | \<30 ms                            |
+| Latência (uma maneira)                 | \<50 ms                            | \<30 ms                            |
 | Latência (tempo de resposta, ou tempo de ida e volta) | \<100 ms                           | \<60 ms                            |
-| Perda de pacote de intermitência                 | \<10% durante qualquer intervalo de 200 ms   | \<1% durante qualquer intervalo de 200 ms    |
-| Perda de pacotes                       | \<1% durante qualquer intervalo de 15 segundos    | \<0,1% durante qualquer intervalo de 15 segundos  |
-| Tremulação entre chegadas de pacote       | \<30 ms durante qualquer intervalo de 15 segundos | \<15 ms durante qualquer intervalo de 15 segundos |
-| Novo pedido de pacotes                    | \<% de 0,05 pacotes de fora de ordem       | \<pacotes de fora de ordem 0,01%      |
+| Perda de pacotes de intermitência                 | \<10% durante qualquer intervalo de 200 ms   | \<1% durante qualquer intervalo de 200 ms    |
+| Perda de pacote                       | \<1% durante qualquer intervalo de 15 segundos    | \<0,1% durante qualquer intervalo de 15 segundos  |
+| Tremulação de entre chegada de pacotes       | \<30 ms durante qualquer intervalo de 15 segundos | \<15 ms durante qualquer intervalo de 15 segundos |
+| Reordenar de pacotes                    | \<% de 0,05 pacotes de fora de ordem       | \<pacotes de fora de ordem 0,01%      |
 
 Para obter mais informações, consulte [Este artigo sobre o desempenho de rede e qualidade de mídia](https://aka.ms/performancerequirements) para equipes e Skype para negócios Online.
 
@@ -1347,7 +1348,7 @@ Para obter mais informações, consulte [Este artigo sobre o desempenho de rede 
 
 -   [Configurar Análise de Chamada](set-up-call-analytics.md)
 
--   [Qual é a diferença entre a Análise de Chamada e o Painel de Qualidade de Chamadas?](difference-between-call-analytics-and-call-quality-dashboard.md)
+-   [O que é a diferença entre a análise de chamada e o painel de controle de qualidade de chamada?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
 -   [Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 

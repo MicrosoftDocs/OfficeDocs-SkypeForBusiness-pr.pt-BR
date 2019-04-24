@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: Cada registro representa métricas de sinal de áudio para um ponto de extremidade. Geralmente, cada chamada tem dois registros, um é do chamador e um é para o receptor.
 ms.openlocfilehash: 7a064f13b6f34f61dcfb72169a4b1620cd81b01f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895115"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212310"
 ---
 # <a name="audiosignal-table"></a>Tabela AudioSignal
  

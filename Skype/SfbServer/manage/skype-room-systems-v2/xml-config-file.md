@@ -13,11 +13,11 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: M365-voice
 description: Este artigo discute o gerenciamento remoto das configurações padrão usada por um dispositivo de salas de equipes da Microsoft, incluindo a aplicação de um tema personalizado.
 ms.openlocfilehash: 2dc99046647fc1cbda8fcb7643dbdf06d2d24c82
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013026"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214740"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar configurações do console um Microsoft equipes salas remotamente com um arquivo de configuração XML
  
@@ -129,9 +129,9 @@ O arquivo de imagem deve ter exatamente 3840 X 1080 pixels e deve estar em um do
   
 O arquivo de configuração XML deve ser atualizado na inicialização do dispositivo para reconhecer a imagem de tema. Depois que o novo arquivo XML for processado e excluído, o arquivo gráfico do tema será excluído do diretório.
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 
-[Gerenciar salas de equipes da Microsoft](skype-room-systems-v2.md)
+[Gerenciar Salas do Microsoft Teams](skype-room-systems-v2.md)
 
 [Configurar um Item de arquivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

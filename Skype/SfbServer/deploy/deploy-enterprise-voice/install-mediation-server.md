@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: 'Resumo: Saiba como instalar os arquivos para o servidor de mediação em Skype para Business Server.'
 ms.openlocfilehash: ab02655dc812815c79720d76c87bfefe91c90c73
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223052"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Instalar os arquivos para o servidor de mediação em Skype para Business Server
  

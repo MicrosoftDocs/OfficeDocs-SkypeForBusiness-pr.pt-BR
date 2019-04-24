@@ -14,11 +14,11 @@ ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você definir o repositório de monitoramento do SQL Server, definindo as seguintes propriedades:'
 ms.openlocfilehash: 2de5788c52f91a2ef2395aaa3c1f580170f1c765
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896837"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235445"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Adicionar Página de Repositório de Monitoramento do Front End
  
@@ -46,6 +46,6 @@ Clique em **Cancelar** para descartar todas as alterações e encerrar o assiste
   
 Clique em **Ajuda** para acessar a ajuda contextual, como esta página.
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Associar um repositório de monitoramento um pool de Front-End no Skype para Business Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

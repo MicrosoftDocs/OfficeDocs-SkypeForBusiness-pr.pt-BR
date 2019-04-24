@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este tópico destaca as definições de configuração, que você deve estar ciente antes de implantar sua Skype para o servidor de borda de 2019 Business Server. Os processos de implantação e configuração de Skype para Business Server 2019 serão bastante similares às Skype para Business Server 2015. Esta seção destaca somente os principais pontos que devem ser considerados como parte da sua implantação do pool piloto. Para obter etapas detalhadas, consulte Implantando o acesso de usuário externo em Skype for Business Server 2019 na documentação de implantação, que descreve o processo de implantação e também oferece informações de configuração de acesso de usuário externo.
 ms.openlocfilehash: 5b755d0ba8802c47a176cb3375a87b6523f35fad
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239852"
 ---
 # <a name="deploy-pilot-edge-server"></a>Implantar um Servidor de Borda piloto
 

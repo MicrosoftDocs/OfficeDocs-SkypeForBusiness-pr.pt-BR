@@ -14,11 +14,11 @@ ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você deve indicar onde você precisa criar grupos universais na floresta. A página de local do grupo Universal usa o domínio no qual o computador que você efetuou logon em é um membro de como o padrão. Se você preferir criar os grupos universais em um domínio que não seja o domínio Local padrão, selecione o FQDN do domínio e digite o nome de domínio totalmente qualificado (FQDN) na caixa de texto. Fornecer que um domínio alternativo é útil quando você estiver executando a tarefa de preparação de floresta de um domínio diferente de onde você deseja que os grupos universais criados. Clique em Avançar para continuar.
 ms.openlocfilehash: c886ff701a1e66221f5fa75c50e847d33560b32e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879150"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216239"
 ---
 # <a name="prepare-current-forest-universal-group-location"></a>Preparar a Floresta Atual (Local do Grupo Universal)
  

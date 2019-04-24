@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 description: Operadores são usuários que são projetados para atender chamadas de grupo de resposta. Os grupos de resposta precisam ter um grupo de agentes atribuídos que identifica os agentes que podem receber chamadas para o grupo de respostas. Uma forma de criar um grupo de agentes é definir um grupo personalizado selecionando usuários aptos. Usuários qualificados estão habilitados para Skype para Business Server e o Enterprise Voice.
 ms.openlocfilehash: 17a58df6e6729d5258e69007db98b480b83d46c4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888588"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220147"
 ---
 # <a name="select-agents"></a>Selecionar Agentes
 

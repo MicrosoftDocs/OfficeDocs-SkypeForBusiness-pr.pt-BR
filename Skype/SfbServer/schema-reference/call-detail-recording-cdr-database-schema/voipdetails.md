@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
 description: O modo de exibição VoIPDetails armazena informações sobre sessões ponto a ponto, onde pelo menos um usuário é um usuário de VoIP. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 ms.openlocfilehash: 940c3874d5ce8eb8a4d2261de56b8988b6d3a4c9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875550"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212702"
 ---
 # <a name="voipdetails-view"></a>Exibir VoIPDetails
  

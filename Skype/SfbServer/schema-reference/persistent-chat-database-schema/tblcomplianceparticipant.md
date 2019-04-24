@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
 description: tblComplianceParticipant contém os participantes atuais por canal e por servidor.
 ms.openlocfilehash: a3d18c4a78af2892a837e1105a435a3ce46ea14b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881413"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212948"
 ---
 # <a name="tblcomplianceparticipant"></a>tblComplianceParticipant
  

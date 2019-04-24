@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Orientação sobre como usar o Skype para ferramenta de planejamento do Business Server 2015.
 ms.openlocfilehash: 7a2230344cc31a14fbd8898706973af5ed0e6d9c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222636"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server 2015 Planning Tool
  
@@ -55,8 +55,8 @@ Os tópicos a seguir apresentam e a ferramenta de planejamento de detalhes.
     
 - [Review the Administrator Reports in Skype for Business Server 2015](review-the-administrator-reports.md)
     
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
-[Install Skype for Business Server 2015](../../deploy/install/install.md)
+[Instalar o Skype for Business Server 2015](../../deploy/install/install.md)
   
 [Plan for instant messaging and presence in Skype for Business Server 2015](../../plan-your-deployment/instant-messaging-and-presence.md)

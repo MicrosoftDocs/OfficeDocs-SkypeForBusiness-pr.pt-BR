@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumo: Preparar e implementar desabilitando TLS 1.0 e 1.1 em seus ambientes.'
 ms.openlocfilehash: dc835a68e47f9fac6036724d92ad336ead795e50
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012930"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214751"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Desabilitar o TLS 1.0/1.1 no Skype para Business Server 2015
 
@@ -66,7 +66,7 @@ Microsoft gerou um white paper sobre TLS disponíveis [aqui](https://cloudblogs.
 #### <a name="devices"></a>Dispositivos
 
 - O sistema de sala do Lync (também conhecido como SRSv1)
-- Salas de equipes da Microsoft
+- Salas do Microsoft Teams
 - Surface Hub
 - 2015 baseados aparelho de filial persistente (SBA) ou o servidor de filial persistente (SBS)
 

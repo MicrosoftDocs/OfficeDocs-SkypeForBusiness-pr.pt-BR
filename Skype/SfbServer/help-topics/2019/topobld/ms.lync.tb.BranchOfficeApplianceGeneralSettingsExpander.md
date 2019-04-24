@@ -14,11 +14,11 @@ ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar as configurações para um aparelho de filial persistente ou o servidor de filial persistente existente, são apresentadas as seguintes seções:'
 ms.openlocfilehash: 6d0b1bd829a347ae1a9c5c7d3f807bfab323fe4f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877920"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220583"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expansor de Configurações Gerais de Aparelho de Filial
 

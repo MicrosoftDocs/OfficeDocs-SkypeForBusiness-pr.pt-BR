@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o gerenciamento de dispositivos de salas de equipes da Microsoft de forma integrada e de ponta a ponta, usando o Monitor do Azure.
 ms.openlocfilehash: 599cbb7abce2b20dac27ffebacb041062a254905
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013106"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219488"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Implantar o gerenciamento de salas de equipes da Microsoft com o Monitor do Azure
 
@@ -503,7 +503,7 @@ Monitor Azure oferece soluções de gerenciamento internas por meio de sua [Gale
 > [!NOTE]
 > A solução de integridade do agente pode ajudá-lo a identificar os agentes de Microsoft Monitoring desatualizados ou quebrados dentro do seu ambiente e a solução de gerenciamento de alerta fornece detalhes sobre os alertas que foram gerados em um determinado período.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Planejar o gerenciamento de salas de equipes da Microsoft com o Monitor do Azure](../../plan-your-deployment/clients-and-devices/azure-monitor.md)
 

@@ -14,11 +14,11 @@ ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sua implantação do servidor de Chat persistente pode hospedar várias salas de Chat persistente simultâneas. Essas salas podem ser organizadas em um conjunto de categorias no servidor. Cada sala de chat pertence a uma categoria e herda algumas configurações dessa categoria. Essa organização cria uma estrutura útil para identificar conversas, com base no objetivo comercial, bem como facilita a administração delegada e o gerenciamento simplificado.
 ms.openlocfilehash: 5cbe727f6c939eab6c94f8a455acf9ee009ef1c3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874044"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215252"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>Página Principal da Configuração de Chat Persistente
 

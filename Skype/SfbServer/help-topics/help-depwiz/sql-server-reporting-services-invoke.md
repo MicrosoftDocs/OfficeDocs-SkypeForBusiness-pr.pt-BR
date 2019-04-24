@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 description: Depois de fornecer as informações necessárias para a implantação do Monitoring Server relata para o Microsoft SQL Server 2008 R2 ou para Microsoft serviços de relatório do SQL Server 2012, a página executar comandos exibe um resumo dos comandos emitidos para instalar o relatórios do SQL Server Reporting Services.
 ms.openlocfilehash: f1cc4ee2f2a53ea8e6d3ba1f1fcd24c59c915990
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873637"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234899"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services (Invocar)
  

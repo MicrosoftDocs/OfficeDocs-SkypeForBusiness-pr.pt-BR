@@ -14,11 +14,11 @@ ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para iniciar a instalação ou para atualizar uma implantação existente do Skype para Business Server, clique em instalar ou atualizar Skype para Business Server. As etapas desta seção instalará componentes específicos a uma função de servidor determinado, com base no documento construtor de topologia. Antes de começar esta série de etapas, você deve definir a implantação no construtor de topologia. Você deve estar conectado ao computador que você estiver implantando como o administrador local e como membro do grupo Administradores de domínio no domínio onde o servidor está localizado. O computador deve estar associado ao domínio antes da conclusão desta etapa.
 ms.openlocfilehash: 2f452b521302ac8cb743a79ebba4b30cad8c6595
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884772"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216162"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>Instalar ou Atualizar o Sistema Skype for Business Server
 
@@ -26,7 +26,7 @@ Para iniciar a instalação ou para atualizar uma implantação existente do Sky
 
 Se você estiver atualizando um servidor atualmente implantado, você deve fazer as alterações que você pretende no construtor de topologias.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Deployment](https://technet.microsoft.com/library/83bd43ee-c1fe-4b38-bfa7-3eb382817bf9.aspx)
 

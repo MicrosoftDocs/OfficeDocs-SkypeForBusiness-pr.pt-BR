@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 description: 'Servidor de mediação e outras informações básicas sobre esse gateway PSTN (rede) telefônica pública comutada nó mostra o nome de domínio totalmente qualificado (FQDN), associados. Você pode executar as seguintes ações:'
 ms.openlocfilehash: 0dcb1632c3c1803f93eaba6a3bc271172cba08a5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219258"
 ---
 # <a name="pstn-gateway-scope-node"></a>Nó de Escopo de Gateway PSTN
  

@@ -15,11 +15,11 @@ description: Saiba como um administrador pode editar informações sobre usuári
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 897e11084908d6f07ca94d7b67df25a1dfa054e6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234661"
 ---
 <a name="edit-guest-user-information"></a>Editar informações do usuários convidados
 ===========================
@@ -28,6 +28,6 @@ Para editar contas de convidados (como o nome de exibição ou a imagem de perfi
 
 No momento, você não pode editar as informações de convidado do Centro de administração do Microsoft Teams, centro de administração do Microsoft 365 ou Exchange admin center.
 
-## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado versus acesso externo (federação)
+## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado vs. acesso externo (federação)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

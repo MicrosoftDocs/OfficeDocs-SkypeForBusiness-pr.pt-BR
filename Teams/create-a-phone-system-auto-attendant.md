@@ -1,5 +1,5 @@
 ---
-title: Configurar um atendedor automático de nuvem
+title: Configurar um atendedor automático do Cloud
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendedores automáticos de nuvem para eficiente tratamento de chamadas para sua organização.
 ms.openlocfilehash: 8ab3dd318e8ae4c815a78dcc8f7430b2b6d08b04
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218787"
 ---
-# <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático de nuvem
+# <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
 Atendedores automáticos permitem que as pessoas que ligam para sua organização e navegue para conectá-los ao departamento direita, chame a fila, pessoa ou o operador de um sistema de menus. Você pode criar um atendedor automático para sua organização usando o Centro de administração do Microsoft Teams. Para criar um novo atendedor automático, vá para **voz** no painel de navegação esquerdo e selecione **atendedores automáticos** > **Adicionar novo**.
 
@@ -371,6 +371,6 @@ Veja os cmdlets necessários para gerenciar um atendedor automático.
 
 [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
-[Cite atendedores automáticos de nuvem.](what-are-phone-system-auto-attendants.md)
+[Quais são os atendedores automáticos do Cloud?](what-are-phone-system-auto-attendants.md)
 
 [Exemplo de pequenas empresas - Configurar um atendedor automático](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)  

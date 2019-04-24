@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 description: O modo de exibição ClientVersions armazena informações sobre os diversos tipos de cliente e versões que tenham participado em sessões gravadas no banco de dados. Cada registro no modo de exibição representa uma versão de cliente. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 ms.openlocfilehash: abf1436a2c3309e95bec8371b586c017e11b816d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881692"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213393"
 ---
 # <a name="clientversions-view"></a>Exibir ClientVersions
  

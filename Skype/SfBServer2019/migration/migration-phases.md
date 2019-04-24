@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype para Business Server 2019, você define sites em sua rede que contêm Skype para componentes de negócios Server 2019. Um site é um conjunto de computadores que estão bem conectados por uma rede de alta velocidade e baixa latência, como duas redes conectadas por uma rede de alta velocidade de fibra ótica ou de uma única rede local (LAN).
 ms.openlocfilehash: d34351b551262450dee852efd7679f17cbe1e161
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231620"
 ---
 # <a name="migration-phases"></a>Fases de migração
 

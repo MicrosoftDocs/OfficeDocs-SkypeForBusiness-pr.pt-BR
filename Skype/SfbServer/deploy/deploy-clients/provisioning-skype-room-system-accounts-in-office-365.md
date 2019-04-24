@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Leia este tópico para aprender sobre provisionamento de contas do Sistema de Salas do Skype no Office 365.
 ms.openlocfilehash: a1b24e25236f221d280631efd83c0e83b7ae44f2
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219470"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Provisionamento das contas do Sistema de Salas do Skype no Office 365
  
@@ -55,7 +55,7 @@ Para a conta da Sala do Skype, o seguinte licenciamento é exigido:
 
 O diagrama a seguir fornece uma visão geral da conta do sistema de sala do Skype provisionamento fluxo no Office 365.
   
-![Etapas de provisionamento do Sistemas de Sala do Skype para O365](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Etapas de provisionamento de sistema do Skype sala para O365](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>Identificar uma nova sala de conferência 
 

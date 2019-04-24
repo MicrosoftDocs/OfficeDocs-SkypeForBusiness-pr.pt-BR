@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Crie políticas entre sites, que são usadas pelo controle de admissão de chamada do Enterprise Voice no Skype para Business Server de rede.
 ms.openlocfilehash: 6619787bf071afe719c715de39e23b992d6e6ede
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223468"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Criar rede políticas entre sites no Skype para Business Server
  
@@ -44,7 +44,7 @@ Na região América do Norte da topologia de exemplo, existe um link direto entr
 
 3. Repita a etapa 2 conforme o necessário para criar políticas entre sites de rede para todos os pares de sites da rede que possuírem um link cruzado direto.
     
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
   

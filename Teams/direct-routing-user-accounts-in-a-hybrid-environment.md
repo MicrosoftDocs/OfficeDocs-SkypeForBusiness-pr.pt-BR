@@ -15,11 +15,11 @@ ms.collection:
 appliesto: Microsoft Teams
 description: Saiba mais sobre os diferentes combinações de criação de usuário e quais combinações são ou não suporte.
 ms.openlocfilehash: 88f679d5028cd2626ce4e85f0794aafb38317c9c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232615"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Contas de usuário em um ambiente híbrido com conectividade PSTN
 
@@ -58,11 +58,11 @@ Um Skype para ambiente híbrido de negócios com conectividade PSTN fornece flex
 | ------------ | --------- | --------- | --------- | -------- |
 |No AD local| No local |Skype for Business   | Enterprise Voice   |Sim|
 |No AD local|Online| Skype for Business  | Conectividade de voz híbrida   |Sim |
-|No AD local|Online |Microsoft Teams |Direcionar circulação  |Sim |
+|No AD local|Online |Microsoft Teams |Roteamento Direto  |Sim |
 |**Combinações sem suporte**    | |         |         |      |
 |Azure AD.| No local/online | Skype para equipes de negócios/Microsoft|Conectividade/Direct roteamento de voz de voz/híbrido de empresa  |Não, o objeto de usuário deve ser criado no AD local pela primeira vez |
 |No AD local  |No local| Microsoft Teams| Conectividade/Direct roteamento de voz de voz/híbrido de empresa   |Não, o cliente Microsoft Teams não é suportado com Skype local for Business |     
-|No AD local  |Online |Skype for Business  | Direcionar circulação  |Não, roteamento direto não é suportado com Skype para o cliente de negócios e usuário deve estar habilitado para o Enterprise Voice no Skype para negócios primeiro  |
+|No AD local  |Online |Skype for Business  | Roteamento Direto  |Não, roteamento direto não é suportado com Skype para o cliente de negócios e usuário deve estar habilitado para o Enterprise Voice no Skype para negócios primeiro  |
 
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Instrução de suporte para o ambiente híbrido com PSTN

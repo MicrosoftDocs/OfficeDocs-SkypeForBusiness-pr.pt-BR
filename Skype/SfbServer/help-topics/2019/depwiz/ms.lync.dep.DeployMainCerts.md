@@ -14,11 +14,11 @@ ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Etapa 3: solicitar, instalar ou atribuir certificados inicia o Assistente de Certificado quando você clica em Executar. Os certificados que são configurados por meio do assistente baseiam-se na definição do Skype para a topologia de servidor de negócios que está configurada e publicada pelo construtor de topologia no repositório de gerenciamento Central. Para executar com êxito o Assistente de Certificado para uma autoridade de certificação (AC) online em sua organização, é necessário estar conectado ao computador como usuário membro do grupo de administradores local do computador. Também é necessário ser um Usuário de Domínio autenticado no domínio no qual o computador e a AC existem. O Assistente de certificado oferece a capacidade de especificar credenciais alternativas para acesso de autoridade de certificação da sua organização.'
 ms.openlocfilehash: c281855a786a7f497b39515711bd8af36b3a62b2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216176"
 ---
 # <a name="request-install-or-assign-certificates"></a>Solicitar, Instalar ou Atribuir Certificados
  

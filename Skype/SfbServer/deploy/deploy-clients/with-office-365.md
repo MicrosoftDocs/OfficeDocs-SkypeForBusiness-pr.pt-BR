@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Leia este tópico para obter informações sobre como implantar as salas de equipes da Microsoft com o Office 365.
 ms.openlocfilehash: 5ef6c4ea8b76a34b19da6a74d82badf8000e007c
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012937"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214839"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Implantar salas de equipes da Microsoft com o Office 365
 
@@ -248,7 +248,7 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 Para validação, você deve ser capaz de usar qualquer Skype para o cliente de negócios para entrar com a conta que você criou.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Configurar contas para salas de equipes da Microsoft](room-systems-v2-configure-accounts.md)
 
@@ -258,6 +258,6 @@ Para validação, você deve ser capaz de usar qualquer Skype para o cliente de 
 
 [Configurar um console de salas de equipes da Microsoft](console.md)
 
-[Gerenciar salas de equipes da Microsoft](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gerenciar Salas do Microsoft Teams](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Licenciamento de salas de equipes da Microsoft](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)

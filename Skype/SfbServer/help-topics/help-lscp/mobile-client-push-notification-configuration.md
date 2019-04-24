@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: Para configurar as notificações de push da Microsoft e notificações de push do Apple, você deve criar uma política para definir quais tipos de notificação por push você exige.
 ms.openlocfilehash: 0c36696e8dbc26616a7b17918c63f3f40ab36fab
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891099"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220302"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Cliente Móvel: Configuração de Notificação por Push
  

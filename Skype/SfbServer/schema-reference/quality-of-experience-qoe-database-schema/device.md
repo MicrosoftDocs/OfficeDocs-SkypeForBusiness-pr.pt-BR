@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: d5a4f777-bc12-4ce8-bc0d-867d5e22b436
 description: A tabela de dispositivo é uma tabela de suporte que armazena informações sobre a captura de vários ou dispositivos de renderização. Cada registro na tabela representa um dispositivo.
 ms.openlocfilehash: 09af6ee11ebc821d123e847fbad812479d9d7bb0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885509"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212246"
 ---
 # <a name="device-table"></a>Tabela Device
  

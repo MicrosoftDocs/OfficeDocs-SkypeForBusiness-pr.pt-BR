@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Como testar os direitos de topologia em Skype para Business Server
 ms.openlocfilehash: ad65d42a49d7b85c324766e208e44d6b5e1b632f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214867"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Testes de direitos de administrador da topologia no Skype para Business Server
 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: Este tópico aborda os procedimentos de implantação para uso do Skype for Business durante a conexão a uma área de trabalho remota virtual.
 ms.openlocfilehash: 792e6ab2521be2eaf46bc3a43979173d878fcb63
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219406"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Implantar o Lync VDI plug-in com Skype para Business Server
  
@@ -119,7 +119,7 @@ Veja a seguir os possíveis motivos das falhas e as ações que você pode tomar
     
     Para usar o Lync VDI plug-in, que um Skype para o cliente de negócios não deve estar executando no computador local, caso contrário, emparelhamento irá falhar. Como prática recomendada, o usuário não deve instalar um Skype para o cliente de negócios no computador local.
     
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Confira também
 <a name="tshoot_VDI"> </a>
 
 [Plan for Skype for Business in VDI environments](../../plan-your-deployment/clients-and-devices/vdi-environments.md)

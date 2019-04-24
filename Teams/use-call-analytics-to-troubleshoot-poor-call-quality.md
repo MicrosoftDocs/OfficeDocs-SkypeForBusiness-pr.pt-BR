@@ -25,11 +25,11 @@ ms.custom:
 - Reporting
 description: Use os detalhes de chamada análise sobre dispositivos, redes e conectividade para solucionar problemas de usuário com o Microsoft Teams e Skype para reuniões e chamadas comerciais.
 ms.openlocfilehash: e437401f759e92aa13c0d6680ef30eabd20ffc56
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543179"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218629"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada
 

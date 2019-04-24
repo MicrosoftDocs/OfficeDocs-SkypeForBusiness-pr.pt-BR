@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Resumo: Saiba mais sobre o painel de monitoramento no Skype para Business Server.'
 ms.openlocfilehash: 19d0ddefc79d97ee19a371cde4fb0dc2d10f7e90
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892361"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225346"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Usando o painel de monitoramento no Skype para Business Server
  

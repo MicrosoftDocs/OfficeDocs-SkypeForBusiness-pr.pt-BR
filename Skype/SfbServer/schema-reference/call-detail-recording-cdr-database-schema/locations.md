@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 78dc1b14-5394-4f8e-89d3-4ba593272a04
 description: Cada registro representa uma referência de local em uma chamada de emergência, como uma chamada de E9-1-1.
 ms.openlocfilehash: 180a094ef10cc54b4fd65a30adb0909789afa3d6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212998"
 ---
 # <a name="locations-table-in-skype-for-business-server-2015"></a>Tabela de localizações em Skype para Business Server 2015
  

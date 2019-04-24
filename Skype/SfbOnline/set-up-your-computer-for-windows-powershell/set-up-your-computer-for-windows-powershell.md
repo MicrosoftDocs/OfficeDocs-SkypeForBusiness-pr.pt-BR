@@ -19,11 +19,11 @@ ms.custom:
 - PowerShell
 description: Descubra os requisitos para o gerenciamento remoto do Skype para negócios Online por meio do Windows PowerShell, incluindo os sistemas operacionais suportados.
 ms.openlocfilehash: 7854fa064420c2addeea4397e8dd882374c3b940
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896516"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226341"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Configurar seu computador para o Windows PowerShell
 

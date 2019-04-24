@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumo: Saiba como adicionar, remover, patch ou atualizar os servidores Front-End do Skype para Business Server.'
 ms.openlocfilehash: bfd090ab007523ff05795aff012e4a01da4a0175
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026178"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214705"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Gerenciar servidores de Front-End em Skype para Business Server
  

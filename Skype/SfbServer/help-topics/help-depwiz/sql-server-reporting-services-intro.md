@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 description: Cada pool de Front-End e o aparelho de filial persistente podem ter apenas um que Monitoring Server associado a ela. Quando monitoring estiver habilitado para o site, o Monitoring Server fornece detalhes das chamadas (CDR) de gravação e coleta de dados de qualidade da experiência (QoE) e relatórios.
 ms.openlocfilehash: acbaa205472cacad13c32086b2e93017c8b9dcec
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890857"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234906"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (Grupos)
  

@@ -14,11 +14,11 @@ ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 ROBOTS: NOINDEX, NOFOLLOW
 description: O nome da entidade / página nomes de entidade alternativos apresenta um resumo do nome da entidade e todos os nomes de entidade alternativos que preencherão o certificado. Os nomes apresentados para o nome da entidade e nomes de entidade alternativos são coletados do documento definição, como ela foi criada quando a implantação foi definida no construtor de topologias.
 ms.openlocfilehash: c3de09f21ee0b1121d5bb081c33a5d4d32ea7518
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216463"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>Solicitação de Certificado (Nomes de Entidade Alternativos)
  

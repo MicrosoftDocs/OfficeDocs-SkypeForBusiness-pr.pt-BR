@@ -14,11 +14,11 @@ ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 ROBOTS: NOINDEX, NOFOLLOW
 description: Bem-vindo ao Skype para painel de controle do Business Server, a interface de usuário baseada na web para administração e gerenciamento do Skype para Business Server. Você pode usar o painel de controle para executar os tipos de tarefas administrativas que eram executados no Console de Gerenciamento Microsoft nas versões anteriores.
 ms.openlocfilehash: fbd260679b7418535a7775b24b3ade98de790029
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215616"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Executar primeiro lista de verificação do Painel de Controle do Skype for Business Server.
 

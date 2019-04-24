@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: ad792bb2-aee0-4986-a070-116ff3c10fe7
 description: 'Resumo: Saiba sobre as etapas de implantação para mensagens instantâneas e presença no Skype para Business Server.'
 ms.openlocfilehash: 752b1864b7bf1cc4580fa35034e756cc2f0879df
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884905"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219371"
 ---
 # <a name="deploy-instant-messaging-and-presence-in-skype-for-business-server"></a>Implantar o sistema de mensagens instantâneas e presença em Skype para Business Server
  

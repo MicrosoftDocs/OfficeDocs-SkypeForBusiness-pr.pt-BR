@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Resumo: Saiba como iniciar ou parar uma sessão de captura do log de Centralized Logging Service no Skype para Business Server 2015.'
 ms.openlocfilehash: 982aecf9da4e8ca08d734a4adb35d8a34a3bb816
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217551"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Iniciar ou interromper captura de log CLS no Skype for Business Server 2015
  
@@ -140,7 +140,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     > Os logs criados durante a sessão de registro em log usando o cenário UserReplicator não são excluídos. O registro em log ainda está disponível para execução de pesquisas usando o comando Search-CsClsLogging. Para obter detalhes, consulte [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps). 
   
 Agindo como o comando acompanhante para Start-CsClsLogging, o cmdlet Stop-CsClsLogging encerra a sessão de registro em log, definida pelos cenários, e retém os logs criados pela sessão de registro em log. É possível executar dois cenários em um determinado computador a qualquer momento. O método de parar um cenário para coletar informações usando outro cenário é uma tarefa comum que pode ser executada durante grande parte das soluções de problemas de carga de trabalho.
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 <a name="stop"> </a>
 
 [Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)

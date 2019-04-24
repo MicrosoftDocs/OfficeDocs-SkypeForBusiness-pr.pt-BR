@@ -14,11 +14,11 @@ ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você pode adicionar uma configuração de log de dispositivo para a página Editar configuração de Log que determina o tamanho de cache máximo do log, tamanho do arquivo de log máximo ou período de tempo que um arquivo de log é mantido antes de ele será limpo. Você pode alterar essas configurações de acordo com requisitos da sua organização.
 ms.openlocfilehash: ac8e30dced9c5383ab88068d27a6a44444312da1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890970"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215868"
 ---
 # <a name="device-log-configuration-edit"></a>Configuração de Log de Dispositivo: Editar
  
@@ -51,6 +51,6 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
     
 - **Dias para manter os arquivos de log (1-365)** Você pode especificar o número de dias que os arquivos de log são mantidos antes de serem expurgados. O padrão é 10 dias.
     
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Configuração do Log de Dispositivos](ms.lync.lscp.ClientDeviceCfgMain.md)

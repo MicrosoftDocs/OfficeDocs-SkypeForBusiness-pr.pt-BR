@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 description: Definições de configuração de reunião definem o tipo de conferências (também calledmeetings) que os usuários podem criar e controlar como (ou se) usuários anônimos e usuários de conferência discada podem participar dessas conferências. Essas configurações se aplicam apenas às reuniões agendadas. Elas não se aplicam à reuniões ad-hoc criadas clicando na opção Reunir Agora no cliente.
 ms.openlocfilehash: 32bbb6861271623e0a4126d98e36c28542ddfc8d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220316"
 ---
 # <a name="meeting-configuration"></a>Configuração de Reunião
 
