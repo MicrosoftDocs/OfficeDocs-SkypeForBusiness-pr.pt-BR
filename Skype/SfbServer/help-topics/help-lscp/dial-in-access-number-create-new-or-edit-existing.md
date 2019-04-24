@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 ms.openlocfilehash: e43dcb15932da0ed973c093f16879832a90d7aa8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200769"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>Número de Acesso de Discagem: Criar Novo ou Editar Existente
 

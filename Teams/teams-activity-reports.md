@@ -17,16 +17,16 @@ description: Saiba como usar relatórios de atividades para ver como os usuário
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 34ae95d405e9ab1f35c81db0d61ee48ba18141cf
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463368"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224473"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Usar relatórios de atividades do Microsoft Teams 
 ========================================
 
-Você pode usar os relatórios de atividade no Centro de administração do Microsoft 365 para ver como os usuários em sua organização estiver usando Teams da Microsoft. Por exemplo, se alguns não usam o Microsoft Teams ainda, eles podem não saber como começar ou a entender como eles podem usar as equipes sejam mais produtivos e colaborativa. A organização pode usar os relatórios de atividades para decidir onde priorizar os esforços de treinamento e comunicação.
+Você pode usar os relatórios de atividade no Centro de administração do Microsoft 365 para ver como os usuários em sua organização estiver usando Teams da Microsoft. Por exemplo, se alguns não usam o Microsoft Teams ainda, eles podem não saber como começar ou a entender como eles podem usar as equipes sejam mais produtivos e colaborativa. Sua organização pode usar os relatórios de atividades para decidir onde priorizar os esforços de treinamento e comunicação.
 
 ## <a name="how-to-view-the-teams-reports-in-the-reports-dashboard"></a>Como exibir os relatórios de equipes no painel relatórios
 
@@ -53,7 +53,7 @@ Você pode obter um modo de exibição em atividade do usuário de equipes, obse
 
 ![Captura de tela do relatório de atividade de equipes usuário no Centro de administração do Office 365 com textos explicativos numerados.](media/teams-user-activity-report-with-callouts.png)
 
-|Legenda |Descrição  |
+|Texto explicativo |Descrição  |
 |--------|-------------|
 |**1**   |O relatório de atividades do usuário de equipes pode ser exibido para tendências nos últimos 7 dias, 30 dias, 90 dias ou 180 dias. No entanto, se você clicar em um intervalo de tempo específico no relatório, a tabela (7) será mostrar dados por 30 dias, até a data (2) quando o relatório foi gerado. |
 |**2**   |Cada relatório tem uma data de geração. O relatório geralmente reflete um período de latência de atividade de 24 a 48 horas. |
@@ -77,7 +77,7 @@ Você pode obter um modo de exibição para o uso do dispositivo de equipes, obs
 
 ![Captura de tela do relatório de uso de dispositivo de equipes, no Centro de administração do Office 365 com textos explicativos numerados.](media/teams-device-usage-report-with-callouts.png)
 
-|Legenda |Descrição  |
+|Texto explicativo |Descrição  |
 |--------|-------------|
 |**1**   |O relatório de dispositivo equipes pode ser exibido para tendências nos últimos 7 dias, 30 dias, 90 dias ou 180 dias. No entanto, se você clicar em um intervalo de tempo específico no relatório, a tabela (7) será mostrar dados por 30 dias, até a data (2) quando o relatório foi gerado. |
 |**2**   |Cada relatório tem uma data de geração. O relatório geralmente reflete um período de latência de atividade de 24 a 48 horas. |

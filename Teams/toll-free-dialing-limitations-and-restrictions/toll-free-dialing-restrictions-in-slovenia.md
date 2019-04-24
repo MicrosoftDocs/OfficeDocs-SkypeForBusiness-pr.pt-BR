@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 097af064-dcc4-4ee0-b4ac-517073fedd9e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: d011d5a159474d05caf9b4b9a0a5becc32010c11
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 41900cc1d8cc86f14f7744235a7cbb5f8fc00aca
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460008"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204227"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovenia"></a>Restrições de discagem de chamada gratuita na Eslovênia
 
@@ -46,7 +46,7 @@ ms.locfileid: "30460008"
 |Disponibilidade com a rede móvel  <br/> |Não  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Nenhum  <br/> |
    
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

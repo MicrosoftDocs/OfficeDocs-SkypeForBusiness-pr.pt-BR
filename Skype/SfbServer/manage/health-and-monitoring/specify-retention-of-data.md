@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: 'Resumo: Saiba como gerenciar os detalhes da chamada (CDR) dados de gravação para Skype para Business Server.'
 ms.openlocfilehash: 72fbb679a260462086930fc0457b5c748447cc29
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878742"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197685"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Especificar a retenção de dados de CDR em Skype para Business Server
  
@@ -68,6 +68,6 @@ Você pode criar configurações de retenção de CDR usando o Windows PowerShel
 
 Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Gravação (CDR) no Skype para Business Server de detalhes da chamada](call-detail-recording-cdr.md)

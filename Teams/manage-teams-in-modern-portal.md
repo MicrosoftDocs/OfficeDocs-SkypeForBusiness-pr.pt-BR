@@ -1,5 +1,5 @@
 ---
-title: Gerenciar equipes no centro de administração do Microsoft Teams
+title: Gerenciar equipes em Centro de administração do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,17 +17,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5ba19fac66ef4e12e2734948a6695894b52dd3b
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 2d2903e65e4ef4876f41d367ce961530020e775c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494033"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202724"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes no centro de administração do Microsoft Teams
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes em Centro de administração do Microsoft Teams
 ==========================================
 
-[!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## <a name="overview"></a>Visão geral
 
@@ -36,16 +35,13 @@ Como um administrador de TI, você pode precisar exibir ou atualizar as equipes 
 - Administrador global
 - Administrador de Serviço de Equipes
 
-Você também deve garantir que sua conta tenha sido atribuída uma licença de equipes não seja de avaliação para o gerenciamento. Como parte de um problema conhecido, você deve garantir que sua conta tem apenas **uma** função de administrador atribuída.  Você pode aprender mais sobre as funções de administrador no Microsoft Teams em [equipes da Microsoft usar funções de administrador para gerenciar equipes](using-admin-roles.md)e você pode ler mais sobre como usar os cmdlets do PowerShell para gerenciar equipes na [referência do cmdlet equipes da Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
+Você pode aprender mais sobre as funções de administrador em equipes nas [funções de administração de usar equipes da Microsoft para gerenciar equipes](using-admin-roles.md)e você pode ler mais sobre como usar os cmdlets do PowerShell para gerenciar equipes na [referência do cmdlet equipes da Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
 Este artigo fornece uma visão geral das ferramentas de gerenciamento para equipes no Centro de administração do Microsoft Teams.
 
 ## <a name="teams-overview-grid"></a>Grade de visão geral de equipes
 
 Ferramentas de gerenciamento para equipes estão sob o nó de **equipes** no Centro de administração do Microsoft Teams. (No Centro de administração, selecione **equipes** > **gerenciar equipes**.) Cada equipe é feito por um grupo do Office 365 e este nó fornece um modo de exibição dos grupos que foram habilitados para equipes em sua organização do Microsoft.
-
-> [!NOTE]
-> Estamos no processo backfilling criado anteriormente equipes para garantir que eles serão exibidas nesse modo de exibição.
 
 ![Grade de visão geral de equipes](media/manage-teams-in-modern-portal-image1.png)  
 
@@ -56,7 +52,11 @@ A grade exibe as seguintes propriedades:
 - **Os usuários** - uma contagem do total de usuários, incluindo proprietários, convidados e membros de seu locatário.
 - **Proprietários** - uma contagem de proprietários para essa equipe.
 - **Convidados** - uma contagem de usuários de convidado B2B do Azure Active Directory que são membros dessa equipe.
-- **Privacidade** - o AccessType do grupo apoio Office 365.
+- **Privacidade** - a visibilidade/AccessType do grupo apoio Office 365.
+- **Status** - o status ativo para essa equipe ou arquivado.  Saiba mais sobre as equipes no [arquivo morto ou restauração uma equipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)de arquivamento.
+- **GroupID** - ID exclusivo do grupo do grupo apoio Office 365
+- **Classificação** - a classificação (se utilizados na organização) atribuída ao grupo do Office 365 de backup.  Saiba mais sobre classificações em [criar classificações para grupos do Office em sua organização](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **Descrição** - a descrição definidas para o grupo de apoio Office 365
 
 ### <a name="search"></a>Pesquisa
 
@@ -89,6 +89,11 @@ Você pode alterar os seguintes elementos de uma equipe:
 - **Classificação de equipe** - feito pelo seus classificações de grupo do Office 365
 - **Configurações de membro de equipe** - configurações de membro da equipe select
 
+## <a name="other-supported-changes-to-teams"></a>Outras alterações com suporte para equipes
+
+- **Exclua** - a exclusão de uma equipe é uma exclusão de soft da equipe e grupo correspondente do Office 365.  Para restaurar uma equipe excluída por engano, siga as instruções em [Restaurar de um grupo de 365 excluído do Office](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide).
+- **Archive** - o arquivamento de uma equipe coloca a equipe em modo somente leitura no Microsoft Teams.  Como um administrador, você pode arquivar e unarchive equipes em nome de sua organização através do portal de administração.
+
 
 As alterações feitas em uma equipe são registradas. Se você estiver modificando configurações de grupo (alterando o nome, descrição, foto, privacidade, classificação ou membros da equipe), essas alterações serão atribuídas a você através do pipeline de auditoria. Se você estiver realizando ações contra as configurações específicas de equipes, suas alterações serão rastreadas e atribuídas a você no canal geral da equipe.
 
@@ -102,7 +107,7 @@ Quando você insere o Centro de administração do Microsoft Teams, sob a opçã
 
 **Resolução: Definir a propriedade manualmente o valor correto via MS Graph**
 
-Substitua **{groupid}** na consulta referente a GroupId real em questão, que você pode obter via o powershell do Exchange Online, o cmdlet **"[Get-UnifiedGroup](https://docs.microsoft.com/en-us/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** , como o atributo "**ExternalDirectoryObjectId**".
+Substitua **{groupid}** na consulta referente a GroupId real em questão, que você pode obter via o powershell do Exchange Online, o cmdlet **"[Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** , como o atributo "**ExternalDirectoryObjectId**".
 
 1. Acesso do [Explorer do gráfico](https://developer.microsoft.com/en-us/graph/graph-explorer)
 

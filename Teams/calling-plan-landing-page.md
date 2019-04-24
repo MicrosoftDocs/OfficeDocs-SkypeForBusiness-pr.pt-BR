@@ -16,13 +16,13 @@ description: Página inicial do plano de chamada
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 412797a52e82c03937670e895fea7b42a3ce7b4a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211979"
 ---
-# <a name="phone-system-with-calling-plans"></a>Sistema de Telefonia com Planos de Chamadas 
+# <a name="phone-system-with-calling-plans"></a>Sistema telefônico com a chamada de planos 
 
 Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você implementou o Teams com [chat, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md) na organização. Talvez você implantou [conferência de & de reuniões](deploy-meetings-microsoft-teams-landing-page.md). Agora você está pronto para adicionar as cargas de trabalho de voz de nuvem e você decidiu usar o sistema de telefone da Microsoft com chamar planejar para conectar-se para a comutação telefônica PSTN (rede pública). 
 
@@ -33,12 +33,12 @@ Este artigo descreve as principais decisões sobre implantação para chamar pla
 
 Os artigos a seguir fornecem mais informações sobre como implantar e usar o Microsoft chamar planos:
 
-- [Sistema de Telefonia no Office 365](what-is-phone-system-in-office-365.md)
+- [Sistema de telefonia no Office 365](what-is-phone-system-in-office-365.md)
 - [Planos de Chamadas do Office 365](calling-plans-for-office-365.md)
 - [Configurar Planos de Chamadas](set-up-calling-plans.md)
 
 
-## <a name="core-deployment-decisions"></a>Decisões importantes sobre implantação
+## <a name="core-deployment-decisions"></a>Decisões principais de implantação
 
 Para usar o Microsoft como sua operadora de telefonia, você precisará obter licenças chamar planejar e atribuí-las aos usuários de seu sistema telefônico. 
 
@@ -47,7 +47,7 @@ Há dois tipos de planos de chamar disponíveis:
 - Planos de chamada domésticas 
 - Planos de chamada nacionais e internacionais
 
-|Pergunte a si mesmo|Ação |
+|Pergunte-se|Ação |
 |------------|-------|
 |Estão chamar planos disponíveis na minha área? Quais locais de usuário terá chamar planejar o serviço? | Para obter mais informações, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). | 
 Meus usuários preciso chamadas internacionais? | Para obter mais informações, consulte [Chamando planos do Office 365](calling-plans-for-office-365.md). |
@@ -64,16 +64,16 @@ Meus usuários tem uma conexão direta (DID) número de telefone de discagem par
 
 Com a chamada estiver planejando no Office 365, cada usuário na sua organização precisa ter um exclusivo DID discagem direta (DID) números de telefone e um endereço de emergência validado correspondente. Você também pode especificar um local de emergência dentro o endereço de emergência (por exemplo, um número do escritório ou o número de chão). 
 
-|Pergunte a si mesmo|Ação |
+|Pergunte-se|Ação |
 |:------------|:-------|
 |Detalhada de como você deseja as informações de endereço e o local de emergência a serem? |Para obter mais informações, consulte [Cite locais de emergência, endereços e roteamento de chamadas?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
 
 
-### <a name="calling-identity"></a>Identificação de chamadas
+### <a name="calling-identity"></a>Identidade de chamada
 
 Por padrão, todas as chamadas de saída usam o número de telefone atribuído como identidade de chamada (ID de chamador). O destinatário da chamada pode identificar o autor da chamada rapidamente e decidir se deseja aceitar ou rejeitar a chamada.
 
-|Pergunte a si mesmo|Ação |
+|Pergunte-se|Ação |
 |:------------|:-------|
 |Eu quiser mascarar ou desabilitar o ID do chamador? | Para alterar ou bloquear a ID do chamador, consulte [definir a identificação do chamador para um usuário](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user). |
 |||

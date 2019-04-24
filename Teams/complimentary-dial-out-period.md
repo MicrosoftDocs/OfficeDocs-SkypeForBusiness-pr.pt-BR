@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Os clientes podem usar o Plano de Chamadas Office 365 e a Audioconferência Office 365, conforme permitido nos Termos de Uso de Serviços PSTN do Skype for Business Online e no contrato de licenciamento por volume do Cliente.
-ms.openlocfilehash: 4255df94166416a7743a1d9715b465164cdaf627
-ms.sourcegitcommit: 2731231f7e1cb518ce34c81bd00e619c3a1972e3
+ms.openlocfilehash: 2e71c5bc4172ea73f361f97a6c7796b9ab28f310
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "31875017"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198359"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período complementar de discagem de audioconferência
 
@@ -41,7 +41,7 @@ O recurso de discagem gratuito começando 1 de dezembro de 2019, será finalizad
 
 ### <a name="complimentary-dial-out-period-details"></a>Detalhes do período de discagem complementar
 
-Para os clientes a adotar o nosso serviço de conferência de áudio do Office 365, a Microsoft está fornecendo um benefício adicional de complementar relacionado ao discar a partir de reuniões organizadas por usuários atribuídos a uma licença de inscrição de conferência de áudio do Office 365 por meio de junho de 2019. Durante esse período complementar, Microsoft permite que os organizadores de reunião ou participantes autorizados conforme definido em configurações de política, para fazer chamadas de discagem de dentro da reunião para números de telefone não sejam premium nos países "Uma zona" 44 listados abaixo de reunião. Esse benefício é aplicável a licenças de assinatura mensais de conferência de áudio e não se estende para licenças de pagamento por minuto de conferência de áudio.
+Para os clientes a adotar o nosso serviço de conferência de áudio do Office 365, a Microsoft está fornecendo um benefício adicional de complementar relacionado ao discar a partir de reuniões organizadas por usuários atribuídos a uma licença de assinatura do Office 365 áudio da conferência por meio de novembro 2019. Durante esse período complementar, Microsoft permite que os organizadores de reunião ou participantes autorizados conforme definido em configurações de política, para fazer chamadas de discagem de dentro da reunião para números de telefone não sejam premium nos países "Uma zona" 44 listados abaixo de reunião. Esse benefício é aplicável a licenças de assinatura mensais de conferência de áudio e não se estende para licenças de pagamento por minuto de conferência de áudio.
 
 Além disso, há um limite de 900 cobrir minuto durante as como tal, o período de discagem complementar:
 

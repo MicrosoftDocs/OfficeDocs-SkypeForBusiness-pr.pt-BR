@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 description: Para enviar uma solicitação, sua autoridade de certificação (CA) pode exigir credenciais diferentes do usuário que você esteja atualmente conectado como. Para permitir que uma solicitação de certificado como um usuário diferente, marque as caixa de seleção especificar credenciais alternativas da autoridade de certificação e, em seguida, digite o nome de usuário ou domínio \ nome_de_usuário, para um usuário que pode solicitar o certificado. Na caixa de texto senha, digite a senha para o usuário que você especificou. O nome de usuário e senha são enviadas como parte do processo de solicitação de certificado, mas não na solicitação de certificado real, para uma autoridade de certificação online.
 ms.openlocfilehash: 4580b402198da6d11355675d862387e6fdeb80a4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875739"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201433"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>Solicitação de Certificado (Conta da Autoridade de Certificação)
  

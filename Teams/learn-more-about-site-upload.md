@@ -1,5 +1,5 @@
 ---
-title: Adicionar e atualizar dados de locais
+title: Adicionar e atualizar dados locais
 author: tonysmit
 ms.author: lolaj
 manager: serdars
@@ -19,13 +19,13 @@ f1keywords: ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a84b022c7b5553a15ff8862a175ba5f856cdd149
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222313"
 ---
-<a name="adding-and-updating-locations-data"></a>Adicionar e atualizar dados de locais
+<a name="adding-and-updating-locations-data"></a>Adicionar e atualizar dados locais
 ============================
 
 Locais são usados em sua organização para indicar os locais físicos dos escritórios, prédios ou sites organizacionais. A página locais oferece os administradores a capacidade de fornecer um arquivo de texto (. csv ou. tsv) contendo uma lista de locais físicos e seus subredes associadas. Este arquivo é usado pelo análise de chamada e o painel de controle de qualidade de chamada para geração de relatórios. Quando os clientes carregar sua mapeamento de sub-rede, os relatórios fornecidos por esses serviços irá conter os nomes de local também, tornando os relatórios mais fácil de entender e usar para a correção de quaisquer problemas potenciais.

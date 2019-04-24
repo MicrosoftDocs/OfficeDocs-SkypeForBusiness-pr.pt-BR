@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Quando você configura políticas para suportar a comunicação com parceiros federados, as diretivas serão aplicadas aos usuários de domínios federados. '
 ms.openlocfilehash: df5702fb217d238a26a8a9975e7e4a0792787399
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199895"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>Configurar políticas para controlar o acesso de usuário federado na Skype para Business Server
 

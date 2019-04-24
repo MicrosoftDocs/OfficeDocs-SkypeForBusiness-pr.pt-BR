@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Paraguai.
 ms.openlocfilehash: 8154f326f2626a3f2705ebbccfc4d6427f1a903a
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543163"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199117"
 ---
 # <a name="availability-in-paraguay"></a>Disponibilidade no Paraguai
 

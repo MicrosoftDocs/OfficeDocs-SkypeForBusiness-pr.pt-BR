@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: Saiba mais sobre o que os usuários experimentam quando um pool de Front-End failover ou falha durante a recuperação de desastres em Skype para Business Server.
 ms.openlocfilehash: 9311078b0b987f4340fec671e559ca4430949a6b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206406"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Experiência do usuário durante falha do pool no Skype para Business Server
  

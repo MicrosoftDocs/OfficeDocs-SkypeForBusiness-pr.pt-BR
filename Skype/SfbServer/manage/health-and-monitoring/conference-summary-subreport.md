@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
 description: 'Resumo: Saiba mais sobre o subrelatório de resumo de conferência no Skype para Business Server.'
 ms.openlocfilehash: 4c4430c960ebcd296838ddca8d429d5d3ba73ca8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895038"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197509"
 ---
 # <a name="conference-summary-subreport-in-skype-for-business-server"></a>Subrelatório de resumo de conferência no Skype para Business Server
  

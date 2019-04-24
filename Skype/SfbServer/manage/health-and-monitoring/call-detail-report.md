@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 'Resumo: Saiba mais sobre o Call Detail Report usada no Skype para Business Server.'
 ms.openlocfilehash: a0b0836099e1181a25b95bf7adbbe603ef7d5e5f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887649"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197580"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Relatório detalhado de chamadas no Skype para Business Server
  

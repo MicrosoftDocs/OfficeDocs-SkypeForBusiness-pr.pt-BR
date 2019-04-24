@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado), as portas e o repositório de arquivos associado a este pool de Diretores. Você pode realizar as seguintes ações:'
 ms.openlocfilehash: e69f2dfca8799ed8627fe7f1dc3f37db124185ba
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227526"
 ---
 # <a name="director-scope-node"></a>Nó de Escopo de Diretor
  

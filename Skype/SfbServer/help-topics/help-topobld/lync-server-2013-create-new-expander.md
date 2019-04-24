@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 description: Você pode criar novas funções de servidor no nó Lync Server 2013 do construtor de topologias com botão direito do mouse em Lync Server 2013, selecione Novo e selecione a função de servidor a ser criada.
 ms.openlocfilehash: e15c2f326642903df7b1512009f56897f26ebec5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895629"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200092"
 ---
 # <a name="lync-server-2013-create-new-expander"></a>Lync Server 2013 Criar Novo Expansor
  

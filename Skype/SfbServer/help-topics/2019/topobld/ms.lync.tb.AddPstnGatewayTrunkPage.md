@@ -14,11 +14,11 @@ ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Defina o tronco raiz para o IP ou rede telefônica pública comutada (PSTN) Configurando o seguinte:'
 ms.openlocfilehash: 830b0625e63ebab7ddf94490a5a56c3c6e52611e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896851"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201967"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definir a árvore raiz para um novo IP ou gateway PSTN
 
@@ -34,7 +34,7 @@ Defina o tronco raiz para o IP ou rede telefônica pública comutada (PSTN) Conf
 
 - **Porta do servidor de mediação associado**: defina a porta que o servidor de mediação selecionado está escutando
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Configurar um tronco com bypass de mídia no Skype para Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 

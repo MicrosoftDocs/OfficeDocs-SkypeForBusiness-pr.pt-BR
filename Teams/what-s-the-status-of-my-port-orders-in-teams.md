@@ -1,5 +1,5 @@
 ---
-title: Qual é o status de Minhas ordens de porta em equipes?
+title: Qual é o status dos meus pedidos de portabilidade no Teams?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,16 +18,16 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Saiba como obter o status de suas ordens de porta e saiba as ações diferentes que podem ser realizadas neles. '
-ms.openlocfilehash: bf1fc2d6fc58ce2586e768392aac0d6e91c5aaf3
-ms.sourcegitcommit: a37abb5c433012d501ede319fba60e0ae7474fce
+ms.openlocfilehash: d33b44c589a2dce5c27271622b01f06056919903
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31407737"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211667"
 ---
-# <a name="whats-the-status-of-my-port-orders-in-teams"></a>Qual é o status de Minhas ordens de porta em equipes?
+# <a name="whats-the-status-of-my-port-orders-in-teams"></a>Qual é o status dos meus pedidos de portabilidade no Teams?
 
-Você pode ver o status do seu pedido de porta indo para **o Centro de administração do Microsoft equipes** > **portal herdada** > **voz** > **pedidos de porta**. Status da ordem cada porta serão listadas na coluna **Status** . Se você precisa de Ajuda, [contate o suporte para produtos de negócios - ajuda de Admin](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+Você pode ver o status do seu pedido de porta indo para **o Centro de administração do Microsoft equipes** > **portal herdada** > **voz** > **pedidos de porta**. Status da ordem cada porta serão listadas na coluna **Status** . Se você precisa de Ajuda, [contate o suporte para produtos de negócios - ajuda de Admin](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 
 A tabela a seguir lista o status da ordem de porta, bem como ações que podem ser realizadas se necessário.
 
@@ -37,14 +37,14 @@ A tabela a seguir lista o status da ordem de porta, bem como ações que podem s
 |**Entrando em contato com a operadora** <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |A ordem foi recebida e aprovada pela Microsoft e estamos trabalhando com a operadora perder para obtê-lo aprovado.  <br/> |
 |**Transferência aprovada** <br/> |Sim  <br/> |Ordem estável Commitment(FOC)  <br/> |Sim  <br/> |Não  <br/> |A ordem foi aceita pela operadora perder e a data FOC tiver sido definida.  <br/> |
 |**Transferir pendente** <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |A transferência é menos de 24 horas ausente, portanto a ordem não possa ser editada ou cancelada.  <br/> |
-|**Error** <br/> |Não  <br/> |Sim   <br/> |Sim  <br/> |Sim (neste momento, você não pode excluir a ordem de porta se não houver um erro. A ordem de porta precisa ser recriada ou precisar [contate o suporte para produtos de negócios - ajuda de Admin](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).  <br/> |A operadora perder rejeitou a ordem.  <br/> |
+|**Error** <br/> |Não  <br/> |Sim   <br/> |Sim  <br/> |Sim (neste momento, você não pode excluir a ordem de porta se não houver um erro. A ordem de porta precisa ser recriada ou você precisa [contatar o suporte para produtos de negócios - ajuda de Admin](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).  <br/> |A operadora perder rejeitou a ordem.  <br/> |
 |**Concluído** <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Os números foram transferidos com êxito.  <br/> |
 |**Cancelado** <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |O administrador cancelou a ordem.  <br/> |
    
  **Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
  
 > [!NOTE]
-> Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+> Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

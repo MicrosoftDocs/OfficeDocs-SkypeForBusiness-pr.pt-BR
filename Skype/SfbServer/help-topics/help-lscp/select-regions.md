@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 1b79b214-cc7b-4686-b7e2-f451910335fd
 description: Use a caixa de diálogo Selecionar Regiões para localizar as regiões disponíveis no seu ambiente. Para usar uma região existente, clique nela na lista e depois em OK.
 ms.openlocfilehash: c05ceff5d617817b4870cfdc8744559e91d6939f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881420"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200517"
 ---
 # <a name="select-regions"></a>Selecionar Regiões
  

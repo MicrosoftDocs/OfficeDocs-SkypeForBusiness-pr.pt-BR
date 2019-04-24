@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para a Nova Zelândia.
 ms.openlocfilehash: d68c0ecaf898a92d41a10dd10df94bfa03b24241
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203589"
 ---
 # <a name="availability-in-new-zealand"></a>Disponibilidade na Nova Zelândia
 

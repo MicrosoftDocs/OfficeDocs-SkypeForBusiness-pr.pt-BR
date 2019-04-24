@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 'Resumo: Saiba como especificar a retenção de dados de QoE em Skype para Business Server.'
 ms.openlocfilehash: 4a2197d3d66a5b871682ba187bf607480f2da175
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887453"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197762"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Modificar as configurações de qualidade da experiência no Skype para Business Server
 
@@ -66,6 +66,6 @@ Você pode criar configurações de retenção de QoE usando o Windows PowerShel
 
 Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) .
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

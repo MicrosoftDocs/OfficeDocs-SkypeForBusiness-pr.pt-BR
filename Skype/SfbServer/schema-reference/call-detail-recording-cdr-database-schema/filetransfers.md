@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
 description: O modo de exibição FileTransfer armazena informações sobre sessões de transferência de arquivo ponto a ponto. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 ms.openlocfilehash: a39e00becd772e74eb12de1a8ce5975e6626cffa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213085"
 ---
 # <a name="filetransfers-view"></a>Exibir FileTransfers
  

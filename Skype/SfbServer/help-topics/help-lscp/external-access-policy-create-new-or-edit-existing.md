@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 ms.openlocfilehash: 153029913deff88d098f7bac4bbc6b2f6ec08cc5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200713"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>Política de Acesso Externo: Criar Nova ou Editar Existente
 

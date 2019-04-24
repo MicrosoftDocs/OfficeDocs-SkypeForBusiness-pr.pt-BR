@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 'Resumo: Saiba como configurar o PIN sem a opção de ingresso em Skype para Business Server da reunião.'
 ms.openlocfilehash: 4ea20f68b123f6593c5a98fc82dbca62f90f31b1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892284"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198264"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configurar ingresso em reunião sem PIN no Skype for Business Server
  

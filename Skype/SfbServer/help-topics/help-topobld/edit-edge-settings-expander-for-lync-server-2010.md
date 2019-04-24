@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Você pode editar as configurações para o servidor de borda ou pool de borda, definindo as seguintes propriedades:'
 ms.openlocfilehash: a4ad88aa6ff565ac7c1ebb5134d476d34625418f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892375"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203127"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Editar Expansor de Configurações de Borda para Lync Server 2010
  

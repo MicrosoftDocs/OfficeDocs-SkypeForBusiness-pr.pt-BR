@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Como administrador do Office 365, você pode editar as configurações de audioconferência do Microsoft Teams, como o provedor, número de telefone padrão tarifado ou gratuito, ID de conferência ou PIN, para um usuário individual na sua organização. '
 ms.openlocfilehash: 55d9b326b98dd24cb98262b7104e7de1361a6e8e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202691"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gerenciar as configurações de audioconferência de um usuário no Microsoft Teams
 
@@ -42,7 +42,7 @@ Como um administrador do Office 365, você pode editar as configurações de aud
 
 |**Configuração**|**Descrição**|
 |:-----|:-----|
-|**Serviços de audioconferência**|Para ativar a conferência de áudio ou desativado para o usuário, clique em **Editar** ao lado de **Conferência de áudio**e, em seguida, no painel de **Serviços de audioconferência** , alterne **audioconferências** ativada ou desativada.|
+|**Audioconferência**|Para ativar a conferência de áudio ou desativado para o usuário, clique em **Editar** ao lado de **Conferência de áudio**e, em seguida, no painel de **Serviços de audioconferência** , alterne **audioconferências** ativada ou desativada.|
 |**Enviar informações de conferência em email**  |Clique neste link apenas se você quiser enviar imediatamente um e-mail para o usuário com sua ID de conferência e número de telefone. (Este e-mail não inclui o PIN.) Consulte [Enviar um e-mail para um usuário com informações de audioconferência](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).  |
 |**ID de conferência**  |Clique em **Redefinir ID de conferência** , se você precisar redefinir o ID de conferência para o usuário. Para obter mais informações, consulte [Redefinir uma ID de conferência para um usuário](reset-a-conference-id-for-a-user-in-teams.md).  |
 |**PIN** |Se você precisar redefinir o PIN do usuário, clique em **Redefinir PIN** . Para obter mais informações, consulte [Redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin-in-teams.md). |
@@ -59,6 +59,6 @@ Como um administrador do Office 365, você pode editar as configurações de aud
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Gerenciar as configurações de conferência de áudio para sua organização](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+[Gerenciar as configurações de audioconferência para minha organização](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
 [Perguntas comuns sobre a Audioconferência](audio-conferencing-common-questions.md)

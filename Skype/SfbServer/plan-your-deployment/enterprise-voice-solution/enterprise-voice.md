@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Enterprise Voice planejamento Noções básicas do Skype Business Server, incluindo sites, regiões, links de rede entre sites e estimar o tráfego de uso de voz.
 ms.openlocfilehash: 281dfefedb05cd60e1d050d708bacae4eec2baa2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898262"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206891"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planejar o Enterprise Voice no Skype for Business Server
  

@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Lituânia.
 ms.openlocfilehash: de137ef566d006191410f014d038f99f1e3d03d0
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203677"
 ---
 # <a name="availability-in-lithuania"></a>Disponibilidade na Lituânia
 

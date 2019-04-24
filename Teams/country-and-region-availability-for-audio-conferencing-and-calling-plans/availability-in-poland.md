@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para a Polônia.
 ms.openlocfilehash: 0ae2b7c97250ad4051ad3ffa83c9d0d616a1d591
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543131"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199094"
 ---
 # <a name="availability-in-poland"></a>Disponibilidade na Polônia
 
@@ -67,7 +67,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Bydgoszcz <li>  Gdansk <li>  Katowice <li>  Cracóvia <li>  Lodz <li>  Lublin <li>  Poznan <li>  Szczecin <li>  Varsóvia <li>  Wroclaw </ul> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Bydgoszcz <li>  Gdansk <li>  Katowice <li>  Krakow <li>  Lodz <li>  Lublin <li>  Poznan <li>  Szczecin <li>  Varsóvia <li>  Wroclaw </ul> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    

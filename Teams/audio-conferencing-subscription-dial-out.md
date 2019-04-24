@@ -1,5 +1,5 @@
 ---
-title: Assinatura de conferência de áudio "Discagem externa" / "Chamar-Me às" benefício
+title: Benefício da assinatura de Audioconferência “Discar”/”Ligar para mim”
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Licensing
 description: 'Um recurso de discagem complementar que será finalizado em 30 de novembro de 2019 foram fornecidos aos clientes.  Beginning 1 de dezembro de 2019, cada inscrição de serviços de audioconferência fornece 60 minutos por usuário por mês para qualquer um dos países zona A conforme descrito neste documento. '
 ms.openlocfilehash: 890441987eb0f08d67afe8a7f231c9a534c59a7f
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31809420"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198612"
 ---
-# <a name="audio-conferencing-subscription-dial-outcall-me-at-benefit"></a>Assinatura de conferência de áudio "Discagem externa" / "Chamar-Me às" benefício
+# <a name="audio-conferencing-subscription-dial-outcall-me-at-benefit"></a>Benefício da assinatura de Audioconferência “Discar”/”Ligar para mim”
 
 ## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>As equipes da Microsoft e Skype para conferência de áudio de PSTN de negócios
 

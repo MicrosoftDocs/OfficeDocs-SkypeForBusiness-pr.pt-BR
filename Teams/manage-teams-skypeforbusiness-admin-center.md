@@ -20,11 +20,11 @@ appliesto:
 - Microsoft Teams
 - Skype for Business Online
 ms.openlocfilehash: 9f1adb47709d3e053bb2349d8a3e548bedc58d9d
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493688"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199563"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams
 ======================================================
@@ -102,9 +102,9 @@ A tabela a seguir mostra onde você pode gerenciar recursos durante a migração
 |Configurações de equipes   |    X    |      |       |
 |Configurações de acesso externo     |    X    |      |       |
 |Gerenciamento de usuário    |         |         |    X     |    
-|Serviços de audioconferência     |    X     |    X     |         |
-|Planos de Chamadas     |         |    X     |         |
-|Sistema de Telefonia    |         |     X    |         |
+|Audioconferência     |    X     |    X     |         |
+|Planos de chamada     |         |    X     |         |
+|Sistema Telefônico    |         |     X    |         |
 |Gerenciamento de número de telefone     |         |   X      |         |
 |Licenciamento para recursos de voz de nuvem     |         |         |    X     |
 |Atendedores automáticos     |         |    X     |         |

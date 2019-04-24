@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 description: Para configurar ou modificar o Pool de próximo salto que os Servidores de Borda utilizarão para se comunicar à infraestrutura interna, selecione na lista um Diretor, pool de Diretores, Servidores Front-End ou um pool de Servidores Front-End. Apenas os diretores ou servidores Front-End que tiverem sido configuradas no construtor de topologia aparecem na lista.
 ms.openlocfilehash: c5a5aae6818e662e5e4f47d26d73b4260a1494b7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878060"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203141"
 ---
 # <a name="edge-next-hop-settings-expander"></a>Expansor de Configurações de Próximo Salto de Borda
 

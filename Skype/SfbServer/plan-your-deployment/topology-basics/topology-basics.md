@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Resumo: Escolha sua topologia para Skype para Business Server. Saiba mais sobre a colocação do servidor para Skype para Business Server.'
 ms.openlocfilehash: 566d044defd69dd9ae79bc964c9a587332649b42
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205969"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Noções básicas de topologia para Skype para Business Server
 
@@ -297,6 +297,6 @@ O compartilhamento de arquivo pode estar em um servidor separado ou você pode c
 
 - Você não é possível colocar nenhum componente de UM do Exchange ou o componente de servidor do SharePoint com qualquer Skype para a função de servidor de negócios.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Topologias de referência do Skype para Business Server](reference-topologies.md)

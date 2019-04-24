@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Resumo: Implemente IPv6 antes de instalar o Skype para Business Server.'
 ms.openlocfilehash: c2ac3470646c78e0a7312fb9390a712321793915
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884744"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206279"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planejamento para IPv6 no Skype for Business
  
@@ -201,7 +201,7 @@ Os cenários a seguir são suportados durante a migração e coexistência:
     
 - Skype para pool de servidores de negócios no modo apenas IPv6, se o pool apenas IPv6 estiver em silo.
     
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 <a name="migration"> </a>
 
 [Configure IP address types in Skype for Business](ip-address-types.md)

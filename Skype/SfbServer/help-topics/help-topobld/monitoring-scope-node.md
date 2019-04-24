@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 'No construtor de topologias do Lync Server 2013, você pode executar tarefas relacionadas a um servidor individual executando o monitoramento clicando o servidor executando o monitoramento na árvore de console, clicando em ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e depois clicando em uma das seguintes opções para o servidor executando o monitoramento:'
 ms.openlocfilehash: cbefbef6872daeaadbf4972cafb440b58270622c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892169"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200035"
 ---
 # <a name="monitoring-scope-node"></a>Nó do Escopo de Monitoramento
  

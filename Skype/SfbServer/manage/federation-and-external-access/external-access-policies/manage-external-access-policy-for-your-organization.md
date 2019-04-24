@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Depois de implantar um ou mais servidores de borda, você deverá habilitar os tipos de acesso externo que serão suportados pela sua organização.
 ms.openlocfilehash: bdc1a87476849a6e8383d5561af6e1b3af477869
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199881"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>Gerenciar política de acesso externo para sua organização
 

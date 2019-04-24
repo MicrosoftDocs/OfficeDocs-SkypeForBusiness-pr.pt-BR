@@ -13,11 +13,11 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: Este artigo resume os requisitos para dar suporte a salas de equipes da Microsoft.
 ms.openlocfilehash: aff26f2f69b134569b8792df79c2afa4e4a18318
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012991"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214502"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas de equipes da Microsoft
 
@@ -143,7 +143,7 @@ Para criar sua própria imagem de salas de equipes da Microsoft, siga as instru�
 
 Além disso, você pode querer uma cópia do [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), que pode ser usada para provisionar contas de salas de equipes da Microsoft.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Planejar para salas de equipes da Microsoft](skype-room-systems-v2-0.md)
 
@@ -151,6 +151,6 @@ Além disso, você pode querer uma cópia do [SkypeRoomProvisioningScript.ps1](h
 
 [Configurar um console de salas de equipes da Microsoft](../../deploy/deploy-clients/console.md)
 
-[Gerenciar salas de equipes da Microsoft](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gerenciar Salas do Microsoft Teams](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Licenciamento de complementos do Skype for Business](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

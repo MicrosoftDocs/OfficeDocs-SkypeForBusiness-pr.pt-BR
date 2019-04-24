@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 'Você editar as propriedades de Office Web Apps Server configurado. Estas propriedades estão disponíveis para edição:'
 ms.openlocfilehash: 163c2d8623175af0e41b69e2422734513835e2d3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885132"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194005"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Editar Configurações do Servidor do Office Web Apps
 
@@ -32,6 +32,6 @@ Marque a caixa de seleção **O Servidor Office Web Apps é implantado em uma re
 
 ![Expansor de configurações do Office Web Apps](../../media/OfficeWebApps_Settings_Expander.jpg)
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Components and Topologies for Conferencing](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)

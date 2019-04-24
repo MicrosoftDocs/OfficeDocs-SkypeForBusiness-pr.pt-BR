@@ -14,11 +14,11 @@ ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Construtor de topologia, você pode modificar as configurações de porta usadas para ambos os seus serviços web internos e externos. Além disso, e se você estiver implantando o balanceamento de carga de sistema de nome de domínio (DNS), você pode usar o construtor de topologias para configurar o nome de domínio totalmente qualificado (FQDN) do pool que resolve para os endereços IP físicos de todos os servidores desse pool.
 ms.openlocfilehash: 75d73a81ec649c97149fd03125887116c947144c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889172"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201456"
 ---
 # <a name="web-services-settings-expander"></a>Expansor de Configurações de Serviços Web
  

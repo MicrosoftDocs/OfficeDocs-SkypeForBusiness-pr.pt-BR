@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 description: 'Este nó mostra a configuração do nome de domínio totalmente qualificado do pool (FQDN) e pools de Front-End associados para esse pool de Conferência A/V. É possível executar as seguintes ações:'
 ms.openlocfilehash: 76797ecbc1dd2a80320b99c9fc2feb2d0cad5cfe
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227393"
 ---
 # <a name="av-mcu-scope-node"></a>Nó de Escopo de MCU de A/V
  

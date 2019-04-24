@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: 'Este nó mostra a configuração do nome de domínio totalmente qualificado do pool (FQDN) e outras configurações básicas para esse pool de Borda. É possível executar as seguintes ações:'
 ms.openlocfilehash: 5cdeef0873c3501c17b2c5d638fb85a9b62df5cf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893192"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203106"
 ---
 # <a name="edge-server-scope-node"></a>Nó de Escopo de Servidor de Borda
  

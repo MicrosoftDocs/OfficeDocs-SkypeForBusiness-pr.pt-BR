@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
 description: A tabela MonitoredUserSiteLink é uma tabela de suporte. Cada registro representa um vínculo entre dois sites do usuário.
 ms.openlocfilehash: 8022286289d4acd5fab8ea821c72897d9500597b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874256"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212520"
 ---
 # <a name="monitoredusersitelink-table"></a>Tabela MonitoredUserSiteLink
  

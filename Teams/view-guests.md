@@ -17,11 +17,11 @@ description: Saiba como um administrador pode visualizar informações sobre usu
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 9a54d9f23bd32fd84e53f5e285014b92679000f2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873601"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203541"
 ---
 <a name="view-guest-users-in-a-team"></a>Visualizar usuários convidados em uma equipe
 ==========================
@@ -35,6 +35,6 @@ Para identificar usuários convidados:
   
 Você também pode identificar usuários convidados a partir dentro de uma equipe suas próprias.  
 
-## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado versus acesso externo (federação)
+## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado vs. acesso externo (federação)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

@@ -1,6 +1,6 @@
 ---
-title: Disponibilidade de Audioconferência e Planos de Chamadas por país e região
-ms.date: 05/23/2018
+title: Disponibilidade de audioconferência e planos de chamadas por país e região
+ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,14 +25,14 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se audioconferências, telefone créditos do sistema, chamar planos, Communications e se chamada e chamada gratuita números de telefone estão disponíveis ou não.
-ms.openlocfilehash: 817b74a0dd98ccb2d580fc71b5efa0a75f3484bc
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 6fd448d3ab2efd8f5337e0f5a080bee9fd644bf0
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569730"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200263"
 ---
-# <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade de Audioconferência e Planos de Chamadas por país e região
+# <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade de audioconferência e planos de chamadas por país e região
 
 Você pode selecionar um país ou região para ver quais recursos de voz de nuvem estão disponíveis para sua organização.
 ***
@@ -163,7 +163,7 @@ Discagem de uma reunião para outro país/região no mundo que não esteja lista
 ### <a name="phone-system"></a>Sistema Telefônico
 Com o sistema telefônico, você pode criar atendedores automáticos e filas de chamada (com uma Chamada Tarifada ou um número de chamada gratuito) para atender a chamadas de entrada para sua organização e, quando você adiciona um plano de chamada para usuários, eles podem usar o Skype for Business para cuidar de tarefas básicas de controle de chamada , como fazer e receber chamadas, transferir chamadas e silenciar e mudo chama. Os usuários do **Sistema telefônico** podem clicar no nome no seu catálogo de endereços e Skype para negócios colocará uma chamada para essa pessoa. Para fazer e receber chamadas, os usuários de **Sistema telefônico** podem usar seus dispositivos móveis, um fone de ouvido com um laptop ou PC ou uma das muitas telefones IP que funcionam com o Skype para negócios.
 
-Além de obter números de telefone para usuários individuais do Office 365, também é possível pesquisar e adquirir tarifas ou números de telefone gratuitos de serviços, como a conferência de áudio (para pontes de conferência), atendedores automáticos e filas de espera de chamada. Estes são chamados números de serviço. Consulte [números de telefone do serviço de Introdução](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) para obter os números de telefone. Mas para seus usuários, depois de atribuir um plano de chamar a eles, você pode atribuir um número de telefone do usuário para que possam fazer e receber chamadas telefônicas. Para encontrar esses números de telefone, vá para [obter números de telefone para seus usuários](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users). Você também pode ver [atribuir, alterar ou remover um número de telefone para um usuário](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user). 
+> A disponibilidade dos números de telefone de Chamada Tarifada de alguns desses locais pode variar a qualquer momento determinado, dependendo dos níveis de inventário. Além de obter números de telefone para usuários individuais do Office 365, também é possível pesquisar e adquirir tarifas ou números de telefone gratuitos de serviços, como a conferência de áudio (para pontes de conferência), atendedores automáticos e filas de espera de chamada. Estes são chamados números de serviço. Consulte [números de telefone do serviço de Introdução](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) para obter os números de telefone. Mas para seus usuários, depois de atribuir um plano de chamar a eles, você pode atribuir um número de telefone do usuário para que possam fazer e receber chamadas telefônicas. Para encontrar esses números de telefone, vá para [obter números de telefone para seus usuários](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users). Você também pode ver [atribuir, alterar ou remover um número de telefone para um usuário](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user). 
 
 [Preços para o sistema telefônico](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -173,7 +173,7 @@ Além de obter números de telefone para usuários individuais do Office 365, ta
 Use a lista suspensa na parte superior da página para procurar um país ou região e quais serviços estão disponíveis.
 
 ### <a name="calling-plans"></a>Planos de Chamadas
-Juntamente com o sistema telefônico, um planos de chamar permitem que usuários façam e recebam chamadas telefônicas. Primeiro, você precisará usar o número de telefone (e não um número de serviço) para atribuir ao usuário e, em seguida, atribuir um plano de chamar de um usuário (assinante). Existem dois tipos de planos de chamar: **nacionais** e **nacionais e internacionais**. Consulte [Cite chamar planos?](../what-are-calling-plans-in-office-365.md) para obter mais detalhes.
+Juntamente com o sistema telefônico, um planos de chamar permitem que usuários façam e recebam chamadas telefônicas. Primeiro, você precisará usar o número de telefone (e não um número de serviço) para atribuir ao usuário e, em seguida, atribuir um plano de chamar de um usuário (assinante). Existem dois tipos de planos de chamar: **nacionais** e **nacionais e internacionais**. Para obter mais detalhes, consulte [sistema telefônico e planos de chamada](../calling-plan-landing-page.md) .
 
 Você também pode ver o [sistema telefônico e chamar planos de licenciamento](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para obter informações de licenciamento.
 

@@ -14,11 +14,11 @@ ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Política de conferência define os recursos e capacidades que os usuários tenham disponíveis durante uma conferência (também conhecida como reunião).
 ms.openlocfilehash: bb11290a0536f30767dcc979a6d21669ddbb04a3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884404"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215854"
 ---
 # <a name="conferencing-policy"></a>Política de conferência
 

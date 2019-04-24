@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b986f76f-f16e-4e5e-96cb-6e8f7f9b42ee
 description: O modo de exibição UserAgent armazena informações sobre os agentes de usuário que participaram de sessões que têm registros no banco de dados. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 ms.openlocfilehash: c63873f219f5d741925339f52f949be55fc64411
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212064"
 ---
 # <a name="useragent-view"></a>Exibir UserAgent
  

@@ -14,11 +14,11 @@ ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'O painel de executar comandos exibe o status das tarefas de instalação da réplica local de somente leitura do repositório de gerenciamento Central. Enquanto estiver executando as tarefas, o painel de tarefas é atualizado conforme os comandos são executados. Você deve revisar o status da tarefa e observe quaisquer erros ou avisos que são exibidos. Quando as tarefas estiverem concluídas, o status da tarefa de mensagem: concluído for exibida, e a lista suspensa para os arquivos de log exibe os nomes dos arquivos de log. Para exibir os arquivos de log que foram criados, escolha um arquivo de log para exibir e clique em Exibir Log. Revise todos os arquivos de log para o sucesso, erros e mensagens de aviso.'
 ms.openlocfilehash: b7241a7cd7aeb7b01e762e31bebaa37fa1b90b58
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216022"
 ---
 # <a name="install-local-configuration-store-invoke"></a>Instalar Repositório de Configuração Local (Invocar)
  

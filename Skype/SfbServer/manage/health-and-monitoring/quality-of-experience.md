@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
 description: 'Resumo: Gerencie Quality of Experience (QoE) no Skype para Business Server.'
 ms.openlocfilehash: 679365b1b139f690519673706c5e270e415c42c6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895276"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197706"
 ---
 # <a name="quality-of-experience-qoe-in-skype-for-business-server"></a>Qualidade da experiência (QoE) no Skype para Business Server
  
@@ -35,6 +35,6 @@ A Qualidade de experiência (QoE) registra os dados numéricos que indicam a qua
     
 - [Limpar manualmente o registro de detalhes da chamada e bancos de dados de qualidade da experiência no Skype para Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Configurar o registro de detalhes de chamada e configurações de qualidade da experiência no Skype para Business Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)

@@ -14,11 +14,11 @@ ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
 description: Esta documentação é preliminar e está sujeita a alterações. Os tópicos em branco são incluídos como espaços reservados.
 ms.openlocfilehash: d64e64ad5caed89d2249e8da1cd8125a52316bb5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875401"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201697"
 ---
 # <a name="office-communications-server-scope-node"></a>Nó de Escopo de Servidor de Comunicações do Office
 
@@ -26,7 +26,7 @@ Esta documentação é preliminar e está sujeita a alterações. Os tópicos em
 
 Clicar em **Office Communications Server 2007 R2** para expandir a seleção sob o nó ou right clicar para acessar as opções de **topologia** , ou acessar esta página de **Ajuda** .
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Mesclar usando o Assistente de mesclagem do construtor de topologia](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
 

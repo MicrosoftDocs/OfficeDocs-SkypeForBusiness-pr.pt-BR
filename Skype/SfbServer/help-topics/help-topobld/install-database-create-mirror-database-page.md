@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: Esta documentação é preliminar e está sujeita a alterações. Os tópicos em branco são incluídos como espaços reservados.
 ms.openlocfilehash: 77cf1b98fba80a3e2b7ffdbe256a5374148cf6ce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899586"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200320"
 ---
 # <a name="install-database-create-mirror-database-page"></a>Instalar Página de Banco de Dados de Espelho Criar Banco de Dados
  
@@ -26,7 +26,7 @@ Esta documentação é preliminar e está sujeita a alterações. Os tópicos em
   
 Se você escolher não instalar os bancos de dados de espelho do SQL Server durante o processo de publicação, instalá-las usando **Instalar banco de dados** de um botão direito do mouse em qualquer nó no construtor de topologia. Você selecione o repositório de espelho para instalar. Clique em **configurações** para definir as configurações avançadas.
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Implantar espelhamento de SQL para alta disponibilidade do servidor back-end no Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 'Resumo: Saiba como habilitar detalhes das chamadas (CDR) registros de gravação no Skype para Business Server.'
 ms.openlocfilehash: 8ba053c95dcb9e43b6951671853d2c064ad5542f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884509"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199711"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Habilitar gravação de detalhes de chamada no Skype para Business Server
 
@@ -71,7 +71,7 @@ Use o procedimento a seguir para ativar o CDR para a organização inteira ou pa
 
 Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Planejamento do monitoramento](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 

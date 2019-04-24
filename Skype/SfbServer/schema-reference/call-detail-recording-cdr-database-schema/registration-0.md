@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: O modo de exibição do registro armazena informações sobre o registro do usuário. Este modo de exibição foi introduzido no Lync Server 2013.
 ms.openlocfilehash: bf6797bee124653515744d3c1bcd481c2ea1bfc2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212849"
 ---
 # <a name="registration-view"></a>Exibir registro
  

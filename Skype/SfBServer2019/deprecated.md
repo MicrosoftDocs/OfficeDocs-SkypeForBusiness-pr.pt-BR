@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: Esses recursos foram removidos do Skype para Business Server 2019.'
 ms.openlocfilehash: bd7519e66632c005d81ff9fc110684f6c4854c41
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876652"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198968"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>O que é reduzido do Skype para Business Server 2019
 
@@ -71,7 +71,7 @@ Não há suporte para as seguintes ferramentas com Skype para Business Server 20
 - Skype for Business Server 2015 Planning Tool
 - Skype for Business Server 2015 Stress and Performance Tool
 
-### <a name="see-also"></a>Consulte Também
+### <a name="see-also"></a>Confira também
 
 [O que há de novo no Skype para Business Server 2019](whats-new.md)
 

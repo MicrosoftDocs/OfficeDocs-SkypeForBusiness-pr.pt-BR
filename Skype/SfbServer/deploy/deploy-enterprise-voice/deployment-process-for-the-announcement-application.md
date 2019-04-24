@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: Processo de implantação e etapas para o aplicativo de anúncio no Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: 96925df57a36373ee6f031b953f1933b3bac5681
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885596"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223038"
 ---
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Processo de implantação para o aplicativo de anúncio no Skype para Business Server
  

@@ -22,13 +22,13 @@ ms.custom:
 - Phone System
 description: Saiba como configurar o sistema de telefone para filas de chamada de nuvem para proporcionar um organizacional saudação, música de espera e redirecionando chamadas para chamar agentes em listas de distribuição e grupos de segurança. Você também pode definir o tamanho máximo da fila, o tempo limite e opções de manipulação de chamada.
 ms.openlocfilehash: da178761658460812bc1d0330f3540be43c3e6e6
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914640"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199245"
 ---
-# <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada de nuvem
+# <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
 Filas de chamada de nuvem incluem saudações que são usadas quando alguém ligar para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que são de chamada escutando música em espera. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização.
   

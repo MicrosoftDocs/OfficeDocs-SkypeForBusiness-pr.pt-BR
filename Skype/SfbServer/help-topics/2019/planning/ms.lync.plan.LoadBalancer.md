@@ -15,11 +15,11 @@ ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Se você tiver pools de Front-End, pools de diretores ou pools de servidor de borda, você precisará implantar o balanceamento de carga para esses pools. O balanceamento de carga distribui o tráfego entre os servidores em um pool. Para detalhes, consulte:'
 ms.openlocfilehash: 877225a197d953a503eb865ad9a85d83ac404000
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889484"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220952"
 ---
 # <a name="load-balancer-planning-tool"></a>Load Balancer (Planning Tool)
  

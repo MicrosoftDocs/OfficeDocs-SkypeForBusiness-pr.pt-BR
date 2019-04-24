@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 ms.openlocfilehash: 93b7aa02ebf850ba1b039769df4797832e50c72c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200650"
 ---
 # <a name="pin-policy"></a>Política de PIN
 

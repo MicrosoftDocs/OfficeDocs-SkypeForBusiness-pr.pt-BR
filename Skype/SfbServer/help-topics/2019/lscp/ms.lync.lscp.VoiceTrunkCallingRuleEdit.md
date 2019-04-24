@@ -14,11 +14,11 @@ ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você pode usar a nova configuração de tronco: nova regra de conversão de número de chamada para criar uma nova regra de conversão. Para obter detalhes sobre as regras de transição, consulte os seguintes tópicos:'
 ms.openlocfilehash: d29630a847735cb631295da1ef926bea09c62926
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879767"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221148"
 ---
 # <a name="new-calling-number-translation-rule"></a>Nova Regra de Conversão de Número de Chamada
 

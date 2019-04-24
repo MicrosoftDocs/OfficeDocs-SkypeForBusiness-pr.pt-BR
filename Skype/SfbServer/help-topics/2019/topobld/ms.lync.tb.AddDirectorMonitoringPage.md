@@ -14,11 +14,11 @@ ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você pode definir o SQL Server store de monitoramento Configurando as propriedades a seguintes:'
 ms.openlocfilehash: 4ba52c49cc9d851df9d6fa53220cf81d70967e75
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202307"
 ---
 # <a name="add-director-monitoring"></a>Adicionar Monitoramento de Diretor
  

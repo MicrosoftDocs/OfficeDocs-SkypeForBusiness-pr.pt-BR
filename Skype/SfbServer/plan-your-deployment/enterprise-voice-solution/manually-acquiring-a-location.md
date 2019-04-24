@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: Planejamento de usuários em uma implantação do E9-1-1 usando provedores de tronco SIP, em Skype para Business Server Enterprise Voice móveis.
 ms.openlocfilehash: 8682ba47e3543cc39b1fc793c587040a7821f8c7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891347"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206730"
 ---
 # <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>Definir a experiência do usuário para adquirir manualmente um local no Skype para Business Server
  

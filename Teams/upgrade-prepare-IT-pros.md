@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3524e28df5e24fa32655e694def1400db45c5953
-ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "31765201"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203920"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação técnica")
 
@@ -38,7 +38,7 @@ Seus administradores de Inquilino do Office 365, líderes técnicos e para o sup
 Compartilhar os recursos a seguir com seus membros da equipe de TI e confirme que eles estão prontos para suportar usuários antes de começar a atualização para equipes:
 
 - [Treinamento de administrador para o Microsoft Teams](itadmin-readiness.md)
-- [Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Entre em contato com o suporte para produtos comerciais - Ajuda para Administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Solucionar problemas de conectividade do cliente Microsoft Teams](connectivity-issues.md)
 - [Usar arquivos de log para solucionar problemas no Microsoft Teams](log-files.md)
 

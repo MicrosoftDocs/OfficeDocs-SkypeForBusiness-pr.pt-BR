@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Você controla quem pode convidar usuários anônimos, configurando uma política de conferência para oferecer suporte a usuários anônimos e aplicar essa política de conferência para usuários específicos.
 ms.openlocfilehash: 62ff84b19fadbeaf0f26fa3e5869026254d28d1f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197720"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Atribuir políticas de conferência para oferecer suporte aos usuários anônimos Skype para Business Server 
 

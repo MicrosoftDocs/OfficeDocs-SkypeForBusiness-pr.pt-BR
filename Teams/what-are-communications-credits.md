@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: d113731d9b2c8f387e543a8d1733abcee12b2fcf
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8fa06f22d1fb31f592f520ba3b1d17c8fcaf0ccb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649184"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211765"
 ---
 # <a name="what-are-communications-credits"></a>O que são Créditos de Comunicação?
 
@@ -61,7 +61,7 @@ Para usar números para ligações gratuitas Skype para os negócios, créditos 
 > [!NOTE]
 > Você deve configurar créditos de comunicações e atribuir uma licença de créditos de comunicações para cada usuário no **Centro de administração do Office 365** > **usuários** > **Usuários ativos**. 
   
-É recomendável que você avaliar com cuidado o uso do serviço de PSTN da sua organização para entender a configuração recomendada para comunicações créditos. Você pode ver mais sobre os serviços PSTN lendo [Cite chamar planos no Office 365?](what-are-calling-plans-in-office-365.md) e [perguntas comuns de conferência de áudio](Audio-Conferencing-common-questions.md).
+É recomendável que você avaliar com cuidado o uso do serviço de PSTN da sua organização para entender a configuração recomendada para comunicações créditos. Você pode ver mais sobre os serviços PSTN lendo o [sistema telefônico e chamar planos](calling-plan-landing-page.md) e [perguntas comuns de conferência de áudio](Audio-Conferencing-common-questions.md).
   
 Você pode configurar faturamento de consumo usando uma **única fundos** do equilíbrio pré-pago **OR** , configurando uma quantidade de **autocarga** ( **recomendado** ) com um equilíbrio mínimo que irá disparar uma compra para esse valor de carga. Inicialmente, é sugerido que você configure valores de recarga automática que permitam monitorar o uso real e encontrar os limites certos de recarga automática que atendam às suas necessidades e padrões de uso. Comunicações créditos devem ser monitorados ao longo do tempo e ajustar os valores de saldo e carga mínimos conforme necessário para ser adaptados para atender às necessidades de cada organização.
   
@@ -88,7 +88,7 @@ Você pode ver os planos e preços do visitando um dos seguintes links:
   
 - [Planos de chamadas](https://go.microsoft.com/fwlink/?linkid=799761)
     
-- [Audioconferência](https://go.microsoft.com/fwlink/?linkid=799762)
+- [Serviços de audioconferência](https://go.microsoft.com/fwlink/?linkid=799762)
     
 - [Sistema Telefônico](https://go.microsoft.com/fwlink/?linkid=799763 )
     

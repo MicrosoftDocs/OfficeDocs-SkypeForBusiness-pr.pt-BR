@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Resumo: Integre Skype para Business Server e o Outlook Web App.'
 ms.openlocfilehash: 3bd5131fcdba3d3253021c711910b18f46e93ce4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216645"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Configurar a integração entre o local Skype para Business Server e o Outlook Web App
 
@@ -88,7 +88,7 @@ Get-CsHostingProvider -LocalStore
 ```
 Verificar se as informações mostradas correspondem as alterações confirmadas nas etapas anteriores.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Fornecendo Skype para Business Server caixa postal aos usuários em UM do Exchange hospedado](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
 

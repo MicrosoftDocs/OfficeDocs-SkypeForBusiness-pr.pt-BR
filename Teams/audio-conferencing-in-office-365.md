@@ -21,12 +21,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 20ce25368c5b77bcd355bc5ed0d6ef55868401c1
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 24a85ab6fced284fc264db5bcc394769e4a0bfca
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30570114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198590"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconferência no Office 365
 Serviços de audioconferência no Office 365 permite que os usuários liga para reuniões de seus telefones. Serviços de audioconferência permite que até 250 participantes de telefone.
@@ -92,7 +92,7 @@ Números de telefone de conferência de áudio dedicado são números de serviç
 - **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do seu país/região) não será possível obter seus números de telefone novo usando o Skype para o Centro de administração de negócios ou, você precisará de números de telefone específico ou códigos de área. Se for o caso, será necessário baixar um formulário e enviá-lo para nós. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## <a name="how-do-you-set-it-up"></a>Como você configura-lo?
-Depois que você tiver decidido configurar a conferência de áudio para seus usuários, consulte [Configurar conferências de áudio para equipes da Microsoft](set-up-audio-conferencing-in-teams.md) ou [Configurar a conferência de áudio para Skype para Business Online](/SkypeForBusiness/audio-conferencing-in-office/set-up-audio-conferencing) para as etapas que podem ser seguidas para fazê-lo.
+Depois que você tiver decidido configurar a conferência de áudio para seus usuários, consulte [Configurar conferências de áudio para equipes da Microsoft](set-up-audio-conferencing-in-teams.md) ou [Configurar a conferência de áudio para Skype para Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) para as etapas que podem ser seguidas para fazê-lo.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

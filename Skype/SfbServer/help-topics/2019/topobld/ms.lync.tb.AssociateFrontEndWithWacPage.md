@@ -14,11 +14,11 @@ ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: O Servidor do Office Web Apps fornece serviços parecidos com o carregamento de um documento pelo apresentador para uso em uma reunião, mas possibilita outros recursos que não havia nas versões anteriores.
 ms.openlocfilehash: 2f00851409411f7b2a0ddd01378943c5af4f46ee
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898765"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220759"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Associar Front-End com Página do Servidor do Office Web Apps
 
@@ -34,6 +34,6 @@ As opções nessa caixa de diálogo são as seguintes:
 
 3. Clique em **Novo** para definir um novo Servidor do Office Web Apps para sua implantação.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Publishing Office Web Apps Server Using a Reverse Proxy Server](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)

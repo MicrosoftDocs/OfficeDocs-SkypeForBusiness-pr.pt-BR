@@ -14,11 +14,11 @@ ms.assetid: 607709a0-1617-44f3-bf68-fec1129250a4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para associar o aparelho de filial persistente ou servidor de filial persistente com um pool de Front-End ou um servidor Standard Edition, na página de pool de Front-End, selecionar, selecione o pool Front-End ou um servidor Standard Edition na lista suspensa de pool de Front-End. Clique em Avançar para continuar.
 ms.openlocfilehash: 5008aca5f6779e78fd981b96ad18927ae5b177a1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886350"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201938"
 ---
 # <a name="associate-branch-office-appliance-with-front-end"></a>Associar Aparelho de Filial com Front End
  

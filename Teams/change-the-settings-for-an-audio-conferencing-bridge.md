@@ -23,11 +23,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Obtenha as etapas que necessárias para alterar configurações para uma ponte de conferência que é usado para solicitar que os chamadores e coletar nomes e pins para organizadores de reunião, quando eles não estão usando Skype para aplicativos de negócios ou Teams da Microsoft. '
 ms.openlocfilehash: 2f3f08254409086ee99b3c5f60d243f893fff4e6
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633229"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198546"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Alterar as configurações de uma ponte de audioconferência
 
@@ -134,6 +134,6 @@ A ponte de conferência atende uma chamada e solicita que o chamador com os prom
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar a conferência de áudio for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
+[Configurar Audioconferência no Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 [Configure a conferência de áudio para Skype para Business Online](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

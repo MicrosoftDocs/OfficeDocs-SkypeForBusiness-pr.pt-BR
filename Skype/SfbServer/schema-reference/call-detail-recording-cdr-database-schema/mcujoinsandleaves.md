@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
 description: Cada registro desta tabela contém detalhes de chamada sobre uma combinação de um servidor de conferência e ingressar ou deixar de usuário. Por exemplo, se um usuário ingressa em uma conferência que inclui elementos de áudio/vídeo e webconferência, seria criado um registro para ingresso de conferência web desse usuário, e outro registro seria criado para o ingresso de conferência de áudio/vídeo do usuário.
 ms.openlocfilehash: 7a31564ed770c956baa0ef7e968d0fba1dc3fd7d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212977"
 ---
 # <a name="mcujoinsandleaves-table-in-skype-for-business-server-2015"></a>Tabela McuJoinsAndLeaves Skype para Business Server 2015
  

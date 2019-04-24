@@ -20,11 +20,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Conheça as etapas para redefinir o ID de conferência de reunião de um usuário no Microsoft Teams e obtenha links para as ferramentas de atualização e migração da reunião. '
 ms.openlocfilehash: f5926d838d61d38eb5b8e9f840cd9d7a4694253f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206582"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Redefinir o ID de conferência de um usuário no Microsoft Teams
 
@@ -75,4 +75,4 @@ Para obter mais informações sobre o Windows PowerShell, consulte a [referênci
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Redefinir o PIN de conferência de áudio](reset-the-audio-conferencing-pin-in-teams.md)
+[Redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin-in-teams.md)

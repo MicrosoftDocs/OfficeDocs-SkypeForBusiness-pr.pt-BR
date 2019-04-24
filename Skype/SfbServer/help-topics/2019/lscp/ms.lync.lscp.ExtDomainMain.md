@@ -14,11 +14,11 @@ ms.assetid: f48ba3dd-9ced-4d3e-b75a-be81cee69d6b
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 ms.openlocfilehash: b4e8c1e529a295f2eebd8cfb84d71cca0159a463
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215743"
 ---
 # <a name="federated-domains"></a>Domínios Federados
 

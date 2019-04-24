@@ -19,11 +19,11 @@ localization_priority: Normal
 f1keywords: None
 description: Saiba como configurar feriados em Microsoft Teams e conectá-los para o atendedor automático.
 ms.openlocfilehash: afec7fc3f1bbe47c907b823711db3b8b8ef3aded
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914574"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204772"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurar feriados no Microsoft Teams
 

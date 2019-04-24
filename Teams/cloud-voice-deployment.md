@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 953c971c39bde9d112619fcaee145008c378f1a3
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: d4089e0e9ff9ce0ecbff63e55a43d2dc9f2ca7d1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194753"
 ---
 # <a name="cloud-voice-deployment"></a>Implantação do Cloud Voice
 
@@ -48,7 +48,7 @@ Sistema telefônico é um recurso que fornece a capacidade de gerenciar o roteam
 
 Planos de chamada é um serviço complementar para o recurso de sistema telefônico, fornecido por meio de equipes e Skype para negócios Online. Planos de chamada exige que o usuário em questão ser hospedados em Skype para negócios Online trabalhar em Teams da Microsoft. Planos de chamadas fornecem as pessoas em sua empresa com um número de telefone principal e permite que eles façam e recebam chamadas telefônicas fora da sua organização no PSTN.
 
-Para saber mais, leia [aqui está o que fazer com o sistema telefônico no Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) e [Cite chamar planos no Office 365?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
+Para saber mais, leia [aqui está o que fazer com o sistema telefônico no Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) e o [sistema telefônico e planos de chamada](calling-plan-landing-page.md)
 
 
 ## <a name="phone-system-direct-routing-direct-routing"></a>Sistema de telefone direto roteamento ("diretos de roteamento")

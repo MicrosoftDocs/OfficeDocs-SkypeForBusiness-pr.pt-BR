@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Entenda as maneiras que você pode acessar o Skype para recursos de negócios do Outlook e outros aplicativos do Microsoft Office.
 ms.openlocfilehash: c5636b5c7e41b480a9c8aa5532a22523c3554a54
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965660"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207472"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype para compatibilidade de negócios com aplicativos do Office
  
@@ -36,14 +36,14 @@ A tabela a seguir descreve o Skype para recursos corporativos que são compatív
 |**Recurso**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 e 2016**|**2016 do Office para Mac** & #x 2776; |
 |:-----|:-----|:-----|:-----|
 |**Recursos do Outlook** ||||
-|Personalizar convites para reunião do Outlook (adicionar logotipo, URL de ajuda, aviso de isenção de responsabilidade, texto do rodapé)  |Não  |Sim   |Sim|
+|Personalizar convites para reunião do Outlook (adicionar logotipo, URL de ajuda, aviso de isenção de responsabilidade, texto do rodapé)  |Não  |Sim    |Sim |
 |Configurar a opção de reunião para ativar o mudo do áudio e vídeo do participante por padrão    |Não    |Sim    |Não    |
 |Repositório unificado de contatos para gerenciar listas de contatos entre o Office e Skype para negócios    |Não    |Sim (requer o Exchange 2013 ou posterior)    |Sim    |
 |Imagens de perfil de alta resolução    |Não    |Sim (requer o Exchange 2013 ou posterior)    |Sim    |
-|Status de presença no Microsoft Outlook remetente, para, Cc campos e    |Sim    |Sim    |Sim    |
+|Status de presença no Microsoft Outlook remetente, para, Cc campos e    |Sim     |Sim     |Sim     |
 |Responder com IM ou chamada no menu de disponibilidade    |Sim (do cartão de visita)    |Sim (do cartão de visita)    |Sim (do cartão de visita)    |
-|Status de presença em uma solicitação de reunião na guia Assistente de Agendamento    |Sim    |Sim    |Não    |
-|Responder com IM ou chamada da barra de ferramentas ou faixa de opções em uma mensagem de email recebido    |Sim    |Sim    |Sim    |
+|Status de presença em uma solicitação de reunião na guia Assistente de Agendamento    |Sim     |Sim    |Não    |
+|Responder com IM ou chamada da barra de ferramentas ou faixa de opções em uma mensagem de email recebido    |Sim     |Sim     |Sim     |
 |**Outros aplicativos do Office**   ||||
 |Anotações compartilhadas do OneNote    |Não    |Sim    |Não    |
 |Instalação integrada ao programa de instalação do Office    |Não    |Sim    |Não    |
@@ -66,7 +66,7 @@ A tabela a seguir descreve Skype para suporte de negócios para diversas versõe
 |Exchange Server 2013  <br/> |Mesmo que o suporte do Exchange Server 2010, com a adição de  <br/>&bull;&nbsp;&nbsp;Repositório unificado de contatos  <br/>&bull;&nbsp;&nbsp;Imagens de alta resolução  <br/>&bull;&nbsp;&nbsp;Integração de arquivamento  <br/> **Observação:** Para obter detalhes, consulte [Integrar Skype para Business Server com o Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
 |Exchange Server 2010  <br/>(Skype para Business Server 2015 somente) |Os recursos a seguir estão disponíveis somente por meio do EWS:  <br/>&bull;&nbsp;&nbsp;Ler ou excluir itens na pasta Histórico da conversa  <br/>&bull;&nbsp;&nbsp;Ler ou excluir itens da caixa postal  <br/>&bull;&nbsp;&nbsp;Exibir informações de livre/ocupado estendidas e assunto da reunião e local  <br/>&bull;&nbsp;&nbsp;Sincronização de contatos do Exchange  <br/> Pastas públicas são opcionais no Exchange Server 2010.  <br/> |
    
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Confira também
  
 [Suporte de software e os requisitos de cliente do Windows](windows-requirements.md)
   

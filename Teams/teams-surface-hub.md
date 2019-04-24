@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: add4b7ece81fd2c4184453b03c889a27982c830b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 086edb4f7c949154dae49cb6a371a1d9d11bc43a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204457"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implantar o Microsoft Teams para o Surface Hub
 ======================================
@@ -78,7 +78,7 @@ Os pacotes podem ser encontrados na [página de download](https://1drv.ms/f/s!Ar
 
 ### <a name="option-2-configure-via-mdm-such-as-intune"></a>Opção 2: Configurar via MDM como Intune 
 
-Use o seguinte para configurar a chamada e reuniões aplicativo política padrão via Intune. Consulte também o blog, [implantar as equipes da Microsoft para aplicativo de superfície Hub usando Intune](https://blogs.technet.microsoft.com/y0av/2018/07/16/97/).
+Use o seguinte para configurar a chamada e reuniões aplicativo política padrão via Intune. Consulte também o blog, [implantar as equipes da Microsoft para aplicativo de superfície Hub usando Intune](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/).
 
 |Configuração   |Valor    |Descrição    |
 |----------|---------|---------|

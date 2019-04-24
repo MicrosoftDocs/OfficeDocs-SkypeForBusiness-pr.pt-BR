@@ -16,13 +16,13 @@ ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
 description: 'Resumo: Revise os requisitos de dispositivo de sistema do cliente durante o planejamento de Skype para Business Server.'
 ms.openlocfilehash: 494b6ab9cbd962e8e03ac225ded5aaf248287317
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207290"
 ---
-# <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Requisitos do sistema do Skype for Business para Windows Phone
+# <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>System requirements for Skype for Business for Windows Phone
  
  
 Microsoft Skype para Business para Windows Phone fornece mensagens instantâneas (IM), presença avançada e telefonia para usuários em sua organização que estiverem se conectando de um smartphone ou um dispositivo móvel do Windows Professional. Dispositivos móveis permitem que os usuários ampliem o alcance do Skype para negócios. Este tópico descreve as considerações de planejamento para Skype para Business para Windows Phone que incluem a identificação de pré-requisitos e requisitos técnicos, componentes necessários e orientações sobre a implantação.

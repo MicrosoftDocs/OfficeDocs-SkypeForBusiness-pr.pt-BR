@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Saiba quais são os atendedores automáticos de nuvem e como usá-los.
-ms.openlocfilehash: 1d9c72817b865b323b9d018710c9201b51bb56a3
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: 99310e44fbab43e16d0816acdb8a85815863b286
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914624"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211689"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Cite atendedores automáticos de nuvem.
 
@@ -62,7 +62,7 @@ Para começar a usar os atendedores automáticos, é importante lembrar-se de qu
 > [!NOTE]
 > Diretos números de serviço de roteamento para atendedor automático e filas de chamada são suportadas para os usuários de Teams da Microsoft e operadores somente no momento.
 
-> [!NOTE] 
+> [!NOTE]
 > Microsoft está trabalhando em um modelo de licenciamento apropriado para aplicativos como atendedores automáticos de nuvem e filas de chamada, para agora você precisa usar o modelo de licenciamento por usuário.
     
    > [!TIP]

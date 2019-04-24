@@ -14,11 +14,11 @@ ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 ROBOTS: NOINDEX, NOFOLLOW
 description: O Monitoring Server requer uma edição de 64 bits com suporte do software de banco de dados do SQL Server para armazenar os dados de monitoramento. Você pode selecionar um banco de dados do SQL Server definido anteriormente a serem usados para monitoramento, ou definir um novo banco de dados do SQL Server, especificando um nome de domínio totalmente qualificado (FQDN) do servidor no qual o banco de dados do SQL Server residem, além da instância do SQL Servidor que você deseja usar para o novo banco de dados do SQL Server (que pode ser a instância padrão ou uma instância nomeada que você especificar).
 ms.openlocfilehash: f0efdf2662567f786a035d30236d11c14ccc8efe
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890701"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202030"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>Adicionar Repositório de Servidor SQL de Servidor de Monitoramento
 

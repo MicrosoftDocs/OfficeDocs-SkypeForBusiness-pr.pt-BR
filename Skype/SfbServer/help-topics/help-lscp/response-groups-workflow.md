@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Fluxos de trabalho do grupo de resposta definem as ações que serão executadas quando o aplicativo grupo de resposta recebe uma chamada telefônica.
 ms.openlocfilehash: a86b269b59c04c2f954bc212fa437ebc6e387b4b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896526"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200622"
 ---
 # <a name="response-groups-workflow"></a>Fluxo de Trabalho de Grupos de Resposta
 

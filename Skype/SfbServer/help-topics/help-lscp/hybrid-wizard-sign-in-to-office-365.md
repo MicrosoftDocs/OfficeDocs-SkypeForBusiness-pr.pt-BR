@@ -18,11 +18,11 @@ ms.collection:
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 description: Use o Skype para o Assistente de capacidade de gerenciamento do Business Server híbrido para ajudá-lo a configurar o seu ambiente para o híbrido com Skype para Business Online.
 ms.openlocfilehash: 00e01132f1f8330ba46fe25bcfe2d08db41a2410
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200796"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>Assistente híbrido: Conecte-se ao Office 365
 

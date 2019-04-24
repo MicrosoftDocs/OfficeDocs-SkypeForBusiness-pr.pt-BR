@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 description: 'Saiba como configurar o Skype for Business para usar outro idioma na saudação da mensagem de voz padrão de sua organização. '
 ms.openlocfilehash: 6de73212df6be8a1f0d52cff8065536442085783
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198467"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Alterar o idioma padrão de saudações e emails
 
@@ -63,7 +63,7 @@ Se você é [Administrador global do Office 365](https://support.office.com/arti
     
 ## <a name="related-articles-for-the-admin"></a>Artigos relacionados para o administrador
 
-- [Sistema telefônico e planos de chamada](calling-plan-landing-page.md)
+- [Sistema de Telefonia e Planos de Chamadas](calling-plan-landing-page.md)
     
 - [Configurar Planos de Chamadas](set-up-calling-plans.md)
     

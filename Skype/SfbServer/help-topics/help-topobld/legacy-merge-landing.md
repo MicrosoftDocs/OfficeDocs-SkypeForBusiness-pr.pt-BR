@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 6dd2227a-1fbd-4133-b27f-227b0fe47805
 description: A página especificar configuração de borda permite configurar as informações do servidor de borda herdadas. Clique em Adicionar para especificar a versão herdada do servidor de borda da sua implantação do Office Communications Server. Se você não tiver nenhum servidor de borda no seu ambiente herdado, clique em Avançar para continuar.
 ms.openlocfilehash: c1beb418c536b60cfab7631d9f058d4781f27d8c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892347"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200191"
 ---
 # <a name="legacy-merge-landing"></a>Patamar de Mesclagem de Legado
  

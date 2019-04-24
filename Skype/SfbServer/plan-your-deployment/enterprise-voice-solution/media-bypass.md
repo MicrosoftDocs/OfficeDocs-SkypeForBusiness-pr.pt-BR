@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Decisões necessárias para planejar a mídia os endereços no Skype Business Server Enterprise Voice. Inclui interoperabilidade com o controle de admissão de chamadas (CAC).
 ms.openlocfilehash: 26cf20fcd7b8378d99da21be46bd6ca219b82196
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884860"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206989"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planejar o bypass de mídia no Skype para negócios
 

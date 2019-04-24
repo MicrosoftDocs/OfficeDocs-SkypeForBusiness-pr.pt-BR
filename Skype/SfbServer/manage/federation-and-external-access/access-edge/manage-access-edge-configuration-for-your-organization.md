@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Depois de implantar um ou mais servidores de borda, você deverá habilitar os tipos de acesso do provedor ou domínio externo, acesso de usuário remoto e acesso de usuário anônimo para conferências por meio dos servidores de borda que serão suportados pela sua organização.
 ms.openlocfilehash: 8428815a0f3d89124d1b5e681b79924171916f6d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896914"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199917"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>Gerenciar configuração da borda de acesso para sua organização
 
