@@ -14,17 +14,17 @@ ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 ms.openlocfilehash: 53791fa0e6c4a5ac29fdc124e9ef05e1e152897c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215329"
 ---
-# <a name="configure-a-network-region-link"></a><span data-ttu-id="1f869-104">Configurar um Link de Região de Rede</span><span class="sxs-lookup"><span data-stu-id="1f869-104">Configure a Network Region Link</span></span>
+# <a name="configure-a-network-region-link"></a><span data-ttu-id="515cd-104">Configurar um Link de Região de Rede</span><span class="sxs-lookup"><span data-stu-id="515cd-104">Configure a Network Region Link</span></span>
 
-<span data-ttu-id="1f869-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="1f869-105">What do you want to do?</span></span> <span data-ttu-id="1f869-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="1f869-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="515cd-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="515cd-105">What do you want to do?</span></span> <span data-ttu-id="515cd-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="515cd-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="1f869-107">Configurando Links de região de rede</span><span class="sxs-lookup"><span data-stu-id="1f869-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+- [<span data-ttu-id="515cd-107">Configurando Links de região de rede</span><span class="sxs-lookup"><span data-stu-id="515cd-107">Configuring Network Region Links</span></span>](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
 
 
 

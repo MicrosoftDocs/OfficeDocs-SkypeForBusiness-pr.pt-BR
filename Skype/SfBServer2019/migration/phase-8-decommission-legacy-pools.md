@@ -11,35 +11,35 @@ localization_priority: Normal
 ms.custom: httpsfix
 description: O tópico a seguir fornece orientações para atualizar as entradas DNS, movendo o servidor de gerenciamento de conteúdo, encerrando pools e desativando e removendo servidores e pools de uma implantação herdada. Nem todos os procedimentos listados nesta seção são necessários. Leia a documentação e determine qual descomissionamento procedimento para usar.
 ms.openlocfilehash: 2363b90f1bcc71c3c8c1ee42d258101240bcacb7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880255"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231508"
 ---
-# <a name="phase-8-decommission-legacy-pools"></a><span data-ttu-id="8a173-105">Fase 8: Encerrar os pools herdados</span><span class="sxs-lookup"><span data-stu-id="8a173-105">Phase 8: Decommission legacy pools</span></span>
+# <a name="phase-8-decommission-legacy-pools"></a><span data-ttu-id="01b5a-105">Fase 8: Encerrar os pools herdados</span><span class="sxs-lookup"><span data-stu-id="01b5a-105">Phase 8: Decommission legacy pools</span></span>
 
-<span data-ttu-id="8a173-106">O tópico a seguir fornece orientações para atualizar as entradas DNS, movendo o servidor de gerenciamento de conteúdo, encerrando pools e desativando e removendo servidores e pools de uma implantação herdada.</span><span class="sxs-lookup"><span data-stu-id="8a173-106">The following topic provides guidance for updating DNS entries, moving the Content Management Server, decommissioning pools, and deactivating and removing servers and pools from a legacy deployment.</span></span> <span data-ttu-id="8a173-107">Nem todos os procedimentos listados nesta seção são necessários.</span><span class="sxs-lookup"><span data-stu-id="8a173-107">Not all of the procedures listed in this section are required.</span></span> <span data-ttu-id="8a173-108">Leia a documentação e determine qual descomissionamento procedimento para usar.</span><span class="sxs-lookup"><span data-stu-id="8a173-108">Read the documentation and determine which decommissioning procedure to use.</span></span> 
+<span data-ttu-id="01b5a-106">O tópico a seguir fornece orientações para atualizar as entradas DNS, movendo o servidor de gerenciamento de conteúdo, encerrando pools e desativando e removendo servidores e pools de uma implantação herdada.</span><span class="sxs-lookup"><span data-stu-id="01b5a-106">The following topic provides guidance for updating DNS entries, moving the Content Management Server, decommissioning pools, and deactivating and removing servers and pools from a legacy deployment.</span></span> <span data-ttu-id="01b5a-107">Nem todos os procedimentos listados nesta seção são necessários.</span><span class="sxs-lookup"><span data-stu-id="01b5a-107">Not all of the procedures listed in this section are required.</span></span> <span data-ttu-id="01b5a-108">Leia a documentação e determine qual descomissionamento procedimento para usar.</span><span class="sxs-lookup"><span data-stu-id="01b5a-108">Read the documentation and determine which decommissioning procedure to use.</span></span> 
   
-<span data-ttu-id="8a173-109">Para um artigo sobre como remover servidores e funções de servidor e um guia passo a passo para encerrar uma implantação desatualizado mas exaustiva, baixe a [desinstalação do Microsoft Lync Server e Removendo funções de servidor](https://go.microsoft.com/fwlink/p/?linkId=246227).</span><span class="sxs-lookup"><span data-stu-id="8a173-109">For a dated but exhaustive article on removing servers and server roles, and a step-by-step guide to decommissioning a deployment, download [Uninstalling Microsoft Lync Server and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227).</span></span> 
+<span data-ttu-id="01b5a-109">Para um artigo sobre como remover servidores e funções de servidor e um guia passo a passo para encerrar uma implantação desatualizado mas exaustiva, baixe a [desinstalação do Microsoft Lync Server e Removendo funções de servidor](https://go.microsoft.com/fwlink/p/?linkId=246227).</span><span class="sxs-lookup"><span data-stu-id="01b5a-109">For a dated but exhaustive article on removing servers and server roles, and a step-by-step guide to decommissioning a deployment, download [Uninstalling Microsoft Lync Server and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227).</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="8a173-110">Para obter informações sobre a migração e atualização de aplicativos de certificação Microsoft Unified Communications Managed API (UCMA), antes de descomissionar seu ambiente herdado, consulte [aplicativos UCMA: cenários de atualização, migração e coexistência](https://go.microsoft.com/fwlink/p/?LinkId=269555).</span><span class="sxs-lookup"><span data-stu-id="8a173-110">For information on migrating and upgrading Microsoft Unified Communications Managed API (UCMA) applications, before decommissioning your legacy environment, see [UCMA applications: Coexistence, migration, and upgrade scenarios](https://go.microsoft.com/fwlink/p/?LinkId=269555).</span></span>
+> <span data-ttu-id="01b5a-110">Para obter informações sobre a migração e atualização de aplicativos de certificação Microsoft Unified Communications Managed API (UCMA), antes de descomissionar seu ambiente herdado, consulte [aplicativos UCMA: cenários de atualização, migração e coexistência](https://go.microsoft.com/fwlink/p/?LinkId=269555).</span><span class="sxs-lookup"><span data-stu-id="01b5a-110">For information on migrating and upgrading Microsoft Unified Communications Managed API (UCMA) applications, before decommissioning your legacy environment, see [UCMA applications: Coexistence, migration, and upgrade scenarios](https://go.microsoft.com/fwlink/p/?LinkId=269555).</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="8a173-111">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="8a173-111">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="01b5a-111">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="01b5a-111">In this section</span></span>
 
-> [<span data-ttu-id="8a173-112">Atualizar registros de DNS SRV</span><span class="sxs-lookup"><span data-stu-id="8a173-112">Update DNS SRV records</span></span>](update-dns-srv-records.md)
+> [<span data-ttu-id="01b5a-112">Atualizar registros de DNS SRV</span><span class="sxs-lookup"><span data-stu-id="01b5a-112">Update DNS SRV records</span></span>](update-dns-srv-records.md)
 > 
-> [<span data-ttu-id="8a173-113">Mover a herdado instalar servidor de gerenciamento Central para Skype para Business Server 2019</span><span class="sxs-lookup"><span data-stu-id="8a173-113">Move the legacy install Central Management Server to Skype for Business Server 2019</span></span>](move-the-central-management-server.md)
+> [<span data-ttu-id="01b5a-113">Mover a herdado instalar servidor de gerenciamento Central para Skype para Business Server 2019</span><span class="sxs-lookup"><span data-stu-id="01b5a-113">Move the legacy install Central Management Server to Skype for Business Server 2019</span></span>](move-the-central-management-server.md)
 > 
-> [<span data-ttu-id="8a173-114">Mover diretórios de conferência</span><span class="sxs-lookup"><span data-stu-id="8a173-114">Move Conference Directories</span></span>](move-conference-directories.md)
+> [<span data-ttu-id="01b5a-114">Mover diretórios de conferência</span><span class="sxs-lookup"><span data-stu-id="01b5a-114">Move Conference Directories</span></span>](move-conference-directories.md)
 > 
-> [<span data-ttu-id="8a173-115">Remover a associação de Servidor de Arquivamento</span><span class="sxs-lookup"><span data-stu-id="8a173-115">Remove the Archiving server association</span></span>](remove-the-archiving-server-association.md)
+> [<span data-ttu-id="01b5a-115">Remover a associação de Servidor de Arquivamento</span><span class="sxs-lookup"><span data-stu-id="01b5a-115">Remove the Archiving server association</span></span>](remove-the-archiving-server-association.md)
 > 
-> [<span data-ttu-id="8a173-116">Remover a associação do Servidor de Monitoramento</span><span class="sxs-lookup"><span data-stu-id="8a173-116">Remove the Monitoring server association</span></span>](remove-the-monitoring-server-association.md)
+> [<span data-ttu-id="01b5a-116">Remover a associação do Servidor de Monitoramento</span><span class="sxs-lookup"><span data-stu-id="01b5a-116">Remove the Monitoring server association</span></span>](remove-the-monitoring-server-association.md)
 > 
-> [<span data-ttu-id="8a173-117">Remover o servidor de Front-End do Enterprise Edition ou o servidor de Front-End Standard Edition</span><span class="sxs-lookup"><span data-stu-id="8a173-117">Remove the Enterprise Edition Front End Server or Standard Edition Front End Server</span></span>](remove-the-front-end-server.md)
+> [<span data-ttu-id="01b5a-117">Remover o servidor de Front-End do Enterprise Edition ou o servidor de Front-End Standard Edition</span><span class="sxs-lookup"><span data-stu-id="01b5a-117">Remove the Enterprise Edition Front End Server or Standard Edition Front End Server</span></span>](remove-the-front-end-server.md)
 > 
-> [<span data-ttu-id="8a173-118">Remover instâncias SQL Server e bancos de dados no Servidor Back-End</span><span class="sxs-lookup"><span data-stu-id="8a173-118">Remove SQL Server instances and databases on the Back End Server</span></span>](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+> [<span data-ttu-id="01b5a-118">Remover instâncias SQL Server e bancos de dados no Servidor Back-End</span><span class="sxs-lookup"><span data-stu-id="01b5a-118">Remove SQL Server instances and databases on the Back End Server</span></span>](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
     
 
