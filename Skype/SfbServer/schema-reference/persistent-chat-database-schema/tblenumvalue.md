@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: a tabela tblEnumValue é uma tabela embutida em código que contém os valores de visibilidade e comportamento dos atributos que são usados na tabela Node.
 ms.openlocfilehash: 579b2747ea753b8a701d11dd806178427cbb27b3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212877"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
@@ -47,6 +47,6 @@ a tabela tblEnumValue é uma tabela embutida em código que contém os valores d
 |5  <br/> |2  <br/> |auditório  <br/> |
 |6  <br/> |1  <br/> |Abrir  <br/> |
    
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [tblNode](tblnode.md)

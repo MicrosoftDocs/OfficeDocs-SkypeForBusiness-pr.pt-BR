@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 description: 'A topologia: Página aplicativo de servidor exibe os aplicativos para servidores em sua implantação.'
 ms.openlocfilehash: 8f49a587dc77de96e0097025e0bc493ca7d66132
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220060"
 ---
 # <a name="topology-server-application"></a>Topologia: Aplicativo de Servidor
 
@@ -34,7 +34,7 @@ Você pode executar as seguintes tarefas na **topologia**: página **Aplicativo 
 
 - Marque ou desmarque um aplicativo como crítico
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Habilitar ou desabilitar um aplicativo de servidor Language (MSPL) de processamento de SIP da Microsoft](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
 

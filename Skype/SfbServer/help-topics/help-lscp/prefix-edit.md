@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 description: Para definir os prefixos ou iniciando dígitos, adicione os prefixos de número que essa rota deve lidar, incluindo o + se necessário. Por exemplo, você pode corresponder todos os números, começando com +123.
 ms.openlocfilehash: a6c2856395104a00535e3792c9c79254f1510ded
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220344"
 ---
 # <a name="prefix-edit"></a>Edição de Prefixo
  

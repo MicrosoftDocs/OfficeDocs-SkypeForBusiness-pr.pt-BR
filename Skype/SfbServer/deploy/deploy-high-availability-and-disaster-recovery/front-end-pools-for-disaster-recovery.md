@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Você pode usar pools de front-ends para fornecer proteção à recuperação de desastre, mas isso não é obrigatório.
 ms.openlocfilehash: 028e0b4966a15b81b3e6e5627e63261207835f1f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225536"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Implantar pools de Front-End pareados para recuperação de desastres em Skype para Business Server
  
@@ -80,6 +80,6 @@ Você pode usar pools de front-ends para fornecer proteção à recuperação de
 > [!NOTE]
 > A opção de **failover automático e failback para voz** e os intervalos de tempo associado no construtor de topologia se aplicam somente para os recursos de resiliência de voz que foram introduzidos no Lync Server. Selecionar essa opção não implica que o failover de pool discutido neste documento seja automático. O failback e o failover de pool sempre exigem que um administrador invoque manualmente os cmdlets de failback e failover, respectivamente.
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Front-End pool disaster recovery no Skype para Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

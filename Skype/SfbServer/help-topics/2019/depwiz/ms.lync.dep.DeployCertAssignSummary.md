@@ -14,11 +14,11 @@ ms.assetid: e9478bf4-4e1a-46a2-bf76-3ff08a193523
 ROBOTS: NOINDEX, NOFOLLOW
 description: Antes de concluir a atribuição de certificado, são apresentados com um resumo de atribuição de certificado que lista os detalhes do certificado que será atribuído. Revise as informações para certificar-se de que o nome da entidade e os nomes de entidade alternativos estão corretos. Quando você terminar a revisão do resumo do certificado, clique em Avançar.
 ms.openlocfilehash: 4d86ce216ffcd611c303ec721be105c4144a9754
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885930"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216519"
 ---
 # <a name="certificate-assignment-summary"></a>Atribuição de Certificado (Resumo)
  
