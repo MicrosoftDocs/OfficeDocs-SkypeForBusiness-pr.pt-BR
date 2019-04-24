@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to add an emergency address to your Skype for Business account. '
+description: 'Saiba como adicionar um endereço de emergência à sua conta do Skype for Business. '
 ms.openlocfilehash: b3fab8d41c1b6f59961feee09f5eae888d32b362
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047734"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32170911"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Adicionar, alterar ou remover um endereço de emergência para sua organização
 
 Um endereço de emergência deve ser associado um número de telefone, mas quando isso acontece pode variar entre países/regiões. Por exemplo, nos Estados Unidos, você precisa associar um endereço de emergência quando atribui o número de telefone para o usuário. No Reino Unido, você precisa associar um endereço de emergência para o número de telefone quando você está obtendo os números de telefone do Office 365 ou transferindo números de telefone do seu provedor de serviço atual.
   
-Não importa qual em país/região você estiver, é possível adicionar um local ou mais locais a um endereço de emergência ou remover um endereço de emergência. Dependendo do número de locais físicos em sua organização, você pode criá-los para prédios, andares e escritórios. Consulte [Cite locais de emergência, endereços e roteamento de chamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) para alguns detalhes.
+No matter which country/region you are in, it's possible to add a location or locations to an emergency address or remove an emergency address. Depending on the number of physical locations in your organization, you can create them for buildings, floors, and offices. See [What are emergency locations, addresses, and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for some details.
   
 Para saber como obter um Plano de Chamadas e quanto ele custa, consulte [Licenciamento de complemento para Skype for Business e Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -52,7 +52,7 @@ Para saber como obter um Plano de Chamadas e quanto ele custa, consulte [Licenci
 5. Depois de digitar todas as informações do endereço, clique em **Validar**.
     
     > [!IMPORTANT]
-    > [!IMPORTANTE] Validar um endereço cívico envolve certificar-se de que ele é legítimo e está formatado corretamente. É possível que um endereço de emergência parcialmente correto, tais como se você digitado incorretamente o nome da cidade, talvez ainda passar validação. Mesmo que tenha sido escrito errado e aprovado na validação, a combinação do nome errado da cidade com outras partes corretas do endereço é suficiente para encaminhar a chamada para o centro de despacho de emergência apropriado. 
+    > Validating a street or civic address involves making sure that it is legitimate and correctly formatted. It is possible that a partially correct emergency address, such as if you mistyped the name of the city, may still pass validation. Even though it's misspelled and passed validation, the combination of the misspelled name of city along with the other correct parts of the address are enough information to route the call to the appropriate emergency dispatch center. 
     
     > Observação: Bélgica, França, Alemanha, Irlanda, países baixos e Espanha é importante entender que para ativar com êxito um número de telefone no Office 365 da configuração de endereço no local de emergência, que será usado para adquirir o número, devem coincidir com o código de área do número de telefone.
   

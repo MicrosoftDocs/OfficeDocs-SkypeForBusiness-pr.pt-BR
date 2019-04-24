@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Você pode editar as propriedades do pool do servidor Front-End ou Front-End editando ou configurar os seguintes atributos. A página de configuração é separada nas seguintes seções:'
 ms.openlocfilehash: 34f026b6e802bb83c550d2a81e5630a64765e27d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897413"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32180372"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expansor de Configurações Gerais de Front End para Lync Server 2010
 
@@ -97,6 +97,6 @@ Clique em **Cancelar** para descartar suas alterações e fechar as **Editar pro
 
 Clique em **Ajuda** para ler esse tópico de Ajuda.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Definir e configurar um Pool de Front-End ou servidor Standard Edition](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)

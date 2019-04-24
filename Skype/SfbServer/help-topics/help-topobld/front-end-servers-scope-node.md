@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 description: 'O nó de Pools de Front-Ends Enterprise Edition lista os pools de Front-Ends neste site, e o nó de Servidores Front-End Standard Edition lista os servidores Standard Edition neste site. Você pode executar as seguintes ações:'
 ms.openlocfilehash: cce9e2d52b20ad9b439435f12111fdc1e9bf7b8b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896669"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32177438"
 ---
 # <a name="front-end-servers-scope-node"></a>Nó de Escopo de Servidores Front-End
  

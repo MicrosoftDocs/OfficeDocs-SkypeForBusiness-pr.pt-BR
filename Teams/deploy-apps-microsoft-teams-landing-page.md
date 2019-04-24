@@ -15,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00653ebb796f0b33fa1461327ad173378fed8e28
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: e182732647b79f5a3a2ae48940ce3423b157c61f
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873165"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993528"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Aplicativos, bots e conectores no Microsoft Teams
 
@@ -76,9 +76,9 @@ Os proprietários e membros da equipe podem incluir guias em um canal, chat priv
 
 ### <a name="office-365-and-custom-connectors"></a>Office 365 e conectores personalizados
 
-Os conectores mantêm sua equipe atualizada com conteúdo e atualizações de serviços que você usa frequentemente diretamente em um canal. Com os conectores, os usuários do Teams podem receber atualizações de serviços populares, como Twitter, Trello, Wunderlist, GitHub e VSTS (Visual Studio Team Services) nos chats do Teams.
+Os conectores mantêm sua equipe atualizada com conteúdo e atualizações de serviços que você usa frequentemente diretamente em um canal. Com conectores, os usuários do Teams podem receber atualizações de serviços populares, como Twitter, Trello, Wunderlist, GitHub e Azure DevOps Services em chats do Teams.
 
-| Pergunte-se | Ação |
+| Pergunte a si mesmo | Ação |
 |--------------|--------|
 |Quero que os usuários criem conectores personalizados?|Para saber mais, confira [Usar o Office 365 e conectores personalizados no Teams](office-365-custom-connectors.md).|
 |||

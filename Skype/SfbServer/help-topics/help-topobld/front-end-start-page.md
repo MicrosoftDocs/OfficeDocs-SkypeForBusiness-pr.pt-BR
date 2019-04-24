@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3f6e69ed-4add-4dc8-acb8-dfe050819f5a
 description: Use este assistente para definir um novo pool de Front-End para um site. Cada site deve ter pelo menos um pool Enterprise Edition ou servidor Standard Edition. Para obter detalhes sobre os requisitos para o uso do Assistente para criar um novo pool de Front-End, consulte Define and Configure a Front End Pool na documentação de implantação.
 ms.openlocfilehash: b516f85a899968f135d02948c50e46d070ded376
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32176556"
 ---
 # <a name="front-end-start-page"></a>Página de Início do Front End
 
