@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Saiba mais sobre as políticas de mensagens e como eles podem ser usados para controlar as equipes de mensagens de chat.
-ms.openlocfilehash: 20c1354f168b5476733c95b49d3344364b8a6008
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f0dd52dac1bd2563a0ef5c500714ab63eeadf84d
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231779"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298449"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
@@ -86,7 +86,7 @@ Use as configurações a seguir para alterar a política global de mensagens ou 
 - **Visualizações de URL permitir** Use esta configuração para ativar automática URL pré-visualizar ativada ou desativada nas mensagens.
 - **Permitir que os usuários para traduzir mensagens** Ative esta configuração para permitir que os usuários automaticamente traduzir mensagens de equipes para o idioma especificado por suas configurações de idioma pessoal para o Office 365.
 - **Permitir imersivo leitor para a exibição de mensagens** Ative esta configuração para permitir que os usuários exibir mensagens no Microsoft Reader imersivo. Leitor imersivo é uma ferramenta de aprendizado que fornece uma experiência para aumentar a legibilidade do texto de leitura de tela inteira.
-- **Os usuários podem enviar notificações de prioridade** Se você ativar isso, os usuários podem indicar a prioridade da mensagem.
+- **Os usuários podem enviar notificações de prioridade** Se você ativar isso, os usuários podem enviar uma mensagem que usa notificações de prioridade. Notificações de prioridade notificam os usuários repetidamente por um período de 20 minutos ou até que as mensagens são buscadas e lido pelo destinatário, maximizando a probabilidade de que a mensagem é buscada e tratada oportunamente.
 - **Criação de mensagem de voz** 
     - **Permitidos em bate-papos e canais** Isso significa que os usuários podem deixar mensagens de voz em bate-papos e canais.
     - **Permitidos em bate-papos somente** Isso significa que os usuários podem deixar mensagens de voz em bate-papos, mas não no canais.

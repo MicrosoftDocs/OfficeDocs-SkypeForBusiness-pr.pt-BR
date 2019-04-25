@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: Leia este tópico para saber como lidar com failovers de tronco em chamadas de saída de equipes para o controlador de borda de sessão (SBC).
-ms.openlocfilehash: 1a40cc3fa94bfba3c637769774f5f5b829d29ed4
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: b2da454097fcb0f0af91aefad987d195e9e0f912
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351102"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298552"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Failover de tronco em chamadas de saída
 

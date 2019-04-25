@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: Leia este tópico para saber como roteamento direto do Microsoft telefone sistema permite que você se conectar a um controlador de borda de sessão (SBC) com suporte, fornecida pelo cliente ao sistema de telefone da Microsoft.
-ms.openlocfilehash: 202b25903a3e48b0a2a2f32853f061eb8ca73cc8
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: e2b09d4aef25569e1112983b5f62bf2ba3758387
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569938"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298568"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -44,7 +45,7 @@ A Microsoft também oferece soluções de voz all nuvem, como planejar a chamada
 - Sua organização exige conexão para dispositivos analógicos de terceiros, centros de chamada e assim por diante. 
 - Sua organização tem um contrato existente com uma operadora de telefonia PSTN.
 
-Roteamento direto também oferece suporte a usuários que têm a licença adicional para o Microsoft chamar plano. Para obter mais informações, consulte [Chamando planos no Office 365](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) e o [licenciamento e outros requisitos](#licensing-and-other-requirements). 
+Roteamento direto também oferece suporte a usuários que têm a licença adicional para o Microsoft chamar plano. Para obter mais informações, consulte [sistema telefônico e planos de chamada](calling-plan-landing-page.md). 
 
 Com o roteamento direto, quando os usuários participem de uma conferência agendada, o número de discagem é fornecido pelo serviço de conferência de áudio da Microsoft, que requer o licenciamento correto.  Ao fazer chamadas, o serviço de conferência de áudio Microsoft coloca a chamada usando os recursos de chamada online, que requer o licenciamento correto. (Observe que a discagem externa não é roteado por meio de roteamento direto). Para obter mais informações, consulte [Reuniões Online com equipes](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
@@ -247,7 +248,7 @@ Os dispositivos que tiverem sido validados são listados como certificado para e
 Para obter mais informações sobre SBCs com suporte, consulte a [lista de controladores de borda de sessão certified para roteamento direto](direct-routing-border-controllers.md).
 
  
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Configurar o Roteamento Direto](direct-routing-configure.md)
 

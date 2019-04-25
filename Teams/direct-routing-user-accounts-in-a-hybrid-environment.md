@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: Saiba mais sobre os diferentes combinações de criação de usuário e quais combinações são ou não suporte.
-ms.openlocfilehash: 88f679d5028cd2626ce4e85f0794aafb38317c9c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aaaf06fd0f4e697a1a4c371a9030510b9708f171
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232615"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298536"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Contas de usuário em um ambiente híbrido com conectividade PSTN
 
