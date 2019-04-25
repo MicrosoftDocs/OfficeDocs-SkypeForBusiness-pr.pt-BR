@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para a República Dominicana.
 ms.openlocfilehash: e1454845080adbd4ffbe1b9edb37951c7b5c7aa8
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236191"
 ---
 # <a name="availability-in-the-dominican-republic"></a>Disponibilidade na República Dominicana
 

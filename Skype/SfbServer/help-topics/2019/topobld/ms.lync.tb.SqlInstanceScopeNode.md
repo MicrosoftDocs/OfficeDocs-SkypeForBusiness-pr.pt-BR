@@ -14,11 +14,11 @@ ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nó mostra o nome de domínio totalmente qualificado (FQDN) deste Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse servidor SQL. Você pode executar as seguintes ações:'
 ms.openlocfilehash: 2c87deeb0e49b23572e7b8c8cf2b330703c5835f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886392"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235210"
 ---
 # <a name="sql-instance-scope-node"></a>Nó de Escopo de Instância SQL
  

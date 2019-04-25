@@ -1,5 +1,5 @@
 ---
-title: Usando a Qualidade de Chamadas em sua organização
+title: Usar a qualidade da chamada em sua organização
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 description: Configurar e usar a análise de chamada para identificar e resolver Skype para problemas de qualidade de chamada de negócios e Teams da Microsoft.
 ms.openlocfilehash: 5ba24a8c4d8f74a2a43f28f3f42280a1be40f814
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861205"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227284"
 ---
-# <a name="using-call-quality-in-your-organization"></a>Usando a Qualidade de Chamadas em sua organização
+# <a name="using-call-quality-in-your-organization"></a>Usar a qualidade da chamada em sua organização
 
 

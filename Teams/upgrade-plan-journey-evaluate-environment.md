@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d8803c4f4135b620d0ab654415546a7419f9e4f1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223088"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação técnica")
 
@@ -157,7 +157,7 @@ Use a tabela a seguir para obter os detalhes de como os clientes e pontos de ext
 > | Que sistema operacional de área de trabalho os usuários estão utilizando? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (especificar a versão na coluna comentários). <br/> <input type="checkbox">Outros (Observe os detalhes na coluna comentários.) | |
 > | Qual versão do Microsoft Office é implantado <br>para esses dispositivos? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office para Mac 2011 <br/> <input type="checkbox">Office para Mac 2016 <br/> <input type="checkbox">Outros (Observe os detalhes na coluna comentários.) | |
 > | Qual tecnologia de implantação do Office está em uso <br>em sua organização? | <input type="checkbox">MSI <br/> <input type="checkbox">Click-to-Run | |
-> | Quais são os permitidos e suporte móveis <br>plataformas em uso? <br/>Selecione todas as opções que se aplicam. | <input type="checkbox">Windows <br/> <input type="checkbox"> Mobile <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android <br/> <input type="checkbox">Outros (Observe os detalhes na coluna comentários.) | |
+> | Quais são os permitidos e suporte móveis <br>plataformas em uso? <br/>Selecione todas as opções que se aplicam. | <input type="checkbox">Windows <br/> <input type="checkbox">Celular <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android <br/> <input type="checkbox">Outros (Observe os detalhes na coluna comentários.) | |
 > | Como os dispositivos móveis são fornecidos? <br/>Selecione todas as opções que se aplicam. | <input type="checkbox">Dispositivos corporativos <br/> <input type="checkbox">Traga seu próprio dispositivo | |
 > | Quais dispositivos faça usuários atualmente usar para acessar <br>Serviços de voz e conferência <br>(telefones, headsets, telefones, vídeo)? | | |
 

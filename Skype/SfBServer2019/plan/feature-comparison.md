@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: Skype para Business Server 2019 ou Skype para administradores corporativos Online pode usar estas tabelas para entender quais recursos são suportados em quais clientes.'
 ms.openlocfilehash: f11a6c5c31267dabd2d8125a604a659a71168d6c
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31516923"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231326"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparação de recursos do cliente de desktop do Skype para Business Server 2019
 
@@ -280,7 +280,7 @@ As contas do usuário podem existir online ou no local e isso afetará os recurs
 
 - Usuários externos: realizar chamadas de dois ou vários participantes com usuários externos.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 <a name="Types"> </a>
 
 [Planejar clientes e dispositivos](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)

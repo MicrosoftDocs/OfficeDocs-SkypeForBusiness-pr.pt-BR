@@ -1,12 +1,12 @@
 ---
-title: Gerenciar a versão gratuita do Microsoft Teams
+title: Gerenciar a versão gratuita de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 04/12/2019
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: ''
+ms.reviewer: daryav
 search.appverid: MET150
 description: Saiba mais sobre os recursos de administração no equipes livres.
 localization_priority: Normal
@@ -17,14 +17,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4a3d72374e2d49df0298002b99272c80d78ffe0
-ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
+ms.openlocfilehash: b6eb43669761e6f61d88299fe155501e807e1100
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31854141"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222329"
 ---
-<a name="manage-the-free-version-of-microsoft-teams"></a>Gerenciar a versão gratuita do Microsoft Teams
+<a name="manage-the-free-version-of-microsoft-teams"></a>Gerenciar a versão gratuita de Microsoft Teams
 ==========================================
 
 Na versão gratuita do Microsoft Teams, a primeira pessoa que se inscreve em sua organização tem uma função de administrador limitado. A pessoa que tem essa função limitada pode adicionar e remover membros da equipe e especificar se qualquer pessoa pode convidar membros adicionais, mas esse usuário tem nenhuma recursos administrativos avançados e nenhum acesso ao centro de administração do Microsoft Teams. 

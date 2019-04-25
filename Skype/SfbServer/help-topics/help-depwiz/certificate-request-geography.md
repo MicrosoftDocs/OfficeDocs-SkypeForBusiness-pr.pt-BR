@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
 description: Página informações geográficas solicita informações adicionais para a solicitação de certificado. Nessa página, selecione país e, em seguida, você tipo estado/província e Cidade/localidade em uma caixa de texto. Observe que você não deve usar abreviações e deve digitar o nome completo do estado/província e Cidade/localidade.
 ms.openlocfilehash: 38d36a7d68b7989dbe91bd02ff297089e400363f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30926487"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235097"
 ---
 # <a name="certificate-request-geography"></a>Solicitação de Certificado (Geografia)
  

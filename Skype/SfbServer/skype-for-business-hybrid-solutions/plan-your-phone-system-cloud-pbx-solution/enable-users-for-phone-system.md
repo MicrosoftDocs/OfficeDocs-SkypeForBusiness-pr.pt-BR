@@ -18,11 +18,11 @@ ms.custom: ''
 ms.assetid: 3cc3db88-0210-4804-b54e-ba4af1234884
 description: Este tópico descreve como habilitar usuários para o sistema telefônico no Office 365 com uma conectividade PSTN local. Antes de seguir as etapas neste tópico, leia o seguinte:.
 ms.openlocfilehash: a3eec7adbd4897889cbc2ef8c7e985231c53bc99
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889214"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234067"
 ---
 # <a name="enable-users-for-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Habilitar usuários para o sistema telefônico no Office 365 com conectividade PSTN local no Skype para Business Server
  

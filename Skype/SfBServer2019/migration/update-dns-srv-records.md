@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Para concluir este procedimento, você deve estar conectado ao servidor ou domínio como membro do grupo Administradores de domínio ou membro do grupo DnsAdmins.
 ms.openlocfilehash: 5cdf98d065abbb57b3cb654c8b770f8f1f87500c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872721"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231379"
 ---
 # <a name="update-dns-srv-records"></a>Atualizar registros de DNS SRV
 

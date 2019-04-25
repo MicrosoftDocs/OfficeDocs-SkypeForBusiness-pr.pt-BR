@@ -14,11 +14,11 @@ ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'No construtor de topologia, você pode executar tarefas relacionadas a um servidor individual executando o monitoramento clicando o servidor executando o monitoramento na árvore de console, clicando em ação na barra de ferramentas, ou uma tarefa no painel Ações e, em seguida, clicando em um dos as seguintes opções para o servidor executando o monitoramento:'
 ms.openlocfilehash: 2f156b660dc60a16c67ac9bdf54e8114ce17a0ed
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882380"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235351"
 ---
 # <a name="monitoring-scope-node"></a>Nó do Escopo de Monitoramento
  

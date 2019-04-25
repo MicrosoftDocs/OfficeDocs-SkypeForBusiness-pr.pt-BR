@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Se sua implantação herdada contido um servidor de arquivamento ou um Monitoring Server, após a migração para Skype para Business Server 2019, esses servidores poderão ser removidos do ambiente herdado, desde que todos os usuários foram removidos de quaisquer pools restantes de legado. Você pode remover o servidor de arquivamento ou o Monitoring Server em qualquer sequência. O requisito de chave é que todos os usuários foram removidos de quaisquer pools restantes de legado.
 ms.openlocfilehash: 5a3a691c8f2e8a4ad3610ccf1ea947ce23b74111
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878334"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231420"
 ---
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>Remover servidores de Arquivamento e de Monitoramento herdados
 

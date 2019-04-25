@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Criar ou modificar uma fila de espera do grupo de resposta, em Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: d564a40f8e650042fe23ff1db6262c6d1c5b93a1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223209"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Criar ou modificar uma fila de espera no Skype para negócios
  
@@ -199,7 +199,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     Get-CsRgsQueue -Name "Help Desk"
     ```
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   

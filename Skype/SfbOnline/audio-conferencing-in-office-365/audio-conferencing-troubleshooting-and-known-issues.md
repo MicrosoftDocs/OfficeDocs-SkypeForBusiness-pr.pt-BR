@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Obtenha uma lista de problemas conhecidos ao usar o Microsoft como seu provedor de conferência discada, status e algumas soluções alternativas. '
 ms.openlocfilehash: 997cc5007df35b307cb714b891bc60764bd4a645
-ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "23999170"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229180"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Solução de problemas e problemas conhecidos da audioconferência
 
@@ -37,7 +37,7 @@ Conferência de áudio que usa o Microsoft que o provedor de serviços de audioc
   
 No momento, use isso como uma referência ao solucionar possíveis problemas com a obtenção de conferência de áudio configurado e funcionando para as pessoas que usam o Skype para negócios em sua organização.
 
-|**Problema**|**Comportamento/sintomas**|**Solução alternativa conhecida**|**Data da descoberta**|
+|**Problema**|**Comportamento/Sintomas**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Notificações de entrada e saída são ativadas quando uma reunião é iniciado, mas eles estiver desativados logo depois do início da reunião.  <br/> |Por padrão, as notificações de entrada e saída estão desabilitadas para reuniões, onde os participantes ingressar de ambos os Skype para aplicativos de negócios e quando eles discam. Você pode habilitar os comunicados nas **Opções de reunião Skype** no Skype para o aplicativo de negócios. Em uma reunião na qual todos os participantes discam para ingressar, as notificações de entrada e saída estão habilitadas por padrão, pois a lista de participantes não está disponível para ninguém. Quando uma reunião foi iniciada com somente os participantes chamando em, a entrada e saída notificações serão ativadas, mas quando um participante junções usando um Skype para o aplicativo de negócios, as notificações será desativado. Quando desativado, as notificações podem estar habilitadas novamente usando as **Opções de reunião do Skype** no Skype para o aplicativo de negócios. <br/> |Não há solução alternativa.  <br/> |8/30/2017  <br/> |
 |Se um usuário é provisionado na primeira vez por sendo atribuído a uma licença E5, talvez seja possível para o e-mail de boas vindas de conferência de áudio não sejam entregues ao usuário se a caixa de correio não está habilitada.  <br/> |Se isso acontecer, você sempre pode reenviar as informações de conferência de áudio do usuário usando **conferência de áudio** no Skype para centro de administração de negócios ou usando o PowerShell. Consulte [Habilitar ou desabilitar o envio de emails ao alteram as configurações de conferência de áudio](enable-or-disable-sending-emails-when-their-settings-change.md).  <br/> **Observação:** Para reenviar o PIN de conferência de áudio para o usuário, o PIN deve ser redefinido. Isso também pode ser feito usando a **conferência de áudio** no Skype para centro de administração de negócios ou usando o PowerShell.          |Não há solução alternativa.  <br/> |8/30/2017  <br/> |

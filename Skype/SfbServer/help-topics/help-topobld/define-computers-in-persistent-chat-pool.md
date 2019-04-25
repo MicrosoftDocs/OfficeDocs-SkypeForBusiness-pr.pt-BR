@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 description: Você define os computadores que serão uma parte de um pool do servidor de Chat persistente, digitando o nome de domínio totalmente qualificado (FQDN) em FQDN do computador. Esse precisa ser o nome do computador conforme definido nos registros (A ou AAAA) do host DNS (Sistema de Nomes de Domínio).
 ms.openlocfilehash: 78a6912dc3cd77e82a998f858abd78c9bb719869
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226897"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>Definir computadores no Pool de Chat Persistente
  
@@ -38,7 +38,7 @@ Clique em **Cancelar** para descartar todas as alterações e encerrar o assiste
   
 Clique em **Ajuda** para acessar a ajuda contextual, como esta página.
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Planejar Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

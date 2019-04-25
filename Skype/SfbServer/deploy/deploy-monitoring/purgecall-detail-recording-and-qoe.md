@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: 'Resumo: Saiba como limpar manualmente registros de bancos de dados QoE usados pelo Skype para Business Server e do CDR.'
 ms.openlocfilehash: 55582d28541e798e8ab1c488fb6eeed266bd29b9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225466"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Limpar manualmente o registro de detalhes da chamada e bancos de dados de qualidade da experiência no Skype para Business Server
  

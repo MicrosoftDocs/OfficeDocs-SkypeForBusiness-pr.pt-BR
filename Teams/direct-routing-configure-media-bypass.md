@@ -1,5 +1,5 @@
 ---
-title: Configurar o bypass de mídia com o roteamento direto
+title: Configurar o bypass de mídia com Roteamento Direto
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como configurar o bypass de mídia com roteamento direto de sistema do telefone.
-ms.openlocfilehash: 405f71fd0a1e0ea3e8fec6ee1061786c93fabf1b
-ms.sourcegitcommit: 260635a24b282fbdf4a4aeffdb0f4f9be5407ec6
+ms.openlocfilehash: 459ebd80a175fbf2c213a016436a2bf130ae9982
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30631006"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232687"
 ---
-# <a name="configure-media-bypass-with-direct-routing"></a>Configurar o bypass de mídia com o roteamento direto
+# <a name="configure-media-bypass-with-direct-routing"></a>Configurar o bypass de mídia com Roteamento Direto
 
 Antes de o bypass de mídia configurando com o roteamento direto, certifique-se de que você leu [Plan for media bypass com o roteamento direto](direct-routing-plan-media-bypass.md).
 
@@ -53,19 +53,11 @@ Para obter instruções sobre como configurar os troncos e realizar a migração
 - Faixa de opções
 - TE-Systems (AnyNode)    
 
-No momento deste comunicado, SBCs a seguir são totalmente testadas e certificados para trabalhar com o bypass de mídia:
-
-- AudioCodes 9000 V7.20A.204.222, AudioCodes M800B-SBC / V7.20A.250.003
-
--   Faixa de opções
-    - 5210 v06.02.xx-xxx 
-    - v06.02.xx-xxx 5400,
-    - v06.02.xx-xxx 5110,
-
--   Sistema de TE AnyNode v 3.16.2 
+Para obter uma lista de controladores de borda de sessão (SBCs) certificados para o roteamento direta, consulte a [lista de controladores de Broder sessão certified para roteamento direto](direct-routing-border-controllers.md).
 
 
-## <a name="see-also"></a>Consulte Também
+
+## <a name="see-also"></a>Confira também
 
 [Planejar o bypass de mídia com o roteamento direto](direct-routing-plan-media-bypass.md)
 

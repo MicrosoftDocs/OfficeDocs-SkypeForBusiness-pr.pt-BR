@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 'Resumo: Saiba como definir um tronco adicional entre um servidor de mediação e um par de gateway no construtor de topologia no Skype para Business Server.'
 ms.openlocfilehash: 874d32053f4c3d91f16818bd34dc11806de8692c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223159"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Definir troncos adicionais no construtor de topologia no Skype para Business Server
  

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Criar ou modificar um intervalo de números de atendimento de chamada do grupo no Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: 0032d46507c6cb91629b94662ec67bf9c67b7cc4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223216"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Criar ou modificar um intervalo de números de atendimento de chamada do grupo no Skype para negócios
 
@@ -75,7 +75,7 @@ Os intervalos de números de grupo de atendimento de chamadas precisam estar de 
     > [!IMPORTANT]
     > Use esse cmdlet para mudar o tipo atribuído aos intervalos de números somente se você tiver especificado inicialmente o tipo incorreto e somente caso o intervalo de grupo ainda não esteja em uso. Se você alterar o intervalo de números de CallPark para GroupPickup ou vice-versa e o intervalo de números já estiver em uso, o estacionamento de chamada ou o atendimento de chamada em grupo irá parar de funcionar para aquele intervalo de números. Por exemplo, se você alterar um intervalo de números de CallPark para GroupPick, o aplicativo de estacionamento de chamada não pode usar aquele intervalo de Órbitas para estacionar chamadas.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [New-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 

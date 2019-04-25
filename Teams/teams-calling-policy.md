@@ -17,42 +17,21 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20dc75dfeb39fbd7a00e6c389dc923617265cc0b
-ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
+ms.openlocfilehash: 6e56f0c89859b940a82e76f8de35ff524a757ec9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "31869802"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224996"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Políticas de chamada no Microsoft Teams
 ==========================================
 
 No Microsoft Teams, chamando políticas controlam quais chamadas e recursos de encaminhamento de chamadas estão disponíveis aos usuários. As políticas de chamada determinam se um usuário pode fazer chamadas privadas, use o encaminhamento de chamadas ou usam rotear as chamadas para caixa postal, chamadas de envio para grupos de chamada, toque para outros usuários ou números de telefone externo simultâneo, delegação para chamadas de entrada e saídas, e assim por diante. Uma política global de padrão é criada automaticamente, mas os administradores também podem criar e atribuir políticas personalizadas de chamada.
 
-## <a name="calling-policy-settings"></a>Configurações de política de chamada
-
-|Configuração de política de chamada | Descrição |
-|-----------------------|-------------|
-|Usuário pode fazer chamadas particulares | Controla a todos os recursos de chamada em equipes. Desativar Isso desativará todas as funcionalidades de chamada em equipes.|
-|Encaminhamento de chamadas e toque simultâneo para outros usuários | Controla se as chamadas de entrada podem ser encaminhadas para outros usuários ou podem ligar para outra pessoa ao mesmo tempo. |
-|Encaminhamento de chamadas e toque simultâneo aos números de telefone externo | Controla se as chamadas de entrada podem ser encaminhadas para um número externo ou ligar para um número externo ao mesmo tempo.|
-|Caixa postal está disponível para roteamento de chamadas de entrada para os usuários | Chamadas de entrada permite que sejam enviadas para a caixa postal. Opções válidas são **sempre habilitada**, **sempre desabilitados**ou **usuário controlados**. |
-|Chamadas de entrada podem ser roteadas para chamar a grupos | Controla se as chamadas recebidas podem ser encaminhadas para um grupo de chamada.  |
-|Permite a delegação de chamadas de entrada e saídas | Permite que as chamadas de entrada sejam roteadas para os representantes; permite que representantes para fazer chamadas de saída em nome dos usuários para o qual eles têm permissões delegadas. |
-|Impedir que o desvio de Chamada Tarifada e enviar chamadas pela PSTN | Essa configuração para **ativado** enviará chamadas através de PSTN e incorrer encargos em vez de utilizar a rede e obter isenção das tarifas. |
-|Ocupado em ocupado está disponível durante uma chamada.| Configura as chamadas recebidas como são manipulados quando um usuário já estiver em uma chamada ou conferência. Chamadas de entrada ou novas podem ser rejeitadas com um sinal de ocupado. |
-
-### <a name="busy-options-busy-on-busy-setting"></a>Opções de ocupado (ocupado na configuração ocupado)
-
-Opções de disponibilidade é uma nova configuração em equipes chamadas diretivas que permite que você configure as chamadas de entrada como são manipuladas quando um usuário já estiver em uma chamada ou conferência ou colocou uma chamada em espera. Chamadas de entrada ou novas podem ser rejeitadas com um sinal de ocupado. Você pode habilitar opções de disponibilidade em um nível de locatário ou em um nível de usuário. 
-
-Independentemente de como suas opções de disponibilidade são configuradas, os usuários em uma chamada ou conferência ou aqueles com uma chamada em espera não são impedidos desde o início de novas chamadas ou conferências.
-
-Você pode usar o ocupado na configuração ocupada em chamar as configurações de diretiva para configurar as opções de disponibilidade. Essa configuração é desabilitada por padrão.
-
 ## <a name="create-a-custom-calling-policy"></a>Criar uma política personalizada de chamada
 
-Siga estas etapas para criar uma nova política personalizada chamada.
+Siga estas etapas para criar uma política personalizada de chamada.
 
 1. No Centro de administração do Microsoft Teams, selecione **voz** > **política de chamada**.
 2. Selecione **nova política**.
@@ -79,3 +58,44 @@ Siga estas etapas para atribuir uma política de chamada personalizada a um usu�
 3. No painel de **Gerenciar usuários** , procure o nome do usuário. (Você deve inserir pelo menos três caracteres).
 4. Selecione o nome do usuário e selecione **Adicionar**.
 5. Selecione **Salvar**.
+
+## <a name="calling-policy-settings"></a>Configurações de política de chamada
+
+Use as configurações a seguir para criar uma política personalizada de chamada.
+
+### <a name="user-can-make-private-calls"></a>Usuário pode fazer chamadas particulares
+
+Esta configuração controla a todos os recursos de chamada em equipes. Desative essa opção para desativar a todas as funcionalidades de chamada em equipes.
+
+### <a name="call-forwarding-and-simultaneous-ringing-to-other-users"></a>Encaminhamento de chamadas e toque simultâneo para outros usuários
+
+Essa configuração controla se as chamadas recebidas podem ser encaminhadas para outros usuários ou podem ligar para outra pessoa ao mesmo tempo. 
+
+### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>Encaminhamento de chamadas e toque simultâneo aos números de telefone externo
+
+Essa configuração controla se as chamadas recebidas podem ser encaminhadas para um número externo ou ligar para um número externo ao mesmo tempo.
+
+### <a name="voicemail-is-available-for-routing-inbound-calls-to-users"></a>Caixa postal está disponível para roteamento de chamadas de entrada para os usuários
+
+Esta configuração habilita as chamadas de entrada sejam enviadas para a caixa postal. Opções válidas são:
+
+   - **Sempre habilitada** Caixa postal sempre está disponível para chamadas de entrada. 
+   - **Sempre desabilitado**  Caixa postal não está disponível para chamadas de entrada. 
+   - O **usuário é controlado**. Os usuários podem determinar se querem voicemail esteja disponível.
+
+### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Chamadas de entrada podem ser roteadas para chamar a grupos 
+
+Esta configuração controla se as chamadas recebidas podem ser encaminhadas para um grupo de chamada.
+
+### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>Permite a delegação de chamadas de entrada e saídas
+
+Esta configuração habilita as chamadas de entrada sejam roteadas para os representantes, permitindo a representantes para fazer chamadas de saída em nome dos usuários para o qual eles têm permissões delegadas. Para obter mais informações, consulte [compartilhar uma linha telefônica com um representante](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
+
+### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Impedir que o desvio de Chamada Tarifada e enviar chamadas pela PSTN 
+
+Essa configuração para **ativado** enviará chamadas pela PSTN e incorrer encargos em vez de enviá-los por meio da rede e obter isenção das tarifas.
+
+### <a name="busy-on-busy-is-available-while-in-a-call"></a>Ocupado em ocupado está disponível durante uma chamada
+
+Ocupado em ocupado (opções de ocupado)) é uma nova configuração de políticas de chamada que permite que você configure as chamadas de entrada como são manipuladas quando um usuário já estiver em uma chamada ou conferência ou tem uma chamada de equipes colocados em espera. Chamadas de entrada ou novas podem ser rejeitadas com um sinal de ocupado. Você pode habilitar opções de disponibilidade em um nível de locatário ou em um nível de usuário. Independentemente de como suas opções de disponibilidade são configuradas, os usuários em uma chamada ou conferência ou aqueles com uma chamada em espera não são impedidos desde o início de novas chamadas ou conferências. Essa configuração é desabilitada por padrão.
+

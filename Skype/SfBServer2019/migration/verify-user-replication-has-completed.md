@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Ao executar o cmdlet Move-CsUser, você pode enfrentar uma falha porque as informações de usuário entre os serviços de domínio Active Directory (AD DS) e o Skype para bancos de dados corporativos Server 2019 estão fora de sincronia porque a replicação inicial está incompleta. O tempo que leva para a conclusão bem-sucedida do Skype para a sincronização inicial do serviço do replicador de usuário do Business Server 2019 depende do número de controladores de domínio que estão hospedados na floresta do Active Directory que hospeda o Skype para negócios Pool de servidor 2019. O Skype para o processo de sincronização inicial do replicador de usuário do Business Server 2019 serviço ocorre quando o Skype para Business Server 2019 servidor Front-End é iniciado pela primeira vez. Depois disso, a sincronização, em seguida, com base no intervalo de replicador de usuários. Conclua as seguintes etapas para verificar se a replicação de usuário foi concluída antes de executar o cmdlet Move-CsUser.
 ms.openlocfilehash: bab54e91ebda7a10804980e368e05bb58ff911ff
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889505"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231333"
 ---
 # <a name="verify-user-replication-has-completed"></a>Verificar a conclusão da replicação de usuário
 

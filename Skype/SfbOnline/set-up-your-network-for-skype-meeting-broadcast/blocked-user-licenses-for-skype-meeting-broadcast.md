@@ -19,11 +19,11 @@ ms.custom:
 - SMB
 description: Infelizmente, há certas licenças de usuário que são bloqueadas quando o usuário vá para https://broadcast.skype.com e deseja usar a difusão de reunião do Skype. Se um usuário veja essa mensagem, eles têm as licenças bloqueadas atribuídas a eles. Se ainda quiser que ele para usá-lo, atribua outra licença do Office 365.
 ms.openlocfilehash: b20334a525aa7942af90439cf05add7c49fc1f8b
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788961"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226359"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Bloqueado licenças de usuário para hospedar a transmissão de reunião do Skype
 

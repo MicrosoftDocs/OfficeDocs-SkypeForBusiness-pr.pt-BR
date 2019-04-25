@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Você pode usar o Skype para painel de controle do Business Server para iniciar ou parar todos os serviços de legado executando em um computador específico ou para iniciar ou parar um serviço específico de legado.
 ms.openlocfilehash: 237d0dcd44855bbea9ea1b084df429946e8f5f15
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895786"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231406"
 ---
 # <a name="stop-legacy-services"></a>Interromper serviços herdados
 

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Resumo: Saiba como criar ou modificar uma rota de voz no Skype para Business Server usando o Skype para painel de controle do servidor de negócios.'
 ms.openlocfilehash: 166b9635d9ddb50ec65b7cbc4d55aa92c19b55e0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888567"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223202"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Criar ou modificar uma rota de voz no Skype para negócios
  
@@ -121,7 +121,7 @@ ms.locfileid: "30888567"
     > [!NOTE]
     > Toda vez que criar ou modificar uma rota de voz, você deve executar o comando **Confirmar tudo** para publicar a alteração na configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Exibir registros de uso PSTN em Skype para negócios](view-pstn-usage-records.md)
   

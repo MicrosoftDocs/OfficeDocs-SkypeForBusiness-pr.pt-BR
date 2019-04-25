@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Resumo: Criar ou modificar políticas de voz e configurar registros de uso PSTN usando o Skype para painel de controle do servidor de negócios.'
 ms.openlocfilehash: 9a7847e918be71b88a7ba32c986c18f7659905ee
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875571"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222516"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios
 
@@ -334,7 +334,7 @@ ms.locfileid: "30875571"
 
 12. (Opcional) Escape de caixa postal detecta que uma chamada foi atendida imediatamente por correio de voz de celular do usuário e desconecta a chamada para a correio de voz de celular. Isso permite que a chamada para continuar a ligar para logon do usuário do outros pontos de extremidade dando ao usuário a oportunidade de atender à chamada. Para obter detalhes sobre como configurar uma política de caixa postal, consulte [Configurar escape da caixa postal no Skype para negócios](configure-voice-mail-escape.md).
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Exibir registros de uso PSTN em Skype para negócios](view-pstn-usage-records.md)
 

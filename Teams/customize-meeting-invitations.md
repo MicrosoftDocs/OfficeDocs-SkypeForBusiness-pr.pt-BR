@@ -1,5 +1,5 @@
 ---
-title: Personalizar os convites para reunião no Microsoft Teams
+title: Personalizar convites para reunião no Microsoft Teams
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Saiba como incluir o logotipo, aviso de isenção legal e outras informações em seus convites de reunião.
 ms.openlocfilehash: ab42ddbc427ec344b8e4cf0f85e11f1426a5c6c4
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955002"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236042"
 ---
-# <a name="customize-meeting-invitations-in-microsoft-teams"></a>Personalizar os convites para reunião no Microsoft Teams
+# <a name="customize-meeting-invitations-in-microsoft-teams"></a>Personalizar convites para reunião no Microsoft Teams
 
 Como um administrador, você pode garantir que todas as Teams Microsoft convites de reunião incluem algumas informações úteis, que os usuários talvez precisem, como links para seu site de suporte e aviso de isenção legal, logotipo de sua empresa e outro texto que você deseja incluir. 
 

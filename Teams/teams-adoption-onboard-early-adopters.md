@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415726bbc78fbc98b5e3eefa3cb1455f3ddee483
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0225f439f8a8ffef245e94f5536251fb2ad43e94
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462128"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227041"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Integração de usuários pioneiros e coleta de comentários do Microsoft Teams
 
@@ -39,7 +39,7 @@ Conclua as etapas a seguir com esses usuários iniciais:
 
 Use os componentes do Office 365 para coletar comentários para o seu projeto.
   
-![Ícone de ponto de decisão.](media/teams-adoption-decision-icon.png) Decisão: Se sua organização já tiver um investimento em uma rede do Yammer, você pode usá-lo como um fórum de comentários do seu programa de adoção inicial. Caso contrário e seu programa de adoção antecipada tem menos de 2500 membros, crie uma equipe em equipes para coletar comentários e fornecer treinamento.
+![Ícone de ponto de decisão.](media/teams-adoption-decision-icon.png) Decisão: Se sua organização já tiver um investimento em uma rede do Yammer, você pode usá-lo como um fórum de comentários do seu programa de adoção inicial. Caso contrário e seu programa de adoção antecipada tem menos de 5.000 membros, crie uma equipe em equipes para coletar comentários e fornecer treinamento.
   
 > [!Note]
 > Algumas organizações combina os canais de feedback de adoção inicial em que a equipe de programa de campeões de trabalho em equipe. Essa é uma boa abordagem porque muitos usuários iniciais podem se tornar campeões no futuro, e ele criará uma comunidade mais forte. 

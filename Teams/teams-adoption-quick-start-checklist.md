@@ -18,11 +18,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f19d78de9b9227dcbc42073b177fffd9596e5ffb
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464008"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225044"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Lista de verificação de início rápido da adoção do Microsoft Teams
 
@@ -32,33 +32,33 @@ ms.locfileid: "30464008"
 
 - [Pré-requisitos de adoção](teams-adoption-get-started.md)
 
-## <a name="phase-1---start"></a>Fase 1 - iniciar
+## <a name="phase-1---start"></a>Fase 1 - Iniciar
 
-- [Entenda as equipes e canais](teams-adoption-understand-teams-and-channels.md)
-- [Criar seus primeiro equipes](teams-adoption-your-first-teams.md)
+- [Entender as equipes e canais](teams-adoption-understand-teams-and-channels.md)
+- [Criar sua primeira equipe](teams-adoption-your-first-teams.md)
 - [Você está pronto para equipes?](teams-adoption-assess-readiness.md)
 - [Se encontrar com os participantes](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [Identificar usuários iniciais](teams-adoption-assess-readiness.md#identify-early-adopters)
 
-## <a name="phase-2---experiment"></a>Fase 2 - experimento
+## <a name="phase-2---experiment"></a>Fase 2 - Experimentar
 
-- [Criar seu programa de campeões](teams-adoption-create-champions-program.md)
+- [Criar seu programa de defensores](teams-adoption-create-champions-program.md)
 - [Conclua o início rápido de governança](teams-adoption-governance-quick-start.md)
 - [Definir os cenários de uso](teams-adoption-define-usage-scenarios.md)
 - [Participantes de negócios da entrevista](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
 - [Mapear e priorizar os cenários de negócios](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
-- [Primeiros clientes a adotar onboard e coletar comentários](teams-adoption-onboard-early-adopters.md)
-- [Suporte integrado](teams-adoption-onboard-support.md)
+- [Integração de usuários pioneiros e coleta de comentários](teams-adoption-onboard-early-adopters.md)
+- [Suporte à integração](teams-adoption-onboard-support.md)
 
-## <a name="phase-3---scale"></a>Fase 3 - escala
+## <a name="phase-3---scale"></a>Fase 3 - Dimensionar
 
 - [Definir os resultados e medidas de sucesso](teams-adoption-define-outcomes.md)
 - [Selecione uma estratégia de habilitação de serviço](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
 - [Envolver as partes interessadas](teams-adoption-define-outcomes.md#engage-stakeholders)
 - [Expanda sua equipe de implementação](teams-adoption-define-outcomes.md#expand-your-implementation-team)
 - [Expanda suas políticas de gerenciamento de informações e governança](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
-- [Otimizar comentários e emissão de relatórios](teams-adoption-optimize-feedback-and-reporting.md)
-- [Unidade de divulgação e implementar o treinamento](teams-adoption-drive-awareness.md)
+- [Otimizar comentários e relatórios](teams-adoption-optimize-feedback-and-reporting.md)
+- [Promover a conscientização e implementar treinamento](teams-adoption-drive-awareness.md)
 - [Agendar revisões de serviço](teams-adoption-schedule-service-health-reviews.md)
 
 

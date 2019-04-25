@@ -14,11 +14,11 @@ ms.assetid: 5a161404-b294-47fa-ad62-0e12bffcd8e4
 ROBOTS: NOINDEX, NOFOLLOW
 description: As etapas necessárias para definir uma nova VIS ou vídeo Gateway no construtor de topologia são descritas online em criar um pool VIS no Skype para Business Server.
 ms.openlocfilehash: 9c10ac5f05fb88ce41699e890dd116013e78fde8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235203"
 ---
 # <a name="video-interop-server-next-hop-settings"></a>Configurações de próximo salto do Servidor de interoperabilidade de vídeo
  
@@ -32,6 +32,6 @@ As etapas de configuração para um novo servidor de interoperabilidade de víde
   
  As configurações para um VTC que precisam ser definidas na GUI Cisco para interoperação com um Gateway de vídeo e um VIS são descritas online em [Configure um VTC para interoperação com Skype para Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Planejar o servidor de interoperabilidade de vídeo no Skype for Business Server](../../../plan-your-deployment/video-interop-server.md)

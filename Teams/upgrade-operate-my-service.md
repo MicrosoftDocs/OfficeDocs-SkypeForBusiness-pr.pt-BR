@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44a215c96c85c6681ba4dcfda82e7193a48b95c9
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8f9f992b31dcdade2d5ba0dd85757ce99980fb80
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649408"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232993"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio excelência operacional] (media/upgrade-banner-op-excellence.png "Estágios da atualização jornada, com ênfase no estágio excelência operacional")
 
@@ -438,7 +438,7 @@ Mesmo que ter seguido as diretrizes anteriores, usuários em sua organização a
 
 4. **Visite a comunidade do Microsoft Teams:** [Comunidade de equipes da Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) oferece espaços dedicados para equipes. A comunidade de equipes fornece uma lista de discussão, postagens de blog e centralizados em torno de equipes de comunicados. Você pode postar uma pergunta ou discussões anteriores para soluções de pesquisa ao seu problema.
 
-5. **Entre em contato com o suporte da Microsoft:** Você pode contatar o Microsoft Support para problemas com equipes online ou por telefone. Para obter informações, consulte [suporte para as equipes da Microsoft do contato](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Para Premier clientes, suporte a solicitações podem ser iniciadas seguindo as orientações em [contate o suporte for Microsoft Teams (Premier clientes)](https://support.microsoft.com/premier/contacts).
+5. **Entre em contato com o suporte da Microsoft:** Você pode contatar o Microsoft Support para problemas com equipes online ou por telefone. Para obter informações, consulte [suporte para produtos de negócios do contato](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). Para Premier clientes, suporte a solicitações podem ser iniciadas seguindo as orientações em [contate o suporte for Microsoft Teams (Premier clientes)](https://support.microsoft.com/premier/contacts).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tarefas diariamente/semanalmente/mensal/conforme necessário
 
@@ -462,7 +462,7 @@ Mesmo que ter seguido as diretrizes anteriores, usuários em sua organização a
 
 [Verificar a integridade do serviço do Microsoft Teams](service-health.md)
 
-[Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+[Entre em contato com o suporte para produtos comerciais - Ajuda para Administradores](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 [Suporte Premier do contato](https://support.microsoft.com/premier/contacts)
 
@@ -477,7 +477,7 @@ Depois que o serviço Microsoft Teams tiver sido implantado, você precisará ex
 ### <a name="service-administration"></a>Administração do serviço
 
 O serviço de equipes tem várias configurações que podem ser configuradas todo o inquilino.
-Alterações feitas nas configurações de locatário afetam todos os usuários que tiverem sido habilitados para equipes. Para obter uma lista detalhada dessas configurações, consulte [recursos de gerenciar equipes da Microsoft em sua organização do Office 365](enable-features-office-365.md).
+Alterações feitas nas configurações de locatário afetam todos os usuários que tiverem sido habilitados para equipes. Para obter uma lista detalhada dessas configurações, consulte [configurações de gerenciar equipes da Microsoft para sua organização](enable-features-office-365.md).
 
 ### <a name="user-administration"></a>Administração do usuário
 

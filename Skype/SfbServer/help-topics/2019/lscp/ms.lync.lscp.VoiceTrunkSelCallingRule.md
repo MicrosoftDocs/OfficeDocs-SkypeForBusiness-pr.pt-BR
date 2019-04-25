@@ -14,11 +14,11 @@ ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'A caixa de diálogo Selecionar Regras de Conversão do Número de Chamada exibe as regras de conversão configuradas para sua implantação. Para obter detalhes sobre as regras de transição, consulte os seguintes tópicos:'
 ms.openlocfilehash: b5832bd57d724720b827f2faef442111f9e52d6c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221487"
 ---
 # <a name="select-calling-number-rules-translation"></a>Selecionar Conversão de Regras de Número de Chamada
 

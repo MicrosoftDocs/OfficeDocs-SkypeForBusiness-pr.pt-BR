@@ -1,5 +1,5 @@
 ---
-title: Pesquisas de comentários do usuário no Microsoft Teams ou Skype para negócios
+title: Pesquisas de comentários do usuário no Skype for Business ou no Microsoft Teams
 author: dearbeen
 ms.author: MyAdvisor
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 74594c81d86bf19b80cf40ad8292517705e7e690
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235883"
 ---
 # <a name="user-feedback-surveys"></a>Pesquisas de comentários do usuário 
 
@@ -57,13 +57,13 @@ Se você escolher **Discordo de certa forma** ou **Discordo plenamente** por qua
 
 Você recomendar usando Teams como um telefone para um amigo ou colega? (0 = não nisso provavelmente... 10 = extremamente provável)
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 Como provavelmente tem recomendar seu dispositivo telefônico para um amigo ou colega? (0 = não nisso provavelmente... 10 = extremamente provável)  
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 

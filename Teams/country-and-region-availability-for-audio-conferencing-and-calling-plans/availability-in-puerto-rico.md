@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Porto Rico.
 ms.openlocfilehash: 8a245f67e4542f532ec7282abaea429a0a3b95f5
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542827"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232702"
 ---
 # <a name="availability-in-puerto-rico"></a>Disponibilidade em Porto Rico
 
@@ -60,7 +60,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |3000 minutos de chamadas domésticas ou 600 minutos de chamadas internacionais (o limite que for atingido primeiro). As chamadas nacionais nos EUA incluem chamadas para todos os 50 estados norte-americanos e Porto Rico. Os usuários atribuídos com a localização de uso de licença dos EUA e/ou Porto Rico compartilham o mesmo pool de minutos.  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |3.000 minutos de chamadas domésticas ou 600 minutos de chamadas internacionais (o limite que for atingido primeiro em cada mês). As chamadas de domésticas Estados Unidos inclui chamadas para todos os estados dos Estados Unidos e Porto Rico 50. Os usuários atribuídos com o local de uso de licença dos Estados Unidos e/ou Porto Rico compartilham o mesmo pool de minutos.  <br/> |
 |Pode fazer chamadas de saída para números premium? <br/> | Não suportado no momento. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    
@@ -68,7 +68,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |San Juan  <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |SAN Juan  <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    

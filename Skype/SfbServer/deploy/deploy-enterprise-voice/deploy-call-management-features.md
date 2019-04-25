@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: Implantando os recursos de gerenciamento de chamada do Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: 6c7a87502c5690d8e39c9e62c8e398381d2504b3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892727"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223131"
 ---
 # <a name="deploy-call-management-features-in-skype-for-business"></a>Implantar os recursos de gerenciamento de chamada do Skype para negócios
  

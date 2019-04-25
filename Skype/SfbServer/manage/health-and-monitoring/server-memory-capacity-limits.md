@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: 'Resumo: Saiba como monitorar limites de capacidade de memória do servidor no Skype para Business Server.'
 ms.openlocfilehash: 249145e0e76377c356082965a76ce8bf3d11af42
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884446"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225353"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Monitorar a existência de limites de capacidade de memória do servidor no Skype para Business Server
  
@@ -48,6 +48,6 @@ Servidor Front-End precisa memória suficiente disponível para suportar o servi
   
 Se a quantidade de memória disponível no servidor Front-End for menor do que 1.500 MB ao planejar o número esperado de usuários de mobilidade, você precisa adicionar mais hardware para suportar o serviço de mobilidade. Para obter mais detalhes, consulte [mobility Monitor de desempenho no Skype para Business Server](monitor-mobility-performance.md) na documentação operações.
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Monitorar a mobilidade de desempenho no Skype para Business Server](monitor-mobility-performance.md)

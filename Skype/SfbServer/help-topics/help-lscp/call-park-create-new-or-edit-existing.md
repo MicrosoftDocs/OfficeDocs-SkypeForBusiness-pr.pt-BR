@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 description: Intervalos de números do estacionamento de chamada definem os números temporários nos quais as chamadas estacionadas são mantidas até que alguém as recupere ou tempo limite.
 ms.openlocfilehash: 6948bc42616ee85c77eb7fe250fe922420d6919b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234806"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>Estacionamento de Chamada: Criar Novo ou Editar Existente
 

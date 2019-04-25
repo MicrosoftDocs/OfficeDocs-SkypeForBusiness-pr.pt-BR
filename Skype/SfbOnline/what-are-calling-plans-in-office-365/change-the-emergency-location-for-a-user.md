@@ -1,5 +1,5 @@
 ---
-title: Atribuir ou alterar o local de emergência para um usuário
+title: Atribuir ou alterar o local de emergência de um usuário
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 'Saiba como alterar o local de emergência para seus usuários. Com um número ilimitado de locais, você pode alterar os locais de emergência quando seus funcionários se mudam de andares ou prédios. '
 ms.openlocfilehash: 9e583cf7882b5a269378dd69dbda37311ad08e28
-ms.sourcegitcommit: c40ebb4095fae861295c01af0a518375f32988e1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31744276"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233204"
 ---
-# <a name="assign-or-change-the-emergency-location-for-a-user"></a>Atribuir ou alterar o local de emergência para um usuário
+# <a name="assign-or-change-the-emergency-location-for-a-user"></a>Atribuir ou alterar o local de emergência de um usuário
 
 Cada número de telefone ativa deve ter um endereço de emergência associado ao atribuir o número de telefone a um usuário. (Você associar o endereço quando você receber um número de telefone no Office 365 ou quando você transfere um número de telefone.) Quando você associa o número com um endereço de emergência, você também pode adicionar um local de emergência para fornecer um local mais exato dentro de um local físico. Um local de emergência pode ser o andar, a ala do edifício ou número do escritório onde o usuário se encontra. Você pode ter um número ilimitado de locais para um determinado endereço de emergência, e você pode alterar o local de emergência, se o usuário move a um office diferente ou construção — por exemplo, se o usuário move de andar 34 para piso 35.
   

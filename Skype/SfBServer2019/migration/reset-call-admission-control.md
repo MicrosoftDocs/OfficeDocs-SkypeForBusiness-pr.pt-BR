@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Se um pool de Front-End herdado está hospedando o controle de admissão de chamadas (CAC), você deve mover a hospedagem de CAC para um Skype para Business Server 2019 pool antes de poder remover o pool de Front-End herdado.
 ms.openlocfilehash: 3b94322b86feb2c647f88102617ab1dcc9d5f8bc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895772"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231387"
 ---
 # <a name="reset-call-admission-control"></a>Redefinir controle de admissão de chamada
 

@@ -21,11 +21,11 @@ ms.custom:
 - Reporting
 description: Obter informações detalhadas sobre as dimensões e medidas expostas pelo painel de qualidade de chamada para Teams da Microsoft e Skype para Business Online.
 ms.openlocfilehash: 1510ab20ebce38c9610f4edb537f932dfd40567f
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569850"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232663"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas
 

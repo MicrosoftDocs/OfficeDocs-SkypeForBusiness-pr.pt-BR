@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
 ms.openlocfilehash: f248da01bb7046174fd241ed01ad6c0c93111cd9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237990"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Alternando entre as interfaces do usuário do cliente Skype for Business e do cliente Lync
 
@@ -278,7 +278,7 @@ Em seguida, você precisará vincular o GPO que você criou para o grupo de usu�
 Você também pode verificar se o GPO atualizou com êxito o Registro no computador de um usuário examinando o Registro. Abra o Editor do Registro e navegue até a chave **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\Lync]**. Se o GPO atualizou o Registro com êxito, você verá um valor chamado EnableSkypeUI com o valor 0.
   
 ## <a name="related-topics"></a>Tópicos relacionados
-[Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
+[Instalar o Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
 

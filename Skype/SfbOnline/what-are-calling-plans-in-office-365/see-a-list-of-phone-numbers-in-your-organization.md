@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: Saiba como ver uma lista de todos os números de telefone em sua organização, todos os números atribuídos aos usuários e todos os números são atribuídos a usuários de voz, a partir do Skype para centro de administração de negócios.
 ms.openlocfilehash: 7cda5c0ae791436d9f584cc4af802bfbc3649fcc
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753478"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229940"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver uma lista de números de telefone em sua organização
 
@@ -78,7 +78,7 @@ Ao configurar usuários, talvez você só queira ver a lista de números de tele
     > [!IMPORTANT]
     > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
-4. Você pode filtrar sua opinião para números de telefone que são atribuídos a usuários ou números de telefone que você pode atribuir a um usuário. Você pode filtrar por:
+4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
     
    - **Todos** os números de telefone, inclusive números de telefone de serviço.
     
@@ -102,7 +102,7 @@ Ao configurar usuários em sua organização para fazer e receber chamadas, prim
     > [!IMPORTANT]
     > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
-4. Você pode usar a lista suspensa para filtrar a exibição para usuários ativos, se o usuário está Online ou no local, ou o estado e tipo de licenciamento para um usuário. Você pode filtrar por:
+4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
     
    - **Usuários ativos** e se um usuário está online ou no local.
     

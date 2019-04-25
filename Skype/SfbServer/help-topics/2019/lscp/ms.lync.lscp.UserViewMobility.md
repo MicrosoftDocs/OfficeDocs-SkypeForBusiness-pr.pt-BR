@@ -14,11 +14,11 @@ ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 ROBOTS: NOINDEX, NOFOLLOW
 description: O modo de exibição - o diálogo de política de mobilidade exibe as propriedades da política de mobilidade selecionada.
 ms.openlocfilehash: d5e706c50a8a63c2278e910638c85c9d41bcbd84
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892900"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221557"
 ---
 # <a name="users-view-mobility-policy"></a>Usuários: Exibir Política de Mobilidade
 
@@ -26,7 +26,7 @@ A caixa de diálogo **Exibir - política de mobilidade** exibe as propriedades d
 
 Para obter detalhes sobre como atribuir políticas de mobilidade, consulte [Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx)e [atribuir uma política de mobilidade por usuário](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) .
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 

@@ -1,5 +1,5 @@
 ---
-title: Como devo inserir os números de telefone?
+title: Como deve inserir os números de telefone?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,13 @@ ms.custom:
 - Calling Plans
 description: 'Saiba como configurar os números de telefone quando transportá-las para Skype para negócios. '
 ms.openlocfilehash: 62f9fb98378bfa7802013399d3d9b005047e663d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229873"
 ---
-# <a name="how-should-i-enter-the-phone-numbers"></a>Como devo inserir os números de telefone?
+# <a name="how-should-i-enter-the-phone-numbers"></a>Como deve inserir os números de telefone?
 
 Quando você estiver portar números de telefone, você deverá inseri-los no formato correto. 
   
@@ -42,7 +42,7 @@ Quando você estiver portar números de telefone, você deverá inseri-los no fo
     
   - Para um número de 11 dígitos: **1\*() (\*&amp;42&amp;\*() (\*&amp;55550649** será corrigido para **+14255550649**.
     
-  - Todas as marcas serão ignoradas se houver 10 ou 11 dígitos. Por exemplo, ** \<div > 4255551234\</div >** será **+ 14255551234**.
+  - Todas as marcas serão ignoradas se houver 10 ou 11 dígitos. Por exemplo, ** \<div> 4255551234\</div>** será **+ 14255551234**.
     
   - "-", espaço e parêntese serão ignorada. Por exemplo:
     

@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: 'Resumo: Saiba como implantar um servidor de borda ou um pool de borda em sua Skype para ambiente de servidor de negócios.'
 ms.openlocfilehash: bbc331a6abf07450519f58395beda47446e6cef8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883739"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223800"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>Implantar um servidor de borda em Skype para Business Server
  

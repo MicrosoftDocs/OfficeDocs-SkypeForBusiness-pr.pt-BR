@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Uma prática recomendada geralmente aceita em migrações de é criar vários usuários de teste e usá-los para conduzir testes de sistemas. Depois de ter movido com êxito e testado essas contas, você deve identificar um grupo de usuários de produção piloto e mova as contas e execute testes de validação neles. Quando você obtiver resultados satisfatórios, você pode mover o restante de seus usuários para a nova implantação.
 ms.openlocfilehash: beb5df367ba97db5f654eba01fa6790d0e806ab3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894568"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231361"
 ---
 # <a name="user-migration"></a>Migração de usuários
 

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: Este tópico descreve as diretrizes de planejamento para implantação de servidor de mediação.
 ms.openlocfilehash: 1a35d2f0bb74cfd78cba8924e6cafb6ce601d647
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32228450"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Diretrizes de implantação para o servidor de mediação em Skype para Business Server
  

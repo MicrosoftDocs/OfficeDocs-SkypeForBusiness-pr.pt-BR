@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Siga as etapas deste tópico para modificar a configuração de um Skype existente para o conector de nuvem Business Edition 1.4.1 ou implantação posterior.
 ms.openlocfilehash: abe7d9be6ec0ae48ff8cbac09475c6a41bf2a49f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893052"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237606"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modificar a configuração de uma implantação do Cloud Connector existente
  

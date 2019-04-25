@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 041bd5db6f0579a21dbdff15136e91a70e5a8d21
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236417"
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
@@ -88,7 +88,7 @@ A tabela a seguir mostra os recursos de chamada e de reunião disponíveis para 
 > [!NOTE]
 > Os administradores do Office 365 controlam os recursos disponíveis aos convidados. 
  
-## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado versus acesso externo (federação)
+## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado vs. acesso externo (federação)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
  

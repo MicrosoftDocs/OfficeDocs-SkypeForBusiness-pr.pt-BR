@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Resumo: Saiba como definir uma regra de conversão usando a compilar uma ferramenta de regra de conversão no Skype para Business Server.'
 ms.openlocfilehash: 947dc6a76482fc5b00efaeb71463b35eab9f9cea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897689"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223744"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Criar ou modificar uma regra de conversão para apresentação da ID chamada no Skype para Business Server
 
@@ -99,7 +99,7 @@ Se você deseja definir uma regra de conversão digitando um conjunto de valores
     > [!NOTE]
     > Sempre que você cria ou modificar uma regra de conversão, você precisará executar o comando de **Confirmar todos** para publicar a alteração de configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Configurar um tronco com bypass de mídia no Skype para Business Server](configure-trunk-with-media-bypass.md)
 

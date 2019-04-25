@@ -19,22 +19,22 @@ ms.custom:
 - Reporting
 description: O novo painel Relatórios do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto.
 ms.openlocfilehash: c4f3040c759deefc222c6243d80de393e18befe9
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454030"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240601"
 ---
 # <a name="session-details-report"></a>Relatório de detalhes da sessão
 
-O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório do **Skype para obter detalhes de sessão de negócios** para ver detalhes sobre as experiências de chamada do usuário individual.
+O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 da sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório do **Skype para obter detalhes de sessão de negócios** para ver detalhes sobre as experiências de chamada do usuário individual.
   
 Confira a [Visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) mais de relatórios estão disponíveis.
   
 Nesse relatório, juntamente com o outro Skype para relatórios de negócios fornecem detalhes sobre a atividade em toda a organização, incluindo detalhes de sessão. Esses detalhes são muito úteis quando você investigando, planejamento e tornando outros negócios decisões para sua organização e para configurar [créditos de comunicações](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
-> [!OBSERVAçãO] Você pode ver todos os relatórios do Skype for Business quando faz logon como administrador no Centro de administração do Office 365. 
+> [!OBSERVAçãO] Você pode ver todos os relatórios do Skype for Business ao fazer logon como um administrador no Centro de administração do Office 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>Relatório de detalhes de como obter para o Skype para sessão de negócios
 
@@ -97,9 +97,9 @@ Para cada sessão, há uma tabela de sub com dados diferentes disponíveis, depe
 ***
 ![Número 5](../images/sfbcallout5.png)<br/>Clique para arrastar uma coluna para **Para agrupar por uma coluna específica, arraste e solte o cabeçalho da coluna aqui** se desejar criar uma exibição que agrupe todos os dados em uma ou mais colunas. 
 ***
-![Número 6](../images/sfbcallout6.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar no botão **Exportar para Excel**.   <br/><br/> Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.  
+![Número 6](../images/sfbcallout6.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar no botão **Exportar para Excel**.    <br/><br/> Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.  
    
-## <a name="want-to-see-other-skype-for-business-reports"></a>Deseja ver outros relatórios do Skype for Business?
+## <a name="want-to-see-other-skype-for-business-reports"></a>Deseja ver outro Skype para relatórios de negócios?
 
 - [Skype para relatório de atividade de negócios](activity-report.md) Você pode ver quanto os usuários estão usando-a-ponto, organizada e participado em sessões de conferência.
     

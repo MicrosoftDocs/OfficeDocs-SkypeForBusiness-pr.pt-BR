@@ -1,5 +1,5 @@
 ---
-title: O que devo colocar em número de conta?
+title: O que eu colocar número de conta?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 'Consulte o que você deve colocar como um número de conta na Skype para negócios e onde você pode encontrar que. '
 ms.openlocfilehash: 3f539b886e16eaa106347fbff113763fb451ddb5
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958237"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229601"
 ---
-# <a name="what-should-i-put-in-for-the-account-number"></a>O que devo colocar em número de conta?
+# <a name="what-should-i-put-in-for-the-account-number"></a>O que eu colocar número de conta?
 
 Normalmente, você pode encontrar o número de conta em qualquer bill ou faturas, que você tem de seu provedor de serviços ou operadora ou você podem fazer logon no site da sua operadora. Se você ainda não souber o número de conta, você pode contatar o seu provedor de serviços ou sua operadora para obtê-lo.
   
@@ -45,7 +45,7 @@ Normalmente, você pode encontrar o número de conta em qualquer bill ou faturas
 
 [Diferentes tipos de números de telefone usados para Planos de Chamadas](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
+[Termos e condições para chamadas de emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

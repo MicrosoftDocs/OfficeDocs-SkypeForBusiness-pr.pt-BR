@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 'Resumo: Saiba como exibir registros de uso PSTN usando-se o Skype para painel de controle do Business Server ou o Skype para Business Server Management Shell.'
 ms.openlocfilehash: ee3260c79da4619e6093f5e4eff3f98d697b3c19
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222545"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>Exibir registros de uso PSTN em Skype para negócios
 
@@ -53,7 +53,7 @@ Um registro de uso de Rede Telefônica Pública Comutada (PSTN) especifica uma c
   Usage    : {Internal, Local, Long Distance}
 </pre>
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios](voice-policy-and-pstn-usage-records.md)
 

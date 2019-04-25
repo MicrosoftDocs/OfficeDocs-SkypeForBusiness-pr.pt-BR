@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 description: 'Para editar as propriedades de um A / V Conferencing Server do pool que você já tenha definido, é possível fazer o seguinte:'
 ms.openlocfilehash: ac09b249aff61c0b7a020f2e8b802648f13718f4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227358"
 ---
 # <a name="av-mcu-general-settings-expander"></a>Expansor de Configurações Gerais MCU AV
  

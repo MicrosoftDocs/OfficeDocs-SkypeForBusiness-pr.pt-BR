@@ -1,5 +1,5 @@
 ---
-title: Por que estou tendo problemas para inserir informações de endereço no Reino Unido?
+title: Por que estou tendo problemas para inserir Reino Unido informações de endereço?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: Aqui estão alguns motivos por que você pode estar tendo problemas para que seu endereço ou endereços para validar corretamente no Reino Unido (Reino Unido).
 ms.openlocfilehash: dafc6608f45393ccc0a39ecdb2c01e2479ec630b
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958277"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227810"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Por que estou tendo problemas para inserir informações de endereço no Reino Unido?
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Por que estou tendo problemas para inserir Reino Unido informações de endereço?
 
 Aqui estão alguns motivos por que você pode estar tendo problemas para que seu endereço ou endereços para validar corretamente no Reino Unido (Reino Unido).
   
@@ -115,7 +115,7 @@ Se você estiver tendo um problema inserindo o CEP, lembre-se:
 
 [Diferentes tipos de números de telefone usados para Planos de Chamadas](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
+[Termos e condições para chamadas de emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

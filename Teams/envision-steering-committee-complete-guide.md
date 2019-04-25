@@ -1,5 +1,5 @@
 ---
-title: Comitê de orientação para implantação de voz de nuvem Teams da Microsoft
+title: Coordenação de implantação do Microsoft Teams cloud voice
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 010d4e2b7a9f64ca57e38b185b013d92b4d7c1ca
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235372"
 ---
 # <a name="steering-committee"></a>Comitê de direcionamento
 
@@ -71,7 +71,7 @@ Comitê de direcionamento de cada precisa liderança forte e claramente funçõe
 | Executivos de decisão de negócios | Favor do projeto, certifique-se de que sua direção permanecerá em alinhamento com a visão da organização | | |
 | Arquiteto | Garantir que as decisões de tecnologia são viáveis e alinhados à resultados de negócios concordou em. | | |
 | Equipe de projeto principal | Forneça os detalhes sobre qualquer componente específico, técnico ou não técnico (por exemplo, o gerenciamento de adoção e alterar) | | |
-| Defensor da qualidade | Ser responsável juntando métricas de qualidade. | | |
+| Campeão de qualidade | Ser responsável juntando métricas de qualidade. | | |
 | Gerente de projeto/programa | Assumir a responsabilidade para a apresentação e a coleção de comentários para incorporar ao projeto. | | |
 | Equipe de contas de parceiros | Forneça feedback do ponto de vista do parceiro de uma perspectiva mais ampla, outras atividades de parceiro. | | |
 | Equipe de projeto de parceiro | Forneça feedback do ponto de vista do parceiro relacionadas a entrega do projeto | | |

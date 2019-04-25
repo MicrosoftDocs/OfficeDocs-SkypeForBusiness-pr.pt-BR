@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: Saiba como ativar ou desativar o telefone celular notificações para que os usuários podem receber alertas sobre entrada, caixa postal e perdidas mensagens instantâneas.
 ms.openlocfilehash: 40d71ba5a3106e9ae33e5f39a504e1e413a58af1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897019"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226393"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Ativar ou desativar notificações do telefone celular
 
@@ -58,7 +58,7 @@ Lembre-se:
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
+[Instalar o Skype for Business Online](set-up-skype-for-business-online.md)
 
   
  

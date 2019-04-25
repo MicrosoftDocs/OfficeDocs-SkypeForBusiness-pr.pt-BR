@@ -23,15 +23,15 @@ ms.custom:
 - Audio Conferencing
 description: 'Veja como experimentar ou adquirir licenças de Audioconferência (Conferência PSTN) para o Office 365 para configurar chamadas de conferência em que as pessoas podem discar. '
 ms.openlocfilehash: b474a5c905566b3ee0c01249f7b20f11e3dbabfc
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223166"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Experimentar ou comprar a Audioconferência no Office 365 para o Microsoft Teams
 
-Às vezes, as pessoas em sua organização precisarão usar um telefone para ligar para uma reunião. Microsoft Teams inclui o recurso de conferência de áudio para apenas essa situação! As pessoas podem ligar para reuniões de Teams da Microsoft usando um telefone, em vez de usar o aplicativo Microsoft Teams em um PC ou dispositivo móvel.
+Em alguns casos, as pessoas na sua organização precisará usar um telefone para efetuar uma chamada para uma reunião. Microsoft Teams inclui o recurso de conferência de áudio para apenas essa situação! As pessoas podem ligar para reuniões de Teams da Microsoft usando um telefone, em vez de usar o aplicativo Microsoft Teams em um PC ou dispositivo móvel.
 
 Você precisa configurar serviços de audioconferência para as pessoas que pretende agendar ou liderança de reuniões. Participantes que fazem chamadas para a reunião não precisam ter licenças atribuídas a eles e nenhum outro tipo de configuração.
 
@@ -83,7 +83,7 @@ Se você tiver usuários habilitados com um provedor de serviços de audioconfer
 
 As etapas a seguir são **opcionais**, mas muitos administradores gostam de segui-las:
 
-1. [Personalizar convites de reunião](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Os números de discagem definidos para o usuário serão adicionados automaticamente aos convites da reunião enviados aos participantes. No entanto, você pode adicionar seus próprios links de ajuda e informações jurídicas, uma mensagem de texto e um pequeno gráfico da empresa.
+1. [Personalizar convites de reunião](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Os números de discagem que são definidos para o usuário serão adicionados automaticamente aos convites de reunião serão enviados aos participantes. No entanto, você pode adicionar seus próprios links de ajuda e informações jurídicas, uma mensagem de texto e um pequeno gráfico da empresa.
 
 2. [Defina o telefone convidam números incluídos no](set-the-phone-numbers-included-on-invites-in-teams.md). Esse é o número de telefone que serão exibidas na reunião programada por um usuário.
 

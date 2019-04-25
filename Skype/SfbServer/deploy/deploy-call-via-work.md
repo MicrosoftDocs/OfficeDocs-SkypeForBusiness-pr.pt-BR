@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Resumo: Saiba como implantar chamada Via trabalho no Skype para Business Server para alguns ou todos os seus usuários.'
 ms.openlocfilehash: d0cee2cbf3a88514983efd77e2b1728b2df1e792
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227533"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Implantar a chamada Via trabalho no Skype para Business Server
  
@@ -96,7 +96,7 @@ Depois que todos os pré-requisitos forem implantados, execute as seguintes aç�
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
   ```
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Planejar para chamada Via trabalho no Skype para Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

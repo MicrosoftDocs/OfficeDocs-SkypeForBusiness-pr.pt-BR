@@ -1,5 +1,6 @@
 ---
 title: Habilite os usuários para o Enterprise Voice no local
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: Para um usuário usar o sistema telefônico no Office 365 (nuvem PBX), você deve primeiro habilitá-los para o Enterprise Voice e atribuí-las um número de telefone. Você fazer isso usando sua implantação no local enquanto o usuário ainda é hospedado na implantação no local.
-ms.openlocfilehash: 8d00120b0b0fd74baed1ceb003a46cfc2468d502
-ms.sourcegitcommit: 7ca7f5cd38742b6a1967bd792113348dfe689850
+ms.openlocfilehash: 1b8329ec4deb90aed6bb9ae93c4a202beebb673c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30657444"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234074"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Habilite os usuários para o Enterprise Voice no local
  

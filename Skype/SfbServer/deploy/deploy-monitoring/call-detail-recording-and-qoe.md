@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: 'Resumo: Saiba como configurar o CDR e QoE no Skype para Business Server.'
 ms.openlocfilehash: 846411692bc114678e34754f73fc00cd9be8d9d4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225473"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Configurar o registro de detalhes de chamada e configurações de qualidade da experiência no Skype para Business Server
  

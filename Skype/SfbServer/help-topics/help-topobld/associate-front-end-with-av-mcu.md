@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
 description: A / V Conferencing habilita comunicações de áudio e vídeos comunicações entre seus usuários (ou seja, se eles tenham dispositivos clientes apropriados, como fones de ouvido para conferências de áudio e webcams para videoconferências). Se sua implantação oferece suporte a conferências e habilitar a webconferência e A / V Conferencing, você pode colocar A / V Conferencing Server com o servidor Front-End), ou você pode implantar um ou mais stand-alone A / V Conferencing Servers (A / pool de conferência V) . Se você escolher a opção de implantar uma stand-alone A / V Conferencing Server, você deve defini-la no construtor de topologia.
 ms.openlocfilehash: 62b6dfc54fcbdd839fce9b317d0256845f3c2c08
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227457"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>Associar Front End com AV MCU
  

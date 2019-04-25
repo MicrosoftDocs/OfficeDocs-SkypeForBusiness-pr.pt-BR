@@ -1,5 +1,5 @@
 ---
-title: Gerenciar o aplicativo Turnos para sua organização no Microsoft Teams
+title: Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 author: kenwith
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b1ef7ee44b1d6318b85461b5d6b9d4173cc8552
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 9927da9aea89eeb4d5b1b71eac2818c5deb52925
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013205"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245922"
 ---
-# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo Turnos para sua organização no Microsoft Teams
+# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
 > [!IMPORTANT]
 > A partir de 1 de outubro de 2019, Microsoft StaffHub será desativada. Estamos compilando recursos StaffHub em Teams da Microsoft. Hoje, equipes inclui o aplicativo desloca para o gerenciamento de agenda e recursos adicionais serão distribuir ao longo do tempo. StaffHub irá parar de funcionar para todos os usuários em 1 de outubro de 2019. Qualquer pessoa que tenta abrir StaffHub será mostrada uma mensagem direcionando-os para baixar as equipes. Para saber mais, consulte [Microsoft StaffHub para ser retirado](microsoft-staffhub-to-be-retired.md).  
@@ -58,8 +58,6 @@ Desloca é habilitado por padrão para todos os usuários de equipes em sua orga
     ![Captura de tela da seção aplicativos padrão] (../../media/firstline-worker-enable-disable-shifts.png "Captura de tela da seção padrão Apps no Centro de administração do Microsoft 365, mostrando a lista de aplicativos, incluindo o aplicativo desloca")
 
 ### <a name="use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams"></a>Usar a diretiva de instalação de app Firstline trabalhador para pin desloca a equipes
-
-> [!INCLUDE [Preview customer token](../../includes/preview-feature.md)]
 
 Políticas de configuração de aplicativo permitem que você personalize equipes para destacar os aplicativos que são mais importantes para os usuários em sua organização. Os aplicativos definidos em uma política estão vinculados à barra de aplicativos&mdash;barra no lado do cliente de desktop do equipes e na parte inferior dos clientes móveis equipes&mdash;onde os usuários possam rapidez e facilidade acessá-los. 
  

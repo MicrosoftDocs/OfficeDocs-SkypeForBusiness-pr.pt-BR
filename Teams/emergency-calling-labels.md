@@ -1,5 +1,5 @@
 ---
-title: Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região
+title: Disponibilidade de audioconferência e planos de chamadas por país e região
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 description: Você pode baixar esses rótulos de chamada de emergência quando você estiver usando planos de chamada no Office 365.
 ms.openlocfilehash: 2b88bfe984aed655a78f69a580fdd1d510f3d8e1
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244433"
 ---
 # <a name="emergency-calling-labels"></a>Rótulos de chamadas de emergência
 
@@ -37,4 +37,4 @@ Essas são de emergências (911) rótulos de isenção de responsabilidade de ch
 
 [Diferentes tipos de números de telefone usados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
+[Termos e condições da chamada de emergência](emergency-calling-terms-and-conditions.md)

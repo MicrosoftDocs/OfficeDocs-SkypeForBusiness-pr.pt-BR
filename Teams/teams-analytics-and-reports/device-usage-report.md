@@ -3,7 +3,7 @@ title: Relatório de uso de dispositivos do Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/19/2019
+ms.date: 04/24/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 description: Saiba como usar o relatório de uso do dispositivo de equipes no Centro de administração do Microsoft Teams para ver como os usuários em sua organização se conectam a equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1915e7c2c52911e49afca6dbbb23e6ed9b74d672
-ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
+ms.openlocfilehash: c1cd1ec97732b851246e03f6fcd56382ccdedf59
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30684021"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298690"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Relatório de uso de dispositivos do Microsoft Teams
 
@@ -32,22 +32,22 @@ O relatório de uso do dispositivo de equipes no Centro de administração do Mi
 ## <a name="view-the-report"></a>Exibir o relatório
 
 1. Vá para o Centro de administração do Microsoft Teams, no painel de navegação esquerdo, clique em **relatórios de & de análise**e em um **relatório**, selecione **uso do dispositivo de equipes**. 
-2. Em **intervalo de datas**, selecione um intervalo e clique em **Executar relatório**. 
+2. Em **Intervalo de dados**, selecione intervalo e em seguida clique em **Executar relatório**. 
 
-## <a name="interpret-the-report"></a>Interpretar o relatório
+## <a name="interpret-the-report"></a>Interpretar relatório
 
 ![Captura de tela do relatório de uso de dispositivo de equipes, no Centro de administração de equipes da Microsoft] (../media/teams-reports-device-usage-with-callouts.png "Captura de tela do relatório de uso de dispositivo de equipes, no Centro de administração de equipes da Microsoft com textos explicativos numerados")
 
-|Legenda |Descrição  |
+|Texto explicativo |Descrição  |
 |--------|-------------|
 |**1**   |O relatório de uso do dispositivo de equipes pode ser exibido para tendências pela últimos 7 dias ou 28 dias.  |
 |**2**   |Cada relatório tem uma data para quando o relatório foi gerado. O relatório geralmente reflete um período de latência de atividade de 24 a 48 horas. |
 |**3**   |<ul><li>O eixo X do gráfico representa os diferentes dispositivos (**Windows**, **Mac**, **iOS**, **Telefone Android**) usados para conectar-se às equipes. </li><li>O eixo Y é o número de usuários usando o dispositivo durante o período de tempo selecionado.</li> </ul>Passe o mouse sobre a barra representando um dispositivo para ver o número de usuários usando o dispositivo para se conectar às equipes.|
-|**4**   |A tabela fornece uma análise de uso de dispositivo por usuário. <ul><li>**Nome para exibição** é o nome de exibição do usuário. Você pode clicar no nome de exibição para ir à página de configuração do usuário no Centro de administração do Microsoft Teams. </li><li>**Windows** é selecionada quando o usuário estava ativo no cliente de desktop do equipes em um computador baseado no Windows.</li><li>**Mac** é selecionada quando o usuário estava ativo no cliente de desktop do equipes em um computador macOS. </li> <li>**iOS** é selecionada quando o usuário estava ativo no cliente móvel equipes para iOS.</li><li>**Telefone Android** é selecionada quando o usuário estava ativo no cliente móvel equipes para Android. <li>**Última atividade** é a última data (UTC) que o usuário participou uma atividade de equipes.</li> </ul> Para ver as informações que você deseja na tabela, certifique-se de adicionar as colunas na tabela. |
+|**4**   |A tabela fornece uma análise de uso de dispositivo por usuário. <ul><li>**Nome para exibição** é o nome de exibição do usuário. Você pode clicar no nome de exibição para ir à página de configuração do usuário no Centro de administração do Microsoft Teams. </li><li>**Windows** é selecionada quando o usuário estava ativo no cliente de desktop do equipes em um computador baseado no Windows.</li><li>**Mac** é selecionada quando o usuário estava ativo no cliente de desktop do equipes em um computador macOS. </li> <li>**iOS** é selecionada quando o usuário estava ativo no cliente móvel equipes para iOS.</li><li>**Telefone Android** é selecionada quando o usuário estava ativo no cliente móvel equipes para Android. <li>**Última atividade** é a última data (UTC) que o usuário participou uma atividade de equipes.</li> </ul> Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela. |
 |**5**   |Selecione **Editar colunas** para adicionar ou remover colunas na tabela. |
-|**6**   |Selecione **˙˙˙**e, em seguida, **imprime gráfico** para imprimir o gráfico. |
+|**6**   |Selecione **˙˙˙** e em seguida **Imprimir gráfico** para imprimir o gráfico. |
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Análise de equipes e relatórios](teams-reporting-reference.md)
+- [Análises e relatórios do Teams](teams-reporting-reference.md)
 - [Relatório de uso do Teams](teams-usage-report.md)
 - [Relatório de atividades do usuário do Teams](user-activity-report.md)

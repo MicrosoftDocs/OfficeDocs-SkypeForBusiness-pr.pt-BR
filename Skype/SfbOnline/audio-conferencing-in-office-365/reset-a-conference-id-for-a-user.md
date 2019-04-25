@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Saiba as etapas para redefinir um usuário da reunião ID de conferência no Skype para Business Online e get links para ferramentas de atualização e migração da reunião. '
 ms.openlocfilehash: 748664ec8e6584adcbcb0630147f1bcd60be9482
-ms.sourcegitcommit: 17348a197c8ed76d587f3c3d0ff36c56414183f0
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30475791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229267"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Redefinir um ID de conferência para um usuário no Skype Business Online
 
@@ -85,4 +85,4 @@ Uma ID de conferência dinâmico é incluída na parte inferior da reunião conv
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Redefinir o PIN de conferência de áudio](reset-the-audio-conferencing-pin.md)
+[Redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin.md)

@@ -21,11 +21,11 @@ ms.custom:
 - LIL_Placement
 description: 'Saiba mais sobre licenças complementares, recursos e como comprá-los para planos do Office 365 Enterprise. '
 ms.openlocfilehash: 084d60a2c21712e119657005a52dc0af11bce9a0
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120343"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238360"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 

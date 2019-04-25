@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4810e98910186e3c4c5a9b2fb7e4cf62df6876c7
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649416"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222931"
 ---
 ![Verifique se o seu projeto está configurado para o sucesso com a equipe de projeto à direita. Defina o escopo do projeto, metas e linha do tempo. Confirme preparação técnico e do usuário. Execute o seu plano de distribuição. Manter momentum para maximizar os resultados.] (media/upgrade-banner-main.png "Comece sua jornada de atualização")
 

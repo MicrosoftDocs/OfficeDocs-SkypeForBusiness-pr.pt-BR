@@ -3,7 +3,7 @@ title: Gerenciar políticas de reunião
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 03/22/2019
+ms.date: 04/18/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Saiba como gerenciar as configurações de diretiva em equipes de reunião.
-ms.openlocfilehash: a31f663a7714a0a5af09e6fddd9436e710582fa1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 01d4ec8265c069d5fdbd6d8bb64ab89ec991956a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231810"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião em equipes
 
@@ -84,9 +84,9 @@ Quando você seleciona uma política existente na página de **políticas de reu
 
 <a name="bkgeneral"> </a>
 ### <a name="general"></a>Geral
-   - **Permitir reunir agora** Ativando isso permitirá que o recurso reunir agora esteja disponível aos usuários que ingressem em reuniões.
+   - **Permitir reunir agora no canais** Ativando isso permitirá que o recurso reunir agora esteja disponível aos usuários que ingressem em reuniões.
    - **Permitir que o suplemento do Outlook** Ativando isso permitirá que os usuários atribuídos à política tiver o suplemento Outlook disponível quando eles agendarem reuniões.
-   - **Agendamento de reuniões de canal de permitir** Ativando isso permitirá que o agendamento de reuniões de canal.
+   - **Permitir agendamento de reuniões de canal** Ativando isso permitirá que o agendamento de reuniões de canal.
    - **Permitir o agendamento de reuniões privadas** Ativando isso permitirá que os usuários que ingressem em uma reunião para agendar reuniões privadas.
 
 <a name="bkaudioandvideo"> </a>
@@ -110,8 +110,13 @@ Quando você seleciona uma política existente na página de **políticas de reu
 <a name="bkparticipantsandguests"> </a>
 
 ### <a name="participants--guests"></a>Convidados que & participantes
-   - **Permitir que as pessoas que discam para iniciar uma reunião** Você pode ativar ou desativar se quiser permitir que as pessoas que ainda não tenham sido autenticadas porque eles já discados usando seu telefone para iniciar uma reunião.
-   - **Automaticamente admitir pessoas** Determina quais tipos de participantes serão automaticamente ser adicionado às reuniões organizadas pelo usuário. Defina como "Todos na organização" Se você gostaria de reuniões, coloque cada usuário externo no lobby, mas permitir que todos os usuários na empresa para ingressar na reunião imediatamente. Defina como "Todos" Se você gostaria de admitir usuários anônimos por padrão. Defina como "Todos em sua organização e organizações federadas" Se você gostaria de reuniões para permitir que usuários federados ingressar como os usuários da sua empresa, mas colocar todos os outros usuários externos em um lobby.
+   - **Permitir que as pessoas que discam para iniciar uma reunião** Você pode ativar ou desativar se você quiser permitir que as pessoas que ainda não tenham sido autenticadas porque eles discaram usando seu telefone para iniciar uma reunião.
+   - **Automaticamente admitir pessoas** Determina quais tipos de participantes serão automaticamente ser adicionado às reuniões organizadas pelo usuário. Defina **todos em sua organização** se você gostaria de reuniões, coloque cada usuário externo no lobby, mas permitir que todos os usuários na empresa para ingressar na reunião imediatamente. Defina isso para **todas as pessoas** se você gostaria de admitir usuários anônimos por padrão. Defina isso para **todos em sua organização e organizações federadas** , se você gostaria de reuniões para permitir que usuários federados ingressar como os usuários da sua empresa, mas colocar todos os outros usuários externos em um lobby.
+   - **Permitir que usuários de discagem para ignoram o lobby** Você pode ativar ou desativar se quiser permitir que as pessoas que discou usando seu telefone ignoram o lobby e ingressar na reunião.
+   - **Permitir que os organizadores para substituir as configurações de lobby** Ative esta configuração para permitir que os organizadores de reuniões desconsiderar as configurações de lobby para admitir usuários às reuniões.
+   - **Permitir reunir agora nas reuniões privadas** Ative esta configuração para permitir que os participantes da reunião atender em particular via bate-papo antes de começa a reunião. 
+   - **Habilitar legendas ao vivo** Habilite essa configuração para exibir as legendas em idiomas suportados durante uma reunião. 
+   - **Permitir bate-papo em reuniões** Habilite essa configuração permitir o bate-papos durante uma reunião. Isso é útil se os usuários tem dúvidas ou deseja inserir um hiperlink ou uma nota durante uma discussão, mas não querem interromper a conversa.
 
 [Artigo completo](meeting-policies-in-teams.md)
 

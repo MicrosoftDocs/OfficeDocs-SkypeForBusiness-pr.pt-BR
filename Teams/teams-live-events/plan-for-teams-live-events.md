@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar o live eventos no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c249c6e63b8342b524b54afc2a6d30be3e92b25
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
+ms.openlocfilehash: 427a0dc26ef3c5b9901ddbe9cefe1288c905ccbb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771762"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223372"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -44,7 +44,7 @@ O usuário deverá ter:
 - Compartilhamento de vídeo ativado em reuniões de equipes (*- AllowIPVideo TeamsMeetingPolicy o parâmetro = True*).
 - Compartilhamento de tela habilitado em reuniões de equipes (*- ScreenSharingMode TeamsMeetingPolicy o parâmetro = EntireScreen*).
 - Live evento agenda em equipes habilitadas (*- AllowBroadcastScheduling TeamsMeetingBroadcastPolicy o parâmetro = True*).
-- Permissões para criar eventos ao vivo no Microsoft Stream (para [produção codificador externo](#production)).
+- Permissões para criar eventos ao vivo no Microsoft Stream (para produção codificador externo).
 
 > [!IMPORTANT]
 > O Office 365 convidados, usuários federados e anônimos não podem ser convidados como produtores ou apresentadores em equipes de eventos ao vivo. Convidado Office 365 e os usuários federados podem apenas assista eventos ao vivo anonimamente. 

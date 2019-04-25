@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 description: O serviço de controle de admissão de chamadas (CAC) é uma rede de regiões, sites e sub-redes que permite impor restrições às transmissões de áudio e vídeo com base na largura de banda disponível. Após configurar a rede para o CAC, habilite-o para impor as limitações de largura de banda.
 ms.openlocfilehash: 7152596fa8db00ed4bbc31d196c96da8ab7d3942
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887418"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226904"
 ---
 # <a name="call-admission-control-settings-expander"></a>Expansor de Configurações do Serviço de Controle de Admissão de Chamadas
  

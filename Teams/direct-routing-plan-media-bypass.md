@@ -16,11 +16,11 @@ appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como planejar o bypass de mídia com roteamento direto de sistema do telefone.
 ms.openlocfilehash: b3a31e23ef065840d830c111c64e0618d90aa71b
-ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31827877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232747"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -287,7 +287,7 @@ Bypass de mídia é compatível com todos os pontos de extremidade equipes, exce
 
 Se os usuários preferem aplicativos da Web de equipes em Microsoft Edge, Google Chrome ou Mozilla Firefox, o bypass de mídia para tais usuários deve ser desativado. Apresentaremos chamadas usando um tronco habilitado de bypass de mídia no futuro.   
  
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Configurar o bypass de mídia com Roteamento Direto](direct-routing-configure-media-bypass.md)
 

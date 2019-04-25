@@ -15,16 +15,16 @@ description: Obtenha um breve panorama de como um convidado é chamado para entr
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d8bc9eabb467479b0b33793ace9fc0b97d179f93
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "30640710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235543"
 ---
 <a name="how-a-guest-joins-a-team"></a>Como um convidado entra em uma equipe
 ========================
 
-Um proprietário de equipe do Microsoft Teams pode adicionar e gerenciar convidados em suas equipes através da web ou do desktop. Qualquer pessoa com uma conta de email de consumidor ou de negócios, como o Outlook, Gmail ou outras pessoas, pode participar como um convidado em equipes com acesso completo à equipe chats, reuniões e arquivos. Apenas pessoas de fora da sua organização, como parceiros ou consultores, podem ser adicionadas como convidados. As pessoas pertencentes à sua organização podem entrar como membros de equipe regulares.
+Um proprietário de equipe do Microsoft Teams pode adicionar e gerenciar convidados em suas equipes através da web ou do desktop. Qualquer pessoa com uma conta de email corporativa ou de consumidor, como do Outlook, Gmail ou outras, pode participar como convidado no Microsoft Teams, com acesso total a chats, reuniões e arquivos de equipe. Apenas pessoas de fora da sua organização, como parceiros ou consultores, podem ser adicionadas como convidados. As pessoas pertencentes à sua organização podem entrar como membros de equipe regulares.
   
 > [!NOTE]
 > Para que os convidados possam entrar em uma equipe, o administrador pode habilitar o acesso de convidados no Teams. Para fazer isso, consulte [Ativar ou desativar o acesso de convidado para equipes da Microsoft](set-up-guests.md). 
@@ -44,6 +44,6 @@ Os convidados podem sair da equipe a qualquer momento através dos clientes web 
 > [!NOTE]
 > Deixando a equipe não remove a conta de convidado da organização/inquilino. Consulte [saem de uma organização, como um usuário convidado](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization) sobre como remover seu nome da organização. Como alternativa, o administrador da organização pode remover usuários convidados de Inquilino.
 
-## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado versus acesso externo (federação)
+## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado vs. acesso externo (federação)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

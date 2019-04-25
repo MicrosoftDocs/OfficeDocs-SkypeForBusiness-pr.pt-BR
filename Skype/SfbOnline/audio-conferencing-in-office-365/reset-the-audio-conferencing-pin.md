@@ -21,20 +21,20 @@ ms.custom:
 - Audio Conferencing
 description: 'Descubra o que você deve saber sobre PINs e como redefini-las no Skype para negócios Online. '
 ms.openlocfilehash: 257f59f59d4fc86c91aa5496fe3db42573269065
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229247"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Redefinir a PIN em Skype audioconferência for Business Online
 
 > [!Note]
 > Para obter informações sobre a redefinição de PINs de Audioconferência no Microsoft Teams, consulte [Redefinir o PIN de Audioconferência no Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams).
 
-Um PIN é um código formado por números que são criados para cada Skype para usuário Business que esteja habilitado para serviços de audioconferência. PINs de conferência de áudio são usados pelo organizadores de reunião para identificar se eles são o organizador da reunião e permitir que eles se iniciar uma reunião por telefone. Se eles usarem o Skype para o aplicativo de negócios para iniciar a reunião, um PIN não é exigido. Se os usuários se esquecer seu PIN e eles não é possível encontrá-lo no email que foi enviado para acessá-los quando eles foram habilitados para conferência de áudio, um administrador pode redefinir seu PIN, ou eles podem redefinir o PIN de seu próprios.
+A PIN is a code made up of numbers that is created for each Skype for Business user who is enabled for audio conferencing. Audio conferencing PINs are used by meeting organizers to identify that they are the meeting organizer and allow them to start a meeting over the phone. If they use the Skype for Business app to start the meeting, a PIN isn't required. If users forget their PIN and they can't find it in the email that was sent to them when they were enabled for audio conferencing, an administrator can reset their PIN, or they can reset their own PIN.
   
-Reuniões podem ser iniciados quando um usuário autenticado que ingressa usando o Skype para o aplicativo de negócios ou quando o organizador ingressa com seu PIN por telefone. Se a reunião exigir um PIN para ser iniciada, os usuários que entrarem por telefone serão colocados no lobby e esperarão ouvindo música até que a reunião seja iniciada. Se o organizador de uma reunião não exigir um PIN para iniciar a reunião por telefone, os chamadores não precisarão fornecer um PIN para participar.
+Meetings can be started when an authenticated user joins using the Skype for Business app or when the organizer joins with his or her PIN over the phone. When a meeting requires a PIN to start, users who join over the phone will be placed in the lobby and will listen to music on hold until the meeting starts. If the organizer of a meeting doesn't require a PIN to start the meeting over the phone, then callers won't be asked to provide a PIN when they join the meeting.
   
 ## <a name="reset-a-users-pin"></a>Redefinir o PIN de um usuário
 
@@ -51,7 +51,7 @@ Reuniões podem ser iniciados quando um usuário autenticado que ingressa usando
    
 ## <a name="have-a-user-reset-his-or-her-own-pin"></a>Faça com que um usuário redefina seu próprio PIN
 
-Um usuário pode redefinir um PIN usando a opção **Redefinir PIN** na página **Conferência discada** . Essa página pode ser acessada de três formas:
+A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Conferencing** page. This page can be accessed in one of three ways:
 
 * Em um navegador, vá até [https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling).
 * No Skype for Business, clique na seta **Mostrar Menu** ao lado de **Opções** e, em seguida, clique em **Ferramentas** > **Configurações de conferência discada**.
@@ -59,21 +59,21 @@ Um usuário pode redefinir um PIN usando a opção **Redefinir PIN** na página 
 
 ## <a name="what-else-should-you-know-about-pins"></a>O que mais você deve saber sobre PINs?
 
-- Por motivos de segurança, o PIN só é mostrado para o administrador em uma ocasião: quando o PIN é redefinido. Depois que o PIN é redefinido por um administrador, o PIN será listado como * * * no **Skype para centro de administração de negócios** e nos resultados da quando utilizarem a Get-CsCsOnlineDialInConfencingUser no Windows PowerShell.
+- For security purposes, the PIN is only shown to an administrator on one time, when the PIN is reset. After the PIN is reset by an administrator, the PIN will be listed as *********** in the **Skype for Business admin center** and in the results when they use Get-CsCsOnlineDialInConfencingUser in Windows PowerShell.
     
-- Automaticamente enviando emails para usuários é habilitado por padrão e os usuários receberão um email com o PIN quando elas são habilitadas para conferência de áudio ou quando o PIN ser redefinido. Mas, se você desabilitou automaticamente enviando e-mails, um email de redefinição PIN não será enviado a um usuário e você terá que enviar manualmente as informações de PIN para o usuário.
+- Automatically sending emails to users is enabled by default, and users will receive an email with their PIN when they're enabled for audio conferencing or when the PIN is reset. But if you have disabled automatically sending emails, a PIN reset email won't be sent to a user and you will have to manually send the PIN information to the user.
     
 - Quando uma reunião for iniciada, todos os usuários do lobby serão conectados automaticamente. Por exemplo, se dois participantes tentarem participar de uma reunião antes que ela seja iniciada, eles serão colocados no lobby e esperarão ouvindo música. Quando o organizador da reunião participar usando o PIN por telefone, a reunião será iniciada e os participantes do lobby entrarão na reunião.
     
 - A configuração padrão é não permitir uma reunião ser iniciado por chamadores anônimos.
     
-- Quando você habilita um usuário para conferência de áudio, por padrão, eles são enviados emails que incluem informações de conferência e o PIN. O usuário deve ter uma caixa de correio do Office 365, como quando um PIN é redefinido, um novo PIN será enviado ao usuário no email para seu endereço SMTP principal (alias) que está definido para o usuário.
+- When you enable a user for audio conferencing, by default they are sent emails that include conferencing information and their PIN. The user must have an Office 365 mailbox, because when a PIN is reset, a new PIN will be sent to the user in email to their primary SMTP address (alias) that is set for the user.
     
-- Quando você configura serviços de audioconferência, você pode definir os dígitos que são necessários para os PINs em sua organização. PINs podem ter somente de 4 a 12 dígitos, o padrão é 5. Se você alterar a configuração do tamanho do PIN, a configuração será aplicada somente aos PINs recém-gerados e não será aplicada à configuração do PIN para usuários existentes que estejam habilitados para audioconferência. Consulte [definir o comprimento do PIN para reuniões de conferência de áudio](Set-the-PIN-length-for-Audio-Conferencing-meetings.md).
+- When you set up audio conferencing, you set the digits that are required for the PINs in your organization. PINs can be from 4 to 12 digits - the default is 5. If you change the PIN length setting, the setting is only applied on newly generated PINs and isn't applied to the PIN setting for existing users that are enabled for audio conferencing. See [Set the length of the PIN for Audio Conferencing meetings](Set-the-PIN-length-for-Audio-Conferencing-meetings.md).
     
-- Por padrão, o email será definido como o endereço SMTP principal do Office 365 do usuário. Você pode enviar um email para um endereço que não seja do Office 365, como um endereço de email do Hotmail ou do MSN. Você pode substituir o endereço de email padrão usando o Windows PowerShell. Isso é útil se os usuários não tiverem uma caixa de correio do Exchange no Office 365.
+- The email by default will be set to the Office 365 primary SMTP address of the user. You can send an email to a non-Office 365 address such as a Hotmail or MSN email address. You can override the default email address by using Windows PowerShell. This is useful if the users don't have an Exchange mailbox in Office 365.
     
-- Para substituir o endereço do usuário padrão onde o email é enviado, o administrador proprietário pode usar o seguinte cmdlet: Set-CsOnlineDialInConferencingUser-amos.marble - ResetLeaderPIN - EnviarEmail - SendEmailToAddress "u@hotmail.com". O parâmetro EnviarEmail é necessário para substituir o endereço de email do usuário.
+- To override the default user address where the email is sent, the tenant admin can use the following cmdlet: Set-CsOnlineDialInConferencingUser -amos.marble -ResetLeaderPIN -SendEmail -SendEmailToAddress "u@hotmail.com". The SendEmail parameter is required to override the email address of the user.
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 
@@ -91,7 +91,7 @@ Um usuário pode redefinir um PIN usando a opção **Redefinir PIN** na página 
     
   - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o Centro de administração do Office 365, como quando você estiver fazendo alterações nas configurações de muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos:
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

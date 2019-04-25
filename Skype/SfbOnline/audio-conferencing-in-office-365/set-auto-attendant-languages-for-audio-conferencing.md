@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: Consulte como selecionar idiomas para o atendedor automático para um número de Audioconferência no Skype for Business Online.
 ms.openlocfilehash: 393ba3433ba7241ca5c992114de02191b7fb1044
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229210"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Definir os idiomas para o atendedor automático de Audioconferência no Skype for Business Online
 
@@ -34,7 +34,7 @@ ms.locfileid: "27788981"
 
 O atendedor automático de Audioconferência do Skype for Business pode saudar as pessoas que ligam em vários idiomas diferentes quando ingressarem em uma reunião.
   
-Escolha um idioma principal e até quatro idiomas secundários. O idioma principal que você definiu será usado pela primeira vez e os idiomas secundários serão usados pelo atendedor automático que você selecionar. 
+Choose one primary language and up to four secondary languages. The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select. 
   
 > [!NOTE]
 >  Você só pode alterar os idiomas de números de conferência de áudio que são da categoria dedicada. Os idiomas do número de conferência de áudio compartilhados não podem ser alterados.

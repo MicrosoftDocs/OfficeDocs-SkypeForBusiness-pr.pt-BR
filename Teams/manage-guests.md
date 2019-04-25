@@ -15,11 +15,11 @@ description: Os administradores de TI podem adicionar convidados em nível de lo
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 601582953136b982245bc7f4b2976c64d37424e7
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959240"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234274"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gerenciar o acesso de convidados no Microsoft Teams
 ======================================
@@ -39,7 +39,7 @@ Você pode usar o portal do Azure Active Directory para gerenciar seu acesso ao 
 > [!NOTE]
 > Microsoft Teams sempre respeita configurações externas do Azure Active Directory para permitir ou impedir adições de usuário convidado para o inquilino. Para obter mais detalhes, consulte [autorizar o acesso de convidado em equipes da Microsoft](Teams-dependencies.md).
   
-## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado versus acesso externo (federação)
+## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado vs. acesso externo (federação)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 

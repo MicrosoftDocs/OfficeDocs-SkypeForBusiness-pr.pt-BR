@@ -3,7 +3,7 @@ title: Ativando e usando o Painel de Qualidade de Chamadas
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney, gageames
+ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Consulte como ativar e usar o Skype para Business Online chamada qualidade Dashboard e obter relatórios de resumo de qualidade de chamadas. '
-ms.openlocfilehash: 38332fdcf8cb2f5e1f26d45b67d85dc17610a42d
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: bfbca275afb6da9dbe0f809906e6053f87e960e8
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026233"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298664"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativando e usando o painel de controle de qualidade de chamada para Teams da Microsoft e Skype para Business Online
 
@@ -73,7 +73,21 @@ Antes de começar a usar o CQD, você precisará ativá-lo para sua organizaçã
      ![CQD Login](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
 Depois de entrar, uma vez ativado, o CQD começará a coletando e o processamento de dados.
+
+![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+ 
+1. Entrar em sua organização do Office 365 usando a conta de administrador de serviço Teams da Microsoft e selecione os blocos de **administrador** para abrir o Centro de administração.
+    
+2. No painel esquerdo, em **Administração centrais**, selecione **As equipes da Microsoft** para abrir o Centro de administração do Microsoft Teams.
+    
+3. No Centro de administração do Microsoft Teams, selecione **Painel de controle de qualidade de chamada** no painel à esquerda.
+    
   
+4. Na página que é aberta, entrar com sua conta de Administrador Global ou a conta de administrador de serviço do Microsoft equipes e, em seguida, forneça as credenciais da conta quando solicitado.
+    
+     ![CQD Login](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+  
+Depois de entrar, uma vez ativado, o CQD começará a coletando e o processamento de dados.  
 > [!NOTE]
 > Pode levar algumas horas para processar dados suficientes para exibir resultados significativos nos relatórios. 
   
@@ -86,6 +100,7 @@ Relatórios de resumo de CQD fornecem um subconjunto dos recursos planejados par
 |:-----|:-----|:-----|
 |Métrica de compartilhamento de aplicativo  <br/> |Não  <br/> |Sim  <br/> |
 |Criando o suporte de informações do cliente  <br/> |Sim  <br/> |Sim  <br/> |
+|Suporte de informações do ponto de extremidade do cliente  <br/> |Somente em cqd.teams.microsoft.com  <br/> |Somente em cqd.teams.microsoft.com  <br/> |
 |Suporte à análise de detalhamento  <br/> |Não  <br/> |Sim  <br/> |
 |Métricas de confiabilidade de mídia  <br/> |Não  <br/> |Sim  <br/> |
 |Relatórios de caixa  <br/> |Sim  <br/> |Sim  <br/> |
@@ -174,20 +189,22 @@ No resumo e relatórios aprimorada de local, você pode usar na lista suspensa *
   
 Em relatórios detalhados, você pode usar a dimensão de **Equipes é** para filtrar os dados para o Microsoft Teams ou Skype para dados corporativos Online como parte da definição de relatório.
   
-## <a name="upload-building-information"></a>Informações de construção de carregamento
-<a name="BKMKBuildingInformationUpload"></a>
+## <a name="upload-tenant-data-information"></a>Carregar informações de dados de inquilinos
+<a name="BKMKTenantDataInformationUpload"></a>
 
-O painel de relatórios de resumo de CQD inclui uma página de **Carregamento de dados de Inquilino** , acessada selecionando o **Carregamento de dados de Inquilino** no menu Configurações, no canto superior direito. Esta página é usada para os administradores para carregar suas próprias informações, como o mapeamento de endereço IP e informações geográficas, mapeamento de cada ponto de acesso sem fio e seu endereço MAC, etc.
+O painel de relatórios de resumo de CQD inclui uma página de **Carregamento de dados de Inquilino** , acessada selecionando o **Carregamento de dados de Inquilino** no menu Configurações, no canto superior direito. Esta página é usada para os administradores para carregar suas próprias informações, como o mapeamento de endereço IP e informações geográficas, mapeamento de cada ponto de acesso sem fio e seu endereço MAC, mapeamento de ponto de extremidade a extremidade tornar, modelo/tipo, etc.
   
 ![Painel CQD](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. Na página de **Carregamento de dados de Inquilino** , use o menu suspenso para escolher um tipo de arquivo de dados para carregar. O tipo de dados de arquivo denota o conteúdo do arquivo (por exemplo, "Edifício" se refere ao mapeamento de endereço IP e a compilação bem como outras informações geográficas). Atualmente, somente suporte para o tipo de dados "Building". Alguns tipos de dados mais serão adicionados com versões subsequentes.
+1. Na página de **Carregamento de dados de Inquilino** , use o menu suspenso para escolher um tipo de arquivo de dados para carregar. O tipo de dados de arquivo denota o conteúdo do arquivo (por exemplo, "Edifício" refere-se ao mapeamento de endereço IP e criando, bem como outras informações geográficas, "Ponto de extremidade" refere-se ao mapeamento de nome de ponto de extremidade a extremidade tornar / / tipo de modelo … informações). Atualmente, suportamos carregamento "Edifício" e "Ponto de extremidade" tipos de dados para cqd.teams.microsoft.com (no estágio de visualização e oficialmente não está disponível ainda), oferece suporte apenas às cqd.lync.com carregar o tipo de dados "Building". Alguns tipos de dados mais serão adicionados com versões subsequentes.
     
 2. Depois de selecionar o tipo de dados de arquivo, clique em **Procurar** para escolher um arquivo de dados.
     
    - O arquivo de dados deve ser um arquivo. tsv (valores separados por tabulações) ou arquivos. csv (valores separados por vírgulas). Se estiver usando um arquivo. csv, qualquer campo que contém uma vírgula deve ser circundados por aspas ou ter a vírgula removida. Por exemplo, se o seu nome de construção é Nova York, NY, no arquivo. csv ele deve ser inserido como "Nova York, NY".
     
    - O arquivo de dados deve ser maior do que 50MB em tamanho.
+
+   - Arquivo carregado cqd.teams.microsoft.com expandiu o limite de linha de 1.000.000 para acelerar o desempenho da consulta. Podemos pode impor esse limite cqd.lync.com também.
     
    - Para cada arquivo de dados, cada coluna no arquivo deve corresponder a um tipo de dados predefinidos, discutido posteriormente neste tópico.
     
@@ -205,10 +222,11 @@ O painel de relatórios de resumo de CQD inclui uma página de **Carregamento de
     
      ![Tabela CQD meu carrega](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
   
-### <a name="tenant-data-file-format-and-building-data-file-structure"></a>Formato de arquivo de dados de Inquilino e estrutura do arquivo de dados de construção
+### <a name="tenant-data-file-format-and-structure"></a>Estrutura e o formato de arquivo de dados de Inquilino
 <a name="BKMKTenantDataFile"> </a>
 
-O formato do arquivo de dados que você carrega deve atender o seguinte procedimento para passar a verificação de validação antes de carregar.
+### <a name="building-data-file"></a>Criando o arquivo de dados
+CQD usa criando o arquivo de dados primeiramente derivar coluna de sub-rede de coluna de rede + NetworkRange expandida, em seguida, coluna ingresso de sub-rede à coluna de primeira sub-rede Subnet/Second do Registro chamada para mostrar construção/cidade/país/região … informações. O formato do arquivo de dados que você carrega deve atender o seguinte procedimento para passar a verificação de validação antes de carregar.
   
 - O arquivo deve ser um arquivo. tsv, o que significa que, em cada linha, colunas são separadas por uma guia, ou um arquivo. csv com cada coluna separado por uma vírgula.
     
@@ -239,7 +257,35 @@ O formato do arquivo de dados que você carrega deve atender o seguinte procedim
    
 > [!IMPORTANT]
 > O intervalo de rede pode ser usado para representar uma super-rede (combinação de várias sub-redes com um prefixo de roteamento único). Todos os novos carregamentos de construção serão verificados para todos os intervalos de sobreposição. Se você carregou anteriormente um arquivo de construção, você deve baixar o arquivo atual e reenvie-lo para qualquer sobreposições de identificar e corrigir o problema antes de carregar novamente. Qualquer sobreposição nos arquivos carregados anteriormente pode resultar em mapeamentos de sub-redes aos prédios nos relatórios errados. Determinadas implementações de VPN com precisão não informam as informações de sub-rede. É recomendável que ao adicionar uma sub-rede VPN para o arquivo de construção, em vez de uma entrada para a sub-rede, entradas separadas são adicionadas para cada endereço na sub-rede VPN como uma rede separada de 32 bits. Cada linha pode ter os mesmos metadados de construção. Por exemplo, em vez de uma linha para 172.16.18.0/24, você deve ter 256 linhas, com uma linha para cada endereço entre 172.16.18.0/32 e 172.16.18.255/32, inclusive. 
-  
+
+### <a name="endpoint-data-file"></a>Arquivo de dados de ponto de extremidade
+CQD usa o arquivo de dados de ponto de extremidade unindo EndpointName uma coluna à coluna de nome de ponto de extremidade de cliente de Name/Second do cliente ponto de extremidade primeira chamada do registro para mostrar informações do ponto de extremidade tornar, modelo/tipo. O formato do arquivo de dados que você carrega deve atender o seguinte procedimento para passar a verificação de validação antes de carregar.
+
+- O arquivo deve ser um arquivo. tsv, o que significa que, em cada linha, colunas são separadas por uma guia, ou um arquivo. csv com cada coluna separado por uma vírgula.
+
+- O conteúdo do arquivo de dados não inclui os cabeçalhos de tabela. Isso significa que a primeira linha do arquivo de dados deve ser dados reais, não têm cabeçalhos como "EndpointName", etc.
+
+- Para cada coluna, o tipo de dados só pode ser a cadeia de caracteres e deve haver não mais de 64 caracteres, que é máximo permitido de comprimento.
+
+- Para cada coluna, os dados podem estar vazios (mas ainda devem ser separados por um delimitador apropriado (ou seja, uma tabulação ou vírgula). Isso simplesmente atribui esse campo um valor de cadeia de caracteres vazia.
+
+- Deve haver 7 colunas para cada linha e as colunas devem estar na ordem listada na tabela a seguir.
+
+- EndpointName deve ser exclusivo caso contrário, carregamento irá falhar devido a uma linha duplicada porque isso causa ingressando incorreta.
+
+-  EndpointLabel1, EndpointLabel2, EndpointLable3 são os rótulos de usuário personalizável, eles podem ser cadeias de caracteres vazias ou usuários do valor preferem, como "O departamento de TI designado 2018 Laptop", "ativos marca 5678" … etc.
+
+|**Nome da coluna**|**Tipo de dados**|**Exemplo**|
+|:-----|:-----|:-----|
+|EndpointName  <br/> |Cadeia de caracteres  <br/> |1409W3534  <br/> |
+|EndpointMake  <br/> |Cadeia de caracteres  <br/> |Fabrikam Inc  <br/> |
+|EndpointModel  <br/> |Cadeia de caracteres  <br/> |Modelo de Fabrikam 123  <br/> |
+|EndpointType   <br/> |Cadeia de caracteres  <br/> |Laptop  <br/> |
+|EndpointLabel1  <br/> |Cadeia de caracteres  <br/> |IT designado 2018 Laptop  <br/> |
+|EndpointLabel2  <br/> |Cadeia de caracteres  <br/> |Marca de ativos 5678  <br/> |
+|EndpointLabel3  <br/> |Cadeia de caracteres  <br/> |2018 de compra   <br/> |
+
+
 ## <a name="selecting-media-type-in-detailed-reports"></a>Selecionar o tipo de mídia em relatórios detalhados
 <a name="BKMKMediaType"></a>
 

@@ -14,11 +14,11 @@ ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Em corresponder este campo padrão, especifique o padrão que será usado para corresponder os números a serem convertidos. No campo regra de conversão, especifique um padrão para o formato dos números convertidos. '
 ms.openlocfilehash: d75bde018b0a16ab3fb8e505d5ae8d0bc2d4604f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898575"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221501"
 ---
 # <a name="translation-rule-type-a-regular-expression"></a>Regra de Conversão: Digite uma Expressão Regular
  

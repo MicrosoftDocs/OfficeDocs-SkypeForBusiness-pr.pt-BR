@@ -15,11 +15,11 @@ description: Saiba como colocar um usuário ou uma equipe do Microsoft Teams em 
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: eec053649cedfa3e29738dd1679d88b43ee54770
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461600"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233042"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal
 ==================================================
@@ -30,7 +30,7 @@ Para colocar um usuário ou uma equipe em retenção legal, navegue até o [Cent
 > A colocação de um usuário em retenção não coloca automaticamente um grupo em retenção ou vice-versa.
 
 > [!IMPORTANT]
-> Quando um usuário ou um grupo é colocado em retenção, todas as cópias de mensagens serão mantidas. Exemplo: Clay publicou uma mensagem em um canal e depois modificou a mensagem. Em um cenário de retenção, ambas as cópias da mensagem são mantidas. Sem a retenção legal, apenas a última mensagem seria mantida.
+> Quando um usuário ou grupo for colocado em espera, todas as cópias de mensagem serão mantidas. Exemplo: Clay publicou uma mensagem em um canal e depois modificou a mensagem. Em um cenário de retenção, ambas as cópias da mensagem são mantidas. Sem a retenção legal, apenas a última mensagem seria mantida.
 
 
 

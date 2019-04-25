@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
 ms.openlocfilehash: 2cdb08634ce16b3ba6e09148daee57191e8c6988
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237772"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Testar a instalação do Skype for Business Online
 
@@ -137,7 +137,7 @@ Não consegue entrar? Veja [Como solucionar problemas de entrada no Skype for Bu
 |[Transferir um arquivo em uma Reunião do Skype for Business (Lync)](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |Após o upload, todos os outros participantes da reunião podem ver e baixar o anexo.  <br/> |
 
 ## <a name="related-topics"></a>Tópicos relacionados
-[Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
+[Instalar o Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 'Para editar as configurações para um aparelho de filial persistente ou o servidor de filial persistente existente, são apresentadas as seguintes seções:'
 ms.openlocfilehash: 336d64edfac0bda730a289284075267d7e7984d5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884940"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227587"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expansor de Configurações Gerais de Aparelho de Filial
 
@@ -72,7 +72,7 @@ Você define os gateways PSTN associados com o servidor de mediação colocado. 
 
 Se você tiver mais de um gateway associado a um servidor de mediação, o primeiro gateway associado será o gateway padrão. Caso precise escolher outro gateway como gateway padrão, selecione o gateway para tornar padrão e clique em **Tornar Padrão**.
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 Para obter detalhes sobre como definir e configurar as definições para o aparelho de filial persistente ou servidor de filial persistente, consulte [Branch-Site Resiliency Solutions](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Processo para verificar a coexistência do pool piloto com o pool herdado.
 ms.openlocfilehash: ed3809bdde3109bdbd341c42eed0dc1d8cecd11f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875465"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231340"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Verificar coexistência de pool piloto com pool herdado
 

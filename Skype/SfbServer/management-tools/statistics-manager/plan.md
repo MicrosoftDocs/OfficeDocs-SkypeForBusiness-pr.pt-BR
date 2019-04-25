@@ -12,17 +12,17 @@ ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Resumo: Leia este tópico para saber mais sobre o Gerenciador de estatísticas para Skype para Business Server.'
 ms.openlocfilehash: 7e086dda9bfea755265d2c77413989f8cc634df7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236143"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planejar o Gerenciador de estatísticas do Skype for Business Server
 
 **Resumo:** Leia este tópico para saber mais sobre o Gerenciador de estatísticas para Skype para Business Server.
 
- Gerenciador de estatísticas para Skype para Business Server é uma ferramenta poderosa que permite que você visualize Skype para dados de integridade e desempenho do servidor de negócios em tempo real. Você pode sondar dados de desempenho em centenas de servidores por cada alguns segundos e exiba os resultados instantaneamente no site do Gerenciador de estatísticas.
+ O Gerenciador de Estatísticas do Skype for Business Server é uma poderosa ferramenta que permite exibir o desempenho e a integridade do Skype for Business Server em tempo real. É possível sondar dados de desempenho em centenas de servidores em intervalos de alguns segundos e ver os resultados instantaneamente no site do Gerenciador de Estatísticas.
 
 Você pode usar o Gerenciador de estatísticas para identificar problemas de desempenho em andamento, exiba os resultados de uma alteração planejada ao seu ambiente, para controlar a resolução de interrupções e muito mais. Imediato, gerente de estatísticas é configurado com limites de indicador de integridade de chave (KHI) e pode ser personalizado para atender às necessidades exclusivas da sua implantação.
 
@@ -175,7 +175,7 @@ Todo o tráfego entre os servidores é criptografado.
 ## <a name="for-more-information"></a>Para obter mais informações
 <a name="BKMK_Security"> </a>
 
-Para obter mais informações, consulte:
+Para obter mais informações, consulte o seguinte:
 
 - [Implantar o Gerenciador de estatísticas do Skype for Business Server](deploy.md)
 

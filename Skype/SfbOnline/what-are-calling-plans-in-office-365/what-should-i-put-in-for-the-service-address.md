@@ -1,5 +1,5 @@
 ---
-title: O que devo colocar em endereço de serviço?
+title: O que eu colocar em para o endereço do serviço?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 'Saiba o que é seu endereço de serviço, como ela difere de seu endereço de cobrança e onde você pode encontrar. '
 ms.openlocfilehash: dfdbb46dcbba6707ae746b004f5d97cdb20c5776
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958287"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227830"
 ---
-# <a name="what-should-i-put-in-for-the-service-address"></a>O que devo colocar em endereço de serviço?
+# <a name="what-should-i-put-in-for-the-service-address"></a>O que eu colocar em para o endereço do serviço?
 
 O endereço do serviço é diferente do endereço de faturamento ou de emergência que você registrou com seu provedor de serviços de telefone ou operadora. Se você não souber isso, você pode contatar o seu provedor de serviços ou operadora para descobrir o endereço listado na sua conta do serviço.
   
@@ -43,7 +43,7 @@ O endereço do serviço é diferente do endereço de faturamento ou de emergênc
 
 [Diferentes tipos de números de telefone usados para Planos de Chamadas](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
+[Termos e condições para chamadas de emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

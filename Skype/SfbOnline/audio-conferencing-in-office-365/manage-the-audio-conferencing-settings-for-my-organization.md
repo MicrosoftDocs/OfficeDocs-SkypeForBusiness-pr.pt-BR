@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Consulte Skype para obter etapas Business Online para atribuir uma ID de conferência e a licença de conferência discada a um usuário e outras configurações de conferência discada. '
 ms.openlocfilehash: ed5d2cb2115c47ba84dd91ebc45561aa93e4c023
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229355"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Gerenciar as configurações da Audioconferência para minha organização no Skype for Business Online
 
@@ -120,7 +120,7 @@ Consulte [Emails que são enviados automaticamente para os usuários quando alte
     > [!IMPORTANT]
     >  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install, and run the Skype for Business Meeting Update Tool, see: [Meeting Update Tool for Skype for Business and Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype for Business Online, Meeting Migration Tool (64-bit)](https://go.microsoft.com/fwlink/?LinkID=626047), and  [Skype for Business Online, Meeting Migration Tool (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
 
-Veja [Redefinir o ID de conferência de um usuário](reset-a-conference-id-for-a-user.md).
+Consulte [Redefinir o ID de conferência de um usuário](reset-a-conference-id-for-a-user.md).
 
 ## <a name="reset-a-conference-organizers-pin"></a>Redefinir o PIN de um organizador da conferência
 
@@ -261,7 +261,7 @@ Consulte [ver uma lista de números de conferência de áudio](see-a-list-of-aud
 
 2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
 
-3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio**> e, em seguida, **os usuários**.
+3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para gt _ de **conferência de áudio**e, em seguida, **os usuários**.
 
 Veja [Ver uma lista de usuários habilitados para conferência de áudio](see-a-list-of-users-that-are-enabled-for-audio-conferencing.md).
 

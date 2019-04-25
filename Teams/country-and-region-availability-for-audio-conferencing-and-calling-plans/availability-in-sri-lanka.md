@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Sri Lanka.
 ms.openlocfilehash: 31506e4d67a78a80835b07293c310f4836d90347
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543019"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221959"
 ---
 # <a name="availability-in-sri-lanka"></a>Disponibilidade no Sri Lanka
 
@@ -43,7 +43,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim  <br/> |
-|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> | Números de telefone não são vinculados a uma cidade ou local específico. Se desejar que os números de telefone dedicados, consulte[Getting números de telefone de serviço para Skype para equipes da Microsoft e de negócios](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> | Números de telefone não estão vinculados a um local ou cidade específica. Se desejar que os números de telefone dedicados, consulte[Getting números de telefone de serviço para Skype para equipes da Microsoft e de negócios](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Requer créditos de comunicação  <br/> |
    
 ## <a name="phone-system"></a>Sistema de Telefonia
@@ -67,7 +67,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Números de telefone não são vinculados a uma cidade ou local específico.  <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Números de telefone não estão vinculados a um local ou cidade específica.  <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Não  <br/> |
    

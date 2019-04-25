@@ -18,11 +18,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: dd0bf20219b8d213c354f5fc239ae3924a0d21c0
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649384"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226635"
 ---
 # <a name="teams-only-mode-considerations"></a>Considerações sobre o modo Teams Only (Apenas Teams)
 
@@ -53,7 +53,7 @@ Enquanto milhares de clientes tiverem atualizados com êxito a Microsoft Teams, 
 
 **Considerações de específica do usuário**: ainda estão em evolução alguns cenários de usuário e os administradores podem decidir temporariamente adiar a atualização de determinados usuários durante a atualização de outros usuários na organização. Estamos trabalhando em:/ / Tools.ietf.org esses cenários; Por favor, monitore o site do [Mapa do Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para comunicados.
 
-| Cenário | Notas |
+| Cenário | Observações |
 |----------|-------|
 |Dispositivo de trabalho principal do usuário é um Mac e o usuário precisa para ver a disponibilidade dos colegas no Outlook. | Presença do Outlook em equipes ainda não é totalmente suportada para dispositivos de Mac. |
 | Usuário regularmente é conduzir reuniões com clientes ou parceiros externos em diferentes regiões internacionais. | Os participantes externos cujo locatário reside em um local diferente de geo não vejo IM chat em uma reunião **federados** . Os participantes ainda poderão ingressar na reunião como usuários anônimos. |

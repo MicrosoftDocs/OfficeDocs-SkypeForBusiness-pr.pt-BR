@@ -17,13 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-- Skype for Business Online
-ms.openlocfilehash: d8365792ead4422786d8e54c2541ff42d79f35b6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3f97e3a22122b08c9b554d0c1a395a8d714d92e1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464312"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227611"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Atualizar o Microsoft Teams gratuitamente para a versão de assinatura do Office 365
 ======================================================
@@ -39,7 +38,7 @@ Equipes livres foi projetado para pequenas e médias empresas e tem os seguintes
 
 - máximo de 300 usuários
 - Pesquisa e mensagens de chat ilimitado
-- Acesso de convidado
+- Acesso de convidados
 - Integração com aplicativos e serviços, incluindo as versões Online do Word, Excel, PowerPoint e OneNote
 - 2 GB de armazenamento por usuário e 10 GB de armazenamento compartilhado
 - 1:1 e grupo áudio online e chamadas de vídeo
@@ -53,7 +52,7 @@ A versão completa do equipes incluída uma assinatura do Office 365 fornece os 
 - OneDrive, SharePoint, planejador, Yammer e mais serviços do Office 365
 - 1 TB de armazenamento por usuário
 - Reuniões agendadas
-- Serviços de audioconferência
+- Audioconferência
 - Recursos aprimorados de segurança e conformidade, incluindo a autenticação multifator, single sign-on e avançado de auditoria e relatórios
 - Controles administrativos e recursos de suporte, incluindo web e por telefone 24 h x 7 suporte, ferramentas de administração para gerenciar usuários e aplicativos, relatórios de uso para o Office 365 services, contrato de nível de serviço e as configurações de usuário configurável e políticas
 
@@ -95,4 +94,5 @@ Quando a atualização for concluída, consulte [Introdução ao equipes da Micr
 - Para saber mais sobre as versões de equipes e seus recursos, consulte [equipes comparar planos](https://products.office.com/microsoft-teams/free).
 - Para obter mais informações sobre como atualizar para a versão completa de equipes, consulte [atualizar a partir de equipes livres para equipes](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
 - Para tarefas de administração adicionais associadas à atualização de usuários, incluindo a adição de licenças de usuário, alterando os nomes de usuário e atribuindo senhas temporárias, consulte [para os administradores atualizando de equipes gratuitos em uma assinatura paga](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52).
+- Para obter informações sobre como gerenciar equipes gratuitos em sua organização, consulte [Manage a versão gratuita do equipes da Microsoft](manage-freemium.md).
 

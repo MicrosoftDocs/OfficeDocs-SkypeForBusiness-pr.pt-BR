@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: Criar ou modificar os links de região de rede, que são usados pelo controle de admissão de chamada do Enterprise Voice no Skype para Business Server.
 ms.openlocfilehash: 729b20010390bf0a8865adce96a398d362009552
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223357"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>Criar links de região de rede no Skype para Business Server
  
@@ -68,7 +68,7 @@ A topologia de exemplo possui um link entre as regiões da América do Norte e A
     
 10. Para finalizar a criação de links de região de rede para sua topologia, repita as etapas 4 a 9 com as configurações de outras regiões.
     
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   

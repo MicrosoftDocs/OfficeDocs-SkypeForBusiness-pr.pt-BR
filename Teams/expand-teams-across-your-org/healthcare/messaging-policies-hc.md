@@ -1,5 +1,5 @@
 ---
-title: Introdução ao Secure Messaging para organizações de saúde
+title: Introdução às Mensagens Seguras para Organizações de Saúde
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,15 +12,15 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Introdução ao Secure Messaging para organizações de saúde
-ms.openlocfilehash: 58e19cd5f8e39e05b2b2178bcf4062260546e509
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: Introdução às Mensagens Seguras para Organizações de Saúde
+ms.openlocfilehash: 2de10ef2d36dce991e6f1cd122a624e17ff7a918
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013750"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298680"
 ---
-# <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introdução ao Secure Messaging para organizações de saúde
+# <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introdução às Mensagens Seguras para Organizações de Saúde
 
 Políticas de mensagens são usadas para controlar quais recursos de mensagens de canal e de bate-papo estão disponíveis para usuários no Microsoft Teams e fazem parte da implantação geral de Secure Messaging para organizações de saúde como hospitais, palestras ou escritórios médico, onde ter uma mensagem buscadas e tratados modo oportuno é crucial, conforme é saber quando cruciais mensagens são lidos.
 
@@ -36,6 +36,8 @@ Para editar a política existente de mensagens padrão para sua organização, c
 
 As configurações a seguir são de interesse especial para aplicativos da área de saúde e devem ser consideradas durante a criação de uma política personalizada usada no campo de saúde:
 
+## <a name="read-reciepts"></a>Leia recebimentos
+
 - ![um número](../../media/sfbcallout1.png) confirmações de leitura de **confirmações de leitura** permite que o remetente de uma mensagem de bate-papo saber quando a mensagem foi lido pelo destinatário. Use esta configuração para especificar se a notificação de leitura estão usuário controlados, habilitado para todas as pessoas ou desabilitada para todos. Mensagem lida confirmações são importantes para as organizações de saúde porque eles remover maneira imprecisa sobre se uma mensagem foi lido.
 
   Para aplicativos da área de saúde, escolha **controlado de usuário** ou **habilitado para todas as pessoas**. Lembre-se de que, ao usar a configuração de **habilitado para todas as pessoas** , a única maneira de definir confirmações para o locatário todo é ter apenas uma diretiva de mensagens para o locatário todo (a política padrão nomeado "Global (padrão de toda a organização)") ou ter todas as mensagens as diretivas no locatário usam as mesmas configurações para confirmações.
@@ -46,6 +48,8 @@ As configurações a seguir são de interesse especial para aplicativos da área
  *Exemplo de uso sem confirmações de leitura:* Jakob Roth, um paciente de alto risco, é admitido para o hospital.Sófia Krause é enfermeiro trabalhando como parte da equipe entre disciplinar (IDT) dos funcionários médicos, incluindo especialistas de diferentes, é atribuído como o coordenador de atendimento médico de principal responsável por este pacientes.  Sófia envia emails e outras mensagens instantâneas para uma grupos de enfermeiras e médicos que usam uma variedade de aplicativos e clientes de mensagens e obtém frequentemente sem resposta ou indicação se uma mensagem foi lido pelos membros da equipe. Devido aos processos de comunicação tangled, remédios do Jakob é aplicada de maneira inadequado e seu permaneça hospital é estendida.
 
   *Exemplo de uso com confirmações de leitura:* Jakob Roth, um paciente de alto risco, é admitido para o hospital.Sófia Krause é enfermeiro trabalhando como parte da equipe entre disciplinar (IDT) dos funcionários médicos, incluindo especialistas de diferentes, é atribuído como o coordenador de atendimento médico de principal responsável por este pacientes.  Sófia inicia o chat de grupo com um conjunto de médicos e outros enfermeiros quem estará trabalhando com o paciente coordenar atendimento médico e inicia uma triagem de emergência.Os médicos e enfermeiros se comunicar e colaboram através do plano de atendimento do paciente ao longo do processo de coordenação de atendimento médico.  Mensagens importantes e urgentes são enviadas por meio de 1:1 e conversas de bate-papo de grupo. Sófia usa a funcionalidade de confirmações de leitura para determinar se as mensagens enviadas solicitar suporte são entregues e ler pelos médicos de destino ou enfermeiras. Resultados para os pacientes do Jakob são perto ideal e ele vai antes primário, porque sua equipe de atendimento médico se comunica suavemente.
+
+## <a name="priority-notifications"></a>Notificações de prioridade
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -58,4 +62,4 @@ As configurações a seguir são de interesse especial para aplicativos da área
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Gerenciar políticas de mensagens no Teams](../../messaging-policies-in-teams.md)
-- [Introdução ao equipes para organizações de saúde](teams-in-hc.md)
+- [Introdução ao Teams para Organizações de Saúde](teams-in-hc.md)

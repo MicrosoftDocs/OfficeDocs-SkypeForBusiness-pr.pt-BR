@@ -19,11 +19,11 @@ ms.custom:
 - Calling Plans
 description: Saiba por que você precisa adicionar uma pessoa autorizada que pode fazer alterações à conta quando você usar o Assistente de nova ordem de porta do número Local.
 ms.openlocfilehash: 846abfd5b6973a02ad1a7388b45a79ec709695a0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229863"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>Mais informações sobre a Identificação de linha da chamada e o nome do chamador
 
@@ -33,7 +33,7 @@ ID do chamador, conforme ele é normalmente denominado, realmente consiste de du
 
 Quando uma chamada for feita, a CLID (número de telefone) é encaminhado para operadora do destino (também conhecida como a operadora terminação). As informações CNAM para a chamada podem ou não poderão ser roteadas com a chamada conforme isso depende de como o país implementou CNAM (se nisso). A confiabilidade de entrega CNAM com a chamada varia dependendo do país e operadoras que lidam com a chamada como um intermediário e/ou uma operadora de telefonia de encerramento. 
 
-Transmissão CLID & CNAM é responsabilidade da transportadora terminação na medida a operadora terminação deve oferecer suporte à funcionalidade CLID & CNAM bem como fornecer registros atualizados para os dois valores. A Microsoft fornece valores CLID confiável ao originar chamadas, mas esses valores podem não ser mantidos intactos depois que eles passam por uma operadora intermediária ou a operadora de encerramento. Infelizmente, no caso do valor CLID for alterado, omitido ou truncado pela transportadora intermediária ou encerramento, a Microsoft não tem pouco ou nenhum recursos correção desses problemas na rede telefônica pública.
+Transmissão do CLID & CNAM é responsabilidade da transportadora terminação na medida a operadora terminação deve oferecer suporte à funcionalidade CNAM & CLID bem como fornecer registros atualizados para os dois valores. A Microsoft fornece valores CLID confiável ao originar chamadas, mas esses valores podem não ser mantidos intactos depois que eles passam por uma operadora intermediária ou a operadora de encerramento. Infelizmente, no caso do valor CLID for alterado, omitido ou truncado pela transportadora intermediária ou encerramento, a Microsoft não tem pouco ou nenhum recursos correção desses problemas na rede telefônica pública.
 
 Inconsistências no CNAM podem ser causadas por atrasos na intermediários ou encerramento operadoras atualizando info CNAM nos bancos de dados autoritativos, como no caso dos Estados Unidos. Em países onde não há nenhum banco de dados autoritativo para CNAM, práticas de operadora individuais também podem causar problemas com informações de CNAM que chegam intacto com a chamada. Microsoft atualmente não suporta informações do originador CNAM fora dos Estados Unidos países."
 

@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 'Por padrão, o servidor de mediação está colocado com o servidor Front-End. O servidor de mediação também podem ser implantado em um pool autônomo por motivos de desempenho, ou se você implantar o tronco SIP, caso em que o pool autônomo é altamente recomendável. Posicionamento em Skype para funções de servidor de negócios apenas como ela foi feito no Lync Server 2013. Para detalhes, consulte os seguintes tópicos:'
 ms.openlocfilehash: 36456e49f62b308f0f1227db1b6730153abbc66b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875261"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235713"
 ---
 # <a name="mediation-collocation-planning-tool"></a>Mediation Collocation (Planning Tool)
  

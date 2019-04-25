@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 'Resumo: Saiba como gerenciar definições de configuração de servidor conferência no Skype para Business Server.'
 ms.openlocfilehash: a12226f9f7d56f9f8a61b6f820a2c0f9744121fc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222839"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Gerenciar definições de configuração de servidor conferência no Skype para Business Server
  

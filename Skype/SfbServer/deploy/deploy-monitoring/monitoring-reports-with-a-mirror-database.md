@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Resumo: Saiba como associar relatórios de monitoramento de um banco de dados de espelho usado pelo Skype para Business Server.'
 ms.openlocfilehash: ea087ad53466abd35f6ff221b8c9b2aec781922f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885892"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225522"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Associar relatórios de monitoramento a um banco de dados de espelho em Skype para Business Server 
  
@@ -65,7 +65,7 @@ Para que o failover dos Relatórios de Monitoramento seja executado automaticame
     
 8. Clique em **Aplicar**.
     
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Instalar os relatórios de monitoramento em Skype para Business Server](install-monitoring-reports.md)
   

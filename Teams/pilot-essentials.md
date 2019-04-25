@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: de8041bb9557ec224c2ab2b3a5fa4f92de1280cf
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236726"
 ---
 ![Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação] (media/upgrade-banner-deployment.png "Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação")
 
@@ -33,7 +33,7 @@ Este artigo faz parte do estágio de implantação e a implementação da sua at
 - [Preparado o seu ambiente](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Preparado sua organização](https://aka.ms/SkypeToTeams-UserReadiness)
 
-# <a name="conduct-a-user-pilot"></a>Conduza um piloto de usuário
+# <a name="conduct-a-user-pilot"></a>Realizar um piloto de usuário
 
 Implantando novas tecnologias, sua organização pode obter o valor de negócios, como a economia de custos, conformidade de segurança, satisfação do funcionário e eficiência operacional, mas ele também pode afetar a produtividade dos usuários e a infra-estrutura organizacional ( sua rede). Antes de habilitar a nova tecnologia em toda a organização, conduza um piloto de usuário formal. Exatamente como você faria pintar um patch pequeno de cor em uma parede antes pintando a sala toda, você faria testar uma ampla distribuição em uma escala menor conduzindo um piloto para validar técnica e a preparação do usuário, identificar e atenuar problemas e ajudar a garantir uma bem-sucedida implementação de toda a organização.
 

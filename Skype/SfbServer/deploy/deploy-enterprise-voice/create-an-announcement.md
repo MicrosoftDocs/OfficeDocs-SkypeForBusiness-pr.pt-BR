@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Criar ou excluir comunicados para o aplicativo de anúncio no Skype para Business Server Enterprise Voice. Isso afeta o modo como nas chamadas para números não atribuídos são administradas.
 ms.openlocfilehash: cf6fc0ce754e30e4d52e968dc3a167bbe87a5a83
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885572"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223519"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Criar ou excluir um anúncio no Skype para Business Server
 
@@ -113,7 +113,7 @@ Para criar um novo comunicado, é necessário executar as seguintes etapas:
     > [!NOTE]
     > Para obter detalhes sobre mais opções, consulte [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) e [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps).
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Criar ou excluir um anúncio no Skype para Business Server](create-an-announcement.md)
 

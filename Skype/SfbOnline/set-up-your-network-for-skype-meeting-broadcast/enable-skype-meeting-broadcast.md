@@ -19,11 +19,11 @@ ms.custom:
 - SMB
 description: Antes das pessoas na sua organização podem usar a transmissão do Skype reunião, é necessário habilitá-lo. Para fazer isso, você precisa saber como usar o Windows PowerShell. Se você não conhece o Windows PowerShell, considere contratar um Parceiro Microsoft para realizar essa etapa para você.
 ms.openlocfilehash: 699b82af07b263331ee5508326bf3e7ed015848e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370859"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226815"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Habilitar a Transmissão de Reunião do Skype
 

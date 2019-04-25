@@ -1,5 +1,5 @@
 ---
-title: Por que a ativação do número está listada como sendo atualizada?
+title: Por que a ativação número está listada como atualizar?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
 ms.openlocfilehash: dc1bf738f301dfc800b0e0e4975322fae6a1568e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370705"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227820"
 ---
-# <a name="why-is-number-activation-listed-as-updating"></a>Por que a ativação do número está listada como sendo atualizada?
+# <a name="why-is-number-activation-listed-as-updating"></a>Por que a ativação número está listada como atualizar?
 
 A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Se por algum motivo um número de telefone não é ativado e está listado como **a atualização** devido a validação de endereço, você precisará criar e enviar uma solicitação de serviço. A maneira de fazer isso depende do tamanho da sua organização.
   
@@ -103,7 +103,7 @@ A validação de endereços é uma etapa importante da configuração de Planos 
 
 [Diferentes tipos de números de telefone usados para Planos de Chamadas](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
+[Termos e condições para chamadas de emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   

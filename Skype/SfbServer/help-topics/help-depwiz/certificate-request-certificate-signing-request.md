@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: Para criar uma solicitação offline, crie primeiro um certificado (CSR) de solicitação de assinatura. Digite o caminho e nome do arquivo CSR na caixa de texto Nome do arquivo. Você pode clicar em Procurar para escolher um local para criar o CSR. Clique em Avançar para continuar.
 ms.openlocfilehash: aae9882d81c8772becac2eb93e66eddaf22fed37
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235083"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Solicitação de Certificado (Solicitação de Assinatura de Certificado)
  

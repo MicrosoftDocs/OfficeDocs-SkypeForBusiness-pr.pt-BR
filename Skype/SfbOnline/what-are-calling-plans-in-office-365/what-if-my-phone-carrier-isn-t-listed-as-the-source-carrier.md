@@ -1,5 +1,5 @@
 ---
-title: E se a minha operadora telefônica não estiver listada como a operadora original?
+title: E se a operadora meu telefone não está listada como a operadora de fonte?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: 'Saiba o que fazer se a sua operadora não estiver listada no Skype para negócios. '
 ms.openlocfilehash: 638d222231ca0f092684ebde2fab74cc034af70c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229648"
 ---
-# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>E se a minha operadora telefônica não estiver listada como a operadora original?
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>E se a operadora meu telefone não está listada como a operadora de fonte?
 
 Ele é um pouco confuso quando você ver o nome da sua operadora não estiver listado. Na maioria dos casos, se o provedor de serviços ou operadora for diferente, chances são que os números de telefone que você está transferindo sobre pertencentes a um provedor de serviço diferentes ou a operadora. Pode haver ocasiões quando o provedor de serviços ou operadora listado poderia ser diferente do seu provedor de serviços atual porque seu provedor de serviços atual pode estar funcionando com um provedor de serviços de terceiros. 
   
@@ -45,7 +45,7 @@ Um exemplo:
 ## <a name="related-topics"></a>Tópicos relacionados
 [Perguntas comuns sobre a transferência de números de telefone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
+[Termos e condições para chamadas de emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

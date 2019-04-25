@@ -20,11 +20,11 @@ ms.custom:
 - Setup
 description: 'Neste resumo do Skype para configurações de usuário e organização de negócios pode ajudá-lo a saber mais sobre conectividade de IM público, convites para reuniões, registro de chamadas e reuniões e muito mais.  '
 ms.openlocfilehash: df16f6893da94e456bc873a74c8e0a1639eda3db
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876059"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237244"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Resumo de configurações do Skype for Business Online
 
@@ -55,7 +55,7 @@ O **Skype para centro de administração de negócios** inclui configurações p
 |Desabilitar recursos não arquivados  <br/> | Desativa os recursos que não são capturados quando a organização tiver configurado um [Adicionar conteúdo a uma fontes caso e local em retenção no Centro de descoberta eletrônica](https://go.microsoft.com/fwlink/?LinkId=529482) no Centro de administração do Exchange: <br/>  Transferência de arquivos usando mensagens de chat <br/>  Páginas do OneNote compartilhadas <br/>  Anotações do PowerPoint <br/>  Selecione esta opção se você for obrigado legalmente para preservar informações armazenadas eletronicamente. <br/> |Desabilitado  <br/> |[Administradores: Definir as configurações do Skype for Business para usuários individuais](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
-[Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
+[Instalar o Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
 

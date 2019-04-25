@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Resumo: Leia este tópico para saber como adicionar bancos de dados de arquivamento à sua Skype para implantação de servidor de negócios.'
 ms.openlocfilehash: 083b6329cdf27331ba861b96a74f94e2ae5aa912
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895311"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229457"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Adicionar bancos de dados de arquivamento a uma implantação existente no Skype para Business Server
  

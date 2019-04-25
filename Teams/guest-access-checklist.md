@@ -1,5 +1,5 @@
 ---
-title: Lista de verificação de acesso de convidado Teams da Microsoft
+title: Lista de verificação de acesso de convidados do Microsoft Teams
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
-ms.sourcegitcommit: fba1151c968aa2c43d0c5b42b889b2cdd8dba3cd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "30795582"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237544"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidado equipes
 ==========================================
@@ -42,7 +42,7 @@ A experiência de convidado tem limitações por design. Verifique se que você 
 
 Para obter mais detalhes, consulte [o que a experiência de convidado é como](guest-experience.md) e [acesso de convidado em grupos do Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
-### <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado versus acesso externo (federação)
+### <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado vs. acesso externo (federação)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
