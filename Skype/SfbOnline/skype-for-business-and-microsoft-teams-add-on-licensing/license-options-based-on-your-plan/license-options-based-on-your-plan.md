@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom: None
 description: Saiba mais sobre a caixa postal de nuvem.
 ms.openlocfilehash: eb6065a64bf03c2112747a296a1d0ef955a1506f
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948139"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226027"
 ---
-# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="15f17-103">Opções de licença com base no seu plano</span><span class="sxs-lookup"><span data-stu-id="15f17-103">License options based on your plan</span></span>
+# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="1a9c3-103">Opções de licença com base no seu plano</span><span class="sxs-lookup"><span data-stu-id="1a9c3-103">License options based on your plan</span></span>
 
 

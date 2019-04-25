@@ -10,38 +10,38 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Depois de remover um Monitoring Server, você pode remover os bancos de dados do SQL Server que hospedava os dados do servidor. Use os procedimentos a seguir para remover as definições do construtor de topologia e, em seguida, remover os arquivos de banco de dados e log do servidor de banco de dados.
 ms.openlocfilehash: 7e299eb2de3fc0820cd4497c2956c71ceec79910
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231368"
 ---
-# <a name="remove-the-sql-server-database-for-a-monitoring-server"></a><span data-ttu-id="9f8c5-104">Remover banco de dados do SQL Server de um servidor de Monitoramento</span><span class="sxs-lookup"><span data-stu-id="9f8c5-104">Remove the SQL Server database for a Monitoring server</span></span>
+# <a name="remove-the-sql-server-database-for-a-monitoring-server"></a><span data-ttu-id="5afed-104">Remover banco de dados do SQL Server de um servidor de Monitoramento</span><span class="sxs-lookup"><span data-stu-id="5afed-104">Remove the SQL Server database for a Monitoring server</span></span>
 
-<span data-ttu-id="9f8c5-105">Depois de remover um Monitoring Server, você pode remover os bancos de dados do SQL Server que hospedava os dados do servidor.</span><span class="sxs-lookup"><span data-stu-id="9f8c5-105">After you remove a Monitoring Server, you can remove the SQL Server databases that hosted the server data.</span></span> <span data-ttu-id="9f8c5-106">Use os procedimentos a seguir para remover as definições do construtor de topologia e, em seguida, remover os arquivos de banco de dados e log do servidor de banco de dados.</span><span class="sxs-lookup"><span data-stu-id="9f8c5-106">Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server.</span></span>
+<span data-ttu-id="5afed-105">Depois de remover um Monitoring Server, você pode remover os bancos de dados do SQL Server que hospedava os dados do servidor.</span><span class="sxs-lookup"><span data-stu-id="5afed-105">After you remove a Monitoring Server, you can remove the SQL Server databases that hosted the server data.</span></span> <span data-ttu-id="5afed-106">Use os procedimentos a seguir para remover as definições do construtor de topologia e, em seguida, remover os arquivos de banco de dados e log do servidor de banco de dados.</span><span class="sxs-lookup"><span data-stu-id="5afed-106">Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server.</span></span>
   
-## <a name="to-remove-the-sql-server-database-using-topology-builder"></a><span data-ttu-id="9f8c5-107">Para remover o banco de dados do SQL Server usando o construtor de topologia</span><span class="sxs-lookup"><span data-stu-id="9f8c5-107">To remove the SQL Server database using Topology Builder</span></span>
+## <a name="to-remove-the-sql-server-database-using-topology-builder"></a><span data-ttu-id="5afed-107">Para remover o banco de dados do SQL Server usando o construtor de topologia</span><span class="sxs-lookup"><span data-stu-id="5afed-107">To remove the SQL Server database using Topology Builder</span></span>
 
-1. <span data-ttu-id="9f8c5-108">No Skype para Business Server 2019 servidor Front-End, abra o construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="9f8c5-108">On the Skype for Business Server 2019 Front End Server, open Topology Builder.</span></span>
+1. <span data-ttu-id="5afed-108">No Skype para Business Server 2019 servidor Front-End, abra o construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="5afed-108">On the Skype for Business Server 2019 Front End Server, open Topology Builder.</span></span>
     
-2. <span data-ttu-id="9f8c5-109">No construtor de topologias, navegue até **Componentes compartilhados** e depois **Repositórios do SQL Server**, com o botão direito do SQL Server instância associados a removido ou reconfigurado Monitoring Server e, em seguida, clique em **Excluir**.</span><span class="sxs-lookup"><span data-stu-id="9f8c5-109">In Topology Builder, navigate to **Shared Components** and then **SQL Server Stores**, right-click the SQL Server instance associated with the removed or reconfigured Monitoring Server, and then click **Delete**.</span></span>
+2. <span data-ttu-id="5afed-109">No construtor de topologias, navegue até **Componentes compartilhados** e depois **Repositórios do SQL Server**, com o botão direito do SQL Server instância associados a removido ou reconfigurado Monitoring Server e, em seguida, clique em **Excluir**.</span><span class="sxs-lookup"><span data-stu-id="5afed-109">In Topology Builder, navigate to **Shared Components** and then **SQL Server Stores**, right-click the SQL Server instance associated with the removed or reconfigured Monitoring Server, and then click **Delete**.</span></span>
     
-3. <span data-ttu-id="9f8c5-110">Publique a topologia e verifique o status de replicação.</span><span class="sxs-lookup"><span data-stu-id="9f8c5-110">Publish the topology, and then check replication status.</span></span>
+3. <span data-ttu-id="5afed-110">Publique a topologia e verifique o status de replicação.</span><span class="sxs-lookup"><span data-stu-id="5afed-110">Publish the topology, and then check replication status.</span></span>
     
-## <a name="to-remove-the-database-files-from-the-sql-server"></a><span data-ttu-id="9f8c5-111">Para remover os arquivos de banco de dados do SQL Server</span><span class="sxs-lookup"><span data-stu-id="9f8c5-111">To remove the database files from the SQL Server</span></span>
+## <a name="to-remove-the-database-files-from-the-sql-server"></a><span data-ttu-id="5afed-111">Para remover os arquivos de banco de dados do SQL Server</span><span class="sxs-lookup"><span data-stu-id="5afed-111">To remove the database files from the SQL Server</span></span>
 
-1. <span data-ttu-id="9f8c5-112">Para remover os bancos de dados no servidor baseado em SQL Server, você deve ser membro do grupo de sysadmins do SQL Server para o SQL server onde você está removendo os arquivos de banco de dados.</span><span class="sxs-lookup"><span data-stu-id="9f8c5-112">To remove the databases on the SQL Server-based server, you must be a member of the SQL Server sysadmins group for the SQL Server server where you are removing the database files.</span></span>
+1. <span data-ttu-id="5afed-112">Para remover os bancos de dados no servidor baseado em SQL Server, você deve ser membro do grupo de sysadmins do SQL Server para o SQL server onde você está removendo os arquivos de banco de dados.</span><span class="sxs-lookup"><span data-stu-id="5afed-112">To remove the databases on the SQL Server-based server, you must be a member of the SQL Server sysadmins group for the SQL Server server where you are removing the database files.</span></span>
     
-2. <span data-ttu-id="9f8c5-113">Abra o Skype do Shell de gerenciamento do servidor de negócios.</span><span class="sxs-lookup"><span data-stu-id="9f8c5-113">Open the Skype for Business Server Management Shell.</span></span>
+2. <span data-ttu-id="5afed-113">Abra o Skype do Shell de gerenciamento do servidor de negócios.</span><span class="sxs-lookup"><span data-stu-id="5afed-113">Open the Skype for Business Server Management Shell.</span></span>
     
-3. <span data-ttu-id="9f8c5-114">Na linha de comando, digite o seguinte:</span><span class="sxs-lookup"><span data-stu-id="9f8c5-114">At the command line, type the following:</span></span>
+3. <span data-ttu-id="5afed-114">Na linha de comando, digite o seguinte:</span><span class="sxs-lookup"><span data-stu-id="5afed-114">At the command line, type the following:</span></span>
     
    ```
    Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 
-    <span data-ttu-id="9f8c5-115">Onde _ \<FQDN\> _ é o nome de domínio totalmente qualificado (FQDN) do servidor de banco de dados, e _ \<instância\> _ é a instância do banco de dados nomeada opcional.</span><span class="sxs-lookup"><span data-stu-id="9f8c5-115">Where  _\<FQDN\>_ is the fully qualified domain name (FQDN) of the database server, and  _\<instance\>_ is the optional named database instance.</span></span> 
+    <span data-ttu-id="5afed-115">Onde _ \<FQDN\> _ é o nome de domínio totalmente qualificado (FQDN) do servidor de banco de dados, e _ \<instância\> _ é a instância do banco de dados nomeada opcional.</span><span class="sxs-lookup"><span data-stu-id="5afed-115">Where  _\<FQDN\>_ is the fully qualified domain name (FQDN) of the database server, and  _\<instance\>_ is the optional named database instance.</span></span> 
     
-4. <span data-ttu-id="9f8c5-116">Quando o cmdlet **Uninstall-CsDataBase** solicita a confirmação de ações, leia as informações e pressione Y (ou Enter) para continuar ou pressione N e Enter se você deseja parar o cmdlet (se houver erros).</span><span class="sxs-lookup"><span data-stu-id="9f8c5-116">When the **Uninstall-CsDataBase** cmdlet prompts you to confirm actions, read the information, and then press Y (or Enter) to proceed, or press N and then Enter if you want to stop the cmdlet (if there are errors).</span></span> 
+4. <span data-ttu-id="5afed-116">Quando o cmdlet **Uninstall-CsDataBase** solicita a confirmação de ações, leia as informações e pressione Y (ou Enter) para continuar ou pressione N e Enter se você deseja parar o cmdlet (se houver erros).</span><span class="sxs-lookup"><span data-stu-id="5afed-116">When the **Uninstall-CsDataBase** cmdlet prompts you to confirm actions, read the information, and then press Y (or Enter) to proceed, or press N and then Enter if you want to stop the cmdlet (if there are errors).</span></span> 
     
 

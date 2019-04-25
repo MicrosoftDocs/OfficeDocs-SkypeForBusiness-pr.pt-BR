@@ -14,32 +14,32 @@ localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 description: Você define os computadores que serão uma parte de um pool do servidor de Chat persistente, digitando o nome de domínio totalmente qualificado (FQDN) em FQDN do computador. Esse precisa ser o nome do computador conforme definido nos registros (A ou AAAA) do host DNS (Sistema de Nomes de Domínio).
 ms.openlocfilehash: 78a6912dc3cd77e82a998f858abd78c9bb719869
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226897"
 ---
-# <a name="define-computers-in-persistent-chat-pool"></a><span data-ttu-id="b020c-104">Definir computadores no Pool de Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="b020c-104">Define Computers in Persistent Chat Pool</span></span>
+# <a name="define-computers-in-persistent-chat-pool"></a><span data-ttu-id="c4cfb-104">Definir computadores no Pool de Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="c4cfb-104">Define Computers in Persistent Chat Pool</span></span>
  
-<span data-ttu-id="b020c-105">Você define os computadores que serão uma parte de um pool do servidor de Chat persistente, digitando o nome de domínio totalmente qualificado (FQDN) em **FQDN do computador**.</span><span class="sxs-lookup"><span data-stu-id="b020c-105">You define the computers that will be a part of a Persistent Chat Server pool by typing the fully qualified domain name (FQDN) in **Computer FQDN**.</span></span> <span data-ttu-id="b020c-106">Esse precisa ser o nome do computador conforme definido nos registros (A ou AAAA) do host DNS (Sistema de Nomes de Domínio).</span><span class="sxs-lookup"><span data-stu-id="b020c-106">This must be the name of the computer as it is defined in the domain name system DNS host (A or AAAA) records.</span></span>
+<span data-ttu-id="c4cfb-105">Você define os computadores que serão uma parte de um pool do servidor de Chat persistente, digitando o nome de domínio totalmente qualificado (FQDN) em **FQDN do computador**.</span><span class="sxs-lookup"><span data-stu-id="c4cfb-105">You define the computers that will be a part of a Persistent Chat Server pool by typing the fully qualified domain name (FQDN) in **Computer FQDN**.</span></span> <span data-ttu-id="c4cfb-106">Esse precisa ser o nome do computador conforme definido nos registros (A ou AAAA) do host DNS (Sistema de Nomes de Domínio).</span><span class="sxs-lookup"><span data-stu-id="c4cfb-106">This must be the name of the computer as it is defined in the domain name system DNS host (A or AAAA) records.</span></span>
   
-<span data-ttu-id="b020c-107">Clique em **Adicionar** para adicionar o FQDN à lista de computadores no pool.</span><span class="sxs-lookup"><span data-stu-id="b020c-107">Click **Add** to add the FQDN to the list of computers in the pool.</span></span>
+<span data-ttu-id="c4cfb-107">Clique em **Adicionar** para adicionar o FQDN à lista de computadores no pool.</span><span class="sxs-lookup"><span data-stu-id="c4cfb-107">Click **Add** to add the FQDN to the list of computers in the pool.</span></span>
   
-<span data-ttu-id="b020c-108">Clique em **Atualizar** para atualizar as entradas na lista de computadores que compõem a lista de computadores definida para o pool.</span><span class="sxs-lookup"><span data-stu-id="b020c-108">Click **Update** to refresh the entries in the list of computers in the computers that make up the list of computers defined for the pool.</span></span>
+<span data-ttu-id="c4cfb-108">Clique em **Atualizar** para atualizar as entradas na lista de computadores que compõem a lista de computadores definida para o pool.</span><span class="sxs-lookup"><span data-stu-id="c4cfb-108">Click **Update** to refresh the entries in the list of computers in the computers that make up the list of computers defined for the pool.</span></span>
   
-<span data-ttu-id="b020c-109">Clique em **Remover** para excluir um computador definido no pool.</span><span class="sxs-lookup"><span data-stu-id="b020c-109">Click **Remove** to delete a defined computer in the pool.</span></span>
+<span data-ttu-id="c4cfb-109">Clique em **Remover** para excluir um computador definido no pool.</span><span class="sxs-lookup"><span data-stu-id="c4cfb-109">Click **Remove** to delete a defined computer in the pool.</span></span>
   
-<span data-ttu-id="b020c-110">Clique em **Voltar** para voltar à caixa de diálogo de definição anterior.</span><span class="sxs-lookup"><span data-stu-id="b020c-110">Click **Back** to go back to the previous pool definition dialog.</span></span>
+<span data-ttu-id="c4cfb-110">Clique em **Voltar** para voltar à caixa de diálogo de definição anterior.</span><span class="sxs-lookup"><span data-stu-id="c4cfb-110">Click **Back** to go back to the previous pool definition dialog.</span></span>
   
-<span data-ttu-id="b020c-111">Clique em **Avançar** depois de concluir a inserção os membros do computador para este pool para prosseguir com a definição do pool de servidor de Chat persistente.</span><span class="sxs-lookup"><span data-stu-id="b020c-111">Click **Next** after you have finished entering the computer members for this pool to proceed with the Persistent Chat Server pool definition.</span></span>
+<span data-ttu-id="c4cfb-111">Clique em **Avançar** depois de concluir a inserção os membros do computador para este pool para prosseguir com a definição do pool de servidor de Chat persistente.</span><span class="sxs-lookup"><span data-stu-id="c4cfb-111">Click **Next** after you have finished entering the computer members for this pool to proceed with the Persistent Chat Server pool definition.</span></span>
   
-<span data-ttu-id="b020c-112">Clique em **Cancelar** para descartar todas as alterações e encerrar o assistente **Definir Novo Pool de Chat Persistente**.</span><span class="sxs-lookup"><span data-stu-id="b020c-112">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
+<span data-ttu-id="c4cfb-112">Clique em **Cancelar** para descartar todas as alterações e encerrar o assistente **Definir Novo Pool de Chat Persistente**.</span><span class="sxs-lookup"><span data-stu-id="c4cfb-112">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
   
-<span data-ttu-id="b020c-113">Clique em **Ajuda** para acessar a ajuda contextual, como esta página.</span><span class="sxs-lookup"><span data-stu-id="b020c-113">Click **Help** to access context sensitive help, such as this page.</span></span>
+<span data-ttu-id="c4cfb-113">Clique em **Ajuda** para acessar a ajuda contextual, como esta página.</span><span class="sxs-lookup"><span data-stu-id="c4cfb-113">Click **Help** to access context sensitive help, such as this page.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="b020c-114">Consulte Também</span><span class="sxs-lookup"><span data-stu-id="b020c-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c4cfb-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="c4cfb-114">See also</span></span>
 
-[<span data-ttu-id="b020c-115">Planejar Servidor de Chat Persistente no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="b020c-115">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[<span data-ttu-id="c4cfb-115">Planejar Servidor de Chat Persistente no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="c4cfb-115">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[<span data-ttu-id="b020c-116">Adicionar servidor de Chat persistente à sua Skype para a topologia de negócios Server 2015</span><span class="sxs-lookup"><span data-stu-id="b020c-116">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[<span data-ttu-id="c4cfb-116">Adicionar servidor de Chat persistente à sua Skype para a topologia de negócios Server 2015</span><span class="sxs-lookup"><span data-stu-id="c4cfb-116">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

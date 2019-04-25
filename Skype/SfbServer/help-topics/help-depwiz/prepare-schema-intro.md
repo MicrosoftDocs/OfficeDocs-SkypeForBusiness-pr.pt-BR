@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
 description: Para iniciar a tarefa para estender o esquema do Skype para Business Server 2015, começar na página preparar esquema. Clique em Avançar para continuar com a preparação do esquema.
 ms.openlocfilehash: 7454e82fac3c2af03d640d499feeaf54dcdf38f7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892882"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234929"
 ---
-# <a name="prepare-schema-intro"></a><span data-ttu-id="b577f-104">Preparar Esquema (Introdução)</span><span class="sxs-lookup"><span data-stu-id="b577f-104">Prepare Schema (Intro)</span></span>
+# <a name="prepare-schema-intro"></a><span data-ttu-id="14c37-104">Preparar Esquema (Introdução)</span><span class="sxs-lookup"><span data-stu-id="14c37-104">Prepare Schema (Intro)</span></span>
  
-<span data-ttu-id="b577f-105">Para iniciar a tarefa para estender o esquema do Skype para Business Server 2015, começar na página **Preparar esquema** .</span><span class="sxs-lookup"><span data-stu-id="b577f-105">To start the task to extend the schema for Skype for Business Server 2015, you begin on the **Prepare Schema** page.</span></span> <span data-ttu-id="b577f-106">Clique em **Avançar** para continuar com a preparação do esquema.</span><span class="sxs-lookup"><span data-stu-id="b577f-106">Click **Next** to continue with the schema preparation.</span></span>
+<span data-ttu-id="14c37-105">Para iniciar a tarefa para estender o esquema do Skype para Business Server 2015, começar na página **Preparar esquema** .</span><span class="sxs-lookup"><span data-stu-id="14c37-105">To start the task to extend the schema for Skype for Business Server 2015, you begin on the **Prepare Schema** page.</span></span> <span data-ttu-id="14c37-106">Clique em **Avançar** para continuar com a preparação do esquema.</span><span class="sxs-lookup"><span data-stu-id="14c37-106">Click **Next** to continue with the schema preparation.</span></span>
   
 
