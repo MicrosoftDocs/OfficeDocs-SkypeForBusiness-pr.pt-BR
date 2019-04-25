@@ -1,5 +1,5 @@
 ---
-title: Recursos de trabalhador Firstline em breve, a Microsoft Teams
+title: Recursos de Firstline Worker em breve estarão disponíveis no Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -14,13 +14,13 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c96510d0015e8ff026dee28567c7626196007fd6
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245812"
 ---
-# <a name="firstline-worker-features-coming-soon-to-microsoft-teams"></a>Recursos de trabalhador Firstline em breve, a Microsoft Teams
+# <a name="firstline-worker-features-coming-soon-to-microsoft-teams"></a>Recursos de Firstline Worker em breve estarão disponíveis no Microsoft Teams
 
 > [!IMPORTANT]
 > A partir de 1 de outubro de 2019, Microsoft StaffHub será desativada. Estamos compilando recursos StaffHub em Teams da Microsoft. Hoje, equipes inclui o aplicativo desloca para o gerenciamento de agenda e recursos adicionais serão distribuir ao longo do tempo. StaffHub irá parar de funcionar para todos os usuários em 1 de outubro de 2019. Qualquer pessoa que tenta abrir StaffHub será mostrada uma mensagem direcionando-os para baixar as equipes. Para saber mais, consulte [Microsoft StaffHub para ser retirado](microsoft-staffhub-to-be-retired.md).
@@ -50,4 +50,4 @@ Temos o compromisso de criação de recursos para atender às necessidades da su
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [O Microsoft StaffHub será desativado](microsoft-staffhub-to-be-retired.md)
-- [Mover suas equipes da Microsoft StaffHub para mudanças na equipes](move-staffhub-teams-to-shifts-in-teams.md)
+- [Mova as suas equipes do Microsoft StaffHub para Turnos no Teams](move-staffhub-teams-to-shifts-in-teams.md)

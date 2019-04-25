@@ -15,11 +15,11 @@ description: O administrador de TI pode configurar acesso externo para outros do
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b04b125f5cb998c71f161bf31809a39097accf6c
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955018"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245553"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Gerenciar o acesso externo (federação) no Microsoft Teams
 ======================================================
@@ -87,7 +87,7 @@ Siga estas etapas para adicionar um domínio ou desativar o acesso externo para 
 
 3. Em **Adicionar um domínio**, digite o nome do domínio; Por exemplo, digite Contoso.com.
 
-4. Selecione **permitida** ou **bloqueada**. Você pode alterar essa configuração a qualquer momento.
+4. Selecione **Permitido** ou **Bloqueado**. Você pode alterar essa configuração a qualquer momento.
 
 2. Selecione **concluído**.
 

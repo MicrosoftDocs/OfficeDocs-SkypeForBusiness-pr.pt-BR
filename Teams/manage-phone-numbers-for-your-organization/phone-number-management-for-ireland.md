@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para a Irlanda.
 ms.openlocfilehash: d948bb89461a6b9d69b95a1088d0b0f9441647db
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542787"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245242"
 ---
 # <a name="phone-number-management-for-ireland"></a>Gerenciamento de números de telefone para a Irlanda
 

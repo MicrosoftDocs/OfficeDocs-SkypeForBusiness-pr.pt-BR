@@ -1,7 +1,7 @@
 ---
 title: Guia de Operações do Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 04/12/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 45de98935cdba03697c84172ba7a0c081b0811da
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241816"
 ---
 # <a name="operate-my-service"></a>Operar meu serviço
 
@@ -465,7 +465,7 @@ Mesmo que ter seguido as diretrizes anteriores, usuários em sua organização a
 
 [Verificar a integridade do serviço do Microsoft Teams](service-health.md)
 
-[Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[Entre em contato com o suporte para produtos comerciais - Ajuda para Administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [Suporte Premier do contato](https://support.microsoft.com/premier/contacts)
 

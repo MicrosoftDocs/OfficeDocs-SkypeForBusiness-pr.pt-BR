@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 239996abd87c52905758d6bff5ddeb6bf7805e89
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 06f3371233b4ff16be8d55813e1621c3b08566d9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32247099"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Planejar Microsoft 365 governamental - implantações DoD
 
@@ -90,7 +90,7 @@ Para acomodar os requisitos de nossos clientes de nuvem do governo, há algumas 
 | | Guia do OneNote | Em todas as agências governamentais |
 | | Um canal de email | Não disponível |
 | | Adicionar membro | Disponível |
-| | Acesso de convidado | Em todas as agências governamentais |
+| | Acesso de convidados | Em todas as agências governamentais |
 | Reuniões | Agendar reunião | Disponível |
 | | Ingressar em reunião | Disponível |
 | | Reunião de VoIP | Disponível |
@@ -100,7 +100,7 @@ Para acomodar os requisitos de nossos clientes de nuvem do governo, há algumas 
 | | Gravação na nuvem | Em todas as agências governamentais |
 | | Notas de reunião | Disponível |
 | | Reuniões de transmissão | Em todas as agências governamentais |
-| | Reuniões federados | Disponível |
+| | Dentro da nuvem (DoD para DoD) federados reuniões | Disponível |
 | | Suporte de Hub superfície | Em todas as agências governamentais |
 | Chamadas | Contatos | Disponível |
 | | Histórico | Disponível |

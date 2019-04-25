@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para a Alemanha.
 ms.openlocfilehash: e7b27c8cc5429d535055109695f64ac61fc95b33
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245258"
 ---
 # <a name="phone-number-management-for-germany"></a>Gerenciamento de números de telefone para a Alemanha
 
@@ -37,7 +37,7 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
 |Obtenha o novo usuário ou números de telefone de serviço que não estão listados no Skype para centro de administração de negócios.  <br/> | Na Alemanha, não é possível obter números de telefone para a sua organização usando o Centro de administração do Skype for Business. Você deve enviar uma solicitação de novo número de telefone. Primeiro, Baixe este formulário. <br/> [Nova solicitação de número de telefone para a Alemanha (v.4.0)(de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(de-de).pdf?raw=true) <br/> [Nova solicitação de número de telefone para a Alemanha (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.4.0)-(en-us).pdf?raw=true) </br>Preencha-out e [enviá-lo para nós](mailto:ptneu@microsoft.com).  <br/> |
-|Obtenha números de telefone transferidos para nós.  <br/> | Baixe uma dessas formas. <br/> Números de usuário: <br/> [Carta de Autorização (LOA) para a Alemanha (números geográficos) (v.1.0)(de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de-de).pdf?raw=true) <br/><br/> Para números para ligações gratuitas: <br/> [Letra de autorização (LOA) para a Alemanha (números para ligações gratuitas) (v. 2.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.2.0)-(de-de).pdf?raw=true) <br/><br/> Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
+|Obtenha números de telefone transferidos para nós.  <br/> | Baixe uma dessas formas. <br/> Números de usuário: <br/> [Letra de autorização (LOA) para a Alemanha (números geográficas) (v.1.0)(de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de-de).pdf?raw=true) <br/><br/> Para números para ligações gratuitas: <br/> [Letra de autorização (LOA) para a Alemanha (números para ligações gratuitas) (v. 2.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.2.0)-(de-de).pdf?raw=true) <br/><br/> Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
 |Publicar/cancelar a publicação de números de telefone no diretório nacional de telefone.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
 |Altere o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
    

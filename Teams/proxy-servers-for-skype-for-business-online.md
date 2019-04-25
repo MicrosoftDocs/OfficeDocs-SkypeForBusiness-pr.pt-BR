@@ -1,5 +1,5 @@
 ---
-title: Servidores proxy para Teams ou Skype for Business Online
+title: Servidores de proxy para equipes ou Skype para negócios Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,13 @@ ms.custom:
 - Optimization
 description: Este artigo fornece informações sobre como usar um servidor proxy com equipes ou Skype para negócios.
 ms.openlocfilehash: a09a1bf53fe4d1a38742856c051a80e5928f36ef
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640894"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246114"
 ---
-# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Servidores proxy para Teams ou Skype for Business Online
+# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Servidores de proxy para equipes ou Skype para negócios Online
 
 Este artigo fornece orientação sobre como usar um servidor proxy com equipes ou Skype para negócios.
   

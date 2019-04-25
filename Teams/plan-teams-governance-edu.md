@@ -1,7 +1,7 @@
 ---
 title: Perguntas frequentes sobre governança do Microsoft Education para profissionais de TI ‒ Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: article
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5058347677b1c5baef6f01fefb1f8eca3ac4384
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e2be87b8d48970c9f33a4a49ae9970bee6fb3da3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246158"
 ---
-# <a name="microsoft-education-governance-faq-for-admins"></a>Governança de Microsoft Education perguntas Frequentes para administradores
+# <a name="microsoft-education-governance-faq-for-admins"></a>Perguntas frequentes sobre governança do Microsoft Education para administradores
 
 > [!Tip]
 > Assista a sessão de seguir para conhecer mais sobre o gerenciamento do Microsoft Teams: [governança, gerenciamento e ciclo de vida em equipes da Microsoft](https://aka.ms/teams-governance)
@@ -113,7 +113,7 @@ A [API do Microsoft Graph (beta)](https://developer.microsoft.com/graph/docs/api
 
 Sim. Você pode usar diretivas para controlar mensagens específicas, reuniões, chamadas e live recursos de evento que seus usuários têm acesso. Você pode usar configurações de todo o locatário para aplicar as mesmas configurações a todos ou aplicar políticas de nível de usuário, se necessário. 
 
-Para obter mais detalhes sobre as diretivas de equipes, consulte [os recursos de gerenciar equipes da Microsoft em sua organização do Office 365](enable-features-office-365.md).
+Para obter mais detalhes sobre as diretivas de equipes, consulte [configurações de gerenciar equipes da Microsoft para sua organização](enable-features-office-365.md).
  
 ## <a name="can-i-control-what-external-parties-my-faculty-and-students-collaborate-with"></a>Eu posso controlar quais partes externas meus professores e alunos colaboram com?
 

@@ -1,5 +1,5 @@
 ---
-title: Introdução aos modelos do Microsoft Teams
+title: Introdução aos modelos do Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,13 +19,13 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b620f163f1dc071bde8a0ed43bf7fe546a9bc04a
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245589"
 ---
-# <a name="get-started-with-teams-templates"></a>Introdução aos modelos do Microsoft Teams 
+# <a name="get-started-with-teams-templates"></a>Introdução aos modelos do Teams 
 
 Modelos de equipes são pré-criados definições da estrutura de uma equipe Projetado levando em consideração uma necessidade comercial ou projeto. Você pode usar modelos de equipes para criar rapidamente os espaços de colaboração avançada com canais para tópicos diferentes e pré-instalação de aplicativos seja obtida dos planejamentos nos serviços e conteúdo de missão crítica. Os modelos de equipes fornecem uma estrutura de equipe predefinidas que pode ajudá-lo a criar facilmente equipes consistentes em toda a organização. 
 
@@ -83,5 +83,5 @@ Por padrão, o modelo base é definido para o **padrão** que não contenha nenh
 - [Criar equipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (no modo de visualização)
 - [Nova equipe](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Treinamento de administrador para o Microsoft Teams](itadmin-readiness.md)
-- [Introdução aos modelos de Equipes de varejo](get-started-with-retail-teams-templates.md)
-- [Introdução aos modelos do Teams para Organizações de Assistência Médica](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+- [Introdução aos modelos de varejo do Teams](get-started-with-retail-teams-templates.md)
+- [Introdução aos modelos do Teams para Organizações de Saúde](expand-teams-across-your-org/healthcare/healthcare-templates.md)

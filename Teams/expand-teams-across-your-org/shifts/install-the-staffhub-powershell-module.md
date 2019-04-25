@@ -1,5 +1,5 @@
 ---
-title: Instale o módulo StaffHub PowerShell
+title: Instalar o módulo PowerShell do StaffHub
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -16,20 +16,20 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: fe419348d966d9ddfc5c16eee29d9a5005cd6db8
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31555125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245912"
 ---
-# <a name="install-the-microsoft-staffhub-powershell-module"></a>Instale o módulo do Microsoft StaffHub PowerShell
+# <a name="install-the-microsoft-staffhub-powershell-module"></a>Instalar o módulo PowerShell do Microsoft PowerHub
 
 > [!IMPORTANT]
 > A partir de 1 de outubro de 2019, Microsoft StaffHub será desativada. Estamos compilando recursos StaffHub em Teams da Microsoft. Hoje, equipes inclui o aplicativo desloca para o gerenciamento de agenda e recursos adicionais serão distribuir ao longo do tempo. StaffHub irá parar de funcionar para todos os usuários em 1 de outubro de 2019. Qualquer pessoa que tenta abrir StaffHub será mostrada uma mensagem direcionando-os para baixar as equipes. Para saber mais, consulte [Microsoft StaffHub para ser retirado](microsoft-staffhub-to-be-retired.md).  
 
 Use as etapas neste artigo para instalar e conectar ao módulo do Microsoft StaffHub PowerShell. Você precisará isso para gerenciar StaffHub usando o PowerShell e mover suas equipes StaffHub a Microsoft Teams.
 
-## <a name="install-the-microsoft-staffhub-powershell-module"></a>Instale o módulo do Microsoft StaffHub PowerShell
+## <a name="install-the-microsoft-staffhub-powershell-module"></a>Instalar o módulo PowerShell do Microsoft PowerHub
 
 1. Baixe o [módulo de StaffHub PowerShell](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha). 
 2. Abra o Windows PowerShell 3.0 ou posterior como administrador. Para fazer isso, clique em **Iniciar**, digite o **Windows PowerShell**, com o botão direito **Do Windows PowerShell**e, em seguida, selecione **Executar como administrador**.

@@ -1,7 +1,7 @@
 ---
 title: Planejar a governança em equipes ‒ Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: reference
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 072fc92184841be318e84e7891a204d1b7576215
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959517"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246166"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plano de governança no Teams
 
@@ -117,7 +117,7 @@ As equipes fornece recursos granulares para controlar mensagens, reuniões, cham
 
 Para obter listas detalhadas de todas as configurações, incluindo orientações técnicas sobre como implementá-las para sua organização, consulte os seguintes artigos:
 
--   [Gerenciar configurações de Teams da Microsoft para sua organização](enable-features-office-365.md)
+-   [Gerenciar as configurações do Microsoft Teams para sua organização](enable-features-office-365.md)
 -   [Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 -   [Gerenciar políticas de reunião em equipes](meeting-policies-in-teams.md)
 

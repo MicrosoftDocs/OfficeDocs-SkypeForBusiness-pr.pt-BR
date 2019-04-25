@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para o Reino Unido.
 ms.openlocfilehash: a524d72cbe5ab2a3021a70d383eaff7c8f3d2dec
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245184"
 ---
 # <a name="phone-number-management-for-the-uk"></a>Gerenciamento de números de telefone para o Reino Unido
 
