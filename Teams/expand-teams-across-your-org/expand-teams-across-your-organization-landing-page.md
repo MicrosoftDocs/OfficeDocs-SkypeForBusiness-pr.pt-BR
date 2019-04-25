@@ -1,5 +1,5 @@
 ---
-title: Expanda Microsoft Teams em toda a organização
+title: Expanda o Microsoft Teams em toda a sua organização
 description: Use esses recursos para tirar o máximo proveito equipes em toda a organização.
 layout: LandingPage
 ms.topic: landing-page
@@ -13,13 +13,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1772131042c80ca34991e44352ebf501527ac337
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013149"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246174"
 ---
-# <a name="expand-microsoft-teams-across-your-organization"></a>Expanda Microsoft Teams em toda a organização
+# <a name="expand-microsoft-teams-across-your-organization"></a>Expanda o Microsoft Teams em toda a sua organização
 
 <br>
 <ul class="panelContent cardsFTitle">
@@ -34,7 +34,7 @@ ms.locfileid: "31013149"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Desloca para equipes</h3>
+                        <h3>Turnos do Teams</h3>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@ ms.locfileid: "31013149"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Equipes de atendimento médico</h3>
+                        <h3>Teams para Serviços de Saúde</h3>
                     </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@ ms.locfileid: "31013149"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Equipes de varejo</h3>
+                        <h3>Teams para Varejo</h3>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@ ms.locfileid: "31013149"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Equipes para agências governamentais</h3>
+                        <h3>Teams para a Administração Pública</h3>
                     </div>
                 </div>
             </div>

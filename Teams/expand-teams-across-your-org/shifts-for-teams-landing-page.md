@@ -1,5 +1,5 @@
 ---
-title: Desloca para equipes
+title: Turnos do Teams
 description: Obtenha as diretrizes de admin que necessárias para configurar e gerenciar desloca, a ferramenta de gerenciamento de agendamento, em equipes.
 layout: LandingPage
 ms.topic: landing-page
@@ -13,13 +13,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e1d8336719e8858819f81f6e174c20dac09aa429
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245904"
 ---
-# <a name="shifts-for-teams"></a>Desloca para equipes
+# <a name="shifts-for-teams"></a>Turnos do Teams
 
 Equipes dá Firstline trabalhadores em sua organização as ferramentas necessárias para se comunicar e colaborar com eficiência e realizar melhor o trabalho. Aqui, você encontrará as diretrizes de admin que necessárias para configurar e gerenciar desloca, a ferramenta de gerenciamento de agendamento, em equipes.
 

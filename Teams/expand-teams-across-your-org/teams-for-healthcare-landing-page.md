@@ -1,5 +1,5 @@
 ---
-title: Equipes de atendimento médico
+title: Teams para Serviços de Saúde
 description: Use esses recursos para tirar o máximo proveito equipes em sua organização de saúde.
 layout: LandingPage
 ms.topic: landing-page
@@ -13,13 +13,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d5033c7479a8b457a18395a9e8a8fae4740ba06a
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245695"
 ---
-# <a name="teams-for-healthcare"></a>Equipes de atendimento médico
+# <a name="teams-for-healthcare"></a>Teams para Serviços de Saúde
 
 As equipes dá equipes de atendimento médico e profissionais de saúde uma maneira segura para se comunicar, coordenar aos pacientes e aprimorar a eficiência operacional. Aqui, você encontrará os recursos de administração, que você precisa gerenciar equipes para equipes de assistência médica em sua organização.
 
@@ -35,7 +35,7 @@ As equipes dá equipes de atendimento médico e profissionais de saúde uma mane
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Introdução ao equipes para organizações de saúde</h3>
+                        <h3>Introdução ao Teams para Organizações de Saúde</h3>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@ As equipes dá equipes de atendimento médico e profissionais de saúde uma mane
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Introdução aos modelos do Teams para Organizações de Assistência Médica</h3>
+                        <h3>Introdução aos modelos do Teams para Organizações de Saúde</h3>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ As equipes dá equipes de atendimento médico e profissionais de saúde uma mane
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Introdução ao Secure Messaging para organizações de saúde</h3>
+                        <h3>Introdução às Mensagens Seguras para Organizações de Saúde</h3>
                     </div>
                 </div>
             </div>
