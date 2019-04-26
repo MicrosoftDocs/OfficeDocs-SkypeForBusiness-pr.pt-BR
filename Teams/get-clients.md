@@ -3,7 +3,7 @@ title: Obter clientes do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/05/2018
+ms.date: 04/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43344ac9ea00c15bcb4fb7518d727ccc9cff92de
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
-ms.translationtype: HT
+ms.openlocfilehash: 378abc8f49e15a0ef8cb4084ef7968fd8b3ed327
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934711"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304721"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obter clientes do Microsoft Teams 
 ===========================
@@ -31,7 +31,9 @@ ms.locfileid: "30934711"
 O Microsoft Teams tem clientes disponíveis para desktop (Windows e Mac), web e dispositivos móveis (Android e iOS). Todos esses clientes precisam de uma conexão à internet ativa e não são suportados em modo offline.
 
 > [!NOTE]
-> A partir de 29 de novembro de 2018, você não poderá mais usar o aplicativo Microsoft Teams para Windows 10 S (Visualização), disponível na Microsoft Store. Depois de 29 de novembro, recomendamos que você use um dos aplicativos Teams descritos abaixo neste artigo.
+> A partir de 29 de novembro de 2018, você não poderá mais usar o aplicativo Microsoft Teams para Windows 10 S (Visualização), disponível na Microsoft Store. Em vez disso, agora você pode baixar e instalar o cliente de desktop de equipes em dispositivos que executam o modo Windows 10 S. Para baixar o cliente de desktop, vá para [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754). Compilações MSI do cliente de desktop do equipes ainda não estão disponíveis para dispositivos que executam o modo Windows 10 S.
+>
+> Para obter mais informações sobre o modo Windows 10 S, consulte [Introdução ao Windows 10 no modo de S](https://www.microsoft.com/windows/s-mode). 
 
 <a name="desktop-client"></a>Cliente de desktop
 --------------
@@ -45,7 +47,7 @@ Os clientes de área de trabalho fornecem suporte de comunicação em tempo real
 
 Os clientes de desktop podem ser baixados e instalados diretamente pelos usuários finais[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) se tiverem as permissões locais apropriadas (direitos de administrador não são necessários para instalar o cliente Teams em um PC, mas são necessários em um Mac).
 
-Os administradores de TI podem escolher seu método preferido para distribuir os arquivos de instalação aos computadores de sua organização, como o System Center Configuration Manager (Windows) ou o Jamf Pro (macOS). Para obter o pacote MSI para distribuições do Windows, consulte [Instalar o Microsoft Teams usando MSI](msi-deployment.md).
+Os administradores de TI podem escolher seu método preferido para distribuir os arquivos de instalação aos computadores de sua organização, como o System Center Configuration Manager (Windows) ou o Jamf Pro (macOS). Para obter o pacote MSI para distribuições do Windows, consulte [Instalar o Microsoft Teams usando MSI](msi-deployment.md).  
 
 > [!NOTE]
 > A distribuição do cliente por esses mecanismos é apenas para a instalação inicial dos clientes Microsoft Teams, e não para atualizações futuras.
@@ -133,7 +135,7 @@ Os aplicativos móveis são distribuídos e atualizados apenas pela respectiva l
 <a name="client-update-management"></a>Gerenciamento de atualização do cliente
 ------------------------
 
-No momento, os clientes são atualizados automaticamente pelo serviço do Microsoft Teams, sem a necessidade de intervenção de um administrador de TI. Se uma atualização estiver disponível, o cliente baixará automaticamente a atualização e, quando o aplicativo estiver ocioso por um período de tempo, o processo de atualização será iniciado.
+No momento, os clientes são atualizados automaticamente pelo serviço do Microsoft Teams, sem a necessidade de intervenção de um administrador de TI. Se houver uma atualização disponível, o cliente baixar automaticamente a atualização e quando o aplicativo tem ociosos por um período de tempo, o processo de atualização será iniciado.
 
 <a name="client-side-configurations"></a>Configurações do lado do cliente
 ---------------------------

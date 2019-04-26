@@ -1,7 +1,7 @@
 ---
 title: Tomar decisões de serviço de Roteamento Direto do Sistema de Telefonia – Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 07/09/2018
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aca4fc24cb39fd1dc607825a73b9f3751992de3d
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 8a2371c72f24b19b9e3c4fe836a59cbc800ad1c4
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569762"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304713"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -30,7 +30,7 @@ Para planejar a implementação técnica do sistema direto roteamento de telefon
 
 Com Teams da Microsoft, os usuários podem fazer ou receber chamadas telefônicas para ou da rede telefônica pública comutada (PSTN). Seus usuários podem usar seus próprios números de telefone dedicado para fazer e receber chamadas de telefone nacionais e internacionais (incluindo caixa postal) do aplicativo cliente equipes.
 
-## <a name="direct-routing"></a>Direcionar circulação
+## <a name="direct-routing"></a>Roteamento Direto
 
 Para usuários de equipes poder fazer e receber chamadas PSTN, elas precisam ser habilitados para o sistema telefônico, um recurso do Office 365.
 
@@ -87,19 +87,19 @@ Sistema telefônico exige que cada usuário na sua organização tenha um inward
 
 ## <a name="voicemail"></a>Caixa postal
 
-Caixa postal de sistema telefônico, possibilitada pela serviços de caixa postal do Azure, suporta depósitos de correio de voz em somente caixas postais do Exchange e não oferece suporte a sistemas de email de terceiros.
+Caixa postal de nuvem, possibilitada pela serviços de caixa postal do Azure, suporta depósitos de correio de voz em somente caixas postais do Exchange e não oferece suporte a sistemas de email de terceiros.
 
-A caixa postal do Sistema de Telefonia inclui transcrição da caixa postal que, por padrão, está habilitada para todos os usuários da organização. Suas necessidades de negócios podem exigir que você desative as transcrições de caixa postal para usuários específicos ou todos em toda a organização. Se a sua organização decidir manter a transcrição do correio de voz habilitada, você precisa considerar também se mascaramento de obscenidades transcrição caixa postal precisa estar habilitado. Consulte [definir políticas de caixa postal na sua organização](set-up-phone-system-voicemail.md) para obter mais detalhes.
+Caixa postal de nuvem inclui transcrições de caixa postal, que é ativada por padrão para todos os usuários em sua organização. Suas necessidades de negócios podem exigir que você desative as transcrições de caixa postal para usuários específicos ou todos em toda a organização. Se a sua organização decidir manter a transcrição do correio de voz habilitada, você precisa considerar também se mascaramento de obscenidades transcrição caixa postal precisa estar habilitado. Consulte [definir políticas de caixa postal na sua organização](set-up-phone-system-voicemail.md) para obter mais detalhes.
 
-Para obter mais informações sobre a caixa postal na implementação de um sistema telefônico, consulte [Configure a caixa postal do sistema telefônico](set-up-phone-system-voicemail.md).
+Para obter mais informações sobre a caixa postal na implementação de um sistema telefônico, consulte [Configure a caixa postal de nuvem](set-up-phone-system-voicemail.md).
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se você habilitará o sistema telefônico de caixa postal na sua implementação de roteamento direto.<li>Decida se vai habilitar ou desabilitar a transcrição do correio de voz e caixa postal mascaramento de obscenidades transcrição em toda a organização ou usuários específicos.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Se aplicável, documente os pontos de decisão para oferecer suporte à caixa postal do sistema telefônico.<li>Se você vai habilitar ou desabilitar a caixa postal, transcrições de caixa postal e caixa postal mascaramento de obscenidades transcrição somente para usuários específicos, essa lista de usuários do documento.</ul>|
+|<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se você habilitará o correio de voz de nuvem na sua implementação de roteamento direto.<li>Decida se vai habilitar ou desabilitar a transcrição do correio de voz e caixa postal mascaramento de obscenidades transcrição em toda a organização ou usuários específicos.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Se aplicável, documente os pontos de decisão para oferecer suporte à caixa postal de nuvem.<li>Se você vai habilitar ou desabilitar a caixa postal, transcrições de caixa postal e caixa postal mascaramento de obscenidades transcrição somente para usuários específicos, essa lista de usuários do documento.</ul>|
 
 > [!TIP]
-> Detalhes de caixa postal de sistema de telefone para a implementação de planos de chamada podem ser documentados como na tabela a seguir.
+> Detalhes de caixa postal de nuvem para a implementação de planos de chamada podem ser documentados como na tabela a seguir.
 > 
 > | **Usuário**         | **Caixa de correio do Exchange** | **Habilitar a caixa postal?** | **Transcrição do correio de voz** | **Mascaramento de obscenidades de transcrição de caixa postal** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|

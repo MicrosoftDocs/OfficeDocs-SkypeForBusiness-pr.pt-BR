@@ -1,7 +1,7 @@
 ---
 title: Definir sucesso em Conferências de Áudio, Sistema de Telefonia com Planos de Chamadas ou Sistema Telefônico de Roteamento Direto - Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 06/07/2018
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c6d841a593cf88830f95bb6282b21a081abf6f21
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: becf9e671507f121378a8361677254e2c3c51b69
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569754"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304952"
 ---
 # <a name="define-my-success"></a>Definir meu sucesso
 
