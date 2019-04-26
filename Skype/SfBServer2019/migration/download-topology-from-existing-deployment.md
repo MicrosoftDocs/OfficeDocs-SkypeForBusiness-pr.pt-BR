@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Ao criar um Skype para Business Server 2019 pool, você usará o repositório de gerenciamento Central que está associado com a instalação herdada. Quando você iniciar sessões de edição do construtor de topologia na primeira utilização e subsequentes, será solicitada para o local onde você deseja que o construtor de topologias para carregar o documento de configuração atual. Como você já possui uma topologia definida e estabelecer o repositório de gerenciamento Central, você deve optar por baixar uma topologia de uma implantação existente. Construtor de topologia lerá o banco de dados e recuperar a definição atual.
 ms.openlocfilehash: 35c0d7163d58c17db16678ba14fd8c7b6b400c9f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238468"
 ---
 # <a name="download-topology-from-existing-deployment"></a>Baixar topologia da implantação existente
 

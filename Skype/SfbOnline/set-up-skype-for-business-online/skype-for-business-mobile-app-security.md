@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 'Saiba como configurar a segurança de aplicativo móvel para seus usuários. '
 ms.openlocfilehash: 0c07bbbe7d186774c4c8aa13d7fcb08bf81dcb63
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886827"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237254"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Segurança do aplicativo móvel do Skype for Business
 
@@ -41,7 +41,7 @@ Este artigo abrange as informações de criptografia de dados em Aplicativos Mó
 **Observação:** Consulte [esta documentação pública](https://docs.microsoft.com/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) para a imposição de pin de dispositivos disponível em cada uma das plataformas móveis acima
   
 ## <a name="related-topics"></a>Tópicos relacionados
-[Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
+[Instalar o Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
 

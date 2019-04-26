@@ -1,5 +1,5 @@
 ---
-title: 'Skype para aposentadoria Business Online plano 1 '
+title: 'Aposentadoria do Skype for Business Online Plan 1 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,13 @@ ms.custom:
 - Licensing
 description: O Skype para negócios Online plano 1 foi descontinuada. No entanto, se você tiver uma assinatura do Skype para negócios Online plano 1, essa alteração não afetará a você imediatamente. Quando você estiver pronto para migrar para um novo plano — agora ou durante a renovação — você terá três opções.
 ms.openlocfilehash: d8468fa2d070e98cb19a1f41fff6884ac7c3517e
-ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "24968589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32248709"
 ---
-# <a name="skype-for-business-online-plan-1-retirement"></a>Skype para aposentadoria Business Online plano 1 
+# <a name="skype-for-business-online-plan-1-retirement"></a>Aposentadoria do Skype for Business Online Plan 1 
 
 O Skype para negócios Online plano 1 foi descontinuada. No entanto, se você tiver uma assinatura do Skype para negócios Online plano 1, essa alteração não afetará a você imediatamente. Como um administrador global do Office 365, você receber atualizações por e-mail e verá postagens no Centro de mensagens (parte do Centro de administração do Office 365) com informações sobre quando você precisa realizar ação. Enquanto isso, você pode continuar a usar seu Skype existente para licenças de negócios Online plano 1.
 

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Leia este tópico para saber como planejar os sites de nuvem conector Edition PSTN para garantir o roteamento de chamada de eficiência e economia.
 ms.openlocfilehash: 4bf702314e46e1f8281ac6237dd8a7829900440e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237708"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Plano para sites PSTN do Cloud Connector Edition
  

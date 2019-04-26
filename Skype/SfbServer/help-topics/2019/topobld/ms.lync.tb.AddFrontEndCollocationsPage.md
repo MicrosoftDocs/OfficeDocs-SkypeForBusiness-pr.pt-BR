@@ -14,11 +14,11 @@ ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para uma implantação do Enterprise Edition, A / o serviço de conferência V é colocado no pool Front-End. Você também pode colocar o servidor de mediação no pool de Front-End, ou você pode implantá-lo como um servidor autônomo. A / o serviço de conferência de V é sempre colocado se conferência estiver habilitada.
 ms.openlocfilehash: a9f0f46cbd93681b068ef7d87e269c5ff4024385
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875380"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235502"
 ---
 # <a name="add-front-end-server-collocations"></a>Adicionar Colocações de Servidor Front End
 

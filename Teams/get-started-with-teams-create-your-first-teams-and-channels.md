@@ -3,7 +3,7 @@ title: Criar as primeiras equipes e canais no Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/06/2018
+ms.date: 03/22/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3870482a3c9d0322952c09815dc91aa0aebfd9ad
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ca0cbc4e79e43eca70b46970196f30b91bbf43f4
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246311"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Criar as primeiras equipes e canais no Microsoft Teams
 
@@ -49,7 +49,7 @@ Veja uma sugestão de estrutura para a equipe.
 | Suporte | Se algo não estiver funcionando como esperado, use este canal para obter ajuda. ||
 
 ## <a name="get-your-first-teams-up-and-running"></a>Colocar as primeiras equipes em ação
-Como administrador, você pode criar e gerenciar equipes e canais no cliente do Teams ou no Centro de administração do Microsoft Teams. Você pode criar equipes públicas e privadas ou criar uma equipe para toda a organização. Todas as pessoas que usam o Teams na organização podem ingressar em uma equipe pública. No caso de equipes privadas, os respectivos proprietários gerenciam a associação de equipe. Já na equipe de toda a organização, todas as pessoas da empresa são adicionadas automaticamente. 
+Como administrador, você pode criar e gerenciar equipes e canais no cliente do Teams ou no Centro de administração do Microsoft Teams. Você pode criar equipes públicas e privadas ou Você também pode criar uma [equipe em toda a organização](create-an-org-wide-team.md). Todas as pessoas que usam o Teams na organização podem ingressar em uma equipe pública. No caso de equipes privadas, os respectivos proprietários gerenciam a associação de equipe. Já na equipe de toda a organização, todas as pessoas da empresa são adicionadas automaticamente. 
 
 Para começar, recomendamos criar equipes privadas e adicionar outro proprietário para gerenciar as configurações e a associação da equipe. 
 
@@ -58,7 +58,7 @@ Para começar, recomendamos criar equipes privadas e adicionar outro proprietár
 
 ### <a name="create-a-team"></a>Criar uma equipe
 
-No lado esquerdo do Teams, clique em **Equipes**; em seguida, vá até a parte inferior da lista de equipes e clique em **Criar uma equipe ou ingressar nela**. No bloco **Criar uma equipe**, clique em **Criar equipe**.
+No lado esquerdo do Teams, clique em **Teams**, na parte inferior da lista de equipes, clique em **Ingressar ou criar uma equipe** e, em seguida, clique em **Criar uma nova equipe**.
 
 Depois de criar a equipe, convide pessoas para ingressar nela. Você pode adicionar usuários individuais, grupos e até mesmo grupos inteiros de contatos (conhecidos anteriormente como "listas de distribuição"). 
 
@@ -68,7 +68,7 @@ Depois de criar a equipe, convide pessoas para ingressar nela. Você pode adicio
 Localize a equipe que você criou e clique em **Mais opções ˙˙˙** > **Gerenciar equipe**. Em seguida, vá para a guia **Membros** e procure as pessoas que você deseja designar como proprietárias da equipe. Em **Função**, clique em **Proprietário**.
 
 ### <a name="create-a-channel-in-a-team"></a>Criar um canal na equipe
-Procure a equipe que você criou e clique em **Mais opções ˙˙˙** > **Adicionar canal**. É possível também clicar em **Gerenciar equipe** e adicionar um canal na guia **Canais**. 
+Encontre a equipe que você criou, clique em **Mais opções ... ** > **Adicionar canal**. É possível também clicar em **Gerenciar equipe** e adicionar um canal na guia **Canais**. 
 
 ![Adicionar um canal a uma equipe](media/get-started-with-teams-add-channel.png "Captura de tela das opções \"Adicionar canal\", \"Gerenciar equipe\" e outras opções disponíveis ao clicar na guia \"Mais opções\" de uma equipe") 
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Cada aparelho de filial persistente (SBA) é associado um pool de Front-End que serve como um registrador de backup para o SBA. Quando o pool é migrado para o Skype para Business Server 2019, o SBA Front-End deve ser removido de pool Front-End, enquanto o pool é atualizado, depois que o pool foi migrado para o Skype para Business Server 2019, o SBA pode ser novamente associado a F Front atualizados pool de término. Isso envolve excluindo o SBA da topologia de legado no construtor de topologia e depois adicionar o SBA para o Skype para Business Server 2019 topologia. Usuários hospedados no SBA primeiro deve ser movido para outro pool de Front-End antes de remover o SBA da topologia de legado. Após o SBA é adicionado ao Skype para Business Server 2019 topologia, esses usuários, em seguida, podem ser movidos volta ao SBA. Essas etapas estão resumidas abaixo:'
 ms.openlocfilehash: e4917b20e9e680627e92935dcb10ebf06c2e3d2d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238651"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Conectar um aparelho de filial persistente
 

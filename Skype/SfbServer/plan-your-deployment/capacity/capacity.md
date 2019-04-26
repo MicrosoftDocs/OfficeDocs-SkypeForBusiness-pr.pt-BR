@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
 description: Os tópicos nesta seção ajudam você a entender como planejar e implantar Skype para Business Server para que você possa planejar adequadamente para o número de usuários em sua organização e planejar a carga do servidor que geram suas atividades.
 ms.openlocfilehash: e7974704c4c39ac269b763043dbc50b83fc02c96
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236098"
 ---
 # <a name="capacity-planning-for-skype-for-business-server"></a>Planejamento de capacidade do Skype para Business Server
  

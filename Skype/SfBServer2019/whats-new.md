@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: Esses recursos são novos no Skype para Business Server 2019.'
 ms.openlocfilehash: 770cfa8934f40e8ab847b7d77a60f18250c64842
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239573"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>O que há no Skype para Business Server 2019
 
@@ -50,6 +50,6 @@ Com o conector de dados de chamada, você pode executar as seguintes tarefas usa
 
 Consulte o [Plano de chamar o conector de dados](../sfbhybrid/hybrid/plan-call-data-connector.md) para obter mais informações.
 
-### <a name="see-also"></a>Consulte Também
+### <a name="see-also"></a>Confira também
 
 [O que é reduzido do Skype para Business Server 2019](deprecated.md)

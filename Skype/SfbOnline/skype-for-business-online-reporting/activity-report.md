@@ -20,15 +20,15 @@ ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
 ms.openlocfilehash: 3d78d2e155c5364baf9c2650466022a27cc4ed9b
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241982"
 ---
 # <a name="activity-report"></a>Relatório de atividades
 
-O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisado relatórios de nível de produtos individuais para proporcionar mais granular insight sobre as atividades dentro de cada produto. Por exemplo, você pode usar o relatório do **Skype para atividade de negócios** para ver quanto os usuários estão usando-a-ponto ou organizados sessões de conferência, ou quanto eles estiver participando de sessões de conferência. 
+O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 da sua organização. Ele permite analisado relatórios de nível de produtos individuais para proporcionar mais granular insight sobre as atividades dentro de cada produto. Por exemplo, você pode usar o relatório do **Skype para atividade de negócios** para ver quanto os usuários estão usando-a-ponto ou organizados sessões de conferência, ou quanto eles estiver participando de sessões de conferência. 
 
 Confira a [Visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para saber mais.
   
@@ -71,7 +71,7 @@ Cada relatório tem uma data de geração. Geralmente, os relatórios refletem u
 Use os dados do gráfico interativo **Usuários** para conhecer as tendências de uso e ver o número de usuários exclusivos participantes das atividades de conferência que estão sendo realizadas na sua organização. Ele mostrará o número total de usuários, juntamente com os tipos de **sessões ponto a ponto**, **organizado**e **Participated** em sessões de conferência.
 ***
 ![Número 5](../images/sfbcallout5.png)<br/>
-Você pode filtrar a série que vê no gráfico clicando em um item na legenda. Por exemplo, no gráfico de **atividade** , clique ou toque em **sessões ponto a ponto**, **organizado**ou **Participated** para ver apenas as informações relacionadas a cada uma delas. A alteração dessa seleção não altera as informações na tabela de grade. 
+Para filtrar a série apresentada no gráfico, clique no item da legenda. Por exemplo, no gráfico de **atividade** , clique ou toque em **sessões ponto a ponto**, **organizado**ou **Participated** para ver apenas as informações relacionadas a cada uma delas. Essa seleção não altera as informações contidas na tabela de grade. 
 ***
 ![Número 6](../images/sfbcallout6.png)<br/>
 Cada gráfico tem um eixo "X" (horizontal) e um "Y" (vertical).
@@ -100,7 +100,7 @@ Se diretivas da sua organização impedirem a exibição relatórios onde as inf
 Clique ou toque no ícone de **colunas** em qualquer uma das colunas para adicionar ou remover colunas do relatório.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
 ![Número 9](../images/sfbcallout9.png)<br/>
-Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar em **Exportar**.                                 <br/> ![Botão Exportar do Skype para relatórios de negócios.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/> Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se houver menos do que 2.000 usuários, você pode classificar e filtrar dentro da tabela no relatório em si. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar. 
+Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar em **Exportar**.                                            <br/> ![Botão Exportar do Skype para relatórios de negócios.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/> Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se houver menos do que 2.000 usuários, você pode classificar e filtrar dentro da tabela no relatório em si. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar. 
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Deseja ver outros relatórios do Skype for Business?
 

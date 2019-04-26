@@ -3,10 +3,10 @@ title: Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 12/10/2018
+ms.date: 04/23/2019
 ms.topic: reference
 audience: Admin
-ms.reviewer: annikaelias
+ms.reviewer: marubins
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
@@ -16,17 +16,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5633250ce07d0baed78ab98220ea39e76cd691ff
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.openlocfilehash: baad7614cbcb622017de7629fa62799be330dc88
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959414"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222411"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams
 =======================================================
 
 O Microsoft Teams é uma ótima ferramenta de colaboração para sua organização. Ele permite que colaboradores e equipes discutam, inovem e compartilhem ideias usando o poder do Office 365. A avaliação do Microsoft Teams Commercial Cloud oferece 1 ano de avaliação do produto para usuários que já possuem o Office 365 em sua organização e não possuem licenças do Microsoft Teams.. Os administradores podem mudar ou desativar esse recurso para os usuários de sua organização.
+
+> [!IMPORTANT]
+> A avaliação da Nuvem Comercial do Microsoft Teams foi atualizada para incluir planos de serviço adicionais para aumentar a funcionalidade do Teams e agora é de propriedade e controle do administrador de cobrança da sua organização. Isso torna o teste mais fácil de gerenciar e consistente com todas as outras ofertas do Microsoft 365. Os usuários existentes da avaliação da Nuvem Comercial do Teams serão migrados para o novo plano.
 
 ## <a name="whats-in-the-offer"></a>O que está incluso na oferta?
 
@@ -34,35 +37,34 @@ Os planos de serviço dessa oferta estão:
 
 - Exchange Foundation
 - Flow para Office 365 Plano 1
+- Formulários
 - Microsoft Planner
 - Microsoft Teams (Teams1, equipes IW)
 - Office Online
 - PowerApps para Office 365 Plano 1
 - SharePoint Online Kiosk
+- Fluxo
 - Sway
-- Yammer Enterprise
+- Quadro de comunicações
+- Yammer Enterprise 
 
 A versão de avaliação concede uma assinatura de avaliação de um ano para toda a sua organização. A versão de avaliação tem 500.000 licenças disponíveis para atribuição. Para cada licença, a versão de avaliação aloca 2 GB de armazenamento do SharePoint Online. 
 
 ## <a name="who-is-eligible"></a>Quem se qualifica?
 
-Habilite os usuários para usar avaliações e aplicativos (no Centro de administração do Office 365). Para obter informações, consulte [Gerenciar avaliação](#manage-the-trial) posteriormente neste artigo. 
+Habilite os usuários para usar avaliações e aplicativos (no Centro de administração do Office 365). Para obter mais informações, consulte [Gerenciar a avaliação](#manage-the-trial), mais adiante neste artigo. 
 
 Os usuários que não têm uma licença do Office 365 que inclui o Teams podem iniciar a oferta de avaliação do Microsoft Teams Commercial Cloud. Por exemplo, se um usuário tiver o Office 365 Business (que não inclui o Teams), eles estará qualificado para a versão de avaliação.
 
 ## <a name="who-is-not-eligible"></a>Quem não está qualificado
 
-Sua organização não está qualificada para avaliação se: 
-
-- Você for um Cliente Parceiro de Distribuição
-- Você for um Cliente Parceiro Revendedor
-- Você for um cliente EDU ou Governamental
+Sua organização não está qualificada para a avaliação se você for um cliente do parceiro de distribuição ou se for um cliente do GCC, do GCC High, do DoD ou do EDU.
 
 Se sua organização não estiver qualificada para a oferta da avaliação do Microsoft Teams Commercial Cloud, você não verá a mudança **Permitir que os usuários instalem aplicativos e serviços de avaliação**.
 
 ## <a name="how-users-sign-up-for-the-trial"></a>Como os usuários podem se inscrever para a versão de avaliação
 
-Usuários qualificados podem se inscrever para o oferta de avaliação entrando no Teams ([teams.microsoft.com](https://teams.microsoft.com)). Eles verão a seguinte tela para iniciar a avaliação. 
+Os usuários qualificados podem inscrever-se para a oferta de avaliação fazendo login no Teams ([teams.microsoft.com](https://teams.microsoft.com)). Eles verão a seguinte tela para iniciar a avaliação. 
 
 ![Captura de tela da página inicial da avaliação do Teams IW.](media/iw-trial-start-screen.png)
 
@@ -70,7 +72,7 @@ Todas as avaliações em sua organização compartilham as mesmas datas de iníc
 
 ## <a name="manage-the-trial"></a>Gerenciar a versão de avaliação
 
-Os administradores podem gerenciar licenças de usuários que se inscreveram. 
+As licenças de avaliação são atribuídas da mesma forma que qualquer outra assinatura adquirida por um administrador é atribuída. Para obter mais informações, consulte [Atribuir licenças a usuários no Office 365 para empresas](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). 
 
 Além disso, os administradores podem desabilitar a capacidade de os usuários finais solicitarem aplicativos e serviços de avaliação na organização.  Atualmente, a avaliação descrita neste artigo é a única avaliação nessa categoria, mas pode se aplicar a outros programas semelhante no futuro. 
 
@@ -89,7 +91,7 @@ Você pode desativar a capacidade de um usuário de instalar serviços e aplicat
 
 ### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>Gerencie a disponibilidade de avaliação de um usuário com uma licença que inclua o Teams
 
-Um usuário que possui uma licença que inclui o Teams não está qualificado para a versão de avaliação. Quando o plano de serviço do Teams estiver habilitado, ele poderá entrar e usar o Teams. Se o plano de serviço estiver desativado, o usuário não poderá entrar e não receberá a opção de avaliação.
+Um usuário que possui uma licença que inclui o Teams não está qualificado para a versão de avaliação. Quando o plano de serviço do Teams está habilitado, o usuário pode entrar e usar o Teams. Se o plano de serviços estiver desativado, o usuário não poderá entrar e não será apresentado à opção de avaliação.
 
 Para desativar o acesso ao Teams:
 
@@ -120,7 +122,7 @@ Para desativar a licença de avaliação:
     ![Captura de tela da configuração de licença de avaliação do Teams no painel de licenças de produto](media/iW-trial-enable-4.png)
     
 >[!Note]
->A opção de alternância da avaliação do Microsoft Teams será exibida assim que o primeiro usuário se inscrever para a avaliação na organização.
+>A opção de alternância da Avaliação do Microsoft Teams será exibida depois que o primeiro usuário da organização se inscrever para a avaliação.
 
 ### <a name="manage-teams-for-users-who-have-the-trial-license"></a>Gerenciamento do Teams para usuários que possuem a licença de avaliação
 
@@ -137,3 +139,6 @@ Para atualizar os usuários da licença de avaliação, faça o seguinte:
 3. Atribua as licenças adquiridas recentemente.
 
 Para saber mais, confira [Licenças do Office 365 do Microsoft Teams](Office-365-licensing.md).
+
+> [!NOTE]
+> Se a avaliação terminar e um usuário não for atualizado imediatamente para uma assinatura que inclua o Teams, os dados do usuário não serão removidos. O usuário ainda existe no Azure Active Directory e todos os dados no Teams ainda permanecem. Depois que uma nova licença for atribuída ao usuário para ativar a funcionalidade do Teams novamente, todo o conteúdo ainda existirá. 

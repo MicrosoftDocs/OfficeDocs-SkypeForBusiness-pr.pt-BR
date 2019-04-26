@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: Este tópico define o conjunto de requisitos de desempenho de rede para Skype para serviços corporativos Online e como você pode optar por usar o Internet ou ExpressRoute para a conectividade entre a rede e Skype para Business Online com base em sua avaliação da rede conectividade. Se você tiver decidido implantar ExpressRoute do Windows Azure para conectividade dedicada para o Office 365, este documento também fornece orientação sobre como planejar suas conexões ExpressRoute em diferente Skype para cenários de implantação de negócios Online.
 ms.openlocfilehash: 00d77bc72cbfd99d496bf458e008cce3da7970c3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533229"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236919"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Qualidade de mídia e desempenho da conectividade de rede no Skype for Business Online
 
@@ -54,7 +54,7 @@ Embora o certificado para dispositivos de mídia de áudio e vídeo não são ne
   
 É importante lembrar-se de que quaisquer dispositivos de mídia, Skype para clientes corporativos e Skype para servidores de negócios por meio do quais fluxos de mídia em tempo real, introduzem alguma quantidade de latência. O dispositivo e o software de processamento de latência, juntamente com a latência de rede, tem um impacto excelente em e contribuem para a latência geral de ponta a ponta e a experiência do usuário final.
   
-#### <a name="environment"></a>Ambiente
+#### <a name="environment"></a>Ambiente.
 
 O ambiente e a área vizinha onde os usuários estão fazendo a reunião e usando dispositivos de áudio e vídeo são outro fator importante para a qualidade. Os usuários que fizerem chamadas em um ambiente barulhento terão áudio com eco, abafado e indistinto. Os usuários que estiverem em um ambiente escuro ou com pouca luz não obterão uma qualidade de imagem clara e viva. Em uma sala de conferência, o local do microfone e do dispositivo de vídeo afeta diretamente a qualidade do som e da imagem que os participantes receberão.
   
@@ -126,13 +126,13 @@ Para melhor Skype para qualidade de mídia de negócios, as metas de métricas d
   
 |||
 |:-----|:-----|
-|**Métrica** <br/> |**Destino ** <br/> |
-|Latência (unidirecional)  <br/> |< 50 ms  <br/> |
-|Latência (RTT ou tempo-resposta)  <br/> |< 100 ms  <br/> |
-|Perda de pacote de intermitência  <br/> |<10% durante qualquer intervalo de 200 ms  <br/> |
-|Perda de pacotes  <br/> |<1% durante qualquer intervalo de 15 s  <br/> |
-|Tremulação entre chegadas de pacote  <br/> |<30 ms durante qualquer intervalo de 15 s  <br/> |
-|Novo pedido de pacotes  <br/> |<0,05% de pacotes com problemas  <br/> |
+|**Indicador** <br/> |**Destino ** <br/> |
+|Latência (uma maneira)  <br/> |< 50 MS  <br/> |
+|Latência (tempo de resposta ou tempo de ida e volta)  <br/> |< 100ms  <br/> |
+|Perda de pacotes de intermitência  <br/> |% de <10 durante qualquer intervalo de 200 MS  <br/> |
+|Perda de pacote  <br/> |% de <1 durante qualquer 15 s intervalo  <br/> |
+|Tremulação de entre chegada de pacotes  <br/> |<30ms durante qualquer 15 s intervalo  <br/> |
+|Reordenar de pacotes  <br/> |pacotes de fora de ordem <0.05%  <br/> |
    
  **Outros requisitos de destino de desempenho:**
   
@@ -152,13 +152,13 @@ Estas são as metas de desempenho de rede ou limites necessários para a conexã
   
 |||
 |:-----|:-----|
-|**Métrica** <br/> |**Destino ** <br/> |
-|Latência (unidirecional)  <br/> |< 30 ms  <br/> |
-|Latência (tempo de resposta)  <br/> |< 60 ms  <br/> |
-|Perda de pacote de intermitência  <br/> |<1% durante qualquer intervalo de 200 ms  <br/> |
-|Perda de pacotes  <br/> |<0,1% durante qualquer intervalo de 15 s  <br/> |
-|Tremulação entre chegadas de pacote  <br/> |<15 ms durante qualquer intervalo de 15 s  <br/> |
-|Novo pedido de pacotes  <br/> |<0,01% de pacotes com problemas  <br/> |
+|**Indicador** <br/> |**Destino ** <br/> |
+|Latência (uma maneira)  <br/> |< 30ms  <br/> |
+|Latência (tempo de resposta)  <br/> |< seja, 60 MS  <br/> |
+|Perda de pacotes de intermitência  <br/> |% de <1 durante qualquer intervalo de 200 ms  <br/> |
+|Perda de pacote  <br/> |<0.1% durante qualquer 15 s intervalo  <br/> |
+|Tremulação de entre chegada de pacotes  <br/> |<15ms durante qualquer 15 s intervalo  <br/> |
+|Reordenar de pacotes  <br/> |pacotes de fora de ordem <0.01%  <br/> |
    
  **Outros requisitos de destino de desempenho:**
   
