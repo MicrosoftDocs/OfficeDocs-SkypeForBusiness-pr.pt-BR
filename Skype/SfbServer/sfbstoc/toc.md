@@ -104,12 +104,6 @@
 #### [Clientes de reuniões](../plan-your-deployment/clients-and-devices/meetings-clients.md)
 ##### [Requisitos mínimos de rede do Aplicativo Skype Meetings](../plan-your-deployment/clients-and-devices/minimum-network-requirements.md)
 #### [Requisitos para o Windows Phone](../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md)
-<!-- #### [Microsoft Teams Rooms](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
-##### [Support for current branch versions](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
-##### [Release notes](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
-##### [Prepare your Environment](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
-##### [Requirements](../plan-your-deployment/clients-and-devices/requirements.md)
-##### [OMS management](../plan-your-deployment/clients-and-devices/oms-management.md) -->
 #### [Ambientes VDI](../plan-your-deployment/clients-and-devices/vdi-environments.md)
 ### [Alta disponibilidade e recuperação de desastre](../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
 #### [Alta disponibilidade](../plan-your-deployment/high-availability-and-disaster-recovery/high-availability.md)
