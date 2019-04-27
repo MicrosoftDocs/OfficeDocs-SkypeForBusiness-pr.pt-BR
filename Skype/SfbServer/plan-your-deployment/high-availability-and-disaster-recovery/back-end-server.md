@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Saiba mais sobre as opções de alta disponibilidade do servidor Back-End compatíveis com o Skype para Business Server, incluindo grupos de disponibilidade AlwaysOn, instâncias de Cluster de Failover AlwaysOn, espelhamento de banco de dados e cluster de failover do SQL.
-ms.openlocfilehash: 5f95ea1a1a856db945e1d0fac5683b1fb8c4c02e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b6a466c398e5b25793d7e07f9e07815ba5387140
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214100"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33356215"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Back End alta disponibilidade do servidor no Skype para Business Server
  
@@ -50,7 +50,7 @@ Skype para Business Server suporta espelhamento com o software de banco de dados
     
 
 > [!NOTE]
-> SQL Server 2016 é a única versão suportada pelo Skype para Business Server 2019.
+> Espelhamento do SQL está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. Os métodos de cluster de failover de grupos de disponibilidade AlwaysOn, instâncias de Cluster de Failover AlwaysOn (FCI) e SQL terão preferência com Skype para Business Server 2019.
     
 Espelhamento de banco de dados assíncrono não é suportado para alta disponibilidade do servidor Back-End no Skype para Business Server. No restante deste documento, o termo espelhamento de banco de dados significa espelhamento sincronizado de banco de dados, salvo quando especificado o contrário. 
   
