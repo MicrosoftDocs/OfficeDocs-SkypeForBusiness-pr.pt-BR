@@ -1,1 +1,1 @@
-Estamos frequentemente atualizando o modo como você pode gerenciar recursos encontrados no Skype for Business Online, portanto as etapas aqui podem ser um pouco diferentes.
+Estamos constantemente atualizando as formas de gerenciar os recursos do Skype for Business Online e, portanto, as etapas podem ser um pouco diferentes aqui.

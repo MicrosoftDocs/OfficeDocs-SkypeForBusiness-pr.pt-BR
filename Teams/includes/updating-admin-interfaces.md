@@ -1,1 +1,1 @@
-Estamos frequentemente atualizando como você pode gerenciar recursos, portanto, as etapas aqui podem ser um pouco diferentes do que você vê.
+Estamos constantemente atualizando as formas de gerenciar os recursos e, portanto, as etapas aqui podem ser um pouco diferentes do que você vê.
