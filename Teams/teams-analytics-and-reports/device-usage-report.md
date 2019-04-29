@@ -17,11 +17,11 @@ description: Saiba como usar o relatório de uso do dispositivo de equipes no Ce
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c1cd1ec97732b851246e03f6fcd56382ccdedf59
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298690"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401408"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Relatório de uso de dispositivos do Microsoft Teams
 

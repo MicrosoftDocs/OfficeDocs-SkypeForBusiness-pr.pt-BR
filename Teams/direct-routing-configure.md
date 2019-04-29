@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: Saiba como configurar o roteamento direto do Microsoft Phone System.
-ms.openlocfilehash: a26972e16758a00e2afc5d39029cfb1504b974c4
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 514be758042284f40dfab055eacf5b0f3222afd7
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517259"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402519"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -531,6 +532,6 @@ O resultado é que a política de voz aplicada às chamadas de John Woods é irr
 Roteamento direto somente roteia as chamadas de e para os usuários se eles usarem o cliente de equipes. Se sua organização usa somente equipes, definindo "Equipes apenas" na política de atualização é recomendado. Se sua organização usa Skype para Business Server ou Skype para Business Online, consulte o seguinte artigo para obter mais informações e selecione a opção apropriada: [entender a coexistência e atualizar jornada para Skype para equipes e de negócios](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Planejar o Roteamento Direto](direct-routing-plan.md)
