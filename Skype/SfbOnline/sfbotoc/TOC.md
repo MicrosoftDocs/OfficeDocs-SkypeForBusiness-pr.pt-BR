@@ -232,7 +232,8 @@
 ### [Configurar o Sistema de Telefonia na sua organização](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Quais são os atendedores automáticos do Cloud?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Configurar um atendedor automático do Cloud](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Exemplo de pequenas empresas - Configurar um atendedor automático](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
+#### [Exemplo de pequenas empresas - Configurar um atendedor automático](../what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)  
+#### [Exemplo de pequenas empresas – Configurar uma fila de chamada](../what-is-phone-system-in-office-365/tutorial-cq.yml?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Criar uma fila de chamada do Cloud](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 

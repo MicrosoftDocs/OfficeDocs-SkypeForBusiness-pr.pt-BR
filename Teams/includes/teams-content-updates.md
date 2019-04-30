@@ -3,73 +3,6 @@
 
 
 
-## <a name="week-of-march-18-2019"></a>Semana de 18 de março de 2019
-
-
-| Publicado em |Título do tópico | Alteração |
-|------|------------|--------|
-| 18/3/2019 | [Introdução aos modelos do Teams no varejo](/MicrosoftTeams/get-started-with-retail-teams-templates) | modificado |
-| 18/3/2019 | [Introdução aos modelos do Microsoft Teams](/MicrosoftTeams/get-started-with-teams-templates) | modificado |
-| 18/3/2019 | [Introdução aos modelos do Teams para Organizações de Assistência Médica](/MicrosoftTeams/healthcare/healthcare-templates) | modificado |
-| 18/3/2019 | [Lista de controladores de borda da sessão certificados para Roteamento Direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
-| 18/3/2019 | [Gerenciar políticas de reunião](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
-| 18/3/2019 | [Fluxos de Chamada do Microsoft Teams Online](/MicrosoftTeams/microsoft-teams-online-call-flows) | modificado |
-| 18/3/2019 | [Preparar a rede da organização para o Microsoft Teams](/MicrosoftTeams/prepare-network) | modificado |
-| 18/3/2019 | [Visão geral de equipes e canais no Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modificado |
-| 18/3/2019 | [Configurar eventos ao vivo no Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modificado |
-| 18/3/2019 | [Planejar eventos ao vivo no Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado |
-| 18/3/2019 | [Configurar eventos ao vivo no Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modificado |
-| 18/3/2019 | [O que são os eventos ao vivo do Microsoft Teams ?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modificado |
-| 18/3/2019 | [Restrições de discagem de chamada gratuita no Vietnã](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam) | modificado |
-| 18/3/2019 | [Prepae sua rede do Microsoft Teams\| requisitos de porta de Firewall](/MicrosoftTeams/upgrade-prepare-environment-prepare-network) | modificado |
-| 18/3/2019 | [Guia de Operações do Microsoft Teams](/MicrosoftTeams/1-drive-value-operate-my-service) | modificado |
-| 18/3/2019 | [Preparar para implantar os serviços de voz da nuvem do Microsoft Teams](/MicrosoftTeams/1-onboard-prepare-my-service) | modificado |
-| 18/3/2019 | [Entender as chamadas no Microsoft Teams](/MicrosoftTeams/tutorial-calling-in-teams) | modificado |
-| 18/3/2019 | [Planos de Chamadas do Office 365](/MicrosoftTeams/calling-plans-for-office-365) | modificado |
-| 18/3/2019 | [Alterar o idioma padrão de saudações e emails](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | modificado |
-| 18/3/2019 | [Implantação do Cloud Voice](/MicrosoftTeams/cloud-voice-deployment) | modificado |
-| 18/3/2019 | [Voz na nuvem no Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modificado |
-| 18/3/2019 | [Disponibilidade de audioconferência e planos de chamadas por país e região](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modificado |
-| 18/3/2019 | [Criar uma fila de chamada no Sistema Telefônico](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
-| 18/3/2019 | [Planejar o Roteamento Direto](/MicrosoftTeams/direct-routing-plan) | modificado |
-| 18/3/2019 | [O que são Créditos de Comunicação?](/MicrosoftTeams/what-are-communications-credits) | modificado |
-| 18/3/2019 | [O que é o Sistema de Telefonia no Office 365?](/MicrosoftTeams/what-is-phone-system-in-office-365) | modificado |
-| 18/3/2019 | [Gerencie políticas de aplicativo personalizado e as configurações no Microsoft Teams](/MicrosoftTeams/teams-custom-app-policies-and-settings) | adicionado |
-| 18/3/2019 | [Configurações de administração para aplicativos no Microsoft Teams](/MicrosoftTeams/admin-settings) | modificado |
-| 18/3/2019 | [Aplicativos, bots e conectores no Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modificado |
-| 18/3/2019 | [Gerenciar políticas de permissões de aplicativo no Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modificado |
-| 18/3/2019 | [Gerenciar políticas de configuração de aplicativo no Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado |
-| 18/3/2019 | [Usar o PowerShell para definir políticas de eventos ao vivo no Microsoft Teams](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | modificado |
-| 19/3/2019 | [Gerenciar os recursos do Microsoft Teams em sua organização do Office 365](/MicrosoftTeams/enable-features-office-365) | modificado |
-| 19/3/2019 | [Relatório de uso de dispositivos do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | modificado |
-| 19/3/2019 | [Publicar aplicativos no Catálogo de Aplicativos do Locatário do Microsoft Teams](/MicrosoftTeams/tenant-apps-catalog-teams) | modificado |
-| 19/3/2019 | [Treinamento do Microsoft Teams](/MicrosoftTeams/training-microsoft-teams-landing-page) | modificado |
-| 19/3/2019 | [Prepae sua rede do Microsoft Teams\| requisitos de porta de Firewall](/MicrosoftTeams/upgrade-prepare-environment-prepare-network) | modificado |
-| 19/3/2019 | [Gerenciar o acesso de usuários ao Microsoft Teams](/MicrosoftTeams/user-access) | modificado |
-| 19/3/2019 | [Usar as funções de administrador do Microsoft Teams para gerenciar o Microsoft Teams](/MicrosoftTeams/using-admin-roles) | modificado |
-| 20/3/2019 | [Documentação técnica do Microsoft Teams](/MicrosoftTeams/microsoft-teams) | modificado |
-| 20/3/2019 | [Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams](/MicrosoftTeams/sharepoint-onedrive-interact) | modificado |
-| 20/3/2019 | [Monitorar o uso e os comentários no Microsoft Teams](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | modificado |
-| 20/3/2019 | [Usar arquivos de log para solucionar problemas no Microsoft Teams](/MicrosoftTeams/log-files) | modificado |
-| 20/3/2019 | [Telefones para o Microsoft Teams](/MicrosoftTeams/phones-for-teams) | modificado |
-| 20/3/2019 | [Treinamento do Microsoft Teams](/MicrosoftTeams/training-microsoft-teams-landing-page) | modificado |
-| 21/3/2019 | [Problemas conhecidos do Microsoft Teams](/MicrosoftTeams/known-issues) | modificado |
-| 22/3/2019 | [Estacionamento e recuperação de chamadas no Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | modificado |
-| 22/3/2019 | [Gerenciar políticas de reunião](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
-| 22/3/2019 | [Gerenciar políticas de mensagens no Teams](/MicrosoftTeams/messaging-policies-in-teams) | modificado |
-| 22/3/2019 | [Gerenciar políticas de permissões de aplicativo no Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modificado |
-| 22/3/2019 | [Gerenciar políticas de configuração de aplicativo no Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado |
-| 22/3/2019 | [Configurar eventos ao vivo no Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modificado |
-| 22/3/2019 | [Telefones para o Microsoft Teams](/MicrosoftTeams/phones-for-teams) | modificado |
-| 22/3/2019 | [Configurar o compartilhamento de área de trabalho no Microsoft Teams](/MicrosoftTeams/configure-desktop-sharing) | modificado |
-| 22/3/2019 | [Criar suas primeiras equipes e canais no Microsoft Teams](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | modificado |
-| 22/3/2019 | [Problemas conhecidos do Microsoft Teams](/MicrosoftTeams/known-issues) | modificado |
-| 22/3/2019 | [Preparar a rede da organização para o Microsoft Teams](/MicrosoftTeams/prepare-network) | modificado |
-| 22/3/2019 | [Planejar eventos ao vivo no Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado |
-| 22/3/2019 | [Publicar aplicativos no Catálogo de Aplicativos do Locatário do Microsoft Teams](/MicrosoftTeams/tenant-apps-catalog-teams) | modificado |
-| 22/3/2019 | [Prepae sua rede do Microsoft Teams\| requisitos de porta de Firewall](/MicrosoftTeams/upgrade-prepare-environment-prepare-network) | modificado |
-
-
 ## <a name="week-of-march-25-2019"></a>Semana de 25 de março de 2019
 
 
@@ -309,3 +242,86 @@
 | 19/4/2019 | [Introdução ao Teams para Organizações de Saúde](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | modificado |
 | 19/4/2019 | [Gerenciar contas de recursos no Teams](/MicrosoftTeams/manage-resource-accounts) | modificado |
 | 19/4/2019 | [Quais são os atendedores automáticos do Cloud?](/MicrosoftTeams/what-are-phone-system-auto-attendants) | modificado |
+
+
+## <a name="week-of-april-22-2019"></a>Semana de 22 de abril de 2019
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 22/04/2019 | [Análise de Chamada e Painel de Qualidade de Chamadas](/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) | modificado |
+| 22/04/2019 | [Treinamento com instrutor e vídeos para usuários do Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modificado |
+| 22/04/2019 | [Usar o Office 365 e conectores personalizados no Microsoft Teams](/MicrosoftTeams/office-365-custom-connectors) | modificado |
+| 22/04/2019 | [Atribuir licenças do Teams](/MicrosoftTeams/assign-teams-licenses) | modificado |
+| 22/04/2019 | [Estacionamento e recuperação de chamadas no Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | modificado |
+| 22/04/2019 | [Compartilhamento de chamadas e atendimento de chamada em grupo no Microsoft Teams](/MicrosoftTeams/call-sharing-and-group-call-pickup) | modificado |
+| 22/04/2019 | [Configurar a interoperabilidade de vídeo na nuvem para o Microsoft Teams](/MicrosoftTeams/cloud-video-interop-for-teams-set-up) | modificado |
+| 22/04/2019 | [Interoperabilidade de vídeo na nuvem para o Microsoft Teams](/MicrosoftTeams/cloud-video-interop) | modificado |
+| 22/04/2019 | [Aplicativos, bots e conectores no Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modificado |
+| 22/04/2019 | [Configurar a licença de Telefone de Área Comum para o Microsoft Teams](/MicrosoftTeams/set-up-common-area-phones) | modificado |
+| 22/04/2019 | [Aparência de linha compartilhada no Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | modificado |
+| 22/04/2019 | [Relatório de atividades do usuário do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | modificado |
+| 23/04/2019 | [Adicionar bots para canais e chats privados no Microsoft Teams](/MicrosoftTeams/add-bots) | modificado |
+| 23/04/2019 | [Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams](/MicrosoftTeams/iw-trial-teams) | modificado |
+| 23/04/2019 | [Treinamento com instrutor e vídeos para usuários do Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modificado |
+| 23/04/2019 | [Ferramentas e workshops: Planejamento, implantação e adoção do Microsoft Teams](/MicrosoftTeams/planning-workshop-practical-guide) | modificado |
+| 23/04/2019 | Obter ferramentas para dar suporte à distribuição do Microsoft Teams | removido |
+| 24/04/2019 | [Disponibilidade nos Estados Unidos (EUA)](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s) | modificado |
+| 24/04/2019 | [Autorizar o acesso para convidado no Microsoft Teams](/MicrosoftTeams/teams-dependencies) | modificado |
+| 24/04/2019 | [Configurar o Roteamento Direto](/MicrosoftTeams/direct-routing-configure) | modificado |
+| 24/04/2019 | [Visão Geral do PowerShell do Teams](/MicrosoftTeams/teams-powershell-overview) | modificado |
+| 24/04/2019 | [Introdução às Mensagens Seguras para Organizações de Saúde](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | modificado |
+| 24/04/2019 | [Relatório de uso de dispositivos do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | modificado |
+| 24/04/2019 | [Relatório de uso do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | modificado |
+| 24/04/2019 | [Adicionar bots para canais e chats privados no Microsoft Teams](/MicrosoftTeams/add-bots) | modificado |
+| 24/04/2019 | [Lista de controladores de borda da sessão certificados para Roteamento Direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 24/04/2019 | [Roteamento Direto do Sistema Telefônico](/MicrosoftTeams/direct-routing-landing-page) | modificado |
+| 24/04/2019 | [Migrar para o roteamento direto](/MicrosoftTeams/direct-routing-migrating) | modificado |
+| 24/04/2019 | [Monitorar e solucionar problemas do Roteamento Direto](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | modificado |
+| 24/04/2019 | [Planejar o Roteamento Direto](/MicrosoftTeams/direct-routing-plan) | modificado |
+| 24/04/2019 | [Configurar um controlador de borda da sessão para vários locatários](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modificado |
+| 24/04/2019 | [Failover de tronco em chamadas de saída](/MicrosoftTeams/direct-routing-trunk-failover-on-outbound-call) | modificado |
+| 24/04/2019 | [Contas de usuário em um ambiente híbrido com conectividade PSTN](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | modificado |
+| 24/04/2019 | [Gerenciar políticas de mensagens no Teams](/MicrosoftTeams/messaging-policies-in-teams) | modificado |
+| 24/04/2019 | [Ativando e usando o Painel de Qualidade de Chamadas](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modificado |
+| 24/04/2019 | [Qual é o status dos meus pedidos de portabilidade no Teams?](/MicrosoftTeams/what-s-the-status-of-my-port-orders-in-teams) | modificado |
+| 25/04/2019 | [Guia de Operações do Microsoft Teams](/MicrosoftTeams/1-drive-value-operate-my-service) | modificado |
+| 25/04/2019 | [Definir o sucesso em Audioconferência – Microsoft Teams](/MicrosoftTeams/1-envision-define-my-success-audio-conferencing) | modificado |
+| 25/04/2019 | [Definir sucesso em Conferências de Áudio, Sistema de Telefonia com Planos de Chamadas ou Sistema Telefônico de Roteamento Direto - Microsoft Teams](/MicrosoftTeams/1-envision-define-my-success-cloud-voice) | modificado |
+| 25/04/2019 | [Definir o sucesso em Sistema de Telefonia com Planos de Chamadas – Microsoft Teams](/MicrosoftTeams/1-envision-define-my-success-phone-system) | modificado |
+| 25/04/2019 | [Preparar para implantar os serviços de voz da nuvem do Microsoft Teams](/MicrosoftTeams/1-onboard-prepare-my-service) | modificado |
+| 25/04/2019 | [Aprimorar o serviço do Microsoft Teams](/MicrosoftTeams/2-drive-value-enhance-my-service) | modificado |
+| 25/04/2019 | [Tomar decisões sobre o serviço de Audioconferência - Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) | modificado |
+| 25/04/2019 | [Tomar decisões de serviço de Roteamento Direto do Sistema de Telefonia – Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing) | modificado |
+| 25/04/2019 | [Tomar decisões sobre o serviço de Sistema de Telefonia com Planos de Chamadas - Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system) | modificado |
+| 25/04/2019 | [Preparar os usuários para o Microsoft Teams](/MicrosoftTeams/2-onboard-prepare-my-users) | modificado |
+| 25/04/2019 | [Avalie seu ambiente para as cargas de trabalho do cloud voice do Microsoft Teams](/MicrosoftTeams/3-envision-evaluate-my-environment) | modificado |
+| 25/04/2019 | [Implantar os serviços de voz da nuvem do Microsoft Teams](/MicrosoftTeams/3-onboard-deploy-my-service) | modificado |
+| 25/04/2019 | [Planejar o gerenciamento do serviço do Microsoft Teams](/MicrosoftTeams/4-envision-plan-my-service-management) | modificado |
+| 25/04/2019 | [Planejar a experiência dos usuários do Microsoft Teams](/MicrosoftTeams/5-envision-plan-my-users-experience) | modificado |
+| 25/04/2019 | [Documentar seu plano de sucesso do Microsoft Teams](/MicrosoftTeams/6-envision-document-my-success-plan) | modificado |
+| 25/04/2019 | [Implementar Qualidade de Serviço no Microsoft Teams](/MicrosoftTeams/qos-in-teams) | modificado |
+| 25/04/2019 | [Vídeos - Audioconferência no Microsoft Teams](/MicrosoftTeams/audio-conferencing-videos) | modificado |
+| 25/04/2019 | [Orientações práticas de Audioconferência no Microsoft Teams](/MicrosoftTeams/audio-conferencing) | modificado |
+| 25/04/2019 | [Implantação do Cloud Voice](/MicrosoftTeams/cloud-voice-deployment) | modificado |
+| 25/04/2019 | [Guia de Início Rápido - como configurar Planos de Chamadas no Microsoft Teams](/MicrosoftTeams/configuring-teams-calling-quickstartguide) | modificado |
+| 25/04/2019 | [Plano para guia de gerenciamento de serviço do Microsoft Teams](/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) | modificado |
+| 25/04/2019 | [Coordenação de implantação do Microsoft Teams cloud voice](/MicrosoftTeams/envision-steering-committee-complete-guide) | modificado |
+| 25/04/2019 | [Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | modificado |
+| 25/04/2019 | [Lista de verificação de integração para definir as cargas de trabalho do cloud voice no Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams) | modificado |
+| 25/04/2019 | [Lista de verificação de integração para configurar o Roteamento Direto no Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-direct-routing-in-microsoft-teams) | modificado |
+| 25/04/2019 | [Lista de verificação de integração para configurar os recursos principais do Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-microsoft-teams-core-capabilities) | modificado |
+| 25/04/2019 | [Lista de verificação de integração para configurar a rede do Microsoft Teams](/MicrosoftTeams/onboarding-checklist-configure-networking) | modificado |
+| 25/04/2019 | [Listas de verificação de integração para habilitar o serviço do Office 365 para o Microsoft Teams](/MicrosoftTeams/onboarding-checklist-enable-office-365) | modificado |
+| 25/04/2019 | [Plano de teste corporativo para Audioconferência no Microsoft Teams](/MicrosoftTeams/onboarding-test-plan-for-enterprises-audio-conferencing) | modificado |
+| 25/04/2019 | [Plano de teste corporativo para Sistema de Telefonia com Planos de Chamadas no Microsoft Teams](/MicrosoftTeams/onboarding-test-plan-for-enterprises-phone-system) | modificado |
+| 25/04/2019 | [Perguntas frequentes sobre governança do Microsoft Education para profissionais de TI ‒ Microsoft Teams](/MicrosoftTeams/plan-teams-governance-edu) | modificado |
+| 25/04/2019 | [Planejar a governança em equipes ‒ Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | modificado |
+| 25/04/2019 | [Planejar o gerenciamento de ciclo de vida no Teams ‒ Microsoft Teams](/MicrosoftTeams/plan-teams-lifecycle) | modificado |
+| 25/04/2019 | [Modelos de email de adoção do usuário do Microsoft Teams ou do Skype para implantações de empresas](/MicrosoftTeams/prepare-my-users-email-templates) | modificado |
+| 25/04/2019 | [Pesquisas de comentários do usuário no Skype for Business ou no Microsoft Teams](/MicrosoftTeams/prepare-my-users-feedback-templates) | modificado |
+| 25/04/2019 | [Introdução às Mensagens Seguras para Organizações de Saúde](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | modificado |
+| 25/04/2019 | [Obter clientes para o Microsoft Teams](/MicrosoftTeams/get-clients) | modificado |
+| 26/04/2019 | [Benefício da assinatura de Audioconferência “Discar”/”Ligar para mim em”](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | modificado |
+| 26/04/2019 | [Introdução às Mensagens Seguras para Organizações de Saúde](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | modificado |
+| 26/04/2019 | [Gerenciar o acesso externo (federação) no Microsoft Teams](/MicrosoftTeams/manage-external-access) | modificado |
