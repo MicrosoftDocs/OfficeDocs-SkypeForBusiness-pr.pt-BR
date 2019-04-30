@@ -11,16 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Encontre e gerencie atualizações do Skype for Business Server 2015 e do Lync 2013 em um só lugar. Use os links desta página para obter mais informações sobre atualizações e, em seguida, baixe as atualizações.
-ms.openlocfilehash: 7aa5a6735a0a3f9fd3544a5f0980f47b4af74213
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f3ce33cb77a5285b96a077b44c02e42007500190
+ms.sourcegitcommit: f82994504d8ca89f05c39eae5318475c5a5b09eb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199579"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33472507"
 ---
 # <a name="skype-for-business-server-updates"></a>Atualizações do Skype for Business Server
 
-Encontrar e gerenciar atualizações do [Skype for Business Server 2015](#skype-for-business-server-2015-update-history), do [Lync 2013](#Lync-2013-update-history) e do [Lync Server 2010](#lync-server-2010-update-history) em um só lugar. Use os links desta página para obter mais informações sobre atualizações e, em seguida, baixe as atualizações.
+Localize e gerencie atualizações para [Skype para Business Server 2015](#skype-for-business-server-2015-update-history), [Lync Server 2013](#lync-server-2013-update-history)e [Lync Server 2010](#lync-server-2010-update-history) em um único local. Use os links desta página para obter mais informações sobre atualizações e, em seguida, baixe as atualizações.
 
 Para o mais recente Skype para atualizações Business Online e o Office 365, consulte o [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
