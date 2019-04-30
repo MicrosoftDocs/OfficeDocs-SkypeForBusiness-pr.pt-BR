@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f1df731f7ff21d246f9b92e028fe3e7ae367509
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: bc8f7cf66d13f78b685505d41e9e5b1342931923
+ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400935"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470641"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar a qualidade do serviço (QoS) em equipes da Microsoft
 
@@ -160,7 +160,7 @@ Para obter informações sobre como configurar portas de firewall, vá para o [O
 
 ## <a name="managing-source-ports-in-the-teams-admin-center"></a>Gerenciando as portas de origem no Centro de administração de equipes
 
-Nas equipes, as portas de origem de QoS usadas por diferentes cargas de trabalho devem ficar ativamente gerenciadas e ajustado conforme necessário. Referindo-se à tabela em [intervalos de porta e marcações DSCP](#port-ranges-and-dscp-markings), os intervalos de porta são ajustáveis, mas as marcas de DSCP não são configuráveis. Depois que você implementou essas configurações, você pode achar que mais ou menos portas são necessárias para um determinado tipo de mídia. [Análise de chamada e o painel de controle de qualidade de chamada](difference-between-call-analytics-and-call-quality-dashboard.md) deve ser usado na tomada de decisão para ajustar os intervalos de portas depois que tiver sido implementado equipes e periodicamente conforme as necessidades de alteração.
+Nas equipes, as portas de origem de QoS usadas por diferentes cargas de trabalho devem ficar ativamente gerenciadas e ajustado conforme necessário. Referindo-se à tabela em [Escolher intervalos de porta inicial para cada tipo de mídia](#choose-initial-port-ranges-for-each-media-type), os intervalos de porta são ajustáveis, mas as marcas de DSCP não são configuráveis. Depois que você implementou essas configurações, você pode achar que mais ou menos portas são necessárias para um determinado tipo de mídia. [Análise de chamada e o painel de controle de qualidade de chamada](difference-between-call-analytics-and-call-quality-dashboard.md) deve ser usado na tomada de decisão para ajustar os intervalos de portas depois que tiver sido implementado equipes e periodicamente conforme as necessidades de alteração.
 
 > [!NOTE]
 > Se você já tiver configurado a QoS com base em intervalos de porta de origem e marcações de DSCP para Skype para Business Online, a mesma configuração se aplicará a equipes e nenhuma outra cliente ou alterações na rede para o mapeamento será necessárias, embora talvez você tenha a [definido os intervalos usado no Centro de administração de equipes](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) para coincidir com o que foi configurado para Skype para negócios Online.
