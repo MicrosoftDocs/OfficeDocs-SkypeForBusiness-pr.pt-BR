@@ -16,12 +16,12 @@ MS.collection:
 description: Saiba como usar o relatório de uso do dispositivo de equipes no Centro de administração do Microsoft Teams para ver como os usuários em sua organização se conectam a equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1cd1ec97732b851246e03f6fcd56382ccdedf59
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: df5b912a9a4d76fd1be2947cea6dd2750ddbaa49
+ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401408"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33495887"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Relatório de uso de dispositivos do Microsoft Teams
 
@@ -45,7 +45,7 @@ O relatório de uso do dispositivo de equipes no Centro de administração do Mi
 |**3**   |<ul><li>O eixo X do gráfico representa os diferentes dispositivos (**Windows**, **Mac**, **iOS**, **Telefone Android**) usados para conectar-se às equipes. </li><li>O eixo Y é o número de usuários usando o dispositivo durante o período de tempo selecionado.</li> </ul>Passe o mouse sobre a barra representando um dispositivo para ver o número de usuários usando o dispositivo para se conectar às equipes.|
 |**4**   |A tabela fornece uma análise de uso de dispositivo por usuário. <ul><li>**Nome para exibição** é o nome de exibição do usuário. Você pode clicar no nome de exibição para ir à página de configuração do usuário no Centro de administração do Microsoft Teams. </li><li>**Windows** é selecionada quando o usuário estava ativo no cliente de desktop do equipes em um computador baseado no Windows.</li><li>**Mac** é selecionada quando o usuário estava ativo no cliente de desktop do equipes em um computador macOS. </li> <li>**iOS** é selecionada quando o usuário estava ativo no cliente móvel equipes para iOS.</li><li>**Telefone Android** é selecionada quando o usuário estava ativo no cliente móvel equipes para Android. <li>**Última atividade** é a última data (UTC) que o usuário participou uma atividade de equipes.</li> </ul> Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela. |
 |**5**   |Selecione **Editar colunas** para adicionar ou remover colunas na tabela. |
-|**6**   |Selecione **˙˙˙** e em seguida **Imprimir gráfico** para imprimir o gráfico. |
+|**6**   |Você pode exportar o relatório para um arquivo CSV para análise offline. Clique em **Exportar para Excel**e, em seguida, na guia **Downloads** , clique em **Baixar** para baixar o relatório quando ele estiver pronto.<br>![Captura de tela da guia Downloads mostrando exportados relatórios para baixar](../media/teams-reports-export-to-csv.png)|
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Análises e relatórios do Teams](teams-reporting-reference.md)

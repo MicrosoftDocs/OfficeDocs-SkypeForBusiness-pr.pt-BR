@@ -17,14 +17,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como controlar se as equipes privadas podem ser descobertas pelos usuários do Microsoft Teams usando sugestões nos resultados de pesquisa e de galeria da equipe.
-ms.openlocfilehash: 70d5b81bba719a9e6cc6a51d38d58fd309e07a3b
-ms.sourcegitcommit: 9329d740a2060f9c055c5c0c03107a9268c0df5b
+ms.openlocfilehash: 3609a592c3c940e9f7cbec6ca5c58fd072322c46
+ms.sourcegitcommit: 0bb55cad74b15fc821ae916799aa8c0cb13dd31d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/24/2019
-ms.locfileid: "33262738"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33497949"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Gerenciar a descoberta de equipes privadas em Teams da Microsoft
+
+> [!INCLUDE [preview feature](includes/preview-feature.md)] 
 
 Proprietários de equipe e os administradores podem controlar se as equipes privadas podem ser descobertas pelos usuários Teams da Microsoft em sua organização. Quando uma equipe privada é detectável, ele aparecerá nos resultados da pesquisa e está incluído no sugestões na Galeria de equipe, junto com as equipes públicas em equipes. Isso torna fácil para os usuários procurar e encontre as equipes privadas que desejam ingressar. Os usuários podem solicitar para ingressar em uma equipe privada que um proprietário de equipe pode, em seguida, aprovar ou negar.
 
@@ -62,7 +64,7 @@ Em equipes, vá para a equipe privada, clique em **mais ˙˙˙ de opções** > *
 
 ![configuração de descoberta para equipes privadas existentes](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell"></a>Usando o PowerShell
+### <a name="using-powershell-coming-soon"></a>Usando o PowerShell (em breve)
 
 Use o cmdlet **Set-equipe** para desativar ou ativar a configuração de descoberta para uma equipe privada existente. Aqui está um exemplo de como tornar uma equipe detectável:
 
