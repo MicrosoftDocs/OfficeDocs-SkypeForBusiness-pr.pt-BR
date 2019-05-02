@@ -13,19 +13,19 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14f94428ddeba7b5a648b4b8dbd7bd5ef8fae0e4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8ca4249c88ce5793cd04eb2e2cc1ed3035915975
+ms.sourcegitcommit: 790ca37e2b12e4c8adcc526b1695017161749f51
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246096"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33526852"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover suas equipes da Microsoft StaffHub para mudanças na Teams da Microsoft
 
 > [!IMPORTANT]
 > A partir de 1 de outubro de 2019, Microsoft StaffHub será desativada. Estamos compilando recursos StaffHub em Teams da Microsoft. Hoje, equipes inclui o aplicativo desloca para o gerenciamento de agenda e recursos adicionais serão distribuir ao longo do tempo. StaffHub irá parar de funcionar para todos os usuários em 1 de outubro de 2019. Qualquer pessoa que tenta abrir StaffHub será mostrada uma mensagem direcionando-os para baixar as equipes. Para saber mais, consulte [Microsoft StaffHub para ser retirado](microsoft-staffhub-to-be-retired.md).
 
-> O recurso discutido neste artigo ainda não foi liberado. Ela será foi anunciada e estarão disponíveis em breve, até o final de abril de 2019. Se você for um administrador, você pode descobrir quando isso estarão disponível no Centro de mensagens (no [Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home)).
+> O recurso discutido neste artigo ainda não foi liberado. Ela será foi anunciada e estarão disponíveis em breve, em direção à parte central de maio de 2019. Se você for um administrador, você pode descobrir quando isso estarão disponível no Centro de mensagens (no [Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home)).
 
 O aplicativo desloca em equipes fornece uma abordagem simples para gerenciar agendamentos e o fluxo constante de trocas de shift e cancelamentos que ocorrem em uma base diária. Os membros da equipe podem acessar sua agenda e shift informações diretamente no aplicativo e nos seus dispositivos para definir suas preferências, gerenciar suas próprias agendas e tempo de solicitação.
 
