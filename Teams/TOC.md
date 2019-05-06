@@ -77,54 +77,6 @@
 ### [Relatórios de atividades do Teams no centro de administração do Microsoft 365](teams-activity-reports.md)
 
 
-## Referência
-
-### Prepare-se para implementar o Teams
-#### [Verifique a prontidão do seu ambiente para o Microsoft Teams](environment-readiness.md)
-#### [Preparo da rede da sua organização para o Teams](prepare-network.md)
-#### [Servidores proxy para Teams ou Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
-#### [Especificações e limites do Teams](limits-specifications-teams.md)
-#### [Planejar-se para grupos do Office 365 ao criar equipes no Teams](plan-office-365-groups.md)
-#### [Planejar o gerenciamento do ciclo de vida no Teams](plan-teams-lifecycle.md)
-#### [Plano de governança no Teams](plan-teams-governance.md)
-
-
-
-
-### Interoperabilidade com o Office 365
-#### [Definir suas configurações de coexistência e atualização](setting-your-coexistence-and-upgrade-settings.md)
-#### [Grupos do Office 365 e o Teams](office-365-groups.md)
-#### [Aprimorar grupos existentes do Office 365 com o Teams](enhance-office-365-groups.md)
-#### [Como o Exchange e o Teams interagem](exchange-teams-interact.md)
-##### [Configurar uma organização híbrida do Exchange para uso com o Teams](exchange-hybrid-organization.md)
-##### [Adicionar o domínio SMTP ao Teams como um domínio aceito no Exchange Online](smtp-accepted-domain.md)
-#### [Como o SharePoint Online e o OneDrive for Business interagem com o Teams](sharepoint-onedrive-interact.md)
-#### [Experiência do Teams em um locatário Multi-Geo-enabled do Office 365](teams-experience-o365odb-spo-multi-geo.md)
-
-### Instalar o Teams
-#### [Obter clientes para o Teams](get-clients.md)
-#### [Requisitos de hardware para o aplicativo Teams](hardware-requirements-for-the-teams-app.md)
-#### [Instalar o Teams usando MSI](msi-deployment.md)
-#### [Habilitar o Teams em sua organização](Office-365-set-up.md)
-#### [URLs e intervalos de endereços IP do Office 365](office-365-urls-ip-address-ranges.md)
-#### [Teams para infraestruturas de área de trabalho virtualizada (VDI)](teams-for-vdi.md)
-#### [Implantar o Teams para o Surface Hub](teams-surface-hub.md)
-
-### Licenças
-#### [Gerenciamento do acesso de usuários ao Teams](user-access.md)
-#### [Licenciamento do Office 365 para o Teams](office-365-licensing.md)
-#### [Atribuir licenças do Teams](assign-teams-licenses.md)
-#### [Licenciamento do complemento do Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-##### Opções de licença com base no seu plano
-###### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
-###### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
-###### [Office 365 Enterprise E1 e E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-###### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-###### [Office 365 Enterprise E5 sem audioconferência](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
-###### [GOV, EDU e instituições sem fins lucrativos](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
-#### [Gerenciar a oferta da avaliação comercial do Teams](iw-trial-teams.md)
-#### [Atualizar o Teams gratuitamente para a versão de assinatura do Office 365](upgrade-freemium.md)
-
 
 
 <!-- ============================================================ -->
@@ -142,6 +94,7 @@
 ## [Gravação de reuniões na nuvem do Microsoft Teams](cloud-recording.md)
 ## [Usar o suplemento de Reunião do Teams no Outlook](teams-add-in-for-outlook.md)
 ## [Configurando o Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Salas do Microsoft Teams](room-systems/index.md)
 
 
 ## [Audioconferência](deploy-audio-conferencing-teams-landing-page.md)
@@ -326,6 +279,7 @@
 #### [Quais são os atendedores automáticos do Cloud](what-are-phone-system-auto-attendants.md)
 #### [Configurar um atendedor automático do Cloud](create-a-phone-system-auto-attendant.md)
 #### [Exemplo de pequenas empresas - Configurar um atendedor automático](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Exemplo de pequenas empresas – Configurar uma fila de chamada](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Gerenciar contas de recursos no Microsoft Teams](manage-resource-accounts.md)
 #### [Criar uma fila de chamada do Cloud](create-a-phone-system-call-queue.md)
 #### [Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams](answer-auto-attendant-and-call-queue-calls.md)
@@ -654,6 +608,7 @@
 
 ## [Teams para a Educação](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Início rápido - Administradores do Teams for Education](teams-quick-start-edu.yml)
+### [Tarefas do Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Recursos do Teams para administradores de Educação](resources-teams-edu.md)
 ### [Perguntas frequentes sobre governança do Microsoft Education para administradores](plan-teams-governance-edu.md)
 
@@ -681,6 +636,58 @@
 
 # Referência
 
+
+## Prepare-se para implementar o Teams
+### [Verifique a prontidão do seu ambiente para o Microsoft Teams](environment-readiness.md)
+### [Preparo da rede da sua organização para o Teams](prepare-network.md)
+### [Servidores proxy para Teams ou Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
+### [Especificações e limites do Teams](limits-specifications-teams.md)
+### [Planejar-se para grupos do Office 365 ao criar equipes no Teams](plan-office-365-groups.md)
+### [Planejar o gerenciamento do ciclo de vida no Teams](plan-teams-lifecycle.md)
+### [Plano de governança no Teams](plan-teams-governance.md)
+
+
+
+
+
+
+## Instalar o Teams
+### [Obter clientes para o Teams](get-clients.md)
+### [Requisitos de hardware para o aplicativo Teams](hardware-requirements-for-the-teams-app.md)
+### [Instalar o Teams usando MSI](msi-deployment.md)
+### [Habilitar o Teams em sua organização](Office-365-set-up.md)
+### [URLs e intervalos de endereços IP do Office 365](office-365-urls-ip-address-ranges.md)
+### [Teams para infraestruturas de área de trabalho virtualizada (VDI)](teams-for-vdi.md)
+### [Implantar o Teams para o Surface Hub](teams-surface-hub.md)
+
+## Licenças
+### [Gerenciamento do acesso de usuários ao Teams](user-access.md)
+### [Licenciamento do Office 365 para o Teams](office-365-licensing.md)
+### [Atribuir licenças do Teams](assign-teams-licenses.md)
+### [Licenciamento do complemento do Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+#### Opções de licença com base no seu plano
+##### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
+##### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
+##### [Office 365 Enterprise E1 e E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
+##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
+##### [Office 365 Enterprise E5 sem audioconferência](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
+##### [GOV, EDU e instituições sem fins lucrativos](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+### [Gerenciar a oferta da avaliação comercial do Teams](iw-trial-teams.md)
+### [Atualizar o Teams gratuitamente para a versão de assinatura do Office 365](upgrade-freemium.md)
+
+
+## Interoperabilidade com o Office 365
+### [Definir suas configurações de coexistência e atualização](setting-your-coexistence-and-upgrade-settings.md)
+### [Grupos do Office 365 e o Teams](office-365-groups.md)
+### [Aprimorar grupos existentes do Office 365 com o Teams](enhance-office-365-groups.md)
+### [Como o Exchange e o Teams interagem](exchange-teams-interact.md)
+#### [Configurar uma organização híbrida do Exchange para uso com o Teams](exchange-hybrid-organization.md)
+#### [Adicionar o domínio SMTP ao Teams como um domínio aceito no Exchange Online](smtp-accepted-domain.md)
+### [Como o SharePoint Online e o OneDrive for Business interagem com o Teams](sharepoint-onedrive-interact.md)
+### [Experiência do Teams em um locatário Multi-Geo-enabled do Office 365](teams-experience-o365odb-spo-multi-geo.md)
+
+
+
 ## Dispositivos suportados
 ### [Gerenciar seus dispositivos no Teams](device-management.md)
 ### [Telefones para o Teams](phones-for-teams.md)
@@ -690,6 +697,7 @@
 
 
 ## [Segurança e conformidade](security-compliance-overview.md)
+### [Barreiras de informações do Teams](information-barriers-in-teams.md)
 ### [Conduzir uma investigação eDiscovery de conteúdo no Teams](ediscovery-investigation.md)
 ### [Modelos de identidade e autenticação no Microsoft Teams](identify-models-authentication.md)
 ### [Entrar no Teams usando a autenticação moderna](sign-in-teams.md)
