@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como roteamento direto do Microsoft telefone sistema permite que você se conectar a um controlador de borda de sessão (SBC) com suporte, fornecida pelo cliente ao sistema de telefone da Microsoft.
-ms.openlocfilehash: e2b09d4aef25569e1112983b5f62bf2ba3758387
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 3ed03225105e7c265687d6659cb98d162da85f91
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402458"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632206"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -207,6 +207,7 @@ A tabela abaixo resume as relações entre data centers terciário principal e s
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Tráfego de mídia: intervalos de porta
+Observe os requisitos a seguir se aplicam se você ant para implantar o roteamento direto sem Bypass de mídia. Para conhecer os requisitos de firewall para Bypass de mídia, consulte planejar [Bypass de mídia com o roteamento direto](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)
 
 O tráfego de mídia flui de e para um serviço separado em que o Microsoft Cloud. O intervalo de IP para o tráfego de mídia:
 - 52.112.0.0 /14 (endereços IP de 52.112.0.1 a 52.115.255.254).

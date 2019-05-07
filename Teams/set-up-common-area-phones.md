@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar os telefones de área comum para lobbies, áreas de recepção e salas de conferência '
-ms.openlocfilehash: 74806d3dfc66c27c144d6c3a4e1ddd5c6c7e7c60
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e68d5bc4ef0355e80e1fe6359385c10a339c0fe
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204847"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632373"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurar a licença de Telefone de Área Comum para o Microsoft Teams
 
@@ -38,7 +38,7 @@ As primeiras coisas que você precisa fazer são compra uma licença de telefone
 
 ## <a name="step-1---buy-the-licenses"></a>Etapa 1 - Compre as licenças
 
-1. No Centro de administração do Office 365, vá para **faturamento** > **Serviços de compra** e, em seguida, expanda **outros planos**.
+1. No Centro de administração do Microsoft 365, vá para **faturamento** > **Serviços de compra** e, em seguida, expanda **outros planos**.
 
     ![Captura de tela mostrando os blocos de telefone de área comum](media/set-up-common-area-phone-image1.png)
 
@@ -55,7 +55,7 @@ Para obter mais informações sobre licenças, consulte [Licenciamento de comple
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Etapa 2 - Criar uma nova conta de usuário para o telefone e atribuir as licenças
 
-1. No Centro de administração do Office 365, vá para **usuários** > **usuários ativos** > **Adicionar um usuário**.
+1. No Centro de administração do Microsoft 365, vá para **usuários** > **usuários ativos** > **Adicionar um usuário**.
 
 2. Insira um nome de usuário como "Main" para o primeiro nome e "Recepção" para o segundo nome.
 

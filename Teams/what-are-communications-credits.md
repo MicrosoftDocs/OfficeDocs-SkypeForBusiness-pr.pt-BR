@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 8fa06f22d1fb31f592f520ba3b1d17c8fcaf0ccb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d4bf99cc42fa415eb5e46962afe1769f1a439696
+ms.sourcegitcommit: d1b14268efe334aa93a6889f25fcfe46e07d5daa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211765"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33584311"
 ---
 # <a name="what-are-communications-credits"></a>O que são Créditos de Comunicação?
 
@@ -59,20 +59,20 @@ Se você está se perguntando como o custo das chamadas Cite para chamar planos,
 Para usar números para ligações gratuitas Skype para os negócios, créditos de comunicações são necessários como essas chamadas são cobradas por minuto. Além disso, é recomendável que você configure créditos de comunicações para seus usuários chamar planejar e conferência de áudio que precisam a capacidade de discar para **qualquer destino PSTN**. Muitos países/regiões são incluídos, mas alguns destinos não podem ser incluídos em suas assinaturas chamar planejar ou conferência de áudio. Se você não configurar créditos de comunicações ou atribuir uma licença a seus usuários e executar check-out de minutos para sua organização (dependendo do seu plano de chamada, o plano de conferência de áudio ou seu país/região), esses usuários não poderão fazer chamadas ou discar a partir de Online Áudio reuniões de webconferência.
   
 > [!NOTE]
-> Você deve configurar créditos de comunicações e atribuir uma licença de créditos de comunicações para cada usuário no **Centro de administração do Office 365** > **usuários** > **Usuários ativos**. 
+> Você deve configurar créditos de comunicações e atribuir uma licença créditos de comunicações para cada usuário no **Centro de administração do Microsoft 365** > **usuários** > **Usuários ativos**. 
   
 É recomendável que você avaliar com cuidado o uso do serviço de PSTN da sua organização para entender a configuração recomendada para comunicações créditos. Você pode ver mais sobre os serviços PSTN lendo o [sistema telefônico e chamar planos](calling-plan-landing-page.md) e [perguntas comuns de conferência de áudio](Audio-Conferencing-common-questions.md).
   
 Você pode configurar faturamento de consumo usando uma **única fundos** do equilíbrio pré-pago **OR** , configurando uma quantidade de **autocarga** ( **recomendado** ) com um equilíbrio mínimo que irá disparar uma compra para esse valor de carga. Inicialmente, é sugerido que você configure valores de recarga automática que permitam monitorar o uso real e encontrar os limites certos de recarga automática que atendam às suas necessidades e padrões de uso. Comunicações créditos devem ser monitorados ao longo do tempo e ajustar os valores de saldo e carga mínimos conforme necessário para ser adaptados para atender às necessidades de cada organização.
   
 > [!NOTE]
-> Você pode ver os planos e preços entrando [no Centro de administração do Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e pretende **faturamento** > **assinaturas** > **Adicionar assinaturas**. 
+> Você pode ver os planos e preços entrando [no Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e pretende **faturamento** > **assinaturas** > **Adicionar assinaturas**. 
   
-No **Centro de administração do Office 365** > **faturamento** > **inscrições**, você poderá adicionar crédito manualmente a qualquer momento. Você também pode habilitar a opção **Recarga automática**, que permitirá a recarga automática da conta quando o saldo ficar abaixo do limite definido. Se você optar por seu saldo créditos de comunicação com uma única quantidade de fundos e, em seguida, o equilíbrio cai para zero, os cenários de chamada adicionais acima deixarão de funcionar, incluindo números de telefone gratuitos. Sendo assim, é recomendável que você use a configuração de **Autocarga** para evitar qualquer interrupção do serviço deve seu saldo Communications créditos atingir 0 (zero). Você será enviado um email quando a carga transações bem-sucedidas, carga transações falharem (por exemplo, um cartão de crédito expirado) e ou seu saldo Communications créditos atinge 0 (zero).
+No **Centro de administração do Microsoft 365** > **faturamento** > **inscrições**, você poderá adicionar crédito manualmente a qualquer momento. Você também pode habilitar a opção **Recarga automática**, que permitirá a recarga automática da conta quando o saldo ficar abaixo do limite definido. Se você optar por seu saldo créditos de comunicação com uma única quantidade de fundos e, em seguida, o equilíbrio cai para zero, os cenários de chamada adicionais acima deixarão de funcionar, incluindo números de telefone gratuitos. Sendo assim, é recomendável que você use a configuração de **Autocarga** para evitar qualquer interrupção do serviço deve seu saldo Communications créditos atingir 0 (zero). Você será enviado um email quando a carga transações bem-sucedidas, carga transações falharem (por exemplo, um cartão de crédito expirado) e ou seu saldo Communications créditos atinge 0 (zero).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 
-Cada organização terá o uso de diferente do volume de chamada planos e taxas a serem considerados. You will need to get this type of usage data from your current service provider. Para organizações que usam o Skype para negócios já como seu provedor de serviço, você pode obter dados de uso, revisá-lo em um **Centro de administração do Office 365** > **relatórios** ou **Skype para centro de administração de negócios** > **relatórios**  >  **Detalhes de uso do PSTN**.
+Cada organização terá o uso de diferente do volume de chamada planos e taxas a serem considerados. You will need to get this type of usage data from your current service provider. Para organizações que usam o Skype para negócios já como seu provedor de serviço, você pode obter dados de uso, revisá-lo em um **Centro de administração do Microsoft 365** > **relatórios** ou **Skype para centro de administração de negócios** > **relatórios **  >  **Detalhes de uso do PSTN**.
   
 Quando você estiver configurando créditos de comunicações, você precisará investigue o uso de chamada para sua organização determinar os valores que você precisará colocar em. Você pode obter informações de uso de chamadas examinando o relatório **Detalhes de uso de PSTN**. Este relatório permite exportar os registros de dados de chamadas para o Excel e criar relatórios personalizados.
   
@@ -92,7 +92,7 @@ Você pode ver os planos e preços do visitando um dos seguintes links:
     
 - [Sistema Telefônico](https://go.microsoft.com/fwlink/?linkid=799763 )
     
-Você também pode ver informações sobre preços entrando [no Centro de administração do Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e pretende **faturamento** > **assinaturas** > **Adicionar assinaturas**.
+Você também pode ver informações sobre preços entrando [no Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e pretende **faturamento** > **assinaturas** > **Adicionar assinaturas**.
   
 Para ver uma tabela com a licença ou licenças que são necessárias para cada recurso, consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

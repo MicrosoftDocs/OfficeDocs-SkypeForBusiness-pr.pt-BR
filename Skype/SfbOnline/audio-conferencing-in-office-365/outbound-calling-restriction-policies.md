@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Os administradores podem controlar o tipo de usuário final e conferência PSTN chamadas de áudio que podem ser feitas pelos usuários.
-ms.openlocfilehash: 36f116acb62cd16863cb547a11fe5687457a8a4e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: acd75df192211465071940148e35bc7e269c7976
+ms.sourcegitcommit: d1b14268efe334aa93a6889f25fcfe46e07d5daa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229783"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33584219"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restrição de chamadas de saída para audioconferência e chamadas PSTN do usuário
 
@@ -39,7 +39,7 @@ Controles de chamada de saída podem ser aplicados em uma base por usuário e fo
 |Chamadas PSTN de usuário final|Restringe o tipo de chamadas </br>que podem ser feitas por um usuário.|Internacional e doméstico (padrão)</br>Doméstico</br>Nenhum|
 
    > [!NOTE]
-   > Uma chamada é considerada domésticas se o número de telefone chamado esteja no mesmo país que o país que tiver sido definido no Office 365 para o organizador da reunião (no caso de serviços de audioconferência) ou o usuário final (no caso de chamadas da PSTN de usuário final). 
+   > Uma chamada é considerada doméstica se o número discado está no mesmo país onde Office 365 foi configurado para o organizador da reunião (no caso de serviços de audioconferência) ou o usuário final (no caso de chamadas da PSTN de usuário final). 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

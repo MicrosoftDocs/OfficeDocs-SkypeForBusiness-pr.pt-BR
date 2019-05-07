@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e85d6e44c37b1b7a56b2b525d28fdbeab266d4b8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0252a138fd34e26d6fd2f1237a2fdbfd9b5f5410
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211173"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632262"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
@@ -74,7 +74,7 @@ Antes de usar este guia, verifique se que você tem as [funções](https://docs.
 
 Como alternativa, você pode atribuir a função a seguir para uma conta de usuário do Office 365 deseja permitir acesso a somente os recursos de relatório.
 
--   **Relata leitor:** Pode exibir todos os [relatórios de atividade](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no Centro de administração do Office 365, qualquer relatórios do [pacote de conteúdo do Office 365 adoção](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)e relatórios CQD.
+-   **Relata leitor:** Pode exibir todos os [relatórios de atividade](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no Centro de administração do Office 365, qualquer relatórios do [pacote de conteúdo do Microsoft 365 adoção](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)e relatórios CQD.
 
 ## <a name="what-is-quality"></a>Qual é a qualidade?
 
@@ -823,9 +823,9 @@ _Tabela 6 - alertas de diagnósticos_
 
 ### <a name="message-center"></a>Centro de mensagens
 
-O Centro de mensagens envia alertas sobre problemas, recursos ou novas atualizações. O Centro de mensagens está disponível no Centro de administração do Office 365 para administradores de serviço. Cada post fornece uma visão geral de como a atualização, o recurso ou o problema afeta os usuários e oferece links para informações mais detalhadas.
+O Centro de mensagens envia alertas sobre problemas, recursos ou novas atualizações. O Centro de mensagens está disponível no Centro de administração do Microsoft 365 para administradores de serviço. Cada post fornece uma visão geral de como a atualização, o recurso ou o problema afeta os usuários e oferece links para informações mais detalhadas.
 
-Para abrir o Centro de mensagens, no Centro de administração do Office 365, vá para **integridade** > **Centro de mensagens**ou selecione o cartão de centro de mensagem no painel de **casa** . O painel exibe as três últimas mensagens que foram lançadas e links para a página do Centro de mensagem completa.
+Para abrir o Centro de mensagens, no Centro de administração do Microsoft 365, vá para **integridade** > **Centro de mensagens**ou selecione o cartão de centro de mensagem no painel de **casa** . O painel exibe as três últimas mensagens que foram lançadas e links para a página do Centro de mensagem completa.
  
 
 ![O cartão de centro de mensagem exibe as três últimas mensagens que foram postadas](media/qerguide-image-messagecentercard.png)

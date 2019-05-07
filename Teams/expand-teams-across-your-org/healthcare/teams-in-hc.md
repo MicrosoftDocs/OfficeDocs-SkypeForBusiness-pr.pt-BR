@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introdução ao Teams para Organizações de Saúde
-ms.openlocfilehash: 4ba465c69477f3e9ff6d541ddeb55dc41100b7ec
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7f68a21e835edb3b5ebcd8ff794f4fd3d0716bee
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245886"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632280"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introdução ao Teams para Organizações de Saúde
 
@@ -29,14 +29,59 @@ Teams da Microsoft oferece vários recursos úteis para hospitais e outras organ
 - Integração de atendimento médico Record (EHR) eletrônicos
 - Integração de trabalhador de Firstline
 
-## <a name="care-coordination"></a>Coordenação de atendimento médico
+## <a name="care-coordination---microsoft-teams-patients-app"></a>Equipes de atendimento médico coordenação - Microsoft app os pacientes
 
-Coordenação de atendimento médico é uma das principais pilares de nossos investimentos em Teams Microsoft no setor de saúde. A solução oferece um hub seguro equipes de assistência médica para coordenar o atendimento médico entre vários pacientes. Ele se integra com sistemas de registros (EHR) de saúde eletrônicos e permite que se preocupar provedores para se comunicar sobre do paciente em tempo real dentro da plataforma segura das equipes. As equipes concede às organizações para solucionar problemas como:
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-- Baixa eficiência em transferências e comunicação importantes em todo o espectro de atendimento médico
-- Silos informações que cria sobrecarga administrativa no sistema de saúde
+Microsoft Teams agora possui uma solução de coordenação de atendimento médico específica para as organizações de saúde para ajudá-los a atender às sua objetivo final de fornecer o melhor aos pacientes. O x da solução de coordenação de atendimento médico, o aplicativo de pacientes de equipes da Microsoft, é um aplicativo de guia de terceiros primeiro que integra com sistemas de (EHR) registros saúde eletrônicos usando uma interface de recursos de interoperabilidade de atendimento médico Fast ([FHIR](https://www.hl7.org/fhir/)) para trazer valiosos informações médicas em Teams da Microsoft.  
+
+A solução de coordenação de atendimento médico pode estabelecer interface com fornecedores de Software independentes (ISVs) que o aplicativo de pacientes podem se conectar aos seus sistemas EHR usando existente padrões de dados de integridade, como HL7v2 e FHIR. Parceiros do Microsoft com as seguintes líderes do setor para estabelecer a integração de registros de saúde eletrônicos com equipes:
+
+- Datica (por meio da oferta seus [CMI](https://datica.com/compliant-managed-integration/) )
+- Informações Cloverleaf (pela [Ponte de FHIR informações](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html))
+- Redox (por meio do [R ^ server FHIR](https://www.redoxengine.com/fhir/))
+- Dapasoft (por meio de [Corolar em FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/))
+
+Uma integração EHR e interoperabilidade parceiro tentando implementar Teams da Microsoft para uma organização de assistência médica precisa fornecer o aplicativo de pacientes uma conexão segura e autenticada com sistemas EHR da organização de assistência médica. Isso permite que o fluxo de (somente leitura) one-direcional dos pacientes registros relevantes no aplicativo os pacientes. O aplicativo de pacientes entende o formato FHIR, portanto, o parceiro também é responsável por transformar os dados agregados de vários outros formatos como HL7v2, etc. em FHIR DSTU2 ou STU3.
+
+<br>
+
+![Integração do EHR](../../media/ehr-1.png)
+
+<br>
+
+O aplicativo de pacientes se integra com sistemas de registros (EHR) de saúde eletrônicos e permite que se preocupar provedores para se comunicar sobre do paciente em tempo real dentro da plataforma segura das equipes. O aplicativo de pacientes é o primeiro grande investimento na área de coordenação de atendimento médico que pretende resolver os seguintes desafios:
+
+- Baixa eficiência em transferências e comunicação crítica por meio de experiência do paciente
+- Silos informações que cria a carga administrativa
 - Insatisfação entre os clínicos com ferramentas de colaboração complexa e fragmentado
-- Coordenação ineficiente e em pessoa entre profissionais que podem consumir uma quantidade excessiva clínico tempo e o custo
+- Coordenação de atendimento médico de pessoal ineficientes que pode gravar a hora de início de estudos clínicos muito cara
+
+Microsoft Teams permite que os médicos, os médicos, enfermeiros e outros funcionários colaborar com eficiência por:
+
+- Sendo parte de uma única equipe virtualizada que funciona e colabora em documentos do Office
+- Ter conversas persistentes sobre pacientes diferentes que precisam de atenção
+- Usando canais com guias como uma maneira de estruturar seu trabalho, com a ajuda adicional de guias aos quais eles podem fixar fontes de informações
+- Usando reuniões de canal com o poder do áudio de equipes, vídeo, compartilhamento de tela, gravação e recursos de transcrição para gerenciar reuniões diárias
+- Usando o aplicativo de pacientes para curate uma lista de alto risco pacientes que devem ser monitoradas e extrai seus detalhes mais recentes do sistema EHR. O aplicativo de pacientes próprio adiciona os seguintes recursos para Teams da Microsoft:
+
+    - Capacidade de criar vários paciente lista dentro de um único canal.
+    - Capacidade de visualizar e classificar as informações exibidas sobre os pacientes através de colunas configuráveis.
+    - Capacidade de autoprovisionar o aplicativo por meio de um modelo de equipe.
+    - Disponível em aplicativo equipes para iOS e Android para profissionais de saúde móveis primeiro, bem como o cliente de desktop e web Teams da Microsoft.
+    - Suporte para as versões de FHIR DSTU2 e STU3 por meio de análise de declaração de conformidade.
+    - Logs de auditoria para todas as ações de exibir e pesquisar em sua interface de usuário para a proteção pi por diretrizes HIPAA.
+
+O aplicativo de pacientes é criado na plataforma de extensibilidade de equipes e aproveita a estrutura de guias para exibir conteúdo de pacientes rico dentro de um canal. Para saber mais sobre a própria plataforma e de outros aplicativos de equipes, consulte [Apps para equipes da Microsoft](/microsoftteams/platform/concepts/apps/apps-overview).  
+
+> [!NOTE]
+> O aplicativo de pacientes está no modo de visualização particular e a interface FHIR está em beta. Versões lançadas não deverão ser compatíveis com versões anteriores.
+
+![Captura de tela de app os pacientes](../../media/ehr-2.png)
+
+Consulte [Integrando registros de saúde eletrônicos em equipes da Microsoft](patients-app.md) para obter detalhes de implementação.
+
+## <a name="templates"></a>Modelos
 
 Novos modelos para a criação de equipes foram desenvolvidos para aplicar a hospitalares e mais esperados em breve. Isso facilita criar equipes usado por profissionais de saúde para coordenar o atendimento médico para pacientes em vários departamentos ou alas. Consulte o [guia de Introdução com modelos de equipes para organizações de saúde](healthcare-templates.md). As equipes podem ser iniciadas para departamentos internos, como cardiologia, ou para alas de atendimento médico, e mais modelos estão em desenvolvimento.
 

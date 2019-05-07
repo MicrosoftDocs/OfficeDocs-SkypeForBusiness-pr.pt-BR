@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 492055c80b844ba4a7aa0091da767214c55dc31a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 85678529f25e46b7c75c08976d86870fc4566694
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203067"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632310"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Visão geral de segurança e conformidade no Microsoft Teams
 ======================================================
@@ -114,7 +114,7 @@ Quando falamos em recursos de proteção de informações, as assinaturas do Off
 |![Ícone de ponto de decisão.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Ponto de decisão         |A sua organização tem as licenças necessárias para atender aos requisitos empresariais de conformidade e segurança?         |
 |![Ícone de próximos passos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Próximos passos         |Revise o licenciamento atual da sua organização e confirme que ele atenda todos os requisitos de negócios para conformidade e segurança.         |
 
-Antes de habilitar qualquer um desses recursos, verifique se que você tem acesso para o Centro de conformidade do & de segurança no Centro de administração do Office 365. Por padrão, os administradores de locatários têm acesso.
+Antes de habilitar qualquer um desses recursos, verifique se que você tem acesso para o Centro de conformidade do & de segurança no Microsoft 365 admin center. Por padrão, os administradores de locatários têm acesso.
 
 Pesquisa de conteúdo e descoberta eletrônica não exigem habilitação do Centro de conformidade do & de segurança.
 
@@ -132,7 +132,7 @@ Para obter mais informações em residência de dados do Canadá para equipes, l
 
 Para saber mais sobre o lançamento do Austrália e Japão residência de dados para equipes, leia a postagem do blog de Varun Sagar, [Microsoft equipes inicia Austrália e Japão dados residência ](https://go.microsoft.com/fwlink/?linkid=867773). 
 
-Para ver qual região armazena dados para seu locatário, vá para o [Centro de administração do Office 365](https://portal.office.com/adminportal/home) > **configurações** > **perfil da organização**. Role para baixo até **Local dos dados**. 
+Para ver qual região armazena dados para seu locatário, vá para o [Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home) > **configurações** > **perfil da organização**. Role para baixo até **Local dos dados**. 
 
 ![Captura de tela da tabela de dados local, incluindo as equipes, no Centro de administração do Office 365.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

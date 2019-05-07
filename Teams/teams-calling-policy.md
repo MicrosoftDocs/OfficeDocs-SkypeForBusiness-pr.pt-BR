@@ -3,7 +3,7 @@ title: Políticas de chamada no Microsoft Teams
 author: LolaJacobsen
 ms.author: tonysmit
 manager: serdars
-ms.date: 04/15/2019
+ms.date: 05/06/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
@@ -17,15 +17,15 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e56f0c89859b940a82e76f8de35ff524a757ec9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 007bea10d8e452a2198c869ab545592b29c591c1
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32224996"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632365"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Políticas de chamada no Microsoft Teams
-==========================================
+===================================
 
 No Microsoft Teams, chamando políticas controlam quais chamadas e recursos de encaminhamento de chamadas estão disponíveis aos usuários. As políticas de chamada determinam se um usuário pode fazer chamadas privadas, use o encaminhamento de chamadas ou usam rotear as chamadas para caixa postal, chamadas de envio para grupos de chamada, toque para outros usuários ou números de telefone externo simultâneo, delegação para chamadas de entrada e saídas, e assim por diante. Uma política global de padrão é criada automaticamente, mas os administradores também podem criar e atribuir políticas personalizadas de chamada.
 
@@ -97,5 +97,8 @@ Essa configuração para **ativado** enviará chamadas pela PSTN e incorrer enca
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>Ocupado em ocupado está disponível durante uma chamada
 
-Ocupado em ocupado (opções de ocupado)) é uma nova configuração de políticas de chamada que permite que você configure as chamadas de entrada como são manipuladas quando um usuário já estiver em uma chamada ou conferência ou tem uma chamada de equipes colocados em espera. Chamadas de entrada ou novas podem ser rejeitadas com um sinal de ocupado. Você pode habilitar opções de disponibilidade em um nível de locatário ou em um nível de usuário. Independentemente de como suas opções de disponibilidade são configuradas, os usuários em uma chamada ou conferência ou aqueles com uma chamada em espera não são impedidos desde o início de novas chamadas ou conferências. Essa configuração é desabilitada por padrão.
+Ocupado em ocupado (opções de ocupado)) é uma nova configuração de políticas de chamada que permite que você configure as chamadas de entrada como são manipuladas quando um usuário já estiver em uma chamada ou conferência ou tem uma chamada de equipes colocados em espera. Chamadas de entrada ou novas podem ser rejeitadas com um sinal de ocupado. Você pode habilitar ocupadas opções no nível de locatário ou no nível do usuário. Independentemente de como suas opções de disponibilidade são configuradas, os usuários em uma chamada ou conferência ou aqueles com uma chamada em espera não são impedidos desde o início de novas chamadas ou conferências. Essa configuração é desabilitada por padrão.
 
+## <a name="see-also"></a>Confira também
+
+[Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
