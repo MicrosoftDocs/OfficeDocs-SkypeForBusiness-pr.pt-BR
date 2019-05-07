@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'Resumo: Visão geral dos métodos de instalação de cliente enterprise para Skype para negócios.'
-ms.openlocfilehash: 49eff64918deefe2ec169993557dd0f9dfbf6955
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 31d3f6b9fbc611ae434e10bc1208d95a645ba3bd
+ms.sourcegitcommit: 47e5f6a0440f646d67bc3ca7c232df9558f78040
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212716"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33641467"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Implantar clientes para o Skype para Business Server
  
@@ -49,9 +49,6 @@ Os tópicos desta seção descrevem como usar e personalizar o Windows Installer
     
 - [Install and test Skype for Business for iOS](ios.md)
     
-- [Implantar Sistema de Salas do Skype no Skype for Business Server](deploy-skype-room-system.md)
-    
-- [Implantar salas de equipes da Microsoft](room-systems-v2.md)
     
 - [Implantar o Lync VDI plug-in com Skype para Business Server](deploy-the-lync-vdi-plug-in.md)
     

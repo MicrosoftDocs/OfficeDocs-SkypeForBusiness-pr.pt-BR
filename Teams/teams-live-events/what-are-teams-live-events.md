@@ -14,12 +14,12 @@ description: Saiba como live eventos permitem aos usuários transmitir vídeo e 
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c2564cc3da4f9df551ee9c9e5155a4cb81e4a37
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 01dfa91c13625e1f1f18fdce5840cf6ba2baeb79
+ms.sourcegitcommit: 47e5f6a0440f646d67bc3ca7c232df9558f78040
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204668"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33641489"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>O que são os eventos ao vivo do Microsoft Teams ?
 
@@ -36,6 +36,9 @@ As equipes de eventos ao vivo são considerados a próxima versão do Skype tran
 Portanto, vamos começar. Primeiro, dê uma olhada no diagrama a seguir que mostra os componentes de nível altos envolvidas em eventos ao vivo do Microsoft 365 e como eles são conectados. 
 
 ![Diagrama que mostra os principais componentes de eventos ao vivo, a plataforma, agendar, produção, Stream Microsoft certified provedores de terceiros eCDN] (../media/teams-live-events.png  "Diagrama que mostra os principais componentes de eventos ao vivo, a plataforma, agendar, produção, Stream Microsoft certified provedores de terceiros eCDN")
+
+### <a name="event-group-roles"></a>Funções do grupo de evento
+Eventos ao vivo em equipes capacita várias funções (organizador, produtor, apresentador e participante) para transmissão e participar de um evento com êxito. Para saber mais, veja as [funções de grupo de eventos](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
 
 ## <a name="key-components"></a>Principais componentes
 Assim, você pode ver na figura acima, existem quatro principais componentes que são usados com eventos ao vivo em equipes.
