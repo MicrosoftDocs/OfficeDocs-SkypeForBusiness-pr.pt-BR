@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415f4d94cf64de76ed3d7b4a7243d419d092999c
-ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
-ms.translationtype: HT
+ms.openlocfilehash: 039838172bf155d5c050fbb59fd4cc260fdbb4c3
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31043361"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864893"
 ---
 > [!NOTE]
 > Analise as informações a seguir para entender como funciona o bate-papo, equipes, canais e aplicativos no Teams. Em seguida, vá para [Implantar bate-papo, equipes, canais e aplicativos no Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para ver uma lista de decisões importantes para a implantação do Teams.
@@ -41,11 +41,11 @@ Vamos começar pensando em como o Microsoft Teams permite que equipes individuai
     
     Uma equipe foi designada para reunir um grupo de pessoas que trabalham em parceria para realizar suas tarefas. O Teams pode ser dinâmico para um trabalho baseado em um projeto (por exemplo, lançamento de um produto, criação de uma sala de guerra digital), assim como para trabalhos contínuos a fim de refletir a estrutura interna da empresa (por exemplo, localizações de departamentos e escritórios). Conversas, arquivos e notas nos canais de equipe são visíveis apenas para os membros da equipe.
 
--   **Canais** são seções exclusivas dentro de uma equipe para manter as conversas organizadas por tópicos, projetos e disciplinas específicas — o que funcionar melhor para a sua equipe!
+-   **Canais** são seções exclusivas dentro de uma equipe para manter as conversas organizadas por tópicos, projetos e disciplinas específicas — o que funcionar melhor para a sua equipe! Arquivos que você compartilha em um canal (na guia arquivos) são armazenados no SharePoint. Para saber mais, leia [como o SharePoint da Online e do OneDrive for Business interagem com equipes](SharePoint-OneDrive-interact.md).
 
-    -   Os canais das equipes são lugares onde todos na equipe podem conversar abertamente. Os bate-papos privados só são visíveis para as pessoas que estão no bate-papo.
+    -   Os canais das equipes são lugares onde todos na equipe podem conversar abertamente. Bate-papos privadas só ficam visíveis para as pessoas do bate-papo (e arquivos que você compartilha em um chat são armazenados no OneDrive for Business). 
 
-    -   Os canais são mais valiosos quando estendidos com aplicativos que incluem guias, conectores e bots que aumentam seu valor para os membros da equipe.
+    -   Os canais são mais valiosos quando estendidos com aplicativos que incluem guias, conectores e bots que aumentam seu valor para os membros da equipe. Para saber mais, consulte [Apps, bots, conectores & em equipes](deploy-apps-microsoft-teams-landing-page.md).
 
 Veja este pequeno vídeo para saber mais sobre as práticas recomendadas para criar equipes e canais.
 

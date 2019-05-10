@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Compreender como gerenciar todo o inquilino e configurações de usuário para as equipes durante a transição das equipes de experiência com o novo centro de administração do Microsoft Teams no Centro de administração do Office 365.
+description: Compreender como gerenciar todo o inquilino e configurações de usuário para as equipes durante a transição das equipes de experiência com o novo centro de administração do Microsoft Teams no Centro de administração do Microsoft 365.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -19,12 +19,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 9f1adb47709d3e053bb2349d8a3e548bedc58d9d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a89910c96a428b45d13b99725081d47d1cd7e245
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199563"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827792"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams
 ======================================================
@@ -42,7 +42,7 @@ A nova experiência do Centro de administração fornecerá a você uma experiê
 
 A tabela a seguir identifica as seções da experiência de equipes que foram migradas e mostra a relação entre as configurações atuais e as políticas no novo portal de administração.
 
-|Seção de equipes no Centro de administração do Office 365  |Nome da configuração (nível de locatário)  |Política de centro de administração Teams da Microsoft   |Nível: Locatário ou usuário   |
+|Seção de equipes no Centro de administração do Microsoft 365  |Nome da configuração (nível de locatário)  |Política de centro de administração Teams da Microsoft   |Nível: Locatário ou usuário   |
 |---------|---------|---------|---------|
 |Geral     |Mostrar bate-papo organizacional no perfil pessoal        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Locatário       |
 |Geral     |Use Skype for Business para destinatários que não têm equipes         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
@@ -75,7 +75,7 @@ A tabela a seguir identifica as seções da experiência de equipes que foram mi
 |Mensagens     |Permitir que os usuários excluam suas próprias mensagens         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuário         |
 |Mensagens     |Permite que os usuários chat em particular         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuário         |
 
-<sup>1</sup> reduzido para o convidado. Habilitar/desabilitar convidado agora podem ser gerenciada no Centro de administração do Microsoft Teams. Habilitar/desabilitar Teams para empresa de negócios, Edu aluno, e Corpo Docente do Edu será preterido em breve. Isso deve ser gerenciado pela atribuição de licenças no Centro de administração do Office 365. Consulte [Gerenciar o acesso de usuário às equipes da Microsoft](user-access.md).
+<sup>1</sup> reduzido para o convidado. Habilitar/desabilitar convidado agora podem ser gerenciada no Centro de administração do Microsoft Teams. Habilitar/desabilitar Teams para empresa de negócios, Edu aluno, e Corpo Docente do Edu será preterido em breve. Isso deve ser gerenciado pela atribuição de licenças no Centro de administração do Microsoft 365. Consulte [Gerenciar o acesso de usuário às equipes da Microsoft](user-access.md).
 <br><br>
 <sup>2</sup> Sideloading é dividida da seguinte maneira:
 
@@ -85,15 +85,15 @@ A tabela a seguir identifica as seções da experiência de equipes que foram mi
 <sup>3</sup> aplicativos padrão e aplicativos externos podem ser habilitados e desabilitados no nível do usuário em TeamsAppPermissionPolicy. Além disso, os aplicativos poderão ser bloqueados no nível de locatário nas configurações do aplicativo de toda a organização que substitui qualquer usuário e as configurações de nível de locatário. 
 
 > [!NOTE]
-> Você vai continuar a usar o painel de grupos no Centro de administração do Office 365 para configuração relacionada ao equipes e canais. As configurações para aplicativos permanecerão na área de equipes do Centro de administração do Office 365 e serão migradas mais tarde. 
+> Você vai continuar a usar o painel de grupos no Centro de administração do Microsoft 365 relacionados ao equipes e canais de configuração. As configurações para aplicativos permanecerão na área de equipes do Centro de administração do Microsoft 365 e serão migradas mais tarde. 
 
 ## <a name="manage-settings-during-the-migration"></a>Gerenciar configurações durante a migração
 
-Você pode continuar modificar as configurações no Centro de administração do Office 365 e o Skype para centro de administração de negócios até que a migração para uma seção está concluída para o seu locatário. 
+Você pode continuar modificar as configurações no Centro de administração do Microsoft 365 e o Skype para centro de administração de negócios até que a migração para uma seção está concluída para o seu locatário. 
 
 A tabela a seguir mostra onde você pode gerenciar recursos durante a migração.
 
-|Recurso  |Centro de administração do Microsoft Teams                      |Skype para o Centro de administração de negócios (herdado)  |Centro de administração do Office 365  |
+|Recurso  |Centro de administração do Microsoft Teams                      |Skype para o Centro de administração de negócios (herdado)  |Centro de administração do Microsoft 365  |
 |---------|:---------:|:---------:|:---------:|
 |As equipes de políticas de mensagens, reuniões e eventos do Live     |     X    |         |         |
 |Política de atualização de equipes     |    X     |         |         |

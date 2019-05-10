@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ca4249c88ce5793cd04eb2e2cc1ed3035915975
-ms.sourcegitcommit: 790ca37e2b12e4c8adcc526b1695017161749f51
+ms.openlocfilehash: 74a9b23479f5357c0014ef5ef88b3f5da03ace7f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33526852"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865043"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover suas equipes da Microsoft StaffHub para mudanças na Teams da Microsoft
 
@@ -45,7 +45,15 @@ Detalhes do usuário, informações de agenda e bate-papo e o arquivo de dados s
 
 Cada equipe StaffHub necessita de um grupo de 365 correspondente do Office. Se uma equipe StaffHub não tiver um grupo do Office 365 associado a ela, um é criado automaticamente para você ofereça suporte a transição. A diferença na equipe e nomeação de grupo entre equipes e StaffHub, você poderá ver um nome diferente de equipe em equipes.
 
-Como fazer a transição de equipes de StaffHub às equipes, os usuários não terá mais acesso a suas próprias agendas em StaffHub e são redirecionados para mudanças na equipes. Recomendamos que você se comunica essa alteração em toda a organização para minimizar a interrupção e incentivar os usuários a adotar e explore equipes.
+Como fazer a transição de equipes de StaffHub às equipes, os usuários não terá mais acesso a suas próprias agendas em StaffHub e são redirecionados para mudanças na equipes. Recomendamos que você se comunica essa alteração em toda a organização para minimizar a interrupção e incentivar os usuários a adotar e explore equipes. Se você tiver o Windows Azure AD Premium, você pode [executar um relatório](run-report-to-show-staffhub-usage.md) para obter uma lista de usuários StaffHub em sua organização que precisam saber sobre essa alteração.  
+
+Não há nenhuma opção de reversão depois de mover uma equipe StaffHub às equipes.
+
+### <a name="user-experience-when-you-move-a-team"></a>Quando você move uma equipe de experiência do usuário
+
+Há tempo de inatividade mínimo (menos de um segundo, se houver alguma) para usuários quando sua equipe é alternado do StaffHub para mudanças na equipes. Os usuários podem continuar usando StaffHub até que a mudança para equipes seja concluída. Quando a migração for concluída, os membros da equipe verá uma mensagem para que eles saibam o que eles precisam para começar a usar desloca em equipes para acessar sua agenda de equipe. Aqui está um exemplo da mensagem que os usuários veem.
+
+![Exemplo da mensagem que os usuários veem no StaffHub depois que a equipe de StaffHub é movida para equipes.] (../../media/move-staffhub-teams-to-shifts-in-teams-message-to-users.png "Exemplo de mensagem que os usuários verão nos StaffHub depois que a equipe de StaffHub é movida para equipes")
 
 ## <a name="prepare"></a>Preparar
 

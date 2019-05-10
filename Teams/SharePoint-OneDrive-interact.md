@@ -3,7 +3,7 @@ title: Como o SharePoint Online e o OneDrive for Business interagem com o Micros
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/12/2018
+ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -15,15 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 169008f7af8f52be60c7f15d7a4613f77ed161df
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f790a01050811ee46526fe37a4d6c14f107491b5
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226455"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827736"
 ---
-<a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams
-=============================================================================
+# <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams
 
 > [!Tip]
 > Assista a sessão a seguir para saber como equipes interage com o Windows Azure Active Directory (AAD), grupos do Office 365, Exchange, SharePoint e OneDrive for Business: [Fundamentos das equipes da Microsoft](https://aka.ms/teams-foundations)
@@ -37,7 +36,7 @@ Se os usuários não forem designados e habilitados com as licenças do SharePoi
 Ao armazenar os arquivos na biblioteca de documentos do SharePoint Online e no OneDrive for Business, todas as regras de conformidade configuradas no nível tenant serão cumpridas. 
 
 > [!NOTE]
-> Integração com o Sharepoint local não é suportada for Microsoft Teams neste momento.
+> Integração com o SharePoint local não é suportada for Microsoft Teams neste momento.
 
 A seguir, um exemplo das relações entre equipe, canal e biblioteca de documentos.
 
@@ -58,8 +57,29 @@ Para cada usuário, a pasta **Arquivos de bate-papo do Microsoft Teams** do OneD
 
 ![Diagrama da pasta do OneDrive, nomeada como Arquivos de Bate-papo do Microsoft Teams para o bate-papo de cada usuário.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
-<a name="more-information"></a>Mais informações
-----------------
+## <a name="channel-files-tab"></a>Guia de arquivos de canal
+
+> [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-section.md)]
+
+Na guia **arquivos** em equipes parecida com o modo de exibição de documentos do SharePoint. Na guia **arquivos** , os usuários podem:
+
+- Consulte as opções adicionais no menu **novo** arquivo.
+- Sincronizar arquivos para sua unidade local.
+- No menu **Todos os documentos** , alterne do modo de exibição de **lista** para **lista compacta** ao modo de exibição **lado a lado** .
+- Identifica os arquivos que precisam de atenção ou têm malware.
+- Ver imediatamente se um arquivo é somente leitura ou check-out.
+- Check-out e check-in de arquivos.
+- Fixar, Desafixar e alterar a ordem de classificação dos arquivos.
+- Identificar quais arquivos precisam ser metadados
+- Escolha uma das muitas mais opções de filtro.
+- Arquivos de grupo com base nos títulos de coluna.
+- Modificar configurações de coluna (mover para a esquerda ou direita, ocultar) e a largura da coluna.
+
+## <a name="default-link-type-setting"></a>Configuração de tipo de link padrão
+
+SharePoint e OneDrive têm uma definição de administração para especificar o tipo de link padrão para links que são criados para um arquivo. As equipes está adotando essa mesma abordagem reutilizando as configurações que o administrador define para SharePoint e OneDrive. Para obter mais detalhes sobre essa abordagem são descritos na [alterar o tipo de link padrão quando os usuários obtenham links para compartilhamento](https://docs.microsoft.com/sharepoint/change-default-sharing-link). 
+
+## <a name="more-information"></a>Mais informações
 
 Para obter mais informações sobre como o SharePoint funciona com equipes, consulte [equipes e SharePoint: melhores juntos](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
 

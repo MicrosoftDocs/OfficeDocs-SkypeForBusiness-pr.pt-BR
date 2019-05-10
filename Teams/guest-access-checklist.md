@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 80ae1944a2208393a38032bd6a988e807f803938
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237544"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827657"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidado equipes
 ==========================================
@@ -59,7 +59,7 @@ Algumas coisas lembrar:
 
 ## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□ Etapa 1: definir as configurações no Azure AD business-to-business
 
-1. Entrar no https://portal.azure.com.
+1. Entrar nohttps://portal.azure.com
 2. No painel esquerdo, clique em **do Azure Active directory** .
 3. Em **Gerenciar**, clique em **configurações do usuário**.
 4. Em **usuários externos**, clique em **configurações de gerenciar externo de colaboração**.

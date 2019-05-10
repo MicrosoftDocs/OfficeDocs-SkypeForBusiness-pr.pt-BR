@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Resumo: Leia este tópico para saber como implantar o Gerenciador de Estatísticas do Skype for Business Server.'
-ms.openlocfilehash: 901720f87cf1c0bf78f558ed0d031bd41377799a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: HT
+ms.openlocfilehash: c70bb596914142fb03e87ccd7e2f1df606aac31f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898255"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864901"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implantar Gerenciador de Estatísticas do Skype for Business Server
  
@@ -118,7 +118,7 @@ Para validar a instalação, execute as etapas a seguir:
     
    - Se a página de verificação de integridade aparecer, a instalação do Ouvinte foi bem-sucedida.
     
-   - Se o valor de KnownServersCount for 1 ou maior, a conexão com o Redis foi estabelecida.
+   - Se o KnownServerCount for 1 ou superior, a conexão para relacionada é estabelecida.
     
    - Após aguardar alguns minutos e depois que pelo menos um Agente tiver sido instalado, verifique se o contador ValuesWritten está aumentando.
     

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Resumo: Revise esse tópico durante o planejamento para integrar o Skype para servidor de negócios com o Exchange 2013 ou 2016.'
-ms.openlocfilehash: 951b31e36290bda0d6bd171c4a7df8f6aa4ff337
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 30898b8a5a8495ac34527d6feb688d4a1acb4d49
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213934"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835422"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planejar para integração de Unificação de Mensagens do Exchange no Skype for Business
 
@@ -28,7 +28,7 @@ Skype para Business Server oferece suporte à integração com Exchange Unified 
 No Microsoft Exchange Server 2013 e 2016, UM do Exchange é executado como um serviço em um servidor de caixa de correio do Exchange. Para Skype para implantações de negócios Server Enterprise Voice, a Unificação de mensagens combina mensagens de voz e email messaging em um armazenamento que os usuários podem acessar a partir de um computador ou de um telefone (Outlook Voice Access). Unificação de mensagens e Skype para Business Server trabalham juntos para fornecer atendimento de chamadas, Outlook Voice Access e serviços de atendedor automático para usuários do Enterprise Voice.
 
 > [!NOTE]
-> UM do Exchange permanece disponível na Skype para Business Server 2019 ao integrar Skype para negócios 2019 com Exchange 2013 ou 2016 do Exchange. Devido às alterações no suporte no Exchange 2019, a integração de UM do Exchange está sendo desprovisionamento emphasised em favor de recursos de caixa postal de nuvem e atendedor automático de nuvem.  Para obter mais informações, consulte [serviço de caixa postal de nuvem planejar](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) e [Planejar Skype para Business Server e migração do Exchange Server](../../../sfbhybrid/hybrid/plan-um-migration.md) .
+> UM do Exchange permanece disponível na Skype para Business Server 2019 ao integrar Skype para negócios 2019 com Exchange 2013 ou 2016 do Exchange. Devido às alterações no suporte no Exchange 2019, a integração de UM do Exchange está sendo desprovisionamento enfatizada em favor de recursos de caixa postal de nuvem e atendedor automático de nuvem.  Para obter mais informações, consulte [serviço de caixa postal de nuvem planejar](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) e [Planejar Skype para Business Server e migração do Exchange Server](../../../sfbhybrid/hybrid/plan-um-migration.md) .
 
 
 Para esses recursos serem suportados em uma implantação local de UM do Exchange, você deve estar executando um destes procedimentos:

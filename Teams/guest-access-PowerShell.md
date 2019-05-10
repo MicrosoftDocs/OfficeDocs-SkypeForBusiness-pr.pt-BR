@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Use o PowerShell para permitir ou bloquear o acesso de convidados às equipes do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9215cdbc360f1bda1d9d0ea75c1a9fe6ab0f458
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7ca05e48d28986a944debe150d5dbf25129ca73c
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235567"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827665"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Usar o PowerShell para controlar o acesso de convidados a uma equipe
 ================================================
@@ -36,7 +36,7 @@ Para obter detalhes, consulte a seção "Usar o PowerShell para controlar o aces
   
 Você também pode usar o PowerShell para permitir ou bloquear um usuário convidado com base no seu domínio. Por exemplo, digamos que a sua empresa (Contoso) tem uma parceria com outra empresa (Fabrikam). Você pode adicionar a Fabrikam na sua lista de permissões para que seus usuários possam adicionar esses convidados aos seus grupos. Para obter mais informações, consulte [Permitir/bloquear o acesso de convidados nos grupos do Office 365](https://go.microsoft.com/fwlink/?linkid=854001).
   
-Se desejar bloquear convidados nas equipes mas ainda permitir que os convidados acessem os sites do SharePoint, você pode usar os cmdlets Powershell do Azure Active Directory para desabilitar o parâmetro AllowGuestAccessToGroups no objeto da Empresa, presumindo que o compartilhamento externo esteja ativado para os sites do SharePoint.   
+Se você deseja bloquear convidados em equipes e ainda quiser permitir que eles acessem sites do SharePoint, você pode usar cmdlets do Azure Active Directory Powershell para desabilitar o parâmetro AllowGuestsToAccessGroups no objeto empresa, supondo que o compartilhamento externo é ativado para Sites do SharePoint.   
 
 ## <a name="guest-access-vs-external-access"></a>Acesso de convidado versus acesso externo
 

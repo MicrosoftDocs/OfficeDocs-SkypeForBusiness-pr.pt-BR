@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77c8125425bf7aaaf6f619edc9463b17967e4133
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1a5e881d1c1d6631cd4b0660f5237aad088f9d1d
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180260"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868708"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Grupos do Office 365 e equipes da Microsoft
 =====================================
@@ -50,6 +50,6 @@ Quando você cria uma equipe, no back-end, você está criando um grupo do Offic
 <a name="group-membership"></a>Associação a grupos
 ----------------
 
-Recursos de grupo e capacidades para seus usuários dependem em que a unidade de participação no grupo. Por exemplo, se você remover um membro de uma equipe, eles são removidos do grupo Office 365 também. A remoção do grupo imediatamente remove a equipe e canais do cliente equipes. Se você remover uma pessoa de um grupo usando o Centro de administração do Office 365, eles não terá mais acesso a outros aspectos de colaboração, como a biblioteca de documentos do SharePoint Online, no grupo ou compartilhado do OneNote Yammer. No entanto, eles terão ainda acesso à funcionalidade de bate-papo da equipe por aproximadamente duas horas.
+Recursos de grupo e capacidades para seus usuários dependem em que a unidade de participação no grupo. Por exemplo, se você remover um membro de uma equipe, eles são removidos do grupo Office 365 também. A remoção do grupo imediatamente remove a equipe e canais do cliente equipes. Se você remover uma pessoa de um grupo usando o Centro de administração do Microsoft 365, eles não terá mais acesso a outros aspectos de colaboração, como a biblioteca de documentos do SharePoint Online, no grupo ou compartilhado do OneNote Yammer. No entanto, eles terão ainda acesso à funcionalidade de bate-papo da equipe por aproximadamente duas horas.
 
-Como prática recomendada para o gerenciamento de membros de equipes, adicionar e remover membros do cliente equipes para garantir que o controle de acesso correto em cascata para outros aplicativos de nuvem dependentes seja aplicado. Além disso, você evitará uma experiência não contígua, deixando as pessoas com a impressão de que ainda têm acesso aos recursos que costumavam ter (até o próximo ciclo de sincronização adicionar ou revogar acesso a um componente específico do serviço). Se você adicionar ou remover membros de equipe fora do cliente de equipes (usando o Centro de administração do Office 365, Windows Azure AD, ou Exchange Online PowerShell), pode demorar até duas horas para que as alterações sejam refletidas em equipes.
+Como prática recomendada para o gerenciamento de membros de equipes, adicionar e remover membros do cliente equipes para garantir que o controle de acesso correto em cascata para outros aplicativos de nuvem dependentes seja aplicado. Além disso, você evitará uma experiência não contígua, deixando as pessoas com a impressão de que ainda têm acesso aos recursos que costumavam ter (até o próximo ciclo de sincronização adicionar ou revogar acesso a um componente específico do serviço). Se você adicionar ou remover membros de equipe fora do cliente de equipes (usando o Centro de administração do Microsoft 365, Windows Azure AD, ou Exchange Online PowerShell), pode demorar até duas horas para que as alterações sejam refletidas em equipes.

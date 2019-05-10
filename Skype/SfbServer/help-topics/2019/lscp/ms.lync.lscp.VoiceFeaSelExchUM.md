@@ -13,17 +13,17 @@ localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use a caixa de diálogo Selecionar UM atendedor automático do Exchange para selecionar um UM atendedor automático do Exchange que lidará com as chamadas recebidas para um intervalo de números não atribuídos.
-ms.openlocfilehash: decb3023f6faa58d74331714f09ae5415817e966
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6b037c907a2bd2d78a9f246e9cbc64dab2c5d8b8
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221522"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835303"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Selecionar um Atendedor Automático do UM do Exchange
 
 > [!NOTE]
-> UM do Exchange permanece disponível na Skype para Business Server 2019 ao integrar Skype para negócios 2019 com Exchange 2013 ou 2016 do Exchange. Devido às alterações no suporte no Exchange 2019, a integração de UM do Exchange está sendo desprovisionamento emphasised em favor de recursos de caixa postal de nuvem e atendedor automático de nuvem.  Para obter mais informações, consulte [serviço de caixa postal de nuvem planejar](../../../../SfBhybrid/hybrid/plan-cloud-voicemail.md) e [Planejar Skype para Business Server e migração do Exchange Server](../../../../SfBhybrid/hybrid/plan-um-migration.md) .
+> UM do Exchange permanece disponível na Skype para Business Server 2019 ao integrar Skype para negócios 2019 com Exchange 2013 ou 2016 do Exchange. Devido às alterações no suporte no Exchange 2019, a integração de UM do Exchange está sendo desprovisionamento enfatizada em favor de recursos de caixa postal de nuvem e atendedor automático de nuvem.  Para obter mais informações, consulte [serviço de caixa postal de nuvem planejar](../../../../SfBhybrid/hybrid/plan-cloud-voicemail.md) e [Planejar Skype para Business Server e migração do Exchange Server](../../../../SfBhybrid/hybrid/plan-um-migration.md) .
  
 Use a caixa de diálogo **Selecionar UM atendedor automático do Exchange** para selecionar um UM atendedor automático do Exchange que lidará com as chamadas recebidas para um intervalo de números não atribuídos.
   

@@ -17,12 +17,12 @@ appliesto:
 f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Saiba como incluir o logotipo, aviso de isenção legal e outras informações em seus convites de reunião.
-ms.openlocfilehash: ab42ddbc427ec344b8e4cf0f85e11f1426a5c6c4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cb6c535011e6ef1f6f7fe8fcd141646a34827e67
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236042"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868828"
 ---
 # <a name="customize-meeting-invitations-in-microsoft-teams"></a>Personalizar convites para reunião no Microsoft Teams
 
@@ -39,7 +39,7 @@ Como um administrador, você pode garantir que todas as Teams Microsoft convites
 ## <a name="customize-your-meeting-invitations"></a>Personalizar seus convites de reunião
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
-2. A partir do Centro de administração do Office 365, escolha **Admin centrais** > **& equipes Skype**.
+2. A partir do Centro de administração do Microsoft 365, escolha **Admin centrais** > **& equipes Skype**.
 3. No Centro de administração do Microsoft Teams, escolha **reuniões** > **configurações de reunião**.
 4. Conclua o seguinte:
     - **URL do logotipo** - insira a URL onde o logotipo de sua está armazenado. Lembre-se de que ele deve estar no formato JPG ou PNG!

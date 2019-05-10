@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introdução ao Teams para Organizações de Saúde
-ms.openlocfilehash: 7f68a21e835edb3b5ebcd8ff794f4fd3d0716bee
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: b2e7019183da06484b533fe66fd092c588c65e3f
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632280"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835437"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introdução ao Teams para Organizações de Saúde
 
@@ -91,10 +91,13 @@ Colaboração de suporte a mensagens em equipes de atendimento médico, incluind
 
 - O remetente da mensagem pode definir uma prioridade especial para a sua mensagem, para que o destinatário será notificado repetidamente até que eles devem ler a mensagem.
 - O remetente da mensagem pode solicitar uma confirmação de leitura, para que sejam notificados quando uma mensagem enviados por eles foi lido pelo remetente da mensagem.
+- 
 
 Juntos, esses recursos permitem atenção mais rápida às mensagens urgentes e confiança que a mensagem foi recebida e ler. Novo equipes de atendimento médico usando esses recursos podem ser criadas em uma base por pacientes. Esses recursos são baseadas na diretiva e podem ser atribuídos aos indivíduos ou equipes inteiros.
 
 Para obter mais detalhes, consulte [Introdução ao Secure Messaging políticas para as organizações de saúde](messaging-policies-hc.md) .
+
+Também para mensagens seguras está relacionado a capacidade de ter outros inquilinos federados por organizações de saúde, permitindo a comunicação entre locatários mais rica. (consulte [Manage external access (federação) em equipes da Microsoft](../../manage-external-access.md)).
 
 ## <a name="firstline-worker-integration"></a>Integração de trabalhador de Firstline
 

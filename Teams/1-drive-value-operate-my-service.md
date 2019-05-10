@@ -15,12 +15,12 @@ description: Tarefas e atividades necessárias para gerenciamento de serviço de
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 340c61ab7013da769bdf422f2d2c43a767c5de03
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 73cc1fca7f4b917266d855162545b93673c459a9
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401045"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868740"
 ---
 # <a name="operate-my-service"></a>Operar meu serviço
 
@@ -238,7 +238,7 @@ Analisar o uso com frequência no início na implantação oferece a oportunidad
 
 Se o uso não for o que você espera, isso poderia ser devido a um problema de implantação ou o plano de adoção não está sendo executado corretamente ou outro problema. Dependendo do motivo real por trás de pouco uso, o administrador do serviço deve colaborar com as equipes relacionadas para ajudar a remover as barreiras de uso.
 
-### <a name="measuring-usage-with-the-office-365-admin-center"></a>Medindo o uso com o Centro de administração do Office 365
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Medindo o uso com o Microsoft 365 admin center
 
 Dados de uso de equipes estão disponíveis no painel do relatório. Dados de uso de equipes podem ser encontrados em três relatórios diferentes. O primeiro relatório fornece um modo de exibição entre produtos de como os usuários se comuniquem e colaborem com os vários serviços no Office 365. Este relatório pode ser encontrado aqui: [relatório de usuários ativos do Office 365](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
@@ -279,9 +279,9 @@ Primeiro, identifique se este é um problema técnico ou no adoção. Comece inv
 
 ### <a name="references"></a>Referências 
 
-[Sobre o Centro de administração do Office 365](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[Sobre o Microsoft 365 admin center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[Relatórios de atividades no Centro de administração do Office 365](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[Relatórios de atividade no Centro de administração do Microsoft 365](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 

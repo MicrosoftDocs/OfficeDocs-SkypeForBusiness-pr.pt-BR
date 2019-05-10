@@ -20,18 +20,18 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Saiba o que é a validação de endereço, por que ela é importante e como está relacionada a endereços e serviços de emergência. '
-ms.openlocfilehash: 4ae8ab25f83eb97929706881f7f757ee3541284d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 85a24cff6f73bc6caaabab6a0efb436105de3a55
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229631"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864992"
 ---
 # <a name="what-is-address-validation"></a>O que é validação de endereço?
 
 Quando você configura Planos de Chamadas no Office 365, precisa atribuir um número de telefone e um endereço de emergência a cada usuário.
   
-A validação de um endereço envolve a garantia de que ele está correto e também formatado corretamente. É possível que um endereço de emergência parcialmente correto, como um nome de cidade digitado incorretamente, passe na validação. O processo de validação usa todas as partes de um endereço fornecido para determinar se ele contém informações suficientes para encaminhar a chamada para a central de serviços de emergência apropriada. Se for o caso, ele será validado e poderá ser atribuído a um número de telefone.
+A validação de um endereço envolve a garantia de que ele está correto e também formatado corretamente. É possível que um endereço de emergência parcialmente correto, como um nome de erros de digitação da cidade, ainda pode passar a validação. O processo de validação usa todas as partes de um endereço fornecido para determinar se ele contém informações suficientes para encaminhar a chamada para a central de serviços de emergência apropriada. Se for o caso, ele será validado e poderá ser atribuído a um número de telefone.
 
 > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

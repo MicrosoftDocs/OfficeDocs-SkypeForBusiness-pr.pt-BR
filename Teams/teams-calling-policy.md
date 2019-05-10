@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 007bea10d8e452a2198c869ab545592b29c591c1
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: c35c2455c3164f04dd9fdbbb210e20809a719bc6
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632365"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835323"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Políticas de chamada no Microsoft Teams
 ===================================
@@ -85,11 +85,16 @@ Esta configuração habilita as chamadas de entrada sejam enviadas para a caixa 
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Chamadas de entrada podem ser roteadas para chamar a grupos 
 
+> [!Include [feature preview](includes/preview-feature.md)]
+
 Esta configuração controla se as chamadas recebidas podem ser encaminhadas para um grupo de chamada.
 
 ### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>Permite a delegação de chamadas de entrada e saídas
 
+> [!Include [feature preview](includes/preview-feature.md)]
+
 Esta configuração habilita as chamadas de entrada sejam roteadas para os representantes, permitindo a representantes para fazer chamadas de saída em nome dos usuários para o qual eles têm permissões delegadas. Para obter mais informações, consulte [compartilhar uma linha telefônica com um representante](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
+
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Impedir que o desvio de Chamada Tarifada e enviar chamadas pela PSTN 
 

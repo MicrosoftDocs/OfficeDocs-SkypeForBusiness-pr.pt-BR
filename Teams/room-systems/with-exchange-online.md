@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Leia este tópico para obter informações sobre como implantar as salas de equipes da Microsoft com o Exchange Online.
-ms.openlocfilehash: 1dc4e73fea7376033d8914cd1814e1edeb68e7d5
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b00a4e09a74cabc7a47879eea3d075220245c704
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362583"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835294"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Implantar salas de equipes da Microsoft com o Exchange Online
 
@@ -83,7 +83,10 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 ### <a name="assign-an-office-365-license"></a>Atribuir uma licença do Office 365
 
-1. Primeiro, conecte-se para o Windows Azure AD para aplicar algumas configurações de conta. Você poderá executar este cmdlet para se conectar.
+1. Primeiro, conecte-se para o Windows Azure AD para aplicar algumas configurações de conta. Você poderá executar este cmdlet para se conectar. Para obter detalhes sobre o Active Directory, consulte o [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+
+   > [!NOTE]
+   > Não há suporte para o [Windows Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) . 
 
   ``` PowerShell
  Connect-MsolService -Credential $cred

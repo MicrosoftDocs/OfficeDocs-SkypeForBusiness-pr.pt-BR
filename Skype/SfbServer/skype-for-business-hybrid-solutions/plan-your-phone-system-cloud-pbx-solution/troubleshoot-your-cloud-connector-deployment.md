@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Solucionar problemas de sua implantação de edição do conector de nuvem.
-ms.openlocfilehash: a80d6977ff565d5d06f2487e5fb3ab8293b5e000
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b9ade46f46898d22bab862c3044e045de441b007
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240747"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864915"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Solução de problemas de implantação do Cloud Connector
  
@@ -204,7 +204,11 @@ Estes são soluções para problemas comuns encontrados:
     **Se os certificados de autoridade de certificação estão comprometidos e se houver apenas um appliance no site,** execute as seguintes etapas:
     
 1. Execute o cmdlet Enter-CcUpdate para esvaziar os serviços e colocar o dispositivo no modo de manutenção.
-    
+   
+   ```
+   Enter-CcUpdate
+   ```
+   
 2. Execute os seguintes cmdlets para redefinir e criar novos certificados da autoridade de certificação e todos os certificados de servidor interno:
     
     Para versões do conector de nuvem antes 2.0:
@@ -222,20 +226,37 @@ Estes são soluções para problemas comuns encontrados:
     Update-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
     ```
+    
+3. Se o TLS é usado entre o gateway e o servidor de mediação, execute o cmdlet Export-CcRootCertificate do aparelho e, em seguida, instale o certificado exportado seus gateways PSTN. Você também pode ser necessário para emitir novamente o certificado em seu gateway.
 
-3. Execute o cmdlet sair-CcUpdate para iniciar os serviços e sair do modo de manutenção.
-    
-4. Execute o cmdlet Export-CcRootCertificate no arquivo local no dispositivo e depois copie e instale o certificado exportado para seus gateways PSTN.
-    
+   ```
+   Export-CcRootCertificate
+   ```
+
+4. Execute o cmdlet sair-CcUpdate para iniciar os serviços e sair do modo de manutenção.
+
+   ```
+   Exit-CcUpdate
+   ```
+
+
     **Se os certificados de autoridade de certificação estão comprometidos e há vários appliances no site,** execute as seguintes etapas de sequenciais em cada dispositivo no site.
     
     A Microsoft recomenda que você execute essas etapas durante os períodos de uso não sejam de pico.
     
-   - No primeiro appliance, execute o cmdlet Remove-CcCertificationAuthorityFile para a autoridade de certificação de limpeza fazer backup de arquivos no \<SiteRoot\> directory.
+1. No primeiro appliance, execute o cmdlet Remove-CcCertificationAuthorityFile para a autoridade de certificação de limpeza fazer backup de arquivos no \<SiteRoot\> directory.
+
+     ```
+     Remove-CcCertificationAuthorityFile
+     ```
     
-   - Execute o cmdlet Enter-CcUpdate para esvaziar serviços e coloque cada aparelho no modo de manutenção.
+2. Execute o cmdlet Enter-CcUpdate para esvaziar serviços e coloque cada aparelho no modo de manutenção.
+
+     ```
+     Enter-CcUpdate
+     ```
     
-   - Execute os seguintes cmdlets para redefinir e criar novos certificados da autoridade de certificação e todos os certificados de servidor interno:
+3. No primeiro appliance, execute os seguintes cmdlets para redefinir e criar novos certificados de autoridade de certificação e todos os certificados de servidor interno:
     
      Para versões do conector de nuvem antes 2.0:
     
@@ -253,15 +274,32 @@ Estes são soluções para problemas comuns encontrados:
      Remove-CcLegacyServerCertificate 
      ```
 
-   - No primeiro appliance, execute o seguinte cmdlet para fazer backup dos arquivos de autoridade de certificação para o \<SiteRoot\> pasta. Posteriormente, em todos os outros dispositivos no mesmo site, o cmdlet Reset-CcCACertificate consumirá automaticamente os arquivos de backup de autoridade de certificação e appliances usará o mesmo certificado raiz.
+4. No primeiro appliance, execute o seguinte cmdlet para fazer backup dos arquivos de autoridade de certificação para o \<SiteRoot\> pasta.
     
      ```
      Backup-CcCertificationAuthority
      ```
+   
+5. Em todos os outro do equipamento no mesmo site, execute os seguintes comandos para consumir os arquivos de backup de autoridade de certificação, de forma que os aparelhos todos usam o mesmo certificado raiz e, em seguida, solicitar novos certificados. 
+   
+     ```
+     Reset-CcCACertificate
+     Update-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
+     
+6. Se o TLS é usado entre o gateway e o servidor de mediação, executar o cmdlet Export-CcRootCertificate a partir de qualquer aparelho no site e, em seguida, instale o certificado exportado seus gateways PSTN. Você também pode ser necessário para emitir novamente o certificado em seu gateway.
+  
+     ```
+     Export-CcRootCertificate
+     ```
+     
+7. Execute o cmdlet sair-CcUpdate para iniciar os serviços e sair do modo de manutenção. 
 
-   - Execute o cmdlet sair-CcUpdate para iniciar os serviços e sair do modo de manutenção. 
+     ```
+     Exit-CcUpdate
+     ```
     
-   - Se o TLS é usado entre o gateway e o servidor de mediação, executar o cmdlet Export-CcRootCertificate a partir de qualquer aparelho no site e, em seguida, instale o certificado exportado seus gateways PSTN. 
     
 - **Problema: Você recebe a seguinte mensagem de erro no Log de serviço de gerenciamento de conector nuvem "C:\Program Files\Skype para negócios nuvem conector Edition\ManagementService\CceManagementService.log": erro CceService: 0: exceção inesperada quando relatórios de status online: System.Management.Automation.CmdletInvocationException: falha de Logon para o usuário \<Administrador Global do locatário\>. Crie um novo objeto de credencial, certificando-se de que você usou o nome correto do usuário e a senha. ---\>**
     

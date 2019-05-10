@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Resumo: Revise as considerações de componente de rede abaixo antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 338a2d273fbba2bd006c5ed5acdd878338333b8a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 631de0031a027ab8364f987f20b7e10e3f2e47f0
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206258"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33834970"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -128,6 +128,9 @@ O cálculo do uso da largura de banda do tráfego de mídia pode ser desafiador 
 |Banda larga SILK  <br/> |Ponto a ponto  <br/> |26,0  <br/> |42,0  <br/> |54,0  <br/> |80,0  <br/> |
 |Banda larga SILK  <br/> |Ponto a ponto  <br/> |20,0  <br/> |36,0  <br/> |48,0  <br/> |68,0  <br/> |
 |Banda larga SILK/banda estreita  <br/> |Ponto a ponto  <br/> |13,0  <br/> |29,0  <br/> |41,0  <br/> |54,0  <br/> |
+
+> [!NOTE]
+> Chamadas PSTN do Skype para o cliente de negócios geralmente usam o codec g. 711, que requer uma alta largura de banda. Se a largura de banda suficiente não está disponível para esse codec, então chamadas podem falhar com um erro semelhante ao seguinte nos logs de mídia: **pelo menos um codec deve estar habilitado, hr: c0042004**. Logs de mídia (arquivos .blog) são criptografados e podem ser decodificados apenas pela equipe de suporte da Microsoft.
 
 Os números da largura de banda na tabela anterior são baseados na geração de pacotes de 20 ms (50 pacotes por segundo) e para os codecs G.722 e Siren incluem a sobrecarga adicional do protocolo SRTP nos cenários de conferência e supõe que o fluxo está 100% ativo. O FEC (correção de erro de encaminhamento) é dinamicamente usado quando há uma perda de pacotes no link para ajudar a manter a qualidade dos fluxos de áudio.
 

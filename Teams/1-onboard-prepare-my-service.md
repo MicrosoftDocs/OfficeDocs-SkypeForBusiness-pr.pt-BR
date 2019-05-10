@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b800dc410eb6a6d506d3c3ad7ad4719485df84c2
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 27a3555443ecf1988a49c6002477e8ec2cb4680e
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402248"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868684"
 ---
 # <a name="prepare-my-service"></a>Preparar meu serviço
 
@@ -52,7 +52,7 @@ Embora seja recomendável que você siga as listas de verificação em ordem, a 
 Quando você estiver inclusão de usuários em uma base por site, é altamente recomendável que você use o [Site Playbook de habilitação para voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) como um guia suplementar estas listas de verificação.
 
 >[!NOTE]
->A maioria das definições de configuração são comuns entre equipes e Skype para negócios Online. Você pode usar o Centro de administração do Centro de administração do Office 365 e Teams da Microsoft para definir essas configurações.
+>A maioria das definições de configuração são comuns entre equipes e Skype para negócios Online. Você pode usar o Centro de administração do Centro de administração do Microsoft 365 e Teams da Microsoft para definir essas configurações.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Quem será responsável pela supervisão a conclusão das listas de inclusão de verificação?</li></ul></td></tr>

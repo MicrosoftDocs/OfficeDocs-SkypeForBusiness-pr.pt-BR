@@ -1,5 +1,5 @@
 ---
-title: Cite atendedores automáticos de nuvem.
+title: Quais são os atendedores automáticos do Cloud?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,14 +22,14 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Saiba quais são os atendedores automáticos de nuvem e como usá-los.
-ms.openlocfilehash: 99310e44fbab43e16d0816acdb8a85815863b286
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4ab2ffd0803df57db437e2597db9a95b44d9be75
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211689"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865144"
 ---
-# <a name="what-are-cloud-auto-attendants"></a>Cite atendedores automáticos de nuvem.
+# <a name="what-are-cloud-auto-attendants"></a>Quais são os atendedores automáticos do Cloud?
 
 Sistema telefônico no Office 365 fornece atendedores automáticos, que podem ser usados para permitir que externo e internos chamadores mover através de um sistema de menu localizar e colocar ou transferir chamadas para usuários da empresa ou departamentos na organização.
   
@@ -60,7 +60,7 @@ Para começar a usar os atendedores automáticos, é importante lembrar-se de qu
 - Você só precisa licenciar as contas de recursos com um número de telefone atribuído a eles. Em uma fila de chamada e atendente automático aninhados, você não precisará licenciar o restante dos atendedores automáticos ou chamada filas se eles não tiverem números de telefone associados a eles. 
 
 > [!NOTE]
-> Diretos números de serviço de roteamento para atendedor automático e filas de chamada são suportadas para os usuários de Teams da Microsoft e operadores somente no momento.
+> Números de serviço de roteamento diretos para filas de chamada e atendedor automático são suportados para os usuários do Microsoft Teams e operadores somente.
 
 > [!NOTE]
 > Microsoft está trabalhando em um modelo de licenciamento apropriado para aplicativos como atendedores automáticos de nuvem e filas de chamada, para agora você precisa usar o modelo de licenciamento por usuário.

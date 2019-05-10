@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: Esses recursos são novos no Skype para Business Server 2019.'
-ms.openlocfilehash: 770cfa8934f40e8ab847b7d77a60f18250c64842
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 68b6a2c3e3115df58c44603817e2adfc0c83f67c
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239573"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835236"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>O que há no Skype para Business Server 2019
 
@@ -23,13 +23,13 @@ ms.locfileid: "32239573"
 
 Novos recursos do Skype para Business Server 2019 incluem o seguinte:
   
-- Caixa postal da nuvem  
+- Caixa Postal na Nuvem  
 - Conector de dados de chamada
 - Migração lado a lado
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>Unificação de serviços de mensagens: caixa postal de nuvem
 
-UM do Exchange permanece disponível na Skype para Business Server 2019 ao integrar Skype para negócios 2019 com Exchange 2013 ou 2016 do Exchange. Devido às alterações no suporte no Exchange 2019, a integração de UM do Exchange está sendo desprovisionamento emphasised em favor de recursos de caixa postal de nuvem e atendedor automático de nuvem.  
+UM do Exchange permanece disponível na Skype para Business Server 2019 ao integrar Skype para negócios 2019 com Exchange 2013 ou 2016 do Exchange. Devido às alterações no suporte no Exchange 2019, a integração de UM do Exchange está sendo desprovisionamento enfatizada em favor de recursos de caixa postal de nuvem e atendedor automático de nuvem.  
 
 Caixa postal de nuvem permite que todos os seu Skype para negócios 2019 users& #x 2014; se eles são hospedados no local ou online& #x 2014; tenham acesso ao mesmo serviço caixa postal no Microsoft Cloud. Caixa postal de nuvem fornece os seguintes benefícios para seu local e a usuários online:
 

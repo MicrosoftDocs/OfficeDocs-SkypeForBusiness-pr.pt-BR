@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba mais sobre quais informações é enviada automaticamente aos usuários por email quando suas configurações de conferência discada alterar no Skype para negócios Online. '
-ms.openlocfilehash: f3b4a530e204524dcf183ac671124c6d6ff8df03
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 814414139c985de6571a7e48aeb0bff208aa9ce3
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32230900"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865076"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Emails enviados aos usuários quando suas configurações altera em Skype para negócios Online
 
@@ -127,7 +127,7 @@ Por padrão, emails serão enviadas aos seus usuários, mas se você deseja impe
 1. Execute os seguintes procedimentos para desabilitar o envio de email a todos os seus usuários:
     
    ```
-   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
+   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $false
    ```
 
 Você pode usar o cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) para gerenciar outras configurações da sua organização, incluindo email.

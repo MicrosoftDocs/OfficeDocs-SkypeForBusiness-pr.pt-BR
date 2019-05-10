@@ -12,12 +12,12 @@ ms.reviewer: vikramju
 description: Saiba mais sobre as barreiras de informações e como eles afetam as equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a529784ba9968835ce5fb9d8e8648022e46beda5
-ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
+ms.openlocfilehash: 71c547ac13f63c9357dfb6e8a0cbe34d748646d3
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33506742"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827784"
 ---
 # <a name="information-barriers-in-microsoft-teams-preview"></a>Barreiras de informações no Microsoft Teams preview
 
@@ -77,7 +77,7 @@ Se houver um chat existente ou outras comunicações entre usuários e uma nova 
 
 ## <a name="required-licenses-and-permissions"></a>Permissões e licenças necessárias
 
-Atualmente, os recursos de informações barreira está no modo de visualização particular. Quando esses recursos estão disponíveis em geral, eles serão incluídos no inscrições, tais como:
+Atualmente, os recursos de barreira informações estão no modo de visualização público. Quando esses recursos estão disponíveis em geral, eles serão incluídos no inscrições, tais como:
 
 - Microsoft 365 E5
 - Office 365 E5

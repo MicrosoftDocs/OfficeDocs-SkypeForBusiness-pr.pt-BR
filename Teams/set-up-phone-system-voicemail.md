@@ -1,5 +1,5 @@
 ---
-title: Configurar a caixa postal na nuvem
+title: Configurar a Caixa Postal na Nuvem
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,14 +21,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar a caixa postal de nuvem para seus usuários. '
-ms.openlocfilehash: 3f8729c9737bcbf0e7731ac61b38d56d708e15dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a4d992ac4f42dca1bffe7a4c3d7ae01400b8e635
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204789"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865002"
 ---
-# <a name="set-up-cloud-voicemail"></a>Configurar a caixa postal na nuvem
+# <a name="set-up-cloud-voicemail"></a>Configurar a Caixa Postal na Nuvem
 
 Este artigo destina-se o [administrador do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) que deseje configurar o recurso de caixa postal de nuvem para que todos na empresa.
 
@@ -65,6 +65,9 @@ As seguintes informações são sobre como configurar a caixa postal de nuvem pa
 > O Assistente de híbrida do Exchange execução do Exchange 2013 CU5 ou superior lidará com os requisitos nas etapas 5 e 6 automaticamente. 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Configuração de políticas de caixa postal em sua organização
+
+> [!WARNING]
+> Para Skype para clientes corporativos, desabilitando a caixa postal por meio de uma política de chamada Teams da Microsoft pode desabilitar também o serviço de correio de voz para seu Skype para usuários comerciais.
 
 A transcrição do correio de voz é habilitada por padrão e o mascaramento de obscenidades está desativado por padrão para todas as organizações e usuários; no entanto, você pode controlá-los usando os cmdlets [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) e [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx).
 

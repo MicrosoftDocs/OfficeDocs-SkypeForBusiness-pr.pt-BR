@@ -1,5 +1,5 @@
 ---
-title: Licenças de salas de equipes da Microsoft
+title: Suporte às Salas do Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,22 +21,23 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre os recursos disponíveis nas salas de equipes da Microsoft. '
-ms.openlocfilehash: c25234fa6a5a83e71398fa9138a6a84e65c2d883
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: cef845197d8b76dfc6248f1976f08879680ace5f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362553"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865018"
 ---
-# <a name="microsoft-teams-rooms-licenses"></a>Licenças de salas de equipes da Microsoft
+# <a name="microsoft-teams-rooms-licenses"></a>Suporte às Salas do Microsoft Teams
 <a name="bkmk_srs"> </a>
 
 A tabela a seguir lista os recursos dependentes de licenciamento que estão disponíveis na Microsoft equipes salas e as licenças que você precisará comprar para conectá-los.
   
 > [!NOTE]
-> A sala que está sendo configurada precisa ser um objeto de usuário e ter essas licenças atribuídas a ele.
+> [!OBSERVAçãO] A sala que está sendo configurada precisa ser um objeto de usuário e ter essas licenças atribuídas a ele.
+> A nova licença de sala de reunião agora está disponível no Office 365.
 
-|Cenário de salas de equipes da Microsoft |Você tem atualmente o Office 365 Premium, o Office 365 ProPlus0 ou Skype for Business Autônomo Plano 2.  <br/> Veja o que precisa comprar:  |Atualmente você tem um plano Enterprise.  <br/> Veja o que precisa comprar: |Você tem o Skype for Business Server 2015 (no local ou híbrido). <br/> Veja o que precisa comprar:|
+|Cenário de salas de equipes da Microsoft |Você tem atualmente o Office 365 Premium, Office 365 ProPlus ou Skype para negócios autônomo plano 2.  <br/> Veja o que precisa comprar:  |Atualmente você tem um plano Enterprise.  <br/> Veja o que precisa comprar: |Você tem o Skype for Business Server 2015 (no local ou híbrido). <br/> Veja o que precisa comprar:|
 |:-----|:-----|:-----|:-----|
 |Ingressar em uma reunião agendada.  |Skype for Business Plano Standalone 1 |E1, 3, 4 ou 5  |Skype for Business Server Standard CAL  |
 |Inicie uma reunião ad hoc. |Skype for Business Plano Standalone 2 |E1, 3, 4 ou 5 |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
