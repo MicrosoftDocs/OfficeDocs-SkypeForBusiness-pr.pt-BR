@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 069c7f067ee1d408ad92cb980d81b807bce0d880
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 19aa57453227edf366ea663b4d9fee01c6d8ed12
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180584"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868692"
 ---
 # <a name="faq---upgrading-from-skype-for-business-to-microsoft-teams"></a>Perguntas frequentes ‒ atualização do Skype for Business para o Microsoft Teams
 
@@ -202,7 +202,7 @@ Os Sistemas de Salas Skype v1 (também conhecidos como Lync Room Systems) terão
 
 ### <a name="whats-planned-for-new-management-experiences"></a>O que está planejado para novas experiências de gerenciamento?
 
-A Microsoft lançou o [Centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/) para profissionais de TI no Centro de Administração do Office 365. Assim como o novo Console de Administração do Skype for Business, esse novo portal será um lugar único para administrar nossas novas experiências. A versão inicial do portal, planejada para o primeiro trimestre de 2018, foi projetada para dar suporte à administração por meio de um modelo de política pronto para empresas para clientes exclusivamente do Microsoft Teams, substituindo a interface de administração existente do Microsoft Teams. Com esse portal, poderemos criar políticas personalizadas de presença, chat, aplicativo, reunião e voz e atribuí-las aos usuários do Microsoft Teams.
+A Microsoft lançou o [Centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/) para profissionais de TI no Centro de Administração do Microsoft 365. Assim como o novo Console de Administração do Skype for Business, esse novo portal será um lugar único para administrar nossas novas experiências. A versão inicial do portal, planejada para o primeiro trimestre de 2018, foi projetada para dar suporte à administração por meio de um modelo de política pronto para empresas para clientes exclusivamente do Microsoft Teams, substituindo a interface de administração existente do Microsoft Teams. Com esse portal, poderemos criar políticas personalizadas de presença, chat, aplicativo, reunião e voz e atribuí-las aos usuários do Microsoft Teams.
 
 ## <a name="device-compatibility"></a>Compatibilidade de dispositivos
 
