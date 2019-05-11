@@ -1,8 +1,8 @@
 ---
 title: Planejamento para IPv6 no Skype for Business
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Resumo: Implemente IPv6 antes de instalar o Skype para Business Server.'
-ms.openlocfilehash: c2ac3470646c78e0a7312fb9390a712321793915
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fa00f769a277ae8ec1ecacae45560b4659082b21
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206279"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33905721"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planejamento para IPv6 no Skype for Business
  

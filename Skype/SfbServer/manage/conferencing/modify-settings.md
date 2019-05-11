@@ -1,8 +1,8 @@
 ---
 title: Modificar configurações de reunião no Skype para Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: 'Resumo: Saiba como modificar configurações de reunião no Skype para Business Server.'
-ms.openlocfilehash: 73127bfce04c8c124ce8036222d755de6bc37058
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0562758b16418ab79349a27d8eadb509a9f5f6ca
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199952"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33884993"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Modificar configurações de reunião no Skype para Business Server
  

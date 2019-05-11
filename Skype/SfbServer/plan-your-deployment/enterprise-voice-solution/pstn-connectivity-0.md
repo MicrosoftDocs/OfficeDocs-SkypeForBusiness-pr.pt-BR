@@ -1,8 +1,8 @@
 ---
 title: Planejar a conectividade PSTN em Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: Planejar a conectividade PSTN no Enterprise Voice no Skype para Business Server.
-ms.openlocfilehash: d98955795ef5172065027a1fab9030091ee11b11
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aa3449746c539e7b7bf8fe5332fa4313f80fa555
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206512"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913567"
 ---
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Planejar a conectividade PSTN em Skype para Business Server
  

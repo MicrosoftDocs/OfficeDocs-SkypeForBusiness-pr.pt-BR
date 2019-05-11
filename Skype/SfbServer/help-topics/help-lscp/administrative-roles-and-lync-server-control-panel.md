@@ -1,8 +1,8 @@
 ---
 title: Funções Administrativas e Painel de Controle do Lync Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
 description: Para permitir que você delegue tarefas administrativas enquanto mantém altos padrões de segurança, Skype para Business Server suporta controle de acesso baseado em função (RBAC). Com o RBAC, o privilégio administrativo é concedido pela atribuição de usuários a funções administrativas predefinidas. Skype para Business Server inclui um rico conjunto de funções administrativas internas e também permite que você crie novas funções e especifique uma lista de cmdlets para cada nova função personalizada. Você também pode adicionar scripts de cmdlets às tarefas permitidas de funções RBAC predefinidas e personalizadas. Para obter detalhes, incluindo as funções administrativas predefinidas disponíveis no Skype para Business Server, consulte Role-Based Access Control.
-ms.openlocfilehash: 7d47218314437320fba8d566cbe1010aab8a90b3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6bdf3a7c7b7473aac9b532d046fea3913cb35c11
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200960"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33887164"
 ---
 # <a name="administrative-roles-and-lync-server-control-panel"></a>Funções Administrativas e Painel de Controle do Lync Server
 

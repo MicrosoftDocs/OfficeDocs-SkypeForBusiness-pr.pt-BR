@@ -11,33 +11,34 @@ MS.collection:
 search.appverid: MET150
 ms.reviewer: jastark
 f1keywords: ms.teamsadmincenter.assignments.overview
-description: Saiba como gerenciar dispositivos usados com equipes em sua organização.
+description: Saiba como gerenciar atribuições no Centro de administração do Microsoft Teams em equipes educacional.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbffca6a4f02df62eef394d27adc8dc5a05bbde8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 263b9dda6929bd6956df803a33764634808cddf3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245981"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914019"
 ---
-# <a name="assignments-in-teams-for-education"></a>Atribuições em equipes para educação
+# <a name="assignments-in-teams-for-education"></a>Tarefas do Teams for Education
 
-Com equipes, sua escola ou instituição pode criar salas colaborativas, conecte-se em comunidades de aprendizado profissional e se comunicar com a equipe da escola. Use os recursos de administração aqui para ajudá-lo a implantar, adotar e gerenciar equipes em sua escola com êxito.  
-
-## <a name="assignments-in-the-teams-admin-center"></a>Atribuições no Centro de administração de equipes
 As atribuições são tarefas ou unidades de trabalho atribuído a um estudante ou membro da equipe em uma classe como parte de sua estudo. Você pode criar atribuições dentro de sua classe de equipes.
 
 [Saiba mais sobre as atribuições](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
-Com as configurações de administrador no Centro de administração de equipes você pode ativar os seguintes recursos ou desativar esteja disponível para alunos e professores dentro de sua organização. Estas são as configurações relacionadas ao atribuições:
+## <a name="assignments-in-the-microsoft-teams-admin-center"></a>Atribuições no Centro de administração do Microsoft Teams
 
+Com as configurações de administração no Centro de administração do Microsoft Teams você pode ativar os seguintes recursos ou desativar esteja disponível para alunos e professores dentro da sua organização. Estas são as configurações relacionadas ao atribuições:
+
+<a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>Resumo semanal de email responsável
 Responsável emails são semanais emails enviados para os pais ou responsáveis dos alunos. Os e-mails irá conter informações sobre atribuições de semana anterior e para a semana de futura e serão enviados durante o final de semana. Os e-mails precisam ser atualizados pelos administradores usando o recurso de sincronização de dados da escola.
 
 Essa configuração está desativado por padrão.
 
+<a name="bkmakecode"> </a>
 ### <a name="makecode"></a>MakeCode
 MakeCode é uma plataforma de codificação baseada em blocos que traz ciência da computação à vida para todos eles. 
 
@@ -47,6 +48,7 @@ Essa configuração está desativado por padrão.
 
 [Saiba mais sobre MakeCode](https://www.microsoft.com/${locale}/makecode)
 
+<a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
 
 Turnitin é um serviço de detecção de plagiar. Este é um produto de terceiros ou serviço que está sujeito a seus próprios termos e a diretiva de privacidade. Você é responsável por seu uso de quaisquer serviços e produtos de terceiros.
@@ -66,7 +68,7 @@ O TurnitinApiUrl é o endereço de host do seu console de administração.
 Vá para a guia integrações e adicione uma integração.
 ![Localizando o TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin2.png)
 
-O TurnitinApiKey receberá a você depois que você siga os prompts. Copie esta chave e colá-lo no Centro de administração do equipes. 
+O TurnitinApiKey receberá a você depois que você siga os prompts. Copie esta chave e colá-lo no Centro de administração do Microsoft Teams. 
 ![Localizando o TurnItInApiUrl](./educationImages/Assignments_mopo_turnitin3.png)
 
 [Saiba mais sobre a integração entre o Turnitin e Teams da Microsoft](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)

@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configuração de Serviço de Mediação
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7cfc838f-845b-4b73-bbdf-3c0c9b9aac1b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use esta página para definir as portas de escuta para este servidor de mediação e definir suas associações com gateways PSTN (rede) telefônica pública comutada.
-ms.openlocfilehash: 52efa9308b0b29cdc7425ae19561012610163652
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1197beea3fbbfcd19cdd8247d943ed87b17361df
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235431"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885487"
 ---
 # <a name="mediation-service-setting-expander"></a>Expansor de Configuração de Serviço de Mediação
  

@@ -1,8 +1,8 @@
 ---
 title: Adicionar Serviço da Web de Diretor
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3ed3bdde-c3b5-4fe9-a96b-37099cbd6234
 ROBOTS: NOINDEX, NOFOLLOW
 description: A URL base é a identidade dos serviços Web para a URL, menos "https://". Por exemplo, se a URL completa para os serviços Web do pool é https://pool01.contoso.net, a URL base é pool01. contoso.NET.
-ms.openlocfilehash: 8da69fe55100f5704c3a96a7d2286148f1a4d73c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 816ba625db8a2665d706a38c8a4a7d99544ad87e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202212"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889119"
 ---
 # <a name="add-director-web-service"></a>Adicionar Serviço da Web de Diretor
  

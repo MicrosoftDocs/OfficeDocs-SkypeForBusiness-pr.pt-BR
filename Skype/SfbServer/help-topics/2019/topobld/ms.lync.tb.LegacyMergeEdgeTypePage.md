@@ -1,8 +1,8 @@
 ---
 title: Tipo de Borda de Mesclagem de Legado
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para um único servidor de borda ou com balanceamento de carga consolidada do servidor de borda, clique em Avançar para especificar informações de configuração. Para uma borda expandida, cada configuração de servidor deve ser alterada para uma configuração de borda consolidada, antes que ele possa ser mesclado.
-ms.openlocfilehash: e87cb85e8e48a07c96eb1d053dbe2ff602121fc4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7787163f7ec6b2659dd064f9be6954b96f8a70b0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220477"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906750"
 ---
 # <a name="legacy-merge-edge-type"></a>Tipo de Borda de Mesclagem de Legado
  

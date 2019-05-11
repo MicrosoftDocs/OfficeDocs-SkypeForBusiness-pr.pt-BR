@@ -1,8 +1,8 @@
 ---
 title: Nó do Escopo de Monitoramento
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'No construtor de topologia, você pode executar tarefas relacionadas a um servidor individual executando o monitoramento clicando o servidor executando o monitoramento na árvore de console, clicando em ação na barra de ferramentas, ou uma tarefa no painel Ações e, em seguida, clicando em um dos as seguintes opções para o servidor executando o monitoramento:'
-ms.openlocfilehash: 2f156b660dc60a16c67ac9bdf54e8114ce17a0ed
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3e3b9079549b78b88c490f410f368883b56460bf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235351"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885515"
 ---
 # <a name="monitoring-scope-node"></a>Nó do Escopo de Monitoramento
  

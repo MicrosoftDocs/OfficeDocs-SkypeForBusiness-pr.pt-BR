@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações de Próximo Salto de Mediação
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 description: Especifique o pool do servidor de mediação ou próximo salto do servidor de mediação selecionando o pool definido de Front End do Enterprise Edition ou Standard Edition servidor Front-End da lista suspensa. Um diretor ou diretor pool não é uma seleção válida de um pool do servidor de mediação ou o próximo salto do servidor de mediação e não aparecerão na lista. Clique em Okey para aceitar e salvar suas alterações. Clique em Cancelar para descartar suas alterações e sair da página de propriedades.
-ms.openlocfilehash: 7044ec146c9fe3a3e6f936a8f21144f447a1ad43
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 182c9503d6f39bdb86a0300911dc0890c911848e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200064"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888776"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>Expansor de Configurações de Próximo Salto de Mediação
  

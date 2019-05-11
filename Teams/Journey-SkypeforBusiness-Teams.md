@@ -1,7 +1,7 @@
 ---
 title: Atualizar o Skype for Business para o Microsoft Teams
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60094153f0e48187b0437bce1f25077c742ad773
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
-ms.translationtype: HT
+ms.openlocfilehash: 651cc2fbb161ef494dd0df1c21d2dd26965d6f69
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30641173"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885057"
 ---
 # <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Atualização do Skype for Business para o Microsoft Teams
 

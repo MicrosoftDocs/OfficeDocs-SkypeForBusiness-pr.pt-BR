@@ -1,8 +1,8 @@
 ---
 title: Configurações gerais do Servidor de interoperabilidade de vídeo
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5c508eab-0b08-4fb2-b2b2-eca2eaf2053a
 ROBOTS: NOINDEX, NOFOLLOW
 description: As etapas necessárias para definir uma nova VIS ou vídeo Gateway no construtor de topologia são descritas online em criar um pool VIS no Skype para Business Server.
-ms.openlocfilehash: 9c15003e04bc98072438245782262c4222727e2d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b69e42dd063d0c03cf6edcfae42a9a97cbbe5249
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201507"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911307"
 ---
 # <a name="video-interop-server-general-settings"></a>Configurações gerais do Servidor de interoperabilidade de vídeo
  
