@@ -1,8 +1,8 @@
 ---
 title: Relatório de tempo de ingresso conferência no Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
 description: 'Resumo: Saiba mais sobre o conferência Join tempo relatório de resumo no Skype para Business Server.'
-ms.openlocfilehash: 8264ac8df7a6299484c88121ac1352401833ebe9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 91e1c58d5718f0012e59e5ce2bfb6c53dbfd9c01
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874204"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897643"
 ---
 # <a name="conference-join-time-report-in-skype-for-business-server"></a>Relatório de tempo de ingresso conferência no Skype para Business Server
  

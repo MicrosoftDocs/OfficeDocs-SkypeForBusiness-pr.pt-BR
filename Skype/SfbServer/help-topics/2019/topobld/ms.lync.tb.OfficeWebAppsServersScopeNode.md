@@ -1,8 +1,8 @@
 ---
 title: Nó do Escopo de Servidores Office Web Apps
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
 description: Clique com o botão direito do mouse em Servidores Office Web Apps e selecione Novo Servidor Office Web Apps para abrir o assistente do Office Online.
-ms.openlocfilehash: 37ea8489d16ba5526326746c31d8c1590d34a5a1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 769f1e479d2505367b1c128545d31f630b2d699f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235387"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885686"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Nó do Escopo de Servidores Office Web Apps
 

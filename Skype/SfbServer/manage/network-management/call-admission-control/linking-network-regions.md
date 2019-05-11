@@ -1,20 +1,20 @@
 ---
 title: Vinculação de regiões de rede
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Você pode configurar links entre duas regiões de rede como parte do controle de admissão de chamadas (CAC). '
-ms.openlocfilehash: 4ea6ddcc72d2cadea32608288d1db93ba8505aee
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 30d4a020826b24c3615ce059809645481466efc3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884681"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888349"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Vincular regiões de rede no Skype for Business Server
 
@@ -129,7 +129,7 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
 6.  Clique em **OK**.
 
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
 

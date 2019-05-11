@@ -1,8 +1,8 @@
 ---
 title: Instalar Repositório de Configuração Local (Invocar)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 description: 'O painel de executar comandos exibe o status das tarefas de instalação da réplica local de somente leitura do repositório de gerenciamento Central. Enquanto estiver executando as tarefas, o painel de tarefas é atualizado conforme os comandos são executados. Você deve revisar o status da tarefa e observe quaisquer erros ou avisos que são exibidos. Quando as tarefas estiverem concluídas, o status da tarefa de mensagem: concluído for exibida, e a lista suspensa para os arquivos de log exibe os nomes dos arquivos de log. Para exibir os arquivos de log que foram criados, escolha um arquivo de log para exibir e clique em Exibir Log. Revise todos os arquivos de log para o sucesso, erros e mensagens de aviso.'
-ms.openlocfilehash: 0d4bb71821751c1eefa750ceb3fcc7ab5ae309be
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 09ed9ee4912efff99ffdeaf61662a4bf986082f8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220351"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921045"
 ---
 # <a name="install-local-configuration-store-invoke"></a>Instalar Repositório de Configuração Local (Invocar)
  

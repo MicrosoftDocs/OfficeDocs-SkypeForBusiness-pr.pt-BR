@@ -1,8 +1,8 @@
 ---
 title: Atribuição de Certificado (Resumo)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9478bf4-4e1a-46a2-bf76-3ff08a193523
 description: Antes de concluir a atribuição de certificado, são apresentados com um resumo de atribuição de certificado que lista os detalhes do certificado que será atribuído. Revise as informações para certificar-se de que o nome da entidade e os nomes de entidade alternativos estão corretos. Quando você terminar a revisão do resumo do certificado, clique em Avançar.
-ms.openlocfilehash: e864ca68fa9868423cdb3c5a1ddb2bb152b84890
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1618997bed980d57ae02ec7fd92d22d39da25bdd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201492"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911195"
 ---
 # <a name="certificate-assignment-summary"></a>Atribuição de Certificado (Resumo)
  

@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Chat Persistente
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para começar a criação de um novo servidor de Chat persistente ou o pool do servidor de Chat persistente, no construtor de topologia você clique com o botão direito em pools de Chat persistente e selecione Novo Pool de Chat persistente
-ms.openlocfilehash: 940cd2595ecde9fde7894bb16e08bf4d66f7611c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c14695641a5671ba529c7e44d28a596a630a85a5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201647"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885701"
 ---
 # <a name="persistent-chat-scope-node"></a>Nó de Escopo de Chat Persistente
 

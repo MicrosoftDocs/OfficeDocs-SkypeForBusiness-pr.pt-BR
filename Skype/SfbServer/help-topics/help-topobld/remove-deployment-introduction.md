@@ -1,8 +1,8 @@
 ---
 title: Introdução de Remoção de Implantação
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 description: Execute o Assistente de implantação remover apenas se você quiser descomissionar sua implantação inteira. Este assistente cria uma topologia vazia que consiste em um único servidor Front-End. Depois de executar este assistente e publique a topologia vazia, você não poderá revertê-lo à sua topologia original.
-ms.openlocfilehash: a9b58c76ccd027e5a9641fb7b2d2f8bbf6ef58ca
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 66a1fd8cdfb8a5948a0d4cf3a95c47a53f0574ef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219356"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929564"
 ---
 # <a name="remove-deployment-introduction"></a>Introdução de Remoção de Implantação
  

@@ -1,6 +1,6 @@
 ---
 title: Configurações de visualização de transmissão do Skype reunião
-mms.author: tonysmit
+ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: micchan
@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - SMB
 description: O Skype para o programa de visualização de cliente de negócios fornece acesso antecipado para novos produtos e recursos. Permite que sua organização obter uma espiada no quais são as novidades, os novos recursos em seu próprio ambiente de teste e fornecer comentários antes de lançamento de compilações de produto para o público em geral. Para obter mais informações, consulte Skype para visualização de negócios.
-ms.openlocfilehash: 1f563292e2e5927cf037e5d2a9b24405d0a336a2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0769d33885e3782a4e716797ef0c8995047f9659
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226140"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906565"
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Configurações de visualização de transmissão do Skype reunião
 

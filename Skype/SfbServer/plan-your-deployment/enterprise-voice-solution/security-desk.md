@@ -1,8 +1,8 @@
 ---
 title: Incluir o suporte de segurança em Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 description: Planejamento de como incluir o suporte de segurança da sua organização em uma implantação do E9-1-1, em Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 7f6f6fd861f49158e7801ada42052e287ade4f87
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d52d5dcd1c7cfb0cbb9db16740734b0171b44449
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206470"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913467"
 ---
 # <a name="include-the-security-desk-in-skype-for-business-server"></a>Incluir o suporte de segurança em Skype para Business Server
  
