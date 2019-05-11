@@ -1,8 +1,8 @@
 ---
 title: Preparar a Floresta Atual (Local do Grupo Universal)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
 description: Você deve indicar onde você precisa criar grupos universais na floresta. A página de local do grupo Universal usa o domínio no qual o computador que você efetuou logon em é um membro de como o padrão. Se você preferir criar os grupos universais em um domínio que não seja o domínio Local padrão, selecione o FQDN do domínio e digite o nome de domínio totalmente qualificado (FQDN) na caixa de texto. Fornecer que um domínio alternativo é útil quando você estiver executando a tarefa de preparação de floresta de um domínio diferente de onde você deseja que os grupos universais criados. Clique em Avançar para continuar.
-ms.openlocfilehash: 47138aaaa9ed2d2dc1733c462e889fcfbfc3fa12
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f21cc9d59b06c25fbb816d73d66a848d7fa7a7a3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201220"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888804"
 ---
-# <a name="prepare-current-forest-universal-group-location"></a><span data-ttu-id="1baf2-107">Preparar a Floresta Atual (Local do Grupo Universal)</span><span class="sxs-lookup"><span data-stu-id="1baf2-107">Prepare Current Forest (Universal Group Location)</span></span>
+# <a name="prepare-current-forest-universal-group-location"></a><span data-ttu-id="a59bb-107">Preparar a Floresta Atual (Local do Grupo Universal)</span><span class="sxs-lookup"><span data-stu-id="a59bb-107">Prepare Current Forest (Universal Group Location)</span></span>
  
-<span data-ttu-id="1baf2-108">Você deve indicar onde você precisa criar grupos universais na floresta.</span><span class="sxs-lookup"><span data-stu-id="1baf2-108">You must indicate where you need to create the universal groups in the forest.</span></span> <span data-ttu-id="1baf2-109">A página de **Local do grupo Universal** usa o domínio no qual o computador que você efetuou logon em é um membro de como o padrão.</span><span class="sxs-lookup"><span data-stu-id="1baf2-109">The **Universal Group Location** page uses the domain in which the computer that you are logged on to is a member of as the default.</span></span> <span data-ttu-id="1baf2-110">Se você preferir criar os grupos universais em um domínio diferente do **domínio Local**padrão, selecione o **FQDN do domínio** e digite o nome de domínio totalmente qualificado (FQDN) na caixa de texto.</span><span class="sxs-lookup"><span data-stu-id="1baf2-110">If you would prefer to create the universal groups in a domain other than the default **Local domain**, select **Domain FQDN** and type the fully qualified domain name (FQDN) in the text box.</span></span> <span data-ttu-id="1baf2-111">Fornecer que um domínio alternativo é útil quando você estiver executando a tarefa de preparação de floresta de um domínio diferente de onde você deseja que os grupos universais criados.</span><span class="sxs-lookup"><span data-stu-id="1baf2-111">Providing an alternate domain is helpful when you are running the forest preparation task from a domain other than where you want the universal groups be created.</span></span> <span data-ttu-id="1baf2-112">Clique em **Avançar** para continuar.</span><span class="sxs-lookup"><span data-stu-id="1baf2-112">Click **Next** to continue.</span></span>
+<span data-ttu-id="a59bb-108">Você deve indicar onde você precisa criar grupos universais na floresta.</span><span class="sxs-lookup"><span data-stu-id="a59bb-108">You must indicate where you need to create the universal groups in the forest.</span></span> <span data-ttu-id="a59bb-109">A página de **Local do grupo Universal** usa o domínio no qual o computador que você efetuou logon em é um membro de como o padrão.</span><span class="sxs-lookup"><span data-stu-id="a59bb-109">The **Universal Group Location** page uses the domain in which the computer that you are logged on to is a member of as the default.</span></span> <span data-ttu-id="a59bb-110">Se você preferir criar os grupos universais em um domínio diferente do **domínio Local**padrão, selecione o **FQDN do domínio** e digite o nome de domínio totalmente qualificado (FQDN) na caixa de texto.</span><span class="sxs-lookup"><span data-stu-id="a59bb-110">If you would prefer to create the universal groups in a domain other than the default **Local domain**, select **Domain FQDN** and type the fully qualified domain name (FQDN) in the text box.</span></span> <span data-ttu-id="a59bb-111">Fornecer que um domínio alternativo é útil quando você estiver executando a tarefa de preparação de floresta de um domínio diferente de onde você deseja que os grupos universais criados.</span><span class="sxs-lookup"><span data-stu-id="a59bb-111">Providing an alternate domain is helpful when you are running the forest preparation task from a domain other than where you want the universal groups be created.</span></span> <span data-ttu-id="a59bb-112">Clique em **Avançar** para continuar.</span><span class="sxs-lookup"><span data-stu-id="a59bb-112">Click **Next** to continue.</span></span>
   
 

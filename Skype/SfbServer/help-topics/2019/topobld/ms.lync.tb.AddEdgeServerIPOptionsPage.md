@@ -1,8 +1,8 @@
 ---
 title: Adicionar Opções de IP de Servidor de Borda
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,27 +13,27 @@ localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Skype para Business Server permite que você configure endereços IPv4 e IPv6 para cada interface para o servidor de borda e o pool de borda. Para fazer isso, faça o seguinte:'
-ms.openlocfilehash: 727a946c6e9992b9391e7bf77238fdb61910c830
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f9e83c5b457524ba4222075666384228cf1d5adc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202135"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889063"
 ---
-# <a name="add-edge-server-ip-options"></a><span data-ttu-id="9fef5-104">Adicionar Opções de IP de Servidor de Borda</span><span class="sxs-lookup"><span data-stu-id="9fef5-104">Add Edge Server IP Options</span></span>
+# <a name="add-edge-server-ip-options"></a><span data-ttu-id="d96d6-104">Adicionar Opções de IP de Servidor de Borda</span><span class="sxs-lookup"><span data-stu-id="d96d6-104">Add Edge Server IP Options</span></span>
  
-<span data-ttu-id="9fef5-105">Skype para Business Server permite que você configure endereços IPv4 e IPv6 para cada interface para o servidor de borda e o pool de borda.</span><span class="sxs-lookup"><span data-stu-id="9fef5-105">Skype for Business Server allows you to configure IPv4 and IPv6 addresses for each interface for the Edge Server and Edge pool.</span></span> <span data-ttu-id="9fef5-106">Para fazer isso, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="9fef5-106">To do this, you do the following:</span></span>
+<span data-ttu-id="d96d6-105">Skype para Business Server permite que você configure endereços IPv4 e IPv6 para cada interface para o servidor de borda e o pool de borda.</span><span class="sxs-lookup"><span data-stu-id="d96d6-105">Skype for Business Server allows you to configure IPv4 and IPv6 addresses for each interface for the Edge Server and Edge pool.</span></span> <span data-ttu-id="d96d6-106">Para fazer isso, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="d96d6-106">To do this, you do the following:</span></span>
   
-- <span data-ttu-id="9fef5-107">**Habilitar IPv4 na interface interna**: marque a caixa de seleção se quiser aplicar um endereço IPv4 para o servidor de borda ou a interface interna do pool de borda</span><span class="sxs-lookup"><span data-stu-id="9fef5-107">**Enable IPv4 on internal interface**: Select the check box if you want to apply an IPv4 address to the Edge Server or Edge pool internal interface</span></span>
+- <span data-ttu-id="d96d6-107">**Habilitar IPv4 na interface interna**: marque a caixa de seleção se quiser aplicar um endereço IPv4 para o servidor de borda ou a interface interna do pool de borda</span><span class="sxs-lookup"><span data-stu-id="d96d6-107">**Enable IPv4 on internal interface**: Select the check box if you want to apply an IPv4 address to the Edge Server or Edge pool internal interface</span></span>
     
-- <span data-ttu-id="9fef5-108">**Habilitar IPv6 na interface interna**: marque a caixa de seleção se quiser aplicar um endereço IPv6 para o servidor de borda ou a interface interna do pool de borda</span><span class="sxs-lookup"><span data-stu-id="9fef5-108">**Enable IPv6 on internal interface**: Select the check box if you want to apply an IPv6 address to the Edge Server or Edge pool internal interface</span></span>
+- <span data-ttu-id="d96d6-108">**Habilitar IPv6 na interface interna**: marque a caixa de seleção se quiser aplicar um endereço IPv6 para o servidor de borda ou a interface interna do pool de borda</span><span class="sxs-lookup"><span data-stu-id="d96d6-108">**Enable IPv6 on internal interface**: Select the check box if you want to apply an IPv6 address to the Edge Server or Edge pool internal interface</span></span>
     
-- <span data-ttu-id="9fef5-109">**Habilitar IPv4 na interface externa**: marque a caixa de seleção se quiser aplicar um endereço IPv4 para o servidor de borda ou a interface externa do pool de borda</span><span class="sxs-lookup"><span data-stu-id="9fef5-109">**Enable IPv4 on external interface**: Select the check box if you want to apply an IPv4 address to the Edge Server or Edge pool external interface</span></span>
+- <span data-ttu-id="d96d6-109">**Habilitar IPv4 na interface externa**: marque a caixa de seleção se quiser aplicar um endereço IPv4 para o servidor de borda ou a interface externa do pool de borda</span><span class="sxs-lookup"><span data-stu-id="d96d6-109">**Enable IPv4 on external interface**: Select the check box if you want to apply an IPv4 address to the Edge Server or Edge pool external interface</span></span>
     
-- <span data-ttu-id="9fef5-110">**Habilitar IPv6 na interface externa**: marque a caixa de seleção se quiser aplicar um endereço IPv6 para o servidor de borda ou a interface externa do pool de borda</span><span class="sxs-lookup"><span data-stu-id="9fef5-110">**Enable IPv6 on external interface**: Select the check box if you want to apply an IPv6 address to the Edge Server or Edge pool external interface</span></span>
+- <span data-ttu-id="d96d6-110">**Habilitar IPv6 na interface externa**: marque a caixa de seleção se quiser aplicar um endereço IPv6 para o servidor de borda ou a interface externa do pool de borda</span><span class="sxs-lookup"><span data-stu-id="d96d6-110">**Enable IPv6 on external interface**: Select the check box if you want to apply an IPv6 address to the Edge Server or Edge pool external interface</span></span>
     
-<span data-ttu-id="9fef5-111">Você também pode configurar o servidor de borda ou pool de borda para usar um endereço de conversão de endereço de rede para os endereços IP externos.</span><span class="sxs-lookup"><span data-stu-id="9fef5-111">You can also configure the Edge Server or Edge pool to use a network address translation address for the external IP addresses.</span></span> <span data-ttu-id="9fef5-112">Você pode fazer isso marcando a caixa de seleção, **o endereço IP externo deste pool de borda é convertido por NAT**.</span><span class="sxs-lookup"><span data-stu-id="9fef5-112">You do this by selecting the check box **The external IP address of this Edge pool is translated by NAT**.</span></span>
+<span data-ttu-id="d96d6-111">Você também pode configurar o servidor de borda ou pool de borda para usar um endereço de conversão de endereço de rede para os endereços IP externos.</span><span class="sxs-lookup"><span data-stu-id="d96d6-111">You can also configure the Edge Server or Edge pool to use a network address translation address for the external IP addresses.</span></span> <span data-ttu-id="d96d6-112">Você pode fazer isso marcando a caixa de seleção, **o endereço IP externo deste pool de borda é convertido por NAT**.</span><span class="sxs-lookup"><span data-stu-id="d96d6-112">You do this by selecting the check box **The external IP address of this Edge pool is translated by NAT**.</span></span>
   
-<span data-ttu-id="9fef5-113">Suporte NAT.</span><span class="sxs-lookup"><span data-stu-id="9fef5-113">NAT support.</span></span> <span data-ttu-id="9fef5-114">Conversão de endereço de rede (NAT) não é suportado quando você estiver usando hardware balanceamento de carga, portanto, não marque a opção NAT se você estiver implantando um pool do servidor de borda com balanceamento de carga de hardware.</span><span class="sxs-lookup"><span data-stu-id="9fef5-114">Network address translation (NAT) is not supported when you are using hardware load balancing, so do not select the NAT option if you are deploying an Edge Server pool with hardware load balancing.</span></span>
+<span data-ttu-id="d96d6-113">Suporte NAT.</span><span class="sxs-lookup"><span data-stu-id="d96d6-113">NAT support.</span></span> <span data-ttu-id="d96d6-114">Conversão de endereço de rede (NAT) não é suportado quando você estiver usando hardware balanceamento de carga, portanto, não marque a opção NAT se você estiver implantando um pool do servidor de borda com balanceamento de carga de hardware.</span><span class="sxs-lookup"><span data-stu-id="d96d6-114">Network address translation (NAT) is not supported when you are using hardware load balancing, so do not select the NAT option if you are deploying an Edge Server pool with hardware load balancing.</span></span>
   
 

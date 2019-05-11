@@ -1,8 +1,8 @@
 ---
 title: Processo final de implantação de controle de admissão de chamada para Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,30 +14,30 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: Lista de verificação final para implantar o controle de admissão de chamadas (CAC) no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: d0d61bcf6c6f0ab509eafa2b968bbb45c00b2a50
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0b66ebc5162c52df879e4c92fdd1303310068406
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212401"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892367"
 ---
-# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a><span data-ttu-id="66b1f-103">Implantação do controle de admissão de chamada: lista de verificação final do Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="66b1f-103">Call admission control deployment: final checklist for Skype for Business Server</span></span>
+# <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a><span data-ttu-id="7aa22-103">Implantação do controle de admissão de chamada: lista de verificação final do Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="7aa22-103">Call admission control deployment: final checklist for Skype for Business Server</span></span>
  
-<span data-ttu-id="66b1f-104">Lista de verificação final para implantar o controle de admissão de chamadas (CAC) no Skype para Business Server Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="66b1f-104">Final checklist for deploying Call Admission Control (CAC) in Skype for Business Server Enterprise Voice.</span></span> 
+<span data-ttu-id="7aa22-104">Lista de verificação final para implantar o controle de admissão de chamadas (CAC) no Skype para Business Server Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="7aa22-104">Final checklist for deploying Call Admission Control (CAC) in Skype for Business Server Enterprise Voice.</span></span> 
   
-<span data-ttu-id="66b1f-105">Consulte a lista de verificação para confirmar se você concluiu todas as tarefas de configuração necessárias para a implantação do serviço de Controle de Admissão de Chamadas (CAC).</span><span class="sxs-lookup"><span data-stu-id="66b1f-105">Use the following checklist to verify that you have completed all the necessary configuration tasks to deploy Call Admission Control (CAC).</span></span>
+<span data-ttu-id="7aa22-105">Consulte a lista de verificação para confirmar se você concluiu todas as tarefas de configuração necessárias para a implantação do serviço de Controle de Admissão de Chamadas (CAC).</span><span class="sxs-lookup"><span data-stu-id="7aa22-105">Use the following checklist to verify that you have completed all the necessary configuration tasks to deploy Call Admission Control (CAC).</span></span>
   
-- <span data-ttu-id="66b1f-106">Se um ou mais servidores de borda estiverem implantados, cada endereço IP de interface externa deve ser adicionado à lista de sub-rede nas definições de configuração de rede, com uma máscara de bits de 32.</span><span class="sxs-lookup"><span data-stu-id="66b1f-106">If one or more Edge Servers are deployed, each external interface IP address must be added to the subnet list in the network configuration settings, with a bit mask of 32.</span></span> <span data-ttu-id="66b1f-107">Associe também essa sub-rede (endereço IP) ao ID do site da rede para o local geográfico onde o serviço de Borda A/V está implantado.</span><span class="sxs-lookup"><span data-stu-id="66b1f-107">You should also associate this subnet (IP address) with the network site ID for the geographic location where the A/V Edge service is deployed.</span></span>
+- <span data-ttu-id="7aa22-106">Se um ou mais servidores de borda estiverem implantados, cada endereço IP de interface externa deve ser adicionado à lista de sub-rede nas definições de configuração de rede, com uma máscara de bits de 32.</span><span class="sxs-lookup"><span data-stu-id="7aa22-106">If one or more Edge Servers are deployed, each external interface IP address must be added to the subnet list in the network configuration settings, with a bit mask of 32.</span></span> <span data-ttu-id="7aa22-107">Associe também essa sub-rede (endereço IP) ao ID do site da rede para o local geográfico onde o serviço de Borda A/V está implantado.</span><span class="sxs-lookup"><span data-stu-id="7aa22-107">You should also associate this subnet (IP address) with the network site ID for the geographic location where the A/V Edge service is deployed.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="66b1f-108">Servidores de borda não são necessárias para implementar o CAC.</span><span class="sxs-lookup"><span data-stu-id="66b1f-108">Edge Servers are not required to implement CAC.</span></span> 
+    > <span data-ttu-id="7aa22-108">Servidores de borda não são necessárias para implementar o CAC.</span><span class="sxs-lookup"><span data-stu-id="7aa22-108">Edge Servers are not required to implement CAC.</span></span> 
   
-- <span data-ttu-id="66b1f-109">Certifique-se de que CAC está habilitado, como especificado em [Habilitar o controle de admissão de chamada no Skype para Business Server](enable-call-admission-control.md).</span><span class="sxs-lookup"><span data-stu-id="66b1f-109">Make sure that CAC is enabled, as specified in [Enable call admission control in Skype for Business Server](enable-call-admission-control.md).</span></span>
+- <span data-ttu-id="7aa22-109">Certifique-se de que CAC está habilitado, como especificado em [Habilitar o controle de admissão de chamada no Skype para Business Server](enable-call-admission-control.md).</span><span class="sxs-lookup"><span data-stu-id="7aa22-109">Make sure that CAC is enabled, as specified in [Enable call admission control in Skype for Business Server](enable-call-admission-control.md).</span></span>
     
-- <span data-ttu-id="66b1f-110">Certifique-se de que o CAC está habilitado em todos os sites centrais.</span><span class="sxs-lookup"><span data-stu-id="66b1f-110">Make sure that CAC is enabled in all central sites.</span></span> <span data-ttu-id="66b1f-111">Isso pode ser feito por meio do construtor de topologia.</span><span class="sxs-lookup"><span data-stu-id="66b1f-111">This can be done through the Topology Builder.</span></span> <span data-ttu-id="66b1f-112">Se um aviso será gerado quando você publica, *não* ignorá-la.</span><span class="sxs-lookup"><span data-stu-id="66b1f-112">If a warning is generated when you publish,  *do not*  ignore it.</span></span>
+- <span data-ttu-id="7aa22-110">Certifique-se de que o CAC está habilitado em todos os sites centrais.</span><span class="sxs-lookup"><span data-stu-id="7aa22-110">Make sure that CAC is enabled in all central sites.</span></span> <span data-ttu-id="7aa22-111">Isso pode ser feito por meio do construtor de topologia.</span><span class="sxs-lookup"><span data-stu-id="7aa22-111">This can be done through the Topology Builder.</span></span> <span data-ttu-id="7aa22-112">Se um aviso será gerado quando você publica, *não* ignorá-la.</span><span class="sxs-lookup"><span data-stu-id="7aa22-112">If a warning is generated when you publish,  *do not*  ignore it.</span></span>
     
-- <span data-ttu-id="66b1f-113">Certifique-se de que todas as subredes gerenciadas na rede corporativa estão definidas nas configurações de rede.</span><span class="sxs-lookup"><span data-stu-id="66b1f-113">Make sure that all the subnets that are managed in the enterprise network are configured in the network configuration settings.</span></span> <span data-ttu-id="66b1f-114">Também é essencial que todas as sub-redes ser associadas a um site de rede, conforme explicado em [Deploy regiões de rede, sites e sub-redes em Skype para negócios](deploy-network.md).</span><span class="sxs-lookup"><span data-stu-id="66b1f-114">It is also essential that every subnet be associated to a network site, as explained in [Deploy network regions, sites and subnets in Skype for Business](deploy-network.md).</span></span>
+- <span data-ttu-id="7aa22-113">Certifique-se de que todas as subredes gerenciadas na rede corporativa estão definidas nas configurações de rede.</span><span class="sxs-lookup"><span data-stu-id="7aa22-113">Make sure that all the subnets that are managed in the enterprise network are configured in the network configuration settings.</span></span> <span data-ttu-id="7aa22-114">Também é essencial que todas as sub-redes ser associadas a um site de rede, conforme explicado em [Deploy regiões de rede, sites e sub-redes em Skype para negócios](deploy-network.md).</span><span class="sxs-lookup"><span data-stu-id="7aa22-114">It is also essential that every subnet be associated to a network site, as explained in [Deploy network regions, sites and subnets in Skype for Business](deploy-network.md).</span></span>
     
-- <span data-ttu-id="66b1f-115">Certifique-se de que a subrede ou os endereços IP de todos os Servidores Front-End, Aparelhos de Filial Persistentes (SBAs), Servidores de Conferência de Áudio/Vídeo (se estiverem em um pool separado) e Servidores de Mediação estejam definidos nas configurações de rede.</span><span class="sxs-lookup"><span data-stu-id="66b1f-115">Make sure that the subnet or IP addresses of all Front End Servers, Survivable Branch Appliances (SBAs), Audio/Video Conferencing Servers (if in a separate pool), and Mediation Servers are configured in the network configuration settings.</span></span>
+- <span data-ttu-id="7aa22-115">Certifique-se de que a subrede ou os endereços IP de todos os Servidores Front-End, Aparelhos de Filial Persistentes (SBAs), Servidores de Conferência de Áudio/Vídeo (se estiverem em um pool separado) e Servidores de Mediação estejam definidos nas configurações de rede.</span><span class="sxs-lookup"><span data-stu-id="7aa22-115">Make sure that the subnet or IP addresses of all Front End Servers, Survivable Branch Appliances (SBAs), Audio/Video Conferencing Servers (if in a separate pool), and Mediation Servers are configured in the network configuration settings.</span></span>
     
 

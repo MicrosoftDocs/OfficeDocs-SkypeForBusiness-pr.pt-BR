@@ -1,8 +1,8 @@
 ---
 title: Atribuição de Certificado (Introdução)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 26d6b07e-d2c7-4ff7-aca4-4bbb29f13f8d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para começar a atribuir um certificado para uso em Skype para Business Server, clique em Avançar.
-ms.openlocfilehash: 804bcf6f91c42c48f5a7ad68d91c2c3c2312b06c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 76bbf0d04c29abde04291fa69ee39d23f9363b57
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216596"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894047"
 ---
-# <a name="certificate-assignment-intro"></a><span data-ttu-id="c73ba-103">Atribuição de Certificado (Introdução)</span><span class="sxs-lookup"><span data-stu-id="c73ba-103">Certificate Assignment (Intro)</span></span>
+# <a name="certificate-assignment-intro"></a><span data-ttu-id="ac6f7-103">Atribuição de Certificado (Introdução)</span><span class="sxs-lookup"><span data-stu-id="ac6f7-103">Certificate Assignment (Intro)</span></span>
  
-<span data-ttu-id="c73ba-104">Para começar a atribuir um certificado para uso em Skype para Business Server, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="c73ba-104">To begin assigning a certificate for use in Skype for Business Server, click **Next**.</span></span>
+<span data-ttu-id="ac6f7-104">Para começar a atribuir um certificado para uso em Skype para Business Server, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="ac6f7-104">To begin assigning a certificate for use in Skype for Business Server, click **Next**.</span></span>
   
 

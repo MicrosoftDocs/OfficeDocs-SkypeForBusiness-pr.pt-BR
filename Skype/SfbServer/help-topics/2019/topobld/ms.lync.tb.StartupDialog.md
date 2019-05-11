@@ -1,8 +1,8 @@
 ---
 title: Caixa de diálogo de inicialização do Construtor de Topologias
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,22 +13,22 @@ localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Iniciar o construtor de topologias para configurar as propriedades e a configuração da sua implantação. Na inicialização, o construtor de topologias exibe uma caixa de diálogo que pergunta qual será a fonte do documento de topologia. Você selecionar uma das três opções:'
-ms.openlocfilehash: eb464902ff7ce1cd20a18be4829753e2ad8528c1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0050c6565a9c65dbd359eb5103c0ca8e8599735a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201571"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911006"
 ---
-# <a name="topology-builder-startup-dialog"></a><span data-ttu-id="a72ba-105">Caixa de diálogo de inicialização do Construtor de Topologias</span><span class="sxs-lookup"><span data-stu-id="a72ba-105">Topology Builder Startup Dialog</span></span>
+# <a name="topology-builder-startup-dialog"></a><span data-ttu-id="ea230-105">Caixa de diálogo de inicialização do Construtor de Topologias</span><span class="sxs-lookup"><span data-stu-id="ea230-105">Topology Builder Startup Dialog</span></span>
  
-<span data-ttu-id="a72ba-106">Iniciar o construtor de topologias para configurar as propriedades e a configuração da sua implantação.</span><span class="sxs-lookup"><span data-stu-id="a72ba-106">You start Topology Builder to configure the properties and configuration of your deployment.</span></span> <span data-ttu-id="a72ba-107">Na inicialização, o construtor de topologias exibe uma caixa de diálogo que pergunta qual será a fonte do documento de topologia.</span><span class="sxs-lookup"><span data-stu-id="a72ba-107">On startup, Topology Builder displays a dialog that asks what the source of the topology document will be.</span></span> <span data-ttu-id="a72ba-108">Você selecionar uma das três opções:</span><span class="sxs-lookup"><span data-stu-id="a72ba-108">You select one of three options:</span></span>
+<span data-ttu-id="ea230-106">Iniciar o construtor de topologias para configurar as propriedades e a configuração da sua implantação.</span><span class="sxs-lookup"><span data-stu-id="ea230-106">You start Topology Builder to configure the properties and configuration of your deployment.</span></span> <span data-ttu-id="ea230-107">Na inicialização, o construtor de topologias exibe uma caixa de diálogo que pergunta qual será a fonte do documento de topologia.</span><span class="sxs-lookup"><span data-stu-id="ea230-107">On startup, Topology Builder displays a dialog that asks what the source of the topology document will be.</span></span> <span data-ttu-id="ea230-108">Você selecionar uma das três opções:</span><span class="sxs-lookup"><span data-stu-id="ea230-108">You select one of three options:</span></span>
   
-- <span data-ttu-id="a72ba-109">**Baixar topologia da implantação existente** Selecione essa opção se você executou o construtor de topologia e publicar com êxito sua topologia para o servidor de gerenciamento Central.</span><span class="sxs-lookup"><span data-stu-id="a72ba-109">**Download Topology from existing deployment** Select this option if you have run Topology Builder and have successfully published your topology to the Central Management Server.</span></span> <span data-ttu-id="a72ba-110">Essa opção solicita e downloads uma cópia local da configuração atual, permitindo que você editar e configurar a implantação existente.</span><span class="sxs-lookup"><span data-stu-id="a72ba-110">This option requests and downloads a local copy of the current configuration, allowing you to edit and configure the existing deployment.</span></span>
+- <span data-ttu-id="ea230-109">**Baixar topologia da implantação existente** Selecione essa opção se você executou o construtor de topologia e publicar com êxito sua topologia para o servidor de gerenciamento Central.</span><span class="sxs-lookup"><span data-stu-id="ea230-109">**Download Topology from existing deployment** Select this option if you have run Topology Builder and have successfully published your topology to the Central Management Server.</span></span> <span data-ttu-id="ea230-110">Essa opção solicita e downloads uma cópia local da configuração atual, permitindo que você editar e configurar a implantação existente.</span><span class="sxs-lookup"><span data-stu-id="ea230-110">This option requests and downloads a local copy of the current configuration, allowing you to edit and configure the existing deployment.</span></span>
     
-- <span data-ttu-id="a72ba-111">**Abrir a topologia de um arquivo local** Selecione essa opção se você estiver configurando uma implantação, mas ainda não publicado a configuração.</span><span class="sxs-lookup"><span data-stu-id="a72ba-111">**Open Topology from a local file** Select this option if you are configuring a deployment but have not yet published the configuration.</span></span> <span data-ttu-id="a72ba-112">Essa opção permite que você salvar uma cópia local do trabalho de configuração no construtor de topologia e voltar a ele mais tarde.</span><span class="sxs-lookup"><span data-stu-id="a72ba-112">This option allows you to save a local copy of the configuration work in Topology Builder and come back to it at a later time.</span></span>
+- <span data-ttu-id="ea230-111">**Abrir a topologia de um arquivo local** Selecione essa opção se você estiver configurando uma implantação, mas ainda não publicado a configuração.</span><span class="sxs-lookup"><span data-stu-id="ea230-111">**Open Topology from a local file** Select this option if you are configuring a deployment but have not yet published the configuration.</span></span> <span data-ttu-id="ea230-112">Essa opção permite que você salvar uma cópia local do trabalho de configuração no construtor de topologia e voltar a ele mais tarde.</span><span class="sxs-lookup"><span data-stu-id="ea230-112">This option allows you to save a local copy of the configuration work in Topology Builder and come back to it at a later time.</span></span>
     
-- <span data-ttu-id="a72ba-113">**Nova topologia** Selecione essa opção para começar a configuração de um novo documento de topologia.</span><span class="sxs-lookup"><span data-stu-id="a72ba-113">**New Topology** Select this option to begin the configuration of a new topology document.</span></span> <span data-ttu-id="a72ba-114">Essa opção abre um novo documento de topologia que você configurar para atender os requisitos de implantação que você irá configurar.</span><span class="sxs-lookup"><span data-stu-id="a72ba-114">This option opens a new topology document that you configure to meet the requirements for the deployment that you will configure.</span></span>
+- <span data-ttu-id="ea230-113">**Nova topologia** Selecione essa opção para começar a configuração de um novo documento de topologia.</span><span class="sxs-lookup"><span data-stu-id="ea230-113">**New Topology** Select this option to begin the configuration of a new topology document.</span></span> <span data-ttu-id="ea230-114">Essa opção abre um novo documento de topologia que você configurar para atender os requisitos de implantação que você irá configurar.</span><span class="sxs-lookup"><span data-stu-id="ea230-114">This option opens a new topology document that you configure to meet the requirements for the deployment that you will configure.</span></span>
     
 ![Caixa de diálogo de inicialização do Construtor de Topologias](../../../media/Topology_Builder_Startup_Dialog.jpg)
   
