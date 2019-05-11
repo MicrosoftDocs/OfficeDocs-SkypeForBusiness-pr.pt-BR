@@ -1,8 +1,8 @@
 ---
 title: Expansor de configurações SBA do Registrador Avançado
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 description: 'Você pode edita as configurações de resiliência e configure as seguintes propriedades:'
-ms.openlocfilehash: 118c7e3eda7fc8422483989880f7ae0b31b9842f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: caac7c2e8b4f5e08ef4051f092f7a02d6762c308
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219185"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910274"
 ---
 # <a name="registrar-sba-settings-expander"></a>Expansor de configurações SBA do Registrador Avançado
 

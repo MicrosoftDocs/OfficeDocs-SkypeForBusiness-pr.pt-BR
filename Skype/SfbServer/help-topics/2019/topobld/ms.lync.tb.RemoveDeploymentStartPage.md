@@ -1,8 +1,8 @@
 ---
 title: Introdução de Remoção de Implantação
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 ROBOTS: NOINDEX, NOFOLLOW
 description: Execute o Assistente de implantação remover apenas se você quiser descomissionar sua implantação inteira. Este assistente cria uma topologia vazia que consiste em um único servidor Front-End. Depois de executar este assistente e publique a topologia vazia, você não poderá revertê-lo à sua topologia original.
-ms.openlocfilehash: f1e86c15e92db308796bf2a76cf1ca4fcf9bd2a8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 15896377b6339ba2e7ddb54753c9533c2d6ba4bb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235231"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919665"
 ---
 # <a name="remove-deployment-introduction"></a>Introdução de Remoção de Implantação
  

@@ -1,8 +1,8 @@
 ---
 title: Adicionar Repositório de Servidor SQL de Servidor de Monitoramento
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 description: O Monitoring Server requer uma edição de 64 bits com suporte do software de banco de dados do SQL Server para armazenar os dados de monitoramento. Você pode selecionar um banco de dados do SQL Server definido anteriormente a serem usados para monitoramento, ou definir um novo banco de dados do SQL Server, especificando um nome de domínio totalmente qualificado (FQDN) do servidor no qual o banco de dados do SQL Server residem, além da instância do SQL Servidor que você deseja usar para o novo banco de dados do SQL Server (que pode ser a instância padrão ou uma instância nomeada que você especificar).
-ms.openlocfilehash: 686bdc3d03f52b223457e0618ed59117a72ba5cd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: bd30dc0ed77b665b30d93213cf854af7d61a306e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885381"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897762"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>Adicionar Repositório de Servidor SQL de Servidor de Monitoramento
 

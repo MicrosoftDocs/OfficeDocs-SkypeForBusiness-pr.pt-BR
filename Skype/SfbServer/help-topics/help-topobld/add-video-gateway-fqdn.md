@@ -1,8 +1,8 @@
 ---
 title: Adicionar FQDN do Gateway de Vídeo
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 268e718c-9b8c-458a-b3b9-853f49994e5b
 description: As etapas necessárias para definir uma nova VIS ou vídeo Gateway no construtor de topologia são descritas online em criar um pool VIS no Skype para Business Server 2015.
-ms.openlocfilehash: 44409ee9bd39085277632653dacbd12f86aaee53
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 76308eeabf003b76037f7205818d2318e060bdce
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889263"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897307"
 ---
 # <a name="add-video-gateway-fqdn"></a>Adicionar FQDN do Gateway de Vídeo
  
@@ -32,6 +32,6 @@ As etapas de configuração para um novo servidor de interoperabilidade de víde
   
  As configurações para um VTC que precisam ser definidas na GUI Cisco para interoperação com um Gateway de vídeo e um VIS são descritas online em [Configure um VTC para interoperação com Skype para Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Planejar Servidor de Interoperabilidade de Vídeo no Skype for Business Server 2015](../../plan-your-deployment/video-interop-server.md)
