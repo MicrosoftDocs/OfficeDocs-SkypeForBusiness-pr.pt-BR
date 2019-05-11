@@ -1,8 +1,8 @@
 ---
 title: Assistente de híbrida entrar no Office 365
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use o Skype para o Assistente de capacidade de gerenciamento do Business Server híbrido para ajudá-lo a configurar o seu ambiente para o híbrido com Skype para Business Online.
-ms.openlocfilehash: efbb21fded9a6ec6445062bc075f9116f963c71c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6d1809cc04afcf565bfa2698384255509cb95661
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215574"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891457"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>Assistente híbrido: Conecte-se ao Office 365
 

@@ -1,8 +1,8 @@
 ---
 title: Selecionar Prefixo de Hiperlink
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use a caixa de diálogo Selecionar prefixo de hiperlink para selecionar os tipos de hiperlinks que você deseja bloquear, enviar uma mensagem de aviso ou permitir marcando (para bloquear ou enviar uma mensagem de aviso) ou desmarcando (para permitir) as caixas de seleção para suas extensões das categorias em Prefixos de hiperlink. Clique na seta para expandir uma categoria e exibir todos os prefixos de hiperlink para essa categoria. Se você deseja selecionar todos os prefixos de hiperlink para uma categoria, selecione o nome da categoria.
-ms.openlocfilehash: 59e5c5c4b5dd84ce12ffc7cf52717cdd5c6cc3cb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a62b0b786864926a4b6415cd959d369b807d34cf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215553"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891443"
 ---
 # <a name="select-hyperlink-prefix"></a>Selecionar Prefixo de Hiperlink
  

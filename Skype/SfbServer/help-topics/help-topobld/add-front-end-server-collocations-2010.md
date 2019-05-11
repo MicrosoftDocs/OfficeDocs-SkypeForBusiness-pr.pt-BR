@@ -1,8 +1,8 @@
 ---
 title: Adicionar Colocações de Servidor Front End 2010
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Para uma implantação do Enterprise Edition, é possível colocar qualquer A / V Conferencing serviço, o servidor de mediação ou ambos em um pool Front-End, ou você podem implantar cada um deles como servidores autônomos. Para uma implantação de servidor do Standard Edition, A / o serviço de conferência de V é sempre colocado se conferência estiver habilitada.
-ms.openlocfilehash: 42fd773c8874ec1416ac8c161bc60b8baba52f0e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 1c2aab2f32a81724b8da649956e10e9a9ee5ae12
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875338"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903807"
 ---
 # <a name="add-front-end-server-collocations-2010"></a>Adicionar Colocações de Servidor Front End 2010
 

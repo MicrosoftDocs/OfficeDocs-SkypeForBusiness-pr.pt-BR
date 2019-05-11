@@ -1,7 +1,7 @@
 ---
 title: Gerencia dispositivos de salas de equipes da Microsoft com Monitor do Azure
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.audience: ITPro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection: M365-voice
 description: Este artigo discute como gerenciar os dispositivos de salas de equipes da Microsoft de forma integrada e de ponta a ponta, usando o Monitor do Azure.
-ms.openlocfilehash: 4606bdde4e47eb2662e73434d1026d47093fb1e1
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b53d40cec750c56fd8d288ca10ab5f6151141b92
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362547"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916471"
 ---
 # <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Gerencia dispositivos de salas de equipes da Microsoft com Monitor do Azure
 

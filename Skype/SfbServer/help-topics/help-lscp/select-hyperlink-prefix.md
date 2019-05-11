@@ -1,8 +1,8 @@
 ---
 title: Selecionar Prefixo de Hiperlink
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: Use a caixa de diálogo Selecionar prefixo de hiperlink para selecionar os tipos de hiperlinks que você deseja bloquear, enviar uma mensagem de aviso ou permitir marcando (para bloquear ou enviar uma mensagem de aviso) ou desmarcando (para permitir) as caixas de seleção para suas extensões das categorias em Prefixos de hiperlink. Clique na seta para expandir uma categoria e exibir todos os prefixos de hiperlink para essa categoria. Se você deseja selecionar todos os prefixos de hiperlink para uma categoria, selecione o nome da categoria.
-ms.openlocfilehash: d0811bab0d7e44e7e7fb2fec116b9aa65a78a530
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 752112ee5af16079dfd15b9714e54e931e9ac965
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220119"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924616"
 ---
 # <a name="select-hyperlink-prefix"></a>Selecionar Prefixo de Hiperlink
  

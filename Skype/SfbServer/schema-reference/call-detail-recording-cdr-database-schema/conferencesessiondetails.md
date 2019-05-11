@@ -1,8 +1,8 @@
 ---
 title: Exibir ConferenceSessionDetails
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: O modo de exibição ConferenceSessionDetails armazena informações sobre sessões com vários participantes. Cada registro representa uma sessão de conferência, que poderia ser a sessão com foco ou a sessão com um servidor de conferência específico. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
-ms.openlocfilehash: 448b73326f7caf7657d146939eb01729e97628f9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 21c0bf2f68cabf5077c4bc975a84a57da4eeb188
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213225"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901070"
 ---
 # <a name="conferencesessiondetails-view"></a>Exibir ConferenceSessionDetails
  

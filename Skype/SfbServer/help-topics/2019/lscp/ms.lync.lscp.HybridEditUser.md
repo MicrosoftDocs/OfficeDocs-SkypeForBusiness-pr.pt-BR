@@ -1,8 +1,8 @@
 ---
 title: Híbrido assistente Editar usuários
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use o assistente Editar Usuários para modificar as contas de usuário na sua implantação. Para mais informações, consulte Use the Hybrid Manageability wizard.
-ms.openlocfilehash: b10fa0e26bbfdda71a2d6c368a38dfc55146ed9f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d223673d379275004f6a5c750b5a61da2e98790d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215523"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891478"
 ---
 # <a name="hybrid-wizard-edit-users"></a>Assistente híbrido: Editar usuários
 

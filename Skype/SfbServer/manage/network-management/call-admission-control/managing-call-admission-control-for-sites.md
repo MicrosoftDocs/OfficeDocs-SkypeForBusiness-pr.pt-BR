@@ -1,20 +1,20 @@
 ---
 title: Gerenciando o controle de admissão de chamada para sites
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Sites de rede são os escritórios ou locais dentro de cada região de rede de chamam (CAC) do controle de admissão, E9-1-1 e implantações de bypass de mídia.
-ms.openlocfilehash: 53140cf03110991f2c757e5d52e30a6c7db1d7de
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b7d554f6c85a40c084571813c88cc1d08661fa42
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199221"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913402"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Gerenciar o controle de admissão de chamadas para sites no Skype for Business Server
 
@@ -191,7 +191,7 @@ Os sites de rede são os escritórios ou locais configurados em cada região de 
     > Se estiver associada a uma sub-rede de rede, é possível remover um site de rede. Se você tentar remover um local associado a uma sub-rede, você receberá uma mensagem de erro. Para ver se um site é associado a quaisquer sub-redes, clique no site e clique em **Mostrar detalhes** no menu **Editar** .
 
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 
 [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) 

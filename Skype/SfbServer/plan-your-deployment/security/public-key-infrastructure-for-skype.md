@@ -1,8 +1,8 @@
 ---
 title: Infraestrutura de chave pública para Skype para Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: Skype para Business Server conta com certificados para autenticação de servidor e para estabelecer uma cadeia de confiança entre clientes e servidores e entre as funções de servidor diferente. O Windows Server 2012 R2, o Windows Server 2012, o Windows Server 2008 R2 e a ferramenta infraestrutura de chave pública (PKI) do Windows Server 2008 fornece a infraestrutura para estabelecer e validar essa cadeia de confiança.
-ms.openlocfilehash: e8e1230074dff58c46880b759038834a8d16c444
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7ff0c2b7d40b2e650dd7c66ecfe23d4981e6f7af
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213596"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897461"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>Infraestrutura de chave pública para Skype para Business Server
  
