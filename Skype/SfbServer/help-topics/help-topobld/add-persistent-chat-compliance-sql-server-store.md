@@ -1,8 +1,8 @@
 ---
 title: Adicionar Repositório do SQL Server de Conformidade de Chat Persistente
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 description: Configure a repositórios de conformidade do SQL Server que fornecerão bancos de dados para o servidor de Chat persistente ou o recurso de conformidade do servidor de Chat persistente.
-ms.openlocfilehash: 46b8052409bcb65a828bd07ebbec72d3b84c0962
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 02caeac7641cd592f6ca16d1e739253b0f48a30d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883071"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897622"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>Adicionar Repositório do SQL Server de Conformidade de Chat Persistente
  
@@ -46,7 +46,7 @@ Clique em **Cancelar** para descartar todas as alterações e encerrar o assiste
   
 Clique em **Ajuda** para acessar a ajuda contextual, como esta página.
   
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Planejar Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

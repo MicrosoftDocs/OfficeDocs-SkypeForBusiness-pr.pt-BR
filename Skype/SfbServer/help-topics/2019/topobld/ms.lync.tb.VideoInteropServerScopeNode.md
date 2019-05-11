@@ -1,8 +1,8 @@
 ---
 title: Servidor de interoperabilidade de vídeo - escopo o nó
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8c01299a-e832-45a1-8fd9-af432f36a8d4
 ROBOTS: NOINDEX, NOFOLLOW
 description: As etapas necessárias para definir uma nova VIS ou vídeo Gateway no construtor de topologia são descritas online em criar um pool VIS no Skype para Business Server.
-ms.openlocfilehash: 1567579327739c051941b093e5045bf0cf1442bf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4dacede52b27e7581cea6ab19d6856a969bd8d0f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235182"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921101"
 ---
 # <a name="video-interop-server---scope-the-node"></a>Servidor de interoperabilidade de vídeo - escopo o nó
  

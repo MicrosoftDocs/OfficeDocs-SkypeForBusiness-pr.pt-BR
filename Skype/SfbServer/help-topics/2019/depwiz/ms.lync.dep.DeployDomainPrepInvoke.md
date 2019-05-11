@@ -1,8 +1,8 @@
 ---
 title: Preparar Domínio Atual (Invocar)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 27553998-2adf-4727-a6e8-841679603ff2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Página executando comandos exibe um resumo das tarefas como que eles são executados. Leia a tela Resumo e certifique-se de que as tarefas foram bem-sucedidas e que não há nenhum erro. Revise os avisos para certificar-se de que eles esperados. Abaixo do painel Resumo, você deverá ver o status da tarefa: concluída. Na lista suspensa, o arquivo de log Preparar domínio deve estar visível. Se não for, selecione o arquivo de log e, em seguida, clique em Exibir Log para revisar as ações detalhadas e os resultados das tarefas. Clique em Concluir para concluir a preparação do domínio.'
-ms.openlocfilehash: 15f4964f882a18f0c96616903b552ccf31ca4c53
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1b9fe382e2582c526a6b693fd89b1897b63790bb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216274"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894110"
 ---
 # <a name="prepare-current-domain-invoke"></a>Preparar Domínio Atual (Invocar)
  

@@ -1,8 +1,8 @@
 ---
 title: Selecionar Usuários de Enterprise Voice
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use a caixa de diálogo Selecionar usuários do Enterprise Voice para localizar usuários habilitados para o Enterprise Voice. Na caixa Pesquisar, digite o endereço SIP ou exibir o nome do usuário que você deseja localizar e clique em localizar. Para selecionar um usuário, clique no usuário na lista de resultados da pesquisa e clique em Okey. Se você não conseguir localizar o usuário que você estiver procurando por, que o usuário não pode ser habilitado para o Enterprise Voice.
-ms.openlocfilehash: a801a35fd02bca06179c70c38b285d412aee0428
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cca18d144c7017fdc81325586576b4636ce238b0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221585"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890813"
 ---
 # <a name="select-enterprise-voice-users"></a>Selecionar Usuários de Enterprise Voice
  

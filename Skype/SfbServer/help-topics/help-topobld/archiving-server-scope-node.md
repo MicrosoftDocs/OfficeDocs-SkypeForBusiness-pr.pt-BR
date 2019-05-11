@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Servidor de Arquivamento
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb3c64bc-82db-4d92-b7ed-c86a67eaebb9
 description: No construtor de topologias, você pode executar tarefas relacionadas ao servidor que executa o arquivamento clicando com o pool na árvore de console e selecione Editar propriedades. Na página Editar Propriedades é possível alterar o nome de domínio totalmente qualificado (FQDN) do servidor que está executando o Arquivamento, o banco de dados SQL Server de arquivamento e o repositório de arquivos de arquivamento.
-ms.openlocfilehash: 7cb73a4b84f9370fadfcac8c8f484db74c734487
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e4dca814b754f49efea9c8fc21493092e6e48b12
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222344"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33923220"
 ---
 # <a name="archiving-server-scope-node"></a>Nó de Escopo de Servidor de Arquivamento
  

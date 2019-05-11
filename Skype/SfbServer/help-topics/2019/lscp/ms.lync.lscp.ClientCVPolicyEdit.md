@@ -1,8 +1,8 @@
 ---
 title: Política de versão cliente criar novo ou editar existente
 ms.reviewer: ''
-ms.author: SerdarS
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: É possível especificar a versão de clientes compatíveis com seu ambiente. Quando dois clientes executando versões diferentes interagem, os recursos disponíveis para cada cliente podem ser limitados pelos recursos do outro cliente.
-ms.openlocfilehash: 5648d96e69869171d78a3a28634bdb2b0221a234
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 298610084be12606eedf09331ad39beea8add9ae
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216400"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891905"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>Política de Versão do Cliente: Criar Nova ou Editar Existente
 

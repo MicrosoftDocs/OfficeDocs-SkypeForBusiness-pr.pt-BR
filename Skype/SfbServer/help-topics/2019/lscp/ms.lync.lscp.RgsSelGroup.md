@@ -1,8 +1,8 @@
 ---
 title: Selecionar Grupos
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: Filas de espera do grupo de resposta chamadas aos grupos de resposta em espera até que um operador responde à chamada. Filas atribuiu a grupos de operadores. Quando você cria ou editar uma fila, use a caixa de diálogo Selecionar grupos para selecionar um ou mais grupos de operadores a ser atribuído à fila.
-ms.openlocfilehash: 1ea3d43241d5cdac2ebcc860333ab326d45fd274
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ea948bd0c31477d20c2c6fbb68902e087bcd9826
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215182"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891296"
 ---
 # <a name="select-groups"></a>Selecionar Grupos
 

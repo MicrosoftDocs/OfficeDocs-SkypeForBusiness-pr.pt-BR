@@ -1,7 +1,7 @@
 ---
 title: Implantações híbridas do Sistema de Salas do Skype
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Leia este tópico para saber como implantar o sistema de sala do Skype em um ambiente híbrido.
-ms.openlocfilehash: 40cbcd7cd95b6a5dc7542f913fe7599bedc7eb85
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2f48707fd4e247a952bc17d26284a8a29eba025a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219448"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895170"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Implantações híbridas do Sistema de Salas do Skype
 

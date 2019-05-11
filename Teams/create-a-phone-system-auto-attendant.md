@@ -3,7 +3,7 @@ title: Configurar um atendedor automático do Cloud
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: waseemh
+ms.reviewer: makolomi
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendedores automáticos de nuvem para eficiente tratamento de chamadas para sua organização.
-ms.openlocfilehash: e98233bd610cd83afdbc727a5edeba77951d1989
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 7e655339ef35c127dcb1f106d9d9dbf7f498804d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868812"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902822"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 

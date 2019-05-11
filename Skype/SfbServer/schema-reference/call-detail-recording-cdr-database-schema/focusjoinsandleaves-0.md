@@ -1,8 +1,8 @@
 ---
 title: Exibir FocusJoinsAndLeaves
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: O modo de exibição FocusJoinsAndLeaves armazena informações sobre a participação e deixar informações para uma conferência. Cada conferência é representada nesse modo de exibição por um registro escrito cada vez que um usuário entradas e saídas na conferência. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
-ms.openlocfilehash: 4fa6a2ec043c5f9746a14d5214be9ad531159cd7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3565a9bfbcfd735e4ba6b16facd8e0c88abd4a13
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213673"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901177"
 ---
 # <a name="focusjoinsandleaves-view"></a>Exibir FocusJoinsAndLeaves
  

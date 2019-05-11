@@ -1,8 +1,8 @@
 ---
 title: Criar ou modificar uma rota de voz no Skype para negócios
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Resumo: Saiba como criar ou modificar uma rota de voz no Skype para Business Server usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: 166b9635d9ddb50ec65b7cbc4d55aa92c19b55e0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1057d1f167b8a664919c293504381d9f7a6381a3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223202"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892906"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Criar ou modificar uma rota de voz no Skype para negócios
  

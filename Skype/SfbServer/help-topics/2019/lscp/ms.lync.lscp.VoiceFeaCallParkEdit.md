@@ -1,8 +1,8 @@
 ---
 title: Estacionamento de chamada criar novo ou editar existente
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Intervalos de números do estacionamento de chamada definem os números temporários nos quais as chamadas estacionadas são mantidas até que alguém as recupere ou tempo limite.
-ms.openlocfilehash: 466dc1d02ee15ae25e6c8fe6e9e8a0006298a60d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7573b64f93f10d1592d1beba2edf33fef626232b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221335"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890848"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>Estacionamento de Chamada: Criar Novo ou Editar Existente
 

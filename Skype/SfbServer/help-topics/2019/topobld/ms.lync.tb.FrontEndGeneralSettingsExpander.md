@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações Gerais de Front-End
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar as configurações de um pool de Front-Ends ou servidor Standard Edition existente, as seguintes seções são disponibilizadas:'
-ms.openlocfilehash: 1b28f3921042bcd8d0f8f99cd0b5950c190ef79d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5d44dae722107a2c30ede24c66f5b341b9a05754
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201762"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919777"
 ---
 # <a name="front-end-general-settings-expander"></a>Expansor de Configurações Gerais de Front-End
 

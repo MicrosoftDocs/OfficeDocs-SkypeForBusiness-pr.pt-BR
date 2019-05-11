@@ -1,8 +1,8 @@
 ---
 title: Topologia exibir detalhes de URL simples
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: f6319e8860f411f24b566acb139e419546b9b0a1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 220738b9d7305536ec6d0306715c0e704a164d9d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219976"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929109"
 ---
 # <a name="topology-view-simple-url-detail"></a>Topologia: Exibir Detalhe de URL Simples
 
