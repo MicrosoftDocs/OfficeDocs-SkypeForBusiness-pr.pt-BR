@@ -599,6 +599,7 @@
 ### [O Microsoft StaffHub será desativado](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Recursos de Firstline Worker em breve estarão disponíveis no Microsoft Teams](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
 ### [Instalar o módulo PowerShell do Microsoft PowerHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
+### [Executar um relatório para exibir o uso ativo do StaffHub](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
 ### [Mova as suas equipes do Microsoft StaffHub para Turnos no Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Gerenciar o aplicativo Turnos para sua organização no Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
@@ -663,6 +664,7 @@
 ### [URLs e intervalos de endereços IP do Office 365](office-365-urls-ip-address-ranges.md)
 ### [Teams para infraestruturas de área de trabalho virtualizada (VDI)](teams-for-vdi.md)
 ### [Implantar o Teams para o Surface Hub](teams-surface-hub.md)
+### [Processo de atualização do cliente do Teams](teams-client-update.md)
 
 ## Licenças
 ### [Gerenciamento do acesso de usuários ao Teams](user-access.md)
