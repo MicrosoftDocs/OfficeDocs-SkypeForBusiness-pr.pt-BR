@@ -1,8 +1,8 @@
 ---
 title: Obter o Log de integração
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,43 +11,43 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: 'Resumo: Saiba mais sobre a operação obter o Log de integração, que é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: e6d449a8ea973132b404e821f6a5d5f156e6ddd6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 450122266caa21359b424e3abb76a13476f386c0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217667"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33926097"
 ---
-# <a name="get-integration-log"></a><span data-ttu-id="05f15-104">Obter o Log de integração</span><span class="sxs-lookup"><span data-stu-id="05f15-104">Get Integration Log</span></span>
+# <a name="get-integration-log"></a><span data-ttu-id="1a3b1-104">Obter o Log de integração</span><span class="sxs-lookup"><span data-stu-id="1a3b1-104">Get Integration Log</span></span>
  
-<span data-ttu-id="05f15-105">**Resumo:** Saiba mais sobre a operação obter o Log de integração, que é parte da API de dados para o painel de qualidade de chamada.</span><span class="sxs-lookup"><span data-stu-id="05f15-105">**Summary:** Learn about the Get Integration Log operation, which is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="05f15-106">Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="05f15-106">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="1a3b1-105">**Resumo:** Saiba mais sobre a operação obter o Log de integração, que é parte da API de dados para o painel de qualidade de chamada.</span><span class="sxs-lookup"><span data-stu-id="1a3b1-105">**Summary:** Learn about the Get Integration Log operation, which is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="1a3b1-106">Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="1a3b1-106">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
   
-<span data-ttu-id="05f15-107">A operação obter integração Log é parte da API de dados para o painel de qualidade de chamada</span><span class="sxs-lookup"><span data-stu-id="05f15-107">The Get Integration Log operation is part of the Data API for Call Quality Dashboard</span></span>
+<span data-ttu-id="1a3b1-107">A operação obter integração Log é parte da API de dados para o painel de qualidade de chamada</span><span class="sxs-lookup"><span data-stu-id="1a3b1-107">The Get Integration Log operation is part of the Data API for Call Quality Dashboard</span></span>
   
-## <a name="get-integration-log"></a><span data-ttu-id="05f15-108">Obter o Log de integração</span><span class="sxs-lookup"><span data-stu-id="05f15-108">Get Integration Log</span></span>
+## <a name="get-integration-log"></a><span data-ttu-id="1a3b1-108">Obter o Log de integração</span><span class="sxs-lookup"><span data-stu-id="1a3b1-108">Get Integration Log</span></span>
 
-<span data-ttu-id="05f15-109">Obtenha a operação retorna uma lista de entradas de log descrevendo as atividades no cubo de QoE de processamento de Log de integração.</span><span class="sxs-lookup"><span data-stu-id="05f15-109">Get Integration Log operation returns a list of log entries describing the activities in QoE Cube processing.</span></span>
+<span data-ttu-id="1a3b1-109">Obtenha a operação retorna uma lista de entradas de log descrevendo as atividades no cubo de QoE de processamento de Log de integração.</span><span class="sxs-lookup"><span data-stu-id="1a3b1-109">Get Integration Log operation returns a list of log entries describing the activities in QoE Cube processing.</span></span>
   
-<span data-ttu-id="05f15-110">Essa operação está desabilitada por padrão, por motivos de segurança.</span><span class="sxs-lookup"><span data-stu-id="05f15-110">This operation is disabled by default for security reasons.</span></span> <span data-ttu-id="05f15-111">Quando desabilitada, ela retornará uma sequência vazia.</span><span class="sxs-lookup"><span data-stu-id="05f15-111">When disabled, it returns an empty string.</span></span> <span data-ttu-id="05f15-112">Para habilitar essa operação, os administradores precisam configurar o Web. config para o aplicativo de web de host do API de dados.</span><span class="sxs-lookup"><span data-stu-id="05f15-112">To enable this operation, administrators need to configure the web.config for Data API's host web application.</span></span>
+<span data-ttu-id="1a3b1-110">Essa operação está desabilitada por padrão, por motivos de segurança.</span><span class="sxs-lookup"><span data-stu-id="1a3b1-110">This operation is disabled by default for security reasons.</span></span> <span data-ttu-id="1a3b1-111">Quando desabilitada, ela retornará uma sequência vazia.</span><span class="sxs-lookup"><span data-stu-id="1a3b1-111">When disabled, it returns an empty string.</span></span> <span data-ttu-id="1a3b1-112">Para habilitar essa operação, os administradores precisam configurar o Web. config para o aplicativo de web de host do API de dados.</span><span class="sxs-lookup"><span data-stu-id="1a3b1-112">To enable this operation, administrators need to configure the web.config for Data API's host web application.</span></span>
   
 
-|<span data-ttu-id="05f15-113">Método</span><span class="sxs-lookup"><span data-stu-id="05f15-113">Method</span></span>|<span data-ttu-id="05f15-114">**URI de solicitação**</span><span class="sxs-lookup"><span data-stu-id="05f15-114">**Request URI**</span></span>|<span data-ttu-id="05f15-115">**Versão de HTTP**</span><span class="sxs-lookup"><span data-stu-id="05f15-115">**HTTP Version**</span></span>|
+|<span data-ttu-id="1a3b1-113">Método</span><span class="sxs-lookup"><span data-stu-id="1a3b1-113">Method</span></span>|<span data-ttu-id="1a3b1-114">**URI de solicitação**</span><span class="sxs-lookup"><span data-stu-id="1a3b1-114">**Request URI**</span></span>|<span data-ttu-id="1a3b1-115">**Versão de HTTP**</span><span class="sxs-lookup"><span data-stu-id="1a3b1-115">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="05f15-116">Obter</span><span class="sxs-lookup"><span data-stu-id="05f15-116">GET</span></span>  <br/> |<span data-ttu-id="05f15-117">https://\<portal\>/QoEDataService/IntegrationLog</span><span class="sxs-lookup"><span data-stu-id="05f15-117">https://\<portal\>/QoEDataService/IntegrationLog</span></span>  <br/> |<span data-ttu-id="05f15-118">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="05f15-118">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="1a3b1-116">Obter</span><span class="sxs-lookup"><span data-stu-id="1a3b1-116">GET</span></span>  <br/> |<span data-ttu-id="1a3b1-117">https://\<portal\>/QoEDataService/IntegrationLog</span><span class="sxs-lookup"><span data-stu-id="1a3b1-117">https://\<portal\>/QoEDataService/IntegrationLog</span></span>  <br/> |<span data-ttu-id="1a3b1-118">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="1a3b1-118">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="05f15-119">**Parâmetros URI** - None.</span><span class="sxs-lookup"><span data-stu-id="05f15-119">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="1a3b1-119">**Parâmetros URI** - None.</span><span class="sxs-lookup"><span data-stu-id="1a3b1-119">**URI Parameters** - None.</span></span>
   
- <span data-ttu-id="05f15-120">**Cabeçalhos de solicitação** - sem cabeçalhos adicionais.</span><span class="sxs-lookup"><span data-stu-id="05f15-120">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="1a3b1-120">**Cabeçalhos de solicitação** - sem cabeçalhos adicionais.</span><span class="sxs-lookup"><span data-stu-id="1a3b1-120">**Request Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="05f15-121">O **corpo da solicitação** - None.</span><span class="sxs-lookup"><span data-stu-id="05f15-121">**Request Body** - None.</span></span>
+ <span data-ttu-id="1a3b1-121">O **corpo da solicitação** - None.</span><span class="sxs-lookup"><span data-stu-id="1a3b1-121">**Request Body** - None.</span></span>
   
- <span data-ttu-id="05f15-122">**Resposta** - a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.</span><span class="sxs-lookup"><span data-stu-id="05f15-122">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="1a3b1-122">**Resposta** - a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.</span><span class="sxs-lookup"><span data-stu-id="1a3b1-122">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
- <span data-ttu-id="05f15-123">**Código de status** - uma operação bem-sucedida retorna o código de status 200 (Okey).</span><span class="sxs-lookup"><span data-stu-id="05f15-123">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
+ <span data-ttu-id="1a3b1-123">**Código de status** - uma operação bem-sucedida retorna o código de status 200 (Okey).</span><span class="sxs-lookup"><span data-stu-id="1a3b1-123">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
   
- <span data-ttu-id="05f15-124">**Cabeçalhos de resposta** - sem cabeçalhos adicionais.</span><span class="sxs-lookup"><span data-stu-id="05f15-124">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="1a3b1-124">**Cabeçalhos de resposta** - sem cabeçalhos adicionais.</span><span class="sxs-lookup"><span data-stu-id="1a3b1-124">**Response Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="05f15-125">**Corpo de resposta** - a seguir é uma estrutura de amostra de entradas de log.</span><span class="sxs-lookup"><span data-stu-id="05f15-125">**Response Body** - Below is a sample structure of log entries.</span></span>
+ <span data-ttu-id="1a3b1-125">**Corpo de resposta** - a seguir é uma estrutura de amostra de entradas de log.</span><span class="sxs-lookup"><span data-stu-id="1a3b1-125">**Response Body** - Below is a sample structure of log entries.</span></span>
   
 ```
 [
