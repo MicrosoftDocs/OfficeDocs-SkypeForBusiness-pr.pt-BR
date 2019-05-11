@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 6827f750f9e4161cc5747015bad2ce832497fcb9
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 325d25bf8019a1e58c62867d3e558769ddc64da8
+ms.sourcegitcommit: a46dad8dfc685534d81bb011f3c099c6f59ce2e0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868668"
+ms.locfileid: "33882897"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Veja aqui o que você obtém com o Sistema de Telefonia no Office 365
 
@@ -61,7 +61,6 @@ Usando o sistema telefônico, seu Skype para usuários comerciais receberá os s
 |Roteamento de chamadas de calendário da empresa  <br/> |Roteamento de chamadas de calendário da empresa permite que você use seu calendário do Exchange horário comercial para habilitar ou desabilitar o encaminhamento de chamadas e toque simultâneo em Skype para negócios.  <br/> |
 |Teclado de discagem integrado  <br/> | Disque por nome ou por número em qualquer lugar na barra de busca e no teclado de discagem, agilizando o processo de chamadas. <br/> |
 |[Use seu telefone de mesa para fazer uma chamada do Skype for Business](https://support.office.com/article/6a316c11-a05e-460c-b969-32ff0ad848e6) <br/> |Quando seu telefone de mesa é configurado para registrar para Skype para Business Online com suas credenciais do Office 365, você pode chamar pessoas em uma organização usando seu telefone de mesa com o áudio da chamada precisar passar por telefone.  <br/>  |
-|Música de espera  <br/> |Reproduz uma música quando você coloca uma chamada em espera, para que as pessoas que ligaram saibam que você ainda está lá e que a chamada não caiu acidentalmente.  <br/> |
 |Skype e chamadas de federados  <br/> |Você pode pesquisar por qualquer pessoa no diretório Skype, e depois com segurança conectem, se comunicar e colaborar com eles.  <br/> |
 |[Defina opções de encaminhamento de chamadas no Skype for Business](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Envia as chamadas para sua equipe imediatamente ou após um período de tempo determinado.  <br/> |
 |[Fazer e receber uma chamada de vídeo usando o Skype for Business](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Você pode ver o nome do interlocutor e a transmissão de vídeo em uma pequena janela flutuante. Assim, você sempre estará pronto para responder a perguntas. <br/> |

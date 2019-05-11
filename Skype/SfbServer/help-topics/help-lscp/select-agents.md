@@ -1,8 +1,8 @@
 ---
 title: Selecionar Agentes
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/24/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 description: Operadores são usuários que são projetados para atender chamadas de grupo de resposta. Os grupos de resposta precisam ter um grupo de agentes atribuídos que identifica os agentes que podem receber chamadas para o grupo de respostas. Uma forma de criar um grupo de agentes é definir um grupo personalizado selecionando usuários aptos. Usuários qualificados estão habilitados para Skype para Business Server e o Enterprise Voice.
-ms.openlocfilehash: 17a58df6e6729d5258e69007db98b480b83d46c4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f3e820287a998df827eb751c209ea69d292a4c0f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220147"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924252"
 ---
 # <a name="select-agents"></a>Selecionar Agentes
 

@@ -1,8 +1,8 @@
 ---
 title: Publicar Página CMS de Seleção de Topologia
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: Publicar a topologia que você configurou usando o construtor de topologia. Será solicitado que você selecione em uma lista na qual pool de Front-End ou de servidor Front-End assumirá a função de reter o repositório de gerenciamento Central. Somente um pool de Front-End ou de servidor Front-End pode conter esta função em um determinado momento.
-ms.openlocfilehash: 0c80fa30721fe47fc3bc4725ca4f50f8a75f7009
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e649629650bfa1fe168698984e3e8b0aaa5d2df4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201690"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888755"
 ---
 # <a name="publish-topology-select-cms-page"></a>Publicar Página CMS de Seleção de Topologia
  

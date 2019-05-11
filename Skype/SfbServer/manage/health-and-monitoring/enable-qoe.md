@@ -1,8 +1,8 @@
 ---
 title: Habilitar a qualidade da experiência do Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: 'Resumo: Saiba como habilitar a qualidade da experiência (QoE) no Skype para Business Server.'
-ms.openlocfilehash: ba3b34769e5fb74aa641d89168ef7203bec0d2d3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: df036bda96055e6bf8236ac5f45924c706e3aa14
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892340"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33926575"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Habilitar a qualidade da experiência do Skype para Business Server
 
@@ -68,7 +68,7 @@ Use o procedimento a seguir para habilitar QoE para toda sua organização ou pa
 
 Para obter detalhes, consulte [Set-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps).
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Planejamento do monitoramento](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 

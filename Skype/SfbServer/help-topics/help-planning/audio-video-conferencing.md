@@ -1,8 +1,8 @@
 ---
 title: Audio Video Conferencing (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/6/2016
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 description: Skype para Business Server 2015 áudio/vídeo (A / V) conferência permite que os usuários participem de conferências de vídeos ou de áudio em tempo real.
-ms.openlocfilehash: 300b819a87de1397c5d19aff6086347cff769b4a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 188c627e8804dc481baf4f545b8bb3704a5ac77f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200313"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888118"
 ---
 # <a name="audio-video-conferencing-planning-tool"></a>Audio Video Conferencing (Planning Tool)
  
