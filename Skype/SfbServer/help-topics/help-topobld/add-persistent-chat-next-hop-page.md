@@ -1,8 +1,8 @@
 ---
 title: Adicionar Página de Próximo Salto de Chat Persistente
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/14/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a47c824d-a76a-413b-9335-bfe5ffef15db
 description: Use esta página para definir o próximo salto do servidor Persistent Chat Server em sua implantação. Para obter mais informações sobre como implantar o servidor de Chat persistente, consulte implantar Persistent Chat Server in Skype for Business Server 2015.
-ms.openlocfilehash: 960ee8680f8655888a17fc1889309d93e03ef847
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: d211e2405ddb1b94a5c3cab622f7b306e60663c7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891530"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897482"
 ---
 # <a name="add-persistent-chat-next-hop-page"></a>Adicionar Página de Próximo Salto de Chat Persistente
  

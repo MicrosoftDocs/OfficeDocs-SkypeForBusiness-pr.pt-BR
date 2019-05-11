@@ -1,8 +1,8 @@
 ---
 title: Preparar Servidor Standard Edition Único (Introdução)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para iniciar a instalação de um Skype para servidor de Business Server Standard Edition que irá manter o repositório de gerenciamento Central e outros serviços colocados selecionado, você deve estar logado como membro do grupo Administradores local no servidor que se tornarão o servidor do Standard Edition. A página Preparar Servidor Standard Edition único detalha os requisitos para a instalação inicial. O computador precisa ser membro do domínio no qual você o implantará, e você precisa ter concluído com êxito a preparação do Esquema, Floresta e Domínio de sua floresta.
-ms.openlocfilehash: b4b211899ba907a20d11f8adf4d2640599dc6f91
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f96c950608143b7b0ecde2fdbedf48b66dc32b44
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216582"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894026"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>Preparar Servidor Standard Edition Único (Introdução)
  

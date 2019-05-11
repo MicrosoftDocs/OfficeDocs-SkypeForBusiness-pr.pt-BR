@@ -1,20 +1,20 @@
 ---
 title: Excluir um conjunto existente de definições de configuração de tronco SIP no Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Definições de configuração de tronco SIP definem a relação e os recursos entre um servidor de mediação e o gateway PSTN (rede) telefônica pública comutada, uma troca de filial IP público (PBX) ou um controlador de borda de sessão (SBC) no provedor de serviços. '
-ms.openlocfilehash: 6a7c90bf7ff435b0936b34bc57d391e06093040a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 144d40f45853b0d0e3031f9d491fa1a3b1491ba8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879361"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896313"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Excluir um conjunto existente de definições de configuração de tronco SIP no Skype para Business Server
 

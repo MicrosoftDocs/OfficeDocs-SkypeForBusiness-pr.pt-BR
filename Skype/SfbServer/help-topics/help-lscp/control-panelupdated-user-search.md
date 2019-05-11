@@ -1,8 +1,8 @@
 ---
 title: Painel de controle - atualizada pesquisa de usuário
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 5/21/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Você pode usar os resultados de uma consulta de pesquisa para configurar usuários para Skype para Business Server. É possível pesquisar por usuários por nome de exibição, nome, sobrenome, nome de conta SAM (Gerenciador de contas de segurança), endereço SIP ou URI (Uniform Resource Identifier) de linha. Também é possível pesquisar por usuários usando o Painel de Controle do Lync Server ou o snap-in Usuários e Computadores do Active Directory.
-ms.openlocfilehash: 5d94c468edeb8c982d901f1c396bfd49c8c88fb6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7318d37741eba1b75ff930bf6b252fbfbdabf4cc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200825"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914041"
 ---
 # <a name="control-panel---updated-user-search"></a>Painel de Controle - atualizado: Pesquisa de Usuário
 

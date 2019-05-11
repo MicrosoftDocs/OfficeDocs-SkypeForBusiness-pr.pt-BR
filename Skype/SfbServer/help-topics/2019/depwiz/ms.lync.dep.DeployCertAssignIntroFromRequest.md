@@ -1,8 +1,8 @@
 ---
 title: Atribuição de Certificado (da solicitação)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: A página Atribuição de Certificado inicie o processo de atribuição de um certificado para os usos solicitados no servidor de função. Clique em Exibir Detalhes do Certificado para exibir o certificado. Você pode selecionar na guia geral, na guia detalhes ou a guia caminho de certificação. Na guia Geral exibirá informações básicas sobre o certificado, como a autoridade de certificação emissora e o status de uma chave privada. A guia Detalhes exibirá informações de certificado como o nome da entidade, nomes alternativos de entidade e outros detalhes. A guia caminho de certificação exibirá o certificatechain do trustfrom o certificado por meio de quaisquer autoridades de certificação emissora ou intermediário (se estiverem presentes) para a autoridade de certificação raiz.
-ms.openlocfilehash: 567b01e030f4c1ceb3145d242bb495dd50534beb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e906d49b7f93e6ef38ef9228590bb3967981b413
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216525"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894089"
 ---
 # <a name="certificate-assignment-from-request"></a>Atribuição de Certificado (da solicitação)
  

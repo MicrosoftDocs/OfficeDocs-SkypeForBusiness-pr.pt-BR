@@ -1,8 +1,8 @@
 ---
 title: Fila de grupos de resposta criar novo ou editar existente
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Filas de espera do grupo de resposta chamadas para um grupo de resposta em espera até que um operador responde à chamada.
-ms.openlocfilehash: 96d8bae5f4f3e818366872c4e81615a90fe24e86
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cb1777a87e32baac6d2bbb13a692abcf59da5931
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215196"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891387"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Fila de Grupos de Resposta: Criar Nova ou Editar Existente
 

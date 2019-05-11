@@ -1,8 +1,8 @@
 ---
 title: Implantar regiões de rede, sites e sub-redes em Skype para negócios
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Criar ou modificar regiões de rede, sites de rede e associar subredes no Skype para Business Server. Todos esses são usados para os recursos avançados do Enterprise Voice: desvio de mídia, chamar o controle de admissão e roteamento baseado no local.'
-ms.openlocfilehash: 91ce871d3e8d4871693b7ad28cf4659ea0bb0c4c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b5de9ed76dcba917a186a6f9060021f51d5abac9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223110"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892661"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Implantar regiões de rede, sites e sub-redes em Skype para negócios
 

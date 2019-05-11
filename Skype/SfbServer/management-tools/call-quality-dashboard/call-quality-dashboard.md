@@ -1,8 +1,8 @@
 ---
 title: Painel de qualidade da chamada para Skype for Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
 description: 'Resumo: Saiba mais sobre o painel de qualidade de chamada, que é uma ferramenta de relatório do Skype para Business Server.'
-ms.openlocfilehash: 93830e6d0d746e44187241d9c300e4b5bd8ab3f2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c3972b31aa7f54b3a368b0449d4a5750f6b254af
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32195476"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930831"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Painel de qualidade da chamada para Skype for Business Server
  

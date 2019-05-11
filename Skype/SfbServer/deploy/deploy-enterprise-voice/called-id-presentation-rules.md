@@ -1,8 +1,8 @@
 ---
 title: Criar ou modificar uma regra de conversão para apresentação da ID chamada no Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Resumo: Saiba como definir uma regra de conversão usando a compilar uma ferramenta de regra de conversão no Skype para Business Server.'
-ms.openlocfilehash: 947dc6a76482fc5b00efaeb71463b35eab9f9cea
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a8a967e3c0f6d808e8e08fea0f08f5fb6bcfbeb0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223744"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893116"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Criar ou modificar uma regra de conversão para apresentação da ID chamada no Skype para Business Server
 

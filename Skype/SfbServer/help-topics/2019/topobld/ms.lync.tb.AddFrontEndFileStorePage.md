@@ -1,8 +1,8 @@
 ---
 title: Adicionar Repositório de Arquivos de Front-End
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4d18a648-a0e1-4401-a1e6-7a2755ba8c66
 ROBOTS: NOINDEX, NOFOLLOW
 description: É necessário especificar um compartilhamento de arquivo a ser usado como o repositório de arquivo para o servidor Standard Edition ou pool de Front-Ends Enterprise Edition. É possível usar um compartilhamento de arquivos existente para o repositório de arquivos, ou é possível especificar um novo compartilhamento de arquivos especificando o nome de domínio totalmente qualificado (FQDN) do servidor de arquivos no qual o compartilhamento de arquivos será localizado e um nome de pasta para o novo compartilhamento de arquivo.
-ms.openlocfilehash: 7a4761beb798e52d848b7c0c42c3157f7a5da400
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 451385fd6bc8785a43c3e88888e93e5a7218145a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235452"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897692"
 ---
 # <a name="add-front-end-file-store"></a>Adicionar Repositório de Arquivos de Front-End
 
