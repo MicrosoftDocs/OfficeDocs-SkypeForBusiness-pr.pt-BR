@@ -1,8 +1,8 @@
 ---
 title: Associar Front-End com Página do Servidor do Office Web Apps
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,27 +13,27 @@ localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: O Servidor do Office Web Apps fornece serviços parecidos com o carregamento de um documento pelo apresentador para uso em uma reunião, mas possibilita outros recursos que não havia nas versões anteriores.
-ms.openlocfilehash: 2f00851409411f7b2a0ddd01378943c5af4f46ee
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b7276ad33bac5e3e1051e3b5f58bd55600954bb1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220759"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885650"
 ---
-# <a name="associate-front-end-with-office-web-apps-server-page"></a><span data-ttu-id="06e19-103">Associar Front-End com Página do Servidor do Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="06e19-103">Associate Front End With Office Web Apps Server Page</span></span>
+# <a name="associate-front-end-with-office-web-apps-server-page"></a><span data-ttu-id="66170-103">Associar Front-End com Página do Servidor do Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="66170-103">Associate Front End With Office Web Apps Server Page</span></span>
 
-<span data-ttu-id="06e19-104">O Servidor do Office Web Apps fornece serviços parecidos com o carregamento de um documento pelo apresentador para uso em uma reunião, mas possibilita outros recursos que não havia nas versões anteriores.</span><span class="sxs-lookup"><span data-stu-id="06e19-104">The Office Web Apps Server provides services similar to a presenter uploading a document for use in a meeting, but enables additional features that the prior versions did not.</span></span>
+<span data-ttu-id="66170-104">O Servidor do Office Web Apps fornece serviços parecidos com o carregamento de um documento pelo apresentador para uso em uma reunião, mas possibilita outros recursos que não havia nas versões anteriores.</span><span class="sxs-lookup"><span data-stu-id="66170-104">The Office Web Apps Server provides services similar to a presenter uploading a document for use in a meeting, but enables additional features that the prior versions did not.</span></span>
 
-<span data-ttu-id="06e19-105">Você pode selecionar um Office Web Apps Server para sua implantação se você tiver escolhido conferência como uma das suas opções de recurso para sua Skype para configuração do servidor de negócios.</span><span class="sxs-lookup"><span data-stu-id="06e19-105">You select an Office Web Apps Server for your deployment if you have chosen Conferencing as one of your feature options for your Skype for Business Server configuration.</span></span>
+<span data-ttu-id="66170-105">Você pode selecionar um Office Web Apps Server para sua implantação se você tiver escolhido conferência como uma das suas opções de recurso para sua Skype para configuração do servidor de negócios.</span><span class="sxs-lookup"><span data-stu-id="66170-105">You select an Office Web Apps Server for your deployment if you have chosen Conferencing as one of your feature options for your Skype for Business Server configuration.</span></span>
 
-<span data-ttu-id="06e19-106">As opções nessa caixa de diálogo são as seguintes:</span><span class="sxs-lookup"><span data-stu-id="06e19-106">The options in this dialog present you with these choices:</span></span>
+<span data-ttu-id="66170-106">As opções nessa caixa de diálogo são as seguintes:</span><span class="sxs-lookup"><span data-stu-id="66170-106">The options in this dialog present you with these choices:</span></span>
 
-1. <span data-ttu-id="06e19-107">**Associar o pool com um servidor do Office Web Apps** - você marcar essa caixa de seleção se for fornecer e implantar um Office Web Apps Server para seus usuários de conferência.</span><span class="sxs-lookup"><span data-stu-id="06e19-107">**Associate pool with an Office Web Apps Server** - You select this check box if you will provide and deploy an Office Web Apps Server for your conferencing users.</span></span>
+1. <span data-ttu-id="66170-107">**Associar o pool com um servidor do Office Web Apps** - você marcar essa caixa de seleção se for fornecer e implantar um Office Web Apps Server para seus usuários de conferência.</span><span class="sxs-lookup"><span data-stu-id="66170-107">**Associate pool with an Office Web Apps Server** - You select this check box if you will provide and deploy an Office Web Apps Server for your conferencing users.</span></span>
 
-2. <span data-ttu-id="06e19-108">Se você tiver marcado a caixa de seleção, use a lista para selecionar um Office Web Apps Server já definido.</span><span class="sxs-lookup"><span data-stu-id="06e19-108">If you have selected the check box, you use the list to select an already defined Office Web Apps Server.</span></span>
+2. <span data-ttu-id="66170-108">Se você tiver marcado a caixa de seleção, use a lista para selecionar um Office Web Apps Server já definido.</span><span class="sxs-lookup"><span data-stu-id="66170-108">If you have selected the check box, you use the list to select an already defined Office Web Apps Server.</span></span>
 
-3. <span data-ttu-id="06e19-109">Clique em **Novo** para definir um novo Servidor do Office Web Apps para sua implantação.</span><span class="sxs-lookup"><span data-stu-id="06e19-109">Click **New** to define a new Office Web Apps Server for your deployment.</span></span>
+3. <span data-ttu-id="66170-109">Clique em **Novo** para definir um novo Servidor do Office Web Apps para sua implantação.</span><span class="sxs-lookup"><span data-stu-id="66170-109">Click **New** to define a new Office Web Apps Server for your deployment.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="06e19-110">Confira também</span><span class="sxs-lookup"><span data-stu-id="06e19-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="66170-110">Confira também</span><span class="sxs-lookup"><span data-stu-id="66170-110">See also</span></span>
 
-[<span data-ttu-id="06e19-111">Publishing Office Web Apps Server Using a Reverse Proxy Server</span><span class="sxs-lookup"><span data-stu-id="06e19-111">Publishing Office Web Apps Server Using a Reverse Proxy Server</span></span>](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
+[<span data-ttu-id="66170-111">Publishing Office Web Apps Server Using a Reverse Proxy Server</span><span class="sxs-lookup"><span data-stu-id="66170-111">Publishing Office Web Apps Server Using a Reverse Proxy Server</span></span>](https://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
