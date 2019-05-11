@@ -1,8 +1,8 @@
 ---
 title: Adicionar Máquina de Front End
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e7fe2522-1bd2-416a-9dbb-51cacea9c6e0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Especifique o nome de domínio totalmente qualificado (FQDN) de cada computador que você deseja adicionar como um servidor Front-End do pool. Depois de adicionar um computador à lista, você poderá atualizar o FQDN do computador ou removê-lo do pool em qualquer ocasião antes de publicar a topologia. Depois de publicar a topologia, alterando o FQDN requer, excluindo o servidor no construtor de topologia e, em seguida, adicionando um novo servidor ao pool com o novo FQDN. Para obter detalhes sobre como adicionar um pool de Front-End à topologia, consulte Define and Configure a Front End Pool na documentação de implantação.
-ms.openlocfilehash: c93b109a10addb8e25015c6052e4cfde68c48682
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 321e1f392fb06ba4e99dc17e668e188b2fee5338
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220938"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912061"
 ---
 # <a name="add-front-end-machine"></a>Adicionar Máquina de Front End
 

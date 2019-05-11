@@ -1,8 +1,8 @@
 ---
 title: Selecionar Registro de Uso PSTN
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use a caixa de diálogo Selecionar registro de uso do PSTN para localizar um registro de uso PSTN (rede) telefônica comutada pública existente que você pode usar.
-ms.openlocfilehash: 5dc662b2a1c1327e64e74ca987e8f6c433b55438
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b5d25f08cf10a2c691c63c1da4d02b19fd31b2db
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221240"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890561"
 ---
 # <a name="select-pstn-usage-record"></a>Selecionar Registro de Uso PSTN
  

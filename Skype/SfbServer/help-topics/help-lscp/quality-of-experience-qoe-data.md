@@ -1,8 +1,8 @@
 ---
 title: Dados de QoE (Qualidade da Experiência)
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: e9b1352d62d5901a8da85a45a90a78f5163eb04d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d6ea78a4528f79cd52f32eac281b7925270a2ffe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220246"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924308"
 ---
 # <a name="quality-of-experience-qoe-data"></a>Dados de QoE (Qualidade da Experiência)
  

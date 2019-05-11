@@ -1,8 +1,8 @@
 ---
 title: Instalar e Criar Bancos de Dados
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você seleciona os bancos de dados que você deseja criar sua implantação. Por padrão, o banco de dados será criado no SQL Server definido no site do definido e será automaticamente implantar e configurar os arquivos de banco de dados com base em você estiver colocando os bancos de dados no SQL Server.
-ms.openlocfilehash: f9b345a741182968e32bc0907d70c0924a61ea3f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a0a49f5c751503c166d83c16e815a1cd63db751a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201790"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906631"
 ---
 # <a name="install-and-create-databases"></a>Instalar e Criar Bancos de Dados
 

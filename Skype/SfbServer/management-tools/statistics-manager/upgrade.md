@@ -1,8 +1,8 @@
 ---
-title: Atualizar o Gerenciador de Estatísticas do Skype for Business Server
+title: Atualizar o Gerenciador de estatísticas do Skype for Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Resumo: Leia este tópico para saber como atualizar o Gerenciador de estatísticas Skype for Business Server.'
-ms.openlocfilehash: 8ff7eeb9c0abbd0482248f9b69db4013edda6495
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1349d3e67481b2f0dd8c354c01b70a33969ed51d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198451"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906715"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Atualizar o Gerenciador de Estatísticas do Skype for Business Server
+# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Atualizar o Gerenciador de estatísticas do Skype for Business Server
  
 **Resumo:** Leia este tópico para saber como atualizar o Gerenciador de estatísticas Skype for Business Server.
   
@@ -107,7 +107,7 @@ Se, por algum motivo, a atualização automatizada falhar, é possível executar
 
 Para obter mais informações, consulte o seguinte:
   
-- [Planejar o Gerenciador de Estatísticas do Skype for Business Server](plan.md)
+- [Planejar o Gerenciador de estatísticas do Skype for Business Server](plan.md)
     
 - [Implantar o Gerenciador de estatísticas do Skype for Business Server](deploy.md)
     

@@ -1,8 +1,8 @@
 ---
 title: Adicionar Repositório de Arquivamento Front End
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 description: O arquivamento requer uma edição de 64 bits com suporte do software de banco de dados Microsoft SQL Server para armazenar os dados de arquivamento. Você pode selecionar um banco de dados do SQL Server definido anteriormente a ser usado para arquivamento, ou definir um novo banco de dados do SQL Server, especificando um nome de domínio totalmente qualificado (FQDN) do servidor no qual o banco de dados do SQL Server residir, além da instância do SQL Se servidor & que você deseja usar para o novo banco de dados do SQL Server (que pode ser a instância padrão ou uma instância nomeada que você especificar).
-ms.openlocfilehash: bbdcd20333897078dea7deddc716d67dcca1b2f5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: d366dd114bdfcf61b68971553eebdbf0f927ab35
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873490"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886231"
 ---
 # <a name="add-front-end-archiving-store"></a>Adicionar Repositório de Arquivamento Front End
 

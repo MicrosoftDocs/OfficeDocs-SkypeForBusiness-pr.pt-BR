@@ -1,7 +1,7 @@
 ---
 title: Notas de versão
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: Este artigo discute as melhorias cumulativas em salas de equipes da Microsoft.
-ms.openlocfilehash: 7c628a130593c900e79daa872645394415e1aa73
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 1e116ed9a7936c3feca81385cc5fb70787066554
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362570"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916264"
 ---
 # <a name="release-notes"></a>Notas de versão 
 

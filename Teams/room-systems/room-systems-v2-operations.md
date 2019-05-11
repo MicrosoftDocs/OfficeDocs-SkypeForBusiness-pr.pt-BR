@@ -1,7 +1,7 @@
 ---
 title: Operações e manutenção de salas de equipes da Microsoft
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/10/2018
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 ms.collection: M365-voice
 localization_priority: Normal
 description: Leia este tópico para saber mais sobre o gerenciamento de salas de equipes da Microsoft, a próxima geração de sistemas de sala Skype.
-ms.openlocfilehash: efaf2a1bae7980855501b826d6a2ee902f0f56b2
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 384920dc64d16dd9a50d7eee6e8546ad9920044e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362594"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916324"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Operações e manutenção de salas de equipes da Microsoft 
  
