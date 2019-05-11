@@ -1,7 +1,7 @@
 ---
 title: Scripts de configuração da sala do Sistema de Salas do Skype
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -10,20 +10,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: Leia este tópico para encontrar scripts de amostra para o provisionamento das contas do Sistema de Salas do Skype.
-ms.openlocfilehash: 2032799059d59d1a99526a2b90630dd3c7b1cb3e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 10e68de94f7327c2a2c111af98a725ad4d8a6754
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219378"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895177"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a><span data-ttu-id="ca7d0-103">Scripts de configuração da sala do Sistema de Salas do Skype</span><span class="sxs-lookup"><span data-stu-id="ca7d0-103">Skype Room System room setup scripts</span></span>
+# <a name="skype-room-system-room-setup-scripts"></a><span data-ttu-id="1ccdd-103">Scripts de configuração da sala do Sistema de Salas do Skype</span><span class="sxs-lookup"><span data-stu-id="1ccdd-103">Skype Room System room setup scripts</span></span>
  
-<span data-ttu-id="ca7d0-104">Leia este tópico para encontrar scripts de amostra para o provisionamento das contas do Sistema de Salas do Skype.</span><span class="sxs-lookup"><span data-stu-id="ca7d0-104">Read this topic to find sample scripts for provisioning Skype Room System accounts.</span></span>
+<span data-ttu-id="1ccdd-104">Leia este tópico para encontrar scripts de amostra para o provisionamento das contas do Sistema de Salas do Skype.</span><span class="sxs-lookup"><span data-stu-id="1ccdd-104">Read this topic to find sample scripts for provisioning Skype Room System accounts.</span></span>
   
-<span data-ttu-id="ca7d0-105">Esta seção demonstra os scripts de amostra que podem ser usados para provisionar contas do sistema do Skype sala.</span><span class="sxs-lookup"><span data-stu-id="ca7d0-105">This section illustrates sample scripts that can be used to provision Skype Room System accounts.</span></span> <span data-ttu-id="ca7d0-106">Esses scripts são apenas para fins ilustrativos e devem ser utilizados apenas após consulta com o seu especialista em TI ou administrador de domínio.</span><span class="sxs-lookup"><span data-stu-id="ca7d0-106">These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.</span></span>
+<span data-ttu-id="1ccdd-105">Esta seção demonstra os scripts de amostra que podem ser usados para provisionar contas do sistema do Skype sala.</span><span class="sxs-lookup"><span data-stu-id="1ccdd-105">This section illustrates sample scripts that can be used to provision Skype Room System accounts.</span></span> <span data-ttu-id="1ccdd-106">Esses scripts são apenas para fins ilustrativos e devem ser utilizados apenas após consulta com o seu especialista em TI ou administrador de domínio.</span><span class="sxs-lookup"><span data-stu-id="1ccdd-106">These scripts are for illustrative purposes only and should be used only after consulting with your IT expert or domain administrator.</span></span>
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a><span data-ttu-id="ca7d0-107">Script de configuração de exemplo: Skype para Exchange Server (no local) e de negócios</span><span class="sxs-lookup"><span data-stu-id="ca7d0-107">Example Setup Script: Skype for Business and Exchange Server (On Premises)</span></span>
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a><span data-ttu-id="1ccdd-107">Script de configuração de exemplo: Skype para Exchange Server (no local) e de negócios</span><span class="sxs-lookup"><span data-stu-id="1ccdd-107">Example Setup Script: Skype for Business and Exchange Server (On Premises)</span></span>
 
 ```
 # On Exchange 
@@ -37,17 +37,17 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a><span data-ttu-id="ca7d0-108">Script de configuração de exemplo: Skype para comerciais e de servidor do Exchange Online</span><span class="sxs-lookup"><span data-stu-id="ca7d0-108">Example Setup Script: Skype for Business and Exchange Server Online</span></span>
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a><span data-ttu-id="1ccdd-108">Script de configuração de exemplo: Skype para comerciais e de servidor do Exchange Online</span><span class="sxs-lookup"><span data-stu-id="1ccdd-108">Example Setup Script: Skype for Business and Exchange Server Online</span></span>
 
-<span data-ttu-id="ca7d0-109">Certifique-se de que você já analisou os seguintes pré-requisitos antes de executar o script:</span><span class="sxs-lookup"><span data-stu-id="ca7d0-109">Make sure you've reviewed the following prerequisites before running the script:</span></span>
+<span data-ttu-id="1ccdd-109">Certifique-se de que você já analisou os seguintes pré-requisitos antes de executar o script:</span><span class="sxs-lookup"><span data-stu-id="1ccdd-109">Make sure you've reviewed the following prerequisites before running the script:</span></span>
   
-- <span data-ttu-id="ca7d0-110">Assistente de Conexão do Microsoft Online Services para Profissionais de TI BETA</span><span class="sxs-lookup"><span data-stu-id="ca7d0-110">Microsoft Online Services Sign-In Assistant for IT Professionals BETA</span></span>
+- <span data-ttu-id="1ccdd-110">Assistente de Conexão do Microsoft Online Services para Profissionais de TI BETA</span><span class="sxs-lookup"><span data-stu-id="1ccdd-110">Microsoft Online Services Sign-In Assistant for IT Professionals BETA</span></span>
     
-- <span data-ttu-id="ca7d0-111">Módulo do Active Directory do Windows Azure para Windows PowerShell (versão de 64 bits) ou (versão de 32 bits)</span><span class="sxs-lookup"><span data-stu-id="ca7d0-111">Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)</span></span>
+- <span data-ttu-id="1ccdd-111">Módulo do Active Directory do Windows Azure para Windows PowerShell (versão de 64 bits) ou (versão de 32 bits)</span><span class="sxs-lookup"><span data-stu-id="1ccdd-111">Windows Azure Active Directory Module for Windows PowerShell (64-bit version) or (32-bit version)</span></span>
     
-- <span data-ttu-id="ca7d0-112">Módulo Windows PowerShell para o Lync Online</span><span class="sxs-lookup"><span data-stu-id="ca7d0-112">Windows PowerShell Module for Lync Online</span></span>
+- <span data-ttu-id="1ccdd-112">Módulo Windows PowerShell para o Lync Online</span><span class="sxs-lookup"><span data-stu-id="1ccdd-112">Windows PowerShell Module for Lync Online</span></span>
     
-- <span data-ttu-id="ca7d0-113">Reinicie se necessário</span><span class="sxs-lookup"><span data-stu-id="ca7d0-113">Reboot if needed</span></span>
+- <span data-ttu-id="1ccdd-113">Reinicie se necessário</span><span class="sxs-lookup"><span data-stu-id="1ccdd-113">Reboot if needed</span></span>
     
 ```
 # Note you have to enter each command one at a time and update any bold fields for your environment
