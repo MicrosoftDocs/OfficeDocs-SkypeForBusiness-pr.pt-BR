@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2010 Criar Novo Expansor
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ef810ad3-1689-4c21-b995-d45e5486f8b0
 description: Você pode criar novas funções de servidor no nó do Lync Server 2010 do construtor de topologia com botão direito do mouse em Lync Server 2010, selecione Novo e selecione a função de servidor a ser criada.
-ms.openlocfilehash: 6f4e42e891768cdc9d75cb006939ff7ec6a9c4d5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 94bcb7c825c9e1f7bcfc006701c4a2652793e0af
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200113"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888510"
 ---
-# <a name="lync-server-2010-create-new-expander"></a><span data-ttu-id="09375-103">Lync Server 2010 Criar Novo Expansor</span><span class="sxs-lookup"><span data-stu-id="09375-103">Lync Server 2010 Create New Expander</span></span>
+# <a name="lync-server-2010-create-new-expander"></a><span data-ttu-id="f66ac-103">Lync Server 2010 Criar Novo Expansor</span><span class="sxs-lookup"><span data-stu-id="f66ac-103">Lync Server 2010 Create New Expander</span></span>
  
-<span data-ttu-id="09375-104">Você pode criar novas funções de servidor no nó do Lync Server 2010 do construtor de topologia com botão direito do mouse em **Lync Server 2010**, selecione **novo**e selecione a função de servidor a ser criada.</span><span class="sxs-lookup"><span data-stu-id="09375-104">You can create new server roles in the Lync Server 2010 node of Topology Builder by right clicking on **Lync Server 2010**, select **New**, then select the server role to create.</span></span>
+<span data-ttu-id="f66ac-104">Você pode criar novas funções de servidor no nó do Lync Server 2010 do construtor de topologia com botão direito do mouse em **Lync Server 2010**, selecione **novo**e selecione a função de servidor a ser criada.</span><span class="sxs-lookup"><span data-stu-id="f66ac-104">You can create new server roles in the Lync Server 2010 node of Topology Builder by right clicking on **Lync Server 2010**, select **New**, then select the server role to create.</span></span>
   
 

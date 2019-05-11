@@ -1,8 +1,8 @@
 ---
 title: Associar Appliance de Escritório com Borda
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Se você tiver servidores de borda implantados e deve fornecer serviços de mídia para uso externo, escolha o servidor de borda ou pool que será associado com o aparelho de filial persistente ou servidor de filial persistente, selecionando-o na lista suspensa. Clique em Avançar para continuar.
-ms.openlocfilehash: ba98cbbed88251511d789137e6af716642749973
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f5f59af45d104f111ff6c2fd02c5e0734bf22520
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220653"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33887108"
 ---
-# <a name="associate-branch-office-appliance-with-edge"></a><span data-ttu-id="83284-104">Associar Appliance de Escritório com Borda</span><span class="sxs-lookup"><span data-stu-id="83284-104">Associate Branch Office Appliance With Edge</span></span>
+# <a name="associate-branch-office-appliance-with-edge"></a><span data-ttu-id="98aeb-104">Associar Appliance de Escritório com Borda</span><span class="sxs-lookup"><span data-stu-id="98aeb-104">Associate Branch Office Appliance With Edge</span></span>
  
-<span data-ttu-id="83284-105">Se você tiver servidores de borda implantados e deve fornecer serviços de mídia para uso externo, escolha o servidor de borda ou pool que será associado com o aparelho de filial persistente ou servidor de filial persistente, selecionando-o na lista suspensa.</span><span class="sxs-lookup"><span data-stu-id="83284-105">If you have Edge Servers deployed and must provide media services for external use, choose the Edge Server or pool that will be associated with the Survivable Branch Appliance or Survivable Branch Server by selecting it in the drop-down list.</span></span> <span data-ttu-id="83284-106">Clique em **Avançar** para continuar.</span><span class="sxs-lookup"><span data-stu-id="83284-106">Click **Next** to continue.</span></span>
+<span data-ttu-id="98aeb-105">Se você tiver servidores de borda implantados e deve fornecer serviços de mídia para uso externo, escolha o servidor de borda ou pool que será associado com o aparelho de filial persistente ou servidor de filial persistente, selecionando-o na lista suspensa.</span><span class="sxs-lookup"><span data-stu-id="98aeb-105">If you have Edge Servers deployed and must provide media services for external use, choose the Edge Server or pool that will be associated with the Survivable Branch Appliance or Survivable Branch Server by selecting it in the drop-down list.</span></span> <span data-ttu-id="98aeb-106">Clique em **Avançar** para continuar.</span><span class="sxs-lookup"><span data-stu-id="98aeb-106">Click **Next** to continue.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="83284-107">Se você não tiver um servidor de borda ou pool de servidores de borda definido em sua topologia, você poderá ignorar esta etapa.</span><span class="sxs-lookup"><span data-stu-id="83284-107">If you do not have an Edge Server or Edge Server pool defined in your topology, you can skip this step.</span></span> <span data-ttu-id="83284-108">Você será capaz de associar o aparelho de filial persistente ou servidor de filial persistente com um servidor de borda ou pool de servidores de borda quando você definir um novo servidor de borda ou pool de servidores de borda, ou quando você edita as páginas de propriedades do aparelho de filial persistente ou persistente Servidor de filial depois que um servidor de borda ou pool de servidor de borda é definido na topologia.</span><span class="sxs-lookup"><span data-stu-id="83284-108">You will be able to associate the Survivable Branch Appliance or Survivable Branch Server with an Edge Server or Edge Server pool when you define a new Edge Server or Edge Server pool, or when you edit the property pages of the Survivable Branch Appliance or Survivable Branch Server after an Edge Server or Edge Server pool is defined in the topology.</span></span> 
+> <span data-ttu-id="98aeb-107">Se você não tiver um servidor de borda ou pool de servidores de borda definido em sua topologia, você poderá ignorar esta etapa.</span><span class="sxs-lookup"><span data-stu-id="98aeb-107">If you do not have an Edge Server or Edge Server pool defined in your topology, you can skip this step.</span></span> <span data-ttu-id="98aeb-108">Você será capaz de associar o aparelho de filial persistente ou servidor de filial persistente com um servidor de borda ou pool de servidores de borda quando você definir um novo servidor de borda ou pool de servidores de borda, ou quando você edita as páginas de propriedades do aparelho de filial persistente ou persistente Servidor de filial depois que um servidor de borda ou pool de servidor de borda é definido na topologia.</span><span class="sxs-lookup"><span data-stu-id="98aeb-108">You will be able to associate the Survivable Branch Appliance or Survivable Branch Server with an Edge Server or Edge Server pool when you define a new Edge Server or Edge Server pool, or when you edit the property pages of the Survivable Branch Appliance or Survivable Branch Server after an Edge Server or Edge Server pool is defined in the topology.</span></span> 
   
 

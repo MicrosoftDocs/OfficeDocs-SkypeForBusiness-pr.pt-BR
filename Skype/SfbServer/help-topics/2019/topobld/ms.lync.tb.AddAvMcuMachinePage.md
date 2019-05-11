@@ -1,8 +1,8 @@
 ---
 title: Adicionar Máquina A/V MCU
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 56f6f46e-7482-45dc-87dc-c2b30e3ec67f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Especifique o nome de domínio totalmente qualificado (FQDN) de cada computador que você deseja adicionar como um A / V Conferencing Server na / pool de conferência V. Depois de adicionar um computador à lista, você poderá atualizar o FQDN do computador ou removê-lo do pool em qualquer ocasião antes de publicar a topologia. Depois de publicar a topologia, alterando o FQDN requer, excluindo o servidor no construtor de topologia e, em seguida, adicionando um novo servidor ao pool com o novo FQDN.
-ms.openlocfilehash: ae7fed78d40d0bb4f94b761e30ed0c500e24f2d5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 51c70f590173b28fd1cc4ead9a95ed391630e7ef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202286"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889343"
 ---
-# <a name="add-av-mcu-machine"></a><span data-ttu-id="26d3f-105">Adicionar Máquina A/V MCU</span><span class="sxs-lookup"><span data-stu-id="26d3f-105">Add A/V MCU Machine</span></span>
+# <a name="add-av-mcu-machine"></a><span data-ttu-id="33b9a-105">Adicionar Máquina A/V MCU</span><span class="sxs-lookup"><span data-stu-id="33b9a-105">Add A/V MCU Machine</span></span>
  
-<span data-ttu-id="26d3f-106">Especifique o nome de domínio totalmente qualificado (FQDN) de cada computador que você deseja adicionar como um A / V Conferencing Server na / pool de conferência V.</span><span class="sxs-lookup"><span data-stu-id="26d3f-106">Specify the fully qualified domain name (FQDN) of each computer that you want to add as an A/V Conferencing Server in this A/V Conferencing pool.</span></span> <span data-ttu-id="26d3f-107">Depois de adicionar um computador à lista, você poderá atualizar o FQDN do computador ou removê-lo do pool em qualquer ocasião antes de publicar a topologia.</span><span class="sxs-lookup"><span data-stu-id="26d3f-107">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="26d3f-108">Depois de publicar a topologia, alterando o FQDN requer, excluindo o servidor no construtor de topologia e, em seguida, adicionando um novo servidor ao pool com o novo FQDN.</span><span class="sxs-lookup"><span data-stu-id="26d3f-108">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> 
+<span data-ttu-id="33b9a-106">Especifique o nome de domínio totalmente qualificado (FQDN) de cada computador que você deseja adicionar como um A / V Conferencing Server na / pool de conferência V.</span><span class="sxs-lookup"><span data-stu-id="33b9a-106">Specify the fully qualified domain name (FQDN) of each computer that you want to add as an A/V Conferencing Server in this A/V Conferencing pool.</span></span> <span data-ttu-id="33b9a-107">Depois de adicionar um computador à lista, você poderá atualizar o FQDN do computador ou removê-lo do pool em qualquer ocasião antes de publicar a topologia.</span><span class="sxs-lookup"><span data-stu-id="33b9a-107">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="33b9a-108">Depois de publicar a topologia, alterando o FQDN requer, excluindo o servidor no construtor de topologia e, em seguida, adicionando um novo servidor ao pool com o novo FQDN.</span><span class="sxs-lookup"><span data-stu-id="33b9a-108">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> 
   
 

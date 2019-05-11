@@ -1,8 +1,8 @@
 ---
 title: Adicionar Servidor de Monitoramento
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 365f5b3a-ad1b-4145-bd5c-296c9a0aa482
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para incorporar um Monitoring Server em seu design de topologia, você deve especificar o nome de domínio totalmente qualificado (FQDN) do servidor no qual você deseja implantar o Monitoring Server. Antes de publicar uma topologia que inclua o Monitoring Server e instalando Skype para Business Server no servidor, você deve concluir todos os pré-requisitos para implantar o monitoramento. Para obter detalhes sobre os pré-requisitos, consulte Deploying Monitoring na documentação de Implantação.
-ms.openlocfilehash: 1bb8cfe2f0e3619c124ababecca5c3c1e2935510
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ad369ac1d7481005bb9b4b1c6e8e4c972abac2ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220871"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888888"
 ---
-# <a name="add-monitoring-server"></a><span data-ttu-id="b21ca-105">Adicionar Servidor de Monitoramento</span><span class="sxs-lookup"><span data-stu-id="b21ca-105">Add Monitoring Server</span></span>
+# <a name="add-monitoring-server"></a><span data-ttu-id="8881c-105">Adicionar Servidor de Monitoramento</span><span class="sxs-lookup"><span data-stu-id="8881c-105">Add Monitoring Server</span></span>
 
-<span data-ttu-id="b21ca-106">Para incorporar um Monitoring Server em seu design de topologia, você deve especificar o nome de domínio totalmente qualificado (FQDN) do servidor no qual você deseja implantar o Monitoring Server.</span><span class="sxs-lookup"><span data-stu-id="b21ca-106">To incorporate a Monitoring Server into your topology design, you must specify the fully qualified domain name (FQDN) of the server on which you want to deploy Monitoring Server.</span></span> <span data-ttu-id="b21ca-107">Antes de publicar uma topologia que inclua o Monitoring Server e instalando Skype para Business Server no servidor, você deve concluir todos os pré-requisitos para implantar o monitoramento.</span><span class="sxs-lookup"><span data-stu-id="b21ca-107">Prior to publishing a topology that includes the Monitoring Server and installing Skype for Business Server on the server, you should complete all prerequisites for deploying monitoring.</span></span> <span data-ttu-id="b21ca-108">Para obter detalhes sobre os pré-requisitos, consulte [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx) na documentação de Implantação.</span><span class="sxs-lookup"><span data-stu-id="b21ca-108">For details about these prerequisites, see [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx) in the Deployment documentation.</span></span>
+<span data-ttu-id="8881c-106">Para incorporar um Monitoring Server em seu design de topologia, você deve especificar o nome de domínio totalmente qualificado (FQDN) do servidor no qual você deseja implantar o Monitoring Server.</span><span class="sxs-lookup"><span data-stu-id="8881c-106">To incorporate a Monitoring Server into your topology design, you must specify the fully qualified domain name (FQDN) of the server on which you want to deploy Monitoring Server.</span></span> <span data-ttu-id="8881c-107">Antes de publicar uma topologia que inclua o Monitoring Server e instalando Skype para Business Server no servidor, você deve concluir todos os pré-requisitos para implantar o monitoramento.</span><span class="sxs-lookup"><span data-stu-id="8881c-107">Prior to publishing a topology that includes the Monitoring Server and installing Skype for Business Server on the server, you should complete all prerequisites for deploying monitoring.</span></span> <span data-ttu-id="8881c-108">Para obter detalhes sobre os pré-requisitos, consulte [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx) na documentação de Implantação.</span><span class="sxs-lookup"><span data-stu-id="8881c-108">For details about these prerequisites, see [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx) in the Deployment documentation.</span></span>
 
 

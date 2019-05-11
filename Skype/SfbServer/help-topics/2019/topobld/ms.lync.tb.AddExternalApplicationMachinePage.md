@@ -1,8 +1,8 @@
 ---
 title: Adicionar máquina de Aplicativo Confiável
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: e951328e-d06b-4c9d-af21-305b2357188b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Especifique o nome de domínio totalmente qualificado (FQDN) de cada computador que você deseja adicionar como um servidor de aplicativos confiáveis neste pool. Depois de adicionar um computador à lista, você poderá atualizar o FQDN do computador ou removê-lo do pool em qualquer ocasião antes de publicar a topologia. Depois de publicar a topologia, alterando o FQDN requer, excluindo o servidor no construtor de topologia e, em seguida, adicionando um novo servidor ao pool com o novo FQDN.
-ms.openlocfilehash: 1508b7ace9b2ecec9db1b97a2cd71fab740bc2e9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 74bc2b919f1fe476f2d91d57fdd9ae10433aa36d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235488"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888986"
 ---
-# <a name="add-trusted-application-machine"></a><span data-ttu-id="28d39-105">Adicionar máquina de Aplicativo Confiável</span><span class="sxs-lookup"><span data-stu-id="28d39-105">Add Trusted Application Machine</span></span>
+# <a name="add-trusted-application-machine"></a><span data-ttu-id="4c926-105">Adicionar máquina de Aplicativo Confiável</span><span class="sxs-lookup"><span data-stu-id="4c926-105">Add Trusted Application Machine</span></span>
  
-<span data-ttu-id="28d39-106">Especifique o nome de domínio totalmente qualificado (FQDN) de cada computador que você deseja adicionar como um servidor de aplicativos confiáveis neste pool.</span><span class="sxs-lookup"><span data-stu-id="28d39-106">Specify the fully qualified domain name (FQDN) of each computer that you want to add as a Trusted Application Server in this pool.</span></span> <span data-ttu-id="28d39-107">Depois de adicionar um computador à lista, você poderá atualizar o FQDN do computador ou removê-lo do pool em qualquer ocasião antes de publicar a topologia.</span><span class="sxs-lookup"><span data-stu-id="28d39-107">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="28d39-108">Depois de publicar a topologia, alterando o FQDN requer, excluindo o servidor no construtor de topologia e, em seguida, adicionando um novo servidor ao pool com o novo FQDN.</span><span class="sxs-lookup"><span data-stu-id="28d39-108">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> 
+<span data-ttu-id="4c926-106">Especifique o nome de domínio totalmente qualificado (FQDN) de cada computador que você deseja adicionar como um servidor de aplicativos confiáveis neste pool.</span><span class="sxs-lookup"><span data-stu-id="4c926-106">Specify the fully qualified domain name (FQDN) of each computer that you want to add as a Trusted Application Server in this pool.</span></span> <span data-ttu-id="4c926-107">Depois de adicionar um computador à lista, você poderá atualizar o FQDN do computador ou removê-lo do pool em qualquer ocasião antes de publicar a topologia.</span><span class="sxs-lookup"><span data-stu-id="4c926-107">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="4c926-108">Depois de publicar a topologia, alterando o FQDN requer, excluindo o servidor no construtor de topologia e, em seguida, adicionando um novo servidor ao pool com o novo FQDN.</span><span class="sxs-lookup"><span data-stu-id="4c926-108">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> 
   
 
