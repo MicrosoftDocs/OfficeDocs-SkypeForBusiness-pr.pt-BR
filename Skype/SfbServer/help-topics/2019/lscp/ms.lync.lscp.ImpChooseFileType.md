@@ -1,8 +1,8 @@
 ---
 title: Selecionar Extensões de Tipo de Arquivo
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use a caixa de diálogo Selecionar extensões de tipo de arquivo para selecionar as extensões de tipo de arquivo que você deseja bloquear ou permitir marcando (para bloquear) ou desmarcando (para permitir) as caixas de seleção ao lado das extensões de arquivo Digite extensões. Clique na seta para expandir uma categoria e exibir todas as extensões de tipo de arquivo para essa categoria. Se você deseja selecionar todas as extensões de tipo de arquivo para uma categoria, selecione o nome da categoria.
-ms.openlocfilehash: 17ded977e4b5d4dc217ca8d2743d1e5ac369c342
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 80f70530496bed374b8122a6580af0c70013c22e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215567"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891450"
 ---
-# <a name="select-file-type-extensions"></a><span data-ttu-id="13002-105">Selecionar Extensões de Tipo de Arquivo</span><span class="sxs-lookup"><span data-stu-id="13002-105">Select File Type Extensions</span></span>
+# <a name="select-file-type-extensions"></a><span data-ttu-id="5a904-105">Selecionar Extensões de Tipo de Arquivo</span><span class="sxs-lookup"><span data-stu-id="5a904-105">Select File Type Extensions</span></span>
  
-<span data-ttu-id="13002-106">Use a caixa de diálogo **Selecionar extensões de tipo de arquivo** para selecionar as extensões de tipo de arquivo que você deseja bloquear ou permitir marcando (para bloquear) ou desmarcando (para permitir) as caixas de seleção ao lado das extensões de **extensões de tipo de arquivo**.</span><span class="sxs-lookup"><span data-stu-id="13002-106">Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**.</span></span> <span data-ttu-id="13002-107">Clique na seta para expandir uma categoria e exibir todas as extensões de tipo de arquivo para essa categoria.</span><span class="sxs-lookup"><span data-stu-id="13002-107">Click the arrow to expand a category and view all of the file type extensions for that category.</span></span> <span data-ttu-id="13002-108">Se você deseja selecionar todas as extensões de tipo de arquivo para uma categoria, selecione o nome da categoria.</span><span class="sxs-lookup"><span data-stu-id="13002-108">If you want to select all of the file type extensions for a category, select the category name.</span></span> 
+<span data-ttu-id="5a904-106">Use a caixa de diálogo **Selecionar extensões de tipo de arquivo** para selecionar as extensões de tipo de arquivo que você deseja bloquear ou permitir marcando (para bloquear) ou desmarcando (para permitir) as caixas de seleção ao lado das extensões de **extensões de tipo de arquivo**.</span><span class="sxs-lookup"><span data-stu-id="5a904-106">Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**.</span></span> <span data-ttu-id="5a904-107">Clique na seta para expandir uma categoria e exibir todas as extensões de tipo de arquivo para essa categoria.</span><span class="sxs-lookup"><span data-stu-id="5a904-107">Click the arrow to expand a category and view all of the file type extensions for that category.</span></span> <span data-ttu-id="5a904-108">Se você deseja selecionar todas as extensões de tipo de arquivo para uma categoria, selecione o nome da categoria.</span><span class="sxs-lookup"><span data-stu-id="5a904-108">If you want to select all of the file type extensions for a category, select the category name.</span></span> 
   
-<span data-ttu-id="13002-109">Se você não vir a extensão para um tipo de arquivo que você deseja selecionar listada em **extensões de tipo de arquivo**, digite a extensão na caixa de texto em **Adicionar novas extensões de arquivo à lista**e, em seguida, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="13002-109">If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**.</span></span> 
+<span data-ttu-id="5a904-109">Se você não vir a extensão para um tipo de arquivo que você deseja selecionar listada em **extensões de tipo de arquivo**, digite a extensão na caixa de texto em **Adicionar novas extensões de arquivo à lista**e, em seguida, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="5a904-109">If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**.</span></span> 
   
-<span data-ttu-id="13002-110">Depois que todas as extensões de tipo de arquivo que você deseja adicionar à lista de **extensões de tipo de arquivo selecionados** , clique em **Okey**.</span><span class="sxs-lookup"><span data-stu-id="13002-110">After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.</span></span>
+<span data-ttu-id="5a904-110">Depois que todas as extensões de tipo de arquivo que você deseja adicionar à lista de **extensões de tipo de arquivo selecionados** , clique em **Okey**.</span><span class="sxs-lookup"><span data-stu-id="5a904-110">After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.</span></span>
   
  
   
