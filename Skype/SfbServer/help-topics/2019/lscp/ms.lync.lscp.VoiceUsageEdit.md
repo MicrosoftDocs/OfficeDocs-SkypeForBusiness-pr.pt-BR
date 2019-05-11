@@ -1,8 +1,8 @@
 ---
 title: Uso da PSTN criar novo ou editar existente
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,22 +13,22 @@ localization_priority: Normal
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: a7a29caefbc2920952e832a7124288d4e98d132c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3f4ba759d30c3dc74fd9798c8aaa2feda215074e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221099"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890400"
 ---
-# <a name="pstn-usage-create-new-or-edit-existing"></a><span data-ttu-id="fa7e3-104">Uso PSTN: Criar Novo ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="fa7e3-104">PSTN Usage: Create New or Edit Existing</span></span>
+# <a name="pstn-usage-create-new-or-edit-existing"></a><span data-ttu-id="720ee-104">Uso PSTN: Criar Novo ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="720ee-104">PSTN Usage: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="fa7e3-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="fa7e3-105">What do you want to do?</span></span> <span data-ttu-id="fa7e3-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="fa7e3-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="720ee-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="720ee-105">What do you want to do?</span></span> <span data-ttu-id="720ee-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="720ee-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="fa7e3-107">Exibir registros de uso PSTN em Skype para negócios</span><span class="sxs-lookup"><span data-stu-id="fa7e3-107">View PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
+- [<span data-ttu-id="720ee-107">Exibir registros de uso PSTN em Skype para negócios</span><span class="sxs-lookup"><span data-stu-id="720ee-107">View PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
 
-- [<span data-ttu-id="fa7e3-108">Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios</span><span class="sxs-lookup"><span data-stu-id="fa7e3-108">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [<span data-ttu-id="720ee-108">Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios</span><span class="sxs-lookup"><span data-stu-id="720ee-108">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
-- [<span data-ttu-id="fa7e3-109">Modificar uma política de voz e configurar registros de uso PSTN</span><span class="sxs-lookup"><span data-stu-id="fa7e3-109">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+- [<span data-ttu-id="720ee-109">Modificar uma política de voz e configurar registros de uso PSTN</span><span class="sxs-lookup"><span data-stu-id="720ee-109">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
 
 
 

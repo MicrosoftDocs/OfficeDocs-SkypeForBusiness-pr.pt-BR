@@ -1,7 +1,7 @@
 ---
 title: Lista de verificação de atualização | Skype corporativos à atualização de equipes | Etapas básicas
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,201 +18,201 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9c95e8eea5081be4b26732914cff7618b415021
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4d3a4aacf23ffcad426a86735e55ed6a03e06e07
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227571"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920502"
 ---
 <a name="about-upgrade-basic"></a>
 
-# <a name="upgrade-basic"></a><span data-ttu-id="ad82a-103">Atualização básica</span><span class="sxs-lookup"><span data-stu-id="ad82a-103">Upgrade Basic</span></span>
+# <a name="upgrade-basic"></a><span data-ttu-id="b60d5-103">Atualização básica</span><span class="sxs-lookup"><span data-stu-id="b60d5-103">Upgrade Basic</span></span>
 
-<span data-ttu-id="ad82a-104">Projetado para organizações menores ou aquelas que usam o Skype para Business Online para IM (chat) e somente em reuniões, a lista de verificação atualizar básica é um plano de ação acelerado que inclui o núcleo, recomendado atividades e recursos de implementação associados um movimentação bem-sucedida do Skype para negócios às equipes.</span><span class="sxs-lookup"><span data-stu-id="ad82a-104">Designed for smaller organizations or those using Skype for Business Online for IM (chat) and meetings only, the Upgrade Basic checklist is an accelerated action plan that includes core, recommended activities and associated resources for implementing a successful move from Skype for Business to Teams.</span></span>
+<span data-ttu-id="b60d5-104">Projetado para organizações menores ou aquelas que usam o Skype para Business Online para IM (chat) e somente em reuniões, a lista de verificação atualizar básica é um plano de ação acelerado que inclui o núcleo, recomendado atividades e recursos de implementação associados um movimentação bem-sucedida do Skype para negócios às equipes.</span><span class="sxs-lookup"><span data-stu-id="b60d5-104">Designed for smaller organizations or those using Skype for Business Online for IM (chat) and meetings only, the Upgrade Basic checklist is an accelerated action plan that includes core, recommended activities and associated resources for implementing a successful move from Skype for Business to Teams.</span></span>
 
-<span data-ttu-id="ad82a-105">Estas etapas simples dez fornecem tudo o que você precisa para uma atualização bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="ad82a-105">These ten easy steps provide everything you need for a successful upgrade.</span></span> <span data-ttu-id="ad82a-106">Eles são projetados para ser concluído em cerca de 30 ou 45 dias, mas você deve ajustar datas de conclusão da tarefa com base no cronograma de atualização da sua organização.</span><span class="sxs-lookup"><span data-stu-id="ad82a-106">They’re designed to be completed in about 30 to 45 days, but you should adjust task completion dates based on your organization’s upgrade schedule.</span></span>
+<span data-ttu-id="b60d5-105">Estas etapas simples dez fornecem tudo o que você precisa para uma atualização bem-sucedida.</span><span class="sxs-lookup"><span data-stu-id="b60d5-105">These ten easy steps provide everything you need for a successful upgrade.</span></span> <span data-ttu-id="b60d5-106">Eles são projetados para ser concluído em cerca de 30 ou 45 dias, mas você deve ajustar datas de conclusão da tarefa com base no cronograma de atualização da sua organização.</span><span class="sxs-lookup"><span data-stu-id="b60d5-106">They’re designed to be completed in about 30 to 45 days, but you should adjust task completion dates based on your organization’s upgrade schedule.</span></span>
 
-<span data-ttu-id="ad82a-107">O que acontece ao Skype para negócios após a atualização?</span><span class="sxs-lookup"><span data-stu-id="ad82a-107">What happens to Skype for Business after the upgrade?</span></span> <span data-ttu-id="ad82a-108">Depois que os usuários são atualizados para equipes (**Equipes somente** modo):</span><span class="sxs-lookup"><span data-stu-id="ad82a-108">After your users are upgraded to Teams (**Teams Only** mode):</span></span>
+<span data-ttu-id="b60d5-107">O que acontece ao Skype para negócios após a atualização?</span><span class="sxs-lookup"><span data-stu-id="b60d5-107">What happens to Skype for Business after the upgrade?</span></span> <span data-ttu-id="b60d5-108">Depois que os usuários são atualizados para equipes (**Equipes somente** modo):</span><span class="sxs-lookup"><span data-stu-id="b60d5-108">After your users are upgraded to Teams (**Teams Only** mode):</span></span>
 
-- <span data-ttu-id="ad82a-109">Seu Skype para o cliente de negócios está desabilitada, e todas as chamadas e bate-papo vá para equipes.</span><span class="sxs-lookup"><span data-stu-id="ad82a-109">Their Skype for Business client is disabled, and all chat and calls go to Teams.</span></span> <span data-ttu-id="ad82a-110">Observe que isso não desinstala o cliente em suas áreas de trabalho.</span><span class="sxs-lookup"><span data-stu-id="ad82a-110">Note that this will not uninstall the client on their desktops.</span></span>
-- <span data-ttu-id="ad82a-111">Qualquer Skype para reuniões de negócios que foram agendadas antes do trabalho de atualização conforme planejado, mas todas as novas reuniões serão agendadas em equipes.</span><span class="sxs-lookup"><span data-stu-id="ad82a-111">Any Skype for Business meetings that were scheduled before the upgrade work as designed, but all new meetings are scheduled in Teams.</span></span>
-- <span data-ttu-id="ad82a-112">Se os usuários tentam entrar no Skype para os negócios, elas obtém uma notificação de seu cliente que eles foram atualizados para equipes.</span><span class="sxs-lookup"><span data-stu-id="ad82a-112">If users try to sign in to Skype for Business, they get a notification from their client that they’ve been upgraded to Teams.</span></span>
-- <span data-ttu-id="ad82a-113">Os usuários precisam desinstalar manualmente o Skype para o cliente de negócios em seus dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="ad82a-113">Users need to manually uninstall the Skype for Business client on their mobile devices.</span></span>
+- <span data-ttu-id="b60d5-109">Seu Skype para o cliente de negócios está desabilitada, e todas as chamadas e bate-papo vá para equipes.</span><span class="sxs-lookup"><span data-stu-id="b60d5-109">Their Skype for Business client is disabled, and all chat and calls go to Teams.</span></span> <span data-ttu-id="b60d5-110">Observe que isso não desinstala o cliente em suas áreas de trabalho.</span><span class="sxs-lookup"><span data-stu-id="b60d5-110">Note that this will not uninstall the client on their desktops.</span></span>
+- <span data-ttu-id="b60d5-111">Qualquer Skype para reuniões de negócios que foram agendadas antes do trabalho de atualização conforme planejado, mas todas as novas reuniões serão agendadas em equipes.</span><span class="sxs-lookup"><span data-stu-id="b60d5-111">Any Skype for Business meetings that were scheduled before the upgrade work as designed, but all new meetings are scheduled in Teams.</span></span>
+- <span data-ttu-id="b60d5-112">Se os usuários tentam entrar no Skype para os negócios, elas obtém uma notificação de seu cliente que eles foram atualizados para equipes.</span><span class="sxs-lookup"><span data-stu-id="b60d5-112">If users try to sign in to Skype for Business, they get a notification from their client that they’ve been upgraded to Teams.</span></span>
+- <span data-ttu-id="b60d5-113">Os usuários precisam desinstalar manualmente o Skype para o cliente de negócios em seus dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="b60d5-113">Users need to manually uninstall the Skype for Business client on their mobile devices.</span></span>
 
-<span data-ttu-id="ad82a-114">Consulte nossas [perguntas Frequentes](https://aka.ms/SkypeToTeams-FAQ) para fazer perguntas adicionais sobre a atualização.</span><span class="sxs-lookup"><span data-stu-id="ad82a-114">See our [FAQ](https://aka.ms/SkypeToTeams-FAQ) for additional questions about your upgrade.</span></span>
+<span data-ttu-id="b60d5-114">Consulte nossas [perguntas Frequentes](https://aka.ms/SkypeToTeams-FAQ) para fazer perguntas adicionais sobre a atualização.</span><span class="sxs-lookup"><span data-stu-id="b60d5-114">See our [FAQ](https://aka.ms/SkypeToTeams-FAQ) for additional questions about your upgrade.</span></span>
 
-<span data-ttu-id="ad82a-115">Não estiver familiarizado com as equipes?</span><span class="sxs-lookup"><span data-stu-id="ad82a-115">Not familiar with Teams?</span></span> <span data-ttu-id="ad82a-116">[Leia mais sobre como as equipes](https://products.office.com/microsoft-teams/group-chat-software) reúne conversas, reuniões, arquivos, aplicativos do Office e integrações de terceiros — fornecendo um hub único para o trabalho em equipe no Office 365.</span><span class="sxs-lookup"><span data-stu-id="ad82a-116">[Read about how Teams](https://products.office.com/microsoft-teams/group-chat-software) brings together conversations, meetings, files, Office apps, and third-party integrations—providing a single hub for teamwork in Office 365.</span></span>
+<span data-ttu-id="b60d5-115">Não estiver familiarizado com as equipes?</span><span class="sxs-lookup"><span data-stu-id="b60d5-115">Not familiar with Teams?</span></span> <span data-ttu-id="b60d5-116">[Leia mais sobre como as equipes](https://products.office.com/microsoft-teams/group-chat-software) reúne conversas, reuniões, arquivos, aplicativos do Office e integrações de terceiros — fornecendo um hub único para o trabalho em equipe no Office 365.</span><span class="sxs-lookup"><span data-stu-id="b60d5-116">[Read about how Teams](https://products.office.com/microsoft-teams/group-chat-software) brings together conversations, meetings, files, Office apps, and third-party integrations—providing a single hub for teamwork in Office 365.</span></span>
 
 <!--ENDOFSECTION-->
 
 <a name="step-1"></a>
 
-## <a name="step-1-notify-your-key-stakeholders"></a><span data-ttu-id="ad82a-117">Etapa 1.</span><span class="sxs-lookup"><span data-stu-id="ad82a-117">Step 1.</span></span> <span data-ttu-id="ad82a-118">Notificar seus os principais participantes</span><span class="sxs-lookup"><span data-stu-id="ad82a-118">Notify your key stakeholders</span></span>
+## <a name="step-1-notify-your-key-stakeholders"></a><span data-ttu-id="b60d5-117">Etapa 1.</span><span class="sxs-lookup"><span data-stu-id="b60d5-117">Step 1.</span></span> <span data-ttu-id="b60d5-118">Notificar seus os principais participantes</span><span class="sxs-lookup"><span data-stu-id="b60d5-118">Notify your key stakeholders</span></span>
 
-<span data-ttu-id="ad82a-119">*(Aproximadamente quatro a seis semanas antes da atualização)*</span><span class="sxs-lookup"><span data-stu-id="ad82a-119">*(About four to six weeks before the upgrade)*</span></span>
+<span data-ttu-id="b60d5-119">*(Aproximadamente quatro a seis semanas antes da atualização)*</span><span class="sxs-lookup"><span data-stu-id="b60d5-119">*(About four to six weeks before the upgrade)*</span></span>
 
-<span data-ttu-id="ad82a-120">Líderes sênior são responsáveis por sucesso da empresa; Certifique-se de mantê-los informado sobre alterações de tecnologia.</span><span class="sxs-lookup"><span data-stu-id="ad82a-120">Senior leaders are accountable for company success; be sure to keep them in the know about technology changes.</span></span> <span data-ttu-id="ad82a-121">Como é possível que nem todos recebida ou ler a notificação de atualização qualificação, você precisará informar os acionistas (por exemplo, CEO, IT profissionais, Marketing e os líderes de assistência técnica) antes de começar a planejar a atualização.</span><span class="sxs-lookup"><span data-stu-id="ad82a-121">Because it’s possible that not everyone received or read the notification of upgrade eligibility, you need to inform your stakeholders (for example, CEO, IT pros, Marketing, and helpdesk leads) before you begin planning your upgrade.</span></span>
+<span data-ttu-id="b60d5-120">Líderes sênior são responsáveis por sucesso da empresa; Certifique-se de mantê-los informado sobre alterações de tecnologia.</span><span class="sxs-lookup"><span data-stu-id="b60d5-120">Senior leaders are accountable for company success; be sure to keep them in the know about technology changes.</span></span> <span data-ttu-id="b60d5-121">Como é possível que nem todos recebida ou ler a notificação de atualização qualificação, você precisará informar os acionistas (por exemplo, CEO, IT profissionais, Marketing e os líderes de assistência técnica) antes de começar a planejar a atualização.</span><span class="sxs-lookup"><span data-stu-id="b60d5-121">Because it’s possible that not everyone received or read the notification of upgrade eligibility, you need to inform your stakeholders (for example, CEO, IT pros, Marketing, and helpdesk leads) before you begin planning your upgrade.</span></span>
 
-<span data-ttu-id="ad82a-122">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="ad82a-122">**Resources:**</span></span>
+<span data-ttu-id="b60d5-122">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="b60d5-122">**Resources:**</span></span>
 
-- [<span data-ttu-id="ad82a-123">E-mail de exemplo: comunicação das partes interessadas</span><span class="sxs-lookup"><span data-stu-id="ad82a-123">Sample email: stakeholder communication</span></span>](upgrade-emails-surveys.md#step-1-email)
+- [<span data-ttu-id="b60d5-123">E-mail de exemplo: comunicação das partes interessadas</span><span class="sxs-lookup"><span data-stu-id="b60d5-123">Sample email: stakeholder communication</span></span>](upgrade-emails-surveys.md#step-1-email)
 
-[<span data-ttu-id="ad82a-124">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="ad82a-124">Return to top</span></span>](#about-upgrade-basic)
+[<span data-ttu-id="b60d5-124">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="b60d5-124">Return to top</span></span>](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
 
 <a name="step-2"></a>
 
-## <a name="step-2-prepare-your-organization-for-teams"></a><span data-ttu-id="ad82a-125">Etapa 2.</span><span class="sxs-lookup"><span data-stu-id="ad82a-125">Step 2.</span></span> <span data-ttu-id="ad82a-126">Preparar sua organização para o Teams</span><span class="sxs-lookup"><span data-stu-id="ad82a-126">Prepare your organization for Teams</span></span>
+## <a name="step-2-prepare-your-organization-for-teams"></a><span data-ttu-id="b60d5-125">Etapa 2.</span><span class="sxs-lookup"><span data-stu-id="b60d5-125">Step 2.</span></span> <span data-ttu-id="b60d5-126">Preparar sua organização para o Teams</span><span class="sxs-lookup"><span data-stu-id="b60d5-126">Prepare your organization for Teams</span></span>
 
-<span data-ttu-id="ad82a-127">*(Aproximadamente quatro a seis semanas antes da atualização)*</span><span class="sxs-lookup"><span data-stu-id="ad82a-127">*(About four to six weeks before the upgrade)*</span></span>
+<span data-ttu-id="b60d5-127">*(Aproximadamente quatro a seis semanas antes da atualização)*</span><span class="sxs-lookup"><span data-stu-id="b60d5-127">*(About four to six weeks before the upgrade)*</span></span>
 
-<span data-ttu-id="ad82a-128">As equipes oferece compatível Skype para a funcionalidade de negócios — como IM (chat) e reuniões — mas ele também pode fazer muito mais.</span><span class="sxs-lookup"><span data-stu-id="ad82a-128">Teams offers compatible Skype for Business functionality—such as IM (chat) and meetings—but it can also do so much more.</span></span> <span data-ttu-id="ad82a-129">Como um hub true para o trabalho em equipe, equipes permite que os grupos de trabalho gerenciar projetos, arquivos, conversas e aplicativos em um local.</span><span class="sxs-lookup"><span data-stu-id="ad82a-129">As a true hub for teamwork, Teams enables workgroups to manage projects, files, conversations, and apps all in one location.</span></span> <span data-ttu-id="ad82a-130">Decida como sua organização usará as equipes e configurar seu ambiente para o sucesso.</span><span class="sxs-lookup"><span data-stu-id="ad82a-130">Decide how your organization will use Teams and configure your environment for success.</span></span>
+<span data-ttu-id="b60d5-128">As equipes oferece compatível Skype para a funcionalidade de negócios — como IM (chat) e reuniões — mas ele também pode fazer muito mais.</span><span class="sxs-lookup"><span data-stu-id="b60d5-128">Teams offers compatible Skype for Business functionality—such as IM (chat) and meetings—but it can also do so much more.</span></span> <span data-ttu-id="b60d5-129">Como um hub true para o trabalho em equipe, equipes permite que os grupos de trabalho gerenciar projetos, arquivos, conversas e aplicativos em um local.</span><span class="sxs-lookup"><span data-stu-id="b60d5-129">As a true hub for teamwork, Teams enables workgroups to manage projects, files, conversations, and apps all in one location.</span></span> <span data-ttu-id="b60d5-130">Decida como sua organização usará as equipes e configurar seu ambiente para o sucesso.</span><span class="sxs-lookup"><span data-stu-id="b60d5-130">Decide how your organization will use Teams and configure your environment for success.</span></span>
 
 > [!Note]
-> <span data-ttu-id="ad82a-131">Como um Skype existente para o cliente de negócios, sua infra-estrutura de rede atual é provável já configurado para equipes.</span><span class="sxs-lookup"><span data-stu-id="ad82a-131">As an existing Skype for Business customer, your current network infrastructure is likely already configured for Teams.</span></span> <span data-ttu-id="ad82a-132">Para confirmar isso, você pode seguir as orientações "Concluir planejamento técnico" vinculada ao abaixo (isto é opcional).</span><span class="sxs-lookup"><span data-stu-id="ad82a-132">To confirm this, you can follow the “Complete technical planning” guidance linked to below (this is optional).</span></span>
+> <span data-ttu-id="b60d5-131">Como um Skype existente para o cliente de negócios, sua infra-estrutura de rede atual é provável já configurado para equipes.</span><span class="sxs-lookup"><span data-stu-id="b60d5-131">As an existing Skype for Business customer, your current network infrastructure is likely already configured for Teams.</span></span> <span data-ttu-id="b60d5-132">Para confirmar isso, você pode seguir as orientações "Concluir planejamento técnico" vinculada ao abaixo (isto é opcional).</span><span class="sxs-lookup"><span data-stu-id="b60d5-132">To confirm this, you can follow the “Complete technical planning” guidance linked to below (this is optional).</span></span>
 
-<span data-ttu-id="ad82a-133">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="ad82a-133">**Resources:**</span></span>
+<span data-ttu-id="b60d5-133">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="b60d5-133">**Resources:**</span></span>
 
-- [<span data-ttu-id="ad82a-134">Visão geral do Teams</span><span class="sxs-lookup"><span data-stu-id="ad82a-134">Overview of Teams</span></span>](Teams-overview.md)
-- [<span data-ttu-id="ad82a-135">Saiba mais sobre as equipes e canais</span><span class="sxs-lookup"><span data-stu-id="ad82a-135">Learn about teams and channels</span></span>](teams-channels-overview.md)
-- [<span data-ttu-id="ad82a-136">Concluir planejamento técnico</span><span class="sxs-lookup"><span data-stu-id="ad82a-136">Complete technical planning</span></span>](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [<span data-ttu-id="ad82a-137">Gerenciar Salas do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ad82a-137">Manage Microsoft Teams Rooms</span></span>](https://aka.ms/MTRDocs)
+- [<span data-ttu-id="b60d5-134">Visão geral do Teams</span><span class="sxs-lookup"><span data-stu-id="b60d5-134">Overview of Teams</span></span>](Teams-overview.md)
+- [<span data-ttu-id="b60d5-135">Saiba mais sobre as equipes e canais</span><span class="sxs-lookup"><span data-stu-id="b60d5-135">Learn about teams and channels</span></span>](teams-channels-overview.md)
+- [<span data-ttu-id="b60d5-136">Concluir planejamento técnico</span><span class="sxs-lookup"><span data-stu-id="b60d5-136">Complete technical planning</span></span>](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+- [<span data-ttu-id="b60d5-137">Gerenciar Salas do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="b60d5-137">Manage Microsoft Teams Rooms</span></span>](https://aka.ms/MTRDocs)
 
-[<span data-ttu-id="ad82a-138">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="ad82a-138">Return to top</span></span>](#about-upgrade-basic)
+[<span data-ttu-id="b60d5-138">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="b60d5-138">Return to top</span></span>](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
 
 <a name="step-3"></a>
 
-## <a name="step-3-know-your-skype-for-business-users"></a><span data-ttu-id="ad82a-139">Etapa 3.</span><span class="sxs-lookup"><span data-stu-id="ad82a-139">Step 3.</span></span> <span data-ttu-id="ad82a-140">Saber sua Skype para usuários comerciais</span><span class="sxs-lookup"><span data-stu-id="ad82a-140">Know your Skype for Business users</span></span>
+## <a name="step-3-know-your-skype-for-business-users"></a><span data-ttu-id="b60d5-139">Etapa 3.</span><span class="sxs-lookup"><span data-stu-id="b60d5-139">Step 3.</span></span> <span data-ttu-id="b60d5-140">Saber sua Skype para usuários comerciais</span><span class="sxs-lookup"><span data-stu-id="b60d5-140">Know your Skype for Business users</span></span>
 
-<span data-ttu-id="ad82a-141">*(Cerca de quatro semanas antes da atualização)*</span><span class="sxs-lookup"><span data-stu-id="ad82a-141">*(About four weeks before the upgrade)*</span></span>
+<span data-ttu-id="b60d5-141">*(Cerca de quatro semanas antes da atualização)*</span><span class="sxs-lookup"><span data-stu-id="b60d5-141">*(About four weeks before the upgrade)*</span></span>
 
-<span data-ttu-id="ad82a-142">Os usuários que são altamente adotados em Skype para negócios talvez seja necessário um pouco mais tempo ou assistência para fazer a transição para equipes.</span><span class="sxs-lookup"><span data-stu-id="ad82a-142">Users who are deeply adopted on Skype for Business might need a little more time or assistance to make the transition to Teams.</span></span> <span data-ttu-id="ad82a-143">Demorar para examinar sua Skype atual para o uso de negócios para identificar os principais usuários que precisam de suporte adicional e estabelecer uma linha de base do uso que você pode controlar em relação a seus números de pós-atualização.</span><span class="sxs-lookup"><span data-stu-id="ad82a-143">Take time to review your current Skype for Business usage to identify your top users in need of additional support and to establish a usage baseline you can track against your post-upgrade numbers.</span></span>
+<span data-ttu-id="b60d5-142">Os usuários que são altamente adotados em Skype para negócios talvez seja necessário um pouco mais tempo ou assistência para fazer a transição para equipes.</span><span class="sxs-lookup"><span data-stu-id="b60d5-142">Users who are deeply adopted on Skype for Business might need a little more time or assistance to make the transition to Teams.</span></span> <span data-ttu-id="b60d5-143">Demorar para examinar sua Skype atual para o uso de negócios para identificar os principais usuários que precisam de suporte adicional e estabelecer uma linha de base do uso que você pode controlar em relação a seus números de pós-atualização.</span><span class="sxs-lookup"><span data-stu-id="b60d5-143">Take time to review your current Skype for Business usage to identify your top users in need of additional support and to establish a usage baseline you can track against your post-upgrade numbers.</span></span>
 
-<span data-ttu-id="ad82a-144">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="ad82a-144">**Resources:**</span></span>
+<span data-ttu-id="b60d5-144">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="b60d5-144">**Resources:**</span></span>
 
-- [<span data-ttu-id="ad82a-145">Consulte os dados de uso em relatórios de atividade no Office 365</span><span class="sxs-lookup"><span data-stu-id="ad82a-145">See usage data in activity reports in Office 365</span></span>](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+- [<span data-ttu-id="b60d5-145">Consulte os dados de uso em relatórios de atividade no Office 365</span><span class="sxs-lookup"><span data-stu-id="b60d5-145">See usage data in activity reports in Office 365</span></span>](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
-[<span data-ttu-id="ad82a-146">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="ad82a-146">Return to top</span></span>](#about-upgrade-basic)
+[<span data-ttu-id="b60d5-146">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="b60d5-146">Return to top</span></span>](#about-upgrade-basic)
 
 <a name="step-4"></a>
 
 <!--ENDOFSECTION-->
 
-## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a><span data-ttu-id="ad82a-147">Etapa 4.</span><span class="sxs-lookup"><span data-stu-id="ad82a-147">Step 4.</span></span> <span data-ttu-id="ad82a-148">Notifique os usuários que vai ser atualizando do Skype para negócios às equipes</span><span class="sxs-lookup"><span data-stu-id="ad82a-148">Notify your users that they’ll be upgrading from Skype for Business to Teams</span></span>
+## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a><span data-ttu-id="b60d5-147">Etapa 4.</span><span class="sxs-lookup"><span data-stu-id="b60d5-147">Step 4.</span></span> <span data-ttu-id="b60d5-148">Notifique os usuários que vai ser atualizando do Skype para negócios às equipes</span><span class="sxs-lookup"><span data-stu-id="b60d5-148">Notify your users that they’ll be upgrading from Skype for Business to Teams</span></span>
 
-<span data-ttu-id="ad82a-149">*(Aproximadamente dois ou três semanas antes da atualização)*</span><span class="sxs-lookup"><span data-stu-id="ad82a-149">*(About two to three weeks before the upgrade)*</span></span>
+<span data-ttu-id="b60d5-149">*(Aproximadamente dois ou três semanas antes da atualização)*</span><span class="sxs-lookup"><span data-stu-id="b60d5-149">*(About two to three weeks before the upgrade)*</span></span>
 
-<span data-ttu-id="ad82a-150">Fornecendo um amplo aviso para seus usuários fornecerá-los de tempo para se familiarizar com as equipes sem afetar negativamente sua produtividade, resultando em uma experiência de usuário mais positiva.</span><span class="sxs-lookup"><span data-stu-id="ad82a-150">Providing ample notice to your users will give them time to get familiar with Teams without negatively affecting their productivity, resulting in a more positive user experience.</span></span> <span data-ttu-id="ad82a-151">Envie uma comunicação informá-los sobre o que está mudando, por que ele está mudando e como eles possam se preparar para ele.</span><span class="sxs-lookup"><span data-stu-id="ad82a-151">Send a communication to tell them what’s changing, why it’s changing, and how they can prepare for it.</span></span>
+<span data-ttu-id="b60d5-150">Fornecendo um amplo aviso para seus usuários fornecerá-los de tempo para se familiarizar com as equipes sem afetar negativamente sua produtividade, resultando em uma experiência de usuário mais positiva.</span><span class="sxs-lookup"><span data-stu-id="b60d5-150">Providing ample notice to your users will give them time to get familiar with Teams without negatively affecting their productivity, resulting in a more positive user experience.</span></span> <span data-ttu-id="b60d5-151">Envie uma comunicação informá-los sobre o que está mudando, por que ele está mudando e como eles possam se preparar para ele.</span><span class="sxs-lookup"><span data-stu-id="b60d5-151">Send a communication to tell them what’s changing, why it’s changing, and how they can prepare for it.</span></span>
 
 > [!Note]
-> <span data-ttu-id="ad82a-152">Se necessário, você poderá habilitar equipes para seus usuários através do portal de administração do Office 365 neste momento.</span><span class="sxs-lookup"><span data-stu-id="ad82a-152">If needed, you can enable Teams for your users via the Office 365 admin portal at this time.</span></span>
+> <span data-ttu-id="b60d5-152">Se necessário, você poderá habilitar equipes para seus usuários através do portal de administração do Office 365 neste momento.</span><span class="sxs-lookup"><span data-stu-id="b60d5-152">If needed, you can enable Teams for your users via the Office 365 admin portal at this time.</span></span>
 
-<span data-ttu-id="ad82a-153">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="ad82a-153">**Resources:**</span></span>
+<span data-ttu-id="b60d5-153">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="b60d5-153">**Resources:**</span></span>
 
-- [<span data-ttu-id="ad82a-154">Gerenciar as configurações do Microsoft Teams para sua organização</span><span class="sxs-lookup"><span data-stu-id="ad82a-154">Manage Microsoft Teams settings for your organization</span></span>](enable-features-office-365.md)
-- [<span data-ttu-id="ad82a-155">E-mail de exemplo: comunicado aos usuários sobre Skype para negócios</span><span class="sxs-lookup"><span data-stu-id="ad82a-155">Sample email: announcement to users about Skype for Business</span></span>](upgrade-emails-surveys.md#step-4-email)
+- [<span data-ttu-id="b60d5-154">Gerenciar as configurações do Microsoft Teams para sua organização</span><span class="sxs-lookup"><span data-stu-id="b60d5-154">Manage Microsoft Teams settings for your organization</span></span>](enable-features-office-365.md)
+- [<span data-ttu-id="b60d5-155">E-mail de exemplo: comunicado aos usuários sobre Skype para negócios</span><span class="sxs-lookup"><span data-stu-id="b60d5-155">Sample email: announcement to users about Skype for Business</span></span>](upgrade-emails-surveys.md#step-4-email)
 
-[<span data-ttu-id="ad82a-156">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="ad82a-156">Return to top</span></span>](#about-upgrade-basic)
+[<span data-ttu-id="b60d5-156">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="b60d5-156">Return to top</span></span>](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
 
 <a name="step-5"></a>
 
-## <a name="step-5-activate-the-user-upgrade-notification"></a><span data-ttu-id="ad82a-157">Etapa 5.</span><span class="sxs-lookup"><span data-stu-id="ad82a-157">Step 5.</span></span> <span data-ttu-id="ad82a-158">Ativar a notificação de atualização do usuário</span><span class="sxs-lookup"><span data-stu-id="ad82a-158">Activate the user upgrade notification</span></span>
+## <a name="step-5-activate-the-user-upgrade-notification"></a><span data-ttu-id="b60d5-157">Etapa 5.</span><span class="sxs-lookup"><span data-stu-id="b60d5-157">Step 5.</span></span> <span data-ttu-id="b60d5-158">Ativar a notificação de atualização do usuário</span><span class="sxs-lookup"><span data-stu-id="b60d5-158">Activate the user upgrade notification</span></span>
 
-<span data-ttu-id="ad82a-159">*(Cerca de uma semana antes da atualização)*</span><span class="sxs-lookup"><span data-stu-id="ad82a-159">*(About one week before the upgrade)*</span></span>
+<span data-ttu-id="b60d5-159">*(Cerca de uma semana antes da atualização)*</span><span class="sxs-lookup"><span data-stu-id="b60d5-159">*(About one week before the upgrade)*</span></span>
 
-<span data-ttu-id="ad82a-160">Manter atualização momentum habilitando a notificação de atualização de usuário através do portal de administração, fornecendo um alerta visual no Skype para clientes corporativos que os usuários estejam sendo atualizados do Skype para negócios às equipes.</span><span class="sxs-lookup"><span data-stu-id="ad82a-160">Maintain upgrade momentum by enabling the user upgrade notification via the admin portal, providing a visual alert in the Skype for Business client that users are being upgraded from Skype for Business to Teams.</span></span>
+<span data-ttu-id="b60d5-160">Manter atualização momentum habilitando a notificação de atualização de usuário através do portal de administração, fornecendo um alerta visual no Skype para clientes corporativos que os usuários estejam sendo atualizados do Skype para negócios às equipes.</span><span class="sxs-lookup"><span data-stu-id="b60d5-160">Maintain upgrade momentum by enabling the user upgrade notification via the admin portal, providing a visual alert in the Skype for Business client that users are being upgraded from Skype for Business to Teams.</span></span>
 
-<span data-ttu-id="ad82a-161">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="ad82a-161">**Resources:**</span></span>
+<span data-ttu-id="b60d5-161">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="b60d5-161">**Resources:**</span></span>
 
-- [<span data-ttu-id="ad82a-162">Definir suas configurações de coexistência e atualização</span><span class="sxs-lookup"><span data-stu-id="ad82a-162">Setting your coexistence and upgrade settings</span></span>](setting-your-coexistence-and-upgrade-settings.md)
+- [<span data-ttu-id="b60d5-162">Definir suas configurações de coexistência e atualização</span><span class="sxs-lookup"><span data-stu-id="b60d5-162">Setting your coexistence and upgrade settings</span></span>](setting-your-coexistence-and-upgrade-settings.md)
 
-[<span data-ttu-id="ad82a-163">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="ad82a-163">Return to top</span></span>](#about-upgrade-basic)
+[<span data-ttu-id="b60d5-163">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="b60d5-163">Return to top</span></span>](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
 
 <a name="step-6"></a>
 
-## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a><span data-ttu-id="ad82a-164">Etapa 6.</span><span class="sxs-lookup"><span data-stu-id="ad82a-164">Step 6.</span></span> <span data-ttu-id="ad82a-165">Lembre aos usuários que vai ser atualizando do Skype para negócios às equipes</span><span class="sxs-lookup"><span data-stu-id="ad82a-165">Remind your users that they’ll be upgrading from Skype for Business to Teams</span></span>
+## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a><span data-ttu-id="b60d5-164">Etapa 6.</span><span class="sxs-lookup"><span data-stu-id="b60d5-164">Step 6.</span></span> <span data-ttu-id="b60d5-165">Lembre aos usuários que vai ser atualizando do Skype para negócios às equipes</span><span class="sxs-lookup"><span data-stu-id="b60d5-165">Remind your users that they’ll be upgrading from Skype for Business to Teams</span></span>
 
-<span data-ttu-id="ad82a-166">*(Cerca de cinco dias antes da atualização)*</span><span class="sxs-lookup"><span data-stu-id="ad82a-166">*(About five days before the upgrade)*</span></span>
+<span data-ttu-id="b60d5-166">*(Cerca de cinco dias antes da atualização)*</span><span class="sxs-lookup"><span data-stu-id="b60d5-166">*(About five days before the upgrade)*</span></span>
 
-<span data-ttu-id="ad82a-167">Os usuários estão ocupados com suas responsabilidades diárias.</span><span class="sxs-lookup"><span data-stu-id="ad82a-167">Users are busy with their daily responsibilities.</span></span> <span data-ttu-id="ad82a-168">Lembrá-los da atualização pendente ajudará a garantir Lembre-se a realizar as etapas que precisam para se preparar para equipes.</span><span class="sxs-lookup"><span data-stu-id="ad82a-168">Reminding them of the pending upgrade will help ensure they remember to take the steps they need to prepare for Teams.</span></span> <span data-ttu-id="ad82a-169">Este é o momento perfeito para lembrar os usuários sobre treinamento disponíveis e como começar com equipes.</span><span class="sxs-lookup"><span data-stu-id="ad82a-169">This is the perfect time to remind users about available training and how to get started with Teams.</span></span>
+<span data-ttu-id="b60d5-167">Os usuários estão ocupados com suas responsabilidades diárias.</span><span class="sxs-lookup"><span data-stu-id="b60d5-167">Users are busy with their daily responsibilities.</span></span> <span data-ttu-id="b60d5-168">Lembrá-los da atualização pendente ajudará a garantir Lembre-se a realizar as etapas que precisam para se preparar para equipes.</span><span class="sxs-lookup"><span data-stu-id="b60d5-168">Reminding them of the pending upgrade will help ensure they remember to take the steps they need to prepare for Teams.</span></span> <span data-ttu-id="b60d5-169">Este é o momento perfeito para lembrar os usuários sobre treinamento disponíveis e como começar com equipes.</span><span class="sxs-lookup"><span data-stu-id="b60d5-169">This is the perfect time to remind users about available training and how to get started with Teams.</span></span>
 
-<span data-ttu-id="ad82a-170">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="ad82a-170">**Resources:**</span></span>
+<span data-ttu-id="b60d5-170">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="b60d5-170">**Resources:**</span></span>
 
-- [<span data-ttu-id="ad82a-171">E-mail de exemplo: lembrar os usuários para começar com equipes</span><span class="sxs-lookup"><span data-stu-id="ad82a-171">Sample email: remind users to get started with Teams</span></span>](upgrade-emails-surveys.md#step-6-email)
+- [<span data-ttu-id="b60d5-171">E-mail de exemplo: lembrar os usuários para começar com equipes</span><span class="sxs-lookup"><span data-stu-id="b60d5-171">Sample email: remind users to get started with Teams</span></span>](upgrade-emails-surveys.md#step-6-email)
 
-[<span data-ttu-id="ad82a-172">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="ad82a-172">Return to top</span></span>](#about-upgrade-basic)
+[<span data-ttu-id="b60d5-172">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="b60d5-172">Return to top</span></span>](#about-upgrade-basic)
 
 <a name="step-7"></a>
 
 <!--ENDOFSECTION-->
 
-## <a name="step-7-upgrade-users-to-teams"></a><span data-ttu-id="ad82a-173">Etapa 7.</span><span class="sxs-lookup"><span data-stu-id="ad82a-173">Step 7.</span></span> <span data-ttu-id="ad82a-174">Atualize os usuários para equipes!</span><span class="sxs-lookup"><span data-stu-id="ad82a-174">Upgrade users to Teams!</span></span>
+## <a name="step-7-upgrade-users-to-teams"></a><span data-ttu-id="b60d5-173">Etapa 7.</span><span class="sxs-lookup"><span data-stu-id="b60d5-173">Step 7.</span></span> <span data-ttu-id="b60d5-174">Atualize os usuários para equipes!</span><span class="sxs-lookup"><span data-stu-id="b60d5-174">Upgrade users to Teams!</span></span>
 
-<span data-ttu-id="ad82a-175">*(Atualização dia)*</span><span class="sxs-lookup"><span data-stu-id="ad82a-175">*(Upgrade Day)*</span></span>
+<span data-ttu-id="b60d5-175">*(Atualização dia)*</span><span class="sxs-lookup"><span data-stu-id="b60d5-175">*(Upgrade Day)*</span></span>
 
-<span data-ttu-id="ad82a-176">Hoje é o dia em que sua organização oficialmente atualiza para equipes como sua solução de comunicação e colaboração.</span><span class="sxs-lookup"><span data-stu-id="ad82a-176">Today is the day your organization officially upgrades to Teams as your communication and collaboration solution.</span></span> <span data-ttu-id="ad82a-177">No Centro de administração do Microsoft Teams, ative a opção de atualização, definindo o modo de coexistência para **Equipes somente**.</span><span class="sxs-lookup"><span data-stu-id="ad82a-177">In the Microsoft Teams admin center, activate the upgrade switch by setting the coexistence mode to **Teams Only**.</span></span> <span data-ttu-id="ad82a-178">(No Centro de administração, vá para **configurações de toda a organização** > **Atualizar equipes**.) Os usuários receberão uma notificação em seu Skype para que eles foram atualizados para equipes de cliente de negócios.</span><span class="sxs-lookup"><span data-stu-id="ad82a-178">(In the admin center, go to **Org-wide Settings** > **Teams Upgrade**.) Users will receive a notification in their Skype for Business client that they’ve been upgraded to Teams.</span></span>
+<span data-ttu-id="b60d5-176">Hoje é o dia em que sua organização oficialmente atualiza para equipes como sua solução de comunicação e colaboração.</span><span class="sxs-lookup"><span data-stu-id="b60d5-176">Today is the day your organization officially upgrades to Teams as your communication and collaboration solution.</span></span> <span data-ttu-id="b60d5-177">No Centro de administração do Microsoft Teams, ative a opção de atualização, definindo o modo de coexistência para **Equipes somente**.</span><span class="sxs-lookup"><span data-stu-id="b60d5-177">In the Microsoft Teams admin center, activate the upgrade switch by setting the coexistence mode to **Teams Only**.</span></span> <span data-ttu-id="b60d5-178">(No Centro de administração, vá para **configurações de toda a organização** > **Atualizar equipes**.) Os usuários receberão uma notificação em seu Skype para que eles foram atualizados para equipes de cliente de negócios.</span><span class="sxs-lookup"><span data-stu-id="b60d5-178">(In the admin center, go to **Org-wide Settings** > **Teams Upgrade**.) Users will receive a notification in their Skype for Business client that they’ve been upgraded to Teams.</span></span>
 
-<span data-ttu-id="ad82a-179">É recomendável depois que todos tem sido atualizado, você enviar um email de boas-vindas para equipes.</span><span class="sxs-lookup"><span data-stu-id="ad82a-179">We recommend that after everyone has been upgraded, you send an email welcoming them to Teams.</span></span>
+<span data-ttu-id="b60d5-179">É recomendável depois que todos tem sido atualizado, você enviar um email de boas-vindas para equipes.</span><span class="sxs-lookup"><span data-stu-id="b60d5-179">We recommend that after everyone has been upgraded, you send an email welcoming them to Teams.</span></span>
 
-<span data-ttu-id="ad82a-180">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="ad82a-180">**Resources:**</span></span>
+<span data-ttu-id="b60d5-180">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="b60d5-180">**Resources:**</span></span>
 
-- [<span data-ttu-id="ad82a-181">Definir suas configurações de coexistência e atualização</span><span class="sxs-lookup"><span data-stu-id="ad82a-181">Set your coexistence and upgrade settings</span></span>](setting-your-coexistence-and-upgrade-settings.md)
-- [<span data-ttu-id="ad82a-182">E-mail de exemplo: os usuários a equipes de boas-vindas</span><span class="sxs-lookup"><span data-stu-id="ad82a-182">Sample email: welcome users to Teams</span></span>](upgrade-emails-surveys.md#step-7-email)
+- [<span data-ttu-id="b60d5-181">Definir suas configurações de coexistência e atualização</span><span class="sxs-lookup"><span data-stu-id="b60d5-181">Set your coexistence and upgrade settings</span></span>](setting-your-coexistence-and-upgrade-settings.md)
+- [<span data-ttu-id="b60d5-182">E-mail de exemplo: os usuários a equipes de boas-vindas</span><span class="sxs-lookup"><span data-stu-id="b60d5-182">Sample email: welcome users to Teams</span></span>](upgrade-emails-surveys.md#step-7-email)
 
-[<span data-ttu-id="ad82a-183">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="ad82a-183">Return to top</span></span>](#about-upgrade-basic)
+[<span data-ttu-id="b60d5-183">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="b60d5-183">Return to top</span></span>](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
 
 <a name="step-8"></a>
 
-## <a name="step-8-monitor-teams-usage-against-your-baseline"></a><span data-ttu-id="ad82a-184">Etapa 8.</span><span class="sxs-lookup"><span data-stu-id="ad82a-184">Step 8.</span></span> <span data-ttu-id="ad82a-185">Monitorar o uso de equipes em relação a sua linha de base</span><span class="sxs-lookup"><span data-stu-id="ad82a-185">Monitor Teams usage against your baseline</span></span>
+## <a name="step-8-monitor-teams-usage-against-your-baseline"></a><span data-ttu-id="b60d5-184">Etapa 8.</span><span class="sxs-lookup"><span data-stu-id="b60d5-184">Step 8.</span></span> <span data-ttu-id="b60d5-185">Monitorar o uso de equipes em relação a sua linha de base</span><span class="sxs-lookup"><span data-stu-id="b60d5-185">Monitor Teams usage against your baseline</span></span>
 
-<span data-ttu-id="ad82a-186">*(Sobre uma ou duas semanas após a atualização)*</span><span class="sxs-lookup"><span data-stu-id="ad82a-186">*(About one or two weeks after the upgrade)*</span></span>
+<span data-ttu-id="b60d5-186">*(Sobre uma ou duas semanas após a atualização)*</span><span class="sxs-lookup"><span data-stu-id="b60d5-186">*(About one or two weeks after the upgrade)*</span></span>
 
-<span data-ttu-id="ad82a-187">Ajustando para uma nova tecnologia pode levar algum tempo.</span><span class="sxs-lookup"><span data-stu-id="ad82a-187">Adjusting to a new technology can take some time.</span></span> <span data-ttu-id="ad82a-188">Verifique o uso para verificar se os usuários estiverem usando equipes ao mesmo tempo — ou maior — nível como faziam com Skype para negócios.</span><span class="sxs-lookup"><span data-stu-id="ad82a-188">Check usage to verify that users are using Teams at the same—or greater—level as they did with Skype for Business.</span></span> <span data-ttu-id="ad82a-189">Verifique com os usuários que não estão usando equipes em níveis esperados.</span><span class="sxs-lookup"><span data-stu-id="ad82a-189">Check in with users who aren’t using Teams at expected levels.</span></span>
+<span data-ttu-id="b60d5-187">Ajustando para uma nova tecnologia pode levar algum tempo.</span><span class="sxs-lookup"><span data-stu-id="b60d5-187">Adjusting to a new technology can take some time.</span></span> <span data-ttu-id="b60d5-188">Verifique o uso para verificar se os usuários estiverem usando equipes ao mesmo tempo — ou maior — nível como faziam com Skype para negócios.</span><span class="sxs-lookup"><span data-stu-id="b60d5-188">Check usage to verify that users are using Teams at the same—or greater—level as they did with Skype for Business.</span></span> <span data-ttu-id="b60d5-189">Verifique com os usuários que não estão usando equipes em níveis esperados.</span><span class="sxs-lookup"><span data-stu-id="b60d5-189">Check in with users who aren’t using Teams at expected levels.</span></span>
 
-<span data-ttu-id="ad82a-190">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="ad82a-190">**Resources:**</span></span>
+<span data-ttu-id="b60d5-190">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="b60d5-190">**Resources:**</span></span>
 
-- [<span data-ttu-id="ad82a-191">Ver dados de uso</span><span class="sxs-lookup"><span data-stu-id="ad82a-191">See usage data</span></span>](https://portal.office.com/AdminPortal/Home#/reportsUsage)
+- [<span data-ttu-id="b60d5-191">Ver dados de uso</span><span class="sxs-lookup"><span data-stu-id="b60d5-191">See usage data</span></span>](https://portal.office.com/AdminPortal/Home#/reportsUsage)
 
-[<span data-ttu-id="ad82a-192">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="ad82a-192">Return to top</span></span>](#about-upgrade-basic)
+[<span data-ttu-id="b60d5-192">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="b60d5-192">Return to top</span></span>](#about-upgrade-basic)
 
 <a name="step-9"></a>
 
 <!--ENDOFSECTION-->
 
-## <a name="step-9-measure-user-satisfaction"></a><span data-ttu-id="ad82a-193">Etapa 9.</span><span class="sxs-lookup"><span data-stu-id="ad82a-193">Step 9.</span></span> <span data-ttu-id="ad82a-194">Satisfação do usuário de medida</span><span class="sxs-lookup"><span data-stu-id="ad82a-194">Measure user satisfaction</span></span>
+## <a name="step-9-measure-user-satisfaction"></a><span data-ttu-id="b60d5-193">Etapa 9.</span><span class="sxs-lookup"><span data-stu-id="b60d5-193">Step 9.</span></span> <span data-ttu-id="b60d5-194">Satisfação do usuário de medida</span><span class="sxs-lookup"><span data-stu-id="b60d5-194">Measure user satisfaction</span></span>
 
-<span data-ttu-id="ad82a-195">*(Sobre uma ou duas semanas após a atualização)*</span><span class="sxs-lookup"><span data-stu-id="ad82a-195">*(About one or two weeks after the upgrade)*</span></span>
+<span data-ttu-id="b60d5-195">*(Sobre uma ou duas semanas após a atualização)*</span><span class="sxs-lookup"><span data-stu-id="b60d5-195">*(About one or two weeks after the upgrade)*</span></span>
 
-<span data-ttu-id="ad82a-196">Satisfação do funcionário pode influenciar a produtividade, retenção, e — basicamente — os resultados dos negócios.</span><span class="sxs-lookup"><span data-stu-id="ad82a-196">Employee satisfaction can influence productivity, retention, and—ultimately—business outcomes.</span></span> <span data-ttu-id="ad82a-197">Chegar aos seus usuários para medir sentimento do usuário sobre a atualização e seu satisfação com equipes.</span><span class="sxs-lookup"><span data-stu-id="ad82a-197">Reach out to your users to gauge user sentiment about the upgrade and their satisfaction with Teams.</span></span>
+<span data-ttu-id="b60d5-196">Satisfação do funcionário pode influenciar a produtividade, retenção, e — basicamente — os resultados dos negócios.</span><span class="sxs-lookup"><span data-stu-id="b60d5-196">Employee satisfaction can influence productivity, retention, and—ultimately—business outcomes.</span></span> <span data-ttu-id="b60d5-197">Chegar aos seus usuários para medir sentimento do usuário sobre a atualização e seu satisfação com equipes.</span><span class="sxs-lookup"><span data-stu-id="b60d5-197">Reach out to your users to gauge user sentiment about the upgrade and their satisfaction with Teams.</span></span>
 
-<span data-ttu-id="ad82a-198">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="ad82a-198">**Resources:**</span></span>
+<span data-ttu-id="b60d5-198">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="b60d5-198">**Resources:**</span></span>
 
-- <span data-ttu-id="ad82a-199">[E-mail de exemplo: check-in com usuários](upgrade-emails-surveys.md#step-9-email), plus [pesquisas de usuário](upgrade-emails-surveys.md#step-9-surveys)</span><span class="sxs-lookup"><span data-stu-id="ad82a-199">[Sample email: check in with users](upgrade-emails-surveys.md#step-9-email), plus [user surveys](upgrade-emails-surveys.md#step-9-surveys)</span></span>
+- <span data-ttu-id="b60d5-199">[E-mail de exemplo: check-in com usuários](upgrade-emails-surveys.md#step-9-email), plus [pesquisas de usuário](upgrade-emails-surveys.md#step-9-surveys)</span><span class="sxs-lookup"><span data-stu-id="b60d5-199">[Sample email: check in with users](upgrade-emails-surveys.md#step-9-email), plus [user surveys](upgrade-emails-surveys.md#step-9-surveys)</span></span>
 
-[<span data-ttu-id="ad82a-200">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="ad82a-200">Return to top</span></span>](#about-upgrade-basic)
+[<span data-ttu-id="b60d5-200">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="b60d5-200">Return to top</span></span>](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
 
 <a name="step-10"></a>
 
-## <a name="step-10-maximize-your-roi-with-teams"></a><span data-ttu-id="ad82a-201">Etapa 10.</span><span class="sxs-lookup"><span data-stu-id="ad82a-201">Step 10.</span></span> <span data-ttu-id="ad82a-202">Maximize o ROI com equipes</span><span class="sxs-lookup"><span data-stu-id="ad82a-202">Maximize your ROI with Teams</span></span>
+## <a name="step-10-maximize-your-roi-with-teams"></a><span data-ttu-id="b60d5-201">Etapa 10.</span><span class="sxs-lookup"><span data-stu-id="b60d5-201">Step 10.</span></span> <span data-ttu-id="b60d5-202">Maximize o ROI com equipes</span><span class="sxs-lookup"><span data-stu-id="b60d5-202">Maximize your ROI with Teams</span></span>
 
-<span data-ttu-id="ad82a-203">*(Contínuos)*</span><span class="sxs-lookup"><span data-stu-id="ad82a-203">*(Ongoing)*</span></span>
+<span data-ttu-id="b60d5-203">*(Contínuos)*</span><span class="sxs-lookup"><span data-stu-id="b60d5-203">*(Ongoing)*</span></span>
 
-<span data-ttu-id="ad82a-204">Depois que os usuários são confortáveis com IM (chat) e reuniões em equipes, incentive estender seu caso de uso, usando a integração de aplicativos e colaboração de equipes, realmente otimizar sua nova solução e maximizando um retorno do investimento.</span><span class="sxs-lookup"><span data-stu-id="ad82a-204">After users are comfortable with IM (chat) and meetings in Teams, encourage them to extend their use case by using Teams collaboration and app integration, truly optimizing their new solution and maximizing a return on your investment.</span></span>
+<span data-ttu-id="b60d5-204">Depois que os usuários são confortáveis com IM (chat) e reuniões em equipes, incentive estender seu caso de uso, usando a integração de aplicativos e colaboração de equipes, realmente otimizar sua nova solução e maximizando um retorno do investimento.</span><span class="sxs-lookup"><span data-stu-id="b60d5-204">After users are comfortable with IM (chat) and meetings in Teams, encourage them to extend their use case by using Teams collaboration and app integration, truly optimizing their new solution and maximizing a return on your investment.</span></span>
 
-<span data-ttu-id="ad82a-205">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="ad82a-205">**Resources:**</span></span>
+<span data-ttu-id="b60d5-205">**Recursos:**</span><span class="sxs-lookup"><span data-stu-id="b60d5-205">**Resources:**</span></span>
 
-- [<span data-ttu-id="ad82a-206">E-mail de exemplo: incentivar os usuários a explorar equipes ainda mais</span><span class="sxs-lookup"><span data-stu-id="ad82a-206">Sample email: encourage users to explore Teams further</span></span>](upgrade-emails-surveys.md#step-10-email)
+- [<span data-ttu-id="b60d5-206">E-mail de exemplo: incentivar os usuários a explorar equipes ainda mais</span><span class="sxs-lookup"><span data-stu-id="b60d5-206">Sample email: encourage users to explore Teams further</span></span>](upgrade-emails-surveys.md#step-10-email)
 
-[<span data-ttu-id="ad82a-207">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="ad82a-207">Return to top</span></span>](#about-upgrade-basic)
+[<span data-ttu-id="b60d5-207">Retornar ao topo</span><span class="sxs-lookup"><span data-stu-id="b60d5-207">Return to top</span></span>](#about-upgrade-basic)

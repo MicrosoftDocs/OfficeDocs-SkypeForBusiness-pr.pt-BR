@@ -1,8 +1,8 @@
 ---
 title: Instalar ou Atualizar o Sistema Skype for Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para iniciar a instalação ou para atualizar uma implantação existente do Skype para Business Server, clique em instalar ou atualizar Skype para Business Server. As etapas desta seção instalará componentes específicos a uma função de servidor determinado, com base no documento construtor de topologia. Antes de começar esta série de etapas, você deve definir a implantação no construtor de topologia. Você deve estar conectado ao computador que você estiver implantando como o administrador local e como membro do grupo Administradores de domínio no domínio onde o servidor está localizado. O computador deve estar associado ao domínio antes da conclusão desta etapa.
-ms.openlocfilehash: 2f452b521302ac8cb743a79ebba4b30cad8c6595
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8b9ef976fda6fd5afef73edf0f3c9ce1eaa191b8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216162"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893711"
 ---
-# <a name="install-or-update-skype-for-business-server-system"></a><span data-ttu-id="beba4-107">Instalar ou Atualizar o Sistema Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="beba4-107">Install or Update Skype for Business Server System</span></span>
+# <a name="install-or-update-skype-for-business-server-system"></a><span data-ttu-id="a8ae1-107">Instalar ou Atualizar o Sistema Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="a8ae1-107">Install or Update Skype for Business Server System</span></span>
 
-<span data-ttu-id="beba4-108">Para iniciar a instalação ou para atualizar uma implantação existente do Skype para Business Server, clique em **instalar ou atualizar o Skype para Business Server**.</span><span class="sxs-lookup"><span data-stu-id="beba4-108">To begin the installation, or to update an existing deployment of Skype for Business Server, click **Install or Update Skype for Business Server**.</span></span> <span data-ttu-id="beba4-109">As etapas desta seção instalará componentes específicos a uma função de servidor determinado, com base no documento construtor de topologia.</span><span class="sxs-lookup"><span data-stu-id="beba4-109">The steps in this section will install components specific to a given server role, based on the Topology Builder document.</span></span> <span data-ttu-id="beba4-110">Antes de começar esta série de etapas, você deve definir a implantação no construtor de topologia.</span><span class="sxs-lookup"><span data-stu-id="beba4-110">Before you begin this series of steps, you must define the deployment in Topology Builder.</span></span> <span data-ttu-id="beba4-111">Você deve estar conectado ao computador que você estiver implantando como o administrador local e como membro do grupo Administradores de domínio no domínio onde o servidor está localizado.</span><span class="sxs-lookup"><span data-stu-id="beba4-111">You must be logged into the computer that you are deploying as the local administrator and as a member of the Domain Admins group in the domain where the server is located.</span></span> <span data-ttu-id="beba4-112">O computador deve estar associado ao domínio antes da conclusão desta etapa.</span><span class="sxs-lookup"><span data-stu-id="beba4-112">The computer must be joined to the domain prior to completing this step.</span></span>
+<span data-ttu-id="a8ae1-108">Para iniciar a instalação ou para atualizar uma implantação existente do Skype para Business Server, clique em **instalar ou atualizar o Skype para Business Server**.</span><span class="sxs-lookup"><span data-stu-id="a8ae1-108">To begin the installation, or to update an existing deployment of Skype for Business Server, click **Install or Update Skype for Business Server**.</span></span> <span data-ttu-id="a8ae1-109">As etapas desta seção instalará componentes específicos a uma função de servidor determinado, com base no documento construtor de topologia.</span><span class="sxs-lookup"><span data-stu-id="a8ae1-109">The steps in this section will install components specific to a given server role, based on the Topology Builder document.</span></span> <span data-ttu-id="a8ae1-110">Antes de começar esta série de etapas, você deve definir a implantação no construtor de topologia.</span><span class="sxs-lookup"><span data-stu-id="a8ae1-110">Before you begin this series of steps, you must define the deployment in Topology Builder.</span></span> <span data-ttu-id="a8ae1-111">Você deve estar conectado ao computador que você estiver implantando como o administrador local e como membro do grupo Administradores de domínio no domínio onde o servidor está localizado.</span><span class="sxs-lookup"><span data-stu-id="a8ae1-111">You must be logged into the computer that you are deploying as the local administrator and as a member of the Domain Admins group in the domain where the server is located.</span></span> <span data-ttu-id="a8ae1-112">O computador deve estar associado ao domínio antes da conclusão desta etapa.</span><span class="sxs-lookup"><span data-stu-id="a8ae1-112">The computer must be joined to the domain prior to completing this step.</span></span>
 
-<span data-ttu-id="beba4-113">Se você estiver atualizando um servidor atualmente implantado, você deve fazer as alterações que você pretende no construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="beba4-113">If you are updating a currently deployed server, you must make the changes that you intend to make in Topology Builder.</span></span>
+<span data-ttu-id="a8ae1-113">Se você estiver atualizando um servidor atualmente implantado, você deve fazer as alterações que você pretende no construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="a8ae1-113">If you are updating a currently deployed server, you must make the changes that you intend to make in Topology Builder.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="beba4-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="beba4-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a8ae1-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="a8ae1-114">See also</span></span>
 
-[<span data-ttu-id="beba4-115">Deployment</span><span class="sxs-lookup"><span data-stu-id="beba4-115">Deployment</span></span>](https://technet.microsoft.com/library/83bd43ee-c1fe-4b38-bfa7-3eb382817bf9.aspx)
+[<span data-ttu-id="a8ae1-115">Deployment</span><span class="sxs-lookup"><span data-stu-id="a8ae1-115">Deployment</span></span>](https://technet.microsoft.com/library/83bd43ee-c1fe-4b38-bfa7-3eb382817bf9.aspx)
 
