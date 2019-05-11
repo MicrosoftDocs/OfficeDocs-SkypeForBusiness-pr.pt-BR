@@ -1,8 +1,8 @@
 ---
 title: Solicitação de Certificado (Básico)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,24 +13,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: A página nome e configurações de segurança fornece uma caixa de texto para definir um nome amigável, uma lista suspensa para o comprimento de Bit de uma caixa de seleção que permite que você marcar a chave privada do certificado como exportável e o par de chaves público e privado.
-ms.openlocfilehash: 4803feab68422217e268823bda6252d3103691b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 32652d084c063b5a13c320eab08d7866b07c4d4a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235147"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911251"
 ---
-# <a name="certificate-request-basic"></a><span data-ttu-id="a2bee-103">Solicitação de Certificado (Básico)</span><span class="sxs-lookup"><span data-stu-id="a2bee-103">Certificate Request (Basic)</span></span>
+# <a name="certificate-request-basic"></a><span data-ttu-id="0a82d-103">Solicitação de Certificado (Básico)</span><span class="sxs-lookup"><span data-stu-id="0a82d-103">Certificate Request (Basic)</span></span>
  
-<span data-ttu-id="a2bee-104">A página **nome e configurações de segurança** fornece uma caixa de texto para definir um **Nome amigável**, uma lista suspensa para o **comprimento de Bit** do par de chaves público e privado e uma caixa de seleção que permite a você **marca o certificado a chave privada como exportável**.</span><span class="sxs-lookup"><span data-stu-id="a2bee-104">The **Name and Security Settings** page provides a text box to define a **Friendly Name**, a drop-down list for the **Bit length** of the private and public key pair, and a check box that enables you to **Mark the certificate's private key as exportable**.</span></span>
+<span data-ttu-id="0a82d-104">A página **nome e configurações de segurança** fornece uma caixa de texto para definir um **Nome amigável**, uma lista suspensa para o **comprimento de Bit** do par de chaves público e privado e uma caixa de seleção que permite a você **marca o certificado a chave privada como exportável**.</span><span class="sxs-lookup"><span data-stu-id="0a82d-104">The **Name and Security Settings** page provides a text box to define a **Friendly Name**, a drop-down list for the **Bit length** of the private and public key pair, and a check box that enables you to **Mark the certificate's private key as exportable**.</span></span>
   
-<span data-ttu-id="a2bee-105">O nome amigável, ou simples, em um certificado é um nome facilmente reconhecível que facilita a identificação para a pessoa que exibe o certificado.</span><span class="sxs-lookup"><span data-stu-id="a2bee-105">The friendly, or simple, name on a certificate is an easily recognizable name that makes it easier for the person who views the certificate to identify it.</span></span>
+<span data-ttu-id="0a82d-105">O nome amigável, ou simples, em um certificado é um nome facilmente reconhecível que facilita a identificação para a pessoa que exibe o certificado.</span><span class="sxs-lookup"><span data-stu-id="0a82d-105">The friendly, or simple, name on a certificate is an easily recognizable name that makes it easier for the person who views the certificate to identify it.</span></span>
   
-<span data-ttu-id="a2bee-106">O Comprimento de bit da par de chave pública e privada pode ser selecionado como 1024, 2048 ou 4096.</span><span class="sxs-lookup"><span data-stu-id="a2bee-106">The Bit length of the private and public key pair can be selected as 1024, 2048, or 4096.</span></span>
+<span data-ttu-id="0a82d-106">O Comprimento de bit da par de chave pública e privada pode ser selecionado como 1024, 2048 ou 4096.</span><span class="sxs-lookup"><span data-stu-id="0a82d-106">The Bit length of the private and public key pair can be selected as 1024, 2048, or 4096.</span></span>
   
-<span data-ttu-id="a2bee-107">Marcar a caixa de seleção para **marcar a chave privada do certificado como exportável** permite que o certificado e a chave particular sejam exportadas e movido para outro computador ou servidor.</span><span class="sxs-lookup"><span data-stu-id="a2bee-107">Selecting the check box for **Mark the certificate's private key as exportable** allows the certificate and private key to be exported and moved to another computer or server.</span></span> <span data-ttu-id="a2bee-108">A única vez que isso é necessário é quando você está criando um pool de Servidores de Borda para o serviço de autenticação de retransmissão de mídia (MRAS).</span><span class="sxs-lookup"><span data-stu-id="a2bee-108">The only time that this is required is when you are creating a pool of Edge Servers for the media relay authentication service (MRAS).</span></span>
+<span data-ttu-id="0a82d-107">Marcar a caixa de seleção para **marcar a chave privada do certificado como exportável** permite que o certificado e a chave particular sejam exportadas e movido para outro computador ou servidor.</span><span class="sxs-lookup"><span data-stu-id="0a82d-107">Selecting the check box for **Mark the certificate's private key as exportable** allows the certificate and private key to be exported and moved to another computer or server.</span></span> <span data-ttu-id="0a82d-108">A única vez que isso é necessário é quando você está criando um pool de Servidores de Borda para o serviço de autenticação de retransmissão de mídia (MRAS).</span><span class="sxs-lookup"><span data-stu-id="0a82d-108">The only time that this is required is when you are creating a pool of Edge Servers for the media relay authentication service (MRAS).</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="a2bee-109">Para ajudar a manter a segurança do certificado e o par de chaves, você deve selecionar a marca de chave privada do certificado como exportável opção somente se for absolutamente necessário.</span><span class="sxs-lookup"><span data-stu-id="a2bee-109">To help maintain the security of the certificate and the key pair, you should select the Mark the certificate's private key as exportable option only if it is absolutely necessary.</span></span> 
+> <span data-ttu-id="0a82d-109">Para ajudar a manter a segurança do certificado e o par de chaves, você deve selecionar a marca de chave privada do certificado como exportável opção somente se for absolutamente necessário.</span><span class="sxs-lookup"><span data-stu-id="0a82d-109">To help maintain the security of the certificate and the key pair, you should select the Mark the certificate's private key as exportable option only if it is absolutely necessary.</span></span> 
   
 

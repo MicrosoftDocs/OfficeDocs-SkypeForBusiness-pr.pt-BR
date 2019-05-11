@@ -1,8 +1,8 @@
 ---
 title: Rota de voz
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 7d187827b7ccf3ca133b30aceed17331cadb4f60
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b559e2e61176d407ad08db30f19e3c30ac06e2ab
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221212"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890484"
 ---
-# <a name="voice-route"></a><span data-ttu-id="1bdb0-104">Rota de voz</span><span class="sxs-lookup"><span data-stu-id="1bdb0-104">Voice Route</span></span>
+# <a name="voice-route"></a><span data-ttu-id="90618-104">Rota de voz</span><span class="sxs-lookup"><span data-stu-id="90618-104">Voice Route</span></span>
 
-<span data-ttu-id="1bdb0-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="1bdb0-105">What do you want to do?</span></span> <span data-ttu-id="1bdb0-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="1bdb0-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="90618-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="90618-105">What do you want to do?</span></span> <span data-ttu-id="90618-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="90618-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="1bdb0-107">Criar ou modificar uma rota de voz no Skype para negócios</span><span class="sxs-lookup"><span data-stu-id="1bdb0-107">Create or modify a voice route in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [<span data-ttu-id="90618-107">Criar ou modificar uma rota de voz no Skype para negócios</span><span class="sxs-lookup"><span data-stu-id="90618-107">Create or modify a voice route in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
-- [<span data-ttu-id="1bdb0-108">Modificar uma rota de voz</span><span class="sxs-lookup"><span data-stu-id="1bdb0-108">Modify a Voice Route</span></span>](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
+- [<span data-ttu-id="90618-108">Modificar uma rota de voz</span><span class="sxs-lookup"><span data-stu-id="90618-108">Modify a Voice Route</span></span>](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
 
 
 

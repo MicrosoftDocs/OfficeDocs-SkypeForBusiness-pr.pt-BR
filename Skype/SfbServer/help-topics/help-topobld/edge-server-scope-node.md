@@ -1,8 +1,8 @@
 ---
 title: Nó de Escopo de Servidor de Borda
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,29 +13,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: 'Este nó mostra a configuração do nome de domínio totalmente qualificado do pool (FQDN) e outras configurações básicas para esse pool de Borda. É possível executar as seguintes ações:'
-ms.openlocfilehash: 5cdeef0873c3501c17b2c5d638fb85a9b62df5cf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b200021b175852b0211602b068bf2d0f100ea607
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203106"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33926891"
 ---
-# <a name="edge-server-scope-node"></a><span data-ttu-id="49ac3-104">Nó de Escopo de Servidor de Borda</span><span class="sxs-lookup"><span data-stu-id="49ac3-104">Edge Server Scope Node</span></span>
+# <a name="edge-server-scope-node"></a><span data-ttu-id="63863-104">Nó de Escopo de Servidor de Borda</span><span class="sxs-lookup"><span data-stu-id="63863-104">Edge Server Scope Node</span></span>
  
-<span data-ttu-id="49ac3-p102">Este nó mostra a configuração do nome de domínio totalmente qualificado do pool (FQDN) e outras configurações básicas para esse pool de Borda. É possível executar as seguintes ações:</span><span class="sxs-lookup"><span data-stu-id="49ac3-p102">This node shows the pool fully qualified domain name (FQDN) and other basic settings for this Edge pool. You can perform the following actions:</span></span>
+<span data-ttu-id="63863-p102">Este nó mostra a configuração do nome de domínio totalmente qualificado do pool (FQDN) e outras configurações básicas para esse pool de Borda. É possível executar as seguintes ações:</span><span class="sxs-lookup"><span data-stu-id="63863-p102">This node shows the pool fully qualified domain name (FQDN) and other basic settings for this Edge pool. You can perform the following actions:</span></span>
   
-- <span data-ttu-id="49ac3-p103">**Novo Servidor**. Inicia o assistente **Definir Novo Servidor**, que pode ser usado para adicionar outro Servidor de Borda a esse pool.</span><span class="sxs-lookup"><span data-stu-id="49ac3-p103">**New Server**. Starts the **Define New Server** wizard, which you can use to add another Edge Server to this pool.</span></span>
+- <span data-ttu-id="63863-p103">**Novo Servidor**. Inicia o assistente **Definir Novo Servidor**, que pode ser usado para adicionar outro Servidor de Borda a esse pool.</span><span class="sxs-lookup"><span data-stu-id="63863-p103">**New Server**. Starts the **Define New Server** wizard, which you can use to add another Edge Server to this pool.</span></span>
     
-- <span data-ttu-id="49ac3-p104">**Editar Propriedades**. Abre a página **Editar Propriedades** desse servidor, na qual é possível definir o FQDN e a porta do pool interno e externo, habilitar e desabilitar a federação e a conversão do endereço de rede (NAT) e especificar o próximo.</span><span class="sxs-lookup"><span data-stu-id="49ac3-p104">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can set the internal and external pool FQDN and port, enable and disable federation and network address translation (NAT), and specify the next.</span></span>
+- <span data-ttu-id="63863-p104">**Editar Propriedades**. Abre a página **Editar Propriedades** desse servidor, na qual é possível definir o FQDN e a porta do pool interno e externo, habilitar e desabilitar a federação e a conversão do endereço de rede (NAT) e especificar o próximo.</span><span class="sxs-lookup"><span data-stu-id="63863-p104">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can set the internal and external pool FQDN and port, enable and disable federation and network address translation (NAT), and specify the next.</span></span>
     
-- <span data-ttu-id="49ac3-p105">**Excluir**. Exclui o pool da topologia.</span><span class="sxs-lookup"><span data-stu-id="49ac3-p105">**Delete**. Deletes the pool from the topology.</span></span>
+- <span data-ttu-id="63863-p105">**Excluir**. Exclui o pool da topologia.</span><span class="sxs-lookup"><span data-stu-id="63863-p105">**Delete**. Deletes the pool from the topology.</span></span>
     
-<span data-ttu-id="49ac3-113">Além dessas opções, você pode realizar as seguintes tarefas gerais:</span><span class="sxs-lookup"><span data-stu-id="49ac3-113">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="63863-113">Além dessas opções, você pode realizar as seguintes tarefas gerais:</span><span class="sxs-lookup"><span data-stu-id="63863-113">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="49ac3-p106">**Topologia**. É possível usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar os componentes ou remover a implantação.</span><span class="sxs-lookup"><span data-stu-id="49ac3-p106">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="63863-p106">**Topologia**. É possível usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar os componentes ou remover a implantação.</span><span class="sxs-lookup"><span data-stu-id="63863-p106">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="49ac3-p107">**Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens para mostrar ou ocultar nos modos de exibição da árvore de console.</span><span class="sxs-lookup"><span data-stu-id="49ac3-p107">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="63863-p107">**Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens para mostrar ou ocultar nos modos de exibição da árvore de console.</span><span class="sxs-lookup"><span data-stu-id="63863-p107">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="49ac3-p108">**Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.</span><span class="sxs-lookup"><span data-stu-id="49ac3-p108">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="63863-p108">**Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.</span><span class="sxs-lookup"><span data-stu-id="63863-p108">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

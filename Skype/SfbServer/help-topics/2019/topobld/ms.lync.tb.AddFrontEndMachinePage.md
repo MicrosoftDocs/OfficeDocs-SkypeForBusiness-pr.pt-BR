@@ -1,8 +1,8 @@
 ---
 title: Adicionar Máquina de Front End
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: e7fe2522-1bd2-416a-9dbb-51cacea9c6e0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Especifique o nome de domínio totalmente qualificado (FQDN) de cada computador que você deseja adicionar como um servidor Front-End do pool. Depois de adicionar um computador à lista, você poderá atualizar o FQDN do computador ou removê-lo do pool em qualquer ocasião antes de publicar a topologia. Depois de publicar a topologia, alterando o FQDN requer, excluindo o servidor no construtor de topologia e, em seguida, adicionando um novo servidor ao pool com o novo FQDN. Para obter detalhes sobre como adicionar um pool de Front-End à topologia, consulte Define and Configure a Front End Pool na documentação de implantação.
-ms.openlocfilehash: c93b109a10addb8e25015c6052e4cfde68c48682
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 321e1f392fb06ba4e99dc17e668e188b2fee5338
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220938"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912061"
 ---
-# <a name="add-front-end-machine"></a><span data-ttu-id="31e01-106">Adicionar Máquina de Front End</span><span class="sxs-lookup"><span data-stu-id="31e01-106">Add Front End Machine</span></span>
+# <a name="add-front-end-machine"></a><span data-ttu-id="65415-106">Adicionar Máquina de Front End</span><span class="sxs-lookup"><span data-stu-id="65415-106">Add Front End Machine</span></span>
 
-<span data-ttu-id="31e01-107">Especifique o nome de domínio totalmente qualificado (FQDN) de cada computador que você deseja adicionar como um servidor Front-End do pool.</span><span class="sxs-lookup"><span data-stu-id="31e01-107">Specify the fully qualified domain name (FQDN) of each computer that you want to add as a Front End Server in this pool.</span></span> <span data-ttu-id="31e01-108">Depois de adicionar um computador à lista, você poderá atualizar o FQDN do computador ou removê-lo do pool em qualquer ocasião antes de publicar a topologia.</span><span class="sxs-lookup"><span data-stu-id="31e01-108">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="31e01-109">Depois de publicar a topologia, alterando o FQDN requer, excluindo o servidor no construtor de topologia e, em seguida, adicionando um novo servidor ao pool com o novo FQDN.</span><span class="sxs-lookup"><span data-stu-id="31e01-109">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> <span data-ttu-id="31e01-110">Para obter detalhes sobre como adicionar um pool de Front-End à topologia, consulte [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="31e01-110">For details about adding a Front End pool to the topology, see [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.</span></span>
+<span data-ttu-id="65415-107">Especifique o nome de domínio totalmente qualificado (FQDN) de cada computador que você deseja adicionar como um servidor Front-End do pool.</span><span class="sxs-lookup"><span data-stu-id="65415-107">Specify the fully qualified domain name (FQDN) of each computer that you want to add as a Front End Server in this pool.</span></span> <span data-ttu-id="65415-108">Depois de adicionar um computador à lista, você poderá atualizar o FQDN do computador ou removê-lo do pool em qualquer ocasião antes de publicar a topologia.</span><span class="sxs-lookup"><span data-stu-id="65415-108">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="65415-109">Depois de publicar a topologia, alterando o FQDN requer, excluindo o servidor no construtor de topologia e, em seguida, adicionando um novo servidor ao pool com o novo FQDN.</span><span class="sxs-lookup"><span data-stu-id="65415-109">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> <span data-ttu-id="65415-110">Para obter detalhes sobre como adicionar um pool de Front-End à topologia, consulte [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="65415-110">For details about adding a Front End pool to the topology, see [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="31e01-111">Observe que o construtor de topologias indica que você pode ter até 20 servidores Front-End em um pool.</span><span class="sxs-lookup"><span data-stu-id="31e01-111">Note that Topology Builder indicates that you can have up to 20 Front End Servers in a pool.</span></span> <span data-ttu-id="31e01-112">O número máximo de servidores aceitos é 12.</span><span class="sxs-lookup"><span data-stu-id="31e01-112">The maximum supported number of servers is 12.</span></span> <span data-ttu-id="31e01-113">Você pode ter até 20 servidores de estado definidos na malha, dos quais 12 pode estar ativo e on-line a qualquer momento.</span><span class="sxs-lookup"><span data-stu-id="31e01-113">You can have up to 20 statefull servers defined in the fabric, of which 12 can be active and online at any one time.</span></span>
+> <span data-ttu-id="65415-111">Observe que o construtor de topologias indica que você pode ter até 20 servidores Front-End em um pool.</span><span class="sxs-lookup"><span data-stu-id="65415-111">Note that Topology Builder indicates that you can have up to 20 Front End Servers in a pool.</span></span> <span data-ttu-id="65415-112">O número máximo de servidores aceitos é 12.</span><span class="sxs-lookup"><span data-stu-id="65415-112">The maximum supported number of servers is 12.</span></span> <span data-ttu-id="65415-113">Você pode ter até 20 servidores de estado definidos na malha, dos quais 12 pode estar ativo e on-line a qualquer momento.</span><span class="sxs-lookup"><span data-stu-id="65415-113">You can have up to 20 statefull servers defined in the fabric, of which 12 can be active and online at any one time.</span></span>
 
 

@@ -1,8 +1,8 @@
 ---
 title: Instalar Página de Banco de Dados de Espelho Criar Banco de Dados
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 ROBOTS: NOINDEX, NOFOLLOW
 description: Esta documentação é preliminar e está sujeita a alterações. Os tópicos em branco são incluídos como espaços reservados.
-ms.openlocfilehash: c0894d73ae8a399497c4dc349a225eacf0a6b970
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d4edb50b55b1654b0c1fd6388ef54f930988d75c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220414"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919841"
 ---
-# <a name="install-database-create-mirror-database-page"></a><span data-ttu-id="8effb-104">Instalar Página de Banco de Dados de Espelho Criar Banco de Dados</span><span class="sxs-lookup"><span data-stu-id="8effb-104">Install Database Create Mirror Database Page</span></span>
+# <a name="install-database-create-mirror-database-page"></a><span data-ttu-id="d306e-104">Instalar Página de Banco de Dados de Espelho Criar Banco de Dados</span><span class="sxs-lookup"><span data-stu-id="d306e-104">Install Database Create Mirror Database Page</span></span>
  
 > [!NOTE]
-> <span data-ttu-id="8effb-105">Espelhamento do SQL está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="8effb-105">SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="8effb-106">Os métodos de cluster de failover de grupos de disponibilidade AlwaysOn, instâncias de Cluster de Failover AlwaysOn (FCI) e SQL terão preferência com Skype para Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="8effb-106">The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.</span></span>
+> <span data-ttu-id="d306e-105">Espelhamento do SQL está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="d306e-105">SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="d306e-106">Os métodos de cluster de failover de grupos de disponibilidade AlwaysOn, instâncias de Cluster de Failover AlwaysOn (FCI) e SQL terão preferência com Skype para Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="d306e-106">The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.</span></span>
