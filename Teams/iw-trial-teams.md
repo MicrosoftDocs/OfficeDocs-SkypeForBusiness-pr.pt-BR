@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 04/23/2019
 ms.topic: reference
 audience: Admin
-ms.reviewer: marubins
+ms.reviewer: annikaelias
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baad7614cbcb622017de7629fa62799be330dc88
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 654db34de9160c0e858fd8972d00487291fd1653
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402511"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921248"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams
 =======================================================
@@ -52,7 +52,7 @@ A versão de avaliação concede uma assinatura de avaliação de um ano para to
 
 ## <a name="who-is-eligible"></a>Quem se qualifica?
 
-Habilite os usuários para usar avaliações e aplicativos (no Centro de administração do Office 365). Para obter mais informações, consulte [Gerenciar a avaliação](#manage-the-trial), mais adiante neste artigo. 
+Habilite os usuários para se inscreverem em aplicativos e versões de avaliação (no Centro de administração do Office 365). Para obter mais informações, consulte [Gerenciar a avaliação](#manage-the-trial), mais adiante neste artigo. 
 
 Os usuários que não têm uma licença do Office 365 que inclui o Teams podem iniciar a oferta de avaliação do Microsoft Teams Commercial Cloud. Por exemplo, se um usuário tiver o Office 365 Business (que não inclui o Teams), eles estará qualificado para a versão de avaliação.
 
