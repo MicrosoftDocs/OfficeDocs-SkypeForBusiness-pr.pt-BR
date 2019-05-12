@@ -1,7 +1,7 @@
 ---
 title: Criar uma fila de chamadas
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar o sistema de telefone para filas de chamada de nuvem para proporcionar um organizacional saudação, música de espera e redirecionando chamadas para chamar agentes em listas de distribuição e grupos de segurança. Você também pode definir o tamanho máximo da fila, o tempo limite e opções de manipulação de chamada.
-ms.openlocfilehash: da178761658460812bc1d0330f3540be43c3e6e6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 844ea569da6f59def0ee4df7739456c1f10e7dff
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199245"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902867"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
@@ -66,7 +66,7 @@ Para começar a usar as filas de chamada, é importante lembrar algumas coisas:
 - Você só precisa licenciar as contas de recursos com um número de telefone atribuído a eles. Em uma fila de chamada e atendente automático aninhados, você não precisará licenciar o restante dos atendedores automáticos ou chamada filas se eles não tiverem números de telefone associados a eles. 
 
 > [!NOTE] 
-> Diretos números de serviço de roteamento para atendedor automático e filas de chamada são suportadas para os usuários de Teams da Microsoft e operadores somente no momento.
+> Números de serviço de roteamento diretos para filas de chamada e atendedor automático são suportados para os usuários do Microsoft Teams e operadores somente.
 
 > [!NOTE] 
 > Microsoft está trabalhando em um modelo de licenciamento apropriado para aplicativos como atendedores automáticos de nuvem e filas de chamada, para agora você precisa usar o modelo de licenciamento por usuário.

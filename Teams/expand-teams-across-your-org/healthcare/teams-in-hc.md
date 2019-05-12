@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introdução ao Teams para Organizações de Saúde
-ms.openlocfilehash: 0a169a61471e2c0c74024012b777fbf0bf2dc0cb
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 40eccf379af8c0acd318cb3a8b1b647357f6cf7c
+ms.sourcegitcommit: a46dad8dfc685534d81bb011f3c099c6f59ce2e0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33865026"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33882889"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introdução ao Teams para Organizações de Saúde
 
@@ -27,14 +27,16 @@ Teams da Microsoft oferece vários recursos úteis para hospitais e outras organ
 - Coordenação de atendimento médico e colaboração
 - Mensagens seguras
 - Telehealth
+- Integração de atendimento médico Record (EHR) eletrônicos 
+- Integração do sistema de trabalhador de Firstline 
 
-por meio da integração de registro de saúde eletrônicos (EHR) e integração de sistemas de trabalhador de Firstline, bem como outros recursos fundamentais do Microsoft Teams como/chamadas de reuniões e mensagens. 
+Isso é além dos recursos básicos de Microsoft Teams como reuniões/chamadas e mensagens. 
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>Equipes de atendimento médico coordenação - Microsoft app os pacientes
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft Teams agora possui uma solução de coordenação de atendimento médico específica para as organizações de saúde para ajudá-los a atender às sua objetivo final de fornecer o melhor aos pacientes. O x da solução de coordenação de atendimento médico, o aplicativo de pacientes de equipes da Microsoft, é um aplicativo de guia de terceiros primeiro que integra com sistemas de (EHR) registros saúde eletrônicos usando uma interface de recursos de interoperabilidade de atendimento médico Fast ([FHIR](https://www.hl7.org/fhir/)) para trazer valiosos informações médicas em Microsoft Teams no contexto para habilitar a comunicação e colaboração de início de estudos clínicos.  
+Microsoft Teams agora possui uma solução de coordenação de atendimento médico específica para as organizações de saúde para ajudá-los a oferecer a melhor aos paciente. O x da solução de coordenação de atendimento médico, o aplicativo de pacientes de equipes da Microsoft, é um aplicativo de guia de terceiros primeiro que integra com sistemas de (EHR) registros saúde eletrônicos usando uma interface de recursos de interoperabilidade de atendimento médico Fast ([FHIR](https://www.hl7.org/fhir/)) para trazer valiosos informações médicas em Microsoft Teams no contexto para habilitar a comunicação e colaboração de início de estudos clínicos.  
 
 A solução de coordenação de atendimento médico pode estabelecer interface com fornecedores de Software independentes (ISVs) que o aplicativo de pacientes podem se conectar aos seus sistemas EHR usando existente padrões de dados de integridade, como HL7v2 e FHIR. Parceiros do Microsoft com as seguintes líderes do setor para estabelecer a integração de registros de saúde eletrônicos com equipes:
 
@@ -92,7 +94,7 @@ Colaboração de suporte a mensagens em equipes de atendimento médico, incluind
 
 - O remetente da mensagem pode definir uma prioridade especial para a sua mensagem, para que o destinatário será notificado repetidamente até que eles devem ler a mensagem.
 - O remetente da mensagem pode solicitar uma confirmação de leitura, para que sejam notificados quando uma mensagem enviados por eles foi lido pelo remetente da mensagem.
-- 
+
 
 Juntos, esses recursos permitem atenção mais rápida às mensagens urgentes e confiança que a mensagem foi recebida e ler. Novo equipes de atendimento médico usando esses recursos podem ser criadas em uma base por pacientes. Esses recursos são baseadas na diretiva e podem ser atribuídos aos indivíduos ou equipes inteiros.
 

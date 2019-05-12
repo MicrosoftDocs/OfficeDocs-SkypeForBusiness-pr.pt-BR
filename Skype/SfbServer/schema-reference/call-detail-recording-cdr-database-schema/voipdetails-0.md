@@ -1,8 +1,8 @@
 ---
 title: Tabela VoipDetails
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 7/15/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
 description: Cada registro representa uma chamada de dois participantes na qual pelo menos um usuário é um usuário de VoIP.
-ms.openlocfilehash: 304efbd8148c363afaa792abe97d0b15ab5a34fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e29cfe19ec8c478215c8dd011a8479de5e18c18c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212730"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929956"
 ---
 # <a name="voipdetails-table"></a>Tabela VoipDetails
  

@@ -1,8 +1,8 @@
 ---
 title: Expansor de Configurações Gerais de Aparelho de Filial para o Lync Server 2010
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: 'Para editar propriedades para aparelho de filial persistente ou servidor de filial persistente, em geral, você configurar:'
-ms.openlocfilehash: fad751cc897c2ad9d8ebc02e02bc37cd10b00fbf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8469202562a263007ae5a89e9fa1835c6d641243
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226925"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911802"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Expansor de Configurações Gerais de Aparelho de Filial para o Lync Server 2010
  

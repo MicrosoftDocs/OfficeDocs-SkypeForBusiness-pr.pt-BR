@@ -1,7 +1,7 @@
 ---
 title: Skype sala sistema Skype para a licença do software de negócios
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Leia este tópico para saber como verificar se você tem uma licença de volume do software Skype for Business.
-ms.openlocfilehash: e4ba03dacdce0056cb130299f551921042a6790d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8bc8abfb4b379faaf94ac8cf8fbf4fdb792329bb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207928"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893338"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Sistema de Salas do Skype: licença do software Skype for Business
  

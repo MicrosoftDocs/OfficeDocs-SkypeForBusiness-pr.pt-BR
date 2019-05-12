@@ -1,8 +1,8 @@
 ---
 title: Lista das tabelas de conformidade do servidor de Chat persistente no Skype para Business Server
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
 description: O esquema de banco de dados de conformidade Chat persistente consiste as tabelas a seguir.
-ms.openlocfilehash: 18c35cc71da43dcf25bb477e81a2471b483ee86d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e17b2e52bdeb65ff4c77377cb913da212f20ecf0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212695"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929886"
 ---
 # <a name="list-of-persistent-chat-server-compliance-tables-in-skype-for-business-server"></a>Lista das tabelas de conformidade do servidor de Chat persistente no Skype para Business Server
  
