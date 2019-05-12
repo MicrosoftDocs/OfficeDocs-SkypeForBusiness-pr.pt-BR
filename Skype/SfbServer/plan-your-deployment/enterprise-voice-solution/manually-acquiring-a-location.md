@@ -1,8 +1,8 @@
 ---
 title: Definir a experiência do usuário para adquirir manualmente um local no Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: Planejamento de usuários em uma implantação do E9-1-1 usando provedores de tronco SIP, em Skype para Business Server Enterprise Voice móveis.
-ms.openlocfilehash: 8682ba47e3543cc39b1fc793c587040a7821f8c7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 503d1cb55afcf23809db851751db0b126504e4f1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206730"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924161"
 ---
 # <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>Definir a experiência do usuário para adquirir manualmente um local no Skype para Business Server
  

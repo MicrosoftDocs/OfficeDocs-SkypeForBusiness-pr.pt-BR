@@ -1,20 +1,20 @@
 ---
 title: Instalar e abrir ferramentas administrativas
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este tópico descreve como instalar e abra as ferramentas administrativas que você precisa para implantar e gerenciar Skype para negócios.
-ms.openlocfilehash: 260d84f071558ff54511b8650868db3ebb56abcb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f914864ee1844ac52d5a8c1ab63da2f7036acaf8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217457"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915084"
 ---
 # <a name="install-and-open-administrative-tools"></a>Instalar e abrir ferramentas administrativas
 

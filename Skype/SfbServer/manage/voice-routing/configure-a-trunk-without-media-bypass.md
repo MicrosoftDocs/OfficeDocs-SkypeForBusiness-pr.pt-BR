@@ -1,20 +1,20 @@
 ---
 title: Configurar um tronco sem bypass de mídia no Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Siga estas etapas se desejar configurar um tronco com o bypass de mídia habilitado. '
-ms.openlocfilehash: 623de0439e6c6297808e54eb2ae050aa95f6533d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fa1eb6ce9d536e8415d58079ea0113413a0fb683
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214663"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911935"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurar um tronco sem bypass de mídia no Skype para Business Server
 

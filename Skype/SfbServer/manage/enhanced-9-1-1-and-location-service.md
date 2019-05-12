@@ -1,20 +1,20 @@
 ---
 title: Gerenciar o 9-1-1 avançado e serviço de localidade
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype para Business Server suporta Enhanced 9-1-1 (E9-1-1) chamando do Skype para clientes corporativos. Quando você configura Skype para Business Server para E9-1-1, as chamadas de emergência colocadas do Skype para negócios incluem informações de local de resposta de emergência (ERL) do banco de dados de serviço de informações de local.
-ms.openlocfilehash: 31e1d529c8fb60145bc1ab4a22a75660d9f3ef63
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: baf470708e2abe367f05b3abfc2353d710c33920
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200299"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919427"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Gerenciar 9-1-1 avançado e o serviço de local no Skype visita do servidor
 
@@ -148,7 +148,7 @@ No Skype para Business Server, você pode substituir a quantidade padrão de tem
     > Você não pode excluir a política de local Global. Se você tentar excluir a política Global, você receberá uma mensagem de aviso e essa diretiva será redefinida para seus valores padrão.
 
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Criar ou modificar sites de rede](network-management/call-admission-control/managing-call-admission-control-for-sites.md#create-or-modify-network-sites)
 

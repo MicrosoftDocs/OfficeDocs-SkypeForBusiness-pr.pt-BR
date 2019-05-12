@@ -1,7 +1,7 @@
 ---
 title: Definir os resultados e o sucesso da adoção do Microsoft Teams
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba como medir os resultados e o êxito da sua habilitação de grande escala de equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5251fc65cdb805961b97c5f9a94dc6512b63144
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 40d26bfe51bd4509485490ed816896b32a49245a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647597"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896422"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir os resultados e o sucesso da adoção do Microsoft Teams
 
@@ -75,7 +75,7 @@ Equipes é uma tecnologia transformadora, portanto, dependendo do tamanho da org
 | As equipes primeiro | Núcleo de equipes | As equipes vá ganhar | Skype lado a lado | Migração |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Implantação da nuvem Lead com equipes | Habilitação de cenário de colaboração com as equipes de liderança | Todos os funcionários em equipes e equipes de toda a organização | Habilitar equipes e Skype para negócios | Migrar usuários do Skype for Business para equipes |
-| -Aplicável a clientes de novo ou pouco uso Office 365 <br/>-Conduzir com equipes em um cenário específico do cliente <br/>-Realce integrado a experiência do usuário e menor tempo de implantação para o Office 365 <br/>-Conduzir a habilitação de carga de trabalho de planejamento juntos para evitar a implementação serial | -Permitir que equipes, juntamente com o OneDrive e o SharePoint Online <br/>-Criar uma intranet da empresa para compartilhar recursos de notícias e vídeo com o Microsoft Stream<br/>**Melhores juntos**: <br/>Microsoft Teams<br/>SharePoint<br/>Yammer<br/>Planejador<br/>PowerApps |-Para clientes com menos de 1000 estações (limitação atual)<br/>-Habilitar cruzado colaboração de organização com uma equipe para todos<br/>-Automatizar tarefas comuns (solicitações de férias, pesquisas de funcionário, compromisso executivo) |-Use táticas de núcleo de equipes para acelerar a colaboração<br/>-Realce diretrizes de cenário com base no conjunto de recursos e de tamanho exigido de reunião</br>-Use Skype for Business para chamadas do enterprise, interoperabilidade e cenários híbridos<br/>-Use o mapa de público para o planejamento de capacidade. |-Movimentação de plano para equipes do Skype for Business criando o mapa de estratégia de serviço para o cliente<br/>-Anexar ao cronograma de lançamento do recurso<br/>-Recomendável incluindo lado a lado e núcleo de equipes para facilitar a transição
+| -Aplicável a clientes de novo ou pouco uso Office 365 <br/>-Conduzir com equipes em um cenário específico do cliente <br/>-Realce integrado a experiência do usuário e menor tempo de implantação para o Office 365 <br/>-Conduzir a habilitação de carga de trabalho de planejamento juntos para evitar a implementação serial | -Permitir que equipes, juntamente com o OneDrive e o SharePoint Online <br/>-Criar uma intranet da empresa para compartilhar recursos de notícias e vídeo com o Microsoft Stream<br/>**Melhores juntos**: <br/>Microsoft Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-Para clientes com menos de 1000 estações (limitação atual)<br/>-Habilitar cruzado colaboração de organização com uma equipe para todos<br/>-Automatizar tarefas comuns (solicitações de férias, pesquisas de funcionário, compromisso executivo) |-Use táticas de núcleo de equipes para acelerar a colaboração<br/>-Realce diretrizes de cenário com base no conjunto de recursos e de tamanho exigido de reunião</br>-Use Skype for Business para chamadas do enterprise, interoperabilidade e cenários híbridos<br/>-Use o mapa de público para o planejamento de capacidade. |-Movimentação de plano para equipes do Skype for Business criando o mapa de estratégia de serviço para o cliente<br/>-Anexar ao cronograma de lançamento do recurso<br/>-Recomendável incluindo lado a lado e núcleo de equipes para facilitar a transição
 
 A seguir estão nossas recomendações para a maioria das organizações de cliente. No entanto, há exceções. Para obter orientações para qualquer cenário não abordada aqui, fazer suas perguntas na comunidade nossas dirigir adoção ou chegar da equipe do FastTrack ou da rede de parceiros da Microsoft.
 

@@ -1,8 +1,8 @@
 ---
 title: Remover Certificado (Introdução)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ba7a948c-304d-4dce-ac97-7fdfcccd09d1
 description: Na página Remover certificado Introdução, leia as informações cuidadosamente sobre as implicações da remoção de um certificado. Depois que você leu essas informações, clique em Avançar para continuar.
-ms.openlocfilehash: 32c4a76dc3ae7101f5b6208485fa3d4b7d1f8919
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: efb3032b988fe55498bc716e9e9314b189797bd3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201185"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911907"
 ---
 # <a name="remove-certificate-intro"></a>Remover Certificado (Introdução)
  
