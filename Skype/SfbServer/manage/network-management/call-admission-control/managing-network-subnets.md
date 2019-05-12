@@ -1,20 +1,20 @@
 ---
 title: Gerenciar subredes
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Na maioria das implantações do Skype para Business Server onde o controle de admissão de chamadas (CAC) é implementado, normalmente haverá um grande número de sub-redes. Por esse motivo, geralmente é melhor configurar sub-redes a partir do Skype para Business Server Management Shell.
-ms.openlocfilehash: 3b61ad1b4e1eb7f11d61b32c15e337bcd4ff77c8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7b09428f3bdc44f8626cac072b5f4838e08f9efc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198905"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913353"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>Gerenciar sub-redes de rede no Skype for Business Server
 
@@ -135,7 +135,7 @@ Na maioria das implantações do Skype para Business Server onde o controle de a
 6.  Clique em **OK**.
 
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)  
 

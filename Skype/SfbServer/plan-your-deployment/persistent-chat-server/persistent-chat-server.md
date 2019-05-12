@@ -1,8 +1,8 @@
 ---
 title: Planejar Servidor de Chat Persistente no Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 8/17/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 'Resumo: Leia este tópico para saber como planejar o servidor de Chat persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 9e78935393eb01b5bb79bb71a167df9cd6a60aa9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b3ca8125a69a94da3e0c707456d695c31eaf8c47
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213738"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910802"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planejar Servidor de Chat Persistente no Skype for Business Server 2015
  
