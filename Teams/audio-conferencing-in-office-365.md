@@ -21,12 +21,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 24a85ab6fced284fc264db5bcc394769e4a0bfca
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7213b3b8a8155e8b23b8f710d241af4425a8dbe4
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198590"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970296"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconferência no Office 365
 Serviços de audioconferência no Office 365 permite que os usuários liga para reuniões de seus telefones. Serviços de audioconferência permite que até 250 participantes de telefone.
@@ -75,7 +75,7 @@ Para obter mais informações, consulte [números de telefone de conferência de
 Compartilhadas números são automaticamente atribuídos a organizações quando elas são habilitadas para conferência de áudio de telefone de conferência de áudio. Após a atribuição dos números telefônicos, um número telefônico é atribuído como o número padrão da ponte de conferência. O número telefônico atribuído como o número padrão da ponte será aquele do país/região da organização.
   
 > [!NOTE]
-> O local do país ou região da sua organização possa ser encontrado por entrando no **Centro de administração do Office 365** e examinando o registro em **Perfil da organização**. 
+> O local do país ou região da sua organização possa ser encontrado por entrando no **Centro de administração do Microsoft 365** e examinando o registro em **Perfil da organização**. 
   
 > [!CAUTION]
 > Devido à disponibilidade limitada dos números de telefone de Chamada Tarifada em Venezuela, Indonésia e Emirados Árabes Unidos (Emirados Árabes Unidos), as organizações a partir desses países/regiões não terão um número de Chamada Tarifada audioconferências automaticamente atribuído a eles. Os números de chamada gratuita destes locais são disponibilizados conforme o estoque disponível. 

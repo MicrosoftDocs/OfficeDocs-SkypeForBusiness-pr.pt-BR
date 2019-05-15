@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalAffiliations
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45fd8484-5837-44d2-85bb-45c83546607c
 description: o tblPrincipalAffiliations inclui as principais afiliações que descrevem as associações em locais, incluindo grupos de segurança do Active Directory Domain Services, em contêineres do Active Directory, em domínios.
-ms.openlocfilehash: c93edb552c63ebd4f7344926a7d43858b42506ae
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fb1bd8eb7291ba001a5c23240c2de70aaff048b1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212499"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929816"
 ---
 # <a name="tblprincipalaffiliations"></a>tblPrincipalAffiliations
  

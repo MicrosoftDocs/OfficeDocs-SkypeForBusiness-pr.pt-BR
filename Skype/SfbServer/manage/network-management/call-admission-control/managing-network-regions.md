@@ -1,20 +1,20 @@
 ---
 title: Gerenciando as regiões de rede
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Região de rede * são os hubs de rede ou o backbones usados na configuração do bypass de mídia, E9-1-1 e controle de admissão chamada.
-ms.openlocfilehash: ea574fe981af679e4d841d786daf04460d1fb7c3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: c7559c8fa09d0f0d7fac4fa5067d2df91c52defe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877626"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913367"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Gerenciar regiões de rede no Skype for Business Server
 
@@ -139,7 +139,7 @@ Uma região de rede interconexão várias partes de uma rede de várias áreas g
     > Uma região de rede não pode ser removida se estiver associada a um site de rede. Se você tentar remover uma região associada a um site, você receberá uma mensagem de erro. Para ver se uma região é associada a todos os sites, selecione a região e clique em **Mostrar detalhes** no menu **Editar** .
 
 
-## <a name="see-also"></a>Consulte Também
+## <a name="see-also"></a>Confira também
 
 [Gerenciando rotas de região de rede](managing-network-region-routes.md)
 
