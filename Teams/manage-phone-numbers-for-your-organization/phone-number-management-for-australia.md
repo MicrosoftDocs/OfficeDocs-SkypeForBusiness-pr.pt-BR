@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre a obtenção e gerenciando números de telefone na Austrália para Skype para Business Online e Teams da Microsoft.
-ms.openlocfilehash: b576aa51d3fa5d773b054b8fe8eeb44db3d2b520
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 23a1b5a3a672685d7e9cb78a5fcb69892f82ab42
+ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245533"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34036648"
 ---
 # <a name="phone-number-management-for-australia"></a>Gerenciamento de números de telefone para a Austrália
 Na Austrália, podemos ter uma parceria com Sprint para a compra e o provisionamento de planos de chamada. Sprint vender chamar planos e fornecem o suporte para gerenciamento número de telefone para números de usuário e de serviço para atendedores automáticos e filas de chamada. No entanto, os números de serviço e licenças para audioconferências serão ainda vendidas e gerenciadas pelo Office 365.
@@ -44,7 +44,7 @@ Para obter mais informações, consulte [gerenciar números de telefone para sua
 |Obtenha números de telefone transferidos para o Office 365 para usuários, atendedores automáticos e filas de espera de chamada.  <br/> |Entre em contato com a [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan) para transferir os números de telefone. Em seguida, eles adicionará esses números para sua organização.  <br/> |
 |Obtenha números de telefone transferidos para o Office 365 para usar com a conferência de áudio.  |[Entre em contato conosco](mailto:ptnapac@microsoft.com) |
 |Alterar emergência lidando com atribuídas aos usuários que tiverem um número de telefone de chamada planejar. |Entre em contato [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan) para fazer alterações de endereço de emergência. Eles podem atualizar essas informações para você.|
-|Altere um número de usuário para um número de serviço. |Não há suporte para este tipo de serviço na Austrália.
+|Altere um número de usuário para um número de serviço. |Suporte ao usar Sprint chamando para o Office 365.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

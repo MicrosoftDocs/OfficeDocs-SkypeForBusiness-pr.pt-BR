@@ -3,7 +3,7 @@ title: Processo de atualização de equipes
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/08/2019
+ms.date: 05/13/2019
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -14,16 +14,16 @@ search.appverid: MET150
 description: Saiba como o cliente de desktop equipes é atualizado.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04b7d1e66905e7859139605b90b3093a48e8afbd
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 08381341903d21deb42ca83b3769c49f67d18b14
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33829092"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970272"
 ---
 # <a name="teams-update-process"></a>Processo de atualização de equipes
 
-O aplicativo da Web de equipes é atualizado semanal.
+O aplicativo da web de equipes é atualizado semanal.
 
 Atualizações de cliente de desktop equipes sejam liberadas cada duas semanas após rigorosos testes internos e validação por meio de nosso programa de adoção de tecnologia (toque). Isso geralmente ocorre em uma terça-feira. Se uma atualização crítica for necessária, equipes irá ignorar essa agenda e liberar a atualização assim que estiver disponível.
 

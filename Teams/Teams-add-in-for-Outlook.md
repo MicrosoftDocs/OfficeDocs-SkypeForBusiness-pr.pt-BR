@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbe0b72c03d8e85deff538924c17dac8f0d3773c
-ms.sourcegitcommit: daf65bf09ca57554da744602d2551db53caedde5
-ms.translationtype: HT
+ms.openlocfilehash: 624e6a72daae12d0e40b351cea6039fbe5eb432b
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "30512985"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33994131"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -40,7 +40,7 @@ O suplemento de Reunião do Teams é instalado automaticamente para os usuários
 Se o suplemento de Reunião do Teams não for exibido, instrua os usuários a fechar o Outlook e o Teams e reiniciar o cliente Teams primeiro, depois entrar no Teams e então reiniciar o cliente Outlook, exatamente nessa ordem.
 
 > [!NOTE]
-> O suplemento de Reunião do Teams para o Outlook ainda não está disponível para usuários do Mac.
+> Botão equipes reunião no Outlook para Mac aparecerão no Outlook para a faixa de opções do Mac, se o Outlook está executando a compilação de produção 16.20 e posterior.
 
 ## <a name="authentication-requirements"></a>Requisitos de autenticação
 

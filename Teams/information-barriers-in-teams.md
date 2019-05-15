@@ -1,9 +1,9 @@
 ---
-title: Barreiras de informações no Microsoft Teams preview
+title: Barreiras de informações na visualização do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/30/2019
+ms.date: 05/14/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,14 +12,14 @@ ms.reviewer: vikramju
 description: Saiba mais sobre as barreiras de informações e como eles afetam as equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71c547ac13f63c9357dfb6e8a0cbe34d748646d3
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 5cf9891e44df3e656255da90dc495d8f0bda8c72
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827784"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993917"
 ---
-# <a name="information-barriers-in-microsoft-teams-preview"></a>Barreiras de informações no Microsoft Teams preview
+# <a name="information-barriers-in-microsoft-teams-preview"></a>Barreiras de informações na visualização do Microsoft Teams
 
 > [!INCLUDE [Preview feature](includes/preview-feature.md)]
 
@@ -27,7 +27,8 @@ Barreiras de informações são diretivas que um administrador pode configurar p
 
 > [!NOTE]
 > - Não não possível criar grupos de barreira de informações entre locatários.
-> - Usando bots para adicionar usuários, não há suporte para a versão 1.
+> - Não há suporte para o uso bots para adicionar usuários na versão 1.
+> - Informações da versão barreiras 1 não incluem o suporte para SharePoint e o OneDrive for Business. Estamos trabalhando na habilitação do recurso no SharePoint e comunicará depois que ele estiver disponível.
 
 Políticas de barreira informações também impedem pesquisas e descoberta. Isso significa que se você tentar se comunicar com alguém, com que você não deve estar comunicando, você não encontrará que o usuário no seletor de pessoas.
 

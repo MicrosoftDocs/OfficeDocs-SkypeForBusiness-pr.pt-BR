@@ -15,18 +15,25 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3dc7e1797c1e5c1551abad40cf6598f11e01ada
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1be129edfbac1bff1120785596eb3fe8bcc8bb2f
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225948"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970187"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
 Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recurso.
 
 ## <a name="administration"></a>Administração
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|    
+|:-----|:-----|:-----|:-----|
+|Departamento de Conta de Recursos configurado incorretamente <br/> |Contas de recursos associadas a um atendedor automático ou filas de chamadas criadas antes de janeiro de 2019 podem não ter o parâmetro Departmento configurado corretamente, o que pode fazer com que uma atribuição de número de telefone falhe. Uma correção está sendo criada para resolver esse problema. <br/> |Para atenuar esse problema, você pode executar o seguinte cmdlet para configurar o parâmetro de departamento. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Instância do aplicativo de comunicação da Microsoft" <br/> |08/05/19 <br/> |
+
+
+
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|

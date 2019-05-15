@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a151ca7e35f6b512064bc1554b754e9aefdef358
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 514348d0f861ae2bda4d146de4851f788b703444
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233050"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993860"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 =============================================
@@ -86,6 +86,9 @@ Função de bate-papo do Microsoft Teams funciona em um back-end do Microsoft Ex
 &dagger;Se a mensagem exceder esse limite, uma mensagem de visualização é gerada e o usuário é solicitado a exibição/download o email original no link fornecido.
 
 &Dagger;Se o número de anexos ou imagens exceder esse limite, a mensagem não será processada e será enviado um email de notificação de falha na volta ao remetente notificando do erro.
+
+> [!NOTE]
+> O tamanho da mensagem, anexos de arquivo e limites de imagens embutidas são os mesmos entre todas as licenças do Office 365.
 
 Para obter mais informações, consulte [limites do Exchange Online](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
