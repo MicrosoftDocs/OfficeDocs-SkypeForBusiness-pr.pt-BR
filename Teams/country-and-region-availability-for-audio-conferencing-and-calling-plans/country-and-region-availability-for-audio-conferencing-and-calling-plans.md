@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se audioconferências, telefone créditos do sistema, chamar planos, Communications e se chamada e chamada gratuita números de telefone estão disponíveis ou não.
-ms.openlocfilehash: 6fd448d3ab2efd8f5337e0f5a080bee9fd644bf0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 400d202d32f6c539a9750f5c035ff49e8abbaee4
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200263"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082726"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade de audioconferência e planos de chamadas por país e região
 
@@ -178,7 +178,7 @@ Juntamente com o sistema telefônico, um planos de chamar permitem que usuários
 Você também pode ver o [sistema telefônico e chamar planos de licenciamento](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para obter informações de licenciamento.
 
 > [!NOTE]
-> O país/região baseia-se no local da licença do usuário no **Centro de administração do Office 365** > **Usuários ativos** e **não** o endereço de cobrança listado abaixo do **Perfil de organização** no Centro de administração **Office 365 **. 
+> O país/região baseia-se no local da licença do usuário no **Centro de administração do Microsoft 365** > **Usuários ativos** e **não** o endereço de cobrança listado sob o **Perfil da organização** na administração do **Microsoft 365 Centro de**. 
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>Chamada Tarifada e números de telefone gratuitos para serviços
 

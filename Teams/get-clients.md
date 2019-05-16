@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 378abc8f49e15a0ef8cb4084ef7968fd8b3ed327
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b4c18bdd39e7978258c90bd4c757eb3e2e86a3b3
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402101"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082661"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obter clientes do Microsoft Teams 
 ===========================
@@ -41,7 +41,7 @@ O Microsoft Teams tem clientes disponíveis para desktop (Windows e Mac), web e 
 > [!Tip]
 > Assista à sessão a seguir para conhecer os benefícios do Windows Desktop Client e como planejar e executar sua implantação: [Cliente de Desktop do Microsoft Teams](https://aka.ms/teams-clients)
 
-O cliente de área de trabalho do Microsoft Teams é um aplicativo autônomo e atualmente não faz parte do Office 365 ProPlus. Teams está disponível para Windows (7+) nas versões de 32 e 64 bits e para macOS (10.10+). No Windows, o Teams exige o .NET Framework 4.5 ou posterior; o instalador do Teams oferecerá instalá-lo para você se você não o tiver. 
+O cliente de desktop do Microsoft Teams é um aplicativo autônomo e também está [disponível no Office 365 ProPlus](https://docs.microsoft.com/en-us/deployoffice/teams-install). Teams está disponível para Windows (7+) nas versões de 32 e 64 bits e para macOS (10.10+). No Windows, o Teams exige o .NET Framework 4.5 ou posterior; o instalador do Teams oferecerá instalá-lo para você se você não o tiver. 
 
 Os clientes de área de trabalho fornecem suporte de comunicação em tempo real (áudio, vídeo e compartilhamento de conteúdo) para reuniões de equipe, chamadas em grupo e chamadas individuais privadas.
 

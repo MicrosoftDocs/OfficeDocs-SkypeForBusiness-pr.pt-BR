@@ -1,5 +1,5 @@
 ---
-title: Implantar salas de equipes da Microsoft com o Exchange no local
+title: Implantar as Salas do Microsoft Teams com o Exchange no local
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,14 +12,14 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: Leia este tópico para obter informações sobre como implantar as salas de equipes da Microsoft em um ambiente híbrido com o Exchange no local.
-ms.openlocfilehash: 1c1dd5ad49cedb2aee41b036f71bbc6b840aed96
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7ab9a582e26db15159677343d9edddd6bd9c45f9
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916207"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082718"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implantar salas de equipes da Microsoft com o Exchange no local
+# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implantar as Salas do Microsoft Teams com o Exchange no local
 
 Leia este tópico para obter informações sobre como implantar o Microsoft equipes salas em um ambiente híbrido com Exchange no local e Teams da Microsoft ou Skype para Business Online.
   
@@ -62,7 +62,7 @@ Se você estiver implantando salas de equipes da Microsoft com o Exchange no loc
     > [!NOTE]
     > Selecionando a **senha nunca expira** é um requisito para Skype para Business Server em salas de equipes da Microsoft. As regras do domínio podem proibir senhas que não expiram. Nesse caso, você precisará criar uma exceção para cada conta de dispositivo de salas de equipes da Microsoft.
   
-4. Depois de criar a conta, execute a sincronização do diretório. Quando ele estiver concluído, vá para a página de usuários no seu centro de administração do Office 365 e verifique se a conta criada nas etapas anteriores mesclada para online.
+4. Depois de criar a conta, execute a sincronização do diretório. Quando ele estiver concluído, vá para a página de usuários no seu centro de administração do Microsoft 365 e verifique se a conta criada nas etapas anteriores mesclada para online.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Habilitar a caixa de correio remota e as propriedades definidas
 

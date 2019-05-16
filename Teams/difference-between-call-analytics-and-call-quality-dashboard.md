@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Saiba mais sobre a análise de chamada e painel de controle de qualidade de chamada e quando usá-los para monitorar e solucionar problemas de qualidade da chamada.
-ms.openlocfilehash: 410b8a55fb2e0860f9b888ffc7ec26513a2d91fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6165a4473e8770e20a595e368402ff1cf5bfe6e0
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902671"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082734"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análise de Chamada e Painel de Qualidade de Chamadas
 
@@ -82,6 +82,7 @@ Com a Ajuda do CQD Location-Enhanced relatórios, a qualidade da chamada agrega�
 Se desejar que não-administradores, como agentes de assistência técnica, para usar o painel de qualidade de chamada, você pode atribuir esses usuários a função **Engenheiro de suporte de comunicação de equipes**, **Especialista equipes de suporte de comunicações**ou **Leitor de relatórios** . Usuários com as seguintes funções podem acessar o painel de controle de qualidade de chamada:
 
 - Administrador global
+- Leitor global
 - Skype para o administrador de negócios
 - Administrador de Serviço de Equipes
 - Administrador de Comunicações de Equipes
