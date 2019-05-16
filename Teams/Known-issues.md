@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1be129edfbac1bff1120785596eb3fe8bcc8bb2f
-ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
+ms.openlocfilehash: 0f52ffd975d671b71f098cb15c6dd7c8661c082d
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970187"
+ms.locfileid: "33994149"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -266,7 +266,11 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |:-----|:-----|:-----|:-----|
 |Função de pesquisa na guia de lista do SharePoint  <br/> |A tentativa de abrir um arquivo da função de pesquisa da guia de lista do SharePoint acionará uma solicitação de “Será necessário um novo aplicativo para abrir essa sobre”, e o arquivo não será aberto. <br/> |Abrir diretamente na lista em vez de na barra de pesquisa. <br/> |11/02/2019  <br/> |
 
-## <a name="teams"></a>Microsoft Teams
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Falha ao baixar arquivos <br/> |Tentar baixar um arquivo quando o caminho do arquivo contiver um apóstrofo resultará na falha "O arquivo não foi baixado" ao usar o cliente da área de trabalho do Microsoft Teams. <br/> |Baixe o arquivo a partir do cliente da Web ou do SharePoint Online <br/> |10/05/2019  <br/> |
+
+## <a name="teams"></a>Teams
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -303,3 +307,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Usuário não recebe o email de boas-vindas quando adicionado administrativamente  <br/> |Ao adicionar um membro a uma equipe usando o PowerShell ou o Centro de administração do Teams, ele não recebe um email de boas-vindas do Microsoft Teams  <br/> |Adicionar um membro a partir da interface do usuário do Teams diretamente enviará um email. Atualmente, não há solução alternativa administrativamente.  <br/> |12/2/2019  <br/> |
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Não é possível mover, excluir ou renomear arquivos após a edição  <br/> |Depois que um arquivo é editado no MS Teams, ele não pode ser movido, renomeado ou excluído imediatamente <br/> |Esse é atualmente um problema conhecido e a solução alternativa é aguardar algum tempo antes de fazer uma alteração administrativa.  <br/> |03/12119  <br/> |

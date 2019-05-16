@@ -616,6 +616,7 @@
 ### [Tarefas do Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Recursos do Teams para administradores de Educação](resources-teams-edu.md)
 ### [Perguntas frequentes sobre governança do Microsoft Education para administradores](plan-teams-governance-edu.md)
+### [Instale a integração do Moodle](install-moodle-integration.md)
 
 ## [Teams para o Varejo](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [Introdução aos modelos de varejo do Teams](get-started-with-retail-teams-templates.md)
@@ -710,6 +711,7 @@
 ### [Colocar um usuário ou uma equipe do Teams em retenção legal](legal-hold.md)
 ### [Pesquisar o registro de auditoria de eventos no Teams](audit-log-events.md)
 ### [Usar a pesquisa de conteúdo no Teams](content-search.md)
+### [Políticas de controle de aplicativos do AppLocker no Teams](applocker-in-teams.md)
 ### [Políticas de retenção no Teams](retention-policies.md)
 #### [Perguntas frequentes sobre as políticas de retenção](retention-policies-FAQ.md)
 #### [Problemas conhecidos das políticas de retenção](retention-policies-known-issues.md)
