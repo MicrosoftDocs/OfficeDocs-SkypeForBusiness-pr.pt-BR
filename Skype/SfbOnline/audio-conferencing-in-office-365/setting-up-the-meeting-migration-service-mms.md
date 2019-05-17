@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Serviço de migração (MMS) de reunião é um serviço executado em segundo plano e que é atualizado automaticamente Skype para reuniões de negócios e Teams da Microsoft para usuários. MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
-ms.openlocfilehash: 9a133cb2a91e50ad21b263009f8f2c64cd3d8ccb
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: da1b21b65794354a023632e785c463b494cc38f5
+ms.sourcegitcommit: ee05fe02fe68b5bd6ee38dd4a3ad69da3d37c492
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835115"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34106170"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Usando o serviço de migração de reunião (MMS)
 
@@ -83,7 +83,7 @@ Esta seção descreve o que acontece quando MMS é disparado em cada um dos segu
 
 Esse é o cenário mais comum onde o MMS ajuda a criar uma transição mais suave para seus usuários. Sem migração de reunião, existentes reuniões organizadas por um usuário no Skype para Business Server local não é mais funcionaria depois que o usuário é movido online. Portanto, quando você usar as ferramentas de administração de local (tanto `Move-CsUser` ou do painel de controle do Admin) para mover um usuário para a nuvem, reuniões existentes são movidas automaticamente para a nuvem da seguinte maneira:
 
-- Se o `MoveToTeams` alternar no `Move-CsUser` for especificado, reuniões são migrados diretamente para as equipes e o usuário estará no modo de TeamsOnly. Uso desta opção requer Skype para Business Server com CU8 ou posterior. Esses usuários ainda poderão ingressar qualquer Skype para reunião de negócios, que eles podem ser convidados, usando o Skype para o cliente de negócios ou o aplicativo de reunião do Skype.
+- Se o `MoveToTeams` alternar no `Move-CsUser` for especificado, reuniões são migrados diretamente para as equipes e o usuário estará no modo de TeamsOnly. Uso desta opção requer Skype para Business Server 2015 com CU8 ou posterior. Esses usuários ainda poderão ingressar qualquer Skype para reunião de negócios, que eles podem ser convidados, usando o Skype para o cliente de negócios ou o aplicativo de reunião do Skype.
 - Caso contrário, reuniões são migradas para Skype para negócios Online.
 
 Em ambos os casos, se o usuário tenha sido atribuído uma licença de conferência de áudio antes que está sendo movido para a nuvem, as reuniões serão criadas com as coordenadas de discagem. Se você mover um usuário no local para a nuvem e você pretende que esse usuário utilize a conferência de áudio, é recomendável que você atribua primeiro na audioconferência antes de mover o usuário para que a migração de reunião somente 1 é disparada.

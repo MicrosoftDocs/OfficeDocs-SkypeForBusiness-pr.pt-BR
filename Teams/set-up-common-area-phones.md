@@ -21,14 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar os telefones de área comum para lobbies, áreas de recepção e salas de conferência '
-ms.openlocfilehash: 9e68d5bc4ef0355e80e1fe6359385c10a339c0fe
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: 66f84cb1ce768cc86a7c31a6ac345f0fcc135726
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632373"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108743"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurar a licença de Telefone de Área Comum para o Microsoft Teams
+> [!NOTE]
+> Telefones de área comum têm suporte para a caixa postal.
 
 Um telefone de área comum geralmente é colocado em uma área de como um lobby ou outro que está disponível para muitas pessoas para fazer uma chamada; Por exemplo, uma recepção área, lobby ou conferência telefônica. Telefones de área comum são configurados como dispositivos em vez de usuários e podem entrar automaticamente em uma rede.
 
