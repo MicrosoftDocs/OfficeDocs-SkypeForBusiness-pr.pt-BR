@@ -13,17 +13,17 @@ ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Setup
 description: 'Aprenda causas comuns para erros de sinal do Skype for Business Online e trabalhe na solução de problemas. '
-ms.openlocfilehash: 369dc9347903335227641b1afebb1fd199d64541
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: edbddf940eeea36ecfdcf6966558b9632c729065
+ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886991"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158959"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Solucionando erros de entrada no Skype for Business Online para administradores
 

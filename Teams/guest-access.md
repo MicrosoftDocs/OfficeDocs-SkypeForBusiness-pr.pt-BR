@@ -9,19 +9,19 @@ ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais.
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6d77c44cb7d7d5ba5dd5fd3448b118c60c0d908
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
-ms.translationtype: MT
+ms.openlocfilehash: 2d59413a2480458a00d84fddfe9a4368ca01a6cc
+ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919020"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34159206"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acesso para convidado no Microsoft Teams
 ======================================
@@ -37,7 +37,7 @@ O acesso a convidados é um dos recursos mais pedidos pelos clientes. Veja como 
 
 O acesso a convidados permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, concedendo a elas acesso a equipes e canais existentes em um ou mais de seus locatários. Qualquer pessoa com uma conta de email corporativa ou de consumidor, como do Outlook, Gmail ou outras, pode participar como convidado no Microsoft Teams, com acesso total a chats, reuniões e arquivos de equipe.
 
-O acesso a convidados está incluído em todas as assinaturas do Office 365 Business Premium, do Office 365 Enterprise e do Office 365 Education sem nenhum requisito de licenciamento adicional. Você pode ter até cinco convidados por usuário licenciado no seu locatário. Para obter mais informações sobre licenciamento, consulte o [guia de licenciamento de colaboração do Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance). 
+O acesso a convidados está incluído em todas as assinaturas do Office 365 Business Premium, do Office 365 Enterprise e do Office 365 Education sem nenhum requisito de licenciamento adicional. Você pode ter até cinco convidados por usuário licenciado no seu locatário. Para obter mais informações sobre licenciamento, consulte o [guia de licenciamento de colaboração do Azure Active Directory B2B](https://docs.microsoft.com/pt-BR/azure/active-directory/b2b/licensing-guidance). 
 
 O acesso a convidados é uma configuração a nível de locatário no Microsoft Teams e está desabilitado por padrão. O acesso a convidados está sujeito aos limites de serviço do Azure AD e do Office 365.
 
@@ -62,7 +62,7 @@ O Teams é baseado nos Grupos do Office 365, e fornece uma nova maneira de acess
     
 [Entre em contato com o suporte para produtos comerciais - Ajuda para Administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
 
-  [Acesso a convidados em Grupos do Office 365](https://support.office.com/en-us/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
+  [Acesso a convidados em Grupos do Office 365](https://support.office.com/pt-BR/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   
 |  |  |
 |---------|---------|

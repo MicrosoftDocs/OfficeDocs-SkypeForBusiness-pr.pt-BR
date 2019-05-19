@@ -18,13 +18,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Conheça as etapas de implantação para obter o firmware correto, atualizá-la, se necessário, atribuir licenças e definir configurações para telefones de área comum.
-ms.openlocfilehash: b92cef4234823c53faf6193d2e9e90fe3e5b60f0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Saiba quais são as etapas de implantação para obter o firmware correto, atualize-o, se necessário, atribua licenças e defina as configurações para telefones fixos de área comuns.
+ms.openlocfilehash: 0e673bc0a236cbf12aa305c3fc658dffe039c0e3
+ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231151"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34162578"
 ---
 # <a name="set-up-common-area-phones"></a>Configurar telefones de área comum
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -36,10 +36,10 @@ A primeira coisa a ser feita é confirmar que você já:
 - Comprou a licença do Telefone de Área Comum e um Plano de Chamadas.
 - Pesquisou e comprou telefones aprovados (veja a lista [aqui](deploying-skype-for-business-online-phones.md)).
 - Update the firmware on your phones (See supported firmware [in this topic](getting-phones-for-skype-for-business-online.md)).  You can check the firmware on you phone by doing this:
-  - **Telefones Polycom VVX**: acesse **configurações** > **Status** > **plataforma** > **aplicativo** > **principal**.
-  - **Telefones Yealink**: Ir para **Status** na tela do telefone principal.
-  - **Telefones AudioCodes**: vá para o **Menu** > **Status do dispositivo** > **versão de Firmware** na tela de início.
-  - **Telefones de edição de telefone do Lync (LPE)**: vá para o **Menu** > **Informações do sistema** , na tela de início.
+  - **Telefones Polycom VVX**: Vá para **configurações** > **aplicativo** > **plataforma** > de**status** > **principal**.
+  - **Telefones Yealink**: ir para o **status** na tela principal do telefone.
+  - **AudioCodes telefones**: Vá para **o menu** > **versão do firmware** do status > do**dispositivo**na tela inicial.
+  - **Lync Phone Edition (LPe) phones**: Vá para**as informações do sistema** do **menu** > na tela inicial.
 
     Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default.
 
@@ -83,7 +83,7 @@ Para mais detalhes, veja [Adicionar um usuário](https://support.office.com/arti
 
 ![sfb-logo-30x30.png](../../images/sfb-logo-30x30.png)  Atribua um número de telefone ao usuário usando o ** Centro de administração do Skype for Business**
 
-1. Em que o Office 365 admin center gt _ **Admin centrais** > **Skype para negócios**.
+1. No centro de administração do Office 365 > **Admins centers** > **Skype for Business**.
 2. No **Centro de administração do Skype for Business** >  **Voz** > **Números de telefone**.
 3. Selecione um número na lista de números de telefone e clique em **Atribuir**.
 4. Na página **Atribuir**, na caixa **Usuário de voz** digite o nome do usuário usado para o telefone e, em seguida, selecione o usuário no menu suspenso **Selecionar um usuário de voz**.
@@ -95,9 +95,9 @@ Para mais detalhes, veja [Adicionar um usuário](https://support.office.com/arti
    > [!Note]
    > Os usuários só aparecerão se tiverem uma licença do **Sistema de Telefonia** aplicada. Quando fizer isso, pode levar um tempo para que o usuário apareça na lista.
 
-Para mais detalhes, veja [Obtenção de números de telefone para seus usuários](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md).
+Para mais detalhes, veja [Obtenção de números de telefone para seus usuários](/microsoftteams/getting-phone-numbers-for-your-users).
 
-Se você está se perguntando, também é possível usar o número de telefone de outra operadora e "*fazer a portabilidade*" ou transferi-lo para o Office 365. Consulte, [transferir os números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
+Se você está se perguntando, também é possível usar o número de telefone de outra operadora e "*fazer a portabilidade*" ou transferi-lo para o Office 365. Consulte [transferir números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
 
 ### <a name="step-4---setting-up-your-phone"></a>Etapa 4 - Configurar seu telefone
 
@@ -115,7 +115,7 @@ O telefone ou telefones que você possui devem ter o **Modo de Telefone de Área
 - Agora que o modo CAP está habilitado, configure o telefone usando o vídeo do telefone. O vídeo deve mostrar que **o CaAP está habilitado**. Em seguida, faça o seguinte:
 
     1. Clique em **Configurações**.
-    2. Selecione **Avançado**.
+    2. Selecione **avançado**.
     3. Insira a senha.
     4. Em **Configurações de administração**, selecione **Configurações do Telefone de Área Comum**.
     5. Habilite o **CAP** e o **Modo de Administração do CAP**.
@@ -137,7 +137,7 @@ O telefone ou telefones que você possui devem ter o **Modo de Telefone de Área
 
 
 > [!NOTE]
-> O site de configuração do CAP informa que ele redefinirá a senha da conta CAP para uma senha aleatória. Observe que a conta à qual o CAP está se referindo é a conta do Active Directory do Azure (AAD). Se você criou a conta somente no AAD, então o processo é direto. Se você tiver um local no Active Directory para AAD sincronizados e você usa um IDP de terceiros ou ADFS, provisionamento COBRIR irá falhar. Nesse caso, você precisará usar um Office 365/Azure apenas conta do Active Directory (por exemplo, uma conta com o domínio **onmicrosoft.com** ) para COBRIR provisionamento para trabalhar.
+> O site de configuração do CAP informa que ele redefinirá a senha da conta CAP para uma senha aleatória. Observe que a conta à qual o CAP está se referindo é a conta do Active Directory do Azure (AAD). Se você criou a conta somente no AAD, então o processo é direto. Se você tiver sincronizado um Active Directory local para o AAD e usar um IDP ou ADFS de terceiros, o provisionamento de CAP falhará. Nesse caso, você só precisa usar uma conta do Office 365/Azure Active Directory (por exemplo, uma conta com domínio **onmicrosoft.com** ) para que o provisionamento de Cap funcione.
 
 
 ### <a name="related-topics"></a>Tópicos relacionados
