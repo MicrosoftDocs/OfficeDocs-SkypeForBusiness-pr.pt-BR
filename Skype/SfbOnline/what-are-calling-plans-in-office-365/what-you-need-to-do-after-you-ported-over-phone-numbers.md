@@ -1,5 +1,5 @@
 ---
-title: O que você precisa ser feito depois de você ter migradas seus números de telefone?
+title: O que você precisa fazer após portar seus números de telefone?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,38 +20,38 @@ f1keywords:
 - ms.lync.lac.PortOrderFinish
 ms.custom:
 - Calling Plans
-description: Consulte o que você precisa fazer em seguida depois que você tiver duas portas seus números de telefone para Skype para negócios.
-ms.openlocfilehash: edcf796be766f62a99686c2182091daa13d3a810
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Veja o que você precisa fazer após portar seus números de telefone para o Skype for Business.
+ms.openlocfilehash: fc63f734b9be26db928488f7b759ca5e68ddc29b
+ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229581"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34159170"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a><span data-ttu-id="25d98-103">O que você precisa ser feito depois de você ter migradas seus números de telefone?</span><span class="sxs-lookup"><span data-stu-id="25d98-103">What do you need to do after you have ported over your phone numbers?</span></span>
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a><span data-ttu-id="f3b75-103">O que você precisa fazer após portar seus números de telefone?</span><span class="sxs-lookup"><span data-stu-id="f3b75-103">What do you need to do after you have ported over your phone numbers?</span></span>
 
-<span data-ttu-id="25d98-104">Depois que você enviou seu pedido de porta, iremos entre em contato com sua operadora e elaborar os detalhes com eles.</span><span class="sxs-lookup"><span data-stu-id="25d98-104">After you have submitted your port order, we will contact your carrier and work out the details with them.</span></span> <span data-ttu-id="25d98-105">Quando a data final transferência tiver sido definida, você receberá uma notificação por e-mail.</span><span class="sxs-lookup"><span data-stu-id="25d98-105">When the final transfer date has been set, we will notify you via email.</span></span> <span data-ttu-id="25d98-106">No entanto, enquanto aguardam na sua operadora para aceitar a ordem, prossiga e criar os endereços de emergências necessários que você usará com esses números.</span><span class="sxs-lookup"><span data-stu-id="25d98-106">However, while waiting on your carrier to accept the order, go ahead and create the required emergency addresses you will use with these numbers.</span></span>
+<span data-ttu-id="f3b75-104">Depois de enviar seu pedido de portabilidade, entraremos em contato com a sua operadora e configuraremos os detalhes com eles.</span><span class="sxs-lookup"><span data-stu-id="f3b75-104">After you have submitted your port order, we will contact your carrier and work out the details with them.</span></span> <span data-ttu-id="f3b75-105">Quando a data de transferência final tiver sido definida, você será notificado por e-mail.</span><span class="sxs-lookup"><span data-stu-id="f3b75-105">When the final transfer date has been set, we will notify you via email.</span></span> <span data-ttu-id="f3b75-106">No entanto, enquanto aguarda a sua operadora aceitar o pedido, vá em frente e crie os endereços de emergência necessários que você usará com esses números.</span><span class="sxs-lookup"><span data-stu-id="f3b75-106">However, while waiting on your carrier to accept the order, go ahead and create the required emergency addresses you will use with these numbers.</span></span>
   
-- <span data-ttu-id="25d98-107">Saiba mais sobre [Cite locais de emergência, endereços e roteamento de chamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).</span><span class="sxs-lookup"><span data-stu-id="25d98-107">Learn more about [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).</span></span>
+- <span data-ttu-id="f3b75-107">Saiba mais sobre [o que são locais de emergência, endereços e encaminhamento de chamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).</span><span class="sxs-lookup"><span data-stu-id="f3b75-107">Learn more about [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).</span></span>
     
-- <span data-ttu-id="25d98-108">Você pode [Adicionar ou remover uma emergência de endereços para sua organização](add-or-remove-an-emergency-address-for-your-organization.md) se precisar.</span><span class="sxs-lookup"><span data-stu-id="25d98-108">You can [Add or remove an emergency address for your organization](add-or-remove-an-emergency-address-for-your-organization.md) if you need to.</span></span>
+- <span data-ttu-id="f3b75-108">Você pode [Adicionar ou remover um endereço de emergência de sua organização](add-or-remove-an-emergency-address-for-your-organization.md) se precisar.</span><span class="sxs-lookup"><span data-stu-id="f3b75-108">You can [Add or remove an emergency address for your organization](add-or-remove-an-emergency-address-for-your-organization.md) if you need to.</span></span>
     
-- <span data-ttu-id="25d98-109">Se seus números de telefone já tem um endereço de emergência, [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-or-remove-an-emergency-location-for-your-organization.md).</span><span class="sxs-lookup"><span data-stu-id="25d98-109">If your phone numbers already have an emergency address, [Add, change, or remove an emergency location for your organization](add-change-or-remove-an-emergency-location-for-your-organization.md).</span></span>
+- <span data-ttu-id="f3b75-109">Se os seus números de telefone já tiverem um endereço de emergência, [adicione, altere ou remova um local de emergência de sua organização](add-change-or-remove-an-emergency-location-for-your-organization.md).</span><span class="sxs-lookup"><span data-stu-id="f3b75-109">If your phone numbers already have an emergency address, [Add, change, or remove an emergency location for your organization](add-change-or-remove-an-emergency-location-for-your-organization.md).</span></span>
     
-- [<span data-ttu-id="25d98-110">Atribuir, alterar ou remover o número de telefone de um usuário</span><span class="sxs-lookup"><span data-stu-id="25d98-110">Assign, change, or remove a phone number for a user</span></span>](assign-change-or-remove-a-phone-number-for-a-user.md)
+- [<span data-ttu-id="f3b75-110">Atribuir, alterar ou remover o número de telefone de um usuário</span><span class="sxs-lookup"><span data-stu-id="f3b75-110">Assign, change, or remove a phone number for a user</span></span>](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 
 > [!NOTE]
-> <span data-ttu-id="25d98-111">Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="25d98-111">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="f3b75-111">Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="f3b75-111">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
     
-## <a name="related-topics"></a><span data-ttu-id="25d98-112">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="25d98-112">Related topics</span></span>
-[<span data-ttu-id="25d98-113">Perguntas comuns sobre a transferência de números de telefone</span><span class="sxs-lookup"><span data-stu-id="25d98-113">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="f3b75-112">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="f3b75-112">Related topics</span></span>
+[<span data-ttu-id="f3b75-113">Perguntas comuns sobre a transferência de números de telefone</span><span class="sxs-lookup"><span data-stu-id="f3b75-113">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="25d98-114">Diferentes tipos de números de telefone usados para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="25d98-114">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="f3b75-114">Diferentes tipos de números de telefone usados para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="f3b75-114">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="25d98-115">Termos e condições para chamadas de emergência</span><span class="sxs-lookup"><span data-stu-id="25d98-115">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="f3b75-115">Termos e condições para chamadas de emergência</span><span class="sxs-lookup"><span data-stu-id="f3b75-115">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="25d98-116">[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="25d98-116">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="f3b75-116">[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="f3b75-116">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
