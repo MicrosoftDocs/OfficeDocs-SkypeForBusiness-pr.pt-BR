@@ -10,16 +10,17 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sbhatta
+localization_priority: Priority
 search.appverid: MET150
 description: Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3e5f1ca3a00e8be43041db11133736256af4e48
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
-ms.translationtype: MT
+ms.openlocfilehash: 9b66972ea4e0fe10ba19cdb96db0f0239ce63558
+ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885110"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34159162"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar o acesso para convidado no Microsoft Teams
 ===========================================
@@ -50,9 +51,9 @@ Os dois diagramas anteriores também estão disponíveis no [Visio](https://gith
 
 ## <a name="control-guest-access-in-azure-active-directory"></a>Controlar o acesso de convidados no Active Directory do Azure
 
-Use o Azure AD para determinar se os colaboradores externos podem ser receber um convite para acessar o seu locatário como convidados, e de que maneira. Para obter mais informações sobre o acesso a convidados B2B do Azure, consulte [O que é o acesso do usuário convidado no B2B do Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b). Para obter informações sobre as funções do Azure AD, consulte [Conceder permissões a usuários de organizações parceiras em seu locatário do Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/b2b/add-guest-to-role).
+Use o Azure AD para determinar se os colaboradores externos podem ser receber um convite para acessar o seu locatário como convidados, e de que maneira. Para obter mais informações sobre o acesso a convidados B2B do Azure, consulte [O que é o acesso do usuário convidado no B2B do Azure Active Directory](https://docs.microsoft.com/pt-BR/azure/active-directory/b2b/what-is-b2b). Para obter informações sobre as funções do Azure AD, consulte [Conceder permissões a usuários de organizações parceiras em seu locatário do Azure Active Directory](https://docs.microsoft.com/pt-BR/azure/active-directory/b2b/add-guest-to-role).
 
-As configurações de convites são aplicáveis no nível do locatário e controlam a experiência dos convidados no nível de diretório, locatário e aplicativo. Para definir essas configurações no portal do Azure, vá para o **Windows Azure Active Directory** > **usuários** > **configurações do usuário**e em **usuários externos**, selecione **Gerenciar configurações de colaboração externa**.
+As configurações de convites são aplicáveis no nível do locatário e controlam a experiência dos convidados no nível de diretório, locatário e aplicativo. Para definir essas configurações no portal do Azure, vá para **Azure Active Directory** > **Usuários** > **Configurações do usuário** e, sob **Usuários externos**, selecione **Gerenciar configurações de colaboração externa**.
 
 O Azure AD inclui as seguintes configurações para configurar usuários externos:
 
@@ -64,14 +65,14 @@ O Azure AD inclui as seguintes configurações para configurar usuários externo
     > Atualmente, o Teams não possui suporte para a função de emissor de convite a convidado. no mínimo, a opção de **Membros podem convidar** deve ser definida como **Sim** para que o acesso a convidados funcione no Teams.
 - **Convidados podem convidar**: **Sim** significa que os convidados em seu diretório podem enviar convites a outros convidados a fim de que colaborem em recursos protegidos pelo seu Azure AD, como sites do SharePoint ou recursos do Azure. **Não** significa que os convidados não podem enviar convites a outros convidados a fim de que colaborem com sua organização.
  
-Para obter mais informações sobre como controlar quem pode convidar pessoas, consulte [convites de representante para colaboração B2B do Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/b2b/delegate-invitations).
+Para obter mais informações sobre como controlar quem pode convidar pessoas, consulte [Delegar convites para colaboração B2B do Active Directory do Azure](https://docs.microsoft.com/pt-BR/azure/active-directory/b2b/delegate-invitations).
 
 > [!NOTE]
 > Você também pode gerenciar quais domínios podem receber convites para acessar seu locatário como convidados. Consulte [Permitir/bloquear o acesso de convidados a grupos do Office 365](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups). 
 
 Não é necessário adicionar a conta de convidado do usuário manualmente ao B2B do Azure AD, pois a conta será adicionada ao diretório automaticamente quando você adicionar o convidado ao Teams. 
 
-O licenciamento do Azure AD permite adicionar até 5 convidados por licença. Para obter mais informações sobre o licenciamento do Azure AD, consulte o [guia de licenciamento de colaboração B2B do Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
+O licenciamento do Azure AD permite adicionar até 5 convidados por licença. Para obter mais informações sobre o licenciamento do Azure AD, consulte o [guia de licenciamento de colaboração B2B do Azure Active Directory](https://docs.microsoft.com/pt-BR/azure/active-directory/b2b/licensing-guidance).
 
 ## <a name="control-guest-access-in-teams"></a>Controle o acesso de convidados no Teams
 
@@ -98,7 +99,7 @@ Nos Grupos do Office 365, você pode controlar a adição de usuários convidado
 
 Essas configurações se aplicam no nível do locatário e controlam a experiência do convidado nos Grupos do Office 365 e no Microsoft Teams.
 
-Consulte [Acesso a convidados nos Grupos do Office 365](https://support.office.com/en-us/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6) para obter mais informações sobre o acesso a convidados nos Grupos, incluindo como o acesso a convidados funciona, como gerenciar o acesso a convidados e respostas a perguntas frequentes.
+Consulte [Acesso a convidados nos Grupos do Office 365](https://support.office.com/pt-BR/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6) para obter mais informações sobre o acesso a convidados nos Grupos, incluindo como o acesso a convidados funciona, como gerenciar o acesso a convidados e respostas a perguntas frequentes.
 
 ## <a name="control-guest-access-to-sharepoint-online-and-onedrive-for-business"></a>Controle o acesso a convidados no SharePoint Online e OneDrive for Business
 
