@@ -4,48 +4,48 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
-description: 'Resumo: Saiba mais sobre a operação de obter a configuração do usuário, que faz parte do serviço de configurações de usuário. O serviço de configurações de usuário é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: 91f8c60a33c6126f61901c4d73e4a6f2c5b5e1f4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre a operação obter a configuração do usuário, que faz parte do serviço de configurações do usuário. O serviço configurações do usuário faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
+ms.openlocfilehash: 295e12405eb6a7ebbf45b87e3a06f3a745b90bad
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930725"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274650"
 ---
 # <a name="get-user-setting"></a>Obter configuração de usuário
  
-**Resumo:** Saiba mais sobre a operação de obter a configuração do usuário, que faz parte do serviço de configurações de usuário. O serviço de configurações de usuário é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
+**Resumo:** Saiba mais sobre a operação obter a configuração do usuário, que faz parte do serviço de configurações do usuário. O serviço configurações do usuário faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
   
-A operação de obter a configuração do usuário é parte do serviço de configurações do usuário na API repositório para o painel de controle de qualidade de chamada.
+A operação obter a configuração do usuário faz parte do serviço configurações do usuário na API do repositório para o painel de qualidade da chamada.
   
 ## <a name="get-user-setting"></a>Obter configuração de usuário
 
-Obtenha a configuração do usuário retorna a configuração de um único usuário.
+Obter configuração de usuário retorna uma única configuração de usuário.
   
 
-|**Método**|**URI de solicitação**|**Versão de HTTP**|
+|**Forma**|**URI de solicitação**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|Obter  <br/> |https://\<portal\>/QoERepositoryService/repositório/usuário / {userId} /setting/ {chave}  <br/> |HTTP/1.1  <br/> |
+|Obter  <br/> |https://\<do\>portal de/QoERepositoryService/Repository/User/{userid}/Setting/{Key}  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros URI** - None.
+ **Parâmetros de URI** -nenhum.
   
- **Cabeçalhos de solicitação** - sem cabeçalhos adicionais.
+ **Solicitar cabeçalhos** -sem cabeçalhos adicionais.
   
- O **corpo da solicitação** - None.
+ **Corpo da solicitação** -nenhum.
   
- **Resposta** - a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
+ **Resposta** -a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
   
- **Código de status** - uma operação bem-sucedida retorna o código de status 200 (Okey).
+ **Código de status** -uma operação bem-sucedida retorna o código de status 200 (OK).
   
- **Cabeçalhos de resposta** - sem cabeçalhos adicionais.
+ **Cabeçalhos de resposta** -sem cabeçalhos adicionais.
   
- **Corpo de resposta** - abaixo é uma carga de resposta de exemplo em JSON.
+ **Corpo da resposta** -abaixo está uma carga de resposta de exemplo em JSON.
   
 ```
 {
@@ -55,10 +55,10 @@ Obtenha a configuração do usuário retorna a configuração de um único usuá
 }
 ```
 
- *userId* - ID do usuário.
+ *userid* -ID do usuário.
   
- *chave* - chave da configuração.
+ ** chave-chave da configuração.
   
- *valor* - valor da configuração.
+ *Value* -valor da configuração.
   
 

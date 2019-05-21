@@ -1,34 +1,34 @@
 ---
-title: Suporte a troncos múltiplos no Skype para Business Server
+title: Suporte a vários troncos no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Skype para a funcionalidade do Business Server suporta vários associações entre gateways e servidores de mediação. Essas associações são feitas por meio da definição de um tronco, que é uma associação de lógica entre um pool do servidor de mediação e um gateway PSTN (rede) telefônica pública comutada, controlador de borda de sessão (SBC) ou IP-PBX. Use o construtor de topologia para associar os gateways com servidores de mediação (ou seja, troncos).
-ms.openlocfilehash: 001045d10cd1169ced6a6bdc2856e2d12e818410
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: A funcionalidade do Skype for Business Server oferece suporte a várias associações entre gateways e servidores de mediação. Essas associações são feitas pela definição de um tronco, que é uma associação lógica entre um pool do servidor de mediação e um gateway de rede telefônica pública comutada (SBC), ou PBX IP. Use o construtor de topologias para associar gateways a servidores de mediação (ou seja, troncos).
+ms.openlocfilehash: a6a0134ee04d939a10aaf9e36c81124d085af5aa
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910337"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274909"
 ---
-# <a name="multiple-trunk-support-in-skype-for-business-server"></a>Suporte a troncos múltiplos no Skype para Business Server
+# <a name="multiple-trunk-support-in-skype-for-business-server"></a>Suporte a vários troncos no Skype for Business Server
 
-Skype para a funcionalidade do Business Server suporta vários associações entre gateways e servidores de mediação. Essas associações são feitas por meio da definição de um tronco, que é uma associação de lógica entre um pool do servidor de mediação e um gateway PSTN (rede) telefônica pública comutada, controlador de borda de sessão (SBC) ou IP-PBX. Use o construtor de topologia para associar os gateways com servidores de mediação (ou seja, troncos).
+A funcionalidade do Skype for Business Server oferece suporte a várias associações entre gateways e servidores de mediação. Essas associações são feitas pela definição de um tronco, que é uma associação lógica entre um pool do servidor de mediação e um gateway de rede telefônica pública comutada (SBC), ou PBX IP. Use o construtor de topologias para associar gateways a servidores de mediação (ou seja, troncos).
 
-- Para atribuir ou remover um tronco no Skype para Business Server, você deve definir um tronco no construtor de topologia. Consiste em um tronco a associação a seguir: servidor de mediação totalmente qualificado (FQDN) do nome de domínio, a porta de escuta do servidor de mediação, o gateway FQDN e a porta de escuta do gateway.
-- Para configurar vários troncos, você pode criar várias associações entre o mesmo gateway e o servidor de mediação. Isso oferece resiliência adicional a infraestrutura do Enterprise Voice, o que é especialmente útil em cenários interoperational do privada de comutação telefônica (PBX). 
+- Para atribuir ou remover um tronco no Skype for Business Server, primeiro você deve definir um tronco no construtor de topologias. Um tronco consiste na seguinte associação: nome de domínio totalmente qualificado (FQDN) do servidor de mediação, a porta de escuta do servidor de mediação, o FQDN do gateway e a porta de escuta do gateway.
+- Para configurar vários troncos, você pode criar várias associações entre o mesmo gateway e o servidor de mediação. Isso fornece resiliência adicional à infraestrutura Enterprise Voice, que é especialmente útil em cenários de interoperabilidade de PBX (Private Branch Exchange). 
 
-Quando um tronco é definido, ele precisa ser associado à rota. Para associar um tronco a uma rota, você pode definir um nome simples para o tronco no construtor de topologia. Esse nome simple é usado como o nome do tronco no Skype para painel de controle do Business Server, onde troncos podem ser associados a rotas. O nome do tronco simples é usado como o nome de gateway a partir do Skype do Shell de gerenciamento do servidor de negócios.
+Quando um tronco é definido, ele precisa ser associado à rota. Para associar um tronco a uma rota, você define um nome simples para o tronco no construtor de topologias. Esse nome simples é usado como o nome do tronco no painel de controle do Skype for Business Server, em que os troncos podem ser associados às rotas. O nome do tronco simples é usado como o nome do gateway do Shell de gerenciamento do Skype for Business Server.
 
 `New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}`
 
-O administrador deve selecionar um tronco padrão associado a um servidor de mediação. No Topology Builder, com o botão direito do servidor de mediação associado e clique em **Propriedades**. Especifique o gateway padrão para o servidor de mediação. 
+O administrador deve selecionar um tronco padrão associado a um servidor de mediação. No construtor de topologias, clique com o botão direito do mouse no servidor de mediação associado e, em seguida, clique em **Propriedades**. Especifique o gateway padrão do servidor de mediação. 
 
-O diagrama a seguir ilustra os vários troncos que são definidos para cada servidor de mediação e o gateway. 
+O diagrama a seguir ilustra os vários troncos que são definidos para cada servidor e gateway de mediação. 
 
 ![Várias atribuições de tronco](../../media/multiple-trunk-assignments.jpg)

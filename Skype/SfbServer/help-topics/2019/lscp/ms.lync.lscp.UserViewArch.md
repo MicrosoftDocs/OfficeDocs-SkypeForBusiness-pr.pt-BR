@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserViewArch
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 9f0f1b48452757b1e3a69ebf16ff3f7b8612908c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5723c9572d1a53ccaa6b98bb248db417eaec7913
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890953"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278652"
 ---
 # <a name="users-view-or-configure-archiving-policy"></a>Usuários: Exibir ou Configurar Política de Arquivamento
 

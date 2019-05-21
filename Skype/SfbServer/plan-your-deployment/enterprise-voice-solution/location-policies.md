@@ -1,10 +1,10 @@
 ---
-title: Planejar políticas de local Skype for Business Server
+title: Planejar políticas de localização para o Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,28 +13,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
-description: Leia este tópico para saber como planejar políticas de local para uma implantação de serviços de emergência avançado (E9-1-1) no Skype Business Server Enterprise Voice.
-ms.openlocfilehash: 7bb92559f79be7cb2f8c62f89620f4b93f76cb8f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Leia este tópico para saber como planejar as políticas de localização de uma implantação de serviços de emergência (E9-1-1) aprimorada no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 8f21a5a0f54fbeaca4c46ed51bf4dafe4c2a3dcb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924203"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276751"
 ---
-# <a name="plan-location-policies-for-skype-for-business-server"></a>Planejar políticas de local Skype for Business Server
+# <a name="plan-location-policies-for-skype-for-business-server"></a>Planejar políticas de localização para o Skype for Business Server
  
-Leia este tópico para saber como planejar políticas de local para uma implantação de serviços de emergência avançado (E9-1-1) no Skype Business Server Enterprise Voice. 
+Leia este tópico para saber como planejar as políticas de localização de uma implantação de serviços de emergência (E9-1-1) aprimorada no Skype for Business Server Enterprise Voice. 
   
 > [!NOTE]
-> Skype para Business Server agora oferece suporte a configuração de vários números de emergências para um cliente. Se você deseja configurar vários números de emergências, você deve seguir as informações em [vários números de emergências Skype para Business Server planejar](multiple-emergency-numbers.md) e [Configurar vários números de emergências Skype para negócios](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md). 
+> Agora o Skype for Business Server oferece suporte à configuração de vários números de emergência para um cliente. Se quiser configurar vários números de emergência, você deve seguir as informações em [plano para vários números de emergência no Skype for Business Server](multiple-emergency-numbers.md) e [configurar vários números de emergência no Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md). 
   
-Crie políticas de local usando o Skype para painel de controle corporativos ou usando o cmdlet [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) . Para obter mais informações, consulte [criar políticas de local no Skype para Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md).
+Crie políticas de localização usando o painel de controle do Skype for Business ou usando o cmdlet [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) . Para obter mais informações, consulte [criar políticas de localização no Skype for Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md).
   
 Cada política de local contém as seguintes informações:
   
  **Habilitar E9-1-1**
   
-Quando este valor é habilitado, o cliente está habilitado para os serviços de emergência E9-1-1. Quando um cliente registra, ele tenta adquirir uma localização do serviço de informações de local e incluirá as informações de localização como parte de uma chamada de emergência.
+Quando este valor é habilitado, o cliente está habilitado para os serviços de emergência E9-1-1. Quando um cliente é registrado, ele tenta adquirir um local do serviço de informações de localização e inclui as informações de localização como parte de uma chamada de emergência.
   
  **Local**
   
@@ -53,25 +53,25 @@ Você pode configurar o **Local ** para definir o comportamento do cliente, como
   
  **Aviso de Isenção de Responsabilidade do Serviço de Emergência Avançado**
   
-Esta configuração especifica o aviso de isenção de responsabilidade que o usuário verá caso ignore a solicitação de local. No Skype para Business Server, você pode usar a política de local para definir avisos de isenção diferentes para diferentes grupos de usuários ou de diferentes localidades.
+Esta configuração especifica o aviso de isenção de responsabilidade que o usuário verá caso ignore a solicitação de local. No Skype for Business Server, você pode usar a política de localização para definir avisos de isenção de responsabilidade diferentes para locais diferentes ou conjuntos de usuários diferentes.
   
  **Cadeia de Discagem de Emergência (número de discagem para E9-1-1)**
   
-Esta cadeia de caracteres de discagem (menos o prefixo "+", mas incluindo qualquer normalização feita pelo plano de discagem do usuário) significa que uma chamada é uma chamada de emergência. A **Sequência de discagem de emergência** faz com que o cliente inclua na chamada informações sobre o local e sobre retorno de chamada.
+Esta cadeia de caracteres de discagem (menos a "+" à esquerda, mas incluindo qualquer normalização feita pelo plano de discagem do usuário) significa que uma chamada é uma chamada de emergência. A **Sequência de discagem de emergência** faz com que o cliente inclua na chamada informações sobre o local e sobre retorno de chamada.
   
 > [!NOTE]
-> Se sua organização não usar um prefixo de acesso de linha externa, você não precisará criar uma correspondente plano de discagem da regra de normalização que adiciona um "+" para a cadeia de caracteres 911 antes de enviar a chamada para o roteamento de saída em um servidor executando o Skype para Business Server; o "+" será colocada automaticamente antes pelo Skype para clientes corporativos como resultado a política de local. No entanto, se o seu site usa um prefixo de acesso externo, você precisará adicionar uma regra de normalização para a política de plano de discagem aplicável que retira o prefixo de acesso externo e adiciona o "+". Por exemplo, se seu local usa um prefixo de acesso externo de 9 e um usuário disca 9 911 para colocar uma chamada de emergência, o cliente usará sua política de plano de discagem normalizar isso para +911 antes que o número discado é avaliado com as rotas no perfil da localidade do chamador. 
+> Se a sua organização não usar um prefixo de acesso de linha externa, você não precisará criar uma regra de normalização de plano de discagem correspondente que adiciona "+" à cadeia de caracteres do 911 antes de enviar a chamada para o roteamento de saída em um servidor que executa o Skype for Business Server; o "+" será automaticamente precedida pelo cliente Skype for Business como resultado da política de localização. No entanto, se seu site usa um prefixo de acesso externo, você precisa adicionar uma regra de normalização à política de plano de discagem aplicável que retira o prefixo de acesso externo e adiciona o "+". Por exemplo, se a sua localização usa um prefixo de acesso externo de 9 e um usuário discar 9 911 para fazer uma chamada de emergência, o cliente usará sua política de plano de discagem para normalizar isso para + 911 antes que o número discado seja avaliado por rotas no perfil de localização do chamador. 
   
  **Máscaras de Cadeia de Discagem de Emergência (máscara de discagem para E9-1-1)**
   
-Uma-vírgula lista de cadeias de caracteres de discagem que é convertida em **Cadeia de caracteres de discagem de emergência**especificada. Por exemplo, convém adicionar 112, que é o número de serviço de emergência para a maioria dos Europa. Um visitante Skype para o usuário de negócios da Europa talvez não saiba que 911 é o número de emergência EUA, mas eles possam discar 112 e obter o mesmo resultado. Conforme com a cadeia de caracteres de discagem de emergência, não incluir um "+" antes de cada número, e se você usar códigos de acesso de linha externa, certifique-se de que há regras de normalização na política de plano de discagem do usuário para retirar desativa o dígito do código de acesso.
+Uma lista separada por ponto-e-vírgula de cadeias de discagem que é traduzida para a cadeia de discagem de **emergência**especificada Por exemplo, talvez você queira adicionar 112, que é o número do serviço de emergência para a maioria da Europa. Um usuário visitante do Skype for Business da Europa talvez não saiba que 911 é o número de emergência dos EUA, mas pode discar o 112 e obter o mesmo resultado. Assim como na cadeia de caracteres de discagem de emergência, não inclua um "+" antes de cada número e, se você usar códigos de acesso de linha externos, certifique-se de que haja regras de normalização na política de plano de discagem do usuário para retirar o dígito de código de acesso.
   
  **Uso de PSTN**
   
 O nome do Uso de PSTN que contém os caminhos de roteamento que determinam para qual tronco SIP, gateway PSTN ou gateway ELIN as chamadas serão encaminhadas.
   
 > [!NOTE]
-> É possível atribuir apenas um Uso a uma política de local. Este uso de PSTN substitui os usos da PSTN atribuídos à política de voz do usuário, mas se aplica somente às chamadas feitas para a cadeia de caracteres de discagem de emergência ou para uma das máscaras de cadeia de caracteres de discagem de emergência. 
+> É possível atribuir apenas um Uso a uma política de local. Esse uso de PSTN substitui os usos de PSTN atribuídos à política de voz do usuário, mas se aplica somente a chamadas feitas à cadeia de discagem de emergência ou a uma das máscaras de cadeia de discagem de emergência. 
   
  **URI de notificação**
   
@@ -87,6 +87,6 @@ Especifica se o URI de conferência será inserido na chamada de emergência usa
   
  **Intervalo de Atualização de Local**
   
-Especifica a quantidade de tempo (em horas) entre as solicitações de cliente para uma atualização local do serviço de informações de local. O valor pode ser definido para qualquer valor entre 1 e 12. O valor padrão é 4.
+Especifica a quantidade de tempo (em horas) entre as solicitações do cliente para uma atualização de localização do serviço de informações de localização. O valor pode ser definido para qualquer valor entre 1 e 12. O valor padrão é 4.
   
 

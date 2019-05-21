@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar as configurações de um pool de Borda de um único ou vários servidores existente, você pode usar as seguintes seções:'
-ms.openlocfilehash: 769633001beba3f4f982507155c788b8dd4896b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 02ee1db9019e6a12b9c166cbb766e8a90ac55da2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910753"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281231"
 ---
 # <a name="edge-settings-expander"></a>Expansor de Configurações de Borda
 
@@ -35,13 +35,13 @@ Para editar as configurações de um pool de Borda de um único ou vários servi
 
 FQDN (nome de domínio totalmente qualificado) de pool interno do pool de Servidor de Borda. Edite o FQDN do pool para alterar essa configuração.
 
-Marque a caixa de seleção **Habilitar federação para este pool de borda (porta 5061)** se você irá configurar federação com um Skype para servidor Business Server 2015.
+Marque a caixa de seleção **habilitar Federação para este pool de bordas (porta 5061)** se você for configurar a Federação com um servidor do Skype for Business Server 2015.
 
 Especifique o número da porta para **Porta de Replicação de Configuração Interna (HTTPS)**.
 
 ## <a name="next-hop-selection-settings"></a>Configurações de seleção de próximo salto
 
-Para configurar ou modificar o **Pool de próximo salto** que os Servidores de Borda utilizarão para se comunicar com a infraestrutura interna, selecione um Diretor, pool de Diretores, Servidor Front-Ends ou pool de Servidor Front-Ends na lista suspensa. Apenas os diretores ou Front-Ends que tiverem sido configuradas no construtor de topologia aparecerá para seleção.
+Para configurar ou modificar o **Pool de próximo salto** que os Servidores de Borda utilizarão para se comunicar com a infraestrutura interna, selecione um Diretor, pool de Diretores, Servidor Front-Ends ou pool de Servidor Front-Ends na lista suspensa. Somente os directors ou front-ends que foram configurados no construtor de topologias aparecerão para seleção.
 
 ## <a name="edge-server-configuration"></a>Configuração do Servidor de Borda
 

@@ -1,10 +1,10 @@
 ---
-title: Front-End VoIP do servidor de componentes para Skype para Business Server
+title: Componentes de VoIP do servidor front-end para o Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,19 +13,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
-description: Saiba mais sobre os componentes do Enterprise Voice que estão localizados em servidores Front End Skype para Business Server, incluindo o serviço de tradução e vários componentes de roteamento.
-ms.openlocfilehash: 7262f15d5763fa4a22b6bc6bb56fdc600f48bab2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Saiba mais sobre os componentes do Enterprise Voice localizados em servidores front-end no Skype for Business Server, incluindo serviço de tradução e vários componentes de roteamento.
+ms.openlocfilehash: d28beb809e172ea5d778e0cf8273cb232b7cf67c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924238"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276849"
 ---
-# <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Front-End VoIP do servidor de componentes para Skype para Business Server
+# <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Componentes de VoIP do servidor front-end para o Skype for Business Server
 
-Saiba mais sobre os componentes do Enterprise Voice que estão localizados em servidores Front End Skype para Business Server, incluindo o serviço de tradução e vários componentes de roteamento.
+Saiba mais sobre os componentes do Enterprise Voice localizados em servidores front-end no Skype for Business Server, incluindo serviço de tradução e vários componentes de roteamento.
 
-Os componentes de VoIP localizados nos servidores Front-End são:
+Os componentes de VoIP localizados em servidores front-end são os seguintes:
 
 - Serviço de Conversão
 
@@ -37,7 +37,7 @@ Os componentes de VoIP localizados nos servidores Front-End são:
 
 - Componente de roteamento entre clusters
 
-- [Componente do servidor de mediação no Skype para Business Server](mediation-server.md)
+- [Componente do servidor de mediação no Skype for Business Server](mediation-server.md)
 
 ## <a name="translation-service"></a>Serviço de Conversão
 
@@ -45,19 +45,19 @@ O Serviço de Conversão é o componente de servidor responsável pela conversã
 
 ## <a name="inbound-routing-component"></a>Componente de Roteamento de Entrada
 
-O componente de roteamento de entrada trata as chamadas de entrada basicamente de acordo com as preferências especificadas pelos usuários em seus clientes Enterprise Voice. Também facilita a delegação de chamada e chamada simultânea, se configurada pelo usuário. Por exemplo, os usuários especificam se as chamadas não atendidas são encaminhadas ou simplesmente conectadas para notificação. Se o encaminhamento de chamadas está habilitado, os usuários podem especificar se as chamadas não atendidas devem ser encaminhadas para outro número ou para um servidor de UM do Exchange que foi configurado para fornecer atendimento de chamadas. O componente de roteamento de entrada é instalado por padrão em todos os servidores Standard Edition e servidores Front-End.
+O componente de roteamento de entrada manipula chamadas de entrada em grande parte de acordo com as preferências especificadas pelos usuários em seus clientes de voz corporativo. Também facilita a delegação de chamada e chamada simultânea, se configurada pelo usuário. Por exemplo, os usuários especificam se as chamadas não atendidas são encaminhadas ou simplesmente conectadas para notificação. Se o encaminhamento de chamadas estiver habilitado, os usuários poderão especificar se as chamadas não atendidas devem ser encaminhadas para outro número ou para um servidor do Exchange UM que tenha sido configurado para fornecer atendimento de chamada. O componente de roteamento de entrada é instalado por padrão em todos os servidores de front-end e de servidor Standard Edition.
 
 ## <a name="outbound-routing-component"></a>Componente de Roteamento de Saída
 
-O componente de Roteamento de Saída direciona as chamadas para destinos do PBX ou PSTN. Ele aplica regras de autorização de chamada, conforme definido pela política de voz do usuário, aos chamadores e determina o gateway PSTN ideal para cada chamada de roteamento. O componente de roteamento de saída é instalado por padrão em todos os servidores Standard Edition e servidores Front-End.
+O componente de Roteamento de Saída direciona as chamadas para destinos do PBX ou PSTN. Ele aplica regras de autorização de chamadas, conforme definido pela política de voz do usuário, aos chamadores e determina o gateway PSTN ideal para direcionar cada chamada. O componente de roteamento de saída é instalado por padrão em todos os servidores padrão do servidor e front-end da edição.
 
 A lógica de roteamento usada pelo Componente de Roteamento de Saída é, em grande parte, configurada pelos administradores de rede e de telefonia, de acordo com os requisitos das organizações.
 
 ## <a name="exchange-um-routing-component"></a>Componente de Roteamento da UM do Exchange
 
-O componente de roteamento UM do Exchange manipula o roteamento entre Skype para Business Server e os servidores que executam o Exchange Unified Messaging (UM), para integrar o Skype para Business Server com os recursos de Unificação de mensagens.
+O componente de roteamento de UM do Exchange manipula o roteamento entre o Skype for Business Server e os servidores que executam o Exchange Unified Messaging (UM), para integrar o Skype for Business Server a recursos de Unificação de mensagens.
 
-O componente de roteamento UM do Exchange também trata do reencaminhamento de caixa postal no PSTN se servidores UM do Exchange não estiver disponíveis. Se você tiver usuários do Enterprise Voice em sites de filiais que não possuem uma WAN resiliente vincular a um site central, o aparelho de filial persistente que ser implantado no site da filial fornece persistência da caixa postal para usuários de filiais durante uma interrupção da WAN. Quando o link de WAN não estiver disponível, o aparelho de filial persistente faz o seguinte:
+O componente de roteamento do Exchange UM também manipula o redirecionamento de caixa postal pela PSTN se os servidores do Exchange UM não estiverem disponíveis. Se você tiver usuários do Enterprise Voice em sites de filiais que não tenham um link de rede de longa distância adaptável para um site central, o aparelho de ramificação sobreviventes que você implantar no site de filiais permite a impossibilitação da caixa postal para os usuários da filial durante uma falha de WAN. Quando o link de WAN não está disponível, o aparelho de ramificação sobreviventes faz o seguinte:
 
 - um novo roteamento de chamadas não respondidas sobre o PSTN para o servidor de Unificação de Mensagens do Exchange no site central
 
@@ -65,22 +65,22 @@ O componente de roteamento UM do Exchange também trata do reencaminhamento de c
 
 - coloca em fila notificações de chamada perdida e as carrega no servidor de UM do Exchange quando o link de WAN for restaurado.
 
-Para habilitar o redirecionamento de correio de voz, é recomendável que o administrador do Exchange configure Exchange UM AA (atendedor automático) para aceitar apenas mensagens.
+Para habilitar o redirecionamento de caixa postal, recomendamos que o administrador do Exchange configure o atendedor automático do Exchange UM para aceitar somente mensagens.
 
 Para obter detalhes sobre esses recursos, consulte [On-Premises Exchange Unified Messaging Integration](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx) e [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx), respectivamente.
 
 ## <a name="intercluster-routing-component"></a>Componente de roteamento entre clusters
 
-O componente de roteamento entre clusters é responsável pelo roteamento de chamadas para o pool de registradores primário do receptor. Se não estiver disponível, o componente roteia a chamada para o pool registrador de backup do receptor. Se os pools de registradores primários e de backup do receptor estão inacessíveis pela rede IP, o componente de roteamento entre clusters redireciona a chamada no PSTN para o número de telefone do usuário.
+O componente de roteamento InterCluster é responsável por direcionar chamadas para o pool de registradores primários do chamador. Se isso não estiver disponível, o componente direcionará a chamada para o pool de registradores de backup do chamador. Se os pools de registradores primário e de backup do chamador estiverem inacessíveis na rede IP, o componente de roteamento InterCluster redirecionará a chamada pela PSTN para o número de telefone do usuário.
 
 ## <a name="other-front-end-server-components-required-for-voip"></a>Outros componentes de Servidor Front-End necessários ao VoIP
 
-Outros componentes residentes no servidor Front-End ou diretor que fornecem suporte essencial para VoIP, mas não são componentes VoIP, incluem o seguinte:
+Outros componentes residentes no servidor front-end ou no director que fornecem suporte essencial para VoIP, mas não são componentes de VoIP, incluem o seguinte:
 
-- **Serviços do Usuário.** Realiza a pesquisa de número inverso no telefone de destino para cada chamada de entrada e corresponde esse número ao URI SIP do usuário de destino. Usando essa informação, o componente de roteamento de entrada distribui a chamada para os pontos de extremidade de SIP registrados desse usuário. Serviços do usuário é um componente essencial em todos os servidores Front-End e diretores.
+- **Serviços do Usuário.** Realiza a pesquisa de número inverso no telefone de destino para cada chamada de entrada e corresponde esse número ao URI SIP do usuário de destino. Usando essas informações, o componente de roteamento de entrada distribui a chamada aos pontos de extremidade SIP registrados do usuário. Os serviços de usuário são um componente principal em todos os servidores e directors de front-end.
 
-- **Replicador do Usuário.** Extrai os números de telefone do usuário dos serviços de domínio Active Directory e os grava em tabelas no banco de dados RTC, onde eles estão disponíveis para os serviços de usuário e o servidor do catálogo de endereços. Replicador de usuário é um componente essencial em todos os servidores Front-End.
+- **Replicador do Usuário.** Extrai os números de telefone do usuário dos serviços de domínio Active Directory e os grava em tabelas no banco de dados RTC, onde eles estão disponíveis para os serviços de usuário e o servidor de catálogo de endereços. O Duplicador do usuário é um componente principal em todos os servidores de front-end.
 
-- **Servidor do Catálogo de Endereço.** Fornece informações da lista de endereços global dos serviços de domínio do Active Directory para Skype para clientes Business Server. Ele também recupera informações de usuário e contato do banco de dados RTC, grava as informações para os arquivos do catálogo de endereços e, em seguida, armazena os arquivos em uma pasta compartilhada onde elas são baixadas pelo Skype para clientes corporativos. O servidor de catálogo de endereços grava as informações no banco de dados RTCAb, que é usado pelo serviço Address Book Web Query para responder a consultas de pesquisa do usuário de Skype para negócios móveis. Opcionalmente, ele normaliza números de telefone do usuário de empresa que são gravados no banco de dados RTC para fins de provisionamento de contatos do usuário no Skype para negócios. O serviço de catálogo de endereços é instalado por padrão em todos os servidores Front-End. O serviço Address Book Web Query é instalado por padrão com os serviços Web em cada servidores Front-End.
+- **Servidor do Catálogo de Endereço.** Fornece informações da lista de endereços global dos serviços de domínio do Active Directory para os clientes do Skype for Business Server. Ele também recupera as informações de usuário e de contato do banco de dados RTC, grava as informações nos arquivos do catálogo de endereços e, em seguida, armazena os arquivos em uma pasta compartilhada onde eles são baixados pelos clientes do Skype for Business. O servidor de catálogo de endereços grava as informações no banco de dados do RTCAb, que é usada pelo serviço de consulta à Web Catálogo de endereços para responder às consultas de pesquisa de usuários do Skype for Business Mobile. Ele também normaliza os números de telefone do usuário da empresa que são gravados no banco de dados RTC para fins de provisionamento de contatos do usuário no Skype for Business. O serviço de catálogo de endereços é instalado por padrão em todos os servidores de front-end. O serviço de consulta à Web do catálogo de endereços é instalado por padrão com os serviços Web em cada servidor front-end.
 
 

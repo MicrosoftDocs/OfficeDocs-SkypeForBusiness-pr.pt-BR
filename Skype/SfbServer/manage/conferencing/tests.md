@@ -1,25 +1,25 @@
 ---
-title: Teste a conferência discada no Skype para Business Server
+title: Testar a conferência discada no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: 'Resumo: Saiba como testar conferência discada em Skype para Business Server.'
-ms.openlocfilehash: 410cbaa9319130dcf4a98c23360362211869e52f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como testar a conferência discada no Skype for Business Server.'
+ms.openlocfilehash: cd1192950ff7c8b609655d78bbc57dfdbc4c1710
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924882"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280359"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Teste a conferência discada no Skype para Business Server
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Testar a conferência discada no Skype for Business Server
  
-**Resumo:** Saiba como testar conferência discada em Skype para Business Server.
+**Resumo:** Saiba como testar a conferência discada no Skype for Business Server.
   
 Como verificação final da configuração da conferência discada, você pode pesquisar planos de discagem com uma região de conferência discada que não seja usada por nenhum número de acesso e para números de acesso que não especificaram uma região de conferência discada. Você também deve verificar se a página da web de Configurações de Conferência Discada e os números de acesso discado funcionam corretamente.
   
@@ -78,7 +78,7 @@ Para verificar se a página da Web de Configurações de Conferência Discada e 
    Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
    ```
 
-    O relatório resultante mostra êxito ou falha, juntamente com informações de diagnóstico específicas. -Verbose sinalizador fornece mais informações detalhadas sobre o acesso de quantos números foram encontrados e detalhes sobre cada um deles.
+    O relatório resultante mostra êxito ou falha, juntamente com informações de diagnóstico específicas. O sinalizador-Verbose fornece informações mais detalhadas sobre quantos números de acesso foram encontrados e detalhes sobre eles.
     
 Para obter mais informações, consulte [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).
   

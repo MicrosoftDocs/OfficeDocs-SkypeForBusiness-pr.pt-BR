@@ -8,59 +8,59 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 6bc424dc0b26f794d45c5a601b468bbb78c92ef6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a368a364f39fe8178e9ce4f17a17bea96fea7b23
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919448"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280268"
 ---
-# <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Habilitar ou desabilitar o acesso de usuário anônimo no Skype para Business Server
+# <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Habilitar ou desabilitar o acesso de usuários anônimos no Skype for Business Server
 
-Usuários anônimos são usuários que não têm uma conta de usuário no Active Directory Domain Services da sua organização ou em um domínio federado com suporte, mas podem ser convidados a participar remotamente em uma conferência no local. Permitindo a participação anônima em reuniões permitir que usuários anônimos (ou seja, os usuários cuja identidade é confirmada através a chave de reunião ou conferência somente) para participar de reuniões. Permitindo a participação anônima requer ativá-lo para sua organização.
+Usuários anônimos são usuários que não têm uma conta de usuário nos serviços de domínio do Active Directory da sua organização ou em um domínio federado com suporte, mas podem ser convidados a participar remotamente em uma conferência local. Ao permitir a participação anônima em reuniões, usuários anônimos (ou seja, usuários cuja identidade são verificadas apenas na reunião ou na chave da conferência) para ingressar em reuniões. Permitir a participação anônima exige a habilitação da sua organização.
 
-Se você quiser mais tarde temporária ou permanentemente impedir o acesso por usuários anônimos, você pode desabilitá-lo para sua organização. Use o procedimento desta seção para habilitar ou desabilitar o acesso de usuário anônimo para sua organização.
+Se, mais tarde, você quiser impedir o acesso temporário ou permanente de usuários anônimos, pode desabilitá-lo para a sua organização. Use o procedimento desta seção para habilitar ou desabilitar o acesso de usuários anônimos para sua organização.
 
 > [!NOTE]  
-> Habilitando o acesso de usuário anônimo para sua organização estiver apenas especificando que os servidores que executam o serviço de borda de acesso para suportam o acesso por usuários anônimos. Usuários anônimos não podem participar de qualquer reuniões em sua organização até que você também configurar pelo menos uma política de conferência e aplicá-la a um ou mais usuários ou grupos de usuários. Os usuários só podem convidar usuários anônimos para reuniões são os usuários que estão atribuídos a uma política de conferência que está configurada para oferecer suporte a usuários anônimos. Para obter detalhes sobre como configurar políticas de conferência para suportar convidem usuários anônimos, consulte [Gerenciar políticas de conferência](../../conferencing/conferencing-policies.md).
+> Ao habilitar o acesso de usuários anônimos para sua organização, você está especificando que seus servidores que executam o serviço de borda de acesso oferecem suporte a usuários anônimos. Usuários anônimos não podem participar de nenhuma reunião em sua organização até você também configurar pelo menos uma política de conferência e aplicá-la a um ou mais usuários ou grupos de usuários. Os únicos usuários que podem convidar usuários anônimos para reuniões são os usuários que recebem uma política de conferência configurada para dar suporte a usuários anônimos. Para obter detalhes sobre como configurar as políticas de conferência para dar suporte ao convite para usuários anônimos, consulte [gerenciar políticas de conferência](../../conferencing/conferencing-policies.md).
 
-## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a>Para habilitar ou desabilitar o acesso de usuário anônimo para sua organização
+## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a>Para habilitar ou desabilitar o acesso de usuários anônimos para a sua organização
 
 1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
 
-3.  Na barra de navegação à esquerda, clique em **Acesso de usuário externo**e, em seguida, clique em **Configuração de borda de acesso**.
+3.  Na barra de navegação à esquerda, clique em **acesso de usuário externo**e, em seguida, clique em **configuração de borda de acesso**.
 
-4.  Na página **Configuração de borda de acesso** , clique em **Global**, clique em **Editar**e, em seguida, clique em **Mostrar detalhes**.
+4.  Na página **configuração de borda de acesso** , clique em **global**, clique em **Editar**e, em seguida, clique em **Mostrar detalhes**.
 
-5.  Em **Editar configuração de borda de acesso**, execute um destes procedimentos:
+5.  Em **Editar configuração de borda de acesso**, siga um destes procedimentos:
     
-      - Para habilitar o acesso de usuário anônimo para sua organização, marque a caixa de seleção **Habilitar comunicações com usuários anônimos** .
+      - Para habilitar o acesso de usuários anônimos para sua organização, marque a caixa de seleção **habilitar comunicações com usuários anônimos** .
     
-      - Para desabilitar o acesso de usuário anônimo para sua organização, desmarque a caixa de seleção **Habilitar comunicações com usuários anônimos** .
+      - Para desabilitar o acesso de usuários anônimos para sua organização, desmarque a caixa de seleção **habilitar comunicações com usuários anônimos** .
 
 6.  Clique em **Confirmar**.
 
 
-## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Habilitar ou desabilitar o acesso de usuário anônimo usando os cmdlets do Windows PowerShell
+## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Habilitar ou desabilitar o acesso de usuários anônimos usando cmdlets do Windows PowerShell
 
-Você pode gerenciar o acesso de usuário anônimo usando o Windows PowerShell e o cmdlet **Set-CsAccessEdgeConfiguration** . Você pode executar este cmdlet do Skype do Shell de gerenciamento do servidor de negócios ou de uma sessão remota do Windows PowerShell. 
+Você pode gerenciar o acesso de usuários anônimos usando o Windows PowerShell e o cmdlet **set-CsAccessEdgeConfiguration** . Você pode executar esse cmdlet a partir do Shell de gerenciamento do Skype for Business Server ou de uma sessão remota do Windows PowerShell. 
 
-## <a name="to-enable-anonymous-user-access"></a>Para habilitar o acesso de usuário anônimo
+## <a name="to-enable-anonymous-user-access"></a>Para habilitar o acesso de usuários anônimos
 
-  - Para habilitar o acesso de usuário anônimo, defina o valor da propriedade **AllowAnonymousUsers** para verdadeiro ($True):
+  - Para habilitar o acesso de usuário anônimo, defina o valor da propriedade **AllowAnonymousUsers** como True ($true):
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
-## <a name="to-disable-anonymous-user-access"></a>Para desabilitar o acesso de usuário anônimo
+## <a name="to-disable-anonymous-user-access"></a>Para desativar o acesso de usuários anônimos
 
-  - Para desabilitar o acesso de usuário anônimo, defina o valor da propriedade **AllowAnonymousUsers** para FALSO ($False):
+  - Para desabilitar o acesso de usuário anônimo, defina o valor da propriedade **AllowAnonymousUsers** como False ($false):
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 

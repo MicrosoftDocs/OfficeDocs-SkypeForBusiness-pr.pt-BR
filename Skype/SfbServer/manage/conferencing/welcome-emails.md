@@ -1,29 +1,29 @@
 ---
-title: Enviar e-mail de boas vindas discada usuários em Skype para Business Server
+title: Enviar email de boas-vindas para usuários de discagem no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
-description: 'Resumo: Saiba como receba os usuários conferência discada no Skype para Business Server.'
-ms.openlocfilehash: 4cf05349e7539a4bd5d1551a19a59f839feb41f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como fazer com que os usuários entrem em conferência discada no Skype for Business Server.'
+ms.openlocfilehash: db2e8bd84fa6a03bad845a87f7fb3c1532ae7ec2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924910"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280303"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Enviar e-mail de boas vindas discada usuários em Skype para Business Server
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Enviar email de boas-vindas para usuários de discagem no Skype for Business Server
  
-**Resumo:** Aprenda a receba os usuários conferência discada no Skype para Business Server.
+**Resumo:** Saiba como receber uma conferência discada pelos usuários para conferência discada no Skype for Business Server.
   
 Depois de configurar a conferência discada e de testar para verificar se ela está funcionando corretamente, defina PINs (números de identificação pessoal) para os usuários e notifique-os sobre a disponibilidade do recurso. Você pode incluir instruções introdutórias como o PIN inicial e o link para a página da Web de Configurações da Conferência Discada. 
   
-Normalmente, você usar o cmdlet **Set-CsClientPin** para redefinir o PIN, mas você pode usar o procedimento neste tópico, se você deseja enviar um email de boas-vindas introdutório com as informações de PIN. Se você não quiser enviar o email, pode usar **Set-CsClientPin**.
+Geralmente, você usa o cmdlet **set-CsClientPin** para redefinir Pins, mas você pode usar o procedimento neste tópico se quiser enviar um email de boas-vindas de introdução com as informações do PIN. Se você não quiser enviar o email, pode usar **Set-CsClientPin**.
   
 É possível usar o script **Set-CsPinSendCAWelcomeMail** para definir o PIN e enviar um email de boas-vindas para um único usuário. Por padrão, o script não redefine um PIN se ele já estiver definido, mas é possível usar o parâmetro Force para forçar a redefinição de um PIN. A mensagem de email é enviada usando o protocolo SMTP (Simple Mail Transfer Protocol).
   
@@ -52,9 +52,9 @@ Normalmente, você usar o cmdlet **Set-CsClientPin** para redefinir o PIN, mas v
    [-Credential <SMTP server credentials used to send email with the specified From address>]
    ```
 
-**SmtpServer** Por padrão, o script usa o valor do ambiente reservadas variável **$PSEmailServer** para esse parâmetro. Se a variável  **$PSEmailServer** não for definida, será necessário especificar esse parâmetro.
+**SmtpServer** Por padrão, o script usa o valor da variável de ambiente reservada **$PSEmailServer** para esse parâmetro. Se a variável  **$PSEmailServer** não for definida, será necessário especificar esse parâmetro.
     
-**Credencial** Por padrão, o script usa as credenciais do usuário atual. Se o usuário atual não tiver permissão para enviar email em nome do endereço do remetente, será necessário especificar esse parâmetro. Como regra geral, especifique esse parâmetro se você não especificar seu endereço de email como o endereço do remetente.
+**Credenciais** Por padrão, o script usa as credenciais do usuário atual. Se o usuário atual não tiver permissão para enviar email em nome do endereço do remetente, será necessário especificar esse parâmetro. Como regra geral, especifique esse parâmetro se você não especificar seu endereço de email como o endereço do remetente.
     
 O exemplo a seguir cria um novo PIN e envia um email de boas-vindas de Marco para Bob. Ele usa o texto de email do modelo padrão e cria a mensagem de email no formato HTML. O Assunto padrão é "Bem-vindo à conferência discada".
   

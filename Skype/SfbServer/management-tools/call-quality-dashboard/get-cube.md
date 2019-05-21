@@ -4,51 +4,51 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
-description: 'Resumo: Saiba mais sobre a operação obter cubo, que é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: 3d6d1ceecb330219bdc563ca126bb13c49d1902b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre a operação obter cubo, que faz parte da API de dados para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
+ms.openlocfilehash: 970187ce9f95700185ab09bd7aadf9045575b393
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886877"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274769"
 ---
 # <a name="get-cube"></a>Obter o cubo
  
-**Resumo:** Saiba mais sobre a operação obter cubo, que é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
+**Resumo:** Saiba mais sobre a operação obter cubo, que faz parte da API de dados para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
   
-A operação obter cubo é parte da API de dados para o painel de qualidade de chamada.
+A operação obter cubo faz parte da API de dados para o painel de qualidade da chamada.
   
 ## <a name="get-cube"></a>Obter o cubo
 
-Operação de cubo Get retorna a lista de medidas e dimensões disponíveis.
+Obter operação de cubo retorna a lista de dimensões e medidas disponíveis.
   
 
-|**Método**|**URI de solicitação**|**Versão de HTTP**|
+|**Forma**|**URI de solicitação**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|Obter  <br/> |https://\<portal\>/QoEDataService/CubeStructure  <br/> |HTTP/1.1  <br/> |
+|Obter  <br/> |https://\<do\>portal de/QoEDataService/CubeStructure  <br/> |HTTP/1.1  <br/> |
    
- **Parâmetros URI** - None.
+ **Parâmetros de URI** -nenhum.
   
- **Cabeçalhos de solicitação** - sem cabeçalhos adicionais.
+ **Solicitar cabeçalhos** -sem cabeçalhos adicionais.
   
- O **corpo da solicitação** - None.
+ **Corpo da solicitação** -nenhum.
   
- **Resposta** - a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
+ **Resposta** -a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
   
- **Código de status** - uma operação bem-sucedida retorna o código de status 200 (Okey).
+ **Código de status** -uma operação bem-sucedida retorna o código de status 200 (OK).
   
- **Cabeçalhos de resposta** - sem cabeçalhos adicionais.
+ **Cabeçalhos de resposta** -sem cabeçalhos adicionais.
   
- **Corpo de resposta** - abaixo é uma carga de resposta de exemplo em JSON.
+ **Corpo da resposta** -abaixo está uma carga de resposta de exemplo em JSON.
   
 > [!NOTE]
-> Esta amostra apenas está mostrando as duas primeiras elementos de cada grupos de elementos de cubo. 
+> Este exemplo está mostrando apenas dois primeiros elementos de cada grupo de elementos de cubo. 
   
 ```
 {
@@ -91,10 +91,10 @@ Operação de cubo Get retorna a lista de medidas e dimensões disponíveis.
 }
 ```
 
- *KPIs* - reservado. A seção de KPIs a carga de solicitação permite que a operação de executar consulta retornar valores para os KPIs definidos no cubo. Nenhum KPIs ainda existem no cubo do QoE.
+ *KPIs* -reservado. A seção KPIs de uma carga de solicitação permite que a operação de execução de consulta retorne valores para os KPIs definidos no cubo. Ainda não existem KPIs no cubo QoE.
   
- *Dimensões* - lista de dimensões que podem ser usadas nas seções de filtros e dimensões de uma carga de solicitação para a operação de executar consulta. Para usar uma dimensão em uma expressão de filtro, você precisará especificar um membro de dimensão, que pode ser obtido com a operação obter membros da dimensão.
+ *Dimensions* -a lista de dimensões que podem ser usadas em seções de filtros e dimensões de uma carga de solicitação para executar a operação de consulta. Para usar uma dimensão em uma expressão de filtro, você precisa especificar um membro de dimensão, que pode ser obtido usando a operação obter membros da dimensão.
   
- *Medições* - lista de medidas que podem ser usadas na seção medidas de uma carga de solicitação para a operação de executar consulta.
+ *Medições* – a lista de medições que podem ser usadas na seção medidas de uma carga de solicitação para executar a operação de consulta.
   
 

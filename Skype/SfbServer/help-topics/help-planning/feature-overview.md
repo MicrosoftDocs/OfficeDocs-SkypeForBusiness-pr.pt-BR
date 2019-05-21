@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/6/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.FeatureOverview
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Skype for Business Server 2015 Planning Tool
-ms.openlocfilehash: e239730acbe41c1a08c9876c013670d7a69e5019
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2ebaadf752dc0e53ac76668dcffa47adbef06feb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887269"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281119"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
 Skype for Business Server 2015 Planning Tool
   
-Você pode usar a página de **Sites centrais** da ferramenta de planejamento para projetar o Skype para implantação de servidor de negócios. Você pode criar tanto uma implantação centralizada quanto um distribuída. Uma implantação centralizada tem somente um site central, que hospedar Skype todos os usuários corporativos em sua organização. Uma implantação distribuída possui mais de um site central. Se você implantar o Skype para Business Server em vários sites centrais, você irá inserir o número de usuários em cada site central na ferramenta de planejamento.
+Você pode usar a página **sites centrais** da ferramenta de planejamento para criar a implantação do Skype for Business Server. Você pode criar tanto uma implantação centralizada quanto um distribuída. Uma implantação centralizada tem apenas um site central, que se refere a todos os usuários do Skype for Business em sua organização. Uma implantação distribuída possui mais de um site central. Se você implantar o Skype for Business Server em vários sites centrais, será inserido o número de usuários em cada site central na ferramenta de planejamento.
   
 Para completar a definição do site central, primeiro você precisa fornecer as seguintes informações:
   
@@ -33,7 +33,7 @@ Para completar a definição do site central, primeiro você precisa fornecer as
     
 - **Número de Usuários** Insira o número de usuários, incluindo usuários em sites de filial que estão hospedados no site central.
     
-- **Nuvem hospedados usuários** Insira o número de usuários que estão hospedados em um site central do Skype para Business Online.
+- **Usuários hospedados na nuvem** Digite o número de usuários que são hospedados no site central pelo Skype for Business online.
     
 ## <a name="ui-elements"></a>Elementos da interface do usuário
 
@@ -45,7 +45,7 @@ Os elementos restantes foram populados com respostas que você forneceu às perg
   
 - **Mensagens instantâneas e presença**
     
-    A mensagem instantânea permite que os usuários se comuniquem entre si em tempo real em seus computadores usando mensagens de texto. Tanto as sessões de mensagem instantânea entre duas partes como as entre várias partes são suportadas. A presença fornece informações a usuários sobre o status de outros na rede. Status de presença do usuário fornece informações que ajudam outros a determinar se o usuário está online e como melhor contatar o usuário. Por exemplo, a melhor forma de contatar um usuário que está em uma reunião é via email.
+    A mensagem instantânea permite que os usuários se comuniquem entre si em tempo real em seus computadores usando mensagens de texto. Tanto as sessões de mensagem instantânea entre duas partes como as entre várias partes são suportadas. A presença fornece informações a usuários sobre o status de outros na rede. O status de presença de um usuário fornece informações para ajudar outras pessoas a determinarem se o usuário está online e como entrar em contato com ele melhor. Por exemplo, a melhor forma de contatar um usuário que está em uma reunião é via email.
     
 - **Conferência de áudio e vídeo**
     
@@ -77,15 +77,15 @@ Os elementos restantes foram populados com respostas que você forneceu às perg
     
 - **Federação com provedor de serviço com base XMPP**
     
-    Skype para Business Server 2015 introduz um proxy XMPP totalmente integrado (implantado nos servidores de borda) e um gateway XMPP implantado em seus servidores Front-End. É possível implantar adicionando e configurando o proxy XMPP e o gateway XMPP permitirá que seu Skype para usuários corporativos Server 2015 adicionar contatos de parceiros XMPP para mensagens instantâneas (IM) e presença.
+    O Skype for Business Server 2015 apresenta um proxy XMPP totalmente integrado (implantado nos servidores de borda) e um Gateway XMPP implantado em seus servidores front-end. Você pode implantar a adição e a configuração do XMPP proxy e do XMPP gateway permitirá que os usuários do Skype for Business Server 2015 adicionem contatos de parceiros baseados em XMPP para mensagens instantâneas (IM) e presença.
     
 - **Mobilidade**
     
-    Quando você implanta o Skype para serviço de mobilidade do Business Server 2015, os usuários podem usar suportados Apple iOS, Android, Windows Phone ou dispositivos móveis Nokia para realizar atividades como enviando e recebendo mensagens instantâneas, exibindo contatos e visualização de presença.
+    Ao implantar o serviço de mobilidade do Skype for Business Server 2015, os usuários podem usar dispositivos móveis Apple iOS, Android, Windows Phone ou Nokia para executar tais atividades como enviar e receber mensagens instantâneas, ver contatos e ver a presença.
     
 - **Caixa de correio W15 Exchange**
     
-    Skype para Business Server 2015 permite que você tenha mensagens de caixa postal armazenadas no Exchange Unified Messaging (UM); Essas mensagens de caixa postal aparecerão como mensagens de email nas caixas de entrada dos usuários.
+    O Skype for Business Server 2015 permite que você tenha mensagens de correio de voz armazenadas no Exchange Unified Messaging (UM); essas mensagens de correio de voz serão exibidas como mensagens de email nas caixas de entrada dos usuários.
     
 ### <a name="voice"></a>Voz
 
@@ -93,11 +93,11 @@ Os elementos restantes foram populados com respostas que você forneceu às perg
   
 - **Enterprise Voice**
     
-    Enterprise voice é a solução de VoIP ativado por software do Microsft. Voz empresarial permite aos usuários utilizar Skype for Business para fazer uma chamada telefônica de seu computador.
+    O Enterprise Voice é uma solução VoIP com o software da Microsft. O Enterprise Voice permite que os usuários usem o Skype for Business para fazer uma chamada telefônica do computador.
     
 - **Unificação de Mensagens do Exchange**
     
-    Caixa postal do Exchange Unified Messaging (UM) combina e email em uma única infra-estrutura de mensagens. Skype para Business Server 2015 usa UM do Exchange para fornecer atendimento de chamadas, acesso do assinante, notificação de chamada e serviços de atendedor automático. Se você usar esses serviços, será necessário integrar o UM do Exchange e Skype para Business Server em uma topologia compartilhada do Active Directory.
+    A Unificação de mensagens do Exchange combina correio de voz e e-mail em uma única infra-estrutura de mensagens. O Skype for Business Server 2015 usa o Exchange UM para fornecer atendimento de chamadas, acesso ao Assinante, notificação de chamada e serviços de atendedor automático. Se você usar esses serviços, será necessário integrar o Exchange UM e o Skype for Business Server em uma topologia compartilhada do Active Directory.
     
 ### <a name="additional-deployment-options"></a>Opções de implantação adicionais
 
@@ -109,11 +109,11 @@ Os elementos restantes foram populados com respostas que você forneceu às perg
     
 - **Recuperação de desastres**
     
-    Medidas de recuperação de desastres permitem aos pools de Front-End do par localizados em dois data centers.
+    As medidas de recuperação de desastres permitem emparelhar pools de front-end localizados em dois datacenters.
     
 - **Monitoramento**
     
-    O monitoramento captura registros de detalhe de chamada relacionados a sessões de comunicação. Também coleta métricas de sessões de áudio e vídeo nas extremidades dos participantes. O Monitoring Server fornece as estatísticas de uso, tendências e estatísticas de qualidade de mídia.
+    O monitoramento captura registros de detalhe de chamada relacionados a sessões de comunicação. Também coleta métricas de sessões de áudio e vídeo nas extremidades dos participantes. O Monitoring Server fornece estatísticas de uso, tendências e estatísticas de qualidade de mídia.
     
 - **Archiving**
     
@@ -121,7 +121,7 @@ Os elementos restantes foram populados com respostas que você forneceu às perg
     
 - **Integração com arquivamento do Exchange**
     
-    Se você tiver usuários hospedados no Exchange 2013 e suas caixas de correio que tenham sido colocadas em retenção In-loco, você pode selecionar a opção de integrar o Skype para armazenamento de 2015 do servidor de negócios com o armazenamento do Exchange.
+    Se você tiver usuários hospedados no Exchange 2013 e suas caixas de correio tiverem sido colocadas no bloqueio in-loco, você poderá selecionar a opção para integrar o armazenamento do Skype for Business Server 2015 ao armazenamento do Exchange.
     
 - **IPv4**
     
@@ -133,7 +133,7 @@ Os elementos restantes foram populados com respostas que você forneceu às perg
     
 - **Serviço Web de Atualização de Dispositivos**
     
-    O serviço Web de atualização de dispositivo oferece uma forma automatizada de atualizar todos os dispositivos, como Skype para Business para Windows Phone, que são implantados fora da sua organização.
+    O serviço Web de atualização de dispositivo oferece uma maneira automatizada de atualizar todos os dispositivos, como o Skype for Business para Windows Phone, que são implantados fora de sua organização.
     
 ### <a name="server-applications"></a>Aplicativos de servidor
 
@@ -141,23 +141,23 @@ Os elementos restantes foram populados com respostas que você forneceu às perg
   
 - **Grupo de Resposta**
     
-    Aplicativo grupo de resposta atende e distribui chamadas para um operador de assistência técnica disponível automaticamente.
+    O aplicativo de grupo de resposta automaticamente atende e distribui chamadas para um agente disponível do helpdesk.
     
 - **Comunicado**
     
-    Se você planeja implantar o Enterprise Voice, você talvez queira ser capaz de configurar o modo como as chamadas telefônicas são tratadas se o número discado é válido, mas não atribuído a uma área comum do usuário. Os administradores podem configurar o Serviço de Comunicado para que essas chamadas sejam transferidas para um destino predeterminado (número telefônico ou URI SIP) ou reproduzir um comunicado em áudio ou ambos. O aplicativo de Anúncio ajuda a evitar situações em que o chamador disca para um número errado e ouve um tom de ocupado ou em que o cliente SIP recebe uma mensagem de erro. A funcionalidade de Serviço de Comunicado é um recurso típico de PBX. 
+    Se você planeja implantar o Enterprise Voice, talvez queira configurar o modo como as chamadas telefônicas são manipuladas se o número discado for válido, mas não atribuído a uma área comum do usuário. Os administradores podem configurar o Serviço de Comunicado para que essas chamadas sejam transferidas para um destino predeterminado (número telefônico ou URI SIP) ou reproduzir um comunicado em áudio ou ambos. O aplicativo de Anúncio ajuda a evitar situações em que o chamador disca para um número errado e ouve um tom de ocupado ou em que o cliente SIP recebe uma mensagem de erro. A funcionalidade de Serviço de Comunicado é um recurso típico de PBX. 
     
 - **Estacionamento de Chamada**
     
-    Habilita o aplicativo estacionamento de chamada de um usuário do Enterprise Voice para colocar uma chamada em espera em um telefone e, em seguida, recebe a chamada de outro telefone sem vincular recursos do telefone que recebeu a chamada. Aplicativo de estacionamento de chamada é útil quando um usuário precisa para transferir uma chamada, mas o destinatário específico é desconhecido. 
+    O aplicativo de estacionamento de chamadas permite que um usuário de voz empresarial Coloque uma chamada em espera de um telefone e, em seguida, receba a chamada de outro telefone sem precisar ligar os recursos do telefone que recebeu a chamada. O aplicativo de estacionamento de chamadas é útil quando um usuário precisa transferir uma chamada, mas o destinatário específico é desconhecido. 
     
 - **Atendedor de conferência**
     
-    O aplicativo Conferencing Attendant fornece recursos de audioconferência aos usuários de telefone sem o serviço de um provedor de serviços de audioconferência de terceiros.
+    O aplicativo atendedor de conferências fornece recursos de audioconferência para usuários telefônicos sem o serviço de um provedor de serviços de audioconferência de terceiros.
     
 - **Comunicado de conferência**
     
-    Anúncio de conferência aplicativo produz tons que sinalizam quando os usuários entram ou saem de uma conferência, bem como notificações aos usuários de telefone quando o mudo é ativado ou desativados.
+    O aplicativo de anúncio de conferência produz toques que se sinalizam quando os usuários inserem ou saem de uma conferência, bem como as notificações para os usuários de telefones quando eles têm mudo ou mudo.
     
 - **Serviço de Controle de Admissão de Chamadas**
     

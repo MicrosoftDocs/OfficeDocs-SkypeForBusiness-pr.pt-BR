@@ -1,59 +1,59 @@
 ---
-title: Serviço de item para o painel de controle de qualidade de chamada (CQD)
+title: Painel de serviço de item para o painel de qualidade da chamada (CQD)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
-description: 'Resumo: Saiba mais sobre o serviço de Item, que é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: cbebdcfcac62eae375c13785b8d9866d055c2b50
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o serviço de item, que faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
+ms.openlocfilehash: 585ba97d9dedbfcbbd572069a792a121e6156afe
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897496"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274608"
 ---
-# <a name="item-service-for-call-quality-dashboard-cqd"></a>Serviço de item para o painel de controle de qualidade de chamada (CQD)
+# <a name="item-service-for-call-quality-dashboard-cqd"></a>Painel de serviço de item para o painel de qualidade da chamada (CQD)
  
-**Resumo:** Saiba mais sobre o serviço de Item, que é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
+**Resumo:** Saiba mais sobre o serviço de item, que faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
   
-O serviço de Item é parte da API do repositório para painel de controle de qualidade de chamada.
+O serviço de item faz parte da API do repositório para o painel de qualidade da chamada.
   
 ## <a name="item-service"></a>Serviço de itens
 
-API do repositório oferece um serviço de gerenciamento de conteúdo simples, conhecido como serviço de item, que pode ser usado para armazenar qualquer conteúdo definido pelo aplicativo para usuários. 
+A API do repositório oferece um serviço de gerenciamento de conteúdo simples, conhecido como serviço de item, que pode ser usado para armazenar qualquer conteúdo definido pelo aplicativo para os usuários. 
   
-O conteúdo do sistema é pertencentes ao usuário do sistema e compartilhado por todos os usuários com acesso somente leitura. Conteúdo de usuário dedicada pertencentes a usuários regulares e somente os proprietários podem modificar ou excluí-los, mas todos os usuários ainda têm acesso somente leitura a eles.
+O conteúdo do sistema é de Propriedade do usuário do sistema e compartilhado por todos os usuários com acesso somente leitura. O conteúdo do usuário exclusivo pertence a usuários regulares, e somente os proprietários podem modificá-los ou excluí-los, mas todos os usuários ainda têm acesso somente leitura a eles.
   
 > [!NOTE]
-> Esta documentação de API abrange operações somente leitura da API do repositório. 
+> Esta documentação de API aborda operações somente leitura da API do repositório. 
   
-Painel de controle de qualidade de chamada salva relatórios e consultas como itens do banco de dados do repositório. Um Item pode ter itens sub-recurso opcionais e painel de controle de qualidade de chamada organiza relatórios e consultas em uma estrutura hierárquica usando o recurso de subitens.
+O painel de qualidade de chamada salva relatórios e consultas como itens no banco de dados do repositório. Um item pode ter subitens opcionais, e o painel de qualidade da chamada organiza relatórios e consultas em uma estrutura hierárquica usando o recurso de subitens.
   
 O serviço de item inclui os seguintes conceitos:
   
-- **Item** - o elemento básico de repositório. Cada Item pertence ao usuário exatamente uma.
+- **Item** -o elemento básico do repositório. Cada item pertence a exatamente um usuário.
     
-- **Item de suba** mecânica organizacional básica do repositório. O item pode ter zero, um ou mais itens de subordinados.
+- **Subitem** -a mecânica organizacional básica do repositório. O item pode ter zero, um ou mais itens subordinados.
     
-- **Item ancestrais** - a lista de itens, o Item superior, que é o padrão de Item do usuário, levando a um determinado Item tem início.
+- **Item ancestrais** -a lista de itens, a partir do item mais superior, que é o item padrão do usuário, que leva a um determinado item.
     
-- **Item de conteúdo** - o conteúdo de aplicativo específico armazenado em itens. Painel de controle de qualidade de chamada salva as representações de JSON de relatórios e consultas no conteúdo.
+- **Conteúdo do item** – o conteúdo específico do aplicativo armazenado em itens. Painel de qualidade de chamada salva representações JSON de relatórios e consultas no conteúdo.
     
-As operações do REST estão incluídas na tabela a seguir.
+As operações REST estão incluídas na tabela a seguir.
   
 
 |**Operação**|**Descrição**|
 |:-----|:-----|
 |[Obter itens](get-items.md) <br/> |Obter itens retorna todos os itens no repositório.  <br/> |
-|[Obter item](get-item.md) <br/> |Obtenha o Item Retorna um Item específico.  <br/> |
-|[Obter subitens](get-sub-items.md) <br/> |Obter itens sub-recurso retorna subitens de um Item específico.  <br/> |
-|[Obter o Item Predecessor](get-item-ancestors.md) <br/> |Get Item ancestrais retorna ancestrais de um Item específico.  <br/> |
+|[Obter item](get-item.md) <br/> |Obter item retorna um item específico.  <br/> |
+|[Obter subitens](get-sub-items.md) <br/> |Obter subitens retorna os subitens de um item específico.  <br/> |
+|[Obter o Item Predecessor](get-item-ancestors.md) <br/> |Obter item ancestrais retorna os ancestrais de um item específico.  <br/> |
 |[Atualizar Item](update-item.md) <br/> |Atualize um item específico no repositório.  <br/> |
    
 

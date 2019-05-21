@@ -5,27 +5,27 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddExternalApplicationNextHopPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49c9e65a-ae2d-46fa-a6a2-fff47ed0f3de
-description: 'Para definir o próximo salto para o servidor de aplicativos confiáveis ou pool, faça o seguinte:'
-ms.openlocfilehash: b2ce8e52b5ab9c277b0a6ac36d7b227954ef5a7a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Para definir o próximo salto para o servidor ou o pool de aplicativos confiáveis, faça o seguinte:'
+ms.openlocfilehash: 886fc04c61adf1c48b1cdae6686babddde087c59
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897699"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275210"
 ---
 # <a name="add-nexthop-trusted-application-server"></a>Adicionar Servidor de Aplicativo Confiável NextHop
  
-Para definir o próximo salto para o servidor de aplicativos confiáveis ou pool, faça o seguinte:
+Para definir o próximo salto para o servidor ou o pool de aplicativos confiáveis, faça o seguinte:
   
-Na lista suspensa **pool de próximo salto** , selecione o pool Enterprise Edition ou Standard Edition servidor Front-End que você deseja que o pool de aplicativos confiáveis para usar como o próximo salto.
+Na lista suspensa **próximo pool de saltos** , selecione o pool da edição Enterprise ou o servidor front-end da edição Standard que você deseja que o pool de aplicativos confiáveis use como um próximo nó.
   
-Clique em **Concluir** para concluir a criação do pool de aplicativos confiáveis.
+Clique em **concluir** para concluir a criação do pool de aplicativos confiáveis.
   
 

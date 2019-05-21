@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployMainADPrep
@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para começar a instalação do Skype para Business Server, você deve preparar o esquema, floresta e domínios que irá hospedar servidores e usuários do Active Directory Domain Services. O Skype para o Assistente de implantação do Business Server vai orientá-lo durante as etapas necessárias para preparar o Active Directory, começando com o esquema e, em seguida, para a preparação da floresta. Depois de confirmar se a replicação do Active Directory foi bem-sucedida, então você preparar cada domínio que hospedará usuários ou servidores.
-ms.openlocfilehash: f3a93899cae6abcda1d8cc5705333667ad26eebb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Para começar a instalação do Skype for Business Server, você deve preparar o esquema, a floresta e os domínios dos serviços de domínio Active Directory que hospedarão servidores e usuários. O assistente de implantação do Skype for Business Server guiará você pelas etapas necessárias para preparar o Active Directory, começando com o esquema e depois na preparação da floresta. Depois de confirmar que a replicação do Active Directory foi bem-sucedida, você prepara cada domínio que hospedará usuários ou servidores.
+ms.openlocfilehash: e4de6019303b53a1828d7ee271194ebca107b0c5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893641"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276293"
 ---
 # <a name="prepare-active-directory"></a>Preparar o Active Directory
 
-Para começar a instalação do Skype para Business Server, você deve preparar o esquema, floresta e domínios que irá hospedar servidores e usuários do Active Directory Domain Services. O Skype para o Assistente de implantação do Business Server vai orientá-lo durante as etapas necessárias para preparar o Active Directory, começando com o esquema e, em seguida, para a preparação da floresta. Depois de confirmar se a replicação do Active Directory foi bem-sucedida, então você preparar cada domínio que hospedará usuários ou servidores.
+Para começar a instalação do Skype for Business Server, você deve preparar o esquema, a floresta e os domínios dos serviços de domínio Active Directory que hospedarão servidores e usuários. O assistente de implantação do Skype for Business Server guiará você pelas etapas necessárias para preparar o Active Directory, começando com o esquema e depois na preparação da floresta. Depois de confirmar que a replicação do Active Directory foi bem-sucedida, você prepara cada domínio que hospedará usuários ou servidores.
 
 > [!IMPORTANT]
 > Para preparar o esquema, é necessário estar conectado como membro do grupo Administradores de Empresa e do grupo Administradores de Esquema. Para preparar a floresta, é necessário estar conectado como membro do grupo Administradores de Empresa ou conectado como administrador na raiz da floresta. Para preparação do domínio, é necessário estar conectado como membro do grupo Administradores de Domínio.

@@ -1,10 +1,10 @@
 ---
-title: Planejar o controle de chamada remota no Skype para negócios
+title: Plano de controle de chamada remota no Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,35 +13,35 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
-description: Controle de chamada remota era um recurso nas versões anteriores do Microsoft Lync Server que permitia aos usuários controlar seus telefones PBX com o Lync Server. Skype para Business Server, esse recurso foi substituído com a chamada Via trabalho. Nas versões do cliente para Skype para Business Server 2015 e de chamada remoto, encaminhar de passando para o controle não está mais disponível para configurar no cliente e foi removido para uso.
-ms.openlocfilehash: 5362e7401faea9a583bac540f073ce0b56f06c20
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: O controle de chamada remota foi um recurso nas versões anteriores do Lync Server que permitia aos usuários controlar os telefones PBX com o Lync Server. No Skype for Business Server, este recurso foi substituído por meio da chamada por meio do trabalho. Nas versões do cliente para o Skype for Business Server 2015 e encaminhadas, o controle de chamada remota não está mais disponível para ser configurado no cliente e foi removido para uso.
+ms.openlocfilehash: e98bcbd7e1feb91b31994d2ece2770c911547882
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913552"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276487"
 ---
-# <a name="plan-for-remote-call-control-in-skype-for-business"></a>Planejar o controle de chamada remota no Skype para negócios
+# <a name="plan-for-remote-call-control-in-skype-for-business"></a>Plano de controle de chamada remota no Skype for Business
  
-Controle de chamada remota era um recurso nas versões anteriores do Microsoft Lync Server que permitia aos usuários controlar seus telefones PBX com o Lync Server. Skype para Business Server, esse recurso foi substituído com a chamada Via trabalho.  *Nas versões do cliente para Skype para Business Server 2015 e de chamada remoto, encaminhar de passando para o controle não está mais disponível para configurar no cliente e foi removido para uso.* 
+O controle de chamada remota foi um recurso nas versões anteriores do Lync Server que permitia aos usuários controlar os telefones PBX com o Lync Server. No Skype for Business Server, este recurso foi substituído por meio da chamada por meio do trabalho.  *Nas versões do cliente para o Skype for Business Server 2015 e encaminhadas, o controle de chamada remota não está mais disponível para ser configurado no cliente e foi removido para uso.* 
   
- Usuários de controle de chamada remota em sua organização hospedados em servidores Front-End executando o Lync Server podem continuar a usar o controle de chamada remota, mesmo que estejam usando um Skype para o cliente de negócios. No entanto, para todos os usuários hospedagem no Skype para Business Server, o controle de chamada remota não é suportado. Consulte a tabela a seguir das combinações servidor/cliente e se elas podem suportar o controle de chamada remota ou Telefonar via Trabalho.
+ Os usuários de controle de chamada remota em sua organização que são hospedados em servidores front-end que executam o Lync Server podem continuar a usar o controle de chamada remota, mesmo se estiverem usando um cliente Skype for Business. No entanto, para todos os usuários hospedados no Skype for Business Server, não há suporte para o controle de chamada remota. Consulte a tabela a seguir das combinações servidor/cliente e se elas podem suportar o controle de chamada remota ou Telefonar via Trabalho.
   
-||**Skype para negócios com Skype UI do cliente habilitado**|**Skype para negócios com Lync UI do cliente habilitado**|**Skype para Business 2016 Client**|**Cliente do Lync 2013**|**Lync 2010 Client**|
+||**Cliente Skype for Business com interface do usuário do Skype habilitada**|**Interface do usuário do Skype for Business com interface do usuário do Lync habilitada**|**Cliente Skype for Business 2016**|**Cliente do Lync 2013**|**Lync 2010 Client**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 | Skype for Business Server <br/> |Chamada via Trabalho  <br/> |1 <br/> |Chamada via Trabalho  <br/> |1 <br/> |1 <br/> |
-| Lync Server 2013 <br/> |Controle de chamada remota  <br/> |Controle de chamada remota  <br/> |1 <br/> |Controle de chamada remota  <br/> |Controle de chamada remota  <br/> |
-| Lync Server 2010 <br/> |Controle de chamada remota  <br/> |Controle de chamada remota  <br/> |1 <br/> |Controle de chamada remota  <br/> |Controle de chamada remota  <br/> |
+| Lync Server 2013 <br/> |Controle de chamada remota  <br/> |Controle de chamada remota  <br/> |um <br/> |Controle de chamada remota  <br/> |Controle de chamada remota  <br/> |
+| Lync Server 2010 <br/> |Controle de chamada remota  <br/> |Controle de chamada remota  <br/> |um <br/> |Controle de chamada remota  <br/> |Controle de chamada remota  <br/> |
    
-1. Nenhum recurso é suportado.
+1. Não há suporte para nenhum recurso.
   
-Para obter mais informações, consulte [Remote Call Control](https://go.microsoft.com/fwlink/p/?LinkId=530208) na documentação do Lync Server 2013.
+Para obter mais informações, consulte [controle de chamada remota](https://go.microsoft.com/fwlink/p/?LinkId=530208) na documentação do Lync Server 2013.
   
 ## <a name="see-also"></a>Confira também
 
-[Planejar para chamada Via trabalho no Skype para Business Server](call-via-work.md)
+[Planejar a chamada por meio do trabalho no Skype for Business Server](call-via-work.md)
   
-[Comparação de recursos do cliente de desktop do Skype para negócios](../../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)
+[Comparação de recursos do cliente de desktop do Skype for Business](../../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)
 
-[Tornar um Skype para chamada de negócios, mas usar seu telefone de mesa PBX para áudio](https://support.office.com/en-us/article/Make-a-Skype-for-Business-call-but-use-your-PBX-desk-phone-for-audio-6a316c11-a05e-460c-b969-32ff0ad848e6)
+[Fazer uma chamada no Skype for Business, mas usar seu telefone de mesa PBX para áudio](https://support.office.com/en-us/article/Make-a-Skype-for-Business-call-but-use-your-PBX-desk-phone-for-audio-6a316c11-a05e-460c-b969-32ff0ad848e6)
 

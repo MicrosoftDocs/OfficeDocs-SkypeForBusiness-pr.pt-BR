@@ -4,38 +4,38 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Ao executar o cmdlet Move-CsUser, você pode enfrentar uma falha porque as informações de usuário entre os serviços de domínio Active Directory (AD DS) e o Skype para bancos de dados corporativos Server 2019 estão fora de sincronia porque a replicação inicial está incompleta. O tempo que leva para a conclusão bem-sucedida do Skype para a sincronização inicial do serviço do replicador de usuário do Business Server 2019 depende do número de controladores de domínio que estão hospedados na floresta do Active Directory que hospeda o Skype para negócios Pool de servidor 2019. O Skype para o processo de sincronização inicial do replicador de usuário do Business Server 2019 serviço ocorre quando o Skype para Business Server 2019 servidor Front-End é iniciado pela primeira vez. Depois disso, a sincronização, em seguida, com base no intervalo de replicador de usuários. Conclua as seguintes etapas para verificar se a replicação de usuário foi concluída antes de executar o cmdlet Move-CsUser.
-ms.openlocfilehash: bab54e91ebda7a10804980e368e05bb58ff911ff
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Ao executar o cmdlet Move-CsUser, você pode ter uma falha porque as informações do usuário entre os serviços de domínio Active Directory (AD DS) e os bancos de dados do Skype for Business Server 2019 estão fora de sincronia porque a replicação inicial está incompleta. O tempo necessário para a conclusão bem-sucedida da sincronização inicial do serviço Duplicador de usuários do Skype for Business Server 2019 depende do número de controladores de domínio hospedados na floresta do Active Directory que hospeda o Skype for Business Server 2019 pool. O processo de sincronização inicial do serviço Duplicador de usuários do Skype for Business Server 2019 ocorre quando o servidor front-end do Skype for Business Server 2019 é iniciado pela primeira vez. Depois disso, a sincronização é baseada no intervalo de Duplicador do usuário. Conclua as etapas a seguir para verificar se a replicação do usuário foi concluída antes de executar o cmdlet Move-CsUser.
+ms.openlocfilehash: d5d0462ec2886c73fb7286860eea2c89e0fea9fb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231333"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280643"
 ---
 # <a name="verify-user-replication-has-completed"></a>Verificar a conclusão da replicação de usuário
 
-Ao executar o cmdlet **Move-CsUser** , você pode enfrentar uma falha se as informações do usuário entre os serviços de domínio Active Directory (AD DS) e o Skype para bancos de dados corporativos Server 2019 estão fora de sincronia porque a replicação inicial está incompleta. O tempo que leva para a conclusão bem-sucedida do Skype para a sincronização inicial do serviço do replicador de usuário do Business Server 2019 depende do número de controladores de domínio que estão hospedados na floresta do Active Directory que hospeda o Skype para negócios Pool de servidor 2019. O Skype para o processo de sincronização inicial do replicador de usuário do Business Server 2019 serviço ocorre quando o Skype para Business Server 2019 servidor Front-End é iniciado pela primeira vez. Depois disso, a sincronização baseia-se no intervalo de replicador de usuários. Conclua as seguintes etapas para verificar se a replicação de usuário que foi concluída antes de executar o cmdlet **Move-CsUser** . 
+Ao executar o cmdlet **move-CsUser** , você pode ter uma falha se as informações do usuário entre os serviços de domínio Active Directory (AD DS) e os bancos de dados do Skype for Business Server 2019 estiverem fora de sincronia porque a replicação inicial está incompleta. O tempo necessário para a conclusão bem-sucedida da sincronização inicial do serviço Duplicador de usuários do Skype for Business Server 2019 depende do número de controladores de domínio hospedados na floresta do Active Directory que hospeda o Skype for Business Server 2019 pool. O processo de sincronização inicial do serviço Duplicador de usuários do Skype for Business Server 2019 ocorre quando o servidor front-end do Skype for Business Server 2019 é iniciado pela primeira vez. Depois disso, a sincronização é baseada no intervalo do Duplicador do usuário. Conclua as etapas a seguir para verificar se a duplicação do usuário foi concluída antes de executar o cmdlet **move-CsUser** . 
   
-### <a name="to-verify-that-user-replication-has-completed"></a>Para verificar se a replicação usuário foi concluída
+### <a name="to-verify-that-user-replication-has-completed"></a>Para verificar se a duplicação do usuário foi concluída
 
 1. Faça logon no computador no qual o Construtor de Topologias está instalado como um membro do grupo Admins. do Domínio ou do grupo RTCUniversalServerAdmins.
     
-2. Clique no menu **Iniciar** e, em seguida, clique em **Executar**. 
+2. Clique no menu **Iniciar** e, em seguida, clique em **executar**. 
     
-3. Insira **eventvwr.exe**e clique em **Okey**.
+3. Insira **eventvwr. exe**e clique em **OK**.
     
-4. No Visualizador de eventos, clique em **logs de aplicativos e serviços** para expandi-lo e selecione Skype para Business Server. 
+4. Em Visualizador de eventos, clique em **logs de aplicativos e serviços** para expandi-lo e, em seguida, selecione Skype for Business Server. 
     
-5. No painel **ações** , clique em **Filtrar Log atual**.
+5. No painel **ações** , clique em **Filtrar log atual**.
     
-6. Na lista **fontes de evento** , clique em **LS User Replicator**.
+6. Na lista **fontes de eventos** , clique em duplicador de **usuários ls**.
     
-7. Em ** \<todas as IDs de evento\>**, insira **30024**e clique em **Okey**. 
+7. Em ** \<todas as\>identificações de evento**, insira **30024**e clique em **OK**. 
     
-8. Na lista de eventos filtrados, na guia **Geral** , procure uma entrada que afirma que a replicação usuário foi concluída com êxito. 
+8. Na lista eventos filtrados, na guia **geral** , procure por uma entrada que declara que a duplicação do usuário foi concluída com êxito. 
     
 

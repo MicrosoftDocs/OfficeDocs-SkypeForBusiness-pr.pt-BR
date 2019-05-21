@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/28/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
-description: 'Resumo: Leia este tópico para saber como criar políticas de usuário inicial para o servidor de Chat persistente no Skype para Business Server 2015. As diretivas de usuário de Chat persistentes determinam se ou não os usuários poderão acesso a salas de bate-papo.'
-ms.openlocfilehash: 84bc1236bf8fd08063f55c9a0c3b0d63ff4eb280
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Leia este tópico para saber como criar políticas iniciais de usuário para o servidor de chat persistente no Skype for Business Server 2015. Políticas de usuário de chat persistente determinam se os usuários podem ou não acesso a salas de chat.'
+ms.openlocfilehash: 7c73b34f418946dda76302c0ee2abb18125e6f07
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894504"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273851"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Configurar políticas de usuário de Chat Persistente no Skype for Business Server 2015
  
-**Resumo:** Leia este tópico para saber como criar políticas de usuário inicial para o servidor de Chat persistente no Skype para Business Server 2015. As diretivas de usuário de Chat persistentes determinam se ou não os usuários poderão acesso a salas de bate-papo.
+**Resumo:** Leia este tópico para saber como criar políticas iniciais de usuário para o servidor de chat persistente no Skype for Business Server 2015. Políticas de usuário de chat persistente determinam se os usuários podem ou não acesso a salas de chat.
   
-Você pode gerenciar políticas de usuário do servidor de Chat persistente nos seguintes níveis: global, site ou usuário. Inicialmente, você configura a política global para habilitar configurações de Chat Persistente para todos os usuários na sua implantação, e então cria políticas adicionais de site e usuário para controlar se o Chat Persistente está ativado para sites e usuários específicos.
+Você pode gerenciar políticas de usuário do servidor de chat persistente nos seguintes níveis: global, site ou usuário. Inicialmente, você configura a política global para habilitar configurações de Chat Persistente para todos os usuários na sua implantação, e então cria políticas adicionais de site e usuário para controlar se o Chat Persistente está ativado para sites e usuários específicos.
   
 Este tópico inclui as seguintes seções:
   
@@ -35,7 +35,7 @@ Este tópico inclui as seguintes seções:
 - Aplicar uma política a um usuário ou grupo de usuários
     
 > [!NOTE] 
-> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015.
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015.
 
 ## <a name="configure-the-global-policy"></a>Configurar a política global
 
@@ -43,9 +43,9 @@ Para configurar a política global:
   
 1. Usando uma conta de usuário atribuída à função CsPersistentChatAdministrator, CsAdministrator, ou CsUserAdministrator faça logon em qualquer computador de sua implantação interna.
     
-2. No menu **Iniciar** , selecione o Skype para painel de controle do Business Server ou abrir uma janela de navegador e insira a URL do administrador.
+2. No menu **Iniciar** , selecione o painel de controle do Skype for Business Server ou abra uma janela do navegador e, em seguida, insira a URL de administração.
     
-3. No painel de controle do servidor de negócios do Skype, clique em **Chat persistente**e clique em **Política de Chat persistente**.
+3. No painel de controle do Skype for Business Server, clique em **chat persistente**e, em seguida, clique em **política de chat persistente**.
     
 4. Clique em **Global** na lista de políticas, clique em **Editar** e, em seguida, clique em **Mostrar detalhes**.
     
@@ -53,9 +53,9 @@ Para configurar a política global:
     
    - Em **Nome**, especifique um novo nome para a política global, se não desejar usar o padrão Global.
     
-   - Em **Descrição**, forneça detalhes sobre o que é a política de usuário (por exemplo, política Global para _centralSiteName_).
+   - Em **Descrição**, forneça detalhes sobre o que é a política de usuário (por exemplo, política global para _centralSiteName_).
     
-   - Para controlar o Chat persistente para todos os sites e usuários não especificamente controlados através de uma política de site ou usuário, marque ou desmarque a caixa de seleção **Habilitar Chat persistente** .
+   - Para controlar o chat persistente para todos os sites e usuários não controlados especificamente por meio de uma política de site ou política de usuário, marque ou desmarque a caixa de seleção **habilitar chat persistente** .
     
 6. Clique em **Confirmar**.
     
@@ -65,7 +65,7 @@ Para cada site implantado, é possível criar uma política de Chat Persistente 
   
 1. Usando uma conta de usuário atribuída à função CsPersistentChatAdministrator, CsAdministrator, ou CsUserAdministrator faça logon em qualquer computador de sua implantação interna.
     
-2. No menu **Iniciar** , selecione o Skype para painel de controle do Business Server ou abrir uma janela de navegador e insira a URL do administrador.
+2. No menu **Iniciar** , selecione o painel de controle do Skype for Business Server ou abra uma janela do navegador e, em seguida, insira a URL de administração.
     
 3. Na barra de navegação esquerda, clique em **Chat Persistente** e, em seguida, clique em **Política de Chat Persistente**.
     
@@ -89,7 +89,7 @@ Você pode criar políticas específicas de usuário que substituem a política 
   
 1. Usando uma conta de usuário atribuída à função CsPersistentChatAdministrator, CsAdministrator, ou CsUserAdministrator faça logon em qualquer computador de sua implantação interna.
     
-2. No menu **Iniciar** , selecione o Skype para painel de controle do Business Server ou abrir uma janela de navegador e insira a URL do administrador.
+2. No menu **Iniciar** , selecione o painel de controle do Skype for Business Server ou abra uma janela do navegador e, em seguida, insira a URL de administração.
     
 3. Na barra de navegação esquerda, clique em **Chat Persistente** e, em seguida, clique em **Política de Chat Persistente**.
     
@@ -99,9 +99,9 @@ Você pode criar políticas específicas de usuário que substituem a política 
     
    - Em **Nome**, especifique um nome para a nova política de usuário.
     
-   - Em **Descrição**, forneça detalhes sobre o que é a política de usuário (por exemplo, política de Chat persistente para usuário específico).
+   - Em **Descrição**, forneça detalhes sobre o que é a política de usuário (por exemplo, política de chat persistente para um usuário específico).
     
-   - Para controlar o Chat persistente para todos os usuários que não são especificamente controlados através de uma política de usuário, marque ou desmarque a caixa de seleção **Habilitar Chat persistente** .
+   - Para controlar o chat persistente para todos os usuários que não são controlados especificamente por meio de uma política de usuário, marque ou desmarque a caixa de seleção **habilitar chat persistente** .
     
 6. Clique em **Confirmar**.
     
@@ -111,16 +111,16 @@ Após criar as políticas, você pode aplicá-las a uma conta de usuário da seg
   
 1. Usando uma conta de usuário atribuída à função CsPersistentChatAdministrator, CsAdministrator, ou CsUserAdministrator faça logon em qualquer computador de sua implantação interna.
     
-2. No menu **Iniciar** , selecione o Skype para painel de controle do Business Server ou abrir uma janela de navegador e insira a URL do administrador.
+2. No menu **Iniciar** , selecione o painel de controle do Skype for Business Server ou abra uma janela do navegador e, em seguida, insira a URL de administração.
     
 3. Na barra de navegação esquerda, clique em **Usuários** e pesquise a conta de usuário que deseja configurar.
     
 4. Na tabela que lista os resultados da pesquisa, clique na conta do usuário, em **Editar** e em **Exibir detalhes**.
     
-5. Em **Editar Skype para usuário de servidor de negócios** em **política de Chat persistente**, selecione a política de usuário de Chat persistente que você deseja aplicar.
+5. Em **Editar o usuário do Skype for Business Server** na **política de chat persistente**, selecione a política de usuário de chat persistente que você deseja aplicar.
     
     > [!NOTE]
-    > O ** \<automática\> ** configurações se aplicam a diretiva padrão de efetiva. Essas configurações são aplicadas automaticamente pelo servidor.
+    > As ** \<configurações\> automáticas** aplicam a política em vigor padrão. Essas configurações são aplicadas automaticamente pelo servidor.
   
 6. Clique em **Confirmar**.
     

@@ -1,10 +1,10 @@
 ---
-title: Planejar a conectividade PSTN em Skype para Business Server
+title: Planejar a conectividade PSTN no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
-description: Planejar a conectividade PSTN no Enterprise Voice no Skype para Business Server.
-ms.openlocfilehash: aa3449746c539e7b7bf8fe5332fa4313f80fa555
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Plano para conectividade PSTN no Enterprise Voice no Skype for Business Server.
+ms.openlocfilehash: f0b6aa6b43562fea91885b0d55d75fd234ab97de
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913567"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276494"
 ---
-# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Planejar a conectividade PSTN em Skype para Business Server
+# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Planejar a conectividade PSTN no Skype for Business Server
  
-Planejar a conectividade PSTN no Enterprise Voice no Skype para Business Server.
+Plano para conectividade PSTN no Enterprise Voice no Skype for Business Server.
   
-Uma solução de VoIP em nível empresarial deve fornecer chamadas de e para PSTN (rede telefônica pública comutada), sem redução de QoS (Qualidade de Serviço). Os usuários que façam e recebam chamadas não devem estar cientes da tecnologia subjacente: da perspectiva do usuário, uma chamada entre a infraestrutura do Enterprise Voice e a PSTN deve ser semelhante a qualquer outra telefonema.
+Uma solução de VoIP em nível empresarial deve fornecer chamadas de e para PSTN (rede telefônica pública comutada), sem redução de QoS (Qualidade de Serviço). Os usuários que fizerem e receberem chamadas não devem estar cientes da tecnologia subjacente: da perspectiva do usuário, uma chamada entre a infraestrutura Enterprise Voice e a PSTN deve parecer com apenas outra chamada telefônica.
   
-Skype para Business Server fornece uma conectividade PSTN confiável e escalável usando as seguintes opções:
+O Skype for Business Server fornece conectividade PSTN confiável e escalonável usando as seguintes opções:
   
 - **Troncos SIP** para um provedor de serviços de telefonia da Internet (ITSP)
     
@@ -39,14 +39,14 @@ Dependendo de seu tamanho, cobertura geográfica e infraestrutura de voz existen
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Tronco SIP no Skype para Business Server](sip-trunking.md)
+- [Entroncamento SIP no Skype for Business Server](sip-trunking.md)
     
-- [Conexões SIP diretas no Skype para Business Server](direct-sip.md)
+- [Conexões SIP diretas no Skype for Business Server](direct-sip.md)
     
-- [Tronco M:N no Skype para Business Server](m-n-trunk.md)
+- [Tronco M:N no Skype for Business Server](m-n-trunk.md)
     
-- [Regras de conversão no Skype para Business Server](translation-rules.md)
+- [Regras de tradução no Skype for Business Server](translation-rules.md)
     
-- [Planejar o roteamento de voz de saída em Skype para Business Server](outbound-voice-routing.md)
+- [Plano para roteamento de voz de saída no Skype for Business Server](outbound-voice-routing.md)
     
 

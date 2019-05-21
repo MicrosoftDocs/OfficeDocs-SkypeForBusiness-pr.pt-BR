@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.SelectPool
@@ -13,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: Use a caixa de diálogo Selecionar um Serviço para localizar serviços disponíveis no seu ambiente. Para usar um serviço existente, clique em um serviço na lista e clique em OK.
-ms.openlocfilehash: 6ac1ac46e729c35df3981ba3d130553d6b8f0db1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 90c88f08d3d73bcd01dc0f7691a81174b0ddb7a4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924511"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280443"
 ---
 # <a name="select-a-service"></a>Selecionar um Serviço
 
 Use a caixa de diálogo **Selecionar um Serviço** para localizar serviços disponíveis no seu ambiente. Para usar um serviço existente, clique em um serviço na lista e clique em **OK**.
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte [gerenciar o Skype for Business server 2015](../../manage/manage.md).
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
@@ -36,19 +36,19 @@ Para obter detalhes sobre os diferentes procedimentos que você pode executar us
 
 - [Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte [gerenciar o Skype for Business server 2015](../../manage/manage.md).
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorias salas de chat
 
-Em **Selecionar um serviço**, selecione o serviço correspondente para o pool de servidor de Chat persistente no qual a categoria precisa ser criado. O serviço é o servidor de Chat persistente pool (cliente) de Chat persistente usado para identificar qual categoria de pool pertence. Uma categoria pode pertencer a apenas um pool do servidor de Chat persistente e não pode ser movida para outro ou compartilhada com outro pool.
+Em **selecionar um serviço**, selecione o serviço correspondente ao pool de servidores de chat persistente em que a categoria precisa ser criada. O serviço é o pool persistente do servidor de chat que o chat (cliente) persistente usa para identificar a qual pool a categoria pertence. Uma categoria pode pertencer a apenas um pool de servidor de chat persistente e não pode ser movida para outra ou compartilhada com outro pool.
 
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>Para configurar suplementos para salas de chat
 
-Em **Selecionar um serviço**, selecione o serviço correspondente para o pool do servidor de Chat persistente onde você precisa criar o suplemento. Suplementos não podem ser movidos de um pool a outro nem compartilhado entre pools diferentes.
+Em **selecionar um serviço**, selecione o serviço correspondente ao pool de servidores de chat persistente em que você precisa criar o suplemento. Suplementos não podem ser movidos de um pool a outro nem compartilhado entre pools diferentes.
 
-## <a name="to-configure-persistent-chat-options-for-a-specific-persistent-chat-server-pool"></a>Para configurar as opções de Chat persistente para um pool específico do servidor de Chat persistente
+## <a name="to-configure-persistent-chat-options-for-a-specific-persistent-chat-server-pool"></a>Para configurar opções de chat persistente para um pool de servidor de chat persistente específico
 
-Em **Selecionar um serviço**, selecione o serviço associado ao pool do servidor de Chat persistente a ser configurado.
+Em **selecionar um serviço**, selecione o serviço associado ao pool de servidores de chat persistente a ser configurado.
 
-Para obter detalhes sobre os recursos de servidor de Chat persistente e capacidades, consulte [Visão geral do servidor de Chat persistente](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com as configurações de servidor de Chat persistente, consulte [Configuring Persistent Chat Server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) na documentação de implantação e [Managing Lync Server 2013, Persistent Chat Server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) na documentação operações.
+Para obter detalhes sobre recursos e recursos do servidor de chat persistente, consulte [visão geral do servidor de chat persistente](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com configurações de servidor de chat persistente, consulte Configurando o [servidor de chat persistente](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) na documentação de implantação e gerenciando o [Lync Server 2013, servidor de chat persistente](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) na documentação de operações.
 

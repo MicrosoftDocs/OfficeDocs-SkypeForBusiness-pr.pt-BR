@@ -4,48 +4,48 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
-description: 'Resumo: Saiba mais sobre o serviço de usuário, que é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: 631ccfefe7a4503f325c288ef1bf27d4366869e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o serviço de usuário, que faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
+ms.openlocfilehash: 3ef76d26faa27034d3f092608b52676332b254a1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915077"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274517"
 ---
 # <a name="user-service-for-cqd"></a>Serviço de usuário para CQD
  
-**Resumo:** Saiba mais sobre o serviço de usuário, que é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
+**Resumo:** Saiba mais sobre o serviço de usuário, que faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
   
-O serviço de usuário é parte da API do repositório para painel de controle de qualidade de chamada.
+O serviço de usuário faz parte da API do repositório para o painel de qualidade da chamada.
   
 ## <a name="user-service"></a>Serviço do usuário
 
-API do repositório fornece um modelo de gerenciamento de usuário simplificada onde o provisionamento (criando novas contas de usuário) do usuário é automático e implícita. Quando um usuário faz uma solicitação em relação a API do repositório pela primeira vez, o repositório cria um novo registro de usuário. 
+A API do repositório fornece um modelo simplificado de gerenciamento de usuários onde o provisionamento do usuário (criação de novas contas de usuário) é automático e implícito. Quando um usuário faz uma solicitação em relação à API do repositório pela primeira vez, o repositório cria um novo registro de usuário. 
   
-Painel de controle de qualidade também cria automaticamente um usuário de chamada dedicada itens para o novo usuário. Os novos itens de usuário dedicado são clones completas dos itens do usuário do sistema. Dessa forma, os usuários começam com suas próprias cópias de relatórios e consultas que eles podem iniciar imediatamente personalizando. 
+O painel de qualidade de chamada também cria automaticamente itens dedicados do usuário para o novo usuário. Os novos itens dedicados do usuário são clones completos dos itens do usuário do sistema. Dessa forma, os usuários começam com suas próprias cópias de relatórios e consultas que podem iniciar a personalização imediatamente. 
   
 > [!NOTE]
-> Usando o painel de controle de qualidade de chamada, os usuários podem redefinir seus itens dedicados a qualquer momento. 
+> Usando o painel de qualidade da chamada, os usuários podem redefinir seus itens dedicados a qualquer momento. 
   
  **IDs de usuário especiais**
   
-API do repositório inclui REST API URIs que espera um valor inteiro para especificar um determinado usuário. Exemplo: `https://<portal>/QoERepositoryService/repository/user/{userId}`. Aqui, {userId} deverão ser substituído por um valor inteiro, como 0, 1, etc.
+A API do repositório inclui URIs de API REST que esperam um valor inteiro para especificar um usuário específico. Exemplo: `https://<portal>/QoERepositoryService/repository/user/{userId}`. Aqui, {userId} deve ser substituído por um valor inteiro, como 0, 1, etc.
   
-Além disso, a API do repositório aceitará duas identificações de usuário especiais em {userId} em URIs.
+Além disso, a API do repositório aceitará duas IDs de usuário especiais em {userId} em URIs.
   
--  *padrão* - representa o usuário que está atualmente interagindo com a API. Isso permite aos aplicativos acessar o conteúdo do usuário atual sem manter o controle do valor de ID de usuário real. Exemplo: ` https://<portal>/QoERepositoryService/repository/user/default`.
+-  *padrão* -representa o usuário que está interagindo com a API no momento. Isso permite que os aplicativos acessem o conteúdo do usuário atual sem acompanhar o valor real da ID do usuário. Exemplo: ` https://<portal>/QoERepositoryService/repository/user/default`.
     
--  *sistema* - representa o usuário do sistema. Isso permite aos aplicativos acessar o conteúdo do usuário do sistema sem saber o valor de ID de usuário real. Exemplo: `https://<portal>/QoERepositoryService/repository/user/system`.
+-  *System* -representa o usuário do sistema. Isso permite que os aplicativos acessem o conteúdo do usuário do sistema sem conhecer o valor real da ID do usuário. Exemplo: `https://<portal>/QoERepositoryService/repository/user/system`.
     
-Salvo indicação contrária, as IDs de usuário especiais podem ser usado em {userId} em URIs. 
+A menos que indicado de outra forma, as IDs de usuário especiais podem ser usadas em {userId} em URIs. 
   
-As operações do REST estão incluídas na tabela a seguir.
+As operações REST estão incluídas na tabela a seguir.
   
 |**Operação**|**Descrição**|
 |:-----|:-----|

@@ -5,62 +5,62 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
-description: 'Você pode editar as configurações para o servidor de borda ou pool de borda, definindo as seguintes propriedades:'
-ms.openlocfilehash: 6dcd602742ffcc93bf3b323c89304daf5f301eeb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Edite as configurações do servidor de borda ou do pool de bordas configurando as seguintes propriedades:'
+ms.openlocfilehash: 1b349d5640ea2debb4730ce262795616258b3475
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926814"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282521"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Editar Expansor de Configurações de Borda para Lync Server 2010
  
-Você pode editar as configurações para o servidor de borda ou pool de borda, definindo as seguintes propriedades: 
+Edite as configurações do servidor de borda ou do pool de bordas configurando as seguintes propriedades: 
   
  **Geral**
   
-- **FQDN do pool interno**: O nome de domínio totalmente qualificado do pool interno é a identidade do servidor de borda ou pool de borda conforme definido no registro de host (A ou AAAA para IPv6) domínio nomes DNS (sistema).
+- **FQDN do pool interno**: o nome de domínio totalmente qualificado do pool interno é a identidade do servidor de borda ou o pool de bordas, conforme definido no registro do host de sistema de nomes de domínio (DNS) do host (A ou aaaa para IPv6).
     
-- Selecione **Habilitar federação para este pool de borda (porta 5061)** se você deseja habilitar o servidor de borda ou pool de borda para federação com outros parceiros de protocolo de iniciação de sessão.
+- Selecione **habilitar Federação para este pool de bordas (porta 5061)** se você quiser habilitar o servidor de borda ou o pool de bordas para federação com outros parceiros de protocolo de início de sessão.
     
     > [!IMPORTANT]
-    > Você só pode definir um servidor de borda ou pool de borda ativamente para federação. A configuração mostrada na captura de tela associada indica que outro pool do servidor de borda ou borda já está configurado para federação. O registro SRV de DNS para federação (_sipfederationtls._tcp.\< nome de domínio externo\>) apontará para o servidor de borda ou pool de borda para federação. 
+    > Você só pode definir um servidor de borda ou um pool de bordas ativamente para Federação. A configuração mostrada na captura de tela associada indica que outro servidor de borda ou um pool de bordas já está configurado para Federação. O registro SRV DNS externo para Federação (sipfederationtls. _ TCP\< . nome\>do domínio externo) apontará para o servidor de borda ou o pool de bordas para Federação. 
   
-- A **Porta de replicação de configuração interna (HTTPS)**, por padrão, a porta TCP 4443, é a porta que o local (ou seja, local para os servidores de borda) cópia do repositório de gerenciamento Central está sendo replicada. A cópia local do repositório de gerenciamento Central está no banco de dados **RTCLOCAL** no SQL Server em cada computador. A replicação é unidirecional, iniciado a partir do servidor de gerenciamento Central (ou o pool de Front-End ou de servidor Front-End que detém a função de servidor de gerenciamento Central) para os servidores de borda e é uma porta da interface interna.
+- A **porta de replicação de configuração interna (https)**, por padrão, na porta TCP 4443, é a porta que a cópia local (ou seja, local para os servidores de extremidade) do repositório de gerenciamento central é replicada. A cópia local do repositório de gerenciamento central está no banco de dados do **RTCLOCAL** no SQL Server em cada computador. A replicação é unidirecional, iniciada a partir do servidor de gerenciamento central (ou, o servidor front-end ou o pool de front-ends que mantém a função de servidor central de gerenciamento) para os servidores de borda e é uma porta de interface interna.
     
   **Seleção do próximo salto**
   
-- Selecione na lista de seu **pool de próximo salto**. Você define um diretor, pool de diretor, pool de Front-End ou de servidor Front-End para assumir essa função. O pool de próximo salto é o servidor ou pool de servidores que aceitará mensagens de SIP de entrada do servidor de borda ou interface interna do pool de borda e enviar saída SIP para a interface interna de borda.
+- Selecione para a lista do **próximo pool de saltos**. Você define um director, um pool de directors, um servidor front-end ou um pool de front-end para assumir essa função. O próximo pool de saltos é o servidor ou pool de servidores que aceitará mensagens SIP de entrada do servidor de borda ou da interface interna do pool de bordas e enviará o SIP de saída para a interface interna de Edge.
     
     > [!NOTE]
-    > O diretor é uma função opcional e se você decidir não implantar os diretores, os servidores Front-End (computador único ou pool) assumirá a função Diretor. 
+    > O diretor é uma função opcional e, se você decidir não implantar diretores, os servidores front-end (computador ou pool único) assumirão a função de diretor. 
   
   **Configurações externas**
   
-Esta seção das propriedades permite editar propriedades para as configurações externas do servidor de borda ou pool de borda. Estas propriedades estão disponíveis para edição:
+Esta seção das propriedades permite que você edite as propriedades das configurações externas do servidor de borda ou do pool de bordas. Estas propriedades estão disponíveis para edição:
   
-- Selecione o **FQDN de habilitar separado e endereço IP para Webconferência e A / V** nomes de caixa de seleção se você desejar atribuir diferentes endereços IP e domínio totalmente qualificado para cada serviço de servidor de borda.
+- Marque a caixa de seleção **habilitar FQDN e endereço IP separados para Webconferência e a/V,** se você quiser atribuir endereços IP distintos e nomes de domínio totalmente qualificados a cada serviço de servidor de borda.
     
     > [!NOTE]
-    > Se você optar por não marque a caixa de seleção, você deve usar portas separadas para cada serviço de borda. Cada serviço de borda compartilharão o FQDN definido para o serviço de borda de acesso e, portanto, usará o mesmo endereço IP. Cada serviço de borda deve ser identificado exclusivamente um endereço IP distinto e mesma porta, ou o mesmo endereço IP e os valores de porta exclusivo. 
+    > Se você optar por não marcar a caixa de seleção, deverá usar portas separadas para cada serviço de borda. Cada serviço de borda compartilhará o FQDN definido para o serviço de borda de acesso e, portanto, usará o mesmo endereço IP. Cada serviço de borda deve ser identificado exclusivamente por um endereço IP distinto e mesma porta, ou pelo mesmo endereço IP e valores de porta exclusivos. 
   
-- Selecione **uma / serviço de borda V é habilitado para NAT** se você deseja configurar A usar um endereço privado ou outro endereço que ficará oculta atrás de um dispositivo NAT (conversão) de endereço de rede do serviço de borda V /.
+- Selecione o **serviço de borda a/v está habilitado para NAT** se você quiser configurar o serviço de borda a/v para usar um endereço particular ou outro endereço que ficará oculto atrás de um dispositivo NAT (conversão de endereços de rede).
     
-- Para editar o **serviço de borda de acesso**, definir o **FQDN do Pool** para o serviço de borda de acesso conforme definido no DNS pelo host (A e AAAA se IPv6 for usado) um valor de porta e de registros
+- Para editar o **serviço de borda de acesso**, defina o **FQDN do pool** para o serviço de borda de acesso conforme definido no DNS pelos registros host (A e AAAA se IPv6 são usados) e um valor de porta
     
-- Para editar o **serviço de borda de webconferência**, definir um **FQDN do Pool** para o serviço de borda de webconferência conforme definido no DNS pelo host (A e AAAA se IPv6 for usado) um valor de porta e de registros
+- Para editar o **serviço de borda**de webconferência, defina um **FQDN de pool** para o serviço de borda de webconferência, conforme definido no DNS, os registros host (a e AAAA se IPv6 são usados) e um valor de porta
     
-- Para editar o **uma / serviço de borda V**, você define um **FQDN do Pool** para A serviço de borda V conforme definido no DNS pelo host (A e AAAA se IPv6 for usado) / registros e um valor de porta
+- Para editar o **serviço de borda a/v**, você define um **FQDN de pool** para o serviço de borda a/v, conforme definido no DNS por registros host (A e AAAA se IPv6 são usados) e um valor de porta
     
     > [!IMPORTANT]
-    > Se você tiver selecionado o **FQDN de habilitar separado e endereço IP para Webconferência e A / V** caixa de seleção, apenas o serviço de borda de acesso FQDN do Pool estarão disponível para edição. Atribua portas distintas para cada um dos três serviços de borda.
+    > Se você tiver marcado a caixa de seleção **habilitar FQDN e endereço IP separados para Webconferência e a/V** , somente o FQDN do pool de serviços de borda de acesso estará disponível para edição. Atribua portas distintas para cada um dos três serviços de borda.
   
   **OK** Aceita e confirma as alterações na caixa de diálogo.
   
