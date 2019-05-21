@@ -1,10 +1,10 @@
 ---
-title: Configurações de rede para os recursos avançados do Enterprise Voice no Skype para Business Server
+title: Configurações de rede para os recursos avançados de voz empresarial no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,45 +13,45 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
-description: Aprender sobre regiões de rede, sites de rede e sub-redes IP. Todas estas devem ser configuradas para implantar o plano de bypass de mídia no Skype para os negócios, planejar chamada de controle de admissão no Skype para Business Server), ou plano para serviços de emergência no Skype para servidor de negócios no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 979f90beb012bb0ff05077f7236dfdf39a74a69c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Aprender sobre regiões de rede, sites de rede e sub-redes IP. Todas elas devem ser configuradas para implantar o plano de bypass de mídia no Skype for Business, planejar o controle de admissão de chamadas no Skype for Business Server) ou planejar serviços de emergência no Skype for Business Server no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 1c652edd2d3f1898742656c9e12448386e680675
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913677"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276572"
 ---
-# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Configurações de rede para os recursos avançados do Enterprise Voice no Skype para Business Server
+# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Configurações de rede para os recursos avançados de voz empresarial no Skype for Business Server
 
-Aprender sobre regiões de rede, sites de rede e sub-redes IP. Todos esses devem ser configurados para implantar o [plano para a mídia ignorar no Skype for Business](media-bypass.md), [Planejar o controle de admissão de chamada no Skype para Business Server](call-admission-control.md)ou a [planejar os serviços de emergências no Skype para Business Server](emergency-services.md) no Skype para Business Server Enterprise Voice.
+Aprender sobre regiões de rede, sites de rede e sub-redes IP. Todas elas devem ser configuradas para implantar o [plano de bypass de mídia no Skype for Business](media-bypass.md), [planejar o controle de admissão de chamadas no Skype for Business Server](call-admission-control.md)ou [planejar serviços de emergência no Skype for Business](emergency-services.md) Server no Skype for Business Server Enterprise Voice.
 
-Skype para Business Server tem três recursos avançados do Enterprise Voice: [Planejar o controle de admissão de chamada no Skype para Business Server](call-admission-control.md), [planejar os serviços de emergências no Skype para Business Server](emergency-services.md)e [Planejar bypass de mídia no Skype para negócios ](media-bypass.md). Esses recursos compartilham determinados requisitos de configuração de regiões de rede, sites de rede e associação de cada sub-rede no Skype para a topologia de servidor de negócios com um site de rede.
+O Skype for Business Server tem três recursos avançados do Enterprise Voice: [planejar o controle de admissão de chamadas no Skype for Business Server](call-admission-control.md), [planejar serviços de emergência no Skype for Business Server](emergency-services.md)e [planejar o bypass de mídia no Skype for Business ](media-bypass.md). Esses recursos compartilham determinados requisitos de configuração para regiões de rede, sites de rede e Associação de cada sub-rede na topologia do servidor do Skype for Business com um site de rede.
 
-Este tópico fornece uma visão geral dos requisitos de configuração que são comuns a todos os três desses recursos do Enterprise Voice avançados.
+Este tópico fornece uma visão geral dos requisitos de configuração que são comuns a todos esses três recursos avançados do Enterprise Voice.
 
 ## <a name="network-regions"></a>Regiões de Rede
 
 Uma região de rede é um hub de rede ou backbone de rede usada somente na configuração do serviço de controle de admissão de chamadas (CAC),  E9-1-1 e bypass de mídia.
 
 > [!NOTE]
-> Regiões de rede não são iguais Skype para regiões de conferência discada Business Server, que são necessárias para associar números de acesso de conferência discada um ou mais Skype para planos de discagem Business Server. Para obter detalhes sobre as regiões de conferência de discagem, consulte [Planning for Dial-In Conferencing](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx).
+> As regiões de rede não são iguais às regiões de conferência discada do Skype for Business Server, que são necessárias para associar números de acesso de conferência discada com um ou mais planos de discagem do Skype for Business Server. Para obter detalhes sobre as regiões de conferência de discagem, consulte [Planning for Dial-In Conferencing](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx).
 
-CAC exige que cada região de rede tenha um Skype associado para o site central Business Server, que gerencia o tráfego de mídia com a região (ou seja, faz decisões com base em políticas que você configurou, relacionadas ou não um áudio em tempo real ou sessão de vídeo pode ser estabelecido). Skype para sites de central de Business Server não representam localizações geográficas, mas sim lógicos grupos de servidores que estão configurados como um pool ou um conjunto de pools.
+O CAC requer que todas as regiões de rede tenham um site central do Skype for Business Server associado, que gerencia o tráfego de mídia dentro da região (isto é, toma decisões com base em políticas que você configurou, em relação a se ou não um áudio em tempo real ou é possível estabelecer uma sessão de vídeo. Os sites centrais do Skype for Business Server não representam locais geográficos, mas em vez de grupos lógicos de servidores que são configurados como um pool ou um conjunto de pools.
 
-Para configurar uma região de rede, use a guia **regiões** na seção **Configuração de rede** do Skype para painel de controle do Business Server ou executar o **New-CsNetworkRegion** ou **Set-CsNetworkRegion** Skype para negócios Cmdlets do Shell de gerenciamento de servidor. Para obter instruções, consulte [Deploy regiões de rede, sites e sub-redes em Skype para negócios](../../deploy/deploy-enterprise-voice/deploy-network.md) na documentação de implantação ou consulte o Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
+Para configurar uma região de rede, você pode usar a guia **regiões** na seção **configuração de rede** do painel de controle do Skype for Business Server ou executar o **novo-CsNetworkRegion** ou **CsNetworkRegion** Skype for Business Cmdlets do Shell de gerenciamento do servidor. Para obter instruções, consulte [implantar regiões de rede, sites e sub-redes no Skype for Business](../../deploy/deploy-enterprise-voice/deploy-network.md) na documentação de implantação ou consulte a documentação do Shell de gerenciamento do Skype for Business Server.
 
 As mesmas definições de região de rede são compartilhadas por todos os três recursos avançados do Enterprise Voice. Se você já criou áreas de rede para um recurso, não será necessário criar novas regiões de rede para outros recursos. No entanto, pode ser necessário modificar uma definição de região de rede existente para aplicar as configurações específicas do recurso. Por exemplo, se você criou áreas de rede para E9-1-1 (que não requer um site central associado) e posteriormente implantou o serviço de controle de admissão de chamadas, é necessário modificar cada uma das definições de região de rede para especificar um site central.
 
-Para associar um Skype para o site central de Business Server uma região de rede, especifique o nome do site central, usando-se a seção **Configuração de rede** do Skype para painel de controle do Business Server, ou executando o **New-CsNetworkRegion** ou os cmdlets **Set-CsNetworkRegion** . Para obter instruções, consulte [Deploy regiões de rede, sites e sub-redes em Skype para negócios](../../deploy/deploy-enterprise-voice/deploy-network.md) na documentação de implantação ou consulte o Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
+Para associar um site central do Skype for Business Server a uma região de rede, você especifica o nome do site central, seja usando a seção **configuração de rede** do painel de controle do Skype for Business Server, ou executando o **novo-CsNetworkRegion** ou cmdlets **set-CsNetworkRegion** . Para obter instruções, consulte [implantar regiões de rede, sites e sub-redes no Skype for Business](../../deploy/deploy-enterprise-voice/deploy-network.md) na documentação de implantação ou consulte a documentação do Shell de gerenciamento do Skype for Business Server.
 
 ## <a name="network-sites"></a>Sites de rede
 
 Um site de rede representa uma localização geográfica, como um escritório principal, filiais ou regionais. Cada site de rede deve ser associado a uma região específica de rede.
 
 > [!NOTE]
-> Sites de rede são usadas somente pelos recursos avançados do Enterprise Voice. Eles não são os mesmos sites de filial que você configurar no seu Skype para a topologia de servidor de negócios.
+> Os sites de rede são usados somente pelos recursos avançados de voz da empresa. Eles não são iguais aos dos sites de filiais que você configura na topologia do Skype for Business Server.
 
-Para configurar um site de rede e associá-lo a uma região de rede, você pode usar a seção de **Configuração de rede** do Skype para painel de controle do Business Server, ou execute o Skype para Business Server Management Shell **New-CsNetworkSite** ou ** Set-CsNetworkSite** cmdlets. Para obter detalhes, consulte [Create or Modify um Site de rede](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx) na documentação de implantação ou consulte o Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
+Para configurar um site de rede e associá-lo a uma região de rede, você pode usar a seção **configuração de rede** do painel de controle do Skype for Business Server ou executar o Shell de gerenciamento do Skype for Business Server **New-CsNetworkSite** ou ** Cmdlets Set-CsNetworkSite** . Para obter detalhes, consulte [criar ou modificar um site de rede](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx) na documentação de implantação ou consulte a documentação do Shell de gerenciamento do Skype for Business Server.
 
 ## <a name="identify-ip-subnets"></a>Identifique as subredes IP
 
@@ -60,19 +60,19 @@ Para cada site de rede, você precisará trabalhar com seu administrador de rede
 No exemplo, o site de Nova York na região da América do Norte pode ser atribuído às seguintes sub-redes IP: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Suponha que Bob, que geralmente trabalha em Detroit, viaja para o escritório de Nova York para treinamento. Quando ele liga o computador e se conecta à rede, seu computador terá um endereço IP em um dos quatro intervalos alocados para Nova York, por exemplo 172.29.80.103.
 
 > [!CAUTION]
-> As subredes IP especificadas durante a configuração de rede no servidor devem corresponder ao formato oferecido por computadores clientes para poder ser usado adequadamente pelo bypass de mídia. Um Skype para o cliente de negócios leva seu endereço IP local e mascara o endereço IP com a máscara de sub-rede associada. Ao determinar o ID de bypass associado com cada cliente, o Registrador irá comparar a lista de subredes IP associadas com cada local de rede na subrede oferecida pelo cliente para uma correspondência exata. Por este motivo, é importante que as subredes inseridas durante a configuração de rede no servidor sejam subredes reais ao invés de subredes virtuais. (Se implantar o controle de admissão de chamada, mas o bypass de mídia não, o controle de admissão de chamada funcionará corretamente, mesmo se você configurar o virtuais sub-redes.) Por exemplo, se um Skype para o cliente de negócios faz logon em um computador com um endereço IP de 172.29.81.57 com uma máscara de sub-rede do IP de 255.255.255.0, ele solicitará o ID de desvio que está associado à sub-rede 172.29.81.0. Se a subrede for definida como 172.29.0.0/16, embora o cliente pertença à subrede virtual, o Registrador não irá considerar uma correspondência porque ele está procurando especificamente pela subrede 172.29.81.0. Portanto, é importante que o administrador insere sub-redes exatamente como fornecidos pela Skype para clientes corporativos (que são provisionados com sub-redes durante a configuração de rede, estática ou pelo Dynamic Host Configuration Protocol (DHCP).)
+> As subredes IP especificadas durante a configuração de rede no servidor devem corresponder ao formato oferecido por computadores clientes para poder ser usado adequadamente pelo bypass de mídia. Um cliente Skype for Business leva seu endereço IP local e mascara o endereço IP com a máscara de sub-rede associada. Ao determinar o ID de bypass associado com cada cliente, o Registrador irá comparar a lista de subredes IP associadas com cada local de rede na subrede oferecida pelo cliente para uma correspondência exata. Por este motivo, é importante que as subredes inseridas durante a configuração de rede no servidor sejam subredes reais ao invés de subredes virtuais. (Se você implantar o controle de admissão de chamadas, mas não o bypass de mídia, o controle de admissão de chamadas funcionará corretamente mesmo se você configurar sub-redes virtuais.) Por exemplo, se um cliente Skype for Business entrar em um computador com um endereço IP de 172.29.81.57 com uma máscara de sub-rede IP de 255.255.255.0, ele solicitará o ID de bypass associado ao subnet 172.29.81.0. Se a subrede for definida como 172.29.0.0/16, embora o cliente pertença à subrede virtual, o Registrador não irá considerar uma correspondência porque ele está procurando especificamente pela subrede 172.29.81.0. Portanto, é importante que o administrador insira sub-redes exatamente como é fornecido pelos clientes do Skype for Business (que são provisionados com sub-redes durante a configuração de rede, seja estaticamente ou pelo protocolo DHCP (protocolo de configuração de host dinâmico).)
 
 ## <a name="associating-subnets-with-network-sites"></a>Associando Subredes aos Locais de Rede
 
-Cada subrede na rede corporativa deve ser associado um site de rede (ou seja, cada sub-rede deve ser associada a uma localização geográfica). Essa associação de sub-redes habilita os recursos avançados do Enterprise Voice localizar os pontos de extremidade geograficamente. Por exemplo, localizar os pontos de extremidade permite que o CAC regule o fluxo de áudio e dados de vídeo em tempo real indo e voltando do local de rede.
+Cada subrede na rede corporativa deve ser associado um site de rede (ou seja, cada sub-rede deve ser associada a uma localização geográfica). Essa associação de sub-redes habilita os recursos avançados de voz empresarial para localizar os pontos de extremidade geograficamente. Por exemplo, localizar os pontos de extremidade permite que o CAC regule o fluxo de áudio e dados de vídeo em tempo real indo e voltando do local de rede.
 
-Para associar sub-redes a sites de rede, você poderá usar a seção **Configuração de rede** do Skype para painel de controle do Business Server, ou você pode usar o Skype do Shell de gerenciamento do servidor de negócios. Para obter instruções, consulte [associar uma sub-rede a um Site de rede](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx) na documentação de implantação ou consulte o Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
+Para associar sub-redes a sites de rede, você pode usar a seção **configuração de rede** do painel de controle do Skype for Business Server, ou pode usar o Shell de gerenciamento do Skype for Business Server. Para obter instruções, confira [associar uma sub-rede a um site de rede](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx) na documentação de implantação ou consulte a documentação do Shell de gerenciamento do Skype for Business Server.
 
 ## <a name="see-also"></a>Confira também
 
-[Planejar o controle de admissão de chamada no Skype for Business Server](call-admission-control.md)
+[Planejar o controle de admissão de chamadas no Skype for Business Server](call-admission-control.md)
 
-[Planejamento de serviços de emergência no Skype para Business Server](emergency-services.md)
+[Planejar serviços de emergência no Skype for Business Server](emergency-services.md)
 
-[Planejar o bypass de mídia no Skype para negócios](media-bypass.md)
+[Planejar a bypass de mídia no Skype for Business](media-bypass.md)
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AssociateFrontEndWithEdgePage
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cada pool de Front-Ends pode ter apenas um Servidor de Borda ou pool de Borda associado a ele. Ao habilitar o acesso de usuário externo para um site, você pode dar suporte a usuários remotos. Também é possível habilitar o suporte a usuários federados, o que pode incluir suporte a usuários de determinados provedores de conectividade a redes públicas de mensagens instantâneas (como Windows Live) e suporte a usuários anônimos.
-ms.openlocfilehash: 223a90eba12a5afe959bdccbcbb2f581c3cc0dd9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 09a22537005e5657a5f8481f593a44de07e9bce0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896401"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281308"
 ---
 # <a name="associate-front-end-with-edge"></a>Associar Front-End com Borda
 

@@ -4,34 +4,34 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
-description: 'Resumo: Saiba mais sobre o painel de qualidade de chamada, que é uma ferramenta de relatório do Skype para Business Server.'
-ms.openlocfilehash: c3972b31aa7f54b3a368b0449d4a5750f6b254af
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o painel de qualidade de chamada, que é uma ferramenta de relatório do Skype for Business Server.'
+ms.openlocfilehash: 62fa3fc477e5cafc837d8a500b900ed65c178bf2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930831"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274846"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Painel de qualidade da chamada para Skype for Business Server
  
-**Resumo:** Saiba mais sobre o painel de qualidade de chamada, que é uma ferramenta de relatório do Skype para Business Server.
+**Resumo:** Saiba mais sobre o painel de qualidade de chamada, que é uma ferramenta de relatório para o Skype for Business Server.
  
-O Skype para Business Server chamada qualidade Dashboard (CQD) é uma camada de relatório na parte superior de qualidade da experiência do banco de dados no Monitoring Server Skype para Business Server e o Lync Server 2013. CQD usa o Microsoft SQL Server Analysis Services para fornecer uso agregado e filtragem, bem como informações de qualidade e dinamização no conjunto de dados de chamadas.
+O painel de qualidade de chamada do Skype for Business Server (CQD) é uma camada de relatório sobre o banco de dados de qualidade da experiência no servidor Monitoring no Skype for Business Server e o Lync Server 2013. O CQD usa o Microsoft SQL Server Analysis Services para fornecer informações de uso agregado e de qualidade da chamada, bem como filtragem e dinamização do conjunto de dados.
   
-Os tópicos a seguir estão incluídos nesta seção e devem ser revisados antes de implantar o painel de controle de qualidade de chamada.
+Os tópicos a seguir estão incluídos nesta seção e devem ser revisados antes da implantação do painel de qualidade da chamada.
   
-- [Planejar o painel de controle de qualidade de chamada for Skype para Business Server](plan.md)
+- [Planejar o painel de qualidade de chamada para o Skype for Business Server](plan.md)
     
-- [Implantar o painel de controle de qualidade de chamada para Skype para Business Server](deploy-0.md)
+- [Implantar painel de qualidade de chamada no Skype for Business Server](deploy-0.md)
     
-- [Usar o painel de controle de qualidade de chamada para Skype para o servidor de negócios](use.md)
+- [Usar o painel de qualidade da chamada para o Skype for Business Server](use.md)
     
-- [Desenvolver o painel de controle de qualidade de chamada para Skype para Business Server](develop.md)
+- [Desenvolva o painel de qualidade de chamada para o Skype for Business Server](develop.md)
     
 

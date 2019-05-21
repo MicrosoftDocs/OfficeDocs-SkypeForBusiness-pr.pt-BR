@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeFqdnsSettingsExpander2010
@@ -13,31 +13,31 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 'Para definir as propriedades em configurações externas, configure o seguinte:'
-ms.openlocfilehash: 32ce06451d0cfe6aae5288ff4e6fdf32b7279724
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6b833e89a8e1288af9a203dd5f44201c253ff2f9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926828"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282591"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Expansor de Configurações FQDN de Servidor de Borda para Lync Server 2010
  
 Para definir as propriedades em **configurações externas**, configure o seguinte:
   
-Selecione o **FQDN de habilitar separado e endereço IP para Webconferência e A / V** lida com a caixa de seleção se você deseja definir distintos IP e FQDN do Pool para Webconferência e áudio/vídeo.
+Marque a caixa de seleção **habilitar FQDN e endereço IP separados para Webconferência e A/V,** se você quiser definir endereços IP e FQDN de pool distintos para Webconferência e áudio/vídeo.
   
 > [!NOTE]
-> Se você optar por não marque a caixa de seleção para endereços IP e FQDN separados, você deve fornecer portas distintas para cada um dos três serviços fornecidos pelo servidor de borda. O único nome de domínio totalmente qualificado é configurar é o FQDN associado ao serviço de borda de acesso. 
+> Se você optar por não marcar a caixa de seleção para endereços IP e FQDN separados, será necessário fornecer portas distintas para cada um dos três serviços fornecidos pelo servidor de borda. O único nome de domínio totalmente qualificado que é configurado é o FQDN associado ao serviço de borda de acesso. 
   
-Selecione o **uma / serviço de borda V é habilitado para NAT** caixa de seleção se quiser que A / endereço IP NAT (conversão) e a configuração de endereços de serviço de borda V para usar uma rede.
+Marque a caixa de seleção o **serviço de borda a/v está habilitado para NAT** se você quiser que o serviço de borda a/v Use um endereço IP e uma configuração de NAT (conversão de endereços de rede).
   
-Para os serviços de borda habilitados, você digita um **FQDN do Pool** e uma porta em **portas**
+Para os serviços de borda habilitados, digite um **FQDN do pool** e uma porta em **portas**
   
-- Defina o FQDN de Pool do **serviço de borda de acesso** e uma porta que identifique exclusivamente o serviço.
+- Defina o FQDN do pool de **serviços de borda de acesso** e uma porta que identifique exclusivamente o serviço.
     
-- Definir o FQDN de Pool do **serviço de borda de webconferência** (se habilitar separar o FQDN e endereço IP para Webconferência e A / V não estiver selecionado) e uma porta que identifique exclusivamente o serviço.
+- Defina o FQDN do pool de **serviços de borda** de Webconferência (se habilitar o FQDN e o endereço IP separados para Webconferência e a/V não estiver selecionado) e uma porta que identifique exclusivamente o serviço.
     
-- Definir o **uma / serviço de borda V** FQDN do Pool (se habilitar separar o FQDN e endereço IP para Webconferência e A / V não estiver selecionado) e uma porta que identifique exclusivamente o serviço.
+- Defina o FQDN do pool de **serviços de borda a/V** (se habilitar FQDN e o endereço IP separados para Webconferência e a/V não estiver selecionado) e uma porta que identifique exclusivamente o serviço.
     
   **OK** Aceita e confirma as alterações na caixa de diálogo.
   

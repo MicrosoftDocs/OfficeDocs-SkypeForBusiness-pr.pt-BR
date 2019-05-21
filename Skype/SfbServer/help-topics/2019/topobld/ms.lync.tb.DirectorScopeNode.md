@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.DirectorScopeNode
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nó mostra o FQDN (nome de domínio totalmente qualificado), as portas e o repositório de arquivos associado a este pool de Diretores. Você pode realizar as seguintes ações:'
-ms.openlocfilehash: 79b013c1d03c1168fabb46ce891b2bf791b98d91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 99e543f33d6abefa9d491adbef71efddd16771ba
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915941"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280519"
 ---
 # <a name="director-scope-node"></a>Nó de Escopo de Diretor
  

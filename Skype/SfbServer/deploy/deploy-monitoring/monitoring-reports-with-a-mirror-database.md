@@ -1,29 +1,29 @@
 ---
-title: Associar relatórios de monitoramento a um banco de dados de espelho em Skype para Business Server
+title: Associar relatórios de monitoramento a um banco de dados espelho no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: 'Resumo: Saiba como associar relatórios de monitoramento de um banco de dados de espelho usado pelo Skype para Business Server.'
-ms.openlocfilehash: c598e8c14c5a592203501ca40264232ce344b2bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como associar relatórios de monitoramento a um banco de dados espelho usado pelo Skype for Business Server.'
+ms.openlocfilehash: 0727a278b87edd0b3666b04d169dcd3460c8215c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894532"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273963"
 ---
-# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Associar relatórios de monitoramento a um banco de dados de espelho em Skype para Business Server 
+# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Associar relatórios de monitoramento a um banco de dados espelho no Skype for Business Server 
  
-**Resumo:** Saiba como associar relatórios de monitoramento de um banco de dados de espelho usado pelo Skype para Business Server.
+**Resumo:** Saiba como associar relatórios de monitoramento a um banco de dados espelho usado pelo Skype for Business Server.
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>Monitoramento de relatórios com um banco de dados espelho
 
-Se você configurar um espelho para o seu banco de dados de monitoramento, esse banco de dados espelho assumirá a função de banco de dados primário em caso de failover. No entanto, se você usar o Skype para relatórios de monitoramento de servidor de negócios e ocorre um failover, você pode achar que seus relatórios de monitoramento não estiver se conectando ao banco de dados espelho. Isso ocorre porque quando você instala os Relatórios de Monitoramento, apenas o local do banco de dados primário é especificado; você não especifica o local do banco de dados espelho.
+Se você configurar um espelho para o seu banco de dados de monitoramento, esse banco de dados espelho assumirá a função de banco de dados primário em caso de failover. No entanto, se você usar os relatórios de monitoramento do Skype for Business Server e ocorrer um failover, pode ser que seus relatórios de monitoramento não estejam se conectando ao banco de dados espelho. Isso ocorre porque quando você instala os Relatórios de Monitoramento, apenas o local do banco de dados primário é especificado; você não especifica o local do banco de dados espelho.
   
 Para que o failover dos Relatórios de Monitoramento seja executado automaticamente no banco de dados espelho, adicione esse banco de dados como um "parceiro de failover" aos dois bancos de dados usados pelos Relatórios de Monitoramento (um banco de dados para dados de Registro de Detalhe das Chamadas e o outro para dados de Qualidade da Experiência (QoE)). (Observe que essa etapa deve ser executada após a instalação dos Relatórios de Monitoramento.) Você pode adicionar as informações de parceiro de failover editando manualmente os valores da cadeia de conexão usados por esses dois bancos de dados. Para fazer isso, siga este procedimento:
   
@@ -41,7 +41,7 @@ Para que o failover dos Relatórios de Monitoramento seja executado automaticame
     
      **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
-2. Depois que você acessar a home page do Reporting Services, clique em **ServerReports** e em **Reports_Content**. Isso levará você à página **Reports_Content** para o Skype para relatórios de monitoramento de servidor de negócios.
+2. Depois que você acessar a home page do Reporting Services, clique em **ServerReports** e em **Reports_Content**. Isso o levará até a página **Reports_Content** para os relatórios de monitoramento do Skype for Business Server.
     
 3. Na página **Reports_Content**, clique na fonte de dados **CDRDB**.
     
@@ -67,6 +67,6 @@ Para que o failover dos Relatórios de Monitoramento seja executado automaticame
     
 ## <a name="see-also"></a>Confira também
 
-[Instalar os relatórios de monitoramento em Skype para Business Server](install-monitoring-reports.md)
+[Instalar relatórios de monitoramento no Skype for Business Server](install-monitoring-reports.md)
   
-[Usando relatórios de monitoramento no Skype para Business Server](../../manage/health-and-monitoring/monitoring-reports.md)
+[Usando relatórios de monitoramento no Skype for Business Server](../../manage/health-and-monitoring/monitoring-reports.md)

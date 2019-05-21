@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoicePolicyUsageEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1f9b1f38-3255-43d0-8db6-e5790d4cfda9
-description: UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)
-ms.openlocfilehash: 10e9a28ce6d3a6d78e462fc97c06ccd360bc79fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: UNRESOLVED_TOKEN_VAL (¤ bigfin_UI_help_intro)
+ms.openlocfilehash: 1ff96726bdf605670343e41864a3662b60b500b6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888461"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281154"
 ---
 # <a name="voice-policy-create-new-or-edit-existing-pstn-usage-record"></a>Política de Voz: Criar Nova ou Editar Registro de Uso PSTN Existente
 
-UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)
+UNRESOLVED_TOKEN_VAL (¤ bigfin_UI_help_intro)
 
 - [Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
@@ -30,5 +30,5 @@ UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)
 
 - [Exibir registros de uso de PSTN no Skype for Business 2015](../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte [gerenciar o Skype for Business server 2015](../../manage/manage.md).
 

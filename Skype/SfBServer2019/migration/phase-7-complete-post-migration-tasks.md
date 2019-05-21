@@ -1,24 +1,24 @@
 ---
-title: Fase 7 concluir tarefas pós-migração
+title: Fase 7 conclua as tarefas posteriores à migração
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Os tópicos desta seção descrevem as tarefas que você precisará executar depois de concluir a migração para o Skype para Business Server 2019.
-ms.openlocfilehash: ef3a1f4b6d7262d223e78ebfae53e02203e9248e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Os tópicos desta seção descrevem as tarefas que você precisará executar após a conclusão da migração para o Skype for Business Server 2019.
+ms.openlocfilehash: 34977674966ab7c52e14a3036edc71e1e2f44469
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231448"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273858"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>Fase 7: Concluir tarefas pós-migração
 
-Os tópicos desta seção descrevem as tarefas que você precisará executar depois de concluir a migração para o Skype para Business Server 2019.
+Os tópicos desta seção descrevem as tarefas que você precisará executar após a conclusão da migração para o Skype for Business Server 2019.
   
 ## <a name="in-this-section"></a>Nesta seção
 
@@ -38,7 +38,7 @@ Os tópicos desta seção descrevem as tarefas que você precisará executar dep
     
 - [Configurar servidores de aplicativo confiáveis](configure-trusted-application-servers.md)
     
-- [Implantar o Skype para clientes corporativos Server 2019](deploy-clients.md)
+- [Implantar clientes do Skype for Business Server 2019](deploy-clients.md)
     
 - [Conectar um aparelho de filial persistente](connect-a-survivable-branch-appliance.md)
     

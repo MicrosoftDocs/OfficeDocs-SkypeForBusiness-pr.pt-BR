@@ -4,23 +4,23 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
-description: 'Resumo: Revise amostras de desenvolvimento e tutorial para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: f227785cea2291b0314d309b0929f0a55948ba65
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: revise um tutorial e exemplos de desenvolvimento para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
+ms.openlocfilehash: 4eac679950abdff5041bdfb63b633287d06a11e7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930564"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274825"
 ---
 # <a name="cqd-development-samples"></a>Amostras de Desenvolvimento para o CQD
 
-**Resumo:** Revise as amostras de desenvolvimento e tutorial para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
+**Resumo:** Revise um tutorial e exemplos de desenvolvimento para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
 
 Este artigo apresenta um tutorial e amostras de desenvolvimento para o Painel de Qualidade da Chamada (CQD).
 
@@ -32,21 +32,21 @@ Tutorial: apresentação da criação de relatórios personalizados com o Servi�
 
 O CQD oferece acesso rápido e fácil às informações de qualidade da chamada agregadas nas implantações locais do Skype for Business Server. O CQD consiste em três componentes: o banco de dados do Arquivamento QoE, o Cubo e o Portal. O Portal é a camada de apresentação principal e pode ser dividido nos três componentes abaixo:
 
-1. Serviço de dados, que é acessível para usuários autenticados por meio da [API de dados para chamar qualidade Dashboard (CQD) no Skype para Business Server](data-api.md).
+1. Serviço de dados, que é acessível para usuários autenticados por meio da [API de dados para o painel de qualidade de chamada (CQD) no Skype for Business Server](data-api.md).
 
-2. Serviço de repositório, que é acessível para usuários autenticados por meio da [API de repositório para chamar qualidade Dashboard (CQD) no Skype para Business Server](repository-api.md).
+2. Serviço de repositório, que é acessível para usuários autenticados por meio da [API do repositório para o painel de qualidade da chamada (CQD) no Skype for Business Server](repository-api.md).
 
 3. Portal da Web, que é a interface baseada em HTML5 que os usuários do CQD veem e com a qual interagem. Ele pode ser acessado por usuários autenticados.
 
-Os relatórios mostrados no portal da web são agrupados em "conjuntos de relatório". A figura mostra um conjunto de relatórios com dois relatórios. Cada relatório do painel abaixo mostra os resultados da consulta sobre o número de chamadas boas, chamadas ruins e porcentagem de chamadas ruins em vários meses, com vários filtros aplicados. 
+Os relatórios exibidos no portal da Web são agrupados em "conjuntos de relatórios". A figura mostra um conjunto de relatórios com dois relatórios. Cada relatório do painel abaixo mostra os resultados da consulta sobre o número de chamadas boas, chamadas ruins e porcentagem de chamadas ruins em vários meses, com vários filtros aplicados. 
 
-![Exemplo de relatório de CQD](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
+![Relatório de exemplo CQD](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
 O CQD é criado de acordo com a Metodologia de Qualidade de Chamada (CQM), portanto, o conjunto padrão de relatórios é projetado para se alinhar ao fluxo de investigação introduzido pela CQM. Os usuários também têm a flexibilidade para editar ou criar relatórios personalizados para atender às suas necessidades. No entanto, como existem várias maneiras para visualizar os dados, a visualização fornecida pelo CQD pode não atender completamente às necessidades de cada usuário. Nessas situações, um usuário pode aproveitar as APIs de Dados e de Repositório para criar páginas de relatório personalizadas. Veremos alguns exemplos neste tutorial.
 
 ### <a name="how-the-dashboard-consumes-the-data-service"></a>Como o painel usa o serviço de dados
 
-Quando você navegar até a página inicial CQD (por exemplo, http://localhost/cqd), defina o relatório e relatórios correspondentes para um usuário autorizado e autenticado serão recuperados do serviço de repositório. Uma URL completa será construída contra a ID do conjunto de relatório e o ano / mês (ID do conjunto de relatório é o número de inteiro após a seção '/ #/' na URL e, por padrão o ano-mês atual foi acrescentado ao final da identificação do conjunto de relatório após a barra). As definições de relatório são armazenadas no formato JSON e, quando recuperadas do Serviço de Repositório, serão usadas como entrada do Serviço de Dados. O Serviço de Dados gera consultas de expressões multidimensionais (MDX) com base na entrada e executa essas consultas de MDX no Cubo para recuperar os dados de cada relatório. 
+Ao navegar para a home page do CQD ( http://localhost/cqd)por exemplo, o conjunto de relatórios e os relatórios correspondentes para um usuário autenticado e autorizado serão recuperados do serviço de repositório. Uma URL completa será criada a partir da ID do conjunto de relatórios e do ano-mês (ID do conjunto de relatórios é o número inteiro após a seção "/#/" na URL e, por padrão, o ano atual-mês é acrescentado no final da ID do conjunto de relatórios após a barra). As definições de relatório são armazenadas no formato JSON e, quando recuperadas do Serviço de Repositório, serão usadas como entrada do Serviço de Dados. O Serviço de Dados gera consultas de expressões multidimensionais (MDX) com base na entrada e executa essas consultas de MDX no Cubo para recuperar os dados de cada relatório. 
 
 ### <a name="building-customized-reports"></a>Criar relatórios personalizados
 
@@ -60,7 +60,7 @@ Com o Portal fornecido pelo CQD, um usuário precisaria navegar até vários rel
 
 Vejamos um exemplo simples primeiro. Se quisermos mostrar a contagem de Fluxos de áudio bons e fluxo de áudio ruins de fevereiro de 2015 em uma página HTML como a figura:
 
-![Exemplo de relatório de CQD](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
+![Relatório de exemplo CQD](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
 
 É preciso enviar uma chamada para o Serviço de Dados com os parâmetros corretos e mostrar os resultados da consulta em uma tabela HTML. A seguir, uma amostra do código JavaScript:
 
@@ -98,7 +98,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 Este exemplo pode ser segmentado em três etapas:
 
-1. Construa a consulta (no exemplo que isso é definido na variável 'consulta'). A consulta é definida como um objeto JSON, que inclui os seguintes dados:
+1. Construa a consulta (no exemplo, que é definida na variável ' Query '). A consulta é definida como um objeto JSON, que inclui os seguintes dados:
 
    a. Zero ou mais dimensões. Cada dimensão é indicada por um DataModelName.
 
@@ -108,7 +108,7 @@ Este exemplo pode ser segmentado em três etapas:
 
    - Value (o valor que será comparado pelo operando).
 
-   - Operando (tipo de comparação, 0 significa "Igual a").
+   - Operando (tipo de comparação, 0 significa "igual").
 
      c. Uma ou mais medidas.
 
@@ -116,17 +116,17 @@ Este exemplo pode ser segmentado em três etapas:
 
    a. url (que deve ser http://[ServerName]/QoEDataService/RunQuery).
 
-   b. dados (isto é a representação de cadeia de caracteres do objeto JSON definido na variável de 'consulta'). O Serviço de Dados retornará resultados da consulta como um parâmetro da função de retorno de chamada para o sucesso.
+   b. dados (essa é a representação de cadeia de caracteres do objeto JSON definido na variável "consulta"). O Serviço de Dados retornará resultados da consulta como um parâmetro da função de retorno de chamada para o sucesso.
 
-   c. Digite (para QoEDataService, RunQuery aceita somente ' POST' solicitações).
+   c. tipo (para QoEDataService, RunQuery aceita apenas solicitações ' POST ').
 
    d. async (um sinalizador que indica se a chamada AJAX deve ser síncrona ou assíncrona).
 
-   f. contentType (deve ser "application json").
+   vocálico. contentType (deve ser "Application/JSON").
 
-   f. success (função de retorno de chamada para quando a chamada AJAX for concluída com sucesso).
+   letra. success (função de retorno de chamada para quando a chamada AJAX for concluída com sucesso).
 
-   g. error (função de tratamento de erros para quando a chamada AJAX falhar).
+   p. error (função de tratamento de erros para quando a chamada AJAX falhar).
 
 3. Colocar dados em elementos div no HTML (no exemplo, isso é feito através da chamada de função anônima depois que a solicitação AJAX for concluída com êxito).
 
@@ -201,7 +201,7 @@ Neste exemplo, criaremos uma página da Web como a que é mostrada na figura, em
 
 Para criar a ferramenta de visualização da definição do relatório, precisamos enviar chamadas para o Serviço de Repositório para recuperar as representações da cadeia de caracteres JSON das definições de cada conjunto de relatórios que quisermos. A API de Repositório retornará a definição do conjunto de relatórios com base em determinado ID de conjunto de relatórios. 
 
-A seguir, apresentamos um exemplo rápido, o código contém um bloco que é um exemplo simples para enviar uma consulta ao Serviço de Repositório para obter o conteúdo de um item do repositório com base em seu identificador. E a próxima parte do código (método processReportSetData) está enviando chamadas AJAX para obter a definição de cada relatório dentro desse conjunto de relatórios. Como o ID no portal da Web do CQD é o ID de um conjunto de relatórios, a chamada AJAX retornará um item de conjunto de relatórios. Mais detalhes sobre a API do repositório e especificamente, GetItems, podem ser encontrados na [Obter itens](get-items.md). 
+A seguir, apresentamos um exemplo rápido, o código contém um bloco que é um exemplo simples para enviar uma consulta ao Serviço de Repositório para obter o conteúdo de um item do repositório com base em seu identificador. E a próxima parte do código (método processReportSetData) está enviando chamadas AJAX para obter a definição de cada relatório dentro desse conjunto de relatórios. Como o ID no portal da Web do CQD é o ID de um conjunto de relatórios, a chamada AJAX retornará um item de conjunto de relatórios. Mais detalhes sobre a API do repositório e, especificamente, GetItems, podem ser encontrados em [obter itens](get-items.md). 
 
 ```
 <!DOCTYPE html>
@@ -310,13 +310,13 @@ A seguir, apresentamos um exemplo rápido, o código contém um bloco que é um 
 </html>
 ```
 
-O processo acima resultará em uma página da Web como a da figura (sem a definição de relatório na visita inicial). Obter a ID do conjunto de relatório do portal CQD (ele é depois '/ #/' entrar no portal CQD URL (ex.: na primeira figura o relatório de identificação do conjunto é 3024) e colocar a ID do conjunto de relatório para a seção de entrada desta página da web. Pressione o botão "carga" e consulte a definição completa (medidas, dimensões, listas de filtros) do conjunto de relatório.
+O processo acima resultará em uma página da Web como a da figura (sem a definição de relatório na visita inicial). Obter a ID do conjunto de relatórios do portal CQD (é após a entrada "/#/" entrar na URL do portal do CQD (por exemplo, na primeira figura, a ID do conjunto de relatórios é 3024) e colocar essa ID do conjunto de relatórios na seção de entrada desta página da Web. Pressione o botão "carregar" e veja a definição completa (medidas, dimensões, listas de filtros) do conjunto de relatórios.
 
-Em resumo, a fim de obter rapidamente a definição completa de um conjunto de report/relatório. As etapas são as seguintes:
+Em resumo, a fim de obter rapidamente a definição completa de um relatório/conjunto de relatórios. As etapas são as seguintes:
 
-1. Vá para o Portal e use o editor de consulta para personalizar um relatório (clique "Editar" botão acima de um relatório para editar, adicionar, remover filtros/de dimensões de medidas e, então, salve o relatório).
+1. Vá para o portal e use o editor de consultas para personalizar um relatório (clique no botão "Editar" acima de um relatório para editar, adicionar, remover medições/Dimensões/filtros e, em seguida, salvar o relatório).
 
-2. Obter a identificação de conjunto de relatório da URL (o inteiro após '/ #/' entrar na URL).
+2. Obtenha a ID do conjunto de relatórios da URL (o número inteiro após a URL de entrada '/#/').
 
 3. Lance a página da Web de Definição do Relatório criada no Exemplo 2 e insira o ID do conjunto de relatórios para recuperar a definição completa de um conjunto de relatórios (para uso nas chamadas da API de Dados).
 
@@ -328,9 +328,9 @@ Neste caso, precisamos atualizar a lista de medidas e dimensões. O caminho para
 
 Aqui estão as etapas detalhadas para acessar a página de scorecard na figura da amostra apresentada no Exemplo 1:
 
-1. Atualizar medições na variável de 'consulta' `[Measures].[Audio Good Streams JPDR Count]` e `[Measures].[Audio Poor Streams JPDR Count]` para `[Measures].[AudioPoorJPDRPercentage]`. 
+1. Atualize medições na variável ' consulta ' de `[Measures].[Audio Good Streams JPDR Count]` e `[Measures].[Audio Poor Streams JPDR Count]` para. `[Measures].[AudioPoorJPDRPercentage]` 
 
-2. Atualize os filtros. Os dados JSON para filtros no exemplo 1 tem um filtro, que é definido na dimensão `[StartDate].[Month]`. Como Filters é uma matriz JSON, dimensões adicionais podem ser adicionadas à lista de filtros. Por exemplo, para obter o cliente do servidor em chamadas com fio para "currentMonth", podemos deve ter os seguintes filtros:
+2. Atualize os filtros. Os dados JSON para filtros no exemplo 1 têm um filtro, que é definido na dimensão `[StartDate].[Month]`. Como Filters é uma matriz JSON, dimensões adicionais podem ser adicionadas à lista de filtros. Por exemplo, para obter o cliente do cliente em chamadas com fio internas para "currentMonth", devemos ter os seguintes filtros:
 
    ```
    Filters: [
@@ -347,14 +347,14 @@ Aqui estão as etapas detalhadas para acessar a página de scorecard na figura d
    ],
    ```
 
-   Aqui a dimensão `[Scenarios].[ScenarioPair]` for definido como igual `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. O `[Scenario.][ScenarioPair]` é uma dimensão especial criada para simplificar a criação de relatórios. Ele tem seis valores correspondentes a `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Portanto, em vez de usar uma combinação de seis filtros para definir um cenário, basta usar um filtro. No nosso exemplo, o valor `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` converte o cenário onde: primeiro é servidor, segundo não for server, primeiro está dentro, segundo está dentro, primeiro tipo de conexão é por fio, e o segundo tipo de conexão é por fio, qual é a definição exata de " Servidor-cliente-Inside com fio".
+   Aqui, a `[Scenarios].[ScenarioPair]` dimensão está definida como `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`Equals. A `[Scenario.][ScenarioPair]` é uma dimensão especial criada para simplificar a criação de relatórios. Ele tem seis valores correspondentes a `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Portanto, em vez de usar uma combinação de seis filtros para definir um cenário, basta usar um filtro. Em nosso exemplo, o valor `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` é convertido para o cenário em que: o primeiro é o servidor, o segundo não é um servidor, o segundo está dentro, o segundo está dentro, o primeiro tipo de conexão é com fio, e o segundo tipo de conexão é com fio, que é a definição exata de " Server-Client-Inside Wired ".
 
 3. Crie um conjunto de filtros por cenário. Cada linha do scorecard, na figura, representa um cenário diferente, que será um filtro diferente (enquanto as dimensões e as medições permanecem as mesmas). 
 
 4. Analise os resultados das chamadas AJAX e coloque-os na posição correta na tabela. Como isso é majoritariamente manipulação de HTML e JavaScript, não entraremos em detalhes aqui. Em vez disso, o código é fornecido no Anexo A.
 
     > [!NOTE]
-    >  Se o compartilhamento de recursos entre origens (CORS) estiver habilitado, os usuários podem ocorrer erros like "sem cabeçalho 'Acesso controle-permitir-origem' está presente no recurso solicitado. Origem 'nulo', portanto, não é permitida acesso". Para resolver o problema, coloque o arquivo HTML sob a pasta onde o Portal é instalado (por padrão, ele deve ser `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`. Então acessar o html por meio de qualquer navegador com a URL `http://<servername>/cqd/<html_file_name>`. (É a URL padrão do painel CQD local `http://<servername>/cqd.`) 
+    >  Se o compartilhamento de recursos entre origens (CORS) estiver habilitado, os usuários poderão encontrar erros, como o cabeçalho "não" acesso-controle-permitir-origem está presente no recurso solicitado. A origem ' NULL ', portanto, não tem permissão de acesso ". Para resolver o problema, coloque o arquivo HTML na pasta em que o portal está instalado (por padrão, deve estar `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`. Em seguida, acesse o HTML por meio de `http://<servername>/cqd/<html_file_name>`qualquer navegador com a URL. (A URL padrão para o painel CQD local `http://<servername>/cqd.`é) 
 
 ### <a name="appendix-a"></a>Anexo A
 

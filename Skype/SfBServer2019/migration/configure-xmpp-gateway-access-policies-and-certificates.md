@@ -4,47 +4,47 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'Federação XMPP define uma implantação externa com base nas mensagens extensível e protocolo de presença (XMPP). Uma configuração de XMPP permite que os usuários acessem usuários de domínio XMPP por:'
-ms.openlocfilehash: 65ef8904660eaa75ddd10238a6561ea91b9f7278
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'A Federação XMPP define uma implantação externa baseada no protocolo de mensagens extensíveis e presença (XMPP). Uma configuração do XMPP permite que os usuários acessem os usuários de domínio do XMPP:'
+ms.openlocfilehash: c5231016729cd40619bbcfe48ebfcf59eff9182a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238658"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275570"
 ---
 # <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>Configurar políticas e certificados de acesso ao gateway de XMPP
 
-Federação XMPP define uma implantação externa com base nas mensagens extensível e protocolo de presença (XMPP). Uma configuração de XMPP permite que os usuários acessem usuários de domínio XMPP por:
+A Federação XMPP define uma implantação externa baseada no protocolo de mensagens extensíveis e presença (XMPP). Uma configuração do XMPP permite que os usuários acessem os usuários de domínio do XMPP:
   
-- IM e presença - apenas entre duas pessoas
+- Mensagem instantânea e presença-pessoa somente para pessoa
     
-- Criação de contatos federados XMPP no Skype para o cliente de negócios
+- Criação de contatos federados do XMPP no cliente Skype for Business
     
-Quando você configura políticas para suporte de XMPP federados parceiros, as diretivas serão aplicadas aos usuários de domínios XMPP federado, mas não para usuários de protocolo de iniciação de sessão (SIP) serviço (IM) de mensagens instantâneas provedores ou SIP domínios federados. Você configurar um parceiro federado de XMPP para cada domínio federado XMPP que você deseja permitir que os usuários adicionar contatos e comunique-se com. Depois que as diretivas estão no lugar, você precisa configurar os certificados do Gateway XMPP. 
+Quando você configura políticas para dar suporte a XMPP parceiros federados, as políticas se aplicam a usuários de domínios federados XMPP, mas não aos usuários de provedores de serviços de mensagens instantâneas (IM) do protocolo de início de sessão (IM) ou domínios do SIP federado. Você configura um parceiro federado do XMPP para cada domínio federado XMPP que você deseja permitir que os usuários adicionem contatos e se comuniquem. Depois que as políticas estiverem em vigor, você precisará configurar os certificados de gateway do XMPP. 
   
 > [!NOTE]
-> Funcionalidade XMPP foi preterida no Skype para Business Server 2019, mas pode ser continuada em um servidor herdado em coexistência com o Skype para Business Server 2019. Certificar-se de que você já implantou o servidor herdado (Skype para Business Server 2015 / Lync Server 2013) Gateway XMPP e configurar as políticas de acesso para habilitar usuários para o Gateway de XMPP herdado. Para obter detalhes, consulte [Migrando federação de XMPP](migrating-xmpp-federation.md). 
+> A funcionalidade do XMPP foi preterida no Skype for Business Server 2019, mas pode continuar em um servidor herdado em coexistência com o Skype for Business Server 2019. Verifique se você já implantou o servidor herdado (Skype for Business Server 2015/Lync Server 2013) XMPP o gateway e configurou as políticas de acesso para permitir aos usuários do gateway herdado do XMPP. Para obter detalhes, consulte Migrando a [Federação do XMPP](migrating-xmpp-federation.md). 
   
-### <a name="configure-an-external-access-policy-to-enable-users-for-legacy-xmpp-gateway"></a>Configurar uma política de acesso externo para habilitar usuários para o Gateway de XMPP herdado
+### <a name="configure-an-external-access-policy-to-enable-users-for-legacy-xmpp-gateway"></a>Configurar uma política de acesso externo para permitir que os usuários do gateway herdado XMPP
 
-1. Abra o Skype herdado para o painel de controle do servidor de negócios.
+1. Abra o painel de controle herdado do Skype for Business Server.
     
-2. Na barra de navegação à esquerda, clique em **federação e acesso externo**e, em seguida, clique em **Política de acesso externo**.
+2. Na barra de navegação à esquerda, clique em **Federação e acesso externo**e, em seguida, clique em **política de acesso externo**.
     
 3. Clique em **Novo** e em **Política do usuário**.
     
-4. Insira um nome para a política de usuário de acesso externo.
+4. Digite um nome para a política de usuário de acesso externo.
     
 5. Forneça uma descrição para a política de usuário de acesso externo.
     
-6. Selecione **Habilitar comunicações com usuários federados**.
+6. Selecione **habilitar comunicações com usuários federados**.
     
-7. Selecione **Habilitar comunicações com XMPP usuários federados**.
+7. Selecione **habilitar comunicações com usuários federados do XMPP**.
     
-8. Clique em **Confirmar** para salvar suas alterações na política de site ou usuário. 
+8. Clique em **confirmar** para salvar as alterações no site ou na política de usuário. 
     
 

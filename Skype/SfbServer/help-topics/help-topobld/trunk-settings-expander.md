@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.TrunkSettingsExpander
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 'Para editar ou modificar as configurações de um tronco SIP, faça o seguinte:'
-ms.openlocfilehash: f36de72ee845f9e41f51a6982ef85de76bd8be55
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5b6c0384e2297f8bfd93ea493416fc7eea271033
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906830"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282214"
 ---
 # <a name="trunk-settings-expander"></a>Expansor de Configurações de Tronco
 
@@ -35,14 +35,14 @@ Para editar ou modificar as configurações de um tronco SIP, faça o seguinte:
  **Servidor de mediação associado**: selecione um servidor de mediação existente na implantação para associá-lo ao tronco SIP.
 
 > [!NOTE]
-> Somente o tronco raiz pode ser associado um Lync Server 2010 ou o servidor de mediação do Lync Server 2013.
+> Somente o tronco raiz podem ser associados a um servidor do Lync Server 2010 ou ao Lync Server 2013 Media Server.
 
- **Porta do servidor de mediação associado**: um valor necessário, definido como o valor que o servidor de mediação é configurado para escutar em.
+ **Porta do servidor de mediação associada**: um valor obrigatório; isso é definido como o valor que o servidor de mediação está configurado para escuta.
 
 ![Expansor de Configurações de Tronco](../../media/Trunk_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>Confira também
 
-[Lista de verificação de implantação de troncos SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[Lista de verificação de implantação de entroncamento SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
 
-[Componentes e topologias para tronco SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
+[Componentes e topologias para entroncamento SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
