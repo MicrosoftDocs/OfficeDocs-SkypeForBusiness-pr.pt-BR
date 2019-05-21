@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,22 +24,22 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para a Suíça.
-ms.openlocfilehash: cda107fdd1b807d0df1f9f7c48548e4e14f9ecb5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Suíça.
+ms.openlocfilehash: 1586b0c538b8fb8ee87343d2fda2f5535e3bb6c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221951"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282774"
 ---
 # <a name="availability-in-switzerland"></a>Disponibilidade na Suíça
 
 > [!NOTE]
-> Você pode obter os números de **serviço** na Suíça para uso com a conferência, atendedor automático e filas de chamada, mas não é possível obter os números de **usuário** na Suíça, como planos de chamada não estão disponíveis.
+> Você pode obter números de **serviço** na Suíça para uso com a conferência, o atendedor automático e as filas de chamadas, mas não é possível obter números de **usuário** na Suíça, pois os planos de chamada não estão disponíveis.
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para a Suíça.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Suíça.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 

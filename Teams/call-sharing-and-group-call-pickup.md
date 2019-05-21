@@ -12,48 +12,48 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Compartilhamento de chamadas e retirada de chamada do grupo, que permitem aos usuários compartilhar chamadas recebidas com colegas, de forma que as chamadas podem ser capturadas quando o usuário não está disponível.
-ms.openlocfilehash: e822d06e48f3d7df548f0fd0d04645e7e9328598
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Compartilhamento de chamadas e retirada de chamadas em grupo permitem que os usuários compartilhem chamadas com colegas para que as chamadas possam ser capturadas quando o usuário não estiver disponível.
+ms.openlocfilehash: 02c6605f3a5ea1df3457eaadea9956727431a827
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211819"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283475"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartilhamento de chamadas e atendimento de chamada em grupo no Microsoft Teams
 
-O compartilhamento de chamada e o grupo de chamada pickup recursos de compartilhamento de permitem que os usuários do Microsoft Teams seu as chamadas de entrada com colegas para que os colegas podem atender as chamadas que ocorrem enquanto o usuário não está disponível.
+Os recursos de compartilhamento de chamadas e retirada de chamadas de grupo do Microsoft Teams permitem que os usuários compartilhem suas chamadas de entrada com colegas para que os colegas possam atender chamadas que ocorrem enquanto o usuário está indisponível.
 
-Retirada de chamada do grupo é menos interrupções para destinatários que outras formas de chamada de compartilhamento (por exemplo, encaminhamento de chamadas ou toque simultâneo) porque os usuários podem configurar como desejam ser notificado sobre uma chamada de entrada compartilhada (por meio de notificação de áudio e vídeo, apenas, visual ou faixas do aplicativo de equipes em), e eles podem decidir atendê-la.
+O recebimento de chamadas em grupo é menos prejudicial aos destinatários do que outras formas de compartilhamento de chamadas (como encaminhamento de chamadas ou toque simultâneo) porque os usuários podem configurar como querem ser notificados sobre uma chamada compartilhada de entrada (via áudio e notificação Visual, somente Visual, ou faixa no aplicativo Teams) e elas podem decidir se devem ser respondidas.
 
-Para compartilhar chamadas com outras pessoas, um usuário cria um grupo de chamada e adiciona os usuários que desejam compartilhar suas chamadas com. Em seguida, eles escolher um toque simultâneo ou encaminham configuração. Para obter detalhes, consulte [chamada Toque simultâneo e de encaminhamento em equipes](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) .
+Para compartilhar chamadas com outras pessoas, um usuário cria um grupo de chamada e adiciona os usuários com quem deseja compartilhar suas chamadas. Em seguida, escolha uma configuração de toque ou encaminhamento simultânea. Consulte [encaminhamento de chamadas e toque simultâneo no Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) para obter detalhes.
 
 > [!IMPORTANT]
-> Membros do grupo de chamada, o proprietário do grupo de chamada e os usuários devem estar no modo somente as equipes de implantação. Para obter mais detalhes sobre modos de implantação de equipes, consulte [entender as equipes da Microsoft e Skype para interoperabilidade e coexistência de negócios](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Os usuários, o proprietário do grupo de chamadas e os membros do grupo de chamadas devem estar no modo de implantação do teams only. Para obter mais detalhes sobre os modos de implantação do Teams, consulte [entender o Microsoft Teams e a coexistência e interoperabilidade do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
-## <a name="license-required"></a>É necessária uma licença
+## <a name="license-required"></a>Licença necessária
 
-Os usuários precisam ser habilitada para configurar e usar o compartilhamento de chamada e chamada retirada de grupo do Enterprise Voice. Para obter detalhes adicionais sobre o modelo de licenciamento, consulte [Licenciamento do Office 365 para equipes da Microsoft](office-365-licensing.md).
+Os usuários devem ter o Enterprise Voice habilitado para configurar e usar o compartilhamento de chamadas e a retirada de chamadas em grupo. Para obter detalhes adicionais sobre o modelo de licenciamento, consulte [Licenciamento do Office 365 para Microsoft Teams](office-365-licensing.md).
 
-## <a name="configure-group-call-pickup"></a>Configurar a retirada de chamada de grupo
+## <a name="configure-group-call-pickup"></a>Configurar a retirada de chamadas em grupo
 
-Para configurar a retirada de chamada do grupo, um usuário configura pela primeira vez um grupo de chamada (isso não é o mesmo como um grupo de segurança ou de um grupo do Office 365) e, em seguida, adiciona os usuários que desejam compartilhar suas chamadas com. Em seguida, eles escolher um toque simultâneo ou configuração de encaminhamento de chamadas. Para obter mais informações e procedimentos passo a passo, consulte a [chamada Toque simultâneo e de encaminhamento em equipes](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
+Para configurar o recebimento de chamadas em grupo, um usuário primeiro configura um grupo de chamadas (isso não é o mesmo que um grupo de segurança ou um grupo do Office 365) e, em seguida, adiciona os usuários com quem deseja compartilhar suas chamadas. Em seguida, eles escolhem uma configuração de toque simultâneo ou encaminhamento de chamadas. Para obter mais informações e procedimentos passo a passo, consulte encaminhamento de [chamadas e toque simultâneo no Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
 
-Chamar a criação de grupo e notificação preferências são recursos controlado pelo usuário; os administradores não devem configurar esses recursos para seus usuários. Grupos de chamada não não possível criar grupos de segurança ou grupos do Office 365; eles devem ser criados em equipes.
+A criação de grupos de chamadas e preferências de notificação são recursos controlados pelo usuário; os administradores não precisam configurar esses recursos para seus usuários. Os grupos de chamadas não podem ser criados a partir de grupos de segurança ou grupos do Office 365; Elas devem ser criadas no Teams.
 
-Administradores devem habilitar grupos de chamada por meio da configuração de **TeamsCallingPolicy AllowCallGroups** para um usuário. Os administradores podem controlar apenas, se esse usuário pode configurar grupos de chamada. Depois que o bit for definido como true, administradores não pode impedir o usuário de configuração e adicionando os usuários do grupo de chamada de sua escolha.
+Os administradores devem habilitar os grupos de chamadas por meio da configuração **TeamsCallingPolicy AllowCallGroups** para um usuário. Os administradores podem controlar apenas se este usuário pode configurar grupos de chamadas. Quando o bit é definido como true, os administradores não podem impedir que o usuário configure e adicione os usuários do grupo de chamada de sua preferência.
 
-## <a name="limitations"></a>Limitações
+## <a name="limitations"></a>Relacionadas
 
-Um locatário pode conter um máximo de grupos de 32.768 chamada. Pode haver um máximo de 5 usuários em cada grupo de chamada. 
+Um locatário pode conter um máximo de grupos de chamadas do 32.768. Pode haver um máximo de cinco usuários em cada grupo de chamada. 
 
 ## <a name="more-information"></a>Mais informações
 
-[Encaminhamento de chamadas e toque simultâneo em equipes](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
+[Encaminhamento de chamadas e toque simultâneo no Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)

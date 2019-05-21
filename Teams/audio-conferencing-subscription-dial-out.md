@@ -1,5 +1,5 @@
 ---
-title: Benefício da assinatura de Audioconferência “Discar”/”Ligar para mim”
+title: Benefício da assinatura de Audioconferência “Discar”/”Ligar para mim em”
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,57 +20,57 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
-description: 'Um recurso de discagem complementar que será finalizado em 30 de novembro de 2019 foram fornecidos aos clientes.  Beginning 1 de dezembro de 2019, cada inscrição de serviços de audioconferência fornece 60 minutos por usuário por mês para qualquer um dos países zona A conforme descrito neste documento. '
-ms.openlocfilehash: 890441987eb0f08d67afe8a7f231c9a534c59a7f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Os clientes receberam um recurso de discagem gratuita que terminará em 30 de novembro de 2019.  A partir de 1 ° de dezembro de 2019, cada assinatura de audioconferência fornece 60 minutos por mês para qualquer região de um país, conforme descrito neste documento. '
+ms.openlocfilehash: 8c60a469684705b2a227711c5bfb22cd6baa9111
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198612"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283520"
 ---
-# <a name="audio-conferencing-subscription-dial-outcall-me-at-benefit"></a>Benefício da assinatura de Audioconferência “Discar”/”Ligar para mim”
+# <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Benefícios da assinatura "discagem"/"ligar para mim por" minutos da assinatura de áudio audioconferência
 
-## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>As equipes da Microsoft e Skype para conferência de áudio de PSTN de negócios
+## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Conferência de áudio PSTN do Microsoft Teams e do Skype for Business
 
-Um [recurso de discagem complementar](complimentary-dial-out-period.md) que será finalizado em 30 de novembro de 2019 foram fornecidos aos clientes. Beginning 1 de dezembro de 2019, cada inscrição de serviços de audioconferência fornece 60 minutos por usuário por mês para qualquer um dos países zona A conforme descrito neste documento. O tamanho do seu pool de minuto de discagem de Inquilino é baseado em licenças *atribuídas* e não adquiriu licenças. Esse benefício é aplicável a licenças de *assinatura mensal* de conferência de áudio e não se estende para licenças de pagamento por minuto de conferência de áudio. 
+Os clientes receberam um [recurso de discagem gratuita](complimentary-dial-out-period.md) que terminará em 30 de novembro de 2019. A partir de 1 ° de dezembro de 2019, cada assinatura de audioconferência fornece 60 minutos por mês que pode ser usada para discar para números não Premium em qualquer uma das zonas de um país, conforme descrito neste documento. Seu tamanho do pool de minutos de discagem de locatário ** é baseado em licenças atribuídas e não em licenças adquiridas. Esse benefício se aplica às licenças de *assinatura mensal* da conferência de áudio e não se estende às licenças de pagamento por minuto de audioconferência. 
 
-## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Áudio conferência "Discar a partir de uma reunião" & "Chamar-Me às" detalhes
+## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Informações de "discagem" & "ligar para mim" em uma reunião
 
-Para os clientes a adotar o nosso serviço de conferência de áudio, a Microsoft fornece a capacidade de discar a partir de reuniões organizadas por usuários atribuídos a uma licença de inscrição de conferência de áudio. Chamadas de discagem para países não incluídos na lista de país "Zona A" são cobradas por minuto usando créditos de comunicações. Para chamadas de discagem que são cobradas por minuto (chamadas excedendo o pool minuto de discagem de locatário ou chamadas para destinos não estejam na lista zona A país), as chamadas e suas taxas de associado se baseiam o destino da chamada e não a país do organizador de residência ou o participante da reunião iniciando a chamada de discagem. Por exemplo, uma chamada de discagem de conferência de áudio para um número de telefone na França, que é um país zona A, será cobrada com a mesma taxa por minuto se ele foram iniciado por um participante de reunião na França, Estados Unidos ou Zimbábue. 
+Para os clientes adotarem o nosso serviço de audioconferência, a Microsoft oferece a capacidade de discar de reuniões organizadas por usuários com uma licença de assinatura de audioconferência atribuída. As chamadas discada para países não incluídos na lista de países "zona A" são cobradas por minuto usando créditos de comunicações. Para chamadas discadas cobradas por minuto (chamadas que excedem o pool de minutos de discagem de locatário ou chamadas para destinos fora da lista de países), as chamadas e suas tarifas associadas se baseiam no destino da chamada e não no país do organizador de residência ou o participante da reunião que inicia a chamada de discagem externa. Por exemplo, uma chamada de discagem de conferência de áudio para um número de telefone na França, que é uma zona para um país, será cobrada com a mesma tarifa por minuto se ela tiver sido iniciada por um participante da reunião nos Estados Unidos, na França ou no Zimbábue. 
 
 
-|Local de uso de licença de organizador de reunião |Destino discado |Posso usar Meus minutos de pool de discagem minuto?|Eu preciso créditos de comunicação?|
+|Localização do uso da licença do organizador da reunião |Destino discado |Posso usar meus minutos de pool de minutos de discagem externa?|Preciso de créditos de comunicações?|
 |---------|---------|---------|---------|
-|Estados Unidos |Estados Unidos |Sim (país zona A) |Sim, *depois* consumindo o pool de minuto locatário         |
-|Estados Unidos |Reino Unido|Sim (país zona A) |  Sim, *depois* consumindo o pool de minuto locatário       |
+|Estados Unidos |Estados Unidos |Sim (zona A país) |Sim *após* consumir o pool de minutos do locatário         |
+|Estados Unidos |Reino Unido|Sim (zona A país) |  Sim *após* consumir o pool de minutos do locatário       |
 |Estados Unidos     |Zimbábue|    Não     |     Sim em *todas as* chamadas    |
-|Reino Unido     |Reino Unido|Sim (país zona A) |  Sim, *depois* consumindo o pool de minuto locatário       |
-|Reino Unido     |Estados Unidos |Sim (país zona A) |  Sim, *depois* consumindo o pool de minuto locatário       |
+|Reino Unido     |Reino Unido|Sim (zona A país) |  Sim *após* consumir o pool de minutos do locatário       |
+|Reino Unido     |Estados Unidos |Sim (zona A país) |  Sim *após* consumir o pool de minutos do locatário       |
 |Reino Unido     |Zimbábue|    Não     |   Sim em *todas as* chamadas      |
 |Zimbábue     |Zimbábue|    Não     |    Sim em *todas as* chamadas     |
-|Zimbábue     |Estados Unidos | Sim (país zona A) | Sim, *depois* consumindo o pool de minuto locatário        |
-|Zimbábue     |Reino Unido | Sim (país zona A) | Sim, *depois* consumindo o pool de minuto locatário        |
+|Zimbábue     |Estados Unidos | Sim (zona A país) | Sim *após* consumir o pool de minutos do locatário        |
+|Zimbábue     |Reino Unido | Sim (zona A país) | Sim *após* consumir o pool de minutos do locatário        |
 |Ilhas Cook     |Ilhas Cook |   Não      |    Sim em *todas as* chamadas     |
-|Ilhas Cook     |Estados Unidos  | Sim (país zona A) |  Sim, *depois* consumindo o pool de minuto locatário       |
-|Ilhas Cook     |Reino Unido | Sim (país zona A) | Sim, *depois* consumindo o pool de minuto locatário        |
+|Ilhas Cook     |Estados Unidos  | Sim (zona A país) |  Sim *após* consumir o pool de minutos do locatário       |
+|Ilhas Cook     |Reino Unido | Sim (zona A país) | Sim *após* consumir o pool de minutos do locatário        |
 |    |         |         |         |
 
-## <a name="how-are-minute-pools-calculated"></a>Como são calculados os pools minutos?
+## <a name="how-are-minute-pools-calculated"></a>Como os pools de minutos são calculados?
 
-Considere o exemplo a seguir. Um cliente adquiriu licenças de assinatura de conferência de áudio 115 e tem 10 usuários nos Estados Unidos, 100 usuários no Reino Unido e 5 usuários no Zimbábue, tudo isso com licenças de assinatura de audioconferência atribuídas. Todos os 115 usuários compartilham um pool de (115 usuários x 60 min = 6,900 conferência discar check-out minutos por mês do calendário) para fazer chamadas de saída para qualquer da zona países, *independentemente* de onde o organizador da reunião é licenciado ou fisicamente localizado. Por exemplo, um organizador de reunião Zimbábue poderão discar para qualquer um dos países zona A até o limite de pool minuto. 
+Considere o exemplo a seguir. Um cliente comprou licenças de assinatura do 115 Audio Conferencing e tem 10 usuários nos Estados Unidos, 100 usuários do Reino Unido e 5 usuários no Zimbábue, tudo com licenças de assinatura de audioconferência atribuídas. Todos os usuários do 115 compartilham um pool de (115 usuários x 60 min = 6.900 conferência discada minutos por mês) para fazer chamadas feitas para números não Premium em qualquer uma das zonas de um país, *independentemente* de onde o organizador da reunião estiver licenciado ou fisicamente localizado. Por exemplo, um organizador da reunião do Zimbábue poderá discar para qualquer uma das zonas de um país até o limite do pool de minutos. 
 
-- Todas as chamadas excedendo 6,900 minutos por mês do calendário são cobradas por minuto usando créditos de comunicações em nossas taxas publicadas para esse destino. (Observação: O cliente deve configurar [Créditos de comunicações](what-are-communications-credits.md) e atribuir a licença créditos de comunicação para o organizador da reunião.)
-- Todas as chamadas de saída para destinos não estejam na lista zona A país são cobradas por minuto usando créditos de comunicações em nossas taxas publicadas para esse destino (desde que o cliente tiver configurado créditos de comunicações e atribuído a licença créditos de comunicações ao organizador da reunião).
+- Todas as chamadas discadas que excedem 6.900 minutos por mês são cobradas por minuto usando créditos de comunicações em nossas tarifas publicadas para esse destino. (Observação: o cliente deve configurar [créditos de comunicações](what-are-communications-credits.md) e atribuir a licença de créditos de comunicações ao organizador da reunião.)
+- Todas as chamadas discadas para destinos fora da lista de países uma lista de países são cobradas por minuto usando créditos de comunicações em nossas tarifas publicadas para esse destino (desde que o cliente tenha configurado créditos de comunicações e tenha atribuído a licença créditos de comunicações para o organizador da reunião).
 
-## <a name="how-can-i-monitor-minute-pool-usage"></a>Como monitorar o uso do pool minuto?
+## <a name="how-can-i-monitor-minute-pool-usage"></a>Como faço para monitorar o uso do pool de minutos?
 
-- Você pode monitorar o uso em relação a seu pool de minuto de discagem no Skype "herdado" para o Centro de administração de negócios. No Microsoft Teams Admin Center, navegue até o **portal herdada** > **relatórios** > **PSTN minuto Pools**. O minuto de discagem de zona A pool será rotulada no relatório como "Chamadas de saída para países de uma zona."
-- Notificações por email serão enviadas para todos os administradores de Inquilino de um determinado cliente quando a utilização do pool de minutos de discagem de locatário atingiu 80% e 100%.
+- Você pode monitorar o uso em seu pool de minutos de discagem externa no centro de administração do Skype for Business "herdado. No centro de administração do Microsoft Teams, navegue até **portal** > herdado que**relata** > **pools de minutos PSTN**. A zona um pool de minutos de discagem externa será rotulado no relatório como "chamadas de saída para a região A países".
+- As notificações por email serão enviadas para todos os administradores de locatários de um determinado cliente quando a utilização do pool de minutos de discagem de locatário do locatário tiver atingido 80% e 100%.
 
-Para obter informações adicionais sobre comunicação créditos, consulte [Créditos de comunicações](what-are-communications-credits.md).
+Para obter informações adicionais sobre créditos de comunicação, consulte [créditos de comunicações](what-are-communications-credits.md).
 
 
-|Países zona A |
+|Região A dos países |
 |---------|
 |Austrália      |
 |Áustria     |

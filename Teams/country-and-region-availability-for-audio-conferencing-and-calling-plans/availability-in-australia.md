@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios da Austrália.
-ms.openlocfilehash: 3035cd55a3fb255b143390bdd6d368d87f23ddbe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Austrália.
+ms.openlocfilehash: 0ced5fd869b54366b5b3214f76b9dee1f8f5782f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244996"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283350"
 ---
 # <a name="availability-in-australia"></a>Disponibilidade na Austrália
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios da Austrália.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Austrália.
 
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -57,28 +57,28 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 
 ## <a name="calling-plans"></a>Planos de Chamadas
 > [!IMPORTANT]
-> Disponível somente por meio de Sprint para os locatários com base em australiano. Para obter mais informações, consulte [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan).
+> Disponível somente por meio do Telstra para locatários baseados em Austrália. Para obter mais informações, consulte [chamadas Telstra para o Office 365](https://aka.ms/TelstraVoicePlan).
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim, consulte [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan).  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Consulte [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
-|É possível fazer chamadas de saída?  <br/> |Consulte [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
+|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim, consulte [chamadas Telstra para o Office 365](https://aka.ms/TelstraVoicePlan).  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |Consulte [chamadas Telstra para o Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
+|É possível fazer chamadas de saída?  <br/> |Consulte [chamadas Telstra para o Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
 
 > [!IMPORTANT]
-> Para excluir australiano multiusuários (fornecidos pelo Sprint), contate Sprint diretamente.
-> Para atualizar as informações de endereço de emergência para números de assinante australiano (fornecidos pelo Sprint), contate Sprint diretamente.
-> Para obter mais informações, consulte [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan).
+> Para excluir números de assinantes australianos (fornecidos pela Telstra), entre diretamente em contato com a Telstra.
+> Para atualizar as informações de endereço de emergência dos números de assinantes australianos (fornecidos pela Telstra), entre em contato com a Telstra diretamente.
+> Para obter mais informações, consulte [chamadas Telstra para o Office 365](https://aka.ms/TelstraVoicePlan).
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | <ul><li>Adelaide <li>Brisbane <li>  Camberra <li>Darwin <li>Melbourne <li>Newcastle <li> Perth <li>Sidnei <li>Wollongong  |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | <ul><li>Adelaide <li>Brisbane <li>  Canberra <li>Darwin <li>Londres <li>Newcastle <li> Perth <li>Sydney <li>Wollongong  |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
 
-Se você deseja obter Chamada Tarifada e números de telefone gratuitos de atendedores automáticos, chame filas ou números de serviço de conferência de áudio, [entre em contato conosco](mailto:ptnapac@microsoft.com).
+Se você quiser obter números de telefone de chamada tarifada e gratuita para atendedores automáticos, filas de chamadas ou números de serviços de audioconferência, [entre em contato conosco](mailto:ptnapac@microsoft.com).
 
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

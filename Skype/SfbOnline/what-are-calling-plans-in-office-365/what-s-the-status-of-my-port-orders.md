@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,30 +20,30 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: e8cc303c503d52a9424c400617c7a982aec99d1f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f96b1f4966159065b5978fd9c9831412bcc03504
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229571"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290751"
 ---
 # <a name="whats-the-status-of-my-port-orders"></a>Qual é o status de meus pedidos de portabilidade?
 
-Você pode ver o status do seu pedido de porta indo para o **Skype para centro de administração de negócios** > **voz** > **pedidos de porta**. Status da ordem cada porta serão listadas na coluna **Status** . Se você precisa de Ajuda, [contate o suporte para produtos de negócios - ajuda de Admin](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+Você pode ver o status do seu pedido de portabilidade nos**pedidos de porta**de**voz** > do centro > de **Administração do Skype for Business**. Cada status de pedido de portabilidade será listado na coluna **status** . Se precisar de ajuda, [entre em contato com o suporte para produtos empresariais-ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
-A tabela a seguir lista o status da ordem de porta, bem como ações que podem ser realizadas se necessário.
+A tabela a seguir lista os status do pedido de portabilidade, bem como as ações que podem ser tomadas, se necessário.
 
-|**Status**|**Você pode exibir a ordem?**|**Você pode editar a ordem?**|**Você pode cancelar a ordem?**|**Você pode excluir a ordem?**|**Descrição**|
+|**Situação**|**Você consegue ver o pedido?**|**Você pode editar o pedido?**|**Você pode cancelar o pedido?**|**Você pode excluir o pedido?**|**Descrição**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Processamento** <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |O administrador tiver criado a ordem, e ele é foi recebido pela Microsoft.  <br/> |
-|**Entrando em contato com a operadora** <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |A ordem foi recebida e aprovada pela Microsoft e estamos trabalhando com a operadora perder para obtê-lo aprovado.  <br/> |
-|**Transferência aprovada** <br/> |Sim  <br/> |Ordem estável Commitment(FOC)  <br/> |Sim  <br/> |Não  <br/> |A ordem foi aceita pela operadora perder e a data FOC tiver sido definida.  <br/> |
-|**Transferir pendente** <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |A transferência é menos de 24 horas ausente, portanto a ordem não possa ser editada ou cancelada.  <br/> |
-|**Error** <br/> |Não  <br/> |Sim   <br/> |Sim  <br/> |Sim (neste momento, você não pode excluir a ordem de porta se não houver um erro. A ordem de porta precisa ser recriada ou precisar [contate o suporte para produtos de negócios - ajuda de Admin](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).  <br/> |A operadora perder rejeitou a ordem.  <br/> |
-|**Concluído** <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Os números foram transferidos com êxito.  <br/> |
-|**Cancelado** <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |O administrador cancelou a ordem.  <br/> |
+|**Processadores** <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |O administrador criou o pedido e ele foi recebido pela Microsoft.  <br/> |
+|**Contatando a operadora** <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |O pedido foi recebido e aprovado pela Microsoft, e estamos trabalhando com a transportadora perdida para que ela seja aprovada.  <br/> |
+|**Transferência aprovada** <br/> |Sim  <br/> |Compromisso do pedido de confirmação (FOC)  <br/> |Sim  <br/> |Não  <br/> |O pedido foi aceito pela transportadora perdedor, e a data FOC foi definida.  <br/> |
+|**Transferência pendente** <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |A transferência tem menos de 24 horas de distância, portanto, a ordem não pode mais ser editada ou cancelada.  <br/> |
+|**Error** <br/> |Não  <br/> |Sim   <br/> |Sim  <br/> |Sim (no momento, não será possível excluir a ordem das portas se houver um erro. A ordem das portas precisa ser recriada ou você precisa [entrar em contato com o suporte para produtos empresariais-ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).  <br/> |A transportadora perdida rejeitou o pedido.  <br/> |
+|**Feito** <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Os números foram transferidos com êxito.  <br/> |
+|**Cela** <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |O administrador cancelou o pedido.  <br/> |
    
- **Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ **Para obter instruções passo a passo completas, consulte [transferir números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
  
 > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).

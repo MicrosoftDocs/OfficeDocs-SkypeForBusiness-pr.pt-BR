@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o Skype for Business para usar outro idioma na saudação da mensagem de voz padrão de sua organização. '
-ms.openlocfilehash: 78bb744fc00f81c18bd411d2a79367d2e4c9e216
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: f36ab76f0a83fc71f9d7ca668020dcd30f4808d6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33995163"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283452"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Alterar o idioma padrão de saudações e emails
 
@@ -43,13 +43,13 @@ Se você é [Administrador global do Office 365](https://support.office.com/arti
   
 - **Deseja gravar sua mensagem de caixa postal de saída?** Veja [Verificar a caixa postal e as opções do Skype for Business](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
 
-- **Você deseja alterar o idioma de prompt de caixa postal?** Vá para [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) e escolha um novo idioma em **Prompt de idioma**.
+- **Deseja alterar o idioma do prompt de correio de voz?** Vá para [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) e escolha um novo idioma em **idioma do prompt**.
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Alterar o idioma do sistema para todas as pessoas na organização
 
-1. Entrar com sua conta de [administrador global do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) em[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
+1. Entre com sua conta de [administrador global do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) em[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
-2. No Centro de administração do Microsoft 365, escolha **configurações** > **perfil da organização**. 
+2. No centro de administração do Microsoft 365, escolha **configurações** > **perfil da organização**. 
     
      ![Choose Settings and then choose Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
@@ -67,7 +67,7 @@ Se você é [Administrador global do Office 365](https://support.office.com/arti
     
 - [Configurar Planos de Chamadas](set-up-calling-plans.md)
     
-- [Planejar o sistema telefônico no Office 365 com conectividade PSTN local no Skype Business Server](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [Planejar o sistema telefônico no Office 365 com conectividade PSTN local no Skype for Business Server](https://go.microsoft.com/fwlink/?LinkId=717947)
     
 ## <a name="related-topics"></a>Tópicos relacionados
 

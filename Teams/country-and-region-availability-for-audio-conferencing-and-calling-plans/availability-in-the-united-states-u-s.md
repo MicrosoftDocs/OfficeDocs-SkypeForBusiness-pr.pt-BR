@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para os Estados Unidos.
-ms.openlocfilehash: fff28a277df0513728463a1415ed3acedbf08910
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para os Estados Unidos.
+ms.openlocfilehash: 4cb21a948fce9c419915a959eb92f73375fcded5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402543"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281935"
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilidade nos Estados Unidos (EUA)
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para os Estados Unidos.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para os Estados Unidos.
 
 ## <a name="audio-conferencing"></a>Audioconferência
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim  <br/> |
-|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para: <br/><ul><li> Chicago<li>Dallas<li>Los Angeles<li>Nova York</ul>Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para: <br/><ul><li> Chicago<li>Dallas<li>Los Angeles<li>Cidade de Nova York</ul>Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
 
 ## <a name="phone-system"></a>Sistema de Telefonia
@@ -60,20 +60,20 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 | **Recurso**                                       | **Detalhes**                                                                                                                                                                                                                                                                                                                     |
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Os Planos de Chamadas estão disponíveis para compra?  <br/>   | Sim  <br/>                                                                                                                                                                                                                                                                                                                      |
-| Minutos disponíveis para chamar planos.              | Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar (disponibilidade é limitada)</li><li>240 minuto domésticas chamar planejar (disponibilidade é limitada)</li></li><li>3000 minuto domésticas chamar planejar </li></li><li>Nacionais e internacionais chamar planejar: 3000 minutos de minutos de bits OR-600 domésticos de chamadas internacionais (o que for atingido primeiro no mês do calendário)</li></li> |
-| Pode fazer chamadas de saída para números premium? <br/> | Não suportado no momento. <br/>                                                                                                                                                                                                                                                                                               |
+| Minutos disponíveis para planos de chamada.              | Há quatro opções de plano disponíveis por mês do calendário: <ul><li>120 plano de chamadas domésticas de minutos (disponibilidade limitada)</li><li>240 plano de chamadas domésticas de minutos (disponibilidade limitada)</li></li><li>Plano de chamadas domésticas de 3000 minutos </li></li><li>Plano de chamadas domésticas e internacionais: 3000 minutos de chamadas domésticas ou 600 minutos de chamadas internacionais (o que for atingido primeiro no mês do calendário)</li></li> |
+| Pode fazer chamadas de saída para números Premium? <br/> | Não há suporte no momento. <br/>                                                                                                                                                                                                                                                                                               |
 | É possível fazer chamadas de saída?  <br/>                | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                                                                      |
 > [!Note]
-> Chamadas para Canadá são tratadas como chamadas nacionais.
+> As chamadas para o Canadá são tratadas como chamadas domésticas.
 
 >[!Note] 
-> As chamadas de domésticas Estados Unidos inclui chamadas para todos os estados dos Estados Unidos e Porto Rico 50. Os usuários atribuídos com o local de uso de licença dos Estados Unidos e/ou Porto Rico compartilham o mesmo pool de minutos.
+> A chamada doméstica nos Estados Unidos inclui chamadas para todos os Estados Unidos da 50 e Porto Rico. Os usuários atribuídos com o local de uso da licença dos EUA e/ou Porto Rico compartilham o mesmo pool de minutos.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Alabama, Birmingham <li>  Arizona, Phoenix <li>  Arkansas, Little pedra <li> Califórnia, Los Angeles <li> Califórnia, são Francisco <li>  Colorado, Denver <li>  Colômbia, Washington DC <li>  Connecticut, Hartford <li>  Delaware, Wilmington <li>Flórida, Miami <li>  Geórgia, Atlanta <li> Havaí, Paulo <li> Idaho, Boise <li> Illinois, Aurora <li> Illinois, Chicago <li> Illinois, Cícero<li>  Indiana, Indianápolis <li>  Cidade Iowa, Iowa <li>  Kansas, Wichita <li> Kentucky, Louisville <li>  Louisiana, Nova Orleans <li> Rio grande do Norte, Portland <li> Maryland, Baltimore <li>  Massachusetts, Boston <li> Michigan, da Pontiac <li> Minnesota, Minneapolis <li> Minnesota, Paul St. <li> São Paulo, Jackson <li>  Missouri, Kansas cidade <li>Missouri, St. Louis <li>  Montana, cobranças <li> Carolina do Norte, Charlotte<li>Dakota do Norte, Fargo <li> Espírito Sato, Omaha <li> Nevada, Las Vegas <li>  Nova Hampshire, Manchester <li> Nova Jersey, n' <li> Novo México, Albuquerque <li>  Nova York, Nova York <li>Paulo Columbus <li>Cidade Oklahoma, Oklahoma <li> Oregon, Portland <li> Rio de janeiro, Rio de janeiro <li> Ilha Rhode, Providence <li>  Carolina do Sul, Charleston <li>Dakota do Sul, Sevilha divide-se <li>  Tennessee, Memphis <li> Texas, Dallas <li>  Texas, Houston <li> Utah, Goiânia <li> Vermont, Brattleboro<li> Virgínia, Richmond <li> Washington, Seattle <li>  Virgínia Ocidental, Charleston<li>  Wisconsin, Milwaukee <li> Wyoming, Laramie</ul> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Alabama, Birmingham <li>  Arizona, Phoenix <li>  Arkansas, pequeno rock <li> Califórnia, Los Angeles <li> Califórnia, San Francisco <li>  Colorado, Denver <li>  Columbia, Washington, D.c. <li>  Connecticut, Hartford <li>  Delaware, Wilmington <li>Flórida, Miami <li>  Geórgia, Atlanta <li> Havaí, Honolulu <li> Idaho, Boise <li> Illinois, Aurora <li> Illinois, Chicago <li> Illinois, Cícero<li>  Indiana, Indianápolis <li>  Iowa, cidade Iowa <li>  Kansas, Wichita <li> Kentucky, Louisville <li>  Louisiana, Novo Orleans <li> Maine, Portland <li> Maryland, Baltimore <li>  Massachusetts, Boston <li> Michigan, Pontiac <li> Minnesota, Minneapolis <li> Minnesota, St. Paul <li> Mississippi, Jackson <li>  Missouri, cidade de Kansas <li>Missouri, St. Louis <li>  Montana, cobranças <li> Carolina do Norte, Charlotte<li>Dakota do Norte, Fargo <li> Nebraska, Omaha <li> Nevada, Las Vegas <li>  Novo Hampshire, Manchester <li> Nova Jersey, Newark <li> Novo México, Albuquerque <li>  Nova York, Nova York, cidade <li>Ohio, Columbus <li>Oklahoma, Oklahoma City <li> Oregon, Portland <li> Pensilvânia, Filadélfia <li> Ilha Rhode, Providence <li>  Carolina do Sul, Charleston <li>Dakota do Sul, Sioux cai <li>  Tennessee, Rio de qualquer <li> Texas, Dallas <li>  Texas, Houston <li> Utah, sal Lake City <li> Vermont, Brattleboro<li> Virgínia, Richmond <li> Washington, Seattle <li>  Virgínia do oeste, Charleston<li>  Wisconsin, Milwaukee <li> Wyoming, Laramie</ul> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
 

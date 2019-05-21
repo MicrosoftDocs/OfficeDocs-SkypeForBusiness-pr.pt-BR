@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Croácia.
-ms.openlocfilehash: 93005cc68bbd7f668b344dbf968c3ce42a67e114
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Croácia.
+ms.openlocfilehash: bc66aad83168c32cb336fb8fce6ec51b1f89ca3a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541204"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283094"
 ---
 # <a name="availability-in-croatia"></a>Disponibilidade na Croácia
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Croácia.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Croácia.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -67,7 +67,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | <ul><li>Osijek <li>  Rijeka <li>  Split <li>  Zadar <li>  Zagreb </ul> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | <ul><li>Osijek <li>  Rijeka <li>  Desenhe <li>  Zadar <li>  Zagreb </ul> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    

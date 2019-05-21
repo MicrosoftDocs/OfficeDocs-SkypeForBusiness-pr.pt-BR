@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Bielo-Rússia.
-ms.openlocfilehash: fc08276fdea79dad4018f1bc829405046006317b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Belarus.
+ms.openlocfilehash: 4e6aa6e198c967665139729cdde63f51278ce684
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219173"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283286"
 ---
 # <a name="availability-in-belarus"></a>Disponibilidade em Belarus
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Bielo-Rússia.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Belarus.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -44,7 +44,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Não  <br/> |
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Não  <br/> |
-|Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível com o pagamento de créditos de comunicação por minuto  <br/> |
+|Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível com créditos de comunicações pagas por minuto  <br/> |
    
 ## <a name="phone-system"></a>Sistema de Telefonia
 

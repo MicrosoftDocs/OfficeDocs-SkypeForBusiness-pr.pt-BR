@@ -5,58 +5,58 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/11/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
-description: 'Resumo: Configure o Unificação de mensagens do Exchange Server para Skype para caixa postal Business Server.'
-ms.openlocfilehash: 76a73c396657d98871a0238fe840e08016bccf13
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: configurar o recurso de mensagens de voz do Exchange Server Unified para o Skype for Business Server.'
+ms.openlocfilehash: a1c83b4ec92e6e3b3d678d2d7e0a65f58fc9d6ce
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894341"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278182"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configurar a Unificação de Mensagens do Exchange Server para a caixa postal do Skype for Business Server
  
-**Resumo:** Configure Unificação de mensagens do Exchange Server do Skype para caixa postal Business Server.
+**Resumo:** Configure a Unificação de mensagens do Exchange Server para a caixa postal do Skype for Business Server.
   
-Skype para Business Server permite que você tenha mensagens da caixa postal armazenadas no Exchange Server 2016 ou Exchange Server 2013; Essas mensagens de caixa postal aparecerão como mensagens de email nas caixas de entrada dos usuários. 
+O Skype for Business Server permite que você tenha mensagens de correio de voz armazenadas no Exchange Server 2016 ou no Exchange Server 2013; essas mensagens de correio de voz serão exibidas como mensagens de email nas caixas de entrada dos usuários. 
 
 > [!NOTE]
-> Unificação de mensagens do Exchange como conhecido anteriormente não está mais disponível no Exchange 2019, mas você pode ainda usar o sistema telefônico para mensagens de caixa postal de registro e, em seguida, deixar a gravação na caixa de correio do Exchange do usuário. Consulte o [serviço de caixa postal de nuvem planejar](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obter mais informações.
+> A Unificação de mensagens do Exchange como anteriormente conhecida não está mais disponível no Exchange 2019, mas você ainda pode usar o sistema telefônico para gravar mensagens de correio de voz e deixar a gravação na caixa de correio do Exchange de um usuário. Para obter mais informações, consulte [planejar o serviço de correio de voz na nuvem](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
   
-Se você já tiver configurado a autenticação de servidor-para-servidor entre o Skype para Business Server e o Exchange Server 2016 ou o Exchange Server 2013, em seguida, você estará pronto para configurar a Unificação de mensagens. Para fazer isso, você deve primeiro criar e atribuir um novo plano de discagem mensagens unificadas em seu servidor Exchange. Por exemplo, estes dois comandos (executados de dentro do Shell de gerenciamento do Exchange) configurar um novo plano de discagem de 3 dígitos para o Exchange:
+Se você já configurou a autenticação de servidor para servidor entre o Skype for Business Server e o Exchange Server 2016 ou o Exchange Server 2013, então você está pronto para configurar a Unificação de mensagens. Para fazer isso, primeiro você deve criar e atribuir um novo plano de discagem de Unificação de mensagens no Exchange Server. Por exemplo, esses dois comandos (executados dentro do Shell de gerenciamento do Exchange) configuram um novo plano de discagem de 3 dígitos para o Exchange:
   
 ```
 New-UMDialPlan -Name "RedmondDialPlan" -VoIPSecurity "Secured" -NumberOfDigitsInExtension 3 -URIType "SipName" -CountryOrRegionCode 1
 Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,*,*" -AllowedInCountryOrRegionGroups "Anywhere"
 ```
 
-No primeiro comando no exemplo, o parâmetro VoIPSecurity e o valor do parâmetro "Seguro" indica que o canal de sinalização é criptografado usando a segurança de camada de transporte (TLS). O URIType "SipName" indica que as mensagens serão enviadas e recebidas usando o protocolo SIP e o CountryOrRegionCode de 1 indica que o plano de discagem se aplica aos EUA.
+No primeiro comando do exemplo, o parâmetro VoIPSecurity e o valor do parâmetro "Secured" indica que o canal de sinalização está criptografado usando TLS (Transport Layer Security). O URIType "SipName" indica que as mensagens serão enviadas e recebidas usando o protocolo SIP e o CountryOrRegionCode de 1 indica que o plano de discagem se aplica aos EUA.
   
-No segundo comando, o valor do parâmetro para o parâmetro ConfiguredInCountryOrRegionGroups especifica os grupos no país que podem ser usados com este plano de discagem. O valor do parâmetro "em qualquer lugar,\*,\*,\*" define o seguinte:
+No segundo comando, o valor do parâmetro para o parâmetro ConfiguredInCountryOrRegionGroups especifica os grupos no país que podem ser usados com este plano de discagem. O valor do parâmetro "em\*qualquer\*lugar\*,", define o seguinte:
   
 - Nome do grupo ("Anywhere")
     
-- AllowedNumberString (\*, um caractere curinga indicando que qualquer sequência numérica é permitida)
+- AllowedNumberString (\*, um caractere curinga indicando que qualquer cadeia de caracteres de número é permitida)
     
 - DialNumberString (\*, um caractere curinga indicando que qualquer número discado é permitido)
     
-- TextComment (\*, um caractere curinga indicando que qualquer comando de texto é permitido)
+- Textcomment (\*, um caractere curinga indicando que qualquer comando de texto é permitido)
     
 > [!NOTE]
 > Criar um novo plano de discagem também criará uma Política de Caixa de Correio Padrão. 
   
-Após criar e configurar o novo plano de discagem, você deve adicionar esse plano ao seu servidor do unificação de mensagens e modificar o modo de inicialização do servidor; em particular, você deve definir o modo de inicialização para "Dual". Você pode executar essas tarefas de dentro do Shell de gerenciamento do Exchange:
+Após criar e configurar o novo plano de discagem, você deve adicionar esse plano ao seu servidor do unificação de mensagens e modificar o modo de inicialização do servidor; em particular, você deve definir o modo de inicialização para "Dual". Você pode executar essas duas tarefas dentro do Shell de gerenciamento do Exchange:
   
 ```
 Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 ```
 
-Após o servidor do unified messaging ter sido configurado, você Avançar deve executar o cmdlet Enable-ExchangeCertificate para garantir que o seu certificado do Exchange é aplicado ao serviço do unified messaging:
+Após a configuração do servidor de Unificação de mensagens, você deve executar o cmdlet Enable-ExchangeCertificate para garantir que seu certificado do Exchange seja aplicado ao serviço de Unificação de mensagens:
   
 ```
 Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "EA5A332496CC05DA69B75B66111C0F78A110D22d" -Services "SMTP","IIS","UM"
@@ -87,7 +87,7 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
 
 No comando anterior, o parâmetro Extensions representa o número de extensão telefônica do usuário. Neste exemplo, o usuário possui o número de extensão 100.
   
-Após habilitar esta caixa de correio, o usuário kenmyer@litwareinc.com poderá usar a unificação de mensagens do Exchange. Você pode verificar se o usuário pode se conectar a UM do Exchange executando o cmdlet [Test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexumconnectivity?view=skype-ps) do dentro do Skype do Shell de gerenciamento do servidor de negócios:
+Após habilitar esta caixa de correio, o usuário kenmyer@litwareinc.com poderá usar a unificação de mensagens do Exchange. Você pode verificar se o usuário pode se conectar ao Exchange UM executando o cmdlet [Test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexumconnectivity?view=skype-ps) de dentro do Shell de gerenciamento do Skype for Business Server:
   
 ```
 $credential = Get-Credential "litwareinc\kenmyer"
@@ -103,119 +103,119 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 
 
-## <a name="configuring-unified-messaging-on-microsoft-exchange-server"></a>Configurando o Unified Messaging no Microsoft Exchange Server 
+## <a name="configuring-unified-messaging-on-microsoft-exchange-server"></a>Configurando a Unificação de mensagens no Microsoft Exchange Server 
 > [!IMPORTANT]
-> Se desejar usar o Exchange Unified Messaging (UM) para fornecer atendimento de chamadas, Outlook Voice Access ou serviços de atendedor automático para usuários do Enterprise Voice, leia [Planejar integração de Unificação de mensagens do Exchange no Skype para negócios](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)e siga o instruções desta seção. 
+> Se você quiser usar a UM (Unificação de mensagens) do Exchange para fornecer atendimento de chamada, Outlook Voice Access ou serviços de atendedor automático para usuários de Enterprise Voice, leia [plano para a integração de Unificação de mensagens do Exchange no Skype for Business](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)e, em seguida, siga as instruções desta seção. 
 
-Para configurar a Unificação de mensagens (UM) do Exchange para funcionar com o Enterprise Voice, você precisará executar as seguintes tarefas:
+Para configurar a UM (Exchange Unified Messaging) para funcionar com o Enterprise Voice, você precisará executar as seguintes tarefas:
 
-- Configurar certificados no servidor executando os serviços do Exchange Unified Messaging (UM)
+- Configurar certificados no servidor que executa os serviços da Unificação de mensagens (UM) do Exchange
   > [!NOTE]
-  > Adicione todos os servidores de caixa de correio e de acesso para cliente a todos os planos de discagem SIP URI de UM. Se não, o roteamento de chamadas de saída não funcionarão como esperado. 
-- Crie um ou mais SIP URI de UM planos de discagem, juntamente com os números de telefone de acesso do assinante, conforme necessário e criar planos de discagem L correspondentes.
+  > Adicione todos os servidores de caixa de correio e acesso de cliente a todos os planos de discagem URI de UM SIP. Caso contrário, o roteamento de chamadas de saída não funcionará como esperado. 
+- Crie um ou mais planos de discagem de URI SIP do UM, juntamente com os números de telefone de acesso ao Assinante, conforme necessário e crie os planos de discagem da L correspondentes.
 
-- Use o script ExchUCUtil. ps1 para:
+- Use o script exchucutil. ps1 para:
     - Crie gateways IP de UM.
-    - Crie grupos de busca de UM.
-    - Conceder Skype para permissão Business Server ler objetos UM do Active Directory Domain Services.
-- Crie um objeto de atendedor automático da Unificação de mensagens.
-- Crie um objeto de acesso do assinante.
-- Crie um URI do SIP para cada usuário e para os usuários com um plano de discagem SIP URI de UM.
+    - Criar grupos de números coletivos da UM.
+    - Conceda permissão do Skype for Business Server para ler objetos dos serviços de domínio do Active Directory da UM.
+- Criar um objeto de atendedor automático da UM.
+- Crie um objeto de acesso do Assinante.
+- Crie um URI SIP para cada usuário e associando os usuários a um plano de discagem URI do UM SIP.
 
 ### <a name="requirements-and-recommendations"></a>Requisitos e recomendações
 
-Antes de começar, a documentação desta seção pressupõe que você implantou as seguintes funções do Exchange: acesso para cliente e caixa de correio. No Microsoft Exchange Server, UM do Exchange é executado como um serviço nesses servidores.
+Antes de começar, a documentação desta seção pressupõe que você implantou as seguintes funções do Exchange: acesso de cliente e caixa de correio. No Microsoft Exchange Server, o Exchange UM é executado como um serviço nesses servidores.
 
-Também observe o seguinte:
-- Se UM do Exchange estiver instalado em várias florestas, as etapas de integração do Exchange Server devem ser executadas para cada floresta de Unificação de mensagens. Além disso, cada floresta de Unificação de mensagens deve ser configurada para confiar na floresta na qual Skype para Business Server é implantado e floresta em whichSkype para Business Server é implantado deve ser configurada para confiar na floresta de cada UM.
-- Etapas de integração são realizadas em ambas as funções de Exchange Server onde estão executando os serviços de Unificação de mensagens e no servidor executando o Skype para Business Server. Você deve executar as etapas de integração da Unificação de mensagens do Exchange Server antes de executar as etapas de integração do Lync Server 2013.
+Observe também o seguinte:
+- Se o Exchange UM estiver instalado em várias florestas, as etapas de integração do Exchange Server deverão ser realizadas para cada floresta do UM. Além disso, cada floresta do UM deve ser configurada para confiar na floresta na qual o Skype for Business Server está implantado, e a floresta no whichSkype for Business Server é implantada deve ser configurada para confiar em cada floresta do UM.
+- As etapas de integração são executadas nas funções do Exchange Server em que os serviços de mensagens unificadas estão em execução e no servidor que executa o Skype for Business Server. Você deve executar as etapas de integração de Unificação de mensagens do Exchange Server antes de executar as etapas de integração do Lync Server 2013.
   > [!NOTE]
-  > Para ver quais etapas de integração são realizadas em quais servidores e por quais funções de administrador, consulte [Visão geral do processo de implantação para integrar o local de Unificação de mensagens e Skype para negócios](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md). 
+  > Para ver quais etapas de integração são executadas em quais servidores e com quais funções de administrador, consulte [visão geral do processo de implantação para integrar a Unificação de mensagens local e o Skype for Business](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md). 
 
-As seguintes ferramentas devem estar disponíveis em cada servidor executando o UM do Exchange:
+As seguintes ferramentas devem estar disponíveis em cada servidor que executa o Exchange UM:
 - Shell de gerenciamento do Exchange
-- O script ExchUCUtil. ps1, que executa as seguintes tarefas:
-    - Cria um gateway IP de UM para cada Skype para Business Server.
-    - Cria um grupo de busca para cada gateway. O identificador piloto de cada grupo de busca Especifica o plano de discagem SIP URI de UM usado pelo pool de Front-End ou servidor Standard Edition que está associado ao gateway.
-    - Concede Skype para Server de negócios permissão para ler objetos UM do Exchange nos serviços de domínio Active Directory.
+- O script exchucutil. ps1, que executa as seguintes tarefas:
+    - Cria um gateway IP de UM para cada servidor do Skype for Business.
+    - Cria um grupo coletivo para cada gateway. O identificador piloto de cada número coletivo especifica o plano de discagem do URI SIP usado pelo pool de front-ends ou do servidor Standard Edition associado ao gateway.
+    - Concede permissão do Skype for Business Server para ler objetos do Exchange UM nos serviços de domínio do Active Directory.
 
 
 
 ### <a name="configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1"></a>Configure Unified Messaging on Microsoft Exchange with ExchUCUtil.ps1 
 
-Quando você estiver integrando Microsoft Skype para Business Server com Unificação de mensagens (UM) do Exchange, você precisa executar o script ExchUCUtil. Ps1 no Shell. O script ExchUCUtil. Ps1 faz o seguinte:
+Ao integrar o Microsoft Skype for Business Server com o Exchange Unified Messaging (UM), você precisa executar o script ExchUcUtil. ps1 no Shell. O script ExchUcUtil. ps1 faz o seguinte:
 
-- Cria um gateway IP de UM para cada Skype para pool de servidores de negócios.
+- Cria um gateway IP de UM para cada pool do Skype for Business Server.
 
 > [!IMPORTANT]
-> O script ExchUCUtil. Ps1 cria um ou mais gateways IP de UM. Você deve desativar as chamadas de saída em todos os gateways IP de UM, exceto um gateway que criou o script. Isso inclui a desativação de chamadas de saída nos gateways IP de UM que foram criados antes de você executar o script. 
+> O script ExchUcUtil. ps1 cria um ou mais gateways IP do UM. Você deve desabilitar as chamadas feitas em todos os gateways IP de UM, exceto um gateway que o script criou. Isso inclui desabilitar chamadas feitas em gateways IP de UM que foram criados antes de você executar o script. 
 
-- Cria um grupo de busca de UM para cada gateway IP de UM. O identificador piloto de cada grupo de busca Especifica o plano de discagem SIP URI de UM usado pelo Skype para pool Business servidor Front-End ou servidor Standard Edition que está associado ao gateway IP de UM.
-- Skype concede permissão de Business Server ler objetos UM do Active Directory de contêiner, como UM discagem planos, atendentes automáticos, gateways IP de UM e grupos de busca de UM.
+- Cria um grupo coletivo de UM para cada gateway IP do UM. O identificador piloto de cada número coletivo especifica o plano de discagem do URI SIP do UM usado pelo pool de front-end do Skype for Business Server ou do servidor Standard Edition associado ao gateway de IP do UM.
+- Concede permissão do Skype for Business Server para ler objetos do contêiner de UM do Active Directory, como planos de discagem da UM, atendedores automáticos, gateways IP do um e grupos coletivos de UM.
   > [!IMPORTANT]
-  > Cada floresta de Unificação de mensagens deve ser configurada para confiar na floresta na qual Skype para Business Server é implantado e a floresta na qual Skype para Business Server 2013 é implantado deve ser configurada para confiar na floresta de cada UM. Se UM do Exchange estiver instalado em várias florestas, as etapas de integração do Exchange Server devem ser executadas para cada floresta de UM, ou você precisará especificar o Skype para o domínio do servidor de negócios. Por exemplo, o ExchUCUtil. Ps1 – floresta: <lync-domínio-controlador-fqdn>. 
+  > Cada floresta do UM deve ser configurada para confiar na floresta em que o Skype for Business Server está implantado, e a floresta na qual o Skype for Business Server 2013 está implantado deve ser configurada para confiar em cada floresta do UM. Se o Exchange UM estiver instalado em várias florestas, as etapas de integração do Exchange Server deverão ser realizadas para cada floresta do UM ou você precisará especificar o domínio do Skype for Business Server. Por exemplo, ExchUcUtil. ps1 – Forest: <lync-Domain-Controller-fqdn>. 
 
-### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Usar o Shell para executar o script ExchUCUtil. Ps1
+### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Use o Shell para executar o script ExchUcUtil. ps1
 
-Execute o script ExchUCUtil. Ps1 em qualquer servidor do Exchange em sua organização que esteja na mesma topologia como Skype para Business Server. Você pode executar o script de um servidor de caixa de correio usando o Shell ou é possível executar o script usando o Windows PowerShell remoto em um servidor de acesso para cliente. Se você executar o script em um servidor de acesso para cliente em sua organização, o servidor de acesso para cliente será proxy a sessão do Windows PowerShell remoto para um servidor de caixa de correio na organização.
+Execute o script ExchUcUtil. ps1 em qualquer servidor Exchange em sua organização que esteja na mesma topologia do Skype for Business Server. Você pode executar o script de um servidor de caixa de correio usando o Shell ou pode executar o script usando o Windows PowerShell remoto em um servidor de acesso para cliente. Se você executar o script em um servidor de acesso para cliente em sua organização, o servidor de acesso para cliente fará o proxy da sessão remota do Windows PowerShell para um servidor de caixa de correio na organização.
 > [!IMPORTANT]
-> O script ExchUCUtil. Ps1 cria um ou mais gateways IP de UM. Você deve desativar as chamadas de saída em todos os gateways IP de UM, exceto um gateway que criou o script. Isso inclui a desativação de chamadas de saída nos gateways IP de UM que foram criados antes de você executar o script. Para desabilitar as chamadas de saída em um gateway IP de UM, consulte Disable chamadas nos gateways IP de UM. 
+> O script ExchUcUtil. ps1 cria um ou mais gateways IP do UM. Você deve desabilitar as chamadas feitas em todos os gateways IP de UM, exceto um gateway que o script criou. Isso inclui desabilitar chamadas feitas em gateways IP de UM que foram criados antes de você executar o script. Para desabilitar as chamadas de saída em um gateway IP de UM, consulte desabilitar chamadas feitas em gateways IP de UM. 
 > [!IMPORTANT]
-> Você deve ter as permissões da função de gerenciamento de organização do Exchange ou ser membro do grupo de segurança Administradores de organização do Exchange para executar o script. 
+> Você deve ter as permissões da função de gerenciamento de organização do Exchange ou ser membro do grupo de segurança Administradores da organização do Exchange para executar o script. 
 
 1. Abra o Shell de gerenciamento do Exchange.
-2. No prompt do C:\Windows\System32, digite cd ** \<letter>:\Program Files\Microsoft\Exchange Server\V15\Scripts> de unidade. ExchUCUtil. Ps1**, e pressione Enter.
+2. No prompt C:\Windows\System32, digite **CD \<Drive letter>: \Arquivos de Files\Microsoft\Exchange Server\V15\Scripts>. ExchUcUtil. ps1**e, em seguida, pressione Enter.
 
-#### <a name="how-do-you-know-this-worked"></a>Como saber se isso funcionou?
+#### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
 
-Para verificar se o script ExchUcUtul.ps1 foi concluída com êxito, faça o seguinte:
-- Use o cmdlet Get-UMIPGateway ou o EAC para exibir o novo gateway IP de UM ou os gateways que foram criados.
-- Use o cmdlet Get-UMHuntGroup ou o EAC para exibir o novo grupo de busca ou grupos que foram criados.
+Para verificar se o script ExchUcUtul. ps1 foi concluído com êxito, faça o seguinte:
+- Use o cmdlet Get-UMIPGateway ou a Eat para exibir o novo gateway ou gateways IP do UM que foram criados.
+- Use o cmdlet Get-UMHuntGroup ou o Eat para exibir o novo grupo ou grupos de números de UM que foram criados.
 
-### <a name="configure-certificates-on-the-server-running-exchange-server-unified-messaging"></a>Configurar certificados no servidor executando a Unificação de mensagens do Exchange Server
+### <a name="configure-certificates-on-the-server-running-exchange-server-unified-messaging"></a>Configurar certificados no servidor que executa a Unificação de mensagens do Exchange Server
  
-Se você tiver implantado o Exchange Unified Messaging (UM), conforme descrito em Planning for Exchange Unified Messaging integration na Skype para Business Server na documentação de planejamento, e você deseja fornecer recursos de UM do Exchange para usuários do Enterprise Voice em sua organização, você pode usar os procedimentos a seguir para configurar o certificado no servidor que executa o UM do Exchange.
+Se você implantou UM (a) da Exchange Unified Messaging (UM), conforme descrito em planejando a integração de Unificação de mensagens do Exchange no Skype for Business Server na documentação de planejamento e deseja fornecer recursos de UM do Exchange para usuários do Enterprise Voice em seu organização, você pode usar os procedimentos a seguir para configurar o certificado no servidor que executa o Exchange UM.
 
 > [!IMPORTANT]
-> Para os certificados internos, tanto os servidores que executam o Skype para Business Server e os servidores que executam o Microsoft Exchange devem ter certificados raiz confiáveis autoridade que são mutuamente confiáveis. A autoridade de certificação (CA) pode ser o mesmo ou uma autoridade de certificação diferente, desde que os servidores têm um certificado de raiz da autoridade de certificação registrado no seu repositório de certificados de autoridade raiz confiável. 
+> Para certificados internos, os servidores que executam o Skype for Business Server e os servidores que executam o Microsoft Exchange devem ter certificados de autoridade raiz confiáveis que sejam confiáveis mutuamente. A autoridade de certificação (CA) pode ser a mesma ou uma autoridade de certificação diferente, desde que os servidores tenham o certificado raiz da autoridade de certificação registrado no repositório de certificados da autoridade raiz confiável. 
 
-O Exchange Server deve ser configurado com um certificado de servidor para se conectar à Skype para Business Server:
-1. Baixe o certificado de autoridade de certificação do servidor do Exchange.
-2. Instale o certificado de autoridade de certificação do servidor do Exchange.
-3. Verifique se a autoridade de certificação está na lista de certificação raiz confiáveis do Exchange Server.
-4. Criar uma solicitação de certificado para o Exchange Server e instalar o certificado. 
-5. Atribua o certificado do servidor do Exchange.
+O servidor Exchange deve ser configurado com um certificado de servidor para se conectar ao Skype for Business Server:
+1. Baixe o certificado da CA para o servidor Exchange.
+2. Instale o certificado da CA para o servidor Exchange.
+3. Verifique se a CA está na lista de autoridades de certificação raiz confiáveis do servidor Exchange.
+4. Crie uma solicitação de certificado para o servidor Exchange e instale o certificado. 
+5. Atribua o certificado para o servidor Exchange.
 
 
-**Para baixar o certificado de autoridade de certificação:**
+**Para baixar o certificado da CA:**
 
-1. No servidor executando o UM do Exchange, clique em **Iniciar**, clique em **Executar**, tipo **http://\<nome de sua autoridade de certificação emitindo Server>/certsrv**e clique em **Okey**.
-2. Em selecionar uma tarefa, clique em **baixar um certificado de autoridade de certificação, cadeia de certificados ou lista de certificados Revogados**.
-3. Em **baixar um certificado de autoridade de certificação, cadeia de certificados ou lista de certificados Revogados**, selecione **O método de codificação em Base 64**e clique em**certificado de autoridade de certificação baixar**.
+1. No servidor que executa o Exchange UM, clique em **Iniciar**, clique em **executar**, digite **http://\<nome da sua CA de emissão Server>/certsrv**e, em seguida, clique em **OK**.
+2. Em Selecione uma tarefa, clique em **baixar um certificado de autoridade de certificação, uma cadeia de certificados ou uma CRL**.
+3. Em **baixar um certificado de autoridade de certificação, uma cadeia de certificados ou uma CRL**, selecione **método de codificação para base 64**e, em seguida, clique em**baixar certificado da CA**.
    > [!NOTE]
-   > Você também pode especificar a codificação DER (regras distintas) codificação nesta etapa. Se você selecionar a codificação DER, o tipo de arquivo na próxima etapa deste procedimento e na etapa 10 de **para instalar a autoridade de certificação certificado** é. p7b, em vez de. cer. 
-4. Na caixa de diálogo **Download de arquivo** , clique em **Salvar**e salve o arquivo no disco rígido do servidor. (O arquivo terá. cer ou uma extensão de arquivo. p7b, dependendo da codificação selecionada na etapa anterior.)
+   > Você também pode especificar a codificação de regras de codificação diferenciadas (DER) nesta etapa. Se você selecionar codificação DER, o tipo de arquivo na próxima etapa deste procedimento e na etapa 10 da **para instalar o certificado da CA** será. p7b em vez de. cer. 
+4. Na caixa de diálogo **download de arquivo** , clique em **salvar**e salve o arquivo no disco rígido no servidor. (O arquivo terá uma extensão de arquivo. cer ou. p7b, dependendo da codificação que você selecionou na etapa anterior.)
 
-**Para instalar o certificado de autoridade de certificação:**
+**Para instalar o certificado de CA:**
 
-1. No servidor executando o UM do Exchange, abra o Console de gerenciamento Microsoft (MMC) clicando em **Iniciar**, clicando em **Executar**, digitando **mmc** na caixa Abrir e clicando em **Okey**.
-2. No menu **arquivo** , clique em **Adicionar/Remover Snap-in**e, em seguida, clique em **Adicionar**.
-3. Na caixa **Adicionar Snap-in autônomo** , clique em **certificados**e, em seguida, clique em **Adicionar**.
+1. No servidor que executa o Exchange UM, abra o MMC (console de gerenciamento Microsoft) clicando em **Iniciar**, em **executar**, digitando **MMC** na caixa abrir e, em seguida, clicando em **OK**.
+2. No menu **arquivo** , clique em **Adicionar/remover snap-in**e, em seguida, clique em **Adicionar**.
+3. Na caixa **Adicionar Snap-ins Autônomos** , clique em **certificados**e, em seguida, clique em **Adicionar**.
 4. Na caixa de diálogo  **Snap-in de certificados**, clique em  **Conta de computador**e, em seguida, clique em  **Avançar**.
-5. Na caixa de diálogo **Selecionar computador** , verifique se o **computador Local: (o computador em que este console está sendo executado)** caixa de seleção está selecionada e clique em **Concluir**.
-6. Clique em **Fechar**e, em seguida, clique em **Okey**. 
-7. Na árvore de console, expanda **certificados (computador Local)**, expanda **Autoridades de certificação raiz confiáveis**e clique em **certificados**.
-8. Clique com o botão **certificados**, clique em **All Tasks**e clique em **Importar**.
+5. Na caixa de diálogo **Selecionar computador** , verifique se a caixa de seleção **computador local: (o computador em que este console está sendo executado)** está marcada e clique em **concluir**.
+6. Clique em **fechar**e, em seguida, clique em **OK**. 
+7. Na árvore de console, expanda **certificados (computador local)**, expanda **autoridades de certificação raiz confiáveis**e clique em **certificados**.
+8. Clique com o botão direito do mouse em **certificados**, clique em **todas as tarefas**e clique em **importar**.
 9. Click **Next**. 
-10. Clique em **Procurar** para localizar o arquivo e clique em **Avançar**. (O arquivo terá. cer ou uma extensão de arquivo. p7b, dependendo da codificação selecionada na etapa 3 de **para baixar o certificado de autoridade de certificação**.
-11. Clique em **Colocar todos os certificados** no armazenamento a seguir.
-12. Clique em **Procurar**e selecione **Autoridades de certificação raiz confiáveis**. 
-13. Clique em **Avançar** para verificar as configurações e clique em **Concluir**. 
+10. Clique em **procurar** para localizar o arquivo e, em seguida, clique em **Avançar**. (O arquivo terá uma extensão de arquivo. cer ou. p7b, dependendo da codificação selecionada na etapa 3 de **para baixar o certificado da autoridade de certificação**.
+11. Clique em **colocar todos os certificados** no repositório a seguir.
+12. Clique em **procurar**e, em seguida, selecione **autoridades de certificação raiz confiáveis**. 
+13. Clique em **Avançar** para verificar as configurações e, em seguida, clique em **concluir**. 
 
 
-**Para verificar se a autoridade de certificação está na lista de certificação raiz confiáveis:**
+**Para verificar se a CA está na lista de autoridades de certificação raiz confiáveis:**
 
-1. No servidor executando o UM do Exchange, no MMC, expanda certificados (computador Local), expanda autoridades de certificação raiz confiáveis e clique em certificados.
-2. No painel de detalhes, verifique se a autoridade de certificação na lista de autoridades de certificação confiáveis.
+1. No servidor que executa o Exchange UM, no MMC expanda Certificados (computador local), expanda autoridades de certificação raiz confiáveis e clique em certificados.
+2. No painel detalhes, verifique se a sua CA está na lista de CAs confiáveis.
 
 

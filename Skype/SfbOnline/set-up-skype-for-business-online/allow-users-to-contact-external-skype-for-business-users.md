@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -27,17 +27,17 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 352973816e07ce60cff650f43ac6fced7f81e3b1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 727077d87486a59b956720b52ca9e6f2cf388c07
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239213"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276183"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Permitir que os usuários entrem em contato com usuários externos do Skype for Business
 
 > [!NOTE]
-> Skype para federação de negócios não está disponível para o Office 365 operado pela 21Vianet e organizações do Office 365 Alemanha. 
+> A Federação do Skype for Business não está disponível para o Office 365 operado pela 21Vianet e pelas organizações da Alemanha do Office 365. 
   
 Siga as etapas descritas neste artigo quando:
   
@@ -45,44 +45,44 @@ Siga as etapas descritas neste artigo quando:
     
 - Desejar que as pessoas em sua organização usem o Skype for Business para entrar em contato com pessoas em empresas específicas de fora de sua organização.
     
-- Deseja que qualquer pessoa no mundo que usa Skype for Business para conseguir encontrar e contatá-lo, usando seu endereço de email. Se as configurações padrão do Skype for Business forem usadas, isso funcionará automaticamente. Caso contrário, o usuário deverá verificar se a configuração não está bloqueando seu domínio.
+- Você quer que qualquer outro usuário do mundo que use o Skype for Business possa encontrá-lo e contatá-lo usando o seu endereço de e-mail. Se as configurações padrão do Skype for Business forem usadas, isso funcionará automaticamente. Caso contrário, o usuário deverá verificar se a configuração não está bloqueando seu domínio.
     
 ## <a name="enable-business-to-business-communications-for-your-users"></a>Habilitar comunicações entre empresas para os usuários
 <a name="bk_preview"> </a>
 
 Você deve ter [permissões de administrador](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) no Office 365 em ambas as organizações para fazer isso.
 
-![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando o Centro de administração de equipes**
+![Teams-logo-30x30. png](../images/teams-logo-30x30.png) **usando o centro de administração do teams**
   
-1. Entrar com sua conta de administração do Office 365. 
+1. Entre com sua conta de administrador do Office 365. 
     
-2. No Centro de administração do Office 365, vá para **Centros de Admin** > **equipes**.
+2. No centro de administração do Office 365, vá para**equipes**de **centros** > de administração.
     
-    ![Escolha o administrador de equipes.](../images/MS-Teams-Admin.png)
+    ![Escolha o administrador do teams.](../images/MS-Teams-Admin.png)
   
-3. No **Centro de equipes**, escolha **Skype** > **Portal herdada** 
- ![escolher o Portal do SfB herdada.](../images/SFBlegacy-size65.png)
+3. Na **central**do Teams, escolha **portal** 
+ ![herdado **do Skype** > escolha o portal herdado do SfB.](../images/SFBlegacy-size65.png)
  
-4. No **Skype para centro de administração de negócios** , escolha **organização** > **comunicações externas**.
-5. Para configurar a comunicação com um negócio específicos ou com usuários em outro domínio, na caixa suspensa, escolha **em somente para domínios permitidos**.
+4. No **centro de administração do Skype for Business** , escolha**comunicações externas**da **organização** > .
+5. Para configurar a comunicação com uma empresa específica ou com usuários em outro domínio, na caixa suspensa, escolha **ativado somente para os domínios permitidos**.
     
     OU, se quiser habilitar a comunicação com todos que tiverem as políticas do Skype for Business, escolha **Ativado exceto para domínios bloqueados**. Esta é a configuração padrão.
     
-6. Em **bloqueado ou domínios permitidos**, escolha **+** e adicione o nome do domínio que você deseja permitir.
+6. Em **domínios bloqueados ou permitidos**, **+** escolha e adicione o nome do domínio que você deseja permitir.
     
-7. Certificar-se de que o administrador na organização do segue essas etapas mesmas em seus **Skype para centro de administração de negócios**. Por exemplo, na lista **domínios permitidos** da outra organização, o administrador precisa inserir o domínio da sua empresa.
+7. Verifique se o administrador da outra organização executa essas mesmas etapas no centro de **Administração do Skype for Business**. Por exemplo, na lista **domínios permitidos** da outra organização, o administrador precisa inserir o domínio da sua empresa.
     
 8. Se você estiver usando o Windows Firewall, o Skype for Business abrirá as portas necessárias automaticamente.
     
-    Se a sua organização estiver usando uma solução de firewall diferente para restringir a conexão com a Internet nos computadores da rede, verifique se seus computadores clientes podem acessar os [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) a seguir. Talvez seja necessário adicionar os FQDNs para a saída configuração da infraestrutura de lista no seu firewall ou proxy de permissões: ** \*. api.skype.com**, \* **. users.storage.live.com**e **graph.skype.com**. Para obter instruções sobre como abrir essas portas em seu firewall, consulte a documentação que o acompanha.
+    Se a sua organização estiver usando uma solução de firewall diferente para restringir a conexão com a Internet nos computadores da rede, verifique se seus computadores clientes podem acessar os [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) a seguir. Isso pode exigir a adição dos FQDNs à lista de permissões de saída em seu firewall ou configuração de infraestrutura de proxy \*: ** \*. API.Skype.com**, **. Users.Storage.Live.com**e **Graph.Skype.com**. Para obter instruções sobre como abrir essas portas no firewall, consulte a documentação que a acompanha.
     
-    Para obter uma lista de todas as portas que precisam ser abertas, consulte [URLs do Office 365 e intervalos de endereços IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
+    Para obter uma lista de todas as portas que você precisa abrir, consulte [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
 
-9. Certifique-se de que o administrador da organização também tiver seguido essas etapas.
+9. Verifique se o administrador da organização também seguiu estas etapas.
     
 10. **AGUARDE 24 HORAS PARA FAZER O TESTE**. Em qualquer momento que você alterar as configurações das comunicações externas, poderá levar até 24 horas para as alterações serem efetivadas em todos os data centers.
     
-![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Você pode permitir que seus usuários pesquisem todas as pessoas que usam o Skype (o aplicativo gratuito!) e enviem mensagens instantâneas para elas. Para saber mais, consulte [Skype permitem que usuários corporativos adicionar contatos do Skype](let-skype-for-business-users-add-skype-contacts.md).
+![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Você pode permitir que seus usuários pesquisem todas as pessoas que usam o Skype (o aplicativo gratuito!) e enviem mensagens instantâneas para elas. Para saber mais, confira [permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md).
   
 ## <a name="test-and-troubleshoot"></a>Testar e solucionar problemas
 <a name="bk_preview"> </a>
@@ -95,7 +95,7 @@ Para testar sua configuração, você precisa de um contato no Skype for Busines
     
 2. No Skype for Business, pesquise seu contato no Skype for Business, e envie uma solicitação para chat.
     
-    Se você receber uma mensagem que ele não pôde ser enviado devido à política da empresa, você precisará verificar novamente suas [URLs do Office 365 e intervalos de endereços IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
+    Se você receber uma mensagem informando que ela não foi enviada devido à política da empresa, você precisa verificar novamente suas [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
     
 3. Peça ao seu contato do Skype for Business para lhe enviar uma solicitação de conversa. Se você não receber a solicitação, o problema são as suas configurações de firewall (assumindo que já tenha sido confirmado que as configurações de firewall estão corretas).
     
@@ -104,37 +104,37 @@ Para testar sua configuração, você precisa de um contato no Skype for Busines
 ## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>Como localizar pessoas e ser localizado ao conectar-se com outra empresa
 <a name="bk_preview"> </a>
 
-Após habilitar comunicações externas com outro Skype para usuários corporativos, os usuários podem encontrar Skype federado para usuários comerciais pesquisando por seu nome de entrada: por exemplo, Rob@contoso.com. Então, eles deverão adicionar a pessoa à lista de contatos.
+Depois de habilitar a comunicação externa com outros usuários do Skype for Business, os usuários podem encontrar usuários federados do Skype for Business procurando por seu nome de entrada: por exemplo, Rob@contoso.com. Então, eles deverão adicionar a pessoa à lista de contatos.
   
-![Para localizar um usuário em uma empresa federada, você deve procurar por seus endereços de email (Isso é geralmente também seu nome de usuário).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
+![Para localizar um usuário em uma empresa federada, você deve pesquisar seu endereço de email (geralmente, isso também é o nome do usuário).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>Dicas para configurar comunicações com empresas federadas
 <a name="bk_preview"> </a>
 
-- Para configurar a federação entre Skype para negócios 2015 e Skype para Business Online, consulte este artigo: [Configurar federação com Skype para negócios Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
+- Para configurar a Federação entre o Skype for Business 2015 e o Skype for Business Online, confira este artigo: [Configurar a Federação com o Skype for Business online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
     
-- Para configurar a federação entre o Lync e Skype para Business Online, consulte este artigo: [Configurando o suporte de federação para um cliente Lync Online](https://technet.microsoft.com/en-us/library/hh202193.aspx).
+- Para configurar a Federação entre o Lync e o Skype for Business Online, confira este artigo: Configurando o [suporte de Federação para um cliente do Lync Online](https://technet.microsoft.com/en-us/library/hh202193.aspx).
     
 - Quando dois usuários do Skype for Business no Office 365 estão se comunicando entre si em domínios separados, eles só podem usar os recursos do Skype for Business (por exemplo, conversas por vídeo ou compartilhamento de área de trabalho) que estejam ativados em ambas as organizações.
     
-- Se um Skype para usuários de negócios de sua organização é colocado em um In-loco ou retenção de litígio, qualquer conversas de mensagens Instantâneas entre esse usuário e outra Skype para usuários corporativos ou Skype serão salvo no **Itens recuperáveis** em suas caixas de correio. Essas conversas não serão salvas na pasta **Histórico da Conversa** de suas caixas de correio.
+- Se um usuário do Skype for Business em sua organização for colocado em um local ou em uma retenção de litígio, todas as conversas de mensagens instantâneas entre esse usuário e outros usuários do Skype for Business ou do Skype serão salvas em **itens recuperáveis** na caixa de correio. Essas conversas não serão salvas na pasta **Histórico da Conversa** de suas caixas de correio.
     
 ## <a name="turn-off-external-communication-for-specific-individuals"></a>Desativar a comunicação externa para indivíduos específicos
 <a name="bk_preview"> </a>
 
 Depois de habilitar a comunicação externa para toda a sua empresa, você poderá desativá-la para indivíduos específicos.
   
-1. Entrar com sua conta de administração do Office 365.
+1. Entre com sua conta de administrador do Office 365.
     
-2. No Centro de administração do Office 365, vá para **usuários** > **usuários ativos**.
+2. No centro de administração do Office 365, vá **** > para usuários**ativos**do Office.
     
 3. Na lista de usuários, escolha o usuário e, em **Mais Configurações**, clique em **Editar as propriedades do Skype for Business**.
     
     ![Choose Skype for Business](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   
-4. No **Skype para centro de administração de negócios**, escolha **comunicações externas**.
+4. No **centro de administração do Skype for Business**, escolha **comunicações externas**.
     
-    Na página **Opções** , todas as opções serão selecionadas. Desmarque a comunicações que você deseja desabilitar. A imagem a seguir mostra que Júlio poderá se comunicar com pessoas em outras empresas confiáveis, mas não com outros usuários do Skype.
+    Na página **Opções** , todas as opções serão selecionadas. Desmarque as comunicações que você deseja desabilitar. A imagem a seguir mostra que Júlio poderá se comunicar com pessoas em outras empresas confiáveis, mas não com outros usuários do Skype.
     
     ![Choose External contacts](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
   

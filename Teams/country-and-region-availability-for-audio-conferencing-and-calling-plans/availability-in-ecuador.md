@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Equador.
-ms.openlocfilehash: a06faa5d56d379984f224005fc3ea3a844820f7a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Equador.
+ms.openlocfilehash: a400719208b879b6170fd2c88c58456b6eef6518
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32248083"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283046"
 ---
 # <a name="availability-in-ecuador"></a>Disponibilidade no Equador
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Equador.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Equador.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 

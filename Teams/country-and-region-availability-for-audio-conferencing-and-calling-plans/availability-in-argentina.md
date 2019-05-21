@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Argentina.
-ms.openlocfilehash: c87e8578597d9e185cec60f332af5ac758a3047c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Argentina.
+ms.openlocfilehash: 652fd1b734765243ac606507a08c23ce4e900294
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198421"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283342"
 ---
 # <a name="availability-in-argentina"></a>Disponibilidade na Argentina
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Argentina.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Argentina.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -63,15 +63,15 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Chamada Tarifada e números de Chamada Tarifada gratuita para os serviços
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamada tarifada e gratuita para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | <ul><li>Buenos Aires <li>Córdoba <li>La Plata <li>Mar Plata Del <li>Mendoza <br/>  <li>SAN Miguel de Tucuman <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | <ul><li>Buenos Aires <li>Córdoba <li>La Plata <li>Plata do Mar del <li>Mendoza <br/>  <li>San Pedro de Tucuman <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
-|Números gratuitos tarifados estão disponíveis?  <br/> |Sim  <br/> |
+|Números de chamada gratuita estão disponíveis?  <br/> |Sim  <br/> |
    
- Se você quiser fazer chamada e chamada números de telefone gratuito para audioconferências, atendedores automáticos de um e filas de chamada, consulte [Getting números de telefone de serviço para Skype para equipes da Microsoft e de negócios](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+ Se quiser obter números de telefone de chamada tarifada e gratuita para videoconferências, atendedores automáticos e filas de chamadas, consulte [obtendo números de telefone de serviço para o Skype for Business e o Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

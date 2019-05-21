@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/8/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.MediationCollocation
@@ -13,17 +13,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
-description: 'Por padrão, o servidor de mediação está colocado com o servidor Front-End. O servidor de mediação também podem ser implantado em um pool autônomo por motivos de desempenho, ou se você implantar o tronco SIP, caso em que o pool autônomo é altamente recomendável. Posicionamento em Skype para funções de servidor de negócios apenas como ela foi feito no Lync Server 2013. Para detalhes, consulte os seguintes tópicos:'
-ms.openlocfilehash: 94d290936d77e6e55270594fdfa5d73d170059e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'O servidor de mediação é posicionado com o servidor front-end por padrão. O servidor de mediação também pode ser implantado em um pool autônomo por motivos de desempenho, ou se você implantar o entroncamento SIP, caso em que o pool autônomo seja altamente recomendado. A colocação no Skype for Business Server funciona da mesma forma que no Lync Server 2013. Para detalhes, consulte os seguintes tópicos:'
+ms.openlocfilehash: 197e2f171882f41d7297a8d82f1e251d35d3e833
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912089"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278196"
 ---
 # <a name="mediation-collocation-planning-tool"></a>Mediation Collocation (Planning Tool)
  
-Por padrão, o servidor de mediação está colocado com o servidor Front-End. O servidor de mediação também podem ser implantado em um pool autônomo por motivos de desempenho, ou se você implantar o tronco SIP, caso em que o pool autônomo é altamente recomendável. Posicionamento em Skype para funções de servidor de negócios apenas como ela foi feito no Lync Server 2013. Para detalhes, consulte os seguintes tópicos:
+O servidor de mediação é posicionado com o servidor front-end por padrão. O servidor de mediação também pode ser implantado em um pool autônomo por motivos de desempenho, ou se você implantar o entroncamento SIP, caso em que o pool autônomo seja altamente recomendado. A colocação no Skype for Business Server funciona da mesma forma que no Lync Server 2013. Para detalhes, consulte os seguintes tópicos:
   
 - [Colocação em conjunto de servidor suportado no Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425885%28v=ocs.15%29.aspx)
     

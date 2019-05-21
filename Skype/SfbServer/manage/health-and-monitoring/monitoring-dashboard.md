@@ -1,35 +1,35 @@
 ---
-title: Usando o painel de monitoramento no Skype para Business Server
+title: Usar o painel de monitoramento no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
-description: 'Resumo: Saiba mais sobre o painel de monitoramento no Skype para Business Server.'
-ms.openlocfilehash: 9e670ef971b6be9988167f82f21e855cbc8083a4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o painel de monitoramento no Skype for Business Server.'
+ms.openlocfilehash: 0ca85bff7cfcad7f3b64a4b0f5b92a22299e5719
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902850"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279925"
 ---
-# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Usando o painel de monitoramento no Skype para Business Server
+# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Usar o painel de monitoramento no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o painel de monitoramento no Skype para Business Server.
+**Resumo:** Saiba mais sobre o painel de monitoramento no Skype for Business Server.
   
-O painel de monitoramento fornece aos administradores uma visão geral rápida dos seu Skype para uso de sistema e de integridade do sistema Business Server. O Painel foi projetado para fornecer uma exibição agregada das principais métricas do sistema e para fazer isso exibindo:
+O painel Monitoramento fornece aos administradores uma rápida visão geral da integridade do sistema e do uso do sistema do Skype for Business Server. O Painel foi projetado para fornecer uma exibição agregada das principais métricas do sistema e para fazer isso exibindo:
   
-- Os totais para o dia atual. Observe que os valores mostrados para o dia atual representam dados que foram gravados da meia-noite até a hora atual (com base na hora local do servidor de relatório). Isso significa que você geralmente estará vendo dados referentes a um dia parcial, não a um período de 24 horas. Por exemplo, se a hora local do servidor é 8:00 AM, você verá vale oito horas de dados porque há oito horas entre meia-noite e a hora atual de 8:00 AM.
+- Os totais para o dia atual. Observe que os valores mostrados para o dia atual representam dados que foram gravados da meia-noite até a hora atual (com base na hora local do servidor de relatório). Isso significa que você geralmente estará vendo dados referentes a um dia parcial, não a um período de 24 horas. Por exemplo, se a hora local do servidor for 8:00 AM, você verá a importância de oito horas de dados porque há oito horas entre a meia-noite e a hora atual do 8:00 AM.
     
 - Totais para a semana e totais de tendência das últimas seis semanas.
     
 - Totais para o mês e os totais de tendência dos últimos seis meses (apenas para uso do sistema).
     
-Observe que você pode usar o cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) para retornar a URL usada para acessar o Skype para relatórios de monitoramento de servidor de negócios:
+Observe que você pode usar o cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) para retornar a URL usada para acessar os relatórios de monitoramento do Skype for Business Server:
   
 ```
 Get-CsReportingConfiguration
@@ -155,7 +155,7 @@ Conforme observado, os totais padrões são mostrados para a semana atual e os v
 Os valores mostrados nas colunas **Esta semana**, **Este mês** ou **Hoje** vinculam você às informações mais detalhadas sobre o item. Lembre-se de que o nome da coluna e os valores exibidos nesta coluna frequentemente são diferentes dependendo da métrica escolhida e dependendo se você selecionou exibição semanal ou mensal. Por exemplo, se você clicar nos totais exibidos para a métrica **Logons de usuário exclusivos**, você verá o **Relatório de Registro do Usuário** para o período especificado. É possível retornar para o Painel de Monitoramento a qualquer momento clicando em **Painel**.
   
 > [!TIP]
-> Você também pode acessar a home page do Monitoring Server Reports clicando no link **relatórios** no canto superior direito do painel de controle.
+> Você também pode acessar a Home Page de relatórios do Monitoring Server clicando no link **relatórios** no canto superior direito do painel.
   
 A coluna **Tendência** exibe um gráfico de linha simples que mostra os totais das últimas seis semanas (ou, dependendo da métrica e do intervalo de tempo, os últimos seis dias ou últimos seis meses). Esses gráficos de linha simples mostram um ponto de dados não rotulado para cada período (por exemplo, um ponto de dados não rotulado para cada uma das últimas seis semanas). No entanto, é possível recuperar os valores reais desses gráficos mantendo o ponteiro do mouse sobre o gráfico. Nesse caso, uma dica de tela mostra os valores máximos e mínimo no gráfico.
   
@@ -177,7 +177,7 @@ O Painel de Monitoramento oferece várias formas de exportar a exibição do pai
     
 - Word
     
-Para exportar a exibição do painel atual (e seus valores), clique na opção de exportação desejada. Skype para Business Server gera um relatório no formato especificado e, em seguida, fornecer a opção de abrir esse relatório ou salvá-lo. Observe que, por padrão, Skype para Business Server títulos do **Painel de monitoramento** de relatório e salva-o em sua pasta de Downloads. Para dar um nome diferente ou armazená-lo em uma pasta diferente, clique na seta ao lado do botão **Salvar** e clique em **Salvar Como**. Se você concorda com o nome **Painel de Monitoramento** e em salvar na pasta Downloads, basta clicar no botão **Salvar**.
+Para exportar a exibição do painel atual (e seus valores), clique na opção de exportação desejada. O Skype for Business Server gera um relatório no formato especificado e oferece a opção de abrir esse relatório ou salvá-lo. Observe que, por padrão, o Skype for Business Server títulos o **painel Monitoramento** de relatório e salva-o na pasta downloads. Para dar um nome diferente ou armazená-lo em uma pasta diferente, clique na seta ao lado do botão **Salvar** e clique em **Salvar Como**. Se você concorda com o nome **Painel de Monitoramento** e em salvar na pasta Downloads, basta clicar no botão **Salvar**.
   
 É possível que, ao tentar exportar os dados do painel, uma caixa de diálogo **Alerta de Segurança** seja exibida junto com a mensagem "Suas configurações atuais não permitem que este arquivo seja baixado". Se isso ocorrer, faça o seguinte:
   
@@ -185,7 +185,7 @@ Para exportar a exibição do painel atual (e seus valores), clique na opção d
     
 - Na caixa de diálogo **Opções de Internet**, na guia **Segurança**, clique em **Sites confiáveis** e em **Sites**.
     
-- Na caixa de diálogo **sites confiáveis** , clique em **Adicionar** para adicionar o Skype para Business Server que está executando o Skype para relatórios do servidor de negócios para os conjuntos de sites confiáveis.
+- Na caixa de diálogo **sites confiáveis** , clique em **Adicionar** para adicionar o Skype for Business Server que está executando os relatórios do Skype for Business Server às coleções de sites confiáveis.
     
 - Clique em **Fechar** e em **OK**.
     

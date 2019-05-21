@@ -4,21 +4,21 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'A migração do aplicativo inclui o Skype para Business Server 2019 pool com qualquer música personalizada em espera arquivos carregados na instalar herdado de provisionamento de estacionamento de chamada, restaurando as configurações de nível de serviço e redirecionando estacionamento de chamada todas as Órbitas para o Skype para Business Server 2019 pool. Se os arquivos de música de espera personalizados tiverem sido configurados no pool, esses arquivos precisam ser copiados para o novo Skype para Business Server 2019 pool. Além disso, é recomendável que você fazer backup de qualquer estacionamento de chamada personalizado arquivos de música de espera para outro destino para manter uma cópia de backup separada de qualquer música de espera arquivos personalizados que foram carregados para estacionamento de chamadas. Os arquivos de música de espera personalizados para o aplicativo de estacionamento de chamada são armazenados no armazenamento de arquivos do pool. Para copiar os arquivos de áudio de um repositório de arquivo do pool para um Skype para Business Server 2019 file store, use o comando Xcopiar com os seguintes parâmetros:'
-ms.openlocfilehash: 3d9c2904d66ac5d35bdd94631ec23c67288a5c3a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'A migração do aplicativo de estacionamento de chamadas inclui o provisionamento do pool do Skype for Business Server 2019 com qualquer música personalizada em arquivos de retenção que foram carregados na instalação herdada, a restauração das configurações de nível de serviço e o redirecionamento de todas as órbitas do estacionamento de chamada para o Pool do Skype for Business Server 2019. Se os arquivos de música em espera personalizados tiverem sido configurados no pool, esses arquivos precisarão ser copiados para o novo pool do Skype for Business Server 2019. Além disso, é recomendável que você faça backup de todos os arquivos de música em espera personalizados de qualquer telefone para outro destino para manter uma cópia de backup separada de todos os arquivos de música em espera personalizados que foram carregados para o parque da chamada. Os arquivos de música em espera personalizados para o aplicativo de estacionamento de chamadas são armazenados no repositório de arquivos do pool. Para copiar os arquivos de áudio de um repositório de arquivos de pool para um repositório de arquivos do Skype for Business Server 2019, use o comando xcopy com os seguintes parâmetros:'
+ms.openlocfilehash: aa4ac3cfbe6802b8853a8ec8886f8fffe1a20a51
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238370"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280825"
 ---
 # <a name="migrate-call-park-application-settings"></a>Migrar configurações do aplicativo do Estacionamento de Chamada
 
-A migração do aplicativo estacionamento de chamadas inclui o provisionamento do Skype para Business Server 2019 pool com quaisquer arquivos de música de espera personalizados que foram carregados na instalar herdado, restaurando as configurações de nível de serviço e o direcionamento novamente todas as Órbitas de estacionamento de chamada para o Skype para Business Server 2019 pool. Se os arquivos de música de espera personalizados tiverem sido configurados no pool, esses arquivos precisam ser copiados para o novo Skype para Business Server 2019 pool. Além disso, é recomendável que você fazer backup de qualquer estacionamento de chamada personalizado arquivos de música de espera para outro destino para manter uma cópia de backup separada de qualquer música de espera arquivos personalizados que foram carregados para estacionamento de chamadas. Os arquivos de música de espera personalizados para o aplicativo de estacionamento de chamada são armazenados no armazenamento de arquivos do pool. Para copiar os arquivos de áudio de um repositório de arquivo do pool para um Skype para Business Server 2019 file store, use o comando **Xcopiar** com os seguintes parâmetros: 
+A migração do aplicativo de estacionamento de chamadas inclui o provisionamento do pool do Skype for Business Server 2019 com qualquer arquivo de música em espera personalizado que tenha sido carregado na instalação herdada, restauração das configurações do nível de serviço e redirecionamento de todas as órbitas do estacionamento de chamada ao pool do Skype for Business Server 2019. Se os arquivos de música em espera personalizados tiverem sido configurados no pool, esses arquivos precisarão ser copiados para o novo pool do Skype for Business Server 2019. Além disso, é recomendável que você faça backup de qualquer chamada personalizada em arquivos de música em espera para outro destino para manter uma cópia de backup separada de todos os arquivos de música em espera personalizados que foram carregados para o parque de chamadas. Os arquivos de música em espera personalizados para o aplicativo de estacionamento de chamadas são armazenados no repositório de arquivos do pool. Para copiar os arquivos de áudio de um repositório de arquivos de pool para um repositório de arquivos do Skype for Business Server 2019, use o comando **xcopy** com os seguintes parâmetros: 
 
 ```
 Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business Server 2019 Pool CPS File Store Path>
@@ -28,40 +28,40 @@ Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business
 Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Skype for Business Server 2019 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
 ```
 
-Quando todos os arquivos de áudio personalizados foram copiados para o Skype para Business Server 2019 file store, as configurações do aplicativo de estacionamento de chamada do Skype para o servidor de negócios 2019 pool deve ser configurado e estacionamento de chamada órbita intervalos que estão associados ao pool herdado devem ser reatribuídos para o Skype para Business Server 2019 pool.
+Quando todos os arquivos de áudio personalizados foram copiados para o repositório de arquivos do Skype for Business Server 2019, as configurações do aplicativo de estacionamento de chamada do pool do Skype for Business Server 2019 devem ser configuradas e os intervalos de estacionador de chamadas em órbita associados ao pool herdado deve ser reatribuído ao pool do Skype for Business Server 2019.
 
-As configurações do aplicativo de estacionamento de chamada incluem o limite de tempo limite de retirada, habilitando ou desabilitando a música em espera, as tentativas de retirada de máximo de chamadas e a solicitação de tempo limite. Você deve gerenciar configurações do aplicativo de estacionamento de chamada usando o Skype para Business Server Management Shell para executar o cmdlet **Set-CsCpsConfiguration** . Você não pode gerenciar as configurações do aplicativo de estacionamento de chamada usando o Skype para painel de controle do servidor de negócios. 
+As configurações do aplicativo de estacionamento de chamada incluem o limite de tempo limite de separação, habilitando ou desabilitando música em espera, o número máximo de tentativas de chamadas e a solicitação de tempo limite. Você deve gerenciar as configurações do aplicativo parque de chamadas usando o Shell de gerenciamento do Skype for Business Server para executar o cmdlet **set-CsCpsConfiguration** . Não é possível gerenciar as configurações do aplicativo parque de chamadas usando o painel de controle do Skype for Business Server. 
 
-## <a name="reconfigure-the-call-park-service-settings"></a>Reconfigurar as definições do serviço de estacionamento de chamada
+## <a name="reconfigure-the-call-park-service-settings"></a>Reconfigurar as configurações de serviço do estacionamento de chamada
 
-1. Em Skype para Business Server 2019 servidor Front-End, abra o Skype do Shell de gerenciamento do servidor de negócios.
+1. No servidor front-end do Skype for Business Server 2019, abra o Shell de gerenciamento do Skype for Business Server.
 
 2. Na linha de comando, digite o seguinte:
 
     > [!NOTE]
-    > Se seu Skype para configurações de aplicativo de negócios Server 2019 Call Park é idêntica às configurações herdadas, você poderá ignorar esta etapa. Se as configurações do aplicativo de estacionamento de chamada são diferentes para o Skype para ambientes de legado e Business Server 2019, use o cmdlet abaixo como modelo para atualizar essas alterações. 
+    > Se as configurações do aplicativo parque de chamadas do Skype for Business Server 2019 forem idênticas às configurações herdadas, você poderá ignorar esta etapa. Se as configurações do aplicativo de estacionamento de chamada forem diferentes para o Skype for Business Server 2019 e ambientes herdados, use o cmdlet abaixo como um modelo para atualizar essas alterações. 
 
    ```
    Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
    ```
 
-Para reatribuir todos os intervalos de órbita estacionamento de chamada do pool herdado para o Skype para Business Server 2019 pool, você pode usar o Skype para painel de controle do Business Server ou o Skype do Shell de gerenciamento do servidor de negócios. 
+Para reatribuir todos os intervalos órbitas do estacionamento de chamadas do pool herdado ao pool do Skype for Business Server 2019, você pode usar o painel de controle do Skype for Business Server ou o Shell de gerenciamento do Skype for Business Server. 
 
-## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-control-panel"></a>Reatribuir todos os intervalos de órbita de estacionamento de chamada usando o Skype para painel de controle do servidor de negócios
+## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-control-panel"></a>Reatribuir todas as faixas órbitas do estacionamento de chamadas usando o painel de controle do Skype for Business Server
 
-1. Abra o Skype para painel de controle do servidor de negócios.
+1. Abra o painel de controle do Skype for Business Server.
 
-2. No painel esquerdo, selecione **Os recursos de voz**.
+2. No painel esquerdo, selecione **recursos de voz**.
 
-3. Selecione a guia **Estacionamento de chamadas** . 
+3. Selecione a guia **estacionamento de chamadas** . 
 
-4. Para cada intervalo de órbita de estacionamento de chamadas atribuído a um pool herdado, edite a definição de **FQDN do servidor de destino** e selecione o Skype para pool de negócios Server 2019 que processará as solicitações do estacionamento de chamadas. 
+4. Para cada intervalo de linha de plano de chamada atribuída a um pool herdado, edite a configuração do **FQDN do servidor de destino** e selecione o pool do Skype for Business Server 2019 que processará as solicitações de estacionamento de chamadas. 
 
-5. Selecione **Confirmar** para salvar as alterações. 
+5. Selecione **confirmar** para salvar as alterações. 
 
-## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-management-shell"></a>Reatribuir todos os intervalos de órbita de estacionamento de chamada usando o Skype para Business Server Management Shell
+## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-management-shell"></a>Reatribuir todas as faixas órbitas do estacionamento de chamadas usando o Shell de gerenciamento do Skype for Business Server
 
-1. Abra o Skype do Shell de gerenciamento do servidor de negócios.
+1. Abrir o Shell de gerenciamento do Skype for Business Server.
 
 2. Na linha de comando, digite o seguinte:
 
@@ -69,14 +69,14 @@ Para reatribuir todos os intervalos de órbita estacionamento de chamada do pool
    Get-CsCallParkOrbit
    ```
 
-    Esse cmdlet lista todos os intervalos de órbita de estacionamento de chamada na implantação. Todas as Órbitas de estacionamento de chamada com os parâmetros **CallParkServiceId** e **CallParkServerFqdn** definido como o pool herdado devem ser reatribuídas. 
+    Esse cmdlet lista todos os intervalos de o parque de chamadas órbitas na implantação. Todas as órbitas do estacionamento de chamada com os parâmetros **CallParkServiceId** e **CallParkServerFqdn** definidas como o pool herdado devem ser reatribuídas. 
 
-    Para reatribuir a órbita de estacionamento de chamada herdada intervalos para o Skype para pool de negócios 2019 de servidor, na linha de comando, digite o seguinte:
+    Para reatribuir os intervalos de linha de chamada de barra de chamadas herdadas ao pool do Skype for Business Server 2019, na linha de comando, digite o seguinte:
 
    ```
    Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Skype for Business Server 2019 Pool FQDN>"
    ```
 
-Depois de reatribuir todos os intervalos de órbita de estacionamento de chamada para o Skype para Business Server 2019 pool, o processo de migração para o aplicativo de estacionamento de chamada será concluído e o Skype para Business Server 2019 pool lidará com todas as solicitações futuras de estacionamento de chamadas.
+Depois de reatribuir todos os intervalos de chamada de estacionamento de chamada ao pool do Skype for Business Server 2019, o processo de migração para o aplicativo de estacionamento de chamadas será concluído e o pool do Skype for Business Server 2019 cuidará de todas as solicitações de suporte ao parque do Skype.
 
 

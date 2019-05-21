@@ -5,25 +5,25 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeploySSRSGroups
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
-description: No grupo especificar somente leitura, especifique o grupo ao qual você deseja conceder acesso somente leitura aos relatórios de monitoramento.
-ms.openlocfilehash: 7ab1c77f034ceaeb32d591ac94f37ee77f534c41
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: No grupo especificar somente leitura, especifique o grupo para quem você deseja conceder acesso somente leitura para monitorar relatórios.
+ms.openlocfilehash: 144e11fe5e31db74581aa71c33b4408a8961c1ea
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925113"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284733"
 ---
 # <a name="sql-server-reporting-services-groups"></a>SQL Server Reporting Services (Grupos)
 
-**Especificar grupo de somente leitura**, especifique o grupo ao qual você deseja conceder acesso somente leitura aos relatórios de monitoramento. Use o formato &lt;domínio&gt;\\&lt;grupo acesso&gt;. Por exemplo: contoso\RTCUniversalReadOnlyAdmins.
+No **grupo especificar somente leitura**, especifique o grupo para quem você deseja conceder acesso somente leitura para monitorar relatórios. Use o grupo &lt;&gt;Formatar&gt;\\&lt;acesso do domínio. Por exemplo: contoso\RTCUniversalReadOnlyAdmins.
   
-Atribuir um grupo acesso somente leitura é opcional. Se você não quiser conceder acesso somente leitura agora, você pode configurá-lo mais tarde diretamente no SQL Server Reporting Services.
+Atribuir um grupo o acesso somente leitura é opcional. Se você não quiser conceder acesso somente leitura agora, você pode configurá-lo mais tarde diretamente no SQL Server Reporting Services.
   
 

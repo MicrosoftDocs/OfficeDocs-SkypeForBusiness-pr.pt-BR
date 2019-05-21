@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para a China.
-ms.openlocfilehash: fa2a73cfb3ae553dfae9d52b8f441c759ea904d6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a China.
+ms.openlocfilehash: 3259ed47a467003bff181ac8650b50b665be2328
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32248171"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283134"
 ---
 # <a name="availability-in-china"></a>Disponibilidade na China
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para a China.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a China.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 

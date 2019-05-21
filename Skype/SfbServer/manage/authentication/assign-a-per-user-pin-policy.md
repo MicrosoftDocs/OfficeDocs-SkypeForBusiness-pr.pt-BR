@@ -1,28 +1,28 @@
 ---
-title: Atribuir uma política de PIN por usuário no Skype para Business Server
+title: Atribuir uma política de PIN por usuário no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
-description: 'Resumo: Estágio AV e OAuth certificados para Skype para Business Server.'
-ms.openlocfilehash: 777944be2a2db32e4662b8afecac0023bdd2ab91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: testar o AV e certificados OAuth para o Skype for Business Server.'
+ms.openlocfilehash: dafb70239552b9ee2c5e84e7624e881711e8ce6f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902664"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278353"
 ---
-# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Atribuir uma política de PIN por usuário no Skype para Business Server
+# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Atribuir uma política de PIN por usuário no Skype for Business Server
 
-**Resumo:** Estágio AV e OAuth certificados para Skype para Business Server.
+**Resumo:** Testar o AV e certificados OAuth para o Skype for Business Server.
   
-A política PIN (número) de identificação pessoal de conferência discada é uma das configurações individuais de uma conta de usuário que podem ser configuradas no Skype para painel de controle do servidor de negócios.
+A política de número de identificação pessoal (PIN) da conferência discada é uma das configurações individuais de uma conta de usuário que pode ser configurada no painel de controle do Skype for Business Server.
   
 A implantação de uma ou mais políticas de PIN por usuário é opcional. Também é possível implantar somente uma política de PIN de nível global ou política de PIN de nível de site. Se você implantar políticas por usuário, deverá atribui-las explicitamente aos usuários, grupos ou objeto de contato. Direitos e permissões do usuário relacionados ao uso de PINs para conferência discada assumem automaticamente o padrão daqueles definidos na política de PIN de nível global quando nenhuma política específica de nível de site ou por usuário é atribuída.
   
@@ -32,7 +32,7 @@ Após a criação de pelo menos uma política de PIN por usuário, use o procedi
 
 1. Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server.  
     
 3. Na barra de navegação esquerda, clique em **Usuários**.
     
@@ -55,7 +55,7 @@ Após a criação de pelo menos uma política de PIN por usuário, use o procedi
     > [!TIP]
     > Para adicionar cláusulas de pesquisa adicionais à sua consulta, clique em **Adicionar filtro**. 
   
-   f. Clique em **Localizar**.
+   vocálico. Clique em **Localizar**.
     
 6. Clique em um usuário nos resultados da pesquisa, clique em **Ação** e em seguida, clique em **Atribuir políticas**.
     
@@ -65,9 +65,9 @@ Após a criação de pelo menos uma política de PIN por usuário, use o procedi
 7. Em **Atribuir Políticas**, em **Política de PIN**, execute uma das seguintes ações:
     
     > [!NOTE]
-    > Porque há várias políticas que você pode definir usando a caixa de diálogo **Atribuir políticas** , ** \<manter encontram\> ** é selecionada por padrão para cada política na caixa de diálogo. Continue usando a política atribuída anteriormente ao usuário não realizando alterações nesta configuração.
+    > Como há várias diretivas que você pode configurar usando a caixa de diálogo **atribuir políticas** , ** \<manter como está\> ** selecionado por padrão para cada política na caixa de diálogo. Continue usando a política atribuída anteriormente ao usuário não realizando alterações nesta configuração.
   
-   - Permitir Skype para Business Server escolha automaticamente a política a nível global ou, se definida, a política de nível de site.
+   - Permitir que o Skype for Business Server escolha automaticamente a política de nível global ou, se definida, a política de nível de site.
     
    - Clique no nome de uma política PIN por usuário definida anteriormente na página  **Política de PIN**.
     
@@ -76,9 +76,9 @@ Após a criação de pelo menos uma política de PIN por usuário, use o procedi
   
 8. Ao concluir, clique em **OK**.
     
-## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Atribuindo uma política de PIN por usuário usando Cmdlets do Windows PowerShell
+## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Atribuindo uma política de PIN por usuário usando cmdlets do Windows PowerShell
 
-Você pode atribuir políticas de PIN de por usuário usando o Windows PowerShell e o cmdlet **Grant-CsPinPolicy** . Você pode executar esse cmdlet a partir do Skype do Shell de gerenciamento do servidor de negócios ou uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype para Business Server, consulte o artigo do blog ["rápida iniciar: Gerenciando Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo em Skype para Business Server.
+Você pode atribuir políticas de PIN por usuário usando o Windows PowerShell e o cmdlet **Grant-CsPinPolicy** . Você pode executar esse cmdlet a partir do Shell de gerenciamento do Skype for Business Server ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo ["início rápido: Gerenciando o Microsoft Lync Server 2010 usando o PowerShell remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>Para atribuir uma política PIN por usuário a um único usuário
 
@@ -90,7 +90,7 @@ Você pode atribuir políticas de PIN de por usuário usando o Windows PowerShel
 
 ### <a name="to-assign-a-per-user-pin-policy-to-multiple-users"></a>Para atribuir uma política PIN por usuário a vários usuários
 
-- O seguinte comando atribui a política PIN por usuário RedmondUsersPinPolicy a todos os usuários que trabalham na cidade de Redmond. Para obter detalhes sobre o parâmetro LdapFilter usada nesse comando, consulte [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
+- O seguinte comando atribui a política PIN por usuário RedmondUsersPinPolicy a todos os usuários que trabalham na cidade de Redmond. Para obter detalhes sobre o parâmetro LdapFilter usado neste comando, consulte [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
@@ -108,4 +108,4 @@ Para obter detalhes, consulte [Grant-CsPinPolicy](https://docs.microsoft.com/pow
   
 ## <a name="see-also"></a>Confira também
 
-[Criar uma nova política PIN no Skype para Business Server](create-a-new-pin-policy.md)
+[Criar uma nova política de PIN no Skype for Business Server](create-a-new-pin-policy.md)

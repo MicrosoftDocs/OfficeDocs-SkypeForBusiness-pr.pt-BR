@@ -1,25 +1,25 @@
 ---
-title: Subrelatório de resumo P2P no Skype para Business Server
+title: Sub-relatório de resumo ponto a ponto no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
-description: 'Resumo: Saiba mais sobre o subrelatório de resumo P2P no Skype para Business Server.'
-ms.openlocfilehash: 019682818d25fcd0088cb47fe51e12a17b9ce1bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o sub-relatório de Resumo de P2P no Skype for Business Server.'
+ms.openlocfilehash: 5238e910896a6af956285235d7e1234fe17fe005
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915815"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279911"
 ---
-# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Subrelatório de resumo P2P no Skype para Business Server
+# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Sub-relatório de resumo ponto a ponto no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o subrelatório de resumo P2P no Skype para Business Server.
+**Resumo:** Saiba mais sobre o sub-relatório de resumo ponto a ponto no Skype for Business Server.
   
 O sub-relatório de resumo P2P oferece uma visão geral das sessões de comunicação ponto a ponto que falharam.
   

@@ -1,5 +1,5 @@
 ---
-title: Fazer alterações nas configurações de transmissão do Skype reunião para sua organização
+title: Fazer alterações nas configurações de transmissão de reunião do Skype para sua organização
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,27 +18,27 @@ f1keywords:
 - ms.lync.lac.BroadcastMeetings
 ms.custom:
 - SMB
-description: Você pode habilitar a transmissão do Skype reunião e fazer alterações em configurações e políticas para essas reuniões.
-ms.openlocfilehash: 7145f246ff7b3b6edbcae84f2ca2f5bc381ea501
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Você pode habilitar a transmissão de reunião do Skype e fazer alterações nas configurações e políticas dessas reuniões.
+ms.openlocfilehash: 98010683c12c9c8586768f78bd9c45d0231c3e8a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226270"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280789"
 ---
-# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Fazer alterações nas configurações de transmissão do Skype reunião para sua organização
+# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Fazer alterações nas configurações de transmissão de reunião do Skype para sua organização
 
-Você pode habilitar a transmissão do Skype reunião e fazer alterações em configurações e políticas para essas reuniões.
+Você pode habilitar a transmissão de reunião do Skype e fazer alterações nas configurações e políticas dessas reuniões.
   
-- **Ative a difusão de reunião do Skype** Habilita a difusão de reunião Skype. Após habilitar a transmissão do Skype reunião, você precisa [configurar sua rede para transmissão do Skype reunião](set-up-your-network-for-skype-meeting-broadcast.md). Execute esta etapa se você deseja reter seminários na Web e outros difusões para pessoas fora da sua empresa. 
+- **Habilitar a transmissão de reunião do Skype** Habilita a transmissão de reunião do Skype. Depois de habilitar a transmissão de reunião do Skype, você precisa [configurar sua rede para a transmissão de reunião do Skype](set-up-your-network-for-skype-meeting-broadcast.md). Siga este procedimento se quiser manter o webinars e outras difusões para pessoas de fora da sua empresa. 
     
-- **Recursos de habilitar visualização de transmissão de reunião de Skype para minha organização** O Skype para programas de negócios do cliente fornecem acesso antecipado para novos produtos e recursos. Isso permite que sua organização uma espiada no quais são as novidades e a oportunidade de testar os novos recursos em seu próprio ambiente e fornecer comentários antes de lançamento de compilações de produto para o público em geral.<br/>[Skype para visualização de negócios](https://www.skypepreview.com/)
+- **Habilitar os recursos de visualização da transmissão de reunião do Skype para minha organização** Os programas de cliente do Skype for Business fornecem acesso antecipado a novos produtos e recursos. Isso dá à sua organização uma retomada do que está chegando e da oportunidade de testar os novos recursos em seu próprio ambiente e enviar comentários antes de lançarmos as compilações de produtos para o público em geral.<br/>[Visualização do Skype for Business](https://www.skypepreview.com/)
     
-- **Permitir que os organizadores para agendar reuniões anônimas** Isso permite que os organizadores criar eventos de transmissão que permitem que qualquer pessoa fora da sua organização ingressem sem um requisito para entrar.
+- **Permitir que os organizadores agendem reuniões anônimas** Isso permite que os organizadores criem eventos de transmissão que permitem que qualquer pessoa fora de sua organização ingresse sem necessidade de entrar.
     
-- **Permitir reuniões de transmissão seja gravada** Isso permite que as reuniões que você precisa estar registradas pelo organizador ou apresentador.
+- **Permitir que as reuniões de transmissão sejam gravadas** Isso permite que todas as reuniões que você precisa ser gravadas pelo apresentador ou organizador.
     
-- **URL para participantes de suporte de assistência técnica** Insira um link para os participantes da difusão reunião usar se eles precisam de ajuda conectando ou participando de uma reunião de transmissão.
+- **URL de suporte da assistência técnica para participantes** Insira um link para os participantes de transmissão de reunião usarem se precisarem de ajuda para se conectar ou participar de uma reunião de transmissão.
     
 ## <a name="related-topics"></a>Tópicos relacionados
 

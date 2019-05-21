@@ -1,10 +1,10 @@
 ---
-title: Casos de teste de roteamento de voz de teste
+title: Testar casos de teste de roteamento de voz
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceTestCaseMain
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: d1f1046aaa8425d77393f83ed5b9ad1ab931aaf1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 019fa339c70571bc9d319ecac0e81d0b82ec4974
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890386"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277906"
 ---
 # <a name="test-voice-routing-test-cases"></a>Testar Roteamento de Voz: Casos de Teste
 

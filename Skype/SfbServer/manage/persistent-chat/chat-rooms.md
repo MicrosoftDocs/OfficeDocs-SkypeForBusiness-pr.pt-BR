@@ -5,31 +5,31 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 1/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
-description: 'Resumo: Saiba como gerenciar salas de chat Persistent Chat Server Skype para Business Server 2015.'
-ms.openlocfilehash: 01d3f53cc3b13d0cb3708d0a1f889a22511fd7fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como gerenciar salas de chat do servidor de chat persistente no Skype for Business Server 2015.'
+ms.openlocfilehash: 91e8a2888a7c83e30f80160d8c2c1fbc2af542fc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910232"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279344"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gerenciar salas de chat no Servidor de Chat Persistente no Skype for Business Server 2015
  
-**Resumo:** Saiba como gerenciar salas de chat Persistent Chat Server Skype para Business Server 2015.
+**Resumo:** Saiba como gerenciar salas de chat do servidor de chat persistente no Skype for Business Server 2015.
   
-Criar e gerenciar sala de chat é mais fácil com o uso correto de categorias. Uma categoria define quem pode criar ou ingressar em salas de chat. Antes de tentar gerenciar salas de bate-papo, não deixe de ler [as categorias de chat persistente, salas de bate-papo e funções de usuário no Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) e [Gerenciar categorias no servidor de bate-papo persistente no Skype para Business Server 2015](categories.md).
+Criar e gerenciar sala de chat é mais fácil com o uso correto de categorias. Uma categoria define quem pode criar ou ingressar nas salas de chat. Antes de tentar gerenciar salas de chat, certifique-se de ler categorias de chat [persistente, salas de chat e funções de usuário no Skype for Business server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) e [gerenciar categorias no servidor de chat persistente no Skype for Business Server 2015](categories.md).
   
 > [!NOTE]
-> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015. 
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
 
-Você pode configurar e gerenciar salas de bate-papo por meio da interface de linha de comando do Windows PowerShell, ou usando o Skype para o cliente de negócios, se você é um membro da sala de chat. Esse tópico descreve como gerenciar salas de chat usando a interface de linha de comando do Windows PowerShell. Se você deseja gerenciar salas de chat usando o Skype para cliente corporativos, consulte a Ajuda do cliente. 
+Você pode configurar e gerenciar salas de chat usando a interface de linha de comando do Windows PowerShell ou usando o cliente Skype for Business se você for membro da sala de chat. Esse tópico descreve como gerenciar salas de chat usando a interface de linha de comando do Windows PowerShell. Se você quiser gerenciar salas de chat usando o cliente Skype for Business, consulte a ajuda do cliente. 
   
-Salas de chat pode ser um dos dois tipos: Normal e auditório. Uma sala Normal permite que todos os membros publiquem e leiam mensagens. Uma sala Auditório permite que apenas Apresentadores publiquem, mas todos podem ler.
+As salas de chat podem ser um dos dois tipos: normal e Auditorium. Uma sala Normal permite que todos os membros publiquem e leiam mensagens. Uma sala Auditório permite que apenas Apresentadores publiquem, mas todos podem ler.
   
 Quem pode acessar e gerenciar as salas de chat depende das funções de usuários, conforme o seguinte:
   
@@ -59,17 +59,17 @@ Você pode configurar e gerenciar salas de chat usando os seguintes cmdlets do W
    
 Use o cmdlet **New-CsPersistentChatRoom** para criar salas de chat e o cmdlet **Set-CsPersistentChatRoom** para configurar uma sala de chat existente, incluindo a adição de usuários à sala de chat. Você pode configurar os seguintes parâmetros para as salas de chat:
   
-- Desabilitado. Permite desabilitar ou habilitar uma sala de bate-papo. 
+- Desabilitado. Permite que você desative ou ative uma sala de chat. 
     
 - Convites. Permite que você habilite ou desabilite os convites da sala de chat, que são usados para notificar usuários quando eles forem adicionados como membros de uma sala de chat. A configuração padrão para convites é herdada, o que faz com que a sala de chat adote a configuração de convite definida na categoria que ela pertence. Definir as configurações de convite para falso no nível da sala de chat permite que a configuração da categoria seja substituída. 
     
 - Privacidade. Permite que você especifique se uma sala de chat é Aberta, Fechada ou Secreta. Salas abertas podem ser pesquisadas e acessadas por qualquer pessoa. Salas fechadas podem ser pesquisadas por qualquer pessoa, mas podem ser acessadas apenas por membros. Salas secretas podem ser pesquisadas e acessadas apenas por membros da sala. Por padrão, cada nova sala é configurada inicialmente como Fechada.
     
-- Tipo. Permite especificar se uma sala de bate-papo é uma sala Normal, que aceita as mensagens postadas por qualquer membro ou uma sala de auditório, que aceita as mensagens postadas apenas por um apresentador.
+- Tipo. Permite que você especifique se uma sala de chat é uma sala normal, que aceita mensagens publicadas por qualquer membro ou uma sala Auditorium, que aceita mensagens postadas apenas por um apresentador.
     
 - Suplemento. Permite que você associe um suplemento configurado anteriormente à uma sala de chat, fazendo com que o conteúdo da URL seja visualizado por membros durante suas participações.
     
-Além de parâmetros acima, o cmdlet **Set-CsPersistentChatRoom** permite atribuir usuários a sala de bate-papo da seguinte maneira:
+Além dos parâmetros acima, o cmdlet **set-CsPersistentChatRoom** permite atribuir usuários à sala de chat da seguinte maneira:
   
 - Membros. Configura a associação para a sala de chat. Você pode adicionar ou remover um ou vários membros usando um único cmdlet especificando o endereço SIP dos usuários. Para permitir que os usuários sejam adicionados em massa, os grupos de distribuição ou as unidades organizacionais do Active Directory também podem ser especificados.
     
@@ -87,9 +87,9 @@ Você pode criar uma nova sala usando o cmdlet **New-CsPersistentChatRoom**. Por
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
 ```
 
-**Observação:** PersistentChatPoolFqdn não é necessário se uma das opções a seguir for verdadeira: 
+**Observação:** O PersistentChatPoolFqdn não será necessário se uma das seguintes opções for verdadeira: 
   
-- Não há somente um pool do servidor de Chat persistente.
+- Há apenas um pool de servidores de chat persistente.
     
 - Você oferece um FQDN do pool para a categoria.
     
@@ -97,7 +97,7 @@ New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.
     
 ## <a name="configure-an-existing-room"></a>Configurar uma sala existente
 
-Você pode configurar uma sala existente usando o cmdlet **Set-CsPersistentChatRoom** . Por exemplo, o comando a seguir atribui user1 como um membro e o apresentador e user2 como gerente, da sala de auditório testCat:
+Você pode configurar uma sala existente usando o cmdlet **set-CsPersistentChatRoom** . Por exemplo, o comando a seguir atribui user1 como membro e apresentador, Usuário2 como gerente, da testCat Auditorium:
   
 ```
 Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
@@ -119,13 +119,13 @@ Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAm
 
 ## <a name="disable-or-enable-a-room"></a>Habilitar ou desabilitar uma sala
 
-Se o tópico de uma sala de bate-papo persistente não for mais relevante, você pode fazer a sala de bate-papo indisponível aos usuários por desabilitá-la. Quando uma sala de chat está desabilitada, todos os membros são desconectados imediatamente da sala. Após uma sala de chat ser desabilitada, os usuários não podem participar novamente ou encontrá-la nas pesquisas de sala de chat.
+Se o tópico de uma sala de chat persistente não for mais relevante, você poderá deixar a sala de chat indisponível para os usuários desabilitá-la. Quando uma sala de chat está desabilitada, todos os membros são desconectados imediatamente da sala. Após uma sala de chat ser desabilitada, os usuários não podem participar novamente ou encontrá-la nas pesquisas de sala de chat.
   
-Se o histórico da sala de chat persistir, o conteúdo é preservado quando a sala de chat estiver desabilitada. Entretanto, o conteúdo não será exibido nas pesquisas durante o tempo em que a sala de chat permanecer no estado desabilitado. Se você habilitá-la mais tarde, os usuários poderão pesquisar mensagens que foram publicadas antes da sala de chat ser desabilitada. Para obter informações sobre como configurar o histórico da sala de bate-papo, consulte [Gerenciar categorias no servidor de bate-papo persistente no Skype para Business Server 2015](categories.md). 
+Se o histórico da sala de chat persistir, o conteúdo será preservado quando a sala de chat estiver desabilitada. Entretanto, o conteúdo não será exibido nas pesquisas durante o tempo em que a sala de chat permanecer no estado desabilitado. Se você habilitá-la mais tarde, os usuários poderão pesquisar mensagens que foram publicadas antes da sala de chat ser desabilitada. Para obter informações sobre como configurar o histórico de salas de chat, consulte [gerenciar categorias no servidor de chat persistente no Skype for Business server 2015](categories.md). 
   
 Se uma sala de chat for desabilitada, sua lista de associação e outras configurações serão preservadas. Como administrador, você poderá habilitar uma sala que está desabilitada, e não é necessário criar as configurações novamente de maneira manual.
   
-Você pode desabilitar uma sala usando o cmdlet **Set-CsPersistentChatRoom** e definindo o parâmetro desabilitado como True:
+Você pode desabilitar uma sala usando o cmdlet **set-CsPersistentChatRoom** e definindo o parâmetro Disabled como true:
   
 ```
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $True
@@ -137,7 +137,7 @@ Para habilitar uma sala de chat, defina o parâmetro Disabled para False:
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $False
 ```
 
-## <a name="get-information-about-rooms"></a>Obtenha informações sobre salas
+## <a name="get-information-about-rooms"></a>Obter informações sobre salas
 
 Para obter informações sobre as salas configuradas para uso em sua organização, você pode usar o cmdlet **Get-CsPersistentChatRoom**.
   

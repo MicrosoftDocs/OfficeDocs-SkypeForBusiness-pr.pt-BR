@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Veja como pesquisar números de telefone que você pode atribuir para seus usuários por país/região, estado/região ou cidade, e especifique a quantidade de números que precisa. '
-ms.openlocfilehash: eeae7ad4bcafea1f8a1f86d36e59d2f57a2edff1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 42f678b81b34b145e086e413bb95a53eab054167
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32230055"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280488"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Pesquisar números de telefone para usuários
 
@@ -40,16 +40,16 @@ Se você precisar de ajuda para obter números de telefone, consulte [Gerenciar 
 
  **Para procurar números de telefone para seus usuários**
 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
+2. Vá para o > **portal herdado**do **centro de administração do Microsoft Teams**.
     
-3. No painel de navegação esquerdo, vá para **voz** > **números de telefone**e clique em **Adicionar novo número** > **novos números de usuário**.
+3. No painel de navegação esquerdo, vá para**números de telefone**de **voz** > e clique em **Adicionar novo número** > **novos números de usuário**.
   
     > [!IMPORTANT]
-    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.  
+    > Para ver a opção de **voz** no painel de navegação à esquerda no centro de administração do Skype for Business, primeiro você deve comprar pelo menos uma **licença do Enterprise E5**, uma licença complementar do **sistema de telefonia** ou uma licença do suplemento de conferência de **áudio** .  
     
     
 4. Na página **Adicionar novos números de usuário**, clique nas listas de**País** e **Estado** para selecionar o estado em que você deseja selecionar números e, em seguida, selecione o código de área da cidade na lista **Cidade**.
@@ -57,11 +57,11 @@ Se você precisar de ajuda para obter números de telefone, consulte [Gerenciar 
 5.  Under **Quantity**, enter the number of phone numbers that you want for your organization and click **Add** to create a reservation. You have 10 minutes to select your phone numbers. If you take more than 10 minutes, the numbers will be returned to the pool of phone numbers.
     
     > [!NOTE]
-    > Você pode ver o número de números de telefone, que se baseia no número de licenças, listado ao lado de **números de Total de usuários, que você pode adquirir**. 
+    > Você pode ver a quantidade de números de telefone, que é baseada no número de licenças, listadas ao lado dos **números totais de usuários que você pode adquirir**. 
   
-6. You can click **Show numbers** to see the full list of phone numbers. Isso é útil se você não deseja selecionar um número de telefone específico na lista.
+6. You can click **Show numbers** to see the full list of phone numbers. Isso é útil se você não quiser selecionar um número de telefone específico na lista.
     
-7. Selecione os números de telefone que você deseja e clique em **números de aquisição**.
+7. Selecione os números de telefone desejados e clique em **adquirir números**.
     
     > [!IMPORTANT]
     > You can acquire more phone numbers than you have licenses. To determine how many phone numbers you can acquire, take your number of licenses, add 10 percent of the number of licenses, and then add 10. For example, if you have 100 **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 phone numbers, assuming that you have not already acquired some phone numbers for those 100 users. For more details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get)

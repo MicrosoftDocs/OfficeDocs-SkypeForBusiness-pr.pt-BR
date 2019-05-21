@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,26 +18,26 @@ f1keywords:
 - ms.lync.lac.OrgMobileNotification
 ms.custom:
 - Setup
-description: Saiba como ativar ou desativar o telefone celular notificações para que os usuários podem receber alertas sobre entrada, caixa postal e perdidas mensagens instantâneas.
-ms.openlocfilehash: 40d71ba5a3106e9ae33e5f39a504e1e413a58af1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Saiba como ativar ou desativar as notificações do telefone celular para que seus usuários possam receber alertas sobre mensagens de entrada, caixa postal e mensagens de chat perdidas.
+ms.openlocfilehash: 46d1f6d0f28f9236a16a4818359b45909c216f0b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226393"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285020"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Ativar ou desativar notificações do telefone celular
 
-Como a **[atribuir funções de administrador no Office 365 para empresas](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** para sua organização, você pode escolher se o seu Skype para usuários comerciais receber alertas sobre mensagens instantâneas de entrada e perdidas quando estiverem em seus telefones móveis ou tablets.
+Como **[atribuir funções de administrador no Office 365 for Business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** para sua organização, você pode escolher se seus usuários do Skype for Business receberão alertas sobre mensagens instantâneas recebidas e perdidas quando estiverem em seus celulares ou Tablets.
   
 Nos telefones Android e Windows Phone, as notificações do Skype for Business aparecem em tempo real. Para dispositivos Windows Phone, iPhone e iPad, no entanto, notificações por push serão usadas para mostrar alertas sempre que você não estiver usando ativamente o Skype for Business no seu telefone ou tablet.
   
 ## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>Desative as notificações push para todos os dispositivos Windows Phone ou Apple na sua organização
 <a name="__top"> </a>
 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
 
-1. Entrar no Office 365.
+1. Entre no Office 365.
     
 2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
     
@@ -54,7 +54,7 @@ Lembre-se:
 - Quando você desativa as notificações push, os usuários não podem ativá-las.
     
 > [!IMPORTANT]
->  [!IMPORTANTE] A Microsoft usa outras empresas para fornecer notificações por celular para o Skype for Business em tempo real para os usuários do Windows Phone, iPhone e iPad. Consulte a [declaração de privacidade do Microsoft Skype para produtos de negócios](https://go.microsoft.com/fwlink/p/?linkid=247732). 
+>  [!IMPORTANTE] A Microsoft usa outras empresas para fornecer notificações por celular para o Skype for Business em tempo real para os usuários do Windows Phone, iPhone e iPad. Consulte a [política de privacidade dos produtos Microsoft Skype for Business](https://go.microsoft.com/fwlink/p/?linkid=247732). 
   
 ## <a name="related-topics"></a>Tópicos relacionados
 

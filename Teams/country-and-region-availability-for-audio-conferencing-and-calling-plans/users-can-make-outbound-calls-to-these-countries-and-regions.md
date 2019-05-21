@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -23,71 +23,71 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Este tópico contém todos os países/regiões que os usuários podem fazer chamadas de saída para que tenham um plano de chamada.
-ms.openlocfilehash: 70c0a0631f4f01ab87ef185b96b6c3fb00b14e6e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Este tópico contém todos os países/regiões nos quais os usuários podem fazer chamadas de saída se tiverem um plano de chamada.
+ms.openlocfilehash: 3f6ff1f7bb3d9659ec9429b3eb48a8ae9968d636
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200247"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281897"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Os usuários podem fazer chamadas de saída para esses países e regiões
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Consulte o que os usuários de países/regiões podem fazer chamadas de saída para se o usuário tem a licença nacionais e internacionais chamar planejar
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Veja a quais países/regiões os usuários podem fazer chamadas de saída se o usuário tiver a licença do plano de chamadas domésticas e internacionais
 
-|**UMA - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
+|**A-D**| **E-H**|**I-L**|**M-O**|**P-S**|**T-Z**|
 ---|---|---|---|---|---|
 |Afeganistão|Equador |Islândia |Macau |Paquistão  |Taiwan   |
-|Albânia|Egito |Índia |Macedônia (ARIM) |Palau |Tajiquistão   |
-|Argélia|El Salvador |Indonésia |Malawi |Autoridade Palestina |Tanzânia, United República do  |
+|Albânia|Egito |Índia |Macedônia (ARIM) |Palau |Tadjiquistão   |
+|Argélia|El Salvador |Indonésia |Malaui |Autoridade Palestina |Tanzânia, República americana da  |
 |Samoa Americana|Guiné Equatorial |Irã |Malásia |Panamá | Tailândia   |
 |Andorra |Eritreia |Iraque |Mali |Paraguai |Togo   |
 |Angola |Estônia |Irlanda |Malta |Peru | Trinidad e Tobago  |
-|Anguila |Etiópia |Israel |Ilhas Marshall | Filipinas | Turquia |
+|Anguilla |Etiópia |Israel |Ilhas Marshall | Filipinas | Turquia |
 |Antígua e Barbuda | Ilhas Faroés |Itália |Martinica |Polônia |Turcomenistão |
-|Argentina|Fiji |Jamaica |Ilha Maurício |Portugal |Ilhas Turks e Caicos   |
-|Armênia |Finlândia |Japão |Mayotte | Porto Rico |Ugandense  |
+|Argentina|Ilhas |Jamaica |Ilhas |Portugal |Ilhas Turks e Caicos   |
+|Armênia |Finlândia |Japão |Mayotte | Porto Rico |Xelim  |
 |Aruba |França |Jordânia |México |Catar | Ucrânia   |
-|Austrália |Guiana Francesa |Cazaquistão |Micronésia |Ilha Reunião |Emirados Árabes Unidos (UAE)  |
-|Áustria |Polinésia Francesa |Quênia |Moldávia, República da |Romênia |Reino Unido (U.K.) |
-|Azerbaijão |Geórgia |Coreia do |Mônaco | Federação Russa |Estados Unidos  |
+|Austrália |Guiana francesa |Cazaquistão |Micronésia |Reuniões |Emirados Árabes Unidos (U. A. E)  |
+|Áustria |Polinésia francesa |Quênia |Moldova, República da |Romênia |Reino Unido (U.K.) |
+|Azerbaijão |Geórgia |Coréia, República da |Mônaco | Federação Russa |Estados Unidos  |
 |Bahamas |Alemanha |Kuaite |Mongólia |Ruanda | Uruguai |
 |Bahrein |Gana |Quirguistão |Montenegro | São Cristóvão e Névis |Uzbequistão  |
-|Bangladesh |Gialtar |Lao |Montserrat | Santa Lúcia |Cidade do Vaticano  |
+|Bangladesh |Gialtar |Laosiana |Montserrat | Santa Lúcia |Estado da cidade do Vaticano  |
 |Barbados |Grécia |Letônia |Marrocos |São Vicente e Granadinas |Venezuela   |
-|Belarus |Groenlândia |Líbano |Moçambique | São marinho |Vietnã  |
-|Bélgica |Granada |Lesoto |Myanmar | Saudi Arabia (المملكة العربية السعودية) | Ilhas Virgens (Britânicas) |
-|Belize |Guadeloupe |Líbia |Namíbia |Senegal | Ilhas Virgens (EUA)  |
+|Belarus |Groenlândia |Líbano |Moçambique | San Marino |Vietnã  |
+|Bélgica |Granada |Lesoto |Sinal | Saudi Arabia (المملكة العربية السعودية) | Ilhas Virgens (britânicas) |
+|Belize |Guadalupe |Líbia |Namíbia |Senegal | Ilhas Virgens (EUA)  |
 |Benin |Guam |Liechtenstein |Nepal | Sérvia | Ilhas Wallis e Futuna  |
 |Bermuda |Guatemala |Lituânia |Países Baixos |Cingapura |Iêmen |
 |Butão |Guiné |Luxemburgo |Antilhas Holandesas |Eslováquia |Zâmbia  |
 |Bolívia |Guiana| |Nova Caledônia |Eslovênia |Zimbábue |
 |Bosnia and Herzegovina (Bosna i Hercegovina) |Haiti ||Nova Zelândia |África do Sul | 
-|Botsuana |Honduras ||Nicarágua |Sudão Sul |
+|Botsuana |Honduras ||Nicarágua |Sudão do Sul |
 |Brasil |Hong-Kong ||Níger |Espanha | 
 |Bunei Darussalam |Hungria ||Nigéria |Sri Lanka | 
 |Bulgária |||Ilhas Marianas do Norte |São Pedro e Miquelon |
-|Burkina Fasso |||Noruega |Sudão |
+|Burkina Faso |||Noruega |Sudão |
 |Camboja |||Omã |Suriname | 
 |Camarões ||||Suazilândia |
 |Canadá ||||Suécia | 
-|Cabo Verde ||||Suíça |
-|Ilhas Cayman ||||República Árabe Síria |
+|Cabo verde ||||Suíça |
+|Ilhas Cayman ||||República Árabe da Síria |
 |República Centro-Africana |
 |Chile |
 |China |
 |Colômbia |
 |Ilhas Comores |
-|Congo, República Democrática do |
-|Congo, República Popular da |
+|República Democrática do Congo |
+|Congo, República Popular das pessoas |
 |Costa Rica |
-|Costa do Marfim |
+|Costa d' Ivoire |
 |Croácia |
 |Chipre |
 |República Tcheca |
 |Dinamarca |
 |Djibuti |
-|República Dominicana |
+|Dominica |
 |República Dominicana |
 
 ## <a name="related-topics"></a>Tópicos relacionados

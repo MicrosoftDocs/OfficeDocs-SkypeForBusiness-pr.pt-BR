@@ -12,51 +12,51 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Saiba o que você precisa e como os organizadores de reunião podem chamar para outras pessoas usando equipes.
-ms.openlocfilehash: 37f44eb96a33307b12eef485e2fdabf985ab8562
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Saiba o que você precisa e como os organizadores da reunião podem fazer chamadas para outras pessoas que usam o Microsoft Teams.
+ms.openlocfilehash: b02a395277762c4bbd731bd839fdedc395042502
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236076"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281889"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Discar de uma reunião do Microsoft Teams para que outras pessoas possam ingressar
 
-Como organizador da reunião, você pode discar usando o aplicativo de equipes para permitir que outras pessoas ingressem na reunião mesma usando seus telefones.
+Como organizador da reunião, você pode discar usando o aplicativo Teams para permitir que outras pessoas ingressem na mesma reunião usando seus telefones.
 
-Quando você disca para uma pessoa, recomendamos que você faça isso usando seus números de telefone completo (incluindo o código de país/região - formato e. 164).
+Ao discar para alguém, recomendamos que você faça isso usando números de telefone completos (incluindo o formato de código de país/região-E. 164).
   
-  Observe que o seguinte:
+  Observe que:
 
-- Você pode discar somente se você ingressar em uma reunião usando as equipes.
-- Você, como organizador da reunião, tiverem sido habilitados para conferência de áudio.
+- Você pode discar somente se ingressar em uma reunião usando o Microsoft Teams.
+- Você, como organizador da reunião, foi habilitado para videoconferências.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-Aqui está como obter dial-out para funcionar:
+Veja como fazer para discar para funcionar:
 
- **Etapa 1:** Na reunião, use a **Adicionar pessoas** ![adicionar botão de pessoas](media/add-people-button.png) opção podem discar para um número de telefone.
- **Etapa 2:** Insira o número de telefone completo, incluindo o código de país/região na caixa **Convidar alguém ou discar um número** .
+ **Etapa 1:** Na reunião, use a](media/add-people-button.png) opção **Adicionar** ![pessoas que adicionam pessoas para discar para um número de telefone.
+ **Etapa 2:** Digite o número de telefone completo, incluindo o código de país/região na caixa **convidar alguém ou discar um número** .
   
-![Convidar alguém ou uma caixa de número de discagem](media/invite-someone-box.png)
+![Convidar alguém ou discar uma caixa de número](media/invite-someone-box.png)
     
-## <a name="supported-countries-and-regions"></a>Regiões e países com suporte
+## <a name="supported-countries-and-regions"></a>Países e regiões aceitos
 
-Discagem externa só está disponível para alguns países/regiões. Para obter uma lista completa, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+O recurso de discagem externa só está disponível para alguns países/regiões. Para obter uma lista completa, consulte [disponibilidade de país e região para conferências de áudio e planos de chamadas](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-## <a name="allow-users-to-dial-in"></a>Permitir que os usuários discam
+## <a name="allow-users-to-dial-in"></a>Permitir que os usuários disquem
 
-Se você estiver procurando para obter instruções sobre como permitir que os usuários discam para uma reunião de equipes, consulte [números de telefone de conferência de áudio em equipes da Microsoft](phone-numbers-for-audio-conferencing-in-teams.md).
+Se você estiver procurando instruções sobre como permitir que seus usuários disquem para uma reunião de equipe, consulte [números de telefone para videoconferência no Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).
 
-## <a name="want-to-know-more-about-audio-conferencing"></a>Quer saber mais sobre serviços de audioconferência?
+## <a name="want-to-know-more-about-audio-conferencing"></a>Quer saber mais sobre a conferência de áudio?
 
 [Experimentar ou comprar audioconferência no Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     

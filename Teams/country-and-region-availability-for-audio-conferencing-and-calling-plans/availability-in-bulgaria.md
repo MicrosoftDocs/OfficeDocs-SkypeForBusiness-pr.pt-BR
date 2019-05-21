@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Bulgária.
-ms.openlocfilehash: e19263a011c7d0f403c4bb59763b7e7d44b0427d
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Bulgária.
+ms.openlocfilehash: 553b3f3819aa5ca19c396c1646f043445d6dc978
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542643"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283190"
 ---
 # <a name="availability-in-bulgaria"></a>Disponibilidade na Bulgária
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Bulgária.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Bulgária.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 

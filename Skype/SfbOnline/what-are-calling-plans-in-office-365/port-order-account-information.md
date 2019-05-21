@@ -1,5 +1,5 @@
 ---
-title: Informações de conta da ordem de porta
+title: Informações da conta do pedido de portabilidade
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,28 +20,28 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfo
 ms.custom:
 - Calling Plans
-description: 'Saiba quais informações de conta, você precisará quando estiver trabalhando com um Assistente de nova ordem de porta do número Local. '
-ms.openlocfilehash: 404bef2ad18728de90ac0a296c213e841719984b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Saiba quais são as informações da conta que você precisará ao trabalhar com um novo assistente de pedido de portador de número local. '
+ms.openlocfilehash: 4d1ac6831287281b5e9dfa691e09807d2887aaf4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229843"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280702"
 ---
-# <a name="port-order-account-information"></a>Informações de conta da ordem de porta
+# <a name="port-order-account-information"></a>Informações da conta do pedido de portabilidade
 
-Quando você estiver usando a página de **informações da conta** no Assistente de **Nova ordem de porta do número Local** para enviar um pedido de porta, você precisará quase todas as mesmas informações que você poderia fornecer em LOA, incluindo:
+Quando você estiver usando a página **informações da conta** no assistente **novo pedido de portabilidade local** para enviar um pedido de portabilidade, você precisará de quase todas as mesmas informações que você forneceria no loa, incluindo:
   
-- Número de conta para o provedor de serviços ou operadora
+- Número da conta para o provedor de serviços ou operadora
     
 - Número de telefone de cobrança (BTN)
     
-- PIN - se exigido pelo seu provedor de serviço atual ou a operadora
+- PIN-se necessário para o seu provedor de serviços ou operadora atual
     
 - Nome da empresa
     
     > [!NOTE]
-    > Isso aceitará apenas 25 caracteres, incluindo espaços. Se o nome da empresa tiver mais de 25 caracteres, os 25 primeiros caracteres do nome serão enviados e o pedido de portabilidade ainda será processado. 
+    > Isso só aceita 25 caracteres, incluindo os espaços. Se o nome da empresa tiver mais de 25 caracteres, os 25 primeiros caracteres do nome serão enviados e o pedido de portabilidade ainda será processado. 
   
 - Nome do usuário autorizado
     
@@ -50,25 +50,25 @@ Quando você estiver usando a página de **informações da conta** no Assistent
   
 - Endereço do serviço
     
-- Cidade, estado e código postal do endereço de cobrança
+- Cidade, estado e CEP do endereço para cobrança
     
     > [!NOTE]
-    > Você não precisará assinatura autorizar da pessoa. 
+    > Você não precisará da assinatura da pessoa que autoriza a pessoa. 
   
-Para fazer enviando a ordem de porta fácil e evitar erros, não deixe de que fazer o seguinte:
+Para que o envio do pedido de portabilidade seja fácil e evitar erros, faça o seguinte:
   
-- Remova quaisquer recursos (por exemplo, grupos de busca) associados a seus números. Verifique se não há nenhum recursos de controle de chamada avançados, como busca chamadas ou toque diferente, habilitada nesses números de telefone.
+- Remova todos os recursos (como grupos de buscas) associados a seus números. Certifique-se de que não haja recursos de controle de chamada avançados, como chamadas de caça ou toques distintos, habilitados nestes números de telefone.
     
-- Certifique-se de que você não colocou ordens de serviço nova ou desconecta com seu provedor de serviço atual.
+- Certifique-se de que você não tenha feito nenhuma nova encomenda de serviço ou se desconectará com seu provedor de serviços atual.
     
 - Verifique se todos os números são da mesma operadora e da mesma conta.
     
-- Verifique se as informações da conta que você forneceu correspondem exatamente às que a operadora de telefonia possui. Informações incompatíveis são mais comuns de causam de erros e poderá retardar seu pedido de porta.
+- Verifique se as informações da conta que você forneceu correspondem exatamente às que a operadora de telefonia possui. As informações incompatíveis são a causa mais comum de erros e podem atrasar seu pedido de portabilidade.
     
 > [!CAUTION]
 > [!CUIDADO] **Não cancele seus serviços com o provedor de serviços ou a operadora.**> **Você deve manter seu serviço anterior ativo para transferir seus números de telefone para o Skype for Business Online.**> **Não congele sua conta com o provedor de serviços ou a operadora. Isso impede a alteração de operadoras na conta. O usuário autorizado precisará enviar um pedido para a operadora atual para remover o congelamento. Esse processo pode demorar de uma a três semanas, dependendo da operadora.**> 
   
- **Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ **Para obter instruções passo a passo completas, consulte [transferir números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
  > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

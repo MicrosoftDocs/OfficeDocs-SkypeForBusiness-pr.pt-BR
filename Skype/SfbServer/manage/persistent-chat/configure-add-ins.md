@@ -5,29 +5,29 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/28/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
-description: 'Resumo: Saiba como configurar suplementos para salas de chat Persistent Chat Server na Skype para Business Server 2015.'
-ms.openlocfilehash: 146f05b181998f995b6e15b0717034a55f518d7f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como configurar suplementos para salas de chat do servidor de chat persistente no Skype for Business Server 2015.'
+ms.openlocfilehash: 08e71ab989734572d9d44f0bdb42c01511e47f4c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910253"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279323"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configurar suplementos para salas de Chat Persistente no Skype for Business Server 2015
  
-**Resumo:** Aprenda a configurar suplementos para salas de chat Persistent Chat Server no Skype para Business Server 2015.
+**Resumo:** Saiba como configurar suplementos para salas de chat do servidor de chat persistente no Skype for Business Server 2015.
   
-Os suplementos são usados para estender a experiência na sala por meio da associação de URLs com salas de chat. Essas URLs aparecem no painel de extensibilidade da conversa do cliente. Um suplemento típico pode incluir uma URL que aponta para um aplicativo Silverlight que intercepta quando um registrador de cotações é postado em uma sala de bate-papo e mostra o histórico de estoque no painel de extensibilidade. Outros exemplos incluem a URL do OneNote 2013 na sala de chat como um suplemento para incluir algum contexto compartilhado, como o "Mais lembrado" ou "Assunto do dia."
+Os suplementos são usados para estender a experiência na sala por meio da associação de URLs com salas de chat. Essas URLs aparecem no painel de extensibilidade da conversa do cliente. Um suplemento típico pode incluir uma URL apontando para um aplicativo do Silverlight que intercepta quando um marcador de ação é publicado em uma sala de chat e mostra o histórico de ações no painel extensibilidade. Outros exemplos incluem a URL do OneNote 2013 na sala de chat como um suplemento para incluir algum contexto compartilhado, como o "Mais lembrado" ou "Assunto do dia."
   
  Antes que os usuários possam ver um suplemento em um cliente, você deve adicionar o suplemento à lista de suplementos registrados, e Gerentes ou Criadores de salas de chat precisam associar as salas com os suplementos.
   
 > [!NOTE]
-> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015. 
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
 
 ## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>Configure suplementos para salas de chat usando o Painel de Controle
 
@@ -35,15 +35,15 @@ Para configurar suplementos para salas de chat usando o Painel de Controle:
   
 1. A partir de uma conta de usuário com a função CsPersistentChatAdministrator ou CsAdministrator atribuída, faça o logon em qualquer computador na sua implementação interna.
     
-2. No menu **Iniciar** , selecione o Skype para painel de controle do Business Server ou abrir uma janela de navegador e insira a URL do administrador.
+2. No menu **Iniciar** , selecione o painel de controle do Skype for Business Server ou abra uma janela do navegador e, em seguida, insira a URL de administração.
     
 3. Na barra de navegação esquerda, clique em **Chat Persistente** e depois em **Suplemento**.
     
-    Para várias implantações de pool de servidor de Chat persistente, selecione o pool apropriado na lista suspensa.
+    Para várias implantações de pool do servidor de chat persistente, selecione o pool apropriado na lista suspensa.
     
 4. Na página  **Suplementos**, clique em **Novo**.
     
-5. Em **Selecionar um serviço**, selecione o serviço correspondente para o pool do servidor de Chat persistente onde você precisa criar o suplemento. Suplementos não podem ser movidos de um pool a outro nem compartilhado entre pools diferentes.
+5. Em **selecionar um serviço**, selecione o serviço correspondente ao pool de servidores de chat persistente em que você precisa criar o suplemento. Suplementos não podem ser movidos de um pool a outro nem compartilhado entre pools diferentes.
     
 6. Em **Suplementos novos**, faça o seguinte:
     
@@ -69,7 +69,7 @@ Você pode configurar suplementos para salas de chat usando os seguintes cmdlets
 
 Você pode criar um novo suplemento usando o cmdlet **New-CsPersistentChatAddin** .
   
-Por exemplo, o comando a seguir cria um novo suplemento (com o nome ITPersistentChatAddin) para o pool atl-cs-001.contoso.com. O parâmetro de URL e o valor do parâmetro http://atl-cs-001.contoso.com/itchat especifique o local da página da Web do suplemento:
+Por exemplo, o comando a seguir cria um novo suplemento (com o nome ITPersistentChatAddin) para o pool atl-cs-001.contoso.com. O parâmetro de URL e o valor http://atl-cs-001.contoso.com/itchat do parâmetro especificam o local da página da Web do suplemento:
   
 ```
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"

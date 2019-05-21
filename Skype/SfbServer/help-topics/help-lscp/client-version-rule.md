@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientCVPolicyRuleEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: Uma política de versão de cliente é composta por um conjunto de regras de versão de cliente. Essas regras definem as ações que devem ser executadas quando os usuários tentam fazer logon com clientes específicos e versões do cliente.
-ms.openlocfilehash: 2b78d665e608a9ac81baaaaee5812957a2eaf5e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6fa3ca3f59756c8a6fedb9fd8f1f457ca3f2df40
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920377"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277927"
 ---
 # <a name="client-version-rule"></a>Regra de Versão do Cliente
 
@@ -36,13 +36,13 @@ Uma política de versão de cliente é composta por um conjunto de regras de ver
 
 As listas a seguir descrevem os menus, comando, campos e propriedades na página.
 
-- **Agente do usuário** Você pode selecionar um tipo de cliente da lista. A tabela a seguir define códigos de agente de usuário.
+- **Agente de usuário** Você pode selecionar um tipo de cliente na lista. A tabela a seguir define códigos de agente de usuário.
 
 |**Nome do cliente**|**Agente de Usuário**|
 |:-----|:-----|
-|Lync 2013, Lync 2010, o Office Communicator  <br/> |OC  <br/> |
-|Lync Web App, o Communicator Web Access  <br/> |CWA  <br/> |
-|O Lync Phone Edition, o Office Communicator Phone  <br/> |OCPhone  <br/> |
+|Lync 2013, Lync 2010, Office Communicator  <br/> |OC  <br/> |
+|Lync Web App, Access Web Communicator  <br/> |CWA  <br/> |
+|Lync Phone Edition, Office Communicator Phone  <br/> |OCPhone  <br/> |
 |Communicator Phone Edition Platform  <br/> |CPE  <br/> |
 |Unified Communications Platform  <br/> |UCCP  <br/> |
 |Lync 2010 Attendee  <br/> |AOC  <br/> |
@@ -57,17 +57,17 @@ As listas a seguir descrevem os menus, comando, campos e propriedades na página
 |Lync 2010 para Android  <br/> |AndroidLync  <br/> |
 |Serviço de mobilidade  <br/> |McxService  <br/> |
 
-- **Número de versão** Você pode especificar os números de versão para os seguintes campos ou usar caracteres curinga para indicar o número de versão do cliente.
+- **Número da versão** Você pode especificar os números de versão para os campos a seguir ou usar caracteres curinga para indicar o número da versão do cliente.
 
-  - **Versão principal** Especifica o número que corresponde à principal versão do cliente.
+  - **Versão principal** Especifica o número que corresponde à versão principal do cliente.
 
   - **Versão secundária** Especifica o número que corresponde à versão secundária do cliente.
 
-  - **Construir** Especifica o número de compilação que corresponde à versão principal e secundária do cliente.
+  - **Criar** Especifica o número da compilação que corresponde à versão principal e secundária do cliente.
 
-  - **Atualização** Especifica o número que corresponde à versão atualizada do cliente.
+  - **Atualização** do Especifica o número que corresponde à versão atualizada do cliente.
 
-- **Operação de comparação** Você pode especificar a operação correspondente para a versão de cliente especificada nas etapas anteriores. As operações a seguir estão disponíveis:
+- **Operação de comparação** Você pode especificar a operação correspondente para a versão do cliente que você especificou nas etapas anteriores. As operações a seguir estão disponíveis:
 
   - **Igual a**
 
@@ -83,18 +83,18 @@ As listas a seguir descrevem os menus, comando, campos e propriedades na página
 
 - **Ação** Você pode especificar a ação a ser executada quando os critérios nas etapas anteriores forem atendidos. As ações a seguir estão disponíveis:
 
-  - **Permitir** Permite que o cliente faça logon.
+  - **Permite que** Permite que o cliente faça logon.
 
-  - **Permitir e atualizar** Permite que o cliente faça logon e receber atualizações de serviço de atualização do Windows Server ou o Microsoft Update. Essa ação estará disponível somente quando o agente usuário **OC** for selecionado.
+  - **Permitir e atualizar** Permite que o cliente faça logon e Receba atualizações do Windows Server Update Service ou do Microsoft Update. Essa ação estará disponível somente quando o agente usuário **OC** for selecionado.
 
     > [!NOTE]
-    > Selecionar esta ação faz com que uma notificação apareça os próxima vez que os usuários entram no Skype para negócios. A notificação declara que uma atualização está disponível, mesmo se as atualizações ainda não tiverem sido lançadas pelo Windows Server Update Service ou Microsoft Update. Para evitar confusão, você deve escolher esta ação apenas após as atualizações se tornarem disponíveis.
+    > Selecionar essa ação faz com que uma notificação seja exibida na próxima vez que os usuários entrarem no Skype for Business. A notificação declara que uma atualização está disponível, mesmo se as atualizações ainda não tiverem sido lançadas pelo Windows Server Update Service ou Microsoft Update. Para evitar confusão, você deve escolher esta ação apenas após as atualizações se tornarem disponíveis.
 
-  - **Permitir com URL** Permite que o cliente faça logon e exibe uma mensagem sobre onde baixar outra versão do cliente. Especifique o URL no campo  **URL**.
+  - **Permitir com URL** Permite que o cliente faça logon e exiba uma mensagem sobre onde baixar outra versão do cliente. Especifique o URL no campo  **URL**.
 
-  - **Bloquear** Impede o cliente de logon.
+  - **Bloquear** Impede que o cliente faça logon.
 
-  - **Bloquear e atualização** Impede que o cliente logon e permite que o cliente recebe atualizações do serviço de atualização do Windows Server ou Microsoft Update. Essa ação estará disponível somente quando o agente usuário **OC** for selecionado.
+  - **Bloquear e atualizar** Impede que o cliente faça logon e permite que o cliente Receba atualizações do Windows Server Update Service ou do Microsoft Update. Essa ação estará disponível somente quando o agente usuário **OC** for selecionado.
 
   - **Bloquear com URL** Impede que o cliente faça logon e exibe uma mensagem sobre onde baixar outra versão do cliente. Especifique o URL no campo  **URL**.
 

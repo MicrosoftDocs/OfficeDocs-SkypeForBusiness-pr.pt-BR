@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Porto Rico.
-ms.openlocfilehash: 8a245f67e4542f532ec7282abaea429a0a3b95f5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Porto Rico.
+ms.openlocfilehash: f92c35fa19c2464704c3d2827485cde6145f3b26
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232702"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287957"
 ---
 # <a name="availability-in-puerto-rico"></a>Disponibilidade em Porto Rico
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Porto Rico.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Porto Rico.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -60,15 +60,15 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |3.000 minutos de chamadas domésticas ou 600 minutos de chamadas internacionais (o limite que for atingido primeiro em cada mês). As chamadas de domésticas Estados Unidos inclui chamadas para todos os estados dos Estados Unidos e Porto Rico 50. Os usuários atribuídos com o local de uso de licença dos Estados Unidos e/ou Porto Rico compartilham o mesmo pool de minutos.  <br/> |
-|Pode fazer chamadas de saída para números premium? <br/> | Não suportado no momento. <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |3.000 minutos de chamadas domésticas ou 600 minutos de chamadas internacionais (o limite que for atingido primeiro em cada mês). A chamada doméstica nos Estados Unidos inclui chamadas para todos os Estados Unidos da 50 e Porto Rico. Os usuários atribuídos com o local de uso da licença dos EUA e/ou Porto Rico compartilham o mesmo pool de minutos.  <br/> |
+|Pode fazer chamadas de saída para números Premium? <br/> | Não há suporte no momento. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |SAN Juan  <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Juan San  <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    

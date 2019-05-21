@@ -10,24 +10,24 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: Descubra os requisitos para o gerenciamento remoto do Skype para negócios Online por meio do Windows PowerShell, incluindo os sistemas operacionais suportados.
-ms.openlocfilehash: 7854fa064420c2addeea4397e8dd882374c3b940
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Saiba quais são os requisitos de gerenciamento remoto do Skype for Business online por meio do Windows PowerShell, incluindo sistemas operacionais compatíveis.
+ms.openlocfilehash: f9369f23ffcc77c5d7d61fb7e764900055b4b920
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226341"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275518"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Configurar seu computador para o Windows PowerShell
 
-Gerenciamento remoto do Skype para Business Online usando o Microsoft PowerShell tem suporte apenas nos computadores de 64 bits executando um dos seguintes sistemas operacionais:
+O gerenciamento remoto do Skype for Business online usando o Microsoft PowerShell só tem suporte em computadores de 64 bits que executam um dos seguintes sistemas operacionais:
 
 - Windows Server 2016
 
@@ -47,18 +47,18 @@ Gerenciamento remoto do Skype para Business Online usando o Microsoft PowerShell
     
 Além do sistema operacional com suporte, o computador também deve estar executando o seguinte:
   
-- PowerShell
+- ™
     
-- Skype para módulo Business Connector Online
+- Módulo do conector do Skype for Business Online
     
 Você pode encontrar informações sobre como baixar e instalar esses itens nos seguintes tópicos:
   
-- [Baixe e instale o Skype para módulo Business Connector Online](download-and-install-the-skype-for-business-online-connector.md)
+- [Baixar e instalar o módulo do conector do Skype for Business Online](download-and-install-the-skype-for-business-online-connector.md)
     
-- [Baixe e instale o Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
+- [Baixar e instalar o Windows PowerShell 5,1](download-and-install-windows-powershell-5-1.md)
     
 ## <a name="related-topics"></a>Tópicos relacionados
-[Diagnosticar problemas de conexão com o Skype para o business connector online](diagnose-problems-with-the-skype-for-business-online-connector.md)
+[Diagnosticar problemas de conexão com o conector do Skype for Business Online](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   
  
