@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 layout: LandingPage
-ms.audience: ITPro
+audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: As considerações de planejamento relevantes para implantar o Microsoft equipes salas e como implantar e gerenciar o sistema.
-ms.openlocfilehash: 7a55b5ba8b682aed398daff1f373acba453110bc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: As considerações de planejamento pertinentes para a implantação de salas do Microsoft Teams e como implantar e gerenciar o sistema.
+ms.openlocfilehash: d7b663e67905aee3cf235034ef2ba82eeaa98c9b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916383"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306538"
 ---
 <h2>Salas do Microsoft Teams</h2>
 <ul class="panelContent cardsW cols cols2">
@@ -25,9 +25,9 @@ ms.locfileid: "33916383"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Transformação de espaços de reunião que varia de huddle pequenas áreas a salas de conferência grande com uma rica e colaborativa equipes experiência that& #39; s simples a ser usado, implantar e gerenciar. </p>
-                        <p>Iniciar reuniões em tempo de ingresso de um toque e project instantaneamente para a exibição na sala e compartilhamento para participantes remotos. </p>
-                        <p>Selecione o sistema certo e periféricos de áudio de vídeos de um de nossos parceiros: Logitech, Crestron, Polycom, Lenovo e HP.</p>
+                        <p>Transforme espaços de reunião variando de pequenas áreas do huddle a grandes salas de conferência com uma experiência avançada e colaborativa de equipes that& # 39; s simples de usar, implantar e gerenciar. </p>
+                        <p>Inicie reuniões no prazo com uma junção com apenas um toque e, em seguida, faça o projeto instantaneamente para a exibição na sala e compartilhe para participantes remotos. </p>
+                        <p>Selecione o sistema e os periféricos de vídeo corretos de um de nossos parceiros: Yealink, Logitech, Crestron, Polycom, Lenovo e HP.</p>
                         <p></p>
                     </div>
                 </div>
@@ -106,9 +106,9 @@ ms.locfileid: "33916383"
 </ul>
 
 > [!NOTE]
-> Salas de equipes da Microsoft é destinada para uso com o Microsoft Teams, Skype para Business Online, Skype para Business Server 2019 ou Skype para Business Server 2015.  <br><br>Plataformas anteriores, como o Lync Server 2013 não são devem trabalhar com salas de equipes da Microsoft.
+> As salas do Microsoft Teams devem ser usadas com o Microsoft Teams, o Skype for Business Online, o Skype for Business Server 2019 ou o Skype for Business Server 2015.  <br><br>Plataformas anteriores como o Lync Server 2013 não devem funcionar com salas do Microsoft Teams.
 
-Estes artigos destinam-se para pessoas encarregadas de planejar, implantar e gerenciar esses dispositivos e não para os usuários do sistema. Os usuários serão mais interessados na [Ajuda online do](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)Microsoft equipes salas.
+Estes artigos destinam-se a pessoas com tarefas de planejamento, implantação e gerenciamento desses dispositivos, e não para os usuários do sistema. Os usuários estarão mais interessados na [ajuda online](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)das salas do Microsoft Teams.
 
 > [!NOTE]
-> [Sistema de sala do Skype](../room-systems/lrs-migration.md) (anteriormente Lync sala System) e salas de equipes da Microsoft são produtos diferentes com diferentes dependências e procedimentos de implantação.
+> [Sistema de sala Skype](../room-systems/lrs-migration.md) (antigo Lync Room System) e as salas do Microsoft Teams são produtos diferentes com diferentes dependências e procedimentos de implantação.

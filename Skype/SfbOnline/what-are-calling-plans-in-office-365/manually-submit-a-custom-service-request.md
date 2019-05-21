@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,104 +21,104 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: 73978d5cc01d2cde7739b6653fcd6c75e83950ec
-ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
+ms.openlocfilehash: 84160b877ffa8420ea41e804d02ad5828e55ad8a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158969"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293779"
 ---
-# <a name="manually-submit-a-custom-service-request"></a><span data-ttu-id="60185-103">Enviar uma solicitação de atendimento ao cliente manualmente</span><span class="sxs-lookup"><span data-stu-id="60185-103">Manually submit a custom service request</span></span>
+# <a name="manually-submit-a-custom-service-request"></a><span data-ttu-id="7e173-103">Enviar uma solicitação de atendimento ao cliente manualmente</span><span class="sxs-lookup"><span data-stu-id="7e173-103">Manually submit a custom service request</span></span>
 
-<span data-ttu-id="60185-104">Se você tiver números de serviço para pontes de conferência discada, atendedores automáticos ou outros números de serviço, números de telefone de chamada gratuita ou tiver mais de 999 números de telefone do usuário (assinante) que você precisa transferir para o Skype for Business, é preciso [gerenciar o telefone números para a sua organização](/microsoftteams/manage-phone-numbers-for-your-organization).</span><span class="sxs-lookup"><span data-stu-id="60185-104">If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, you need to [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).</span></span>
+<span data-ttu-id="7e173-104">Se você tiver números de serviço para pontes de conferência discada, atendedores automáticos ou outros números de serviço, números de telefone de chamada gratuita ou tiver mais de 999 números de telefone do usuário (assinante) que você precisa transferir para o Skype for Business, é preciso [gerenciar o telefone números para a sua organização](/microsoftteams/manage-phone-numbers-for-your-organization).</span><span class="sxs-lookup"><span data-stu-id="7e173-104">If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, you need to [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).</span></span>
 
-<span data-ttu-id="60185-105">Em alguns países/regiões, você também precisará enviar manualmente uma solicitação de serviço personalizada se quiser obter números de telefone ou liberar os números ou mudar de endereço.</span><span class="sxs-lookup"><span data-stu-id="60185-105">In some countries/regions, you will also need to manually submit a custom service request if you want to get telephone numbers, or release the numbers, or change addresses.</span></span> <span data-ttu-id="60185-106">Para ver o que é necessário para cada país/região ou saber mais sobre portabilidade de número, consulte [gerenciar números de telefone para sua organização](/microsoftteams/manage-phone-numbers-for-your-organization).</span><span class="sxs-lookup"><span data-stu-id="60185-106">To see what is required for each country/region or learn more about number porting, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).</span></span>
+<span data-ttu-id="7e173-105">Em alguns países/regiões, você também precisará enviar manualmente uma solicitação de serviço personalizada se quiser obter números de telefone ou liberar os números ou mudar de endereço.</span><span class="sxs-lookup"><span data-stu-id="7e173-105">In some countries/regions, you will also need to manually submit a custom service request if you want to get telephone numbers, or release the numbers, or change addresses.</span></span> <span data-ttu-id="7e173-106">Para ver o que é necessário para cada país/região ou saber mais sobre portabilidade de número, consulte [gerenciar números de telefone para sua organização](/microsoftteams/manage-phone-numbers-for-your-organization).</span><span class="sxs-lookup"><span data-stu-id="7e173-106">To see what is required for each country/region or learn more about number porting, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).</span></span>
 
 
-## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a><span data-ttu-id="60185-107">Se você precisar criar e enviar uma solicitação de serviço, siga estas etapas:</span><span class="sxs-lookup"><span data-stu-id="60185-107">If you need to create and submit a service request follow these steps:</span></span>
+## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a><span data-ttu-id="7e173-107">Se você precisar criar e enviar uma solicitação de serviço, siga estas etapas:</span><span class="sxs-lookup"><span data-stu-id="7e173-107">If you need to create and submit a service request follow these steps:</span></span>
 
-## <a name="for-organizations-150-or-less-follow-these-steps"></a><span data-ttu-id="60185-108">Para organizações com 150 usuários ou menos, siga estas etapas</span><span class="sxs-lookup"><span data-stu-id="60185-108">For organizations 150 or less follow these steps</span></span>
-1. <span data-ttu-id="60185-109">No **Centro de administração do Office 365**, escolha **Precisa de ajuda**?</span><span class="sxs-lookup"><span data-stu-id="60185-109">In the **Office 365 admin center**, choose **Need help**?</span></span>
-2. <span data-ttu-id="60185-110">No painel **Precisa de ajuda?**, informe qual é a ajuda de que você precisa e escolha **Obter ajuda**.</span><span class="sxs-lookup"><span data-stu-id="60185-110">In the **Need help?** pane, tell us what you need help with, then choose **Get help**.</span></span>
-3. <span data-ttu-id="60185-111">Se os resultados da seção **Exibir soluções** não ajudarem, escolha uma destas opções:</span><span class="sxs-lookup"><span data-stu-id="60185-111">If the results in the **View solutions** section don't help, choose one of the following:</span></span>
-    - <span data-ttu-id="60185-112">**Permitir que liguemos para você (recomendado)**: confirme seu número de contato e pressione **Telefonar para mim**.</span><span class="sxs-lookup"><span data-stu-id="60185-112">**Let us call you (Recommended)**: Confirm your contact number, then press **Call me**.</span></span> <span data-ttu-id="60185-113">O tempo de espera previsto para o retorno da chamada é indicado no painel **Precisa de ajuda?**</span><span class="sxs-lookup"><span data-stu-id="60185-113">The expected wait time for a call back is indicated in the **Need help?** pane.</span></span>
-    - <span data-ttu-id="60185-114">**Enviar um email para nós**: confirme seu endereço de email e escolha **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="60185-114">**Email us**: Confirm your email address, then choose **Send**.</span></span> <span data-ttu-id="60185-115">O tempo de resposta da chamada é indicado no painel **Precisa de ajuda?**</span><span class="sxs-lookup"><span data-stu-id="60185-115">The call response time is indicated in the **Need help?** pane.</span></span>
+## <a name="for-organizations-150-or-less-follow-these-steps"></a><span data-ttu-id="7e173-108">Para organizações com 150 usuários ou menos, siga estas etapas</span><span class="sxs-lookup"><span data-stu-id="7e173-108">For organizations 150 or less follow these steps</span></span>
+1. <span data-ttu-id="7e173-109">No **Centro de administração do Office 365**, escolha **Precisa de ajuda**?</span><span class="sxs-lookup"><span data-stu-id="7e173-109">In the **Office 365 admin center**, choose **Need help**?</span></span>
+2. <span data-ttu-id="7e173-110">No painel **Precisa de ajuda?**, informe qual é a ajuda de que você precisa e escolha **Obter ajuda**.</span><span class="sxs-lookup"><span data-stu-id="7e173-110">In the **Need help?** pane, tell us what you need help with, then choose **Get help**.</span></span>
+3. <span data-ttu-id="7e173-111">Se os resultados da seção **Exibir soluções** não ajudarem, escolha uma destas opções:</span><span class="sxs-lookup"><span data-stu-id="7e173-111">If the results in the **View solutions** section don't help, choose one of the following:</span></span>
+    - <span data-ttu-id="7e173-112">**Permitir que liguemos para você (recomendado)**: confirme seu número de contato e pressione **Telefonar para mim**.</span><span class="sxs-lookup"><span data-stu-id="7e173-112">**Let us call you (Recommended)**: Confirm your contact number, then press **Call me**.</span></span> <span data-ttu-id="7e173-113">O tempo de espera previsto para o retorno da chamada é indicado no painel **Precisa de ajuda?**</span><span class="sxs-lookup"><span data-stu-id="7e173-113">The expected wait time for a call back is indicated in the **Need help?** pane.</span></span>
+    - <span data-ttu-id="7e173-114">**Enviar um email para nós**: confirme seu endereço de email e escolha **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="7e173-114">**Email us**: Confirm your email address, then choose **Send**.</span></span> <span data-ttu-id="7e173-115">O tempo de resposta da chamada é indicado no painel **Precisa de ajuda?**</span><span class="sxs-lookup"><span data-stu-id="7e173-115">The call response time is indicated in the **Need help?** pane.</span></span>
 
-### <a name="for-organizations-with-more-than-150-users-follow-these-steps-to-create-a-service-request"></a><span data-ttu-id="60185-116">Para organizações com mais de 150 usuários siga estas etapas para criar uma solicitação de serviço:</span><span class="sxs-lookup"><span data-stu-id="60185-116">For organizations with more than 150 users follow these steps to create a service request:</span></span>
+### <a name="for-organizations-with-more-than-150-users-follow-these-steps-to-create-a-service-request"></a><span data-ttu-id="7e173-116">Para organizações com mais de 150 usuários siga estas etapas para criar uma solicitação de serviço:</span><span class="sxs-lookup"><span data-stu-id="7e173-116">For organizations with more than 150 users follow these steps to create a service request:</span></span>
 
-1. <span data-ttu-id="60185-117">Entre no Office 365 como administrador usando sua conta corporativa ou de estudante.</span><span class="sxs-lookup"><span data-stu-id="60185-117">Sign in as an administrator to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="7e173-117">Entre no Office 365 como administrador usando sua conta corporativa ou de estudante.</span><span class="sxs-lookup"><span data-stu-id="7e173-117">Sign in as an administrator to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="60185-118">No Centro de administração do Office 365, no painel de navegação esquerdo, clique em **Suporte** > **Nova solicitação de serviço**.</span><span class="sxs-lookup"><span data-stu-id="60185-118">In the Office 365 admin center, in the left navigation, click **Support** > **New service request**.</span></span>
+2. <span data-ttu-id="7e173-118">No Centro de administração do Office 365, no painel de navegação esquerdo, clique em **Suporte** > **Nova solicitação de serviço**.</span><span class="sxs-lookup"><span data-stu-id="7e173-118">In the Office 365 admin center, in the left navigation, click **Support** > **New service request**.</span></span>
     
-3. <span data-ttu-id="60185-119">Em **Solicitações de serviço**, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="60185-119">Under **Service requests**, click **Add**.</span></span>
+3. <span data-ttu-id="7e173-119">Em **Solicitações de serviço**, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="7e173-119">Under **Service requests**, click **Add**.</span></span>
     
-4. <span data-ttu-id="60185-120">Na página **Criar uma solicitação de serviço**, clique em **Colaboração online**.</span><span class="sxs-lookup"><span data-stu-id="60185-120">On the **Create a service request** page, click **Online collaboration**.</span></span>
+4. <span data-ttu-id="7e173-120">Na página **Criar uma solicitação de serviço**, clique em **Colaboração online**.</span><span class="sxs-lookup"><span data-stu-id="7e173-120">On the **Create a service request** page, click **Online collaboration**.</span></span>
     
-5. <span data-ttu-id="60185-121">Na página **Identificar o problema**, selecione e insira o seguinte:</span><span class="sxs-lookup"><span data-stu-id="60185-121">On the **Identify the issue** page, select and enter in the following:</span></span>
+5. <span data-ttu-id="7e173-121">Na página **Identificar o problema**, selecione e insira o seguinte:</span><span class="sxs-lookup"><span data-stu-id="7e173-121">On the **Identify the issue** page, select and enter in the following:</span></span>
     
-   - <span data-ttu-id="60185-122">**Recursos:** selecione **Plano de Chamadas Domésticas** e/ou **Planos de Chamadas Domésticas e Internacionais**.</span><span class="sxs-lookup"><span data-stu-id="60185-122">**Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.</span></span>
+   - <span data-ttu-id="7e173-122">**Recursos:** selecione **Plano de Chamadas Domésticas** e/ou **Planos de Chamadas Domésticas e Internacionais**.</span><span class="sxs-lookup"><span data-stu-id="7e173-122">**Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.</span></span>
     
-   - <span data-ttu-id="60185-123">**Sintoma:** insira **Chamada de Emergência**.</span><span class="sxs-lookup"><span data-stu-id="60185-123">**Symptom:** Enter **Emergency Calling**.</span></span>
+   - <span data-ttu-id="7e173-123">**Sintoma:** insira **Chamada de Emergência**.</span><span class="sxs-lookup"><span data-stu-id="7e173-123">**Symptom:** Enter **Emergency Calling**.</span></span>
     
-   - <span data-ttu-id="60185-124">**Resumo do problema:** insira **Validação do endereço**.</span><span class="sxs-lookup"><span data-stu-id="60185-124">**Issue summary:** Enter **Address validation**.</span></span>
+   - <span data-ttu-id="7e173-124">**Resumo do problema:** insira **Validação do endereço**.</span><span class="sxs-lookup"><span data-stu-id="7e173-124">**Issue summary:** Enter **Address validation**.</span></span>
     
-   - <span data-ttu-id="60185-125">**Detalhes do problema:** insira todos os detalhes sobre os endereços que você deseja validar, como:</span><span class="sxs-lookup"><span data-stu-id="60185-125">**Issue details:** Enter any details about the address(s) you want to validate such as the:</span></span>
+   - <span data-ttu-id="7e173-125">**Detalhes do problema:** insira todos os detalhes sobre os endereços que você deseja validar, como:</span><span class="sxs-lookup"><span data-stu-id="7e173-125">**Issue details:** Enter any details about the address(s) you want to validate such as the:</span></span>
     
-      - <span data-ttu-id="60185-126">Número</span><span class="sxs-lookup"><span data-stu-id="60185-126">Street number</span></span>
+      - <span data-ttu-id="7e173-126">Número</span><span class="sxs-lookup"><span data-stu-id="7e173-126">Street number</span></span>
     
-      - <span data-ttu-id="60185-127">Nome da rua</span><span class="sxs-lookup"><span data-stu-id="60185-127">Street name</span></span>
+      - <span data-ttu-id="7e173-127">Nome da rua</span><span class="sxs-lookup"><span data-stu-id="7e173-127">Street name</span></span>
     
-      - <span data-ttu-id="60185-128">Cidade ou município</span><span class="sxs-lookup"><span data-stu-id="60185-128">Town or city</span></span>
+      - <span data-ttu-id="7e173-128">Cidade ou município</span><span class="sxs-lookup"><span data-stu-id="7e173-128">Town or city</span></span>
     
-      - <span data-ttu-id="60185-129">País ou região</span><span class="sxs-lookup"><span data-stu-id="60185-129">Country or region</span></span>
+      - <span data-ttu-id="7e173-129">País ou região</span><span class="sxs-lookup"><span data-stu-id="7e173-129">Country or region</span></span>
     
      > [!IMPORTANT]
-     > <span data-ttu-id="60185-130">**Informe o país/região onde oferecemos Planos de Chamadas no Office 365 para o qual você está tentando validar um endereço de emergência ao atribuir um número de telefone.**</span><span class="sxs-lookup"><span data-stu-id="60185-130">**Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**</span></span>
+     > <span data-ttu-id="7e173-130">**Informe o país/região onde oferecemos Planos de Chamadas no Office 365 para o qual você está tentando validar um endereço de emergência ao atribuir um número de telefone.**</span><span class="sxs-lookup"><span data-stu-id="7e173-130">**Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**</span></span>
   
-      - <span data-ttu-id="60185-131">CEP</span><span class="sxs-lookup"><span data-stu-id="60185-131">Postal or zip code</span></span>
+      - <span data-ttu-id="7e173-131">CEP</span><span class="sxs-lookup"><span data-stu-id="7e173-131">Postal or zip code</span></span>
     
-6. <span data-ttu-id="60185-132">Clique na página **Avançar**, em **Sim e em continuar** para continuar.</span><span class="sxs-lookup"><span data-stu-id="60185-132">Click **Next** page, click **Yes, continue** to continue.</span></span>
+6. <span data-ttu-id="7e173-132">Clique na página **Avançar**, em **Sim e em continuar** para continuar.</span><span class="sxs-lookup"><span data-stu-id="7e173-132">Click **Next** page, click **Yes, continue** to continue.</span></span>
     
-7. <span data-ttu-id="60185-133">Na página **Adicionar detalhes**, selecione e insira o seguinte:</span><span class="sxs-lookup"><span data-stu-id="60185-133">On the **Add details** page, select and enter the following:</span></span>
+7. <span data-ttu-id="7e173-133">Na página **Adicionar detalhes**, selecione e insira o seguinte:</span><span class="sxs-lookup"><span data-stu-id="7e173-133">On the **Add details** page, select and enter the following:</span></span>
     
-   - <span data-ttu-id="60185-134">**Seu serviço está indisponível?**</span><span class="sxs-lookup"><span data-stu-id="60185-134">**Is your service unavailable?**</span></span> <span data-ttu-id="60185-135">Selecione **Não**.</span><span class="sxs-lookup"><span data-stu-id="60185-135">Select **No**.</span></span>
+   - <span data-ttu-id="7e173-134">**Seu serviço está indisponível?**</span><span class="sxs-lookup"><span data-stu-id="7e173-134">**Is your service unavailable?**</span></span> <span data-ttu-id="7e173-135">Selecione **Não**.</span><span class="sxs-lookup"><span data-stu-id="7e173-135">Select **No**.</span></span>
     
-   - <span data-ttu-id="60185-136">**Quantos usuários são afetados?**</span><span class="sxs-lookup"><span data-stu-id="60185-136">**How many users are affected?**</span></span> <span data-ttu-id="60185-137">Selecione **Alguns usuários**.</span><span class="sxs-lookup"><span data-stu-id="60185-137">Select **Some users**.</span></span>
+   - <span data-ttu-id="7e173-136">**Quantos usuários são afetados?**</span><span class="sxs-lookup"><span data-stu-id="7e173-136">**How many users are affected?**</span></span> <span data-ttu-id="7e173-137">Selecione **Alguns usuários**.</span><span class="sxs-lookup"><span data-stu-id="7e173-137">Select **Some users**.</span></span>
     
-   - <span data-ttu-id="60185-138">**Insira o endereço de email de alguém que é afetado por esse problema** ou deixe em branco.</span><span class="sxs-lookup"><span data-stu-id="60185-138">**Enter an email address of someone affected by this issue** or leave blank.</span></span>
+   - <span data-ttu-id="7e173-138">**Insira o endereço de email de alguém que é afetado por esse problema** ou deixe em branco.</span><span class="sxs-lookup"><span data-stu-id="7e173-138">**Enter an email address of someone affected by this issue** or leave blank.</span></span>
     
-   - <span data-ttu-id="60185-139">**Escolha os domínios que você deseja listar**</span><span class="sxs-lookup"><span data-stu-id="60185-139">**Select Domain(s) you want to list**</span></span>
+   - <span data-ttu-id="7e173-139">**Escolha os domínios que você deseja listar**</span><span class="sxs-lookup"><span data-stu-id="7e173-139">**Select Domain(s) you want to list**</span></span>
     
-   - <span data-ttu-id="60185-140">**Anexe um arquivo**, se tiver vários endereços que precisa validar.</span><span class="sxs-lookup"><span data-stu-id="60185-140">**Attach a file** if you have multiple addresses you need validated.</span></span>
+   - <span data-ttu-id="7e173-140">**Anexe um arquivo**, se tiver vários endereços que precisa validar.</span><span class="sxs-lookup"><span data-stu-id="7e173-140">**Attach a file** if you have multiple addresses you need validated.</span></span>
     
-   - <span data-ttu-id="60185-141">Clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="60185-141">Click **Next**.</span></span>
+   - <span data-ttu-id="7e173-141">Clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="7e173-141">Click **Next**.</span></span>
     
-   - <span data-ttu-id="60185-142">Insira seu número de telefone de contato.</span><span class="sxs-lookup"><span data-stu-id="60185-142">Enter your contact phone number.</span></span>
+   - <span data-ttu-id="7e173-142">Insira seu número de telefone de contato.</span><span class="sxs-lookup"><span data-stu-id="7e173-142">Enter your contact phone number.</span></span>
     
-8. <span data-ttu-id="60185-143">Confira as informações e clique em **Enviar solicitação**.</span><span class="sxs-lookup"><span data-stu-id="60185-143">Review the information, and then click **Submit request**.</span></span>
+8. <span data-ttu-id="7e173-143">Confira as informações e clique em **Enviar solicitação**.</span><span class="sxs-lookup"><span data-stu-id="7e173-143">Review the information, and then click **Submit request**.</span></span>
     
 > [!TIP]
-> <span data-ttu-id="60185-144">O número de referência será listado na página **Solicitações de serviço** no Centro de administração do Office 365.</span><span class="sxs-lookup"><span data-stu-id="60185-144">The reference number will be listed on the **Service requests** page in the Office 365 admin center.</span></span>
+> <span data-ttu-id="7e173-144">O número de referência será listado na página **Solicitações de serviço** no Centro de administração do Office 365.</span><span class="sxs-lookup"><span data-stu-id="7e173-144">The reference number will be listed on the **Service requests** page in the Office 365 admin center.</span></span>
   
-## <a name="what-else-should-you-know-about-number-porting"></a><span data-ttu-id="60185-145">O que mais você deve saber sobre a portabilidade de números?</span><span class="sxs-lookup"><span data-stu-id="60185-145">What else should you know about number porting?</span></span>
+## <a name="what-else-should-you-know-about-number-porting"></a><span data-ttu-id="7e173-145">O que mais você deve saber sobre a portabilidade de números?</span><span class="sxs-lookup"><span data-stu-id="7e173-145">What else should you know about number porting?</span></span>
 
-- <span data-ttu-id="60185-146">Para usar planos de chamada, você deve comprar e atribuir licenças aos usuários.</span><span class="sxs-lookup"><span data-stu-id="60185-146">To use Calling Plans you must purchase and assign licenses to your users.</span></span> <span data-ttu-id="60185-147">[Licenciamento de Complementos do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span><span class="sxs-lookup"><span data-stu-id="60185-147">[Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span>
+- <span data-ttu-id="7e173-146">Para usar planos de chamada, você deve comprar e atribuir licenças aos usuários.</span><span class="sxs-lookup"><span data-stu-id="7e173-146">To use Calling Plans you must purchase and assign licenses to your users.</span></span> <span data-ttu-id="7e173-147">[Licenciamento de Complementos do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span><span class="sxs-lookup"><span data-stu-id="7e173-147">[Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span>
     
-- <span data-ttu-id="60185-148">Você deve atribuir os novos números de telefone recebidos a cada um dos seus usuários.</span><span class="sxs-lookup"><span data-stu-id="60185-148">You must assign the new phone numbers you have to each of your users.</span></span> <span data-ttu-id="60185-149">[Atribuir, alterar ou remover um número de telefone para um usuário](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).</span><span class="sxs-lookup"><span data-stu-id="60185-149">[Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).</span></span>
+- <span data-ttu-id="7e173-148">Você deve atribuir os novos números de telefone recebidos a cada um dos seus usuários.</span><span class="sxs-lookup"><span data-stu-id="7e173-148">You must assign the new phone numbers you have to each of your users.</span></span> <span data-ttu-id="7e173-149">[Atribuir, alterar ou remover um número de telefone para um usuário](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).</span><span class="sxs-lookup"><span data-stu-id="7e173-149">[Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="60185-150">Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="60185-150">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="7e173-150">Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="7e173-150">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="60185-151">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="60185-151">Related topics</span></span>
-[<span data-ttu-id="60185-152">Perguntas comuns sobre a transferência de números de telefone</span><span class="sxs-lookup"><span data-stu-id="60185-152">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="7e173-151">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="7e173-151">Related topics</span></span>
+[<span data-ttu-id="7e173-152">Perguntas comuns sobre a transferência de números de telefone</span><span class="sxs-lookup"><span data-stu-id="7e173-152">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="60185-153">Diferentes tipos de números de telefone usados para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="60185-153">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="7e173-153">Diferentes tipos de números de telefone usados para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="7e173-153">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="60185-154">Gerenciar os números de telefone de sua organização</span><span class="sxs-lookup"><span data-stu-id="60185-154">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="7e173-154">Gerenciar os números de telefone de sua organização</span><span class="sxs-lookup"><span data-stu-id="7e173-154">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="60185-155">Termos e condições das Chamadas de Emergência</span><span class="sxs-lookup"><span data-stu-id="60185-155">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="7e173-155">Termos e condições das Chamadas de Emergência</span><span class="sxs-lookup"><span data-stu-id="7e173-155">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="60185-156">[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="60185-156">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="7e173-156">[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="7e173-156">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  

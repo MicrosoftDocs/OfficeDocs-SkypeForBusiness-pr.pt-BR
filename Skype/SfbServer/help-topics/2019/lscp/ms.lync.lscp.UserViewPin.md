@@ -1,10 +1,10 @@
 ---
-title: Os usuários exibir o Status de PIN
+title: Status do PIN do modo de exibição usuários
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserViewPin
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: e4b8cf70-b8c3-499d-b0f9-7019d9b6aae4
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 6881a3dced9d83e34a778d475a1e79d637aa80d5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4eaa085832fc140981bb5343dd288e0cdedead01
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890701"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293772"
 ---
-# <a name="users-view-pin-status"></a><span data-ttu-id="8b12d-104">Usuários: Exibir Status de PIN</span><span class="sxs-lookup"><span data-stu-id="8b12d-104">Users: View PIN Status</span></span>
+# <a name="users-view-pin-status"></a><span data-ttu-id="7d358-104">Usuários: Exibir Status de PIN</span><span class="sxs-lookup"><span data-stu-id="7d358-104">Users: View PIN Status</span></span>
  
-<span data-ttu-id="8b12d-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="8b12d-105">What do you want to do?</span></span> <span data-ttu-id="8b12d-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="8b12d-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="7d358-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="7d358-105">What do you want to do?</span></span> <span data-ttu-id="7d358-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="7d358-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="8b12d-107">Definir discada um usuário PIN no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="8b12d-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [<span data-ttu-id="7d358-107">Definir o PIN de conferência discada de um usuário no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="7d358-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
  
 

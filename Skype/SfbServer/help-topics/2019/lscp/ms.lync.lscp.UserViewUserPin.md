@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserViewUserPin
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: 4a68227c-f559-442f-955b-5c4ccc06b7f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: b9e5482bc22510f52093ccb1a450a3ed0695e4b0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f903659610e5102390189e6887f3905bb6197097
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890750"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293724"
 ---
-# <a name="users-view-or-configure-pin-policy"></a><span data-ttu-id="577f2-104">Usuários: Exibir ou Configurar Política PIN</span><span class="sxs-lookup"><span data-stu-id="577f2-104">Users: View or Configure PIN Policy</span></span>
+# <a name="users-view-or-configure-pin-policy"></a><span data-ttu-id="e7bb4-104">Usuários: Exibir ou Configurar Política PIN</span><span class="sxs-lookup"><span data-stu-id="e7bb4-104">Users: View or Configure PIN Policy</span></span>
  
-<span data-ttu-id="577f2-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="577f2-105">What do you want to do?</span></span> <span data-ttu-id="577f2-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="577f2-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="e7bb4-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="e7bb4-105">What do you want to do?</span></span> <span data-ttu-id="e7bb4-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="e7bb4-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="577f2-107">Definir discada um usuário PIN no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="577f2-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [<span data-ttu-id="e7bb4-107">Definir o PIN de conferência discada de um usuário no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="e7bb4-107">Set a user's dial-in conferencing PIN in Skype for Business Server</span></span>](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
  
 
