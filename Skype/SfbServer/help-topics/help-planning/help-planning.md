@@ -5,22 +5,22 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 1/1/1900
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2287aef6-c7b6-4170-9d4d-e1e54e5236b5
-description: Tópicos de ferramenta de planejamento
-ms.openlocfilehash: 36528d629f73cbc214d4e1f7c57b5e6e0f5a541e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Tópicos da ferramenta de planejamento
+ms.openlocfilehash: 134516f1a88dad1e59dd2090b8714767a71dcd80
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919658"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281091"
 ---
-# <a name="help-planning"></a><span data-ttu-id="f864f-103">Planejamento de ajuda</span><span class="sxs-lookup"><span data-stu-id="f864f-103">Help-Planning</span></span>
+# <a name="help-planning"></a><span data-ttu-id="01db5-103">Planejamento de ajuda</span><span class="sxs-lookup"><span data-stu-id="01db5-103">Help-Planning</span></span>
  
-<span data-ttu-id="f864f-104">Os tópicos neste nó fornecem ajuda para o Skype para ferramenta de planejamento do Business Server.</span><span class="sxs-lookup"><span data-stu-id="f864f-104">The topics in this node provide help for the Skype for Business Server planning tool.</span></span>
+<span data-ttu-id="01db5-104">Os tópicos neste nó fornecem ajuda para a ferramenta de planejamento do Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="01db5-104">The topics in this node provide help for the Skype for Business Server planning tool.</span></span>
   
 
   
