@@ -5,22 +5,22 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 1/1/1900
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c7a60ee-b803-4cd4-a7cc-6552f3b238b8
-description: Tópicos do construtor de topologia
-ms.openlocfilehash: 191bb9527e6d94a23bed213f5b491fc788e3d297
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Tópicos do construtor de topologias
+ms.openlocfilehash: 519f41d241f97d0f9c9665b5fb1bc046daee0a01
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888594"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284330"
 ---
-# <a name="help-topobld"></a><span data-ttu-id="afaf0-103">Help-TopoBld</span><span class="sxs-lookup"><span data-stu-id="afaf0-103">Help-TopoBld</span></span>
+# <a name="help-topobld"></a><span data-ttu-id="c2ecd-103">Help-TopoBld</span><span class="sxs-lookup"><span data-stu-id="c2ecd-103">Help-TopoBld</span></span>
  
-<span data-ttu-id="afaf0-104">Este nó contém tópicos da Ajuda para o Skype para o construtor de topologia de servidor de negócios.</span><span class="sxs-lookup"><span data-stu-id="afaf0-104">This node contains help topics for the Skype for Business Server topology builder.</span></span>
+<span data-ttu-id="c2ecd-104">Esse nó contém tópicos de ajuda para o construtor de topologias do Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="c2ecd-104">This node contains help topics for the Skype for Business Server topology builder.</span></span>
   
 
   

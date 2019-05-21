@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,35 +22,35 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: af3f570df6b395add8983e5e078b79467349752f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
+ms.openlocfilehash: 8e65eb8473d79c9e091fb7a76a4f374558972e55
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204323"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281688"
 ---
-# <a name="toll-free-dialing-restrictions-in-kenya"></a><span data-ttu-id="dd36e-105">Restrições de discagem de chamada gratuita no Quênia</span><span class="sxs-lookup"><span data-stu-id="dd36e-105">Toll-free dialing restrictions in Kenya</span></span>
+# <a name="toll-free-dialing-restrictions-in-kenya"></a><span data-ttu-id="e5e11-105">Restrições de discagem de chamada gratuita no Quênia</span><span class="sxs-lookup"><span data-stu-id="e5e11-105">Toll-free dialing restrictions in Kenya</span></span>
 
-<span data-ttu-id="dd36e-106">[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md), ou aprender mais sobre as limitações de discagem gratuita e restrições.</span><span class="sxs-lookup"><span data-stu-id="dd36e-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="e5e11-106">[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuitas.</span><span class="sxs-lookup"><span data-stu-id="e5e11-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="dd36e-107">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="dd36e-107">**Details**</span></span>|<span data-ttu-id="dd36e-108">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="dd36e-108">**Description**</span></span>|
+|<span data-ttu-id="e5e11-107">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="e5e11-107">**Details**</span></span>|<span data-ttu-id="e5e11-108">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="e5e11-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="dd36e-109">É gratuita chamar disponível?</span><span class="sxs-lookup"><span data-stu-id="dd36e-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="dd36e-110">Sim</span><span class="sxs-lookup"><span data-stu-id="dd36e-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="dd36e-111">Discagem format(s)</span><span class="sxs-lookup"><span data-stu-id="dd36e-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="dd36e-112">0 800 7XX XXX</span><span class="sxs-lookup"><span data-stu-id="dd36e-112">0 800 7XX XXX</span></span> <br/> |
-|<span data-ttu-id="dd36e-113">Código ISO de país/região</span><span class="sxs-lookup"><span data-stu-id="dd36e-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="dd36e-114">KE</span><span class="sxs-lookup"><span data-stu-id="dd36e-114">KE</span></span>  <br/> |
-|<span data-ttu-id="dd36e-115">Ilha/território abordado</span><span class="sxs-lookup"><span data-stu-id="dd36e-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="dd36e-116">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="dd36e-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="dd36e-117">Ilha/território não coberto</span><span class="sxs-lookup"><span data-stu-id="dd36e-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="dd36e-118">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="dd36e-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="dd36e-119">Disponibilidade de linha fixa/com fio</span><span class="sxs-lookup"><span data-stu-id="dd36e-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="dd36e-120">Parcial.</span><span class="sxs-lookup"><span data-stu-id="dd36e-120">Partial.</span></span> <span data-ttu-id="dd36e-121">Veja os comentários.</span><span class="sxs-lookup"><span data-stu-id="dd36e-121">See comments.</span></span>  <br/> |
-|<span data-ttu-id="dd36e-122">Disponibilidade com a rede móvel</span><span class="sxs-lookup"><span data-stu-id="dd36e-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="dd36e-123">Parcial.</span><span class="sxs-lookup"><span data-stu-id="dd36e-123">Partial.</span></span> <span data-ttu-id="dd36e-124">Veja os comentários.</span><span class="sxs-lookup"><span data-stu-id="dd36e-124">See comments.</span></span>  <br/> |
-|<span data-ttu-id="dd36e-125">Comentários, restrições e problemas de acesso</span><span class="sxs-lookup"><span data-stu-id="dd36e-125">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="dd36e-126">Corrigido o acesso à rede: Safaricom e Airtel.</span><span class="sxs-lookup"><span data-stu-id="dd36e-126">Fixed network access: Safaricom and Airtel.</span></span> <span data-ttu-id="dd36e-127">Acesso à rede móvel: Safaricom, Airtel e laranja.</span><span class="sxs-lookup"><span data-stu-id="dd36e-127">Mobile network access: Safaricom, Airtel, and Orange.</span></span>  <br/> |
+|<span data-ttu-id="e5e11-109">A chamada gratuita está disponível?</span><span class="sxs-lookup"><span data-stu-id="e5e11-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="e5e11-110">Sim</span><span class="sxs-lookup"><span data-stu-id="e5e11-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="e5e11-111">Formato (s) de discagem</span><span class="sxs-lookup"><span data-stu-id="e5e11-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="e5e11-112">0 800 7XX XXX</span><span class="sxs-lookup"><span data-stu-id="e5e11-112">0 800 7XX XXX</span></span> <br/> |
+|<span data-ttu-id="e5e11-113">Código ISO de país/região</span><span class="sxs-lookup"><span data-stu-id="e5e11-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="e5e11-114">KE</span><span class="sxs-lookup"><span data-stu-id="e5e11-114">KE</span></span>  <br/> |
+|<span data-ttu-id="e5e11-115">Ilha/território abrangido</span><span class="sxs-lookup"><span data-stu-id="e5e11-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="e5e11-116">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="e5e11-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="e5e11-117">Ilha/território não coberto</span><span class="sxs-lookup"><span data-stu-id="e5e11-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="e5e11-118">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="e5e11-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="e5e11-119">Disponibilidade de linha fixa/com fio</span><span class="sxs-lookup"><span data-stu-id="e5e11-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="e5e11-120">Parcial.</span><span class="sxs-lookup"><span data-stu-id="e5e11-120">Partial.</span></span> <span data-ttu-id="e5e11-121">Veja os comentários.</span><span class="sxs-lookup"><span data-stu-id="e5e11-121">See comments.</span></span>  <br/> |
+|<span data-ttu-id="e5e11-122">Disponibilidade com a rede móvel</span><span class="sxs-lookup"><span data-stu-id="e5e11-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="e5e11-123">Parcial.</span><span class="sxs-lookup"><span data-stu-id="e5e11-123">Partial.</span></span> <span data-ttu-id="e5e11-124">Veja os comentários.</span><span class="sxs-lookup"><span data-stu-id="e5e11-124">See comments.</span></span>  <br/> |
+|<span data-ttu-id="e5e11-125">Comentários, restrições e problemas de acesso</span><span class="sxs-lookup"><span data-stu-id="e5e11-125">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="e5e11-126">Acesso à rede fixo: Safaricom e Airtel.</span><span class="sxs-lookup"><span data-stu-id="e5e11-126">Fixed network access: Safaricom and Airtel.</span></span> <span data-ttu-id="e5e11-127">Acesso à rede móvel: Safaricom, Airtel e laranja.</span><span class="sxs-lookup"><span data-stu-id="e5e11-127">Mobile network access: Safaricom, Airtel, and Orange.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="dd36e-128">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="dd36e-128">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="e5e11-128">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="e5e11-128">Related topics</span></span>
 
-[<span data-ttu-id="dd36e-129">Limitações e restrições de discagem gratuita</span><span class="sxs-lookup"><span data-stu-id="dd36e-129">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="e5e11-129">Limitações e restrições de discagem gratuita</span><span class="sxs-lookup"><span data-stu-id="e5e11-129">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="dd36e-130">Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="dd36e-130">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="e5e11-130">Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="e5e11-130">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  

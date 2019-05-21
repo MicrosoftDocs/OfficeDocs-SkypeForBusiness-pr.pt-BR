@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.NcsRegionRouteMain
@@ -13,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: cb309ad34d8264239823524d071576107c558018
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: be7581328c9c82088dd4322fa910d3f84921e400
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902275"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306843"
 ---
-# <a name="configure-a-network-region-route"></a><span data-ttu-id="1dc2d-104">Configurar uma Rota de Região de Rede</span><span class="sxs-lookup"><span data-stu-id="1dc2d-104">Configure a Network Region Route</span></span>
+# <a name="configure-a-network-region-route"></a><span data-ttu-id="3ea88-104">Configurar uma Rota de Região de Rede</span><span class="sxs-lookup"><span data-stu-id="3ea88-104">Configure a Network Region Route</span></span>
 
-<span data-ttu-id="1dc2d-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="1dc2d-105">What do you want to do?</span></span> <span data-ttu-id="1dc2d-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="1dc2d-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="3ea88-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="3ea88-105">What do you want to do?</span></span> <span data-ttu-id="3ea88-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="3ea88-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="1dc2d-107">Configurando roteamentos de região de rede</span><span class="sxs-lookup"><span data-stu-id="1dc2d-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
+- [<span data-ttu-id="3ea88-107">Configurar rotas de região de rede</span><span class="sxs-lookup"><span data-stu-id="3ea88-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
 
-<span data-ttu-id="1dc2d-108">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="1dc2d-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="3ea88-108">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte [gerenciar o Skype for Business server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="3ea88-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
