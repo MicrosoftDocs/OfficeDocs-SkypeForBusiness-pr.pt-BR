@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,28 +21,28 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 28a34ac1ab9fb0c671088635185b5a8a0fb8c1a4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
+ms.openlocfilehash: 2c76e12bf6143d814b4a90065d35dec7b5cbf775
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223444"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300898"
 ---
 # <a name="toll-free-dialing-restrictions-in-belgium"></a>Restrições de discagem gratuita na Bélgica
 
-[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md), ou aprender mais sobre as limitações de discagem gratuita e restrições.
+[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuitas.
 
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|É gratuita chamar disponível?  <br/> |Sim  <br/> |
-|Discagem format(s)  <br/> | 0 800 XX XXX <br>|
+|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
+|Formato (s) de discagem  <br/> | 0 800 XX XXX <br>|
 |Código ISO de país/região  <br/> |BE  <br/> |
-|Ilha/território abordado  <br/> |Não aplicável  <br/> |
+|Ilha/território abrangido  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> | Não aplicável  <br/>  |
 |Disponibilidade de linha fixa/com fio  <br/> |Sim  <br/> |
-|Disponibilidade com a rede móvel  <br/> | Sim, a taxa de premium. <br/> |
+|Disponibilidade com a rede móvel  <br/> | Sim, com tarifa Premium. <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Nenhum  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados

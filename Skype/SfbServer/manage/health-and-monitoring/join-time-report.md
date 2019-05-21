@@ -1,25 +1,25 @@
 ---
-title: Relatório de tempo de ingresso conferência no Skype para Business Server
+title: Relatório de tempo de ingresso em conferência no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
-description: 'Resumo: Saiba mais sobre o conferência Join tempo relatório de resumo no Skype para Business Server.'
-ms.openlocfilehash: 91e1c58d5718f0012e59e5ce2bfb6c53dbfd9c01
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de Resumo de tempo de ingresso em conferência no Skype for Business Server.'
+ms.openlocfilehash: a6ded5dad2d55c6c629cd61809c803ee40de862a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897643"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305637"
 ---
-# <a name="conference-join-time-report-in-skype-for-business-server"></a>Relatório de tempo de ingresso conferência no Skype para Business Server
+# <a name="conference-join-time-report-in-skype-for-business-server"></a>Relatório de tempo de ingresso em conferência no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o conferência Join tempo relatório de resumo no Skype para Business Server.
+**Resumo:** Saiba mais sobre o relatório de Resumo de tempo de ingresso em conferência no Skype for Business Server.
   
 O Resumo do Tempo de Ingresso em Conferência permite que você determine quanto tempo demora para que seus usuários ingressarem em uma conferência. O relatório mostra o tempo médio de ingresso (em milissegundos) e também oferece um detalhamento que permite que você saiba quantos usuários foram capazes de se juntar a uma conferência em 2 segundos ou menos, quantos usuários necessitaram de 2 a 5 segundos para ingressar em uma conferência, etc.
   
@@ -52,13 +52,13 @@ A tabela a seguir lista as informações fornecidas no Relatório de Tempo de In
 |**Data** <br/> O título para essa métrica varia dependendo do Intervalo selecionado.  <br/> |Não  <br/> |Data e horário em que aconteceu a conferência.  <br/> |
 |**Total de sessões** <br/> |Não  <br/> |Número total de sessões, incluindo sessões bem-sucedidas, com falha (tanto falhas esperadas quanto inesperadas) e sessões não categorizadas.  <br/> |
 |**Média (ms)** <br/> |Não  <br/> |Média de tempo (em milissegundos) que demorou para que os participantes ingressassem na conferência.  <br/> |
-|**Sessões \< 2 segundos, Volume** <br/> |Não  <br/> |Número de participantes que conseguiram ingressar na conferência em menos de 2 segundos.  <br/> |
+|**Sessões \< com 2 segundos, volume** <br/> |Não  <br/> |Número de participantes que conseguiram ingressar na conferência em menos de 2 segundos.  <br/> |
 |**Sessões \< 2 segundos, porcentagem** <br/> |Não  <br/> ||
 |**Sessões de 2 a 5 segundos, Volume** <br/> |Não  <br/> |Número de participantes que demoraram de 2 a 5 segundos para ingressar na conferência.  <br/> |
 |**Sessões de 2 a 5 segundos, Porcentagem** <br/> |Não  <br/> |Porcentagem do total de participantes da chamada que demoraram entre 2 a 5 segundos para ingressar na conferência.  <br/> |
 |**Sessões de 5 a 10 segundos, Volume** <br/> |Não  <br/> |Número de participantes que demoraram entre 5 a 10 segundos para ingressar na conferência.  <br/> |
 |**Sessões de 5 a 10 segundos, Porcentagem** <br/> |Não  <br/> |Porcentagem do total de participantes de chamadas que demoraram entre 5 a 10 segundos para ingressar na conferência.  <br/> |
-|**Sessões \> 10 segundos, Volume** <br/> |Não  <br/> |Número de participantes que precisaram de mais de 10 segundos para ingressar na conferência.  <br/> |
-|**Sessões \> 10 segundos, porcentagem** <br/> |Não  <br/> |Porcentagem do total de participantes de chamadas que precisaram de mais de 10 segundos para ingressar na conferência.  <br/> |
+|**Sessões \> de 10 segundos, volume** <br/> |Não  <br/> |Número de participantes que precisaram de mais de 10 segundos para ingressar na conferência.  <br/> |
+|**Sessões \> de 10 segundos, porcentagem** <br/> |Não  <br/> |Porcentagem do total de participantes de chamadas que precisaram de mais de 10 segundos para ingressar na conferência.  <br/> |
    
 

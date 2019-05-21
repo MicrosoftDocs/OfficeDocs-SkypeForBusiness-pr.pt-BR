@@ -1,27 +1,27 @@
 ---
-title: Relatório de diagnóstico conferência no Skype para Business Server
+title: Relatório de diagnóstico de conferência no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
-description: 'Resumo: Saiba mais sobre o relatório de diagnóstico de conferência usado na Skype para servidor de negócios.'
-ms.openlocfilehash: b2cfd39ab3d6bdc6af8230bbed995e511719bf72
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de diagnóstico de conferência usado no Skype for Business Server.'
+ms.openlocfilehash: bfe84c50b3aaee53da1dc460f501e3c9a82528af
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926568"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289297"
 ---
-# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Relatório de diagnóstico conferência no Skype para Business Server
+# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Relatório de diagnóstico de conferência no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de diagnóstico de conferência usado na Skype para servidor de negócios.
+**Resumo:** Saiba mais sobre o relatório de diagnóstico de conferência usado no Skype for Business Server.
   
-O Relatório de Diagnóstico de Conferência oferece informações sobre o êxito e a falha de todas as sessões de conferência. Observe que Skype para Business Server faz distinção entre diferentes tipos de falha:
+O Relatório de Diagnóstico de Conferência oferece informações sobre o êxito e a falha de todas as sessões de conferência. Observe que o Skype for Business Server distingue entre os diferentes tipos de falha:
   
 - **Falha esperada**. Uma falha esperada normalmente é uma falha apenas no sentido mais técnico. Por exemplo, suponhamos que alguém inicie uma conferência, mas desligue antes que alguém possa ingressar. Tecnicamente, é uma falha: a conferência foi iniciada, mas não foi concluída. No entanto, essa é uma falha que você poderia esperar que acontecesse: se o organizador cancela a conferência antes que alguém possa ingressar, não se poderia esperar que essa conferência fosse concluída.
     
@@ -33,11 +33,11 @@ Observe que a soma das métricas de Êxitos, Falhas esperadas e Falhas inesperad
 |:-----|:-----|:-----|:-----|
 |2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
-Somando 2024 + 469 + 16, você obtém um total de 2.509 sessões e, no entanto, a coluna de Total de sessões mostra um total de 2.521 sessões. As 12 sessões que estão "faltando" são sessões que o sistema não conseguiu categorizar como êxito ou falha. Em alguns casos, que será o caso quando um produto de terceiros introduz um novo código de diagnóstico que está familiarizado ao Monitoring Server. Quando isso acontece, as chamadas efetuadas com o produto e o relatório desse código de diagnóstico nem sempre podem ser categorizados como Êxito, Falha esperada ou Falha inesperada.
+Somando 2024 + 469 + 16, você obtém um total de 2.509 sessões e, no entanto, a coluna de Total de sessões mostra um total de 2.521 sessões. As 12 sessões que estão "faltando" são sessões que o sistema não conseguiu categorizar como êxito ou falha. Isso, às vezes, é o caso quando um produto de terceiros introduz um novo código de diagnóstico desconhecido para monitorar o servidor. Quando isso acontece, as chamadas efetuadas com o produto e o relatório desse código de diagnóstico nem sempre podem ser categorizados como Êxito, Falha esperada ou Falha inesperada.
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>Acessando o Relatório de Diagnóstico de Conferência
 
-O Relatório de Diagnóstico de Conferência é acessado na página inicial de Relatórios de Monitoramento. Você pode acessar o [Relatório de falha de distribuição no Skype para Business Server](failure-distribution-report.md) clicando em uma das seguintes métricas:
+O Relatório de Diagnóstico de Conferência é acessado na página inicial de Relatórios de Monitoramento. Você pode acessar o [relatório de distribuição de falha no Skype for Business Server](failure-distribution-report.md) clicando em uma das seguintes métricas:
   
 - Volume de falhas inesperadas
     
@@ -45,7 +45,7 @@ O Relatório de Diagnóstico de Conferência é acessado na página inicial de R
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>Como usar o Relatório de Diagnóstico de Conferência da melhor maneira possível
 
-O Relatório de Diagnóstico de Conferência inclui uma série de gráficos. Cada uma das colunas exibidas no gráfico é, na verdade, um hiperlink. Se você clicar em uma coluna, você vai ver os detalhes do [Relatório de falha de distribuição no Skype para Business Server](failure-distribution-report.md) para esse período de tempo e que tipo de conferência.
+O Relatório de Diagnóstico de Conferência inclui uma série de gráficos. Cada uma das colunas exibidas no gráfico é, na verdade, um hiperlink. Se você clicar em uma coluna, fará uma busca detalhada no [relatório de distribuição de falha no Skype for Business Server](failure-distribution-report.md) naquele período de tempo e esse tipo de conferência.
   
 ## <a name="filters"></a>Filtros
 

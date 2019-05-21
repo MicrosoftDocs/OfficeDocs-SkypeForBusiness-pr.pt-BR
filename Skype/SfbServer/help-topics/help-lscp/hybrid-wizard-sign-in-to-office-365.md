@@ -1,11 +1,11 @@
 ---
-title: Assistente de híbrida entrar no Office 365
+title: Assistente híbrido entrar no Office 365
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.HybridSignIntoO365
@@ -16,17 +16,17 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
-description: Use o Skype para o Assistente de capacidade de gerenciamento do Business Server híbrido para ajudá-lo a configurar o seu ambiente para o híbrido com Skype para Business Online.
-ms.openlocfilehash: 1e0a9e87e4ddeb32223fbc9b5c7d92ab4210e1ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Use o assistente de gerenciamento híbrido do Skype for Business Server para ajudá-lo a configurar seu ambiente para híbrido com o Skype for Business online.
+ms.openlocfilehash: 1729699fdce96549bf1d3e485a6346960c4cc5ed
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910922"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293484"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>Assistente híbrido: Conecte-se ao Office 365
 
-Use o Skype para o Assistente de capacidade de gerenciamento do Business Server híbrido para ajudá-lo a configurar o seu ambiente para o híbrido com Skype para Business Online.
+Use o assistente de gerenciamento híbrido do Skype for Business Server para ajudá-lo a configurar seu ambiente para híbrido com o Skype for Business online.
 
 ## <a name="sign-in-to-office-365"></a>Entrar no Office 365
 

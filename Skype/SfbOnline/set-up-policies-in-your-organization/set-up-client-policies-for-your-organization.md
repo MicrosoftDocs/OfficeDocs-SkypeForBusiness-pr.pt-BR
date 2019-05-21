@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,23 +18,23 @@ f1keywords: None
 ms.custom:
 - Setup
 description: A ajuda de políticas de cliente determina os recursos do Skype for Business Online que são disponibilizados para os usuários; por exemplo, você pode dar a alguns usuários o direito de transferir arquivos enquanto nega este direito a outros usuários.
-ms.openlocfilehash: 33623e43ed6e7db6edd8af14e042ae798c9c8cd1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 14d023598a27c676fd4249e97e6454b8110ee958
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237484"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297714"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Configurar políticas de clientes para sua organização
 
 A ajuda de políticas de cliente determina os recursos do Skype for Business Online que são disponibilizados para os usuários; por exemplo, você pode dar a alguns usuários o direito de transferir arquivos enquanto nega este direito a outros usuários.
   
-Configurações de diretiva do cliente podem ser configuradas no momento em que uma diretiva é criada ou você pode usar o cmdlet **Set-CsClientPolicy** para modificar as configurações de uma diretiva existente.
+As configurações de política de cliente podem ser configuradas no momento em que uma política é criada ou você pode usar o cmdlet **set-CsClientPolicy** para modificar as configurações de uma política existente.
   
 ## <a name="set-your-client-policies"></a>Definir suas políticas de cliente
 
 > [!NOTE]
-> Para todas as configurações de diretiva de cliente no Skype para Business Online, você deve usar o Windows PowerShell e você **não pode usar** o **Skype para centro de administração de negócios**. 
+> Para todas as configurações de política de cliente no Skype for Business Online, você deve usar o Windows PowerShell e **não pode usar** o **centro de administração do Skype for Business**. 
   
 ### <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar o Windows PowerShell
 
@@ -66,9 +66,9 @@ Configurações de diretiva do cliente podem ser configuradas no momento em que 
     Import-PSSession $session
    ```
 
-   Se você quiser obter mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para o Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
-### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>Desabilitar notificações de presença e emoticons e evitam que o salvamento de mensagens instantâneas
+### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>Desativar emoticons e notificações de presença e evitar o salvamento de mensagens de chat
 
 - Para criar uma nova política para essas configurações, execute:
     
@@ -77,18 +77,18 @@ Configurações de diretiva do cliente podem ser configuradas no momento em que 
 >   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
 >   ```
 
-  Consulte obter mais informações sobre o cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
+  Veja mais no cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
-- Para conceder a nova política que você criou para todos os usuários em sua organização, execute:
+- Para conceder a nova política criada para todos os usuários de sua organização, execute:
     
 > 
 >   ```
 >   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
 >   ```
 
-  Consulte obter mais informações sobre o cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
+  Veja mais no cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
-Se você já tiver criado uma política, você pode usar o cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para fazer alterações à diretiva existente e, em seguida, use o cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar as configurações para seus usuários.
+Se você já tiver criado uma política, poderá usar o cmdlet [set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para fazer alterações na política existente e usar o cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar as configurações aos usuários.
   
 ### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a>Habilitar URLs ou hyperlinks para tornarem-se clicáveis nas mensagens instantâneas
 
@@ -99,18 +99,18 @@ Se você já tiver criado uma política, você pode usar o cmdlet [Set-CsClientP
 >   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
 >   ```
 
-  Consulte obter mais informações sobre o cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
+  Veja mais no cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
-- Para conceder a nova política que você criou para todos os usuários em sua organização, execute:
+- Para conceder a nova política criada para todos os usuários de sua organização, execute:
     
 > 
 >   ```
 >   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
 >   ```
 
-  Consulte obter mais informações sobre o cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
+  Veja mais no cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
-Se você já tiver criado uma política, você pode usar o cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para fazer alterações à diretiva existente e, em seguida, use o cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar as configurações para seus usuários.
+Se você já tiver criado uma política, poderá usar o cmdlet [set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para fazer alterações na política existente e usar o cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar as configurações aos usuários.
   
 ### <a name="prevent-showing-recent-contacts"></a>Impedir a exibição de contatos recentes
 
@@ -120,17 +120,17 @@ Se você já tiver criado uma política, você pode usar o cmdlet [Set-CsClientP
   > New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
   > ```
 
-  Consulte obter mais informações sobre o cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
+  Veja mais no cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
-- Para conceder a nova política que você criou para Mármore Amos, execute:
+- Para conceder a nova política criada para o Marble Amos, execute:
   > 
   > ```
   > Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
   > ```
 
-  Consulte obter mais informações sobre o cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
+  Veja mais no cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
-  Se você já tiver criado uma política, você pode usar o cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para fazer alterações à diretiva existente e, em seguida, use o cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar as configurações para seus usuários.
+  Se você já tiver criado uma política, poderá usar o cmdlet [set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para fazer alterações na política existente e usar o cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar as configurações aos usuários.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
@@ -151,9 +151,9 @@ Se você já tiver criado uma política, você pode usar o cmdlet [Set-CsClientP
 ## <a name="related-topics"></a>Tópicos relacionados
 [Criar políticas personalizadas de acesso externo](create-custom-external-access-policies.md)
 
-[Transferências de arquivos ponto a ponto de bloqueio](block-point-to-point-file-transfers.md)
+[Bloquear transferências de arquivo ponto a ponto](block-point-to-point-file-transfers.md)
 
-[Configurar políticas de conferência na sua organização](set-up-conferencing-policies-for-your-organization.md)
+[Configurar políticas de conferência em sua organização](set-up-conferencing-policies-for-your-organization.md)
 
   
  

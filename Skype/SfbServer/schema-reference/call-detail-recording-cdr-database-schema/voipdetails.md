@@ -1,41 +1,41 @@
 ---
-title: Exibir VoIPDetails
+title: Exibição VoIPDetails
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
-description: O modo de exibição VoIPDetails armazena informações sobre sessões ponto a ponto, onde pelo menos um usuário é um usuário de VoIP. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
-ms.openlocfilehash: 6fb1dede975e59c0ae56fe9872472310c914f685
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: A exibição VoIPDetails armazena informações sobre sessões ponto a ponto, onde pelo menos um usuário é um usuário de VoIP. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
+ms.openlocfilehash: 7f5f1e3cf1540e1a12a9365753e494ff2d8a371e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930026"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295661"
 ---
-# <a name="voipdetails-view"></a>Exibir VoIPDetails
+# <a name="voipdetails-view"></a>Exibição VoIPDetails
  
-O modo de exibição VoIPDetails armazena informações sobre sessões ponto a ponto, onde pelo menos um usuário é um usuário de VoIP. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
+A exibição VoIPDetails armazena informações sobre sessões ponto a ponto, onde pelo menos um usuário é um usuário de VoIP. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
   
 > [!NOTE]
-> O modo de exibição VoIPDetails contém todas as colunas no [SessionDetails view](sessiondetails-0.md) além das colunas listadas abaixo.
+> A exibição VoIPDetails contém todas as colunas na [exibição SessionDetails](sessiondetails-0.md) , além das colunas listadas abaixo.
   
 |**Coluna**|**Tipo de dados**|**Detalhes**|
 |:-----|:-----|:-----|
-|**FromPhone** <br/> |nvarchar(450)  <br/> |URI do telefone do usuário que iniciou a sessão.  <br/> |
-|**ToPhone** <br/> |nvarchar(450)  <br/> |URI do telefone do usuário que ingressou na sessão.  <br/> |
-|**DisconnectedByUri** <br/> |nvarchar(450)  <br/> |URI do usuário que desconectou da sessão.  <br/> |
-|**DisconnectedByUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI do usuário que desconectou da sessão. Consulte a [tabela UriTypes](uritypes.md) para obter mais informações. <br/> |
-|**DisconnectedByTenant** <br/> |nvarchar(256)  <br/> |Locatário do usuário que desconectou da sessão.  <br/> |
-|**DisconnectedByPhone** <br/> |nvarchar(450)  <br/> |URI do usuário que desconectou da sessão do telefone.  <br/> |
+|**FromPhone** <br/> |nvarchar (450)  <br/> |URI do telefone do usuário que iniciou a sessão.  <br/> |
+|**Por telefone** <br/> |nvarchar (450)  <br/> |URI do telefone do usuário que ingressou na sessão.  <br/> |
+|**DisconnectedByUri** <br/> |nvarchar (450)  <br/> |URL do usuário que desconectou a sessão.  <br/> |
+|**DisconnectedByUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI do usuário que desconectou a sessão. Consulte a [tabela UriTypes](uritypes.md) para obter mais informações. <br/> |
+|**DisconnectedByTenant** <br/> |nvarchar(256)  <br/> |Locatário do usuário que desconectou a sessão.  <br/> |
+|**DisconnectedByPhone** <br/> |nvarchar (450)  <br/> |URI do telefone do usuário que desconectou a sessão.  <br/> |
 |**FromMediationServer** <br/> |nvarchar(256)  <br/> |Servidor de mediação usado pelo usuário que iniciou a sessão.  <br/> |
 |**ToMediationServer** <br/> |nvarchar(256)  <br/> |Servidor de mediação usado pelo usuário que ingressou na sessão.  <br/> |
-|**FromGateway** <br/> |nvarchar(256)  <br/> |Gateway usado pelo usuário que iniciou a sessão.  <br/> |
-|**ToGateway** <br/> |nvarchar(256)  <br/> |Gateway usado pelo usuário que ingressou na sessão.  <br/> |
+|**FromGateway** <br/> |nvarchar(256)  <br/> |O gateway usado pelo usuário que iniciou a sessão.  <br/> |
+|**Togateway** <br/> |nvarchar(256)  <br/> |O gateway usado pelo usuário que ingressou na sessão.  <br/> |
    
 

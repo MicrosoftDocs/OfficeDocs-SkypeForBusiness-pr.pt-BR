@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para os países baixos.
-ms.openlocfilehash: c891cfc53625c7bb8e8b584f28e31cd372817907
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Holanda.
+ms.openlocfilehash: a7ee5062baad01e1d620d3f2e3f09283e7bbd29a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541884"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294232"
 ---
 # <a name="availability-in-the-netherlands"></a>Disponibilidade nos Países Baixos
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para os países baixos.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Holanda.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -60,8 +60,8 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
-|Minutos disponíveis para chamar planos. |Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar </li><li>240 minuto domésticas chamar planejar</li></li><li>1200 minuto domésticas chamar planejar </li></li><li>Nacionais e internacionais chamar planejar: 1200 minutos de minutos de bits OR-600 domésticos de chamadas internacionais (o que for atingido primeiro no mês do calendário)</li></li> 
-|Pode fazer chamadas de saída para números premium? <br/> | Não suportado no momento. <br/> |
+|Minutos disponíveis para planos de chamada. |Há quatro opções de plano disponíveis por mês do calendário: <ul><li>Plano de chamadas domésticas de 120 minutos </li><li>Plano de chamadas domésticas de 240 minutos</li></li><li>Plano de chamadas domésticas de 1200 minutos </li></li><li>Plano de chamadas domésticas e internacionais: 1200 minutos de chamadas domésticas ou 600 minutos de chamadas internacionais (o que for atingido primeiro no mês do calendário)</li></li> 
+|Pode fazer chamadas de saída para números Premium? <br/> | Não há suporte no momento. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços

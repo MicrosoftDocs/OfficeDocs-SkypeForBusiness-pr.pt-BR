@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Veja como experimentar ou adquirir licenças de Audioconferência (Conferência PSTN) para o Office 365 para configurar chamadas de conferência em que as pessoas podem discar. '
-ms.openlocfilehash: deb26d47c2b291e83c3ed32e4175bf7a82035c67
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e59c895ed60c53b3199648a0acb142037b936c75
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203323"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302755"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Experimente ou adquira Audio Conferência no Office 365 para Skype for Business Online
 
@@ -40,9 +40,9 @@ You only need to set up audio conferencing for people who plan to schedule or le
 
 Para informações de preços, consulte [Preços de Audioconferência](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
 
-## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Etapa 1: Comprar e atribuir licenças de conferência de áudio
+## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Etapa 1: comprar e atribuir licenças de conferência de áudio
 
-Você deve ser um [funções de administrador do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para executar estas etapas.
+Você deve ser [sobre as funções de administrador do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para executar essas etapas.
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>Para comprar e atribuir licenças de Audioconferência do usuário:
 
@@ -52,7 +52,7 @@ Você deve ser um [funções de administrador do Office 365](https://support.off
 
    - **Try it** before you buy it, you can sign up for an Office 365 Enterprise E5 free trial that includes Audio Conferencing. See [Office 365 Enterprise E5 Trial](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Comprar**, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+   - **Compre**, consulte licenciamento de [Complementos do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 3. [Atribuir ou remover licenças de assinatura no Office 365](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) que você comprou às pessoas na organização que vão agendar ou realizar reuniões.
 
@@ -90,7 +90,7 @@ As etapas a seguir são **opcionais**, mas muitos administradores gostam de segu
 
 3. [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing.md) that the Audio Conferencing auto attendant uses to greet a caller when they dial in to an audio conferencing phone number. This step only applies if you're using Microsoft as your audio conferencing provider.
 
-4. [Definir o tamanho do PIN para reuniões de conferência de áudio](set-the-pin-length-for-audio-conferencing-meetings.md).
+4. [Defina o comprimento do PIN para reuniões de audioconferência](set-the-pin-length-for-audio-conferencing-meetings.md).
 
 
 > [!NOTE]

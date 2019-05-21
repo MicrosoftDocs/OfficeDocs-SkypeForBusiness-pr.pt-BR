@@ -1,5 +1,5 @@
 ---
-title: Por que é o número ativação apenas pendentes?
+title: Por que a ativação do número está somente pendente?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,16 +21,16 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: 9e59b7372b0d998ea4a453d5e1b96c3ab9c4e98f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ebdb7417ffeb7f06bee84fe95c6e7725eed20d19
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227800"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290561"
 ---
-# <a name="why-is-number-activation-just-pending"></a>Por que é o número ativação apenas pendentes?
+# <a name="why-is-number-activation-just-pending"></a>Por que a ativação do número está somente pendente?
 
-A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Se por algum motivo um número de telefone não está ativado e é listado como **pendente** por causa de validação de endereço, você precisará criar e enviar uma solicitação de serviço. A maneira de fazer isso depende do tamanho da sua organização.
+A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Se por algum motivo um número de telefone não estiver ativado e estiver listado como **pendente** devido à validação de endereço, será necessário criar e enviar uma solicitação de serviço. A maneira de fazer isso depende do tamanho da sua organização.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Para organizações com 150 usuários ou menos, siga estas etapas
 1. No **Centro de administração do Office 365**, escolha **Precisa de ajuda**?

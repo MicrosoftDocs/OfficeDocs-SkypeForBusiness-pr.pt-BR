@@ -5,22 +5,22 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-description: Estas seções detalham as colunas em cada uma das tabelas de esquema de banco de dados de qualidade da experiência (QoE).
-ms.openlocfilehash: cd8a1f063fdfe5f13aecdaa62eb71225e753adfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Essas seções detalham as colunas em cada uma das tabelas de esquema de banco de dados de qualidade da experiência (QoE).
+ms.openlocfilehash: 371fdd6f3d61ef799fd45f08e7cb4a8a1fea03f0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920114"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294779"
 ---
 # <a name="qoe-table-details"></a>Detalhes da tabela de QoE
  
-Estas seções detalham as colunas em cada uma das tabelas de esquema de banco de dados de qualidade da experiência (QoE).
+Essas seções detalham as colunas em cada uma das tabelas de esquema de banco de dados de qualidade da experiência (QoE).
   
 - [Tabela AppliedBandwidthSource](appliedbandwidthsource.md)
     
@@ -76,7 +76,7 @@ Estas seções detalham as colunas em cada uma das tabelas de esquema de banco d
     
 - [Tabela Subnet](subnet.md)
     
-- [Tabela TraceRoute](traceroute.md)
+- [Tabela de TraceRoute](traceroute.md)
     
 - [Tabela User](user-0.md)
     
