@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba o que você deve saber sobre PINs e como redefini-los no Microsoft Teams. '
-ms.openlocfilehash: 56ea27ddf535f7ce23d5a25415b0a5921cfb2d6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e69b883156a6aed331f0cd401eb87e371809695
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912299"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306572"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Redefinir o PIN de audioconferência no Microsoft Teams
 
@@ -35,13 +35,13 @@ As reuniões podem ser iniciadas quando um usuário autenticado entra usando o a
 
 ## <a name="reset-a-users-pin"></a>Redefinir o PIN de um usuário
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
-1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
 
 2. Clique em **Editar**.
 
-3. Em **Conferência de áudio**, clique em **Redefinir PIN**.
+3. Em **conferência de áudio**, clique em **Redefinir PIN**.
 
 4. Clique em **Redefinir**.
  
@@ -50,23 +50,23 @@ As reuniões podem ser iniciadas quando um usuário autenticado entra usando o a
    
 ## <a name="have-a-user-reset-his-or-her-own-pin"></a>Faça com que um usuário redefina seu próprio PIN
 
-1. Solicite que o usuário acesse [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
-2. Clique em **Redefinir o PIN**. 
+1. Acesse o usuário [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
+2. Clique em **Redefinir PIN**. 
 
 
 ## <a name="what-else-should-you-know-about-pins"></a>O que mais você deve saber sobre PINs?
 
-- Por motivos de segurança, o PIN só é mostrado para o administrador em uma ocasião: quando o PIN é redefinido. Depois que o PIN é redefinido por um administrador, o PIN será listado como * * *.
+- Por motivos de segurança, o PIN só é mostrado para o administrador em uma ocasião: quando o PIN é redefinido. Depois que o PIN for redefinido por um administrador, o PIN será listado como * * * * * * * * * * *.
     
-- Automaticamente enviando emails para usuários é habilitado por padrão e os usuários receberão um email com o PIN quando elas são habilitadas para conferência de áudio ou quando o PIN ser redefinido. Mas, se você desabilitou automaticamente enviando e-mails, um email de redefinição PIN não será enviado a um usuário e você terá que enviar manualmente as informações de PIN para o usuário.
+- O envio de emails automaticamente aos usuários é habilitado por padrão, e os usuários receberão um email com o PIN quando estiverem habilitados para a conferência de áudio ou quando o PIN for redefinido. Mas se você tiver desabilitado o envio de emails automaticamente, um email de redefinição de PIN não será enviado a um usuário, e você precisará enviar manualmente as informações de PIN para o usuário.
     
 - Quando uma reunião for iniciada, todos os usuários do lobby serão conectados automaticamente. Por exemplo, se dois participantes tentarem participar de uma reunião antes que ela seja iniciada, eles serão colocados no lobby e esperarão ouvindo música. Quando o organizador da reunião participar usando o PIN por telefone, a reunião será iniciada e os participantes do lobby entrarão na reunião.
     
-- A configuração padrão é não permitir uma reunião ser iniciado por chamadores anônimos.
+- A configuração padrão é não permitir que uma reunião seja iniciada por chamadores anônimos.
     
-- Quando você habilita um usuário para conferência de áudio, por padrão, eles são enviados emails que incluem informações de conferência e o PIN. O usuário deve ter uma caixa de correio do Office 365, como quando um PIN é redefinido, um novo PIN será enviado ao usuário no email para seu endereço SMTP principal (alias) que está definido para o usuário.
+- Por padrão, quando você habilita um usuário para videoconferência, ele recebe emails que incluem informações de conferência e seu PIN. O usuário deve ter uma caixa de correio do Office 365, porque quando um PIN é redefinido, um novo PIN será enviado ao usuário em um email para o endereço SMTP principal (alias) definido para o usuário.
     
-- Quando você configura serviços de audioconferência, você pode definir os dígitos que são necessários para os PINs em sua organização. PINs podem ter somente de 4 a 12 dígitos, o padrão é 5. Se você alterar a configuração do tamanho do PIN, a configuração será aplicada somente aos PINs recém-gerados e não será aplicada à configuração do PIN para usuários existentes que estejam habilitados para audioconferência. Consulte [definir o comprimento do PIN para reuniões de conferência de áudio](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md).
+- Quando você configura serviços de audioconferência, você pode definir os dígitos que são necessários para os PINs em sua organização. PINs podem ter somente de 4 a 12 dígitos, o padrão é 5. Se você alterar a configuração do tamanho do PIN, a configuração será aplicada somente aos PINs recém-gerados e não será aplicada à configuração do PIN para usuários existentes que estejam habilitados para audioconferência. Consulte [definir o comprimento do pino para reuniões de audioconferência](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md).
     
 - Por padrão, o email será definido como o endereço SMTP principal do Office 365 do usuário. Você pode enviar um email para um endereço que não seja do Office 365, como um endereço de email do Hotmail ou do MSN. Você pode substituir o endereço de email padrão usando o Windows PowerShell. Isso é útil se os usuários não tiverem uma caixa de correio do Exchange no Office 365.
 

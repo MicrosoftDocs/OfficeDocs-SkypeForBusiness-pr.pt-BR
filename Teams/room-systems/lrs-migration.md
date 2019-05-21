@@ -1,63 +1,63 @@
 ---
-title: Migrar dispositivos de sistema do Lync sala para salas de equipes da Microsoft
+title: Migrar dispositivos do sistema de sala do Lync para salas do Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: ''
-description: Leia este tópico para saber como migrar dispositivos de sistema do Lync sala para usar o software de salas de equipes da Microsoft.
-ms.openlocfilehash: ad5174ea7afc9315c667fe1f1bd4bc9203208f8f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Leia este tópico para saber como migrar dispositivos do sistema de sala do Lync para usar o software de salas do Microsoft Teams.
+ms.openlocfilehash: 083380674f2329b1281ec6c0ad220ee90abf72d2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916517"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305464"
 ---
-# <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Migrar dispositivos de sistema de sala do Lync (LRS) para salas de equipes da Microsoft
+# <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Migrar dispositivos do Lync Room System (LRS) para salas do Microsoft Teams
 
-Dispositivos de sistema de sala do Lync (LRS) com o software do sistema de sala do Skype versão 1 (v1 SRS) atingiu o [fim do suporte em 9 de outubro de 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018). Isso significa que o software do Skype sala sistemas v1 não são mais receberá quaisquer atualizações de produto ou correções mais. Clientes com dispositivos de sistema do Lync sala usando o software do sistema de sala Skype v1 recomenda-se para atualizar seus dispositivos para salas de equipes da Microsoft.
+Os dispositivos do sistema de salas do Lync (LRS) com o software Skype V1 (versão 1 do Skype v1) chegaram [ao fim do suporte em 9 de outubro de 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018). Isso significa que o software do Skype Room Systems v1 não receberá mais atualizações ou correções de produto mais. Os clientes com dispositivos de sistema de sala do Lync usando o software do Skype Room System v1 são aconselhados a atualizar seus dispositivos para as salas do Microsoft Teams.
 
-Dispositivos suportados de salas de equipes da Microsoft software funciona com o Microsoft Teams além do Skype para Business Server e Online services para reuniões e chamadas em todas as salas de equipes da Microsoft.
+O software de salas Microsoft Teams funciona com o Microsoft Teams, além do Skype for Business Server e serviços online para reuniões e chamadas em todos os dispositivos compatíveis com as salas do Microsoft Teams.
 
-Seus dispositivos existentes **podem** continuar a funciona depois que o suporte a fim de software do sistema de sala Skype v1. No entanto, se esse software acessa um bug de software que precisa Microsoft para liberar uma correção, ela não será suportada. V1 SRS usa o protocolo TLS 1.0 / 1.1 que será preterido pela Microsoft no futuro. Você pode aprender mais sobre [Preparando para TLS 1.0/1.1 preterir](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). Salas de equipes da Microsoft está adicionando suporte a TLS 1.2 e continuará inserido antigas 31 de outubro de 2018. Skype para negócios local os clientes não devem desabilitar TLS 1.0/1.1 até que as salas de equipes da Microsoft anuncia o suporte para TLS 1.2 independentemente diretrizes gerais sobre preterir TLS 1.0/1.1.
+Seus dispositivos existentes **podem** continuar a funcionar após o término do suporte do software sistema de sala do Skype v1. No entanto, se este software chegar a um bug de software que precisa da Microsoft para lançar uma correção, ele não será compatível. O SRS v1 usa TLS 1.0/1,1, que será preterido pela Microsoft no futuro. Você pode saber mais sobre como se [preparar para a substituição de TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). As salas do Microsoft Teams estão adicionando suporte para o TLS 1,2 e continuarão a funcionar após 31 de outubro de 2018. Os clientes no local do Skype for Business não devem desabilitar o TLS 1.0/1.1 até que as salas do Microsoft Teams anunciem o suporte para TLS 1,2, independentemente das diretrizes gerais da substituição do TLS 1.0/1.1.
 
 ## <a name="which-devices-are-affected"></a>Quais dispositivos são afetados?
 
-Aqui está uma lista dos dispositivos que são afetados por essa alteração:
+Veja a seguir a lista dos dispositivos afetados por essa alteração:
 
 - Crestron RL
 - [Crestron RL2](https://www.crestron.com/en-US/Products/Featured-Solutions/Crestron-RL-2)
-- [Sistemas de sala inteligentes](https://support.smarttech.com/en/hardware/room-systems-skype)
+- [Sistemas de sala inteligente](https://support.smarttech.com/en/hardware/room-systems-skype)
 - [Polycom CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
 
 ## <a name="upgrade-options"></a>Opções de atualização
 
-Há várias opções para atualizar o Lync sistemas de sala para a próxima geração de salas de equipes da Microsoft.
+Há várias opções para atualizar sistemas de sala do Lync para a próxima geração de salas do Microsoft Teams.
 
-### <a name="crestron-hardware-trade-in-program"></a>Programa de trade-in de hardware Crestron
+### <a name="crestron-hardware-trade-in-program"></a>Programa de troca de hardware Crestron
 
-Crestron fornecerá uma atualização para o [sistema Crestron SR](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) ou equivalente para todos os clientes não-Crestron o sistema do Lync sala (por exemplo inteligente ou Polycom LRS). Ver os detalhes deste programa [aqui](https://support.crestron.com/app/answers/answer_view/a_id/1000220) ou <!-- For details, -->[email](mailto:lrsupgrade@crestron.com) Suporte de Crestron LRS.  
+O Crestron fornecerá uma atualização para o [sistema CRESTRON Sr](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) ou equivalente para todos os clientes do sistema de salas não Crestron do Lync (por exemplo, para usuários inteligentes ou Polycom). Veja os detalhes deste programa [aqui](https://support.crestron.com/app/answers/answer_view/a_id/1000220) ou <!-- For details, -->[mensagem de email](mailto:lrsupgrade@crestron.com) Suporte LRS Crestron.  
 
-### <a name="crestron-rl2-upgrade-to-microsoft-teams-rooms"></a>Atualização de Crestron RL2 para salas de equipes da Microsoft
+### <a name="crestron-rl2-upgrade-to-microsoft-teams-rooms"></a>Atualização do RL2 Crestron para salas do Microsoft Teams
 
-Os clientes existentes do Crestron RL2 (também conhecido como Crestron RL200) podem adquirir um kit de atualização para atualizar RL2 atual para RL3 usando um para um custo mínimo por dispositivo. Ver os detalhes deste programa [aqui](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT).
+Os clientes Crestron RL2 (também chamados de Crestron RL200) podem adquirir um kit de atualização para atualizar os RL2 atuais para o RL3 usando um por um custo mínimo por dispositivo. Veja os detalhes deste programa [aqui](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT).
 
-### <a name="smart-room-systems-upgrade"></a>Atualização de sistemas de sala inteligente
+### <a name="smart-room-systems-upgrade"></a>Atualização dos sistemas da sala inteligente
 
-Para clientes inteligentes LRS, além do programa de trade-in de hardware Crestron, inteligente também está trabalhando no fornecimento de uma solução para atualizar para o Microsoft equipes salas. Essa atualização será fornecida pelo Inc. de tecnologias inteligentes ao cliente em suporte ao produto. Consulte mais informações sobre esta [aqui](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml).
+Para clientes do SMART LRS, além do programa de troca de hardware do Crestron, o SMART também está trabalhando para fornecer uma solução para fazer a atualização para salas do Microsoft Teams. Esta atualização será fornecida pela SMART Technologies Inc. para o cliente em suporte a produtos. Para saber mais sobre isso [](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml), acesse isso.
 
 
 ## <a name="what-should-you-do"></a>O que você deve fazer?
 
-Recomendamos que você planeja atualizar dispositivos de sistema do Lync sala salas de equipes da Microsoft antes de preterir TLS 1.0/1.1 usando as opções de atualização mencionadas acima. Além disso, você também pode considerar a substituição de dispositivos existentes com novos dispositivos certificados para salas de equipes da Microsoft. Consulte [dispositivos de sala](https://aka.ms/roomdevices) para obter detalhes e também dar uma olhada em [requisitos de salas de equipes da Microsoft](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
+Recomendamos que você planeje atualizar os dispositivos do sistema de sala do Lync para salas do Microsoft Teams antes da substituição do TLS 1.0/1.1 usando as opções de atualização mencionadas acima. Além disso, você também pode considerar a substituição de dispositivos existentes por novos dispositivos certificados para salas do Microsoft Teams. Consulte [dispositivos da sala](https://aka.ms/roomdevices) para obter detalhes e também dê uma olhada nos [requisitos de salas do Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
 
 > [!NOTE]
-> Funcionalidade de toque e whiteboard ainda não é suportada em salas de equipes da Microsoft. Suporte de toque e quadro de comunicações está atualmente planejado para salas de equipes da Microsoft e 2019 será adicionado.
+> A funcionalidade de toque e quadro de comunicações ainda não tem suporte em salas do Microsoft Teams. No momento, o suporte para toque e quadro de comunicações está previsto para salas do Microsoft Teams e será adicionado no 2019.
 
 > [!NOTE]
-> Software de salas de equipes da Microsoft suporta o protocolo TLS 1.2 a partir de 14 de dezembro de 2018 com a versão de aplicativo 4.0.64.0. Para clientes de local, permitindo a comunicação sobre TLS 1.2 para salas de equipes da Microsoft requer Skype para Business Server 2015 atualização cumulativa 9 (CU9) ou Skype para Business Server 2019 atualização cumulativa 1 (CU1). A alteração não deve afetar Skype para clientes corporativos Online conforme as alterações de cliente são frente e para trás compatível.
+> O software de salas Microsoft Teams dá suporte ao protocolo TLS 1,2 a partir de 14 de dezembro de 2018 com a versão de aplicativo 4.0.64.0. Para clientes locais, a habilitação da comunicação com o TLS 1,2 para salas do Microsoft Teams requer o Skype for Business Server 2015 atualização cumulativa 9 (CU9) ou a atualização cumulativa 1 do Skype for Business Server 2019 (CU1). A alteração não deve afetar os clientes do Skype for Business Online, pois as alterações do cliente são compatíveis com versões anteriores e posteriores.

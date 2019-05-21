@@ -1,10 +1,10 @@
 ---
-title: Criar ou modificar um intervalo de números não atribuído no Skype para Business Server
+title: Criar ou modificar um intervalo de números não atribuídos no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,37 +13,37 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
-description: Criar, modificar ou excluir intervalos de números não atribuídos para o aplicativo de anúncio no Skype para Business Server Enterprise Voice. Isso afeta o modo como nas chamadas para números não atribuídos são administradas.
-ms.openlocfilehash: 7e186facd0ef619846b027943dcb5f19e2e3edc6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Criar, modificar ou excluir intervalos de números não atribuídos para o aplicativo de anúncio no Skype for Business Server Enterprise Voice. Isso afeta o modo como nas chamadas para números não atribuídos são administradas.
+ms.openlocfilehash: 5b9afa463d6eaff2f6ba3ed283d11556bd95bc03
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892892"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286180"
 ---
-# <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Criar ou modificar um intervalo de números não atribuído no Skype para Business Server
+# <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Criar ou modificar um intervalo de números não atribuídos no Skype for Business Server
  
-Criar, modificar ou excluir intervalos de números não atribuídos para o aplicativo de anúncio no Skype para Business Server Enterprise Voice. Isso afeta o modo como nas chamadas para números não atribuídos são administradas.
+Criar, modificar ou excluir intervalos de números não atribuídos para o aplicativo de anúncio no Skype for Business Server Enterprise Voice. Isso afeta o modo como nas chamadas para números não atribuídos são administradas.
   
-Skype para Business Server permite que você quer dizer que o que acontece às chamadas recebidas para números de telefone são válidos para a sua organização, mas não estão atribuídos a um usuário ou um telefone. Para lidar com essas chamadas, configure uma tabela de números não atribuídos. Você pode usar a tabela para rotear as chamadas para um aplicativo de anúncio ou para um servidor de UM do Exchange.
+O Skype for Business Server permite que você diga o que acontece com as chamadas recebidas para números de telefone válidos para sua organização, mas que não estão atribuídas a um usuário ou a um telefone. Para lidar com essas chamadas, configure uma tabela de números não atribuídos. Você pode usar a tabela para direcionar as chamadas para um aplicativo de anúncio ou para um servidor de UM Exchange.
   
 O modo como você configura a tabela de números não atribuída depende de como você deseja usá-la. É possível configurar a tabela com todas as extensões válidas para sua organização, com apenas extensões não atribuídas ou com uma combinação de ambos os tipos de números. A tabela de números não atribuída pode incluir números atribuídos e não atribuídos, mas é chamada somente quando um chamador disca um número que não está atribuído no momento. Se você incluir todas as extensões válidas na tabela de números não atribuída, você poderá especificar a ação que ocorre sempre que alguém deixa sua organização, sem a necessidade de reconfigurar a tabela. Se você incluir extensões não atribuídas na tabela, poderá personalizar a ação que ocorre para números específicos. Por exemplo, se você alterar a extensão para seu atendimento ao cliente, poderá incluir o número antigo de atendimento ao cliente na tabela, e atribuí-lo a um anúncio que fornece o novo número.
   
 ## <a name="configure-unassigned-phone-numbers"></a>Configurar números de telefone não atribuídos
 
-Use um dos seguintes procedimentos para configurar intervalos de números não atribuídos para o aplicativo de anúncio.
+Use um dos procedimentos a seguir para configurar intervalos de números não atribuídos para o aplicativo de anúncio.
   
 > [!IMPORTANT]
-> Antes de configurar a tabela de números não atribuída, seu sistema deve já ativa anúncios definidos ou um atendedor automático de Exchange Unified Messaging (UM) configurado. 
+> Antes de configurar a tabela numérica não atribuída, seu sistema já deve ter comunicados definidos ou uma configuração de atendedor automático de Unificação de mensagens do Exchange (um). 
   
 > [!TIP]
-> Quando alguém chama um número não atribuído, Skype para Business Server procura na tabela de número não atribuída de cima para baixo e usa o primeiro intervalo correspondente. Portanto, uma ação que você deseja executar como última alternativa deve ser especificada para o último intervalo na tabela. 
+> Quando alguém chama um número não atribuído, o Skype for Business Server procura a tabela número não atribuído da parte superior para a inferior e usa o primeiro intervalo correspondente. Portanto, uma ação que você deseja executar como última alternativa deve ser especificada para o último intervalo na tabela. 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>Para usar o Skype para painel de controle do Business Server para configurar números telefônicos não atribuídos
+### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>Para usar o painel de controle do Skype for Business Server para configurar números de telefone não atribuídos
 
 1. Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte **Delegate Setup Permissions**.
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server.  
     
 3. Na barra de navegação à esquerda, clique em **Recursos de Voz** e depois, em **Número Não Atribuído**.
     
@@ -62,7 +62,7 @@ Use um dos seguintes procedimentos para configurar intervalos de números não a
     
    - Se o número inicial ou o número final do intervalo incluir um número de ramal, ambos os números devem incluir um ramal, que deve ser o mesmo para ambos.
     
-   - Os números devem corresponder à expressão regular (tel:) ? (\+) ? [1-9] \d{0,17}(; ext = [1-9] \d{0,9}) ?. Isso significa que o número pode começar com o cadeia de caracteres tel: (se você não especificar essa cadeia de caracteres, ele será automaticamente adicionado para você), um sinal de adição (+) e um dígito entre 1 e 9. O número de telefone pode ter até 17 dígitos e pode ser seguido de um ramal no formato ;ext= seguido do número do ramal.
+   - O número deve corresponder à expressão regular (Tel:) ? (\+) ? [1-9] \d{0,17}(; Ext = [1-9] \d{0,9}) ?. Isso significa que o número pode começar com a cadeia de caracteres Tel: (se você não especificar essa cadeia de caracteres, ela será adicionada automaticamente para você), um sinal de adição (+) e um dígito de 1 a 9. O número de telefone pode ter até 17 dígitos e pode ser seguido de um ramal no formato ;ext= seguido do número do ramal.
     
 6. Em **Serviço de Comunicado**, execute um dos seguintes procedimentos: 
     
@@ -72,7 +72,7 @@ Use um dos seguintes procedimentos para configurar intervalos de números não a
     
 7. Se, na etapa anterior, você clicou em **Comunicado**, execute:
     
-    a. Em **FQDN do servidor de destino**, clique em **Selecionar**, clique na ID de serviço do serviço aplicativo que executa o aplicativo de comunicado que irá lidar com chamadas de entrada para esse intervalo de números não atribuídos e clique em **Okey**.
+    a. Em **FQDN do servidor de destino**, clique em **selecionar**, clique na ID de serviço do serviço de aplicativo que executa o aplicativo de anúncio que manipulará as chamadas de entrada para esse intervalo de números não atribuídos e clique em **OK**.
     
     b. Em **Comunicado**, clique no comunicado a ser reproduzido para este intervalo de números não atribuídos.
     
@@ -83,13 +83,13 @@ Use um dos seguintes procedimentos para configurar intervalos de números não a
 10. Na página **Número Não Atribuído**, certifique-se de que os intervalos numéricos não atribuídos estejam organizados da ordem que você deseja. Para alterar a posição do intervalo na tabela, clique em um ou mais nomes consecutivos na lista de intervalos e clique na seta para cima ou para baixo.
     
     > [!TIP]
-    > Skype para Business Server procura na tabela de número não atribuída de cima para baixo e usa o primeiro intervalo que corresponde ao número não atribuído. Se você tem intervalos sobrepostos e um intervalo que especifica uma última ação de reclassificação, certifique-se de que o intervalo esteja no final da lista. 
+    > O Skype for Business Server procura a tabela número não atribuído de cima para baixo e usa o primeiro intervalo que corresponde ao número não atribuído. Se você tem intervalos sobrepostos e um intervalo que especifica uma última ação de reclassificação, certifique-se de que o intervalo esteja no final da lista. 
   
 11. Quando os intervalos numéricos não atribuídos estiverem na ordem desejada, clique em **Confirmar tudo**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>Para usar o Skype para Business Server Management Shell para configurar números telefônicos não atribuídos
+### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>Para usar o Shell de gerenciamento do Skype for Business Server para configurar números de telefone não atribuídos
 
-1. Faça logon no computador onde o Skype do Shell de gerenciamento do servidor de negócios está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em **Delegate Setup Permissions**.
+1. Faça logon no computador em que o Shell de gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em **permissões de configuração do representante**.
     
 2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
     
@@ -132,11 +132,11 @@ Use um dos seguintes procedimentos para configurar intervalos de números não a
 
 ## <a name="delete-an-unnasigned-number-range"></a>Excluir um intervalo de números não atribuídos
 
-### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>Para usar o Skype para painel de controle do Business Server para excluir um intervalo de números não atribuído
+### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>Para usar o painel de controle do Skype for Business Server para excluir um intervalo numérico não atribuído
 
 1.  Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte **Delegate Setup Permissions**.
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server.  
     
 3. Na barra de navegação à esquerda, clique em **Recursos de Voz** e depois, em **Número Não Atribuído**.
     
@@ -146,9 +146,9 @@ Use um dos seguintes procedimentos para configurar intervalos de números não a
     
 6. Clique em **Confirmar tudo**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>Para usar o Skype para Business Server Management Shell para excluir um intervalo de números não atribuído
+### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>Para usar o Shell de gerenciamento do Skype for Business Server para excluir um intervalo de números não atribuídos
 
-1. Faça logon no computador onde o Skype do Shell de gerenciamento do servidor de negócios está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em **Delegate Setup Permissions**.
+1. Faça logon no computador em que o Shell de gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em **permissões de configuração do representante**.
     
 2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
     

@@ -1,33 +1,33 @@
 ---
-title: (Opcional) Grupo de resposta definir expediente no Skype para negócios
+title: Adicionais Definir o horário comercial do grupo de resposta no Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: Criar ou modificar o grupo de resposta em horário comercial, em Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: e98bfcf07b48811957c659fc865edda930f33da7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Criar ou modificar o horário comercial do grupo de resposta no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 9f00e89bede48af8c36de93da951df9b69a692e1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894637"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306330"
 ---
-# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Opcional) Grupo de resposta definir expediente no Skype para negócios 
+# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>Adicionais Definir o horário comercial do grupo de resposta no Skype for Business 
  
-Criar ou modificar o grupo de resposta em horário comercial, em Skype para Business Server Enterprise Voice.
+Criar ou modificar o horário comercial do grupo de resposta no Skype for Business Server Enterprise Voice.
   
 ## <a name="defining-business-hours"></a>Definir o horário comercial
 
 As configurações de horário comercial definem quando o fluxo de trabalho está disponível para atender a chamadas e especificar as ações a serem executadas para chamadas fora do horário comercial. Os administradores do Grupo de Resposta podem usar o cmdlet  **New-CsRgsHoursOfBusiness** para criar programações predefinidas que você pode usar para vários grupos de resposta.
   
 > [!TIP]
-> Ao criar ou modificar um fluxo de trabalho, é possível especificar uma programação personalizada aplicada apenas a este fluxo de trabalho. Para obter detalhes, consulte [Projetando e criando fluxos de trabalho de grupo no Skype para negócios de resposta](designing-and-creating-response-group-workflows.md). 
+> Ao criar ou modificar um fluxo de trabalho, é possível especificar uma programação personalizada aplicada apenas a este fluxo de trabalho. Para obter detalhes, consulte [projetando e criando fluxos de trabalho de grupo de resposta no Skype for Business](designing-and-creating-response-group-workflows.md). 
   
 > [!NOTE]
 > Se um fluxo de trabalho é definido como o Fluxo de Trabalho Gerenciado, qualquer usuário com a função CsResponseGroupManager atribuída pode definir e modificar o horário comercial personalizado para fluxos de trabalho que gerenciam. 

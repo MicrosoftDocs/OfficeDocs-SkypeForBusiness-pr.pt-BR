@@ -1,31 +1,31 @@
 ---
-title: Configurar a lista de contatos inteligente no Skype para clientes corporativos
+title: Configurar a lista de contatos inteligentes nos clientes do Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
-description: 'Resumo: Saiba como ativar o recurso de lista de contatos inteligente no Skype para o cliente de negócios.'
-ms.openlocfilehash: 14508cde3806f1438eb6970761e371b3b5d9d9e7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como ativar o recurso da lista de contatos inteligentes no cliente Skype for Business.'
+ms.openlocfilehash: 0deb90293ddf4f1a6627eb4bff86d7d8eb0ae5c9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893508"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286380"
 ---
-# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Configurar a lista de contatos inteligente no Skype para clientes corporativos
+# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Configurar a lista de contatos inteligentes nos clientes do Skype for Business
 
-**Resumo:** Saiba como ativar o recurso de lista de contatos inteligente no Skype para o cliente de negócios.
+**Resumo:** Saiba como ativar o recurso da lista de contatos inteligentes no cliente Skype for Business.
 
-O recurso de lista inteligente de contatos permite a população automática das listas de contatos para seus usuários finais. Após a primeira usando Skype para os negócios, seu usuários que utilizarão automaticamente ver seu gerente e outras pessoas na sua equipe. Esse recurso está ativado por padrão para usuários do Office 365, mas você deve habilitar explicitamente esse recurso para seus usuários locais, definindo a configuração de diretiva de cliente.
+O recurso de lista inteligente de contatos permite a população automática das listas de contatos para seus usuários finais. Depois de usar o Skype for Business, os usuários verão automaticamente o seu gerente e outras pessoas da equipe. Esse recurso está ativado por padrão para os usuários do Office 365, mas você deve habilitar explicitamente esse recurso para seus usuários locais definindo a configuração de política do cliente.
 
 Lembre-se do seguinte ao configurar esse recurso:
 
-- Usuários, até 13, são automaticamente adicionados à lista de contatos inteligentes na seguinte ordem:
+- Os usuários, até 13, são adicionados automaticamente à lista de contatos inteligentes na seguinte ordem:
 
   1. Gerente
 
@@ -33,7 +33,7 @@ Lembre-se do seguinte ao configurar esse recurso:
 
   3. Pares na ordem alfabética
 
-- Na primeira vez que um usuário fizer o logon, um novo grupo, denominado Meu Grupo, será criado. O grupo é preenchido automaticamente com pessoas em relação de grupo do AD do usuário com base no alias do usuário preenchido no campo gerente. Observe que as alterações na associação do grupo AD não provocam atualizações em Meu Grupo após ter sido inicialmente preenchido. Se um usuário excluir um contato ou grupo, nenhum contato ou grupo será recriado. 
+- Na primeira vez que um usuário fizer o logon, um novo grupo, denominado Meu Grupo, será criado. O grupo é automaticamente preenchido com pessoas na relação do grupo de anúncios do usuário com base no alias do usuário preenchido no campo gerente. Observe que as alterações na associação do grupo AD não provocam atualizações em Meu Grupo após ter sido inicialmente preenchido. Se um usuário excluir um contato ou grupo, nenhum contato ou grupo será recriado. 
 
 - Se a auto marcação estiver ativada, os contatos na lista serão marcados para as alterações de presença. A auto marcação é ativada por padrão, mas você pode optar por desativá-la. 
 
@@ -45,19 +45,19 @@ Lembre-se do seguinte ao configurar esse recurso:
 
 Para habilitar o recurso de lista de contatos Inteligente para seus usuários, será necessário executar as seguintes etapas: 
 
-- Criar uma nova entrada de CsClientPolicy e adicioná-lo à política de cliente global. 
+- Crie uma nova entrada CsClientPolicy e adicione-a à política de cliente global. 
 
 - Certifique-se de que Pesquisa da Agenda está configurada somente para Pesquisa na Web.
 
 ### <a name="create-a-policy-entry-to-enable-smart-contacts-list"></a>Criar uma entrada de política para habilitar a lista de contatos Inteligente
 
-Para criar uma entrada de política para habilitar o recurso de lista de contatos inteligente, use o cmdlet [New-CsClientPolicyEntry](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicyentry?view=skype-ps) com a opção EnableClientAutoPopulateWithTeam conforme segue:
+Para criar uma entrada de política para habilitar o recurso da lista de contatos inteligentes, use o cmdlet [New-CsClientPolicyEntry](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicyentry?view=skype-ps) com a opção EnableClientAutoPopulateWithTeam da seguinte maneira:
 
 ```
 $x=New-CsClientPolicyEntry -Name EnableClientAutoPopulateWithTeam -Value $True
 ```
 
-Em seguida, use o cmdlet [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) para gravar as alterações na política global, da seguinte maneira:
+Em seguida, use o cmdlet [set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) para gravar as alterações na política global da seguinte maneira:
 
 ```
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
@@ -70,7 +70,7 @@ $x=New-CsClientPolicyEntry -Name TagContactsInClientAutoPopulatedGroup -Value $F
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 ```
 
-Você também deve definir o parâmetro AddressBookAvailability para a política correspondente ao WebSearchOnly. Para obter mais informações, consulte [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps). 
+Você também deve definir o parâmetro AddressBookAvailability para a política correspondente ao WebSearchOnly. Para obter mais informações, consulte [set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps). 
 
 ### <a name="troubleshoot"></a>Solução de problemas
 
@@ -80,10 +80,10 @@ Se a Lista de contatos Inteligente não está funcionando conforme o esperado, v
 
 - Confirme se as informações da organização AD foram preenchidas.
 
-- Colete Skype para logs do cliente de negócios em um novo usuário para análise adicional.
+- Coletar logs do cliente Skype for Business em um novo usuário para análise adicional.
 
-- Confirme que o Skype para o cliente de negócios da interface do usuário não está exibindo uma mensagem que não puder se conectar ao catálogo de endereços. Para confirmar a conectividade do catálogo de endereços, execute uma pesquisa para um usuário do Skype para a barra de pesquisa do cliente de negócios.
+- Confirme se a interface do usuário do cliente Skype for Business não está exibindo uma mensagem informando que não consegue se conectar ao catálogo de endereços. Para confirmar a conectividade do catálogo de endereços, realize uma pesquisa de um usuário na barra de pesquisa do cliente Skype for Business.
 
-- Problemas de replicação do AD DS podem causar contatos para não ser resolvidos quando um usuário entra pela primeira vez o Skype para negócios.
+- Os problemas de replicação do AD DS podem fazer com que os contatos sejam desresolvidos quando um usuário entrar pela primeira vez no Skype for Business.
 
 

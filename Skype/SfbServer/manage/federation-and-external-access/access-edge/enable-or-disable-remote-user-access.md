@@ -8,63 +8,63 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Se você habilitar o acesso de usuário remoto para usuários remotos, usuários remotos com suporte se conectar à Internet e não precisará conectar usando uma VPN para colaborar com usuários internos usando Skype para o servidor de negócios.
-ms.openlocfilehash: 7586d6af408c4f6dd6290ccf1fc9f19dbc23a87e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Se você habilitar o acesso de usuários remotos para usuários remotos, os usuários remotos compatíveis se conectarem pela Internet e não precisarão se conectar usando uma VPN para colaborar com usuários internos usando o Skype for Business Server.
+ms.openlocfilehash: dde2bbb2d71d84bc9102683afc37208e3c4616bd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919469"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280233"
 ---
-# <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>Habilitar ou desabilitar o acesso de usuário remoto no Skype para Business Server
+# <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>Habilitar ou desabilitar o acesso de usuários remotos no Skype for Business Server
 
-Usuários remotos são usuários em sua organização que têm uma identidade persistente do Active Directory dentro da organização. Usuários remotos com frequência entram Skype para Business Server de fora da rede usando uma rede virtual privada (VPN) quando não estiverem conectados à rede da sua organização. Usuários remotos incluem funcionários que trabalham em casa ou em trânsito e outros trabalhadores remotos, como fornecedores confiáveis, aos quais foram concedidas credenciais da empresa. Se você habilitar o acesso de usuário remoto para usuários remotos, usuários remotos com suporte se conectar à Internet e não precisará conectar usando uma VPN para colaborar com usuários internos usando Skype para o servidor de negócios.
+Usuários remotos são usuários de sua organização que têm uma identidade persistente do Active Directory dentro da organização. Usuários remotos geralmente se conectam ao Skype for Business Server de fora da rede usando uma rede virtual privada (VPN) quando não estão conectados à rede da sua organização. Os usuários remotos incluem funcionários que trabalham em casa ou em trânsito e outros trabalhadores remotos, como fornecedores confiáveis, que receberam credenciais da empresa. Se você habilitar o acesso de usuários remotos para usuários remotos, os usuários remotos compatíveis se conectarem pela Internet e não precisarão se conectar usando uma VPN para colaborar com usuários internos usando o Skype for Business Server.
 
-Para suportar o acesso de usuário remoto, você deve habilitar o acesso de usuário remoto. Quando você habilita o acesso de usuário remoto, você pode habilitá-lo para toda sua organização. Se você quiser mais tarde temporária ou permanentemente impedir o acesso de usuário remoto, você pode desabilitá-lo para sua organização. Use o procedimento desta seção para habilitar ou desabilitar o acesso de usuário remoto para sua organização.
+Para dar suporte ao acesso de usuário remoto, você deve habilitar o acesso de usuários remotos. Ao habilitar o acesso de usuário remoto, habilite-o para toda a sua organização. Se, mais tarde, você quiser impedir temporariamente ou permanentemente o acesso do usuário remoto, você pode desabilitá-lo para a sua organização. Use o procedimento desta seção para habilitar ou desabilitar o acesso de usuários remotos para sua organização.
 
 
 > [!NOTE]  
-> Permitindo o acesso de usuário remoto especifica apenas que os servidores que executam o serviço de borda de acesso suportam a comunicações com usuários remotos, mas usuários remotos não podem participar de conferências em sua organização ou de mensagens instantâneas (IM) até que você também configurar no pelo menos uma política para gerenciar o uso de acesso de usuário remoto. Skype para configurações de diretiva de servidor de negócios que são aplicados em um nível de política pode substituir as configurações que são aplicadas no nível de política de outro. Skype para precedência da diretiva Business Server é: política de usuário (maior influência) substitui uma política de Site e, em seguida, uma política de Site substitui uma política Global (influência mínimos). Isso significa que, quanto mais perto a definição de política estiver do objeto que ela está afetando, maior será sua influência sobre o objeto. Para obter detalhes sobre como configurar políticas para o uso de acesso de usuário remoto, consulte [Configure políticas para controlar o acesso de usuário remoto no Skype para Business Server](../external-access-policies/configure-policies-to-control-remote-user-access.md).
+> Habilitar o acesso de usuários remotos especifica que os servidores que executam o serviço de borda de acesso dão suporte a comunicações com usuários remotos, mas os usuários remotos não podem participar de mensagens instantâneas (IM) nem conferências em sua organização até você também configurar ao mesmo tempo. menos uma política para gerenciar o uso de acesso de usuário remoto. As configurações de política do Skype for Business Server aplicadas em um nível de política podem substituir as configurações aplicadas em outro nível de política. A precedência de política do Skype for Business Server é: a política do usuário (maior influência) substitui uma política do site e, em seguida, uma política de site substitui uma política global (influência mínima). Isso significa que, quanto mais perto a definição de política estiver do objeto que ela está afetando, maior será sua influência sobre o objeto. Para obter detalhes sobre a configuração de políticas para o uso de acesso de usuário remoto, consulte [Configurar políticas para controlar o acesso de usuários remotos no Skype for Business Server](../external-access-policies/configure-policies-to-control-remote-user-access.md).
 
 
-## <a name="to-enable-or-disable-remote-user-access-for-your-organization"></a>Para habilitar ou desabilitar o acesso de usuário remoto para sua organização
+## <a name="to-enable-or-disable-remote-user-access-for-your-organization"></a>Para habilitar ou desabilitar o acesso de usuários remotos para sua organização
 
 1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
 
 3.  Na barra de navegação esquerda, clique em **Acesso Externo e Federado** e clique em **Configuração de Borda de Acesso**.
 
-4.  Na página **Configuração de borda de acesso** , clique em **Global**, clique em **Editar**e, em seguida, clique em **Mostrar detalhes**.
+4.  Na página **configuração de borda de acesso** , clique em **global**, clique em **Editar**e, em seguida, clique em **Mostrar detalhes**.
 
-5.  Em **Editar configuração de borda de acesso**, execute um destes procedimentos:
+5.  Em **Editar configuração de borda de acesso**, siga um destes procedimentos:
     
-      - Para habilitar o acesso de usuário remoto para sua organização, marque a caixa de seleção **Habilitar acesso de usuário remoto** .
+      - Para habilitar o acesso de usuário remoto para sua organização, marque a caixa de seleção **habilitar acesso do usuário remoto** .
     
-      - Para desabilitar o acesso de usuário remoto para sua organização, desmarque a caixa de seleção **Habilitar acesso de usuário remoto** .
+      - Para desabilitar o acesso de usuário remoto para sua organização, desmarque a caixa de seleção **habilitar acesso de usuário remoto** .
 
 6.  Clique em **Confirmar**.
 
-Para permitir que usuários remotos entrar em seus servidores executando o Skype para Business Server, você também deve configurar pelo menos uma política de acesso externo para suportar o acesso de usuário remoto. Para obter detalhes, consulte [Configure políticas para controlar o acesso de usuário remoto no Skype para Business Server](../external-access-policies/configure-policies-to-control-remote-user-access.md).
+Para permitir que os usuários remotos entrem em seus servidores que executam o Skype for Business Server, você também deve configurar pelo menos uma política de acesso externo para dar suporte ao acesso de usuários remotos. Para obter detalhes, consulte [Configurar políticas para controlar o acesso de usuários remotos no Skype for Business Server](../external-access-policies/configure-policies-to-control-remote-user-access.md).
 
 
 ## <a name="enabling-or-disabling-remote-user-access-by-using-windows-powershell-cmdlets"></a>Habilitar ou desabilitar o acesso de usuário remoto usando cmdlets do Windows PowerShell
 
-Acesso de usuários remotos pode ser gerenciado usando o Windows PowerShell e o cmdlet Set-CsAccessEdgeConfiguration. Este cmdlet pode ser executado a partir do Skype para Business Server 2013 Management Shell ou de uma sessão remota do Windows PowerShell. 
+O acesso do usuário remoto pode ser gerenciado usando o Windows PowerShell e o cmdlet Set-CsAccessEdgeConfiguration. Esse cmdlet pode ser executado do Shell de gerenciamento do Skype for Business Server 2013 ou de uma sessão remota do Windows PowerShell. 
 
-## <a name="to-enable-remote-user-access"></a>Para habilitar o acesso de usuário remoto
+## <a name="to-enable-remote-user-access"></a>Para habilitar o acesso de usuários remotos
 
-  - Para habilitar o acesso de usuário remoto, defina o valor da propriedade **AllowOutsideUsers** para True ($True):
+  - Para habilitar o acesso de usuário remoto, defina o valor da propriedade **AllowOutsideUsers** como True ($true):
     
         Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
 
-## <a name="to-disable-remote-user-access"></a>Para desabilitar o acesso de usuário remoto
+## <a name="to-disable-remote-user-access"></a>Para desabilitar o acesso de usuários remotos
 
-  - Para desabilitar o acesso de usuário remoto, defina o valor da propriedade **AllowOutsideUsers** para False ($False):
+  - Para desabilitar o acesso de usuário remoto, defina o valor da propriedade **AllowOutsideUsers** como False ($false):
     
         Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
 

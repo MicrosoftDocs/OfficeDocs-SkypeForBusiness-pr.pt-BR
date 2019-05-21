@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.CmsSettingsExpander
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 description: O Servidor de Gerenciamento Central pode ser alterado de um pool de Front-Ends definido para outro pool de Front-Ends definido. Para alterar o local do Servidor de Gerenciamento Central, selecione na lista suspensa o pool de Front-Ends em Servidor Front-End no qual instalar o Servidor de Gerenciamento Central em:. Um Servidor Front-End pode ser um pool de Front-Ends Enterprise Edition ou um Servidor Front-End Standard Edition.
-ms.openlocfilehash: ad758859688f0e9880fff7bec5c845526b3ddf65
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 98da719c53982d53484c618e996bae01496aa2af
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903765"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305938"
 ---
 # <a name="cms-settings-expander"></a>Expansor de Configurações de CMS
  

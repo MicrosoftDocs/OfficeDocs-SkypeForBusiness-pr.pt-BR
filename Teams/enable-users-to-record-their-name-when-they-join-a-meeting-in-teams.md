@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Saiba como ativar ou desativar se seus usuários podem ou não gravar o nome ao entrarem em uma reunião no Microsoft Teams.
-ms.openlocfilehash: ce2e2c019018ac3e2585928567632ea4a74b70fa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 753463bf0ef76d1b68ccb96e36505ec3c8717628
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246025"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298871"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Permitir que usuários gravem o nome ao entrar em uma reunião no Microsoft Teams
 
@@ -36,15 +36,15 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Definir se os chamadores devem gravar o nome
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
-2. Na parte superior da página **Pontes de conferência** , clique em **configurações de ponte**. 
+2. Na parte superior da página **pontes de conferência** , clique em **configurações de ponte**. 
 
-3. Habilitar ou desabilitar a **entrada de reunião e sair de notificações**.
+3. Habilite ou desabilite as **notificações de entrada e saída da reunião**.
 
-4. Se Ativar notificações, escolha **nomes ou números de telefone** em **tipo de anúncio de entrada/saída**e, em seguida, ativar **será feita aos chamadores registrar seus nomes antes de ingressar em uma reunião.**
+4. Se habilitar notificações, escolha **nomes ou números de telefone** em **tipo de anúncio de entrada/saída**e ative **solicitar aos chamadores gravarem o nome antes de ingressar em uma reunião.**
 
 6. Clique em **Salvar**.
     
@@ -63,4 +63,4 @@ Para obter mais informações sobre o Windows PowerShell, consulte a [referênci
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar a audioconferência no Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimentar ou comprar audioconferência no Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

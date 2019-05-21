@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.ArchivingGeneralSettingsExpander
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 description: 'No Construtor de Topologias, é possível editar as propriedades de um Arquivamento em execução em um servidor individual clicando com o botão direito do mouse no Arquivamento em execução em um servidor individual na árvore de console e clicando em Ação na barra de ferramentas, ou clicando em uma tarefa no painel Ações e clicando emEditar Propriedades e alterando qualquer uma das seguintes opções:'
-ms.openlocfilehash: 89fc3fd914f9430893a411a6b5a39cce2998a841
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 224b149dd7ff3d0a1398bf7cb644ebb259d5b949
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915779"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288772"
 ---
 # <a name="archiving-server-general-settings-expander"></a>Expansor das Configurações Gerais do Servidor de Arquivamento
  

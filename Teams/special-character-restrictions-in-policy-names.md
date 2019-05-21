@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -19,28 +19,28 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
-description: Consulte quais problemas que existem com caracteres especiais nos nomes de políticas e o que você pode fazer para corrigi-lo.
-ms.openlocfilehash: 12d89c4956b2d076f7279506ccf32737d18d50e0
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+description: Veja quais são os problemas que há caracteres especiais nos nomes das políticas e o que você pode fazer para corrigi-lo.
+ms.openlocfilehash: 03858de420cf77f8a8088f86c8c5feae5828c21a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632230"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298598"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quais são as restrições de caracteres especiais nas políticas do Teams?
 
-**Não é possível criar ou editar diretivas (para mensagens, reuniões, etc.) que possuem um caractere especial no nome de usuário na administração do Microsoft equipes center**. 
+**Você não pode criar ou editar políticas (para mensagens, reuniões etc.) que tenham um caractere especial no nome do centro de administração do Microsoft Teams**. 
 
-Se um nome de política contiver caracteres especiais, você será limitada no gerenciamento essas diretivas no Centro de administração do Microsoft Teams. **Sendo assim, é altamente recomendável que os nomes de política não incluem caracteres especiais**. 
+Se um nome de política contiver caracteres especiais, você será limitado ao gerenciamento dessas políticas no centro de administração do Microsoft Teams. **Assim, recomendamos enfaticamente que os nomes das políticas não incluam caracteres especiais**. 
 
-Nomes de política que foram criados usando o PowerShell para reuniões e equipes de mensagens podem ter caracteres especiais, como @, #, $. No entanto, se você estiver buscando fazer alterações à política no Centro de administração do Microsoft Teams, você não conseguirá. 
+Os nomes de política que foram criados usando o PowerShell para reuniões e mensagens no Microsoft Teams podem ter caracteres especiais, como @, #, $. No entanto, se você quiser fazer alterações na política no centro de administração do Microsoft Teams, não será possível. 
 
-Se você tiver uma diretiva com caracteres especiais, você precisará editar a política usando o Windows PowerShell (para sempre) ou criar uma nova política no Centro de administração do Microsoft Teams com as mesmas configurações como a diretiva old e atribuí-lo ao mesmo grupo de usuários.
+Se você tiver uma política com caracteres especiais, será necessário editar a política usando o Windows PowerShell (para sempre) ou criar uma nova política no centro de administração do Microsoft Teams com as mesmas configurações da política antiga e atribuí-la ao mesmo grupo de usuários.
 
 ## <a name="to-remove-special-characters"></a>Para remover caracteres especiais
 
-**Etapa 1 - fazer uma conexão remota com o PowerShell.** 
- [Configurar seu computador para o Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , se ainda não o fez.
+**Etapa 1-fazer uma conexão remota com o PowerShell.** 
+ [Configure seu computador para Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , se ainda não tiver feito isso.
 ```
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
@@ -49,10 +49,10 @@ Se você tiver uma diretiva com caracteres especiais, você precisará editar a 
 ```
 
 
-**Etapa 2 - Obtenha as configurações para a diretiva old e capturar a saída.**
+**Etapa 2: obter as configurações da política antiga e capturar a saída.**
 
 > [!NOTE]
-> Este exemplo é para uma política de [mensagens](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) .  As etapas que podem ser as mesmas para outros tipos de política, mas você deve usar o cmdlet correto. 
+> Este exemplo é para uma política de [mensagens](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) .  As etapas seriam iguais para outros tipos de política, mas você deve usar o cmdlet correto. 
 
   ```
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
@@ -61,28 +61,28 @@ Se você tiver uma diretiva com caracteres especiais, você precisará editar a 
 
 **Etapa 3: criar uma nova política.**
 
-Você pode criar a nova política com a mesma configuração usando o Centro de administração do Microsoft Teams ou PowerShell.
+Você pode criar uma nova política com a mesma configuração usando o centro de administração do Microsoft Teams ou o PowerShell.
 
-Executando isso criará uma nova política para você, mas você precisará adicionar as configurações corretas vendo [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) e, em seguida, executá-lo:
+Executar isso criará uma nova política para você, mas você precisará adicionar as configurações corretas vendo [set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) e, em seguida, executá-lo:
 
   ```
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
  ```
-**Etapa 4 - atribuir a política.**
+**Etapa 4-atribuir a política.**
  ```
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-Consulte, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) para obter mais informações sobre esse cmdlet.
+Consulte [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) para obter mais informações sobre esse cmdlet.
 
-**Etapa 5 - excluir a diretiva old.**
+**Etapa 5-excluir a política antiga.**
 
-Isso excluirá a diretiva old com os caracteres especiais.
+Isso excluirá a política antiga com os caracteres especiais.
   ```
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-Consulte, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) para obter mais informações sobre esse cmdlet.
+Consulte [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) para obter mais informações sobre esse cmdlet.
 
-Se este comando for bem-sucedido, terminar. Se o comando acima retornará um erro, é porque a diretiva old é atribuída a usuários e, portanto, você precisará executar para remover todos os usuários atribuídos da diretiva:
+Se esse comando tiver êxito, você terminou. Se o comando acima retornar um erro, é porque a antiga política é atribuída aos usuários, portanto, você precisa executar para remover todos os usuários atribuídos da política:
 
 ```
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
@@ -95,7 +95,7 @@ O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com
     
   - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o Centro de administração do Microsoft 365, como quando você estiver fazendo alterações nas configurações de muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos:
+- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como quando você está realizando alterações de configurações para muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -104,6 +104,6 @@ O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com
   - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > O módulo do Windows PowerShell para Skype para Business Online permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype para Business Online e Teams da Microsoft. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo Windows PowerShell para Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).
+    > O módulo do Windows PowerShell para Skype for Business Online permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online e ao Microsoft Teams. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo Windows PowerShell para Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
 

@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 1/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Saiba como implantar vários sites PSTN no Cloud Connector Edition.
-ms.openlocfilehash: 194eaf0b68489b37a5ab1fc2d5d501177edd0b35
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ba6b76366b65a9febb9fab06e7cfb0fad759e5ee
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227898"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287325"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Implantar vários sites no Cloud Connector
  
@@ -29,7 +29,7 @@ Esta seção descreve como implantar vários sites PSTN (Rede Telefônica Públi
   
 ## <a name="multiple-public-switched-telephone-network-pstn-sites"></a>Vários sites PSTN
 
-O exemplo a seguir mostra um exemplo de configuração para implantar Skype para Business Edition do conector de nuvem para diferentes sites PSTN. Antes de iniciar a implantação, verifique se a configuração está definida corretamente.
+Veja a seguir um exemplo de configuração para implantar o Skype for Business Cloud Connector Edition para sites PSTN diferentes. Antes de iniciar a implantação, verifique se a configuração está definida corretamente.
   
 Site PSTN 1
   
@@ -70,7 +70,7 @@ ExternalMRPublicIPs=104.42.226.134
 Para cada site PSTN que você deseja adicionar, siga as etapas em [implantar um único site no conector de nuvem](deploy-a-single-site-in-cloud-connector.md).
   
 > [!IMPORTANT]
-> A pasta compartilhada para a preparação de alta disponibilidade refere-se a cada site PSTN. As pastas compartilhadas dos sites PSTN **devem** ser diferentes. Não use a mesma pasta compartilhada para vários sites.> 
+> A pasta compartilhada para a preparação de alta disponibilidade refere-se a cada site PSTN. As pastas compartilhadas dos sites PSTN **devem** ser diferentes. Não use a mesma pasta compartilhada para vários sites. > 
   
 ## <a name="single-site-with-high-availability-ha-compared-to-multi-site-deployments"></a>Site único com alta disponibilidade comparado a implantações de vários sites
 <a name="BKMK_SingleSitecomparedtomulti-site"> </a>
@@ -79,10 +79,10 @@ A tabela a seguir lista as diferenças entre a implantação de um único site c
   
 |**Categoria**|**Item**|**Único site com alta disponibilidade**|**Vários sites**|
 |:-----|:-----|:-----|:-----|
-|Configuração  <br/> |Nome de Host do aparelho <br/> |**Diferentes** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
-|Instalação  <br/> |Pasta compartilhada  <br/> |Requer a **mesma** pasta compartilhada entre appliances <br/> |Requer uma pasta compartilhada **diferente** nos vários dispositivos <br/> |
+|Configuração  <br/> |Nome do host do aplicativo <br/> |**Diferentes** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
+|Instalação  <br/> |Pasta compartilhada  <br/> |Requer a **mesma** pasta compartilhada em todos os aparelhos <br/> |Requer uma pasta compartilhada **diferente** nos vários dispositivos <br/> |
 |Configuração  <br/> |VirtualMachineDomain  <br/> |Requer o **mesmo** domínio nos vários dispositivos <br/> |Requer o **mesmo** domínio nos vários sites PSTN <br/> |
-|Configuração  <br/> |SIPDomains  <br/> |Ordem e nomes de domínio devem ser o **mesmo** em aparelhos <br/> |Ordem e nomes de domínio devem ser o **mesmo** entre sites PSTN <br/> |
+|Configuração  <br/> |SIPDomains  <br/> |Os nomes de domínio e a ordem devem ser **iguais** em todos os aparelhos <br/> |Os nomes de domínio e a ordem devem ser **iguais** em sites PSTN <br/> |
 |Configuração  <br/> |Nome do site  <br/> |Nome do Site **igual** nos vários dispositivos <br/> |Nome do Site **diferente** nos vários sites PSTN <br/> |
 |Configuração  <br/> |Nomes de servidor  <br/> |**Diferentes** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
 |Configuração  <br/> |FQDNs de pool interno  <br/> |**Iguais** nos vários dispositivos <br/> |**Igual** nos vários sites PSTN <br/> |
@@ -90,8 +90,8 @@ A tabela a seguir lista as diferenças entre a implantação de um único site c
 |Configuração  <br/> |FQDN externo  <br/> |**Iguais** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
 |Configuração  <br/> |IPs externos  <br/> |**Diferentes** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
 |Configuração  <br/> |Configurações de Gateway PSTN  <br/> |**Iguais** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
-|Configuração  <br/> |Registro DNS  <br/> |Adicionar registros com o **mesmo** FQDNs de acesso externo e endereços IP **diferentes** <br/> |Adicionar registros com FQDNs de Acesso Externo **diferentes** e endereços IP **diferentes** <br/> |
-|Instalação  <br/> |Locatário híbrida  <br/> |Definir HybridPstnSite  <br/> Definir PeerDestination para fallback  <br/> |Definir HybridPstnSite  <br/> Definir PeerDestination para fallback  <br/> |
+|Configuração  <br/> |Registro DNS  <br/> |Adicionar registros com os **mesmos** FQDNs externos de acesso externo e endereços IP **diferentes** <br/> |Adicionar registros com FQDNs de Acesso Externo **diferentes** e endereços IP **diferentes** <br/> |
+|Instalação  <br/> |Locatário híbrido  <br/> |Definir HybridPstnSite  <br/> Definir PeerDestination para fallback  <br/> |Definir HybridPstnSite  <br/> Definir PeerDestination para fallback  <br/> |
 |Instalação  <br/> |Gateway  <br/> |Mapeamento de **M:N** do MS GW neste site <br/> |Os gateways PSTN em cada site PSTN devem se conectar apenas aos Servidores de Mediação no mesmo site  <br/> |
 |Instalação  <br/> |Usuário  <br/> |Definir UserPSTNSettings  <br/> |Definir UserPSTNSettings  <br/> |
    

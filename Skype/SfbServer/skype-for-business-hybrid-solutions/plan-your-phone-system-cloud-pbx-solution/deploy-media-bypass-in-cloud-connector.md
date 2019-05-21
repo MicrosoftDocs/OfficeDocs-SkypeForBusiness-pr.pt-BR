@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,27 +13,27 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
-description: Leia este tópico para saber sobre etapas para implantar o bypass de mídia com o conector de nuvem Edition versão 2.0 e posteriores.
-ms.openlocfilehash: f4ea5449e7a324ae206241af25d12ecabf9c5259
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Leia este tópico para saber mais sobre as etapas de implantação do bypass de mídia com o Cloud Connector Edition versão 2,0 e posterior.
+ms.openlocfilehash: 6f3ad140d25d5f1d03196e576ac57dc56e905d44
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234081"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287542"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implantar o bypass de mídia no Cloud Connector Edition
  
-Leia este tópico para saber sobre etapas para implantar o bypass de mídia com o conector de nuvem Edition versão 2.0 e posteriores. 
+Leia este tópico para saber mais sobre as etapas de implantação do bypass de mídia com o Cloud Connector Edition versão 2,0 e posterior. 
   
-Bypass de mídia permite que um cliente enviar mídia diretamente para o próximo salto de rede de telefônica pública comutada (PSTN) — um gateway ou controlador de borda de sessão (SBC) — e eliminar o componente de edição do conector de nuvem do caminho de mídia. Consulte também [Planejar media bypass na nuvem conector Edition](plan-for-media-bypass-in-cloud-connector-edition.md).
+O bypass de mídia permite que um cliente envie mídia diretamente para o próximo salto da rede telefônica pública comutada (PSTN), um gateway ou um controlador de borda de sessão (SBC), e elimine o componente da edição do conector de nuvem do caminho de mídia. Consulte também [planejar a bypass de mídia na edição do Cloud Connector](plan-for-media-bypass-in-cloud-connector-edition.md).
   
 ## <a name="enable-media-bypass"></a>Habilitar bypass de mídia
 
-Para habilitar o bypass de mídia, você deve configurar o nome DNS do serviço Web do bypass de mídia e ativar o bypass de mídia na configuração do locatário. O serviço Web de bypass de mídia é implantado automaticamente em cada Servidor de Mediação. Um administrador de locatário precisa escolher um nome para um serviço de voz híbrido (site), e esse nome deve ser de um domínio SIP registrado para voz híbrida. O nome do serviço deve ser o mesmo em todos os aparelhos de conector de nuvem e todos os sites PSTN, independentemente da localização do cliente. O serviço Web só deve estar disponível internamente na rede.
+Para habilitar o bypass de mídia, você deve configurar o nome DNS do serviço Web do bypass de mídia e ativar o bypass de mídia na configuração do locatário. O serviço Web de bypass de mídia é implantado automaticamente em cada Servidor de Mediação. Um administrador de locatário precisa escolher um nome para um serviço de voz híbrido (site), e esse nome deve ser de um domínio SIP registrado para voz híbrida. O nome do serviço deve ser o mesmo em todos os dispositivos de conector de nuvem e em todos os sites PSTN, independentemente do local do cliente. O serviço Web só deve estar disponível internamente na rede.
   
-O administrador do locatário deve configurar um registro A DNS no Active Directory da produção interna. Se você tiver um ambiente complexo de vários local, consulte o exemplo [exemplo: registros DNS do site da web em ambientes de vários locais complexos de bypass de mídia](deploy-media-bypass-in-cloud-connector.md#Example). O registro DNS deve resolver apenas clientes da rede interna; ele não deve resolver clientes da rede externa.
+O administrador do locatário deve configurar um registro A DNS no Active Directory da produção interna. Se você tiver um ambiente de vários sites complexo, consulte o exemplo no exemplo [: ignorar o site do Web site registros DNS em ambientes com vários sites complexos](deploy-media-bypass-in-cloud-connector.md#Example). O registro DNS deve resolver apenas clientes da rede interna; ele não deve resolver clientes da rede externa.
   
-Depois de configurar o DNS, conecte-se ao Skype for Business Online usando o PowerShell remoto com as credenciais de administrador do Skype for Business. Para obter mais informações, consulte [Configurar o computador para o Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .
+Depois de configurar o DNS, conecte-se ao Skype for Business Online usando o PowerShell remoto com as credenciais de administrador do Skype for Business. Para obter mais informações, consulte [configurar seu computador para Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .
   
 Na sessão do PowerShell, insira os seguintes comandos para habilitar o bypass de mídia:
   
@@ -43,7 +43,7 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enable
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-Habilitando o bypass de mídia em um processo de duas etapas. O cmdlet New-CsNetworkMedia não salva imediatamente a nova configuração; ele só cria as configurações na memória. O objeto criado por este cmdlet deve ser salvo como uma variável, e então atribuído à propriedade MediaBypassSettings da configuração da rede. Para obter mais informações, consulte [exemplo: registros DNS do site da web em ambientes de vários locais complexos de bypass de mídia](deploy-media-bypass-in-cloud-connector.md#Example).
+Habilitando o bypass de mídia em um processo de duas etapas. O cmdlet New-CsNetworkMedia não salva imediatamente a nova configuração; ele só cria as configurações na memória. O objeto criado por este cmdlet deve ser salvo como uma variável, e então atribuído à propriedade MediaBypassSettings da configuração da rede. Para obter mais informações, consulte [exemplo: ignorar a mídia de registros DNS de sites em ambientes complexos de vários locais](deploy-media-bypass-in-cloud-connector.md#Example).
   
 A replicação entre os componentes locais e online pode demorar até 24 horas, portanto a Microsoft recomenda que você execute os comandos necessários antes de habilitar os usuários.
   
@@ -51,20 +51,20 @@ A replicação entre os componentes locais e online pode demorar até 24 horas, 
 
 Você pode verificar as configurações de bypass de mídia da seguinte maneira.  
   
-Para verificar a replicação on-line para seu pool de locatário, execute o seguinte comando no PowerShell remoto:
+Para verificar a replicação online para o pool do locatário, execute o seguinte comando no PowerShell remoto:
   
 ```
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-Para verificar a replicação do local, conecte-se para os servidores de mediação do conector de nuvem, execute o seguinte comando no PowerShell e confirme que Enabled = True e AlwaysBypass = True
+Para verificar a replicação local, conecte-se aos servidores de remediação do conector de nuvem, execute o seguinte comando no PowerShell e confirme se Enabled = true e AlwaysBypass = true
   
 ```
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-Para verificar as configurações do cliente, sair do Skype para o cliente de negócios, entrar novamente e confirme se o cliente recebeu a URL do serviço da seguinte maneira:
+Para verificar as configurações do cliente, desconecte-se do cliente Skype for Business, entre novamente e confirme se o cliente recebeu a URL do serviço da seguinte maneira:
   
 1. Abra %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog. 
     
@@ -90,7 +90,7 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-Depois de fazer a alteração, pode levar algum tempo até que as alterações sejam replicadas em todos os Cloud Connectors. Para verificar o status da replicação, execute o seguinte cmdlet do PowerShell nos servidores de mediação do conector de nuvem: 
+Depois de fazer a alteração, pode levar algum tempo até que as alterações sejam replicadas em todos os Cloud Connectors. Para verificar o status da replicação, execute o seguinte cmdlet no PowerShell em servidores de Media Connector: 
   
 ```
 Get- CsNetworkConfiguration -LocalStore
@@ -108,20 +108,20 @@ Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass 
 ```
 
-O administrador também precisará remover os endereços da web para o bypass de mídia dos servidores DNS internos. Após a alteração, ele pode levar algum tempo para que as alterações replicar para todos os aparelhos de conector de nuvem. 
+O administrador também precisará remover os endereços da web para o bypass de mídia dos servidores DNS internos. Depois de fazer a alteração, pode levar algum tempo para que as alterações sejam replicadas para todos os aparelhos de conector de nuvem. 
   
 ## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a>Exemplo: registros DNS do site de bypass de mídia em ambientes complexos multissites.
 <a name="Example"> </a>
 
-Os clientes receberão o endereço web do serviço de bypass de mídia de um servidor DNS interno. O nome do serviço da web será o mesmo em todos os aparelhos de conector de nuvem e sites de PSTN do conector de nuvem. Em um ambiente complexo multissites, recomendamos usar a política de DNS do Windows 2016 para localização geográfica com base em gerenciamento de tráfego para que os clientes possam ser redirecionados para o serviço Web que seja local para a sua rede. 
+Os clientes receberão o endereço web do serviço de bypass de mídia de um servidor DNS interno. O nome do serviço Web será o mesmo em todos os dispositivos de conector de nuvem e sites PSTN do conector de nuvem. Em um ambiente complexo multissites, recomendamos usar a política de DNS do Windows 2016 para localização geográfica com base em gerenciamento de tráfego para que os clientes possam ser redirecionados para o serviço Web que seja local para a sua rede. 
   
-Para obter mais informações sobre políticas de DNS do Windows 2016, consulte [Usar diretivas de DNS para o gerenciamento de tráfego com base em localização geográfica com servidores primários](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).
+Para saber mais sobre as políticas de DNS do Windows 2016, consulte [usar a política DNS para gerenciamento de tráfego baseado em localização geográfica com servidores primários](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).
   
 Veja a seguir um exemplo de configuração para uma empresa com vários sites usando a Política DNS do Windows 2016 para Localização geográfica com base em gerenciamento de tráfego.
   
-O nome para o serviço de desvio é 'hybridvoice.adatum.biz'.
+O nome do serviço de bypass é ' hybridvoice.adatum.biz '.
   
-O site no Amsterdã tem quatro aparelhos de nuvem conector implantados com os seguintes endereços IP do servidor de mediação:
+O site em Amsterdã tem quatro dispositivos de conector de nuvem implantados com os seguintes endereços IP do servidor de mediação:
   
 - 192.168.1.45
     
@@ -131,7 +131,7 @@ O site no Amsterdã tem quatro aparelhos de nuvem conector implantados com os se
     
 - 192.168.1.48
     
-O site em Seattle tem três aparelhos de nuvem conector implantados com os seguintes endereços IP do servidor de mediação:
+O site em Seattle tem três dispositivos de conector de nuvem implantados com os seguintes endereços IP do servidor de mediação:
   
 - 10.10.1.8
     
@@ -182,7 +182,7 @@ Usando-se a Localização geográfica com base em gerenciamento de tráfego, os 
 Neste ponto, os clientes que fizerem consultas DNS da sub-rede de Amsterdã para hybridvoice.adatum.biz retornarão os endereços 192.168.1.45, 192.168.1.46, 192.168.1.47 e 192.168.1.48, enquanto os clientes que fizerem a mesma consulta de Seattle retornarão 10.10.1.8, 10.10.1.9 e 10.10.1.10.
 
 > [!NOTE]
-> Se o aparelho de CCE não parece estar recebendo as configurações atualizadas, verifique se o aparelho é capaz de contatar o locatário via o PowerShell remoto. Você pode usar o PowerShell remoto para verificar o status de aparelho com Get-CsHybridPSTNAppliance ou usar o PowerShell para verificar o status com o Get-CcApplianceStatus no host CCE.
+> Se o dispositivo CCE parece não ter as configurações atualizadas, verifique se o dispositivo consegue entrar em contato com o locatário via PowerShell remoto. Você pode usar o PowerShell remoto para verificar o status do aplicativo com Get-CsHybridPSTNAppliance ou usar o PowerShell no host CCE para verificar o status com Get-CcApplianceStatus.
 
   
 ## <a name="see-also"></a>Confira também

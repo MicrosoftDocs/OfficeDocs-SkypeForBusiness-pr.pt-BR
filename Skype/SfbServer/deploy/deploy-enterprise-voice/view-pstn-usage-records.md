@@ -1,10 +1,10 @@
 ---
-title: Exibir registros de uso PSTN em Skype para negócios
+title: Exibir registros de uso de PSTN no Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
-description: 'Resumo: Saiba como exibir registros de uso PSTN usando-se o Skype para painel de controle do Business Server ou o Skype para Business Server Management Shell.'
-ms.openlocfilehash: 933f20754aff5d8e8c9032cee02693e685130078
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como exibir registros de uso de PSTN usando o painel de controle do Skype for Business Server ou o Shell de gerenciamento do Skype for Business Server.'
+ms.openlocfilehash: d00fcab8c7f5ad9b8f47d5aecb6c6169e8d43574
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892255"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300920"
 ---
-# <a name="view-pstn-usage-records-in-skype-for-business"></a>Exibir registros de uso PSTN em Skype para negócios
+# <a name="view-pstn-usage-records-in-skype-for-business"></a>Exibir registros de uso de PSTN no Skype for Business
 
-**Resumo:** Saiba como exibir registros de uso do PSTN, usando o Skype para painel de controle do Business Server ou o Skype do Shell de gerenciamento do servidor de negócios.
+**Resumo:** Saiba como exibir registros de uso de PSTN usando o painel de controle do Skype for Business Server ou o Shell de gerenciamento do Skype for Business Server.
 
 Um registro de uso de Rede Telefônica Pública Comutada (PSTN) especifica uma classe de chamada (por exemplo, interna, local ou interurbana) que pode ser feita por vários usuários ou grupos de usuários em uma organização. Para obter detalhes, consulte [PSTN Usage Records](https://technet.microsoft.com/library/b5f624aa-abe8-455b-a8e3-c228be230463.aspx) na documentação de planejamento.
 
-### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>Para exibir um registro de uso PSTN usando Skype para o painel de controle do servidor de negócios
+### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>Para exibir um registro de uso PSTN usando o painel de controle do Skype for Business Server
 
-1. Abra o Skype para painel de controle do servidor de negócios.
+1. Abra o painel de controle do Skype for Business Server.
 
 2. Na barra de navegação esquerda, clique em **Roteamento de voz** e em **Uso do PSTN**.
 
@@ -38,9 +38,9 @@ Um registro de uso de Rede Telefônica Pública Comutada (PSTN) especifica uma c
     > [!NOTE]
     > Uma página somente leitura do registro de uso PSTN selecionado mostra as rotas associadas e as políticas de voz associadas.
 
-### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>Para exibir informações de uso do PSTN, usando Skype para cmdlets do Shell de gerenciamento do servidor de negócios
+### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>Para exibir informações de uso de PSTN usando cmdlets do Shell de gerenciamento do Skype for Business Server
 
-- Para exibir informações sobre todos os usos de PSTN, digite o seguinte comando no Skype do Shell de gerenciamento do servidor de negócios e pressione ENTER:
+- Para ver informações sobre todos os usos de PSTN, digite o seguinte comando no Shell de gerenciamento do Skype for Business Server e pressione ENTER:
 
   ```
   Get-CsPstnUsage
@@ -55,5 +55,5 @@ Um registro de uso de Rede Telefônica Pública Comutada (PSTN) especifica uma c
 
 ## <a name="see-also"></a>Confira também
 
-[Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios](voice-policy-and-pstn-usage-records.md)
+[Criar ou modificar uma política de voz e configurar registros de uso de PSTN no Skype for Business](voice-policy-and-pstn-usage-records.md)
 

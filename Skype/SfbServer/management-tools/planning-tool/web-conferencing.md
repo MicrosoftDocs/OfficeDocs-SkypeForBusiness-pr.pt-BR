@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/8/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.WebConferencing
@@ -13,20 +13,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
-description: Skype para negócios 2015 de servidor de webconferência inclui a colaboração de documentos, compartilhamento de aplicativos e compartilhamento da área de trabalho.
-ms.openlocfilehash: 65e158aec4e7f06686579d96d9abbffcaaccb4d2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: A conferência da Web do Skype for Business Server 2015 inclui colaboração de documentos, compartilhamento de aplicativos e compartilhamento de área de trabalho.
+ms.openlocfilehash: a447352ab80dfb989f21e1e76abad8b4b250e181
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914097"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288905"
 ---
 # <a name="web-conferencing-planning-tool"></a>Web Conferencing (Planning Tool)
  
-Skype para negócios 2015 de servidor de webconferência inclui a colaboração de documentos, compartilhamento de aplicativos e compartilhamento da área de trabalho.
+A conferência da Web do Skype for Business Server 2015 inclui colaboração de documentos, compartilhamento de aplicativos e compartilhamento de área de trabalho.
   
 > [!NOTE]
-> Skype para Business Server 2015 usa o Office Web Apps e Office Web Apps Server para lidar com o compartilhamento e renderização de apresentações do PowerPoint. Recursos de webconferência funcionam exatamente como faziam no Microsoft Lync 2013. Para obter detalhes sobre como instalar e configurar o Office Web Apps Server, consulte [Configuring integração com o Office Web Apps Server e o Lync Server 2013](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx). 
+> O Skype for Business Server 2015 usa o Office Web Apps e o Office Web Apps Server para lidar com o compartilhamento e a renderização de apresentações do PowerPoint. Os recursos da webconferência funcionam exatamente da mesma forma que no Microsoft Lync 2013. Para obter detalhes sobre como instalar e configurar o Office Web Apps Server, consulte Configurando a [integração com o Office Web Apps Server e o Lync Server 2013](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx). 
   
 Para detalhes de planejamento sobre a ativação da conferência pela Web na sua empresa, consulte os seguintes tópicos: 
   

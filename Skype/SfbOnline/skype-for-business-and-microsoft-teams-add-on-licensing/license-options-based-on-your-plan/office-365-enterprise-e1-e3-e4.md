@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba como comprar licenças de complemento, recursos e como comprar os planos E1, E3 e E4 do Office 365 Enterprise. '
-ms.openlocfilehash: 74518e09344136e399ed0307ff7bff110ac8e9d9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7b9cadab1b261c23ce98fd4b007488a54b5b15e9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239226"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290052"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 e E4
 
@@ -34,11 +34,11 @@ Se você já adquiriu o [Office 365 Enterprise E1](https://products.office.com/e
 |||
 |:-----|:-----|
 |**Para adicionar este recurso** <br/> |**Você precisa comprar** <br/> |
-|**Serviços de audioconferência** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |Complemento de **Audioconferência** <br/>Após adquirir a licença, a Microsoft será seu provedor de serviços de audioconferência. |
-|**Números de discagem gratuita para acesso de discagem para suas reuniões e a capacidade de discar a partir de uma reunião para adicionar alguém chamando qualquer número de telefone do mundo** <br/> |[Créditos de Comunicação](/microsoftteams/add-funds-and-manage-communications-credits)|
-|**Sistema Telefônico** <br/> |1. complemento do **Sistema de telefonia do office 365** <br/> 2. chamada planos: Compre uma [Chamada plano](/MicrosoftTeams/calling-plans-for-office-365) do Office 365. <br/>  Ou, use o [serviço de telefonia do seu provedor existente](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**Caixa postal da nuvem** <br/> |Para os planos E1 e E4, compre o Exchange Online Plan 2. <br/>Ou mude para um Pacote do Office que venha com o Exchange Online Plan 2, como o Office 365 E3. |
-|**Planos de chamadas** <br/> |1. complemento de **sistema telefônico** <br/> 2. [plano de chamada](/MicrosoftTeams/calling-plans-for-office-365): você pode comprar isso somente depois que você compra o complemento de **Sistema telefônico** . <br/> |
+|**Audioconferência** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |Complemento de **Audioconferência** <br/>Após adquirir a licença, a Microsoft será seu provedor de serviços de audioconferência. |
+|**Números de chamada gratuita para acesso discada às suas reuniões e a capacidade de discar de uma reunião para adicionar alguém ao ligar para qualquer número de telefone do mundo** <br/> |[Créditos de Comunicação](/microsoftteams/add-funds-and-manage-communications-credits)|
+|**Sistema Telefônico** <br/> |1. complemento **do sistema telefônico do Office 365** <br/> 2. planos de chamada: comprar um [plano de chamadas](/MicrosoftTeams/calling-plans-for-office-365) do Office 365. <br/>  Ou, use o [serviço de telefonia do seu provedor existente](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
+|**Caixa Postal na Nuvem** <br/> |Para os planos E1 e E4, compre o Exchange Online Plan 2. <br/>Ou mude para um Pacote do Office que venha com o Exchange Online Plan 2, como o Office 365 E3. |
+|**Planos de chamadas** <br/> |1. complemento do **sistema de telefonia** <br/> 2. [plano de chamada](/MicrosoftTeams/calling-plans-for-office-365): você só poderá comprá-lo depois de comprar o complemento do **sistema telefônico** . <br/> |
    
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Clientes E1 e E3: Como ver preços e comprar
@@ -48,9 +48,9 @@ Se você já adquiriu o [Office 365 Enterprise E1](https://products.office.com/e
 
 2. Vá para **Cobrança** > **Assinaturas** > **Complementos** > **Comprar complementos**.
 
-   ![Para adquirir uma licença complementar, escolha comprar complementos.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![Para comprar uma licença complementar, escolha comprar Complementos.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
-3. Depois que você compra uma licença de **Sistema telefônico** , você verá o preço e a opção de comprar um plano de chamada.
+3. Depois de comprar uma licença do **sistema de telefonia** , você verá o preço e a opção para comprar um plano de chamadas.
 
 ### <a name="partners-how-to-see-prices-and-buy"></a>Parceiros: Como ver preços e comprar
 <a name="bkmk_partners"> </a>
@@ -61,14 +61,14 @@ The E3 plan is part of your Action Pack. To buy the **Phone System** and **Audio
 
 2. Entre no Centro de administração do Office 365 e vá para **Cobrança** > **Assinaturas** > **Complementos**.
 
-    Agora, você verá os preços e a opção de comprar os complementos do **Sistema telefônico** e **Conferência de áudio** .
+    Agora, você verá os preços e a opção para comprar o **sistema de telefonia** e Complementos de **audioconferência** .
 
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>Por que não vejo a opção para comprar complementos?
 <a name="bkmk_how"> </a>
 
 Em algumas situações, você não verá a opção para comprar Skype for Business complementos no Centro de administração do Office 365.
 
-- **Você comprou o Office 365 Business Premium por meio do GoDaddy**. Nesse caso, você não pode comprar Skype complementos de negócios. Você precisa trocar para o plano E3 (que não vende no GoDaddy) e, em seguida, poderá comprá-los. [Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Você comprou o Office 365 Business Premium por meio do GoDaddy**. Nesse caso, você não pode comprar Complementos do Skype for Business. Você precisa trocar para o plano E3 (que não vende no GoDaddy) e, em seguida, poderá comprá-los. [Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

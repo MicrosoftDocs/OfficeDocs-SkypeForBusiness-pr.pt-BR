@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,30 +20,30 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como visualizar uma lista de usuários da sua organização habilitados para conferência discada a partir do Microsoft Teams. '
-ms.openlocfilehash: 2e1c74ccd856f32e8ff577ed7f718715e9e3c1b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 15eda1623438138b688da38a862fefa17d2d3ec4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204990"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305344"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Ver uma lista de usuários habilitados para audioconferência no Microsoft Teams
 
-Após ter habilitado os usuários do Microsoft Teams na sua organização para conferência de áudio, você pode exibir a lista dos usuários que tiverem sido habilitados. 
+Depois de habilitar os usuários do Microsoft Teams em sua organização para conferências de áudio, você pode exibir a lista dos usuários que foram habilitados. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Exibir uma lista de usuários
 
-- No Centro de administração do Microsoft Teams, no painel de navegação esquerdo, clique em **usuários**.
+- No centro de administração do Microsoft Teams, no painel de navegação esquerdo, clique em **usuários**.
 
 
 ## <a name="what-else-should-i-know"></a>O que mais devo saber?
 
-- Ao exibir a lista de usuários que estão habilitados, você pode selecionar um usuário na lista para editar as configurações de serviços de audioconferência para esse usuário.
+- Ao exibir a lista de usuários habilitados, você pode selecionar um usuário na lista para editar as configurações de videoconferência para esse usuário.
     
-- Quando você seleciona um único usuário, você pode exibir o número de telefone padrão atribuído ao usuário e qualquer outra configuração de serviços de audioconferência relevantes.    
+- Ao selecionar um único usuário, você pode visualizar o número de telefone padrão atribuído ao usuário e qualquer outra configuração de audioconferência relevante.    
    
 - Você pode usar o botão de pesquisa para procurar um usuário individual na lista
     

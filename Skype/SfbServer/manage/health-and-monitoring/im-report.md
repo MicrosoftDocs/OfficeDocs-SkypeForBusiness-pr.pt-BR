@@ -1,31 +1,31 @@
 ---
-title: Relatório de mensagens Instantâneas de ponto a ponto no Skype para Business Server
+title: Relatório de IM ponto a ponto no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
-description: 'Resumo: Saiba mais sobre o relatório de mensagens Instantâneas de ponto a ponto no Skype para Business Server.'
-ms.openlocfilehash: 8937f9b0342613ae0253fc75b1c54962bd670ed8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de IM ponto a ponto no Skype for Business Server.'
+ms.openlocfilehash: abe6321f6c4432270ecec325a94608d2e3117954
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926582"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305651"
 ---
-# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Relatório de mensagens Instantâneas de ponto a ponto no Skype para Business Server
+# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Relatório de IM ponto a ponto no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de mensagens Instantâneas de ponto a ponto no Skype para Business Server.
+**Resumo:** Saiba mais sobre o relatório de IM ponto a ponto no Skype for Business Server.
   
 O Relatório de Mensagens Instantâneas Ponto a Ponto fornece informações de tendência sobre sessões de IM (mensagens instantâneas) ponto a ponto, detalhadas por pool e tipo de autenticação. O relatório pode mostrar o número total de sessões que aconteceram durante o período de tempo especificado (por exemplo, dia por dia ou hora por hora), ou pode mostrar o número total de mensagens instantâneas enviadas durante esse período de tempo.
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>Acessando o Relatório de Mensagens Instantâneas Ponto a Ponto
 
-Você pode acessar o relatório de mensagens Instantâneas ponto a ponto apenas abrindo o [relatório de resumo de atividade ponto a ponto no Skype para Business Server](peer-to-peer-activity-summary-report.md) e, em seguida, clicando em qualquer uma das seguintes métricas:
+Você pode acessar o relatório de mensagens instantâneas ponto a ponto apenas abrindo o [relatório de Resumo de atividades ponto a ponto no Skype for Business Server](peer-to-peer-activity-summary-report.md) e clicando em uma das seguintes métricas:
   
 - Total de sessões de mensagens instantâneas ponto a ponto
     
@@ -56,7 +56,7 @@ A tabela a seguir lista as informações fornecidas pelo Relatório do Sistema d
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Pool** <br/> |Não  <br/> |Nome do pool de registrador ou servidor de borda.  <br/> |
+|**Pool** <br/> |Não  <br/> |Nome do pool de registradores ou servidor de borda.  <br/> |
 |**Data/Hora** <br/> |Não  <br/> |Data e hora em que a sessões ocorreram.  <br/> |
 |**Total** <br/> |Não  <br/> |Número total de sessões ou contagem total de mensagens.  <br/> |
    

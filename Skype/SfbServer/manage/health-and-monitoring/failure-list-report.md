@@ -1,31 +1,31 @@
 ---
-title: Failure List Report no Skype para Business Server
+title: Relatório lista de falhas no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 'Resumo: Saiba mais sobre o Failure List Report no Skype para Business Server.'
-ms.openlocfilehash: 67c02e9b0366bcf850139717eedf5c3946183988
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de lista de falhas no Skype for Business Server.'
+ms.openlocfilehash: 72637863d7a15d26ea997de8a9c3526279afc57f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926596"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305756"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a>Failure List Report no Skype para Business Server 
+# <a name="failure-list-report-in-skype-for-business-server"></a>Relatório lista de falhas no Skype for Business Server 
  
-**Resumo:** Saiba mais sobre o Failure List Report no Skype para Business Server.
+**Resumo:** Saiba mais sobre o relatório lista de falhas no Skype for Business Server.
   
 O Relatório da lista de falhas fornece informações sobre os participantes individuais de uma sessão de conferência ou ponto a ponto com falha. Essas informações incluem o URI do usuário que teve o problema, bem como o código de resposta SIP e o ID de diagnóstico associado à falha.
   
 ## <a name="accessing-the-failure-list-report"></a>Acessando o Relatório da lista de falhas
 
-O Failure List Report é acessado clicando em qualquer uma das seguintes métricas do [Relatório de falha de distribuição no Skype para Business Server](failure-distribution-report.md):
+O relatório lista de falhas é acessado clicando em qualquer uma das seguintes métricas no [relatório de distribuição de falha no Skype for Business Server](failure-distribution-report.md):
   
 - Principais motivos diagnósticos (sessões)
     
@@ -43,7 +43,7 @@ O Failure List Report é acessado clicando em qualquer uma das seguintes métric
     
 - Principais agentes do usuários "De" (sessões)
     
-Do Failure List Report, você pode acessar o [relatório de detalhes de sessão ponto a ponto no Skype para Business Server](peer-to-peer-session-detail-report.md) clicando na métrica detalhe de sessão para uma sessão ponto a ponto. Você também pode acessar o Relatório de detalhes da conferência clicando na métrica Conferência de uma conferência.
+No relatório lista de falhas, você pode acessar o [relatório de detalhes da sessão ponto a ponto no Skype for Business Server](peer-to-peer-session-detail-report.md) clicando na métrica de detalhes da sessão de uma sessão ponto a ponto. Você também pode acessar o Relatório de detalhes da conferência clicando na métrica Conferência de uma conferência.
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>Aprimorando o uso do Relatório da lista de falhas
 
@@ -51,7 +51,7 @@ No Relatório da lista de falhas, é possível visualizar uma descrição para c
   
 Internal server error creating media for user.
   
-É importante notar que o Relatório da lista de falhas não fornece uma maneira simples de recuperar diretamente uma lista de todos os usuários que participaram de pelo menos uma sessão com falha, nem fornece uma maneira de determinar quais usuários geralmente estavam envolvidos em uma sessão com falha. (Primeiro, o Failure List Report não terá nenhuma recursos de filtragem.) No entanto, se você exporta os dados e então o converta para um arquivo de valores separados por vírgulas, você pode usar o Windows PowerShell para encontrar as respostas a perguntas como essas. Por exemplo, suponha que você salve os dados em um arquivo .CSV chamado C:\Data\Failure_List.csv. Com base nos dados salvos nesse arquivo, esse comando lista os usuários que estavam envolvidos em pelo menos uma sessão com falha: 
+É importante notar que o Relatório da lista de falhas não fornece uma maneira simples de recuperar diretamente uma lista de todos os usuários que participaram de pelo menos uma sessão com falha, nem fornece uma maneira de determinar quais usuários geralmente estavam envolvidos em uma sessão com falha. (Por um motivo, o relatório lista de falhas não tem funcionalidades de filtragem.) No entanto, se exportar os dados e convertê-los em um arquivo de valores separados por vírgula, você poderá usar o Windows PowerShell para encontrar as respostas a perguntas como essas. Por exemplo, suponha que você salve os dados em um arquivo .CSV chamado C:\Data\Failure_List.csv. Com base nos dados salvos nesse arquivo, esse comando lista os usuários que estavam envolvidos em pelo menos uma sessão com falha: 
   
 ```
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"

@@ -1,10 +1,10 @@
 ---
-title: Criar ou modificar uma regra de normalização no Skype para negócios
+title: Criar ou modificar uma regra de normalização no Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,51 +13,51 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
-description: 'Resumo: Saiba como definir, criar e modificar uma regra de normalização no Skype para Business Server.'
-ms.openlocfilehash: d5479fa6aef28720d967a9f498a409f6c8d73c3f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como definir, criar e modificar uma regra de normalização no Skype for Business Server.'
+ms.openlocfilehash: 4739bdb50e0a76c088cb6129539438c1ac6d795a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892304"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306147"
 ---
-# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Criar ou modificar uma regra de normalização no Skype para negócios
+# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Criar ou modificar uma regra de normalização no Skype for Business
 
-**Resumo:** Saiba como definir, criar e modificar uma regra de normalização no Skype para Business Server.
+**Resumo:** Saiba como definir, criar e modificar uma regra de normalização no Skype for Business Server.
 
-Definir, criar e modificar as regras de normalização no Skype para Business Server.
+Definir, criar e modificar regras de normalização no Skype for Business Server.
 
 ### <a name="to-define-a-normalization-rule-by-using-build-a-normalization-rule"></a>Para definir uma regra de normalização usando Compilar uma Regra de Normalização
 
-1. Abra o Skype para painel de controle do servidor de negócios
+1. Abrir o painel de controle do Skype for Business Server
 
-2. (Opcional) Siga as etapas em [criar ou modificar um plano de discagem no Skype para Business Server](dial-plans.md) por meio da etapa 11 ou [Modify a Dial Plan](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) até a etapa 10.
+2. Adicionais Siga as etapas em [criar ou modificar um plano de discagem no Skype for Business Server](dial-plans.md) por meio da etapa 11 ou [modificar um plano de discagem](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) por meio da etapa 10.
 
-3. Na **Nova regra de normalização** ou **Editar regra de normalização**, digite um nome que descreva o padrão numérico que está sendo normalizado em **nome** (por exemplo, 5DigitExtension).
+3. Em **nova regra** de normalização ou **Editar regra**de normalização, digite um nome que descreva o padrão de número que está normalizado em **nome** (por exemplo, 5DigitExtension).
 
 4. (Opcional) Em **Descrição**, digite uma descrição da regra de normalização (por exemplo, "Converte extensões de cinco dígitos").
 
 5. Em **Compilar uma Regra de Normalização**, digite valores nos campos a seguir:
 
-   - **Dígitos iniciais** (Opcional) Especifica os dígitos dos números discados que você deseja que o padrão corresponda. Por exemplo, type425 se quiser que o padrão corresponda discado números que começam com 425.
+   - **Dígitos iniciais** Adicionais Especifique os dígitos à esquerda dos números discados para os quais você deseja que o padrão corresponda. Por exemplo, type425 se quiser que o padrão corresponda a números discados começando com 425.
 
-   - **Comprimento** Especifique o número de dígitos no padrão correspondido e selecione se você deseja que o padrão para corresponder a esse comprimento exatamente, correspondência discado números que são pelo menos esse comprimento ou números de qualquer tamanho de discados de correspondência.
+   - **Comprimento** Especifique o número de dígitos no padrão de correspondência e selecione se deseja que o padrão corresponda exatamente a esse comprimento, corresponda aos números discados que tenham pelo menos esse comprimento ou coincidam com os números discados de qualquer comprimento.
 
-   - **Dígitos a serem removidos** (Opcional) Especifique o número de dígitos a serem removidas dos números discados aos iniciais você deseja que o padrão para corresponder.
+   - **Dígitos a serem removidos** Adicionais Especifique o número de dígitos iniciais a serem removidos dos números discados para os quais você deseja que o padrão corresponda.
 
-   - **Dígitos a adicionar** (Opcional) Especifica os dígitos a ser adicionado à números discados que você deseja que o padrão corresponda.
+   - **Dígitos a serem adicionados** Adicionais Especifique os dígitos a serem adicionados aos números discados para os quais você deseja que o padrão corresponda.
 
-     Os valores inseridos nesses campos são refletidos em **Padrão a ser correspondido** e **Regra de conversão**. Por exemplo, se você deixar type7 de **dígitos iniciando** vazio, no campo de **comprimento** e selecione **exatamente**e especifica 0 em **dígitos a serem removidos**, a expressão regular resultante no **padrão para corresponder** é:
+     Os valores inseridos nesses campos são refletidos em **Padrão a ser correspondido** e **Regra de conversão**. Por exemplo, se você deixar os **dígitos iniciais** vazios, type7 no campo **comprimento** e selecionar **exatamente**e especificar 0 em **dígitos a remover**, a expressão regular resultante no **padrão a ser CORRESP** será:
 
-     ^(\d{7})$
+     ^ (\d{7}) $
 
 6. Em **Regra de conversão**, especifique um padrão para o formato de números de telefone E.164 convertido da seguinte maneira:
 
-   - Um valor que representa o número de dígitos especificado no padrão de correspondência. Por exemplo, se o padrão de correspondência ^(\d{7})$ e$ 1 na tradução dos números discados de 7 dígitos representa da regra.
+   - Um valor que representa o número de dígitos especificado no padrão de correspondência. Por exemplo, se o padrão correspondente for ^ (\d{7}) $, então $1 na regra de tradução representará os números discados de 7 dígitos.
 
-   - (Opcional) Digite um valor no campo **dígitos a adicionar** para especificar os dígitos a serem anexados ao número convertido (por exemplo, + 1425).
+   - Adicionais Digite um valor no campo **dígitos para adicionar** para especificar os dígitos a serem anexados ao número traduzido (por exemplo, + 1425).
 
-     Por exemplo, se contiver **padrão para corresponder** ^(\d{7})$ como o padrão para números discados aos quais e contém **a regra de conversão** + 1425$ 1 como o padrão para e. 164 números de telefone, a regra normaliza 5550100 para + 14255550100.
+     Por exemplo, se **a correspondência de padrão** contiver ^{7}(\d) $ como o padrão para números discados e **regra de tradução** contém + 1425 $1 como o padrão para os números de telefone e. 164, a regra normaliza o 5550100 para + 14255550100.
 
 7. (Opcional) Se a regra de normalização resulta em um número de telefone interno à sua organização, selecione **Extensão interna**.
 
@@ -73,15 +73,15 @@ Definir, criar e modificar as regras de normalização no Skype para Business Se
 11. Na página **Plano de Discagem**, clique em **Confirmar** e clique em **Confirmar tudo**.
 
     > [!NOTE]
-    > Sempre que criar ou alterar uma regra de normalização, você deve executar o comando **Confirmar todos** para publicar a alteração na configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.
+    > Sempre que criar ou alterar uma regra de normalização, você deve executar o comando **Confirmar todos** para publicar a alteração na configuração. Para obter detalhes, consulte [publicar alterações pendentes na configuração de roteamento de voz no Skype for Business](voice-route-config-changes.md) na documentação de operações.
 
 ### <a name="to-define-a-normalization-rule-manually"></a>Para definir uma regra de normalização manualmente
 
-1. Abra o Skype para painel de controle do servidor de negócios
+1. Abrir o painel de controle do Skype for Business Server
 
-2. (Opcional) Siga as etapas em [criar ou modificar um plano de discagem no Skype para Business Server](dial-plans.md).
+2. Adicionais Siga as etapas em [criar ou modificar um plano de discagem no Skype for Business Server](dial-plans.md).
 
-3. Na **Nova regra de normalização** ou **Editar regra de normalização**, digite um nome que descreva o padrão numérico que está sendo normalizado em **nome** (por exemplo, nome rule5DigitExtension a normalização).
+3. Em **nova regra** de normalização ou **Editar regra**de normalização, digite um nome que descreva o padrão de número que está normalizado em **nome** (por exemplo, nomeie a normalização rule5DigitExtension).
 
 4. (Opcional) No campo **Descrição**, digite uma descrição da regra de normalização (por exemplo, "Traduzir extensões de 5 dígitos").
 
@@ -93,7 +93,7 @@ Definir, criar e modificar as regras de normalização no Skype para Business Se
 
    - Em **Regra de conversão**, especifique um padrão para o formato dos números de telefone E.164 convertidos.
 
-     Por exemplo, se você digitar ^(\d{7})$ em **corresponder este padrão** e + 1425$ 1 em **regra de conversão**, a regra normaliza 5550100 para + 14255550100.
+     Por exemplo, se você inserir ^ (\d{7}) $ em **coincidir este padrão** e + 1425 $1 na **regra de tradução**, a regra normalizará 5550100 para + 14255550100.
 
 7. (Opcional) Se a regra de normalização resulta em um número de telefone interno à sua organização, selecione **Extensão interna**.
 
@@ -106,6 +106,6 @@ Definir, criar e modificar as regras de normalização no Skype para Business Se
 11. Na página **Plano de Discagem**, clique em **Confirmar** e clique em **Confirmar tudo**.
 
     > [!NOTE]
-    > Sempre que criar ou alterar uma regra de normalização, você deve executar o comando **Confirmar todos** para publicar a alteração na configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.
+    > Sempre que criar ou alterar uma regra de normalização, você deve executar o comando **Confirmar todos** para publicar a alteração na configuração. Para obter detalhes, consulte [publicar alterações pendentes na configuração de roteamento de voz no Skype for Business](voice-route-config-changes.md) na documentação de operações.
 
 

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como procurar seus números de conferência de discagem de entrada no Microsoft Teams. '
-ms.openlocfilehash: 72cb7018e49ccbae777869f1305cf9e64df6fcb0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d48750959adfd9bc60752daf208779b8c3b508c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205085"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288471"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Ver uma lista de números de audioconferência no Microsoft Teams
 
@@ -45,12 +45,12 @@ Consulte [Definir os números de telefone incluídos no convite](set-the-phone-n
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para ver seus números de telefone de audioconferência
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
-1. No painel de navegação esquerdo, vá para **reuniões** > **pontes de conferência**. 
-2. Exiba os números de telefone disponíveis para conferência de áudio.
+1. No painel de navegação esquerdo, vá para **reuniões** > **conferência pontes**. 
+2. Veja os números de telefone que estão disponíveis para videoconferências.
 
-- Também é possível exibir o local e o idioma principal que será usado pelo atendedor automático de conferência de áudio.
+- Você também pode visualizar a localização e o idioma principal que serão usados pelo atendedor automático de audioconferência.
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 

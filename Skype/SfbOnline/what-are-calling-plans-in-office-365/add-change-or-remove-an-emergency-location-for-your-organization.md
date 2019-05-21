@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Saiba como adicionar, alterar ou remover um local de emergência usado pelo Skype for Business na rede pública de telefonia comutada (PSTN) para sua organização. '
-ms.openlocfilehash: 39d3d530c4bfc3729e7711333bb804055d97378f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: feaad24649c44be0561a90b568f023fd54ccc8f7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225775"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299548"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Adicionar, alterar ou remover um local de emergência para sua organização
 
@@ -38,14 +38,14 @@ Para saber como obter um plano de chamada e quanto eles custam, consulte [Licenc
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
+2. Vá para o > **portal herdado**do **centro de administração do Microsoft Teams**.
     
-3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**e selecione o endereço de emergência que você deseja adicionar um local para.
+3. No painel de navegação esquerdo, vá **** > para**locais de emergência de emergência**e selecione o endereço de emergência ao qual você deseja adicionar um local.
     
     > [!Important]
-    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
+    > Para ver a opção de **voz** no painel de navegação à esquerda no centro de administração do Skype for Business, primeiro você deve comprar pelo menos uma **licença do Enterprise E5**, uma licença complementar do **sistema de telefonia** ou uma licença do suplemento de conferência de **áudio** .
     
-4. No painel de ações, ao lado de **locais de associado**, clique em **Alterar**.
+4. No painel Ação, ao lado de **locais associados**, clique em **alterar**.
     
 5. Em **Locais associados**, clique em **Adicionar novo**, insira outro local associado (por exemplo, digite "Edifício 64 1º andar") e, em seguida, clique em **Enviar**.
     
@@ -55,11 +55,11 @@ Para saber como obter um plano de chamada e quanto eles custam, consulte [Licenc
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
+2. Vá para o > **portal herdado**do **centro de administração do Microsoft Teams**.
     
-3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**e selecione o endereço de emergência para o qual você deseja alterar um local.
+3. No painel de navegação esquerdo, vá **** > para**locais de emergência de emergência**e selecione o endereço de emergência para o qual você deseja alterar um local.
     
-4. No painel de ações, ao lado de **locais de associado**, clique em **Alterar**.
+4. No painel Ação, ao lado de **locais associados**, clique em **alterar**.
     
 5. Em **Locais associados**, clique no link para o local na lista, insira os detalhes do novo local em **Alterar detalhes do local associado** e, em seguida, clique em **Enviar**.
     
@@ -69,13 +69,13 @@ Para saber como obter um plano de chamada e quanto eles custam, consulte [Licenc
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
+2. Vá para o > **portal herdado**do **centro de administração do Microsoft Teams**.
     
-3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**e selecione o endereço de emergência que você deseja remover um local para.
+3. No painel de navegação esquerdo, vá **** > para**locais de emergência de emergência**e selecione o endereço de emergência para o qual você deseja remover um local.
     
-4. No painel de ações, ao lado de **locais de associado**, clique em **Alterar**.
+4. No painel Ação, ao lado de **locais associados**, clique em **alterar**.
     
-5. Em **locais associados**, ao lado do link para o local, clique em **Remover**.
+5. Em **locais associados**a, ao lado do link para o local, clique em **remover**.
     
 6. Clique em **Salvar**.
     

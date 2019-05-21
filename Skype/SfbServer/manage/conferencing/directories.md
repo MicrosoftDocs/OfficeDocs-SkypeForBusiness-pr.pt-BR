@@ -1,27 +1,27 @@
 ---
-title: Criar diretórios de conferência no Skype para Business Server
+title: Criar diretórios de conferências no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
-description: 'Resumo: Saiba como criar diretórios de conferência no Skype para Business Server.'
-ms.openlocfilehash: 62e632126ab7fb5ac812593f78031c0825bb36ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como criar diretórios de conferência no Skype for Business Server.'
+ms.openlocfilehash: d2962e7e01ba5bb73ce82de9b5c0ff85550fbe99
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919385"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306493"
 ---
-# <a name="create-conference-directories-in-skype-for-business-server"></a>Criar diretórios de conferência no Skype para Business Server
+# <a name="create-conference-directories-in-skype-for-business-server"></a>Criar diretórios de conferências no Skype for Business Server
  
-**Resumo:** Aprenda a criar diretórios de conferência no Skype para Business Server.
+**Resumo:** Saiba como criar diretórios de conferência no Skype for Business Server.
   
-Diretórios de conferência mantêm um mapeamento entre o ID de reunião alfanuméricos que um participante usa para ingressar em uma conferência ao usar o Skype para negócios e a ID de conferência apenas numérica que um participante de conferência discada usa para ingressar na conferência. 
+As pastas de conferência mantêm um mapeamento entre a ID de reunião alfanumérica que um participante usa para ingressar em uma conferência ao usar o Skype for Business e a ID de conferência somente numéricos que um participante de conferência discada usa para participar da conferência. 
   
 ## <a name="create-a-conference-directory"></a>Criar um diretório de conferência
 

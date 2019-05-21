@@ -5,22 +5,22 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
-description: O cmdlet Remove-CcCertificationAuthorityFile remove o arquivo de backup do serviço de autoridade de certificação na pasta CA sob o diretório de compartilhamento de sites para Skype para o conector de nuvem Business Edition.
-ms.openlocfilehash: 52f3dc8642b9f3177b215b9cd102bbd50cd22fea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: O cmdlet Remove-CcCertificationAuthorityFile remove o arquivo de backup do serviço da autoridade de certificação na pasta CA sob o diretório de compartilhamento do site para o Skype for Business Cloud Connector Edition.
+ms.openlocfilehash: 3251c3f608b52d217e7db04d7b5081ff73c0b487
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899621"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287087"
 ---
 # <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-O cmdlet Remove-CcCertificationAuthorityFile remove o arquivo de backup do serviço de autoridade de certificação "&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12" na pasta CA sob o diretório de compartilhamento de sites para Skype para o Business Connector de nuvem Edição. 
+O cmdlet Remove-CcCertificationAuthorityFile remove o arquivo de backup do serviço de&lt;autoridade&gt;de certificação "SiteRootDirectory \CA\SfB CCE root. p12" na pasta CA sob o diretório de compartilhamento do site para o Skype for Business Cloud Connector Edições. 
   
 ```
 Remove-CcCertificationAuthorityFile
@@ -35,7 +35,7 @@ Nenhum
 
 ### <a name="example-1"></a>Exemplo 1
 
-O exemplo a seguir remove o arquivo de backup do serviço de autoridade de certificação "&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12" na pasta CA sob o diretório de compartilhamento de sites:
+O exemplo a seguir remove o arquivo de backup do serviço&lt;de&gt;autoridade de certificação "SiteRootDirectory \CA\SfB CCE root. p12" na pasta CA sob o diretório de compartilhamento do site:
   
 ```
 Remove-CcCertificationAuthorityFile

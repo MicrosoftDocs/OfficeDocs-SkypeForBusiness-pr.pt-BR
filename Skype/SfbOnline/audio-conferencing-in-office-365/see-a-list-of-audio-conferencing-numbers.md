@@ -1,5 +1,5 @@
 ---
-title: Ver uma lista de números de conferência de áudio no Skype para Business Online
+title: Ver uma lista de números de audioconferência no Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,36 +12,36 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Saiba como procurar seus números de conferência discada de dentro do Skype para negócios Online. '
-ms.openlocfilehash: 557aef5e85cdd176e2d95e1cd946ed23e00764a0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Saiba como Pesquisar os números de conferência discada no Skype for Business online. '
+ms.openlocfilehash: 220d266796dc52832e3f10fe45ca6e9f2e999e14
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229220"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299045"
 ---
-# <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Ver uma lista de números de conferência de áudio no Skype para Business Online
+# <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Ver uma lista de números de audioconferência no Skype for Business Online
 
 > [!NOTE]
-> Para obter informações sobre números de conferência de áudio em Teams da Microsoft, consulte [ver uma lista de números de conferência de áudio em equipes da Microsoft](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams).
+> Para obter informações sobre números de audioconferência no Microsoft Teams, consulte [ver uma lista de números de audioconferência no Microsoft Teams](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams).
 
-Quando você configura serviços de audioconferência para Skype para usuários comerciais, você pode exibir os números de telefone disponíveis para acessá-los para serviços de audioconferência. Esta lista terá que todos os números de telefone de conferência de áudio que estão disponíveis para sua organização.
+Ao configurar a conferência de áudio para usuários do Skype for Business, você pode visualizar os números de telefone que estão disponíveis para conferências de áudio. Esta lista terá todos os números de telefone de conferência de áudio disponíveis para a sua organização.
   
- **Quer saber os preços?** Consulte [os preços dos serviços de audioconferência](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+ **Quer saber os preços?** Confira [preços para conferências de áudio](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
-> **Não há um recurso que contém uma lista de todos os números de discagem para conferência de áudio.** Se você estiver procurando para ver se existem números de telefone de discagem disponíveis na sua área ou país/região, vá para **Skype para centro de administração de negócios** > **voz** > **Números de telefone**, clique em **Adicionar**e, em seguida, clique em **novo serviço Números**. Use as listas de **País/região**, estado/região do **** e **cidade** para filtrar sua pesquisa. Além disso, se você estiver procurando por números gratuitos de serviço, selecione **chamada gratuita** do **estado/região** lista.
+> **Não há um recurso que contenha uma listagem de todos os números de discagem para videoconferências.** Se você pretende ver se há números de telefone de discagem disponíveis em sua área ou país/região, acesse o**** > **** >  **centro de administração do Skype for Business**, clique em **Adicionar**e em **novo serviço Números**. Use as listas para **país/região**, **estado/região**e **cidade** para filtrar sua pesquisa. Além disso, se você estiver procurando números de serviço de chamada gratuita, selecione **gratuito** na lista de **Estados/regiões** .
   
-Se houver somente um número de telefone disponível para sua organização, ele será usado como número padrão para todos os seus usuários. Quando vários números de telefone estiverem disponíveis, você pode selecionar o número de telefone padrão para cada usuário. Esse número padrão será incluído no Skype para convites de reunião de negócios.
+Se houver somente um número de telefone disponível para sua organização, ele será usado como número padrão para todos os seus usuários. Quando vários números de telefone estiverem disponíveis, você pode selecionar o número de telefone padrão para cada usuário. Este número padrão será incluído nos convites para reunião do Skype for Business.
   
-Você pode ver a [definir o telefone convidam números incluídos em](set-the-phone-numbers-included-on-invites.md) para alterar o número de telefone de discagem de um único usuário.
+Você pode ver [definir os números de telefone incluídos nos convites](set-the-phone-numbers-included-on-invites.md) para alterar o número de telefone de discagem de um único usuário.
   
 > [!NOTE]
 > [!OBSERVAçãO] Números de discagem locais são dedicados à sua organização e são os únicos que podem ser definidos como números de telefone padrão. No entanto, números de discagem internacionais podem ser compartilhados entre várias organizações. 
@@ -49,20 +49,20 @@ Você pode ver a [definir o telefone convidam números incluídos em](set-the-ph
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para exibir seus números de telefone de conferência de áudio
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para ver os números de telefone da conferência de áudio
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **ponte da Microsoft**e, em seguida:
+3. No **centro de administração do Skype for Business**, no painel de navegação à esquerda, vá para **conferência** > de áudio**Microsoft Bridge**e, em seguida:
     
-   - Você pode exibir os números de telefone disponíveis para conferência de áudio.
+   - Você pode ver os números de telefone que estão disponíveis para videoconferências.
     
-   - Você também pode exibir a localização e os idiomas principais e secundários que serão usados pelos serviços de audioconferência atendedor automático.
+   - Você também pode exibir o local e os idiomas primário e secundário que serão usados pelo atendedor automático da audioconferência.
     
 > [!NOTE]
-> Você pode ir para a **conferência de áudio** > **usuários** e selecione Propriedades do usuário para alterar o padrão de número, escolhendo um novo número da lista de números disponíveis em sua organização. Consulte [Definir convidam números incluídos no telefone](set-the-phone-numbers-included-on-invites.md). 
+> Você pode acessar**usuários** de **audioconferência** > e selecionar as propriedades do usuário para alterar o número padrão escolhendo um novo número na lista de números disponíveis em sua organização. Consulte [definir os números de telefone incluídos nos convites](set-the-phone-numbers-included-on-invites.md). 
 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
@@ -75,7 +75,7 @@ Você pode ver a [definir o telefone convidam números incluídos em](set-the-ph
     
   - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o Centro de administração do Office 365, como quando você estiver fazendo alterações de configuração de muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos:
+- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Office 365, como quando você está realizando alterações de configuração para muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -88,5 +88,5 @@ Você pode ver a [definir o telefone convidam números incluídos em](set-the-ph
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Experimentar ou comprar audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
   

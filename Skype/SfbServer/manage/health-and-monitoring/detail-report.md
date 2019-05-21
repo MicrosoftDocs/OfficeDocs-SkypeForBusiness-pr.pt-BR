@@ -1,25 +1,25 @@
 ---
-title: Relatório de detalhes de conferência no Skype para Business Server
+title: Relatório de detalhes da conferência no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: 'Resumo: Saiba mais sobre o relatório de detalhes de conferência usado no Skype para Business Server.'
-ms.openlocfilehash: 46181c403a115367d7c2f8c030205ae2a9437c41
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de detalhes de conferências usado no Skype for Business Server.'
+ms.openlocfilehash: 5b88ae62c7d06437b3502bd72dd965fc26fbfcb6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926554"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305784"
 ---
-# <a name="conference-detail-report-in-skype-for-business-server"></a>Relatório de detalhes de conferência no Skype para Business Server
+# <a name="conference-detail-report-in-skype-for-business-server"></a>Relatório de detalhes da conferência no Skype for Business Server
 
-**Resumo:** Saiba mais sobre o relatório de detalhes de conferência usado no Skype para Business Server.
+**Resumo:** Saiba mais sobre o relatório de detalhes de conferências usado no Skype for Business Server.
 
 O Relatório de Detalhe da Conferência fornece informações detalhadas sobre todos os usuários que participaram de uma conferência. Por exemplo, você pode ver tal informação como a data e hora que um usuário participou da conferência, a data e hora que o usuário saiu da conferência e o agente do usuário do ponto de extremidade que foi usado para conectar o usuário à conferência. Também é possível ver informações da função do usuário em cada conferência (por exemplo, Apresentador ou Participante). Talvez, o mais importante, você pode ver rapidamente quais usuários participaram com sucesso e concluíram a conferência e quais usuários não puderam participar e concluir a conferência.
 
@@ -33,7 +33,7 @@ O Relatório de Detalhe da Conferência pode ser acessado pelos seguintes relat�
 
 - O [User Activity Report](call-diagnostic-reports-per-user.md) (clicando na métrica URI da conferência)
 
-Do relatório de detalhes de conferência, você pode acessar o [Relatório de diagnóstico](diagnostic-report.md) clicando na métrica relatório de diagnóstico (detalhe).
+No relatório de detalhes da conferência, você pode acessar o [repositório de diagnóstico](diagnostic-report.md) clicando na métrica relatório de diagnóstico (detalhe).
 
 ## <a name="filters"></a>Filtros
 
@@ -68,7 +68,7 @@ A tabela a seguir lista as informações oferecidas na Seção de Participação
 |**Agente do usuário** <br/> |Identificador do software usado pelo ponto de extremidade do participante.  <br/> |
 |**Relatórios de diagnóstico** <br/> |Fornece informações de resolução de problemas e diagnóstico. Incluindo códigos de resposta SIP, cabeçalhos de diagnóstico, hora de ingresso na conferência e IDs de diagnósticos para sessões com falha.  <br/> |
 
-A tabela a seguir lista as informações fornecidas na seção modalidades de conferência do relatório de detalhes de conferência.
+A tabela a seguir lista as informações fornecidas na seção de modalidades de conferência do relatório de detalhes da conferência.
 
 **Métricas das Modalidades da Conferência**
 

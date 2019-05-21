@@ -13,20 +13,20 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Saiba os parâmetros para o comprimento e os requisitos de PIN e veja como definir o comprimento do reuniões no Microsoft Teams.
-ms.openlocfilehash: f18abb0601a624ca3b33304e45aaa1aacf0ee838
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Aprenda os parâmetros de tamanho e requisitos de um PIN e veja como definir o tamanho das reuniões no Microsoft Teams.
+ms.openlocfilehash: db26f66a291df7e1da9b523ead1fb65640163448
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204828"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305289"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Definir o tamanho do PIN para reuniões de Audioconferência no Microsoft Teams
 
@@ -39,24 +39,24 @@ A ponte de audioconferência atende uma chamada feita por uma pessoa que discou 
   
 ## <a name="setting-the-pin-length"></a>Configurar o tamanho do PIN
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
 2. No topo da página **Pontes de conferência**, clique em **Configurações da ponte**. 
 
-3. No painel de **configurações de ponte** , em **tamanho do PIN**, selecione o número de dígitos que você deseja para o PIN.
+3. No painel **configurações de ponte** , em **comprimento do pino**, selecione o número de dígitos que você deseja para o PIN.
 
 4. Clique em **Salvar**.
 
 > [!NOTE]
 > [!OBSERVAçãO] Um PIN é diferente de um ID de conferência. IDs de conferência são usados pelos chamadores quando eles participam da reunião. São usados para identificar a reunião. O PIN é usado para autenticar um chamador como organizador da reunião. 
 
-## <a name="want-to-know-more-about-pin-settings"></a>Quer saber mais sobre configurações de PIN?
+## <a name="want-to-know-more-about-pin-settings"></a>Quer saber mais sobre as configurações de PIN?
 
-- PINs podem ter entre 4 para 12 dígitos; o padrão é 5. Somente números são usados para criar PINs. Letras e caracteres especiais não são usados.
+- Os pinos podem ter de 4 a 12 dígitos; o padrão é 5. Somente números são usados para criar PINs. Letras e caracteres especiais não são usados.
     
-- Um PIN só é necessária para o organizador da reunião quando um usuário do Microsoft Teams já não tiver iniciado a reunião. Se todos entrarem na reunião com discagem, o PIN é necessário para o organizador começar a reunião.
+- Um PIN só é necessário para o organizador da reunião quando um usuário do Microsoft Teams ainda não iniciou a reunião. Se todos entrarem na reunião com discagem, o PIN é necessário para o organizador começar a reunião.
     
 - As configurações de segurança do PIN são aplicadas a todos os números de telefone associados a uma ponte da Microsoft. Elas serão aplicadas a todas as reuniões que usam os números de telefone associados a determinada ponte. 
     

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.EnterpriseVoice
@@ -13,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 ROBOTS: NOINDEX, NOFOLLOW
-description: Com o Enterprise Voice, Skype para Business Server oferece autônomo Voice over Internet Protocol (VoIP) oferecendo aprimorar ou substituir os sistemas tradicional privada de comutação telefônica (PBX).
-ms.openlocfilehash: 9a401ae1b78460211cfce083fbe9c76d56a79bae
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Com o Enterprise Voice, o Skype for Business Server oferece uma oferta de VoIP (protocolo de Internet) autônomo para aprimorar ou substituir sistemas PBX (Private Branch Exchange) tradicionais.
+ms.openlocfilehash: 5563a44cb4fd306c440e5cc4777c06974d17307e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889434"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288296"
 ---
 # <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (Planning Tool)
  
-Com o Enterprise Voice, Skype para Business Server oferece autônomo Voice over Internet Protocol (VoIP) oferecendo aprimorar ou substituir os sistemas tradicional privada de comutação telefônica (PBX). Usuários do Enterprise Voice podem chamar colegas na rede de VoIP da sua organização ou PBX e ligarem números de telefone tradicional fora da sua organização. A solução Enterprise Voice inclui recursos de chamada comuns, como resposta, encaminhar, transferir, espera, desviar, versão e estacionar e chamadas do Enhanced 9-1-1 (E9-1-1) (o E9-1-1 está disponível apenas nos Estados Unidos). Enterprise Voice também oferece suporte a uma ampla gama de dispositivos IP e USB atuais e anteriores.
+Com o Enterprise Voice, o Skype for Business Server oferece uma oferta de VoIP (protocolo de Internet) autônomo para aprimorar ou substituir sistemas PBX (Private Branch Exchange) tradicionais. Os usuários do Enterprise Voice podem chamar colegas na rede VoIP ou PBX da sua organização, e podem ligar para números de telefone tradicionais fora de sua organização. A solução Enterprise Voice inclui recursos de chamadas comuns, como atender, encaminhar, transferir, suspender, reenvio, lançamento e estacionamento, e 9-1-1 (E9-1-1) de chamadas (E9-1-1 está disponível somente nos Estados Unidos.) O Enterprise Voice também oferece suporte a uma ampla gama de dispositivos IP e USB atuais e mais antigos.
   
-Para obter mais detalhes sobre o planejamento para o Enterprise Voice, consulte [Plan for Enterprise Voice no Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md). Para obter mais detalhes sobre como implantar um servidor de mediação autônomo, consulte [implantar um servidor de mediação no construtor de topologia no Skype para Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
+Para obter mais detalhes sobre o planejamento para o Enterprise Voice, consulte [planejar o Enterprise Voice no Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md). Para obter mais detalhes sobre a implantação de um servidor de mediação autônomo, consulte [implantar um servidor de mediação no construtor de topologias no Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
 

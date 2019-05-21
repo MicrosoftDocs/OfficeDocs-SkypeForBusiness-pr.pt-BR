@@ -1,5 +1,5 @@
 ---
-title: Permitir que os usuários registrar seus nomes quando eles ingressam em uma reunião em Skype para negócios Online
+title: Permitir que os usuários registrem seus nomes quando ingressarem em uma reunião no Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,22 +12,22 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Aprenda a habilitar ou desabilitar se seus usuários podem registrar seus nomes quando eles ingressam em uma reunião em Skype para negócios Online.
-ms.openlocfilehash: 7b28a038edf9b812532283ecaa766b86e2bc8de8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Saiba como habilitar ou desabilitar se seus usuários podem gravar seus nomes quando ingressam em uma reunião no Skype for Business online.
+ms.openlocfilehash: d12d03c11340694673986733c73f46a3e7fccb1a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229297"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290096"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Permitir que os usuários registrar seus nomes quando eles ingressam em uma reunião em Skype para negócios Online
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Permitir que os usuários registrem seus nomes quando ingressarem em uma reunião no Skype for Business Online
 
 > [!Note]
 > Se você quiser permitir que os usuários registrem seus nomes no Teams, consulte [Permitir que os usuários registrem seus nomes quando ingressam em uma reunião no Microsoft Teams](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
@@ -38,13 +38,13 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
 
 ## <a name="set-whether-callers-should-record-their-name"></a>Definir se os chamadores devem gravar o nome
     
-1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
+1. No **centro de administração do Skype for Business**, no painel de navegação à esquerda, vá para **conferência** > de áudio**configurações da ponte da Microsoft**.
     
 2. Em **Experiência de participação da reunião**, veja a caixa de seleção **Habilitar a ativação de notificações de entrada e saída na reunião**.
     
    - **Selected** Callers will be asked to record their name before they enter the meeting. This is selected by default.
     
-   - **Desmarcada** Os chamadores não ser solicitados a registrar seus nomes antes que eles entrem na reunião.
+   - **Excluído** Os chamadores não serão solicitados a gravarem o nome antes de entrarem na reunião.
     
 3. Depois de fazer suas alterações, clique em **Salvar**.
     

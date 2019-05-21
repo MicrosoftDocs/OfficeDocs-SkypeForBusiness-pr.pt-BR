@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ConfCAAMain
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1b2c8676-b132-4ba0-a242-a1edf30a3d44
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: a653e6ff4edcf32ed988dc0b13032bfb278bc69e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7ab81b895ee0654ff848e644982fd83300ad7563
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913346"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285894"
 ---
 # <a name="dial-in-access-number"></a>Número de Acesso de Discagem
 

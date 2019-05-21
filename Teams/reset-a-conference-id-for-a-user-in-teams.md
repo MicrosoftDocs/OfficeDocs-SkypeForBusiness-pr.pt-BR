@@ -11,7 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Conheça as etapas para redefinir o ID de conferência de reunião de um usuário no Microsoft Teams e obtenha links para as ferramentas de atualização e migração da reunião. '
-ms.openlocfilehash: f5926d838d61d38eb5b8e9f840cd9d7a4694253f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6d55021bc61db760add2a48c50f274039eb84b44
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206582"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306580"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Redefinir o ID de conferência de um usuário no Microsoft Teams
 
@@ -36,28 +36,28 @@ Esse ID de conferência dinâmico é incluído no final dos convites de reunião
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Redefinir o ID de conferência de um usuário
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
-1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
 
 2. Clique em **Editar**.
 
-3. Em **Conferência de áudio** , clique em **Redefinir ID de conferência**.
+3. Em **videoconferências** , clique em **Redefinir ID de conferência**.
 
-2. Na janela **Redefinir ID de conferência** , clique em **Redefinir**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Por padrão, os emails são enviados aos usuários, mas isso pode ser desativado.   
+2. Na janela **Redefinir ID de conferência** , clique em **Redefinir**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Por padrão, os emails são enviados para os usuários, mas isso pode ser desativado.   
 
     
 > [!NOTE]
-> Após você redefinir o ID de conferência, um email com a nova ID de conferência será enviado ao usuário. Este email será enviado para o endereço de email primário, em muitos casos, suas caixas de correio do Office 365. O email contém a nova ID de conferência, números de telefone de discagem padrão e instruções para atualizar as reuniões existentes. 
+> Depois de redefinir o ID de conferência, um email com a nova ID de conferência será enviado ao usuário. Este e-mail será enviado ao endereço de email principal, em muitos casos, a sua caixa de correio do Office 365. O email contém a nova ID de conferência, os números de telefone de discagem padrão e as instruções para a atualização das reuniões existentes. 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="what-else-should-i-know"></a>O que mais devo saber?
 
-- Você pode enviar todas as informações de conferência para o usuário em um email que inclua a ID de conferência e os números de telefone de discagem ao clicar em **Enviar informações de conferência no email** para o usuário na seção de **Conferência de áudio** . Isso não envia o PIN.
+- Você pode enviar todas as informações da conferência para o usuário em um email que inclua a ID de conferência e os números de telefone de discagem clicando em **enviar informações de conferência em um email** para o usuário na seção **conferência de áudio** . Isso não envia o PIN.
     
-- Uma ID de conferência conterá 7 dígitos, e não é possível alterar seu comprimento.
+- Uma ID de conferência terá 7 dígitos e você não poderá alterar seu comprimento.
     
 - Depois que for redefinido, o novo ID de conferência será listado em **ID de Conferência**.
     

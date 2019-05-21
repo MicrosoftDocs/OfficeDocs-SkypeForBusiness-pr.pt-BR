@@ -1,25 +1,25 @@
 ---
-title: Media Quality Comparison Report no Skype para Business Server
+title: Relatório de comparação de qualidade de mídia no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
-description: 'Resumo: Saiba mais sobre o relatório de comparação de qualidade de mídia no Skype para Business Server.'
-ms.openlocfilehash: bee5e5bc0e619f985d68e18e38aa95377296d2cc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de comparação de qualidade de mídia no Skype for Business Server.'
+ms.openlocfilehash: d665c568bcda1be6124b30f5f2907447fa585343
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926866"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289304"
 ---
-# <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Media Quality Comparison Report no Skype para Business Server
+# <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Relatório de comparação de qualidade de mídia no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de comparação de qualidade de mídia no Skype para Business Server.
+**Resumo:** Saiba mais sobre o relatório de comparação de qualidade de mídia no Skype for Business Server.
   
 O Relatório de Comparação de Qualidade da Mídia permite comparar os valores de qualidade da chamada para diferentes tipos de chamadas de áudio (por exemplo, chamadas realizadas por uma rede sem fio contra chamadas realizadas em uma conexão com fio).
   
@@ -50,7 +50,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Comparaçã
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Volume da chamada** <br/> |Não  <br/> |Número total de chamadas.  <br/> |
-|**Degradação (MOS)** <br/> |Não  <br/> |Quantidade média de degradação do MOS (pontuação média de opinião) apresentaram durante uma chamada. Valores de degradação podem variar de uma baixa de 0,0 a uma alta de 5.0; um valor de 0,5 ou menos representa degradação aceitável. Historicamente, média de opinião pontuações foram calculadas fazendo com que os usuários avalia a qualidade de uma chamada em uma escala de 1 a 5. Skype para Business Server usa um conjunto de algoritmos para prever como usuários classificou uma chamada.  <br/> Valores altos de degradação podem ser causados por congestionamento, falta de largura de banda, congestionamento ou interferência na rede sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |
+|**Degradação (MOS)** <br/> |Não  <br/> |Valor médio da degradação da MOS (Pontuação de opinião média) durante uma chamada. Os valores de degradação podem variar de um baixo de 0,0 a um alto de 5,0; um valor de 0,5 ou menos representa uma degradação aceitável. Historicamente, a média das pontuações de opinião foi calculada pela necessidade de os usuários classificarem a qualidade de uma chamada em uma escala de 1 a 5. O Skype for Business Server usa um conjunto de algoritmos para prever como os usuários teriam classificado uma chamada.  <br/> Valores altos de degradação podem ser causados por congestionamento, falta de largura de banda, congestionamento ou interferência na rede sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |
 |**Porcentagem de chamadas ruins** <br/> |Não  <br/> |O número total de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada em que no mínimo uma das métricas excedeu o valor permitido (por exemplo, uma chamada com tremulação excessiva).  <br/> |
 |**Ida e volta (ms)** <br/> |Não  <br/> |Quantidade média (em milissegundos) exigida para que um pacote de protocolo RTP viaje até outro ponto de extremidade e retorne. Tempos de viagem de ida e volta de 200 milissegundos ou menos são considerados de qualidade aceitável.  <br/> Os valores altos de tempo de resposta podem ser causados por roteamento de chamadas internacionais, configuração incorreta de um roteamento ou um servidor de mídia sobrecarregado. Tempos de resposta altos resultam em dificuldades para conversas de áudio bidirecionais e em tempo real.  <br/> |
 |**Perda de pacote** <br/> |Não  <br/> |Taxa média de perda de pacotes de RTP (protocolo de transporte em tempo real). (A perda de pacotes ocorre quando pacotes de RTP, um protocolo usado para transmitir áudio e vídeo pela Internet, falha ao tentar alcançar seu destino). Altas taxas de perda geralmente são causadas por congestionamento, insuficiência da largura de banda, congestionamento ou interferência na rede sem fio ou um servidor de mídia sobrecarregado. A perda de pacotes normalmente resulta em distorção ou perda de áudio.  <br/> |

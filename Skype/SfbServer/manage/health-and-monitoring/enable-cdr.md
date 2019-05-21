@@ -1,25 +1,25 @@
 ---
-title: Habilitar gravação de detalhes de chamada no Skype para Business Server
+title: Habilitar a gravação de detalhes da chamada no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: 'Resumo: Saiba como habilitar detalhes das chamadas (CDR) registros de gravação no Skype para Business Server.'
-ms.openlocfilehash: 40bd7bed0775652c2365da6f0a461e95db7968ac
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como habilitar registros CDR (registro de detalhes de chamadas) no Skype for Business Server.'
+ms.openlocfilehash: 64a6e7d8d0e633fb3ef4e440932226f1f6f9c11a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884982"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305700"
 ---
-# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Habilitar gravação de detalhes de chamada no Skype para Business Server
+# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Habilitar a gravação de detalhes da chamada no Skype for Business Server
 
-**Resumo:** Aprenda a habilitar detalhes das chamadas (CDR) registros de gravação no Skype para Business Server.
+**Resumo:** Saiba como habilitar registros CDR (registro de detalhes de chamadas) no Skype for Business Server.
 
 O CDR (registro de detalhes das chamadas) registra informações de utilização e diagnóstico sobre atividades ponto a ponto, incluindo serviço de mensagens instantâneas, chamadas do protocolo VoIP, compartilhamento de aplicativos, transferência de arquivos e reuniões. Os dados de uso podem ser utilizados para calcular o ROI (retorno sobre o investimento), enquanto os dados de diagnóstico podem ser usados para solucionar problemas de atividades ponto a ponto e reuniões.
 
@@ -28,11 +28,11 @@ Use o procedimento a seguir para ativar o CDR para a organização inteira ou pa
 > [!NOTE]
 > Para habilitar o CDR, é preciso configurar o monitoramento e o banco de dados de monitoramento. Para obter detalhes, consulte [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).
 
-### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Para habilitar o CDR com Skype para painel de controle do servidor de negócios
+### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Para habilitar CDR com o painel de controle do Skype for Business Server
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
+1.  Em uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Skype for Business Server .
 
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server.
 
 3. Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e clique em **Registro de Detalhes das Chamadas**.
 
@@ -41,9 +41,9 @@ Use o procedimento a seguir para ativar o CDR para a organização inteira ou pa
     > [!NOTE]
     > O CDR é ativado por padrão.
 
-## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Habilitando o CDR usando cmdlets do Windows PowerShell
+## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Como habilitar o CDR usando cmdlets do Windows PowerShell
 
-É possível habilitar o CDR usando o Windows PowerShell e o cmdlet **Set-CsCdrConfiguration** . Você pode executar este cmdlet do Skype do Shell de gerenciamento do servidor de negócios ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype para Business Server, consulte o artigo do blog ["rápida iniciar: Gerenciando Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo em Skype para Business Server.
+Você pode habilitar o CDR usando o Windows PowerShell e o cmdlet **set-CsCdrConfiguration** . Você pode executar esse cmdlet a partir do Shell de gerenciamento do Skype for Business Server ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo ["início rápido: Gerenciando o Microsoft Lync Server 2010 usando o PowerShell remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>Para habilitar o CDR para um único local
 
@@ -69,10 +69,10 @@ Use o procedimento a seguir para ativar o CDR para a organização inteira ou pa
   Get-CsCdrConfiguration | Set-CsCdrConfiguration "site:Redmond" -EnableCDR $True
   ```
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
+Para obter mais informações, consulte o tópico da ajuda para o cmdlet [set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
 
 ## <a name="see-also"></a>Confira também
 
-[Planejamento do monitoramento](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+[Planejando o monitoramento](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
 [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

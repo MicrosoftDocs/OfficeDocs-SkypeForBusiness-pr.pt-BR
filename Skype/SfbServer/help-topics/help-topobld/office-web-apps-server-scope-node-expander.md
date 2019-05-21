@@ -5,30 +5,30 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.OfficeWebAppsServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
-description: 'Você direito do mouse em Office Web Apps Servers no construtor de topologias para executar o seguinte:'
-ms.openlocfilehash: d749d6c0c34c2151f294fa7c55f4e57cde09f3b6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Você clica com o botão direito do mouse em servidores do Office Web Apps no construtor de topologias para executar o seguinte:'
+ms.openlocfilehash: e861cc8ab134c7d11dd55730a3ea58d63d4ef38b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910908"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289963"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expansor de Nó de Escopo do Servidor do Office Web Apps
  
-Você direito do mouse em **Office Web Apps Servers** no construtor de topologias para executar o seguinte:
+Você clica com o botão direito do mouse em **servidores do Office Web Apps** no construtor de topologias para executar o seguinte:
   
-- **Novo Office Web Apps Server**: inicia o assistente **Definir novo Office Web Apps Server** usado para definir um novo Office Web Apps Server.
+- **Novo servidor do Office Web Apps**: inicia o assistente para **definir novos servidores do Office Web Apps** usado para definir um novo servidor do Office Web Apps.
     
-Além da opção novo Office Web Apps Server, você pode executar as seguintes tarefas gerais:
+Além da nova opção do Office Web Apps Server, você pode executar as seguintes tarefas gerais:
   
-![Nó de escopo de servidor de WebApps do Office](../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Nó de escopo do servidor de webapps do Office](../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
 - **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia ou publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
     

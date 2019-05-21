@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Como um administrador do Office 365, você pode editar as configurações de audioconferência do Skype for Business Online — como o provedor, número padrão de chamada tarifada ou de chamada gratuita, ID de conferência ou PIN — para um usuário individual em sua organização. '
-ms.openlocfilehash: 06fd99987df725e235f308af20542fa45b0286fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ee60b8fc97313e38fd680b8deb42bc991e03b0f0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229621"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290079"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Gerenciar as configurações de audioconferência para um usuário no Skype for Business Online
 
@@ -39,7 +39,7 @@ As an Office 365 admin, you can edit the Audio Conferencing settings—such as t
     
 2. Escolha **Centros de administração** > **Skype for Business**.
     
-3. No Skype para centro de administração de negócios, escolha **usuários**.
+3. No centro de administração do Skype for Business, escolha **usuários**.
     
 4. Selecione o usuário para o qual você deseja gerenciar as configurações e, em seguida, no painel de ações, clique em **Editar**![Exibe o ícone Editar](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png).
     
@@ -47,11 +47,11 @@ As an Office 365 admin, you can edit the Audio Conferencing settings—such as t
     
 |**Configuração**|**Descrição**|
 |:-----|:-----|
-|**Nome do provedor** <br/> |Escolha seu provedor da lista.  <br/><br/> **Observação:** O restante das configurações nesta tabela se aplicam somente se você selecionar Microsoft como um provedor de audioconferência.           |
+|**Nome do provedor** <br/> |Escolha seu provedor na lista.  <br/><br/> **Observação:** O restante das configurações nesta tabela se aplicam somente se você selecionar Microsoft como um provedor de audioconferência.           |
 |**Número de Chamada Tarifada padrão** (necessário) <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
 |**Número de chamada gratuita padrão** <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
 |**Permita o uso de números de chamada gratuita na ponte do Microsoft de sua organização para ingressar em reuniões deste usuário** <br/> |Selecione essa opção se desejar permitir que o usuário de números de chamada gratuita participe de reuniões.  <br/> |
-|**Enviar informações de conferência via email** <br/> |Click this link only if you want to immediately send an email to the user with his or her conference ID and phone number. (This email does not include the PIN.) See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
+|**Enviar informações de conferência por email** <br/> |Click this link only if you want to immediately send an email to the user with his or her conference ID and phone number. (This email does not include the PIN.) See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
 |**ID de conferência** <br/> |Select **Reset** if you need to reset the conference ID for the user. For more information, see [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).  <br/> |
 |**PIN** <br/> |Select **Reset** if you need to reset the PIN for the user. For more information, see [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).  <br/> |
 |**Permitir que os chamadores não autenticados sejam as primeira pessoas em uma reunião** <br/> |Selecione essa opção para permitir que os chamadores não autenticados sejam os primeiros a ingressarem em reuniões.  <br/> |

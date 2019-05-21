@@ -1,10 +1,10 @@
 ---
-title: Gerenciando configurações de grupo de resposta de nível de aplicativo no Skype para negócios
+title: Gerenciando configurações de grupo de resposta no nível do aplicativo no Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: Gerenciando configurações de grupo de resposta de nível de aplicativo, como configurações de música de espera e chamada de retorno, no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 41daedd21c5d7ea6f210594c66e3f20906ad90a5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Gerenciar configurações de grupo de resposta no nível do aplicativo, como configurações de áudio em espera e de toque, no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 500ed8942fb859ce41340c94d0568e9e87b1c3d6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892332"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288523"
 ---
-# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Gerenciando configurações de grupo de resposta de nível de aplicativo no Skype para negócios
+# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Gerenciando configurações de grupo de resposta no nível do aplicativo no Skype for Business
  
-Gerenciando configurações de grupo de resposta de nível de aplicativo, como configurações de música de espera e chamada de retorno, no Skype para Business Server Enterprise Voice.
+Gerenciar configurações de grupo de resposta no nível do aplicativo, como configurações de áudio em espera e de toque, no Skype for Business Server Enterprise Voice.
   
-Configurações de nível de aplicativo para o aplicativo grupo de resposta incluem a configuração de música de espera padrão, o arquivo de áudio de música de espera padrão, o período de cortesia de chamada de retorno do agente e a configuração do contexto da chamada. Você pode definir apenas um conjunto de configurações do aplicativo por pool. Para exibir as configurações do aplicativo, use o cmdlet **Get-CsRgsConfiguration**. Para modificar as configurações do aplicativo, use o cmdlet **Set-CsRgsConfiguration**.
+As configurações no nível do aplicativo para o aplicativo de grupo de resposta incluem a configuração de música em espera padrão, o arquivo de áudio de música em espera padrão, o período de cortesia do agente e a configuração do contexto de chamada. Você pode definir apenas um conjunto de configurações do aplicativo por pool. Para exibir as configurações do aplicativo, use o cmdlet **Get-CsRgsConfiguration**. Para modificar as configurações do aplicativo, use o cmdlet **Set-CsRgsConfiguration**.
   
 A música de espera padrão é tocada quando uma chamada é coloca em espera, apenas se nenhuma música de espera personalizada for definida. O contexto de chamada está disponível somente para filas atribuídas aos fluxos de trabalho interativos. Se o contexto de chamada for ativado, um agente poderá ver informações como o tempo de espera do chamador ou perguntas e respostas do fluxo de trabalho quando a chamada for recebida.
   
-### <a name="to-modify-response-group-application-level-settings"></a>Para modificar as configurações de nível de aplicativo do grupo de resposta
+### <a name="to-modify-response-group-application-level-settings"></a>Para modificar as configurações em nível de aplicativo de grupo de resposta
 
 1. Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
     

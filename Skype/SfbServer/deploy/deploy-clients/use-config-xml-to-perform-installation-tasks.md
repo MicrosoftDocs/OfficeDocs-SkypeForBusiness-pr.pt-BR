@@ -1,23 +1,23 @@
 ---
-title: Usar o config. XML para executar tarefas de instalação no Skype para clientes corporativos
+title: Use config. xml para executar tarefas de instalação em clientes Skype for Business
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 'Resumo: como usar o arquivo Config.xml para especificar instruções de instalação adicionais.'
-ms.openlocfilehash: 285792dbc753d8c16e6d31f83782d53f85c895f4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc7491899562e665af7d6f63470cf2fc2b904730
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895051"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290272"
 ---
-# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Usar o config. XML para executar tarefas de instalação no Skype para clientes corporativos
+# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Use config. xml para executar tarefas de instalação em clientes Skype for Business
 
 **Resumo:** como usar o arquivo Config.xml para especificar instruções de instalação adicionais.
 
@@ -35,13 +35,13 @@ Embora a Ferramenta de Personalização do Office (OCT) seja a ferramenta princi
 
 - Adicionar ou remover idiomas da instalação.
 
-Recomendamos que você use o arquivo config. XML para configurar o Skype para instalação silenciosa de negócios. 
+Recomendamos que você use o arquivo config. xml para configurar a instalação silenciosa do Skype for Business. 
 
-Por padrão, o arquivo config. XML que é armazenado na pasta principal do produto (por exemplo, \ _produto_. WW) direciona a instalação para instalar o produto. Por exemplo, o arquivo config. XML na pasta a seguir instala Skype para negócios:
+Por padrão, o arquivo config. xml armazenado na pasta principal do produto (por exemplo, \ _produto_. WW) instrui a instalação a instalar esse produto. Por exemplo, o arquivo config. xml na seguinte pasta instala o Skype for Business:
 
 - \\server\share\Skype15\Skype.WW \Config.xml
 
-Os elementos do config. XML mais comuns utilizados para Skype para instalação de negócios são listados na tabela a seguir.
+Os elementos config. xml mais comumente usados para a instalação do Skype for Business estão listados na tabela a seguir.
 
 **Elementos de Config.xml**
 
@@ -49,13 +49,13 @@ Os elementos do config. XML mais comuns utilizados para Skype para instalação 
 | **Elemento**              | **Descrição**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configuração  <br/>     | Elemento de nível superior (obrigatório). Contém o atributo Product, por exemplo: Product=Lync (funcionará para clientes do Skype for Business)  <br/>                                                                                                                                                          |
-| OptionState  <br/>       | Especifica como os recursos específicos de produto são manipulados durante a instalação. Use os seguintes atributos para evitar a instalação dos serviços corporativos de conectividade, que inclui os componentes compartilhados que interferem no Outlook: <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
-| Exibir  <br/>           | O nível deUI que a Instalação exibe para o usuário. Entre os atributos comuns estão os seguintes: <br/>  CompletionNotice = "Yes"                                                                                                                                                                                |
-| Registro em log  <br/>           | Opções para o tipo de registro em log executado pela Instalação. Entre os atributos comuns estão os seguintes: <br/>  Tipo = "Off"                                                                                                                                                                                       |
-| Configuração  <br/>           | Especifica valores para as propriedades do Windows Installer. Entre os atributos comuns estão os seguintes:<br/>  Setting Id = " *nome*" (o nome da propriedade do Windows Installer)  <br/>  Valor = " *valor*" (o valor a ser atribuído à propriedade)  <br/>                                                             |
-| DistributionPoint  <br/> | O caminho totalmente qualificado do ponto de instalação de rede do qual a instalação deve ser executada. Inclui o atributo Location:<br/>  Local = " *caminho*"  <br/>                                                                                                                                     |
+| OptionState  <br/>       | Especifica como os recursos específicos de produto são manipulados durante a instalação. Use os atributos a seguir para impedir a instalação de serviços corporativos de conectividade, que incluem componentes compartilhados que interferem no Outlook: <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
+| Exibir  <br/>           | O nível deUI que a Instalação exibe para o usuário. Entre os atributos comuns estão os seguintes: <br/>  CompletionNotice = "Sim"                                                                                                                                                                                |
+| Registro em log  <br/>           | Opções para o tipo de registro em log executado pela Instalação. Entre os atributos comuns estão os seguintes: <br/>  Digite = "desativado"                                                                                                                                                                                       |
+| Configuração  <br/>           | Especifica valores para as propriedades do Windows Installer. Entre os atributos comuns estão os seguintes:<br/>  Setting ID = " *Name*" (o nome da Propriedade do Windows Installer)  <br/>  Valor = " *valor*" (o valor a ser atribuído à propriedade)  <br/>                                                             |
+| DistributionPoint  <br/> | O caminho totalmente qualificado do ponto de instalação de rede do qual a instalação deve ser executada. Inclui o atributo Location:<br/>  Location = " *caminho*"  <br/>                                                                                                                                     |
 
-O exemplo a seguir mostra um arquivo config. XML para uma instalação silenciosa típica do Skype para o cliente de negócios. 
+O exemplo a seguir mostra um arquivo config. xml para uma instalação silenciosa típica do cliente Skype for Business. 
 
 ```
 <Configuration Product="Lync"> 
@@ -67,7 +67,7 @@ O exemplo a seguir mostra um arquivo config. XML para uma instalação silencios
 </Configuration>
 ```
 
-Informações detalhadas sobre como usar o arquivo config. XML para executar tarefas de instalação e manutenção do Office estão disponíveis em [https://go.microsoft.com/fwlink/p/?linkid=267514](https://go.microsoft.com/fwlink/p/?linkid=267514).
+Informações detalhadas sobre como usar o arquivo config. xml para executar tarefas de instalação e manutenção do Office [https://go.microsoft.com/fwlink/p/?linkid=267514](https://go.microsoft.com/fwlink/p/?linkid=267514)estão disponíveis em.
 
 ## <a name="to-customize-the-configxml-file"></a>Para personalizar o arquivo Config.xml
 
@@ -75,7 +75,7 @@ Informações detalhadas sobre como usar o arquivo config. XML para executar tar
 
 2. Localize as linhas que contêm os elementos que você deseja alterar.
 
-3. Modifique a entrada do elemento com as opções silenciosas que você deseja usar. Certifique-se de que você remova os delimitadores de comentário, "\<! –" e "–\>". Por exemplo, use a seguinte sintaxe:
+3. Modifique a entrada do elemento com as opções silenciosas que você deseja usar. Certifique-se de remover os delimitadores de comentário "\<!--" e "--\>". Por exemplo, use a seguinte sintaxe:
 
    <pre>
    < DistributionPoint Location="\\server\share\Skype15" />

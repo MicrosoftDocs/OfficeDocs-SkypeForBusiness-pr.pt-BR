@@ -1,25 +1,25 @@
 ---
-title: Relatório de distribuição de falha no Skype para Business Server
+title: Relatório de distribuição de falha no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: 'Resumo: Saiba mais sobre o relatório de distribuição de falha no Skype para Business Server.'
-ms.openlocfilehash: 1517509de09cd99f03271dccf9a4c78ba1d2d5ef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de distribuição de falha no Skype for Business Server.'
+ms.openlocfilehash: d9e7d2ac0ff10743c69bee665be3878ac9009933
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912075"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305693"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>Relatório de distribuição de falha no Skype para Business Server
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>Relatório de distribuição de falha no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de distribuição de falha no Skype para Business Server.
+**Resumo:** Saiba mais sobre o relatório de distribuição de falha no Skype for Business Server.
   
 O Relatório de Distribuição de Falhas classifica sessões com falha nas seguintes categorias:
   
@@ -45,13 +45,13 @@ O Relatório de Distribuição de Falhas classifica sessões com falha nas segui
 
 É possível acessar o Relatório de Distribuição de Falhas a partir de qualquer um dos seguintes relatórios clicando nas medidas **Volume de falhas esperado** ou **Volume de falhas não esperado**:
   
-- [Relatório de falhas principais no Skype para Business Server](top-failures-report.md)
+- [Relatório de falhas principais no Skype for Business Server](top-failures-report.md)
     
-- [Relatório de diagnóstico conferência no Skype para Business Server](conference-diagnostic-report.md)
+- [Relatório de diagnóstico de conferência no Skype for Business Server](conference-diagnostic-report.md)
     
-- [Relatório de diagnóstico atividade ponto a ponto no Skype para Business Server](peer-to-peer-activity-diagnostic-report.md)
+- [Relatório de diagnóstico de atividade ponto a ponto no Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)
     
-Relatório de falha de distribuição, você pode clicar em qualquer uma das seguintes medidas para exibir o [Relatório de lista de falhas no Skype para Business Server](failure-list-report.md):
+No relatório de distribuição de falha, você pode clicar em qualquer uma das seguintes métricas para exibir o [relatório de lista de falhas no Skype for Business Server](failure-list-report.md):
   
 - Principais motivos diagnósticos (sessões)
     
@@ -128,8 +128,8 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Classificação** <br/> |Não  <br/> |Classificação relativa das sessões com falha, com base no pool do registrador ou servidor de borda onde a sessão foi realizada.  <br/> |
-|**Principais pools** <br/> |Não  <br/> |Nome do pool de registrador ou servidor de borda.  <br/> |
+|**Classificação** <br/> |Não  <br/> |Classificação relativa de sessões com falha com base no pool de registradores ou no servidor de borda em que a sessão foi conduzida.  <br/> |
+|**Principais pools** <br/> |Não  <br/> |Nome do pool de registradores ou servidor de borda.  <br/> |
 |**Sessões** <br/> |Não  <br/> |Número total de sessões com falha por pool de registradores ou servidor de borda.  <br/> |
    
 ## <a name="metrics-for-top-sources"></a>Métricas para as principais fontes
@@ -152,7 +152,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Classificação** <br/> |Não  <br/> |Classificação relativa das sessões com falha, com base no componente (por exemplo, ExumRouting, GroupChat ou MediationServer).  <br/> |
+|**Classificação** <br/> |Não  <br/> |Classificação relativa de sessões com falha com base no componente (por exemplo, ExumRouting, GroupChat ou MediationServer).  <br/> |
 |**Principais componentes** <br/> |Não  <br/> |Nome do componente envolvido na sessão com falha.  <br/> |
 |**Sessões** <br/> |Não  <br/> |Número total de sessões com falha por componente.  <br/> |
    

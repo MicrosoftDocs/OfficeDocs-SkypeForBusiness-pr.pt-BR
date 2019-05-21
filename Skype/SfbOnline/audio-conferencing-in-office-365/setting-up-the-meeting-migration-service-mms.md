@@ -1,5 +1,5 @@
 ---
-title: Usando o serviço de migração de reunião (MMS)
+title: Usar o serviço de migração de reunião (MMS)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,118 +20,118 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Serviço de migração (MMS) de reunião é um serviço executado em segundo plano e que é atualizado automaticamente Skype para reuniões de negócios e Teams da Microsoft para usuários. MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
-ms.openlocfilehash: da1b21b65794354a023632e785c463b494cc38f5
-ms.sourcegitcommit: ee05fe02fe68b5bd6ee38dd4a3ad69da3d37c492
+description: O serviço de migração de reunião (MMS) é um serviço executado em segundo plano e atualiza automaticamente as reuniões do Skype for Business e do Microsoft Teams para usuários. MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
+ms.openlocfilehash: cd7796b600486b672318ecbd67b50ee6d68f43e4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34106170"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306286"
 ---
-# <a name="using-the-meeting-migration-service-mms"></a>Usando o serviço de migração de reunião (MMS)
+# <a name="using-the-meeting-migration-service-mms"></a>Usar o serviço de migração de reunião (MMS)
 
-O serviço de migração de reunião (MMS) é um serviço que atualiza reuniões existentes de um usuário nos seguintes cenários:
+O serviço de migração de reunião (MMS) é o serviço que atualiza as reuniões existentes de um usuário nos seguintes cenários:
 
-- Quando um usuário é migrado do local para a nuvem (se Skype para Business Online ou TeamsOnly).
-- Quando um administrador faz uma alteração para configurações de serviços de audioconferência do usuário 
-- Quando um usuário online é atualizado ou quando o modo de um usuário no TeamsUpgradePolicy estiver definido como SfBwithTeamsCollabAndMeetings às equipes somente
-- Quando você usar o PowerShell 
-
-
-Por padrão, MMS é acionado automaticamente em cada um desses casos, embora os administradores podem desabilitá-lo no nível do locatário. Além disso, os administradores podem usar um cmdlet do PowerShell para disparar manualmente a migração de reunião para um determinado usuário.
+- Quando um usuário é migrado do local para a nuvem (seja para Skype for Business online ou TeamsOnly).
+- Quando um administrador faz uma alteração nas configurações de audioconferência de áudio do usuário 
+- Quando um usuário online é atualizado somente para equipes ou quando o modo de um usuário no TeamsUpgradePolicy é definido como SfBwithTeamsCollabAndMeetings
+- Quando você usa o PowerShell 
 
 
-**Limitações**: A reunião não pode ser usado o serviço de migração se qualquer uma das seguintes se aplicar:
+Por padrão, o MMS é disparado automaticamente em cada um desses casos, embora os administradores possam desabilitá-lo no nível do locatário. Além disso, os administradores podem usar um cmdlet do PowerShell para disparar manualmente a migração de reunião para um determinado usuário.
 
-- Caixa de correio do usuário está hospedada no Exchange local.
-- O usuário está sendo migrado da nuvem para Skype para Business Server local.
 
-Nesses casos, os usuários finais pode usar a [Ferramenta de migração de reunião](https://www.microsoft.com/en-us/download/details.aspx?id=51659) para migrar seus próprios reuniões em vez disso.
+**Limitações**: o serviço de migração de reunião não poderá ser usado se qualquer uma das seguintes opções se aplicar:
 
-## <a name="how-mms-works"></a>Funcionamento do MMS
+- A caixa de correio do usuário é hospedada no Exchange local.
+- O usuário está sendo migrado da nuvem para o Skype for Business Server no local.
 
-Quando o MMS é disparado para um determinado usuário, uma solicitação de migração para o usuário é colocada em uma fila. Para evitar qualquer condição de corrida, a solicitação na fila deliberadamente não é processada até que passou pelo menos de 90 minutos. Depois que o MMS processa a solicitação, ele executa as seguintes tarefas:
+Nessas situações, os usuários finais podem usar a [ferramenta de migração de reunião](https://www.microsoft.com/en-us/download/details.aspx?id=51659) para migrar suas próprias reuniões em vez disso.
 
-1. Ele pesquisa de caixa de correio desse usuário para todas as suas reuniões organizadas pelo usuário e agendada no futuro.
-2. Com base nas informações encontradas na caixa de correio do usuário, ele ou atualiza ou agenda novas reuniões em equipes ou Skype para Business Online para esse usuário, dependendo do cenário exato.
+## <a name="how-mms-works"></a>Como o MMS funciona
+
+Quando o MMS é acionado para um determinado usuário, uma solicitação de migração desse usuário é colocada em uma fila. Para evitar qualquer condição de corrida, a solicitação enfileirada não é processada, até que pelo menos 90 minutos tenha sido eliminado. Depois que o MMS processar a solicitação, ele executará as seguintes tarefas:
+
+1. Ele pesquisa a caixa de correio do usuário em busca de todas as reuniões existentes organizadas por esse usuário e agendadas no futuro.
+2. Com base nas informações encontradas na caixa de correio do usuário, ela atualiza ou agenda novas reuniões em qualquer um dos Teams ou no Skype for Business online para esse usuário, dependendo do cenário exato.
 3. Na mensagem de email, ele substitui o bloco de reunião online nos detalhes da reunião.
-4. Ele envia a versão atualizada dessa reunião para todos os destinatários de reunião em nome do organizador da reunião. Os convidados da reunião, você receberá uma atualização de reunião com as coordenadas de reunião atualizadas em seus emails. 
+4. Ele envia a versão atualizada dessa reunião para todos os destinatários da reunião em nome do organizador da reunião. Os convidados da reunião receberão uma atualização de reunião com as coordenadas de reunião atualizadas em seus emails. 
 
     ![O bloco de reuniões que são atualizadas pelo MMS](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
 
-Desde o momento em que é disparado MMS, que geralmente leva cerca de 2 horas até que as reuniões do usuário são migrados. No entanto, se o usuário tiver um grande número de reuniões, pode levar mais tempo. Se MMS encontra um erro migrando de uma ou mais reuniões para o usuário, ele tentará periodicamente até 9 vezes sobre o período de 24 horas.
+Do tempo em que o MMS é disparado, geralmente leva cerca de 2 horas até que as reuniões do usuário sejam migradas. No entanto, se o usuário tiver um grande número de reuniões, pode demorar mais. Se o MMS encontrar um erro ao migrar uma ou mais reuniões para o usuário, ele tentará periodicamente até 9 vezes ao longo do intervalo de 24 horas.
 
 **Observações**:
 
 - O MMS substitui todo o bloco de informações da reunião online durante a migração da reunião. Portanto, se o usuário editou esse bloco, essas alterações serão substituídas. O conteúdo dos detalhes da reunião que estiver fora do bloco de informações da reunião online não será afetado.
-- Somente o Skype para reuniões de negócios ou Teams da Microsoft que foram agendadas clicando no botão **Adicionar Skype reunião** no Outlook na Web, ou usando o suplemento de reunião Skype para Outlook são migradas. Se um usuário copia e cola as informações de reunião online do Skype de uma reunião para uma nova reunião, essa nova reunião não será atualizado como não há nenhuma reunião no serviço original.
-- Conteúdo que foi criado ou anexado à solicitação de reunião (quadros de comunicações, votações e assim por diante) da reunião não será mantida após a execução do MMS. Se os organizadores da reunião tiverem anexado algum conteúdo às reuniões antecipadamente, será necessário recriar esse conteúdo após a execução do MMS.
-- O link para as notas da reunião compartilhada no item do calendário e na reunião do Skype também serão sobrescritos. Observe que as notas de reunião real armazenadas no OneNote ainda ser lá; é somente o link para as anotações compartilhadas que será substituído.
+- Somente as reuniões do Skype for Business ou do Microsoft Teams agendadas clicando no botão **Adicionar reunião do Skype** no Outlook na Web ou usando o suplemento de reunião do Skype para Outlook são migrados. Se um usuário copiar e colar as informações da reunião online do Skype de uma reunião para uma nova reunião, essa nova reunião não será atualizada, pois não há reunião no serviço original.
+- O conteúdo da reunião criado ou associado à reunião (quadros de comunicações, Polls e assim por diante) não será mantido após a execução do MMS. Se os organizadores da reunião tiverem anexado algum conteúdo às reuniões antecipadamente, será necessário recriar esse conteúdo após a execução do MMS.
+- O link para as notas da reunião compartilhada no item do calendário e na reunião do Skype também serão sobrescritos. Observe que as anotações da reunião real armazenadas no OneNote ainda estarão lá; Só é o link para as anotações compartilhadas que são sobrescritas.
 - Reuniões com mais de 250 participantes (incluindo o organizador) não serão migradas.
-- Alguns caracteres UNICODE no corpo do convite podem ser atualizados incorretamente como um dos seguintes caracteres especiais: ï, ¿, ½,.
+- Alguns caracteres UNICODE no corpo do convite podem ser atualizados incorretamente para um dos seguintes caracteres especiais: ï, 1/2,.
 
-## <a name="triggering-mms-for-a-user"></a>Disparando MMS para um usuário
+## <a name="triggering-mms-for-a-user"></a>Disparando o MMS para um usuário
 
-Esta seção descreve o que acontece quando MMS é disparado em cada um dos seguintes casos:
+Esta seção descreve o que acontece quando o MMS é acionado em cada um dos seguintes casos:
 
 - Quando um usuário é migrado do local para a nuvem
-- Quando um administrador faz uma alteração para configurações de serviços de audioconferência do usuário 
-- Quando o modo do usuário no TeamsUpgradePolicy estiver definido como TeamsOnly ou SfBWithTeamsCollabAndMeetings (usando o Powershell ou do Portal de administração de equipes)
+- Quando um administrador faz uma alteração nas configurações de audioconferência de áudio do usuário 
+- Quando o modo do usuário no TeamsUpgradePolicy é definido como TeamsOnly ou SfBWithTeamsCollabAndMeetings (usando o PowerShell ou o portal de administração do Teams)
 - Quando você usa o cmdlet do PowerShell, Start-CsExMeetingMigration
 
-### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a>Atualizando reuniões quando você mover um usuário local para a nuvem
+### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a>Atualizando reuniões ao mover um usuário local para a nuvem
 
-Esse é o cenário mais comum onde o MMS ajuda a criar uma transição mais suave para seus usuários. Sem migração de reunião, existentes reuniões organizadas por um usuário no Skype para Business Server local não é mais funcionaria depois que o usuário é movido online. Portanto, quando você usar as ferramentas de administração de local (tanto `Move-CsUser` ou do painel de controle do Admin) para mover um usuário para a nuvem, reuniões existentes são movidas automaticamente para a nuvem da seguinte maneira:
+Esse é o cenário mais comum em que o MMS ajuda a criar uma transição mais suave para seus usuários. Sem a migração de reuniões, as reuniões existentes organizadas por um usuário no Skype for Business Server local não funcionariam mais quando o usuário foi movido online. Portanto, quando você usa as ferramentas de administração local ( `Move-CsUser` ou o painel de controle de administração) para mover um usuário para a nuvem, as reuniões existentes são automaticamente movidas para a nuvem da seguinte maneira:
 
-- Se o `MoveToTeams` alternar no `Move-CsUser` for especificado, reuniões são migrados diretamente para as equipes e o usuário estará no modo de TeamsOnly. Uso desta opção requer Skype para Business Server 2015 com CU8 ou posterior. Esses usuários ainda poderão ingressar qualquer Skype para reunião de negócios, que eles podem ser convidados, usando o Skype para o cliente de negócios ou o aplicativo de reunião do Skype.
-- Caso contrário, reuniões são migradas para Skype para negócios Online.
+- Se a `MoveToTeams` opção entrada `Move-CsUser` for especificada, as reuniões serão migradas diretamente para o Microsoft Teams e o usuário estará no modo TeamsOnly. O uso dessa opção requer o Skype for Business Server 2015 com CU8 ou posterior. Esses usuários ainda podem participar de uma reunião do Skype for Business no qual possam ser convidados, usando o cliente Skype for Business ou o aplicativo de reunião do Skype.
+- Caso contrário, as reuniões são migradas para o Skype for Business online.
 
-Em ambos os casos, se o usuário tenha sido atribuído uma licença de conferência de áudio antes que está sendo movido para a nuvem, as reuniões serão criadas com as coordenadas de discagem. Se você mover um usuário no local para a nuvem e você pretende que esse usuário utilize a conferência de áudio, é recomendável que você atribua primeiro na audioconferência antes de mover o usuário para que a migração de reunião somente 1 é disparada.
+Em ambos os casos, se o usuário tiver recebido uma licença de audioconferência antes de ser movida para a nuvem, as reuniões serão criadas com as coordenadas de discagem. Se você mover um usuário do local para a nuvem e quiser que ele use a videoconferência, recomendamos que primeiro atribua a conferência de áudio antes de mover o usuário para que somente uma migração de reunião seja disparada.
 
 
-### <a name="updating-meetings-when-a-users-audio-conferencing-settings-change"></a>Atualizando reuniões quando alteram as configurações de serviços de audioconferência do usuário
+### <a name="updating-meetings-when-a-users-audio-conferencing-settings-change"></a>Atualizando reuniões quando as configurações de audioconferência de áudio de um usuário mudam
 
-Nos seguintes casos, MMS atualizará Skype existente para reuniões de negócios e Teams da Microsoft para adicionar, remover ou modificar as coordenadas de discagem:
+Nos casos a seguir, o MMS atualizará as reuniões existentes do Skype for Business e do Microsoft Teams para adicionar, remover ou modificar as coordenadas de discagem:
 
-- Quando você atribuir ou remove uma licença de serviço de conferência de áudio da Microsoft para um usuário e que o usuário não está habilitado para um provedor de serviços de audioconferência de terceiros.
-- Quando você alterar o provedor de serviços de audioconferência de um usuário de qualquer outro provedor para fornecido pela Microsoft, o usuário é atribuído a uma licença de conferência de áudio da Microsoft. Para obter mais informações, consulte [Microsoft atribuir como um provedor de serviços de audioconferência](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider). Observe também que suporte para provedores de serviços de audioconferência de terceiros [ACP] está programado para o fim da vida útil em 1 de abril de 2019, como [anunciado anteriormente](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers).
-- Quando você habilitar ou desabilitar os serviços de audioconferência para um usuário.
-- Quando você alterar ou reiniciar o ID de conferência para um usuário configurado para usar as reuniões públicas.
-- Quando você move o usuário para uma nova ponte de conferência de áudio.
-- Quando um número de telefone de uma ponte de conferência de áudio é não atribuído. Esse é um cenário complexo que requer etapas adicionais. Para obter mais informações, consulte [alterar os números de telefone na sua ponte de conferência de áudio](https://docs.microsoft.com/en-us/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
+- Ao atribuir ou remover uma licença do serviço Microsoft Audio Conferencing para um usuário e esse usuário não está habilitado para um provedor de serviços de audioconferência de terceiros.
+- Quando você altera o provedor de serviços de audioconferência de um usuário de qualquer outro provedor para a Microsoft, contanto que o usuário receba uma licença de conferência de áudio da Microsoft. Para obter mais informações, consulte [atribuir a Microsoft como o provedor de áudio de audioconferência](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider). Observe também que o suporte para provedores de serviços de audioconferência de terceiros [ACP] está agendado para o fim da vida em 1º de abril de 2019, como [anunciado anteriormente](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers).
+- Quando você habilita ou desabilita a conferência de áudio para um usuário.
+- Ao alterar ou redefinir a ID de conferência de um usuário configurado para usar reuniões públicas.
+- Ao mover o usuário para uma nova ponte de audioconferência.
+- Quando um número de telefone de uma ponte de audioconferência é desatribuído. Esse é um cenário complexo que requer etapas adicionais. Para obter mais informações, consulte [alterar os números de telefone na ponte de videoconferência](https://docs.microsoft.com/en-us/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
 
-Nem todas as alterações nas configurações de conferência de áudio de um usuário disparam MMS. Em particular, as duas alterações a seguir não resultarão na atualização das reuniões pelo MMS:
+Nem todas as alterações nas configurações de audioconferência de áudio de um usuário são disparadas em MMS. Em particular, as duas alterações a seguir não resultarão na atualização das reuniões pelo MMS:
 
 - Quando você altera o endereço SIP do organizador da reunião (o nome de usuário ou o domínio SIP)
-- Quando você altera sua organização da reunião usando o URL do `Update-CsTenantMeetingUrl` comando.
+- Quando você altera a URL da reunião da sua organização `Update-CsTenantMeetingUrl` usando o comando.
 
 
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>Atualizando reuniões ao atribuir TeamsUpgradePolicy
 
-Por padrão, migração de reunião é acionada automaticamente quando um usuário recebe uma instância de `TeamsUpgradePolicy` com `mode=TeamsOnly` ou `mode= SfBWithTeamsCollabAndMeetings`. Se você não deseja migrar reuniões quando a concessão de ambos os modos, em seguida, especifique `MigrateMeetingsToTeams $false` na `Grant-CsTeamsUpgradePolicy` (se estiver usando o PowerShell) ou desmarque a caixa para migrar reuniões quando a definição de modo de coexistência de um usuário (se estiver usando o portal de administração de equipes).
+Por padrão, a migração de reunião é disparada automaticamente quando um usuário recebe `TeamsUpgradePolicy` uma `mode=TeamsOnly` instância `mode= SfBWithTeamsCollabAndMeetings`de with ou. Se você não quiser migrar reuniões ao conceder um desses modos, especifique `MigrateMeetingsToTeams $false` in `Grant-CsTeamsUpgradePolicy` (se estiver usando o PowerShell) ou desmarque a caixa para migrar reuniões ao definir o modo de coexistência de um usuário (se estiver usando o portal de administração do Teams).
 
-Também observe o seguinte:
+Observe também o seguinte:
 
-- Migração de reunião é invocada apenas quando você concede `TeamsUpgradePolicy` para um usuário específico. Se você conceder `TeamsUpgradePolicy` com `mode=TeamsOnly` ou `mode=SfBWithTeamsCollabAndMeetings` em uma base de *todo o locatário* , migração da reunião não é invocada.
-- Um usuário só pode ser concedido TeamsOnly modo se o usuário está hospedado online. Usuários que estão hospedados no local que devem ser movidos usando `Move-CsUser` conforme descrito anteriormente.
-- Conceder um modo diferente TeamsOnly ou SfBWithTeamsCollabAndMeetings não converter reuniões existentes de equipes Skype para reuniões de negócios.
+- A migração de reunião é invocada somente `TeamsUpgradePolicy` quando você concede a um usuário específico. Se você conceder `TeamsUpgradePolicy` com `mode=TeamsOnly` ou `mode=SfBWithTeamsCollabAndMeetings` com base em um *locatário* , a migração de reunião não será invocada.
+- Só é possível conceder um usuário no modo TeamsOnly se o usuário estiver hospedado online. Os usuários hospedados no local devem ser movidos usando `Move-CsUser` conforme descrito anteriormente.
+- A concessão de um modo diferente de TeamsOnly ou SfBWithTeamsCollabAndMeetings não converte reuniões de equipes existentes em reuniões do Skype for Business.
 
-### <a name="trigger-meeting-migration-manually-via-powershell-cmdlet"></a>Migração de reunião de gatilho manualmente por meio do cmdlet do PowerShell
+### <a name="trigger-meeting-migration-manually-via-powershell-cmdlet"></a>Disparar a migração de reunião manualmente por meio do cmdlet do PowerShell
 
-Além das migrações de reunião automáticos, admins pode disparar manualmente a migração de reunião para um usuário executando o cmdlet `Start-CsExMeetingMigration`. Este cmdlet enfileira uma solicitação de migração para o usuário especificado.  Além das required `Identity` parâmetro, que leva dois parâmetros opcionais, `SourceMeetingType` e `TargetMeetingType`, que permitem que você especifique como migrar reuniões:
+Além das migrações automáticas de reunião, os administradores podem disparar manualmente a migração de reunião para um usuário `Start-CsExMeetingMigration`executando o cmdlet. Esse cmdlet enfileira uma solicitação de migração para o usuário especificado.  Além do parâmetro obrigatório `Identity` , ele aceita dois parâmetros opcionais `SourceMeetingType` e `TargetMeetingType`, que permitem que você especifique como migrar reuniões:
 
 **TargetMeetingType:**
 
-- Usando `TargetMeetingType Current` Especifica que Skype para reuniões de negócios permanecem Skype para reuniões de negócios e reuniões de equipes permanecem reuniões de equipes. No entanto audioconferência coordena pode ser alterado e Skype qualquer local para reuniões de negócios seria migrado para Skype para negócios Online. Este é o valor padrão para TargetMeetingType.
-- Usando `TargetMeetingType Teams` Especifica que qualquer reunião existente deve ser migrado para equipes, independentemente se a reunião está hospedada no Skype para negócios online ou local e independentemente se quaisquer atualizações de serviços de audioconferência são necessárias. 
+- Usando `TargetMeetingType Current` especifica que as reuniões do Skype for Business permanecem reuniões do Skype for Business e as reuniões da equipe permanecem em reuniões do teams. Contudo, as coordenadas de videoconferência podem ser alteradas e todas as reuniões do Skype for Business locais serão migradas para o Skype for Business online. Esse é o valor padrão para TargetMeetingType.
+- Usar `TargetMeetingType Teams` especifica que qualquer reunião existente deve ser migrada para o Microsoft Teams, independentemente de a reunião estar hospedada no Skype for Business online ou no local, e independentemente de serem necessárias qualquer atualização de audioconferência. 
 
 **SourceMeetingType:**
-- Usando `SourceMeetingType SfB` indica que Skype apenas para reuniões de negócios (se local ou online) devem ser atualizados.
-- Usando `SourceMeetingType Teams` indica que as reuniões de equipes só deverá ser atualizadas.
-- Usando `SourceMeetingType All` indica que os dois Skyep para reuniões de negócios e reuniões de equipes deve ser atualizado. Este é o valor padrão para SourceMeetingType.
+- Usar `SourceMeetingType SfB` indica que somente as reuniões do Skype for Business (sejam locais ou online) devem ser atualizadas.
+- Usar `SourceMeetingType Teams` indica que apenas reuniões de equipes devem ser atualizadas.
+- Usar `SourceMeetingType All` indica que as reuniões do Skype para empresas e reuniões de equipe devem ser atualizadas. Esse é o valor padrão para SourceMeetingType.
     
 
-O exemplo a seguir mostra como iniciar a migração de reunião para o usuário ashaw@contoso.com para que todas as reuniões são migradas para as equipes:
+O exemplo a seguir mostra como iniciar a migração de reunião para o usuário ashaw@contoso.com para que todas as reuniões sejam migradas para o Teams:
 
 ```
 Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
@@ -141,13 +141,13 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
 
 ## <a name="managing-mms"></a>Gerenciando o MMS
 
-Usando o Windows PowerShell, você pode verificar o status das migrações em andamento, manualmente disparar a migração de reunião e desabilitar a migração totalmente. 
+Usando o Windows PowerShell, você pode verificar o status de migrações em andamento, disparar manualmente a migração de reuniões e desabilitar a migração completamente. 
 
-### <a name="check-the-status-of-meeting-migrations"></a>Verificar o status de migrações de reunião
+### <a name="check-the-status-of-meeting-migrations"></a>Verificar o status das migrações de reunião
 
-Você usa o `Get-CsMeetingMigrationStatus` cmdlet para verificar o status de migrações de reunião. Abaixo estão alguns exemplos.
+Use o `Get-CsMeetingMigrationStatus` cmdlet para verificar o status das migrações de reuniões. Veja a seguir alguns exemplos.
 
-- Para obter um status de resumo de todas as migrações do MMS, execute o seguinte comando que fornece uma exibição tabular de todos os estados de migração:
+- Para obter um status de Resumo de todas as migrações de MMS, execute o seguinte comando que fornece uma exibição tabular de todos os Estados de migração:
 
     ```
     Get-CsMeetingMigrationStatus -SummaryOnly
@@ -159,17 +159,17 @@ Você usa o `Get-CsMeetingMigrationStatus` cmdlet para verificar o status de mig
     Failed            2 
     Succeeded   131
     ```
-- Para obter detalhes completos de todas as migrações dentro de um período de tempo específico, use o `StartTime` e `EndTime` parâmetros. Por exemplo, o comando a seguir retornará detalhes completos sobre todas as migrações que ocorreu a partir de 1 de outubro de 2018 para 8 de outubro de 2018.
+- Para obter detalhes completos de todas as migrações dentro de um período de tempo específico `StartTime` , `EndTime` use os parâmetros e. Por exemplo, o comando a seguir retornará detalhes completos sobre todas as migrações ocorridas a partir de 1 ° de outubro de 2018 para 8 de outubro de 2018.
 
     ```
     Get-CsMeetingMigrationStatus -StartTime "10/1/2018" -EndTime "10/8/2018"
     ```
-- Para verificar o status da migração para um usuário específico, use o `Identity` parâmetro. Por exemplo, o comando a seguir retornará o status de ashaw@contoso.com o usuário:
+- Para verificar o status de migração para um usuário específico, use o `Identity` parâmetro. Por exemplo, o comando a seguir retornará o status para o usuário ashaw@contoso.com:
 
     ```
     Get-CsMeetingMigrationStatus -Identity ashaw@contoso.com
     ```
-Se você vir qualquer migrações que falharam, execute a ação para resolver esses problemas assim que possível, desde que as pessoas não conseguirá dial-in para as reuniões organizadas por esses usuários até que você resolvê-los. Se `Get-CsMeetingMigrationStatus` mostra qualquer migrações em estado falho, execute estas etapas:
+Se você vir todas as migrações que falharam, tome medidas para resolver esses problemas o mais rápido possível, uma vez que as pessoas não poderão discar para as reuniões organizadas por esses usuários até você resolvê-los. Se `Get-CsMeetingMigrationStatus` o mostrar migrações em um estado de falha, execute estas etapas:
  
 1. Determine quais usuários são afetados. Execute o seguinte comando para obter a lista de usuários afetados e o erro específico que foi relatado:
 
@@ -186,23 +186,23 @@ Se você vir qualquer migrações que falharam, execute a ação para resolver e
 
 ### <a name="enabling-and-disabling-mms"></a>Habilitando e desabilitando o MMS
 
-MMS é habilitado por padrão para todas as organizações, mas pode ser desativado da seguinte maneira:
+O MMS é habilitado por padrão para todas as organizações, mas pode ser desabilitado da seguinte maneira:
 
-- Desabilite inteiramente para o inquilino. 
-- Desabilite apenas para as alterações relacionadas a conferências de áudio. Nesse caso, MMS ainda será executado quando um usuário é migrado do local para a nuvem ou quando você concede o modo de TeamsOnly ou SfBWithTeamsCollabAndMeetings em `TeamsUpgradePolicy`.
+- Desabilite completamente para o locatário. 
+- Desabilitar somente para alterações relacionadas à videoconferência. Nesse caso, o MMS ainda será executado quando um usuário for migrado do local para a nuvem ou quando você conceder o modo TeamsOnly ou o modo SfBWithTeamsCollabAndMeetings `TeamsUpgradePolicy`.
 
-Por exemplo, você talvez queira migrar todas as reuniões manualmente ou desabilitar temporariamente MMS enquanto faz alterações substanciais as configurações de serviços de audioconferência para sua organização
+Por exemplo, você pode optar por migrar manualmente todas as reuniões ou desabilitar o MMS temporariamente enquanto faz alterações substanciais nas configurações de audioconferência da sua organização
 
-Para ver se MMS está habilitado para sua organização, execute o seguinte comando. MMS estará habilitado se o `MeetingMigrationEnabled` parâmetro é `$true`.
+Para ver se o MMS está habilitado para sua organização, execute o seguinte comando. O MMS estará habilitado se `MeetingMigrationEnabled` o parâmetro `$true`for.
 ```
 Get-CsTenantMigrationConfiguration
 ```
-Para habilitar ou desabilitar MMS totalmente, use o `Set-CsTenantMigrationConfiguration` comando. Por exemplo, para desabilitar MMS, execute o seguinte comando:
+Para habilitar ou desabilitar o MMS completamente, use `Set-CsTenantMigrationConfiguration` o comando. Por exemplo, para desabilitar o MMS, execute o seguinte comando:
 
 ```
 Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 ```
-Se MMS estiver habilitado na organização e você deseja verificar se ele está habilitado para atualizações de conferência de áudio, verifique o valor do `AutomaticallyMigrateUserMeetings` parâmetro na saída do `Get-CsOnlineDialInConferencingTenantSettings`. Para habilitar ou desabilitar MMS para conferência de áudio, use `Set-CsOnlineDialInConferencingTenantSettings`. Por exemplo, para desativar MMS para conferência de áudio, execute o seguinte comando:
+Se o MMS estiver habilitado na organização e você quiser verificar se ele está habilitado para atualizações de audioconferência, verifique o valor do `AutomaticallyMigrateUserMeetings` parâmetro na saída de. `Get-CsOnlineDialInConferencingTenantSettings` Para habilitar ou desabilitar o MMS para a videoconferência, `Set-CsOnlineDialInConferencingTenantSettings`use. Por exemplo, para desabilitar o MMS para a videoconferência, execute o seguinte comando:
 
 ```
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
@@ -212,4 +212,4 @@ Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings 
 
 [Experimentar ou comprar audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
-[Mover usuários entre locais e em nuvem](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[Mover usuários entre locais e na nuvem](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)

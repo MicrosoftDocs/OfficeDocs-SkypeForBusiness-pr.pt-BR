@@ -5,18 +5,18 @@ author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: Este artigo aborda os problemas conhecidos das Salas do Microsoft Teams, por área de recurso.
-ms.openlocfilehash: c6ddaf11e0104c0de85c46b1369613ef365ede7d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 91e90479efdf905705d217de75cdac744a773860
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916509"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306514"
 ---
 # <a name="known-issues"></a>Problemas conhecidos 
  
@@ -59,7 +59,8 @@ Se seu dispositivo de Salas do Microsoft Teams perder confiabilidade com o domí
 ***
 A versão de 64 bits da edição de aniversário do Windows 10 Enterprise (em inglês, versão 1607) não tem mais suporte em salas do Microsoft Teams da versão 3.0.12.0. 
 ***
-
+A sala Microsoft Teams é um aplicativo com várias janelas e requer uma exibição de primeira sala para estar conectada à porta HDMI do dispositivo, para que o aplicativo funcione corretamente. Verifique se você tem uma tela HDMI conectada ou use um plugue HDMI fictício se estiver testando e ainda não tiver uma exibição adquirida.
+***
 <a name="See"> </a>  
 ## <a name="see-also"></a>Confira também
 

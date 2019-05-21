@@ -1,31 +1,31 @@
 ---
-title: Relatório de resumo de conferência no Skype para Business Server
+title: Relatório de Resumo de conferências no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
-description: 'Resumo: Saiba mais sobre o relatório de resumo de conferência no Skype para Business Server.'
-ms.openlocfilehash: 8e584b8ca8a7ca08fe0de23d21d4a5608c1f828c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de Resumo de conferências no Skype for Business Server.'
+ms.openlocfilehash: 7bc3c1c33f50d53b0243060cd84b823e0734afb9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926652"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305870"
 ---
-# <a name="conference-summary-report-in-skype-for-business-server"></a>Relatório de resumo de conferência no Skype para Business Server
+# <a name="conference-summary-report-in-skype-for-business-server"></a>Relatório de Resumo de conferências no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de resumo de conferência no Skype para Business Server.
+**Resumo:** Saiba mais sobre o relatório de Resumo de conferências no Skype for Business Server.
   
-O Relatório de Resumo de Conferências traz uma visão geral de suas sessões de conferência online. Normalmente, uma conferência envolve mais de 2 usuários e exige o uso de serviços de conferência. Por comparação, uma sessão ponto a ponto normalmente envolve 2 apenas usuários e não requer o uso do Skype para serviços de conferência Business Server. Atividades ponto a ponto informadas sobre o [relatório de resumo de atividade ponto a ponto no Skype para Business Server](peer-to-peer-activity-summary-report.md).
+O Relatório de Resumo de Conferências traz uma visão geral de suas sessões de conferência online. Geralmente, uma conferência envolve mais de 2 usuários e requer o uso de serviços de conferência. Por comparação, uma sessão ponto a ponto geralmente envolve apenas 2 usuários e não requer o uso de serviços de conferência do Skype for Business Server. As atividades ponto a ponto são relatadas no [relatório de Resumo de atividades ponto a ponto no Skype for Business Server](peer-to-peer-activity-summary-report.md).
   
-O relatório de resumo de conferência não apenas informa quantos conferências conduzidas durante um período de tempo determinado (cada hora, diariamente, semanalmente, mensalmente), mas também informa o número total de pessoas que participou dessas conferências e o número total de conferência exclusivas organizadores.
+O relatório de Resumo de conferências não só informa quantas conferências foram mantidas durante um determinado período (por hora, diária, semanal, mensal), mas também informa o número total de pessoas que participaram de todas as conferências e o número total de conferências exclusivas organizadores.
   
-Um organizador "exclusivo" é qualquer pessoa que agenda a conferência de pelo menos um. Por exemplo, se Pilar Ackerman agendar uma conferência, ela será contabilizada como um organizador exclusivo. Se Ken Myer agendar 148 conferências, ele também será contabilizado como um único organizador exclusivo. Por exemplo, a tabela a seguir mostra oito conferências agendadas, mas apenas três organizadores exclusivos (Ken Myer, Pilar Ackerman e David Ahs).
+Um organizador "exclusivo" é qualquer pessoa que agenda pelo menos uma conferência. Por exemplo, se Pilar Ackerman agendar uma conferência, ela será contabilizada como um organizador exclusivo. Se Ken Myer agendar 148 conferências, ele também será contabilizado como um único organizador exclusivo. Por exemplo, a tabela a seguir mostra oito conferências agendadas, mas apenas três organizadores exclusivos (Ken Myer, Pilar Ackerman e David Ahs).
   
 |**Organizador da conferência**|**Data da conferência**|
 |:-----|:-----|
@@ -50,7 +50,7 @@ O Relatório de Resumo de Conferências pode ser acessado na home page Relatóri
     
 ## <a name="making-the-best-use-of-the-conference-summary-report"></a>Usando o Relatório de Resumo de Conferências da melhor maneira possível
 
-Valores de total para a maioria das métricas usadas no relatório de resumo de conferência podem ser encontrados na parte inferior do relatório; Role para baixo até consulte valores, como o número total de pessoas que participaram dessas conferências e o número total de conferências conduzidas durante o período de tempo especificado. Uma métrica que não é total na parte inferior do relatório é organizadores de conferência exclusivas Total. Por que não? Aqui está um motivo. Suponha que você está vendo a importância de um mês de dados. No dia 1, você tinha 34 organizadores de conferência exclusivas; no dia 2, você tinha 27 organizadores de conferência exclusivas. Isso significa que você tinha 61 organizadores de conferência exclusivas para esses dois dias? Não necessariamente. Afinal, todas as 27 pessoas que organizou conferências no dia 2 podem ser entre as 34 pessoas que organizou conferências no dia 1. Por exemplo, nesse relatório simples, observe que Ken Myer e Pilar Ackerman agendado conferências ambas diante 7/7/2015 e em 7/2/2015:
+Os valores totais para a maioria das métricas usadas no relatório de Resumo de conferências podem ser encontrados na parte inferior do relatório; Role para baixo para ver valores como o número total de conferências mantidas durante o período de tempo especificado e o número total de pessoas que participaram dessas conferências. Uma métrica que não está totalizada na parte inferior do relatório é o total de organizadores de conferências exclusivos. Por que não? Aqui está um motivo. Suponha que você esteja olhando para o valor de dados de um mês. No dia 1, você tinha 34 organizadores de conferência exclusivos; no dia 2, você tinha 27 organizadores de conferências exclusivos. Isso significa que você tinha 61 organizadores de conferência exclusivos para estes dois dias? Não necessariamente. Afinal, todas as 27 pessoas que organizaram conferências no dia 2 podem estar entre as pessoas do 34 que organizaram conferências no dia 1. Por exemplo, neste relatório simples, observe que Ken Myer e pilar Alverca conferências agendadas no 7/7/2015 e no 7/2/2015:
   
 |**Organizador da conferência**|**Data da conferência**|
 |:-----|:-----|
@@ -92,7 +92,7 @@ A tabela a seguir as informações fornecidas pelo Relatório de Resumo de Confe
 |**Total de participantes** <br/> |Não  <br/> |Número total de pessoas que participaram nas conferências. Quando você clica nesse item, o relatório mostra o Relatório de Resumo de Conferências para o período de tempo selecionado.  <br/> |
 |**Média de participantes por conferência** <br/> |Não  <br/> |Número médio de pessoas que participaram de uma determinada conferência. É determinado dividindo o total de conferências pelo total de participantes.  <br/> |
 |**Total de conferências A/V** <br/> |Não  <br/> |Número total de conferências com áudio ou vídeo.  <br/> |
-|**Total de minutos de conferências de A/V** <br/> |Não  <br/> |Número total de minutos para a conferência de áudio/vídeo.  <br/> A Total / métrica de minutos de conferência V resume todos os tipos de conferência de áudio/vídeo, incluindo: uma / conferências V; Conferências de mensagens Instantâneas; conferências; de compartilhamento de aplicativo conferências de dados; e conferências PSTN.  <br/> |
+|**Total de minutos de conferências de A/V** <br/> |Não  <br/> |Número total de minutos para a conferência de áudio/vídeo.  <br/> A métrica de minutos total de conferência a/V resume todos os tipos de áudio/conferência Visual, incluindo: conferências A/V; Conferências de mensagens instantâneas; conferências de compartilhamento de aplicativos; conferências de dados; e conferências PSTN.  <br/> |
 |**Total de minutos de participantes de conferências de A/V** <br/> |Não  <br/> |Número total de minutos do participante na conferência de áudio/vídeo. Por exemplo, suponha que um usuário gaste cinco minutos em uma conferência de áudio/vídeo e um segundo usuário gaste três minutos nessa mesma conferência. O que soma um total de oito minutos de participantes: cinco minutos mais três minutos.  <br/> |
 |**Média de minutos da conferência A/V** <br/> |Não  <br/> |Número médio de minutos por conferência de áudio/vídeo.  <br/> |
 |**Número total de organizadores exclusivos de conferências** <br/> |Não  <br/> |Número total de usuários que organizaram pelo menos uma conferência. Os usuários que organizaram mais de uma conferência são contados como um organizador exclusivo, assim como os usuários que só organizaram uma única conferência.  <br/> |

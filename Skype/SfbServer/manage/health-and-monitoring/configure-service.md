@@ -1,30 +1,30 @@
 ---
-title: Configurar o serviço de mobilidade para alto desempenho em Skype para Business Server
+title: Configurar o serviço de mobilidade para alto desempenho no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
-description: 'Resumo: Saiba mais sobre o serviço de mobilidade no Skype para Business Server.'
-ms.openlocfilehash: bd787e78ebd3228faa1c47f1f54e688551c3e67d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o serviço de mobilidade no Skype for Business Server.'
+ms.openlocfilehash: 35e04fa080964495ccd9abed28c0688dd7be45a9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926589"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305840"
 ---
-# <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Configurar o serviço de mobilidade para alto desempenho em Skype para Business Server
+# <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Configurar o serviço de mobilidade para alto desempenho no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o serviço de mobilidade no Skype para Business Server.
+**Resumo:** Saiba mais sobre o serviço de mobilidade no Skype for Business Server.
   
 > [!IMPORTANT]
-> Este tópico se aplica somente ao Skype para Business Server Mobility Service (Mcx) e não se aplica para o API do Web de comunicações unificadas (UCWA), conforme entregues as atualizações cumulativas do Lync Server 2013: fevereiro de 2013. 
+> Este tópico se aplica somente ao serviço Skype for Business Server Mobility (MCX) e não se aplica à API da Web de comunicação unificada (UCWA), conforme entregue nas atualizações cumulativas do Lync Server 2013:2013 de fevereiro. 
   
-Quando você instala o serviço de mobilidade (Mcx) nos serviços de informações da Internet (IIS) 7.5, o instalador do Mobility Service configura algumas configurações de desempenho no servidor Front-End. Recomendamos usar IIS 7.5 para mobilidade. As configurações afetam o número máximo de solicitações concomitantes de usuários e o número máximo de threads permitidos para o Mobility Service.
+Quando você instala o serviço de mobilidade (MCX) em serviços de informações da Internet (IIS) 7,5, o instalador do serviço de mobilidade configura algumas configurações de desempenho no servidor front-end. Recomendamos usar IIS 7.5 para mobilidade. As configurações afetam o número máximo de solicitações concomitantes de usuários e o número máximo de threads permitidos para o Mobility Service.
   
 Aqui estão as configurações de desempenho:
   

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Consulte as etapas para atribuir uma licença de conferência discada e um ID de conferência a um usuário no Microsoft Teams e várias outras configurações de conferência discada. '
-ms.openlocfilehash: 201da13370852b6506fe7aa32f695d973bcc637a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 593987c6de3f6245afcdd7221fa7130a511d9f77
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202761"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291007"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gerenciar as configurações de Audioconferência de sua organização no Microsoft Teams
 
@@ -38,27 +38,27 @@ Pode ser mais fácil para você visualizar todas as configurações de audioconf
 ## <a name="assign-an-audio-conferencing-license"></a>Atribui licença de audioconferência
 
 > [!NOTE]
-> Não é possível atribuir licenças usando o Teams. É necessário usar o centro de administração do Office 365. Consulte [Atribuir licenças do Skype for Business e do Microsoft Teams](assign-teams-licenses.md). 
+> Não é possível atribuir licenças usando o Teams. Você deve usar o centro de administração do Microsoft 365. Consulte [Atribuir licenças do Skype for Business e do Microsoft Teams](assign-teams-licenses.md). 
   
  **Atribuir uma licença a um usuário**
   
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre no Microsoft 365 com sua conta corporativa ou de estudante.
     
-2. No painel de navegação esquerdo do **centro de administração do Office 365**, vá para **Usuários** > **Usuários ativos**, e selecione o usuário ou os usuários na lista de usuários disponíveis.
+2. Na navegação à esquerda do **centro de administração do Microsoft 365**, vá para usuários**ativos**do **usuários** > e selecione o usuário ou os usuários na lista de usuários disponíveis.
     
     > [!NOTE]
     > [!DICA] Para atribuir licenças a mais de 20 usuários ao mesmo tempo, você pode usar o menu suspenso **Selecionar uma exibição** e escolher uma das opções ou criar sua própria exibição. Em seguida, clique em **Editar**, **Próximo** duas vezes, selecione a licença e clique em **Enviar**.  
   
 3. No painel Ação em **Licenças de produto**, clique em **Editar**. 
     
-4. Na página **Licenças de produto**, ative **Audioconferência** e clique em **Salvar**. Para obter mais informações sobre licenciamento, consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+4. Na página **Licenças de produto**, ative **Audioconferência** e clique em **Salvar**. Para saber mais sobre licenciamento, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
 > [!NOTE]
 > Depois de atribuir a licença, a Microsoft pode não aparecer inicialmente na lista como provedor de audioconferência. Caso isso aconteça, saia do centro de administração do Office 365 ou pressione CTRL+F5 para atualizar a janela do navegador. 
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Habilitar ou desabilitar o envio de e-mails para usuários de audioconferência
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
@@ -75,139 +75,139 @@ Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.co
   
 ## <a name="reset-the-meeting-conference-id"></a>Redefinir a ID de conferência de reunião
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
-1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
 
-2. Em **Conferência de áudio**, clique em **Redefinir ID de conferência**.  
+2. Em **conferência de áudio**, clique em **Redefinir ID de conferência**.  
 
-3. No **Redefinir ID de conferência?** janela, clique em **Redefinir**. Um ID de conferência será criado automaticamente e um email será enviado ao usuário com o novo ID de conferência, se o envio de email para seus usuários estiver ativado. Está ativado por padrão.
+3. Na janela **Redefinir ID de conferência?** , clique em **Redefinir**. Um ID de conferência será criado automaticamente e um email será enviado ao usuário com o novo ID de conferência, se o envio de email para seus usuários estiver ativado. Está ativado por padrão.
 
 Consulte [Redefinir o ID de conferência de um usuário](reset-a-conference-id-for-a-user-in-teams.md).
   
 ## <a name="reset-a-conference-organizers-pin"></a>Redefinir o PIN de um organizador da conferência
 
-Cada reunião que um usuário agenda será obtido atribuída uma ID de conferência exclusivas. Embora uma ID de conferência será criada automaticamente e atribuída a um usuário, pode haver ocasiões quando um usuário não deseja usar este e deseja defini-la a um certo número ou os usuários não conseguir se lembrar ou tem perdido sua ID de conferência. 
+Cada reunião agendada por um usuário receberá uma ID de conferência exclusiva. Embora uma ID de conferência seja criada automaticamente e atribuída a um usuário, pode haver ocasiões em que um usuário não queira usar essa e você deseja defini-la como um número específico ou que seus usuários não se lembram ou perderam a ID de conferência. 
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
-1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
 
-2. Em **Conferência de áudio**, clique em **Redefinir PIN**e clique em **Redefinir**. 
+2. Em **conferência de áudio**, clique em **Redefinir PIN**e em **Redefinir**. 
   
-Os usuários receberão um email com o PIN quando elas são habilitadas para conferência de áudio ou quando o PIN ser redefinido. Mas, se você desabilitou automaticamente enviando e-mails, um email de redefinição PIN não será enviado e você terá que enviar manualmente o PIN para o usuário. O PIN será exibido somente uma vez depois de ser redefinido. Depois que ele é exibido depois de ser redefinido, o PIN não será mostrado mais sobre as propriedades de usuário; em vez disso, * * * serão exibidos. 
+Os usuários receberão um email com o PIN quando estiverem habilitados para videoconferência ou quando o PIN for redefinido. Mas se você tiver desabilitado o envio de emails automaticamente, um email de redefinição de PIN não será enviado e você terá que enviar o PIN manualmente para o usuário. O PIN será exibido somente uma vez depois de ser redefinido. Depois que ele é exibido logo após a redefinição, o pino não é mais mostrado nas propriedades do usuário; em vez disso, * * * será mostrado. 
   
-Consulte [Redefinir o PIN de conferência de áudio](reset-the-audio-conferencing-pin-in-teams.md).
+Consulte [redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin-in-teams.md).
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar um email com informações de conferência de áudio a um usuário
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar um email com as informações de conferência de áudio para um usuário
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
-1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
 
-2. Em **Conferência de áudio**, clique em **Enviar informações de conferência no email**. 
+2. Em **conferência de áudio**, clique em **enviar informações de conferência por email**. 
 
     > [!NOTE]
-    > Quando você fizer isso, os serviços de audioconferência PIN não será enviado ao usuário. 
+    > Quando você faz isso, o pino de audioconferência não é enviado para o usuário. 
 
 Veja [Enviar um email para um usuário com suas informações de conferência de áudio](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>Definir os números de telefone incluídos em convites
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
-1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
 
-2. Ao lado de **Conferência de áudio**, clique em **Editar**.
+2. Ao lado de **conferência de áudio**, clique em **Editar**.
  
-3. No painel de **Conferência de áudio** , você pode definir o **número de Chamada Tarifada** e, se permitido, o **número de chamada gratuito**.
+3. No painel **conferência de áudio** , você pode definir o **número de chamada tarifada** e, se permitido, o **número de chamada gratuita**.
 
 4. Clique em **Salvar**.
     
-Consulte [Definir convidam números incluídos no telefone](set-the-phone-numbers-included-on-invites-in-teams.md).
+Consulte [definir os números de telefone incluídos nos convites](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
-## <a name="choose-audio-conferencing-bridge-settings"></a>Escolha configurações de ponte de conferência de áudio
+## <a name="choose-audio-conferencing-bridge-settings"></a>Escolher configurações de ponte de áudio audioconferência
 
-**Definir a experiência da reunião, quando os chamadores ingressem em uma reunião**
+**Definir a experiência da reunião quando os chamadores entrarem em uma reunião**
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
-2. Na parte superior da página **Pontes de conferência** , clique em **configurações de ponte**. 
+2. Na parte superior da página **pontes de conferência** , clique em **configurações de ponte**. 
 
 3. No painel **Configurações da ponte**, ative ou desative **Notificações de entrada/saída de reuniões**.
 
-    Isso é ativado por padrão. Se você desabilitar essa opção, os usuários que já tenham ingressado na reunião por padrão não serão notificados quando alguém entra ou sai da reunião.
+    Isso é habilitado por padrão. Se você desabilitar essa opção, por padrão, os usuários que já entraram na reunião não serão notificados quando alguém entrar ou sair da reunião.
 
-4. Em **tipo de anúncio de entrada/saída**, escolha **tons** ou **nomes ou números de telefone**. 
+4. Em **tipo de anúncio de entrada/saída**, escolha **toques** ou **nomes ou números de telefone**. 
 
-    Se você escolher **nomes ou números de telefone**, você também pode optar por habilitar ou desabilitar **os chamadores Ask registrar seus nomes antes de ingressar na reunião**. 
+    Se você escolher **nomes ou números de telefone**, também poderá optar por habilitar ou desabilitar **o recurso pedir que os chamadores registrem o nome antes de ingressar na reunião**. 
 
 5. Clique em **Salvar**.
 
     
 Consulte [alterar as configurações de uma ponte de conferência de áudio](change-the-settings-for-an-audio-conferencing-bridge.md).
   
- **Definir o tamanho PIN para reuniões**
+ **Definir o comprimento do PIN para reuniões**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
-2. Na parte superior da página **Pontes de conferência** , clique em **configurações de ponte**. 
+2. Na parte superior da página **pontes de conferência** , clique em **configurações de ponte**. 
 
-3. No painel de **configurações de ponte** , insira o número de dígitos que você deseja para o PIN na lista **tamanho PIN** e clique em **Salvar**.
+3. No painel **configurações de ponte** , insira o número de dígitos que você deseja para o pino na lista **comprimento do pino** e clique em **salvar**.
 
     O PIN deve ter entre 4 e 12 dígitos. O padrão é 5.
 
     
 Consulte [alterar as configurações de uma ponte de conferência de áudio](change-the-settings-for-an-audio-conferencing-bridge.md).
   
- **Habilitar ou desabilitar o email que está sendo enviado a usuários de áudio**
+ **Habilitar ou desabilitar o envio de emails para usuários de áudio**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
-2. Na parte superior da página **Pontes de conferência** , clique em **configurações de ponte**. 
+2. Na parte superior da página **pontes de conferência** , clique em **configurações de ponte**. 
 
-3. No painel de **configurações de ponte** , habilite ou desabilite a **Enviar automaticamente os e-mails para os usuários se alteram suas configurações de conferência de áudio**.
+3. No painel **configurações de ponte** , habilite ou desabilite **enviar emails automaticamente aos usuários se suas configurações de audioconferência de áudio mudarem**.
 
 4. Clique em **Salvar**. 
  
-    Você também pode enviar email para o usuário com as configurações de conferência de áudio, indo para propriedades de conferência de áudio do usuário e clicar em **Enviar informações de conferência no email**.
+    Você também pode enviar emails para o usuário com as configurações de audioconferência, acessando as propriedades de videoconferência do usuário e clicando **em enviar informações de conferência por email**.
     
     Se você fizer isso, será enviado um email somente com o número de telefone e a ID da conferência, mas o PIN não será incluído.
 
 Veja [Enviar um email para um usuário com suas informações de conferência de áudio](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
     
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Consulte e defina o principal (padrão) e os idiomas secundários de (alternativos) em uma ponte de conferência de áudio
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Ver e definir os idiomas principais (padrão) e secundários (alternativos) em uma ponte de audioconferência
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
 2. Selecione um número de telefone na lista e clique em **Editar**.
 
-3. Escolha os idiomas desejado em **idioma padrão** e **idiomas alternativos (opcionais)**.
+3. Escolha os idiomas desejados em **idioma padrão** e **idiomas alternativos (opcional)**.
 
 4. Clique em **Salvar**.
 
 
 Veja [Definir idiomas do atendedor automático para conferência de áudio](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).
   
-## <a name="see-audio-conferencing-dial-in-numbers"></a>Consulte serviços de audioconferência discada números
+## <a name="see-audio-conferencing-dial-in-numbers"></a>Consulte números de discagem de conferência de áudio
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
-2. Selecione um número de telefone na lista e clique em **Editar**. Aqui, você pode:
+2. Selecione um número de telefone na lista e clique em **Editar**. Aqui você pode:
     
-   - Exiba os números de telefone definidos pelo Office 365 a serem usados para conferência de áudio. 
+   - Veja os números de telefone definidos pelo Office 365 a serem usados para videoconferências. 
     
-   - Exiba o local e o idioma principal, que será usado pelo atendedor automático conferência de áudio.
+   - Exiba o local e o idioma principal que serão usados pelo atendedor automático de audioconferência.
 
   
-Consulte [ver uma lista de números de conferência de áudio](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Veja [ver uma lista de números de audioconferência](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?

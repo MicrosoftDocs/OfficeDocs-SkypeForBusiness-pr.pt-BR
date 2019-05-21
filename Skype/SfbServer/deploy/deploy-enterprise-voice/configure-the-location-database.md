@@ -1,10 +1,10 @@
 ---
-title: Configurar o banco de dados local no Skype para Business Server
+title: Configurar o banco de dados de localização no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: Configurar, preencher e publicar o banco de dados de localização E9-1-1 no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: e5f25cfcda35d4a78a369a2a5103f7bcd5b06a40
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Configurar, preencher e publicar o banco de dados de local E9-1-1 no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 82182a27c1459005d19c8a50d0a1babc83b178c9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893046"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301073"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar o banco de dados local no Skype para Business Server
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar o banco de dados de localização no Skype for Business Server
  
-Configurar, preencher e publicar o banco de dados de localização E9-1-1 no Skype para Business Server Enterprise Voice. 
+Configurar, preencher e publicar o banco de dados de local E9-1-1 no Skype for Business Server Enterprise Voice. 
   
 Para que os clientes possam detectar automaticamente seu local na rede, primeiro configure o banco de dados de localização. 
   
 Para configurar o banco de dados local, execute as seguintes tarefas:
   
-- Preencha o banco de dados com um mapeamento dos locais para os elementos de rede. Se você usar um gateway ELIN Emergency Location Identification número (), você precisa incluir o ELIN no \<CompanyName\> campo.
+- Preencha o banco de dados com um mapeamento dos locais para os elementos de rede. Se você usar um gateway de número de identificação de localização de emergência (ELIN), precisará incluir o \<Elin\> no campo CompanyName.
     
     Se você não preencher o banco de dados local e o **Local necessário** na Política de Localização está definido para **Sim** ou **Isenção de Responsabilidade**, o cliente solicitará que o usuário insira um local manualmente.
     
@@ -47,10 +47,10 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
   
 |**Elemento de rede**|**Colunas obrigatórias**|
 |:-----|:-----|
-|**Ponto de acesso sem fio** <br/> |\<BSSID\>,\<descrição\>,\<local\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> … \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<estado\>,\<PostalCode\>,\<país\>  <br/> |
-|**Sub-rede** <br/> |\<Subrede\>,\<descrição\>,\<local\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> … \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<estado\>,\<PostalCode\>,\<país\>  <br/> |
-|**Porta** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<descrição\>,\<local\>,\<CompanyName\>,\<HouseNumber\>,\< HouseNumberSuffix\>,...  <br/> … \<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<estado\>,\<PostalCode\>,\< País\>  <br/> |
-|**Opção** <br/> |\<ChassisID\>,\<descrição\>,\<local\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> … \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<estado\>,\<PostalCode\>,\<país\>  <br/> |
+|**Ponto de acesso sem fio** <br/> |\<BSSID\>,\<Descrição\>,\<local\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predirectional\>,...  <br/> ... \<Streetname\>,\<StreetSuffix\>,\<monodirecional\>,\<cidade\>,\<estado\>,\<CEP\>,\<país\>  <br/> |
+|**Sub-rede** <br/> |\<Sub-rede\>,\<Descrição\>,\<local\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predirectional\>,...  <br/> ... \<Streetname\>,\<StreetSuffix\>,\<monodirecional\>,\<cidade\>,\<estado\>,\<CEP\>,\<país\>  <br/> |
+|**Porta** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<portid\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\< HouseNumberSuffix\>,...  <br/> ... \<Predirectional\>,\<streetname\>,\<StreetSuffix\>,\<monodirecional\>,\<cidade\>,\<estado\>,\<CEP\>,\< País\>  <br/> |
+|**Opção** <br/> |\<ChassisID\>,\<Descrição\>,\<local\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predirectional\>,...  <br/> ... \<Streetname\>,\<StreetSuffix\>,\<monodirecional\>,\<cidade\>,\<estado\>,\<CEP\>,\<país\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>Para adicionar elementos de rede no banco de dados de localização
 
@@ -139,7 +139,7 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
 
 Os novos locais adicionados ao banco de dados de local não serão disponibilizados para o cliente até que sejam publicados.
   
-Se você usar gateways ELIN, também é necessário carregar os ELINs para o banco de dados ALI da transportadora PSTN. Sua transportadora PSTN pode exigir que você use um formato específico para os registros ELIN. Entre em contato com sua transportadora PSTN para obter detalhes. Você pode exportar os registros do banco de dados de serviço de informações de local e formatá-los conforme necessário.
+Se você usar gateways ELIN, também é necessário carregar os ELINs para o banco de dados ALI da transportadora PSTN. Sua transportadora PSTN pode exigir que você use um formato específico para os registros ELIN. Entre em contato com sua transportadora PSTN para obter detalhes. Você pode exportar os registros do banco de dados do serviço de informações de localização e formatá-los conforme necessário.
   
 ### <a name="to-publish-the-location-database"></a>Para publicar o banco de dados local
 

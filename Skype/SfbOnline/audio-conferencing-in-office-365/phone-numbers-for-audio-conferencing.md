@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Saiba quais países e regiões têm números de teleconferência discada e como eles são atribuídos automaticamente.
-ms.openlocfilehash: 4ba3cea0b009ae91c2df1954cdee283397bf2037
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: daa2312350be038153db168517a1d0f5bd7023cf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229143"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299112"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Números de telefone para Audioconferência no Skype for Business Online
 
@@ -48,7 +48,7 @@ When a Skype for Business Online user schedules a meeting in Outlook or Outlook 
   
 Outros números de discagem podem ser vistos clicando no link **Localizar um número local** no convite da reunião.
   
-## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Números de telefone de discagem definida em uma ponte de conferência de áudio
+## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Números de telefone de discagem definidos em uma ponte de conferência de áudio
 
 There are two types of audio conferencing phone numbers that can be assigned to your conferencing bridge: **Shared** and **Dedicated**. Both types of these numbers can be used by any caller to join audio meetings that are being held in your organization.
   
@@ -58,12 +58,12 @@ There are two types of audio conferencing phone numbers that can be assigned to 
   
 While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
   
-## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>Atribuído automaticamente os números de telefone de conferência de áudio
+## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>Números de telefone de conferência de áudio atribuídos automaticamente
 
 Shared audio conferencing phone numbers are automatically assigned to organizations when they're enabled for audio conferencing. When the phone numbers are assigned, a phone number is assigned as the default phone number of the conferencing bridge. The phone number assigned as the default number of the bridge will be one from the country/region of the organization.
   
 > [!NOTE]
-> O local do país ou região da sua organização possa ser encontrado por entrando no **Centro de administração do Office 365** e examinando o registro em **Perfil da organização**. 
+> O local do país ou região da sua organização pode ser encontrado entrando no centro de **Administração do Office 365** e olhando em **perfil da organização**. 
   
 > [!CAUTION]
 > Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions won't have an Audio Conferencing toll number automatically assigned to them. Toll-free numbers from these locations are available depending on available inventory. 
@@ -74,18 +74,18 @@ Para ver uma lista dos países/regiões que têm números de telefone automatica
   
 ## <a name="what-else-should-you-know"></a>O que mais você deve saber?
 
-- Para ver a lista de idiomas com suporte para conferência de áudio, consulte [Serviços de audioconferência de idiomas com suporte](/MicrosoftTeams/audio-conferencing-supported-languages).
+- Para ver a lista de idiomas com suporte para videoconferências, consulte [idiomas aceitos por audioconferência](/MicrosoftTeams/audio-conferencing-supported-languages).
     
-- Você pode usar o cmdlet [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) para ver os números de telefone dedicado para serviços de audioconferência para sua organização.
+- Você pode usar o cmdlet [Get-csonlinedialinconferencingservicenumberhttp](https://go.microsoft.com/fwlink/?LinkId=617691) para ver os números de telefone dedicados para videoconferências para sua organização.
     
 - Você pode usar o cmdlet [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) para ver os idiomas que podem ser definidos em um número de telefone de discagem dedicado.
     
 - You can set up to four languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
     
-- Para definir o número de telefone de discagem para um usuário, consulte [Defina o telefone convidam números incluídos no](set-the-phone-numbers-included-on-invites.md).
+- Para definir o número de telefone de discagem de um usuário, consulte [definir os números de telefone incluídos nos convites](set-the-phone-numbers-included-on-invites.md).
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Experimentar ou comprar audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

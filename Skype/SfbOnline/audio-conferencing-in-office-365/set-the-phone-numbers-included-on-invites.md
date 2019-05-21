@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: c78a3fb140431dd46b3850e1d01e7fb29fb29210
-ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
+ms.openlocfilehash: 2f9d7c6960eb70cff28a941903e0646197bc4c4e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "32229410"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306306"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Definir os números de telefone incluídos nos convites no Skype for Business Online
 
@@ -81,7 +81,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
 
 ## <a name="reset-audio-conferencing-phone-numbers"></a>Redefinir os números de telefone de conferência de áudio
 
-1. No **Skype para centro de administração de negócios**, escolha a **conferência de áudio**.
+1. No **centro de administração do Skype for Business**, escolha **conferência de áudio**.
     
 2. Na parte superior da página, escolha **Usuários**.
     
@@ -107,25 +107,25 @@ By default, when you change a user's conferencing settings, an email is sent to 
 - Use o cmdlet **Set-CsOnlineDialInConferencingUserDefaultNumber** para mudar o número de chamada tarifada ou gratuita padrão de usuários com base no número padrão original ou no local.
     
     > [!NOTE]
-    > Para localizar o BridgeID, use o cmdlet **Get-CsOnlineDialInConferencingBridge** .
+    > Para localizar o Bridgeid, use o cmdlet **Get-CsOnlineDialInConferencingBridge** .
   
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
   ```
 
-  - Para definir o número de chamada gratuita padrão para todos os usuários sem um para +18005551234, execute:
+  - Para definir o número de chamada gratuita padrão de todos os usuários sem uma a + 18005551234, execute:
     
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
-  - Para alterar o número de chamada gratuita do padrão de todos os usuários que possuem +18005551234 como seu número de chamada gratuita padrão para +18005551239, execute:
+  - Para alterar o número de chamada gratuita padrão de todos os usuários que têm + 18005551234 como seu número de chamada gratuita padrão para + 18005551239, execute:
     
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
   ```
 
-  - Para definir o número de chamada gratuita do padrão de todos os usuários localizados nos EUA para +18005551234, execute:
+  - Para definir o número de chamada gratuita padrão de todos os usuários localizados nos EUA para + 18005551234, execute:
     
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>

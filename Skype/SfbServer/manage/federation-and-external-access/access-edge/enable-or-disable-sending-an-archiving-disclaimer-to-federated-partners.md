@@ -8,46 +8,46 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 2478d1f0a8b09fc8d2eff0f3131ad703a3bd72bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c2f64a617cae938ffe64ec8db313402785413c49
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919525"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280212"
 ---
-# <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>Habilitar ou desabilitar o envio de uma isenção de responsabilidade de arquivamento para parceiros federados no Skype para Business Server
+# <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>Habilitar ou desabilitar o envio de uma isenção de responsabilidade de arquivamento para parceiros federados no Skype for Business Server
 
-No momento você implantado servidores de borda e habilitado a federação para sua organização, você deve especificou se é enviar automaticamente a isenção de responsabilidade de arquivamento para parceiros federados. Se você arquivar comunicações externas, você deve habilitar o envio de uma isenção de responsabilidade de arquivamento. Use o procedimento neste tópico para alterar essa configuração.
+No momento em que você implantou seus servidores de borda e habilitou a Federação para a sua organização, você deve especificar se deseja enviar automaticamente a isenção de arquivo para parceiros federados. Se você arquivar comunicações externas, habilite o envio de uma isenção de arquivo morto. Use o procedimento deste tópico para alterar essa configuração.
 
 > [!NOTE]
-> O procedimento a seguir pressupõe que você já tiver habilitado a federação para sua organização. Para obter detalhes sobre como habilitar a federação, consulte [Habilitar ou desabilitar o acesso de usuário remoto](enable-or-disable-remote-user-access.md).
+> O procedimento a seguir pressupõe que você já habilitou a Federação para sua organização. Para obter detalhes sobre como habilitar a Federação, consulte [habilitar ou desabilitar o acesso de usuários remotos](enable-or-disable-remote-user-access.md).
 
 
 ## <a name="to-enable-or-disable-sending-of-an-archiving-disclaimer-to-federated-partners"></a>Para habilitar ou desabilitar o envio de uma isenção de responsabilidade de arquivamento para parceiros federados
 
 1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
 
-3.  Na barra de navegação à esquerda, clique em **Acesso de usuário externo**, clique em **Configuração de borda de acesso**.
+3.  Na barra de navegação à esquerda, clique em **acesso de usuário externo**, clique em **configuração de borda de acesso**.
 
 4.  Na guia **Configuração de Borda de Acesso**, clique em **Global**, em **Editar** e clique em **Mostrar detalhes**.
 
-5.  Em **Editar configuração de borda de acesso**, sob **Habilitar comunicações com usuários federados**, marque ou desmarque a caixa de seleção **Enviar aviso de isenção para parceiros federados de arquivamento** para habilitar ou desabilitar o envio automaticamente o arquivamento isenção de responsabilidade.
+5.  Em **Editar configuração de borda de acesso**, em **habilitar comunicações com usuários federados**, marque ou desmarque a caixa de seleção **Enviar isenção de arquivamento para parceiros federados** para habilitar ou desabilitar o envio automático do arquivamento isenção.
 
 6.  Clique em **Confirmar**.
 
-Para habilitar os usuários federados colaborar com usuários em sua Skype para implantação Business Server, você também deve ter configurado pelo menos uma política de acesso externo para suportar o acesso de usuário federado. Para obter detalhes sobre como controlar o acesso de domínios federados específicos, consulte [Configure suporte a domínios externos permitidos](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
+Para permitir que os usuários federados colaborem com usuários na implantação do Skype for Business Server, você também deve ter configurado pelo menos uma política de acesso externo para dar suporte ao acesso de usuários federados. Para obter detalhes sobre o controle do acesso a domínios federados específicos, consulte [Configurar o suporte para domínios externos permitidos](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
 
 
-## <a name="enabling-or-disabling-the-archiving-disclaimer-by-using-windows-powershell-cmdlets"></a>Habilitar ou desabilitar a isenção de responsabilidade de arquivamento usando cmdlets do Windows PowerShell
+## <a name="enabling-or-disabling-the-archiving-disclaimer-by-using-windows-powershell-cmdlets"></a>Habilitar ou desabilitar o arquivamento de isenção de responsabilidade usando cmdlets do Windows PowerShell
 
-O uso da isenção de responsabilidade de arquivamento pode ser gerenciado usando o Windows PowerShell e o cmdlet Set-CsAccessEdgeConfiguration. Este cmdlet pode ser executado a partir do Skype do Shell de gerenciamento do servidor de negócios ou de uma sessão remota do Windows PowerShell. 
+O uso da isenção de responsabilidade de arquivamento pode ser gerenciado usando o Windows PowerShell e o cmdlet Set-CsAccessEdgeConfiguration. Esse cmdlet pode ser executado no Shell de gerenciamento do Skype for Business Server ou em uma sessão remota do Windows PowerShell. 
 
 ## <a name="to-enable-the-archiving-disclaimer"></a>Para habilitar a isenção de responsabilidade de arquivamento
 
@@ -55,7 +55,7 @@ O uso da isenção de responsabilidade de arquivamento pode ser gerenciado usand
     
         Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
 
-## <a name="to-disable-the-archiving-disclaimer"></a>Para desabilitar a isenção de responsabilidade de arquivamento
+## <a name="to-disable-the-archiving-disclaimer"></a>Para desativar a isenção de responsabilidade de arquivamento
 
   - Para desabilitar a isenção de responsabilidade de arquivamento, defina o valor da propriedade **EnableArchivingDisclaimer** para Falso ($False):
     

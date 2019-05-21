@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: ID do chamador pode ser controlado para chamadas de entrada e saídas dos usuários de sistema telefônico usando uma política denominada CallingLineIdentity.
-ms.openlocfilehash: df6c7c053b5dce4ffb1d121a1adbf829efda9943
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: A identificação de chamadas pode ser controlada para chamadas de entrada e de saída para usuários do sistema telefônico usando uma política chamada CallingLineIdentity.
+ms.openlocfilehash: 9d15d51d0044ae15b04572f0b64a21912cea720a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229883"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305429"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Como a identificação de chamadas pode ser usada em sua organização
 
-ID do chamador pode ser controlado para chamadas de entrada e saídas dos usuários de sistema telefônico usando uma política denominada CallingLineIdentity.
+A identificação de chamadas pode ser controlada para chamadas de entrada e de saída para usuários do sistema telefônico usando uma política chamada CallingLineIdentity.
   
-A funcionalidade de ID do chamador está disponível para todos os usuários de sistema telefônico, independentemente de conectividade PSTN:
+A funcionalidade de identificação de chamadas está disponível para todos os usuários do sistema telefônico independentemente da conectividade PSTN:
   
 - Conectividade PSTN Online
     
@@ -55,7 +55,7 @@ Existem três opções disponíveis para a identificação de chamada PSTN de sa
     
 No entanto, você não pode atribuir esses tipos de números de telefone para identificação de chamada de saída:
   
-- Inventário de número de qualquer números de telefone que são classificados como um *usuário* no seu telefone de planos de chamada
+- Qualquer número de telefone classificado como um *usuário* em seu plano de número de telefone de planos de chamadas
     
 - Um número de telefone local do Skype for Business Server
     
@@ -65,7 +65,7 @@ Para definir a identificação de chamada de saída, consulte [Definir a identif
 
 The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
-Seus usuários finais podem definido sua ID de chamador como **anônimo** usando a guia **configurações** no Skype para o cliente de desktop de negócios, selecione **chamadas de um usuário final** (se habilitado pelo administrador), selecione informações de número e o perfil **Ocultar meu telefone para todas as chamadas **.
+Seus usuários finais podem definir a identificação de chamadas **** como anônimas usando a guia **configurações** no cliente da área de trabalho do Skype for Business, selecionar **chamadas para um usuário final** (se habilitado pelo administrador), selecionar **ocultar meu número de telefone e informações de perfil para todas as chamadas **.
   
 ||||
 |:-----|:-----|:-----|

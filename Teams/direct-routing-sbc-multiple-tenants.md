@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
@@ -14,123 +14,123 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: Saiba como configurar uma borda controlador sessão (SBC) para atender a vários locatários.
-ms.openlocfilehash: 83173a1972906629d7213d80e1290d789e021a87
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários.
+ms.openlocfilehash: 5392359307d97e010f86d3bb71f2f7c3f3d1ffb6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868652"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290465"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
-Roteamento direto suporta Configurando uma borda controlador sessão (SBC) para atender a vários locatários.
+O roteamento direto suporta a configuração de um SBC (controlador de borda de sessão) para atender a vários locatários.
 
 > [!NOTE]
-> Este cenário foi projetado para parceiros da Microsoft e/ou operadoras PSTN, conhecidas como operadoras posteriormente contidas neste documento. Uma operadora de telefonia vende entregues a Microsoft Teams aos clientes de serviços de telefonia. 
+> Esse cenário foi projetado para operadoras de parceiros da Microsoft e/ou PSTN, conhecidos como transportadoras mais adiante neste documento. Uma operadora vende serviços de telefonia entregues ao Microsoft Teams para seus clientes. 
 
-Uma operadora de telefonia:
-- Implanta e gerencia um SBC em datacenters (os clientes não precisam implementar um SBC e recebem serviços de telefonia da operadora no cliente equipes).
-- Interconexão o SBC para vários locatários.
-- Fornece serviços PSTN para os clientes.
-- Gerencia a qualidade da chamada ponta a ponta.
-- Encargos separadamente para serviços PSTN.
+Uma operadora:
+- Implanta e gerencia um SBC em seu datacenter (os clientes não precisam implementar um SBC e eles recebem serviços de telefonia da operadora no cliente do Teams).
+- Interconecta o SBC a vários locatários.
+- Fornece serviços PSTN aos clientes.
+- Gerencia a qualidade da chamada de ponta a ponta.
+- Cobranças separadamente para serviços PSTN.
 
-Microsoft não gerencia operadoras. Microsoft oferece um PBX (sistema de telefone da Microsoft) e um cliente de equipes, certifica telefones e certifica SBCs que podem ser usados com o sistema de telefone da Microsoft. Antes de escolher uma operadora de telefonia, verifique se sua escolha tem um SBC certificado e pode gerenciar a qualidade de voz ponta a ponta.
+A Microsoft não gerencia operadoras. A Microsoft oferece um PBX (Microsoft Phone System) e um cliente do Teams, certifica telefones e certifica SBCs que podem ser usados com o sistema telefônico da Microsoft. Antes de escolher uma operadora, certifique-se de que sua escolha tem um SBC certificado e pode gerenciar a qualidade de voz de ponta a ponta.
 
-A seguir estão as etapas de implementação técnica para configurar o cenário.
+Veja a seguir as etapas de implementação técnica para configurar o cenário.
 
-**Operadora:**
-1. Implante o SBC e configurá-lo para o cenário de hospedagem de acordo com as [instruções dos fornecedores certificados SBC](#deploy-and-configure-the-sbc).
-2. Registrar um nome de domínio base no locatário operadora e solicitar um certificado curinga.
-3. Registre um subdomínio para cada cliente, que é parte do domínio base.
+**Somente portadora:**
+1. Implante o SBC e configure-o para o cenário de Hospedagem de acordo com as [instruções dos fornecedores de SBC certificados](#deploy-and-configure-the-sbc).
+2. Registre um nome de domínio base no locatário da operadora e solicite um certificado curinga.
+3. Registre um subdomínio para cada cliente, que faz parte do domínio base.
 
-**Operadora com um Administrador Global do cliente:**
-1. Adicione o nome do subdomínio para o locatário do cliente.
-2. Ative o nome do subdomínio.
-3. Configure o tronco da operadora para os usuários de locatário e provisionar do cliente.
+**Operadora com um administrador global do cliente:**
+1. Adicione o nome de subdomínio ao locatário do cliente.
+2. Ativar o nome do subdomínio.
+3. Configure o tronco da transportadora para o locatário do cliente e provisionar usuários.
 
-*Verifique se que você entendeu os fundamentos DNS e como o nome de domínio é gerenciado no Office 365. Revise a [obter ajuda com o Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) antes de continuar.*
+*Certifique-se de compreender noções básicas de DNS e como o nome de domínio é gerenciado no Office 365. Examine [a ajuda para obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) antes de continuar.*
 
 ## <a name="deploy-and-configure-the-sbc"></a>Implantar e configurar o SBC
 
-Para obter as etapas detalhadas sobre como implantar e configurar SBCs para um cenário de hospedagem de SBC, consulte a documentação do fornecedor SBC.
+Para ver as etapas detalhadas sobre como implantar e configurar o SBCs para um cenário de hospedagem SBC, consulte a documentação do fornecedor do SBC.
 
-- **AudioCodes:** [Notas de configuração de roteamento direto](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), a configuração do SBC hospedando o cenário descrito em "Connecting AudioCodes SBC à Microsoft Teams direto roteamento Hosting modelo configuração nota". 
-- **Communications da faixa de opções:**  Consulte o [Guia de configuração da faixa de opções Communications SBC Core Microsoft equipes](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para documentação sobre como configurar a faixa de opções Core série SBCs e para essa página [prática recomendada de faixa de opções - configurando operadoras para Microsoft equipes direto roteamento SBC Borda](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **AudioCodes:** [Rotas diretas de configuração de roteamento](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), a configuração do cenário de Hospedagem de SBC descrito em "conectando AudioCodes SBC para a Microsoft Teams Direct Routing Host Configuration model observação". 
+- **Comunicações da faixa** de opções:  Consulte o guia de [configuração do Microsoft Teams SBC da faixa](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) de opções do Microsoft Teams para obter a documentação sobre como configurar a faixa de opções da faixa de opções SBCS e para esta página de [práticas recomendadas-configurando as operadoras do Microsoft Teams Direct Margem](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 
 > [!NOTE]
-> Por favor, preste atenção como configurar o cabeçalho "Contato". O cabeçalho de contato é usado para localizar o locatário do cliente na mensagem de entrada de convidar. 
+> Preste atenção em como configurar o cabeçalho "contato". O cabeçalho do contato é usado para localizar o locatário do cliente na mensagem de convite de entrada. 
 
 ## <a name="register-a-base-domain-and-subdomains"></a>Registrar um domínio base e subdomínios
 
 Para o cenário de hospedagem, você precisa criar:
-- Um nome de domínio base pertencente a operadora.
+- Um nome de domínio base pertencente à transportadora.
 - Um subdomínio que faz parte do nome do domínio base em cada locatário do cliente.
 
 No exemplo a seguir:
-- Adatum é uma operadora de telefonia que serve de vários clientes fornecendo serviços de Internet e telefonia.
-- Woodgrove Bank, Contoso e Adventure Works são três clientes que tenham domínios do Office 365, mas recebem os serviços de telefonia de Adatum.
+- Adatum é uma operadora que atende vários clientes fornecendo serviços de telefonia e de Internet.
+- Woodgrove Bank, contoso e Adventure Works são três clientes que têm domínios do Office 365, mas recebem os serviços de telefonia do adatum.
 
-Subdomínios **deve** correspondem ao nome do FQDN do tronco que será configurado para o cliente e o FQDN no cabeçalho contato ao enviar o convite para o Office 365. 
+Subdomínios **devem** coincidir com o nome FQDN do tronco que será configurado para o cliente e o FQDN no cabeçalho do contato ao enviar o convite para o Office 365. 
 
-Quando uma chamada chega a interface do roteamento direto do Office 365, a interface usa o cabeçalho de contato para encontrar o locatário onde o usuário deve ser consultado. Roteamento direta não usa pesquisa de número de telefone no convite da, como alguns clientes podem ter não-números que podem sobrepor-se em vários locatários. Portanto, o nome FQDN no cabeçalho do contato é necessária para identificar o locatário exato para consultar o usuário pelo número de telefone.
+Quando chega uma chamada na interface de roteamento direto do Office 365, a interface usa o cabeçalho do contato para localizar o locatário onde o usuário deve ser pesquisado. O roteamento direto não usa a pesquisa de número de telefone no convite, pois alguns clientes podem ter números não-participantes que podem sobrepor-se a vários locatários. Portanto, o nome FQDN no cabeçalho do contato é necessário para identificar o locatário exato para pesquisar o usuário pelo número de telefone.
 
-*Analise a [obter ajuda com o Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como criar nomes de domínio em locatários do Office 365.*
+*Consulte [obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como criar nomes de domínio nos locatários do Office 365.*
 
-O diagrama a seguir resume os requisitos de domínio base, subdomínios e cabeçalho de contato.
+O diagrama a seguir resume os requisitos para o domínio base, subdomínios e cabeçalho de contato.
 
-![Requisitos de domínio base, subdomínios e cabeçalho de contato](media/direct-routing-1-sbc-requirements.png)
+![Requisitos para domínio base, subdomínios e cabeçalho de contato](media/direct-routing-1-sbc-requirements.png)
 
-O SBC requer um certificado para autenticar as conexões. Para o cenário de hospedagem de SBC, a operadora precisa solicitar um certificado com SAN * \*.base_domain (por exemplo, \*customers.adatum.biz)*. Este certificado pode ser usado para autenticar conexões com vários locatários servidos de um único SBC.
+O SBC exige um certificado para autenticar as conexões. Para o cenário de hospedagem SBC, a transportadora precisa solicitar um certificado com San * \*. base_domain (por \*exemplo, Customers.adatum.biz)*. Esse certificado pode ser usado para autenticar conexões para vários locatários servidos a partir de um único SBC.
 
-A tabela a seguir está um exemplo de uma configuração.
+A tabela a seguir é um exemplo de uma configuração.
 
 
-|Novo nome de domínio |Tipo|Registrado  |Certificado SAN para SBC  |Domínio de padrão de Inquilino no exemplo  |Nome do FQDN que SBC deve apresentar no cabeçalho contato ao enviar chamadas para usuários|
+|Novo nome de domínio |Tipo|Removido  |SAN de certificado para SBC  |Domínio padrão do locatário no exemplo  |Nome FQDN que o SBC deve apresentar no cabeçalho do contato ao enviar chamadas para usuários|
 |---------|---------|---------|---------|---------|---------|
-|Customers.adatum.biz|    Base     |     No locatário operadora  |    \*. customers.adatum.biz  |   adatum.biz      |NA, este é um locatário de serviço, nenhum usuário |
-|sbc1.Customers.adatum.biz|    Subdomínio  |    Em um locatário do cliente  |    \*. customers.adatum.biz  | woodgrovebank.US  |  sbc1.Customers.adatum.biz|
-|sbc2.Customers.adatum.biz  |   Subdomínio | Em um locatário do cliente   |   \*. customers.adatum.biz   |contoso.com   |sbc2.Customers.adatum.biz |
-|sbc3.Customers.adatum.biz |   Subdomínio | Em um locatário do cliente |   \*. customers.adatum.biz  |  AdventureWorks.com | sbc3.Customers.adatum.biz |
+|customers.adatum.biz|    Polybase     |     No locatário da operadora  |    \*. customers.adatum.biz  |   adatum.biz      |No, este é um locatário de serviço, nenhum usuário |
+|sbc1.customers.adatum.biz|    Subdomínio  |    Em um locatário do cliente  |    \*. customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
+|sbc2.customers.adatum.biz  |   Subdomínio | Em um locatário do cliente   |   \*. customers.adatum.biz   |contoso.com   |sbc2.customers.adatum.biz |
+|sbc3.customers.adatum.biz |   Subdomínio | Em um locatário do cliente |   \*. customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
 ||         |         |         |         |         |
 
-Para configurar a base e os subdomínios, siga as etapas descritas abaixo. No exemplo, podemos configurar um nome de domínio básico (customers.adatum.biz) e um subdomínio para um cliente (sbc1.customers.adatum.biz no locatário Woodgrove Bank).
+Para configurar a base e subdomínios, siga as etapas descritas abaixo. No exemplo, configuraremos um nome de domínio base (customers.adatum.biz) e um subdomínio para um cliente (sbc1.customers.adatum.biz no locatário do Woodgrove Bank).
 
-## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>Registrar um nome de domínio base no locatário operadora
+## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>Registrar um nome de domínio base no locatário da operadora
 
-**Essas ações são executadas no locatário operadora.**
+**Essas ações são executadas no locatário da operadora.**
 
-### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>Certifique-se de que você tenha os direitos apropriados no locatário operadora
+### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>Certifique-se de ter os direitos apropriados no locatário da operadora
 
-Você só pode adicionar novos domínios se você entrou no Centro de administração do Microsoft 365 como um Administrador Global. 
+Você só poderá adicionar novos domínios se tiver entrado no centro de administração do Microsoft 365 como administrador global. 
 
-Para validar a função que você tiver, conecte-se ao centro de administração do Microsoft 365 (https://portal.office.com), vá para **usuários** > **Usuários ativos**e, em seguida, verifique se você possui uma função de Administrador Global. 
+Para validar a função que você tem, entre no centro de administração do Microsoft 365 (https://portal.office.com), vá para **** > usuários**ativos**do Microsoft e verifique se você tem uma função de administrador global. 
 
-Para obter mais informações sobre funções de administração e como atribuir uma função no Office 365, consulte [funções de administrador do Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Para obter mais informações sobre funções de administrador e como atribuir uma função no Office 365, consulte [sobre as funções de administrador do office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
-### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Adicionar um domínio de base para o inquilino e verifique se ele
+### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Adicionar um domínio base ao locatário e verificá-lo
 
-1.  No Centro de administração do Microsoft 365, vá para a **instalação** > **domínios** > **Adicionar domínio**.
-2.  Na caixa **Digite um domínio em que você é proprietário** , digite o FQDN do domínio base. No exemplo a seguir, o domínio de base é *customers.adatum.biz*.
+1.  No centro de administração do Microsoft 365, vá para **Configurar** > **domínios** > **Adicionar domínio**.
+2.  Na caixa **Insira um domínio que você possui** , digite o FQDN do domínio base. No exemplo a seguir, o domínio base é *Customers.adatum.biz*.
 
-    ![Adicionando um domínio de base](media/direct-routing-2-sbc-add-domain.png)
+    ![Adicionando um domínio base](media/direct-routing-2-sbc-add-domain.png)
 
 3. Click **Next**.
-4. No exemplo, o locatário já tiver adatum.biz como um nome de domínio verificado. O assistente não pedirá para verificação adicional porque customers.adatum.biz é um subdomínio para o nome já está registrado. No entanto, se você adicionar um FQDN que não foi verificado antes, você precisará percorrer o processo de verificação. O processo de verificação é [descrito abaixo](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
+4. No exemplo, o locatário já tem adatum.biz como um nome de domínio verificado. O assistente não solicitará verificação adicional, pois customers.adatum.biz é um subdomínio para o nome já registrado. No entanto, se você adicionar um FQDN que não tenha sido verificado antes, será necessário passar pelo processo de verificação. O processo de verificação está [descrito abaixo](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
     ![Confirmação de um nome de domínio verificado](media/direct-routing-3-sbc-verify-domain.png)
 
-5.  Clique em **Avançar**e na página **Configurações de DNS de atualização** , selecione **eu adicionará os registros DNS irei** e clique em **Avançar**.
-6.  Na próxima página, limpe todos os valores (a menos que você deseja usar o nome de domínio para o Exchange, SharePoint ou equipes/Skype for Business), clique em **Avançar**e, em seguida, clique em **Concluir**. Certifique-se de que seu novo domínio se situa o status de instalação completo.
+5.  Clique em **Avançar**e, na página **Atualizar configurações de DNS** , selecione **eu mesmo adiciono os registros DNS** e clique em **Avançar**.
+6.  Na próxima página, desmarque todos os valores (a menos que você queira usar o nome do domínio do Exchange, do SharePoint ou do teams/Skype for Business), clique em **Avançar**e, em seguida, clique em **concluir**. Verifique se o novo domínio está no status de configuração concluída.
 
-    ![Domínios mostrando o status da instalação completa](media/direct-routing-14-sbc-setup-complete.png)
+    ![Domínios mostrando o status de configuração concluída](media/direct-routing-14-sbc-setup-complete.png)
 
 ### <a name="activate-the-domain-name"></a>Ativar o nome de domínio
 
-Depois que você registrou um nome de domínio, você precisa ativá-lo adicionando pelo menos um E1, E3, ou E5 licenciados usuário e atribuir um endereço SIP com a parte do FQDN do SIP endereços correspondência o domínio base criado. 
+Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário licenciado E1, E3 ou E5 e atribuindo um endereço SIP à parte FQDN do endereço SIP correspondente ao domínio base criado. 
 
-*Analise a [obter ajuda com o Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre a adição de usuários em locatários do Office 365.*
+*Consulte [obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários nos locatários do Office 365.*
 
 Por exemplo: test@customers.adatum.biz
 
@@ -138,72 +138,72 @@ Por exemplo: test@customers.adatum.biz
 
 ## <a name="register-a-subdomain-name-in-a-customer-tenant"></a>Registrar um nome de subdomínio em um locatário do cliente
 
-Você precisará criar um nome de subdomínio exclusivo para cada cliente. Neste exemplo, criaremos um sbc1.customers.adatum.biz subdomínio em um locatário com o woodgrovebank.us de nome de domínio padrão.
+Será necessário criar um nome de subdomínio exclusivo para cada cliente. Neste exemplo, criaremos um subdomínio sbc1.customers.adatum.biz em um locatário com o nome de domínio padrão woodgrovebank.us.
 
-**Todas as ações a seguir estão no locatário do cliente.**
+**Todas as ações abaixo estão no locatário do cliente.**
 
-### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>Certifique-se de que você tenha os direitos apropriados no locatário do cliente
+### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>Certifique-se de ter os direitos apropriados no locatário do cliente
 
-Você só pode adicionar novos domínios se você entrou no Centro de administração do Microsoft 365 como um Administrador Global. 
+Você só poderá adicionar novos domínios se tiver entrado no centro de administração do Microsoft 365 como administrador global. 
 
-Para validar a função que você tiver, conecte-se ao centro de administração do Microsoft 365 (https://portal.office.com), vá para **usuários** > **Usuários ativos**e, em seguida, verifique se você possui uma função de Administrador Global. 
+Para validar a função que você tem, entre no centro de administração do Microsoft 365 (https://portal.office.com), vá para **** > usuários**ativos**do Microsoft e verifique se você tem uma função de administrador global. 
 
-Para obter mais informações sobre funções de administração e como atribuir uma função no Office 365, consulte [funções de administrador do Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Para obter mais informações sobre funções de administrador e como atribuir uma função no Office 365, consulte [sobre as funções de administrador do office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
-### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>Adicionar um subdomínio para o locatário do cliente e verifique se ele
-1. No Centro de administração do Microsoft 365, vá para a **instalação** > **domínios** > **Adicionar domínio**.
-2. Na caixa **Digite um domínio em que você é proprietário** , digite o FQDN do subdomínio para este locatário. No exemplo a seguir, o subdomínio é sbc1.customers.adatum.biz.
+### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>Adicionar um subdomínio ao locatário do cliente e verificá-lo
+1. No centro de administração do Microsoft 365, vá para **Configurar** > **domínios** > **Adicionar domínio**.
+2. Na caixa **Insira um domínio que você possui** , digite o FQDN do subdomínio para esse locatário. No exemplo a seguir, o subdomínio é sbc1.customers.adatum.biz.
 
     ![Adicionando um subdomínio do cliente](media/direct-routing-5-sbc-add-customer-domain.png)
 
 3. Click **Next**.
-4. O FQDN nunca foi registrado no inquilino. Na próxima etapa, você precisará verificar o domínio. Selecione **Adicionar um registro TXT em vez disso**. 
+4. O FQDN nunca foi registrado no locatário. Na próxima etapa, será necessário verificar o domínio. **Em vez disso, selecione Adicionar um registro txt**. 
 
     ![Opções na página verificar domínio](media/direct-routing-6-sbc-verify-customer-domain.png)
 
-5. Clique em **Avançar**e observe o valor do TXT gerado para verificar o nome de domínio.
+5. Clique em **Avançar**e observe o valor txt gerado para verificar o nome do domínio.
 
     ![Registros de texto na página verificar domínio](media/direct-routing-7-sbc-verify-domain-txt.png)
 
-6. Crie o registro TXT com o valor da etapa anterior no provedor de hospedagem de DNS da operadora.
+6. Crie o registro TXT com o valor da etapa anterior no provedor de Hospedagem de DNS da transportadora.
 
-    ![Criando o registro TXT no provedor de hospedagem de DNS da operadora](media/direct-routing-8-sbc-txt-record.png)
+    ![Criando o registro TXT no provedor de hospedagem DNS da operadora](media/direct-routing-8-sbc-txt-record.png)
 
-    Para obter mais informações, consulte [criar registros DNS em qualquer provedor de hospedagem de DNS para o Office 365](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
+    Para obter mais informações, consulte [criar registros DNS em qualquer provedor de Hospedagem de DNS para o Office 365](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
 
-7. Voltar ao centro de administração do Microsoft 365 do cliente e clique em **Verificar**. 
-8. Na página seguinte, selecione **eu adicionará os registros DNS irei** e clique em **Avançar**.
+7. Volte para o centro de administração do Microsoft 365 do cliente e clique em **verificar**. 
+8. Na próxima página, selecione **adicionarei os registros de DNS** e clique em **Avançar**.
 
-    ![Opções da página de configurações de DNS de atualização](media/direct-routing-9-sbc-update-dns.png)
+    ![Opções na página atualizar configurações de DNS](media/direct-routing-9-sbc-update-dns.png)
 
-9. Na página **Escolher seus serviços online** , desmarque todas as opções e clique em **Avançar**.
+9. Na página **escolher seus serviços online** , desmarque todas as opções e clique em **Avançar**.
 
-    ![Escolha sua página de serviços online](media/direct-routing-10-sbc-choose-services.png)
+    ![A página escolher seus serviços online](media/direct-routing-10-sbc-choose-services.png)
 
-10. Na página **configurações de atualização de DNS** , clique em **Concluir** .
+10. Clique em **concluir** na página **Atualizar configurações de DNS** .
 
-    ![A página de configurações de DNS de atualização](media/direct-routing-11-sbc-update-dns-finish.png)
+    ![A página atualizar configurações de DNS](media/direct-routing-11-sbc-update-dns-finish.png)
 
-11. Certifique-se de que o status é **Concluir a instalação**. 
+11. Certifique-se de que o status seja **configuração concluído**. 
     
-    ![Página mostrando o status da instalação completa](media/direct-routing-12-sbc-setup-complete.png)
+    ![Página mostrando o status da configuração concluída](media/direct-routing-12-sbc-setup-complete.png)
 
 ### <a name="activate-the-subdomain-name"></a>Ativar o nome do subdomínio
 
-Após registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário e atribuir um endereço SIP com a parte do FQDN do endereço SIP correspondente ao subdomínio criado no locatário do cliente.
+Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário e atribuir um endereço SIP à parte FQDN do endereço SIP correspondente ao subdomínio criado no locatário do cliente.
 
-*Analise a [obter ajuda com o Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre a adição de usuários em locatários do Office 365.*
+*Consulte [obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários nos locatários do Office 365.*
 
 Por exemplo: test@sbc1.customers.adatum.biz
 
-![Ativação da página subdomínio](media/direct-routing-13-sbc-activate-subdomain.png)
+![Ativação da página de subdomínio](media/direct-routing-13-sbc-activate-subdomain.png)
 
 ### <a name="create-a-trunk-and-provision-users"></a>Criar um tronco e provisionar usuários
 
 > [!NOTE]
-> Com base nos comentários que recebemos no programa de adoção técnicos, Microsoft pode alterar o processo de criação de troncos em Inquilinos do cliente para simplificar o processo. Por favor, assista as atualizações de documentação nesta página e siga os blogs de comunidade técnica da Microsoft para obter mais informações. 
+> Com base nos comentários que recebemos no programa de adoção técnica, a Microsoft pode alterar o processo de criação de troncos nos locatários do cliente para simplificar o processo. Assista às atualizações da documentação nesta página e siga os Blogs da comunidade técnica da Microsoft para obter mais informações. 
 
-Crie um tronco no domínio do cliente usando o comando New-CSonlinePSTNGateway. O tronco FQDN **deve** corresponder ao subdomínio criado para o cliente.
+Crie um tronco no domínio do cliente usando o comando New-CSonlinePSTNGateway. O FQDN do tronco **deve** corresponder ao subdomínio criado para o cliente.
 
 Por exemplo:
 
@@ -211,18 +211,18 @@ Por exemplo:
 New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
 ```
 
-Ao criar o tronco, você receberá a seguinte mensagem de erro:
+Ao criar o tronco, você pode receber a seguinte mensagem de erro:
 
 ```
 Can not use the "sbc1.customers.adatum.biz" domain as it was not configured for this tenant.
 ```
 
-Aguarde algum tempo para que o registro de domínio e ativação para replicar e tente novamente.
+Aguarde algum tempo para que o registro e a ativação do domínio se repliquem e tente novamente.
 
-Provisionar usuários com os números de telefone e configurar o roteamento de voz.
+Provisione usuários com os números de telefone e configure o roteamento de voz.
 
-Para obter mais informações sobre o New-CSOnlinePSTNGateway, provisionamento de usuários e configurando o roteamento de voz, consultem [Configurar o roteamento direto](direct-routing-configure.md).
+Para obter mais informações sobre o novo-CSOnlinePSTNGateway, os usuários de provisionamento e a configuração do roteamento de voz, consulte [Configurar o roteamento direto](direct-routing-configure.md).
 
 
-Consulte as [instruções do fornecedor SBC](#deploy-and-configure-the-sbc) sobre como configurar enviando o nome FQDN subdomínios no cabeçalho do contato.
+Consulte as instruções do [fornecedor do SBC](#deploy-and-configure-the-sbc) sobre como configurar o envio do nome FQDN dos subdomínios no cabeçalho do contato.
 

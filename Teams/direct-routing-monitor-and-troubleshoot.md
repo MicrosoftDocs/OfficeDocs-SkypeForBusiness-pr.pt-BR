@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: troubleshooting
 ms.service: msteams
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Este artigo descreve como monitorar e solucionar problemas de configuração de roteamento direto.
-ms.openlocfilehash: e21d3e020f477fd1518017e0d6fc484e7ea10344
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b4d53ad566cd0c31696ce688044ce1587d771a7d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402442"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290404"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Monitorar e solucionar problemas do Roteamento Direto
 
@@ -29,59 +29,59 @@ Este artigo descreve como monitorar e solucionar problemas de configuração de 
 A capacidade de fazer e receber chamadas usando o roteamento direto envolve os seguintes componentes: 
 
 - Controladores de borda de sessão (SBCs) 
-- Componentes de roteamento diretos no Microsoft Cloud 
+- Componentes de roteamento direto no Microsoft Cloud 
 - Troncos de telecomunicações 
 
-Se você tiver dificuldades para solução de problemas, abra um caso de suporte com seu fornecedor SBC ou o Microsoft. 
+Se você tiver dificuldades para solucionar problemas, abra um caso de suporte com o fornecedor do SBC ou a Microsoft. 
 
-Microsoft está trabalhando em fornecer mais ferramentas para o monitoramento e solução de problemas. Verifique a documentação periodicamente para atualizações. 
+A Microsoft está trabalhando para fornecer mais ferramentas para solução de problemas e monitoramento. Verifique a documentação em busca de atualizações periodicamente. 
 
-## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>Monitorar a disponibilidade dos controladores de borda de sessão usando mensagens de opções de protocolo de iniciação de sessão (SIP)
+## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>Monitorando a disponibilidade de controladores de borda de sessão usando mensagens de opções do protocolo de início de sessão (SIP)
 
-Roteamento direto usa opções SIP enviadas pelos controladores de borda de sessão para monitorar a integridade SBC. Não há nenhuma ação necessária do administrador do locatário para habilitar o monitoramento de SIP Options. As informações coletadas sejam levadas em consideração quando as decisões de roteamento são feitas. 
+O roteamento direto usa as opções de SIP enviadas pelos controladores de borda da sessão para monitorar a integridade do SBC. Não há nenhuma ação necessária do administrador do locatário para habilitar o monitoramento de opções SIP. As informações coletadas são levadas em consideração quando são feitas decisões de roteamento. 
 
-Por exemplo, se, para um usuário específico, existem várias SBCs disponíveis para encaminhar uma chamada, roteamento direto considera que as informações de SIP Options recebidas de cada SBC para determinar o roteamento. 
+Por exemplo, se, para um usuário específico, há vários SBCs disponíveis para direcionar uma chamada, o roteamento direto considera as informações de opções SIP recebidas de cada SBC para determinar o roteamento. 
 
 O diagrama a seguir mostra um exemplo da configuração: 
 
-![Exemplo de configuração de opções de SIP](media/sip-options-config-example.png)
+![Exemplo de configuração de opções SIP](media/sip-options-config-example.png)
 
-Quando um usuário faz uma chamada para o número +1 425 \<qualquer digits> sete, roteamento direto avalia a rota. Existem dois SBCs na rota: sbc1.contoso.com e sbc2.contoso.com. Ambos os SBCs possuem prioridade iguais na rota. Antes de separação um SBC, o mecanismo de circulação avalia a integridade dos SBCs com base em quando o SBC enviadas as opções de SIP última vez. 
+Quando um usuário faz uma chamada para número + 1 425 \<qualquer sete digits>, o roteamento direto avalia a rota. Há dois SBCs na rota: sbc1.contoso.com e sbc2.contoso.com. O SBCs tem prioridade igual na rota. Antes de escolher um SBC, o mecanismo de roteamento avalia a integridade do SBCs com base em quando o SBC enviou as opções de SIP pela última vez. 
 
-Um SBC é considerado Íntegro se estatísticas no momento do envio de chamada mostra que o SBC envia opções em um intervalo regular.  
+Um SBC é considerado Íntegro se as estatísticas no momento de enviar a chamada mostrarem que o SBC envia opções em um intervalo regular.  
 
-Roteamento direto calcula a intervalos regulares de acordo com a média de duas vezes quando o SBC envia opções antes de fazer a chamada e adicionar cinco minutos. 
+O roteamento direto calcula intervalos regulares levando duas vezes a média quando o SBC envia opções antes de fazer a chamada e adicionar cinco minutos. 
 
-Por exemplo, suponha que o seguinte: 
+Por exemplo, assuma o seguinte: 
 
-- Um SBC está configurado para enviar opções cada minuto. 
-- O SBC foi emparelhado às 11.00 AM.  
-- O SBC envia opções nos 11.01 AM, 11.02 AM e assim por diante.  
-- No 11.15, um usuário faz uma chamada e o mecanismo de circulação seleciona esta SBC. 
+- Um SBC está configurado para enviar as opções a cada minuto. 
+- O SBC foi emparelhado em 11, 0 AM.  
+- O SBC envia opções em 11, 1 AM, 11, 2 AM e assim por diante.  
+- Em 11,15, um usuário faz uma chamada e o mecanismo de roteamento seleciona esse SBC. 
 
-A lógica a seguir é aplicada: duas vezes o intervalo de médio quando o SBC envia opções (um minuto mais um minuto = dois minutos) e mais de cinco minutos = sete minutos. Esse é o valor do intervalo para o SBC regular.
+A seguinte lógica é aplicada: duas vezes o intervalo médio quando o SBC envia opções (um minuto mais um minuto = dois minutos) mais cinco minutos = sete minutos. Esse é o valor do intervalo regular para o SBC.
  
-Se o SBC em nosso exemplo enviada opções em qualquer período entre 11.08 AM e 11.15 AM (o tempo que a chamada foi feita), ele é considerado íntegro. Caso contrário, o SBC vai ser rebaixado da rota. 
+Se o SBC em nosso exemplo enviou opções em qualquer período entre 11, 8 AM e 11,15 AM (o tempo em que a chamada foi feita), ele é considerado íntegro. Caso contrário, o SBC será rebaixado da rota. 
 
-Rebaixamento significa que o SBC não será testado pela primeira vez. Por exemplo, temos sbc1.contoso.com e sbc2.contoso.com com prioridade igual.  
+O rebaixamento significa que o SBC não será tentado primeiro. Por exemplo, temos sbc1.contoso.com e sbc2.contoso.com com prioridade igual.  
 
-Se sbc1.contoso.com não enviar SIP Options em intervalos regulares, conforme descrito acima, ele será rebaixado. Em seguida, sbc2.contoso.com tentará para a chamada. Se sbc2.contoso.con não é possível entregar a chamada, o sbc1.contoso.com (rebaixado) for testado novamente antes que uma falha seja gerada. 
+Se o sbc1.contoso.com não enviar opções de SIP em um intervalo regular, conforme descrito acima, ele será rebaixado. Em seguida, sbc2.contoso.com tenta fazer a chamada. Se sbc2. contoso. con não puder enviar a chamada, o sbc1.contoso.com (rebaixado) será tentado novamente antes de uma falha ser gerada. 
 
-## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Monitore os logs SBC e painel de análise de qualidade de chamada 
+## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Monitorar o painel de análise de qualidade de chamada e os logs SBC 
  
-Em alguns casos, especialmente durante o emparelhamento inicial, pode haver problemas relacionados à configuração incorreta dos SBCs e/ou o serviço de roteamento direto. 
+Em alguns casos, especialmente durante o emparelhamento inicial, podem haver problemas relacionados à configuração incorreta do SBCs e/ou do serviço de roteamento direto. 
 
-Você pode usar as seguintes ferramentas para monitorar sua configuração:  
+Você pode usar as seguintes ferramentas para monitorar a configuração:  
  
 - Painel de Qualidade da Chamada 
 - Logs SBC 
 
-O serviço de roteamento direto tem os códigos de erro de muito descritivo reportados para análise de chamada ou os logs SBC. 
+O serviço de roteamento direto tem códigos de erro muito descritivos relatados para os logs de análise de chamada ou de SBC. 
 
-O painel de controle de qualidade de chamada fornece informações sobre a qualidade da chamada e a confiabilidade. Para saber mais sobre como solucionar problemas usando a análise de chamada, consulte [ativem e usando o painel de qualidade de chamada para equipes da Microsoft e Skype para Business Online](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) e [Análise de uso chamada solucionar problemas de qualidade de chamadas ruins](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality). 
+O painel de qualidade de chamada fornece informações sobre a qualidade da chamada e a confiabilidade. Para saber mais sobre como solucionar problemas usando a análise de chamadas, consulte [ativar e usar o painel de qualidade de chamada para Microsoft Teams e Skype for Business online](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) e [usar a análise de chamadas para solucionar problemas de qualidade de chamada deficiente](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality). 
 
-No caso de falhas de chamada, chamada Analytics fornece códigos SIP padrão para ajudar a solucionar problemas. 
+Em caso de falhas de chamadas, o recurso de análise de chamadas fornece códigos SIP padrão para ajudá-lo a solucionar o problema. 
 
-![Exemplos de código SIP de falha de ligação](media/failed-response-code.png)
+![Exemplo de código SIP para falha na chamada](media/failed-response-code.png)
 
-No entanto, chamar Analytics só pode ajudar quando chamadas alcançar os componentes internos do roteamento direto e falharem. No caso de problemas com pareamento de SBC ou onde SIP "Convidar" foi rejeitada (por exemplo, o nome do tronco que FQDN foi definida incorretamente), análise de chamada não ajudará. Nesse caso, consulte os logs SBC. Roteamento direto envia uma descrição detalhada de problemas para os SBCs; Esses problemas podem ser lidas dos logs SBC. 
+No entanto, a análise de chamadas só pode ajudar quando chamadas chegam aos componentes internos de roteamento direto e falham. Em caso de problemas com emparelhamento de SBC ou problemas nos quais o SIP "INVITE" foi recusado (por exemplo, o nome do FQDN do tronco está configurado incorretamente), a análise de chamadas não ajuda. Nesse caso, confira os logs SBC. O roteamento direto envia uma descrição detalhada de problemas para o SBCs; esses problemas podem ser lidos nos logs SBC. 

@@ -1,5 +1,5 @@
 ---
-title: Guia do usuário do IP retransmissão Canadá
+title: Guia do usuário do IP Relay para o Canadá
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
@@ -18,67 +18,67 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Como usar uma conta de retransmissão de IP para o Canadá.
-ms.openlocfilehash: b5f6d268db302b4b0446c5f692bb7e27daa60b17
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8fa60a7e8a5b91326733aacde610bc2ed125a627
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32224188"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306554"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>IP Relay no Canadá - Manual de instruções
 
-Descrição do serviço de retransmissão de mensagem de IP da Microsoft:
+Descrição do serviço de transmissão de mensagens IP da Microsoft:
 
 ## <a name="scenario-a"></a>Cenário A
-Se uma pessoa com deficiência auditiva ou à voz desejar contatar uma pessoa não portadores de deficiência, eles "chat" por meio de um cliente baseado na web especial para um operador chamado pessoa que fez uma chamada.
+Se uma pessoa com deficiência auditiva ou com deficiência auditiva quiser entrar em contato com um indivíduo não relacionado, ele "conversar" por meio de um cliente da Web especial para um agente chamado de Secretário.
 
-Pessoa que fez a chamada, em seguida, se comunica com as pessoas com deficiência auditiva ou à voz através da sessão de bate-papo e entra em contato com a pessoa não portadores de deficiência através da rede telefônica em qualquer lugar no Canadá ou dos Estados Unidos, conforme necessário.
+O responsável pela chamada então se comunica com a pessoa com deficiência auditiva ou com deficiências, por meio da sessão de chat, e entra em contato com a pessoa não-emparelhada por meio da rede telefônica em qualquer lugar no Canadá ou nos Estados Unidos, conforme necessário.
 
 ## <a name="scenario-b"></a>Cenário B
-Se uma pessoa com deficiências não desejar conversar com um usuário registrado - ou voz-com deficiência auditiva, ligarem o número de chamada gratuito como fornecido pela Microsoft.
+Se uma pessoa sem deficiências quiser falar com um usuário cadastrado com deficiência auditiva, ele chamará o número de chamada gratuita fornecido pela Microsoft.
 
-Pessoa que fez a chamada, em seguida, se comunica com a pessoa não portadores de deficiência e entra em contato com a pessoa com deficiência auditiva ou à voz via bate-papo e se comunica e para trás.
+O responsável pela chamada e, em seguida, comunica-se com a pessoa não afetada e entra em contato com a pessoa com deficiência auditiva pelo chat e se comunica de volta e para frente.
 
-A pessoa com deficiência auditiva ou à voz não deve estar online no programa de bate-papo, se um endereço de email estiver disponível pessoa que fez a chamada enviará um email para as pessoas com deficiência auditiva ou à voz, se solicitado pelo chamador.
+Se um endereço de email estiver disponível, a pessoa com deficiência auditiva não está online no programa de chat, se um endereço de email estiver disponível, o responsável pela chamada enviará um email para a pessoa com deficiência auditiva, se solicitado pelo chamador.
 
 ## <a name="scenario-c"></a>Cenário C
-Se uma pessoa com deficiência auditiva ou à voz requer a assistência de emergência, ele pode selecionar o botão apropriado: 911 – polícia / 911 – acionada / 911 – serviço de Ambulâncias.
+Se uma pessoa com deficiência auditiva ou com deficiências de voz exigir assistência de emergência, ela poderá selecionar o botão apropriado: 911 – polícia/911 – Fire/911 – Ambulance.
 
-Isso enviará uma notificação de emergência para os operadores de retransmissão de IP Norte, que acessarão, em seguida, a conta 911 projetada para essa finalidade. Depois que a pessoa que fez a chamada tiver confirmado seu endereço, eles serão entre em contato com o PSAP apropriado e permaneçam na linha para, desde que o necessário.
+Isso enviará uma notificação de emergência para os operadores de retransmissão de IP do Norte, que acessarão a conta do 911 projetada para essa finalidade. Depois que o Secretário confirmar seu endereço, ele entrará em contato com o PSAP apropriado e permanecerá na linha, por quanto tempo for necessário.
 
-## <a name="how-to-place-a-text-chat-to-voice-call"></a>Como colocar um chamada de voz chat de texto
+## <a name="how-to-place-a-text-chat-to-voice-call"></a>Como colocar um chat de texto em uma chamada de voz
 
 https://aka.ms/IPRelay
 
-Para iniciar um texto a ser chamada de voz, vá para a URL acima e faça logon com seu nome de usuário de retransmissão de mensagem IP e a senha.
+Para iniciar uma chamada de texto para voz, vá para a URL acima e conecte-se com seu nome de usuário e senha de retransmissão de mensagem IP.
 
-Depois de fazer logon, você verá instruções exibidas no lado esquerdo da tela.
+Depois de conectar-se, você verá instruções exibidas no lado esquerdo da tela.
 
-### <a name="how-to-make-a-text-to-voice-call"></a>Como tornar um texto para a chamada de voz:
-1. No canto inferior direito da tela, clique em **Chat**.
-2. Clique no usuário **IPRelay** .
-3. Na parte inferior da nova caixa de pop-up, digite sua mensagem.
+### <a name="how-to-make-a-text-to-voice-call"></a>Como fazer uma chamada de texto para voz:
+1. No canto inferior direito da tela, clique em **chat**.
+2. Clique no usuário do **IPRelay** .
+3. Na parte inferior da nova caixa exibida, digite sua mensagem.
 
-### <a name="how-to-receive-a-voice-to-text-call"></a>Como receber uma chamada de texto de voz:
-- Usuários de voz precisará saber seu nome de usuário de retransmissão de mensagem de IP para colocar uma chamada de texto de voz.
-- Usuários de voz podem chamar (866) 660-8613 para se conectar com um operador de retransmissão de mensagem de IP.
-- Você deve estar conectado ao portal para receber chamadas ou chats retransmissão de mensagem de IP.
+### <a name="how-to-receive-a-voice-to-text-call"></a>Como receber uma chamada de voz para texto:
+- Os usuários de voz precisarão saber o nome de usuário de retransmissão de mensagens IP para fazer uma chamada de voz para texto.
+- Os usuários de voz podem chamar (866) 660-8613 para se conectarem a um operador IP de retransmissão de mensagens.
+- Você deve estar conectado ao portal de retransmissão de mensagens IP para receber chamadas ou chats.
 
-### <a name="how-to-place-a-911-call"></a>Como colocar uma chamada para 911:
-Se você enfrentar uma emergência, você pode selecionar o botão apropriado de emergência localizado na parte inferior da tela (conforme mostrado abaixo).
+### <a name="how-to-place-a-911-call"></a>Como fazer uma chamada do 911:
+Se você tiver uma emergência, poderá selecionar o botão de emergência apropriado localizado na parte inferior da tela (como mostrado abaixo).
 
 ![Botões de emergência](../images/ip-relay-emergency-buttons.png)
 
-O operador de retransmissão de mensagem IP contata o 911, confirme seu endereço e traduzir com vários centros de emergências até que ele ou ela não é mais necessária, e foi despachado departamento apropriado para seu local.
+O operador de retransmissão de mensagens IP entrará em contato com o 911, confirmará seu endereço e se transformará em várias centrais de emergência até que ele não seja mais necessário, e o departamento apropriado será enviado para a sua localização.
 
 > [!WARNING]
-> Não teste desse serviço, conforme apropriada agência será contatada e possivelmente despachada, mesmo se você indicar é simplesmente um teste, e você pode ser cobrado uma taxa de expedição false da agência emergência.
+> Não teste este serviço, pois a Agência apropriada será contatada e, possivelmente, despachada, mesmo que você indique que é simplesmente um teste, e você poderá ser cobrado uma taxa de expedição falsa da Agência de emergência.
 
 #### <a name="customer-support"></a>Suporte ao cliente:
-Entre em contato com projetos especiais em [specialprojects@northern911.com](mailto:specialprojects@northern911.com) ou (705) 222-1733.
+Entre em contato com projetos especiais na [specialprojects@northern911.com](mailto:specialprojects@northern911.com) ou (705) 222-1733.
 
 > [!IMPORTANT]
-> Northern911 gerencia o serviço de retransmissão IP em nome da Microsoft.
+> O Northern911 gerencia o serviço de transmissão de IP em nome da Microsoft.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

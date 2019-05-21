@@ -3,19 +3,19 @@ title: Domínios confiáveis do Sistema de Salas do Skype
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fb63ad4-6eda-4724-be63-10bf5e65cb2b
 description: Leia este tópico para aprender a configurar domínios confiáveis do Sistema de Salas do Skype e do Skype for Business.
-ms.openlocfilehash: ff8f75178fef21900292760fb71f53ea3746380c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eacc468508ba9107534ce4ac729edf0d0d6c895d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895044"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287867"
 ---
 # <a name="skype-room-system-trusted-domains"></a>Domínios confiáveis do Sistema de Salas do Skype
  
@@ -23,8 +23,8 @@ Leia este tópico para aprender a configurar domínios confiáveis do Sistema de
   
 ## <a name="trusted-domains"></a>Domínios confiáveis
 
-O Skype para cliente corporativos exibe uma caixa de diálogo que permite aos usuários aceitar o certificado a partir do Skype para Business Server, se o domínio SIP da conta de usuário entrando for diferente do nome apresentado no assunto ou nome alternativo da entidade do certificado. Se o certificado configurado para Skype para Business Server em sua organização não tiver o nome de domínio SIP da conta de sistema do Skype sala no assunto ou nome alternativo da entidade, você deve configurar os domínios apresentados no certificado sob os domínios confiáveis chave do registro na máquina do console do sistema do Skype sala. Guia de sistema de sala Skype fornecida pelo fabricante Skype sala do administrador do sistema explica como e onde adicionar domínios confiáveis no Skype para o cliente de negócios. 
+O cliente Skype for Business exibe uma caixa de diálogo que permite que os usuários aceitem o certificado do servidor do Skype for Business se o domínio SIP da conta de usuário que está entrando for diferente do nome apresentado no nome do assunto ou assunto Alt do assunto no certificado. Se o certificado configurado para o Skype for Business Server em sua organização não tiver o nome de domínio SIP da conta do sistema de sala do Skype no assunto ou nome Alt do assunto, você deve configurar esses domínios apresentados no certificado nos domínios confiáveis chave do registro na máquina do console do sistema de sala do Skype. O guia do administrador do seu sistema de salas da Skype, fornecido pelo fabricante, explica como e onde adicionar domínios confiáveis ao cliente Skype for Business. 
   
-Por exemplo, suponha que os certificados configurados no Skype para Business Server têm um nome de Alt do assunto/assunto de "CONTOSO. "LOCAL" e um dos domínios SIP atribuídos a um usuário para o endereço de entrada no sistema de sala do Skype é "confrm1@contoso.net". Porque contoso.net é não no certificado, na máquina do sistema do Skype sala, você precisará configurar "contoso" como um domínio confiável no registro, conforme explicado no guia de sistema de sala Skype fornecida pelo fabricante Skype sala do administrador do sistema. 
+Por exemplo, suponha que os certificados configurados no Skype for Business Server tenham um nome Alt assunto/assunto de "CONTOSO. LOCAL "e um dos domínios SIP atribuídos a um usuário para o endereço de entrada do sistema de sala do Skype é" confrm1@contoso.net ". Como o contoso.net não está no certificado, na máquina do sistema de sala do Skype, você precisará configurar "contoso. local" como um domínio confiável no registro, conforme explicado no fabricante do seu sistema de salas da Skype guia do administrador do Skype. 
   
 

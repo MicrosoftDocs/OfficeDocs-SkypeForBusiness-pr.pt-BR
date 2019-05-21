@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PublishTopologySelectCmsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
-description: Publicar a topologia que você configurou usando o construtor de topologia. Será solicitado que você selecione em uma lista na qual pool de Front-End ou de servidor Front-End assumirá a função de reter o repositório de gerenciamento Central. Somente um pool de Front-End ou de servidor Front-End pode conter esta função em um determinado momento.
-ms.openlocfilehash: 196749458bcae93e040e5ed9039a588d3959fb30
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Você publica a topologia que você configurou usando o construtor de topologias. Você será solicitado a selecionar em uma lista qual servidor front-end ou pool de front-end assumirá a função de manter o repositório de gerenciamento central. Somente um servidor front-end ou um pool de front-end pode reter essa função a qualquer momento.
+ms.openlocfilehash: 8f529f9b7fb303a7c5477bd28eea6d2881960937
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910445"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289842"
 ---
 # <a name="publish-topology-select-cms-page"></a>Publicar Página CMS de Seleção de Topologia
 
-Publicar a topologia que você configurou usando o construtor de topologia. Será solicitado que você selecione em uma lista na qual pool de Front-End ou de servidor Front-End assumirá a função de reter o repositório de gerenciamento Central. Somente um pool de Front-End ou de servidor Front-End pode conter esta função em um determinado momento.
+Você publica a topologia que você configurou usando o construtor de topologias. Você será solicitado a selecionar em uma lista qual servidor front-end ou pool de front-end assumirá a função de manter o repositório de gerenciamento central. Somente um servidor front-end ou um pool de front-end pode reter essa função a qualquer momento.
 
-Para obter mais informações sobre o repositório de gerenciamento Central é, consulte [Mover o servidor de gerenciamento Central do Lync Server 2010 para o Lync Server 2013](https://technet.microsoft.com/library/30cc98f2-1916-4dbe-99d0-8df5368ed3ec.aspx).
+Para obter mais informações sobre o que é o repositório de gerenciamento central, consulte [mover o servidor de gerenciamento central do Lync Server 2010 para o Lync server 2013](https://technet.microsoft.com/library/30cc98f2-1916-4dbe-99d0-8df5368ed3ec.aspx).
 
 ## <a name="see-also"></a>Confira também
 

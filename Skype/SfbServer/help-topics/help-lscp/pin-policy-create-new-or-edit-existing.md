@@ -1,11 +1,11 @@
 ---
-title: Política PIN criar nova ou editar existente
+title: Política de PIN criar novo ou editar existente
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.SecPinPolicyEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 19f99712050d9914398b2865b0b0302a151e050e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8b5a082d4bc9f547e01110c4dc97324d3eeba5a0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906603"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291078"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>Política PIN: Criar Nova ou Editar Existente
 
@@ -36,5 +36,5 @@ O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 
 - [Delete Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte [gerenciar o Skype for Business server 2015](../../manage/manage.md).
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.FrontEndServersScopeNode
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'O nó de Pools de Front-Ends Enterprise Edition lista os pools de Front-Ends neste site, e o nó de Servidores Front-End Standard Edition lista os servidores Standard Edition neste site. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 676bbbd74153842e4517a2acba667c2eeaa5cbac
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bfa2d36322fa868e0ba55dce62cee35cb3c7150a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919827"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306015"
 ---
 # <a name="front-end-servers-scope-node"></a>Nó de Escopo de Servidores Front-End
  

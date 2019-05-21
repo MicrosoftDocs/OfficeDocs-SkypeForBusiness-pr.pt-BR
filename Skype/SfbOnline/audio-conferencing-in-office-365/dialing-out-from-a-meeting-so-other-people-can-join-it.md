@@ -1,5 +1,5 @@
 ---
-title: Discagem externa de um Skype para reunião de negócios para que outras pessoas poderá ingressar nela
+title: Discando de uma reunião do Skype for Business para que outras pessoas possam participar dela
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,50 +12,50 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Saiba o que você precisa e como os organizadores de reunião podem chamar para outras pessoas usando o Skype para negócios.
-ms.openlocfilehash: 49130a14391e014d1e7aea21c62abaf2385296d8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Saiba o que você precisa e como os organizadores da reunião podem fazer chamadas para outras pessoas que usam o Skype for Business.
+ms.openlocfilehash: 4f46315c7817ad7e8e529fabff9a3a333527a266
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229531"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306116"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Discagem externa de um Skype para reunião de negócios para que outras pessoas poderá ingressar nela
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Discando de uma reunião do Skype for Business para que outras pessoas possam participar dela
 
 > [!NOTE]
-> Se você estiver procurando informações sobre discando check-out de uma reunião de equipes, consulte [discando check-out de uma reunião de equipes para que outras pessoas poderá ingressar nela](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
+> Se você estiver procurando por informações sobre como discar de uma reunião do Teams, consulte [discagem de uma reunião do teams para que outras pessoas possam participar dela](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
 
-Como organizador da reunião, você pode discar usando o Skype para o aplicativo de negócios para permitir que o ingresso de outras pessoas na reunião mesma usando seus telefones. Embora ele não é obrigatório, quando você estiver discando a alguém, é recomendável que você disque o número completo, incluindo o código de país/região. Para obter a discagem externa para funcionar:
+Como organizador da reunião, você pode discar usando o aplicativo Skype for Business para permitir que outras pessoas participem da mesma reunião usando o telefone. Embora isso não seja obrigatório, quando você está discando para alguém, é recomendável discar o número completo, incluindo o código de país/região. Para fazer chamadas discadas para funcionar:
   
-- Você pode discar somente se você ingressar em uma reunião usando um Skype para o aplicativo de negócios.
+- Você pode discar somente se ingressar em uma reunião usando um aplicativo Skype for Business.
     
-- Você, como o organizador da reunião tiverem sido habilitados para conferência de áudio.
+- Você como o organizador da reunião foi habilitado para videoconferências.
 
-Para adicionar outros participantes por meio de discagem para as reuniões da sua organização, pelo menos um usuário autenticado da mesma organização que o organizador (sua organização) é necessário estar presentes na reunião para permitir a adição de outros participantes por meio de discagem. 
+Para adicionar outros participantes via discagem para as reuniões de sua organização, pelo menos um usuário autenticado da mesma organização que o organizador (sua organização) precisa estar presente na reunião para permitir a adição de outros participantes via discagem externa. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
- **Etapa 1:** Na reunião convidar, use a opção **Convidar mais pessoas** podem para discar para um número de telefone.
+ **Etapa 1:** Na reunião convidar, use a opção **convidar mais pessoas** para discar para um número de telefone.
   
-![Discagem externa com Skype para negócios.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
+![Discada com o Skype for Business.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
   
- **Etapa 2:** Insira o número de telefone completo, incluindo o código de país/região na caixa.
+ **Etapa 2:** Digite o número de telefone completo, incluindo o código de país/região na caixa.
   
-![Número de telefone de discagem no Skype para negócios](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![Número de telefone de discagem externa no Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
-## <a name="supported-countries-and-regions"></a>Regiões e países com suporte
+## <a name="supported-countries-and-regions"></a>Países e regiões aceitos
 
-Discagem externa só está disponível para alguns países/regiões. Para obter uma lista completa, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+O recurso de discagem externa só está disponível para alguns países/regiões. Para obter uma lista completa, consulte [disponibilidade de país e região para conferências de áudio e planos de chamadas](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
   
-## <a name="want-to-know-more-about-audio-conferencing"></a>Quer saber mais sobre serviços de audioconferência?
+## <a name="want-to-know-more-about-audio-conferencing"></a>Quer saber mais sobre a conferência de áudio?
 
 [Experimentar ou comprar audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
