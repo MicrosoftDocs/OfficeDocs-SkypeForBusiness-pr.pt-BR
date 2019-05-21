@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddBranchOfficeAppliancePoolPage
@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para definir o FQDN de aparelho de filial persistente, digite o nome de domínio totalmente qualificado (FQDN) (conforme definido no sistema de nome de domínio (DNS)) do aparelho de filial persistente ou servidor de filial persistente na caixa de texto FQDN. Clique em Avançar para continuar.
-ms.openlocfilehash: be3a1d26e9916876de57f08032e53c46d4539dd6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Para definir o FQDN do aparelho de ramificação sobreviventes, digite o FQDN (nome de domínio totalmente qualificado) (conforme definido no sistema de nomes de domínio (DNS)) do aparelho de ramificação sobreviventes ou do servidor de ramificação sobreviventes na caixa de texto FQDN. Clique em Avançar para continuar.
+ms.openlocfilehash: 422e509d011fcecfea8a35fa2a9d72034686908a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889317"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288147"
 ---
-# <a name="add-survivable-branch-appliance-pool"></a><span data-ttu-id="153c4-104">Adicionar Pool de Aparelho de Escritório Persistente</span><span class="sxs-lookup"><span data-stu-id="153c4-104">Add Survivable Branch Appliance Pool</span></span>
+# <a name="add-survivable-branch-appliance-pool"></a><span data-ttu-id="324c5-104">Adicionar Pool de Aparelho de Escritório Persistente</span><span class="sxs-lookup"><span data-stu-id="324c5-104">Add Survivable Branch Appliance Pool</span></span>
  
-<span data-ttu-id="153c4-105">Para **definir o FQDN de aparelho de filial persistente**, digite o nome de domínio totalmente qualificado (FQDN) (conforme definido no sistema de nome de domínio (DNS)) do aparelho de filial persistente ou servidor de filial persistente na caixa de texto **FQDN** .</span><span class="sxs-lookup"><span data-stu-id="153c4-105">To **Define the Survivable Branch Appliance FQDN**, type the fully qualified domain name (FQDN) (as defined in Domain Name System (DNS)) of the Survivable Branch Appliance or Survivable Branch Server in the **FQDN** text box.</span></span> <span data-ttu-id="153c4-106">Clique em **Avançar** para continuar.</span><span class="sxs-lookup"><span data-stu-id="153c4-106">Click **Next** to continue.</span></span>
+<span data-ttu-id="324c5-105">Para **definir o FQDN do aparelho de ramificação sobreviventes**, digite o FQDN (nome de domínio totalmente qualificado) (conforme definido no sistema de nomes de domínio (DNS)) do aparelho de ramificação sobreviventes ou do servidor de ramificação sobreviventes na caixa de texto **FQDN** .</span><span class="sxs-lookup"><span data-stu-id="324c5-105">To **Define the Survivable Branch Appliance FQDN**, type the fully qualified domain name (FQDN) (as defined in Domain Name System (DNS)) of the Survivable Branch Appliance or Survivable Branch Server in the **FQDN** text box.</span></span> <span data-ttu-id="324c5-106">Clique em **Avançar** para continuar.</span><span class="sxs-lookup"><span data-stu-id="324c5-106">Click **Next** to continue.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="153c4-107">Salvo especificação em contrário, definir um aparelho de filial persistente ou um servidor de filial persistente é o mesmo procedimento.</span><span class="sxs-lookup"><span data-stu-id="153c4-107">Unless it is stated otherwise, defining a Survivable Branch Appliance or a Survivable Branch Server is the same procedure.</span></span> 
+> <span data-ttu-id="324c5-107">A menos que seja declarado de outra forma, a definição de um aparelho de ramificação sobreviventes ou um servidor de ramificação sobreviventes é o mesmo procedimento.</span><span class="sxs-lookup"><span data-stu-id="324c5-107">Unless it is stated otherwise, defining a Survivable Branch Appliance or a Survivable Branch Server is the same procedure.</span></span> 
   
 

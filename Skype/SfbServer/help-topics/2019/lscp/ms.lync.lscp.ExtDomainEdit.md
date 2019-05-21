@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ExtDomainEdit
@@ -13,19 +13,19 @@ localization_priority: Normal
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: d4a5793d20126df194820efe04abea98d9ff5f9d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1834f59a2141ac27bcac2ec3a3ead765d72678dd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891548"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287758"
 ---
-# <a name="federated-domains-create-new-or-edit-existing"></a><span data-ttu-id="57735-104">Domínios Federados: Criar Novos ou Editar Existentes</span><span class="sxs-lookup"><span data-stu-id="57735-104">Federated Domains: Create New or Edit Existing</span></span>
+# <a name="federated-domains-create-new-or-edit-existing"></a><span data-ttu-id="6d303-104">Domínios Federados: Criar Novos ou Editar Existentes</span><span class="sxs-lookup"><span data-stu-id="6d303-104">Federated Domains: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="57735-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="57735-105">What do you want to do?</span></span> <span data-ttu-id="57735-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="57735-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="6d303-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="6d303-105">What do you want to do?</span></span> <span data-ttu-id="6d303-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="6d303-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="57735-107">Configure Access for Federated Partners</span><span class="sxs-lookup"><span data-stu-id="57735-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="6d303-107">Configure Access for Federated Partners</span><span class="sxs-lookup"><span data-stu-id="6d303-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="57735-108">Monitor and Control Federated Partner Access</span><span class="sxs-lookup"><span data-stu-id="57735-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
+- [<span data-ttu-id="6d303-108">Monitor and Control Federated Partner Access</span><span class="sxs-lookup"><span data-stu-id="6d303-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
 
 
