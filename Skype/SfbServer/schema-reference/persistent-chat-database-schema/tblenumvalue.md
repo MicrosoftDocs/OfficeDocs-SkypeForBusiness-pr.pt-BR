@@ -5,47 +5,47 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
-description: a tabela tblEnumValue é uma tabela embutida em código que contém os valores de visibilidade e comportamento dos atributos que são usados na tabela Node.
-ms.openlocfilehash: 00ee5a7a7538fa620e438ead5e986f859ef25a6c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblEnumValue é uma tabela codificada que contém os valores de visibilidade e comportamento dos atributos usados na tabela de nós.
+ms.openlocfilehash: bf1ddf75fc7b7fd78c85f47626b465a4d74e5ca2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929865"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295423"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
-a tabela tblEnumValue é uma tabela embutida em código que contém os valores de visibilidade e comportamento dos atributos que são usados na tabela Node.
+tblEnumValue é uma tabela codificada que contém os valores de visibilidade e comportamento dos atributos usados na tabela de nós.
   
 **Colunas**
 
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|valueID  <br/> |smallint, não nulo  <br/> |ID do valor.  <br/> |
+|valueid  <br/> |smallint, não nulo  <br/> |ID do valor.  <br/> |
 |attributeID  <br/> |smallint, não nulo  <br/> |ID do atributo.  <br/> |
-|valor de atributo  <br/> |nvarchar (256), não nulo  <br/> |Nome do valor.  <br/> |
+|atributovalue  <br/> |nvarchar (256), NOT NULL  <br/> |Nome do valor.  <br/> |
    
-**Chaves**
+**As**
 
 |**Coluna**|**Descrição**|
 |:-----|:-----|
-|valueID  <br/> |Chave primária.  <br/> |
-|attributeID  <br/> |Chave estrangeira com pesquisa na tabela Tblenumattribute.  <br/> |
+|valueid  <br/> |Chave primária.  <br/> |
+|attributeID  <br/> |Chave estrangeira com pesquisa na tabela tblEnumAttribute. attributeID.  <br/> |
    
 **Valores da tabela**
 
-|**valueID**|**attributeID**|**valor de atributo**|
+|**valueid**|**attributeID**|**atributovalue**|
 |:-----|:-----|:-----|
 |2  <br/> |1  <br/> |private  <br/> |
-|3  <br/> |1  <br/> |escopo  <br/> |
-|4  <br/> |2  <br/> |normal  <br/> |
-|5  <br/> |2  <br/> |auditório  <br/> |
-|6  <br/> |1  <br/> |Abrir  <br/> |
+|3  <br/> |1  <br/> |com  <br/> |
+|4  <br/> |2  <br/> |Normalmente  <br/> |
+|5  <br/> |2  <br/> |auditorium  <br/> |
+|6  <br/> |1  <br/> |abriu  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

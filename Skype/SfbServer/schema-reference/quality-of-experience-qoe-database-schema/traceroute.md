@@ -1,35 +1,35 @@
 ---
-title: Tabela TraceRoute
+title: Tabela de TraceRoute
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9493cef-6ece-4f13-bf68-dbf132aab4f4
 description: A tabela TraceRoute contém informações de roteamento de chamadas. Esta tabela foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 77bb59f39a37aea437a902c848f4f07c662ef592
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 323f8160e7543c2fa08bebe9d1805355469acfd9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907042"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294625"
 ---
-# <a name="traceroute-table"></a>Tabela TraceRoute
+# <a name="traceroute-table"></a>Tabela de TraceRoute
  
 A tabela TraceRoute contém informações de roteamento de chamadas. Esta tabela foi introduzida no Microsoft Lync Server 2013.
   
 |**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primária, estrangeira  <br/> |Data e hora de início da chamada.  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primária, estrangeira  <br/> |Identificador exclusivo usado para distinguir entre várias chamadas que podem ter começado na mesma data e ao mesmo tempo.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primária, estrangeira  <br/> |Representa o tipo da linha de vídeo utilizado na chamada. Os valores permitidos são:  <br/> 0 - áudio  <br/> 1 - vídeo  <br/> 2 - vídeo panorâmico  <br/> 3 - aplicativo/área de trabalho  <br/> |
-|**FromCaller** <br/> |bit  <br/> |Primária  <br/> |Ponto de extremidade que executou a chamada.  <br/> |
-|**Salto** <br/> |int  <br/> ||Salto de rede /  <br/> |
-|**IPAddressKey** <br/> |int  <br/> |Externa  <br/> |Identificador exclusivo para o endereço IP. Informações de endereço IP são armazenadas na [tabela IPAddress](ipaddress.md).  <br/> |
-|**TEMPO DE RESPOSTA** <br/> |int  <br/> ||Tempo de ida e volta. O tempo de ida e volta mede a quantidade de tempo que leva para um pacote de voz chegar ao seu destino e, em seguida, enviar notificação regressivo que ela foi recebida.  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primário, estrangeiro  <br/> |Data e hora em que a chamada começou.  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primário, estrangeiro  <br/> |Identificador exclusivo usado para distinguir entre várias chamadas que podem ter começado na mesma data e ao mesmo tempo.  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primário, estrangeiro  <br/> |Representa o tipo de linha de vídeo usado na chamada. Os valores permitidos são:  <br/> 0-áudio  <br/> 1-vídeo  <br/> 2-vídeo panorâmico  <br/> 3 – compartilhamento de aplicativos/área de trabalho  <br/> |
+|**FromCaller** <br/> |bit  <br/> |Primária  <br/> |Ponto de extremidade que fez a chamada.  <br/> |
+|**Hop** <br/> |int  <br/> ||Salto de rede/  <br/> |
+|**IPAddressKey** <br/> |int  <br/> |Exterior  <br/> |Identificador exclusivo do endereço IP. As informações de endereço IP são armazenadas na [tabela IPAddress](ipaddress.md).  <br/> |
+|**RESPOSTA** <br/> |int  <br/> ||Tempo de resposta. O tempo de resposta mede a quantidade de tempo que leva para um pacote de voz alcançar seu destino e enviar notificações de volta para que ele seja recebido.  <br/> |
    
 

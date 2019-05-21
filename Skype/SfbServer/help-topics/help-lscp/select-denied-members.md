@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.SelectDeniedMembers
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
-description: Um administrador de Chat persistente pode criar e gerenciar categorias de sala de chat. Como parte do criando e gerenciando categorias de sala de chat, um administrador de Chat persistente pode configurar entidades (Active Directory Domain Services grupos/contêineres/usuários) que têm acesso ao ser membros/criadores de salas de bate-papo de uma categoria específica. A Persistent Chat Administrator também pode adicionar DeniedMembers a uma categoria e eles se tornam exclusões explícitas à lista de permissões. DeniedMembers substituir o que está em uma lista.
-ms.openlocfilehash: 7f87177d02a639ae32f3841298466b455ed5d538
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Um administrador de chat persistente pode criar e gerenciar categorias de sala de chat. Como parte da criação e do gerenciamento de categorias de salas de chat, um administrador de chat persistente pode configurar entidades de segurança (grupos/contêineres/usuários dos serviços de domínio Active Directory) que têm acesso a membros/criadores de salas de chat de uma categoria específica. Um administrador de chat persistente também pode adicionar DeniedMembers a uma categoria e essas são exclusões explícitas da lista de permissões. DeniedMembers substitui o que está no AllowedMembers.
+ms.openlocfilehash: bbf54bfb05a2c3a54c9515d77ae6fb93b22a62ec
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929550"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294077"
 ---
 # <a name="select-denied-members"></a>Selecionar Membros Negados
 
-Um administrador de Chat persistente pode criar e gerenciar categorias de sala de chat. Como parte do criando e gerenciando categorias de sala de chat, um administrador de Chat persistente pode configurar entidades (Active Directory Domain Services grupos/contêineres/usuários) que têm acesso ao ser membros/criadores de salas de bate-papo de uma categoria específica. A Persistent Chat Administrator também pode adicionar DeniedMembers a uma categoria e eles se tornam exclusões explícitas à lista de permissões. DeniedMembers substituir o que está em uma lista.
+Um administrador de chat persistente pode criar e gerenciar categorias de sala de chat. Como parte da criação e do gerenciamento de categorias de salas de chat, um administrador de chat persistente pode configurar entidades de segurança (grupos/contêineres/usuários dos serviços de domínio Active Directory) que têm acesso a membros/criadores de salas de chat de uma categoria específica. Um administrador de chat persistente também pode adicionar DeniedMembers a uma categoria e essas são exclusões explícitas da lista de permissões. DeniedMembers substitui o que está no AllowedMembers.
 
 ## <a name="tasks-that-you-can-perform"></a>Tarefas que podem ser executadas
 
@@ -32,14 +32,14 @@ Um administrador de Chat persistente pode criar e gerenciar categorias de sala d
 
 - [New Persistent Chat Server Features](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
 
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte [gerenciar o Skype for Business server 2015](../../manage/manage.md).
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorias salas de chat
 
-Em **associação**, na seção **membros negados** , adicione ou remova usuários e outras entidades do Active Directory associadas aos membros sendo negados da sala.
+Em **Associação**, na seção **Membros negados** , adicione ou remova usuários e outras entidades de segurança do Active Directory associadas a membros sendo negados da sala.
 
 
-Para obter detalhes sobre os recursos de servidor de Chat persistente e capacidades, consulte [Visão geral do servidor de Chat persistente](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com as configurações de servidor de Chat persistente, consulte [Configuring Persistent Chat Server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) na documentação de implantação e [Managing Lync Server 2013, Persistent Chat Server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) na documentação operações.
+Para obter detalhes sobre recursos e recursos do servidor de chat persistente, consulte [visão geral do servidor de chat persistente](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com configurações de servidor de chat persistente, consulte Configurando o [servidor de chat persistente](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) na documentação de implantação e gerenciando o [Lync Server 2013, servidor de chat persistente](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) na documentação de operações.
 
 ## <a name="see-also"></a>Confira também
 

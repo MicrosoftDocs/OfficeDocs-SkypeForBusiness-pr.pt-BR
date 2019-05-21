@@ -5,48 +5,48 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
-description: A tabela UserAgentDef mapeia identificadores de agente de usuário para nomes descritivos dos agentes. Agentes de usuário são usados para conectar ao Skype para Business Server de clientes de software.
-ms.openlocfilehash: 90c2ebba9de545331e9f4ed337cf4d7c07cc09dc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: A tabela UserAgentDef mapeia os identificadores de agente de usuário para os nomes descritivos do agente. Os agentes de usuário são clientes de software usados para se conectar ao Skype for Business Server.
+ms.openlocfilehash: 1cb64834cf9a68536dab9a5f5f90cf1189dff7e9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907007"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294550"
 ---
 # <a name="useragentdef-table-qoe"></a>Tabela UserAgentDef (QoE)
  
-A tabela UserAgentDef mapeia identificadores de agente de usuário para nomes descritivos dos agentes. Agentes de usuário são usados para conectar ao Skype para Business Server de clientes de software.
+A tabela UserAgentDef mapeia os identificadores de agente de usuário para os nomes descritivos do agente. Os agentes de usuário são clientes de software usados para se conectar ao Skype for Business Server.
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
 |1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
-|2  <br/> |AV MCU  <br/> |AV MCU  <br/> |
+|2  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
 |4  <br/> |OC  <br/> |OC  <br/> |
-|8  <br/> |OCPhone  <br/> |OCPhone  <br/> |
+|08  <br/> |OCPhone  <br/> |OCPhone  <br/> |
 |16  <br/> |LMC  <br/> |LMC  <br/> |
 |32  <br/> |DVT  <br/> |DVT  <br/> |
-|64  <br/> |MM  <br/> |MM  <br/> |
-|64  <br/> |MC  <br/> |MM  <br/> |
+|64  <br/> |CM  <br/> |CM  <br/> |
+|64  <br/> |MC  <br/> |CM  <br/> |
 |128  <br/> |Atendedor  <br/> |Atendedor  <br/> |
-|256  <br/> |Conferencing_Announcement_Service_1.0  <br/> |CAS  <br/> |
-|512  <br/> |Conferencing_Attendant_1.0  <br/> |CAA  <br/> |
-|512  <br/> |Conference_Auto_Attendant_1.0  <br/> |CAA  <br/> |
+|256  <br/> |Conferencing_Announcement_Service_ 1.0  <br/> |CERTIFICAÇÃO  <br/> |
+|512  <br/> |Conferencing_Attendant_ 1.0  <br/> |CAA  <br/> |
+|512  <br/> |Conference_Auto_Attendant_ 1.0  <br/> |CAA  <br/> |
 |1024  <br/> |Response_Group_Service  <br/> |RGS  <br/> |
-|1032  <br/> |Call_Park_Service_1.0  <br/> |CPS  <br/> |
+|1032  <br/> |Call_Park_Service_ 1.0  <br/> |CPS  <br/> |
 |1040  <br/> |Response_Group_Service Announcement_Service  <br/> |COMO  <br/> |
-|2048  <br/> |Microsoft.Rtc.Applications.Ccs  <br/> |CCS  <br/> |
+|2048  <br/> |Microsoft. RTC. Applications. CCS  <br/> |CCS  <br/> |
 |16386  <br/> |CoMo  <br/> |CoMo  <br/> |
 |16387  <br/> |CWA  <br/> |CWA  <br/> |
 |16388  <br/> |InboundRouting  <br/> |InboundRouting  <br/> |
-|16389 representa  <br/> |ComoSvc  <br/> |ComoSvc  <br/> |
-|16393  <br/> |MSExchangeUM  <br/> |Do Exchange  <br/> |
+|16389  <br/> |ComoSvc  <br/> |ComoSvc  <br/> |
+|16393  <br/> |MSExchangese  <br/> |ExUM  <br/> |
 |16395  <br/> |ArchivingAgent  <br/> |ARCHAGENT  <br/> |
-|16396  <br/> |SANTA  <br/> |SANTA  <br/> |
+|16396  <br/> |PRAZO  <br/> |PRAZO  <br/> |
 |16397  <br/> |applicationsharing  <br/> |ASMCU  <br/> |
 |16398  <br/> |WPLync  <br/> |WPLync  <br/> |
 |16399  <br/> |iPhoneLync  <br/> |iPhoneLync  <br/> |
@@ -54,7 +54,7 @@ A tabela UserAgentDef mapeia identificadores de agente de usuário para nomes de
 |16401  <br/> |iPadLync  <br/> |iPadLync  <br/> |
 |16402  <br/> |NokiaLync  <br/> |NokiaLync  <br/> |
 |16403  <br/> |LyncImm  <br/> |LyncImm  <br/> |
-|16404  <br/> |PCS  <br/> |PCS  <br/> |
+|16404  <br/> |Notebook  <br/> |Notebook  <br/> |
 |16405  <br/> |LWA  <br/> |LWA  <br/> |
 |16406  <br/> |OWA  <br/> |OWA  <br/> |
 |16407  <br/> |AOC  <br/> |AOC  <br/> |

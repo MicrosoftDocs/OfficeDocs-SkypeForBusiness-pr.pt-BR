@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para a Rússia.
-ms.openlocfilehash: 6fb7eded4e050fdfcba9d92a10f8a8bd6e493dfc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Rússia.
+ms.openlocfilehash: f619d75b62bc68f05145a8ebccbc1f93c073c5ef
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232671"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299491"
 ---
 # <a name="availability-in-russia"></a>Disponibilidade na Rússia
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para a Rússia.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Rússia.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim  <br/> |
-|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para: <br/><ul><li> Moscow</ul>Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para: <br/><ul><li> Moscou</ul>Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
    
 ## <a name="phone-system"></a>Sistema de Telefonia
@@ -67,7 +67,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Moscow  <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Moscou  <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Não  <br/> |
    

@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba quais são as etapas de implantação para obter o firmware correto, atualize-o, se necessário, atribua licenças e defina as configurações para telefones fixos de área comuns.
-ms.openlocfilehash: 0e673bc0a236cbf12aa305c3fc658dffe039c0e3
-ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
+ms.openlocfilehash: 59b681fecfe4fe6c2b9d89c7dbea875f30152340
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34162578"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297984"
 ---
 # <a name="set-up-common-area-phones"></a>Configurar telefones de área comum
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.

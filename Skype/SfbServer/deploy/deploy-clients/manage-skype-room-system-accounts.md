@@ -3,7 +3,7 @@ title: Gerenciar contas do Sistema de Salas do Skype
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,38 +11,38 @@ localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
 description: Leia este tópico para saber como gerenciar as contas do Sistema de Salas do Skype.
-ms.openlocfilehash: 86fb7356586c006e8d9f0831d98c9ceba5979180
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5276bd1f2b74000e681efadd8961b9c048351c3c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893368"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293330"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Gerenciar contas do Sistema de Salas do Skype
  
 Leia este tópico para saber como gerenciar as contas do Sistema de Salas do Skype. 
 
 > [!NOTE]
-> Salas de equipes da Microsoft é um produto diferente com diferentes dependências e procedimentos de implantação. Para obter informações sobre as salas de equipes da Microsoft, consulte Microsoft equipes salas [Visão geral do gerenciamento](../../manage/skype-room-systems-v2/skype-room-systems-v2.md).
+> As salas do Microsoft Teams é um produto diferente com diferentes dependências e procedimentos de implantação. Para obter informações sobre as salas do Microsoft Teams, consulte a [visão geral do gerenciamento](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)de salas do Microsoft Teams.
   
-## <a name="move-the-skype-room-system-account-between-pools"></a>Mover a conta do sistema do Skype sala entre pools
+## <a name="move-the-skype-room-system-account-between-pools"></a>Mover a conta do sistema de sala do Skype entre pools
 
-Se você precisar mover a conta do sistema do Skype sala de um Skype para pool de servidores corporativos para outro (por exemplo, durante as atualizações), use o seguinte comando para mover o pool de conta do sistema do Skype sala: 
+Se você precisar mover a conta do sistema de sala do Skype de um pool do Skype for Business Server para outro (por exemplo, durante as atualizações), use o seguinte comando para mover o pool de contas do sistema de salas do Skype: 
   
 ```
 Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
 ```
 
-## <a name="disable-the-skype-room-system-account-for-skype-for-business-services"></a>Desabilitar a conta do sistema do Skype sala para Skype para serviços corporativos
+## <a name="disable-the-skype-room-system-account-for-skype-for-business-services"></a>Desabilitar a conta do sistema de sala do Skype para serviços do Skype for Business
 
-Se você precisar desativar uma Skype sala sistema conta existente do Skype para serviços corporativos em um Skype para pool de servidores corporativos, use o seguinte comando para desabilitar a conta: 
+Se você precisar desabilitar uma conta existente do sistema de sala do Skype dos serviços do Skype for Business em um pool de servidores do Skype for Business, use o seguinte comando para desativar a conta: 
   
 ```
 Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com
 ```
 
-## <a name="optional-create-a-skype-room-system-administrator-group-in-active-directory"></a>Opcional: Criar um grupo de administrador do sistema do Skype sala no Active Directory
+## <a name="optional-create-a-skype-room-system-administrator-group-in-active-directory"></a>Opcional: criar um grupo de administradores do sistema de salas do Skype no Active Directory
 
-Cada cliente do sistema de sala Skype que ingressa no domínio pode ser totalmente gerenciado por um usuário de domínio com direitos de administrador local no dispositivo do sistema de sala Skype PC. Portanto, você pode criar grupo dos administradores um dedicado no Active Directory e dar este direitos administrativos do grupo durante set up da máquina nova sistema de sala Skype.
+Cada cliente do sistema da sala do Skype que une o domínio pode ser totalmente gerenciado por um usuário do domínio com direitos de administrador local no PC Appliance do sistema de sala do Skype. Portanto, você pode criar um grupo de administradores dedicados no Active Directory e dar a esses direitos administrativos de grupo durante a configuração do novo computador do sistema de sala do Skype.
   
 

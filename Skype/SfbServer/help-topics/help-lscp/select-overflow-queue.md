@@ -5,27 +5,27 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.RgsSelOverflowQueue
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
-description: Use selecionar uma caixa de diálogo de fila de estouro para selecionar uma fila onde as chamadas são encaminhadas quando uma fila de espera do grupo de resposta está cheia.
-ms.openlocfilehash: ce7634ba715d649caf0a050e45a0bcc5f9074db3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Use a caixa de diálogo Selecionar uma fila de excedentes para selecionar uma fila onde as chamadas são encaminhadas quando uma fila do grupo de resposta está cheia.
+ms.openlocfilehash: 3f32cf871aed5c835a4eb73c0e3d76e0637712d2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924651"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293351"
 ---
 # <a name="select-overflow-queue"></a>Selecionar Fila de Estouro
  
-Use a caixa de diálogo **Selecionar uma fila de estouro** para selecionar uma fila onde as chamadas são encaminhadas quando uma fila de espera do grupo de resposta está cheia.
+Use a caixa de diálogo **selecionar uma fila** de excedentes para selecionar uma fila onde as chamadas são encaminhadas quando uma fila do grupo de resposta está cheia.
   
-Na caixa Pesquisar, digite todo ou parte do nome da fila que deseja usar. Para retornar todas as filas disponíveis, deixe a caixa de pesquisa vazia e clique no ícone de pesquisa.
+Na caixa de pesquisa, digite todo ou parte do nome da fila que você deseja usar. Para retornar todas as filas disponíveis, deixe a caixa de pesquisa vazia e clique no ícone de pesquisa.
   
-Na lista de filas retornadas pela pesquisa, selecione a fila que você deseja usar para encaminhar chamadas quando uma fila de espera do grupo de resposta está cheia.
+Na lista de filas retornadas pela pesquisa, selecione a fila que você deseja usar para encaminhar chamadas quando uma fila do grupo de resposta estiver cheia.
   
 

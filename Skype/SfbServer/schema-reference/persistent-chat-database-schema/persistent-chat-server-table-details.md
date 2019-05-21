@@ -5,22 +5,22 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
-description: Os tópicos a seguir detalham as colunas em cada uma das tabelas de esquema do banco de dados de Chat persistente.
-ms.openlocfilehash: c3ddebec52a05adcc05cc9f98c080c226b2b24ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Os tópicos a seguir detalham as colunas em cada uma das tabelas de esquema de banco de dados de chat persistente.
+ms.openlocfilehash: 3ac401577bae294324b0f0feb82e611522b2610b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929893"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295591"
 ---
 # <a name="persistent-chat-server-table-details"></a>Detalhes da tabela do Servidor de Chat Persistente
  
-Os tópicos a seguir detalham as colunas em cada uma das tabelas de esquema do banco de dados de Chat persistente.
+Os tópicos a seguir detalham as colunas em cada uma das tabelas de esquema de banco de dados de chat persistente.
   
 ## <a name="in-this-section"></a>Nesta seção
 

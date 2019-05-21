@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceTrunkSelCallingRule
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 description: 'A caixa de diálogo Selecionar Regras de Conversão do Número de Chamada exibe as regras de conversão configuradas para sua implantação. Para obter detalhes sobre as regras de transição, consulte os seguintes tópicos:'
-ms.openlocfilehash: f8d78976878d41dca559de31e2964ea8c54c88d3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e470617c452056f78cf8941589f554462cc5541
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924665"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294120"
 ---
 # <a name="select-calling-number-rules-translation"></a>Selecionar Conversão de Regras de Número de Chamada
 

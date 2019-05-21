@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 8/17/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,30 +14,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
-description: 'Resumo: Estrutura de tópicos para requisitos de sistemas e os requisitos de rede ou infraestrutura do Skype para Business Server 2015. Se você precisa instalar ou configurar nada como um pré-requisito para a instalação e implantação Skype para Business Server 2015, ele será aqui.'
-ms.openlocfilehash: 67c79cc5386a46f80e31f2cf9c30d8a0aa73ca95
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: estrutura de tópicos dos requisitos do sistema e dos requisitos de rede ou infraestrutura do Skype for Business Server 2015. Se você precisar instalar ou configurar algo como pré-requisito para instalar e implantar o Skype for Business Server 2015, ele estará aqui.'
+ms.openlocfilehash: d28f550b9279b579f357517ffdfd0c6beea22f23
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929368"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296809"
 ---
-# <a name="requirements-for-your-skype-for-business-2015-environment"></a>Requisitos para sua Skype para ambiente de negócios 2015
+# <a name="requirements-for-your-skype-for-business-2015-environment"></a>Requisitos para o seu ambiente do Skype for Business 2015
  
 **Resumo:** destaque de tópicos para os requisitos dos sistemas, de rede ou de infraestrutura do Skype for Business Server 2015. Se você precisar instalar ou configurar algo como um pré-requisito para instalação e implantação do Skype for Business Server 2015, os itens estarão indicados aqui.
   
-Esta é a página de aterrissagem artigos sobre os requisitos de um Skype para implantação Business Server 2015. Isso inclui requisitos de servidor e as coisas mais gerais para preparar, incluindo seu domínio e estrutura de rede e certificados.
+Esta é a página inicial dos artigos sobre requisitos relacionados à implantação do Skype for Business Server 2015. Isso inclui os requisitos do servidor e as coisas gerais a serem preparadas, incluindo o domínio e a estrutura de rede e os certificados.
   
 ## <a name="whats-in-this-topic"></a>O que há neste tópico
 
-Os dois artigos os requisitos para a seção de seu ambiente destacam o que você precisa ter e/ou configure antes de você pode ir em frente e com êxito implantar ou atualizar Skype para Business Server 2015 em ambiente de servidor da sua organização.
+Os dois artigos da seção requisitos para o seu ambiente descrevem o que você precisa ter e/ou configurar antes de poder prosseguir e implantar com êxito ou atualizar para o Skype for Business Server 2015 no ambiente de servidor da sua organização.
   
 ### <a name="server-requirements"></a>Requisitos de servidor
 
-[Requisitos de servidor para Skype para Business Server 2015](server-requirements.md) são o coisas que você precisa Prepare-se nos servidores individuais que estiver você pretende usar em sua implantação.
+[Os requisitos de servidor para o Skype for Business Server 2015](server-requirements.md) são as coisas que você precisa para se preparar nos servidores individuais que você pretende usar na sua implantação.
   
 ### <a name="environmental-requirements"></a>Requisitos de ambiente
 
-[Requisitos de ambiente para Skype para Business Server 2015](environmental-requirements.md) é uma variedade maior de coisas que precisam ser pronto em sua infra-estrutura antes de implantar o Skype para Business Server 2015.
+[Os requisitos ambientais para o Skype for Business Server 2015](environmental-requirements.md) são um espectro mais amplo de coisas que precisam estar prontos na sua infraestrutura antes de implantar o Skype for Business Server 2015.
   
 

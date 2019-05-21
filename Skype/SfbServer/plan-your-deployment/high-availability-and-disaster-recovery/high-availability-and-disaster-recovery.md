@@ -1,10 +1,10 @@
 ---
-title: Planejar para alta disponibilidade e recuperação de desastres no Skype Business Server
+title: Planeje a alta disponibilidade e a recuperação de desastres no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 f1_keywords:
 - ms.lync.plan.HighAvailabilityType
@@ -12,31 +12,31 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
-description: Skype para Business Server oferece alta disponibilidade com servidor pooling de recuperação de desastres com pareamento do pool e vários modos de alta disponibilidade servidor Back-End, incluindo grupos de disponibilidade do AlwaysOn, espelhamento de banco de dados e o cluster de failover do SQL.
-ms.openlocfilehash: 8ab0d41b93a47782fce4a44acf1e8305a9ad13e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: O Skype for Business Server oferece alta disponibilidade com pool de servidores, recuperação de desastres com emparelhamento de pool e vários modos de alta disponibilidade de servidor back-end, incluindo grupos de disponibilidade AlwaysOn, espelhamento de banco de dados e cluster de failover de SQL.
+ms.openlocfilehash: 3ed1a3e5eff5d793f835c901e2cc5683da22bc77
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910330"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297460"
 ---
-# <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>Planejar para alta disponibilidade e recuperação de desastres no Skype Business Server
+# <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>Planeje a alta disponibilidade e a recuperação de desastres no Skype for Business Server
  
-Skype para Business Server oferece alta disponibilidade com servidor pooling de recuperação de desastres com pareamento do pool e vários modos de alta disponibilidade servidor Back-End, incluindo grupos de disponibilidade do AlwaysOn, espelhamento de banco de dados e o cluster de failover do SQL. 
+O Skype for Business Server oferece alta disponibilidade com pool de servidores, recuperação de desastres com emparelhamento de pool e vários modos de alta disponibilidade de servidor back-end, incluindo grupos de disponibilidade AlwaysOn, espelhamento de banco de dados e cluster de failover de SQL. 
   
-Alta disponibilidade refere-se ao certificando-se de que o Skype para serviços de Business Server estão disponíveis, mesmo se um ou mais servidores cair. Disaster recovery refers to keeping services going in the event of a natural or human-caused disaster, and preserving as much data from before the disaster as possible.
+Alta disponibilidade refere-se a garantir que os serviços do Skype for Business Server estejam disponíveis mesmo se um ou mais servidores ficarem inativos. Disaster recovery refers to keeping services going in the event of a natural or human-caused disaster, and preserving as much data from before the disaster as possible.
   
-Como nas versões anteriores do Microsoft Lync Server, o recurso de alta disponibilidade principal para a maioria das funções de servidor em Skype para Business Server é redundância de servidor por meio do pool. Se um servidor que executa determinada função falhar, os demais servidores do pool que executam a mesma função assumirão a carga desse servidor. Isso se aplica a Servidores Front-End, Servidores de Borda, Servidores de Mediação e Diretores.
+Como nas versões anteriores do Lync Server, o principal recurso de alta disponibilidade para a maioria das funções de servidor no Skype for Business Server é a redundância do servidor via pooling. Se um servidor que executa determinada função falhar, os demais servidores do pool que executam a mesma função assumirão a carga desse servidor. Isso se aplica a Servidores Front-End, Servidores de Borda, Servidores de Mediação e Diretores.
   
-Skype para Business Server também oferece desastres opções de recuperação para pools de Front-End. Você pode configurar dois pools em diferentes áreas geográficas para servirem de backup um do outro. Assim, se um local ou pool inteiro ficar inoperante, o pool de backup continuará fornecendo serviço aos usuários de ambos os locais.
+O Skype for Business Server também fornece opções de recuperação de desastres para pools front-end. Você pode configurar dois pools em diferentes áreas geográficas para servirem de backup um do outro. Assim, se um local ou pool inteiro ficar inoperante, o pool de backup continuará fornecendo serviço aos usuários de ambos os locais.
   
-Skype para Business Server também oferece suporte a quatro modos de alta disponibilidade para seus servidores Back-End: espelhamento, clustering de failover do SQL, instâncias de Cluster de Failover AlwaysOn (FCI) e grupos de disponibilidade AlwaysOn do SQL.
+O Skype for Business Server também oferece suporte a quatro modos de alta disponibilidade para seus servidores back-end: espelhamento do SQL, grupos de disponibilidade AlwaysOn, instâncias de cluster de failover AlwaysOn (FCI) e cluster de failover do SQL.
   
 > [!NOTE]
-> Espelhamento do SQL está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. Os métodos de cluster de failover de grupos de disponibilidade AlwaysOn, instâncias de Cluster de Failover AlwaysOn (FCI) e SQL terão preferência com Skype para Business Server 2019.
+> O espelhamento do SQL está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. Os grupos de disponibilidade AlwaysOn, as instâncias de cluster de failover AlwaysOn (FCI) e os métodos de cluster de failover do SQL são preferidos com o Skype for Business Server 2019.
 
 > [!NOTE]
-> Não há suporte para grupos de disponibilidade do AlwaysOn com servidores de Chat persistente. 
+> Os grupos de disponibilidade AlwaysOn não são compatíveis com servidores de chat persistentes. 
   
 Esta seção explica esses recursos de alta disponibilidade e também detalha os passos que você pode tomar para ter alta disponibilidade e recuperação de desastres em algumas das demais funções de servidor. 
   
@@ -44,10 +44,10 @@ Esta seção explica esses recursos de alta disponibilidade e também detalha os
 
 [Alta disponibilidade e gerenciamento de Pool de Front-Ends](high-availability.md)
   
-[Front-End pool disaster recovery no Skype para Business Server](disaster-recovery.md)
+[Recuperação de desastre do pool de front-end no Skype for Business Server](disaster-recovery.md)
   
-[Experiência do usuário durante falha do pool no Skype para Business Server](user-experience.md)
+[Experiência do usuário durante uma falha de pool no Skype for Business Server](user-experience.md)
   
-[Back End alta disponibilidade do servidor no Skype para Business Server](back-end-server.md)
+[Back-end Server alta disponibilidade no Skype for Business Server](back-end-server.md)
   
-[Alta disponibilidade de compartilhamento de arquivos no Skype para Business Server](file-sharing.md)
+[Compartilhamento de arquivos com alta disponibilidade no Skype for Business Server](file-sharing.md)

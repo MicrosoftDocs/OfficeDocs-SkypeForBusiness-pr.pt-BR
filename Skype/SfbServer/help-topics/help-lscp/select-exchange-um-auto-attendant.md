@@ -5,27 +5,27 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceFeaSelExchUM
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
-description: Use a caixa de diálogo Selecionar UM atendedor automático do Exchange para selecionar um UM atendedor automático do Exchange que lidará com as chamadas recebidas para um intervalo de números não atribuídos.
-ms.openlocfilehash: 782005760b9817acccecb35e5d02bd19b9000f41
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Use a caixa de diálogo Selecionar atendedor automático do Exchange UM para selecionar um atendedor automático do Exchange UM que manipulará as chamadas de entrada para uma faixa de números não atribuídos.
+ms.openlocfilehash: 6bb1b4a40d40041f2aea1960db4129baa2574a73
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924588"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294070"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Selecionar um Atendedor Automático do UM do Exchange
  
-Use a caixa de diálogo **Selecionar UM atendedor automático do Exchange** para selecionar um UM atendedor automático do Exchange que lidará com as chamadas recebidas para um intervalo de números não atribuídos.
+Use a caixa de diálogo **selecionar atendedor automático do Exchange um** para selecionar um atendedor automático do Exchange um que manipulará as chamadas de entrada para uma faixa de números não atribuídos.
   
-Na caixa Pesquisar, digite todo ou parte do nome do Exchange UM atendedor automático que você deseja usar. Para retornar todos os disponíveis Exchange atendedores automáticos, deixe a caixa de pesquisa vazia e clique no ícone de pesquisa.
+Na caixa de pesquisa, digite todo ou parte do nome do atendedor automático do Exchange UM que você deseja usar. Para retornar todos os atendedores automáticos do Exchange UM disponíveis, deixe a caixa de pesquisa vazia e clique no ícone de pesquisa.
   
-Na lista de Exchange atendedores automáticos retornados pela pesquisa, selecione o atendedor automático que você deseja usar para lidar com chamadas de entrada para o intervalo de números não atribuídos.
+Na lista de atendedores automáticos de UM do Exchange retornados pela pesquisa, selecione o atendedor automático que você deseja usar para manipular as chamadas de entrada para o intervalo de números não atribuídos.
   
 

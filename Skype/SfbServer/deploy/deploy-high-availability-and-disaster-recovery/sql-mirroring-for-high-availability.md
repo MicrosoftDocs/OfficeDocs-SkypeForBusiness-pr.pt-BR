@@ -4,53 +4,53 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
-description: 'Para que seja possível implantar o espelhamento de SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: o principal, o espelho e a testemunha. Para obter detalhes, consulte cumulativa 9 do pacote de atualização para SQL Server 2008 Service Pack 1.'
-ms.openlocfilehash: ae34271fc85b16e411daa39d4b087508186d6ff6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Para que seja possível implantar o espelhamento de SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: o principal, o espelho e a testemunha. Para obter detalhes, consulte pacote de atualizações cumulativas 9 para SQL Server 2008 Service Pack 1.'
+ms.openlocfilehash: 5ca6f214aed476b2f84a433a87c3fa444025dc68
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894602"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298536"
 ---
-# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implantar o espelhamento do SQL para servidor Back-End alta disponibilidade em Skype para Business server 2015
+# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implantar o espelhamento do SQL para o back-end Server High Availability no Skype for Business Server 2015
 
 
-Para que seja possível implantar o espelhamento de SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: o principal, o espelho e a testemunha. Para obter detalhes, consulte [cumulativa 9 para SQL Server 2008 Service Pack 1 do pacote de atualização ](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
+Para que seja possível implantar o espelhamento de SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: o principal, o espelho e a testemunha. Para obter detalhes, consulte [pacote de atualizações cumulativas 9 para SQL Server 2008 Service Pack 1 ](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
 
 Em geral, a configuração do espelhamento SQL entre os dois Servidores Back-End com uma testemunha requer:
 
-- Versão do servidor principal do SQL Server deve oferecer suporte a espelhamento SQL.
+- A versão do servidor primário do SQL Server deve dar suporte ao espelhamento do SQL.
 
 - Que o principal, o espelho e a testemunha (se implantada) tenham a mesma versão do SQL Server.
 
 - Que o principal e o espelho tenham a mesma edição do SQL Server. A testemunha pode ter uma edição diferente.
 
-Para as práticas recomendadas do SQL em termos de quais versões do SQL são suportadas para uma função de testemunha, consulte [A testemunha de espelhamento de banco de dados](https://go.microsoft.com/fwlink/p/?LinkId=247345).
+Para as práticas recomendadas do SQL em termos de quais versões do SQL são compatíveis com uma função de testemunha, consulte testemunha de espelhamento de [banco de dados](https://go.microsoft.com/fwlink/p/?LinkId=247345).
 
-Use o construtor de topologias para implantar o espelhamento SQL. Selecione uma opção no construtor de topologias para fazer o espelhamento de bancos de dados e o construtor de topologias configura o espelhamento (inclusive configurar uma testemunha, se desejar) quando você publica a topologia. Observe que a testemunha é configurada ou removida ao mesmo tempo que o espelho. Não há um comando separado para implantar ou remover somente uma testemunha.
+Você usa o construtor de topologias para implantar o espelhamento do SQL. Você seleciona uma opção no construtor de topologias para espelhar os bancos de dados, e o construtor de topologias configura o espelhamento (incluindo a configuração de uma testemunha, se desejar) quando você publica a topologia. Observe que a testemunha é configurada ou removida ao mesmo tempo que o espelho. Não há um comando separado para implantar ou remover somente uma testemunha.
 
-Antes de configurar o espelhamento do servidor, você deve configurar as permissões do banco de dados SQL corretamente. Para obter detalhes, consulte [Definir backup contas de logon para o espelhamento de banco de dados ou grupos de disponibilidade AlwaysOn (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268454).
+Antes de configurar o espelhamento do servidor, você deve configurar as permissões do banco de dados SQL corretamente. Para obter detalhes, consulte [Configurar contas de logon para o espelhamento de banco de dados ou grupos de disponibilidade AlwaysOn (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268454).
 
 Com o espelhamento de SQL, o modo de recuperação de banco de dados fica sempre definido como **Completo**, o que significa que você deve monitorar de perto o tamanho dos logs de transações e fazer backups regulares para evitar o esgotamento do espaço em disco dos Servidores Back-End. A frequência de backups de logs de transações depende da taxa de crescimento dos logs, que, por sua vez, depende das transações do banco de dados provenientes de atividades de usuários no pool de front-ends. Recomendamos que você determine o nível esperado de crescimento dos logs de transação para a carga de trabalho da implantação, para que seja possível realizar um planejamento adequado. Os artigos a seguir fornecem mais informações sobre o gerenciamento de logs e backups de SQL:
 
 - [Modelos de recuperação de banco de dados](https://go.microsoft.com/fwlink/p/?LinkId=268446)
 
-- [Visão geral de backup](https://go.microsoft.com/fwlink/p/?LinkId=268449)
+- [Visão geral do backup](https://go.microsoft.com/fwlink/p/?LinkId=268449)
 
-- [Log de transações de backup](https://go.microsoft.com/fwlink/p/?LinkId=268452)
+- [Log de transação de backup](https://go.microsoft.com/fwlink/p/?LinkId=268452)
 
 Com o espelhamento de SQL, você pode configurar a topologia do espelhamento quando criar pools ou depois que eles forem criados.
 
 > [!IMPORTANT]
-> Usando o construtor de topologia ou cmdlets para configurar e remover SQL espelhamento é aceito somente quando o principal, espelho e servidores de testemunha (se desejar) pertencem ao mesmo domínio. Se quiser configurar o espelhamento SQL entre servidores de domínios diferentes, consulte a documentação do SQL Server.
+> Usar o construtor de topologias ou cmdlets para configurar e remover o espelhamento do SQL só tem suporte quando os servidores primário, espelho e testemunha (se desejado) pertencem ao mesmo domínio. Se quiser configurar o espelhamento SQL entre servidores de domínios diferentes, consulte a documentação do SQL Server.
 
 > [!IMPORTANT]
-> Sempre que fizer uma alteração em uma relação de espelhamento de banco de dados back-end, você deverá reiniciar todos os servidores front-end do pool.  gt _ para uma alteração de espelhamento, (por exemplo, alterando o local de um espelho), você deve usar o construtor de topologias para executar estas três etapas:
+> Sempre que fizer uma alteração em uma relação de espelhamento de banco de dados back-end, você deverá reiniciar todos os servidores front-end do pool.  >, você deve usar o construtor de topologias para executar estas três etapas, como alterar o local de um espelho.
 
 1. Remova o espelhamento do servidor espelho antigo.
 
@@ -59,9 +59,9 @@ Com o espelhamento de SQL, você pode configurar a topologia do espelhamento qua
 3. Publique a topologia.
 
 > [!NOTE]
-> Um compartilhamento de arquivos deve ser criado para os arquivos espelho a serem gravados, e o serviço no qual o SQL Server e o SQL Agent estão sendo executados precisam de acesso de leitura/gravação. Se o serviço SQL Server está sendo executado em contexto de serviço de rede, você pode adicionar \<domínio\>\\<SQLSERVERNAME\>$ do Principal e espelho SQL Servers para as permissões de compartilhamento. O $ é importante para identificar que esta é uma conta de computador.
+> Um compartilhamento de arquivos deve ser criado para os arquivos espelho a serem gravados, e o serviço no qual o SQL Server e o SQL Agent estão sendo executados precisam de acesso de leitura/gravação. Se o serviço do SQL Server estiver sendo executado no contexto do serviço de rede, você \<poderá\>\\adicionar\><SQLSERVERNAME $ dos servidores principais e espelho ao SQL Server às permissões de compartilhamento. O $ é importante para identificar que esta é uma conta de computador.
 
-## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>Para configurar o espelhamento SQL durante a criação de um pool no construtor de topologia
+## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>Para configurar o espelhamento do SQL durante a criação de um pool no construtor de topologias
 
 1. Na página **Definir o Repositório SQL**, clique em **Novo** ao lado da caixa **Repositório SQL**. 
 
@@ -79,7 +79,7 @@ Com o espelhamento de SQL, você pode configurar a topologia do espelhamento qua
 
     c. Especifique o número da porta (o padrão é 7022) e clique em **OK**. 
 
-6. Depois de terminar a definição de seu pool de Front-End e todas as outras funções em sua topologia, use o construtor de topologias para publicar a topologia. Quando a topologia é publicada, se o pool de Front-End que hospeda o repositório de gerenciamento Central tiver habilitado de espelhamento do SQL, você verá uma opção para criar os dois primário e espelhar bancos de dados de repositório SQL.
+6. Depois de definir o pool de front-end e todas as outras funções em sua topologia, use o construtor de topologias para publicar a topologia. Quando a topologia for publicada, se o pool de front-ends que hospeda o repositório de gerenciamento central tiver o SQL Mirroring habilitado, você verá uma opção para criar bancos de dados principais e espelho do SQL Store.
 
     Clique em **Configurações** e digite o caminho que será usado como compartilhamento de arquivos para o backup de espelhamento.
 
@@ -87,9 +87,9 @@ Com o espelhamento de SQL, você pode configurar a topologia do espelhamento qua
 
 Você pode usar o construtor de topologias para editar as propriedades de um pool já existente para habilitar o espelhamento do SQL.
 
-## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a>Para adicionar o espelhamento SQL a um pool de Front-End existente no construtor de topologia
+## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a>Para adicionar o espelhamento do SQL a um pool de front-ends existente no construtor de topologias
 
-1. No construtor de topologia, clique com botão direito do pool e clique em **Editar propriedades**.
+1. No construtor de topologias, clique com o botão direito do mouse no pool e clique em **Editar propriedades**.
 
 2. Selecione **Habilitar Espelhamento do Repositório SQL** e clique em **Novo** ao lado de **Repositório SQL de Espelhamento**. 
 
@@ -119,13 +119,13 @@ Lembre-se disto ao configurar o espelhamento de SQL:
 
   - [Especificar um endereço de rede do servidor (espelhamento de banco de dados)](https://go.microsoft.com/fwlink/p/?LinkId=247346)
 
-  - [O banco de dados (SQL Server) do ponto de extremidade de espelhamento](https://go.microsoft.com/fwlink/p/?LinkId=247347)
+  - [O ponto de extremidade de espelhamento do banco de dados (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=247347)
 
-## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>Usando o Skype para Cmdlets do Shell de gerenciamento do Business Server 2015 ao conjunto o espelhamento SQL
+## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>Usando cmdlets do Shell de gerenciamento do Skype for Business Server 2015 para configurar o espelhamento do SQL
 
-A maneira mais fácil de configurar o espelhamento é usando o construtor de topologia, mas você também pode fazer isso usando cmdlets.
+A maneira mais fácil de configurar o espelhamento é usando o construtor de topologias, mas você também pode fazer isso usando cmdlets.
 
-1. Abra um Skype para a janela do Shell de gerenciamento do Business Server 2015 e execute o seguinte cmdlet:
+1. Abra uma janela do Shell de gerenciamento do Skype for Business Server 2015 e execute o seguinte cmdlet:
 
    ```
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose
@@ -223,7 +223,7 @@ A maneira mais fácil de configurar o espelhamento é usando o construtor de top
 
     - A porta 7022 pode ser acessada através do firewall se o Firewall do Windows estiver habilitado no SQL Server testemunha AB14-lct.los_a.lsipt.local\rtc. 
 
-   - Contas executando o SQL Servers em todos os primário e o espelhamento SQL servers têm permissão de leitura/gravação para o compartilhamento de arquivo \\E04-OCS\csdatabackup
+   - As contas que executam os servidores SQL em todos os servidores SQL primários e espelhados têm permissão de \\leitura/gravação para o compartilhamento de arquivos E04-OCS\csdatabackup
 
    - Verifique se o provedor WMI (Instrumentação de Gerenciamento do Windows) está em execução em todos esses servidores. O cmdlet usa esse provedor para encontrar informações da conta relativas aos serviços do SQL Server em execução em todos os servidores principais, espelho e testemunha. 
 
@@ -235,7 +235,7 @@ A maneira mais fácil de configurar o espelhamento é usando o construtor de top
 
     O espelhamento será configurado.
 
-    **Install-CsMirrorDatabase** instala o espelho e configura o espelhamento para todos os bancos de dados que estão presentes no repositório de SQL principal. Se você deseja configurar o espelhamento de bancos de dados somente específicos, você pode usar a opção - DatabaseType, ou se você quiser configurar o espelhamento para todos os bancos de dados, com exceção de alguns, você pode usar a opção - ExcludeDatabaseList, juntamente com uma lista separada por vírgulas de banco de dados nomes a serem excluídos.
+    **Install-CsMirrorDatabase** instala o espelhamento e configura o espelhamento para todos os bancos de dados que estão presentes no repositório SQL principal. Se você quiser configurar o espelhamento somente para bancos de dados específicos, poderá usar a opção-DatabaseType ou se quiser configurar o espelhamento para todos os bancos de dados, exceto para alguns, você pode usar a opção-ExcludeDatabaseList, juntamente com uma lista de banco de dados separada por vírgulas nomes a serem excluídos.
 
     Por exemplo, caso você adicione a opção a seguir a **Install-CsMirrorDatabase**, todos os bancos de dados serão espelhados, com exceção de rtcab e rtcxds.
 
@@ -259,7 +259,7 @@ Por exemplo, para remover o espelhamento e os bancos de dados de usuários, digi
 Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
 ```
 
-O `-DropExistingDatabasesOnMirror` opção faz com que os bancos de dados afetados sejam excluídas do espelho.
+A `-DropExistingDatabasesOnMirror` opção faz com que os bancos de dados afetados sejam excluídos do espelho.
 
 Depois, para remover o espelho da topologia, faça o seguinte:
 
@@ -271,7 +271,7 @@ Depois, para remover o espelho da topologia, faça o seguinte:
 
 ## <a name="removing-a-mirroring-witness"></a>Remoção de uma testemunha de espelhamento
 
-Use este procedimento se você precisa remover a testemunha de um servidor Back-End configuração de espelhamento.
+Use esse procedimento se você precisar remover a testemunha de uma configuração de espelhamento de servidor back-end.
 
 1. No Construtor de Topologias, clique com o botão direito do mouse no pool e clique em **Editar Propriedades**.
 
@@ -279,14 +279,14 @@ Use este procedimento se você precisa remover a testemunha de um servidor Back-
 
 3. Publique a topologia.
 
-    Após publicar a topologia, o construtor de topologia você verá uma mensagem que inclui os seguintes
+    Depois de publicar a topologia, o construtor de topologias será exibida uma mensagem que inclui os seguintes
 
    ```
    Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
    ```
 
-    No entanto, não siga essa etapa e não digite `Uninstall-CsMirrorDatabase` como isso fará a desinstalação toda a configuração do espelhamento.
+    No entanto, não siga essa etapa e não digite `Uninstall-CsMirrorDatabase` como isso desinstalaria toda a configuração de espelhamento.
 
-4. Para remover apenas a testemunha da configuração do SQL Server, siga as instruções em [Remover a testemunha de uma sessão de espelhamento de banco de dados (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268456).
+4. Para remover apenas a testemunha da configuração do SQL Server, siga as instruções em [remover a testemunha de uma sessão de espelhamento de banco de dados (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=268456).
 
 

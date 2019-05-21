@@ -1,111 +1,111 @@
 ---
-title: Plano para alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business Server 2015
+title: Plano para alta disponibilidade e recuperação de desastres para servidor de chat persistente no Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 5/17/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
-description: 'Resumo: Leia este tópico para saber como planejar para alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype Business Server 2015.'
-ms.openlocfilehash: d2114faf7c4da205697a8bccd5a1ce299a627be5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Leia este tópico para saber como planejar a alta disponibilidade e a recuperação de desastres para o servidor de chat persistente no Skype for Business Server 2015.'
+ms.openlocfilehash: b9e509b987a9fe3b8d7755ce8d92f35c82b7d386
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924462"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297075"
 ---
-# <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Plano para alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business Server 2015
+# <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Plano para alta disponibilidade e recuperação de desastres para servidor de chat persistente no Skype for Business Server 2015
  
-**Resumo:** Leia este tópico para saber como planejar para alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype Business Server 2015.
+**Resumo:** Leia este tópico para saber como planejar a alta disponibilidade e a recuperação de desastres para o servidor de chat persistente no Skype for Business Server 2015.
   
-Alta disponibilidade e recuperação de desastres para o servidor de Chat persistente exigem recursos adicionais além normalmente, o que é necessário para a operação completa. 
+A alta disponibilidade e a recuperação de desastres para servidor de chat persistente exigem recursos adicionais além do que normalmente é necessário para operação completa. 
   
 > [!NOTE]
 > O uso de Grupos de Disponibilidade AlwaysOn do SQL não tem suporte com bancos de dados de Servidor de Chat Persistente. 
 
 > [!NOTE] 
-> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015. 
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
   
 ## <a name="resource-requirements"></a>Requisitos de recursos
 
-Antes de configurar o servidor de Chat persistente para alta disponibilidade e recuperação de desastres, certifique-se de que você tenha os seguintes recursos adicionais. 
+Antes de configurar o servidor de chat persistente para alta disponibilidade e recuperação de desastres, certifique-se de ter os seguintes recursos adicionais. 
   
-- Uma instância de banco de dados dedicado, localizada no mesmo físico do data center no qual a página inicial do front-end do serviço servidor de Chat persistente está localizado. Esse banco de dados servirá como o espelho do SQL Server para o banco de dados primário do Chat persistente. Opcionalmente, designe um servidor adicional do SQL para servir como testemunha de espelhamento, se quiser failover automático no banco de dados de espelho.
+- Uma instância de banco de dados dedicada localizada no mesmo Data Center físico no qual o front-end de página inicial do serviço de servidor de chat persistente está localizado. Esse banco de dados funcionará como o espelho do SQL Server para o banco de dados de chat persistente principal. Opcionalmente, designe um SQL Server adicional para atuar como a testemunha de espelhamento se desejar um failover automatizado para o banco de dados espelho.
     
-- Uma instância de banco de dados dedicada localizada no outro data center físico. Esse banco de dados servirá como o envio de Log do SQL Server banco de dados secundário para o banco de dados no data center principal.
+- Uma instância de banco de dados dedicada localizada no outro data center físico. Este banco de dados funcionará como o banco de dados secundário de envio de logs do SQL Server para o banco de dados no centro de dados principal.
     
-- Uma instância de banco de dados dedicado para servir como o espelho do SQL Server para o banco de dados secundário. Opcionalmente, designe um servidor adicional do SQL para servidor como a testemunha de espelhamento. Ambos devem estar localizados no mesmo data center físico que o banco de dados secundário.
+- Uma instância de banco de dados dedicada para servir como o espelho do SQL Server para o banco de dados secundário. Opcionalmente, designe um SQL Server adicional para o servidor como testemunha de espelhamento. Ambos devem estar localizados no mesmo data center físico que o banco de dados secundário.
     
-- Se a conformidade do servidor de Chat persistente estiver habilitada, uma três instâncias de banco de dados dedicado adicionais são necessários. Sua distribuição é os mesmos descritas anteriormente para o banco de dados de Chat persistente. Embora seja possível para o banco de dados de conformidade compartilhar a mesma instância do SQL Server que o banco de dados de Chat persistente, instâncias autônomo para alta disponibilidade e recuperação de desastres são recomendadas.
+- Se a conformidade com o servidor de chat persistente estiver habilitada, serão necessárias outras três instâncias de banco de dados dedicados. Sua distribuição é a mesma que a que foi descrita anteriormente para o banco de dados de chat persistente. Embora seja possível que o banco de dados de conformidade compartilhe a mesma instância do SQL Server que o banco de dados de chat persistente, instâncias autônomas para alta disponibilidade e recuperação de desastres são recomendadas.
     
-- Um compartilhamento de arquivo deve ser criado e designado para os logs de transação do envio de Log do SQL Server. Todos os SQL Servers em ambos os data centers que executam o Chat persistente bancos de dados deve ter acesso de leitura/gravação para esse compartilhamento de arquivos. Esse compartilhamento não está definido como parte de uma função FileStore.
+- Um compartilhamento de arquivos deve ser criado e designado para os logs de transação de envio de logs do SQL Server. Todos os SQL Servers nos dois data centers que executam bancos de dados de chat persistente devem ter acesso de leitura/gravação a este compartilhamento de arquivos. Esse compartilhamento não está definido como parte de uma função FileStore.
     
-- Um compartilhamento de arquivo no servidor de banco de dados secundário para servir como a pasta de destino para os logs de transações do SQL Server que são copiados do compartilhamento de arquivo do servidor primário.
+- Um compartilhamento de arquivo no servidor de banco de dados secundário para atuar como a pasta de destino dos logs de transação do SQL Server que são copiados do compartilhamento de arquivos do servidor primário.
     
 ## <a name="disaster-recovery-and-high-availability-solutions"></a>Soluções de recuperação de desastre e alta disponibilidade
 
-Skype para Business Server suporta vários modos de alta disponibilidade para seus servidores Back-End, incluindo o espelhamento de banco de dados. Para obter mais informações, veja [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
+O Skype for Business Server oferece suporte a vários modos de alta disponibilidade para seus servidores back-end, incluindo o espelhamento de banco de dados. Para obter mais informações, veja [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
   
-A solução de recuperação de desastres para o servidor de Chat persistente descrito neste tópico baseia-se em um pool do servidor de Chat persistente ampliado. Não há requisitos para uma VLAN (rede local virtual) ampliada. Por alongamento um pool do servidor de Chat persistente, você configurar um pool na topologia logicamente, mas você coloque os servidores fisicamente no pool em dois diferentes de data centers. Configure o espelhamento do SQL Server para o banco de dados do mesmo modo e implante o banco de dados e o espelho no mesmo data center. Você deve configurar um banco de dados de backup no data center secundário (com um espelho opcional para fornecer alta disponibilidade durante a recuperação de desastre). Esse é o banco de dados de backup usado para failover durante a recuperação de desastre. 
+A solução de recuperação de desastres para servidor de chat persistente descrito neste tópico foi criada em um pool de servidores de chat persistentes ampliados. Não há requisitos para uma VLAN (rede local virtual) ampliada. Ao esticar um pool de servidores de chat persistente, você configura um pool na topologia logicamente, mas coloca fisicamente os servidores no pool em dois data centers diferentes. Configure o espelhamento do SQL Server para o banco de dados do mesmo modo e implante o banco de dados e o espelho no mesmo data center. Você deve configurar um banco de dados de backup no data center secundário (com um espelho opcional para fornecer alta disponibilidade durante a recuperação de desastre). Esse é o banco de dados de backup usado para failover durante a recuperação de desastre. 
   
-Para obter detalhes sobre como configurar a alta disponibilidade e recuperação de desastres para o servidor de Chat persistente, consulte [Configure alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md). 
+Para obter detalhes sobre como configurar a alta disponibilidade e a recuperação de desastre para o servidor de chat persistente, consulte [Configurar alta disponibilidade e recuperação de desastres para servidor de chat persistente no Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md). 
   
-As ilustrações a seguintes mostram como o pool do servidor de Chat persistente pode ser configurado em duas topologias de pool ampliadas diferentes:
+As figuras a seguir mostram como o pool de servidores de chat persistente pode ser configurado em duas topologias de pool ampliadas diferentes:
   
-- Pool de servidor de Chat persistente ampliado quando os data centers estão Geo-localizados com alta largura de banda/baixa latência.
+- Pool de servidores de chat persistentes ampliados quando os data centers estão localizados geográficos com alta largura de banda/baixa latência.
     
-- Pool de servidor de Chat persistente ampliado quando os data centers estão Geo-localizados com baixa largura de banda/alta latência.
+- Pool de servidores de chat persistentes ampliados quando os centros de dados estiverem localizados na região de baixa largura de banda/alta latência.
     
-A Figura 1 mostra uma topologia ampliada do pool de servidor de Chat persistente onde os data centers estão Geo-localizados com alta largura de banda/baixa latência. Considere as seguintes informações sobre as topologias físicas e lógicas:
+A Figura 1 mostra uma topologia de pool de servidores de chat persistente ampliada em que os data centers são localizados geográficos com alta largura de banda/baixa latência. Assuma o seguinte para as topologias lógicas e físicas:
   
 - A topologia lógica consiste em:
     
   - Um pool de Chat Persistente nos Sites 1 e 2 contendo servidores 1 a 8.
     
-  - Um pool de servidor Front-End, um banco de dados de Chat persistente, um banco de dados espelhado, e, opcionalmente, um banco de dados de testemunha (não é mostrado no diagrama) fisicamente residindo no Site 1. 
+  - Um pool de servidores front-end, um banco de dados de chat persistente, um banco de dados espelhado e, opcionalmente, um banco de dados testemunha (não mostrado no diagrama) residindo fisicamente no site 1. 
     
   - Um segundo pool de Servidores Front-End e um banco de dados de backup residindo fisicamente no Site 2.
     
-- A topologia física consiste Sites 1 e 2 da seguinte maneira:
+- A topologia física consiste nos locais 1 e 2, da seguinte maneira:
     
   - Um pool de Chat Persistente, contendo servidores 1 a 4, dois ativos e dois ociosos no Site 1.
     
   - Um pool de Chat Persistente, contendo servidores 5 a 8, dois ativos e dois ociosos no Site 2.
     
-  - Um pool de servidor Front-End, um banco de dados de Chat persistente, um banco de dados espelhado e, opcionalmente, um testemunha banco de dados (não é mostrado no diagrama) no Site 1.
+  - Um pool de servidores front-end, um banco de dados de chat persistente, um banco de dados espelhado e, opcionalmente, um banco de dados testemunha (não mostrado no diagrama) no site 1.
     
   - Um pool de Servidores Front-End e um banco de dados de backup, que é o destino do envio de logs do SQL, no Site 2.
     
 **Pool de servidor de chat persistente ampliado quando os data centers estão localizados geograficamente com alta largura de banda/baixa latência.**
 
-![Alongado Pool de Chat persistente com alta largura de banda/baixa latência](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
+![Chat persistente pool ampliado com largura de banda alta/baixa latência](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
   
-Figura 2 mostra uma topologia ampliada do pool de servidor de Chat persistente onde os data centers estão Geo-localizados com baixa largura de banda/alta latência.
+A Figura 2 mostra uma topologia de pool de servidores de chat persistente ampliada em que os data centers são localizados geográficos com largura de banda baixa/alta latência.
   
 - A topologia lógica consiste em:
     
   - Um pool de Chat Persistente nos Sites 1 e 2 contendo servidores 1 a 8.
     
-  - Um pool de servidor Front-End, um banco de dados de Chat persistente, um banco de dados espelhado, e, opcionalmente, um banco de dados de testemunha (não é mostrado no diagrama) fisicamente residindo no Site 1. 
+  - Um pool de servidores front-end, um banco de dados de chat persistente, um banco de dados espelhado e, opcionalmente, um banco de dados testemunha (não mostrado no diagrama) residindo fisicamente no site 1. 
     
   - Um segundo pool de Servidores Front-End e um banco de dados de backup residindo fisicamente no Site 2.
     
-- A topologia física consiste Sites 1 e 2 da seguinte maneira:
+- A topologia física consiste nos locais 1 e 2, da seguinte maneira:
     
   - Um pool de Chat Persistente, contendo servidores 1 a 4, todos ativos, no Site 1.
     
   - Um pool de Chat Persistente, contendo servidores 5 a 8, todos ociosos, no Site 2.
     
-  - Um pool de servidor Front-End, um banco de dados de Chat persistente, um banco de dados espelhado e, opcionalmente, um testemunha banco de dados (não é mostrado no diagrama) no Site 1.
+  - Um pool de servidores front-end, um banco de dados de chat persistente, um banco de dados espelhado e, opcionalmente, um banco de dados testemunha (não mostrado no diagrama) no site 1.
     
   - Um pool de Servidores Front-End e um banco de dados de backup, que é o destino do envio de logs do SQL, no Site 2.
     
 **Pool de servidor de chat persistente ampliado quando os data centers estão localizados geograficamente com baixa largura de banda/alta latência.**
 
-![Alongado Pool de Chat persistente com baixa largura de banda/alta latência](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
+![Chat persistente pool ampliado com largura de banda baixa/alta latência](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
   
 

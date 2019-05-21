@@ -3,19 +3,19 @@ title: Ferramentas e capacidade de gerenciamento do Sistema de Salas do Skype
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Leia este tópico para aprender sobre o gerenciamento de ferramentas para o Sistema de Salas do Skype.
-ms.openlocfilehash: 8a1d9f3e3d1c569a0473ca92cda6761ce63f0096
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4ae57457eb244e7cf72183bfadba0bd0b89d44a6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895030"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293540"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Ferramentas e capacidade de gerenciamento do Sistema de Salas do Skype
  
@@ -23,15 +23,15 @@ Leia este tópico para aprender sobre o gerenciamento de ferramentas para o Sist
   
 ## <a name="administrative-portal"></a>Portal Administrativo
 
-Para Skype para implantações em instalações de Business Server, você pode usar o portal do sistema de sala Skype administrativo ativamente gerenciar e monitorar implantações de sistemas de sala Skype dentro da sua organização.
+Para implantações locais do Skype for Business Server, você pode usar o portal administrativo do sistema de sala do Skype para gerenciar e monitorar ativamente implantações do sistema de sala do Skype dentro da sua organização.
   
-Consulte o artigo a seguir para obter mais detalhes:
+Para obter mais detalhes, consulte o artigo a seguir:
   
-- [Implantar o Portal de Web administrativo do SRS v1 no Skype para Business Server](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
+- [Implantar o portal da Web administrativo do SRS v1 no Skype for Business Server](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
 ## <a name="system-center-operations-manager"></a>System Center Operations Manager
 
-Sistema de sala Skype podem ser monitorado por meio do System Center Operations Manager (SCOM) baixando o [Pacote de gerenciamento de sistema do Skype sala](https://www.microsoft.com/download/details.aspx?id=42320) e instalá-lo em seu servidor SCOM. Você pode usar o SCOM para definir alertas, monitorar a integridade do sistema do Skype sala, gerar relatórios de tempo de atividade e muito mais. Sistema de sala do Skype vem com um agente de monitoramento pré-instaladas que pode ser configurado para apontar para o servidor SCOM. Consulte o guia de instalação fornecido pelo fabricante do seu sistema de sala Skype para saber como configurar o agente de monitoramento no sistema de sala do Skype.
+O sistema de sala do Skype pode ser monitorado por meio do SCOM (System Center Operations Manager) baixando o [pacote de gerenciamento do sistema de sala do Skype](https://www.microsoft.com/download/details.aspx?id=42320) e instalando-o em seu servidor do SCOM. Você pode usar o SCOM para definir alertas, monitorar a integridade do sistema de salas da Skype, gerar relatórios de tempo de atividade e muito mais. O sistema de salas da Skype vem com um agente de monitoramento pré-instalado que pode ser configurado para apontar para o servidor do SCOM. Consulte o guia de instalação fornecido pelo fabricante do seu sistema de sala do Skype para saber como configurar o agente de monitoramento no sistema de sala do Skype.
   
 ## <a name="exchange-checklist"></a>Verificação do Exchange
 
@@ -39,33 +39,33 @@ Sistema de sala Skype podem ser monitorado por meio do System Center Operations 
     
 - Executar o ping de descoberta automática (por exemplo, Ping Autodiscover.contoso.com).
     
-- Teste seu serviço de Descoberta Automática com a Ferramenta de Análise de Conectividade da Microsoft. Escolha o primeiro teste, "Eu não pode fazer logon com o Office Outlook".
+- Teste seu serviço de Descoberta Automática com a Ferramenta de Análise de Conectividade da Microsoft. Escolher o primeiro teste, "não é possível fazer logon com o Office Outlook".
     
-- Se a sala de reunião já tiver uma caixa de correio de recurso, estenda essa conta para o sistema de sala Skype (script de exemplo na parte inferior da página).
+- Se a sala de reunião já tiver uma caixa de correio de recurso, estenda essa conta para o sistema de sala da Skype (exemplo de script na parte inferior da página).
     
-## <a name="skype-for-business-checklist"></a>Skype para a lista de verificação de negócios
+## <a name="skype-for-business-checklist"></a>Lista de verificação do Skype for Business
 
 - Executar as seguintes ferramentas:
     
-  - Skype para negócios Best Practices Analyzer     
-  - Skype para ferramenta de análise de integridade comercial (Excel)    
-  - Skype para o analisador de conectividade de negócios, 32 bits ou 64 bits
+  - Analisador de práticas recomendadas do Skype for Business     
+  - Ferramenta de análise de integridade do Skype for Business (Excel)    
+  - Analisador de conectividade do Skype for Business 32 bits ou 64 bits
     
-- Examine a [solução de problemas novo útil e ferramentas de análise para o Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Confirme que você tem um Skype para pool de negócios e um servidor de Office Web Apps e pode compartilhar um deck de PowerPoint usando o Skype para clientes corporativos.
+- Revise [novas ferramentas úteis de solução de problemas e análise para o Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Confirme se você tem um pool do Skype for Business e um servidor do Office Web Apps e pode compartilhar uma apresentação do PowerPoint usando o cliente Skype for Business.
     
-- Se a sala de reunião já tiver uma caixa de correio de recurso, você deve ativá-lo para Skype para negócios.
+- Se a sala de reunião já tiver uma caixa de correio de recurso, habilite-a para o Skype for Business.
     
 - Se necessário, solicite um DID (número de telefone) para o Sistema de Sala de Reunião e atualize o campo Telefone Geral na ferramenta Active Directory.
     
 ## <a name="network"></a>Rede
 
-- Verifique se que você tem uma conexão de rede com fio para o sistema de sala Skype.
+- Verifique se você tem uma conexão de rede com fio para o sistema de sala da Skype.
     
-- Leia a guia de planejamento para Skype para negócios de rede.
+- Leia o guia de planejamento de rede para o Skype for Business.
     
-- Solicite uma Skype para avaliação da rede de negócios de uma Skype para parceiro de negócios.
+- Solicite uma avaliação de rede do Skype for Business a partir de um parceiro do Skype for Business.
     
-- Ler os dados de desempenho capturados no Skype para ferramenta de análise de integridade comercial (Excel).
+- Leia os dados de desempenho capturados na ferramenta de análise de integridade do Skype for Business (Excel).
     
 - Execute a Ferramenta de Análise de Rede.
     
@@ -73,68 +73,68 @@ Sistema de sala Skype podem ser monitorado por meio do System Center Operations 
     
 ## <a name="skype-room-system-security"></a>Segurança do sistema de sala do Skype
 
-Sistema de sala Skype é um sistema de incorporado que pode ser totalmente integrado em uma implantação do Windows, usando o Skype para o modelo de segurança de negócios, gerenciamento de direitos e ferramentas de gerenciamento, como o SCOM. Os recursos incluem:
+O sistema de salas da Skype é um sistema integrado que pode ser totalmente integrado a uma implantação do Windows, usando o modelo de segurança do Skype for Business, o gerenciamento de direitos e as ferramentas de gerenciamento, como o SCOM. Os recursos incluem:
   
 - Um Filtro de Gravação para impedir gravações de disco no modo usuário 
     
 - Bloqueador de aplicativos para impedir que aplicativos não autorizados sejam executados. Todas as portas USB estão desabilitadas no modo usuário.
     
-  - Nenhum apps standard ou visualizadores residem no hardware do sistema de sala Skype. Todo o conteúdo é processado por meio de protocolos HTTP ou RDP.
+  - Nenhum aplicativo ou Visualizador padrão reside no hardware do sistema de sala do Skype. Todo o conteúdo é renderizado por meio de protocolos HTTP ou RDP.
     
   - O PC executa o sistema operacional Padrão 7 Incorporado do Windows. Todo o hardware, incluindo dispositivos, é fornecido pelos parceiros de OEM.
     
   - Ingresso Opcional de Domínio para Serviços de Domínio do Active Directory (AD DS), permitindo gerenciamento e controle de contas de segurança local.
     
-- Você também pode gerenciar a conta de administrador local usando o Skype para centro de administração de negócios.
+- Você também pode gerenciar a conta de administrador local usando o centro de administração do Skype for Business.
     
-- Sistema de sala Skype for atualizado por meio de processos padrão do Microsoft Update.
+- O sistema de sala do Skype é atualizado por meio de processos padrão do Microsoft Update.
     
-- Sistema de sala Skype conecta-se com Skype para negócios.
+- O sistema da sala Skype se conecta ao Skype for Business.
     
-  - Skype para negócios usa criptografia de ponta a ponta e autorização para todos os modos de comunicação
+  - O Skype for Business usa a autorização e a criptografia ponto a ponto para todos os modos de comunicação
     
-  - Sistema de sala Skype suporta Skype para padrões de segurança e conformidade de negócios. Para obter mais informações, consulte [Planejar a segurança no Skype para Business Server](../../plan-your-deployment/security/security.md) .
+  - O sistema de sala da Skype é compatível com os padrões de conformidade e segurança do Skype for Business. Para obter mais informações, consulte [planejar a segurança no Skype for Business Server](../../plan-your-deployment/security/security.md) .
     
 ## <a name="license"></a>Licença
 
-Verify that you use a KMS for activating software. Nesse caso, você talvez precisem verificar ou adicionar o Skype para a chave KMS do cliente de negócios a ela. Se você não estiver usando o KMS, em seguida, solicite o chave de licenciamento para o Skype para o cliente de negócios MAK por volume.
+Verify that you use a KMS for activating software. Em caso afirmativo, talvez seja necessário verificar ou adicionar a chave KMS do cliente Skype for Business. Se você não estiver usando o KMS, solicite a chave de licenciamento por volume para a MAK do cliente Skype for Business.
   
 ## <a name="license-keys"></a>Chaves de Licença
 
-Skype sala sistema executa o Skype para o cliente de desktop de negócios em segundo plano. Se o sistema de sala do Skype é um membro do domínio, ele descobre seu KMS. (e se ele tiver a chave KMS de licenciamento do Volume será ativado automaticamente). O Licenciamento do Volume também oferece um MAK, que você digita quando ele exibe xxxxx-xxxxx-xxxxx-xxxxx. (Você precisa ter acesso à Internet para ativar utilizando o MAK, mas não o KMS). Para obter mais informações, consulte ativação do Volume do Office 2013.
+O sistema de sala do Skype executa o cliente de desktop do Skype for Business em segundo plano. Se o sistema de sala da Skype for um membro do domínio, ele descobrirá seu KMS. (e se tiver a chave KMS de licenciamento por volume, ela será ativada automaticamente). O Licenciamento do Volume também oferece um MAK, que você digita quando ele exibe xxxxx-xxxxx-xxxxx-xxxxx. (Você precisa ter acesso à Internet para ativar utilizando o MAK, mas não o KMS). Para obter mais informações, consulte ativação do Volume do Office 2013.
   
-- Para inserir a chave MAK, vá para configurações de OEM \> SRS Licensing Tool. Clique em Verificar Estado. Quando o status diz "produto não está ativado", digite a chave.
+- Para inserir a chave MAK, acesse a ferramenta \> de licenciamento SRS de configurações de OEM. Clique em Verificar Estado. Quando o status diz "produto não está ativado", insira a chave.
     
-- Se durante a ativação, você receber um erro que diz, "' o serviço de licenciamento de Software relatou que a chave do produto é inválida," Verifique se que:
+- Se durante a ativação você receber um erro dizendo que "' o serviço de licenciamento de software informou que a chave do produto é inválida", verifique se:
     
   - A chave foi inserida corretamente.
     
-  - Você inseriu o Skype para chave MAK de negócios e não outra chave.
+  - Você inseriu a chave MAK do Skype for Business e não outra chave.
     
   - O sistema tem acesso à Internet.
     
-- Você pode ativá-lo por telefone, mas deve tentar ativá-lo usando primeiramente a Ferramenta de Licenciamento de SRS. Para ativá-lo por telefone, inicie uma reunião de teste (não uma chamada de teste, pois ela é muito curta). No Assistente de ativação do Office, selecione a ativação por telefone, ligue para a Microsoft, digite o número longo e digite uma resposta.
+- Você pode ativá-lo por telefone, mas deve tentar ativá-lo usando primeiramente a Ferramenta de Licenciamento de SRS. Para ativá-lo por telefone, inicie uma reunião de teste (não uma chamada de teste, pois ela é muito curta). No Assistente para ativação do Office, selecione ativação por telefone, ligue para a Microsoft, digite o número longo e digite uma resposta.
     
 ## <a name="certificate-authority"></a>Autoridade de Certificação
 
 Confirme se a Autoridade de Certificação utilizada para emitir o certificado do Office Web Apps Server 2013 tem um caminho HTTP incluído na propriedade de Listas de Revogação de Certificados.
   
-Importe o arquivo de certificado (. crt) para o sistema de sala Skype se estiver usando o Skype para Business Server. Pode ser facilmente obtido no compartilhamento CertEnroll do servidor CA ou na pasta Raiz Confiável de qualquer PC que participe do domínio.
+Importe o arquivo de certificado (. CRT) para o sistema de sala da Skype se estiver usando o Skype for Business Server. Pode ser facilmente obtido no compartilhamento CertEnroll do servidor CA ou na pasta Raiz Confiável de qualquer PC que participe do domínio.
   
 ## <a name="certificates"></a>Certificados
 
 Verifique se sua Autoridade de Certificação tem um caminho de http para a lista de Revogação de Certificados. Se não tiver, atualize a sua CA para incluir um.
   
-Instalar certificados na configuração do administrador do sistema Skype sala em configurações do sistema \> Gerenciador de certificados. Você precisa de um CA de Raiz Corporativa para seu certificado interno.
+Instale certificados na configuração do administrador do sistema de salas da Skype, em \> Gerenciador de certificados de configurações do sistema. Você precisa de um CA de Raiz Corporativa para seu certificado interno.
   
-Uma maneira de obter os certificados que você precisa consiste em descobrir a CA que emitiu seus certificados. Skype para Business Server, em um PC em Skype para a empresa, clique em configurações \> ferramentas \> configurações de conferência discada. Isso abre uma página da web protegido pela autoridade de certificação que emitiu os certificados internos. Clique no ícone de Cadeado na barra de endereço do navegador para exibir um relatório de segurança. Clique em Exibir Certificados e examine a propriedade do Ponto de Distribuição de CRL. O segundo parâmetro de CN deve ser o nome do servidor de CA. Abra o Windows Explorer para esse endereço agora \\ \< nome do servidor CA \>\CertEnroll. Copie o dois arquivos .crl e o arquivo .crt em uma unidade flash e coloque-os no lado esquerdo da placa SMART.
+Uma maneira de obter os certificados que você precisa consiste em descobrir a CA que emitiu seus certificados. Para o Skype for Business Server, em um PC no Skype for Business, clique \> em \> ferramentas de configurações, configurações de conferência discada. Isso abre uma página da Web protegida pela autoridade de certificação que emitiu os certificados internos. Clique no ícone de Cadeado na barra de endereço do navegador para exibir um relatório de segurança. Clique em Exibir Certificados e examine a propriedade do Ponto de Distribuição de CRL. O segundo parâmetro de CN deve ser o nome do servidor de CA. Agora, abra o Windows Explorer para \\ \< esse nome \>de servidor de CA de endereço \CertEnroll. Copie o dois arquivos .crl e o arquivo .crt em uma unidade flash e coloque-os no lado esquerdo da placa SMART.
   
-Importe o arquivo. CRT para o sistema de sala Skype sob a pasta autoridades de certificação da sala.
+Importe o arquivo. CRT para o sistema de sala do Skype na pasta de autoridade de certificação de sala confiável.
   
-Importe os arquivos. CRL no sistema de sala Skype sob a pasta autoridades de certificação intermediários. (Será necessário alterar o filtro de extensão de arquivo no Gerenciador de Certificados para .crl para visualizar os arquivos.)
+Importe os arquivos. CRL no sistema de sala do Skype na pasta autoridades de certificação intermediárias. (Será necessário alterar o filtro de extensão de arquivo no Gerenciador de Certificados para .crl para visualizar os arquivos.)
   
-Observação: O servidor de Office Web Apps 2013 pode compartilhar a mesma CA que Skype para negócios. Caso contrário, você não poderá compartilhar PowerPoint em uma reunião. Verifique com o departamento de TI e permita que os arquivos CRT e CRL fora da rede de CA compartilhem CertEnroll como explicado acima. 
+Observação: o servidor do Office Web Apps 2013 pode compartilhar a mesma CA que o Skype for Business. Caso contrário, você não poderá compartilhar PowerPoint em uma reunião. Verifique com o departamento de TI e permita que os arquivos CRT e CRL fora da rede de CA compartilhem CertEnroll como explicado acima. 
   
-A associação de domínio pode simplificar algumas coisas porque você pode tratar o sistema de sala Skype como um sistema Windows, e ele pode depender do Active Directory para alguns dos aspectos de certificado. No entanto, é melhor gerenciar este assunto manualmente.
+A associação de domínio pode simplificar alguns itens porque você pode tratar o sistema de sala da Skype como um sistema do Windows e pode depender do Active Directory para alguns dos aspectos do certificado. No entanto, é melhor gerenciar este assunto manualmente.
   
 

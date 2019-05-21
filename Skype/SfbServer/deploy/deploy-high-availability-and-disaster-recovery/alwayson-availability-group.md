@@ -1,42 +1,42 @@
 ---
-title: Implantar um grupo de disponibilidade sempre ativada em um servidor de Back-End no Skype para Business Server
+title: Implantar um grupo de disponibilidade AlwaysOn em um servidor back-end no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
-description: Implante um sempre no grupo de disponibilidade na sua Skype (instalação) para o Business Server deployment.
-ms.openlocfilehash: f04c103d75f385d37804db3b7bf5786b1c14928d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Implantar (instalar) um grupo de disponibilidade AlwaysOn na implantação do Skype for Business Server.
+ms.openlocfilehash: a01953abbf2233eab91c4a141580e8c452858934
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894609"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298498"
 ---
-# <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Implantar um grupo de disponibilidade sempre ativada em um servidor de Back-End no Skype para Business Server
+# <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Implantar um grupo de disponibilidade AlwaysOn em um servidor back-end no Skype for Business Server
  
-Implante um sempre na disponibilidade grupo (AG) no seu Skype (instalação) para o Business Server deployment.
+Implantar (instalar) um AG (grupo de disponibilidade contínua) na implantação do Skype for Business Server.
   
-Como você implanta uma AG depende se você estiver implantando em um novo pool, um pool existente que usa espelhamento ou um pool existente que tem atualmente sem alta disponibilidade para o banco de dados de Back-End.
+A maneira como você implanta uma AG depende se você a está implantando em um novo pool, um pool existente que usa espelhamento ou um pool existente que atualmente não tem alta disponibilidade para o banco de dados back-end.
   
 > [!NOTE]
-> Usar uma AG com uma função de servidor de Chat persistente não é suportado. 
+> Não há suporte para o uso de uma AG com uma função de servidor de chat persistente. 
   
-- [Implantar um sempre no grupo de disponibilidade em um novo pool de Front-End](alwayson-availability-group.md#BKMK_NewPool_CreateAlwaysOnGroup)
+- [Implantar um grupo de disponibilidade AlwaysOn em um novo pool de front-end](alwayson-availability-group.md#BKMK_NewPool_CreateAlwaysOnGroup)
     
-- [Implantar um sempre no grupo de disponibilidade em um pool existente que usa o espelhamento de banco de dados](alwayson-availability-group.md#BKMK_MirroredPool_CreateAlwaysOnGroup)
+- [Implantar um grupo de disponibilidade AlwaysOn em um pool existente que usa o espelhamento de banco de dados](alwayson-availability-group.md#BKMK_MirroredPool_CreateAlwaysOnGroup)
     
-- [Implantar um sempre no grupo de disponibilidade em um pool existente que não usa o espelhamento de banco de dados](alwayson-availability-group.md#BKMK_NoHAPool_CreateAlwaysOnGroup)
+- [Implantar um grupo de disponibilidade AlwaysOn em um pool existente que não usa o espelhamento de banco de dados](alwayson-availability-group.md#BKMK_NoHAPool_CreateAlwaysOnGroup)
     
-## <a name="deploy-an-always-on-availability-group-on-a-new-front-end-pool"></a>Implantar um sempre no grupo de disponibilidade em um novo pool de Front-End
+## <a name="deploy-an-always-on-availability-group-on-a-new-front-end-pool"></a>Implantar um grupo de disponibilidade AlwaysOn em um novo pool de front-end
 <a name="BKMK_NewPool_CreateAlwaysOnGroup"> </a>
 
-1. Habilite o recurso de cluster de Failover em todos os servidores de banco de dados que farão parte da AG. Em cada servidor, faça o seguinte:
+1. Habilite o recurso de cluster de failover em todos os servidores de banco de dados que farão parte da AG. Em cada servidor, faça o seguinte:
     
    - Abra o Server Manager e clique em **Adicionar funções e recurso**.
     
@@ -60,7 +60,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
      O assistente provavelmente mostrará diversos avisos, especialmente se você não estiver usando armazenamento compartilhado. Não é necessário usar o armazenamento compartilhado. No entanto, se você vir alguma mensagem de **Erro**, deverá corrigir esses problemas antes de continuar.
     
-3. Crie o Cluster de Failover do Windows Server (WSFC).
+3. Crie o WSFC (cluster de failover do Windows Server).
     
    - No assistente de **Gerenciamento de Cluster de Failover**, clique com o botão direito do mouse em **Gerenciamento de Cluster de Failover** e, em seguida, clique em **Criar Cluster**.
     
@@ -84,27 +84,27 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Na página **Confirmação**, clique em **Avançar**.
     
-5. Em cada servidor do cluster, habilite o recurso de AG no SQL Server Configuration Manager.
+5. Em cada servidor do cluster, habilite o recurso AG no Gerenciador de configuração do SQL Server.
     
    - Abra o SQL Server Configuration Manager. Na árvore no lado esquerdo da tela, clique em **Serviços do SQL Server** e, em seguida, clique duas vezes no serviço SQL Server.  
     
    - Na caixa **Propriedades**, selecione a guia **Alta Disponibilidade AlwaysOn**. Marque a caixa de seleção **Habilitar Grupos de Disponibilidade AlwaysOn**. Reinicie o serviço SQL Server quando solicitado.
    
-6. Use o construtor de topologias para criar o pool de Front-End, conforme explicado em [criar e publicar a nova topologia no Skype para Business Server](../../deploy/install/create-and-publish-new-topology.md). Quando você fizer isso, especifique a AG como o repositório SQL para o pool.
+6. Use o construtor de topologias para criar o pool de front-end, conforme explicado em [criar e publicar nova topologia no Skype for Business Server](../../deploy/install/create-and-publish-new-topology.md). Ao fazer isso, especifique AG como o repositório SQL do pool.
     
 7. Criar o grupo de disponibilidade.
     
    - Abra o SQL Server Management Studio e conecte-se à instância do SQL Server.
     
-   - No Object Explorer, expanda a pasta de **Sempre na alta disponibilidade** . Clique com o botão direito do mouse na pasta **Grupos de Disponibilidade** e clique em **Assistente para Novo Grupo de Disponibilidade**.
+   - No explorador de objetos, expanda a pasta **sempre na alta disponibilidade** . Clique com o botão direito do mouse na pasta **Grupos de Disponibilidade** e clique em **Assistente para Novo Grupo de Disponibilidade**.
     
    - Se a página **Introdução** for exibida, clique em **Avançar**.
     
    - Na página **Especificar Nome do Grupo de Disponibilidade**, digite o nome do Grupo de disponibilidade e clique em **Avançar**.
     
-   - Na página Selecionar bancos de dados, selecione os bancos de dados que você deseja incluir no grupo de disponibilidade do AlwaysOn. Then click **Next**.
+   - Na página Selecionar bancos de dados, selecione os bancos de dados que você deseja incluir no grupo de disponibilidade AlwaysOn. Then click **Next**.
     
-     Não inclua o **ReportServer**, **ReportServerTempDB**ou bancos de dados de Chat persistente no grupo de disponibilidade do AlwaysOn, como eles não são suportados neste cenário. Você pode incluir todos os outro Skype para bancos de dados do servidor de negócios no grupo de disponibilidade do AlwaysOn.
+     Não inclua os bancos de dados de chat **ReportServer**, **ReportServerTempDB**ou persistent no grupo de disponibilidade AlwaysOn, pois eles não têm suporte nesse cenário. Você pode incluir todos os outros bancos de dados do Skype for Business Server no grupo de disponibilidade AlwaysOn.
     
    - Na página **Especificar Réplicas**, clique na guia **Réplicas**. Clique no botão **Adicionar Réplicas** e conecte-se às outras instâncias do SQL que você incluiu como nós do Clustering de Failover do Windows Server.
     
@@ -124,33 +124,33 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Na página **Resumo**, verifique todas as configurações e clique em Concluir.
       
-8. Após o pool e o AG são implantados, realize algumas etapas finais para certificar-se de que os logons do SQL estão em cada uma das réplicas no grupo de disponibilidade do AlwaysOn. 
+8. Após a implantação do pool e da AG, execute algumas etapas finais para garantir que os logons do SQL estejam em cada uma das réplicas do grupo disponibilidade AlwaysOn. 
     
-   - Abra o construtor de topologia, selecione **Baixar topologia da implantação existente**e clique em **Okey**.
+   - Abra o construtor de topologias, selecione **baixar topologia de implantação existente**e clique em **OK**.
     
-   - Expanda o Skype for Business Server, expanda sua topologia e expanda **Repositórios do SQL Server**. Clique com o botão o repositório SQL do novo grupo de disponibilidade do AlwaysOn e clique em **Editar propriedades**.
+   - Expanda o Skype for Business Server, expanda sua topologia e expanda **Repositórios do SQL Server**. Clique com o botão direito do mouse no repositório SQL do novo grupo de disponibilidade AlwaysOn e clique em **Editar propriedades**.
     
      - Na parte inferior da página, na caixa **FQDN do SQL Server** , altere o valor para o FQDN do ouvinte da AG.
     
    - Publique a topologia. No menu **Ação**, clique em **Topologia** e, em seguida, **Publicar**. Na página de confirmação, clique em **Avançar**. Aguarde alguns minutos para a nova topologia ser replicada.
     
-   - Abra o SQL Server Management Studio e navegue até a AG. Faça failover para uma réplica secundária.
+   - Abra o SQL Server Management Studio e navegue até o AG. Faça failover para uma réplica secundária.
     
-   - Abra o Skype do Shell de gerenciamento do servidor de negócios e digite o seguinte cmdlet para criar logons do SQL nesta réplica:
+   - Abra o Shell de gerenciamento do Skype for Business Server e digite o seguinte cmdlet para criar os logons do SQL nesta réplica:
     
    ```
    Install-CsDatabase -Update
    ```
 
-   - Repita as duas etapas anteriores (failover no grupo para uma réplica secundária e, em seguida, usar `Install-CsDatabase -Update`) para cada réplica no grupo.
+   - Repita as duas etapas anteriores (failover do grupo para uma réplica secundária e, em seguida `Install-CsDatabase -Update`, use) para cada réplica do grupo.
     
-## <a name="deploy-an-always-on-availability-group-on-an-existing-pool-that-uses-database-mirroring"></a>Implantar um sempre no grupo de disponibilidade em um pool existente que usa o espelhamento de banco de dados
+## <a name="deploy-an-always-on-availability-group-on-an-existing-pool-that-uses-database-mirroring"></a>Implantar um grupo de disponibilidade AlwaysOn em um pool existente que usa o espelhamento de banco de dados
 <a name="BKMK_MirroredPool_CreateAlwaysOnGroup"> </a>
 
 > [!NOTE]
-> Se o pool que você estiver atualizando para uma AG hospedar o repositório de gerenciamento Central para sua organização, você deve primeiro mover o CMS para outro pool antes de atualizar este pool. Use o cmdlet Move-CsManagementServer para mover o pool. Se você não tiver outro pool em sua organização, você pode implantar um servidor Standard Edition temporariamente e mover o CMS para esse servidor antes de atualizar seu pool para a AG. 
+> Se o pool que você está atualizando para um AG hospeda o repositório central de gerenciamento para a sua organização, você deve primeiro mover o CMS para outro pool antes de atualizar este pool. Use o cmdlet Move-CsManagementServer para mover o pool. Se você não tiver outro pool em sua organização, poderá implantar um servidor Standard Edition temporariamente e mover o CMS para este servidor antes de atualizar o pool para a AG. 
   
-1. Failover de todos os dados do espelho para o nó principal abrindo Skype do Shell de gerenciamento do servidor de negócios e digitando o seguinte cmdlet.
+1. Falhe em todos os dados do espelho para o nó principal abrindo o Shell de gerenciamento do Skype for Business Server e digitando o cmdlet a seguir.
     
    ```
    Invoke-CsDatabaseFailover -PoolFqdn <Pool FQDN> -DatabaseType <DatabaseType> -NewPrincipal "Primary"
@@ -164,7 +164,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
 
 2. Use o construtor de topologias para remover o espelhamento de banco de dados do pool.
     
-   - Abra o construtor de topologia. Em sua topologia, expanda **Pools de Front-Ends Enterprise Edition**, clique com o botão direito do mouse no nome do pool e clique em **Editar Propriedades**.
+   - Abrir o construtor de topologias. Em sua topologia, expanda **Pools de Front-Ends Enterprise Edition**, clique com o botão direito do mouse no nome do pool e clique em **Editar Propriedades**.
     
    - Para cada tipo de repositório SQL no pool, desmarque a caixa de seleção **Habilitar Espelhamento do Repositório SQL**.
     
@@ -174,9 +174,9 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Abra o SQL Server Management Studio, navegue até seus bancos de dados, clique com o botão direito do mouse em **Tarefas** e clique em **Espelho**. Clique em **Remover Espelhamento** e clique em **OK**.
     
-   - Repita esse procedimento para todos os bancos de dados do pool que será convertida em uma AG.
+   - Repita esse procedimento para todos os bancos de dados no pool que serão convertidos em uma AG.
     
-5. Configure o recurso de cluster de Failover em todos os servidores de banco de dados que farão parte da AG. Em cada servidor, faça o seguinte:
+5. Configure o recurso de cluster de failover em todos os servidores de banco de dados que farão parte da AG. Em cada servidor, faça o seguinte:
     
    - Abra o Server Manager e clique em **Adicionar funções e recurso**.
     
@@ -200,7 +200,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
      O assistente provavelmente mostrará diversos avisos, especialmente se você não estiver usando armazenamento compartilhado. Não é necessário usar o armazenamento compartilhado. No entanto, se você vir alguma mensagem de **Erro**, deverá corrigir esses problemas antes de continuar.
     
-7. Crie o Cluster de Failover do Windows Server.
+7. Crie o cluster de failover do Windows Server.
     
    - No assistente de **Gerenciamento de Cluster de Failover**, clique com o botão direito do mouse em **Gerenciamento de Cluster de Failover** e, em seguida, clique em **Criar Cluster**.
     
@@ -224,7 +224,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Na página **Confirmação**, clique em **Avançar**.
     
-9. Em cada servidor do cluster, habilite o recurso de AG no SQL Server Configuration Manager.
+9. Em cada servidor do cluster, habilite o recurso AG no Gerenciador de configuração do SQL Server.
     
    - Abra o SQL Server Configuration Manager. Na árvore no lado esquerdo da tela, clique em **Serviços do SQL Server** e, em seguida, clique duas vezes no serviço SQL Server.  
     
@@ -234,15 +234,15 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
     - Abra o SQL Server Management Studio e conecte-se à instância do SQL Server.
     
-    - No Object Explorer, expanda a pasta de **Sempre na alta disponibilidade** . Clique com o botão direito do mouse na pasta **Grupos de Disponibilidade** e clique em **Assistente para Novo Grupo de Disponibilidade**.
+    - No explorador de objetos, expanda a pasta **sempre na alta disponibilidade** . Clique com o botão direito do mouse na pasta **Grupos de Disponibilidade** e clique em **Assistente para Novo Grupo de Disponibilidade**.
     
     - Se a página **Introdução** for exibida, clique em **Avançar**.
     
     - Na página **Especificar Nome do Grupo de Disponibilidade**, digite o nome do Grupo de disponibilidade e clique em **Avançar**.
     
-    - Na página Selecionar bancos de dados, selecione os bancos de dados que você deseja incluir no grupo de disponibilidade do AlwaysOn. Then click **Next**.
+    - Na página Selecionar bancos de dados, selecione os bancos de dados que você deseja incluir no grupo de disponibilidade AlwaysOn. Then click **Next**.
     
-    Não inclua o **ReportServer**, **ReportServerTempDB**ou bancos de dados de Chat persistente no grupo de disponibilidade do AlwaysOn, como eles não são suportados neste cenário. Você pode incluir todos os outro Skype para bancos de dados do servidor de negócios no grupo de disponibilidade do AlwaysOn.
+    Não inclua os bancos de dados de chat **ReportServer**, **ReportServerTempDB**ou persistent no grupo de disponibilidade AlwaysOn, pois eles não têm suporte nesse cenário. Você pode incluir todos os outros bancos de dados do Skype for Business Server no grupo de disponibilidade AlwaysOn.
     
     - Na página **Especificar Réplicas**, clique na guia **Réplicas**. Clique no botão **Adicionar Réplicas** e conecte-se às outras instâncias do SQL que você incluiu como nós do Clustering de Failover do Windows Server.
     
@@ -262,53 +262,53 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
     - Na página **Resumo**, verifique todas as configurações e clique em Concluir.
     
-11. Crie um novo repositório especificando o ouvinte AG e especificando a entidade de segurança do espelho antigo como o nó principal da AG.
+11. Crie uma nova loja especificando o ouvinte AG e especificando a entidade de segurança do espelho antigo como o nó primário da AG.
     
-    - Abra o construtor de topologia. Em sua topologia, expanda **Componentes Compartilhados**, clique com o botão direito do mouse em **Repositórios do SQL Server** e clique em **Novo Repositório do SQL Server**.
+    - Abrir o construtor de topologias. Em sua topologia, expanda **Componentes Compartilhados**, clique com o botão direito do mouse em **Repositórios do SQL Server** e clique em **Novo Repositório do SQL Server**.
     
     - Na página **Definir Novo Repositório SQL**, primeiro marque a caixa de seleção **Configurações de Alta Disponibilidade** e, em seguida, certifique-se de que a opção Grupos de Disponibilidade AlwaysOn do SQL aparece na caixa suspensa.
     
     - Na caixa **FQDN do Ouvinte de Disponibilidade do SQL Server**, digite o FQDN do ouvinte que criou quando criou o grupo de disponibilidade.
     
-    - Na caixa **FQDN do SQL Server** , digite o FQDN do nó principal do AG e clique em **Okey**. Ele deve ser a entidade de segurança do espelho antigo para esse repositório.
+    - Na caixa **FQDN do SQL Server** , digite o FQDN do nó primário da AG e clique em **OK**. Ele deve ser a entidade de segurança do espelho antigo para esse repositório.
     
-12. Associe a nova AG com o pool de Front-End.
+12. Associe o novo AG ao pool de front-end.
     
-    - No construtor de topologia, clique com botão direito do pool para associar a AG e clique em **Editar propriedades**.
+    - No construtor de topologias, clique com o botão direito do mouse no pool para associá-lo à AG e clique em **Editar propriedades**.
     
-    - Em **associações**, na caixa **Repositório do SQL Server** , selecione a AG. Selecione o grupo mesmo para outros bancos de dados no qual você deseja mover para a AG pool.
+    - Em **associações**, na caixa da **loja do SQL Server** , selecione a AG. Selecione o mesmo grupo para qualquer outro banco de dados no pool que você deseja mover para a AG.
     
-    - Quando tiver certeza de que todos os bancos de dados necessários são definidos como a AG, clique em **Okey**.
+    - Quando tiver certeza de que todos os bancos de dados necessários estão definidos para a AG, clique em **OK**.
     
 13. Publique a topologia. No menu **Ação**, clique em **Topologia** e, em seguida, **Publicar**. Na página de confirmação, clique em **Avançar**.
     
-14. Execute algumas etapas finais para certificar-se de que os logons do SQL estão em cada uma das réplicas no grupo de disponibilidade do AlwaysOn.
+14. Execute algumas etapas finais para garantir que os logons do SQL estejam em cada uma das réplicas do grupo de disponibilidade AlwaysOn.
     
-    - Abra o construtor de topologia, selecione **Baixar topologia da implantação existente**e clique em **Okey**.
+    - Abra o construtor de topologias, selecione **baixar topologia de implantação existente**e clique em **OK**.
     
-    - Expanda o Skype for Business Server, expanda sua topologia e expanda **Repositórios do SQL Server**. Com o botão direito o repositório SQL da AG novo e clique em **Editar propriedades**.
+    - Expanda o Skype for Business Server, expanda sua topologia e expanda **Repositórios do SQL Server**. Clique com o botão direito do mouse na loja do SQL da nova AG e clique em **Editar propriedades**.
     
     - Na parte inferior da página, na caixa **FQDN do SQL Server** , altere o valor para o FQDN do ouvinte da AG.
     
     - Publique a topologia. No menu **Ação**, clique em **Topologia** e, em seguida, **Publicar**. Na página de confirmação, clique em **Avançar**. Aguarde alguns minutos para a nova topologia ser replicada.
     
-    - Abra o SQL Server Management Studio e navegue até a AG. Faça failover para uma réplica secundária.
+    - Abra o SQL Server Management Studio e navegue até o AG. Faça failover para uma réplica secundária.
     
-    - Abra o Skype do Shell de gerenciamento do servidor de negócios e digite o seguinte cmdlet para criar logons do SQL nesta réplica:
+    - Abra o Shell de gerenciamento do Skype for Business Server e digite o seguinte cmdlet para criar os logons do SQL nesta réplica:
     
     ```
     Install-CsDatabase -Update
     ```
 
-    - Repita as duas etapas anteriores (failover no grupo para uma réplica secundária e, em seguida, usar `Install-CsDatabase -Update`) para cada réplica no grupo.
+    - Repita as duas etapas anteriores (failover do grupo para uma réplica secundária e, em seguida `Install-CsDatabase -Update`, use) para cada réplica do grupo.
     
-## <a name="deploy-an-always-on-availability-group-on-an-existing-pool-that-does-not-use-database-mirroring"></a>Implantar um sempre no grupo de disponibilidade em um pool existente que não usa o espelhamento de banco de dados
+## <a name="deploy-an-always-on-availability-group-on-an-existing-pool-that-does-not-use-database-mirroring"></a>Implantar um grupo de disponibilidade AlwaysOn em um pool existente que não usa o espelhamento de banco de dados
 <a name="BKMK_NoHAPool_CreateAlwaysOnGroup"> </a>
 
 > [!NOTE]
-> Se o pool que você estiver atualizando para uma AG hospedar o repositório de gerenciamento Central para sua organização, você deve primeiro mover o CMS para outro pool antes de atualizar este pool. Use o cmdlet Move-CsManagementServer para mover o pool. Se você não tiver outro pool em sua organização, você pode implantar um servidor Standard Edition temporariamente e mover o CMS para esse servidor antes de atualizar seu pool para a AG. 
+> Se o pool que você está atualizando para um AG hospeda o repositório central de gerenciamento para a sua organização, você deve primeiro mover o CMS para outro pool antes de atualizar este pool. Use o cmdlet Move-CsManagementServer para mover o pool. Se você não tiver outro pool em sua organização, poderá implantar um servidor Standard Edition temporariamente e mover o CMS para este servidor antes de atualizar o pool para a AG. 
   
-1. Configure o recurso de cluster de Failover em todos os servidores de banco de dados que farão parte da AG. Em cada servidor, faça o seguinte:
+1. Configure o recurso de cluster de failover em todos os servidores de banco de dados que farão parte da AG. Em cada servidor, faça o seguinte:
     
    - Abra o Server Manager e clique em **Adicionar funções e recurso**.
     
@@ -332,7 +332,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
      O assistente provavelmente mostrará diversos avisos, especialmente se você não estiver usando armazenamento compartilhado. Não é necessário usar o armazenamento compartilhado. No entanto, se você vir alguma mensagem de **Erro**, deverá corrigir esses problemas antes de continuar.
     
-3. Crie o Cluster de Failover do Windows Server (WSFC).
+3. Crie o WSFC (cluster de failover do Windows Server).
     
    - No assistente de **Gerenciamento de Cluster de Failover**, clique com o botão direito do mouse em **Gerenciamento de Cluster de Failover** e, em seguida, clique em **Criar Cluster**.
     
@@ -356,7 +356,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Na página **Confirmação**, clique em **Avançar**.
     
-5. Em cada servidor do cluster, habilite AG no SQL Server Configuration Manager.
+5. Em cada servidor do cluster, habilite a AG no Gerenciador de configuração do SQL Server.
     
    - Abra o SQL Server Configuration Manager. Na árvore no lado esquerdo da tela, clique em **Serviços do SQL Server** e, em seguida, clique duas vezes no serviço SQL Server.  
     
@@ -366,7 +366,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Abra o SQL Server Management Studio e conecte-se à instância do SQL Server.
     
-   - No Object Explorer, expanda a pasta de **Sempre na alta disponibilidade** . Clique com o botão direito do mouse na pasta **Grupos de Disponibilidade** e clique em **Assistente para Novo Grupo de Disponibilidade**.
+   - No explorador de objetos, expanda a pasta **sempre na alta disponibilidade** . Clique com o botão direito do mouse na pasta **Grupos de Disponibilidade** e clique em **Assistente para Novo Grupo de Disponibilidade**.
     
    - Se a página **Introdução** for exibida, clique em **Avançar**.
     
@@ -374,9 +374,9 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Na página Selecionar bancos de dados, selecione os bancos de dados que você deseja incluir na AG. Then click **Next**.
     
-     Não inclua o **ReportServer**, **ReportServerTempDB**ou bancos de dados de Chat persistente no AG, como eles não são suportados neste cenário. Você pode incluir todos os outro Skype para bancos de dados do servidor de negócios na AG.
+     Não inclua os bancos de dados de chat **ReportServer**, **ReportServerTempDB**ou persistent na AG, pois eles não têm suporte nesse cenário. Você pode incluir todos os outros bancos de dados do Skype for Business Server na AG.
     
-   - Na página **Especificar réplicas** , clique na guia de **réplicas** . Em seguida, clique no botão **Adicionar réplicas** e conecte-se para as outras instâncias do SQL que você ingressou como nós o WSFC.
+   - Na página **especificar réplicas** , clique na guia **réplicas** . Em seguida, clique no botão **Adicionar réplicas** e conecte-se às outras instâncias do SQL que você ingressou como nós do WSFC.
     
    - Para cada instância, selecione as opções **Failover Automático** e **Confirmação Síncrona**. Não selecione a opção **Secundária Legível**.
     
@@ -394,42 +394,42 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Na página **Resumo**, verifique todas as configurações e clique em Concluir.
     
-7. Crie um novo repositório especificando o ouvinte AG.
+7. Crie uma nova loja especificando o ouvinte AG.
     
-   - Abra o construtor de topologia. Em sua topologia, expanda **Componentes Compartilhados**, clique com o botão direito do mouse em **Repositórios do SQL Server** e clique em **Novo Repositório do SQL Server**.
+   - Abrir o construtor de topologias. Em sua topologia, expanda **Componentes Compartilhados**, clique com o botão direito do mouse em **Repositórios do SQL Server** e clique em **Novo Repositório do SQL Server**.
     
    - Na página **Definir Novo Repositório SQL**, primeiro marque a caixa de seleção **Configurações de Alta Disponibilidade** e, em seguida, certifique-se de que a opção Grupos de Disponibilidade AlwaysOn do SQL aparece na caixa suspensa.
     
    - Na caixa **FQDN do Ouvinte de Disponibilidade do SQL Server**, digite o FQDN do ouvinte que criou quando criou o grupo de disponibilidade.
     
-   - Na caixa **FQDN do SQL Server** , digite o FQDN do nó principal do AG e clique em **Okey**.
+   - Na caixa **FQDN do SQL Server** , digite o FQDN do nó primário da AG e clique em **OK**.
     
-8. Associe o novo sempre no grupo de disponibilidade com o pool de Front-End.
+8. Associe o novo grupo de disponibilidade AlwaysOn ao pool de front-ends.
     
-   - No construtor de topologia, clique com botão direito do pool para associar a AG e clique em **Editar propriedades**.
+   - No construtor de topologias, clique com o botão direito do mouse no pool para associá-lo à AG e clique em **Editar propriedades**.
     
-   - Em **associações**, na caixa **Repositório do SQL Server** , selecione a AG. Selecione o grupo mesmo para outros bancos de dados no qual você deseja mover para a AG pool.
+   - Em **associações**, na caixa da **loja do SQL Server** , selecione a AG. Selecione o mesmo grupo para qualquer outro banco de dados no pool que você deseja mover para a AG.
     
-   - Quando tiver certeza de que todos os bancos de dados necessários são definidos como a AG, clique em **Okey**.
+   - Quando tiver certeza de que todos os bancos de dados necessários estão definidos para a AG, clique em **OK**.
     
 9. Publique a topologia. No menu **Ação**, clique em **Topologia** e, em seguida, **Publicar**. Na página de confirmação, clique em **Avançar**.
     
-10. Execute algumas etapas finais para certificar-se de que os logons do SQL estão em cada uma das réplicas na AG.
+10. Execute algumas etapas finais para garantir que os logons do SQL estejam em cada uma das réplicas da AG.
     
-    - Abra o construtor de topologia, selecione **Baixar topologia da implantação existente**e clique em **Okey**.
+    - Abra o construtor de topologias, selecione **baixar topologia de implantação existente**e clique em **OK**.
     
-    - Expanda o Skype for Business Server, expanda sua topologia e expanda **Repositórios do SQL Server**. Com o botão direito o repositório SQL da AG novo e clique em **Editar propriedades**.
+    - Expanda o Skype for Business Server, expanda sua topologia e expanda **Repositórios do SQL Server**. Clique com o botão direito do mouse na loja do SQL da nova AG e clique em **Editar propriedades**.
     
     - Na parte inferior da página, na caixa **FQDN do SQL Server** , altere o valor para o FQDN do ouvinte da AG.
     
     - Publique a topologia. No menu **Ação**, clique em **Topologia** e, em seguida, **Publicar**. Na página de confirmação, clique em **Avançar**. Aguarde alguns minutos para a nova topologia ser replicada.
     
-    - Abra o SQL Server Management Studio e navegue até a AG. Faça failover para uma réplica secundária.
+    - Abra o SQL Server Management Studio e navegue até o AG. Faça failover para uma réplica secundária.
     
-    - Abra o Skype do Shell de gerenciamento do servidor de negócios e digite o seguinte cmdlet para criar logons do SQL nesta réplica:
+    - Abra o Shell de gerenciamento do Skype for Business Server e digite o seguinte cmdlet para criar os logons do SQL nesta réplica:
     
       ```
       Install-CsDatabase -Update
       ```
 
-      - Repita as duas etapas anteriores (failover no grupo para uma réplica secundária e, em seguida, usar `Install-CsDatabase -Update`) para cada réplica no grupo.
+      - Repita as duas etapas anteriores (failover do grupo para uma réplica secundária e, em seguida `Install-CsDatabase -Update`, use) para cada réplica do grupo.

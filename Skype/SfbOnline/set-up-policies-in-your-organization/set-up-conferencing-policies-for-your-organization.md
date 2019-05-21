@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,27 +18,27 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Conferência é uma parte importante do Skype for Business Online: a conferência permite que grupos de usuários reúnam-se online para ver slides e vídeo, compartilhar aplicativos, trocar arquivos ou para comunicarem-se e colaborar.'
-ms.openlocfilehash: 46e22191875709f13936db395563eb9f7326300f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 43c441e769622fcf5f292329c460c7c662619ee1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237466"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297704"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Configurar políticas de conferência para sua organização
 
 Conferência é uma parte importante do Skype for Business Online: a conferência permite que grupos de usuários reúnam-se online para ver slides e vídeo, compartilhar aplicativos, trocar arquivos ou para comunicarem-se e colaborar.
   
-É importante que você mantenha o controle sobre conferências e suas configurações. Em alguns casos, pode haver preocupações de segurança: por padrão, qualquer pessoa, inclusive usuários não autenticados, pode participar de reuniões e salvar nenhum dos slides ou folhetos distribuídos durante essas reuniões. Além disso, pode haver questões legais ocasionais. Por exemplo, por padrão, os participantes da reunião têm permissão para fazer anotações no conteúdo compartilhado; No entanto, essas anotações não são salvas quando a reunião é arquivada. Se sua organização é necessária para manter um registro de todas as comunicações eletrônicas, você talvez queira desabilitar as anotações. 
+É importante manter o controle das configurações de conferência e conferências. Em alguns casos, pode haver problemas de segurança: por padrão, qualquer pessoa, incluindo usuários não autenticados, pode participar de reuniões e salvar qualquer slide ou folheto distribuído durante essas reuniões. Além disso, pode haver preocupações legais ocasionais. Por exemplo, por padrão, os participantes da reunião podem fazer anotações em conteúdo compartilhado; no entanto, essas anotações não são salvas quando a reunião é arquivada. Se a sua organização for necessária para manter um registro de todas as comunicações eletrônicas, talvez você queira desativar as anotações. 
   
-No Skype para Business Online, as conferências são gerenciadas usando políticas de conferência. Diretivas de conferência determinam os recursos e capacidades que podem ser usadas em uma conferência, incluindo tudo de estarem ou não a conferência pode incluir IP, áudio e vídeo para o número máximo de pessoas que podem participar de uma reunião. Políticas de conferência podem ser configuradas no escopo global ou no escopo por usuário. Isso oferece aos administradores uma enorme flexibilidade quando se trata de decidir quais recursos serão disponibilizados para os quais usuários.
+No Skype for Business Online, as conferências são gerenciadas usando políticas de conferência. As políticas de conferência determinam os recursos e as funcionalidades que podem ser usados em uma conferência, incluindo o fato de que a conferência pode ou não ter áudio e vídeo IP para o número máximo de pessoas que podem participar de uma reunião. As políticas de conferência podem ser configuradas no escopo global ou no escopo por usuário. Isso proporciona aos administradores uma enorme flexibilidade quando se trata de decidir quais recursos serão disponibilizados para os usuários.
   
-Configurações de diretiva que podem ser configuradas no momento em que uma diretiva é criada ou você pode usar o cmdlet **Set-CsConferencingPolicy** para modificar as configurações de uma diretiva existente.
+As configurações de política podem ser definidas no momento em que uma política é criada ou você pode usar o cmdlet **set-CsConferencingPolicy** para modificar as configurações de uma política existente.
   
 ## <a name="set-your-conferencing-policies"></a>Definir suas políticas de conferência
 
 > [!NOTE]
-> Para todas as configurações de diretiva de conferência no Skype para Business Online, você deve usar o Windows PowerShell e você **não pode usar** o **Skype para centro de administração de negócios**. 
+> Para todas as configurações de política de conferência no Skype for Business Online, você deve usar o Windows PowerShell e **não pode usar** o **centro de administração do Skype for Business**. 
   
 ### <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar o Windows PowerShell
 
@@ -70,7 +70,7 @@ Configurações de diretiva que podem ser configuradas no momento em que uma dir
     Import-PSSession $session
    ```
 
-   Se você quiser obter mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para o Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>Bloquear transferências de arquivo e compartilhamento de área de trabalho durante as reuniões
 
@@ -79,34 +79,34 @@ Configurações de diretiva que podem ser configuradas no momento em que uma dir
   > ```
   > New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
   > ```
-  > Consulte obter mais informações sobre o cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
+  > Veja mais no cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
     
-- Para conceder a nova política que você criou para todos os usuários em sua organização, execute:
+- Para conceder a nova política criada para todos os usuários em sua organização, execute:
   > 
   > ```
   > Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
   > ```
-  > Consulte obter mais informações sobre o cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
+  > Veja mais no cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
     
-  Se você já tiver criado uma política, você pode usar o cmdlet [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) para fazer alterações à diretiva existente e, em seguida, use o cmdlet[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) para aplicar as configurações para seus usuários.
+  Se você já tiver criado uma política, poderá usar o cmdlet [set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) para fazer alterações na política existente e usar o cmdlet[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) para aplicar as configurações aos usuários.
   
-### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>Bloquear a gravação de conferências e impedir que os participantes da reunião anônimo
+### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>Bloquear a gravação de conferências e evitar participantes de reuniões anônimos
 
 - Para criar uma nova política para essas configurações, execute: 
   > 
   > ```
   > New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
   > ```
-  > Consulte obter mais informações sobre o cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
+  > Veja mais no cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
     
-- Para conceder a nova política que você criou para Mármore Amos, execute:
+- Para conceder a nova política criada para o Marble Amos, execute:
   > 
   > ```
   >  Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
   > ```
-  > Consulte obter mais informações sobre o cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
+  > Veja mais no cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
     
-Se você já tiver criado uma política, você pode usar o cmdlet [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) para fazer alterações à diretiva existente e, em seguida, use o cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) para aplicar as configurações para seus usuários.
+Se você já tiver criado uma política, poderá usar o cmdlet [set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) para fazer alterações na política existente e usar o cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) para aplicar as configurações aos usuários.
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>Impedir que participantes anônimos gravem reuniões e que usuários externos salvem o conteúdo da reunião
 
@@ -115,18 +115,18 @@ Se você já tiver criado uma política, você pode usar o cmdlet [Set-CsConfere
   > ```
   > New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
   > ```
-  > Consulte obter mais informações sobre o cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
+  > Veja mais no cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
     
-- Para conceder a nova política que você criou para todos os usuários em sua organização, execute:
+- Para conceder a nova política criada para todos os usuários de sua organização, execute:
     
 > 
 >   ```
 >   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
 >   ```
 
-Consulte obter mais informações sobre o cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
+Veja mais no cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
     
-Se você já tiver criado uma política, você pode usar o cmdlet [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) para fazer alterações à diretiva existente e, em seguida, use o cmdlet[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) para aplicar as configurações para seus usuários.
+Se você já tiver criado uma política, poderá usar o cmdlet [set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) para fazer alterações na política existente e usar o cmdlet[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) para aplicar as configurações aos usuários.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
@@ -147,7 +147,7 @@ Se você já tiver criado uma política, você pode usar o cmdlet [Set-CsConfere
 ## <a name="related-topics"></a>Tópicos relacionados
 [Criar políticas personalizadas de acesso externo](create-custom-external-access-policies.md)
 
-[Transferências de arquivos ponto a ponto de bloqueio](block-point-to-point-file-transfers.md)
+[Bloquear transferências de arquivo ponto a ponto](block-point-to-point-file-transfers.md)
 
 [Configurar políticas de clientes para sua organização](set-up-client-policies-for-your-organization.md)
 

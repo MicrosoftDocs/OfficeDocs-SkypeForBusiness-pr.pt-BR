@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba as informações que são enviadas automaticamente aos usuários por e-mail quando suas configurações de conferência discada são alteradas no Microsoft Teams. '
-ms.openlocfilehash: 67e4945095b9ed7e69632741e04b4ac384741feb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9d05fed1210e1060800f51b5ff8aed211e5bae66
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245090"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298902"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>E-mails enviados para os usuários quando suas configurações são alteradas no Microsoft Teams
 
@@ -35,7 +35,7 @@ Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habi
 
 - **Uma licença de Audioconferência PSTN for atribuída a eles ou quando você alterar o provedor de audioconferência para a Microsoft.**
 
-     Esse e-mail inclui o ID de conferência, o número de telefone de conferência padrão para as reuniões, o PIN de audioconferência do usuário, além das instruções e do link para usar a Ferramenta de atualização de reunião do Skype for Business Online usada para atualizar reuniões existentes do usuário. Consulte [as equipes da Microsoft atribuir licenças](assign-teams-licenses.md) ou [Atribuir Microsoft como um provedor de serviços de audioconferência](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
+     Esse e-mail inclui o ID de conferência, o número de telefone de conferência padrão para as reuniões, o PIN de audioconferência do usuário, além das instruções e do link para usar a Ferramenta de atualização de reunião do Skype for Business Online usada para atualizar reuniões existentes do usuário. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md) ou [atribuir a Microsoft como o provedor de áudio de audioconferência](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
     > [!NOTE]
     > Se a sua organização estiver habilitada para IDs de conferência dinâmicos, todas as reuniões agendadas de um usuário terão IDs de conferência exclusivos. Você pode configurar [IDs dinâmicos de audioconferência na sua organização](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user). 
@@ -44,7 +44,7 @@ Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habi
 
      ![Verificar licença do Skype for Business](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    Para obter mais informações sobre licenciamento, consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    Para saber mais sobre licenciamento, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 - **O ID de conferência ou número de telefone de conferência padrão de um usuário é alterado.**
 
@@ -77,7 +77,7 @@ Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habi
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Alterar as mensagens de e-mail enviadas a eles
 
-Você pode fazer alterações para email que será enviado automaticamente aos usuários. Por padrão, o remetente dos e-mails será do Office 365, mas você pode alterar o nome para exibição usando o Windows PowerShell. Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Você pode fazer alterações ao email que será enviado automaticamente aos usuários. Por padrão, o remetente dos emails será do Office 365, mas você pode alterar o nome de exibição usando o Windows PowerShell. Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>E se você não quiser que eles recebam e-mails?
 
@@ -85,7 +85,7 @@ Ao desativar o envio de e-mails aos usuários, o e-mail não será enviado mesmo
 
 Seus usuários receberão e-mails por padrão, mas, se você deseja evitar que eles recebam e-mails sobre audioconferência, você pode usar o Microsoft Teams ou o Windows PowerShell. 
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 

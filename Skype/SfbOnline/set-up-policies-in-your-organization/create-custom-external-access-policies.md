@@ -10,43 +10,43 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Skype para Business Online permite que você crie políticas de acesso externo adicionais. Ao contrário de políticas de cliente ou de conferência, onde você pode ter várias combinações, há três políticas de acesso externo predefinido que podem abranger a maioria dos cenários.
-ms.openlocfilehash: b368c7d30e74225f7808f9f3728691040e75016f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: O Skype for Business Online permite que você crie políticas de acesso externo adicionais. Ao contrário das políticas de cliente ou de conferência, em que você pode ter várias combinações, há três políticas de acesso externo predefinidas que podem abranger a maioria dos cenários.
+ms.openlocfilehash: 0ffd39559e4bc45a7d70466d48fb9ae838660af9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237524"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297802"
 ---
 # <a name="create-custom-external-access-policies"></a>Criar políticas personalizadas de acesso externo
 
-Skype para Business Online permite que você crie políticas de acesso externo adicionais. Ao contrário de políticas de cliente ou de conferência, onde você pode ter várias combinações, há três políticas de acesso externo predefinido que podem abranger a maioria dos cenários. São elas:
+O Skype for Business Online permite que você crie políticas de acesso externo adicionais. Ao contrário das políticas de cliente ou de conferência, em que você pode ter várias combinações, há três políticas de acesso externo predefinidas que podem abranger a maioria dos cenários. São elas:
   
-- Não federado ou acesso de consumidor do Skype (_Marca: NoFederationAndPIC_ )
+- Sem acesso ao consumidor federado ou Skype (_marca: NoFederationAndPIC_ )
     
-- Somente acesso federado (_Marca: FederationOnly_ )
+- Somente acesso federado (_marca: FederationOnly_ )
     
-- Federados e consumidor acessar (_FederationAndPICDefault_)
+- Acesso federado e de consumidor (_FederationAndPICDefault_)
     
-Políticas externas personalizadas permitem que você criar adicionais políticas que não estão cobertos pelas configurações acima. Quando a diretiva tiver sido criada, você poderia ser necessário para configurar todos os parâmetros necessários e não pôde alterá-los mais tarde. Criando novas políticas personalizadas permitem que você os recursos de controle, como acesso de consumidor do Skype ou uma diretiva para desabilitar público na nuvem áudio/vídeo, que é algo que não foi coberto com configurações predefinidas. Políticas de acesso externo personalizadas siga a mesma sintaxe de políticas de cliente, mobilidade e conferência. Você pode encontrar mais informações sobre essas configurações [aqui](https://technet.microsoft.com/en-us/library/mt228132.aspx).
+Políticas externas personalizadas permitem que você crie políticas adicionais que não estão incluídas nas configurações acima. Após a criação da política, você será solicitado a definir todos os parâmetros obrigatórios e não poderá alterá-los mais tarde. A criação de novas políticas personalizadas permite que você controle recursos como o acesso do consumidor do Skype ou uma política para desabilitar o áudio/vídeo de nuvem pública, que é algo que não está coberto por configurações predefinidas. As políticas personalizadas de acesso externo seguem a mesma sintaxe das políticas de cliente, mobilidade e conferência. Você pode saber mais sobre essas configurações [aqui](https://technet.microsoft.com/en-us/library/mt228132.aspx).
   
-Para que isso funcione, o usuário deve estar usando uma versão compatível do 2016 Skype Click-to-Run para o aplicativo de negócios que lhe fornecer apoio. A seguinte versão mínima do Skype para negócios 2016 Click-to-Run cliente é necessária:
+Para fazer isso funcionar, o usuário deve estar usando uma versão com suporte do 2016 clique para executar o aplicativo Skype for Business compatível com ele. A seguinte versão mínima do Skype for Business 2016 clique para executar cliente é necessária:
   
-|**Tipo**|**Data de lançamento**|**Versão**|**Compilação**|
+|**Tipo**|**Data do lançamento**|**Versão**|**Compilação**|
 |:-----|:-----|:-----|:-----|
-|Primeira versão do canal atual  <br/> |17/11/2016  <br/> |16.0.7571.2006  <br/> |Versão 1611 (compilação 7571.2006)  <br/> |
-|Canal atual  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Versão 1611 (compilação 7571.2072)  <br/> |
-|Canal adiada  <br/> |22/2/2017  <br/> |16.0.7369.2118  <br/> |Versão 1609 (compilação 7369.2118)  <br/> |
+|Primeiro lançamento do canal atual  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |Versão 1611 (Build 7571,2006)  <br/> |
+|Canal atual  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |Versão 1611 (Build 7571,2072)  <br/> |
+|Canal adiado  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |Versão 1609 (Build 7369,2118)  <br/> |
    
 > [!CAUTION]
-> Usuários que estiverem usando versões mais antigas do Skype para aplicativos do Windows de negócios ou clientes Mac ainda poderá transferir arquivos. 
+> Os usuários que usam versões mais antigas dos aplicativos do Windows ou clientes Mac do Skype for Business ainda poderão transferir arquivos. 
   
 ## <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar o Windows PowerShell
 
@@ -78,9 +78,9 @@ Para que isso funcione, o usuário deve estar usando uma versão compatível do 
     Import-PSSession $session
    ```
 
-   Se você quiser obter mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para o Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
-## <a name="create-a-custom-external-access-policy-for-a-user"></a>Criar uma política de acesso externo personalizadas para um usuário
+## <a name="create-a-custom-external-access-policy-for-a-user"></a>Criar uma política de acesso externo personalizada para um usuário
 
 Para fazer isso, execute:
   
@@ -111,11 +111,11 @@ Para fazer isso, execute:
   - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
 ## <a name="related-topics"></a>Tópicos relacionados
-[Transferências de arquivos ponto a ponto de bloqueio](block-point-to-point-file-transfers.md)
+[Bloquear transferências de arquivo ponto a ponto](block-point-to-point-file-transfers.md)
 
 [Configurar políticas de clientes para sua organização](set-up-client-policies-for-your-organization.md)
 
-[Configurar políticas de conferência na sua organização](set-up-conferencing-policies-for-your-organization.md)
+[Configurar políticas de conferência em sua organização](set-up-conferencing-policies-for-your-organization.md)
 
   
  

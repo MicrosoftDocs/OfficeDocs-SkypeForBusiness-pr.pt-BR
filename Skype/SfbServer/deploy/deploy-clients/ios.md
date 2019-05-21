@@ -3,37 +3,37 @@ title: Instalar e testar o Skype for Business para iOS
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
-description: 'Resumo: Como instalar e testar o Skype for Business para iOS app.'
-ms.openlocfilehash: 395ca6f27b373aff981cebc79567a05e7ab72696
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: como instalar e testar o aplicativo Skype for Business para iOS.'
+ms.openlocfilehash: 6d2bb63e5005a4e4888017a1dc450db9eaa368ce
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895206"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293589"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Instalar e testar o Skype for Business para iOS
  
-**Resumo:** Como instalar e testar o Skype for Business para iOS app.
+**Resumo:** Como instalar e testar o aplicativo Skype for Business para iOS.
   
-O Skype for Business para iOS app traz Skype para presença, mensagens instantâneas (IM) e voz e vídeo chamar para dispositivos iOS de negócios. Usuários com Lync 2013 receberão o aplicativo atualizado automaticamente ou serão solicitados a atualizá-lo manualmente, dependendo das configurações do usuário. Novos usuários podem baixá-lo pela Apple App Store. O Skype for Business para iOS app só está disponível nas versões do iOS 8.0 e posterior.
+O aplicativo Skype for Business para iOS traz a presença do Skype for Business, mensagens instantâneas (IM) e chamadas de voz e vídeo para dispositivos iOS. Usuários com Lync 2013 receberão o aplicativo atualizado automaticamente ou serão solicitados a atualizá-lo manualmente, dependendo das configurações do usuário. Novos usuários podem baixá-lo pela Apple App Store. O aplicativo Skype for Business para iOS só está disponível nas versões 8,0 e posteriores do iOS.
   
-## <a name="installing-skype-for-business-for-ios"></a>Instalando o Skype for Business para iOS
+## <a name="installing-skype-for-business-for-ios"></a>Instalar o Skype for Business para iOS
 
-1. Usando seu dispositivo iOS, toque **App Store**e procurar **Skype for Business para iOS**.
+1. Em seu dispositivo iOS, toque em **App Store**e procure por **Skype for Business para IOS**.
     
-2. Toque em **Baixar** > **Open**. 
+2. Toque em **Download** > **abrir**. 
     
 3. Entre no aplicativo.
     
 ## <a name="verifying-mobile-client-installation"></a>Verificação da instalação do cliente móvel
 
-Depois que você entra com êxito, use os seguintes testes para verificar se a sua Skype para instalação de negócios está funcionando corretamente no seu dispositivo iOS. 
+Depois de conectar-se com êxito, use os seguintes testes para verificar se a sua instalação do Skype for Business está funcionando corretamente no seu dispositivo iOS. 
   
 ### <a name="search-for-a-contact-in-the-corporate-directory"></a>Procure um contato no diretório corporativo
 
@@ -49,7 +49,7 @@ Depois que você entra com êxito, use os seguintes testes para verificar se a s
     
 ### <a name="test-dial-out-conferencing"></a>Teste a conferência discada
 
-1. No Outlook, agende uma Skype para reunião de negócios. 
+1. No Outlook, agende uma reunião do Skype for Business. 
     
 2. No dispositivo móvel, abra o convite de reunião. 
     
@@ -59,14 +59,14 @@ Depois que você entra com êxito, use os seguintes testes para verificar se a s
     
 ### <a name="test-push-notifications"></a>Teste as notificações por push
 
-1. No dispositivo móvel do usuário, faça logon no Skype for Business com a conta do usuário. 
+1. No dispositivo móvel do usuário A, conecte-se ao Skype for Business com a conta do usuário A. 
     
 2. Abra outro aplicativo no dispositivo móvel. 
     
-3. Em um cliente diferente, faça logon no Skype for Business com a conta do usuário B. 
+3. Em um cliente diferente, conecte-se ao Skype for Business com a conta do usuário B. 
     
 4. Envie uma mensagem instantânea do usuário B para o usuário A. 
     
-5. Verifique se a notificação de IM aparece no dispositivo móvel do usuário. 
+5. Verifique se a notificação de mensagem instantânea é exibida no dispositivo móvel do usuário A. 
     
 

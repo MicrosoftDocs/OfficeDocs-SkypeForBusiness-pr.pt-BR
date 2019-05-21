@@ -1,9 +1,9 @@
 ---
-title: Advanced DNS do servidor de borda planejando Skype para Business Server
+title: Planejamento DNS de servidor de borda avançado para o Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
-ms.audience: ITPro
+audience: ITPro
 manager: serdars
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,19 +13,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
-description: 'Resumo: Revise os cenários de Skype para opções de implantação de servidor de negócios. Se você deseja que um único servidor ou preferir um pool de servidores com o DNS ou HLB, este tópico deve ajudar.'
-ms.openlocfilehash: 75dc496d53823a87bfb3485d37a3c5f32ababe19
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: examine os cenários das opções de implantação do Skype for Business Server. Se você deseja um único servidor ou prefere um pool de servidores com DNS ou HLB, este tópico deve ajudar.'
+ms.openlocfilehash: 6ef0fc7a19703d6eba0ec3bfa66c0b37fcece53f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925352"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297068"
 ---
-# <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Advanced DNS do servidor de borda planejando Skype para Business Server
+# <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Planejamento DNS de servidor de borda avançado para o Skype for Business Server
  
-**Resumo:** Revise os cenários de Skype para opções de implantação de servidor de negócios. Se você deseja que um único servidor ou preferir um pool de servidores com o DNS ou HLB, este tópico deve ajudar.
+**Resumo:** Cenários de revisão para as opções de implantação do Skype for Business Server. Se você deseja um único servidor ou prefere um pool de servidores com DNS ou HLB, este tópico deve ajudar.
   
-Quando se trata de sistema de nome de domínio (DNS) planejando Skype para Business Server, existem muitos fatores que podem ser reproduzidos em sua decisão. Se a estrutura de domínio de sua organização já estiver em vigor, pode ser só uma questão de analisar como continuar. Começaremos com os tópicos abaixo:
+Quando se trata de planejamento DNS (Domain Name System) para o Skype for Business Server, há muitos fatores que podem ser executados na sua decisão. Se a estrutura de domínio de sua organização já estiver em vigor, pode ser só uma questão de analisar como continuar. Começaremos com os tópicos abaixo:
   
 - [Walkthrough of Skype for Business clients locating services](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)
     
@@ -40,7 +40,7 @@ Quando se trata de sistema de nome de domínio (DNS) planejando Skype para Busin
 ## <a name="walkthrough-of-skype-for-business-clients-locating-services"></a>Walkthrough of Skype for Business clients locating services
 <a name="WalkthroughOfSkype"> </a>
 
-Skype para clientes corporativos são semelhantes às versões anteriores dos clientes do Lync em como eles encontrar e acessar os serviços Skype para Business Server. Esta seção detalha o processo de local do servidor.
+Os clientes do Skype for Business são semelhantes às versões anteriores dos clientes do Lync em como localizam e acessam serviços no Skype for Business Server. Esta seção detalha o processo de local do servidor.
   
 1. lyncdiscoverinternal. \<domínio\>
     
@@ -50,7 +50,7 @@ Skype para clientes corporativos são semelhantes às versões anteriores dos cl
     
      *Um registro de host do serviço de Descoberta Automática nos serviços Web externos.* 
     
-3. sipinternaltls. \<domínio\>
+3. _sipinternaltls. _ TCP. \<domínio\>
     
      *Um registro SRV para conexões TLS internas.* 
     
@@ -60,15 +60,15 @@ Skype para clientes corporativos são semelhantes às versões anteriores dos cl
     
 5. sipinternal. \<domínio\>
     
-     *Esse é um registro host para o pool de Front-End ou diretor, pode ser resolvido apenas na rede interna.* 
+     *Esse é um registro de host para o pool ou o diretor de front-end, que é resolvível somente na rede interna.* 
     
-6. SIP. \<domínio\>
+6. SPI. \<domínio\>
     
-     *Esse é um registro host para o pool de Front-End ou diretor, pode ser resolvido apenas na rede interna.* 
+     *Esse é um registro de host para o pool ou o diretor de front-end, que é resolvível somente na rede interna.* 
     
 7. sipexternal. \<domínio\>
     
-     *Este é um registro host para o serviço de borda de acesso, quando o cliente está externo.* 
+     *Esse é um registro de host para o serviço de borda de acesso, quando o cliente é externo.* 
     
 O serviço de Descoberta Automática é sempre considerado o método preferencial para local do serviço, e os outros estão métodos de fallback.
   
@@ -77,9 +77,9 @@ O serviço de Descoberta Automática é sempre considerado o método preferencia
   
 Se você quiser, é possível definir seu dispositivo móvel para descoberta manual de serviços. Se for isso que você desejar fazer, cada usuário precisa definir as configurações de seus dispositivos móveis com os URIs completos, internos e externos, do serviço de Descoberta Automática, incluindo o protocolo e o caminho, da seguinte forma:
   
-- Para acesso externo: https://\<ExtPoolFQDN\>/Autodiscover/autodiscoverservice.svc/Root
+- Para acesso externo: https://\<ExtPoolFQDN\>/autodiscover/autodiscoverservice.svc/root
     
-- Para acesso interno: https://\<IntPoolFQDN\>/AutoDiscover/AutoDiscover.svc/Root
+- Para acesso interno: https://\<IntPoolFQDN\>/autodiscover/autodiscover.svc/root
     
 Recomendamos que você use a descoberta automática em oposição à descoberta manual. Mas, se você estiver solucionando problemas ou fazendo testes, as configurações manuais podem ser muito úteis.
   
@@ -90,9 +90,9 @@ Esta é uma configuração de DNS na qual você tem duas zonas DNS com o mesmo n
   
 Por que uma empresa faria isso? Pode haver a necessidade de usar o mesmo namespace internamente e externamente, mas isso levaria a muitos SRV e registros A de DNS exclusivos para uma ou outra zona e, onde houver duplicação, os endereços IP associados a esses registros seriam exclusivo.
   
-Isso apresenta alguns desafios. O mais importante é que Split-Brain DNS **não tem suporte** para mobilidade. Isso ocorre por causa dos registros de DNS LyncDiscover e LyncDiscoverInternal (LyncDiscover deve ser definido no servidor DNS externo, enquanto que LyncDiscoverInternal deve ser definido em seu servidor DNS interno).
+Isso apresenta alguns desafios. O mais importante é que o DNS Split-Brain **não é compatível** com a mobilidade. Isso ocorre por causa dos registros de DNS LyncDiscover e LyncDiscoverInternal (LyncDiscover deve ser definido no servidor DNS externo, enquanto que LyncDiscoverInternal deve ser definido em seu servidor DNS interno).
   
-Vai listamos os registros DNS para as zonas internos e externos aqui, mas você pode encontrar exemplos detalhados na seção de requisitos de ambiente de servidor de borda.
+Listaremos os registros de DNS das zonas internas e externas aqui, mas você pode encontrar exemplos detalhados na seção requisitos de ambiente do servidor de borda.
   
 ### <a name="internal-dns"></a>DNS Interno
 
@@ -100,19 +100,19 @@ Vai listamos os registros DNS para as zonas internos e externos aqui, mas você 
     
 - Essa zona interna contoso.com contém:
     
-  - Os registros DNS A e AAAA (se você estiver usando endereçamento IPv6) para seu pool de Front-End, o pool de diretor ou nome do pool de diretor e todos os servidores internos executando Skype para Business Server na rede da sua organização.
+  - Registros DNS A e AAAA (se você estiver usando endereçamento IPv6) para o pool de front-end, o pool de directors ou o nome do pool de diretor e todos os servidores internos que executam o Skype for Business Server na rede da sua organização.
     
-  - DNS A e AAAA (se você estiver usando endereçamento IPv6) registra sua interface interna de borda para cada Skype para o servidor de borda do Business Server na rede de perímetro.
+  - Registros A e AAAA do DNS (se você estiver usando endereçamento IPv6) para a interface interna do seu Edge para cada servidor de borda do Skype for Business Server na sua rede de perímetro.
     
-  - Os registros DNS A e AAAA (se você estiver usando endereçamento IPv6) para a interface interna de cada servidor de proxy reverso na rede de perímetro (que é **opcional** para gerenciamento de um proxy reverso).
+  - Registros DNS A e AAAA (se você estiver usando endereçamento IPv6) para a interface interna de cada servidor de proxy reverso na sua rede de perímetro (que é **opcional** para o gerenciamento de um proxy reverso).
     
-  - Registros DNS A e AAAA (se você estiver usando endereçamento IPv6) e SRV para Skype interno para configuração automática do cliente Business Server (que é **opcional** ).
+  - DNS A e AAAA (se você estiver usando endereçamento IPv6) e Registros SRV para configuração automática interna do cliente do Skype for Business Server (que é **opcional** ).
     
-  - DNS A e AAAA (se você estiver usando endereçamento IPv6) ou CNAME para descoberta automática do Skype para Business Server Web Services (que é **opcional** ).
+  - DNS A e AAAA (se você estiver usando endereçamento IPv6) ou registros CNAME para descoberta automática de serviços Web do Skype for Business Server (que é **opcional** ).
     
-- Todos os seu Skype para interfaces de borda internas Business Server na rede de perímetro use esta zona DNS interna para resolver consultas em contoso.com.
+- Todas as interfaces de borda interna do Skype for Business Server na sua rede de perímetro usam essa zona DNS interna para a resolução de consultas para o contoso.com.
     
-- Todos os servidores que executam o Skype para servir de negócios e clientes executando o Skype para Business Server na rede corporativa, apontem para servidores DNS internos para resolver consultas em contoso.com ou uso do arquivo de Host em cada servidor de borda e a lista A e AAAA (se você estiver usando o Registros de endereçamento IPv6) para o servidor de próximo salto (especificamente para o Diretor ou VIP do pool de diretor, Front End pool VIP ou servidor Standard Edition).
+- Todos os servidores que executam o Skype for Business servem e clientes que executam o Skype for Business Server na rede corporativa, apontam para servidores DNS internos para a resolução de consultas para o contoso.com ou usam o arquivo host em cada servidor de borda e lista de A e AAAA (se você estiver usando Endereçamento IPv6) para o próximo servidor de salto (especificamente para o diretor de diretor ou diretor de diretor, VIP de pool de front-end ou servidor Standard Edition).
     
 ### <a name="external-dns"></a>DNS Externo
 
@@ -120,28 +120,28 @@ Vai listamos os registros DNS para as zonas internos e externos aqui, mas você 
     
 - Essa zona externa contoso.com contém:
     
-  - DNS A e AAAA (se você estiver usando endereçamento IPv6) ou CNAME registra, para a descoberta automática do Skype para serviços da web de Business Server. Isso é para usar com mobilidade.
+  - DNS A e AAAA (se você estiver usando endereçamento IPv6) ou registros CNAME para descoberta automática dos serviços da Web do Skype for Business Server. Isso é para uso com mobilidade.
     
-  - DNS A e AAAA (se você estiver usando endereçamento IPv6) e registros SRV para a interface externa da borda de cada Skype para o servidor de borda do Business Server ou a carga de hardware balanceada VIP (HLB) na rede de perímetro.
+  - DNS A e AAAA (se você estiver usando endereçamento IPv6) e Registros SRV para a interface externa Edge de cada servidor de borda do Skype for Business Server ou VIP de carga de hardware (HLB) balanceada na rede de perímetro.
     
-  - Registros DNS A e AAAA (se você estiver usando endereçamento IPv6) e SRV para a interface externa do servidor de proxy reverso ou (VIP para um pool de servidores de proxy reverso), na rede de perímetro.
+  - DNS A e AAAA (se você estiver usando endereçamento IPv6) e Registros SRV para a interface externa do servidor proxy reverso ou (VIP para um pool de servidores proxy reverso), na rede de perímetro.
     
-  - DNS A e AAAA (se você estiver usando endereçamento IPv6) e registros SRV para Skype para Business Server configuração automática do cliente (**opcional**).
+  - DNS A e AAAA (se você estiver usando endereçamento IPv6) e Registros SRV para a configuração automática do cliente do Skype for Business Server (**opcional**).
     
 ## <a name="automatic-configuration-without-split-brain-dns"></a>Configuração automática sem DNS de dupla personalidade
 <a name="NoSplitBrainDNS"> </a>
 
-Se você não usar Split-Brain DNS, interna configuração automática de clientes executando o Skype para negócios não funcionará a menos que você estiver usando uma das soluções que temos aqui. Por que não? Porque Skype para Business Server requer o URI do SIP do usuário corresponder ao domínio do pool de Front-End designado para configuração automática. Isso não mudou de versões anteriores do Lync Server.
+Se você não usar o DNS Split-Brain, a configuração interna automática de clientes que executam o Skype for Business não funcionará, a menos que você esteja usando uma das soluções alternativas aqui. Por que não? Como o Skype for Business Server exige que o URI SIP do usuário corresponda ao domínio do pool de front-end designado para configuração automática. Isso não mudou de versões anteriores do Lync Server.
   
 Portanto, se você tiver dois domínios SIP em uso, você precisará desses registros SRV de DNS:
   
 - _sipinternaltls._tcp.contoso.com. 86400 IN SRV 0 0 5061 pool01.contoso.com
     
-     *Se um usuário entrar como bob@contoso.com, este registro funcionaria para configuração automática, como o domínio SIP do usuário corresponde ao domínio do pool de Front-End (contoso.com).* 
+     *Se um usuário entrar como bob@contoso.com, esse registro funcionaria para configuração automática, pois o domínio SIP do usuário corresponde ao domínio do pool de front-ends (contoso.com).* 
     
 - _sipinternaltls._tcp.fabrikam.com. 86400 IN SRV 0 0 5061 pool01.fabrikam.com
     
-     *Se um usuário entrar como alice@fabrikam.com, este registro funcionaria para configuração automática do segundo domínio, novamente, porque o domínio SIP coincide com o pool de Front-End para esse domínio.* 
+     *Se um usuário entrar como alice@fabrikam.com, esse registro funcionaria para a configuração automática do segundo domínio, novamente porque o domínio SIP corresponde ao pool de front-end desse domínio.* 
     
 Para aprofundar mais o exemplo, isso não funcionaria:
   
@@ -149,7 +149,7 @@ Para aprofundar mais o exemplo, isso não funcionaria:
     
      *O logon de usuário tim@litwareinc.com não funcionará para a configuração automática, porque seu domínio SIP (litwareinc.com) não corresponde ao domínio do pool (fabrikam.com).* 
     
-Portanto, agora que sabemos que tudo isso, se você precisar requisito automático para sua Skype para clientes corporativos sem Split-Brain DNS, você tem estas opções:
+Agora que sabemos tudo isso, se você precisar de requisito automático para seus clientes do Skype for Business sem divisão-Brain DNS, terá estas opções:
   
 - **Objetos de Política de Grupo**
     
@@ -160,15 +160,15 @@ Portanto, agora que sabemos que tudo isso, se você precisar requisito automáti
   
 - **Zona interna correspondente**
     
-    Você precisará criar uma zona em seu DNS interno que coincida com sua zona de DNS externa (por exemplo, contoso.com) e, em seguida, crie A DNS (e AAAA se você estiver usando endereçamento IPv6) registros que correspondem do Skype para pool de servidores de negócios usado para automático configuração.
+    Você precisará criar uma zona no seu DNS interno que corresponda à sua zona DNS externa (por exemplo, contoso.com) e, em seguida, criar registros DNS A (e AAAA se você estiver usando endereçamento IPv6) que correspondam ao pool do servidor do Skype for Business usado para automático configuração.
     
-    Por exemplo, se você tiver um usuário hospedado no pool01. contoso.NET, mas sinais em Skype para negócios como bob@contoso.com, criar uma zona DNS interna, chamada contoso.com e dentro dela você precisa criar um DNS A (e AAAA se acessos do endereçamento IPv6) registro pool01. contoso.com.
+    Por exemplo, se você tiver um usuário hospedado no pool01.contoso.net, mas se inscrever no Skype for Business como bob@contoso.com, crie uma zona DNS interna chamada contoso.com e dentro dela você precisará criar um registro DNS A (e AAAA se o endereçamento IPv6 estiver sendo usado) para pool01.contoso.com.
     
 - **Zona interna exata**
     
     Se criar uma zona inteira no DNS interno não for uma opção, você poderá criar zonas exatas (dedicadas) que correspondam aos registros SRV necessários para a configuração automática e popular estas zonas usando o dnscmd.exe. O dnscmd.exe é necessário porque a interface do usuário do DNS não é compatível com a criação de zonas exatas.
     
-    Por exemplo, se o domínio SIP for contoso.com, e você tiver um pool de Front-End chamado pool01 que contém dois servidores Front-End, você precisará seguintes zonas exatas e registros em seu DNS interno:
+    Por exemplo, se o seu domínio SIP for contoso.com e você tiver um pool de front-end chamado pool01 que contém dois servidores front-end, você precisará das seguintes zonas de ponto de fixação e registros no seu DNS interno:
     
   ```
   dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
@@ -193,15 +193,15 @@ Portanto, agora que sabemos que tudo isso, se você precisar requisito automáti
   ```
 
 > [!NOTE]
-> Você verá o pool de Front-End que FQDN aparece duas vezes, mas com dois endereços IP diferentes. Isso ocorre porque o balanceamento de carga DNS é usado. Se HLB for usado, seria só haver uma única entrada de pool de Front-End. 
+> Você verá que o FQDN do pool de front-end aparece duas vezes, mas com dois endereços IP diferentes. Isso ocorre porque o balanceamento de carga DNS é usado. Se HLB for usado, haverá apenas uma única entrada de pool de front-end. 
   
 > [!NOTE]
-> Além disso, os valores FQDN do pool de Front-End alteram entre os exemplos de contoso.com e fabrikam.com, mas os endereços IP permanecem os mesmos. Isso ocorre porque os usuários que estiver entrando de qualquer domínio SIP usarão o mesmo pool de Front-End para configuração automática. 
+> Além disso, os valores de FQDN do pool de front-end são alterados entre os exemplos contoso.com e fabrikam.com, mas os endereços IP permanecem os mesmos. Isso porque os usuários que estão entrando em um domínio SIP usarão o mesmo pool de front-end para configuração automática. 
   
 ## <a name="dns-disaster-recovery"></a>DNS disaster recovery
 <a name="DNSDR"> </a>
 
-Para configurar o DNS para redirecionar Skype para tráfego da web Business Server para sua sites de failover e a recuperação de desastres (DR), você precisará usar um provedor DNS que ofereça suporte a GeoDNS. Você pode configurar seus registros DNS para oferecer suporte a recuperação de desastres, para que os recursos que utilizam serviços web continuam mesmo se um pool de Front-End inteiro cair. Esse recurso de DR suporta URLs simples de Descoberta Automática, de reunião e discado.
+Para configurar o DNS para redirecionar o tráfego da Web do Skype for Business Server para os sites de recuperação de desastres (DR) e de failover, você precisa usar um provedor de DNS que ofereça suporte a GeoDNS. Você pode configurar seus registros DNS para dar suporte à recuperação de desastres, para que os recursos que usam serviços Web continuem mesmo se um pool de front-end inteiro ficar inativo. Esse recurso de DR suporta URLs simples de Descoberta Automática, de reunião e discado.
   
 Você define e configura registros adicionais de host de DNS A (AAAA, se estiver usando IPv6) para resolução de serviços da Web internos e externos em seu provedor GeoDNS. As informações a seguir supõem pools emparelhados e geograficamente dispersos, GeoDNS suportado por seu provedor **** com DNS round robin **ou** configurado para usar o Pool1 como primário e failover para o Pool2, em caso de perda de comunicações ou falha de energia.
   
@@ -221,11 +221,11 @@ Todos os registros DNS nesta tabela são exemplos.
 ## <a name="dns-load-balancing"></a>Balanceamento de carga DNS
 <a name="DNSLB"> </a>
 
-O balanceamento de carga do DNS normalmente é implantado no nível dos aplicativos. O aplicativo (por exemplo, um cliente executando o Skype para negócios), tenta se conectar a um servidor em um pool Estabelecendo conexão com um dos endereços IP retornados da consulta para o FQDN do pool de registrar o DNS A e AAAA (se for usado o endereçamento IPv6).
+O balanceamento de carga do DNS normalmente é implantado no nível dos aplicativos. O aplicativo (por exemplo, um cliente que executa o Skype for Business), tenta se conectar a um servidor em um pool conectando-se a um dos endereços IP retornados da consulta de registro DNS A e AAAA (se o endereçamento IPv6 for usado) para o FQDN do pool.
   
-Por exemplo, se houver três servidores Front-End em um pool chamado pool01. contoso.com, o seguinte aconteceria:
+Por exemplo, se houver três servidores front-end em um pool chamado pool01.contoso.com, acontecerá o seguinte:
   
-- Clientes executando o Skype para negócios consultam DNS para pool01. contoso.com. A consulta retorna três endereços de IP e os armazena em cache da seguinte maneira (em qualquer ordem):
+- Clientes que executam o Skype for Business Query DNS para pool01.contoso.com. A consulta retorna três endereços de IP e os armazena em cache da seguinte maneira (em qualquer ordem):
     
    |||
    |:-----|:-----|
@@ -237,31 +237,31 @@ Por exemplo, se houver três servidores Front-End em um pool chamado pool01. con
     
 - Se a conexão TCP for bem -sucedida, o cliente negocia o TLS para se conectar ao Registrador Avançado primário em pool01.contoso.com.
     
-- Se o cliente experimenta entradas tudo em cache sem uma conexão bem-sucedida, o usuário receberá uma notificação de que nenhum servidor executando o Skype para Business Server está disponível no momento.
+- Se o cliente tentar todas as entradas armazenadas em cache sem uma conexão bem-sucedida, o usuário receberá uma notificação de que nenhum servidor executando o Skype for Business Server está disponível no momento.
     
 > [!NOTE]
 > O balanceamento de carga com base em DNS é diferente do round robin de DNS (DNS RR), que normalmente faz referência ao balanceamento de carga confiando no DNS para fornecer uma ordem diferente de endereços IP dos servidores de seu pool. Normalmente, o DNS RR habilita a distribuição de carga, mas não habilita o failover. Por exemplo, se a conexão com um endereço IP retornado pela consulta DNS A (ou AAAA, se estiver usando o endereçamento IPv6) falhar, a conexão falha. Portanto, o round robin de DNS é menos confiável do que o balanceamento de carga com base em DNS. O round robin de DNS ainda pode ser usado em conjunto com o balanceamento de carga DNS. 
   
 O balanceamento de carga DNS é usado para:
   
-- Servidor-para-servidor SIP para os servidores de borda de balanceamento de carga.
+- Balancear a carga do servidor para o servidor SIP para os servidores de borda.
     
 - Balanceamento de carga de aplicativos de Serviços de Aplicativos de Comunicações Unificadas (UCAS), como o Atendedor Automático de Conferências, Grupo de Resposta e Estacionamento de Chamada.
     
 - Evitar novas conexões a aplicativos UCAS (também conhecido como drenagem).
     
-- O balanceamento de carga todo o tráfego cliente-para-servidor entre clientes e servidores de borda.
+- Balanceamento de carga todo o tráfego de cliente para servidor entre clientes e servidores de borda.
     
 O balanceamento de carga DNS não pode ser usado para:
   
-- Tráfego web cliente-para-servidor para seus servidores Front-End ou um diretor.
+- Tráfego da Web de cliente para servidor para seus servidores front-end ou director.
     
-Para ir um pouco mais aprofundado na como um registro de SRV de DNS selecionados quando o texto com várias registros DNS forem retornados por uma consulta, o serviço de borda de acesso sempre seleciona o registro com a prioridade numérica mais baixa e, se desempate for necessária, o peso numérico mais alto. Isso é consistente com [a documentação do Internet Engineering Task Force](https://www.ietf.org/rfc/rfc2782.txt).
+Para ter um pouco mais de detalhes sobre como um registro SRV DNS é selecionado quando registros DNS mutiple são retornados por uma consulta, o serviço de borda de acesso sempre escolhe o registro com a prioridade numérica mais baixa e, se for necessário um disjuntor, a maior espessura numérica. Isso é consistente com a [documentação da Internet Engineering Task Force](https://www.ietf.org/rfc/rfc2782.txt).
   
 Assim, por exemplo, se seu primeiro registro SRV de DNS tem um peso 20 e uma prioridade 40 e seu segundo registro SRV de DNS tem um peso 10 e uma prioridade 50, o primeiro registro vai ser escolhido, pois tem a prioridade menor de 40. A Prioridade é sempre considerada primeiro, e esse é o primeiro host de destino de um cliente. E se dois destinos tiverem a mesma prioridade? 
   
 Nesse caso, o peso é considerado. Pesos maiores devem ter maior probabilidade, nessas circunstâncias, de serem escolhidos. Os administradores DNS devem usar peso 0 quando não houver nenhuma seleção de servidor para fazer. Na presença de registros contendo pesos maiores que 0, os registros com peso 0 devem ter uma chance muito pequena de serem selecionados.
   
-Então, o que acontece se vários registros SRV de DNS com prioridade e peso iguais forem retornados? Nessa situação, a borda de acesso a serviço escolherá o registro SRV que ele obteve do administrador do servidor DNS primeiro.
+Então, o que acontece se vários registros SRV de DNS com prioridade e peso iguais forem retornados? Nessa situação, o serviço de borda de acesso escolherá primeiro o registro SRV que ele recebeu do servidor DNS.
   
 

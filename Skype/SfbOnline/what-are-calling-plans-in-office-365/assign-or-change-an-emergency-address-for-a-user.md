@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Saiba como configurar um número de telefone e endereço de emergência para cada um dos seus usuários que trabalha com a Rede Telefônica Pública Comutada (PSTN).
-ms.openlocfilehash: 4778009ddcd004f37c5ed0f0566d64dae6648997
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 884dd4051ef15cb29d6ab125989edf990980f722
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233248"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299530"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Atribuir ou alterar o endereço de emergência de um usuário
 
@@ -38,25 +38,25 @@ Para saber como obter um Plano de Chamada no Office 365 e o seu preço, consulte
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
+2. Vá para o > **portal herdado**do **centro de administração do Microsoft Teams**.
     
-3. Na navegação esquerda, vá para **voz**e clique em **usuários de voz**.
+3. No painel de navegação esquerdo, vá para **voz**e clique em **usuários de voz**.
     
     > [!IMPORTANT]
-    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
+    > Para ver a opção de **voz** no painel de navegação à esquerda no centro de administração do Skype for Business, primeiro você deve comprar pelo menos uma **licença do Enterprise E5**, uma licença complementar do **sistema de telefonia** ou uma licença do suplemento de conferência de **áudio** .
     
 4. Na página **Usuários de voz**, localize e selecione o usuário cujo endereço de emergência você quer alterar.
     
 5. No painel Ação, em **Local de emergência**, clique em **Alterar**.
     
     > [!IMPORTANT]
-    > [!IMPORTANTE] Você só pode alterar um endereço de emergência que já foi validado. Para alterar um endereço de emergência que não foi validado, excluí-la e crie outro endereço de emergência. 
+    > [!IMPORTANTE] Você só pode alterar um endereço de emergência que já foi validado. Para alterar um endereço de emergência que ainda não foi validado, exclua-o e crie outro endereço de emergência. 
   
 6. Na página **Atribuir número**, clique em **Alterar local**.
     
 7. Em **Alterar endereço de emergência para**, digite o nome da cidade e clique em **Pesquisar**.
     
-8. Selecione o endereço de emergência na lista suspensa endereço e clique em **Salvar**. 
+8. Selecione o endereço de emergência na lista suspensa endereço e, em seguida, clique em **salvar**. 
     
 ## <a name="related-topics"></a>Tópicos relacionados
 ## <a name="related-topics"></a>Tópicos relacionados

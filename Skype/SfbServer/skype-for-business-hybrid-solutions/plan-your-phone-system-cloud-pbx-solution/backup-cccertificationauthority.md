@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
 description: "O cmdlet Backup-CcCertificationAuthority \nfaz backup do serviço de autoridade de certificação do Skype for Business Cloud Connector Edition em um arquivo e salva na pasta AC no diretório de compartilhamento de site."
-ms.openlocfilehash: 2f85a4da58a586852b3331f1f8e482ee17e29e02
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 463aab2516deec5b47e549aec67bcba6a0a80bc0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234548"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294415"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  
@@ -45,7 +45,7 @@ Backup-CcCertificationAuthority
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-Backup de autoridade de certificação pode ser útil se você planeja reimplantar um aparelho de conector de nuvem com o mesmo certificado em caso de desastre, ou se você deseja mover o aparelho para novo hardware. O comando salva a cópia do serviço de autoridade de certificação de nuvem conector do servidor AD para "\<SiteRootDirectory\>\CA\SfB CCE Root.p12".
+O backup da autoridade de certificação pode ser útil se você planeja reimplantar um aparelho do conector de nuvem com o mesmo certificado em caso de desastre ou se quiser mover o aparelho para um novo hardware. O comando salva a cópia do serviço da autoridade de certificação do conector de nuvem do servidor de\<anúncios\>em "SiteRootDirectory \CA\SfB CCE root. p12".
   
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

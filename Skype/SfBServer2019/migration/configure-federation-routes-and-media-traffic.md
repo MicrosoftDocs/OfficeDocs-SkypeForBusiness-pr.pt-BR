@@ -4,177 +4,177 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: A federação é uma relação de confiança entre dois ou mais domínios SIP que permite que os usuários em organizações separadas se comuniquem pelos limites da rede. Após migrar para o seu pool piloto, você precisa fazer a transição da rota de Federação dos seus servidores de borda de versões anteriores para a rota de federação de sua Skype para servidores de borda de 2019 Business Server.
-ms.openlocfilehash: 607d98c3c831ae9fd911b9fd2782490dcfb0e4f4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: A Federação é uma relação de confiança entre dois ou mais domínios SIP que permite que os usuários de organizações separadas se comuniquem entre os limites da rede. Depois de migrar para o pool piloto, você precisa fazer a transição da rota de Federação de seus servidores de borda de versões anteriores para a rota de Federação dos seus servidores de borda do Skype for Business Server 2019.
+ms.openlocfilehash: 6b76932c8b988dbed61cba1470f32a51f6585536
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238741"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298316"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Configurar rotas de federação e tráfego de mídia
 
-A federação é uma relação de confiança entre dois ou mais domínios SIP que permite que os usuários em organizações separadas se comuniquem pelos limites da rede. Após migrar para o seu pool piloto, você precisa fazer a transição da rota de Federação da versão anterior servidores de borda para a rota de federação de sua Skype para servidores de borda de 2019 Business Server.
+A Federação é uma relação de confiança entre dois ou mais domínios SIP que permite que os usuários de organizações separadas se comuniquem entre os limites da rede. Depois de migrar para o pool piloto, você precisará fazer a transição da rota de Federação dos servidores de borda da versão anterior para a rota de Federação dos seus servidores de borda do Skype for Business Server 2019.
   
-Use os procedimentos a seguir para fazer a transição da rota de Federação e a rota do tráfego de mídia do servidor de borda e diretor de sua versão anterior para sua Skype para o servidor de borda do Business Server 2019, para uma implantação local único.
-  
-> [!IMPORTANT]
-> Alterando a rota de Federação e a rota do tráfego de mídia requer que você agendar o tempo de inatividade de manutenção para o Skype para Business Server 2019 e servidores de borda de versão anterior. Esse processo de transição inteira também significa que acesso federado estará indisponível durante a interrupção. Você deve agendar o tempo de inatividade por um período quando você espera que a atividade mínima do usuário. Você também deve fornecer notificação suficiente para seus usuários finais. Planeje apropriadamente para este interrupção e o conjunto apropriado expectativas dentro da sua organização. 
+Use os procedimentos a seguir para fazer a transição da rota de Federação e da rota de tráfego de mídia do servidor de borda e do diretor da sua versão anterior para o seu servidor de borda do Skype for Business Server 2019 para uma implantação de um único site.
   
 > [!IMPORTANT]
-> Se o seu servidor de borda herdado está configurado para usar o mesmo FQDN para o serviço de borda de acesso, serviço de borda de webconferência e A / não há suporte para o serviço de borda de V, os procedimentos nesta seção. Se os serviços de borda herdados estiverem configurados para usar o mesmo FQDN, primeiro você precisa migrar todos os seus usuários e encerre as servidor de borda de versões anteriores antes de habilitar a federação no Skype para servidor de borda de 2019 Business Server. 
+> Alterar a rota de Federação e a rota de tráfego de mídia requer que você agende o tempo de inatividade de manutenção para os servidores do Skype for Business Server 2019 e do Edge versão anterior. Esse processo de transição inteiro também significa que o acesso federado estará indisponível para a duração da interrupção. Você deve programar o tempo de inatividade para um horário em que espera a atividade do usuário mínima. Você também deve fornecer uma notificação suficiente para seus usuários finais. Planeje-se adequadamente para esta interrupção e defina as expectativas adequadas dentro da sua organização. 
   
 > [!IMPORTANT]
-> Se sua federação XMPP é encaminhada por um Skype para o servidor de borda de 2019 Business Server, os usuários da versão anterior não será capazes de se comunicar com um parceiro federado XMPP até que todos os usuários foram movidos para Skype para Business Server 2019, políticas XMPP e certificados tiverem sido configurados, parceiro federado XMPP tiver sido configurado no Skype para Business Server 2019 e, por fim, as entradas DNS foram atualizadas. 
+> Se o servidor de borda herdado estiver configurado para usar o mesmo FQDN para o serviço de borda de acesso, o serviço de borda de Webconferência e o serviço de borda a/V, os procedimentos desta seção não serão suportados. Se os serviços de borda herdados estiverem configurados para usar o mesmo FQDN, primeiro você deve migrar todos os seus usuários e, em seguida, encerrar o servidor de borda de versões anteriores antes de habilitar a Federação no servidor de borda do Skype for Business Server 2019. 
   
-## <a name="to-remove-the-legacy-federation-association-from-skype-for-business-server-2019-sites"></a>Para remover a associação de Federação herdada do Skype para sites corporativos Server 2019
+> [!IMPORTANT]
+> Se a sua Federação do XMPP for roteada por meio de um servidor de borda do Skype for Business Server 2019, os usuários na versão anterior não poderão se comunicar com o parceiro federado do XMPP até que todos os usuários tenham sido movidos para o Skype for Business Server 2019, políticas do XMPP e os certificados foram configurados, o parceiro federado do XMPP foi configurado no Skype for Business Server 2019 e, finalmente, as entradas DNS foram atualizadas. 
+  
+## <a name="to-remove-the-legacy-federation-association-from-skype-for-business-server-2019-sites"></a>Para remover a associação de Federação herdada dos sites do Skype for Business Server 2019
 
-1. No Skype para o servidor de negócios 2019 Front-End Server, abra a topologia existente no construtor de topologia. 
+1. No servidor front-end do Skype for Business Server 2019, abra a topologia existente no construtor de topologias. 
     
-2. No painel esquerdo, navegue até o nó do site, que está localizado diretamente abaixo **Skype para Business Server**.
+2. No painel esquerdo, navegue até o nó do site, localizado diretamente abaixo **do Skype for Business Server**.
     
-3. Com o botão direito do site e, em seguida, clique em **Editar propriedades**.
+3. Clique com o botão direito do mouse no site e, em seguida, clique em **Editar propriedades**.
     
-4. No painel esquerdo, selecione **rota de Federação**. 
+4. No painel esquerdo, selecione **roteiro de Federação**. 
     
-5. Em **atribuição de rota de Federação do Site**, desmarque a caixa de seleção **Habilitar federação SIP** para desabilitar a rota de Federação através do ambiente herdado. 
+5. Em **atribuição de rota de Federação do site**, desmarque a caixa de seleção **habilitar Federação SIP** para desabilitar a rota de Federação por meio do ambiente herdado. 
   
-6. Clique em **Okey** para fechar a página Editar propriedades. 
+6. Clique em **OK** para fechar a página Editar propriedades. 
     
-7. A partir do **Construtor de topologias**, selecione o nó superior **Skype para Business Server**.
+7. No **Construtor**de topologias, selecione o nó superior **Skype for Business Server**.
     
-8. No menu **ação** , clique em **Publicar topologia**.
+8. No menu **ação** , clique em **publicar topologia**.
     
-9. Clique em **Avançar** para concluir o processo de publicação e clique em **Concluir** quando o processo de publicação for concluído. 
+9. Clique em **Avançar** para concluir o processo de publicação e, em seguida, clique em **concluir** quando o processo de publicação estiver concluído. 
     
-## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a>Para configurar o servidor de borda herdado como um servidor de borda não federado
+## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a>Para configurar o servidor de borda herdado como um servidor de borda não federativo
 
-1. No painel esquerdo, navegue até o nó install herdado e, em seguida, para o nó **pools de borda** . 
+1. No painel esquerdo, navegue até o nó instalação herdada e, em seguida, para o nó pools de **borda** . 
     
-2. Com o botão direito no servidor de borda e, em seguida, clique em **Editar propriedades**.
+2. Clique com o botão direito do mouse no servidor de borda e, em seguida, clique em **Editar propriedades**.
     
-3. Selecione **Geral** no painel à esquerda. 
+3. Selecione **geral** no painel esquerdo. 
     
-4. Desmarque a caixa de seleção **Habilitar federação para este pool de borda (porta 5061)** e selecione **Okey** para fechar a página. 
+4. Desmarque a caixa de seleção **habilitar Federação para este pool de bordas (porta 5061)** e selecione **OK** para fechar a página. 
   
-5. No menu **ação** , selecione **Publicar topologia**e clique em **Avançar**.
+5. No menu **ação** , selecione **publicar topologia**e clique em **Avançar**.
     
-6. Quando o **Assistente para publicação** for concluído, clique em **Concluir** para fechar o assistente. 
+6. Quando o **Assistente de publicação** for concluído, clique em **concluir** para fechar o assistente. 
     
-7. Verifique se a federação para o servidor de borda herdado está desabilitada no construtor de topologia.
+7. Verifique se a Federação do servidor de borda herdada está desabilitada no construtor de topologias.
   
 ## <a name="to-configure-certificates-on-the-legacy-edge-server"></a>Para configurar certificados no servidor de borda herdado
 
-1. Exporte o certificado externo do Proxy de acesso, com a chave privada, do servidor de borda herdado. 
+1. Exportar o certificado de proxy de acesso externo, com a chave privada, do servidor de borda herdado. 
     
-2. Sobre o Skype para servidor de borda do Business Server 2019 e importação de certificado externo do Proxy de acesso da etapa anterior.
+2. No servidor de borda do Skype for Business Server 2019 e importar o certificado externo de proxy do Access da etapa anterior.
     
-3. Atribua o certificado externo do Proxy de acesso para o Skype para Business Server 2019 a interface externa do servidor de borda.
+3. Atribua o certificado de proxy externo do Access à interface externa do Skype for Business Server 2019 do servidor de borda.
     
-4. O certificado da interface interna do Skype para o servidor de borda de 2019 Business Server deve ser solicitado por uma autoridade de certificação confiável e atribuído. 
+4. O certificado de interface interna do servidor de borda do Skype for Business Server 2019 deve ser solicitado de uma autoridade de certificação confiável e atribuído. 
     
-## <a name="to-change-the-previous-versions-federation-route-to-use-skype-for-business-server-2019-edge-server"></a>Para alterar a rota de Federação da versão anterior para usar Skype para o servidor de borda do Business Server 2019
+## <a name="to-change-the-previous-versions-federation-route-to-use-skype-for-business-server-2019-edge-server"></a>Para alterar a rota de Federação da versão anterior para usar o servidor de borda do Skype for Business Server 2019
 
-1. No construtor de topologias, no painel esquerdo, navegue até o nó do **Skype para Business Server 2019** e, depois, para o nó **pools de borda** . 
+1. No construtor de topologia, no painel esquerdo, navegue até o nó do **Skype for Business Server 2019** e, em seguida, para o nó de pools de **borda** . 
     
-2. Com o botão direito no servidor de borda e, em seguida, clique em **Editar propriedades**.
+2. Clique com o botão direito do mouse no servidor de borda e, em seguida, clique em **Editar propriedades**.
     
-3. Selecione **Geral** no painel à esquerda. 
+3. Selecione **geral** no painel esquerdo. 
     
-4. Marque a caixa de seleção para **Habilitar a federação para este pool de borda (porta 5061)** e, em seguida, clique em **Okey** para fechar a página. 
+4. Marque a caixa de seleção **habilitar Federação para este pool de bordas (porta 5061)** e, em seguida, clique em **OK** para fechar a página. 
   
-5. No menu **ação** , selecione **Publicar topologia**e clique em **Avançar**.
+5. No menu **ação** , selecione **publicar topologia**e clique em **Avançar**.
     
-6. Quando o **Assistente para publicação** for concluído, clique em **Concluir** para fechar o assistente. 
+6. Quando o **Assistente de publicação** for concluído, clique em **concluir** para fechar o assistente. 
     
-7. Verifique se **federação (porta 5061)** está definido como **Enabled** no construtor de topologia.
+7. Verifique se a **Federação (porta 5061)** está definida como **Enabled** no construtor de topologias.
     
   
-## <a name="to-update-skype-for-business-server-2019-edge-server-federation-next-hop"></a>Para atualizar o Skype para o próximo salto da federação de servidor de borda do Business Server 2019
+## <a name="to-update-skype-for-business-server-2019-edge-server-federation-next-hop"></a>Para atualizar o Skype for Business Server 2019 o próximo nó de Federação do servidor de borda
 
-1. No construtor de topologias, no painel esquerdo, navegue até o nó do **Skype para Business Server 2019** e, depois, para o nó **pools de borda** . 
+1. No construtor de topologia, no painel esquerdo, navegue até o nó do **Skype for Business Server 2019** e, em seguida, para o nó de pools de **borda** . 
     
-2. Expanda o nó, clique com o botão o servidor de borda listado e clique em **Editar propriedades**. 
+2. Expanda o nó, clique com o botão direito do mouse no servidor de borda listado e, em seguida, clique em **Editar propriedades**. 
     
-3. Na página **Geral** , em **seleção do próximo salto**, selecione na lista suspensa o Skype para Business Server 2019 pool.
+3. Na página **geral** , em **seleção do próximo salto**, selecione na lista suspensa o pool do Skype for Business Server 2019.
   
-4. Clique em **Okey** para fechar a página Editar propriedades. 
+4. Clique em **OK** para fechar a página Editar propriedades. 
     
-5. A partir do **Construtor de topologias**, selecione o nó superior **Skype para Business Server**. 
+5. No **Construtor**de topologias, selecione o nó superior **Skype for Business Server**. 
     
-6. No menu **ação** , clique em **Publicar topologia** e conclua o assistente. 
+6. No menu **ação** , clique em **publicar topologia** e conclua o assistente. 
     
-## <a name="to-configure-skype-for-business-server-2019-edge-server-outbound-media-path"></a>Para configurar o Skype para o caminho de mídia de saída do servidor de borda do Business Server 2019
+## <a name="to-configure-skype-for-business-server-2019-edge-server-outbound-media-path"></a>Para configurar o caminho da mídia de saída do servidor de borda do Skype for Business Server 2019
 
-1. No construtor de topologias, no painel esquerdo, navegue até o nó do **Skype para Business Server 2019** e, depois, para o pool abaixo de **pools de Front End do Enterprise Edition**ou **Standard Edition servidores Front-End** .
+1. No construtor de topologia, no painel esquerdo, navegue até o nó do **Skype for Business Server 2019** e, em seguida, para o pool abaixo de **servidores front-end da edição padrão** ou **pools front-ends do Enterprise Edition**.
     
-2. Com o botão direito do pool e, em seguida, clique em **Editar propriedades**.
+2. Clique com o botão direito do mouse no pool e, em seguida, clique em **Editar propriedades**.
     
-3. Na seção **associações** , marque a caixa de seleção **associar pool de borda (para componentes de mídia)** . 
+3. Na seção **associações** , marque a caixa de seleção **associar o pool de bordas (para componentes de mídia)** . 
   
-4. Na caixa de lista suspensa, selecione o Skype para servidor de borda de 2019 Business Server.
+4. Na caixa suspensa, selecione o servidor de borda do Skype for Business Server 2019.
     
-5. Clique em **Okey** para fechar a página **Editar propriedades** . 
+5. Clique em **OK** para fechar a página **Editar propriedades** . 
     
-## <a name="to-turn-on-skype-for-business-server-2019-edge-server-federation"></a>Para ativar Skype para federação do servidor de borda do Business Server 2019
+## <a name="to-turn-on-skype-for-business-server-2019-edge-server-federation"></a>Para ativar a Federação do servidor de borda do Skype for Business Server 2019
 
-1. No construtor de topologias, no painel esquerdo, navegue até o nó do **Skype para Business Server 2019** e, depois, para o nó **pools de borda** . 
+1. No construtor de topologia, no painel esquerdo, navegue até o nó do **Skype for Business Server 2019** e, em seguida, para o nó de pools de **borda** . 
     
-2. Expanda o nó, clique com o botão o servidor de borda listado e clique em **Editar propriedades**. 
+2. Expanda o nó, clique com o botão direito do mouse no servidor de borda listado e, em seguida, clique em **Editar propriedades**. 
     
     > [!NOTE]
-    > Federação só pode ser habilitada para um único pool de borda. Se você tiver vários pools de borda, selecione um para usar como o pool de borda federating. 
+    > A Federação só pode ser habilitada para um único pool de bordas. Se você tiver vários pools de bordas, selecione um para usá-lo como o pool de bordas de Federação. 
   
-3. Na página **Geral** , verifique se que a caixa de seleção **Habilitar federação para este pool de borda (porta 5061)** está selecionada. 
+3. Na página **geral** , verifique se a caixa de seleção **habilitar Federação para este pool de bordas (porta 5061)** está marcada. 
   
-4. Clique em **Okey** para fechar a página Editar propriedades. 
+4. Clique em **OK** para fechar a página Editar propriedades. 
     
 5. Navegue até o nó do site. 
     
-6. Com o botão direito do site e, em seguida, clique em **Editar propriedades**.
+6. Clique com o botão direito do mouse no site e, em seguida, clique em **Editar propriedades**.
     
 7. No painel esquerdo, clique em **rota de Federação**.
     
-8. Em **atribuição de rota de Federação do Site**, selecione **Habilitar federação SIP**e, em seguida, na lista Selecione o Skype para o servidor de borda do Business Server 2019 listados. 
+8. Em **atribuição de rota de Federação do site**, selecione **habilitar Federação SIP**e, em seguida, na lista Selecione o servidor de borda do Skype for Business Server 2019 listado. 
   
-9. Clique em **Okey** para fechar a página **Editar propriedades** . 
+9. Clique em **OK** para fechar a página **Editar propriedades** . 
     
-     Para implantações de vários locais, conclua este procedimento em cada site. 
+     Para implantações em vários locais, conclua este procedimento em cada site. 
     
 ## <a name="to-publish-edge-server-configuration-changes"></a>Para publicar as alterações de configuração do servidor de borda
 
-1. A partir do **Construtor de topologias**, selecione o nó superior **Skype para Business Server**. 
+1. No **Construtor**de topologias, selecione o nó superior **Skype for Business Server**. 
     
-2. No menu **ação** , selecione **Publicar topologia** e conclua o assistente. 
+2. No menu **ação** , selecione **publicar topologia** e conclua o assistente. 
     
-3. Aguarde a replicação do Active Directory ocorra em todos os pools na implantação.
+3. Aguarde até que a replicação do Active Directory ocorra em todos os pools da implantação.
     
     > [!NOTE]
-    > Você pode ver a seguinte mensagem: **Aviso: A topologia contém mais de um servidor de borda federados. Isso pode ocorrer durante a migração para uma versão mais recente do produto. Nesse caso, apenas um servidor de borda seria usado ativamente para federação. Verifique se o registro SRV de DNS aponta para o servidor de borda correto. Se desejar implantar vários federação de servidor de borda a ser ativo simultaneamente (ou seja, não um cenário de migração), verifique se todos os parceiros federados são usando Skype para Business Server. Verifique se o registro SRV de DNS lista todos os servidores de borda de Federação habilitada.** Esse aviso é esperado e pode ser ignorado com segurança. 
+    > Você pode ver a seguinte mensagem: **AVISO: a topologia contém mais de um servidor de borda federado. Isso pode ocorrer durante a migração para uma versão mais recente do produto. Nesse caso, apenas um servidor de borda seria usado ativamente para Federação. Verifique se o registro SRV DNS externo aponta para o servidor de borda correto. Se você quiser implantar várias bordas de servidor de borda para ativar simultaneamente (ou seja, não um cenário de migração), verifique se todos os parceiros federados estão usando o Skype for Business Server. Verifique se o registro SRV DNS externo lista todos os servidores de borda habilitados para Federação.** Este aviso é esperado e pode ser ignorado com segurança. 
   
-## <a name="to-configure-skype-for-business-server-2019-edge-server"></a>Para configurar o Skype para o servidor de borda do Business Server 2019
+## <a name="to-configure-skype-for-business-server-2019-edge-server"></a>Para configurar o servidor de borda do Skype for Business Server 2019
 
-1. Colocar todas a Skype para os servidores de borda do Business Server 2019 on-line. 
+1. Reúna todos os servidores de borda do Skype for Business Server 2019 online. 
     
-2. Atualizar as regras de roteamento do firewall externo ou as configurações de Balanceador de carga de hardware para enviar o tráfego SIP para acesso externo (geralmente, a porta 443) e federação (geralmente, a porta 5061) para o Skype para negócios 2019 borda Server, em vez do servidor de borda herdado.
+2. Atualize as regras de roteamento do firewall externo ou as configurações do balanceador de carga de hardware para enviar o tráfego SIP para acesso externo (geralmente a porta 443) e a Federação (geralmente a porta 5061) ao Skype for Business Server 2019 Edge Server, em vez do servidor de borda herdado.
     
     > [!NOTE]
-    > Se você não tiver um balanceador de carga de hardware, você precisará atualizar o registro DNS A para federação resolver para o novo Skype para o servidor de borda de acesso do servidor de negócios. Para realizar isso com um mínimo de interrupção, reduza o valor TLL para o Skype externo para o FQDN de borda de acesso do Business Server para que ao DNS é atualizado para apontar para o novo Skype para borda de acesso do servidor de negócios, Federação e acesso remoto serão atualizados rapidamente. 
+    > Se você não tiver um balanceador de carga de hardware, será necessário atualizar o registro DNS a para que a Federação seja resolvida para o novo servidor de borda de acesso do Skype for Business Server. Para fazer isso com o mínimo de interrupções, reduza o valor de TLL para o FQDN externo de borda de acesso do Skype for Business Server, de forma que, quando o DNS for atualizado para apontar para a nova borda de acesso do Skype for Business Server, a Federação e o acesso remoto serão atualizados rapidamente. 
   
-3. Pare o **Skype para borda de acesso do servidor de negócios** de cada computador do servidor de borda. 
+3. Pare a **borda de acesso do Skype for Business Server** de cada computador do servidor de borda. 
     
-4. Em cada computador do servidor de borda herdado, abra o miniaplicativo **Serviços** em **Ferramentas administrativas**.
+4. Em cada computador do servidor de borda herdado, abra o applet de **Serviços** nas **Ferramentas administrativas**.
     
-5. Na lista de serviços, encontre **Skype para borda de acesso do servidor de negócios**.
+5. Na lista serviços, localize **borda de acesso do Skype for Business Server**.
     
-6. Nome do serviço do mouse em e selecione **Parar** para parar o serviço. 
+6. Clique com o botão direito do mouse no nome dos serviços e, em seguida, selecione **parar** para interromper o serviço. 
     
-7. Defina o tipo de inicialização para **desabilitado**. 
+7. Defina o tipo de inicialização **** como desabilitado. 
     
-8. Clique em **Okey** para fechar a janela **Propriedades** . 
+8. Clique em **OK** para fechar a janela **Propriedades** . 
     
 

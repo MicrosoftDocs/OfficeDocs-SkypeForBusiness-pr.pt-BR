@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.Archiving
@@ -13,18 +13,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
-description: Arquivamento no Skype para Business Server fornece uma maneira de arquivar comunicações enviadas através do Skype para Business Server.
-ms.openlocfilehash: 517cb30574e5b20b302395d29b357593da50e39c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: O arquivamento no Skype for Business Server oferece uma maneira de arquivar comunicações enviadas pelo Skype for Business Server.
+ms.openlocfilehash: 928a900c9ded9ee831a371cee70dcc519f2660a8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888146"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304222"
 ---
 # <a name="archiving-planning-tool"></a>Archiving (Planning Tool)
  
-Arquivamento no Skype para Business Server fornece uma maneira de arquivar comunicações enviadas através do Skype para Business Server.
+O arquivamento no Skype for Business Server oferece uma maneira de arquivar comunicações enviadas pelo Skype for Business Server.
   
-Para obter detalhes sobre como preparar seu ambiente para o servidor de arquivamento, consulte [Planejar para arquivamento no Skype para Business Server 2015](../../plan-your-deployment/archiving/archiving.md).
+Para obter detalhes sobre como preparar seu ambiente para o servidor de arquivamento, consulte [planejar o arquivamento no Skype for Business server 2015](../../plan-your-deployment/archiving/archiving.md).
   
 

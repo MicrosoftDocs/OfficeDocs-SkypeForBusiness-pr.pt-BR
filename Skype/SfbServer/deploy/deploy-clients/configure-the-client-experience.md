@@ -1,35 +1,35 @@
 ---
-title: Configurar a experiência do cliente com Skype para negócios 2015
+title: Configurar a experiência do cliente com o Skype for Business 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
-description: 'Resumo: Leia este tópico para saber como configurar a experiência do cliente para Skype para usuários comerciais.'
-ms.openlocfilehash: 65ca5592c3994cfcbb2703d22bc510a3b84b3507
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Leia este tópico para saber como configurar a experiência do cliente para usuários do Skype for Business.'
+ms.openlocfilehash: bf6245b5b26875c7437990f09dd101ece01b1b47
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895388"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298281"
 ---
-# <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurar a experiência do cliente com Skype para negócios 2015
+# <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurar a experiência do cliente com o Skype for Business 2015
  
-**Resumo:** Leia este tópico para saber como configurar a experiência do cliente para Skype para usuários corporativos 2015.
+**Resumo:** Leia este tópico para saber como configurar a experiência do cliente para os usuários do Skype for Business 2015.
   
-Skype para negócios 2015 fornece uma nova experiência do usuário que baseia-se na experiência de produto do consumidor do Skype. Além de todos os recursos do Lync, Skype para negócios fornece novos recursos com controles simplificados e ícones familiares. Para obter informações detalhadas sobre a nova experiência do cliente, consulte [Explore Skype para negócios](https://go.microsoft.com/fwlink/?LinkId=529022).
+O Skype for Business 2015 oferece uma nova experiência de usuário baseada na experiência do produto Skype para consumidores. Além de todos os recursos do Lync, o Skype for Business oferece novos recursos com controles simplificados e ícones conhecidos. Para obter informações detalhadas sobre a nova experiência do cliente, consulte [explorar o Skype for Business](https://go.microsoft.com/fwlink/?LinkId=529022).
   
-Skype para Business Server suporta a nova Skype para experiência de cliente de negócios, bem como a experiência do cliente Lync. Como administrador, você pode escolher a experiência do cliente preferida para os seus usuários. Por exemplo, você talvez queira implantar a experiência do cliente Lync até que os usuários em sua organização são treinados totalmente o novo Skype para experiência de negócios. Ou, se você ainda não atualizadas todos os usuários para Skype para Business Server, talvez você queira todos os usuários tenham a mesma experiência de cliente até que todos sejam atualizados para o novo servidor.
+O Skype for Business Server é compatível com a nova experiência de cliente do Skype for Business, bem como com a experiência do cliente do Lync. Como administrador, você pode escolher a experiência do cliente preferida para os seus usuários. Por exemplo, talvez você queira implantar a experiência do cliente do Lync até que os usuários em sua organização sejam totalmente treinados na nova experiência do Skype for Business. Ou, se você ainda não tiver atualizado todos os usuários para o Skype for Business Server, talvez queira que todos os usuários tenham a mesma experiência de cliente até que todos sejam atualizados para o novo servidor.
   
 > [!IMPORTANT]
-> Se sua organização tem ambas Skype para Business Server e o Lync Server implantado, a experiência do cliente padrão variarão de acordo com as versões de servidor e configurações de interface do usuário. Quando os usuários início Skype para negócios pela primeira vez, sempre eles verão o Skype para interface de usuário de negócios – mesmo se você selecionou a experiência do cliente Lync. Após alguns minutos, os usuários serão solicitados para alternar para modo de Lync. Para mais informações, consulte **Comportamento do cliente na primeira inicialização**, que será abordado neste tópico.
+> Se a sua organização tiver o Skype for Business Server e o Lync Server implantados, a experiência do cliente padrão será diferente, dependendo das versões do servidor e das configurações da interface do usuário. Quando os usuários iniciarem o Skype for Business pela primeira vez, eles verão sempre a interface do usuário do Skype for Business, mesmo que você tenha selecionado a experiência do cliente do Lync. Após alguns minutos, os usuários são solicitados a alternar para o modo Lync. Para mais informações, consulte **Comportamento do cliente na primeira inicialização**, que será abordado neste tópico.
   
 > [!NOTE]
-> A experiência do cliente Lync 2013 não é uma opção para Skype para as versões de cliente de negócios 2016 ou posterior. Antes de tentar configurar seu ambiente do cliente para usar o cliente do Lync 2013, verifique a versão do cliente para garantir que ele não começa com o número de 16; Por exemplo: 16.x.x.x. 
+> A experiência do cliente do Lync 2013 não é uma opção para versões do cliente do Skype for Business 2016 ou posterior. Antes de tentar configurar o ambiente do cliente para usar o cliente Lync 2013, verifique a versão do cliente para garantir que ele não comece com o número 16; por exemplo: 16. x.x.x. 
   
 ## <a name="configure-the-client-experience"></a>Configurar experiência do cliente
 
@@ -41,27 +41,27 @@ Set-CsClientPolicy  [-Identity <XdsIdentity] [-EnableSkypeUI <$true | $false>]
 
 onde XdsIdentity refere-se à política Global ou a uma política de local nomeado.
   
-O comando a seguir seleciona o Skype para a experiência do cliente de negócios para todos os usuários em sua organização afetada pela diretiva Global (Lembre-se de que diretivas específicas do usuário ou site substituem a política Global): 
+O comando a seguir seleciona a experiência do cliente Skype for Business para todos os usuários da sua organização afetados pela política global (Lembre-se de que as políticas específicas do site ou do usuário substituem a política global): 
   
 ```
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $true
 ```
 
-O próximo comando seleciona a experiência do cliente do Lync para todos os usuários em sua organização afetada pela diretiva Global:
+O próximo comando seleciona a experiência do cliente do Lync para todos os usuários da sua organização afetados pela política global:
   
 ```
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $false
 ```
 
-O próximo comando seleciona o Skype para a experiência do cliente de negócios para todos os usuários dentro do site de Redmond:
+O próximo comando seleciona a experiência do cliente Skype for Business para todos os usuários no site de Redmond:
   
 ```
 Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 ```
 
-Se você deseja configurar a experiência do cliente para usuários específicos dentro da sua organização, você pode criar uma nova política de usuário usando o cmdlet **New-CsClientPolicy** e, em seguida, atribuir a política a usuários específicos usando o **Grant-CsClientPolicy** cmdlet.
+Se você quiser configurar a experiência do cliente para usuários específicos em sua organização, poderá criar uma nova política de usuário usando o cmdlet **New-CsClientPolicy** e atribuir a política a usuários específicos usando o **Grant-CsClientPolicy** cmdlet.
   
-Por exemplo, o comando a seguir cria uma nova diretiva de cliente, SalesClientUI, que seleciona o Skype para a experiência do cliente de negócios:
+Por exemplo, o comando a seguir cria uma nova política de cliente, SalesClientUI, que seleciona a experiência do cliente do Skype for Business:
   
 ```
 New-CsClientPolicy -Identity SalesClientUI -EnableSkypeUI $true
@@ -75,11 +75,11 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
 
 ## <a name="first-launch-client-behaviors"></a>Comportamentos do cliente na primeira inicialização
 
-Por padrão, quando os usuários iniciar Skype para negócios 2015 pela primeira vez, eles verão sempre o Skype para interface de usuário de negócios – mesmo se você selecionou a experiência do cliente Lync, definindo o valor do parâmetro EnableSkypeUI para $False, conforme descrito anteriormente. Após alguns minutos, os usuários serão solicitados a mudar para o modo Lync.
+Por padrão, quando os usuários iniciam o Skype for Business 2015 pela primeira vez, eles sempre verão a interface do usuário do Skype for Business, mesmo que você tenha selecionado a experiência do cliente do Lync definindo o valor do $false parâmetro EnableSkypeUI como descrito tenha. Após alguns minutos, os usuários serão solicitados a mudar para o modo Lync.
   
 Se você quiser exibir a interface do usuário do Lync quando os usuários iniciarem o cliente Skype for Business pela primeira vez, siga estas etapas antes de o cliente ser iniciado pela primeira vez após ser atualizado:
   
-1. Confirme se o valor da `EnableSkypeUI` estiver definida como $False na política que você está usando, conforme descrito anteriormente.
+1. Confirme se o valor de `EnableSkypeUI` está definido como $false na política que você está usando, conforme descrito anteriormente.
     
 2. Atualize o registro do sistema no computador do usuário. Você deve fazer isso antes que os novos usuários iniciem o cliente Skype for Business, e deve fazer isso apenas uma vez. Para obter informações sobre como criar um Objeto de Política de Grupo para atualizar o registro em um computador que ingressou no domínio, consulte a seção posterior no tópico.
     
@@ -101,7 +101,7 @@ A interface do usuário do Lync será exibida quando os usuários iniciarem o cl
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Tutorial de controle da exibição da tela de boas-vindas
 
-Quando os usuários abrem o Skype para o cliente de negócios, o comportamento padrão é exibir uma tela de boas-vindas que inclui *7 dicas rápidas para a maioria das pessoas pedir*. Você pode desativar a exibição da tela de boas-vindas, mais ainda permitir que os usuários acessem o tutorial adicionando o seguinte valor do Registro no computador cliente:
+Quando os usuários abrem o cliente Skype for Business, o comportamento padrão é exibir uma tela de boas-vindas que inclua *7 dicas rápidas que a maioria das pessoas pede*. Você pode desativar a exibição da tela de boas-vindas, mais ainda permitir que os usuários acessem o tutorial adicionando o seguinte valor do Registro no computador cliente:
   
 Na chave **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]**, crie um novo **Valor de DWORD (32 bits)**. O **Nome do valor** deve ser **IsBasicTutorialSeenByUser**, e os **Dados do valor** devem ser definidos como **1**.
   
@@ -125,41 +125,41 @@ Você pode ativar o tutorial novamente definindo os **Dados do valor** para **1*
   
 ## <a name="default-client-behaviors"></a>Comportamentos padrão do cliente
 
-Se sua organização tem ambas Skype para Business Server e o Lync Server implantado, a experiência do cliente variarão de acordo com as versões de servidor e da UI de Skype configuração. A seguinte tabela mostra a experiência inicial do cliente com base na versão do servidor e na configuração da interface do usuário:
+Se a sua organização tiver o Skype for Business Server e o Lync Server implantados, a experiência do cliente será diferente, dependendo das versões do servidor e da configuração da interface do usuário do Skype. A seguinte tabela mostra a experiência inicial do cliente com base na versão do servidor e na configuração da interface do usuário:
   
 
 |**Versão do servidor**|**Configuração EnableSkypeUI**|**Experiência do cliente**|
 |:-----|:-----|:-----|
 |Skype for Business Server |Padrão  <br/> |Skype for Business  <br/> |
 |Skype for Business Server  |True  <br/> |Skype for Business  <br/> |
-|Skype for Business Server  |False  <br/> |Usuário é solicitado a alternar para o modo do Lync (usuário pode alternar para Skype para negócios posteriormente se você alterar a configuração de interface do usuário para $true)  <br/> |
-|Lync Server 2010 ou o Lync Server 2013 (com patches corretas)  <br/> |Padrão  <br/> |Usuário é solicitado a alternar para o modo do Lync (usuário pode alternar para Skype para negócios posteriormente se você alterar a configuração de interface do usuário para $true)  <br/> |
-|Lync Server 2010 ou o Lync Server 2013 (com patches corretas)  <br/> |True  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 ou o Lync Server 2013 (com patches corretas)  <br/> |False  <br/> |Usuário é solicitado a alternar para o modo do Lync (usuário pode alternar para Skype para negócios posteriormente se você alterar a configuração de interface do usuário para $true)  <br/> |
-|Lync Server 2010 ou o Lync Server 2013 (sem patches)  <br/> |Padrão  <br/> |Usuário é solicitado a alternar para o modo do Lync (o usuário não pode alternar para Skype para negócios posterior)  <br/> |
+|Skype for Business Server  |False  <br/> |O usuário pediu alternar para o modo Lync (o usuário pode alternar para o Skype for Business mais tarde, se você alterar a configuração da interface do usuário para $true)  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |Padrão  <br/> |O usuário pediu alternar para o modo Lync (o usuário pode alternar para o Skype for Business mais tarde, se você alterar a configuração da interface do usuário para $true)  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |True  <br/> |Skype for Business  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |False  <br/> |O usuário pediu alternar para o modo Lync (o usuário pode alternar para o Skype for Business mais tarde, se você alterar a configuração da interface do usuário para $true)  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (sem patches)  <br/> |Padrão  <br/> |O usuário pediu alternar para o modo Lync (o usuário não pode mudar para o Skype for Business mais tarde)  <br/> |
    
-A próxima tabela mostra a experiência do cliente quando o administrador altera a configuração inicial para a experiência do Skype UI:
+A tabela a seguir mostra a experiência do cliente quando o administrador muda a configuração inicial para a experiência da interface do usuário do Skype:
   
 
-|**Versão do servidor**|**Configuração EnableSkypeUI**|**Cliente UI = Lync**|**Interface do usuário do cliente = Skype for Business**|
+|**Versão do servidor**|**Configuração EnableSkypeUI**|**Interface do usuário do cliente = Lync**|**Interface do usuário do cliente = Skype for Business**|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Server |True  <br/> |Usuário é solicitado a alternar para Skype para negócios  <br/> |Skype for Business  <br/> |
-|Skype for Business Server |False  <br/> |Modo do Lync  <br/> |Usuário é solicitado a alternar para o modo do Lync  <br/> |
-|Lync Server 2010 ou o Lync Server 2013 (com patches corretas)  <br/> |True  <br/> |Usuário é solicitado a alternar para Skype para negócios  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 ou o Lync Server 2013 (com patches corretas)  <br/> |False  <br/> |Modo do Lync  <br/> |Usuário é solicitado a alternar para o modo do Lync  <br/> |
-|Lync Server 2010 ou o Lync Server 2013 (sem patches)  <br/> |Padrão  <br/> |Modo do Lync (não é possível alternar para Skype para negócios)  <br/> |Modo do Lync (não é possível alternar para Skype para negócios)  <br/> |
+|Skype for Business Server |True  <br/> |O usuário pediu que mudar para o Skype for Business  <br/> |Skype for Business  <br/> |
+|Skype for Business Server |False  <br/> |Modo Lync  <br/> |O usuário pediu alternar para o modo Lync  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |True  <br/> |O usuário pediu que mudar para o Skype for Business  <br/> |Skype for Business  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |False  <br/> |Modo Lync  <br/> |O usuário pediu alternar para o modo Lync  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (sem patches)  <br/> |Padrão  <br/> |Modo Lync (não é possível mudar para o Skype for Business)  <br/> |Modo Lync (não é possível mudar para o Skype for Business)  <br/> |
    
-As versões de patch necessárias para gerenciar a configuração do Skype para o cliente de negócios são:
+As versões de patch necessárias para gerenciar a configuração do cliente Skype for Business são:
   
-- O Lync Server 2010 - atualização cumulativa de fevereiro de 2015 (4.0.7577.710) para o Lync Server 2010. Para obter informações, consulte [atualizações do Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771)
+- Lync Server 2010-atualização cumulativa de fevereiro de 2015 (4.0.7577.710) para o Lync Server 2010. Para obter informações, consulte [atualizações para o Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771)
     
-- Lync Server 2013 - atualização cumulativa de dezembro de 2014 (5.0.8308.857) para o Lync Server 2013. Para obter informações, consulte [atualizações do Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532772).
+- Lync Server 2013-atualização cumulativa de dezembro de 2014 (5.0.8308.857) para o Lync Server 2013. Para obter informações, consulte [atualizações para o Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532772).
     
 ## <a name="create-a-group-policy-object-to-modify-the-registry-on-a-domain-joined-computer"></a>Crie um Objeto de Política de Grupo para modificar o registro em um computador com ingresso no domínio
 
-A atualização do registro para exibir a experiência do cliente do Lync na primeira vez que um usuário inicia o Skype para negócios 2015 cliente deve ser feita apenas uma vez. Se você usar um Objeto de Política de Grupo (GPO) para atualizar o Registro, será preciso definir o objeto para um novo valor em vez de atualizar os Dados de valor. Quando o GPO for aplicado, se não existir um novo valor, o GPO o criará e configurará os Dados de valor para 0. 
+A atualização do registro para exibir a experiência do cliente do Lync na primeira vez que um usuário iniciar o cliente Skype for Business 2015 deve ser feito apenas uma vez. Se você usar um Objeto de Política de Grupo (GPO) para atualizar o Registro, será preciso definir o objeto para um novo valor em vez de atualizar os Dados de valor. Quando o GPO for aplicado, se não existir um novo valor, o GPO o criará e configurará os Dados de valor para 0. 
   
-O procedimento a seguir descreve como modificar o registro para que a experiência do cliente Lync seja exibida na primeira vez que um usuário inicia o Skype para 2015 de negócios do cliente. Você também pode usar esse procedimento para atualizar o registro para desabilitar o tutorial da tela de boas-vindas, conforme descrito anteriormente.
+O procedimento a seguir descreve como modificar o registro para que a experiência do cliente do Lync seja exibida na primeira vez que um usuário iniciar o cliente Skype for Business 2015. Você também pode usar esse procedimento para atualizar o registro para desabilitar o tutorial da tela de boas-vindas, conforme descrito anteriormente.
   
 ### <a name="to-create-the-gpo"></a>Para criar o GPO
 

@@ -3,36 +3,36 @@ title: Planejar para autenticação moderna no Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
-description: Tópicos de planejamento para autenticação e autorização para Skype para Business Server, incluindo a integração com outros produtos
-ms.openlocfilehash: 1a7f20fe10a757001fb3eb819371b81f24d6901e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Tópicos de planejamento para autenticação e autorização do Skype for Business Server, incluindo a integração com outros produtos
+ms.openlocfilehash: 922b53b26bd77be4f7d49e7c594d337f7961703d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907154"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297299"
 ---
-# <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>Discutir autenticação e autorização em Skype para negócios
+# <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>Discutindo autenticação e autorização no Skype for Business
 
-Autenticação e autorização são conceitos relacionados, mas fazem trabalho diferentes por você (Embora ambos são necessários). Colocar em termos simples, authenciation (AuthN) depende segredos apenas um usuário válido reconheça ou possui e que pode ser uma senha, código, impressão digital, certificado, uma combinação de declarações são verdadeiras sobre o usuário ou uma combinação dessas coisas usados juntos. AuthN é um processo de check-out provar que você é quem quer dizer que você está.
+A autenticação e a autorização são conceitos relacionados, mas há um trabalho diferente para você (mas ambos são necessários). Colocar termos simples, Authenciation (Authn) depende dos segredos apenas que um usuário válido sabe ou tem e que pode ser uma senha, código, impressão digital, certificado, uma combinação de declarações sobre o usuário que é verdadeira ou uma combinação dessas coisas usadas juntas. Authn é um processo para provar que você é quem diz ser.
 
-Autorização (AuthZ) diz respeito à qual você tenha acesso após comprovar que você está. Ele determina quais tenha sido permitido para ver, editar e acessar o contrário. Por exemplo, talvez você tenha poderosa acesso de administrador do conjunto de sites no SharePoint Online, mas se você alternar para outro workload online, como Skype para negócios Online, você pode ter os privilégios necessários para solucionar problemas do usuário, não altere a configuração do servidor ou servidores. Em uma carga de trabalho de terceira, como o Exchange Online, você somente pode ter acesso do usuário médio. AuthZ verifica qual e quanta acesso a serviços/worloads, aplicativos, arquivos e outros dados.
+Autorização (AuthZ) se preocupa com o que você tem acesso depois de comprovasse quem é você. Ele determina o que você tem permissão para ver, editar e acessar de outra forma. Por exemplo, você pode ter um poderoso acesso de administrador de conjunto de sites ao SharePoint Online, mas se você alternar para outra carga de trabalho online, como o Skype for Business Online, você pode ter privilégios para solucionar problemas de usuário, não alterar a configuração do servidor ou servidores. Em uma terceira carga de trabalho, como o Exchange Online, você pode ter apenas o acesso do usuário na média. A AuthZ verifica o que e quanto o acesso você tem a serviços/worloads, aplicativos, arquivos e outros dados.
 
-Nossos exemplos envolvem propriedades online como o SharePoint e o Exchange online, mas os processos de AuthN e AuthZ funcionam no local e em um local de híbrida da mesma maneira. Por fim, ferramentas como AAD conectar e ADFS se tornam envolvido no bloco AuthN e AuthZ por contas de sincronização local e senhas em nuvem do AD (que é o Azure AD no caso do Office 365 ou no Windows Azure) ou intruso no fluxo do AuthZ assim que um usuário com frequência não é solicitado para suas credenciais, dizer quando você alterna entre as cargas de trabalho na nuvem, criação de cenários de Single Sign-On. Mas não, eles próprios AuthN responsável ou AuthZ, apenas parte da mecânica.
+Nossos exemplos envolvem Propriedades online, como o SharePoint e o Exchange Online, mas os processos de Authn e AuthZ trabalham no local e em um local híbrido da mesma maneira. Em última análise, as ferramentas como o AAD Connect e o ADFS se envolvem na história de autenticação interna e AuthZ sincronizando contas e senhas locais para o AD da nuvem (que é o Azure AD no caso do Office 365 ou do Azure) ou de intrusão no fluxo de AuthZ para que as credenciais do usuário não são sempre solicitadas, digamos, quando se alterna entre cargas de trabalho na nuvem, criando cenários de logon único. Mas elas não são, por si só, autorizadas ou AuthZ, apenas parte da mecânica.
 
-Hoje, muitas tecnologias considerar esses processos (AuthN e AuthZ) para ser um mecanismo, e você ouvirá muitas referências ao processo de autenticação que também incluem autorização neles. É importante lembrar que a primeira etapa no acesso do usuário é AuthN, comprovar que você é quem quer dizer que você está, e que AuthZ usa o conhecimento do que o usuário é determinar o que ele tem acesso ao (conforme você verá com autorização aberta ou OAuth).
+Hoje em dia, muitas tecnologias consideram esses processos (Authn e AuthZ) serem um mecanismo e você ouvirá muitas referências ao processo de autenticação que também incluem autorização neles. É importante lembrar que a primeira etapa do acesso do usuário é Authn, provando que você é quem diz que você é e que a AuthZ usa o conhecimento de quem o usuário deve determinar o que ele ou ela tem acesso (como você verá com autorização aberta ou OAuth).
 
   
-## <a name="authentication-and-authorization-planning-topics"></a>Tópicos de planejamento de autorização e autenticação
+## <a name="authentication-and-authorization-planning-topics"></a>Tópicos de planejamento de autenticação e autorização
 
 [How to use Modern Authentication (ADAL) with Skype for Business](plan-adal.md)
 
 [Skype for Business topologies supported with Modern Authentication](topologies-supported.md)
 
-[Planejamento desativar os métodos de autenticação Legacy interna e externamente à sua rede.](turn-on-modern-auth.md)
+[Planejando desativar métodos de autenticação herdados interna e externamente para a sua rede.](turn-on-modern-auth.md)
 

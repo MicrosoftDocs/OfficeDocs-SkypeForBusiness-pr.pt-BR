@@ -1,36 +1,36 @@
 ---
-title: Gerenciar definições de configuração do serviço Web no Skype para Business Server
+title: Gerenciar configurações de serviço Web no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
-description: 'Resumo: Gerencie definições de configuração do serviço Web no Skype para Business Server.'
-ms.openlocfilehash: 4a930fcae92be54f5a617190a6472e9ffcb590d4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: gerenciar configurações de serviço Web no Skype for Business Server.'
+ms.openlocfilehash: b2a7f287c9386c89d132e03e96aa25e9472f7008
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919420"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297572"
 ---
-# <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Gerenciar definições de configuração do serviço Web no Skype para Business Server
+# <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Gerenciar configurações de serviço Web no Skype for Business Server
  
-**Resumo:** Gerencie definições de configuração do serviço Web no Skype para Business Server.
+**Resumo:** Gerenciar configurações de serviço Web no Skype for Business Server.
   
-Você pode usar a página **Serviço Web** para configurar os métodos de autenticação para acessar o Skype para Business Server relacionados servidores web e serviços da Web.
+Você pode usar a página **serviço Web** para configurar os métodos de autenticação para acessar servidores Web e serviços Web relacionados ao Skype for Business Server.
   
 Siga estas etapas para criar a nova política de Web Service.
   
 ### <a name="to-create-new-web-service-configuration-settings"></a>Para criar novas definições de configuração de serviço da Web
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
+1.  Em uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Skype for Business Server .
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server.  
     
 3. Na barra de navegação esquerda, clique em **Segurança** e em **Serviço da Web**.
     
@@ -54,15 +54,15 @@ Siga estas etapas para criar a nova política de Web Service.
     
 ## <a name="modify-existing-web-service-configuration-settings"></a>Modificar definições de configuração de Serviço da Web
 
-Você pode usar a página **Serviço Web** para configurar os métodos de autenticação para acessar o Skype para Business Server relacionados servidores web e serviços da Web.
+Você pode usar a página **serviço Web** para configurar os métodos de autenticação para acessar servidores Web e serviços Web relacionados ao Skype for Business Server.
   
 Execute estas etapas para modificar uma política de Serviço Web existente.
   
 ### <a name="to-modify-existing-web-service-configuration-settings"></a>Para modificar definições de configuração de Serviço da Web
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
+1.  Em uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Skype for Business Server .
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server.  
     
 3. Na barra de navegação esquerda, clique em **Segurança** e em **Serviço da Web**.
     
@@ -86,9 +86,9 @@ Siga estas etapas para excluir definições de configuração do serviço da web
   
 ### <a name="to-delete-web-service-configuration-settings"></a>Para excluir definições de configuração de serviço da Web
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
+1.  Em uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Skype for Business Server .
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server.  
     
 3. Na barra de navegação esquerda, clique em **Segurança** e em **Serviço da Web**.
     
@@ -98,9 +98,9 @@ Siga estas etapas para excluir definições de configuração do serviço da web
     
 6. Clique em **OK**.
     
-## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>A exclusão de definições de configuração do serviço Web usando Cmdlets do Windows PowerShell
+## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Excluindo configurações de serviço Web usando cmdlets do Windows PowerShell
 
-Você pode excluir as definições de configuração do serviço web usando o Windows PowerShell e o cmdlet **Remove-CsWebServiceConfiguration** . Você pode executar esse cmdlet a partir do Skype do Shell de gerenciamento do servidor de negócios ou uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype para Business Server, consulte o artigo do blog ["rápida iniciar: Gerenciando Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo em Skype para Business Server.
+Você pode excluir as configurações de serviço Web usando o Windows PowerShell e o cmdlet **Remove-CsWebServiceConfiguration** . Você pode executar esse cmdlet a partir do Shell de gerenciamento do Skype for Business Server ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo ["início rápido: Gerenciando o Microsoft Lync Server 2010 usando o PowerShell remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Para excluir um conjunto específico de definições de configuração do serviço da Web
 

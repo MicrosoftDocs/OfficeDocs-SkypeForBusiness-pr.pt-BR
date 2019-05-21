@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddMachinePage
@@ -12,63 +12,63 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Para adicionar um novo servidor a um pool existente de servidores, na qual o pool é um dos seguintes:'
-ms.openlocfilehash: 562dbc44641c5af72224dbcbb0df494b7c0346d9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Para adicionar um novo servidor a um pool de servidores existente, onde o pool é um dos seguintes:'
+ms.openlocfilehash: 005c2e2e63668b7c17ee04d49de88811649fe914
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888911"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297734"
 ---
 # <a name="add-server"></a>Adicionar Servidor
  
-Para adicionar um novo servidor a um pool existente de servidores, na qual o pool é um dos seguintes:
+Para adicionar um novo servidor a um pool de servidores existente, onde o pool é um dos seguintes:
   
-- Servidor de Front-End do Enterprise Edition
+- Servidor front-end do Enterprise Edition
     
-- Servidor de diretor
+- Servidor diretor
     
 - Servidor de Mediação
     
 - Servidor de conferência de áudio/vídeo
     
-- Servidor de aplicativos confiáveis
+- Servidor de aplicativos confiável
     
-Cada um dos novos servidores de pool tem requisitos diferentes. Nas seções a seguir, localize o tipo de servidor que você está adicionando ao pool existente e forneça as informações solicitadas como definido para cada tipo de servidor. Você fornecer as informações solicitadas para definir o novo servidor do pool.
+Cada um dos novos servidores de pool tem requisitos diferentes. Nas seções a seguir, localize o tipo de servidor que você está adicionando ao pool existente e forneça as informações solicitadas conforme elas são definidas para cada tipo de servidor. Forneça as informações solicitadas para definir o novo servidor de pool.
   
- **Servidor de Front-End do Enterprise Edition**
+ **Servidor front-end do Enterprise Edition**
   
-- Nome domínio totalmente qualificado (FQDN) do novo servidor como definido no sistema de nome de domínio (DNS).
+- FQDN (nome de domínio totalmente qualificado) do novo servidor conforme definido no DNS (sistema de nomes de domínio).
     
-- Selecione **usar todos os endereços IP configurados**, que significa que qualquer endereço IP definido no computador que pode ser usado. Como alternativa, você pode selecionar **limitar o uso do serviço aos endereços IP selecionados** e digite um endereço específico no novo servidor. O endereço IP inserido é o único endereço IP qual responderá para os serviços hospedados.
+- Selecione **usar todos os endereços IP**configurados, o que significa que qualquer endereço IP definido no computador poderá ser usado. Você também pode selecionar limitar o **uso do serviço a endereços IP selecionados** e inserir um endereço específico no novo servidor. O endereço IP inserido é o único endereço IP que irá responder aos serviços hospedados.
     
-- Defina um **endereço IP PSTN** quando um servidor de mediação é colocado no servidor Front-End.
+- Defina um **endereço IP PSTN** quando um servidor de mediação estiver posicionado no servidor front-end.
     
-- Selecione **Habilitar IPv6** para habilitar o IPv6 para esse servidor.
+- Selecione **habilitar IPv6** para habilitar o IPv6 para este servidor.
     
-  **Servidor de diretor**
+  **Servidor diretor**
   
-- O FQDN do novo servidor como definido no DNS.
+- O FQDN do novo servidor como ele está definido no DNS.
     
-- Selecione **usar todos os endereços IP configurados**, que significa que qualquer endereço IP definido no computador será usado. Como alternativa, você pode selecionar **limitar o uso do serviço aos endereços IP selecionados** e insira um endereço IP específico no novo servidor. O endereço IP inserido é o único endereço IP qual responderá para os serviços hospedados.
+- Selecione **usar todos os endereços IP**configurados, o que significa que qualquer endereço IP definido no computador será usado. Ou, se preferir, selecione **limitar o uso do serviço para endereços IP selecionados** e insira um endereço IP específico no novo servidor. O endereço IP inserido é o único endereço IP que irá responder aos serviços hospedados.
     
   **Servidor de mediação**
   
-- O FQDN do novo servidor como definido no DNS.
+- O FQDN do novo servidor como ele está definido no DNS.
     
-- Selecione **usar todos os endereços IP configurados**, que significa que qualquer endereço IP definido no computador que pode ser usado. Como alternativa, você selecionar um endereço IP para o endereço IP (PSTN) da rede telefônica pública comutada enter e digite um endereço IP específico no novo servidor como o endereço IP principal e **limitar o uso do serviço aos endereços IP selecionados** . Os endereços IP digitados são o endereço IP único qual responderá para os serviços designados.
+- Selecione **usar todos os endereços IP**configurados, o que significa que qualquer endereço IP definido no computador poderá ser usado. Ou, se preferir, selecione **limitar o uso do serviço para endereços IP selecionados** e insira um endereço IP específico no novo servidor como o endereço IP principal e insira um endereço IP para o endereço IP da rede telefônica comutada pública (PSTN). Os endereços IP inseridos são o único endereço IP que responderá aos serviços designados.
     
     > [!NOTE]
-    > Para o servidor de mediação, o endereço IP inserido para o endereço IP principal e o endereço IP PSTN é a mesma por padrão. Os endereços IP podem ser definidos separadamente, se você estiver usando interfaces de rede dedicada ou endereços IP separados a mesma interface de rede. Se você tiver interfaces de rede dois, um para a conexão de rede local e um para a conexão de PSTN, você deve atribuir endereços IP diferentes. 
+    > Para o servidor de mediação, o endereço IP inserido para o endereço IP primário e o endereço IP PSTN é o mesmo por padrão. Os endereços IP podem ser definidos separadamente se você estiver usando interfaces de rede dedicadas ou endereços IP separados na mesma interface de rede. Se você tiver duas interfaces de rede, uma para a conexão de rede local e outra para a conexão PSTN, será preciso atribuir endereços IP diferentes. 
   
   **Servidor de conferência de áudio/vídeo**
   
-- O FQDN do novo servidor como definido no DNS.
+- O FQDN do novo servidor como ele está definido no DNS.
     
-- Selecione **usar todos os endereços IP configurados**, que significa que qualquer endereço IP definido no computador que pode ser usado. Como alternativa, você pode selecionar **limitar o uso do serviço aos endereços IP selecionados** e digite um endereço específico no novo servidor. O endereço IP inserido é o único endereço IP qual responderá para os serviços hospedados.
+- Selecione **usar todos os endereços IP**configurados, o que significa que qualquer endereço IP definido no computador poderá ser usado. Você também pode selecionar limitar o **uso do serviço a endereços IP selecionados** e inserir um endereço específico no novo servidor. O endereço IP inserido é o único endereço IP que irá responder aos serviços hospedados.
     
-  **Servidor de aplicativos confiáveis**
+  **Servidor de aplicativos confiável**
   
-- O FQDN do novo servidor como definido no DNS.
+- O FQDN do novo servidor como ele está definido no DNS.
     
 

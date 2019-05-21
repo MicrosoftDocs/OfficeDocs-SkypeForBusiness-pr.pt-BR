@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,29 +22,29 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 33928993983b06c07cec5e88d7e01d419ec5efaf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
+ms.openlocfilehash: b00c1617d17dbd468a58adb8f62d3d9f98fbd86a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204118"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304515"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>Restrições de discagem de chamada gratuita no Vietnã
 
-[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md), ou aprender mais sobre as limitações de discagem gratuita e restrições.
+[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuitas.
 
 
 | **Detalhes**                                      | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                           |
 |:-------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| É gratuita chamar disponível?  <br/>           | Sim  <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
-| Discagem format(s)  <br/>                         | 120-11-3XX <br/>  122-XXX-XX <br/>  1800 XXXX: formato não é mais fornecido <br/>                                                                                                                                                                                                                                                                                                                            |
+| A chamada gratuita está disponível?  <br/>           | Sim  <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
+| Formato (s) de discagem  <br/>                         | 120 A 11-3XX <br/>  122-XXX-XX <br/>  1800 XXXX: o formato não é mais fornecido <br/>                                                                                                                                                                                                                                                                                                                            |
 | Código ISO de país/região  <br/>                   | VN  <br/>                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Ilha/território abordado  <br/>                  | Não aplicável  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
+| Ilha/território abrangido  <br/>                  | Não aplicável  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | Ilha/território não coberto  <br/>              | Não aplicável  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | Disponibilidade de linha fixa/com fio  <br/>             | Parcial. Veja os comentários.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | Disponibilidade com a rede móvel  <br/>               | Parcial. Veja os comentários.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
-| Comentários, restrições e problemas de acesso  <br/> | O formato de número XX XXX 120 trabalharão internacional de telecomunicações Vietnã (VTI) e redes de fixas e móveis VNPT (Vietnã Post e telecomunicações). <br/> <br/> Desde junho de 2018, o formato de número XX XXX 120 não pode ser chamado da rede de celular do Mobifone. <br/> <br/>**Observação:** Mobifone &amp; Vinaphone fazem parte do VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). Conforme o Ministério de Vietnã de telecomunicações, a duração máxima da chamada permitido é de 2 horas. |
+| Comentários, restrições e problemas de acesso  <br/> | O formato de número 120 XX XXX funcionará em redes do Vietnã Telecom International (VTI) e VNPT (post e telecomunicações) fixo e em redes móveis. <br/> <br/> A partir de junho de 2018, o formato de número 120 XX XXX não pode ser chamado na rede móvel do Mobifone. <br/> <br/>**Observação:** Mobifone &amp; Vinaphone fazem parte do VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). De acordo com o Ministério de telecomunicações do Vietnã, a duração máxima permitida de chamada é de 2 horas. |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 

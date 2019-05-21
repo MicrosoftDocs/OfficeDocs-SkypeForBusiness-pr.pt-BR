@@ -4,45 +4,45 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Para remover o Monitoring Server, você precisará alterar ou desmarque a dependência no pool de Front-End associado, servidor Front-End, o aparelho de filial e o servidor de filial persistente. Você editar as propriedades do pool de Front-End, servidor Front-End, servidor de filial persistente e aparelho de filial persistente para remover a dependência. Depois que você desmarcar a dependência e excluir o servidor no construtor de topologia, você será notificado de que o objeto de armazenamento de banco de dados associado no construtor de topologia também será excluído.
-ms.openlocfilehash: 854e95969d08d14d626bb374073091ae4ae39630
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Para remover o Monitoring Server, você precisa alterar ou limpar a dependência do pool de front-ends associado, servidor front-end, aparelho para ramificação sobreviventes e servidor de ramificação sobreviventes. Edite as propriedades do pool de front-end, servidor front-end, appliances para ramificação sobreviventes e servidor de ramificação sobreviventes para remover a dependência. Depois de limpar a dependência e excluir o servidor no construtor de topologias, você será notificado de que o objeto de repositório de banco de dados associado também será excluído.
+ms.openlocfilehash: 366bb67815df99542b893e9ced79c1fc1f0e3e9f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231455"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301094"
 ---
 # <a name="remove-the-monitoring-server-association"></a>Remover a associação do Servidor de Monitoramento
 
-Para remover o Monitoring Server, você precisará alterar ou desmarque a dependência a associado Front End pool, servidor Front-End, aparelho de filial persistente e servidor de filial persistente. Você editar as propriedades do pool Front-End, servidor Front-End, aparelho de filial persistente e servidor de filial persistente para remover a dependência. Depois que você desmarcar a dependência e excluir o servidor no construtor de topologia, você será notificado de que o objeto de armazenamento de banco de dados associado no construtor de topologia também será excluído.
+Para remover o Monitoring Server, você precisa alterar ou limpar a dependência do pool de front-ends associado, servidor front-end, aparelho para ramificação sobreviventes e servidor de ramificação sobreviventes. Edite as propriedades do pool de front-end, do servidor front-end, do Appliance para ramificação sobreviventes e do servidor de ramificação sobreviventes para remover a dependência. Depois de limpar a dependência e excluir o servidor no construtor de topologias, você será notificado de que o objeto de repositório de banco de dados associado também será excluído.
   
 ### <a name="to-remove-the-monitoring-server-association"></a>Para remover a associação do Monitoring Server
 
-1. No Skype para Business Server 2019 servidor Front-End, abra o construtor de topologias.
+1. No servidor front-end do Skype for Business Server 2019, abra o construtor de topologias.
     
-2. Navegue até o nó de instalações herdadas.
+2. Navegue até o nó instalações herdadas.
     
-3. No construtor de topologia, expanda **pools de Front End do Enterprise Edition**, **Servidores Standard Edition Front End**ou **sites de filiais**, dependendo de onde o Monitoring Server está definido.
+3. No construtor de topologia, expanda Pools de **front-end do Enterprise Edition**, **servidores front-end da edição padrão**ou **sites**de filiais, dependendo de onde o servidor de monitoração está definido.
     
-4. Se você tiver um servidor de filial persistente associado, expanda **sites de filiais**, expanda o nome do site de filial e expanda **Aparelhos de filial persistente**.
+4. Se você tiver um servidor de ramificação sobreviventes associado, expanda **sites**de ramificação, expanda o nome do site da filial e expanda **aparelhos de ramificação sobreviventes**.
     
     > [!NOTE]
-    > **Aparelhos de filial persistente** na interface do usuário aplica-se ao servidor de filial persistente e aparelho de filial persistente. 
+    > **Aparelhos de ramificação sobreviventes** na interface do usuário se aplicam ao servidor de ramificação sobreviventes e ao aparelho de ramificação sobreviventes. 
   
-5. Com o botão direito do pool, servidor ou dispositivo que está associado com o Monitoring Server e, em seguida, clique em **Editar propriedades**.
+5. Clique com o botão direito do mouse no pool, no servidor ou no dispositivo associado ao Monitoring Server e clique em **Editar propriedades**.
     
-6. Em **Editar propriedades**, em **Geral** > **associações**, desmarque a caixa de seleção **Associar Monitoring Server** e clique em **Okey**.
+6. Em **Editar propriedades**, em **** > **associações**gerais, desmarque a caixa de seleção **associar o servidor de monitoramento** e clique em **OK**.
     
-7. Repita a etapa anterior para qualquer outro pool, servidor ou dispositivo associado ao Monitoring Server.
+7. Repita a etapa anterior para qualquer outro pool, servidor ou dispositivo associado ao servidor de monitoramento.
     
-8. Com o botão direito no Monitoring Server e, em seguida, clique em **Excluir**. 
+8. Clique com o botão direito do mouse no servidor de monitoramento e clique em **excluir**. 
     
-9. Em **Excluir armazenamentos dependentes**, clique em **Okey**.
+9. Em **excluir repositórios dependentes**, clique em **OK**.
     
-10. Publique a topologia, verifique o status de replicação e execute o Skype para o Assistente de implantação de servidor de negócios, conforme necessário. 
+10. Publique a topologia, verifique o status da replicação e execute o assistente de implantação do Skype for Business Server conforme necessário. 
     
 

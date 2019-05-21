@@ -5,32 +5,32 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f94eb128-f782-42ff-a568-ed3529573bc8
-description: tblPreference contém preferências do cliente dos usuários. Isso é geralmente usado pelos clientes anterior para o Lync 2013.
-ms.openlocfilehash: 1c8b098d308802428dcb314d2163b9e32863b547
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblPreference contém as preferências do cliente dos usuários. Isso geralmente é usado por clientes anteriores ao Lync 2013.
+ms.openlocfilehash: b646bbe65c8090295c070a4fdc88b8339a62e4ab
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929914"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295339"
 ---
 # <a name="tblpreference"></a>tblPreference
 
-tblPreference contém preferências do cliente dos usuários. Isso é geralmente usado pelos clientes anterior para o Lync 2013.
+tblPreference contém as preferências do cliente dos usuários. Isso geralmente é usado por clientes anteriores ao Lync 2013.
 
 **Colunas**
 
 
 | **Coluna**            | **Tipo**                        | **Descrição**                                                 |
 |:----------------------|:--------------------------------|:----------------------------------------------------------------|
-| prefLabel  <br/>      | nvarchar (255), não nulo  <br/> | Etiqueta com um formato como: \<uri de sip do usuário\>                   |
-| prefSeqID  <br/>      | int, não nulo  <br/>            | Um número sequencial (por etiqueta) para fins de controle de versão.  <br/> |
-| prefContent  <br/>    | nvarchar (máx.)  <br/>           | Conteúdo codificado.  <br/>                                         |
-| lastModifiedBy  <br/> | int, não nulo  <br/>            | ID da entidade que atualizou a preferência.  <br/>         |
+| prefLabel  <br/>      | nvarchar (255), NOT NULL  <br/> | Rótulo com um formato como: \<URI de SIP do usuário\>                   |
+| prefSeqID  <br/>      | int, não nulo  <br/>            | Um número sequencial (por rótulo) para fins de controle de versão.  <br/> |
+| prefContent  <br/>    | nvarchar (max)  <br/>           | Conteúdo codificado.  <br/>                                         |
+| lastModifiedBy  <br/> | int, não nulo  <br/>            | ID da entidade de segurança que atualizou a preferência.  <br/>         |
 
 **Chave**
 

@@ -5,34 +5,34 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.MachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e2309ade-f9c7-4cd1-b135-45bf73b0441f
-description: 'Para editar as propriedades desse computador, faça o seguinte:'
-ms.openlocfilehash: 0db8f318f7c4381707869fe06ee7c492c78d63ac
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Para editar as propriedades deste computador, faça o seguinte:'
+ms.openlocfilehash: 28261b3637040acda70218f23101b4337b1f90c3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929536"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297607"
 ---
 # <a name="server-settings-expander-for-lync-server-2010"></a>Expansor de Confgurações de Servidor para Lync Server 2010
  
-Para editar as propriedades desse computador, faça o seguinte:
+Para editar as propriedades deste computador, faça o seguinte:
   
-- Edite o **nome domínio totalmente qualificado (FQDN)** para este computador. Essa entrada deve corresponder ao nome de computador, como definido no sistema de nome de domínio (DNS) e em nomes de entidade alternativos (SAN) ou o nome da entidade (SN) do certificado associado a esse computador.
+- Edite o **nome de domínio totalmente qualificado (FQDN)** deste computador. Essa entrada deve coincidir com o nome do computador conforme definido no sistema de nomes de domínio (DNS) e em nomes alternativos da entidade (SAN) ou nome da entidade (SN) do certificado associado a este computador.
     
-- Você selecionar um dos seguintes procedimentos:
+- Selecione uma das seguintes opções:
     
-    **Usar todos os endereços IP configurados**: Selecione essa opção para usar endereços IP configurados tudo no computador.
+    **Usar todos os endereços IP**configurados: Selecione esta configuração para usar todos os endereços IP configurados no computador.
     
     > [!IMPORTANT]
-    > Se o computador tiver vários endereços IP, você deve estar ciente de que os serviços associados a esse computador usará todos os endereços IP para todos os serviços. Se um servidor de escuta ou serviço está esperando a comunicação de um determinado endereço IP e porta, o serviço talvez não seja a melhor seleção de qual endereço IP para escutar em. 
+    > Se o computador tiver vários endereços IP, você deve estar ciente de que os serviços associados a este computador usarão todos os endereços IP para todos os serviços. Se um servidor ou serviço de escuta esperar a comunicação de um endereço IP e uma porta específicos, o serviço poderá não fazer a melhor seleção de qual endereço de IP escuta. 
   
-    **Limitar o uso do serviço aos endereços IP selecionados**: Selecione essa opção se você deseja definir endereços IP específicos para o **endereço IP primário** deste computador escutará para comunicação dos outros computadores e pools na implantação. Defina o **endereço IP PSTN** para o endereço IP específico que o computador e o serviço irá ouvir comunicações e enviar comunicações ao gateway PSTN ou IP-PBX definido.
+    **Limitar o uso do serviço a endereços IP selecionados**: Selecione esta opção se quiser definir endereços IP específicos para o **endereço IP primário** que este computador escutará para comunicação de outros computadores e pools na implantação. Defina o **endereço IP PSTN** para o endereço IP específico que o computador e o serviço escutarão para comunicações e enviar comunicações para o gateway PSTN definido ou PBX IP-PBX.
     
 

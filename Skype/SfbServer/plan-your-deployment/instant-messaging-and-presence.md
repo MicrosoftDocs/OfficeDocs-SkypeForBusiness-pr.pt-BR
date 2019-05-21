@@ -1,47 +1,47 @@
 ---
-title: Planejar o sistema de mensagens instantâneas e presença em Skype for Business Server
+title: Planejar mensagens instantâneas e presença no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
-description: 'Resumo: Saiba como planejar para mensagens instantâneas e presença no Skype Business Server.'
-ms.openlocfilehash: f29464b9eaf725deb41c41cb9255a8b2f6737792
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como planejar mensagens instantâneas e presença no Skype for Business Server.'
+ms.openlocfilehash: 29026a0b4ef7cce55f155f024efc9ccc84457906
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907161"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297376"
 ---
-# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planejar o sistema de mensagens instantâneas e presença em Skype for Business Server
+# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planejar mensagens instantâneas e presença no Skype for Business Server
  
-**Resumo:** Saiba como planejar para mensagens instantâneas e presença no Skype Business Server.
+**Resumo:** Saiba como planejar mensagens instantâneas e presença no Skype for Business Server.
   
-Planejar para mensagens instantâneas e presença no Skype Business Server. Para saber mais sobre as opções de implantação específicas, habilitando ou desabilitando Offline as mensagens Instantâneas, consulte [Deploy de mensagens instantâneas e presença em Skype para Business Server](../deploy/im-and-presence/im-and-presence.md).
+Planejar mensagens instantâneas e presença no Skype for Business Server. Para saber mais sobre opções de implantação específicas, como habilitar ou desabilitar mensagens instantâneas (IM) offline, consulte [implantar mensagens instantâneas e presença no Skype for Business Server](../deploy/im-and-presence/im-and-presence.md).
   
-## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planejar o sistema de mensagens instantâneas e presença em Skype for Business Server
+## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planejar mensagens instantâneas e presença no Skype for Business Server
 
-Front End servidores fornecem core Skype para a funcionalidade do servidor de negócios, como mensagens instantâneas (IM) e presença e são incluídos em cada Skype para implantação de servidor de negócios. Há duas edições: Skype para Business Server Enterprise Edition, que foi projetada principalmente para organizações maiores, e Skype para Business Server Standard Edition, que foi projetada principalmente para organizações menores que deseja um menor investimento de hardware e não exigem opções de alta disponibilidade. Ambas as edições suportam Skype todas as cargas de trabalho do Business Server incluindo mensagens Instantâneas, presença, conferência e Enterprise Voice.
+Os servidores front-end fornecem a funcionalidade básica do Skype for Business Server, como mensagens instantâneas (IM) e presença, e estão incluídos em cada implantação do Skype for Business Server. Há duas edições disponíveis: Skype for Business Server Enterprise Edition, projetada principalmente para organizações maiores e Skype for Business Server Standard Edition, projetada principalmente para organizações menores que desejam uma pequena investimento em hardware e não exigem opções completas de alta disponibilidade. Ambas as edições dão suporte a todas as cargas de trabalho do Skype for Business Server, incluindo mensagens instantâneas, presença, conferência e Enterprise Voice.
   
 Mensagens instantâneas (IM) permitem que os usuários se comuniquem entre si em tempo real em seus computadores usando mensagens textuais. Tanto sessões de IM de duas partes como as multipartes são suportadas. Um participante de uma conversa via IM de duas partes pode adicionar um terceiro participante à conversa a qualquer momento. Quando isso acontece, a janela de conversa muda para dar suporte aos recursos de conferência.
   
-A Presença fornece informações a usuários sobre o status de outros na rede. Status de presença do usuário fornece informações que ajudam outros a decidir se devem contatar o usuário e se deseja usar mensagens instantâneas, telefone ou email. A Presença encoraja a comunicação instantânea quando possível, mas também dá informações sobre se um usuário está em reunião ou fora do escritório, indicando que a comunicação instantânea não é possível. O status de presença é exibido como um ícone de presença no Skype for Business e em outros aplicativos com alerta de presença, incluindo o cliente de mensagens e de colaboração do Microsoft Outlook, as tecnologias do Microsoft SharePoint, o Microsoft Word e o software de planilhas do Microsoft Excel. O ícone de presença representa a disponibilidade atual e a disposição de comunicação do usuário. 
+A Presença fornece informações a usuários sobre o status de outros na rede. O status de presença de um usuário fornece informações para ajudar outras pessoas a decidirem se devem tentar contatar o usuário e se devem ou não usar mensagens instantâneas, telefones ou emails. A Presença encoraja a comunicação instantânea quando possível, mas também dá informações sobre se um usuário está em reunião ou fora do escritório, indicando que a comunicação instantânea não é possível. O status de presença é exibido como um ícone de presença no Skype for Business e em outros aplicativos com alerta de presença, incluindo o cliente de mensagens e de colaboração do Microsoft Outlook, as tecnologias do Microsoft SharePoint, o Microsoft Word e o software de planilhas do Microsoft Excel. O ícone de presença representa a disponibilidade atual do usuário e a disposição para se comunicar. 
   
 ### <a name="technical-requirements"></a>Requisitos técnicos
 
-O sistema de mensagens instantâneas e a presença são sempre executados nos pools de Front-Ends Enterprise Edition e servidores Standard Edition. Para obter informações sobre com suporte de hardware, sistemas operacionais e o software de banco de dados, consulte [Certified Gateways](../../SfbPartnerCertification/certification/infra-gateways.md), [requisitos para sua Skype para ambiente de negócios 2015](requirements-for-your-environment/requirements-for-your-environment.md)e requisitos de infraestrutura de [para Skype para Business Server 2019 ](../../SfBServer2019/plan/system-requirements.md).
+O sistema de mensagens instantâneas e a presença são sempre executados nos pools de Front-Ends Enterprise Edition e servidores Standard Edition. Para obter informações sobre hardware, sistemas operacionais e software de banco de dados com suporte, consulte [gateways certificados](../../SfbPartnerCertification/certification/infra-gateways.md), [requisitos para o ambiente do skype for Business 2015](requirements-for-your-environment/requirements-for-your-environment.md)e [requisitos de infraestrutura para o Skype for Business Server 2019 ](../../SfBServer2019/plan/system-requirements.md).
   
 ### <a name="enabling-communication-with-external-users"></a>Habilitando a comunicação com usuários externos
 
-Você poderá aumentar consideravelmente os benefícios do investimento em Skype para Business Server, permitindo que os usuários se comuniquem com usuários externos. Entre os usuários externos podem estar:
+Você pode aumentar bastante as vantagens do seu investimento no Skype for Business Server permitindo que seus usuários se comuniquem com usuários externos. Entre os usuários externos podem estar:
   
-- Usuários remotos: os usuários da organização, quando eles estão trabalhando fora dos firewalls e estão usando seus laptops ou outro Skype para dispositivos do servidor de negócios.
+- Usuários remotos: os próprios usuários da sua organização, quando estiverem trabalhando fora dos firewalls e estiverem usando seus laptops ou outros dispositivos do Skype for Business Server.
     
-- Usuários federados: os usuários de empresas que você trabalha com quem também executar Skype para Business Server. Para habilitar seus usuários a contatar facilmente esses usuários, crie relacionamentos federados com essas empresas. 
+- Usuários federados: usuários de empresas com quem você trabalha com quem também executam o Skype for Business Server. Para habilitar seus usuários a contatar facilmente esses usuários, crie relacionamentos federados com essas empresas. 
     
 - Usuários Skype: usuários do Skype for Business podem entrar em contato com centenas de milhões de usuários no Skype através de IM, voz e vídeo.
     
@@ -49,27 +49,27 @@ Você poderá aumentar consideravelmente os benefícios do investimento em Skype
 > AOL, Yahoo e Google Talk não são mais suportados. 
   
 > [!NOTE]
-> Para habilitar um ou todos esses cenários, você precisará implantar um servidor de borda para ajudar a habilitar comunicações seguras entre seu Skype para implantação de servidor de negócios e os usuários externos. Os usuários remotos e usuários em organizações federadas da sua organização poderão vejam a presença uns dos outros e se comunicar usando mensagens Instantâneas. 
+> Para habilitar um ou todos esses cenários, você precisa implantar um servidor de borda para ajudar a permitir comunicações seguras entre a implantação do Skype for Business Server e os usuários externos. Os usuários remotos da sua organização e os usuários de organizações federadas poderão ver a presença dos outros e se comunicarem usando mensagens instantâneas. 
   
 > [!NOTE]
 > O protocolo XMPP é suportado apenas para cenários de certificação UCCP e JITC. 
   
 ### <a name="archiving-im-content"></a>Conteúdo de arquivamento de IM
 
-Skype para Business Server fornece recursos que você pode usar se a sua organização deve seguir regulamentos de conformidade. É possível usar a função Arquivamento para arquivar o conteúdo de mensagens instantâneas de todos os usuários de sua organização ou apenas de usuários específicos. Para obter detalhes, consulte [Planejar para arquivamento no Skype para Business Server](archiving/archiving.md). 
+O Skype for Business Server fornece recursos que você pode usar se a sua organização deve seguir as normas de conformidade. É possível usar a função Arquivamento para arquivar o conteúdo de mensagens instantâneas de todos os usuários de sua organização ou apenas de usuários específicos. Para obter detalhes, consulte [planejar o arquivamento no Skype for Business Server](archiving/archiving.md). 
   
-Se você também tiver implantado do Microsoft Exchange Server 2013, você pode integrar o arquivamento de dados do Exchange com o arquivamento de Skype para dados do servidor de negócios e usar uma única ferramenta para pesquisar os dois tipos de dados arquivados. Para obter mais informações, consulte [Configurar Skype para Business Server usar o arquivamento do Exchange Server](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
+Se você também tiver o Microsoft Exchange Server 2013 implantado, poderá integrar o arquivamento dos dados do Exchange com o arquivamento dos dados do Skype for Business Server e usar uma única ferramenta para pesquisar os dois tipos de dados arquivados. Para obter mais informações, consulte [Configurar o Skype for Business Server para usar o arquivamento do Exchange Server](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
   
 ### <a name="topologies-and-components"></a>Topologias e componentes
 
 Os únicos componentes necessários para mensagem instantânea (IM) e presença são:
   
-- Servidores de Front-End da sua organização (conhecidos como um pool) ou um servidor Standard Edition. As capacidades de IM e presença estão sempre habilitadas nesses servidores. Para obter mais informações sobre topologias de pool de Front-End e gerenciamento, consulte [gerenciamento e alta disponibilidade do Pool Front-End](high-availability-and-disaster-recovery/high-availability.md).
+- Os servidores front-end da sua organização (conhecidos como um pool) ou um servidor Standard Edition. As capacidades de IM e presença estão sempre habilitadas nesses servidores. Para obter mais informações sobre topologias e gerenciamento de pools de front-end, consulte [alta disponibilidade e gerenciamento do pool de front-end](high-availability-and-disaster-recovery/high-availability.md).
     
 - Um balanceador de carga, se você tiver um pool de Front-Ends do Enterprise Edition.
     
 ### <a name="supported-collocation"></a>Colocação com suporte
 
-A colocação é definida como ter um único servidor, ou grupo de servidores, com múltiplas funções instaladas. Para obter detalhes sobre a colocação, consulte [Noções básicas de topologia para Skype para Business Server](topology-basics/topology-basics.md). 
+A colocação é definida como ter um único servidor, ou grupo de servidores, com múltiplas funções instaladas. Para obter detalhes sobre a colocação, consulte [noções básicas de topologia para o Skype for Business Server](topology-basics/topology-basics.md). 
   
 

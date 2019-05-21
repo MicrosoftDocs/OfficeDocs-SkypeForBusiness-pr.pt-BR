@@ -5,38 +5,38 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
-description: tblPrincipalInvites inclui convites para todos os usuários provisionados de todos os nós com convite automático ativada.
-ms.openlocfilehash: 5008158dcb1c62c766162595d9bffe1875d56514
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblPrincipalInvites contém convites para todos os usuários provisionados para todos os nós com convite automático ativado.
+ms.openlocfilehash: 21344cfc34ce046a1dffdf7cd3ee9557da20a7ef
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924420"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295290"
 ---
 # <a name="tblprincipalinvites"></a>tblPrincipalInvites
  
-tblPrincipalInvites inclui convites para todos os usuários provisionados de todos os nós com convite automático ativada.
+tblPrincipalInvites contém convites para todos os usuários provisionados para todos os nós com convite automático ativado.
   
 **Colunas**
 
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int, não nulo  <br/> |ID principal.  <br/> |
-|invID  <br/> |int, não nulo  <br/> |Número sequencial exclusivo (por ID de entidade) gerado a partir da tabela tblLastInviteId.  <br/> |
-|nodeID  <br/> |int, não nulo  <br/> |ID do nó (somente sala de chat).  <br/> |
-|createdOn  <br/> |DateTime, não nulo  <br/> |Hora da criação.  <br/> |
+|multiimprimir  <br/> |int, não nulo  <br/> |ID da entidade de segurança.  <br/> |
+|invID  <br/> |int, não nulo  <br/> |Número seqüencial exclusivo (por ID da entidade) gerado pela tabela tblLastInviteId.  <br/> |
+|NodeId  <br/> |int, não nulo  <br/> |ID do nó (somente sala de chat).  <br/> |
+|criar  <br/> |DateTime, não nulo  <br/> |Hora da criação.  <br/> |
    
-**Chaves**
+**As**
 
 |**Coluna**|**Descrição**|
 |:-----|:-----|
-|\<prinID, nodeID\>  <br/> |Chave primária.  <br/> |
-|prinID  <br/> |Chave estrangeira com pesquisa na tabela Tblprincipal.  <br/> |
-|nodeID  <br/> |Chave estrangeira com pesquisa na tabela Tblnode.  <br/> |
+|\<, NodeId\>  <br/> |Chave primária.  <br/> |
+|multiimprimir  <br/> |Chave estrangeira com Lookup na tabela tblPrincipal. retoid.  <br/> |
+|NodeId  <br/> |Chave estrangeira com Lookup na tabela tblNode. NodeId.  <br/> |
    
 

@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças complementares e recursos para planos de organizações GOV, EDU e sem fins lucrativos. '
-ms.openlocfilehash: e1c19e7db6f4167fa0992101c7070dc4661665b0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cc58055f2163372ff1385764751ba011075fd11d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226047"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301247"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU e instituições sem fins lucrativos
 
@@ -35,7 +35,7 @@ Most Skype for Business features are available to .gov, .edu, and nonprofit orga
 |:-----|:-----|:-----|:-----|:-----|
 |Transmissão de Reunião do Skype  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |
 |Audioconferência do Skype for Business  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Sistema de telefone do Office 365  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
+|Sistema telefônico do Office 365  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
 |Plano de Chamadas Office 365  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
    
 Veja esta publicação do blog: [Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).

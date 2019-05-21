@@ -1,26 +1,26 @@
 ---
-title: (Opcional) Conjuntos de feriados do grupo de resposta definir Skype para negócios
+title: Adicionais Definir conjuntos de feriados do grupo de resposta no Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: Criar ou modificar os conjuntos de feriados do grupo de resposta, em Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: d78eaeee9b447dfd0c9f4f7250b6f34aee298594
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Criar ou modificar conjuntos de feriados do grupo de resposta no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: cd277412a9cef2c474b8ba60459e216482f2d872
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894702"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304486"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Opcional) Conjuntos de feriados do grupo de resposta definir Skype para negócios
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>Adicionais Definir conjuntos de feriados do grupo de resposta no Skype for Business
  
-Criar ou modificar os conjuntos de feriados do grupo de resposta, em Skype para Business Server Enterprise Voice.
+Criar ou modificar conjuntos de feriados do grupo de resposta no Skype for Business Server Enterprise Voice.
   
 As configurações de feriados definem os dias nos quais um grupo de respostas estará fechado para negócios e especificam a ação a ser tomada nesses dias. Um conjunto de feriados é a coleção de feriados que se aplicam a um grupo de respostas.
   
@@ -55,7 +55,7 @@ As configurações de feriados definem os dias nos quais um grupo de respostas e
 
 ## <a name="see-also"></a>Confira também
 
-[Projetando e criando fluxos de trabalho do grupo de resposta no Skype para negócios](designing-and-creating-response-group-workflows.md)
+[Projetando e criando fluxos de trabalho de grupo de resposta no Skype for Business](designing-and-creating-response-group-workflows.md)
 
 [New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 

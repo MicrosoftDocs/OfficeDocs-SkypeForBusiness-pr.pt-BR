@@ -1,5 +1,5 @@
 ---
-title: Redefinir a PIN em Skype audioconferência for Business Online
+title: Redefinir o PIN da conferência de áudio no Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,22 +12,22 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Descubra o que você deve saber sobre PINs e como redefini-las no Skype para negócios Online. '
-ms.openlocfilehash: 0b2c6ae7a26d23fbcb0f18da45886ba13853037f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Saiba o que você deve saber sobre PINs e como redefini-los no Skype for Business online. '
+ms.openlocfilehash: 11fafd6d79236fdddf3f73f384e9c339a5a775fc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906792"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299082"
 ---
-# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Redefinir a PIN em Skype audioconferência for Business Online
+# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Redefinir o PIN da conferência de áudio no Skype for Business Online
 
 > [!Note]
 > Para obter informações sobre a redefinição de PINs de Audioconferência no Microsoft Teams, consulte [Redefinir o PIN de Audioconferência no Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams).
@@ -40,11 +40,11 @@ Meetings can be started when an authenticated user joins using the Skype for Bus
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Office 365** > **Skype para os negócios**e no painel de navegação esquerdo, clique em **conferência de áudio**.
+2. Vá para o **Centro** > de administração do Office 365**Skype for Business**e, no painel de navegação esquerdo, clique em **conferência de áudio**.
     
-3. Clique em **usuários**, selecione o usuário que você deseja redefinir o PIN para.
+3. Clique em **usuários**, selecione o usuário para o qual você deseja redefinir o PIN.
     
-4. No painel de ações, em **PIN**, clique em **Redefinir**.
+4. No painel Ação, em **PIN**, clique em **Redefinir**.
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -65,7 +65,7 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
 - Quando uma reunião for iniciada, todos os usuários do lobby serão conectados automaticamente. Por exemplo, se dois participantes tentarem participar de uma reunião antes que ela seja iniciada, eles serão colocados no lobby e esperarão ouvindo música. Quando o organizador da reunião participar usando o PIN por telefone, a reunião será iniciada e os participantes do lobby entrarão na reunião.
     
-- A configuração padrão é não permitir uma reunião ser iniciado por chamadores anônimos.
+- A configuração padrão é não permitir que uma reunião seja iniciada por chamadores anônimos.
     
 - When you enable a user for audio conferencing, by default they are sent emails that include conferencing information and their PIN. The user must have an Office 365 mailbox, because when a PIN is reset, a new PIN will be sent to the user in email to their primary SMTP address (alias) that is set for the user.
     

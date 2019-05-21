@@ -1,41 +1,41 @@
 ---
-title: Tabela de conferências em Skype para Business Server 2015
+title: Tabela de conferências no Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 7/15/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
-description: Cada registro desta tabela contém detalhes de chamada sobre uma conferência.
-ms.openlocfilehash: 3d8382316d17dfc13cd0d9cd2e98e79b3461951c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Cada registro desta tabela contém detalhes da chamada sobre uma conferência.
+ms.openlocfilehash: 41a2a25e80b073b568152422defeee1ca3e2ac19
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901363"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296445"
 ---
-# <a name="conferences-table-in-skype-for-business-server-2015"></a>Tabela de conferências em Skype para Business Server 2015
+# <a name="conferences-table-in-skype-for-business-server-2015"></a>Tabela de conferências no Skype for Business Server 2015
  
-Cada registro desta tabela contém detalhes de chamada sobre uma conferência.
+Cada registro desta tabela contém detalhes da chamada sobre uma conferência.
   
 |**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Primária  <br/> |Hora em que a solicitação de conferência foi capturada pelo agente de CDR. Usado apenas como uma chave primária para identificar exclusivamente uma instância de conferência.  <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primária  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com **SessionIdTime** para identificar exclusivamente uma instância de conferência. * <br/> |
-|**ConferenceUriId** <br/> |int  <br/> |Externa  <br/> |URI da conferência. Consulte a [tabela ConferenceUris do Skype para Business Server 2015](conferenceuris.md) para obter mais informações. <br/> |
-|**ConfInstance** <br/> |Identificador exclusivo  <br/> | <br/> |Útil para conferências recorrentes; cada instância de uma conferência recorrente tem o mesmo **ConferenceUri**, mas terá um **ConfInstance**de diferente. <br/> |
+|**Id_da_sessãotime** <br/> |datetime  <br/> |Primária  <br/> |Hora em que a solicitação de conferência foi capturada pelo agente de CDR. Usado apenas como uma chave primária para identificar uma instância de conferência de forma exclusiva.  <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primária  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com **** a identificação_da_sessãotime para identificar exclusivamente uma instância de conferência. * <br/> |
+|**ConferenceUriId** <br/> |int  <br/> |Exterior  <br/> |URL da conferência. Consulte a [tabela ConferenceUris no Skype for Business Server 2015](conferenceuris.md) para obter mais informações. <br/> |
+|**ConfInstance** <br/> |identificador  <br/> | <br/> |Útil para conferências recorrentes; cada instância de uma conferência recorrente tem o mesmo **ConferenceUri**, mas terá um **ConfInstance**diferente. <br/> |
 |**ConferenceStartTime** <br/> |datetime  <br/> | <br/> |Hora de início da conferência.  <br/> |
 |**ConferenceEndTime** <br/> |datetime  <br/> | <br/> |Hora de início da conferência.  <br/> |
-|**PoolId** <br/> |int  <br/> |Externa  <br/> |Número de identificação para identificar o pool no qual a conferência foi capturada. Consulte a [tabela de Pools](pools.md) para obter mais informações. <br/> |
-|**OrganizerId** <br/> |Int  <br/> |Externa  <br/> |Número de identificação para identificar o organizador URI desta conferência. Consulte a [tabela de usuários](users.md) para obter mais informações. <br/> |
-|**Sinalizador** <br/> |smallint  <br/> || Uma máscara de bits que contém os atributos de conferência. Valores possíveis são: <br/>  0X01 <br/>  Sintética <br/>  Transação <br/> |
-|**Processadas** <br/> |bit  <br/> ||Campo interno usado pelo serviço de monitoramento.  <br/> Este campo foi introduzido no Microsoft Lync Server 2013.  <br/> |
-|**LastModifiedTime** <br/> |DateTime  <br/> ||Para uso interno pelo serviço de monitoramento.  <br/> Este campo foi introduzido no Skype para Business Server 2015.  <br/> |
+|**Poolid** <br/> |int  <br/> |Exterior  <br/> |Número de identificação para identificar o pool no qual a conferência foi capturada. Consulte a [tabela de grupos](pools.md) para obter mais informações. <br/> |
+|**OrganizerId** <br/> |Núm  <br/> |Exterior  <br/> |Número de identificação para identificar o URI do organizador dessa conferência. Para obter mais informações, consulte a [tabela usuários](users.md) . <br/> |
+|**Sinalizador** <br/> |smallint  <br/> || Uma máscara de bits que contém atributos de conferência. Os valores possíveis são: <br/>  0X01 <br/>  Sintética <br/>  Transação <br/> |
+|**Processe** <br/> |bit  <br/> ||Campo interno usado pelo serviço de monitoramento.  <br/> Este campo foi apresentado no Microsoft Lync Server 2013.  <br/> |
+|**LastModifiedtime** <br/> |DateTime  <br/> ||Para uso interno pelo serviço de monitoramento.  <br/> Este campo foi apresentado no Skype for Business Server 2015.  <br/> |
    
-\*Para a maioria das sessões, SessionIdSeq terá o valor de 1. Se duas sessões Iniciar em exatamente ao mesmo tempo, o SessionIdSeq para um será 1 e para o outro será 2 e assim por diante.
+\*Para a maioria das sessões, o SessionIdSeq terá o valor de 1. Se duas sessões começarem exatamente ao mesmo tempo, o SessionIdSeq de uma será 1 e, para a outra, será 2 e assim por diante.
   
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,29 +13,29 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
-description: 'Resumo: Revise as considerações de tipo de endereço IP abaixo antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 3fb4c1eabd766026bdf2455b214f7849afe879ba
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: revise as considerações de tipo de endereço IP abaixo antes de implementar o Skype for Business Server.'
+ms.openlocfilehash: 21e6254255766874872a342a2316dc8cddd5f9d2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33923774"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297047"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configure IP address types in Skype for Business
 
-**Resumo:** Revise as considerações de tipo de endereço IP abaixo antes de implementar Skype para Business Server.
+**Resumo:** Examine as considerações de tipo de endereço IP abaixo antes de implementar o Skype for Business Server.
 
-Você pode implantar tipos de endereço IP usando as configurações de topologia que você configurar no construtor de topologias. Esta seção descreve como implantar os tipos de endereço IP em servidores Front-End, servidores de mediação e servidores de borda.
+Implante tipos de endereços IP usando as configurações de topologia que você configura no construtor de topologias. Esta seção descreve como implantar tipos de endereço IP em servidores de front-end, servidores de mediação e servidores de borda.
 
 ## <a name="deploy-ip-address-types-on-a-front-end-server"></a>Implantar tipos de endereço IP em um Servidor Front-End Server
 
-Usando o construtor de topologias, execute as etapas no procedimento a seguir para implantar tipos de endereço IP em um servidor Front-End.
+Usando o construtor de topologias, execute as etapas do procedimento a seguir para implantar tipos de endereços IP em um servidor front-end.
 
 ### <a name="to-deploy-ip-address-types-on-a-front-end-server"></a>Implantar tipos de endereço IP em um Servidor Front-End
 
 1. Em **Pools de Front-Ends do Enterprise Edition**, clique com o botão direito em um servidor de um pool e selecione **Editar propriedades**. (Como alternativa, selecione o servidor e clique em **Editar propriedades** no menu **Ação**).
 
-2. Na caixa de diálogo **Editar propriedades**, selecione o tipo de endereço IP que você deseja configurar. Para uma configuração de pilha dupla, selecione **Habilitar IPv4** e **IPv6 habilitar**.
+2. Na caixa de diálogo **Editar propriedades**, selecione o tipo de endereço IP que você deseja configurar. Para uma configuração de pilha dupla, selecione **habilitar IPv4** e **habilitar IPv6**.
 
    **Editar a caixa de diálogo Propriedades do pool do servidor front-end**
 
@@ -51,15 +51,15 @@ Usando o construtor de topologias, execute as etapas no procedimento a seguir pa
    - **Endereço IP da PSTN**. Defina um endereço IP da PSTN quando um Servidor de mediação for colocado no Servidor Front-End. Este endereço deve ser compatível com o formato do tipo de endereço selecionado.
 
 > [!NOTE]
-> A instalação de placas de interface de rede adicionais (NICs) para suportar a configuração de endereço IP PSTN (ou por qualquer outro motivo) nos servidores Front-End não é suportada. Para obter mais informações sobre configurações de NIC com suporte para Skype para Business Server, consulte [Server hardware platforms do Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+> A instalação de placas de interface de rede adicionais (NICs) para dar suporte à configuração de endereço IP PSTN (ou por qualquer outro motivo) não é compatível com os servidores front-end. Para obter mais informações sobre as configurações da NIC com suporte para o Skype for Business Server, consulte [plataformas de hardware do servidor para o Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>Implantar tipos de endereço IP no Servidor de Mediação
 
-Usando o construtor de topologias, execute as etapas no procedimento a seguir para implantar tipos de endereço IP em um servidor de mediação.
+Usando o construtor de topologias, execute as etapas do procedimento a seguir para implantar tipos de endereços IP em um servidor de mediação.
 
 ### <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>Para implantar os tipos de endereço IP em um Servidor de Mediação
 
-- No construtor de topologia, em **pools de mediação**, o servidor de um pool do mouse em e selecione **Editar propriedades**. (Como alternativa, selecione o servidor e clique em **Editar Propriedades** no menu **Ação**.)
+- No construtor de topologias ****, em pools de mediação, clique com o botão direito do mouse no servidor dentro de um pool e selecione **Editar propriedades**. (Como alternativa, selecione o servidor e clique em **Editar Propriedades** no menu **Ação**.)
 
 - Na caixa de diálogo **Editar propriedades**, selecione o tipo de endereço IP que você deseja configurar. Para uma configuração de pilha dual, selecione **Habilitar IPv4** e **Habilitar IPv6**, como mostrado na seguinte imagem.
 
@@ -76,11 +76,11 @@ Usando o construtor de topologias, execute as etapas no procedimento a seguir pa
 
   - **Endereço IP da PSTN**. Defina um endereço IP da PSTN quando um Servidor de mediação for colocado no Servidor Front-End. Este endereço deve ser compatível com o formato do tipo de endereço selecionado.
 > [!IMPORTANT]
-> Só há suporte para duas placas de rede em *dedicado* servidores de mediação. Se a função Sservidor de mediação é colocada no Front-End, placas de rede dual não são suportadas. 
+> Só damos suporte a dois cartões de rede em servidores *dedicados* de mediação. Se a função de sServer de mediação estiver posicionada no front-end, os dois cartões de rede não são compatíveis. 
 
 > [!NOTE]
-> - Para obter mais informações sobre configurações de NIC com suporte para Skype para Business Server 2015, consulte [Hardware para Skype para Business Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
-> - Para obter mais informações sobre configurações de NIC com suporte para Skype para Business Server 2019, consulte [Hardware para Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
+> - Para obter mais informações sobre as configurações de NIC compatíveis com o Skype for Business Server 2015, consulte [hardware para o Skype for Business server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
+> - Para obter mais informações sobre as configurações de NIC compatíveis com o Skype for Business Server 2019, consulte [hardware para o Skype for Business server 2019](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
 
 
 
@@ -90,7 +90,7 @@ Usando o construtor de topologias, execute as seguintes etapas:
 
 ### <a name="to-deploy-ip-address-types-on-an-edge-server"></a>Para implantar tipos de endereço IP em um servidor de borda
 
-1. No construtor de topologia, em **pools de borda**, o servidor de um pool do mouse em e selecione **Editar propriedades**. (Como alternativa, selecione o servidor e clique em **Editar Propriedades** no menu **Ação**.)
+1. Em Construtor de topologia, em **conjuntos de bordas**, clique com o botão direito do mouse no servidor dentro de um pool e selecione **Editar propriedades**. (Como alternativa, selecione o servidor e clique em **Editar Propriedades** no menu **Ação**.)
 
 2. Na janela **Editar Propriedades**, selecione a configuração de endereço IP para a qual deseja oferecer suporte.
 

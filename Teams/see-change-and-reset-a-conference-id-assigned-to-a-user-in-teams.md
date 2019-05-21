@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como atribuir um ID de conferência a um usuário no Microsoft Teams e quais devem ser os parâmetros do ID de conferência. '
-ms.openlocfilehash: 6d1db1836ef5681416907936a7fab8db0d5ffb7a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4e354f3f7c9f8b286647fc64b5c910b268c2a316
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205046"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305354"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Visualizar e redefinir um ID de conferência atribuído a um usuário no Microsoft Teams
 
@@ -42,7 +42,7 @@ Um e-mail será enviado ao usuário com a ID da conferência e os números de te
 
 ### <a name="to-view-the-conference-id"></a>Para visualizar o ID de conferência
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
 1. No painel de navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
 
@@ -62,7 +62,7 @@ Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.co
 
 É possível redefinir o ID de conferência para um usuário se ele esquecer o ID, por exemplo.
   
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
 1. No painel de navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
 

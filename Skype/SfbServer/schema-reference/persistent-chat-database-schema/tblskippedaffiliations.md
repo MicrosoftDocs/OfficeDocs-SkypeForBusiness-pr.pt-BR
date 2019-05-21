@@ -5,36 +5,36 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
-description: Skippedaffiliations inclui as afiliações que não podiam ser lidas (geralmente devido a erros de acesso do Active Directory Domain Services).
-ms.openlocfilehash: 85fe836e75409a0a6aae22583358f9f88dc8d4e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblSkippedAffiliations contém as afiliações que não puderam ser lidas (geralmente devido a erros de acesso aos serviços de domínio Active Directory).
+ms.openlocfilehash: 481bf92a4014bf2af8e1c4794d1793f2c93e7c36
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924938"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295150"
 ---
 # <a name="tblskippedaffiliations"></a>tblSkippedAffiliations
  
-Skippedaffiliations inclui as afiliações que não podiam ser lidas (geralmente devido a erros de acesso do Active Directory Domain Services).
+tblSkippedAffiliations contém as afiliações que não puderam ser lidas (geralmente devido a erros de acesso aos serviços de domínio Active Directory).
   
 **Colunas**
 
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int, não nulo  <br/> |ID principal.  <br/> |
-|affDescription  <br/> |nvarchar (256), não nulo  <br/> |Uma cadeia de caracteres identificando a afiliação.  <br/> O formato é: guid: _{0}_ uri: _{1}_ gt _ id:_{2}_ <br/> |
-|updatedBy  <br/> |int, não nulo  <br/> |ID da entidade que atualizou esta linha. Sempre é 1 (usuário do sistema) porque a sincronização do Active Directory é a única fonte para essas entradas.  <br/> |
+|multiimprimir  <br/> |int, não nulo  <br/> |ID da entidade de segurança.  <br/> |
+|affDescription  <br/> |nvarchar (256), NOT NULL  <br/> |Uma cadeia de caracteres que identifica a afiliação.  <br/> O formato é: GUID: _{0}_ URI: _{1}_> ID:_{2}_ <br/> |
+|updatedBy  <br/> |int, não nulo  <br/> |ID da entidade de segurança que atualizou esta linha. É sempre 1 (usuário do sistema) porque a sincronização do Active Directory é a única fonte dessas entradas.  <br/> |
    
-**Chaves**
+**As**
 
 |**Coluna (s)**|**Descrição**|
 |:-----|:-----|
-|\<prinID, affDescription\>  <br/> |Chave primária.  <br/> |
-|prinID  <br/> |Chave estrangeira com pesquisa na tabela Tblprincipal.  <br/> |
+|\<affDescription\>  <br/> |Chave primária.  <br/> |
+|multiimprimir  <br/> |Chave estrangeira com Lookup na tabela tblPrincipal. retoid.  <br/> |
    
 

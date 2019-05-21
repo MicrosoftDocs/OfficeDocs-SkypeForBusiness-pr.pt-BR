@@ -4,34 +4,34 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: End User
+audience: End User
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Quando um usuário clica em um link da reunião em uma solicitação de reunião, a reunião página de ingresso detecta qual cliente já estiver instalado no computador do usuário. Se um cliente já estiver instalado, o que o cliente abre e participa da reunião. Se um cliente não estiver instalado, por padrão, que o aplicativo Web é aberta.
-ms.openlocfilehash: 88ae915318505efef6ae716a17217aaa1e7b12df
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Quando um usuário clica em um link de reunião em uma solicitação de reunião, a página ingressar na reunião detecta qual cliente já está instalado no computador do usuário. Se um cliente já estiver instalado, esse cliente abrirá e ingressará na reunião. Se um cliente não estiver instalado, por padrão o aplicativo Web será aberto.
+ms.openlocfilehash: c5f6cd5b1d04b54f8db9f82080bc8dbabefdc11e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238713"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298274"
 ---
 # <a name="configure-the-meeting-join-page"></a>Configurar a página de ingresso na reunião
 
-Quando um usuário clica em um link da reunião em uma solicitação de reunião, a reunião página de ingresso detecta qual cliente já estiver instalado no computador do usuário. Se um cliente já estiver instalado, o que o cliente abre e participa da reunião. Se um cliente não estiver instalado, por padrão, que o aplicativo Web é aberta.
+Quando um usuário clica em um link de reunião em uma solicitação de reunião, a página ingressar na reunião detecta qual cliente já está instalado no computador do usuário. Se um cliente já estiver instalado, esse cliente abrirá e ingressará na reunião. Se um cliente não estiver instalado, por padrão o aplicativo Web será aberto.
   
-Você pode modificar o comportamento de participação da reunião se você quiser permitir que os usuários ingressem em reuniões de página. Essas opções de configuração foram removidas do painel de controle, mas você pode configurá-los usando o cmdlet CsWebServiceConfiguration.
+Você pode modificar o comportamento da página de associação de reunião se desejar permitir que os usuários ingressem em reuniões. Essas opções de configuração foram removidas do painel de controle, mas você as configura usando o cmdlet CsWebServiceConfiguration.
   
-**Parâmetros de CsWebServiceConfiguration da página de participação de reunião**
+**Parâmetros de CsWebServiceConfiguration da página de ingresso na reunião**
 
 |**Parâmetro CsWebServiceConfiguration**|**Descrição**|
 |:-----|:-----|
-|ShowJoinUsingLegacyClientLink  <br/> |Se definido como True, usuários participando de uma reunião usando um aplicativo cliente diferente do Lync receberá a oportunidade de ingressar na reunião. O valor padrão é False.  <br/> |
-|ShowAlternateJoinOptionsExpanded  <br/> |Quando definido como True, alternados opções para ingressar em uma conferência online será automaticamente expandida e exibido aos usuários. Quando definido como False (o valor padrão), essas opções estarão disponíveis, mas o usuário terá que exibir a lista de opções para si próprios.  <br/> |
+|ShowJoinUsingLegacyClientLink  <br/> |Se definido como verdadeiro, os usuários que ingressam em uma reunião usando um aplicativo cliente que não seja o Lync terão a oportunidade de ingressar na reunião. O valor padrão é False.  <br/> |
+|ShowAlternateJoinOptionsExpanded  <br/> |Quando definida como true, as opções alternativas para ingressar em uma conferência online serão expandidas automaticamente e exibidas para os usuários. Quando definido como falso (o valor padrão), essas opções estarão disponíveis, mas o usuário precisará exibir a lista de opções para si mesmo.  <br/> |
    
-### <a name="to-configure-the-meeting-join-page-by-using-skype-for-business-server-2019-management-shell"></a>Para configurar a reunião página de ingresso usando Skype do Shell de gerenciamento do Business Server 2019
+### <a name="to-configure-the-meeting-join-page-by-using-skype-for-business-server-2019-management-shell"></a>Para configurar a página ingressar na reunião usando o Shell de gerenciamento do Skype for Business Server 2019
 
-1. Inicie o Skype do Shell de gerenciamento do Business Server 2019: clique em **Iniciar**, clique em **Todos os programas**, clique em **Microsoft Skype para Business Server 2019**e, em seguida, clique em **Skype do Shell de gerenciamento do servidor de negócios**.
+1. Inicie o Shell de gerenciamento do Skype for Business Server 2019: clique em **Iniciar**, em **todos os programas**, em **Microsoft Skype for Business Server 2019**e, em seguida, clique em **Shell de gerenciamento do Skype for Business Server**.
     
 2. Execute o seguinte cmdlet: 
     
@@ -39,9 +39,9 @@ Você pode modificar o comportamento de participação da reunião se você quis
    Get-CsWebServiceConfiguration
    ```
 
-    Este cmdlet retorna as definições de configuração de serviço de web.
+    Esse cmdlet retorna as configurações de serviço Web.
     
-3. Execute o seguinte comando, com os parâmetros definidos para verdadeiro ou falso, dependendo da sua preferência (para obter detalhes sobre os parâmetros deste cmdlet, consulte a documentação do [Skype do Shell de gerenciamento do servidor de negócios](../../SfbServer/manage/management-shell.md) ):
+3. Execute o seguinte comando, com os parâmetros definidos como verdadeiro ou falso, dependendo da sua preferência (para obter detalhes sobre os parâmetros para esse cmdlet, consulte a documentação do [Shell de gerenciamento do Skype for Business Server](../../SfbServer/manage/management-shell.md) ):
     
    ```
    Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True

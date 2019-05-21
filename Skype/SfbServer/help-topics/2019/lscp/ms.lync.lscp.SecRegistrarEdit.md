@@ -1,10 +1,10 @@
 ---
-title: Configurações de segurança do registrador criar novo ou editar existente
+title: Registrar configurações de segurança criar novo ou editar existente
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.SecRegistrarEdit
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 53b3330b858f8de8a6fffc7269f31826627b4633
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8c47d1085ffe1d9605f8582b2090251f97674e6b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891002"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293810"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>Definições de Segurança de Registrador: Criar Novas ou Editar Existentes
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 
-- [Gerenciar definições de configuração de registrador no Skype para Business Server](../../../manage/authentication/registrar-configuration-settings.md)
+- [Gerenciar definições de configuração do registrador no Skype for Business Server](../../../manage/authentication/registrar-configuration-settings.md)
 
 - [Modificar um registrador existente](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
 

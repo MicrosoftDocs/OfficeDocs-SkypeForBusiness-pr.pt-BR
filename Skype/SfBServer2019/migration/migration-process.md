@@ -4,27 +4,27 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: O procedimento de migração com suporte e recomendados para Skype para Business Server 2019 é migração lado a lado. Este tópico descreve por que você deve usar a migração lado a lado e também inclui informações sobre teste de coexistência.
-ms.openlocfilehash: e14226721cbc09bd1f0ac66b47dbd1710712eb17
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: O procedimento de migração recomendado e compatível com o Skype for Business Server 2019 é migração lado a lado. Este tópico descreve porque você deve usar a migração lado a lado e também inclui informações sobre testes de coexistência.
+ms.openlocfilehash: 179ad56dcf4c31abe8b94fb7131dd27dc68bfd96
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231613"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298152"
 ---
 # <a name="migration-process"></a>Processo de migração
 
-O procedimento de migração com suporte e recomendados para Skype para Business Server 2019 é migração lado a lado. Este tópico descreve por que você deve usar a migração lado a lado e também inclui informações sobre teste de coexistência.
+O procedimento de migração recomendado e compatível com o Skype for Business Server 2019 é migração lado a lado. Este tópico descreve porque você deve usar a migração lado a lado e também inclui informações sobre testes de coexistência.
   
 ## <a name="side-by-side-migration"></a>Migração lado a lado
 
-Em quase todas as migração, você deve usar o caminho de migração lado a lado. Em uma migração lado a lado, você implantar um novo servidor com Skype para Business Server 2019 junto com um servidor correspondente que está executando uma versão anterior e depois transferir operações para o novo servidor. Se for necessário reverter para a versão anterior, você precisará apenas deslocar as operações de volta para os servidores originais. Lembre-se de que essa situação quaisquer novas reuniões agendadas com clientes atualizados não funcionará, e os clientes também precisam ser reduzido.
+Em quase todas as migrações, você deve usar o caminho de migração lado a lado. Em uma migração lado a lado, implante um novo servidor com o Skype for Business Server 2019 juntamente com um servidor correspondente que esteja executando uma versão anterior e transfira as operações para o novo servidor. Se for necessário reverter para a versão anterior, você só terá que mudar as operações de volta para os servidores originais. Lembre-se de que, nesta situação, todas as novas reuniões agendadas com clientes atualizados não funcionarão, e os clientes também precisariam ser rebaixados.
   
 ## <a name="coexistence-testing"></a>Teste de coexistência
 
-Depois que você tiver implantado o Skype para Business Server 2019 em paralelo com a versão anterior, a implantação representa uma coexistência testando o estado do Skype para Business Server 2019 e a versão anterior. Enquanto estiver nesse estado, é importante testar e certifique-se de que os serviços foram iniciados, cada site pode ser administrado e clientes podem se comunicar com usuários herdados e atuais. Antes da migração de todos os usuários, é muito importante que você entenda o estado de cada implantação e certifique-se de que cada implantação está funcionando corretamente. Normalmente, a fase de teste de coexistência existe em todo o teste piloto do Skype para Business Server 2019. Usuários herdados são movidos para Skype para Business Server 2019 por um período de tempo para assegurar que compatibilidade de aplicativos e recursos e funções estão funcionando corretamente. Após os testes piloto, usuários e aplicativos são movidos para a versão de produção do Skype para Business Server 2019 e os pools herdados e aplicativos da versão anterior são descartados.
+Após a implantação do Skype for Business Server 2019 paralelamente à versão anterior, a implantação representa um estado de teste de coexistência do Skype for Business Server 2019 e a versão anterior. Nesse estado, é importante testar e garantir que os serviços sejam iniciados, que cada site pode ser administrado, e os clientes podem se comunicar com os usuários atuais e herdados. Antes da migração de todos os usuários, é muito importante que você compreenda o estado de cada implantação e certifique-se de que cada implantação está funcional e funcionando corretamente. Geralmente, a fase de teste de coexistência existe durante o teste piloto do Skype for Business Server 2019. Os usuários herdados são movidos para o Skype for Business Server 2019 por um período de tempo para garantir que a compatibilidade e os recursos e funções do aplicativo estejam funcionando corretamente. Após o teste piloto, os usuários e os aplicativos são movidos para a versão de produção do Skype for Business Server 2019, e os pools herdados e os aplicativos da versão anterior são desativados.
   

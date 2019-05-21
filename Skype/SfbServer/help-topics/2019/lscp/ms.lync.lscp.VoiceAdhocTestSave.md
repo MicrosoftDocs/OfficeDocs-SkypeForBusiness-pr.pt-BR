@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceAdhocTestSave
@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
-description: Você pode usar a caixa de diálogo Salvar informações roteamento de voz caso de teste para salvar um caso de teste de roteamento de voz temporário. Em Salvar informações roteamento de voz caso de teste, digite o nome que você deseja conceder a este caso de teste em nome e, em seguida, clique em Okey.
-ms.openlocfilehash: 9cc5ee41c16004c6667a7e3ff999a8108b2a7610
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Você pode usar a caixa de diálogo Salvar informações do caso de teste de roteamento de voz para salvar um caso de teste de roteamento de voz temporário. Em salvar informações do caso de teste de roteamento de voz, digite o nome que você deseja dar a este caso de teste no nome e clique em OK.
+ms.openlocfilehash: c41b1369c623c73547ec14dd9fec511a7d0c6e2e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890771"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293659"
 ---
 # <a name="save-voice-routing-test-case-information"></a>Salvar Informações de Caso de Teste de Roteamento de Voz
  
-Você pode usar a caixa de diálogo **Salvar informações roteamento de voz caso de teste** para salvar o caso de teste de roteamento de voz atemporary. Em **Salvar informações roteamento de voz caso de teste**, digite o nome que você deseja conceder a este caso de teste em **nome** e, em seguida, clique em **Okey**. 
+Você pode usar a caixa de diálogo **salvar informações do caso de teste de roteamento de voz** para salvar atemporary casos de teste de roteamento de voz. Em **salvar informações do caso de teste de roteamento de voz**, digite o nome que você deseja dar a este caso de teste no **nome** e clique em **OK**. 
   
 > [!NOTE]
-> Quando você salva um caso de teste temporário, você não está salvando-lo para o repositório de gerenciamento Central. Em vez disso, ele disponibiliza o caso de teste a partir da guia **Testar roteamento de voz** da página **Roteamento de voz** . O caso de teste será exibida com um estado **Uncommitted**. Para salvar o caso de teste para o repositório de gerenciamento Central, você deve confirmar a configuração de voz clicando em **Confirmar tudo** do menu qualquer **ação** dentro da página de **Roteamento de voz** .
+> Quando você salva um caso de teste temporário, não o está salvando no repositório de gerenciamento central. Em vez disso, ele torna o caso de teste disponível na guia **Roteamento de voz de teste** da página de roteamento de **voz** . O caso de teste será exibido com um estado de não **confirmado**. Para salvar o caso de teste no repositório de gerenciamento central, você deve confirmar a configuração de voz clicando em **confirmar tudo** em qualquer menu de **ação** na página de **Roteamento de voz** .
   
  
   

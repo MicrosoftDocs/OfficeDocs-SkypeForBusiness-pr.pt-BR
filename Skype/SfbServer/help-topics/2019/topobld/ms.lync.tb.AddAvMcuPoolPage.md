@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddAvMcuPoolPage
@@ -12,22 +12,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
-description: Todos os servidores Enterprise Edition Front End de um site central que não têm um colocado uma / serviço V Conferencing pode usar a mesma stand-alone A / pool de conferência V. Para cada pool de conferência V, você deve especificar um nome de domínio totalmente qualificado (FQDN) para o pool e se ele terá somente um único a / V Conferencing Server ou múltiplo, com balanceamento de carga A / V Conferencing Servers.
-ms.openlocfilehash: dd2dd53ae2d3b66da88d39567b4d20e0960633e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Todos os servidores front-end Enterprise Edition de um site central que não tenham um serviço de conferência A/V posicionado podem usar o mesmo pool autônomo de conferência A/V. Para cada pool de conferência A/V, você deve especificar um FQDN (nome de domínio totalmente qualificado) para o pool e se ele terá apenas um único servidor de conferência A/V ou servidores de conferência A/V com carga balanceada.
+ms.openlocfilehash: dfd1fd056e015ed4d6ed1344384efa485e65f318
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889315"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304053"
 ---
 # <a name="add-av-mcu-pool"></a>Adicionar Pool A/V MCU
  
-Todos os servidores Enterprise Edition Front End de um site central que não têm um colocado uma / serviço V Conferencing pode usar a mesma stand-alone A / pool de conferência V. Para cada pool de conferência V, você deve especificar um nome de domínio totalmente qualificado (FQDN) para o pool e se ele terá somente um único a / V Conferencing Server ou múltiplo, com balanceamento de carga A / V Conferencing Servers.
+Todos os servidores front-end Enterprise Edition de um site central que não tenham um serviço de conferência A/V posicionado podem usar o mesmo pool autônomo de conferência A/V. Para cada pool de conferência A/V, você deve especificar um FQDN (nome de domínio totalmente qualificado) para o pool e se ele terá apenas um único servidor de conferência A/V ou servidores de conferência A/V com carga balanceada.
   
 > [!IMPORTANT]
-> Você não pode converter um pool de servidor único em um pool de vários servidores. Se posteriormente você decidir que sua organização precisa de um pool de vários servidores, você deve excluir o pool de servidor único e, em seguida, adicione o pool de vários servidores. 
+> Não é possível converter um pool de servidor único em um pool de vários servidores. Se, posteriormente, você decidir que a sua organização precisa de um pool de vários servidores, você deve excluir o pool de servidor único e, em seguida, adicionar o pool de vários servidores. 
   
 > [!TIP]
-> Se você pretende implementar um A / pool de conferência V no futuro, selecione **pool de vários computadores**. Embora um pool seja definido como dois ou mais computadores com carga balanceada, é possível criar um único pool de computadores e criar um FQDN de pool para o computador único. Quando você estiver pronto para adicionar mais computadores ao pool posteriormente, você deve construtor de topologia novamente para definir o novo membro do pool, publicar a nova topologia e em seguida, configure a novo A / V Conferencing pool membro por meio do Skype para o Assistente de implantação de servidor de negócios. Uma / pools V Conferencing Server são os únicos que eles não precisam balanceadores de carga para criar um pool. Uma / pools de conferência V internamente o balanceamento de carga e não é necessário hardware adicional. 
+> Se você pretende implementar um pool de conferência A/V no futuro, selecione **vários pools de computadores**. Embora um pool seja definido como dois ou mais computadores com carga balanceada, é possível criar um único pool de computadores e criar um FQDN de pool para o computador único. Quando estiver pronto para adicionar mais computadores ao pool mais tarde, você deve ter o construtor de topologia novamente para definir o novo membro do pool, publicar a nova topologia e, em seguida, configurar o novo membro do pool de conferência a/V por meio do assistente de implantação do Skype for Business Server. Os pools do servidor de conferência A/V são exclusivos porque não precisam de balanceadores de carga para criar um pool. O balanceamento de carga de pools de conferência A/V internamente e não precisa de hardware adicional. 
   
 

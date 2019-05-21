@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Suécia.
-ms.openlocfilehash: 8b9270c8fe95f87143f40c22d0ce0bdc54ab780c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Suécia.
+ms.openlocfilehash: c2e6bff9b4fa673c9a4f0a4551779880e2ba96a8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221967"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299540"
 ---
 # <a name="availability-in-sweden"></a>Disponibilidade na Suécia
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Suécia.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Suécia.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 

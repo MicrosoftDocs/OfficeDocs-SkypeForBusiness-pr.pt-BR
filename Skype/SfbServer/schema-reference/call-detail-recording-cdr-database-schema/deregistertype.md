@@ -1,30 +1,30 @@
 ---
-title: Tabela DeRegisterType Skype para Business Server 2015
+title: Tabela canregistertype no Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09148118-6209-4fd7-a494-99118689a245
-description: A tabela DeRegisterType é uma tabela estática que armazena a lista de possível usuário registra desprovisionamento tipos, como "cliente iniciado", "registro vencido" ou 'cliente parado de responder.'
-ms.openlocfilehash: 958de5dd537f391ca75936ad86a84cb6fed0778d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: A tabela canregistertype é uma tabela estática que armazena a lista de possíveis tipos de registros de usuário possíveis, como ' cliente iniciado ', ' registro expirado ' ou ' cliente parou de responder '.
+ms.openlocfilehash: 794f8f98ffe20cd69b63fd2084fee38ed055d40f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901170"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296347"
 ---
-# <a name="deregistertype-table-in-skype-for-business-server-2015"></a>Tabela DeRegisterType Skype para Business Server 2015
+# <a name="deregistertype-table-in-skype-for-business-server-2015"></a>Tabela canregistertype no Skype for Business Server 2015
  
-A tabela DeRegisterType é uma tabela estática que armazena a lista de possível usuário registra desprovisionamento tipos, como "cliente iniciado", "registro vencido" ou 'cliente parado de responder.'
+A tabela canregistertype é uma tabela estática que armazena a lista de possíveis tipos de registros de usuário possíveis, como ' cliente iniciado ', ' registro expirado ' ou ' cliente parou de responder '.
   
 |**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**DeRegisterTypeId** <br/> |tinyint  <br/> |Primária  <br/> ||
-|**DeRegisterReason** <br/> |nvarchar(256)  <br/> || Valores permitidos: <br/>  0--desconhecido <br/>  1-- cliente iniciado o cancelamento do registro <br/>  2-- registro expirado <br/>  3 - cliente paralisado <br/>  4 atributos do usuário mudaram <br/>  5 - registrador preferido mudou <br/>  6-- Cliente de herdado em modo de sobrevivência <br/> |
+|**DeRegisterReason** <br/> |nvarchar(256)  <br/> || Valores permitidos: <br/>  0--desconhecido <br/>  1--cliente iniciou o registro <br/>  2--registro expirado <br/>  3-cliente travado <br/>  4--atributos de usuário alterados <br/>  5-registrador preferencial alterado <br/>  6 – cliente herdado no modo de sobrevivência <br/> |
    
 

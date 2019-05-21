@@ -5,29 +5,29 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
-description: tblEnumAttribute é uma tabela embutida em código que contém os atributos de visibilidade e comportamento usados na tabela Node.
-ms.openlocfilehash: b81e8ae09561220df381290eed212ef752820edd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblEnumAttribute é uma tabela codificada que contém os atributos de visibilidade e comportamento usados na tabela de nós.
+ms.openlocfilehash: b326ebe98592daccf7560dc90e299f31c158cd5c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929949"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295416"
 ---
 # <a name="tblenumattribute"></a>tblEnumAttribute
  
-tblEnumAttribute é uma tabela embutida em código que contém os atributos de visibilidade e comportamento usados na tabela Node.
+tblEnumAttribute é uma tabela codificada que contém os atributos de visibilidade e comportamento usados na tabela de nós.
   
 **Colunas**
 
 |**Coluna**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|
 |attributeID  <br/> |smallint, não nulo  <br/> |ID do atributo.  <br/> |
-|attributeName  <br/> |nvarchar (256), não nulo  <br/> |Nome do atributo.  <br/> |
+|attributeName  <br/> |nvarchar (256), NOT NULL  <br/> |Nome do atributo.  <br/> |
    
 **Chave**
 
@@ -40,7 +40,7 @@ tblEnumAttribute é uma tabela embutida em código que contém os atributos de v
 |**attributeID**|**attributeName**|
 |:-----|:-----|
 |1  <br/> |Visibilidade.  <br/> |
-|2  <br/> |Comportamento.  <br/> |
+|2  <br/> |Funcionamento.  <br/> |
    
 ## <a name="see-also"></a>Confira também
 

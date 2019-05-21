@@ -1,5 +1,5 @@
 ---
-title: 'Fim do programa de vida para a integração do Skype for Business com provedores de serviços de audioconferência de terceiros '
+title: 'Programa de fim de vida útil para a integração do Skype for Business com provedores de serviços de audioconferência de terceiros '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
@@ -18,112 +18,112 @@ f1keywords: None
 ms.custom:
 - Legal
 hideEdit: true
-description: Em 1 de abril de 2020, concluímos final do programa de vida para a integração do Skype for Business com provedores de serviços de audioconferência de terceiros (3º ACP de terceiros).
-ms.openlocfilehash: 4846875a8fb288683e896454a33e9213eec3a2ac
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Em 1º de abril de 2020, o programa de finalização da vida útil será concluído para a integração do Skype for Business com provedores de serviços de audioconferência de terceiros (ACP de terceiros).
+ms.openlocfilehash: db2480c5b21c719ab9eed66e4d99f7cee077278e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223859"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304163"
 ---
-# <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Fim do programa de vida para a integração do Skype for Business com provedores de serviços de audioconferência de terceiros 
+# <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programa de fim de vida útil para a integração do Skype for Business com provedores de serviços de audioconferência de terceiros 
 
-Microsoft anuncia o início do fim do programa de vida para a integração do Skype for Business com provedores de serviços de audioconferência de terceiros (ACPs). 
+A Microsoft anunciou o início do programa de fim de vida útil para a integração do Skype for Business com provedores de serviços de audioconferência (ACPs) de terceiros. 
 
-Final do programa de vida concluímos em 1º de abril de 2020. Quando o programa é concluído, a integração do Skype for Business com provedores de serviços de audioconferência de terceiros irá parar de funcionar e serão observadas as seguintes alterações nessa data (1º de abril de 2020): 
+O programa de fim de vida útil terminará em 1º de abril de 2020. Quando o programa for concluído, a integração do Skype for Business com provedores de audioconferência de terceiros deixará de funcionar, e as seguintes alterações serão observadas na data (1º de abril de 2020): 
 
-- Participantes que tentarem ingressar em qualquer Skype para reunião de negócios por meio de números de discagem fornecida por um ACP de terceiros serviço não são mais se conectarão para o Skype para reunião de negócios.
+- Os participantes que tentarem participar de qualquer reunião do Skype for Business por meio de números de discagem fornecidos por um serviço ACP de terceiros não serão mais conectados à reunião do Skype for Business.
  
-- Os usuários habilitados para um serviço de ACP de terceiros não terá mais suas informações de discagem incluídas automaticamente em qualquer novo Skype para reunião de negócios convida. 
+- Os usuários habilitados para um serviço ACP de terceiros não terão mais suas informações de discagem incluídas automaticamente em todos os novos convites de reunião do Skype for Business. 
 
-Como parte do comunicado do início do final do programa de vida, a seguinte alteração entraram em vigor e continuarão a ser feitas até a conclusão do fim do programa de vida: 
+Como parte do anúncio do início do programa de finalização da vida útil, as seguintes alterações entraram em vigor e continuarão ocorrendo até a conclusão do programa de fim de vida útil: 
 
-- Clientes com nenhum Skype para usuários comerciais configurados para usar um serviço de ACP de terceiros não poderão configurar todos os usuários para usar um serviço de ACP de terceiros. 
+- Os clientes sem usuários do Skype for Business configurados para usar um serviço ACP de terceiros não poderão configurar nenhum usuário para usar um serviço ACP terceirizado. 
 
-- Os clientes existentes com Skype para usuários comerciais configurados para usar um serviço de ACP de terceiros continuará poder adicionar novos usuários para a duração do fim do período de vida. Observe que não é recomendável configurar Skype adicional para os usuários corporativos usem um serviço de ACP de terceiros, como as alterações que entram em vigor em 1º de abril de 2020 também serão aplicadas a eles. 
+- Os clientes existentes com usuários do Skype for Business configurados para usar um serviço ACP de terceiros continuarão a ser capazes de adicionar novos usuários durante a duração do período de fim da vida útil. Observe que não recomendamos configurar outros usuários do Skype for Business para usar um serviço ACP de terceiros, pois as alterações que entrarão em vigor em 1º de abril de 2020 também se aplicarão a eles. 
 
-## <a name="preparing-for-this-change"></a>Preparando para que essa alteração
+## <a name="preparing-for-this-change"></a>Preparando-se para essa alteração
 
-Para preparar para essa alteração, recomendamos que as organizações afetadas para notificar seus usuários habilitados desta atualização planejada antes de 1º de abril de 2020. 
+Para se preparar para esta mudança, incentivamos as organizações afetadas a notificar os usuários habilitados desta atualização planejada antes de 1º de abril de 2020. 
 
-Após 1º de abril de 2020, os usuários possam continuar usar Skype para negócios sem interrupção para suas reuniões online; No entanto, as organizações precisam habilitar seus usuários para conferência de áudio fornecidos pela Microsoft, se precisar de áudio discada com Skype para negócios ou Teams da Microsoft. Para saber mais sobre a conferência de áudio da Microsoft, consulte [Conferência de áudio](https://products.office.com/en-us/skype-for-business/audio-conferencing). 
+Após 1º de abril de 2020, os usuários podem continuar a usar o Skype for Business sem nenhuma interrupção nas reuniões online; no entanto, as organizações precisarão habilitar seus usuários para conferências de áudio fornecidas pela Microsoft se exigirem videoconferências discadas com o Skype for Business ou o Microsoft Teams. Para saber mais sobre a conferência de áudio da Microsoft, confira [áudio audioconferência](https://products.office.com/en-us/skype-for-business/audio-conferencing). 
 
 Dependendo do estado final desejado de uma organização, há três caminhos que podem ser seguidos:
 
-- Migre para conferência de áudio da Microsoft. 
-- Continue separadamente usando um provedor de serviços de audioconferência de terceiros. 
-- Pare de usar a conferência discada todo.
+- Migrar para a conferência de áudio da Microsoft. 
+- Continuar a usar separadamente um provedor de serviços de audioconferência de terceiros. 
+- Pare de usar a conferência discada totalmente.
 
-### <a name="path-1-migrate-to-microsoft-audio-conferencing"></a>Caminho #1: Migrar para conferência de áudio da Microsoft   
+### <a name="path-1-migrate-to-microsoft-audio-conferencing"></a>Caminho #1: migrar para a conferência de áudio da Microsoft   
 
-As organizações que decidir migrar para conferência de áudio da Microsoft e concluir sua migração antes de 1º de abril de 2020, não terão qualquer impacto no serviço durante ou após essa data. A migração para conferência de áudio da Microsoft apresenta as seguintes alterações a uma organização: 
+As organizações que decidem migrar para a conferência de áudio da Microsoft e concluir a migração antes de 1º de abril de 2020 não experimentarão nenhum impacto no serviço durante ou após essa data. A migração para a conferência de áudio da Microsoft apresentará as seguintes alterações em uma organização: 
 
 - O serviço será cobrado com todos os outros serviços do Office 365. 
 
-- Se a assinatura padrão tiver sido adquirida, tarifas discada custo será incluído na assinatura mensal por usuário custo. 
+- Se a assinatura padrão for comprada, o custo de discagem em tarifas será incluído no custo de assinatura mensal por usuário. 
 
-- Um novo conjunto de números de telefone de discagem será fornecido aos seus usuários e de cada organização. Para ver a cobertura geográfica do serviço de conferência de áudio da Microsoft, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+- Um novo conjunto de números de telefone de discagem será fornecido para cada organização e seus usuários. Para ver a cobertura geográfica do serviço de audioconferência da Microsoft, consulte [disponibilidade de país e região para conferências de áudio e planos de chamada](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
  
-- Reuniões já agendadas por usuários habilitados com um ACP de terceiros vai ser reagendadas automaticamente para incluir informações de discagem da conferência de áudio da Microsoft.
+- As reuniões que já foram agendadas pelos usuários habilitados com um ACP de terceiros serão automaticamente reagendadas para incluir informações de discagem de conferência do Microsoft Audio.
  
-- As identificações de cada reunião de conferência será dinâmica, o que significa que cada reunião terá sua própria ID de conferência de dedicado. IDs de conferência dinâmicos fornecem segurança avançada e uma experiência aprimorada para reuniões em frente e verso.
+- As IDs de conferência de cada reunião serão dinâmicas, o que significa que cada reunião terá sua própria ID de conferência dedicada. As IDs de conferência dinâmicas fornecem segurança aprimorada e uma experiência aprimorada para reuniões back-to-back.
 
-- Todos os uso do serviço está sujeito a conferência de áudio serviços usam termos. 
+- Todo o uso do serviço está sujeito aos termos de uso dos serviços de audioconferência. 
 
-Migrando para conferência de áudio da Microsoft é simple e pode ser feito apenas alguns das etapas após adquirir as licenças para o serviço. Para saber mais sobre como migrar para conferência de áudio da Microsoft, consulte:
+Migrar para o Microsoft Audio Conferencing é simples e pode ser feito em apenas algumas etapas após a aquisição das licenças do serviço. Para saber mais sobre como migrar para a conferência de áudio da Microsoft, consulte:
 
-- [Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+- [Experimentar ou comprar audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
  
 **Resumo:**
 
-- Organizações que migrar para conferência de áudio da Microsoft e concluir sua migração antes de 1º de abril de 2020, não verá nenhum impacto para seu serviço durante ou após essa data.
+- As organizações que migram para a conferência de áudio da Microsoft e concluírem a migração antes de 1º de abril de 2020, não verão nenhum impacto para o serviço durante ou após essa data.
 
-- Para saber mais sobre a migração para conferência de áudio da Microsoft, consulte [tente ou adquirir audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md). 
+- Para saber mais sobre como migrar para a conferência de áudio da Microsoft, consulte [experimentar ou comprar videoconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md). 
 
-### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>Caminho #2: Continuar separadamente usando um provedor de serviços de audioconferência de terceiros
+### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>Caminho #2: continuar a usar separadamente um provedor de audioconferência de terceiros
 
-As organizações que decidir continuar usando um ACP de terceiros em e depois em 1º de abril de 2020, observarão o impacto no serviço porque as informações de discagem do ACP softwares de terceiros não são mais poderão ser usados para ingressar na parte de áudio de uma Skype para reunião de negócios. 
+As organizações que decidem continuar usando um ACP de terceiros em e depois de 1º de abril de 2020 terão impacto sobre o serviço, pois as informações de discagem de ACP de terceiros não poderão mais ser usadas para ingressar na parte de áudio de uma reunião do Skype for Business. 
 
-Para evitar a fragmentação de áudio no Skype para reuniões de negócios, fazendo com que alguns participantes ingressando via VoIP e outros via o ACP de terceiros, é recomendável para essas empresas desabilitar o uso de VoIP reuniões dos seus usuários. Dessa maneira, todos os participantes precisarão participem do áudio de uma reunião usando o ACP de terceiros e todas as outras cargas de trabalho de reunião (por exemplo, chat ou compartilhamento de tela) podem continuar a ser suportados pela Skype para negócios. 
+Para impedir a fragmentação de áudio nas reuniões do Skype for Business com a participação de alguns participantes via VoIP e outros pelo ACP de terceiros, é recomendável que essas organizações desabilitem o uso de VoIP nas reuniões dos usuários. Dessa forma, todos os participantes precisarão ingressar na parte de áudio de uma reunião usando o ACP de terceiros e todas as outras cargas de trabalho da reunião (como chat ou compartilhamento de tela) podem continuar a ser compatíveis com o Skype for Business. 
 
-- Para desabilitar o VoIP de todas as reuniões de um determinado organizador, defina o parâmetro AllowIPAudio da sua política de conferência como false por meio do cmdlet Set-CsConferencingPolicy. Para obter informações adicionais, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+- Para desabilitar o VoIP de todas as reuniões de um determinado organizador, defina o parâmetro AllowIPAudio de sua política de conferência como falso por meio do cmdlet Set-CsConferencingPolicy. Para obter informações adicionais, consulte [set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
  
-Em termos de agendamento e desde 1º de abril de 2020, as informações de discagem de um ACP de terceiros serão não são mais automaticamente incluídas no Skype para convites de reunião de negócios. Os usuários precisarão adicionar manualmente que as informações de discagem em seu Skype para reunião de negócios convidam se ele quiser continuar incluindo essas informações como parte de suas reuniões. 
+Em termos de agendamento e a partir de 1º de abril de 2020, as informações de discagem de um ACP de terceiros não serão mais incluídas automaticamente nos convites de reunião do Skype for Business. Os usuários precisarão adicionar manualmente as informações de discagem em seus convites de reunião do Skype for Business se quiserem continuar incluindo essas informações como parte de suas reuniões. 
 
-Observe que em 1º de abril de 2020, as reuniões existentes de usuários não ser reagendadas automaticamente para remover qualquer terceiro ACP informações de discagem. As organizações que decidir VoIP ativado para as reuniões de seus usuários devem considerar desabilitar a integração de ACP de terceiros para seus usuários e reagende suas reuniões usando a reunião de manter o serviço de migração para remover o áudio de terceiros conferência informações de discagem de suas reuniões existentes e evitar a fragmentação de áudio em reuniões já agendadas. 
+Observe que, em 1º de abril de 2020, as reuniões existentes dos usuários não serão automaticamente reagendadas para remover qualquer informação de discagem de ACP de terceiros. As organizações que decidem manter o VoIP habilitado para as reuniões de seus usuários devem considerar a desabilitação da integração de ACP de terceiros para seus usuários e reagendar suas reuniões usando o serviço de migração de reunião para remover o áudio de terceiros informações de discagem de conferência a partir de suas reuniões existentes e impedir a fragmentação de áudio em reuniões já agendadas. 
 
-- Para desabilitar a integração de serviços de audioconferência de terceiros para um determinado organizador, use o cmdlet Remove-CsUserAcp. Para obter informações adicionais, consulte [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
+- Para desabilitar a integração de audioconferência de terceiros para um determinado organizador, use o cmdlet Remove-CsUserAcp. Para obter informações adicionais, consulte [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
-- Para automaticamente reagendar as reuniões dos usuários depois de desabilitar a integração com um provedor de serviços de audioconferência de terceiros, consulte "Como executar migração de reunião manualmente para um usuário?" em [configuração de backup serviço de migração de reunião (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md). 
+- Para reagendar automaticamente as reuniões de usuários após desabilitar a integração com um provedor de serviços de audioconferência de terceiros, consulte "como faço para executar a migração de reunião manualmente para um usuário?" ao [Configurar o serviço de migração de reunião (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md). 
 
 **Resumo:**
 
-- As organizações que decidir continuar usando um ACP de terceiros em e depois em 1º de abril de 2020, serão afetadas porque um ACP de terceiros não poderão ser usados para ingressar em uma Skype para reunião de negócios e novas reuniões não incluirá informações de discagem do ACP de terceiros. 
+- As organizações que decidem continuar usando um ACP de terceiros em e depois de 1º de abril de 2020 serão afetadas porque um ACP de terceiros não poderá ser usado para ingressar em uma reunião do Skype for Business e as novas reuniões não incluirão informações de discagem de ACP de terceiros. 
 
-- É recomendável que o VoIP está desabilitada para todas as reuniões de todos os usuários afetados antes de 1º de abril de 2020 para impedir que o áudio sendo fragmentada participantes ingressando via VoIP e por meio de um ACP de terceiros. 
+- É recomendável que o VoIP seja desabilitado para todas as reuniões de todos os usuários afetados antes de 1º de abril de 2020, para impedir que o áudio seja fragmentado por meio de VoIP e por meio de um ACP terceirizado. 
 
-    - Para desabilitar o VoIP de todas as reuniões de um determinado organizador, defina o parâmetro AllowIPAudio da política de conferência do usuário como false por meio do cmdlet Set-CsConferencingPolicy. Para obter informações adicionais, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    - Para desabilitar o VoIP de todas as reuniões de um determinado organizador, defina o parâmetro AllowIPAudio da política de conferência do usuário como falso por meio do cmdlet Set-CsConferencingPolicy. Para obter informações adicionais, consulte [set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
  
-- Se uma organização não desabilitar VoIP para todas as reuniões, é recomendável para os usuários a ser desabilitado utilizem o Skype para integração de Business Online com um ACP de terceiros e reagende suas reuniões para remover as terceiro ACP informações de discagem para impedir a fragmentação de áudio.
+- Se uma organização não desabilitar o VoIP para todas as reuniões, é recomendável que os usuários sejam desabilitados usando a integração do Skype for Business online com um ACP terceirizado e reagende suas reuniões para remover as informações de discagem de ACP de terceiros para impedir a fragmentação de áudio.
 
-    - Para desabilitar a integração de serviços de audioconferência de terceiros para um determinado organizador, use o cmdlet [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps) . 
+    - Para desabilitar a integração de audioconferência de terceiros para um determinado organizador, use o cmdlet [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps) . 
 
-    - Para automaticamente reagendar as reuniões, consulte "Como executar migração de reunião manualmente para um usuário?" em [configuração de backup serviço de migração de reunião (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md).
+    - Para reagendar automaticamente as reuniões, consulte "como faço para executar a migração de reunião manualmente para um usuário?" ao [Configurar o serviço de migração de reunião (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md).
 
-### <a name="path-3-stop-using-dial-in-conferencing-altogether"></a>Caminho #3: Parar de usar a conferência discada todo
+### <a name="path-3-stop-using-dial-in-conferencing-altogether"></a>Caminho #3: parar de usar a conferência discada completamente
 
-As organizações que decidir parar de usar a conferência discada completamente (nenhuma fornecido pela Microsoft, nem por um ACP de terceiros) podem confiar totalmente na VoIP para suportar a parte de um Skype áudio de reunião de negócios. 
+As organizações que decidem parar de usar a conferência discada completamente (nenhuma fornecida pela Microsoft nem por um ACP de terceiros) podem depender totalmente do VoIP para dar suporte à parte de áudio de uma reunião do Skype for Business. 
 
-Essas organizações precisaria impedir que os seus usuários usando um provedor de serviços de audioconferência de terceiros e têm suas reuniões automaticamente reagendadas usando a migração de reunião pessoal para remover as suas informações de conferência discada. 
+Essas organizações precisariam desabilitar os usuários usando um provedor de serviços de audioconferência de terceiros e ter suas reuniões reagendadas automaticamente usando o serviço de migração de reunião para remover as informações de conferência discada. 
 
-- Para desabilitar a integração de serviços de audioconferência de terceiros para um determinado organizador, use o cmdlet Remove-CsUserAcp. Para obter informações adicionais, consulte [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
+- Para desabilitar a integração de audioconferência de terceiros para um determinado organizador, use o cmdlet Remove-CsUserAcp. Para obter informações adicionais, consulte [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
-- Para automaticamente reagendar as reuniões dos usuários depois de desabilitar a integração com um provedor de serviços de audioconferência de terceiros, consulte "Como executar migração de reunião manualmente para um usuário?" em [configuração de backup serviço de migração de reunião (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md). 
+- Para reagendar automaticamente as reuniões de usuários após desabilitar a integração com um provedor de serviços de audioconferência de terceiros, consulte "como faço para executar a migração de reunião manualmente para um usuário?" ao [Configurar o serviço de migração de reunião (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md). 
 
 **Resumo:** 
 
-- As organizações que decidir parar de usar os serviços de audioconferência completamente antes de 1º de abril de 2020, não serão afetadas.
+- As organizações que decidem parar de usar a conferência de áudio completamente antes de 1º de abril de 2020 não serão afetadas.
 
-- Para desabilitar a integração de serviços de audioconferência de terceiros para um determinado organizador, use o cmdlet Remove-CsUserAcp. Para obter informações adicionais, consulte [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
+- Para desabilitar a integração de audioconferência de terceiros para um determinado organizador, use o cmdlet Remove-CsUserAcp. Para obter informações adicionais, consulte [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
-- Para automaticamente reagendar as reuniões dos usuários depois de desabilitar a integração com provedores de serviços de audioconferência de terceiros, consulte "Como executar migração de reunião manualmente para um usuário?" em [configuração de backup serviço de migração de reunião (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md).
+- Para reagendar automaticamente as reuniões de usuários após desabilitar a integração com provedores de audioconferência de terceiros, consulte "como faço para executar a migração de reunião manualmente para um usuário?" ao [Configurar o serviço de migração de reunião (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md).

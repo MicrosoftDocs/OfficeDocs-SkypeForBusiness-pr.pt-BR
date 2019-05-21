@@ -4,25 +4,25 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: 'Resumo: Leia este tópico para solucionar problemas de sua implantação do Gerenciador de estatísticas para Skype para Business Server.'
-ms.openlocfilehash: dbdf536b43006f5619330e93de0b8aba5024a1ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Leia este tópico para solucionar problemas de implantação do Gerenciador de estatísticas do Skype for Business Server.'
+ms.openlocfilehash: b85ee6593413cce0aa5b7c76901dbbc6099107fd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906680"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299692"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Solução de problemas do Gerenciador de estatísticas do Skype for Business Server
  
-**Resumo:** Leia este tópico para solucionar problemas de sua implantação do Gerenciador de estatísticas para Skype para Business Server.
+**Resumo:** Leia este tópico para solucionar problemas de implantação do Gerenciador de estatísticas do Skype for Business Server.
   
-Este tópico descreve como solucionar problemas de sua implantação do Gerenciador de estatísticas descrevendo os eventos que talvez você veja no log de eventos do aplicativo e ações apropriadas, que você pode tomar para resolver o evento. Este tópico contém as seguintes seções:
+Este tópico descreve como solucionar problemas de implantação do Gerenciador de estatísticas descrevendo os eventos que podem ser exibidos no log de eventos do aplicativo e as ações adequadas que você pode tomar para retificar o evento. Este tópico contém as seguintes seções:
   
 - [Eventos do Agente](troubleshoot.md#BKMK_Agent)
     
@@ -35,7 +35,7 @@ Este tópico descreve como solucionar problemas de sua implantação do Gerencia
 
 - **1000** - Não é possível instalar o limitador do processador (Objeto de trabalho) - Motivo desconhecido
     
-- **1001** — limitando o processo não é permitida no processo (provavelmente já dentro de um objeto de trabalho)
+- **1001** – a limitação de processo não é permitida no processo (provavelmente já dentro de um objeto de trabalho)
     
     O Agente é executado dentro de um Objeto de trabalho do Windows que limita automaticamente seu volume de memória. Se o agente não for iniciado e essas entradas de evento estiverem presentes no log de eventos, o Objeto de trabalho não consegue ser instanciado no servidor. Para contornar o problema, o limite de memória superior pode ser removido com a alteração de um valor no arquivo de configurações:
     
@@ -43,14 +43,14 @@ Este tópico descreve como solucionar problemas de sua implantação do Gerencia
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
   ```
 
-    Procure "MaxProcessMemoryMB" e altere o valor para "0", conforme mostrado:
+    Procure por "MaxProcessMemoryMB" e altere o valor para "0" conforme mostrado:
     
   ```
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 
     > [!NOTE]
-    > Se essa alteração é feita, o agente geralmente ainda consumirá \< 100 MB de memória, porém não será forçada limitado a 300 MB conforme é o padrão. Se essa alteração for feita, recomendamos monitorar de perto uso de memória para garantir que o Agente não consuma uma grande quantidade de memória na máquina do host. 
+    > Se essa alteração for feita, o agente geralmente ainda consumirá \< 100 MB de memória, mas ele não se limitará à força a 300 MB, como é o padrão. Se essa alteração for feita, recomendamos monitorar de perto uso de memória para garantir que o Agente não consuma uma grande quantidade de memória na máquina do host. 
   
 - **2000** - Falha na inicialização do cliente
     
@@ -60,17 +60,17 @@ Este tópico descreve como solucionar problemas de sua implantação do Gerencia
     
 1. Certifique-se de que o serviço Ouvinte está em execução no computador Ouvinte. Se não estiver, certifique-se de que o Redis está sendo executado no servidor e reinicie o serviço Ouvinte.
     
-    Verifique o log de eventos do Gerenciador de estatísticas no computador ouvinte para garantir que não existem problemas com o serviço de Gerenciador de estatísticas ouvinte em si.
+    Verifique o log de eventos do Gerenciador de estatísticas no computador ouvinte para garantir que não haja problemas com o serviço de escuta do Gerenciador de estatísticas propriamente dito.
     
 2. Use uma ferramenta de conectividade, como telnet, para verificar a conectividade do computador do Agente ao do Ouvinte na porta correta.
     
-    Caso contrário, verifique se a regra de firewall de entrada está habilitada no computador Ouvinte para o tipo de rede ao qual esse computador está conectado (público/privado/domínio). Se o computador de ouvinte não está vinculado a um domínio, a rede pode estar listada como pública e nesse caso, as regras de firewall instaladas com o Gerenciador de estatísticas não serão aplicadas por padrão.
+    Caso contrário, verifique se a regra de firewall de entrada está habilitada no computador Ouvinte para o tipo de rede ao qual esse computador está conectado (público/privado/domínio). Se o computador ouvinte não estiver associado a um domínio, a rede poderá estar listada como pública e, nesse caso, as regras de firewall instaladas com o Gerenciador de estatísticas não serão aplicadas por padrão.
     
 - **4000** - Falha para no download das Informações do servidor do Ouvinte (Motivo desconhecido)
     
   - **4001** - Servidor não encontrado na topologia do Ouvinte
     
-    Este erro ocorrerá se o servidor com êxito a conexão ao ouvinte, mas o servidor não foi adicionado à topologia no cache do ouvinte. Opções de solução:
+    Esse erro ocorrerá se o servidor se conectar com êxito ao ouvinte, mas o servidor não tiver sido adicionado à topologia no cache do ouvinte. Opções de solução:
     
   - 	Certifique-se de seguir as instruções para importar a topologia. Veja [Importar a topologia](deploy.md#BKMK_ImportTopology).   
     
@@ -90,7 +90,7 @@ Este tópico descreve como solucionar problemas de sua implantação do Gerencia
     
   - Se a conexão for em proxy, marque a configuração de proxy.
     
-  - Verifique se log de StatsMan do computador ouvinte para problemas com sua configuração.
+  - Verifique se há problemas com a configuração no log do estado do estado do ouvinte do computador.
     
   - **4005** - Não foi possível desserializar o XML
     
@@ -141,7 +141,7 @@ Este tópico descreve como solucionar problemas de sua implantação do Gerencia
     
     Registrado toda vez que o Ouvinte é iniciado.
     
-- **22000** — inicialização do agente estatísticas Manager foi bem-sucedida.
+- **22000** – inicialização do agente do Gerenciador de estatísticas bem-sucedida.
     
 - **23000** - Inicialização bem-sucedida do EventLogQueryManager (primeira vez ou após uma falha)
     
@@ -158,7 +158,7 @@ Este tópico descreve como solucionar problemas de sua implantação do Gerencia
 ## <a name="website-issues"></a>Problemas de site da Web
 <a name="BKMK_Website"> </a>
 
-- Os prompts de logon repetitiva no Chrome - este foi um bug que foi resolvido na versão 1.1. Certifique-se de que você tiver atualizado para a versão mais recente do Gerenciador de estatísticas se você estiver vendo prompts de logon repetidas do navegador Google Chrome. Para conferir a versão do site executada:
+- Prompts de login repetitivo no Chrome-foi um bug que foi resolvido na versão 1,1. Verifique se você atualizou para a versão mais recente do Gerenciador de estatísticas se estiver vendo solicitações de login repetidas no navegador Chrome. Para conferir a versão do site executada:
     
   - 	No Explorador de Arquivos, abra (default directory)
     

@@ -1,28 +1,28 @@
 ---
-title: Definir discada um usuário PIN no Skype para Business Server
+title: Definir o PIN de conferência discada de um usuário no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-description: 'Resumo: Defina discada um usuário PIN para Skype para servidor de negócios.'
-ms.openlocfilehash: 4dc60d10d063e367a7fd696d7625c6a5ad5540b9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: define o PIN de conferência discada de um usuário para o Skype for Business Server.'
+ms.openlocfilehash: d52c52e65fbfe706f243f420d6397319e4d00a32
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919357"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297579"
 ---
-# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Definir discada um usuário PIN no Skype para Business Server
+# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Definir o PIN de conferência discada de um usuário no Skype for Business Server
  
-**Resumo:** Defina discada um usuário PIN para Skype para servidor de negócios.
+**Resumo:** Definir o PIN de conferência discada de um usuário para o Skype for Business Server.
   
-Para ingressar na conferência discada como usuário autenticado, um Skype para usuário Business Server com credenciais do Active Directory Domain Services (AD DS) requer um número de identificação pessoal (PIN). Se um usuário esquece a conferência discada PIN ou não definiu o PIN usando Skype para Business Server, você pode definir o PIN do usuário do Skype para painel de controle do servidor de negócios. Você pode gerar automaticamente o PIN ou criá-lo manualmente.
+Para ingressar em uma conferência discada como um usuário autenticado, um usuário do Skype for Business Server com as credenciais dos serviços de domínio Active Directory (AD DS) requer um PIN (número de identificação pessoal). Se um usuário esquecer o PIN de conferência discada ou não tiver definido o PIN usando o Skype for Business Server, você poderá definir o PIN do usuário no painel de controle do Skype for Business Server. Você pode gerar automaticamente o PIN ou criá-lo manualmente.
   
 > [!NOTE]
 > Características específicas do PIN, como seu tamanho mínimo, podem ser configuradas como uma política. Além da política global, é possível configurar uma política de PIN para sites ou usuários individuais. 
@@ -31,7 +31,7 @@ Para ingressar na conferência discada como usuário autenticado, um Skype para 
 
 1. Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server.  
     
 3. Na barra de navegação esquerda, clique em **Usuários**.
     
@@ -54,7 +54,7 @@ Para ingressar na conferência discada como usuário autenticado, um Skype para 
     > [!TIP]
     > Para adicionar cláusulas de pesquisa adicionais à sua consulta, clique em **Adicionar filtro**. 
   
-   f. Clique em **Localizar**.
+   vocálico. Clique em **Localizar**.
     
     > [!NOTE]
     > Se o PIN estiver bloqueado, você deverá desbloqueá-lo para poder defini-lo. Para desbloquear o PIN, clique no usuário, clique em **Ação** e depois em **Desbloquear PIN**. 
@@ -63,7 +63,7 @@ Para ingressar na conferência discada como usuário autenticado, um Skype para 
     
 7. Na caixa de diálogo **Definir PIN**, siga um destes procedimentos:
     
-   - Para permitir que Skype para Business Server gere o PIN do usuário, selecione **Gerar automaticamente um PIN válido** (padrão).
+   - Para permitir que o Skype for Business Server gere o PIN do usuário, selecione **gerar automaticamente um PIN válido** (o padrão).
     
    - Para criar seu próprio PIN, clique em **Inserir manualmente um PIN específico**, clique na caixa de texto e digite um PIN na caixa de texto que atenda aos requisitos de PIN especificados nas configurações de política de PIN.
     
@@ -77,13 +77,13 @@ Para ingressar na conferência discada como usuário autenticado, um Skype para 
     
 10. Clique em **Fechar**.
     
-## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Atribuindo um PIN de usuário usando Cmdlets do Windows PowerShell
+## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Atribuir um PIN do usuário usando cmdlets do Windows PowerShell
 
-Você pode atribuir números PIN utilizando o cmdlet Set-CsClientPin. Você pode executar este cmdlet do Skype do Shell de gerenciamento do servidor de negócios ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype para Business Server, consulte o artigo do blog ["rápida iniciar: Gerenciando Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo em Skype para Business Server. 
+Você pode atribuir números PIN utilizando o cmdlet Set-CsClientPin. Você pode executar esse cmdlet a partir do Shell de gerenciamento do Skype for Business Server ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo ["início rápido: Gerenciando o Microsoft Lync Server 2010 usando o PowerShell remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server. 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>Para atribuir automaticamente um número PIN a um usuário
 
-O comando a seguir atribui um número PIN ao usuário Ken Myer. Porque o parâmetro Pin não for incluído, Skype para Business Server irá gerar automaticamente e atribuir o número PIN.
+O comando a seguir atribui um número PIN ao usuário Ken Myer. Como o parâmetro PIN não está incluído, o Skype for Business Server gerará e atribuirá automaticamente o número do PIN.
     
   ```
   Set-CsClientPin -Identity "Ken Myer" 
@@ -97,6 +97,6 @@ Esse comando utiliza o parâmetro PIN para atribuir o número de PIN 121989 ao u
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-CsClientPin](https://docs.microsoft.com/powershell/module/skype/set-csclientpin?view=skype-ps) .
+Para obter mais informações, consulte o tópico da ajuda para o cmdlet [set-CsClientPin](https://docs.microsoft.com/powershell/module/skype/set-csclientpin?view=skype-ps) .
   
 
