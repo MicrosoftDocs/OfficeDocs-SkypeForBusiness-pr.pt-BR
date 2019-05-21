@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ImpChooseImSchema
@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
-description: Use a caixa de diálogo Selecionar prefixo de hiperlink para selecionar os tipos de hiperlinks que você deseja bloquear, enviar uma mensagem de aviso ou permitir marcando (para bloquear ou enviar uma mensagem de aviso) ou desmarcando (para permitir) as caixas de seleção para suas extensões das categorias em Prefixos de hiperlink. Clique na seta para expandir uma categoria e exibir todos os prefixos de hiperlink para essa categoria. Se você deseja selecionar todos os prefixos de hiperlink para uma categoria, selecione o nome da categoria.
-ms.openlocfilehash: a62b0b786864926a4b6415cd959d369b807d34cf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Use a caixa de diálogo Selecionar prefixo do hiperlink para selecionar os tipos de hiperlinks que você deseja bloquear, enviar uma mensagem de aviso ou permitir selecionando (para bloquear ou enviar uma mensagem de aviso) ou desmarcando (permitir) as caixas de seleção das extensões das categorias em Prefixos de hiperlink. Clique na seta para expandir uma categoria e exibir todos os prefixos de hiperlink para essa categoria. Se você quiser selecionar todos os prefixos de hiperlink para uma categoria, selecione o nome da categoria.
+ms.openlocfilehash: e9f0fdb6f10afb8ac34a2201fad35fb8ad5f2ffd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891443"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292910"
 ---
-# <a name="select-hyperlink-prefix"></a><span data-ttu-id="30dd1-105">Selecionar Prefixo de Hiperlink</span><span class="sxs-lookup"><span data-stu-id="30dd1-105">Select Hyperlink Prefix</span></span>
+# <a name="select-hyperlink-prefix"></a><span data-ttu-id="6a73b-105">Selecionar Prefixo de Hiperlink</span><span class="sxs-lookup"><span data-stu-id="6a73b-105">Select Hyperlink Prefix</span></span>
  
-<span data-ttu-id="30dd1-106">Use a caixa de diálogo **Selecionar prefixo de hiperlink** para selecionar os tipos de hiperlinks que você deseja bloquear, enviar uma mensagem de aviso ou permitir marcando (para bloquear ou enviar uma mensagem de aviso) ou desmarcando (para permitir) as caixas de seleção para as suas extensões do categorias em **prefixos de hiperlink**.</span><span class="sxs-lookup"><span data-stu-id="30dd1-106">Use the **Select Hyperlink Prefix** dialog box to select the types of hyperlinks that you want to block, send a warning message, or allow by selecting (to block or send a warning message) or clearing (to allow) the check boxes for their extensions from the categories under **Hyperlink prefixes**.</span></span> <span data-ttu-id="30dd1-107">Clique na seta para expandir uma categoria e exibir todos os prefixos de hiperlink para essa categoria.</span><span class="sxs-lookup"><span data-stu-id="30dd1-107">Click the arrow to expand a category and view all of the hyperlink prefixes for that category.</span></span> <span data-ttu-id="30dd1-108">Se você deseja selecionar todos os prefixos de hiperlink para uma categoria, selecione o nome da categoria.</span><span class="sxs-lookup"><span data-stu-id="30dd1-108">If you want to select all of the hyperlink prefixes for a category, select the category name.</span></span> 
+<span data-ttu-id="6a73b-106">Use a caixa de diálogo **selecionar prefixo do hiperlink** para selecionar os tipos de hiperlinks que você deseja bloquear, enviar uma mensagem de aviso ou permitir selecionando (para bloquear ou enviar uma mensagem de aviso) ou desmarcando (permitir) as caixas de seleção das extensões Categorias em prefixos de **hiperlink**.</span><span class="sxs-lookup"><span data-stu-id="6a73b-106">Use the **Select Hyperlink Prefix** dialog box to select the types of hyperlinks that you want to block, send a warning message, or allow by selecting (to block or send a warning message) or clearing (to allow) the check boxes for their extensions from the categories under **Hyperlink prefixes**.</span></span> <span data-ttu-id="6a73b-107">Clique na seta para expandir uma categoria e exibir todos os prefixos de hiperlink para essa categoria.</span><span class="sxs-lookup"><span data-stu-id="6a73b-107">Click the arrow to expand a category and view all of the hyperlink prefixes for that category.</span></span> <span data-ttu-id="6a73b-108">Se você quiser selecionar todos os prefixos de hiperlink para uma categoria, selecione o nome da categoria.</span><span class="sxs-lookup"><span data-stu-id="6a73b-108">If you want to select all of the hyperlink prefixes for a category, select the category name.</span></span> 
   
-<span data-ttu-id="30dd1-109">Se você não vir um prefixo de hiperlink que você deseja selecionar listados em **prefixos de hiperlink**, digite a extensão na caixa de texto em **Adicionar novos prefixos de hiperlink à lista**e, em seguida, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="30dd1-109">If you do not see a hyperlink prefix that you want to select listed in **Hyperlink prefixes**, type the extension in the text box under **Add new hyperlink prefixes to the list**, and then click **Add**.</span></span> 
+<span data-ttu-id="6a73b-109">Se você não vir um prefixo de hiperlink que você deseja selecionar listado nos prefixos de **hiperlink**, digite a extensão na caixa de texto em **Adicionar novos prefixos de hiperlink à lista**e, em seguida, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="6a73b-109">If you do not see a hyperlink prefix that you want to select listed in **Hyperlink prefixes**, type the extension in the text box under **Add new hyperlink prefixes to the list**, and then click **Add**.</span></span> 
   
-<span data-ttu-id="30dd1-110">Depois que todos os prefixos de hiperlink que você deseja adicionar à lista de **prefixos de hiperlink selecionados** , clique em **Okey**.</span><span class="sxs-lookup"><span data-stu-id="30dd1-110">After you have added all of the hyperlink prefixes that you want to the **Selected hyperlink prefixes** list, click **OK**.</span></span>
+<span data-ttu-id="6a73b-110">Depois de adicionar todos os prefixos de hiperlink desejados à lista de prefixos de **hiperlink selecionada** , clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="6a73b-110">After you have added all of the hyperlink prefixes that you want to the **Selected hyperlink prefixes** list, click **OK**.</span></span>
   
  
   

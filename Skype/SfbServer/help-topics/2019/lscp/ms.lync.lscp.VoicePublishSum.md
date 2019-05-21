@@ -1,10 +1,10 @@
 ---
-title: Status de confirmação de mudanças de roteamento de voz para a configuração de roteamento de voz
+title: Status de roteamento de voz de alterações de confirmação para configuração de roteamento de voz
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoicePublishSum
@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
 ROBOTS: NOINDEX, NOFOLLOW
-description: Se as alterações não forem concluídas, examine as mensagens nessa caixa de diálogo, altere sua configuração de roteamento de voz e tente novamente.
-ms.openlocfilehash: 29e720888b912840fd11a5130533a54968a39974
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Se as alterações não foram concluídas, examine as mensagens nessa caixa de diálogo, altere a configuração de roteamento de voz e tente novamente.
+ms.openlocfilehash: b5c985d6cb4e1919413b839cc603f03012b6de27
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890540"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305171"
 ---
-# <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a><span data-ttu-id="f6ae6-103">Roteamento de Voz: Status de Confirmação de Mudanças para Configuração de Roteamento de Voz</span><span class="sxs-lookup"><span data-stu-id="f6ae6-103">Voice Routing: Status of Commit Changes for Voice Routing Configuration</span></span>
+# <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a><span data-ttu-id="50b1f-103">Roteamento de Voz: Status de Confirmação de Mudanças para Configuração de Roteamento de Voz</span><span class="sxs-lookup"><span data-stu-id="50b1f-103">Voice Routing: Status of Commit Changes for Voice Routing Configuration</span></span>
  
-<span data-ttu-id="f6ae6-104">Se as alterações não forem concluídas, examine as mensagens nessa caixa de diálogo, altere sua configuração de roteamento de voz e tente novamente.</span><span class="sxs-lookup"><span data-stu-id="f6ae6-104">If the changes were not completed, review the messages in this dialog box, change your voice routing configuration, and try again.</span></span>
+<span data-ttu-id="50b1f-104">Se as alterações não foram concluídas, examine as mensagens nessa caixa de diálogo, altere a configuração de roteamento de voz e tente novamente.</span><span class="sxs-lookup"><span data-stu-id="50b1f-104">If the changes were not completed, review the messages in this dialog box, change your voice routing configuration, and try again.</span></span>
   
  
   

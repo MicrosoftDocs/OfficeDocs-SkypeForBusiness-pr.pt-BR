@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/6/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.Dialin
@@ -13,20 +13,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
-description: Skype para Business Server 2015 a conferência discada permite que os usuários participem do áudio de uma Skype para Business Server 2015 conferência usando um telefone do telefônica pública comutada (PSTN) de rede sem exigir um provedor de serviços de audioconferência de terceiros.
-ms.openlocfilehash: 2842667287b653b0e1e595625e78b2c7d986ac5c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: A conferência discada do Skype for Business Server 2015 permite que os usuários ingressem na parte de áudio de uma conferência do Skype for Business Server 2015 usando um telefone PSTN (rede telefônica pública comutada) sem a necessidade de um provedor de serviços de audioconferência de terceiros.
+ms.openlocfilehash: 43df7e851ce51a169cd98dec1361872dee17282f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888111"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288653"
 ---
-# <a name="dial-in-conferencing-planning-tool"></a><span data-ttu-id="4cbee-103">Dial-in Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="4cbee-103">Dial-in Conferencing (Planning Tool)</span></span>
+# <a name="dial-in-conferencing-planning-tool"></a><span data-ttu-id="92c95-103">Dial-in Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="92c95-103">Dial-in Conferencing (Planning Tool)</span></span>
  
-<span data-ttu-id="4cbee-104">Skype para Business Server 2015 a conferência discada permite que os usuários participem do áudio de uma Skype para Business Server 2015 conferência usando um telefone do telefônica pública comutada (PSTN) de rede sem exigir um provedor de serviços de audioconferência de terceiros.</span><span class="sxs-lookup"><span data-stu-id="4cbee-104">Skype for Business Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.</span></span>
+<span data-ttu-id="92c95-104">A conferência discada do Skype for Business Server 2015 permite que os usuários ingressem na parte de áudio de uma conferência do Skype for Business Server 2015 usando um telefone PSTN (rede telefônica pública comutada) sem a necessidade de um provedor de serviços de audioconferência de terceiros.</span><span class="sxs-lookup"><span data-stu-id="92c95-104">Skype for Business Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.</span></span>
   
-<span data-ttu-id="4cbee-105">Para detalhes de planejamento sobre como ativar a conferência discada na sua organização, consulte o seguinte tópico e os tópicos aos quais ele está vinculado:</span><span class="sxs-lookup"><span data-stu-id="4cbee-105">For planning details about enabling dial-in conferencing for your organization, see the following topic and the topics it links to:</span></span> 
+<span data-ttu-id="92c95-105">Para detalhes de planejamento sobre como ativar a conferência discada na sua organização, consulte o seguinte tópico e os tópicos aos quais ele está vinculado:</span><span class="sxs-lookup"><span data-stu-id="92c95-105">For planning details about enabling dial-in conferencing for your organization, see the following topic and the topics it links to:</span></span> 
   
-- [<span data-ttu-id="4cbee-106">Planejar para conferência no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="4cbee-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
+- [<span data-ttu-id="92c95-106">Planejar para conferência no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="92c95-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
     
 

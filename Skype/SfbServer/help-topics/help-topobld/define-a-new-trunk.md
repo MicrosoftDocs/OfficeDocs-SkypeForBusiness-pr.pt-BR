@@ -5,39 +5,39 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddTrunkPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
-description: 'Você pode definir um tronco de (SIP) do protocolo de iniciação de nova sessão, fornecendo as seguintes informações:'
-ms.openlocfilehash: 669f896e9a51a2f7f229a065a867f8ce8e48bcdc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Você define um novo tronco de protocolo SIP fornecendo as seguintes informações:'
+ms.openlocfilehash: c66d5999d6aa5bad0e9c16f8d466d82b941a630b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903779"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305918"
 ---
-# <a name="define-a-new-trunk"></a><span data-ttu-id="44e58-103">Definir um Novo Tronco</span><span class="sxs-lookup"><span data-stu-id="44e58-103">Define a New Trunk</span></span>
+# <a name="define-a-new-trunk"></a><span data-ttu-id="a2755-103">Definir um Novo Tronco</span><span class="sxs-lookup"><span data-stu-id="a2755-103">Define a New Trunk</span></span>
 
-<span data-ttu-id="44e58-104">Você pode definir um tronco de (SIP) do protocolo de iniciação de nova sessão, fornecendo as seguintes informações:</span><span class="sxs-lookup"><span data-stu-id="44e58-104">You define a new session initiation protocol (SIP) trunk by providing the following information:</span></span>
+<span data-ttu-id="a2755-104">Você define um novo tronco de protocolo SIP fornecendo as seguintes informações:</span><span class="sxs-lookup"><span data-stu-id="a2755-104">You define a new session initiation protocol (SIP) trunk by providing the following information:</span></span>
 
-- <span data-ttu-id="44e58-105">**Nome do tronco**: nome exclusivo na sua topologia que identificará esse tronco</span><span class="sxs-lookup"><span data-stu-id="44e58-105">**Trunk name**: unique name in your topology that will identify this trunk</span></span>
+- <span data-ttu-id="a2755-105">**Nome do tronco**: nome exclusivo na sua topologia que identificará esse tronco</span><span class="sxs-lookup"><span data-stu-id="a2755-105">**Trunk name**: unique name in your topology that will identify this trunk</span></span>
 
-- <span data-ttu-id="44e58-106">**Gateway de PSTN associado**: selecione um gateway PSTN implantado e configurado em sua implantação da lista</span><span class="sxs-lookup"><span data-stu-id="44e58-106">**Associated PSTN Gateway**: select a deployed and configured PSTN gateway in your deployment from the list</span></span>
+- <span data-ttu-id="a2755-106">**Gateway PSTN associado**: selecione um gateway PSTN implantado e configurado na sua implantação na lista</span><span class="sxs-lookup"><span data-stu-id="a2755-106">**Associated PSTN Gateway**: select a deployed and configured PSTN gateway in your deployment from the list</span></span>
 
-- <span data-ttu-id="44e58-107">**Porta de escuta do gateway IP/PSTN**: porta na qual o gateway IP-PBX ou PSTN escutará.</span><span class="sxs-lookup"><span data-stu-id="44e58-107">**Listening port for the IP/PSTN gateway**: port that the IP-PBX or PSTN gateway will listen on.</span></span> <span data-ttu-id="44e58-108">Deve ser exclusivo de todos os outras tronco portas de escuta configuradas em sua implantação</span><span class="sxs-lookup"><span data-stu-id="44e58-108">Must be unique from all other trunk listening ports configured in your deployment</span></span>
+- <span data-ttu-id="a2755-107">**Porta de escuta do gateway IP/PSTN**: porta na qual o PBX IP ou o gateway PSTN escutará.</span><span class="sxs-lookup"><span data-stu-id="a2755-107">**Listening port for the IP/PSTN gateway**: port that the IP-PBX or PSTN gateway will listen on.</span></span> <span data-ttu-id="a2755-108">Deve ser exclusivo de todas as outras portas de escuta de tronco configuradas na sua implantação</span><span class="sxs-lookup"><span data-stu-id="a2755-108">Must be unique from all other trunk listening ports configured in your deployment</span></span>
 
-- <span data-ttu-id="44e58-109">**Protocolo de transporte SIP**: selecione na lista TCP ou TLS</span><span class="sxs-lookup"><span data-stu-id="44e58-109">**SIP Transport Protocol**: select from the list either TCP or TLS</span></span>
+- <span data-ttu-id="a2755-109">**Protocolo de transporte SIP**: selecione na lista o TCP ou o TLS</span><span class="sxs-lookup"><span data-stu-id="a2755-109">**SIP Transport Protocol**: select from the list either TCP or TLS</span></span>
 
-- <span data-ttu-id="44e58-110">**Servidor de mediação associado**: selecione na lista um servidor de mediação que é implantado e configurado em sua implantação</span><span class="sxs-lookup"><span data-stu-id="44e58-110">**Associated Mediation Server**: select from the list a Mediation Server that is deployed and configured in your deployment</span></span>
+- <span data-ttu-id="a2755-110">**Servidor de mediação associado**: selecione na lista um servidor de mediação que é implantado e configurado em sua implantação</span><span class="sxs-lookup"><span data-stu-id="a2755-110">**Associated Mediation Server**: select from the list a Mediation Server that is deployed and configured in your deployment</span></span>
 
-- <span data-ttu-id="44e58-111">**Porta do servidor de mediação associado**: defina o valor da porta igual ao valor de porta TCP ou TLS do servidor de mediação que usará esse tronco SIP</span><span class="sxs-lookup"><span data-stu-id="44e58-111">**Associated Mediation Server port**: set the port value equal to the TCP or TLS port value of the Mediation Server that this SIP trunk will use</span></span>
+- <span data-ttu-id="a2755-111">**Porta do servidor de mediação associada**: defina o valor de porta igual ao valor de porta TCP ou TLS do servidor de mediação que o tronco SIP usará</span><span class="sxs-lookup"><span data-stu-id="a2755-111">**Associated Mediation Server port**: set the port value equal to the TCP or TLS port value of the Mediation Server that this SIP trunk will use</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="44e58-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="44e58-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a2755-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="a2755-112">See also</span></span>
 
-[<span data-ttu-id="44e58-113">Tronco M:N no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="44e58-113">M:N trunk in Skype for Business Server 2015</span></span>](../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
+[<span data-ttu-id="a2755-113">Tronco M:N no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="a2755-113">M:N trunk in Skype for Business Server 2015</span></span>](../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
-[<span data-ttu-id="44e58-114">Como implementar o tronco SIP?</span><span class="sxs-lookup"><span data-stu-id="44e58-114">How do I implement SIP trunking?</span></span>](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)
+[<span data-ttu-id="a2755-114">Como faço para implementar o entroncamento SIP?</span><span class="sxs-lookup"><span data-stu-id="a2755-114">How do I implement SIP trunking?</span></span>](https://technet.microsoft.com/library/273a22b1-8a4c-4187-acf8-c57d5c6598ce.aspx)

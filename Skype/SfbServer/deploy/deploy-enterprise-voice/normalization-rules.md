@@ -1,10 +1,10 @@
 ---
-title: Criar ou modificar uma regra de normalização no Skype para negócios
+title: Criar ou modificar uma regra de normalização no Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,99 +13,99 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
-description: 'Resumo: Saiba como definir, criar e modificar uma regra de normalização no Skype para Business Server.'
-ms.openlocfilehash: d5479fa6aef28720d967a9f498a409f6c8d73c3f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como definir, criar e modificar uma regra de normalização no Skype for Business Server.'
+ms.openlocfilehash: 4739bdb50e0a76c088cb6129539438c1ac6d795a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892304"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306147"
 ---
-# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a><span data-ttu-id="9c2c8-103">Criar ou modificar uma regra de normalização no Skype para negócios</span><span class="sxs-lookup"><span data-stu-id="9c2c8-103">Create or modify a normalization rule in Skype for Business</span></span>
+# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a><span data-ttu-id="8fbd5-103">Criar ou modificar uma regra de normalização no Skype for Business</span><span class="sxs-lookup"><span data-stu-id="8fbd5-103">Create or modify a normalization rule in Skype for Business</span></span>
 
-<span data-ttu-id="9c2c8-104">**Resumo:** Saiba como definir, criar e modificar uma regra de normalização no Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-104">**Summary:** Learn how to define, create, and modify a normalization rule in Skype for Business Server.</span></span>
+<span data-ttu-id="8fbd5-104">**Resumo:** Saiba como definir, criar e modificar uma regra de normalização no Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-104">**Summary:** Learn how to define, create, and modify a normalization rule in Skype for Business Server.</span></span>
 
-<span data-ttu-id="9c2c8-105">Definir, criar e modificar as regras de normalização no Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-105">Define, create, and modify normalization rules in Skype for Business Server.</span></span>
+<span data-ttu-id="8fbd5-105">Definir, criar e modificar regras de normalização no Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-105">Define, create, and modify normalization rules in Skype for Business Server.</span></span>
 
-### <a name="to-define-a-normalization-rule-by-using-build-a-normalization-rule"></a><span data-ttu-id="9c2c8-106">Para definir uma regra de normalização usando Compilar uma Regra de Normalização</span><span class="sxs-lookup"><span data-stu-id="9c2c8-106">To define a normalization rule by using Build a Normalization Rule</span></span>
+### <a name="to-define-a-normalization-rule-by-using-build-a-normalization-rule"></a><span data-ttu-id="8fbd5-106">Para definir uma regra de normalização usando Compilar uma Regra de Normalização</span><span class="sxs-lookup"><span data-stu-id="8fbd5-106">To define a normalization rule by using Build a Normalization Rule</span></span>
 
-1. <span data-ttu-id="9c2c8-107">Abra o Skype para painel de controle do servidor de negócios</span><span class="sxs-lookup"><span data-stu-id="9c2c8-107">Open Skype for Business Server Control Panel</span></span>
+1. <span data-ttu-id="8fbd5-107">Abrir o painel de controle do Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="8fbd5-107">Open Skype for Business Server Control Panel</span></span>
 
-2. <span data-ttu-id="9c2c8-108">(Opcional) Siga as etapas em [criar ou modificar um plano de discagem no Skype para Business Server](dial-plans.md) por meio da etapa 11 ou [Modify a Dial Plan](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) até a etapa 10.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-108">(Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server](dial-plans.md) through step 11 or [Modify a Dial Plan](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) through step 10.</span></span>
+2. <span data-ttu-id="8fbd5-108">Adicionais Siga as etapas em [criar ou modificar um plano de discagem no Skype for Business Server](dial-plans.md) por meio da etapa 11 ou [modificar um plano de discagem](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) por meio da etapa 10.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-108">(Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server](dial-plans.md) through step 11 or [Modify a Dial Plan](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) through step 10.</span></span>
 
-3. <span data-ttu-id="9c2c8-109">Na **Nova regra de normalização** ou **Editar regra de normalização**, digite um nome que descreva o padrão numérico que está sendo normalizado em **nome** (por exemplo, 5DigitExtension).</span><span class="sxs-lookup"><span data-stu-id="9c2c8-109">In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example,5DigitExtension).</span></span>
+3. <span data-ttu-id="8fbd5-109">Em **nova regra** de normalização ou **Editar regra**de normalização, digite um nome que descreva o padrão de número que está normalizado em **nome** (por exemplo, 5DigitExtension).</span><span class="sxs-lookup"><span data-stu-id="8fbd5-109">In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example,5DigitExtension).</span></span>
 
-4. <span data-ttu-id="9c2c8-110">(Opcional) Em **Descrição**, digite uma descrição da regra de normalização (por exemplo, "Converte extensões de cinco dígitos").</span><span class="sxs-lookup"><span data-stu-id="9c2c8-110">(Optional) In **Description**, type a description of the normalization rule (for example, "Translates 5-digit extensions").</span></span>
+4. <span data-ttu-id="8fbd5-110">(Opcional) Em **Descrição**, digite uma descrição da regra de normalização (por exemplo, "Converte extensões de cinco dígitos").</span><span class="sxs-lookup"><span data-stu-id="8fbd5-110">(Optional) In **Description**, type a description of the normalization rule (for example, "Translates 5-digit extensions").</span></span>
 
-5. <span data-ttu-id="9c2c8-111">Em **Compilar uma Regra de Normalização**, digite valores nos campos a seguir:</span><span class="sxs-lookup"><span data-stu-id="9c2c8-111">In **Build a Normalization Rule**, enter values in the following fields:</span></span>
+5. <span data-ttu-id="8fbd5-111">Em **Compilar uma Regra de Normalização**, digite valores nos campos a seguir:</span><span class="sxs-lookup"><span data-stu-id="8fbd5-111">In **Build a Normalization Rule**, enter values in the following fields:</span></span>
 
-   - <span data-ttu-id="9c2c8-112">**Dígitos iniciais** (Opcional) Especifica os dígitos dos números discados que você deseja que o padrão corresponda.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-112">**Starting digits** (Optional) Specify the leading digits of dialed numbers you want the pattern to match.</span></span> <span data-ttu-id="9c2c8-113">Por exemplo, type425 se quiser que o padrão corresponda discado números que começam com 425.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-113">For example, type425 if you want the pattern to match dialed numbers beginning with 425.</span></span>
+   - <span data-ttu-id="8fbd5-112">**Dígitos iniciais** Adicionais Especifique os dígitos à esquerda dos números discados para os quais você deseja que o padrão corresponda.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-112">**Starting digits** (Optional) Specify the leading digits of dialed numbers you want the pattern to match.</span></span> <span data-ttu-id="8fbd5-113">Por exemplo, type425 se quiser que o padrão corresponda a números discados começando com 425.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-113">For example, type425 if you want the pattern to match dialed numbers beginning with 425.</span></span>
 
-   - <span data-ttu-id="9c2c8-114">**Comprimento** Especifique o número de dígitos no padrão correspondido e selecione se você deseja que o padrão para corresponder a esse comprimento exatamente, correspondência discado números que são pelo menos esse comprimento ou números de qualquer tamanho de discados de correspondência.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-114">**Length** Specify the number of digits in the matching pattern and select whether you want the pattern to match this length exactly, match dialed numbers that are at least this length, or match dialed numbers of any length.</span></span>
+   - <span data-ttu-id="8fbd5-114">**Comprimento** Especifique o número de dígitos no padrão de correspondência e selecione se deseja que o padrão corresponda exatamente a esse comprimento, corresponda aos números discados que tenham pelo menos esse comprimento ou coincidam com os números discados de qualquer comprimento.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-114">**Length** Specify the number of digits in the matching pattern and select whether you want the pattern to match this length exactly, match dialed numbers that are at least this length, or match dialed numbers of any length.</span></span>
 
-   - <span data-ttu-id="9c2c8-115">**Dígitos a serem removidos** (Opcional) Especifique o número de dígitos a serem removidas dos números discados aos iniciais você deseja que o padrão para corresponder.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-115">**Digits to remove** (Optional) Specify the number of starting digits to be removed from dialed numbers you want the pattern to match.</span></span>
+   - <span data-ttu-id="8fbd5-115">**Dígitos a serem removidos** Adicionais Especifique o número de dígitos iniciais a serem removidos dos números discados para os quais você deseja que o padrão corresponda.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-115">**Digits to remove** (Optional) Specify the number of starting digits to be removed from dialed numbers you want the pattern to match.</span></span>
 
-   - <span data-ttu-id="9c2c8-116">**Dígitos a adicionar** (Opcional) Especifica os dígitos a ser adicionado à números discados que você deseja que o padrão corresponda.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-116">**Digits to add** (Optional) Specify digits to be added to dialed numbers you want the pattern to match.</span></span>
+   - <span data-ttu-id="8fbd5-116">**Dígitos a serem adicionados** Adicionais Especifique os dígitos a serem adicionados aos números discados para os quais você deseja que o padrão corresponda.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-116">**Digits to add** (Optional) Specify digits to be added to dialed numbers you want the pattern to match.</span></span>
 
-     <span data-ttu-id="9c2c8-117">Os valores inseridos nesses campos são refletidos em **Padrão a ser correspondido** e **Regra de conversão**.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-117">The values you enter in these fields are reflected in **Pattern to match** and **Translation rule**.</span></span> <span data-ttu-id="9c2c8-118">Por exemplo, se você deixar type7 de **dígitos iniciando** vazio, no campo de **comprimento** e selecione **exatamente**e especifica 0 em **dígitos a serem removidos**, a expressão regular resultante no **padrão para corresponder** é:</span><span class="sxs-lookup"><span data-stu-id="9c2c8-118">For example, if you leave **Starting digits** empty, type7 into the **Length** field and select **Exactly**, and specify 0 in **Digits to remove**, the resulting regular expression in the **Pattern to match** is:</span></span>
+     <span data-ttu-id="8fbd5-117">Os valores inseridos nesses campos são refletidos em **Padrão a ser correspondido** e **Regra de conversão**.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-117">The values you enter in these fields are reflected in **Pattern to match** and **Translation rule**.</span></span> <span data-ttu-id="8fbd5-118">Por exemplo, se você deixar os **dígitos iniciais** vazios, type7 no campo **comprimento** e selecionar **exatamente**e especificar 0 em **dígitos a remover**, a expressão regular resultante no **padrão a ser CORRESP** será:</span><span class="sxs-lookup"><span data-stu-id="8fbd5-118">For example, if you leave **Starting digits** empty, type7 into the **Length** field and select **Exactly**, and specify 0 in **Digits to remove**, the resulting regular expression in the **Pattern to match** is:</span></span>
 
-     <span data-ttu-id="9c2c8-119">^(\d{7})$</span><span class="sxs-lookup"><span data-stu-id="9c2c8-119">^(\d{7})$</span></span>
+     <span data-ttu-id="8fbd5-119">^ (\d{7}) $</span><span class="sxs-lookup"><span data-stu-id="8fbd5-119">^(\d{7})$</span></span>
 
-6. <span data-ttu-id="9c2c8-120">Em **Regra de conversão**, especifique um padrão para o formato de números de telefone E.164 convertido da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="9c2c8-120">In **Translation rule**, specify a pattern for the format of translated E.164 phone numbers as follows:</span></span>
+6. <span data-ttu-id="8fbd5-120">Em **Regra de conversão**, especifique um padrão para o formato de números de telefone E.164 convertido da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="8fbd5-120">In **Translation rule**, specify a pattern for the format of translated E.164 phone numbers as follows:</span></span>
 
-   - <span data-ttu-id="9c2c8-121">Um valor que representa o número de dígitos especificado no padrão de correspondência.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-121">A value that represents the number of digits specified in the matching pattern.</span></span> <span data-ttu-id="9c2c8-122">Por exemplo, se o padrão de correspondência ^(\d{7})$ e$ 1 na tradução dos números discados de 7 dígitos representa da regra.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-122">For example, if the matching pattern is ^(\d{7})$ then$1 in the translation rule represents 7-digit dialed numbers.</span></span>
+   - <span data-ttu-id="8fbd5-121">Um valor que representa o número de dígitos especificado no padrão de correspondência.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-121">A value that represents the number of digits specified in the matching pattern.</span></span> <span data-ttu-id="8fbd5-122">Por exemplo, se o padrão correspondente for ^ (\d{7}) $, então $1 na regra de tradução representará os números discados de 7 dígitos.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-122">For example, if the matching pattern is ^(\d{7})$ then$1 in the translation rule represents 7-digit dialed numbers.</span></span>
 
-   - <span data-ttu-id="9c2c8-123">(Opcional) Digite um valor no campo **dígitos a adicionar** para especificar os dígitos a serem anexados ao número convertido (por exemplo, + 1425).</span><span class="sxs-lookup"><span data-stu-id="9c2c8-123">(Optional) Type a value into the **Digits to add** field to specify digits to be prepended to the translated number (for example,+1425).</span></span>
+   - <span data-ttu-id="8fbd5-123">Adicionais Digite um valor no campo **dígitos para adicionar** para especificar os dígitos a serem anexados ao número traduzido (por exemplo, + 1425).</span><span class="sxs-lookup"><span data-stu-id="8fbd5-123">(Optional) Type a value into the **Digits to add** field to specify digits to be prepended to the translated number (for example,+1425).</span></span>
 
-     <span data-ttu-id="9c2c8-124">Por exemplo, se contiver **padrão para corresponder** ^(\d{7})$ como o padrão para números discados aos quais e contém **a regra de conversão** + 1425$ 1 como o padrão para e. 164 números de telefone, a regra normaliza 5550100 para + 14255550100.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-124">For example, if **Pattern to match** contains^(\d{7})$ as the pattern for dialed numbers and **Translation rule** contains+1425$1 as the pattern for E.164 phone numbers, the rule normalizes 5550100 to +14255550100.</span></span>
+     <span data-ttu-id="8fbd5-124">Por exemplo, se **a correspondência de padrão** contiver ^{7}(\d) $ como o padrão para números discados e **regra de tradução** contém + 1425 $1 como o padrão para os números de telefone e. 164, a regra normaliza o 5550100 para + 14255550100.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-124">For example, if **Pattern to match** contains^(\d{7})$ as the pattern for dialed numbers and **Translation rule** contains+1425$1 as the pattern for E.164 phone numbers, the rule normalizes 5550100 to +14255550100.</span></span>
 
-7. <span data-ttu-id="9c2c8-125">(Opcional) Se a regra de normalização resulta em um número de telefone interno à sua organização, selecione **Extensão interna**.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-125">(Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.</span></span>
+7. <span data-ttu-id="8fbd5-125">(Opcional) Se a regra de normalização resulta em um número de telefone interno à sua organização, selecione **Extensão interna**.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-125">(Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.</span></span>
 
-8. <span data-ttu-id="9c2c8-p104">(Opcional) Insira um número para testar a regra de normalização e clique em **Ir**. Os resultados do teste são exibidos em **Inserir um número para testar**.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-p104">(Optional) Enter a number to test the normalization rule, and then click **Go**. The test results are displayed under **Enter a number to test**.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="9c2c8-p105">É possível salvar uma regra de normalização que ainda não passou no teste e reconfigurá-la posteriormente. Para obter detalhes, consulte  [Test Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).</span><span class="sxs-lookup"><span data-stu-id="9c2c8-p105">You can save a normalization rule that does not yet pass the test and then reconfigure it later. For details, see [Test Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).</span></span>
-
-9. <span data-ttu-id="9c2c8-130">Clique em **OK** para salvar a regra de normalização.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-130">Click **OK** to save the normalization rule.</span></span>
-
-10. <span data-ttu-id="9c2c8-131">Clique em **OK** para salvar o plano de discagem.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-131">Click **OK** to save the dial plan.</span></span>
-
-11. <span data-ttu-id="9c2c8-132">Na página **Plano de Discagem**, clique em **Confirmar** e clique em **Confirmar tudo**.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-132">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
+8. <span data-ttu-id="8fbd5-p104">(Opcional) Insira um número para testar a regra de normalização e clique em **Ir**. Os resultados do teste são exibidos em **Inserir um número para testar**.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-p104">(Optional) Enter a number to test the normalization rule, and then click **Go**. The test results are displayed under **Enter a number to test**.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="9c2c8-133">Sempre que criar ou alterar uma regra de normalização, você deve executar o comando **Confirmar todos** para publicar a alteração na configuração.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-133">Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="9c2c8-134">Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-134">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
+    > <span data-ttu-id="8fbd5-p105">É possível salvar uma regra de normalização que ainda não passou no teste e reconfigurá-la posteriormente. Para obter detalhes, consulte  [Test Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).</span><span class="sxs-lookup"><span data-stu-id="8fbd5-p105">You can save a normalization rule that does not yet pass the test and then reconfigure it later. For details, see [Test Voice Routing](https://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx).</span></span>
 
-### <a name="to-define-a-normalization-rule-manually"></a><span data-ttu-id="9c2c8-135">Para definir uma regra de normalização manualmente</span><span class="sxs-lookup"><span data-stu-id="9c2c8-135">To define a normalization rule manually</span></span>
+9. <span data-ttu-id="8fbd5-130">Clique em **OK** para salvar a regra de normalização.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-130">Click **OK** to save the normalization rule.</span></span>
 
-1. <span data-ttu-id="9c2c8-136">Abra o Skype para painel de controle do servidor de negócios</span><span class="sxs-lookup"><span data-stu-id="9c2c8-136">Open Skype for Business Server Control Panel</span></span>
+10. <span data-ttu-id="8fbd5-131">Clique em **OK** para salvar o plano de discagem.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-131">Click **OK** to save the dial plan.</span></span>
 
-2. <span data-ttu-id="9c2c8-137">(Opcional) Siga as etapas em [criar ou modificar um plano de discagem no Skype para Business Server](dial-plans.md).</span><span class="sxs-lookup"><span data-stu-id="9c2c8-137">(Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server](dial-plans.md).</span></span>
-
-3. <span data-ttu-id="9c2c8-138">Na **Nova regra de normalização** ou **Editar regra de normalização**, digite um nome que descreva o padrão numérico que está sendo normalizado em **nome** (por exemplo, nome rule5DigitExtension a normalização).</span><span class="sxs-lookup"><span data-stu-id="9c2c8-138">In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example, name the normalization rule5DigitExtension).</span></span>
-
-4. <span data-ttu-id="9c2c8-139">(Opcional) No campo **Descrição**, digite uma descrição da regra de normalização (por exemplo, "Traduzir extensões de 5 dígitos").</span><span class="sxs-lookup"><span data-stu-id="9c2c8-139">(Optional) In **Description** field, type a description of the normalization rule (for example, "Translates 5-digit extensions").</span></span>
-
-5. <span data-ttu-id="9c2c8-140">Em **Compilar uma regra de normalização**, clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-140">In **Build a Normalization Rule**, click **Edit**.</span></span>
-
-6. <span data-ttu-id="9c2c8-141">Digite o seguinte em **Digitar uma expressão regular**:</span><span class="sxs-lookup"><span data-stu-id="9c2c8-141">Enter the following in **Type a Regular Expression**:</span></span>
-
-   - <span data-ttu-id="9c2c8-142">Em **Corresponder este padrão**, especifique o padrão que você deseja usar para coincidir com o número de telefone discado.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-142">In **Match this pattern**, specify the pattern that you want to use to match the dialed phone number.</span></span>
-
-   - <span data-ttu-id="9c2c8-143">Em **Regra de conversão**, especifique um padrão para o formato dos números de telefone E.164 convertidos.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-143">In **Translation rule**, specify a pattern for the format of translated E.164 phone numbers.</span></span>
-
-     <span data-ttu-id="9c2c8-144">Por exemplo, se você digitar ^(\d{7})$ em **corresponder este padrão** e + 1425$ 1 em **regra de conversão**, a regra normaliza 5550100 para + 14255550100.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-144">For example, if you enter ^(\d{7})$ in **Match this pattern** and+1425$1 in **Translation rule**, the rule normalizes 5550100 to +14255550100.</span></span>
-
-7. <span data-ttu-id="9c2c8-145">(Opcional) Se a regra de normalização resulta em um número de telefone interno à sua organização, selecione **Extensão interna**.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-145">(Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.</span></span>
-
-8. <span data-ttu-id="9c2c8-p107">(Opcional) Insira um número para testar a regra de normalização e clique em **Ir**. Os resultados do teste são exibidos em **Inserir um número para testar**.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-p107">(Optional) Enter a number to test the normalization rule and then click **Go**. The test results are displayed under **Enter a number to test**.</span></span>
-
-9. <span data-ttu-id="9c2c8-148">Clique em **OK** para salvar a regra de normalização.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-148">Click **OK** to save the normalization rule.</span></span>
-
-10. <span data-ttu-id="9c2c8-149">Clique em **OK** para salvar o plano de discagem.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-149">Click **OK** to save the dial plan.</span></span>
-
-11. <span data-ttu-id="9c2c8-150">Na página **Plano de Discagem**, clique em **Confirmar** e clique em **Confirmar tudo**.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-150">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
+11. <span data-ttu-id="8fbd5-132">Na página **Plano de Discagem**, clique em **Confirmar** e clique em **Confirmar tudo**.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-132">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="9c2c8-151">Sempre que criar ou alterar uma regra de normalização, você deve executar o comando **Confirmar todos** para publicar a alteração na configuração.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-151">Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="9c2c8-152">Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.</span><span class="sxs-lookup"><span data-stu-id="9c2c8-152">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
+    > <span data-ttu-id="8fbd5-133">Sempre que criar ou alterar uma regra de normalização, você deve executar o comando **Confirmar todos** para publicar a alteração na configuração.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-133">Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="8fbd5-134">Para obter detalhes, consulte [publicar alterações pendentes na configuração de roteamento de voz no Skype for Business](voice-route-config-changes.md) na documentação de operações.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-134">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
+
+### <a name="to-define-a-normalization-rule-manually"></a><span data-ttu-id="8fbd5-135">Para definir uma regra de normalização manualmente</span><span class="sxs-lookup"><span data-stu-id="8fbd5-135">To define a normalization rule manually</span></span>
+
+1. <span data-ttu-id="8fbd5-136">Abrir o painel de controle do Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="8fbd5-136">Open Skype for Business Server Control Panel</span></span>
+
+2. <span data-ttu-id="8fbd5-137">Adicionais Siga as etapas em [criar ou modificar um plano de discagem no Skype for Business Server](dial-plans.md).</span><span class="sxs-lookup"><span data-stu-id="8fbd5-137">(Optional) Follow the steps in [Create or modify a dial plan in Skype for Business Server](dial-plans.md).</span></span>
+
+3. <span data-ttu-id="8fbd5-138">Em **nova regra** de normalização ou **Editar regra**de normalização, digite um nome que descreva o padrão de número que está normalizado em **nome** (por exemplo, nomeie a normalização rule5DigitExtension).</span><span class="sxs-lookup"><span data-stu-id="8fbd5-138">In **New Normalization Rule** or **Edit Normalization Rule**, type a name that describes the number pattern being normalized in **Name** (for example, name the normalization rule5DigitExtension).</span></span>
+
+4. <span data-ttu-id="8fbd5-139">(Opcional) No campo **Descrição**, digite uma descrição da regra de normalização (por exemplo, "Traduzir extensões de 5 dígitos").</span><span class="sxs-lookup"><span data-stu-id="8fbd5-139">(Optional) In **Description** field, type a description of the normalization rule (for example, "Translates 5-digit extensions").</span></span>
+
+5. <span data-ttu-id="8fbd5-140">Em **Compilar uma regra de normalização**, clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-140">In **Build a Normalization Rule**, click **Edit**.</span></span>
+
+6. <span data-ttu-id="8fbd5-141">Digite o seguinte em **Digitar uma expressão regular**:</span><span class="sxs-lookup"><span data-stu-id="8fbd5-141">Enter the following in **Type a Regular Expression**:</span></span>
+
+   - <span data-ttu-id="8fbd5-142">Em **Corresponder este padrão**, especifique o padrão que você deseja usar para coincidir com o número de telefone discado.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-142">In **Match this pattern**, specify the pattern that you want to use to match the dialed phone number.</span></span>
+
+   - <span data-ttu-id="8fbd5-143">Em **Regra de conversão**, especifique um padrão para o formato dos números de telefone E.164 convertidos.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-143">In **Translation rule**, specify a pattern for the format of translated E.164 phone numbers.</span></span>
+
+     <span data-ttu-id="8fbd5-144">Por exemplo, se você inserir ^ (\d{7}) $ em **coincidir este padrão** e + 1425 $1 na **regra de tradução**, a regra normalizará 5550100 para + 14255550100.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-144">For example, if you enter ^(\d{7})$ in **Match this pattern** and+1425$1 in **Translation rule**, the rule normalizes 5550100 to +14255550100.</span></span>
+
+7. <span data-ttu-id="8fbd5-145">(Opcional) Se a regra de normalização resulta em um número de telefone interno à sua organização, selecione **Extensão interna**.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-145">(Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.</span></span>
+
+8. <span data-ttu-id="8fbd5-p107">(Opcional) Insira um número para testar a regra de normalização e clique em **Ir**. Os resultados do teste são exibidos em **Inserir um número para testar**.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-p107">(Optional) Enter a number to test the normalization rule and then click **Go**. The test results are displayed under **Enter a number to test**.</span></span>
+
+9. <span data-ttu-id="8fbd5-148">Clique em **OK** para salvar a regra de normalização.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-148">Click **OK** to save the normalization rule.</span></span>
+
+10. <span data-ttu-id="8fbd5-149">Clique em **OK** para salvar o plano de discagem.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-149">Click **OK** to save the dial plan.</span></span>
+
+11. <span data-ttu-id="8fbd5-150">Na página **Plano de Discagem**, clique em **Confirmar** e clique em **Confirmar tudo**.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-150">On the **Dial Plan** page, click **Commit**, and then click **Commit all**.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="8fbd5-151">Sempre que criar ou alterar uma regra de normalização, você deve executar o comando **Confirmar todos** para publicar a alteração na configuração.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-151">Whenever you create or change a normalization rule, you must run the **Commit all** command to publish the configuration change.</span></span> <span data-ttu-id="8fbd5-152">Para obter detalhes, consulte [publicar alterações pendentes na configuração de roteamento de voz no Skype for Business](voice-route-config-changes.md) na documentação de operações.</span><span class="sxs-lookup"><span data-stu-id="8fbd5-152">For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.</span></span>
 
 

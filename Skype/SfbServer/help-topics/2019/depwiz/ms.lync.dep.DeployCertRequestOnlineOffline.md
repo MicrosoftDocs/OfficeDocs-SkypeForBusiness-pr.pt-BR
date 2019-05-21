@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestOnlineOffline
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para criar uma solicitação atrasada ou uma solicitação offline, selecione Preparar a solicitação agora, mas enviá-la depois (solicitação de certificado offline). Para criar uma solicitação imediata a uma autoridade de certificação online (normalmente um sistema interno na infraestrutura de chave pública da sua organização), selecione Enviar a solicitação imediatamente para uma autoridade de certificação online.
-ms.openlocfilehash: 7818cd05dd4f0ce32e6c7056986d572611aa03fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Para criar uma solicitação atrasada ou uma solicitação offline, selecione Preparar a solicitação agora, mas enviá-la depois (solicitação de certificado offline). Para criar uma solicitação imediata para uma autoridade de certificação online (geralmente um sistema interno na infraestrutura de chave pública da sua organização), selecione enviar a solicitação imediatamente para uma autoridade de certificação online.
+ms.openlocfilehash: 23a106612157250687f977dcb40dc906fa001a37
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893872"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292819"
 ---
-# <a name="certificate-request-online-offline"></a><span data-ttu-id="b0a3c-104">Solicitação de Certificado (Online Offline)</span><span class="sxs-lookup"><span data-stu-id="b0a3c-104">Certificate Request (Online Offline)</span></span>
+# <a name="certificate-request-online-offline"></a><span data-ttu-id="5fbfb-104">Solicitação de Certificado (Online Offline)</span><span class="sxs-lookup"><span data-stu-id="5fbfb-104">Certificate Request (Online Offline)</span></span>
  
-<span data-ttu-id="b0a3c-105">Para criar uma solicitação atrasada ou uma solicitação offline, selecione **Preparar a solicitação agora, mas enviá-la depois (solicitação de certificado offline)**.</span><span class="sxs-lookup"><span data-stu-id="b0a3c-105">To create a delayed request or an offline request, select **Prepare the request now, but send it later (offline certificate request)**.</span></span> <span data-ttu-id="b0a3c-106">Para criar uma solicitação imediata a uma autoridade de certificação online (normalmente um sistema interno na infraestrutura de chave pública da sua organização), selecione **Enviar a solicitação imediatamente para uma autoridade de certificação online**.</span><span class="sxs-lookup"><span data-stu-id="b0a3c-106">To create an immediate request to an online certification authority (typically an internal system in your organization's public key infrastructure), select **Send the request immediately to an online certification authority**.</span></span>
+<span data-ttu-id="5fbfb-105">Para criar uma solicitação atrasada ou uma solicitação offline, selecione **Preparar a solicitação agora, mas enviá-la depois (solicitação de certificado offline)**.</span><span class="sxs-lookup"><span data-stu-id="5fbfb-105">To create a delayed request or an offline request, select **Prepare the request now, but send it later (offline certificate request)**.</span></span> <span data-ttu-id="5fbfb-106">Para criar uma solicitação imediata para uma autoridade de certificação online (geralmente um sistema interno na infraestrutura de chave pública da sua organização), selecione **enviar a solicitação imediatamente para uma autoridade de certificação online**.</span><span class="sxs-lookup"><span data-stu-id="5fbfb-106">To create an immediate request to an online certification authority (typically an internal system in your organization's public key infrastructure), select **Send the request immediately to an online certification authority**.</span></span>
   
-<span data-ttu-id="b0a3c-p103">Depois de fazer uma seleção, clique em **Avançar** para continuar. Se você quiser cancelar sem fazer alterações, clique em **Cancelar**. Para voltar para a etapa anterior, clique em **Voltar**.</span><span class="sxs-lookup"><span data-stu-id="b0a3c-p103">After you have made a selection, click **Next** to continue. If you want to cancel without making changes, click **Cancel**. To go back to the previous step, click **Back**.</span></span>
+<span data-ttu-id="5fbfb-p103">Depois de fazer uma seleção, clique em **Avançar** para continuar. Se você quiser cancelar sem fazer alterações, clique em **Cancelar**. Para voltar para a etapa anterior, clique em **Voltar**.</span><span class="sxs-lookup"><span data-stu-id="5fbfb-p103">After you have made a selection, click **Next** to continue. If you want to cancel without making changes, click **Cancel**. To go back to the previous step, click **Back**.</span></span>
   
 
