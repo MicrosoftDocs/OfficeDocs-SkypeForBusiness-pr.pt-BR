@@ -5,62 +5,62 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6625494d-1b63-4d99-a589-c8c69c4addba
 description: 'O cmdlet Get-CcSiteLogDirectory mostra o diretório atual onde estão armazenados os logs no nível do site do Skype for Business Cloud Connector Edition. '
-ms.openlocfilehash: c4354920ac25d076e550c5eda3a641eef0c8b900
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bc47c2ea2d81e70538305daa98f97a35cf3d9e0a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199073"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287283"
 ---
-# <a name="get-ccsitelogdirectory"></a><span data-ttu-id="becd5-103">Get-CcSiteLogDirectory</span><span class="sxs-lookup"><span data-stu-id="becd5-103">Get-CcSiteLogDirectory</span></span>
+# <a name="get-ccsitelogdirectory"></a><span data-ttu-id="834fa-103">Get-CcSiteLogDirectory</span><span class="sxs-lookup"><span data-stu-id="834fa-103">Get-CcSiteLogDirectory</span></span>
  
-<span data-ttu-id="becd5-104">O cmdlet Get-CcSiteLogDirectory mostra o diretório atual onde estão armazenados os logs no nível do site do Skype for Business Cloud Connector Edition. </span><span class="sxs-lookup"><span data-stu-id="becd5-104">The Get-CcSiteLogDirectory cmdlet shows the current directory where the site level logs for Skype for Business Cloud Connector Edition are stored.</span></span> 
+<span data-ttu-id="834fa-104">O cmdlet Get-CcSiteLogDirectory mostra o diretório atual onde estão armazenados os logs no nível do site do Skype for Business Cloud Connector Edition. </span><span class="sxs-lookup"><span data-stu-id="834fa-104">The Get-CcSiteLogDirectory cmdlet shows the current directory where the site level logs for Skype for Business Cloud Connector Edition are stored.</span></span> 
   
-<span data-ttu-id="becd5-105">Este cmdlet se aplica ao Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.</span><span class="sxs-lookup"><span data-stu-id="becd5-105">This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.</span></span>
-  
-```
-Get-CcSiteLogDirectory
-```
-
-## <a name="parameters"></a><span data-ttu-id="becd5-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="becd5-106">Parameters</span></span>
-
-<span data-ttu-id="becd5-107">Nenhum</span><span class="sxs-lookup"><span data-stu-id="becd5-107">None</span></span>
-  
-## <a name="examples"></a><span data-ttu-id="becd5-108">Exemplos</span><span class="sxs-lookup"><span data-stu-id="becd5-108">Examples</span></span>
-<span data-ttu-id="becd5-109"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="becd5-109"></span></span>
-
-### <a name="example-1"></a><span data-ttu-id="becd5-110">Exemplo 1</span><span class="sxs-lookup"><span data-stu-id="becd5-110">Example 1</span></span>
-
-<span data-ttu-id="becd5-111">O exemplo a seguir mostra a pasta atual, onde os arquivos de log para o site do conector de nuvem são armazenados:</span><span class="sxs-lookup"><span data-stu-id="becd5-111">The following example shows the current folder where the log files for the Cloud Connector site are stored:</span></span>
+<span data-ttu-id="834fa-105">Este cmdlet se aplica ao Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.</span><span class="sxs-lookup"><span data-stu-id="834fa-105">This cmdlet applies to Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.</span></span>
   
 ```
 Get-CcSiteLogDirectory
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="becd5-112">Descrição detalhada</span><span class="sxs-lookup"><span data-stu-id="becd5-112">Detailed Description</span></span>
-<span data-ttu-id="becd5-113"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="becd5-113"></span></span>
+## <a name="parameters"></a><span data-ttu-id="834fa-106">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="834fa-106">Parameters</span></span>
 
-<span data-ttu-id="becd5-114">A pasta padrão é C:\Users\%userprofile%\CloudConnector\SiteRoot\Logs.</span><span class="sxs-lookup"><span data-stu-id="becd5-114">The default folder is C:\Users\%userprofile%\CloudConnector\SiteRoot\Logs.</span></span> <span data-ttu-id="becd5-115">Você pode alterar a pasta executando o cmdlet Set-CcSiteDirectory.</span><span class="sxs-lookup"><span data-stu-id="becd5-115">You can change the folder by running the Set-CcSiteDirectory cmdlet.</span></span> <span data-ttu-id="becd5-116">Não há cmdlet separado que altere somente o local da pasta de log sem alterar o diretório do site.</span><span class="sxs-lookup"><span data-stu-id="becd5-116">There is no separate cmdlet that changes only the log folder location without changing the site directory.</span></span>
+<span data-ttu-id="834fa-107">Nenhum</span><span class="sxs-lookup"><span data-stu-id="834fa-107">None</span></span>
   
-## <a name="input-types"></a><span data-ttu-id="becd5-117">Tipos de entrada</span><span class="sxs-lookup"><span data-stu-id="becd5-117">Input Types</span></span>
-<span data-ttu-id="becd5-118"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="becd5-118"></span></span>
+## <a name="examples"></a><span data-ttu-id="834fa-108">Exemplos</span><span class="sxs-lookup"><span data-stu-id="834fa-108">Examples</span></span>
+<span data-ttu-id="834fa-109"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="834fa-109"></span></span>
 
-<span data-ttu-id="becd5-p102">Nenhum. O cmdlet Get-CsClientVersionPolicy não aceita a entrada por pipeline.</span><span class="sxs-lookup"><span data-stu-id="becd5-p102">None. The Get-CcSiteLogDirectory cmdlet does not accept pipelined input.</span></span>
+### <a name="example-1"></a><span data-ttu-id="834fa-110">Exemplo 1</span><span class="sxs-lookup"><span data-stu-id="834fa-110">Example 1</span></span>
+
+<span data-ttu-id="834fa-111">O exemplo a seguir mostra a pasta atual na qual os arquivos de log para o site do conector de nuvem são armazenados:</span><span class="sxs-lookup"><span data-stu-id="834fa-111">The following example shows the current folder where the log files for the Cloud Connector site are stored:</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="becd5-121">Tipos de retorno</span><span class="sxs-lookup"><span data-stu-id="becd5-121">Return Types</span></span>
-<span data-ttu-id="becd5-122"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="becd5-122"></span></span>
+```
+Get-CcSiteLogDirectory
+```
 
-<span data-ttu-id="becd5-123">O comando retorna um caminho de arquivo.</span><span class="sxs-lookup"><span data-stu-id="becd5-123">The command returns a file path.</span></span>
+## <a name="detailed-description"></a><span data-ttu-id="834fa-112">Descrição detalhada</span><span class="sxs-lookup"><span data-stu-id="834fa-112">Detailed Description</span></span>
+<span data-ttu-id="834fa-113"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="834fa-113"></span></span>
+
+<span data-ttu-id="834fa-114">A pasta padrão é C:\Users\%USERPROFILE%\CloudConnector\SiteRoot\Logs.</span><span class="sxs-lookup"><span data-stu-id="834fa-114">The default folder is C:\Users\%userprofile%\CloudConnector\SiteRoot\Logs.</span></span> <span data-ttu-id="834fa-115">Você pode alterar a pasta executando o cmdlet Set-CcSiteDirectory.</span><span class="sxs-lookup"><span data-stu-id="834fa-115">You can change the folder by running the Set-CcSiteDirectory cmdlet.</span></span> <span data-ttu-id="834fa-116">Não há cmdlet separado que altere somente o local da pasta de log sem alterar o diretório do site.</span><span class="sxs-lookup"><span data-stu-id="834fa-116">There is no separate cmdlet that changes only the log folder location without changing the site directory.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="becd5-124">Consulte também</span><span class="sxs-lookup"><span data-stu-id="becd5-124">See also</span></span>
-<span data-ttu-id="becd5-125"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="becd5-125"></span></span>
+## <a name="input-types"></a><span data-ttu-id="834fa-117">Tipos de entrada</span><span class="sxs-lookup"><span data-stu-id="834fa-117">Input Types</span></span>
+<span data-ttu-id="834fa-118"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="834fa-118"></span></span>
 
-[<span data-ttu-id="becd5-126">Set-CcSiteDirectory</span><span class="sxs-lookup"><span data-stu-id="becd5-126">Set-CcSiteDirectory</span></span>](set-ccsitedirectory.md)
+<span data-ttu-id="834fa-p102">Nenhum. O cmdlet Get-CsClientVersionPolicy não aceita a entrada por pipeline.</span><span class="sxs-lookup"><span data-stu-id="834fa-p102">None. The Get-CcSiteLogDirectory cmdlet does not accept pipelined input.</span></span>
+  
+## <a name="return-types"></a><span data-ttu-id="834fa-121">Tipos de retorno</span><span class="sxs-lookup"><span data-stu-id="834fa-121">Return Types</span></span>
+<span data-ttu-id="834fa-122"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="834fa-122"></span></span>
+
+<span data-ttu-id="834fa-123">O comando retorna um caminho de arquivo.</span><span class="sxs-lookup"><span data-stu-id="834fa-123">The command returns a file path.</span></span>
+  
+## <a name="see-also"></a><span data-ttu-id="834fa-124">Consulte também</span><span class="sxs-lookup"><span data-stu-id="834fa-124">See also</span></span>
+<span data-ttu-id="834fa-125"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="834fa-125"></span></span>
+
+[<span data-ttu-id="834fa-126">Set-CcSiteDirectory</span><span class="sxs-lookup"><span data-stu-id="834fa-126">Set-CcSiteDirectory</span></span>](set-ccsitedirectory.md)
   
 

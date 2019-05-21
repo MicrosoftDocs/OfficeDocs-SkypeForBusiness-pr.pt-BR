@@ -5,72 +5,72 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 6/22/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: O cmdlet Remove-CcLegacyServerCertificate remove os certificados do servidor herdados do Repositório de Gerenciamento Central, do Servidor de Mediação e do Servidor de Borda depois que você executa os cmdlets Renew-CcCACertificate ou Renew CcServerCertificate.
-ms.openlocfilehash: 5f148aa083b646565adf0158f34fb15314296170
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ab332f6f0c88de01f59342002f6387ab8a83a13b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32250868"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287073"
 ---
-# <a name="remove-cclegacyservercertificate"></a><span data-ttu-id="c995b-103">Remove-CcLegacyServerCertificate</span><span class="sxs-lookup"><span data-stu-id="c995b-103">Remove-CcLegacyServerCertificate</span></span>
+# <a name="remove-cclegacyservercertificate"></a><span data-ttu-id="9a9b4-103">Remove-CcLegacyServerCertificate</span><span class="sxs-lookup"><span data-stu-id="9a9b4-103">Remove-CcLegacyServerCertificate</span></span>
  
-<span data-ttu-id="c995b-104">O cmdlet Remove-CcLegacyServerCertificate remove os certificados do servidor herdados do Repositório de Gerenciamento Central, do Servidor de Mediação e do Servidor de Borda depois que você executa os cmdlets Renew-CcCACertificate ou Renew CcServerCertificate.</span><span class="sxs-lookup"><span data-stu-id="c995b-104">The Remove-CcLegacyServerCertificate cmdlet removes legacy server certificates on the Central Management Store, Mediation Server, and Edge Server after you execute the Renew-CcCACertificate or Renew CcServerCertificate cmdlets.</span></span>
+<span data-ttu-id="9a9b4-104">O cmdlet Remove-CcLegacyServerCertificate remove os certificados do servidor herdados do Repositório de Gerenciamento Central, do Servidor de Mediação e do Servidor de Borda depois que você executa os cmdlets Renew-CcCACertificate ou Renew CcServerCertificate.</span><span class="sxs-lookup"><span data-stu-id="9a9b4-104">The Remove-CcLegacyServerCertificate cmdlet removes legacy server certificates on the Central Management Store, Mediation Server, and Edge Server after you execute the Renew-CcCACertificate or Renew CcServerCertificate cmdlets.</span></span>
   
 ```
 Remove-CcLegacyServerCertificate [[-Roles] <array> {Cms | MS | Edge}] 
 ```
 
-## <a name="examples"></a><span data-ttu-id="c995b-105">Exemplos</span><span class="sxs-lookup"><span data-stu-id="c995b-105">Examples</span></span>
-<span data-ttu-id="c995b-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="c995b-106"></span></span>
+## <a name="examples"></a><span data-ttu-id="9a9b4-105">Exemplos</span><span class="sxs-lookup"><span data-stu-id="9a9b4-105">Examples</span></span>
+<span data-ttu-id="9a9b4-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="9a9b4-106"></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="c995b-107">Exemplo 1</span><span class="sxs-lookup"><span data-stu-id="c995b-107">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="9a9b4-107">Exemplo 1</span><span class="sxs-lookup"><span data-stu-id="9a9b4-107">Example 1</span></span>
 
-<span data-ttu-id="c995b-108">O exemplo seguinte remove os certificados herdados emitidos para o Repositório de Gerenciamento Central, o Servidor de Mediação e o Servidor de Borda depois de você renovar os certificados:</span><span class="sxs-lookup"><span data-stu-id="c995b-108">The following example removes legacy certificates issued for the Central Management Store, Mediation Server, and Edge Server after you have renewed the certificates:</span></span>
+<span data-ttu-id="9a9b4-108">O exemplo seguinte remove os certificados herdados emitidos para o Repositório de Gerenciamento Central, o Servidor de Mediação e o Servidor de Borda depois de você renovar os certificados:</span><span class="sxs-lookup"><span data-stu-id="9a9b4-108">The following example removes legacy certificates issued for the Central Management Store, Mediation Server, and Edge Server after you have renewed the certificates:</span></span>
   
 ```
 Remove-CcLegacyServerCertificate
 ```
 
-### <a name="example-2"></a><span data-ttu-id="c995b-109">Exemplo 2</span><span class="sxs-lookup"><span data-stu-id="c995b-109">Example 2</span></span>
+### <a name="example-2"></a><span data-ttu-id="9a9b4-109">Exemplo 2</span><span class="sxs-lookup"><span data-stu-id="9a9b4-109">Example 2</span></span>
 
-<span data-ttu-id="c995b-110">O exemplo seguinte remove os certificados emitidos para o Servidor de Mediação e o Servidor de Borda depois de você renovar os certificados: </span><span class="sxs-lookup"><span data-stu-id="c995b-110">The next example removes certificates issued for Mediation Server and Edge Server after you have renewed the certificates:</span></span> 
+<span data-ttu-id="9a9b4-110">O exemplo seguinte remove os certificados emitidos para o Servidor de Mediação e o Servidor de Borda depois de você renovar os certificados: </span><span class="sxs-lookup"><span data-stu-id="9a9b4-110">The next example removes certificates issued for Mediation Server and Edge Server after you have renewed the certificates:</span></span> 
   
 ```
 Remove-CcLegacyServerCertificate -Roles @("MS", "Edge") 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c995b-111">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="c995b-111">Parameters</span></span>
-<span data-ttu-id="c995b-112"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="c995b-112"></span></span>
+## <a name="parameters"></a><span data-ttu-id="9a9b4-111">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="9a9b4-111">Parameters</span></span>
+<span data-ttu-id="9a9b4-112"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="9a9b4-112"></span></span>
 
-|<span data-ttu-id="c995b-113">**Parâmetro**</span><span class="sxs-lookup"><span data-stu-id="c995b-113">**Parameter**</span></span>|<span data-ttu-id="c995b-114">**Obrigatório**</span><span class="sxs-lookup"><span data-stu-id="c995b-114">**Required**</span></span>|<span data-ttu-id="c995b-115">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="c995b-115">**Type**</span></span>|<span data-ttu-id="c995b-116">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="c995b-116">**Description**</span></span>|
+|<span data-ttu-id="9a9b4-113">**Parâmetro**</span><span class="sxs-lookup"><span data-stu-id="9a9b4-113">**Parameter**</span></span>|<span data-ttu-id="9a9b4-114">**Obrigatório**</span><span class="sxs-lookup"><span data-stu-id="9a9b4-114">**Required**</span></span>|<span data-ttu-id="9a9b4-115">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="9a9b4-115">**Type**</span></span>|<span data-ttu-id="9a9b4-116">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="9a9b4-116">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="c995b-117">Funções</span><span class="sxs-lookup"><span data-stu-id="c995b-117">Roles</span></span> <br/> |<span data-ttu-id="c995b-118">Opcional</span><span class="sxs-lookup"><span data-stu-id="c995b-118">Optional</span></span>  <br/> |<span data-ttu-id="c995b-119">System.Array </span><span class="sxs-lookup"><span data-stu-id="c995b-119">System.Array</span></span>  <br/> | <span data-ttu-id="c995b-120">Matriz das funções do servidor do Cloud Connector.</span><span class="sxs-lookup"><span data-stu-id="c995b-120">Array of Cloud Connector server roles.</span></span> <br/> |
+| <span data-ttu-id="9a9b4-117">Funções</span><span class="sxs-lookup"><span data-stu-id="9a9b4-117">Roles</span></span> <br/> |<span data-ttu-id="9a9b4-118">Opcional</span><span class="sxs-lookup"><span data-stu-id="9a9b4-118">Optional</span></span>  <br/> |<span data-ttu-id="9a9b4-119">System.Array </span><span class="sxs-lookup"><span data-stu-id="9a9b4-119">System.Array</span></span>  <br/> | <span data-ttu-id="9a9b4-120">Matriz das funções do servidor do Cloud Connector.</span><span class="sxs-lookup"><span data-stu-id="9a9b4-120">Array of Cloud Connector server roles.</span></span> <br/> |
    
-## <a name="input-types"></a><span data-ttu-id="c995b-121">Tipos de entrada</span><span class="sxs-lookup"><span data-stu-id="c995b-121">Input Types</span></span>
-<span data-ttu-id="c995b-122"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="c995b-122"></span></span>
+## <a name="input-types"></a><span data-ttu-id="9a9b4-121">Tipos de entrada</span><span class="sxs-lookup"><span data-stu-id="9a9b4-121">Input Types</span></span>
+<span data-ttu-id="9a9b4-122"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="9a9b4-122"></span></span>
 
-<span data-ttu-id="c995b-p101">Nenhum. O cmdlet Remove-CcLegacyServerCertificate não aceita a entrada por pipeline.</span><span class="sxs-lookup"><span data-stu-id="c995b-p101">None. The Remove-CcLegacyServerCertificate cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="9a9b4-p101">Nenhum. O cmdlet Remove-CcLegacyServerCertificate não aceita a entrada por pipeline.</span><span class="sxs-lookup"><span data-stu-id="9a9b4-p101">None. The Remove-CcLegacyServerCertificate cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="c995b-125">Tipos de retorno</span><span class="sxs-lookup"><span data-stu-id="c995b-125">Return Types</span></span>
-<span data-ttu-id="c995b-126"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="c995b-126"></span></span>
+## <a name="return-types"></a><span data-ttu-id="9a9b4-125">Tipos de retorno</span><span class="sxs-lookup"><span data-stu-id="9a9b4-125">Return Types</span></span>
+<span data-ttu-id="9a9b4-126"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="9a9b4-126"></span></span>
 
-<span data-ttu-id="c995b-127">Nenhum</span><span class="sxs-lookup"><span data-stu-id="c995b-127">None</span></span>
+<span data-ttu-id="9a9b4-127">Nenhum</span><span class="sxs-lookup"><span data-stu-id="9a9b4-127">None</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="c995b-128">Consulte Também</span><span class="sxs-lookup"><span data-stu-id="c995b-128">See also</span></span>
-<span data-ttu-id="c995b-129"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="c995b-129"></span></span>
+## <a name="see-also"></a><span data-ttu-id="9a9b4-128">Consulte Também</span><span class="sxs-lookup"><span data-stu-id="9a9b4-128">See also</span></span>
+<span data-ttu-id="9a9b4-129"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="9a9b4-129"></span></span>
 
-[<span data-ttu-id="c995b-130">Renew-CcServerCertificate</span><span class="sxs-lookup"><span data-stu-id="c995b-130">Renew-CcServerCertificate</span></span>](renew-ccservercertificate.md)
+[<span data-ttu-id="9a9b4-130">Renew-CcServerCertificate</span><span class="sxs-lookup"><span data-stu-id="9a9b4-130">Renew-CcServerCertificate</span></span>](renew-ccservercertificate.md)
   
-[<span data-ttu-id="c995b-131">Reset-CcCACertificate</span><span class="sxs-lookup"><span data-stu-id="c995b-131">Reset-CcCACertificate</span></span>](reset-cccacertificate.md)
+[<span data-ttu-id="9a9b4-131">Reset-CcCACertificate</span><span class="sxs-lookup"><span data-stu-id="9a9b4-131">Reset-CcCACertificate</span></span>](reset-cccacertificate.md)
   
-[<span data-ttu-id="c995b-132">Renew-CcCACertificate</span><span class="sxs-lookup"><span data-stu-id="c995b-132">Renew-CcCACertificate</span></span>](renew-cccacertificate.md)
+[<span data-ttu-id="9a9b4-132">Renew-CcCACertificate</span><span class="sxs-lookup"><span data-stu-id="9a9b4-132">Renew-CcCACertificate</span></span>](renew-cccacertificate.md)
   
-[<span data-ttu-id="c995b-133">Update-CcCACertificate</span><span class="sxs-lookup"><span data-stu-id="c995b-133">Update-CcCACertificate</span></span>](update-cccacertificate.md)
+[<span data-ttu-id="9a9b4-133">Update-CcCACertificate</span><span class="sxs-lookup"><span data-stu-id="9a9b4-133">Update-CcCACertificate</span></span>](update-cccacertificate.md)
   
 

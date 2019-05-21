@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserPinNum
@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para usar o email para enviar o PIN para o usuário, clique em abrir meu aplicativo de email para enviar o novo PIN para o usuário. Para copiar o PIN para a mensagem de email, selecione Mostrar PIN.
-ms.openlocfilehash: 2327b5b12e3c4e6a1bb926d229af745c54117340
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Para usar o email para enviar o PIN ao usuário, clique em abrir meu aplicativo de email para enviar o novo PIN ao usuário. Para copiar o PIN para a mensagem de email, selecione Mostrar PIN.
+ms.openlocfilehash: 99794938649eb6a1ed69ccbe4c7f73af6d9b4e76
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890724"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283623"
 ---
-# <a name="pin-set-successfully"></a><span data-ttu-id="55dcc-104">PIN Definido com Sucesso</span><span class="sxs-lookup"><span data-stu-id="55dcc-104">PIN Set Successfully</span></span>
+# <a name="pin-set-successfully"></a><span data-ttu-id="3a234-104">PIN Definido com Sucesso</span><span class="sxs-lookup"><span data-stu-id="3a234-104">PIN Set Successfully</span></span>
  
-<span data-ttu-id="55dcc-105">Para usar o email para enviar o PIN para o usuário, clique em **abrir meu aplicativo de email para enviar o novo PIN ao usuário**.</span><span class="sxs-lookup"><span data-stu-id="55dcc-105">To use email to send the PIN to the user, click **Open my email application to send the new PIN to the user**.</span></span> <span data-ttu-id="55dcc-106">Para copiar o PIN para a mensagem de email, selecione **Mostrar PIN**.</span><span class="sxs-lookup"><span data-stu-id="55dcc-106">To copy the PIN into the email message, select **Show PIN**.</span></span> 
+<span data-ttu-id="3a234-105">Para usar o email para enviar o PIN ao usuário, clique em **abrir meu aplicativo de email para enviar o novo PIN ao usuário**.</span><span class="sxs-lookup"><span data-stu-id="3a234-105">To use email to send the PIN to the user, click **Open my email application to send the new PIN to the user**.</span></span> <span data-ttu-id="3a234-106">Para copiar o PIN para a mensagem de email, selecione **Mostrar PIN**.</span><span class="sxs-lookup"><span data-stu-id="3a234-106">To copy the PIN into the email message, select **Show PIN**.</span></span> 
   
  
   

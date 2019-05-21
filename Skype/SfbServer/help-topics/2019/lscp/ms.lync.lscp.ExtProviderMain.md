@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ExtProviderMain
@@ -13,17 +13,17 @@ localization_priority: Normal
 ms.assetid: 0e875ac6-8afb-45bc-bcaa-3c7451125fae
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 2abb568b31137653cea7065c073df03ae5da9743
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 125e0afc82b8cbbebb739ce7fec820653f475b5c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891541"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287661"
 ---
-# <a name="sip-federated-providers"></a><span data-ttu-id="e3f8e-104">Provedores Federados SIP</span><span class="sxs-lookup"><span data-stu-id="e3f8e-104">SIP Federated Providers</span></span>
+# <a name="sip-federated-providers"></a><span data-ttu-id="22858-104">Provedores Federados SIP</span><span class="sxs-lookup"><span data-stu-id="22858-104">SIP Federated Providers</span></span>
 
-<span data-ttu-id="e3f8e-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="e3f8e-105">What do you want to do?</span></span> <span data-ttu-id="e3f8e-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="e3f8e-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="22858-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="22858-105">What do you want to do?</span></span> <span data-ttu-id="22858-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="22858-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="e3f8e-107">Manage SIP Federated Providers for Your Organization</span><span class="sxs-lookup"><span data-stu-id="e3f8e-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+- [<span data-ttu-id="22858-107">Manage SIP Federated Providers for Your Organization</span><span class="sxs-lookup"><span data-stu-id="22858-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
 
 

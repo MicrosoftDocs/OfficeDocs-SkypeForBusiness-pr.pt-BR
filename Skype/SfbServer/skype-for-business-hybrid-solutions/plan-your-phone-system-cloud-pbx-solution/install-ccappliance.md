@@ -5,22 +5,22 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: 'O cmdlet Install-CcAppliance instala o dispositivo do Skype for Business Cloud Connector Edition — incluindo as máquinas virtuais do AD, do Repositório de Gerenciamento Central, do Servidor de Mediação e do Servidor de Borda — no servidor host. '
-ms.openlocfilehash: 8f1a8b7d99a555006c1d69ee52f2403e9bf0a874
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 01c689c4a4639c12292d59def6b698281f402299
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880211"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287269"
 ---
-# <a name="install-ccappliance"></a><span data-ttu-id="6b4b9-103">Install-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="6b4b9-103">Install-CcAppliance</span></span>
+# <a name="install-ccappliance"></a><span data-ttu-id="03492-103">Install-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="03492-103">Install-CcAppliance</span></span>
  
-<span data-ttu-id="6b4b9-104">O cmdlet Install-CcAppliance instala o dispositivo do Skype for Business Cloud Connector Edition — incluindo as máquinas virtuais do AD, do Repositório de Gerenciamento Central, do Servidor de Mediação e do Servidor de Borda — no servidor host. </span><span class="sxs-lookup"><span data-stu-id="6b4b9-104">The Install-CcAppliance cmdlet installs the Skype for Business Cloud Connector Edition appliance—including the AD, Central Management Store, Mediation Server, and Edge Server virtual machines—on the host server.</span></span> 
+<span data-ttu-id="03492-104">O cmdlet Install-CcAppliance instala o dispositivo do Skype for Business Cloud Connector Edition — incluindo as máquinas virtuais do AD, do Repositório de Gerenciamento Central, do Servidor de Mediação e do Servidor de Borda — no servidor host. </span><span class="sxs-lookup"><span data-stu-id="03492-104">The Install-CcAppliance cmdlet installs the Skype for Business Cloud Connector Edition appliance—including the AD, Central Management Store, Mediation Server, and Edge Server virtual machines—on the host server.</span></span> 
   
 ```
 Install-CcAppliance [-Steps <array>] [-SkipExistingObjects] [-Upgrade] [-UpdateAllCredentials] [<CommonParameters>]
@@ -28,110 +28,110 @@ Install-CcAppliance [-Steps <array>] [-PrepareOnly]  [<CommonParameters>]
 Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
 ```
 
-## <a name="examples"></a><span data-ttu-id="6b4b9-105">Exemplos</span><span class="sxs-lookup"><span data-stu-id="6b4b9-105">Examples</span></span>
-<span data-ttu-id="6b4b9-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="6b4b9-106"></span></span>
+## <a name="examples"></a><span data-ttu-id="03492-105">Exemplos</span><span class="sxs-lookup"><span data-stu-id="03492-105">Examples</span></span>
+<span data-ttu-id="03492-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="03492-106"></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="6b4b9-107">Exemplo 1</span><span class="sxs-lookup"><span data-stu-id="6b4b9-107">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="03492-107">Exemplo 1</span><span class="sxs-lookup"><span data-stu-id="03492-107">Example 1</span></span>
 
-<span data-ttu-id="6b4b9-108">O exemplo a seguir instala um novo dispositivo de conector de nuvem no servidor host:</span><span class="sxs-lookup"><span data-stu-id="6b4b9-108">The following example installs a new Cloud Connector appliance on the host server:</span></span>
+<span data-ttu-id="03492-108">O exemplo a seguir instala um novo dispositivo de conector de nuvem no servidor host:</span><span class="sxs-lookup"><span data-stu-id="03492-108">The following example installs a new Cloud Connector appliance on the host server:</span></span>
   
 ```
 Install-CcAppliance
 ```
 
-### <a name="example-2"></a><span data-ttu-id="6b4b9-109">Exemplo 2</span><span class="sxs-lookup"><span data-stu-id="6b4b9-109">Example 2</span></span>
+### <a name="example-2"></a><span data-ttu-id="03492-109">Exemplo 2</span><span class="sxs-lookup"><span data-stu-id="03492-109">Example 2</span></span>
 
-<span data-ttu-id="6b4b9-110">O exemplo a seguir atualiza o conector de nuvem para a versão mais recente:</span><span class="sxs-lookup"><span data-stu-id="6b4b9-110">The following example upgrades Cloud Connector to the latest version:</span></span>
+<span data-ttu-id="03492-110">O exemplo a seguir atualiza o conector de nuvem para a versão mais recente:</span><span class="sxs-lookup"><span data-stu-id="03492-110">The following example upgrades Cloud Connector to the latest version:</span></span>
   
 ```
 Install-CcAppliance -Upgrade
 ```
 
-### <a name="example-3"></a><span data-ttu-id="6b4b9-111">Exemplo 3</span><span class="sxs-lookup"><span data-stu-id="6b4b9-111">Example 3</span></span>
+### <a name="example-3"></a><span data-ttu-id="03492-111">Exemplo 3</span><span class="sxs-lookup"><span data-stu-id="03492-111">Example 3</span></span>
 
-<span data-ttu-id="6b4b9-112">O exemplo a seguir remove todas as credenciais de nuvem conector armazenados em cache no servidor host, solicita ao usuário para especificar todas as informações de credencial novamente e em seguida, instala o conector de nuvem:</span><span class="sxs-lookup"><span data-stu-id="6b4b9-112">The following example removes all Cloud Connector credentials cached on the host server, prompts the user to specify all credential information again, and then installs Cloud Connector:</span></span>
+<span data-ttu-id="03492-112">O exemplo a seguir remove todas as credenciais do conector de nuvem armazenadas em cache no servidor host, solicita que o usuário especifique todas as informações de credenciais novamente e, em seguida, instale o Cloud Connector:</span><span class="sxs-lookup"><span data-stu-id="03492-112">The following example removes all Cloud Connector credentials cached on the host server, prompts the user to specify all credential information again, and then installs Cloud Connector:</span></span>
   
 ```
 Install-CcAppliance -UpdateAllCredentials
 ```
 
-### <a name="example-4"></a><span data-ttu-id="6b4b9-113">Exemplo 4</span><span class="sxs-lookup"><span data-stu-id="6b4b9-113">Example 4</span></span>
+### <a name="example-4"></a><span data-ttu-id="03492-113">Exemplo 4</span><span class="sxs-lookup"><span data-stu-id="03492-113">Example 4</span></span>
 
-<span data-ttu-id="6b4b9-114">O seguinte exemplo exibe todas as etapas de implantação no console do PowerShell:</span><span class="sxs-lookup"><span data-stu-id="6b4b9-114">The following example displays all deployment steps in the PowerShell console:</span></span>
+<span data-ttu-id="03492-114">O seguinte exemplo exibe todas as etapas de implantação no console do PowerShell:</span><span class="sxs-lookup"><span data-stu-id="03492-114">The following example displays all deployment steps in the PowerShell console:</span></span>
   
 ```
 Install-CcAppliance -ShowStepsOnly
 ```
 
-<span data-ttu-id="6b4b9-115">O parâmetro -ShowStepsOnly é apenas para solução de problemas.</span><span class="sxs-lookup"><span data-stu-id="6b4b9-115">The -ShowStepsOnly parameter is for troubleshooting only.</span></span>
+<span data-ttu-id="03492-115">O parâmetro -ShowStepsOnly é apenas para solução de problemas.</span><span class="sxs-lookup"><span data-stu-id="03492-115">The -ShowStepsOnly parameter is for troubleshooting only.</span></span>
   
-### <a name="example-5"></a><span data-ttu-id="6b4b9-116">Exemplo 5</span><span class="sxs-lookup"><span data-stu-id="6b4b9-116">Example 5</span></span>
+### <a name="example-5"></a><span data-ttu-id="03492-116">Exemplo 5</span><span class="sxs-lookup"><span data-stu-id="03492-116">Example 5</span></span>
 
-<span data-ttu-id="6b4b9-117">O exemplo seguinte gera arquivos de configuração para cada etapa de implantação no servidor host.</span><span class="sxs-lookup"><span data-stu-id="6b4b9-117">The following example generates configuration files for each deployment step on the host server.</span></span> <span data-ttu-id="6b4b9-118">Arquivos de configuração são salvas o \<ApplianceRoot\>\Instances\\<Version\>-default\ExportedConfig pasta no servidor host:</span><span class="sxs-lookup"><span data-stu-id="6b4b9-118">Configuration files are saved to the \<ApplianceRoot\>\Instances\\<Version\>-default\ExportedConfig folder on the host server:</span></span>
+<span data-ttu-id="03492-117">O exemplo seguinte gera arquivos de configuração para cada etapa de implantação no servidor host.</span><span class="sxs-lookup"><span data-stu-id="03492-117">The following example generates configuration files for each deployment step on the host server.</span></span> <span data-ttu-id="03492-118">Os arquivos de configuração são salvos \<na\>pasta\\ApplianceRoot\>\Instances <Version-default\ExportedConfig no servidor host:</span><span class="sxs-lookup"><span data-stu-id="03492-118">Configuration files are saved to the \<ApplianceRoot\>\Instances\\<Version\>-default\ExportedConfig folder on the host server:</span></span>
   
 ```
 Install-CcAppliance -PrepareOnly
 ```
 
-<span data-ttu-id="6b4b9-119">Para determinar a raiz do dispositivo, execute o cmdlet Get-CcApplianceDirectory. </span><span class="sxs-lookup"><span data-stu-id="6b4b9-119">To determine the appliance root, run the Get-CcApplianceDirectory cmdlet.</span></span> 
+<span data-ttu-id="03492-119">Para determinar a raiz do dispositivo, execute o cmdlet Get-CcApplianceDirectory. </span><span class="sxs-lookup"><span data-stu-id="03492-119">To determine the appliance root, run the Get-CcApplianceDirectory cmdlet.</span></span> 
   
-### <a name="example-6"></a><span data-ttu-id="6b4b9-120">Exemplo 6</span><span class="sxs-lookup"><span data-stu-id="6b4b9-120">Example 6</span></span>
+### <a name="example-6"></a><span data-ttu-id="03492-120">Exemplo 6</span><span class="sxs-lookup"><span data-stu-id="03492-120">Example 6</span></span>
 
-<span data-ttu-id="6b4b9-p102">No exemplo seguinte, o Cloud Connector executa as etapas de implantação 1, 2 e 3 para criar comutadores virtuais, criar uma máquina virtual do AD e instalar o serviço do domínio no servidor AD. Ele pula a etapa se ela já tiver sido executada:</span><span class="sxs-lookup"><span data-stu-id="6b4b9-p102">In the following example, Cloud Connector runs deployment steps 1, 2, and 3 to create virtual switches, create an AD virtual machine, and install the domain service on the AD server. It skips the step if the step has already been executed:</span></span>
+<span data-ttu-id="03492-p102">No exemplo seguinte, o Cloud Connector executa as etapas de implantação 1, 2 e 3 para criar comutadores virtuais, criar uma máquina virtual do AD e instalar o serviço do domínio no servidor AD. Ele pula a etapa se ela já tiver sido executada:</span><span class="sxs-lookup"><span data-stu-id="03492-p102">In the following example, Cloud Connector runs deployment steps 1, 2, and 3 to create virtual switches, create an AD virtual machine, and install the domain service on the AD server. It skips the step if the step has already been executed:</span></span>
   
 ```
 Install-CcAppliance -Steps @(1,2,3) -SkipExistingObjects
 ```
 
-<span data-ttu-id="6b4b9-123">O parâmetro SkipExistingObjects deve ser usado em conjunto com o parâmetro Steps.</span><span class="sxs-lookup"><span data-stu-id="6b4b9-123">The SkipExistingObjects parameter must be used in conjunction with the Steps parameter.</span></span>
+<span data-ttu-id="03492-123">O parâmetro SkipExistingObjects deve ser usado em conjunto com o parâmetro Steps.</span><span class="sxs-lookup"><span data-stu-id="03492-123">The SkipExistingObjects parameter must be used in conjunction with the Steps parameter.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="6b4b9-124">O parâmetro Steps é apenas para solução de problemas.</span><span class="sxs-lookup"><span data-stu-id="6b4b9-124">The Steps parameter is for troubleshooting purposes only.</span></span> <span data-ttu-id="6b4b9-125">Não use este parâmetro para implantar um dispositivo ou para atualizar um dispositivo que está em serviço.</span><span class="sxs-lookup"><span data-stu-id="6b4b9-125">Do not use this parameter to deploy an appliance or to upgrade an appliance that is in service.</span></span> 
+> <span data-ttu-id="03492-124">O parâmetro Steps é apenas para solução de problemas.</span><span class="sxs-lookup"><span data-stu-id="03492-124">The Steps parameter is for troubleshooting purposes only.</span></span> <span data-ttu-id="03492-125">Não use este parâmetro para implantar um dispositivo ou para atualizar um dispositivo que está em serviço.</span><span class="sxs-lookup"><span data-stu-id="03492-125">Do not use this parameter to deploy an appliance or to upgrade an appliance that is in service.</span></span> 
   
-<span data-ttu-id="6b4b9-126">Para determinar as etapas da implantação, execute o seguinte comando:</span><span class="sxs-lookup"><span data-stu-id="6b4b9-126">To determine the steps of the deployment, run the following command:</span></span>
+<span data-ttu-id="03492-126">Para determinar as etapas da implantação, execute o seguinte comando:</span><span class="sxs-lookup"><span data-stu-id="03492-126">To determine the steps of the deployment, run the following command:</span></span>
   
-<span data-ttu-id="6b4b9-127">Install-CcAppliance -ShowStepsOnly</span><span class="sxs-lookup"><span data-stu-id="6b4b9-127">Install-CcAppliance -ShowStepsOnly</span></span>
+<span data-ttu-id="03492-127">Install-CcAppliance -ShowStepsOnly</span><span class="sxs-lookup"><span data-stu-id="03492-127">Install-CcAppliance -ShowStepsOnly</span></span>
   
-## <a name="detailed-description"></a><span data-ttu-id="6b4b9-128">Descrição detalhada</span><span class="sxs-lookup"><span data-stu-id="6b4b9-128">Detailed Description</span></span>
-<span data-ttu-id="6b4b9-129"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="6b4b9-129"></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="03492-128">Descrição detalhada</span><span class="sxs-lookup"><span data-stu-id="03492-128">Detailed Description</span></span>
+<span data-ttu-id="03492-129"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="03492-129"></span></span>
 
-<span data-ttu-id="6b4b9-130">O cmdlet Install-CcAppliance é usado para implantar o conector de nuvem para um novo aparelho ou atualizar um aparelho existente para a versão mais recente.</span><span class="sxs-lookup"><span data-stu-id="6b4b9-130">The Install-CcAppliance cmdlet is used to deploy Cloud Connector to a new appliance or to upgrade an existing appliance to the latest version.</span></span>
+<span data-ttu-id="03492-130">O cmdlet Install-CcAppliance é usado para implantar o conector de nuvem em um novo dispositivo ou para atualizar um aparelho existente para a versão mais recente.</span><span class="sxs-lookup"><span data-stu-id="03492-130">The Install-CcAppliance cmdlet is used to deploy Cloud Connector to a new appliance or to upgrade an existing appliance to the latest version.</span></span>
   
-<span data-ttu-id="6b4b9-131">Se você tiver um novo aplicativo, certifique-se de ler o tópico Preparar seu ambiente para o Cloud Connector primeiro, executar o cmdlet Register-CcAppliance para registrar o dispositivo e depois executar o cmdlet Install-CcAppliance.</span><span class="sxs-lookup"><span data-stu-id="6b4b9-131">If you have a new appliance, be sure to read Prepare your environment for Cloud Connector first, run the Register-CcAppliance cmdlet to register the appliance, and then run the Install-CcAppliance cmdlet.</span></span> <span data-ttu-id="6b4b9-132">Para obter mais informações, consulte [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) e [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md).</span><span class="sxs-lookup"><span data-stu-id="6b4b9-132">For more information, see [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) and [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md).</span></span> 
+<span data-ttu-id="03492-131">Se você tiver um novo aplicativo, certifique-se de ler o tópico Preparar seu ambiente para o Cloud Connector primeiro, executar o cmdlet Register-CcAppliance para registrar o dispositivo e depois executar o cmdlet Install-CcAppliance.</span><span class="sxs-lookup"><span data-stu-id="03492-131">If you have a new appliance, be sure to read Prepare your environment for Cloud Connector first, run the Register-CcAppliance cmdlet to register the appliance, and then run the Install-CcAppliance cmdlet.</span></span> <span data-ttu-id="03492-132">Para obter mais informações, consulte [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) e [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md).</span><span class="sxs-lookup"><span data-stu-id="03492-132">For more information, see [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) and [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md).</span></span> 
   
-<span data-ttu-id="6b4b9-133">Se você tiver uma implantação existente do conector de nuvem e você deseja atualizar, siga as instruções [de atualização para uma nova versão do conector de nuvem](upgrade-to-a-new-version-of-cloud-connector.md).</span><span class="sxs-lookup"><span data-stu-id="6b4b9-133">If you have an existing deployment of Cloud Connector and you want to upgrade, please follow the instructions in [Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md).</span></span>
+<span data-ttu-id="03492-133">Se você tiver uma implantação existente do conector de nuvem e quiser atualizar, siga as instruções em [atualizar para uma nova versão do Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md).</span><span class="sxs-lookup"><span data-stu-id="03492-133">If you have an existing deployment of Cloud Connector and you want to upgrade, please follow the instructions in [Upgrade to a new version of Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md).</span></span>
   
-## <a name="parameters"></a><span data-ttu-id="6b4b9-134">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="6b4b9-134">Parameters</span></span>
-<span data-ttu-id="6b4b9-135"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="6b4b9-135"></span></span>
+## <a name="parameters"></a><span data-ttu-id="03492-134">Parâmetros</span><span class="sxs-lookup"><span data-stu-id="03492-134">Parameters</span></span>
+<span data-ttu-id="03492-135"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="03492-135"></span></span>
 
-|<span data-ttu-id="6b4b9-136">**Parâmetro**</span><span class="sxs-lookup"><span data-stu-id="6b4b9-136">**Parameter**</span></span>|<span data-ttu-id="6b4b9-137">**Obrigatório**</span><span class="sxs-lookup"><span data-stu-id="6b4b9-137">**Required**</span></span>|<span data-ttu-id="6b4b9-138">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="6b4b9-138">**Type**</span></span>|<span data-ttu-id="6b4b9-139">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="6b4b9-139">**Description**</span></span>|
+|<span data-ttu-id="03492-136">**Parâmetro**</span><span class="sxs-lookup"><span data-stu-id="03492-136">**Parameter**</span></span>|<span data-ttu-id="03492-137">**Obrigatório**</span><span class="sxs-lookup"><span data-stu-id="03492-137">**Required**</span></span>|<span data-ttu-id="03492-138">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="03492-138">**Type**</span></span>|<span data-ttu-id="03492-139">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="03492-139">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="6b4b9-140">PrepareOnly</span><span class="sxs-lookup"><span data-stu-id="6b4b9-140">PrepareOnly</span></span>  <br/> |<span data-ttu-id="6b4b9-141">Opcional</span><span class="sxs-lookup"><span data-stu-id="6b4b9-141">Optional</span></span>  <br/> |<span data-ttu-id="6b4b9-142">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="6b4b9-142">System.Management.Automation.SwitchParameter</span></span>  <br/> | <span data-ttu-id="6b4b9-p105"> Gerar arquivos de configuração para cada etapa da implantação. Este parâmetro tem a finalidade exclusiva de solução de problemas. </span><span class="sxs-lookup"><span data-stu-id="6b4b9-p105">Generate configuration files for each deployment step. This parameter is for troubleshooting only.</span></span> <br/> |
-|<span data-ttu-id="6b4b9-145">ShowStepsOnly</span><span class="sxs-lookup"><span data-stu-id="6b4b9-145">ShowStepsOnly</span></span>  <br/> |<span data-ttu-id="6b4b9-146">Opcional</span><span class="sxs-lookup"><span data-stu-id="6b4b9-146">Optional</span></span>  <br/> |<span data-ttu-id="6b4b9-147">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="6b4b9-147">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="6b4b9-p106">Exibir apenas os nomes das etapas de implantação. Este parâmetro tem a finalidade exclusiva de solução de problemas.</span><span class="sxs-lookup"><span data-stu-id="6b4b9-p106">Display deployment step names only. This parameter is for troubleshooting only.</span></span>  <br/> |
-|<span data-ttu-id="6b4b9-150">SkipExistingObjects</span><span class="sxs-lookup"><span data-stu-id="6b4b9-150">SkipExistingObjects</span></span>  <br/> |<span data-ttu-id="6b4b9-151">Opcional</span><span class="sxs-lookup"><span data-stu-id="6b4b9-151">Optional</span></span>  <br/> |<span data-ttu-id="6b4b9-152">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="6b4b9-152">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="6b4b9-p107">Este parâmetro deve ser usado em conjunto com o parâmetro Steps. Este parâmetro tem a finalidade exclusiva de solução de problemas.</span><span class="sxs-lookup"><span data-stu-id="6b4b9-p107">This parameter must be used in conjunction with the Steps parameter. This parameter is for troubleshooting only.</span></span>  <br/> |
-|<span data-ttu-id="6b4b9-155">Etapas</span><span class="sxs-lookup"><span data-stu-id="6b4b9-155">Steps</span></span>  <br/> |<span data-ttu-id="6b4b9-156">Opcional</span><span class="sxs-lookup"><span data-stu-id="6b4b9-156">Optional</span></span>  <br/> |<span data-ttu-id="6b4b9-157">System.Array</span><span class="sxs-lookup"><span data-stu-id="6b4b9-157">System.Array</span></span>  <br/> |<span data-ttu-id="6b4b9-p108">Executar as etapas de implantação. Este parâmetro tem a finalidade exclusiva de solução de problemas.</span><span class="sxs-lookup"><span data-stu-id="6b4b9-p108">Run the deployment steps. This parameter is for troubleshooting only.</span></span>  <br/> |
-|<span data-ttu-id="6b4b9-160">Atualizar</span><span class="sxs-lookup"><span data-stu-id="6b4b9-160">Upgrade</span></span>  <br/> |<span data-ttu-id="6b4b9-161">Opcional</span><span class="sxs-lookup"><span data-stu-id="6b4b9-161">Optional</span></span>  <br/> |<span data-ttu-id="6b4b9-162">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="6b4b9-162">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="6b4b9-163">Atualizar o Cloud Connector existente para a versão mais recente.</span><span class="sxs-lookup"><span data-stu-id="6b4b9-163">Upgrade existing Cloud Connector to the latest version.</span></span>  <br/> |
-|<span data-ttu-id="6b4b9-164">UpdateAllCredentials</span><span class="sxs-lookup"><span data-stu-id="6b4b9-164">UpdateAllCredentials</span></span>  <br/> |<span data-ttu-id="6b4b9-165">Opcional</span><span class="sxs-lookup"><span data-stu-id="6b4b9-165">Optional</span></span>  <br/> |<span data-ttu-id="6b4b9-166">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="6b4b9-166">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="6b4b9-167">Remova todas as credenciais de nuvem conector no cache.</span><span class="sxs-lookup"><span data-stu-id="6b4b9-167">Remove all Cloud Connector credentials in the cache.</span></span> <span data-ttu-id="6b4b9-168">Pedir para o usuário especificar as informações das novas credenciais para a instalação.</span><span class="sxs-lookup"><span data-stu-id="6b4b9-168">Prompt the user to specify new credential information for the installation.</span></span>  <br/> |
+|<span data-ttu-id="03492-140">PrepareOnly</span><span class="sxs-lookup"><span data-stu-id="03492-140">PrepareOnly</span></span>  <br/> |<span data-ttu-id="03492-141">Opcional</span><span class="sxs-lookup"><span data-stu-id="03492-141">Optional</span></span>  <br/> |<span data-ttu-id="03492-142">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="03492-142">System.Management.Automation.SwitchParameter</span></span>  <br/> | <span data-ttu-id="03492-p105"> Gerar arquivos de configuração para cada etapa da implantação. Este parâmetro tem a finalidade exclusiva de solução de problemas. </span><span class="sxs-lookup"><span data-stu-id="03492-p105">Generate configuration files for each deployment step. This parameter is for troubleshooting only.</span></span> <br/> |
+|<span data-ttu-id="03492-145">ShowStepsOnly</span><span class="sxs-lookup"><span data-stu-id="03492-145">ShowStepsOnly</span></span>  <br/> |<span data-ttu-id="03492-146">Opcional</span><span class="sxs-lookup"><span data-stu-id="03492-146">Optional</span></span>  <br/> |<span data-ttu-id="03492-147">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="03492-147">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="03492-p106">Exibir apenas os nomes das etapas de implantação. Este parâmetro tem a finalidade exclusiva de solução de problemas.</span><span class="sxs-lookup"><span data-stu-id="03492-p106">Display deployment step names only. This parameter is for troubleshooting only.</span></span>  <br/> |
+|<span data-ttu-id="03492-150">SkipExistingObjects</span><span class="sxs-lookup"><span data-stu-id="03492-150">SkipExistingObjects</span></span>  <br/> |<span data-ttu-id="03492-151">Opcional</span><span class="sxs-lookup"><span data-stu-id="03492-151">Optional</span></span>  <br/> |<span data-ttu-id="03492-152">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="03492-152">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="03492-p107">Este parâmetro deve ser usado em conjunto com o parâmetro Steps. Este parâmetro tem a finalidade exclusiva de solução de problemas.</span><span class="sxs-lookup"><span data-stu-id="03492-p107">This parameter must be used in conjunction with the Steps parameter. This parameter is for troubleshooting only.</span></span>  <br/> |
+|<span data-ttu-id="03492-155">Etapas</span><span class="sxs-lookup"><span data-stu-id="03492-155">Steps</span></span>  <br/> |<span data-ttu-id="03492-156">Opcional</span><span class="sxs-lookup"><span data-stu-id="03492-156">Optional</span></span>  <br/> |<span data-ttu-id="03492-157">System.Array</span><span class="sxs-lookup"><span data-stu-id="03492-157">System.Array</span></span>  <br/> |<span data-ttu-id="03492-p108">Executar as etapas de implantação. Este parâmetro tem a finalidade exclusiva de solução de problemas.</span><span class="sxs-lookup"><span data-stu-id="03492-p108">Run the deployment steps. This parameter is for troubleshooting only.</span></span>  <br/> |
+|<span data-ttu-id="03492-160">Atualizar</span><span class="sxs-lookup"><span data-stu-id="03492-160">Upgrade</span></span>  <br/> |<span data-ttu-id="03492-161">Opcional</span><span class="sxs-lookup"><span data-stu-id="03492-161">Optional</span></span>  <br/> |<span data-ttu-id="03492-162">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="03492-162">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="03492-163">Atualizar o Cloud Connector existente para a versão mais recente.</span><span class="sxs-lookup"><span data-stu-id="03492-163">Upgrade existing Cloud Connector to the latest version.</span></span>  <br/> |
+|<span data-ttu-id="03492-164">UpdateAllCredentials</span><span class="sxs-lookup"><span data-stu-id="03492-164">UpdateAllCredentials</span></span>  <br/> |<span data-ttu-id="03492-165">Opcional</span><span class="sxs-lookup"><span data-stu-id="03492-165">Optional</span></span>  <br/> |<span data-ttu-id="03492-166">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="03492-166">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="03492-167">Remova todas as credenciais do conector de nuvem no cache.</span><span class="sxs-lookup"><span data-stu-id="03492-167">Remove all Cloud Connector credentials in the cache.</span></span> <span data-ttu-id="03492-168">Pedir para o usuário especificar as informações das novas credenciais para a instalação.</span><span class="sxs-lookup"><span data-stu-id="03492-168">Prompt the user to specify new credential information for the installation.</span></span>  <br/> |
    
-## <a name="input-types"></a><span data-ttu-id="6b4b9-169">Tipos de entrada</span><span class="sxs-lookup"><span data-stu-id="6b4b9-169">Input Types</span></span>
-<span data-ttu-id="6b4b9-170"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="6b4b9-170"></span></span>
+## <a name="input-types"></a><span data-ttu-id="03492-169">Tipos de entrada</span><span class="sxs-lookup"><span data-stu-id="03492-169">Input Types</span></span>
+<span data-ttu-id="03492-170"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="03492-170"></span></span>
 
-<span data-ttu-id="6b4b9-p110">Nenhum. O cmdlet Install-CcAppliance não aceita a entrada por pipeline.</span><span class="sxs-lookup"><span data-stu-id="6b4b9-p110">None. The Install-CcAppliance cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="03492-p110">Nenhum. O cmdlet Install-CcAppliance não aceita a entrada por pipeline.</span><span class="sxs-lookup"><span data-stu-id="03492-p110">None. The Install-CcAppliance cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="6b4b9-173">Tipos de retorno</span><span class="sxs-lookup"><span data-stu-id="6b4b9-173">Return Types</span></span>
-<span data-ttu-id="6b4b9-174"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="6b4b9-174"></span></span>
+## <a name="return-types"></a><span data-ttu-id="03492-173">Tipos de retorno</span><span class="sxs-lookup"><span data-stu-id="03492-173">Return Types</span></span>
+<span data-ttu-id="03492-174"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="03492-174"></span></span>
 
-<span data-ttu-id="6b4b9-175">Nenhum</span><span class="sxs-lookup"><span data-stu-id="6b4b9-175">None</span></span>
+<span data-ttu-id="03492-175">Nenhum</span><span class="sxs-lookup"><span data-stu-id="03492-175">None</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="6b4b9-176">Consulte Também</span><span class="sxs-lookup"><span data-stu-id="6b4b9-176">See also</span></span>
-<span data-ttu-id="6b4b9-177"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="6b4b9-177"></span></span>
+## <a name="see-also"></a><span data-ttu-id="03492-176">Consulte Também</span><span class="sxs-lookup"><span data-stu-id="03492-176">See also</span></span>
+<span data-ttu-id="03492-177"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="03492-177"></span></span>
 
-[<span data-ttu-id="6b4b9-178">Publish-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="6b4b9-178">Publish-CcAppliance</span></span>](publish-ccappliance.md)
+[<span data-ttu-id="03492-178">Publish-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="03492-178">Publish-CcAppliance</span></span>](publish-ccappliance.md)
   
-[<span data-ttu-id="6b4b9-179">Register-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="6b4b9-179">Register-CcAppliance</span></span>](register-ccappliance.md)
+[<span data-ttu-id="03492-179">Register-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="03492-179">Register-CcAppliance</span></span>](register-ccappliance.md)
   
-[<span data-ttu-id="6b4b9-180">Unregister-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="6b4b9-180">Unregister-CcAppliance</span></span>](unregister-ccappliance.md)
+[<span data-ttu-id="03492-180">Unregister-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="03492-180">Unregister-CcAppliance</span></span>](unregister-ccappliance.md)
   
-[<span data-ttu-id="6b4b9-181">Uninstall-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="6b4b9-181">Uninstall-CcAppliance</span></span>](uninstall-ccappliance.md)
+[<span data-ttu-id="03492-181">Uninstall-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="03492-181">Uninstall-CcAppliance</span></span>](uninstall-ccappliance.md)
   
 
