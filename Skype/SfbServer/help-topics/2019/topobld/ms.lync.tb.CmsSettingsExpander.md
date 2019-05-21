@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.CmsSettingsExpander
@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 ROBOTS: NOINDEX, NOFOLLOW
 description: O Servidor de Gerenciamento Central pode ser alterado de um pool de Front-Ends definido para outro pool de Front-Ends definido. Para alterar o local do Servidor de Gerenciamento Central, selecione na lista suspensa o pool de Front-Ends em Servidor Front-End no qual instalar o Servidor de Gerenciamento Central em:. Um Servidor Front-End pode ser um pool de Front-Ends Enterprise Edition ou um Servidor Front-End Standard Edition.
-ms.openlocfilehash: f45cd060bf263ba9071c8260a3c0ad380174bc3b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c75ae1a9e0c6f1cbde831e10a52e6be2cb3f0769
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916053"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280584"
 ---
-# <a name="cms-settings-expander"></a><span data-ttu-id="bc6e0-105">Expansor de Configurações de CMS</span><span class="sxs-lookup"><span data-stu-id="bc6e0-105">CMS Settings Expander</span></span>
+# <a name="cms-settings-expander"></a><span data-ttu-id="4ee3e-105">Expansor de Configurações de CMS</span><span class="sxs-lookup"><span data-stu-id="4ee3e-105">CMS Settings Expander</span></span>
  
-<span data-ttu-id="bc6e0-p102">O Servidor de Gerenciamento Central pode ser alterado de um pool de Front-Ends definido para outro pool de Front-Ends definido. Para alterar o local do Servidor de Gerenciamento Central, selecione na lista suspensa o pool de Front-Ends em **Servidor Front-End no qual instalar o Servidor de Gerenciamento Central em:**. Um Servidor Front-End pode ser um pool de Front-Ends Enterprise Edition ou um Servidor Front-End Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="bc6e0-p102">The Central Management Server can be changed from one defined Front End pool to another defined Front End pool. To change the location of the Central Management Server, select the Front End pool from the drop-down list under **Front End server to install Central Management Server on**. A Front End Server can be an Enterprise Edition Front End pool or a Standard Edition Front End Server.</span></span>
+<span data-ttu-id="4ee3e-p102">O Servidor de Gerenciamento Central pode ser alterado de um pool de Front-Ends definido para outro pool de Front-Ends definido. Para alterar o local do Servidor de Gerenciamento Central, selecione na lista suspensa o pool de Front-Ends em **Servidor Front-End no qual instalar o Servidor de Gerenciamento Central em:**. Um Servidor Front-End pode ser um pool de Front-Ends Enterprise Edition ou um Servidor Front-End Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="4ee3e-p102">The Central Management Server can be changed from one defined Front End pool to another defined Front End pool. To change the location of the Central Management Server, select the Front End pool from the drop-down list under **Front End server to install Central Management Server on**. A Front End Server can be an Enterprise Edition Front End pool or a Standard Edition Front End Server.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="bc6e0-109">Se você tiver definido, publicado e implantado o Repositório de Gerenciamento Central da infraestrutura, não será possível alterar o local do Repositório de Gerenciamento Central sem realocá-lo para outro Front-End por meio de um processo externo.</span><span class="sxs-lookup"><span data-stu-id="bc6e0-109">If you have defined, published, and deployed the Central Management store for the infrastructure, you cannot change the location of the Central Management store without relocating the Central Management store to another Front End by an external process.</span></span> 
+> <span data-ttu-id="4ee3e-109">Se você tiver definido, publicado e implantado o Repositório de Gerenciamento Central da infraestrutura, não será possível alterar o local do Repositório de Gerenciamento Central sem realocá-lo para outro Front-End por meio de um processo externo.</span><span class="sxs-lookup"><span data-stu-id="4ee3e-109">If you have defined, published, and deployed the Central Management store for the infrastructure, you cannot change the location of the Central Management store without relocating the Central Management store to another Front End by an external process.</span></span> 
   
-<span data-ttu-id="bc6e0-110">Para obter detalhes sobre como mover o repositório do Servidor de Gerenciamento Central, consulte [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) na referência de cmdlet do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="bc6e0-110">For details about moving the Central Management Server store, see [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) in the Windows PowerShell cmdlet reference.</span></span>
+<span data-ttu-id="4ee3e-110">Para obter detalhes sobre como mover o repositório do Servidor de Gerenciamento Central, consulte [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) na referência de cmdlet do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="4ee3e-110">For details about moving the Central Management Server store, see [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) in the Windows PowerShell cmdlet reference.</span></span>
   
 

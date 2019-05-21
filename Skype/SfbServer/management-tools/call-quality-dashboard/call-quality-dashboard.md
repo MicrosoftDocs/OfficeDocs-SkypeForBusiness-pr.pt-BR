@@ -4,34 +4,34 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
-description: 'Resumo: Saiba mais sobre o painel de qualidade de chamada, que é uma ferramenta de relatório do Skype para Business Server.'
-ms.openlocfilehash: c3972b31aa7f54b3a368b0449d4a5750f6b254af
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o painel de qualidade de chamada, que é uma ferramenta de relatório do Skype for Business Server.'
+ms.openlocfilehash: 62fa3fc477e5cafc837d8a500b900ed65c178bf2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930831"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274846"
 ---
-# <a name="call-quality-dashboard-for-skype-for-business-server"></a><span data-ttu-id="7d5d4-103">Painel de qualidade da chamada para Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="7d5d4-103">Call Quality Dashboard for Skype for Business Server</span></span>
+# <a name="call-quality-dashboard-for-skype-for-business-server"></a><span data-ttu-id="13af3-103">Painel de qualidade da chamada para Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="13af3-103">Call Quality Dashboard for Skype for Business Server</span></span>
  
-<span data-ttu-id="7d5d4-104">**Resumo:** Saiba mais sobre o painel de qualidade de chamada, que é uma ferramenta de relatório do Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="7d5d4-104">**Summary:** Learn about the Call Quality Dashboard, which is a reporting tool for Skype for Business Server.</span></span>
+<span data-ttu-id="13af3-104">**Resumo:** Saiba mais sobre o painel de qualidade de chamada, que é uma ferramenta de relatório para o Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="13af3-104">**Summary:** Learn about the Call Quality Dashboard, which is a reporting tool for Skype for Business Server.</span></span>
  
-<span data-ttu-id="7d5d4-105">O Skype para Business Server chamada qualidade Dashboard (CQD) é uma camada de relatório na parte superior de qualidade da experiência do banco de dados no Monitoring Server Skype para Business Server e o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7d5d4-105">The Skype for Business Server Call Quality Dashboard (CQD) is a reporting layer on top of the Quality of Experience Database in the Monitoring Server in Skype for Business Server and Lync Server 2013.</span></span> <span data-ttu-id="7d5d4-106">CQD usa o Microsoft SQL Server Analysis Services para fornecer uso agregado e filtragem, bem como informações de qualidade e dinamização no conjunto de dados de chamadas.</span><span class="sxs-lookup"><span data-stu-id="7d5d4-106">CQD uses Microsoft SQL Server Analysis Services to provide aggregate usage and call quality information as well as filtering and pivoting on the data set.</span></span>
+<span data-ttu-id="13af3-105">O painel de qualidade de chamada do Skype for Business Server (CQD) é uma camada de relatório sobre o banco de dados de qualidade da experiência no servidor Monitoring no Skype for Business Server e o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="13af3-105">The Skype for Business Server Call Quality Dashboard (CQD) is a reporting layer on top of the Quality of Experience Database in the Monitoring Server in Skype for Business Server and Lync Server 2013.</span></span> <span data-ttu-id="13af3-106">O CQD usa o Microsoft SQL Server Analysis Services para fornecer informações de uso agregado e de qualidade da chamada, bem como filtragem e dinamização do conjunto de dados.</span><span class="sxs-lookup"><span data-stu-id="13af3-106">CQD uses Microsoft SQL Server Analysis Services to provide aggregate usage and call quality information as well as filtering and pivoting on the data set.</span></span>
   
-<span data-ttu-id="7d5d4-107">Os tópicos a seguir estão incluídos nesta seção e devem ser revisados antes de implantar o painel de controle de qualidade de chamada.</span><span class="sxs-lookup"><span data-stu-id="7d5d4-107">The following topics are included in this section and should be reviewed before deploying Call Quality Dashboard.</span></span>
+<span data-ttu-id="13af3-107">Os tópicos a seguir estão incluídos nesta seção e devem ser revisados antes da implantação do painel de qualidade da chamada.</span><span class="sxs-lookup"><span data-stu-id="13af3-107">The following topics are included in this section and should be reviewed before deploying Call Quality Dashboard.</span></span>
   
-- [<span data-ttu-id="7d5d4-108">Planejar o painel de controle de qualidade de chamada for Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="7d5d4-108">Plan for Call Quality Dashboard for Skype for Business Server</span></span>](plan.md)
+- [<span data-ttu-id="13af3-108">Planejar o painel de qualidade de chamada para o Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="13af3-108">Plan for Call Quality Dashboard for Skype for Business Server</span></span>](plan.md)
     
-- [<span data-ttu-id="7d5d4-109">Implantar o painel de controle de qualidade de chamada para Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="7d5d4-109">Deploy Call Quality Dashboard for Skype for Business Server</span></span>](deploy-0.md)
+- [<span data-ttu-id="13af3-109">Implantar painel de qualidade de chamada no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="13af3-109">Deploy Call Quality Dashboard for Skype for Business Server</span></span>](deploy-0.md)
     
-- [<span data-ttu-id="7d5d4-110">Usar o painel de controle de qualidade de chamada para Skype para o servidor de negócios</span><span class="sxs-lookup"><span data-stu-id="7d5d4-110">Use Call Quality Dashboard for Skype for Business Server</span></span>](use.md)
+- [<span data-ttu-id="13af3-110">Usar o painel de qualidade da chamada para o Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="13af3-110">Use Call Quality Dashboard for Skype for Business Server</span></span>](use.md)
     
-- [<span data-ttu-id="7d5d4-111">Desenvolver o painel de controle de qualidade de chamada para Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="7d5d4-111">Develop Call Quality Dashboard for Skype for Business Server</span></span>](develop.md)
+- [<span data-ttu-id="13af3-111">Desenvolva o painel de qualidade de chamada para o Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="13af3-111">Develop Call Quality Dashboard for Skype for Business Server</span></span>](develop.md)
     
 
