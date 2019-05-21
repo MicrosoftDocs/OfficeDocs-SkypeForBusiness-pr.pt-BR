@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -28,57 +28,57 @@ f1keywords:
 - O365P_SFBVoiceCreditAether
 ms.custom:
 - Licensing
-description: 'Aprenda a pagar créditos de comunicação (consumo de PSTN) para Skype para serviços corporativos e consulte planos para manter os usuários com acesso ao sistema de telefone contínua. '
-ms.openlocfilehash: aceb1fab6cfffeaca174c156b1f54ffd9bcd09bb
-ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
+description: 'Saiba como pagar por créditos de comunicação (consumo PSTN) dos serviços do Skype for Business e consulte planos para manter os usuários com acesso contínuo ao sistema telefônico. '
+ms.openlocfilehash: 93fb828f434c07b32852711772b6c16613415749
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970280"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278316"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Adicionar fundos e gerenciar Créditos de Comunicação
 
-Comunicações créditos são uma maneira conveniente de pagar por sistema telefônico e chamar planos no Office 365. Créditos de comunicação ajuda a garantir que você e seus usuários nunca são detectados sem ser capaz de:
+Os créditos de comunicações são uma maneira conveniente de pagar pelo sistema telefônico e planos de chamada no Office 365. Os créditos de comunicação ajudam a garantir que você e seus usuários nunca sejam detectados sem ser possível:
   
-- Discar para reuniões de conferência de áudio usando números de telefone de discagem gratuita.
+- Disque para reuniões de conferência de áudio usando números de telefone de discagem de chamada gratuita.
     
-- Discar a partir de uma reunião de conferência de áudio para adicionar alguém de qualquer lugar do mundo.
+- Disque de uma reunião de conferência de áudio para adicionar outra pessoa de qualquer lugar do mundo.
     
-- Discar a partir de uma reunião de conferência de áudio para o seu telefone celular com o Skype para o aplicativo de negócios ou Teams da Microsoft instalado.
+- Disque de uma reunião de conferência de áudio para o seu celular com o aplicativo Skype for Business ou Microsoft Teams instalado.
     
-- Quando você tem uma **Chamada domésticas planejar**, disca qualquer número de telefone internacional.
+- Disque qualquer número de telefone internacional quando tiver um **plano de chamadas domésticas**.
     
-- Discagem externa e pagar por minuto depois de você ter esgotado sua alocação mensal em minutos.
+- Disque e pague por minuto depois que você tiver esgotado sua alocação de minutos mensais.
     
 > [!NOTE]
-> Se você está se perguntando quanto é e as taxas, consulte a tabela de taxas na página [Planos de chamada](https://go.microsoft.com/fwlink/p/?LinkId=799523) .
+> Se você quer saber quanto custa e quais são as tarifas, consulte a tabela tarifas na página [planos de chamadas](https://go.microsoft.com/fwlink/p/?LinkId=799523) .
   
-Como administrador, você poderá adicionar manualmente os fundos ou você pode configurar autocarga, que é **recomendável**.
+Como administrador, você pode adicionar fundos manualmente ou configurar o recurso de recarga automática, o que **recomendamos**.
   
 A recarga automática completa automaticamente o saldo quando este fica abaixo do valor que você definiu. Recomendamos usar a recarga automática para que você não precise lembrar de adicionar fundos manualmente. Quando seu saldo atingir o valor definido, os fundos serão adicionados automaticamente. Se você não escolher a recarga automática, correrá o risco de seu saldo cair abaixo de zero. Se isso ocorrer, você e seus usuários não poderão fazer chamadas gratuitas nem chamadas internacionais.
   
-Você pode atualizar suas opções de pagamento a qualquer momento. Na página de **assinaturas** , selecione **Créditos de comunicações**e tornar suas atualizações.
+Você pode atualizar suas opções de pagamento a qualquer momento. Na página **assinaturas** , selecione **créditos de comunicações**e faça as atualizações.
   
-Fundos serão aplicados apenas ao créditos de comunicações em taxas de publicado da Microsoft quando os serviços são usados. Qualquer fundos não usados em doze (12) meses após a data de compra expirarão e perdidos.
+Os fundos serão aplicados somente a créditos de comunicação nas tarifas publicadas pela Microsoft quando os serviços forem usados. Quaisquer fundos não usados dentro de doze (12) meses da data de compra vencerão e serão perdidos.
   
 > [!TIP]
-> Podemos vai envie um que e-mail notificações quando fundos são adicionados por meio de autocarga quando autocarga falha (por exemplo, quando um cartão de crédito expira) e quando seu saldo fica abaixo de zero. 
+> Enviaremos notificações por e-mail quando os fundos forem adicionados por recarga automática, quando a recarga automática falhar (por exemplo, quando um cartão de crédito expirar) e quando o seu saldo ficar abaixo de zero. 
   
-Para obter mais informações, consulte [Cite Communications créditos?](what-are-communications-credits.md)
+Para obter mais informações, consulte [o que são créditos de comunicações?](what-are-communications-credits.md)
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>Quer saber mais sobre planos e preços?
 
-Você pode ver os planos e preços do visitando um dos seguintes links:
+Você pode ver os planos e preços visitando um dos seguintes links:
   
 - [Planos de chamadas](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
-- [Planos de serviços de audioconferência](https://go.microsoft.com/fwlink/?LinkId=799762 )
+- [Planos de audioconferência](https://go.microsoft.com/fwlink/?LinkId=799762 )
     
 - [Planos de sistema telefônico](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Você também pode ver informações entrando [no Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e pretende **faturamento** > **assinaturas** > **Adicionar assinaturas**.
+Você também pode ver as informações conectando- [se ao centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e indo fazer assinaturas de **cobrança** > **** > **adicionar assinaturas**.
   
-Para ver uma tabela com a licença ou licenças que são necessárias para cada recurso, consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para ver uma tabela com as licenças ou licenças necessárias para cada recurso, consulte licenciamento [de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
 

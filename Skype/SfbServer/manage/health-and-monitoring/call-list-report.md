@@ -1,27 +1,27 @@
 ---
-title: Relatório de lista de chamada o grupo de resposta no Skype para Business Server
+title: Relatório de lista de chamadas em grupo de resposta no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
-description: 'Resumo: Saiba mais sobre o aplicativo de grupo de resposta no Skype para Business Server.'
-ms.openlocfilehash: 1e2a44c73b0748bb7904b26aec952c5fca475520
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o aplicativo de grupo de resposta no Skype for Business Server.'
+ms.openlocfilehash: 216f07a81beaa962bf091e815c797611f9e236ac
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902730"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289333"
 ---
-# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Relatório de lista de chamada o grupo de resposta no Skype para Business Server
+# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Relatório de lista de chamadas em grupo de resposta no Skype for Business Server
 
-**Resumo:** Saiba mais sobre o aplicativo de grupo de resposta no Skype para Business Server.
+**Resumo:** Saiba mais sobre o aplicativo de grupo de resposta no Skype for Business Server.
 
-Aplicativo grupo de resposta fornece uma maneira de Skype para Business Server atender e rotear as chamadas telefônicas com base no número discado e, opcionalmente, em que as respostas do chamador para uma série de perguntas. Geralmente, as chamadas do Grupo de Resposta não são encaminhadas a uma pessoa específica, mas sim para uma equipe de pessoas referida como grupo de agentes. Por exemplo, se alguém liga para o número de telefone para seu help desk, Skype para Business Server pode rotear automaticamente chamada ao primeiro operador mesa ajuda disponíveis. Como alternativa, Skype para Business Server pode pedir que uma série de perguntas ("Pressione 1 se você estiver tendo problemas de hardware. Pressione 2 se tiver problemas de software. Pressione 3 se você estiver tendo problemas de rede.") e, em seguida, rotear a chamada para o agente de mesa ajuda mais apropriada com base na responder a essas perguntas.
+O aplicativo grupo de resposta fornece uma maneira para que o Skype for Business Server atenda e encaminhe chamadas telefônicas com base no número que foi discado e, opcionalmente, nas respostas do chamador para uma série de perguntas. Geralmente, as chamadas do Grupo de Resposta não são encaminhadas a uma pessoa específica, mas sim para uma equipe de pessoas referida como grupo de agentes. Por exemplo, se alguém ligar para o número de telefone de seu suporte técnico, o Skype for Business Server poderá direcionar automaticamente essa chamada para o primeiro agente de suporte técnico disponível. Como alternativa, o Skype for Business Server poderia fazer uma série de perguntas ("Pressione 1 se estiver com problemas de hardware. Pressione 2 se tiver problemas de software. Pressione 3 se você estiver tendo problemas de rede. ") e, em seguida, encaminhar a chamada para o agente de suporte técnico mais apropriado com base na resposta a essas perguntas.
 
 O Relatório da Lista de Chamadas de Grupo de Resposta representa uma coleção de chamadas feitas por um período específico de tempo e para um tipo específico de chamada. O Relatório de Uso do Grupo de Resposta (que deve ser aberto primeiro, antes de abrir o Relatório da Lista de Chamadas de Grupo de Resposta) reconhece os seguintes tipos de chamadas:
 
@@ -39,7 +39,7 @@ O Relatório da Lista de Chamadas de Grupo de Resposta representa uma coleção 
 
 ## <a name="accessing-the-response-group-call-list-report"></a>Como acessar o Relatório da Lista de Chamadas de Grupo de Resposta
 
-O relatório de lista de chamadas grupo de resposta pode ser acessado apenas clicando em uma das seguintes métricas encontradas no [Response Group Usage Report no Skype para Business Server](response-group-usage-report.md):
+O relatório de lista de chamadas em grupo de resposta só pode ser acessado clicando em uma das seguintes métricas encontradas no [relatório de uso do grupo de resposta no Skype for Business Server](response-group-usage-report.md):
 
 - Chamadas recebidas
 
@@ -55,7 +55,7 @@ O relatório de lista de chamadas grupo de resposta pode ser acessado apenas cli
 
 O Relatório da Lista de Chamadas de Grupo de Resposta permite que você limite os dados exibidos para chamadas que envolvem um fluxo de trabalho específico de Grupo de Resposta. Para fazer isso, você precisa inserir o URI do fluxo de trabalho (o endereço SIP do fluxo de trabalho) na caixa URI do Fluxo de Trabalho. Antes que você possa fazer isso, no entanto, é necessário realmente poder ver a caixa URI do Fluxo de Trabalho. Para exibir as opções de filtragem do Relatório da Lista de Chamadas de Grupo de Resposta, clique no botão Exibir/Ocultar Parâmetros, na parte superior esquerda da janela do relatório.
 
-Observe que a Lista de Chamadas de Grupo de Resposta não exibe informações sobre o Código de resposta nem da ID do Diagnóstico se você manter o mouse sobre uma dessas métricas. Se você precisar de mais informações, você talvez Observe o código de resposta e/ou ID de diagnóstico e procure esses valores no [Relatório de falhas principais no Skype para Business Server](top-failures-report.md).
+Observe que a Lista de Chamadas de Grupo de Resposta não exibe informações sobre o Código de resposta nem da ID do Diagnóstico se você manter o mouse sobre uma dessas métricas. Se precisar de mais informações, você pode observar o código de resposta e/ou a identificação de diagnóstico e, em seguida, procurar por esses valores no [relatório de falhas principais no Skype for Business Server](top-failures-report.md).
 
 uma pergunta como esta: "Qual é o fluxo de trabalho individual que recebeu a maioria das chamadas?", é possível fazer o seguinte:
 

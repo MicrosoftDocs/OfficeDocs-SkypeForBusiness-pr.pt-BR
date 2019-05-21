@@ -1,35 +1,35 @@
 ---
-title: Operações e manutenção de salas de equipes da Microsoft
+title: Manutenção e operações de salas do Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/10/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 ms.collection: M365-voice
 localization_priority: Normal
-description: Leia este tópico para saber mais sobre o gerenciamento de salas de equipes da Microsoft, a próxima geração de sistemas de sala Skype.
-ms.openlocfilehash: 384920dc64d16dd9a50d7eee6e8546ad9920044e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Leia este tópico para saber mais sobre o gerenciamento de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
+ms.openlocfilehash: b32ac786c7c039bd1eaab060e12b7141a8d8cf72
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916324"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288559"
 ---
-# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Operações e manutenção de salas de equipes da Microsoft 
+# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Manutenção e operações de salas do Microsoft Teams 
  
-Leia este tópico para saber mais sobre o gerenciamento de salas de equipes da Microsoft, a próxima geração de sistemas de sala Skype.
+Leia este tópico para saber mais sobre o gerenciamento de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
   
-Salas de equipes da Microsoft é a solução de conferência mais recente da Microsoft projetada para transformar a sala de reunião em uma experiência rica e colaborativa. Os usuários aproveitarão seu familiar Teams da Microsoft ou Skype para interface de negócios e os administradores de TI apreciará um aplicativo de reunião do Windows 10 Skype facilmente implantado e gerenciado. Salas de equipes da Microsoft foi projetada para aproveitar o equipamento existente como painéis LCD para facilitar da instalação para trazer Teams da Microsoft ou Skype for Business para sala de reunião.
+Salas do Microsoft Teams é a solução de conferência mais recente da Microsoft projetada para transformar sua sala de reunião em uma experiência avançada e colaborativa. Os usuários gostarão da interface familiar do Microsoft Teams ou do Skype for Business, e os administradores de ti apreciarão um aplicativo de reunião do Skype com facilidade de implantação e gerenciamento do Windows 10. As salas do Microsoft Teams foram projetadas para aproveitar o equipamento existente, como painéis LCD, para facilitar a instalação e trazer o Microsoft Teams ou o Skype for Business para a sua sala de reuniões.
   
-Com uma configuração adicional, gerenciamento remoto é possível usando o Microsoft Azure Monitor conforme descrito em [gerenciamento de planejar salas de equipes da Microsoft com o Azure Monitor](azure-monitor-plan.md), [gerenciamento de implantar o Microsoft equipes salas com Monitor do Azure](azure-monitor-deploy.md), [Gerenciar Dispositivos de salas de equipes da Microsoft com o Azure Monitor](azure-monitor-deploy.md). Você também pode [Gerenciar salas de equipes da Microsoft configurações remotamente com um arquivo de configuração XML do console](xml-config-file.md), que inclui a aplicação de um tema de exibição personalizado. 
+Com configurações adicionais, o gerenciamento remoto é possível usando o Microsoft Azure monitor, conforme descrito em [planejar o gerenciamento de salas do Microsoft Teams com o Azure monitor](azure-monitor-plan.md), [implantar o gerenciamento de salas do Microsoft Teams com o Azure monitor](azure-monitor-deploy.md), [gerenciar Salas do Microsoft Teams para dispositivos com o Azure monitor](azure-monitor-deploy.md). Você também pode [gerenciar as configurações do console de salas do Microsoft Teams remotamente com um arquivo de configuração XML](xml-config-file.md), que inclui a aplicação de um tema de exibição personalizado. 
   
-## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Como salvar logs em salas de equipes da Microsoft
+## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Coletando logs em salas do Microsoft Teams
 <a name="Logs"> </a>
 
-Para coletar logs, você deve chamar o script de conjunto de log que acompanha o aplicativo Microsoft equipes salas. No modo Admin, inicie um prompt de comandos com privilégios elevados e emita o seguinte comando:
+Para coletar logs, você deve invocar o script de coleta de log que acompanha o aplicativo salas do Microsoft Teams. No modo Admin, inicie um prompt de comandos com privilégios elevados e emita o seguinte comando:
   
 ```
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -40,18 +40,18 @@ Os logs serão exibidos como um arquivo ZIP em c:\rigel.
 ## <a name="front-of-room-display-settings"></a>Configurações da tela frontal da sala
 <a name="Display"> </a>
 
-Configure a tela frontal da sala para o modo Estendido. Isso garantirá que o console de que interface do usuário não é duplicado em que exiba quando você desligue a exibição.
+Configure a tela frontal da sala para o modo Estendido. Isso garantirá que a interface do usuário do console não seja duplicada naquele vídeo quando você desligar o monitor.
   
 > [!NOTE]
 > A TV usada em uma sala de exibição precisa suportar/habilitar o recurso CEC (Controle Eletrônico do Consumidor) do HDMI para que possa alternar automaticamente do modo de espera para uma fonte de vídeo ativa.  Esse recurso não é suportado em todas as TVs. 
   
-## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Redefinição de salas de equipes da Microsoft (restauração de fábrica)
+## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Redefinição de salas do Microsoft Teams (restauração de fábrica)
 <a name="Reset"> </a>
 
-Se salas de equipes da Microsoft não está funcionando bem, realizar uma restauração de fábrica pode ajudar. Isso pode ser feito no aplicativo configurações na guia **recuperação** abaixo **Redefinir este PC**, selecione **começar**e **Remover tudo**. Siga as instruções restantes para redefinir o dispositivo.
+Se as salas do Microsoft Teams não estiverem funcionando bem, executar uma redefinição de fábrica pode ajudar. Isso pode ser feito no aplicativo configurações na guia **recuperação** . abaixo **restaurar este PC**, selecione **introdução**e, em seguida, **remover tudo**. Siga os prompts restantes para redefinir o dispositivo.
   
 > [!NOTE]
-> Há um problema conhecido onde as salas de equipes da Microsoft podem se tornar disponível se a opção **Manter Meus arquivos - remove aplicativos e configurações, mas mantém os arquivos pessoais** está selecionada durante o processo de redefinição do Windows. Faça _não_ use esta opção.
+> Há um problema conhecido em que as salas do Microsoft Teams podem ficar inúteis se a opção **manter meus arquivos-remove meus arquivos-remove aplicativos e configurações, mas mantém a opção arquivos pessoais** selecionada durante o processo de redefinição do Windows. Não __ Use essa opção.
   
 ## <a name="supported-remote-options"></a>Opções remotas com suporte
 <a name="RemoteOptions"> </a>
@@ -61,30 +61,30 @@ A tabela a seguir resume as operações remotas possíveis e os métodos que voc
 
 |**Grupo de trabalho **|**Não ingresso em domínio**|**Ingresso em domínio**|
 |:-----|:-----|:-----|
-|Reiniciar  <br/> |Área de trabalho remota  <br/> PowerShell Remoto  <br/> |Área de trabalho remota (requer configuração adicional)  <br/> Powershell remoto (requer configuração adicional)  <br/> SCCM  <br/> |
+|Reiniciar  <br/> |Área de trabalho remota  <br/> PowerShell Remoto  <br/> |Área de trabalho remota (requer configuração adicional)  <br/> PowerShell remoto (requer configuração adicional)  <br/> SCCM  <br/> |
 |Atualização do sistema operacional  <br/> |Se forem necessárias regras mais restritivas, veja as seguintes URLs de lista de permissões:  <br/> |Windows Update  <br/> WSUS  <br/> |
 |Atualização de aplicativos  <br/> |Windows Store  <br/> |Windows Store  <br/> SCCM  <br/> |
 |Configuração de contas do Skype  <br/> |Sem suporte no momento  <br/> |Sem suporte no momento  <br/> |
 |Acesso aos logs  <br/> |Sem suporte no momento  <br/> |Sem suporte no momento  <br/> |
    
-## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>Configurando a diretiva de grupo para salas de equipes da Microsoft
+## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>Configurando a política de grupo para salas do Microsoft Teams
 <a name="GroupPolicy"> </a>
 
-Esta seção aborda as configurações do sistema Microsoft equipes salas depende funcione corretamente. Ao ingressar em salas de equipes da Microsoft a um domínio, certifique-se de que sua política de grupo não substituem as definições na tabela a seguir.
+Esta seção abrange as configurações do sistema das quais as salas do Microsoft Teams dependem para funcionar corretamente. Ao ingressar em salas do Microsoft Teams em um domínio, verifique se a política de grupo não substitui as configurações na tabela a seguir.
   
 
 |**Configuração**|**Permite**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Permite que o Microsoft salas de equipes inicialize  <br/> |
-|Gerenciamento - de energia\> nas AC, desative tela após 10 minutos  <br/> Gerenciamento - de energia\> em AC, nunca colocar o sistema no modo de suspensão  <br/> |Habilita a salas de equipes da Microsoft desativar exibe anexado e automaticamente de ativação  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Ou equivalentes meios de desativação de expiração de senha da conta local. Falha ao fazer isso, eventualmente, fará com que a conta do Skype falha de logon reclamando uma senha expirada. Observe que isso afeta todas as contas locais na máquina, e assim falha configurar isso também fará com que a conta administrativa na caixa eventualmente expire também.  <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Permite que salas do Microsoft Teams sejam inicializadas  <br/> |
+|Gerenciamento de energia\> -em AC, desligar a tela após 10 minutos  <br/> Gerenciamento de energia\> -em AC, nunca coloque o sistema em suspensão  <br/> |Permite que as salas do Microsoft Teams desativem exibições anexadas e ativadas automaticamente  <br/> |
+|net accounts /maxpwage:unlimited  <br/> Ou uma maneira equivalente de desabilitar a expiração de senha na conta local. Deixar de fazer isso fará com que a conta do Skype falhe ao fazer logon com uma senha expirada. Observe que isso afeta todas as contas locais do computador e, portanto, não definir isso também fará com que a conta administrativa na caixa acabe de expirar também.  <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
    
-Transferência de arquivos usando diretivas de grupo será discutido em [Configure um Item do arquivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
+A transferência de arquivos usando políticas de grupo é discutida em [configurar um item de arquivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
   
 ## <a name="remote-management-using-powershell"></a>Gerenciamento remoto usando o PowerShell
 <a name="RemotePS"> </a>
 
-Você pode executar as seguintes operações de gerenciamento remotamente usando o PowerShell (consulte a tabela abaixo para amostras de script):
+Você pode executar as seguintes operações de gerenciamento remotamente usando o PowerShell (consulte a tabela abaixo para obter exemplos de script):
   
 - Obter dispositivos conectados
     
@@ -96,32 +96,32 @@ Você pode executar as seguintes operações de gerenciamento remotamente usando
     
 - Recuperar logs
     
-- Transferir arquivos (requer um salas de equipes do Microsoft associados a um domínio)
+- Transferir arquivos (requer salas do Microsoft Teams associadas a um domínio)
     
 > [!NOTE]
-> Essa funcionalidade está desativada por padrão. Você precisa ativar o PowerShell remoto para o seu ambiente no sistema de salas de equipes da Microsoft executar as operações abaixo. Consulte a documentação sobre **[Enable-PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** para obter informações sobre como habilitar o PowerShell remoto.
+> Essa funcionalidade está desativada por padrão. Você precisa habilitar o PowerShell remoto para seu ambiente no sistema de salas do Microsoft Teams para executar as operações abaixo. Consulte a documentação sobre **[Enable-PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** para obter informações sobre como habilitar o PowerShell remoto.
   
 Por exemplo, você pode habilitar o PowerShell Remoto da seguinte maneira:
   
-1. Entrar como administrador em um dispositivo de salas de equipes da Microsoft.
+1. Entre como administrador em um dispositivo de salas do Microsoft Teams.
     
-2. Abra um prompt de comando do PowerShell.
+2. Abra um prompt de comando elevado do PowerShell.
     
 3. Insira o seguinte comando: Enable-PSRemoting -force
     
 Para executar uma operação de gerenciamento:
   
-1. Entrar em um PC com credenciais de conta que tem permissão para executar comandos do PowerShell em um dispositivo de salas de equipes da Microsoft.
+1. Entre em um computador com credenciais de conta que têm permissão para executar comandos do PowerShell em um dispositivo de salas do Microsoft Teams.
     
-2. Abra um prompt de comando do PowerShell regular no PC.
+2. Abra um prompt de comando normal do PowerShell no computador.
     
-3. Copie o texto de comando da tabela a seguir e cole-o no prompt.
+3. Copie o texto do comando da tabela abaixo e cole-o no prompt.
     
-4. Substituir `<Device fqdn>` campos com valores FQDN apropriadas ao seu ambiente.
+4. Substituir `<Device fqdn>` os campos pelos valores de FQDN apropriados para o seu ambiente.
     
-5. Substituir * \<caminho\> * com o nome de arquivo e o caminho local do arquivo de configuração SkypeSettings.xml mestre (ou imagem de tema).
+5. Substituir * \<caminho\> * com o nome do arquivo e o caminho local do arquivo de configuração Master SkypeSettings. XML (ou imagem do tema).
     
-Para obter os dispositivos conectados
+Para obter dispositivos conectados
   
 ```
 invoke-command {Write-Host "VIDEO DEVICES:" 
@@ -159,7 +159,7 @@ $session = new-pssession -ComputerName $targetDevice
 Copy-Item -Path $logFile.FullName -Destination .\ -FromSession $session; invoke-command {remove-item -force C:\Rigel\*.zip} -ComputerName $targetDevice
 ```
 
-Enviar um arquivo de configuração XML (ou o gráfico do tema)
+Enviar um arquivo de configuração XML (ou um elemento gráfico) do tema
   
 ```
 $movefile = "<path>";
@@ -170,17 +170,17 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>Atualizações de software
 <a name="SWupdate"> </a>
 
-Por padrão, o Microsoft equipes salas tenta se conectar ao repositório do Windows para obter a versão mais recente do software de salas de equipes da Microsoft, para que o dispositivo exigirá regular acesso à internet. Antes de contatar o Microsoft com problemas de suporte, certifique-se de que o dispositivo de salas de equipes da Microsoft é carregado com a versão mais recente do aplicativo.
+Por padrão, as salas do Microsoft Teams tentam se conectar à Windows Store para obter a versão mais recente do software de salas do Microsoft Teams, para que o dispositivo exija acesso regular à Internet. Antes de entrar em contato com a Microsoft com problemas de suporte, verifique se o dispositivo de salas do Microsoft Teams está carregado com a versão mais recente do aplicativo.
   
-Por padrão, salas de equipes da Microsoft se conecta ao Windows Update para recuperar o sistema operacional e atualizações de firmware de dispositivos periféricos USB e as instala fora do horário de comercial configurado. Para configurar o horário comercial, entre na conta de administrador e execute o aplicativo Configurações.
+Por padrão, as salas do Microsoft Teams se conectam ao Windows Update para recuperar atualizações do sistema operacional e do firmware do dispositivo periférico USB e as instalam fora do horário comercial configurado. Para configurar o horário comercial, entre na conta de administrador e execute o aplicativo Configurações.
   
-Se você deseja gerenciar atualizações manualmente e não conseguem siga o procedimento de normal para [Microsoft Store for Business](https://businessstore.microsoft.com/store) para [distribuir aplicativos de offline](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), você pode adquirir as arquivo APPX apropriado e dependências do [kit de implantação](https://go.microsoft.com/fwlink/?linkid=851168) (de as instruções para [Configurar um console de salas de equipes da Microsoft](console.md)) que podem ser usados com o SCCM. A versão do kit de implantação sofra a versão do repositório, portanto pode não sempre corresponder a compilação mais recente disponível.
+Se você quiser gerenciar as atualizações manualmente e não conseguir seguir o procedimento normal para a [Microsoft Store para empresas](https://businessstore.microsoft.com/store) [distribuir aplicativos offline](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), você pode adquirir o arquivo Appx apropriado e as dependências do [Kit de implantação](https://go.microsoft.com/fwlink/?linkid=851168) (do as instruções para [configurar um console de salas do Microsoft Teams](console.md)) que podem ser usadas com o SCCM. A versão do kit de implantação está atrasada atrás do lançamento da loja, portanto, talvez nem sempre corresponda à versão mais recente disponível.
   
-### <a name="to-update-using-powershell"></a>Para atualizar usando Powershell
+### <a name="to-update-using-powershell"></a>Para atualizar usando o PowerShell
 
-1. Extraia o pacote da instalação [MSI](https://go.microsoft.com/fwlink/?linkid=851168) para um compartilhamento de dispositivo pode acessar.
+1. Extraia o pacote do [MSI](https://go.microsoft.com/fwlink/?linkid=851168) de instalação para um compartilhamento que o dispositivo possa acessar.
     
-2. Execute o seguinte script direcionando os dispositivos de salas de equipes da Microsoft, alterando \<compartilhar\> ao dispositivo compartilhar conforme apropriado:
+2. Execute o script a seguir direcionando os dispositivos de sala do \<Microsoft\> Teams, alterando o compartilhamento para o compartilhamento de dispositivo conforme apropriado:
     
 ```
 Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
@@ -189,22 +189,22 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
 ## <a name="admin-mode-and-device-management"></a>Modo de administração e gerenciamento de dispositivo
 <a name="AdminMode"> </a>
 
-Algumas funções de gerenciamento, como manualmente instalando um certificado de autoridade de certificação privado, exigem colocando o dispositivo Surface Pro no modo de administrador. 
+Algumas funções de gerenciamento, como instalar manualmente um certificado de autoridade de certificação privado, exigem colocar o dispositivo Surface pro no modo de administração. 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Alternando para o modo de administração e voltar quando o aplicativo de salas de equipes da Microsoft está sendo executado
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Alternar para o modo de administrador e voltar quando o aplicativo salas do Microsoft Teams estiver em execução
 
-1. Desligar todas as chamadas em andamento e retornar à tela inicial.
+1. Desligue as chamadas em andamento e retorne à tela inicial.
     
-2. Selecione o ícone de engrenagem e acessar o menu (opções estarão **configurações**, **acessibilidade**e **Reinicie o dispositivo** ).
+2. Selecione o ícone de engrenagem e exibir o menu (opções são **configurações**, **acessibilidade**e reinicialização do **dispositivo** ).
     
 3. Selecione **Configurações**.
     
 4. Digite a senha do administrador. A tela Configuração será exibida.
     
     > [!NOTE]
-    > Se o dispositivo não estiver associado ao domínio, a conta administrativa local (username "Admin") será usada por padrão. A senha padrão para essa conta será 'sfb', mas é recomendável que sua organização mude essa senha o quanto antes por motivos de segurança. Se o computador estiver associado ao domínio, você pode entrar com uma conta de domínio apropriadamente privilegiado. 
+    > Se o dispositivo não for associado ao domínio, a conta administrativa local (nome de usuário "administrador") será usada por padrão. A senha padrão para essa conta será 'sfb', mas é recomendável que sua organização mude essa senha o quanto antes por motivos de segurança. Se o computador for associado a um domínio, você poderá entrar com uma conta de domínio apropriadamente privilegiada. 
   
-5. Selecione **Configurações do Windows** , na coluna esquerda.
+5. Selecione **configurações do Windows** na coluna à esquerda.
     
 6. Escolha **Vá para Entrada como Admin**.
     
@@ -216,38 +216,38 @@ Algumas funções de gerenciamento, como manualmente instalando um certificado d
     
 10. Saia da conta de Administrador.
     
-11. Retorne à Microsoft equipes salas selecionando o ícone de conta de usuário no lado esquerdo da tela e, em seguida, selecionando **Skype**.
+11. Retorne a salas do Microsoft Teams selecionando o ícone de conta de usuário no lado esquerdo da tela e, em seguida, selecionando **Skype**.
     
-    Se o usuário **Skype** não estiver listado, você pode precisar selecionar **outro usuário** e insira **. \skype** como o nome de usuário e de entrada.
+    Se o usuário do **Skype** não estiver listado, talvez seja necessário selecionar **outro usuário** , digitar **.\skype** como o nome de usuário e entrar.
     
-O console agora é novamente em seu modo de operação normal. O procedimento a seguir exige que você anexar um teclado para o dispositivo, se ainda não estiver já anexado. 
+O console agora está novamente em seu modo de operação normal. O procedimento a seguir exige que você anexe um teclado ao dispositivo, caso ele ainda não esteja conectado. 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Alternando para o modo de administração e quando o aplicativo Microsoft equipes salas de travamento
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Alternar para o modo de administrador e voltar quando o aplicativo salas do Microsoft Teams falha
 
 1. Pressione a tecla do Windows cinco vezes em uma sucessão rápida. Isso levará você para a tela de logon do Windows. 
     
 2. Faça logon no desktop usando as credenciais administrativas.
     
     > [!NOTE]
-    > Esse método não logoff do usuário do Skype ou finalizado normalmente o aplicativo, mas você deve usá-lo se o aplicativo não estava respondendo e o outro método não estava disponível. 
+    > Esse método não registra o usuário do Skype ou encerra o aplicativo normalmente, mas você o usaria se o aplicativo não estivesse respondendo e o outro método não estivesse disponível. 
   
 3. Execute as tarefas administrativas necessárias.
     
-4. Quando tiver terminado, reinicie a máquina.
+4. Reinicie o computador quando tiver terminado.
     
-   O console é reiniciado em seu modo de operação normal, executando o aplicativo Microsoft equipes salas. Você pode remover o teclado, se ele foi conectado para permitir que você executar esse procedimento.
+   O console é reiniciado em seu modo de operação normal, executando o aplicativo salas do Microsoft Teams. Você pode remover o teclado, se ele estiver associado, para permitir que você execute este procedimento.
    ## <a name="troubleshooting-tips"></a>Dicas para solução de problemas
    <a name="TS"> </a>
 
-- Convites de reunião podem não aparecer quando enviado nos limites do domínio (por exemplo, entre as duas empresas). Nesses casos, os administradores de TI devem decidir se deseja permitir que usuários externos agendar uma reunião.
+- Os convites de reunião podem não ser exibidos quando enviados entre os limites do domínio (por exemplo, entre duas empresas). Nesses casos, os administradores de ti devem decidir se desejam permitir que usuários externos agendem uma reunião.
     
-- Salas de equipes da Microsoft não suporta os redirecionamentos de descoberta automática do Exchange por meio do Exchange 2010.
+- As salas do Microsoft Teams não dão suporte a redirecionamentos de descoberta automática do Exchange via Exchange 2010.
     
-- Em geral, é uma boa prática para administradores de TI desabilitar quaisquer pontos de extremidade de áudio não pretendem usar.
+- Em geral, é uma boa prática para os administradores de ti desabilitarem pontos de extremidade de áudio que eles não pretendam usar.
     
 - Caso seja exibida uma imagem espelhada na visualização da sala, o administrador de TI pode corrigir isso desligando e ligando a câmera ou invertendo a orientação da imagem com o controle remoto da câmera.
     
-- Sabe-se que pode ocorrer a perda do acesso à tela touch do console. Nesses casos, o problema em alguns casos, é resolvido reiniciando-se o sistema de salas de equipes da Microsoft.
+- Sabe-se que pode ocorrer a perda do acesso à tela touch do console. Nesses casos, o problema também é resolvido ao reiniciar o sistema de salas do Microsoft Teams.
     
 - Sabe-se que pode ocorrer a perda do áudio local ao conectar um computador ao console via entrada com fio. Nesses casos, reiniciar o computador pode resolver o problema de reprodução do áudio local.
     

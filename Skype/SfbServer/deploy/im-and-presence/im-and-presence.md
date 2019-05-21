@@ -1,34 +1,34 @@
 ---
-title: Implantar o sistema de mensagens instantâneas e presença em Skype para Business Server
+title: Implantar mensagens instantâneas e presença no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ad792bb2-aee0-4986-a070-116ff3c10fe7
-description: 'Resumo: Saiba sobre as etapas de implantação para mensagens instantâneas e presença no Skype para Business Server.'
-ms.openlocfilehash: 387f9af2980e3dc3923f0b82e3cd6289581e79e7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre as etapas de implantação para mensagens instantâneas e presença no Skype for Business Server.'
+ms.openlocfilehash: 40addf19b713166f89a563e418555ad54d71f9cc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894448"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289669"
 ---
-# <a name="deploy-instant-messaging-and-presence-in-skype-for-business-server"></a>Implantar o sistema de mensagens instantâneas e presença em Skype para Business Server
+# <a name="deploy-instant-messaging-and-presence-in-skype-for-business-server"></a>Implantar mensagens instantâneas e presença no Skype for Business Server
  
-**Resumo:** Saiba mais sobre as etapas de implantação para mensagens instantâneas e presença no Skype para Business Server.
+**Resumo:** Saiba mais sobre as etapas de implantação para mensagens instantâneas e presença no Skype for Business Server.
   
 ## <a name="deployment-steps-for-instant-messaging-and-presence"></a>Etapas para implantar o sistema de mensagens instantâneas e presença
 
-O artigo sobre como planejar o sistema de mensagens instantâneas e presença explica como planejar a implantação. Mensagens instantâneas e presença é habilitado quando você instala o Skype para Business Server. Para saber mais sobre o planejamento de mensagens instantâneas e presença, consulte [Planejar a mensagens instantâneas e presença no Skype para Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).
+O artigo sobre como planejar o sistema de mensagens instantâneas e presença explica como planejar a implantação. As mensagens instantâneas e a presença são habilitadas quando você instala o Skype for Business Server. Para saber mais sobre como planejar mensagens instantâneas e presença, consulte [planejar mensagens instantâneas e presença no Skype for Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).
   
-Nesta seção, que você aprende sobre algumas das etapas de implantação que você pode personalizar para finos ajuste seus cenários de presença e mensagens instantâneos.
+Nesta seção, você aprenderá sobre algumas das etapas de implantação que você pode personalizar para ajustar suas mensagens instantâneas e cenários de presença.
   
 ## <a name="in-this-section"></a>Nesta seção
 
-> [Habilitar ou desabilitar Offline mensagens instantâneas (IM) no Skype para Business Server](enable-or-disable-offline-im.md)
+> [Habilitar ou desabilitar mensagens instantâneas (IM) offline no Skype for Business Server](enable-or-disable-offline-im.md)
     
 

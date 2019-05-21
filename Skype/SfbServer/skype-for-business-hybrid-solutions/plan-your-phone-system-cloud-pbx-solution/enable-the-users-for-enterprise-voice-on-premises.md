@@ -1,11 +1,11 @@
 ---
-title: Habilite os usuários para o Enterprise Voice no local
+title: Habilitar os usuários do Enterprise Voice no local
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 2/15/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,19 +16,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
-description: Para um usuário usar o sistema telefônico no Office 365 (nuvem PBX), você deve primeiro habilitá-los para o Enterprise Voice e atribuí-las um número de telefone. Você fazer isso usando sua implantação no local enquanto o usuário ainda é hospedado na implantação no local.
-ms.openlocfilehash: 1b8329ec4deb90aed6bb9ae93c4a202beebb673c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Para que um usuário use o sistema telefônico no Office 365 (Cloud PBX), primeiro você deve habilitá-los para o Enterprise Voice e atribuir a eles um número de telefone. Isso é feito usando a implantação local, enquanto o usuário ainda é hospedado na implantação local.
+ms.openlocfilehash: fdd405d84cddcfe805063287b8330ccea43397de
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234074"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287507"
 ---
-# <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Habilite os usuários para o Enterprise Voice no local
+# <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Habilitar os usuários do Enterprise Voice no local
  
-Para um usuário usar o sistema telefônico no Office 365 (nuvem PBX), você deve primeiro habilitá-los para o Enterprise Voice e atribuí-las um número de telefone. Você fazer isso usando sua implantação no local enquanto o usuário ainda é hospedado na implantação no local.
+Para que um usuário use o sistema telefônico no Office 365 (Cloud PBX), primeiro você deve habilitá-los para o Enterprise Voice e atribuir a eles um número de telefone. Isso é feito usando a implantação local, enquanto o usuário ainda é hospedado na implantação local.
   
-### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>Para habilitar um usuário para o Enterprise Voice no local e atribuir um número de telefone
+### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>Para habilitar um usuário para Enterprise Voice no local e atribuir um número de telefone
 
 1. Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
     
@@ -40,7 +40,7 @@ Para um usuário usar o sistema telefônico no Office 365 (nuvem PBX), você dev
     
 4. Na caixa **Pesquisar usuários**, digite todo ou parte do nome de exibição, nome, sobrenome, nome da conta SAM, endereço SIP ou URI de linha da conta do usuário que deseja habilitar e clique em **Localizar**.
     
-5. Na tabela, clique no Skype para Business Online conta de usuário que você deseja habilitar para o Enterprise Voice.
+5. Na tabela, clique na conta de usuário do Skype for Business online que você deseja habilitar para o Enterprise Voice.
     
 6. No menu **Editar**, clique em **Exibir detalhes**.
     
@@ -48,11 +48,11 @@ Para um usuário usar o sistema telefônico no Office 365 (nuvem PBX), você dev
     
 8. Clique em **URI da Linha**, digite um número de telefone único e normalizado (por exemplo, tel:+14255550200) e, em seguida, clique em **Confirmar**.
     
-## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>Considerações especiais ao habilitar usuários para o Enterprise Voice no local
+## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>Considerações especiais ao habilitar os usuários do Enterprise Voice no local
 
-Em alguns casos, pode ser necessário modificar o modo de habilitar usuários para o Enterprise Voice para garantir que eles consigam fazer e receber chamadas. Se você tiver usuários em sua implantação que atendem às seguintes condições, execute as etapas foram incluídas para permitir que o usuário para o Enterprise Voice.
+Em alguns casos, pode ser necessário modificar o modo de habilitar usuários para o Enterprise Voice para garantir que eles consigam fazer e receber chamadas. Se você tiver usuários na sua implantação que atendam às seguintes condições, siga as etapas incluídas para habilitar o usuário para o Enterprise Voice.
   
-- Se um usuário é criado no seu local AD e sincronizadas com Skype para Business Online sem sendo habilitados para o Skype para negócios ou para o Enterprise Voice e não tem um LineURI definido, execute os seguintes cmdlets para cada usuário afetado, substituindo os valores em < C0 > <b1></b1> com valores reais para seu ambiente:
+- Se um usuário for criado em seu anúncio local e sincronizado com o Skype for Business online sem estar habilitado para o Skype for Business ou para Enterprise Voice e não tiver um conjunto de LineURI, execute os seguintes cmdlets para cada usuário afetado, substituindo os valores em < C0 > <b1></b1> com os valores reais do seu ambiente:
     
   ```
   Enable-CsUser $username -HostingProvider sipfed.online.lync.com -SipAddress sip:<UserName>@<SIP Domain>
@@ -62,13 +62,13 @@ Em alguns casos, pode ser necessário modificar o modo de habilitar usuários pa
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
-- Se um usuário já estiver habilitado para Skype para negócios localmente, mas não foi habilitado para Enterprise Voice ou atribuído um LineURI antes que está sendo movido para Skype para Business Online, execute o seguinte cmdlet para cada usuário:
+- Se um usuário já estiver habilitado para o Skype for Business no local, mas não tiver sido habilitado para o Enterprise Voice ou atribuído a um LineURI antes de ser movido para o Skype for Business Online, execute o seguinte cmdlet para cada usuário:
     
   ```
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
-- Se um usuário é já está habilitado no Skype for Business no local, mas não habilitado para o Enterprise Voice, mesmo se já atribuído um LineURI, execute o seguinte cmdlet para cada usuário afetado:
+- Se um usuário já estiver habilitado no Skype for Business no local, mas não estiver habilitado para o Enterprise Voice, mesmo que já tenha atribuído um LineURI, execute o seguinte cmdlet para cada usuário afetado:
     
   ```
   Set-CsUser $username -EnterpriseVoiceEnabled $true

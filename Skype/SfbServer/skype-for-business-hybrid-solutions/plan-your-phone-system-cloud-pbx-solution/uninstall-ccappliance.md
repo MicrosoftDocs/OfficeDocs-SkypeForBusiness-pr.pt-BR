@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 2/23/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
 description: 'O cmdlet Uninstall-CcAppliance cancela a instalação do dispositivo  em execução do Skype for Business Cloud Connector Edition no servidor host. '
-ms.openlocfilehash: 7b2def71eee17c81b6f178a18d4c248557a0f022
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 337c5c489846facb1da3c177cac7a965d7550ae5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885645"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286891"
 ---
 # <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
@@ -31,7 +31,7 @@ Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonPar
 
 ### <a name="example-1"></a>Exemplo 1
 
-O exemplo a seguir descarrega e desinstala o aparelho de conector de nuvem de servidor host:
+O exemplo a seguir esvazia e desinstala o dispositivo do conector de nuvem do servidor host:
   
 ```
 Uninstall-CcAppliance
@@ -39,7 +39,7 @@ Uninstall-CcAppliance
 
 ### <a name="example-2"></a>Exemplo 2
 
-O próximo exemplo descarrega e obrigatoriamente desinstala o aparelho de conector de nuvem em execução no servidor host, mesmo se o processo de drenagem falhou:
+O próximo exemplo drena e forçosamente desinstala o dispositivo de conector de nuvem em execução no servidor host, mesmo que o processo de descarga falhasse:
   
 ```
 Uninstall-CcAppliance -Force
@@ -47,7 +47,7 @@ Uninstall-CcAppliance -Force
 
 ### <a name="example-3"></a>Exemplo 3
 
-O próximo exemplo desinstala uma versão de backup do conector de nuvem sem confirmação do usuário:
+O próximo exemplo desinstala uma versão de backup do conector de nuvem sem a confirmação do usuário:
   
 ```
 Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
@@ -56,16 +56,16 @@ Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-Se você estiver desinstalando a versão atual de execução do conector de nuvem, serviços de drenagem inicialmente são executados no servidor de mediação e no servidor de borda para permitir que chamadas simultâneas concluir antes de desinstalar as máquinas virtuais. Se você estiver desinstalando uma versão do backup, os esvaziamento não será executado.
+Se você estiver desinstalando a versão atual do conector de nuvem, os serviços de descarga serão executados primeiro no servidor de mediação e no servidor de borda para que as chamadas simultâneas sejam concluídas antes da desinstalação das máquinas virtuais. Se você estiver desinstalando uma versão do backup, os esvaziamento não será executado.
   
 ## <a name="parameters"></a>Parâmetros
 <a name="DetailedDescription"> </a>
 
 |**Parâmetro**|**Obrigatório**|**Tipo**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-| Versão <br/> | Opcional <br/> |System.String  <br/> | A versão do conector de nuvem que será desinstalado do servidor host. Se não for especificado, desinstale a versão atual em execução. <br/> |
+| Versão <br/> | Opcional <br/> |System.String  <br/> | A versão do conector de nuvem que será desinstalada do servidor host. Se não for especificado, desinstale a versão atual em execução. <br/> |
 |Forçar  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Se você estiver desinstalando a versão atual em execução, tente esvaziar os servidores no Servidor de Mediação e do Servidor de Borda antes de desinstalar as máquinas virtuais. Se você especificar o comutador "Forçar", mesmo se os serviços de esvaziamento falharem, as máquinas virtuais serão desinstaladas. Este parâmetro é usado somente para desinstalar a versão atual em execução.  <br/> |
-|Confirmar  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Pedir a confirmação do usuário para desinstalar as máquinas virtuais. O valor padrão é TRUE.  <br/> |
+|Confirmar  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Solicite confirmação do usuário para desinstalar as máquinas virtuais. O valor padrão é TRUE.  <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

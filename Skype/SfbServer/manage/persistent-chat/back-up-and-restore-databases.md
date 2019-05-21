@@ -5,35 +5,35 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/28/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
-description: 'Resumo: Saiba como fazer backup e restaurar bancos de dados do servidor de Chat persistente no Skype para Business Server 2015.'
-ms.openlocfilehash: ae4f0241195eca115e5a579d55a34025e6c9da5c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como fazer backup e restaurar bancos de dados persistentes do servidor de chat no Skype for Business Server 2015.'
+ms.openlocfilehash: 07d904620bbc5925ec6457924af6ee1e48d98d55
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910356"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279358"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>Fazer backup e restaurar bancos de dados de Chat Persistente no Skype for Business Server 2015
  
-**Resumo:** Saiba como fazer backup e restaurar bancos de dados do servidor de Chat persistente no Skype para Business Server 2015.
+**Resumo:** Saiba como fazer backup e restaurar bancos de dados persistentes do servidor de chat no Skype for Business Server 2015.
   
-Persistent Chat Server requer o software de banco de dados do SQL Server para armazenar dados de sala de chat, histórico e conteúdo, configuração, provisionamento de usuário e outros metadados relevantes. Além disso, se sua organização tem as normas que exigem a atividade de Chat persistente para serem arquivados e o serviço opcional de conformidade está habilitado, o software de banco de dados do SQL Server é usado para armazenar dados de conformidade, incluindo o conteúdo de bate-papo e eventos, como ingressando e deixando salas. Conteúdo da sala de bate-papo é armazenado no banco de Chat persistente (mgc). Os dados de Conformidade são armazenados no banco de dados de Conformidade (mgccomp). Esses dados são essenciais para os negócios, cujo backup deve ser feito regularmente. 
+O servidor de chat persistente exige que o software de banco de dados do SQL Server armazene dados de sala de chat, como histórico e conteúdo, configuração, provisionamento de usuário e outros metadados relevantes. Além disso, se a sua organização tiver regulamentos que exijam que a atividade de chat persistente seja arquivada, e o serviço de conformidade opcional estiver habilitado, o software de banco de dados do SQL Server será usado para armazenar dados de conformidade, incluindo conteúdo e eventos de chat, como ingressar e sair de salas. Conteúdo da sala de chat é armazenado no banco de dados de chat persistente (MGC). Os dados de Conformidade são armazenados no banco de dados de Conformidade (mgccomp). Esses dados são essenciais para os negócios, cujo backup deve ser feito regularmente. 
   
 > [!NOTE]
-> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015. 
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
 
 ## <a name="back-up-the-databases"></a>Fazer backup dos bancos de dados
 
-Existem duas maneiras de fazer backup de dados de Chat persistente. 
+Há duas maneiras de fazer backup de dados de chat persistentes. 
   
 - Backup do SQL Server
     
-- O cmdlet **Export-CsPersistentChatData** , qual exporta os dados de Chat persistente como um arquivo
+- O cmdlet **Export-CsPersistentChatData** , que exporta dados de chat persistentes como um arquivo
     
 Dados criados usando o backup do SQL Server requerem espaço em disco significativamente maior – possivelmente 20 vezes maior – que os dados criados pelo **Export-CsPersistentChatData**, mas o backup do SQL Server é o procedimento com o qual os administradores provavelmente já estão familiarizados.
   
@@ -59,7 +59,7 @@ Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName 
 
 ## <a name="restore-the-databases"></a>Restaurar os bancos de dados
 
-Como você restaura seus dados de Chat persistente depende do método que você usou para fazer o backup. Se você usou procedimentos de backup do SQL Server, então deve usar procedimentos de restauração do SQL Server. Se você usou o cmdlet **Export-CsPersistentChatData** para fazer backup de dados de Chat persistente, você deve usar o cmdlet **Import-CsPersistentChatData** para restaurar os dados:
+A maneira como você restaura seus dados de chat persistentes depende do método usado para fazer o backup. Se você usou procedimentos de backup do SQL Server, então deve usar procedimentos de restauração do SQL Server. Se você usou o cmdlet **Export-CsPersistentChatData** para fazer backup de dados de chat persistente, deve usar o cmdlet **Import-CsPersistentChatData** para restaurar os dados:
   
 ```
 Import-CsPersistentChatData -FileName <String> <COMMON PARAMETERS>

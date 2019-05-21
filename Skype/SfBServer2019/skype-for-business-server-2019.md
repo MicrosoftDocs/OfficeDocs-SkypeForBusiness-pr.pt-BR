@@ -6,18 +6,18 @@ author: jambirk
 manager: serdars
 layout: LandingPage
 ms.date: 2/11/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: 'Resumo: Explore esses links para aprender a implementar Skype para Business Server 2019.'
-ms.openlocfilehash: e5a0997fd30447792640364978fea8edefdfe3ed
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Resumo: explore estes links para saber como implementar o Skype for Business Server 2019.'
+ms.openlocfilehash: 3bb946285b5bd85722aa1983cbbc7e87dbb72506
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240090"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283903"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype for Business Server 2019
 
@@ -115,7 +115,7 @@ ms.locfileid: "32240090"
         </a>
     </li>
     <li> 
-        <a href="https://www.microsoft.com/evalcenter/evaluate-skype-business-server-2019">
+        <a href="https://go.microsoft.com/fwlink/?linkid=2005336">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -205,8 +205,8 @@ ms.locfileid: "32240090"
 
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Antes de começar** <br>[Requisitos do sistema](plan/system-requirements.md) <br>[Requisitos de rede](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **Instalar** <br>[Instalar o Skype for Business Server](../SfbServer/deploy/install/install.md) <br> [Migrar para o Skype para negócios 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **Enterprise Voice**<br>[Planejar](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Implantar](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
-| **Novos recursos**<br>[Novidades](whats-new.md)                                                                                                                                         | **Soluções híbridas**<br>[Planejar a conectividade híbrida](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **Versões anteriores**<br/>  [Skype para obter a documentação Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Documentação do Lync Server 2013](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
+| **Antes de começar** <br>[Requisitos do sistema](plan/system-requirements.md) <br>[Requisitos de rede](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **Instalar** <br>[Instalar o Skype for Business Server](../SfbServer/deploy/install/install.md) <br> [Migrar para o Skype for Business 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **Enterprise Voice**<br>[Planejar](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Implantar](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
+| **Novos recursos**<br>[Novidades](whats-new.md)                                                                                                                                         | **Soluções híbridas**<br>[Planejar conectividade híbrida](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **Versões anteriores**<br/>  [Documentação do Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Documentação do Lync Server 2013](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 
 * * *

@@ -15,133 +15,134 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a49090f8ce82d825fc0eb153910d377429595922
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 833d79d16365a1b90e8cd35e88e43468f0e25fa8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919028"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280921"
 ---
-<a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidado equipes
+<a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidados do teams
 ==========================================
 
-Use esta lista de verificação para ajudá-lo a ativar e configurar o recurso de acesso de convidado no Microsoft Teams acordo com as preferências de sua organização.
+Use esta lista de verificação para ajudá-lo a habilitar e configurar o recurso de acesso de convidado no Microsoft Teams de acordo com as preferências da sua organização.
 
-## <a name="understand-the-limitations-for-guests"></a>Compreender as limitações de convidados
+## <a name="understand-the-limitations-for-guests"></a>Entender as limitações dos convidados
 
-A experiência de convidado tem limitações por design. Verifique se que você compreende a experiência de convidado, então você não tenta corrigir algo que não é um problema. Por exemplo, aqui está uma lista de alguns da funcionalidade que não está disponível para um convidado em Teams da Microsoft:
+A experiência de convidado tem limitações por meio do design. Certifique-se de entender a experiência de convidado para não tentar corrigir algo que não seja um problema. Por exemplo, veja a seguir uma lista de alguns dos recursos que não estão disponíveis para um convidado no Microsoft Teams:
 
 - OneDrive for Business
-- Pesquisa de pessoas fora de equipes
+- Pesquisa de pessoas fora do teams
 - Calendário, reuniões agendadas ou detalhes da reunião
 - PSTN
 - Organograma
 - Criar ou revisar uma equipe
-- Navegar para uma equipe
-- Carregar arquivos para um bate-papo entre duas pessoas
+- Procurar uma equipe
+- Carregar arquivos para um chat de pessoa para pessoa
+- Os convidados ainda podem pesquisar e localizar usuários, de fora da equipe, se saberem a ID de e-mail completa. Para evitar isso, os administradores de ti podem usar padrões como [pesquisa de diretório em escopo](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search) que têm a capacidade de restringir convidados à sua GAL virtual.
 
-Para obter mais detalhes, consulte [o que a experiência de convidado é como](guest-experience.md) e [acesso de convidado em grupos do Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
+Para obter mais detalhes, consulte o [que a experiência de convidado é como](guest-experience.md) e [acesso de convidado em grupos do Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
 ### <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado vs. acesso externo (federação)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="if-your-guests-are-seeing-license-errors"></a>Se seus convidados estão vendo erros de licença
+## <a name="if-your-guests-are-seeing-license-errors"></a>Se seus convidados estiverem vendo erros de licença
 
-Acesso de convidado no Microsoft Teams usa o Azure Active Directory corporativos para negócios (B2B) e seu modelo de licenciamento. Se você está vendo a erros de licenciamento, certifique-se ler as orientações de licenciamento B2B para entender os requisitos de licenciamento que sua organização tem para que os usuários sejam capazes de convidar as pessoas para sua organização.
+O acesso de convidado no Microsoft Teams usa o Azure Active Directory Business to Business (B2B) e seu modelo de licenciamento. Se você estiver vendo erros de licenciamento, leia a orientação de licenciamento B2B para entender os requisitos de licenciamento que a sua organização tem para que seus usuários possam convidar convidados para sua organização.
 
-Algumas coisas lembrar:
+Lembre-se de algumas coisas:
 
-- Para cada paga licença do Azure AD que você pode atribuir a um usuário, os usuários podem convidar usuários de convidado até cinco sob a permissão de usuário externo.
-- Convidados são usuários fora da sua organização. Seus funcionários, prestadores de serviços no local, os operadores no local e assim por diante, não podem ser adicionados como convidados. O mesmo se aplica às suas afiliadas.
-- As licenças de convidado são contadas contra a organização convidando. Considere isso ao calcular o número de licenças que necessárias.
-- As licenças são contadas contra a sua organização se os convidados vêm de outro locatário do Office 365 ou estiver usando seus endereços de email pessoais.
+- Para cada licença paga do Azure AD atribuída a um usuário, os usuários podem convidar até cinco usuários convidados sob a bonificação de usuário externa.
+- Convidados são usuários de fora da sua organização. Seus funcionários, prestadores de no local, agentes no local e assim por diante não podem ser adicionados como convidados. O mesmo se aplica às suas afiliadas.
+- As licenças de convidado são contadas em relação à organização que convida. Considere isso quando você calcular o número de licenças necessárias.
+- As licenças são contadas em relação à sua organização se os convidados convidados vierem de outro locatário do Office 365 ou estiverem usando seus endereços de email pessoais.
 
-## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□ Etapa 1: definir as configurações no Azure AD business-to-business
+## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□ Etapa 1: definir as configurações do Azure AD para empresas
 
-1. Entrar nohttps://portal.azure.com
-2. No painel esquerdo, clique em **do Azure Active directory** .
-3. Em **Gerenciar**, clique em **configurações do usuário**.
-4. Em **usuários externos**, clique em **configurações de gerenciar externo de colaboração**.
-5. Na página **configurações de colaboração externa** , certifique-se de **que membros podem convidar** estiver definida como **Sim**.
+1. Entrar emhttps://portal.azure.com
+2. Clique em **Azure Active Directory** no painel esquerdo.
+3. Em **gerenciar**, clique em **configurações do usuário**.
+4. Em **usuários externos**, clique em **gerenciar configurações de colaboração externa**.
+5. Na página **configurações de colaboração externas** , certifique-se de que **os membros podem convidar** esteja definido como **Sim**.
 
-      ![Captura de tela mostra um exemplo de uma alternância de configurações AAD. ](media/guest-access-checklist-AADSettings1.png)
+      ![A captura de tela mostra um exemplo de uma alternância de configurações do AAD. ](media/guest-access-checklist-AADSettings1.png)
 
-    Para suportar os convidados, **os membros podem convidar** deve ser definida como **Sim**. 
+    Para dar suporte a convidados, **os membros podem convidar** devem ser definidos como **Sim**. 
    
 > [!NOTE] 
-> Se você define **membros podem convidar** como **não** e, em seguida, habilita o acesso de convidado no Office 365 grupos e Teams da Microsoft, os administradores podem controlar a convites de convidado para seu diretório. Depois que os convidados estão no diretório, podem ser adicionados às equipes pelos membros não seja o administrador que são proprietários de equipe.
+> Se você definir que **os membros podem convidar** para **não** e, em seguida, habilitar o acesso de convidado nos grupos do Office 365 e no Microsoft Teams, os administradores poderão controlar os convites convidados para seu diretório. Depois que os convidados estiverem no diretório, eles poderão ser adicionados às equipes por membros não-administradores que sejam proprietários da equipe.
 
 Para obter mais informações, consulte [Autorizar acesso de convidados no Microsoft Teams](Teams-dependencies.md).
 
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ Etapa 2: configurar grupos do Office 365
 
-1. No Centro de administração do Microsoft 365, vá para **configurações** > **Serviços & suplementos** > **Grupos do Office 365**.
-2. Certifique-se de **Permitir que os membros do grupo fora o conteúdo de grupo de acesso de organização** está definida como **On**. Se essa configuração estiver desativada, os convidados não conseguirá acessar nenhum conteúdo de grupo.
-3. Certifique-se de **Permitir que os proprietários de grupo adicionar pessoas fora da organização para grupos** está definida como **On**. Se essa configuração estiver desativada, os proprietários de equipe não conseguirá adicionar novos convidados. No mínimo, essa configuração deve ser no suporte ao acesso de convidado.
+1. No centro de administração do Microsoft 365, vá para **configurações** > **Serviços & suplementos** > **do Office 365 grupos**.
+2. Verifique se **deixar que os membros do grupo fora do conteúdo do grupo de acesso à organização** estejam definidos como **ativado**. Se essa configuração estiver desativada, os convidados não poderão acessar qualquer conteúdo do grupo.
+3. Certifique-se de **que o recurso proprietários de grupos Adicione pessoas de fora da organização a grupos** esteja definido como **ativado**. Se essa configuração estiver desativada, os proprietários da equipe não poderão adicionar novos convidados. No mínimo, essa configuração deve estar ativada para dar suporte ao acesso de convidado.
 
-     ![Captura de tela mostra as grupos comuta o Office 365](media/guest-access-checklist-office365.png)
+     ![A captura de tela mostra as alternâncias dos grupos do Office 365](media/guest-access-checklist-office365.png)
 
-Para obter instruções detalhadas sobre como definir essas configurações, consulte a seção "Office 365 grupos" em [autorizar o acesso de convidado em equipes da Microsoft](Teams-dependencies.md)e [Gerenciar o acesso de convidado em grupos do Office 365](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) .
+Para obter instruções detalhadas sobre como definir essas configurações, consulte [gerenciar o acesso de convidados nos grupos do Office 365](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) e a seção "grupos do Office 365" em autorizar o [acesso de convidado no Microsoft Teams](Teams-dependencies.md).
  
 
-## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ Etapa 3: habilitar o acesso de convidado a nível de locatário
+## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ Etapa 3: habilitar o acesso de convidado no nível do locatário
 
-No mínimo, você deve ativar acesso como convidado for Microsoft Teams sob o **Centro de administração de equipes da Microsoft**. 
+No mínimo, você deve ativar o acesso de convidado para o Microsoft Teams no **centro de administração do Microsoft Teams**. 
 
-1. No Centro de administração de equipes, selecione **configurações de toda a organização** > **acesso de convidado**.
-2. Defina a opção de **Permitir o acesso de convidado em equipes da Microsoft** para **ativado**.
+1. No centro de administração do Teams, selecione o > **acesso de convidados**às **configurações de toda a organização**.
+2. Defina a opção **permitir acesso de convidado no Microsoft Teams** como **ativado**.
 
-    ![Captura de tela mostra um exemplo de uma alternância de configurações de equipes](media/guest-access-checklist-set-up-guests-image1.png)
+    ![A captura de tela mostra um exemplo de alternância de configurações de equipes](media/guest-access-checklist-set-up-guests-image1.png)
 
-3. Nesta página mesmo, configure qualquer outra configuração de convidado que você precisa.
+3. Na mesma página, configure qualquer outra configuração de convidado necessária.
 4. Clique em **Salvar**.
 
-Para obter instruções detalhadas, consulte [Ativar ou desativar o acesso de convidado para equipes da Microsoft](set-up-guests.md).
+Para obter instruções detalhadas, confira [Ativar ou desativar o acesso de convidado ao Microsoft Teams](set-up-guests.md).
 
 
 ## <a name="--step-4-configure-sharing-in-office-365"></a>□ Etapa 4: configurar o compartilhamento no Office 365 
 
-Certifique-se de que os usuários podem adicionar convidados. Veja como:
+Certifique-se de que os usuários possam adicionar convidados. Veja como:
 
-1. No Centro de administração do Microsoft 365, vá para **configurações** > **segurança & privacidade**.
+1. No centro de administração do Microsoft 365, vá para **configurações** > **segurança & privacidade**.
 
-     ![Captura de tela mostra um exemplo de configurações de serviços](media/guest-access-checklist-Office365Admin_Services_addins.png)
+     ![A captura de tela mostra um exemplo de configurações de serviços](media/guest-access-checklist-Office365Admin_Services_addins.png)
 
 2. Em **compartilhamento**, selecione **Editar**.
 
-     ![Captura de tela mostra um exemplo de uma alternância de configurações de compartilhamento](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+     ![A captura de tela mostra um exemplo de alternância de configurações de compartilhamento](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
  
-3. Definir **permitem aos usuários adicionar novos convidados para esta organização** para **ativado**e clique em **Salvar**.
+3. Defina **permitir que os usuários adicionem novos convidados a essa organização** para serem **ativados**e, em seguida, clique em **salvar**.
 
-     ![Captura de tela mostra um exemplo de uma alternância de configurações de compartilhamento](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
+     ![A captura de tela mostra um exemplo de alternância de configurações de compartilhamento](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
  
 > [!NOTE]
-> Essa configuração equivale à configuração de **membros podem convidar** em **configurações do usuário** > **usuários externos** no Azure AD.  
+> Essa configuração é equivalente à configuração os **Membros podem convidar** em **configurações** > do usuário**usuários externos** do Azure AD.  
 
 
 ## <a name="-step-5-verify-sharing-setting-in-sharepoint"></a>□ Etapa 5: verificar a configuração de compartilhamento no SharePoint
 
-1. Entrar no Centro de administração do Microsoft 365.
-2. Clique em **Administração Central**e selecione **SharePoint**.
-3. No Centro de administração do SharePoint, selecione **compartilhamento**.
-4. Verifique se a opção para **não permitir o compartilhamento fora da sua organização** *não* está selecionado.
+1. Entre no centro de administração do Microsoft 365.
+2. Clique em **centro de administração**e selecione **SharePoint**.
+3. No centro de administração do SharePoint, selecione **compartilhamento**.
+4. Certifique-se de que a opção **não permitir o compartilhamento fora da sua organização** *não* esteja selecionada.
  
-     ![Captura de tela mostra um exemplo de uma alternância de configurações SparePoint Online.](media/guest-access-checklist-SPOSettings1.png)
+     ![A captura de tela mostra um exemplo de uma alternância de configurações online do SparePoint.](media/guest-access-checklist-SPOSettings1.png)
 
 
-## <a name="-step-6-enable-specific-settings-for-channels"></a>□ Etapa 6: Habilitar configurações específicas para canais 
+## <a name="-step-6-enable-specific-settings-for-channels"></a>□ Etapa 6: Habilitar configurações específicas de canais 
 
-No aplicativo de equipes, no nível equipe individuais, configure permissões de convidado para que os convidados podem criar, atualizar e excluir canais. Além dos administradores, os proprietários de equipe podem configurar essa definição.
+No aplicativo Teams, no nível individual da equipe, configure as permissões de convidado para que os convidados possam criar, atualizar e excluir canais. Além dos administradores, os proprietários da equipe podem definir essa configuração.
 
-![Captura de tela mostra um exemplo de uma alternância de configurações de equipe/canal](media/guest-access-checklist-TeamsSettings2.png)
+![A captura de tela mostra um exemplo de alternância de configurações de equipe/canal](media/guest-access-checklist-TeamsSettings2.png)
 
-Para obter mais informações, incluindo vídeos de instruções, consulte [acesso de convidado em equipes da Microsoft](guest-access.md).
+Para obter mais informações, incluindo vídeos de instruções, consulte [acesso de convidado no Microsoft Teams](guest-access.md).
 
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
-Se você tiver problemas com a adição de convidados no Teams da Microsoft, consulte o [Guia de solução de problemas de acesso de convidado](https://techcommunity.microsoft.com/t5/Microsoft-Teams/Guest-Access-Troubleshooting-Guide/td-p/119797).
+Se você tiver problemas para adicionar convidados no Microsoft Teams, consulte o [Guia de solução de problemas de acesso de convidado](https://techcommunity.microsoft.com/t5/Microsoft-Teams/Guest-Access-Troubleshooting-Guide/td-p/119797).
 
 

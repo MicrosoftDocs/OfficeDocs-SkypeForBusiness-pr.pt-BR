@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.EdgeNetwork
@@ -13,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os seguintes componentes criam a topologia de Borda da rede de perímetro. Exceto quando observado, os componentes fazem parte dos cenários de servidor de borda no Skype para Business Server e estão na rede de perímetro. Os componentes de Borda incluem o seguinte:'
-ms.openlocfilehash: 0b1c97062253099659f8812aa47082a575365670
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os seguintes componentes criam a topologia de Borda da rede de perímetro. Exceto onde observado, os componentes fazem parte dos cenários do servidor de borda no Skype for Business Server e estão na rede de perímetro. Os componentes de Borda incluem o seguinte:'
+ms.openlocfilehash: 00cbadcd08e4c9b3df97c7f50e7ed7dfd46e562b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889504"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288326"
 ---
-# <a name="edge-network-planning-tool-in-skype-for-business"></a>Rede de borda (ferramenta de planejamento) em Skype para negócios 
+# <a name="edge-network-planning-tool-in-skype-for-business"></a>Edge Network (ferramenta de planejamento) no Skype for Business 
  
-A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os seguintes componentes criam a topologia de Borda da rede de perímetro. Exceto onde observado, os componentes fazem parte dos [cenários de servidor de borda no Skype para Business Server](../../../plan-your-deployment/edge-server-deployments/scenarios.md) e estão na rede de perímetro. Os componentes de Borda incluem o seguinte:
+A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os seguintes componentes criam a topologia de Borda da rede de perímetro. Exceto onde observado, os componentes fazem parte dos [cenários do servidor de borda no Skype for Business Server](../../../plan-your-deployment/edge-server-deployments/scenarios.md) e estão na rede de perímetro. Os componentes de Borda incluem o seguinte:
   
 - Servidor(es) de borda
     
@@ -37,6 +37,6 @@ A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os s
     
 ## <a name="see-also"></a>Confira também
 
-[Planejar para implantações de servidor de borda no Skype para Business Server](../../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[Plano para implantações do servidor de borda no Skype for Business Server](../../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[Requisitos de sistema do servidor de borda no Skype para Business Server](../../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+[Requisitos do sistema do servidor de borda no Skype for Business Server](../../../plan-your-deployment/edge-server-deployments/system-requirements.md)

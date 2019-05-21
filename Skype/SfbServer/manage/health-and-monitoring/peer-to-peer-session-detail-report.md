@@ -1,25 +1,25 @@
 ---
-title: Relatório de detalhes de sessão ponto a ponto no Skype para Business Server
+title: Relatório detalhado de sessão ponto a ponto no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: 'Resumo: Saiba mais sobre o relatório de detalhes de sessão ponto a ponto no Skype para Business Server.'
-ms.openlocfilehash: 77b5a80c2280d5242e4efcc0dc696c6720da4f64
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de detalhes da sessão ponto a ponto no Skype for Business Server.'
+ms.openlocfilehash: 768609c68e37eebf46c350009638b960066f9456
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925226"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279876"
 ---
-# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Relatório de detalhes de sessão ponto a ponto no Skype para Business Server
+# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Relatório detalhado de sessão ponto a ponto no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de detalhes de sessão ponto a ponto no Skype para Business Server.
+**Resumo:** Saiba mais sobre o relatório detalhe da sessão ponto a ponto no Skype for Business Server.
   
 O Relatório Detalhado de Sessão Ponto a Ponto retorna informações detalhadas sobre uma sessão ponto a ponto. Por exemplo, se você selecionar uma sessão de mensagens instantâneas, o relatório informará o número de mensagens enviadas por cada um dos dois usuários na seção.
   
@@ -35,7 +35,7 @@ O Relatório Detalhado de Sessão Ponto a Ponto pode ser acessado a partir de qu
     
 - Relatório de lista de falhas 
     
-De dentro do relatório de detalhes de sessão ponto a ponto você pode acessar o [Relatório de diagnóstico no Skype para Business Server](diagnostic-report.md) clicando na métrica relatório de diagnóstico (detalhes). Você também pode acessar o Relatório das Principais Falhas clicando em uma destas duas métricas:
+No relatório de detalhes da sessão ponto a ponto, você pode acessar o [relatório de diagnóstico no Skype for Business Server](diagnostic-report.md) clicando na métrica relatório de diagnóstico (detalhes). Você também pode acessar o Relatório das Principais Falhas clicando em uma destas duas métricas:
   
 - Resposta
     

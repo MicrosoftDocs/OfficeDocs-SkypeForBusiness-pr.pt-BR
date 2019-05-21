@@ -5,43 +5,43 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.InstallDatabaseOptionPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
-description: 'Você configurar opções avançadas para o posicionamento de arquivos de log e de banco de dados no SQL Server. As opções disponíveis são:'
-ms.openlocfilehash: 17453e97bf527390ed2dab561c3995711d7b1d07
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Você configura opções avançadas para o posicionamento de arquivos de banco de dados e de log no SQL Server. As opções disponíveis são:'
+ms.openlocfilehash: 5a2aa6bffc5424c10ed752c7c3d2ac28cfba1684
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888608"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284274"
 ---
 # <a name="install-database-options-page"></a>Instalar Página de Opções de Banco de Dados
 
-Você configurar opções avançadas para o posicionamento de arquivos de log e de banco de dados no SQL Server. As opções disponíveis são:
+Você configura opções avançadas para o posicionamento de arquivos de banco de dados e de log no SQL Server. As opções disponíveis são:
 
 > [!IMPORTANT]
-> Selecione a opção que melhor atenda aos seus requisitos e políticas referentes ao posicionamento de arquivos de dados e log em seus computadores SQL Server.
+> Selecione a opção que melhor se adapte às suas necessidades e políticas pertinentes ao posicionamento de dados e registros de arquivos em seus computadores SQL Server.
 
- **Determinar o local do arquivo de banco de dados automaticamente**: A opção padrão usa um algoritmo que determina o espaço disponível no SQL Server e distribui os arquivos de banco de dados e log para um desempenho ideal.
+ **Determinar automaticamente o local do arquivo de banco de dados**: a opção padrão usa um algoritmo que determina o espaço disponível no SQL Server e distribui os arquivos de banco de dados e de log para obter ótimo desempenho.
 
- **Use o SQL Server instância padrões**: Selecione essa opção para colocar o arquivo de banco de dados e log de arquivos com base nas configurações da instância no SQL Server. Normalmente, as opções são gerenciadas e configuradas pelo administrador de banco de dados.
+ **Usar padrões de instância do SQL Server**: Selecione esta opção para colocar arquivos de banco de dados e arquivos de log com base nas configurações de instância no SQL Server. As opções são normalmente gerenciadas e configuradas pelo seu administrador de banco de dados.
 
- **Com esses caminho no SQL Server alvo**: Selecione essa opção para definir suas próprias caminhos para os arquivos de log e de banco de dados do SQL Server, digitando o caminho completo para a unidade e a pasta onde os arquivos de log e de banco de dados serão colocados.
+ **Estes caminhos no SQL Server de destino**: Selecione esta opção para definir seus próprios caminhos para os arquivos de banco de dados e log do SQL Server digitando o caminho completo para a unidade e a pasta onde o banco de dados e os arquivos de log serão colocados.
 
 > [!IMPORTANT]
-> Os caminhos que você insira podem ser modificados com base em algoritmos de otimização de desempenho na sua instalação. Para obter detalhes, consulte [Banco de dados de instalação usando o Lync Server Management Shell](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx).
+> Os caminhos inseridos podem ser modificados com base em algoritmos de otimização de desempenho na instalação. Para obter detalhes, consulte [instalação de banco de dados usando o Shell de gerenciamento do Lync Server](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx).
 
- **Okey**: clique no botão Okey para confirmar suas alterações.
+ **OK**: clique no botão OK para confirmar as alterações.
 
- **Cancelar**: clique em Cancelar para descartar quaisquer alterações e retornar à tela Instalar banco de dados.
+ **Cancelar**: clique em Cancelar para descartar as alterações e retornar à tela do banco de dados de instalação.
 
- **Ajuda**: clique no botão Ajuda para acessar esta página de Ajuda.
+ **Ajuda**: clique no botão ajuda para acessar esta página de ajuda.
 
 ## <a name="see-also"></a>Confira também
 
-[Localização do arquivo de Log e de dados do SQL Server](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)
+[Posicionamento de arquivos de log e dados do SQL Server](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)

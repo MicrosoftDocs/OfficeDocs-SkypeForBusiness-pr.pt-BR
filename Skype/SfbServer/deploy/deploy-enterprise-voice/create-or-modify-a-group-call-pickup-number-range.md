@@ -1,10 +1,10 @@
 ---
-title: Criar ou modificar um intervalo de números de atendimento de chamada do grupo no Skype para negócios
+title: Criar ou modificar um intervalo de números de tira de chamada em grupo no Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,26 +13,26 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
-description: Criar ou modificar um intervalo de números de atendimento de chamada do grupo no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 569e1ed16e706e89ff2cf03c330f8161824e3bd2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Criar ou modificar um intervalo de números de retirada de chamadas em grupo no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: e81762e83598a9089e25536c74754bf11aae704f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892934"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286229"
 ---
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Criar ou modificar um intervalo de números de atendimento de chamada do grupo no Skype para negócios
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Criar ou modificar um intervalo de números de tira de chamada em grupo no Skype for Business
 
-Criar ou modificar um intervalo de números de atendimento de chamada do grupo no Skype para Business Server Enterprise Voice.
+Criar ou modificar um intervalo de números de retirada de chamadas em grupo no Skype for Business Server Enterprise Voice.
 
-Atendimento de chamada do grupo é baseado no aplicativo de estacionamento de chamadas. Quando você implanta o atendimento de chamada de grupo, você deve configurar a tabela de órbita de estacionamento de chamada com intervalos de números de telefone são designados como números de retirada de grupo de chamada. Esses números do grupo são aqueles que os usuários discam para receber chamadas que estão tocando para outro usuário.
+O recebimento de chamadas em grupo é baseado no aplicativo parque de chamadas. Ao implantar o recurso de recebimento de chamadas em grupo, você deve configurar a tabela órbita do estacionamento de chamada com intervalos de números de telefone designados como números de grupo de retirada de chamadas. Esses números do grupo são aqueles que os usuários discam para receber chamadas que estão tocando para outro usuário.
 
-Como os números da órbita de estacionamento de chamada, os números do grupo de recebimento de chamada precisam ser extensões virtuais, sem nenhum usuário ou telefone atribuído. Cada pool de Front-End, onde você implanta o atendimento de chamada do grupo pode ter um ou mais intervalos de números de retirada de grupo de chamada. Os intervalos de números do grupo devem ser globalmente exclusivos em sua implantação e devem ser atribuídos como o tipo **GroupPickup**.
+Como os números da órbita de estacionamento de chamada, os números do grupo de recebimento de chamada precisam ser extensões virtuais, sem nenhum usuário ou telefone atribuído. Cada pool de front-ends onde você implanta o recebimento de chamadas em grupo pode ter um ou mais intervalos de números de grupo de recebimento de chamadas. Os intervalos de números do grupo devem ser globalmente exclusivos em sua implantação e devem ser atribuídos como o tipo **GroupPickup**.
 
 Utilize o procedimento a seguir para criar ou modificar o intervalo de números de um grupo de atendimento de chamadas na tabela de órbita de estacionamento de chamadas.
 
 > [!NOTE]
-> Você deve usar o Skype para Business Server Management Shell para criar, modificar, remover e exibir os intervalos de números de atendimento de chamada de grupo na tabela de órbita de estacionamento de chamada. Intervalos de números de atendimento de chamada de grupo não estão disponíveis no Skype para painel de controle do servidor de negócios.
+> Você deve usar o Shell de gerenciamento do Skype for Business Server para criar, modificar, remover e exibir os intervalos de números de recebimento de chamadas em grupo na tabela órbita do estacionamento de chamadas. Os intervalos de números de retirada de chamadas em grupo não estão disponíveis no painel de controle do Skype for Business Server.
 
 Os intervalos de números de grupo de atendimento de chamadas precisam estar de acordo com as regras a seguir:
 
@@ -42,13 +42,13 @@ Os intervalos de números de grupo de atendimento de chamadas precisam estar de 
 
 - O intervalo de números precisa ser exclusivo. Esse intervalo não pode se sobrepor a nenhum outro intervalo.
 
-- Se o intervalo de números começa com o caractere \* ou #, o intervalo deve ser maior que 100.
+- Se o intervalo de números começar com o \* caractere ou #, o intervalo deve ser maior que 100.
 
-- Valores válidos: deve coincidir com a cadeia de caracteres de expressão regular ([\\* | #] ? [1-9] \d{0,7}) | ([1-9] \d{0,8}). Isso significa que o valor deve ser uma cadeia de caracteres iniciada com o caractere \* ou #, ou um número entre 1 e 9 (o primeiro caractere não pode ser um zero). Se o primeiro caractere for \* ou #, o caractere seguinte deve ser um número entre 1 e 9 (ele não pode ser um zero). Os caracteres subsequentes podem ser qualquer número entre 0 e 9 até sete caracteres adicionais (por exemplo, "#6000", "\*92000", "\*95551212" e "915551212"). Se o primeiro caractere não for \* ou #, o primeiro caractere deve ser um número entre 1 e 9 (ele não pode ser zero), seguido por até oito caracteres, cada um número entre 0 e 9 (por exemplo, "915551212", "41212", "300").
+- Valores válidos: devem corresponder à cadeia de caracteres de expressão\\regular ([* | #] ? [1-{0,7}9] \d) | ([1-9] \d{0,8}). Isso significa que o valor deve ser uma cadeia de caracteres que comece \* com o caractere ou # ou um número de 1 a 9 (o primeiro caractere não pode ser zero). Se o primeiro caractere for \* ou #, o seguinte caractere deve ser um número de 1 a 9 (não pode ser zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo, "#6000"\*, "92000"\*, "95551212" e "915551212"). Se o primeiro caractere não \* for ou #, o primeiro caractere deve ser um número de 1 a 9 (não pode ser zero), seguido por até oito caracteres, cada um dos números de 0 a 9 (por exemplo, "915551212", "41212", "300").
 
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>Para criar ou modificar um intervalo de grupo de atendimento de chamadas
 
-1. Faça logon no computador onde o Skype do Shell de gerenciamento do servidor de negócios está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em **Delegate Setup Permissions**.
+1. Faça logon no computador em que o Shell de gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em **permissões de configuração do representante**.
 
 2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
 
@@ -73,7 +73,7 @@ Os intervalos de números de grupo de atendimento de chamadas precisam estar de 
    ```
 
     > [!IMPORTANT]
-    > Use esse cmdlet para mudar o tipo atribuído aos intervalos de números somente se você tiver especificado inicialmente o tipo incorreto e somente caso o intervalo de grupo ainda não esteja em uso. Se você alterar o intervalo de números de CallPark para GroupPickup ou vice-versa e o intervalo de números já estiver em uso, o estacionamento de chamada ou o atendimento de chamada em grupo irá parar de funcionar para aquele intervalo de números. Por exemplo, se você alterar um intervalo de números de CallPark para GroupPick, o aplicativo de estacionamento de chamada não pode usar aquele intervalo de Órbitas para estacionar chamadas.
+    > Use esse cmdlet para mudar o tipo atribuído aos intervalos de números somente se você tiver especificado inicialmente o tipo incorreto e somente caso o intervalo de grupo ainda não esteja em uso. Se você alterar o intervalo de números de CallPark para GroupPickup ou vice-versa e o intervalo de números já estiver em uso, o estacionamento de chamada ou o atendimento de chamada em grupo irá parar de funcionar para aquele intervalo de números. Por exemplo, se você alterar um intervalo de números de CallPark para GroupPick, o aplicativo de estacionamento de chamadas não poderá mais usar esse intervalo de órbitas para estacionar chamadas.
 
 ## <a name="see-also"></a>Confira também
 
@@ -81,4 +81,4 @@ Os intervalos de números de grupo de atendimento de chamadas precisam estar de 
 
 [Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
 
-[Excluir um intervalo de órbita de estacionamento de chamada](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)
+[Excluir uma faixa de opções de estacionamento de chamada](https://technet.microsoft.com/library/85e9f916-062d-450d-ac0a-aeaefc0f7cdc.aspx)

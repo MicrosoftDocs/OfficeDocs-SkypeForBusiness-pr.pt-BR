@@ -4,41 +4,41 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Em um ambiente misto, se você criar um novo servidor de aplicativos confiáveis, você deve definir o pool do próximo salto para ser um Skype para Business Server 2019 pool. Em um ambiente misto, tanto o pool herdado e o Skype para Business Server 2019 pool aparecem na lista suspensa. Não há suporte para selecionar o pool herdado.
-ms.openlocfilehash: 79f4de527008d2d9bf295fcb82eee433d04a1691
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Em um ambiente misto, se você criar um novo servidor de aplicativos confiável, deverá definir o próximo pool de saltos como um pool do Skype for Business Server 2019. Em um ambiente misto, o pool herdado e o pool do Skype for Business Server 2019 aparecem na lista suspensa. Não há suporte para a seleção do pool herdado.
+ms.openlocfilehash: b0dfb9ba1e4744ba3e0ea0c376f67a224e70376a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238679"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289596"
 ---
 # <a name="configure-trusted-application-servers"></a>Configurar servidores de aplicativo confiáveis
 
-Em um ambiente misto, se você criar um novo servidor de aplicativos confiáveis, você deve definir o pool do próximo salto para ser um Skype para Business Server 2019 pool. Em um ambiente misto, tanto o pool herdado e o Skype para Business Server 2019 pool aparecem na lista suspensa. Não há suporte para selecionar o pool herdado.
+Em um ambiente misto, se você criar um novo servidor de aplicativos confiável, deverá definir o próximo pool de saltos como um pool do Skype for Business Server 2019. Em um ambiente misto, o pool herdado e o pool do Skype for Business Server 2019 aparecem na lista suspensa. Não há suporte para a seleção do pool herdado.
   
 > [!IMPORTANT]
-> Se você estiver migrando o servidor de aplicativo confiável, você também deverá atualizar a versão do UCMA que você está usando. Se você criar um novo Pool de aplicativos confiáveis para Skype for Business Server 2019, você deverá atualizar UCMA para a versão incluída Skype para Business Server 2019 ou a versão mais recente disponível. 
+> Se você estiver migrando um servidor de aplicativos confiável, também deverá atualizar a versão do UCMA que você está usando. Se você criar um novo pool de aplicativos confiável para o Skype for Business Server 2019, deverá atualizar o UCMA para a versão incluída com o Skype for Business Server 2019 ou a versão mais recente disponível. 
   
-### <a name="select-skype-for-business-server-2019-as-next-hop-when-creating-a-trusted-application-server"></a>Selecione Skype para Business Server 2019 como próximo salto ao criar um servidor de aplicativos confiáveis
+### <a name="select-skype-for-business-server-2019-as-next-hop-when-creating-a-trusted-application-server"></a>Selecione o Skype for Business Server 2019 como próximo nó ao criar um servidor de aplicativos confiável
 
-1. Abra o construtor de topologia.
+1. Abrir o construtor de topologias.
     
-2. No painel esquerdo, clique com o botão **servidores de aplicativos confiáveis** e clique em **Novo Pool de aplicativos confiáveis**.
+2. No painel esquerdo, clique com o botão direito do mouse em **servidores de aplicativos confiáveis** e clique em **novo pool de aplicativos confiáveis**.
     
-3. Insira o **FQDN do Pool** do pool de aplicativos confiáveis e selecione se será servidor único ou vários servidores. 
+3. Digite o **FQDN do pool** do pool de aplicativos confiável e selecione se ele será de servidor único ou de vários servidores. 
     
 4. Click **Next**.
     
-5. Na página **Selecionar o próximo salto** , na lista, selecione o Skype para pool de negócios 2019 Front-End Server. 
+5. Na lista **selecionar o próximo salto** , na lista, selecione o pool de front-end do Skype for Business Server 2019. 
     
 6. Clique em **Concluir**.
     
-7. Selecione o nó superior **Skype para Business Server**e, no menu **ação** , selecione **Publicar**.
+7. Selecione o nó superior **Skype for Business Server**e, no menu **ação** , selecione **publicar**.
     
-    Verifique se o **Pool de aplicativos confiáveis** foi criado com êxito e associado ao pool de Front-End correto. 
+    Verifique se o **pool de aplicativos confiável** foi criado com êxito e associado ao pool de front-end correto. 
     
 

@@ -1,33 +1,33 @@
 ---
-title: Configurar opções de arquivamento para Skype para Business Server
+title: Configurar opções de arquivamento para o Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
-description: 'Resumo: Leia este tópico para saber como configurar opções de arquivamento iniciais para Skype para Business Server. Inicialmente, você define as configurações de arquivamento quando faz a implementação, mas você pode alterar, adicionar e excluir configurações depois da implementação.'
-ms.openlocfilehash: 58dd94cb5d42e3d0dabb845acbb5b72e7e90d8bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Leia este tópico para saber como configurar as opções iniciais de arquivamento para o Skype for Business Server. Inicialmente, você define as configurações de arquivamento quando faz a implementação, mas você pode alterar, adicionar e excluir configurações depois da implementação.'
+ms.openlocfilehash: 33438bb56c1ce55b0b449b9ee4124e27ae8638cc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895922"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286596"
 ---
-# <a name="configure-archiving-options-for-skype-for-business-server"></a>Configurar opções de arquivamento para Skype para Business Server
+# <a name="configure-archiving-options-for-skype-for-business-server"></a>Configurar opções de arquivamento para o Skype for Business Server
  
-**Resumo:** Leia este tópico para saber como configurar opções de arquivamento iniciais para Skype para Business Server. Inicialmente, você define as configurações de arquivamento quando faz a implementação, mas você pode alterar, adicionar e excluir configurações depois da implementação.
+**Resumo:** Leia este tópico para saber como configurar as opções iniciais de arquivamento para o Skype for Business Server. Inicialmente, você define as configurações de arquivamento quando faz a implementação, mas você pode alterar, adicionar e excluir configurações depois da implementação.
   
-Para configurar inicial de arquivamento configurações, você use Skype para painel de controle do Business Server para especificar o seguinte:
+Para configurar as configurações de arquivamento iniciais, use o painel de controle do Skype for Business Server para especificar o seguinte:
   
-- Configuração no nível global criada por padrão quando você implanta o Skype para Business Server
+- Configuração de nível global que é criada por padrão quando você implanta o Skype for Business Server
     
 - Configurações opcionais em nível de site que especificam como o arquivamento é implementado para um site específico
     
-- Configurações opcionais de nível do pool que especificam como o arquivamento é implementado para um pool específico
+- Configurações opcionais de nível de pool que especificam como o arquivamento é implementado para um pool específico
     
 Você terá que configurar opções para definir:
   
@@ -46,17 +46,17 @@ Você terá que configurar opções para definir:
 > [!NOTE]
 > Você deve especificar todas as opções apropriadas antes de habilitar o arquivamento. 
   
-Para obter detalhes sobre como as configurações de arquivamento são implementadas, incluindo as opções que você pode especificar e a hierarquia de arquivamento configurações, consulte [Plan para arquivamento no Skype para Business Server](../../plan-your-deployment/archiving/archiving.md). Para obter detalhes sobre como gerenciar configurações após a implantação usando o painel de controle ou usando o Windows PowerShell, consulte [Gerenciar opções de arquivamento no Skype para Business Server](../../manage/archiving/options.md).
+Para obter detalhes sobre como as configurações de arquivamento são implementadas, incluindo quais opções você pode especificar e a hierarquia de configurações de arquivamento, consulte [planejar o arquivamento no Skype for Business Server](../../plan-your-deployment/archiving/archiving.md). Para obter detalhes sobre como gerenciar as configurações após a implantação usando o painel de controle ou usando o Windows PowerShell, consulte [Gerenciar opções de arquivamento no Skype for Business Server](../../manage/archiving/options.md).
   
 ## <a name="configure-global-level-archiving-options"></a>Configurar opções de arquivamento em nível global
 
-Quando você adicionar arquivamento à topologia e publica a topologia, Skype para Business Server cria uma configuração global para arquivamento. Por padrão, nenhuma opção de arquivamento está ativada na configuração global. A configuração global controla quais opções são habilitadas para toda a sua implantação, a não ser que você defina configurações de site ou pool que substituam a configuração global.
+Quando você adiciona o arquivamento à sua topologia e publica a topologia, o Skype for Business Server cria uma configuração global para arquivamento. Por padrão, nenhuma opção de arquivamento está ativada na configuração global. A configuração global controla quais opções são habilitadas para toda a sua implantação, a não ser que você defina configurações de site ou pool que substituam a configuração global.
   
 Para configurar opções de arquivamento em nível global:
   
 1. Usando uma conta de usuário atribuída à função CsArchivingAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
     
 3. Na barra de navegação da esquerda, clique em **Monitoramento e Arquivamento**, e depois, clique em **Configuração de Arquivamento**.
     
@@ -70,11 +70,11 @@ Para configurar opções de arquivamento em nível global:
     
    - **Arquivar sessões de IM e conferência da Web**
     
-6. Também na página **Editar configuração de arquivamento - Global** , faça o seguinte:
+6. Também na página **Editar configuração de arquivamento-global** , faça o seguinte:
     
    - Para bloquear a atividade quando o arquivamento não estiver disponível, marque a caixa de seleção **Bloquear sessões de mensagem instantânea ou webconferência se o arquivamento falhar**.
     
-   - Para usar o Microsoft Exchange Server para armazenar dados de arquivamento, clique em caixa de seleção **integração do Microsoft Exchange** .
+   - Para usar o Microsoft Exchange Server para armazenar dados de arquivamento, clique na caixa de seleção **integração do Microsoft Exchange** .
     
    - Para habilitar a exclusão de dados, marque a caixa de seleção **Habilitar exclusão dos dados de arquivamento** e execute uma das seguintes ações:
     
@@ -90,7 +90,7 @@ Você pode especificar opções de arquivamento para um site específico. Uma co
   
 1. Usando uma conta de usuário atribuída à função CsArchivingAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
     
 3. Na barra de navegação da esquerda, clique em **Monitoramento e Arquivamento**, e depois, clique em **Configuração de Arquivamento**.
     
@@ -110,7 +110,7 @@ Você pode especificar opções de arquivamento para um site específico. Uma co
     
    - Para bloquear a atividade quando o arquivamento não estiver disponível, marque a caixa de seleção **Bloquear sessões de mensagem instantânea ou webconferência se o arquivamento falhar**.
     
-   - Para usar o Microsoft Exchange Server para armazenar dados de arquivamento, clique em caixa de seleção **integração do Microsoft Exchange** .
+   - Para usar o Microsoft Exchange Server para armazenar dados de arquivamento, clique na caixa de seleção **integração do Microsoft Exchange** .
     
    - Para habilitar a exclusão de dados, marque a caixa de seleção **Habilitar exclusão dos dados de arquivamento** e execute uma das seguintes ações:
     
@@ -126,7 +126,7 @@ Você pode especificar opções de arquivamento para um pool específico. Uma co
   
 1. Usando uma conta de usuário atribuída à função CsArchivingAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
     
 3. Na barra de navegação da esquerda, clique em **Monitoramento e Arquivamento**, e depois, clique em **Configuração de Arquivamento**.
     
@@ -146,7 +146,7 @@ Você pode especificar opções de arquivamento para um pool específico. Uma co
     
    - Para bloquear a atividade quando o arquivamento não estiver disponível, marque a caixa de seleção **Bloquear sessões de mensagem instantânea ou webconferência se o arquivamento falhar**.
     
-   - Para usar o Microsoft Exchange Server para armazenar dados de arquivamento, clique em caixa de seleção **integração do Microsoft Exchange** .
+   - Para usar o Microsoft Exchange Server para armazenar dados de arquivamento, clique na caixa de seleção **integração do Microsoft Exchange** .
     
    - Para habilitar a exclusão de dados, marque a caixa de seleção **Habilitar exclusão dos dados de arquivamento** e execute uma das seguintes ações:
     

@@ -12,97 +12,97 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Use o estacionamento de chamada e recuperação para colocar uma chamada em espera no serviço de equipes na nuvem.
-ms.openlocfilehash: 798e53ef9a0638be659da8567419b7bd3d3c3555
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Use o parque de chamadas e recupere para colocar uma chamada em espera no serviço do teams na nuvem.
+ms.openlocfilehash: fc33ef6c36a9764e39840f384dc70aa1a692579c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211834"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283497"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento e recuperação de chamadas no Microsoft Teams
 
-Estacionamento de chamada e recuperação é um recurso que permite ao usuário colocar uma chamada em espera no serviço de equipes na nuvem. Quando uma chamada estiver estacionada, o serviço gera um código exclusivo para recuperação de chamada. O usuário que a colocou a chamada ou outra pessoa, em seguida, pode usar esse código e um dispositivo ou aplicativo suportados para recuperar a chamada. 
+O estacionamento de chamadas e a recuperação são um recurso que permite que um usuário faça uma chamada em espera no serviço do teams na nuvem. Quando uma chamada está estacionada, o serviço gera um código exclusivo para recuperação de chamadas. O usuário que estacionau a chamada ou outra pessoa pode usar esse código e um aplicativo ou dispositivo com suporte para recuperar a chamada. 
 
-Estes são alguns dos cenários comuns para o uso de estacionamento de chamada: 
+Alguns dos cenários comuns para usar o parque de chamadas são: 
 
-- Um recepcionista parques uma chamada para alguém trabalhando em uma fábrica. O recepcionista comunica a chamada e o número de código sobre o sistema de endereço público. Em seguida, o usuário que a chamada é para pode Pegue um telefone de equipes na fábrica e digite o código para recuperar a chamada.
-- Um usuário parques uma chamada em um dispositivo móvel, pois a bateria do dispositivo está ficando sem energia. O usuário pode, em seguida, insira o código para recuperar a chamada de um telefone de mesa de equipes.
-- Um parques representante de suporte um cliente chamar e envia um anúncio em um canal de equipes para um especialista recuperar a chamada e ajudar o cliente. Com um perito indica o código nos clientes de equipes para recuperar a chamada
+- Um recepcionista é um pedido de alguém trabalhando em uma fábrica. Em seguida, o recepcionista anuncia a chamada e o número do código pelo sistema de endereços público. O usuário para o qual a chamada é para pode pegar um telefone de equipe no chão de fábrica e digitar o código para recuperar a chamada.
+- Um usuário representa uma chamada em um dispositivo móvel porque a bateria do dispositivo está ficando sem energia. Em seguida, o usuário pode inserir o código para recuperar a chamada em um telefone de mesa do teams.
+- Um representante de suporte tem um representante do cliente e envia um comunicado em um canal de equipe para que um especialista para recuperar a chamada e ajudar o cliente. Um especialista insere o código em clientes do teams para recuperar a chamada
 
 > [!IMPORTANT]
-> Este recurso só está disponível no modo exclusivo para as equipes de implantação. Para obter mais informações sobre modos de implantação de equipes, consulte [entender as equipes da Microsoft e Skype para interoperabilidade e coexistência de negócios](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Esse recurso só está disponível no modo de implantação do teams. Para obter mais informações sobre os modos de implantação do Teams, consulte [entender o Microsoft Teams e a coexistência e interoperabilidade do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
-## <a name="license-required"></a>É necessária uma licença
+## <a name="license-required"></a>Licença necessária
 
-Para estacionar e recuperar chamadas, um usuário deve ser um usuário do Enterprise Voice e um administrador deve conceder ao usuário uma política de estacionamento de chamada. Para obter mais informações sobre o modelo de licenciamento, consulte [Licenciamento do Office 365 para equipes da Microsoft](office-365-licensing.md).
+Para estacionar e recuperar chamadas, um usuário deve ser um usuário de voz empresarial, e um administrador deve conceder ao usuário uma política de estacionamento de chamadas. Para obter mais informações sobre o modelo de licenciamento, consulte [Licenciamento do Office 365 para Microsoft Teams](office-365-licensing.md).
 
-## <a name="call-park-and-retrieve-feature-availability"></a>Estacionamento de chamada e recuperar a disponibilidade de recursos
+## <a name="call-park-and-retrieve-feature-availability"></a>Ligar para o parque da chamada e recuperar a disponibilidade de recursos
 
-Estacionamento de chamada e recuperação no momento é suportado pelos seguintes clientes e dispositivos. (Suportado no equipes somente modo, com ou sem conectividade PSTN).
+O estacionamento de chamadas e a recuperação têm suporte no momento pelos seguintes clientes e dispositivos. (Compatível com o modo somente Teams, com ou sem conectividade PSTN)
 
-| Recurso | Área de trabalho de equipes | As equipes Mac App | As equipes Web App (borda) |As equipes móveis iOS/Android App | Telefone IP de equipes | Skype para negócios IP phone |
+| Potencial | Teams desktop | Aplicativo Teams Mac | Aplicativo Web do Teams (Edge) |Aplicativo móvel do teams para iOS/Android | Telefone IP do teams | Telefone IP do Skype for Business |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
 | Estacionar uma chamada | Sim | Sim | Sim | Sim | Em breve| Não |
 | Recuperar uma chamada estacionada | Sim | Sim | Sim | Sim | Em breve| Não |
-| Toque de chamada não recuperado novamente | Sim | Sim | Sim | Sim | Em breve| Não |
+| Retorno de chamada não recuperado | Sim | Sim | Sim | Sim | Em breve| Não |
 
-## <a name="configuring-call-park-and-retrieve"></a>Configurando o estacionamento de chamada e recuperação
+## <a name="configuring-call-park-and-retrieve"></a>Configurar o estacionamento de chamadas e recuperar
 
-Você deve ser um administrador para configurar o estacionamento de chamada e recuperação, e o recurso é desabilitado por padrão. Você pode habilitá-lo para usuários e criar grupos de usuários usando a diretiva de estacionamento de chamada. Quando você aplica a mesma política a um conjunto de usuários, eles podem estacionar e recuperar chamadas entre si. Para configurar o estacionamento de chamadas para usuários e criar grupos de usuários de estacionamento de chamada, siga o procedimento abaixo [atribuir uma política de estacionamento de chamada](#assign-a-call-park-policy) .
+Você deve ser um administrador para configurar o estacionamento de chamadas e a recuperação, e o recurso está desabilitado por padrão. Você pode habilitá-lo para usuários e criar grupos de usuários usando a política de estacionamento de chamadas. Quando você aplica a mesma política a um conjunto de usuários, ele pode estacionar e recuperar chamadas entre si. Para configurar os grupos de usuários do parque de chamadas para usuários e criar grupos de usuários do parque de chamadas, siga o procedimento de [política atribuir um estacionamento de chamada](#assign-a-call-park-policy) abaixo.
 
-Para obter informações sobre como usar o estacionamento de chamada e recuperar um recurso, consulte [estacionamento de uma chamada em equipes](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
+Para obter informações sobre como usar o recurso Park e retrieve Call, consulte [estacionar uma chamada no Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
 
-### <a name="enable-a-call-park-policy"></a>Habilitar uma política de estacionamento de chamada
+### <a name="enable-a-call-park-policy"></a>Habilitar uma política de estacionamento de chamadas
 
-Siga estas etapas para habilitar uma diretiva de estacionamento de chamada:
+Siga estas etapas para habilitar uma política de estacionamento de chamadas:
 
-1. Vá para **o Centro de administração do Microsoft equipes** > **voz** > **políticas de estacionamento de chamadas**.
+1. Vá para**políticas de estacionamento de chamada**de**voz** >  **do centro** > de administração do Microsoft Teams.
 2. Selecione **nova política**.
-3. Forneça um nome para a diretiva e, em seguida, trocar **Permitir Call park** para **ativado**.
-4. Selecione **Salvar**.
+3. Dê um nome à política e, em seguida, alterne **permitir estacionamento de chamada** para **ativado**.
+4. Selecione **salvar**.
 
-### <a name="assign-a-call-park-policy"></a>Atribuir uma política de estacionamento de chamada
+### <a name="assign-a-call-park-policy"></a>Atribuir uma política de estacionamento de chamadas
 
-Siga estas etapas para atribuir uma política de estacionamento de chamada a um ou mais usuários:
+Siga estas etapas para atribuir uma política de estacionamento de chamadas a um ou mais usuários:
 
-1. Vá para **o Centro de administração do Microsoft equipes** > **voz** > **políticas de estacionamento de chamadas**.
+1. Vá para**políticas de estacionamento de chamada**de**voz** >  **do centro** > de administração do Microsoft Teams.
 2. Selecione a política clicando à esquerda do nome da política.
-3. Selecione **Gerenciar usuários**.
-4. No painel de **Gerenciar usuários** , procure o usuário pelo nome de exibição ou nome de usuário, selecione o nome e selecione **Adicionar**. Repita essa etapa para cada usuário que você deseja adicionar.
-5. Quando terminar de adicionar usuários, selecione **Salvar**.
+3. Selecione **gerenciar usuários**.
+4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e, em seguida, selecione **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+5. Quando terminar de adicionar usuários, selecione **salvar**.
  
-### <a name="configure-call-park-and-retrieve-with-powershell"></a>Configurar o estacionamento de chamada e recuperar com o PowerShell
+### <a name="configure-call-park-and-retrieve-with-powershell"></a>Configurar o estacionamento de chamadas e recuperar com o PowerShell
 
-Use o cmdlet [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) do PowerShell para criar uma política de estacionamento de chamada.
+Use o cmdlet [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) do PowerShell para criar uma política de estacionamento de chamadas.
 
-Use o cmdlet [Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) do PowerShell para conceder uma política de estacionamento de chamada.
+Use o cmdlet [Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) do PowerShell para conceder uma política de estacionamento de chamadas.
 
-Você pode alterar a configuração padrão usando [Set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps) da seguinte maneira:
+Você pode alterar a configuração padrão usando [set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps) da seguinte maneira:
 
 `Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
 
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
-Se os usuários não podem ver o estacionamento ou recuperar botão: 
+Se os usuários não conseguirem ver o botão Park ou retrieve: 
 
-- Verifique se o usuário tem a diretiva de estacionamento de chamada ativada. 
+- Verifique se o usuário tem a política de estacionamento de chamadas habilitada. 
 
-Se um usuário tenta recuperar uma chamada e for bem sucedido, verifique o seguinte:
+Se um usuário tentar recuperar uma chamada e não tiver êxito, verifique o seguinte:
 
-- Verificar se o usuário está usando o cliente de equipes ou um equipes dispositivo/telefone habilitado
-- Agrupamento – é o usuário membro do grupo de estacionamento de chamada?
-- Modo de ilha – estacionamento de chamada e recuperar não está disponível no modo de ilha de equipes.
-- A chamada já foi recuperada ou encerrada.
+- Verifique se o usuário está usando o cliente do teams ou um dispositivo/telefone habilitado para equipes
+- Agrupamento – o usuário é membro do grupo de estacionamento de chamadas?
+- Modo ilha – o parque de chamadas e a recuperação não está disponível no modo da ilha Teams.
+- A chamada já foi recuperada ou terminada.
 
 ## <a name="more-information"></a>Mais informações
 
-[Estacionamento de uma chamada em equipes](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
+[Estacionar uma chamada no Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).

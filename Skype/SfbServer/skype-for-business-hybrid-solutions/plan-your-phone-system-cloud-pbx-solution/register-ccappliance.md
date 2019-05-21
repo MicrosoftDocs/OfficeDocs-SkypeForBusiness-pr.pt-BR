@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 7/18/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: O cmdlet Register-CcAppliance registra as informações do dispositivo para um site PSTN em uma configuração de locatário online. Um dispositivo deve ser registrado antes de ele poder ser implantado e gerenciado pelo serviço de gerenciamento do Skype for Business Cloud Connector Edition.
-ms.openlocfilehash: e753f92c84b880da6aac060b65726bda5f9ba1ae
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 9e15d7b8227bf9ee657d197041056703505ca7c8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892270"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287122"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
@@ -58,11 +58,11 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 
 Você precisa fornecer o nome e a senha da conta do administrador do locatário. Use a conta que você criou para o gerenciamento online do Cloud Connector. 
   
-Em versão 1.4.2 e anteriormente, siga as instruções para fornecer a senha do certificado externo, senha de admin do modo de segurança, senha de admin do domínio e senha de admin VM. 
+Na versão 1.4.2 e versões anteriores, siga as instruções para fornecer a senha do certificado externo, a senha de administrador do modo de segurança, a senha de administrador do domínio e a senha do administrador da VM. 
   
 Na versão 2.0 e posteriores, siga as instruções para fornecer a senha do certificado externo, a senha do CceService e a senha do CABackupFile.
   
-No final do registro, reinicie o serviço de gerenciamento do conector de nuvem e faça logon no serviços como conta de CceService.
+No final do registro, reinicie o serviço de gerenciamento do conector de nuvem e faça logon na conta serviços como CceService.
   
 O SiteName combinado com o FQDN externo do Servidor de Borda no arquivo do CloudConnector.ini é considerado uma identidade do site PSTN. Se o SiteName ou o FQDN externo do Servidor de Borda não tiver sido usado para registrar um site, um novo site será criado para este dispositivo em uma configuração de locatário online. Se uma identidade do site PSTN for localizada, um site PSTN usará esta identidade e o dispositivo será registrado para este site PSTN.  
   

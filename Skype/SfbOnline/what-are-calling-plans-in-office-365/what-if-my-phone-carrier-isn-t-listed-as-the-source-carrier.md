@@ -1,5 +1,5 @@
 ---
-title: E se a operadora meu telefone não está listada como a operadora de fonte?
+title: E se a minha operadora de telefonia não estiver listada como a transportadora de origem?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,23 +20,23 @@ f1keywords:
 - ms.lync.lac.PortOrderDetailPanelWhois
 ms.custom:
 - Calling Plans
-description: 'Saiba o que fazer se a sua operadora não estiver listada no Skype para negócios. '
-ms.openlocfilehash: 638d222231ca0f092684ebde2fab74cc034af70c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Saiba o que fazer se a sua operadora não estiver listada no Skype for Business. '
+ms.openlocfilehash: e882a376c8f7b0baf07c42e71c03a84acc16b4c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229648"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290802"
 ---
-# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>E se a operadora meu telefone não está listada como a operadora de fonte?
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>E se a minha operadora de telefonia não estiver listada como a transportadora de origem?
 
-Ele é um pouco confuso quando você ver o nome da sua operadora não estiver listado. Na maioria dos casos, se o provedor de serviços ou operadora for diferente, chances são que os números de telefone que você está transferindo sobre pertencentes a um provedor de serviço diferentes ou a operadora. Pode haver ocasiões quando o provedor de serviços ou operadora listado poderia ser diferente do seu provedor de serviços atual porque seu provedor de serviços atual pode estar funcionando com um provedor de serviços de terceiros. 
+É um pouco confuso quando você vê que o nome da sua operadora não está listado. Na maioria dos casos, se o provedor de serviços ou a operadora for diferente, provavelmente os números de telefone que você está transferindo são de propriedade de um provedor de serviços ou operadora diferente. Pode haver ocasiões em que o provedor de serviços ou a operadora listado pode ser diferente do seu provedor de serviços atual porque o provedor de serviços atual pode estar trabalhando com um provedor de serviços de terceiros. 
   
 Um exemplo:
   
-- Se você estiver portar número do Skype para negócios como sua operadora, talvez você veja que Level3 listados.
+- Se você estiver portando um número do Skype for Business como sua operadora, talvez veja Level3 listado.
     
-  **Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+  **Para obter instruções passo a passo completas, consulte [transferir números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
     > [!NOTE]
     > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

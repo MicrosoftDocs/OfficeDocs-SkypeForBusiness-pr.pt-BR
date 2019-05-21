@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,19 +18,19 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 413610285a187fc85d7aa926a77f09cccbb15643
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8b3b912526a44fb10cb685dd6ab9b3dea8f8eac4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226010"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284920"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Ativar ou desativar a permissão para que o conteúdo seja pré-carregado para reuniões usando o Outlook
 
-Os usuários podem pré-carregar conteúdo, arquivos ou anexos que estejam anexados a um convite de reunião do Outlook para um Skype para reunião Online de negócios, mas você pode ele ativar ou desativar. Ela é ativada por padrão para todas as organizações que estão usando Skype para Business Online. Veja como [Pré-carregar anexos de uma reunião do Skype for Business](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
+Os usuários podem pré-carregar conteúdo, arquivos ou anexos anexados a um convite de reunião do Outlook para uma reunião do Skype for Business Online, mas você pode ativá-lo ou desativá-lo. Ele está ativado por padrão para todas as organizações que usam o Skype for Business online. Veja como [Pré-carregar anexos de uma reunião do Skype for Business](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
   
 > [!NOTE]
-> Atualmente, não há nenhum cmdlets disponíveis no Skype para Business Online por configuração ou exibir valores online para _MaxContentStorageMB_ e _MaxUploadFileMB_. Eles estão disponíveis apenas para implantações locais. É importante saber que o conteúdo não será carregado para uma reunião se o conteúdo de anexo excede o _MaxUploadFileSizeMB_ ou o limite de _MaxContentStorageMB_ é atingido.
+> Atualmente, não há cmdlets disponíveis no Skype for Business online para configurar ou exibir valores online do _MaxContentStorageMB_ e do _MaxUploadFileMB_. Eles estão disponíveis apenas para implantações locais. É importante saber que o conteúdo não será carregado em uma reunião se o conteúdo anexado exceder o _MaxUploadFileSizeMB_ ou se o limite _MaxContentStorageMB_ for atingido.
   
 ## <a name="to-get-you-started"></a>Para começar
 
@@ -66,14 +66,14 @@ $session = New-CsOnlineSession -Credential $credential
 Import-PSSession $session
 ```
 
-Se você quiser obter mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para o Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="turning-it-on-or-off"></a>Ativar ou desativar o recurso
 
-Ser capaz de pré-carregar conteúdo anexado a um convite de reunião do Outlook para Skype para reuniões Online de negócios está ativado por padrão, mas você pode precisar impedir que os usuários da organização pré-carregamento conteúdo em suas reuniões.
+A capacidade de pré-carregar conteúdo anexado a um convite de reunião do Outlook para reuniões do Skype for Business online está ativada por padrão, mas talvez seja necessário impedir que os usuários em sua organização precarreguem conteúdo em suas reuniões.
   
 > [!IMPORTANT]
-> Essa configuração pode apenas ser ativada ou desativado para toda a sua organização; Você não pode ativar ou desativar essa de um único usuário. 
+> Esta configuração só pode ser ativada ou desativada para toda a sua organização; Você não pode ativá-lo ou desativá-lo para um único usuário. 
   
  **Para desativá-la, abra o Windows PowerShell e faça o seguinte:**
   

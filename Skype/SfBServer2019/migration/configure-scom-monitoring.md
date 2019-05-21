@@ -4,39 +4,39 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Após a migração para o Microsoft Skype for Business Server 2019, você deve concluir algumas tarefas para configurar Skype para negócios 2019 de servidor funcionar com o System Center Operations Manager.
-ms.openlocfilehash: 80ef737c57006550111331db7f46fd607f7cf1ed
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Depois de migrar para o Microsoft Skype for Business Server 2019, você deve concluir algumas tarefas para configurar o Skype for Business Server 2019 para trabalhar com o System Center Operations Manager.
+ms.openlocfilehash: 141154a8bd678f15fcc919b2dd70a50ca9d4dcca
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238720"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284498"
 ---
 # <a name="configure-scom-monitoring"></a>Configurar monitoramento SCOM
 
-Após migrar para o Skype para Business Server 2019, você deve concluir algumas tarefas para configurar Skype para negócios 2019 de servidor funcionar com o System Center Operations Manager.
+Depois de migrar para o Skype for Business Server 2019, você deve concluir algumas tarefas para configurar o Skype for Business Server 2019 para trabalhar com o System Center Operations Manager.
   
-- Aplica atualizações a um servidor eleito a gerenciar a lógica de descoberta central.
+- Aplicar atualizações a um servidor escolhido para gerenciar a lógica de descoberta central.
     
-- Atualize a chave de registro do servidor de candidato a descoberta central.
+- Atualize a chave do registro do servidor candidato à descoberta central.
     
-- Configure o servidor de gerenciamento do System Center Operations Manager primário para substituir o nó do candidato a descoberta central.
+- Configure o servidor de gerenciamento principal do System Center Operations Manager para substituir o nó de descoberta central de candidatos.
     
-Instruções para executar cada uma dessas tarefas são fornecidas abaixo.
+As instruções para executar cada uma dessas tarefas são fornecidas abaixo.
   
-### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a>Aplica atualizações a um servidor eleito a gerenciar a lógica de descoberta central.
+### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a>Aplicar atualizações a um servidor escolhido para gerenciar a lógica de descoberta central.
 
-1. Eleja um servidor que tem o System Center Operations Manager arquivos do agente instalados e esteja configurado como um nó do candidato a descoberta. 
+1. Escolha um servidor que tenha os arquivos de agente do System Center Operations Manager instalados e esteja configurado como um nó de descoberta de candidatos. 
     
-2. Aplique atualizações a esse servidor. Consulte o tópico [Aplicar atualizações](apply-updates.md).
+2. Aplicar atualizações a este servidor. Consulte o tópico [aplicar atualizações](apply-updates.md).
     
-### <a name="update-the-central-discovery-candidate-server-registry-key"></a>Atualize a chave de registro do servidor de candidato a descoberta central.
+### <a name="update-the-central-discovery-candidate-server-registry-key"></a>Atualize a chave do registro do servidor candidato à descoberta central.
 
-1. No servidor eleito a gerenciar a lógica de descoberta central, abra uma janela de comando do Windows PowerShell. 
+1. No servidor escolhido para gerenciar a lógica de descoberta central, abra uma janela de comando do Windows PowerShell. 
     
 2. Na linha de comando, digite o seguinte:
     
@@ -49,18 +49,18 @@ Instruções para executar cada uma dessas tarefas são fornecidas abaixo.
    ```
 
     > [!NOTE]
-    > Sempre que você edite o registro, você pode enfrentar um erro dizendo que o comando falha se a chave do registro já existir. Se você enfrentar isso, você pode ignorar com segurança o erro. 
+    > Sempre que você edita o registro, pode ocorrer um erro inque o comando falhou se a chave do registro já existe. Se isso acontecer, você pode ignorar o erro com segurança. 
   
-### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>Configure seu servidor de gerenciamento do System Center Operations Manager primário para substituir o nó de Inspetor do candidato a descoberta central.
+### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>Configure o servidor de gerenciamento principal do System Center Operations Manager para substituir o nó do inspetor da descoberta do candidato.
 
-1. Em um computador onde o console do System Center Operations Manager foi instalado, expanda **Objetos do pacote de gerenciamento** e selecione **Descobertas de objeto**.
+1. Em um computador em que o console System Center Operations Manager foi instalado, expanda os **objetos do pacote de gerenciamento** e selecione descobertas de **objetos**.
     
-2. Clique em **Alterar escopo**
+2. Clique em **alterar escopo**
     
-3. Na página de **Objetos do pacote de gerenciamento de escopo** , selecione **Candidato a descoberta LS**.
+3. Na página **objetos do pacote de gerenciamento de escopo** , selecione **candidato para descoberta ls**.
     
-4. Substitua o **Valor efetivo de candidato de descoberta LS** para o nome do servidor candidato eleito no procedimento anterior. 
+4. Substitua o **valor efetivo de candidato à descoberta ls** pelo nome do servidor de candidatos escolhido no procedimento anterior. 
     
-Finalize as alterações, reinicie o serviço de integridade no servidor de gerenciamento do System Center Operations Manager raiz.
+Para finalizar suas alterações, reinicie o serviço de integridade no servidor de gerenciamento raiz do System Center Operations Manager.
   
 

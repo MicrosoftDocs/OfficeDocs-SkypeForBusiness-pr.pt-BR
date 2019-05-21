@@ -4,44 +4,44 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
-description: 'Resumo: Como gerenciar as políticas de grupo.'
-ms.openlocfilehash: 050040ae6de828e20aadf75bc4d8accfa782fc7c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: como gerenciar políticas de grupo.'
+ms.openlocfilehash: 29e60ea772348ed5f483669cc1d17f8c13e96a02
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895367"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286534"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>Configurar as políticas de inicialização do cliente
  
 **Resumo:** Como gerenciar políticas de grupo.
   
-O Console de Gerenciamento de Política de Grupo (GPMC) e o Editor de Objeto de Política de Grupo são ferramentas que você utiliza para gerenciar Políticas de Grupo. Estão incluídos com o modelo administrativo de diretiva de grupo Office lync16.admx (ADMX) e os modelos administrativos. adml (ADML), que contêm as configurações de diretiva baseadas no registro para Skype for Business que você configurar para objetos de diretiva de grupo no domínio. Os arquivos ADML são complementos específicos de idioma para arquivos ADMX. Cada arquivo ADMX e ADML contém as configurações de política para um único aplicativo do Office. Você pode [baixar os arquivos de modelo administrativo do Office 2016 (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=49030) gratuitamente do Microsoft Download Center.
+O Console de Gerenciamento de Política de Grupo (GPMC) e o Editor de Objeto de Política de Grupo são ferramentas que você utiliza para gerenciar Políticas de Grupo. Incluído no modelo administrativo da política de grupo do Office, há modelos administrativos lync16. admx (ADMX) e. adml (ADML), que contêm as configurações de política baseadas no registro para o Skype for Business que você configura para objetos de política de grupo no domínio. Os arquivos ADML são complementos específicos de idioma para arquivos ADMX. Cada arquivo ADMX e ADML contém as configurações de política para um único aplicativo do Office. Você pode [baixar os arquivos de modelo administrativo do Office 2016 (admx/adml)](https://www.microsoft.com/en-us/download/details.aspx?id=49030) gratuitamente pelo centro de download da Microsoft.
   
-Para Skype para clientes corporativos, há várias client bootstrapping políticas que você deve considerar Configurando antes que os usuários fazem logon servidor pela primeira vez. Por exemplo, os servidores padrão e o modo de segurança que o cliente deve utilizar até que a entrada esteja concluída. Você pode usar a diretiva de grupo para estabelecer essas configurações nos registros de computador dos usuários antes de entrar e começar a receber as configurações de provisionamento em banda do servidor. A tabela a seguir lista as configurações de diretiva de grupo disponíveis para Skype para negócios.
+Para clientes do Skype for Business, há várias políticas de inicialização do cliente que você deve considerar a configuração antes de os usuários entrarem no servidor pela primeira vez. Por exemplo, os servidores padrão e o modo de segurança que o cliente deve utilizar até que a entrada esteja concluída. Você pode usar a política de grupo para estabelecer essas configurações nos registros de computador dos usuários antes de entrarem e começar a receber as configurações de provisionamento em banda do servidor. A tabela a seguir lista as configurações de política de grupo que estão disponíveis para o Skype for Business.
   
-**Configurações de diretiva de grupo para Skype para negócios**
+**Configurações da política de grupo para o Skype for Business**
 
 |Configuração de Política de Grupo|Descrição|
 |:-----|:-----|
-|Especificar servidor (ConfigurationMode)  <br/> | Especifica como o Skype para negócios identifica o transporte e o servidor a ser usado durante a entrada. Com essa configuração, você especifica o seguinte: <br/>  ServerAddressExternal: Especifica o nome de servidor ou endereço IP utilizado pelos clientes e contatos federados ao se conectar de fora do firewall externo. <br/>  ServerAddressInternal: Especifica o nome do servidor ou o endereço IP usado quando os clientes se conectam de dentro do firewall da organização. <br/>  Transport: Especifica o protocolo TCP ou protocolo TLS. <br/> |
-|Versões de servidor adicionais suportadas (ConfiguredServerCheckValues)  <br/> |Especifica uma lista dos nomes de versão do servidor separados por ponto e vírgula Skype para Business Server fará logon, além das versões de servidor suportadas por padrão.  <br/> |
-|Desativa o upload automático de logs de falha de assinatura (DisableAutomaticSendTracing)  <br/> |Carrega automaticamente os logs de falha de entrada para Skype para Business Server para análise. Nenhum log será carregado automaticamente se a entrada ocorrer com êxito. Se essa política não estiver configurada, ocorrerá o seguinte:  <br/> Para Skype para usuários corporativos Online: entrar logs de falha são enviados automaticamente. Para Skype for Business usuários local: uma caixa de diálogo de confirmação é mostrada ao usuário antes do carregamento. Quando essa configuração estiver desativada, os logs de entrada são enviados automaticamente para o Skype para Business Server do Skype para negócios local e Skype para usuários corporativos Online. Quando essa configuração é habilitada, os logs de entrada nunca são carregados automaticamente.  <br/> |
-|Desabilitar fallback de HTTP para conexão SIP (DisableHttpConnect)  <br/> |Impede que o Skype para Business Server tenta se conectar ao servidor usando o HTTP, se o TLS ou TCP não está disponível. Por padrão, Skype para negócios primeiro tenta se conectar ao servidor usando o TLS ou TCP e, se nenhum desses métodos de transporte for bem-sucedida, Skype para negócios tenta se conectar usando HTTP. Use essa política para desabilitar a tentativa de conexão por HTTP de fallback.  <br/> |
-|Requer credenciais de login (DisableNTCredentials)  <br/> |Requer que o usuário forneça credenciais de logon para Skype para negócios em vez de usar automaticamente as credenciais do Windows durante o login em um servidor SIP.  <br/> |
-|Desabilitar a verificação de versão do servidor (DisableServerCheck)  <br/> |Se você definir essa diretiva como 1, impede que Skype para negócios verificando o nome do servidor e a versão antes de entrar no. Por padrão, o Skype para negócios torna pelas verificações antes de entrar no.  <br/> |
-|Habilitar o uso de BITS para baixar arquivos do serviço de catálogo de endereços (EnableBitsForGalDownload)  <br/> |Permite Skype for Business usar o serviço de transferência inteligente de plano de fundo (BITS) para baixar os arquivos do serviço Catálogo de endereços.  <br/> |
-|Configurar o modo de segurança do SIP (EnableSIPHighSecurityMode)  <br/> |Permite Skype for Business enviar e receber mensagens instantâneas com mais segurança. Essa política não tem efeito no Windows .NET, nem em serviços de Servidor do Microsoft Exchange.  <br/> Se você não configurar essa definição de diretiva, Skype para a empresa pode usar qualquer transporte. Mas, se ele não usa TLS e se o servidor autenticar usuários, Skype para negócios deve usam a autenticação NTLM ou Kerberos.  <br/> |
-|Atraso inicial (GalDownloadInitialDelay) de Download do catálogo de endereços global  <br/> |Especifica o período de tempo antes de um download da lista de endereço global (GAL) ocorrer. O valor padrão é 60 minutos, o que significa que o download do arquivo GAL é atrasado para um período aleatório entre 0 e 60 minutos.  <br/> |
-|Evita que usuários executem Skype para negócios (PreventRun)  <br/> |Impede que os usuários executem Skype para negócios. Você pode definir essa configuração de política na Configuração do Computador e na Configuração do Usuário, mas a configuração de política na Configuração do Computador tem precedência.  <br/> |
-|Permitir o armazenamento de senhas de usuário (SavePassword)  <br/> |Habilita o Skype para negócios a armazenar senhas.  <br/> |
+|Especificar servidor (ConfigurationMode)  <br/> | Especifica como o Skype for Business identifica o transporte e o servidor a serem usados durante a entrada. Com essa configuração, você especifica o seguinte: <br/>  ServerAddressExternal: Especifica o nome de servidor ou endereço IP utilizado pelos clientes e contatos federados ao se conectar de fora do firewall externo. <br/>  ServerAddressInternal: especifica o nome do servidor ou o endereço IP usado quando os clientes se conectam de dentro do firewall da organização. <br/>  Transport: Especifica o protocolo TCP ou protocolo TLS. <br/> |
+|Versões adicionais do servidor com suporte (ConfiguredServerCheckValues)  <br/> |Especifica uma lista de nomes de versão do servidor separados por ponto-e-vírgulas que o Skype for Business Server fará logon, além das versões do servidor com suporte por padrão.  <br/> |
+|Desativa o upload automático de logs de falha de assinatura (DisableAutomaticSendTracing)  <br/> |Carrega automaticamente os logs de falha de entrada no Skype for Business Server para análise. Nenhum log será carregado automaticamente se a entrada ocorrer com êxito. Se essa política não estiver configurada, ocorrerá o seguinte:  <br/> Para usuários do Skype for Business Online: logs de falha de entrada são carregados automaticamente. Para usuários do Skype for Business no local: uma caixa de diálogo de confirmação é exibida para o usuário antes do carregamento. Quando essa configuração estiver desabilitada, os logs de entrada serão carregados automaticamente para o Skype for Business Server para usuários do Skype for Business no local e no Skype for Business online. Quando essa configuração é habilitada, os logs de entrada nunca são carregados automaticamente.  <br/> |
+|Desabilitar o fallback de HTTP para conexão SIP (DisableHttpConnect)  <br/> |Impede que o Skype for Business Server tente se conectar ao servidor usando HTTP, se TLS ou TCP não estiverem disponíveis. Por padrão, o Skype for Business primeiramente tenta se conectar ao servidor usando TLS ou TCP e, se nenhum desses métodos de transporte for bem-sucedido, o Skype for Business tentará se conectar usando HTTP. Use essa política para desabilitar a tentativa de conexão por HTTP de fallback.  <br/> |
+|Exigir credenciais de logon (DisableNTCredentials)  <br/> |Requer que o usuário forneça credenciais de logon para o Skype for Business em vez de usar as credenciais do Windows automaticamente durante a conexão com um servidor SIP.  <br/> |
+|Desabilitar a verificação de versão do servidor (DisableServerCheck)  <br/> |Se você definir essa política como 1, o Skype for Business não verifica o nome do servidor e a versão antes de entrar. Por padrão, o Skype for Business faz essas verificações antes de entrar.  <br/> |
+|Habilitar o uso do BITS para baixar arquivos do serviço de catálogo de endereços (EnableBitsForGalDownload)  <br/> |Permite que o Skype for Business use o serviço de transferência inteligente em segundo plano (BITS) para baixar os arquivos dos serviços de catálogo de endereços.  <br/> |
+|Configurar o modo de segurança SIP (EnableSIPHighSecurityMode)  <br/> |Permite que o Skype for Business envie e receba mensagens instantâneas com mais segurança. Essa política não tem efeito no Windows .NET, nem em serviços de Servidor do Microsoft Exchange.  <br/> Se você não definir essa configuração de política, o Skype for Business poderá usar qualquer transporte. Mas se ele não usar TLS e se o servidor autenticar usuários, o Skype for Business deverá usar a autenticação NTLM ou Kerberos.  <br/> |
+|Atraso inicial do download do catálogo de endereços global (GalDownloadInitialDelay)  <br/> |Especifica o período de tempo antes de um download da lista de endereço global (GAL) ocorrer. O valor padrão é 60 minutos, o que significa que o download do arquivo GAL é atrasado para um período aleatório entre 0 e 60 minutos.  <br/> |
+|Impedir que os usuários executem o Skype for Business (PreventRun)  <br/> |Impede que os usuários executem o Skype for Business. Você pode definir essa configuração de política na Configuração do Computador e na Configuração do Usuário, mas a configuração de política na Configuração do Computador tem precedência.  <br/> |
+|Permitir armazenamento de senhas de usuários (SavePassword)  <br/> |Permite que o Skype for Business armazene senhas.  <br/> |
 |Configurar o modo de compactação SIP (SipCompression)  <br/> |Especifica quando ativar a compressão do SIP. Por padrão, a compressão do SIP está ativada com base na velocidade do adaptador. Observe que configurar tal política pode causar um aumento no tempo de assinatura.  <br/> |
-|Lista de domínio confiável (TrustModelData)  <br/> |Lista os domínios confiáveis que não correspondem ao prefixo do domínio SIP cliente.  <br/> |
+|Lista de domínios confiáveis (TrustModelData)  <br/> |Lista os domínios confiáveis que não correspondem ao prefixo do domínio SIP cliente.  <br/> |
    
 As políticas configuradas no servidor têm precedência sobre as configurações de Política de Grupo e as opções de cliente configuradas pelo usuário. A tabela a seguir resume a ordem na qual as configurações têm precedência quando ocorre um conflito.
   
@@ -49,12 +49,12 @@ As políticas configuradas no servidor têm precedência sobre as configuraçõe
 
 |**Precedência**|**Local ou método da configuração**|
 |:-----|:-----|
-|1  <br/> |Skype para provisionamento em banda do Business Server  <br/> |
+|1  <br/> |Provisionamento em banda do Skype for Business Server  <br/> |
 |2  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |3  <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
-|4  <br/> |A caixa de diálogo Opções no Skype para negócios  <br/> |
+|4  <br/> |A caixa de diálogo opções no Skype for Business  <br/> |
    
-### <a name="to-define-group-policy-settings-by-using-the-skype-for-business-administrative-template-files"></a>Para definir as configurações de diretiva de grupo usando o Skype para arquivos de modelo administrativo de negócios
+### <a name="to-define-group-policy-settings-by-using-the-skype-for-business-administrative-template-files"></a>Para definir configurações de política de grupo usando os arquivos de modelo administrativo do Skype for Business
 
 1. Crie uma pasta de nível de raiz para inserir todos os arquivos ADMX de idioma neutro. Por exemplo, crie uma pasta raiz para o armazenamento central no controlador de domínio neste local:
     
@@ -63,7 +63,7 @@ As políticas configuradas no servidor têm precedência sobre as configuraçõe
     > [!NOTE]
     > Este procedimento presume que você deseja gerenciar diversos computadores no seu domínio. Neste caso, armazene os modelos em um repositório central na pasta Sysvol no controlador de domínio primário. Isso fornece uma localização de armazenamento central replicado para Modelos Administrativos. 
   
-2. Crie uma subpasta para cada idioma que você usará. Essas subpastas vão conter os arquivos de recurso ADML específicos do idioma. Por exemplo, crie uma subpasta para United States English (EN-US) neste local:
+2. Crie uma subpasta para cada idioma que você usar. Essas subpastas vão conter os arquivos de recurso ADML específicos do idioma. Por exemplo, crie uma subpasta para United States English (EN-US) neste local:
     
      `%systemroot%\sysvol\domain\policies\PolicyDefinitions\EN-US`
     

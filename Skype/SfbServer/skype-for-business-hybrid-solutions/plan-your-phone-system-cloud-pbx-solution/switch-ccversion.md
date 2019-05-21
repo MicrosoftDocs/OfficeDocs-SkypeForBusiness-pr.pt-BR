@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: 'O cmdlet Switch-CcVersion desconecta o dispositivo em execução e alterna para um dispositivo recentemente implantado ou de backup. '
-ms.openlocfilehash: 73ae9b4f93a2488dea29f3271565ac3d25759fd1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: e63c5ea6d74e979f7fc9fe5a4c5eae97a0689e1e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872856"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286926"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  
@@ -48,7 +48,7 @@ Switch-CcVersion -Force
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-O cmdlet do comutador-CcVersion esvazia os serviços de nuvem conector no servidor de mediação e o servidor de borda. Todas as chamadas em execução serão concluídas, mas o dispositivo rejeitará novas chamadas. Depois de drenar, o cmdlet desconecta o dispositivo em execução das redes corporativas e de Internet, desliga todas as máquinas virtuais pertencentes ao dispositivo, e então conecta o dispositivo de backup às redes corporativas e de Internet.
+O cmdlet switch-CcVersion esvazia os serviços do conector de nuvem no servidor de mediação e no servidor de borda. Todas as chamadas em execução serão concluídas, mas o dispositivo rejeitará novas chamadas. Depois de drenar, o cmdlet desconecta o dispositivo em execução das redes corporativas e de Internet, desliga todas as máquinas virtuais pertencentes ao dispositivo, e então conecta o dispositivo de backup às redes corporativas e de Internet.
   
 ## <a name="parameters"></a>Parâmetros
 <a name="DetailedDescription"> </a>

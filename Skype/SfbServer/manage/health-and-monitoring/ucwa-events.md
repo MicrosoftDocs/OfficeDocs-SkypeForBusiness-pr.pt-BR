@@ -1,27 +1,27 @@
 ---
-title: Eventos do UCWA no Skype para Business Server
+title: Eventos do UCWA no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: 'Resumo: Aprenda sobre as comunicações unificadas Web API (UCWA) no Skype para Business Server.'
-ms.openlocfilehash: f675c16903301412c0c78981b0c17bb9bcc7b24b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre a API da Web de comunicação unificada (UCWA) no Skype for Business Server.'
+ms.openlocfilehash: bbded70318190fb4fa68ab524a696183c97ff07d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897986"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279694"
 ---
-# <a name="ucwa-events-in-skype-for-business-server"></a>Eventos do UCWA no Skype para Business Server
+# <a name="ucwa-events-in-skype-for-business-server"></a>Eventos do UCWA no Skype for Business Server
  
-**Resumo:** Saiba mais sobre a Web de comunicação unificada API (UCWA) no Skype para Business Server.
+**Resumo:** Saiba mais sobre a API da Web de comunicação unificada (UCWA) no Skype for Business Server.
   
-Skype para Business Server usa a API de Web de comunicações unificadas (UCWA) para um número de objetivos de acessar o Microsoft Exchange para pesquisas de contatos para a atualização de presença para clientes móveis.
+O Skype for Business Server usa a API da Web de comunicação unificada (UCWA) para várias finalidades, desde o acesso ao Microsoft Exchange para pesquisas de contato até a atualização de presença para clientes móveis.
   
 A UCWA gravará registros de comportamento operacional como tipos de evento Informacional, Aviso e Erro. A tabela a seguir descreve tais eventos que podem ser gravados com componentes da UCWA.
   
