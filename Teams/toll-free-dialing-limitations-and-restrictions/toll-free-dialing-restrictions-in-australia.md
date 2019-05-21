@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,33 +21,33 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 5d0cee002e44b045fe5da4cb9a8fef75c78822c4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
+ms.openlocfilehash: 5e6149035234338bd05361c00365fcd7f9b4cd9c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226413"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300941"
 ---
-# <a name="toll-free-dialing-restrictions-in-australia"></a><span data-ttu-id="d7a31-104">Restrições de discagem gratuita na Austrália</span><span class="sxs-lookup"><span data-stu-id="d7a31-104">Toll-free dialing restrictions in Australia</span></span>
+# <a name="toll-free-dialing-restrictions-in-australia"></a><span data-ttu-id="442bf-104">Restrições de discagem de chamada gratuita na Austrália</span><span class="sxs-lookup"><span data-stu-id="442bf-104">Toll-free dialing restrictions in Australia</span></span>
 
-<span data-ttu-id="d7a31-105">[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md), ou aprender mais sobre as limitações de discagem gratuita e restrições.</span><span class="sxs-lookup"><span data-stu-id="d7a31-105">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="442bf-105">[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuitas.</span><span class="sxs-lookup"><span data-stu-id="442bf-105">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
-|<span data-ttu-id="d7a31-106">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="d7a31-106">**Details**</span></span>|<span data-ttu-id="d7a31-107">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="d7a31-107">**Description**</span></span>|
+|<span data-ttu-id="442bf-106">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="442bf-106">**Details**</span></span>|<span data-ttu-id="442bf-107">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="442bf-107">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="d7a31-108">É gratuita chamar disponível?</span><span class="sxs-lookup"><span data-stu-id="d7a31-108">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="d7a31-109">Sim</span><span class="sxs-lookup"><span data-stu-id="d7a31-109">Yes</span></span>  <br/> |
-|<span data-ttu-id="d7a31-110">Discagem format(s)</span><span class="sxs-lookup"><span data-stu-id="d7a31-110">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="d7a31-111">0800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="d7a31-111">0800 XXX XXXX</span></span>  <br/> |
-|<span data-ttu-id="d7a31-112">Código ISO de país/região</span><span class="sxs-lookup"><span data-stu-id="d7a31-112">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="d7a31-113">AU</span><span class="sxs-lookup"><span data-stu-id="d7a31-113">AU</span></span>  <br/> |
-|<span data-ttu-id="d7a31-114">Ilha/território abordado</span><span class="sxs-lookup"><span data-stu-id="d7a31-114">Island/territory covered</span></span>  <br/> |<span data-ttu-id="d7a31-115">Ilha Christmas, Tasmânia, Ilhas Cocos</span><span class="sxs-lookup"><span data-stu-id="d7a31-115">Christmas Islands, Tasmania, Cocos Islands</span></span>  <br/> |
-|<span data-ttu-id="d7a31-116">Ilha/território não coberto</span><span class="sxs-lookup"><span data-stu-id="d7a31-116">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="d7a31-117">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="d7a31-117">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="d7a31-118">Disponibilidade de linha fixa/com fio</span><span class="sxs-lookup"><span data-stu-id="d7a31-118">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="d7a31-119">Sim</span><span class="sxs-lookup"><span data-stu-id="d7a31-119">Yes</span></span>  <br/> |
-|<span data-ttu-id="d7a31-120">Disponibilidade com a rede móvel</span><span class="sxs-lookup"><span data-stu-id="d7a31-120">Mobile network availability</span></span>  <br/> |<span data-ttu-id="d7a31-121">Sim</span><span class="sxs-lookup"><span data-stu-id="d7a31-121">Yes</span></span>  <br/> |
-|<span data-ttu-id="d7a31-122">Comentários, restrições e problemas de acesso</span><span class="sxs-lookup"><span data-stu-id="d7a31-122">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="d7a31-123">Acesso móvel: O horário da transmissão é cobrado.</span><span class="sxs-lookup"><span data-stu-id="d7a31-123">Mobile access: Airtime is charged.</span></span>  <br/> |
+|<span data-ttu-id="442bf-108">A chamada gratuita está disponível?</span><span class="sxs-lookup"><span data-stu-id="442bf-108">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="442bf-109">Sim</span><span class="sxs-lookup"><span data-stu-id="442bf-109">Yes</span></span>  <br/> |
+|<span data-ttu-id="442bf-110">Formato (s) de discagem</span><span class="sxs-lookup"><span data-stu-id="442bf-110">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="442bf-111">0800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="442bf-111">0800 XXX XXXX</span></span>  <br/> |
+|<span data-ttu-id="442bf-112">Código ISO de país/região</span><span class="sxs-lookup"><span data-stu-id="442bf-112">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="442bf-113">AU</span><span class="sxs-lookup"><span data-stu-id="442bf-113">AU</span></span>  <br/> |
+|<span data-ttu-id="442bf-114">Ilha/território abrangido</span><span class="sxs-lookup"><span data-stu-id="442bf-114">Island/territory covered</span></span>  <br/> |<span data-ttu-id="442bf-115">Ilha Christmas, Tasmânia, Ilhas Cocos</span><span class="sxs-lookup"><span data-stu-id="442bf-115">Christmas Islands, Tasmania, Cocos Islands</span></span>  <br/> |
+|<span data-ttu-id="442bf-116">Ilha/território não coberto</span><span class="sxs-lookup"><span data-stu-id="442bf-116">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="442bf-117">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="442bf-117">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="442bf-118">Disponibilidade de linha fixa/com fio</span><span class="sxs-lookup"><span data-stu-id="442bf-118">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="442bf-119">Sim</span><span class="sxs-lookup"><span data-stu-id="442bf-119">Yes</span></span>  <br/> |
+|<span data-ttu-id="442bf-120">Disponibilidade com a rede móvel</span><span class="sxs-lookup"><span data-stu-id="442bf-120">Mobile network availability</span></span>  <br/> |<span data-ttu-id="442bf-121">Sim</span><span class="sxs-lookup"><span data-stu-id="442bf-121">Yes</span></span>  <br/> |
+|<span data-ttu-id="442bf-122">Comentários, restrições e problemas de acesso</span><span class="sxs-lookup"><span data-stu-id="442bf-122">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="442bf-123">Acesso móvel: O horário da transmissão é cobrado.</span><span class="sxs-lookup"><span data-stu-id="442bf-123">Mobile access: Airtime is charged.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="d7a31-124">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="d7a31-124">Related topics</span></span>
-[<span data-ttu-id="d7a31-125">Limitações e restrições de discagem gratuita</span><span class="sxs-lookup"><span data-stu-id="d7a31-125">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+## <a name="related-topics"></a><span data-ttu-id="442bf-124">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="442bf-124">Related topics</span></span>
+[<span data-ttu-id="442bf-125">Limitações e restrições de discagem gratuita</span><span class="sxs-lookup"><span data-stu-id="442bf-125">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="d7a31-126">Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d7a31-126">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="442bf-126">Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="442bf-126">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  
