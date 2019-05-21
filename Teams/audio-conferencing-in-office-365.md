@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,78 +21,78 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 7213b3b8a8155e8b23b8f710d241af4425a8dbe4
-ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
+ms.openlocfilehash: 592f9bd4e336ae454ce74146f462bfbab2a2924c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970296"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283536"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconferência no Office 365
-Serviços de audioconferência no Office 365 permite que os usuários liga para reuniões de seus telefones. Serviços de audioconferência permite que até 250 participantes de telefone.
+A videoconferência no Office 365 permite que os usuários liguem para reuniões a partir de seus telefones. A videoconferência de áudio permite até 250 participantes telefônicos.
 
-## <a name="what-is-audio-conferencing"></a>Qual é a conferência de áudio?
-Chamadas em (discam) para reuniões é muito útil para usuários que estão em trânsito e não podem participar de uma reunião usando o Skype para o aplicativo de negócios ou Teams da Microsoft em laptops ou dispositivos móveis. Mas há outros cenários que usando um telefone para participar de uma Skype para negócios ou Microsoft Teams reunião pode ser uma opção melhor que usando um aplicativo em um computador:
+## <a name="what-is-audio-conferencing"></a>O que é a conferência de áudio?
+A chamada (discada) para reuniões é muito útil para os usuários que estão em trânsito e não podem participar de uma reunião usando o aplicativo Skype for Business ou Microsoft Teams em seus laptops ou dispositivos móveis. Mas há outros cenários em que o uso de um telefone para participar de uma reunião do Skype for Business ou do Microsoft Teams pode ser uma opção melhor do que o uso de um aplicativo em um computador:
   
-- Conectividade com a Internet é limitada.
-- Uma reunião é áudio apenas.
-- A pessoa que tentou ingressar em uma Skype para reunião de negócios e ela falhou.
-- A qualidade da chamada é melhor ao discar.
-- As pessoas podem ingressar em uma reunião "viva voz" usando dispositivos Bluetooth.
-- As pessoas encontram é mais fácil e conveniente para sua situação.
+- A conectividade com a Internet é limitada.
+- Uma reunião é somente de áudio.
+- A pessoa tentou ingressar em uma reunião do Skype for Business e falhou.
+- A qualidade da chamada é melhor durante a discagem.
+- As pessoas podem ingressar em uma reunião "mãos grátis" usando dispositivos Bluetooth.
+- As pessoas acham que é mais fácil e conveniente para sua situação.
 
 Basta configurar uma Audioconferência para as pessoas que planejam agendar ou liderar reuniões. Os participantes da reunião não precisam de nenhuma licença atribuída ou configuração adicional.
 
-Depois que os participantes tiverem ingressado reunião, eles também podem discar e convidar outros chamadores em um Skype para reunião de negócios ou Teams da Microsoft. Consulte [discando check-out de uma reunião de equipes para que outras pessoas poderá ingressar nela](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) ou [discando check-out de um Skype para reunião de negócios para que outras pessoas poderá ingressar nela](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
+Depois que os participantes ingressarem na reunião, também poderão discar e convidar outros chamadores para uma reunião do Skype for Business ou do Microsoft Teams. Consulte [discagem de uma reunião do teams para que outras pessoas possam participar dela](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) ou [discar de uma reunião do Skype for Business para que outras pessoas possam participar dela](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
 
-## <a name="what-does-it-cost"></a>Quanto custa?
+## <a name="what-does-it-cost"></a>Qual é o custo?
 Para informações de preços, consulte [Preços de Audioconferência](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
 
-## <a name="where-is-it-available"></a>Onde está disponível?
-Com a conferência de áudio, os usuários podem utilizar Chamada Tarifada e números de telefone gratuitos para discar para reuniões. Números tarifados (serviço) recebem automaticamente como números de serviços de audioconferência compartilhada para organizações quando elas são habilitadas para conferência de áudio. Tarifas dedicada e números para ligações gratuitas podem ser atribuídos à sua organização de cidades adicionais.
+## <a name="where-is-it-available"></a>Onde ele está disponível?
+Com o áudio videoconferência, os usuários podem usar números de telefone de chamada tarifada e gratuita para discar para reuniões. Os números de chamada tarifada (serviço) são atribuídos automaticamente como números de conferência de áudio compartilhada às organizações quando eles são habilitados para videoconferências. Números de chamada tarifada e gratuita podem ser atribuídos à sua organização de outras cidades.
 
-Números de telefone gratuitos (números de serviço) estão disponíveis, mas somente em alguns países/regiões. Para ver o que está disponível em seu país ou região, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Números de telefone de chamada gratuita (números de serviço) estão disponíveis, mas somente em alguns países/regiões. Para ver o que está disponível em seu país ou região, consulte [disponibilidade de país e região para conferências de áudio e planos de chamadas](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-Depois que você tiver decidido que você deseja serviços de audioconferência para sua organização, você precisará comprar uma licença de **Serviços de audioconferência** para cada pessoa em sua organização que será/host de agendar uma reunião de áudio.
+Depois de decidir que deseja a conferência de áudio para sua organização, você precisa comprar uma licença de **conferência de áudio** para cada pessoa em sua organização que irá agendar/hospedar uma reunião de áudio.
 
-## <a name="how-do-conferencing-bridges-work"></a>Como funcionam as pontes de conferência?
-Quando você estiver configurando serviços de audioconferência para Skype para negócios ou Teams da Microsoft, você receberá uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone. O número de telefone que você definir será incluído em convites de reunião para Skype para aplicativos de negócios e Teams da Microsoft. Você pode [alterar os números de telefone na sua ponte de conferência](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)e você também pode [alterar outras configurações de ponte de conferência de áudio](change-the-settings-for-an-audio-conferencing-bridge.md). 
+## <a name="how-do-conferencing-bridges-work"></a>Como as pontes de conferência funcionam?
+Ao configurar a conferência de áudio para o Skype for Business ou o Microsoft Teams, você receberá uma ponte de audioconferência. Uma ponte de conferência pode conter um ou mais números de telefone. O número de telefone que você define será incluído nos convites de reunião para aplicativos Skype for Business e Microsoft Teams. Você pode [alterar os números de telefone na sua ponte de conferência](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)e também pode [alterar outras configurações de ponte de áudio audioconferência](change-the-settings-for-an-audio-conferencing-bridge.md). 
   
-A ponte de conferência de áudio atende uma chamada para pessoas que estão discando para uma reunião usando um telefone. Ela atende do chamador com prompts de voz de um atendedor automático e, em seguida, dependendo de suas definições, pode reproduzir notificações e será feita aos chamadores a registrar seu nome. **Microsoft ponte configurações** permitem que você alterar as configurações para notificações de reunião e experiência de ingresso na reunião e definir o tamanho dos pinos que são usados pelo organizadores de reuniões [em equipes da Microsoft](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md) ou em [Skype para negócios Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings). Organizadores de reunião usam PINs para iniciar reuniões, se eles não podem ingressar na reunião usando o Skype para aplicativos de negócios ou Teams da Microsoft.
+A ponte de audioconferência atende a uma chamada para as pessoas que estão discando para uma reunião usando um telefone. Ele responde ao chamador com prompts de voz de um atendedor automático e, em seguida, dependendo das suas configurações, pode reproduzir notificações e pedir para os chamadores gravarem o nome. **As configurações de ponte da Microsoft** permitem que você altere as configurações de notificações de reunião e da experiência de junção de reunião e defina o comprimento dos Pins que são usados pelos organizadores [da reunião no Microsoft Teams](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md) ou no [Skype for Business online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings). Os organizadores da reunião usam PINs para iniciar reuniões se não puderem ingressar na reunião usando o aplicativo Skype for Business ou Microsoft Teams.
 
-## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Números de telefone de discagem definida em uma ponte de conferência de áudio
-Existem dois tipos de números de telefone de conferência de áudio que podem ser atribuídos à sua ponte de conferência: **compartilhados** e **exclusivas**. Ambos os tipos de números podem ser usados por qualquer chamador para participar de reuniões de áudio que estão sendo mantidos em sua organização.
+## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Números de telefone de discagem definidos em uma ponte de conferência de áudio
+Há dois tipos de números de telefone de conferência de áudio que podem ser atribuídos à sua ponte de conferência: **compartilhada** e **dedicada**. Os dois tipos de números podem ser usados por qualquer chamador para ingressar em reuniões de áudio que estão sendo mantidas em sua organização.
   
- **Números de telefone dedicados** são os que estão disponíveis apenas para usuários em sua organização. Você pode alterar os idiomas usados quando alguém liga para um desses números. Você precisará obter um número de telefone do serviço para eles.
+ **Números de telefone dedicados** são os que estão disponíveis apenas para usuários em sua organização. Você pode alterar os idiomas usados quando alguém liga para um desses números. Você precisará obter um número de telefone de serviço para isso.
   
  **Números de telefone compartilhados** são os que podem ser compartilhados com outras organizações do Office 365. Não é possível alterar os idiomas usados quando alguém liga para um desses números.
   
-Enquanto o número de conferência de áudio padrão que é atribuído a um organizador só é incluído no convite da reunião, um chamador pode usar qualquer um dos números de telefone que são atribuídos a sua ponte de conferência para ingressar em uma reunião. A lista de números de telefone que podem ser usados para ingressar em uma reunião está disponível por meio do link **Encontrar um número local** incluído em todos os convites de reunião.
+Embora o número de conferência de áudio padrão atribuído a um organizador seja incluído apenas no convite da reunião, um chamador pode usar qualquer um dos números de telefone atribuídos à sua ponte de conferência para ingressar em uma reunião. A lista de números de telefone que podem ser usados para ingressar em uma reunião está disponível por meio do link **Encontrar um número local** incluído em todos os convites de reunião.
 
-Para obter mais informações, consulte [números de telefone de conferência de áudio em equipes da Microsoft](phone-numbers-for-audio-conferencing-in-teams.md) ou [números de telefone de audioconferência no Skype para negócios Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
+Para obter mais informações, consulte [números de telefone para conferências de áudio no Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) ou [números de telefone para videoconferência no Skype for Business online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
   
-## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>Atribuído automaticamente os números de telefone de conferência de áudio
-Compartilhadas números são automaticamente atribuídos a organizações quando elas são habilitadas para conferência de áudio de telefone de conferência de áudio. Após a atribuição dos números telefônicos, um número telefônico é atribuído como o número padrão da ponte de conferência. O número telefônico atribuído como o número padrão da ponte será aquele do país/região da organização.
+## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>Números de telefone de conferência de áudio atribuídos automaticamente
+Os números de telefone de conferência de áudio compartilhado são atribuídos automaticamente às organizações quando são habilitados para videoconferências. Após a atribuição dos números telefônicos, um número telefônico é atribuído como o número padrão da ponte de conferência. O número telefônico atribuído como o número padrão da ponte será aquele do país/região da organização.
   
 > [!NOTE]
-> O local do país ou região da sua organização possa ser encontrado por entrando no **Centro de administração do Microsoft 365** e examinando o registro em **Perfil da organização**. 
+> O local do país ou região da sua organização pode ser encontrado conectando-se ao **centro de administração do Microsoft 365** e olhando em **perfil da organização**. 
   
 > [!CAUTION]
-> Devido à disponibilidade limitada dos números de telefone de Chamada Tarifada em Venezuela, Indonésia e Emirados Árabes Unidos (Emirados Árabes Unidos), as organizações a partir desses países/regiões não terão um número de Chamada Tarifada audioconferências automaticamente atribuído a eles. Os números de chamada gratuita destes locais são disponibilizados conforme o estoque disponível. 
+> Devido à disponibilidade limitada de números de telefone de chamada na Venezuela, na Indonésia e nos Emirados Árabes Unidos (EAU), as organizações desses países/regiões não terão um número de telefone de conferência de áudio atribuído automaticamente. Os números de chamada gratuita destes locais são disponibilizados conforme o estoque disponível. 
   
 Para ver uma lista dos países/regiões que têm números de telefone automaticamente atribuídos às organizações, consulte [Disponibilidade de Audioconferência e Planos de Chamada por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
-## <a name="how-do-you-get-dedicated-phone-numbers"></a>Como você obter números de telefone dedicado?
-Números de telefone de conferência de áudio dedicado são números de serviço que você pode obter e, em seguida, atribuir a sua organização. Você pode obter tarifas dedicada e números de telefone gratuitos para seus pontes de conferência em uma destas três formas:
+## <a name="how-do-you-get-dedicated-phone-numbers"></a>Como obter números de telefone dedicados?
+Números de telefone de conferência de áudio dedicados são números de serviço que você pode obter e atribuir à sua organização. Você pode obter números de telefone de chamada tarifada e gratuita para as pontes de conferência de uma destas três maneiras:
 
-- **Use o Skype para centro de administração de negócios.** Para alguns países/regiões, você pode obter números para seus pontes de conferência usando o Skype para o Centro de administração de negócios. Consulte [Getting números de telefone de serviço](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+- **Use o centro de administração do Skype for Business.** Para alguns países/regiões, você pode obter números para suas pontes de conferência usando o centro de administração do Skype for Business. Veja [obtendo números de telefone de serviço](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
     
 - **Fazer a portabilidade de seus números existentes.** Você pode fazer a portabilidade/transferência de números existentes do seu provedor de serviços ou operadora de telefonia atual para o Office 365. Consulte [Transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md) ou [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obter mais informações que ajudem você a fazer isso.  
   
-- **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do seu país/região) não será possível obter seus números de telefone novo usando o Skype para o Centro de administração de negócios ou, você precisará de números de telefone específico ou códigos de área. Se for o caso, será necessário baixar um formulário e enviá-lo para nós. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do seu país/região) você não poderá obter seus novos números de telefone usando o centro de administração do Skype for Business ou precisará de números de telefone ou códigos de área específicos. Se for o caso, será necessário baixar um formulário e enviá-lo para nós. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-## <a name="how-do-you-set-it-up"></a>Como você configura-lo?
-Depois que você tiver decidido configurar a conferência de áudio para seus usuários, consulte [Configurar conferências de áudio para equipes da Microsoft](set-up-audio-conferencing-in-teams.md) ou [Configurar a conferência de áudio para Skype para Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) para as etapas que podem ser seguidas para fazê-lo.
+## <a name="how-do-you-set-it-up"></a>Como configurar?
+Depois de decidir configurar a conferência de áudio para seus usuários, consulte [Configurar a audioconferência para o Microsoft Teams](set-up-audio-conferencing-in-teams.md) ou [Configurar o áudio videoconferência para o Skype for Business online](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) para obter as etapas que você pode seguir para fazer isso.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

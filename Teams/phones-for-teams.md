@@ -6,7 +6,7 @@ manager: serdars
 ms.reviewer: kponnus
 ms.topic: reference
 ms.service: msteams
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -15,76 +15,76 @@ ms.collection:
 - M365-collaboration
 - M365-voice
 localization_priority: Normal
-description: Este artigo aborda a lista de certificados para o Microsoft Teams e os recursos compatíveis com os telefones certificados for Microsoft Teams telefones.
-ms.openlocfilehash: a5ac86ee1eb5e6ae87c25f9a2151efb092635323
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Este artigo aborda a lista de telefones certificados para o Microsoft Teams e os recursos com suporte nos telefones certificados para o Microsoft Teams.
+ms.openlocfilehash: 13c607ed11eef95223e1b40ebf2f306accf4e1d1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246582"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304438"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefones para o Microsoft Teams
 
-Teams da Microsoft oferece suporte a um portfólio de telefones de mesa para usuários que requerem uma experiência de telefone tradicional. Este artigo aborda a lista de certificados para o Microsoft Teams e os recursos compatíveis com os telefones certificados for Microsoft Teams telefones. Para obter as informações mais recentes e atualizadas nas equipes certified dispositivos, vá para [Equipes Marketplace](http://office.com/teamsdevices).
+O Microsoft Teams é compatível com um portfólio de telefones de mesa para usuários que exigem uma experiência de telefone tradicional. Este artigo aborda a lista de telefones certificados para o Microsoft Teams e os recursos com suporte nos telefones certificados para o Microsoft Teams. Para obter as informações mais recentes e atualizadas sobre dispositivos certificados pela equipe, vá para o [Teams Marketplace](http://office.com/teamsdevices).
 
-## <a name="teams-certified-ip-phones"></a>Equipes certificada telefones IP
+## <a name="teams-certified-ip-phones"></a>Telefones IP certificados pela equipe
 
-Para oferecer uma experiência de Teams Microsoft confiável e de alta qualidade em telefones, estamos parceria e trabalhando ativamente com Yealink, Crestron, Polycom e Audiocodes para desenvolver e certificar um portfólio ampla de telefones de mesa e dispositivos de áudio de sala de conferência. Consulte [atualmente certificados telefones IP](/SkypeForBusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json#currently-certified-ip-phones) para dispositivos suportados atuais.
+Para oferecer uma experiência de alta qualidade e confiabilidade do Microsoft Teams em telefones, estamos estabelecendo parcerias e trabalhando ativamente com o Yealink, o Crestron, o Polycom e o AudioCodes para desenvolver e certificar um amplo portfólio de telefones de mesa e dispositivos de áudio de sala de conferência. Consulte [telefones IP certificados atualmente](/SkypeForBusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json#currently-certified-ip-phones) para dispositivos compatíveis com o momento.
 
-## <a name="microsoft-teams-phones-feature-set"></a>Conjunto de recursos de telefone Teams da Microsoft
+## <a name="microsoft-teams-phones-feature-set"></a>Conjunto de recursos de telefones do Microsoft Teams
 
-Um conjunto de alto nível dos recursos suportados em equipes certificada telefones IP está disponível na tabela a seguir.
+Um conjunto de recursos de alto nível com suporte em telefones IP certificados pela equipe está disponível na tabela a seguir.
 
-|Recursos |Telefone de mesa (modo pessoal) |Telefone de sala de conferência (modo compartilhado)|
+|Recursos |Telefone de mesa (modo pessoal) |Telefone da sala de conferência (modo compartilhado)|
 |---------|---------|---------|
 |**Autenticação** | |  |
 |Entre com as credenciais dos usuários |  Sim  | Sim |
-|Entrar usando o PC/Smartphone  | Sim  |Sim|
+|Entrar usando PC/smartphone  | Sim  |Sim|
 |Autenticação moderna | Sim  |Sim  |
-|Bloquear/desbloquear Phone | Sim |Não |
+|Bloquear/desbloquear telefone | Sim |Não |
 |**Chamadas** |  |  |
-|Chamadas de entrada/saída P2P | Sim   |Sim  |
-|Pela interface do usuário (mudo, espera/continuar, transferência, encerrar a chamada), os controles de chamada| Sim   |Sim  |
+|Chamadas de entrada/saída ponto a ponto | Sim   |Sim  |
+|Controles de chamada por meio da interface do usuário (ativar mudo, reter/retomar/retomar, transferir, encerrar chamada)| Sim   |Sim  |
 |Chamadas PSTN| Sim   |Sim  |
 |Caixa postal visual | Sim | Não |
-|suporte 911  | Sim   |Sim  |
+|suporte do 911  | Sim   |Sim  |
 |**Calendário e presença**|   | |
-|Acesso de calendário e detalhes da reunião|Sim  |Sim |
+|Acesso do calendário e detalhes da reunião|Sim  |Sim |
 |Integração de presença |Sim|Sim |
 |Integração de calendário do Exchange |Sim |Sim |
 |Integração da imagem do contato  |Sim |Sim |
-|Acesso de diretório corporativo | Sim |Sim |
+|Acesso a diretório corporativo | Sim |Sim |
 |**Reuniões**|   ||
-|Associação de um clique para reuniões  | Sim   |Sim  |
-|Ingressar Skype para reuniões de negócios | Sim   | Sim |
-|Controles de chamada da reunião (mudo/desativar mudo, espera/continuar, desligar, adicionar/remover participantes)|Sim |Sim |
+|Junção com um único clique para reuniões  | Sim   |Sim  |
+|Participar de reuniões do Skype for Business | Sim   | Sim |
+|Controles de chamada de reunião (ativar mudo/desativar mudo, reter/retomar, desligar, adicionar/remover participante)|Sim |Sim |
 |Detalhes da reunião|Sim|Não|
 
-Estamos trabalhando para continuamente adicionar recursos para ajudar a aprimorar a experiência de suas equipes em telefones de nossos usuários. As capturas de tela a seguir ilustram algumas das experiências que suportamos hoje.
+Estamos nos empenhando para adicionar recursos continuamente para ajudar nossos usuários a aprimorar a experiência do seu Teams nos telefones. As capturas de tela a seguir ilustram algumas das experiências aceitas hoje.
 
 ## <a name="sign-in-experience"></a>Experiência de entrada
 
-Quando um usuário clica no botão entrar em equipes, entrar é iniciado através do Portal da empresa. O usuário tem a opção de entrar, inserindo as credenciais do usuário no telefone ou escolhendo entrar de outro dispositivo. Se o usuário escolher entrar de outro dispositivo, o usuário poderá concluir a autenticação do seu PC ou um smartphone.
+Quando um usuário clica no botão entrar no Teams, a entrada é iniciada por meio do portal da empresa. O usuário tem a opção de entrar digitando credenciais do usuário no telefone ou optando por entrar em outro dispositivo. Se o usuário optar por entrar em outro dispositivo, o usuário poderá concluir a autenticação do PC ou smartphone.
 
-**Usuário entrar com credenciais**
+**Credenciais de entrada do usuário**
 
-![Ao entrar credenciais](media/sign-in-with-credentials.png)
+![Como entrar com credenciais](media/sign-in-with-credentials.png)
 
-**Usuário entrar via PC/smartphone**
+**Entrada do usuário via PC/smartphone**
 
-![Entrar com outro dispositivo](media/sign-in-with-device.jpg)
+![Conectando-se com outro dispositivo](media/sign-in-with-device.jpg)
 
-## <a name="personalshared-mode"></a>Modo pessoal/compartilhados
+## <a name="personalshared-mode"></a>Modo pessoal/compartilhado
 
-Depois de entrar com êxito, o usuário pode escolher se o dispositivo será usado para uso pessoal ou em uma sala de conferência compartilhadas.
+Após a entrada bem-sucedida, o usuário pode escolher se o dispositivo será usado para uso pessoal ou em uma sala de conferência compartilhada.
 
-![A opção conta pessoal ou compartilhada](media/personal-vs-shared-mode.jpg)
+![A opção de conta pessoal ou compartilhada](media/personal-vs-shared-mode.jpg)
 
-A experiência de telefone de equipes é otimizada com base na seleção do usuário.
+A experiência de equipe do teams é otimizada com base na seleção do usuário.
 
 **Modo pessoal**
 
-![No modo de pessoal da conta](media/personal-mode.png)
+![Conta no modo pessoal](media/personal-mode.png)
 
 **Modo compartilhado**
 
@@ -92,7 +92,7 @@ A experiência de telefone de equipes é otimizada com base na seleção do usu�
 
 ## <a name="calling-experience"></a>Experiência de chamada
 
-O usuário do Microsoft Teams pode tire o fone ou pressione o botão de alto-falante para iniciar o teclado de discagem na tela chamada. Como alternativa, o usuário pode usar os botões de hardware (se disponível) para discar um número.
+O usuário do Microsoft Teams pode levantar o aparelho ou pressionar o botão de alto-falante para abrir o teclado de discagem na tela de chamadas. Como alternativa, o usuário pode usar os botões de hardware (se disponíveis) para discar um número.
 
 **Teclado de discagem na tela**
 
@@ -104,49 +104,49 @@ O usuário do Microsoft Teams pode tire o fone ou pressione o botão de alto-fal
 
 ## <a name="meeting-experience"></a>Experiência de reunião
 
-O usuário do Microsoft Teams pode navegar para a guia de reuniões para exibir suas reuniões e use o botão de **ingresso** para ingressar em reuniões de suas equipes.
+O usuário do Microsoft Teams pode navegar até a guia reuniões para exibir suas reuniões e **** usar o botão ingressar para ingressar em reuniões de equipes.
 
 **Visão de calendário**
 
 ![Reuniões no modo de exibição de calendário](media/calendar-view.png)
 
-**Modo de exibição de participação de reunião**
+**Modo de exibição junção de reunião**
 
-![Uma reunião no modo de exibição de ingresso](media/meeting-join-view.png)
+![Uma reunião no modo de exibição de junção](media/meeting-join-view.png)
 
 
 ## <a name="voicemail"></a>Caixa postal
 
-O usuário Teams da Microsoft pode acessar suas mensagens de voz quando eles navegam até a guia de **caixa postal** .
+O usuário do Microsoft Teams pode acessar o correio de voz ao navegar para a guia **correio de voz** .
 
-![Na guia da caixa postal](media/voicemail-tab.png)
+![A guia correio de voz](media/voicemail-tab.png)
 
-## <a name="user-sign-out"></a>Saída do usuário
+## <a name="user-sign-out"></a>Assinatura do usuário
 
-O usuário de telefone de equipes pode optar por sair, selecionando a opção **Sair** no menu esquerdo superior.
+O usuário do telefone da equipe pode optar por desconectar selecionando a opção sair no menu superior esquerdo. ****
 
-![Saindo do equipes](media/teams-sign-out.png)
+![Saindo do teams](media/teams-sign-out.png)
 
-## <a name="finding-the-firmware-version-on-a-mobile-device"></a>Localizando a versão de Firmware em um dispositivo móvel
+## <a name="finding-the-firmware-version-on-a-mobile-device"></a>Localizando a versão do firmware em um dispositivo móvel
 
-A versão mínima do firmware pode ser verificada na página de entrada de equipes, escolhendo o ícone **configurações** no canto superior direito e, em seguida, clicando em **sobre**.
+A versão mínima do firmware pode ser verificada na página de entrada do teams escolhendo o ícone de **configurações** no canto superior direito e clicando em **sobre**.
 
-**Página de entrada equipes**
+**Página de entrada do teams**
 
-![A página de entrada de equipes](media/teams-sign-in-page.jpg)
+![Página de entrada do teams](media/teams-sign-in-page.jpg)
 
 **Página de configurações**
 
-![A página Configurações de equipes](media/teams-settings-page.jpg)
+![Página de configurações do teams](media/teams-settings-page.jpg)
 
 ## <a name="required-licenses"></a>Licenças necessárias
 
-Licenças da Microsoft Teams podem ser adquiridas como parte de suas [assinaturas do Office 365](Office-365-licensing.md). Para saber mais sobre as licenças necessárias para usar o Microsoft Teams em telefones, consulte disponíveis [licenças de sistema telefônico](https://products.office.com/en-us/microsoft-teams/voice-calling).
+As licenças do Microsoft Teams podem ser compradas como parte das [assinaturas do Office 365](Office-365-licensing.md). Para saber mais sobre as licenças necessárias para usar o Microsoft Teams em telefones, consulte [licenças do sistema telefônico](https://products.office.com/en-us/microsoft-teams/voice-calling)disponíveis.
 
-Para obter mais informações sobre a obtenção de equipes, confira [como obter acesso ao Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Para obter mais informações sobre como obter o Microsoft Teams, confira [como faço para obter acesso ao Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## <a name="see-also"></a>Confira também
 
-[Marketplace de equipes](http://office.com/teamsdevices)
+[Marketplace do teams](http://office.com/teamsdevices)
 
-[Telefones IP certified for Microsoft Teams](/skypeforbusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[Telefones IP certificados para o Microsoft Teams](/skypeforbusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

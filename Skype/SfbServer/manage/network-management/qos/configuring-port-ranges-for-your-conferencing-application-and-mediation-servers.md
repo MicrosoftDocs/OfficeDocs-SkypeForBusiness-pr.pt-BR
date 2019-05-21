@@ -1,5 +1,5 @@
 ---
-title: Configurando intervalos de porta e uma política de qualidade de serviço para seus servidores de mediação, aplicativo e conferência
+title: Configurando intervalos de porta e uma política de qualidade de serviço para seus servidores de conferência, aplicativo e mediação
 ms.reviewer: ''
 ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
@@ -8,29 +8,29 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Este artigo descreve como configurar intervalos de porta e uma política de qualidade de serviço para seus servidores de mediação, aplicativo e conferência.
-ms.openlocfilehash: 29685029580271462e090da7fa82cd8d416e83e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Este artigo descreve como configurar intervalos de porta e uma política de qualidade de serviço para seus servidores de conferência, aplicativo e mediação.
+ms.openlocfilehash: e0bd6092792a9ed813aadecc004f58830bc5b133
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913360"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279456"
 ---
-# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>Configurando intervalos de porta e uma política de qualidade de serviço para seus servidores de mediação, aplicativo e conferência
+# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>Configurando intervalos de porta e uma política de qualidade de serviço para seus servidores de conferência, aplicativo e mediação
 
-Este artigo descreve como configurar intervalos de porta e uma política de qualidade de serviço para seus servidores de mediação, aplicativo e conferência.
+Este artigo descreve como configurar intervalos de porta e uma política de qualidade de serviço para seus servidores de conferência, aplicativo e mediação.
 
 ## <a name="configure-port-ranges"></a>Configurar intervalos de porta
 
-Para implementar o Quality of Service, você deve configurar intervalos de porta idênticos para áudio, vídeo e compartilhamento em seus servidores de mediação, aplicativo e conferência; de aplicativos Além disso, esses intervalos de portas não devem ser sobrepostos de nenhuma maneira. Para usar um exemplo simples, vamos supor que você usa as portas 10000 por meio de 10999 para vídeo em seus servidores de conferência. Isso significa que você também deve reservar portas 10000 por meio de 10999 para vídeo em seus servidores de mediação e de aplicativo. Se você não fizer isso, QoS não funcionará conforme o esperado.
+Para implementar a qualidade do serviço, você deve configurar intervalos de porta idênticos para compartilhamento de áudio, vídeo e aplicativos em seus servidores de conferência, aplicativo e mediação; Além disso, esses intervalos de portas não devem ser sobrepostos de maneira alguma. Para usar um exemplo simples, suponha que você use as portas 10000 a 10999 para vídeo em seus servidores de conferência. Isso significa que você também deve reservar as portas de 10000 a 10999 para o vídeo em seus servidores de aplicativo e mediação. Se você não fizer isso, a QoS não funcionará conforme o esperado.
 
-Da mesma forma, suponha que você reservar portas 10000 por meio de 10999 para vídeo, mas reserva portas 10500 por meio de 11999 para áudio. Isso pode criar problemas de qualidade de serviço, porque a sobreposição de intervalos de porta. Com o QoS, cada modalidade deve ter um conjunto exclusivo de portas: se você usar portas 10000 por meio de 10999 para vídeo, você terá que usar um intervalo diferente (por exemplo, 11000 por meio de 11999, para áudio).
+Da mesma forma, suponha que você reserve portas de 10000 a 10999 para vídeo, mas Reserve portas de 10500 a 11999 para áudio. Isso pode criar problemas para a qualidade do serviço, pois os intervalos de porta se sobrepõem. Com o QoS, cada modalidade deve ter um conjunto exclusivo de portas: se você usar as portas 10000 a 10999 para vídeo, será necessário usar um intervalo diferente (por exemplo, 11000 a 11999, para áudio).
 
-Por padrão, os intervalos de porta de áudio e vídeo não se sobreponham no Skype para Business Server; No entanto, os intervalos de porta atribuída ao aplicativo de sobreposição de compartilhamento com ambos os intervalos de porta de áudio e vídeo. (Que, por sua vez, significa que nenhum desses intervalos são exclusivos.) Você pode verificar os intervalos de porta existente para os servidores de mediação, aplicativo e conferência, executando os seguintes três comandos de dentro do Skype do Shell de gerenciamento do servidor de negócios:
+Por padrão, os intervalos de porta de áudio e vídeo não se sobrepõem no Skype for Business Server; no entanto, os intervalos de porta atribuídos ao compartilhamento de aplicativos se sobrepõem com os intervalos de porta de áudio e vídeo. (Que, por sua vez, significa que nenhum desses intervalos é exclusivo.) Você pode verificar os intervalos de porta existentes para seus servidores de conferência, aplicativo e mediação executando os três comandos a seguir no Shell de gerenciamento do Skype for Business Server:
 
     Get-CsService -ConferencingServer | Select-Object Identity, AudioPortStart, AudioPortCount, VideoPortStart, VideoPortCount, AppSharingPortStart, AppSharingPortCount
     
@@ -39,9 +39,9 @@ Por padrão, os intervalos de porta de áudio e vídeo não se sobreponham no Sk
     Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
 
 > [!WARNING]  
-> Como você pode ver nos comandos anteriores, cada tipo de porta – áudio, vídeo e compartilhamento de aplicativos – é atribuído dois valores de propriedade separada: a porta de início e a contagem de porta. A porta de início indica a primeira porta usada para esse modalidade; Por exemplo, se o início da porta de áudio for igual a 50000 isso significa que a primeira porta usada para o tráfego de áudio é a porta 50000. Se a contagem de porta de áudio é 2 (que não é um valor válido, mas é usado aqui para fins ilustrativos), isso significa que apenas duas portas são alocadas para áudio. Se a primeira porta é a porta 50000 e há um total de duas portas, isso significa que a segunda porta deve ser a porta 50001 (porta intervalos precisam ser contíguos). Como resultado, o intervalo de portas para áudio seria portas 50000 por meio de 50001, inclusive.<BR><br>Observe também que o servidor de aplicativo e servidor de mediação apenas suportem a QoS para áudio; Você não precisará alterar vídeo ou portas em seus servidores de aplicativos ou servidores de mediação de compartilhamento de aplicativos.
+> Como você pode ver nos comandos anteriores, cada tipo de porta – áudio, vídeo e compartilhamento de aplicativos – recebe dois valores de propriedade separados: o início da porta e a contagem de portabilidade. A porta Start indica a primeira porta usada para essa modalidade; por exemplo, se o início da porta de áudio for igual a 50000, isso significa que a primeira porta usada para tráfego de áudio é a porta 50000. Se o número da porta de áudio for 2 (que não é um valor válido, mas é usado aqui para fins de ilustração), isso significa que apenas duas portas são alocadas para áudio. Se a primeira porta for a porta 50000 e houver um total de duas portas, isso significa que a segunda porta deve ser a porta 50001 (intervalos de porta devem ser contíguos). Como resultado, o intervalo de porta para áudio seria a porta 50000 a 50001, inclusive.<BR><br>Observe que o servidor de aplicativos e o servidor de mediação também dão suporte a QoS para áudio; Você não precisa alterar as portas de vídeo ou de compartilhamento de aplicativos em seus servidores de aplicativos ou servidores de mediação.
 
-Se você executar os três comandos anteriores, você verá que a porta padrão valores para Skype para Business Server configurados como esta:
+Se você executar os três comandos anteriores, verá que os valores de porta padrão para o Skype for Business Server são configurados da seguinte maneira:
 
 <table>
 <colgroup>
@@ -98,97 +98,97 @@ Se você executar os três comandos anteriores, você verá que a porta padrão 
 </tbody>
 </table>
 
-Conforme observado anteriormente, ao configurar Skype para o servidor de negócios de portas para QoS, você deve assegurar que: 1) configurações de porta de áudio são idênticas em seus servidores de mediação, aplicativo e conferência; e, 2) intervalos de porta não se sobreponham. Se você observe atentamente a tabela anterior, você verá os intervalos de porta são idênticos entre os tipos de três servidores. Por exemplo, a porta de áudio inicial é definida para a porta 49152 em cada tipo de servidor e o número total de portas reservadas para áudio em cada servidor também é idêntico: 8348. No entanto, a porta intervalos sobreposição: início de portas de áudio na porta 49152, mas isso faça as portas reserve para compartilhamento de aplicativos. Para fazer uso eficaz do Quality of Service, o compartilhamento de aplicativos deve ser reconfigurado para usar um intervalo de porta exclusivo. Por exemplo, você poderia configurar para iniciar na porta 40803 e usar 8348 portas de compartilhamento de aplicativos. (Por que 8348 portas? Se você adicionar esses valores juntos-- 40803 + 8348 – que significa que a compartilhamento de aplicativos usar portas 40803 através da porta 49150. Porque as portas de áudio não começam até a porta 49152, você não terá mais qualquer sobrepostas intervalos de porta.)
+Conforme observado anteriormente, ao configurar as portas do Skype for Business Server para QoS, certifique-se de que: 1) as configurações da porta de áudio sejam idênticas nos seus servidores de conferência, aplicativos e mediação; e, 2) os intervalos de porta não se sobrepõem. Se você olhar atentamente para a tabela anterior, verá que os intervalos de porta são idênticos nos três tipos de servidor. Por exemplo, a porta de áudio inicial é definida como a porta 49152 em cada tipo de servidor e o número total de portas reservadas para áudio em cada servidor também é idêntica: 8348. No entanto, os intervalos de porta sobrepõem: as portas de áudio começam na porta 49152, mas as portas se reservam para o compartilhamento de aplicativos. Para fazer uso ideal da qualidade do serviço, o compartilhamento de aplicativos deve ser reconfigurado para usar um intervalo de porta exclusivo. Por exemplo, você pode configurar o compartilhamento de aplicativos para iniciar na porta 40803 e para usar as portas do 8348. (Por que 8348 portas? Se você adicionar esses valores juntos--40803 + 8348-------------------------49150 40803-- Como as portas de áudio não começam até a porta 49152, você não terá mais nenhum intervalo de portas sobrepostos.)
 
-Depois de ter selecionado o novo intervalo de porta para compartilhamento de aplicativos, você pode fazer as alterações usando o cmdlet Set-CsConferencingServer. Essa alteração não precisam ser feitas em seus servidores de aplicativo ou em seus servidores de mediação, pois esses servidores não manipular o tráfego de compartilhamento de aplicativo. Você precisará alterar os valores de porta nesses servidores se você decidir reatribuir as portas usadas para o tráfego de áudio.
+Depois de selecionar o novo intervalo de porta para compartilhamento de aplicativos, você pode fazer a alteração usando o cmdlet Set-CsConferencingServer. Essa alteração não precisa ser feita em seus servidores de aplicativos ou em seus servidores de mediação, pois esses servidores não manipulam o tráfego de compartilhamento de aplicativos. Você só precisa alterar valores de porta nestes servidores se decidir reatribuir as portas usadas para tráfego de áudio.
 
-Para modificar os valores de porta do compartilhamento de aplicativo em um único servidor de conferência, execute um comando semelhante a esse a partir dentro do Skype do Shell de gerenciamento do servidor de negócios:
+Para modificar os valores de porta para compartilhamento de aplicativos em um único servidor de conferência, execute um comando semelhante a isso dentro do Shell de gerenciamento do Skype for Business Server:
 
     Set-CsConferenceServer -Identity ConferencingServer:atl-cs-001.litwareinc.com -AppSharingPortStart 40803 -AppSharingPortCount 8348
 
-Se você quiser fazer essas alterações em todos os servidores de conferência, você pode executar esse comando em vez disso:
+Se você quiser fazer essas alterações em todos os seus servidores de conferência, poderá executar esse comando em vez disso:
 
     Get-CsService -ConferencingServer | ForEach-Object {Set-CsConferenceServer -Identity $_.Identity -AppSharingPortStart 40803 -AppSharingPortCount 8348}
 
-Após alterar as configurações de porta, você deve parar e, em seguida, reiniciar cada serviço afetado pelas alterações.
+Depois de alterar as configurações da porta, você deve parar e reiniciar cada serviço afetado pelas alterações.
 
-Não é obrigatório que seus servidores de conferência, servidores de aplicativos e servidores de mediação compartilham o intervalo de portas mesmo exato; o requisito de true somente é que você reserve intervalos de porta exclusivo em todos os servidores. No entanto, a administração geralmente será mais fácil se você usar o mesmo conjunto de portas em todos os servidores.
+Não é obrigatório que seus servidores de conferência, servidores de aplicativos e servidores de mediação compartilhem exatamente o mesmo intervalo de porta; o único requisito verdadeiro é que você se reservasse intervalos de porta exclusivos em todos os seus servidores. No entanto, a administração normalmente será mais fácil se você usar o mesmo conjunto de portas em todos os seus servidores.
 
-## <a name="configure-a-quality-of-service-policy-in-skype-for-business-server-for-your-conferencing-application-and-mediation-servers"></a>Configurar uma política de qualidade de serviço no Skype para Business Server para os servidores de mediação, aplicativo e conferência
+## <a name="configure-a-quality-of-service-policy-in-skype-for-business-server-for-your-conferencing-application-and-mediation-servers"></a>Configurar uma política de qualidade de serviço no Skype for Business Server para seus servidores de conferência, aplicativo e mediação
 
-Configurando intervalos de portas facilita o uso de qualidade de serviço, garantindo que todo o tráfego de um tipo especificado (por exemplo, todo o tráfego áudio) passa pelo mesmo conjunto de portas. Isso facilita para o sistema identificar e marcar um determinado pacote: se a porta 49152 é reservada para o tráfego de áudio, então qualquer pacote viajando por porta 49152 pode ser marcado com um código DSCP que indica que este é um pacote de áudio. Por sua vez, isso permite que os roteadores identificar o pacote como um pacote de áudio e dê a ela uma prioridade maior que pacotes desmarcados (por exemplo, pacotes usados para copiar um arquivo de um servidor para outro).
+A configuração de intervalos de porta facilita o uso da qualidade do serviço, garantindo que todo o tráfego de um tipo especificado (por exemplo, todo o tráfego de áudio) Percorra o mesmo conjunto de portas. Isso torna mais fácil para o sistema identificar e marcar um determinado pacote: se a porta 49152 for reservada para o tráfego de áudio, qualquer pacote que viajar pela porta 49152 poderá ser marcado com um código DSCP que indica que esse é um pacote de áudio. Em seguida, isso permite aos roteadores identificar o pacote como um pacote de áudio e dar a ele uma prioridade mais alta do que os pacotes não marcados (como pacotes usados para copiar um arquivo de um servidor para outro).
 
-No entanto, o restringir simplesmente um conjunto de portas para um tipo específico de tráfego não resultar em pacotes viajando através das portas que sejam marcadas com o código DSCP apropriado. Além de definir intervalos de porta, você também deve criar políticas de qualidade de serviço que especificam o código DSCP a ser associado a cada intervalo de portas. Para Skype para Business Server, que geralmente significa criando duas diretivas: uma para áudio e outra para vídeo.
+No entanto, simplesmente restringir um conjunto de portas a um tipo específico de tráfego não resulta em pacotes sendo transmitidos por essas portas sendo marcadas com o código DSCP apropriado. Além de definir intervalos de porta, você também deve criar políticas de qualidade de serviço que especificam o código DSCP a ser associado a cada intervalo de porta. Para o Skype for Business Server, isso geralmente significa criar duas políticas: uma para áudio e outra para vídeo.
 
-Qualidade das diretivas de serviço são mais facilmente criado e gerenciado, usando a diretiva de grupo. (Essas políticas a mesmas também podem ser criadas usando diretivas de segurança local. No entanto, que requer a repita o mesmo procedimento em cada computador.) O conjunto inicial de políticas de QoS (um para áudio) e outro para vídeo deve ser aplicado apenas ao Skype para computadores Business Server executando o servidor de conferência, servidor de aplicativos e/ou os serviços de servidor de mediação. Se todos esses computadores estiverem localizados na mesma UO Active Directory, você pode simplesmente atribuir o novo objeto de diretiva de grupo (GPO) a essa UO. Como alternativa, você pode seguir outras etapas para direcionar a nova política aos computadores especificados; Por exemplo, você pode colocar os computadores adequados em um grupo de segurança e use a filtragem de segurança de diretiva de grupo para aplicar o GPO apenas a esse grupo de segurança.
+As políticas de qualidade de serviço são criadas de forma mais fácil e gerenciadas por meio da política de grupo. Essas mesmas políticas também podem ser criadas usando-se as políticas de segurança local. No entanto, isso exige que você repita o mesmo procedimento em cada computador e em cada computador.) Seu conjunto inicial de políticas de QoS (uma para áudio e outro para vídeo) só deve ser aplicado a computadores com o Skype for Business Server que executam os serviços servidor de conferência, servidor de aplicativos e/ou servidor de mediação. Se todos esses computadores estiverem localizados na mesma UO do Active Directory, você pode simplesmente atribuir o novo objeto de política de grupo (GPO) a essa OU. Você também pode executar outras etapas para direcionar a nova política para os computadores especificados; por exemplo, você pode colocar os computadores apropriados em um grupo de segurança e, em seguida, usar a filtragem de segurança de política de grupo para aplicar o GPO apenas a esse grupo de segurança.
 
-Para criar uma política de qualidade de serviço de gerenciamento de áudio, faça logon em um computador no qual o gerenciamento de diretiva de grupo tenha sido instalado. Abra Gerenciamento de diretiva de grupo (clique em **Iniciar**, aponte para **Ferramentas administrativas**e clique em **Gerenciamento de diretiva de grupo**) e conclua o procedimento a seguir:
+Para criar uma política de qualidade de serviço para o gerenciamento de áudio, faça logon em um computador onde o gerenciamento de política de grupo foi instalado. Abra gerenciamento de política de grupo (clique em **Iniciar**, aponte para **Ferramentas administrativas**e clique em **Gerenciamento de política de grupo**) e, em seguida, conclua o seguinte procedimento:
 
-1.  Em gerenciamento de diretiva de grupo, localize o contêiner onde a nova diretiva deve ser criada. Por exemplo, se todos os seu Skype para computadores Business Server estiverem localizado em uma unidade Organizacional denominada Skype para Business Server, em seguida, a nova diretiva deve ser criada do Skype Business Server ou.
+1.  No gerenciamento de política de grupo, localize o contêiner em que a nova política deve ser criada. Por exemplo, se todos os seus computadores do Skype for Business Server estiverem localizados em uma UO chamada Skype for Business Server, a nova política deve ser criada na OU Skype for Business Server.
 
-2.  Com o botão direito do contêiner apropriado e clique em **criar um GPO neste domínio e vinculá-lo aqui**.
+2.  Clique com o botão direito do mouse no contêiner apropriado e, em seguida, clique em **criar um GPO neste domínio e vincule-o aqui**.
 
-3.  Na caixa de diálogo **Novo GPO** , digite um nome para o novo objeto de diretiva de grupo na caixa **nome** (por exemplo, **Skype para Business Server QoS**) e clique em **Okey**.
+3.  Na caixa de diálogo **novo GPO** , digite um nome para o novo objeto de política de grupo na caixa **nome** (por exemplo, **Skype for Business Server QoS**) e, em seguida, clique em **OK**.
 
-4.  Com o botão direito na política recém criada e clique em **Editar**.
+4.  Clique com o botão direito do mouse na política recém-criada e clique em **Editar**.
 
-5.  No Editor de gerenciamento de diretiva de grupo, expanda **Configuração do computador**, expanda **diretivas**, expanda **Configurações do Windows**, do mouse em **QoS baseada em política**e clique em **Criar nova política**.
+5.  No editor de gerenciamento de política de grupo, expanda **configuração do computador**, expanda **políticas**, expanda **configurações do Windows**, clique com o botão direito do mouse em **QoS baseada em política**e clique em **criar nova política**.
 
-6.  Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política (por exemplo, **Skype para Business Server QoS**) na caixa **nome** . Selecione **Especificar valor de DSCP** e defina o valor para **46**. Deixe **Especificar taxa de aceleração saída** desmarcada e clique em **Avançar**.
+6.  Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política (por exemplo, **Skype for Business Server QoS**) na caixa **nome** . Selecione **especificar valor DSCP** e defina o valor como **46**. Deixe **especificar a taxa** de aceleração de saída desmarcada e clique em **Avançar**.
 
-7.  Na próxima página, certifique-se de que **todos os aplicativos** está selecionada e clique em **Avançar**. Isso simplesmente garante que todos os aplicativos corresponderá pacotes a partir do intervalo de portas especificado com o código DSCP especificado.
+7.  Na página seguinte, verifique se a opção **todos os aplicativos** está selecionada e clique em **Avançar**. Isso simplesmente garante que todos os aplicativos corresponderão aos pacotes do intervalo de porta especificado com o código DSCP especificado.
 
-8.  Na terceira página, certifique-se de que ambas as **qualquer endereço IP de origem e qualquer endereço IP de destino** estão selecionadas e clique em **Avançar**. Estas duas configurações Certifique-se de que os pacotes serão gerenciados independentemente do computador (endereço IP) enviadas nesses pacotes e qual computador (endereço IP) receberá nesses pacotes.
+8.  Na terceira página, verifique se **qualquer endereço IP de origem e qualquer endereço IP de destino** estão selecionados e clique em **Avançar**. Essas duas configurações garantem que os pacotes serão gerenciados independentemente de qual computador (endereço IP) enviou esses pacotes e qual computador (endereço IP) receberá esses pacotes.
 
-9.  Na página quatro, selecione **TCP e UDP** na lista suspensa **, selecione o protocolo que essa política de QoS se aplica** . TCP (Transmission Control Protocol) e UDP (User Datagram Protocol) são os dois protocolos de rede mais comumente usados pelo Skype para Business Server e seus aplicativos cliente.
+9.  Na página quatro, selecione **TCP e UDP** na lista **Selecione o protocolo que esta política de QoS se aplica à** lista suspensa. TCP (Transmission Control Protocol) e UDP (User Datagram Protocol) são os dois protocolos de rede mais comumente usados pelo Skype for Business Server e seus aplicativos cliente.
 
-10. Sob o título, **Especifique o número da porta de origem**, selecione **este ou intervalo de porta de origem**. Na caixa de texto que o acompanha, digite o intervalo de portas reservado para transmissões de áudio. Por exemplo, se você reservadas portas 49152 através de portas 57500 para tráfego de áudio, insira o intervalo de portas usando este formato: **49152:57500**. Clique em **Concluir**.
+10. Em título, **especifique o número da porta de origem**, selecione uma **destas portas de origem ou intervalo**. Na caixa de texto acompanhada, digite o intervalo de porta reservado para transmissões de áudio. Por exemplo, se você reservou portas 49152 pelas portas 57500 para tráfego de áudio, insira o intervalo de porta usando este formato: **49152:57500**. Clique em **Concluir**.
 
 > [!NOTE]  
-> O valor DSCP de 46 é relativamente arbitrário: Embora DSCP 46 é frequentemente usado para marcar os pacotes de áudio, você não precisará usar o DSCP 46 para comunicações de áudio. Se você já implementou QoS e você estiver usando um código DSCP diferente para áudio (por exemplo, 40 de DSCP), você deve configurar sua política de qualidade de serviço para usar esse mesmo código (ou seja, 40 para áudio). Se você estiver implementando apenas agora Quality of Service, é recomendável que você use DSCP 46 para áudio, simplesmente porque esse valor geralmente é usado para marcar os pacotes de áudio.
+> O valor de DSCP de 46 é um pouco arbitrário: embora o DSCP 46 seja usado com frequência para marcar pacotes de áudio, você não precisa usar DSCP 46 para comunicações de áudio. Se você já implementou o QoS e estiver usando um código DSCP diferente para áudio (por exemplo, DSCP 40), configure sua política de qualidade de serviço para usar esse mesmo código (ou seja, 40 para áudio). Se você estiver agora implementando a qualidade do serviço, é recomendável usar o DSCP 46 para áudio, simplesmente porque esse valor é comumente usado para marcar pacotes de áudio.
 
-Depois que você criou a política de QoS para o tráfego de áudio, você deve criar uma segunda política para o tráfego de vídeo (e, opcionalmente, uma terceira política para gerenciar o tráfego de compartilhamento de aplicativo). Para criar uma política para vídeo, siga o mesmo procedimento básico que seguiu quando criar a política de áudio, tornando essas substituições:
+Depois de criar a política de QoS para o tráfego de áudio, você deve criar uma segunda política para o tráfego de vídeo (e, opcionalmente, uma terceira política para gerenciar o tráfego de compartilhamento de aplicativos). Para criar uma política de vídeo, siga o mesmo procedimento básico que você seguiu ao criar a política de áudio, como fazer essas substituições:
 
-  - Use um nome de política diferente (e único) (por exemplo, **Skype para Business Server vídeo**).
+  - Use um nome de política diferente (e exclusivo) (por exemplo, **vídeo do Skype for Business Server**).
 
-  - Defina o valor DSCP para **34** , em vez de 46. (Observe que você não precisa usar um valor DSCP de 34. O único requisito é que você use um valor DSCP diferente para vídeo que você usou para áudio.)
+  - Defina o valor de DSCP para **34** em vez de 46. (Observe que você não precisa usar um valor de DSCP de 34. O único requisito é que você use um valor DSCP diferente para vídeo do que o usado para áudio.)
 
-  - Use o intervalo de portas previamente configurados para o tráfego de vídeo. Por exemplo, se você tiver reservadas portas 57501 a 65535 para vídeo, defina o intervalo de portas a esta: **57501:65535**.
+  - Use o intervalo de porta configurado anteriormente para o tráfego de vídeo. Por exemplo, se você reservou portas de 57501 a 65535 para vídeo, defina o intervalo de porta para isso: **57501:65535**.
 
-Se você decidir criar uma política para gerenciar o tráfego de compartilhamento de aplicativo, você deve criar uma terceira política, fazendo as seguintes substituições:
+Se você decidir criar uma política para gerenciar o tráfego de compartilhamento de aplicativos, deverá criar uma terceira política, fazer as seguintes substituições:
 
-  - Use um nome de política diferente (e único) (por exemplo, **Skype para compartilhamento de aplicativos do Business Server**).
+  - Use um nome de política diferente (e exclusivo) (por exemplo, **compartilhamento de aplicativos do Skype for Business Server**).
 
-  - Defina o valor DSCP para **24** em vez de 46. (Novamente, você não precisará usar um valor DSCP de 24. O único requisito é que você use um valor DSCP diferente para compartilhamento de aplicativos que você usou para áudio ou vídeo.)
+  - Defina o valor de DSCP para **24** em vez de 46. (Novamente, você não precisa usar um valor de DSCP de 24. O único requisito é que você use um valor DSCP diferente para compartilhamento de aplicativos do que usou para áudio ou vídeo.)
 
-  - Use o intervalo de portas previamente configurados para o tráfego de vídeo. Por exemplo, se você tiver reservadas portas 40803 através de 49151 para compartilhamento de aplicativos, defina o intervalo de portas a esta: **40803:49151**.
+  - Use o intervalo de porta configurado anteriormente para o tráfego de vídeo. Por exemplo, se você reservou portas de 40803 a 49151 para compartilhamento de aplicativos, defina o intervalo de porta como: **40803:49151**.
 
-As novas políticas que você criou não terão efeito até que a diretiva de grupo tenha sido atualizada no seu Skype para computadores Business Server. Embora a Política de Grupo seja periodicamente atualizada por si só, você pode forçar a atualização imediata executando o comando a seguir em cada computador em que a Política de Grupo deve ser atualizada:
+As novas políticas que você criou não entrarão em vigor até que a política de grupo seja atualizada em seus computadores com o Skype for Business Server. Embora a Política de Grupo seja periodicamente atualizada por si só, você pode forçar a atualização imediata executando o comando a seguir em cada computador em que a Política de Grupo deve ser atualizada:
 
     Gpupdate.exe /force
 
-Este comando pode ser executado de dentro do Skype do Shell de gerenciamento do servidor de negócios ou de qualquer janela de comando que está sendo executado em credenciais de administrador. Para executar uma janela de comando com credenciais de administrador, clique em **Iniciar**, clique com o botão direito do mouse em **Prompt de Comando** e clique em **Executar como administrador**.
+Esse comando pode ser executado no Shell de gerenciamento do Skype for Business Server ou em qualquer janela de comando que esteja em execução em credenciais de administrador. Para executar uma janela de comando com credenciais de administrador, clique em **Iniciar**, clique com o botão direito do mouse em **Prompt de Comando** e clique em **Executar como administrador**.
 
 Para verificar se as novas políticas de QoS foram aplicadas, faça o seguinte:
 
-1.  Em um Skype para computador Business Server, clique em **Iniciar**e, em seguida, clique em **Executar**.
+1.  Em um computador com o Skype for Business Server, clique em **Iniciar**e, em seguida, clique em **executar**.
 
-2.  Na caixa de diálogo **Executar** , digite **regedit**e pressione ENTER.
+2.  Na caixa de diálogo **executar** , digite **regedit**e pressione Enter.
 
-3.  No Editor do registro, expanda o **computador**, **HKEY\_LOCAL\_máquina**, expanda **SOFTWARE**, expanda **diretivas**, expanda **Microsoft**, expanda **Windows**e clique em **QoS**. Em **QoS** , você verá chaves do registro para cada uma das políticas de QoS que você acabou de criar. Por exemplo, se você criou duas novas diretivas (um nomeado Skype para QoS de áudio do servidor de negócios) e a outro nomeado Skype para QoS de vídeo do Business Server, você deverá ver entradas do registro para Skype para QoS de áudio do servidor de negócios e Skype para QoS de vídeo do servidor de negócios.
+3.  No editor do registro, expanda **computador**, expanda a **máquina local\_\_hKey**, expanda **software**, expanda **políticas**, expanda **Microsoft**, expanda **Windows**e clique em **QoS**. Em **QoS** , você verá chaves do registro para cada uma das políticas de QoS que você acabou de criar. Por exemplo, se você tiver criado duas novas políticas (uma chamada de QoS de áudio do Skype for Business Server e outra chamada de QoS de vídeo do Skype for Business Server), verá entradas do registro para o QoS de áudio do Skype for Business Server e a QoS de vídeo do Skype for Business Server.
 
-Para ajudar a garantir que os pacotes de rede sejam marcados com o valor DSCP apropriado, você também deve criar uma nova entrada de registro em cada computador, Concluindo o seguinte procedimento:
+Para ajudar a garantir que os pacotes de rede sejam marcados com o valor DSCP apropriado, você também deve criar uma nova entrada de registro em cada computador completando o seguinte procedimento:
 
 1.  Clique em  **Iniciar ** e em  **Executar **.
 
-2.  Na caixa de diálogo **Executar** , digite **regedit**e pressione ENTER.
+2.  Na caixa de diálogo **executar** , digite **regedit**e pressione Enter.
 
-3.  No Editor do registro, expanda **HKEY\_LOCAL\_máquina**, expanda **SYSTEM**, expanda **CurrentControlSet**, expanda **Serviços**e depois expanda **Tcpip**.
+3.  No editor do registro, expanda **\_hKey\_local Machine**, expanda **System**, expanda **CurrentControlSet**, expanda **Services**e, em seguida, expanda **tcpip**.
 
-4.  Clique com o botão **Tcpip**, aponte para **novo**e clique em **chave**. Depois que a nova chave do registro é criada, digite **QoS**e pressione ENTER para renomear a chave.
+4.  Clique com o botão direito do mouse em **tcpip**, aponte para **novo**e, em seguida, clique em **tecla**. Após a criação da nova chave do registro, digite **QoS**e pressione ENTER para renomear a chave.
 
-5.  Com o botão direito **QoS**, aponte para **novo**e clique em **Valor de cadeia de caracteres**. Depois que o novo valor do registro é criado, digite **não use NLA**e pressione ENTER para renomear o valor.
+5.  Clique com o botão direito do mouse em **QoS**, aponte para **novo**e clique em **valor da cadeia de caracteres**. Depois que o novo valor do registro for criado, digite não **use NLA**e pressione ENTER para renomear o valor.
 
-6.  Clique duas vezes em **não use NLA**. Na caixa de diálogo **Editar cadeia de caracteres** , digite **1** na caixa **dados do valor** e clique em **Okey**.
+6.  Clique duas vezes em **não usar NLA**. Na caixa de diálogo **Editar Cadeia de caracteres** , digite **1** na caixa **dados do valor** e clique em **OK**.
 
-7.  Feche o Editor do registro e reinicie seu computador.
+7.  Feche o editor do registro e reinicie o computador.

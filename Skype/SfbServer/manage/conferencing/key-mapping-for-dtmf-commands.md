@@ -1,29 +1,29 @@
 ---
-title: Gerenciar o mapeamento de teclas para comandos DTMF no Skype para Business Server
+title: Gerenciar o mapeamento de teclas para comandos DTMF no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: 'Resumo: Saiba como gerenciar o mapeamento de teclas dos comandos de multifrequência de tom DTMF (Multifrequência) no Skype para Business Server.'
-ms.openlocfilehash: e90e51bfb3c7c66524e10f7e4428c5bfe36fdcc9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como gerenciar o mapeamento de chave de comandos de multifrequência (DTMF) de dois tons no Skype for Business Server.'
+ms.openlocfilehash: 713c72941a8cc147b751c82b9dbbfbc2c2d16837
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919470"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283757"
 ---
-# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Gerenciar o mapeamento de teclas para comandos DTMF no Skype para Business Server
+# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Gerenciar o mapeamento de teclas para comandos DTMF no Skype for Business Server
  
-**Resumo:** Saiba como gerenciar o mapeamento de teclas dos comandos de multifrequência de tom DTMF (Multifrequência) no Skype para Business Server.
+**Resumo:** Saiba como gerenciar o mapeamento de chave de comandos de multifrequência (DTMF) de dois tons no Skype for Business Server.
   
 Os usuários de conferência discada podem pressionar teclas no teclado do telefone para executar comandos DTMF (multifrequência de tom dual). Comandos DTMF permitem que os usuários que discam para uma conferência controlem as configurações da conferência (como ativar ou desativar o próprio microfone, ou bloquear e desbloquear a conferência) pelo teclado do telefone. 
   
-Para gerenciar as teclas usadas para os comandos DTMF, use o Skype do Shell de gerenciamento de servidor de negócios com o **Get-CsDialinConferencingDtmfConfiguration**, **Set-CsDialinConferencingDtmfConfiguration**e ** New-CsDialinConferencingDtmfConfiguration** cmdlets.
+Para gerenciar as chaves usadas para os comandos DTMF, use o Shell de gerenciamento do Skype for Business Server com **Get-CsDialinConferencingDtmfConfiguration**, **set-CsDialinConferencingDtmfConfiguration**e ** Cmdlets New-CsDialinConferencingDtmfConfiguration** .
   
 Ao criar novas configurações DTMF para sites, as configurações do site têm precedência sobre as configurações globais. 
 
@@ -57,6 +57,6 @@ O seguinte exemplo troca a tecla pressionada para habilitar ou desabilitar os an
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 
-Para obter mais informações, consulte [New-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps), [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)e [Get-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps).
+Para obter mais informações, consulte [Get-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps), [set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)e [New-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps).
   
 

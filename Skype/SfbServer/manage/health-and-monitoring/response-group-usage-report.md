@@ -1,27 +1,27 @@
 ---
-title: Relatório de uso do grupo de resposta no Skype para Business Server
+title: Relatório de uso do grupo de resposta no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
-description: 'Resumo: Saiba mais sobre o aplicativo de grupo de resposta no Skype para Business Server.'
-ms.openlocfilehash: 0638c6d6ab6718e3974a41701c75b21b2600504e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o aplicativo de grupo de resposta no Skype for Business Server.'
+ms.openlocfilehash: 6154a1e2d2407f3e7fe6f8eaf9527567724220fd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897594"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279841"
 ---
-# <a name="response-group-usage-report-in-skype-for-business-server"></a>Relatório de uso do grupo de resposta no Skype para Business Server
+# <a name="response-group-usage-report-in-skype-for-business-server"></a>Relatório de uso do grupo de resposta no Skype for Business Server
 
-**Resumo:** Saiba mais sobre o aplicativo de grupo de resposta no Skype para Business Server.
+**Resumo:** Saiba mais sobre o aplicativo de grupo de resposta no Skype for Business Server.
 
-Aplicativo grupo de resposta fornece uma maneira de Skype para Business Server atender e rotear as chamadas telefônicas com base no número discado e, opcionalmente, em que as respostas do chamador para uma série de perguntas. Geralmente, as chamadas do Grupo de Resposta não são encaminhadas a uma pessoa específica, mas sim para uma equipe de pessoas referida como grupo de agentes. Por exemplo, se alguém liga para o número de telefone para seu help desk, Skype para Business Server pode rotear automaticamente chamada ao primeiro operador mesa ajuda disponíveis. Como alternativa, Skype para Business Server pode pedir que uma série de perguntas ("Pressione 1 se você estiver tendo problemas de hardware. Pressione 2 se tiver problemas de software. Pressione 3 se você estiver tendo problemas de rede."), e então rotear a chamada para o agente de mesa ajuda mais apropriada com base na responder a essas perguntas.
+O aplicativo grupo de resposta fornece uma maneira para que o Skype for Business Server atenda e encaminhe chamadas telefônicas com base no número que foi discado e, opcionalmente, nas respostas do chamador para uma série de perguntas. Geralmente, as chamadas do Grupo de Resposta não são encaminhadas a uma pessoa específica, mas sim para uma equipe de pessoas referida como grupo de agentes. Por exemplo, se alguém ligar para o número de telefone de seu suporte técnico, o Skype for Business Server poderá direcionar automaticamente essa chamada para o primeiro agente de suporte técnico disponível. Como alternativa, o Skype for Business Server poderia fazer uma série de perguntas ("Pressione 1 se estiver com problemas de hardware. Pressione 2 se tiver problemas de software. Pressione 3 se você estiver com problemas de rede. ") e, em seguida, encaminhe a chamada para o agente de suporte técnico mais apropriado com base na resposta a essas perguntas.
 
 O Relatório de Uso de Grupo de Resposta oferece uma visão detalhada do número de chamadas telefônicas recebidas por todos os fluxos de trabalho do Grupo de Resposta e decompõe essas chamadas em categorias mais restritas, como Chamadas oferecidas, Chamadas respondidas e Chamadas abandonadas.
 
@@ -45,7 +45,7 @@ O Relatório de Uso do Grupo de Resposta permite que você filtre em um URI de f
 
 ## <a name="accessing-the-response-group-usage-report"></a>Acessando o Relatório de Uso do Grupo de Resposta
 
-O Relatório de Uso do Grupo de Resposta é acessado pela home page Relatórios de Monitoramento. Você pode chegar a [Resposta grupo Call List Report no Skype para Business Server](call-list-report.md) clicando em qualquer uma das seguintes métricas:
+O Relatório de Uso do Grupo de Resposta é acessado pela home page Relatórios de Monitoramento. Você pode fazer uma busca detalhada no [relatório de lista de chamadas em grupo de resposta no Skype for Business Server](call-list-report.md) clicando em qualquer uma das seguintes métricas:
 
 - Chamadas recebidas
 
@@ -62,13 +62,13 @@ O Relatório de Uso do Grupo de Resposta é acessado pela home page Relatórios 
 Um dos usos mais interessantes do Relatório de Uso do Grupo de Resposta pode não estar imediatamente aparente: a capacidade de recuperar informações de uso de um fluxo de trabalho individual do Grupo de Resposta.
 
 > [!CAUTION]
-> Um fluxo de trabalho do grupo de resposta é, basicamente, um conjunto de instruções que determina o que significa Skype para Business Server quando um usuário disca um determinado número de telefone. Para isso, cada fluxo de trabalho é associado exclusivamente a um número de telefone. Quando alguém liga para o número, o fluxo de trabalho determina como a chamada será tratada. Por exemplo, o fluxo de trabalho pode fazer com que a chamada seja roteada para uma série de perguntas de resposta interativa de voz (IVR), que solicitam que o chamador especifique informações adicionais ("Pressione 1 para suporte de hardware. Pressione 2 para suporte de software"). Como alternativa, o fluxo de trabalho pode fazer com que a chamada seja colocada em uma fila e o chamador colocado em espera até que um agente esteja disponível para atender a chamada. A disponibilidade dos agentes para atender chamadas também é determinada pelo fluxo de trabalho: eles são usados para configurar as horas comerciais (os dias da semana e as horas do dia em que os agentes estão disponíveis para atender chamadas) e feriados (dias em que nenhum agente está disponível para atender chamadas). Sempre que você liga para um número de telefone que pertence ao aplicativo Grupo de Resposta, você está essencialmente ligando para um fluxo de trabalho do Grupo de Resposta. 
+> Um fluxo de trabalho de grupo de resposta é basicamente um conjunto de instruções que determina o que o Skype for Business Server faz quando um usuário disca para um número de telefone específico. Para isso, cada fluxo de trabalho é associado exclusivamente a um número de telefone. Quando alguém liga para o número, o fluxo de trabalho determina como a chamada será tratada. Por exemplo, o fluxo de trabalho pode fazer com que a chamada seja roteada para uma série de perguntas de resposta interativa de voz (IVR), que solicitam que o chamador especifique informações adicionais ("Pressione 1 para suporte de hardware. Pressione 2 para suporte de software"). Como alternativa, o fluxo de trabalho pode fazer com que a chamada seja colocada em uma fila e o chamador colocado em espera até que um agente esteja disponível para atender a chamada. A disponibilidade dos agentes para atender chamadas também é determinada pelo fluxo de trabalho: eles são usados para configurar as horas comerciais (os dias da semana e as horas do dia em que os agentes estão disponíveis para atender chamadas) e feriados (dias em que nenhum agente está disponível para atender chamadas). Sempre que você liga para um número de telefone que pertence ao aplicativo Grupo de Resposta, você está essencialmente ligando para um fluxo de trabalho do Grupo de Resposta. 
 
 Embora os URIs de fluxo de trabalho não sejam exibidos no Relatório de Uso do Grupo de Resposta, ainda é possível exibir as estatísticas de uso de um fluxo de trabalho individual, algo que sempre é extremamente útil. Por exemplo, suponhamos que você tenha divulgado uma nova campanha publicitária e esteja curioso para saber se as pessoas estão ligando para se informar sobre o produto. Se o fluxo de trabalho do Grupo de Resposta tiver sido associado ao número de telefone dado na campanha publicitária, será possível verificar com facilidade quantas pessoas (se houverem) estão ligando para o número.
 
 É possível também usar uma abordagem semelhante para medir o número de chamadas que estão sendo tratadas pelo suporte técnico interno ou pelo departamento de atendimento ao cliente.
 
-Para revisar as estatísticas de uso de determinado fluxo de trabalho, insira o URI do fluxo de trabalho na caixa URI do Fluxo de Trabalho. Obviamente, como observado, os URIs do fluxo de trabalho (o endereço SIP associado a um fluxo de trabalho) não são exibidos no relatório. Isso significa que é preciso encontrar uma forma de determinar o URI de um fluxo de trabalho. Uma maneira de fazer isso é usar o Windows PowerShell e do Skype do Shell de gerenciamento do servidor de negócios. Por exemplo, este comando retorna todos os URIs de todos os fluxos de trabalho do Grupo de Resposta:
+Para revisar as estatísticas de uso de determinado fluxo de trabalho, insira o URI do fluxo de trabalho na caixa URI do Fluxo de Trabalho. Obviamente, como observado, os URIs do fluxo de trabalho (o endereço SIP associado a um fluxo de trabalho) não são exibidos no relatório. Isso significa que é preciso encontrar uma forma de determinar o URI de um fluxo de trabalho. Uma maneira de fazer isso é usar o Windows PowerShell e o Shell de gerenciamento do Skype for Business Server. Por exemplo, este comando retorna todos os URIs de todos os fluxos de trabalho do Grupo de Resposta:
 
 ```
 Get-CsRgsWorkflow | Select-Object Name, PrimaryUri

@@ -4,40 +4,40 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
-description: 'Resumo: Saiba mais sobre a operação de executar consulta, que é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: a979ea7d8202365e939e075c2628ca4f3987fa63
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre a operação executar consulta, que faz parte da API de dados para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
+ms.openlocfilehash: 0b4c44c93009e014579a53872de82297c1486573
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914951"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274559"
 ---
 # <a name="run-query"></a>Executar Consulta
 
-**Resumo:** Saiba mais sobre a operação de executar consulta, que é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
+**Resumo:** Saiba mais sobre a operação executar consulta, que faz parte da API de dados para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
 
-A operação de executar consulta é parte da API de dados para o painel de qualidade de chamada.
+A operação executar consulta faz parte da API de dados para o painel de qualidade da chamada.
 
 ## <a name="run-query"></a>Executar Consulta
 
-Execute a consulta operação fornece a capacidade de executar uma consulta no cubo com base em filtros, medidas e dimensões especificadas e retornar os dados de volta.
+Executar a operação de consulta fornece a capacidade de executar uma consulta no cubo com base em dimensões, medidas e filtros especificados e retornar os dados.
 
 
-|**Método**|**URI de solicitação**|**Versão de HTTP**|
+|**Forma**|**URI de solicitação**|**Versão HTTP**|
 |:-----|:-----|:-----|
-|Postar  <br/> |https://\<portal\>/QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
+|Postar  <br/> |https://\<do\>portal de/QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
 
- **Parâmetros URI** - None.
+ **Parâmetros de URI** -nenhum.
 
- **Cabeçalhos de solicitação** - sem cabeçalhos adicionais.
+ **Solicitar cabeçalhos** -sem cabeçalhos adicionais.
 
- **Corpo da solicitação** - aqui é uma carga de solicitação de amostra em JSON. Ele contém dimensões, filtros e medida necessária para uma consulta.
+ **Corpo da solicitação** -aqui está um exemplo de carga de solicitação em JSON. Ele contém dimensões, filtros e medidas necessárias para uma consulta.
 
 ```
 {
@@ -72,21 +72,21 @@ Execute a consulta operação fornece a capacidade de executar uma consulta no c
 }
 ```
 
- *Filtros* - uma lista de expressões de filtro a ser aplicado, de forma que o conjunto de dados resultante refletirão apenas o subconjunto dos dados interessantes.
+ *Filtros* -uma lista de expressões de filtro a ser aplicada de forma que o conjunto de dados resultante reflita apenas o subconjunto dos dados que são de interesse.
 
- *Dimensões* - uma lista de dimensões que será usado para os dados de agregação. Pelo menos uma dimensão é necessária mas várias dimensões podem ser especificados para obter um nível adicional de agregações subsites.
+ *Dimensões* -uma lista de dimensões que será usada para agregar os dados. Pelo menos uma dimensão é necessária, mas várias dimensões podem ser especificadas para obter um nível adicional de subagregações.
 
- *Medições* - uma lista de medidas, também conhecido como fatos, que são as métricas desejadas a ser agregado baseadas nas dimensões especificadas por você.
+ *Medições* – uma lista de medições, também conhecidas como fatos, que são as métricas desejadas a serem agregadas com base nas dimensões que você especificou.
 
- *Tendência* - instruções de controle adicional para personalizar os dados resultantes.
+ *Tendência* -instruções de controle adicionais para personalizar os dados do resultado.
 
- **Resposta** - a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
+ **Resposta** -a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
 
- **Código de status** - uma operação bem-sucedida retorna o código de status 200 (Okey).
+ **Código de status** -uma operação bem-sucedida retorna o código de status 200 (OK).
 
- **Cabeçalhos de resposta** - sem cabeçalhos adicionais.
+ **Cabeçalhos de resposta** -sem cabeçalhos adicionais.
 
- **Corpo de resposta** - abaixo é uma carga de resposta de exemplo em JSON. Ele contém uma tabela de dados que contém os dados, também conterá um metadados, que mostra o tempo de execução de consulta e se são ou não os dados do cache.
+ **Corpo da resposta** -abaixo está uma carga de resposta de exemplo em JSON. Ele contém uma tabela de dados que contém os dados; além disso, ele conterá um metadados, que mostra o tempo de execução da consulta e se os dados são do cache.
 
 ```
 {
@@ -121,8 +121,8 @@ Execute a consulta operação fornece a capacidade de executar uma consulta no c
 }
 ```
 
- *Tempo de execução* - o tempo total necessário para que o servidor retornar os dados. Isso pode ou não pode envolver cache.
+ *Tempo de execução* – o tempo total necessário para que o servidor retorne os dados. Isso pode ou não incluir o cache.
 
- *Resultado de dados* - o resultado da consulta. É uma matriz bidimensional que contém todas as permutas dos membros das dimensões e cada elemento contendo nomes de membros das dimensões, bem como os valores agregados das medidas especificados.
+ *Resultado dos dados* -o resultado da consulta. É uma matriz bidimensional contendo todas as permutações de membros das dimensões e cada elemento que contém os nomes dos membros das dimensões, bem como os valores agregados das medidas especificadas.
 
- *Resultado é o Cache de* - de diagnósticos. Indica se o resultado provém do cache ou do cubo QoE.
+ O *resultado é do cache* -para diagnóstico. Indica se o resultado veio do cache ou do cubo de QoE.

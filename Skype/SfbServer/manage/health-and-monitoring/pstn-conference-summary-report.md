@@ -1,27 +1,27 @@
 ---
-title: Conferência relatório de resumo PSTN em Skype para Business Server
+title: Relatório de Resumo de conferência PSTN no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-description: 'Resumo: Saiba mais sobre o PSTN conferência relatório de resumo no Skype para Business Server.'
-ms.openlocfilehash: 29395fe2cbaf8bf82d89c7d1fae50542c5917e39
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de Resumo de conferências PSTN no Skype for Business Server.'
+ms.openlocfilehash: 8b8b108243e257c414e9d6bb101e69fc9701d82e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925205"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279981"
 ---
-# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Conferência relatório de resumo PSTN em Skype para Business Server
+# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Relatório de Resumo de conferência PSTN no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o PSTN conferência relatório de resumo no Skype para Business Server.
+**Resumo:** Saiba mais sobre o relatório de Resumo de conferências PSTN no Skype for Business Server.
   
-Skype para Business Server, uma conferência PSTN é qualquer conferência na qual pelo menos um participante disca para a parte de áudio usando um um telefone PSTN (rede telefônica pública comutada). (Um telefone PSTN é uma "linha de fixa", um telefone celular ou outro telefone que não faz uso de voz sobre IP.) Embora conhecido como conferências PSTN nos relatórios de monitoramento, essas conferências talvez são mais comumente conhecidas como conferências discadas.
+No Skype for Business Server, uma conferência PSTN é qualquer conferência na qual pelo menos um participante disca para a parte de áudio por meio de um telefone PSTN (rede telefônica pública comutada). (Um telefone PSTN é um "telefone fixo", um telefone celular ou qualquer outro telefone que não usa voz sobre IP.) Ainda que sejam chamadas de conferências PSTN nos relatórios de monitoramento, essas conferências talvez sejam mais conhecidas como conferências discadas.
   
 O Relatório de resumo de conferência fornece informações sobre todas as conferências PSTN feitas em sua organização (isto é, todas as conferências que tenham pelo menos um usuário discado). O relatório contém informações sobre o número total de conferências PSTN, total de número de pessoas que participaram nessas conferências e, talvez, o mais importante, o número total de usuários discados (a métrica de Total de participantes PSTN).
   
@@ -31,9 +31,9 @@ O Relatório de resumo de conferência PSTN pode ser acessado apenas da página 
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>Como usar melhor o Relatório de resumo de conferência PSTN
 
-Para determinar a porcentagem de todas as conferências que incluem usuários discados, compare o valor da métrica de conferências da PSTN Total com a métrica de Total de conferências, encontrada no [Conference Summary Report no Skype para Business Server](conference-summary-report.md).
+Para determinar a porcentagem de todas as suas conferências que incluem usuários de discagem, compare o valor da métrica total de conferências PSTN com a métrica de conferências total encontrada no [relatório de Resumo de conferências no Skype for Business Server](conference-summary-report.md).
   
-Se você não vir o número de conferências PSTN que esperava ver, saiba que a capacidade de organizar uma conferência que permita usuários discados depende da política de conferência que foi atribuída a um usuário: se poucos usuários tiverem permissão para hospedar conferências PSTN, você obviamente verá poucas conferências PSTN. Você pode verificar rapidamente a qual das suas políticas de conferência (se houver) permitem que os usuários agendem conferências PSTN, executando o seguinte comando dentro do Skype do Shell de gerenciamento do servidor de negócios:
+Se você não vir o número de conferências PSTN que esperava ver, saiba que a capacidade de organizar uma conferência que permita usuários discados depende da política de conferência que foi atribuída a um usuário: se poucos usuários tiverem permissão para hospedar conferências PSTN, você obviamente verá poucas conferências PSTN. Você pode verificar rapidamente quais políticas de conferência (se houver) permitem que os usuários agendem conferências PSTN executando o seguinte comando no Shell de gerenciamento do Skype for Business Server:
   
 ```
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing

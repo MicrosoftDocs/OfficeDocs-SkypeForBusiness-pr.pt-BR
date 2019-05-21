@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,16 +22,16 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 47c6b05ea89b1401a9ef8900f8f3c357b3b3a68a
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 42572abda5c99ff8e21623b88b4f66bc6cfdedd3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868676"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283374"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Plano de Chamadas no Office 365 - Código de tratamento de reclamação no Reino Unido (RU)
 
-Este código se aplica aos clientes de pequenas empresas (organizações com 10 funcionários ou menos) no Reino Unido (Reino Unido) em relação ao serviço Office 365 chamar planejar (o "serviço") de acordo com os regulamentos de comunicação do Reino Unido. Outros serviços do Skype for Business são regidos por seu contrato de serviço com a Microsoft e outros termos aplicáveis ao uso do serviço específico.
+Esse código aplica-se a clientes de pequenas empresas (organizações com 10 funcionários ou menos) no Reino Unido (Reino Unido) em relação ao serviço de plano de chamadas do Office 365 (o "serviço"), de acordo com as regulamentações de comunicação do Reino Unido. Outros serviços do Skype for Business são regidos por seu contrato de serviço com a Microsoft e outros termos aplicáveis ao uso do serviço específico.
 
 ## <a name="how-to-make-a-complaint"></a>Como fazer uma reclamação
 
@@ -39,7 +39,7 @@ A satisfação do cliente é uma prioridade para o Skype for Business. No entant
 
 - Número de telefone de chamada gratuita: 0800 032 6417
 
-- Entrar no Centro de administração do Microsoft 365 online: E enviar uma solicitação de serviço, selecionando **nova solicitação de serviço** sob **suporte**.
+- Online: entre no centro de administração do Microsoft 365 e envie uma solicitação de serviço selecionando **nova solicitação de serviço** em **suporte**.
 
 ## <a name="timelines"></a>Linhas do tempo
 
@@ -51,7 +51,7 @@ Se não puder resolver o problema imediatamente, o representante do Skype for Bu
 
 O Skype for Business visa resolver todas as reclamações relacionadas ao Serviço no prazo de sete (7) dias úteis após o recebimento.
 
-Se não ficar satisfeito com a maneira na qual seu compatível com relação ao serviço é gerenciado, você poderá solicitar o Skype para representante de negócios manipulação compatível com, por telefone ou email, escalonar a reclamações de acordo com seu contrato de serviço. A Microsoft avaliará a reclamação no prazo de sete (7) dias a contar do recebimento.
+Se você não estiver satisfeito com a maneira como a sua reclamação sobre o serviço é gerenciada, solicite que o representante do Skype for Business trate sua reclamação, por telefone ou e-mail, para encaminhar a reclamação de acordo com o contrato de serviço. A Microsoft avaliará a reclamação no prazo de sete (7) dias a contar do recebimento.
 
 ## <a name="alternative-dispute-resolution"></a>Solução alternativa de controvérsias
 
@@ -63,7 +63,7 @@ Todas as reclamações devem ser enviadas aos Serviços de Ombudsman no prazo de
 
 As etapas para encaminhar uma reclamação aos Serviços de Ombudsman podem ser encontradas no [site](https://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809) de Serviços de Ombudsman.
 
-Você pode acessar os serviços de Ombudsman por preencher um formulário de contato no site dos serviços do Ombudsman ou por telefone, carta ou email:
+Você pode entrar em contato com o Ombudsman Services preenchendo um formulário de contato no site dos serviços ombudsman ou por telefone, carta ou email:
 
 - Formulário de contato: [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
 

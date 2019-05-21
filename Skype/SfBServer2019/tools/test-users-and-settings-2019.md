@@ -5,35 +5,35 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.date: 2/13/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Resumo: Configure contas de usuário de teste e configurações de nó do observador do Skype para transações sintéticas do Business Server.'
-ms.openlocfilehash: 6137d72ce35ffdacaacb85890b387d5f9fc8ab9a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: 'Resumo: configurar as contas de usuário de teste e as configurações de nó de inspetor para transações sintéticas do Skype for Business Server.'
+ms.openlocfilehash: 0da038f90538cce62f2e811471a2ebc8ba685fb2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897483"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284064"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Configurar usuários de teste e configurações do nó do inspetor
  
-**Resumo:** Configure contas de usuário de teste e configurações de nó do observador do Skype para transações sintéticas do Business Server.
+**Resumo:** Configurar as contas de usuário de teste e as configurações de nó de inspetor para transações sintéticas do Skype for Business Server.
   
 Depois de configurar o computador que atuará como um nó do inspetor, você deve:
   
-1. [Configurar contas de usuário de teste](test-users-and-settings-2019.md#testuser) a ser usado por esses nós do observador. Se estiver usando o método de autenticação Negociar, você também deve usar o cmdlet **Set-CsTestUserCredential** para permitir o uso dessas contas de teste no nó do inspetor.
+1. [Configure as contas de usuário de teste](test-users-and-settings-2019.md#testuser) a serem usadas por estes nós do Inspetor. Se estiver usando o método de autenticação Negociar, você também deve usar o cmdlet **Set-CsTestUserCredential** para permitir o uso dessas contas de teste no nó do inspetor.
     
 2. Atualizar as definições de configuração do nó do inspetor.
     
 ## <a name="configure-test-user-accounts"></a>Configurar contas de usuário de teste
 <a name="testuser"> </a>
 
-Contas de teste não precisará representam pessoas reais, mas eles devem ser contas válidas do Active Directory. Além disso, essas contas devem ser habilitadas para Skype para Business Server, eles devem ter endereços válidos de SIP e eles devem ser habilitados para o Enterprise Voice (usar a transação sintética de Test-CsPstnPeerToPeerCall). 
+As contas de teste não precisam representar pessoas reais, mas devem ser contas válidas do Active Directory. Além disso, essas contas devem ser habilitadas para o Skype for Business Server, devem ter endereços SIP válidos e devem ser habilitadas para Enterprise Voice (para usar a transação sintética test-CsPstnPeerToPeerCall). 
   
-Se você estiver usando o método de autenticação TrustedServer, tudo o que você precisa fazer é certificar-se de que essas contas existem e configurá-las como observado. É necessário atribuir pelo menos três usuários de teste a cada pool que deseja testar. Se você estiver usando o método de autenticação negociar, você também deve usar o cmdlet Set-CsTestUserCredential e do Skype para Business Server Management Shell habilitar essas contas para trabalhar com as transações sintéticas de teste. Fazer isso executando um comando semelhante ao seguinte (esses comandos assumem que as três contas de usuário do Active Directory foram criadas e que essas contas estão habilitadas para Skype para Business Server):
+Se você estiver usando o método de autenticação TrustedServer, tudo o que você precisa fazer é certificar-se de que essas contas existem e configurá-las como observado. É necessário atribuir pelo menos três usuários de teste a cada pool que deseja testar. Se você estiver usando o método de autenticação Negotiate, também deverá usar o cmdlet Set-CsTestUserCredential e o Shell de gerenciamento do Skype for Business Server para permitir que essas contas de teste funcionem com as transações sintéticas. Faça isso executando um comando semelhante ao seguinte (estes comandos pressupõem que as três contas de usuário do Active Directory foram criadas e que essas contas estão habilitadas para o Skype for Business Server):
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -43,7 +43,7 @@ Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "li
 
 É necessário incluir não apenas o endereço SIP, mas também o nome e a senha do usuário. Se você não incluir a senha, o cmdlet Set-CsTestUserCredential solicitará que você insira essas informações. O nome de usuário pode ser especificado usando-se o formato de nome de domínio\nome de usuário indicado no bloqueio do código anterior.
   
-Para verificar se as credenciais de usuário de teste foram criadas, execute estes comandos do Skype do Shell de gerenciamento do servidor de negócios:
+Para verificar se as credenciais do usuário de teste foram criadas, execute esses comandos do Shell de gerenciamento do Skype for Business Server:
   
 ```
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
@@ -53,9 +53,9 @@ Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
 
 Informações semelhantes a estas devem ser retornadas para cada usuário:
   
-|**Nome de usuário**|**Senha**|
+|**Nome de usuário**|**Passe**|
 |:-----|:-----|
-|Litwareinc\watcher1  <br/> |System.Security.SecureString  <br/> |
+|Litwareinc\watcher1  <br/> |System. Security. SecureString  <br/> |
    
 ### <a name="configure-a-basic-watcher-node-with-the-default-synthetic-transactions"></a>Configurar um nó básico do inspetor com as transações sintéticas padrão
 
@@ -84,7 +84,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
 > [!NOTE]
 > Os resultados desse comando devem ser armazenados em uma variável. Neste exemplo, é uma variável chamada de $pstnTest. 
   
-Em seguida, você pode usar o cmdlet **New-CsWatcherNodeConfiguration** para associar o tipo de teste (armazenado na variável $pstnTest) para um Skype para pool de servidores de negócios. Por exemplo, o seguinte comando cria uma nova configuração de nó do inspetor para o pool atl-cs-001.litwareinc.com, adicionando os três usuários de teste que foram criados anteriormente e também adicionando o tipo de teste de PSTN:
+Em seguida, você pode usar o cmdlet **New-CsWatcherNodeConfiguration** para associar o tipo de teste (armazenado na variável $pstnTest) a um pool do servidor do Skype for Business. Por exemplo, o seguinte comando cria uma nova configuração de nó do inspetor para o pool atl-cs-001.litwareinc.com, adicionando os três usuários de teste que foram criados anteriormente e também adicionando o tipo de teste de PSTN:
   
 ```
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
@@ -94,7 +94,7 @@ O comando anterior falhará se você não tiver instalado os arquivos de núcleo
   
 Para testar várias políticas de voz, você pode criar um teste estendido para cada política usando o cmdlet **New-CsExtendedTest**. Os usuários fornecidos devem ser configurados com as políticas de voz desejadas. Os testes estendidos são passados para o cmdlet **New-CsWatcherNodeConfiguration** separados por vírgula, como indicado:
   
--ExtendedTests @{adicionar = US $pstnTest1, $pstnTest2, $pstnTest3}
+-ExtendedTests @ {Add = $pstnTest 1, $pstnTest 2, $pstnTest 3}
   
 Como o cmdlet **New-CsWatcherNodeConfiguration** foi chamado sem usar o parâmetro Tests, isso significa que somente as transações sintéticas Padrão (e a transação sintética estendida especificada) serão ativadas no novo nó do inspetor. Portanto, o nó do inspetor testará os seguintes componentes:
   
@@ -128,7 +128,7 @@ Os seguintes componentes não serão testados por padrão:
     
 - JoinLauncher
     
-- MCXP2PIM (herdado dispositivo móvel mensagens instantâneas)
+- MCXP2PIM (mensagens instantâneas de dispositivo móvel herdado)
     
 - P2PVideoInteropServerSipTrunkAV
     
@@ -186,7 +186,7 @@ Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Ob
 
 O comando anterior retornará informações semelhantes a essa, dependendo das transações sintéticas atribuídas ao nó:
   
-Registro IM GroupIM P2PAV AvConference presença PersistentChatMessage DataConference
+Registration IM GroupIM P2PAV AvConference Presence PersistentChatMessage dataconferência
 > [!TIP]
 > Para exibir as transações sintéticas em ordem alfabética, use este comando: 
   
@@ -202,7 +202,7 @@ Get-CsWatcherNodeConfiguration
 
 Você receberá informações semelhantes a estas:
   
-Identidade: atl-cs-001 TestUsers: {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...} ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...} TargetFqdn: número da porta atl-cs-001: 5061To verificar que o nó do Inspetor foi configurado corretamente, digite o seguinte comando do Skype do Shell de gerenciamento do servidor de negócios:
+Identidade: atl-cs-001.litwareinc.com testusers: {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...} ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...} TargetFqdn: atl-cs-001.litwareinc.com PortNumber: 5061To Verifique se o nó do inspetor foi configurado corretamente, digite o seguinte comando no Shell de gerenciamento do Skype for Business Server:
   
 ```
 Test-CsWatcherNodeConfiguration
@@ -244,7 +244,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabl
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
-Esse comando remove todas as configurações de nó do inspetor do computador especificado, o que impede que o computador execute transações sintéticas automaticamente. No entanto, o comando não desinstala os arquivos de agente do System Center ou o Skype para arquivos de sistema do servidor de negócios.
+Esse comando remove todas as configurações de nó do inspetor do computador especificado, o que impede que o computador execute transações sintéticas automaticamente. No entanto, o comando não desinstala os arquivos do sistema do System Center ou os arquivos do sistema do Skype for Business Server.
   
 Por padrão, os nós do inspetor usam as URLs da Web externas de uma organização durante a realização de seus testes. No entanto, também é possível configurá-los para usar as URLs da Web internas da organização. Isso permite que os administradores verifiquem o acesso a URLs para os usuários localizados dentro da rede de perímetro. Para configurar um nó do inspetor para usar as URLs internas em vez das externas, defina a propriedade UseInternalWebUrls como True ($True):
   
@@ -320,13 +320,13 @@ Para executar essa transação sintética, você deve configurar:
     
 - Números DID (Discagem Interna Direta) para cada conta de usuário.
     
-- Rotas de voz e políticas de VoIP que permitem que chamadas para o número do receptor cheguem ao gateway PSTN.
+- Políticas de VoIP e rotas de voz que permitem que chamadas para o número do destinatário atinjam o gateway PSTN.
     
-- Um gateway PSTN que aceita chamadas e mídia que encaminharão as chamadas de volta ao pool primário de um receptor, com base no número discado.
+- Um gateway PSTN que aceita chamada e mídias que roteiam chamadas de volta para o pool inicial de um receptor, com base no número discado.
     
 ### <a name="unified-contact-store-synthetic-transaction"></a>Transações Sintéticas do Repositório Unificado de Contatos
 
-A transação sintética do repositório unificado de contatos verifica a capacidade do Skype para Business Server recuperar contatos em nome de um usuário do Exchange.
+A transação sintética do repositório de contatos unificado verifica a capacidade do Skype for Business Server para recuperar contatos em nome de um usuário do Exchange.
   
 Para usar essa transação sintética, as seguintes condições devem ser atendidas:
   
@@ -334,13 +334,13 @@ Para usar essa transação sintética, as seguintes condições devem ser atendi
     
 - Os usuários de teste devem ter uma caixa de entrada válida do Exchange.
     
-Depois que essas condições forem atendidas, você pode executar o seguinte cmdlet do Windows PowerShell para migrar as listas de contatos dos usuários de teste para o Exchange:
+Depois que essas condições forem atendidas, você poderá executar o seguinte cmdlet do Windows PowerShell para migrar as listas de contatos dos usuários de teste para o Exchange:
   
 ```
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer -Setup
 ```
 
-Pode levar algum tempo para que as listas de contato do usuário de teste migrem para o Exchange. Para monitorar o andamento da migração, a mesma linha de comando pode ser executada sem o - sinalizador de instalação:
+Pode levar algum tempo para que as listas de contato do usuário de teste migrem para o Exchange. Para monitorar o progresso da migração, a mesma linha de comando pode ser executada sem o sinalizador de configuração:
   
 ```
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer
@@ -358,18 +358,18 @@ Para habilitar a transação sintética XMPP, um parâmetro XmppTestReceiverMail
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
-Neste exemplo, um Skype para regra Business Server precisará existir para encaminhar mensagens de litwareinc.com para um gateway XMPP.
+Neste exemplo, uma regra do Skype for Business Server precisará existir para direcionar as mensagens para o litwareinc.com para um Gateway XMPP.
 
 > [!NOTE]
-> Gateways de XMPP e proxies estavam disponíveis no Skype para Business Server 2015, mas não são mais suportados no Skype para Business Server 2019. Consulte a [federação XMPP migrando](../migration/migrating-xmpp-federation.md) para obter mais informações.
+> Os gateways e proxies XMPP estavam disponíveis no Skype for Business Server 2015, mas não têm mais suporte no Skype for Business Server 2019. Consulte [migrando a Federação do XMPP](../migration/migrating-xmpp-federation.md) para obter mais informações.
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Transação sintética do Servidor de Interoperabilidade de Vídeo (VIS)
 
-A transação sintética do servidor de interoperabilidade de vídeo (VIS) requer que você baixe e instale os arquivos de suporte de transação sintética ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
+A transação sintética do servidor de interoperabilidade de vídeo (VIS) requer que você baixe e instale os arquivos de suporte à transação sintética ([VISSTSupportPackage. msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
   
-Para instalar VISSTSupportPackage.msi, certifique-se de que as dependências (em Requisitos de Sistema) para o msi já se encontram instaladas. Executar VISSTSupportPackage.msi para realizar uma instalação simples. O arquivo. msi instala todos os arquivos no seguinte caminho: "%ProgramFiles%\VIS pacote de suporte de transação sintética".
+Para instalar VISSTSupportPackage.msi, certifique-se de que as dependências (em Requisitos de Sistema) para o msi já se encontram instaladas. Executar VISSTSupportPackage.msi para realizar uma instalação simples. O. msi instala todos os arquivos no seguinte caminho: "pacote de suporte de transação sintético%ProgramFiles%\VIS".
   
-Para obter mais detalhes sobre como executar a transação sintética de VIS consulte a documentação para o cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) .
+Para obter mais detalhes sobre como executar a transação sintética VIS, consulte a documentação do cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) .
   
 ## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>Alterar a Frequência de Execução para Transações Sintéticas
 <a name="special_synthetictrans"> </a>
@@ -380,13 +380,13 @@ Se você desejar executar transações sintéticas com mais frequência, o núme
   
 Para alterar a frequência de execução das transações sintéticas, siga estas etapas:
   
-1. Abrir o System Center Operations Manager. Clique na seção Criação. Clique na seção Regras (sob Criação)
+1. Abra o System Center Operations Manager. Clique na seção Criação. Clique na seção Regras (sob Criação)
     
-2. Na seção regras, encontre a regra com o nome "Main sintética transação Runner desempenho conjunto regra"
+2. Na seção regras, localize a regra com o nome "regra de coleta de desempenho do executor de transação sintética" principal "
     
-3. A regra, clique com botão direito e selecione substituições, selecione a regra de substituição e selecione "para todos os objetos da classe: Inspetor de Pool"
+3. Clique com o botão direito do mouse na regra e selecione substituições, selecione substituir a regra e, em seguida, selecione "para todos os objetos da classe: Inspetor de pool"
     
-4. Na janela de substituir propriedades, selecione o nome do parâmetro "Frequência" e defina o valor de substituição para aquela desejada.
+4. Na janela substituir Propriedades, selecione nome do parâmetro "frequência" e defina o valor de substituição para o desejado.
     
 5. Na mesma janela, selecione o pacote de Gerenciamento ao qual esta substituição deve ser aplicada
     
@@ -424,7 +424,7 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
   
 Quando executar este comando, você verá um resultado semelhante ao seguinte:
   
-Fqdn de destino: atl-cs-001 resultado: latência de falha: 00:00:00 mensagem de erro: esta máquina não tem todos os certificados atribuídos. Diagnóstico: você pode acessar informações muito mais detalhadas para essa falha que apenas a mensagem de erro mostrada aqui. Para acessar essas informações em formato HTML, use um comando semelhante a este para salvar as informações armazenadas na variável RegistrationTest em um arquivo HTML:
+FQDN de destino: resultado do atl-cs-001.litwareinc.com: latência da falha: 00:00:00 mensagem de erro: esta máquina não tem nenhum certificado atribuído. Diagnóstico: você pode acessar informações muito mais detalhadas para esta falha do que apenas a mensagem de erro mostrada aqui. Para acessar essas informações em formato HTML, use um comando semelhante a este para salvar as informações armazenadas na variável RegistrationTest em um arquivo HTML:
   
 ```
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
@@ -438,7 +438,7 @@ $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 
 Você pode exibir esses arquivos usando o Windows Internet Explorer, o Microsoft Visual Studio ou qualquer outro aplicativo capaz de abrir arquivos HTML/XML.
   
-Transações sintéticas executadas a partir de dentro do System Center Operations Manager irá gerar automaticamente esses arquivos de log para falhas. Esses logs não serão gerados se a execução falhar antes que o Skype for Business Server PowerShell seja capaz de carregar e executar a transação sintética. 
+As transações sintéticas executadas dentro do System Center Operations Manager gerarão automaticamente esses arquivos de log para falhas. Esses logs não serão gerados se a execução falhar antes que o Skype for Business Server PowerShell seja capaz de carregar e executar a transação sintética. 
   
 > [!IMPORTANT]
-> Por padrão, o Skype para Business Server salva os arquivos de log para uma pasta que não seja compartilhada. Para tornar esses logs prontamente acessíveis, é preciso compartilhar essa pasta. Por exemplo: \\atl-watcher-001.litwareinc.com\WatcherNode. 
+> Por padrão, o Skype for Business Server salva os arquivos de registro em uma pasta que não está compartilhada. Para tornar esses logs prontamente acessíveis, é preciso compartilhar essa pasta. Por exemplo: \\ATL-Watcher-001. litwareinc. com\WatcherNode. 

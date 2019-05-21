@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Trinidad e Tobago.
-ms.openlocfilehash: 89c8ac47534ccc8097ecec6bd0ddcba25a60cb97
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Trinidad e Tobago.
+ms.openlocfilehash: 6e37f890fbffe805c9963bf2d2894d14800345d0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541684"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286741"
 ---
 # <a name="availability-in-trinidad-and-tobago"></a>Disponibilidade em Trinidad e Tobago
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Trinidad e Tobago.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Trinidad e Tobago.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 

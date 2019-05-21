@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Veja como selecionar os idiomas do atendedor automático de audioconferência para um número de audioconferência no Microsoft Teams.
-ms.openlocfilehash: ce0462dd1e855402aee424a5f677e37efba1a7e3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 67a542743c05c8042626d0bb0b52830e07305827
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204884"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305290"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Definir idiomas do atendedor automático para audioconferência no Microsoft Teams
 
@@ -35,23 +35,23 @@ O atendedor automático de audioconferência do Microsoft Teams pode cumprimenta
 Escolha um idioma primário e até quatro idiomas secundários. O idioma primário definido será usado primeiro e os idiomas secundários serão usados pelo atendedor automático na ordem que você selecionar. 
   
 > [!NOTE]
->  Você só pode alterar os idiomas de números de conferência de áudio que são da categoria dedicada. Os idiomas do número de conferência de áudio compartilhados não podem ser alterados.
+>  Você só pode alterar os idiomas dos números de audioconferência da categoria dedicada. Não é possível alterar os idiomas do número da conferência de áudio compartilhado.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-the-conferencing-auto-attendant-languages"></a>Definir a conferência idiomas de atendedor automático
+## <a name="set-the-conferencing-auto-attendant-languages"></a>Definir os idiomas do atendedor automático da conferência
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**.
 
-2. Selecione um número de telefone de conferência de áudio **exclusivas** da lista e, na parte superior da página, clique em **Editar**. Só é possível alterar os idiomas de números de serviços de audioconferência dedicado. A opção de **Editar** é mostrada somente quando um número de serviços de audioconferência dedicado é selecionado.
+2. Selecione um número de telefone de conferência de áudio **dedicado** na lista e, na parte superior da página, clique em **Editar**. Só é possível alterar os idiomas de números dedicados de audioconferência. A opção de **edição** é mostrada apenas quando um número de conferência de áudio dedicado é selecionado.
 
-3. No painel à direita, escolha o idioma padrão desejado e qualquer idiomas alternativos. 
+3. No painel à direita, escolha o idioma padrão desejado e qualquer idioma alternativo. 
  
     > [!NOTE]
-    > O padrão e os idiomas alternativos suportados são listados. A ordem na qual você selecionar listas de será a ordem dos idiomas apresentados aos chamadores. 
+    > Os idiomas padrão e alternativos suportados são listados. A ordem em que você os seleciona nas listas será a ordem dos idiomas apresentados aos chamadores. 
 
 4. Clique em **Salvar**.
 
@@ -66,7 +66,7 @@ Escolha um idioma primário e até quatro idiomas secundários. O idioma primár
     
 ## <a name="want-to-use-windows-powershell"></a>Você deseja usar o Windows PowerShell?
 
-Consulte a [referência do PowerShell de equipes da Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
   
 ## <a name="related-topics"></a>Tópicos relacionados
 

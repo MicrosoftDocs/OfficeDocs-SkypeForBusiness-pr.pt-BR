@@ -1,28 +1,28 @@
 ---
-title: Configurar um aplicativo de parceiro no local para Skype para Business Server
+title: Configurar um aplicativo de parceiro local para o Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
-description: 'Resumo: Configure um aplicativo de parceiro no local para Skype para Business Server.'
-ms.openlocfilehash: a13157d590d6cdd067ed2a0a717fd744adb9de4f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: configurar um aplicativo de parceiro local para o Skype for Business Server.'
+ms.openlocfilehash: 9cd6272b164a6c7fa42430905127b38c5acbc7be
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913374"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285516"
 ---
-# <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Configurar um aplicativo de parceiro no local para Skype para Business Server
+# <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Configurar um aplicativo de parceiro local para o Skype for Business Server
  
-**Resumo:** Configure um aplicativo de parceiro no local para Skype para Business Server.
+**Resumo:** Configurar um aplicativo de parceiro local para o Skype for Business Server.
   
-Depois que você atribuiu o certificado OAuthTokenIssuer, em seguida, você deve configurar seu Skype para aplicativos de parceiros de negócios Server. (O procedimento prestes a ser abordadas configura tanto Microsoft Exchange Server 2013 e SharePoint para agir como aplicativos de parceiros, que é opcional.) Para configurar um aplicativo de parceiro no local, você deve iniciar o seguinte script do Windows PowerShell de copiando e colando o código no bloco de notas (ou qualquer outro editor de texto):
+Depois de atribuir o certificado OAuthTokenIssuer, você deve configurar os aplicativos de parceiros do Skype for Business Server. (O procedimento a ser discutido configura o Microsoft Exchange Server 2013 e o SharePoint para atuar como aplicativos de parceiros, que é opcional.) Para configurar um aplicativo de parceiro local, você deve começar copiando o seguinte script do Windows PowerShell e colando o código no bloco de notas (ou em qualquer outro editor de texto):
   
 ```
 if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
@@ -72,7 +72,7 @@ else
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
-Depois de copiar o código, salve o script usando a extensão de arquivo .PS1 (por exemplo, C:\Scripts\ServerToServerAuth.ps1). Observe que, antes de executar esse script, você deve substituir as URLs de metadados https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 e http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1 com as URLs de metadados usadas pelos seus servidores Exchange 2013 e SharePoint, respectivamente. Consulte a documentação do produto para o Exchange 2013 e SharePoint para obter informações sobre como você pode identificar a URL de metadados do respectivo produto.
+Depois de copiar o código, salve o script usando a extensão de arquivo .PS1 (por exemplo, C:\Scripts\ServerToServerAuth.ps1). Observe que, antes de executar esse script, você deve substituir as URLs https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 de metadados http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1 e as URLs de metadados usadas por seus servidores do Exchange 2013 e do SharePoint, respectivamente. Consulte a documentação do produto do Exchange 2013 e do SharePoint para obter informações sobre como você pode identificar a URL de metadados do respectivo produto.
   
 Se você observar a última linha do script, perceberá que o cmdlet Set-CsOAuthConfiguration é chamado com o uso da sintaxe:
   
@@ -86,13 +86,13 @@ Como o parâmetro Realm não foi usado para chamar Set-CsOAuthConfiguration, o r
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 ```
 
-Depois de fazer essas alterações, em seguida, você pode executar o script e configure o Exchange 2013 e SharePoint como aplicativos de parceiros, executando-se o arquivo de script de dentro do Skype do Shell de gerenciamento do servidor de negócios. Por exemplo:
+Depois de fazer essas alterações, você pode executar o script e configurar o Exchange 2013 e o SharePoint como aplicativos de parceiros executando o arquivo de script de dentro do Shell de gerenciamento do Skype for Business Server. Por exemplo:
   
 ```
 C:\Scripts\ServerToServerAuth.ps1
 ```
 
-Observe que você pode executar esse script, mesmo se você não tem ambas Exchange 2013 e SharePoint Server instalado:, nenhum problema ocorrerá se você, digamos, configurar o SharePoint Server como um aplicativo de parceiro, embora você não tiver instalado o SharePoint Server.
+Observe que você pode executar esse script mesmo se não tiver o Exchange 2013 e o SharePoint Server instalados:, nenhum problema ocorrerá se você, digamos, configurar o SharePoint Server como um aplicativo de parceiro, mesmo que você não tenha o SharePoint Server instalado.
   
 Ao executar esse script, você talvez receba uma mensagem de erro semelhante à seguinte:
   
@@ -102,9 +102,9 @@ New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Ex
 
 Essa mensagem de erro geralmente significa que: 1) uma das URLs especificadas no script não é válida (ou seja, uma das URLs de metadados não é realmente uma URL de metadados); ou 2) não foi possível acessar uma das URLs de metadados. Se isso acontecer, verifique se as URLs estão corretas e acessíveis e execute o script novamente.
   
-Depois de criar o aplicativo de parceiro do Skype para Business Server, você deve configurar então Skype para Business Server seja um aplicativo parceiro do Exchange 2013. Você pode configurar aplicativos de parceiros para o Exchange 2013 executando o script Configure-EnterprisePartnerApplication.ps1; tudo o que você precisa fazer é especificar a URL de metadados de Skype para Business Server e indicar que o Skype para Business Server é o novo aplicativo de parceiro. 
+Depois de criar o aplicativo parceiro para o Skype for Business Server, você deve configurar o Skype for Business Server para ser um aplicativo de parceiro do Exchange 2013. Você pode configurar aplicativos de parceiros para o Exchange 2013 executando o script Configure-EnterprisePartnerApplication. ps1; Tudo o que você precisa fazer é especificar a URL de metadados para o Skype for Business Server e indicar que o Skype for Business Server é o novo aplicativo de parceiro. 
   
-Para configurar o Skype para Business Server como um aplicativo de parceiro do Exchange, abra o Shell de gerenciamento do Exchange e execute um comando semelhante ao seguinte
+Para configurar o Skype for Business Server como um aplicativo parceiro para Exchange, abra o Shell de gerenciamento do Exchange e execute um comando semelhante a este
   
 ```
 "c:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1" -AuthMetadataUrl "https://SkypePro.contoso.com/metadata/json/1" -ApplicationType "Lync"

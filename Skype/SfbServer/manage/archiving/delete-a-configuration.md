@@ -1,25 +1,25 @@
 ---
-title: Excluir uma configuração de arquivamento no Skype para Business Server
+title: Excluir uma configuração de arquivamento no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
-description: 'Resumo: Saiba como excluir uma configuração de arquivamento no Skype para Business Server.'
-ms.openlocfilehash: 3b6f79247a03beae4abc917d38a6844d67324082
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como excluir uma configuração de arquivamento no Skype for Business Server.'
+ms.openlocfilehash: e2a79949da21c9b3b8e94019375ea0e1f0887353
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884966"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286194"
 ---
-# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Excluir uma configuração de arquivamento no Skype para Business Server
+# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Excluir uma configuração de arquivamento no Skype for Business Server
 
-**Resumo:** Saiba como excluir uma configuração de arquivamento no Skype para Business Server.
+**Resumo:** Saiba como excluir uma configuração de arquivamento no Skype for Business Server.
   
 Você pode excluir uma configuração de site ou de pool, mas não a configuração global. Se você excluir a configuração global, ela será automaticamente redefinida para os valores padrão.
   
@@ -29,7 +29,7 @@ Para excluir uma configuração de arquivamento usando o Painel de Controle:
   
 1. Usando uma conta de usuário atribuída à função CsArchivingAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna. 
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
     
 3. Na barra de navegação da esquerda, clique em **Monitoramento e Arquivamento**, e depois, clique em **Configuração de Arquivamento**.
     
@@ -68,4 +68,4 @@ Você também pode usar o cmdlet **Remove-CsArchivingConfiguration** para redefi
 Remove-CsArchivingConfiguration -Identity global
 ```
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) .
+Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) .

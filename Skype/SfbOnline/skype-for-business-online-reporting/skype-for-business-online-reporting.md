@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,16 +18,16 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: b6e7dd3d109dfd9fab169b1cb8ec37e28f35bbc0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 386a449bae262ac073433d487f57570ae0cf9f7b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238137"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302417"
 ---
 # <a name="skype-for-business-online-reporting"></a>Relatórios do Skype for Business Online
 
-Como um administrador para sua organização, seria útil ter uma lista completa de todos os diferentes relatórios disponíveis no Skype para negócios Online. Isso inclui todos os diferentes relatórios e informações que você pode obter em cada relatório.
+Como administrador da sua organização, seria útil ter uma lista completa de todos os diferentes relatórios disponíveis no Skype for Business online. Isso inclui todos os diferentes relatórios e informações que você pode obter em cada relatório.
   
 Para acessar os relatórios do Skype for Business Online, faça logon no Centro de administração do Office 365 com sua conta de usuário e senha. A conta que você usar para fazer logon deverá ter a função de usuário administrador Global ou a função de administrador representante do serviço Skype for Business para que você visualize os relatórios.
   
@@ -36,11 +36,11 @@ Para acessar os relatórios do Skype for Business Online, faça logon no Centro 
   
 ## <a name="skype-for-business-online-reporting-reference"></a>Referência de relatórios do Skype for Business Online
 
-No Office 365 e Skype para centros de administração de negócios, você pode usar diferentes tipos de relatórios, incluindo aqueles para Skype para negócios Online.
+Nos centros de administração do Office 365 e do Skype for Business, você pode usar diferentes tipos de relatórios, incluindo aqueles para o Skype for Business online.
   
  **Para exibir os relatórios**
   
-1. Vá para o **Centro de administração do Office 365** ou **Skype para centro de administração de negócios** > **relatórios**.
+1. Vá para o **centro de administração do Office 365** ou > **relatórios** **do centro de administração do Skype for Business**.
     
 2. Na janela do painel, clique no widget de relatório ou escolha na lista o relatório desejado.
     
@@ -52,10 +52,10 @@ No Office 365 e Skype para centros de administração de negócios, você pode u
 |[Relatório Atividade dos organizadores de conferências do Skype for Business](conference-organizer-activity-report.md) <br/> | Minutos de áudio <br/>  Minutos de vídeo <br/>  Minutos de conferência de áudio/vídeo <br/>  Minutos de conferência discada <br/>  Minutos de conferência discada <br/> |
 |[Skype para o relatório de uso do dispositivo de negócios](device-usage-report.md) <br/> | Usuários do Windows: <br/>  Usuários do Windows Phone <br/>  Usuários do Android <br/>  Usuários do iPhone <br/>  Usuários do iPad <br/> |
 |[Relatório Atividade do Skype for Business](activity-report.md) <br/> | Nome de usuário <br/>  Hora da última entrada <br/>  Hora da última atividade <br/>  Total de sessões ponto a ponto <br/>  Total de sessões de mensagens instantâneas ponto a ponto <br/>  Total de sessões de áudio ponto a ponto <br/>  Total de sessões de vídeo ponto a ponto <br/>  Total de sessões de compartilhamento de arquivo ponto a ponto <br/>  Total de minutos de sessão de áudio ponto a ponto <br/>  Total de minutos de sessão de vídeo ponto a ponto <br/>  Total de conferências organizadas <br/>  Total de conferências de mensagens instantâneas organizadas <br/>  Total de conferências de áudio/vídeo organizadas <br/>  Total de conferências com compartilhamento de aplicativos organizadas <br/>  Total de conferências na Web organizadas <br/>  Total de conferências de áudio discadas organizadas <br/>  Total de minutos de conferências de áudio/vídeo organizadas <br/>  Total de conferências participadas <br/>  Total de conferências de mensagens instantâneas participadas <br/>  Total de conferências de áudio/vídeo participadas <br/>  Total de conferências com compartilhamento de aplicativos participadas <br/>  Total de conferências da Web participadas <br/>  Total de conferências de áudio discadas participadas <br/>  Total de minutos de conferências de áudio/vídeo participadas <br/>  Total de chamadas PSTN realizadas <br/>  Total de chamadas PSTN recebidas <br/>  Total de minutos de chamadas PSTN realizadas <br/>  Total de minutos de chamadas PSTN recebidas <br/>  Total de mensagens <br/>  Total de arquivos transferidos <br/> |
-|[Relatório de uso de PSTN do Skype for Business](pstn-usage-report.md) <br/>  | Nome de usuário <br/>  Data/horário de chamada <br/>  Número de Telefone <br/>  CallID <br/>  Tipo de Chamada <br/>  Local <br/>  Duração da Chamada <br/>  Moeda <br/>  Encargos de Chamada <br/> |
+|[Relatório de uso de PSTN do Skype for Business](pstn-usage-report.md) <br/>  | Nome de usuário <br/>  Data/horário de chamada <br/>  Número de Telefone <br/>  Callid <br/>  Tipo de Chamada <br/>  Local <br/>  Duração da Chamada <br/>  Moeda <br/>  Encargos de Chamada <br/> |
 |[Relatório de bloqueados do Skype para usuários de negócios](users-blocked-report.md) <br/> | Data da Ação <br/>  Nome de usuário <br/>  Tipo de Ação <br/>  Número de Telefone <br/>  Motivo <br/> |
-|[Relatório de pools Skype minuto PSTN de negócios](pstn-minute-pools-report.md) <br/> | O recurso é o plano de serviço/licença usado para a chamada. <br/> Tipo de licença <br/> Descrição do recurso <br/> Pool de minuto do país  <br/> Minutos usados <br/> Total de minutos <br/> % De minutos usados para o mês <br/> |
-|[Skype para relatório de detalhes de sessão de negócios](session-details-report.md) <br/> | Alias do usuário <br/> ID de diálogo  <br/> Tipos de mídia  <br/> Horas inicial e final <br/> Para e do URI <br/> URL da conferência <br/> Número de telefone <br/> |
+|[Relatório de grupos de minutos PSTN do Skype for Business](pstn-minute-pools-report.md) <br/> | Recurso é o plano de licença/serviço usado para a chamada. <br/> Tipo de licença <br/> Descrição da funcionalidade <br/> Pool de minutos do país  <br/> Minutos usados <br/> Total de minutos <br/> Porcentagem de minutos usados para o mês <br/> |
+|[Relatório de detalhes da sessão do Skype for Business](session-details-report.md) <br/> | Alias do usuário <br/> ID da caixa de diálogo  <br/> Tipos de mídia  <br/> Horários de início e término <br/> Para e de URI <br/> URL da conferência <br/> Número de telefone <br/> |
  
 ## <a name="related-topics"></a>Tópicos relacionados
 [Relatórios de atividades no Centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

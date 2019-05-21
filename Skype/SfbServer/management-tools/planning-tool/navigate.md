@@ -5,43 +5,43 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/5/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
-description: Você pode navegar o Skype para ferramenta de planejamento do Business Server 2015 usando uma combinação de uma barra de ferramentas, botões de página específico e links e painéis de contexto específico. Esses painéis fornecem informações de planejamento e capacidade importantes para as opções de seleção em uma determinada página.
-ms.openlocfilehash: e26e14589756c33a6de5cd64d82a6801dfd0dbb4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Você navega pela ferramenta de planejamento do Skype for Business Server 2015 usando uma combinação de uma barra de ferramentas, botões e links específicos da página e painéis específicos do contexto. Esses painéis fornecem informações de planejamento e capacidade importantes para as opções de seleção em uma determinada página.
+ms.openlocfilehash: efb0f8ab745b2ce2fe4490dccaf58b79a1c1bf50
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914146"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288989"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navegar pela Ferramenta de Planejamento no Skype for Business Server 2015
 
-Você pode navegar o Skype para ferramenta de planejamento do Business Server 2015 usando uma combinação de uma barra de ferramentas, botões de página específico e links e painéis de contexto específico. Esses painéis fornecem informações de planejamento e capacidade importantes para as opções de seleção em uma determinada página.
+Você navega pela ferramenta de planejamento do Skype for Business Server 2015 usando uma combinação de uma barra de ferramentas, botões e links específicos da página e painéis específicos do contexto. Esses painéis fornecem informações de planejamento e capacidade importantes para as opções de seleção em uma determinada página.
 
-Sobre como iniciar a ferramenta de planejamento, um designer vê primeiramente a página **Bem-vindo à ferramenta de planejamento do Skype para Business Server 2015** .
+Ao iniciar a ferramenta de planejamento, um designer primeiro vê a página **Bem-vindo à ferramenta de planejamento para o Skype for Business Server 2015** .
 
-![Página de boas-vindas do ferramenta de planejamento](../../media/Planning_Tool_Welcome.png)
+![Página de boas-vindas ferramenta de planejamento](../../media/Planning_Tool_Welcome.png)
 
-Na página de boas-vindas, o designer selecionará **Introdução**, **Projetar Sites** ou **Exibir**. Para obter detalhes, consulte [criar o design de topologia inicial para Skype para Business Server 2015](create-the-initial-design.md).
+Na página de boas-vindas, o designer selecionará **Introdução**, **Projetar Sites** ou **Exibir**. Para obter detalhes, consulte [criar o design de topologia inicial para o Skype for Business Server 2015](create-the-initial-design.md).
 
-Na parte superior da ferramenta de planejamento é uma barra de ferramentas que fornece acesso fácil ao funções usadas frequentemente. A barra de ferramentas é exibida aqui como referência, e cada função será discutida nos tópicos relacionados.
+Na parte superior da ferramenta de planejamento está uma barra de ferramentas que fornece acesso fácil às funções usadas com frequência. A barra de ferramentas é exibida aqui como referência, e cada função será discutida nos tópicos relacionados.
 
 ![Barra de ferramentas da ferramenta de planejamento](../../media/Planning_Tool_Toolbar_Annotated.jpg)
 
-A ferramenta de planejamento tem uma seção de Links externos no lado esquerdo da ferramenta. Nessa seção, o designer tem fácil acesso às informações de planejamento e implantação e a outros recursos técnicos, como treinamento, artigos técnicos, fóruns e outros recursos baixáveis. Também em Links externos seção é um link de comentários para o Skype para a equipe da ferramenta de planejamento do Business Server 2015.
+A ferramenta de planejamento tem uma seção links externos no lado esquerdo da ferramenta. Nessa seção, o designer tem fácil acesso às informações de planejamento e implantação e a outros recursos técnicos, como treinamento, artigos técnicos, fóruns e outros recursos baixáveis. Além disso, na seção links externos é um link feedback para a equipe de ferramenta de planejamento do Skype for Business Server 2015.
 
-![Caixa de diálogo Links externos da ferramenta de planejamento](../../media/Planning_Tool_External_Links_Dialog.jpg)
+![Caixa de diálogo links externos da ferramenta de planejamento](../../media/Planning_Tool_External_Links_Dialog.jpg)
 
-Um painel de ações contextual é exibido em várias páginas na ferramenta de planejamento. O propósito do painel de Ações é oferecer fácil acesso às seções principais da topologia ao designer. Os links disponíveis no painel Ações mudam com base no nível de detalhe da topologia. O painel de Ações está disponível após ter completado as perguntas de entrevista e ter exibido sua topologia. A seção Visão Geral está inclusa no painel Ações, que exibe números que o designer inseriu como parte do processo de entrevista. A visão geral é contextualmente relacionada às informações exibidas.
+Um painel Ações sensíveis ao contexto é exibido em muitas páginas na ferramenta de planejamento. O propósito do painel de Ações é oferecer fácil acesso às seções principais da topologia ao designer. Os links disponíveis no painel Ações mudam com base no nível de detalhe da topologia. O painel de Ações está disponível após ter completado as perguntas de entrevista e ter exibido sua topologia. A seção Visão Geral está inclusa no painel Ações, que exibe números que o designer inseriu como parte do processo de entrevista. A visão geral é contextualmente relacionada às informações exibidas.
 
 Além disso, as informações de hardware são exibidas na visão geral no painel de Ações. A configuração de hardware exibe uma lista de requisitos de hardware recomendados pela topologia atual.
 
-![Painel de ações da ferramenta de planejamento](../../media/Planning_Tool_Actions_Pane.jpg)
+![Painel ações da ferramenta de planejamento](../../media/Planning_Tool_Actions_Pane.jpg)
 
 ## <a name="see-also"></a>Confira também
 

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Canadá.
-ms.openlocfilehash: 6b90ae826c24bf3af3d05ba0f65a3208b54cee1c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 485a491acbce57b5ef1503f7d14ba60804fb43a6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32248197"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283166"
 ---
 # <a name="availability-in-canada"></a>Disponibilidade no Canadá
 
@@ -60,12 +60,12 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 | **Recurso**                                        | **Detalhes**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Os Planos de Chamadas estão disponíveis para compra?  <br/>    | Sim  <br/>                                                                                                                                                                                                                                                                  |
-| Minutos disponíveis para chamar planos.               | Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar </li><li>240 minuto domésticas chamar planejar</li></li><li>3000 minuto domésticas chamar planejar</li></li><li>Nacionais e internacionais chamar planejar: 3000 minutos de minutos de bits OR-600 domésticos de chamadas internacionais (o que for atingido primeiro no mês do calendário)</li>|
-| Pode fazer chamadas de saída para números premium?  <br/> | Não suportado no momento.<br/>                                                                                                                                                                                                                                            |
+| Minutos disponíveis para planos de chamada.               | Há quatro opções de plano disponíveis por mês do calendário: <ul><li>Plano de chamadas domésticas de 120 minutos </li><li>Plano de chamadas domésticas de 240 minutos</li></li><li>Plano de chamadas domésticas de 3000 minutos</li></li><li>Plano de chamadas domésticas e internacionais: 3000 minutos de chamadas domésticas ou 600 minutos de chamadas internacionais (o que for atingido primeiro no mês do calendário)</li>|
+| Pode fazer chamadas de saída para números Premium?  <br/> | Não há suporte no momento.<br/>                                                                                                                                                                                                                                            |
 | É possível fazer chamadas de saída?  <br/>                 | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                  |
 
 > [!Note]
-> Chamadas para os Estados Unidos são tratadas como chamadas nacionais.
+> As chamadas para os EUA são tratadas como chamadas domésticas.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
@@ -78,7 +78,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
  Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
 
 > [!Note] 
-> Quando uma chamada de planejamento (locais ou nacionais e internacionais) o usuário nos EUA discar um número de telefone no Canadá, ele será tratado como uma chamada doméstica. Isso também é o caso, quando um usuário no Canadá fará uma chamada para um número dos Estados Unidos.
+> Quando um usuário plano de chamada (doméstico ou doméstica e internacional) nos EUA discar um número de telefone no Canadá, ele será tratado como uma chamada doméstica. Isso também acontece quando um usuário no Canadá fará uma chamada para um número norte-americano.
 
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

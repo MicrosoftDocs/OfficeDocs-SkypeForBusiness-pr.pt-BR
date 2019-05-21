@@ -1,41 +1,41 @@
 ---
-title: Relatório de falhas principais no Skype para Business Server
+title: Relatório de falhas principais no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: 'Resumo: Saiba mais sobre o relatório de falhas principais no Skype para Business Server.'
-ms.openlocfilehash: 71a97c9d01e079f59df2658bb137b27794fcb1d7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de falhas principais no Skype for Business Server.'
+ms.openlocfilehash: a1b3337a65e3193324b30f5d83f6858ef996111a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915378"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279715"
 ---
-# <a name="top-failures-report-in-skype-for-business-server"></a>Relatório de falhas principais no Skype para Business Server
+# <a name="top-failures-report-in-skype-for-business-server"></a>Relatório de falhas principais no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de falhas principais no Skype para Business Server.
+**Resumo:** Saiba mais sobre o relatório principais falhas no Skype for Business Server.
   
 O Relatório de Falhas Principais apresenta uma noção das falhas mais frequentemente relatadas e suas tendências ao longo do tempo. As falhas são baseadas em uma combinação das seguintes métricas:
   
 - **ID de Diagnóstico**. Identificador único (na forma de um cabeçalho ms-diagnostics) que é anexado a uma mensagem SIP. As IDs de Diagnóstico fornecem informações úteis na solução de problemas relacionados a chamadas.
     
-- **Código de resposta**. Os códigos de resposta são utilizados nas sessões de comunicação SIP para responder solicitações SIP. Por exemplo, suponha que Ken envie a solicitação INVITE a Pilar Ackerman (isto é, suponha que Ken Myer ligue para Pilar Ackerman). Se Pilar responder, o telefone enviará o código de resposta 200 (OK), permitindo que o telefone de Ken saiba que Pilar atendeu. Relatório de falhas principais inclui somente os códigos de resposta que foram enviados em resposta a uma falha de ligação; Skype para Business Server não ficar atento aos todos os códigos de resposta emitidos no decorrer de uma chamada.
+- **Código de resposta**. Os códigos de resposta são utilizados nas sessões de comunicação SIP para responder solicitações SIP. Por exemplo, suponha que Ken envie a solicitação INVITE a Pilar Ackerman (isto é, suponha que Ken Myer ligue para Pilar Ackerman). Se Pilar responder, o telefone enviará o código de resposta 200 (OK), permitindo que o telefone de Ken saiba que Pilar atendeu. O relatório de falhas principais inclui apenas códigos de resposta que foram enviados em resposta a uma falha de chamada; O Skype for Business Server não mantém o controle de todos os códigos de resposta emitidos durante o curso de uma chamada.
     
 A informação é relatada não apenas para o número total de sessões quando uma falha ocorre, mas também para o número total de usuários que foram impactados pela falha.
   
 ## <a name="accessing-the-top-failures-report"></a>Acessando o Relatório de Falhas Principais
 
-O Relatório de Falhas Principais é acessado a partir da home page Relatórios de Monitoramento. Clicando na métrica de sessões relatado te redireciona para o [Relatório de falha de distribuição no Skype para Business Server](failure-distribution-report.md).
+O Relatório de Falhas Principais é acessado a partir da home page Relatórios de Monitoramento. Clicar na métrica de sessões relatada levará você ao [relatório de distribuição de falha no Skype for Business Server](failure-distribution-report.md).
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Fazendo o melhor uso do Relatório de Falhas Principais
 
-O Relatório de Falhas Principais é incomum quanto a uma coisa: ele permite a filtragem de até 5 IDs de diagnóstico de uma vez. (Normalmente só é possível filtrar em um item - como o endereço do SIP de um usuário - por vez.) Para filtrar vários IDs de diagnóstico, simplesmente digite cada ID na caixa IDs de diagnóstico, separando os IDs por vírgulas. (Se desejar, você pode deixar um espaço em branco após cada vírgula.) Por exemplo:
+O Relatório de Falhas Principais é incomum quanto a uma coisa: ele permite a filtragem de até 5 IDs de diagnóstico de uma vez. (Geralmente, você só pode filtrar um item, como um endereço SIP de usuário, de cada vez). Para filtrar por várias identificações de diagnóstico, basta inserir cada ID na caixa IDs de diagnóstico, separando as identificações usando vírgulas. (Se quiser, você pode deixar um espaço em branco após cada vírgula). Por exemplo:
   
 1011, 2412, 1033, 52116, 1008
   

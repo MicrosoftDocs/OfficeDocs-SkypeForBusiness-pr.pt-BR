@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PdpSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 ROBOTS: NOINDEX, NOFOLLOW
 description: O serviço de controle de admissão de chamadas (CAC) é uma rede de regiões, sites e sub-redes que permite impor restrições às transmissões de áudio e vídeo com base na largura de banda disponível. Após configurar a rede para o CAC, habilite-o para impor as limitações de largura de banda.
-ms.openlocfilehash: c5d49d3f8bc8087dc166c2c715f0a67019786d8e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: aac6fdb1633216409d876804d7bd132574c94231
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885699"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303211"
 ---
 # <a name="call-admission-control-settings-expander"></a>Expansor de Configurações do Serviço de Controle de Admissão de Chamadas
  
@@ -29,8 +29,8 @@ O serviço de controle de admissão de chamadas (CAC) é uma rede de regiões, s
   
 Na seção **Configuração de Controle de Admissão de Chamadas** da caixa de diálogo **Editar Propriedades** de seu site, você pode alterar as seguintes configurações:
   
-- **Habilitar o controle de admissão de chamada** Selecione esta configuração para habilitar CAC. Desmarque essa configuração para desabilitar o CAC para toda sua rede. Para habilitar o CAC, você deve ter configurado sua rede para CAC. Para obter detalhes, consulte [Deploy no Skype para Business Server o controle de admissão de chamada](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) na documentação de implantação.
+- **Habilitar controle de admissão de chamadas** Selecione esta configuração para habilitar o CAC. Desmarque essa configuração para desabilitar o CAC para toda sua rede. Para habilitar o CAC, você deve ter configurado sua rede para CAC. Para obter detalhes, consulte [implantar controle de admissão de chamadas no Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) na documentação de implantação.
     
-- **Pool de Front-End para executar o controle de admissão de chamada** Se você habilitou o CAC, você pode alterar o pool que executa a ele. Selecione o pool na lista suspensa.
+- **Pool de front-end para executar o controle de admissão de chamadas** Se você ativou o CAC, poderá alterar o pool que o executa. Selecione o pool na lista suspensa.
     
 

@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: 'O cmdlet Install-CcAppliance instala o dispositivo do Skype for Business Cloud Connector Edition — incluindo as máquinas virtuais do AD, do Repositório de Gerenciamento Central, do Servidor de Mediação e do Servidor de Borda — no servidor host. '
-ms.openlocfilehash: 8f1a8b7d99a555006c1d69ee52f2403e9bf0a874
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 01c689c4a4639c12292d59def6b698281f402299
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880211"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287269"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
@@ -49,7 +49,7 @@ Install-CcAppliance -Upgrade
 
 ### <a name="example-3"></a>Exemplo 3
 
-O exemplo a seguir remove todas as credenciais de nuvem conector armazenados em cache no servidor host, solicita ao usuário para especificar todas as informações de credencial novamente e em seguida, instala o conector de nuvem:
+O exemplo a seguir remove todas as credenciais do conector de nuvem armazenadas em cache no servidor host, solicita que o usuário especifique todas as informações de credenciais novamente e, em seguida, instale o Cloud Connector:
   
 ```
 Install-CcAppliance -UpdateAllCredentials
@@ -67,7 +67,7 @@ O parâmetro -ShowStepsOnly é apenas para solução de problemas.
   
 ### <a name="example-5"></a>Exemplo 5
 
-O exemplo seguinte gera arquivos de configuração para cada etapa de implantação no servidor host. Arquivos de configuração são salvas o \<ApplianceRoot\>\Instances\\<Version\>-default\ExportedConfig pasta no servidor host:
+O exemplo seguinte gera arquivos de configuração para cada etapa de implantação no servidor host. Os arquivos de configuração são salvos \<na\>pasta\\ApplianceRoot\>\Instances <Version-default\ExportedConfig no servidor host:
   
 ```
 Install-CcAppliance -PrepareOnly
@@ -95,11 +95,11 @@ Install-CcAppliance -ShowStepsOnly
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-O cmdlet Install-CcAppliance é usado para implantar o conector de nuvem para um novo aparelho ou atualizar um aparelho existente para a versão mais recente.
+O cmdlet Install-CcAppliance é usado para implantar o conector de nuvem em um novo dispositivo ou para atualizar um aparelho existente para a versão mais recente.
   
 Se você tiver um novo aplicativo, certifique-se de ler o tópico Preparar seu ambiente para o Cloud Connector primeiro, executar o cmdlet Register-CcAppliance para registrar o dispositivo e depois executar o cmdlet Install-CcAppliance. Para obter mais informações, consulte [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) e [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
-Se você tiver uma implantação existente do conector de nuvem e você deseja atualizar, siga as instruções [de atualização para uma nova versão do conector de nuvem](upgrade-to-a-new-version-of-cloud-connector.md).
+Se você tiver uma implantação existente do conector de nuvem e quiser atualizar, siga as instruções em [atualizar para uma nova versão do Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md).
   
 ## <a name="parameters"></a>Parâmetros
 <a name="DetailedDescription"> </a>
@@ -111,7 +111,7 @@ Se você tiver uma implantação existente do conector de nuvem e você deseja a
 |SkipExistingObjects  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Este parâmetro deve ser usado em conjunto com o parâmetro Steps. Este parâmetro tem a finalidade exclusiva de solução de problemas.  <br/> |
 |Etapas  <br/> |Opcional  <br/> |System.Array  <br/> |Executar as etapas de implantação. Este parâmetro tem a finalidade exclusiva de solução de problemas.  <br/> |
 |Atualizar  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Atualizar o Cloud Connector existente para a versão mais recente.  <br/> |
-|UpdateAllCredentials  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Remova todas as credenciais de nuvem conector no cache. Pedir para o usuário especificar as informações das novas credenciais para a instalação.  <br/> |
+|UpdateAllCredentials  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Remova todas as credenciais do conector de nuvem no cache. Pedir para o usuário especificar as informações das novas credenciais para a instalação.  <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

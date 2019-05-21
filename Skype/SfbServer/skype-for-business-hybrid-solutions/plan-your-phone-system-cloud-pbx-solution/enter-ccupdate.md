@@ -5,22 +5,22 @@ ms.author: crowe
 author: CarolynRowe
 ms.date: 3/31/2017
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
-description: O cmdlet Enter-CcUpdate prepara o Skype para servidor de host de conector de nuvem Business Edition para o processo de atualização, colocando-o no modo de manutenção. O aparelho isdrained — ou seja, todas as chamadas existentes serão concluídas, mas novas chamadas são rejeitadas.
-ms.openlocfilehash: 42c8f7fa668fa94040276e7749e93b5832d511cb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: O cmdlet Enter-CcUpdate prepara o servidor de host do Skype for Business Cloud Connector Edition para o processo de atualização, colocando-o no modo de manutenção. O aparelho não esgotado, ou seja, todas as chamadas existentes serão concluídas, mas novas chamadas serão recusadas.
+ms.openlocfilehash: be57261b35cf5b5e6e8118c2a751eee1c8b5f2a7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929428"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287437"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
  
-O cmdlet Enter-CcUpdate prepara o Skype para servidor de host de conector de nuvem Business Edition para o processo de atualização, colocando-o no modo de manutenção. O aparelho é "drenagem" — ou seja, todas as chamadas existentes serão concluídas, mas novas chamadas são rejeitadas. 
+O cmdlet Enter-CcUpdate prepara o servidor de host do Skype for Business Cloud Connector Edition para o processo de atualização, colocando-o no modo de manutenção. O aparelho está "esgotado", ou seja, todas as chamadas existentes serão concluídas, mas novas chamadas serão recusadas. 
   
 ```
 Enter-CcUpdate
@@ -44,14 +44,14 @@ Enter-CcUpdate
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-O cmdlet Enter-CcUpdate imediatamente irá parar todos os serviços que terminem todas as chamadas em andamento e o aparelho rejeitará quaisquer novas chamadas são transferidas para outros aparelhos de produção. Certifique-se de que os dispositivos de produção restantes tem capacidade suficiente para lidar com as chamadas do aparelho de que você está preparando para atualizar.
+O cmdlet Enter-CcUpdate interromperá imediatamente todos os serviços que encerrarem as chamadas em andamento e o dispositivo rejeitará todas as novas chamadas, que serão transferidas para outros aplicativos de produção. Você deve garantir que os dispositivos de produção restantes tenham capacidade suficiente para lidar com as chamadas do aparelho que você está preparando para atualizar.
   
 O modo de manutenção será útil se o seu dispositivo tiver a atualização automática habilitada, por exemplo, e a Microsoft lançar um hotfix crítico. O modo de manutenção também será útil se você decidir desativar as atualizações automáticas, mas executar atualizações manuais de forma consistente.
   
-Depois de instalar as atualizações, o aparelho pode ser colocado novamente para o modo de produção, executando o cmdlet sair-CcUpdate.
+Depois de instalar as atualizações, o aparelho pode ser retornado ao modo de produção executando o cmdlet Exit-CcUpdate.
   
 > [!NOTE]
-> Se você decidir atualizar manualmente um aparelho de conector de nuvem, você precisa atualizá-la até 60 dias após a Microsoft lança a próxima versão. A Microsoft oferece suporte para a versão lançada anteriormente do conector de nuvem por 60 dias após a nova versão é lançada 
+> Se você decidir atualizar manualmente um aparelho de conexão de nuvem, será necessário atualizá-lo dentro de 60 dias após a Microsoft liberar a próxima versão. A Microsoft oferece suporte à versão lançada anteriormente do Cloud Connector para 60 dias após a liberação da nova versão 
   
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

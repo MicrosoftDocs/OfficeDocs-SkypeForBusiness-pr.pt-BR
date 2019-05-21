@@ -5,38 +5,38 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.InstallDatabaseCreateDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
-description: Você seleciona os bancos de dados que você deseja criar sua implantação. Por padrão, o banco de dados será criado no SQL Server definido no site do definido e será automaticamente implantar e configurar os arquivos de banco de dados com base em você estiver colocando os bancos de dados no SQL Server.
-ms.openlocfilehash: 94c16a4bc0e51c10939949e02d07d8233744b40f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Selecione os bancos de dados que você deseja criar para a implantação. Por padrão, o banco de dados será criado no SQL Server definido no site definido e irá implantar e configurar automaticamente os arquivos de banco de dados com base no SQL Server em que você está colocando os bancos de dados.
+ms.openlocfilehash: 0a121b64e9f1ea25c1ff9b5daf6937adaee578f5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888601"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284309"
 ---
 # <a name="install-and-create-databases"></a>Instalar e Criar Bancos de Dados
 
-Você seleciona os bancos de dados que você deseja criar sua implantação. Por padrão, o banco de dados será criado no SQL Server definido no site do definido e será automaticamente implantar e configurar os arquivos de banco de dados com base em você estiver colocando os bancos de dados no SQL Server.
+Selecione os bancos de dados que você deseja criar para a implantação. Por padrão, o banco de dados será criado no SQL Server definido no site definido e irá implantar e configurar automaticamente os arquivos de banco de dados com base no SQL Server em que você está colocando os bancos de dados.
 
- **Selecione os bancos de dados que você deseja criar**: marque a caixa de seleção de qualquer banco de dados que você pretende implantar e configurar. Marque a caixa de seleção de um ou todos os bancos de dados que você implantará.
+ **Selecione os bancos de dados que você deseja criar**: marque a caixa de seleção de todos os bancos de dados que você pretende implantar e configurar. Marque a caixa de seleção de qualquer ou de todos os bancos de dados que você implantar.
 
 > [!CAUTION]
-> O SQL Server deve já foram configurado para a instância (se houver) e portas do firewall devem ser abertas para acomodar a instância que você estiver implantando os bancos de dados. Para obter detalhes, consulte [Configurar o SQL Server para o Lync Server 2013 Preview](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)
+> O SQL Server já deve ter sido configurado para a instância (se houver) e as portas de firewall devem ser abertas para acomodar a instância para a qual você está implantando os bancos de dados. Para obter detalhes, consulte [Configurar o SQL Server para Lync server 2013 Preview](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)
 
- **Avançado**: clique no SQL Server e clique no botão **Avançado** para escolher opções de banco de dados de locais de arquivos no SQL Server. Para obter detalhes sobre a localização do arquivo de banco de dados avançado, consulte [Banco de dados de instalação usando o Lync Server Management Shell](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)
+ **Avançado**: clique no SQL Server e clique no botão **avançado** para escolher as opções dos locais do arquivo de banco de dados no SQL Server. Para obter detalhes sobre o posicionamento avançado de arquivos do banco de dados, consulte [instalação do banco de dados usando o Shell de gerenciamento](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)
 
- **Voltar**: clicar nesse botão você retorna à tela anterior (talvez não ser sempre disponível, com base em como que você chegou até essa caixa de diálogo).
+ **Voltar**: clicar neste botão retorna para a tela anterior (nem sempre pode estar disponível, com base em como você chegou nesta caixa de diálogo).
 
- **Avançar**: clicar nesse botão confirma sua seleção na caixa de diálogo atual e vai para a próxima caixa de diálogo para configurar informações adicionais
+ Em **seguida**: clicar neste botão confirma sua seleção na caixa de diálogo atual e leva você para a próxima caixa de diálogo para configurar informações adicionais
 
- **Cancelar**: clicar nesse botão será encerre a configuração e descartar suas alterações. Alguns, mas nem todas as telas de configuração perguntará se você deseja encerrar e descartar suas alterações. Selecionar **Sim** fechará a configuração atual e fechar a configuração atual e voltar você para o construtor de topologias. Selecionar **não** , você retorna à caixa de diálogo configuração atual e permitem que você continuar a configuração.
+ **Cancelar**: clicar neste botão encerrará a configuração e descartará suas alterações. Algumas telas de configuração, mas nem todas irão perguntar se você deseja encerrar e descartar as alterações. Selecionar **Sim** fechará a configuração atual e fechará a configuração atual e retornará você ao construtor de topologias. Selecionar **não** vai retornar você à caixa de diálogo configuração atual e permitir que você continue a configuração.
 
- **Ajudar**: clicando no botão **Ajuda** exibe essas informações da Ajuda associadas à caixa de diálogo configuração atual.
+ **Ajuda**: clicar no botão **ajuda** exibe estas informações de ajuda associadas à caixa de diálogo configuração atual.
 
 

@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: O cmdlet Unregister-CcAppliance cancela o registro do dispositivo do Skype for Business Cloud Connector Edition atual a partir de um site PSTN na configuração online do locatário.
-ms.openlocfilehash: 6ee21f66c2b189aff8c8aa7d831369536618b18c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: fafe374371cd01b2ec7c67ade89dd2a905e16d18
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892001"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286870"
 ---
 # <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
@@ -58,7 +58,7 @@ Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 
 Similar ao cmdlet Register-CcAppliance, o SiteName combinado com o FQDN externo do Servidor de Borda no arquivo CloudConnector.ini é considerado uma identidade do site PSTN. Da mesma forma, o ApplianceName combinado com o FQDN do Servidor de Mediação no arquivo do CloudConnector.ini é considerado uma identidade do dispositivo.
   
-Após o aparelho não registrado, reinicie o serviço de gerenciamento do conector de nuvem e faça logon como a conta NetworkService.
+Depois que o dispositivo estiver cancelado, reinicie o serviço de gerenciamento do Cloud Connector e faça logon como a conta NetworkService.
   
 ## <a name="parameters"></a>Parâmetros
 <a name="DetailedDescription"> </a>

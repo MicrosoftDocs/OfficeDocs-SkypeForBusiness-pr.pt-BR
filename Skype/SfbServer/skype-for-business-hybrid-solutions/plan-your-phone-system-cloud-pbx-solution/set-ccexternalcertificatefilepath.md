@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: O cmdlet Set-CcExternalCertificateFilePath especifica o caminho onde o certificado para o Servidor de Mediação ou para o Servidor de Borda é armazenado.
-ms.openlocfilehash: 059d0f2fbf5fee708ceccd0d6e10ad4286fe4f85
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: bc22771c20277d9de99660551864d600f06b3acc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895346"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286982"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
@@ -62,7 +62,7 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 
 Durante a implantação ou ao modificar a topologia, você precisa especificar o caminho para o certificado do Servidor de Borda e, opcionalmente, para o certificado do Servidor de Mediação. 
   
-O certificado do Servidor de Mediação será necessário se o TLS for usado entre os gateways e o Servidor de Mediação. Quando você implantar um aparelho de conector de nuvem e deseja implantar o TLS, você pode apenas especificar o caminho para o certificado que será implantado no servidor de mediação. No entanto, se você desejar atualizar o certificado de mediação em um dispositivo já implantado, você deve especificar o caminho e o parâmetro -Import. Para ver o caminho, use o cmdlet Get-CCExternalCertificateFilePath.
+O certificado do Servidor de Mediação será necessário se o TLS for usado entre os gateways e o Servidor de Mediação. Ao implantar um aparelho de conexão de nuvem e desejar implantar o TLS, você só pode especificar o caminho para o certificado que será implantado no servidor de mediação. No entanto, se você desejar atualizar o certificado de mediação em um dispositivo já implantado, você deve especificar o caminho e o parâmetro -Import. Para ver o caminho, use o cmdlet Get-CCExternalCertificateFilePath.
   
 ## <a name="parameters"></a>Parâmetros
 <a name="DetailedDescription"> </a>

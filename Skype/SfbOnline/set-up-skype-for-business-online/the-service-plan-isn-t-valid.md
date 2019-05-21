@@ -1,5 +1,5 @@
 ---
-title: Skype do usuário para o plano de serviço Online de negócios não é válido
+title: O plano de serviço do Skype for Business Online do usuário não é válido
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,19 +19,19 @@ f1keywords:
 - ms.lync.lac.ServicePlanNotValid
 ms.custom:
 - Setup
-description: 'Consulte where atribuir um plano de serviço válido para um usuário após uma Skype para Business Online plano de serviço não for erro válido. '
-ms.openlocfilehash: a6e42e26b9a0257005d735b0e5cda13af6f11b67
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Veja onde atribuir um plano de serviço válido para um usuário depois que um plano de serviço do Skype for Business online não for um erro válido. '
+ms.openlocfilehash: bae00d6d7646abb82931f9293444e7c86fc5a59a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237189"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285060"
 ---
-# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>Skype do usuário para o plano de serviço Online de negócios não é válido
+# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>O plano de serviço do Skype for Business Online do usuário não é válido
 
-Desculpe, o Skype para Business Online plano de serviço atribuído a esse usuário não é reconhecido ou é inválido.
+Desculpe, o plano de serviço do Skype for Business online atribuído a este usuário não é reconhecido ou não é válido.
   
-Vá para o **Centro de administração do Office 365** > plano de**usuários ativos** e atribuir um serviço válido para esse usuário.
+Vá para o **Centro** > de administração do Office 365**usuários ativos** e atribua um plano de serviço válido para esse usuário.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 [Instalar o Skype for Business Online](set-up-skype-for-business-online.md)

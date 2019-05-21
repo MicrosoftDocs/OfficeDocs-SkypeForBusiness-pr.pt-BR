@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
 description: O cmdlet Get-CcApplianceLogDirectory mostra o diretório atual em que os logs do dispositivo do Skype for Business Cloud Connector Edition são armazenados.
-ms.openlocfilehash: d1298454bb347356718fdf24d6761acfea1b71b1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 675e89f49c7c1384edc7cfa5944c8aee3f236c79
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233949"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287367"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
@@ -37,7 +37,7 @@ Nenhum
 
 ### <a name="example-1"></a>Exemplo 1
 
-O exemplo a seguir mostra a pasta atual, onde os logs para o aparelho atual do conector de nuvem são armazenados:
+O exemplo a seguir mostra a pasta atual em que os logs do aplicativo do conector de nuvem atual são armazenados:
   
 ```
 Get-CcApplianceLogDirectory
@@ -46,7 +46,7 @@ Get-CcApplianceLogDirectory
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-O cmdlet Get-CcApplianceLogDirectory mostra o diretório atual, onde os logs para um aparelho de conector de nuvem são armazenados. A pasta padrão é C:\Users\%userprofile%\CloudConnector\ApplianceRoot\Logs. 
+O cmdlet Get-CcApplianceLogDirectory mostra o diretório atual em que os logs para um aparelho de conector de nuvem são armazenados. A pasta padrão é C:\Users\%USERPROFILE%\CloudConnector\ApplianceRoot\Logs. 
   
 Você pode alterar o diretório usando o cmdlet Set-CcApplianceDirectory.  
   

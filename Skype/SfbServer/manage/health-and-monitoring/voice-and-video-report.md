@@ -1,31 +1,31 @@
 ---
-title: -A-ponto relatório de voz e vídeo no Skype para Business Server
+title: Relatório de voz e vídeo ponto a ponto no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
-description: 'Resumo: Saiba mais sobre o relatório de vídeo no Skype para Business Server e voz ponto a ponto.'
-ms.openlocfilehash: 74ab2f5056c66bbd819834a573a307bd8cf82773
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de voz e vídeo ponto a ponto no Skype for Business Server.'
+ms.openlocfilehash: 8ba665886e91371373358f98f69fa15b8d62a9dd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898035"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279631"
 ---
-# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>-A-ponto relatório de voz e vídeo no Skype para Business Server
+# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Relatório de voz e vídeo ponto a ponto no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de vídeo no Skype para Business Server e voz ponto a ponto.
+**Resumo:** Saiba mais sobre o relatório de voz e vídeo ponto a ponto no Skype for Business Server.
   
 O Relatório de Vídeo e Voz Ponto a Ponto oferece uma visão detalhada da distribuição de chamadas de voz e vídeo por um período específico (por exemplo, chamadas por hora ou chamadas por dia). O relatório também oferece a opção de exibir todas as chamadas de voz e vídeo realizadas ou de exibir apenas as chamadas bem-sucedidas ou com falha. Os relatórios mostram as informações das chamadas divididas nos seguintes agrupamentos:
   
 - Chamadas por pool
     
-- Chamadas por tipo de chamada (por exemplo, um Skype for Business para Skype para chamada de negócios versus uma Skype para chamada de negócios para uma pessoa na rede PSTN)
+- Chamadas por tipo de chamada (por exemplo, uma chamada do Skype for Business para o Skype for Business versus uma chamada do Skype for Business para uma pessoa na rede PSTN)
     
 - Chamadas por tipo de acesso (os usuários conectados na rede interna versus usuários conectados na rede externa)
     
@@ -70,7 +70,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Vo
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
-|**Pool** <br/> |Não  <br/> |Nome do pool de registrador ou servidor de borda usado para a chamada.  <br/> |
+|**Pool** <br/> |Não  <br/> |Nome do pool de registradores ou servidor de borda usado para a chamada.  <br/> |
 |**Data/Hora** <br/> |Não  <br/> |Período de data e hora durante o qual a chamada foi realizada.  <br/> |
 |**Total** <br/> |Não  <br/> |Número total de sessões ou contagem total de mensagens.  <br/> |
    
@@ -100,7 +100,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Vo
    
 ## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>Métricas para atividade de vídeo e voz ponto a ponto por servidor de mediação
 
-A tabela a seguir lista as informações fornecidas no relatório de vídeo e voz ponto a ponto para cada servidor de mediação.
+A tabela a seguir lista as informações fornecidas no relatório de voz e vídeo ponto a ponto para cada servidor de mediação.
   
 **Métricas para atividade de vídeo e voz ponto a ponto por servidor de mediação**
 

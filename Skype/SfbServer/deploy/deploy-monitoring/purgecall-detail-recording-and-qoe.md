@@ -1,25 +1,25 @@
 ---
-title: Limpar manualmente o registro de detalhes da chamada e bancos de dados de qualidade da experiência no Skype para Business Server
+title: Limpar manualmente a gravação de detalhes da chamada e os bancos de dados de qualidade da experiência no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
-description: 'Resumo: Saiba como limpar manualmente registros de bancos de dados QoE usados pelo Skype para Business Server e do CDR.'
-ms.openlocfilehash: 547200d01cff52038fcfe5430cbe453799be2431
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como limpar registros manualmente dos bancos de dados CDR e QoE usados pelo Skype for Business Server.'
+ms.openlocfilehash: c995611704c2fed04461da0b311e8a4141fc4908
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894441"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282326"
 ---
-# <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Limpar manualmente o registro de detalhes da chamada e bancos de dados de qualidade da experiência no Skype para Business Server
+# <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Limpar manualmente a gravação de detalhes da chamada e os bancos de dados de qualidade da experiência no Skype for Business Server
  
-**Resumo:** Saiba como limpar manualmente registros de bancos de dados QoE usados pelo Skype para Business Server e do CDR.
+**Resumo:** Saiba como limpar registros manualmente dos bancos de dados CDR e QoE usados pelo Skype for Business Server.
   
 Os bancos de dados de CDR e QoE podem ser manual ou automaticamente eliminados dos registros. A limpeza dos registros pode ser importante de forma que os dados não se tornem obsoletos ou quando precisar redefinir os relatórios de uma linha de base inicial.
   
@@ -27,15 +27,15 @@ Os bancos de dados de CDR e QoE podem ser manual ou automaticamente eliminados d
 
 Os administradores podem configurar os bancos de dados de CDR (registro de detalhes das chamadas) e/ou QoE (qualidade da experiência) para que limpem automaticamente os registros antigos do banco de dados; isso ocorrerá se a limpeza for habilitada para o banco de dados especificado (CDR ou QoE) e se houver qualquer registro que esteja no banco de dados há mais tempo do que o período especificado. Por exemplo, os administradores podem configurar o sistema para que todos os dias, às 13:00, os registros de QoE com mais de 60 dias sejam excluídos do banco de dados de QoE.
   
-Além limpeza automática, dois novos cmdlets & #x 2014; Invoke-CsCdrDatabasePurge e & CsQoEDatbasePurge invocar #x 2014; foram adicionadas ao Skype para Business Server; Esses cmdlets permitem que administradores eliminação manualmente registros de dados de CDR e os bancos de dados de QoE a qualquer momento. Por exemplo, para limpar manualmente todos os registros com mais de 10 dias do banco de dados de CDR, é possível usar um comando semelhante a este:
+Além da eliminação automática, dois cmdlets novos & # x2014; Invoke-CsCdrDatabasePurge e Invoke-CsQoEDatbasePurge & # x2014; foram adicionados ao Skype for Business Server; Esses cmdlets permitem aos administradores limpar manualmente registros dos bancos de dados CDR e QoE a qualquer momento. Por exemplo, para limpar manualmente todos os registros com mais de 10 dias do banco de dados de CDR, é possível usar um comando semelhante a este:
   
 ```
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 ```
 
-No comando anterior, os registros de detalhes das chamadas e os registros de dados de diagnósticos com mais de 10 dias eram excluídos do banco de dados de monitoramento em atl-sql-001.litwareinc.com. (Os registros de detalhes das chamadas são relatórios de usuário/sessão. Registros de dados de diagnóstico são carregados por aplicativos de cliente, como Skype para Business Server logs de diagnóstico.)
+No comando anterior, os registros de detalhes das chamadas e os registros de dados de diagnósticos com mais de 10 dias eram excluídos do banco de dados de monitoramento em atl-sql-001.litwareinc.com. (Os registros de detalhes das chamadas são relatórios de usuário/sessão. Registros de dados de diagnóstico são logs de diagnóstico carregados por aplicativos cliente, como o Skype for Business Server.)
   
-Como mostrado acima, quando o cmdlet Invoke-CsCdrDatabasePurge é executado, os parâmetros PurgeCallDetaiDataOlderThanDays e PurgeDiagnosticDataOlderThanDays devem ser incluídos. No entanto, esses parâmetros não precisam ser definidos com o mesmo valor. Por exemplo, é possível limpar registros de detalhes das chamadas com mais de 10 dias e, ao mesmo, tempo deixar todos os registros de dados de diagnósticos no banco de dados. Para fazer isso, defina PurgeCallDetailDataOlderThanDays como 10 e PurgeDiagnosticDataOlderThanDays como 0. Por exemplo:
+Como mostrado acima, quando o cmdlet Invoke-CsCdrDatabasePurge é executado, os parâmetros PurgeCallDetaiDataOlderThanDays e PurgeDiagnosticDataOlderThanDays devem ser incluídos. No entanto, esses parâmetros não precisam ser definidos com o mesmo valor. Por exemplo, é possível limpar registros de detalhes das chamadas com mais de 10 dias e, ao mesmo, tempo deixar todos os registros de dados de diagnósticos no banco de dados. Para fazer isso, defina PurgeCallDetailDataOlderThanDays para 10 e PurgeDiagnosticDataOlderThanDays como 0. Por exemplo:
   
 ```
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 0

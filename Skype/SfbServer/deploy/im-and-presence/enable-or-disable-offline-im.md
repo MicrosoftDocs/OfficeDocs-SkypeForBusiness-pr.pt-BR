@@ -1,36 +1,36 @@
 ---
-title: Habilitar ou desabilitar Offline mensagens instantâneas (IM) no Skype para Business Server
+title: Habilitar ou desabilitar mensagens instantâneas (IM) offline no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
-description: Aprenda a habilitar ou desabilitar Offline as mensagens Instantâneas no Skype para Business Server.
-ms.openlocfilehash: fe3ce34fed4890c494fc987a4fc82ad5faf62764
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Saiba como habilitar ou desabilitar mensagens instantâneas (IM) offline no Skype for Business Server.
+ms.openlocfilehash: 77078b6092dc1d23dde1315c505c5baf26798b86
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894413"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289704"
 ---
-# <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>Habilitar ou desabilitar Offline mensagens instantâneas (IM) no Skype para Business Server
+# <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>Habilitar ou desabilitar mensagens instantâneas (IM) offline no Skype for Business Server
  
-Aprenda a habilitar ou desabilitar Offline as mensagens Instantâneas no Skype para Business Server.
+Saiba como habilitar ou desabilitar mensagens instantâneas (IM) offline no Skype for Business Server.
   
-## <a name="enable-offline-instant-messaging-im-in-skype-for-business-server"></a>Habilitar Offline mensagens instantâneas (IM) no Skype para Business Server
+## <a name="enable-offline-instant-messaging-im-in-skype-for-business-server"></a>Habilitar mensagens instantâneas offline no Skype for Business Server
 
-Mensagens Instantâneas offline são um recurso do lado cliente incorporado ao Skype para o cliente de negócios (2016 C2R build 16.0.6701.1000 ou superior) que aproveita os serviços de Web do Exchange (EWS) para enviar mensagens do Skype para o cliente de negócios, caixa de correio do Exchange do usuário. Offline IM usa serviços Web do Exchange (EWS) para enviar mensagens Offline do Skype para o cliente de negócios para a caixa de correio do destinatário. EWS deve estar disponível para o Skype para o cliente de negócios para mensagens Offline a serem enviadas. Para saber mais sobre o planejamento de mensagens instantâneas e presença, consulte [Planejar a mensagens instantâneas e presença no Skype para Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).
+As mensagens instantâneas offline são um recurso do lado do cliente incorporado ao cliente Skype for Business (2016 C2R Build 16.0.6701.1000 ou superior) que aproveita os serviços Web do Exchange (EWS) para enviar mensagens do cliente Skype for Business para a caixa de correio do Exchange de um usuário. As mensagens INSTANTÂNEAs offline usam o EWS (Exchange Web Services) para enviar mensagens offline do cliente Skype for Business para a caixa de correio do destinatário. O EWS deve estar disponível para o cliente Skype for Business para que as mensagens offline sejam enviadas. Para saber mais sobre como planejar mensagens instantâneas e presença, consulte [planejar mensagens instantâneas e presença no Skype for Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).
   
 > [!NOTE]
-> Se a caixa de correio do usuário está hospedada no Exchange local, o Skype para o cliente de negócios (2016 C2R build 16.0.6920.1000) é necessária 
+> Se a caixa de correio do usuário estiver hospedada no Exchange local, será necessário o cliente Skype for Business (2016 C2R Build 16.0.6920.1000) 
   
-### <a name="to-enable-or-disable-offline-im-in-skype-for-business-server"></a>Para habilitar ou desabilitar Offline mensagens Instantâneas no Skype para Business Server
+### <a name="to-enable-or-disable-offline-im-in-skype-for-business-server"></a>Para habilitar ou desabilitar mensagens instantâneas offline no Skype for Business Server
 
-1. Abra o Skype do Shell de gerenciamento do servidor de negócios.
+1. Abra o Shell de gerenciamento do Skype for Business Server.
     
 2. Execute o comando a seguir para habilitar o IM Offline.
     
@@ -39,9 +39,9 @@ Mensagens Instantâneas offline são um recurso do lado cliente incorporado ao S
    ```
 
     > [!NOTE]
-    > No Skype para Business Server 2015 CU3, a opção de EnableOfflineIM é definida como $True, por padrão. Para desabilitá-la, defina esse valor como $False. 
+    > No Skype for Business Server 2015 CU3, a opção EnableOfflineIM é definida como $True por padrão. Para desabilitá-la, defina esse valor como $False. 
   
-3. Execute o seguinte comando para confirmar a capacidade de armazenar Offline IM estiver definida.
+3. Execute o seguinte comando para confirmar se o recurso armazenar mensagens de chat offline está definido.
     
    ```
    Get-CsImConfiguration
@@ -51,17 +51,17 @@ Mensagens Instantâneas offline são um recurso do lado cliente incorporado ao S
 
 O IM Offline não estará disponível para os remetentes se eles tiverem uma política de cliente que desabilite o salvamento automático de mensagens offline na pasta do histórico da conversa (EnableIMAutoArchiving = $false). Não há nenhum mecanismo para verificar se o destinatário é capaz de receber mensagens offline.
   
-Para Offline mensagens enviadas dentro da mesma organização que eles serão recebidos como uma mensagem de email com a classe de mensagem das mensagens Instantâneas. Note.MissedConversation e será incluído na pasta do Outlook **Conversas perdidas** , bem como histórico da conversa que será obtido no guia de histórico de lista/conversa recente do Skype para clientes corporativos.
+Para mensagens offline enviadas dentro da mesma organização, elas serão recebidas como uma mensagem de email com classe de mensagem de mensagem instantânea. Note. MissedConversation e será incluído na pasta de **conversa perdida** do Outlook, bem como histórico de conversas que será retirado na guia lista/histórico de conversas recentes dos clientes do Skype for Business.
   
 Para mensagens offline enviadas de organização federada, elas serão recebidas como mensagens de email sem IM.Note.MisssedConversation e não serão incluídas nas pastas de histórico da conversa nem de conversas perdidas. 
   
 ## <a name="troubleshooting"></a>Solução de problemas
 
-Não há um timer minuto dois quando uma mensagem offline é enviado a quando ele tem buscadas e processadas. Se mensagens offline não podem ser processadas, eles aparecerão no seguinte diretório: 
+Há um temporizador de dois minutos quando uma mensagem offline é enviada quando é retirada e processada. Se não for possível processar mensagens offline, elas aparecerão no seguinte diretório: 
   
   <pre>  %localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler   </pre>
 
-O Skype principal para o log de negócios ETL irá conter informações sobre o processamento de mensagens Offline e é a melhor fonte para solução de problemas/investigação. 
+O log de ETL principal do Skype for Business conterá informações sobre o processamento de mensagens offline e será a melhor fonte de investigação/solução de problemas. 
   
 > [!NOTE]
 > Foi relatado um problema em que as mensagens offline não eram enviadas e a pasta "Rascunhos" era preenchida com mensagens. Isso ocorria em caixas de correio do Exchange no Local. O problema foi resolvido em todos os canais C2R em 14/06/2016.   

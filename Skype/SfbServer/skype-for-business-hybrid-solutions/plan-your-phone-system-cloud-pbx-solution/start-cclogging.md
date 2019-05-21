@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
 description: 'O cmdlet Start-CcLogging para de gerar logs de chamadas de entrada e de saída para o dispositivo do Skype for Business Cloud Connector Edition. '
-ms.openlocfilehash: 2a7d859851ae8433bde0b86f797e257de29f74f4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 6e77ff347ca72a9aa31ad7bcb5a0330a8ea17a9a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892501"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286919"
 ---
 # <a name="start-cclogging"></a>Start-CcLogging
  
@@ -44,7 +44,7 @@ Start-CcLogging
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-O cmdlet Start-CcLogging fornece uma maneira dos administradores iniciar o registro de chamadas de entrada e saídas em um aparelho de conector de nuvem. Por padrão, o registro em log para automaticamente depois de quatro horas.
+O cmdlet Start-CcLogging fornece uma maneira para os administradores começarem a registrar chamadas de entrada e de saída em um aparelho de conector de nuvem. Por padrão, o registro em log para automaticamente depois de quatro horas.
   
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

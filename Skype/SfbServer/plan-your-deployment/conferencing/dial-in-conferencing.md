@@ -1,29 +1,29 @@
 ---
-title: Planejar a conferência discada no Skype for Business Server
+title: Plano para conferência discada no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
-description: 'Resumo: Leia este tópico para saber mais sobre o planejamento de conferência discada em Skype para Business Server.'
-ms.openlocfilehash: 6df8e06ecbbf6da67d34b7b6332ed2f2ca93e50c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Leia este tópico para saber mais sobre o planejamento de conferência discada no Skype for Business Server.'
+ms.openlocfilehash: e5c058f614ca7201815cb623d45fd28c18520b85
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885508"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277325"
 ---
-# <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Planejar a conferência discada no Skype for Business Server
+# <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Plano para conferência discada no Skype for Business Server
  
-**Resumo:** Leia este tópico para saber mais sobre o planejamento de conferência discada em Skype para Business Server.
+**Resumo:** Leia este tópico para saber mais sobre como planejar a conferência discada no Skype for Business Server.
   
-Conferência discada é um recurso opcional do Skype para Business Server que permite que os participantes da reunião ingressar na parte de áudio de uma reunião chamando reunião de um telefone. A conferência discada é um subconjunto da conferência de áudio e exige configuração adicional. Este tópico descreve o que você precisa considerar antes de implantar a conferência discada em sua organização. 
+A conferência discada é um recurso opcional do Skype for Business Server que permite que os participantes da reunião ingressem na parte de áudio de uma reunião ligando para a reunião a partir de um telefone. A conferência discada é um subconjunto da conferência de áudio e exige configuração adicional. Este tópico descreve o que você precisa considerar antes de implantar a conferência discada em sua organização. 
   
-Alguns dos componentes necessários para conferência discada são específicas para conferência discada e alguns componentes do Enterprise Voice. Embora a conferência discada use alguns dos mesmos componentes do Enterprise Voice, você pode implantar a conferência discada mesmo se não implantar o Enterprise Voice. Esta seção descreve os componentes necessários para a conferência discada. Para obter mais informações sobre como planejar uma solução completa do Enterprise Voice, consulte [planejar sua solução do Enterprise Voice no Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
+Alguns dos componentes necessários para a conferência discada são específicos para conferência discada e alguns são componentes Enterprise Voice. Embora a conferência discada use alguns dos mesmos componentes do Enterprise Voice, você pode implantar a conferência discada mesmo se não implantar o Enterprise Voice. Esta seção descreve os componentes necessários para a conferência discada. Para obter mais informações sobre como planejar uma solução completa Enterprise Voice, consulte [planejar sua solução Enterprise Voice no Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
   
 A conferência discada exige que você forneça conectividade à Rede Telefônica Pública Comutada (PSTN) com a implantação de um Servidor de Mediação. Além de implantar um Servidor de Mediação, será necessário considerar o seguinte para permitir a conferência discada em sua organização:
   
@@ -38,7 +38,7 @@ A conferência discada exige que você forneça conectividade à Rede Telefônic
 - Suporte para usuários corporativos e anônimos
     
 > [!NOTE]
-> Se você implantar a conferência discada, você deverá implantá-lo em cada pool onde você implanta o Skype para conferências Business Server. Não é necessário atribuir números de acesso (os números para os quais os participantes ligam para participar de uma conferência) em cada pool, mas você deve implantar o recurso de discagem em cada pool. Esse requisito oferece suporte ao recurso de nome registrado quando um usuário disca um número de acesso de um pool para ingressar em uma Skype para conferência Business Server em um pool diferente. 
+> Se você implantar a conferência discada, deve implantá-la em todos os pools nos quais implantou a conferência do Skype for Business Server. Não é necessário atribuir números de acesso (os números para os quais os participantes ligam para participar de uma conferência) em cada pool, mas você deve implantar o recurso de discagem em cada pool. Esse requisito dá suporte ao recurso de nome registrado quando um usuário chama um número de acesso de um pool para ingressar em uma conferência do Skype for Business Server em um pool diferente. 
   
 ## <a name="plan-for-pstn-connectivity"></a>Planejamento de conectividade PSTN
 
@@ -48,7 +48,7 @@ Você pode implantar um Servidor de Mediação em um site central ou em um site 
   
 Você pode implantar um gateway PSTN em um site central ou em um site de filial. Em um site de filial, o gateway PSTN pode ser autônomo ou um componente do Aparelho de Filial Persistente.
   
-Para obter detalhes sobre o servidor de mediação e requisitos de gateway PSTN, consulte o [componente de servidor de mediação em Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [implantar um servidor de mediação no construtor de topologia no Skype para Business Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)e [definir um gateway na topologia Construtor de Skype para Business Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
+Para obter detalhes sobre os requisitos do servidor de mediação e do gateway PSTN, consulte [componente do servidor de mediação no Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [implantar um servidor de mediação no construtor de topologias no servidor do Skype for Business](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)e [definir um gateway na topologia Construtor no Skype for Business Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>Planejamento para planos de discagem, números de acesso e regiões de conferência
 
@@ -76,19 +76,19 @@ Antes de configurar os planos de discagem, é importante planejar como você des
     
 - Por padrão, todos os números de acesso de discagem para a região são incluídos no convite da região.
     
-- É importante nomear regiões para que sejam claramente reconhecíveis. O usuário pode usar estes nomes das regiões para alterar a região de uma reunião, para que diferentes números de acesso sejam incluídos no convite. (Quando os usuários utilizam o Outlook para agendar uma reunião, o usuário usa o suplemento de Reunião Online para Skype for Business para alterar a região).
+- É importante nomear regiões para que sejam claramente reconhecíveis. O usuário pode usar estes nomes das regiões para alterar a região de uma reunião, para que diferentes números de acesso sejam incluídos no convite. (Quando os usuários usam o Outlook para agendar uma reunião, o usuário usa o suplemento de reunião online para o Skype for Business alterar a região).
     
 - Regiões devem ser criadas para que qualquer convidado que deseje discar para uma conferência possa ver um número de acesso local no convite da conferência.
     
-- Você pode configurar a ordem na qual o acesso números dentro de uma região aparecem na página Configurações de conferência discada (e, portanto, a ordem em que aparecem no convite da conferência) usando Skype para cmdlets do Shell de gerenciamento do servidor de negócios.
+- Você pode configurar a ordem em que os números de acesso dentro de uma região aparecem na página de configurações da conferência discada (e, portanto, a ordem em que aparecem no convite de conferência) usando cmdlets do Shell de gerenciamento do Skype for Business Server.
     
 - Qualquer usuário de qualquer localização pode ligar para qualquer número de acesso de discagem para entrar em uma conferência.
     
-Para obter mais informações sobre como criar um plano de discagem, consulte [criar ou modificar um plano de discagem no Skype para Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) e [criar ou modificar uma regra de normalização no Skype para negócios](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
+Para obter mais informações sobre como criar um plano de discagem, consulte [criar ou modificar um plano de discagem no Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) e [criar ou modificar uma regra de normalização no Skype for Business](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
   
 ## <a name="plan-for-conference-directories"></a>Planejamento para diretórios de conferência
 
-Diretórios de conferência mantêm um mapeamento entre o ID de reunião alfanuméricos que um participante usa para ingressar em uma conferência ao usar o Skype para negócios e a ID de conferência apenas numérica que um participante de conferência discada usa para ingressar na conferência. O formato do ID de conferência é como segue:
+As pastas de conferência mantêm um mapeamento entre a ID de reunião alfanumérica que um participante usa para ingressar em uma conferência ao usar o Skype for Business e a ID de conferência somente numéricos que um participante de conferência discada usa para participar da conferência. O formato do ID de conferência é como segue:
   
 ```
 <housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
@@ -98,7 +98,7 @@ Criar vários diretórios de conferência garantirá que os IDs de conferência 
   
 ## <a name="plan-for-a-conferencing-policy-that-allows-dial-in-access"></a>Planejamento de uma política de conferência que permite acesso de discagem
 
-Conferências devem ser habilitadas para acesso de discagem ao configurar políticas de conferência. Por padrão, as conferências que estão ativadas para o acesso de discagem incluem as seguintes informações na solicitação de conferência:
+As conferências devem estar habilitadas para acesso discado quando você configura políticas de conferência. Por padrão, as conferências que estão ativadas para o acesso de discagem incluem as seguintes informações na solicitação de conferência:
   
 - Uma ID numérica de conferência que identifica a conferência
     
@@ -106,16 +106,16 @@ Conferências devem ser habilitadas para acesso de discagem ao configurar polít
     
 - Um link para uma página Configurações de Conferência Discada, que contém uma lista completa dos números de acesso com os seus idiomas associados; um lugar para criar, redefinir ou desbloquear os números de identificação pessoal (PINs); e outras informações, como controles de multifrequência de tom dual (DTMF)
     
-Para obter mais informações sobre diretivas de conferência, consulte [Configure a conferência discada no Skype para Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md) e [Gerenciar políticas de conferência no Skype para Business Server](../../manage/conferencing/conferencing-policies.md).  
+Para obter mais informações sobre políticas de conferência, consulte [Configurar conferência discada no Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md) e [gerenciar políticas de conferência no Skype for Business Server](../../manage/conferencing/conferencing-policies.md).  
 
 ## <a name="support-for-enterprise-and-anonymous-users"></a>Suporte para usuários corporativos e anônimos
 
-A conferência de discagem suporta aos usuários corporativos e anônimos. Os usuários corporativos ter credenciais do Active Directory Domain Services e Skype para contas Business Server dentro da sua organização. Os usuários anônimos não têm credenciais da empresa dentro de sua organização. No contexto de conferência discada, um usuário na organização do parceiro federado que usa a PSTN para se conectar a uma conferência é tratado como um usuário anônimo. Diferentemente de em outros contextos, para a conferência discagem os usuários federados não são autenticados.
+A conferência de discagem suporta aos usuários corporativos e anônimos. Os usuários da empresa têm credenciais de serviços de domínio Active Directory e contas do Skype for Business Server em sua organização. Os usuários anônimos não têm credenciais da empresa dentro de sua organização. No contexto de conferência discada, um usuário em uma organização de um parceiro federado que usa a PSTN para se conectar a uma conferência é tratado como um usuário anônimo. Diferentemente de em outros contextos, para a conferência discagem os usuários federados não são autenticados.
   
 Os usuários corporativos ou líderes de conferência que ingressam em uma conferência estão habilitados para o acesso de discagem discam um dos números de acesso de conferência e, em seguida, são solicitados a inserir o ID de conferência. Se um líder ainda não ingressou na reunião, os usuários podem digitar a sua extensão de comunicações unificadas (UC) (ou número de telefone completo) e PIN ou aguardar para ser admitidos pelo líder. Os organizadores de reuniões podem ingressar na reunião como líderes apenas digitando o seu PIN. O Servidor de Front-End usa a combinação do número completo ou extensão de telefone e o PIN, para mapear exclusivamente os usuários corporativos para as credenciais do Active Directory. Como resultado, os usuários corporativos são autenticados e identificados pelo nome da conferência. Os usuários corporativos também podem assumir um papel de conferência predefinido pelo organizador.
   
 > [!NOTE]
-> Os usuários corporativos que discam a partir de um telefone IP do office ou Skype para Business Server Attendant não são solicitados para seu número de telefone, porque eles já estão autenticados. 
+> Os usuários da empresa que discam de um telefone IP do Office ou do Skype for Business Server Attendant não são solicitados a fornecer o número de telefone porque já estão autenticados. 
   
 Os usuários anônimos que desejem ingressar em uma conferência de discagem discam um dos números de acesso de conferência e, em seguida, são solicitado a inserir o ID de conferência. Os usuários anônimos não autenticados também têm que registrar o seu nome. O nome gravado identifica os usuários não autenticados na conferência. Os usuários anônimos não são admitidos na conferência até que pelo menos um líder ou usuário autenticado ingresse e não é possível atribuir uma função predefinida.
   

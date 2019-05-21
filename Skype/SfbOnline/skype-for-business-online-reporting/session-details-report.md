@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,104 +18,104 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: O novo painel Relatórios do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto.
-ms.openlocfilehash: c4f3040c759deefc222c6243d80de393e18befe9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 62b64fd971d776b265d7b78789e8ac7684cc5e26
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240601"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302083"
 ---
 # <a name="session-details-report"></a>Relatório de detalhes da sessão
 
-O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 da sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório do **Skype para obter detalhes de sessão de negócios** para ver detalhes sobre as experiências de chamada do usuário individual.
+O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 da sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório de **detalhes da sessão do Skype for Business** para ver detalhes sobre as experiências de chamadas de um usuário individual.
   
-Confira a [Visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) mais de relatórios estão disponíveis.
+Consulte a [visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para ver mais relatórios disponíveis.
   
-Nesse relatório, juntamente com o outro Skype para relatórios de negócios fornecem detalhes sobre a atividade em toda a organização, incluindo detalhes de sessão. Esses detalhes são muito úteis quando você investigando, planejamento e tornando outros negócios decisões para sua organização e para configurar [créditos de comunicações](/microsoftteams/what-are-communications-credits).
+Esse relatório, juntamente com os outros relatórios do Skype for Business, fornece detalhes sobre atividades, incluindo detalhes da sessão em toda a organização. Esses detalhes são muito úteis quando você está investigando, planejando e fazendo outras decisões empresariais para a sua organização e para configurar [créditos de comunicações](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
 > [!OBSERVAçãO] Você pode ver todos os relatórios do Skype for Business ao fazer logon como um administrador no Centro de administração do Office 365. 
   
-## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>Relatório de detalhes de como obter para o Skype para sessão de negócios
+## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>Como acessar o relatório de detalhes da sessão do Skype for Business
 
-1. Vá para o **Centro de administração do Office 365** > **relatórios**
+1. Vá para os > **relatórios** do **centro de administração do Office 365**
     
 2. Selecione **relatórios** no menu à esquerda e clique em **uso**.
     
-3. Na lista em **Selecione um relatório**, clique em **Skype para obter detalhes de sessão de negócios**.
+3. Na lista em **selecionar um relatório**, clique em **detalhes da sessão do Skype for Business**.
     
     > [!TIP]
-    > Se você não vir esse relatório listado, vá para **Skype para centro de administração de negócios** > **relatórios** > **detalhes da sessão**. 
+    > Se você não vir esse relatório listado, acesse o >  **centro de administração do Skype for Business****relata** > **detalhes da sessão**. 
   
     > [!IMPORTANT]
     > [!IMPORTANTE] Dependendo da sua assinatura do Office 365, talvez você não veja todos os produtos e relatórios mostrados aqui. 
   
-## <a name="interpret-the-skype-for-business-session-details-report"></a>Interpretar o Skype para relatório de detalhes de sessão de negócios
+## <a name="interpret-the-skype-for-business-session-details-report"></a>Interpretar o relatório de detalhes da sessão do Skype for Business
 
-Você pode obter um modo de exibição em Skype do seu usuário para obter detalhes de sessão de negócios examinando cada uma das colunas que são exibidas.
+Você pode obter uma visão dos detalhes da sessão do Skype for Business do seu usuário examinando cada uma das colunas que são exibidas.
   
 Esta é a aparência do relatório.
   
-![Skype para painel de relatório de detalhes de sessão de negócios.](../images/3d87ab39-6eaa-46b5-b5f9-7f54dc987ae0.png)
+![Painel de relatório de detalhes da sessão do Skype for Business.](../images/3d87ab39-6eaa-46b5-b5f9-7f54dc987ae0.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>**Usuário de pesquisa por alias** permite que você pesquise um único usuário e exibe todos os detalhes de sessão do usuário na tabela a seguir. 
+![Número 1](../images/sfbcallout1.png)<br/>**Pesquisar usuário por alias** permite que você pesquise um único usuário e exiba todos os detalhes da sessão do usuário na tabela abaixo. 
 ***
-![Número 2](../images/sfbcallout2.png)<br/>**ENTER de data hora** permite que você colocar na data de início. Você pode usar o calendário para selecionar a data ou insira a data manualmente. Este campo deve ser preenchido.
+![Número 2](../images/sfbcallout2.png)<br/>**Enter a partir de data e hora** permite que você coloque a data de início. Você pode usar o calendário para selecionar a data ou inserir a data manualmente. Este campo deve ser preenchido.
 ***
-![Número 3](../images/sfbcallout3.png)<br/>**Digite a data hora** permite que você colocar na data final. Você pode usar o calendário para selecionar a data ou insira a data manualmente. Se nenhuma data final estiver definida, o padrão é 30 dias a partir da data de início.
+![Número 3](../images/sfbcallout3.png)<br/>**Inserir data e hora** permite que você coloque a data de término. Você pode usar o calendário para selecionar a data ou inserir a data manualmente. Se nenhuma data de término for definida, o padrão será 30 dias a partir da data de início.
 ***
-![Número 4](../images/sfbcallout4.png)<br/>A tabela mostra uma divisão das todos os detalhes de sessão por usuário. Todos os usuários que possuem Skype para negócios atribuídos a eles e suas informações de sessão é exibida. Você pode adicionar/remover colunas na tabela. <br/><br/>A tabela tem as seguintes colunas para cada sessão:
-*    **ID de diálogo** é a ID para o identificador exclusivo da sessão SIP.
-*    **Descrição de tipos de mídia** descreve se a sessão é uma chamada em conferência ou uma sessão de P2P e o tipo de mídia usado (compartilhamento de áudio/vídeo/aplicativo).
-*    **Hora de início** é a hora de início da sessão.
-*    **Hora de término** é o horário em que a sessão terminou.
-*    **Do URI** é o URI do usuário ou serviço que iniciou a sessão. Poderá estar vazia se o usuário que iniciou a sessão de um telefone PSTN.
-*    **URI** é o URI do usuário ou serviço que foi o destino de iniciação de sessão. No caso de conferência, esse é o URI do organizador. Poderá estar vazia se o destino da sessão fosse um número de telefone da PSTN.
+![Número 4](../images/sfbcallout4.png)<br/>A tabela mostra um detalhamento de todos os detalhes da sessão por usuário. Isso mostra todos os usuários que têm o Skype for Business atribuído a eles e suas informações de sessão. Você pode adicionar/remover colunas na tabela. <br/><br/>A tabela tem as seguintes colunas para cada sessão:
+*    A **ID da caixa de diálogo** é a ID do identificador exclusivo da sessão SIP.
+*    **Descrição de tipos de mídia** descreve se a sessão é uma chamada em conferência ou uma sessão ponto a ponto e o tipo de mídia usado (compartilhamento de áudio/vídeo/aplicativos).
+*    A **hora de início** é a hora de início da sessão.
+*    A **hora de término** é a hora de término da sessão.
+*    **From URI** é o URI do usuário ou serviço que iniciou a sessão. Pode estar em branco se o usuário iniciou a sessão a partir de um telefone PSTN.
+*    **Para URI** é o URI do usuário ou serviço que era o destino do início da sessão. No caso da conferência, esse é o URI do organizador. Pode estar em branco se o destino da sessão for um número de telefone PSTN.
 *    **Da versão do cliente** informa o agente de usuário e a versão do cliente usado pelo usuário ou serviço que iniciou a sessão.
-*    **A versão de cliente** informa o agente de usuário e a versão do cliente usado pelo usuário ou serviço que foi o destino de iniciação de sessão.
-*    **URL de conferência** é a URL do SIP da conferência, se a sessão foi uma chamada em conferência. Todos os usuários na mesma chamada em conferência terá a mesma URL de conferência. 
-*    **Número de Tel** é o número de telefone que foi o destino da sessão, se aplicável. Os últimos dígitos do número de telefone podem ser substituídos pelo x para proteger a privacidade do usuário.
-*    **Número de Tel para** é o número de telefone que foi o destino da sessão, se aplicável. Os últimos dígitos do número de telefone podem ser substituídos pelo x para proteger a privacidade do usuário.
-*    **Do ponto de extremidade Id** é um GUID exclusivo do ponto de extremidade usado pelo usuário From. Usado para identificar se o usuário está se comunicando várias sessões do mesmo ponto de extremidade. Poderá estar vazia se o usuário está usando um telefone PSTN ou se a sessão foi iniciada a partir de um serviço.
-*    **A Id de ponto de extremidade** é um GUID exclusivo do ponto de extremidade usado pelo usuário para. Usado para identificar se o usuário está se comunicando várias sessões do mesmo ponto de extremidade. Poderá estar vazia se o usuário está usando um telefone PSTN, se a sessão foi iniciada a partir de um serviço ou uma sessão falhou ao estabelecer.
-*    **Instância conf** é um GUID exclusivo para a instância de uma conferência usando a URL de conferência. Reuniões recorrentes terá a mesma URL de conferência, mas cada instância da reunião terá uma diferença Conf instância.
-*    **Em nome de URI** é o URI do representante em cujo nome a sessão seja estabelecida. <br/> **Conhecido por URI** é o URI do usuário que se refere o estabelecimento de uma sessão.
+*    **Para a versão do cliente** informa o agente de usuário e a versão do cliente usado pelo usuário ou serviço que era o destino do início da sessão.
+*    **URL da conferência** é a URL do SIP para a conferência, se a sessão for uma chamada em conferência. Todos os usuários na mesma chamada em conferência terão a mesma URL de conferência. 
+*    **Do número de telefone celular** é o número de telefone que era o alvo da sessão, se aplicável. Os últimos dígitos do número de telefone podem ser substituídos por ' x ' para proteger a privacidade do usuário.
+*    **Para telefone celular** é o número de telefone que era o alvo da sessão, se aplicável. Os últimos dígitos do número de telefone podem ser substituídos por ' x ' para proteger a privacidade do usuário.
+*    **De ID de ponto de extremidade** é um GUID exclusivo do ponto de extremidade usado pelo usuário de. Usado para identificar se o usuário está comunicando várias sessões do mesmo ponto de extremidade. Pode estar em branco se o usuário estiver usando um telefone PSTN ou se a sessão foi iniciada a partir de um serviço.
+*    **Para ID de ponto de extremidade** é um GUID exclusivo do ponto de extremidade usado pelo usuário para. Usado para identificar se o usuário está comunicando várias sessões do mesmo ponto de extremidade. Pode estar em branco se o usuário estiver usando um telefone PSTN, se a sessão foi iniciada a partir de um serviço ou uma sessão não pôde estabelecer uma sessão.
+*    **Conf instância** é um GUID exclusivo da instância da conferência que usa a URL da conferência. Reuniões recorrentes terão a mesma URL de conferência, mas cada instância da reunião terá uma ocorrência de conf de diferença.
+*    **Em nome do URI** é o URI da delegação em nome do qual a sessão está sendo estabelecida. <br/> **Referenciado por URI** é o URI do usuário que se referiu ao estabelecimento de uma sessão.
 *    **Código de resposta** é o código de resposta SIP para o estabelecimento da sessão que indica se a sessão foi estabelecida com êxito.
 
-Para cada sessão, há uma tabela de sub com dados diferentes disponíveis, dependendo do cenário. A seguir lista as guias disponíveis na tabela sub para From e para o usuário ou serviços.
-*    Guia de sessão mostra dados sobre os sistemas operacionais e de máquinas.
-*    Guia MEDIALINES mostra informações de conectividade de rede e informações do dispositivo.
-*    Guia AUDIOSTREAMS mostra dados de desempenho de rede sobre os fluxos de áudio envolvido na sessão.
-*    Guia AUDIOCLIENTEVENTS mostra dados sobre problemas de cliente detectada afeta a experiência de áudio.
-*    Guia AUDIOSIGNALS mostra dados sobre o sinal de áudio de processamento para a sessão.
-*    Guia APPSHARINGSTREAMS mostra os dados de desempenho de rede sobre o compartilhamento de aplicativos ou fluxos de compartilhamento da área de trabalho envolvido na sessão.
-*    Guia VIDEOCLIENTEVENTS mostra dados sobre problemas de cliente detectada afeta a experiência de vídeo.
-*    Guia VIDEOSTREAMS mostra dados de desempenho de rede sobre os fluxos de vídeo envolvido na sessão.
-*    Guia de rastrear ROTAS mostra os saltos de rede coletados via traceroute durante a sessão. O caminho de mídia real usado para a sessão pode variar e esses dados só estão disponíveis quando não há áudio na sessão.
-*    Guia FEEDBACKREPORTS mostra qualquer fim dos dados de pesquisa de chamada fornecidos pelos usuários na sessão.
+Para cada sessão, há uma subtabela com dados diferentes disponíveis, dependendo do cenário. Os itens a seguir listam as guias disponíveis na subtabela dos usuários ou serviços de e para.
+*    A guia sessão mostra dados sobre máquinas e sistemas operacionais.
+*    MEDIALINES guia mostrar informações de conectividade de rede e informações de dispositivo.
+*    AUDIOSTREAMS guia mostrar dados de desempenho de rede sobre os fluxos de áudio envolvidos na sessão.
+*    A guia AUDIOCLIENTEVENTS mostra dados sobre problemas detectados pelo cliente que afetam a experiência de áudio.
+*    AUDIOSIGNALS guia mostrar dados sobre o processamento de sinal de áudio para a sessão.
+*    APPSHARINGSTREAMS guia mostrar dados de desempenho de rede sobre compartilhamento de aplicativos ou fluxos de trabalho de compartilhamento de área de trabalho envolvidos na sessão.
+*    VIDEOCLIENTEVENTS guia mostrar dados sobre problemas detectados pelo cliente que afetam a experiência com vídeo.
+*    VIDEOSTREAMS guia mostrar dados de desempenho de rede sobre os fluxos de vídeo envolvidos na sessão.
+*    Guia TRACEROUTEs mostra os saltos de rede coletados via traceroute durante a sessão. O caminho de mídia real usado para a sessão pode variar e esses dados estão disponíveis apenas quando há áudio na sessão.
+*    A guia FEEDBACKREPORTS mostra qualquer fim dos dados da pesquisa de chamadas fornecidos pelos usuários na sessão.
 ***
 ![Número 5](../images/sfbcallout5.png)<br/>Clique para arrastar uma coluna para **Para agrupar por uma coluna específica, arraste e solte o cabeçalho da coluna aqui** se desejar criar uma exibição que agrupe todos os dados em uma ou mais colunas. 
 ***
 ![Número 6](../images/sfbcallout6.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar no botão **Exportar para Excel**.    <br/><br/> Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.  
    
-## <a name="want-to-see-other-skype-for-business-reports"></a>Deseja ver outro Skype para relatórios de negócios?
+## <a name="want-to-see-other-skype-for-business-reports"></a>Deseja ver outros relatórios do Skype for Business?
 
-- [Skype para relatório de atividade de negócios](activity-report.md) Você pode ver quanto os usuários estão usando-a-ponto, organizada e participado em sessões de conferência.
+- [Relatório de atividade do Skype for Business](activity-report.md) Você pode ver o quanto os usuários estão usando ponto a ponto, organizado e participando de sessões de conferência.
     
-- [Skype para o relatório de uso do dispositivo de negócios](device-usage-report.md) Você pode para ver os dispositivos, incluindo os sistemas operacionais baseados no Windows e dispositivos móveis que têm o Skype para o aplicativo de negócios instalados e usá-lo para mensagens Instantâneas e reuniões.
+- [Relatório de uso de dispositivos do Skype for Business](device-usage-report.md) Você pode ver os dispositivos, incluindo sistemas operacionais baseados em Windows e dispositivos móveis que têm o aplicativo Skype for Business instalado e o estão usando para mensagens instantâneas e reuniões.
     
-- [Skype para relatório de atividade do organizador de conferência de negócios](conference-organizer-activity-report.md) Você pode ver quanto a seus usuários são organizem conferências que utilizam o IM, áudio/vídeo, compartilhamento de aplicativo, Web, de terceiros confiáveis dial-in/out - 3rd e dial-in/out - Microsoft.
+- [Relatório de atividade do organizador de conferências do Skype for Business](conference-organizer-activity-report.md) Você pode ver o quanto os usuários estão organizando conferências que usam mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos, Web, dial-in/out-terceiro e discagem/saída-Microsoft.
     
-- [Skype para relatório de atividade de participante de conferência de negócios](conference-participant-activity-report.md) Você pode ver quantos compartilhamento de aplicativos de mensagens Instantâneas, áudio/vídeo, Web e conferências de conferência de discagem/saída estão sendo participou.
+- [Relatório atividade de participantes de conferências do Skype for Business](conference-participant-activity-report.md) Você pode ver a quantidade de mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos, conferência discada da Web e conferência que está sendo participada.
     
-- [Skype para relatório de atividade ponto a ponto de negócios](peer-to-peer-activity-report.md) Você pode ver quanto os usuários estão usando mensagens Instantâneas, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
+- [Relatório de atividade ponto a ponto do Skype for Business](peer-to-peer-activity-report.md) Você pode ver o quanto os usuários estão usando mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
     
-- [Skype para relatório de uso de PSTN de negócios](pstn-usage-report.md) Você pode ver o número de minutos gastos em chamadas de entrada/saída e de custo para essas chamadas.
+- [Relatório de uso de PSTN do Skype for Business](pstn-usage-report.md) Você pode ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas.
 
-- [Skype para usuários comerciais bloqueados relatório](users-blocked-report.md) Você pode ver os usuários em sua organização que foram bloqueados façam chamadas PSTN.
+- [Relatório de usuários bloqueados do Skype for Business](users-blocked-report.md) Você pode ver os usuários em sua organização que foram impedidos de fazer chamadas PSTN.
 
-- [Skype para relatório de minuto pools corporativos PSTN](pstn-minute-pools-report.md) , que você pode ver o número de minutos gastos durante o mês atual dentro da sua organização.
+- [Relatório de grupos de minutos PSTN do Skype for Business](pstn-minute-pools-report.md) você pode ver o número de minutos consumidos durante o mês atual dentro de sua organização.
     
 ## <a name="related-topics"></a>Tópicos relacionados
 [Relatórios de atividades no Centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

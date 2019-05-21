@@ -11,7 +11,7 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envie aos sus usuários um e-mail com as informações da audioconferência no Microsoft Teams.
-ms.openlocfilehash: 445e783fde44b3067c1bc595fa93c623404e40db
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7bc73e6663d206bdf65cfb21a3462d364a8c0fd7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205055"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305313"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Enviar um e-mail para um usuário com suas informações de audioconferência no Microsoft Teams
 
@@ -45,30 +45,30 @@ Aqui está um exemplo do e-mail que é enviado:
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar um e-mail com as informações da audioconferência para um usuário
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) Usando o Centro de administração do Microsoft Teams
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Teams-logo-30x30. png](media/teams-logo-30x30.png) Usar o centro de administração do Microsoft Teams
 
-1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
 
 2. Na parte superior da página, clique em **Editar**.
 
-3. Em **Conferência de áudio**, clique em **Enviar informações de conferência no email**.
+3. Em **conferência de áudio**, clique em **enviar informações de conferência por email**.
 
 
 ## <a name="what-else-should-you-know-about-this-email"></a>O que mais devo saber sobre esse email?
 
-- Há vários emails que serão enviadas aos usuários em sua organização depois que eles estão habilitados para conferência de áudio:
+- Há vários emails enviados para os usuários em sua organização após serem habilitados para conferências de áudio:
     
-  - Quando uma licença de **Conferência de áudio** é atribuída a eles.
+  - Quando uma licença de **conferência de áudio** é atribuída a ele.
     
-  - Quando você redefinir manualmente os serviços de audioconferência PIN do usuário.
+  - Quando você redefine manualmente o PIN de audioconferência de áudio do usuário.
     
   - Quando você redefine manualmente o ID de conferência do usuário.
     
-  - Quando uma licença de **Conferência de áudio** seja removida deles.
+  - Quando uma licença de **conferência de áudio** é removida.
     
-  - Quando o provedor de serviços de audioconferência para um usuário mudou da Microsoft para outro provedor ou **Nenhum**.
+  - Quando o provedor de serviços de audioconferência de um usuário for alterado da Microsoft para outro provedor ou **nenhum**.
     
-  - Quando o provedor de serviços de audioconferência para um usuário é alterado para Microsoft.
+  - Quando o provedor de serviços de audioconferência de um usuário for alterado para a Microsoft.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 

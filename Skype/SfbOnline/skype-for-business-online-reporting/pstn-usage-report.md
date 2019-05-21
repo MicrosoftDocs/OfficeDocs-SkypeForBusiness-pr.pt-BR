@@ -10,37 +10,37 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: O novo Skype para a área de relatórios do Centro de administração de negócios mostra você chamada e de áudio conferência atividade em sua organização. Ele permite extrair relatórios para proporcionar mais granular insight sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de detalhes do uso de PSTN do Skype for Business para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir os detalhes de uso de PSTN de conferência de áudio, incluindo o custo da chamada para que você possa entender o seu uso e chamada faturamento detalhes para determinar o uso em sua organização.
-ms.openlocfilehash: 2a0db39852169cbb4c1dacab178d2f5b3b96dc7e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: A nova área de relatórios do centro de administração do Skype for Business mostra a atividade de chamadas e conferência de áudio em sua organização. Ele permite que você faça uma busca detalhada nos relatórios para dar a você uma visão mais granular sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de detalhes do uso de PSTN do Skype for Business para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir os detalhes de uso de PSTN da videoconferência, incluindo o custo da chamada para que você possa entender seu uso e fazer chamadas para os detalhes de cobrança para determinar o uso dentro da sua organização.
+ms.openlocfilehash: e1753915753c110a615edb108b2ff98efe237aa6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239867"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287718"
 ---
 # <a name="pstn-usage-report"></a>Relatório de uso de PSTN
 
-O novo Skype para a área do Centro de administração de negócios **relatórios** mostra você chamada e de áudio conferência atividade em sua organização. Ele permite extrair relatórios para proporcionar mais granular insight sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de **detalhes do uso de PSTN do Skype for Business** para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir os detalhes de uso de PSTN de conferência de áudio, incluindo o custo da chamada para que você possa entender o seu uso e chamada faturamento detalhes para determinar o uso em sua organização.
+A nova área de **relatórios** do centro de administração do Skype for Business mostra a atividade de chamadas e conferência de áudio em sua organização. Ele permite que você faça uma busca detalhada nos relatórios para dar a você uma visão mais granular sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de **detalhes do uso de PSTN do Skype for Business** para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir os detalhes de uso de PSTN da videoconferência, incluindo o custo da chamada para que você possa entender seu uso e fazer chamadas para os detalhes de cobrança para determinar o uso dentro da sua organização.
   
-Confira a [Visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) mais de relatórios estão disponíveis.
+Confira a [visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para ver mais relatórios disponíveis.
   
-Nesse relatório, juntamente com o outro Skype para relatórios de negócios, oferece detalhes sobre a atividade, incluindo a chamar o uso em sua organização. Esses detalhes são muito úteis quando você investigando, planejamento e tornando outros negócios decisões para sua organização e para configurar a [comunicação créditos](/microsoftteams/what-are-communications-credits)
+Esse relatório, juntamente com os outros relatórios do Skype for Business, fornece detalhes sobre atividades, incluindo o uso de chamadas em toda a sua organização. Esses detalhes são muito úteis quando você está investigando, planejando e fazendo outras decisões empresariais para a sua organização e para configurar [créditos de comunicações](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
 > [!OBSERVAçãO] Você pode ver todos os relatórios do Skype for Business ao fazer logon como um administrador no Centro de administração do Office 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Como acessar o relatório de detalhes do uso de PSTN do Skype for Business
 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
 
-- Vá para **o Centro de administração do Office 365** > **Admin centrais** > **Skype para centro de administração de negócios** > **relatórios** > **detalhes de uso do PSTN**.
+- Vá para **Centro** > de administração do Office 365**centros** > **de administração do centro de administração do Skype for Business** > **relata** > **detalhes de uso de PSTN**.
     
     > [!NOTE]
     > [!IMPORTANTE] Dependendo da sua assinatura do Office 365, talvez você não veja todos os produtos e relatórios mostrados aqui. 
@@ -54,77 +54,77 @@ Esta é a aparência do relatório.
 ![Relatório de uso de PSTN do Skype for Business](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)
 
 ***
-![Número 1](../images/sfbcallout1.png)<br/>A tabela mostra uma divisão do uso de PSTN por usuário. Todos os usuários que possuem Skype para negócios atribuídos a eles e seu uso PSTN é exibida. Você pode adicionar/remover colunas na tabela.
-*    **ID de chamadas** é a ID de chamadas para uma chamada. É um identificador exclusivo para a chamada que é usada ao chamar o suporte de serviço da Microsoft.
+![Número 1](../images/sfbcallout1.png)<br/>A tabela mostra uma divisão do uso de PSTN por usuário. Isso mostra todos os usuários que têm o Skype for Business atribuído a eles e seu uso de PSTN. Você pode adicionar/remover colunas na tabela.
+*    A **ID da chamada** é a ID da chamada para uma chamada. É um identificador exclusivo para a chamada usada ao chamar o suporte ao serviço da Microsoft.
 *    **ID de usuário** é o nome que o usuário utiliza para entrar.
-*    **Número de telefone** é o Skype para o número de telefone comercial que recebeu a chamada para chamadas de entrada ou o número discado para chamadas de saída.
+*    **Número de telefone** é o número de telefone do Skype for Business que recebeu a chamada para as chamadas recebidas ou o número discado para chamadas de saída.
 *    **Local do usuário** é o país/região onde o usuário está localizado.
-*    **ID do chamador** é o número de telefone do chamador (ID de chamador) para chamadas de entrada, o número do qual a chamada foi originada ou o Skype para o número comercial do qual a chamada foi originada para chamadas de saída.
-*    **Tipo de chamada** é se a chamada foi chamada de uma PSTN de entrada ou de saída e o tipo de chamada por exemplo, uma chamada feita por um usuário ou uma conferência de áudio. Os tipos de chamada, talvez você veja são: 
+*    O recurso de **identificação** de chamadas é o número de telefone da pessoa (identificação de chamadas) para chamadas recebidas, o número do qual a chamada originou ou o número Skype for Business do qual a chamada originou as chamadas feitas.
+*    **Tipo de chamada** é se a chamada foi uma chamada PSTN ou uma chamada de entrada PSTN e o tipo de chamada, como uma chamada feita por um usuário ou uma conferência de áudio. Os tipos de chamadas que você pode ver são: 
 
-     **Tipos de chamada de plano de chamada** 
-     *    **user_in** (o usuário recebeu uma chamada de PSTN de entrada) 
-     *    **user_out** (o usuário feita uma chamada de PSTN de saída) 
-     *    **user_out_conf** (o usuário adicionado 2 ou mais participantes PSTN à chamada como uma chamada em conferência vias 3) 
-     *    **user_out_transfer** (o usuário transferir a chamada para um número PSTN) 
-     *    **user_out_forwarding** (o usuário encaminhadas a chamada para um número PSTN)
+     **Tipos de chamadas de plano de chamada** 
+     *    **user_in** (o usuário recebeu uma chamada PSTN de entrada) 
+     *    **user_out** (o usuário fez uma chamada PSTN de saída) 
+     *    **user_out_conf** (o usuário adicionou dois ou mais participantes PSTN à chamada, como uma chamada em conferência de 3 vias) 
+     *    **user_out_transfer** (o usuário transferiu a chamada para um número PSTN) 
+     *    **user_out_forwarding** (o usuário encaminhou a chamada para um número PSTN)
 
-     **Tipos de chamadas de conferência de áudio**
-     *    **conf_in** (uma chamada de entrada para a ponte de conferência de áudio) 
-     *    **conf_out** (uma chamada de saída da ponte de conferência de áudio geralmente para adicionar um número PSTN à conferência)
+     **Tipos de chamada de audioconferência**
+     *    **conf_in** (uma chamada de entrada para a ponte de audioconferência) 
+     *    **conf_out** (uma chamada de saída da ponte de videoconferência geralmente para adicionar um número PSTN à conferência)
 
      **Aplicativos de comunicação unificada (UCAP)** 
-     *    **ucap_in** (uma chamada PSTN entrada para o aplicativo de comunicação unificada como a fila de chamada e atendente automático) 
-     *    **ucap_out** (uma chamada PSTN saída do aplicativo de comunicação unificada, como a fila de chamada e atendente automático)
-     *    **Observação:** Chamadas que foram transferidas para um usuário do aplicativo de comunicação unificada como uma fila de espera chamada e atendente automático não aparecerá no relatório de uso de PSTN como estes trechos de chamada são chamadas de áudio ponto a ponto (P2P). Você pode acessar as chamadas de P2P no Skype para Business Admin Center em "REC0 gt _ Ferramentas Skype para análise de chamada de negócios" e pesquisar por nome de usuário ou SIP o endereço correlacionando a chamada por data/hora e/ou originadas CLID (ID de linha de chamada). 
+     *    **ucap_in** (uma chamada PSTN de entrada para o aplicativo de comunicação unificada, como atendedor automático ou fila de chamadas) 
+     *    **ucap_out** (uma chamada PSTN de saída do aplicativo UC, como atendedor automático ou fila de chamadas)
+     *    **Observação:** As chamadas que foram transferidas para um usuário do aplicativo UC, como um atendedor automático ou fila de chamadas, não aparecerão no relatório de uso de PSTN, pois esses trechos de chamadas são chamadas de áudio ponto a ponto (P2P). Você pode acessar as chamadas ponto a ponto no centro de administração do Skype for Business em "ferramentas > o Skype for Business Call Analytics" e Pesquisar por nome de usuário ou endereço SIP que correlaciona a chamada por data/hora e/ou CLID (identificação da linha de chamada). 
 *     
-     **Doméstico/internacional** informa se a chamada realizada era considerada internacionais (fora de um país/região) ou domésticas (dentro de um país/região) com base no local do usuário. 
-*    **Destino discado** é o nome do destino do país/região que é discado como França, Alemanha ou dos Estados Unidos (EUA). 
-*    **Tipo de número** é o tipo de número de telefone do número de telefone do usuário, um serviço ou número de chamada gratuito.  
+     **Doméstica/internacional** informa se a chamada que foi feita foi considerada doméstica (dentro de um país/região) ou internacional (fora de um país/região) com base na localização do usuário. 
+*    **Destino discado** é o nome do destino de país/região que é discado, como França, Alemanha ou Estados Unidos (EUA). 
+*    **Tipo de número** é o tipo de número de telefone do número de telefone de um usuário, um serviço ou número de chamada gratuita.  
 *    **Hora de Início (UTC)** é a hora que a chamada foi iniciada ou feita. 
 *    **Duração** é o tempo em que a chamada esteve conectada.  
-*    **ConfID** é a ID de conferência da conferência de áudio. 
-*    **Cobrança** é a quantidade de dinheiro ou o custo da chamada que está sendo carregada à sua conta. 
+*    **Confid** é a ID de conferência da conferência de áudio. 
+*    **Encargo** é a quantia de dinheiro ou o custo da chamada que está sendo cobrada na sua conta. 
 *    **Moeda** é o tipo de moeda que é usado para calcular o custo da chamada. 
-*    **O recurso** é a licença usada para a chamada. Os tipos de licença, talvez você veja são: 
-     *    **MCOPSTNPP** - créditos de comunicações <br/> **MCOPSTN1** - domésticas chamar planejar (min 3000 US / planos de 1200 min da UE) 
-     *    **MCOPSTN2** - plano de chamadas internacionais 
-     *    **MCOPSTN5** - domésticas chamar Plan (plano de chamada 120 min) 
-     *    **MCOPSTN6** - domésticas chamar Plan (plano de chamada min 240) Observação: disponibilidade limitada
-     *    **MCOMEETADD** - serviços de audioconferência
-     *    **MCOMEETACPEA** - pagamento por minuto serviços de audioconferência
+*    **Recurso** é a licença usada para a chamada. Os tipos de licença que você pode ver são: 
+     *    **MCOPSTNPP** -créditos de comunicações <br/> **MCOPSTN1** -plano de chamadas domésticas (3000 min-US/1200 min) planos da UE) 
+     *    **MCOPSTN2** -plano de chamadas internacionais 
+     *    **MCOPSTN5** -plano de chamadas domésticas (120 min – plano de chamadas) 
+     *    **MCOPSTN6** -plano de chamadas domésticas (240 min-plano de chamadas) Nota: disponibilidade limitada
+     *    **MCOMEETADD** -audioconferência
+     *    **MCOMEETACPEA** -conferência de áudio de pagamento por minuto
 > [!NOTE]
-> Se você quiser executar um relatório para incluir somente salário por minutos chamadas que não são incluídos em sua chamada ou a assinatura de conferência, filtre o relatório com o recurso "MCOPSTNPP". Isso irá fornecer uma discriminação de pagamento todos por minutos chamadas.  Para pagamento por minuto conferência de áudio, filtre por "MCOMEETACPEA", em vez de "MCOPSTNPP".  
+> Se você quiser executar um relatório para incluir somente chamadas pagas por minuto que não estão incluídas na sua assinatura de chamadas ou conferência, filtre o relatório com a funcionalidade "MCOPSTNPP". Isso fornecerá uma discriminação de todas as chamadas pagas por minuto.  Para conferências de áudio de pagamento por minuto, filtre por "MCOMEETACPEA" em vez de "MCOPSTNPP".  
 ***
 > [!NOTE]
-> Você também não poderá ver "nenhum dado" em alguns campos. "Nenhum dado" significa que o campo não for aplicável para o tipo de chamada ou recurso. 
+> Você também pode ver "nenhum dado" em alguns campos. "Nenhum dado" significa que o campo não é aplicável ao tipo ou funcionalidade de chamada. 
 ***
 > [!NOTE]
-> Se você tiver um plano de chamada Sprint, você não verá quaisquer registros de detalhe de chamada no relatório de uso do PSTN. Entre em contato com a Sprint para suas necessidades de relatórios. 
+> Se você tiver um plano de chamadas Telstra, não verá os registros de detalhes da chamada no relatório de uso de PSTN. Entre em contato com a Telstra para atender às suas necessidades de relatório. 
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Clique para arrastar uma coluna para **Para agrupar por uma coluna específica, arraste e solte o cabeçalho da coluna aqui** se desejar criar uma exibição que agrupe todos os dados em uma ou mais colunas.
  ***
-![Número 3](../images/sfbcallout3.png)<br/>Você também pode exportar o relatório de dados em uma guia delimitados arquivo do Excel, clicando ou tocando no botão **Exportar para o Excel** . <br/><br/> Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. 
+![Número 3](../images/sfbcallout3.png)<br/>Você também pode exportar os dados do relatório para um arquivo do Excel delimitado por TABULAção clicando ou tocando no botão **exportar para o Excel** . <br/><br/> Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. 
     > [!Note] 
     > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
 
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Deseja ver outros relatórios do Skype for Business?
 
-- [Skype para relatório de atividade de negócios](activity-report.md) Você pode ver quanto os usuários estão usando-a-ponto, organizada e participado em sessões de conferência.
+- [Relatório de atividade do Skype for Business](activity-report.md) Você pode ver o quanto os usuários estão usando ponto a ponto, organizado e participando de sessões de conferência.
     
-- [Skype para o relatório de uso do dispositivo de negócios](device-usage-report.md) Você pode para ver os dispositivos, incluindo os sistemas operacionais baseados no Windows e dispositivos móveis que têm o Skype para o aplicativo de negócios instalados e usá-lo para mensagens Instantâneas e reuniões.
+- [Relatório de uso de dispositivos do Skype for Business](device-usage-report.md) Você pode ver os dispositivos, incluindo sistemas operacionais baseados em Windows e dispositivos móveis que têm o aplicativo Skype for Business instalado e o estão usando para mensagens instantâneas e reuniões.
     
-- [Skype para relatório de atividade do organizador de conferência de negócios](conference-organizer-activity-report.md) Você pode ver quanto os usuários são organizem conferências que utilizam a mensagens Instantâneas, áudio/vídeo, compartilhamento de aplicativo, Web, /dial check-out de terceiros - 3rd e /dial check-out - Microsoft.
+- [Relatório de atividade do organizador de conferências do Skype for Business](conference-organizer-activity-report.md) Você pode ver quanto seus usuários estão organizando conferências que usam mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos, Web,/dial out-terceiro e/dial-Microsoft.
     
-- [Skype para relatório de atividade de participante de conferência de negócios](conference-participant-activity-report.md) Você pode ver quantos compartilhamento de aplicativos de mensagens Instantâneas, áudio/vídeo, webconferências e conferências de áudio de discagem estão sendo participou.
+- [Relatório atividade de participantes de conferências do Skype for Business](conference-participant-activity-report.md) Você pode ver quantas mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos, conferências de áudio da Web e de discagem estão sendo participadas.
     
-- [Skype para relatório de atividade ponto a ponto de negócios](peer-to-peer-activity-report.md) Você pode ver quanto os usuários estão usando mensagens Instantâneas, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
+- [Relatório de atividade ponto a ponto do Skype for Business](peer-to-peer-activity-report.md) Você pode ver o quanto os usuários estão usando mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
     
-- [Skype para usuários comerciais bloqueados relatório](users-blocked-report.md) Você pode ver os usuários em sua organização que foram bloqueados façam chamadas PSTN.
+- [Relatório de usuários bloqueados do Skype for Business](users-blocked-report.md) Você pode ver os usuários em sua organização que foram impedidos de fazer chamadas PSTN.
 
-- [Skype para relatório de minuto pools corporativos PSTN](pstn-minute-pools-report.md) , que você pode ver o número de minutos gastos durante o mês atual dentro da sua organização.
+- [Relatório de grupos de minutos PSTN do Skype for Business](pstn-minute-pools-report.md) você pode ver o número de minutos consumidos durante o mês atual dentro de sua organização.
 
-- [Skype para relatório de detalhes de sessão de negócios](session-details-report.md) Você pode ver detalhes sobre as experiências de chamada do usuário individual.
+- [Relatório de detalhes da sessão do Skype for Business](session-details-report.md) Você pode ver detalhes sobre as experiências de chamadas de um usuário individual.
     
 ## <a name="related-topics"></a>Tópicos relacionados
 [Relatórios de atividades no Centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

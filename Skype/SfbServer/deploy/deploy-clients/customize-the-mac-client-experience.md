@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.reviewer: PhillipGarding
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Este artigo descreve as preferências e os padrões do cliente disponíveis para o cliente do Skype for Business no Mac e como editá-los de fora do aplicativo.
-ms.openlocfilehash: ac398ec928ac4f00b107a2fb9bff1dda8e65cd68
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fa9b809c742a87a7f522ed211406e2b97cbcfe6d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893487"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282514"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar a experiência do cliente Mac no Skype for Business
  
@@ -23,18 +23,18 @@ Este artigo descreve as preferências e os padrões do cliente disponíveis para
   
 ## <a name="skype-for-business-on-mac-client-preference-settings"></a>Configurações de preferência do cliente Skype for Business para Mac
 
-Determinados recursos e comportamentos que estão disponíveis para Skype para negócios nos clientes Mac são determinados pelas configurações de preferência no cliente. O Skype para negócios preferências de Mac são encontradas em um arquivo localizado em Macs que instalaram o Skype para o cliente de negócios, localizada no seguinte caminho: 
+Alguns recursos e comportamentos que estão disponíveis para o Skype for Business em clientes Mac são determinados por configurações de preferência no cliente. As preferências do Skype for Business no Mac estão disponíveis em um arquivo localizado em Macs que instalaram o cliente Skype for Business localizado no seguinte caminho: 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-Para definir essas preferências, obtenha um prompt de terminal no Mac do cliente e conforme necessário insira padrões com.microsoft.SkypeForBusiness principais comandos de gravação usando as teclas de preferência descritas na tabela a seguir.
+Para definir essas preferências, acesse um prompt de terminal no Mac do cliente e, conforme necessário, digite defaults Write com. Microsoft. SkypeForBusiness Command Commands usando as teclas de preferência descritas na tabela a seguir.
   
 **Chaves de preferência do cliente**
 
 
 | Chave | Tipo | Valor | Descrição |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDiscoveryURLs    |Bool    |0 = configuração manual do servidor  <br/> 1 = detecção automática do servidor (padrão)    |Especifique como o Skype para negócios identifica o transporte e o servidor a ser usado durante a entrada. Se você habilitar essa configuração de política, deverá especificar **internalAutoDiscoveryURL** e **externalAutoDiscoveryURL**.   |
+|AutoDetectAutoDiscoveryURLs    |Bool    |0 = configuração manual do servidor  <br/> 1 = detecção automática do servidor (padrão)    |Especifique como o Skype for Business identifica o transporte e o servidor a serem usados durante a entrada. Se você habilitar essa configuração de política, deverá especificar **internalAutoDiscoveryURL** e **externalAutoDiscoveryURL**.   |
 |internalAutoDiscoveryURL    |Cadeia de caracteres    |URL completa de descoberta automática    |URL interna de descoberta automática    |
 |externalAutoDiscoveryURL    |Cadeia de caracteres    |URL completa de descoberta automática    |URL externa de descoberta automática    |
 |httpProxyDomain    |Cadeia de caracteres    ||Domínio do Proxy HTTP    |
@@ -43,19 +43,19 @@ Para definir essas preferências, obtenha um prompt de terminal no Mac do client
 |trustedDomainList    |Matriz    ||Lista de domínios confiáveis ​​para redirecionamentos HTTP.    |
 |autoAcceptTimeout    |Número    |300 (padrão)    |Tempo limite de Autenticação Automática para usuários sem Histórico da Conversa do Servidor.    |
 |warnWhenUnknownLocationForE911    |Bool    |0 = Desabilitado  <br/> 1 = Habilitado    |Avisa o usuário ao discar um número de emergência de um local desconhecido.    |
-|sipAddress    |Cadeia de caracteres    ||O endereço do SIP (Email) usado para entrar no Skype para negócios.    |
-|userName    |Cadeia de caracteres    ||O UPN (nome de usuário) usado para entrar no Skype para negócios.    |
-|userNameInAdvancedOnly    |Bool    |0 = exibem o campo nome do usuário na tela principal entrar e na caixa de diálogo Propriedades avançadas  <br/> 1 = exibir o campo de nome de usuário somente na caixa de diálogo Propriedades avançadas (padrão)    |Especifique onde o campo nome de usuário é exibido durante a entrada.    |
+|sipAddress    |Cadeia de caracteres    ||O endereço SIP (email) usado para entrar no Skype for Business.    |
+|userName    |Cadeia de caracteres    ||O UPN (nome de usuário) usado para entrar no Skype for Business.    |
+|userNameInAdvancedOnly    |Bool    |0 = exibir o campo de nome de usuário na tela de entrada principal e na caixa de diálogo Propriedades avançadas  <br/> 1 = exibir o campo de nome de usuário somente na caixa de diálogo Propriedades avançadas (padrão)    |Especifique onde o campo de nome de usuário é exibido durante a entrada.    |
    
 ### <a name="usage-examples"></a>Exemplos de uso
 
-Para adicionar um único domínio (Contoso.com) à lista de domínios confiáveis você usaria a chave trustedDomainList, conforme mostrado:
+Para adicionar um único domínio (Contoso.com) à lista de domínios confiáveis, você usaria a chave trustedDomainList, conforme mostrado a seguir:
   
-padrões de gravação com.microsoft.SkypeForBusiness trustedDomainList-matriz-adicionar "Contoso.com"
+defaults Write com. Microsoft. SkypeForBusiness trustedDomainList-array-Add "Contoso.com"
   
 Para adicionar diversos domínios à lista de domínios confiáveis, você usaria a chave trustedDomainList conforme mostrado:
   
-padrões de gravação com.microsoft.SkypeForBusiness trustedDomainList-matriz-adicionar "sfb.com" "abc.com" "test.org"
+defaults Write com. Microsoft. SkypeForBusiness trustedDomainList-array-Add "sfb.com" "abc.com" "test.org"
   
 ### <a name="sample-unedited-settings"></a>Exemplo de configurações não editadas
 

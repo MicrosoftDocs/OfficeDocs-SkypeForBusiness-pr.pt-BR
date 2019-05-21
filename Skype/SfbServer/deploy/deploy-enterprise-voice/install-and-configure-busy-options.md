@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
-description: Leia sobre como instalar e configurar opções de disponibilidade no Skype para Business Server.
-ms.openlocfilehash: 5e68dd61ce668a80ccbdeb3faae5875825992650
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Leia sobre como instalar e configurar as opções de ocupação no Skype for Business Server.
+ms.openlocfilehash: 13f529ddd7bd3b83f9d065599d3a213662da31a4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892360"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281598"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Instalar e configurar Opções de Disponibilidade no Skype for Business Server
 
-Leia sobre como instalar e configurar opções de disponibilidade no Skype para Business Server.
+Leia sobre como instalar e configurar as opções de ocupação no Skype for Business Server.
 
 O recurso Opções de Disponibilidade é uma nova política de voz introduzida na Atualização Cumulativa de julho de 2016 que permite configurar como as chamadas de entrada serão tratadas quando o usuário já estiver em uma chamada ou em conferência ou tiver colocado uma chamada em espera. As chamadas novas ou de entrada poderão ser rejeitadas com um sinal de ocupado ou encaminhadas para a caixa postal.
 
@@ -38,7 +38,7 @@ Para obter mais informações sobre o recurso Opções de Disponibilidade, veja 
 
 ## <a name="install"></a>Instalar 
 
-Verifique se você tem a versão mais recente do Skype para Business Server instalado e que você instalou o patch mais recente. Para fazer isso, primeiro, interrompa todos os serviços e, em seguida, execute o Skype do instalador da atualização Business Server da seguinte maneira:
+Verifique se você tem a versão mais recente do Skype for Business Server instalada e se instalou o patch mais recente. Para fazer isso, primeiro pare todos os serviços e execute o instalador de atualização do Skype for Business Server da seguinte maneira:
 
 1. Execute o comando Stop-CsWindowsService.
 
@@ -48,7 +48,7 @@ Verifique se você tem a versão mais recente do Skype para Business Server inst
 
 O instalador implantará a versão mais recente de Opções de Disponibilidade. No entanto, o aplicativo não é habilitado por padrão. Para habilitá-lo, faça o seguinte:
 
-1. Execute o cmdlet [Set-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps) para habilitar globalmente opções ocupado, conforme mostrado no exemplo a seguir:
+1. Execute o cmdlet [set-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps) para habilitar as opções de ocupado globalmente, conforme mostrado no exemplo a seguir:
 
    ```
    Set-CsVoicePolicy -EnableBusyOptions $true
@@ -56,13 +56,13 @@ O instalador implantará a versão mais recente de Opções de Disponibilidade. 
 
 2. Em seguida, se o site tiver uma política de voz em vigor, você deverá habilitar Opções de Disponibilidade para a política de voz da seguinte maneira:
 
-    Primeiro, execute [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps) para recuperar o nome do site:
+    Primeiro, execute [Get-cssite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps) para recuperar o nome do site:
 
    ```
    Get-CsSite
    ```
 
-    Use o valor de identidade (por exemplo: Site: Redmond1) recuperada do Get-CsSite para recuperar a política de voz do site da seguinte maneira:
+    Use o valor Identity (por exemplo: site: Redmond1) recuperado de Get-CsSite para recuperar a política de voz do site da seguinte maneira:
 
    ```
    Get-CsVoicePolicy -Identity Site:Redmond1
@@ -74,22 +74,22 @@ O instalador implantará a versão mais recente de Opções de Disponibilidade. 
    Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
    ```
 
-3. Em seguida, execute o cmdlet [New-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) , para adicionar as opções de ocupado à lista de aplicativos de servidor, conforme mostrado no exemplo a seguir:
+3. Em seguida, execute o cmdlet [New-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) para adicionar opções de ocupado à lista de aplicativos de servidor, conforme mostrado no exemplo a seguir:
 
    ```
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
     > [!NOTE]
-    > Você deve substituir % FQDN % com o nome de domínio totalmente qualificado de um pool específico.
+    > Você deve substituir% FQDN% pelo nome de domínio totalmente qualificado de um pool específico.
 
-4. Em seguida, execute o cmdlet [Update-CsAdminRole](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps) para atualizar as funções RBAC (controle) de acesso baseado em função para os cmdlets ocupado opções, conforme mostrado no exemplo a seguir:
+4. Em seguida, execute o cmdlet [Update-CsAdminRole](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps) para atualizar as funções de controle de acesso baseado em função (RBAC) para os cmdlets de opções de ocupado, conforme mostrado no exemplo a seguir:
 
    ```
    Update-CsAdminRole
    ```
 
-5. Finalmente, inicie o Skype para serviços corporativos de servidor Windows em todos os servidores de Front-End em todos os pools onde opções ocupado foi instalada e habilitada executando o comando [Start-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps) :
+5. Por fim, inicie os serviços do Windows do Skype for Business Server em todos os servidores de front-end em todos os pools onde as opções de ocupação foram instaladas e habilitadas executando o comando [Start-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps) :
 
    ```
    Start-CsWindowsService
@@ -111,7 +111,7 @@ No exemplo a seguir, o comando configura as opções de disponibilidade para a u
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-Você pode recuperar as informações de configuração de Opções de Disponibilidade usando o cmdlet [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx). O exemplo a seguir retorna a configuração de opções de disponibilidade para "KenMyer@Contoso.com":
+Você pode recuperar as informações de configuração de Opções de Disponibilidade usando o cmdlet [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx). O exemplo a seguir retorna a configuração de opções de ocupado para "KenMyer@Contoso.com":
 
 ```
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
@@ -123,7 +123,7 @@ Você pode remover o recurso Opções de Disponibilidade usando o cmdlet [Remove
 Remove-CsBusyOptions -Identity "Ken Myer"
 ```
 
-Para obter informações detalhadas sobre os cmdlets que você pode usar para configurar as opções de disponibilidade, consulte o conteúdo de referência técnica para [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx), [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)e [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx).
+Para obter informações detalhadas sobre os cmdlets que você usa para configurar opções de ocupado, consulte o conteúdo de referência técnica para [set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx), [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx)e [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx).
 
 ## <a name="enable-logging"></a>Habilitar log
 
@@ -139,7 +139,7 @@ New-CsClsScenario -Parent Global -Name BusyOptions -Provider @{Add=$p1,$p2,$p3}
 
 ## <a name="verify-and-troubleshoot"></a>Verificar e solucionar problemas
 
-Depois de instalar opções ocupado, você pode verificar se a instalação foi bem-sucedida, usando o cmdlet [Get-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/get-csserverapplication?view=skype-ps) , para recuperar a lista de aplicativos para servidores. Se Opções de Disponibilidade estiver instalado adequadamente, a saída do cmdlet deverá mostrar a configuração de Opções de Disponibilidade, como a seguir:
+Depois de instalar as opções ocupadas, você pode verificar se a instalação foi bem-sucedida usando o cmdlet [Get-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/get-csserverapplication?view=skype-ps) para recuperar a lista de aplicativos do servidor. Se Opções de Disponibilidade estiver instalado adequadamente, a saída do cmdlet deverá mostrar a configuração de Opções de Disponibilidade, como a seguir:
 
 <pre>
 Identity   : Service:Registrar:pool0.vdomain.com/BusyOptions
@@ -152,4 +152,4 @@ ScriptName :
 Script     :
 </pre>
 
-Você também pode usar o Visualizador de eventos do Windows para verificar se a instalação de opções ocupado foi bem-sucedida e que o Skype para Business Server carregada com êxito as opções ocupado. Para verificar as opções de ocupado, abra **Visualizador de eventos -\> Logs de aplicativo e serviços -\> Skype (ou Lync) Server** e procure a ID do evento = 30253.
+Você também pode usar o Visualizador de eventos do Windows para verificar se a instalação de opções ocupada foi bem-sucedida e se o Skype for Business Server carregou com êxito as opções ocupadas. Para verificar as opções de ocupado, abra o **Visualizador de eventos –\> logs\> de aplicativos e serviços-servidor Skype (ou LYNC)** e procure por ID do evento = 30253.

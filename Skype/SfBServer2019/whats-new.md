@@ -1,55 +1,55 @@
 ---
-title: O que há de novo no Skype para Business Server 2019 | Recursos
+title: O que há de novo no Skype for Business Server 2019 | Funções
 ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Resumo: Esses recursos são novos no Skype para Business Server 2019.'
-ms.openlocfilehash: 68b6a2c3e3115df58c44603817e2adfc0c83f67c
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+description: 'Resumo: esses recursos são novos no Skype for Business Server 2019.'
+ms.openlocfilehash: 4ede00188c8928e0fa3d89857b6d5bfdb0a44ade
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835236"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283896"
 ---
-# <a name="whats-in-skype-for-business-server-2019"></a>O que há no Skype para Business Server 2019
+# <a name="whats-in-skype-for-business-server-2019"></a>O que há no Skype for Business Server 2019
 
-**Resumo:** Leia este tópico para conhecer os novos recursos do Skype para Business Server 2019.  
+**Resumo:** Leia este tópico para saber mais sobre os novos recursos do Skype for Business Server 2019.  
 
-Novos recursos do Skype para Business Server 2019 incluem o seguinte:
+Os novos recursos do Skype for Business Server 2019 incluem o seguinte:
   
 - Caixa Postal na Nuvem  
 - Conector de dados de chamada
 - Migração lado a lado
 
-## <a name="unified-messaging-services-cloud-voicemail"></a>Unificação de serviços de mensagens: caixa postal de nuvem
+## <a name="unified-messaging-services-cloud-voicemail"></a>Serviços de mensagens unificadas: correio de voz na nuvem
 
-UM do Exchange permanece disponível na Skype para Business Server 2019 ao integrar Skype para negócios 2019 com Exchange 2013 ou 2016 do Exchange. Devido às alterações no suporte no Exchange 2019, a integração de UM do Exchange está sendo desprovisionamento enfatizada em favor de recursos de caixa postal de nuvem e atendedor automático de nuvem.  
+O Exchange UM permanecerá disponível no Skype for Business Server 2019 quando você integrar o Skype for Business 2019 com o Exchange 2013 ou o Exchange 2016. Devido a alterações no suporte ao Exchange 2019, a integração de UM Exchange está sendo realçada em favor do recurso de correio de voz e do atendedor automático na nuvem.  
 
-Caixa postal de nuvem permite que todos os seu Skype para negócios 2019 users& #x 2014; se eles são hospedados no local ou online& #x 2014; tenham acesso ao mesmo serviço caixa postal no Microsoft Cloud. Caixa postal de nuvem fornece os seguintes benefícios para seu local e a usuários online:
+O correio de voz em nuvem permite que todos os seus serviços do Skype for Business 2019 users& # x2014; sejam hospedados localmente ou online& # x2014; para ter acesso ao mesmo serviço de correio de voz na nuvem da Microsoft. O correio de voz na nuvem oferece os seguintes benefícios para seus usuários locais e online:
 
-- Acesso à caixa postal na sua caixa de correio do Exchange usando o Skype para clientes corporativos Online, equipes ou Outlook
-- Capacidade de usar o portal baseado na web para gerenciar suas opções de caixa postal
+- Acesso à caixa postal na caixa de correio do Exchange usando o Skype for Business Online, o Teams ou clientes do Outlook
+- Capacidade de usar o Portal baseado na Web para gerenciar as opções de correio de voz
 
-Para obter mais informações, consulte [serviço de caixa postal de nuvem planejar](../sfbhybrid/hybrid/plan-cloud-voicemail.md) e [Planejar Skype para Business Server e migração do Exchange Server](../sfbhybrid/hybrid/plan-um-migration.md) .
+Consulte [planejar o serviço de correio de voz na nuvem](../sfbhybrid/hybrid/plan-cloud-voicemail.md) e [planejar a migração do Skype for Business Server e do Exchange Server](../sfbhybrid/hybrid/plan-um-migration.md) para obter mais informações.
   
-## <a name="call-monitoring-call-data-connector"></a>Monitoramento de chamada: conector de dados de chamada
+## <a name="call-monitoring-call-data-connector"></a>Monitoramento de chamadas: ligar para conector de dados
 
-Conector de dados chamada simplifica bastante chamada monitoramento em um ambiente híbrido porque não precisar mais usar diferentes conjuntos de locais e ferramentas online para monitorar a qualidade da chamada seus usuários.  Se os usuários estão hospedados no local ou online, você pode optar por exibir a qualidade da chamada de toda sua organização online.
+O conector de dados de chamadas simplifica bastante o monitoramento de chamadas em um ambiente híbrido porque você não precisa mais usar conjuntos de ferramentas locais e online para monitorar todos os seus usuários a qualidade das chamadas.  Não importa se os usuários estão hospedados no local ou online, você pode optar por exibir a qualidade da chamada para toda a sua organização online.
 
 Com o conector de dados de chamada, você pode executar as seguintes tarefas usando um único conjunto de ferramentas:
 
-- Monitore sua experiência do usuário em produtos Microsoft Teams, Skype para Business Online e Skype para Business Server.
-- Visualizar e solucionar problemas em sua rede
-- Atribua funções de administrador e assistência técnica para a análise de chamada, para que você pode capacitar os trabalhadores de assistência técnica para visualizar e solucionar problemas de suas áreas de responsabilidade.
+- Monitore sua experiência de usuário no Microsoft Teams, no Skype for Business Online e no Skype for Business Server.
+- Exibir e solucionar problemas em toda a rede
+- Atribua funções de helpdesk e de administrador para a análise de chamadas, para que você possa permitir que os profissionais da assistência técnica vejam e solucionem os problemas de suas áreas de responsabilidade.
 
-Consulte o [Plano de chamar o conector de dados](../sfbhybrid/hybrid/plan-call-data-connector.md) para obter mais informações.
+Para obter mais informações, consulte [planejar o conector de dados de chamadas](../sfbhybrid/hybrid/plan-call-data-connector.md) .
 
 ### <a name="see-also"></a>Confira também
 
-[O que é reduzido do Skype para Business Server 2019](deprecated.md)
+[O que foi preterido do Skype for Business Server 2019](deprecated.md)

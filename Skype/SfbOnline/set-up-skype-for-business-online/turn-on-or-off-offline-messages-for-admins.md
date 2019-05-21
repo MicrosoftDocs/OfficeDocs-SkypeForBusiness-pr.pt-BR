@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,26 +18,26 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 3992c2b4be9cbaaee5f7e7c9648f90d8034bc6aa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9f7786e636ba49d6327486a11683e26799c01cfc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226000"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284930"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Ativar ou desativar mensagens offline para administradores
 
-Você pode enviar Skype para negócios IMs aos seus contatos, mesmo se eles não estão conectados. Esse recurso permite que seus contatos saibam que você está tentando entrar em contato. Você não precisa esperar até que alguém fique online antes de enviar uma mensagem.
+Você pode enviar mensagens instantâneas do Skype for Business para seus contatos, mesmo que elas não estejam conectadas. Esse recurso permite que seus contatos saibam que você está tentando entrar em contato. Você não precisa esperar até que alguém fique online antes de enviar uma mensagem.
 
 Para mensagens offline, é importante saber:
 
 - Mensagens offline não serão arquivadas na caixa de correio do usuário.
 
-- Mensagens offline serão enviadas à caixa de correio do usuário e o usuário será notificado quando eles fazem logon Skype para negócios.
+- Mensagens offline serão enviadas para a caixa de correio do usuário e o usuário será notificado quando fizer logon no Skype for Business.
 
-- Se o status do remetente da mensagem é definido como **Não incomodar** ou **apresentando**, eles receberão uma mensagem perdida que é enviada do Skype do destinatário para o cliente de negócios.
+- Se o status do destinatário da mensagem estiver definido como não **incomodar** ou **apresentando**, ele receberá uma mensagem perdida que é enviada do cliente Skype for Business do destinatário.
 
-Para obter mais informações, consulte [uso de mensagens offline do Skype para negócios](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d).
+Para obter mais informações, consulte [usar mensagens offline no Skype for Business](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d).
 
 ## <a name="to-get-you-started"></a>Para começar
 
@@ -74,14 +74,14 @@ Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 
   Import-PSSession $session
   ```
 
-Se você quiser obter mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para o Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 
 ## <a name="turning-on-or-off-offline-im"></a>Ativar ou desativar mensagens instantâneas offline
 
 > [!NOTE]
-> Mensagens offline são **apenas** disponíveis na versão mais recente do Skype Click-to-Run para o cliente de negócios e não estão disponíveis quando um Skype Click-to-Run mais antigo para a empresa é usada ou um arquivo MSI foi usado para instalar o Skype para o cliente de negócios.
+> As mensagens offline **só** estão disponíveis na versão mais recente do cliente do Skype for Business clique para executar e não estão disponíveis quando um clique para executar o Skype for Business mais antigo é usado ou um arquivo *. msi foi usado para instalar o cliente Skype for Business.
 
-Para habilitar ou desabilitar Offline mensagens enviar mensagens Offline para usuários em sua organização, defina _EnableIMAutoArchiving_ `True` ou `False`. Por padrão, isso é definido como `True`.
+Para habilitar ou desabilitar mensagens offline, envie mensagens offline para os usuários de sua organização __ , defina `True` opção enableimautoarchiving `False`como ou. Por padrão, isso é definido como `True`.
 
 Para desativá-lo, use o cmdlet **Set-CsClientPolicy** e execute:
 
@@ -89,7 +89,7 @@ Para desativá-lo, use o cmdlet **Set-CsClientPolicy** e execute:
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-Para habilitar ou desabilitar o envio de mensagens Offline mensagens Offline para um usuário, defina _EnableIMAutoArchiving_ como `True` ou `False`. Por padrão, ele é definido como  `True`. Você pode usar uma política existente ou criar um como o exemplo a seguir.
+Para habilitar ou desabilitar mensagens offline, envie mensagens offline para um usuário, __ defina opção enableimautoarchiving `True` como `False`ou. Por padrão, ele é definido como  `True`. Você pode usar uma política existente ou criar uma como o exemplo abaixo.
 
 
   ```

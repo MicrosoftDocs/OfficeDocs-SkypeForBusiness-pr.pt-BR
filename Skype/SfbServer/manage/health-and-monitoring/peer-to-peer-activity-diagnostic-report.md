@@ -1,31 +1,31 @@
 ---
-title: Relatório de diagnóstico atividade ponto a ponto no Skype para Business Server
+title: Relatório de diagnóstico de atividade ponto a ponto no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
-description: 'Resumo: Saiba mais sobre o relatório de diagnóstico de atividade ponto a ponto no Skype para Business Server.'
-ms.openlocfilehash: 5564c34848b36c7255f2fe2f63b3bbe60b04eb43
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de diagnóstico de atividades ponto a ponto no Skype for Business Server.'
+ms.openlocfilehash: 37773edc939787eff034d8dd6d001e3529c0db91
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925198"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279891"
 ---
-# <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Relatório de diagnóstico atividade ponto a ponto no Skype para Business Server
+# <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Relatório de diagnóstico de atividade ponto a ponto no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de diagnóstico de atividade ponto a ponto no Skype para Business Server.
+**Resumo:** Saiba mais sobre o relatório de diagnóstico de atividades ponto a ponto no Skype for Business Server.
   
-O Relatório de Diagnóstico de Atividades Ponto a Ponto fornece informações sobre o sucesso e falha de suas sessões de comunicação ponto a ponto. Observe que Skype para Business Server faz distinção entre diferentes tipos de falha:
+O Relatório de Diagnóstico de Atividades Ponto a Ponto fornece informações sobre o sucesso e falha de suas sessões de comunicação ponto a ponto. Observe que o Skype for Business Server distingue entre os diferentes tipos de falha:
   
-- **Falha esperada**. Uma falha esperada é normalmente uma falha somente no sentido mais técnico. Por exemplo, vamos supor que você ligue para alguém, mas ele ou ela esteja fora do escritório e não possa atender ao telefone. Como a chamada não foi atendida, ela é considerada tecnicamente uma falha. Por outro lado, isso era uma falha esperada: Skype para Business Server não espera que você atender o telefone se você não estiver disponível para atender o telefone. Da mesma maneira, uma falha esperada ocorrerá se você tentar enviar uma mensagem instantânea a um usuário que esteja offline, ou conectado apenas a um telefone que não suporta mensagem instantânea.
+- **Falha esperada**. Uma falha esperada é normalmente uma falha somente no sentido mais técnico. Por exemplo, vamos supor que você ligue para alguém, mas ele ou ela esteja fora do escritório e não possa atender ao telefone. Como a chamada não foi atendida, ela é considerada tecnicamente uma falha. Por outro lado, isso era uma falha esperada: o Skype for Business Server não espera que você atenda ao telefone se não estiver disponível para atender ao telefone. Da mesma maneira, uma falha esperada ocorrerá se você tentar enviar uma mensagem instantânea a um usuário que esteja offline, ou conectado apenas a um telefone que não suporta mensagem instantânea.
     
-- **Falha inesperada**. Um erro inesperado é exatamente o que o nome sugere: um erro que, baseado nas circunstâncias, você não espera. Por exemplo, suponha que você chamar alguém e que pessoa está disponível para atender à chamada; No entanto, quando Skype para Business Server tenta rotear a chamada para a caixa postal a chamada falhará porque a conectividade com a Unificação de mensagens do Exchange foi perdida. Esse é um erro inesperado: você espera que as chamada sempre sejam encaminhadas para a caixa postal. Como regra geral, falhas inesperadas são verdadeiras falhas: elas são problemas que provavelmente não podem ser corrigidos por meio da educação do usuário ou por medidas parecidas.
+- **Falha inesperada**. Um erro inesperado é exatamente o que o nome sugere: um erro que, baseado nas circunstâncias, você não espera. Por exemplo, suponha que você ligue para alguém e essa pessoa está disponível para atender a chamada; no entanto, quando o Skype for Business Server tenta direcionar sua chamada para a caixa postal, a chamada falha porque a conectividade com a Unificação de mensagens do Exchange foi perdida. Esse é um erro inesperado: você espera que as chamada sempre sejam encaminhadas para a caixa postal. Como regra geral, falhas inesperadas são verdadeiras falhas: elas são problemas que provavelmente não podem ser corrigidos por meio da educação do usuário ou por medidas parecidas.
     
 Observe que talvez as métricas Sucesso, Falha esperada e Falha inesperada não acrescentem à métrica Total de sessões. Por exemplo, na ilustração anterior, temos os seguintes valores:
   
@@ -33,11 +33,11 @@ Observe que talvez as métricas Sucesso, Falha esperada e Falha inesperada não 
 |:-----|:-----|:-----|:-----|
 |2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
-Se você adicionar 2024 + 469 + 16 terá um total de 2.509 sessões, ainda assim a coluna Total de sessões mostrará um total de 2.521 sessões. As 12 sessões que "faltam" são sessões que o sistema não pode categorizar como bem-sucedida ou sem sucesso. Em alguns casos, que será o caso quando um produto de terceiros introduz um novo código de diagnóstico que está familiarizado para Skype para Business Server. Quando isso acontece, as chamadas feitas usando esse produto, e o relatório desse código de diagnóstico, não podem sempre ser categorizados como Sucesso, Falha esperada ou Falha inesperada.
+Se você adicionar 2024 + 469 + 16 terá um total de 2.509 sessões, ainda assim a coluna Total de sessões mostrará um total de 2.521 sessões. As 12 sessões que "faltam" são sessões que o sistema não pode categorizar como bem-sucedida ou sem sucesso. Isso, às vezes, é o caso quando um produto de terceiros introduz um novo código de diagnóstico que não está familiarizado com o Skype for Business Server. Quando isso acontece, as chamadas feitas usando esse produto, e o relatório desse código de diagnóstico, não podem sempre ser categorizados como Sucesso, Falha esperada ou Falha inesperada.
   
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>Acessando o Relatório de Diagnóstico de Atividades Ponto a Ponto
 
-O Relatório de Diagnóstico de Atividades Ponto a Ponto é acessado a partir da home page dos Relatórios de monitoramento. Você pode acessar o [Relatório de falha de distribuição no Skype para Business Server](failure-distribution-report.md) clicando em uma das seguintes métricas:
+O Relatório de Diagnóstico de Atividades Ponto a Ponto é acessado a partir da home page dos Relatórios de monitoramento. Você pode acessar o [relatório de distribuição de falha no Skype for Business Server](failure-distribution-report.md) clicando em uma das seguintes métricas:
   
 - Volume de falhas inesperadas
     

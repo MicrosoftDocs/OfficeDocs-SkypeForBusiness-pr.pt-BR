@@ -13,7 +13,7 @@ MS.collection:
 - M365-collaboration
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Os clientes podem usar o Plano de Chamadas Office 365 e a Audioconferência Office 365, conforme permitido nos Termos de Uso de Serviços PSTN do Skype for Business Online e no contrato de licenciamento por volume do Cliente.
-ms.openlocfilehash: 2e71c5bc4172ea73f361f97a6c7796b9ab28f310
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: be3a32f50399fb32268aa30c3f0c48b8b4b4c462
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198359"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283366"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período complementar de discagem de audioconferência
 
@@ -35,32 +35,32 @@ ms.locfileid: "32198359"
 
 Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
   
-### <a name="end-of-complimentary-dial-out-period"></a>Fim do período de discagem complementar
+### <a name="end-of-complimentary-dial-out-period"></a>Fim do período de discagem grátis
 
-O recurso de discagem gratuito começando 1 de dezembro de 2019, será finalizado. Para obter detalhes adicionais, consulte [assinatura de áudio da conferência discar e ligar para mim no benefício](audio-conferencing-subscription-dial-out.md) . 
+A partir de 1 ° de dezembro de 2019, a funcionalidade de discagem gratuita será encerrada. Consulte [assinatura de áudio da conferência discada e ligue para mim em benefício](audio-conferencing-subscription-dial-out.md) para obter mais detalhes. 
 
-### <a name="complimentary-dial-out-period-details"></a>Detalhes do período de discagem complementar
+### <a name="complimentary-dial-out-period-details"></a>Detalhes do período de discagem grátis
 
-Para os clientes a adotar o nosso serviço de conferência de áudio do Office 365, a Microsoft está fornecendo um benefício adicional de complementar relacionado ao discar a partir de reuniões organizadas por usuários atribuídos a uma licença de assinatura do Office 365 áudio da conferência por meio de novembro 2019. Durante esse período complementar, Microsoft permite que os organizadores de reunião ou participantes autorizados conforme definido em configurações de política, para fazer chamadas de discagem de dentro da reunião para números de telefone não sejam premium nos países "Uma zona" 44 listados abaixo de reunião. Esse benefício é aplicável a licenças de assinatura mensais de conferência de áudio e não se estende para licenças de pagamento por minuto de conferência de áudio.
+Para os clientes que preenchem nosso serviço de audioconferência do Office 365, a Microsoft está fornecendo um benefício complementar adicional relacionado à discagem de reuniões organizadas por usuários que atribuiram uma licença de assinatura do Office 365 Audio Conferencing até novembro 2019. Durante esse período de tempo, a Microsoft permite que os organizadores da reunião ou participantes autorizados sejam definidos nas configurações da política de reunião, para fazer chamadas discadas na reunião para números de telefone não Premium nos países 44 "zona A" listadas abaixo. Esse benefício se aplica às licenças de assinatura mensal da conferência de áudio e não se estende às licenças de pagamento por minuto de audioconferência.
 
-Além disso, há um limite de 900 cobrir minuto durante as como tal, o período de discagem complementar:
+Além disso, há um limite de 900 minutos durante o período de discagem complementar da seguinte forma:
 
-Usuários com um local de uso de licença (isto é o local de país do usuário definido na área de licenciamento do portal de administração do Office 365) em qualquer país podem discar a partir de uma conferência para qualquer um dos países zona A 44. Cada usuário recebe 900 minutos por usuário por mês para qualquer um dos países zona A qual é colocado em pool no nível do locatário. Por exemplo, um cliente adquiriu licenças de assinatura de conferência de áudio 115 e tem 10 usuários nos EUA, 100 usuários no Reino Unido e 5 usuários na Índia, tudo isso com licenças de assinatura de audioconferência atribuídas aos seus usuários. Observação: Tamanho do Pool se baseia em licenças atribuídas e não adquiriu licenças.
+Usuários com um local de uso de licenças (esse é o local do país de usuário definido na área de licenciamento do portal de administração do Office 365) em qualquer país pode discar de uma conferência para qualquer um dos países da zona 44. Cada usuário recebe 900 minutos por mês para qualquer uma das zonas, um país que está agrupado no nível do locatário. Por exemplo, um cliente comprou licenças de assinatura de audioconferência de 115 e tem 10 usuários nos EUA, 100 usuários do Reino Unido e do 5 usuários na Índia, tudo com licenças de assinatura de audioconferência atribuídas a seus usuários. Observação: o tamanho do pool se baseia em licenças atribuídas e não em licenças adquiridas.
  
-- Todos os usuários de 115 compartilham um pool de (115 usuários X 900 min) = 103,500 conferência discar check-out minutos por mês do calendário que pode ser usado para fazer chamadas de saída para qualquer um dos países zona A.
-- Todas as chamadas excedendo os 103,500 minutos por mês do calendário são cobradas por minuto usando créditos de comunicações em nossas taxas publicadas para esse destino. (Observação: locatário Configure créditos de comunicações e atribuir a licença créditos de comunicação para o organizador da reunião).
-- Todas as chamadas de saída para destinos não estejam na lista zona A país são cobradas por minuto usando créditos de comunicações em nossas taxas publicadas para esse destino (fornecida locatário tiver configurar créditos de comunicações e atribuiu a licença créditos de comunicação a organizador da reunião).
+- Todos os usuários do 115 compartilham um pool de (115 usuários X 900 min) = 103.500 conferência discada minutos por mês, que pode ser usada para fazer chamadas de saída para qualquer uma das zonas de um país.
+- Todas as chamadas que excedem os minutos de 103.500 por mês são cobradas por minuto usando créditos de comunicações em nossas tarifas publicadas para esse destino. (Observação: o locatário deve configurar créditos de comunicações e atribuir a licença de créditos de comunicações ao organizador da reunião).
+- Todas as chamadas de saída para destinos que não estão na zona uma lista de países são cobradas por minuto usando créditos de comunicações em nossas tarifas publicadas para esse destino (o locatário fornecido configurou créditos de comunicações e atribuiu a licença créditos de comunicação ao organizador da reunião).
 
 > [!NOTE]
-> Você pode monitorar o uso contra pool minuto de discagem no Skype para Business Admin Center. No & Teams Microsoft Skype Admin Center, vá para o **portal herdada** > **relatórios** > **PSTN minuto Pools**. Neste minuto complementar pool será rotulada no relatório como "Chamadas de saída para países de uma zona."
+> Você pode monitorar o uso com o pool de minutos de discagem externa no centro de administração do Skype for Business. No centro de administração do Microsoft Teams &, acesse**** >  **portal** > herdado pools de**minutos PSTN**. Este pool de minutos complementares será rotulado no relatório como "chamadas de saída para a região A países".
 
-Notificações por email serão enviadas para todos os administradores de Inquilino de um determinado cliente quando a utilização do pool de minutos de discagem de locatário atingiu 80% e 100%.
+As notificações por email serão enviadas para todos os administradores de locatários de um determinado cliente quando a utilização do pool de minutos de discagem de locatário do locatário tiver atingido 80% e 100%.
 
-Para chamadas de discagem que são cobradas por minuto (chamadas excedendo o pool minuto de discagem de locatário ou chamadas para destinos não estejam na lista zona A país), as chamadas e suas taxas de associado baseiam-se principalmente no destino da chamada e não o país do organizador ou o participante iniciando a chamada de discagem. Por exemplo, uma chamada para um número de telefone na França será cobrada com a mesma taxa se ele iniciado por um participante da reunião nos Estados Unidos ou por um na França.
+Para chamadas discadas cobradas por minuto (chamadas que excedem o pool de minutos de discagem de locatário ou chamadas para destinos fora da lista de países), as chamadas e suas tarifas associadas se baseiam principalmente no destino da chamada e não no país do organizador ou o participante que inicia a chamada de discagem externa. Por exemplo, uma chamada para um número de telefone na França será cobrada com a mesma taxa se ela for iniciada por um participante da reunião nos Estados Unidos ou uma na França.
 
-Para obter informações adicionais sobre comunicação créditos, consulte [Créditos de comunicações](what-are-communications-credits.md).
+Para obter informações adicionais sobre créditos de comunicação, consulte [créditos de comunicações](what-are-communications-credits.md).
 
-**Zona A países**
+**Região A dos países**
 
 |    |
 |-----|

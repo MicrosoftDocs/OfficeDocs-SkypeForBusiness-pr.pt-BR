@@ -1,29 +1,29 @@
 ---
-title: Media Quality relatório de resumo no Skype para Business Server
+title: Relatório de Resumo de qualidade de mídia no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
-description: 'Resumo: Saiba mais sobre o Media Quality relatório de resumo no Skype para Business Server.'
-ms.openlocfilehash: 3091b89d959552d54bc01a3adc62b8ee32efda92
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de Resumo de qualidade de mídia no Skype for Business Server.'
+ms.openlocfilehash: 49c4aba8e5eb69c50282f4c9a1c77027f1a0210d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888167"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279750"
 ---
-# <a name="media-quality-summary-report-in-skype-for-business-server"></a>Media Quality relatório de resumo no Skype para Business Server
+# <a name="media-quality-summary-report-in-skype-for-business-server"></a>Relatório de Resumo de qualidade de mídia no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o Media Quality relatório de resumo no Skype para Business Server.
+**Resumo:** Saiba mais sobre o relatório de Resumo de qualidade de mídia no Skype for Business Server.
   
 O Relatório de resumo de qualidade de mídia é talvez a melhor maneira de analisar a qualidade das chamadas em sua organização: este relatório fornece métricas de chamada para Qualidade de Serviço (QoS) divididas nas seguintes categorias:
   
-- Chamadas ponto a ponto de UC (por exemplo, um Skype for Business para Skype para chamada de negócios)
+- Chamadas de ponto de comunicação unificada para chamadas ponto a ponto (como uma chamada do Skype for Business para o Skype for Business)
     
 - Sessões de Conferência de UC
     
@@ -37,15 +37,15 @@ O Relatório de resumo de qualidade de mídia é talvez a melhor maneira de anal
     
 - Outros Tipos de Chamada
     
-Ao abrir pela primeira vez o relatório, você verá informações resumidas para cada uma das categorias. Sem deixar o relatório, você pode expandir cada categoria a ser analisado subcategorias como chamadas feitas a partir do Office Communicator 2007 R2 para Skype para negócios. Por sua vez, você pode ver os detalhes de cada chamada feita dentro dessa subcategoria.
+Ao abrir pela primeira vez o relatório, você verá informações resumidas para cada uma das categorias. Sem sair do relatório, você pode expandir cada categoria para ver subcategorias como chamadas feitas do Office Communicator 2007 R2 para o Skype for Business. Por sua vez, você pode ver os detalhes de cada chamada feita dentro dessa subcategoria.
   
-No Skype para Business Server o relatório de resumo de qualidade de mídia ainda mais divide os dados em três tipos de chamada: chamadas de áudio, vídeo e chamadas de compartilhamento de aplicativos. Cada tipo de chamada tem sua própria seção no relatório, e seu próprio conjunto de métricas de chamadas.
+No Skype for Business Server, o relatório de Resumo de qualidade da mídia divide ainda mais os dados em três tipos de chamadas: chamadas de áudio, chamadas com vídeo e chamadas de compartilhamento de aplicativos. Cada tipo de chamada tem sua própria seção no relatório, e seu próprio conjunto de métricas de chamadas.
   
 O Relatório de resumo de qualidade de mídia também permite aplicar filtros que permitem comparar a qualidade de chamada de chamadas com fio em relação a chamadas sem fio, chamadas internas x chamadas externas e chamadas VPN x chamadas não VPN.
   
 ## <a name="accessing-the-media-quality-summary-report"></a>Como acessar o Relatório de resumo de qualidade de mídia
 
-O Relatório de resumo de qualidade de mídia é acessado na página inicial dos Relatórios de Monitoramento. Você pode analisar o [Call List Report no Skype para Business Server](call-list-report-0.md) clicando em uma das seguintes métricas:
+O Relatório de resumo de qualidade de mídia é acessado na página inicial dos Relatórios de Monitoramento. Você pode fazer uma busca detalhada no [relatório de lista de chamadas no Skype for Business Server](call-list-report-0.md) clicando em uma das seguintes métricas:
   
 - Volume da chamada
     
@@ -98,7 +98,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Resumo de Q
 |**Volume de chamadas (chamadas VPN)** <br/> |Não  <br/> |Número total de chamadas que usaram uma conexão VPN.  <br/> |
 |**Volume de chamadas (chamadas externas)** <br/> |Não  <br/> |Número de chamadas que usaram uma conexão externa (ou seja, uma conexão fora da rede interna).  <br/> |
 |**Viagem de ida e volta (ms)** <br/> |Não  <br/> |Quantidade média de (em milissegundos) exigida para que um pacote RTP (protocolo de transporte em tempo real) viaje até outra extremidade e retorne. Tempos de viagem de ida e volta de 100 milissegundos ou menos são considerados de qualidade aceitável.  <br/> Os valores altos de ida e volta pode ser causados por roteamento de chamada internacional, um erro de configuração de roteamento ou um servidor de mídia sobrecarregado. Tempos de ida e volta altos resultam em dificuldades com conversas de áudio em tempo real e bidirecionais.  <br/> |
-|**Degradação (MOS)** <br/> |Não  <br/> |Quantidade média da degradação MOS enfrentada durante uma chamada. Os valores de degradação variam de um baixo de 0,0 a um alto de 5,0. Um valor de 0,5 ou menos representa degradação aceitável. As pontuações médias de opinião costumava ser calculadas a partir da classificação da qualidade de uma chamada em uma escala de 1 a 5, feita pelos dos usuários. No Skype para Business Server um conjunto de algoritmos prever como usuários classificou uma chamada.  <br/> Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |
+|**Degradação (MOS)** <br/> |Não  <br/> |Quantidade média da degradação MOS enfrentada durante uma chamada. Os valores de degradação variam de um baixo de 0,0 a um alto de 5,0. Um valor de 0,5 ou menos representa degradação aceitável. As pontuações médias de opinião costumava ser calculadas a partir da classificação da qualidade de uma chamada em uma escala de 1 a 5, feita pelos dos usuários. No Skype for Business Server, um conjunto de algoritmos prevê como os usuários teriam classificado uma chamada.  <br/> Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |
 |**Perda de pacote** <br/> |Não  <br/> |Taxa média de perda de pacote RTP. (A perda de pacote ocorre quando os pacotes RTP, um protocolo usado para transmissão de áudio e vídeo pela Internet, não conseguem chegar aos seus destinos.) Taxas de perda altas normalmente são causadas por congestionamento, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia sobrecarregado. A perda de pacote normalmente resulta em perda ou distorção de áudio.  <br/> |
 |**Tremulação (ms)** <br/> |Não  <br/> |Tremulação média detectada entre chegadas de pacotes RTP. (Tremulação é uma medida de quanto uma chamada treme.) Os valores altos de tremulação são normalmente causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em perda ou distorção de áudio.  <br/> |
 |**Taxa de correção oculta** <br/> |Não  <br/> |Taxa média de amostras de áudio ocultas para o número total de amostras. (Uma amostra de áudio oculta é uma técnica usada para suavizar a transição abrupta que normalmente seria causada por pacotes de rede descartados.) Valores altos indicam níveis consideráveis de perda de ocultação aplicada causada por perda de pacote ou tremulação e resulta na perda ou distorção de áudio.  <br/> |
@@ -118,7 +118,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Resumo de Q
 |**Taxa de bits média (Kbits/s)** <br/> |Não  <br/> |Taxa de bits média (em quilobytes por segundo).  <br/> |
 |**Taxa de bits baixa %** <br/> |Não  <br/> |Porcentagem da chamada onde a taxa de bits foi baixa.  <br/> |
 |**Perda de pacote de saída** <br/> |Não  <br/> |Perda de pacotes do Protocolo de transporte em tempo real (RTP) para pacotes enviados. (A perda de pacotes ocorre quando pacotes RTP, um protocolo usado para transmitir áudio e vídeo pela internet, falha ao tentar alcançar seu destino). Altas taxas de perda geralmente são causadas por congestionamento, insuficiência da largura de banda, congestionamento ou interferência na rede sem fio ou um servidor de mídia sobrecarregado. A perda de pacotes normalmente resulta em distorção ou perda de áudio.  <br/> |
-|**% de quadros congelados** <br/> |Não  <br/> |Porcentagem de quadros "congelados". Em um quadro congelado, o vídeo não avança enquanto a parte de áudio da chamada prossegue.  <br/> |
+|**% de quadros congelados** <br/> |Não  <br/> |Porcentagem de quadros "congelado". Em um quadro congelado, o vídeo não avança enquanto a parte de áudio da chamada prossegue.  <br/> |
 |**Taxa de quadros média de saída** <br/> |Não  <br/> |Taxa de quadros média para transmissões de saída durante a chamada.  <br/> |
 |**Taxa de quadros média de entrada** <br/> |Não  <br/> |Taxa de quadros média para transmissões de entrada durante a chamada.  <br/> |
 |**% de taxa de quadros baixa de entrada** <br/> |Não  <br/> |Porcentagem da chamada onde a taxa de bits foi baixa para vídeo de entrada.  <br/> |

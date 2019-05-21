@@ -1,25 +1,25 @@
 ---
-title: Relatório de tendências de local no Skype para Business Server
+title: Relatório de tendências de localização no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
-description: 'Resumo: Saiba mais sobre o relatório de tendências de local no Skype para Business Server.'
-ms.openlocfilehash: 0eeaeb27ea18932db2005a24ec202d05ea996c8b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de tendências de localização no Skype for Business Server.'
+ms.openlocfilehash: e27dc4c42bebedc65d4af26eb1d25cb75d4b672f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911872"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280072"
 ---
-# <a name="location-trend-report-in-skype-for-business-server"></a>Relatório de tendências de local no Skype para Business Server
+# <a name="location-trend-report-in-skype-for-business-server"></a>Relatório de tendências de localização no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de tendências de local no Skype para Business Server.
+**Resumo:** Saiba mais sobre o relatório de tendências de localização no Skype for Business Server.
   
 O Relatório de Tendências de Local fornece informações sobre as tendências de qualidade de chamada para locais de rede.
   

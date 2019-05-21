@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.MonitoringServerScopeNode
@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'No construtor de topologia, você pode executar tarefas relacionadas a um servidor individual executando o monitoramento clicando o servidor executando o monitoramento na árvore de console, clicando em ação na barra de ferramentas, ou uma tarefa no painel Ações e, em seguida, clicando em um dos as seguintes opções para o servidor executando o monitoramento:'
-ms.openlocfilehash: 3e3b9079549b78b88c490f410f368883b56460bf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'No construtor de topologia, você pode executar tarefas relacionadas a um servidor individual que executa o monitoramento clicando com o botão direito do mouse no servidor executando o monitoramento na árvore de console, clicando em ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e, em seguida, clicando em um dos as opções a seguir para o servidor que está executando o monitoramento:'
+ms.openlocfilehash: 2b1544d73ce324e908e03f491a76a260e972d520
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885515"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289136"
 ---
 # <a name="monitoring-scope-node"></a>Nó do Escopo de Monitoramento
  
-No construtor de topologia, você pode executar tarefas relacionadas a um servidor individual executando o monitoramento clicando o servidor executando o monitoramento na árvore de console, clicando em **ação** na barra de ferramentas ou clicando em uma tarefa no painel Ações e depois clicando em uma das seguintes opções para o servidor executando o monitoramento:
+No construtor de topologia, você pode executar tarefas relacionadas a um servidor individual que executa o monitoramento clicando com o botão direito do mouse no servidor executando o monitoramento na árvore de console, clicando em **ação** na barra de ferramentas ou clicando em uma tarefa no painel Ações e, em seguida, clicando em uma das seguintes opções para o servidor que executa o monitoramento:
   
-- **Editar Propriedades**. Abre a página **Editar propriedades** para o servidor executando o monitoramento, onde você pode alterar o nome de domínio totalmente qualificado (FQDN) do servidor executando o banco de dados do SQL Server monitoramento ou de monitoramento.
+- **Editar Propriedades**. Abre a página **Editar propriedades** do servidor que executa o monitoramento, onde você pode alterar o nome de domínio totalmente qualificado (FQDN) do servidor que está executando o monitoramento ou o banco de dados do SQL Server de monitoramento.
     
-- **Excluir**. Exclui o servidor executando o monitoramento da topologia e o banco de dados do SQL Server monitoramento.
+- **Excluir**. Exclui o servidor que executa o monitoramento da topologia e do banco de dados do SQL Server de monitoramento.
     
 Além das opções para o Monitoramento em execução no servidor descritas anteriormente neste tópico, você tem opções gerais do nó de Monitoramento que também estão disponíveis em outros nós na árvore do console. Isso inclui as seguintes opções:
   
