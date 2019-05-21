@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeploySSRSGroups
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
 ROBOTS: NOINDEX, NOFOLLOW
-description: No grupo especificar somente leitura, especifique o grupo ao qual você deseja conceder acesso somente leitura aos relatórios de monitoramento.
-ms.openlocfilehash: ce958ffdb368350dab7b5dd75d0f2bc3a6a6cc48
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: No grupo especificar somente leitura, especifique o grupo para quem você deseja conceder acesso somente leitura para monitorar relatórios.
+ms.openlocfilehash: 5109d801bbda6931674a69fd5069cd5c30cf738f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892017"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277997"
 ---
-# <a name="sql-server-reporting-services-groups"></a><span data-ttu-id="0d9c8-103">SQL Server Reporting Services (Grupos)</span><span class="sxs-lookup"><span data-stu-id="0d9c8-103">SQL Server Reporting Services (Groups)</span></span>
+# <a name="sql-server-reporting-services-groups"></a><span data-ttu-id="2bab7-103">SQL Server Reporting Services (Grupos)</span><span class="sxs-lookup"><span data-stu-id="2bab7-103">SQL Server Reporting Services (Groups)</span></span>
 
-<span data-ttu-id="0d9c8-104">**Especificar grupo de somente leitura**, especifique o grupo ao qual você deseja conceder acesso somente leitura aos relatórios de monitoramento.</span><span class="sxs-lookup"><span data-stu-id="0d9c8-104">In the **Specify Read-Only Group**, specify the group to whom you want to grant read-only access to Monitoring reports.</span></span> <span data-ttu-id="0d9c8-105">Use o formato &lt;domínio&gt;\\&lt;grupo acesso&gt;.</span><span class="sxs-lookup"><span data-stu-id="0d9c8-105">Use the format &lt;domain&gt;\\&lt;access group&gt;.</span></span> <span data-ttu-id="0d9c8-106">Por exemplo: contoso\RTCUniversalReadOnlyAdmins.</span><span class="sxs-lookup"><span data-stu-id="0d9c8-106">For example: contoso\RTCUniversalReadOnlyAdmins.</span></span>
+<span data-ttu-id="2bab7-104">No **grupo especificar somente leitura**, especifique o grupo para quem você deseja conceder acesso somente leitura para monitorar relatórios.</span><span class="sxs-lookup"><span data-stu-id="2bab7-104">In the **Specify Read-Only Group**, specify the group to whom you want to grant read-only access to Monitoring reports.</span></span> <span data-ttu-id="2bab7-105">Use o grupo &lt;&gt;Formatar&gt;\\&lt;acesso do domínio.</span><span class="sxs-lookup"><span data-stu-id="2bab7-105">Use the format &lt;domain&gt;\\&lt;access group&gt;.</span></span> <span data-ttu-id="2bab7-106">Por exemplo: contoso\RTCUniversalReadOnlyAdmins.</span><span class="sxs-lookup"><span data-stu-id="2bab7-106">For example: contoso\RTCUniversalReadOnlyAdmins.</span></span>
   
-<span data-ttu-id="0d9c8-107">Atribuir um grupo acesso somente leitura é opcional.</span><span class="sxs-lookup"><span data-stu-id="0d9c8-107">Assigning a group read-only access is optional.</span></span> <span data-ttu-id="0d9c8-108">Se você não quiser conceder acesso somente leitura agora, você pode configurá-lo mais tarde diretamente no SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="0d9c8-108">If you do not want to grant read-only access now, you can configure it later directly in SQL Server Reporting Services.</span></span>
+<span data-ttu-id="2bab7-107">Atribuir um grupo o acesso somente leitura é opcional.</span><span class="sxs-lookup"><span data-stu-id="2bab7-107">Assigning a group read-only access is optional.</span></span> <span data-ttu-id="2bab7-108">Se você não quiser conceder acesso somente leitura agora, você pode configurá-lo mais tarde diretamente no SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="2bab7-108">If you do not want to grant read-only access now, you can configure it later directly in SQL Server Reporting Services.</span></span>
   
 
