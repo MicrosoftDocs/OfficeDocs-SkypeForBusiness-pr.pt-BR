@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddPstnGatewayTrunkPage
@@ -12,32 +12,32 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Defina o tronco raiz para o IP ou rede telefônica pública comutada (PSTN) Configurando o seguinte:'
-ms.openlocfilehash: d59a7e392d989c14b9537c8d1e849e4dce6a044a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Você define o tronco raiz para a rede telefônica pública comutada (PSTN) por IP, configurando o seguinte:'
+ms.openlocfilehash: f3efc7d30d011f4d1a1be9742d01ab4e875dc6c5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912201"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282470"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definir a árvore raiz para um novo IP ou gateway PSTN
 
-Defina o tronco raiz para o IP ou rede telefônica pública comutada (PSTN) Configurando o seguinte:
+Você define o tronco raiz para a rede telefônica pública comutada (PSTN) por IP, configurando o seguinte:
 
-- **Nome do tronco**: defina o nome de domínio totalmente qualificado associado ao tronco
+- **Nome do tronco**: definir o nome de domínio totalmente qualificado associado ao tronco
 
-- **Porta de escuta do gateway IP/PSTN**: defina a porta na qual esse tronco escutará
+- **Porta de escuta do gateway IP/PSTN**: definir a porta na qual este tronco escutará
 
-- **Protocolo de transporte SIP**: selecione na lista **TCP** ou **TLS**, com base nos requisitos de tronco
+- **Protocolo de transporte SIP**: selecione na lista o **TCP** ou o **TLS**com base nos requisitos de tronco
 
-- **Servidor de mediação associado**: selecione na lista de servidores de mediação disponíveis em sua implantação
+- **Servidor de mediação associado**: selecione na lista de servidores de mediação disponíveis na sua implantação
 
-- **Porta do servidor de mediação associado**: defina a porta que o servidor de mediação selecionado está escutando
+- **Porta do servidor de mediação associada**: definir a porta na qual o servidor de mediação selecionado está ouvindo
 
 ## <a name="see-also"></a>Confira também
 
-[Configurar um tronco com bypass de mídia no Skype para Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+[Configurar um tronco com bypass de mídia no Skype for Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-[Configurar um tronco sem bypass de mídia no Skype para Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+[Configurar um tronco sem bypass de mídia no Skype for Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-[Suporte ao tronco SIP](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
+[Suporte a entroncamento SIP](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)

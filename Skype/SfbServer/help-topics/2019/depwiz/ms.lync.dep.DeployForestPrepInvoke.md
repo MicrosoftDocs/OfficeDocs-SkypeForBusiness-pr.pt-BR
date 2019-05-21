@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployForestPrepInvoke
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 18bab895-6cb1-4c07-a88d-ad0aed67293a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Página executando comandos exibe um resumo das tarefas como que eles são executados. Leia a tela Resumo e certifique-se de que as tarefas foram bem-sucedidas e que não há nenhum erro. Revise os avisos para certificar-se de que eles esperados. No painel Resumo, você deverá ver o status da tarefa: concluída. Na lista suspensa, o arquivo de log preparar floresta deve estar visível. Se não for, selecione o arquivo de log e, em seguida, clique em Exibir Log para revisar as ações detalhadas e os resultados das tarefas. Clique em Concluir para concluir a preparação da floresta.'
-ms.openlocfilehash: 9aa1960ed99cf2da9cb51e91257544100bd1ce40
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'A página comandos em execução exibe um resumo das tarefas à medida que elas são executadas. Examine a tela Resumo e verifique se as tarefas foram bem-sucedidas e se não há erros. Revise os avisos para ter certeza de que eles são esperados. No painel Resumo, você deve ver o status da tarefa: concluído. Na lista suspensa, a floresta preparar o arquivo de registro deve estar visível. Se não estiver, selecione o arquivo de registro e, em seguida, clique em Exibir log para examinar as ações detalhadas e o resultado das tarefas. Clique em concluir para concluir a preparação da floresta.'
+ms.openlocfilehash: 09ecb8413b3a755751c3d7926f9c143dd7dfb58c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893810"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276323"
 ---
 # <a name="prepare-current-forrest-invoke"></a>Preparar a Floresta Atual (Invocar)
  
-Página **Executando comandos** exibe um resumo das tarefas como que eles são executados. Leia a tela Resumo e certifique-se de que as tarefas foram bem-sucedidas e que não há nenhum erro. Revise os avisos para certificar-se de que eles esperados. No painel Resumo, você deverá ver **status da tarefa: concluída**. Na lista suspensa, o arquivo de log **Preparar floresta** deve estar visível. Se não for, selecione o arquivo de log e clique em **Exibir Log** para revisar as ações detalhadas e os resultados das tarefas. Clique em **Concluir** para concluir a preparação da floresta.
+A página **comandos em execução** exibe um resumo das tarefas à medida que elas são executadas. Examine a tela Resumo e verifique se as tarefas foram bem-sucedidas e se não há erros. Revise os avisos para ter certeza de que eles são esperados. No painel Resumo, você deve ver o **status da tarefa: concluído**. Na lista suspensa, a **floresta preparar** o arquivo de registro deve estar visível. Se não estiver, selecione o arquivo de registro e, em seguida, clique em **Exibir log** para examinar as ações detalhadas e o resultado das tarefas. Clique em **concluir** para concluir a preparação da floresta.
   
 

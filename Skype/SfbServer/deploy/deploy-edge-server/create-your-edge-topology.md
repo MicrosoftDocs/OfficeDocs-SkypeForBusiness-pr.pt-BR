@@ -1,10 +1,10 @@
 ---
-title: Criar a topologia de borda para Skype for Business Server
+title: Criar sua topologia de borda para o Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,23 +12,23 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
-description: 'Resumo: Saiba como criar, publicar e exportar a topologia de servidor de borda no Skype para Business Server.'
-ms.openlocfilehash: df6b663c05b27cc517ee6f5ea871197896f9caa2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como criar, publicar e exportar a topologia do servidor de borda no Skype for Business Server.'
+ms.openlocfilehash: c2df17d107845309242ef1df156f2da56fa2b883
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893270"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306955"
 ---
-# <a name="create-your-edge-topology-for-skype-for-business-server"></a>Criar a topologia de borda para Skype for Business Server
+# <a name="create-your-edge-topology-for-skype-for-business-server"></a>Criar sua topologia de borda para o Skype for Business Server
  
-**Resumo:** Saiba como criar, publicar e exportar a topologia de servidor de borda no Skype para Business Server.
+**Resumo:** Saiba como criar, publicar e exportar a topologia do servidor de borda no Skype for Business Server.
   
-Construtor de topologia é a ferramenta que você precisa usar para construir sua topologia de servidor de borda, assim como ele é usado para qualquer componente de topologia para Skype para servidor de negócios. Antes de seguir as etapas abaixo, você precisará tenha configurado pelo menos um pool de Front-End ou um servidor Standard Edition.
+O construtor de topologias é a ferramenta que você precisa usar para criar a topologia do servidor de borda, da mesma forma que é usada para qualquer componente de topologia do Skype for Business Server. Antes de seguir as etapas abaixo, você precisará configurar pelo menos um pool de front-end ou um servidor Standard Edition.
   
 Neste artigo, abordamos os seguintes tópicos:
   
-- Criar sua topologia de servidor de borda
+- Criar a topologia do servidor de borda
     
 - Publicar sua topologia do Servidor de Borda
     
@@ -41,35 +41,35 @@ Neste artigo, abordamos os seguintes tópicos:
     
 - Admins. do Domínio
     
-## <a name="build-your-edge-server-topology"></a>Criar sua topologia de servidor de borda
+## <a name="build-your-edge-server-topology"></a>Criar a topologia do servidor de borda
 
-A primeira etapa na implantação está criando seu Skype para topologia de servidor de borda do Business Server, que consiste em uma das três opções:
+A primeira etapa de implantação é a criação da topologia do servidor de borda do Skype for Business Server, que consiste em uma das três opções:
   
 - Um único servidor de borda
     
-- Um pool de borda com balanceamento de carga do DNS (um ou mais servidores)
+- Um pool de bordas com carga balanceada de DNS (um ou mais servidores)
     
-- Uma carga de hardware balanceada pool de borda (um ou mais servidores)
+- Um pool de bordas com carga balanceada de hardware (um ou mais servidores)
     
 Se você não souber com certeza do que precisa, é uma boa hora para consultar a documentação de Planejamento antes de começar a seguir estas etapas. Caso contrário, vamos começar.
   
-### <a name="defining-the-topology-for-a-single-edge-server"></a>Definindo a topologia para um único servidor de borda
+### <a name="defining-the-topology-for-a-single-edge-server"></a>Definindo a topologia para um servidor de borda único
 
-1. Faça logon em seu Skype para Business Server Standard Edition ou um Skype para pool de Front End do servidor de negócios.
+1. Faça logon no servidor do Skype for Business Server Standard Edition ou em um pool de front-end do Skype for Business Server.
     
-2. Uma vez lá, abra **Skype para o construtor de topologia de servidor de negócios**.
+2. Depois disso, abra o **Construtor de topologias do Skype for Business Server**.
     
-3. Na árvore de console, expanda o site que você pretende implantar o servidor de borda para.
+3. Na árvore de console, expanda o site para o qual você vai implantar o servidor de borda.
     
-4. Clique com o botão **pools de borda**e clique em **novo pool de borda**.
+4. Clique com o botão direito do mouse em **conjuntos de bordas**e clique em **novo pool de bordas**.
     
-5. Você vai clicar em **Avançar** na tela **Definir novo pool de borda** .
+5. Clique em **Avançar** na tela **definir novo pool de borda** .
     
-6. Na tela **definir o FQDN do pool de borda** , digite o nome de domínio totalmente qualificado (FQDN) interno que o servidor de borda irá usar e selecione **pool de computador único**, clicando em **próximo** ao terminar.
+6. Na tela **definir o FQDN do pool de bordas** , digite o nome de domínio totalmente qualificado (FQDN) que o servidor de borda usará e selecione **pool de computador único**e clique **em Avançar** quando terminar.
     
 7. Na tela **Selecionar recursos**, você tem uma escolha:
     
-   - Talvez você pretende usar o mesmo endereço IP e FQDN para seu serviço de acesso SIP, sua Skype para serviço de Webconferência de servidor de negócios e seu uma / serviço de borda V. Se esse for o caso, você deve marcar a caixa de seleção **Use um único FQDN e endereço IP** (e lembre-se disso na Etapa 9 abaixo)
+   - Você pode usar o mesmo FQDN e endereço IP para o seu serviço de acesso SIP, seu serviço de Webconferência do Skype for Business Server e seu serviço de borda A/V. Se esse for o caso, você deve marcar a caixa de seleção **Use um único FQDN e endereço IP** (e lembre-se disso na Etapa 9 abaixo)
     
    - Se você planejar habilitar a federação, marque a caixa de seleção **Habilitar federação para este servidor de Borda (porta 5061)**.
     
@@ -83,55 +83,55 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
     
    - Habilitar IPv6 na interface externa
     
-   Eles são bastante auto-explicativos, se você estiver usando endereços IPv4 ou IPv6, e você estiver aplicando esses endereços em seu servidor de borda interna ou externamente (você precisará ter isto em mente para a etapa 10). Você também tem a opção de configurar seu servidor de borda ou pool de borda para usar um endereço NAT (conversão) de endereço de rede para o endereço IP externo. Você pode fazer isso marcando a caixa de seleção **O endereço IP externo deste pool de Borda é convertido pelo NAT**. Clique em **Avançar** quando estiver pronto.
+   Esses são bem auto-explicativos, não importa se você está usando endereços IPv4 ou IPv6, e você está aplicando esses endereços em seu servidor de borda interna ou externamente (você precisará ter isso em mente para a etapa 10). Você também tem a opção de configurar o servidor de borda ou o pool de bordas para usar um endereço de NAT (conversão de endereços de rede) para o endereço IP externo. Você pode fazer isso marcando a caixa de seleção **O endereço IP externo deste pool de Borda é convertido pelo NAT**. Clique em **Avançar** quando estiver pronto.
     
 9. Na tela de FQDNs Externos, suas opções dependem da seleção feita na Etapa 7 acima.
     
-   - Se você marcou a caixa de seleção **usar um único FQDN e o endereço IP** , você precisa inserir seu FQDN externo único na caixa **Acesso SIP** . Em seguida, você precisará digitar números de porta diferente para cada serviço de borda para permitir que todos eles conectem independentemente. Recomendamos 5061 para o serviço de Borda de **Acesso SIP**, 444 para o serviço de Borda de **Webconferência** e 443 para o serviço de Borda **A/V**. Clique em **Avançar** quando terminar.
+   - Se tiver marcado a caixa de seleção **usar um único FQDN e endereço IP** , você precisará inserir seu único FQDN externo na caixa de **acesso SIP** . Em seguida, você precisará inserir números de porta diferentes para cada serviço de borda para permitir que todos se conectem de forma independente. Recomendamos 5061 para o serviço de Borda de **Acesso SIP**, 444 para o serviço de Borda de **Webconferência** e 443 para o serviço de Borda **A/V**. Clique em **Avançar** quando terminar.
     
-   - Se você não marcar a caixa de seleção **usar um único FQDN e endereço IP** , você precisará inserir os FQDNs externos três para o serviço de borda de **Acesso SIP** , o serviço de borda de **Webconferência** , agora e a **A / V** serviço de borda. Clique em **Avançar** quando terminar.
+   - Se você não tiver verificado a caixa de seleção **usar um único FQDN e endereço IP** , agora precisará inserir os três FQDNs externos para o serviço de borda de **acesso SIP** , o serviço de borda de Webconferência e o serviço **de borda a/V** . **** Clique em **Avançar** quando terminar.
     
-10. Agora você está na tela **definir o endereço IP interno** . Aqui você vai digitar o endereço IP do seu servidor de borda nas caixas de texto **endereço IPv4 interno** e um **endereço IPv6 interna** , conforme as escolhas feitas novamente na etapa 8. Clique em **Avançar** quando terminar.
+10. Agora você está na tela **definir o endereço IP interno** . Aqui você digitará o endereço IP do servidor de borda nas caixas de texto **endereço IPv4 interno** e **endereço IPv6 interno** , dependendo das opções feitas novamente na etapa 8. Clique em **Avançar** quando terminar.
     
 11. Na tela **Definir o endereço IP externo**, você tem algumas opções dependendo de suas escolhas anteriores:
     
-    - Você pode estar usando um único FQDN para todos os serviços. Em caso afirmativo, digite seu endereço IPv4 ou IPv6 externo (aquele que estiver usando) na caixa de texto de **Acesso SIP** e, em seguida, clique em **Avançar**.
+    - Você pode estar usando um único FQDN para todos os serviços. Em caso afirmativo, digite seu endereço IPv4 ou IPv6 externo (o que você estiver usando) na caixa de texto do **acesso SIP** e clique em **Avançar**.
     
-    - Você pode ter escolhido usar três FQDNs e endereços IP separados para os serviços. Se for esse o caso, insira seus endereços IPv4 ou IPv6 externos para o serviço de borda de **Acesso SIP** , o serviço de borda de **Webconferência** e o **A / V** serviço de borda e clique em **Avançar**.
+    - Você pode ter escolhido usar três FQDNs e endereços IP separados para os serviços. Se esse for o caso, insira seus endereços IPv4 ou IPv6 externos para o serviço de borda de **acesso SIP** , o serviço de borda de Webconferência e o serviço **de borda a/V** e clique em **Avançar**. ****
     
     > [!NOTE]
     > Se você não escolheu habilitar e atribuir endereços IPv6 anteriormente, você não verá essa caixa de diálogo. Isso é normal, basta ir para a próxima etapa. 
   
-12. Se você optar por usar NAT novamente na etapa 8, agora você obterá uma tela com uma caixa de texto **endereço IP público** . Você precisará inserir o endereço IPv4 e/ou IPv6 público você configurou para A / serviço de borda de V, a serem convertidos pelo NAT. Clique em **Avançar**.
+12. Se você optou por usar o NAT de volta na etapa 8, agora obterá uma tela com uma caixa de texto de **endereço IP público** . Você precisará inserir o endereço IPv4 e/ou IPv6 público que você definiu para o serviço de borda a/V, a ser traduzido por NAT. Clique em **Avançar**.
     
-13. A próxima tela é **Definir o próximo salto**. Na caixa **pool de próximo salto** , selecione o nome do seu pool interno, que pode ser um pool de Front-End ou um pool autônomo. Se você tiver um diretor em seu ambiente, você deve escolher o diretor. Then click **Next**.
+13. A próxima tela é **Definir o próximo salto**. Na caixa **próximo pool de saltos** , selecione o nome do seu pool interno, que pode ser um pool de front-ends ou um pool autônomo. Se você tiver um diretor em seu ambiente, deverá escolher o diretor. Then click **Next**.
     
-14. Na tela **associar Front End pools** , você precisará especificar um ou mais pools internos, incluindo os pools de Front-End e servidores Standard Edition, para associar a esse servidor de borda. Escolha os nomes dos pools internos desejado usando esse servidor de borda para se comunicar com usuários externos com suporte. Click **Next**.
+14. Na tela **associar pools de front-end** , você precisará especificar um ou mais pools internos, incluindo pools front-end e servidores Standard Edition, para associar a este servidor de borda. Basta escolher os nomes dos pools internos que você deseja usar esse servidor de borda para se comunicar com usuários externos com suporte. Click **Next**.
     
     > [!NOTE]
-    > Algo que deve ter em mente aqui é, se os seus pools internos ou servidores autônomos já estiver usando um Skype diferente para o servidor de borda do servidor de negócios, eles não podem ter várias associações. Se você escolher um pool interno ou um servidor autônomo que é nessa situação, você verá a aparecer um aviso informando sobre o servidor de borda, e você pode decidir se deseja continuar ou não. Se você prosseguir com essa nova associação, a conexão com o outro Servidor de Borda será interrompida. 
+    > Algo a ser lembrado aqui é, se seus pools internos ou autônomos já estiverem usando um servidor de borda diferente do Skype for Business Server, eles não poderão ter várias associações. Se você escolher um pool interno ou um servidor autônomo que está nessa situação, verá que um aviso será exibido informando sobre o outro servidor de borda e poderá decidir se deseja continuar ou não. Se você prosseguir com essa nova associação, a conexão com o outro Servidor de Borda será interrompida. 
   
 15. Clique em **Concluir** na próxima tela.
     
-16. Agora você vai ser capaz de publicar essa tecnologia atualizada e siga as instruções em [Implantar servidores de borda no Skype para Business Server](deploy-edge-servers.md) para implantar no servidor de borda a partir daqui.
+16. Agora, você poderá publicar essa tecnologia atualizada e seguir as instruções em [implantar servidores de borda no Skype for Business Server](deploy-edge-servers.md) para implantar no servidor de borda aqui.
     
-### <a name="defining-the-topology-for-a-dns-load-balanced-edge-server-pool"></a>Definindo a topologia para um DNS com balanceamento de carga pool do servidor de borda
+### <a name="defining-the-topology-for-a-dns-load-balanced-edge-server-pool"></a>Definindo a topologia de um pool de servidores de borda com balanceamento de carga de DNS
 
-1. Faça logon em seu Skype para Business Server Standard Edition ou um Skype para Business Server servidor Front-End.
+1. Faça logon no servidor do Skype for Business Server Standard Edition ou em um servidor front-end do Skype for Business Server.
     
-2. Uma vez lá, abra **Skype para o construtor de topologia de servidor de negócios**.
+2. Depois disso, abra o **Construtor de topologias do Skype for Business Server**.
     
-3. Na árvore de console, expanda o site que você pretende implantar o servidor de borda para.
+3. Na árvore de console, expanda o site para o qual você vai implantar o servidor de borda.
     
-4. Clique com o botão **pools de borda**e clique em **novo pool de borda**.
+4. Clique com o botão direito do mouse em **conjuntos de bordas**e clique em **novo pool de bordas**.
     
-5. Você vai clicar em **Avançar** na tela **Definir novo pool de borda** .
+5. Clique em **Avançar** na tela **definir novo pool de borda** .
     
-6. Na tela **definir o FQDN do pool de borda** , digite o nome de domínio totalmente qualificado (FQDN) interno que o pool de borda irá usar e selecione **pool de vários computadores**, clicando em **próximo** ao terminar.
+6. Na tela **definir o FQDN do pool de bordas** , digite o nome de domínio totalmente qualificado (FQDN) que o pool de bordas usará e selecione **vários pools de computadores**e clique **em Avançar** quando terminar.
     
 7. Na tela **Selecionar recursos**, você tem uma escolha:
     
-    - Talvez você pretende usar o mesmo endereço IP e FQDN para seu serviço de acesso SIP, sua Skype para serviço de webconferência Business Server e seu uma / serviço de borda V. Se esse for o caso, você deve marcar a caixa de seleção **Use um único FQDN e endereço IP** (e lembre-se disso na Etapa 9 abaixo)
+    - Você pode usar o mesmo FQDN e endereço IP para o seu serviço de acesso SIP, seu serviço de Webconferência do Skype for Business Server e seu serviço de borda A/V. Se esse for o caso, você deve marcar a caixa de seleção **Use um único FQDN e endereço IP** (e lembre-se disso na Etapa 9 abaixo)
     
     - Se você planejar habilitar a federação, marque a caixa de seleção **Habilitar federação para este servidor de Borda (porta 5061)**.
     
@@ -145,61 +145,61 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
     
    - Habilitar IPv6 na interface externa
     
-     Eles são bastante auto-explicativos, se você estiver usando endereços IPv4 ou IPv6, e você estiver aplicando esses endereços em seu servidor de borda interna ou externamente (você precisará ter isto em mente para a etapa 11). Você também tem a opção de configurar seu servidor de borda ou pool de borda para usar um endereço NAT (conversão) de endereço de rede para o endereço IP externo. Você pode fazer isso marcando a caixa de seleção **O endereço IP externo deste pool de Borda é convertido pelo NAT**. Clique em **Avançar** quando estiver pronto.
+     Esses são bem auto-explicativos, não importa se você está usando endereços IPv4 ou IPv6, e você está aplicando esses endereços em seu servidor de borda interna ou externamente (você precisará ter isso em mente para a etapa 11). Você também tem a opção de configurar o servidor de borda ou o pool de bordas para usar um endereço de NAT (conversão de endereços de rede) para o endereço IP externo. Você pode fazer isso marcando a caixa de seleção **O endereço IP externo deste pool de Borda é convertido pelo NAT**. Clique em **Avançar** quando estiver pronto.
     
 9. Na tela de FQDNs Externos, suas opções dependem da seleção feita na Etapa 7 acima.
     
-   - Se você marcou a caixa de seleção **usar um único FQDN e o endereço IP** , você precisa inserir seu FQDN externo único na caixa **Acesso SIP** . Em seguida, você precisará digitar números de porta diferente para cada serviço de borda para permitir que todos eles conectem independentemente. Recomendamos 5061 para o serviço de Borda de **Acesso SIP**, 444 para o serviço de Borda de **Webconferência** e 443 para o serviço de Borda **A/V**. Clique em **Avançar** quando terminar.
+   - Se tiver marcado a caixa de seleção **usar um único FQDN e endereço IP** , você precisará inserir seu único FQDN externo na caixa de **acesso SIP** . Em seguida, você precisará inserir números de porta diferentes para cada serviço de borda para permitir que todos se conectem de forma independente. Recomendamos 5061 para o serviço de Borda de **Acesso SIP**, 444 para o serviço de Borda de **Webconferência** e 443 para o serviço de Borda **A/V**. Clique em **Avançar** quando terminar.
     
-   - Se você não marcar a caixa de seleção **usar um único FQDN e endereço IP** , você precisará inserir os FQDNs externos três para o serviço de borda de **Acesso SIP** , o serviço de borda de **Webconferência** , agora e a **A / V** serviço de borda. Clique em **Avançar** quando terminar.
+   - Se você não tiver verificado a caixa de seleção **usar um único FQDN e endereço IP** , agora precisará inserir os três FQDNs externos para o serviço de borda de **acesso SIP** , o serviço de borda de Webconferência e o serviço **de borda a/V** . **** Clique em **Avançar** quando terminar.
     
-10. Agora você chegou a tela de **definir os computadores neste pool** . Clique no botão **Adicionar**.
+10. Agora você atingiu a tela **definir os computadores neste pool** . Clique no botão **Adicionar**.
     
-11. Agora você está na tela **definir o endereço IP interno** . Aqui você vai digitar o endereço IP do seu servidor de borda nas caixas de texto **endereço IPv4 interno** e um **endereço IPv6 interna** , conforme as escolhas feitas novamente na etapa 8. Clique em **Avançar** quando terminar.
+11. Agora você está na tela **definir o endereço IP interno** . Aqui você digitará o endereço IP do servidor de borda nas caixas de texto **endereço IPv4 interno** e **endereço IPv6 interno** , dependendo das opções feitas novamente na etapa 8. Clique em **Avançar** quando terminar.
     
 12. Na tela **Definir o endereço IP externo**, você tem algumas opções dependendo de suas escolhas anteriores:
     
-    - Você pode estar usando um único FQDN para todos os serviços. Em caso afirmativo, digite seu endereço IPv4 ou IPv6 externo (aquele que estiver usando) na caixa de texto de **Acesso SIP** e, em seguida, clique em **Avançar**.
+    - Você pode estar usando um único FQDN para todos os serviços. Em caso afirmativo, digite seu endereço IPv4 ou IPv6 externo (o que você estiver usando) na caixa de texto do **acesso SIP** e clique em **Avançar**.
     
-    - Você pode ter escolhido usar três FQDNs e endereços IP separados para os serviços. Se for esse o caso, insira seus endereços IPv4 ou IPv6 externos para o serviço de borda de **Acesso SIP** , o serviço de borda de **Webconferência** e o **A / V** serviço de borda e clique em **Avançar**.
+    - Você pode ter escolhido usar três FQDNs e endereços IP separados para os serviços. Se esse for o caso, insira seus endereços IPv4 ou IPv6 externos para o serviço de borda de **acesso SIP** , o serviço de borda de Webconferência e o serviço **de borda a/V** e clique em **Avançar**. ****
     
     > [!NOTE]
     > Se você não escolheu habilitar e atribuir endereços IPv6 anteriormente, você não verá essa caixa de diálogo. Isso é normal, basta ir para a próxima etapa. 
   
 13. Clique em **Concluir**. O servidor de borda que você acabou de criar agora deve estar listado na caixa de diálogo **definir os computadores neste pool** .
     
-14. Enquanto ainda estiver na tela **definir os computadores neste pool** , clique no botão **Adicionar** novamente e repita as etapas 11 a 13 até que você tenha adicionado todos os servidores de borda que pretende ter neste pool. Quando terminar, clique em **Avançar**.
+14. Ainda na tela **definir os computadores neste pool** , clique no botão **Adicionar** novamente e repita as etapas de 11 a 13 até adicionar todos os servidores de borda que você pretende ter nesse pool. Quando terminar, clique em **Avançar**.
     
-15. Se você optar por usar NAT novamente na etapa 8, agora você obterá uma tela com uma caixa de texto **endereço IP público** . Você precisará inserir o endereço IPv4 e/ou IPv6 público você configurou para A / serviço de borda de V, a serem convertidos pelo NAT. Clique em **Avançar**.
+15. Se você optou por usar o NAT de volta na etapa 8, agora obterá uma tela com uma caixa de texto de **endereço IP público** . Você precisará inserir o endereço IPv4 e/ou IPv6 público que você definiu para o serviço de borda a/V, a ser traduzido por NAT. Clique em **Avançar**.
     
-16. A próxima tela é **Definir o próximo salto**. Na caixa **pool de próximo salto** , selecione o nome do seu pool interno, que pode ser um pool de Front-End ou um pool autônomo. Se você tiver um diretor em seu ambiente, você deve escolher o diretor. Then click **Next**.
+16. A próxima tela é **Definir o próximo salto**. Na caixa **próximo pool de saltos** , selecione o nome do seu pool interno, que pode ser um pool de front-ends ou um pool autônomo. Se você tiver um diretor em seu ambiente, deverá escolher o diretor. Then click **Next**.
     
-17. Na tela **associar Front End pools** , você precisará especificar um ou mais pools internos, incluindo os pools de Front-End e pools Standard Edition, para associar a esse servidor de borda. Escolha os nomes dos pools internos desejado usando esse servidor de borda para se comunicar com usuários externos com suporte. Click **Next**.
+17. Na tela **associar pools de front-end** , você precisará especificar um ou mais pools internos, incluindo pools de front-end e pools do Standard Edition, para associar a este servidor de borda. Basta escolher os nomes dos pools internos que você deseja usar esse servidor de borda para se comunicar com usuários externos com suporte. Click **Next**.
     
     > [!NOTE]
-    > Algo que deve ter em mente aqui é, se os seus pools internos ou servidores autônomos já estiver usando um Skype diferente para o servidor de borda do servidor de negócios, eles não podem ter várias associações. Se você escolher um pool interno ou um servidor autônomo que é nessa situação, você verá a aparecer um aviso informando sobre o servidor de borda, e você pode decidir se deseja continuar ou não. Se você prosseguir com essa nova associação, a conexão com o outro Servidor de Borda será interrompida. 
+    > Algo a ser lembrado aqui é, se seus pools internos ou autônomos já estiverem usando um servidor de borda diferente do Skype for Business Server, eles não poderão ter várias associações. Se você escolher um pool interno ou um servidor autônomo que está nessa situação, verá que um aviso será exibido informando sobre o outro servidor de borda e poderá decidir se deseja continuar ou não. Se você prosseguir com essa nova associação, a conexão com o outro Servidor de Borda será interrompida. 
   
 18. Clique em **Concluir** na próxima tela.
     
-19. Agora você vai ser capaz de publicar essa tecnologia atualizada e siga as instruções em [Implantar servidores de borda no Skype para Business Server](deploy-edge-servers.md) para implantar no servidor de borda a partir daqui.
+19. Agora, você poderá publicar essa tecnologia atualizada e seguir as instruções em [implantar servidores de borda no Skype for Business Server](deploy-edge-servers.md) para implantar no servidor de borda aqui.
     
-### <a name="defining-the-topology-for-a-hardware-load-balanced-edge-server-pool"></a>Definindo a topologia para uma carga de hardware balanceada pool do servidor de borda
+### <a name="defining-the-topology-for-a-hardware-load-balanced-edge-server-pool"></a>Definindo a topologia de um pool de servidores de borda com carga balanceada de hardware
 
-1. Faça logon em seu Skype para Business Server Standard Edition ou um Skype para Business Server servidor Front-End.
+1. Faça logon no servidor do Skype for Business Server Standard Edition ou em um servidor front-end do Skype for Business Server.
     
-2. Uma vez lá, abra **Skype para o construtor de topologia de servidor de negócios**.
+2. Depois disso, abra o **Construtor de topologias do Skype for Business Server**.
     
-3. Na árvore de console, expanda o site que você pretende implantar o servidor de borda para.
+3. Na árvore de console, expanda o site para o qual você vai implantar o servidor de borda.
     
-4. Clique com o botão **pools de borda**e clique em **novo pool de borda**.
+4. Clique com o botão direito do mouse em **conjuntos de bordas**e clique em **novo pool de bordas**.
     
-5. Você vai clicar em **Avançar** na tela **Definir novo pool de borda** .
+5. Clique em **Avançar** na tela **definir novo pool de borda** .
     
-6. Na tela **definir o FQDN do pool de borda** , digite o nome de domínio totalmente qualificado (FQDN) interno que o pool de borda irá usar e selecione **pool de vários computadores**, clicando em **próximo** ao terminar.
+6. Na tela **definir o FQDN do pool de bordas** , digite o nome de domínio totalmente qualificado (FQDN) que o pool de bordas usará e selecione **vários pools de computadores**e clique **em Avançar** quando terminar.
     
 7. Na tela **Selecionar recursos**, você tem uma escolha:
     
-   - Talvez você pretende usar o mesmo endereço IP e FQDN para seu serviço de acesso SIP, sua Skype para serviço de webconferência Business Server e seu uma / serviço de borda V. Se esse for o caso, você deve marcar a caixa de seleção **Use um único FQDN e endereço IP** (e lembre-se disso na Etapa 9 abaixo)
+   - Você pode usar o mesmo FQDN e endereço IP para o seu serviço de acesso SIP, seu serviço de Webconferência do Skype for Business Server e seu serviço de borda A/V. Se esse for o caso, você deve marcar a caixa de seleção **Use um único FQDN e endereço IP** (e lembre-se disso na Etapa 9 abaixo)
     
    - Se você planejar habilitar a federação, marque a caixa de seleção **Habilitar federação para este servidor de Borda (porta 5061)**.
     
@@ -213,52 +213,52 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
     
    - Habilitar IPv6 na interface externa
     
-     Eles são bastante auto-explicativos, se você estiver usando endereços IPv4 ou IPv6, e você estiver aplicando esses endereços em seu servidor de borda interna ou externamente (você precisará ter isto em mente para a etapa 11).
+     Esses são bem auto-explicativos, não importa se você está usando endereços IPv4 ou IPv6, e você está aplicando esses endereços em seu servidor de borda interna ou externamente (você precisará ter isso em mente para a etapa 11).
     
      > [!NOTE]
-     > Diferentemente de outras duas opções de topologia, ao usar um balanceador de carga de hardware, você **Não deve** selecionar a opção **o endereço IP externo do Pool de borda é convertido por NAT**. Essa opção **não é suportada**.
+     > Ao contrário das outras duas opções de topologia, ao usar um balanceador de carga de hardware, você **não deve** selecionar a opção **o endereço IP externo do pool de bordas é traduzido por Nat**. Essa opção **não é suportada**.
   
 9. Na tela de FQDNs Externos, suas opções dependem da seleção feita na Etapa 7 acima.
     
-   - Se você marcou a caixa de seleção **usar um único FQDN e o endereço IP** , você precisa inserir seu FQDN externo único na caixa **Acesso SIP** . Em seguida, você precisará digitar números de porta diferente para cada serviço de borda para permitir que todos eles conectem independentemente. Recomendamos 5061 para o serviço de Borda de **Acesso SIP**, 444 para o serviço de Borda de **Webconferência** e 443 para o serviço de Borda **A/V**. Clique em **Avançar** quando terminar.
+   - Se tiver marcado a caixa de seleção **usar um único FQDN e endereço IP** , você precisará inserir seu único FQDN externo na caixa de **acesso SIP** . Em seguida, você precisará inserir números de porta diferentes para cada serviço de borda para permitir que todos se conectem de forma independente. Recomendamos 5061 para o serviço de Borda de **Acesso SIP**, 444 para o serviço de Borda de **Webconferência** e 443 para o serviço de Borda **A/V**. Clique em **Avançar** quando terminar.
     
-   - Se você não marcar a caixa de seleção **usar um único FQDN e endereço IP** , você precisará inserir os FQDNs externos três para o serviço de borda de **Acesso SIP** , o serviço de borda de **Webconferência** , agora e a **A / V** serviço de borda. Clique em **Avançar** quando terminar.
+   - Se você não tiver verificado a caixa de seleção **usar um único FQDN e endereço IP** , agora precisará inserir os três FQDNs externos para o serviço de borda de **acesso SIP** , o serviço de borda de Webconferência e o serviço **de borda a/V** . **** Clique em **Avançar** quando terminar.
     
-10. Agora você chegou a tela de **definir os computadores neste pool** . Clique no botão **Adicionar**.
+10. Agora você atingiu a tela **definir os computadores neste pool** . Clique no botão **Adicionar**.
     
-11. Agora você está na tela **definir o endereço IP interno** . Aqui você vai digitar o endereço IP do seu servidor de borda nas caixas de texto **endereço IPv4 interno** e um **endereço IPv6 interna** , conforme as escolhas feitas novamente na etapa 8. Clique em **Avançar** quando terminar.
+11. Agora você está na tela **definir o endereço IP interno** . Aqui você digitará o endereço IP do servidor de borda nas caixas de texto **endereço IPv4 interno** e **endereço IPv6 interno** , dependendo das opções feitas novamente na etapa 8. Clique em **Avançar** quando terminar.
     
 12. Na tela **Definir o endereço IP externo**, você tem algumas opções dependendo de suas escolhas anteriores:
     
-    - Você pode estar usando um único FQDN para todos os serviços. Em caso afirmativo, digite seu endereço IPv4 ou IPv6 externo (aquele que estiver usando) na caixa de texto de **Acesso SIP** e, em seguida, clique em **Avançar**.
+    - Você pode estar usando um único FQDN para todos os serviços. Em caso afirmativo, digite seu endereço IPv4 ou IPv6 externo (o que você estiver usando) na caixa de texto do **acesso SIP** e clique em **Avançar**.
     
-    - Você pode ter escolhido usar três FQDNs e endereços IP separados para os serviços. Se for esse o caso, insira seus endereços IPv4 ou IPv6 externos para o serviço de borda de **Acesso SIP** , o serviço de borda de **Webconferência** e o **A / V** serviço de borda e clique em **Avançar**.
+    - Você pode ter escolhido usar três FQDNs e endereços IP separados para os serviços. Se esse for o caso, insira seus endereços IPv4 ou IPv6 externos para o serviço de borda de **acesso SIP** , o serviço de borda de Webconferência e o serviço **de borda a/V** e clique em **Avançar**. ****
     
     > [!NOTE]
     > Se você não escolheu habilitar e atribuir endereços IPv6 anteriormente, você não verá essa caixa de diálogo. Isso é normal, basta ir para a próxima etapa. 
   
 13. Clique em **Concluir**. O servidor de borda que você acabou de criar agora deve estar listado na caixa de diálogo **definir os computadores neste pool** .
     
-14. Enquanto ainda estiver na tela **definir os computadores neste pool** , clique no botão **Adicionar** novamente e repita as etapas 11 a 13 até que você tenha adicionado todos os servidores de borda que pretende ter neste pool. Quando terminar, clique em **Avançar**.
+14. Ainda na tela **definir os computadores neste pool** , clique no botão **Adicionar** novamente e repita as etapas de 11 a 13 até adicionar todos os servidores de borda que você pretende ter nesse pool. Quando terminar, clique em **Avançar**.
     
-15. A próxima tela é **Definir o próximo salto**. Na caixa **pool de próximo salto** , selecione o nome do seu pool interno, que pode ser um pool de Front-End ou um pool autônomo. Se você tiver um diretor em seu ambiente, você deve escolher o diretor. Then click **Next**.
+15. A próxima tela é **Definir o próximo salto**. Na caixa **próximo pool de saltos** , selecione o nome do seu pool interno, que pode ser um pool de front-ends ou um pool autônomo. Se você tiver um diretor em seu ambiente, deverá escolher o diretor. Then click **Next**.
     
-16. Na tela **associar Front End pools** , você precisará especificar um ou mais pools internos, incluindo os pools de Front-End e pools Standard Edition, para associar a esse servidor de borda. Escolha os nomes dos pools internos desejado usando esse servidor de borda para se comunicar com usuários externos com suporte. Click **Next**.
+16. Na tela **associar pools de front-end** , você precisará especificar um ou mais pools internos, incluindo pools de front-end e pools do Standard Edition, para associar a este servidor de borda. Basta escolher os nomes dos pools internos que você deseja usar esse servidor de borda para se comunicar com usuários externos com suporte. Click **Next**.
     
     > [!NOTE]
-    > Algo que deve ter em mente aqui é, se os seus pools internos ou servidores autônomos já estiver usando um Skype diferente para o servidor de borda do servidor de negócios, eles não podem ter várias associações. Se você escolher um pool interno ou um servidor autônomo que é nessa situação, você verá a aparecer um aviso informando sobre o servidor de borda, e você pode decidir se deseja continuar ou não. Se você prosseguir com essa nova associação, a conexão com o outro Servidor de Borda será interrompida. 
+    > Algo a ser lembrado aqui é, se seus pools internos ou autônomos já estiverem usando um servidor de borda diferente do Skype for Business Server, eles não poderão ter várias associações. Se você escolher um pool interno ou um servidor autônomo que está nessa situação, verá que um aviso será exibido informando sobre o outro servidor de borda e poderá decidir se deseja continuar ou não. Se você prosseguir com essa nova associação, a conexão com o outro Servidor de Borda será interrompida. 
   
 17. Clique em **Concluir** na próxima tela.
     
-18. Agora você vai ser capaz de publicar essa tecnologia atualizada e siga as instruções em [Implantar servidores de borda no Skype para Business Server](deploy-edge-servers.md) para implantar no servidor de borda a partir daqui.
+18. Agora, você poderá publicar essa tecnologia atualizada e seguir as instruções em [implantar servidores de borda no Skype for Business Server](deploy-edge-servers.md) para implantar no servidor de borda aqui.
     
 ## <a name="publish-your-edge-server-topology"></a>Publicar sua topologia do Servidor de Borda
 
-Depois que tiver concluído as etapas acima, é hora de publicar essa nova topologia, que também permitirá que você exportá-lo para seu Skype para pool de borda ou servidor de borda do servidor de negócios. Siga estas etapas:
+Depois de concluir as etapas acima, é hora de publicar essa nova topologia, o que também permitirá que você a exporte para o seu servidor de borda do Skype for Business Server ou para o pool de bordas. Siga estas etapas:
   
 1. Inicie o **Construtor de Topologia** (se ele já não foi iniciado no procedimento anterior).
     
-2. No **Construtor de topologia**, na árvore de console, clique com o botão **Skype para Business Server** e clique em **Skype para o construtor de topologia de servidor de negócios**.
+2. No **Construtor**de topologias, na árvore de console, clique com o botão direito do mouse em **Skype for Business Server** e clique em **Construtor de topologia do Skype for Business Server**.
     
 3. Na página **Bem-vindo** do assistente, clique em **Avançar**.
     
@@ -272,16 +272,16 @@ Depois que tiver concluído as etapas acima, é hora de publicar essa nova topol
     
 ## <a name="export-your-edge-server-topology"></a>Exportar sua topologia do Servidor de Borda
 
-Para implantar com êxito, o Skype para o Assistente de implantação do Business Server precisa acessar os dados do repositório de gerenciamento Central. Para servidores internos no seu domínio ou floresta, isso normalmente é bem direto. Servidores de borda estão fora do domínio e, portanto, é necessário exportar manualmente o arquivo de topologia para o local do servidor de borda, geralmente em uma mídia física. Esta exportação é feita via PowerShell:
+Para implantar com êxito, o assistente de implantação do Skype for Business Server precisa acessar os dados do repositório de gerenciamento central. Para servidores internos no seu domínio ou floresta, isso normalmente é bem direto. Os servidores de borda estão fora do domínio e, portanto, é necessário exportar manualmente o arquivo de topologia para o local do servidor de borda, geralmente em uma mídia física. Esta exportação é feita via PowerShell:
   
-1. Inicie o **Skype do Shell de gerenciamento do servidor de negócios**.
+1. Inicie o **Shell de gerenciamento do Skype for Business Server**.
     
-2. No **Skype para Business Server Management Shell**, execute o seguinte:
+2. No **Shell de gerenciamento do Skype for Business Server**, execute o seguinte:
     
    ```
    Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
    ```
 
-3. Copie o arquivo exportado na mídia externa (por exemplo, um USB unidade ou compartilhamento de rede que pode ser acessada a partir de localização do servidor de borda).
+3. Copie o arquivo exportado para mídia externa (por exemplo, uma unidade USB ou um compartilhamento de rede que você possa alcançar na localização do servidor de borda).
     
 

@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertImportSummary
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
-description: Na página Importar resumo de certificado, são apresentadas um resumo do nome do arquivo, o caminho e a presença de uma chave privada. Depois de revisar o resumo, clique próximo ao continue.
-ms.openlocfilehash: af3663954a486cfb8bcd85f79333849ef897f809
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Na página Importar Resumo do certificado, você recebe um resumo do nome do arquivo, caminho e presença de uma chave privada. Depois de revisar o resumo, clique em avançar para continuar.
+ms.openlocfilehash: 883f38db1519556e4851e45bee074a58bc9d0da0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910992"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273970"
 ---
 # <a name="import-certificate-summary"></a>Importar Certificado (Resumo)
  
-Na página **Importar resumo de certificado** , são apresentadas um resumo do nome do arquivo, o caminho e a presença de uma chave privada. Após revisar o resumo, clique em **Avançar** para continuar.
+Na página **importar Resumo do certificado** , você recebe um resumo do nome do arquivo, caminho e presença de uma chave privada. Depois de revisar o resumo, clique em **Avançar** para continuar.
   
 

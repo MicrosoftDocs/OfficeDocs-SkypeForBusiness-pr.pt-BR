@@ -4,35 +4,35 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Ao criar um Skype para Business Server 2019 pool, você usará o repositório de gerenciamento Central que está associado com a instalação herdada. Quando você iniciar sessões de edição do construtor de topologia na primeira utilização e subsequentes, será solicitada para o local onde você deseja que o construtor de topologias para carregar o documento de configuração atual. Como você já possui uma topologia definida e estabelecer o repositório de gerenciamento Central, você deve optar por baixar uma topologia de uma implantação existente. Construtor de topologia lerá o banco de dados e recuperar a definição atual.
-ms.openlocfilehash: 35c0d7163d58c17db16678ba14fd8c7b6b400c9f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Ao criar um pool do Skype for Business Server 2019, você usará o repositório de gerenciamento central associado à instalação herdada. Ao iniciar o construtor de topologia na primeira utilização e em sessões de edição subsequentes, você será solicitado a fornecer o local onde deseja que o construtor de topologias carregue o documento de configuração atual. Como você já tem uma topologia definida e estabeleceu o repositório de gerenciamento central, você deve optar por baixar uma topologia de uma implantação existente. O construtor de topologias lerá o banco de dados e recuperará a definição atual.
+ms.openlocfilehash: 67317f9acf477d6b6decd42433844ef088d27021
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238468"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280854"
 ---
 # <a name="download-topology-from-existing-deployment"></a>Baixar topologia da implantação existente
 
-Ao criar um Skype para Business Server 2019 pool, você usará o repositório de gerenciamento Central que está associado com a instalação herdada. Quando você iniciar sessões de edição do construtor de topologia na primeira utilização e subsequentes, será solicitada para o local onde você deseja que o construtor de topologias para carregar o documento de configuração atual. Como você já possui uma topologia definida e estabelecer o repositório de gerenciamento Central, você deve optar por baixar uma topologia de uma implantação existente. Construtor de topologia lerá o banco de dados e recuperar a definição atual. 
+Ao criar um pool do Skype for Business Server 2019, você usará o repositório de gerenciamento central associado à instalação herdada. Ao iniciar o construtor de topologia na primeira utilização e em sessões de edição subsequentes, você será solicitado a fornecer o local onde deseja que o construtor de topologias carregue o documento de configuração atual. Como você já tem uma topologia definida e estabeleceu o repositório de gerenciamento central, você deve optar por baixar uma topologia de uma implantação existente. O construtor de topologias lerá o banco de dados e recuperará a definição atual. 
   
-### <a name="to-download-a-topology-from-an-existing-deployment"></a>Para fazer o download de uma topologia de uma implantação existente
+### <a name="to-download-a-topology-from-an-existing-deployment"></a>Para baixar uma topologia de uma implantação existente
 
-1. Abra o Skype do Assistente de implantação de servidor de negócios.
+1. Abra o assistente de implantação do Skype for Business Server.
     
-2. Na página **Skype para Business Server 2019 - Assistente de implantação** , clique em **Instalar ferramentas administrativas**.
+2. Na página do **Skype for Business Server 2019 – assistente de implantação** , clique em **instalar ferramentas administrativas**.
     
-3. Inicie o construtor de topologia: Clique em **Iniciar**, clique em **Todos os programas**, clique em **Microsoft Skype para Business Server 2019**e, em seguida, clique em **Skype para o construtor de topologia de servidor de negócios**.
+3. Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Skype for Business Server 2019**e, em seguida, clique em **Construtor de topologias do Skype for Business Server**.
     
-4. Selecione **Baixar topologia da implantação existente**.
+4. Selecione **baixar a topologia na implantação existente**.
   
-5. Escolha um nome de arquivo e salve a topologia com o tipo de arquivo. tbxml padrão.
+5. Escolha um nome de arquivo e salve a topologia com o tipo de arquivo default. tbxml.
     
-6. Expanda o Skype para o nó do servidor de negócios para revelar várias funções de servidor na implantação.
+6. Expanda o nó do servidor do Skype for Business para revelar as várias funções de servidor na implantação.
     
   
 

@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.ExternalApplicationGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
-description: Para editar as propriedades de um servidor de aplicativos confiáveis que já foi definido, siga estas instruções.
-ms.openlocfilehash: fc1a8e567980572e5b58165e156c65ca8030d155
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Para editar as propriedades de um servidor de aplicativos confiável que já foi definido, siga estas instruções.
+ms.openlocfilehash: 56e8fb02039fec31da3303c1d357f176ddcb8d51
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885543"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284533"
 ---
 # <a name="external-application-general-settings-expander"></a>Expansor de Configurações Gerais de Aplicativo Externo
  
-Para editar as propriedades de um servidor de aplicativos confiáveis que já foi definido, siga estas instruções.
+Para editar as propriedades de um servidor de aplicativos confiável que já foi definido, siga estas instruções.
   
 Há duas seções que você pode modificar:
   
@@ -32,16 +32,16 @@ Há duas seções que você pode modificar:
     
 ## <a name="general-settings"></a>Configurações gerais
 
-Você pode modificar o nome de domínio totalmente qualificado (FQDN) atual para o pool de servidores de aplicativos confiáveis. Edite o nome do FQDN do pool. Os registros de host (A) do sistema de nome de domínio (DNS) devem existir para a nova entrada antes de clientes ou servidores podem se conectar para o novo nome do pool.
+Você pode modificar o nome de domínio totalmente qualificado (FQDN) atual para o pool do servidor de aplicativos confiável. Edite o nome do FQDN do pool. Os registros de host (A) do sistema de nome de domínio (DNS) devem existir para a nova entrada antes que os clientes ou servidores possam se conectar ao novo nome do pool.
   
-Selecione **habilitar replicação de dados de configuração para este pool** se você precisa ter a replicação de dados de configuração para este pool. Desmarque a marca de seleção se não desejar replicar os dados de configuração.
+Selecione **habilitar a replicação de dados de configuração para esse pool** se você precisar ter a replicação de dados de configuração para esse pool. Desmarque a caixa de seleção se você não quiser replicar os dados de configuração.
   
-## <a name="next-hop-settings"></a>Configurações de próximo salto
+## <a name="next-hop-settings"></a>Próximas configurações de salto
 
-Você pode especificar o servidor de próximo salto do pool de servidores de aplicativos confiáveis, selecionando o pool de Front End do Enterprise Edition ou Standard Edition servidor Front-End de definido na lista suspensa. Um diretor ou diretor pool não é uma seleção válida para um próximo salto do servidor aplicativos confiáveis e não aparecerão na lista.
+Você pode especificar o próximo servidor de salto do pool de servidores de aplicativos confiáveis selecionando o pool de front-end do Enterprise Edition definido ou o servidor front-end da edição Standard na lista suspensa. Um diretor ou um pool de diretor não é uma seleção válida para um próximo salto do servidor de aplicativos confiável e não aparecerá na lista.
   
 
 
-Clique em **Okey** para aceitar e salvar suas alterações. Clique em **Cancelar** para descartar suas alterações e sair da página de propriedades.
+Clique em **OK** para aceitar e salvar as alterações. Clique em **Cancelar** para descartar suas alterações e sair da página de propriedades.
   
 

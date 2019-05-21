@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
-description: Leia sobre o recurso de opções ocupado no Skype for Business Server.
-ms.openlocfilehash: a95604c929cc2c73962f252584def364307dd425
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Leia sobre o recurso opções ocupadas no Skype for Business Server.
+ms.openlocfilehash: 8e88b4bf3b92c7fea9bcf79822e2711ff3bee7de
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895542"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277101"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Planejar Opções de Disponibilidade no Skype for Business Server
  
-Leia sobre o recurso de opções ocupado no Skype for Business Server.
+Leia sobre o recurso opções ocupadas no Skype for Business Server.
   
 O recurso Opções de Disponibilidade é uma nova política de voz introduzida na Atualização Cumulativa de julho de 2016 que permite configurar como as chamadas de entrada serão tratadas quando o usuário já estiver em uma chamada ou em conferência ou tiver colocado uma chamada em espera. As chamadas novas ou de entrada poderão ser rejeitadas com um sinal de ocupado ou encaminhadas para a caixa postal. 
   
@@ -38,15 +38,15 @@ Se o recurso Opções de Disponibilidade estiver habilitado para a organização
     
 - Caixa Postal quando Ocupado - Se o usuário estiver ocupado, as novas chamadas de entrada serão encaminhadas para a caixa postal.
     
-O recurso Opções de Disponibilidade fornece a capacidade de failover. Se ocorrer um problema e usuários realizar failover para outro servidor Front-End ou para outro pool no Skype para Business Server, suas configurações de opções ocupado serão preservadas.
+O recurso Opções de Disponibilidade fornece a capacidade de failover. Se ocorrer um problema e os usuários executarem failover em outro servidor front-end ou em outro pool no Skype for Business Server, as configurações de opções de ocupação serão preservadas.
   
 Qualquer que seja a maneira de configurar as opções de disponibilidade, os usuários em uma chamada ou em conferência (ou aqueles com uma chamada em espera) não serão impedidos de iniciar novas chamadas ou conferências.   
   
-Após a configuração, a configuração de opções de disponibilidade está em vigor para Skype do todos os usuários para clientes e dispositivos de chamada de negócios. Com base nas configurações de Opções de Disponibilidade do usuário, a chamada que é rejeitada ou enviada para a caixa postal não tocará em nenhum dos dispositivos de chamada do usuário (incluindo Macintosh, Área de Trabalho do Windows, clientes móveis ou telefones IP) nos quais ele esteja conectado. 
+Após a configuração, a configuração de opções de ocupado estará em vigor para todos os dispositivos e clientes de chamadas do Skype for Business do usuário. Com base nas configurações de Opções de Disponibilidade do usuário, a chamada que é rejeitada ou enviada para a caixa postal não tocará em nenhum dos dispositivos de chamada do usuário (incluindo Macintosh, Área de Trabalho do Windows, clientes móveis ou telefones IP) nos quais ele esteja conectado. 
   
-Os usuários verão notificações de chamadas perdidas em seu Skype para dispositivos e clientes corporativos e eles serão notificados por email também. Os chamadores cuja chamada foi rejeitada devido à ocupado em ocupado verá uma notificação em seu Skype para o cliente de negócios, informando que o usuário que tentaram acessar está ocupado em outra chamada.
+Os usuários verão notificações de chamada perdida em seus clientes e dispositivos do Skype for Business, e eles serão notificados por e-mail também. Os chamadores cuja chamada foi rejeitada devido ao ocupado em ocupado verão uma notificação no cliente do Skype for Business, informando que o usuário que ele tentou alcançar está ocupado em outra chamada.
   
-Você pode configurar o recurso de opções ocupado usando Skype para os cmdlets do PowerShell de negócios:
+Você pode configurar o recurso de opções de ocupado usando cmdlets do PowerShell do Skype for Business para:
   
 - Habilitar ou desabilitar a política de voz do recurso Opções de Disponibilidade para a empresa.
     
@@ -60,7 +60,7 @@ Você pode configurar o recurso de opções ocupado usando Skype para os cmdlets
     
 ## <a name="interoperability-with-voice-applications"></a>Interoperabilidade com aplicativos de voz
 
-Opções de ocupado fornece interoperabilidade com os seguintes aplicativos de voz no Skype para negócios:
+Opções ocupadas fornecem interoperabilidade com os seguintes aplicativos de voz no Skype for Business:
   
 - Grupos de Resposta (RGS)
     
@@ -74,7 +74,7 @@ Opções de ocupado fornece interoperabilidade com os seguintes aplicativos de v
     
 - Chamada de Equipe
     
-  - Chamadas de entrada para os usuários que estiverem configurados para uma chamada de equipe vai ser priorizadas para ignorar ocupado em ocupado e caixa postal nas configurações de ocupado.
+  - As chamadas recebidas para os usuários configurados para uma chamada de equipe serão priorizadas para ignorar o ocupado em configurações de correio de voz ocupada e em ocupado.
     
   - A experiência de Chamada de Equipe atual permanecerá inalterada com as configurações de Opções de Disponibilidade definidas para os usuários.
     
@@ -82,7 +82,7 @@ Opções de ocupado fornece interoperabilidade com os seguintes aplicativos de v
     
 - Delegação de chefe/administrador  
     
-  - Chamadas de entrada para os usuários que estiverem configurados para uma delegação de administração do chefe tanto como chefe ou um administrador vai ser priorizadas ignorar ocupado em ocupado e caixa postal nas configurações de ocupado.
+  - As chamadas recebidas para os usuários configurados para um chefe/delegação de administrador, seja como chefe ou administrador, serão priorizadas para ignorar as configurações de correio de voz ocupada e de correio de voz em ocupado.
     
   - A experiência de Delegação de Chefe/Administrador atual permanecerá inalterada com as configurações de Opções de Disponibilidade definidas para administradores ou chefe.
     
@@ -92,7 +92,7 @@ Opções de ocupado fornece interoperabilidade com os seguintes aplicativos de v
     
   - As configurações de Opções de Disponibilidade nas contas de usuário configuradas para Aparência de Linha Compartilhada serão ignoradas.  
     
-  - Ocupado nativo da aparência da linha compartilhada em ocupado e caixa postal em Opções de ocupado serão atendido em vez disso.
+  - A aparência nativa da aparência da linha compartilhada em opções ocupadas e correio de voz em ocupado será aceita em vez disso.
     
 - Serviço de estacionamento de chamada  
     

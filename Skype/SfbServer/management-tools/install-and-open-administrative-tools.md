@@ -4,40 +4,40 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Este tópico descreve como instalar e abra as ferramentas administrativas que você precisa para implantar e gerenciar Skype para negócios.
-ms.openlocfilehash: f914864ee1844ac52d5a8c1ab63da2f7036acaf8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Este tópico descreve como instalar e abrir as ferramentas administrativas necessárias para implantar e gerenciar o Skype for Business.
+ms.openlocfilehash: 612ea46fe8870944fa4b460b034bb9a7386a88bc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915084"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274398"
 ---
 # <a name="install-and-open-administrative-tools"></a>Instalar e abrir ferramentas administrativas
 
-Este tópico descreve como instalar as ferramentas administrativas que você precisa para implantar e gerenciar Skype para Business Server. As ferramentas administrativas são instaladas por padrão em cada servidor que executa o Skype para Business Server. Além disso, você pode instalar as ferramentas administrativas em outros computadores, como consoles administrativos dedicados. É altamente recomendável que você instala as ferramentas administrativas em um computador que esteja no mesmo domínio ou da floresta, como o Skype para implantação de servidor de negócios que você está criando, para garantir que preparação do Active Directory Domain Services etapas já forem concluídas, que permite que você use as ferramentas administrativas nesse computador posteriormente para publicar sua topologia. Também Certifique-se de examinar os requisitos necessários antes de instalar ou usar o Skype para ferramentas administrativas do servidor de negócios. Consulte a documentação de requisitos em [Skype para Business Server 2019](../../SfBServer2019/plan/system-requirements.md) ou [Skype para Business Server 2015](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md).
+Este tópico descreve como instalar as ferramentas administrativas necessárias para implantar e gerenciar o Skype for Business Server. As ferramentas administrativas são instaladas por padrão em cada servidor que executa o Skype for Business Server. Além disso, você pode instalar as ferramentas administrativas em outros computadores, como consoles administrativos dedicados. É altamente recomendável que você instale as ferramentas administrativas em um computador que esteja no mesmo domínio ou floresta que a implantação do Skype for Business Server que você está criando, para garantir que as etapas de preparação dos serviços de domínio Active Directory já estejam concluídas. que permite que você use as ferramentas administrativas nesse computador posteriormente para publicar sua topologia. Além disso, certifique-se de rever os requisitos necessários antes de instalar ou usar as ferramentas administrativas do Skype for Business Server. Veja a documentação de requisitos no [Skype for Business server 2019](../../SfBServer2019/plan/system-requirements.md) ou no [Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md).
  
 > [!Important]
-> Se sua organização requer que você localizar serviços de informações da Internet (IIS) e todos os serviços Web em uma unidade diferente da unidade do sistema, você pode alterar o caminho do local de instalação para o Skype para arquivos do servidor de negócios na caixa de diálogo Configurar. Se você instalar os arquivos de instalação para esse caminho, incluindo Ocscore, o restante do Skype para arquivos Business Server será implantado nesta unidade de disco. 
+> Se a sua organização exigir que você localize os serviços de informações da Internet (IIS) e todos os serviços Web em uma unidade diferente da unidade do sistema, você poderá alterar o caminho do local de instalação dos arquivos do Skype for Business Server na caixa de diálogo Configurar. Se você instalar os arquivos de instalação nesse caminho, incluindo OCSCore. msi, o restante dos arquivos do Skype for Business Server também será implantado nessa unidade. 
 
 ## <a name="to-install-the-administrative-tools"></a>Para instalar as ferramentas administrativas
 
-1. Faça logon como um administrador local (requisito mínimo) para o computador onde você deseja instalar as ferramentas administrativas. Se você estiver conectado como um usuário padrão do Windows e o controle de conta de usuário (UAC) estiver habilitados, você será solicitado para o administrador local ou um nome de usuário equivalentes do domínio e uma senha.
-2. Localize a mídia de instalação no seu computador e, em seguida, clique duas vezes em \setup\amd64\setup.exe..
-3. Se você for solicitado a instalar o Microsoft Visual C++ distribuível, clique em **Sim**.
-4. Na página Local de instalação, clique em **OK**. Altere esse caminho para outro local ou unidade, se você precisar ter os arquivos instalados para outro local.
+1. Faça logon como administrador local (requisito mínimo) para o computador em que você deseja instalar as ferramentas administrativas. Se você estiver conectado como um usuário padrão no Windows e o UAC (controle de conta de usuário) estiver habilitado, você será solicitado a fornecer o administrador local ou um nome de usuário e uma senha equivalentes ao domínio.
+2. Localize a mídia de instalação no seu computador e, em seguida, clique duas vezes em \Setup\amd64\Setup.exe.
+3. Se você for solicitado a instalar o Microsoft Visual C++ Redistributable, clique em **Sim**.
+4. Na página Local de instalação, clique em **OK**. Altere esse caminho para outro local ou unidade se precisar ter os arquivos instalados em outro local.
 
     > [!Important]
-    > Se sua organização requer que você localizar serviços de informações da Internet (IIS) e todos os serviços Web em uma unidade diferente da unidade do sistema, você pode alterar o caminho do local de instalação para o Skype para arquivos do servidor de negócios na caixa de diálogo Configurar. Se você instalar os arquivos de instalação para esse caminho, incluindo Ocscore, o restante do Skype para arquivos Business Server será implantado muito a essa unidade. 
+    > Se a sua organização exigir que você localize os serviços de informações da Internet (IIS) e todos os serviços Web em uma unidade diferente da unidade do sistema, você poderá alterar o caminho do local de instalação dos arquivos do Skype for Business Server na caixa de diálogo Configurar. Se você instalar os arquivos de instalação nesse caminho, incluindo OCSCore. msi, o restante dos arquivos do Skype for Business Server também será implantado nesta unidade. 
 
-5. Na página Contrato de licença de usuário final, analise os termos de licença, clique em **eu aceito**e, em seguida, clique em **Okey**. Esta etapa é necessária antes de continuar.
-6. Na página do Assistente de implantação, clique em **Instalar ferramentas do administrador**. 
-7. Quando a instalação for concluída com êxito, clique em **Sair**.
+5. Na página contrato de licença de usuário final, examine os termos de licença, clique em **aceito**e, em seguida, clique em **OK**. Esta etapa é necessária para que você possa continuar.
+6. Na página Assistente de implantação, clique em **instalar ferramentas de administrador**. 
+7. Quando a instalação for concluída com êxito, clique em **sair**.
 
-Use os procedimentos a seguir para abrir ferramentas administrativas para implantar, configurar ou solucionar problemas de sua Skype para a topologia de servidor de negócios.
+Use os procedimentos a seguir para abrir ferramentas administrativas para implantar, configurar ou solucionar problemas de topologia do Skype for Business Server.
 
 - [Assistente de Implantação](#deployment-wizard)
 - [Construtor de Topologias](#topology-builder) 
@@ -46,58 +46,58 @@ Use os procedimentos a seguir para abrir ferramentas administrativas para implan
 
 ## <a name="deployment-wizard"></a>Assistente de Implantação
 
-Use o procedimento a seguir para iniciar o Assistente de implantação localmente, para adicionar ou remover arquivos de componente.
+Use o procedimento a seguir para iniciar o assistente de implantação localmente para adicionar ou remover arquivos de componentes.
 
-**Para iniciar o Skype para o Assistente de implantação de servidor de negócios**
+**Para iniciar o assistente de implantação do Skype for Business Server**
 
-1. Faça logon no computador onde o Skype para o Assistente de implantação do Business Server está instalado como membro do grupo Administradores de domínio e do grupo RTCUniversalServerAdmins.
-2. Clique em **Iniciar**, clique em **Todos os programas**, clique **Skype para Business Server**e clique em **Skype para o Assistente de implantação de servidor de negócios**.
+1. Faça logon no computador em que o assistente de implantação do Skype for Business Server está instalado como membro do grupo Domain admins e do grupo RTCUniversalServerAdmins.
+2. Clique em **Iniciar**, em **todos os programas**, em **Skype for Business Server**e, em seguida, clique em **Assistente de implantação do Skype for Business Server**.
 
 
 ## <a name="topology-builder"></a>Construtor de Topologias 
 
-Use o procedimento a seguir para abrir o construtor de topologias para definir os servidores que você deseja implantar em sua Skype para a topologia de servidor de negócios.
+Use o procedimento a seguir para abrir o construtor de topologias e definir os servidores que você deseja implantar na topologia do Skype for Business Server.
 
-**Para abrir o Skype para o construtor de topologias do Business Server projetar a topologia**
+**Para abrir o construtor de topologias do Skype for Business Server para projetar a topologia**
 
 1. Faça logon no computador no qual o Construtor de Topologias está instalado como um membro do grupo Admins. do Domínio ou do grupo RTCUniversalServerAdmins.
     > [!NOTE]
-    > Você pode definir uma topologia usando uma conta que seja membro do grupo de usuários local, mas para ler, publicar ou habilitar uma topologia, o que é necessário para instalar o Skype para Business Server em um servidor, você deve usar uma conta que seja membro do grupo Administradores de domínio e th grupo RTCUniversalServerAdmins de f e que tem permissões de controle total (ou seja, ler, gravar e modificar) no compartilhamento de arquivos que você pretende usar para o repositório de arquivos de arquivamento para que o construtor de topologias consiga configurar o (de lista de controle de acesso discricionário necessários DACLs), ou uma conta com direitos de usuário equivalentes.
+    > Você pode definir uma topologia usando uma conta que seja membro do grupo usuários local, mas para ler, publicar ou habilitar uma topologia, o que é necessário para instalar o Skype for Business Server em um servidor, você deve usar uma conta que seja membro do grupo Administradores de domínio e Grupo e RTCUniversalServerAdmins e com permissões de controle total (ou seja, ler, gravar e modificar) no compartilhamento de arquivos que você vai usar para o repositório de arquivos de arquivamento para que o construtor de topologia possa configurar a lista de controle de acesso discricional necessária ( DACLs) ou uma conta com direitos de usuário equivalentes.
  
-2. Inicie o construtor de topologia: Clique em **Iniciar**, clique em **Todos os programas**, clique em **Skype para Business Server**e clique **Skype para o construtor de topologia de servidor de negócios**.
+2. Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Skype for Business Server**e em **Construtor de topologias do Skype for Business Server**.
 
 ## <a name="skype-for-business-server-control-panel"></a>Painel de Controle do Skype for Business Server 
 
-Use um dos seguintes procedimentos para abrir o Skype para painel de controle do Business Server gerenciar a configuração dos servidores, usuários, clientes e dispositivos no seu ambiente.
+Use um dos seguintes procedimentos para abrir o painel de controle do Skype for Business Server para gerenciar a configuração de servidores, usuários, clientes e dispositivos em seu ambiente.
 
 > [!NOTE]
-> Você pode usar uma conta de usuário atribuída à função CsAdministrator para executar qualquer tarefa do Skype para painel de controle do servidor de negócios. Você pode usar outras funções de fazer logon para o Skype para painel de controle do Business Server realizar tarefas administrativas específicas, varia, dependendo da tarefa que precisam ser executadas. Por exemplo, você pode usar a função CSArchivingAdministrator para administrar o arquivamento no Skype para painel de controle do servidor de negócios. Para obter detalhes sobre funções, consulte [Planejando o controle de acesso baseado em função](https://technet.microsoft.com/en-us/library/gg425917(v=ocs.15).aspx). Para obter detalhes sobre as funções que você pode usar para realizar uma tarefa específica, consulte a documentação referente à tarefa. 
+> Você pode usar uma conta de usuário atribuída à função CsAdministrator para realizar qualquer tarefa no painel de controle do Skype for Business Server. Você pode usar outras funções para fazer logon no painel de controle do Skype for Business Server para executar tarefas específicas de administração, dependendo da tarefa que você precisa executar. Por exemplo, você pode usar o CSArchivingAdministrator para administrar o arquivamento no painel de controle do Skype for Business Server. Para obter detalhes sobre as funções, consulte [planejar o controle de acesso baseado em função](https://technet.microsoft.com/en-us/library/gg425917(v=ocs.15).aspx). Para obter detalhes sobre as funções que você pode usar para realizar uma tarefa específica, consulte a documentação da tarefa. 
 
-**Para abrir o Skype para painel de controle do Business Server a partir de qualquer computador dentro do firewall da organização**
+**Para abrir o painel de controle do Skype for Business Server em qualquer computador dentro do firewall da sua organização**
 
-1. Usando uma conta de usuário atribuída à função CsAdministrator ou outra função que possui direitos de usuário apropriados e permissões para a tarefa a ser executada, faça logon em qualquer computador em sua implantação interna com uma resolução de tela mínima de 1024 x 768.
+1. Em uma conta de usuário que é atribuída à função CsAdministrator ou outra função que tenha direitos e permissões de usuário apropriados para a tarefa ser realizada, faça logon em qualquer computador em sua implantação interna com uma resolução de tela mínima de 1024 x 768.
 
     > [!IMPORTANT]
-    > Se você tiver configurado um localizador de recursos uniforme simples de administração (URL), você pode acessar o Skype para painel de controle do Business Server a partir de um navegador da Internet que está sendo executado em qualquer computador dentro do firewall da organização. Para obter detalhes sobre como configurar a URL simples de administração, consulte o [guia de planejamento para URLs simples](https://technet.microsoft.com/en-us/library/gg398287(v=ocs.15).aspx) e [Editar ou configurar URLs simples](https://technet.microsoft.com/en-us/library/gg398063(v=ocs.15).aspx). 
+    > Se você tiver configurado um URL (Uniform Resource Locator) simples de administração, poderá acessar o painel de controle do Skype for Business Server em um navegador da Internet que esteja em execução em qualquer computador dentro do firewall da sua organização. Para obter detalhes sobre como configurar a URL simples de administração, consulte [planejando URLs simples](https://technet.microsoft.com/en-us/library/gg398287(v=ocs.15).aspx) e [editando ou configurando URLs simples](https://technet.microsoft.com/en-us/library/gg398063(v=ocs.15).aspx). 
 
-2. Abra uma janela do navegador e insira a URL do administrador configurados para sua organização.
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração configurada para sua organização.
 
-**Para abrir o Skype para painel de controle do Business Server em um computador executando o Skype para Business Server**
+**Para abrir o painel de controle do Skype for Business Server em um computador que esteja executando o Skype for Business Server**
 
-1. Usando uma conta de usuário que seja membro da função CsAdministrator ou outra função que possui direitos de usuário apropriados e permissões para a tarefa a ser executada, faça logon em um computador no qual você instalou Skype para Business Server ou, no mínimo , o Skype para ferramentas administrativas do servidor de negócios. Para definir configurações, o computador deve ter uma resolução de tela mínima de 1024 x 768.
-2. Inicie o Skype para painel de controle do Business Server: clique em **Iniciar**, clique em **Todos os programas**, aponte para **Ferramentas administrativas**, aponte para **Skype para Business Server**e clique em **Skype para painel de controle do Business Server**.
+1. Em uma conta de usuário que seja membro da função CsAdministrator ou outra função que tenha direitos e permissões de usuário apropriados para a tarefa ser realizada, faça logon em um computador no qual você instalou o Skype for Business Server ou, no mínimo, , as ferramentas administrativas do Skype for Business Server. Para definir as configurações, o computador deve ter uma resolução de tela mínima de 1024 x 768.
+2. Inicie o painel de controle do Skype for Business Server: clique em **Iniciar**, em **todos os programas**, aponte para **Ferramentas administrativas**, aponte para **Skype for Business Server**e clique em **painel de controle do Skype for Business Server**.
 
 ## <a name="skype-for-business-server-management-shell"></a>Shell de Gerenciamento do Skype for Business Server 
 
-Use o procedimento a seguir para abrir o Skype do Shell de gerenciamento de servidor de negócios administrar servidores, usuários, clientes e dispositivos no seu ambiente usando a linha de comando.
+Use o procedimento a seguir para abrir o Shell de gerenciamento do Skype for Business Server para administrar servidores, usuários, clientes e dispositivos em seu ambiente usando a linha de comando.
 
 > [!NOTE]
-> Você pode usar uma conta de usuário atribuída à função CsAdministrator para executar qualquer tarefa do Skype do Shell de gerenciamento do servidor de negócios. Você pode fazer logon usando outras funções para executar tarefas administrativas específicas, dependendo da tarefa que precisam ser executadas. Por exemplo, você pode usar a função CSArchivingAdministrator para executar os cmdlets relacionados à administração de arquivamento. Para obter detalhes sobre funções, consulte [Planejando o controle de acesso baseado em função](https://technet.microsoft.com/en-us/library/gg425917(v=ocs.15).aspx). Para obter detalhes sobre as funções que você pode usar para executar um cmdlet específico, consulte a documentação para o cmdlet.<br/><br/>Você também pode executar certos cmdlets usando uma conta de usuário nos grupos RTCUniversalServerAdmins, RTCUniversalUserAdmins ou RTCUniversalReadOnlyAdmins, dependendo do cmdlet. 
+> Você pode usar uma conta de usuário atribuída à função CsAdministrator para realizar qualquer tarefa no Shell de gerenciamento do Skype for Business Server. Você pode fazer logon usando outras funções para executar tarefas específicas de administração, dependendo da tarefa que você precisa executar. Por exemplo, você pode usar CSArchivingAdministrator para executar cmdlets relacionados à administração do arquivamento. Para obter detalhes sobre as funções, consulte [planejar o controle de acesso baseado em função](https://technet.microsoft.com/en-us/library/gg425917(v=ocs.15).aspx). Para obter detalhes sobre as funções que você pode usar para executar um cmdlet específico, consulte a documentação do cmdlet.<br/><br/>Você também pode executar determinados cmdlets usando uma conta de usuário nos grupos RTCUniversalServerAdmins, RTCUniversalUserAdmins ou RTCUniversalReadOnlyAdmins, dependendo do cmdlet. 
 
-**Para abrir o Skype do Shell de gerenciamento do servidor de negócios**
+**Para abrir o Shell de gerenciamento do Skype for Business Server**
 
-Se você abrir uma janela do Windows PowerShell, em vez do Skype do Shell de gerenciamento do servidor de negócios, por padrão, você não pode executar o Skype para cmdlets do servidor de negócios. Para executar o Skype para cmdlets do servidor de negócios de dentro do Windows PowerShell, digite o seguinte no prompt de comando do Windows PowerShell:
+Se você abrir uma janela do Windows PowerShell em vez do Shell de gerenciamento do Skype for Business Server, por padrão, não poderá executar os cmdlets do Skype for Business Server. Para executar os cmdlets do Skype for Business Server dentro do Windows PowerShell, digite o seguinte no prompt de comando do Windows PowerShell:
 
 `Import-Module Lync`
 
-Inicie o Skype do Shell de gerenciamento do servidor de negócios: clique em **Iniciar**, clique em **Todos os programas**, clique em **Skype para Business Server**e clique em **Skype do Shell de gerenciamento do servidor de Business**.
+Inicie o Shell de gerenciamento do Skype for Business Server: clique em **Iniciar**, clique em **todos os programas**, clique em **Skype for Business Server**e, em seguida, clique em **Shell de gerenciamento do Skype for Business Server**.

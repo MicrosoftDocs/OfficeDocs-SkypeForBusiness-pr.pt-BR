@@ -5,27 +5,27 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
-description: 'Resumo: Configurar o servidor de gerenciamento primário, instalar o System Center Operations Manager e importar pacotes de gerenciamento para Skype para Business Server 2015.'
-ms.openlocfilehash: 141a0e3470bcdad4a0fea3e67ae9a1dbdbf32bcd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: configure seu servidor de gerenciamento primário, instale o System Center Operations Manager e importe pacotes de gerenciamento para o Skype for Business Server 2015.'
+ms.openlocfilehash: a89ee8ca7c7f5601d9219ef49643adc2ebf99883
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33904206"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277668"
 ---
 # <a name="configure-the-primary-management-server"></a>Configurar o Servidor de Gerenciamento principal
 
-**Resumo:** Configurar o servidor de gerenciamento primário, instalar o System Center Operations Manager e importar pacotes de gerenciamento para Skype para Business Server 2015.
+**Resumo:** Configure seu servidor de gerenciamento primário, instale o System Center Operations Manager e importe pacotes de gerenciamento para o Skype for Business Server 2015.
 
-Para aproveitar totalmente a nova recursos incluídos no Skype para Business Server 2015 de monitoramento de integridade, você deve primeiro designar um computador para atuar como seu servidor de gerenciamento primário. Em seguida, você deve instalar o System Center Operations Manager 2012 SP1 ou R2 ou o System Center Operations Manager 2007 R2 no computador. Além disso, primeiro instale uma versão compatível do SQL Server para funcionar como seu banco de dados de back-end do Operations Manager.
+Para aproveitar ao máximo os novos recursos de monitoramento de integridade incluídos no Skype for Business Server 2015, você deve primeiro designar um computador para atuar como seu servidor de gerenciamento principal. Você deve instalar o System Center Operations Manager 2012 SP1 ou R2 ou o System Center Operations Manager 2007 R2 nesse computador. Além disso, você deve primeiro instalar uma versão com suporte do SQL Server para funcionar como o banco de dados back-end do Operations Manager.
 
-Quando você instala o System Center Operations Manager, você precisará instalar todos os componentes de tal produto, incluindo:
+Ao instalar o System Center Operations Manager, você precisará instalar todos os componentes desse produto, incluindo:
 
 - Banco de dados operacional
 
@@ -42,7 +42,7 @@ Quando você instala o System Center Operations Manager, você precisará instal
 - Data warehouse
 
 > [!IMPORTANT]
-> O "[Pacote redistribuível do Microsoft relatório Viewer 2010](https://www.microsoft.com/en-us/download/details.aspx?id=6442)" precisa ser instalado antes de instalar o System Center Operations Manager 2012.
+> O "[pacote redistribuível do Microsoft Report Viewer 2010](https://www.microsoft.com/en-us/download/details.aspx?id=6442)" precisa ser instalado antes de instalar o System Center Operations Manager 2012.
 
 Para obter detalhes sobre esses produtos e sua instalação, consulte os seguintes links:
 
@@ -50,18 +50,18 @@ Para obter detalhes sobre esses produtos e sua instalação, consulte os seguint
 
 - [System Center Operations Manager 2007](https://technet.microsoft.com/en-us/library/bb735860.aspx)
 
-Tenha em mente que você pode ter apenas um servidor de gerenciamento raiz por Skype para implantação de servidor de negócios.
+Lembre-se de que você só pode ter um servidor de gerenciamento raiz por implantação do Skype for Business Server.
 
 ## <a name="importing-the-skype-for-business-server-2015-management-packs"></a>Importando os Pacotes de Gerenciamento do Skype for Business Server 2015
 
-Você pode estender os recursos do System Center Operations Manager por meio da instalação de pacotes de gerenciamento — software que exigida pela qual os itens do System Center Operations Manager pode monitorar, como os itens devem ser monitorados e como alertas devem ser disparadas e relatado. Skype para Business Server 2015 inclui dois pacotes de gerenciamento do System Center Operations Manager que fornecem os seguintes recursos:
+Você pode estender os recursos do System Center Operations Manager Instalando pacotes de gerenciamento — software que determina quais itens o System Center Operations Manager pode monitorar, como esses itens devem ser monitorados e como os alertas devem ser acionados e menciona. O Skype for Business Server 2015 inclui dois pacotes de gerenciamento do System Center Operations Manager que fornecem os seguintes recursos:
 
-- **O componente e o pacote de gerenciamento do usuário** (Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) rastreia Skype para problemas do Business Server registrada nos logs de eventos, registrados por contadores de desempenho ou logado os registros de detalhes de chamadas (CDRs) ou os bancos de dados de qualidade da experiência (QoE). Para resolver problemas críticos o System Center Operations Manager pode ser configurado para notificar imediatamente os administradores por meio de email, mensagem instantânea ou mensagens de SMS. (SMS é a tecnologia usada para o envio de mensagens de texto de um dispositivo móvel para outro.)
+- **O pacote de gerenciamento de componentes e usuários** (Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) controla os problemas do Skype for Business Server registrados nos logs de eventos, registrados pelos contadores de desempenho, ou registrados nos bancos de dados de registros de detalhes de chamadas (CDRs) ou de qualidade da experiência (QoE). Para problemas críticos, o System Center Operations Manager pode ser configurado para notificar imediatamente os administradores por email, mensagem instantânea ou mensagens SMS. (SMS é a tecnologia usada para o envio de mensagens de texto de um dispositivo móvel para outro.)
 
     > [!NOTE]
-    >  Para obter detalhes sobre a configuração de notificação do Operations Manager, consulte [Configurando notificações](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
+    >  Para obter detalhes sobre como configurar a notificação do Operations Manager, consulte Configurando a [notificação](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
 
-- **O pacote de gerenciamento de monitoramento ativo** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) proativamente testes principais Skype para componentes de servidor de negócios, fazer o login no sistema, trocando mensagens instantâneas ou fazer chamadas para um telefone localizado na PSTN (rede telefônica pública comutada ). Esses testes são realizados com o uso de cmdlets de transação sintéticos do Skype for Business Server. Por exemplo, o cmdlet **Test-CsIM** é usado para simular uma conversa de mensagens instantâneas entre um par de usuários de teste. Se essa conversa simulada falhar, um alerta será gerado.
+- **O pacote de gerenciamento de monitoramento ativo** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) testa proativamente os principais componentes do Skype for Business Server, como entrar no sistema, trocar mensagens de chat ou fazer chamadas para um telefone localizado na rede telefônica pública comutada (PSTN). ). Esses testes são realizados com o uso de cmdlets de transação sintéticos do Skype for Business Server. Por exemplo, o cmdlet **Test-CsIM** é usado para simular uma conversa de mensagens instantâneas entre um par de usuários de teste. Se essa conversa simulada falhar, um alerta será gerado.
 
 A importação dos pacotes de gerenciamento é uma etapa crucial. Se os pacotes de gerenciamento não forem importados, você não poderá usar o Operations Manager para monitorar eventos do Skype for Business Server ou executar transações sintéticas do Skype for Business Server.
 
@@ -72,9 +72,9 @@ O Pacote de gerenciamento de componente e usuário é usado para monitorar apena
 
 Você pode usar uma destas ferramentas para importar pacotes de gerenciamento:
 
-- **System Center Operations Manager** Com este método, você pode usar o Operations Manager para adicionar o monitoramento para Skype para Business Server.
+- **Gerenciador de operações do System Center** Com esse método, você usa o Operations Manager para adicionar monitoramento para o Skype for Business Server.
 
-- **Shell do Operations Manager** Você pode usar o Shell do Operations Manager para importar diretamente ou solucionar quaisquer problemas que você encontrar ao importar pacotes de gerenciamento usando o console do System Center Operations Manager.
+- **Shell do Operations Manager** Você pode usar o Shell do Operations Manager para importar diretamente ou solucionar problemas que você encontra quando importa pacotes de gerenciamento usando o console do System Center Operations Manager.
 
 ### <a name="importing-the-management-packs-by-using-system-center-operations-manager"></a>Importando os pacotes de gerenciamento usando o System Center Operations Manager
 
@@ -82,7 +82,7 @@ Você pode usar uma destas ferramentas para importar pacotes de gerenciamento:
 
 2. No System Center Operations Manager, clique em **Administração**.
 
-3. No painel administração, do mouse em **Pacotes de gerenciamento**e, em seguida, clique em **Importar pacotes de gerenciamento**.
+3. No painel Administração, clique com o botão direito do mouse em **pacotes de gerenciamento**e, em seguida, clique em **importar pacotes de gerenciamento**.
 
 4. Na caixa de diálogo **Selecionar Pacotes de Gerenciamento**, clique em **Adicionar** e, em seguida, em **Adicionar do disco**.
 

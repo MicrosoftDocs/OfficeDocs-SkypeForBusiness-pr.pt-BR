@@ -8,65 +8,65 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: úblicos conectividade (IM) de mensagens instantâneos permite que os usuários em sua organização usar mensagens Instantâneas para se comunicar com usuários de serviços de IM fornecidos por provedores de serviços IM públicos.
-ms.openlocfilehash: 6cccef5de36b733e1af13092137bf0a35e843b4d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: a conectividade de mensagens de chat (IM) do ublic permite que os usuários em sua organização usem mensagens instantâneas para se comunicar com os usuários de serviços de mensagens instantâneas fornecidos pelos provedores de serviço de IM públicos.
+ms.openlocfilehash: 230c3405a9d0a551758bee63fae8f927fdc5af19
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920436"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280156"
 ---
-# <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Configurar políticas para controlar o acesso de usuário público na Skype para Business Server
+# <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Configurar políticas para controlar o acesso de usuários públicos no Skype for Business Server
 
-Conectividade pública de instantâneas (IM) de mensagens permite aos usuários em sua organização usar mensagens Instantâneas para se comunicar com usuários de serviços de IM fornecidos por provedores de serviços IM públicos. Você configurar uma ou mais políticas de acesso de usuário externo para controlar se os usuários públicos podem colaborar com Skype interna para usuários corporativos Server. Conectividade pública de mensagens instantânea é um recurso adicionado depende da configuração de sua implantação e usuários. Ele também depende do provisionamento do serviço no provedor de IM público. 
+A conectividade de mensagens instantâneas públicas permite que os usuários em sua organização usem mensagens instantâneas para se comunicar com usuários de serviços de mensagens instantâneas fornecidos por provedores de serviço de mensagens de chat públicas. Você pode configurar uma ou mais políticas de acesso de usuários externos para controlar se os usuários públicos podem colaborar com usuários internos do Skype for Business Server. A conectividade de mensagens instantâneas públicas é um recurso adicionado que depende da configuração da sua implantação e dos usuários. Ele também depende do provisionamento do serviço no provedor público de IM. 
 
-Para controlar o acesso de usuário público, você pode configurar políticas no nível global, site e nível de usuário. Skype para configurações de diretiva de servidor de negócios que são aplicados em um nível de política pode substituir as configurações que são aplicadas no nível de política de outro. Skype para precedência da diretiva Business Server é: política de usuário (maior influência) substitui uma política de Site e, em seguida, uma política de Site substitui uma política Global (influência mínimos). Isso significa que, quanto mais perto a definição de política estiver do objeto que ela está afetando, maior será sua influência sobre o objeto.
+Para controlar o acesso do usuário público, você pode configurar políticas nos níveis global, de site e de usuário. As configurações de política do Skype for Business Server aplicadas em um nível de política podem substituir as configurações aplicadas em outro nível de política. A precedência de política do Skype for Business Server é: a política do usuário (maior influência) substitui uma política do site e, em seguida, uma política de site substitui uma política global (influência mínima). Isso significa que, quanto mais perto a definição de política estiver do objeto que ela está afetando, maior será sua influência sobre o objeto.
 
-No caso de convites para mensagens Instantâneas, a resposta depende do software do cliente. A solicitação é aceita, a menos que remetentes externos estejam explicitamente bloqueados por uma regra configurada pelo usuário (ou seja, as configurações no cliente do usuário **Permitir** e listas de **bloqueio** ). Além disso, os convites para mensagens Instantâneas poderão ser bloqueados se um usuário optar por bloquear todas as mensagens Instantâneas de usuários que não estejam em sua lista de **permissões** .
+No caso de convites por mensagem instantânea, a resposta depende do software cliente. A solicitação é aceita, a menos que remetentes externos sejam explicitamente bloqueados por uma regra configurada pelo usuário (ou seja, as configurações nas listas **permitir** e **Bloquear** do cliente do usuário). Além disso, os convites de mensagem instantânea podem ser bloqueados se um usuário optar por bloquear todas as mensagens instantâneas de usuários que não estão na sua lista de **permissões** .
 
 
 
 > [!NOTE]  
-> Você pode configurar políticas para controlar o acesso de usuário público, mesmo se você não tiver habilitado a federação para sua organização. No entanto, as políticas que você definir estão em vigor somente quando você tem a federação habilitada para sua organização. Para obter detalhes sobre como habilitar a federação, consulte [Habilitar ou desabilitar o acesso de usuário remoto](../access-edge/enable-or-disable-remote-user-access.md). Além disso, se você especificar uma política de usuário para controlar o acesso de usuário público, a política se aplica somente aos usuários que estão habilitados para Skype para Business Server e configurados para usar a política. Para obter detalhes sobre como especificar usuários públicos que podem se conectar ao Skype para Business Server, consulte [atribuir uma política de acesso de usuário externo](assign-an-external-user-access-policy.md).
+> Você pode configurar políticas para controlar o acesso ao usuário público, mesmo se você não tiver habilitado a Federação para sua organização. No entanto, as políticas que você configura são efetivadas apenas quando você tem a Federação habilitada para sua organização. Para obter detalhes sobre como habilitar a Federação, consulte [habilitar ou desabilitar o acesso de usuários remotos](../access-edge/enable-or-disable-remote-user-access.md). Além disso, se você especificar uma política de usuário para controlar o acesso ao usuário público, a política se aplicará somente aos usuários habilitados para o Skype for Business Server e configurados para usar a política. Para obter detalhes sobre como especificar usuários públicos que podem entrar no Skype for Business Server, consulte [atribuir uma política de acesso de usuário externo](assign-an-external-user-access-policy.md).
 
 
-Use o procedimento a seguir para configurar uma política para suportar o acesso pelos usuários de um ou mais provedores públicos de IM.
+Use o procedimento a seguir para configurar uma política para dar suporte ao acesso por usuários de um ou mais provedores de mensagens de chat públicos.
 
-## <a name="to-configure-an-external-access-policy-to-support-public-user-access"></a>Para configurar uma política de acesso externo para suportar o acesso de usuário público
+## <a name="to-configure-an-external-access-policy-to-support-public-user-access"></a>Para configurar uma política de acesso externo para dar suporte ao acesso de usuários públicos
 
 1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
 
-3.  Na barra de navegação à esquerda, clique em **Acesso de usuário externo**e, em seguida, clique em **Política de acesso externo**.
+3.  Na barra de navegação à esquerda, clique em **acesso ao usuário externo**e, em seguida, clique em **política de acesso externo**.
 
-4.  Na página **Política de acesso externo** , siga um destes procedimentos:
+4.  Na página **política de acesso externo** , siga um destes procedimentos:
     
-      - Para configurar a política global para suportar o acesso de usuário público, clique na política global, clique em **Editar**e, em seguida, clique em **Mostrar detalhes**.
+      - Para configurar a política global para dar suporte ao acesso a usuários públicos, clique na política global, clique em **Editar**e clique em **Mostrar detalhes**.
     
-      - Para criar uma nova política de site, clique em **novo**e, em seguida, clique em **política de Site**. Em **Selecionar um Site**, clique no local apropriado na lista e clique em **Okey**.
+      - Para criar uma nova política de site, clique em **novo**e, em seguida, clique em **política do site**. Em **selecionar um site**, clique no site apropriado na lista e, em seguida, clique em **OK**.
     
-      - Para criar uma nova política de usuário, clique em **novo**e clique em **política de usuário**. Na **Nova política de acesso externo**, crie um nome exclusivo no campo **nome** que indica que o usuário política abrange (por exemplo, **EnablePublicUsers** para uma política de usuário que permite a comunicação aos usuários públicos).
+      - Para criar uma nova política de usuário, clique em **novo**e, em seguida, clique em **política de usuário**. Em **nova política de acesso externo**, crie um nome exclusivo no campo **nome** que indique a capa da política do usuário (por exemplo, **EnablePublicUsers** para uma política de usuário que permita comunicações para usuários públicos).
     
-      - Para alterar uma política existente, clique na política adequada listada na tabela, clique em **Editar**e, em seguida, clique em **Mostrar detalhes**.
+      - Para alterar uma política existente, clique na política apropriada listada na tabela, clique em **Editar**e, em seguida, clique em **Mostrar detalhes**.
 
-5.  (Opcional) Se você deseja adicionar ou editar uma descrição, especifique as informações para a política em **Descrição**.
+5.  Adicionais Se você quiser adicionar ou editar uma descrição, especifique as informações da política em **Descrição**.
 
 6.  Siga um destes procedimentos:
     
-      - Para habilitar o acesso de usuário público para a política, marque a caixa de seleção **Habilitar comunicações com usuários públicos** .
+      - Para habilitar o acesso de usuário público para a política, marque a caixa de seleção **habilitar comunicações com usuários públicos** .
     
-      - Para desabilitar o acesso de usuário público para a política, desmarque a caixa de seleção **Habilitar comunicações com usuários públicos** .
+      - Para desabilitar o acesso de usuário público para a política, desmarque a caixa de seleção **habilitar comunicações com usuários públicos** .
 
 7.  Clique em **Confirmar**.
 
-Para habilitar o acesso de usuário público, você também deve habilitar o suporte para federação na sua organização. Para obter detalhes, consulte [Configure políticas para controlar federated user access na Skype para Business Server](configure-policies-to-control-federated-user-access.md).
+Para habilitar o acesso de usuário público, você também deve habilitar o suporte para Federação em sua organização. Para obter detalhes, consulte [Configurar políticas para controlar o acesso de usuários federados no Skype for Business Server](configure-policies-to-control-federated-user-access.md).
 
-Se essa for uma política de usuário, você também deve aplicar a política aos usuários públicos que você deseja pudessem colaborar com usuários públicos. 
+Se esta for uma política de usuário, você também deverá aplicar a política a usuários públicos que você deseja que possam colaborar com usuários públicos. 
 
 
 ## <a name="see-also"></a>Confira também

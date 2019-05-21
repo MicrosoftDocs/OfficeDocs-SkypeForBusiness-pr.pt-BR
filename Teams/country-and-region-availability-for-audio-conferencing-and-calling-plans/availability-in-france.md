@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios da França.
-ms.openlocfilehash: 883a6e7119a27871a93830783d6eae4bd68d1ad3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a França.
+ms.openlocfilehash: 6aa19380d26e48990801fdaf5487c6e333b75a94
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226333"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282966"
 ---
 # <a name="availability-in-france"></a>Disponibilidade na França
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios da França.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a França.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -60,15 +60,15 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
-|Minutos disponíveis para chamar planos. |Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar </li><li>240 minuto domésticas chamar planejar</li></li><li>1200 minuto domésticas chamar planejar </li></li><li>Nacionais e internacionais chamar planejar: 1200 minutos de minutos de bits OR-600 domésticos de chamadas internacionais (o que for atingido primeiro no mês do calendário)</li></li> 
-|Pode fazer chamadas de saída para números premium francês? <br/> | Sim, suporte completo ao usar comunicações créditos de pagar por minuto. <br/> |
+|Minutos disponíveis para planos de chamada. |Há quatro opções de plano disponíveis por mês do calendário: <ul><li>Plano de chamadas domésticas de 120 minutos </li><li>Plano de chamadas domésticas de 240 minutos</li></li><li>Plano de chamadas domésticas de 1200 minutos </li></li><li>Plano de chamadas domésticas e internacionais: 1200 minutos de chamadas domésticas ou 600 minutos de chamadas internacionais (o que for atingido primeiro no mês do calendário)</li></li> 
+|Pode fazer chamadas de saída para números Premium franceses? <br/> | Sim, com suporte total ao usar créditos de comunicações para pagar por minuto. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | <ul><li>Angers <li>  Bordeaux <li>  Carcassonne <li>  Dijon <li>  Grenoble <li>  Le Havre <li>  Lille <li>  Alverca <li>  Marseille <li>  Montpellier <li>  NAntes <li>  BOM <li>  Paris <li>  Reims <li>  Rennes <li>  Saint-Etienne <li>  Strasbourg <li>  Toulon <li>  Versão </ul> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | <ul><li>Angers <li>  Bordeaux <li>  Carcassonne <li>  Dijon <li>  Grenoble <li>  Le Havre <li>  Lille <li>  Lyon <li>  Marseille <li>  Montpellier <li>  Nantes <li>  Bom <li>  Paris <li>  Reims <li>  Rennes <li>  São Etienne <li>  Strasbourg <li>  Toulon <li>  Toulouse </ul> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    

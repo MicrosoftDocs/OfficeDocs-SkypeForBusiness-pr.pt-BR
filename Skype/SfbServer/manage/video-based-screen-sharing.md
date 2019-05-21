@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 2/20/2018
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
-description: Skype para obter informações de planejamento e configuração de Business Server para vídeo com base no compartilhamento de tela (VbSS)
-ms.openlocfilehash: 90a497e4aaf38d04a55e26a924533eebe340d11d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Informações de planejamento e configuração do Skype for Business Server para compartilhamento de tela com base em vídeo (VbSS)
+ms.openlocfilehash: 551f409ceed73591ad8184e421bb21fda58ef2c3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911879"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275049"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Compartilhamento de tela baseado em vídeo do Skype for Business Server 
  
-Com base em vídeo de tela compartilhamento (VbSS) do Skype para Business Server 2015 agora está disponível para download: [Skype para KB3061064 de atualização cumulativa do Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=47690). VbSS está incluído no Skype para Business Server 2019.
+O compartilhamento de tela baseado em vídeo (VbSS) no Skype for Business Server 2015 agora está disponível para download: o [Skype for Business server 2015 atualização cumulativa KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690). O VbSS está incluído no Skype for Business Server 2019.
   
-Vídeo com base no compartilhamento de tela ou VbSS, cresceram sair do Lync o compartilhamento de tela. A diferença entre o VbSS e o compartilhamento de tela tradicional reside nos protocolos subjacentes usados e nas melhorias apresentadas. O compartilhamento de tela usa o protocolo RDP, que é ótimo para criar múltiplas sessões privadas (entre dois participantes) entre os computadores dos usuários. Tecnologia mais recente, o VbSS usará o protocolo UDP.
+O compartilhamento de tela com base em vídeo, ou VbSS, aumentou o compartilhamento de tela do Lync. A diferença entre o VbSS e o compartilhamento de tela tradicional reside nos protocolos subjacentes usados e nas melhorias apresentadas. O compartilhamento de tela usa o protocolo RDP, que é ótimo para criar múltiplas sessões privadas (entre dois participantes) entre os computadores dos usuários. Tecnologia mais recente, o VbSS usará o protocolo UDP.
   
-Skype para Business Server queria melhorar 1-para-1 pessoas e suas conversas de 1-para-muitos (com vários participantes) e experiências de reunião. O VbSS utiliza a plataforma de mídia (que tem UDP como o protocolo subjacente), com o objetivo de aprimorar os tempos de inicialização de vídeo, a qualidade de exibição do que se está assistindo (especialmente se o objeto estiver se movendo rapidamente) e a confiabilidade em geral.
+O Skype for Business Server queria melhorar as conversas de uma pessoa para a outra e as experiências de reunião e de um para muitos (vários participantes). O VbSS utiliza a plataforma de mídia (que tem UDP como o protocolo subjacente), com o objetivo de aprimorar os tempos de inicialização de vídeo, a qualidade de exibição do que se está assistindo (especialmente se o objeto estiver se movendo rapidamente) e a confiabilidade em geral.
   
-Parte o objetivo de melhorar o compartilhamento de tela é que transições entre VbSS e RDP ser tão uniforme possível quando ocorrem. Como VbSS é uma atualização para tecnologia subjacente que é usada na tela de compartilhamento do Skype para Business Server, pode ser difícil detectar qual tecnologia que você esteja aproveitando a menos que você estiver examinando detalhes do SIP o tráfego de rede ou que esteja compartilhando conteúdo está movendo fast ou 3D. Se, por exemplo, seu local de trabalho tiver muitos clientes herdados, RDP ainda estará disponível como à prova de falha para as reuniões e conversas. Skype para Business Server usa lógica interna para decidir qual dos dois métodos (VbSS ou compartilhamento de tela tradicional) a ser aplicada quando os clientes se conectam. RDP pode e, substituirá VbSS quando a situação ligar para ele, para que a sua experiência de exibição não será interrompida.
+Parte da meta de melhorar o compartilhamento de tela é que as transições entre o VbSS e o RDP sejam tão simples quanto possível quando ocorrem. Como o VbSS é uma atualização da tecnologia subjacente usada no compartilhamento de tela do Skype for Business Server, pode ser difícil detectar a tecnologia que você está aproveitando, a menos que você esteja vendo os detalhes do SIP no tráfego de rede ou esteja compartilhando conteúdo que é movimentação rápida ou 3D. Se, por exemplo, seu local de trabalho tiver muitos clientes herdados, o RDP ainda estará disponível como uma falha de failsafe nas reuniões e conversas. O Skype for Business Server usa a lógica interna para decidir qual dos dois métodos (VbSS ou compartilhamento de tela tradicional) deve ser aplicado quando os clientes se conectam. O RDP pode e será substituído por VbSS quando a situação exigir, para que a experiência de visualização não seja interrompida.
   
 ## <a name="planning"></a>Planejamento
 
@@ -46,25 +46,25 @@ Esteja também ciente de que certo nível de fidelidade/definição de seu conte
   
 ### <a name="ports-and-protocols"></a>Portas e protocolos
 
-**Portas do servidor necessárias**
+**Portas de servidor necessárias**
 
 |**Função de servidor**|**Nome do serviço**|**Porta ou intervalo de portas**|**Protocolo**|**Observações**|
 |:-----|:-----|:-----|:-----|:-----|
-|Servidores Front-End  <br/> |Skype para o serviço de compartilhamento de aplicativos de servidor de negócios  <br/> |5065  <br/> |TCP  <br/> |Usada para solicitações de escuta do SIP de entrada para compartilhamento de aplicativos.  <br/> |
-|Servidores Front-End  <br/> |Skype para o serviço de compartilhamento de aplicativos de servidor de negócios  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Intervalo de porta de mídia usado para compartilhamento de aplicativo.  <br/> |
+|Servidores Front-End  <br/> |Serviço de compartilhamento de aplicativos do Skype for Business Server  <br/> |5065  <br/> |TCP  <br/> |Usada para solicitações de escuta do SIP de entrada para compartilhamento de aplicativos.  <br/> |
+|Servidores Front-End  <br/> |Serviço de compartilhamento de aplicativos do Skype for Business Server  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Intervalo de porta de mídia usado para compartilhamento de aplicativo.  <br/> |
    
-**Portas necessárias do cliente**
+**Portas de cliente necessárias**
 
 |**Componente**|**Intervalo de portas**|**Protocolo**|**Observações**|
 |:-----|:-----|:-----|:-----|
 |Clientes  <br/> |1024-65535  <br/> |TCP/UDP  <br/> |Compartilhamento de aplicativos.  <br/> |
    
-Se o QoS estiver habilitado para as seguintes portas de mídia e VbSS também está habilitado, durante uma conferência que inclui o compartilhamento da área de trabalho que como MCU usará as configurações de porta de vídeo mostradas na negrito abaixo para o tráfego de compartilhamento de tela. 
+Se a QoS estiver habilitada para as seguintes portas de mídia e VbSS também estiver habilitada, durante uma conferência que inclua o compartilhamento de área de trabalho, a a MCU usará as configurações de porta de vídeo mostradas em negrito abaixo para o tráfego de compartilhamento de tela. 
   
 > [!IMPORTANT]
-> Essas configurações são um caso especial, e essas configurações exatas devem ser usadas ao implementar esses recursos. Isso substitui outras configurações recomendadas na [documentação de QoS](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx). Para compartilhamento de aplicativos você também precisará especificar ASMCUSVC.exe do GPO QoS, além de definir esses valores de porta. 
+> Essas configurações são um caso especial, e essas configurações exatas devem ser usadas ao implementar esses dois recursos. Isso substitui outras configurações recomendadas na [documentação de QoS](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx). Para compartilhamento de aplicativos, você também precisará especificar o ASMCUSVC. exe no GPO de QoS, além de definir esses valores de portabilidade. 
   
-**Configurações do servidor de aplicativo QoS/VbSS necessárias**
+**Configurações obrigatórias de QoS/VbSS do servidor de aplicativos**
 
 |**Propriedade**|**Valor da porta**|**Protocolo**|
 |:-----|:-----|:-----|
@@ -77,29 +77,29 @@ Se o QoS estiver habilitado para as seguintes portas de mídia e VbSS também es
    
 ### <a name="capacity-planning"></a>Planejamento de capacidade
 
-Cada servidor Front-End executando o Skype para Business Server 2015 atualização cumulativa 2 (CU2) ou posterior suporta até 375 participantes para a tela de compartilhamento usando RDP (embora apenas 250 por reunião). Essa capacidade não muda após a CU3, quando o VbSS é introduzido e usado.
+Cada servidor front-end que executa o Skype for Business Server 2015 atualização cumulativa 2 (CU2) ou posterior oferece suporte a até 375 participantes para compartilhamento de tela usando RDP (mas somente 250 por reunião). Essa capacidade não muda após a CU3, quando o VbSS é introduzido e usado.
   
 Dito isso, realizamos testes de desempenho e de estresse em nosso laboratório, e as seguintes avaliações também devem ser consideradas em relação à sua própria implantação (dependendo do uso).
   
 Supondo que:
   
-- Você está usando Skype para Business Server 2015 CU2 ou posterior em sua implantação.
+- Você está usando o Skype for Business Server 2015 CU2 ou posterior na sua implantação.
     
-- Todos os usuários em sua Skype para ambiente de servidor de negócios tem resoluções de tela mais que 1920 x 1080.
+- Todos os usuários no ambiente do Skype for Business têm resoluções de tela superiores à 1920x1080.
     
-Em plena capacidade (que conforme descrito acima, é 375 participantes de compartilhamento de tela por servidor Front-End no total, embora somente 250 por reunião), o servidor Front-End utilizando a ~ 89% de 1 Gigabit da placa de rede. Isso ocorre porque a tela existente tecnologia Skype de compartilhamento para o Business Server CU2 (RDP) transmite o conteúdo na tela com a resolução nativa do PC do apresentador. Isso com resoluções de tela superior acrescentadas, você pode já estar enfrentando afunilamentos de rede para a tela compartilhando com Skype para Business Server 2015 CU2.
+Com a capacidade total (que, conforme observado acima, é o 375 compartilhamento de tela dos participantes por servidor front-end, mas somente 250 por reunião), seu servidor front-end pode estar utilizando aproximadamente 89% do 1 Gigabit da placa de rede. Isso ocorre porque a tecnologia de compartilhamento de tela existente no Skype for Business Server CU2 (RDP) transmite o conteúdo na tela na resolução nativa do PC do apresentador. Portanto, com as resoluções de tela mais altas, você pode já estar experimentando afunilamentos de rede para compartilhamento de tela com o Skype for Business Server 2015 CU2.
   
 Para minimizar isso, uma ou mais das seguintes opções podem ser úteis:
   
-- Atualize seu servidor Front-End de uma placa de rede de Gigabit 1 em um cartão de Gigabit Ethernet 10.
+- Atualize o servidor front-end de uma placa de rede de 1 Gigabit para um cartão Ethernet de 10 gigabits.
 
-- Aumente o número de servidores Front-End para o tráfego de balanceamento de carga.
+- Aumente o número de servidores front-end para tráfego de balanceamento de carga.
 
 - Limite a largura de banda (taxa de bits) usada para VbSS e RDP definindo um limite máximo para a largura de banda usada por ambos os canais.
     
 Os números nesta tabela são afetados por redes individuais e pelo conteúdo compartilhado. Faça testes para estabelecer as linhas de base para suas redes.
   
-|**Conteúdo de 1080p **|**Média RDP**|**RDP de pico**|**VbSS médio**|**VbSS de pico**|
+|**Conteúdo de 1080p **|**Média de RDP**|**RDP de pico**|**VbSS médio**|**VbSS de pico**|
 |:-----|:-----|:-----|:-----|:-----|
 |PPT  <br/> |200kbps  <br/> |12mbps  <br/> |100kbps  <br/> |3mbps  <br/> |
 |CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
@@ -115,31 +115,31 @@ A largura de banda do VbSS é:
    
 ## <a name="clients-and-servers-support"></a>Suporte a clientes e servidores
 
-Compartilhamento de tela com base em vídeo requer Skype para Business Server 2015 CU3 ou posterior e uma versão atual dos clientes suportados listados na [comparação de recursos do cliente móvel para Skype para os negócios](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) e [suportam de reuniões](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing). 
+O compartilhamento de tela baseado em vídeo requer o Skype for Business Server 2015 CU3 ou posterior, e uma versão atual dos clientes de suporte listados na [comparação de recursos do cliente móvel para suporte ao Skype for Business](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) e [reuniões](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing). 
   
-Existem situações em que o compartilhamento de tela farão a transição para RDP, como estes:
+Há situações em que o compartilhamento de tela fará a transição para o RDP, assim:
   
 - Se sua conta estiver hospedada em um ambiente em que o ASMCU não atende ao build mínimo compatível com VbSS.
-- Se alguém que usa uma versão mais antiga do Skype para o cliente de negócios ingressa em uma sessão, por exemplo qualquer pessoa usando qualquer versão de cliente do Windows que é menor que 16.0.6330.1000, Skype para dispositivos de sistema de sala de negócios ou Skype Mobile nos aplicativos de negócios. 
-- Se um usuário está compartilhando a partir do Skype para negócios Web App.
-- Se alguém está usando Skype for Business no Mac e não estiver hospedado no Skype para Business Online ou Skype para Business Server 2015 com a atualização cumulativa de julho de 2018 (ou posterior).
-- Se alguém inicia qualquer compartilhamento de programa/Windows.
-- Se alguém inicia a sessão de gravação.
+- Se alguém que usa uma versão mais antiga do cliente Skype for Business ingressar em sua sessão, por exemplo, qualquer pessoa que estiver usando qualquer versão de cliente do Windows inferior a 16.0.6330.1000, dispositivos do sistema de sala do Skype for Business ou aplicativos móveis do Skype for Business. 
+- Se um usuário estiver compartilhando a partir do Skype for Business Web App.
+- Se alguém estiver usando o Skype for Business no Mac e não estiver hospedado no Skype for Business online ou no Skype for Business Server 2015, com a atualização cumulativa de julho de 2018 (ou posterior).
+- Se alguém iniciar qualquer programa/compartilhamento do Windows.
+- Se alguém começar a gravar a sessão.
 - Se alguém solicita Controle de Tela Remoto durante a sessão. 
 - Reuniões com mais de 250 participantes (às quais o VbSS não dá suporte no momento).
 
 Esteja ciente de que, após a transição da sessão para RDP, ela não transitará de volta para VbSS. Reforçando, a transição do VbSS deverá ocorrer sem problemas e, provavelmente, será imperceptível na maioria das situações.
     
 > [!NOTE]
-> Ele não tem suporte para bloquear ou tentar bloquear, a transição do VbSS para RDP no Skype para compartilhamento de tela de negócios. 
+> Não há suporte para bloquear ou tentar bloquear, fazer a transição do VbSS para o RDP no compartilhamento de tela do Skype for Business. 
   
 ## <a name="enabling-disabling-and-configuring-vbss"></a>Habilitando, desabilitando e configurando o VbSS
 
-A grande vantagem é, depois que você instalou o Skype para Business Server 2015 atualização cumulativa 3 (CU3) ou posterior, todos os seus usuários serão habilitados para VbSS 1-para-1 e com vários participantes por padrão. Isso pode ser um problema para você, caso não deseje habilitar essa funcionalidade para todos os usuários. Nesse caso, siga as etapas abaixo para desabilitar usuários (as etapas para habilitar usuários serão apresentadas posteriormente):
+A grande vantagem é que, depois de instalar a atualização cumulativa 3 (CU3) do Skype for Business Server 2015 ou posterior, todos os usuários serão habilitados para VbSS entre 1 e entre outros, por padrão. Isso pode ser um problema para você, caso não deseje habilitar essa funcionalidade para todos os usuários. Nesse caso, siga as etapas abaixo para desabilitar usuários (as etapas para habilitar usuários serão apresentadas posteriormente):
   
 ### <a name="how-to-disable-users-from-using-vbss"></a>Como desabilitar usuários para uso do VbSS
 
-- Você pode atribuir uma política de usuário que não permitem que VbSS todos os usuários que não deveriam estar usando VbSS executando este cmdlet no Skype para o Console de gerenciamento de negócios (replace [PolicyName] com a política para que estiver fazendo isso):
+- Você pode atribuir uma política de usuário que não permita o VbSS a nenhum usuário que não esteja usando o VbSS executando esse cmdlet no console de gerenciamento do Skype for Business (substitua [PolicyName] pela política para a qual você está fazendo isso):
     
   ```
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode RDP
@@ -151,7 +151,7 @@ A grande vantagem é, depois que você instalou o Skype para Business Server 201
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    Para obter mais informações sobre esse comando, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    Para obter mais informações sobre esse comando, consulte [set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - Se você precisar desativar o VbSS completamente, poderá executar este comando:
     
@@ -159,14 +159,14 @@ A grande vantagem é, depois que você instalou o Skype para Business Server 201
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    Para obter mais informações sobre esse comando, consulte [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
+    Para obter mais informações sobre esse comando, consulte [set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
-> Em um Skype com vários participantes para a reunião de negócios, todos os pontos de extremidade do cliente respeitam a configuração de diretiva para o organizador da reunião. 
+> Em uma reunião de vários participantes do Skype for Business, todos os pontos de extremidade do cliente respeitarão a configuração de política para o organizador da reunião. 
   
 ### <a name="how-to-enable-users-to-use-vbss"></a>Como habilitar usuários para o uso do VbSS
 
-- Você pode atribuir uma política de usuário específico que permite VbSS para todos os usuários que precisam estar usando VbSS executando este cmdlet no Skype para o Console de gerenciamento de negócios (replace [PolicyName] com a política para que estiver fazendo isso):
+- Você pode atribuir uma política de usuário específica que permita ao VbSS qualquer usuário que precise estar usando o VbSS executando esse cmdlet no console de gerenciamento do Skype for Business (substitua [PolicyName] pela política para a qual você está fazendo isso):
     
   ```
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode VideoWithFallback
@@ -178,7 +178,7 @@ A grande vantagem é, depois que você instalou o Skype para Business Server 201
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    Para obter mais informações sobre esse comando, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    Para obter mais informações sobre esse comando, consulte [set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - Se você precisar ativar novamente o VbSS depois de desativá-lo (ele é ativado por padrão), poderá executar este comando:
     
@@ -186,13 +186,13 @@ A grande vantagem é, depois que você instalou o Skype para Business Server 201
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    Para obter mais informações sobre esse comando, consulte [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
+    Para obter mais informações sobre esse comando, consulte [set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
-> Em um Skype com vários participante para a reunião de negócios, todos os pontos de extremidade do cliente respeitam a configuração de diretiva para o organizador da reunião. 
+> Em uma reunião de vários participantes do Skype for Business, todos os pontos de extremidade do cliente respeitarão a configuração de política para o organizador da reunião. 
   
 ## <a name="see-also"></a>Confira também
 
-[Skype para Business Server 2015 atualização cumulativa KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690)
+[Skype for Business Server 2015 atualização cumulativa KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690)
   
-[Vídeo com base no compartilhamento de tela (VBSS) está disponível no Skype para Business Server 2015](https://support.microsoft.com/en-us/kb/3170163)
+[O compartilhamento de tela baseado em vídeo (VBSS) está disponível no Skype for Business Server 2015](https://support.microsoft.com/en-us/kb/3170163)

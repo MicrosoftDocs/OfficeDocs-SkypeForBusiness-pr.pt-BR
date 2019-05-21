@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddEdgeServerNatIpPage
@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 ROBOTS: NOINDEX, NOFOLLOW
-description: O endereço IP público é o endereço IP que é usado pelo conversão de endereço de rede (NAT). O endereço IP deverá ser roteável publicamente. Isso é necessário porque você selecionou o endereço IP externo desse pool é convertido em + pela opção de NAT na página Selecionar recursos deste assistente de borda.
-ms.openlocfilehash: 4f27af53c8075db48d0774ea67c389802ee56e24
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: O endereço IP público é o endereço IP usado pela NAT (conversão de endereços de rede). O endereço IP deve ser roteável publicamente. Isso é necessário porque você selecionou o endereço IP externo desse pool de bordas é convertido pela opção NAT na página Selecionar recursos deste assistente.
+ms.openlocfilehash: ee70d335c4c8819b7c8b9661315646c98816bd9c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889035"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278610"
 ---
 # <a name="add-edge-server-nat-ip"></a>Adicionar IP NAT de Servidor de Borda
 
-O endereço IP público é o endereço IP que é usado pelo conversão de endereço de rede (NAT). O endereço IP deverá ser roteável publicamente. Isso é necessário porque você selecionou a opção **o endereço IP externo deste pool de borda é convertido por NAT** na página **Selecionar recursos** deste assistente.
+O endereço IP público é o endereço IP usado pela NAT (conversão de endereços de rede). O endereço IP deve ser roteável publicamente. Isso é necessário porque você selecionou **o endereço IP externo desse pool de bordas é convertido pela opção NAT** na página **selecionar recursos** deste assistente.
 
 > [!NOTE]
-> Conversão de endereço de rede (NAT) permite que os clientes ou servidores em uma rede privada (por exemplo, 192.168.0.0 intervalo) para se comunicar com sistemas em redes remotas através de redes públicas de Internet. NAT funciona usando um único endereço IP público em uma interface externa e endereços IP internos como associar o um endereço IP público. Mapeamento de NAT mapeia um endereço interno para o endereço IP público externo. O sistema remoto vê apenas o endereço público da fonte. O sistema remoto responde à fonte e a fonte refere-se para o mapa NAT para determinar qual endereço IP interno, que a resposta deve ser retornada ao.
+> A NAT (conversão de endereços de rede) permite que clientes ou servidores em uma rede privada (por exemplo, o intervalo 192.168.0.0) se comuniquem com sistemas em redes remotas por meio das redes públicas da Internet. O NAT funciona usando um único endereço IP público em uma interface externa e associando endereços IP internos a um endereço IP público. O mapeamento NAT mapeia um endereço interno para o endereço IP público externo. O sistema remoto vê apenas o endereço público da fonte. O sistema remoto responde à fonte, e a origem se refere ao mapa NAT para determinar a qual endereço IP interno a resposta deve ser retornada.
 
 É possível incluir suporte ao acesso de usuários externos durante a implantação da sua topologia inicial ou em uma fase posterior. Para obter detalhes sobre como incluir Servidores de Borda na topologia existente, consulte [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) na documentação de Implantação do Servidor de Borda.
 

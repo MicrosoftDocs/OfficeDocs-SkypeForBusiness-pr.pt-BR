@@ -5,37 +5,37 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
-description: 'Resumo: Saiba como iniciar ou parar uma sessão de captura do log de Centralized Logging Service no Skype para Business Server 2015.'
-ms.openlocfilehash: 83c65d8bad89e8b5314ea2f76b07c6c3016a7dd0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como iniciar ou parar uma sessão de captura de log de serviço de log centralizada no Skype for Business Server 2015.'
+ms.openlocfilehash: 49c36620cd58bf113ad1ce7823fcc438d88d8724
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915063"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274384"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Iniciar ou interromper captura de log CLS no Skype for Business Server 2015
  
-**Resumo:** Saiba como iniciar ou parar uma sessão de captura do log de Centralized Logging Service no Skype para Business Server 2015.
+**Resumo:** Saiba como iniciar ou parar uma sessão de captura de log de serviço de log centralizada no Skype for Business Server 2015.
   
-Para capturar logs de rastreamento usando the Centralized Logging Service, você emitir um comando para iniciar o registro em um ou mais computadores e pools. Você também emitir parâmetros que definem quais computadores ou pools, quais cenários para executar (por exemplo, AlwaysOn, outra situação predefinida ou um cenário que você criou), qual Skype para componentes de servidor de negócios (por exemplo, S4, SipStack) para rastreamento.
+Para capturar logs de rastreamento usando o serviço de log centralizado, você emite um comando para começar a fazer logon em um ou mais computadores e pools. Você também pode emitir parâmetros que definem quais computadores ou pools, quais cenários executar (por exemplo, AlwaysOn, outro cenário predefinido ou um cenário que você criou), quais componentes do Skype for Business Server (por exemplo, S4, SipStack) devem ser rastreados.
   
-Para capturar informação certa, é necessário usar o cenário correto para coletar informação relevante ao problema. In the Centralized Logging Service, um cenário é o conceito de ativar registro em log com base em uma coleção de componentes de servidor, os níveis de log e sinalizadores, que é muito mais eficiente e úteis que precisar definir esses elementos em uma base por servidor. Você define e especifica um cenário para executar e o cenário é executado consistentemente em todos os servidores e pools no escopo da infraestrutura.
+Para capturar informação certa, é necessário usar o cenário correto para coletar informação relevante ao problema. No serviço de log centralizado, um cenário é o conceito de ativar o registro em log com base em uma coleção de componentes do servidor, níveis de log e sinalizadores, que é muito mais eficiente e útil do que ter que definir esses elementos em uma base por servidor. Você define e especifica um cenário para executar e o cenário é executado consistentemente em todos os servidores e pools no escopo da infraestrutura.
   
 O cenário padrão é chamado de **AlwaysOn**. O objetivo do AlwaysOn é executar o cenários constantemente, conforme o nome do cenário implica. O cenário AlwaysOn coleta informações de nível informativo (observe que o nível de log informativo inclui Fatal, Erro e Aviso, além das mensagens informativas) para boa parte da maioria dos componentes de servidor comum. AlwaysOn coleta informações antes, durante e após o problema ocorrer. Isso difere drasticamente do comportamento típico das ferramentas de log anteriores, como o OCSLogger. É possível executar OCSLogger após o problema ocorrer, dificultando seus esforços para resolução de problemas, pois os dados que você tem são reativos, não proativos. Se AlwaysOn não tem a informação que você está procurando a fim de indicar o componente do problema e um curso de ação para corrigi-lo (o que provavelmente não leva em conta a amplitude e profundidade dos provedores em AlwaysOn), ele indicará um nível adequado de informação para determinar o que mais deve ser feito, como criar um novo cenário, juntar outras informações, realizar uma busca diferente para coletar informações mais detalhadas, e assim por diante.
   
-The Centralized Logging Service oferece duas maneiras de comandos do problema. Um número de tópicos foram se concentra em usando o Windows PowerShell por meio do Skype do Shell de gerenciamento do servidor de negócios. A capacidade de usar um número de comandos e configurações complexas melhora o Windows PowerShell para uso do serviço de registro em log centralizado. Como o Windows PowerShell por meio do Skype do Shell de gerenciamento do servidor de negócios é quase onipresente para todas as funções em Skype para Business Server, somente os comandos do Windows PowerShell são abordados. 
+O serviço de log centralizado oferece duas maneiras de emitir comandos. Vários tópicos se concentraram de acordo com o uso do Windows PowerShell por meio do Shell de gerenciamento do Skype for Business Server. A capacidade de usar diversas configurações e comandos complexos favorece o Windows PowerShell para o uso centralizado do serviço de registro em log. Como o Windows PowerShell por meio do Shell de gerenciamento do Skype for Business Server é praticamente onipresente para todas as funções do Skype for Business Server, somente os comandos do Windows PowerShell são discutidos. 
   
-### <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>Para executar Start-CsClsLogging com usando comandos básicos do Windows PowerShell
+### <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>Para executar Start-CsClsLogging com o Windows PowerShell usando comandos básicos
 
 1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
     
-2. Inicie um cenário de log com the Centralized Logging Service digitando o seguinte:
+2. Inicie um cenário de log com o serviço de log centralizado digitando o seguinte:
     
    ```
    Start-CsClsLogging -Scenario <name of scenario>
@@ -55,7 +55,7 @@ The Centralized Logging Service oferece duas maneiras de comandos do problema. U
     > [!NOTE]
     > Pode levar algum tempo (30 a 60 segundos) para que os comandos sejam executados e recebam o status dos computadores em sua implantação. 
   
-     ![A execução de Start-CsClsLogging.](../../media/Ops_CLS_Show_and_Start_ClsLogging.jpg)
+     ![Executando Start-CsClsLogging.](../../media/Ops_CLS_Show_and_Start_ClsLogging.jpg)
   
 4. Para iniciar outro cenários, use o cmdlet **Start-CsClsLogging** com o nome do cenário adicional para executar o seguinte (por exemplo, o cenário **Autenticação**):
     
@@ -70,7 +70,7 @@ The Centralized Logging Service oferece duas maneiras de comandos do problema. U
 
 1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
     
-2. Estão disponíveis parâmetros adicionais para gerenciar os comandos de log. Você pode usar - duração para ajustar o período de tempo para o cenário para executar. Você também pode definir - computadores, uma lista de nomes de domínio totalmente qualificado do computador (FQDNs) separados por uma vírgula, ou - lista de FQDNs dos pools que você deseja executar o logon de separado de Pools, uma vírgula.
+2. Estão disponíveis parâmetros adicionais para gerenciar os comandos de log. Você pode usar-Duration para ajustar o período de tempo que o cenário deve executar. Você também pode definir-computadores, uma lista de nomes de domínio totalmente qualificados do computador (FQDNs) separados por uma vírgula ou pools, uma lista de FQDNs separados por vírgula para os pools nos quais você deseja executar o logon.
     
     Você inicia uma sessão de log para o cenário UserReplicator no pool "pool01.contoso.net". Você também define duração da sessão de log em 8 horas. Para isso, digite:
     
@@ -80,21 +80,21 @@ The Centralized Logging Service oferece duas maneiras de comandos do problema. U
 
     O execução com sucesso deste cenário devolve um resultado como o seguinte:
     
-     ![A execução de Start-CsClsLogging.](../../media/Ops_CsClsLogging_UserReplicator_Exp.jpg)
+     ![Executando Start-CsClsLogging.](../../media/Ops_CsClsLogging_UserReplicator_Exp.jpg)
   
 Observe que, neste exemplo, o cenário AlwaysOn é executado e o cenário UserReplicator também está sendo executado. 
     
 ## <a name="stop-the-centralized-logging-service-log-capture"></a>Interrompa a captura do log do Serviço de Registro em Log Centralizado
 <a name="stop"> </a>
 
-É possível parar uma sessão de registro em log em execução no momento com o cmdlet Stop-CsClsLogging. Em geral, não existem várias situações em que você precisaria interromper uma sessão de log. Por exemplo, é possível pesquisar logs e alterar as configurações sem antes precisar pará-lo. Se você tiver dois cenários em execução, como o AlwaysOn e o UserReplicator, e for necessário coletar informações relacionadas à Autenticação, será necessário parar um dos outros cenários (em um escopo global, site, pool ou computador) antes de poder iniciar a execução do cenário de Autenticação. Para obter detalhes, consulte [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps).
+É possível parar uma sessão de registro em log em execução no momento com o cmdlet Stop-CsClsLogging. Geralmente, não há muitas situações em que você precisaria parar uma sessão de log. Por exemplo, é possível pesquisar logs e alterar as configurações sem antes precisar pará-lo. Se você tiver dois cenários em execução, como o AlwaysOn e o UserReplicator, e for necessário coletar informações relacionadas à Autenticação, será necessário parar um dos outros cenários (em um escopo global, site, pool ou computador) antes de poder iniciar a execução do cenário de Autenticação. Para obter detalhes, consulte [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps).
   
 > [!NOTE]
-> Ao determinar quais cenários podem ser executados em uma determinada implantação, pool ou computador, é necessário se lembrar de que você está limitado à execução de dois cenários **por computador**. Se você estiver registrando em log uma atividade em um pool, trate o pool como uma entidade única. Na maioria dos casos, não faria sentido executar cenários diferentes em cada computador em um pool. Não faz sentido analisar o problema sobre o qual você está coletando dados e pensar sobre qual cenário faz mais sentido em um determinado computador na implantação geral. Por exemplo, se você considerar o cenário userreplicator também, seria haver muito pouco valor na execução userreplicator também em um servidor de borda ou pool de borda. 
+> Ao determinar quais cenários podem ser executados em uma determinada implantação, pool ou computador, é necessário se lembrar de que você está limitado à execução de dois cenários **por computador**. Se você estiver registrando em log uma atividade em um pool, trate o pool como uma entidade única. Na maioria dos casos, não faria sentido executar cenários diferentes em cada computador em um pool. Não faz sentido analisar o problema sobre o qual você está coletando dados e pensar sobre qual cenário faz mais sentido em um determinado computador na implantação geral. Por exemplo, se você considerar o cenário userreplicator, haveria um valor muito baixo na execução do userreplicator em um servidor de borda ou em um pool de bordas. 
   
 Depois de entender o problema e o escopo do impacto, faça escolhas cuidadosas sobre quais cenários executar em quais computadores e pools. Embora o cenário AlwaysOn faça sentido para um aplicativo de escopo amplo, pois coleta informações sobre uma ampla variedade de provedores, cenários específicos têm valor de aplicativo apenas em computadores ou pools específicos. Além disso, tome cuidado ao iniciar aleatoriamente uma sessão de registro em log sem antes entender o valor de um determinado cenário. Se você usar o cenário errado ou se usar um cenário apropriado para a tarefa e aplicar o cenário ao escopo errado (seja global, site, pool ou computador), poderá receber dados questionáveis e não muito úteis – como se não tivesse executado o cenário.
   
-Para controlar as funções Centralized Logging Service usando o Skype do Shell de gerenciamento do servidor de negócios, você deve ser um membro do CsAdministrator ou os grupos de segurança CsServerAdministrator acesso baseado em função (RBAC) de controle ou uma função RBAC personalizada que contém qualquer um desses dois grupos. Para retornar uma lista de todas as funções RBAC que este cmdlet foi atribuído ao (incluindo qualquer funções de RBAC personalizadas que você criou a mesmo), execute o seguinte comando do Skype para Business Server Management Shell ou o prompt do Windows PowerShell:
+Para controlar as funções de serviço de log centralizado usando o Shell de gerenciamento do Skype for Business Server, você deve ser membro do grupo de segurança CsAdministrator ou do controle de acesso baseado em função do CsServerAdministrator (RBAC) ou uma função RBAC personalizada que contenha um desses dois grupos. Para retornar uma lista de todas as funções RBAC às quais esse cmdlet foi atribuído (incluindo qualquer função RBAC personalizada que você criou), execute o seguinte comando no Shell de gerenciamento do Skype for Business Server ou no prompt do Windows PowerShell:
   
 ```
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -107,19 +107,19 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> Portanto, você pode estar se perguntando: agora que você tiver ativado o log, onde estão os logs mantidos? Como você vai acessar as informações armazenadas nos logs usando consultas do shell de gerenciamento enviadas aos operadores CLS, e você pode gerar os resultados para vários formatos de arquivo possíveis, onde em cada servidor um agente CLS mantém seus registros não é realmente importante saber.  Os arquivos de log podem ser salvo em um local que você especifica e ler e analisados usando uma variedade de ferramentas, incluindo **Snooper.exe** e qualquer ferramenta que pode ler um arquivo de texto, como **Notepad.exe**. Snooper.exe faz parte do Skype para as ferramentas de depuração do Business Server 2015 e está disponível como um [download da Web](https://go.microsoft.com/fwlink/p/?LinkId=285257).
+> Você deve estar se perguntando: agora que habilitou o registro em log, onde os logs são mantidos? Como você acessará as informações armazenadas nos logs usando consultas do Shell de gerenciamento enviadas aos agentes CLS e poderá gerar os resultados para vários formatos de arquivo possíveis, em que em cada servidor um agente CLS mantém seus registros não é realmente importante saber.  Os arquivos de log podem ser salvos em um local que você especifica e lido e analisado usando uma variedade de ferramentas, incluindo **Snooper. exe** e qualquer ferramenta que possa ler um arquivo de texto, como o **Notepad. exe**. O Snooper. exe faz parte das ferramentas de depuração do Skype for Business Server 2015 e está disponível como um [download da Web](https://go.microsoft.com/fwlink/p/?LinkId=285257).
 
-### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>Para interromper uma sessão de Centralized Logging Service atualmente em execução
+### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>Para parar uma sessão de serviço de log centralizado em execução no momento
 
 1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
     
-2. Consulte the Centralized Logging Service para descobrir quais cenários estão atualmente em execução digitando o seguinte:
+2. Consulte o serviço de log centralizado para descobrir quais cenários estão sendo executados digitando o seguinte:
     
    ```
    Show-CsClsLogging
    ```
 
-   ![Console do Windows PowerShell depois de chamar Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+   ![Console do Windows PowerShell após chamar show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
    O resultado de Show-CsClsLogging é um resumo dos cenários em execução e em qual escopo eles estão em execução. Para obter detalhes, consulte [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
     

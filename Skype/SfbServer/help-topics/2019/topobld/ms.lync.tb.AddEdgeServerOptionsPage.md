@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddEdgeServerOptionsPage
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Selecione cada recurso que você deseja habilitar para o pool de Borda. Por padrão, o pool de Borda inclui suporte para usuários remotos em sua organização que fazem logon de fora do firewall usando uma rede virtual privada (VPN). Também há as seguintes opções de recurso do pool de Borda:'
-ms.openlocfilehash: f6c49e384463b42bfbd525c1b0c629ff3791ab35
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e7ec8e7b20c63e9842957373206130d000944b40
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889021"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278542"
 ---
 # <a name="add-edge-server-options"></a>Adicionar Opções de Servidor de Borda
 

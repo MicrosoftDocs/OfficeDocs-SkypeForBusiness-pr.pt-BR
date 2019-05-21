@@ -1,37 +1,37 @@
 ---
-title: Excluir uma política PIN no Skype para Business Server
+title: Excluir uma política de PIN no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
-description: 'Resumo: Exclua discada um usuário PIN para Skype para Business Server.'
-ms.openlocfilehash: b281716c2e0560936ea2f94b773c8191f3e8987e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: excluir o PIN de conferência discada de um usuário do Skype for Business Server.'
+ms.openlocfilehash: 2f42531480ac4099d574a21a96f1954abc70d1d3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919644"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283774"
 ---
-# <a name="delete-a-pin-policy-in-skype-for-business-server"></a>Excluir uma política PIN no Skype para Business Server
+# <a name="delete-a-pin-policy-in-skype-for-business-server"></a>Excluir uma política de PIN no Skype for Business Server
  
-**Resumo:** Exclua discada um usuário PIN para Skype para Business Server.
+**Resumo:** Excluir o PIN de conferência discada de um usuário do Skype for Business Server.
   
 Siga estas etapas para excluir uma política de PIN (número de identificação pessoal).
   
 > [!NOTE]
 > Não é possível excluir a política de PIN global. 
   
-### <a name="to-delete-a-pin-policy-in-skype-for-business-server-control-panel"></a>Para excluir uma política de PIN no Skype para painel de controle do servidor de negócios
+### <a name="to-delete-a-pin-policy-in-skype-for-business-server-control-panel"></a>Para excluir uma política de PIN no painel de controle do Skype for Business Server
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
+1.  Em uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Skype for Business Server .
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server.  
     
 3. Na barra de navegação à esquerda, clique em **Segurança** e em **Política de PIN**.
     
@@ -41,9 +41,9 @@ Siga estas etapas para excluir uma política de PIN (número de identificação 
     
 6. Clique em **OK**.
     
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Remover políticas de PIN usando Cmdlets do Windows PowerShell
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Removendo políticas de PIN usando cmdlets do Windows PowerShell
 
-Você pode excluir diretivas de PIN usando o Windows PowerShell e o cmdlet Remove-CsPinPolicy. Você pode executar este cmdlet do Skype do Shell de gerenciamento do servidor de negócios ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype para Business Server, consulte o artigo do blog ["rápida iniciar: Gerenciando Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo em Skype para Business Server.
+Você pode excluir políticas de PIN usando o Windows PowerShell e o cmdlet Remove-CsPinPolicy. Você pode executar esse cmdlet a partir do Shell de gerenciamento do Skype for Business Server ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Skype for Business Server, consulte o artigo ["início rápido: Gerenciando o Microsoft Lync Server 2010 usando o PowerShell remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). O processo é o mesmo no Skype for Business Server.
   
 ### <a name="to-remove-a-specific-pin-policy"></a>Para remover uma política de PIN específica
 
@@ -69,6 +69,6 @@ Você pode excluir diretivas de PIN usando o Windows PowerShell e o cmdlet Remov
   et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
   ```
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps) .
+Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps) .
   
 

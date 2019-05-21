@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/25/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
-description: 'Resumo: Saiba como usar o registro de serviço de registro em log centralizado (CLS) no Skype para Business Server 2015.'
-ms.openlocfilehash: 9edaf9d8528e03577fa54bb02f876aac017a4146
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como usar o agente de log central do serviço de log (CLS) no Skype for Business Server 2015.'
+ms.openlocfilehash: 496f30bdcedeb491bd5bfa211f08c04853b49bf8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915000"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274461"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>Agente CLS do Skype for Business Server 2015
  
-**Resumo:** Saiba como usar o registro de serviço de registro em log centralizado (CLS) no Skype para Business Server 2015.
+**Resumo:** Saiba como usar o agente de log central do serviço de log (CLS) no Skype for Business Server 2015.
   
 O Agente CLS é uma ferramenta que ajuda você a gerenciar os logs gerados pelo Centralized Logging Service.
   
@@ -37,7 +37,7 @@ Para usar o Agente CLS com êxito, você precisará garantir que o seguinte seja
 
 Use os comandos a seguir para verificar o status do registro em log:
   
-1. Na guia "Iniciar/Parar cenários", selecione um agrupamento de Pools e/ou em computadores no modo de exibição de árvore da topologia.
+1. Na guia "iniciar/parar cenários", selecione um agrupamento de pools e/ou computadores no modo de exibição de árvore de topologia.
     
 2. Clique no botão Status do registro em log.
     
@@ -47,7 +47,7 @@ Use os comandos a seguir para verificar o status do registro em log:
 
 Para iniciar um cenário existente:
   
-1. Na guia "Iniciar/Parar cenários", selecione um cenário existente no menu suspenso cenários.
+1. Na guia "iniciar/parar cenários", selecione um cenário existente no menu suspenso cenários.
     
 2. Selecione um agrupamento de Pools e/ou Computadores no modo de exibição de árvore Topologia.
     
@@ -61,7 +61,7 @@ Para iniciar um cenário existente:
 
 Para interromper um cenário existente:
   
-1. Na guia "Iniciar/Parar cenários", selecione um cenário existente no menu suspenso cenários.
+1. Na guia "iniciar/parar cenários", selecione um cenário existente no menu suspenso cenários.
     
 2. Selecione um agrupamento de Pools e/ou Computadores no modo de exibição de árvore Topologia.
     
@@ -69,11 +69,11 @@ Para interromper um cenário existente:
     
 4. A interface do usuário será habilitada novamente quando o cenário tiver sido interrompido, e os detalhes da ação também serão exibidos na área de Resultados do Comando do PowerShell.
     
-![Parar e iniciar o registro de CLS](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
+![Início e término do agente CLS](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
   
 ## <a name="search-for-logs"></a>Pesquisar logs
 
-Para pesquisar por logs, selecione a guia "Pesquisa CLS Logs" e clique no botão "Pesquisar Logs" depois de preencher os campos exibidos, conforme descrito a seguir:
+Para pesquisar logs, selecione a guia "pesquisar logs CLS" e clique no botão "pesquisar logs" Após preencher os campos exibidos, conforme descrito abaixo:
   
 > **Pasta do arquivo de log** A pasta na qual os resultados da pesquisa do log são salvos. (Obrigatório)
 > 
@@ -107,11 +107,11 @@ Para pesquisar por logs, selecione a guia "Pesquisa CLS Logs" e clique no botão
 > 
 > **Ignorar logs de rede** Ignora a pesquisa pelos logs de rede, se estiver marcado.
     
-![Logs de pesquisa de registro CLS](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
+![Logs de pesquisa do logger do CLS](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
 ## <a name="create-a-scenario"></a>Criar um cenário
 
-1. Na guia **Editar cenários** , clique no botão **Criar cenário** .
+1. Na guia **editar cenários** , clique no botão **criar cenário** .
     
     > [!NOTE]
     > Criar um novo cenário clonará a configuração do cenário que está selecionado. Se você clicar em **Limpar Configurações** antes de criar um novo cenário, ele começará sem nenhum componente ou sinalizador selecionado.
@@ -122,7 +122,7 @@ Para pesquisar por logs, selecione a guia "Pesquisa CLS Logs" e clique no botão
     
 ## <a name="modify-a-scenario"></a>Modificar um cenário
 
-![Captura de tela de registro de CLS, editar cenários](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![Captura de tela do agente CLS, editar cenários](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
 1. Na guia **Editar Cenários**, encontre o cenário que você deseja modificar.
     

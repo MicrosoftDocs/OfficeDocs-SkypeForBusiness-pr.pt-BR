@@ -1,39 +1,39 @@
 ---
-title: Relatório de resumo de atividade ponto a ponto no Skype para Business Server
+title: Relatório de Resumo de atividade ponto a ponto no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
-description: 'Resumo: Saiba mais sobre o relatório de resumo de atividade ponto a ponto no Skype para Business Server.'
-ms.openlocfilehash: 9b0ef6cdb430fcd6c1fdf278e31133b9ba22ef9f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de Resumo de atividades ponto a ponto no Skype for Business Server.'
+ms.openlocfilehash: dd11e5d998c8aef779b98cc0a74ba83a4dc70d84
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925212"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279890"
 ---
-# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Relatório de resumo de atividade ponto a ponto no Skype para Business Server
+# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Relatório de Resumo de atividade ponto a ponto no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de resumo de atividade ponto a ponto no Skype para Business Server.
+**Resumo:** Saiba mais sobre o relatório de Resumo de atividades ponto a ponto no Skype for Business Server.
   
-O Relatório de Resumo de Atividades Ponto a Ponto fornece uma visão geral de suas sessões de comunicação ponto a ponto. Normalmente, uma sessão ponto a ponto envolve apenas dois usuários e não requer o uso do Skype para serviços de conferência Business Server. Por comparação, uma conferência geralmente envolve mais de dois usuários e requer o uso do Skype para serviços de conferência Business Server. As atividades de conferência são relatadas no Relatório de Resumo de Conferências.
+O Relatório de Resumo de Atividades Ponto a Ponto fornece uma visão geral de suas sessões de comunicação ponto a ponto. Uma sessão ponto a ponto geralmente envolve apenas dois usuários e não requer o uso dos serviços de conferência do Skype for Business Server. Por comparação, uma conferência geralmente envolve mais de dois usuários e requer o uso de serviços de conferência do Skype for Business Server. As atividades de conferência são relatadas no Relatório de Resumo de Conferências.
   
 O Relatório de Resumo de Atividades Ponto a Ponto ajuda você a responder perguntas como as seguintes:
   
 - Quantas mensagens instantâneas ponto a ponto meus usuários enviam em um dia normal?
     
-- Qualquer um dos meus usuários estão realmente a aproveitar o Skype para Business Server aplicativos de arquivo e compartilhamento transferência recursos?
+- Algum dos meus usuários realmente aproveita os recursos de compartilhamento de aplicativos e transferência de arquivos do Skype for Business Server?
     
 - Os usuários têm reclamado que a rede parece devagar em certos horários do dia. Quantos minutos são dedicados às sessões de áudio e vídeo durante esses períodos?
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>Acessando o Relatório de Resumo de Atividades Ponto a Ponto
 
-O Relatório de Resumo de Atividades Ponto a Ponto é acessado na página inicial de Relatórios de Monitoramento. Você pode abrir o [relatório de mensagens Instantâneas ponto a ponto no Skype para Business Server](im-report.md) clicando em uma das seguintes métricas:
+O Relatório de Resumo de Atividades Ponto a Ponto é acessado na página inicial de Relatórios de Monitoramento. Você abre o [relatório de im ponto a ponto no Skype for Business Server](im-report.md) clicando em uma das seguintes métricas:
   
 - Total de sessões de mensagens instantâneas ponto a ponto
     

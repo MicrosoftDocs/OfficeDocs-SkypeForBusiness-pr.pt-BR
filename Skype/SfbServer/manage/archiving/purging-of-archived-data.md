@@ -1,29 +1,29 @@
 ---
-title: Gerenciar a limpeza de dados arquivados no Skype para Business Server
+title: Gerenciar a eliminação de dados arquivados no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
-description: 'Resumo: Saiba como gerenciar a limpeza de dados arquivados do Skype para Business Server.'
-ms.openlocfilehash: e6bc7cf077a17a3f4f6eaaf9f3026d170ddacfbd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como gerenciar a eliminação de dados arquivados para o Skype for Business Server.'
+ms.openlocfilehash: 193e17791290b384552542129d8d89c20296f109
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902837"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278388"
 ---
-# <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Gerenciar a limpeza de dados arquivados no Skype para Business Server
+# <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Gerenciar a eliminação de dados arquivados no Skype for Business Server
 
-**Resumo:** Saiba como gerenciar a limpeza de dados arquivados do Skype para Business Server.
+**Resumo:** Saiba como gerenciar a eliminação de dados arquivados para o Skype for Business Server.
   
-O banco de dados de arquivamento não se destina a retenção de longo prazo e Skype para Business Server não ofereça uma solução de descoberta eletrônica (pesquisa) para dados arquivados, portanto é necessário ser movido para outro armazenamento de dados. Skype para Business Server oferece uma ferramenta de exportação de sessão que você pode usar para exportar os dados arquivados em transcrições pesquisáveis. Você precisa definir quando limpar dados arquivados e exportados. 
+O banco de dados de arquivamento não se destina à retenção de longo prazo, e o Skype for Business Server não fornece uma solução de descoberta eletrônica (pesquisa) para dados arquivados, portanto, os dados precisam ser movidos para outro armazenamento. O Skype for Business Server oferece uma ferramenta de exportação de sessão que você pode usar para exportar dados arquivados para transcrições pesquisáveis. Você precisa definir quando limpar dados arquivados e exportados. 
   
-Para obter mais informações sobre como exportar dados usando o cmdlet **Export-CsArchivingData** , consulte [exportar os dados arquivados no Skype para Business Server](export-archived-data.md).
+Para obter mais informações sobre a exportação de dados usando o cmdlet **Export-CsArchivingData** , consulte [exportar dados arquivados no Skype for Business Server](export-archived-data.md).
   
 ## <a name="manage-purging-of-data-by-using-the-control-panel"></a>Gerenciar limpeza de dados usando o Painel de Controle
 
@@ -31,7 +31,7 @@ Para gerenciar limpeza de dados usando o Painel de Controle:
   
 1. Usando uma conta de usuário atribuída à função CsArchivingAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna. 
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
     
 3. Na barra de navegação da esquerda, clique em **Monitoramento e Arquivamento**, e depois, clique em **Configuração de Arquivamento**.
     
@@ -55,19 +55,19 @@ Você pode gerenciar a limpeza de dados arquivados usando os cmdlets do Windows 
     
 - O cmdlet **Invoke-CsArchivingDatabasePurge** permite que você limpe manualmente registros do banco de dados de arquivamento.
     
-Por exemplo, o seguinte comando habilita a limpeza de todos os dados arquivados. Depois que esse comando for executado, Skype para Business Server excluirá todos os registros de arquivamento mais antigos que o valor especificado para o parâmetro KeepArchivingDataForDays. 
+Por exemplo, o seguinte comando habilita a limpeza de todos os dados arquivados. Depois que esse comando for executado, o Skype for Business Server limpará todos os registros de arquivamento anteriores ao valor especificado para o parâmetro KeepArchivingDataForDays. 
   
 ```
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 ```
 
-O comando a seguir limita a limpeza aos registros arquivados que foram exportados para um arquivo de dados (usando o cmdlet **Export-CSArchivingData** ). Você também deve definir o parâmetro PurgeExportedArchivesOnly como True ($True):
+O comando a seguir limita a limpeza a registros arquivados que foram exportados para um arquivo de dados (usando o cmdlet **Export-CSArchivingData** ). Você também deve definir o parâmetro PurgeExportedArchivesOnly como true ($True):
   
 ```
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
 ```
 
-Depois que esse comando for executado, Skype para Business Server limpará apenas os registros de arquivamento que atenderem a dois critérios: 1) sejam mais antigos que o valor especificado para o parâmetro KeepArchivingDataForDays; e, 2) eles tiverem sido exportados usando o cmdlet **Export-CsArchivingData** .
+Depois que esse comando for executado, o Skype for Business Server limpará somente os registros de arquivamento que atenderem a dois critérios: 1) eles são mais antigos do que o valor especificado para o parâmetro KeepArchivingDataForDays; e 2) eles foram exportados usando o cmdlet **Export-CsArchivingData** .
   
 Para desabilitar a limpeza automática dos registros de arquivamento, defina o parâmetro EnablePurging para Falso ($False):
   
@@ -75,7 +75,7 @@ Para desabilitar a limpeza automática dos registros de arquivamento, defina o p
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
-O exemplo a seguir usa o cmdlet **Invoke-CsArchivingDatabasePurge** para limpar todos os registros mais de 24 horas a partir do banco de dados de arquivamento no atl-sql-001.contoso.com. Para assegurar que todos os registros serão limpos, incluindo registros que não foram exportados, o parâmetro PurgeExportedArchivesOnly é definido para Falso ($False):
+O exemplo a seguir usa o cmdlet **Invoke-CsArchivingDatabasePurge** para limpar todos os registros de mais de 24 horas de idade do banco de dados de arquivamento no ATL-SQL-001.contoso.com. Para assegurar que todos os registros serão limpos, incluindo registros que não foram exportados, o parâmetro PurgeExportedArchivesOnly é definido para Falso ($False):
   
 ```
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False

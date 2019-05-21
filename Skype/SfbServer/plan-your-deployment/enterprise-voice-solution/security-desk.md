@@ -1,10 +1,10 @@
 ---
-title: Incluir o suporte de segurança em Skype para Business Server
+title: Inclua a central de segurança no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
-description: Planejamento de como incluir o suporte de segurança da sua organização em uma implantação do E9-1-1, em Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: d52d5dcd1c7cfb0cbb9db16740734b0171b44449
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Planejando como incluir a segurança da sua organização em uma implantação do E9-1-1, no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 7be3533879f36c897d148194345e1496945359b6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913467"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276451"
 ---
-# <a name="include-the-security-desk-in-skype-for-business-server"></a>Incluir o suporte de segurança em Skype para Business Server
+# <a name="include-the-security-desk-in-skype-for-business-server"></a>Inclua a central de segurança no Skype for Business Server
  
-Planejamento de como incluir o suporte de segurança da sua organização em uma implantação do E9-1-1, em Skype para Business Server Enterprise Voice.
+Planejando como incluir a segurança da sua organização em uma implantação do E9-1-1, no Skype for Business Server Enterprise Voice.
   
 Sua empresa pode exigir que a central de segurança se envolva em uma chamada de emergência. Para ajudar a decidir como integrar a Central de Segurança à sua implantação do E9-1-1, você deve responder às perguntas a seguir.
   
 **Você deseja que o suporte de segurança seja notificado quando houver uma chamada de emergência?**
   
-Você pode configurar a política de local para que Skype para Business Server envia alertas de (IM) de mensagens instantâneas para o Skype para endereços corporativos SIP do pessoal de segurança de um ou mais. Esses alertas contêm o nome, o número e o local da pessoa que está fazendo a chamada de emergência e facilitam a segurança na assistência com a situação de emergência.
+Você pode configurar a política de localização para que o Skype for Business Server envie alertas de mensagem instantânea aos endereços SIP do Skype for Business de um ou mais funcionários de segurança. Esses alertas contêm o nome, o número e o local da pessoa que está fazendo a chamada de emergência e facilitam a segurança na assistência com a situação de emergência.
     
 **Deseja estabelecer conferência com o suporte de segurança em cada chamada de emergência?**
   

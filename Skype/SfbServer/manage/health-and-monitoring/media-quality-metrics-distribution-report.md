@@ -1,25 +1,25 @@
 ---
-title: O Media Quality métricas distribuição Report no Skype para Business Server
+title: O relatório de distribuição de métricas de qualidade de mídia no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-description: 'Resumo: Saiba mais sobre o Media Quality métricas distribuição Report no Skype para Business Server.'
-ms.openlocfilehash: 65fc10e1adaa32c2538f49d7c41fe6ee45a51c1b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de distribuição de métricas de qualidade de mídia no Skype for Business Server.'
+ms.openlocfilehash: 0376f75ff94b1b189c15e53aa7259880da96554a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902268"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280037"
 ---
-# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>O Media Quality métricas distribuição Report no Skype para Business Server 
+# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>O relatório de distribuição de métricas de qualidade de mídia no Skype for Business Server 
  
-**Resumo:** Saiba mais sobre o Media Quality métricas distribuição Report no Skype para Business Server.
+**Resumo:** Saiba mais sobre o relatório de distribuição de métricas de qualidade de mídia no Skype for Business Server.
   
 O Relatório de Distribuição da Métrica de Qualidade de Mídia permite ver um gráfico que mostra os valores de distribuição para a métrica Qualidade da Experiência, como tremulação ou perda de pacotes. Por exemplo, suponha que seus usuários fazem um total de 10 ligações telefônicas; essas 10 chamadas relatam os seguintes tempos de ida e volta:
   
@@ -32,9 +32,9 @@ O Relatório de Distribuição da Métrica de Qualidade de Mídia permite ver um
 |5  <br/> |50  <br/> |
 |6  <br/> |50  <br/> |
 |7  <br/> |50  <br/> |
-|8  <br/> |4550  <br/> |
-|9  <br/> |50  <br/> |
-|10  <br/> |50  <br/> |
+|08  <br/> |4550  <br/> |
+|222  <br/> |50  <br/> |
+|254  <br/> |50  <br/> |
    
 A média para esses tempos de ida e volta é de 500 milissegundos (5000 dividido por 10). Quinhentos milissegundos é um tempo de ida e volta extremamente grande; como resultado, você pode achar que tem um grave problema com congestionamento de rede. (Tempo de ida e volta longo geralmente é resultado de redes sobrecarregadas.)
   

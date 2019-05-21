@@ -1,10 +1,10 @@
 ---
-title: Os usuários novo usuário do Lync Server
+title: Usuários novo usuário do Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserNew
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 7773f8eb38c97df00524d2914a354c14ae63b34b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 32982ae80badb4304631a8ea4882a8dddab77e71
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890708"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283637"
 ---
-# <a name="users-new-user"></a>Usuários: Novo usuário
+# <a name="users-new-user"></a>Usuários: novo usuário
 
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 
@@ -28,19 +28,19 @@ O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 
 - [Habilitar ou desabilitar usuários](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
 
-- [Atribuir uma política de conferência para modificar a experiência de reunião padrão do usuário](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [Atribuir uma política de conferência para modificar a experiência de reunião padrão de um usuário](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
 
-- [Especificar versões do cliente suportadas para a entrada por um usuário](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [Especifique as versões de cliente com suporte para entrar por um usuário](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
 
-- [Atribuir uma política de PIN por usuário no Skype para Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Atribuir uma política de PIN por usuário no Skype for Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
 - [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [Configurar o arquivamento das comunicações do usuário](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [Configurar o arquivamento de comunicações de um usuário](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
-- [Atribuir uma política de local a um usuário](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [Atribuir uma política de localização a um usuário](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
-- [Habilitar usuários para o Enterprise Voice no Skype para Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Habilitar usuários do Enterprise Voice no Skype for Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 

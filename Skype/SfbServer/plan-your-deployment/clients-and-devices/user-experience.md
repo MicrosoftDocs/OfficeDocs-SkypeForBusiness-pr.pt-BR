@@ -1,11 +1,11 @@
 ---
-title: Planejar o Skype para negócios 2015 experiência de cliente para seus usuários
+title: Planejar a experiência do cliente do Skype for Business 2015 para seus usuários
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,21 +14,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: 'Resumo: Saiba mais sobre o novo Skype para negócios e as etapas que podem ser realizadas para preparar seu ambiente e seus usuários para a atualização, se você estiver usando o Skype para Business Online, Skype para Business Server 2019, Skype para Business Server 2015, Lync Server 2013, ou O Lync Server 2010.'
-ms.openlocfilehash: 9b6f7bbe5fdeecc8a017b973e7b77912819da789
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o novo Skype for Business e as etapas que você pode seguir para preparar seu ambiente e seus usuários para a atualização, se você estiver usando o Skype for Business Online, o Skype for Business Server 2019, o Skype for Business Server 2015, o Lync Server 2013 ou Lync Server 2010.'
+ms.openlocfilehash: d5224c628624d6d93d8b3a06cd4c59d246523b1e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886470"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277290"
 ---
-# <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planejar o Skype para negócios 2015 experiência de cliente para seus usuários
+# <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planejar a experiência do cliente do Skype for Business 2015 para seus usuários
  
-**Resumo:** Saiba mais sobre o novo Skype para negócios e as etapas a que seguir para preparar seu ambiente e seus usuários para a atualização, quer você esteja usando o Skype para Business Online, Skype para Business Server 2019, Skype para Business Server 2015, Lync Server 2013 ou do Lync Server 2010.
+**Resumo:** Saiba mais sobre o novo Skype for Business e as etapas que você pode seguir para preparar seu ambiente e seus usuários para a atualização, se você estiver usando o Skype for Business Online, o Skype for Business Server 2019, o Skype for Business Server 2015, o Lync Server 2013 ou o Lync Server 2010.
   
-14 de abril de 2015 atualização do Office para o Lync 2013 inclui o novo Skype para interface de usuário de negócios. Essa atualização permite aos administradores controlar a aparência do cliente e escolha se deseja reter a experiência do cliente Lync 2013 ou use o Skype aprimorada para experiência do cliente de negócios. O Skype para o cliente de negócios efetivamente substituído o cliente do Lync 2013 e adicionadas a capacidade dos administradores podem escolher entre a experiência do cliente Lync existente e o novo Skype para a experiência do cliente de negócios. Para obter informações sobre essa atualização, consulte [14 de abril de 2015 atualizar para o Lync 2013 (Skype para negócios) (KB2889923)](https://support.microsoft.com/en-us/kb/2889923/).
+A atualização do Office de 14 de abril de 2015 do Lync 2013 inclui a nova interface do usuário do Skype for Business. Esta atualização permite que os administradores controlem a aparência do cliente e escolham se deseja manter a experiência do cliente do Lync 2013 ou usar a experiência aprimorada do cliente Skype for Business. O cliente Skype for Business substituiu efetivamente o cliente do Lync 2013 e adicionou a capacidade de os administradores escolherem entre a experiência do cliente do Lync existente e a nova experiência de cliente do Skype for Business. Para obter informações sobre esta atualização, consulte [atualização de 14 de abril de 2015 para o Lync 2013 (Skype for Business) (KB2889923)](https://support.microsoft.com/en-us/kb/2889923/).
   
-Em 12 de maio de 2015, haverá outra atualização mensal do Office que inclui o Skype atualizado para o cliente de negócios. Muitos clientes que não aplicam a atualização irá pegar a 12 de maio de abril atualizar para o Office 2013. As informações neste tópico o ajudarão a preparar sua organização, seu ambiente e seus usuários para a atualização de cliente. Para facilitar a transição para seus usuários e equipes de suporte, utilize as informações neste tópico para decidir qual experiência de cliente você deseja para os usuários e depois fazer as alterações no seu ambiente antes de implantar a atualização de cliente em sua organização.
+Em 12 de maio de 2015, haverá outra atualização mensal do Office que inclui o cliente Skype for Business atualizado. Muitos clientes que não aplicaram a atualização de abril atenderão à atualização de 12 de maio do Office 2013. As informações neste tópico o ajudarão a preparar sua organização, seu ambiente e seus usuários para a atualização de cliente. Para facilitar a transição para seus usuários e equipes de suporte, utilize as informações neste tópico para decidir qual experiência de cliente você deseja para os usuários e depois fazer as alterações no seu ambiente antes de implantar a atualização de cliente em sua organização.
   
 - [What client experience do you want for your users?](user-experience.md#clientexperience)
     
@@ -37,50 +37,50 @@ Em 12 de maio de 2015, haverá outra atualização mensal do Office que inclui o
 - [Resources to help you prepare your support teams and your end users for the update](user-experience.md#support)
     
 > [!NOTE]
-> A experiência do cliente Lync 2013 não é uma opção para Skype para as versões de cliente 2016 de negócios. Antes de tentar configurar seu ambiente do cliente para usar o cliente do Lync 2013, verifique a versão do cliente para garantir que ele não começa com o número de 16; Por exemplo: 16.x.x.x. 
+> A experiência do cliente do Lync 2013 não é uma opção para versões do cliente do Skype for Business 2016. Antes de tentar configurar o ambiente do cliente para usar o cliente Lync 2013, verifique a versão do cliente para garantir que ele não comece com o número 16; por exemplo: 16. x.x.x. 
   
 ## <a name="what-client-experience-do-you-want-for-your-users"></a>Qual experiência de cliente você deseja para seus usuários?
 <a name="clientexperience"> </a>
 
-Com o novo Skype para cliente corporativos, você pode controlar qual experiência do cliente seus usuários obtêm, Lync ou Skype para negócios. A experiência do cliente padrão depende se você estiver usando o Lync ou Skype para negócios local ou online. Se você estiver usando o Skype para Business Online (Lync Online) hoje com o Office 365 ProPlus, o Office 365 Business Premium ou o Office 2013, o Skype atualizado para o cliente de negócios experiência — inspirada a aparência do Skype — será a experiência do usuário padrão. Se você estiver usando o Lync Server local hoje, a experiência do cliente Lync será o padrão.
+Com o novo cliente Skype for Business, você pode controlar a experiência do cliente que seus usuários obtêm, o Lync ou o Skype for Business. A experiência do cliente padrão depende se você está usando o Lync ou o Skype for Business no local ou online. Se você estiver usando o Skype for Business online (Lync Online) hoje com o Office 365 ProPlus, o Office 365 Business Premium ou o Office 2013, a experiência de cliente do Skype for Business atualizada, inspirada pela aparência do Skype, será a experiência do usuário padrão. Se você estiver usando o Lync Server local hoje, a experiência do cliente do Lync será o padrão.
   
-Você pode configurar qual experiência de cliente seus usuários recebem usando políticas de cliente. Uma diretiva de cliente é um conjunto de definições de configuração que são aplicados aos usuários quando eles fazem login em Lync ou Skype para negócios.
+Você pode configurar qual experiência de cliente seus usuários recebem usando políticas de cliente. Uma política de cliente é um conjunto de configurações aplicadas aos usuários quando eles fazem login no Lync ou no Skype for Business.
   
 ### <a name="skype-for-business-client-experience"></a>Experiência de cliente do Skype for Business
 
-Além de todos os recursos do Lync, Skype para negócios fornece novos recursos com controles simplificados e ícones familiares do Skype. Alguns novos recursos do Skype para negócios estão disponíveis apenas com o novo Skype para a experiência do cliente de negócios. Para saber mais sobre os novos recursos do Skype for Business, consulte [Skype descobrir para a empresa](https://go.microsoft.com/fwlink/p/?LinkId=528686).
+Além de todos os recursos do Lync, o Skype for Business oferece novos recursos com controles simplificados e ícones conhecidos do Skype. Alguns novos recursos do Skype for Business estão disponíveis apenas com a nova experiência de cliente do Skype for Business. Para saber mais sobre os novos recursos do Skype for Business, consulte [descubra o Skype for Business](https://go.microsoft.com/fwlink/p/?LinkId=528686).
   
 ### <a name="lync-client-experience"></a>Experiência de cliente do Lync
 
-A experiência de cliente do Lync é muito semelhante à experiência de cliente do Lync 2013 com a qual seus usuários já estão familiarizados, mas há algumas alterações que convém informar aos usuários. Para ver o que é diferente entre o cliente do Lync 2013 e a experiência do cliente Lync, consulte [por que vejo Skype para negócios ao usar o Lync?](https://go.microsoft.com/fwlink/p/?LinkId=544712) e os links adicionais neste tópico.
+A experiência de cliente do Lync é muito semelhante à experiência de cliente do Lync 2013 com a qual seus usuários já estão familiarizados, mas há algumas alterações que convém informar aos usuários. Para ver o que é diferente entre a experiência do cliente do Lync e o cliente do Lync 2013, confira [por que vejo o Skype for Business quando estou usando o Lync?](https://go.microsoft.com/fwlink/p/?LinkId=544712) e os links adicionais mais adiante neste tópico.
   
 ## <a name="prepare-your-environment-for-the-skype-for-business-client"></a>Preparar seu ambiente para o cliente do Skype for Business
 <a name="usinglync"> </a>
 
-Você terá que fazer algumas coisas para preparar seu ambiente para a atualização de cliente. Antes de começar a fazer quaisquer alterações para configurar a experiência do cliente, você precisará certificar-se de que você estiver usando uma versão do Skype para Business Server ou o Lync Server que suporta as configurações de diretiva de cliente.
+Você terá que fazer algumas coisas para preparar seu ambiente para a atualização de cliente. Antes de começar a fazer alterações para configurar a experiência do cliente, primeiro você precisa se certificar de que está usando uma versão do Skype for Business Server ou do Lync Server que dá suporte às configurações de política do cliente.
   
-Depois de confirmar que você está usando uma versão do Skype para Business Server ou o Lync Server que suporta as configurações de diretiva para controlar a experiência do cliente, você precisará definir as configurações de diretiva em seu ambiente. As etapas específicas que precisam ser seguidas dependem da versão do Skype para Business Server ou o Lync Server que você está usando e se os usuários estão no local ou online. 
+Depois de confirmar que você está usando uma versão do Skype for Business Server ou do Lync Server que dá suporte às configurações de política para controlar a experiência do cliente, você precisará definir as configurações de política em seu ambiente. As etapas específicas que você precisa seguir dependem da versão do Skype for Business Server ou do Lync Server que você está usando e se os usuários estão locais ou online. 
   
-Você vai querer fazer essas alterações antes da atualização do cliente é entregue para seus usuários, de forma que você pode controlar a experiência do cliente na primeira vez em que iniciarem o Skype para o cliente de negócios. As tabelas a seguir indica as etapas necessárias para configurar seu ambiente para a experiência do cliente desejada para seus usuários.
+Você desejará fazer essas alterações antes que a atualização do cliente seja entregue aos seus usuários para que você possa controlar a experiência do cliente da primeira vez que iniciar o cliente Skype for Business. As tabelas a seguir apontam para as etapas que você precisa seguir para configurar seu ambiente para a experiência de cliente desejada para seus usuários.
   
 |**Deployment**|**Experiência de cliente do Skype for Business**|**Experiência de cliente do Lync**|
 |:-----|:-----|:-----|
 |Skype for Business Online  <br/> |Não há etapas adicionais para implantar a compilação do cliente 4711.1002 (abril de 2015) ou posterior.  <br/> |[Usar a experiência de cliente do Lync com o Skype for Business Online](user-experience.md#LyncwithSfBO) <br/> |
 |Skype for Business Server 2015  <br/> |Não há etapas adicionais para implantar a compilação do cliente 4711.1002 (abril de 2015) ou posterior.  <br/> |[Usar a experiência de cliente do Lync com o Skype for Business Server no local](user-experience.md#LyncwithSfBServer) <br/> |
-|Lync Server 2013 e Lync Server 2010  <br/> |[Usar a experiência do cliente Skype com o Lync Server 2013 ou o Lync Server 2010 no local](user-experience.md#SkypewithLynconprem) <br/> |[Usar a experiência do cliente Lync com o Lync Server 2013 ou o Lync Server 2010 no local](user-experience.md#LyncwithLynconprem) <br/> |
+|Lync Server 2013 e Lync Server 2010  <br/> |[Use a experiência do cliente Skype com o Lync Server 2013 ou o Lync Server 2010 local](user-experience.md#SkypewithLynconprem) <br/> |[Use a experiência do cliente do Lync com o Lync Server 2013 ou o Lync Server 2010 local](user-experience.md#LyncwithLynconprem) <br/> |
    
-## <a name="use-the-skype-client-experience-with-lync-server-2013-or-lync-server-2010-on-premises"></a>Usar a experiência do cliente Skype com o Lync Server 2013 ou o Lync Server 2010 no local
+## <a name="use-the-skype-client-experience-with-lync-server-2013-or-lync-server-2010-on-premises"></a>Use a experiência do cliente Skype com o Lync Server 2013 ou o Lync Server 2010 local
 <a name="SkypewithLynconprem"> </a>
 
 Siga as etapas nesta seção se você quiser configurar a experiência de cliente do Skype em uma implantação local. A experiência padrão para o local
   
- **Etapa 1:** Primeiro, verifique se que você estiver executando uma versão do Lync Server que suporta as configurações de diretiva de cliente.
+ **Etapa 1:** Primeiro, certifique-se de que você esteja executando uma versão do Lync Server que dê suporte às configurações de política do cliente.
   
-- **Lync Server 2013** - você deve estar executando o de 2014 dezembro atualização cumulativa (5.0.8308.857) para o Lync Server 2013 ou uma atualização posterior. Para obter informações, consulte [atualizações do Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532772).
+- **Lync server 2013** – você deve estar executando a atualização cumulativa de dezembro de 2014 (5.0.8308.857) para o Lync Server 2013 ou uma atualização posterior. Para obter informações, consulte [atualizações para o Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532772).
     
-- **Lync Server 2010** - você deve estar executando o de 2015 fevereiro atualização cumulativa (4.0.7577.710) para o Lync Server 2010 ou uma atualização posterior. Para obter informações, consulte [atualizações do Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771).
+- **Lync server 2010** – você deve estar executando a atualização cumulativa de fevereiro de 2015 (4.0.7577.710) para o Lync Server 2010 ou uma atualização posterior. Para obter informações, consulte [atualizações para o Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771).
     
-  **Etapa 2:** Em seguida, use uma diretiva de cliente para definir a experiência do cliente do Skype com o Skype para o cliente de negócios. Há **3 opções** para usar uma política de cliente para definir a experiência de cliente.
+  **Etapa 2:** Em seguida, use uma política de cliente para definir a experiência do cliente Skype com o cliente Skype for Business. Há **3 opções** para usar uma política de cliente para definir a experiência de cliente.
   
   **Opção 1:** defina a experiência de cliente do Skype usando uma política global. Observe que a política global se aplica a todos os usuários na sua implantação, mas as políticas de nível de usuário e site têm precedência sobre a política global:
   
@@ -106,27 +106,27 @@ Em seguida, atribua a política aos usuários, utilizando o nome dela (o valor u
 Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
 ```
 
- **Etapa 3:** Depois que você configurou suas políticas de cliente, implante o Skype para cliente corporativos, compilação 4711.1002 (abril de 2015) ou posterior.
+ **Etapa 3:** Depois de configurar as políticas de cliente, implante o cliente Skype for Business, Build 4711,1002 (abril, 2015) ou posterior.
   
-## <a name="use-the-lync-client-experience-with-lync-server-2013-or-lync-server-2010-on-premises"></a>Usar a experiência do cliente Lync com o Lync Server 2013 ou o Lync Server 2010 no local
+## <a name="use-the-lync-client-experience-with-lync-server-2013-or-lync-server-2010-on-premises"></a>Use a experiência do cliente do Lync com o Lync Server 2013 ou o Lync Server 2010 local
 <a name="LyncwithLynconprem"> </a>
 
-Isso é a experiência padrão quando o Skype para o cliente de negócios é implantado em uma implantação do Lync Server no local. Você não precisa configurar nenhuma política de cliente para usar a experiência de cliente do Lync, mas talvez queira controlar o primeiro comportamento de execução do cliente. Por padrão, os primeira vez que os usuários iniciarem o Skype para cliente corporativos, a experiência do cliente Skype é usada e uma notificação será exibida aos usuários que solicita que eles reinicie o cliente para fazer a experiência do cliente Lync. É possível configurar seu ambiente para que a experiência de cliente do Lync seja exibida na primeira vez que os usuários iniciarem o cliente, bem como quando desativarem o tutorial de cliente modificando o Registro do sistema nos computadores cliente. Para conhecer as etapas, você precisará executar antes de implantar o Skype para cliente corporativos, consulte um dos seguintes tópicos:
+Essa é a experiência padrão quando o cliente Skype for Business é implantado em uma implantação local do Lync Server. Você não precisa configurar nenhuma política de cliente para usar a experiência de cliente do Lync, mas talvez queira controlar o primeiro comportamento de execução do cliente. Por padrão, a primeira vez que os usuários iniciam o cliente Skype for Business, a experiência do cliente do Skype é usada e uma notificação é exibida para os usuários que solicitam a reinicialização do cliente para obter a experiência do cliente do Lync. É possível configurar seu ambiente para que a experiência de cliente do Lync seja exibida na primeira vez que os usuários iniciarem o cliente, bem como quando desativarem o tutorial de cliente modificando o Registro do sistema nos computadores cliente. Para ver as etapas que você precisa executar antes de implantar o cliente Skype for Business, consulte um dos seguintes tópicos:
   
-- **Lync Server 2013**, consulte [Configurar o cliente de experiência com Skype for Business no Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532732)
+- **Lync server 2013**, consulte [Configurar a experiência do cliente com o Skype for Business no Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=532732)
     
-- **Lync Server 2010** consulte [Configurar o cliente de experiência com Skype for Business no Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532733)
+- **Lync server 2010** consulte [Configurar a experiência do cliente com o Skype for Business no Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532733)
     
 ## <a name="use-the-lync-client-experience-with-skype-for-business-server-on-premises"></a>Usar a experiência de cliente do Lync com o Skype for Business Server no local
 <a name="LyncwithSfBServer"> </a>
 
-Siga as etapas desta seção se você deseja configurar a experiência do cliente Lync no Skype local para implantação de servidor de negócios.
+Siga as etapas desta seção se você quiser configurar a experiência do cliente do Lync em uma implantação local do Skype for Business Server.
   
 Siga as etapas nesta seção se você quiser configurar a experiência de cliente do Skype em uma implantação local. A experiência padrão para o local
   
- **Etapa 1:** Primeiro, implante Skype para Business Server.
+ **Etapa 1:** Primeiro, implante o Skype for Business Server.
   
- **Etapa 2:** Em seguida, use uma diretiva de cliente para definir a experiência do cliente do Lync com o Skype para o cliente de negócios. Há **3 opções** para usar uma política de cliente para definir a experiência de cliente.
+ **Etapa 2:** Em seguida, use uma política de cliente para definir a experiência do cliente do Lync com o cliente Skype for Business. Há **3 opções** para usar uma política de cliente para definir a experiência de cliente.
   
  **Opção 1:** defina a experiência de cliente do Lync usando uma política global. Observe que a política global se aplica a todos os usuários na sua implantação, mas as políticas de nível de usuário e site têm precedência sobre a política global:
   
@@ -152,18 +152,18 @@ Em seguida, atribua a política aos usuários, utilizando o nome dela (o valor u
 Grant-CsClientPolicy username@contoso.com -PolicyName UseLyncUI
 ```
 
- **Etapa 3: opcional** - por padrão, os primeira vez que os usuários iniciarem o Skype para cliente corporativos, a experiência do cliente Skype é usada e uma notificação será exibida aos usuários solicitando que eles para reiniciar o cliente para fazer a experiência do cliente Lync. Você pode configurar seu ambiente para que a experiência de cliente do Lync seja exibida na primeira vez que os usuários iniciarem o cliente, bem como quando desativarem o tutorial de cliente, modificando o Registro do sistema nos computadores cliente. Para [Configurar o cliente de experiência com Skype for Business](../../deploy/deploy-clients/configure-the-client-experience.md), consulte as etapas que precisam ser executadas antes de implantar o Skype para o cliente de negócios.
+ **Etapa 3: opcional** -por padrão, a primeira vez que os usuários iniciam o cliente Skype for Business, a experiência do cliente do Skype é usada e uma notificação é exibida para os usuários solicitando que reiniciem o cliente para obter a experiência do cliente do Lync. Você pode configurar seu ambiente para que a experiência de cliente do Lync seja exibida na primeira vez que os usuários iniciarem o cliente, bem como quando desativarem o tutorial de cliente, modificando o Registro do sistema nos computadores cliente. Para ver as etapas que você precisa executar antes de implantar o cliente Skype for Business, consulte [Configurar a experiência do cliente com o Skype for Business](../../deploy/deploy-clients/configure-the-client-experience.md).
   
- **Etapa 4:** Depois que você configurou suas políticas de cliente, implante o Skype para cliente corporativos, compilação 4711.1002 (abril de 2015) ou posterior.
+ **Etapa 4:** Depois de configurar as políticas de cliente, implante o cliente Skype for Business, Build 4711,1002 (abril, 2015) ou posterior.
   
 ## <a name="use-the-lync-client-experience-with-skype-for-business-online"></a>Usar a experiência de cliente do Lync com o Skype for Business Online
 <a name="LyncwithSfBO"> </a>
 
-Siga as etapas desta seção se você deseja configurar a experiência do cliente Lync e estiver usando o Skype para negócios Online.
+Siga as etapas desta seção se desejar configurar a experiência do cliente do Lync e usar o Skype for Business online.
   
-Se você estiver usando o Skype para Business Online, você pode ainda usar a experiência do cliente Lync com o Skype para o cliente de negócios em sua organização usando o PowerShell remoto para configurar políticas de cliente. Há **3 opções** para usar uma política de cliente para definir a experiência de cliente. Observe que os nomes de política e o parâmetro são diferentes das configurações usadas para configurar a experiência do cliente quando você estiver usando o Skype para negócios ou do Lync Server no local.
+Se você estiver usando o Skype for Business Online, ainda poderá usar a experiência do cliente do Lync com o cliente Skype for Business em sua organização usando o PowerShell remoto para configurar as políticas do cliente. Há **3 opções** para usar uma política de cliente para definir a experiência de cliente. Observe que a política e os nomes de parâmetro são diferentes das configurações que você usa para configurar a experiência do cliente quando você estiver usando o Skype for Business ou o Lync Server local.
   
- **Opção 1:** Define a experiência do cliente Lync utilizando-se uma política Global. Observe que as políticas de site e de cliente aplicadas a usuários terão precedência sobre uma política Global.
+ **Opção 1:** Defina a experiência do cliente do Lync usando uma política global. Observe que as políticas do cliente e do site aplicadas aos usuários terão precedência sobre uma política global.
   
 ```
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
@@ -175,29 +175,29 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
- **Opção 3:** Use uma instância de política personalizada que inclui a configuração para a experiência do cliente Lync.
+ **Opção 3:** Use uma instância de política personalizada que inclua a configuração para a experiência do cliente do Lync.
   
 ```
 Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisableSkypeUI
 ```
 
-Depois que você configurou suas políticas de cliente, implante o Skype para cliente corporativos, compilação 4711.1002 (abril de 2015) ou posterior.
+Depois de configurar as políticas de cliente, implante o cliente Skype for Business, Build 4711,1002 (abril, 2015) ou posterior.
   
-Para obter informações detalhadas sobre como configurar o cliente de experiência com Skype para negócios Online, incluindo etapas sobre como controlar a primeira experiência de execução e scripts do PowerShell que você pode usar para configurar seu ambiente, consulte [Alternando entre o Skype para as interfaces de usuário de cliente do Lync e de negócios](https://aka.ms/SfBOUI).
+Para obter informações detalhadas sobre como configurar a experiência do cliente com o Skype for Business Online, incluindo as etapas sobre como controlar a experiência de primeira execução e os scripts do PowerShell que você pode usar para configurar seu ambiente, consulte [alternando entre o Skype for Business e interfaces do usuário do cliente Lync](https://aka.ms/SfBOUI).
   
 ## <a name="resources-to-help-you-prepare-your-support-teams-and-your-end-users-for-the-update"></a>Recursos para ajudá-lo a preparar suas equipes de suporte e seus usuários finais para a atualização
 <a name="support"> </a>
 
-Para tornar facilitam para você e para sua organização a se preparar para a transição, temos muitos recursos adicionais disponíveis para ajudá-lo a planejar, instruir e entre em contato com os usuários finais.
+Para facilitar para você e sua organização a se preparar para a transição, temos muitos recursos adicionais disponíveis para ajudar você a planejar, educar e envolver usuários finais.
   
-- [Vídeo: Apresentando o Skype para negócios](https://go.microsoft.com/fwlink/p/?LinkId=544819)
+- [Vídeo: Apresentando o Skype for Business](https://go.microsoft.com/fwlink/p/?LinkId=544819)
     
-- [Skype para guias de início rápido de negócios (Download)](https://go.microsoft.com/fwlink/p/?LinkId=544818)
+- [Guias de início rápido do Skype for Business (download)](https://go.microsoft.com/fwlink/p/?LinkId=544818)
     
-- [Agora, o Lync é Skype para negócios — consulte What's new](https://go.microsoft.com/fwlink/p/?LinkID=529224)
+- [O Lync agora é o Skype for Business — Veja as novidades](https://go.microsoft.com/fwlink/p/?LinkID=529224)
     
-- [Skype for Business: um guia passo a passo para novos usuários](https://go.microsoft.com/fwlink/p/?LinkId=544815)
+- [Skype for Business: guia passo a passo para novos usuários](https://go.microsoft.com/fwlink/p/?LinkId=544815)
     
-- [Por que vejo Skype para negócios ao usar o Lync?](https://go.microsoft.com/fwlink/p/?LinkID=544712)
+- [Por que vejo o Skype for Business quando estou usando o Lync?](https://go.microsoft.com/fwlink/p/?LinkID=544712)
     
 

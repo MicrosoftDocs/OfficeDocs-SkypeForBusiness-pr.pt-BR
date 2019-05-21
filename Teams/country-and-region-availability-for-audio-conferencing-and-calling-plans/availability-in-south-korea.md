@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Coreia do Sul.
-ms.openlocfilehash: 4d16939a13e1d33732c5630594f043e287dda434
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Coreia do Sul.
+ms.openlocfilehash: 9ada6bac533e200b253a57d162445712c144907b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221975"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282762"
 ---
 # <a name="availability-in-south-korea"></a>Disponibilidade na Coreia do Sul
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Coreia do Sul.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Coreia do Sul.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
