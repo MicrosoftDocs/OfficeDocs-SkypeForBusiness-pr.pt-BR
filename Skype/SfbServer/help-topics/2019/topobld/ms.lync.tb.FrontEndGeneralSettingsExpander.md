@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.FrontEndGeneralSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar as configurações de um pool de Front-Ends ou servidor Standard Edition existente, as seguintes seções são disponibilizadas:'
-ms.openlocfilehash: 5d44dae722107a2c30ede24c66f5b341b9a05754
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f8b9ac5a2291ae579dbc2a43e884132da325020
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919777"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299351"
 ---
 # <a name="front-end-general-settings-expander"></a>Expansor de Configurações Gerais de Front-End
 
@@ -48,7 +48,7 @@ Você pode definir as seguintes configurações gerais:
 
   - **Conferência**. Inclui compartilhamento de áudio, vídeo e aplicativos. Após a seleção dessa opção, a conferência Discada (PSTN) poderá ser selecionada. Você especificará e definirá um gateway PSTN (rede telefônica pública comutada) na subseção "Configurações do Servidor de Mediação" mais adiante nesta seção.
 
-  - **Enterprise Voice**. Habilita o voice interna chamadas IP qualificados aparelhos de telefone e dispositivos e Skype para clientes corporativos. Para habilitar os recursos de chamada externa, é necessário incluir um Servidor de Mediação. Para obter detalhes, consulte "Servidor de Mediação" mais adiante neste tópico.
+  - **Enterprise Voice**. Permite voz interna em chamadas de IP para aparelhos e dispositivos qualificados e clientes Skype for Business. Para habilitar os recursos de chamada externa, é necessário incluir um Servidor de Mediação. Para obter detalhes, consulte "Servidor de Mediação" mais adiante neste tópico.
 
 - Em **Associações**, edite ou especifique o seguinte:
 
@@ -101,7 +101,7 @@ Para editar ou especificar configurações adicionais para os serviços Web no p
 Em **Serviços Web internos**, especifique o seguinte:
 
 > [!CAUTION]
-> Se você tiver mais de um pool de Front-End ou servidor Front-End, os serviços Web externos FQDN deve ser exclusivo. Por exemplo, se você definir os serviços Web externos FQDN de um servidor Front-End como **pool01. contoso.com**, você não pode usar **pool01. contoso.com** para outro pool de Front-End ou servidor Front-End. Se você estiver implantando também diretores, o FQDN de serviços Web externos definidas para qualquer Diretor ou pool de diretores deve ser exclusivo de qualquer outro diretor ou diretor pool, conforme, bem como qualquer Front-End do pool ou servidor Front-End. Se você decidir substituir os serviços web internos com um FQDN auto-definido, cada FQDN deve ser exclusivo de qualquer outro pool Front-End, diretor ou diretor pool.
+> Se você tiver mais de um pool de front-ends ou servidor front-end, o FQDN dos serviços Web externos deve ser exclusivo. Por exemplo, se você definir o FQDN de serviços Web externos de um servidor front-end como **pool01.contoso.com**, não será possível usar o **pool01.contoso.com** para outro pool de front-end ou servidor front-end. Se você também estiver implantando diretores, os serviços Web externos FQDN definidos para qualquer diretor de director ou diretor devem ser exclusivos de qualquer outro diretor ou pool de directors, bem como de qualquer servidor front-end ou servidor front-end. Se você decidir substituir os serviços internos da Web por um FQDN autodefinido, cada FQDN deve ser exclusivo de qualquer outro pool de front-end, diretor ou pool de directors.
 
 - Se você selecionar **Substituir FQDN**, poderá especificar um FQDN diferente para a identidade dos serviços **Web internos** no pool. Por padrão, a configuração é o nome do pool atual, conforme definido para o pool de Front-Ends.
 
@@ -111,7 +111,7 @@ Em **Serviços Web externos**, especifique o seguinte:
 
 - O FQDN dos Serviços Web externos. O FQDN especificado aqui será normalmente definido pelos seus requisitos de conexão externa, como o proxy reverso.
 
-- Portas de escuta e publicadas para HTTP e HTTPS exigidas pela sua implantação. As configurações padrão da porta 8080 para HTTP e a porta 4443 para HTTPS são definidas inicialmente. Você poderá alterar essas configurações para as portas de escuta com base nos requisitos de proxy reverso e de rede externa. As portas publicadas estão definidas como padrão da porta 80 para HTTP e a porta 443 para HTTPS. Esses valores determinam quais portas o pool escutará para solicitações de entrada. Geralmente, essas não precisará ser alterado, a menos que haja um conflito de requisitos de porta no pool. Espera-se portas publicadas internas e externas usando os mesmos valores de porta. Isso não é um conflito.
+- Portas de escuta e publicadas para HTTP e HTTPS exigidas pela sua implantação. As configurações padrão da porta 8080 para HTTP e da porta 4443 para HTTPS são definidas inicialmente. Você poderá alterar essas configurações para as portas de escuta com base nos requisitos de proxy reverso e de rede externa. As portas publicadas são definidas como padrão de porta 80 para HTTP e porta 443 para HTTPS. Esses valores determinam quais portas o pool escutará solicitações de entrada. Geralmente, eles não precisam ser alterados, a menos que haja um conflito de requisitos de porta no pool. As portas publicadas internas e externas que usam os mesmos valores de porta são esperadas. Isso não é um conflito.
 
 ### <a name="mediation-server"></a>Servidor de Mediação
 
@@ -145,7 +145,7 @@ Você pode definir as seguintes configurações gerais:
 
   - **Conferência**. Inclui compartilhamento de áudio, vídeo e aplicativos. Após a seleção dessa opção, selecione **Conferência discada (PSTN)**. Você poderá especificar e definir um gateway PSTN mais adiante em configurações do Servidor de Mediação.
 
-  - **Enterprise Voice**. Habilita o voice interna chamadas IP qualificados aparelhos de telefone e dispositivos e Skype para clientes corporativos. Para habilitar os recursos de chamada externa, é necessário incluir um Servidor de Mediação. Para obter detalhes, consulte "Servidor de Mediação" mais adiante neste tópico.
+  - **Enterprise Voice**. Permite voz interna em chamadas de IP para aparelhos e dispositivos qualificados e clientes Skype for Business. Para habilitar os recursos de chamada externa, é necessário incluir um Servidor de Mediação. Para obter detalhes, consulte "Servidor de Mediação" mais adiante neste tópico.
 
 - Em **Associações**, você pode editar ou especificar o seguinte:
 

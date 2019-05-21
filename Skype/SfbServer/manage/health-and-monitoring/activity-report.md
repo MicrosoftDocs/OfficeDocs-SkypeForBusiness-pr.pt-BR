@@ -1,33 +1,33 @@
 ---
-title: Relatório de atividade de conferência no Skype para Business Server
+title: Relatório de atividade de conferências no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
-description: 'Resumo: Saiba mais sobre o relatório de atividade de conferência usado na Skype para servidor de negócios.'
-ms.openlocfilehash: 10327c002e8c3b320593d252b7401f990adeeafc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório atividade de conferência usado no Skype for Business Server.'
+ms.openlocfilehash: 790a9d5076a371dda7c8862a74f253fdb8508296
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902766"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303874"
 ---
-# <a name="conference-activity-report-in-skype-for-business-server"></a>Relatório de atividade de conferência no Skype para Business Server
+# <a name="conference-activity-report-in-skype-for-business-server"></a>Relatório de atividade de conferências no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o relatório de atividade de conferência usado na Skype para servidor de negócios.
+**Resumo:** Saiba mais sobre o relatório atividade de conferência usado no Skype for Business Server.
   
-O Relatório de Atividade de Conferência torna fácil responder perguntas como estas: quantas conferências estão sendo realizadas diariamente e quando estas conferências são realizadas? Informações como estas são úteis não apenas em seu próprio direito, mas também como uma ferramenta de resolução de problemas. Por exemplo, vamos supor que os usuários estão reclamando que a rede parece particularmente lenta no meio do dia. Relatórios de uma pequena amostra de atividade de conferência pode sugerir a um dos motivos possível: muito mais conferências estão sendo agendadas entre os horários de 10:00 AM e 2:00 PM, em seguida, em qualquer outro momento.
+O Relatório de Atividade de Conferência torna fácil responder perguntas como estas: quantas conferências estão sendo realizadas diariamente e quando estas conferências são realizadas? Informações como estas são úteis não apenas em seu próprio direito, mas também como uma ferramenta de resolução de problemas. Por exemplo, vamos supor que os usuários estão reclamando que a rede parece particularmente lenta no meio do dia. Uma rápida descrição dos relatórios de atividade de conferência pode sugerir um possível motivo: muito mais conferências estão sendo agendadas entre as horas de 10:00 AM e 2:00 PM em qualquer momento.
   
 Se a rede lenta está causando problemas, é possível incentivar os usuários a reprogramar algumas de suas conferências durante horários com menos tráfego durante o dia.
   
 ## <a name="accessing-the-conference-activity-report"></a>Acessando o Relatório de Atividade da Conferência
 
-O relatório de atividade de conferência é acessado do [Relatório de resumo de conferência no Skype para Business Server](conference-summary-report.md) clicando em uma das seguintes métricas:
+O relatório atividade de conferência é acessado do [relatório de Resumo de conferências no Skype for Business Server](conference-summary-report.md) clicando em uma das seguintes métricas:
   
 - Total de conferências
     

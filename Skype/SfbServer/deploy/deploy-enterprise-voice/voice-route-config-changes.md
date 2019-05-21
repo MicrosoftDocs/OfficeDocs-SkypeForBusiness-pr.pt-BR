@@ -1,10 +1,10 @@
 ---
-title: Publicar alterações pendentes para a configuração de roteamento de voz no Skype para negócios
+title: Publicar alterações pendentes na configuração de roteamento de voz no Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
-description: 'Resumo: Saiba como revisar, publicar ou Cancelar alterações na configuração roteamento voz no Skype para Business Server usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: 336b6a3eecf668078d2a68072e380113d20e3d12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como revisar, publicar ou cancelar alterações de configuração de roteamento de voz no Skype for Business Server usando o painel de controle do Skype for Business Server.'
+ms.openlocfilehash: 1ff33dee1518581e4a94aac56ecae34d9bfd1159
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892213"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300884"
 ---
-# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Publicar alterações pendentes para a configuração de roteamento de voz no Skype para negócios
+# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Publicar alterações pendentes na configuração de roteamento de voz no Skype for Business
  
-**Resumo:** Aprenda a revisar, publicar ou Cancelar alterações na configuração roteamento voz no Skype para Business Server usando o Skype para painel de controle do servidor de negócios.
+**Resumo:** Saiba como revisar, publicar ou cancelar alterações de configuração de roteamento de voz no Skype for Business Server usando o painel de controle do Skype for Business Server.
   
 Após fazer alterações em qualquer uma das definições de configuração nas páginas do grupo **Roteamento de Voz**, execute este procedimento para examinar, publicar ou cancelar as alterações pendentes.
   
@@ -34,13 +34,13 @@ Após fazer alterações em qualquer uma das definições de configuração nas 
 > Todas as alterações pendentes devem ser publicadas ao mesmo tempo, executando o comando **Confirmar todos**. Não é possível publicar seletivamente as alterações pendentes. Antes de publicar as alterações pendentes, execute o comando **Revisar alterações não confirmadas** e cancele qualquer alteração de configuração que não deseja publicar.
   
 > [!NOTE]
-> Se você navegar longe das páginas do grupo **Roteamento de voz** antes de confirmar as alterações pendentes, todas as alterações pendentes serão perdida. No entanto, é possível exportar a configuração atual (incluindo quaisquer alterações pendentes) para um arquivo de configuração de voz e, em seguida, importar e publicar a configuração atualizada. Para obter detalhes, consulte [Exportar ou importar arquivo Skype para negócios de uma configuração de rota de voz](voice-route-configuration-import-export.md). 
+> Se você navegar longe das páginas do grupo **Roteamento de voz** antes de confirmar as alterações pendentes, todas as alterações pendentes serão perdida. No entanto, é possível exportar a configuração atual (incluindo quaisquer alterações pendentes) para um arquivo de configuração de voz e, em seguida, importar e publicar a configuração atualizada. Para obter detalhes, consulte [exportar ou importar um arquivo de configuração de rota de voz no Skype for Business](voice-route-configuration-import-export.md). 
   
 ### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>Para revisar, publicar ou cancelar as alterações de configuração do roteamento de voz
 
 1. Faça logon no computador como membro do grupo **RTCUniversalServerAdmins** ou como membro da função administrativa **CsVoiceAdministrator**, **CsServerAdministrator**, ou CsAdministrator.
     
-2. Abra o Skype para painel de controle do servidor de negócios.
+2. Abra o painel de controle do Skype for Business Server.
     
 3. Na barra de navegação esquerda, clique em **Roteamento de Voz**.
     
@@ -58,6 +58,6 @@ Após fazer alterações em qualquer uma das definições de configuração nas 
     
 8. Na caixa de diálogo **Definições da configuração de voz não confirmadas** que exibe uma lista de todas as alterações pendentes, clique em **OK**. 
     
-    Quando Skype para painel de controle do Business Server confirmar as alterações, é exibida a mensagem **publicada com êxito a configuração de roteamento de voz** .
+    Quando o painel de controle do Skype for Business Server tiver confirmado as alterações, será exibida a mensagem de **configuração de roteamento de voz publicada com êxito** .
     
 

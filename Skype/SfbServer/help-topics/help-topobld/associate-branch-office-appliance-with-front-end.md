@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithFrontEndPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 607709a0-1617-44f3-bf68-fec1129250a4
-description: Para associar o aparelho de filial persistente ou servidor de filial persistente com um pool de Front-End ou um servidor Standard Edition, na página de pool de Front-End, selecionar, selecione o pool Front-End ou um servidor Standard Edition na lista suspensa de pool de Front-End. Clique em Avançar para continuar.
-ms.openlocfilehash: 3635219fadab778117eb10c222424aaa0b78e8ae
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Para associar o aparelho de ramificação sobreviventes ou o servidor de ramificação sobreviventes a um pool de front-end ou um servidor Standard Edition, na lista Selecionar o pool de front-end, selecione o pool de front-end ou um servidor Standard Edition na lista suspensa pool de front-ends. Clique em Avançar para continuar.
+ms.openlocfilehash: 4a75656aa58312b2b4deaa8123cf49146faf975b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915210"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301747"
 ---
 # <a name="associate-branch-office-appliance-with-front-end"></a>Associar Aparelho de Filial com Front End
  
-Para associar o aparelho de filial persistente ou servidor de filial persistente com um pool de Front-End ou um servidor Standard Edition, na página **Selecione o pool de Front-End** , selecione o pool de Front-End ou um servidor Standard Edition do **pool de Front-End** lista suspensa. Clique em **Avançar** para continuar.
+Para associar o dispositivo de ramificação sobreviventes ou o servidor de ramificação sobreviventes a um pool de front-end ou um servidor Standard Edition, na página **selecionar o pool de front-** end, selecione o pool de front-end ou um servidor Standard Edition do **pool de front-ends** lista suspensa. Clique em **Avançar** para continuar.
   
 

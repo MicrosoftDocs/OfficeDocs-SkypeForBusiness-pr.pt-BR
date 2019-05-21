@@ -1,10 +1,10 @@
 ---
-title: Regras de conversão no Skype para Business Server
+title: Regras de tradução no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,24 +13,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
-description: Saiba mais sobre as regras de conversão e discar normalization de cadeia de caracteres no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: e81136e4217e4c9210d115fafae11a58855c5ae3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Saiba mais sobre as regras de tradução e disque a normalização de cadeias de caracteres no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 1f435db01b5b15c97ae577565e4ba43f5de554ea
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913297"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297362"
 ---
-# <a name="translation-rules-in-skype-for-business-server"></a>Regras de conversão no Skype para Business Server
+# <a name="translation-rules-in-skype-for-business-server"></a>Regras de tradução no Skype for Business Server
 
-Saiba mais sobre as regras de conversão e discar normalization de cadeia de caracteres no Skype para Business Server Enterprise Voice.
+Saiba mais sobre as regras de tradução e disque a normalização de cadeias de caracteres no Skype for Business Server Enterprise Voice.
 
- O Enterprise Voice requer que todas as cadeias de caracteres de discagem ser normalizado no formato e. 164 para fins de executar a pesquisa inversa (RNL). Regras de conversão são suportadas para os números de chamada e chamada. Thetrunk ponto (ou seja, o gateway associado, privada de comutação de PBX ou tronco SIP) pode exigir que os números estar em um formato de discagem local. To translate numbers from E.164 format to a local dialing format, you can define one or more translation rules to manipulate the request URI before you route it to the trunk peer. For example, you could write a translation rule to remove +44 from the beginning of a dial string and replace it with 0144.
+ O Enterprise Voice requer que todas as cadeias de discagem sejam normalizadas para o formato E. 164 para realizar uma pesquisa de número reverso (RNL). As regras de tradução têm suporte para números de chamada e números chamados. O par de troncos (ou seja, o gateway associado, o PBX (Private Branch Exchange) ou o tronco SIP) podem exigir que os números estejam em um formato de discagem local. To translate numbers from E.164 format to a local dialing format, you can define one or more translation rules to manipulate the request URI before you route it to the trunk peer. For example, you could write a translation rule to remove +44 from the beginning of a dial string and replace it with 0144.
 
-Executando a conversão da rota de saída no servidor, você pode reduzir os requisitos de configuração em cada par de tronco individual para converter os números de telefone em um formato de discagem. Quando você planejar quais gateways e quantos gateways, para associar um cluster de servidor de mediação específico, pode ser útil para pares de tronco de grupo com local semelhante requisitos de discagem. Isso pode reduzir o número de regras de conversão necessárias e o tempo necessário para gravá-las.
+Executando a conversão da rota de saída no servidor, você pode reduzir os requisitos de configuração em cada par de tronco individual para converter os números de telefone em um formato de discagem. Quando você planeja quais gateways e quantos gateways, associar a um cluster de servidor de mediação específico, pode ser útil agrupar pares de tronco com requisitos de discagem locais semelhantes. Isso pode reduzir o número de regras de conversão necessárias e o tempo necessário para gravá-las.
 
 > [!IMPORTANT]
-> Associar um ou mais regras de conversão de uma configuração de tronco do Enterprise Voice deverão ser usada como uma alternativa para configurar as regras de conversão no ponto do tronco. Não associe regras de conversão com uma configuração de tronco do Enterprise Voice se você tiver configurado as regras de conversão no ponto do tronco, pois as duas regras podem entrar em conflito.
+> Associar uma ou mais regras de tradução a uma configuração de tronco do Enterprise Voice deve ser usado como uma alternativa para configurar regras de tradução no par de troncos. Não associe as regras de tradução a uma configuração de tronco do Enterprise Voice se você tiver configurado regras de tradução no par de tronco, pois as duas regras podem entrar em conflito.
 
 ## <a name="example-translation-rules"></a>Exemplo de regras de conversão
 
@@ -40,7 +40,7 @@ Para obter detalhes sobre como implementar as regras de conversão, consulte  [D
 
 |**Descrição**|**Dígitos iniciais**|**Tamanho**|**Dígitos a serem removidos**|**Dígitos a serem adicionados**|**Padrão de correspondência**|**Conversão**|**Exemplo**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Discagem convencional de longa distância nos EUA  <br/> (retirar o '+')  <br/> |+1  <br/> |Exatamente 12  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 se torna 14255551010  <br/> |
-|Discagem de longa distância internacional dos EUA  <br/> (retirar '+' e adicionar 011)  <br/> |+  <br/> |Pelo menos 11  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 se torna 011441235551010  <br/> |
+|Discagem convencional de longa distância nos EUA  <br/> (remova o "+")  <br/> |+1  <br/> |Exatamente 12  <br/> |1  <br/> |0  <br/> |^\+(1 \ d{10}) $  <br/> |$1  <br/> |+14255551010 se torna 14255551010  <br/> |
+|Discagem de longa distância internacional dos EUA  <br/> (remover a faixa "+" e adicionar 011)  <br/> |+  <br/> |Pelo menos 11  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d +) $  <br/> |011$1  <br/> |+441235551010 se torna 011441235551010  <br/> |
 
 

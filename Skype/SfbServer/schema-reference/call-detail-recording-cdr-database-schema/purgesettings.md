@@ -5,37 +5,37 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
-description: 'A tabela PurgeSettings contém informações que especificam se (e quando) registros de detalhe de chamada desatualizada serão excluídos automaticamente do banco de dados de CDR. Observe que informações relacionadas a limpeza também podem ser obtidas no dentro do Skype para Business Server 2015 executando o seguinte comando:'
-ms.openlocfilehash: f1e982d50ab029ec2756e8fb4a92f5c01dc327b8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'A tabela PurgeSettings contém informações que especificam se (e quando) registros de detalhes de chamadas desatualizados serão automaticamente excluídos do banco de dados CDR. Observe que as informações relacionadas à eliminação também podem ser obtidas no Skype for Business Server 2015 executando o seguinte comando:'
+ms.openlocfilehash: 6aac92555dda6875f23a177bb09384f453369846
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930718"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295920"
 ---
 # <a name="purgesettings-table"></a>Tabela PurgeSettings
  
-A tabela PurgeSettings contém informações que especificam se (e quando) registros de detalhe de chamada desatualizada serão excluídos automaticamente do banco de dados de CDR. Observe que informações relacionadas a limpeza também podem ser obtidas no dentro do Skype para Business Server 2015 executando o seguinte comando:
+A tabela PurgeSettings contém informações que especificam se (e quando) registros de detalhes de chamadas desatualizados serão automaticamente excluídos do banco de dados CDR. Observe que as informações relacionadas à eliminação também podem ser obtidas no Skype for Business Server 2015 executando o seguinte comando:
   
 ```
 Get-CsCdrConfiguration
 ```
 
-Os administradores devem tratar a tabela PurgeSettings como somente leitura: alterações para as configurações de limpeza de detalhes de chamada só devem ser feitas usando os cmdlets [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) ou [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
+Os administradores devem tratar a tabela PurgeSettings como somente leitura: as alterações nas configurações de limpeza de detalhes da chamada devem ser feitas somente usando cmdlets [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) ou [set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
   
 Esta tabela foi introduzida no Microsoft Lync Server 2013.
   
 |**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
-|**ID** <br/> |int  <br/> |Primária  <br/> |Identificador exclusivo da coleção de CDR configurações de limpeza.  <br/> |
-|**EnablePurge** <br/> |bit  <br/> ||Quando definido para verdadeiro (1) Skype para Business Server 2015 periodicamente descartará desatualizadas registros do banco de dados de CDR. Limpeza ocorrerá cada dia em que o Tomé especificado pela definição PurgeHour. Se definido como False (0) registros, em seguida, não será removido automaticamente do banco de dados. O valor padrão é True.  <br/> |
-|**KeepCallDetailForDays** <br/> |int  <br/> ||Especifica a idade dos registros de CDR (em dias) que serão removidos do banco de dados: se limpeza estiver habilitada, CDR registros mais antigos do que esse valor serão removidos do banco de dados. O valor padrão é 60 dias.  <br/> |
-|**KeepErrorReportForDays** <br/> |int  <br/> ||Especifica a idade dos registros de relatório de erro (em dias) que serão removidos do banco de dados: se a limpeza estiver habilitada, registros de relatório de erros mais antigos do que esse valor serão removidos do banco de dados. O valor padrão é 60 dias.  <br/> |
-|**PurgeHour** <br/> |int  <br/> ||Especifica a hora local do dia quando a limpeza do banco de dados entrarão em vigor. O horário é especificado utilizando-se um relógio de 24 horas, onde 0 representa a meia-noite (00:00) e 23 representa 23 horas. Observe que você pode especificar apenas a hora do dia: um valor de 10 (indicando a 10:00 AM) é permitido, mas o valor 10:30 do 10.5 (indicando 10:30 AM) não é permitido. O valor padrão é 2 (2:00).  <br/> |
+|**%** <br/> |int  <br/> |Primária  <br/> |Identificador exclusivo da coleção de configurações de limpeza de CDR.  <br/> |
+|**EnablePurge** <br/> |bit  <br/> ||Quando definida como true (1), o Skype for Business Server 2015 limpará periodicamente registros desatualizados do banco de dados CDR. A limpeza ocorrerá a cada dia no Tomé especificado pela configuração PurgeHour. Se definido como falso (0), os registros não serão automaticamente limpos do banco de dados. O valor padrão é True.  <br/> |
+|**KeepCallDetailForDays** <br/> |int  <br/> ||Especifica a idade dos registros CDR (em dias) que serão removidos do banco de dados: se a limpeza estiver habilitada, os registros CDR mais antigos do que esse valor serão removidos do banco de dados. O valor padrão é 60 dias.  <br/> |
+|**KeepErrorReportForDays** <br/> |int  <br/> ||Especifica a idade dos registros de relatório de tempo (em dias) que serão removidos do banco de dados: se a limpeza estiver habilitada, os registros de relatório de erros anteriores a esse valor serão removidos do banco de dados. O valor padrão é 60 dias.  <br/> |
+|**PurgeHour** <br/> |int  <br/> ||Especifica a hora local do dia em que a limpeza do banco de dados ocorrerá. O horário é especificado utilizando-se um relógio de 24 horas, onde 0 representa a meia-noite (00:00) e 23 representa 23 horas. Observe que você só pode especificar a hora do dia: é permitido um valor de 10 (indicando 10:00 AM), mas um valor de 10:30 de 10,5 (indicando 10:30 AM) não é permitido. O valor padrão é 2 (2:00).  <br/> |
    
 

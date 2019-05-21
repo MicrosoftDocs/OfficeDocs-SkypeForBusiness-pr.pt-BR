@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -19,59 +19,59 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Saiba mais sobre o que sistema telefônico pode fazer por você. '
-ms.openlocfilehash: a4ac90d24863ecaf56ca471d412474bf81653a50
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Saiba o que o sistema telefônico pode fazer por você. '
+ms.openlocfilehash: 7188a0d4573ce7bc935b60506371fbd2a4f1b6a8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211714"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299015"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>O que é o Sistema de Telefonia no Office 365?
 
-## <a name="phone-system-in-office-365-and-skype-for-business-server"></a>Sistema telefônico no Office 365 e Skype para Business Server
+## <a name="phone-system-in-office-365-and-skype-for-business-server"></a>Sistema telefônico no Office 365 e no Skype for Business Server
 
-**Sistema telefônico** é a tecnologia da Microsoft para habilitar o controle de chamada e recursos do PBX na nuvem com Skype Office 365 para o Business Online e Teams da Microsoft. Sistema telefônico permite que você substitua o seu sistema PBX existente um conjunto de recursos entregues do Office 365 e estreitamente integrado ao experiência de nuvem da sua organização. Para obter mais informações sobre os recursos, consulte [aqui está o que fazer com o sistema telefônico no Office 365](here-s-what-you-get-with-phone-system.md).
+O **sistema de telefonia** é a tecnologia Microsoft para habilitar os recursos de controle de chamada e PBX na nuvem do Office 365 com o Skype for Business Online e o Microsoft Teams. O sistema telefônico permite que você substitua seu sistema PBX existente por um conjunto de recursos fornecidos pelo Office 365 e totalmente integrado à experiência de nuvem da sua organização. Para saber mais sobre os recursos, veja [o que você obtém com o sistema telefônico no Office 365](here-s-what-you-get-with-phone-system.md).
   
-Com o sistema telefônico, os usuários podem usar o Skype para Business Online e Teams da Microsoft para cuidam das tarefas de controle de chamada básica, como fazer e receber chamadas, transferir chamadas e chamadas tirar o som e unmuting. Os usuários do sistema telefônico podem clicar no nome no seu catálogo de endereços e Skype para negócios ou Teams Microsoft faz uma chamada para essa pessoa. Para fazer e receber chamadas, os usuários de sistema telefônico podem usar seus dispositivos móveis, um fone de ouvido com um laptop ou PC ou uma das muitas telefones IP que funcionam com o Skype para Teams da Microsoft e de negócios. Para os administradores, o sistema telefônico fornece a capacidade de gerenciar chamada dentro do mesmo console de administração usada para mensagens, colaboração e assim por diante.
+Com o sistema de telefonia, seus usuários podem usar o Skype for Business Online e o Microsoft Teams para cuidar das tarefas básicas de controle de chamadas, como a inserção e o recebimento de chamadas, a transferência de chamadas e mudo e desativação de chamadas. Os usuários do sistema de telefonia podem clicar em um nome no catálogo de endereços, e o Skype for Business ou o Microsoft Teams faz uma chamada para essa pessoa. Para fazer e receber chamadas, os usuários do sistema de telefonia podem usar seus dispositivos móveis, um fone de ouvido com um laptop ou um computador ou um de vários telefones IP que funcionem com o Skype for Business e o Microsoft Teams. Para administradores, o sistema telefônico fornece a capacidade de gerenciar chamadas dentro do mesmo console de administração usado para mensagens, colaboração e assim por diante.
   
-Com sistemas de PBX tradicionais, chamadas entre usuários em sua organização são manipuladas internamente dentro do sistema telefônico e nunca ir para a PSTN. Isso se aplica às chamadas entre usuários em sua organização, localizado em áreas geográficas diferentes, removendo os custos de longa distância nessas chamadas internas.
+Com os sistemas PBX tradicionais, as chamadas entre os usuários da sua organização são manipuladas internamente no sistema telefônico e nunca vão para a PSTN. Isso se aplica a chamadas entre usuários em sua organização, localizadas em diferentes áreas geográficas, removendo os custos de longa distância dessas chamadas internas.
   
 Para habilitar chamadas para telefones fixos e celulares, o Sistema de Telefonia pode ser conectado à PSTN de uma das duas maneiras:
   
-- Ao adquirir a uma chamada planejar (locais ou nacionais e internacionais) para o Office 365. Consulte [sistema telefônico e planos de chamada](calling-plan-landing-page.md)
+- Comprando um plano de chamadas (doméstico ou doméstica e internacional) para o Office 365. Ver o [sistema telefônico e os planos de chamada](calling-plan-landing-page.md)
     
-- Usando a conectividade de PSTN local, onde o software no local conecta-se a sua infraestrutura de telefonia existente. Consulte [Planning seu sistema telefônico](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution).
+- Usando a conectividade PSTN local, onde o software local se conecta à sua infraestrutura de telefonia existente. Consulte [planejando o sistema telefônico](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution).
 
-![Descreve as ofertas de nuvem PBX](media/29fd12ab-e86f-422d-b4d6-0b75824211bc.png).
+![Descreve as ofertas de Cloud PBX](media/29fd12ab-e86f-422d-b4d6-0b75824211bc.png).
 
-## <a name="more-about-calling-plans"></a>Mais informações sobre planos de chamada
+## <a name="more-about-calling-plans"></a>Mais sobre planos de chamada
 
-Usar um complemento chamar planejar para o sistema telefônico no Office 365 permite a conectividade PSTN para chamadas landlines e celulares em todo o mundo (dependendo do nível de serviço a serem licenciado). Seus usuários são hospedados na nuvem e são habilitados para o Sistema de Telefonia com o complemento de Plano de Chamadas fornecido pela Microsoft. Usar planos de chamada não exige uma implantação de servidor local. Planos de chamada só funcionam com o sistema telefônico no Office 365 e você não pode usar o ato de chamar planos com outro sistema PBX.
+Usar um complemento de plano de chamada com o sistema telefônico no Office 365 permite a conectividade PSTN para chamadas para telefones fixos e celulares em todo o mundo (dependendo do nível de serviço que está sendo licenciado). Seus usuários são hospedados na nuvem e são habilitados para o Sistema de Telefonia com o complemento de Plano de Chamadas fornecido pela Microsoft. Usar planos de chamada não requer uma implantação de servidor local. Os planos de chamada funcionam apenas com o sistema telefônico no Office 365, e você não pode usar planos de chamada com outro sistema de PBX.
 
-![Diagrama de topologia mostrando PBX nuvem com a chamada de PSTN, a solução de voz completamente na nuvem.](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
+![Diagrama de topologia mostrando o Cloud PBX com chamada PSTN, a solução de voz completamente na nuvem.](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
-Porque os planos de chamar operam no Office 365, esta é uma oferta de completamente na-nuvem que não exija uma implantação de servidor local. Você tem a opção de usar uma doméstico ou doméstico e internacional chamar planejar, que ser atribuídos a cada usuário que você deseja fazer chamadas. [Deseja saber mais?](calling-plan-landing-page.md).
+Como os planos de chamada funcionam no Office 365, essa é uma oferta completa da nuvem que não requer uma implantação de servidor local. Você tem a opção de usar um plano de chamadas doméstica ou doméstica e internacional, que é atribuído a cada usuário que você deseja fazer chamadas. [Quer saber mais?](calling-plan-landing-page.md).
   
-Os usuários que estejam hospedados em Skype para Business Online ou Microsoft Teams no Office 365 terão acesso aos serviços de voz do Office 365. A Microsoft é a provedora dos serviços básicos de chamada e PSTN, e pode até mesmo fornecer ou portar os números de telefone de seus usuários. 
+Os usuários hospedados no Skype for Business online ou no Microsoft Teams no Office 365 terão acesso aos serviços de voz do Office 365. A Microsoft é a provedora dos serviços básicos de chamada e PSTN, e pode até mesmo fornecer ou portar os números de telefone de seus usuários. 
   
-Planos de chamada do Office 365 permite que você pesquise, adquirir e atribuir números de telefone aos usuários em sua organização para que os usuários podem fazer e receber chamadas telefônicas com pessoas de dentro e fora da sua organização.
+Os planos de chamada no Office 365 permitem pesquisar, adquirir e atribuir números de telefone aos usuários em sua organização para que os usuários possam fazer e receber chamadas telefônicas com pessoas dentro e fora da sua organização.
   
-Em todos os tipos de negócios, ter um número de telefone que permite que os usuários enviem e recebam chamadas de voz é um requisito importante para fazer negócios, como números de telefone são usados para identificar um usuário e permitir a comunicação entre organizações. Os usuários que são atribuídos a números de telefone será capazes de fazer chamadas de voz entre todos os Skype para dispositivos Teams da Microsoft e de negócios, incluindo telefones VoIP, PCs e dispositivos móveis. 
+Em todos os tipos de negócios, ter um número de telefone que permita que os usuários enviem e recebam chamadas de voz é uma exigência importante para fazer negócios, pois os números de telefone são usados para identificar um usuário e permitir a comunicação entre organizações. Os usuários que recebem números de telefone poderão fazer chamadas de voz em todos os dispositivos Skype for Business e Microsoft Teams, incluindo telefones VoIP, PCs e dispositivos móveis. 
 
-Planos de chamada (locais e nacionais e internacionais) estão disponíveis nas localidades geográficas específicas, mas crescentes. Verifique a [disponibilidade](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) em seu país ou região. 
+Os planos de chamada (domésticos e nacionais e internacionais) estão disponíveis em locais geográficos específicos, mas crescentes. Verifique a [disponibilidade](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) em seu país ou região. 
 
-**Pronto para começar?**  Para configurar seus planos de chamada para seus usuários, consulte [Configurar planos de chamada](set-up-calling-plans.md).  
+**Pronto para começar?**  Para configurar seus planos de chamada para seus usuários, consulte [configurar planos de chamada](set-up-calling-plans.md).  
 
 ## <a name="phone-system-with-services"></a>Sistema telefônico com serviços
- Sistema de telefone aso pode ser usado para caixa postal e serviços:
-- **Atendedores automáticos**  O sistema telefônico no Office 365 atendedores automáticos podem ser usados para criar um sistema de menu para a sua organização que permite que os chamadores externos e internos mover através de um sistema de menu localizar e colocar ou transferir chamadas para usuários da empresa ou departamentos na organização. Consulte [Cite atendedores automáticos de nuvem?](what-are-phone-system-auto-attendants.md)
+ O sistema telefônico pode ASO ser usado para serviços e correio de voz:
+- **Atendedores automáticos**  O sistema telefônico nos atendedores automáticos do Office 365 pode ser usado para criar um sistema de menus para a sua organização que permite que chamadores externos e externos se movimentem por meio de um sistema de menus para localizar e fazer ou transferir chamadas para usuários ou departamentos da empresa em sua organização. Veja [o que são atendedores automáticos da nuvem?](what-are-phone-system-auto-attendants.md)
 
-- **Filas de chamada**  Com o sistema telefônico, você pode criar saudações de fila de chamada que são usadas quando alguém chama um número de telefone para sua organização; Isso inclui a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que a chamada está escutando a música em espera. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização. Consulte [criar uma fila de chamada de nuvem](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- **Filas de chamadas**  Com o sistema telefônico, você pode criar Saudações da fila de chamadas que são usadas quando alguém liga para um número de telefone para sua organização; Isso inclui a capacidade de colocar automaticamente as chamadas em espera e a capacidade de Pesquisar o próximo agente de chamada disponível para manipular a chamada, enquanto as pessoas que ligam estão ouvindo música em espera. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização. Consulte [criar uma fila de chamadas na nuvem](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
-- **Caixa postal** Quando você obtiver uma licença de sistema telefônico para um usuário, esse usuário poderá obter o correio de voz que foi deixado por chamadores. Caixa postal de nuvem é configurada automaticamente e provisionado para usuários depois que você atribuir uma licença de sistema telefônico e um número de telefone para acessá-los. Consulte [Configurar a caixa postal de nuvem](set-up-phone-system-voicemail.md).
+- **Correio de voz** Quando você recebe uma licença do sistema de telefone para um usuário, esse usuário poderá receber correio de voz que tenha sido deixado por chamadores. O correio de voz na nuvem é automaticamente configurado e provisionado para os usuários após você atribuir uma licença do sistema telefônico e um número de telefone a ele. Consulte [Configurar correio de voz na nuvem](set-up-phone-system-voicemail.md).
 
-Se você estiver pronto para começar, consulte [Configurando o sistema telefônico na sua organização](setting-up-your-phone-system.md).
+Se você estiver pronto para começar, confira [Configurando o sistema telefônico em sua organização](setting-up-your-phone-system.md).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Licenciamento do complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

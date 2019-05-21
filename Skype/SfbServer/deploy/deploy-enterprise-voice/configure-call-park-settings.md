@@ -1,10 +1,10 @@
 ---
-title: Definir configurações de estacionamento de chamada no Skype para negócios
+title: Configurar as definições do parque de chamadas no Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,19 +13,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: Modificar configurações de estacionamento de chamada no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 2f833e956f09213f1dfa3da440a6c6d9b17fa6b2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Modifique as configurações do parque de chamadas no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: c456a519fc9f567bdef812adc533adaf03c4360a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893067"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303387"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business"></a>Definir configurações de estacionamento de chamada no Skype para negócios
+# <a name="configure-call-park-settings-in-skype-for-business"></a>Configurar as definições do parque de chamadas no Skype for Business
 
-Modificar configurações de estacionamento de chamada no Skype para Business Server Enterprise Voice.
+Modifique as configurações do parque de chamadas no Skype for Business Server Enterprise Voice.
 
-Se você não quiser usar configurações de estacionamento de chamada padrão, você pode personalizá-los. Quando você instala o aplicativo de estacionamento de chamadas, configurações globais são configuradas por padrão. É possível modificar as configurações globais e também especificar configurações específicas do site. Use o cmdlet **New-CsCpsConfiguration** para criar configurações específicas do site. Use o cmdlet **Set-CsCpsConfiguration** para modificar as configurações existentes.
+Se não quiser usar as configurações padrão de estacionamento de chamadas, você poderá personalizá-las. Quando você instala o aplicativo de estacionamento de chamada, as configurações globais são configuradas por padrão. É possível modificar as configurações globais e também especificar configurações específicas do site. Use o cmdlet **New-CsCpsConfiguration** para criar configurações específicas do site. Use o cmdlet **Set-CsCpsConfiguration** para modificar as configurações existentes.
 
 > [!NOTE]
 > No mínimo, recomendamos configurar a opção **OnTimeoutURI** para o destino de fallback a ser usado quando uma chamada estacionada excede o tempo limite e o retorno de toque falha.
@@ -40,7 +40,7 @@ Use os cmdets **New-CsCpsConfiguration** ou **Set-CsCpsConfiguration** para defi
 | **MaxCallPickupAttempts** <br/>      | O número de vezes que uma chamada estacionada retorna o toque para o telefone de resposta antes de ser encaminhada para o URI (Uniform Resource Identifier) de fallback que é especificado para **OnTimeoutURI**. O padrão é 1.<br/>                                                                                                                         |
 | **OnTimeoutURI** <br/>               | O endereço SIP do usuário ou grupo de resposta para o qual uma chamada estacionada não atendida é roteada quando **MaxCallPickupAttempts** é excedido. <br/> O valor deve ser um URI do SIP que começa com a cadeia de caracteres sip:. Por exemplo, sip:bob@contoso.com. O padrão é nenhum endereço de encaminhamento.<br/>                                                   |
 
-### <a name="to-configure-call-park-settings"></a>Para definir as configurações de estacionamento de chamada
+### <a name="to-configure-call-park-settings"></a>Para configurar as configurações do estacionamento de chamadas
 
 1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
 
@@ -51,7 +51,7 @@ Use os cmdets **New-CsCpsConfiguration** ou **Set-CsCpsConfiguration** para defi
    ```
 
    > [!TIP]
-   > Use o cmdlet **Get-CsSite** para identificar o site. Para obter detalhes, consulte Skype para documentação Business Server Management Shell.
+   > Use o cmdlet **Get-CsSite** para identificar o site. Para obter detalhes, consulte a documentação do Shell de gerenciamento do Skype for Business Server.
 
     Por exemplo:
 

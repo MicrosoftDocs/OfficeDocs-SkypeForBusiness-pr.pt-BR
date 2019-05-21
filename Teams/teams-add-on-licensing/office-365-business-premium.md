@@ -10,76 +10,76 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Saiba mais sobre como comprar o Office 365 Business Premium planos, recursos e licenças de complemento. '
-ms.openlocfilehash: 25f4b7c7563a18f89c595cd4d5d1e748b6ff8c7b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Saiba mais sobre licenças de complemento, recursos e como comprar planos do Office 365 Business Premium. '
+ms.openlocfilehash: 2e8c580237bb61160906d1fadd511815741d8984
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204589"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298567"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
-Se você tiver [Business Premium do Office 365](https://products.office.com/en/business/office-365-business-premium), você pode usar o Microsoft Teams para fazer chamadas para outras pessoas da sua empresa que estejam em sua assinatura. Por exemplo, se sua empresa tiver 10 pessoas, você pode usar as equipes a chamada e mensagem Instantânea umas às outras.
+Se você tiver o [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), poderá usar o Microsoft Teams para fazer chamadas para outras pessoas em sua empresa que estejam na sua assinatura. Por exemplo, se a sua empresa tiver 10 pessoas, você poderá usar o Teams para fazer chamadas e enviar mensagens de chat entre si.
 
 **Para fazer e receber chamadas de pessoas de fora da empresa, você tem duas opções**:
 
-- **Opção 1**. Use o [app gratuito de equipes](https://products.office.com/microsoft-teams/free). Se você tiver um negócio muito pequeno (por exemplo, 1-2 pessoas), usando o app equipes é a melhor maneira de ir. As chamadas nacionais e internacionais são mais baratas. Você ainda pode fazer chamadas de áudio e vídeos 1:1 e o grupo e compartilhar sua área de trabalho para apresentações. [Compare os recursos, taxas e opções de pagamento](https://products.office.com/microsoft-teams/free).
+- **Opção 1**. Use o [aplicativo Teams gratuito](https://products.office.com/microsoft-teams/free). Se você tiver uma pequena empresa (por exemplo, 1-2 pessoas), usar o aplicativo Teams é a melhor maneira de começar. É mais barato fazer chamadas nacionais e internacionais. Ainda é possível fazer chamadas de áudio e vídeo em grupo do 1:1 e do grupo e compartilhar sua área de trabalho para apresentações. [Compare os recursos, as taxas e as opções de pagamento](https://products.office.com/microsoft-teams/free).
 
-     É recomendável começando com equipes gratuitos ver se ele atenda às suas necessidades. Se isso não acontecer, considere a opção seguinte para atualizar seu plano.
+     Recomendamos que você comece com o Teams Free para ver se ele atende às suas necessidades. Se isso não acontecer, considere a opção seguinte para atualizar seu plano.
 
 - **Opção 2. Atualize seu plano e compre um Sistema de Telefonia e um Doméstico ou um Plano de Chamadas Doméstico e Internacional**.
 
     > [!Important]
-    > Embora as equipes está incluído com a assinatura do Office Business Premium, você não pode adicionar recursos de chamada de voz de nuvem. Portanto, recomendamos que você avalie se um plano Enterprise E5 (ou Enterprise E3) pode ser mais vantajoso.
+    > Embora o Microsoft Teams esteja incluído na assinatura do Office Business Premium, você não pode adicionar recursos de chamada de voz na nuvem. Portanto, recomendamos que você avalie se um plano Enterprise E5 (ou Enterprise E3) pode ser mais vantajoso.
 
     1. [Migrar para um outro plano do Office 365 para empresas](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Recomendamos que você avalie se um plano Enterprise E5 pode ser mais vantajoso.
 
     2. Compre o complemento Sistema de Telefonia.
     
-    3. Comprar uma [Chamada planejar para o Office 365](../calling-plans-for-office-365.md): você pode comprar isso somente depois que você compra o complemento de sistema telefônico.
+    3. Comprar um [plano de chamadas do Office 365](../calling-plans-for-office-365.md): você só poderá comprá-lo depois de comprar o complemento do sistema telefônico.
     
     Esta segunda opção é ideal para empresas com várias pessoas que fazem e recebem chamadas telefônicas externas.
 
-## <a name="how-to-see-prices-and-buy"></a>Como ver os preços e comprar
+## <a name="how-to-see-prices-and-buy"></a>Como ver preços e comprar
 <a name="bkmk_buypremium"> </a>
 
  **Para obter a conferência de áudio:**
 
-1. Entrar no Centro de administração do Microsoft 365.
+1. Entre no centro de administração do Microsoft 365.
 
-2. Vá para **faturamento** > **Serviços de compra** > **inscrições de complemento**.
+2. Acesse assinaturas complementares de**Serviços** > **de**compra de **cobrança** > .
 
-   Você verá que os preços e a opção de comprar conferência de áudio.
+   Você verá os preços e a opção de comprar videoconferência.
 
 **Para obter créditos de comunicações**
 
-1. Entrar no Centro de administração do Microsoft 365.
+1. Entre no centro de administração do Microsoft 365.
 
-2. Vá para **faturamento** > **Serviços de compra** > **inscrições de complemento**.
+2. Acesse assinaturas complementares de**Serviços** > **de**compra de **cobrança** > .
 
    Você verá a opção de comprar créditos de comunicações.
 
-3. Para adicionar fundos à comunicação créditos, vá para **faturamento** > **assinaturas** > **Créditos de comunicações**.
+3. Para adicionar fundos a créditos de comunicações, consulte**créditos de comunicação**de**assinaturas** > de **cobrança** > .
 
-    Você poderá adicionar fundos e ativar e desativar o recarga automático. Para obter mais informações, consulte [Adicionar fundos e gerenciar créditos de comunicações](../add-funds-and-manage-communications-credits.md) . 
+    Você poderá adicionar fundos e ativar e desativar a recarga automática. Consulte [adicionar fundos e gerenciar créditos de comunicações](../add-funds-and-manage-communications-credits.md) para obter mais informações. 
 
 
 **Para obter o Sistema de Telefonia e um Plano de Chamadas:**
 
 1. Mude para o plano E1 ou E3.
 
-2. Vá para o Centro de administração do Microsoft 365.
+2. Vá para o centro de administração do Microsoft 365.
 
-3. Vá para **faturamento** > **Serviços de compra** > **inscrições de complemento**.
+3. Acesse assinaturas complementares de**Serviços** > **de**compra de **cobrança** > .
 
-    Você verá que os preços para o sistema telefônico e a opção de comprar.
+    Você verá os preços do sistema telefônico e a opção de comprá-lo.
 
-4. Depois que você compra uma licença de **Sistema telefônico** , você verá o preço e a opção de comprar um plano de chamada.
+4. Depois de comprar uma licença do **sistema de telefonia** , você verá o preço e a opção para comprar um plano de chamadas.

@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -19,54 +19,54 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Os administradores podem controlar o tipo de usuário final e conferência PSTN chamadas de áudio que podem ser feitas pelos usuários.
-ms.openlocfilehash: acd75df192211465071940148e35bc7e269c7976
-ms.sourcegitcommit: d1b14268efe334aa93a6889f25fcfe46e07d5daa
+description: Os administradores podem controlar o tipo de conferência de áudio e as chamadas PSTN do usuário final que podem ser feitas pelos usuários.
+ms.openlocfilehash: e4589a2785d5debf4de6d6a146ede76b020cd2d6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33584219"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299149"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restrição de chamadas de saída para audioconferência e chamadas PSTN do usuário
 
 Como administrador, você pode usar os controles de chamadas de saída para restringir o tipo de audioconferência e as chamadas PSTN de usuários finais que podem ser feitas pelos usuários em sua organização. 
 
-Controles de chamada de saída podem ser aplicados em uma base por usuário e fornecem os seguintes dois controles para restringir independentemente de cada tipo de chamadas de saída. Por padrão, ambos os controles são definidos para permitir que as chamadas de saída nacionais e internacionais. 
+Os controles de chamada de saída podem ser aplicados por usuário e fornecer os dois controles a seguir para restringir independentemente cada tipo de chamadas de saída. Por padrão, ambos os controles são definidos para permitir chamadas internacionais e domésticas de saída. 
 
 |Controle|Descrição|Opções de controle|
 |:-----|:-----|:-----|
-|Chamadas PSTN de conferência de áudio|Restringe o tipo de saída </br>chamadas que são permitidas de dentro </br>reuniões organizadas por um usuário.|Internacional e doméstico (padrão)</br>Doméstico</br>Nenhum|
-|Chamadas PSTN de usuário final|Restringe o tipo de chamadas </br>que podem ser feitas por um usuário.|Internacional e doméstico (padrão)</br>Doméstico</br>Nenhum|
+|Chamadas PSTN de conferência de áudio|Restringe o tipo de saída </br>chamadas que são permitidas dentro </br>reuniões organizadas por um usuário.|Internacional e doméstico (padrão)</br>Doméstico</br>Nenhum|
+|Chamadas PSTN do usuário final|Restringe o tipo de chamadas </br>que podem ser feitas por um usuário.|Internacional e doméstico (padrão)</br>Doméstico</br>Nenhum|
 
    > [!NOTE]
-   > Uma chamada é considerada doméstica se o número discado está no mesmo país onde Office 365 foi configurado para o organizador da reunião (no caso de serviços de audioconferência) ou o usuário final (no caso de chamadas da PSTN de usuário final). 
+   > Uma chamada será considerada doméstica se o número discado estiver no mesmo país em que o Office 365 foi configurado para o organizador da reunião (no caso de videoconferência) ou o usuário final (no caso de chamadas PSTN do usuário final). 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir as chamadas de saída de conferência de áudio 
+## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir chamadas de saída de áudio videoconferência 
 
-![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+![Teams-logo-30x30. png](../images/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
-1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
 
 2. Na parte superior da página, clique em **Editar**.
 
-3. Ao lado de **Conferência de áudio**, clique em **Editar**.
+3. Ao lado de **conferência de áudio**, clique em **Editar**.
 
-4. Em **permissão de discagem de reuniões**, selecione a opção de discagem restrição desejada.
+4. Em **permissão de discagem de reuniões**, selecione a opção de restrição de discagem desejada.
 
 5. Clique em **Salvar**. 
 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
 
-1.  No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **usuários**e selecione o usuário da lista de usuários disponíveis.
+1.  No **centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para**usuários**de **audioconferência** > e, em seguida, selecione o usuário na lista de usuários disponíveis.
 
 2.  No Painel de Ações, clique em **Editar**.
 
-3.  Em **restrições a serem dial-outs de reuniões deste usuário**, selecione a opção de discagem restrição desejada.
+3.  Em **restrições a chamadas discadas de reuniões desse usuário**, selecione a opção de restrição discada que você deseja.
 
-    ![As restrições às opções de discagem-outs](../images/restrictions-to-dial-outs.png)
+    ![Restrições às opções de discagem](../images/restrictions-to-dial-outs.png)
 
 5. Clique em **Salvar**.
 
@@ -75,20 +75,20 @@ Controles de chamada de saída podem ser aplicados em uma base por usuário e fo
 
 **Usando o PowerShell**
 
-Restrições de chamada de saída são controladas por uma única política chamada OnlineDialOutPolicy que tem um atributo de restrição para cada um. A política não pode ser personalizada, em vez disso, há instâncias de diretiva predefinidas para cada combinação das configurações. 
+Restrições de chamadas de saída são controladas por uma única política chamada OnlineDialOutPolicy que tem um atributo Restriction para cada. A política não pode ser personalizada, em vez disso, há instâncias de política predefinidas para cada combinação das configurações. 
 
-Você pode usar o cmdlet Get-CSOnlineDialOutPolicy para exibir as políticas de chamada de saída e atribuí-las aos usuários usando o cmdlet Grant-CSDialOutPolicy. (Observe que o cmdlet Grant não contêm a palavra "Online" como o cmdlet Get faz.) 
+Você pode usar o cmdlet Get-CSOnlineDialOutPolicy para exibir as políticas de chamadas de saída e atribuí-las aos usuários usando o cmdlet Grant-CSDialOutPolicy. (Observe que o cmdlet Grant não contém a palavra "online" como o cmdlet Get.) 
 
 A tabela a seguir fornece uma visão geral de cada política.
 
 |||
 |:-----|:-----|
-|Identidade = 'tag: DialoutCPCandPSTNInternational'    |    Usuário na conferência pode discar para números nacionais e internacionais e esse usuário também pode fazer chamadas de saída para números nacionais e internacionais.    |
-|Identidade = 'tag: DialoutCPCDomesticPSTNInternational'  |    Usuário na conferência só pode discar para números nacionais e esse usuário pode fazer chamadas de saída para números nacionais e internacionais.    |
-|    Identidade = 'tag: DialoutCPCDisabledPSTNInternational'    |    Usuário na conferência não pode fazer qualquer dial-out. Esse usuário pode fazer chamadas de saída para números nacionais e internacionais.    |
-|    Identidade = 'tag: DialoutCPCInternationalPSTNDomestic'    |    Usuário na conferência pode discar para números nacionais e internacionais e esse usuário só pode fazer chamadas de saída para o número PSTN doméstica.    |
-|    Identidade = 'tag: DialoutCPCInternationalPSTNDisabled'    |    Usuário na conferência pode discar para números nacionais e internacionais e este usuário não pode fazer qualquer chamadas de saída para um número PSTN além de números de emergências.    |
-|    Identidade = 'tag: DialoutCPCandPSTNDomestic'    |    Usuário na conferência só pode discar para números nacionais e esse usuário só pode fazer chamadas de saída aos números PSTN domésticas.    |
-|    Identidade = 'tag: DialoutCPCDomesticPSTNDisabled'    |    Usuário na conferência só pode discar para números nacionais e este usuário não pode fazer qualquer chamadas de saída para um número PSTN além de números de emergências.    |
-|    Identidade = 'tag: DialoutCPCDisabledPSTNDomestic'    |    Usuário na conferência não puder fazer qualquer discagem externa e esse usuário só pode fazer chamadas de saída aos números PSTN domésticas.    |
-|    Identidade = 'tag: DialoutCPCandPSTNDisabled'    |    Usuário na conferência não puder fazer qualquer discagem externa e este usuário não pode fazer qualquer chamadas de saída para um número PSTN além de números de emergências.    |
+|Identity = ' marca: DialoutCPCandPSTNInternational '    |    O usuário na conferência pode discar para números internacionais e nacionais, e esse usuário também pode fazer chamadas de saída para números internacionais e nacionais.    |
+|Identity = ' marca: DialoutCPCDomesticPSTNInternational '  |    O usuário na conferência pode discar para números domésticos e esse usuário pode fazer chamadas de saída para números internacionais e nacionais.    |
+|    Identity = ' marca: DialoutCPCDisabledPSTNInternational '    |    O usuário na conferência não pode fazer dial-out. Este usuário pode fazer chamadas de saída para números internacionais e nacionais.    |
+|    Identity = ' marca: DialoutCPCInternationalPSTNDomestic '    |    O usuário na conferência pode discar para números internacionais e nacionais, e esse usuário somente pode fazer chamadas de saída para números PSTN domésticos.    |
+|    Identity = ' marca: DialoutCPCInternationalPSTNDisabled '    |    O usuário na conferência pode discar para números internacionais e nacionais, e esse usuário não pode fazer chamadas de saída para o número PSTN além dos números de emergência.    |
+|    Identity = ' marca: DialoutCPCandPSTNDomestic '    |    O usuário na conferência pode discar para números domésticos e esse usuário somente pode fazer chamadas de saída para números PSTN domésticos.    |
+|    Identity = ' marca: DialoutCPCDomesticPSTNDisabled '    |    O usuário na conferência pode discar para números domésticos e esse usuário não pode fazer chamadas de saída para o número PSTN além dos números de emergência.    |
+|    Identity = ' marca: DialoutCPCDisabledPSTNDomestic '    |    O usuário na conferência não pode fazer dial-out, e esse usuário somente pode fazer chamadas de saída para números PSTN domésticos.    |
+|    Identity = ' marca: DialoutCPCandPSTNDisabled '    |    O usuário na conferência não pode fazer dial-out, e este usuário não pode fazer chamadas de saída para o número PSTN além dos números de emergência.    |

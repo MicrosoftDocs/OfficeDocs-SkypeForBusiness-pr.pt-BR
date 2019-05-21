@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AssociateFrontEndWithArchivingPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
-description: Cada pool de Front-End e o aparelho de filial persistente podem ter apenas um que servidor de arquivamento associado a ela. Quando o arquivamento estiver habilitado para o site, o servidor de arquivamento, em seguida, coleta e registros instantâneos messaging conteúdo da mensagem (IM) e conteúdo de Webconferência de conversas que envolvem os usuários hospedagem no associado pools e aparelhos de filial persistente.
-ms.openlocfilehash: 56316a8a7d030bae61814673a86c9c07d7031004
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Cada pool de front-ends e um aparelho de ramificação sobreviventes podem ter apenas um servidor de arquivamento associado a ele. Quando o arquivamento está habilitado para o site, o servidor de arquivamento coleta e registra o conteúdo da mensagem de mensagens instantâneas (IM) e o conteúdo da conferência na Web de conversas que envolvem os usuários hospedados nos pools associados e em aparelhos de ramificação sobreviventes.
+ms.openlocfilehash: 189b99398adc11e8666223041e3fb46835a53d24
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925064"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301691"
 ---
 # <a name="associate-front-end-with-archiving"></a>Associar Front End com Arquivamento
  
-Cada pool de Front-End e o aparelho de filial persistente podem ter apenas um que servidor de arquivamento associado a ela. Quando o arquivamento estiver habilitado para o site, o servidor de arquivamento, em seguida, coleta e registros instantâneos messaging conteúdo da mensagem (IM) e conteúdo de Webconferência de conversas que envolvem os usuários hospedagem no associado pools e aparelhos de filial persistente. 
+Cada pool de front-ends e um aparelho de ramificação sobreviventes podem ter apenas um servidor de arquivamento associado a ele. Quando o arquivamento está habilitado para o site, o servidor de arquivamento coleta e registra o conteúdo da mensagem de mensagens instantâneas (IM) e o conteúdo da conferência na Web de conversas que envolvem os usuários hospedados nos pools associados e em aparelhos de ramificação sobreviventes. 
   
 Todos os pools em um site e os pools de vários sites centrais podem usar o mesmo servidor de arquivamento, se o uso não exceder a capacidade do servidor de arquivamento. 
   

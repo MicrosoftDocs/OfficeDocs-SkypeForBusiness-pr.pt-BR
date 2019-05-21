@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 8/17/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
-description: 'Resumo: Leia este tópico para saber como planejar o servidor de Chat persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: b3ca8125a69a94da3e0c707456d695c31eaf8c47
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Leia este tópico para saber como planejar o servidor de chat persistente no Skype for Business Server 2015.'
+ms.openlocfilehash: 7916fa041e5180cd7e4d4bba2349565c22f8fdcb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910802"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297089"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planejar Servidor de Chat Persistente no Skype for Business Server 2015
  
-**Resumo:** Leia este tópico para saber como planejar o servidor de Chat persistente no Skype for Business Server 2015.
+**Resumo:** Leia este tópico para saber como planejar o servidor de chat persistente no Skype for Business Server 2015.
   
-Servidor de bate-papo persistente é uma função opcional que permite que vários usuários em sua organização participar de conversas de sala de chat que persistam ao longo do tempo. Embora os usuários possam se comunicar em tempo real durante uma sessão de chat, o conteúdo de cada sessão – incluindo texto, links e arquivos – é persistente, o que significa que os usuários podem visualizar e pesquisar todo o conteúdo da sessão a qualquer momento.
+O servidor de chat persistente é uma função opcional que permite que vários usuários de sua organização participem de conversas da sala de chat que persistem ao longo do tempo. Embora os usuários possam se comunicar em tempo real durante uma sessão de chat, o conteúdo de cada sessão – incluindo texto, links e arquivos – é persistente, o que significa que os usuários podem visualizar e pesquisar todo o conteúdo da sessão a qualquer momento.
   
-Servidor de Chat persistente pode ajudar a melhorar a comunicação dentro da sua organização por:
+O servidor de chat persistente pode ajudar a melhorar a comunicação dentro da sua organização:
   
 - Ampliar a visibilidade das informações e a participação por toda a organização
     
@@ -37,25 +37,25 @@ Servidor de Chat persistente pode ajudar a melhorar a comunicação dentro da su
 - Cumprir normas de conformidade por meio da implantação opcional de serviço de Conformidade de Chat Persistente
 
 > [!NOTE] 
-> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015. 
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
     
 ## <a name="persistent-chat-server-high-level-architecture"></a>Arquitetura de alto nível de Servidor de Chat Persistente
 
-O diagrama a seguir mostra um modo de exibição de alto nível da arquitetura do servidor de Chat persistente. 
+O diagrama a seguir mostra uma exibição de alto nível da arquitetura do servidor de chat persistente. 
   
 ![Arquitetura de alto nível de servidor de bate-papo persistente](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
   
-O Chat Persistente consiste em uma função de servidor de front-end que fornece os serviços de Chat Persistente, bem como componentes do banco de dados SQL de back-end. Tanto os componentes de front-end quanto de back-end estão incluídos em um pool dedicado de Chat Persistente. Cada computador que hospeda o servidor de Chat persistente deve ter acesso a um Skype existente para a topologia de negócios Server 2015. Neste diagrama, há um pool de servidor de Chat persistente (A), que é dependente do Skype para um Pool de servidores corporativos para roteamento de mensagens a ela.
+O Chat Persistente consiste em uma função de servidor de front-end que fornece os serviços de Chat Persistente, bem como componentes do banco de dados SQL de back-end. Tanto os componentes de front-end quanto de back-end estão incluídos em um pool dedicado de Chat Persistente. Cada computador que hospeda o servidor de chat persistente deve ter acesso a uma topologia existente do Skype for Business Server 2015. Neste diagrama, há um pool de servidores de chat persistente (A), que depende do pool do Skype for Business Server A para direcionar mensagens para ele.
   
-Você pode implantar um ou mais pools de servidor de Chat persistente, cada um com até quatro ativo servidores de Chat persistente suportando até aos usuários simultâneos de 80 mil.
+Você pode implantar um ou mais pools de servidores de chat persistentes, cada um com até quatro servidores de chat ativos persistentes que dão suporte a até 80K usuários simultâneos.
   
-Skype para Business Server 2015 se comunica com o serviço de Chat persistente usando o protocolo de iniciação de sessão (SIP) para o registro e o protocolo Extensible bate-papo comunicação via SIP (XCCOS) para o bate-papo. 
+O Skype for Business Server 2015 se comunica com o serviço de chat persistente usando o protocolo de iniciação de sessão (SIP) para registro e o protocolo de comunicação de chat extensível (XCCOS) para o chat. 
   
 ## <a name="persistent-chat-services"></a>Serviços de Chat Persistente
 
-O diagrama a seguir mostra os serviços de front-end do servidor de Chat persistente e como esses serviços se comunicam com os componentes de banco de dados de back-end. Os componentes de front-end incluem serviços de Chat Persistente e o serviço de Conformidade. Os componentes de back-end incluem o repositório de Chat Persistente e o repositório de conformidade de Chat Persistente.
+O diagrama a seguir mostra os serviços front-end persistentes do servidor de chat e como esses serviços se comunicam com os componentes de banco de dados back-end. Os componentes de front-end incluem serviços de Chat Persistente e o serviço de Conformidade. Os componentes de back-end incluem o repositório de Chat Persistente e o repositório de conformidade de Chat Persistente.
   
-![Serviços de alto nível de servidor de bate-papo persistente](../../media/bcdbadbe-e868-4a46-8a73-36562648fdf7.png)
+![Serviços de alto nível do servidor de chat persistente](../../media/bcdbadbe-e868-4a46-8a73-36562648fdf7.png)
   
 ### <a name="chat-service"></a>Serviço de Chat
 
@@ -73,11 +73,11 @@ O serviço de Chat Persistente armazena e acessa o conteúdo da sala de bate-pap
   
 ### <a name="compliance-service"></a>Serviço de conformidade
 
-Se a sua organização tiver regulamentos que exigem que a atividade de Chat Persistente seja arquivada, você pode implantar o serviço opcional de Conformidade de Chat Persistente. O serviço de Conformidade é responsável pelo arquivamento de conteúdo de chat e eventos, tais como ingressar e sair de salas, no repositório de arquivos de Conformidade de Chat Persistente. O serviço de conformidade é instalado em cada servidor de Chat persistente em um pool de Chat persistente. 
+Se a sua organização tiver regulamentos que exigem que a atividade de Chat Persistente seja arquivada, você pode implantar o serviço opcional de Conformidade de Chat Persistente. O serviço de Conformidade é responsável pelo arquivamento de conteúdo de chat e eventos, tais como ingressar e sair de salas, no repositório de arquivos de Conformidade de Chat Persistente. O serviço de conformidade está instalado em cada servidor de chat persistente em um pool de chat persistente. 
   
 ### <a name="web-services"></a>Serviços Web
 
-Os serviços web de Chat persistente executar no Skype para negócios servidores Front-End. Os serviços Web dependem dos Serviços de Informações da Internet (IIS) e são implementados como componentes da Web:
+Os serviços Web de chat persistente são executados nos servidores front-end do Skype for Business. Os serviços Web dependem dos Serviços de Informações da Internet (IIS) e são implementados como componentes da Web:
   
 - Os serviços Web de Chat Persistente para download e upload de arquivos são responsáveis pela publicação e recuperação de arquivos em salas de chat.
     
@@ -85,9 +85,9 @@ Os serviços web de Chat persistente executar no Skype para negócios servidores
     
 ## <a name="defining-requirements-for-your-organization"></a>Definindo requisitos para sua organização
 
-Se você decidir implantar o servidor de Chat persistente, você precisará determinar os requisitos de negócios da sua organização, então, definir a topologia, infraestrutura e os requisitos técnicos para atender às suas necessidades de negócios. Para otimizar sua implantação, você precisará responda às seguintes perguntas:
+Se você decidir implantar o servidor de chat persistente, será necessário determinar as necessidades comerciais da sua organização e, em seguida, definir a topologia, a infraestrutura e os requisitos técnicos para atender às suas necessidades de negócios. Para otimizar a implantação, você precisa responder às seguintes perguntas:
   
-- Você está migrando de uma versão anterior do servidor de Chat de grupo ou uma versão anterior do servidor de Chat persistente, ou está implantando o servidor de Chat persistente pela primeira vez?
+- Você está migrando de uma versão anterior do servidor de chat de grupo ou uma versão anterior do servidor de chat persistente ou está implantando o servidor de chat persistente pela primeira vez?
     
 - Quem pode usar o Servidor de Chat Persistente? Você especifica políticas de Chat Persistente para determinar o acesso do usuário no nível global, de site ou de usuário.
     
@@ -97,23 +97,23 @@ Se você decidir implantar o servidor de Chat persistente, você precisará dete
     
 - Como você deseja controlar quem pode criar salas? Você pode definir criadores que podem criar salas. Os criadores podem designar outros membros como gerentes de sala de chat para gerenciamento contínuo das salas.
     
-- Como você deseja criar salas? Servidor de Chat persistente fornece um recurso baseado na web para criar e gerenciar salas. Isso pode ser iniciado do Skype para o cliente de negócios. Você pode optar por definir uma solução de cliente que implementa a seus requisitos corporativos e fluxos de trabalho e configura o servidor de Chat persistente para direcionar os usuários à sua solução personalizada.
+- Como você deseja criar salas? O servidor de chat persistente fornece um recurso baseado na Web para a criação e o gerenciamento de salas. Isso pode ser iniciado pelo cliente Skype for Business. Você pode optar por definir uma solução de cliente que implemente seus requisitos comerciais e fluxos de trabalho e configure o servidor de chat persistente para direcionar os usuários para sua solução personalizada.
     
 - Que tipo de suplemento você deseja provisionar? Suplementos aprimoram a experiência na sala aproveitando o painel de extensibilidade no cliente Skype for Business para fornecer contexto que seja relevante à sala. É possível escolher quais suplementos gerais podem ser mais úteis (por exemplo, o site da sua empresa, documentos de colaboração interna etc.). Os gerentes das salas de chat podem escolher um dos suplementos registrados e associá-lo às salas, se desejado. 
     
-- Que tipo de requisito de alta disponibilidade e recuperação de desastre você tem? Servidor de Chat persistente suporta o espelhamento do SQL Server e SQL Server clustering para alta disponibilidade. Recuperação de desastres, Persistent Chat Server suporta até 8 servidores (4 ativas e 4 espera) em um pool alongado com o SQL Server envio de logs. 
+- Que tipo de requisito de alta disponibilidade e recuperação de desastre você tem? O servidor de chat persistente dá suporte ao espelhamento do SQL Server e ao cluster do SQL Server para alta disponibilidade. Para recuperação de desastres, o servidor de chat persistente aceita até 8 servidores (4 ativos e 4 em standby) em um pool ampliado com o envio de logs do SQL Server. 
     
-- Há requisitos regulatórios? Se sua empresa estiver em um país ou região onde os dados precisam ser mantidas dentro do país, você pode precisar implantar vários pools de servidor de Chat persistente, em cada local em uma região geográfica específica. Uma sala, categoria ou suplemento não abranger pools – ele pertence a apenas um pool de servidor de Chat persistente. 
+- Há requisitos regulatórios? Se a sua empresa estiver em um país ou região em que os dados precisam ser mantidos dentro do país, talvez seja necessário implantar vários pools de servidores de chat persistentes, cada um local para uma geografia específica. Uma sala, categoria ou suplemento não abrange pools--ele pertence a apenas um pool persistente do servidor de chat. 
     
     > [!NOTE]
-    > Ter vários pools de servidor de Chat persistente não oferecer mais escala (você ainda pode ter apenas 80.000 usuários simultâneos em todos os seus pools de servidor de Chat persistente). O principal motivo para dar suporte a vários pools de servidor de Chat persistente é para oferecer suporte a preocupações normas. 
+    > Ter vários pools de servidores de chat persistentes não oferece mais escalabilidade (você ainda pode ter apenas 80.000 usuários simultâneos em todos os seus pools de servidores de chat persistentes). O principal motivo para dar suporte a vários pools de servidores de chat persistentes é dar suporte a questões de regulamentação. 
   
 ## <a name="for-more-information"></a>Para obter mais informações
 
 Para mais informações sobre como instalar e configurar o Servidor de Chat Persistente, consulte os seguintes tópicos:
   
-- Para obter detalhes sobre como implantar o servidor de Chat persistente, consulte [Implantar Persistent Chat Server in Skype para Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
+- Para obter detalhes sobre como implantar o servidor de chat persistente, consulte [implantar servidor de chat persistente no Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
     
-- Para obter detalhes sobre como definir as configurações na sua implantação do servidor de Chat persistente, consulte [Gerenciar Persistent Chat Server in Skype para Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
+- Para obter detalhes sobre como definir as configurações na sua implantação do servidor de chat persistente, consulte [gerenciar servidor de chat persistente no Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
     
 
