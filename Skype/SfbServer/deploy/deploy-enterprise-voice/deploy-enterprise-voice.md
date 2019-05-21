@@ -1,10 +1,10 @@
 ---
-title: Implantar o Enterprise Voice no Skype para Business Server
+title: Implantar o Enterprise Voice no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,52 +13,52 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
-description: 'Resumo: Saiba como implantar o Enterprise Voice para Skype para Business Server em um site central.'
-ms.openlocfilehash: 8fb434a4fe02ec5755d78d549f870da9860b2910
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como implantar o Enterprise Voice para Skype for Business Server em um site central.'
+ms.openlocfilehash: c5995570d8d3cf775b2837bb6ddfc170860d57dc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892710"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291239"
 ---
-# <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Implantar o Enterprise Voice no Skype para Business Server
+# <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Implantar o Enterprise Voice no Skype for Business Server
 
-**Resumo:** Aprenda a implantar o Enterprise Voice para Skype para Business Server em um site central.
+**Resumo:** Saiba como implantar o Enterprise Voice para Skype for Business Server em um site central.
 
-Use este tópico para implantar o Enterprise Voice em um site central. Para implantar o Enterprise Voice em um site de filial, pule para a [Implantação de Sites de filiais](https://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx).
+Use este tópico para implantar o Enterprise Voice em um site central. Para implantar o Enterprise Voice em um site de filial, pule para a [implantação de sites](https://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx)de filiais.
 
-Esta seção inclui procedimentos para implantações em que um servidor de mediação é colocado em cada servidor Front-End ou servidor Standard Edition, conforme recomendado e também para implantações com um pool de servidor de mediação autônomo. Você pode ignorar o conteúdo a seguir se você usou o construtor de topologias para definir e publicar uma topologia que coloca um servidor de mediação em cada servidor Front-End ou servidor Standard Edition, porque o Assistente de implantação já automaticamente instalado os arquivos para Servidor de mediação quando você instalou os arquivos para o pool do servidor Front-End ou servidor Standard Edition:
+Esta seção inclui procedimentos para implantações em que um servidor de mediação está posicionado em cada servidor front-end ou servidor Standard Edition, conforme recomendado, e também para implantações com um pool autônomo do servidor de mediação. Você pode ignorar o conteúdo a seguir se tiver usado o construtor de topologias para definir e publicar uma topologia que posiciona um servidor de mediação em cada servidor front-end ou um servidor Standard Edition, pois o assistente de implantação já instalou automaticamente os arquivos para Servidor de mediação quando você instalou arquivos para o pool de servidores front-end ou o servidor Standard Edition:
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Pré-requisitos de segurança e configuração para o Enterprise Voice no Skype para Business Server](enterprise-voice-security.md)
+- [Pré-requisitos de configuração e segurança do Enterprise Voice no Skype for Business Server](enterprise-voice-security.md)
 
-- [Implantar um servidor de mediação no construtor de topologia no Skype para Business Server](deploy-a-mediation-server.md)
+- [Implantar um servidor de mediação no construtor de topologias no Skype for Business Server](deploy-a-mediation-server.md)
 
-- [Definir um gateway no construtor de topologia no Skype para Business Server](define-a-gateway.md)
+- [Definir um gateway no construtor de topologias no Skype for Business Server](define-a-gateway.md)
 
-- [Definir troncos adicionais no construtor de topologia no Skype para Business Server](define-additional-trunks.md)
+- [Definir troncos adicionais no construtor de topologias no Skype for Business Server](define-additional-trunks.md)
 
-- [Instalar os arquivos para o servidor de mediação em Skype para Business Server](install-mediation-server.md)
+- [Instalar os arquivos do servidor de mediação no Skype for Business Server](install-mediation-server.md)
 
-- [Configurar troncos no Skype para Business Server](configure-trunks.md)
+- [Configurar troncos no Skype for Business Server](configure-trunks.md)
 
-- [Criar ou modificar uma regra de conversão para a apresentação de ID do chamador em Skype para Business Server](caller-id-presentation-rules.md)
+- [Criar ou modificar uma regra de tradução para a apresentação de identificação de chamadas no Skype for Business Server](caller-id-presentation-rules.md)
 
-- [Criar ou modificar uma regra de conversão para apresentação da ID chamada no Skype para Business Server](called-id-presentation-rules.md)
+- [Criar ou modificar uma regra de tradução para a apresentação de ID chamada no Skype for Business Server](called-id-presentation-rules.md)
 
-- [Criar ou modificar uma regra de normalização no Skype para negócios](normalization-rules.md)
+- [Criar ou modificar uma regra de normalização no Skype for Business](normalization-rules.md)
 
-- [Criar ou modificar um plano de discagem no Skype para Business Server](dial-plans.md)
+- [Criar ou modificar um plano de discagem no Skype for Business Server](dial-plans.md)
 
-- [Configurar políticas de voz, registros de uso PSTN e roteamentos de voz no Skype para negócios](voice-and-pstn.md)
+- [Configurar políticas de voz, registros de uso de PSTN e rotas de voz no Skype for Business](voice-and-pstn.md)
 
-- [Habilitar usuários para o Enterprise Voice no Skype para Business Server](enable-users-for-enterprise-voice.md)
+- [Habilitar usuários do Enterprise Voice no Skype for Business Server](enable-users-for-enterprise-voice.md)
 
-- [Implantar os recursos avançados do Enterprise Voice do Skype para Business Server](deploy-advanced-enterprise-voice-features.md)
+- [Implantar recursos avançados do Enterprise Voice no Skype for Business Server](deploy-advanced-enterprise-voice-features.md)
 
-- [Implantar os recursos de gerenciamento de chamada do Skype para negócios](deploy-call-management-features.md)
+- [Implantar recursos de gerenciamento de chamadas no Skype for Business](deploy-call-management-features.md)
 
 ## <a name="see-also"></a>Confira também
 
-[Planejar o Enterprise Voice no Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+[Plano para Enterprise Voice no Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 

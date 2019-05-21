@@ -1,56 +1,56 @@
 ---
-title: Provisionamento a topologia para executar a carga em cenários de Stress e desempenho
+title: Provisionando a topologia para executar carga em cenários de carga e desempenho
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 ms.date: 12/17/2015
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
-description: Skype para alterações de topologia Business Server 2015 ou provisionamento para permitir que usuários com êxito, execute a ferramenta de Stress e desempenho.
-ms.openlocfilehash: 446c8d8154992540ffd8bfe18b07af7c54e864fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: O Skype for Business Server 2015 altera ou provisionamento de topologia para permitir que os usuários executem com êxito a ferramenta de stress e desempenho.
+ms.openlocfilehash: c7cdc10b3667ac99376904c81309df739e49844a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906638"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299699"
 ---
-# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Provisionamento a topologia para executar a carga em cenários de Stress e desempenho
+# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Provisionando a topologia para executar carga em cenários de carga e desempenho
  
-Skype para alterações de topologia Business Server 2015 ou provisionamento para permitir que usuários com êxito, execute a ferramenta de Stress e desempenho.
+O Skype for Business Server 2015 altera ou provisionamento de topologia para permitir que os usuários executem com êxito a ferramenta de stress e desempenho.
   
-Dependendo as configurações existentes e a configuração de sua implantação do Skype para Business Server 2015, você pode precisar fazer algumas alterações em seu ambiente. A seguir está uma lista dessas alterações:
+Dependendo das configurações existentes e da configuração da sua implantação do Skype for Business Server 2015, talvez seja necessário fazer algumas alterações no ambiente. Veja a seguir uma lista dessas alterações:
   
-1. Defina a diretiva de execução do Windows PowerShell como irrestrito. Se você não tiver certeza de qual é definido como atualmente, pode abrir o Skype para Business Server Management Shell e execute este comando:
+1. Defina a política de execução do Windows PowerShell como Irrestrito. Se não tiver certeza de que ele está definido no momento, você pode abrir o Shell de gerenciamento do Skype for Business Server e executar este comando:
     
    ```
    Get-ExecutionPolicy
    ```
 
-   Se o valor Unrestricted não for retornado, você precisará executar nesse Avançar:
+   Se o valor irrestrito não for retornado, você precisará executar o seguinte:
     
    ```
    Set-ExecutionPolicy -Unrestricted
    ```
 
-2. Para configurar efetivamente Skype para Business Server, você precisará:
+2. Para configurar efetivamente o Skype for Business Server, você precisará:
     
-    - Estar familiarizado com seu Skype para Business Server 2015 topologia (por exemplo, nomes de computador, instâncias de serviço, nomes de site e políticas).
+    - Familiarize-se com sua topologia do Skype for Business Server 2015 (por exemplo, nomes de computador, instâncias de serviço, nomes de site e políticas).
     
-    - Atribua alguns dos usuários que são criados para grupos, como o grupo de resposta (por exemplo, URIs de SIP) de grupos de busca.
+    - Atribua alguns dos usuários criados a grupos, como os números coletivos de grupos de resposta (por exemplo, URIs SIP).
     
-3. Para executar um script de linha de comando, você pode usar:
+3. Para executar um script a partir da linha de comando, você pode usar:
     
    ```
    PowerShell.exe -file <path to the file>
    ```
 
-4. Normalmente, depois de executar um script deste pacote, os rastreamentos resultantes serão armazenados em um arquivo no mesmo caminho em que o script foi executado. Há também um formato de nomeação \<scriptname\>$h$m$s.txt. Portanto, se você executou o ArchivingPolicy.ps1 às 12:15:00, você obterá um arquivo de log chamado ArchivingPolicy121500.txt.
+4. Geralmente, depois que você executar um script deste pacote, os rastreamentos resultantes serão armazenados em um arquivo no mesmo caminho a partir do local em que o script foi executado. Também há um formato de nomenclatura, \<scriptname\>$h $ m $ s. txt. Portanto, se você executou o ArchivingPolicy. ps1 em 12:15 PM, obterá um arquivo de log chamado ArchivingPolicy121500. txt.
     
-5. Enquanto fornecemos estes exemplos para a configuração do servidor, cabe a você modificar sua configuração e restaurar ou revertê-la depois de terminar a execução do teste de carga.
+5. Embora tenhamos fornecido esses exemplos para a configuração do seu servidor, você pode modificar a configuração e restaurá-la ou recarregá-la após concluir a execução do teste de carga.
     
 

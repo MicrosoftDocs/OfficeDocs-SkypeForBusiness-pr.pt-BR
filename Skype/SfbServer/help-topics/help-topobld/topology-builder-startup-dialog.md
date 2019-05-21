@@ -5,30 +5,30 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.StartupDialog
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
-description: 'Iniciar o construtor de topologias para configurar as propriedades e a configuração da sua implantação do Microsoft Lync Server 2013. Na inicialização, o construtor de topologias exibe uma caixa de diálogo que pergunta qual será a fonte do documento de topologia. Você selecionar uma das três opções:'
-ms.openlocfilehash: 8c91496c9e08facbd0db514aa76b1559de6bbd33
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Inicie o construtor de topologias para configurar as propriedades e a configuração da sua implantação do Microsoft Lync Server 2013. Na inicialização, o construtor de topologias exibe uma caixa de diálogo que pergunta qual será a origem do documento de topologia. Selecione uma das três opções:'
+ms.openlocfilehash: 316fc52d2a14a114c0f021e78dd11c7c5a412589
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903303"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299786"
 ---
 # <a name="topology-builder-startup-dialog"></a>Caixa de diálogo de inicialização do Construtor de Topologias
 
-Iniciar o construtor de topologias para configurar as propriedades e a configuração da sua implantação do Microsoft Lync Server 2013. Na inicialização, o construtor de topologias exibe uma caixa de diálogo que pergunta qual será a fonte do documento de topologia. Você selecionar uma das três opções:
+Inicie o construtor de topologias para configurar as propriedades e a configuração da sua implantação do Microsoft Lync Server 2013. Na inicialização, o construtor de topologias exibe uma caixa de diálogo que pergunta qual será a origem do documento de topologia. Selecione uma das três opções:
 
-- **Baixar topologia da implantação existente** Selecione essa opção se você executou o construtor de topologia e publicar com êxito sua topologia para o servidor de gerenciamento Central. Essa opção solicita e downloads uma cópia local da configuração atual, permitindo que você editar e configurar a implantação existente.
+- **Baixar a topologia da implantação existente** Selecione essa opção se você tiver executado o construtor de topologias e tiver publicado sua topologia com êxito no servidor de gerenciamento central. Essa opção solicita e baixa uma cópia local da configuração atual, permitindo que você edite e configure a implantação existente.
 
-- **Abrir a topologia de um arquivo local** Selecione essa opção se você estiver configurando uma implantação, mas ainda não publicado a configuração. Essa opção permite que você salvar uma cópia local do trabalho de configuração no construtor de topologia e voltar a ele mais tarde.
+- **Abrir a topologia de um arquivo local** Selecione esta opção se você estiver configurando uma implantação, mas ainda não publicou a configuração. Essa opção permite que você salve uma cópia local do trabalho de configuração no construtor de topologias e volte a ele mais tarde.
 
-- **Nova topologia** Selecione essa opção para começar a configuração de um novo documento de topologia. Essa opção abre um novo documento de topologia que você configurar para atender os requisitos de implantação que você irá configurar.
+- **Nova topologia** Selecione essa opção para começar a configuração de um novo documento de topologia. Essa opção abre um novo documento de topologia que você configura para atender aos requisitos para a implantação que você irá configurar.
 
 ![Caixa de diálogo de inicialização do Construtor de Topologias](../../media/Topology_Builder_Startup_Dialog.jpg)
 

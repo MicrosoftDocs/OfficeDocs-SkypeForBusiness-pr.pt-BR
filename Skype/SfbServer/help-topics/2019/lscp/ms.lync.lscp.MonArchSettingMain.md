@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.MonArchSettingMain
@@ -12,37 +12,37 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Você usa as configurações de arquivamento para controlar opções de arquivamento para sua Skype para implantação de servidor de negócios, incluindo habilitando e desabilitando as seguintes opções:'
-ms.openlocfilehash: 3537ec152965f3245ca11358bab736814baada8e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Use as configurações de arquivamento para controlar as opções de arquivamento para a implantação do Skype for Business Server, incluindo a ativação e a desativação das seguintes opções:'
+ms.openlocfilehash: 8c585d2a5816f2d29b3f468fd48fa82c36254d5f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891177"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291933"
 ---
 # <a name="archiving-configuration"></a>Configuração de Arquivamento
  
-Você usa as configurações de arquivamento para controlar opções de arquivamento para sua Skype para implantação de servidor de negócios, incluindo habilitando e desabilitando as seguintes opções:
+Use as configurações de arquivamento para controlar as opções de arquivamento para a implantação do Skype for Business Server, incluindo a ativação e a desativação das seguintes opções:
   
 - Bloqueio de mensagens instantâneas (IM) ou sessões de conferência se o arquivamento falhar
     
-- Integração com o armazenamento do Exchange, para usuários hospedados no Exchange
+- Integração com o armazenamento do Exchange para usuários hospedados no Exchange
     
 - Limpeza de dados arquivados
     
 As configurações de arquivamento incluem a configuração global e, como opção, uma ou mais configurações de Arquivamento de site e de pool:
   
-- **Configuração global** A configuração global criada por padrão no Skype todas as implantações de servidor de negócios. É possível editar a configuração global, mas não é possível excluir essa configuração de Arquivamento. Se você tentar excluí-la, todas as opções serão redefinidas para o padrão.
+- **Configuração global** A configuração global é criada por padrão em todas as implantações do Skype for Business Server. É possível editar a configuração global, mas não é possível excluir essa configuração de Arquivamento. Se você tentar excluí-la, todas as opções serão redefinidas para o padrão.
     
-- **Configuração de site (opcional)** Você pode especificar um ou mais sites as configurações de arquivamento, que cada um dos quais você pode configurar para controlar opções de arquivamento para um site específico. Uma configuração de site substitui a configuração global, mas somente para os sites especificados nas configurações de site de Arquivamento. É possível editar ou excluir as configurações de site.
+- **Configuração de site (opcional)** Você pode especificar uma ou mais configurações de arquivamento de site, cada uma que pode ser configurada para controlar as opções de arquivamento de um site específico. Uma configuração de site substitui a configuração global, mas somente para os sites especificados nas configurações de site de Arquivamento. É possível editar ou excluir as configurações de site.
     
-- **Configuração de pool (opcional)** Você pode especificar um ou mais pool configuração de arquivamento, para controlar opções de arquivamento para um pool específico. Uma configuração de pool substitui a configuração global e a configuração de site, mas somente para os pools especificados nas configurações de pool de Arquivamento. É possível editar ou excluir as configurações de pool.
+- **Configuração de pool (opcional)** Você pode especificar uma ou mais configurações de arquivamento de pool para controlar as opções de arquivamento de um pool específico. Uma configuração de pool substitui a configuração global e a configuração de site, mas somente para os pools especificados nas configurações de pool de Arquivamento. É possível editar ou excluir as configurações de pool.
     
 > [!NOTE]
-> Configurações de arquivamento se aplicam a usuários hospedados no Skype para Business Server e, se você usar o Exchange para armazenar dados de arquivamento no Microsoft Exchange, para usuários hospedados no Exchange, mas são implementadas de forma ligeiramente diferente para usuários hospedados no serviço do Exchange. As diferenças são descritas na próxima seção. 
+> As configurações de arquivamento aplicam-se aos usuários hospedados no Skype for Business Server e, se você usar o Exchange para armazenar dados de arquivamento no Microsoft Exchange, para os usuários hospedados no Exchange, mas serão implementadas de forma ligeiramente diferente para os usuários hospedados no Exchange. As diferenças são descritas na próxima seção. 
   
 A página **Configuração de Arquivamento** lista cada política de Arquivamento configurada para sua implantação. Também mostra o nome da política, o escopo (global, site ou pool), e quais opções de arquivamento estão habilitadas para cada configuração de Arquivamento. Na página  **Configuração de Arquivamento**, você tem as seguintes opções:
-- **Novo** Você pode adicionar um ou mais de cada uma das seguintes configurações de arquivamento opcionais.
+- **Novo** Você pode adicionar uma ou mais de cada uma das configurações de arquivamento opcionais a seguir.
     
   - Configuração de site
     
@@ -54,9 +54,9 @@ A página **Configuração de Arquivamento** lista cada política de Arquivament
     
   - **Selecionar tudo** Essa opção seleciona todas as configurações de arquivamento na lista.
     
-  - **Excluir** Essa opção exclui todas as configurações de arquivamento selecionadas.
+  - **Excluir** Esta opção exclui todas as configurações de arquivamento selecionadas.
     
-- **Ação** Você pode usar essa opção para habilitar ou desabilitar o arquivamento de sessões IM ou sessões de conferência da web em qualquer configuração listado na página, em vez de editar a configuração rapidamente. As opções disponíveis em **Ação** dependem de qual opção está especificada atualmente na configuração de Arquivamento. Todas as opções estão disponíveis, exceto pela opção atualmente em vigor para a configuração de Arquivamento. As opções incluem o seguinte:
+- **Ação** Você pode usar essa opção para habilitar ou desabilitar rapidamente o arquivamento de sessões de mensagens instantâneas ou de sessões de Webconferência em qualquer configuração listada na página, em vez de editar a configuração. As opções disponíveis em **Ação** dependem de qual opção está especificada atualmente na configuração de Arquivamento. Todas as opções estão disponíveis, exceto pela opção atualmente em vigor para a configuração de Arquivamento. As opções incluem o seguinte:
     
   - **Arquivar sessões de IM**
     
@@ -64,7 +64,7 @@ A página **Configuração de Arquivamento** lista cada política de Arquivament
     
   - **Desativar arquivamento**
     
-- **Atualizar** É possível atualizar a página de **Configuração de arquivamento** para verificar o status das opções de todas as configurações de arquivamento.
+- **Atualização** Você pode atualizar a página de **configuração** de arquivamento para verificar o status das opções de todas as configurações de arquivamento.
     
-Para obter detalhes sobre o recurso de arquivamento e os recursos, incluindo a integração do Exchange, consulte [planejamento para arquivamento no Skype para Business Server](../../../plan-your-deployment/archiving/archiving.md), [Deploy arquivamento para Skype para Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)e [Gerenciar o arquivamento no Skype para negócios Servidor](../../../manage/archiving/archiving.md).
+Para obter detalhes sobre o recurso de arquivamento e os recursos, incluindo a integração com o Exchange, consulte [planejar o arquivamento no Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), [implantar o arquivamento para o Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)e [gerenciar o arquivamento no Skype for Business Servidor](../../../manage/archiving/archiving.md).
 

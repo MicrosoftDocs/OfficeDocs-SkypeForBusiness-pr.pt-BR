@@ -3,7 +3,7 @@ title: Implantar Salas do Microsoft Teams com o Office 365
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,41 +13,41 @@ ms.collection:
 - M365-voice
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Leia este tópico para obter informações sobre como implantar as salas de equipes da Microsoft com o Office 365.
-ms.openlocfilehash: ed95eb489cad7ebea95a96a069e58421aff61380
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Office 365.
+ms.openlocfilehash: 5c67976b8e4d946a29c7dbe826c131a5b85dcaea
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916413"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288448"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Implantar Salas do Microsoft Teams com o Office 365
 
-Leia este tópico para obter informações sobre como implantar as salas de equipes da Microsoft com o Office 365, onde Teams da Microsoft ou Skype para negócios e do Exchange são ambos online.
+Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Office 365, em que o Microsoft Teams ou o Skype for Business e o Exchange estão online.
 
-A maneira mais fácil de configurar as contas de usuário é configurá-los usando o Windows PowerShell remoto. A Microsoft fornece [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), um script que ajudarão a criar novas contas de usuário ou validar contas existentes de recurso, que você ter para ajudá-lo a transformá-los em contas de usuário de salas de equipes da Microsoft compatíveis. Se você preferir, você pode seguir as etapas abaixo para configurar contas para que seu dispositivo de salas de equipes da Microsoft usará.
+A maneira mais fácil de configurar contas de usuário é configurá-las usando o Windows PowerShell remoto. A Microsoft fornece [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105), um script que ajudará a criar novas contas de usuário ou validar as contas de recursos existentes que você tem para ajudar a transformá-las em contas de usuário compatíveis do Microsoft Teams. Se preferir, você pode seguir as etapas abaixo para configurar contas que o dispositivo de salas do Microsoft Teams vai usar.
 
 ## <a name="requirements"></a>Requisitos
 
-Antes de implantar salas de equipes da Microsoft com o Office 365, certifique-se de que você cumpre os requisitos. Para obter mais informações, consulte [requisitos de salas de equipes da Microsoft](requirements.md).
+Antes de implantar salas do Microsoft Teams com o Office 365, certifique-se de que atenda aos requisitos. Para obter mais informações, consulte [requisitos de salas do Microsoft Teams](requirements.md).
 
-Para habilitar o Skype para a empresa, você deve ter o seguinte:
+Para habilitar o Skype for Business, você deve ter o seguinte:
 
-- Skype para negócios Online (plano 2, ou um plano de empresa) ou superior no seu plano do Office 365. O plano deve permitir que os recursos de conferência discada.
+- Skype for Business online (plano 2 ou plano baseado em empresas) ou superior em seu plano do Office 365. O plano precisa permitir recursos de conferência discada.
 
-- Se você precisar de recursos de dial-in de uma reunião, você precisará uma conferência de áudio e a licença do sistema telefônico.  Se você precisar de recursos de discagem de uma reunião, será necessário um locais ou nacionais e internacionais chamar planejar.
+- Se precisar de recursos de discagem de uma reunião, você precisará de uma conferência de áudio e uma licença do sistema de telefonia.  Se precisar de recursos de discagem de uma reunião, você precisará de um plano de chamada internacional ou doméstico e internacional.
 
-- Os usuários de Inquilino devem ter caixas de correio do Exchange.
+- Os usuários do locatário devem ter caixas de correio do Exchange.
 
-- Sua conta da Microsoft equipes salas exigir no mínimo um Skype licença Business Online (plano 2), mas ele não requer uma licença do Exchange Online. Consulte [licenças de salas de equipes da Microsoft](skype-room-systems-v2.md) para obter detalhes.
+- Sua conta de salas do Microsoft Teams requer pelo menos uma licença do Skype for Business online (plano 2), mas não requer uma licença do Exchange Online. Consulte [licenças de salas do Microsoft Teams](skype-room-systems-v2.md) para obter detalhes.
 
-Para obter detalhes sobre Skype para negócios Online planos, consulte o [Skype para negócios Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
+Para obter detalhes sobre os planos do Skype for Business Online, consulte a [Descrição do serviço do Skype for Business online](https://technet.microsoft.com/library/jj822172.aspx).
 
 ### <a name="add-a-device-account"></a>Adicionar uma conta de dispositivo
 
-1. Conecte-se para o Exchange Online PowerShell. Para obter instruções, consulte [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
+1. Conecte-se ao PowerShell do Exchange Online. Para obter instruções, consulte [conectar ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
 
-2. No PowerShell do Exchange Online, crie uma nova caixa de correio de sala ou modificar uma caixa de correio de sala existente. Por padrão, caixas de correio de sala não têm contas associadas, portanto, você precisará adicionar uma conta ao criar ou modificar uma caixa de correio de sala que permite que ele autenticar com sistemas de sala Skype v2.
+2. No PowerShell do Exchange Online, crie uma nova caixa de correio de sala ou modifique uma caixa de correio de sala existente. Por padrão, as caixas de correio da sala não têm contas associadas, portanto, você precisará adicionar uma conta ao criar ou modificar uma caixa de correio de sala que permita que ela seja autenticada com o Skype Room Systems v2.
 
    - Para criar uma nova caixa de correio de sala, use a seguinte sintaxe:
 
@@ -63,7 +63,7 @@ Para obter detalhes sobre Skype para negócios Online planos, consulte o [Skype 
 
      - Conta: ProjectRigel01@contoso.onmicrosoft.com
 
-     - Senha da conta: P@$$W0rd5959
+     - Senha da conta: P @ $ $W 0rd5959
 
      ``` PowerShell
      New-Mailbox -Name "Project-Rigel-01" -Alias ProjectRigel01 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID ProjectRigel01@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
@@ -75,45 +75,45 @@ Para obter detalhes sobre Skype para negócios Online planos, consulte o [Skype 
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     Este exemplo habilita a conta para a caixa de correio de sala existente que tem o valor de alias ProjectRigel02 e define a senha como 9898P@$$W0rd. Observe que a conta seja ProjectRigel02@contoso.onmicrosoft.com devido ao valor existente do alias.
+     Este exemplo habilita a conta da caixa de correio de sala existente que tem o valor do alias ProjectRigel02, e define a senha como 9898P @ $ $W 0rd. Observe que a conta será ProjectRigel02@contoso.onmicrosoft.comda por causa do valor de alias existente.
 
      ``` PowerShell
      Set-Mailbox -Identity ProjectRigel02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
-   Para detalhadas sobre sintaxe e informações de parâmetro, consulte [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) e [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
+   Para obter informações detalhadas sobre a sintaxe e o parâmetro, consulte [novo-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) e [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
 
 
-3. No PowerShell do Exchange Online, defina as seguintes configurações na caixa de correio de sala para melhorar a experiência de reunião:
+3. No PowerShell do Exchange Online, defina as seguintes configurações na caixa de correio da sala para melhorar a experiência da reunião:
 
-   - AutomateProcessing: AutoAccept (organizadores de reunião recebem a decisão de reserva de sala diretamente, sem intervenção humana: livre = aceitar; ocupado = recusar.)
+   - AutomateProcessing: a aceitação autoaceitar (os organizadores de reunião recebem a decisão de reserva de sala diretamente sem intervenção humana: grátis = aceitar; Busy = recusar.)
 
    - AddOrganizerToSubject: $false (o organizador da reunião não é adicionado ao assunto da solicitação de reunião.)
 
-   - DeleteComments: $false (mantenha qualquer texto no corpo da mensagem de entrada solicitações de reunião).
+   - DeleteComments: $false (Mantenha qualquer texto no corpo da mensagem de solicitações de reunião recebidas.)
 
-   - DeleteSubject: $false (manter o assunto de solicitações de reunião recebidas).
+   - DeleteSubject: $false (Mantenha o assunto das solicitações de reunião recebidas.)
 
-   - RemovePrivateProperty: $false (assegura o sinalizador particular que foi enviado pelo organizador da reunião na reunião original permanece conforme especificado de solicitação).
+   - RemovePrivateProperty: $false (garante que o sinalizador particular enviado pelo organizador da reunião na solicitação de reunião original permaneça conforme especificado.)
 
-   - AddAdditionalResponse: $true (o texto especificado pelo parâmetro AdditionalResponse é adicionado às solicitações de reunião).
+   - AddAdditionalResponse: $true (o texto especificado pelo parâmetro AdditionalResponse é adicionado a solicitações de reunião.)
 
-   - AdditionalResponse: "Esta é uma sala de reunião Skype!" (O texto adicional para adicionar à solicitação de reunião).
+   - AdditionalResponse: "esta é uma sala de reunião do Skype!" (O texto adicional a ser adicionado à solicitação de reunião.)
 
-   Este exemplo configura essas configurações na caixa de correio de sala chamada Project-Rigel-01.
+   Este exemplo configura essas configurações na caixa de correio da sala chamada Project-Rigel-01.
 
    ``` PowerShell
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
+   Para obter informações detalhadas de sintaxe e parâmetro, consulte [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Conectar-se ao MS Online PowerShell para fazer configurações do Active Directory, executando o `Connect-MsolService -Credential $cred` cmdlet do powershell.   Para obter detalhes sobre o Active Directory, consulte o [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+4. Conecte-se ao MS online PowerShell para fazer as configurações do Active `Connect-MsolService -Credential $cred` Directory executando o cmdlet do PowerShell.   Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
-   > Não há suporte para o [Windows Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) . 
+   > Não há suporte para o [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) . 
 
-5. Se você não quiser que a senha para expirar, use a seguinte sintaxe:
+5. Se você não quiser que a senha expire, use a seguinte sintaxe:
 
     ``` PowerShell
     Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
@@ -123,7 +123,7 @@ Para obter detalhes sobre Skype para negócios Online planos, consulte o [Skype 
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```  -->
 
-   Este exemplo define a senha para a conta ProjectRigel01@contoso.onmicrosoft.com para nunca expirar.
+   Este exemplo define a senha da conta ProjectRigel01@contoso.onmicrosoft.com para nunca expirar.
 
   ``` PowerShell
     Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
@@ -143,7 +143,7 @@ Para obter detalhes sobre Skype para negócios Online planos, consulte o [Skype 
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. A conta do dispositivo precisa ter uma licença válida do Office 365 ou Exchange e Microsoft Teams ou Skype para negócios não funcionará. Se você tem a licença, deve atribuir um local de uso à conta de dispositivo (isso determina quais SKUs de licença estão disponíveis para sua conta). Você pode usar`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> para recuperar uma lista de SKUs disponíveis para seu locatário do Office 365, da seguinte maneira:
+6. A conta do dispositivo precisa ter uma licença válida do Office 365 ou o Exchange e o Microsoft Teams ou o Skype for Business não funcionarão. Se você tem a licença, deve atribuir um local de uso à conta de dispositivo (isso determina quais SKUs de licença estão disponíveis para sua conta). Você pode usar`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> para recuperar uma lista de SKUs disponíveis para o seu locatário do Office 365 da seguinte maneira:
 
   ``` Powershell
   Get-MsolAccountSku
@@ -167,11 +167,11 @@ Para obter detalhes sobre Skype para negócios Online planos, consulte o [Skype 
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```   -->
 
-   Para obter instruções detalhadas, consulte [Atribuir licenças às contas de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
+   Para obter instruções detalhadas, consulte [atribuir licenças a contas de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
-7. Em seguida, você precisará habilitar a conta de dispositivo com Skype para negócios. Certifique-se de que seu ambiente atende aos requisitos definidos nas [salas de equipes da Microsoft requisitos](requirements.md).
+7. Em seguida, você precisa habilitar a conta do dispositivo com o Skype for Business. Certifique-se de que seu ambiente atenda aos requisitos definidos nos [requisitos de salas do Microsoft Teams](requirements.md).
 
-   Inicie uma [sessão do Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) de remota da seguinte maneira (certifique-se de [instalar o Skype para componentes de negócios Online PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)):
+   Inicie uma sessão remota do [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) da seguinte maneira (certifique [-se de instalar os componentes do PowerShell do Skype for Business online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)):
 
    ``` Powershell
    Import-Module SkypeOnlineConnector  
@@ -179,38 +179,38 @@ Para obter detalhes sobre Skype para negócios Online planos, consulte o [Skype 
    Import-PSSession $cssess -AllowClobber
    ```
 
-   Em seguida, habilite sua conta de salas de equipes da Microsoft para Skype para Business Server executando o seguinte cmdlet:
+   Em seguida, habilite a sua conta de salas do Microsoft Teams para o Skype for Business Server executando o seguinte cmdlet:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-   Obtenha as informações de RegistrarPool da nova conta de usuário sendo instalação, como mostrado neste exemplo:
+   Obtenha as informações de RegistrarPool da nova conta de usuário que está sendo configurada, conforme mostrado neste exemplo:
 
     ``` Powershell
     Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
     ```
 
     > [!NOTE]
-    > Novas contas de usuário não podem ser criadas no mesmo pool do registrador contas de usuário existentes no inquilino. O comando acima evitará erros na configuração de conta devido a essa situação.
+    > Não é possível criar novas contas de usuário no mesmo pool de registradores como contas de usuário existentes no locatário. O comando acima impedirá erros na configuração da conta devido a essa situação.
 
-Depois de concluir as etapas anteriores para habilitar a sua conta de salas de equipes da Microsoft em Microsoft Teams ou Skype para Business Online, você precisa atribuir uma licença a dispositivo de salas de equipes da Microsoft. Usando o portal administrativo do Office 365, atribua a qualquer um Skype para Business Online (plano 2) ou uma Skype licença Business Online (plano 3) para o dispositivo.
+Depois de concluir as etapas anteriores para habilitar sua conta de salas do Microsoft Teams no Microsoft Teams ou o Skype for Business Online, você precisa atribuir uma licença ao dispositivo de salas do Microsoft Teams. Usando o portal administrativo do Office 365, atribua uma licença do Skype for Business online (plano 2) ou do Skype for Business online (plano 3) ao dispositivo.
 
 ### <a name="assign-a-license-to-your-account"></a>Atribuir uma licença à conta
 
-1. Logon como um administrador de locatário, abra o Portal do Office 365 administrativas e clique no aplicativo Administração.
+1. Faça logon como administrador de locatários, abra o portal administrativo do Office 365 e clique no aplicativo de administração.
 
 2. Clique em **Usuários e Grupos** e clique em **Adicionar usuários, redefinir senhas e muito mais**.
 
-3. Selecione a conta de salas de equipes da Microsoft e, em seguida, clique ou toque no ícone de caneta, o que significa editar.
+3. Selecione a conta de salas do Microsoft Teams e, em seguida, clique ou toque no ícone de caneta, o que significa editar.
 
 4. Clique na opção **Licenças**.
 
-5. Na seção **Atribuir licenças** , você precisa selecionar o Skype para Business Online (plano 2) ou Skype para Business Online (plano 3), dependendo do seu licenciamento e o que você decidiu em termos de necessidade de Enterprise Voice. Você terá que usar uma licença de plano 3 se você quiser usar o PBX de nuvem em salas de equipes da Microsoft. O CloudPBX será necessário como requisito mínimo para habilitar a conectividade de voz. Em seguida, configure as chamadas PSTN ou de voz híbridas com base no método de conectividade PSTN. Consulte [licenças de salas de equipes da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) para obter mais detalhes.
+5. Na seção **atribuir licenças** , você precisa selecionar o Skype for Business online (plano 2) ou o Skype for Business online (plano 3), dependendo do seu licenciamento e do que você decidiu em termos de necessidade do Enterprise Voice. Você terá que usar uma licença do plano 3 se quiser usar o Cloud PBX em salas do Microsoft Teams. O CloudPBX será necessário como requisito mínimo para habilitar a conectividade de voz. Em seguida, configure as chamadas PSTN ou de voz híbridas com base no método de conectividade PSTN. Consulte [licenças de salas do Microsoft Teams](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) para obter mais detalhes.
 
 6. Clique em **Salvar** para concluir a tarefa.
 
-## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a>Exemplo: Conta de sala de instalação no Exchange Online e Skype para negócios Online
+## <a name="sample-room-account-setup-in-exchange-online-and-skype-for-business-online"></a>Exemplo: configuração da conta de sala no Exchange Online e no Skype for Business Online
 
 Comandos do PowerShell do Exchange Online:
 
@@ -221,7 +221,7 @@ Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept-AddOrgani
 -AdditionalResponse "This is a Rigel room!"
 ```
 
-Comandos do Azure Active Directory PowerShell:
+Comandos do PowerShell do Azure Active Directory:
 
 ``` PowerShell
 Set-MsolUser -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
@@ -238,7 +238,7 @@ Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfbla
 Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
 ```  -->
 
-Skype para o comando do PowerShell de negócios:
+Comando do PowerShell do Skype for Business:
 
 ``` PowerShell
 Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sippooldm21a05.infra.lync.com
@@ -246,22 +246,22 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 ```
 
 > [!NOTE]
-> Assim, você adiciona CloudPBX e PSTNCallingDomesticAndInternational. Além disso, você precisará usar a interface de administração para atribuir um número de telefone.
+> Assim, você adiciona CloudPBX e PSTNCallingDomesticAndInternational. Além disso, será necessário usar a interface do administrador para atribuir um número de telefone.
 
-## <a name="validate"></a>Validar
+## <a name="validate"></a>Válida
 
-Para validação, você deve ser capaz de usar qualquer Skype para o cliente de negócios para entrar com a conta que você criou.
+Para a validação, você deve ser capaz de usar qualquer cliente Skype for Business para entrar na conta que você criou.
 
 ## <a name="see-also"></a>Confira também
 
-[Configurar contas para salas de equipes da Microsoft](room-systems-v2-configure-accounts.md)
+[Configurar contas para salas do Microsoft Teams](room-systems-v2-configure-accounts.md)
 
-[Planejar para salas de equipes da Microsoft](skype-room-systems-v2-0.md)
+[Plano para salas do Microsoft Teams](skype-room-systems-v2-0.md)
 
-[Implantar salas de equipes da Microsoft](room-systems-v2.md)
+[Implantar salas do Microsoft Teams](room-systems-v2.md)
 
-[Configurar um console de salas de equipes da Microsoft](console.md)
+[Configurar um console de salas do Microsoft Teams](console.md)
 
 [Gerenciar Salas do Microsoft Teams](skype-room-systems-v2.md)
 
-[Licenciamento de salas de equipes da Microsoft](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+[Licenciamento de salas do Microsoft Teams](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)

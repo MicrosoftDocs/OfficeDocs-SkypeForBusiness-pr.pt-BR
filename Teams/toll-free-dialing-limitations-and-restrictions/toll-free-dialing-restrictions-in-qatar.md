@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,28 +22,28 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: df2c4a6bc5d059ae65c3fb0d9da74bd69838f56f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
+ms.openlocfilehash: d29c7b0b0a3482c3f6aa15fbf9a28901538b3050
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204243"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301506"
 ---
 # <a name="toll-free-dialing-restrictions-in-qatar"></a>Restrições de discagem de chamada gratuita no Catar
 
-[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md), ou aprender mais sobre as limitações de discagem gratuita e restrições.
+[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuitas.
 
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|É gratuita chamar disponível?  <br/> |Sim  <br/> |
-|Discagem format(s)  <br/> |XXXXXX 00800  <br/> |
+|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
+|Formato (s) de discagem  <br/> |00800 XXXXXX  <br/> |
 |Código ISO de país/região  <br/> |QA  <br/> |
-|Ilha/território abordado  <br/> |Não aplicável  <br/> |
+|Ilha/território abrangido  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> |Não aplicável  <br/> |
 |Disponibilidade de linha fixa/com fio  <br/> |Somente pela Qtel.  <br/> |
-|Disponibilidade com a rede móvel  <br/> |Do Qtel &amp; Vodafone apenas.  <br/> |
+|Disponibilidade com a rede móvel  <br/> |Somente em &amp; Qtel Vodafone.  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Nenhum  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados

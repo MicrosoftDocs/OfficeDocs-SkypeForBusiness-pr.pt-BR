@@ -1,27 +1,27 @@
 ---
-title: Relatório de lista de chamadas no Skype para Business Server
+title: Relatório de lista de chamadas no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
-description: 'Resumo: Saiba mais sobre o Call List Report usada no Skype para Business Server.'
-ms.openlocfilehash: 3e9b115edc92c911029570c6b69d589db64533af
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: Saiba mais sobre o relatório de lista de chamadas usado no Skype for Business Server.'
+ms.openlocfilehash: fcf7f0e5f34a48644c8bd3bad3f1f2267afeb63d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902759"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289326"
 ---
-# <a name="call-list-report-in-skype-for-business-server"></a>Relatório de lista de chamadas no Skype para Business Server
+# <a name="call-list-report-in-skype-for-business-server"></a>Relatório de lista de chamadas no Skype for Business Server
  
-**Resumo:** Saiba mais sobre o Call List Report usada no Skype para Business Server.
+**Resumo:** Saiba mais sobre o relatório de lista de chamadas usado no Skype for Business Server.
   
-O Relatório de Lista de Chamadas fornece métricas de QoE (qualidade da experiência) para chamadas individuais feitas e recebidas em sua organização. Observe que as métricas reais relatadas dependem de como você acessa o relatório de Lista de Chamadas. Por exemplo, se você abrir o relatório do [Relatório de dispositivo no Skype para Business Server](device-report.md), você verá métricas, como a seguir, as métricas que também são relatadas no relatório de dispositivo:
+O Relatório de Lista de Chamadas fornece métricas de QoE (qualidade da experiência) para chamadas individuais feitas e recebidas em sua organização. Observe que as métricas reais relatadas dependem de como você acessa o relatório de Lista de Chamadas. Por exemplo, se você abrir o relatório do [relatório de dispositivos no Skype for Business Server](device-report.md), verá métricas como as métricas a seguir, que também são relatadas no relatório do dispositivo:
   
 - Microfone do chamador
     
@@ -33,7 +33,7 @@ O Relatório de Lista de Chamadas fornece métricas de QoE (qualidade da experi�
     
 - Tempo de troca da taxa de voz 
     
-No entanto, se você abrir o relatório de lista de chamadas do [Location Report no Skype para Business Server](location-report.md), você não verá nenhuma dessas métricas; em vez disso, você verá métricas como estes:
+No entanto, se você abrir o relatório de lista de chamadas no [relatório de localização no Skype for Business Server](location-report.md), não verá nenhuma dessas métricas; em vez disso, você verá métricas como estas:
   
 - Ida e volta (ms)
     
@@ -49,15 +49,15 @@ Há métricas relatadas no Relatório de Local. Entretanto, a partir do Relatór
 
 O Relatório de Lista de Chamadas pode ser acessado de qualquer um dos seguintes relatórios:
   
-- O [Relatório de localização no Skype para Business Server](location-report.md) (clicando o volume de chamadas ou na medida percentual de chamadas ruins)
+- O [relatório de localização no Skype for Business Server](location-report.md) (clicando no volume da chamada ou na métrica de porcentagem baixa de chamada)
     
-- O [Relatório de dispositivo no Skype para Business Server](device-report.md) (clicando o volume de chamadas ou na medida percentual de chamadas ruins)
+- O [relatório do dispositivo no Skype for Business Server](device-report.md) (clicando no volume da chamada ou na métrica de porcentagem baixa de chamada)
     
-- O [Relatório de resumo de qualidade de mídia no Skype para Business Server](summary.md) (clicando o volume de chamadas ou na medida percentual de chamadas ruins)
+- O [relatório de Resumo de qualidade da mídia no Skype for Business Server](summary.md) (clicando no volume da chamada ou na métrica de porcentagem baixa de chamada)
     
-- O [Server Performance Report no Skype para Business Server](server-performance.md) (clicando o volume de chamadas ou na medida percentual de chamadas ruins)
+- O [relatório de desempenho do servidor no Skype for Business Server](server-performance.md) (clicando no volume da chamada ou na métrica de porcentagem baixa de chamada)
     
-De dentro do Call List Report você pode acessar o [Relatório detalhado de chamadas no Skype para Business Server](call-detail-report.md) clicando na métrica detalhe.
+No relatório de lista de chamadas, você pode acessar o [relatório de detalhes de chamadas no Skype for Business Server](call-detail-report.md) clicando na métrica de detalhes.
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>Como usar melhor o Relatório de Lista de Chamada
 
@@ -83,7 +83,7 @@ A tabela a seguir lista as informações detalhadas fornecidas no Relatório de 
 |**Agente do usuário do chamador** <br/> |Sim  <br/> |Software usado pelo ponto de extremidade da pessoa que iniciou a chamada.  <br/> |
 |**Agente do usuário do receptor** <br/> |Sim  <br/> |Software usado pelo ponto de extremidade da pessoa que recebeu a chamada.  <br/> |
 |**Ida e volta (ms)** <br/> |Sim  <br/> |Quantidade média de (em milissegundos) exigida para que um pacote RTP (protocolo de transporte em tempo real) viaje até outra extremidade e retorne. Tempos de viagem de ida e volta de 100 milissegundos ou menos são considerados de qualidade aceitável.  <br/> Os valores altos de ida e volta pode ser causados por roteamento de chamada internacional, um erro de configuração de roteamento ou um servidor de mídia sobrecarregado. Tempos de ida e volta altos resultam em dificuldades com conversas de áudio em tempo real e bidirecionais.  <br/> |
-|**Degradação (MOS)** <br/> |Sim  <br/> |Quantidade média da degradação MOS (pontuação média de opinião) enfrentada durante uma chamada. Os valores de degradação variam de um baixo de 0,0 a um alto de 5,0. Um valor de 0,5 ou menos representa degradação aceitável. As pontuações médias de opinião costumava ser calculadas a partir da classificação da qualidade de uma chamada em uma escala de 1 a 5, feita pelos dos usuários. No Skype para Business Server, um conjunto de algoritmos prever como usuários classificou uma chamada.  <br/> Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |
+|**Degradação (MOS)** <br/> |Sim  <br/> |Quantidade média da degradação MOS (pontuação média de opinião) enfrentada durante uma chamada. Os valores de degradação variam de um baixo de 0,0 a um alto de 5,0. Um valor de 0,5 ou menos representa degradação aceitável. As pontuações médias de opinião costumava ser calculadas a partir da classificação da qualidade de uma chamada em uma escala de 1 a 5, feita pelos dos usuários. No Skype for Business Server, um conjunto de algoritmos prevê como os usuários teriam classificado uma chamada.  <br/> Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |
 |**Perda de pacote** <br/> |Sim  <br/> |Taxa média de perda de pacote RTP. (A perda de pacote ocorre quando os pacotes RTP, um protocolo usado para transmissão de áudio e vídeo pela Internet, não conseguem chegar aos seus destinos.) Taxas de perda altas normalmente são causadas por congestionamento, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia sobrecarregado. A perda de pacote normalmente resulta em perda ou distorção de áudio.  <br/> |
 |**Tremulação** <br/> |Sim  <br/> |Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medição de quanto uma chamada treme.) Valores altos de tremulação são normalmente causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em perda ou distorção de áudio.  <br/> |
 |**Taxa de correção oculta** <br/> |Sim  <br/> |Taxa média de amostras de áudio ocultas para o número total de amostras. (Uma amostra de áudio oculta é uma técnica usada para suavizar a transição abrupta que normalmente seria causada por pacotes de rede descartados.) Valores altos indicam níveis consideráveis de perda de ocultação aplicada causada por perda de pacote ou tremulação e resulta na perda ou distorção de áudio.  <br/> |

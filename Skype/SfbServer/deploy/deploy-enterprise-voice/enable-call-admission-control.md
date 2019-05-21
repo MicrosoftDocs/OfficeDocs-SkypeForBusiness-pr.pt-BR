@@ -1,10 +1,10 @@
 ---
-title: Habilitar o controle de admissão de chamada no Skype para Business Server
+title: Habilitar o controle de admissão de chamadas no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
-description: Habilite o controle de admissão de chamada no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: ce50e11d5d8536dba6038a918a9242ad2cfd6f1d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Habilite o controle de admissão de chamadas no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: ed770a79a7237de682822e8280a13de4516921ec
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892493"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291592"
 ---
-# <a name="enable-call-admission-control-in-skype-for-business-server"></a>Habilitar o controle de admissão de chamada no Skype para Business Server
+# <a name="enable-call-admission-control-in-skype-for-business-server"></a>Habilitar o controle de admissão de chamadas no Skype for Business Server
  
-Habilite o controle de admissão de chamada no Skype para Business Server Enterprise Voice. 
+Habilite o controle de admissão de chamadas no Skype for Business Server Enterprise Voice. 
   
 Após definir as configurações de rede para a implantação do serviço de controle de admissão de chamadas, habilite o CAC para que as políticas de largura de banda entrem em vigor.
   
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Para habilitar o controle de admissão de chamada usando Skype do Shell de gerenciamento do servidor de negócios
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Para habilitar o controle de admissão de chamadas usando o Shell de gerenciamento do Skype for Business Server
 
 1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
     
@@ -43,9 +43,9 @@ Após definir as configurações de rede para a implantação do serviço de con
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>Para habilitar o controle de admissão de chamada usando o Skype para o painel de controle do servidor de negócios
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>Para habilitar o controle de admissão de chamadas usando o painel de controle do Skype for Business Server
 
-1. Abra o Skype para painel de controle do servidor de negócios.
+1. Abra o painel de controle do Skype for Business Server.
     
 2. Na barra de navegação esquerda, clique em **Configuração de rede**.
     

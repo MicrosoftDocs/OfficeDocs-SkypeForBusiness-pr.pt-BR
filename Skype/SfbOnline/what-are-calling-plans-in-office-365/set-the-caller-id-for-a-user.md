@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going How can caller ID be used in your organization.
-ms.openlocfilehash: e9d2cced647eef2f4db7729c4446068a19000176
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e6cf065207afa04772930adf866c0557440c07ad
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229733"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291923"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Definir a identificação de chamadas para um usuário
 The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
@@ -46,7 +46,7 @@ Há duas configurações que você pode alterar:
   
 - **Block their outbound caller ID** You can block the outgoing Caller ID from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called.
     
-- **Bloquear seu ID de chamadas de entrada** Você pode bloquear um usuário receba a ID do chamador em qualquer chamadas PSTN de entrada.
+- **Bloquear a identificação de chamadas de entrada** Você pode impedir que um usuário receba a identificação de chamadas em chamadas PSTN de entrada.
     
 > [!IMPORTANT]
 > [!IMPORTANTE] As chamadas de emergência sempre enviarão o número de telefone dos usuários (ID de chamadas). 
@@ -58,7 +58,7 @@ Para saber mais sobre essas configurações e como você pode usá-las, clique [
 ## <a name="set-your-caller-id-policy-settings"></a>Definir as configurações de política de ID de chamadas
 
 > [!NOTE]
-> Para todas as configurações de ID do chamador no Skype para Business Online, você deve usar o Windows PowerShell e você **não pode usar** o **Skype para centro de administração de negócios**. 
+> Para todas as configurações de identificação de chamadas no Skype for Business Online, você deve usar o Windows PowerShell e **não pode usar** o **centro de administração do Skype for Business**. 
   
 ### <a name="verify-and-start-windows-powershell"></a>Verificar e iniciar o Windows PowerShell
 
@@ -90,21 +90,21 @@ Para saber mais sobre essas configurações e como você pode usá-las, clique [
     Import-PSSession $session
    ```
 
-Se você quiser obter mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para o Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Veja todas as configurações de ID de chamadas em sua organização
 
-- Para exibir todas as configurações de diretiva de ID do chamador em sua organização, execute:
+- Para ver todas as configurações de política de identificação de chamadas em sua organização, execute:
 
   ```
   Get-CsCallingLineIdentity |fl
   ```
-  Consulte mais detalhes e exemplos para [Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx).
+  Veja mais exemplos e detalhes do [Get-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793856.aspx).
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Criar uma nova política de ID de chamadas para sua organização
 
 
-- Para criar uma nova política de ID de chamador que define a ID de chamador como anônimo, execute:
+- Para criar uma nova política de identificação de chamadas que defina a identificação de chamadas como anônima, execute:
     
   ```
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
@@ -112,25 +112,25 @@ Se você quiser obter mais informações sobre como iniciar o Windows PowerShell
   > [!NOTE]  
   > Em todos os casos, o campo "Número de Serviço" não deve incluir um "+" inicial.
 
-  Consulte mais detalhes e exemplos para [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx).
+  Veja mais exemplos e detalhes do [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx).
     
-- Para aplicar a nova política que você criou a Mármore Amos, execute:
+- Para aplicar a nova política criada para o Marble Amos, execute:
     
   ```
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
   Ver mais sobre o cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx).
     
-Se você já tiver criado uma política, você pode usar o cmdlet [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) para fazer alterações à diretiva existente e, em seguida, use o cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) para aplicar as configurações para os usuários.
+Se você já tiver criado uma política, poderá usar o cmdlet [set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx) para fazer alterações na política existente e usar o cmdlet [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx) para aplicar as configurações aos usuários.
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Defina a política para que a ID de chamadas de entrada seja bloqueada
 
-- Para bloquear a ID de chamadas de entrada, execute:
+- Para bloquear a identificação de chamadas de entrada, execute:
     
   ```
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  Consulte mais detalhes e exemplos para [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx).
+  Veja mais exemplos e detalhes do [set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx).
     
 - Para aplicar a configuração de política que você criou a um usuário em sua organização, execute:
     

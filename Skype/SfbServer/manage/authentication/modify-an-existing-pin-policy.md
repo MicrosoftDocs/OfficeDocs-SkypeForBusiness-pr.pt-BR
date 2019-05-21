@@ -1,36 +1,36 @@
 ---
-title: Modificar uma política PIN existente no Skype para Business Server
+title: Modificar uma política de PIN existente no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
-description: 'Resumo: Modificar uma política PIN existente no Skype para Business Server.'
-ms.openlocfilehash: cc0ccc846e357ab85c7f2c00ae493e8b6ba8f456
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: modifique uma política de PIN existente no Skype for Business Server.'
+ms.openlocfilehash: 9aecd7fc48ce2893e1d8e603f7cdc369cde11ec3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919686"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289824"
 ---
-# <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>Modificar uma política PIN existente no Skype para Business Server
+# <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>Modificar uma política de PIN existente no Skype for Business Server
  
-**Resumo:** Modificar uma política PIN existente no Skype para Business Server.
+**Resumo:** Modifique uma política de PIN existente no Skype for Business Server.
   
-Você pode usar a guia **Política de PIN** para fornecer autenticação de (PIN) número de identificação pessoal para usuários que estão se conectando ao Skype for Business com telefones IP. Para usar a autenticação PIN, certifique-se de que **Habilitar Autenticação PIN** esteja selecionado nas configurações do Web Service.
+Você pode usar a guia **política de PIN** para fornecer autenticação de PIN (número de identificação pessoal) a usuários que estão se conectando ao Skype for Business com telefones IP. Para usar a autenticação PIN, certifique-se de que **Habilitar Autenticação PIN** esteja selecionado nas configurações do Web Service.
   
 Siga estas etapas para modificar uma política de PIN no nível de usuário ou local. 
   
 ### <a name="to-modify-an-existing-pin-policy"></a>Para modificar uma política de PIN existente
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
+1.  Em uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Skype for Business Server .
     
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server. 
     
 3. Na barra de navegação à esquerda, clique em **Segurança** e em **Política de PIN**.
     

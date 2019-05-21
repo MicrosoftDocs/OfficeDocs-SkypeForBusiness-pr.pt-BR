@@ -1,10 +1,10 @@
 ---
-title: Cartazes do Skype para Business Server 2015 | O Office 365 voz PSTN
+title: Cartazes do Skype for Business Server 2015 | PSTN de voz do Office 365
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,42 +13,42 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
-description: 'Resumo: Revise destes cartazes conforme necessário ao mesmo tempo, planejamento, implementação ou gerenciando Skype para Business Server.'
-ms.openlocfilehash: a4062266af50f55e8590315adceadf1095fd407f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: revise esses cartazes conforme necessário ao planejar, implementar ou gerenciar o Skype for Business Server.'
+ms.openlocfilehash: 571f64f27cba7b5d1fa2a5818b4fca4ad157a264
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898505"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291403"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>Technical diagrams for Skype for Business Server
 
-**Resumo:** Examine esses pôsteres conforme necessário ao mesmo tempo, planejamento, implementação ou gerenciando Skype para Business Server.
+**Resumo:** Revise esses cartazes conforme necessário ao planejar, implementar ou gerenciar o Skype for Business Server.
 
-Esses recursos estão disponíveis nos formatos do Visio (.vsdx) (Visio 2015) e PDF. Para obter informações sobre como imprimir documentos, consulte [dicas para imprimir pôsteres de grande formato](technical-diagrams.md#tips).
+Esses recursos estão disponíveis nos formatos do Visio (.vsdx) (Visio 2015) e PDF. Para obter informações sobre como imprimir documentos, consulte [dicas para imprimir pôsteres de formato grande](technical-diagrams.md#tips).
 
 Talvez você precise de software adicional para exibir esses arquivos. Consulte a tabela a seguir para obter mais informações.
 
 |Tipo de arquivo|Software|
 |:--- |:--- |
-|.vsd |Visio 2010, Visio 2013 ou o [visualizador gratuito do Visio](https://go.microsoft.com/fwlink/p/?LinkId=393676) <br/> Se você usar o visualizador do Visio, clique com o botão direito do mouse no link VSD, clique em **Salvar Destino como**, salve o arquivo no seu computador e abra-o a nesse computador. |
-|.pdf |Qualquer visualizador PDF, como o [Adobe Reader](https://go.microsoft.com/fwlink/p/?LinkId=393675) |
+|.vsd |Visio 2010, Visio 2013 ou o [Visualizador do Visio gratuito](https://go.microsoft.com/fwlink/p/?LinkId=393676) <br/> Se você usar o visualizador do Visio, clique com o botão direito do mouse no link VSD, clique em **Salvar Destino como**, salve o arquivo no seu computador e abra-o a nesse computador. |
+|.pdf |Qualquer visualizador de PDF, como o [Adobe Reader](https://go.microsoft.com/fwlink/p/?LinkId=393675) |
 |.zip |Qualquer utilitário de compactação de arquivo. O Windows 7 e versões posteriores abrem esses arquivos nativamente. |
 
 ## <a name="posters"></a>Pôsteres
 
-Esses pôsteres detalham uma área técnica específica e servem para ser usado com artigos correspondentes ou o conteúdo disponível no Centro de download.
+Esses pôsters detalham uma área técnica específica e devem ser usados com artigos ou conteúdo correspondente disponíveis no centro de download.
 
 |Título|Descrição|
 |:---|:---|
-|**Skype para cargas de trabalho de protocolo do Business Server** <br/>![Pôster de cargas de trabalho do protocolo SfB](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[Versão em PDF](https://go.microsoft.com/fwlink/p/?LinkId=550989) (melhor para dispositivos móveis ou tablets) <br/> [Versão do Visio](https://go.microsoft.com/fwlink/p/?LinkId=550991) (melhor para usuários com Visio) |Baixe este poster para entender melhor os requisitos do Skype para servidores de negócios e clientes em níveis diferentes de complexidade de serviço.<br/> <br/> Tamanho: 11 por 17 polegadas (múltiplas folhas, dimensionadas para a maioria das impressoras de escritório) <br/> <br/> Esse cartaz foi criado com o Visio 2015. Nenhuma modificação deverá ser necessária para um ambiente específico. |
-|**Metodologia de Qualidade de Chamada do Skype for Business** <br/> ![Cartaz de metodologia de qualidade de chamada](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[versão em PDF](https://go.microsoft.com/fwlink/p/?LinkId=617899) (melhor para dispositivos móveis ou tablets) <br/> [Versão do Visio](https://go.microsoft.com/fwlink/p/?LinkId=617900) (melhor para usuários com Visio) |Baixar este poster para saber mais sobre CQM, a metodologia de qualidade de chamada para Skype para Business Server 2015 que ajuda você a localizar e eliminar os problemas que afetam a chamada de qualidade e experiência de usuário para implementações que incluem recursos do enterprise voice. <br/> <br/> Use a [página de detalhes de download](https://go.microsoft.com/fwlink/p/?LinkId=617898) para obter as regras e cartões imprimíveis, se você desejar reproduzi-lo como um jogo de tabuleiro. Use este cartaz com [CQM Scorecard](https://go.microsoft.com/fwlink/p/?LinkId=617904). <br/><br/> Tamanho: 34 por 44 polegadas <br/> <br/> Esse cartaz foi criado com o Visio 2015. Nenhuma modificação deverá ser necessária para um ambiente específico. |
-|**Skype para soluções de voz de negócios** <br/> ![Planejar o cartaz de soluções de voz](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [Versão em PDF](https://go.microsoft.com/fwlink/?linkid=869123) (melhor para dispositivos móveis ou tablets) <br/> [Versão do Visio](https://go.microsoft.com/fwlink/?linkid=869124) (melhor para usuários com Visio) |A Microsoft oferece uma variedade de opções para habilitar os usuários para chamar landlines e telefones móveis por meio do comutada telefone PSTN (rede pública) – se suas contas existirem no Office 365 em Skype para Business Online ou em sua Skype local for Business Implantação de servidor 2015. Esse pôster descreve as diferentes ofertas de voz da Microsoft e fornece orientações sobre quais opções podem ser as melhores para você, dependendo do status atual da sua organização e dos seus planos para o futuro. <br/> <br/> Tamanho: 34 por 44 polegadas <br/><br/> Esse cartaz foi criado com o Visio 2015. Nenhuma modificação deverá ser necessária para um ambiente específico. |
-|**Modelos de arquitetura do Skype for Business** <br/> ![Modelos de arquitetura do Skype for Business](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [Versão em PDF](https://go.microsoft.com/fwlink/?linkid=869125) (melhor para dispositivos móveis ou tablets) <br/> [Versão do Visio](https://go.microsoft.com/fwlink/?linkid=869126) (melhor para usuários com Visio) |Esta série de cartaz destina-se o público para profissionais de TI a atenção dos modelos de arquitetura diferentes fundamentais através do qual podem ser consumido Skype para Business Online e Skype para negócios 2015 de servidor no local. Comece com qualquer configuração recomendada adequada às necessidades da sua organização e os planos futuros. Considere e use outras opções conforme necessário. Por exemplo, convém considerar a integração com o Exchange e SharePoint ou uma solução que aproveita a oferta de PBX de nuvem da Microsoft. <br/><br/> Tamanho: 11 por 17 polegadas <br/><br/> Esse cartaz foi criado com o Visio 2010. Nenhuma modificação deverá ser necessária para um ambiente específico. |
+|**Cargas de trabalho de protocolo do Skype for Business Server** <br/>![Pôster de cargas de trabalho do protocolo SfB](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[Versão em PDF](https://go.microsoft.com/fwlink/p/?LinkId=550989) (melhor para os dispositivos móveis ou tablets) <br/> [Versão do Visio](https://go.microsoft.com/fwlink/p/?LinkId=550991) (melhor para usuários com o Visio) |Baixe este cartaz para entender melhor os requisitos de servidores e clientes do Skype for Business em diferentes níveis de complexidade do serviço.<br/> <br/> Tamanho: 11 por 17 polegadas (múltiplas folhas, dimensionadas para a maioria das impressoras de escritório) <br/> <br/> Esse cartaz foi criado com o Visio 2015. Nenhuma modificação deverá ser necessária para um ambiente específico. |
+|**Metodologia de Qualidade de Chamada do Skype for Business** <br/> ![](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[Versão em PDF](https://go.microsoft.com/fwlink/p/?LinkId=617899) do pôster da metodologia de qualidade da chamada (melhor para dispositivos móveis ou tablets) <br/> [Versão do Visio](https://go.microsoft.com/fwlink/p/?LinkId=617900) (melhor para usuários com o Visio) |Baixe este pôster para saber mais sobre o CQM, a metodologia de qualidade da chamada do Skype for Business Server 2015 que ajuda você a encontrar e eliminar problemas que afetam a qualidade da chamada e a experiência do usuário para implementações que incluem recursos de Enterprise Voice. <br/> <br/> Use a [página de detalhes de download](https://go.microsoft.com/fwlink/p/?LinkId=617898) para obter os cartões de impressão e as regras se desejar reproduzi-lo como um jogo de tabuleiro. Use este cartaz com o [Scorecard CQM](https://go.microsoft.com/fwlink/p/?LinkId=617904). <br/><br/> Tamanho: 34 por 44 polegadas <br/> <br/> Esse cartaz foi criado com o Visio 2015. Nenhuma modificação deverá ser necessária para um ambiente específico. |
+|**Soluções de voz do Skype for Business** <br/> ![Cartaz de soluções de voz de plano](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [Versão em PDF](https://go.microsoft.com/fwlink/?linkid=869123) (melhor para os dispositivos móveis ou tablets) <br/> [Versão do Visio](https://go.microsoft.com/fwlink/?linkid=869124) (melhor para usuários com o Visio) |A Microsoft oferece uma variedade de opções para permitir que seus usuários façam chamadas para telefones fixos e celulares por meio da PSTN (rede telefônica pública comutada)-se as suas contas estão no Office 365 no Skype for Business online ou no seu Skype for Business local. Implantação do servidor 2015. Esse pôster descreve as diferentes ofertas de voz da Microsoft e fornece orientações sobre quais opções podem ser as melhores para você, dependendo do status atual da sua organização e dos seus planos para o futuro. <br/> <br/> Tamanho: 34 por 44 polegadas <br/><br/> Esse cartaz foi criado com o Visio 2015. Nenhuma modificação deverá ser necessária para um ambiente específico. |
+|**Modelos de arquitetura do Skype for Business** <br/> ![Modelos de arquitetura do Skype for Business](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [Versão em PDF](https://go.microsoft.com/fwlink/?linkid=869125) (melhor para os dispositivos móveis ou tablets) <br/> [Versão do Visio](https://go.microsoft.com/fwlink/?linkid=869126) (melhor para usuários com o Visio) |Esta série de pôsters destina-se ao público-alvo de profissionais de ti para aumentar a conscientização dos diferentes modelos arquitetônicos fundamentais por meio do qual o Skype for Business Online e o Skype for Business Server 2015 locais podem ser consumidos. Comece com qualquer configuração que melhor se adapte às necessidades da sua organização e planos futuros. Considere e use outras opções conforme necessário. Por exemplo, talvez você queira considerar a integração com o Exchange e o SharePoint ou uma solução que aproveita a oferta do Cloud PBX da Microsoft. <br/><br/> Tamanho: 11 por 17 polegadas <br/><br/> Esse cartaz foi criado com o Visio 2010. Nenhuma modificação deverá ser necessária para um ambiente específico. |
 
 ## <a name="visual-assets"></a>Ativos visuais
 
-Se você deseja tornar seus próprios diagramas de topologia do Visio usando o novo Skype para símbolos de negócios, [Baixe os estênceis](https://go.microsoft.com/fwlink/p/?LinkId=550985).
+Se você quiser criar seus próprios diagramas de topologia do Visio usando os novos símbolos do Skype for Business, [Baixe os estênceis](https://go.microsoft.com/fwlink/p/?LinkId=550985).
 
 ## <a name="tips-for-printing-large-format-posters"></a>Dicas sobre a impressão de cartazes em formato grande
 

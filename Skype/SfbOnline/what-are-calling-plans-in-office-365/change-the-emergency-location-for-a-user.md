@@ -1,5 +1,5 @@
 ---
-title: Atribuir ou alterar o local de emergência de um usuário
+title: Atribuir ou alterar o local de emergência para um usuário
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Saiba como alterar o local de emergência para seus usuários. Com um número ilimitado de locais, você pode alterar os locais de emergência quando seus funcionários se mudam de andares ou prédios. '
-ms.openlocfilehash: 9e583cf7882b5a269378dd69dbda37311ad08e28
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 49410b0ba98e6d193749b558e479d98de1f4ef29
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233204"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303830"
 ---
-# <a name="assign-or-change-the-emergency-location-for-a-user"></a>Atribuir ou alterar o local de emergência de um usuário
+# <a name="assign-or-change-the-emergency-location-for-a-user"></a>Atribuir ou alterar o local de emergência para um usuário
 
-Cada número de telefone ativa deve ter um endereço de emergência associado ao atribuir o número de telefone a um usuário. (Você associar o endereço quando você receber um número de telefone no Office 365 ou quando você transfere um número de telefone.) Quando você associa o número com um endereço de emergência, você também pode adicionar um local de emergência para fornecer um local mais exato dentro de um local físico. Um local de emergência pode ser o andar, a ala do edifício ou número do escritório onde o usuário se encontra. Você pode ter um número ilimitado de locais para um determinado endereço de emergência, e você pode alterar o local de emergência, se o usuário move a um office diferente ou construção — por exemplo, se o usuário move de andar 34 para piso 35.
+Cada número de telefone ativo deve ter um endereço de emergência associado ao atribuir o número de telefone a um usuário. (Você associa o endereço quando recebe um número de telefone no Office 365 ou quando transfere um número de telefone.) Ao associar o número a um endereço de emergência, você também pode adicionar um local de emergência para fornecer um local mais exato em um local físico. Um local de emergência pode ser o andar, a ala do edifício ou número do escritório onde o usuário se encontra. Você pode ter um número ilimitado de locais para um determinado endereço de emergência, e pode alterar o local de emergência se o usuário se mover para um escritório ou prédio diferente — por exemplo, se o usuário se mover do andar 34 para o andar 35.
   
 Para saber como obter um Plano de chamada no Office 365 e quanto eles custam, consulte [Licenciamento de complemento para Skype for Business e Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -38,14 +38,14 @@ Para saber como obter um Plano de chamada no Office 365 e quanto eles custam, co
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
+2. Vá para o > **portal herdado**do **centro de administração do Microsoft Teams**.
     
-3. No painel de navegação esquerdo, vá para **voz** > **usuários de voz**.
+3. No painel de navegação esquerdo, vá para**usuários de voz**de **voz** > .
     
     > [!IMPORTANT]
-    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
+    > Para ver a opção de **voz** no painel de navegação à esquerda no centro de administração do Skype for Business, primeiro você deve comprar pelo menos uma **licença do Enterprise E5**, uma licença complementar do **sistema de telefonia** ou uma licença do suplemento de conferência de **áudio** .
     
-4. Na página **usuários de voz** , localize e selecione o usuário que você deseja alterar o local de emergência para.
+4. Na página **usuários de voz** , localize e selecione o usuário para o qual você deseja alterar o local de emergência.
     
 5. No painel Ação, em **Local de emergência**, clique em **Alterar**.
     
@@ -53,15 +53,15 @@ Para saber como obter um Plano de chamada no Office 365 e quanto eles custam, co
     
 7. Em **Alterar endereço de emergência para**, digite o nome da cidade na caixa e clique em **Pesquisar**.
 
-8. Selecione na lista suspensa **pesquisa por local** , digite um nome parcial para o local (por exemplo, insira **floor**) e clique em **Pesquisar**. 
+8. Selecione **Pesquisar por local** na lista suspensa, insira um nome parcial para o local (por exemplo, inserir **andar**) e clique em **Pesquisar**. 
     
 8. Selecionar o local de emergência na lista e clicar em **Salvar**.
     
-    Se você deseja adicionar um novo local de emergência que aparecerá na lista, consulte [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-or-remove-an-emergency-location-for-your-organization.md).
+    Se você quiser adicionar um novo local de emergência que aparecerá na lista, consulte [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Atribuir uma resposta de emergência locais por meio do powershell](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsOnlineVoiceUser.md)
+[Atribuir uma resposta de emergência locais pelo PowerShell](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsOnlineVoiceUser.md)
 
 [Adicionar ou remover um endereço de emergência para sua organização](add-or-remove-an-emergency-address-for-your-organization.md)
 

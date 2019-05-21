@@ -5,36 +5,36 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/1/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestReturned
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
-description: 'A página Status da solicitação de certificado Online apresenta informações importantes que resulta de êxito na criação e emissão da solicitação de certificado online. Esta página fornece a impressão digital do certificado que identifica exclusivamente o certificado. Por padrão, a caixa de seleção atribuir esse certificado para Skype para usos de certificado de servidor de negócios está selecionada. Se você clicar em Concluir, o certificado será automaticamente atribuído ao Lync Server 2013 para as finalidades que você definiu durante as etapas de criação da solicitação de certificado. Por padrão, as finalidades que o certificado será atribuído são:'
-ms.openlocfilehash: bedc5137085a36a296518048e5f0917e60dbe980
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'A página status da solicitação de certificado online apresenta informações importantes resultantes da criação bem-sucedida e da emissão da solicitação de certificado online. Esta página fornece a impressão digital do certificado que identifica exclusivamente o certificado. Por padrão, a caixa de seleção atribuir este certificado a usos de certificado do Skype for Business Server está selecionada. Se você clicar em concluir, o certificado será atribuído automaticamente ao Lync Server 2013 para fins que você definiu durante as etapas de criação da solicitação de certificado. Por padrão, os fins para os quais o certificado será atribuído são:'
+ms.openlocfilehash: 61e6ea918fea931251470603e2db0b699234267d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911083"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301957"
 ---
 # <a name="certificate-request-returned"></a>Solicitação de Certificado (Retornado)
  
-A página **Status da solicitação de certificado Online** apresenta informações importantes que resulta de êxito na criação e emissão da solicitação de certificado online. Esta página fornece a impressão digital do certificado que identifica exclusivamente o certificado. Por padrão, a caixa de seleção **atribuir este certificado Skype para usos de certificado de servidor de negócios** está selecionada. Se você clicar em **Concluir**, o certificado será automaticamente atribuído ao Lync Server 2013 para as finalidades que você definiu durante as etapas de criação da solicitação de certificado. Por padrão, as finalidades que o certificado será atribuído são:
+A página **status da solicitação de certificado online** apresenta informações importantes resultantes da criação bem-sucedida e da emissão da solicitação de certificado online. Esta página fornece a impressão digital do certificado que identifica exclusivamente o certificado. Por padrão, a caixa de seleção **atribuir este certificado a usos de certificado do Skype for Business Server** está selecionada. Se você clicar em **concluir**, o certificado será atribuído automaticamente ao Lync Server 2013 para fins que você definiu durante as etapas de criação da solicitação de certificado. Por padrão, os fins para os quais o certificado será atribuído são:
   
-- Padrão de servidor para Mutual Transport Layer Security (MTLS) - conexões com clientes e outros servidores
+- Padrão do servidor para MTLS (Mutual Transport Layer Security)-conexões para clientes e outros servidores
     
-- Serviços Web internos - site de serviços de conexões de cliente e servidor na Web interna para Transport Layer Security/Secure Sockets Layer (TLS/SSL)
+- Serviços Web internos-conexões de cliente e servidor no site de serviços Web internos para segurança da camada de transporte/SSL (Secure Sockets Layer)
     
-- Serviços Web externos - site de serviços de conexões de cliente e servidor na Web externa para TLS/SSL
+- Conexões de cliente/cliente externo de serviços Web no site de serviços Web externos para TLS/SSL
     
-Clique em **Exibir detalhes de certificados** para exibir o certificado para confirmar que as propriedades do certificado são o que você pretendia e que o certificado está pronto para ser aplicada e colocar em uso no servidor.
+Clique em **Exibir detalhes do certificado** para exibir o certificado para confirmar que as propriedades do certificado são o que você pretendia e se o certificado está pronto para ser aplicado e colocado em uso no servidor.
   
-Clique em **Concluir** para concluir o processo de solicitação de certificado online. Se você marcou a caixa de seleção **atribuir este certificado Skype para usos de certificado de servidor de negócios**, o certificado será atribuído automaticamente. Se você optar por desmarcar essa caixa, você deve atribuir o certificado em uma etapa separada. 
+Clique em **concluir** para concluir o processo de solicitação de certificado online. Se você tiver marcado a caixa de seleção **atribuir este certificado aos usos de certificado do Skype for Business Server**, o certificado será atribuído automaticamente. Se você escolheu desmarcar essa caixa de seleção, deve atribuir o certificado em uma etapa separada. 
   
 > [!IMPORTANT]
-> Se o certificado de raiz de autoridade de certificação emissora não estiver no repositório de autoridade de certificação raiz confiáveis do computador, ou se certificados de autoridade de certificação intermediários não estão no repositório de adequado, você verá o status de resumo, como ilustrado na imagem a seguir. Você não tem a opção para atribuir o certificado. Para concluir o processo de atribuição de certificado, você deve importar o certificado de raiz da autoridade de certificação emissora e qualquer certificados de autoridade de certificação intermediários e, em seguida, atribuir o certificado clicando em **atribuir** na página principal do Assistente de certificado.
+> Se o certificado raiz da CA (autoridade de certificação emitente) não estiver no repositório de autoridade de certificação raiz confiável do computador ou se os certificados de autoridade de certificação intermediários não estiverem na loja apropriada, você verá o status Resumo, conforme ilustrado na imagem a seguir. Você não tem a opção de atribuir o certificado. Para concluir o processo de atribuição de certificado, você deve importar o certificado raiz da CA de emissão e qualquer certificado de CA intermediário e, em seguida, atribuir o certificado clicando em **atribuir** na página do assistente de certificado principal.
   
 

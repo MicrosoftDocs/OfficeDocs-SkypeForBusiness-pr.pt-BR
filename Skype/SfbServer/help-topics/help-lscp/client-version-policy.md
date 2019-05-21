@@ -5,30 +5,30 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientCVPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
-description: É possível especificar a versão de clientes compatíveis com seu ambiente. Quando dois clientes executando versões diferentes interagem, os recursos disponíveis para cada cliente podem ser limitados pelos recursos do outro cliente. Para fazer um uso maior dos recursos incluídos no Skype para Business Server 2015 e melhorar a experiência geral do usuário, você pode usar o filtro de versão de cliente para restringir as versões do cliente que são usadas em seu ambiente. Ao usar o filtro de versão do cliente, também é possível ajudar a reduzir os custos associados ao suporte de várias versões de cliente.
-ms.openlocfilehash: 6398c833609f799935148a4dab39810d46f178eb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: É possível especificar a versão de clientes compatíveis com seu ambiente. Quando dois clientes executando versões diferentes interagem, os recursos disponíveis para cada cliente podem ser limitados pelos recursos do outro cliente. Para aproveitar ao máximo os recursos incluídos no Skype for Business Server 2015 e melhorar a experiência geral do usuário, você pode usar o filtro de versão do cliente para restringir as versões do cliente usadas em seu ambiente. Ao usar o filtro de versão do cliente, também é possível ajudar a reduzir os custos associados ao suporte de várias versões de cliente.
+ms.openlocfilehash: 50687531fe9622240b8caeb75a61c3ac705fe84a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887241"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300004"
 ---
 # <a name="client-version-policy"></a>Política de Versão do Cliente
 
-É possível especificar a versão de clientes compatíveis com seu ambiente. Quando dois clientes executando versões diferentes interagem, os recursos disponíveis para cada cliente podem ser limitados pelos recursos do outro cliente. Para fazer um uso maior dos recursos incluídos no Skype para Business Server 2015 e melhorar a experiência geral do usuário, você pode usar o filtro de versão de cliente para restringir as versões do cliente que são usadas em seu ambiente. Ao usar o filtro de versão do cliente, também é possível ajudar a reduzir os custos associados ao suporte de várias versões de cliente.
+É possível especificar a versão de clientes compatíveis com seu ambiente. Quando dois clientes executando versões diferentes interagem, os recursos disponíveis para cada cliente podem ser limitados pelos recursos do outro cliente. Para aproveitar ao máximo os recursos incluídos no Skype for Business Server 2015 e melhorar a experiência geral do usuário, você pode usar o filtro de versão do cliente para restringir as versões do cliente usadas em seu ambiente. Ao usar o filtro de versão do cliente, também é possível ajudar a reduzir os custos associados ao suporte de várias versões de cliente.
 
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
 É possível executar as seguintes tarefas na página **Política da Versão do Cliente**:
 
-- Edite a política de versão de cliente padrão ( **Global**).
+- Edite a política de versão do cliente padrão ( **global**).
 
 - Criar políticas de versão do cliente para um site específico ou pool.
 
@@ -41,7 +41,7 @@ ms.locfileid: "33887241"
 
 As listas a seguir descrevem os menus, comandos, campos e propriedades na página.
 
-- **Novo** Você pode criar uma ou mais de cada uma das seguintes políticas de versão do cliente:
+- **Novo** Você pode criar uma ou mais das seguintes políticas de versão do cliente:
 
   - Política de site
 
@@ -49,15 +49,15 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
 
   - Política de usuário
 
-- **Editar** Você pode alterar as opções de qualquer uma das diretivas de versão do cliente. Com essa opção, é possível fazer o seguinte:
+- **Editar** Você pode alterar as opções de qualquer uma das políticas de versão do cliente. Com essa opção, é possível fazer o seguinte:
 
-  - **Mostrar detalhes** Essa opção abre uma caixa de diálogo na qual você pode alterar as opções para uma política de versão do cliente.
+  - **Mostrar detalhes** Essa opção abre uma caixa de diálogo na qual você pode alterar as opções de uma política de versão do cliente.
 
   - **Selecionar tudo** Essa opção seleciona todas as políticas de versão do cliente na lista.
 
-  - **Excluir** Essa opção exclui todas as diretivas de versão de cliente selecionada.
+  - **Excluir** Esta opção exclui todas as políticas de versão de cliente selecionadas.
 
-- **Atualizar** É possível atualizar a lista de política de versão do cliente para verificar o status das opções de todas as políticas de versão do cliente.
+- **Atualização** Você pode atualizar a lista de política de versão do cliente para verificar o status das opções de todas as políticas de versão do cliente.
 
 Para obter detalhes sobre a interoperabilidade entre clientes e versões de clientes, consulte [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) na documentação Planejamento. Para obter detalhes sobre como trabalhar com políticas de versão do cliente, consulte [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) na documentação Operações.
 

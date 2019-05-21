@@ -1,5 +1,5 @@
 ---
-title: Por que o número ativação falhou?
+title: Por que a ativação do número falhou?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,15 +21,15 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: 8cb2e7b9f901ce4ab1db13e2869d002c62529537
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: db9e3d3266afe75328840450b89fcc16ebaf1779
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229561"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290620"
 ---
-# <a name="why-has-number-activation-failed"></a>Por que o número ativação falhou?
-A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Se por algum motivo um número de telefone não é ativado por causa de validação de endereço, você precisará criar uma solicitação de serviço. A maneira de fazer isso depende do tamanho da sua organização.
+# <a name="why-has-number-activation-failed"></a>Por que a ativação do número falhou?
+A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Se, por algum motivo, um número de telefone não estiver ativado devido à validação do endereço, será necessário criar uma solicitação de serviço. A maneira de fazer isso depende do tamanho da sua organização.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Para organizações com 150 usuários ou menos, siga estas etapas
 1. No **Centro de administração do Office 365**, escolha **Precisa de ajuda**?

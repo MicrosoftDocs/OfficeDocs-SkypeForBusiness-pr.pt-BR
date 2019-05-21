@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
-description: 'Este nó mostra o nome de domínio totalmente qualificado (FQDN) deste Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse servidor SQL. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 9fb3ee8c1ee4bff5e192e50734e509798cfbf163
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Esse nó mostra o nome de domínio totalmente qualificado (FQDN) deste Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse SQL Server. Você pode executar as seguintes ações:'
+ms.openlocfilehash: f841c1211392590e3e833d4942fc73af18819fed
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930795"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291246"
 ---
 # <a name="sql-instance-scope-node"></a>Nó de Escopo de Instância SQL
  
-Este nó mostra o nome de domínio totalmente qualificado (FQDN) deste Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse servidor SQL. Você pode executar as seguintes ações:
+Esse nó mostra o nome de domínio totalmente qualificado (FQDN) deste Microsoft SQL Server e a instância do SQL Server nesse servidor e os pools ou servidores que usam esse SQL Server. Você pode executar as seguintes ações:
   
-- **Editar Propriedades**. Abre a página **Editar propriedades** para este servidor, onde você pode alterar o FQDN do servidor (se a topologia já não é publicada) e a instância do SQL Server a ser usado.
+- **Editar Propriedades**. Abre a página **Editar propriedades** deste servidor, onde você pode alterar o FQDN do servidor (se a topologia ainda não tiver sido publicada) e a instância do SQL Server para ser usada.
     
 - **Excluir**. Exclui o servidor da topologia.
     

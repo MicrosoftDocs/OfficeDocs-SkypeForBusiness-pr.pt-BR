@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,13 +19,13 @@ f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Saiba mais sobre como comprar o Office 365 Business Premium planos, recursos e licenças de complemento. '
-ms.openlocfilehash: 272039c0a7cf0f568efd523f94c42348cba743fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Saiba mais sobre licenças de complemento, recursos e como comprar para os planos do Office 365 Business Premium. '
+ms.openlocfilehash: b4f501d3a047e0408a484065e38ab23f98b850ab
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238930"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290069"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
@@ -52,11 +52,11 @@ Se você tem o plano [Office 365 Business Premium](https://products.office.com/e
 
 2. Compre o complemento **Sistema de Telefonia**.
     
-3. Comprar uma [Chamada planejar para o Office 365](/MicrosoftTeams/calling-plans-for-office-365): você pode comprar isso somente depois que você compra o complemento de **Sistema telefônico** .
+3. Comprar um [plano de chamadas do Office 365](/MicrosoftTeams/calling-plans-for-office-365): você só poderá comprá-lo depois de comprar o complemento do **sistema telefônico** .
     
     Esta segunda opção é ideal para empresas com várias pessoas que fazem e recebem chamadas telefônicas externas.
 
-## <a name="how-to-see-prices-and-buy"></a>Como ver os preços e comprar
+## <a name="how-to-see-prices-and-buy"></a>Como ver preços e comprar
 <a name="bkmk_buypremium"> </a>
 
  **Para obter Audioconferência e Créditos de comunicação:**
@@ -65,7 +65,7 @@ Se você tem o plano [Office 365 Business Premium](https://products.office.com/e
 
 2. Vá para **Cobrança** > **Assinaturas** > **Complementos** > **Comprar complementos**.
 
-   ![Para adquirir uma licença complementar, escolha comprar complementos.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![Para comprar uma licença complementar, escolha comprar Complementos.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
 3. Você verá os preços e a opção para comprar Audioconferência e configurar Créditos de comunicação.
 
@@ -77,4 +77,4 @@ Se você tem o plano [Office 365 Business Premium](https://products.office.com/e
 
 3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 
-4. Depois que você compra uma licença de **Sistema telefônico** , você verá o preço e a opção de comprar um plano de chamada.
+4. Depois de comprar uma licença do **sistema de telefonia** , você verá o preço e a opção para comprar um plano de chamadas.

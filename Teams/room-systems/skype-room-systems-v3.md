@@ -1,95 +1,95 @@
 ---
-title: Visão geral do gerenciamento de salas de equipes da Microsoft
+title: Visão geral de gerenciamento para salas do Microsoft Teams
 ms.author: jambirk
 author: jambirk
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/10/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: M365-voice
-description: Visão geral do gerenciamento de salas de equipes da Microsoft.
-ms.openlocfilehash: 5ee6d4a3f797ee8dbc5fa54a139b847e549611a1
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: Visão geral de gerenciamento para salas do Microsoft Teams.
+ms.openlocfilehash: fd16015331273fbd5f524f571c07a1c055a0d04a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362595"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288567"
 ---
 # <a name="management-overview"></a>Visão geral do gerenciamento 
 
-É essencial que você desenvolver e executar manutenção contínua e a experiência de operações para garantir que seus sistemas de salas de equipes da Microsoft estão disponíveis para seus usuários e oferecem um ótimo usuário. 
+É essencial que você desenvolva e execute manutenção e operações contínuas para garantir que seus sistemas de salas do Microsoft Teams estejam disponíveis para seus usuários e proporcionar uma excelente experiência do usuário. 
 
 ## <a name="monitoring"></a>Monitoramento 
 
-Monitorando sistemas de salas de equipes da Microsoft consiste em duas atividades principais:
+Monitorar as salas do Microsoft Teams Systems consiste em duas atividades importantes:
 
--  Dispositivo, aplicativo e monitoramento de dispositivos periféricos
+-  Monitoramento de dispositivos, aplicativos e periféricos
 
--  Qualidade e confiabilidade monitoring (CQD)
+-  Monitoramento de qualidade e confiabilidade (CQD)
 
-### <a name="microsoft-teams-rooms-device-application-and-peripheral-device-monitoring"></a>Dispositivo de salas de equipes da Microsoft, aplicativo e monitoramento de dispositivos periféricos
+### <a name="microsoft-teams-rooms-device-application-and-peripheral-device-monitoring"></a>Monitoramento de dispositivos, aplicativos e dispositivos periféricos do Microsoft Teams
 
-Para garantir que os usuários sejam capazes de usar as unidades de salas de equipes da Microsoft, as unidades devem estar na, conectado à rede com o aplicativo Microsoft equipes salas configurado corretamente e estar conectadas ao funcionamento dispositivos periféricos. 
+Para garantir que os usuários possam usar as unidades de sala do Microsoft Teams, as unidades devem estar conectadas à rede com o aplicativo salas do Microsoft Teams configurado corretamente e estar conectado a dispositivos periféricos em funcionamento. 
 
 
-Informações sobre o estado do aplicativo Microsoft equipes salas e dispositivos periféricos conectados é gravadas pelo aplicativo salas de equipes da Microsoft para o log de eventos do Windows e documentadas no [entender as entradas de log](azure-monitor-manage.md#understand-the-log-entries). 
+Informações sobre o estado do aplicativo salas do Microsoft Teams e dispositivos periféricos conectados são escritos pelo aplicativo salas do Microsoft Teams para o log de eventos do Windows e documentados em [entender as entradas do log](azure-monitor-manage.md#understand-the-log-entries). 
 
 |**Configuração**|**Permite**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (dword) 1  <br/> |Permite que o Microsoft salas de equipes inicialize  <br/> |
-|Gerenciamento - de energia\> nas AC, desative tela após 10 minutos  <br/> Gerenciamento - de energia\> em AC, nunca colocar o sistema no modo de suspensão  <br/> |Habilita a salas de equipes da Microsoft desativar exibe anexado e automaticamente de ativação  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Ou equivalentes meios de desativação de expiração de senha da conta local. Falha ao fazer isso, eventualmente, fará com que a conta do Skype falha de logon reclamando uma senha expirada. Observe que isso afeta todas as contas locais na máquina, e assim falha configurar isso também fará com que a conta administrativa na caixa eventualmente expire também.  <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (DWORD) 1  <br/> |Permite que salas do Microsoft Teams sejam inicializadas  <br/> |
+|Gerenciamento de energia\> -em AC, desligar a tela após 10 minutos  <br/> Gerenciamento de energia\> -em AC, nunca coloque o sistema em suspensão  <br/> |Permite que as salas do Microsoft Teams desativem exibições anexadas e ativadas automaticamente  <br/> |
+|net accounts /maxpwage:unlimited  <br/> Ou uma maneira equivalente de desabilitar a expiração de senha na conta local. Deixar de fazer isso fará com que a conta do Skype falhe ao fazer logon com uma senha expirada. Observe que isso afeta todas as contas locais do computador e, portanto, não definir isso também fará com que a conta administrativa na caixa acabe de expirar também.  <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
    
-Transferência de arquivos usando diretivas de grupo será discutido em [Configure um Item do arquivo](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
+A transferência de arquivos usando políticas de grupo é discutida em [configurar um item de arquivo](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
   
 ## <a name="remote-management-using-powershell"></a>Gerenciamento remoto usando o PowerShell
 <a name="RemotePS"> </a>
 
-Recomendamos que você use o pacote do Microsoft Operations Manager para monitorar os sistemas de salas de equipes da Microsoft. Para obter orientação sobre como configurar o monitoramento e alerta básica, consulte [gerenciamento de implantar o Microsoft equipes salas com Monitor do Azure](azure-monitor-deploy.md). 
+Recomendamos que você use o pacote do Microsoft Operations Manager para monitorar seus sistemas de salas do Microsoft Teams. Para obter orientação sobre como configurar o monitoramento e o alerta básico, consulte [implantar gerenciamento de salas do Microsoft Teams com o Azure monitor](azure-monitor-deploy.md). 
 
-Usando este guia, você pode criar um painel simples de usar para identificar problemas com suas unidades de salas de equipes da Microsoft em sua implantação. 
+Usando esta orientação, você pode criar um painel simples de usar para identificar os problemas com as unidades de sala do Microsoft Teams na sua implantação. 
 
 |    |     |
 |-----------|------------|
-|![](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Confirme que você usará o pacote de gerenciamento de operações para monitorar sua implantação de salas de equipes da Microsoft.</li><li>Decida a lista de distribuição de destino que você usará para alertas de email.</li></ul>|
-|![](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Defina sua qualidade e a confiabilidade abordagem de monitoramento.</li></ul>|
+|![](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Confirme que você usará o Operations Management Suite para monitorar a implantação de salas do Microsoft Teams.</li><li>Escolha a lista de distribuição de destino que você usará para alertas de email.</li></ul>|
+|![](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Defina sua abordagem de qualidade e monitoramento de confiabilidade.</li></ul>|
 
-## <a name="quality-and-reliability-monitoring-cqd"></a>Qualidade e confiabilidade monitoring (CQD)
+## <a name="quality-and-reliability-monitoring-cqd"></a>Monitoramento de qualidade e confiabilidade (CQD)
 
-É recomendável que você implemente qualidade operacional em andamento e a confiabilidade monitoring procedimentos como parte da sua implantação para monitorar as tendências de chamada e qualidade de reunião e confiabilidade, identificando quaisquer áreas de interesse e trabalhando com uma resolução. 
+Recomendamos que você implemente a qualidade operacional contínua e os procedimentos de monitoramento de confiabilidade como parte da sua implantação para monitorar a tendência da chamada e a qualidade e a confiabilidade da reunião, identificando as áreas de interesse e trabalhando em direção a uma resolução. 
 
-Quando você carregar suas informações de construção para CQD, você pode investigar tendências de qualidade e confiabilidade de chamada em um nível por construção, que torna mais fácil comparar os prédios e focalizar problemas específicos. Para obter mais informações, baixe o [Monitor-CQD para Skype para entrega Business Online e um guia de operações](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=6_2_0_15). 
+Ao carregar suas informações de construção para CQD, você pode investigar as tendências de qualidade de chamada e confiabilidade em um nível de construção, o que torna mais fácil comparar os prédios e concentrar sua atenção em problemas específicos. Para obter mais informações, baixe o [Guia do guia de entrega e operações do monitor-CQD para o Skype for Business online](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=6_2_0_15). 
 
-Recomendamos que você revise e siga o [Guia Quality of Experience revisar](https://aka.ms/qerguide) para identificar as tendências de qualidade e a confiabilidade e cria um plano de ação para resolvê-los. 
+Recomendamos que você examine e siga o [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide) para identificar as tendências de qualidade e confiabilidade e crie um plano de ação para solucioná-los. 
 
-## <a name="updating-the-microsoft-teams-rooms-os-and-microsoft-teams-rooms-application"></a>Atualizar o aplicativo Microsoft equipes salas SO e salas de equipes da Microsoft
+## <a name="updating-the-microsoft-teams-rooms-os-and-microsoft-teams-rooms-application"></a>Atualizando o aplicativo salas do Microsoft Teams e salas do Microsoft Teams
 
-Recomendamos que você atualize o aplicativo Microsoft equipes salas SO e salas de equipes da Microsoft para se beneficiar de atualizações de produto e os aperfeiçoamentos. Para obter orientações detalhadas, consulte [Manage Rooms de equipes da Microsoft](room-systems-v2-operations.md#software-updates). 
+Recomendamos que você atualize o sistema operacional de salas do Microsoft Teams e o aplicativo de salas do Microsoft Teams para se beneficiar de atualizações e melhorias de produtos. Para obter orientação detalhada, consulte [gerenciar salas do Microsoft Teams](room-systems-v2-operations.md#software-updates). 
 
 ## <a name="windows-updates"></a>Atualizações do Windows
 
-Salas de equipes da Microsoft é executado no Windows 10 Enterprise IoT ou Windows 10 Enterprise (VL) e recebe as mesmas compilações de atualizações do Windows e o sistema operacional como uma área de trabalho padrão. Consulte [Gerenciar atualizações do Windows](updates.md) para obter detalhes.
+As salas do Microsoft Teams são executadas no Windows 10 Enterprise IoT ou no Windows 10 Enterprise (VL) e recebe as mesmas versões do Windows e do sistema operacional do Windows como uma área de trabalho padrão. Consulte [gerenciar atualizações do Windows](updates.md) para obter detalhes.
 
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
-Recomendamos que você configurar o pacote de gerenciamento de operações de alerta conforme descrito na seção acima para que sua equipe de operações e a assistência técnica serão alertados sobre qualquer problema de salas de equipes da Microsoft. As opções que disponíveis para gerenciamento remoto do PowerShell são descritas no [gerenciamento remoto usando o PowerShell](room-systems-v2-operations.md#remote-management-using-powershell). Se um dispositivo periférico estiver desconectado, você talvez seja necessário contam com suporte de TI para investigar e reconectar os dispositivos ou de locais "ponteiros inteligentes". 
+Recomendamos que você configure o alerta do Operations Management Suite conforme descrito na seção acima para que sua equipe de operações e helpdesks sejam alertados sobre problemas de sala do Microsoft Teams. As opções que você tem para gerenciamento remoto do PowerShell são descritas em [gerenciamento remoto usando o PowerShell](room-systems-v2-operations.md#remote-management-using-powershell). Caso um dispositivo periférico seja desconectado, talvez seja necessário confiar em "práticas inteligentes" locais ou no suporte de ti para investigar e reconectar os dispositivos. 
 
-Para obter mais informações sobre o modo de administração e solução de problemas, consulte [Manage Rooms de equipes da Microsoft](room-systems-v2-operations.md#admin-mode-and-device-management). 
+Para obter mais informações sobre solução de problemas e modo de administração, consulte [gerenciar salas do Microsoft Teams](room-systems-v2-operations.md#admin-mode-and-device-management). 
 
 
 ## <a name="see-also"></a>Confira também
 
 [Suporte às Salas do Microsoft Teams](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Planejar para salas de equipes da Microsoft](skype-room-systems-v2-0.md)
+[Plano para salas do Microsoft Teams](skype-room-systems-v2-0.md)
 
-[Implantar salas de equipes da Microsoft](room-systems-v2.md)
+[Implantar salas do Microsoft Teams](room-systems-v2.md)
 
-[Configurar um console de salas de equipes da Microsoft](console.md)
+[Configurar um console de salas do Microsoft Teams](console.md)
 
-[Gerenciar configurações do console um Microsoft equipes salas remotamente com um arquivo de configuração XML](xml-config-file.md)
+[Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML](xml-config-file.md)

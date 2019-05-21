@@ -1,7 +1,7 @@
 ---
 title: Idiomas das mensagens e saudações da caixa postal
-author: CarolynRowe
-ms.author: crowe
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba quais idiomas podem ser configurados no Skype for Business para as mensagens padrão do sistema. '
-ms.openlocfilehash: eb16bc3e8826cb38727258db64ac061bf969479f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ecd8d9f5b87b67b8ac57f0d0917ea315f264374d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245234"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299908"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Idiomas das mensagens e saudações da caixa postal
 
@@ -37,7 +37,7 @@ Para alter o idioma usado pelo Skype for Business nas saudações da caixa posta
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Idioma** <br/> |**País/região** <br/> |**Código do idioma** <br/> |**Disponível para visualização do usuário no email?** <br/> |**Disponível quando o usuário liga?** <br/> |**Transcrição disponível?** <br/> |
-|Árabe <br/> |Egito  <br/> |ar-EG  <br/> |Sim  <br/> |Sim  <br/> |Sim   <br/> |
+|Árabe <br/> |Egito  <br/> |ar-exemplo  <br/> |Sim  <br/> |Sim  <br/> |Sim   <br/> |
 |Catalão  <br/> |Catalão  <br/> |ca-ES  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
 |Chinês (Simplificado)  <br/> |China  <br/> |zh-hans  <br/> |Sim   <br/> |Sim  <br/> |Sim   <br/> |
 |Chinês (Hong Kong)  <br/> |China  <br/> |zh-hk  <br/> |Sim, mas é usado o Chinês (Tradicional) (zh-hant).  <br/> | Sim <br/> |Sim, mas é usado o Chinês (Tradicional) (zh-hant).  <br/> |

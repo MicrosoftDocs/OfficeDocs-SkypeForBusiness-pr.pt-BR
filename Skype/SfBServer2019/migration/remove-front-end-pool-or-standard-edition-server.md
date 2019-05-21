@@ -4,45 +4,45 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Este tópico o orienta o processo de remoção de um pool de Front-End ou um Standard Edition servidor Front-End. Quando você remover um pool de Front-End, você pode remover cada servidor Front-End que pertence ao pool como parte do processo de remoção do pool. Quando você remove um Standard Edition servidor Front-End, você deve remover a definição de repositório SQL do construtor de topologia.
-ms.openlocfilehash: 394edcd6f5c89478ed98abebe0be29720d009107
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Este tópico fornece orientações sobre o processo de remoção de um pool de front-end ou um servidor front-end Standard Edition. Quando você remove um pool de front-end, Remove cada servidor front-end que pertence ao pool como parte do processo de remoção de pool. Quando você remove um servidor front-end padrão da edição, deve remover a definição do SQL Store do construtor de topologias.
+ms.openlocfilehash: fd43682fca67b961ac93c01813ca6ea9e702b644
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231543"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301129"
 ---
 # <a name="remove-front-end-pool-or-standard-edition-server"></a>Remover um pool Front-End ou um servidor Standard Edition
 
-Este artigo o orienta o processo de remoção de um pool de Front-End ou um Standard Edition servidor Front-End. Quando você remover um pool de Front-End, você pode remover cada servidor Front-End que pertence ao pool como parte do processo de remoção do pool. Quando você remove um Standard Edition servidor Front-End, você deve remover a definição de repositório SQL do construtor de topologia.
+Este artigo orienta você pelo processo de remoção de um pool de front-end ou um servidor front-end Standard Edition. Quando você remove um pool de front-end, Remove cada servidor front-end que pertence ao pool como parte do processo de remoção de pool. Quando você remove um servidor front-end padrão da edição, deve remover a definição do SQL Store do construtor de topologias.
   
-## <a name="to-remove-a-front-end-server-pool"></a>Para remover um pool de servidor Front-End
+## <a name="to-remove-a-front-end-server-pool"></a>Para remover um pool de servidores front-end
 
-1. Abra o construtor de topologia.
+1. Abrir o construtor de topologias.
     
 2. Navegue até o nó herdado.
     
-3. Expanda **pools de Front End do Enterprise Edition**, expanda o pool de Front-End, com o botão direito do pool de Front-End que você deseja remover e clique em **Excluir**.
+3. Expanda Pools de **front-end do Enterprise Edition**, expanda o pool de front-ends, clique com o botão direito do mouse no pool de front-ends que você deseja remover e clique em **excluir**.
     
-4. Publique a topologia, verifique o status de replicação e execute o Assistente de implantação herdadas conforme necessário. 
+4. Publique a topologia, verifique o status da replicação e execute o assistente de implantação herdado conforme necessário. 
     
-## <a name="to-remove-a-standard-edition-front-end-server"></a>Para remover um servidor de Front End e Standard Edition
+## <a name="to-remove-a-standard-edition-front-end-server"></a>Para remover um servidor front-end padrão da edição
 
-1. Abra o construtor de topologia.
+1. Abrir o construtor de topologias.
     
-2. Navegue até o nó de instalações herdadas.
+2. Navegue até o nó instalações herdadas.
     
-3. Expanda **servidores Standard Edition Front-End**, com o botão direito do servidor Front-End que você deseja remover e clique em **Excluir**.
+3. Expanda **servidores front-end padrão da edição**, clique com o botão direito do mouse no servidor front-end que você deseja remover e, em seguida, clique em **excluir**.
     
-4. Expanda **SQL armazena**, clique com o botão o banco de dados do SQL Server que está associado a Standard Edition servidor Front-End e, em seguida, clique em **Excluir**.
+4. Expanda **repositórios SQL**, clique com o botão direito do mouse no banco de dados do SQL Server associado ao servidor front-end Standard Edition e clique em **excluir**.
     
     > [!IMPORTANT]
-    > Você deve remover a definição dos bancos de dados do SQL Server colocados do Standard Edition servidor Front-End. 
+    > Você deve remover a definição dos bancos de dados do SQL Server posicionado do servidor front-end da Standard Edition. 
   
-5. Publique a topologia, verifique o status de replicação e, em seguida, execute o Assistente para implantação, conforme necessário. 
+5. Publique a topologia, verifique o status da replicação e execute o assistente de implantação conforme necessário. 
     
 

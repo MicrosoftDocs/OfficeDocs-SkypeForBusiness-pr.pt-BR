@@ -3,27 +3,27 @@ title: Scripts de configuração da sala do Sistema de Salas do Skype
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: Leia este tópico para encontrar scripts de amostra para o provisionamento das contas do Sistema de Salas do Skype.
-ms.openlocfilehash: 10e68de94f7327c2a2c111af98a725ad4d8a6754
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e4b146346d7afe69746cf7046c0ee156ee9ff0da
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895177"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291698"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Scripts de configuração da sala do Sistema de Salas do Skype
  
 Leia este tópico para encontrar scripts de amostra para o provisionamento das contas do Sistema de Salas do Skype.
   
-Esta seção demonstra os scripts de amostra que podem ser usados para provisionar contas do sistema do Skype sala. Esses scripts são apenas para fins ilustrativos e devem ser utilizados apenas após consulta com o seu especialista em TI ou administrador de domínio.
+Esta seção ilustra scripts de exemplo que podem ser usados para configurar contas do sistema de sala do Skype. Esses scripts são apenas para fins ilustrativos e devem ser utilizados apenas após consulta com o seu especialista em TI ou administrador de domínio.
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Script de configuração de exemplo: Skype para Exchange Server (no local) e de negócios
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Exemplo de script de configuração: Skype for Business e Exchange Server (local)
 
 ```
 # On Exchange 
@@ -37,7 +37,7 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>Script de configuração de exemplo: Skype para comerciais e de servidor do Exchange Online
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>Exemplo de script de configuração: Skype for Business e Exchange Server online
 
 Certifique-se de que você já analisou os seguintes pré-requisitos antes de executar o script:
   

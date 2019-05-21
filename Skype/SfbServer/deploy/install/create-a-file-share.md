@@ -1,11 +1,11 @@
 ---
-title: Crie um compartilhamento de arquivo no Skype para Business Server
+title: Criar um compartilhamento de arquivos no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,28 +14,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
-description: 'Resumo: Saiba como criar um compartilhamento de arquivo do Windows Server como parte da instalação do Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 36b965e829e3bd02e884f55127e202d1c27eff50
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumo: saiba como criar um compartilhamento de arquivos do Windows Server como parte da instalação do Skype for Business Server. Baixe um teste grátis do Skype for Business Server no centro de avaliação da Microsoft em https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
+ms.openlocfilehash: d6a34ad4807948a5580fc572628a4fd6333dd9f8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891954"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292162"
 ---
-# <a name="create-a-file-share-in-skype-for-business-server"></a>Crie um compartilhamento de arquivo no Skype para Business Server
+# <a name="create-a-file-share-in-skype-for-business-server"></a>Criar um compartilhamento de arquivos no Skype for Business Server
  
-**Resumo:** Saiba como criar um compartilhamento de arquivo do Windows Server como parte da instalação do Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Resumo:** Saiba como criar um compartilhamento de arquivos do Windows Server como parte da instalação do Skype for Business Server. Baixe um teste grátis do Skype for Business Server no centro de avaliação da Microsoft em[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server):.
   
-Skype para Business Server requer um compartilhamento de arquivos, para que os computadores em toda a topologia podem trocar arquivos. Criação de um compartilhamento de arquivo é a etapa 2 de 8 no processo de instalação de Skype para Business Server. Você pode executar os passos 1 a 5 em qualquer ordem. No entanto, as etapas 6, 7 e 8 devem ser executadas nesta ordem, após concluir as etapas 1 a 5, conforme descrito no diagrama. Para detalhes sobre compartilhamento de arquivos de planejamento, consulte [requisitos de ambiente para Skype para Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [requisitos de servidor para Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
+O Skype for Business Server exige um compartilhamento de arquivos para que os computadores em toda a topologia possam trocar arquivos. A criação de um compartilhamento de arquivos é a etapa 2 de 8 no processo de instalação do Skype for Business Server. Você pode executar os passos 1 a 5 em qualquer ordem. No entanto, as etapas 6, 7 e 8 devem ser executadas nesta ordem, após concluir as etapas 1 a 5, conforme descrito no diagrama. Para obter detalhes sobre o compartilhamento de arquivos, consulte [requisitos ambientais para](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) requisitos do servidor ou do Skype for Business Server [para o Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 ![Diagrama de visão geral](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
   
 ## <a name="create-a-basic-file-share"></a>Criar um compartilhamento de arquivo básico
 
-Esta seção ajuda você a criar um compartilhamento de arquivos básico no Windows Server. Um compartilhamento de arquivos básico do Windows Server é compatível com Skype para Business Server. No entanto, ele não explicitamente oferece alta disponibilidade. Para um ambiente de alta disponibilidade, recomenda-se um compartilhamento de arquivo de sistema de arquivos distribuído (DFS). Para obter mais informações sobre um compartilhamento de arquivos de alta disponibilidade e o DFS, consulte [Planejar a alta disponibilidade e recuperação de desastres em Skype para Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Esta seção ajuda você a criar um compartilhamento de arquivos básico no Windows Server. Um compartilhamento de arquivos básico do Windows Server é compatível com o Skype for Business Server. No entanto, ele não fornece explicitamente alta disponibilidade. Para um ambiente de alta disponibilidade, recomenda-se um compartilhamento de arquivo de sistema de arquivos distribuído (DFS). Para obter mais informações sobre um compartilhamento de arquivos de alta disponibilidade e DFS, consulte [planejar a alta disponibilidade e a recuperação de desastres no Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 > [!NOTE]
-> O Windows Server 2012 R2 deu grandes saltos no fornecimento de soluções de compartilhamento similares à rede SAN usando a plataforma do Windows Server. Quando comparada a um aplicativo baseado em uma rede SAN tradicional, uma solução de armazenamento do Windows Server 2012 R2 pode cortar custos pela metade, com mínimo impacto sobre o desempenho. Para obter mais informações sobre as opções de compartilhamento de arquivo no Windows Server 2012 R2, consulte o white paper baixável [O armazenamento do Windows Server 2012 R2](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf). 
+> O Windows Server 2012 R2 deu grandes saltos no fornecimento de soluções de compartilhamento similares à rede SAN usando a plataforma do Windows Server. Quando comparada a um aplicativo baseado em uma rede SAN tradicional, uma solução de armazenamento do Windows Server 2012 R2 pode cortar custos pela metade, com mínimo impacto sobre o desempenho. Para obter mais informações sobre as opções de compartilhamento de arquivos no Windows Server 2012 R2, consulte o artigo disponível para download em inglês do [Windows server 2012 R2 Storage](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf). 
   
 Assista as etapas do vídeo para **criar um compartilhamento de arquivos**:
   
@@ -59,15 +59,15 @@ Assista as etapas do vídeo para **criar um compartilhamento de arquivos**:
     
 8. Clique em **Concluído** para fechar o assistente.
     
-     ![Guia de compartilhamento para uma pasta de compartilhamento.](../../media/78fe8441-dead-43ed-9a04-3c7c8c657c15.png)
+     ![Guia compartilhamento para compartilhar uma pasta.](../../media/78fe8441-dead-43ed-9a04-3c7c8c657c15.png)
   
 > [!NOTE]
->Se o repositório de arquivos estiver hospedado em um DFS compartilhar, será recebido o seguinte aviso:
+>Se o repositório de arquivos estiver hospedado em um compartilhamento DFS, o seguinte aviso será recebido:
 
-Aviso: Não é possível acessar as permissões de compartilhamento para "\\<domain>\<share>".
+Aviso: não é possível acessar as permissões de\\<domain>\<compartilhamento para "share>".
 
->Isso é esperado se você não é um administrador no servidor de arquivos ou se este é um compartilhamento de sistema de arquivos distribuídos (DFS). Se já tiverem sido configuradas as permissões de compartilhamento, esse aviso pode ser ignorado. Se for um novo compartilhamento, consulte a documentação para obter detalhes sobre como configurar manualmente as permissões de compartilhamento.
+>Isso é esperado se você não for um administrador no servidor de arquivos ou se for um compartilhamento DFS (Distributed File System). Se as permissões de compartilhamento já tiverem sido configuradas, esse aviso pode ser ignorado. Se for um novo compartilhamento, consulte a documentação para obter detalhes sobre como configurar manualmente as permissões de compartilhamento.
 
->Devido à incapacidade para acessar as permissões de compartilhamento em um compartilhamento DFS, Skype para Business Server não será possível definir explicitamente os grupos no compartilhamento de arquivos. Para garantir o que Skype para componentes de servidor de negócios pode acessar o compartilhamento de arquivos com as permissões apropriadas, verifique se que os seguintes grupos RTC são adicionados com permissões de compartilhamento de nível de alteração além do local de administradores com permissões de compartilhamento de controle total.
+>Devido à incapacidade de acessar as permissões de compartilhamento em um compartilhamento DFS, o Skype for Business Server não poderá definir grupos explicitamente no compartilhamento de arquivos. Para garantir que os componentes do Skype for Business possam acessar o compartilhamento de arquivos com as permissões apropriadas, certifique-se de que os seguintes grupos RTC sejam adicionados com permissões de compartilhamento de nível de alteração, além dos administradores locais, com permissões de compartilhamento de controle total.
 
 RTCHSUniversalServices RTCComponentUniversalServices RTCUniversalServerAdmins

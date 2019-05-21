@@ -5,22 +5,22 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 7/18/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
-description: O cmdlet Renew-CcCACertificate renova o certficado de Autoridade de Certificação raiz do Skype for Business Cloud Connector Edition que está prestes a expirar ou já expirou. Este comando foi alterado para atualização-CcCACertificate na nuvem conector 2.0 e versões posteriores.
-ms.openlocfilehash: 616abb35d577b816368854396a201b9f07b40d12
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: O cmdlet Renew-CcCACertificate renova o certficado de Autoridade de Certificação raiz do Skype for Business Cloud Connector Edition que está prestes a expirar ou já expirou. Esse comando foi alterado para Update-CcCACertificate no Cloud Connector 2,0 e versões posteriores.
+ms.openlocfilehash: f1e376b5b944468ec5bf508c6221a099a83d4804
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893859"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287101"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
-O cmdlet Renew-CcCACertificate renova o certficado de Autoridade de Certificação raiz do Skype for Business Cloud Connector Edition que está prestes a expirar ou já expirou. Este comando foi alterado para atualização-CcCACertificate na nuvem conector 2.0 e versões posteriores.
+O cmdlet Renew-CcCACertificate renova o certficado de Autoridade de Certificação raiz do Skype for Business Cloud Connector Edition que está prestes a expirar ou já expirou. Esse comando foi alterado para Update-CcCACertificate no Cloud Connector 2,0 e versões posteriores.
   
 ```
 Renew-CcCACertificate

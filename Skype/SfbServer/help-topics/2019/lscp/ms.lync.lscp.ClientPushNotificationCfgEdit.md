@@ -1,10 +1,10 @@
 ---
-title: Cliente móvel criar ou Editar configuração de notificação por Push
+title: Cliente móvel criar ou editar configuração de notificação por push
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientPushNotificationCfgEdit
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
 description: Notificação por Push e Push Notification Clearing House (PNCH) são duas partes importantes do recurso de mobilidade. Notificação por Push é o processo no qual uma mensagem é enviada ao PNCH. A mensagem é mantida aqui até que possa ser entregue ao cliente móvel ou até esgotar o tempo limite.
-ms.openlocfilehash: 9920029e657db4ed7d1c8da269593368d673d08a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3a15e88e40b37da4570d04a93ef13a793d6dabaf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891660"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300333"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Cliente móvel: Crie ou edite a Configuração de Notificação por Push
  
@@ -36,9 +36,9 @@ Para habilitar a Notificação por Push, faça o seguinte:
   
 2. Selecione quais serviços de notificação por push você deseja habilitar clicando na caixa de seleção para:
     
-   - **Notificação de push da Microsoft permitem** habilitará a notificação por push para a nuvem PNCH para Windows Phone com o Skype para o aplicativo de negócios
+   - **Habilitar a notificação por push da Microsoft** habilitará a notificação por push para o PNCH baseado em nuvem para Windows Phone com o aplicativo Skype for Business
     
-   - **Notificação de push habilitar Apple** habilitará a notificação por push para o PNCH da Apple para dispositivos executando o iOS da Apple (por exemplo, iPhone, iPad) e usando o Skype para o aplicativo de negócios
+   - **Habilitar a notificação por push da Apple** habilitará a notificação por push para o Apple PNCH para dispositivos que executam o Ios da Apple (por exemplo, iPhone, iPad) e usando o aplicativo Skype for Business
     
 3. Após concluir as edições da política, clique em  **Confirmar** para salvar suas alterações. Se for necessário excluir as alterações feitas, selecione **Cancelar**. Nenhuma alteração será salva na política.
     

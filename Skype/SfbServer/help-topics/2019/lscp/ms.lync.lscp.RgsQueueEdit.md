@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.RgsQueueEdit
@@ -12,64 +12,64 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
-description: Filas de espera do grupo de resposta chamadas para um grupo de resposta em espera até que um operador responde à chamada.
-ms.openlocfilehash: cb1777a87e32baac6d2bbb13a692abcf59da5931
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: As filas do grupo de resposta mantêm chamadas para um grupo de resposta até que um agente atenda a chamada.
+ms.openlocfilehash: 20a2066cbbece953e8f050919d8531f887f676ff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891387"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292602"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Fila de Grupos de Resposta: Criar Nova ou Editar Existente
 
-Filas de espera do grupo de resposta chamadas para um grupo de resposta em espera até que um operador responde à chamada.
+As filas do grupo de resposta mantêm chamadas para um grupo de resposta até que um agente atenda a chamada.
 
 ## <a name="ui-reference"></a>Referência de UI
 
 A lista a seguir descreve os campos na página.
 
-- **Nome** Cada fila precisa ter um nome. Digite um nome descritivo para a fila.
+- **Nome** Cada fila deve ter um nome. Digite um nome descritivo para a fila.
 
 - **Descrição** Este campo é opcional. Use-o para fornecer detalhes adicionais sobre a fila.
 
-- **Grupos** Selecione os grupos de operadores que você deseja atribuir à fila. Clique em **Selecionar** para adicionar grupos de agente à lista. Clique em **Remover** para excluir o grupo de agentes selecionado da lista.
+- **Grupos** de Selecione os grupos de agente que você deseja atribuir à fila. Clique em **Selecionar** para adicionar grupos de agente à lista. Clique em **Remover** para excluir o grupo de agentes selecionado da lista.
 
-    As setas para cima e para baixo movem um grupo de agentes selecionado para cima e para baixo na lista. A ordem dos grupos de operadores afeta a ordem na qual o Skype para Business Server procura um operador disponível. Ou seja, o primeiro grupo na lista é pesquisado primeiro em busca de um agente disponível, seguindo pelo segundo grupo e assim por diante.
+    As setas para cima e para baixo movem um grupo de agentes selecionado para cima e para baixo na lista. A ordem dos grupos de agente afeta a ordem em que o Skype for Business Server procura por um agente disponível. Ou seja, o primeiro grupo na lista é pesquisado primeiro em busca de um agente disponível, seguindo pelo segundo grupo e assim por diante.
 
-- **Habilitar o tempo limite da fila** Marque esta caixa de seleção para especificar um período máximo de tempo que um chamador esperar em espera antes de um operador responde à chamada. Se você selecionar essa opção, também precisará especificar o seguinte:
+- **Habilitar o tempo limite da fila** Marque esta caixa de seleção para especificar um período de tempo máximo para que um chamador aguarde em espera antes que um agente atenda a chamada. Se você selecionar essa opção, também precisará especificar o seguinte:
 
-  - **Período de tempo limite (segundos)** Selecione ou digite o número máximo de segundos que um chamador pode esperar antes que um operador responde à chamada.
+  - **Período de tempo limite (segundos)** Selecione ou digite o número máximo de segundos que um chamador pode aguardar antes que um agente atenda a chamada.
 
-  - **Ação de chamada** Selecione a ação que ocorre quando uma chamada expire. Suas opções são:
-
-  - **Desconectar**
-
-  - **Encaminhar para caixa postal** Se você selecionar essa opção, no **endereço SIP**, digite um endereço da caixa postal no formato sip:<username> @ <domainname> (por exemplo, sip:bob@contoso.com).
-
-  - **Encaminhar para número de telefone** Se você selecionar essa opção, no **endereço SIP** digite o número de telefone no formato sip:<number> @ <domainname> (por exemplo, sip:+14255550121@contoso.com).
-
-  - **Encaminhar para endereço SIP** Selecione essa opção para encaminhar a chamada para outro usuário. Em **endereço SIP**, digite o URI do usuário no formato sip:<username>@<domainname>.
-
-  - **Encaminhar para outra fila de espera** Se você selecionar essa opção, navegue até a fila que receberá as chamadas quando o tempo limite de chamadas.
-
-- **Habilitar o estouro da fila** Marque esta caixa de seleção para especificar um número máximo de chamadas que a fila pode segurar. Se você selecionar essa opção, também precisará especificar o seguinte:
-
-  - **Número máximo de chamadas** Selecione ou digite o número máximo de chamadas que a fila pode segurar.
-
-  - **Encaminhar a chamada** Selecione qual chamada deverá executar uma ação quando o limite de estouro da fila for atingido.
-
-  - **Ação de chamada** Selecione a ação que ocorre quando o limite de estouro da fila for atingido. Suas opções são:
+  - **Ação da chamada** Selecione a ação que ocorre quando uma chamada atinge o tempo limite. Suas opções são:
 
   - **Desconectar**
 
-  - **Encaminhar para caixa postal** Se você selecionar essa opção, no **endereço SIP**, digite um endereço da caixa postal no formato sip:<username> @ <domainname> (por exemplo, sip:bob@contoso.com).
+  - **Encaminhar para caixa postal** Se você selecionar essa opção, no **endereço SIP**, digite um endereço de correio de voz no formato SIP<username> @ <domainname> : (por exemplo, SIP:Bob@contoso.com).
 
-  - **Encaminhar para número de telefone** Se você selecionar essa opção, no **endereço SIP** digite o número de telefone no formato sip:<number> @ <domainname> (por exemplo, sip:+14255550121@contoso.com).
+  - **Encaminhar para número de telefone** Se você selecionar essa opção, em **endereço SIP** , digite o número de telefone no formato SIP<number> @ <domainname> : (por exemplo, SIP:+14255550121@contoso.com).
 
-  - **Encaminhar para endereço SIP** Selecione essa opção para encaminhar a chamada para outro usuário. Em **endereço SIP**, digite o URI do usuário no formato sip:<username>@<domainname>.
+  - **Encaminhar para endereço SIP** Selecione esta opção para encaminhar a chamada para outro usuário. Em **endereço SIP**, digite o URI para o usuário no formato SIP:<username>@<domainname>.
 
-  - **Encaminhar para outra fila de espera** Se você selecionar essa opção, navegue até a fila que receberá as chamadas quando o limite de estouro da fila for atingido.
+  - **Encaminhar para outra fila** Se você selecionar essa opção, navegue até a fila para receber chamadas quando o tempo limite das chamadas for atingido.
 
-Para obter detalhes sobre os recursos de grupo de resposta, consulte o [plano para o aplicativo de grupo de resposta no Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com filas, consulte  [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) na documentação Operações.
+- **Habilitar o estouro de fila** Marque esta caixa de seleção para especificar um número máximo de chamadas que a fila pode conter. Se você selecionar essa opção, também precisará especificar o seguinte:
+
+  - **Número máximo de chamadas** Selecione ou digite o número máximo de chamadas que a fila pode conter.
+
+  - **Encaminhar a chamada** Selecione qual chamada deve ser tomada quando o limite de estouro de fila for atingido.
+
+  - **Ação da chamada** Selecione a ação que ocorre quando o limite de estouro de fila é atingido. Suas opções são:
+
+  - **Desconectar**
+
+  - **Encaminhar para caixa postal** Se você selecionar essa opção, no **endereço SIP**, digite um endereço de correio de voz no formato SIP<username> @ <domainname> : (por exemplo, SIP:Bob@contoso.com).
+
+  - **Encaminhar para número de telefone** Se você selecionar essa opção, em **endereço SIP** , digite o número de telefone no formato SIP<number> @ <domainname> : (por exemplo, SIP:+14255550121@contoso.com).
+
+  - **Encaminhar para endereço SIP** Selecione esta opção para encaminhar a chamada para outro usuário. Em **endereço SIP**, digite o URI para o usuário no formato SIP:<username>@<domainname>.
+
+  - **Encaminhar para outra fila** Se você selecionar essa opção, navegue até a fila que receberá chamadas quando o limite de estouro da fila for atingido.
+
+Para obter detalhes sobre recursos e recursos do grupo de resposta, consulte [planejar o aplicativo do grupo de resposta no Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com filas, consulte  [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) na documentação Operações.
 
 

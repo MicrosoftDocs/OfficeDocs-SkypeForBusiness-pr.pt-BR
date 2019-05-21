@@ -1,10 +1,10 @@
 ---
-title: Habilitar o atendimento de chamada de grupo para usuários e atribuir um número de grupo no Skype para negócios
+title: Habilitar o recebimento de chamadas em grupo para usuários e atribuir um número de grupo no Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,24 +13,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
-description: Habilitar usuários para atendimento de chamada do grupo no Skype para Business Server Enterprise Voice e atribua um número de grupo.
-ms.openlocfilehash: 92429e256a222d56ad7c281db57185b497f714e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Permita que os usuários façam o recebimento de chamadas em grupo no Skype for Business Server Enterprise Voice e atribua um número de grupo.
+ms.openlocfilehash: 14f17d3e217fa9ea44cc81db4d8fa6bf12644894
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892458"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291578"
 ---
-# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Habilitar o atendimento de chamada de grupo para usuários e atribuir um número de grupo no Skype para negócios
+# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Habilitar o recebimento de chamadas em grupo para usuários e atribuir um número de grupo no Skype for Business
 
-Habilitar usuários para atendimento de chamada do grupo no Skype para Business Server Enterprise Voice e atribua um número de grupo.
+Permita que os usuários façam o recebimento de chamadas em grupo no Skype for Business Server Enterprise Voice e atribua um número de grupo.
 
-Depois de adicionar os números de retirada de grupo de chamada à tabela de órbita de estacionamento de chamada, você usar a ferramenta de SEFAUtil para atribuir os números de grupo aos usuários e habilitar o atendimento de chamada de grupo para eles.
+Depois de adicionar números de grupo de recebimento de chamada à tabela órbita do parque de chamadas, use a ferramenta SEFAUtil para atribuir os números de grupo aos usuários e habilitar o recebimento de chamadas em grupo para eles.
 
 > [!NOTE]
-> Em uma implantação híbrida, não atribua um grupo de atendimento de chamada de grupo para usuários hospedados online. Os usuários hospedados online não podem participar de atendimento de chamada do grupo. Isso significa que suas chamadas não podem ser atendidas por outros usuários, e eles não podem responder chamadas no lugar de outros usuários.
+> Em uma implantação híbrida, não atribua um grupo de recebimento de chamadas em grupo aos usuários que estiverem em casa online. Os usuários que estiverem hospedados online não poderão participar da retirada de chamadas em grupo. Isso significa que suas chamadas não podem ser atendidas por outros usuários, e eles não podem responder chamadas no lugar de outros usuários.
 
-### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>Para atribuir um número de grupo e habilitar o atendimento de chamada de grupo para um usuário
+### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>Para atribuir um número de grupo e habilitar a retirada de chamadas em grupo para um usuário
 
 1. Realize logon no computador em que você instalou a ferramenta SEFAUtil com direitos de administrador.
 

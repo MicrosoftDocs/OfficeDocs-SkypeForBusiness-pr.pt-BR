@@ -1,5 +1,5 @@
 ---
-title: O que eu colocar número de conta?
+title: O que devo colocar no número da conta?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,22 +20,22 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAccountNumber
 ms.custom:
 - Calling Plans
-description: 'Consulte o que você deve colocar como um número de conta na Skype para negócios e onde você pode encontrar que. '
-ms.openlocfilehash: 3f539b886e16eaa106347fbff113763fb451ddb5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Veja o que você deve colocar como um número de conta no Skype for Business e onde você pode encontrá-lo. '
+ms.openlocfilehash: 8b99d64714108f3cac8045d09b34d1b76c56907d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229601"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290731"
 ---
-# <a name="what-should-i-put-in-for-the-account-number"></a>O que eu colocar número de conta?
+# <a name="what-should-i-put-in-for-the-account-number"></a>O que devo colocar no número da conta?
 
-Normalmente, você pode encontrar o número de conta em qualquer bill ou faturas, que você tem de seu provedor de serviços ou operadora ou você podem fazer logon no site da sua operadora. Se você ainda não souber o número de conta, você pode contatar o seu provedor de serviços ou sua operadora para obtê-lo.
+Em geral, você pode encontrar o número da conta em qualquer cobrança ou fatura que você tiver do seu provedor de serviços ou operadora ou pode fazer logon no site da sua operadora. Se ainda não souber o número da conta, você pode entrar em contato com o provedor de serviços ou operadora para obtê-lo.
   
 > [!CAUTION]
->  É importante que você se certifique de que você não usar espaços, traços ou hífens ao inserir seu número de conta de serviço provedor ou operadora.
+>  É importante que você não use espaços, traços ou hifens ao digitar seu provedor de serviço ou número de conta da operadora.
   
- **Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ **Para obter instruções passo a passo completas, consulte [transferir números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
 > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

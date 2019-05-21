@@ -5,19 +5,19 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 12/20/2018
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Exigências e pré-requisitos da Ferramenta de Stress and Performance do Skype for Business Server 2015. Como instalar e configurar a Ferramenta de Stress and Performance.
-ms.openlocfilehash: 51e83736ecc3d8f18937dee8e9fdbb5244662a2a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37aa89a0e6158b4623711ded8752eab2eb9d77ab
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906582"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299727"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Pré-requisitos e configuração da Ferramenta de Stress and Performance do Skype for Business
  
@@ -55,7 +55,7 @@ Os sistemas operacionais compatíveis com a Ferramenta de Stress and Performance
     
 Além disso, os computadores precisam atender aos seguintes requisitos de software:
   
-- O Microsoft .NET 4.5 Framework deverá estar instalado. [Baixe o .net 4.5 Framework aqui.](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
+- O Microsoft .NET 4.5 Framework deverá estar instalado. [Baixe a estrutura .NET 4,5 aqui.](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
     
 - O recurso Experiência desktop deverá estar habilitado no Windows.
     
@@ -81,6 +81,6 @@ Você precisará dessas configurações adicionais para executar corretamente a 
 
 A instalação não poderia ser mais simples. Você precisa executar o arquivo do instalador do Windows, **CapacityPlanningTool.msi**, em cada computador cliente que você utilizará para simular o tráfego de usuários e em um Servidor Front-End em cada pool onde você criará usuários e contatos.
   
-Para baixar o arquivo. msi, juntamente com os scripts de exemplo mencionado em outros artigos, vá para o link do Centro de Download: [Skype para Business Server 2015, Stress e ferramenta de desempenho](https://www.microsoft.com/download/details.aspx?id=50367).
+Para baixar o. msi, juntamente com os scripts de exemplo mencionados em nossos outros artigos, acesse o link do centro de download: [Skype for Business Server 2015, stress and Performance Tool](https://www.microsoft.com/download/details.aspx?id=50367).
   
 

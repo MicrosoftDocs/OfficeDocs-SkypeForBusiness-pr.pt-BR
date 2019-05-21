@@ -1,5 +1,5 @@
 ---
-title: Por que estou tendo problemas para inserir Reino Unido informações de endereço?
+title: Por que estou tendo problemas para entrar no Reino Unido informações de endereço?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,91 +20,91 @@ f1keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
-description: Aqui estão alguns motivos por que você pode estar tendo problemas para que seu endereço ou endereços para validar corretamente no Reino Unido (Reino Unido).
-ms.openlocfilehash: dafc6608f45393ccc0a39ecdb2c01e2479ec630b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Veja a seguir alguns motivos pelos quais você pode estar tendo problemas para obter seu endereço ou endereços para validar corretamente no Reino Unido (Reino Unido).
+ms.openlocfilehash: e710f2ef502bb264677bc89d5cdebb2584d48679
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227810"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290684"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Por que estou tendo problemas para inserir Reino Unido informações de endereço?
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>Por que estou tendo problemas para entrar no Reino Unido informações de endereço?
 
-Aqui estão alguns motivos por que você pode estar tendo problemas para que seu endereço ou endereços para validar corretamente no Reino Unido (Reino Unido).
+Veja a seguir alguns motivos pelos quais você pode estar tendo problemas para obter seu endereço ou endereços para validar corretamente no Reino Unido (Reino Unido).
   
-## <a name="whats-wrong-with-the-company-name"></a>O que está errado com o nome da empresa?
+## <a name="whats-wrong-with-the-company-name"></a>O que há de errado com o nome da empresa?
 
-Se você estiver tendo um problema inserindo o nome da empresa, lembre-se:
+Se você estiver tendo problemas para inserir o nome da empresa, lembre-se:
   
-- Ele pode ter letras, números e os seguintes caracteres especiais:, / - +. ' &amp; " _ 
+- Pode conter letras, números e os seguintes caracteres especiais:,/-+. ' &amp; " _ 
     
     > [!CAUTION]
-    > No Reino Unido (Reino Unido), o nome da empresa não pode ter o sinal de +. 
+    > No Reino Unido (Reino Unido), o nome da empresa não pode ter o sinal +. 
   
-- Ele deve ser 80 caracteres ou menos.
+- Deve ter 80 caracteres ou menos.
     
-- Ele não pode começar com um caractere especial.
+- Não pode começar com um caractere especial.
     
-## <a name="whats-wrong-with-the-house-number"></a>O que está errado com o número da casa?
+## <a name="whats-wrong-with-the-house-number"></a>O que há de errado com o número da casa?
 
-Se você estiver tendo um problema digitando o número da casa, lembre-se:
+Se você estiver tendo problemas para digitar o número da casa, lembre-se:
   
-- Ele pode ter letras, números e os seguintes caracteres especiais:-/]
+- Pode conter letras, números e os seguintes caracteres especiais:-/[]
     
-- Ele deve começar com um número.
+- Ele precisa começar com um número.
     
-- Ele deve ser 20 caracteres ou menos.
+- Deve ter 20 caracteres ou menos.
     
-- Ele pode ter um maiuscula ou uma letra minúscula.
+- Ele pode ter uma letra maiúscula ou minúscula.
     
-## <a name="whats-wrong-with-the-house-name"></a>O que está errado com o nome da câmara?
+## <a name="whats-wrong-with-the-house-name"></a>O que há de errado com o nome da casa?
 
-Se você estiver tendo um problema ao inserir o nome de casa, lembre-se:
+Se você estiver tendo problemas para digitar o nome da casa, lembre-se:
   
-- Ele pode ter letras, números e os seguintes caracteres especiais:, / - +. ' &amp; " _
+- Pode conter letras, números e os seguintes caracteres especiais:,/-+. ' &amp; " _
     
-- Ele deve ser a 50 caracteres ou menos.
+- Deve ter 50 caracteres ou menos.
     
-- Ele não pode começar com um caractere especial.
+- Não pode começar com um caractere especial.
     
-## <a name="whats-wrong-with-the-street-name"></a>O que está errado com o nome da rua?
+## <a name="whats-wrong-with-the-street-name"></a>O que há de errado com o nome da rua?
 
-Se você estiver tendo um problema inserindo o nome da rua, lembre-se:
+Se você estiver tendo problemas para digitar o nome da rua, lembre-se:
   
-- Ele pode ter letras, números e os seguintes caracteres especiais:, / - +. ' &amp; " _ 
+- Pode conter letras, números e os seguintes caracteres especiais:,/-+. ' &amp; " _ 
     
-- Ele deve ser a 50 caracteres ou menos.
+- Deve ter 50 caracteres ou menos.
     
-- Ele não pode começar com um caractere especial. 
+- Não pode começar com um caractere especial. 
     
-## <a name="whats-wrong-with-the-city-or-town"></a>O que está errado com cidade?
+## <a name="whats-wrong-with-the-city-or-town"></a>O que há de errado com a cidade ou a cidade?
 
-Se você estiver tendo um problema inserindo o nome da cidade, lembre-se:
+Se você estiver tendo problemas para inserir o nome da cidade ou município, lembre-se:
   
-- Ele pode ter letras, números e os seguintes caracteres especiais:, / - +. ' &amp; " _
+- Pode conter letras, números e os seguintes caracteres especiais:,/-+. ' &amp; " _
     
-- Ele deve ser a 50 caracteres ou menos.
+- Deve ter 50 caracteres ou menos.
     
-- Ele não pode começar com um caractere especial. 
+- Não pode começar com um caractere especial. 
     
-## <a name="whats-wrong-with-the-postal-code"></a>O que está errado com o CEP?
+## <a name="whats-wrong-with-the-postal-code"></a>O que há de errado com o código postal?
 
-Se você estiver tendo um problema inserindo o CEP, lembre-se:
+Se você estiver tendo problemas para inserir o código postal, lembre-se:
   
-- Ele pode ter apenas letras, números ou espaços.
+- Só pode ter letras, números ou espaços.
     
-- Ele deve ter 8 ou letras, inclusive números e espaços.
+- Deve ter 8 ou menos letras, incluindo números e espaços.
     
-- **Lembre-se de que se você estiver no Reino Unido (U.K.)**, você **deve** colocar o CEP em um dos seguintes formatos, onde a letra A caractere A-Z, o sinal # = = um número de 0 a 9 e o _ (sublinhado) = um espaço em branco. Aqui estão alguns exemplos:
+- **Lembre-se de que, se você estiver no Reino Unido (Reino Unido)**, **deve** colocar o código postal em um dos seguintes formatos, onde a letra a = caractere a-Z, o valor de erro # = a de 0-9 e o _ (sublinhado) = um espaço em branco. Veja alguns exemplos:
     
-|**Formato**|**Exemplo**|
+|**Format**|**Exemplo**|
 |:-----|:-----|
-|#AA A_ DE AA #  <br/> |EC3B 2BD  <br/> |
-|UM A_ # #AA  <br/> |E1W 1AP  <br/> |
-|UM _ # #AA  <br/> |2AG F1  <br/> |
-|UM _ # # #AA  <br/> |C44 8HT  <br/> |
-|AA #_ #AA  <br/> |DR3 6HG  <br/> |
-|AA # # _ #AA  <br/> |FN35 1TH  <br/> |
+|AA # A_ # AA  <br/> |EC3B 2BD  <br/> |
+|A # A_ # AA  <br/> |E1W 1AP  <br/> |
+|UM # _ # AA  <br/> |F1 2AG  <br/> |
+|A # #_ # AA  <br/> |C44 8HT  <br/> |
+|AA # _ # AA  <br/> |DR3 6HG  <br/> |
+|AA # #_ # AA  <br/> |FN35 1TH  <br/> |
 
 > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

@@ -1,10 +1,10 @@
 ---
-title: Projetando e criando fluxos de trabalho do grupo de resposta no Skype para negócios
+title: Projetando e criando fluxos de trabalho de grupo de resposta no Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
-description: Projetar e criar fluxos de trabalho do grupo de resposta, no Skype para Business Server Enterprise Voice. São abordados os fluxos de trabalho interativos e do grupo de busca.
-ms.openlocfilehash: 9ae4a229c0b7ece3e9dbb858bc0491fea123e479
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Projetar e criar fluxos de trabalho de grupo de resposta no Skype for Business Server Enterprise Voice. São abordados os fluxos de trabalho interativos e do grupo de busca.
+ms.openlocfilehash: 2ae6562ed4182c4c2ac5a801aa72b0505a19cf4f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892566"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291669"
 ---
-# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Projetando e criando fluxos de trabalho do grupo de resposta no Skype para negócios
+# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Projetando e criando fluxos de trabalho de grupo de resposta no Skype for Business
 
-Projetar e criar fluxos de trabalho do grupo de resposta, no Skype para Business Server Enterprise Voice. São abordados os fluxos de trabalho interativos e do grupo de busca.
+Projetar e criar fluxos de trabalho de grupo de resposta no Skype for Business Server Enterprise Voice. São abordados os fluxos de trabalho interativos e do grupo de busca.
 
 Um fluxo de trabalho define o comportamento de uma chamada desde a hora que o telefone toca até a hora que alguém atende essa chamada. O fluxo de trabalho especifica a fila que deve ser usada para colocar a chamada em espera, o método de roteamento a ser usado para fluxos de trabalho de grupos de busca ou as perguntas e respostas a serem usadas para fluxos de trabalho de grupos de respostas interativos.
 
@@ -32,13 +32,13 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 > [!NOTE]
 > Você deve criar grupos de agente e filas antes de criar um fluxo de trabalho que os utiliza.
 
-## <a name="creating-or-modifying-a-hunt-group-workflow"></a>Criar ou modificar um fluxo de trabalho do grupo de busca
+## <a name="creating-or-modifying-a-hunt-group-workflow"></a>Criando ou modificando um fluxo de trabalho de grupo coletivo
 
-### <a name="to-use-response-group-configuration-tool-to-create-or-modify-a-hunt-group-workflow"></a>Usar a ferramenta de configuração de grupo de resposta para criar ou modificar um fluxo de trabalho do grupo de busca
+### <a name="to-use-response-group-configuration-tool-to-create-or-modify-a-hunt-group-workflow"></a>Para usar a ferramenta de configuração de grupo de resposta para criar ou modificar um fluxo de trabalho de grupo coletivo
 
 1. Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
 
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server.
 
 3. Na barra de navegação à esquerda, clique em **Grupos de Resposta** e em **Fluxo de Trabalho**.
 
@@ -47,26 +47,26 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 5. No campo de pesquisa **Selecione um Serviço**, digite parte ou todo o nome do serviço do **ApplicationServer** que hospeda o fluxo de trabalho que você deseja alterar ou criar. Na lista resultante de serviços, clique no serviço que você deseja e clique em **OK**.
 
     > [!NOTE]
-    > Abre a ferramenta de configuração de grupo de resposta. Você também pode abrir a ferramenta de configuração de grupo de resposta diretamente a partir de um navegador da web, digitando o seguinte URL: https://\<webPoolFqdn\>/RgsConfig.
+    > A ferramenta de configuração de grupo de resposta é aberta. Você também pode abrir a ferramenta de configuração de grupo de resposta diretamente de um navegador da Web digitando a\<seguinte\>URL: https://webPoolFqdn/RgsConfig.
 
 6. Siga um destes procedimentos:
 
-   - Em **criar um novo fluxo de trabalho**, ao lado do **Grupo de busca**, clique em **criar**.
+   - Em **criar um novo fluxo de trabalho**, ao lado de um **grupo coletivo**, clique em **criar**.
 
    - Em **Gerenciar um Fluxo de Trabalho Existente**, localize o fluxo de trabalho que você deseja alterar e, em **Ação**, clique em **Editar**.
 
 7. Se estiver pronto para que os usuários comecem a fazer chamadas para o fluxo de trabalho, selecione **Ativar o fluxo de trabalho**.
 
     > [!NOTE]
-    >  Se você estiver criando um fluxo de trabalho gerenciado, você precisa selecionar **Ativar o fluxo de trabalho**. Após salvar o fluxo de trabalho gerenciado ativo, é possível modificar e desativá-lo.
+    >  Se você estiver criando um fluxo de trabalho gerenciado, será necessário selecionar **ativar o fluxo de trabalho**. Após salvar o fluxo de trabalho gerenciado ativo, é possível modificar e desativá-lo.
 
-8. Para permitir que usuários federados façam chamadas para o grupo, selecione a opção **Habilitar para federação**. Você também deve ter uma política de acesso externo que se aplica ao aplicativo grupo de resposta configurado para federação.
-
-    > [!NOTE]
-    > A política de acesso externo global aplica-se ao aplicativo grupo de resposta. Você pode configurar a política global para federação de grupo de resposta usando Skype para o painel de controle do Business Server ou usando o cmdlet **Set-CsExternalAccessPolicy** para definir o parâmetro EnableOutsideAccess como True. Lembre-se que as configurações de política global se aplicam a todos os usuários, a não ser que eles sejam atribuídos com uma política de usuário ou de site. Portanto, antes de alterar esta configuração para grupos de resposta, certifique-se de que as configurações de federação cumpre os requisitos da sua organização. Para obter detalhes sobre como as políticas são aplicadas aos usuários, consulte [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Para obter detalhes sobre a configuração de federação, consulte [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
+8. Para permitir que usuários federados façam chamadas para o grupo, selecione a opção **Habilitar para federação**. Você também deve ter uma política de acesso externo que se aplica ao aplicativo de grupo de resposta configurado para Federação.
 
     > [!NOTE]
-    > Usuários hospedados no Skype para Business Online não podem fazer chamadas para grupos de resposta hospedadas em uma implantação local. Isso é verdadeiro em ambas as implantações híbridas e, em casos onde uma implantação local é federada com um Skype para implantação Business Online.
+    > A política de acesso externo global global aplica-se ao aplicativo de grupo de resposta. Você pode configurar a política global para a reunião de grupo de resposta usando o painel de controle do Skype for Business Server ou usando o cmdlet **set-CsExternalAccessPolicy** para definir o parâmetro EnableOutsideAccess como true. Lembre-se que as configurações de política global se aplicam a todos os usuários, a não ser que eles sejam atribuídos com uma política de usuário ou de site. Portanto, antes de alterar esta configuração para grupos de resposta, certifique-se de que as configurações de federação cumpre os requisitos da sua organização. Para obter detalhes sobre como as políticas são aplicadas aos usuários, consulte [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Para obter detalhes sobre a configuração de Federação, consulte [set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
+
+    > [!NOTE]
+    > Os usuários hospedados no Skype for Business online não podem fazer chamadas para grupos de resposta hospedados em uma implantação local. Isso é verdade nas implantações híbridas e nos casos em que uma implantação local é federada com uma implantação do Skype for Business online.
 
 9. Para ocultar a identidade de operadores durante as chamadas, selecione a opção **Habilitar anonimato do operador**.
 
@@ -76,9 +76,9 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 10. Sob **Insira o endereço do grupo que receberá as chamadas**, digite o endereço URI SIP primário do grupo que irá receber chamadas para o fluxo de trabalho.
 
     > [!NOTE]
-    > O URI primário para um fluxo de trabalho é como o fluxo de trabalho é identificado e referenciado. O URI do SIP inserido é criado como um objeto de contato nos serviços de domínio Active Directory. Para criar o URI, o objeto deve ser exclusivo no Active Directory.
+    > O URI primário para um fluxo de trabalho é como o fluxo de trabalho é identificado e referenciado. O URI SIP que você insere é criado como um objeto de contato nos serviços de domínio Active Directory. Para criar o URI, o objeto deve ser exclusivo no Active Directory.
 
-11. Em **nome para exibição**, digite o nome que você deseja exibir no fluxo de trabalho (por exemplo, grupo de resposta de vendas).
+11. Em **nome para exibição**, digite o nome que você deseja exibir para o fluxo de trabalho (por exemplo, grupo de resposta de vendas).
 
     > [!NOTE]
     > Não inclua os caracteres "<" ou ">" no nome de exibição. Não use os nomes de exibição a seguir, pois são reservados: **Observador de Presença RG** ou **Serviço de Anúncio**.
@@ -87,9 +87,9 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 
 13. Em **Número de Exibição**, digite o número conforme deseja que apareça para o grupo de resposta (por exemplo, +1 (425) 555-0165).
 
-14. (Opcional) Em **Descrição**, digite uma descrição para o fluxo de trabalho como você deseja que ele apareça no cartão de visita, do Skype para negócios.
+14. Adicionais Em **Descrição**, digite uma descrição para o fluxo de trabalho como deseja que ele apareça no cartão de visita no Skype for Business.
 
-15. Em **Tipo de fluxo de trabalho**, selecione **Gerenciado** se este fluxo de trabalho será gerenciado por um Gerente o Grupo de Resposta. Faça o seguinte para atribuir gerentes do grupo de resposta ao fluxo de trabalho:
+15. Em **Tipo de fluxo de trabalho**, selecione **Gerenciado** se este fluxo de trabalho será gerenciado por um Gerente o Grupo de Resposta. Siga este procedimento para atribuir gerentes de grupo de resposta ao fluxo de trabalho:
 
     a. Digite o URI SIP de um gerente para este fluxo de trabalho e clique em **Adicionar**.
 
@@ -122,7 +122,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
     - Para usar uma agenda pré-definida de horário comercial, clique em **Usar uma agenda predefinida** e selecione a agenda que deseja usar na lista suspensa.
 
       > [!NOTE]
-      > Você deve ter definido no mínimo uma agenda predefinida anteriormente para selecionar esta opção. É possível definir agendamentos de predefinições usando o cmdlet **New-CSRgsHoursOfBusiness**. Para obter detalhes, consulte [horário comercial de grupo de resposta (opcional) definir no Skype para negócios](optional-define-response-group-business-hours.md).
+      > Você deve ter definido no mínimo uma agenda predefinida anteriormente para selecionar esta opção. É possível definir agendamentos de predefinições usando o cmdlet **New-CSRgsHoursOfBusiness**. Para obter detalhes, consulte [(opcional) definir o horário comercial do grupo de resposta no Skype for Business](optional-define-response-group-business-hours.md).
 
       > [!NOTE]
       > Ao selecionar uma agenda predefinida, **Dia**, **Abertura** e **Fechamento** são automaticamente preenchidos com os dias e horas em que o grupo de resposta está disponível.
@@ -131,7 +131,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 
 20. Se estiver criando uma agenda personalizada para este fluxo de trabalho, clique nas opções para os dias da semana em que o grupo de resposta estará disponível.
 
-21. Se você estiver criando uma agenda personalizada, digite as horas de **abertura** e **fechamento** para cada dia da semana em que o grupo de resposta está disponível.
+21. Se você estiver criando um cronograma personalizado, digite as horas de **abertura** e de **fechamento** para cada dia da semana em que o grupo de resposta está disponível.
 
     > [!NOTE]
     > As horas de **Abertura** e **Fechamento** devem estar na notação de 24 horas. Por exemplo, se seu escritório funciona em dias úteis das 9 às 5 e fecha ao meio dia para o almoço, o horário comercial é especificado como **Abertura** 9:00, **Fechamento** 12:00, **Abertura** 13:00 e **Fechamento** 17:00.
@@ -152,16 +152,16 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 
     - Para desconectar a chamada, clique em **Desconectar Chamada**.
 
-    - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço da caixa postal é * \<username\>*@*\<domainName\> * (por exemplo, bob@contoso.com).
+    - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço de correio de voz * \<é\>username*@*\<\> * DomainName (por exemplo, Bob@contoso.com).
 
-    - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço do usuário é _ \<username\>_@_\<domainName\>_.
+    - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço de usuário é _ \<username\>_@_\<DomainName\>_.
 
-    - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone é * \<número\>*@*\<domainName\> * (por exemplo, +14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
+    - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone é * \<número\>*@*\<DomainName\> * (por exemplo, + 14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
 
 24. Sob **Etapa 5 Especifique seus Feriados**, clique nas opções para um ou mais conjuntos de feriados que definem quando o grupo de resposta estará fechado para negócios.
 
     > [!NOTE]
-    > É necessário definir feriados e conjuntos de feriados antes de configurar o fluxo de trabalho. Use os cmdlets **New-CsRgsHoliday** e **New-CsRgsHolidaySet** para definir feriados e conjuntos de feriados. Para obter detalhes, consulte [conjuntos de feriados do grupo de resposta (opcional) definir Skype para negócios](optional-define-response-group-holiday-sets.md).
+    > É necessário definir feriados e conjuntos de feriados antes de configurar o fluxo de trabalho. Use os cmdlets **New-CsRgsHoliday** e **New-CsRgsHolidaySet** para definir feriados e conjuntos de feriados. Para obter detalhes, consulte [(opcional) definir os conjuntos de feriados do grupo de resposta no Skype for Business](optional-define-response-group-holiday-sets.md).
 
 25. Se você deseja reproduzir uma mensagem nos feriados, selecione a opção **Reproduzir uma mensagem durante os feriados** e especifique a mensagem a ser executada realizado um dos seguintes procedimentos:
 
@@ -179,11 +179,11 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 
     - Para desconectar a chamada, clique em **Desconectar Chamada**.
 
-    - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço da caixa postal é * \<username\>*@*\<domainName\> * (por exemplo, bob@contoso.com).
+    - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço de correio de voz * \<é\>username*@*\<\> * DomainName (por exemplo, Bob@contoso.com).
 
-    - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço do usuário é _ \<username\>_@_\<domainName\>_.
+    - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço de usuário é _ \<username\>_@_\<DomainName\>_.
 
-    - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone é * \<número\>*@*\<domainName\> * (por exemplo, +14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
+    - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone é * \<número\>*@*\<DomainName\> * (por exemplo, + 14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
 
 27. Sob **Etapa 6 Configure uma Fila**, em **Selecione a fila que receberá as chamadas**, selecione a fila que você deseja que segure as chamadas até que um operador torne-se disponível.
 
@@ -198,7 +198,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 
 29. Clique em **Implantar**.
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>Usar Skype para Business Server Management Shell para criar ou modificar um fluxo de trabalho do grupo de busca
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>Para usar o Shell de gerenciamento do Skype for Business Server para criar ou modificar um fluxo de trabalho de grupo coletivo
 
 1. Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
 
@@ -217,7 +217,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
    ```
 
      > [!NOTE]
-     > Para usar um arquivo de áudio no prompt, use o cmdlet **Import-CsRgsAudioFile**. Para obter detalhes, consulte [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
+     > Para usar um arquivo de áudio no prompt, use o cmdlet **Import-CsRgsAudioFile**. Para obter detalhes, consulte [importar-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
 
 4. Obtenha a identidade da fila ou pergunta onde as chamadas serão direcionadas. Na linha de comando, execute:
 
@@ -225,7 +225,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
    $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
    ```
 
-    Para obter detalhes sobre como criar filas, consulte [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps).
+    Para obter detalhes sobre como criar a fila, consulte [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps).
 
 5. Defina a ação padrão a ser realizada quando um fluxo de trabalho é aberto durante o horário comercial e salve-o em uma variável. Na linha de comando, execute:
 
@@ -234,7 +234,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
    ```
 
     > [!NOTE]
-    > Para fluxos de trabalho do grupo de busca, a ação padrão deve direcionar a chamada para uma fila. Este parâmetro é obrigatório para fluxos de trabalho ativos. Não é necessário para fluxos de trabalho inativos.
+    > Para fluxos de trabalho do grupo de busca, a ação padrão deve direcionar a chamada para uma fila. Esse parâmetro é obrigatório para fluxos de trabalho ativos. Não é necessário para fluxos de trabalho inativos.
 
     Por exemplo:
 
@@ -242,17 +242,17 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. Se você deseja definir o horário comercial e feriados, é necessário criá-los antes de criar ou modificar o fluxo de trabalho. Para obter detalhes, consulte [horário comercial de grupo de resposta (opcional) definir no Skype para negócios](optional-define-response-group-business-hours.md) e [conjuntos de feriados do grupo de resposta (opcional) definir Skype para negócios](optional-define-response-group-holiday-sets.md).
+6. Se você deseja definir o horário comercial e feriados, é necessário criá-los antes de criar ou modificar o fluxo de trabalho. Para obter detalhes, consulte [(opcional) definir o horário comercial do grupo de resposta no Skype for Business](optional-define-response-group-business-hours.md) e [(opcional) definir os conjuntos de feriados do grupo de resposta no Skype for Business](optional-define-response-group-holiday-sets.md).
 
-7. Se você deseja ter prompts para chamadas recebidas fora do horário comercial ou em feriados, use o cmdlet **New-CsRgsPrompt** para definir o prompt e use o **New-CsRgsCallAction** para definir a ação a ser realizada após o prompt. Para obter detalhes, consulte [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) e [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
+7. Se você deseja ter prompts para chamadas recebidas fora do horário comercial ou em feriados, use o cmdlet **New-CsRgsPrompt** para definir o prompt e use o **New-CsRgsCallAction** para definir a ação a ser realizada após o prompt. Para obter detalhes, consulte [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) and [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
 
-8. Recuperar o nome de serviço para o serviço de grupo de resposta do Lync Server e atribuí-la a uma variável. No comando, execute:
+8. Recupere o nome do serviço do serviço de grupo de resposta do Lync Server e atribua-o a uma variável. No comando, execute:
 
    ```
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
-9. Criar ou modificar o fluxo de trabalho. Para criar um fluxo de trabalho, use **New-CsRgsWorkflow**. Para modificar um fluxo de trabalho, utilize **Set-CsRgsWorkflow**. Na linha de comando, digite:
+9. Crie ou modifique o fluxo de trabalho. Para criar um fluxo de trabalho, use **New-CsRgsWorkflow**. Para modificar um fluxo de trabalho, use **set-CsRgsWorkflow**. Na linha de comando, digite:
 
    ```
    $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-ManagersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
@@ -268,22 +268,22 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
      > Todos os usuários que são gerentes para fluxos de trabalho devem ser atribuídos à função CsResponseGroupManager.
 
      > [!NOTE]
-     > Para obter detalhes sobre parâmetros opcionais adicionais, consulte [New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps) ou [Set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
+     > Para obter detalhes sobre parâmetros opcionais adicionais, consulte [New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps) ou [set-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
 
 ## <a name="designing-an-interactive-workflow"></a>Projetando um fluxo de trabalho interativo
 
-Você pode usar uma resposta de voz interativa (IVR) para obter informações dos chamadores e direcionar a chamada para a fila apropriada. Os pares de perguntas e respostas determinam qual fila a ser usada. Dependendo da resposta do chamador, o chamador ouve uma pergunta de acompanhamento tanto é roteado para a fila apropriada. As perguntas IVR e as respostas do chamador são fornecidas ao operador que a aceitar a chamada, fornecendo informações valiosas ao operador.
+Você pode usar a IVR (resposta de voz interativa) para obter informações de chamadores e direcionar a chamada para a fila apropriada. Os pares de perguntas e respostas determinam qual fila usar. Dependendo da resposta do chamador, o chamador ouve uma pergunta de acompanhamento ou é encaminhado para a fila apropriada. As perguntas do IVR e as respostas do chamador são fornecidas ao agente de resposta que aceita a chamada, fornecendo informações valiosas ao agente.
 
 ### <a name="overview-of-ivr-features"></a>Visão geral dos recursos do IVR
 
-O aplicativo de grupo de resposta oferece reconhecimento de fala e recursos de texto em fala em 26 idiomas. É possível inserir perguntas IVR usando a conversão texto em fala ou um arquivo wave (.wav) ou Windows Media audio (.wma). Os chamadores podem responder usando a voz ou multifrequência de dois tons (DTMF).
+O aplicativo grupo de resposta oferece recursos de reconhecimento de fala e conversão de texto em fala em 26 idiomas. É possível inserir perguntas IVR usando a conversão texto em fala ou um arquivo wave (.wav) ou Windows Media audio (.wma). Os chamadores podem responder usando a voz ou multifrequência de dois tons (DTMF).
 
-Os fluxos de trabalho interativos suportam até dois níveis de perguntas, com cada pergunta tendo até quatro respostas possíveis. IVR faz o chamador uma pergunta e dependendo da resposta do chamador, encaminha o chamador para uma fila ou solicita uma segunda pergunta. A segunda pergunta também pode ter quatro respostas possíveis. Dependendo da resposta à pergunta de segundo nível, o chamador é roteado para a fila adequada.
+Os fluxos de trabalho interativos suportam até dois níveis de perguntas, com cada pergunta tendo até quatro respostas possíveis. O IVR faz uma pergunta ao autor e, dependendo da resposta do chamador, roteia o usuário para uma fila ou faz uma segunda pergunta. A segunda pergunta também pode ter quatro respostas possíveis. Dependendo da resposta à pergunta de segundo nível, o chamador é roteado para a fila adequada.
 
 > [!NOTE]
-> Ao criar fluxos de chamada usando Skype do Shell de gerenciamento do servidor de negócios, é possível definir qualquer número de níveis de perguntas IVR e qualquer número de respostas. No entanto, para melhor usabilidade do chamador, recomendamos que você não use mais de três níveis de perguntas, com não mais do que cinco respostas cada. Além disso, se você estiver desenvolvendo um fluxo de chamadas que tem mais de dois níveis de perguntas com mais de quatro respostas, você não pode editar o fluxo de chamadas usando Skype para o painel de controle do servidor de negócios.
+> Ao projetar fluxos de chamadas usando o Shell de gerenciamento do Skype for Business Server, você pode definir qualquer número de níveis de perguntas do IVR e qualquer número de respostas. No entanto, para melhor usabilidade do chamador, recomendamos que você não use mais de três níveis de perguntas, com não mais do que cinco respostas cada. Além disso, se você criar um fluxo de chamadas com mais de dois níveis de perguntas com mais de quatro respostas, não poderá editar o fluxo de chamadas usando o painel de controle do Skype for Business Server.
 
-As perguntas IVR e as respostas do chamador são fornecidas ao operador que aceita a chamada.
+As perguntas do IVR e as respostas do chamador são fornecidas ao agente de resposta que aceita a chamada.
 
 ### <a name="working-with-speech-technologies"></a>Trabalhando com tecnologias de fala
 
@@ -315,7 +315,7 @@ A figura a seguir mostra o fluxo de chamadas.
 
  **Fluxo de chamada interativa de um nível**
 
-![Criar fluxos de chamada usando a resposta de voz interativa interativa](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
+![Criar fluxos de chamadas usando o respo de voz interativo](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
 
 #### <a name="ivr-with-two-levels-of-questions"></a>IVR com dois níveis de perguntas
 
@@ -347,7 +347,7 @@ A figura a seguir mostra o fluxo de chamadas.
 
  **Fluxo de chamada interativa de dois níveis**
 
-![Criar fluxos de chamada usando a resposta de voz interativa interativa](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
+![Criar fluxos de chamadas usando o respo de voz interativo](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
 
 ### <a name="best-practices"></a>Práticas recomendadas
 
@@ -359,7 +359,7 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 
 - Fale no idioma do chamador. Evite usar uma linguagem refinada. Fale naturalmente.
 
-- Grave prompts eficazes e eficientes. Remova qualquer opção desnecessária. Estruture as informações de modo que a resposta esperada do chamador está no final da frase. Por exemplo, "Para falar com a equipe de venda, pressione 1".
+- Grave prompts eficazes e eficientes. Remova qualquer opção desnecessária. Estruture as informações para que a resposta esperada do chamador esteja no final da sentença. Por exemplo, "para falar com a equipe de vendas, pressione 1."
 
 - Torne as respostas de voz fáceis. Por exemplo, se você especificar as respostas DTMF e voz, use algo como: "Para falar com a equipe de vendas, pressione 1 ou diga vendas."
 
@@ -367,11 +367,11 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 
 ## <a name="creating-or-modifying-an-interactive-workflow"></a>Criando ou modificando um fluxo de trabalho interativo
 
-### <a name="to-use-response-group-configuration-tool-to-create-or-modify-an-interactive-workflow"></a>Usar a ferramenta de configuração de grupo de resposta para criar ou modificar um fluxo de trabalho interativo
+### <a name="to-use-response-group-configuration-tool-to-create-or-modify-an-interactive-workflow"></a>Para usar a ferramenta de configuração de grupo de resposta para criar ou modificar um fluxo de trabalho interativo
 
 1. Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
 
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server.
 
 3. Na barra de navegação à esquerda, clique em **Grupos de Resposta** e em **Fluxo de Trabalho**.
 
@@ -380,7 +380,7 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 5. No campo de pesquisa **Selecionar um serviço**, digite parte ou o nome inteiro do serviço **ApplicationServer** que hospeda o fluxo de trabalho que deseja criar ou modificar. Na lista resultante de serviços, clique no serviço que você deseja e clique em **OK**.
 
     > [!NOTE]
-    > Abre a ferramenta de configuração de grupo de resposta. Você também pode abrir a ferramenta de configuração de grupo de resposta diretamente a partir de um navegador da web, digitando o seguinte URL: https://\<webPoolFqdn\>/RgsConfig.
+    > A ferramenta de configuração de grupo de resposta é aberta. Você também pode abrir a ferramenta de configuração de grupo de resposta diretamente de um navegador da Web digitando a\<seguinte\>URL: https://webPoolFqdn/RgsConfig.
 
 6. Siga um destes procedimentos:
 
@@ -391,15 +391,15 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 7. Se ainda não estiver tudo pronto para os usuários começarem a chamar o fluxo de trabalho, desmarque a caixa de seleção **Ativar o fluxo de trabalho**.
 
     > [!NOTE]
-    >  Se você estiver criando um fluxo de trabalho gerenciado, você precisa selecionar **Ativar o fluxo de trabalho**. Após salvar o fluxo de trabalho gerenciado ativo, é possível modificar e desativá-lo.
+    >  Se você estiver criando um fluxo de trabalho gerenciado, será necessário selecionar **ativar o fluxo de trabalho**. Após salvar o fluxo de trabalho gerenciado ativo, é possível modificar e desativá-lo.
 
-8. Para permitir que usuários federados façam chamadas para o grupo, selecione a opção **Habilitar para federação**. Você também deve ter uma política de acesso externo que se aplica ao aplicativo grupo de resposta configurado para federação.
-
-    > [!NOTE]
-    > A política de acesso externo global aplica-se ao aplicativo grupo de resposta. Você pode configurar a política global para federação de grupo de resposta usando Skype para o painel de controle do Business Server ou usando o cmdlet **Set-CsExternalAccessPolicy** para definir o parâmetro EnableOutsideAccess como True. Lembre-se que as configurações de política global se aplicam a todos os usuários, a não ser que eles sejam atribuídos com uma política de usuário ou de site. Portanto, antes de alterar esta configuração para grupos de resposta, certifique-se de que as configurações de federação cumpre os requisitos da sua organização. Para obter detalhes sobre como as políticas são aplicadas aos usuários, consulte [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Para obter detalhes sobre a configuração de federação, consulte **Set-CsExternalAccessPolicy** na documentação..
+8. Para permitir que usuários federados façam chamadas para o grupo, selecione a opção **Habilitar para federação**. Você também deve ter uma política de acesso externo que se aplica ao aplicativo de grupo de resposta configurado para Federação.
 
     > [!NOTE]
-    > Usuários hospedados no Skype para Business Online não podem fazer chamadas para grupos de resposta hospedadas em uma implantação local. Isso é verdadeiro em ambas as implantações híbridas e, em casos onde uma implantação local é federada com um Skype para implantação Business Online.
+    > A política de acesso externo global global aplica-se ao aplicativo de grupo de resposta. Você pode configurar a política global para a reunião de grupo de resposta usando o painel de controle do Skype for Business Server ou usando o cmdlet **set-CsExternalAccessPolicy** para definir o parâmetro EnableOutsideAccess como true. Lembre-se que as configurações de política global se aplicam a todos os usuários, a não ser que eles sejam atribuídos com uma política de usuário ou de site. Portanto, antes de alterar esta configuração para grupos de resposta, certifique-se de que as configurações de federação cumpre os requisitos da sua organização. Para obter detalhes sobre como as políticas são aplicadas aos usuários, consulte [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). Para obter detalhes sobre a configuração de Federação, consulte **set-CsExternalAccessPolicy** in Documentation..
+
+    > [!NOTE]
+    > Os usuários hospedados no Skype for Business online não podem fazer chamadas para grupos de resposta hospedados em uma implantação local. Isso é verdade nas implantações híbridas e nos casos em que uma implantação local é federada com uma implantação do Skype for Business online.
 
 9. Para ocultar a identidade de operadores durante as chamadas, selecione a opção **Habilitar anonimato do operador**.
 
@@ -411,15 +411,15 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 11. Em **Nome de exibição**, digite o nome que deseja exibir no fluxo de trabalho (por exemplo, Serviço de resposta IVR de vendas).
 
     > [!NOTE]
-    > Não inclua o "\<"ou"\>" caracteres no nome de exibição. Não use os nomes de exibição a seguir, pois são reservados: **Observador de Presença RG** ou **Serviço de Anúncio**.
+    > Não inclua os caracteres "\<" ou "\>" no nome para exibição. Não use os nomes de exibição a seguir, pois são reservados: **Observador de Presença RG** ou **Serviço de Anúncio**.
 
 12. Em **Número de telefone**, digite o URI de linha para o grupo de resposta (por exemplo, +14255550165).
 
 13. Em **Número de Exibição**, digite o número conforme deseja que apareça para o grupo de resposta (por exemplo, +1 (425) 555-0165).
 
-14. (Opcional) Em **Descrição**, digite uma descrição para o fluxo de trabalho que você deseja que apareça no cartão de visita, do Skype para negócios.
+14. Adicionais Em **Descrição**, digite uma descrição para o fluxo de trabalho que você deseja que apareça no cartão de visita no Skype for Business.
 
-15. Em **Tipo de fluxo de trabalho**, selecione **Gerenciado** se este fluxo de trabalho será gerenciado por um Gerente o Grupo de Resposta. Faça o seguinte para atribuir gerentes do grupo de resposta ao fluxo de trabalho:
+15. Em **Tipo de fluxo de trabalho**, selecione **Gerenciado** se este fluxo de trabalho será gerenciado por um Gerente o Grupo de Resposta. Siga este procedimento para atribuir gerentes de grupo de resposta ao fluxo de trabalho:
 
     a. Digite o URI SIP de um gerente para este fluxo de trabalho e clique em **Adicionar**.
 
@@ -452,13 +452,13 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
     - Para usar uma agenda pré-definida de horário comercial, clique em **Usar uma agenda predefinida** e selecione a agenda que deseja usar na lista suspensa.
 
       > [!NOTE]
-      > Você deve ter definido no mínimo uma agenda predefinida anteriormente para selecionar esta opção. Você pode definir agendamentos predefinidos usando o cmdlet **New-CsRgsHoursOfBusiness** . Para obter detalhes, consulte [horário comercial de grupo de resposta (opcional) definir no Skype para negócios](optional-define-response-group-business-hours.md). Ao selecionar uma agenda predefinida, **Dia**, **Abertura** e **Fechamento** são automaticamente preenchidos com os dias e horas em que o grupo de resposta está disponível.
+      > Você deve ter definido no mínimo uma agenda predefinida anteriormente para selecionar esta opção. Você define cronogramas predefinidos usando o cmdlet **New-CsRgsHoursOfBusiness** . Para obter detalhes, consulte [(opcional) definir o horário comercial do grupo de resposta no Skype for Business](optional-define-response-group-business-hours.md). Ao selecionar uma agenda predefinida, **Dia**, **Abertura** e **Fechamento** são automaticamente preenchidos com os dias e horas em que o grupo de resposta está disponível.
 
     - Para usar uma agenda personalizada que se aplique somente a este fluxo de trabalho, clique em **Usar uma agenda personalizada**.
 
 20. Se estiver criando uma agenda personalizada para este fluxo de trabalho, clique nas opções para os dias da semana em que o grupo de resposta estará disponível.
 
-21. Se você estiver criando uma agenda personalizada, digite as horas de **abertura** e **fechamento** quando o grupo de resposta estará disponível.
+21. Se você estiver criando um cronograma personalizado, digite as horas de **abertura** e de **fechamento** quando o grupo de resposta estiver disponível.
 
      > [!NOTE]
      > As horas de **Abertura** e **Fechamento** devem estar na notação de 24 horas. Por exemplo, se seu escritório funciona em dias úteis das 9 às 5 e fecha ao meio dia para o almoço, o horário comercial é especificado como **Abertura** 9:00, **Fechamento** 12:00, **Abertura** 13:00 e **Fechamento** 17:00.
@@ -479,16 +479,16 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 
     - Para desconectar a chamada, clique em **Desconectar Chamada**.
 
-    - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço da caixa postal é * \<username\>*@*\<domainname\> * (por exemplo, bob@contoso.com).
+    - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço de correio de voz * \<é\>username*@*\<\> * DomainName (por exemplo, Bob@contoso.com).
 
-    - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço do usuário é _ \<username\>_@_\<domainname\>_.
+    - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço de usuário é _ \<username\>_@_\<DomainName\>_.
 
-    - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone é * \<número\>*@*\<domainname\> * (por exemplo, +14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
+    - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone é * \<número\>*@*\<DomainName\> * (por exemplo, + 14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
 
 24. Sob **Etapa 5 Especifique seus Feriados**, clique nas opções para um ou mais conjuntos de feriados que definem quando o grupo de resposta estará fechado para negócios.
 
     > [!NOTE]
-    > É necessário definir feriados e conjuntos de feriados antes de configurar o fluxo de trabalho. Use os cmdlets **New-CsRgsHoliday** e **New-CsRgsHolidaySet** para definir feriados e conjuntos de feriados. Para obter detalhes, consulte [conjuntos de feriados do grupo de resposta (opcional) definir Skype para negócios](optional-define-response-group-holiday-sets.md).
+    > É necessário definir feriados e conjuntos de feriados antes de configurar o fluxo de trabalho. Use os cmdlets **New-CsRgsHoliday** e **New-CsRgsHolidaySet** para definir feriados e conjuntos de feriados. Para obter detalhes, consulte [(opcional) definir os conjuntos de feriados do grupo de resposta no Skype for Business](optional-define-response-group-holiday-sets.md).
 
 25. Se você deseja reproduzir uma mensagem nos feriados, selecione a opção **Reproduzir uma mensagem durante os feriados** e especifique a mensagem a ser executada realizado um dos seguintes procedimentos:
 
@@ -506,11 +506,11 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 
     - Para desconectar a chamada, clique em **Desconectar Chamada**.
 
-    - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço da caixa postal é * \<username\>*@*\<domainname\> * (por exemplo, bob@contoso.com).
+    - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço de correio de voz * \<é\>username*@*\<\> * DomainName (por exemplo, Bob@contoso.com).
 
-    - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço do usuário é _ \<username\>_@_\<domainname\>_.
+    - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço de usuário é _ \<username\>_@_\<DomainName\>_.
 
-    - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone é * \<número\>*@*\<domainname\> * (por exemplo, +14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
+    - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone é * \<número\>*@*\<DomainName\> * (por exemplo, + 14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
 
 27. Sob **Etapa 6 Configure a Música de Espera**, escolha o que deseja que os chamadores ouçam enquanto esperam por um operador, executando um dos seguintes procedimentos:
 
@@ -531,7 +531,7 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
     > [!NOTE]
     > O símbolo "#" é traduzido pelo mecanismo de conversão de texto em fala como a palavra "número". Se for necessário fazer referência à tecla #, use o nome da tecla no prompt, em vez do símbolo. Por exemplo, "Para falar com vendas, pressione a tecla jogo da velha."
 
-    - Para usar um arquivo de áudio pré-gravado que contenha a pergunta, clique em **Selecionar uma gravação** e clique no link **uma gravação** para carregar o arquivo. Na nova janela do navegador, clique em **Procurar**, selecione o arquivo de áudio e clique em **Abrir**. Clique em **carregar** para carregar o arquivo e, em seguida, opcionalmente, você pode digitar a pergunta na caixa de texto (Isso habilitará a pergunta e resposta do chamador para serem encaminhadas ao operador).
+    - Para usar um arquivo de áudio pré-gravado que contenha a pergunta, clique em **Selecionar uma gravação** e clique no link **uma gravação** para carregar o arquivo. Na nova janela do navegador, clique em **Procurar**, selecione o arquivo de áudio e clique em **Abrir**. Clique em **carregar** para carregar o arquivo e, em seguida, opcionalmente, você pode digitar a pergunta na caixa de texto (isso permite que a pergunta e a resposta do chamador sejam encaminhadas para o agente de resposta).
 
       > [!NOTE]
       > Todos os arquivos de áudio fornecidos pelo usuário devem estar de acordo com determinados requisitos. Para detalhes sobre formatos de arquivo com suporte, consulte [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
@@ -558,7 +558,7 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 
 32. Clique em **Implantar**.
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>Usar Skype para Business Server Management Shell para criar ou modificar um fluxo de trabalho interativo
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>Para usar o Shell de gerenciamento do Skype for Business Server para criar ou modificar um fluxo de trabalho interativo
 
 1.  Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
 
@@ -640,13 +640,13 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
     ```
 
      > [!NOTE]
-     > Todos os usuários que tenham sido designados como gerente de um grupo de resposta devem ser atribuídos à função CsResponseGroupManager. Se os usuário não têm essa função, não será possível gerenciar grupos de resposta.
+     > Todos os usuários que foram designados como gerentes de um grupo de resposta devem receber a função CsResponseGroupManager. Se os usuário não têm essa função, não será possível gerenciar grupos de resposta.
 
 ## <a name="see-also"></a>Confira também
 
-[(Opcional) Conjuntos de feriados do grupo de resposta definir Skype para negócios](optional-define-response-group-holiday-sets.md)
+[Adicionais Definir conjuntos de feriados do grupo de resposta no Skype for Business](optional-define-response-group-holiday-sets.md)
 
-[(Opcional) Grupo de resposta definir expediente no Skype para negócios](optional-define-response-group-business-hours.md)
+[Adicionais Definir o horário comercial do grupo de resposta no Skype for Business](optional-define-response-group-business-hours.md)
 
 [New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
 

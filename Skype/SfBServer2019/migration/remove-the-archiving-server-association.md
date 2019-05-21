@@ -4,45 +4,45 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Para remover um servidor de arquivamento, você precisará alterar ou desmarque a dependência no pool de Front-End associado, servidor Front-End, o aparelho de filial e o servidor de filial persistente. Você editar as propriedades do pool de Front-End, servidor Front-End, servidor de filial persistente e aparelho de filial persistente para remover a dependência. Depois que você desmarcar a dependência e você excluir o servidor no construtor de topologia, você será notificado de que o objeto de armazenamento de banco de dados associado no construtor de topologia também será excluído.
-ms.openlocfilehash: 15e6b33decb11ce7ed4550b0d84cc346a0baf073
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Para remover um servidor de arquivamento, você precisa alterar ou desmarcar a dependência do pool de front-ends associado, servidor front-end, aparelho para filiais e servidor de ramificação sobreviventes. Edite as propriedades do pool de front-end, servidor front-end, appliances para ramificação sobreviventes e servidor de ramificação sobreviventes para remover a dependência. Depois de limpar a dependência e excluir o servidor no construtor de topologias, você será notificado de que o objeto de repositório de banco de dados associado também será excluído.
+ms.openlocfilehash: 52bba22f678bb4aee1ce406613ce19bb686a78c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231410"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301108"
 ---
 # <a name="remove-the-archiving-server-association"></a>Remover a associação de Servidor de Arquivamento
 
-Para remover um servidor de arquivamento, você precisará alterar ou desmarque a dependência a associado Front End pool, servidor Front-End, aparelho de filial persistente e servidor de filial persistente. Você editar as propriedades do pool Front-End, servidor Front-End, aparelho de filial persistente e servidor de filial persistente para remover a dependência. Depois que você desmarcar a dependência e excluir o servidor no construtor de topologia, você será notificado de que o objeto de armazenamento de banco de dados associado no construtor de topologia também será excluído.
+Para remover um servidor de arquivamento, você precisa alterar ou desmarcar a dependência do pool de front-ends, servidor front-end, aparelho de ramificação sobreviventes e servidor de ramificação sobreviventes. Edite as propriedades do pool de front-end, do servidor front-end, do Appliance para ramificação sobreviventes e do servidor de ramificação sobreviventes para remover a dependência. Depois de limpar a dependência e excluir o servidor no construtor de topologias, você será notificado de que o objeto de repositório de banco de dados associado também será excluído.
   
 ### <a name="to-remove-the-archiving-server-association"></a>Para remover a associação do servidor de arquivamento
 
-1. No Skype para Business Server 2019 servidor Front-End, abra o construtor de topologias.
+1. No servidor front-end do Skype for Business Server 2019, abra o construtor de topologias.
     
-2. Navegue até o nó install herdado.
+2. Navegue até o nó instalação herdada.
     
-3. No construtor de topologia, expanda **pools de Front End do Enterprise Edition**, **Servidores Standard Edition Front End**ou **sites de filiais**, dependendo de onde o servidor de arquivamento está definido.
+3. No construtor de topologia, expanda Pools de **front-end do Enterprise Edition**, **servidores front-end da edição padrão**ou **sites**de filiais, dependendo de onde o servidor de arquivamento está definido.
     
-4. Se você tiver um servidor de filial persistente associado, expanda **sites de filiais**, expanda o nome do site de filial e expanda **Aparelhos de filial persistente**.
+4. Se você tiver um servidor de ramificação sobreviventes associado, expanda **sites**de ramificação, expanda o nome do site da filial e expanda **aparelhos de ramificação sobreviventes**.
     
     > [!NOTE]
-    > **Aparelhos de filial persistente** na interface do usuário aplica-se ao servidor de filial persistente e aparelho de filial persistente. 
+    > **Aparelhos de ramificação sobreviventes** na interface do usuário se aplicam ao servidor de ramificação sobreviventes e ao aparelho de ramificação sobreviventes. 
   
-5. Com o botão direito do pool, servidor ou dispositivo que está associado ao servidor de arquivamento e, em seguida, clique em **Editar propriedades**.
+5. Clique com o botão direito do mouse no pool, no servidor ou no dispositivo associado ao servidor de arquivamento e, em seguida, clique em **Editar propriedades**.
     
-6. Em **Editar propriedades**, em **Geral** > **associações**, desmarque a caixa de seleção **Associar servidor de arquivamento** e clique em **Okey**.
+6. Em **Editar propriedades**, em **** > **associações**gerais, desmarque a caixa de seleção **associar servidor** de arquivamento e clique em **OK**.
     
 7. Repita a etapa anterior para qualquer outro pool, servidor ou dispositivo associado ao servidor de arquivamento que você deseja remover.
     
-8. Com o botão direito do servidor de arquivamento e clique em **Excluir**.
+8. Clique com o botão direito do mouse no servidor de arquivamento e, em seguida, clique em **excluir**.
     
-9. Em **Excluir armazenamentos dependentes**, clique em **Okey**.
+9. Em **excluir repositórios dependentes**, clique em **OK**.
     
-10. Publique a topologia, verifique o status de replicação e execute o Skype para o Assistente de implantação de servidor de negócios conforme necessário. 
+10. Publique a topologia, verifique o status da replicação e execute o assistente de implantação do Skype for Business Server conforme necessário. 
     
 

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.
-ms.openlocfilehash: bcab4a05e7e24fd301563627a82f739ca169ecc2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 64eaa010939c10a25e7c1fb4c53672a27296ebe1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229920"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290846"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Definir seu PIN para transferir números para um novo provedor de serviços
 
@@ -51,13 +51,13 @@ Veja aqui algumas informações específicas sobre esse PIN que você deve saber
     
 ## <a name="set-up-your-pin"></a>Configure seu PIN
 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
+2. Vá para o > **portal herdado**do **centro de administração do Microsoft Teams**.
     
-3. No painel de navegação esquerdo, escolha **voz** > **pedidos de porta**.
+3. Na navegação à esquerda, escolha **** > **pedidos de porta**de voz.
     
 4. Clique em **Configurar e gerenciar o PIN** que é usado para transferir ou portar números para outra operadora de serviço.
     

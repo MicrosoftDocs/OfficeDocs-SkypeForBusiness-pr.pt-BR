@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Tailândia.
-ms.openlocfilehash: 2d76789fd107613296d410a7d0b94651e1456d2a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Tailândia.
+ms.openlocfilehash: 10aa1854cf65e8fa3372040b1d696e389c0c64b6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221935"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291467"
 ---
 # <a name="availability-in-thailand"></a>Disponibilidade na Tailândia
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Tailândia.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Tailândia.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim  <br/> |
-|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para: <br/><ul><li> Bangcoc</ul>Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para: <br/><ul><li> Bangkok</ul>Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
    
 ## <a name="phone-system"></a>Sistema de Telefonia
@@ -67,7 +67,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Bangcoc <li>  Chiang Mai <li>  Chon Buri <li>  Nakhon Ratchasima </ul> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Bangkok <li>  Chiang Mai <li>  Chon Buri <li>  Nakhon Ratchasima </ul> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.TopoStatusMain
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'A página Topologia: Status exibe o status dos servidores em sua topologia do Skype for Business.'
-ms.openlocfilehash: cfbafd779284a5a2de9726742c64e3e688fdf026
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 428549f736264b3800d08d4d3bbfa5267d556aa4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890897"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289648"
 ---
 # <a name="topology-status"></a>Topologia: Status
 
@@ -28,7 +28,7 @@ A página **Topologia**: **Status** exibe o status dos servidores em sua topolog
 
 É possível executar as seguintes tarefas na página **Topologia**: **Status**:
 
-- [Exibir uma lista de computadores que executam o Skype para Business Server ou do Lync Server](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [Exibir uma lista de computadores que executam o Skype for Business Server ou o Lync Server](https://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
 
 - [View Details About a Service](https://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
 

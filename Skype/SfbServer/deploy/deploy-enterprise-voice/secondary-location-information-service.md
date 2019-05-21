@@ -1,10 +1,10 @@
 ---
-title: Configurar um serviço de informações de localização secundário no Skype para Business Server
+title: Configurar um serviço de informações de localização secundário no Skype for Business Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,19 +13,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
-description: Configure um banco de dados de origem (SLS) de localização secundária para E9-1-1 em Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 047fd1a7dca0c4c2b76d01fd0c5d67230246441e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Configurar um banco de dados de endereço de local secundário (SLS) para E9-1-1 no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: 0d637b8b2b61526837be2d56b8654f40bc556064
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892290"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288530"
 ---
-# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>Configurar um serviço de informações de localização secundário no Skype para Business Server
+# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>Configurar um serviço de informações de localização secundário no Skype for Business Server
  
-Configure um banco de dados de origem (SLS) de localização secundária para E9-1-1 em Skype para Business Server Enterprise Voice. 
+Configurar um banco de dados de endereço de local secundário (SLS) para E9-1-1 no Skype for Business Server Enterprise Voice. 
   
-Skype para Business Server fornece uma interface de serviço web que você pode usar para apontar o serviço de informações de local para um banco de dados de origem de localização secundário (SLS). A interface de serviço da web que se conecta ao banco de dados SLS deve se adequar ao WSDL do serviço de informações de local. Se um banco de dados local e o banco de dados de localização secundária forem configurados, o serviço de informações de local primeiro consulta o banco de dados local e se nenhuma correspondência for encontrada, envia a solicitação de localização do cliente para o banco de dados SLS. Se o local existe no SLS, o serviço de informações de local envia o local de volta para o cliente. 
+O Skype for Business Server oferece uma interface de serviço Web que você pode usar para apontar o serviço de informações de localização para um banco de dados de local secundário (SLS). A interface do serviço Web que se conecta ao banco de dados SLS deve estar de acordo com o WSDL do serviço de informações de localização. Se o banco de dados de localização e o banco de dados de local secundário estiverem configurados, o serviço informações de localização primeiro consultará o banco de dados de localização e, se nenhuma correspondência for encontrada, envia a solicitação de localização do cliente para o banco de dados SLS. Se o local existir no SLS, o serviço de informações de localização enviará o local de volta ao cliente. 
   
 ### <a name="to-configure-a-secondary-location-database"></a>Para configurar o banco de dados de localização secundária
 
