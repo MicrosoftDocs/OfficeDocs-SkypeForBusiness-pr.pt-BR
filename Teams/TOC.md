@@ -140,7 +140,7 @@
 #### [E-mails enviados automaticamente para os usuários quando as configurações são alteradas](emails-sent-to-users-when-their-settings-change-in-teams.md)
 #### [Ativar ou desativar o envio de e-mails quando alterar configurações de audioconferência](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Desativar números gratuitos para usuários específicos](disabling-toll-free-numbers-for-specific-teams-users.md)
-#### [Políticas de restrição de chamadas de saída para audioconferência e chamadas PSTN do usuário](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Políticas de restrição de chamadas de saída para audioconferência e chamadas PSTN do usuário](outbound-calling-restriction-policies.md)
 #### [Exibir e redefinir uma ID de conferência atribuída a um usuário](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
 #### [Enviar um email para um usuário com suas informações de audioconferência](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
 
@@ -285,7 +285,7 @@
 #### [Alterar o idioma padrão da caixa postal](change-the-default-language-for-greetings-and-emails.md)
 #### [Idiomas de mensagens e saudações da caixa postal](languages-for-voicemail-greetings-and-messages.md)
 ### ID do chamador
-#### [Como a identificação de chamada pode ser usada em sua organização](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Como a identificação de chamada pode ser usada em sua organização](how-can-caller-id-be-used-in-your-organization.md)
 #### [Definir a identificação de chamada de um usuário](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Atendedores automáticos e filas de chamadas 
 #### [Quais são os atendedores automáticos do Cloud](what-are-phone-system-auto-attendants.md)
@@ -336,7 +336,7 @@
 ### [Obter números de telefone para seus usuários](getting-phone-numbers-for-your-users.md)
 ### [Quantos números de telefone você consegue obter?](how-many-phone-numbers-can-you-get.md)
 ### [Atribuir, alterar ou remover o número de telefone de um usuário](assign-change-or-remove-a-phone-number-for-a-user.md)
-### [Obter números de telefone de serviço](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Obter números de telefone de serviço](getting-service-phone-numbers.md)
 ### [Transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md)
 ### [Perguntas comuns sobre a transferência de números de telefone](transferring-phone-numbers-common-questions.md)
 

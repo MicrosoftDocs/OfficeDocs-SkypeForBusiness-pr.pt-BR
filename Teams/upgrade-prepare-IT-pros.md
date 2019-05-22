@@ -1,12 +1,12 @@
 ---
-title: Treinamento para equipes da Microsoft | Administração de problemas de suporte de TI
+title: Treinamento para Microsoft Teams | Problemas de administração do suporte de ti
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Prepare a equipe de TI em sua organização para a implantação e suporte Microsoft Teams.
+description: Prepare a equipe de ti em sua organização para a implantação e o suporte ao Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,38 +15,38 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0334b13b79348203666c81e597af7b6f00a6190
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9864d05be6fe316d04991aba653f36ce047c5c1
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906844"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344514"
 ---
-<span data-ttu-id="a7fcc-103">![Estágios da atualização jornada, com ênfase na etapa de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação técnica")</span><span class="sxs-lookup"><span data-stu-id="a7fcc-103">![Stages of the upgrade journey, with emphasis on the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")</span></span>
+<span data-ttu-id="779e8-103">![Estágios da jornada da atualização, com ênfase no estágio de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")</span><span class="sxs-lookup"><span data-stu-id="779e8-103">![Stages of the upgrade journey, with emphasis on the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")</span></span>
 
-<span data-ttu-id="a7fcc-104">Este artigo faz parte do estágio de prontidão técnica de sua atualização jornada, uma atividade que você concluir em paralelo com o estágio de preparação do usuário.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-104">This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage.</span></span> <span data-ttu-id="a7fcc-105">Antes de continuar, confirme que você tiver concluído essas atividades desde estágios anteriores:</span><span class="sxs-lookup"><span data-stu-id="a7fcc-105">Before proceeding, confirm that you’ve completed these activities from previous stages:</span></span>
+<span data-ttu-id="779e8-104">Este artigo faz parte do estágio de preparação técnica da sua jornada de atualização, uma atividade que você conclui em paralelo com o estágio de preparação do usuário.</span><span class="sxs-lookup"><span data-stu-id="779e8-104">This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage.</span></span> <span data-ttu-id="779e8-105">Antes de prosseguir, confirme que você concluiu essas atividades dos estágios anteriores:</span><span class="sxs-lookup"><span data-stu-id="779e8-105">Before proceeding, confirm that you’ve completed these activities from previous stages:</span></span>
 
-- [<span data-ttu-id="a7fcc-106">Inscrito seus participantes do projeto</span><span class="sxs-lookup"><span data-stu-id="a7fcc-106">Enlisted your project stakeholders</span></span>](upgrade-enlist-stakeholders.md)
-- [<span data-ttu-id="a7fcc-107">Definido o escopo do projeto</span><span class="sxs-lookup"><span data-stu-id="a7fcc-107">Defined your project scope</span></span>](https://aka.ms/SkypetoTeams-Scope)
-- [<span data-ttu-id="a7fcc-108">Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios</span><span class="sxs-lookup"><span data-stu-id="a7fcc-108">Understood coexistence and interoperability of Skype for Business and Teams</span></span>](https://aka.ms/SkypeToTeams-Coexist)
-- [<span data-ttu-id="a7fcc-109">Escolhido sua jornada de atualização</span><span class="sxs-lookup"><span data-stu-id="a7fcc-109">Chosen your upgrade journey</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [<span data-ttu-id="779e8-106">Listamos os participantes do projeto</span><span class="sxs-lookup"><span data-stu-id="779e8-106">Enlisted your project stakeholders</span></span>](upgrade-enlist-stakeholders.md)
+- [<span data-ttu-id="779e8-107">Definiu o escopo do projeto</span><span class="sxs-lookup"><span data-stu-id="779e8-107">Defined your project scope</span></span>](https://aka.ms/SkypetoTeams-Scope)
+- [<span data-ttu-id="779e8-108">Compreendemos a coexistência e interoperabilidade do Skype for Business e do teams</span><span class="sxs-lookup"><span data-stu-id="779e8-108">Understood coexistence and interoperability of Skype for Business and Teams</span></span>](https://aka.ms/SkypeToTeams-Coexist)
+- [<span data-ttu-id="779e8-109">Escolhido a jornada da atualização</span><span class="sxs-lookup"><span data-stu-id="779e8-109">Chosen your upgrade journey</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="prepare-your-it-staff-for-microsoft-teams"></a><span data-ttu-id="a7fcc-110">Preparar sua equipe de TI for Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="a7fcc-110">Prepare your IT staff for Microsoft Teams</span></span>
+# <a name="prepare-your-it-staff-for-microsoft-teams"></a><span data-ttu-id="779e8-110">Preparar sua equipe de ti para o Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="779e8-110">Prepare your IT staff for Microsoft Teams</span></span>
 
-<span data-ttu-id="a7fcc-111">Seus administradores de Inquilino do Office 365, líderes técnicos e para o suporte técnico são responsáveis por conduzir uma experiência de usuário de alta qualidade.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-111">Your Office 365 tenant admins, technical leads, and support desk are accountable for driving a high-quality user experience.</span></span> <span data-ttu-id="a7fcc-112">Isso inclui a garantir que sua rede está pronta para oferecer suporte a equipes, configurando as equipes para seus usuários e poder efetivamente solucionar e resolver problemas que podem surgir.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-112">This includes ensuring that your network is ready to support Teams, configuring Teams for your users, and being able to effectively troubleshoot and resolve issues that might arise.</span></span>
+<span data-ttu-id="779e8-111">Seus administradores de locatários do Office 365, líderes técnicos e support Desk podem ser levados em conta com uma experiência de usuário de alta qualidade.</span><span class="sxs-lookup"><span data-stu-id="779e8-111">Your Office 365 tenant admins, technical leads, and support desk are accountable for driving a high-quality user experience.</span></span> <span data-ttu-id="779e8-112">Isso inclui garantir que sua rede esteja pronta para dar suporte a equipes, configurar equipes para seus usuários e poder solucionar problemas que possam surgir e solucionar problemas que possam surgir.</span><span class="sxs-lookup"><span data-stu-id="779e8-112">This includes ensuring that your network is ready to support Teams, configuring Teams for your users, and being able to effectively troubleshoot and resolve issues that might arise.</span></span>
 
-<span data-ttu-id="a7fcc-113">Compartilhar os recursos a seguir com seus membros da equipe de TI e confirme que eles estão prontos para suportar usuários antes de começar a atualização para equipes:</span><span class="sxs-lookup"><span data-stu-id="a7fcc-113">Share the following resources with your IT staff members, and confirm that they’re ready to support users before you begin your upgrade to Teams:</span></span>
+<span data-ttu-id="779e8-113">Compartilhe os recursos a seguir com os membros da equipe de ti e confirme se estão prontos para dar suporte aos usuários antes de começar a atualização para o Microsoft Teams:</span><span class="sxs-lookup"><span data-stu-id="779e8-113">Share the following resources with your IT staff members, and confirm that they’re ready to support users before you begin your upgrade to Teams:</span></span>
 
-- [<span data-ttu-id="a7fcc-114">Treinamento de administrador para o Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="a7fcc-114">Admin training for Microsoft Teams</span></span>](itadmin-readiness.md)
-- [<span data-ttu-id="a7fcc-115">Entre em contato com o suporte para produtos comerciais - Ajuda para Administradores</span><span class="sxs-lookup"><span data-stu-id="a7fcc-115">Contact support for business products - Admin Help</span></span>](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [<span data-ttu-id="a7fcc-116">Solucionar problemas de conectividade do cliente Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="a7fcc-116">Troubleshoot connectivity issues with the Microsoft Teams client</span></span>](connectivity-issues.md)
-- [<span data-ttu-id="a7fcc-117">Usar arquivos de log para solucionar problemas no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="a7fcc-117">Use log files in troubleshooting Microsoft Teams</span></span>](log-files.md)
+- [<span data-ttu-id="779e8-114">Treinamento de administrador para o Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="779e8-114">Admin training for Microsoft Teams</span></span>](itadmin-readiness.md)
+- [<span data-ttu-id="779e8-115">Entre em contato com o suporte para produtos comerciais - Ajuda para Administradores</span><span class="sxs-lookup"><span data-stu-id="779e8-115">Contact support for business products - Admin Help</span></span>](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [<span data-ttu-id="779e8-116">Solucionar problemas de conectividade do cliente Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="779e8-116">Troubleshoot connectivity issues with the Microsoft Teams client</span></span>](connectivity-issues.md)
+- [<span data-ttu-id="779e8-117">Usar arquivos de log para solucionar problemas no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="779e8-117">Use log files in troubleshooting Microsoft Teams</span></span>](log-files.md)
 
-[//]: # (Pergunte Debbie para investigar:)
+[//]: # (Peça Debbie a analisar:)
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/><span data-ttu-id="a7fcc-119">Pontos de decisão</span><span class="sxs-lookup"><span data-stu-id="a7fcc-119">Decision points</span></span>|<ul><li><span data-ttu-id="a7fcc-120">Você tem envolvido todas as equipes de suporte que provavelmente estarão envolvidos na implantação e equipes de suporte?</span><span class="sxs-lookup"><span data-stu-id="a7fcc-120">Have you involved all support staff who are likely to be involved in deploying and supporting Teams?</span></span></li><li><span data-ttu-id="a7fcc-121">Você desenvolveu um plano de treinamento para a equipe de inclusão adicionais como sua atualização em andamento?</span><span class="sxs-lookup"><span data-stu-id="a7fcc-121">Have you developed a training plan for onboarding additional staff as your upgrade progresses?</span></span></li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/><span data-ttu-id="a7fcc-122">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="a7fcc-122">Next steps</span></span>|<ul><li><span data-ttu-id="a7fcc-123">Verifique se a equipe de TI tem as informações necessárias.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-123">Verify that IT staff has the information they need.</span></span></li><li><span data-ttu-id="a7fcc-124">Rever seus planos de treinamento e preparação quando novos recursos são liberados.</span><span class="sxs-lookup"><span data-stu-id="a7fcc-124">Revisit your training and preparation plans as new features are released.</span></span></li></ul>|
+| ![Um ícone que representa os pontos de decisão](media/audio_conferencing_image7.png) <br/><span data-ttu-id="779e8-120">Pontos de decisão</span><span class="sxs-lookup"><span data-stu-id="779e8-120">Decision points</span></span>|<ul><li><span data-ttu-id="779e8-121">Você já participou de toda a equipe de suporte que provavelmente participará da implantação e da equipe de suporte?</span><span class="sxs-lookup"><span data-stu-id="779e8-121">Have you involved all support staff who are likely to be involved in deploying and supporting Teams?</span></span></li><li><span data-ttu-id="779e8-122">Você já desenvolveu um plano de treinamento para integrar outros funcionários à medida que a atualização progride?</span><span class="sxs-lookup"><span data-stu-id="779e8-122">Have you developed a training plan for onboarding additional staff as your upgrade progresses?</span></span></li></ul> |
+| ![Um ícone que representa as próximas etapas](media/audio_conferencing_image9.png)<br/><span data-ttu-id="779e8-124">Próximas etapas</span><span class="sxs-lookup"><span data-stu-id="779e8-124">Next steps</span></span>|<ul><li><span data-ttu-id="779e8-125">Verifique se a equipe de ti tem as informações de que precisam.</span><span class="sxs-lookup"><span data-stu-id="779e8-125">Verify that IT staff has the information they need.</span></span></li><li><span data-ttu-id="779e8-126">Revisite seu treinamento e seus planos de preparação à medida que novos recursos são lançados.</span><span class="sxs-lookup"><span data-stu-id="779e8-126">Revisit your training and preparation plans as new features are released.</span></span></li></ul>|
 
-<span data-ttu-id="a7fcc-125">Depois de ter preparado sua equipe de TI para equipes, verifique se seu ambiente atende todos os [pré-requisitos](upgrade-plan-journey-prerequisites.md).</span><span class="sxs-lookup"><span data-stu-id="a7fcc-125">After you’ve prepared your IT staff for Teams, verify that your environment meets all [prerequisites](upgrade-plan-journey-prerequisites.md).</span></span>
+<span data-ttu-id="779e8-127">Depois de ter preparado sua equipe de ti para o Teams, verifique se o seu ambiente atende a todos os [pré-requisitos](upgrade-plan-journey-prerequisites.md).</span><span class="sxs-lookup"><span data-stu-id="779e8-127">After you’ve prepared your IT staff for Teams, verify that your environment meets all [prerequisites](upgrade-plan-journey-prerequisites.md).</span></span>
