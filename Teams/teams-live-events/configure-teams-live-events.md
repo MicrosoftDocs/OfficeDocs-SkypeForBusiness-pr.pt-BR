@@ -12,60 +12,60 @@ localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: Saiba como gerenciar configurações para eventos ao vivo de equipes que são mantidos em sua organização.
+description: Saiba como gerenciar as configurações de eventos dinâmicos do teams que são mantidas em sua organização.
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3c1a3c4883705f5e9e5ded88cce94fc37da650b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 74eafcd6b16fe6d4c4b4f82c3b3472879ba506eb
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204729"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344174"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
-Use as configurações de eventos ao vivo de equipes para definir configurações para live eventos que são mantidos em sua organização. Você pode configurar uma URL de suporte e configurar um provedor de distribuição de vídeo de terceiros. Essas configurações se aplicam a todos os eventos ao vivo que são criados em sua organização. 
+Use as configurações de eventos ao vivo do teams para definir configurações para eventos dinâmicos que são mantidos em sua organização. Você pode configurar uma URL de suporte e configurar um provedor de distribuição de vídeo de terceiros. Essas configurações se aplicam a todos os eventos dinâmicos que são criados em sua organização. 
 
-Você pode gerenciar facilmente essas configurações no Centro de administração do Microsoft Teams. No painel de navegação esquerdo, vá para **reuniões** > **configurações de eventos ao vivo**. 
+Você pode facilmente gerenciar essas configurações no centro de administração do Microsoft Teams. No painel de navegação esquerdo, vá para**configurações de eventos ao vivo**de **reuniões** > . 
 
-![Live-evento-settings.png] (../media/teams-live-events-settings.png "Captura de tela das equipes live configurações de eventos que você pode definir no Centro de administração de equipes da Microsoft") 
+![Live-Event-Settings. png] (../media/teams-live-events-settings.png "Captura de tela das configurações de eventos do teams Live que você pode configurar no centro de administração do Microsoft Teams") 
 
-## <a name="set-up-event-support-url"></a>Configurar a URL de suporte do evento
+## <a name="set-up-event-support-url"></a>Configurar a URL de suporte a eventos
 
-Essa URL é mostrada para os participantes do evento de live. Adicione a URL de suporte para a sua organização para oferecer uma maneira de contato do suporte durante um evento ao vivo de participantes.
+Esta URL é mostrada para participantes do evento ao vivo. Adicione a URL de suporte para a sua organização para dar aos participantes uma maneira de entrar em contato com o suporte durante um evento ao vivo.
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![as equipes de logotipo-30x30.png](../media/teams-logo-30x30.png) Usando o Centro de administração do Microsoft Teams
+### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](../media/teams-logo-30x30.png) Usar o centro de administração do Microsoft Teams
 
-1. No painel de navegação esquerdo, vá para **reuniões** > **configurações de evento ao vivo**.
-2. Em **Suporte de URL**, insira a URL de suporte da sua organização. 
+1. No painel de navegação esquerdo, vá para **reuniões** > **ao vivo configurações de eventos**.
+2. Em **URL de suporte**, insira a URL de suporte da sua organização. 
 
-    ![Configuração de URL de suporte para live eventos no Centro de administração de equipes da Microsoft] (../media/teams-live-events-settings-supporturl.png "Captura de tela de suporte para a URL de configuração para equipes eventos ao vivo")
+    ![Configuração da URL de suporte para eventos dinâmicos no centro de administração do Microsoft Teams] (../media/teams-live-events-settings-supporturl.png "Captura de tela da configuração da URL de suporte para eventos ao vivo") do teams
 
 ### <a name="using-windows-powershell"></a>Usar o Windows PowerShell
 Execute o seguinte:
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
 ```
-Para obter mais informações, consulte [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
+Para obter mais informações, consulte [set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
 ## <a name="configure-a-third-party-video-distribution-provider"></a>Configurar um provedor de distribuição de vídeo de terceiros 
 
-Se você comprou e configurar uma solução de software definida de rede (SDN) ou uma solução de rede (eCDN) de fornecimento de conteúdo corporativo por meio de um parceiro de entrega de vídeo da Microsoft, configure o provedor para eventos ao vivo em equipes. 
+Se você comprou e configurou uma solução SDN (software defined Network) ou uma solução Enterprise Content Delivery Network (eCDN) por meio de um parceiro de entrega de vídeo da Microsoft, configure o provedor para eventos dinâmicos no Teams. 
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![as equipes de logotipo-30x30.png](../media/teams-logo-30x30.png) Usando o Centro de administração do Microsoft Teams
+### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](../media/teams-logo-30x30.png) Usar o centro de administração do Microsoft Teams
 
-1. No painel de navegação esquerdo, vá para **reuniões** > **configurações de evento ao vivo**.
+1. No painel de navegação esquerdo, vá para **reuniões** > **ao vivo configurações de eventos**.
 2. Em **provedores de distribuição de vídeo de terceiros**, conclua o seguinte: 
 
-    ![Configurações do provedor de distribuição de vídeo de terceiros no Centro de administração de equipes da Microsoft] (../media/teams-live-events-settings-distribution-provider.png "Captura de tela das configurações do provedor de distribuição de vídeo de terceiros para live eventos")
+    ![Configurações de provedor de distribuição de vídeo de terceiros no centro de administração do Microsoft Teams] (../media/teams-live-events-settings-distribution-provider.png "Captura de tela das configurações de provedor de distribuição de vídeo de terceiros para eventos dinâmicos")
 
-    - **Use um provedor de distribuição de terceiros** Desative essa opção para habilitar o provedor de distribuição de vídeo de terceiros.
-    - **Nome do provedor SDN** Escolha o provedor que você está usando.
-    - **Chave de licença de provedor** Insira a ID de licença que você obteve de seu contato do provedor.
-    - **URL do modelo de API SDN** Insira a URL do modelo de API que você obteve de seu contato do provedor.
+    - **Usar um provedor de distribuição de terceiros** Ative esta opção para habilitar o provedor de distribuição de vídeo de terceiros.
+    - **Nome do provedor do Sdn** Escolha o provedor que você está usando.
+    - **Chave de licença do provedor** Digite a ID da licença que você recebeu do contato do provedor.
+    - **URL do modelo de API do Sdn** Digite a URL do modelo de API que você recebeu do contato do provedor.
 
 ### <a name="using-windows-powershell"></a>Usar o Windows PowerShell
-Obter o token de ID ou o API de licença e o modelo de API de seu contato do provedor e, em seguida, execute um dos seguintes procedimentos, dependendo do provedor que você está usando:
+Obtenha a ID da licença ou o token da API e o modelo de API do contato do provedor e execute um dos seguintes procedimentos, dependendo do provedor que você está usando:
 
 **Hive** 
 ```
@@ -75,10 +75,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
-Para obter mais informações, consulte [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
+Para obter mais informações, consulte [set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
 
 > [!NOTE]
-> Se você planeja criar eventos ao vivo que usam codificadores externos, você também precisará [configurar seu provedor de eCDN com Microsoft Stream](https://docs.microsoft.com/stream/network-caching). 
+> Se você planeja criar eventos dinâmicos que usam codificadores externos, também precisará [configurar seu provedor de eCDN com o Microsoft Stream](https://docs.microsoft.com/stream/network-caching). 
 
 ### <a name="related-topics"></a>Tópicos relacionados
 - [O que são os eventos ao vivo do Teams?](what-are-teams-live-events.md)

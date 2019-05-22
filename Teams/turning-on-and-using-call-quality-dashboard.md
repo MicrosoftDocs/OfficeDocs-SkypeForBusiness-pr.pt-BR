@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Veja como ativar e usar o painel de qualidade de chamada do Skype for Business Online e obter relatórios resumidos de qualidade das chamadas. '
-ms.openlocfilehash: afcb0243144784929e8516308084fda791b0bcec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 258390562206f55918a2b1440ed30ca16f7e7a93
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291533"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344881"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativar e usar o painel de qualidade da chamada para Microsoft Teams e Skype for Business Online
 
@@ -55,7 +55,7 @@ Consulte este artigo para obter uma lista de [dimensões e medidas disponíveis 
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Ativar relatórios de resumo do Microsoft Call Quality Dashboard (CQD)
 
 Antes de começar a usar o CQD, você precisará ativá-lo para a sua organização do Office 365.
-![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
  
 1. Entre em sua organização do Office 365 usando a conta de administrador do Microsoft Teams Service e, em seguida, selecione o bloco do **administrador** para abrir o centro de administração.
     

@@ -8,37 +8,37 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Regularmente avaliam oportunidades para melhorar o serviço de equipes, monitorar o mapa de equipes para qualquer aprimoramentos de recursos interessantes.
+description: Avaliar regularmente oportunidades para aprimorar o serviço do Teams, monitorar o roteiro do teams para obter os aprimoramentos de recursos interessantes.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fbc287254503c9c38f6a13bc77d747d91566b8d6
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: d5a912556d5a88583d0ee7e2a4331be5f259a517
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400832"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344833"
 ---
 # <a name="enhance-my-service"></a>Aprimorar meu serviço
 
-Este artigo fornece uma visão geral dos requisitos para obter o máximo da nuvem de serviços de voz para sua organização. Monitorando continuamente recursos do serviço de voz de nuvem, você pode ter certeza de que está sendo fornecido o valor máximo para sua organização.
+Este artigo oferece uma visão geral dos requisitos para aproveitar ao máximo os serviços de voz em nuvem para a sua organização. Ao monitorar continuamente as funcionalidades do serviço de voz em nuvem, você pode ter certeza de que está fornecendo o valor máximo para a sua organização.
 
-## <a name="enhance-my-service-overview"></a>Aperfeiçoar minha visão geral do serviço
-Depois que você tiver implantado com êxito audioconferências ou o sistema telefônico com planos de chamar os serviços para sua organização e está operando o serviço com qualidade e confiabilidade, a próxima etapa é regularmente avaliar se você tem qualquer oportunidades para Melhore seus serviços. Isso é uma parte do aperfeiçoamento contínuo serviço planejamento, ou seja, um moderno padrão para o gerenciamento de serviços de nuvem. 
+## <a name="enhance-my-service-overview"></a>Melhorar a visão geral do serviço
+Depois de implantar com êxito a conferência de áudio ou o sistema telefônico com os serviços de planos de chamadas para sua organização e operar o serviço com qualidade e confiabilidade, a próxima etapa é avaliar regularmente se você tem oportunidades de Aprimore seus serviços. Isso faz parte do planejamento contínuo do aperfeiçoamento de serviços que é um padrão moderno para gerenciamento de serviços em nuvem. 
 
-Uma ótima maneira de certificar-se de que sempre obterá o máximo de seus serviços é monitorar os [mapas de equipes públicos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) para novas melhorias de recurso que podem interessar à sua organização. Se você tiver acesso ao portal do Office 365 Admin você receberá atualizações regulares nossas sobre recursos novos e variáveis por meio de nosso centro de mensagens. 
+Uma ótima maneira de garantir que você esteja sempre obtendo o máximo dos seus serviços é monitorar os roteiros [públicos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) do teams para os novos aprimoramentos de recursos que podem ser de interesse para a sua organização. Se você tiver acesso ao portal de administração do Office 365, receberá atualizações regulares dos mesmos sobre os recursos novos e dinâmicos por meio do nosso centro de mensagens. 
 
-Além disso, porque as organizações crescem e alteradas, você deve levar o tempo para rever e atualizar seus casos de uso de negócios em intervalos regulares para certificar-se de que o serviço é configurado para atender às necessidades de atual da sua organização.  Certifique-se de que você está obtendo comentários no mundo real do seus usuários e campeões internos, estabelecendo canais de comentários na sua organização. Essas podem ser conversas informais, reuniões regulares ou por meio de um equipes de canal ou da comunidade do Yammer. 
+Além disso, como as organizações crescem e mudam, você deve levar tempo para revisitar e atualizar seus casos de uso empresarial em intervalos regulares para garantir que o serviço seja configurado para atender às necessidades atuais da sua organização.  Assegure-se de que você esteja obtendo comentários do mundo real de seus usuários e especialistas internos, estabelecendo canais de feedback em sua organização. Elas podem ser conversas informais, reuniões regulares ou por meio de um canal do teams ou da Comunidade do Yammer. 
 
-Quando visualizar oportunidades para melhorar seu serviço Reserve um tempo para fazê-la à direita. Rever [Deploy chat, equipes, canais e aplicativos em equipes da Microsoft](deploy-chat-teams-channels-microsoft-teams-landing-page.md) e aplicar a mesma orientação ponta a ponta. Quando você faz alterações pequenas e incrementais, é improvável que você precisará concluir todas as atividades e tarefas integralmente, mas você deve ter certeza avaliar cada atividade e a tarefa ao longo do percurso para oferecer a mesmo as chances em um resultado bem-sucedido.
+Quando você vir oportunidades para aprimorar seu serviço, Reserve o tempo para fazer isso certo. Reveja a [implantação de chat, equipes, canais e aplicativos no Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) e aplique as mesmas diretrizes de ponta a ponta. Ao fazer alterações pequenas e incrementais, é improvável que você precise concluir todas as atividades e tarefas de forma completa, mas deve ter certeza de avaliar cada atividade e tarefa ao mesmo tempo para dar a si mesmo a melhor chance com um resultado bem-sucedido.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida quem monitorará mapas públicos e outros anúncios de serviço para novos recursos ou serviços que sua organização pode beneficiar.</li><li>Decida sobre a cadência nas quais a ser relatado esses novos recursos ou serviços de volta para as principais partes interessadas, via seu comitê de orientação.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Implemente uma estratégia para permanecer atualizado com os seus serviços para obter o valor máximo para sua organização.</li><li>Aprimoramentos de serviço por meio de um ciclo de vida de projeto completo para certificar-se de que você tiver contabilizado corretamente o impacto que causam sobre a implantação da unidade.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida quem monitorará mapas públicos e outros anúncios de serviços para novos recursos ou serviços dos quais sua organização pode beneficiar.</li><li>Decida na cadência a fim de denunciar esses novos recursos ou serviços de volta para os principais interessados, por meio do seu Comitê de direcionamento.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Implemente uma estratégia para manter-se atualizado com seus serviços e obter o maior valor para a sua organização.</li><li>Aprimoramentos de serviço de drive por meio de um ciclo de vida completo do projeto para garantir que você tenha contado corretamente para o impacto que eles têm na sua implantação.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

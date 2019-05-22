@@ -1,12 +1,12 @@
 ---
-title: Preparar para atualizar do Microsoft Teams |  Lista de verificação de inclusão de distribuição
+title: Preparar para a atualização do Microsoft Teams |  Lista de verificação de distribuição de integração
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Use estas diretrizes para preparar o seu locatário para distribuição e implantação de equipes
+description: Use estas diretrizes para preparar seu locatário para implantação e distribuição de equipes
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,63 +15,63 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d0494b0f12480fabc3d0353e5a47fa5db3a9879
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6a8b08f40b6e080293fa54f60c139a3e05f50eb4
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885450"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344070"
 ---
-![Estágios da atualização jornada, com ênfase na etapa de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação técnica")
+![Estágios da viagem de atualização, realçando o estágio de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")
 
-Este artigo faz parte do estágio de prontidão técnica de sua atualização jornada, uma atividade que você concluir em paralelo com o estágio de preparação do usuário. Antes de continuar, confirme que você tiver concluído essas atividades desde estágios anteriores:
+Este artigo faz parte do estágio de preparação técnica da sua jornada de atualização, uma atividade que você conclui em paralelo com o estágio de preparação do usuário. Antes de prosseguir, confirme que você concluiu essas atividades dos estágios anteriores:
 
-- [Inscrito seus participantes do projeto](upgrade-enlist-stakeholders.md)
-- [Definido o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
-- [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
-- [Escolhido sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Listamos os participantes do projeto](upgrade-enlist-stakeholders.md)
+- [Definiu o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Compreendemos a coexistência e interoperabilidade do Skype for Business e do teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Escolhido a jornada da atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="prepare-your-service-for-upgrading-to-teams"></a>Preparar seu serviço para a atualização para equipes
+# <a name="prepare-your-service-for-upgrading-to-teams"></a>Preparar seu serviço para a atualização para o Microsoft Teams
 
-Este artigo fornece uma visão geral dos requisitos de preparação de sua organização para colaboração e serviços de voz de nuvem com equipes. Ao preparar-se adequadamente, você pode ser que você esteja pronto para fornecer esses recursos à sua organização.
+Este artigo fornece uma visão geral dos requisitos para preparar sua organização para serviços de colaboração e de voz em nuvem com o Microsoft Teams. Ao preparar-se corretamente, você pode ter certeza de que está pronto para fornecer esses recursos à sua organização.
 
-## <a name="onboarding-checklists-for-microsoft-teams-rollout"></a>Listas de verificação de inclusão de distribuição do Microsoft Teams
+## <a name="onboarding-checklists-for-microsoft-teams-rollout"></a>Listas de verificação integradas para distribuição do Microsoft Teams
 
-As listas de verificação a seguintes orientam você em meio as etapas de implantação Teams da Microsoft em sua organização:
+As listas de verificação a seguir orientam você pelas etapas para implantar o Microsoft Teams em sua organização:
 
-- [Preparar o Office 365 para equipes](onboarding-checklist-enable-office-365.md)
+- [Preparar o Office 365 para Teams](onboarding-checklist-enable-office-365.md)
 
-- [Configurar os principais recursos de equipes](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
+- [Configurar recursos essenciais do teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
 - [Configurar a rede](onboarding-checklist-configure-networking.md)
 
-- [Configurar as cargas de trabalho de voz de nuvem em equipes](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [Configurar cargas de trabalho de voz na nuvem no Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 
-- [Configurar o roteamento direta em equipes](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [Configurar o roteamento direto no Teams](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
 
-As tarefas e atividades nestas listas de verificação são core "tarefas pendentes" itens que se aplicam a todas as implantações de colaboração e recursos de voz com equipes. Você pode personalizar as listas de verificação para incluir as atividades e tarefas que são específicas para sua própria jornada de equipes.
+As tarefas e atividades nessas listas de verificação são itens principais que se aplicam a todas as implementações de recursos de colaboração e voz com o Microsoft Teams. Você pode personalizar as listas de verificação para incluir as atividades e tarefas específicas à sua viagem de equipes.
 
-Use as listas de verificação fornecidas para rastrear o status de cada atividade individual e a tarefa e ter a certeza de que você ainda não ignorados nenhuma etapa crítica. Cada atividade inclui uma descrição detalhada de ações necessárias e referências para obter informações adicionais que você pode usar para concluir essa atividade.
+Use as listas de verificação fornecidas para acompanhar o status de cada atividade e tarefa individual e para ter certeza de que você não ignorou nenhuma etapa crítica. Cada atividade inclui uma descrição detalhada das ações necessárias e referências a informações adicionais que você pode usar para concluir a atividade.
 
-Embora seja recomendável que você siga as listas de verificação em ordem, a sequência exata dependerá do escopo de sua implantação e a configuração e a complexidade do seu ambiente. Eles estão organizados para dar suporte a qualquer um "em ambiente intacto" às equipes de implantação (com nenhum Skype anterior para presença Online de negócios um) ou atualização do Skype para Business Online para equipes. Se você estiver atualizando do Skype para Business Online, você talvez já tenha concluído algumas dessas atividades e ignorá-las agora.
+Embora recomendemos que você siga as listas de verificação em ordem, a sequência exata dependerá do escopo da sua implantação e da configuração e da complexidade do seu ambiente. Elas são organizadas para dar suporte a uma implantação de equipes "greenfield" (uma com qualquer presença anterior do Skype for Business online) ou a atualização do Skype for Business online para o Microsoft Teams. Se você estiver atualizando do Skype for Business Online, talvez já tenha concluído algumas dessas atividades e pode ignorá-las agora.
 
-Quando você estiver inclusão de usuários em uma base por site, é altamente recomendável que você use o [Site Playbook de habilitação para voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) como um guia suplementar estas listas de verificação.
+Quando você estiver fazendo a integração de usuários de acordo com o site, é altamente recomendável usar o guia [de habilitação do site para voz (guia estratégico)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) como um guia complementar para essas listas de verificação.
 
 >[!NOTE]
->A maioria das definições de configuração são comuns entre equipes e Skype para negócios Online. Você pode usar o Centro de administração do Microsoft Teams para definir essas configurações.
+>A maioria das configurações de configuração é comum entre o Teams e o Skype for Business online. Use o centro de administração do Microsoft Teams para definir essas configurações.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Ponto de decisão</td><td><ul><li>Quem será responsável pela supervisão a conclusão das listas de inclusão de verificação?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Baixe as listas de verificação de inclusão.</li><li>Trabalhar através dos itens de lista de verificação de inclusão passo a passo de acordo com o plano de implantação da sua organização.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Ponto de decisão</td><td><ul><li>Quem será responsável por supervisionar a conclusão das listas de verificação de integração?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Baixe as listas de verificação de integração.</li><li>Trabalhe nos itens da lista de verificação de integração, passo a passo, de acordo com o plano de implantação da sua organização.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## <a name="continue-onboarding"></a>Continuar a inclusão
+## <a name="continue-onboarding"></a>Continuar a integração
 
-Depois de concluir esta lista de verificação, prossiga para a próxima etapa: [realizar um piloto do usuário](pilot-essentials.md)
+Depois de concluir esta lista de verificação, prossiga para a próxima etapa: [conduzir um piloto de usuário](pilot-essentials.md)
 
-[//]: # (@Turgay, posso comentadas Este próximo parágrafo porque ele é nuvem específicos para voz.)
+[//]: # (@Turgay, comentamos este próximo parágrafo porque ele é específico de voz da nuvem.)
 <!--
 As the next step, use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) to help you onboard your users on each site to cloud voice, and help ensure that you plan and execute important site-specific activities.
 -->

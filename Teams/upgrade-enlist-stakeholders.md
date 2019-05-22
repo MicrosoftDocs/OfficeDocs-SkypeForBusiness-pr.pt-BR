@@ -1,12 +1,12 @@
 ---
-title: Inscrever-se os participantes | Skype para negócios a equipes de planejamento da atualização
+title: Inscrever participantes | Planejamento de atualização do Skype for Business para Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Inscrever-se os participantes para servir na equipe do projeto para sua atualização.
+description: Solicite que os participantes atendam à equipe de projeto para sua atualização.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,53 +15,53 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1d1db7c652ed365c264c3c33684832de098a3c0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9c5534edd8257652a50351ea6d7e6e14d449104a
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920347"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344621"
 ---
-![Estágios da atualização jornada, com ênfase na coleta de sua equipe de participantes do projeto] (media/upgrade-banner-stakeholders.png "Estágios da atualização jornada, com ênfase na coleta de sua equipe de participantes do projeto")
+![Estágios da jornada da atualização, com ênfase na coleta de sua equipe de participantes do projeto] (media/upgrade-banner-stakeholders.png "Estágios da jornada da atualização, com ênfase na coleta de sua equipe de participantes do projeto")
 
-Este artigo faz parte do estágio participantes do projeto da sua jornada de atualização, a atividade de primeira e mais essencial Concluir para o sucesso do seu projeto.
+Este artigo faz parte do estágio de stakeholders do projeto da sua jornada de atualização, a primeira e mais essencial atividade que você concluiu para o sucesso do seu projeto.
 
 # <a name="enlist-your-project-stakeholders"></a>Listar os participantes em seu projeto
 
-Com a implementação de resultados finais do projeto orientando accountability, os acionistas mantenha pressionada a tecla para o sucesso do seu projeto. Existem dois grupos de participantes que você vai querer atribuir: (1) uma _coalition patrocínio_ que inclui o projeto e executivo responsáveis que têm interesse e influenciam no sucesso do projeto e (2) a _equipe de projeto_, consistindo o planejar a pessoas responsáveis por garantir técnica e preparação do usuário, que vai concluir várias tarefas no projeto. O segmento comum entre esses dois grupos é o _gerente de projeto_, que trabalha para garantir que tarefas de projeto obtém concluídas no prazo e relatórios de status de volta para a coalition do project.
+Da implementação dos resultados do projeto à condução da responsabilidade, seus stakeholders mantêm a chave para o sucesso do seu projeto. Há dois grupos de stakeholders que você vai querer atribuir: (1) um _patrocínio de aliança_ que inclui patrocinadores executivos e de projeto que têm interesse e influência sobre o sucesso do projeto e (2) a _equipe do projeto_, que consiste no pessoas responsáveis por garantir a prontidão técnica e do usuário, que concluirá as diversas tarefas no plano do projeto. O thread comum entre esses dois grupos é o _gerente de projeto_, que trabalha para garantir que as tarefas do projeto sejam concluídas no agendamento e relata o status do projeto de volta para o aliança.
 
 > [!Tip]
-> Tempo de Take para identificar o patrocinador executivo ideal, uma pessoa que podem ajudar a definir o tom do seu projeto, clientes potenciais por exemplo e contém outras pessoas responsável. Este deve ser um gerente sênior ou executivo que tem autoridade sobre o escopo do projeto e visão. Eles também devem ser o tomador de decisão final em removendo bloqueadores e resolução de conflito para ajudar a manter o projeto no prazo e do orçamento.
+> Reserve algum tempo para identificar o patrocinador executivo ideal, uma pessoa que pode ajudar a definir o tom do seu projeto, clientes potenciais por exemplo e manter as outras pessoas responsáveis por você. Esse é um gerente sênior ou executivo que tem autoridade sobre o escopo e a visão do projeto. Eles também devem ser o responsável pela remoção de bloqueadores e a resolução de conflitos para ajudar a manter o projeto dentro do prazo e do orçamento.
 
-Opcionalmente, você pode criar um comitê de orientação. Em alguns casos, grandes ou mais complexos projetos acabam com "muitas cozinheiros na cozinha", resultando em desconecta entre os grupos das partes interessadas. Para esses projetos, você talvez queira um comitê de direcionamento de formulário. Comitê de direcionamento de um é responsável por conduzir decisões, fornecendo supervisão estratégico, suporte a iniciativas do projeto, e — quando necessário — removendo bloqueadores. Você pode encontrar mais informações sobre como implementar um comitê de orientação no [Comitê de direcionamento de guia](https://aka.ms/SteeringCommittee).
+Opcionalmente, você pode criar um Comitê de direcionamento. Às vezes, grandes ou mais complexos projetos acabam com "muitos encaradores na cozinha", resultando em desconexões entre os grupos de stakeholder. Para esses projetos, talvez você queira formar um Comitê de direcionamento. Um Comitê de direcionamento é responsável por tomar decisões, oferecer supervisão estratégica, dar suporte às iniciativas do projeto e, quando necessário, remover bloqueadores. Você pode encontrar mais informações sobre como implementar um Comitê de direcionamento no [Guia do Comitê de direção](https://aka.ms/SteeringCommittee).
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>Pontos de decisão | <ul><li>Quem são as pessoas certas para servir como sua equipe das partes interessadas para esse projeto?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Próximas etapas | <ul><li>Considere o escopo do seu projeto e atribuir os participantes relevantes.</li><li>Use a tabela a seguir como uma diretriz, mas observe que essa lista não é completa.<br><strong>Dica</strong><br>Construa um responsável-responsável-consultado-informados [matrix (RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) para obter mais distinguir quem será responsável daquelas que simplesmente precisam ser mantidas informadas em uma área específica do projeto.</li> |
-| <li>Decida se deseja criar um comitê de orientação e atribuir funções conforme apropriado.</li></ul> | |
+| ![Um ícone que representa os pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão | <ul><li>Quais são as pessoas certas para servirem como sua equipe de Stakeholder para este projeto?</li></ul> |
+| ![Um ícone que representa as próximas etapas](media/audio_conferencing_image9.png)<br/>Próximas etapas | <ul><li>Considere o escopo do seu projeto e atribua os stakeholders relevantes.</li><li>Use a tabela a seguir como uma diretriz, mas observe que essa lista não é completa.<br><strong>Tampa</strong><br>Crie uma matriz informada por conta responsável – com consulta [(RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) para diferenciar ainda mais os que serão responsáveis pela conta daqueles que simplesmente precisam ser mantidos em uma determinada área do projeto.</li> |
+| <li>Decida se deseja criar um Comitê de direcionamento e atribuir funções conforme apropriado.</li></ul> | |
 
-| Funções | Responsabilidade |
+| Funções | Responsabiliza |
 |---|---|
-| **Coalition patrocínio** | |
-| Patrocinador executivo | Unidades de mensagens geral e accountability |
-| Patrocinador de negócios | Facilita a novas solicitações de tecnologia para sua unidade de negócios |
+| **Aliança de patrocínio** | |
+| Patrocinador executivo | Impulsiona as mensagens e a responsabilidade gerais |
+| Patrocinador empresarial | Facilita novas solicitações de tecnologia para a unidade de negócios |
 | Gerentes de departamento | Representa as equipes mais afetadas por essa alteração |
-| Gerente de recursos humanos | É responsável gerenciamento de talento |
-| Gerente/líder do projeto | Inspeciona o projeto de transição, garante a conclusão de todas as tarefas |
-| **Equipe de projeto** | |
-| Colaboração liderança / arquitetura | Cria e implementa a arquitetura da solução |
-| Líder de rede | Fornece ideias sobre o design de rede e em execução |
-| Líder de segurança | Fornece ideias sobre o design de segurança, processo e implementação |
-| Líder de comunicação síncrona | É o proprietário de ferramentas, como o bate-papo, reuniões e a chamada de presença |
-| Líder de colaboração assíncrona | É proprietário assíncrona ferramentas, como o SharePoint, OneDrive e assim por diante |
-| Líder de telefonia | Fornece visões telefonia design e implementação |
-| Proprietário de serviço / campeão de qualidade | Proprietário da operação de todas as equipes-up, incluindo a qualidade da experiência do usuário |
-| Área de trabalho e de avanço de dispositivos | Fornece uma entrada em clientes, dispositivos e aplicativos de área de trabalho |
-| IT Pro/locatário Admin | Garante a preparação da rede e o Office 365 portal configurações estão funcionando |
-| Líder de suporte/suporte técnico | Gerencia a preparação de sua mesa de suporte |
-| Líder de gerenciamento de alteração | Inspeciona o programa de adoção e gerenciamento de alteração do usuário |
-| Líder de marketing | Projeta e implementa campanhas de comunicações |
+| Gerente de recursos humanos | É uma conta para o gerenciamento de talentos |
+| Gerente de projetos/líder | Supervisiona o projeto de transição, garante a conclusão de todas as tarefas |
+| **Equipe do projeto** | |
+| Líder/arquiteto de colaboração | Cria e implementa a arquitetura da solução |
+| Líder de rede | Fornece ideias sobre o design e a execução da rede |
+| Líder de segurança | Fornece ideias sobre o design, processo e implementação de segurança |
+| Cliente potencial de comunicações síncronos | Possui ferramentas de presença, como chat, reuniões e chamadas |
+| Cliente potencial de colaboração assíncrona | Possui ferramentas assíncronas como o SharePoint, o OneDrive e assim por diante |
+| Líder de telefonia | Fornece ideias sobre o design e a implementação de telefonia |
+| Proprietário do serviço/especialista em qualidade | É proprietário da operação do Microsoft Teams, incluindo a qualidade da experiência do usuário |
+| Cliente potencial da área de trabalho e dispositivos | Fornece entrada em clientes, dispositivos e aplicativos da área de trabalho |
+| Administrador de locatários e profissionais de ti | Garante a prontidão da rede e as configurações do portal do Office 365 estão em vigor |
+| Líder de suporte/suporte técnico | Gerencia a prontidão do suporte técnico |
+| Chefe de gerenciamento de alterações | Supervisiona o programa de gerenciamento e adoção de alterações do usuário |
+| Chefe de marketing | Projeta e implementa campanhas de comunicação |
 | Líder de treinamento | Projeta e implementa planos de treinamento |
 
-Depois de reunidos os acionistas, prossiga para a próxima etapa: [definir o escopo do projeto](https://aka.ms/SkypetoTeams-Scope).
+Depois de coletar seus participantes, prossiga para a próxima etapa: [definir o escopo do projeto](https://aka.ms/SkypetoTeams-Scope).

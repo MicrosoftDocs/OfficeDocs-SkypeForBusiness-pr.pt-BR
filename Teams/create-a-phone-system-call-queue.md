@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem para dar a você uma saudação organizacional, música em espera e redirecionar chamadas para agentes de chamadas em listas de distribuição e grupos de segurança. Você também pode definir o tamanho máximo da fila, o tempo limite e as opções de tratamento de chamadas.
-ms.openlocfilehash: 2dd984ef90ecbf710070c5746389e1c1806b104a
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: e32ab12c63f20439d21c9c1829cd4b32bdd34d70
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330904"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344681"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
@@ -285,7 +285,7 @@ Em seguida, aplique a política ao usuário usando o cmdlet **Grant-CallingLineI
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
-Você pode obter mais informações sobre como fazer alterações nas configurações de identificação de chamada em sua organização no artigo [como a identificação de chamadas pode ser usada em sua organização](/skypeforbusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
+Você pode obter mais informações sobre como fazer alterações nas configurações de identificação de chamada em sua organização no artigo [como a identificação de chamadas pode ser usada em sua organização](/microsoftteams/how-can-caller-id-be-used-in-your-organization).
   
 ## <a name="want-to-know-more"></a>Deseja saber mais?
 

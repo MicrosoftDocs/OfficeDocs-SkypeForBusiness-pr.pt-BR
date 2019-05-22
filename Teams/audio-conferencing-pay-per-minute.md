@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: Além da licença de videoconferência padrão por usuário, as organizações que usam o licenciamento por volume da Microsoft também podem escolher uma oferta de pagamento por minuto para habilitar os recursos de audioconferência para suas organizações.
-ms.openlocfilehash: 90f547eacabfc3dbe38244f82ca5f9c8262ea7ca
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7be5acfcb6dc86179c29c983c9764569232e1d97
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283528"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344705"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconferência Pagar por Minuto
 
@@ -61,7 +61,7 @@ Para habilitar o pagamento por minuto da conferência de áudio para os usuário
 
 - O pagamento por minuto só será cobrado por minuto para cada chamada de entrada ou de saída feita por cada participante durante uma reunião agendada (as tarifas variam de acordo com chamada tarifada ou chamada gratuita e destino) em vez de usar o aplicativo Skype for Business ou Teams em um celular dispositivo ou computador.
 
-- Capacidade de gerenciar custos, pois os administradores podem controlar para restringir os tipos de chamadas discadas (internacionais e nacionais) que podem ser feitas a partir das reuniões de um organizador. Consulte [políticas de restrição de chamadas de saída para conferências de áudio e chamadas PSTN do usuário](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies)
+- Capacidade de gerenciar custos, pois os administradores podem controlar para restringir os tipos de chamadas discadas (internacionais e nacionais) que podem ser feitas a partir das reuniões de um organizador. Consulte [políticas de restrição de chamadas de saída para conferências de áudio e chamadas PSTN do usuário](/microsoftteams/outbound-calling-restriction-policies)
 
 - Se você tiver licenças de Audioconferência Pagar por Minuto, não precisa atribuir licenças de Créditos de Comunicação separadamente para cada usuário especificamente para uso de Audioconferência (você ainda precisará atribuí-las para outros serviços).
 

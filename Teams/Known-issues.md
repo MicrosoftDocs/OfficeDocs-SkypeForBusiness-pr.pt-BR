@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f52ffd975d671b71f098cb15c6dd7c8661c082d
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: 377d86bd71947588186979f20068b9e8927ccd3d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33994149"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287906"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -310,4 +310,4 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Não é possível mover, excluir ou renomear arquivos após a edição  <br/> |Depois que um arquivo é editado no MS Teams, ele não pode ser movido, renomeado ou excluído imediatamente <br/> |Esse é atualmente um problema conhecido e a solução alternativa é aguardar algum tempo antes de fazer uma alteração administrativa.  <br/> |03/12119  <br/> |
+|Não é possível mover, excluir ou renomear arquivos após a edição  <br/> |Após um arquivo ser editado no Teams, ele não pode ser movido, renomeado ou excluído imediatamente <br/> |Atualmente, esse é um problema conhecido e a solução alternativa é aguardar algum tempo antes de fazer uma alteração administrativa.  <br/> |12/03/19  <br/> |

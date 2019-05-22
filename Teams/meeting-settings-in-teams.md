@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Saiba como gerenciar as configurações de reuniões do Team que os usuários agendam em sua organização.
-ms.openlocfilehash: 9dab34c518b4c0c5c25e55d894a1dacf4e0a773e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1828d626261c97cf3514781a5c55dbecd59d7666
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298115"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344873"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -33,7 +33,7 @@ Como administrador, você usa as configurações de reuniões do teams para cont
 
 Com a junção anônima, qualquer pessoa pode ingressar na reunião como usuário anônimo clicando no link no convite da reunião.
 
-![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
 
 1. No painel de navegação esquerdo, vá para**configurações de reunião**de **reuniões** > .
 2. Em **participantes**, ativar **usuários anônimos podem ingressar em uma reunião**.
@@ -54,7 +54,7 @@ Você pode personalizar convites de reunião do teams para atender às necessida
 
 ### <a name="customize-your-meeting-invitations"></a>Personalizar seus convites de reunião
 
-![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
 
 1. No painel de navegação esquerdo, vá para**configurações de reunião**de **reuniões** > .
 2. Em **convite por email**, faça o seguinte:
@@ -73,7 +73,7 @@ Você pode personalizar convites de reunião do teams para atender às necessida
 
 Se você estiver usando a [QoS (](qos-in-teams.md) qualidade de serviço) para priorizar o tráfego de rede, poderá habilitar os marcadores de QoS e poderá definir intervalos de porta para cada tipo de tráfego de mídia.
 
- ![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
+ ![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
 
 1. No painel de navegação esquerdo, vá para**configurações de reunião**de **reuniões** > .
 2. Em **rede**, faça o seguinte:

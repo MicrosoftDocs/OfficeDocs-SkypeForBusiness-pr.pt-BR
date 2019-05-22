@@ -7,7 +7,7 @@ ms.date: 01/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
-description: Diretrizes para profissionais de TI para as implantações do Office 365 de unidade nas entidades que manipular dados sujeitos governo dos EUA norma DoD.
+description: Orientação para profissionais de ti para conduzir implantações do Office 365 em entidades que lidam com os dados sujeitos a normas do governo dos EUA.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -16,142 +16,142 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06f3371233b4ff16be8d55813e1621c3b08566d9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 29de55208f53988a5941d114f3e681fd217f1b7e
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32247099"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344352"
 ---
-# <a name="plan-for-microsoft-365-government---dod-deployments"></a>Planejar Microsoft 365 governamental - implantações DoD
+# <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plano para implantações do governo Microsoft 365-DoD
 
-Esta orientação é para profissionais de TI que estão orientando a implantações do Office 365 em conosco entidades governamentais federais ou outras entidades que lidam com dados que estão sujeito a regulamentos do governo e requisitos, onde o uso do Microsoft 365 governamental – DoD é apropriado atender a esses requisitos.
+Esta orientação é para os profissionais de ti que estão impulsionando implantações do Office 365 em entidades governamentais federais dos EUA ou outras entidades que lidam com os dados sujeitos a normas e requisitos governamentais, em que o uso do Microsoft 365 governo – DoD é adequado para Atenda a esses requisitos.
 
 > [!NOTE]
-> Se sua organização já tiver atendidos Microsoft 365 governo – requisitos de qualificação DoD e aplicadas para e foi aceita no programa, poderá ignorar as etapas 1 e 2 e ir diretamente para a etapa 3.
+> Se sua organização já atendeu aos requisitos de qualificação do governo do Microsoft 365 e se aplicou e foi aceito no programa, você pode ignorar as etapas 1 e 2 e ir diretamente para a etapa 3.
 
-## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---dod-and-meets-eligibility-requirements"></a>Etapa 1. Determine se a sua organização precisa governo de 365 da Microsoft - DoD e atende aos requisitos de qualificação. 
+## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---dod-and-meets-eligibility-requirements"></a>Etapa 1. Determine se a sua organização precisa do Microsoft 365 governo-DoD e atenda aos requisitos de qualificação. 
 
-Fornece do governo Microsoft 365 - ambiente DoD cumprimento dos EUA requisitos do governo para serviços de nuvem. Além de usufruir os recursos e capacidades do Office 365, organizações se beneficiam os seguintes recursos que são exclusivos para o Microsoft 365 governamental – DoD:
+O ambiente Microsoft 365 governo-DoD fornece conformidade com os requisitos governamentais dos EUA para serviços de nuvem. Além de desfrutar dos recursos e funcionalidades do Office 365, as organizações se beneficiam dos seguintes recursos exclusivos do Microsoft 365 governo – DoD:
 
-- Conteúdo do cliente da sua organização logicamente é separado do conteúdo do cliente no Office 365 serviços comerciais da Microsoft.
-- Conteúdo do cliente da sua organização é armazenado nos Estados Unidos.
-- Acesso ao conteúdo de cliente da sua organização é restrito a equipe da Microsoft filtrada.
-- Microsoft 365 governamental – DoD cumpre certificações e referências são necessárias para clientes conosco setor público.
+- O conteúdo do cliente da sua organização é logicamente segregado do conteúdo do cliente nos serviços comerciais do Office 365 da Microsoft.
+- O conteúdo do cliente da sua organização é armazenado nos Estados Unidos.
+- O acesso ao conteúdo do cliente da sua organização está restrito ao pessoal da Microsoft em tela.
+- Governo Microsoft 365 – o DoD está em conformidade com certificações e capacitações necessárias para clientes do setor público dos EUA.
 
-Você pode encontrar mais informações sobre o Microsoft 365 governamental – DoD oferecendo clientes governamentais conosco em [que planos do Office 365 governamental](https://products.office.com/government/compare-office-365-government-plans), incluindo [requisitos de qualificação](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
+Você pode encontrar mais informações sobre o governo Microsoft 365 – ofertas do governo dos EUA para clientes do governo dos EUA em [planos do governo do Office 365](https://products.office.com/government/compare-office-365-government-plans), incluindo [requisitos de qualificação](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-A [Descrição do serviço Office 365 US governamentais](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) descreve os benefícios da plataforma, que são centralizados de atender aos requisitos de conformidade dentro dos Estados Unidos.
+A [Descrição do serviço governo dos EUA do Office 365](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) descreve as vantagens da plataforma, que são centralizadas em requisitos de conformidade de reunião nos Estados Unidos.
 
 
 > [!Tip]
-> Talvez você queira os índices de informações na descrição do serviço de transferência em uma pasta de trabalho do Excel e adicionar duas colunas: **relevante para minha organização Y/N** e **atende às necessidades da minha organização Y/N**. Em seguida, você pode revisar essa lista com seus colegas para confirmar que esse serviço atenda às necessidades da sua organização.
+> Talvez você queira transferir as tabelas de informações na descrição do serviço para uma pasta de trabalho do Excel e adicionar duas colunas: **pertinentes para minha organização y/n** e **atender às necessidades da minha organização y/n**. Em seguida, você pode revisar essa lista com seus colegas para confirmar que esse serviço atende às necessidades da sua organização.
 
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se o Microsoft 365 governamental - DoD é adequado para sua organização.</li><li>Confirme se sua organização atende aos requisitos de qualificação.</li></ul> |
+| ![Um ícone que representa os pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se o Microsoft 365 governo-DoD é apropriado para sua organização.</li><li>Confirme se a sua organização atende aos requisitos de qualificação.</li></ul> |
 
 > [!Note]
-> Microsoft 365 governamental - DoD só está disponível nos Estados Unidos. Clientes do governo não – dos EUA podem escolher um número de [planos do Office 365 governamental](https://products.office.com/en/government/compare-office-365-government-plans).
+> O Microsoft 365 governo-DoD só está disponível nos Estados Unidos. Os clientes do governo dos EUA podem escolher entre vários [planos governamentais do Office 365](https://products.office.com/en/government/compare-office-365-government-plans).
 
-## <a name="step-2-apply-for-microsoft-365-government---dod"></a>Etapa 2. Aplicar Microsoft 365 governamental - DoD
+## <a name="step-2-apply-for-microsoft-365-government---dod"></a>Etapa 2. Aplique-se ao governo Microsoft 365-DoD
 
-Tendo decidiu que esse serviço é ideal para sua organização, inicie o processo de [aplicação para esse serviço](https://products.office.com/government/eligibility-validation).
+Decidisse que esse serviço é ideal para sua organização, inicie o processo de [aplicação para este serviço](https://products.office.com/government/eligibility-validation).
 
 
-## <a name="step-3-understand-microsoft-365-government---dod-default-security-settings"></a>Etapa 3. Compreenda o governo Microsoft 365 - configurações de segurança padrão DoD.
+## <a name="step-3-understand-microsoft-365-government---dod-default-security-settings"></a>Etapa 3. Compreenda as configurações de segurança padrão do governo Microsoft 365-DoD.
 
-É recomendável que você leve hora de revisar cuidadosamente suas [configurações de segurança e administração](enable-features-office-365.md) antes de modificá-los e considere impactos em conformidade antes de fazer qualquer alteração de configurações de segurança padrão.
+Recomendamos que você leve tempo para revisar cuidadosamente suas [configurações de administrador e de segurança](enable-features-office-365.md) antes de modificá-las e considerar o impacto sobre a conformidade antes de fazer qualquer alteração nas configurações de segurança padrão.
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida que se você precisará modificar quaisquer das padrão Microsoft 365 governamental - configurações de segurança do DoD, resolvendo primeiro compreender o impacto das alterações você pode fazer.</li></ul> |
+| ![Um ícone que representa um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se precisará modificar qualquer uma das configurações de segurança do governo padrão da Microsoft 365, resolvendo para compreender primeiro o impacto das alterações que você pode fazer.</li></ul> |
 
 
-## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---dod"></a>Etapa 4. Entender quais recursos de equipes estão atualmente disponíveis no Microsoft 365 governamental - DoD
+## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---dod"></a>Etapa 4. Compreenda quais recursos de equipe estão disponíveis no momento no Microsoft 365 governo-DoD
 
-Para acomodar os requisitos de nossos clientes de nuvem do governo, há algumas diferenças entre equipes em governo de 365 da Microsoft - DoD e equipes nos planos de empresa. Consulte a tabela a seguir para ver quais recursos estão disponíveis.
+Para acomodar os requisitos de nossos clientes de nuvem governamental, há algumas diferenças entre as equipes do Microsoft 365 governo-DoD e equipes nos planos empresariais. Consulte a tabela a seguir para ver os recursos disponíveis.
 
-|                             | Recurso                     | DoD       |
+|                             | Recurso                     | 5220.22       |
 |-----------------------------|-----------------------------|----------------|
-| Base | Login | Disponível |
+| Polybase | Login | Disponível |
 | | Presença | Disponível |
-| | Presença unificada (Skype para equipes unificadas e de negócios) | Em todas as agências governamentais |
-| Atividade | Feed | Disponível |
+| | Presença unificada (Skype for Business e equipes unificadas) | Na backlog do governo |
+| Atividades | Alimentação | Disponível |
 |  | Minha atividade | Disponível |
 | Chat | Conversa | Disponível |
 | | Arquivos | Disponível |
 | | Organograma | Disponível |
-| | Atividade | Disponível |
-| | Interoperabilidade (1:1 equipes-Skype para chat de negócios) | Em todas as agências governamentais |
-| Microsoft Teams | Mensagem de canal | Disponível |
+| | Atividades | Disponível |
+| | Interoperabilidade (Teams 1:1-chat do Skype for Business) | Na backlog do governo |
+| Microsoft Teams | Mensagem do canal | Disponível |
 | | Arquivos de canal | Disponível |
-| | Guia do OneNote | Em todas as agências governamentais |
-| | Um canal de email | Não disponível |
+| | Guia do OneNote | Na backlog do governo |
+| | Enviar um canal por email | Não disponível |
 | | Adicionar membro | Disponível |
-| | Acesso de convidados | Em todas as agências governamentais |
+| | Acesso de convidados | Na backlog do governo |
 | Reuniões | Agendar reunião | Disponível |
-| | Ingressar em reunião | Disponível |
+| | Ingressar na reunião | Disponível |
 | | Reunião de VoIP | Disponível |
-| | Compartilhamento da área de trabalho | Disponível |
+| | Compartilhamento de área de trabalho | Disponível |
 | | Conceder e assumir o controle no compartilhamento | Disponível |
-| | Conectar-se de uma sala de conferência | Disponível |
-| | Gravação na nuvem | Em todas as agências governamentais |
-| | Notas de reunião | Disponível |
-| | Reuniões de transmissão | Em todas as agências governamentais |
-| | Dentro da nuvem (DoD para DoD) federados reuniões | Disponível |
-| | Suporte de Hub superfície | Em todas as agências governamentais |
+| | Conectar-se a partir de uma sala de conferência | Disponível |
+| | Gravação na nuvem | Na backlog do governo |
+| | Anotações da reunião | Disponível |
+| | Transmitir reuniões | Na backlog do governo |
+| | Reuniões federadas dentro da nuvem (DoD a DoD) | Disponível |
+| | Suporte a Surface Hub | Na backlog do governo |
 | Chamadas | Contatos | Disponível |
-| | Histórico | Disponível |
+| | Cliques | Disponível |
 | | Caixa postal | Disponível |
 | | Chamada VoIP | Disponível |
-| | Skype para empresas - equipes chamar | Disponível |
+| | Skype para empresas-chamadas para equipes | Disponível |
 | | Planos de Chamadas | Não disponível |
-| | Serviços de audioconferência (permitindo que os participantes da reunião ingressar via PSTN) | Em todas as agências governamentais |
-| | Sistema telefônico da Microsoft direto de roteamento | Em todas as agências governamentais |
-| | Lobby para os chamadores da PSTN | Em todas as agências governamentais |
-| | Fila de chamada | Em todas as agências governamentais |
-| | Chefe e o representante de suporte | Em todas as agências governamentais |
-| | Transferência com consultoria e segura | Em todas as agências governamentais |
-| | Não incomodar inovadora | Em todas as agências governamentais |
-| | Toque distinto | Em todas as agências governamentais |
-| | 1:1 para escalonamento de chamada de grupo com equipes, Skype para os negócios e os participantes PSTN | Em todas as agências governamentais |
-| | Encaminhar para um grupo | Em todas as agências governamentais |
-| | Transferir a chamada PSTN | Em todas as agências governamentais |
-| | Chamadas de emergência - planos de chamada | Em todas as agências governamentais |
-| | Suporte para os telefones SIP certificados existentes | Em todas as agências governamentais |
-| | USB HID | Disponível |
-| | descoberta eletrônica para reuniões e chamadas | Disponível |
-| | Atendedor automático da organização | Em todas as agências governamentais |
-| | Skype consumidor - chamada de equipes de suporte | Não disponível |
-| Arquivos | Recentes | Disponível |
+| | Conferência de áudio (permitindo que os participantes da reunião ingressem via PSTN) | Na backlog do governo |
+| | Encaminhamento direto do sistema telefônico da Microsoft | Na backlog do governo |
+| | Lobby para chamadores PSTN | Na backlog do governo |
+| | Fila de chamadas | Na backlog do governo |
+| | Suporte chefe e representante | Na backlog do governo |
+| | Transferência consultiva e segura | Na backlog do governo |
+| | Não incomodar | Na backlog do governo |
+| | Toque distintivo | Na backlog do governo |
+| | 1:1 para o encaminhamento de chamadas em grupo com o Teams, o Skype for Business e os participantes de PSTN | Na backlog do governo |
+| | Encaminhar para o grupo | Na backlog do governo |
+| | Transferir para chamada PSTN | Na backlog do governo |
+| | Chamadas de emergência-planos de chamada | Na backlog do governo |
+| | Suporte para telefones SIP certificados existentes | Na backlog do governo |
+| | HID USB | Disponível |
+| | Descoberta eletrônica para chamadas e reuniões | Disponível |
+| | Atendedor automático da organização | Na backlog do governo |
+| | Skype Consumer-suporte para chamadas de equipe | Não disponível |
+| Arquivos | Alteração | Disponível |
 | | Microsoft Teams | Disponível |
-| Repositório | App Store | Não disponível |
+| Armazenadas | App Store | Não disponível |
 | Pesquisa | Mensagens | Disponível |
 | | Pessoas | Disponível |
 | | Arquivos | Disponível |
-| | Barra de comandos | Disponível |
+| | Comandos de barra | Disponível |
 | Conformidade | Pesquisa de conteúdo de conformidade | Disponível |
-| | Retenção | Disponível |
+| | Tention | Disponível |
 | | Pesquisa de log de auditoria | Disponível |
-| | Retenção legal | Disponível |
+| | Controle legal | Disponível |
 | | eDiscovery | Disponível |
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se o conjunto de recursos de equipes atende às necessidades da sua organização.</li></ul> |
+| ![Um ícone que representa um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se o conjunto de recursos do teams atende às necessidades da sua organização.</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>Etapa 5. Plano de governança
 
-Determine os requisitos de governança e como você pode atender a eles. Vá para [Planejar a governança em equipes](plan-teams-governance.md) para obter mais informações.
+Determine suas necessidades de governança e como você pode atendê-las. Vá para [plano de governança no Teams](plan-teams-governance.md) para obter mais informações.
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Ponto de decisão |<ul><li>Determinar e documentar os requisitos de governança, seguindo as diretrizes do [plano de governança em equipes](plan-teams-governance.md). </li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|Ponto de decisão |<ul><li>Determine e documente seus requisitos de governança, seguindo as diretrizes de [plano de controle no Teams](plan-teams-governance.md). </li></ul>|
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Etapa 6. Implantar equipes para colaboração
 
-Depois que você fez onboarded ao Microsoft 365 governo – DoD, você pode seguir a abordagem de implantação padrão de uso [FastTrack](https://www.microsoft.com/fasttrack) e seu parceiro escolhido para onboard do serviço.
+Depois de ter sido integrado ao governo Microsoft 365 – DoD, você pode seguir a abordagem de implantação padrão do uso do [FastTrack](https://www.microsoft.com/fasttrack) e do seu parceiro escolhido para a integração do serviço.
 
-Quando você estiver pronto, implante equipes para [Habilitar a colaboração dentro da sua organização por meio de equipes e canais](teams-overview.md). Certifique-se de que se comprometer com sua equipe de adoção e gerenciamento de alterações ou os campeões equipes.
+Quando estiver pronto, implante o Microsoft Teams para [habilitar a colaboração em sua organização por meio de equipes e canais](teams-overview.md). Não deixe de entrar em contato com sua equipe de adoção e gerenciamento de mudanças ou especialistas do teams.

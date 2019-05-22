@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Planejar para se comunicar com, treinar e seus usuários conforme você piloto, onboard e atualização para equipes de suporte
+description: Planeje se comunicar com, treinar e dar suporte aos seus usuários durante o piloto, a integração e a atualização para o Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,41 +15,41 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d38884b5e1f868dd206f7382c91f00502c0ca5ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c1532df0ca1167f5ff3335dbbddbbaa45eabfcef
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884843"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344110"
 ---
-![Estágios da atualização jornada, com ênfase na etapa de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação do usuário")
+![Estágios da viagem de atualização, realçando o estágio de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação do usuário")
 
-Este artigo faz parte do estágio de preparação de usuários de sua atualização jornada, uma atividade que você concluir em paralelo com o estágio de preparação técnica. Antes de continuar, confirme que você tiver concluído essas atividades desde estágios anteriores:
+Este artigo faz parte do estágio de preparação do usuário da jornada da atualização, uma atividade que você conclui em paralelo com o estágio de preparação técnica. Antes de prosseguir, confirme que você concluiu essas atividades dos estágios anteriores:
 
-- [Inscrito seus participantes do projeto](upgrade-enlist-stakeholders.md)
-- [Definido o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
-- [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
-- [Escolhido sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Listamos os participantes do projeto](upgrade-enlist-stakeholders.md)
+- [Definiu o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Compreendemos a coexistência e interoperabilidade do Skype for Business e do teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Escolhido a jornada da atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-a-user-readiness-plan"></a>Preparar um plano de preparação para usuários
 
-Um plano de preparação do usuário ideal incorpora como você vai se comunicar com, Treine e suporte para seus usuários conforme você piloto, onboard e atualização para equipes. Conforme você descoberto em [avaliar organizacional alterar preparação](https://aka.ms/OrgReadiness), preparação não é única. Para garantir receptiveness ideal para a nova tecnologia, use uma combinação de alcance de amplo número de mensagens (incorporação o vision/valor de mensagens e casso universal) e mensagens, treinamento e suporte adaptados ao personagens e colaboradores que você definiu e também à suas retardatários, conforme apropriado. Este plano personalizado ajudará a facilitar a adoção dos usuários, permitindo que os usuários mais rapidamente se relacionam com equipes, durante a demonstração que você entende às suas necessidades.
+Um plano de preparação do usuário ideal incorpora como você se comunicará, treinará e apoiará seus usuários enquanto você faz o piloto, a integração e a atualização para o Microsoft Teams. Como você descobriu em [avaliar](https://aka.ms/OrgReadiness)a preparação das alterações organizacionais, a prontidão não é única para se ajustar a um tamanho. Para garantir a melhor adacessibilidade para a nova tecnologia, use uma combinação de mensagens amplas (incorporação de mensagens de visão/valor e casos de uso universal) e mensagens, treinamento e suporte adaptados para as pessoas e cohorts que você definiu e também para seu Laggards, conforme apropriado. Este plano personalizado ajudará a facilitar a adoção pelo usuário, permitindo que os usuários se relacionem mais rapidamente com o Microsoft Teams e, ao mesmo tempo, demonstram que você compreende suas necessidades.
 
 > [!Tip]
-> Baixe o [Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit) para materiais de preparação do usuário de modelo, como communications e pesquisas de usuário, além de um plano de teste piloto e um exemplo de plano de projeto de atualização.
+> Baixe o [Kit de sucesso da atualização](https://aka.ms/UpgradeSuccessKit) para materiais de preparação do usuário do modelo, como comunicações e pesquisas de usuários, além de um plano de projeto de atualização de exemplo e um plano de teste piloto.
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Como você pode criar um plano de preparação para facilitar e agilizar a adoção usuário da nova solução?</li><li>Você tem o direita divulgação, treinamento e recursos de suporte que se alinham com a capacidade dos usuários para lidar com a alteração e as personagens de usuário que você definiu?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use a lista a seguir para gerar ideias para o seu plano de preparação. Selecione as atividades mais relevantes — ou adicione seus próprios — projetar um plano de preparação otimizado para sua organização. Lembre-se de usar uma combinação de amplo número-alcance (para toda a organização) e campanhas direcionadas (para retardatários ou personagens específicas) para o número máximo de resultados.</li></ul>|
+| ![Um ícone que representa os pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Como você pode criar um plano de preparação para facilitar e acelerar a adoção do usuário da nova solução?</li><li>Você tem os recursos de conscientização, treinamento e suporte corretos que se alinham com a capacidade dos usuários de lidar com alterações e com as pessoas que você definiu?</li></ul> |
+| ![Um ícone que representa a próxima etapa](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use a lista abaixo para gerar ideias para seu plano de preparação. Selecione as atividades mais relevantes, ou adicione a sua própria, para criar um plano de preparação otimizado para sua organização. Lembre-se de usar uma combinação de campanhas amplas (para toda a sua organização) e segmentadas (para Laggards ou pessoas específicas) para obter o máximo de resultados.</li></ul>|
 
 <div class="mx-tableFixed">
 <table>
 <tbody>
-<tr><th>Canais de comunicação que você irá alavancar?</th><th>Quais canais de treinamento irá alavancar?</th><th>Qual suporte canais serão você usar?</th></tr>
-<tr><td><ul><li>Email<br><strong>Dica:</strong> Use nossa coexistência piloto, de amostra e atualizar emails para personalizar sua campanha de email.</li><li>Cartazes e digitais pôsteres</li><li>Eventos de início</li><li>Gerentes de departamento</li><li>Defensores</li><li>As equipes/canais</li><li>Gamification</li></ul></td><td><ul><li>Vídeos e publicado pelo Microsoft artigos online</li><li>Recursos:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Alternar para o Teams do Skype for Business</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Treinamento em vídeo equipes</a></li></ul></li><li>Assistência do produto (Ajuda)</li><li>Equipe de treinamento interno</li><li>Equipe de treinamento de parceiros</li></ul></td><td><ul><li>Assistência técnica interna</li><li>Terceirizado para o suporte técnico</li><li>Self-Service (site da intranet)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Ajuda e instruções online</a></li><li>Floor-walkers e campeões</li><li>Loop de comentários (pesquisas, classificações)</li></ul></td></tr>
+<tr><th>Quais canais de comunicação você vai aproveitar?</th><th>Quais canais de treinamento você vai aproveitar?</th><th>Quais são os canais de suporte que você usará?</th></tr>
+<tr><td><ul><li>Email<br><strong>Dica:</strong> Use nosso exemplo de piloto, coexistência e atualização de e-mails para personalizar sua campanha de e-mail.</li><li>Cartazes e pôsteres digitais</li><li>Iniciar eventos</li><li>Gerentes de departamento</li><li>Defensores</li><li>Equipes/canais</li><li>Gamification</li></ul></td><td><ul><li>Artigos e vídeos online publicados pela Microsoft</li><li>Recursos<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Alternar para o Teams do Skype for Business</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Treinamento em vídeo de equipes</a></li></ul></li><li>Assistência no produto (ajuda)</li><li>Equipe de treinamento interna</li><li>Equipe de treinamento de parceiros</li></ul></td><td><ul><li>Assistência técnica interna</li><li>Suporte técnico terceirizado</li><li>Auto-atendimento (site da intranet)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Ajuda e instruções online</a></li><li>Andar-andadores e campeões</li><li>Loop de comentários (pesquisas, classificações)</li></ul></td></tr>
 </tbody>
 </table>
 </div>
 
-Depois que você criou o seu plano de preparação do usuário e os recursos associados e sua prontidão técnica for in-loco, vá para [equipes piloto em sua organização](https://aka.ms/SkypeToTeams-Pilot).
+Depois de criar seu plano de preparação do usuário e os recursos associados, e sua preparação técnica estiver em vigor, vá para [as equipes piloto em sua organização](https://aka.ms/SkypeToTeams-Pilot).

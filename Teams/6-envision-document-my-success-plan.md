@@ -8,131 +8,131 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Escolher um modelo de implantação, desenvolver uma matriz de (RACI) responsável-responsável-consultado-informados, criar planos a governança e execução.
+description: Escolha um modelo de implantação, desenvolva uma matriz informada por conta responsável – com consulta (RACI), crie planos de execução e governança.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9840b5c84e9d7ebf07106977112a249c580fd414
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: e30450aaf09e6f2a0d1dbee828a1936fce1eea78
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400919"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344613"
 ---
 # <a name="document-my-success-plan"></a>Documentar meu plano de sucesso
 
-Este artigo fornece uma visão geral dos requisitos para documentar corretamente a sua implantação de voz de nuvem. Definindo e documentar todos os pontos de decisão e próximas etapas ao planejar sua implantação de voz de nuvem, você pode verificar se todos os participantes e membros da equipe de projeto são alinhados em oferecer resultados bem-sucedida. 
+Este artigo fornece uma visão geral dos requisitos para documentar corretamente a implantação de voz em nuvem. Ao definir e documentar todos os pontos de decisão e próximas etapas durante o planejamento da implantação de voz em nuvem, você pode garantir que todos os participantes e membros da equipe do projeto estejam alinhados ao oferecer resultados bem-sucedidos. 
 
 ## <a name="execution-planning"></a>Planejamento de execução 
 
-Depois de definir como você implementará a conferência de áudio ou de um sistema telefônico com a solução de planejamento de chamar em sua organização, você precisa planejar a execução do projeto de implementação.
+Depois de definir como você implementará a conferência de áudio ou o sistema telefônico com solução de plano de chamada em sua organização, você precisará planejar a execução do projeto de implementação.
 
-Se sua organização tiver apenas um ou dois sites, você não precisará concluir todos os detalhes fornecidos neste artigo, mas você deve ler através dele para orientar sua abordagem.
+Se sua organização tiver apenas um ou dois sites, talvez você não precise completar todos os detalhes fornecidos neste artigo, mas você deve lê-lo para orientar a abordagem.
 
 <!--ENDOFSECTION-->
 
 ## <a name="deployment-model"></a>Modelo de implantação 
 
-Como com qualquer implementação de tecnologia que transforma a maneira como as pessoas trabalham em sua organização, escolhendo a maneira correta de realizar a implantação influenciará bastante o sucesso da sua implementação de voz de nuvem.
+Assim como em qualquer implementação de tecnologia que transforma a maneira como as pessoas trabalham em sua organização, escolher a maneira certa de realizar a implantação influenciará bastante o sucesso da sua implementação de voz em nuvem.
 
-Modelos de implantação possíveis incluem o seguinte:
+Os modelos de implantação possíveis incluem o seguinte:
 
--   **Por site:** Este modelo é adequado para casos em que sua organização seja geograficamente dispersa e ramificações tiverem números significativos dos funcionários. No entanto, esse modelo de implantação potencialmente pode interromper a comunicação em departamentos em que os funcionários do departamento estão espalhados por vários locais.
+-   **Por site:** Esse modelo é adequado para casos em que a sua organização é geograficamente dispersa, e as ramificações têm números significativos de funcionários. No entanto, esse modelo de implantação pode potencialmente interromper a comunicação nos departamentos em que os funcionários do departamento estão espalhados entre vários locais.
 
--   **Por divisão**: este modelo normalmente é a melhor opção para empresas de médio porte e garante que os departamentos envolvidas tenham a mesma experiência.
+-   **Por divisão**: esse modelo geralmente é a melhor opção para empresas de médio porte e garante que os departamentos envolvidos tenham a mesma experiência.
 
--   **Toda a empresa ao mesmo tempo:** Este modelo é geralmente a melhor opção para empresas de pequeno, onde todos os funcionários obtém a mesma experiência desde o início da implantação.
+-   **Toda a empresa ao mesmo tempo:** Geralmente, esse modelo é a melhor opção para pequenas empresas, em que todos os funcionários obtêm a mesma experiência desde o início da implantação.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida o modelo de execução de implantação de equipes que se aplica à sua organização.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Documente o modelo de execução de implantação de equipes que você escolheu e inclua justificativas técnicas e negócios.</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Escolha o modelo de execução de implantação do teams que se aplica à sua organização.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Documente o modelo de execução de implantação do teams escolhido e inclua justificativas técnicas e comerciais.</li></ul></td></tr></table>
 
 ## <a name="raci-modeling"></a>Modelagem de RACI
 
-Para garantir que você acaba de criar clareza para quem é responsável pelo quê em seu projeto, use uma matriz de atribuição de responsabilidade (também conhecido como um RACI — responsável, responsável, consultado e informados — matriz). A pessoa ou grupo que é responsável e responsáveis por cada tarefa, juntamente com os participantes para ser consultada no processo de tomada de decisão e participantes para ficar informado sobre de cada decisão e a ação durante a execução de projeto de lista.
+Para garantir que você tenha esclarecimento de quem é responsável pelo seu projeto, use uma matriz de atribuição de responsabilidade (também conhecida como uma matriz RACI, responsável, acessada, consultada e informada). Liste a pessoa ou o grupo responsável e responsável por cada tarefa, juntamente com os stakeholders a serem consultados no processo de tomada de decisões, e os interessados serão informados sobre cada decisão e ação durante a execução do projeto.
 
-O exemplo a seguir é um exemplo de uma matriz de RACI para uma implementação de voz de nuvem.
+Veja a seguir um exemplo de uma matriz RACI para uma implementação de voz em nuvem.
 
-| Função de atividade /                                         | Líder de projeto | Líder/arquiteto de colaboração | Consultor | Especialista em adoção/gerenciamento de mudanças | Representantes das unidades de negócios |
+| Atividade/função                                         | Líder de projeto | Líder/arquiteto de colaboração | Consultor | Especialista em adoção/gerenciamento de mudanças | Representantes das unidades de negócios |
 |-------------------------------------------------------|--------------|------------------------------|------------|---------------------------------------|-------------------------------|
-| Chamada de abertura de apresentação do programa                     | R, UMA         | C                            |            |                                       |                               |
-| Configurar o painel de controle de qualidade de chamada                         | I            | C                            | R, UMA       |                                       |                               |
-| Compartilhar o questionário de descoberta durante a chamada de abertura | I            | C                            | R, UMA       |                                       |                               |
-| Prever abertura da fase                                | R, UMA         | C                            |            |                                       |                               |
-| Workshop de casos de uso de negócios                           | A            |                              |            | R                                     | C                             |
-| Revise o questionário de descoberta                    |              | R, UMA                         | C          |                                       |                               |
-| Workshop de arquitetura                                 | I            | R, UMA                         | C          |                                       |                               |
-| Workshop do adoção usuário cenários Envision fase       | C            | I                            | A          | R                                     |                               |
-| Workshop de sucesso da adoção                             |              |                              | R, UMA       | C                                     |                               |
-| Workshop de preparação de clientes e dispositivos                  | I            |                              | R, UMA       | C                                     |                               |
+| Chamada para o início da apresentação do programa                     | R, A         | C                            |            |                                       |                               |
+| Configurar o painel de qualidade da chamada                         | I            | C                            | R, A       |                                       |                               |
+| Compartilhar o questionário de descoberta durante a chamada de início | I            | C                            | R, A       |                                       |                               |
+| Início da fase do enVision                                | R, A         | C                            |            |                                       |                               |
+| Workshop de casos de uso empresarial                           | A            |                              |            | R                                     | C                             |
+| Revisar o questionário de descoberta                    |              | R, A                         | C          |                                       |                               |
+| Workshop de arquitetura                                 | I            | R, A                         | C          |                                       |                               |
+| Cenários do usuário de adoção Workshop de fase do enVision       | C            | I                            | A          | R                                     |                               |
+| Workshop de sucesso de adoção                             |              |                              | R, A       | C                                     |                               |
+| Workshop sobre a preparação do cliente e do dispositivo                  | I            |                              | R, A       | C                                     |                               |
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida as atividades/funções relevantes para o projeto de implementação de voz de nuvem.</li><li>Decida o equipes ou a pessoa a ser atribuído a matriz de atribuição de responsabilidade (matriz RACI) do projeto de implementação de voz de nuvem.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>A matriz RACI do documento.</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decidir as atividades/funções pertinentes ao projeto de implementação de voz na nuvem.</li><li>Decida quais equipes ou pessoas serão atribuídas à matriz de atribuição de responsabilidade (RACI Matrix) do projeto de implementação de voz na nuvem.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Documente a matriz RACI.</li></ul></td></tr></table>
 
 ## <a name="quarterly-execution-plan"></a>Plano de execução trimestral
 
-Para executar a implantação de voz de nuvem em partes gerenciáveis de trabalho, é recomendável que você crie um plano de execução trimestral com base em seus resultados principais agregados (OKRs), o modelo de implantação que você escolheu e a capacidade de execução do projeto da sua organização.
+Para executar a implantação de voz em nuvem em partes gerenciáveis do trabalho, recomendamos que você crie um plano de execução trimestral com base em seus resultados de chave de objetivo (OKRs), o modelo de implantação escolhido e a funcionalidade de execução de projeto da sua organização.
 
-Dessa maneira, você pode controlar o andamento em uma base trimestral, revisar o plano, se necessário e implantar com base na capacidade da sua organização para executar recursos de voz de nuvem.
+Dessa forma, você pode controlar o progresso trimestralmente, revisar o plano, se necessário, e implantar recursos de voz na nuvem com base na capacidade da sua organização para executar.
 
-Se sua organização tiver apenas um ou dois sites, talvez não seja necessário um plano de execução trimestral porque você esperaria totalmente seja implantado em um curto período de tempo.
+Se sua organização tiver apenas um ou dois sites, talvez você não precise de um plano de execução trimestral Porque esperaria ser totalmente implantado em um curto período de tempo.
 
-O exemplo a seguir é um exemplo de um plano de execução trimestral para a fase de Envision de uma implementação de voz de nuvem.
+Veja a seguir um exemplo de um plano de execução trimestral da fase enVision de uma implementação de voz em nuvem.
 
 | Site/divisão                            | Número de funcionários | Audioconferência | Sistema Telefônico                    | Trimestre para executar |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
-| Estados Unidos: Nova York                             | 2000                | Sim                | Sistema telefônico com a chamada de planos | CY2018 T1          |
-| Irlanda: Dublin                          | 300                 | Sim                | Sistema telefônico com a chamada de planos | CY2018 T1          |
-| Áustria: Viena                          | 500                 | Sim                | Roteamento Direto do Sistema Telefônico     | T2 CY2018          |
-| Itália: Milão                             | 200                 | Sim                | N/D                             | T2 CY2018          |
-| América do Sul: Brasil                    | 1500                | Sim                | Roteamento Direto do Sistema Telefônico     | T2 CY2018          |
-| Índia: Délhi                             | 7000                | Sim                | N/D                             | T3 CY2018          |
+| EUA: Nova York                             | 2000                | Sim                | Sistema telefônico com planos de chamada | T1 CY2018          |
+| Irlanda: Dublin                          | 300                 | Sim                | Sistema telefônico com planos de chamada | T1 CY2018          |
+| Áustria: Viena                          | 500                 | Sim                | Roteamento Direto do Sistema Telefônico     | Q2 CY2018          |
+| Itália: Milão                             | 200                 | Sim                | N/D                             | Q2 CY2018          |
+| América do Sul: Brasil                    | 1500                | Sim                | Roteamento Direto do Sistema Telefônico     | Q2 CY2018          |
+| Índia: Délhi                             | 7000                | Sim                | N/D                             | Q3 CY2018          |
 
 
 <table>
 
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida o plano de execução trimestral para alcançar os resultados principais agregados (OKRs).</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Documente o plano de execução trimestral.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Escolha o plano de execução trimestral para obter os resultados de chave de objetivo (OKRs).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Documentar o plano de execução trimestral.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## <a name="communications-and-governance-plan"></a>Comunicações e plano de governança
+## <a name="communications-and-governance-plan"></a>Plano de comunicação e governança
 
-Para manter os participantes do projeto atualizado com o progresso da implantação, você precisa estabelecer um plano para como communications entrarão em vigor entre o núcleo membros da equipe de projeto e com os participantes para discutir assuntos relativos ao status do projeto, principais marcos, bloqueadores e várias avaliações do projeto contra KSIs estabelecidas, as métricas operacionais e objetivos estratégicos.
+Para manter os participantes do projeto atualizados com o andamento da implantação, você precisa estabelecer um plano de como as comunicações ocorrerão entre os membros principais da equipe do projeto e com os interessados para discutir questões relacionadas ao status do projeto, chave Marcos, bloqueadores e várias análises do projeto em relação a KSIs estabelecidas, métricas operacionais e metas estratégicas.
 
-O exemplo a seguir é um exemplo de um plano de governança e de comunicação que você pode aproveitar em seu projeto de implementação de voz de nuvem.
+Veja a seguir um exemplo de um plano de comunicação e governança que você pode aproveitar em seu projeto de implementação de voz em nuvem.
 
-| Tipo                                        | Metas                                                                                                                                                      | Participantes | Dias/hora                                     | Local             | Proprietário da reunião |
+| Tipo                                        | Goal                                                                                                                                                      | Os | Dias/tempo                                     | Local             | Proprietário da reunião |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------|----------------------|---------------|
-| Chamadas standup do projeto                       | Sincronizar o status do projeto, rastrear bloqueadores e fatos importantes                                                                                           | TBA          | Segunda-feira, terça-feira, quarta-feira, quinta-feira, 5 PM PST | Virtual              | TBA           |
-| Comitê de orientação semanal                   | Revise o status do projeto de voz de nuvem, relatado executivos, eleve que exigem executiva ajuda para resolver problemas                                        | TBA          | Toda sexta-feira 11 AM PST                        | Virtual              | TBA           |
-| Revisão de negócios/operacionais project mensal | Verificar o status do projeto com participantes estendidos, principais pontos de contato e executivos responsáveis; examinar o plano de implantação, KSIs e avaliações operacionais | TBA          | Segunda terça-feira do mês                       | Virtual ou pessoalmente | TBA           |
-| Revisão de negócios trimestral (QBR)             | Verificar o status do projeto e revise o progresso em relação às metas estratégicas, KSIs e avaliações operacionais; Rever planos, se necessário                                 | TBA          | Última quinta-feira de cada trimestre                | Pessoalmente            | TBA           |
+| Chamadas do Project standup                       | Sincronizar com o status do projeto, acompanhar Marcos chave e bloqueadores                                                                                           | TBA          | Segunda-feira, terça-feira, quarta-feira, 5 PM PST | Virtual              | TBA           |
+| Comitê de direcionamento semanal                   | Revisar o status do projeto de voz em nuvem, relatar a executivos, gerar problemas que exigem ajuda executiva para resolver                                        | TBA          | A cada sexta-feira de 11 AM                        | Virtual              | TBA           |
+| Análise de negócios/operacional do projeto mensal | Verifique o status do projeto com stakeholders estendidos, principais pontos de contato e patrocinadores executivos; Examine o plano de implantação, KSIs e métricas operacionais | TBA          | Segunda terça-feira do mês                       | Virtual ou pessoalmente | TBA           |
+| Revisão trimestral para empresas (QBR)             | Verifique o status do projeto e veja o progresso em relação a objetivos estratégicos, KSIs e métricas operacionais; revisitar planos se necessário                                 | TBA          | Última quinta-feira de cada trimestre                | Pessoalmente            | TBA           |
 
 
 <table>
 
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida de comunicação e um plano de governança, incluindo a frequência de métodos de (diariamente, semanalmente, mensalmente ou trimestral), de atualizações de status regular para conduzir reuniões de atualização de status e o proprietário de cada reunião.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Escolha o plano de comunicação e governança, incluindo a frequência de atualizações de status regulares (diária, semanal, mensal ou trimestral), para realizar as reuniões de atualização de status e o proprietário de cada reunião.</li></ul></td></tr>
 
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Documente o plano de governança e de comunicação.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Documentar o plano de comunicação e governança.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
 ## <a name="finalize-my-success-plan"></a>Finalizar meu plano de sucesso
 
-Um plano de sucesso é o resumo da documentação que você criou na fase de Envision.
+Um plano de sucesso é o resumo da documentação que você criou na fase do enVision.
 
-O plano de sucesso dá a equipe de projeto — que podem incluir FastTrack ou um parceiro de implantação — informações suficientes para concretizar metas da sua organização com implementar a conferência de áudio ou de um sistema telefônico com serviço de plano de chamada.
+O plano de sucesso oferece à equipe de projeto, que pode incluir o FastTrack ou um parceiro de implantação — informações suficientes para obter as metas da sua organização com a implementação da conferência de áudio ou do sistema telefônico com o serviço de plano de chamadas.
 
-Em geral, um plano de sucesso contém as seguintes seções principais, muitos que você irá tiver trabalhado por meio da fase Envision:
+Em geral, um plano de sucesso contém as seguintes seções principais, muitas das quais você terá trabalhado por meio da fase enVision:
 
 -   Caso de negócios
 
@@ -148,40 +148,40 @@ Em geral, um plano de sucesso contém as seguintes seções principais, muitos q
 
 ### <a name="business-case"></a>Caso de negócios
 
-Exemplos de uso de negócios, a lista de participantes, OKRs e KSIs, registradores de risco e cronogramas dos projetos geralmente compõem a maior parte das informações necessárias para um caso de negócios. Você deve documentar isso como parte do seu plano de sucesso.
+Casos de uso empresarial, a lista de stakeholders, OKRs e KSIs, registros de risco e linhas do tempo do projeto geralmente compõem a quantidade de informações necessárias para um caso empresarial. Você deve documentar isso como parte do seu plano de sucesso.
 
 ### <a name="service-readiness"></a>Prontidão de serviço
 
-Avaliação do seu ambiente fornece as informações de iniciais exigidas para determinar a prontidão técnica da sua organização para implementar a conferência de áudio e/ou o sistema telefônico com chamar planejar.
+Sua avaliação ambiental fornece as informações iniciais necessárias para determinar a preparação técnica da sua organização para implementar a conferência de áudio e/ou sistema telefônico com o plano de chamadas.
 
-Incluídos aqui é sua avaliação de prontidão do serviço e o plano para áreas de endereço que precisam de remediação descobertos por meio da avaliação do ambiente.
+Aqui está a avaliação de prontidão do seu serviço e o plano de atender a áreas que precisam de remediação detectadas por meio da avaliação ambiental.
 
 ### <a name="service-decisions"></a>Decisões de serviço
 
-Documente como você planejou a conferência de áudio ou de um sistema telefônico com chamar planejar a implementação de técnicos do serviço para a sua organização.
+Documente como planejou a conferência de áudio ou o sistema telefônico com implementação técnica do serviço de plano de chamada para sua organização.
 
 ### <a name="execution-plan"></a>Plano de execução
 
-Como você planejou a execução do projeto para implementar a solução em toda a organização do documento.
+Documente como você planejou a execução do projeto para implementar a solução em toda a organização.
 
 ### <a name="adoption-plan"></a>Plano de adoção
 
-Depois de executar sua avaliação de prontidão de adoção, a equipe de projeto precisa para surgir com um conjunto abrangente de planos de comunicação, um plano de treinamento e planos de pré-lançamento, inicialização e POST-iniciar atividades de adoção.
+Depois de executar a avaliação de preparação para adoção, a equipe de projeto precisa ser completada com um conjunto abrangente de planos de comunicação, um plano de treinamento e planos para atividades de adoção de pré-lançamento, lançamento e pós-lançamento.
 
-Identificar recursos usados para oferecer suporte às atividades de adoção, como folhetos, de boas-vindas emails e material de treinamento, junto com quaisquer personalizações que você precisará para atender aos requisitos da sua organização.
+Identifique recursos para dar suporte a atividades de adoção, como panfletos, emails de boas-vindas e materiais de treinamento, além de quaisquer personalizações necessárias para atender aos requisitos da sua organização.
 
-Baixe modelos de adoção de atividades do [Kit de sucesso do cliente do Microsoft equipes](https://www.microsoft.com/download/details.aspx?id=54244).
+Baixe modelos de atividades de adoção do [Kit de sucesso do cliente do Microsoft Teams](https://www.microsoft.com/download/details.aspx?id=54244).
 
 ### <a name="operational-plan"></a>Plano operacional
 
-O exercício de mapeamento de funções operacionais estabelecerá funções e responsabilidades e as equipes atribuídas a cada função operacional, o que você precisa oferecer suporte à implementação de conferência de áudio.
+O exercício de mapeamento de funções operacionais estabelecerá funções e responsabilidades e as equipes atribuídas a cada função operacional, e você precisará dar suporte à implementação da videoconferência.
 
 Você precisa inserir isso e incluir o plano operacional como parte do plano de sucesso para garantir a prontidão operacional da solução.
 
 <table>
 
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida como você irá Documente o seu planejamento de sucesso inteira proporciona sua nuvem cargas de trabalho de voz.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Confirme se todos os componentes do seu plano de sucesso foram documentados.</li><li>Agregar componentes individuais do seu plano de sucesso em um único documento resumo (opcional).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida como você documentará todo o seu plano de sucesso para fornecer as cargas de trabalho de voz na nuvem.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Confirme se todos os componentes do seu plano de sucesso foram documentados.</li><li>Agregar componentes individuais do plano de sucesso em um único documento de resumo (opcional).</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

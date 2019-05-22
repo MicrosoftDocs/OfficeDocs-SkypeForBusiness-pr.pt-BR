@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 892cbf094c2c523d7eaa18b1d77a2fb864a3a9c0
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 5b6f96b2f3dd7993d6cb3d5b732e0796a215ebae
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400927"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344645"
 ---
 # <a name="plan-my-service-management"></a>Planejar meu gerenciamento de serviços
 
@@ -115,8 +115,8 @@ Recomendamos fortemente que você nomeie o defensor de qualidade o quanto antes.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida quem é responsável pelas operações de voz em nuvem na sua organização.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Baixe o guia completo do Planejamento de gerenciamento de serviços.</li><li>Baixe o guia da Revisão da experiência de qualidade.</li><li>Revise o Guia de Operações na íntegra.</li><li>Entregue todos os guias a todos os membros da equipe de operações para que analisem e se familiarizem com os requisitos operacionais.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida quem é responsável pelas operações de voz em nuvem na sua organização.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximos passos</td><td><ul><li>Baixe o guia completo do Planejamento de gerenciamento de serviços.</li><li>Baixe o guia da Revisão da experiência de qualidade.</li><li>Revise o Guia de Operações na íntegra.</li><li>Entregue todos os guias a todos os membros da equipe de operações para que analisem e se familiarizem com os requisitos operacionais.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

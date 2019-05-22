@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o sistema telefônico (Cloud PBX) para sua organização. '
-ms.openlocfilehash: a0e4f9b8dda8ee2051b2d79972ca2df2005c3b32
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: f46e0506bef53e28cd071606d9727024870f6b2d
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329785"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344198"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configurar o Sistema de Telefonia na sua organização
 
@@ -236,7 +236,7 @@ Once you have your service numbers from **Step 4 above**, you need to assign the
 
 - Para atendedores automáticos, você pode atribuir um número dedicado a um atendedor automático acessando > **centros** > de administração do **centro de administração do Microsoft 365**centro de administração de**chamadas** > do**Skype for Business** > **atendendo atendedores automáticos **e clique no atendedor automático. Na página **Geral**, o seu número de serviço atual será listado no menu suspenso **Número de telefone**. Para obter detalhes, consulte [configurar um atendedor automático na nuvem](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
 
-- Para filas de chamadas, você pode atribuir um número exclusivo a uma**** > fila de chamadas acessando o centro de administração do **Centro** > de administração do Microsoft 365 acesse as**filas de chamadas** de**Roteamento** > de administração do**Skype for Business** > e clique em na fila de chamadas. Na página **Geral**, o seu número de serviço atual será listado no menu suspenso**Número de telefone**. Para obter detalhes, consulte [criar uma fila de chamadas em nuvem](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- Para filas de chamadas, você pode atribuir um número exclusivo a uma**** > fila de chamadas acessando o centro de administração do **Centro** > de administração do Microsoft 365 acesse as**filas de chamadas** de**Roteamento** > de administração do**Skype for Business** > e clique em na fila de chamadas. Na página **Geral**, o seu número de serviço atual será listado no menu suspenso**Número de telefone**. Para obter detalhes, consulte [criar uma fila de chamadas em nuvem](/SkypeForBusiness/create-a-phone-system-call-queue).
 
 **Para obter informações detalhadas sobre como obter novos números de serviço e fazer a portabilidade de números de serviço existentes, consulte [Obter números de telefone de serviço](/microsoftteams/getting-service-phone-numbers).**
 

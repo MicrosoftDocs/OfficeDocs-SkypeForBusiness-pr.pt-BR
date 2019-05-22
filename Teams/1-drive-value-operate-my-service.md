@@ -15,12 +15,12 @@ description: Tarefas e atividades necessárias para o gerenciamento de serviços
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 660087ef2ac4bcf81d2c59606d9b4658182cd899
-ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
+ms.openlocfilehash: c15d497ec86dcb15e85fc45dda838b5f203c87e0
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34162570"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34343860"
 ---
 # <a name="operate-my-service"></a>Operar meu serviço
 
@@ -42,8 +42,8 @@ As tarefas e atividades neste guia são agrupadas em oito categorias, conforme m
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida como as operações serão implementadas para equipes.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Examine o guia de operações totalmente.</li><li>Implemente uma estratégia de operações que se alinhe às metas da sua organização para fornecer a qualidade e a confiabilidade das cargas de trabalho de voz na nuvem.</li><li>Examine o guia de revisão da qualidade da experiência.</li><li> Implemente uma estratégia de operações para executar regularmente análises de qualidade de experiência para garantir que sua implantação de voz em nuvem esteja operando em seus recursos de pico.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida como as operações serão implementadas para equipes.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Examine o guia de operações totalmente.</li><li>Implemente uma estratégia de operações que se alinhe às metas da sua organização para fornecer a qualidade e a confiabilidade das cargas de trabalho de voz na nuvem.</li><li>Examine o guia de revisão da qualidade da experiência.</li><li> Implemente uma estratégia de operações para executar regularmente análises de qualidade de experiência para garantir que sua implantação de voz em nuvem esteja operando em seus recursos de pico.</li></ul></td></tr>
 </table>
 
 

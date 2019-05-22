@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como ativar ou desativar anúncios de entrada e de saída em uma reunião no Microsoft Teams. '
-ms.openlocfilehash: 6a72269ccc57275a740cbffc338d5921fed35121
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bbf2ec391c35697fd7a3e7a273e82db03710bd7f
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293883"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344506"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Ativar ou desativar anúncios de entrada e de saída para reuniões no Microsoft Teams
 
@@ -38,7 +38,7 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
   
 ## <a name="setting-meeting-join-options"></a>Definir as opções de participação da reunião
 
-![Teams-logo-30x30. png](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 

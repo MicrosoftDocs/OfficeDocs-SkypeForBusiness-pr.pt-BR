@@ -8,49 +8,49 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Escolha a aplicativos de cliente de equipes, planejar a qualidade do ponto de extremidade, obtém recomendações para a implantação de pontos de extremidade Wi-Fi e escolhendo dispositivos de áudio.
+description: Escolha aplicativos cliente do Teams, plano para a qualidade do ponto de extremidade, Obtenha recomendações para a implantação de pontos de extremidade Wi-Fi e escolha dispositivos de áudio.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abef4c9e1096396d7844002ebda38a32876b403b
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 7c7bf332c3d85445ccb9bcfe41e6d7417948ca15
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400968"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344605"
 ---
-# <a name="plan-my-users-experience"></a>Planejar a experiência dos meus usuários
+# <a name="plan-my-users-experience"></a>Planejar a experiência de meus usuários
 
-Este artigo fornece uma visão geral dos requisitos de adequadamente que identifica os elementos da sua implantação de serviços de voz de nuvem que afetam diretamente a experiência dos usuários. Ao preparar-se para esses itens antes da implantação, você vai aumentar as chances de fornecimento com êxito uma experiência de alta qualidade e confiável para os usuários. 
+Este artigo fornece uma visão geral dos requisitos para identificar corretamente os elementos de sua implantação de serviços de voz em nuvem que afetam diretamente a experiência dos usuários. Ao preparar-se para esses itens antes da implantação, você aumentará as chances de fornecer com êxito uma experiência de alta qualidade e confiabilidade para os usuários. 
 
 ## <a name="client-deployment"></a>Implantação do cliente
 
-Microsoft Teams tem clientes disponíveis para a área de trabalho, web (Windows e Mac) e mobile (Android e iOS). Para obter detalhes adicionais sobre como os clientes móveis e área de trabalho (Windows e Mac) são instalados, consulte [obter clientes para equipes da Microsoft](https://docs.microsoft.com/microsoftteams/get-clients).
+O Microsoft Teams tem clientes disponíveis para Web, área de trabalho (Windows e Mac) e móvel (Android e iOS). Para obter detalhes adicionais sobre como a área de trabalho (Windows e Mac) e os clientes móveis estão instalados, consulte [obter clientes para o Microsoft Teams](https://docs.microsoft.com/microsoftteams/get-clients).
 
 ## <a name="client-updates"></a>Atualizações de cliente
 
-Um dos principais benefícios de equipes é que o cliente sejam mantido atualizado automaticamente. Os clientes no PC e no Mac são atualizados por meio de um processo em segundo plano que verifica novos builds e baixa o novo cliente assim que o aplicativo fica ocioso.
+Um dos principais benefícios do teams é que o cliente é mantido atualizado automaticamente. Os clientes no PC e no Mac são atualizados por meio de um processo em segundo plano que verifica novos builds e baixa o novo cliente assim que o aplicativo fica ocioso.
 
 <!--ENDOFSECTION-->
 
 ## <a name="plan-for-endpoint-quality"></a>Planejar a qualidade dos pontos de extremidade
 
-Como você pode ver do diagrama a seguir, os pontos de extremidade são um bloco de construção importante no fornecimento de uma experiência de qualidade para usuários.
+Como você pode ver no diagrama abaixo, os pontos de extremidade são um bloco de construção importante para oferecer uma experiência de qualidade para os usuários.
 
-![Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviço se sobrepõe a todos os três componentes. Com foco nos pontos de extremidade.] (media/plan-my-users-experience-image1.png "Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviço se sobrepõe a todos os três componentes. Com foco nos pontos de extremidade.")
+![Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes] (media/plan-my-users-experience-image1.png "Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco em pontos de extremidade.")
 
-Pontos de extremidade de equipes podem ser executado em vários dispositivos, incluindo PCs, Macs, tablets e dispositivos móveis. Parte da experiência abrange não apenas o dispositivo, mas como um usuário se conecta ao dispositivo — por exemplo, usando microfone/alto-falante interno do dispositivo, fones de ouvido com ou um headset otimizada. O uso de um fone de ouvido com microfone otimizado pode melhorar a experiência geral do usuário.
+Os pontos de extremidade do teams podem ser executados em muitos dispositivos, incluindo PCs, Macs, tablets e dispositivos móveis. Parte da experiência não só inclui o dispositivo, mas como um usuário se conecta ao dispositivo — por exemplo, usando o microfone/alto-falante interno do dispositivo, o fones ou um fone de ouvido com microfone otimizado. O uso de um fone de ouvido com microfone otimizado pode melhorar a experiência geral do usuário.
 
 As orientações de planejamento de pontos de extremidade a seguir ajudarão a garantir que sua organização tenha uma experiência de integração com o Microsoft Teams positiva.
 
 ## <a name="endpoint-capability"></a>Funcionalidades dos pontos de extremidade
 
-A primeira parte do planejamento é garantir que todos os PCs e outros dispositivos em sua organização podem executar as equipes. Além de examinar os requisitos de hardware, isso também envolve a compreensão das outras atividades do computador em segundo plano. Muitas organizações executam outros softwares, incluindo sistemas de detecção de intrusões e software antimalware, o que pode afetar o desempenho básico de um dispositivo.
+A primeira parte do planejamento é garantir que todos os computadores e outros dispositivos em sua organização possam executar o Teams. Além de examinar os requisitos de hardware, isso também envolve a compreensão das outras atividades do computador em segundo plano. Muitas organizações executam outros softwares, incluindo sistemas de detecção de intrusões e software antimalware, o que pode afetar o desempenho básico de um dispositivo.
 
-Para obter informações sobre os requisitos de software para as equipes de clientes em cada plataforma (web, desktop e portáteis), consulte [obter clientes para equipes da Microsoft](https://docs.microsoft.com/microsoftteams/get-clients).
+Para obter informações sobre os requisitos de software para os clientes do teams em cada plataforma (Web, desktop e dispositivos móveis), consulte [obter clientes para o Microsoft Teams](https://docs.microsoft.com/microsoftteams/get-clients).
 
 ## <a name="endpoint-firewalls"></a>Firewalls de ponto de extremidade
 
@@ -62,12 +62,12 @@ Os firewalls do lado do cliente podem afetar a qualidade das chamadas, além de 
 
 ## <a name="wi-fi-recommendations-for-endpoints"></a>Recomendações de Wi-Fi para pontos de extremidade
 
-Leva significativo planejando implantar uma rede Wi-Fi otimizada para suportar cargas de trabalho em tempo real no Microsoft Teams. As seções a seguir fornecem algumas diretrizes gerais que podem ajudá-lo a evitar armadilhas comuns durante o planejamento para os pontos de extremidade.
+Isso leva um planejamento significativo para implantar uma rede Wi-Fi otimizada para dar suporte a cargas de trabalho em tempo real no Microsoft Teams. As seções a seguir fornecem algumas orientações gerais que podem ajudar você a evitar armadilhas comuns durante o planejamento de pontos de extremidade.
 
 ### <a name="wi-fi-drivers"></a>Drivers de Wi-Fi
 
-Alguns drivers Wi-Fi podem ser problemáticos. Como exemplo, um driver pode ter comportamentos de roaming muito agressivos entre os pontos de acesso, resultando na baixa qualidade das chamadas.
-Isso não é uma ocorrência comum, mas é importante garantir que os drivers de Wi-Fi no PC foram atualizados e testados antes da implantação.
+Alguns drivers de Wi-Fi podem ser problemáticos. Como exemplo, um driver pode ter comportamentos de roaming muito agressivos entre os pontos de acesso, resultando na baixa qualidade das chamadas.
+Isso não é uma ocorrência comum, mas é importante garantir que os drivers de Wi-Fi no computador tenham sido atualizados e testados antes da implantação.
 
 ### <a name="wi-fi-bands"></a>Bandas de Wi-Fi
 
@@ -82,13 +82,13 @@ Planeje usar dispositivos que dão suporte aos tipos de rádio de Wi-Fi mais nov
 
 Algumas organizações preferem evitar totalmente as redes Wi-Fi. Às vezes, essas orientação é fornecida por meio de uma recomendação de que os usuários se conectem diretamente a uma rede com fio. Em alguns casos, a ordem de associação de redes pode ter a conexão sem fio como preferencial e continuar usando essa conexão, mesmo que o computador esteja conectado à rede com fio. Para evitar esse comportamento indesejado, configure a ordem de associação de modo a evitar esse cenário.
 
-### <a name="80211-power-save-protocol"></a>802.11 protocolo de economia de energia
+### <a name="80211-power-save-protocol"></a>Protocolo de economia de energia do 802,11
 
-Se sua organização usa pontos de acesso sem fio ou roteadores que não há suporte para o protocolo de economia de energia 802.11, você pode sofrer capitular chamadas ou a qualidade de chamadas ruins em Teams da Microsoft em execução em dispositivos do Windows. Se não for possível atualizar seus pontos de acesso ou roteadores sem fio, atualize as configurações do Plano de Energia do Windows dos dispositivos que funcionam com energia da bateria. Outros detalhes e orientações de configuração estão disponíveis neste [artigo de suporte](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
+Se a sua organização usa pontos de acesso sem fio ou roteadores que não dão suporte ao protocolo de economia de energia do 802,11, você pode ter chamadas descartadas ou baixa qualidade de chamada no Microsoft Teams em execução em dispositivos Windows. Se não for possível atualizar seus pontos de acesso ou roteadores sem fio, atualize as configurações do Plano de Energia do Windows dos dispositivos que funcionam com energia da bateria. Outros detalhes e orientações de configuração estão disponíveis neste [artigo de suporte](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Quais clientes equipes serão implantados em sua organização?</li><li>Como você inicialmente implantará clientes de equipes para seus usuários?</li><li>Eles quem é responsável por avaliar os pontos de extremidade e dispositivos para validar atende aos requisitos de equipes para uma experiência de qualidade?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>O processo que será seguido para implantar clientes de equipes do documento.</li><li>Avalie os pontos de extremidade e dispositivos e executar e remediação necessária.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Quais clientes do teams serão implantados em sua organização?</li><li>Como você implementará inicialmente os clientes do teams para seus usuários?</li><li>Quem é responsável pela avaliação de pontos de extremidade e dispositivos para validá-los que atendem aos requisitos do teams para obter uma experiência de qualidade?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Documentar o processo que será seguido para implantar clientes do teams.</li><li>Avalie pontos de extremidade e dispositivos e execute e remediação necessários.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -97,7 +97,7 @@ Se sua organização usa pontos de acesso sem fio ou roteadores que não há sup
 
 O Microsoft Teams pode ser usado para reuniões ou como um sistema de telefonia. Ao usar esses recursos, o dispositivo de interface que é usado para o Microsoft Teams tem um papel importante na experiência do usuário.
 
-O uso do viva-voz e do microfone internos do computador pode ser aceitável para os usuários que têm essa configuração. Normalmente, mas esses dispositivos não otimizados para o cancelamento de ruído e qualquer tipo de ruído ambiental pode ter um impacto downstream em outros na chamada. A utilização de dispositivos otimizados para esses cenários ajuda a garantira uma experiência de alta qualidade.
+O uso do viva-voz e do microfone internos do computador pode ser aceitável para os usuários que têm essa configuração. Mas geralmente, esses dispositivos não são otimizados para cancelamento de ruído, e qualquer tipo de ruído ambiental pode ter um impacto downstream em outras pessoas na chamada. A utilização de dispositivos otimizados para esses cenários ajuda a garantira uma experiência de alta qualidade.
 
 Cada dispositivo precisa atender às necessidades de seus usuários. Você precisará adaptar os dispositivos, como fones de ouvido com microfone, para as diferentes personas e os diferentes casos de uso em sua organização.
 Um exercício de mapeamento entre personas e dispositivos deve ser realizado como parte do processo de planejamento.
@@ -105,11 +105,11 @@ Um exercício de mapeamento entre personas e dispositivos deve ser realizado com
 Depois de selecionar os dispositivos, inclua-os no plano de testes do piloto para a validação final. Faça pesquisas durante o piloto para obter comentários e assim garantir que sua estratégia de dispositivos seja a ideal.
 
 > [!NOTE]
-> No momento, recomendamos usar dispositivos de áudio certificados pelo Programa de Certificação do Skype for Business. Para localizar dispositivos certificados sob este programa, consulte o catálogo de soluções [USB dispositivos Certified para Skype para negócios](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) .
+> No momento, recomendamos usar dispositivos de áudio certificados pelo Programa de Certificação do Skype for Business. Para localizar dispositivos certificados neste programa, consulte o catálogo [dispositivos USB certificados para o catálogo de soluções do Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) .
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida qual estratégia de dispositivo geral da sua organização para o usuário e experiências de sala de reunião.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Conclua um exercício de mapeamento do dispositivo de pessoa para a sua organização.</li><li>O processo para obtenção de dispositivos para usuários e salas de reunião do documento.</li><li>O processo de implantação e configuração de dispositivos para usuários e salas de reunião do documento.</li><li>Adquirir dispositivos iniciais para começar sua implantação.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decidir sobre a estratégia geral de dispositivos da sua organização para experiências de usuário e de sala de reunião.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Concluir um exercício de mapeamento de um ponto a dispositivo para sua organização.</li><li>Documentar o processo de obtenção de dispositivos para usuários e salas de reunião.</li><li>Documentar o processo de implantação e configuração de dispositivos para usuários e salas de reunião.</li><li>Adquirir dispositivos iniciais para começar sua implantação.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
