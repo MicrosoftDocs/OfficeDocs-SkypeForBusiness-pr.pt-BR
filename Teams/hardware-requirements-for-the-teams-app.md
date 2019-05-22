@@ -13,61 +13,62 @@ MS.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba mais sobre os requisitos de hardware que são necessárias para instalar e executar o Microsoft Teams.
+description: Saiba mais sobre os requisitos de hardware necessários para instalar e executar o Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66a5b4a5ef64f83f61d106a6cd2052516cda95a7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 123dd884f2cbb2e2085c76df9739fa41349a8f1a
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235011"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330416"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware para o aplicativo Microsoft Teams
 
-## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-windows-pc"></a>Requisitos de hardware para o aplicativo de área de trabalho de equipes em um PC com Windows
+## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-windows-pc"></a>Requisitos de hardware para o aplicativo da área de trabalho Teams em um computador Windows
 
 |**Componente**|**Requisito**  |
 |---------|---------|
-|Computador e processador    | Mínimo 1,6 GHz (ou superior) (32 bits ou 64 bits).        |
-|Memória     |    2.0 GB DE RAM     |
-|Disco rígido    | 3.0 GB de espaço em disco disponível        |
-|Exibir    |   resolução de tela de 1024 x 768 |
+|Computador e processador    | Mínimo de 1,6 GHz (ou mais) (32 bits ou 64 bits).        |
+|Memória     |    2,0 GB DE RAM     |
+|Disco rígido    | 3,0 GB de espaço disponível em disco        |
+|Exibir    |   resolução de tela x 768 de 1024 |
 |Hardware gráfico |  Mínimo de 128 MB de memória gráfica
-|Sistema operacional  |    10 do Windows, Windows 8.1, Windows 8 ou Windows 7 Service Pack 1 em 32 bits e 64 bits. Para uma melhor experiência, use a versão mais recente de qualquer sistema operacional.|
-|Versão de .NET    |  Requer CLR do .NET 4.5 ou posterior       |
-|Vídeo    |  Câmera de vídeo USB 2.0       |
+|Sistema operacional  |    Windows 10, Windows 8,1, Windows 8 ou Windows 7 Service Pack 1 em 32 bits e 64 bits. Para obter a melhor experiência, use a versão mais recente de qualquer sistema operacional.|
+|Versão do .NET    |  Requer o .NET 4,5 CLR ou posterior       |
+|Vídeo    |  Câmera de vídeo USB 2,0       |
 |Dispositivos    |   Câmera de laptop padrão, microfone e alto-falantes    | 
-|Reuniões e chamadas de vídeo | Para obter uma experiência melhor com chamadas de vídeo e reuniões online, recomendamos o uso de um computador que tenha um processador de 2.0 GHz e 4.0 GB de RAM (ou superior). Opcional desfoque meu plano de fundo efeito de vídeo requer um processador com suporte avançado vetor Extensions 2 (AVX2).
+|Reuniões e chamadas com vídeo | Para ter uma experiência melhor com chamadas com vídeo e reuniões online, recomendamos usar um computador com um processador de 2,0 GHz e 4,0 GB de RAM (ou superior). O desfoque opcional meu efeito de vídeo **em segundo plano** requer um processador com suporte a Advanced vector Extensions 2 (AVX2). |
+|Eventos ao vivo do teams | Se você estiver produzindo um evento ao vivo do Teams, recomendamos usar um computador com um processador Core i5 KABY Lake, 4,0 GB de RAM (ou superior) e codificador de hardware.  |
 
-## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Requisitos de hardware para o aplicativo de área de trabalho de equipes em um Mac
+## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Requisitos de hardware para o aplicativo da área de trabalho Teams em um Mac
 
 |**Componente**|**Requisito**  |
 |---------|---------|
-|Processador    | O processador Intel mínimo, Core 2 Duo ou superior |
-|Memória     |   2.0 GB DE RAM      |
-|Disco rígido    |   1,5 GB de espaço em disco disponível      |
-|Exibir    | resolução de 1280 x 800 ou superior    |
-|Sistema operacional  |    Mac OS X Capitan de El 10.11 ou posterior     |
+|631    | Processador Intel mínimo, Core 2 Duo ou superior |
+|Memória     |   2,0 GB DE RAM      |
+|Disco rígido    |   1,5 GB de espaço disponível em disco      |
+|Exibir    | 1280 x 800 ou maior resolução    |
+|Sistema operacional  |    Mac OS X 10,11 El Capitan ou posterior     |
 |Vídeo  |    Webcam compatível     |
-|Voz    |  Compatível com microfone e alto-falantes, headset com microfone ou dispositivo equivalente       |
-|Reuniões e chamadas de vídeo | Para obter uma experiência melhor com chamadas de vídeo e reuniões online, recomendamos o uso de um computador que tenha um processador de 2.0 GHz e 4.0 GB de RAM (ou superior). Opcional desfoque meu plano de fundo efeito de vídeo requer um processador com suporte avançado vetor Extensions 2 (AVX2), com suporte na maioria dos dispositivos de Mac atrasado 2013 e posterior.
+|Voz    |  Microfone e alto-falantes compatíveis, fone de ouvido com microfone ou dispositivo equivalente       |
+|Reuniões e chamadas com vídeo | Para melhor experiência com chamadas com vídeo e reuniões online, recomendamos usar um computador com um processador de 2,0 GHz e 4,0 GB de RAM (ou superior). O desfoque opcional meu efeito de vídeo em segundo plano requer um processador com suporte a Advanced vector Extensions 2 (AVX2), compatível nos mais recentes dispositivos Mac do 2013 e mais tarde.
 
-## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Requisitos de hardware para o aplicativo de equipes em dispositivos móveis
+## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Requisitos de hardware para o aplicativo Teams em dispositivos móveis
 
-Você pode usar o Microsoft Teams nessas plataformas móveis:
+Você pode usar o Microsoft Teams nestas plataformas móveis:
 
-- Android - requer o Android 4,4 ou posterior
+- Android – requer Android 4,4 ou posterior
 
-- iOS - requer o iOS 10.0 ou posterior. Compatível com iPhone, iPad e iPod touch.
+- iOS – requer iOS 10,0 ou posterior. Compatível com iPhone, iPad e iPod Touch.
 
-## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Requisitos de hardware para o aplicativo de equipes em um ambiente Virtual Desktop Infrastructure (VDI)
+## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Requisitos de hardware para o aplicativo Teams em um ambiente VDI (infraestrutura de área de trabalho virtual)
 
-Consulte [as equipes de infraestrutura de área de trabalho virtualizado](teams-for-vdi.md) para requisitos para a execução de equipes em um ambiente virtualizado. 
+Consulte [Teams for Virtual Desktop Infrastructure](teams-for-vdi.md) para obter os requisitos para o Teams em execução em um ambiente virtualizado. 
 
 ### <a name="related-topics"></a>Tópicos relacionados
-- [Obtenha as equipes de aplicativos](get-clients.md)
+- [Obter aplicativos do teams](get-clients.md)
 - [Microsoft Teams em dispositivos móveis](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Instalar o aplicativo Microsoft Teams usando um MSI](msi-deployment.md)

@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Saiba o que são atendedores automáticos da nuvem e como usá-los.
-ms.openlocfilehash: 3dc96398cb2aa9ab3eafcc6e5d38ad2feb44b45b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ae5d959918240cec63c925eff77653c54294e99c
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299037"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330352"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Quais são os atendedores automáticos do Cloud?
 
@@ -236,7 +236,7 @@ Para configurar um atendedor automático e as opções de menu, vá [configurar 
 
 Você pode atribuir um número de serviço do plano de chamadas da Microsoft ou um número híbrido de roteamento direto para o atendedor automático. Consulte [planejar o roteamento direto](direct-routing-plan.md) para obter detalhes.
 
-Para atribuir um número de serviço, você precisará obter ou transferir os números de serviço de chamada tarifada ou gratuita existentes. Depois que você receber os números de telefone de serviço de chamada tarifada ou gratuita, eles serão exibidos no <!-- validate nav path --> **** > Número de**telefone**de**voz** > do centro de administração do Skype for Business, e o **tipo de número** listado será listado como **serviço de chamada**gratuita. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço para o Skype for Business e o Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) ou, se você quiser transferir e número de serviço existente, consulte [transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).
+Para atribuir um número de serviço, você precisará obter ou transferir os números de serviço de chamada tarifada ou gratuita existentes. Depois que você receber os números de telefone de serviço de chamada tarifada ou gratuita, eles serão exibidos no <!-- validate nav path --> **** > Número de**telefone**de**voz** > do centro de administração do Skype for Business, e o **tipo de número** listado será listado como **serviço de chamada**gratuita. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço para o Skype for Business e o Microsoft Teams](/microsoftteams/getting-service-phone-numbers) ou, se você quiser transferir e número de serviço existente, consulte [transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > Se você estiver fora dos Estados Unidos, não poderá usar o centro de administração do Microsoft Teams para obter números de serviço. Em seguida, [gerencie os números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para ver como fazê-lo.
@@ -245,7 +245,7 @@ Para atribuir um número de serviço, você precisará obter ou transferir os n�
 
 [Veja aqui o que você obtém com o Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
