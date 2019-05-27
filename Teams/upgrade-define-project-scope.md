@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41f53385cb343ad967651741f44c60b410766aaa
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: eaba703faecb0d77db4cf6b858e10af5ba9231e2
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344629"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432932"
 ---
-![Estágios da jornada da atualização, com ênfase no estágio de definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da jornada da atualização, com ênfase no estágio de definição do projeto")
+![Atualizar o diagrama de jornada, realçando o estágio de definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da jornada da atualização, com ênfase no estágio de definição do projeto")
 
 Este artigo faz parte do estágio de definição do projeto da sua jornada de atualização, uma atividade que você concluiu após criar um patrocínio aliança e equipe de projeto dos participantes que você identificou é essencial para o sucesso do seu projeto. Antes de prosseguir, confirme que você concluiu as seguintes atividades:
 

@@ -15,12 +15,12 @@ MS.collection:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e58bfdcff9b87d343de39f00e6ac45254203092b
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 96fb3a0031b27b331dbc6424650f101b0f0a34f3
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343926"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433092"
 ---
 # <a name="define-my-success"></a>Definir meu sucesso
 
@@ -94,8 +94,8 @@ Além de definir seus casos de uso empresarial, para definir os limites do proje
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> |Pontos de decisão|<ul><li>Quais são os casos de uso empresarial da videoconferência que você pode identificar em sua organização?</li><li>Quais são os casos de uso empresarial para planos de chamadas que você pode identificar em sua organização?</li><li>Quais são os casos de uso empresarial do roteamento direto que você pode identificar em sua organização?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|Próximas etapas|<ul><li>Documente todos os casos de uso de negócios da conferência de áudio para sua organização.</li><li>Documente todos os casos de uso de negócios para planos de chamadas para sua organização.</li><li>Documentar todos os casos de uso de negócios para roteamento direto para sua organização.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |Pontos de decisão|<ul><li>Quais são os casos de uso empresarial da videoconferência que você pode identificar em sua organização?</li><li>Quais são os casos de uso empresarial para planos de chamadas que você pode identificar em sua organização?</li><li>Quais são os casos de uso empresarial do roteamento direto que você pode identificar em sua organização?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Próximas etapas|<ul><li>Documente todos os casos de uso de negócios da conferência de áudio para sua organização.</li><li>Documente todos os casos de uso de negócios para planos de chamadas para sua organização.</li><li>Documentar todos os casos de uso de negócios para roteamento direto para sua organização.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -129,8 +129,8 @@ Os casos de uso empresarial definidos na etapa anterior incluem um escopo organi
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|Pontos de decisão|<ul><li>Quem preencherá cada função importante do interessado em sua organização?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|Próximas etapas|<ul><li>Documente todos os principais participantes e comunique as responsabilidades e as expectativas da função para cada indivíduo atribuído.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Pontos de decisão|<ul><li>Quem preencherá cada função importante do interessado em sua organização?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Próximas etapas|<ul><li>Documente todos os principais participantes e comunique as responsabilidades e as expectativas da função para cada indivíduo atribuído.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -222,8 +222,8 @@ Você precisa identificar riscos empresariais como parte deste exercício e defi
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|Pontos de decisão|<ul><li>Quais são seus organization& # 39; s OKRs e KSIs?</li><li>Quais riscos você identificou relevantes para a implementação da conferência de áudio em sua organização? Quais são os planos de mitigação para os riscos identificados?</li><li>Quais riscos você identificou relevantes para a implementação de planos de chamada em sua organização? Quais são os planos de mitigação para os riscos identificados?</li><li>Quais riscos você identificou relevantes para a implementação de roteamento direto na sua organização? Quais são os planos de mitigação para os riscos identificados?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|Próximas etapas|<ul><li>Documente o OKRs e o KSIs e estabeleça o registro de riscos.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Pontos de decisão|<ul><li>Quais são seus organization& # 39; s OKRs e KSIs?</li><li>Quais riscos você identificou relevantes para a implementação da conferência de áudio em sua organização? Quais são os planos de mitigação para os riscos identificados?</li><li>Quais riscos você identificou relevantes para a implementação de planos de chamada em sua organização? Quais são os planos de mitigação para os riscos identificados?</li><li>Quais riscos você identificou relevantes para a implementação de roteamento direto na sua organização? Quais são os planos de mitigação para os riscos identificados?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Próximas etapas|<ul><li>Documente o OKRs e o KSIs e estabeleça o registro de riscos.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -263,8 +263,8 @@ O Comitê de direcionamento se reúne em um intervalo recorrente durante o ciclo
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|Pontos de decisão|<ul><li>Decida se um Comitê de direcionamento é necessário para a sua organização.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|Próximas etapas|<ul><li>Identifique os membros do Comitê de direcionamento.</li><li>Agendar reuniões do Comitê de direcionamento.</li><li>Prepare-se para as reuniões do Comitê de direcionamento.</li><li>Mantenha as reuniões do Comitê de direcionamento.</li><li>Tome medidas com base na entrada de reunião do Comitê de direção.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Pontos de decisão|<ul><li>Decida se um Comitê de direcionamento é necessário para a sua organização.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Próximas etapas|<ul><li>Identifique os membros do Comitê de direcionamento.</li><li>Agendar reuniões do Comitê de direcionamento.</li><li>Prepare-se para as reuniões do Comitê de direcionamento.</li><li>Mantenha as reuniões do Comitê de direcionamento.</li><li>Tome medidas com base na entrada de reunião do Comitê de direção.</li></ul>|
 
 Orientações detalhadas adicionais sobre como operar um Comitê de direcionamento adequado podem ser encontradas no [Guia do Comitê de orientação](envision-steering-committee-complete-guide.md).
 

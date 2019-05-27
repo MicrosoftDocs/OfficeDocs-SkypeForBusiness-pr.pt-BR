@@ -7,7 +7,7 @@ ms.date: 01/09/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Preparar a atualização para o modo somente equipes da Microsoft
+description: Preparar-se para a atualização para o modo somente Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -17,49 +17,49 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c60c7436f406c5fe4084e00f26ad66ada12f181e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0c33f1cc4b508149ae42b79e956e1f08d44579bc
+ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930330"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34421999"
 ---
 # <a name="teams-only-mode-considerations"></a>Considerações sobre o modo Teams Only (Apenas Teams)
 
-Se você é um administrador no seu locatário do Office 365, você verá agora a opção para atualizar para o modo equipes somente no Centro de administração do Microsoft Teams. Com essa funcionalidade, você pode atualizar usuários individuais, ou como alternativa, o locatário inteiro.  
+Se você for um administrador do seu locatário do Office 365, agora verá a opção atualizar para o modo somente Teams no centro de administração do Microsoft Teams. Com essa funcionalidade, você pode atualizar usuários individuais ou, como alternativa, o locatário inteiro.  
 
-Atualizando para o modo somente equipes oferece aos usuários todos os benefícios do Teams da Microsoft, o hub para o trabalho em equipe no Office 365, por meio de uma experiência de cliente único. Além disso, os usuários no modo exclusivo para equipes receberá todas as chamadas e bate-papos em equipes, independentemente se o remetente está usando o Skype para negócios ou equipes e se beneficiam de suporte de interoperabilidade e federação.
+A atualização para o modo somente Teams oferece aos usuários todas as vantagens do Microsoft Teams, o Hub de trabalho em equipe no Office 365, por meio de uma única experiência de cliente. Além disso, os usuários no modo apenas Teams receberão todas as chamadas e chats no Teams, independentemente de o remetente estar usando o Skype for Business ou Teams e se beneficiar do suporte a interoperabilidade e Federação.
 
-Enquanto milhares de clientes tiverem atualizados com êxito a Microsoft Teams, há algumas considerações que podem influenciar da sua organização atualização cronograma e experiência do usuário ao longo do percurso. Em particular, tendo a opção de atualização não necessariamente significa que sua organização está pronta para que essa alteração. Para obter a melhor experiência do usuário, confirme se o Microsoft Teams atende a seus requisitos de colaboração e comunicação, verifique se a rede está pronta para dar suporte ao Microsoft Teams e implemente seu plano de preparação do usuário antes de atualizar os usuários para o Microsoft Teams. 
+Embora milhares de clientes tenham sido atualizados com êxito para o Microsoft Teams, há considerações que podem influenciar a linha do tempo de atualização da sua organização e a experiência do usuário ao longo do caminho. Em particular, ter a opção de atualizar não significa necessariamente que sua organização está pronta para esta mudança. Para obter a melhor experiência do usuário, confirme se o Microsoft Teams atende a seus requisitos de colaboração e comunicação, verifique se a rede está pronta para dar suporte ao Microsoft Teams e implemente seu plano de preparação do usuário antes de atualizar os usuários para o Microsoft Teams. 
 
 > [!IMPORTANT]
-> Se você apenas começando seu planejamento de atualização, certifique-se de examinar nossa orientação de atualização completa e recursos de planejamento. [Iniciar aqui](upgrade-introduction.md). 
+> Se você está apenas começando a planejar a atualização, lembre-se de rever nossa orientação de atualização e planejamento de recursos. [Comece aqui](upgrade-start-here.md). 
 
-**Considerações sobre coexistência**: as organizações que usam já Skype para Business Online e/ou Skype para Business Server pode introduzir equipes em seu ambiente a um ritmo que atenda às suas necessidades. As organizações podem incrementalmente distribuir equipes para um conjunto desejado de usuários conforme necessário, e os usuários que utilizam as equipes podem se comunicar com usuários que usam Skype para negócios e vice-versa. Para gerenciar essa experiência, modos de coexistência de uso administradores, que definem a experiência do cliente usuário final, o comportamento de roteamento de entrada bate-papos e chama, bem como se novas reuniões agendadas no equipes ou Skype para negócios. Os usuários podem se federar com usuários de outras organizações se o usuário for atualizado para **Equipes apenas**; No entanto, a melhor experiência é fornecida quando as equipes de usar ambos os usuários. Os usuários que são atualizados para equipes apenas ainda poderão ingressar Skype para reuniões de negócios. 
+**Considerações**de coexistência: as organizações que já usam o Skype for Business Online e/ou o Skype for Business Server podem introduzir equipes em seu ambiente em um ritmo que atenda às suas necessidades. As organizações podem implantar de forma incremental as equipes para um conjunto desejado de usuários, conforme necessário, e os usuários que usam equipes podem se comunicar com os usuários que usam o Skype for Business e vice-versa. Para gerenciar essa experiência, os administradores usam modos de coexistência, que definem a experiência do cliente final do usuário, o comportamento de roteamento de chats e chamadas de entrada, bem como se novas reuniões estão agendadas no Teams ou no Skype for Business. Os usuários podem federar-se com usuários em outras organizações se o usuário for atualizado **somente**para o Microsoft Teams; no entanto, a melhor experiência é fornecida quando os dois usuários usam o Microsoft Teams. Os usuários que são atualizados para o Microsoft Teams ainda podem ingressar em reuniões do Skype for Business. 
 
 > [!NOTE]
-> Os usuários que são atualizados para equipes só não podem se comunicar com usuários que estejam usando Skype para consumidor.
+> Os usuários que são atualizados para o Microsoft Teams não podem se comunicar com os usuários que estão usando o Skype para consumidor.
 
 > [!IMPORTANT]
-> Para obter mais informações sobre coexistência Consulte para [entender as equipes da Microsoft e Skype para interoperabilidade e coexistência de negócios](teams-and-skypeforbusiness-coexistence-and-interoperability.md). 
+> Para obter informações mais detalhadas sobre a coexistência, consulte [entender o Microsoft Teams e a coexistência e interoperabilidade do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md). 
 
-**Considerações de todo o locatário**: estamos trabalhando em permitindo que as equipes nos seguintes ambientes; No entanto, no momento, os administradores não devem atualizar todos os usuários em sua organização se seus Skype para locatário de negócios está hospedado em um dos seguintes ambientes:
+**Considerações de todos**os locatários: estamos nos empenhando para habilitar o Microsoft Teams nos seguintes ambientes; no entanto, por enquanto, os administradores não devem atualizar os usuários em sua organização se o locatário do Skype for Business estiver hospedado em um dos seguintes ambientes:
 
- - Nuvem de comunidade governamental alta
- - DoD de nuvem de comunidade governamental
+ - Nuvem da Comunidade governamental alta
+ - Nuvem da Comunidade governamental DoD
  - Office 365 operado pela 21Vianet
- - Alemanha do Office 365
- - Skype para locatário de negócios é hospedado em Coreia do Sul **e** que a organização requer dados de equipes seja armazenado na Coreia do Sul. Atualmente, as organizações com Skype para dados corporativos armazenados em Coreia do Sul que atualizar para equipes terão seus dados de equipes armazenados na região da Ásia datacenter, não na região datacenter Coreia do Sul.
+ - Office 365 Alemanha
+ - O locatário do Skype for Business é hospedado na Coréia do Sul **e** a organização requer que os dados do Team sejam armazenados na Coreia do Sul. Atualmente, as organizações com dados do Skype for Business armazenados na Coréia do Sul que atualizam para o Microsoft Teams terão seus dados de equipe armazenados na região do datacenter da Ásia, e não na região do centro de dados da Coreia do Sul.
 
-**Considerações de específica do usuário**: ainda estão em evolução alguns cenários de usuário e os administradores podem decidir temporariamente adiar a atualização de determinados usuários durante a atualização de outros usuários na organização. Estamos trabalhando em:/ / Tools.ietf.org esses cenários; Por favor, monitore o site do [Mapa do Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para comunicados.
+**Considerações específicas do usuário**: alguns cenários do usuário ainda estão em evolução, e os administradores podem decidir adiar temporariamente a atualização de certos usuários durante a atualização de outros usuários da organização. Estamos nos empenhando para abordar esses cenários; Monitore o site de [mapa do Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para anúncios.
 
 | Cenário | Observações |
 |----------|-------|
-|Dispositivo de trabalho principal do usuário é um Mac e o usuário precisa para ver a disponibilidade dos colegas no Outlook. | Presença do Outlook em equipes ainda não é totalmente suportada para dispositivos de Mac. |
-| Usuário regularmente é conduzir reuniões com clientes ou parceiros externos em diferentes regiões internacionais. | Os participantes externos cujo locatário reside em um local diferente de geo não vejo IM chat em uma reunião **federados** . Os participantes ainda poderão ingressar na reunião como usuários anônimos. |
-| Usuário está realizando Skype para reuniões de transmissão de negócios. |  Enquanto as equipes live (substituindo transmissão do Skype) de eventos já está no modo de visualização público, esse usuário pode precisar permaneçam em Skype para negócios até disponibilidade geral de eventos ao vivo de equipes.
-| Dispositivo primário do usuário é baseada em VDI. | |
+|O dispositivo de trabalho principal do usuário é um Mac e o usuário precisa ver a disponibilidade dos colegas no Outlook. | A presença do Outlook no Microsoft Teams ainda não é totalmente suportada para dispositivos Mac. |
+| O usuário está conduzindo regularmente reuniões com clientes ou parceiros externos em diferentes regiões internacionais. | Os participantes externos cujo locatário reside em uma localização geográfica diferente não vêem chats de mensagem instantânea durante uma reunião **federada** . Os participantes ainda podem ingressar na reunião como usuários anônimos. |
+| O usuário está conduzindo reuniões de transmissão do Skype for Business. |  Embora os eventos do Team Live (substituindo a transmissão do Skype) já estejam na visualização pública, talvez seja necessário que este usuário permaneça no Skype for Business até a disponibilidade geral de eventos ao vivo do teams.
+| O dispositivo primário do usuário é baseado em VDI. | |
 |||
 
 > [!IMPORTANT]
-> **Lembrar**: A mudança para equipes é mais do que uma migração técnica. Uma atualização bem-sucedida avalia a prontidão técnica e a preparação do usuário final. Revise o nosso Skype para negócios equipes a [orientação de atualização](upgrade-framework.md) para obter mais informações sobre como planejar uma implementação da sua atualização às equipes.  
+> **Lembre-se**: a mudança para o Microsoft Teams é mais do que uma migração técnica. Uma atualização bem-sucedida avalia A prontidão técnica e a prontidão do usuário final. Revise as [diretrizes de atualização](upgrade-framework.md) do Skype for Business para o Teams para obter mais informações sobre como planejar uma implementação da atualização para o Microsoft Teams.  

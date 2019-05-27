@@ -15,12 +15,12 @@ description: Tarefas e atividades necessárias para o gerenciamento de serviços
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c15d497ec86dcb15e85fc45dda838b5f203c87e0
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 293406bbc8fe8cb97917908bc14f83129ff1bb66
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343860"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432868"
 ---
 # <a name="operate-my-service"></a>Operar meu serviço
 
@@ -62,7 +62,7 @@ Certifique-se de que cada equipe que você tem uma boa compreensão das atividad
 Depois que um contrato estiver em vigor, as equipes correspondentes deverão começar a realizar a operação.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Image depicting the next steps"/><br/>Próximas etapas</td>
 <td><ul><li>Use este documento para facilitar o exercício de mapeamento de funções operacionais.</li><li>Reúna-se com as respectivas equipes de suporte para atribuir nomes a cada item na lista de atividades necessárias.</li><li>Ganhe aceitação ou aprovação nas funções atribuídas.</li><li>Certifique-se de que as equipes correspondentes tenham o treinamento, preparação e recursos adequados para concluir as atividades necessárias delas.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dependências do serviço Teams

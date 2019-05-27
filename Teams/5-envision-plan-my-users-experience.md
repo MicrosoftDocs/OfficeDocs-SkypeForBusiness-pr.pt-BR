@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c7bf332c3d85445ccb9bcfe41e6d7417948ca15
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: c189ba7c3e814b3bbe37fea92f740e9fe873af86
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344605"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432591"
 ---
 # <a name="plan-my-users-experience"></a>Planejar a experiência de meus usuários
 
@@ -40,7 +40,7 @@ Um dos principais benefícios do teams é que o cliente é mantido atualizado au
 
 Como você pode ver no diagrama abaixo, os pontos de extremidade são um bloco de construção importante para oferecer uma experiência de qualidade para os usuários.
 
-![Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes] (media/plan-my-users-experience-image1.png "Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco em pontos de extremidade.")
+![Diagrama descrevendo os três componentes de qualidade] (media/plan-my-users-experience-image1.png "Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco em pontos de extremidade.")
 
 Os pontos de extremidade do teams podem ser executados em muitos dispositivos, incluindo PCs, Macs, tablets e dispositivos móveis. Parte da experiência não só inclui o dispositivo, mas como um usuário se conecta ao dispositivo — por exemplo, usando o microfone/alto-falante interno do dispositivo, o fones ou um fone de ouvido com microfone otimizado. O uso de um fone de ouvido com microfone otimizado pode melhorar a experiência geral do usuário.
 

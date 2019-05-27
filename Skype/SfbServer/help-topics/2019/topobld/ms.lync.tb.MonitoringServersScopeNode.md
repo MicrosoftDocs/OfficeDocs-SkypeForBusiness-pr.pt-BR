@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.MonitoringServersScopeNode
@@ -12,23 +12,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'O nó Monitoring Servers lista os Monitoring Servers em sua topologia. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 9eea8011b68155bdc29d408b4e81f5f955386c3e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'O nó servidores de monitoramento lista os servidores de monitoramento na sua topologia. Você pode executar as seguintes ações:'
+ms.openlocfilehash: 031b3d2f9c45709c7a5e43134cd4857a68de7096
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885522"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289143"
 ---
 # <a name="monitoring-servers-scope-node"></a>Nó de Escopo de Servidores de Monitoramento
  
-O nó **Monitoring Servers** lista os Monitoring Servers em sua topologia. Você pode executar as seguintes ações:
+O nó **servidores de monitoramento** lista os servidores de monitoramento na sua topologia. Você pode executar as seguintes ações:
   
-- O **novo servidor de monitoramento**. Inicia o assistente **Definir novo Monitoring Server** , que você usa para adicionar um novo servidor de monitoramento à topologia.
+- **Novo servidor de monitoramento**. Inicia o assistente **definir novo servidor** de monitoração, que você usa para adicionar um novo servidor de monitoramento à topologia.
     
-Além das opções de Monitoring Server, você pode executar as seguintes tarefas gerais:
+Além das opções do Monitoring Server, você pode executar as seguintes tarefas gerais:
   
-- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abra uma topologia existente, baixe a topologia atual, salvar uma cópia da topologia, publique a topologia, instale um banco de dados, mesclar os componentes de versões anteriores do Office Communications Server ou remover o implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores do Office Communications Server ou remover o implementação.
     
 - **Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens para mostrar ou ocultar nos modos de exibição da árvore de console.
     

@@ -4,29 +4,29 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Antes de aprender as várias maneiras que você pode mover usuários entre pools, primeiro deve determinar quais usuários existir no pool herdado. A imagem abaixo, a coluna pool registrador identifica seis usuários que estão configurados para o pool herdado. Esses são os usuários de teste que podemos serão transferidos para o Skype para Business Server 2019 pool.
-ms.openlocfilehash: 980c3c48e026f929e95fcd9f9784b7d2a534c6cc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Antes de aprender as várias maneiras pelas quais você pode mover usuários entre pools, precisamos primeiro determinar quais usuários existem no pool herdado. Na imagem abaixo, a coluna pool de registradores identifica seis usuários configurados para o pool herdado. Estes são os usuários de teste que vamos mover para o pool do Skype for Business Server 2019.
+ms.openlocfilehash: b0694ce5d6091ae1f9c03db696fe3525c4b906f1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231312"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280601"
 ---
 # <a name="view-current-users-in-legacy-pool"></a>Exibir usuários atuais no pool herdado
 
-Antes de aprender as várias maneiras que você pode mover usuários entre pools, primeiro deve determinar quais usuários existirem no pool herdado. A imagem abaixo, a coluna **pool de registrador** identifica seis usuários que estão configurados para o pool herdado. Esses são os usuários de teste que podemos serão transferidos para o Skype para Business Server 2019 pool.
+Antes de aprender as várias maneiras pelas quais você pode mover usuários entre pools, precisamos primeiro determinar quais usuários existem no pool herdado. Na imagem abaixo, a coluna **pool** de registradores identifica seis usuários configurados para o pool herdado. Estes são os usuários de teste que vamos mover para o pool do Skype for Business Server 2019.
   
 ### <a name="to-see-the-list-of-users-in-the-legacy-pool"></a>Para ver a lista de usuários no pool herdado
 
-1. Faça logon no herdado servidor Front-End com uma conta que seja membro do grupo RTCUniversalServerAdmins ou membro da função administrativa CsAdministrator ou CsUserAdministrator.
+1. Faça logon no servidor front-end herdado com uma conta que seja membro do grupo RTCUniversalServerAdmins ou membro da função administrativa CsAdministrator ou CsUserAdministrator.
     
-2. Abra o **Skype para painel de controle do servidor de negócios**.
+2. Abra o **painel de controle do Skype for Business Server**.
     
-3. Clique em **usuários**, clique em **Pesquisar**e clique em **Localizar**.
+3. Clique em **usuários**, clique em **Pesquisar**e, em seguida, clique em **Localizar**.
 
   
 

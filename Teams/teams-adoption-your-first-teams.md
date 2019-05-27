@@ -10,56 +10,56 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como direcionar a adoção de equipes usando o produto.
+description: Saiba como orientar a adoção do teams usando o produto.
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1393e708148d5a7f0f165844075c7cd3ac8a4856
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 77b9bb8283b7a032bb15556521200683e3bd9ccd
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930346"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433044"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Criar suas primeiras equipes no Microsoft Teams
 
-A melhor forma para incentivar a adoção das equipes é usar o produto. Recomendamos que você gerencia sua implantação do Office 365 com as equipes. Você também deve criar uma comunidade de funcionários que concentram-se no trabalho em equipe e a produtividade. (Essas equipes iniciais podem ser alterada ao longo do tempo.) Algumas equipes sugeridos são:
+A melhor maneira de impulsionar a adoção do teams é usar o produto. Recomendamos que você gerencie a implantação do Office 365 com o Teams. Você também deve criar uma comunidade de funcionários que se concentram em trabalho em equipe e produtividade. (Essas equipes iniciais podem mudar ao longo do tempo.) Algumas equipes sugeridas são:
 
-| Nome da equipe | Nomes de canal proposto |
+| Nome da equipe | Nomes de canais propostos |
 | --------- | ---------------------- |
-| Conheça as equipes | Geral</br> Dê boas-vindas</br> Tutorial</br>Comentários </br> Ideias para equipes futuras </br> Suporte |
-| Implementação de equipes da Microsoft | Geral <br/> Divulgação e adoção <br/> Compromisso de negócios <br/> Programa de adoção antecipada <br/> Comentários e ideias <br/> Segurança e conformidade <br/> Estratégia e planejamento <br/> Incidentes e integridade do serviço <br/> Treinamento <br/> Bate-papo de Watercooler |
-| Campeões de trabalho em equipe | Geral <br/> Práticas recomendadas, treinamento e como <br/> Canto campeões <br/> Suporte e comentários <br/> Líderes de programa <br/> Hub social |
+| Familiarize-se com o Microsoft Teams | Geral</br> Dê boas-vindas</br> Como faço?</br>Comentários </br> Ideias para equipes futuras </br> Suporte |
+| Implementação do Microsoft Teams | Geral <br/> Conscientização e adoção <br/> Envolvimento empresarial <br/> Programa pioneiro <br/> Comentários e ideias <br/> Segurança e conformidade <br/> Estratégia e planejamento <br/> Integridade do serviço e incidentes <br/> Treinamento <br/> Chat Watercooler |
+| Líderes do trabalho em equipe | Geral <br/> Práticas recomendadas, treinamento e como <br/> Canto da Champion <br/> Feedback e suporte <br/> Clientes potenciais do programa <br/> Hub social |
 
-Dentro de Teams da Microsoft, a [Galeria de guia](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview) fornece acesso a todos os Office 365 e aplicativos de terceiros que tiverem sido ativados pelo administrador. Para obter o máximo proveito do seu produto, sugerimos fixação principais recursos como guias em cada um dos canais apropriados. Consulte o exemplo a seguir.
+No Microsoft Teams, a [Galeria de guias](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview) oferece acesso a todos os aplicativos do Office 365 e de terceiros que foram ativados pelo administrador. Para obter o valor máximo de seu produto, sugerimos fixar recursos chave como guias em cada um dos canais apropriados. Consulte o exemplo a seguir.
 
-![Guias personalizadas e padrão](media/teams-adoption-tab-example.png)
+![Captura de tela mostrando as guias padrão e personalizadas](media/teams-adoption-tab-example.png)
 
-As equipes iniciais, sugerimos fixação os seguintes itens para referência fácil em seus canais de equipe. Esses ativos estão além das suas seções de bloco de anotações do OneNote. Se você estiver trabalhando com a nossa equipe FastTrack, eles serão ajudá-lo a configurar essas equipes primeiro. 
+Em suas equipes iniciais, sugerimos fixar os seguintes itens para facilitar a referência em seus canais de equipe. Esses ativos são além das seções do bloco de anotações do OneNote. Se você estiver trabalhando com nossa equipe do FastTrack, ele ajudará você a configurar essas primeiras equipes. 
 
-|Nome da equipe/canal | Guia fixado |
+|Nome do canal/equipe | Guia fixada |
 |----------------- | ---------- |
-| **Implantação de equipes da Microsoft** ||
-| Geral | Guia Web: [documentação de equipes](https://aka.ms/SuccessWithTeams) |
-| Divulgação e adoção | [Hub de adoção de equipes](https://aka.ms/DriveTeamsAdoption)<br/>[Kit de sucesso do cliente Microsoft Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
-| Compromisso de negócios | Wiki – orientações de compromisso<br/>Formulário – solicitação de consulta de equipes<br/>Lista – solicitações de compromisso |
-|Primeiros usuários | Comunidade de feedback fixados <br/> OneNote para perguntas Frequentes e temas comuns |
-| Comentários e emissão de relatórios | Relatório de uso do Office 365 fixado (para administradores do Office 365 somente) |
-| Segurança e conformidade | Portal de confiança da Microsoft <br/> [Documentação de segurança e conformidade](https://docs.microsoft.com/en-us/office365/securitycompliance/index)<br/> [Mapa Rodoviário](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
-| Estratégia e planejamento | Colaboração Norte estrela PowerPoint <br/> Plano de projeto de adoção de serviço |
-| Treinamento | Sinalizador de aprendizagem do portal de treinamento <br/> [As equipes de treinamento online](https://aka.ms/TeamsTraining) |
-| **Campeões de trabalho em equipe**|  |
-| Geral | Use para comunicados de programa <br/> Visão geral do programa de campeões de PIN |
-| Práticas recomendadas | Melhores práticas para equipes, canais e chats de PowerPoint <br/> Ciclo de vida de equipe |
-| Canto campeões | Apresentações e anotações da reunião |
-| Hub social | Conector RSS: Teams blog e orientando blog de adoção |
-| Treinamento e como | Seu link de portal de treinamento |
+| **Implantação do Microsoft Teams** ||
+| Geral | Guia da Web: [documentação](https://aka.ms/SuccessWithTeams) do teams |
+| Conscientização e adoção | [Hub de adoção de equipes](https://aka.ms/DriveTeamsAdoption)<br/>[Kit de sucesso do cliente Microsoft Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
+| Envolvimento empresarial | Wiki – orientação sobre o compromisso<br/>Formulário – solicitação de consultoria de equipes<br/>Lista – solicitações de compromisso |
+|Pioneiros | Comunidade de comentários afixado <br/> OneNote para perguntas frequentes e temas comuns |
+| Comentários e relatórios | Relatório de uso do Office 365 fixado (somente para administradores do Office 365) |
+| Segurança e conformidade | Portal de confiança da Microsoft <br/> [Documentação de conformidade e segurança](https://docs.microsoft.com/en-us/office365/securitycompliance/index)<br/> [Mapa Rodoviário](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
+| Estratégia e planejamento | Colaboração na estrela do norte do PowerPoint <br/> Plano de projeto de adoção de serviço |
+| Treinamento | Portal de treinamento de aprendizagem personalizado <br/> [Treinamento do teams online](https://aka.ms/TeamsTraining) |
+| **Líderes do trabalho em equipe**|  |
+| Geral | Usar para anúncios do programa <br/> Visão geral do programa de pinos Champion |
+| Práticas recomendadas | Práticas recomendadas para equipes, canais e chats PowerPoint <br/> Ciclo de vida da equipe |
+| Canto da Champion | Anotações de reunião e apresentações |
+| Hub social | Conector de RSS: blog do Teams e blog de adoção de forças |
+| Treinamento e instruções | O link do seu portal de treinamento |
 
-## <a name="making-the-switch-to-microsoft-teams"></a>Fazendo a opção Teams da Microsoft
+## <a name="making-the-switch-to-microsoft-teams"></a>Como fazer a mudança para o Microsoft Teams
 
-Como começar a usar as equipes, ele poderá ser importante para você e para o restante da equipe do projeto ao confirmar no usando o chat de equipes, canais e recursos para executar seu projeto. Seu próprio uso das equipes é fundamental para a qualidade do seu projeto de adoção. Recomendamos que você resistir fragmentação seu projeto ao continuar a ter conversas com a equipe de projeto principal no email. Alternando para equipes, você irá modelar o comportamento desejado basicamente seus funcionários a adotar. Definir o tom, vá primeiro e começar a aprecie tendo as informações de projeto em um lugar!  
+À medida que você começa a usar o Microsoft Teams, é importante que você e o restante da equipe de projeto se comprometam com o uso de recursos de chat, canais e recursos do teams para executar seu projeto. Seu próprio uso de Teams é essencial para a qualidade do seu projeto de adoção. Recomendamos resistir à fragmentação do seu projeto continuando a conversar com a equipe do projeto principal por email. Ao mudar para o Microsoft Teams, você modelará o comportamento que deseja que seus funcionários adotem. Defina o Tom, vá primeiro e comece a aproveitar as informações do seu projeto em um só lugar!  
 
-![Ícone de etapas próximo](media/teams-adoption-next-icon.png) próximo: [como pronta é sua organização for Microsoft Teams?](teams-adoption-assess-readiness.md)
+![Ícone que representa a próxima etapa](media/teams-adoption-next-icon.png) em seguida: [como está pronto sua organização para o Microsoft Teams?](teams-adoption-assess-readiness.md)

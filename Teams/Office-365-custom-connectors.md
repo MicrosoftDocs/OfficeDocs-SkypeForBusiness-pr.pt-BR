@@ -14,31 +14,31 @@ search.appverid: MET150
 description: Os conectores mantêm a sua equipe atualizada ao entregar conteúdo e atualizações de serviços que você usa com frequência diretamente em um canal.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdb4184ed203994f1275c9c074371655a627b1fe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2167022e3187924f5283ab5bee3a6b220595fd64
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32195091"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432852"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Usar o Office 365 e conectores personalizados no Microsoft Teams
 =======================================================
 
-Os conectores mantêm a sua equipe atualizada ao entregar conteúdo e atualizações de serviços que você usa com frequência diretamente em um canal. Com conectores, os usuários do Microsoft Teams podem receber atualizações dos serviços de populares, como o Twitter, Trello, Wunderlist, GitHub e serviços do Azure DevOps dentro do fluxo de bate-papo na sua equipe.
+Os conectores mantêm a sua equipe atualizada ao entregar conteúdo e atualizações de serviços que você usa com frequência diretamente em um canal. Com os conectores, os usuários do Microsoft Teams podem receber atualizações de serviços populares, como Twitter, Trello, Wunderlist, GitHub e serviços do DevOps do Azure dentro do fluxo de chat de sua equipe.
 
-Qualquer membro de uma equipe pode conectar sua equipe aos serviços de nuvem populares com os conectores se permitem as permissões de equipe e todos os membros da equipe são notificados das atividades de serviço. Conectores continuará funcionando mesmo após o membro que tenha inicialmente o conector tenha deixado a instalação. Qualquer membro de equipe com as permissões para adicionar ou remover possível modificar a configuração de conectores por outros membros.
+Qualquer membro de uma equipe pode conectar sua equipe a serviços de nuvem populares com os conectores, se as permissões da equipe permitirem, e todos os membros da equipe forem notificados sobre as atividades desse serviço. Os conectores continuarão a funcionar mesmo após o membro que, inicialmente, configurar o conector. Qualquer membro da equipe com as permissões para adicionar à instalação pode modificar os conectores por outros membros.
 
-Os conectores do Office 365 podem ser usados com o Microsoft Teams e com os grupos do Office 365, facilitando para todos os membros manter a sincronia e receber informações relevantes rapidamente. O Microsoft Teams e o Exchange usam o mesmo modelo de conector, permitindo que você use os mesmos conectores em ambas as plataformas. É importante observar, no entanto, que a desabilitação de conectores para o grupo do Office 365 que uma equipe é dependente desativarão a capacidade de criar conectores para a equipe também.
+Os conectores do Office 365 podem ser usados com o Microsoft Teams e com os grupos do Office 365, facilitando para todos os membros manter a sincronia e receber informações relevantes rapidamente. O Microsoft Teams e o Exchange usam o mesmo modelo de conector, permitindo que você use os mesmos conectores em ambas as plataformas. No entanto, vale a pena observar que a desabilitação de conectores para o grupo do Office 365 em que uma equipe depende da capacidade de criar conectores para essa equipe também será desativada.
 
 No momento, os conectores podem ser adicionados usando os clientes Microsoft Teams de desktop e web. No entanto, as informações publicadas por esses conectores podem ser visualizadas usando **todos os clientes**, inclusive de celular.
 
 1.  Para adicionar um conector a um canal, clique nas **reticências (…),** ao lado direito do nome do canal, e então clique em **Conectores.**
 
-    ![Captura de tela da interface do Teams com o nome de um canal selecionado e a opção de Conectores selecionada.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    ![Captura de tela da interface do teams com a opção conectores selecionada.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
 2.  Os usuários podem escolher a partir de uma grande variedade de conectores, e então clicar em **Adicionar**.
 
-    ![Captura de tela da caixa de diálogo Conectores mostrando os conectores disponíveis para ser adicionados.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+    ![Captura de tela da caixa de diálogo conectores mostrando os conectores disponíveis.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
 3.  Preencha as informações necessárias do conector selecionado e clique em **Salvar**. Cada conector precisa de um conjunto de informações diversas para funcionar corretamente e alguns podem exigir que você inicie sessão no serviço usando os links fornecidos na página de configuração do conector.
 
@@ -59,7 +59,7 @@ Desenvolver conectores personalizados que podem se integrar aos seus aplicativos
 
 2.  Para criar um Webhook, especifique um **nome**, atualize a imagem do Webhook, se necessário, e clique em **Criar**.
 
-    ![Captura de tela da página de configuração do conector Incoming Webhook. ](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
+    ![Captura de tela da página de configuração do conector de webhook de entrada.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image6.png)
 
 3.  Os aplicativos que levam dados para este canal precisam da URL do conector Webhook. É criada uma **URL exclusiva** ao criar o **Webhook**. Compartilhe essa URL com os seus desenvolvedores para que eles possam configurar seus aplicativos para pegar os dados conforme necessário.
 

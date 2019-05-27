@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 614ea6276a0bbfb131d344ecfbcd57c70d198c8a
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 84e7dde2da777fbc0b3c5fd120d4ee88b1f98ea1
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344713"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432609"
 ---
 # <a name="prepare-my-users"></a>Preparar meus usuários
 
@@ -48,8 +48,8 @@ A imagem a seguir é um exemplo de uma instrução de visão de valor para um cl
 ![Tabela de duas colunas mostrando visão e valor] (media/prepare-my-users-new-image1.png "Tabela de duas colunas com visão-por que estamos fazendo isso? (nível da organização) à esquerda e valor-o que está aqui para mim? (nível do usuário) à direita")
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Você já articulau o benefício e o valor para os seus usuários de uma maneira que obtém a sua compra para esta nova solução?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Crie suas instruções de visão e valor para o escopo do projeto atual, garantindo que elas se alinhem às suas metas.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Você já articulau o benefício e o valor para os seus usuários de uma maneira que obtém a sua compra para esta nova solução?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Crie suas instruções de visão e valor para o escopo do projeto atual, garantindo que elas se alinhem às suas metas.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -59,8 +59,8 @@ A imagem a seguir é um exemplo de uma instrução de visão de valor para um cl
 A preparação organizacional ajuda a determinar como as pessoas que podem ser retentadas podem mudar a maneira como funcionam. Saber como os usuários podem reagir a alterações permite que sua organização atenda às preocupações proativas, ajuste o plano de distribuição para obter a recepção ideal e identifique os usuários que podem se tornar seus especialistas ou embaixadores para ajudar a facilitar a alteração.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Os usuários estão prontos e dispostos a mudar para a nova solução?</li><li>Os usuários têm a capacidade ou a competência para facilitar a alteração?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Use os seguintes iniciadores de conversa para entender a cultura da sua organização quando ele for alterado. Essas informações podem ajudar a informar o nível de conscientização e o treinamento que talvez você precise implementar para o seu projeto.
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Os usuários estão prontos e dispostos a mudar para a nova solução?</li><li>Os usuários têm a capacidade ou a competência para facilitar a alteração?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Use os seguintes iniciadores de conversa para entender a cultura da sua organização quando ele for alterado. Essas informações podem ajudar a informar o nível de conscientização e o treinamento que talvez você precise implementar para o seu projeto.
 </li></ul></td></tr>
 </table>
 
@@ -98,8 +98,8 @@ A preparação organizacional ajuda a determinar como as pessoas que podem ser r
 A análise em nível de pessoas oferece noções básicas sobre os casos de uso de usuários, cohorts e uso. Ao dedicar tempo para entender quem são seus usuários e como eles funcionam, você pode garantir que eles tenham o que precisam ser bem-sucedidos ao implementar a alteração. Isso pode incluir mensagens direcionadas, treinamento ou até mesmo dispositivos, como fones de ouvido com microfone e webcams. Por exemplo, um executivo pode esperar treinamento único, enquanto os representantes de campo de viagem podem se beneficiar de um vídeo de treinamento que podem assistir ao seu lazer. Além disso, a análise em nível de pessoas pode ajudar a identificar quem deve começar a usar a nova funcionalidade hoje, com quem pode ser melhor servido aguardando.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Alguns usuários ou cohorts têm uma dependência básica nessa solução para fazer seu trabalho de forma eficaz?</li><li>Há casos de uso específicos que podem ser facilitados com o uso dessa nova solução?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Mapear pessoas de usuário. Primeiro, segmente a base de usuários em grupos persona/cohort (executivos, Road guerreiros, funcionários de colaboração, varejo etc.). Para capacidade de gerenciamento, liste no máximo oito grupos. (Para obter exemplos de inícios de conversa, consulte abaixo.) Use suas conclusões para projetar ainda mais suas campanhas de preparação para o usuário e para segmentar os usuários piloto daqueles que podem se beneficiar da atualização mais tarde.
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Alguns usuários ou cohorts têm uma dependência básica nessa solução para fazer seu trabalho de forma eficaz?</li><li>Há casos de uso específicos que podem ser facilitados com o uso dessa nova solução?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Mapear pessoas de usuário. Primeiro, segmente a base de usuários em grupos persona/cohort (executivos, Road guerreiros, funcionários de colaboração, varejo etc.). Para capacidade de gerenciamento, liste no máximo oito grupos. (Para obter exemplos de inícios de conversa, consulte abaixo.) Use suas conclusões para projetar ainda mais suas campanhas de preparação para o usuário e para segmentar os usuários piloto daqueles que podem se beneficiar da atualização mais tarde.
 </li><li>Mapear casos de uso. Depois de identificar os principais grupos de usuários que se beneficiarão dessa nova tecnologia, considere a população geral do usuário. Ao compreender cenários e casos de uso entre equipes, você pode visualizar sua organização trabalhando com essa nova tecnologia. Além disso, adicionar exemplos de casos de uso a seus planos de comunicação e treinamento ajuda a torná-los relevantes para seus usuários.</li></ul></td></tr>
 </table>
 
@@ -125,7 +125,7 @@ Para cada grupo persona, discuta o seguinte com sua equipe de projeto:
 
 A imagem a seguir é um exemplo de uma tabela persona.
 
-![Tabela listando pessoalmente as pessoas com suas funções comuns e as dependências da solução de comunicação e colaboração. O executivo persona é realçado com detalhes sobre o perfil (dia na vida), além dos recursos, dispositivos e treinamentos de que você precisa de um executivo.] (media/prepare-my-users-image2.png "Tabela listando pessoalmente as pessoas com suas funções comuns e as dependências da solução de comunicação e colaboração. O executivo persona é realçado com detalhes sobre o perfil (dia na vida), além dos recursos, dispositivos e treinamentos de que você precisa de um executivo.")
+![Tabela listando detalhes de persona] (media/prepare-my-users-image2.png "Tabela listando pessoalmente as pessoas com suas funções comuns e as dependências da solução de comunicação e colaboração. O executivo persona é realçado com detalhes sobre o perfil (dia na vida), além dos recursos, dispositivos e treinamentos de que você precisa de um executivo.")
 
 Para cada caso de uso, discuta o seguinte com sua equipe de projeto:
 
@@ -145,8 +145,8 @@ Para obter exemplos de casos de uso, acesse a [biblioteca de produtividade FastT
 Depois de entender quem são seus usuários e como eles funcionarão na nova solução, você pode criar seu plano de preparação. Seu plano de preparação do usuário incorpora a comunicação, o treinamento e o suporte aos usuários à medida que você faz o piloto, a integração e a operação da nova solução. Como você descobriu nas etapas anteriores deste artigo, a prontidão não se ajusta a um tamanho. Comece com um plano de conscientização e treinamento de grande alcance, incorporando o valor de mensagens que você definiu no início deste processo. Em seguida, ajuste suas mensagens, treinamento e suporte para as pessoas ou cohorts que você definiu, conforme apropriado. Seu plano personalizado permitirá que os usuários se relacionem mais rapidamente com a nova solução enquanto demonstram que você compreende suas necessidades, o que ajudará a facilitar sua transição.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Que plano de preparação você pode oferecer para ajudar a facilitar e acelerar a adoção da nova solução?</li><li>Você tem os recursos de conscientização, treinamento e suporte corretos que se alinham com a capacidade dos usuários de lidar com alterações e com as pessoas que você definiu?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Use a lista na seção a seguir para gerar ideias para seu plano de preparação. Selecione as outras&mdash;mais relevantes ou adicione sua própria&mdash;para criar um plano de preparação otimizado para sua organização.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Que plano de preparação você pode oferecer para ajudar a facilitar e acelerar a adoção da nova solução?</li><li>Você tem os recursos de conscientização, treinamento e suporte corretos que se alinham com a capacidade dos usuários de lidar com alterações e com as pessoas que você definiu?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Use a lista na seção a seguir para gerar ideias para seu plano de preparação. Selecione as outras&mdash;mais relevantes ou adicione sua própria&mdash;para criar um plano de preparação otimizado para sua organização.</li></ul></td></tr>
 </table>
 
 ### <a name="readiness-plan-ideas"></a>Ideias do plano de preparação

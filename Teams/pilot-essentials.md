@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5e8ca2fd4067c8105ea9dce2e94729e20d835f7
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 824b14ba49391720305778e676bb47850d836196
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344150"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433179"
 ---
-![Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação] (media/upgrade-banner-deployment.png "Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação")
+![Atualizar o diagrama de jornada, realçando implantação e implementação] (media/upgrade-banner-deployment.png "Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação")
 
 Este artigo faz parte do estágio de implantação e implementação da sua jornada de atualização e compartilha ideias para executar um piloto efetivo. Antes de prosseguir, confirme que você concluiu as seguintes atividades:
 

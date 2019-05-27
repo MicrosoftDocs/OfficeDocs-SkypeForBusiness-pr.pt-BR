@@ -10,58 +10,58 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Tomar decisões importantes para a fase 2 do seu plano de adoção
+description: Tome decisões importantes para a fase 2 do seu plano de adoção
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecf91ea9a06b3984b65954617fe5690658015e52
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31cfe0d42c7ce3382d8c7903bb7789cde19d35db
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896327"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433036"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Início rápido de governança no Microsoft Teams
 
-As seguintes atividades acontecerá simultaneamente e eles podem envolver todo ou parte de sua equipe chave. Como prática recomendada, adie a governança em larga escala e conversas de segurança para depois de concluir sua experimentação inicial com equipes. Isso irá simplificar as decisões que você precisará fazer a essa data futura. Para esta fase, há algumas decisões que precisam ser realizadas. Para torná-las a com êxito você precisará primeiro responda às seguintes perguntas:
+As atividades a seguir ocorrerão simultaneamente, e podem envolver toda a sua equipe ou parte dela. Como prática recomendada, adie o controle de grandes dimensões e as conversas de segurança para depois de concluir a experimentação inicial com o Teams. Isso simplificará as decisões que você precisará fazer na data mais tarde. Para esta fase, há algumas decisões que precisam ser feitas. Para fazer com que eles sejam bem-sucedidos, você precisará primeiro responder às seguintes perguntas:
 
-- Quais das partes interessadas da sua avaliação anterior são um bom candidato para participar este inclusão de negócios limitados?
-- Tem este individual (ou grupo de indivíduos) sugerido casos de uso que seriam bons candidatos para esta fase?  
-- Eles têm interesse suficiente de funcionários em suas organizações sejam usuários iniciais e fornecer feedback significativa e regular? 
+- Quais dos interessados de sua avaliação anterior é um bom candidato para participarem de um Conselho de negócios limitado?
+- Este indivíduo (ou grupo de indivíduos) sugeriu casos de uso sugeridos que seriam bons candidatos para esta fase?  
+- Elas têm interesse suficiente dos funcionários de sua organização para serem pioneiros a adotar e lhe dar comentários significativos e significativos? 
 
-## <a name="decision-point-iconmediateams-adoption-decision-iconpngdecisions"></a>![Ícone de ponto de decisão.](media/teams-adoption-decision-icon.png)Decisões
+## <a name="an-icon-representing-a-decision-pointmediateams-adoption-decision-iconpngdecisions"></a>![Um ícone representando um ponto de decisão](media/teams-adoption-decision-icon.png)Relacionadas
 
-Tomar as seguintes decisões (nesse ponto, essas decisões se aplica somente a fase 2):
+Faça as seguintes decisões (neste ponto, estas decisões se aplicam apenas à fase 2):
 
-### <a name="decision-1-who-can-create-teams"></a>Decisão 1: Quem pode criar equipes 
+### <a name="decision-1-who-can-create-teams"></a>Decisão 1: quem pode criar equipes 
 
-Para os fins desta fase, você pode restringir quem é capaz de criar equipes a população de adoção antecipada além de sua equipe de projeto principal. Isso permitirá que seus usuários iniciais criar equipes adicionais, se necessário. Esse comportamento de monitoramento fornecerá a você informações importantes para sua implantação em larga escala.
+Para a finalidade desta fase, você pode restringir quem é capaz de criar equipes para a população de adoção inicial, além da sua equipe de projeto principal. Isso permitirá que seus primeiros adeptos criem mais equipes, se necessário. A monitoração desse comportamento oferece informações essenciais para a sua ampla implantação.
 
-### <a name="decision-2-teams-naming-conventions"></a>Decisão 2: Convenções de nomenclatura às equipes 
+### <a name="decision-2-teams-naming-conventions"></a>Decisão 2: convenções de nomenclatura do teams 
 
-Você provavelmente desejará implementar algumas convenções de nomenclatura para sua implantação em larga escala de equipes e verificar nomes duplicados. Na fase 2, sugerimos que você implemente uma convenção de nomenclatura manual para seus projetos iniciais apenas. A prática recomendada para que isso é conduzir uma inclusão interativa com a equipe de projeto de adoção inicial e permitir que eles selecione seu próprio nome. Isso dará percepção como funcionários pensar seus trabalhos e serão essenciais na criação de uma escala maior convenção de nomenclatura mais tarde. (Informações adicionais sobre os elementos de uma inclusão interativa aparecerá neste manual).
+Você provavelmente desejará implementar algumas convenções de nomenclatura para a sua implantação ampla do Teams e verificar se há nomes duplicados. Na fase 2 sugerimos que você implemente uma Convenção de nomenclatura manual somente para os projetos iniciais. A prática recomendada para isso é conduzir um integração interativa com a equipe de projeto pioneira e permitir que elas selecionem o nome dela. Isso lhe dará noções básicas sobre como os funcionários pensam em seu trabalho e serão essenciais para criar uma Convenção de nomenclatura de escala maior posteriormente. (Informações adicionais sobre os elementos de um integração interativo serão exibidas posteriormente neste guia.)
 
-### <a name="decision-3-guest-access"></a>Decisão 3: Acesso de convidado
+### <a name="decision-3-guest-access"></a>Decisão 3: acesso de convidado
 
-Dependendo do escopo e o tipo do seu projeto e a natureza da indústria, permitindo colaboração segura com parceiros ou fornecedores pode ser um recurso essencial que você deseja testar. Você pode limitar quem pode adicionar convidados para a implementação de equipes, usando os controles de locatário apropriado. 
+Dependendo do escopo e do tipo de seu projeto e da natureza do seu setor, permitir a colaboração segura com parceiros ou fornecedores pode ser um recurso essencial que você deseja testar. Você pode limitar quem pode adicionar convidados à implementação do seu Teams usando os controles de locatário apropriados. 
 
-### <a name="decision-4-approved-apps"></a>Decisão 4: Aprovada apps
+### <a name="decision-4-approved-apps"></a>Decisão 4: aplicativos aprovados
 
-O melhor uso de maiusculas das equipes inclui a integração de outros aplicativos com a experiência. No mínimo sua equipe técnica deve habilitar o primeiro participante e aplicativos em sua experiência de equipes de destaque. Dependendo do seu caso de uso e outros aplicativos utilizados na organização, você pode optar por incluir aplicativos adicionais como parte do seu experimento controlado. 
+O melhor uso de casos do teams inclui a integração de outros aplicativos na experiência. Pelo menos sua equipe técnica deve habilitar o primeiro e os aplicativos em destaque na experiência de suas equipes. Dependendo de seu caso de uso e de outros aplicativos usados em sua organização, você pode optar por incluir aplicativos adicionais como parte do seu experimento controlado. 
 
-### <a name="decision-5-are-meetings-included-in-your-test"></a>Decisão 5: São incluídos em seu teste de reuniões? 
+### <a name="decision-5-are-meetings-included-in-your-test"></a>Decisão 5: as reuniões estão incluídas em seu teste? 
 
-A experiência de reunião de equipes é de alta qualidade, oferece suporte a vídeo bate-papo e traz seus funcionários juntos para ser mais eficiente. Consulte sua equipe técnica para certificar-se de que seu ambiente está pronto para incluir simples reuniões de VoIP. Ativar serviços de audioconferência ou serviços de voz normalmente deverá ser excluído dessa fase da sua experimentação; No entanto, isso dependerá de sua equipe de projeto principal, sua prontidão técnica, e o estado dos outro voz/reunião serviços em sua organização. É recomendável incluindo chats de vídeos e reuniões de VoIP no seu experimentação para obter mais valor de sua implementação de equipes. 
+A experiência de reunião do teams é de alta qualidade, compatível com vídeo em chat e traz seus funcionários para serem mais eficientes. Consulte sua equipe técnica para garantir que seu ambiente esteja pronto para incluir reuniões simples de VoIP. A habilitação da videoconferência ou dos serviços de voz normalmente seria excluída desta fase de experimentação; no entanto, isso depende da sua equipe de projeto principal, da preparação técnica e do estado de outros serviços de voz/reunião em sua organização. Recomendamos incluir chats com vídeo e reuniões VoIP em seu experimento para obter mais valor da implementação de suas equipes. 
 
-### <a name="decision-6--data-security"></a>Decisão 6: Segurança de dados
+### <a name="decision-6--data-security"></a>Decisão 6: segurança de dados
 
-Em preparação para a sua implantação em larga escala você pode optar por usar os rótulos de segurança para classificar os tipos de equipes em seu ambiente. Para fins de nesse experimento, é recomendável que você consulte o [plano de governança em equipes](plan-teams-governance.md) e certifique-se de que uma política de retenção básico tiver sido definida nos dados de equipes em sua organização do Office 365. Você pode precisar coordenar isso funcione com a sua equipe técnica, pois direitos de administrador do Office 365 são necessárias para concluir este trabalho.
+Em preparação para a sua ampla implantação, você pode optar por usar rótulos de segurança para classificar os tipos de equipe em seu ambiente. Para os fins deste experimento, recomendamos que você faça referência ao [plano de governança no Teams](plan-teams-governance.md) e assegure-se de que uma política de retenção básica tenha sido definida nos dados do teams na sua organização do Office 365. Talvez seja necessário coordenar esse trabalho com sua equipe técnica, porque é necessário ter direitos de administrador do Office 365 para concluir esse trabalho.
 
-### <a name="decision-7-length-of-your-experiment"></a>Decisão 7: Comprimento de seu experimento
+### <a name="decision-7-length-of-your-experiment"></a>Decisão 7: duração do seu experimento
 
-Uma implementação de equipes bem-sucedida continua a um ritmo íntegro para garantir lições, o foco e momentum apropriado. É recomendável que esta fase do seu projeto seja 60 dias de comprimento para garantir que seus primeiros usuários façam suficientes ciclos de negócios. Estendendo a experimentação por um tempo muito longa aumenta o risco de um programa de alteração que falhou; No entanto, esse tempo irá variar para cada organização.  
+Uma implementação de equipe bem-sucedida continua a um ritmo saudável para garantir a impulso, o foco e os aprendizados adequados. Recomendamos que esta fase do seu projeto tenha 60 dias de duração para garantir que seus primeiros pioneiros completem ciclos de negócios suficientes. Estendendo a experimentação por muito tempo aumenta o risco de um programa de alteração com falha; no entanto, esse tempo vai variar para cada organização.  
 
-![Ícone de etapas próximo](media/teams-adoption-next-icon.png) próximo: [Definir cenários de uso](teams-adoption-define-usage-scenarios.md)
+![Um ícone que representa a próxima](media/teams-adoption-next-icon.png) etapa seguinte: [definir cenários de uso](teams-adoption-define-usage-scenarios.md)

@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Saiba como gerenciar as configurações de reuniões do Team que os usuários agendam em sua organização.
-ms.openlocfilehash: 1828d626261c97cf3514781a5c55dbecd59d7666
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: ff47c1315dd56369d9a00d0afad952b80520abf3
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344873"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433147"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -38,7 +38,7 @@ Com a junção anônima, qualquer pessoa pode ingressar na reunião como usuári
 1. No painel de navegação esquerdo, vá para**configurações de reunião**de **reuniões** > .
 2. Em **participantes**, ativar **usuários anônimos podem ingressar em uma reunião**.
 
-    ![Meeting-Settings-participants. png] (media/meeting-settings-participants.png "Captura de tela das configurações de participantes para reuniões do teams no centro de administração do Microsoft Teams")
+    ![Captura de tela das configurações de participantes para reuniões no centro de administração] (media/meeting-settings-participants.png "Captura de tela das configurações de participantes para reuniões do teams no centro de administração do Microsoft Teams")
 
 Se você não quiser que os usuários anônimos ingressem em reuniões agendadas pelos usuários da sua organização, desative essa configuração.
 
@@ -59,7 +59,7 @@ Você pode personalizar convites de reunião do teams para atender às necessida
 1. No painel de navegação esquerdo, vá para**configurações de reunião**de **reuniões** > .
 2. Em **convite por email**, faça o seguinte:
 
-    ![Meeting-Settings-Invitation. png] (media/meeting-settings-invitation.png "Captura de tela das configurações de convite de reunião que você pode personalizar para reuniões do teams")
+    ![Captura de tela das configurações de convite de reunião que você pode personalizar] (media/meeting-settings-invitation.png "Captura de tela das configurações de convite de reunião que você pode personalizar para reuniões do teams")
 
     - **URL do logotipo** Digite a URL onde o seu logotipo está armazenado.
     - **URL legal** Se a sua organização tiver um site legal para o qual você deseja que as pessoas vá para qualquer preocupação legal, insira a URL aqui.
@@ -78,7 +78,7 @@ Se você estiver usando a [QoS (](qos-in-teams.md) qualidade de serviço) para p
 1. No painel de navegação esquerdo, vá para**configurações de reunião**de **reuniões** > .
 2. Em **rede**, faça o seguinte:
 
-    ![Meeting-Settings-Network. png] (media/meeting-settings-network.png "Captura de tela das configurações de rede para reuniões do teams no centro de administração do Microsoft Teams")
+    ![Captura de tela das configurações de rede para reuniões no centro de administração] (media/meeting-settings-network.png "Captura de tela das configurações de rede para reuniões do teams no centro de administração do Microsoft Teams")
 
     - Para permitir que as marcações DSCP sejam usadas para a QoS, ative **Inserir marcadores de qualidade de serviço (QoS) para tráfego de mídia em tempo real**. Você só tem a opção de usar marcadores ou não; Você não pode definir marcadores personalizados para cada tipo de tráfego. Consulte [selecionar um método de implementação de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) para saber mais sobre marcadores DSCP.
     - Para especificar intervalos de porta, ao lado de **selecionar um intervalo de portas para cada tipo de tráfego de mídia em tempo real**, selecione **especificar intervalos de porta**e insira as portas inicial e final para o áudio, o vídeo e o compartilhamento de tela. Selecionar essa opção é necessária para implementar QoS.

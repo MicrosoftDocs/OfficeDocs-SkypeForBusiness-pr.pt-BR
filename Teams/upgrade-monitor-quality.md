@@ -1,5 +1,5 @@
 ---
-title: Qualidade da experiência do usuário | As equipes da Microsoft | QoS | Qualidade da chamada
+title: Qualidade da experiência do usuário | Microsoft Teams | QoS | Qualidade da chamada
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,24 +15,24 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bafbb57f57f30d764e12877513395f17b3c1300e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a64e374e674fed4c6efe267d6559a260dce960e1
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885479"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432908"
 ---
-![Estágios da atualização jornada, com ênfase no estágio excelência operacional] (media/upgrade-banner-op-excellence.png "Estágios da atualização jornada, com ênfase no estágio excelência operacional")
+![Diagrama realçando a excelência operacional estágio da viagem de atualização] (media/upgrade-banner-op-excellence.png "Estágios da jornada da atualização, com ênfase no estágio Operational de excelência")
 
-Este artigo faz parte do estágio da sua jornada de atualização, que começa assim que você concluir a atualização do Skype para negócios às equipes excelência operacional.
+Este artigo faz parte do estágio operacional de excelência da sua jornada de atualização, que começa assim que você concluiu a atualização do Skype for Business para o Teams.
 
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
-A [Qualidade da experiência Revise o guia](https://aka.ms/qerguide) inclui um conjunto de atividades que avaliar e oferecem orientação de remediação em áreas principais que têm o maior impacto sobre como melhorar a experiência do usuário, como ilustrado abaixo.
+O [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide) inclui um conjunto de atividades que avaliam e fornecem orientação de correção em áreas importantes que têm o maior impacto na melhoria da experiência do usuário, conforme ilustrado a seguir.
 
-![As principais áreas para examinar durante uma análise de qualidade de experiência: áudio, a confiabilidade e resultados de pesquisa do usuário.] (media/plan-my-service-management-image2.png "As principais áreas para examinar durante uma análise de qualidade de experiência: áudio, a confiabilidade e resultados de pesquisa do usuário.")
+![Ilustração das principais áreas a serem examinadas durante uma crítica.] (media/plan-my-service-management-image2.png "As principais áreas a serem examinadas durante uma revisão de qualidade da experiência: áudio, confiabilidade e resultados da pesquisa de usuários.")
 
-Avaliação e correção as áreas descritas no guia continuamente, você pode reduzir seu potencial para afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrada em uma implantação pode ser agrupada nas seguintes categorias:
+Ao avaliar continuamente e corrigir as áreas descritas no guia, você pode reduzir o potencial de afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrada em uma implantação pode ser agrupada nas seguintes categorias:
 
 - Configuração incompleta do firewall ou proxy
 
@@ -46,8 +46,8 @@ Avaliação e correção as áreas descritas no guia continuamente, você pode r
 
 - Dispositivos de rede ou sub-redes com problemas
 
-As diretrizes fornecidas no guia do Quality of Experience revisão enfoca usando Online do painel de controle de qualidade de chamada (CQD) como a ferramenta principal para relatar e investigar cada área descrita, com foco para maximizar a adoção e o impacto de áudio. Todas as otimizações feitas à rede para melhorar a experiência de área também se converterão diretamente em aprimoramentos no vídeo e no compartilhamento da área de trabalho.
+As diretrizes fornecidas no guia de revisão de qualidade de experiência concentram-se em usar o painel de qualidade de chamada (CQD) online como a principal ferramenta para denunciar e investigar cada área descrita, com foco no áudio para maximizar a adoção e o impacto. Todas as otimizações feitas à rede para melhorar a experiência de área também se converterão diretamente em aprimoramentos no vídeo e no compartilhamento da área de trabalho.
 
-É altamente recomendável que você designar desde o início do campeão de qualidade. Depois que está sendo indicado, eles devem iniciar podem se familiarizar com o conteúdo no [Guia de revisão do Quality of Experience](https://aka.ms/qerguide).
+É altamente recomendável que você innomeado o especialista em qualidade no início. Depois de serem nomeados, eles devem começar a se familiarizar com o conteúdo no [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide).
 
 <!--ENDOFSECTION-->

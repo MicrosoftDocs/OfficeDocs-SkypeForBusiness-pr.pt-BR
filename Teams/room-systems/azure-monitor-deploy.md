@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o gerenciamento de dispositivos de salas do Microsoft Teams de maneira integrada e de ponta a ponta usando o Azure monitor.
-ms.openlocfilehash: d9f1a78d31fe6ef765fd43554337444533056114
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd1f1b32bd999c18144831e2458b426bf55ca1a9
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291496"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433371"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Implantar o gerenciamento de salas do Microsoft Teams com o Azure monitor
 
@@ -29,7 +29,7 @@ Você pode configurar a análise de logs no Azure monitor para fornecer telemetr
 
 Seguindo este guia, você pode usar um painel como o exemplo a seguir para obter relatórios de status detalhados de disponibilidade do dispositivo, integridade do aplicativo e do hardware e distribuição de versão do sistema operacional e do aplicativo de salas do Microsoft Teams.
 
-![Exemplo de exibição de análise de log para salas do Microsoft Teams] (../media/Deploy-Azure-Monitor-1.png "Exemplo de exibição de análise de log para salas do Microsoft Teams")
+![Captura de tela do modo de exibição análise de log de amostra para salas do Microsoft Teams] (../media/Deploy-Azure-Monitor-1.png "Exemplo de exibição de análise de log para salas do Microsoft Teams")
 
 Em um nível superior, é necessário executar as seguintes tarefas:
 
@@ -64,7 +64,7 @@ Você precisa configurar a análise de logs para coletar os logs necessários pa
 
 Para configurar a análise de logs para coletar os eventos de salas do Microsoft Teams, consulte [fontes de dados de log de eventos do Windows no Azure monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
 
-![Configurações do log de eventos] (../media/Deploy-Azure-Monitor-2.png "Configurações do log de eventos")
+![Captura de tela das configurações do log de eventos] (../media/Deploy-Azure-Monitor-2.png "Configurações do log de eventos")
 
 > [!IMPORTANT]
 > Defina as configurações do log de eventos **do** Windows e insira o sistema de salas da Skype como nome do log de eventos e marque as caixas de seleção **erro**, **aviso**e **informações** .

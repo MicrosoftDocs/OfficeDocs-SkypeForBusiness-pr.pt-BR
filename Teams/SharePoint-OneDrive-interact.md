@@ -15,73 +15,73 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f790a01050811ee46526fe37a4d6c14f107491b5
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 95e43baa0e7cd03ef08b4c9737b859f4095a64bb
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827736"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433108"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams
 
 > [!Tip]
-> Assista a sessão a seguir para saber como equipes interage com o Windows Azure Active Directory (AAD), grupos do Office 365, Exchange, SharePoint e OneDrive for Business: [Fundamentos das equipes da Microsoft](https://aka.ms/teams-foundations)
+> Assista à sessão a seguir para saber como as equipes interagem com o Azure Active Directory (AAD), o Office 365 Groups, o Exchange, o SharePoint e o OneDrive for Business: [bases do Microsoft Teams](https://aka.ms/teams-foundations)
 
 Cada equipe do Microsoft Teams tem um site de equipe no SharePoint Online, e cada canal de uma equipe obtém uma pasta dentro da biblioteca de documentos padrão do site da equipe. Os arquivos compartilhados em uma conversa são adicionados automaticamente à biblioteca de documentos e as permissões e as opções de segurança do arquivo definidas no SharePoint são refletidas automaticamente dentro do Teams.
 
 Os arquivos de bate-papo privado ficam armazenados na pasta do OneDrive for Business do remetente e as permissões são concedidas automaticamente a todos os participantes como parte do processo de compartilhamento de arquivos.
 
-Se os usuários não forem designados e habilitados com as licenças do SharePoint Online, eles não terão o armazenamento OneDrive for Business no Office 365. Compartilhamento de arquivos continuarão a funcionar no canais, mas os usuários não poderão compartilhar arquivos em bate-papos sem OneDrive para armazenamento de negócios no Office 365.
+Se os usuários não forem designados e habilitados com as licenças do SharePoint Online, eles não terão o armazenamento OneDrive for Business no Office 365. O compartilhamento de arquivos continuará a funcionar em canais, mas os usuários não poderão compartilhar arquivos em chats sem o armazenamento do OneDrive for Business no Office 365.
 
 Ao armazenar os arquivos na biblioteca de documentos do SharePoint Online e no OneDrive for Business, todas as regras de conformidade configuradas no nível tenant serão cumpridas. 
 
 > [!NOTE]
-> Integração com o SharePoint local não é suportada for Microsoft Teams neste momento.
+> A integração com o SharePoint local não é compatível com o Microsoft Teams no momento.
 
 A seguir, um exemplo das relações entre equipe, canal e biblioteca de documentos.
 
 É criado um site SharePoint para cada equipe e a pasta **Documentos compartilhados** é a pasta padrão criada para cada uma das equipes. Todos os canais, inclusive o canal **Geral** (o canal padrão de cada equipe), têm uma pasta em **Documentos Compartilhados**.
 
-![Diagrama das pastas de documentos selecionados no SharePoint Online para uma equipe e seus canais no Microsoft Teams.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
+![Diagrama de pastas de documentos compartilhados no SharePoint Online.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 
 > [!NOTE]
 > No momento, não é possível substituir o site e a biblioteca de documentos padrão do SharePoint por outros. Recebemos o feedback de que isso seria interessante e estamos considerando a ideia. Confira o [Roteiro do Microsoft Teams](https://aka.ms/teamsroadmap) ou o [Teams UserVoice](https://aka.ms/TeamsUserVoice) para estar sempre informado sobre os recursos futuros.
 
 > [!TIP]
-> Para adicionar uma guia para a sua equipe que vincula a uma página existente do site do SharePoint ou em sua biblioteca de documentos do SharePoint existente:
-> 1. Selecione o sinal de adição ao lado de guias.
-> 2. Selecione **SharePoint** para uma página existente do site do SharePoint ou **Biblioteca de documentos** para uma biblioteca de documento existente.
-> 3. Selecione a biblioteca apropriada de página ou documento.
+> Para adicionar uma guia à sua equipe que vincula a uma página de site do SharePoint existente ou à biblioteca de documentos do SharePoint existente:
+> 1. Selecione o sinal de adição ao lado das guias.
+> 2. Selecione o **SharePoint** para uma página de site ou uma **biblioteca de documentos** do SharePoint existente para uma biblioteca de documentos existente.
+> 3. Selecione a página ou biblioteca de documentos apropriada.
 
 Para cada usuário, a pasta **Arquivos de bate-papo do Microsoft Teams** do OneDrive é utilizada para armazenar todos os arquivos compartilhados em bate-papos privados com outros usuários (1:1 ou 1:muitos), com as permissões configuradas automaticamente para restringir o acesso somente para o usuário pretendido.
 
-![Diagrama da pasta do OneDrive, nomeada como Arquivos de Bate-papo do Microsoft Teams para o bate-papo de cada usuário.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+![Diagrama da pasta OneDrive chamado arquivos de chat do Microsoft Teams](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
-## <a name="channel-files-tab"></a>Guia de arquivos de canal
+## <a name="channel-files-tab"></a>Guia arquivos do canal
 
 > [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-section.md)]
 
-Na guia **arquivos** em equipes parecida com o modo de exibição de documentos do SharePoint. Na guia **arquivos** , os usuários podem:
+A guia **arquivos** em equipes é parecida com o modo de exibição documentos do SharePoint. Na guia **arquivos** , os usuários podem:
 
-- Consulte as opções adicionais no menu **novo** arquivo.
-- Sincronizar arquivos para sua unidade local.
-- No menu **Todos os documentos** , alterne do modo de exibição de **lista** para **lista compacta** ao modo de exibição **lado a lado** .
-- Identifica os arquivos que precisam de atenção ou têm malware.
-- Ver imediatamente se um arquivo é somente leitura ou check-out.
-- Check-out e check-in de arquivos.
+- Veja opções adicionais no menu **novo** arquivo.
+- Sincronize arquivos com a unidade local.
+- No menu **todos os documentos** , alternar do modo de exibição de **lista** para a **lista compacta** para o modo de exibição de **blocos** .
+- Identifique os arquivos que precisam de atenção ou de malware.
+- Veja imediatamente se um arquivo é somente leitura ou com check-out.
+- Fazer check-out e check-in de arquivos.
 - Fixar, Desafixar e alterar a ordem de classificação dos arquivos.
-- Identificar quais arquivos precisam ser metadados
-- Escolha uma das muitas mais opções de filtro.
-- Arquivos de grupo com base nos títulos de coluna.
-- Modificar configurações de coluna (mover para a esquerda ou direita, ocultar) e a largura da coluna.
+- Identificar quais arquivos precisam de metadados
+- Escolha entre várias opções de filtro.
+- Agrupar arquivos com base em títulos de coluna.
+- Modifique as configurações de coluna (mover para a esquerda ou direita, ocultar) e largura da coluna.
 
-## <a name="default-link-type-setting"></a>Configuração de tipo de link padrão
+## <a name="default-link-type-setting"></a>Configuração do tipo de link padrão
 
-SharePoint e OneDrive têm uma definição de administração para especificar o tipo de link padrão para links que são criados para um arquivo. As equipes está adotando essa mesma abordagem reutilizando as configurações que o administrador define para SharePoint e OneDrive. Para obter mais detalhes sobre essa abordagem são descritos na [alterar o tipo de link padrão quando os usuários obtenham links para compartilhamento](https://docs.microsoft.com/sharepoint/change-default-sharing-link). 
+O SharePoint e o OneDrive têm uma configuração de administrador para especificar o tipo de link padrão para links que são criados para um arquivo. O Microsoft Teams está adotando essa mesma abordagem reutilizando as configurações que o administrador define para o SharePoint e o OneDrive. Mais detalhes sobre essa abordagem são descritos em [alterar o tipo de link padrão quando os usuários recebem links para compartilhamento](https://docs.microsoft.com/sharepoint/change-default-sharing-link). 
 
 ## <a name="more-information"></a>Mais informações
 
-Para obter mais informações sobre como o SharePoint funciona com equipes, consulte [equipes e SharePoint: melhores juntos](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
+Para obter mais informações sobre como o SharePoint funciona com o Microsoft Teams, consulte [SharePoint e Teams: melhor juntos](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
 
-Para saber mais sobre a experiência de convidado em equipes, leia [o que a experiência de convidado é como](guest-experience.md).
+Para saber mais sobre a experiência de convidado no Microsoft Teams, leia [o que a experiência de convidado é curtir](guest-experience.md).
 

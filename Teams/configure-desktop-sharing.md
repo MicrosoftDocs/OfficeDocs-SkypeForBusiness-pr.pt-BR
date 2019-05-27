@@ -8,59 +8,59 @@ ms.date: 03/22/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Configurar uma política de reunião para permitir que os usuários compartilhem suas áreas de trabalho em chats de equipes ou em reuniões
+description: Configurar uma política de reunião para permitir que os usuários compartilhem suas áreas de trabalho nos chats ou reuniões do teams
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0434804e7d0ec57ff4470fd8e9af23b73f8179f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0bf213b919ee0bea344807f932e16240587b2b84
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198378"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433235"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurar o compartilhamento de área de trabalho no Microsoft Teams
 ============================================
 
-Compartilhamento da área de trabalho permite que os usuários apresentar uma tela ou app durante uma reunião ou bate-papo. Os administradores podem configurar Teams da Microsoft para permitir que usuários compartilhar uma tela inteira, um aplicativo ou um arquivo de compartilhamento de tela. Você pode permitir que usuários conceder ou solicitar o controle, permitir o compartilhamento do PowerPoint, adicione um quadro de comunicações e permitir anotações compartilhadas. Você também pode configurar se os usuários anônimos ou externos podem solicitar o controle da tela compartilhada.
+O compartilhamento de área de trabalho permite que os usuários apresentem uma tela ou um aplicativo durante uma reunião ou chat. Os administradores podem configurar o compartilhamento de tela no Microsoft Teams para permitir que os usuários compartilhem uma tela inteira, um aplicativo ou um arquivo. Você pode permitir que os usuários forneçam ou solicitem controle, permitam o compartilhamento do PowerPoint, adicionem um quadro de comunicações e permitam anotações compartilhadas. Você também pode configurar se usuários anônimos ou externos podem solicitar o controle da tela compartilhada.
 
-Para configurar o compartilhamento de tela, você pode cria uma nova política de reuniões e atribuí-la para os usuários que você deseja gerenciar.
+Para configurar o compartilhamento de tela, crie uma nova política de reuniões e atribua-a aos usuários que você deseja gerenciar.
 
-**No Centro de administração do Microsoft Teams**
+**No centro de administração do Microsoft Teams**
 
-1. Selecione **reuniões** > **políticas de reunião**.
+1. Selecionar **** > **as políticas de reunião**de reuniões.
 
-    ![Selecione políticas de reunião](media/configure-desktop-sharing-image1.png)
+    ![Captura de tela mostrando as políticas de reunião selecionadas](media/configure-desktop-sharing-image1.png)
 
-2. Na página de **políticas de reunião** , selecione **nova política**.
+2. Na página **políticas de reunião** , selecione **nova política**.
 
-    ![Selecione nova política](media/configure-desktop-sharing-image2.png)
+    ![Captura de tela mostrando a mensagem de políticas de reunião](media/configure-desktop-sharing-image2.png)
 
-3. Dê um título exclusivo de sua política e insira uma breve descrição.
+3. Dê à sua política um título exclusivo e insira uma breve descrição.
 
-4. Em **compartilhamento de conteúdo**, escolha um **modo de compartilhamento de tela** da lista suspensa:
+4. Em **compartilhamento de conteúdo**, escolha um **modo de compartilhamento de tela** na lista suspensa:
 
-   - **Tela inteira** – permite que os usuários compartilhar sua área de trabalho inteira.
-   - **Único aplicativo** – permite que os usuários compartilhamento de tela do limite a um único aplicativo ativo.
+   - **Tela inteira** – permite que os usuários compartilhem toda a área de trabalho.
+   - **Aplicativo único** – permite que os usuários limitem o compartilhamento de tela a um único aplicativo ativo.
    - **Desabilitado** – desativa o compartilhamento de tela.
 
-    ![Escolha uma modo de compartilhamento de tela](media/configure-desktop-sharing-image3.png)
+    ![Captura de tela mostrando as opções do modo de compartilhamento](media/configure-desktop-sharing-image3.png)
 
-5. Ative ou desativar o as seguintes configurações:
+5. Ativar ou desativar as seguintes configurações:
 
-    - **Permitir que um participante dar ou solicitar o controle** – permite que membros da equipe de conceder ou solicitar o controle da área de trabalho do apresentador ou aplicativo.
-    - **Permitir que um participante externo dar ou solicitar o controle** – permite convidados e usuários (federados) externos dar ou solicitar o controle da área de trabalho ou do aplicativo do apresentador.
-    - **Compartilhamento de PowerPoint permitir** - permite aos usuários criar reuniões que permitem apresentações do PowerPoint sejam carregados e compartilhados.
-    - **Quadro de comunicações permitir** – permite que os usuários compartilhem um quadro de comunicações.
-    - **Permitir anotações compartilhadas** – permite que os usuários façam anotações compartilhadas.
+    - **Permitir que um participante conceda ou solicite o controle** – permite que os membros da equipe conceda ou solicitem o controle da área de trabalho ou do aplicativo do apresentador.
+    - **Permitir que um participante externo conceda ou solicite controle** – permite que convidados e usuários externos (federados) conceda ou solicitem controle da área de trabalho ou do aplicativo do apresentador.
+    - **Permitir compartilhamento do PowerPoint** -permite que os usuários criem reuniões que permitem que as apresentações do PowerPoint sejam carregadas e compartilhadas.
+    - **Permitir quadro de comunicações** – permite que os usuários compartilhem um quadro de comunicações.
+    - **Permitir anotações** compartilhadas – permite que os usuários façam anotações compartilhadas.
 
 6. Clique em **Salvar**.
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>Usar o PowerShell para configurar a área de trabalho compartilhada
 
-Você também pode usar o cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) para controlar o compartilhamento da área de trabalho. Defina os seguintes parâmetros:
+Você também pode usar o cmdlet [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) para controlar o compartilhamento da área de trabalho. Defina os seguintes parâmetros:
 
 - Descrição
 - ScreenSharingMode

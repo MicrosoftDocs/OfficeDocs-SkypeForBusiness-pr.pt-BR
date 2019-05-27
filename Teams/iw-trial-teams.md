@@ -3,7 +3,6 @@ title: Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 04/23/2019
 ms.topic: reference
 audience: Admin
 ms.reviewer: annikaelias
@@ -16,20 +15,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 654db34de9160c0e858fd8972d00487291fd1653
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 933ea45cbcdc9e6af8c25dfdb67758d154731586
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33921248"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34404290"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams
 =======================================================
 
-O Microsoft Teams é uma ótima ferramenta de colaboração para sua organização. Ele permite que colaboradores e equipes discutam, inovem e compartilhem ideias usando o poder do Office 365. A avaliação do Microsoft Teams Commercial Cloud oferece 1 ano de avaliação do produto para usuários que já possuem o Office 365 em sua organização e não possuem licenças do Microsoft Teams.. Os administradores podem mudar ou desativar esse recurso para os usuários de sua organização.
+O Microsoft Teams é uma ótima ferramenta de colaboração para sua organização. Ele permite que colaboradores e equipes discutam, inovem e compartilhem ideias usando o poder do Office 365. A avaliação do Microsoft Teams Commercial Cloud oferece 1 ano de avaliação do produto para usuários que já possuem o Office 365 em sua organização e não possuem licenças do Microsoft Teams.. Os administradores podem mudar ou desativar esse recurso para os usuários de sua organização. 
 
 > [!IMPORTANT]
-> A avaliação da Nuvem Comercial do Microsoft Teams foi atualizada para incluir planos de serviço adicionais para aumentar a funcionalidade do Teams e agora é de propriedade e controle do administrador de cobrança da sua organização. Isso torna o teste mais fácil de gerenciar e consistente com todas as outras ofertas do Microsoft 365. Os usuários existentes da avaliação da Nuvem Comercial do Teams serão migrados para o novo plano.
+> A avaliação da Nuvem Comercial do Microsoft Teams foi atualizada para incluir planos de serviço adicionais para aumentar a funcionalidade do Teams e agora é de propriedade e controle do administrador de cobrança da sua organização. Isso torna o teste mais fácil de gerenciar e consistente com todas as outras ofertas do Microsoft 365. 
 
 ## <a name="whats-in-the-offer"></a>O que está incluso na oferta?
 
@@ -142,3 +141,11 @@ Para saber mais, confira [Licenças do Office 365 do Microsoft Teams](Office-365
 
 > [!NOTE]
 > Se a avaliação terminar e um usuário não for atualizado imediatamente para uma assinatura que inclua o Teams, os dados do usuário não serão removidos. O usuário ainda existe no Azure Active Directory e todos os dados no Teams ainda permanecem. Depois que uma nova licença for atribuída ao usuário para ativar a funcionalidade do Teams novamente, todo o conteúdo ainda existirá. 
+
+### <a name="remove-a-legacy-microsoft-teams-trial-license"></a>Remover uma licença de avaliação herdada do Microsoft Teams
+
+A partir de 22 de abril de 2019, os usuários podem começar a solicitar a licença de avaliação do Microsoft Teams Commercial Cloud mais recente. Caso pretenda migrar os usuários em sua organização da licença de avaliação herdada e para o mais recente, primeiro será necessário remover a licença de avaliação herdada do Microsoft Teams de cada usuário. Após a remoção da licença herdada, todos os usuários afetados poderão solicitar a licença de avaliação do Microsoft Teams Commercial Cloud.
+
+- Se você quiser remover essa licença por meio do PowerShell, confira [: remover licenças de contas de usuário com o Office 365 PowerShell](https://docs.microsoft.com/pt-BR/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+
+- Se você quiser remover essa licença por meio do portal de administração, confira: [remover licenças de usuários no Office 365 para empresas](https://docs.microsoft.com/pt-BR/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)

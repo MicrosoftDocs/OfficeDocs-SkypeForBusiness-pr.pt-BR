@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Saiba mais sobre como gerenciar contas de recursos no Microsoft Teams
-ms.openlocfilehash: f2c7b03f79a29b89c94266359f21571b1994e82a
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+ms.openlocfilehash: a136a91fc4667ac71f6c6798ce4a0953aa0c32a6
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34334923"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34404298"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
@@ -49,14 +49,15 @@ Para começar, é importante lembrar-se de algumas coisas:
 
 > [!NOTE]
 > Os números de serviço de roteamento direto atribuídos a contas de recursos para atendedor automático e filas de chamadas são suportados somente para usuários e agentes do Microsoft Teams.
->
+
+> [!NOTE]
 > A Microsoft está trabalhando em um modelo de licenciamento apropriado para aplicativos como atendedores automáticos da nuvem e filas de chamadas, por ora, você precisa usar o modelo de licenciamento do usuário.
->
-> Para redirecionar chamadas para as pessoas em sua organização que estão online, elas devem ter uma licença de **sistema telefônico** e estar habilitadas para o Enterprise Voice ou ter planos de chamada do Office 365. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
->
-> Os números de telefone do usuário (assinante) não podem ser atribuídos a uma conta do recurso. Somente números de telefone de chamada tarifada ou gratuita do serviço podem ser usados.
->
-> Se você estiver fora dos Estados Unidos, não poderá usar o centro de administração do Microsoft Teams para obter números de serviço. Vá para [gerenciar números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) em vez de ver como fazer isso de fora dos Estados Unidos.
+
+Para redirecionar chamadas para as pessoas em sua organização que estão online, elas devem ter uma licença de **sistema telefônico** e estar habilitadas para o Enterprise Voice ou ter planos de chamada do Office 365. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+
+Os números de telefone do usuário (assinante) não podem ser atribuídos a uma conta do recurso. Somente números de telefone de chamada tarifada ou gratuita do serviço podem ser usados.
+
+Se você estiver fora dos Estados Unidos, não poderá usar o centro de administração do Microsoft Teams para obter números de serviço. Vá para [gerenciar números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) em vez de ver como fazer isso de fora dos Estados Unidos.
 
 ### <a name="phone-numbers"></a>Telefones
 

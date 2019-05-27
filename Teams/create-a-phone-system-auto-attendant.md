@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para a manipulação de chamadas eficiente para a sua organização.
-ms.openlocfilehash: d4889f7a33306c970b73651bcaafe9f3e2c8009b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 892285e2e720e300d9b935f017dedca96e45b411
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330920"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432892"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -65,35 +65,35 @@ No **centro de administração do Microsoft Teams**, clique em atendedores autom
 
 #### <a name="general-info-page"></a>Página de informações gerais
 
-![New auto attendant page 1.](media/edacec94-9384-4a87-be0a-5c49a151287e.png)
+![Captura de tela da página meu atendedor automático](media/edacec94-9384-4a87-be0a-5c49a151287e.png)
 
 * * *
 
-![Número 1](media/sfbcallout1.png)
+![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
 
 **Nome** Digite um nome de exibição descritivo para o atendedor automático. O nome é obrigatório e pode conter até 64 caracteres, incluindo espaços. Ele será listado na coluna **Nome** da guia **Atendedores automáticos**.
 
 * * *
 
-![Número 2](media/sfbcallout2.png)
+![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
 
 **Conta do recurso** Clique neste botão para selecionar uma ou mais contas de recursos para se conectar ao seu novo atendedor automático. Todos os atendedores automáticos devem ter uma conta de recurso associada. Uma conta de recurso pode ter um número de telefone associado à conta, mas pode não. Um atendedor automático de nível superior geralmente tem uma conta de recurso com um número de telefone atribuído, mas o atendedor automático aninhado (usado como um menu de nível 2 ao qual o atendedor automático de primeiro nível se conecta) pode não ter um número de telefone atribuído à sua conta de recurso.
 
 * * *
 
-![Número 3](media/sfbcallout3.png)
+![Ícone do número 3, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout3.png)
 
 **Fuso horário** Você deve definir o fuso horário para o atendedor automático, mas ele não precisa corresponder ao fuso horário do endereço principal de sua organização. Cada atendedor automático pode ter um fuso horário diferente e os horários comerciais definidos para o atendedor automático serão definidos com base no fuso horário que você selecionar aqui.
 
 * * *
 
-![Número 4](media/sfbcallout4.png)
+![Ícone do número 4, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout4.png)
 
 **Idioma** Selecione o idioma que você deseja usar para o atendedor automático entre os idiomas disponíveis listados. O idioma que você define aqui é o idioma que o atendedor automático usará para interagir com as pessoas que chamam nesse atendedor automático, e todos os prompts do sistema serão reproduzidos nesse idioma.
 
 * * *
 
-![Número 5](media/sfbcallout5.png)
+![Ícone do número 5, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout5.png)
 
 **Operador** Isso é opcional e não precisa ser definido para o atendedor automático. No entanto, você pode definir a opção de **operador** para as pessoas que chamam para que possam sair dos menus para falar com uma pessoa para ajudá-los.
 
@@ -113,7 +113,7 @@ Você pode definir um dos seguintes como Operador:
 
 * * *
 
-![Número 6](media/sfbcallout6.png)
+![Ícone do número 6, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout6.png)
 
 **Habilitar entradas de voz** O reconhecimento de fala estará disponível se esta opção for selecionada. As pessoas que chamam podem usar entrada de voz no [idioma que você definiu](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). Você pode desativar o reconhecimento de fala definindo-o como desativado, se quiser permitir que as pessoas usem o teclado de telefone.
 
@@ -125,17 +125,17 @@ Quando terminar de selecionar as opções, clique em **Avançar**.
 
 Por padrão, o horário comercial é definido como 9h às 17:00, de segunda a sexta-feira.  Todos os horários que não estão incluídos nos horários comerciais são considerados horários fora do expediente. Você pode clicar em **selecionar 24/7** para fazer todas as horas de trabalho. A menos que você selecione a opção **selecionar 24/7** , a página de **configurações de chamada de horas** extras será usada para configurar a manipulação de chamadas de após o horário comercial para o atendedor automático.
 
-![New auto attendant Hours of operation.](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
+![Captura de tela da página de horário comercial](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
 * * *
 
-![Número 1](media/sfbcallout1.png)
+![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
 
 Por padrão, o horário comercial é definido como de segunda a sexta-feira, 9:00 am-5:00 PM. Selecione a opção **limpar todas as horas** para desmarcar todas as horas no cronograma. Quando você selecionar **Redefinir para padrão**, o horário comercial será redefinido para segunda a sexta-feira, 9:00 am-5:00 PM.
 
 * * *
 
-![Número 2](media/sfbcallout2.png)
+![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
 
 Para alterar os horários comerciais, destaque os horários comerciais que deseja definir usando o calendário. O calendário permite que você selecione horários comerciais em intervalos de 30 minutos, e o horário comercial selecionado aqui será definido com base no fuso horário que você definiu na página **informações gerais** . Para configurar um intervalo (horário de almoço, por exemplo), desmarque ou arraste para desmarcar o horário no calendário. Você pode definir várias quebras dentro do horário comercial.
 
@@ -150,12 +150,12 @@ Quando terminar de selecionar as opções, clique em **Avançar**.
 
 Você pode configurar saudações, prompts e menus para os quais as pessoas que ligarem para o número de telefone do atendedor automático da sua organização estarão ouvindo durante o horário comercial.
 
-![Atendimento de chamadas em horário comercial. ](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
-O tratamento de chamadas do horário comercial continua continuado ![.](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
+![Captura de tela da seção](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
+![de ação da página de manipulação de chamadas para horário comercial da seção ações da página de manipulação de chamadas de horário comercial](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
 
 * * *
 
-![Número 1](media/sfbcallout1.png)
+![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
 
 **Saudação** Uma saudação na hora da empresa é opcional e pode ser definida como **sem saudação**. Nesse caso, o chamador não ouvirá nenhuma mensagem ou saudação antes que a chamada seja manipulada por uma das ações que você selecionar. Você também pode carregar um arquivo de áudio (em formatos .wav, .mp3 ou. wma) ou criar uma saudação personalizada usando conversão de texto em fala.
 
@@ -165,7 +165,7 @@ O tratamento de chamadas do horário comercial continua continuado ![.](media/2a
 
 * * *
 
-![Número 2](media/sfbcallout2.png)
+![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
 
 Você pode selecionar o que acontece com as chamadas que chegam durante o horário comercial. Você pode escolher entre as seguintes ações:
 
@@ -184,13 +184,13 @@ Você pode selecionar o que acontece com as chamadas que chegam durante o horár
 
 * * *
 
-![Número 3](media/sfbcallout3.png)
+![Ícone do número 3, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout3.png)
 
 **Prompt do menu** Para criar o prompt do menu principal, você pode usar a conversão de texto em fala ou carregar um arquivo de áudio (.wav, .mp3 ou .wma). Você pode digitar o prompt na caixa **definir a navegação no menu para chamadores** ou gravar um arquivo de áudio e dizer, por exemplo: "para vendas, digamos ou pressionar ou dizer 1. Para Serviços, pressione ou fale 2. Para Suporte ao Cliente, pressione ou fale 3. Para falar com o operador, pressione ou fale 0. Para ouvir este menu novamente, pressione a tecla de asterisco ou fale repetir". **Digite uma mensagem de saudação** Se você escolheu isso, insira o texto que deseja que o sistema Leia (até 1000 caracteres). **Carregar um arquivo de áudio** Se você escolher isso, deverá gravar a saudação e depois carregar o arquivo de áudio (nos formatos .wav, .mp3 ou .wma).
 
 * * *
 
-![Número 4](media/sfbcallout4.png)
+![Ícone do número 4, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout4.png)
 
 **Configuração de opções de menu** As opções de menu usando os botões de tecla no teclado numérico podem ser adicionadas ou removidas. Para adicionar uma opção de menu, pressione **+ atribuir uma tecla de discagem**. Uma linha de opções correspondente aparecerá abaixo. Para excluir uma opção de menu, basta clicar à esquerda da tecla correspondente no controle do teclado e clicar no ícone de exclusão acima. A linha de mapeamento de teclas será removida.
 
@@ -223,7 +223,7 @@ Para configurar as opções de menu, depois de selecionar as teclas de discagem,
 
 * * *
 
-![Número 5](media/sfbcallout5.png)
+![Ícone do número 5, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout5.png)
 
 **Discar por nome** Se você escolher essa opção, as pessoas que ligarem para pesquisarem pessoas em sua organização serão habilitadas para a pesquisa de pastas usando a pesquisa de diretório. Você pode selecionar as pessoas que serão listadas como disponíveis ou indisponíveis para Discagem por Nome na página **Escopo de discagem**. Qualquer usuário online com uma licença de **Sistema de Telefonia** ou hospedado no local usando o Skype for Business Server 2015 ou o Lync Server 2013 pode ser encontrado com a Discagem por Nome.
 
@@ -239,9 +239,9 @@ Você pode adicionar até 20 feriados agendados para cada atendedor automático.
 > [!TIP]
 > Você pode ir à tela em**feriados** de **configurações** > de toda a organização para criar feriados ou pode criá-las como parte da criação de um novo manipulador de chamadas.
 
-![Configurar feriados no atendedor automático](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
+![Captura de tela da página de configurações de chamadas de Natal](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
 
-![Número 1](media/sfbcallout1.png)
+![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
 
 Se você já tiver criado outros atendedores automáticos, talvez veja uma opção que pode ser usada ou editada no que você precisa na lista. Caso contrário, você precisará criar um novo manipulador de chamadas.
 
@@ -249,19 +249,19 @@ Para adicionar um novo manipulador de chamadas, clique em **+ novo manipulador d
 
 * * *
 
-![Configurar feriados em atendedor automático continuado](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
+![Captura de tela mostrando a adição de um novo manipulador de chamada](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
 
-![Número 1](media/sfbcallout1.png)
+![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
 
 Na nova janela, insira um nome para seu novo manipulador de chamadas na parte superior da tela.
 
-![Número 2](media/sfbcallout2.png)
+![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
 
 Se o nome do seu feriado já existir na lista suspensa de **feriados** , você poderá usá-lo. Se o nome do feriado que você precisa ainda não existir, selecione **criar novo feriado** na lista suspensa e atribua um nome e uma data para o novo feriado na nova tela exibida. Clique em **salvar** quando estiver pronto.
 
 Os nomes de feriados podem ter até 64 caracteres e devem ser únicos para o mesmo atendedor automático. Por exemplo, você não pode ter dois feriados com o nome "Ação de Graças" no mesmo atendedor automático.
 
-![Número 3](media/sfbcallout3.png)
+![Ícone do número 3, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout3.png)
 
 **Saudação** A saudação é opcional e pode ser definida como **sem saudação**. Nesse caso, a pessoa que liga não ouvirá nenhuma mensagem ou saudação antes da chamada ser atendida por uma das opções selecionadas. Você também pode carregar um arquivo de áudio (em formatos .wav, .mp3 ou. wma) ou criar uma saudação personalizada usando conversão de texto em fala.
 
@@ -269,7 +269,7 @@ Os nomes de feriados podem ter até 64 caracteres e devem ser únicos para o mes
 - **Carregar um arquivo de áudio** Se você escolher esta, grave a saudação de Natal e, em seguida, carregue o arquivo de áudio (nos formatos. wav,. mp3 ou. WMA)
 - **Digite uma mensagem de saudação** Se você escolher essa opção, insira o texto que deseja que o sistema Leia (até 1000 caracteres). Por exemplo, você pode inserir "Feliz ano novo! Nossos escritórios estão fechados no momento." na caixa **digite uma mensagem de saudação** .
 
-![Número 4](media/sfbcallout4.png)
+![Ícone do número 4, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout4.png)
 
 **Ação** Você pode selecionar o que acontece com as chamadas que chegam durante este feriado. Você pode escolher entre as seguintes opções:
 
@@ -290,18 +290,18 @@ Os nomes de feriados podem ter até 64 caracteres e devem ser únicos para o mes
 
 Nesta página, você pode configurar quais usuários em sua organização serão listados em seu diretório e disponíveis para discar por nome quando uma pessoa ligar para a sua organização.
 
-![Dial scope for searching with dial by name.](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
+![Captura de tela mostrando a página de escopo de discagem](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
 
 * * *
 
-![Número 1](media/sfbcallout1.png) usando a opção **incluir** , você tem duas opções:
+![Ícone do número 1, fazendo referência a um texto explicativo na](media/sfbcallout1.png) captura de tela anterior usando a opção **incluir** , você tem duas opções:
 
 - **Todos os usuários online** O uso dessa opção permite que todas as pessoas da organização sejam incluídas na pesquisa do diretório. Todos os usuários Online com uma licença de **Sistema de Telefonia**, bem como os usuários hospedados no local que usam o Skype for Business Server 2015 ou o Lync Server 2013, que têm Planos de Chamadas no Office 365, serão listados.
 - **Grupo de usuários personalizado** Se você usar essa opção, poderá pesquisar um grupo, uma lista de distribuição ou um grupo de segurança do Office 365 que tenha sido criado em sua organização e as pessoas adicionadas a este grupo do Office 365, lista de distribuição ou grupo de segurança que sejam **usuários online com um Licença do sistema de telefone** ou hospedada no local usando o Skype for Business server 2015 ou o Lync server 2013. Você pode adicionar vários grupos do Office 365, listas de distribuição e grupos de segurança.
 
 * * *
 
-![Número 2](media/sfbcallout2.png)
+![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
 
 Usando a opção **excluir** , você tem duas opções:
 

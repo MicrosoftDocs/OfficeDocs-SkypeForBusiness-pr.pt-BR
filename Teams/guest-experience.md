@@ -15,19 +15,19 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 674cd1c470371c7e6ef993c47a47460011bc2b0c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4caf7cad3e70b5472173b85bdbedec3d1be6d6ad
+ms.sourcegitcommit: bf7de2101862a154eb375c06bc89e6e0c4872119
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919321"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34381710"
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
 
 Quando um convidado é solicitado a entrar em uma equipe, ele recebe uma mensagem de boas-vindas por e-mail contendo algumas informações sobre a equipe e o que esperar agora que é um membro. O convidado deve resgatar o convite na mensagem de e-mail para que possa acessar a equipe e os seus canais.
     
-![Exemplo de uma mensagem de e-mail de boas vindas enviada por um proprietário de equipe no Microsoft Teams para um usuário convidado. A mensagem inclui um texto que pode ser personalizado pelo proprietário da equipe e breves descrições dos recursos do Teams, como bate-papo, chamadas e reuniões.](media/guest-experience-image1.png)
+![Exemplo de uma mensagem de email de boas-vindas enviada por um proprietário de equipe no Microsoft Teams para um usuário convidado. A mensagem inclui um texto que pode ser personalizado pelo proprietário da equipe e breves descrições dos recursos do Teams, como bate-papo, chamadas e reuniões.](media/guest-experience-image1.png)
     
 Todos os membros da equipe veem uma mensagem no tópico do canal anunciando que o proprietário da equipe adicionou um convidado e informou o nome do convidado. Todos da equipe podem identificar facilmente quem é um convidado. Conforme mostrado a seguir na captura de tela de uma equipe de exemplo, um banner indica “Esta equipe tem convidados” e um rótulo “CONVIDADO” aparece ao lado do nome de cada convidado.
     
@@ -44,41 +44,41 @@ A tabela a seguir compara a funcionalidade do Microsoft Teams disponível para o
 |Compartilhar um arquivo de canal  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |Compartilhar um arquivo de bate-papo  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Adicionar aplicativos (guias, bots ou conectores)  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Criar reuniões ou agendas de acesso  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|OneDrive de acesso para armazenamento de negócios  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Criar reuniões ou agendas do Access  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Acessar o armazenamento do OneDrive for Business  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Criar políticas de acesso de convidados de equipes/canais de todos os locatários  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Convidar um usuário de fora do domínio do locatário do Office 365 <br/>  *Os proprietário de equipes controlam essa configuração.*  <br/> <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Criar uma equipe  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Descobrir e entrar em uma equipe pública  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Visualizar o organograma  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
-A tabela a seguir mostra os recursos de chamada e de reunião disponíveis para os convidados.
+A tabela a seguir mostra os recursos de chamada e reunião disponíveis para convidados.
 
-| Recurso de chamada | Convidado | Usuário E1 e E3 | Usuário E5 e EV |
+| Recurso de chamada | Convite | Usuário E1 e E3 | Usuário E5 e EV |
 | --------------- | ----- | -------------- | -------------- |
 | Chamadas de VOIP | Sim | Sim | Sim |
-| Chamadas de grupo | Sim | Sim | Sim |
-| Controles de chamada de núcleo com suporte (isenção, sem áudio, vídeo ativado/desativado, compartilhamento de tela) | Sim | Sim | Sim |
-| Transferência de destino | Sim | Sim | Sim |
+| Chamadas em grupo | Sim | Sim | Sim |
+| Controles de chamada de núcleo com suporte (espera, mudo, ativar/desativar vídeo, compartilhamento de tela) | Sim | Sim | Sim |
+| Destino da transferência | Sim | Sim | Sim |
 | Pode transferir uma chamada | Sim | Sim | Sim |
-| Pode transferência com consultoria | Sim | Sim | Sim |
+| Pode transferir consultoria | Sim | Sim | Sim |
 | Pode adicionar outros usuários a uma chamada via VOIP | Sim | Sim | Sim |
-| Pode adicionar usuários pelo número de telefone a uma chamada | Não | Não | Sim |
-| Destino Forward | Não | Sim | Sim |
-| Destino do grupo de chamada | Não | Sim | Sim |
-| Destino não atendido | Não | Sim | Sim |
-| Pode ser o destino de uma chamada federado | Não | Sim | Sim |
+| Pode adicionar usuários por número de telefone a uma chamada | Não | Não | Sim |
+| Encaminhar alvo | Não | Sim | Sim |
+| Destino do grupo de chamadas | Não | Sim | Sim |
+| Alvo não respondido | Não | Sim | Sim |
+| Pode ser o destino de uma chamada federada | Não | Sim | Sim |
 | Pode fazer uma chamada federada | Não | Sim | Sim |
-| Imediatamente pode encaminhar suas chamadas | Não | Não | Sim |
-| Pode ligar simultaneamente para as chamadas | Não | Não | Sim |
-| Pode rotear suas chamadas não atendidas | Não | Não | Sim |
-| Chamadas perdidas podem ir para a caixa postal | Não | Nenhum<sup>1</sup> |Sim |
-| Ter um número de telefone que pode receber chamadas | Não | Não | Sim |
-| Podem discar números de telefone | Não | Não | Sim |
-| Acesso pode chamar a configurações | Não | Não | Sim |
-| Pode alterar a saudação da caixa postal | Não | Nenhum<sup>1</sup> | Sim |
+| Pode encaminhar suas chamadas imediatamente | Não | Não | Sim |
+| Pode ligar simultaneamente para suas chamadas | Não | Não | Sim |
+| Pode encaminhar as chamadas não atendidas | Não | Não | Sim |
+| Chamadas perdidas podem ser enviadas para o correio de voz | Não | Sem<sup>1</sup> |Sim |
+| Ter um número de telefone que possa receber chamadas | Não | Não | Sim |
+| Pode discar números de telefone | Não | Não | Sim |
+| Pode acessar as configurações de chamada | Não | Não | Sim |
+| Pode alterar a saudação da caixa postal | Não | Sem<sup>1</sup> | Sim |
 | Pode alterar toques | Não | Não  | Sim |
-| Suporta TTY | Não | Não | Sim |
+| Suporte a TTY | Não | Não | Sim |
 | Pode ter representantes | Não | Não | Sim |
 |  Pode ser um representante | Não | Não | Sim |
 
@@ -93,25 +93,28 @@ A tabela a seguir mostra os recursos de chamada e de reunião disponíveis para 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
  
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
-  
-Q. Convidados que tem os mesmos recursos que os membros da equipe?<br>
-. Não. Para obter mais informações sobre qual um convidado pode ou não fazer, vá para [capacidades de convidado em equipes](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
 
-Q. Quantos convidados podem convidar?<br>
-. Você pode adicionar até 5 convidados por usuário licenciado.
+I. Como faço para sair de uma organização para a qual foi convidado?<br>
+Um. Se você foi convidado para uma organização, que não quer ser convidado, você pode fazer o autoatendimento sair da organização. Para obter mais informações, vá para [deixar uma organização como um usuário convidado](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization). Como alternativa, você também pode solicitar que o administrador da organização o remova do locatário. Observe que, em ambos os casos, você precisará ser convidado novamente para o locatário se quiser acessar a organização no futuro.
 
-Q. Convidados que tem acesso ao OneDrive for Business?<br>
-. Não.
+I. Os convidados têm os mesmos recursos que os membros da equipe?<br>
+Um. Não. Para obter mais informações sobre o que um convidado pode e não pode fazer, acesse [recursos de convidado no Teams](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
 
-Q. Os convidados têm acesso aos arquivos do SharePoint?<br>
-. Sim.
+I. Quantos convidados posso convidar?<br>
+Um. Você pode adicionar até cinco convidados por usuário licenciado.
 
-Q. Convidados podem pesquisar nos arquivos?<br>
-. Não.
+I. Os convidados têm acesso ao OneDrive for Business?<br>
+Um. Não.
 
-Q. Podem convidados anexar arquivos?<br>
-. Sim, o convidado pode anexar arquivos desses duas maneiras: • Selecione arquivos no painel esquerdo e, em seguida, navegue até o local do arquivo.
-• Upload de seus computadores.
+I. Os convidados têm acesso aos arquivos do SharePoint?<br>
+Um. Sim.
 
-Q. Um convidado pode baixar a um arquivo em um bate-papo privado?<br>
-. Sim, eles podem receber um arquivo de um membro em um bate-papo privado e, em seguida, baixe-o para sua área de trabalho.
+I. Os convidados podem pesquisar dentro dos arquivos?<br>
+Um. Não.
+
+I. Os convidados podem anexar arquivos?<br>
+Um. Sim, um convidado pode anexar arquivos destas duas maneiras: • selecionar arquivos no painel esquerdo e, em seguida, navegar até o local do arquivo.
+• Faça o upload do seu computador.
+
+I. Um convidado pode baixar um arquivo em um chat particular?<br>
+Um. Sim, eles podem receber um arquivo de um membro em um chat particular e, em seguida, baixá-lo para a área de trabalho.

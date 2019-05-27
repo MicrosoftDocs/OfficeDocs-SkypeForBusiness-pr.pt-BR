@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Saiba como configurar a conferência discada ou de áudio para as pessoas em sua empresa que precisam usar um telefone para participar de chamadas em conferência. '
-ms.openlocfilehash: f0709f2a99524666e3b48992338abae111599b7d
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 9fc9369b8dd2d7054ce7a2c1508dbc73eff3dfa9
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344206"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432813"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar Audioconferência no Microsoft Teams
 
@@ -76,7 +76,7 @@ Depois de obter seus números de telefone de chamada tarifada e/ou de chamada gr
 
 Siga estas etapas para atribuir um novo número de telefone à sua ponte de conferência de áudio.
 
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business:**
+![Um ícone mostrando o logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business:**
 
  1. Vá para o**** > **** > **portal herdado**do **Centro** > de administração do Microsoft 365.
  2. Selecione **** > **números de telefone**de voz.

@@ -1,10 +1,10 @@
 ---
-title: Criar ou modificar uma fila de espera no Skype para negócios
+title: Criar ou modificar uma fila no Skype for Business
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,30 +13,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
-description: Criar ou modificar uma fila de espera do grupo de resposta, em Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 6af6f9e4bea089f8b6194a06d1890e7d7e1699ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Crie ou modifique uma fila de grupo de resposta no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: a19385567a40b958d6941ddeac873211fc92cf3e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892913"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286222"
 ---
-# <a name="create-or-modify-a-queue-in-skype-for-business"></a>Criar ou modificar uma fila de espera no Skype para negócios
+# <a name="create-or-modify-a-queue-in-skype-for-business"></a>Criar ou modificar uma fila no Skype for Business
  
-Criar ou modificar uma fila de espera do grupo de resposta, em Skype para Business Server Enterprise Voice.
+Crie ou modifique uma fila de grupo de resposta no Skype for Business Server Enterprise Voice.
   
-As filas retêm os chamadores até que um agente atenda à chamada. Quando o aplicativo grupo de resposta procura um operador disponível, ele pesquisará os grupos de operadores na ordem em que você os listar. Você pode selecionar os grupos de agentes que são atribuídos à fila e especificar o comportamento dela, como a limitação do número de chamadas que a fila pode reter e o período de tempo que uma chamada aguarda até que um agente a atenda.
+As filas retêm os chamadores até que um agente atenda à chamada. Quando o aplicativo de grupo de resposta procura um agente disponível, ele pesquisa os grupos de agente na ordem em que são listados. Você pode selecionar os grupos de agentes que são atribuídos à fila e especificar o comportamento dela, como a limitação do número de chamadas que a fila pode reter e o período de tempo que uma chamada aguarda até que um agente a atenda.
   
 Use um dos seguintes procedimentos para criar ou modificar uma fila.
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>Usar Skype para painel de controle do Business Server para criar ou modificar uma fila
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>Para usar o painel de controle do Skype for Business Server para criar ou modificar uma fila
 
 1. Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
     
     > [!NOTE]
     > Se você for um dos Gerentes do Grupo de Resposta delegados para um fluxo de trabalho gerenciado, é possível criar ou modificar filas de grupo de resposta e atribuí-las aos fluxos de trabalho gerenciados. 
   
-2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server.  
     
 3. Na barra de navegação esquerda, clique em **Grupos de Resposta** e clique em **Fila**.
     
@@ -69,11 +69,11 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
    - Para desconectar a chamada após o tempo limite, clique em **Desconectar**.
     
-   - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal**e, em seguida, no campo **endereço SIP** , digite um endereço da caixa postal no formato sip: * \<username\>*@ *\<domainname\> * (para Por exemplo, sip:bob@contoso.com).
+   - Para encaminhar a chamada para a caixa postal, clique em encaminhar para caixa **postal**e, no campo **endereço SIP** , digite um endereço de correio de voz no formato SIP: * \<username\>*@ *\<\> nome_do_domínioname* (para exemplo, sip:bob@contoso.com).
     
-   - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone**e, no campo **endereço SIP** , digite o número de telefone no formato sip: * \<número\>*@ *\<domainname\>* (por exemplo, sip:+14255550121@contoso.com).
+   - Para encaminhar a chamada para outro número de telefone, clique em encaminhar **para número de telefone**e, em seguida, no campo **endereço SIP** , digite o número de telefone no formato SIP: * \<\>Number*@ *\<DomainName\>* (por exemplo, SIP:+14255550121@contoso.com).
     
-   - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para endereço SIP**e, em seguida, no campo **endereço SIP** , digite o URI do usuário no formato sip: _ \<username\>_@ _\<domainname\>_.
+   - Para encaminhar a chamada para outro usuário, clique em encaminhar **para endereço SIP**e, no campo **endereço SIP** , digite o URI para o usuário no formato SIP: _ \<username\>_@ _\<DomainName\>_.
     
    - Para encaminhar a chamada para outra fila de espera, clique em **Encaminhar para outra fila**e, em seguida, procure na fila a ser usada.
     
@@ -87,17 +87,17 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
    - Para desconectar a chamada após o tempo limite, clique em **Desconectar**.
     
-   - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal**e, em seguida, no campo **endereço SIP** , digite um endereço da caixa postal no formato sip: * \<username\>*@ *\<domainname\> * (para Por exemplo, sip:bob@contoso.com).
+   - Para encaminhar a chamada para a caixa postal, clique em encaminhar para caixa **postal**e, no campo **endereço SIP** , digite um endereço de correio de voz no formato SIP: * \<username\>*@ *\<\> nome_do_domínioname* (para exemplo, sip:bob@contoso.com).
     
-   - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone**e, no campo **endereço SIP** , digite o número de telefone no formato sip: * \<número\>*@ *\<domainname\>* (por exemplo, sip:+14255550121@contoso.com).
+   - Para encaminhar a chamada para outro número de telefone, clique em encaminhar **para número de telefone**e, em seguida, no campo **endereço SIP** , digite o número de telefone no formato SIP: * \<\>Number*@ *\<DomainName\>* (por exemplo, SIP:+14255550121@contoso.com).
     
-   - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para endereço SIP**e, em seguida, no campo **endereço SIP** , digite o URI do usuário no formato sip: _ \<username\>_@ _\<domainname\>_.
+   - Para encaminhar a chamada para outro usuário, clique em encaminhar **para endereço SIP**e, no campo **endereço SIP** , digite o URI para o usuário no formato SIP: _ \<username\>_@ _\<DomainName\>_.
     
    - Para encaminhar a chamada para outra fila de espera, clique em **Encaminhar para outra fila**e, em seguida, procure na fila a ser usada.
     
 10. Clique em **Confirmar**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>Usar Skype para Business Server Management Shell para criar ou modificar uma fila
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>Para usar o Shell de gerenciamento do Skype for Business Server para criar ou modificar uma fila
 
 1. Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
     
@@ -119,7 +119,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
    ```
 
    > [!NOTE]
-   > Para usar um arquivo de áudio no prompt, use o cmdlet **Import-CsRgsAudioFile**. Para obter detalhes, consulte [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+   > Para usar um arquivo de áudio no prompt, use o cmdlet **Import-CsRgsAudioFile**. Para obter detalhes, consulte [importar-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 4. Defina a ação que será executada quando o limite de tempo da fila for atingido e salve-o em um variável. Na linha de comando, execute:
     
@@ -128,7 +128,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
    ```
 
    > [!NOTE]
-   > Para obter detalhes sobre ações possíveis e sua sintaxe, consulte [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
+   > Para obter detalhes sobre as possíveis ações e a respectiva sintaxe, consulte [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
     Por exemplo:
     
@@ -149,7 +149,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
    ```
 
       > [!NOTE]
-      > Para usar um arquivo de áudio no prompt, use o cmdlet **Import-CsRgsAudioFile**. Para obter detalhes, consulte [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+      > Para usar um arquivo de áudio no prompt, use o cmdlet **Import-CsRgsAudioFile**. Para obter detalhes, consulte [importar-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 6. Defina a ação que será executada quando o limite de excedente da fila for atingido e salve-o em uma variável. Na linha de comando, execute:
     
@@ -158,7 +158,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
    ```
 
     > [!NOTE]
-    > Para obter detalhes sobre ações possíveis e sua sintaxe, consulte [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
+    > Para obter detalhes sobre as possíveis ações e a respectiva sintaxe, consulte [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
     Por exemplo:
     
@@ -179,7 +179,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
    ```
 
     > [!NOTE]
-    > Para obter detalhes sobre como criar um grupo de operadores, consulte [New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+    > Para obter detalhes sobre como criar o grupo agente, consulte [New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 9. Crie a fila. Na linha de comando, execute:
     

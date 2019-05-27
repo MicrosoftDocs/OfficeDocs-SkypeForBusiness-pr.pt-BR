@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem para dar a você uma saudação organizacional, música em espera e redirecionar chamadas para agentes de chamadas em listas de distribuição e grupos de segurança. Você também pode definir o tamanho máximo da fila, o tempo limite e as opções de tratamento de chamadas.
-ms.openlocfilehash: e32ab12c63f20439d21c9c1829cd4b32bdd34d70
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 3fc7dc69fad9e249c29758ae9bd0c30038520408
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344681"
+ms.locfileid: "34404306"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
@@ -181,6 +181,8 @@ Você pode selecionar até 200 agentes de chamadas pertencentes a listas ou grup
  Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Usuários online com uma licença do **sistema telefônico** e um plano de chamada que são adicionados a um grupo do Office 365, uma lista de distribuição habilitada para email ou um grupo de segurança. Pode levar até 3 horas para um novo agente adicionado para uma lista de distribuição ou um grupo de segurança para começar a receber chamadas de uma fila de chamadas. Uma lista de distribuição ou um grupo de segurança recém-criado pode levar até 48 horas para se tornar disponível para ser usado com filas de chamadas. Os grupos do Office 365 recém-criados estão disponíveis quase que imediatamente.
+
+- Se seus agentes estiverem usando o aplicativo Microsoft Teams para receber chamadas na fila de chamadas, eles precisarão estar no modo TeamsOnly.
 
 ![Configurar filas de chamadas.](media/skype-for-business-add-agents-to-call-queue.png)
 

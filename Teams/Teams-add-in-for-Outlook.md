@@ -7,7 +7,7 @@ audience: Admin
 ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ''
+ms.reviewer: sonua
 localization_priority: Normal
 search.appverid: MET150
 description: O Microsoft Teams instala um suplemento no Outlook para que os usuários possam agendar uma reunião do Teams pelo Outlook.
@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 624e6a72daae12d0e40b351cea6039fbe5eb432b
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: fb6ba92185d797e3925ad56c8747fd504f40dccd
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33994131"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34404223"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -40,7 +40,7 @@ O suplemento de Reunião do Teams é instalado automaticamente para os usuários
 Se o suplemento de Reunião do Teams não for exibido, instrua os usuários a fechar o Outlook e o Teams e reiniciar o cliente Teams primeiro, depois entrar no Teams e então reiniciar o cliente Outlook, exatamente nessa ordem.
 
 > [!NOTE]
-> Botão equipes reunião no Outlook para Mac aparecerão no Outlook para a faixa de opções do Mac, se o Outlook está executando a compilação de produção 16.20 e posterior.
+> O botão reunião do teams no Outlook para Mac aparecerá na faixa de opções do Outlook para Mac se o Outlook estiver executando o Build de produção 16,20 e posterior.
 
 ## <a name="authentication-requirements"></a>Requisitos de autenticação
 
@@ -65,7 +65,6 @@ O cliente Teams instala o suplemento correto, determinando se os usuários preci
 ## <a name="other-considerations"></a>Outras considerações
 
 O suplemento de Reunião do Teams ainda está desenvolvendo funcionalidades, então esteja ciente do seguinte:
-- Alguns recursos de reunião online, como a gravação, a votação e o quadro de comunicações, ainda não estão disponíveis.
 - As opções de reunião ainda não estão disponíveis.
 - No momento, você pode apenas convidar pessoas da sua empresa, pois ainda não é possível o ingresso de usuários externos nas reuniões.
 - O suplemento destina-se a reuniões agendadas com participantes específicos, não a reuniões em um canal. As reuniões do canal devem ser agendadas dentro do Teams. Atualmente, o suplemento de Reunião do Teams no Outlook está disponível apenas para usuários do Windows, mas o suporte para Mac será disponibilizado em breve.

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba o que o sistema telefônico pode fazer por você. '
-ms.openlocfilehash: 7188a0d4573ce7bc935b60506371fbd2a4f1b6a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3c2d1d910226b4597595f6dd55246f2f9c71049d
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299015"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432876"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>O que é o Sistema de Telefonia no Office 365?
 
@@ -49,7 +49,7 @@ Para habilitar chamadas para telefones fixos e celulares, o Sistema de Telefonia
 
 Usar um complemento de plano de chamada com o sistema telefônico no Office 365 permite a conectividade PSTN para chamadas para telefones fixos e celulares em todo o mundo (dependendo do nível de serviço que está sendo licenciado). Seus usuários são hospedados na nuvem e são habilitados para o Sistema de Telefonia com o complemento de Plano de Chamadas fornecido pela Microsoft. Usar planos de chamada não requer uma implantação de servidor local. Os planos de chamada funcionam apenas com o sistema telefônico no Office 365, e você não pode usar planos de chamada com outro sistema de PBX.
 
-![Diagrama de topologia mostrando o Cloud PBX com chamada PSTN, a solução de voz completamente na nuvem.](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
+![Diagrama de topologia mostrando o Cloud PBX com chamada PSTN](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
 Como os planos de chamada funcionam no Office 365, essa é uma oferta completa da nuvem que não requer uma implantação de servidor local. Você tem a opção de usar um plano de chamadas doméstica ou doméstica e internacional, que é atribuído a cada usuário que você deseja fazer chamadas. [Quer saber mais?](calling-plan-landing-page.md).
   

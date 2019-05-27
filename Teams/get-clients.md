@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4c18bdd39e7978258c90bd4c757eb3e2e86a3b3
-ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
+ms.openlocfilehash: 254d6391aa828276df1c3b56fb62185c8f13d75a
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34082661"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432757"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obter clientes do Microsoft Teams 
 ===========================
@@ -31,9 +31,9 @@ ms.locfileid: "34082661"
 O Microsoft Teams tem clientes disponíveis para desktop (Windows e Mac), web e dispositivos móveis (Android e iOS). Todos esses clientes precisam de uma conexão à internet ativa e não são suportados em modo offline.
 
 > [!NOTE]
-> A partir de 29 de novembro de 2018, você não poderá mais usar o aplicativo Microsoft Teams para Windows 10 S (Visualização), disponível na Microsoft Store. Em vez disso, agora você pode baixar e instalar o cliente de desktop de equipes em dispositivos que executam o modo Windows 10 S. Para baixar o cliente de desktop, vá para [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754). Compilações MSI do cliente de desktop do equipes ainda não estão disponíveis para dispositivos que executam o modo Windows 10 S.
+> A partir de 29 de novembro de 2018, você não poderá mais usar o aplicativo Microsoft Teams para Windows 10 S (Visualização), disponível na Microsoft Store. Em vez disso, agora você pode baixar e instalar o cliente da área de trabalho do teams em dispositivos que executam o modo Windows 10 S. Para baixar o cliente de desktop, vá [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)para. Os builds MSI do cliente de desktop Teams ainda não estão disponíveis para dispositivos que executam o modo Windows 10 S.
 >
-> Para obter mais informações sobre o modo Windows 10 S, consulte [Introdução ao Windows 10 no modo de S](https://www.microsoft.com/windows/s-mode). 
+> Para obter mais informações sobre o modo Windows 10 S, consulte [apresentando o Windows 10 no modo s](https://www.microsoft.com/windows/s-mode). 
 
 <a name="desktop-client"></a>Cliente de desktop
 --------------
@@ -129,13 +129,13 @@ Os aplicativos móveis são distribuídos e atualizados apenas pela respectiva l
 
 | | | |
 |---------|---------|---------|
-|![Ícone de ponto de decisão.](media/Get_clients_for_Microsoft_Teams_image4.png)      |Ponto de decisão         |Existe alguma restrição que esteja impedindo os usuários de instalar o cliente Microsoft Teams adequado em seus dispositivos?         |
-|![Ícone de próximos passos.](media/Get_clients_for_Microsoft_Teams_image5.png)     |Próximos passos         |Se sua organização restringe a instalação de software, verifique se esse processo é compatível com o Microsoft Teams. Nota: Os direitos de administrador não são obrigatórios para a instalação do cliente PC, mas são obrigatórios para a instalação em Mac.         |
+|![Um ícone que representa um ponto de decisão](media/Get_clients_for_Microsoft_Teams_image4.png)      |Ponto de decisão         |Existe alguma restrição que esteja impedindo os usuários de instalar o cliente Microsoft Teams adequado em seus dispositivos?         |
+|![Um ícone que representa as próximas etapas](media/Get_clients_for_Microsoft_Teams_image5.png)     |Próximos passos         |Se sua organização restringe a instalação de software, verifique se esse processo é compatível com o Microsoft Teams. Nota: Os direitos de administrador não são obrigatórios para a instalação do cliente PC, mas são obrigatórios para a instalação em Mac.         |
 
 <a name="client-update-management"></a>Gerenciamento de atualização do cliente
 ------------------------
 
-No momento, os clientes são atualizados automaticamente pelo serviço do Microsoft Teams, sem a necessidade de intervenção de um administrador de TI. Se houver uma atualização disponível, o cliente baixar automaticamente a atualização e quando o aplicativo tem ociosos por um período de tempo, o processo de atualização será iniciado.
+No momento, os clientes são atualizados automaticamente pelo serviço do Microsoft Teams, sem a necessidade de intervenção de um administrador de TI. Se houver uma atualização disponível, o cliente baixará automaticamente a atualização e, quando o aplicativo ficar ocioso por um período de tempo, o processo de atualização será iniciado.
 
 <a name="client-side-configurations"></a>Configurações do lado do cliente
 ---------------------------
