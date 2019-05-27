@@ -18,17 +18,15 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb6ba92185d797e3925ad56c8747fd504f40dccd
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: 801c4f43e9aafa7fe8331d85b601afd584505164
+ms.sourcegitcommit: e5cb24ad166268392e692d3d1b92125646e5d66e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404223"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34417439"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 O suplemento de Reunião do Teams é instalado automaticamente para os usuários que têm o Microsoft Teams e o Office 2013 ou o Office 2016 instalados em seus computadores Windows. Os usuários verão o suplemento de Reunião do Teams na faixa de opções Calendário do Outlook. 
 
@@ -53,7 +51,7 @@ Para saber mais sobre como configurar a autenticação, veja [Modelos de identid
 
 ## <a name="enable-private-meetings"></a>Habilitar reuniões privadas
 
-A permissão de agendamento de reuniões privadas deve ser habilitada no centro de administração do Microsoft Teams para que o plug-in seja implantado. No centro de administração, vá para **Reuniões** > **Políticas de Reunião**, e na seção **Geral**, ative **Permitir agendamento de reuniões particulares** para Ativado.)
+**Permitir agendamento de reuniões particulares** deve estar habilitado no centro de administração do Microsoft Teams para que o plug-in seja implantado. No centro de administração, vá para **Reuniões** > **Políticas de Reunião**, e na seção **Geral**, ative **Permitir agendamento de reuniões particulares** para Ativado.)
 
 ![Captura de tela das configurações no centro de administração do Microsoft Teams.](media/teams-add-in-for-outlook-image1.png)
 
@@ -65,6 +63,8 @@ O cliente Teams instala o suplemento correto, determinando se os usuários preci
 ## <a name="other-considerations"></a>Outras considerações
 
 O suplemento de Reunião do Teams ainda está desenvolvendo funcionalidades, então esteja ciente do seguinte:
+- A sondagem ainda não está disponível.
+- O quadro de comunicações está começando a ser revertido.
 - As opções de reunião ainda não estão disponíveis.
 - No momento, você pode apenas convidar pessoas da sua empresa, pois ainda não é possível o ingresso de usuários externos nas reuniões.
 - O suplemento destina-se a reuniões agendadas com participantes específicos, não a reuniões em um canal. As reuniões do canal devem ser agendadas dentro do Teams. Atualmente, o suplemento de Reunião do Teams no Outlook está disponível apenas para usuários do Windows, mas o suporte para Mac será disponibilizado em breve.

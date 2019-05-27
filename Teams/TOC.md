@@ -287,7 +287,6 @@
 ### ID do chamador
 #### [Como a identificação de chamada pode ser usada em sua organização](how-can-caller-id-be-used-in-your-organization.md)
 #### [Definir a identificação de chamada de um usuário](set-the-caller-id-for-a-user.md)
-#### [Mais informações sobre a Identificação da Linha de Chamada e o Nome do Chamador](more-about-calling-line-id-and-calling-party-name.md)
 ### Atendedores automáticos e filas de chamadas 
 #### [Quais são os atendedores automáticos do Cloud](what-are-phone-system-auto-attendants.md)
 #### [Configurar um atendedor automático do Cloud](create-a-phone-system-auto-attendant.md)

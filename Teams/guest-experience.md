@@ -15,42 +15,42 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4caf7cad3e70b5472173b85bdbedec3d1be6d6ad
-ms.sourcegitcommit: bf7de2101862a154eb375c06bc89e6e0c4872119
+ms.openlocfilehash: 6af82e958d3a17c8eb2b3ef64339ae69c1d0871a
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34381710"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433052"
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
 
 Quando um convidado é solicitado a entrar em uma equipe, ele recebe uma mensagem de boas-vindas por e-mail contendo algumas informações sobre a equipe e o que esperar agora que é um membro. O convidado deve resgatar o convite na mensagem de e-mail para que possa acessar a equipe e os seus canais.
     
-![Exemplo de uma mensagem de email de boas-vindas enviada por um proprietário de equipe no Microsoft Teams para um usuário convidado. A mensagem inclui um texto que pode ser personalizado pelo proprietário da equipe e breves descrições dos recursos do Teams, como bate-papo, chamadas e reuniões.](media/guest-experience-image1.png)
+![Captura de tela mostrando um exemplo de uma mensagem de boas-vindas](media/guest-experience-image1.png)
     
 Todos os membros da equipe veem uma mensagem no tópico do canal anunciando que o proprietário da equipe adicionou um convidado e informou o nome do convidado. Todos da equipe podem identificar facilmente quem é um convidado. Conforme mostrado a seguir na captura de tela de uma equipe de exemplo, um banner indica “Esta equipe tem convidados” e um rótulo “CONVIDADO” aparece ao lado do nome de cada convidado.
     
-![A captura de tela mostra uma parte do canal de Marketing da Northwind Traders, com a notificação no banner superior indicando “Esta equipe tem convidados” e os usuários convidados identificados com a palavra “CONVIDADO” ao lado do seu nome.](media/guest-experience-image2.png)
+! [Captura de tela mostrando usuários convidados da notificação de faixa] a captura de tela (Media/Guest-Experience-image2. png) mostra uma parte do canal de marketing da Northwind Traders, com a notificação na faixa superior que diz que "esta equipe tem convidados" e os usuários que são convidados identificados com a palavra "GUEST" ao lado do nome. ")
 
 A tabela a seguir compara a funcionalidade do Microsoft Teams disponível para os membros de equipe de uma organização com a funcionalidade disponibilizada para um usuário convidado na equipe.
 
 |**Recurso no Teams**|**Usuário do Teams na organização**|**Convidado usuário**|
 |:-----|:-----|:-----|
-|Criar um canal  <br/>  *Os proprietário de equipes controlam essa configuração.*  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Participar de um bate-papo privado  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Participar de uma conversa de canal  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Publicar, excluir e editar mensagens  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Compartilhar um arquivo de canal  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Compartilhar um arquivo de bate-papo  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Adicionar aplicativos (guias, bots ou conectores)  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Criar reuniões ou agendas do Access  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Acessar o armazenamento do OneDrive for Business  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Criar políticas de acesso de convidados de equipes/canais de todos os locatários  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Convidar um usuário de fora do domínio do locatário do Office 365 <br/>  *Os proprietário de equipes controlam essa configuração.*  <br/> <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Criar uma equipe  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Descobrir e entrar em uma equipe pública  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Visualizar o organograma  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Criar um canal  <br/>  *Os proprietário de equipes controlam essa configuração.*  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Participar de um bate-papo privado  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Participar de uma conversa de canal  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Publicar, excluir e editar mensagens  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Compartilhar um arquivo de canal  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Compartilhar um arquivo de bate-papo  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Adicionar aplicativos (guias, bots ou conectores)  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Criar reuniões ou agendas do Access  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Acessar o armazenamento do OneDrive for Business  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Criar políticas de acesso de convidados de equipes/canais de todos os locatários  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Convidar um usuário de fora do domínio do locatário do Office 365 <br/>  *Os proprietário de equipes controlam essa configuração.*  <br/> <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Criar uma equipe  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Descobrir e entrar em uma equipe pública  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Visualizar o organograma  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 A tabela a seguir mostra os recursos de chamada e reunião disponíveis para convidados.
 
