@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 377d86bd71947588186979f20068b9e8927ccd3d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 586e928692068070c23a682dbcf5f38259990dc0
+ms.sourcegitcommit: e1532a45df1a43d5af7b5370e3444c3971adb450
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287906"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34430661"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -144,6 +144,12 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 
 ## <a name="client"></a>Cliente
+
+
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Não é possível iniciar equipes do Surface Hub na Microsoft Store |O Microsoft Teams para Surface Hub não será iniciado **quando** você clicar em Iniciar na Microsoft Store. | A inicialização dos aplicativos do Surface Hub na lista da Microsoft Store não tem suporte do Windows no Surface Hub. <br> <br/> Reinicie o Surface Hub após instalar as equipes. | 27/02/18 |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
