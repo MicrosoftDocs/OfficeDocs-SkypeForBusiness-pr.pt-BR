@@ -15,12 +15,12 @@ description: Tarefas e atividades necessárias para o gerenciamento de serviços
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d40bbeaf0876071502d187826ecc702c9175b2da
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 3c1aa8c35b43941839e7a82390bca16c16c72801
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494292"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548243"
 ---
 # <a name="operate-my-service"></a>Operar meu serviço
 
@@ -42,8 +42,8 @@ As tarefas e atividades neste guia são agrupadas em oito categorias, conforme m
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida como as operações serão implementadas para equipes.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Examine o guia de operações totalmente.</li><li>Implemente uma estratégia de operações que se alinhe às metas da sua organização para fornecer a qualidade e a confiabilidade das cargas de trabalho de voz na nuvem.</li><li>Examine o guia de revisão da qualidade da experiência.</li><li> Implemente uma estratégia de operações para executar regularmente análises de qualidade de experiência para garantir que sua implantação de voz em nuvem esteja operando em seus recursos de pico.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida como as operações serão implementadas para equipes.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Examine o guia de operações totalmente.</li><li>Implemente uma estratégia de operações que se alinhe às metas da sua organização para fornecer a qualidade e a confiabilidade das cargas de trabalho de voz na nuvem.</li><li>Examine o guia de revisão da qualidade da experiência.</li><li> Implemente uma estratégia de operações para executar regularmente análises de qualidade de experiência para garantir que sua implantação de voz em nuvem esteja operando em seus recursos de pico.</li></ul></td></tr>
 </table>
 
 
@@ -62,7 +62,7 @@ Certifique-se de que cada equipe que você tem uma boa compreensão das atividad
 Depois que um contrato estiver em vigor, as equipes correspondentes deverão começar a realizar a operação.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Image depicting the next steps"/><br/>Próximas etapas</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td>
 <td><ul><li>Use este documento para facilitar o exercício de mapeamento de funções operacionais.</li><li>Reúna-se com as respectivas equipes de suporte para atribuir nomes a cada item na lista de atividades necessárias.</li><li>Ganhe aceitação ou aprovação nas funções atribuídas.</li><li>Certifique-se de que as equipes correspondentes tenham o treinamento, preparação e recursos adequados para concluir as atividades necessárias delas.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dependências do serviço Teams

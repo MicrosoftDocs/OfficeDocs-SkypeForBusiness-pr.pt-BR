@@ -25,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: a225f55bd03793fa184dab8478fd608170418f2d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: c3cafee8dcce326dd20661f919dc57b0e1f1fe26
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494518"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548984"
 ---
 # <a name="calling-plans-for-office-365"></a>Planos de Chamadas do Office 365
 
@@ -46,7 +46,7 @@ Os minutos mensais disponíveis para cada organização e para cada país/regiã
   
 > [!IMPORTANT]
 > O país/região é baseado na localização da licença do usuário no **Centro** > de administração do Microsoft 365,**usuários ativos** e **não** no endereço de cobrança listado no **perfil da organização** no **Microsoft 365 admin Centro**.   
-![Local da licença do usuário](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
+![Captura de tela do local da licença do usuário](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Para obter informações detalhadas sobre limites de uso e termos de uso, consulte [período de discagem gratuito do áudio audioconferência](complimentary-dial-out-period.md).
   
@@ -54,14 +54,14 @@ Para obter informações detalhadas sobre limites de uso e termos de uso, consul
 
 1. <strong>Primeiro, você deve comprar uma</strong> licença do complemento do sistema de telefonia * *<strong>. Para fazer isso, [entre no centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e escolha * * cobranças</strong> > de**Serviços** > de compra complementares de**assinaturas** > **comprar agora**.
     
-    ![Ao comprar suas licenças de Cloud PBX, você verá uma opção para comprar um plano de chamada de voz.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
+    ![Captura de tela mostrando a opção para comprar um plano de chamada de voz.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > Dependendo do seu plano, talvez seja necessário comprar mais Complementos antes de poder comprar licenças do sistema de telefonia. Para saber mais, confira "opções de licença com base em seu plano" no licenciamento do complemento do [Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. Depois de comprar licenças do sistema telefônico, você pode comprar o plano de chamadas entrando no **centro de administração do Microsoft 365**, escolher**assinaturas complementares**de**Serviços** > de compra de **cobrança** > e, em seguida, clicar em **comprar agora **. Você verá os planos de chamadas ali.
     
-    ![Depois de comprar uma licença do Cloud PBX, você pode comprar planos de chamada de voz.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
+    ![Captura de tela mostrando as opções do plano de chamada de voz.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
 Você pode comprar e atribuir planos de chamada diferentes para usuários diferentes, dependendo das necessidades da sua organização. Depois de selecionar o plano de chamada que você precisa, prossiga para o check-out. Você atribui um plano a cada usuário no centro de administração do Microsoft 365. Para saber como, consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md).
   
