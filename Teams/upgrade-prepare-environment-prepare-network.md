@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5454c8d4a95a6a9d1d695f74497ccf5c022d062b
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: eae5cdda83c6d480951c8e370b0d445de6afbc93
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344094"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548617"
 ---
-![Estágios da jornada de atualização, com ênfase no estágio de Preparação Técnica](media/upgrade-banner-tech-readiness.png "Estágios da jornada de atualização, com ênfase no estágio de Preparação Técnica")
+![Atualize o diagrama de jornada, enfatizando o estágio de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")
 
 Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atualização, uma atividade que você realiza em paralelo com o estágio de Preparação do Usuário. Antes de prosseguir, confirme se você concluiu essas atividades dos estágios anteriores:
 
@@ -38,7 +38,7 @@ Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atu
 
 Se você estiver implantando áudio, vídeo ou reuniões, poderá realizar algumas etapas adicionais para otimizar sua rede para essa funcionalidade. O Microsoft Teams usa a tecnologia de áudio e de vídeo (codecs) que pode se adaptar e, portanto, executar melhor em: a maioria das condições da rede. Para garantir o desempenho ideal e consistente, você deve preparar a rede para o Microsoft Teams.
 
-![Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes] (media/evaluate-my-environment-image1.png "Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco na rede.")
+![Diagrama descrevendo os três componentes de qualidade] (media/evaluate-my-environment-image1.png "Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco na rede.")
 
 ## <a name="why-should-you-prepare-your-network"></a>Por que você deve preparar sua rede?
 

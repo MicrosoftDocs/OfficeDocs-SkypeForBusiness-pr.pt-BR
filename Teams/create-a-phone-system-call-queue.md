@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem para dar a você uma saudação organizacional, música em espera e redirecionar chamadas para agentes de chamadas em listas de distribuição e grupos de segurança. Você também pode definir o tamanho máximo da fila, o tempo limite e as opções de tratamento de chamadas.
-ms.openlocfilehash: 3fc7dc69fad9e249c29758ae9bd0c30038520408
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: 3c98f7c9b8bb96b4c3792e4ec5abe92628d8e914
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404306"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34549007"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
@@ -127,18 +127,18 @@ No **centro de administração do Microsoft Teams**, filas de**chamadas**de **vo
 
 ### <a name="set-the-call-queue-display-name-and-resource-account"></a>Definir o nome de exibição da fila de chamadas e a conta do recurso
 
-![Configurar uma fila de chamadas.](media/37ecc300-a108-4294-8463-fce570dfce72.png)
+![Captura de tela de uma nova fila de chamadas com textos explicativos numerados](media/37ecc300-a108-4294-8463-fce570dfce72.png)
 
 * * *
 
-![Número 1](media/sfbcallout1.png)
-**nome** Insira um nome de exibição descritivo para a fila de chamadas. Isso é necessário e pode conter até 64 caracteres, incluindo espaços.
+![Ícone do número 1, fazendo referência a um texto explicativo no](media/sfbcallout1.png)
+**nome** anterior da captura de tela Insira um nome de exibição descritivo para a fila de chamadas. Isso é necessário e pode conter até 64 caracteres, incluindo espaços.
 
  Esse nome será exibido na notificação para a chamada recebida.
 
 * * *
 
-![Número 2](media/sfbcallout2.png)
+![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
 
 **Adicionar contas** Selecione uma conta de recurso. A conta do recurso pode ou não estar associada a um número de telefone de chamada tarifada ou gratuita do serviço para a fila de chamadas, mas cada fila de chamadas exige uma conta de recurso associada.
 
@@ -149,17 +149,17 @@ Se não houver uma lista, você precisará obter números de serviço e atribuí
 
 ### <a name="set-the-greeting-and-music-played-while-on-hold"></a>Definir a saudação e a música jogadas enquanto em espera
 
-![Configurar uma fila de chamadas.](media/1d395a93-7cab-4178-9295-12d5379e20de.png)
+![Captura de tela das opções de saudação e música com textos explicativos numerados](media/1d395a93-7cab-4178-9295-12d5379e20de.png)
   
 * * *
 
-![Número 1](media/sfbcallout1.png)
+![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
 
 **** A saudação é opcional. Esta é a saudação que é reproduzida para as pessoas que ligarem para o número da fila de chamadas.
 
 Você pode carregar um arquivo de áudio (formatos. wav,. mp3 ou. WMA).
 
-![Número 2](media/sfbcallout2.png)
+![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
 
 **Música em espera** Você pode usar a música padrão em espera fornecida com a fila de chamadas ou pode carregar um arquivo de áudio nos formatos. wav, MP3 ou. WMA para usar como sua música personalizada em espera.
 
@@ -167,9 +167,9 @@ Você pode carregar um arquivo de áudio (formatos. wav,. mp3 ou. WMA).
 
 ### <a name="select-the-call-answering-options"></a>Selecionar as opções de atendimento de chamada
 
-![Mostra as opções do método de distribuição de chamadas](media/5d249515-d532-4af2-90da-011404028b89.png)
+![Captura de tela das opções de atendimento de chamadas, com textos explicativos numerados](media/5d249515-d532-4af2-90da-011404028b89.png)
 
-![Número 1](media/sfbcallout1.png)
+![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
 
 Você pode selecionar até 200 agentes de chamadas pertencentes a listas ou grupos de endereçamento especificados. Os agentes de chamadas devem ser:
 
@@ -184,9 +184,9 @@ Você pode selecionar até 200 agentes de chamadas pertencentes a listas ou grup
 
 - Se seus agentes estiverem usando o aplicativo Microsoft Teams para receber chamadas na fila de chamadas, eles precisarão estar no modo TeamsOnly.
 
-![Configurar filas de chamadas.](media/skype-for-business-add-agents-to-call-queue.png)
+![Captura de tela do painel Adicionar agentes de chamada](media/skype-for-business-add-agents-to-call-queue.png)
 
-![Número 2](media/sfbcallout2.png)
+![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
 
 **Método de roteamento** Você pode escolher o **atendedor**, a **série**ou o **rodízio** para o método de distribuição da fila de chamadas. Todas as filas de chamadas novas e existentes terão o roteamento de atendedor selecionado por padrão. Quando o roteamento do atendente for usado, a primeira chamada na fila tocará todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
 
@@ -198,11 +198,11 @@ Você pode selecionar até 200 agentes de chamadas pertencentes a listas ou grup
 
 ### <a name="select-an-agent-opt-out-option"></a>Selecionar uma opção de cancelamento de agente
 
-![Mostra a caixa de seleção cancelar agente](media/99279eff-db61-4acf-9b62-64be84b6414b.png)
+![Captura de tela de opções de cancelamento de agente com textos explicativos numerados](media/99279eff-db61-4acf-9b62-64be84b6414b.png)
   
 * * *
 
-![Número 1](media/sfbcallout1.png)
+![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
 
 **Opção** de cancelamento de agente Você pode optar por permitir que os agentes da fila de chamadas recusem a fazer chamadas de uma fila específica selecionando a **opção Cancelar**cancelamento do agente.
 
@@ -217,8 +217,8 @@ Para acessar a opção de recusa, os agentes podem fazer o seguinte:
     > [!NOTE]
     > Os agentes que usam aplicativos ou pontos de extremidade diferentes da área de trabalho do Skype for Business podem acessar a opção recusar no [https://aka.ms/cqsettings](https://aka.ms/cqsettings)portal de configurações do usuário.
 
-![Configuração de](media/sfbcallout2.png)
-**alerta do agente** número 2
+![Ícone do número 2, fazendo referência a um texto explicativo na](media/sfbcallout2.png)
+**configuração de alerta** anterior do agente de captura de tela
 
 Isso define a duração de um agente sendo notificado sobre uma chamada antes que os métodos de roteamento serial ou Round Robin se movam para o próximo agente.
 
@@ -228,17 +228,17 @@ A configuração padrão é 30 segundos, mas pode ser definida por até 3 minuto
 
 ### <a name="set-the-call-overflow-and-timeout-handling-options"></a>Configurar o estouro de chamadas e as opções de controle de tempo limite
 
-![Configurar uma fila de chamadas.](media/3f018734-16fe-458b-827d-71fc25155cde.png)
+![Captura de tela das opções de tratamento de estouro, com textos explicativos numerados](media/3f018734-16fe-458b-827d-71fc25155cde.png)
   
 * * *
 
-![Número 1](media/sfbcallout1.png)
+![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
 
 **Máximo de chamadas na fila** Use esta configuração para definir o número máximo de chamadas que podem esperar na fila ao mesmo tempo. O padrão é 50, mas pode variar de 0 a 200. Quando esse limite for atingido, a chamada será manipulada da mesma forma que você definiu **quando a configuração número máximo de chamadas é atingida** abaixo.
 
 * * *
 
-![Número 2](media/sfbcallout2.png)
+![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
 
 **Quando o número máximo de chamadas for atingido** Quando a fila de chamadas atinge seu tamanho máximo (definido usando o **máximo de chamadas na** configuração de fila), você pode escolher o que acontece com as novas chamadas recebidas.
 
@@ -253,13 +253,13 @@ A configuração padrão é 30 segundos, mas pode ser definida por até 3 minuto
 
 * * *
 
-![Número 3](media/sfbcallout3.png)
+![Ícone do número 3, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout3.png)
 
 **Tempo limite de chamada: tempo máximo de espera** Você também pode decidir quanto tempo uma chamada pode ficar em espera na fila antes de expirar e precisar ser redirecionada ou desconectada. Onde será redirecionado é baseado em como você define a configuração **quando uma chamada atinge o tempo limite** . Você pode definir uma hora de 0 a 45 minutos.
 
 O valor de tempo limite pode ser definido em segundos, em intervalos de 15 segundos. Isso permite que você manipule o fluxo de chamadas com granularidade mais fina. Por exemplo, você pode especificar que as chamadas não atendidas por um agente dentro de 30 segundos vão para um atendedor automático de pesquisa de diretório.
 
-![Número 4](media/sfbcallout4.png)
+![Ícone do número 4, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout4.png)
 
 **Quando a chamada** expira Quando a chamada atingir o limite que você definiu no **tempo em que uma chamada pode esperar na configuração de fila** , você pode escolher o que acontecerá com esta chamada:
 

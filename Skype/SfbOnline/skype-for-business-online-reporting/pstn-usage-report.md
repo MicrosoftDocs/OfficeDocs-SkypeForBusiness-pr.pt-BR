@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: A nova área de relatórios do centro de administração do Skype for Business mostra a atividade de chamadas e conferência de áudio em sua organização. Ele permite que você faça uma busca detalhada nos relatórios para dar a você uma visão mais granular sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de detalhes do uso de PSTN do Skype for Business para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir os detalhes de uso de PSTN da videoconferência, incluindo o custo da chamada para que você possa entender seu uso e fazer chamadas para os detalhes de cobrança para determinar o uso dentro da sua organização.
-ms.openlocfilehash: e1753915753c110a615edb108b2ff98efe237aa6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dafe072cb327cde15cf4a02ca9e1c71a30f4431b
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287718"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493983"
 ---
 # <a name="pstn-usage-report"></a>Relatório de uso de PSTN
 
@@ -38,7 +38,7 @@ Esse relatório, juntamente com os outros relatórios do Skype for Business, for
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Como acessar o relatório de detalhes do uso de PSTN do Skype for Business
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
 
 - Vá para **Centro** > de administração do Office 365**centros** > **de administração do centro de administração do Skype for Business** > **relata** > **detalhes de uso de PSTN**.
     

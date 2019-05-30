@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Saiba como ver uma lista de todos os números de telefone de sua organização, todos os números atribuídos aos usuários e todos os números atribuídos a usuários de voz do centro de administração do Skype for Business.
-ms.openlocfilehash: 9682e0473932337734828a13cf75a8c77e622938
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33fc51206370c337bea849fac4d1bfa1ed37da56
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280464"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493902"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver uma lista de números de telefone em sua organização
 
@@ -34,7 +34,7 @@ Existem diferentes tipos de números de telefone que você pode atribuir a usuá
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>Para ver uma lista de todos os números de telefone de sua organização
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
 
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
@@ -64,7 +64,7 @@ Existem diferentes tipos de números de telefone que você pode atribuir a usuá
     
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>Para ver todos os números de telefone que estão atribuídos a usuários
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
 
 
 Ao configurar usuários, talvez você só queira ver a lista de números de telefone já atribuídos aos usuários e quais números de telefone podem ser atribuídos a eles.
@@ -88,7 +88,7 @@ Ao configurar usuários, talvez você só queira ver a lista de números de tele
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>Para ver os números de telefone atribuídos a usuários de voz
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
 
 
 Ao configurar usuários em sua organização para fazer e receber chamadas, primeiro você deve obter os números de telefone e, depois, atribuí-los aos usuários. Após obter os números de telefone, talvez você só queira ver a lista dos usuários que têm números de telefone atribuídos a eles, os que não têm e se um usuário está hospedado online ou no local.

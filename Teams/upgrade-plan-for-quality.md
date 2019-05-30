@@ -1,12 +1,12 @@
 ---
-title: Planejar o gerenciamento de serviço e a qualidade | Preparação técnica
+title: Planejar o gerenciamento e a qualidade do serviço | Preparação técnica
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Use estas diretrizes para saber mais sobre os requisitos necessários para entregar e manter uma implantação do Microsoft Teams de alta qualidade.
+description: Use esta orientação para saber mais sobre os requisitos necessários para fornecer e manter uma implantação do Microsoft Teams de alta qualidade.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,27 +15,27 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1f663bc801a7b2d864c59051b08ae66d52123cf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 389b04a00ff0941edaf0f5f2d18d7685ce37b601
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896430"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548665"
 ---
-![Estágios da atualização jornada, com ênfase na etapa de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação técnica")
+![Atualize o diagrama de jornada, enfatizando o estágio de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")
 
-Este artigo faz parte do estágio de prontidão técnica de sua atualização jornada, uma atividade que você concluir em paralelo com o estágio de preparação do usuário. Antes de continuar, confirme que você tiver concluído essas atividades desde estágios anteriores:
+Este artigo faz parte do estágio de preparação técnica da sua jornada de atualização, uma atividade que você conclui em paralelo com o estágio de preparação do usuário. Antes de prosseguir, confirme que você concluiu essas atividades dos estágios anteriores:
 
-- [Inscrito seus participantes do projeto](upgrade-enlist-stakeholders.md)
-- [Definido o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
-- [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
-- [Escolhido sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Listamos os participantes do projeto](upgrade-enlist-stakeholders.md)
+- [Definiu o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Compreendemos a coexistência e interoperabilidade do Skype for Business e do teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Escolhido a jornada da atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
 
 # <a name="plan-for-quality"></a>Planejar a qualidade
 
-Se você estiver implantando o áudio, vídeo ou reuniões, você pode executar algumas etapas adicionais para aperfeiçoar seu ambiente para essa funcionalidade. Este conteúdo fornecerá uma visão geral dos requisitos necessários para fornecer e manter uma implantação do Microsoft Teams de alta qualidade. Você pode ajudar a garantir uma implantação bem-sucedida pelo planejamento de gerenciamento de serviço e a qualidade, antes da sua implantação piloto ou de produção primeira.
+Se você estiver implantando áudio, vídeo ou reuniões, poderá realizar algumas etapas adicionais para otimizar seu ambiente para essa funcionalidade. Este conteúdo fornecerá uma visão geral dos requisitos necessários para fornecer e manter uma implantação do Microsoft Teams de alta qualidade. Você pode ajudar a garantir uma implantação bem-sucedida, planejando o gerenciamento e a qualidade do serviço, antes da implantação do primeiro piloto ou da produção.
 
 As orientações estão organizadas nas seguintes seções:
 
@@ -47,23 +47,23 @@ As orientações estão organizadas nas seguintes seções:
 
 - Por fim, as etapas seguintes são resumidas com referências ao conteúdo relacionado.
 
-## <a name="key-technical-components-that-affect-user-experience"></a>Os principais componentes técnicos que afetam a experiência do usuário
+## <a name="key-technical-components-that-affect-user-experience"></a>Principais componentes técnicos que afetam a experiência do usuário
 
-Os principais componentes técnicos que afetam a experiência do usuário serão revisados nesta seção. Antes de analisar os principais componentes, é essencial que você entenda a experiência do usuário e sua importância para alcançar as metas de negócios da organização. Primeiro, vamos examinar como definimos a experiência do usuário.
+Os principais componentes técnicos que afetam a experiência do usuário serão analisados nesta seção. Antes de analisar os principais componentes, é essencial que você entenda a experiência do usuário e sua importância para alcançar as metas de negócios da organização. Primeiro, vamos examinar como definimos a experiência do usuário.
 
 ### <a name="user-experience-defined"></a>Definição de experiência do usuário
 
-Metas de negócios podem ser obtidas quando você implanta o Microsoft Teams e quando os usuários adotarem equipes como sua solução de colaboração e comunicação de núcleo. Qualidade pode ajudar a garantir uma experiência de usuário positivo, um atributo-chave no orientando a adoção e uso. Por fornecer um serviço de alta qualidade que delights pessoas, indivíduos e equipes podem ganhar confiança e encontre novas e inovadores maneiras de usar o serviço que benefícios comerciais de unidade.
+As metas comerciais podem ser realizadas quando você implanta o Microsoft Teams e quando os usuários adotam o Teams como sua principal solução de comunicação e colaboração. A qualidade pode ajudar a garantir uma experiência de usuário positiva, um atributo principal para direcionar o uso e a adoção. Ao oferecer um serviço de alta qualidade que desilumina pessoas, indivíduos e equipes podem ter confiança e encontrar maneiras novas e inovadoras de usar o serviço que impulsionam os benefícios para os negócios.
 
-No centro disso tudo está a experiência do usuário com o Microsoft Teams; os sentimentos e as posturas da pessoa em relação ao serviço. Então, o que contribui para a experiência do usuário? Ele varia dos usuários saber como e por que usar equipes e incorporá-lo em seu fluxo de trabalho diário experimentando uma qualidade de chamada excepcionais e poder conectar confiável, independentemente de onde estejam. Experiência do usuário é muito ampla de natureza temporária; Este artigo foca somente aqueles elementos técnicos que podem ser controlados pela sua organização. Informações adicionais sobre a preparação do usuário podem ser encontradas em [Prepare sua organização para equipes](https://aka.ms/SkypeToTeams-UserReadiness).
+No centro disso tudo está a experiência do usuário com o Microsoft Teams; os sentimentos e as posturas da pessoa em relação ao serviço. Então, o que contribui para a experiência do usuário? Ele é direcionado dos usuários, sabendo como e por que usar o Teams e incorpora-los ao fluxo de trabalho diário para ter uma qualidade de chamada excepcional e ser capaz de se conectar de forma confiável, independentemente de onde estejam. A experiência do usuário é muito ampla, por natureza; Este artigo se concentra apenas nesses elementos técnicos que podem ser controlados pela sua organização. Informações adicionais sobre a preparação do usuário podem ser encontradas em [preparar sua organização para o Teams](https://aka.ms/SkypeToTeams-UserReadiness).
 
 Há requisitos específicos à implantação que são fundamentais para oferecer uma experiência do usuário fantástica, especialmente ao usar os recursos de voz em nuvem no Microsoft Teams. É essencial tratar o Microsoft Teams como um cidadão de primeira linha com outros investimentos em comunicação e colaboração, priorizando o tráfego em tempo real de maneira correspondente. A próxima seção fornece uma visão geral dos principais componentes que afetam a experiência do usuário. Nas outras seções, forneceremos orientações para você começar o planejamento para implantar e manter os principais componentes que compreendem a qualidade.
 
 ### <a name="key-components-of-quality"></a>Principais componentes da qualidade
 
-Uma organização ou um parceiro de suporte deve começar a planejar três componentes principais durante a fase de preparação técnica de uma implantação de equipes: gerenciamento, rede e pontos de extremidade de serviço. A combinação dessas três áreas é fundamental para a qualidade da experiência do usuário.
+Uma organização ou parceiro de suporte deve começar a planejar três componentes principais durante o estágio de preparação técnica de uma implantação do teams: gerenciamento de serviços, rede e pontos de extremidade. A combinação dessas três áreas é fundamental para a qualidade da experiência do usuário.
 
-![Diagrama que ilustra os três componentes da qualidade e como o gerenciamento do serviço se sobrepõe a todos os três componentes.](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagrama que ilustra os três componentes da qualidade e como o gerenciamento do serviço se sobrepõe a todos os três componentes.")
+![Diagrama que ilustra os três componentes de qualidade] (media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagrama que ilustra os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes.")
 
 #### <a name="service-management"></a>Gerenciamento do serviço
 
@@ -89,7 +89,7 @@ Para obter orientações detalhadas sobre o planejamento da rede, consulte [Plan
 
 O Microsoft Teams dá suporte a diversos pontos de extremidade. De computadores a tablets e celulares, você pode acessar o Microsoft Teams de qualquer lugar, em praticamente qualquer dispositivo.
 
-Para oferecer a melhor experiência de seus usuários possíveis, você precisa considerar estes aspectos importantes: faça seus pontos de extremidade atendem aos requisitos de hardware e software de equipes? Você configurou e otimizou os pontos de extremidade para que deem suporte a redes Wi-Fi? Quais dispositivos você vai usar para fazer e receber chamadas de voz? Esses dispositivos estão otimizados para o Microsoft Teams?
+Para dar aos seus usuários a melhor experiência possível, você precisa considerar estes aspectos importantes: os seus pontos de extremidade atendem aos requisitos de hardware e software do teams? Você configurou e otimizou os pontos de extremidade para que deem suporte a redes Wi-Fi? Quais dispositivos você vai usar para fazer e receber chamadas de voz? Esses dispositivos estão otimizados para o Microsoft Teams?
 
 Para obter orientações detalhadas sobre o planejamento de pontos de extremidade, consulte [Planejar a qualidade dos pontos de extremidade](#plan-for-endpoint-quality).
 
@@ -101,13 +101,13 @@ O gerenciamento do serviço é um tema amplo, que abrange as operações do serv
 
 O gerenciamento do serviço compreende todas as atividades e processos envolvidos no gerenciamento do Microsoft Teams de ponta a ponta. Conforme descrito anteriormente, alguns componentes do gerenciamento do serviço — os componentes de infraestrutura que o próprio serviço do Office 365 engloba — são de responsabilidade da Microsoft, enquanto o clientes é responsável por gerenciar os diversos aspectos do Microsoft Teams, da rede e dos pontos de extremidade que fornecem a seus clientes. Esta seção do documento foca a responsabilidade do cliente segundo a perspectiva do gerenciamento do serviço.
 
-![Diagrama que ilustra os três componentes da qualidade e como o gerenciamento do serviço se sobrepõe a todos os três componentes. Com foco sobre o gerenciamento do serviço.](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagrama que ilustra os três componentes da qualidade e como o gerenciamento do serviço se sobrepõe a todos os três componentes. Com foco sobre o gerenciamento do serviço.")
+![Diagrama que ilustra os três componentes de qualidade] (media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagrama que ilustra os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco no gerenciamento de serviços.")
 
 ### <a name="introduction-to-the-operations-guide"></a>Introdução ao Guia de Operações
 
 **O que**, **quem** e **como** são três perguntas importantes que precisam ser respondidas ao lidar com o gerenciamento do serviço.
 
-O [Guia de Operações](1-drive-value-operate-my-service.md) pode ajudar a responder a essas três perguntas. O guia fornece uma lista de atividades que devem ser realizadas diariamente, semanalmente, mensalmente e conforme a necessidade. Essas atividades e tarefas são essenciais para a manutenção de uma implantação do Microsoft Teams de alta qualidade. Determinar quem será responsável pela execução de atividades específicas no gerenciamento de serviço é um aspecto crítico do seu planejamento que você precisa fazer logo no início do [estágio de planejamento](upgrade-enlist-stakeholders.md) para garantir uma implantação bem-sucedida. Depois que você identificar essas tarefas e atividades, os grupos ou as pessoas aos quais elas serão atribuídas deverão entendê-las e acompanhá-las. O Guia de Operações apresenta informações e orientações para a realização de cada uma das tarefas e/ou referências de conteúdo externo.
+O [Guia de Operações](1-drive-value-operate-my-service.md) pode ajudar a responder a essas três perguntas. O guia fornece uma lista de atividades que devem ser realizadas diariamente, semanalmente, mensalmente e conforme a necessidade. Essas atividades e tarefas são essenciais para a manutenção de uma implantação do Microsoft Teams de alta qualidade. Determinar quem será responsável por realizar atividades específicas no gerenciamento de serviços é um aspecto crítico do planejamento que você precisa fazer no início do estágio de [planejamento](upgrade-enlist-stakeholders.md) para garantir uma implantação bem-sucedida. Depois que você identificar essas tarefas e atividades, os grupos ou as pessoas aos quais elas serão atribuídas deverão entendê-las e acompanhá-las. O Guia de Operações apresenta informações e orientações para a realização de cada uma das tarefas e/ou referências de conteúdo externo.
 
 ### <a name="operational-role-mapping"></a>Mapeamento de funções operacionais
 
@@ -115,7 +115,7 @@ O planejamento inicial do gerenciamento do serviço é uma etapa crítica, pois 
 
 Após a conclusão da aprovação, a equipe responsável deve iniciar a operacionalização das funções e responsabilidades. Isso pode incluir um processo de treinamento e preparação, a atualização do modelo de alocamento de pessoal ou a verificação de que os parceiros externos estão prontos para o fornecimento.
 
-Mapeamento funções operacionais conforme você coletou sua [equipe de projeto](upgrade-enlist-stakeholders.md) habilita todas as equipes iniciar suas tarefas operacionais durante o piloto e conheça as operações e certifique-se de que tudo esteja pronto após a implantação é iniciado.
+O mapeamento de funções operacionais durante a coleta da [equipe de projeto](upgrade-enlist-stakeholders.md) permite que todas as equipes iniciem suas tarefas operacionais durante o piloto e aumentem as operações e verifiquem se tudo está pronto após a implantação começar.
 
 O Guia de Operações apresenta uma lista de tarefas comuns mapeadas para as funções típicas que devem ser válidas na maioria dos cenários. Você precisa personalizar essas responsabilidades de maneira adequada para a sua organização.
 
@@ -125,13 +125,13 @@ Todos os grupos ou indivíduos precisam se responsabilizar pela qualidade em tod
 
 O defensor da qualidade utiliza as ferramentas existentes e os processos documentados, como o Painel de Qualidade de Chamadas (PQC) e o Guia de Revisão da Experiência de Qualidade, para monitorar a experiência do usuário, identificar tendências da qualidade e conduzir correções, quando necessário. O defensor da qualidade trabalha com as respectivas equipes para conduzir ações de correção, reportando-se a uma comissão de coordenação sobre seu andamento e os problemas não solucionados.
 
-As tarefas e atividades associadas à função estão documentadas no Guia de Operações. Essa função deve ser atribuída durante a [fase de planejamento](https://aka.ms/SkypeToTeams-Plan). Um etapa importante da operacionalização da função de defensor da qualidade é a obtenção do conhecimento necessário para a função e a garantia de que os pré-requisitos para a execução das tarefas foram cumpridos. Uma tarefa importante dessa função é a realização periódica de uma revisão da experiência de qualidade.
+As tarefas e atividades associadas à função estão documentadas no Guia de Operações. Esta função deve ser atribuída durante a [fase de planejamento](https://aka.ms/SkypeToTeams-Plan). Um etapa importante da operacionalização da função de defensor da qualidade é a obtenção do conhecimento necessário para a função e a garantia de que os pré-requisitos para a execução das tarefas foram cumpridos. Uma tarefa importante dessa função é a realização periódica de uma revisão da experiência de qualidade.
 
 ### <a name="introduction-to-the-quality-experience-review-guide"></a>Introdução ao Guia de Revisão da Experiência de Qualidade
 
 O Guia de Revisão da Experiência de Qualidade apresenta uma série de atividades que avalia e fornece orientações de correção nas principais áreas que têm mais impacto sobre o aprimoramento da experiência do usuário, conforme mostrado na figura a seguir.
 
-![Diagrama que ilustra as principais áreas examinadas durante a revisão da experiência de qualidade.](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Diagrama que ilustra as principais áreas examinadas durante a revisão da experiência de qualidade.")
+![Diagrama ilustrando áreas-chave examinadas durante a revisão da experiência de qualidade] (media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Um diagrama que ilustra as principais áreas que são examinadas durante A revisão da experiência de qualidade.")
 
 Por meio da avaliação e correção contínuas das áreas descritas neste documento, você pode reduzir seu potencial de afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrada em uma implantação pode ser agrupada nas seguintes categorias:
 
@@ -157,7 +157,7 @@ O Guia de Revisão da Experiência de Qualidade está disponível [aqui](https:/
 
 O planejamento da qualidade da rede será o foco desta seção.
 
-![Diagrama que ilustra os três componentes da qualidade e como o gerenciamento do serviço se sobrepõe a todos os três componentes. Com foco sobre a rede.](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Diagrama que ilustra os três componentes da qualidade e como o gerenciamento do serviço se sobrepõe a todos os três componentes. Com foco sobre a rede.")
+![Diagrama que ilustra os três componentes de qualidade] (media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Diagrama que ilustra os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco na rede.")
 
 Conforme mencionado anteriormente, é fundamental planejar a qualidade da rede antes da integração do Microsoft Teams. Para obter mais orientações sobre a preparação da rede, consulte [Preparo da rede da sua organização para o Microsoft Teams](prepare-network.md).
 
@@ -213,7 +213,7 @@ A configuração necessária para contornar o servidor proxy varia de um fornece
 
 Alguns fornecedores de servidores proxy oferecem um processo automatizado para garantir que a configuração esteja atualizada. Se o seu fornecedor não oferece esse processo automático, você pode baixar um arquivo PAC atualizado em <https://aka.ms/o365proxies>.
 
-[Servidores de proxy para equipes ou Skype para negócios on-line e equipes](proxy-servers-for-skype-for-business-online.md)
+[Servidores proxy para Teams ou Skype for Business Online e Teams](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>Firewalls
 
@@ -268,13 +268,13 @@ Parte das atividades de preparação da rede inclui uma avaliação da rede. Dep
 
 A avaliação da rede deve ser realizada para redes com fio e Wi-Fi de todos os edifícios que terão funcionalidades de voz em nuvem habilitadas no Microsoft Teams.
 
-A avaliação da rede pode ser conduzida por um parceiro da Microsoft, ferramentas de terceiros ou a [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885). Fornecemos também ainda mais diretrizes sobre como executar a avaliação usando a ferramenta de avaliação de rede da Microsoft como parte de nossa orientação de preparação [aqui](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11).
+A avaliação da rede pode ser conduzida por um parceiro da Microsoft, ferramentas de terceiros ou a [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885). Também oferecemos mais orientações sobre como executar a avaliação usando a ferramenta de avaliação de rede da Microsoft como parte de nossas diretrizes de preparação [aqui](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11).
 
 ## <a name="plan-for-endpoint-quality"></a>Planejar a qualidade dos pontos de extremidade
 
 Como é possível ver no diagrama a seguir, os pontos de extremidade são um bloco de construção importante para fornecer uma experiência de alta qualidade para os usuários.
 
-![Diagrama que ilustra os três componentes da qualidade e como o gerenciamento do serviço se sobrepõe a todos os três componentes. Com foco sobre os pontos de extremidade.](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagrama que ilustra os três componentes da qualidade e como o gerenciamento do serviço se sobrepõe a todos os três componentes. Com foco sobre os pontos de extremidade.")
+![Diagrama que ilustra os três componentes de qualidade] (media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagrama que ilustra os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco em pontos de extremidade.")
 
 Os pontos de extremidade do Microsoft Teams podem ser executados em vários dispositivos, como PCs, Macs, tablets e dispositivos móveis. Parte da experiência engloba não apenas o dispositivo, mas o modo como o usuário se conecta a ele. Por exemplo, usando o microfone/viva-voz interno do dispositivo, fones de ouvido ou um fone de ouvido com microfone otimizado. O uso de um fone de ouvido com microfone otimizado pode melhorar a experiência geral do usuário.
 
@@ -360,4 +360,4 @@ Esta tabela inclui um resumo das atividades de planejamento com links para o con
 | | Implementar as recomendações de Wi-Fi para pontos de extremidade | Consultar fornecedores terceirizados |
 | | Realizar o mapeamento entre personas e dispositivos <br/> Provisionar dispositivos e realizar o piloto com eles | [Cliente e dispositivos - workshop de preparação](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Catálogo de dispositivos](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
 
-Depois que terminar de planejamento, prossiga para a próxima etapa: [preparar seu ambiente para equipes](https://aka.ms/SkypeToTeams-TechnicalReadiness).
+Após concluir o planejamento, prossiga para a próxima etapa: [preparar seu ambiente para](https://aka.ms/SkypeToTeams-TechnicalReadiness)o Teams.

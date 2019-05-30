@@ -1,6 +1,6 @@
 ---
 title: Teams para a Administração Pública
-description: Saiba como planejar e implantar equipes em ambientes Microsoft 365 governamental.
+description: Saiba como planejar e implantar equipes nos ambientes governamentais do Microsoft 365.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -12,16 +12,16 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a43c2b0c04ed76c26c8aa0434a35f2e8b462559a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fdb2a57e3ff414339675851adb4abe15b6426bf5
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246380"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548163"
 ---
 # <a name="teams-for-government"></a>Teams para a Administração Pública
 
-Use esses recursos para planejar e implantar equipes em ambientes Microsoft 365 governamental.
+Use estes recursos para planejar e implantar equipes nos ambientes de governo do Microsoft 365.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -31,11 +31,11 @@ Use esses recursos para planejar e implantar equipes em ambientes Microsoft 365 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/list-123-teams.svg" alt="tasks"/>
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/list-123-teams.svg" alt="Numbered list icon representing planning"/>
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Planejar Microsoft 365 governamental - implantações GCC</h3>
+                        <h3>Plano para implantações do governo Microsoft 365-GCC</h3>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@ Use esses recursos para planejar e implantar equipes em ambientes Microsoft 365 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="planning" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="Clipboard icon representing planning" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -67,11 +67,11 @@ Use esses recursos para planejar e implantar equipes em ambientes Microsoft 365 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons//task-list-planning-teams.svg" alt="best practices" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons//task-list-planning-teams.svg" alt="Bulleted list icon representing planning" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Planejar Microsoft 365 governamental - implantações DOD</h3>
+                        <h3>Plano para implantações do governo Microsoft 365-DOD</h3>
                     </div>
                 </div>
             </div>

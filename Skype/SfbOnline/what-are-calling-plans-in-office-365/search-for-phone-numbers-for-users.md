@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Veja como pesquisar números de telefone que você pode atribuir para seus usuários por país/região, estado/região ou cidade, e especifique a quantidade de números que precisa. '
-ms.openlocfilehash: 42f678b81b34b145e086e413bb95a53eab054167
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2630dd7853760db16497eec83be30af8a0ff0ef8
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280488"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493940"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Pesquisar números de telefone para usuários
 
@@ -40,7 +40,7 @@ Se você precisar de ajuda para obter números de telefone, consulte [Gerenciar 
 
  **Para procurar números de telefone para seus usuários**
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     

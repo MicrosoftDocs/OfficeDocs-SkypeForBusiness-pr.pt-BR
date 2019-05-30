@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como planejar o bypass de mídia com o roteamento direto do sistema telefônico.
-ms.openlocfilehash: 7a26f14e0fb6fec8537f04f03b6f58c252f86966
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 704b129b3d6ba7fdffd5c01886b73970e0711e60
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290457"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493912"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -70,7 +70,7 @@ O diagrama a seguir mostra o fluxo de chamadas quando o bypass de mídia está h
 
 - O sinal SIP sempre usa os caminhos 4 e 4 (dependendo da direção do tráfego). A mídia permanece local e usa o caminho 5b.
 
-![Mostra o fluxo de chamadas com bypass de mídia habilitado, o cliente é interno e pode alcançar o IP público do controlador de borda de sessão (mídia direta)](media/direct-routing-media-bypass-3.png)
+![Mostra o fluxo de chamadas com bypass de mídia habilitado, o cliente é interno](media/direct-routing-media-bypass-3.png)
 
 
 ### <a name="call-flow-if-the-user-does-not-have-access-to-the-public-ip-address-of-the-sbc"></a>Fluxo de chamadas se o usuário não tiver acesso ao endereço IP público do SBC
@@ -91,7 +91,7 @@ O diagrama a seguir mostra o fluxo de chamadas quando o bypass de mídia está h
 
 - A mídia é retransmitida pelos caminhos 3, 3 ', 4 e 4 '
 
-![Mostra o fluxo de chamadas se o usuário não tiver acesso ao IP público do SBC)](media/direct-routing-media-bypass-4.png)
+![Mostra o fluxo de chamadas se o usuário não tiver acesso ao IP público do SBC](media/direct-routing-media-bypass-4.png)
 
 
 ### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Fluxo de chamadas se um usuário estiver fora da rede e tiver acesso ao IP público do SBC
@@ -105,7 +105,7 @@ O diagrama a seguir mostra o fluxo de chamadas quando o bypass de mídia está h
 
 - O sinal SIP sempre usa os caminhos 3 e 3 ' (dependendo da direção do tráfego). Fluxos de mídia usando o caminho 2.
 
-![Mostra o fluxo de chamadas se o usuário não tiver acesso ao IP público do SBC)](media/direct-routing-media-bypass-5.png)
+![Mostra o fluxo de chamadas se o usuário não tiver acesso ao IP público do SBC](media/direct-routing-media-bypass-5.png)
 
 
 ## <a name="use-of-media-processors-and-transport-relays"></a>Uso de processadores de mídia e retransmissões de transporte
@@ -125,7 +125,7 @@ O diagrama a seguir mostra dois fluxos de chamadas – um com bypass de mídia h
 
 - O proxy SIP é um componente que traduz a sinalização REST HTTP usada no Teams para SIP.    
 
-![Mostra dois fluxos de chamadas – um com bypass de mídia habilitado e o segundo com bypass de mídia desabilitado)](media/direct-routing-media-bypass-6.png)
+![Mostra fluxos de chamadas com o bypass de mídia habilitado e desabilitado](media/direct-routing-media-bypass-6.png)
 
 
 A tabela a seguir resume a diferença entre processadores de mídia e retransmissões de transporte.
@@ -273,7 +273,7 @@ Usuários com apenas pontos de extremidade de equipes (incluindo novos telefones
 Os dois troncos podem apontar para o mesmo SBC com o mesmo endereço IP público. As portas de sinalização TLS no SBC devem ser diferentes, conforme mostrado no diagrama a seguir. Observação Você precisará verificar se o seu certificado dá suporte a ambos troncos. Na SAN, você precisa ter dois nomes (**sbc1.contoso.com** e **sbc2.contoso.com**) ou ter um certificado curinga.
 
 
-![Mostra que os dois troncos podem apontar para o mesmo SBC com o mesmo IP público)](media/direct-routing-media-bypass-7.png)
+![Mostra que os dois troncos podem apontar para o mesmo SBC com o mesmo IP público](media/direct-routing-media-bypass-7.png)
 
 Para obter informações sobre como configurar dois troncos no mesmo SBC, consulte a documentação fornecida pelo seu fornecedor de SBC:
 

@@ -1,6 +1,6 @@
 ---
 title: Teams para Serviços de Saúde
-description: Use esses recursos para tirar o máximo proveito equipes em sua organização de saúde.
+description: Use estes recursos para aproveitar ao máximo o Microsoft Teams na sua organização de assistência médica.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -12,16 +12,16 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5033c7479a8b457a18395a9e8a8fae4740ba06a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fec61542c51870ce1482f964845e13d12a3a987d
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245695"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548251"
 ---
 # <a name="teams-for-healthcare"></a>Teams para Serviços de Saúde
 
-As equipes dá equipes de atendimento médico e profissionais de saúde uma maneira segura para se comunicar, coordenar aos pacientes e aprimorar a eficiência operacional. Aqui, você encontrará os recursos de administração, que você precisa gerenciar equipes para equipes de assistência médica em sua organização.
+O Microsoft Teams dá cuidado às equipes e profissionais de saúde uma maneira segura de se comunicar, coordenar o atendimento ao paciente e melhorar a eficiência operacional. Aqui você encontrará os recursos de administrador necessários para gerenciar o Teams for Healthcare Teams em sua organização.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -31,7 +31,7 @@ As equipes dá equipes de atendimento médico e profissionais de saúde uma mane
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="walkthrough" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Pointing hand icon with arrow, representing getting started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -49,7 +49,7 @@ As equipes dá equipes de atendimento médico e profissionais de saúde uma mane
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="Folded paper icon, representing templates" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -67,7 +67,7 @@ As equipes dá equipes de atendimento médico e profissionais de saúde uma mane
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="chat" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat bubble icon, representing messaging" />
                         </div>
                     </div>
                     <div class="cardText">

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: Veja como configurar o Microsoft Teams para permitir que os usuários se comuniquem com os usuários de outra organização.
-ms.openlocfilehash: d974197f6daedab030124dfc1117610e3504ae32
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: e9e2a60c7f1f93df56408976a92e4aa47f3e486e
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433187"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494686"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que os usuários do seu Team conversem e se comuniquem com usuários em outra organização de equipes
 
@@ -58,7 +58,7 @@ Siga estas etapas.
 
    3. Se você quiser permitir que todas as organizações de equipe se comuniquem com os usuários da sua organização, pule para a etapa 5. 
    
-   4. Se quiser limitar quais organizações podem se comunicar com os usuários em sua organização, você pode permitir todos, mas alguns domínios, ou somente permitir organizações específicas. Para permitir todos, mas alguns domínios, adicione os domínios que você deseja bloquear clicando em **Adicionar domínio**. No painel **Adicionar um domínio** , insira o nome do domínio, clique em **bloqueado** e em **concluído**. Para limitar as comunicações a organizatioins específicas, adicione esses domínios à lista com um status de por **devido**. Depois que você adicionar qualquer domínio à lista de permissões, as comunicações com outras organizações serão limitadas apenas às organizações cujos domínios estiverem na lista de permissões. 
+   4. Se quiser limitar quais organizações podem se comunicar com os usuários em sua organização, você pode permitir todos, mas alguns domínios, ou somente permitir organizações específicas. Para permitir todos, mas alguns domínios, adicione os domínios que você deseja bloquear clicando em **Adicionar domínio**. No painel **Adicionar um domínio** , insira o nome do domínio, clique em **bloqueado** e em **concluído**. Para limitar as comunicações a organizatioins específicas, adicione esses domínios à lista com um status de **permitido**. Depois que você adicionar qualquer domínio à lista de permissões, as comunicações com outras organizações serão limitadas apenas às organizações cujos domínios estiverem na lista de permissões. 
    
    5. Clique em **Salvar**. 
 

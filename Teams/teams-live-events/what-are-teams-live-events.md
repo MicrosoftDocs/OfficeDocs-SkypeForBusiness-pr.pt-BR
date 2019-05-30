@@ -8,81 +8,81 @@ ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.reviewer: tonysmit
+ms.reviewer: sonua
 search.appverid: MET150
-description: Saiba como live eventos permitem aos usuários transmitir vídeo e conteúdo para grandes públicos on-line no Microsoft Teams, Yammer e Microsoft Stream.
+description: Saiba como eventos dinâmicos permitem que os usuários transmitam vídeo e conteúdo para grandes audiências online no Microsoft Teams, Yammer e Microsoft Stream.
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01dfa91c13625e1f1f18fdce5840cf6ba2baeb79
-ms.sourcegitcommit: 47e5f6a0440f646d67bc3ca7c232df9558f78040
+ms.openlocfilehash: 29537a43fecd2da927497743bc5b488510fbabf7
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33641489"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548928"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>O que são os eventos ao vivo do Microsoft Teams ?
 
 ## <a name="overview"></a>Visão geral
 
-Com os eventos do Microsoft Teams ao vivo, os usuários em sua organização possam transmitir conteúdo de reunião e de vídeo para grandes públicos online. 
+Com o Microsoft Teams Live eventos, os usuários em sua organização podem transmitir conteúdo de vídeo e de reunião para grandes audiências online. 
 
-Eventos ao vivo do Microsoft 365 trazem vídeo ao vivo streaming para um novo nível, encorajando conexão em todo o ciclo de vida de compromisso inteira com participantes antes, durante e após eventos ao vivo. Você pode criar um evento ao vivo, onde quer que seu público-alvo, equipe ou comunidades residam, usando o Microsoft Stream, Teams da Microsoft, ou do Yammer.  
+Os eventos dinâmicos do Microsoft 365 dão transmissão de vídeo ao vivo para um novo nível, incentivando a conexão durante todo o ciclo de vida do compromisso com os participantes antes, durante e depois dos eventos ao vivo. Você pode criar um evento ao vivo em qualquer lugar em que seu público, equipe ou comunidade reside, usando o Microsoft Stream, Microsoft Teams ou Yammer.  
 
-As equipes oferece colaboração baseada em bate-papo, chamada, reuniões e com eventos ao vivo, portanto você pode expandir a audiência das suas reuniões. Eventos ao vivo de equipes é uma extensão de reuniões de equipes, permitindo que os usuários transmitir conteúdo de reunião e vídeo para um grande público on-line. Essas servem para comunicações de um-para-muitos onde o host do evento é líder interações e a participação de audiência é principalmente exibir o conteúdo compartilhado por host. Os participantes podem assistir o evento ao vivo ou gravado no Yammer, equipes e/ou Microsoft Stream e podem interagir com os apresentadores usando uma & de moderado Q ou uma conversa do Yammer. 
+O Microsoft Teams oferece colaboração, chamadas, reuniões e eventos dinâmicos baseados em chat para que você possa expandir a audiência de suas reuniões. Os eventos dinâmicos do teams são uma extensão das reuniões do Teams, permitindo que os usuários transmitam conteúdo de vídeo e de reunião para um grande público online. Elas se destinam a comunicações um-para-muitos em que o host do evento está liderando as interações e a participação da audiência é principalmente para exibir o conteúdo compartilhado por host. Os participantes podem assistir ao evento ao vivo ou gravado no Yammer, no Teams e/ou no Microsoft Stream e podem interagir com os apresentadores usando uma conversa de Q & A ou uma conversa do Yammer. 
 
-As equipes de eventos ao vivo são considerados a próxima versão do Skype transmissão de reunião e serão eventualmente substituem os recursos fornecidos na transmissão do Skype reunião. Neste ponto, a Microsoft continuará dar suporte a transmissão do Skype reunião para usuários que estejam usando Skype para a empresa em suas organizações, sem interrupções no serviço para o novos ou futuros eventos. No entanto, recomendamos que você experimente equipes eventos ao vivo para aproveitar todos os recursos de novos e interessantes incluindo compartilhamento de tela e suporte para codificadores de software/hardware externo. 
+Os eventos ao vivo do teams são considerados a próxima versão da transmissão de reunião do Skype e, eventualmente, substituirão os recursos fornecidos na transmissão de reunião do Skype. A esta altura, a Microsoft continuará a oferecer suporte à transmissão de reunião do Skype para os usuários que usam o Skype for Business em suas organizações, sem interrupções em serviço para eventos novos ou futuros. No entanto, recomendamos que você experimente eventos ao vivo do teams para aproveitar todos os novos e incríveis recursos, incluindo o compartilhamento de tela e o suporte para codificadores de hardware/software externos. 
 
-Portanto, vamos começar. Primeiro, dê uma olhada no diagrama a seguir que mostra os componentes de nível altos envolvidas em eventos ao vivo do Microsoft 365 e como eles são conectados. 
+Então, vamos começar. Primeiro, dê uma olhada no diagrama a seguir que mostra componentes de alto nível envolvidos em eventos dinâmicos do Microsoft 365 e como eles estão conectados. 
 
-![Diagrama que mostra os principais componentes de eventos ao vivo, a plataforma, agendar, produção, Stream Microsoft certified provedores de terceiros eCDN] (../media/teams-live-events.png  "Diagrama que mostra os principais componentes de eventos ao vivo, a plataforma, agendar, produção, Stream Microsoft certified provedores de terceiros eCDN")
+![Diagrama mostrando os principais componentes de eventos dinâmicos] (../media/teams-live-events.png  "Diagrama mostrando os principais componentes de eventos dinâmicos, agendamento, produção, plataforma Microsoft Stream e provedores certificados de eCDN de") terceiros
 
-### <a name="event-group-roles"></a>Funções do grupo de evento
-Eventos ao vivo em equipes capacita várias funções (organizador, produtor, apresentador e participante) para transmissão e participar de um evento com êxito. Para saber mais, veja as [funções de grupo de eventos](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
+### <a name="event-group-roles"></a>Funções do grupo de eventos
+Eventos dinâmicos no Microsoft Teams proporcionam várias funções (organizador, produtor, apresentador e participante) para transmitir e participar de um evento com êxito. Para saber mais, consulte [funções de grupo de eventos](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
 
-## <a name="key-components"></a>Principais componentes
-Assim, você pode ver na figura acima, existem quatro principais componentes que são usados com eventos ao vivo em equipes.
+## <a name="key-components"></a>Componentes chave
+Portanto, você pode ver na imagem acima, há quatro componentes principais que são usados com eventos dinâmicos no Teams.
 
-### <a name="scheduling"></a>Agendamento
-As equipes fornece a capacidade dos organizadores criar um evento com o nome do participante apropriado permissões, designar os membros da equipe de evento, selecione o método de produção e convidar participantes. Se o evento ao vivo foi criado de dentro de um grupo do Yammer, os participantes do evento ao vivo poderão usar uma conversa do Yammer para interagir com pessoas no evento. 
+### <a name="scheduling"></a>Plano
+O Microsoft Teams oferece a capacidade dos organizadores de criarem um evento com as permissões apropriadas do participante, designar membros da equipe do evento, selecionar método de produção e convidar participantes. Se o evento ao vivo foi criado dentro de um grupo do Yammer, os participantes do evento ao vivo poderão usar a conversa do Yammer para interagir com as pessoas no evento. 
 
-![Captura de tela mostrando a nova tela de eventos para criar e agendar um novo evento ao vivo do live] (../media/teams-live-events-schedule.png "Captura de tela mostrando a nova tela de evento para criar e agendar um novo evento ao vivo do live")
+![Captura de tela mostrando a nova tela eventos ao vivo] (../media/teams-live-events-schedule.png "Captura de tela mostrando a nova tela de eventos ao vivo para criar e agendar um novo evento ao vivo")
 
-### <a name="production"></a>Produção
-A entrada de vídeo é a base dos eventos ao vivo e ele pode variar de uma webcam única para a produção de vídeo professional uma câmera multi. Os eventos ao vivo no Microsoft 365 oferecem suporte a uma variedade de cenários de produção, inclua um evento de início rápido usando webcams ou um evento produzidos em um aplicativo ou dispositivo externo. Você pode escolher essas opções, dependendo de suas necessidades de projeto e o orçamento. Há duas maneiras para produzir eventos:
+### <a name="production"></a>Preparo
+A entrada de vídeo é a base dos eventos ao vivo e ele pode variar de uma única webcam para uma produção de vídeo profissional de várias câmeras. Os eventos dinâmicos do Microsoft 365 dão suporte a um espectro de cenários de produção, incluem um evento de início rápido usando o Cams Web ou um evento produzido em um dispositivo ou aplicativo externo. Você pode escolher essas opções dependendo dos requisitos e do orçamento do projeto. Há duas maneiras de produzir eventos:
 
-- **As equipes da Microsoft**: esse método de produção permite aos usuários produzir seus live eventos no Microsoft Teams usando sua webcam ou usando A / V de entrada de sistemas de sala de equipes. Essa opção é melhor e mais rápida opção se desejar usar os dispositivos de áudio e vídeos conectado ao PC ou está convidando apresentadores remotos de participação no evento. Essa opção permite que os usuários facilmente use seus webcams e compartilhar sua tela como entrada para o evento. 
+- **Microsoft Teams**: Este método de produção permite que os usuários produzam seus eventos dinâmicos no Microsoft Teams usando a webcam ou usando a entrada/V de sistemas de sala de equipe. Essa opção é a opção mais adequada e rápido se você quiser usar os dispositivos de áudio e de vídeo conectados ao computador ou se estiver convidando os apresentadores remotos para participar do evento. Essa opção permite que os usuários usem facilmente o Cams da Web e compartilhem sua tela como entrada no evento. 
 
-    ![Captura de tela mostrando um evento ao vivo produzido usando rápido inicie o método de produção] (../media/teams-live-events-quick-start.png "Captura de tela mostrando um evento ao vivo, que é produzido usando rápido inicie o método de produção")
+    ![Captura de tela mostrando um evento ao vivo produzido usando o método de início rápido] (../media/teams-live-events-quick-start.png "Captura de tela mostrando um evento ao vivo que é produzido usando o método de início rápido da produção")
 
-- **Dispositivo ou aplicativo externo**: codificadores externos permitir que usuários produzir seus eventos ao vivo diretamente de um hardware externo ou um codificador baseada em software com a [Microsoft Stream](https://stream.microsoft.com). Esta é a melhor opção se você já tiver equipamento de qualidade studio (por exemplo, misturadores de mídia) quais streaming de suporte para um serviço (RTMP Real-Time Messaging Protocol). Esse tipo de produção é geralmente usado nos eventos de grande escala, como executivos corredores da cidade – onde um único fluxo de um mixer de mídia é transmitido para a audiência. 
+- **Aplicativo ou aplicativo externo**: codificadores externos permitem que os usuários produzam seus eventos ao vivo diretamente de um hardware externo ou um codificador baseado em software com [o Microsoft Stream](https://stream.microsoft.com). Essa opção é melhor se você já tiver equipamento de qualidade do estúdio (por exemplo, mixers de mídia) que dão suporte ao streaming para um serviço RTMP (protocolo de mensagens em tempo real). Esse tipo de produção geralmente é usado em grandes eventos de escala, como corredores da cidade executiva – onde um único fluxo de um mixer de mídia é transmitido para o público. 
 
-    ![Captura de tela mostrando um evento ao vivo produzido usando o método de produção do codificador externo] (../media/teams-live-events-external-encoder.png "Captura de tela mostrando um evento ao vivo, que é produzido usando o método de produção do codificador externo")
+    ![Captura de tela mostrando um evento ao vivo produzido usando o codificador externo] (../media/teams-live-events-external-encoder.png "Captura de tela mostrando um evento ao vivo que é produzido usando o método de produção codificador externo")
 
-### <a name="streaming-platform"></a>Plataforma de fluxo contínuo
-A plataforma de fluxo contínuo de evento ao vivo é composta das seguintes partes:
+### <a name="streaming-platform"></a>Plataforma de streaming
+A plataforma de transmissão de eventos ao vivo é composta pelos seguintes itens:
 
-- **Serviços de mídia do Windows Azure**: [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) oferece qualidade de transmissão serviços de fluxo de vídeos para alcançar maiores audiências em dispositivos móveis mais populares de hoje. Media Services aprimora a acessibilidade, distribuição e escalabilidade e torna fácil e econômico para transmitir conteúdo aos públicos-locais ou em todo o mundo — tudo isso enquanto protegendo seu conteúdo.
-- **Rede de entrega conteúdo do Windows Azure (CDN)**: depois que o seu fluxo fica ativo, que é entregue via a [Rede de entrega conteúdo do Windows Azure (CDN)](https://docs.microsoft.com/azure/cdn/). Azure Media Services fornece CDN integrado para streaming de pontos de extremidade. Isso permite que os fluxos sejam exibidas em todo o mundo com nenhum armazenamento em buffer.
+- **Serviços de mídia do Azure**: os [serviços de mídia do Azure](https://docs.microsoft.com/azure/media-services/previous/) fornecem serviços de transmissão de vídeo com qualidade de transmissão para alcançar públicos maiores em dispositivos móveis mais populares do dia. O Media Services aprimora a acessibilidade, a distribuição e a escalabilidade, e torna mais fácil e econômico transmitir conteúdo para seus públicos locais ou mundiais, tudo isso enquanto protege o seu conteúdo.
+- A **CDN (rede de distribuição de conteúdo) do Azure**: depois que o fluxo ficar ao vivo, ele será entregue pela [CDN (rede de distribuição de conteúdo) do Azure](https://docs.microsoft.com/azure/cdn/). Os serviços de mídia do Azure fornecem CDN integrada para pontos de extremidade de streaming. Isso permite que os fluxos sejam exibidos em todo o mundo sem buffer.
 
-### <a name="enterprise-content-delivery-network-ecdn"></a>Rede de entrega de conteúdo corporativo (eCDN)
-O objetivo do eCDN é obter o conteúdo de vídeo da internet e distribuir o conteúdo em toda a empresa sem afetar o desempenho da rede. Você pode usar um dos seguintes eCDN parceiros certificados para otimizar sua rede para eventos ao vivo mantidos dentro da sua organização:
+### <a name="enterprise-content-delivery-network-ecdn"></a>Rede de distribuição de conteúdo corporativo (eCDN)
+O objetivo do eCDN é pegar o conteúdo de vídeo da Internet e distribuir o conteúdo em toda a sua empresa sem afetar o desempenho da rede. Você pode usar um dos seguintes parceiros certificados eCDN para otimizar sua rede para eventos dinâmicos mantidos em sua organização:
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](http://www.kollective.com)
-- [Conheça](http://www.ramp.com)
+- [Gama](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>Experiência do participante 
-A experiência do participante é o aspecto mais importante dos eventos ao vivo e é muito importante que os participantes podem participar de evento ao vivo sem a necessidade de quaisquer problemas. A experiência do participante usa o Azure Media Player (para eventos produzidos no Microsoft Teams) e works Player Stream (para eventos produzidos em um enccoder externo) entre desktop, navegador e mobile (iOS, Android). O Office 365 fornece Yammer e equipes como dois hubs de colaboração e o nome do participante ao vivo experiência é integrada a essas ferramentas de colaboração. 
+A experiência do participante é o aspecto mais importante de eventos dinâmicos e é essencial que os participantes participem do evento ao vivo sem ter problemas. A experiência do participante usa o Azure Media Player (para eventos produzidos no Microsoft Teams) e o Stream Player (para eventos produzidos em um enccoder externo) funciona em toda a área de trabalho, navegador e dispositivos móveis (iOS, Android). O Office 365 fornece o Yammer e o Teams como dois hubs de colaboração e a experiência do Live articipante está integrada a essas ferramentas de colaboração. 
 
-![Experiência de captura de tela mostrando o nome do participante eventos ao vivo] (../media/teams-live-events-attendee.png "Experiência de captura de tela mostrando o nome do participante eventos ao vivo")
+![Captura de tela mostrando a experiência do participante de eventos ao vivo] (../media/teams-live-events-attendee.png "Captura de tela mostrando a experiência do participante de eventos ao vivo")
 
 ## <a name="next-steps"></a>Próximas etapas
-Vá para o [planejamento de eventos de equipes ao vivo](plan-for-teams-live-events.md).
+Vá para [plano para eventos do teams Live](plan-for-teams-live-events.md).
 
 ### <a name="related-topics"></a>Tópicos relacionados
-- [Eventos ao vivo entre Microsoft 365 no Yammer, Teams da Microsoft e Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
+- [Eventos ao vivo na Microsoft 365 no Yammer, Microsoft Teams e Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
 - [Eventos ao vivo no Microsoft Teams](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
 - [Eventos ao vivo no Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
-- [Eventos ao vivo em Stream da Microsoft](https://docs.microsoft.com/stream/live-event-overview)
+- [Eventos dinâmicos no Microsoft Stream](https://docs.microsoft.com/stream/live-event-overview)
 
  

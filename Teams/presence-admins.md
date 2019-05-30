@@ -7,7 +7,7 @@ ms.date: 08/21/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: rakayala
-description: Os administradores de informações precisam entender sobre a presença em equipes.
+description: Os administradores de informações precisam compreender a presença no Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,60 +15,60 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cffa4e5eef3b5b120e38b103d04adbca08bef0e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3fd6ac289df238d9f410266b1eca43a3a18f493e
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246200"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548521"
 ---
 # <a name="user-presence-in-teams"></a>Presença do usuário no Microsoft Teams
 
-Presença faz parte de um perfil de usuário no Microsoft Teams (e ao longo do Office 365) – e indica a disponibilidade atual do usuário e o status para outros usuários na organização. Por padrão, qualquer pessoa na sua organização usando equipes pode ver ou não a outros usuários estão disponíveis online.
+A presença faz parte do perfil de um usuário no Microsoft Teams (e durante todo o Office 365) – e indica a disponibilidade e o status atuais do usuário para outros usuários da organização. Por padrão, qualquer pessoa em sua organização que use o Teams pode ver-em quase tempo real, independentemente de outros usuários estarem disponíveis online.
 
-## <a name="presence-states-in-teams"></a>Estados de presença em equipes
+## <a name="presence-states-in-teams"></a>Estados de presença no Teams
 
-Os estados de presença do usuário disponíveis em equipes são:
+Os Estados de presença do usuário disponíveis no Teams são:
 
-|Configurado pelo usuário|App configurada|
+|Configurado pelo usuário|Aplicativo configurado|
 |:--- |:---|
-| ![Presença disponíveis](media/Presence_Available.png) Disponível|![Presença disponíveis](media/Presence_Available.png) Disponível|
-|| ![oof disponível](media/Presence_Available_OOF.png) Disponível, ausência temporária |
-|  ![Ocupado](media/Presence_Busy.png) Ocupado |  ![Ocupado](media/Presence_Busy.png) Ocupado  |
-|| ![Ocupado](media/Presence_Busy.png) Em uma chamada|
-|| ![Ocupado](media/Presence_Busy.png) Em uma reunião |
-|| ![oof ocupado](media/Presence_Busy_OOF.png) Em uma chamada, ausência temporária|
-|  ![Não incomodar](media/Presence_DND.png) Não incomodar ||
-|| ![Não incomodar](media/Presence_DND.png) Apresentando|
-| ![ausente](media/Presence_Away.png) Ausente| ![ausente](media/Presence_Away.png) Ausente|
-|| ![ausente](media/Presence_Away.png) vistas ausente última *hora*|
-|![ausente](media/Presence_Away.png) Volto logo| |
-|| ![ausente](media/Presence_Away.png)  Ausente do trabalho|
-|| ![Offline](media/Presence_Offline.png) Offline |
-|| ![desconhecido](media/Presence_Unknown.png) Status desconhecido|
-||![bloqueado](media/Presence_Blocked.png) Bloqueado |
-|| ![Ausência temporária](media/Presence_OOF.png) Ausência temporária|
+| ![Marca de Chek verde estável, indicando presença disponível](media/Presence_Available.png) Disponível|![Marca de Chek verde estável, indicando presença disponível](media/Presence_Available.png) Disponível|
+|| ![Abrir marca Chek verde, indicando OOF disponível](media/Presence_Available_OOF.png) Disponível, fora do escritório |
+|  ![Círculo vermelho sólido, indicando ocupado](media/Presence_Busy.png) Executando |  ![Executando](media/Presence_Busy.png) Executando  |
+|| ![Círculo vermelho sólido, que indica ocupado em uma chamada](media/Presence_Busy.png) Em uma chamada|
+|| ![Círculo vermelho sólido, que indica ocupado em uma reunião](media/Presence_Busy.png) Em uma reunião |
+|| ![Abrir círculo vermelho, indicando OOF indisponível](media/Presence_Busy_OOF.png) Em uma chamada, fora do escritório|
+|  ![Círculo vermelho com linha branca, indicando não incomodar](media/Presence_DND.png) Não incomodar ||
+|| ![Círculo vermelho com linha branca, indicando a apresentação](media/Presence_DND.png) Fazendo|
+| ![Ícone de relógio amarelo, indicando ausente](media/Presence_Away.png) Aparece| ![aparece](media/Presence_Away.png) Aparece|
+|| ![Ícone de relógio amarelo, que](media/Presence_Away.png) indica o último *horário* visto ausente|
+|![Ícone de relógio amarelo, indicando ausente, volto logo](media/Presence_Away.png) Volto logo| |
+|| ![Ícone de relógio amarelo, indicando ausente, fora do trabalho](media/Presence_Away.png)  Longe do trabalho|
+|| ![Círculo cinza com x, indicando offline](media/Presence_Offline.png) Modo |
+|| ![Abrir círculo cinza, indicando o status desconhecido](media/Presence_Unknown.png) Status desconhecido|
+||![Abrir círculo vermelho com linha diagonal, indicando bloqueado](media/Presence_Blocked.png) Bloqueado |
+|| ![Círculo roxo com seta, indicando ausência temporária](media/Presence_OOF.png) Fora do escritório|
 |||
  
-Os usuários podem definir manualmente seu estado de presença atual para algumas opções e seu estado obtém refletido para todos os outros usuários. Detalhes de presença do usuário adicionais são atualizados também automaticamente com base nos Estados do aplicativo de equipes, Outlook calendário estados (como em uma reunião) ou atividade do usuário (por exemplo, disponível ou ausente) (em uma chamada, apresentando), Estados recuados na lista.
+Os usuários podem definir manualmente o estado de presença atual para algumas opções, e seu estado é refletido para todos os outros usuários. Detalhes adicionais de presença do usuário também são atualizados automaticamente com base na atividade do usuário (como disponível ou ausente), os Estados do calendário do Outlook (como em uma reunião) ou os Estados do aplicativo Teams (em uma chamada, apresentação), para os Estados que são recuados na lista.
 
-Há um limite de inatividade de 15 minutos, após o qual o estado de presença atual dos usuários será redefinido para ausente.
+Há um tempo limite de inatividade de 15 minutos, após o qual o estado de presença atual dos seus usuários será redefinido para ausente.
 
-Os usuários podem especificar que podem ser acessadas pelo (contatá-los substituindo uma configuração não incomodar). Essas configurações estão disponíveis no aplicativo.
+Os usuários podem especificar quem pode interromper (entre em contato com eles substituindo uma configuração não incomodar). Essas configurações estão disponíveis no aplicativo.
 
-## <a name="teams-is-not-skype-for-business"></a>As equipes não for Skype para negócios
+## <a name="teams-is-not-skype-for-business"></a>O Teams não é o Skype for Business
 
-As seguintes configurações de administração no Skype para negócios são diferentes em equipes:
-- Compartilhamento de presença sempre está habilitada em equipes para usuários na organização. Configuração de privacidade (decidir quem pode ver a presença) não está disponível em equipes.
-- Presença compartilhamento com todos (inclusive serviços federados) está sempre habilitada para usuários de equipes. Sua lista de contatos (se eles tinham um SfB) é visível em **gt _ contatos de Chat** ou em **chamadas gt _ contatos**.
-- Recursos de cliente não incomodar e inovadora sempre estão habilitados para usuários de equipes.
-- Calendário (inclui OOF & outras informações de calendário) integração está sempre habilitada para usuários em equipes se integrado com o Outlook.
-- O indicador *ausente desde* (se estiver em um ambiente de duplo com Skype for Business) ou *visto pela última vez* está sempre habilitada para usuários de equipes.
+As seguintes configurações de administração do Skype for Business são diferentes no Teams:
+- O compartilhamento de presença sempre está habilitado no Teams para usuários da organização. Privacidade (decidindo quem pode ver a presença) a configuração não está disponível no Microsoft Teams.
+- O compartilhamento de presença com todos (incluindo serviços federados) sempre está habilitado para usuários do teams. Sua lista de contatos (se tivesse uma em SfB) fica visível em **contatos do chat >** ou em **chamadas > contatos**.
+- Cliente não incomodar e recursos revolucionários sempre são habilitados para usuários do teams.
+- Calendário (inclui OOF & outras informações de calendário) a integração sempre é habilitada para usuários do Teams, se integradas ao Outlook.
+- A *última vista* ou *ausente desde* (se em um ambiente duplo com o Skype for Business) indicador sempre é habilitado para usuários do teams.
 
 > [!NOTE]
-> A capacidade de um administrador de equipes de personalizar essas configurações não é suportada no momento.
+> Não há suporte para a capacidade de um administrador de equipe personalizar essas configurações no momento.
 
 
 ## <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 
-Consulte a [coexistência com o Skype for Business](coexistence-chat-calls-presence.md) para obter detalhes sobre como a presença de equipes funciona quando coexistindo com o Skype para negócios. 
+Veja a [coexistência com o Skype for Business](coexistence-chat-calls-presence.md) para obter detalhes sobre como as funções de presença de equipes são coexistentes com o Skype for Business. 

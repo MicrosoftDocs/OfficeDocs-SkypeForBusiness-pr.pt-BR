@@ -17,16 +17,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar políticas e configurações personalizadas do aplicativo para controlar quem em sua organização pode carregar aplicativos personalizados no Microsoft Teams.
-ms.openlocfilehash: 27123e6e943f7dc570098c36732fd0d1ba09e8af
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c1aa7489761fb27f525fbb6eb8f2056ae3dd33c8
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283707"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548657"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Gerencie políticas e configurações de aplicativo personalizado no Microsoft Teams
 
 > [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
+
+> [!NOTE]
+> Para obter o método atual de gerenciamento de aplicativos no Microsoft Teams, consulte [gerenciar as configurações do Microsoft Teams para sua organização](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365).
 
 Como administrador, você pode usar políticas e configurações personalizadas do aplicativo para controlar quem em sua organização pode carregar aplicativos personalizados para o Microsoft Teams. Os administradores decidem quais usuários podem carregar aplicativos personalizados, e administradores e proprietários de equipe podem determinar se equipes específicas em sua organização permitem que aplicativos personalizados sejam adicionados a eles.  
 
@@ -34,7 +37,7 @@ Como administrador, você pode usar políticas e configurações personalizadas 
 
 Os usuários podem adicionar um aplicativo personalizado ao Teams carregando um pacote de aplicativo (em um arquivo. zip) diretamente a uma equipe ou no contexto pessoal. Isso é diferente do modo como os aplicativos são adicionados por meio da loja de aplicativos Teams. Adicionar um aplicativo personalizado carregando um pacote de aplicativo, também conhecido como Sideload, permite que você teste um aplicativo como ele está sendo desenvolvido antes de estar pronto para ser amplamente distribuído. Ele também permite criar um aplicativo para uso interno somente e compartilhá-lo com sua equipe sem enviá-lo para o catálogo de aplicativos do teams na loja de aplicativos do teams.
 
-![carregar um aplicativo personalizado](media/teams-custom-app-policy-and-settings-upload-app.png)
+![Captura de tela mostrando a opção carregar um aplicativo personalizado na App Store](media/teams-custom-app-policy-and-settings-upload-app.png)
 
 ## <a name="custom-app-policy-and-settings"></a>Política e configurações personalizadas do aplicativo
 
@@ -91,7 +94,7 @@ Se essa configuração estiver ativada:
 2. Clique em **configurações**e, em seguida, expanda **permissões do membro**.
 3. Marque ou desmarque a caixa de seleção **permitir que os membros carreguem aplicativos personalizados** .
 
-    ![configuração do aplicativo personalizado da equipe](media/teams-custom-app-policy-and-settings-team.png)
+    ![Captura de tela mostrando a configuração do aplicativo personalizado da equipe](media/teams-custom-app-policy-and-settings-team.png)
 
 ### <a name="org-wide-custom-app-setting"></a>Configuração de aplicativo personalizado em toda a organização
 
@@ -103,7 +106,7 @@ A configuração de aplicativo personalizada em toda a organização, **permitir
 2. Clique em **configurações de aplicativo de toda a organização**.
 3. Em **aplicativos personalizados**, ative ou desative **a interação de permissão com aplicativos personalizados**.
 
-    ![Configuração de aplicativo personalizado em toda a organização](media/teams-custom-app-policy-and-settings-org-wide.png)
+    ![Captura de tela mostrando as configurações personalizadas do aplicativo em toda a organização](media/teams-custom-app-policy-and-settings-org-wide.png)
 
 ## <a name="how-custom-app-policies-and-settings-work-together"></a>Como as configurações e políticas personalizadas do aplicativo funcionam em conjunto
 

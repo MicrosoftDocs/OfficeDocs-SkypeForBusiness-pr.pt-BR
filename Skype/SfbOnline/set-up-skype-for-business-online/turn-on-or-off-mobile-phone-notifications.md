@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: Saiba como ativar ou desativar as notificações do telefone celular para que seus usuários possam receber alertas sobre mensagens de entrada, caixa postal e mensagens de chat perdidas.
-ms.openlocfilehash: 46d1f6d0f28f9236a16a4818359b45909c216f0b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0864fbac9aa4d576cc5c69a405077739a818209c
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285020"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494049"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Ativar ou desativar notificações do telefone celular
 
@@ -35,7 +35,7 @@ Nos telefones Android e Windows Phone, as notificações do Skype for Business a
 ## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>Desative as notificações push para todos os dispositivos Windows Phone ou Apple na sua organização
 <a name="__top"> </a>
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
 
 1. Entre no Office 365.
     

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c7343f294f18d5aaacf01059459524cdd2700a2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 423a12e8fce0c9d7508e97c1f57e17a0ba8a0ff0
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32195021"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493798"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Atribuir proprietários de equipe e membros no Microsoft Teams
 =================================================
@@ -28,9 +28,9 @@ ms.locfileid: "32195021"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Em Microsoft Teams, existem duas funções de usuário: **proprietário** e do **membro**. Por padrão, um usuário que cria uma nova equipe recebe o status de proprietário. Se uma equipe for criada a partir de um Grupo existente do Office 365, as permissões são herdadas.
+No Microsoft Teams há duas funções de usuário: **proprietário** e **membro**. Por padrão, um usuário que cria uma nova equipe recebe o status de proprietário. Se uma equipe for criada a partir de um Grupo existente do Office 365, as permissões são herdadas.
 
-A tabela abaixo mostra a diferença em permissões entre um proprietário e um membro.
+A tabela a seguir mostra a diferença nas permissões entre um proprietário e um membro.
 
 
 |                                   | Proprietário da equipe | Membro da equipe |
@@ -42,21 +42,21 @@ A tabela abaixo mostra a diferença em permissões entre um proprietário e um m
 |          **Adicionar canal**          |    Sim     |    Sim<sup>2</sup>|
 | **Editar nome/descrição do canal** |    Sim     |    Sim<sup>2</sup>|
 |        **Excluir canal**         |    Sim     |    Sim<sup>2</sup>|
-|          **Adicionar membros**          |  Sim<sup>3</sup>   |     Nenhum<sup>4</sup>    |
+|          **Adicionar membros**          |  Sim<sup>3</sup>   |     Sem<sup>4</sup>    |
 |          **Solicitação para adicionar membros**          |  N/D   |     Sim<sup>5</sup>     |
 |           **Adicionar guias**            |    Sim     |    Sim<sup>2</sup>|
 |        **Adicionar conectores**         |    Sim     |    Sim<sup>2</sup>|
 |           **Adicionar bots**            |    Sim     |    Sim<sup>2</sup>|
 
-<sup>1</sup> proprietários de equipe possam criar equipes, a menos que eles tenham sido impedidos de fazer isso. Consulte "Permissões para criar equipes" abaixo.
+<sup>1</sup> os proprietários da equipe podem criar equipes, a menos que elas tenham sido limitadas de fazê-lo. Veja as "permissões para criar equipes" abaixo.
 >
-<sup>2</sup> desses itens podem ser desativados por um proprietário em um nível de equipe, caso em que os membros não terá acesso a eles.
+<sup>2</sup> esses itens podem ser desativados por um proprietário em nível de equipe, caso em que os membros não tenham acesso a eles.
 
-<sup>3</sup> depois de adicionar um membro para uma equipe, um proprietário também pode promover um membro ao status de proprietário. Também é possível para um proprietário a serem rebaixados suas próprias status do membro.
+<sup>3</sup> após adicionar um membro a uma equipe, um proprietário também pode promover um membro ao status de proprietário. Também é possível que um proprietário rebaixe seu próprio status para um membro.
 
-<sup>4</sup> membros da equipe podem adicionar outros membros para uma equipe pública.
+<sup>4</sup> os membros da equipe podem adicionar outros membros a uma equipe pública.
 
-<sup>5</sup> enquanto um membro da equipe não pode adicionar membros diretamente para uma equipe privada, eles podem solicitar uma pessoa a ser adicionado a uma equipe que elas já membro do. Quando um membro solicita uma pessoa a ser adicionado a uma equipe, os proprietários de equipe recebem um alerta que têm uma solicitação pendente que eles podem aceitar ou recusar.
+<sup>5</sup> embora um membro da equipe não possa adicionar membros diretamente a uma equipe privada, ele pode solicitar que alguém seja adicionado a uma equipe da qual eles já são membros. Quando um membro solicita que alguém seja adicionado a uma equipe, os proprietários da equipe recebem um alerta de que eles têm uma solicitação pendente que eles podem aceitar ou recusar.
 
 
 
@@ -67,10 +67,10 @@ A tabela abaixo mostra a diferença em permissões entre um proprietário e um m
 <a name="permissions-to-create-teams"></a>Permissões para criar equipes
 ---------------------------
 
-Por padrão, todos os usuários com uma caixa de correio no Exchange Online têm permissões para criar grupos do Office 365 e, portanto, um time no Microsoft Teams. Você pode ter um controle mais rígido e restringir a criação de novas equipes e, assim, a criação de novos grupos do Office 365 ao delegar direitos de criação e gerenciamento de grupos a um conjunto de usuários. Para obter instruções, consulte [Manage quem pode criar grupos do Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+Por padrão, todos os usuários com uma caixa de correio no Exchange Online têm permissões para criar grupos do Office 365 e, portanto, um time no Microsoft Teams. Você pode ter um controle mais rígido e restringir a criação de novas equipes e, assim, a criação de novos grupos do Office 365 ao delegar direitos de criação e gerenciamento de grupos a um conjunto de usuários. Para obter instruções, consulte [gerenciar quem pode criar grupos do Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 
 ||||
 |---------|---------|---------|
-| ![Ícone de ponto de decisão.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Ponto de decisão         |Todos os usuários do Microsoft Teams terão permissão para criar equipes (recomendado)?         |
-| ![Ícone de próximos passos.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Próximos passos         |Modifique as permissões padrão para quem pode criar grupos do Office 365, caso precise limitar as pessoas que podem criar equipes         |
+| ![Um ícone representando um ponto de decisão](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Ponto de decisão         |Todos os usuários do Microsoft Teams terão permissão para criar equipes (recomendado)?         |
+| ![Um ícone que representa as próximas etapas](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Próximos passos         |Modifique as permissões padrão para quem pode criar grupos do Office 365, caso precise limitar as pessoas que podem criar equipes         |

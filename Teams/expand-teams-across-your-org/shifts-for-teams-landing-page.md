@@ -1,6 +1,6 @@
 ---
 title: Turnos do Teams
-description: Obtenha as diretrizes de admin que necessárias para configurar e gerenciar desloca, a ferramenta de gerenciamento de agendamento, em equipes.
+description: Obtenha as diretrizes de administração necessárias para configurar e gerenciar turnos, a ferramenta de gerenciamento de agendamento no Teams.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -12,18 +12,18 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1d8336719e8858819f81f6e174c20dac09aa429
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aa060ac4707f223ea960bdda3c7bc53a8d134e80
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245904"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494502"
 ---
 # <a name="shifts-for-teams"></a>Turnos do Teams
 
-Equipes dá Firstline trabalhadores em sua organização as ferramentas necessárias para se comunicar e colaborar com eficiência e realizar melhor o trabalho. Aqui, você encontrará as diretrizes de admin que necessárias para configurar e gerenciar desloca, a ferramenta de gerenciamento de agendamento, em equipes.
+O Microsoft Teams dá aos funcionários de primeira mão as ferramentas de que precisam para se comunicar e colaborar de maneira eficaz e fazer o melhor trabalho. Aqui você encontrará as diretrizes de administração necessárias para configurar e gerenciar turnos, a ferramenta de gerenciamento de agendamento no Teams.
 
-### <a name="move-from-staffhub-to-shifts-in-teams"></a>Mover de StaffHub para mudanças na equipes
+### <a name="move-from-staffhub-to-shifts-in-teams"></a>Mover de StaffHub para turnos no Teams
 
 <ul class="panelContent cardsFTitle">
  <li>
@@ -33,11 +33,11 @@ Equipes dá Firstline trabalhadores em sua organização as ferramentas necessá
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="An icon depicting a pointing hand and arrow" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Saiba mais sobre a transição para mudanças na equipes e de aposentadoria StaffHub</h3>
+                        <h3>Saiba mais sobre o StaffHub aposentadoria e a transição para turnos no Teams</h3>
                     </div>
                 </div>
             </div>
@@ -51,11 +51,11 @@ Equipes dá Firstline trabalhadores em sua organização as ferramentas necessá
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="Migration" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="An icon depicting migrating information" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Mover suas equipes StaffHub para mudanças na equipes</h3>
+                        <h3>Mover suas equipes do StaffHub para turnos no Microsoft Teams</h3>
                     </div>
                 </div>
             </div>
@@ -69,11 +69,11 @@ Equipes dá Firstline trabalhadores em sua organização as ferramentas necessá
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="what's new" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="A megaphone icon depicting what's new" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Recursos de trabalhador Firstline chegando ao equipes</h3>
+                        <h3>Recursos de trabalho do primeiro lugar que chegam ao Teams</h3>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@ Equipes dá Firstline trabalhadores em sua organização as ferramentas necessá
     </li>
 </ul>
 
-### <a name="set-up-and-manage-shifts"></a>Configurar e gerenciar desloca
+### <a name="set-up-and-manage-shifts"></a>Configurar e gerenciar turnos
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -92,11 +92,11 @@ Equipes dá Firstline trabalhadores em sua organização as ferramentas necessá
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="checklist" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon depicting managing shifts" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Gerenciar desloca em sua organização</h3>
+                        <h3>Gerenciar turnos em sua organização</h3>
                     </div>
                 </div>
             </div>
@@ -110,11 +110,11 @@ Equipes dá Firstline trabalhadores em sua organização as ferramentas necessá
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/Help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/Help.svg" alt="A question mark icon depicting help" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Desloca ajuda para trabalhadores de Firstline</h3>
+                        <h3>Ajuda de turnos para trabalhadores de primeira mão</h3>
                     </div>
                 </div>
             </div>

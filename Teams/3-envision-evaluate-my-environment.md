@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94138e30f9b98b9671b53ce64bfe67dd98b3216f
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: b655a0b5507a1a4c89ff682b9abe5ac8fa994e83
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344721"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548378"
 ---
 # <a name="evaluate-my-environment"></a>Avaliar meu ambiente
 
@@ -73,7 +73,7 @@ Use as seguintes considerações para avaliar a prontidão da sua organização 
 
 O Microsoft Teams usa a tecnologia de áudio e de vídeo (codecs) que pode se adaptar e, portanto, executar melhor em: a maioria das condições da rede. Para garantir o desempenho ideal e consistente, você deve preparar a rede para o Microsoft Teams.
 
-![Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes] (media/evaluate-my-environment-image1.png "Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco na rede.")
+![Diagrama descrevendo os três componentes de qualidade] (media/evaluate-my-environment-image1.png "Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco na rede.")
 
 ## <a name="key-takeaways"></a>Principais argumentos
 

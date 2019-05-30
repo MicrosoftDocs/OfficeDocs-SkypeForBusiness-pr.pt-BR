@@ -10,50 +10,50 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como obter comentários do usuário e usar o serviço de relatório de integridade em sua adoção de equipes.
+description: Saiba como obter comentários do usuário e usar relatórios de integridade do serviço na adoção do seu Teams.
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02c7958e37f93d254e6f10c09bccc225e8141978
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 89b4c292f17321878c66513f2d25f34c2deb186f
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930384"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494812"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Otimizar os comentários e relatórios de adoção do Microsoft Teams
 
-Certifique-se de que você está obtendo sinais de volta do seu serviço e seus funcionários seguindo nossas práticas recomendadas para comentários do usuário e o relatório de integridade do serviço.  Em alguns casos, você talvez precise direitos de administrador do Office 365 para acessar certos relatórios de uso e integridade do serviço. Se você não for o administrador do Office 365 para sua organização, trabalhe com essa pessoa a ser concedida a função de leitor de relatório no Centro de administração do Microsoft 365 acesse alguns desses dados. 
+Certifique-se de que você está recebendo sinais do seu serviço e de seus funcionários seguindo nossas práticas recomendadas para comentários do usuário e relatórios de integridade do serviço.  Em alguns casos, talvez seja necessário ter direitos de administrador do Office 365 para acessar certos relatórios de uso e integridade do serviço. Se você não for o administrador do Office 365 para sua organização, trabalhe com aquele indivíduo para receber a função de leitor de relatório no centro de administração do Microsoft 365 para acessar alguns desses dados. 
 
-## <a name="incorporating-feedback"></a>Incorporação de comentários 
+## <a name="incorporating-feedback"></a>Como incorporar comentários 
 
-Em toda a sua fase experimento você estará capturando informações sobre como as pessoas usaram o produto e sua experiência. Use essas informações agora para ajustar sua divulgação e programas de treinamento, conforme você planeja expandir usá-las em unidades de negócios. Podem estar relacionada algumas perguntas comuns de exemplo:
+Em toda a fase do experimento, você capturará informações sobre como as pessoas usaram o produto e sua experiência. Use essas informações agora para ajustar seus programas de conscientização e treinamento enquanto planeja expandir seu uso nas unidades de negócios. Algumas perguntas comuns de exemplos podem ser:
 
-- Quando usar essa nova ferramenta junto com a minha tecnologia existente?
-- Quem é aprovado para usar essa ferramenta comigo?
-- É seguro para obter informações altamente confidenciais? 
-- Posso que falar com para saber mais sobre Teams da Microsoft?
+- Quando devo usar essa nova ferramenta juntamente com minha tecnologia existente?
+- Quem está aprovado para usar esta ferramenta comigo?
+- Está seguro para obter informações altamente confidenciais? 
+- Com quem falar com para saber mais sobre o Microsoft Teams?
 - Algo não está funcionando. Como posso obter ajuda?
 
 ## <a name="invest-in-your-champions"></a>Investir em seus campeões
 
-Como se preparar para dimensionar seu uso do Microsoft Teams, recrutamento campeões adicionais em cada unidade de negócios ou grupo que você estiver expandindo a. Registrar essas pessoas entusiasmadas em seu programa de treinamento de serviço e padronizar como e quando você atende com eles.
+Ao preparar-se para dimensionar o uso do Microsoft Teams, recrutar especialistas adicionais em cada unidade de negócios ou grupo para o qual está expandindo. Registre essas pessoas entusiasmadas em seu programa de treinamento de serviço e padronize como e quando você se reunir com elas.
  
-Seja claro seu design do programa campeões seus funcionários que receberá e quais são esperado dar se eles se tornam campeões. Requisitos de programa comuns são agendadas meu horário de trabalho, participação em chamadas de comunidade mensalmente e participação em comunidades online internas para suportar sua transição para essas novas experiências.  
+Fique claro em seu programa de campeões projete o que seus funcionários receberão e o que eles esperam conceder se se tornarem especialistas. Os requisitos comuns do programa são horários agendados do Office, participação nas chamadas mensais da Comunidade e participação em comunidades online internas para dar suporte à transição para essas novas experiências.  
 
-Prática recomendada: Espera uma reunião de equipes mensal para os representantes internos. Divida sua agenda entre ensinar novos recursos, lidando com comentários e fornecendo as ferramentas de autoatendimento para sua comunidade do funcionário.
+Prática recomendada: Segure uma reunião de equipe mensal para seus campeões internos. Divida sua agenda entre ensinar novos recursos, solucionando comentários e fornecendo ferramentas de autoatendimento para a sua comunidade de funcionários.
 
-Prática recomendada: representantes média do seu departamento de suporte interno ou assistência técnica de TI ingressar em sua comunidade campeões para manter-se atualizado com novas informações sobre o uso de equipes. 
+Prática recomendada: os representantes da ave do seu departamento de suporte interno ou da assistência técnica de ti unem-se à sua comunidade de especialistas para ficar atualizado sobre novas informações sobre o uso de suas equipes. 
 
-## <a name="service-reporting"></a>Serviço de relatório
+## <a name="service-reporting"></a>Relatórios do serviço
 
-Existem três tipos de relatórios que você devem analisar como implantar e adotar Teams da Microsoft:
+Há três tipos de relatório que você deve revisar ao implantar e adotar o Microsoft Teams:
 
-- [Integridade do serviço](https://status.office365.com/) – do Office 365 e o seu suporte interno de TI departamento.
-- [Atividade do serviço](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – do Office 365 exibir [relatórios sobre as equipes da Microsoft](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). Você também pode usar informações de outros sistemas dentro da sua organização.
-- Satisfação de serviço – coletadas dos fóruns de comunidade interno e pesquisas em experiências específicas
+- [Integridade do serviço](https://status.office365.com/) – do Office 365 e do seu departamento de suporte interno de ti.
+- [Atividade do serviço](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – do Office 365 Veja [relatórios no Microsoft Teams](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). Você também pode usar informações de outros sistemas dentro da sua organização.
+- Satisfação do serviço – coletada de fóruns internos da Comunidade e pesquisas sobre experiências específicas
 
-![Ícone de etapas próximo](media/teams-adoption-next-icon.png) próximo: [unidade divulgação e implementar o treinamento](teams-adoption-drive-awareness.md)
+![Um ícone que representa a próxima](media/teams-adoption-next-icon.png) etapa a seguir: [reconhecimento de unidade e treinamento de implementação](teams-adoption-drive-awareness.md)

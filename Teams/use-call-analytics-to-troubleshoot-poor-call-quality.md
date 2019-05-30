@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Use os detalhes da análise de chamadas sobre dispositivos, redes e conectividade para solucionar problemas do usuário com o Microsoft Teams e chamadas e reuniões do Skype for Business.
-ms.openlocfilehash: 2255afa0c2af8e1c672c2830009cfb34921ceed9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 952cd0f34221f0a7e1203f8ff78edf2abdadb9b1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288192"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548976"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada
 
@@ -64,19 +64,19 @@ Veja suas equipes e o administrador do Skype for Business se precisar de ajuda c
     
 3. No **painel**, na **pesquisa do usuário**, comece a digitar o nome ou o endereço SIP do usuário cujas chamadas você deseja solucionar ou selecione **exibir usuários** para ver uma lista de usuários.
     
-    ![Captura de tela da caixa de pesquisa de usuário da análise de chamadas no centro de administração do Microsoft Teams.](media/use-call-analytics-to-troubleshoot-image-1.png)
+    ![Captura de tela da caixa de pesquisa de usuário da análise de chamadas](media/use-call-analytics-to-troubleshoot-image-1.png)
   
 4. Selecione o usuário na lista.
 
 5. Selecione **histórico de chamadas**e, em seguida, selecione a chamada ou a reunião para a qual você deseja solucionar o problema.
     
-    ![A captura de tela mostra a página de histórico de chamadas para um usuário.](media/use-call-analytics-to-troubleshoot-image-2.png)
+    ![Captura de tela da página Histórico de chamadas de um usuário.](media/use-call-analytics-to-troubleshoot-image-2.png)
   
 6. Selecione a guia **avançado** e, em seguida, procure por itens amarelos e vermelhos que indicam problemas com a baixa qualidade da chamada ou problemas de conexão.
     
     Nos detalhes da sessão de cada chamada ou reunião, os problemas secundários aparecem em amarelo. (Por exemplo, na captura de tela a seguir, os valores estão em amarelo para tremulação média, tremulação máx e taxa de perda de pacotes média.) Se algo for amarelo, ele estará fora do intervalo normal e poderá estar contribuindo para o problema, mas é improvável que seja a principal causa do problema. Se algo estiver vermelho, é um problema significativo, e provavelmente é a principal causa da baixa qualidade da chamada para esta sessão. 
     
-    ![A captura de tela mostra a guia Avançado do histórico de chamadas de um usuário ](media/use-call-analytics-to-troubleshoot-image-3.png)
+    ![Captura de tela da guia Avançado do histórico de chamadas de um usuário ](media/use-call-analytics-to-troubleshoot-image-3.png)
   
 Em casos raros, os dados de qualidade da experiência não são recebidos para sessões de áudio. Geralmente, isso é causado pelo cancelamento de chamada e pela conexão com o cliente sendo encerrado. Quando isso ocorre, a classificação da sessão não está **disponível**.
   

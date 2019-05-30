@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b02b22ff6b38a432260b98fbfd79272448ed7a5
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 972b997a7258ce4961fe4f94af37595846aac19b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433139"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548880"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar a QoS (qualidade de serviço) no Microsoft Teams
 
@@ -70,7 +70,7 @@ Ao implementar o QoS, você define várias filas usando um dos vários recursos 
 
 _Figura 2. Exemplos de filas de QoS_
 
-![Ilustração de filas de QoS] (media/Qos-in-Teams-Image2.png "A largura de banda total disponível é dividida entre várias filas, áudio, vídeo e outros tipos de tráfego, que receberam prioridades diferentes.")
+![Ilustração de filas de QoS e divisão de largura de banda] (media/Qos-in-Teams-Image2.png "A largura de banda total disponível é dividida entre várias filas, áudio, vídeo e outros tipos de tráfego, que receberam prioridades diferentes.")
 
 Uma simples analogia é que a QoS cria "pistas carona" virtuais na sua rede de dados, assim alguns tipos de dados nunca ou raramente encontram um atraso. Depois de criar essas pistas, você pode ajustar o tamanho relativo e gerenciar com muito mais eficiência a largura de banda da conexão que tem e ainda fornecer experiências de nível empresarial para os usuários da sua organização.
 

@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Saiba mais sobre como gerenciar contas de recursos no Microsoft Teams
-ms.openlocfilehash: a136a91fc4667ac71f6c6798ce4a0953aa0c32a6
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: a5502ccfe4a464f96175127623d5d996b6ea4921
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404298"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548235"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
@@ -82,21 +82,26 @@ Uma conta de recurso que não exija um número de telefone pode omitir as etapas
 
 Depois de comprar uma licença do sistema de telefonia e um plano de chamada usando o centro de administração do Microsoft Teams, navegue até > **contas de recursos**de **configurações de toda a organização**. 
 
-![ficheiro](media/r-a-master.png)
+![Captura de tela da página contas do recurso](media/r-a-master.png)
 
-![número 1](media/sfbcallout1.png)
+![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
 
 Para criar uma nova conta de recurso, clique em **+ nova conta**. No pop-up, preencha o nome para exibição e o nome de usuário da conta do recurso (o nome do domínio deve ser preenchido automaticamente) e clique em **salvar**.
 
-![conta do recurso](media/res-acct.png)
+![Captura de tela das opções da nova conta do recurso](media/res-acct.png)
 
 Em seguida, aplique uma licença para a conta do recurso no centro de administração do O365, conforme descrito em [atribuir licenças a usuários no Office 365 para empresas](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
 
+### <a name="edite-resource-account-name"></a>Editar nome da conta do recurso
+![Ícone do número 2, fazendo referência a um texto explicativo na](media/sfbcallout2.png) captura de tela anterior, você pode editar o nome de exibição da conta do recurso usando a opção **Editar** .  Clique em **salvar** quando terminar.
+![Captura de tela da opção Editar conta de recurso](media/r-a-edit.png)
+
 ### <a name="assignunassign-phone-numbers-and-services"></a>Atribuir/cancelar a atribuição de números de telefone e serviços
 
-![número 3](media/sfbcallout3.png) depois de criar a conta do recurso e atribuir a licença, você pode clicar em **atribuir/Cancelar atribuição** para atribuir um número de serviço de plano de chamada à conta do recurso ou atribuir a conta do recurso a um atendedor automático ou à fila de chamadas que Já existe. Só é possível fazer a atribuição de um número de roteamento direto usando cmdlets. Se a fila de chamadas ou o atendedor automático ainda precisar ser criado, você poderá vincular a conta do recurso enquanto a cria. Clique em **salvar** quando terminar.
+![Ícone do número 3, fazendo referência a um texto explicativo na](media/sfbcallout3.png) captura de tela anterior depois de criar a conta do recurso e atribuir a licença, você pode clicar em **atribuir/Cancelar atribuição** para atribuir um número de serviço do plano de chamada à conta do recurso ou atribuir a conta do recurso para um atendedor automático ou fila de chamadas que já existe. Só é possível fazer a atribuição de um número de roteamento direto usando cmdlets. Se a fila de chamadas ou o atendedor automático ainda precisar ser criado, você poderá vincular a conta do recurso enquanto a cria. Clique em **salvar** quando terminar.
 
 Use o cmdlet a seguir para atribuir um número de roteamento direto: 
+
 ``` Powershell
 Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
 ```
@@ -104,10 +109,7 @@ Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhone
 > [!IMPORTANT]
 > Se o seu locatário não tiver comprado uma licença do sistema de telefonia e um plano de chamadas, uma verificação interna causará uma falha quando você tentar atribuir o número de telefone à conta do recurso. Você não poderá atribuir o número ou associar a conta do recurso a um serviço.
 
-![atribuir conta de recurso](media/r-a-assign.png)
-
-![número 2](media/sfbcallout2.png) você pode editar o nome de exibição da conta do recurso usando a opção de **edição** .  Clique em **salvar** quando terminar.
-![editar conta do recurso](media/r-a-edit.png)
+![Captura de tela das opções atribuir/Cancelar atribuição](media/r-a-assign.png)
 
 ## <a name="create-a-resource-account-in-powershell"></a>Criar uma conta de recurso no PowerShell
 

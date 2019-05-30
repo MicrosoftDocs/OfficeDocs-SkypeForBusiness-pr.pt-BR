@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Saiba como obter novos, portar ou transferir números existentes para o Teams ou o Skype for Business e como mostrar as alterações para os usuários. '
-ms.openlocfilehash: 4991ef4f9cbf32c7b87ad621b1be1554cc65406c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bb71585464eb86b30024cef0a3f55fb14f648a75
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285508"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494646"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obter números de telefone para seus usuários
 
@@ -47,13 +47,13 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Obtenha novos números de telefone para seus usuários
 
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Vá para o > **portal herdado**do **centro de administração do Microsoft Teams**.
     
-3. No painel de navegação esquerdo, navegue para **Voz** > **Números de telefone**, clique em **Adicionar novo número** ![Adicionar botão](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png) e depois clique em **Novos números de usuário**.
+3. No painel de navegação esquerdo, vá para**números de telefone**de **voz** > , clique em **Adicionar novo número** ![o botão Adicionar,](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)que é um ícone de adição e, em seguida, clique em **novos números de usuário**.
     
     > [!IMPORTANT]
     > Para ver a opção de **voz** no painel de navegação à esquerda no centro de administração do Skype for Business, primeiro você deve comprar pelo menos uma **licença do Enterprise E5**, uma licença complementar do **sistema de telefonia** ou uma licença do suplemento de conferência de **áudio** .
@@ -86,7 +86,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
     
 ## <a name="show-phone-numbers-for-your-organization"></a>Exibir os números de telefone de sua empresa
 
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     

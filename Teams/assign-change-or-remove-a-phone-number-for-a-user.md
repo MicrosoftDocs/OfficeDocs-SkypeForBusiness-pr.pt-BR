@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Saiba como atribuir, alterar ou remover um número de telefone comercial para suas equipes ou usuários do Skype for Business para que empresas e clientes externos possam fazer chamadas.
-ms.openlocfilehash: f9792edf76d5d86a562516aa620bfbb62d26fdd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ea2135a095a60d6da37ce4db0fb443f2e9a74154
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286281"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493894"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Atribuir, alterar ou remover o número de telefone de um usuário
 
@@ -54,7 +54,7 @@ Para saber como obter Planos de Chamadas no Office 365 e quanto custam, consulte
   
  ## <a name="assign-a-phone-number-to-a-user"></a>Atribuir um número de telefone a um usuário
  
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
  
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -86,7 +86,7 @@ Para saber como obter Planos de Chamadas no Office 365 e quanto custam, consulte
 
  ## <a name="change-a-phone-number-for-a-user"></a>Alterar um número de telefone para um usuário
  
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
  
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -110,7 +110,7 @@ Para saber como obter Planos de Chamadas no Office 365 e quanto custam, consulte
 
  ## <a name="remove-a-phone-number-from-a-user"></a>Remover um número de telefone de um usuário
  
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
  
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     

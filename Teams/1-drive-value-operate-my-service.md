@@ -15,12 +15,12 @@ description: Tarefas e atividades necessárias para o gerenciamento de serviços
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 293406bbc8fe8cb97917908bc14f83129ff1bb66
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: d40bbeaf0876071502d187826ecc702c9175b2da
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432868"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494292"
 ---
 # <a name="operate-my-service"></a>Operar meu serviço
 
@@ -38,7 +38,7 @@ O gerenciamento de serviços abrange todas as atividades e os processos envolvid
 
 As tarefas e atividades neste guia são agrupadas em oito categorias, conforme mostrado no diagrama a seguir. Cada uma dessas categorias será expandida nas seções a seguir.
 
-![Um diagrama que mostra uma lista de categorias de tarefas e atividades que o gerenciamento de serviços para equipes compreende. O diagrama também descreve que o gerenciamento de serviços é basicamente uma tarefa de cliente.] (media/operate-my-service-image1.png "Um diagrama que mostra uma lista de categorias de tarefas e atividades que o gerenciamento de serviços para equipes compreende. O diagrama também descreve que o gerenciamento de serviços é basicamente uma tarefa de cliente.")
+![Um diagrama que mostra uma lista de categorias de tarefas e atividades] (media/operate-my-service-image1.png "Um diagrama que mostra uma lista de categorias de tarefas e atividades que o gerenciamento de serviços para equipes compreende. O diagrama também descreve que o gerenciamento de serviços é basicamente uma tarefa de cliente.")
 
 
 <table>
@@ -315,7 +315,7 @@ NPS é um índice, que varia de – 100 a 100, que mede a disposição do client
 
 -   Entre 1 e 6 são desviadores: clientes insatisfeitos que podem danificar seu serviço e impedir o crescimento.
 
-![Este diagrama demonstra a escala do NPS. Ele mostra que as classificações de 0 a 6 são detratores, 7 a 8 são passivos e 9 a 10 são promodores.] (media/operate-my-service-image2.png "Este diagrama demonstra a escala do NPS. Ele mostra que as classificações de 0 a 6 são detratores, 7 a 8 são passivos e 9 a 10 são promodores.")
+![Um diagrama que demonstra a escala do NPS] (media/operate-my-service-image2.png "Este diagrama demonstra a escala do NPS. Ele mostra que as classificações de 0 a 6 são detratores, 7 a 8 são passivos e 9 a 10 são promodores.")
 
 Embora o número de base do NPS seja útil, você obterá o valor máximo de análise de comentários do usuário. Elas o ajudarão a entender por que o usuário faria (ou não) recomendaria equipes para outras pessoas. Esses comentários podem fornecer feedback importante para ajudar as equipes de gerenciamento de projeto ou serviço a entender os ajustes necessários para fornecer um serviço de qualidade.
 
@@ -551,7 +551,7 @@ Por padrão, todos os usuários com uma caixa de correio no Exchange Online têm
 
 O [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide) inclui um conjunto de atividades que avaliam e fornecem orientação de correção em áreas importantes que têm o maior impacto na melhoria da experiência do usuário, conforme ilustrado a seguir.
 
-![As principais áreas a serem examinadas durante uma revisão de qualidade da experiência: áudio, confiabilidade e resultados da pesquisa de usuários.] (media/plan-my-service-management-image2.png "As principais áreas a serem examinadas durante uma revisão de qualidade da experiência: áudio, confiabilidade e resultados da pesquisa de usuários.")
+![Diagrama de áreas a serem examinadas durante uma revisão de qualidade da experiência] (media/plan-my-service-management-image2.png "As principais áreas a serem examinadas durante uma revisão de qualidade da experiência: áudio, confiabilidade e resultados da pesquisa de usuários.")
 
 Ao avaliar continuamente e corrigir as áreas descritas no guia, você pode reduzir o potencial de afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrada em uma implantação pode ser agrupada nas seguintes categorias:
 

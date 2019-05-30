@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba quais informações são enviadas automaticamente para os usuários por e-mail quando as configurações de conferência discada forem alteradas no Skype for Business online. '
-ms.openlocfilehash: 7f16e4dfdb108111767f173295044ca4bdfc0475
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: acdc16a1af2666dcb84599fae31a910be83ac08f
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275619"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494282"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Emails enviados para usuários quando as configurações forem alteradas no Skype for Business Online
 
@@ -111,7 +111,7 @@ Ao desativar o envio de emails para os usuários, o email não será enviado mes
   
 Por padrão, os emails serão enviados aos seus usuários, mas se você quiser impedir que eles recebam emails para videoconferências, você pode usar o centro de administração do Skype for Business ou o Windows PowerShell. 
  
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png)  **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png)do Skype for Business**usando o centro de administração do Skype for Business**  
     
 1. No **centro de administração do Skype for Business**, no painel de navegação à esquerda, vá para **conferência** > de áudio**configurações da ponte da Microsoft**.
     

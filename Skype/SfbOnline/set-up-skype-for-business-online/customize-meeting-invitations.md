@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Personalize convites de reunião do Skype com logotipos gráficos, ajuda e URLs legais e texto de rodapé. '
-ms.openlocfilehash: c8b31aa579edb62e9b6aec65bda5adde10726deb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6d16bf7f7d41f2706ccefd217b2d810c37a9d0f3
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285290"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494115"
 ---
 # <a name="customize-meeting-invitations"></a>Personalizar convites de reunião
 
@@ -45,7 +45,7 @@ Como administrador, você pode garantir que todos os convites para reunião do S
 ## <a name="customize-your-meeting-invitations"></a>Personalizar seus convites de reunião
 <a name="__top"> </a>
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     

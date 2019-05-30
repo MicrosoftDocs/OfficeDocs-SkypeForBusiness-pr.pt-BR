@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como controlar se as equipes particulares podem ser descobertas pelos usuários do Microsoft Teams por meio de sugestões na Galeria de equipe e nos resultados da pesquisa.
-ms.openlocfilehash: 55f127ff4dc9e5e0926e606c141b78f65c799de0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: faae4c53f4fa17668ea69a783211e7ebe01bd4d6
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304398"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494622"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Gerenciar a descoberta de equipes particulares no Microsoft Teams
 
@@ -34,7 +34,7 @@ Administradores e proprietários de equipe podem controlar se as equipes particu
 
 A maioria das organizações tem os seguintes tipos de equipes-equipes públicas, equipes privadas e equipes privadas não detectáveis.
 
-![Galeria de equipes](media/private-team-discovery-team-gallery.png)
+![Captura de tela da Galeria de equipes](media/private-team-discovery-team-gallery.png)
 
 ### <a name="public-teams"></a>Equipes públicas
 
@@ -52,7 +52,7 @@ As equipes privadas não detectáveis só podem ser Unidas quando o proprietári
 
 Quando um proprietário da equipe cria uma equipe particular, ele pode optar por torná-lo detectável Configurando a configuração de descoberta da equipe. Por padrão, novas equipes particulares são pesquisáveis e detectáveis. Se o proprietário da equipe não quiser que a equipe privada apareça nos resultados da pesquisa e sugestões, ele pode desativar a configuração selecionando **Alterar configuração** ao lado **desta equipe pode ser pesquisada e detectável**.
 
-![configuração de descoberta para novas equipes particulares](media/private-team-discovery-new-team.png)
+![Captura de tela da configuração de descoberta para novas equipes particulares](media/private-team-discovery-new-team.png)
 
 ## <a name="set-whether-existing-private-teams-are-discoverable"></a>Definir se as equipes privadas existentes são detectáveis
 
@@ -62,7 +62,7 @@ Os proprietários da equipe podem definir a configuração de descoberta para um
 
 No Teams, vá para a equipe particular, clique em **mais opções ̇ ̇ ̇** > **Gerenciar equipe**. Na guia **configurações** , expanda **descoberta de equipe**e desmarque ou marque a caixa de seleção **habilitar** a descoberta.
 
-![configuração de descoberta para equipes particulares existentes](media/private-team-discovery-existing-team.png)
+![Captura de tela da configuração de descoberta para equipes privadas existentes](media/private-team-discovery-existing-team.png)
 
 ### <a name="using-powershell-coming-soon"></a>Usando o PowerShell (disponível em breve)
 

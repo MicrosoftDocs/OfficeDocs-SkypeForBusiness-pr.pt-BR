@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 039838172bf155d5c050fbb59fd4cc260fdbb4c3
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 5f69760ed05f27a7fe0396c4c5d17246bebc2d1d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33864893"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494598"
 ---
 > [!NOTE]
 > Analise as informações a seguir para entender como funciona o bate-papo, equipes, canais e aplicativos no Teams. Em seguida, vá para [Implantar bate-papo, equipes, canais e aplicativos no Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para ver uma lista de decisões importantes para a implantação do Teams.
@@ -41,11 +41,11 @@ Vamos começar pensando em como o Microsoft Teams permite que equipes individuai
     
     Uma equipe foi designada para reunir um grupo de pessoas que trabalham em parceria para realizar suas tarefas. O Teams pode ser dinâmico para um trabalho baseado em um projeto (por exemplo, lançamento de um produto, criação de uma sala de guerra digital), assim como para trabalhos contínuos a fim de refletir a estrutura interna da empresa (por exemplo, localizações de departamentos e escritórios). Conversas, arquivos e notas nos canais de equipe são visíveis apenas para os membros da equipe.
 
--   **Canais** são seções exclusivas dentro de uma equipe para manter as conversas organizadas por tópicos, projetos e disciplinas específicas — o que funcionar melhor para a sua equipe! Arquivos que você compartilha em um canal (na guia arquivos) são armazenados no SharePoint. Para saber mais, leia [como o SharePoint da Online e do OneDrive for Business interagem com equipes](SharePoint-OneDrive-interact.md).
+-   **Canais** são seções exclusivas dentro de uma equipe para manter as conversas organizadas por tópicos, projetos e disciplinas específicas — o que funcionar melhor para a sua equipe! Os arquivos que você compartilha em um canal (na guia arquivos) são armazenados no SharePoint. Para saber mais, leia [como o SharePoint Online e o onedrive for Business interagem com o](SharePoint-OneDrive-interact.md)Microsoft Teams.
 
-    -   Os canais das equipes são lugares onde todos na equipe podem conversar abertamente. Bate-papos privadas só ficam visíveis para as pessoas do bate-papo (e arquivos que você compartilha em um chat são armazenados no OneDrive for Business). 
+    -   Os canais das equipes são lugares onde todos na equipe podem conversar abertamente. Os chats privados são visíveis apenas para as pessoas no chat (e os arquivos que você compartilha em um chat são armazenados no OneDrive for Business). 
 
-    -   Os canais são mais valiosos quando estendidos com aplicativos que incluem guias, conectores e bots que aumentam seu valor para os membros da equipe. Para saber mais, consulte [Apps, bots, conectores & em equipes](deploy-apps-microsoft-teams-landing-page.md).
+    -   Os canais são mais valiosos quando estendidos com aplicativos que incluem guias, conectores e bots que aumentam seu valor para os membros da equipe. Para saber mais, consulte [aplicativos, bots, conectores do & no](deploy-apps-microsoft-teams-landing-page.md)Microsoft Teams.
 
 Veja este pequeno vídeo para saber mais sobre as práticas recomendadas para criar equipes e canais.
 
@@ -79,7 +79,7 @@ Seguem abaixo alguns exemplos funcionais de como diferentes tipos de usuários p
 
 O Microsoft Teams é ótimo para quebrar os silos organizacionais e promover equipes multifuncionais, de modo a incentivar seus usuários a pensar em equipes funcionais, e não em silos organizacionais.
 
-|Tipos de equipe  |Canais potenciais  |Aplicativos (Guias ![Ícone de Guias.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Conectores ![Ícone de Conectores.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Ícone de Bots.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|Tipos de equipe  |Canais potenciais  |Aplicativos (Guias ![Um ícone que representa uma pasta com uma guia](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Conectores ![Um ícone que representa a conexão de blocos](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Um ícone que representa um robô pequeno](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |Vendas     |Reunião anual de vendas<br></br> Avaliação trimestral de negócios<br></br> Avaliação mensal do pipeline de vendas<br></br> Conjunto de estratégias de vendas |Power BI<br></br>Trello<br></br>CRM<br></br>Resumir bot         |
 |Relações Públicas     |Notas de imprensa<br></br>Novidades e atualizações<br></br>Verificação de fatos         |RSS Feed<br></br>Twitter         |
@@ -94,7 +94,7 @@ O Microsoft Teams é ótimo para quebrar os silos organizacionais e promover equ
 
 É possível criar equipes alinhadas com a estrutura organizacional.  O melhor uso desse recurso é para líderes que desejam motivar seu pessoal, ter análises específicas da equipe, esclarecer os processos de integração de funcionários, discutir planos da força de trabalho e aumentar a visibilidade em uma força de trabalho diversificada.  
 
-![Diagrama da hierarquia de como equipes e canais estão organizados no Microsoft Teams.](media/overview-of-teams-and-channels-image1.png)
+![Diagrama de hierarquia de equipes e canais organizados no Microsoft Teams.](media/overview-of-teams-and-channels-image1.png)
 
 ## <a name="org-wide-teams"></a>Equipes de toda a organização
 

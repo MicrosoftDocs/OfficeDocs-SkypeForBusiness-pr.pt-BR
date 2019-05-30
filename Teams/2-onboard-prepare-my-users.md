@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84e7dde2da777fbc0b3c5fd120d4ee88b1f98ea1
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 491a3cb7bd1a3b240e88bf90a721678aaaae1410
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432609"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548386"
 ---
 # <a name="prepare-my-users"></a>Preparar meus usuários
 
@@ -125,7 +125,7 @@ Para cada grupo persona, discuta o seguinte com sua equipe de projeto:
 
 A imagem a seguir é um exemplo de uma tabela persona.
 
-![Tabela listando detalhes de persona] (media/prepare-my-users-image2.png "Tabela listando pessoalmente as pessoas com suas funções comuns e as dependências da solução de comunicação e colaboração. O executivo persona é realçado com detalhes sobre o perfil (dia na vida), além dos recursos, dispositivos e treinamentos de que você precisa de um executivo.")
+![Tabela de valores listando detalhes de persona] (media/prepare-my-users-image2.png "Tabela listando pessoalmente as pessoas com suas funções comuns e as dependências da solução de comunicação e colaboração. O executivo persona é realçado com detalhes sobre o perfil (dia na vida), além dos recursos, dispositivos e treinamentos de que você precisa de um executivo.")
 
 Para cada caso de uso, discuta o seguinte com sua equipe de projeto:
 

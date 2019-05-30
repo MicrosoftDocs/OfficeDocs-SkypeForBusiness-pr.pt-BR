@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b6f96b2f3dd7993d6cb3d5b732e0796a215ebae
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 25f4bb41ed5aa5c99c6edbc3a8daf70af78e882d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344645"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494414"
 ---
 # <a name="plan-my-service-management"></a>Planejar meu gerenciamento de serviços
 
@@ -35,7 +35,7 @@ O gerenciamento do serviço é um tema amplo, que abrange as operações do serv
 O gerenciamento do serviço compreende todas as atividades e processos envolvidos no gerenciamento do Microsoft Teams de ponta a ponta. Alguns componentes do gerenciamento de serviços (os componentes de infraestrutura que o próprio serviço do Office 365 abrange) são de responsabilidade da Microsoft, ao passo que o cliente é responsável por gerenciar os diversos aspectos do Teams, a rede e os pontos de extremidade que fornecem.
 Para ver uma discussão completa sobre a responsabilidade do cliente pelo gerenciamento de serviços do Teams e como ele se relaciona com os principais componentes que sustentam a qualidade da experiência do usuário, consulte [Planejar gerenciamento de serviços e qualidade](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
 
-![Diagrama dos três componentes da qualidade: serviço, rede e pontos de extremidade do Office 365, e como o gerenciamento de serviços se sobrepõe a todos os três.](media/plan-my-service-management-image1.png "Diagrama dos três componentes da qualidade: serviço, rede e pontos de extremidade do Office 365, e como o gerenciamento de serviços se sobrepõe a todos os três.")
+![Diagrama dos três componentes de qualidade] (media/plan-my-service-management-image1.png "Diagrama dos três componentes de qualidade--serviço do Office 365, rede e pontos de extremidade--e como o gerenciamento de serviços se sobrepõe a todos os três.")
 
 <!--ENDOFSECTION-->
 
@@ -92,7 +92,7 @@ As tarefas e atividades relacionadas à função estão documentadas no Guia de 
 
 O Guia de revisão da experiência da qualidade tem um conjunto de atividades que avalia e oferece orientações de remediação em áreas importantes que tenham o maior impacto para melhorar a experiência do usuário, conforme mostrado na figura abaixo.
 
-![Principais áreas a serem examinadas na revisão da experiência da qualidade: áudio, confiabilidade e resultados da pesquisa com usuários](media/plan-my-service-management-image2.png "Principais áreas a serem examinadas na revisão da experiência da qualidade: áudio, confiabilidade e resultados da pesquisa com usuários.")
+![Ilustração de áreas importantes a serem examinadas durante uma análise da experiência de qualidade] (media/plan-my-service-management-image2.png "As principais áreas a serem examinadas durante uma revisão da experiência de qualidade: áudio, confiabilidade e resultados da pesquisa de usuários.")
 
 Por meio da avaliação e correção contínuas das áreas descritas neste documento, você pode reduzir seu potencial de afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrada em uma implantação pode ser agrupada nas seguintes categorias:
 

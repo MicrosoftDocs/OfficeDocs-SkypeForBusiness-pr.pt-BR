@@ -1,12 +1,12 @@
 ---
-title: Preparar a atualização Skype para a Microsoft Teams negócios | Planejar a adoção de usuário
+title: Preparar a atualização do Skype for Business para o Microsoft Teams | Planejar a adoção do usuário
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Avalie a preparação da sua organização para aceitar alteração e preparar um plano para obtenção de usuários prontos para atualizar do Skype para negócios para o Microsoft Teams
+description: Avalie a preparação da sua organização para aceitar alterações e prepare um plano para preparar os usuários para a atualização do Skype for Business para o Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,28 +15,28 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23d09a1d580cf933994fb116dd4df9c7e450f274
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 67ba6c1358273b78aee06861ea7cc3484f52666b
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885571"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494542"
 ---
-![Estágios da atualização jornada, com ênfase na etapa de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação do usuário")
+![Estágios da jornada da atualização, com ênfase no estágio de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação do usuário")
 
-Este artigo faz parte do estágio de preparação de usuários de sua atualização jornada, uma atividade que você concluir em paralelo com o estágio de preparação técnica. Antes de continuar, confirme que você tiver concluído essas atividades desde estágios anteriores:
+Este artigo faz parte do estágio de preparação do usuário da jornada da atualização, uma atividade que você conclui em paralelo com o estágio de preparação técnica. Antes de prosseguir, confirme que você concluiu essas atividades dos estágios anteriores:
 
-- [Inscrito seus participantes do projeto](upgrade-enlist-stakeholders.md)
-- [Definido o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
-- [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
-- [Escolhido sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Listamos os participantes do projeto](upgrade-enlist-stakeholders.md)
+- [Definiu o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Compreendemos a coexistência e interoperabilidade do Skype for Business e do teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Escolhido a jornada da atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="prepare-your-organization"></a>Prepare a sua organização
+# <a name="prepare-your-organization"></a>Preparar sua organização
 
-Para obter o valor máximo de equipes, os usuários devem realmente usá-lo, mas obtendo usuários alterar a maneira como eles funcionam nem sempre é fácil. Demorando para entender os usuários e projetar o plano de preparação direita pode ajudar a facilitar a alteração e acelerar a adoção das equipes. Essas atividades devem ser concluídas em paralelo com a preparação da preparação técnica:
+Para obter o valor máximo do Teams, os usuários devem realmente usá-lo, mas fazer com que os usuários alterem a maneira como o trabalho nem sempre é fácil. Dedicar um tempo para entender seus usuários e projetar o plano de preparação certo pode ajudar a facilitar a alteração e acelerar a adoção de equipes. Essas atividades devem ser concluídas em paralelo com a preparação para preparação técnica:
 
-- [Avaliando organizacional alterar preparação](https://aka.ms/OrgReadiness): Isso inclui a compreensão quem são os usuários, como eles usará a nova tecnologia e como prontamente eles se adaptar para alterar. Isso também é uma oportunidade para identificar os perfis de usuário específicos que beneficiam de inclusão focado.
-- [Preparar um plano de preparação do usuário](https://aka.ms/UserReadinessPlan): consistindo em atividades de suporte, treinamento e divulgação, seu plano de preparação deve abranger sua base de usuários ampla e o direcionado perfis, conforme identificado no artigo [como avaliar a preparação de alteração](https://aka.ms/OrgReadiness) .
+- [Avaliando a preparação das alterações organizacionais](https://aka.ms/OrgReadiness): isso inclui noções básicas sobre quem são seus usuários, como eles usarão a nova tecnologia e a rapidez com que se adaptam às mudanças. Isso também é uma oportunidade de identificar perfis de usuário específicos que se beneficiariam do integração com o foco.
+- [Preparando um plano de preparação do usuário](https://aka.ms/UserReadinessPlan): consistindo em atividades de conscientização, treinamento e suporte, seu plano de preparação deve atender tanto à base de usuário ampla quanto a perfis direcionados, conforme identificado no artigo avaliando a [preparação das alterações](https://aka.ms/OrgReadiness) .
 
 > [!Tip]
-> Baixe o [Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit) para materiais de preparação do usuário de modelo, como communications e pesquisas de usuário, além de um plano de teste piloto e um exemplo de plano de projeto de atualização.
+> Baixe o [Kit de sucesso da atualização](https://aka.ms/UpgradeSuccessKit) para materiais de preparação do usuário do modelo, como comunicações e pesquisas de usuários, além de um plano de projeto de atualização de exemplo e um plano de teste piloto.

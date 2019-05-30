@@ -10,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: A Microsoft está desativando o serviço online de Unificação de mensagens do Exchange (ExchUMO) em fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: d959a4b3ff04a8f2de9182d0df9cc5f63941a5dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ba9df18478057e9c32b0f2cea70a10c6c7ab36e8
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280847"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494185"
 ---
-# <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online  
+# <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
 Em referência ao [anúncio](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) em 8 de fevereiro de 2019, a Microsoft está desativando o serviço do Exchange Unified Messaging online (ExchUMO) até 2020 de fevereiro. Este artigo oferece um resumo do que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios. 
  
@@ -30,9 +30,9 @@ O correio de voz é basicamente uma migração orientada pela Microsoft; o envol
 
 Os clientes que estão consumindo qualquer um dos seguintes recursos do serviço online de Unificação de mensagens do Exchange são afetados:
 
-1. Serviço de correio de voz 
-2. Serviço de atendedor automático 
-3. Integração de fax 
+- Serviço de correio de voz
+- Serviço de atendedor automático
+- Integração de fax
 
 > [!Note]
 > Os clientes que usam qualquer um dos servidores Exchange no local com Unificação de mensagens não são afetados. 
@@ -56,7 +56,6 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
  
     Familiarize-se com o [anúncio do blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) e este artigo para planejar uma migração tranqüila para seus usuários. Consulte [verificar a caixa postal e as opções do Skype for Business](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) para obter detalhes sobre os recursos de correio de voz na nuvem.  
  
-
 2.  **Estabelecer uma topologia híbrida do Skype for Business**
 
     Se você não tiver uma topologia híbrida do Skype for Business estabelecida, será necessário fazer isso para habilitar uma migração tranqüila dos usuários de correio de voz. Consulte [Configurar o Skype for Business híbrido](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) para obter mais detalhes. 
@@ -82,21 +81,32 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
     > [!Note]
     > Se você recebeu uma notificação com a linha do tempo de migração dos seus usuários e gostaria de adiar a migração para um motivo crítico para os negócios, você pode fazer isso entrando em contato com o suporte da Microsoft. Observe que não é possível adiar a migração para além da data de aposentadoria, de fevereiro de 2020. Para clientes que podem ter mais dúvidas, entre em contato com a equipe da sua conta ou com o suporte da Microsoft. Os clientes que já usam o Office 365 podem enviar um caso de suporte por meio do portal de administração do Office 365. 
 
-6. **Considere a possibilidade de optar pelo início de maio de 2019**
+6. **Considere optar por uma migração planejada**
 
-    Você pode optar por fazer uma migração do serviço de correio de voz antecipada de maio de 2019 (se você não tiver recebido uma notificação de migração) para alinhar a migração com uma anuidade de licenças ou férias de equipe de administração ou para evitar períodos críticos para os negócios. Detalhes sobre o processo de consentimento serão atualizados neste artigo antes de 2019.  
+    Você pode optar por uma migração planejada do serviço de correio de voz para o CVM. Antes de optar, examine os detalhes deste artigo, especialmente as seguintes seções:
+
+    - Etapas de migração (esta seção)
+    - Matriz de recursos de serviços baseados em nuvem do ExchUMO e do Azure
+    - Impacto da experiência do usuário
+
+    Observe que, ao optar por uma migração gerenciada, você não receberá uma notificação de 30 dias antes da migração no centro de mensagens do portal de administração do 365 da Microsoft.
+ 
+    Para aceitar uma migração planejada, envie uma solicitação de email para [CVM@microsoft.com](mailto:cvm@microsoft.com), usando o endereço de email do administrador, com as seguintes informações:
+
+    - Data preferida (terças-feiras): as ondas de migração são executadas a cada terça-feira. Selecione uma data em uma terça-feira que não ultrapasse o 12/3/2019.
+ 
+    - ID do locatário: 32 número de caracteres nesse formato 0046728c-688a-4472-a38f-098fec60ac6x. Você pode encontrar sua ID de locatário no portal de administração do Microsoft 365 no Azure Active Directory ou executando o seguinte cmdlet do PowerShell:`Get-CsTenant | Select ObjectId`
+ 
+    Você receberá uma confirmação de email quando seu locatário for migrado com sucesso. 
 
 ## <a name="appendix"></a>Anexo
 
-### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matriz de recursos de serviços baseados em nuvem do ExchUMO e do Azure 
-
-
-
+### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matriz de recursos de serviços baseados em nuvem do ExchUMO e do Azure
 
 | Atender | Nível do recurso | Recurso | Observações  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VIRTUAIS  | Recursos do serviço| Oferecer suporte a PBX de terceiros    | Incluir todos os recursos fornecidos ao PBX de terceiros, como o MWI (Message Waiting Indicator) usando mensagens de notificação SIP do Exchange UM online | N   | Y    |
-| VIRTUAIS | Recursos do serviço  | Suporte para o Skype for Business Server   |  | Y | S    |
+| VIRTUAIS | Recursos do serviço  | Suporte para o Skype for Business Server   |  | S | S    |
 | VIRTUAIS | Recursos do serviço | Suporte ao Microsoft Teams|  | Y | N    |
 | VIRTUAIS | Recursos do serviço | Descoberta eletrônica e retenção  | Para segurança e conformidade  | S | S    |
 | VIRTUAIS | Recursos do serviço | Suporte a regras do Exchange | Para segurança e conformidade  | S | S    |
@@ -113,8 +123,8 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 | VIRTUAIS | Recursos do usuário | Configuração do usuário para desabilitar a transcrição |  | N | Y    |
 | VIRTUAIS | Recursos do usuário | Transcrição  |  | S | S    |
 | VIRTUAIS | Recursos do usuário | Caixa postal Visual em todos os pontos de extremidade   | Com o controle de usuário para reproduzir, excluir, indicador de mensagem aguardando e status-alternar, em todos os pontos de extremidade compatíveis  | S | S    |
-| VIRTUAIS | Recursos do usuário | Formato de arquivo de áudio MP3 no Outlook    |  | S | S    |
-| VIRTUAIS | Recursos do usuário | Controle de reprodução de velocidade variável |  | S | S    |
+| VIRTUAIS | Recursos do usuário | Formato de arquivo de áudio MP3 no Outlook    |  | Y | S    |
+| VIRTUAIS | Recursos do usuário | Controle de reprodução de velocidade variável |  | Y | S    |
 | VIRTUAIS | Recursos do usuário | Encaminhar um correio de voz  | Encaminhar um correio de voz recebido para outros usuários | Y | S    |
 | VIRTUAIS | Recursos do usuário | Enviar uma mensagem de voz para um grupo de usuários  |Transmissão de correio de voz   | N | Y   |
 | VIRTUAIS | Recursos do usuário | Notificação de correio de voz usando SMS    | Os usuários podem receber SMS quando tiverem um novo correio de voz    | N | Y    |
@@ -131,7 +141,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 | VIRTUAIS | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | N/D    | Y    |
 | VIRTUAIS | Locatário-recursos de administração | Alterar o número de falhas de entrada | CVM: embutido em código para 3 | N | Y    |
 | VIRTUAIS | Locatário-recursos de administração | Alterar o idioma padrão |  | Y | S    |
-| VIRTUAIS | Locatário-recursos de administração | Desabilitar/habilitar transcrição |  | Y | S    |
+| VIRTUAIS | Locatário-recursos de administração | Desabilitar/habilitar transcrição |  | S | S    |
 | VIRTUAIS | Locatário-recursos de administração | Desabilitar/habilitar a notificação de chamada perdida |  | N | Y    |
 | VIRTUAIS | Locatário-recursos de administração | Ajude a Microsoft a melhorar a visualização da caixa postal    |  | S | S    |
 | VIRTUAIS | Locatário-recursos de administração | Personalizar mensagem de texto para usuários habilitados|  | N/D    | Y    |
@@ -162,8 +172,6 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 | Altere | Locatário-recursos de administração | Cmdlets do PowerShell  |  | S | S    |
 | Fax| Recursos do serviço | Integração de fax|  | N | Y    |
 
-
-
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Plano de teste sugerido e validação após a migração para administradores
 
 Ao testar a funcionalidade de correio de voz após a migração dos usuários, considere os seguintes cenários:
@@ -173,7 +181,6 @@ Ao testar a funcionalidade de correio de voz após a migração dos usuários, c
 - Se a sua organização tiver uma exigência legal ou de conformidade para desativar a transcrição para os usuários, verifique se ela está desabilitada após a migração. Para obter mais detalhes, consulte [Configurar correio de voz na nuvem](/microsoftteams/set-up-phone-system-voicemail).
 - Se você configurou anteriormente políticas e políticas de VM do Exchange, certifique-se de que elas estejam em vigor.
 - Familiarize-se com os cmdlets do PowerShell do serviço de correio de voz na nuvem para alterar configurações do usuário.  
-
 
 ### <a name="user-experience-impact"></a>Impacto da experiência do usuário
 

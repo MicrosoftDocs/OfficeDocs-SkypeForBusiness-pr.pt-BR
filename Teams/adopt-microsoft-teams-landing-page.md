@@ -1,7 +1,7 @@
 ---
 title: Adotar o Microsoft Teams
 ms.reviewer: karuanag
-description: Use estes recursos de adoção para ajudá-lo a planejar e implantar o Microsoft Teams em sua organização.
+description: Use esses recursos de adoção para ajudá-lo a planejar e implantar o Microsoft Teams em sua organização.
 ms.topic: landing-page
 author: kenwith
 ms.author: kenwith
@@ -16,16 +16,16 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26a7d77db81026782507575cab6d3f09500dde93
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 641c0702605c0d5e6eca72ce5e2917b10b5ecf5d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902715"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494494"
 ---
 # <a name="adopt-microsoft-teams"></a>Adotar o Microsoft Teams
 
-Se você tem uma pequena empresa, ou se desejar distribuir equipes começando com bate-papo, equipes & canais e reuniões, usam nosso prescritiva [Get started orientação](get-started-with-teams-quick-start.md), projetada para ajudá-lo em funcionamento rapidamente. Se você estiver uma grande organização com um híbrido ou local Skype para configuração de negócios, ou se você quiser distribuir os recursos de voz (por exemplo, o Office 365 chamar planos ou o sistema telefônico), você pode começar com nosso Get started orientação, mas você precisará adicionais orientação abaixo, sob a **orientação de adoção mais aprofundada**.
+Se você for uma pequena empresa ou se quiser implantar equipes que comecem com o chat, o Teams & Channels e reuniões, use nossas [diretrizes](get-started-with-teams-quick-start.md)de introdução de introdução, que foram projetadas para você começar a trabalhar rapidamente. Se você for uma grande organização com uma configuração do Skype for Business local ou híbrida, ou se quiser implementar recursos de voz (como planos de chamadas do Office 365 ou sistema telefônico), comece com nossas diretrizes de introdução, mas você precisará de outras orientação abaixo, em **diretrizes de adoção mais profunda**.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -35,12 +35,12 @@ Se você tem uma pequena empresa, ou se desejar distribuir equipes começando co
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock icon representing quick start" />
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>Início rápido</h3>
-                        <p>O orienta durante os cenários mais comuns de adoção</p>
+                        <p>Orienta você pelos cenários de adoção mais comuns</p>
                     </div>
                 </div>
             </div>
@@ -54,11 +54,11 @@ Se você tem uma pequena empresa, ou se desejar distribuir equipes começando co
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat icon representing an introduction" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Introdução às equipes e canais</h3>
+                        <h3>Introdução a equipes e canais</h3>
                     </div>
                 </div>
             </div>
@@ -72,11 +72,11 @@ Se você tem uma pequena empresa, ou se desejar distribuir equipes começando co
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist icon representing planning" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Planejar suas equipes primeiro</h3>
+                        <h3>Planejar suas primeiras equipes</h3>
                     </div>
                 </div>
             </div>
@@ -90,11 +90,11 @@ Se você tem uma pequena empresa, ou se desejar distribuir equipes começando co
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Best practices" />
+                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Award ribbon icon representing best practices" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Capacitar os representantes</h3>
+                        <h3>Capacite seus campeões</h3>
                     </div>
                 </div>
             </div>
@@ -108,11 +108,11 @@ Se você tem uma pequena empresa, ou se desejar distribuir equipes começando co
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Mortarboard icon representing training" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Certificação do treinamento &</h3>
+                        <h3>Certificação de treinamento &</h3>
                     </div>
                 </div>
             </div>
@@ -126,11 +126,11 @@ Se você tem uma pequena empresa, ou se desejar distribuir equipes começando co
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Wrench icon representing tools and downloads" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Ferramentas e Downloads</h3>
+                        <h3>Ferramentas e downloads</h3>
                     </div>
                 </div>
             </div>
@@ -140,8 +140,8 @@ Se você tem uma pequena empresa, ou se desejar distribuir equipes começando co
 </ul>
 
 
-### <a name="deeper-adoption-guidance"></a>Orientação de adoção mais aprofundada
-Planos de adoção podem ser simples a complexos, dependendo do seu ambiente. Para implantações em larga escala, percorra as diretrizes abaixo para garantir que sua organização tem uma transição suave para equipes.
+### <a name="deeper-adoption-guidance"></a>Orientação de adoção mais profunda
+Os planos de adoção podem ser simples de complexos, dependendo do seu ambiente. Para implantações em larga escala, percorra as diretrizes abaixo para garantir que sua organização tenha uma transição tranqüila para o Microsoft Teams.
 
 <ul class="panelContent cardsF">
     <li>
@@ -150,7 +150,7 @@ Planos de adoção podem ser simples a complexos, dependendo do seu ambiente. Pa
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-1-teams.svg" alt="Number 1" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-1-teams.svg" alt="Number 1 icon representing the first step" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -158,7 +158,7 @@ Planos de adoção podem ser simples a complexos, dependendo do seu ambiente. Pa
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">Introdução</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">Entender as equipes e canais</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">Criar sua primeira equipe</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">Avalie a preparação de cultura e organizacional</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">Avaliar a preparação cultural e organizacional</a></p>
                     </div>
                 </div>
             </div>
@@ -170,15 +170,15 @@ Planos de adoção podem ser simples a complexos, dependendo do seu ambiente. Pa
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-2-teams.svg" alt="Number 2" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-2-teams.svg" alt="Number 2 icon representing the second step" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">Experimento</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">Experiência</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">Criar seu programa de defensores</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">Início rápido de governança</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">Definir os cenários de uso</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">Primeiros clientes a adotar onboard e coletar comentários</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">Pioneiros e obter comentários onboard</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-support">Suporte à integração</a></p>
                     </div>
                 </div>
@@ -191,12 +191,12 @@ Planos de adoção podem ser simples a complexos, dependendo do seu ambiente. Pa
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-3-teams.svg" alt="Number 3" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-3-teams.svg" alt="Number 3 icon representing the third step" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">Escala</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Definir o resultado e o sucesso</a></p>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">Chegam</a></h3>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Definir resultado e sucesso</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Otimizar comentários e relatórios</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Promover a conscientização e implementar treinamento</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">Agendar avaliações de integridade do serviço</a></p>

@@ -10,31 +10,31 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como a habilitação de escala amplo das equipes de suporte para sua organização.
+description: Saiba como dar suporte à habilitação de escala ampla do teams para sua organização.
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5f53d17f882b8de1066a7622cc258ae21cf3887
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f9556338bba030ccefcd61f3bbdd9e3a4c56af2
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930408"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494087"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Fase 3 de adoção do Microsoft Teams - Dimensionamento
 
-Nesta fase, você usará seu lições, equipe de projeto talento e relacionamentos com os participantes, campeões e usuários iniciais para dar suporte a habilitação de escala amplo de equipes para sua organização. Ao se preparar para o compromisso de negócios continuadas relacionado ao uso de organizações do Microsoft Teams, você concluirá as seguintes etapas:
+Nesta fase, você usará seus aprendizados, equipe de projeto talentosal e relações com stakeholders, campeões e pioneiros a dar suporte à habilitação de dimensionamento do teams para sua organização. Você concluirá as etapas a seguir ao preparar o compromisso de negócios contínuo para as organizações usar o Microsoft Teams:
 
-1. Defina os resultados e medidas de sucesso.
-2. Selecione a estratégia de serviço.
-3. Envolva os participantes.
-4. Projetar e iniciar uma campanha de divulgação.
-5. Projetar e início de um programa de treinamento.
-6. Compreenda as ferramentas de relatório.
-7. Prepare para o compromisso de negócios em andamento.
-8. Prepare para serviço contínuo integridade & adoção revisões.
+1. Definir resultados e medidas de sucesso.
+2. Selecione estratégia de serviço.
+3. Envolver participantes.
+4. Criar e iniciar uma campanha de conscientização.
+5. Criar e iniciar um programa de treinamento.
+6. Entender as ferramentas de relatório.
+7. Prepare-se para o envolvimento contínuo da empresa.
+8. Prepare-se para as críticas de adoção & da integridade do serviço em andamento.
 
-![Ícone de etapas próximo](media/teams-adoption-next-icon.png) próximo: [sucesso e definir os resultados](teams-adoption-define-outcomes.md)
+![Um ícone que representa a próxima](media/teams-adoption-next-icon.png) etapa seguinte: [definir resultados e sucesso](teams-adoption-define-outcomes.md)

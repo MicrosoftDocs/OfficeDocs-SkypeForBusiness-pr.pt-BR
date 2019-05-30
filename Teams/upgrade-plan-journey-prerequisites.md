@@ -1,12 +1,12 @@
 ---
-title: Pré-requisitos de equipes da Microsoft | Atualização de adoção de dependências
+title: Pré-requisitos do Microsoft Teams | Atualização de adoção de dependências
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Use estas diretrizes para aprender sobre os pré-requisitos e as dependências de ambientais para implantar as equipes em sua organização
+description: Use esta orientação para saber mais sobre os pré-requisitos e as dependências ambientais para implantar equipes em sua organização
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,42 +15,42 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 784c2ac08ca6dbfece5cdc8c99fee2b308325576
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dbdb59bc5239b8982e330972188ec15527312d22
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895929"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548537"
 ---
-![Estágios da atualização jornada, com ênfase na etapa de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação técnica")
+![Atualize o diagrama de jornada, enfatizando o estágio de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")
 
-Este artigo faz parte do estágio de prontidão técnica de sua atualização jornada, uma atividade que você concluir em paralelo com o estágio de preparação do usuário. Antes de continuar, confirme que você tiver concluído essas atividades desde estágios anteriores:
+Este artigo faz parte do estágio de preparação técnica da sua jornada de atualização, uma atividade que você conclui em paralelo com o estágio de preparação do usuário. Antes de prosseguir, confirme que você concluiu essas atividades dos estágios anteriores:
 
-- [Inscrito seus participantes do projeto](upgrade-enlist-stakeholders.md)
-- [Definido o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
-- [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
-- [Escolhido sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Listamos os participantes do projeto](upgrade-enlist-stakeholders.md)
+- [Definiu o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Compreendemos a coexistência e interoperabilidade do Skype for Business e do teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Escolhido a jornada da atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Pré-requisitos e dependências de ambientais para equipes
+# <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Pré-requisitos e dependências ambientais para equipes
 
-As equipes combina vários serviços do Office 365 e, portanto, a implementação correta e a operação desses serviços dependentes. Esses serviços incluem —, mas não está limitado a — Exchange Online, SharePoint Online e OneDrive for Business.
+O Teams combina vários serviços do Office 365 e, portanto, depende da implementação e operação corretas desses serviços. Esses serviços incluem, entre outros, o SharePoint Online, o Exchange Online e o OneDrive for Business.
 
-Embora nem todos os serviços forem necessários, é altamente recomendável que você implemente todos eles. Se você optar por não implementar determinados serviços, ele afetará a funcionalidade que equipes podem oferecer a sua organização. Por exemplo, embora você não precisa implementar o SharePoint Online, equipes baseiam-se no SharePoint Online para alguns recursos, como compartilhamento de arquivo no conversas do grupo, portanto, não implementar esse serviço reduzirá a funcionalidade oferecida por meio do cliente.
+Embora nem todos os serviços sejam necessários, é altamente recomendável que você implemente todos eles. Se você optar por não implementar determinados serviços, ele afetará a funcionalidade que as equipes podem oferecer à sua organização. Por exemplo, embora você não precise implementar o SharePoint Online, o Teams depende do SharePoint Online para determinadas funcionalidades, como compartilhamento de arquivos em conversas em grupo, para que a implementação desse serviço reduza a funcionalidade oferecida por meio da guia clientes.
 
-Consulte os seguintes artigos para saber mais sobre os pré-requisitos e como equipes interage com outras tecnologias:
+Consulte os artigos a seguir para saber mais sobre pré-requisitos e como o Microsoft Teams interage com outras tecnologias:
 
-- Se sua organização não tiver implantado nenhum cargas de trabalho do Office 365, consulte [Getting Started with Office 365 para empresas](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
+- Se sua organização ainda não implantou nenhuma carga de trabalho do Office 365, consulte [introdução ao office 365 para empresas](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
 
-- Se sua organização não tiver adicionado ou configurado um domínio verificado para o Office 365, consulte [Verify seu domínio do Office 365](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
+- Se a sua organização ainda não adicionou ou configurou um domínio verificado para o Office 365, consulte [verificar seu domínio do office 365](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
 
-- Se sua organização não tiver sincronizado identidades para o Windows Azure Active Directory, consulte [modelos de identidade e autenticação no equipes da Microsoft](identify-models-authentication.md).
+- Se sua organização não tiver identidades sincronizadas com o Azure Active Directory, consulte [modelos de identidade e autenticação no Microsoft Teams](identify-models-authentication.md).
 
-- Se doesn¹t sua organização tiver o Exchange Online, consulte [Noções básicas sobre como o Exchange e equipes da Microsoft interagem](Exchange-Teams-interact.md).
+- Se a sua organização não ¹ tiver o Exchange Online, confira [entender como o Exchange e o Microsoft Teams interagem](Exchange-Teams-interact.md).
 
-- Se sua organização não tiver o SharePoint Online, consulte [Noções básicas sobre como o SharePoint Online e o OneDrive for Business interagem com as equipes da Microsoft](SharePoint-OneDrive-interact.md).
+- Se sua organização não tiver o SharePoint Online, confira [entender como o SharePoint Online e o onedrive for Business interagem com o Microsoft Teams](SharePoint-OneDrive-interact.md).
 
-- Saiba como [interagem grupos do Office 365 e equipes da Microsoft](Office-365-groups.md).
+- Saiba como os [grupos do Office 365 e do Microsoft Teams interagem](Office-365-groups.md).
 
-- Se sua organização é uma instituição educacional e usar um sistema de informações de Student, [Implante a sincronização de dados da escola](https://docs.microsoft.com/schooldatasync) antes de implantar o Microsoft Teams.
+- Se sua organização for uma instituição educacional e você usar um sistema de informações do aluno, [implante a sincronização de dados da escola](https://docs.microsoft.com/schooldatasync) antes de implantar o Microsoft Teams.
 
-Depois que você tiver verificado que seu ambiente atende aos pré-requisitos aplicáveis todos, [avaliar o ambiente atual para equipes](upgrade-plan-journey-evaluate-environment.md).
+Depois de verificar se o seu ambiente atende a todos os pré-requisitos aplicáveis, [avalie o ambiente atual do teams](upgrade-plan-journey-evaluate-environment.md).

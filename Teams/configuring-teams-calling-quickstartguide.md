@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd1e9484b522a657a92916815c1ae8940dcc2117
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6600513cf4491aed05598439987cff8d8e7232a1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898519"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548100"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guia de Início Rápido: como configurar Planos de Chamadas no Microsoft Teams
 ==============================================================
@@ -31,42 +31,42 @@ Este guia o ajudará a estabelecer um grupo de usuários para que eles possam ex
 Leia o anúncio feito em 12 de dezembro de 2017, dos Planos de Chamadas no Microsoft Teams: [A comunicação inteligente avança com as chamadas do Microsoft Teams](https://aka.ms/ipyqus)
 
 > [!NOTE]
-> Recomendamos que, em paralelo com este guia de início rápido, você leia [O sistema telefônico com planos de chamada](calling-plan-landing-page.md) e [FastTrack](https://aka.ms/cloudvoice) planejar e a unidade uma distribuição bem-sucedida.
+> Recomendamos que, em paralelo com este guia de início rápido, você leia o [sistema telefônico com planos de chamadas](calling-plan-landing-page.md) e o [FastTrack](https://aka.ms/cloudvoice) para planejar e conduzir uma implementação bem-sucedida.
 
 Com a inclusão dos Planos de Chamadas, um recurso do Office 365 acionado pelo Skype for Business, agora você pode usar o Microsoft Teams para fazer e receber chamadas de telefones fixos e celulares pela PSTN (Rede Telefônica Pública Comutada).
 
-![Fazendo chamadas no Microsoft Teams](media/Calling_in_Teams.png)
+![Captura de tela mostrando a página contatos no Teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Pré-requisitos para habilitar a guia **Chamadas** no Microsoft Teams
-Para habilitar a guia **chamadas** em equipes os usuários precisam ter o 1:1 chamando ativados nas equipes e usando um cliente de equipes que ofereça suporte a chamada de equipes de 1:1. Para saber como gerenciar 1:1 chamando em equipes, leia [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Para saber quais clientes suportam a chamada, leia [limites e as especificações para equipes da Microsoft](https://docs.microsoft.com/microsoftteams/limits-specifications-teams).
+Para habilitar a guia **chamadas** em Teams os usuários precisam ter chamadas do 1:1 habilitadas no Teams e usar um cliente do teams que suporte chamadas para o 1:1 Teams. Para saber como gerenciar chamadas do 1:1 no Teams, leia [set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Para saber quais clientes dão suporte à chamada, leia [limites e especificações do Microsoft Teams](https://docs.microsoft.com/microsoftteams/limits-specifications-teams).
 
 > [!NOTE]
-> Atualmente, caixa postal não estarão disponível na guia chamadas, a menos que o usuário está habilitado para chamadas PSTN. 
+> No momento, o correio de voz não estará disponível na guia chamadas, a menos que o usuário esteja habilitado para chamadas PSTN. 
 
-## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Pré-requisitos para habilitar o **Teclado de discagem** em equipes
-Para habilitar a guia **Teclado de discagem** em equipes e permitir que os usuários façam e recebam chamadas PSTN, você precisará provisionar usuários para o sistema telefônico e planos de chamada. Para saber como configurar planos de chamada, leia [Configurar planos de chamada](https://docs.microsoft.com/microsoftteams/set-up-calling-plans).
+## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Pré-requisitos para habilitar o **teclado** de discagem no Teams
+Para habilitar a guia do **teclado** de discagem no Teams e permitir que os usuários façam e recebam chamadas PSTN, você precisará provisionar usuários para o sistema telefônico e planos de chamadas. Para saber como configurar planos de chamadas, leia [configurar planos de chamadas](https://docs.microsoft.com/microsoftteams/set-up-calling-plans).
 
 > [!NOTE]
-> Você também pode usar o roteamento direto para permitir que os usuários façam e recebam chamadas PSTN. Para saber como configurar o roteamento direto, leia a [Configurar o roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-configure).
+> Você também pode usar o roteamento direto para permitir que os usuários façam e recebam chamadas PSTN. Para saber como configurar o roteamento direto, leia [Configurar roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-configure).
 
-## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>Usando TeamsUpgradePolicy para controlar onde chamadas land
-Para controlar se as chamadas de entrada (e bate-papos) land em equipes ou Skype para os negócios, os administradores usam TeamsUpgradePolicy, usando o [Centro de administração de equipes da Microsoft](https://aka.ms/teamsadmincenter) ou usando uma sessão remota do Windows PowerShell com o [Skype para negócios](https://docs.microsoft.com/powershell/module/skype) cmdlets.
+## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>Usar o TeamsUpgradePolicy para controlar onde as chamadas se esterram
+Para controlar se as chamadas recebidas (e chats) chegam ao Teams ou ao Skype for Business, os administradores usam o TeamsUpgradePolicy usando o [centro de administração do Microsoft Teams](https://aka.ms/teamsadmincenter) ou usando uma sessão remota do Windows PowerShell com o [Skype for Business](https://docs.microsoft.com/powershell/module/skype) cmdlets.
 
 
-A configuração padrão do TeamsUpgradePolicy é o modo de ilhas, que foi projetado para garantir que os fluxos de trabalho não são interrompidos durante uma implantação de equipes de negócios existentes. Por padrão, a VoIP, PSTN e chamadas federadas para seus usuários continuarão a ser roteadas para Skype para negócios até que você atualiza a política para permitir que as chamadas de entrada para equipes.  Quando os destinatários estão no modo de ilhas:
+A configuração padrão de TeamsUpgradePolicy é o modo de ilhas, que é projetado para garantir que os fluxos de trabalho de negócios existentes não sejam interrompidos durante uma implantação do teams. Por padrão, VoIP, PSTN e chamadas federadas para seus usuários continuarão a ser roteadas para o Skype for Business até você atualizar a política para habilitar as chamadas de entrada para o Microsoft Teams.  Quando os destinatários estão no modo de ilhas:
 
- - Entrada VOIP chama esse Skype originado na for Business sempre land no Skype do destinatário para o cliente de negócios.
- - Entrada VOIP chama originados no land equipes em equipes, *se o remetente e o receptor estiverem no mesmo inquilino*.
- - Entrada federados VOIP (independentemente de qual cliente originado) e chamadas PSTN sempre land no Skype do destinatário para o cliente de negócios.
+ - As chamadas de VOIP recebidas que originou no Skype for Business sempre chegam ao cliente Skype for Business do destinatário.
+ - Chamadas de VOIP recebidas originadas no Teams Land no Teams, *se o remetente e o receptor estiverem no mesmo locatário*.
+ - VOIP federado de entrada (independentemente de qual o cliente originou) e as chamadas PSTN sempre chegam ao cliente Skype for Business do destinatário.
  
-Para garantir a entrada VOIP e PSTN sempre chama land no cliente de equipes de um usuário, atualize o modo de coexistência do usuário para ser TeamsOnly (o que significa que atribuí-las a instância de "UpgradeToTeams" do TeamsUpgradePolicy.  Para obter mais informações sobre os modos de coexistência e TeamsUpgradePolicy, consulte [migração e orientações de interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+Para garantir que as chamadas VOIP e PSTN de entrada sejam sempre chamadas para o cliente do teams de um usuário, atualize o modo de coexistência do usuário para ser TeamsOnly (ou seja, atribua a eles a instância "UpgradeToTeams" do TeamsUpgradePolicy.  Para obter mais informações sobre modos de coexistência e TeamsUpgradePolicy, consulte [orientação de migração e interoperabilidade para organizações que usam o Skype for Business em equipe](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) .
 
-**NOTAS**
- - Skype para telefones IP Business receberá chamadas, mesmo se o usuário está no modo de TeamsOnly.  
- - Usuários que tenham sido configurados com o sistema telefônico e planos de chamar licenças para uso com o Skype para Business Online (por exemplo, eles tiverem sido atribuídos um valor de OnlineVoiceRoutingPolicy), terá a guia chamadas habilitada em equipes e pode fazer chamadas de PSTN de saída de Equipes sem precisar realizar qualquer ação administrativa de administradores.
+**INFORMA**
+ - Os telefones IP do Skype for Business receberão chamadas, mesmo se o usuário estiver no modo TeamsOnly.  
+ - Os usuários que foram provisionados com as licenças do sistema telefônico e planos de chamadas para uso com o Skype for Business online (por exemplo, um valor de OnlineVoiceRoutingPolicy) terão a guia chamadas habilitada no Teams e poderão fazer chamadas PSTN de saída de Equipes sem administradores precisarem tomar qualquer ação administrativa.
 
 
-### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Como configurar usuários para todos os VOIP e PSTN de entrada de receber chamadas em equipes
-Para garantir que os usuários recebem todas as chamadas recebidas de VOIP e PSTN em equipes, definir o modo de coexistência do usuário para TeamsOnly no Centro de administração do Microsoft Teams, ou usar Skype para a sessão do Windows PowerShell remoto de negócios para atualizar TeamsUpgradePolicy da seguinte maneira:
+### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Como configurar os usuários para receber todas as chamadas VOIP e PSTN de entrada no Microsoft Teams
+Para garantir que os usuários recebam todas as chamadas VOIP e PSTN de entrada no Teams, defina o modo de coexistência do usuário como TeamsOnly no centro de administração do Microsoft Teams ou use a sessão remota do Windows PowerShell do Skype for Business para atualizar o TeamsUpgradePolicy da seguinte maneira:
 
     Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
 
@@ -76,7 +76,7 @@ Para garantir que os usuários recebem todas as chamadas recebidas de VOIP e PST
 
 [Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-[Sistema telefônico com a chamada de planos](calling-plan-landing-page.md)
+[Sistema telefônico com planos de chamada](calling-plan-landing-page.md)
 
-[Skype para referência de cmdlet do PowerShell de negócios](https://docs.microsoft.com/powershell/module/skype)
+[Referência do cmdlet do PowerShell do Skype for Business](https://docs.microsoft.com/powershell/module/skype)
 

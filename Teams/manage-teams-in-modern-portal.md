@@ -1,5 +1,5 @@
 ---
-title: Gerenciar equipes em Centro de administração do Microsoft Teams
+title: Gerenciar equipes no centro de administração do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: islubin
-description: Saiba como exibir ou atualizar suas equipes no Centro de administração do Microsoft Teams.
+description: Saiba como exibir ou atualizar suas equipes no centro de administração do Microsoft Teams.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -17,114 +17,114 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d2903e65e4ef4876f41d367ce961530020e775c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c205c8d3b4f57935c1882530815643a90357d1aa
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202724"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548266"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes em Centro de administração do Microsoft Teams
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes no centro de administração do Microsoft Teams
 ==========================================
 
 
 ## <a name="overview"></a>Visão geral
 
-Como um administrador de TI, você pode precisar exibir ou atualizar as equipes que sua organização tiver configurado para colaboração, ou você podem precisar efetuar as ações de remediação como atribuir proprietários para equipes sem proprietários. Você pode gerenciar as equipes usadas na sua organização por meio do módulo de PowerShell de equipes da Microsoft e o Centro de administração do Microsoft Teams. Para os recursos de administração completos usando esses dois conjuntos de ferramentas, verifique se você recebem uma das seguintes funções:
+Como um administrador de ti, talvez seja necessário exibir ou atualizar as equipes que a sua organização configurou para colaboração, ou talvez seja necessário executar ações de correção, como a atribuição de proprietários para equipes sem proprietário. Você pode gerenciar as equipes usadas em sua organização por meio do módulo do Microsoft Teams PowerShell e do centro de administração do Microsoft Teams. Para obter recursos de administração plena usando esses dois conjuntos de ferramentas, você deve certificar-se de que recebeu uma das funções a seguir:
 
 - Administrador global
 - Administrador de Serviço de Equipes
 
-Você pode aprender mais sobre as funções de administrador em equipes nas [funções de administração de usar equipes da Microsoft para gerenciar equipes](using-admin-roles.md)e você pode ler mais sobre como usar os cmdlets do PowerShell para gerenciar equipes na [referência do cmdlet equipes da Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
+Você pode saber mais sobre as funções de administrador no Teams em [usar funções de administração do Microsoft Teams para gerenciar o Teams](using-admin-roles.md)e ler mais sobre como usar os cmdlets do PowerShell para gerenciar equipes na [referência do cmdlet do Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
-Este artigo fornece uma visão geral das ferramentas de gerenciamento para equipes no Centro de administração do Microsoft Teams.
+Este artigo fornece uma visão geral das ferramentas de gerenciamento para Teams no centro de administração do Microsoft Teams.
 
-## <a name="teams-overview-grid"></a>Grade de visão geral de equipes
+## <a name="teams-overview-grid"></a>Grade de visão geral do teams
 
-Ferramentas de gerenciamento para equipes estão sob o nó de **equipes** no Centro de administração do Microsoft Teams. (No Centro de administração, selecione **equipes** > **gerenciar equipes**.) Cada equipe é feito por um grupo do Office 365 e este nó fornece um modo de exibição dos grupos que foram habilitados para equipes em sua organização do Microsoft.
+As ferramentas de gerenciamento do teams **** estão sob o nó Teams no centro de administração do Microsoft Teams. (No centro de administração, selecione **Teams** > **Manage Teams**.) Cada equipe tem o suporte de um grupo do Office 365, e esse nó fornece um modo de exibição de grupos que foram habilitados para o Microsoft Teams na sua organização.
 
-![Grade de visão geral de equipes](media/manage-teams-in-modern-portal-image1.png)  
+![Captura de tela da grade de visão geral do teams](media/manage-teams-in-modern-portal-image1.png)  
 
 A grade exibe as seguintes propriedades:
 
 - **Nome da equipe**
-- **Canais** - uma contagem de todos os canais da equipe, incluindo o canal gerais do padrão.
-- **Os usuários** - uma contagem do total de usuários, incluindo proprietários, convidados e membros de seu locatário.
-- **Proprietários** - uma contagem de proprietários para essa equipe.
-- **Convidados** - uma contagem de usuários de convidado B2B do Azure Active Directory que são membros dessa equipe.
-- **Privacidade** - a visibilidade/AccessType do grupo apoio Office 365.
-- **Status** - o status ativo para essa equipe ou arquivado.  Saiba mais sobre as equipes no [arquivo morto ou restauração uma equipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)de arquivamento.
-- **GroupID** - ID exclusivo do grupo do grupo apoio Office 365
-- **Classificação** - a classificação (se utilizados na organização) atribuída ao grupo do Office 365 de backup.  Saiba mais sobre classificações em [criar classificações para grupos do Office em sua organização](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
-- **Descrição** - a descrição definidas para o grupo de apoio Office 365
+- **Canais** – uma contagem de todos os canais da equipe, incluindo o canal geral padrão.
+- **Usuários** – uma contagem do total de usuários, incluindo proprietários, convidados e membros do seu locatário.
+- **Proprietários** -uma contagem de proprietários para esta equipe.
+- **Convidados** -uma contagem de usuários convidados do Azure Active Directory que são membros da equipe.
+- **Privacidade** -a visibilidade/acessotype do grupo de backup do Office 365.
+- **Status** -o status arquivado ou ativo para esta equipe.  Saiba mais sobre o arquivamento de equipes no [arquivamento ou restauração de uma equipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
+- **GroupId** -o GroupId exclusivo do grupo de backup do Office 365
+- **Classificação** – a classificação (se usada em sua organização) atribuída ao grupo de backup do Office 365.  Saiba mais sobre classificações em [criar classificações para grupos do Office em sua organização](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **Descrição** -a descrição definida para o grupo de backup do Office 365
 
 ### <a name="search"></a>Pesquisa
 
-Pesquisa atualmente suporta a cadeia de caracteres "Começa com" e pesquisa o campo **nome da equipe** .
+A pesquisa atualmente oferece suporte à cadeia de caracteres "começa com" e pesquisa o campo **nome da equipe** .
 
 ### <a name="edit"></a>Editar
 
-Você pode editar o grupo e as configurações específicas do team selecionando uma equipe da grade e, em seguida, selecionando o botão **Editar** .
+Você pode editar as configurações específicas do grupo e da equipe selecionando uma equipe na grade e, em seguida, selecionando o botão **Editar** .
 
-![Editar a equipe](media/manage-teams-in-modern-portal-image2.png)
+![Captura de tela das opções de editar equipe](media/manage-teams-in-modern-portal-image2.png)
 
 ## <a name="team-profile"></a>Perfil de equipe
 
-Você pode navegar para a página de perfil de equipe de qualquer equipe da grade de visão geral de equipes principal clicando no nome da equipe. A página de perfil de equipe mostra os membros, proprietários e convidados que pertencem à equipe (e seu fazendo O365 grupo), bem como os canais e configurações da equipe. Na página de perfil da equipe, você pode:
+Você pode navegar até a página perfil da equipe de qualquer equipe na grade principal do teams Overview clicando no nome da equipe. A página perfil da equipe mostra os membros, os proprietários e os convidados que pertencem à equipe (e seu grupo de O365 de apoio), bem como os canais e as configurações da equipe. Na página perfil da equipe, você pode:
 
 - Adicionar ou remover membros e proprietários.
 - Adicionar ou remover canais (Observe que não é possível remover o canal geral).
-- Atualize a equipe e configurações de grupo.
+- Atualizar configurações de equipe e grupo.
  
-![Perfil de equipe](media/manage-teams-in-modern-portal-image3.png)
+![Captura de tela de um exemplo de perfil de equipe](media/manage-teams-in-modern-portal-image3.png)
 
-## <a name="making-changes-to-teams"></a>Fazendo alterações em equipes
+## <a name="making-changes-to-teams"></a>Como fazer alterações em equipes
 
 Você pode alterar os seguintes elementos de uma equipe:
-- **Os usuários na equipe de** - você pode adicionar ou remover membros e promover ou rebaixar proprietários
-- **Canais** - você pode adicionar novos canais ou remover canais existentes.  Você não pode excluir o canal de "General" padrão e uma vez criada você só pode editar o nome de canal, não a descrição.
+- **Usuários na equipe** -você pode adicionar ou remover membros e promover ou rebaixar proprietários
+- **Canais** – você pode adicionar novos canais ou remover canais existentes.  Não é possível excluir o canal "geral" padrão e, depois de criado, você só pode editar o nome do canal e não a descrição.
 - **Nome da equipe**
 - **Descrição da equipe**
-- **Privacidade de equipe** - pública ou privada
-- **Classificação de equipe** - feito pelo seus classificações de grupo do Office 365
-- **Configurações de membro de equipe** - configurações de membro da equipe select
+- **Privacidade da equipe** -público ou privado
+- **Classificação da equipe** -apoiada pelas suas classificações de grupo do Office 365
+- **Configurações de membro da equipe** – selecionar configurações de membro da equipe
 
-## <a name="other-supported-changes-to-teams"></a>Outras alterações com suporte para equipes
+## <a name="other-supported-changes-to-teams"></a>Outras alterações com suporte no Teams
 
-- **Exclua** - a exclusão de uma equipe é uma exclusão de soft da equipe e grupo correspondente do Office 365.  Para restaurar uma equipe excluída por engano, siga as instruções em [Restaurar de um grupo de 365 excluído do Office](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide).
-- **Archive** - o arquivamento de uma equipe coloca a equipe em modo somente leitura no Microsoft Teams.  Como um administrador, você pode arquivar e unarchive equipes em nome de sua organização através do portal de administração.
+- **Excluir** – excluir uma equipe é uma exclusão suave da equipe e do grupo correspondente do Office 365.  Para restaurar uma equipe excluída incorretamente, siga as instruções em [restaurar um grupo do Office 365 excluído](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group?view=o365-worldwide).
+- **Arquivo morto** : o arquivamento de uma equipe coloca a equipe em modo somente leitura no Microsoft Teams.  Como administrador, você pode arquivar e Desarquivar equipes em nome de sua organização por meio do portal de administração.
 
 
-As alterações feitas em uma equipe são registradas. Se você estiver modificando configurações de grupo (alterando o nome, descrição, foto, privacidade, classificação ou membros da equipe), essas alterações serão atribuídas a você através do pipeline de auditoria. Se você estiver realizando ações contra as configurações específicas de equipes, suas alterações serão rastreadas e atribuídas a você no canal geral da equipe.
+As alterações feitas em uma equipe são registradas. Se você estiver modificando as configurações de grupo (alterando o nome, a descrição, a foto, a classificação, a classificação ou os membros da equipe), essas alterações serão atribuídas a você pelo pipeline de auditoria. Se você estiver executando ações em configurações específicas de equipes, suas alterações serão rastreadas e atribuídas a você no canal geral da equipe.
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
-**Problema: As equipes ausentes da grade de visão geral da equipe**
+**Problema: equipes ausentes da grade de visão geral da equipe**
 
-Quando você insere o Centro de administração do Microsoft Teams, sob a opção de **equipes** algumas das suas equipes estão ausentes da listagem na grade de visão geral de equipes.
+Quando você insere o centro de administração do Microsoft Teams, na opção **equipes** algumas de suas equipes estão ausentes da listagem na grade de visão geral do teams.
 
-**Causa**: esse problema ocorre quando a equipe foi atribuída incorretamente (ou ainda não) pelo sistema que pode resultar em uma propriedade ausente para que ele seja reconhecida.
+**Causa**: esse problema ocorre quando a equipe era incorretamente (ou ainda não) Profile pelo sistema, que pode levar a uma propriedade ausente para ser reconhecida.
 
-**Resolução: Definir a propriedade manualmente o valor correto via MS Graph**
+**Resolução: definir manualmente a propriedade como o valor correto via MS Graph**
 
-Substitua **{groupid}** na consulta referente a GroupId real em questão, que você pode obter via o powershell do Exchange Online, o cmdlet **"[Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** , como o atributo "**ExternalDirectoryObjectId**".
+Substitua **{GroupId}** na consulta para o GroupId em questão real, que você pode obter por meio do PowerShell do Exchange Online, com o cmdlet **"[Get-](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)unificado"** , como o atributo "**ExternalDirectoryObjectId**".
 
-1. Acesso do [Explorer do gráfico](https://developer.microsoft.com/en-us/graph/graph-explorer)
+1. [Gerenciador de gráficos](https://developer.microsoft.com/en-us/graph/graph-explorer) do Access
 
-2. Entrar no Explorer do gráfico no menu à esquerda
+2. Entrar no explorador de gráficos no menu à esquerda
 
-3. Altere a linha de consulta para: gt _ do PATCH gt _ v 1.0https://graph.microsoft.com/v1.0/groups/{groupid}
+3. Alterar a linha da consulta para: PATCH > v 1.0 >https://graph.microsoft.com/v1.0/groups/{groupid}
 
 4. Adicione o seguinte valor no corpo da solicitação: {"resourceProvisioningOptions": ["equipe"]}
 
-5. Execute a consulta na parte superior direita.
+5. Execute a consulta no canto superior direito.
 
-6. Confirmar que a equipe seja exibido corretamente no Centro de administração do Microsoft Teams - visão geral da equipe
+6. Confirmar que a equipe é exibida corretamente no centro de administração do Microsoft Teams-visão geral da equipe
 
 
 ## <a name="learn-more"></a>Saiba mais
 
-[Referência do cmdlet Teams da Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
+[Referência do cmdlet do Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
 [Funções de administrador no Microsoft Teams](using-admin-roles.md)
 <!--
 [Plan for Teams Lifecycle Management](plan-for-teams-lifecycle-management.md)

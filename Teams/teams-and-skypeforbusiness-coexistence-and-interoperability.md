@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c10a5fd2a1a172410a69362687146ba50cd69529
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 06655b8c43bb912409b2a1c6a42d7509f45bf651
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344566"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548793"
 ---
 ![Estágios da jornada da atualização, com ênfase no estágio de definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da jornada da atualização, com ênfase no estágio de definição do projeto")
 
@@ -66,7 +66,7 @@ Assim que a sua organização estiver pronta para alguns ou todos os usuários u
 
 Para saber mais sobre como migrar para o modo somente equipes, consulte [Considerações sobre o modo](teams-only-mode-considerations.md)Microsoft Teams.
 
-![Cliente do Skype for Business executado em um modo especial após o usuário ser atualizado como usuário do Microsoft Teams-only] (media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Cliente do Skype for Business executado em um modo especial após o usuário ser atualizado como usuário do Microsoft Teams-only")
+![Captura de tela da mensagem de confirmação do teams] (media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Cliente do Skype for Business executado em um modo especial após o usuário ser atualizado como usuário do Microsoft Teams-only")
 
 ### <a name="skype-for-business-with-teams-collaboration-this-mode-is-upcoming"></a>Skype for Business com colaboração do Teams (esse modo é próximo)
 
@@ -105,11 +105,11 @@ Dependendo dos modos de coexistência atribuídos aos usuários (conforme descri
 
 - Os usuários do Skype for Business podem conversar com usuários do Microsoft Teams e vice-versa. Um chat de interoperabilidade precisa passar por um gateway de interoperabilidade que faz parte dos serviços de nuvem do Teams (e, portanto, só existe online). Chats de interoperabilidade são texto sem formatação: não há suporte para Rich Text e emoticons. Os usuários do teams são notificados de que a conversa é uma conversa de interoperabilidade; uma notificação semelhante para os usuários do Skype for Business será fornecida em breve.
 
-![Experiência de chat de interoperabilidade do teams] (media/Interop_chat_experience_from_Teams.png "Experiência de chat de interoperabilidade do teams")
+![Captura de tela da experiência de chat] de interoperabilidade do teams (media/Interop_chat_experience_from_Teams.png "Experiência de chat de interoperabilidade do teams")
 
 - Os usuários do Skype for Business podem fazer chamadas com voz e com vídeo individuais para usuários do Teams e vice-versa.
 
-![Experiência de chamadas interoperabilidade do teams] (media/Interop_calling_experience_from_Teams.png "Experiência de chamadas interoperabilidade do teams")
+![Captura de tela da experiência de chamadas Interop do teams] (media/Interop_calling_experience_from_Teams.png "Experiência de chamadas interoperabilidade do teams")
 
 > [!Important]
 > As experiências de interoperabilidade com uma implantação local do Skype for Business exigem que o ambiente local esteja no modo híbrido com o Office 365 Skype for Business. Para obter detalhes, consulte [orientação de migração e](https://aka.ms/SkypeToTeams-Interop)interoperabilidade.

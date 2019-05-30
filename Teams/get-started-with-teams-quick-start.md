@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 870dcc05d174dd7f2e7b14f05b4be56ad1ce86ea
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 38b2b5e263347dd97a20da2ca7ea00068cb341c7
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827721"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433116"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introdução ao Microsoft Teams
 
@@ -29,7 +29,7 @@ Para começar a usar o Teams rapidamente, recomendamos que você crie duas ou tr
 
 O Teams permite reunir rapidamente uma equipe com pessoas de dentro e fora da organização, conversar com outras pessoas para gerar conversas rápidas e inclusivas, compartilhar e co-autorizar documentos com segurança e realizar iterações em projetos. Para personalizar o Teams, adicione acesso rápido às observações compartilhadas, páginas da Web e aplicativos. Use as reuniões e chamadas para colaborar em tempo real a partir dos locais onde os usuários se encontram. O Teams simplificará seu acesso aos serviços do Office 365 e a aplicativos de terceiros para ser o novo centro de gravidade para suas necessidades de colaboração e comunicação. Incentive seus usuários pioneiros a instalar os aplicativos móveis e de área de trabalho para aprimorar a experiência e receber os comentários mais precisos.
 
-![Introdução ao Teams](media/get-started-microsoft-teams.png "Captura de tela exibindo o cliente de área de trabalho do Teams e o cliente móvel da interface do usuário" ) 
+![Captura de tela mostrando a captura de tela das interfaces](media/get-started-microsoft-teams.png "de usuário do cliente móvel e da área de trabalho mostrando a interface de usuário do cliente de área de trabalho do Teams" ) 
 
 Veja aqui como implementar o primeiro conjunto de equipes e canais para que seus usuários iniciais possam começar a usar o chat, compartilhamento de arquivos e colaboração.
 

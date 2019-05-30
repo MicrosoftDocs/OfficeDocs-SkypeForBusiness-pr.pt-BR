@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o Skype for Business para usar outro idioma na saudação da mensagem de voz padrão de sua organização. '
-ms.openlocfilehash: f36ab76f0a83fc71f9d7ca668020dcd30f4808d6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5502bea261e3313bed2dae854ca23d6a27f4f8b8
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283452"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494566"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Alterar o idioma padrão de saudações e emails
 
@@ -51,11 +51,11 @@ Se você é [Administrador global do Office 365](https://support.office.com/arti
     
 2. No centro de administração do Microsoft 365, escolha **configurações** > **perfil da organização**. 
     
-     ![Choose Settings and then choose Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![Captura de tela mostrando a escolha de configurações e o perfil da organização.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. Escolha **Editar**.
     
-    ![Escolha Editar.](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
+    ![Captura de tela mostrando a opção de edição.](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
   
 4. Selecione um idioma na lista **Idioma preferencial** para todas as pessoas em sua organização.
     

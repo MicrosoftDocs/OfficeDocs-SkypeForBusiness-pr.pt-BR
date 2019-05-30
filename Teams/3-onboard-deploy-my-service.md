@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90f49b3da1aec6d5f81f43674db5bc8cdb3822aa
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 2c4652e27caf207b1af275ecc1fae0d0daa8598b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344697"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548362"
 ---
 # <a name="deploy-my-service"></a>Implantar meu serviço
 
@@ -64,7 +64,7 @@ O foco do guia estratégico é abordar os fatores que influenciam a percepção 
 
 O [Guia de ativação do site para voz (guia estratégico)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) é uma pasta de trabalho do Microsoft Excel. Cada uma dessas cinco áreas de foco é uma planilha separada na pasta de trabalho, e cada tarefa de implantação e atividade é agrupada em uma dessas planilhas.
 
-![Captura de tela do guia estratégico] (media/deploy-my-service-image1.png "Captura de tela do guia estratégico")
+![Captura de tela do guia de capacitação do site] (media/deploy-my-service-image1.png "Captura de tela do guia estratégico")
 
 > [!NOTE]
 > Você criará uma instância separada do guia estratégico para cada site em escopo para a distribuição da sua equipe.
@@ -88,8 +88,8 @@ Independentemente do tamanho e da complexidade do local, a habilitação de cada
 5. Examine cada atividade, execute as ações necessárias e atualize o status enquanto percorre a linha do tempo. O status é representado graficamente, conforme descrito abaixo:
   
    - ![Ilustração de uma marca](media/deploy-my-service-image3.png) de seleção verde **Sim ou não aplicável (verde):** a atividade foi concluída ou não é aplicável para este site, e nenhuma ação adicional é necessária.</li>
-    - ![Ilustração de um ponto](media/deploy-my-service-image4.png) de exclamação amarelo <strong>a atividade ainda não foi concluída (amarela):</strong> a atividade ainda não foi concluída e deve ser atualizada para Sim ou não em seu cronograma.</li>
-   - ![Ilustração de um X](media/deploy-my-service-image5.png) vermelho <strong>não (vermelho):</strong> a atividade não pode ser concluída devido a um problema e deve ser transportada para a reunião de status do projeto.</li></ul>
+   - ![Ilustração de um ponto](media/deploy-my-service-image4.png) de exclamação amarelo <strong>a atividade ainda não foi concluída (amarela):</strong> a atividade ainda não foi concluída e deve ser atualizada para Sim ou não em seu cronograma.</li>
+   - ![Ilustração de uma marca](media/deploy-my-service-image5.png) X vermelha <strong>não (vermelho):</strong> a atividade não pode ser concluída devido a um problema e deve ser transportada para a reunião de status do projeto.</li></ul>
 
 6. O status é acumulado dentro de cada seção, e o título da seção é formatado com um desses indicadores de status. O **status semanal** também é atualizado automaticamente.
 
@@ -103,8 +103,8 @@ Independentemente do tamanho e da complexidade do local, a habilitação de cada
 Preste atenção às atividades que podem levar mais tempo do que você planejou, como portabilidade de números e atividades de compras. Essas atividades podem afetar negativamente a linha do tempo de implantação do site. Certifique-se de revisar e atualizar a lista de atividades e a linha do tempo associada semanalmente e apresentá-las em [reuniões de Comitê](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) de direcionamento para garantir que os interessados estejam cientes do status de cada site e dos possíveis desvios do cronograma de implantação.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida se o guia de habilitação de site é necessário para a sua implantação.</li><li>Decida quem será responsável por personalizar o guia de viabilização do site para o Microsoft Teams para cada site que você implantar.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Baixe o guia de capacitação do site</a>.</li><li>Personalize o guia de viabilização de sites para seu primeiro site.</li><li>Repita conforme necessário para sites adicionais.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida se o guia de habilitação de site é necessário para a sua implantação.</li><li>Decida quem será responsável por personalizar o guia de viabilização do site para o Microsoft Teams para cada site que você implantar.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Baixe o guia de capacitação do site</a>.</li><li>Personalize o guia de viabilização de sites para seu primeiro site.</li><li>Repita conforme necessário para sites adicionais.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

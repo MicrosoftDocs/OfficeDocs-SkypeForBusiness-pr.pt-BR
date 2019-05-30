@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a78ed7e0bb40d83f7b46d4d4a008f964180c32d0
-ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
+ms.openlocfilehash: 855029001863b6603548c865d5f7bfb039261a18
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2019
-ms.locfileid: "34185291"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494828"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams
 ===========================================================
@@ -39,7 +39,7 @@ Os usuários poderão diferenciar as chamadas recebidas de um atendedor automát
 
 A ilustração a seguir mostra como uma chamada de entrada de um atendedor automático ou fila de chamadas aparecerá para um usuário.
 
-![Notificação de chamada recebida](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![Captura de tela de uma notificação de chamada de entrada](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
 Quando um atendedor automático ou uma chamada de fila de chamada for respondido, o usuário poderá processar a chamada como qualquer outra chamada & # x2014; Eles podem adicionar ou enviar uma conferência em outro usuário ou transferir a chamada para outra pessoa. Além disso, as chamadas de atendedor automático serão encaminhadas com base na configuração do usuário.
 

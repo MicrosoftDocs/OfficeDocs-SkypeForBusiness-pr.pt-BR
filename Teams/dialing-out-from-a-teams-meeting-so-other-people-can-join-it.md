@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Saiba o que você precisa e como os organizadores da reunião podem fazer chamadas para outras pessoas que usam o Microsoft Teams.
-ms.openlocfilehash: b02a395277762c4bbd731bd839fdedc395042502
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f4eb5cd784af7bec6f8b2c19f50b7574745ef2b1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281889"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548920"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Discar de uma reunião do Microsoft Teams para que outras pessoas possam ingressar
 
@@ -43,10 +43,10 @@ Ao discar para alguém, recomendamos que você faça isso usando números de tel
 
 Veja como fazer para discar para funcionar:
 
- **Etapa 1:** Na reunião, use a](media/add-people-button.png) opção **Adicionar** ![pessoas que adicionam pessoas para discar para um número de telefone.
+ **Etapa 1:** Na reunião, use a captura de tela **adicionar pessoas** ![da opção de botão](media/add-people-button.png) adicionar pessoas para discar para um número de telefone.
  **Etapa 2:** Digite o número de telefone completo, incluindo o código de país/região na caixa **convidar alguém ou discar um número** .
   
-![Convidar alguém ou discar uma caixa de número](media/invite-someone-box.png)
+![Captura de tela da caixa convidar alguém ou discar um número](media/invite-someone-box.png)
     
 ## <a name="supported-countries-and-regions"></a>Países e regiões aceitos
 

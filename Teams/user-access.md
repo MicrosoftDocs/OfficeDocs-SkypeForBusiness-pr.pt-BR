@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e61a4456d926c8d939769e49968a79943c1138b4
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 377e5ca917db9a0f628e8b045e179e1925e524f1
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433275"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493751"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gerenciamento do acesso de usuários ao Microsoft Teams
 =====================================
@@ -70,8 +70,8 @@ Para desabilitar o Microsoft Teams para todos os usuários com uma licença ativ
 
 | | | |
 |---------|---------|---------|
-|![Ícone de ponto de decisão.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Ponto de decisão         |<ul><li>Qual é o plano da sua organização para o enquadro de equipes em toda a organização?  (Piloto ou Aberto)</li></ul>         |
-|![Ícone de próximos passos.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Próximos passos         |<ul><li>Se estiver integração por meio de um piloto fechado, decida se deseja fazer isso por meio de licenciamento ou comunicação direcionada.</li><li>Dependendo da decisão, siga as etapas para garantir que somente os usuários pilotos que têm permissão para acessar o Microsoft Teams (se necessário).</li><li>Documentar as diretrizes para as quais os usuários que (ou não terão) terão acesso ao Microsoft Teams.</li></ul>         |
+|![Um ícone representando um ponto de decisão](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Ponto de decisão         |<ul><li>Qual é o plano da sua organização para o enquadro de equipes em toda a organização?  (Piloto ou Aberto)</li></ul>         |
+|![Um ícone que representa as próximas etapas](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Próximos passos         |<ul><li>Se estiver integração por meio de um piloto fechado, decida se deseja fazer isso por meio de licenciamento ou comunicação direcionada.</li><li>Dependendo da decisão, siga as etapas para garantir que somente os usuários pilotos que têm permissão para acessar o Microsoft Teams (se necessário).</li><li>Documentar as diretrizes para as quais os usuários que (ou não terão) terão acesso ao Microsoft Teams.</li></ul>         |
 
 ## <a name="manage-teams-at-the-office-365-tenant-level"></a>Gerenciar equipes no nível do locatário do Office 365
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
