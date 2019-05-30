@@ -1,6 +1,6 @@
 ---
-title: Teams para Varejo
-description: Use esses recursos para gerenciar equipes para sua organização de varejo.
+title: Teams para o Varejo
+description: Use estes recursos para gerenciar o Teams para sua organização de varejo.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -12,16 +12,16 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddf825a1d0fac734f9418c6f7a0b7933de322424
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 82d51d5f96163d98f327e1597a1a76e4a11ef9b0
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245726"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494526"
 ---
-# <a name="teams-for-retail"></a>Teams para Varejo
+# <a name="teams-for-retail"></a>Teams para o Varejo
 
-Use os recursos de administração aqui para gerenciar e aproveitar ao máximo as equipes de sua força de trabalho e lojas de varejo.
+Use os recursos de administração aqui para gerenciar e aproveitar ao máximo o Teams para suas lojas de varejo e seus funcionários.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -31,7 +31,7 @@ Use os recursos de administração aqui para gerenciar e aproveitar ao máximo a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough"/>
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="Icon depicting a map, representing getting started"/>
                         </div>
                     </div>
                     <div class="cardText">
