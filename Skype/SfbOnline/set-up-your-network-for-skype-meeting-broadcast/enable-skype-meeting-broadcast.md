@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Antes que as pessoas em sua organização possam usar a transmissão de reunião do Skype, você precisa habilitá-la. Para fazer isso, você precisa saber como usar o Windows PowerShell. Se você não conhece o Windows PowerShell, considere contratar um Parceiro Microsoft para realizar essa etapa para você.
-ms.openlocfilehash: f1a672bc8d3b0ce957a32691270293551e1a1409
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 066aeb3d3217cb61ebcd0323b342c88d0b99caee
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494031"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591625"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Habilitar a Transmissão de Reunião do Skype
 
@@ -34,11 +34,11 @@ Antes que as pessoas em sua organização possam usar a transmissão de reunião
 
 ![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
 
-1. Entre usando sua conta de administrador global do Office 365 em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
+1. Entre com sua conta de administrador global do Office 365 ou uma conta de administrador do [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)Skype for Business em.
     
-2. No Centro de Administração do Office 365 vá para **Centros de Administração** > **Skype for Business**.
+2. No centro de administração do Office 365, vá para**equipes**de **centros** > de administração.
     
-3. No **centro de administração do Skype for Business**, vá para reuniões **online** > **transmitir reuniões**e, em seguida, selecione **habilitar transmissão de reunião do Skype**.
+3. No **centro de administração**do Teams, vá para reuniões**online** > do **portal** > herdado**reuniões de transmissão**e selecione **habilitar transmissão de reunião do Skype**.
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Habilitar a Transmissão de Reunião do Skype usando o PowerShell
 

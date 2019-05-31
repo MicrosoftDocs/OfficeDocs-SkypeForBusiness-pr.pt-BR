@@ -15,14 +15,16 @@ description: Saiba como gerenciar atribuições no centro de administração do 
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 188f4398136c2939ad2a84d75ab27942a5a4593b
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 22c53433548715fdc2a84a0f45ce0c3fc02d7b98
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433427"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591716"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tarefas do Teams for Education
+
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 As atribuições são tarefas ou unidades de trabalho atribuídas a um membro do aluno ou da equipe em uma classe como parte do estudo. Você pode criar tarefas dentro da classe Teams.
 
@@ -63,13 +65,17 @@ Para habilitar o TurnItIn com êxito para sua organização, você precisará te
 Aqui estão algumas instruções para ajudá-lo a obter essas informações.
 
 O TurnitinApiUrl é o endereço de host do seu console de administração.
-![Captura de tela mostrando o endereço do host](./educationImages/Assignments_mopo_turnitin1.png)
+Exemplo. https:[]()//Your-Tenant-Name.TurnItIn.com
 
-Vá para a guia integrações e adicione uma integração.
+O console de administração é onde você pode criar uma integração e uma chave de API associada à integração.
+
+Selecione **integrações** no menu do lado e, em seguida, selecione **Adicionar integração** e dê um nome à integração.
 ![Captura de tela mostrando a adição de uma nova integração](./educationImages/Assignments_mopo_turnitin2.png)
 
-O TurnitinApiKey será atribuído a você depois de seguir as instruções. Copie essa chave e cole-a no centro de administração do Microsoft Teams. 
+O TurnitinApiKey será atribuído a você depois de seguir as instruções. Copie a chave da API e cole-a no centro de administração do Microsoft Teams.  Esta é a única vez que você pode ver a chave.
 ![Captura de tela mostrando a cópia da chave de API](./educationImages/Assignments_mopo_turnitin3.png)
+
+Ao clicar no botão **salvar** no centro de administração para esta configuração, aguarde até 24 horas para que essas configurações entrem em vigor.
 
 [Saiba mais sobre a integração entre o TurnItIn e o Microsoft Teams](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
 
