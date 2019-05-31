@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Saiba mais sobre as políticas de configuração de aplicativos no Microsoft Teams e como usá-las para fixar aplicativos para personalizar o Microsoft Teams para usuários em sua organização.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: e26dc18f056f3493f6fcbdea2edee747d8abfa0b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: a7b0a9cf7e7ed4eee10d82882d2f17ca57939aa1
+ms.sourcegitcommit: e6ae322d96357fe4f9a7b447afca9d87563f4ba1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548817"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34592164"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -136,9 +136,7 @@ Lembre-se de que a loja de aplicativos do teams lista todos os aplicativos do Te
 
 #### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>Sou um administrador do Microsoft Teams para educação. O que preciso saber sobre as políticas de configuração de aplicativos no Teams for Education?
 
-- O aplicativo de chamada não está disponível no Teams for Education. Quando você cria uma nova política de configuração de aplicativo personalizada, o aplicativo de chamada é exibido na lista de aplicativos. No entanto, o aplicativo não está fixado a clientes do Teams e o Microsoft Teams para que os usuários de educação não vejam o aplicativo chamadas no Teams. 
-
-- Atualmente, as alterações de política não se refletem para os usuários do teams for Education no aplicativo Android do teams. Estamos trabalhando em uma nova versão do aplicativo que dá suporte a alterações de política para o Teams for Education.
+O aplicativo de chamada não está disponível no Teams for Education. Quando você cria uma nova política de configuração de aplicativo personalizada, o aplicativo de chamada é exibido na lista de aplicativos. No entanto, o aplicativo não está fixado a clientes do Teams e o Microsoft Teams para que os usuários de educação não vejam o aplicativo chamadas no Teams.
 
 #### <a name="how-many-apps-can-be-added-to-a-policy"></a>Quantos aplicativos podem ser adicionados a uma política?
 
