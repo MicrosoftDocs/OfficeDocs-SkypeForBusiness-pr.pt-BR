@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 826d2751f1b00c3c556d8f3760b6b94666cff4f7
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 7bc64d540fc2f885eabd43417edd728a5ef426f2
+ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493863"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34652742"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 
@@ -71,7 +71,7 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="An icon depicting users" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="An icon depicting two users" />
                         </div>
                     </div>
                     <div class="cardText">
