@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b66972ea4e0fe10ba19cdb96db0f0239ce63558
-ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
+ms.openlocfilehash: 04dab0b303ddea640a690c5592f8e4bc9973d1b5
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34159162"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548849"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar o acesso para convidado no Microsoft Teams
 ===========================================
@@ -91,11 +91,11 @@ Nos Grupos do Office 365, você pode controlar a adição de usuários convidado
     
 3. Selecione **Grupos do Office 365**.
     
-     ![Grupos do Office 365](media/authorize-guest-image2.png)
+     ![Captura de tela dos grupos do Office 365 em configurações](media/authorize-guest-image2.png)
   
 4. Na página de Grupos do Office 365, alterne entre **Ativado** e **Desativado**, conforme você desejar permitir que os proprietários de equipes e grupos fora da sua organização acessem grupos do Office 365. Clique ou toque no botão para defini-lo como **Ativado** ao lado de **Permitir que os proprietários do grupo adicionem pessoas fora da organização aos grupos**. Se você definir essa opção como **Ativado**, verá outra opção para controlar se deseja permitir que os proprietários de grupos e equipes adicionem pessoas fora de sua organização a grupos do Office 365 e equipes da Microsoft. Defina esta opção como **Ativado** se você quiser permitir que os proprietários de grupos e equipes adicionem usuários convidados. 
  
-   ![A captura de tela mostra o painel de Grupos do Office 365 com as opções habilitadas para permitir que membros de grupo de fora da organização acessem o conteúdo do grupo e para permitir que proprietários de grupos adicionem aos grupos pessoas externas à organização.](media/authorize-guest-image3.png)
+   ![Captura de tela do painel de grupos do Office 365 com as opções ativadas](media/authorize-guest-image3.png)
 
 Essas configurações se aplicam no nível do locatário e controlam a experiência do convidado nos Grupos do Office 365 e no Microsoft Teams.
 
