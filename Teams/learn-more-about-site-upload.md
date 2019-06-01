@@ -12,30 +12,30 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: Aprenda a carregar a um site.
+description: Saiba como carregar em um site.
 ms.custom:
 - NewAdminCenter_Update
 f1keywords: ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a9274952d74c3bf55943ed6b028fd630ab2078e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6e7e9211b207c008de22fe86ae0c7bb6c9f9ac51
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33921278"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667478"
 ---
 <a name="adding-and-updating-locations-data"></a>Adicionar e atualizar dados locais
 ============================
 
-Locais são usados em sua organização para indicar os locais físicos dos escritórios, prédios ou sites organizacionais. A página locais oferece os administradores a capacidade de fornecer um arquivo de texto (. csv ou. tsv) contendo uma lista de locais físicos e seus subredes associadas. Este arquivo é usado pelo análise de chamada e o painel de controle de qualidade de chamada para geração de relatórios. Quando os clientes carregar sua mapeamento de sub-rede, os relatórios fornecidos por esses serviços irá conter os nomes de local também, tornando os relatórios mais fácil de entender e usar para a correção de quaisquer problemas potenciais.
+Os locais são usados em sua organização para indicar os locais físicos de escritórios, prédios ou sites organizacionais. A página locais fornece aos administradores a capacidade de fornecer um arquivo de texto (. csv ou. tsv) que contém uma lista de locais físicos e suas sub-redes de rede associadas. Esse arquivo é usado pelo painel de análise de chamadas e de qualidade de chamada para gerar relatórios. Quando os clientes carregam o mapeamento de sub-rede, os relatórios fornecidos por esses serviços também contêm os nomes de localização, facilitando a compreensão e o uso dos relatórios para corrigir problemas em potencial.
 
-Os dados de locais fornecidos serão uma estrutura de dados único – no momento, não há nenhuma interface disponível faça edições individuais em dados de local. 
+Os dados de locais que você fornece são uma estrutura de dados única – atualmente, não há uma interface disponível para fazer edições individuais nos dados de localização. 
 
-**Editar a tabela de locais e sub-redes**
+**Para editar a tabela de sub-redes e locais**
 
-1. Clique em **Substituir os dados de locais**.
-2. No painel de **Substituir os dados de local** , clique em **Selecionar um arquivo**e, em seguida, navegue até e carregar seu. csv editadas ou o arquivo. tsv. 
+1. Clique em **substituir dados de localização**.
+2. No painel **substituir dados de local** , clique em **selecionar um arquivo**e, em seguida, navegue até o arquivo. csv ou. tsv editado e carregue-o. 
 3. Clique em **carregar**. 
 
 
@@ -44,17 +44,17 @@ Você pode baixar um modelo de exemplo [aqui](https://github.com/MicrosoftDocs/O
 Você pode usar o exemplo a seguir para ajudar a criar seu arquivo de dados. 
 
 > [!IMPORTANT]
-> O arquivo de dados não deve conter cabeçalhos de coluna (por exemplo, rede, o nome de rede, etc.). Eles são usados aqui apenas para fins informativos. </br>
+> Seu arquivo de dados não deve conter cabeçalhos de coluna (como rede, nome de rede, etc.). Eles são usados aqui apenas para fins informativos. </br>
 
-|Rede|Nome da rede|Intervalo de rede|Nome do edifício|Tipo de propriedade|Tipo de construção|Tipo de construção do Office|Cidade|Código Postal|País|Estado|Região|Interior Corp|Rota Express|
+|Rede|Nome da rede|Intervalo de rede|Nome do edifício|Tipo de propriedade|Tipo de edifício|Tipo de edifício de escritório|Cidade|Código Postal|País|Estado|Região|Inside Corp|Rota expressa|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso concessão RE&F|Office|RE&F|Modo de exibição das Montanhas|94043 e.u.a.|CONOSCO|CA|CONOSCO|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso concessão RE&F|Office|RE&F|Modo de exibição das Montanhas|94043 e.u.a.|CONOSCO|CA|CONOSCO|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso concessão RE&F|Office|RE&F|Modo de exibição das Montanhas|94043 e.u.a.|CONOSCO|CA|CONOSCO|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso concessão RE&F|Office|RE&F|Modo de exibição das Montanhas|94043 e.u.a.|CONOSCO|CA|CONOSCO|1|1|
+|10.0.128.0 |SVC-1|32|USCAMTV001|A contoso concedeu&F|Office|RE&F|Exibição de Mountain|94043|Junte|CA|Junte|1|1|
+|10.0.130.0 |SVC-1|32|USCAMTV001|A contoso concedeu&F|Office|RE&F|Exibição de Mountain|94043|Junte|CA|Junte|1|1|
+|10.0.131.0 |SVC-1|32|USCAMTV001|A contoso concedeu&F|Office|RE&F|Exibição de Mountain|94043|Junte|CA|Junte|1|1|
+|10.0.132.0 |SVC-1|32|USCAMTV001|A contoso concedeu&F|Office|RE&F|Exibição de Mountain|94043|Junte|CA|Junte|1|1|
 
 
-Para obter mais informações sobre a formatação de seu arquivo de dados, consulte o [formato e a estrutura do arquivo de dados de criação do arquivo de dados de Inquilino](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-building-data-file-structure).
+Para obter mais informações sobre como formatar seu arquivo de dados, consulte [formato de arquivo de dados do locatário e estrutura do arquivo de dados de construção](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure).
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

@@ -15,19 +15,19 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 941869edabc171fdf73eb9f2d0a11a2d3dacb1fd
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 5e293cb89875bcaf15172b698735bba86c00635b
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548179"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667470"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Localização de dados no Microsoft Teams
 
 Os dados no Microsoft Teams residem na região geográfica associada ao seu locatário do Office 365. Atualmente, o Teams é compatível com as regiões Austrália, Canadá, França, Índia, Japão, Reino Unido, EUA, Ásia e África do leste. 
 
 > [!IMPORTANT]
-> Atualmente, o Microsoft Teams oferece residência de dados na Austrália, no Canadá, na França, no Japão e no Reino Unido para novos locatários. Um novo locatário é definido como aquele que não teve nenhum usuário sequer entrando no Microsoft Teams. Os locatários existentes da Austrália, da Índia e do Japão continuarão a ter seus dados de equipe armazenados na região da Ásia. Os locatários existentes no Canadá continuarão a ter seus dados armazenados nas Américas. A França e o Reino Unido terão seus dados armazenados na região da EMEA.
+> Atualmente, o Microsoft Teams oferece residência de dados na Austrália, no Canadá, na França, no Japão e no Reino Unido para novos locatários. Um novo locatário é definido como aquele que não teve nenhum usuário sequer entrando no Microsoft Teams. Os locatários existentes da Austrália, da Índia e do Japão continuarão a ter seus dados de equipe armazenados na região da Ásia. Os locatários existentes no Canadá continuarão a ter seus dados armazenados nas Américas. Os locatários existentes na França e no Reino Unido terão seus dados armazenados na região da EMEA.
 
 Para saber mais sobre o lançamento da Índia e da residência de dados do Reino Unido para o Teams, leia a postagem de blog do Ansuman Acharya, [o Microsoft Teams inicia a residência de dados da Índia, outras GEOS em breve](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827). 
 

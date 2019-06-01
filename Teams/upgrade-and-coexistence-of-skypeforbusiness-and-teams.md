@@ -18,14 +18,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c750398a083eb55401a1a1150da4acc0cf525be
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 1aeefb4ed99e25b163cc91330e410b69c8d01282
+ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548322"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34652750"
 ---
-![Atualize o diagrama de jornada, enfatizando o estágio de implantação e implementação] (media/upgrade-banner-deployment.png "Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação")
+![Atualize o diagrama de viagem, enfatizando implantação e implementação] (media/upgrade-banner-deployment.png "Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação")
 
 Este artigo faz parte do estágio de implantação e implementação da sua jornada de atualização. Antes de prosseguir, confirme que você concluiu as seguintes atividades:
 
@@ -50,7 +50,7 @@ Quando alguns dos seus usuários estão prontos para usar apenas as equipes de s
 
 Se não for possível que toda a sua organização se movimente para o Teams, você pode começar por meio de equipes piloto juntamente com o Skype for Business no modo de coexistência de **ilhas** . Como os modos de coexistência adicionais, (isto é, o **Skype for Business com colaboração** do Teams e o **Skype for Business com Teams e reuniões**do Microsoft Teams) estão se tornando cada vez mais disponíveis nos próximos meses, você também pode começar por todos os detalhes adotar equipes como uma solução de colaboração em grupo primeiro, mantendo o Skype for Business como a solução de comunicação unificada da sua organização. Esse é o caminho recomendado pela Microsoft para clientes que usam o Skype for Business Server (local ou híbrido) e clientes com complexidade significativa, cuja trajetória para as equipes incluirá um período de coexistência longo.
 
-![Uma captura de tela de atualizar blocos de construção do Skype for Business para] o Teams (media/upgrade_journeys_building_block.png "Uma captura de tela de atualização de blocos de construção do Skype for Business para o Teams, que consiste no&ndash;Skype for Business com modo de colaboração do Microsoft Teams, o Skype for Business com o Microsoft Teams e o modo de reunião, modo de ilhas, modo somente para equipes e Skype para Modo&ndash;somente para empresas.")
+![Captura de tela de atualizar blocos de construção do Skype for Business para] o Teams (media/upgrade_journeys_building_block.png "Uma captura de tela de atualização de blocos de construção do Skype for Business para o Teams, que consiste no&ndash;Skype for Business com modo de colaboração do Microsoft Teams, o Skype for Business com o Microsoft Teams e o modo de reunião, modo de ilhas, modo somente para equipes e Skype para Modo&ndash;somente para empresas.")
 
 A tabela a seguir compara os modos de coexistência e atualização.
 

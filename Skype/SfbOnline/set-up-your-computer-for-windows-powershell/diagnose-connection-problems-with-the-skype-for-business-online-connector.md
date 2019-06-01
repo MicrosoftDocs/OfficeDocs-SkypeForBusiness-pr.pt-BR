@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Solucionar problemas de criação de uma sessão remota do PowerShell para se conectar ao Skype for Business Online, incluindo o módulo de importação, o Shell simultâneo, o Live ID e os erros de permissão.
-ms.openlocfilehash: be3fc4d3597e00ae2274bc8793a5f99091384713
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 267580b8a78ce0c0002e6830ba06cc4ae031e42c
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284863"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667378"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexão com o Conector do Skype for Business Online
 
@@ -42,10 +42,11 @@ Este tópico fornece informações que ajudarão você a diagnosticar e solucion
 - [O usuário não tem permissão para gerenciar esse locatário](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKUserPermission)
     
 - [A capacidade de conexão com o locatário foi desabilitada no Skype for Business Online](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
-    
-- [O número máximo de shells simultâneos para este usuário no Skype for Business online foi excedido](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKMaxNumberShellsUser)
-    
-- [O número máximo de shells simultâneos para este locatário no Skype for Business online foi excedido](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsTenant)
+
+- [O número máximo de shells simultâneos para este usuário no Skype for Business online foi excedido](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
+
+- [O número máximo de shells simultâneos para este locatário no Skype for Business online foi excedido](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
+
     
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Importar-erro de módulo causado pela política de execução do Windows PowerShell
 <a name="BKMKPowerShellExecutionPolicy"> </a>

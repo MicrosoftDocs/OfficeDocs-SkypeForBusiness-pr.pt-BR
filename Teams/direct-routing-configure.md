@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar o roteamento direto do sistema de telefonia da Microsoft.
-ms.openlocfilehash: ce3fff5205a2cb78c1d409ae8595a50c73f70aaf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5835357a283c80c4dc5a99310ab2d527e55a8bdb
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290441"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667494"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -38,7 +38,7 @@ Recomendamos que você confirme que o seu SBC já foi configurado como recomenda
 
 Você pode configurar seu sistema telefônico da Microsoft e permitir que os usuários usem o roteamento direto e, em seguida, configurar o Microsoft Teams como o cliente de chamada preferencial, completando os seguintes procedimentos: 
 
-- [Emparelhar o SBC com um sistema telefônico da Microsoft e validar o emparelhamento](#pair-the-sbc-to-direct-routing-service-of-phone-system)
+- [Emparelhar o SBC com um sistema telefônico da Microsoft e validar o emparelhamento](#pair-the-sbc-to-the-direct-routing-service-of-phone-system)
 - [Habilitar usuários para o serviço de roteamento direto](#enable-users-for-direct-routing-service)
 - [Garantir que o Microsoft Teams seja o cliente de chamadas preferencial para os usuários](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
@@ -446,7 +446,7 @@ A tabela a seguir resume as designações de uso de política de roteamento "sem
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Somente EUA|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Roteiro ativo para números de chamada + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
 |Somente EUA|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Rota de backup para números do chamado + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
-|Somente EUA|"Outro + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>. contoso. biz|Rota para números de chamada + 1 XXX XXX XX XX (exceto + 1 425 XXX XX XX ou + 1 206 XXX XX XX)|
+|Somente EUA|"Outro + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>. contoso.biz|Rota para números de chamada + 1 XXX XXX XX XX (exceto + 1 425 XXX XX XX ou + 1 206 XXX XX XX)|
 |International|International|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|Rota para qualquer padrão de número |
 
 
