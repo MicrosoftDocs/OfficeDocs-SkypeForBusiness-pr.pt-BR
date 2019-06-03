@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8dc365921871f8c39c9189571bee0214f4316c08
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1a86aa13c826b9b741aed936e134c6df90c8ed66
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236050"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667486"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipes, canais e aplicativos no Microsoft Teams
 
@@ -29,7 +29,7 @@ O Teams oferece uma excelente experiência de colaboração pronta para uso para
 > [!TIP]
 > É recomendável incluir os aplicativos em destaque, como o Planner, na implementação inicial do Teams. Adicionar outros [aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md) ao direcionar a adoção do Teams.
 
-## <a name="chat-deployment-prerequisites"></a>Pré-requisitos de implantação do chat 
+## <a name="chat-deployment-prerequisites"></a>Pré-requisitos de implantação do chat
 
 Antes de implementar o Teams em sua organização, reserve algum tempo para confirmar se seu ambiente está preparado para receber o Teams. Examine as informações a seguir e faça as alterações necessárias em seu ambiente.
 
@@ -159,7 +159,7 @@ Ao planejar uma implantação corporativa do Teams, você deve levar em consider
 
 ### <a name="office-365-urls-and-ports"></a>URLs e portas do Office 365
 
-As organizações que mantêm um controle refinado de seu tráfego da Internet devem ler [URLs do Office 365 e intervalos de endereços IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) para obter uma lista atualizada de URLs, endereços IP, portas e protocolos que devem ser configurados corretamente para o Teams. A Microsoft está aprimorando continuamente o serviço do Office 365 e acrescentando novas funcionalidades; assim, as portas, as URLs e os endereços IP necessários podem mudar com o passar do tempo. Recomendamos que você se inscreva via RSS para receber notificações quando essas informações forem atualizadas ou alteradas. Pelo menos, verifique se abriu as portas listadas acima em [Pré-requisitos da implantação](#deployment-prerequisites).
+As organizações que mantêm um controle refinado de seu tráfego da Internet devem ler [URLs do Office 365 e intervalos de endereços IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) para obter uma lista atualizada de URLs, endereços IP, portas e protocolos que devem ser configurados corretamente para o Teams. A Microsoft está aprimorando continuamente o serviço do Office 365 e acrescentando novas funcionalidades; assim, as portas, as URLs e os endereços IP necessários podem mudar com o passar do tempo. Recomendamos que você se inscreva via RSS para receber notificações quando essas informações forem atualizadas ou alteradas. Pelo menos, verifique se abriu as portas listadas acima em [Pré-requisitos da implantação do chat](#chat-deployment-prerequisites).
 
 |Pergunte-se|Ação |
 |------------|-------|
