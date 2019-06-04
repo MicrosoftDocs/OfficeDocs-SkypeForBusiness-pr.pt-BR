@@ -17,12 +17,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar políticas e configurações personalizadas do aplicativo para controlar quem em sua organização pode carregar aplicativos personalizados no Microsoft Teams.
-ms.openlocfilehash: c1aa7489761fb27f525fbb6eb8f2056ae3dd33c8
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 443bc9390634d19590baa736a8f005aeeb1d15a4
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548657"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681963"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Gerencie políticas e configurações de aplicativo personalizado no Microsoft Teams
 
