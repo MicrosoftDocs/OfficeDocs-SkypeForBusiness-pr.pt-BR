@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a5a17f729c8899c5fb7f7f97a65f9bc36c3080
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 43d830429d983947f43aa11119801aef803f03f9
+ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591635"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34694743"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -61,6 +61,14 @@ O botão de reunião do teams é exibido nas versões mais recentes do iOS e do 
 ![Captura de tela do suplemento de reunião do teams no Outlook Mobile](media/teams-meeting-add-in-mobile.png)
 
 As coordenadas da reunião (as equipes que ingressam em links de discagem e números de discagem) serão adicionadas ao convite de reunião após o usuário clicar em **Enviar**.  
+
+## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Suplemento de reunião do Microsoft Teams e localizar no Outlook
+Findtime é um suplemento do Outlook que ajuda os usuários a alcançar um consenso em um horário de reunião entre as empresas. Depois que os convidados da reunião tiverem fornecido seus horários preferenciais, o Findtime envia o convite de reunião para o nome do usuário. Se a opção de **reunião online** for selecionada em findtime, localizartime agendará uma reunião do Skype for Business ou do Microsoft Teams. (Localizartime usará o que tiver sido definido por sua organização como o canal de reunião online padrão.)
+
+> [!NOTE]  
+> Se você salvou uma configuração do Skype for Business no [painel findtime](https://findtime.microsoft.com/UserDashboard), findtime usará isso em vez do Microsoft Teams. Se você quiser usar o Microsoft Teams, exclua a configuração do Skype for Business no painel.
+
+Consulte [agendar reuniões com](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6) o findtime para obter mais informações.
 
 ## <a name="authentication-requirements"></a>Requisitos de autenticação
 

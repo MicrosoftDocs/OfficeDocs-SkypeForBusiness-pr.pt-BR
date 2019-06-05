@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c71b789684d6d40ab9eb67e0464f8dc46ae0e96
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b8c28f3eac5bdfbd8542a77dca5386d27663d8c5
+ms.sourcegitcommit: 3678dbbc8c36010fbf12c57b52281ef4fca9f065
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299677"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34695937"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -30,14 +30,14 @@ Este artigo descreve alguns dos limites, as especificações e outros requisitos
 
 |Recurso    | Limite máximo |
 |-----------|---------------|
-|Número de equipes que um usuário pode criar | Sujeito a uma limit&sup1 de objeto de 250;         |
+|Número de equipes que um usuário pode criar | Sujeito a um limite de objeto do 250&SUP1;         |
 |Número de membros em uma equipe | 5.000       |
 |Número de membros em uma [equipe de toda a organização](create-an-org-wide-team.md) | 5.000       |
 |Número de equipes que um administrador global pode criar        |  500.000   |
-|Número de equipes que um locatário do Office 365 pode ter    | 500, 000&sup2;     |
+|Número de equipes que um locatário do Office 365 pode ter    | 500.000&sup2;     |
 |Número de canais por equipe    | 200 (inclui canais excluídos) &sup3;         |
 
-&sup1; Qualquer objeto de diretório no Azure Active Directory conta em direção a esse limite. Os administradores globais são isentos desse limite, assim como os aplicativos que chamam o Microsoft Graph usando [permissões de aplicativo](https://docs.microsoft.com/graph/permissions-reference).
+&SUP1; Qualquer objeto de diretório no Azure Active Directory conta em direção a esse limite. Os administradores globais são isentos desse limite, assim como os aplicativos que chamam o Microsoft Graph usando [permissões de aplicativo](https://docs.microsoft.com/graph/permissions-reference).
 
 &sup2; Esse limite inclui equipes arquivadas.
 
@@ -64,7 +64,7 @@ Como as equipes são executadas em um back-end do SharePoint Online para compart
 |------------------------|---------|---------|---------|---------|---------|---------|
 |SPS                 |1 TB por organização, mais 10 GB por licença adquirida  |1 TB por organização, mais 10 GB por licença adquirida  |1 TB por organização, mais 10 GB por licença adquirida   |1 TB por organização, mais 10 GB por licença adquirida |1 TB por organização, mais 10 GB por licença adquirida  |1 TB por organização           |
 |Armazenamento de arquivos do teams |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |
-|Limite de carregamento de arquivo       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
+|Limite de carregamento de arquivos (por arquivo)    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
 Cada guia arquivos no Teams é executada em um back-end do SharePoint Online, portanto, os limites de armazenamento acima se aplicam a cada canal de uma equipe.
 

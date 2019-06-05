@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: A Microsoft está desativando o serviço online de Unificação de mensagens do Exchange (ExchUMO) em fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: ba9df18478057e9c32b0f2cea70a10c6c7ab36e8
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 785c80b435bfff5b8a9cda3fca17d57756d06091
+ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494185"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34702677"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
@@ -48,7 +48,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 |---------|---------|---------|
 |Clientes que estão prontos para migrar<br><br>Recursos a serem migrados:<br><ul><li>Caixa postal</ul>   |   Março – maio de 2019  |Exemplos<ul><li>    Clientes com implantação e uso simples de correio de voz<li>Clientes que têm todos os requisitos estabelecidos pela Microsoft para executar a migração<ul>|
 |Clientes com pré-requisitos<br><br>Recursos a serem migrados:<br><ul><li>Caixa postal<li>Atendedor automático</ul> |  Maio – Dezembro de 2019 |Exemplos <br><ul><li>A configuração híbrida não é estabelecida/concluída<li>Os números PSTN híbridos não estão configurados</ul>|
-|Clientes que exigem envolvimento do administrador & investimento do cliente<br><br>Recursos a serem migrados:<ul><li>caixa<li>Atendedor automático<li>Integração de fax</ul>| Até fevereiro de 2020  | Exemplos <br><ul><li>O serviço ExchUMO é consumido pelo PBX com terceiros<li>Clientes com requisitos de acesso do assinante PSTN<li>Clientes no SFB 2010 (não suportados)<li>Integração de fax</ul> |
+|Clientes que exigem envolvimento da administração & investimento do cliente<br><br>Recursos a serem migrados:<ul><li>caixa<li>Atendedor automático<li>Integração de fax</ul>| Até fevereiro de 2020  | Exemplos <br><ul><li>O serviço ExchUMO é consumido pelo PBX com terceiros<li>Clientes com requisitos de acesso do assinante PSTN<li>Clientes no SFB 2010 (não suportados)<li>Integração de fax</ul> |
 
 ## <a name="migration-steps"></a>Etapas de migração
 
@@ -173,6 +173,10 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 | Fax| Recursos do serviço | Integração de fax|  | N | Y    |
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Plano de teste sugerido e validação após a migração para administradores
+
+Para confirmar se os usuários foram migrados para o correio de voz na nuvem, basta deixar um correio de voz para um usuário e verificar o corpo da mensagem no Outlook, as mensagens de correio de voz em nuvem têm um rodapé adicional que lê:
+
+**Obrigado por usar a transcrição! Se você não vir uma transcrição acima, é porque a qualidade do áudio não era clara o suficiente para transcrever.**
 
 Ao testar a funcionalidade de correio de voz após a migração dos usuários, considere os seguintes cenários:
 

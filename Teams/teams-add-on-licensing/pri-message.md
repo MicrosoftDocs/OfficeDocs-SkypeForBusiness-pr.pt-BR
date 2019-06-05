@@ -17,15 +17,15 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: Saiba mais sobre licenças de complemento, recursos e como comprar o Office 365 ProPlus.
-ms.openlocfilehash: 8330ac282fd5bc4c64d6f31140b2989143214370
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+description: Saiba mais sobre notificações de prioridade em mensagens do Microsoft Teams.
+ms.openlocfilehash: a50e9413e83b59295d46fc98562f95b8a6ce7fda
+ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/04/2019
-ms.locfileid: "34692300"
+ms.locfileid: "34702692"
 ---
-# <a name="priority-notifications"></a>Notificações de prioridade
+# <a name="messaging-policies-licensing"></a>Licenciamento de políticas de mensagens
 
 A partir de 1 ° de janeiro de 2020, os usuários licenciados poderão enviar notificações de prioridade de acordo com os termos da assinatura. Os administradores de ti receberão relatórios sobre o uso de notificações de prioridade para dar suporte ao licenciamento de usuário apropriado.
 

@@ -11,60 +11,72 @@ MS.collection:
 - M365-collaboration
 ms.reviewer: karvell
 search.appverid: MET150
-description: O administrador de TI pode configurar acesso externo para outros domínios (federação) permitir que os usuários desses domínios participar de equipes.
+description: Seu administrador de ti pode configurar o acesso externo para outros domínios (Federação) para permitir que os usuários desses domínios participem da equipe.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98dc47ec66861d2f0c77c0eff45851c09e8bc353
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 3f6a3dc6016eb52d58e82e9e9022d1bb8575404b
+ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33356184"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34702716"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Gerenciar o acesso externo (federação) no Microsoft Teams
 ======================================================
 
-Com o acesso externo de Teams da Microsoft, os usuários de outros domínios podem participar de sua bate-papos e chamadas. Você também pode permitir que usuários externos que ainda estejam usando Skype para Business Online ou Skype para negócios prem participar. 
+Com o acesso externo ao Microsoft Teams, os usuários de outros domínios podem participar de chats e chamadas. Você também pode permitir que usuários externos que ainda estejam usando o Skype for Business online ou o Skype for Business no local para participar. 
 
-Acesso externo (federação) e o acesso de convidado são diferentes:
+O acesso externo (Federação) e o acesso de convidado são diferentes:
 
-- Acesso de convidado concede permissão de acesso a um indivíduo. Acesso externo concede permissão de acesso a um domínio inteiro.
+- O acesso de convidado concede permissão de acesso a um indivíduo. O acesso externo oferece permissão de acesso a um domínio inteiro.
 
-- Acesso de convidado, uma vez concedido por um proprietário de equipe, permite que um convidado para [acessar recursos](guest-experience.md), como discussões de canal e de arquivos, para uma equipe específico e bate-papo com outros usuários na equipe de que foram convidados para. Com o acesso externo (federado bate-papo), os participantes externos chat não têm acesso para equipes ou os recursos da equipe da organização convidando. Eles só podem participar de bate-papo federado individuais. Administradores de Inquilino podem escolher entre as opções de dois comunicação, dependendo de qual nível de colaboração é desejável com o participante externo. Os administradores podem escolher abordagens ou ambos, dependendo de suas necessidades organizacionais, mas recomendamos que permitindo o acesso de convidado para uma experiência mais completa de equipes colaborativo. 
+- O acesso de convidado, uma vez concedido por um proprietário de equipe, permite que um convidado [acesse recursos](guest-experience.md), como discussões e arquivos de canal, para uma equipe específica e converse com outros usuários na equipe em que foram convidados. Com o acesso externo (chat federado), os participantes do chat externo não têm acesso às equipes ou aos recursos da equipe que convida a organização. Eles podem participar apenas de um chat federado único. Os administradores de locatários podem escolher entre as duas opções de comunicação, dependendo do nível de colaboração que é desejável na parte externa. Os administradores podem escolher abordagens ou ambos, dependendo de suas necessidades organizacionais, mas recomendamos habilitar o acesso de convidado para obter uma experiência de equipes mais abrangente e colaborativa. 
 
-Consulte a tabela para obter uma comparação de externos e convidado para acessar os recursos a seguir.
+Consulte a tabela a seguir para obter uma comparação de recursos de acesso externo e de convidado.
 
 | Recurso | Usuários de acesso externo | Usuários de acesso de convidado |
 |---------|-----------------------|--------------------|
-| Usuário puder conversar com alguém em outra empresa | Sim |Sim |
-| Usuário pode chamar alguém em outra empresa | Sim | Sim |
-| Usuário poderá ver se alguém de outra empresa está disponível para o bate-papo ou chamada | Sim | Sim<sup>1</sup> |
-| Usuários podem pesquisar para usuários por meio de inquilinos externos | Sim<sup>2</sup> | Não |
-| Usuário pode compartilhar arquivos | Não | Sim |
-| Usuário pode acessar os recursos de equipes | Não | Sim |
-| Usuário pode ser adicionado a um chat de grupo | Não | Sim |
-| Usuário pode ser adicionado a uma reunião | Sim | Sim |
-| Usuários adicionais podem ser adicionados a uma conversa com um usuário externo | Nenhum<sup>3</sup> | N/D |
-| Usuário é identificado como um participante externo | Sim | Sim |
-| A presença é exibida | Sim | Sim |
-| Ausência temporária mensagem é mostrada | Não | Sim |
-| Usuário individual poderão ser bloqueado. | Não | Sim |
-| @mentions são suportados | Não | Sim |
+| O usuário pode conversar com alguém em outra empresa | Sim |Sim |
+| O usuário pode fazer uma chamada para alguém em outra empresa | Sim | Sim |
+| O usuário pode ver se alguém de outra empresa está disponível para chamada ou chat | Sim | Sim<sup>1</sup> |
+| O usuário pode pesquisar usuários em locatários externos | Sim<sup>2</sup> | Não |
+| O usuário pode compartilhar arquivos | Não | Sim |
+| O usuário pode acessar os recursos da equipe | Não | Sim |
+| O usuário pode ser adicionado a um chat em grupo | Não | Sim |
+| O usuário pode ser adicionado a uma reunião | Sim | Sim |
+| Outros usuários podem ser adicionados a um chat com um usuário externo | Não<sup>3</sup> | N/D |
+| O usuário é identificado como uma festa externa | Sim | Sim |
+| A presença será exibida | Sim | Sim |
+| Mensagem de ausência temporária é mostrada | Não | Sim |
+| O usuário individual pode ser bloqueado | Não | Sim |
+| @mentions têm suporte | Não | Sim |
+| Fazer chamadas privadas | Sim | Sim |
+| Permitir vídeo IP | Sim | Sim |
+| Modo de compartilhamento de tela | Sim | Sim |
+| Permitir reunião agora | Não | Sim |
+| Editar mensagens enviadas | Sim | Sim |
+| Pode excluir mensagens enviadas | Sim | Sim |
+| Usar o Giphy em conversa | Sim | Sim |
+| Usar o memes em conversa | Sim | Sim |
+| Usar adesivos em conversa | Sim | Sim |
 ||||
 
-<sup>1</sup> fornecida que o usuário foi adicionado como um convidado e tiver entrado no como convidado para o inquilino de convidado.<br>
-<sup>2</sup> somente por email ou endereço de protocolo de iniciação de sessão (SIP).<br>
-<sup>3</sup> bate-papo (federado) externo é 1:1 somente.
+<sup>1</sup> desde que o usuário tenha sido adicionado como um convidado e esteja conectado como convidado ao locatário de convidado.<br>
+<sup>2</sup> somente por endereço de email ou protocolo de iniciação de sessão (SIP).<br>
+<sup>3</sup> o chat externo (federado) só é o 1:1.
 
-## <a name="turn-on-or-turn-off-external-access-users-can-communicate-with-skype-for-business-and-teams-users"></a>Ativar ou desativar o acesso externo (os usuários podem se comunicar com Skype para usuários empresariais e equipes)
+> [!NOTE]
+> Para obter mais informações sobre os recursos convidados e sobre a experiência de convidado, consulte [Ativar ou desativar o acesso de convidado ao Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-guests) e o [que a experiência de convidado é curtir](https://docs.microsoft.com/microsoftteams/guest-experience).
 
-Você pode usar o & Teams Microsoft Skype para centro de administração de negócios para gerenciar o acesso externo.
+## <a name="turn-on-or-turn-off-external-access-users-can-communicate-with-skype-for-business-and-teams-users"></a>Ativar ou desativar o acesso externo (os usuários podem se comunicar com os usuários do Skype for Business e do Teams)
 
-1. Na & Teams Microsoft Skype para Business Admin Center, selecione **configurações de toda a organização** > **acesso externo**.
+Você pode usar o centro de administração do Microsoft Teams & o Skype for Business para gerenciar o acesso externo.
 
-     ![Captura de tela de acesso externo de configurações de toda a organização](media/manage-external-access-1.png).
+1. No centro de administração do Microsoft Teams & o centro de administração do Skype for Business, selecione >  **configurações de toda a organização****acesso externo**.
 
-2. Alterne a chave **usuários podem se comunicar com Skype para usuários empresariais e equipes** para **ativada** ou **desativada**.
+     ![Captura de tela de acesso externo às configurações de toda a organização](media/manage-external-access-1.png).
+
+2. Alternar os **usuários podem se comunicar com o Skype for Business e os usuários** do teams alternar para **ativado** ou **desativado**.
 
      ![Captura de tela da opção de acesso externo ativada](media/manage-external-access-2.png).
 
@@ -74,25 +86,25 @@ Você pode usar o & Teams Microsoft Skype para centro de administração de neg�
 
 Siga estas etapas para adicionar um domínio ou desativar o acesso externo para um domínio.
 
-1. Na & Teams Microsoft Skype para Business Admin Center, selecione **configurações de toda a organização** > **acesso externo**.
+1. No centro de administração do Microsoft Teams & o centro de administração do Skype for Business, selecione >  **configurações de toda a organização****acesso externo**.
 
 2. Selecione **Adicionar um domínio**. 
  
-    ![Página de acesso a captura de tela do externo com adicionar um link de domínio](media/manage-external-access-3.png).
+    ![Captura de tela da página de acesso externo com o link adicionar um domínio](media/manage-external-access-3.png).
 
-   O painel de **Adicionar um domínio** aparece.
+   O painel **Adicionar um domínio** é exibido.
 
-    ![Captura de tela de adicionar um painel de domínio](media/manage-external-access-4.png).
+    ![Captura de tela do painel Adicionar um domínio](media/manage-external-access-4.png).
 
 
-3. Em **Adicionar um domínio**, digite o nome do domínio; Por exemplo, digite Contoso.com.
+3. Em **Adicionar um domínio**, digite o nome do domínio; por exemplo, digite Contoso.com.
 
 4. Selecione **Permitido** ou **Bloqueado**. Você pode alterar essa configuração a qualquer momento.
 
 2. Selecione **concluído**.
 
-Depois de adicionar um domínio, você verá o nome de domínio e o status adicionado à lista de domínios na página de acesso externo.
+Depois de adicionar um domínio, você verá o nome de domínio e o status adicionados à lista de domínios na página de acesso externo.
 
 ## <a name="more-information"></a>Mais informações
 
-Para obter informações sobre o acesso de convidado no Teams da Microsoft, consulte [Gerenciar o acesso de convidado em equipes da Microsoft](manage-guests.md).
+Para obter informações sobre o acesso de convidado no Microsoft Teams, consulte [gerenciar o acesso de convidados no Microsoft Teams](manage-guests.md).

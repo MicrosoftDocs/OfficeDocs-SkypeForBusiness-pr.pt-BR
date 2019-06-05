@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Microsoft Teams.
-ms.openlocfilehash: b3d1db5b89c88784761d5bcef3a5400eeabdabe5
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 5b86f0790bc1e212126429afcfe030239c8e956c
+ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681886"
+ms.locfileid: "34702700"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
@@ -86,7 +86,7 @@ Use as configurações a seguir para alterar a política de mensagens globais ou
 - **Permitir visualizações de URL** Use essa configuração para ativar ou desativar a visualização automática de URL nas mensagens.
 - **Permitir que os usuários traduzam mensagens** Ative essa configuração para permitir que os usuários traduzam mensagens de equipe automaticamente para o idioma especificado pelas configurações de idioma pessoal do Office 365.
 - **Permitir leitura avançada para exibição de mensagens** Ative essa configuração para permitir que os usuários exibam mensagens na leitura avançada da Microsoft. Leitura avançada é uma ferramenta de aprendizagem que oferece uma experiência de leitura de tela inteira para aumentar a legibilidade do texto.
-- **Os usuários podem enviar notificações de prioridade** Se você ativar isso, os usuários poderão enviar uma mensagem que usa notificações de prioridade. As notificações de prioridade notificam os usuários repetidamente por um período de 20 minutos ou até que as mensagens sejam retiradas e lidas pelo destinatário, maximizando a probabilidade de que a mensagem seja retirada e lidas em tempo hábil. [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **Os usuários podem enviar notificações de prioridade** Se você ativar isso, os usuários poderão enviar uma mensagem que usa notificações de prioridade. As notificações de prioridade notificam os usuários repetidamente por um período de 20 minutos ou até que as mensagens sejam retiradas e lidas pelo destinatário, maximizando a probabilidade de que a mensagem seja retirada e lidas em tempo hábil.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
 - **Criação de mensagem de voz** 
     - **Permitido em chats e canais** Isso significa que os usuários podem deixar mensagens de voz em chats e canais.
     - **Permitido somente em chats** Isso significa que os usuários podem deixar mensagens de voz em chats, mas não em canais.
