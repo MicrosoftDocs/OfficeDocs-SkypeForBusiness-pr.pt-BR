@@ -4,7 +4,7 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 08/28/2018
+ms.date: 06/04/2019
 audience: Admin
 ms.topic: reference
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 123dd884f2cbb2e2085c76df9739fa41349a8f1a
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: ed73135210cd970e6ee489d0f2eb095e0ab65e0c
+ms.sourcegitcommit: 04c819504e23f9e3a618b57d54411ffb83888fb9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330416"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34739955"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware para o aplicativo Microsoft Teams
 
@@ -40,8 +40,8 @@ ms.locfileid: "34330416"
 |Versão do .NET    |  Requer o .NET 4,5 CLR ou posterior       |
 |Vídeo    |  Câmera de vídeo USB 2,0       |
 |Dispositivos    |   Câmera de laptop padrão, microfone e alto-falantes    | 
-|Reuniões e chamadas com vídeo | Para ter uma experiência melhor com chamadas com vídeo e reuniões online, recomendamos usar um computador com um processador de 2,0 GHz e 4,0 GB de RAM (ou superior). O desfoque opcional meu efeito de vídeo **em segundo plano** requer um processador com suporte a Advanced vector Extensions 2 (AVX2). |
-|Eventos ao vivo do teams | Se você estiver produzindo um evento ao vivo do Teams, recomendamos usar um computador com um processador Core i5 KABY Lake, 4,0 GB de RAM (ou superior) e codificador de hardware.  |
+|Reuniões e chamadas com vídeo | Para ter uma experiência melhor com chamadas com vídeo e reuniões online, recomendamos usar um computador com um processador de 2,0 GHz e 4,0 GB de RAM (ou superior). O desfoque opcional meu efeito de vídeo **em segundo plano** requer um processador com suporte a Advanced vector Extensions 2 (AVX2). Consulte [recomendações de driver](hardware-decoders-and-encoders.md) de codificador e codificador de hardware para obter uma lista de codificadores e codificadores sem suporte. |
+|Eventos ao vivo do teams | Se você estiver produzindo um evento ao vivo do Teams, recomendamos usar um computador com um processador Core i5 KABY Lake, 4,0 GB de RAM (ou superior) e codificador de hardware. Consulte [recomendações de driver](hardware-decoders-and-encoders.md) de codificador e codificador de hardware para obter uma lista de codificadores e codificadores sem suporte. |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Requisitos de hardware para o aplicativo da área de trabalho Teams em um Mac
 
@@ -54,7 +54,7 @@ ms.locfileid: "34330416"
 |Sistema operacional  |    Mac OS X 10,11 El Capitan ou posterior     |
 |Vídeo  |    Webcam compatível     |
 |Voz    |  Microfone e alto-falantes compatíveis, fone de ouvido com microfone ou dispositivo equivalente       |
-|Reuniões e chamadas com vídeo | Para melhor experiência com chamadas com vídeo e reuniões online, recomendamos usar um computador com um processador de 2,0 GHz e 4,0 GB de RAM (ou superior). O desfoque opcional meu efeito de vídeo em segundo plano requer um processador com suporte a Advanced vector Extensions 2 (AVX2), compatível nos mais recentes dispositivos Mac do 2013 e mais tarde.
+|Reuniões e chamadas com vídeo | Para melhor experiência com chamadas com vídeo e reuniões online, recomendamos usar um computador com um processador de 2,0 GHz e 4,0 GB de RAM (ou superior). O desfoque opcional meu efeito de vídeo em segundo plano requer um processador com suporte a Advanced vector Extensions 2 (AVX2), compatível nos mais recentes dispositivos Mac do 2013 e mais tarde. Consulte [recomendações de driver](hardware-decoders-and-encoders.md) de codificador e codificador de hardware para obter uma lista de codificadores e codificadores sem suporte.|
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Requisitos de hardware para o aplicativo Teams em dispositivos móveis
 

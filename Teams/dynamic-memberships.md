@@ -7,51 +7,51 @@ ms.reviewer: kblevens, phlouie
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
-description: Saiba mais sobre a associação de equipe dinâmica com base em AAD.
+description: Saiba mais sobre associações dinâmicas a equipes com base no AAD.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e9da5b5bc9c1bb5800634d727bd6c9218812ab
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: beb93d1bd369d98743ad54b9f5753278dea36ed8
+ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245411"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748431"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Visão geral da associação dinâmica de equipes
 
-Microsoft Teams suporta as equipes associadas a grupos de Office 365 usando a participação dinâmica. Participação dinâmica permite a associação de uma equipe sejam definidos por uma ou mais regras que verificam para alguns atributos de usuário no Windows Azure Active Directory (AAD). Automaticamente, a usuários forem adicionados ou removidos para as equipes corretas como alterar os atributos de usuário ou usuários entram e saem de locatário.
+O Microsoft Teams dá suporte a equipes associadas a grupos do Office 365 usando associação dinâmica. Associação dinâmica permite que a associação de uma equipe seja definida por uma ou mais regras que verificam certos atributos de usuário no Azure Active Directory (AAD). Os usuários são automaticamente adicionados ou removidos às equipes corretas à medida que os atributos do usuário mudam ou fazem o usuário ingressar e deixar o locatário.
 
-Com associação dinâmica, que você pode a instalação para determinadas equipes colaboradores de usuários em sua organização. Os possíveis cenários incluem:
-- Um hospital pode criar equipes distintas para enfermeiros, os médicos e cirurgiões difusão de comunicações. Isso é especialmente importante se hospital depende de funcionários temporários.
-- Uma universidade pode criar uma equipe para todo o Corpo Docente dentro de uma faculdade específico, incluindo um corpo docente prestado que muda com frequência.
-- Uma companhias quer criar uma equipe para cada aéreas (como uma terça-feira tarde contínuas de Chicago para Atlanta) e ter um crew aéreas muda com frequência automaticamente atribuídos ou removidos conforme necessário.
+Com associação dinâmica, você pode configurar equipes para determinados cohorts de usuários em sua organização. Os cenários possíveis incluem:
+- Um hospital pode criar equipes distintas para surgeonss, médicos e para transmitir comunicações. Isso é especialmente importante se o hospital depende de funcionários temporários.
+- Uma universidade pode criar uma equipe para todos os professores dentro de uma faculdade específica, incluindo um docente Adjunct que muda com frequência.
+- Uma companhia aérea quer criar uma equipe para cada voo (como uma tarde de terça-feira de terça-feira de Chicago para Atlanta) e ter uma equipe de voo que muda com frequência automaticamente atribuída ou removida conforme necessário.
 
-Usar esse recurso, a atualização de membros da equipe de um determinado automaticamente com base em um conjunto específico de critérios, em vez de gerenciar manualmente a associação. Esse procedimento exige o Windows Azure AD Premium P1 licenças e participação na equipe pode ser [atribuído por um administrador proprietário](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) para as propriedades do usuário, qualquer AAD fornecido a que você tem uma conta de administrador e de um inquilino. 
+Usando esse recurso, uma determinada atualização dos membros da equipe com base em um conjunto específico de critérios, em vez de gerenciar manualmente a associação. Isso exige que as licenças do Azure AD Premium e a associação da equipe possam ser [atribuídas por um administrador locatário](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) às propriedades AAD de qualquer usuário, contanto que você tenha um locatário e uma conta de administrador. 
 
-Microsoft Teams pode levar alguns minutos até 2 horas para refletir as alterações de associação dinâmica depois que eles entrem em vigor no grupo Office 365 para uma equipe. 
+O Microsoft Teams pode levar alguns minutos de até 2 horas para refletir as alterações de associação dinâmica quando entrarem em vigor no grupo do Office 365 para uma equipe. 
 
 > [!NOTE]
-> - Regras podem definir quem é um membro da equipe, mas não quem é uma proprietário de equipe.
-> - Consulte [limites e as especificações para equipes da Microsoft](limits-specifications-teams.md) para atuais limites de tamanhos de equipe e de canal.
-> - Proprietários não será capazes de adicionar ou remover usuários como membros da equipe, como membros são definidos pelas regras de grupo dinâmico.
-> - Membros não poderão deixar equipes feitas por grupos dinâmicos.
+> - As regras podem definir quem é um membro da equipe, mas não quem é o proprietário da equipe.
+> - Consulte [limites e especificações do Microsoft Teams](limits-specifications-teams.md) para obter os limites atuais sobre tamanhos de canal e equipe.
+> - Os proprietários não poderão adicionar ou remover usuários como membros da equipe, pois os membros são definidos por regras de grupo dinâmico.
+> - Os membros não poderão deixar a equipe apoiada por grupos dinâmicos.
 
 
-## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>Criando e gerenciando um grupo do Office 365 com participação dinâmica
-Enquanto logado como o administrador de locatário, siga as instruções em [um grupo dinâmico de criar e verificar o status](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Conforme necessário, consulte [regras de participação dinâmicas para grupos do Active Directory do Windows Azure](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).
+## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>Criando e gerenciando um grupo do Office 365 com associação dinâmica
+Enquanto estiver conectado como administrador de locatários, siga as instruções em [criar um grupo dinâmico e verificar o status](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Conforme necessário, consulte [regras de associação dinâmica para grupos no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).
 
-## <a name="create-a-new-team-with-your-o365-group"></a>Criar uma nova equipe com seu grupo de O365
+## <a name="create-a-new-team-with-your-o365-group"></a>Criar uma nova equipe com seu grupo do O365
 
-Agora, reserve um tempo para as alterações de associação entre em vigor e crie uma nova equipe, conforme descrito em [grupos de aprimorar existente Office 365 com as equipes da Microsoft](enhance-office-365-groups.md).
+Agora, aguarde o tempo para as alterações de associação entrarem em vigor e crie uma nova equipe, conforme descrito em aprimorar os [grupos existentes do Office 365 com o Microsoft Teams](enhance-office-365-groups.md).
 
-## <a name="apply-dynamic-membership-to-an-existing-team"></a>Aplicar a participação dinâmica para uma equipe existente
+## <a name="apply-dynamic-membership-to-an-existing-team"></a>Aplicar associação dinâmica a uma equipe existente
 
-Você também pode levar uma equipe existente e alterá-lo para ter uma associação dinâmica, conforme descrito em [alterar a associação de grupo estático para dinâmico no Windows Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type).
+Você também pode pegar uma equipe existente e alterá-la para ter uma associação dinâmica, conforme descrito em [Alterar Associação de grupo estático para dinâmico no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-change-type).
 
-## <a name="changes-in-client-behavior"></a>Alterações no comportamento dos clientes
+## <a name="changes-in-client-behavior"></a>Alterações no comportamento do cliente
 
-Depois que a associação dinâmica estiver habilitada para uma equipe, os clientes de equipes não são mais permitirá que o gerenciamento de membros da equipe. Opções para adicionar membros, edite as funções de membro, enviar e aprovar solicitações de ingresso e deixar a equipe todos estão ocultas.
+Depois que a associação dinâmica estiver habilitada para uma equipe, os clientes do Teams não permitirão mais o gerenciamento de membros da equipe. Opções para adicionar membros, editar funções de membro, enviar e aprovar solicitações de junção e deixar a equipe estar oculta.

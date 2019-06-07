@@ -1,5 +1,5 @@
 ---
-title: Presença do usuário no Microsoft Teams
+title: Presença do usuário no Teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fd6ac289df238d9f410266b1eca43a3a18f493e
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 30b50972dd53300905f580c51a410d699ebb1bff
+ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548521"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748439"
 ---
-# <a name="user-presence-in-teams"></a>Presença do usuário no Microsoft Teams
+# <a name="user-presence-in-teams"></a>Presença do usuário no Teams
 
 A presença faz parte do perfil de um usuário no Microsoft Teams (e durante todo o Office 365) – e indica a disponibilidade e o status atuais do usuário para outros usuários da organização. Por padrão, qualquer pessoa em sua organização que use o Teams pode ver-em quase tempo real, independentemente de outros usuários estarem disponíveis online.
 
@@ -34,13 +34,13 @@ Os Estados de presença do usuário disponíveis no Teams são:
 |:--- |:---|
 | ![Marca de Chek verde estável, indicando presença disponível](media/Presence_Available.png) Disponível|![Marca de Chek verde estável, indicando presença disponível](media/Presence_Available.png) Disponível|
 || ![Abrir marca Chek verde, indicando OOF disponível](media/Presence_Available_OOF.png) Disponível, fora do escritório |
-|  ![Círculo vermelho sólido, indicando ocupado](media/Presence_Busy.png) Executando |  ![Executando](media/Presence_Busy.png) Executando  |
+|  ![Círculo vermelho sólido, indicando ocupado](media/Presence_Busy.png) Executando |  ![Círculo vermelho sólido, indicando ocupado](media/Presence_Busy.png) Executando  |
 || ![Círculo vermelho sólido, que indica ocupado em uma chamada](media/Presence_Busy.png) Em uma chamada|
 || ![Círculo vermelho sólido, que indica ocupado em uma reunião](media/Presence_Busy.png) Em uma reunião |
 || ![Abrir círculo vermelho, indicando OOF indisponível](media/Presence_Busy_OOF.png) Em uma chamada, fora do escritório|
 |  ![Círculo vermelho com linha branca, indicando não incomodar](media/Presence_DND.png) Não incomodar ||
 || ![Círculo vermelho com linha branca, indicando a apresentação](media/Presence_DND.png) Fazendo|
-| ![Ícone de relógio amarelo, indicando ausente](media/Presence_Away.png) Aparece| ![aparece](media/Presence_Away.png) Aparece|
+| ![Ícone de relógio amarelo, indicando ausente](media/Presence_Away.png) Aparece| ![Ícone de relógio amarelo, indicando ausente](media/Presence_Away.png) Aparece|
 || ![Ícone de relógio amarelo, que](media/Presence_Away.png) indica o último *horário* visto ausente|
 |![Ícone de relógio amarelo, indicando ausente, volto logo](media/Presence_Away.png) Volto logo| |
 || ![Ícone de relógio amarelo, indicando ausente, fora do trabalho](media/Presence_Away.png)  Longe do trabalho|
@@ -60,9 +60,9 @@ Os usuários podem especificar quem pode interromper (entre em contato com eles 
 
 As seguintes configurações de administração do Skype for Business são diferentes no Teams:
 - O compartilhamento de presença sempre está habilitado no Teams para usuários da organização. Privacidade (decidindo quem pode ver a presença) a configuração não está disponível no Microsoft Teams.
-- O compartilhamento de presença com todos (incluindo serviços federados) sempre está habilitado para usuários do teams. Sua lista de contatos (se tivesse uma em SfB) fica visível em **contatos do chat >** ou em **chamadas > contatos**.
+- O compartilhamento de presença com todos (incluindo serviços federados) sempre está habilitado para usuários do teams. Sua lista de contatos (se ela já tinha uma no Skype for Business) fica visível em **contatos de Chat >** ou em **chamadas > contatos**.
 - Cliente não incomodar e recursos revolucionários sempre são habilitados para usuários do teams.
-- Calendário (inclui OOF & outras informações de calendário) a integração sempre é habilitada para usuários do Teams, se integradas ao Outlook.
+- Calendário (inclui ausência temporária e outras informações do calendário) a integração sempre é habilitada para usuários do Teams, se integradas ao Outlook.
 - A *última vista* ou *ausente desde* (se em um ambiente duplo com o Skype for Business) indicador sempre é habilitado para usuários do teams.
 
 > [!NOTE]
