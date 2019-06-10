@@ -4,7 +4,6 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: phlouie
 manager: serdars
-ms.date: 09/27/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -15,22 +14,24 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b999419f8fec9c205ec9713181596fba1fb38999
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 6bb614de33f532dcf26d7522969911c46331297a
+ms.sourcegitcommit: 0278cfe7d5ec53e83df4d9c8b9afb0f425cbb9d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494041"
+ms.lasthandoff: 06/08/2019
+ms.locfileid: "34802642"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe englobando toda a organização no Microsoft Teams
 
-As equipes de toda a organização fornecem uma maneira automática para todos em uma organização de pequeno e médio porte fazer parte de uma única equipe para colaboração. 
+As equipes de toda a organização fornecem uma maneira automática para todos em uma organização de pequeno e médio porte fazer parte de uma única equipe para colaboração.
  
-Com as equipes de toda a organização, os administradores globais podem criar facilmente uma equipe pública que recebe cada usuário da organização e mantém a participação atualizada com o Active Directory, pois os usuários entram e saem da organização. Somente administradores globais podem criar equipes de toda a organização e, atualmente, uma equipe de toda a organização está limitada a organizações com no máximo 5.000 usuários. Se esses requisitos forem atendidos, os administradores globais verão **toda a organização** como uma opção quando selecionarem **criar uma equipe do zero** ao criar uma equipe. 
+Com as equipes de toda a organização, os administradores globais podem criar facilmente uma equipe pública que recebe cada usuário da organização e mantém a participação atualizada com o Active Directory, pois os usuários entram e saem da organização. Somente administradores globais podem criar equipes de toda a organização e, atualmente, uma equipe de toda a organização está limitada a organizações com no máximo 5.000 usuários. Também há um limite de cinco equipes de toda a organização por locatário.  Se esses requisitos forem atendidos, os administradores globais verão **toda a organização** como uma opção quando selecionarem **criar uma equipe do zero** ao criar uma equipe. 
 
 ![Captura de tela da opção de toda a organização para criar uma equipe de toda a organização] (media/create-org-wide-team.png "Captura de tela da opção de toda a organização para criar uma equipe de toda a organização")
 
-Quando uma equipe de toda a organização é criada, todos os administradores globais são adicionados como proprietários da equipe e todos os usuários ativos são adicionados como membros da equipe. Os usuários que estão desabilitados para equipes, usuários convidados e a maioria das salas não são adicionados à equipe. Como o diretório de sua organização é atualizado para incluir novos usuários ativos ou se os usuários não funcionarem mais em sua empresa e a licença do teams estiver desativada, as alterações serão sincronizadas automaticamente e os usuários serão adicionados ou removidos da equipe. Os membros da equipe não podem sair de uma equipe de toda a organização. Como proprietário da equipe, você pode adicionar ou remover usuários manualmente, se necessário.
+Quando uma equipe de toda a organização é criada, todos os administradores globais são adicionados como proprietários da equipe e todos os usuários ativos são adicionados como membros da equipe. Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entrar no Microsoft Teams, ele receberá uma licença de avaliação de nuvem comercial do Microsoft Teams. Para saber mais sobre a licença de avaliação, confira [gerenciar a oferta de avaliação de nuvem comercial do teams](iw-trial-teams.md). Os usuários que estão desabilitados para equipes, usuários convidados e a maioria das salas não são adicionados à equipe. 
+
+Como o diretório de sua organização é atualizado para incluir novos usuários ativos ou se os usuários não funcionarem mais em sua empresa e a licença do teams estiver desativada, as alterações serão sincronizadas automaticamente e os usuários serão adicionados ou removidos da equipe. Os membros da equipe não podem sair de uma equipe de toda a organização. Como proprietário da equipe, você pode adicionar ou remover usuários manualmente, se necessário.
 
 > [!NOTE]
 > - Se você não vir a opção de **toda** a organização ao criar uma equipe e se for um administrador global, o recurso ainda poderá ser implantado ou sua organização poderá ter mais do que o limite de tamanho atual de membros do 5.000. Estamos tentando aumentar esse limite no futuro.
@@ -40,9 +41,9 @@ Quando uma equipe de toda a organização é criada, todos os administradores gl
 Para aproveitar ao máximo sua equipe de toda a organização, recomendamos que os proprietários da equipe façam o seguinte.
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Permitir que apenas proprietários de equipe publiquem no canal geral
-Reduza o ruído do canal ao fazer com que apenas proprietários de equipes sejam postados ao canal geral. Vá para a equipe e clique em **mais opções (...)**  >  **Gerenciar equipe**. Na guia **configurações** , clique em **permissões de membro** > selecionar **somente os proprietários podem publicar mensagens**.
+Reduza o ruído do canal ao fazer com que apenas proprietários de equipes sejam postados ao canal geral. Vá para a equipe e clique em **̇ ̇ ̇ mais opções** > **Gerenciar equipe**. Na guia **configurações** , clique em **permissões de membro** > selecionar **somente proprietários podem publicar mensagens**.
 ### <a name="turn-off-team-and-team-name-mentions"></a>Desativar @team e @ [nome da equipe] menção
- Reduza @mentions para mantê-los sobrecarregando toda a organização. Vá para a equipe e clique em **mais opções (...)**  >  **Gerenciar equipe**. Na guia **configurações** , clique em <strong>@mention</strong> > desativar **mostrar membros a opção para @team ou @ [nome da equipe]**. 
+ Reduza @mentions para mantê-los sobrecarregando toda a organização. Vá para a equipe e clique em **̇ ̇ ̇ mais opções** > **Gerenciar equipe**. Na guia **configurações** , clique em <strong>@mentions</strong> > desativar **mostrar membros a opção para @team ou @ [nome da equipe]**. 
 ### <a name="automatically-favorite-important-channels"></a>Canais importantes favoritos automaticamente
  Canais importantes favoritos para garantir que todos em sua organização se envolvam em conversas específicas. Para saber mais, confira [canais de favoritos automáticos para toda a equipe](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
 
@@ -60,4 +61,4 @@ Se isso não for uma opção, você pode criar uma equipe pública usando o Powe
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>Existe uma maneira de converter uma equipe existente em uma equipe de toda a organização?
 
 Os administradores globais podem converter uma equipe existente em uma equipe de edição de toda a organização no cliente do teams.
-Vá para o nome da equipe e clique em mais opções... (reticências) > editar equipe.
+Vá para o nome da equipe, clique em **̇ ̇ ̇ mais opções** > **Editar equipe**.
