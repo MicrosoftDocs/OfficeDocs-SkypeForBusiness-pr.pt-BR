@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing the Web scheduler'
+---
+title: 'Lync Server 2013: testando o Agendador da Web'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing the Web scheduler
 ms:assetid: 58e34058-1afa-42e3-9096-c4ea1954c237
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn727304(v=OCS.15)
-ms:contentKeyID: 62388590
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727304(v=OCS.15)
+ms:contentKeyID: 63969603
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: beb4030a87302c8abaaba9418eaba06b831ed8d6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844609"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing the Web scheduler in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Testando o Agendador da Web no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-11-03_
 
 
 <table>
@@ -23,110 +43,140 @@ _**Tópico modificado em:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Cronograma de verificação</p></td>
+<td><p>Diário</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de Gerenciamento do Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsWebScheduler</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permissões necessárias</p></td>
+<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsWebScheduler</strong> . Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebScheduler&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsWebScheduler** cmdlet enables you to determine whether a specific user can schedule a meeting using the Web Scheduler. The Web Scheduler enables users who are not running Outlook to schedule online meetings. Among other things, this new feature (which incorporates the functionality found in the Web Scheduler tool that was included with the Microsoft Lync Server 2010 resource kit) enables users to:
+## <a name="description"></a>Descrição
 
-  - Schedule a new online meeting.
+O cmdlet **Test-CsWebScheduler** permite que você determine se um usuário específico pode agendar uma reunião usando o Web scheduler. O Web Scheduler permite que os usuários que não estão executando o Outlook agendem reuniões online. Entre outras coisas, esse novo recurso (que incorpora a funcionalidade encontrada na ferramenta do Agendador da Web incluída com o Microsoft Lync Server 2010 Resource Kit) permite que os usuários:
 
-  - List all meetings that he or she has scheduled.
+  - Agendar uma nova reunião online.
 
-  - View/modify an existing meeting.
+  - Listar todas as reuniões agendadas por ele ou ela.
 
-  - Delete an existing meeting.
+  - Exibir/modificar uma reunião existente.
 
-  - Send an email invitation to meeting participants by using a preconfigured SMTP mail server.
+  - Excluir uma reunião existente.
 
-  - Join an existing conference.
+  - Envie um convite por email para os participantes da reunião usando um servidor de email SMTP pré-configurado.
 
-## Running the test
+  - Ingressar em uma conferência existente.
 
-The following example verifies the Web Scheduler for the pool atl-cs-001.litwareinc.com. This command will work only if test users are defined for the pool atl-cs-001.litwareinc.com. If they have, then the command will determine whether the first test user can schedule an online meeting using the Web Scheduler.
+</div>
 
-If test users are not defined, then the command will fail because it won't know which user to log on as. If you have not defined test users for a pool, then you must include the UserSipAddress parameter and the credentials of the user the command should use when trying to log on.
+<div>
+
+## <a name="running-the-test"></a>Executar o teste
+
+O exemplo a seguir verifica o Agendador da Web para o conjunto de atl-cs-001.litwareinc.com. Esse comando funcionará apenas se os usuários de teste estiverem definidos para o pool atl-cs-001.litwareinc.com. Se eles tiverem, o comando determinará se o primeiro usuário de teste pode agendar uma reunião online usando o Web scheduler.
+
+Se os usuários de teste não estiverem definidos, o comando falhará porque não saberá qual usuário deve fazer logon. Se você não definiu usuários de teste para um pool, deve incluir o parâmetro UserSipAddress e as credenciais do usuário que o comando deve usar quando tentar fazer logon.
 
     Test-CsWebScheduler -TargetFqdn "atl-cs-001.litwareinc.com"
 
-The commands shown in the next example test the ability of a specific user (litwareinc\\kenmeyer) to schedule an online meeting using the Web scheduler. To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credential object that contains the name and password of the user Ken Meyer. (Because the logon name litwareinc\\kenmeyer is included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Ken Meyer account.) The resulting credential object is then stored in a variable named $cred1.
+Os comandos mostrados no próximo exemplo testam a capacidade de um usuário específico (\\litwareinc kenmeyer) agendar uma reunião online usando o Web scheduler. Para fazer isso, o primeiro comando do exemplo usa o cmdlet **Get-Credential** para criar um objeto de credencial da interface de linha de comando do Windows PowerShell que contém o nome e a senha do usuário Ken Meyer. (Como o nome de logon\\litwareinc kenmeyer está incluído como um parâmetro, a caixa de diálogo solicitação de credenciais do Windows PowerShell exige que o administrador digite a senha da conta Ken Meyer.) O objeto Credential resultante é armazenado em uma variável chamada $cred 1.
 
-The second command then checks whether this user can log on to the pool atl-cs-001.litwareinc.com and schedule an online meeting. To run this task, the **Test-CsWebScheduler** cmdlet is called, together with three parameters: TargetFqdn (the FQDN of the Registrar pool); UserCredential (the Windows PowerShell object that contains Pilar Ackerman’s user credentials); and UserSipAddress (the SIP address that corresponds to the supplied user credentials).
+Em seguida, o segundo comando verifica se este usuário pode fazer logon no pool atl-cs-001.litwareinc.com e agendar uma reunião online. Para executar essa tarefa, o cmdlet **Test-CsWebScheduler** é chamado, juntamente com três parâmetros: TargetFqdn (o FQDN do pool de registrador); Usercredential (o objeto do Windows PowerShell que contém as credenciais de usuário de pilar Alverca); e UserSipAddress (o endereço SIP correspondente às credenciais de usuário fornecidas).
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsWebScheduler -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-## Determining success or failure
+</div>
 
-If the web scheduler is configured correctly , you'll receive output similar to this, with the Result property marked as **Success**:
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
 
-Target Uri : https:// atl-cs-001.litwareinc.com.
+Se o Web Scheduler estiver configurado corretamente, você receberá uma saída semelhante a isso, com a propriedade Result marcada como **Success**:
+
+FQDN de destino: atl-cs-001.litwareinc.com
+
+URI de destino: https://atl-cs-001.litwareinc.com.
 
 litwareinc.com:443/Scheduler
 
-Result : Success
+Resultado: êxito
 
-Latency : 00:00:00
+Latência: 00:00:00
 
-Error Message :
+Mensagem de erro:
 
-Diagnosis :
+Correto
 
-If the web scheduler is not configured correctly, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+Se o Web Scheduler não estiver configurado corretamente, o resultado será mostrado como uma **falha**, e informações adicionais serão gravadas nas propriedades de erro e diagnóstico:
 
-WARNING: Failed to read Registrar port number for the given fully qualified
+Aviso: falha ao ler o número da porta do registrador para o número da porta de dados totalmente qualificado
 
-domain name (FQDN). Using default Registrar port number. Exception:
+FQDN (nome de domínio). Usando o número da porta do registrador padrão. Extremamente
 
-System.InvalidOperationException: No matching cluster found in topology.
+System. InvalidOperationException: nenhum cluster correspondente localizado na topologia.
 
-at
+como
 
-Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri
+Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryRetri
 
-eveRegistrarPortFromTopology(Int32& registrarPortNumber)
+eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Target Fqdn : atl-cs-001.litwareinc.com
+FQDN de destino: atl-cs-001.litwareinc.com
 
-Target Uri :
+URI de destino:
 
-Result : Failure
+Resultado: falha
 
-Latency : 00:00:00
+Latência: 00:00:00
 
-Error Message : No matching cluster found in topology.
+Mensagem de erro: nenhum cluster correspondente localizado na topologia.
 
-Diagnosis :
+Correto
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why **Test-CsWebScheduler** might fail:
+<div>
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-  - This command will fail if the Web Scheduler is misconfigured or not yet deployed.
+Aqui estão alguns motivos comuns pelos quais **Test-CsWebScheduler** pode falhar:
 
-## Consulte Também
+  - Um valor de parâmetro incorreto foi fornecido. Se usado, os parâmetros opcionais devem ser configurados corretamente ou o teste falhará. Execute o comando novamente sem os parâmetros opcionais e veja se isso é bem-sucedido.
 
-#### Outros Recursos
+  - Esse comando falhará se o Web Scheduler estiver configurado incorretamente ou ainda não foi implantado.
 
-[Set-CsWebServer](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServer)
+</div>
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Set-CsWebServer](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServer)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,106 +1,189 @@
-﻿---
-title: "Lync Server 2013: Usando o portal adm. da Web do Sistema de Salas do Lync"
-TOCTitle: Usando o portal administrativo da Web do Sistema de Salas do Lync
-ms:assetid: c387b2a3-3e42-4642-af72-88126ed2820f
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn743660(v=OCS.15)
-ms:contentKeyID: 62269011
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Usando o portal administrativo da Web do Sistema de Salas do Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using the Lync Room System Administrative Web Portal
+ms:assetid: c387b2a3-3e42-4642-af72-88126ed2820f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743660(v=OCS.15)
+ms:contentKeyID: 62268951
+ms.date: 11/13/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2369cdde9d14275fddf007b5e073c748ce5a8906
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844466"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Usando o portal administrativo da Web do Sistema de Salas do Lync no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-11-10_
+# <a name="using-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Usando o portal administrativo da Web do Sistema de Salas do Lync no Lync Server 2013
 
-Depois que você implantar o LRS no servidor, poderá verificar o status de todas as salas do LRS entrando no portal administrativo da Web do LRS em um navegador.
+</div>
 
-## Entrar
+<div id="mainSection">
 
-1.  Navegue até a seguinte URL:
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-11-10_
+
+Depois de implantar o LRS no servidor, você pode verificar o status de todas as salas LRS conectando-se ao portal da Web administrativo do LRS a partir de um navegador.
+
+<div>
+
+## <a name="sign-in"></a>Entrar
+
+1.  Acesse a seguinte URL:
     
-    https://\<fe-server\>/lrs
+    https://\<FE-servidor\>/lRS
 
-2.  Insira as credenciais da conta LRSSupport ou de uma conta que tenha sido adicionada ao grupo de segurança LRSSupportAdminGroup.
+2.  Insira as credenciais para a conta LRSSupport ou uma conta que foi adicionada ao grupo de segurança LRSSupportAdminGroup.
 
-![Tela de entrada no portal admin do sistema Lync Room](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Tela de entrada no portal admin do sistema Lync Room")
+![Tela de entrada do portal de administração do sistema de salas do Lync] (images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Tela de entrada do portal de administração do sistema de salas do Lync")
 
-## Página de resumo do portal administrativo da Web do LRS
+</div>
 
-A página de resumo fornece as seguintes informações sobre todas as salas do LRS implantadas no servidor:
+<div>
 
-  - **Marca**   O nome personalizado que o administrador atribui à sala. A marca pode ser definida no portal quando você clica no nome da sala.
+## <a name="lrs-administrative-web-portal-summary-page"></a>Página de resumo do portal da Web administrativo do LRS
 
-  - **Integridade**   O status de integridade da sala, que é derivado do status Integridade Agregada da sala, que, por sua vez, é exibido na seção Integridade da página Configurações da Sala.
+A página Resumo fornece as seguintes informações para todas as salas LRS implantadas no servidor:
 
-  - **Próxima Reunião**   A data e a hora em que a próxima reunião foi agendada.
+  - **Marque**   o nome personalizado que o administrador fornece à sala. A marca pode ser definida no portal clicando no nome da sala.
 
-  - **Versão, Fabricante, Modelo do LRS**   Estes valores são predefinidos no LRS. Dependendo do fabricante, estes campos podem ser deixados em branco.
+  - **Integridade**   o status de integridade da sala, que é derivado do status de integridade da agregação da sala, que é mostrado na seção integridade da página de configurações da sala.
 
-  - **Última Atualização**   Exibe a última vez em que a página da Web foi atualizada.
+  - **Próxima reunião**   a data e a hora em que a próxima reunião está agendada.
 
-![Visualização de Resumo do Portal de Administração do Sistema de Salas do Lync](images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Visualização de Resumo do Portal de Administração do Sistema de Salas do Lync")
+  - **LRS versão, fabricante, modelo**   esses valores são predefinidos em lRS. Dependendo do fabricante, esses campos podem ser deixados em branco.
 
-## Informações da sala do LRS
+  - **Última atualização**   exibe a última vez que a página da Web foi atualizada.
 
-A seção Informações da Sala do portal permite que você exiba e configure salas do LRS individuais. Ela contém quatro seções: Configurações, Detalhes, Registro em Log e Integridade.
+![Exibição resumida do portal de administração do sistema de salas do Lync] (images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Exibição resumida do portal de administração do sistema de salas do Lync")
 
-## Configurações
+</div>
 
-Na seção Configurações, você pode definir a senha, a marca da sala e os níveis de volume padrão da sala. Se você definir essas configurações, as alterações serão replicadas somente depois que o console do LRS for reiniciado.
+<div>
 
-![Configurações de Salas do Portal de Administração do Sistema de Salas do Lync](images/Dn743660.ab162e19-41ac-4991-9b2a-92575aa53eda(OCS.15).png "Configurações de Salas do Portal de Administração do Sistema de Salas do Lync")
+## <a name="lrs-room-information"></a>Informações da sala de LRS
 
-## Detalhes
+A seção informações da sala do portal permite que você visualize e configure salas individuais do LRS. Ele contém quatro seções: configurações, detalhes, solução de problemas e integridade.
 
-A seção Detalhes fornece um resumo somente leitura das configurações da sala de LRS, incluindo: hora da última atualização; próxima reunião; últimas atualizações, manutenção e calibração; configurações padrão de alto-falante, microfone e toque; versão; URI do SPI; número de telas e detalhes sobre cada tela; status e atividade.
+<div>
 
-![Visualização de Detalhes do Portal de Administração do Sistema de Salas](images/Dn743660.2958bbba-db74-4670-a920-87fdfb2fc22d(OCS.15).png "Visualização de Detalhes do Portal de Administração do Sistema de Salas")
+## <a name="settings"></a>Configurações
 
-## Registro em log
+Na seção Configurações, você pode definir a senha, a marca de sala e os níveis de volume padrão da sala. Se você definir essas configurações, as alterações serão replicadas apenas depois que você reiniciar o console do LRS. Você só verá as configurações de atualizações do sistema para sistemas de sala do Lync, versão 15,12 e posteriores.
 
-A seção Registro em Log pode ser usada para coletar logs remotamente e salvá-los em um local especificado. Você também pode reiniciar o console do LRS (interface do usuário do LRS) ou reiniciar o sistema.
+![Configurações da sala do portal de administração do sistema de salas do Lync] (images/Dn743660.ab162e19-41ac-4991-9b2a-92575aa53eda(OCS.15).png "Configurações da sala do portal de administração do sistema de salas do Lync")
 
-![Registro em Log de Salas do Portal de Administração do Sistema de Salas do Lync](images/Dn743660.749aee71-deaa-4ace-a146-fe2b349f0f42(OCS.15).png "Registro em Log de Salas do Portal de Administração do Sistema de Salas do Lync")
+</div>
 
-## Integridade
+<div>
 
-A seção Integridade oferece uma indicação visual da integridade da conexão, do dispositivo de áudio, do dispositivo de vídeo, do estado de resiliência e do dispositivo de tela do Lync Server.
+## <a name="details"></a>Detalhes
 
-![Integridade de Salas do Portal de Administração do Sistema de Salas do Lync](images/Dn743660.8cc644f8-8e3e-42d5-9079-045d8fe9daa7(OCS.15).png "Integridade de Salas do Portal de Administração do Sistema de Salas do Lync")
+A seção detalhes fornece um resumo somente leitura das configurações da sala de LRS, incluindo: o tempo da última atualização; próxima reunião; últimas atualizações, manutenção e calibragem; configurações de alto-falante, microfone e toque padrão; versões URI SIP; número de telas e detalhes sobre cada tela; status e atividade.
 
-## Observações adicionais sobre o portal administrativo da Web
+![Visão detalhada do portal de administração do sistema de salas do Lync] (images/Dn743660.2958bbba-db74-4670-a920-87fdfb2fc22d(OCS.15).png "Visão detalhada do portal de administração do sistema de salas do Lync")
+
+</div>
+
+<div>
+
+## <a name="troubleshooting"></a>Solução de problemas
+
+A seção solução de problemas pode ser usada para coletar logs remotamente e salvá-los em um local específico. Você também pode reiniciar o console do LRS (LRS user interface) ou reiniciar o sistema inteiro. Para coletar logs, forneça um caminho de pasta no formato especificado e certifique-se de que a pasta tenha permissões de gravação atribuídas à conta de computador LRS. Se o tamanho do log for muito grande, pode levar até 5 minutos para concluir a coleta de logs. A atualização da página dará o status mais recente.
+
+![Log de sala do portal de administração do sistema de salas do Lync] (images/Dn743660.749aee71-deaa-4ace-a146-fe2b349f0f42(OCS.15).png "Log de sala do portal de administração do sistema de salas do Lync")
+
+</div>
+
+<div>
+
+## <a name="health"></a>Geral
+
+A seção integridade fornece uma indicação visual da integridade da conexão do Lync Server, do dispositivo de áudio, do dispositivo de vídeo, do estado de resiliência e do dispositivo de tela.
+
+![Portal de administração do Lync System] da sala integridade (images/Dn743660.8cc644f8-8e3e-42d5-9079-045d8fe9daa7(OCS.15).png "Portal de administração do Lync System") da sala integridade
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="additional-notes-about-the-administrative-web-portal"></a>Anotações adicionais sobre o portal administrativo da Web
+
+<div>
+
 
 > [!NOTE]  
-> <ul><li><p>Por motivos de segurança, o portal administrativo da Web desconecta você a cada 15 minutos.</p></li><li><p>As alterações da configuração são aplicadas somente após a reinicialização do sistema do LRS.</p></li><li><p>As notificações sobre o portal administrativo da Web do LRS são fixas; em outras palavras, elas não desaparecem.</p></li>
-> <li><p>As notificações aparecem somente depois que você atualiza a página.</p></li>
-> <li><p>O status das salas do LRS aparecem depois que você atualiza a página.</p></li>
-> 
-> <li><p>Se a senha da conta LRSApp expirar, você não poderá ver o status das salas. Configure a senha da conta LRSAppuser de modo que ela nunca expire, ou atualize a senha quando estiver perto da data de expiração.</p></li>
-> 
-> 
-> <li><p>Há suporte para o portal administrativo da Web do LRS somente nas implantações locais.</p></li></ul>
+> <UL>
+> <LI>
+> <P>As alterações de configuração são aplicadas somente após a reinicialização do sistema do LRS.</P>
+> <LI>
+> <P>Se a senha da conta do LRSApp expirar, você não poderá ver o status das salas. Configure a senha da conta do LRSAppuser para que ela nunca expire ou atualize a senha quando ela estiver próxima de expiração.</P>
+> <LI>
+> <P>O portal da Web administrativo do LRS tem suporte para implantações locais apenas.</P></LI></UL>
 
 
-## Solução de problemas
 
-## Por que não consigo entrar no portal administrativo da Web?
+</div>
 
-  - Quando você abrir https://localhost/lrs, poderá ver a página de logon; mas quando você digitar suas credenciais, não conseguirá entrar. Nesse caso, você deve abrir https://FQDNofFEserver/lrs para entrar no portal administrativo da Web.
+</div>
 
-  - Se o computador em que você está acessando o portal administrativo da Web estiver em um grupo de trabalho, "http://" não funcionará. Use "https".
+<div>
 
-## Por que não consigo ver o LRS no portal administrativo da Web?
+## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
-  - Verifique se você tem contas doLRS na sua implantação e se elas foram criadas de acordo com as recomendações de implantação do portal administrativo da Web do LRS. Verifique se as contas do LRS são provisionadas no Lync Server usando Enable-CsMeetingRoom, e não Enable-CsUser.
+<div>
 
-  - Se você tiver criado contas do LRS e não conseguir ver as contas no portal administrativo da Web, colete os logs de servidor usando a ferramenta Registro em Log do Lync Server com o componente **MeetingPortal** selecionado e envie-os ao contato de suporte do LRS.
+## <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>Por que não consigo me conectar ao portal administrativo da Web?
 
-## Por que não consigo ver o status do LRS no portal administrativo da Web?
+  - Ao abrir https://localhost/lrs, você poderá ver a página de entrada, mas quando digitar as suas credenciais, não poderá se conectar. Nesse caso, você deve abrir https://FQDNofFEserver/lrs para entrar no portal administrativo da Web.
 
-  - Verifique se a conta de usuário LRSApp está habilitada para SIP.
+  - Se a máquina a partir da qual você está acessando o portal da Web administrativo estiver em um grupo de trabalho, "http://" não funcionará. Em vez disso, use "https".
 
-  - Se você ainda estiver com problemas, colete o arquivo **Trace.log** no sistema LRS em D:\\Tracing\\LRSAdminLogs\\ e envie-o ao contato de suporte do LRS.
+</div>
+
+<div>
+
+## <a name="why-cant-i-see-lrs-in-the-administrative-web-portal"></a>Por que não consigo ver o LRS no portal da Web administrativo?
+
+  - Verifique se você tem contas do LRS em sua implantação e se elas são criadas de acordo com as recomendações de implantação do portal de Web administrativo do LRS. Certifique-se de que as contas do LRS sejam provisionadas usando enable-CsMeetingRoom, not Enable-CsUser, no servidor do Lync.
+
+  - Se você criou contas do LRS e não consegue ver as contas no portal administrativo da Web, colete os logs do servidor usando a ferramenta de log do Lync Server com o componente **MeetingPortal** selecionado e, em seguida, envie-os para o contato do lRS support.
+
+</div>
+
+<div>
+
+## <a name="why-cant-i-see-the-status-of-lrs-in-the-administrative-web-portal"></a>Por que não consigo ver o status do LRS no portal da Web administrativo?
+
+  - Certifique-se de que a conta de usuário do LRSApp seja compatível com SIP.
+
+  - Se ainda estiver com problemas, colete o arquivo **trace. log** no sistema LRS de D:\\rastreamento\\LRSAdminLogs\\e, em seguida, envie-o para o seu contato do lRS support.
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

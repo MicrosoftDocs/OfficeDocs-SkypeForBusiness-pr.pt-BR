@@ -1,39 +1,77 @@
-﻿---
-title: Exibir os Detalhes de URL Simples
-TOCTitle: Exibir os Detalhes de URL Simples
-ms:assetid: 6ab00f2c-e1d5-4698-a58f-04b72260f9ac
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg521010(v=OCS.15)
-ms:contentKeyID: 49307002
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Exibir detalhes da URL simples'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View simple URL details
+ms:assetid: 6ab00f2c-e1d5-4698-a58f-04b72260f9ac
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521010(v=OCS.15)
+ms:contentKeyID: 48184399
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9b9c351ef8d9913ea96cea3412db4ba6159cedb9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844387"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Exibir os Detalhes de URL Simples
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-11_
+# <a name="view-simple-url-details-in-lync-server-2013"></a>Exibir detalhes da URL simples no Lync Server 2013
 
-Você pode usar o Painel de Controle do Lync Server 2013 para exibir detalhes de URLs simples do seu ambiente do Lync Server 2013. URLs simples permitem que os usuários ingressem em reuniões e que os administradores acessem as ferramentas administrativas mais facilmente. Para obter detalhes, consulte [Planejamento de URLs simples no Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).
+</div>
 
-## Para exibir os detalhes de URL simples
+<div id="mainSection">
 
-1.  Usando uma conta de usuário atribuída à função do CsServerAdministrator, CsAdministrator, CsHelpDesk, ou CsViewOnlyAdministrator, faça logon em qualquer computador de sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidas disponíveis no Lync Server 2013, consulte [Planejamento de controle de acesso baseado em função no Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+<div id="mainBody">
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Na barra de navegação esquerda, clique em **Topologia** e em **URL Simples**.
+_**Tópico da última modificação:** 2012-10-11_
 
-4.  Na página **URL Simples**, clique em um cabeçalho de coluna para classificar a lista, se necessário.
+Você pode usar o painel de controle do Lync Server 2013 para exibir detalhes de URL simples para o seu ambiente do Lync Server 2013. URLs simples tornam mais fácil para os usuários ingressarem em reuniões, e elas facilitam para os administradores acessarem ferramentas administrativas. Para obter detalhes, consulte [planejando URLs simples no Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).
 
-5.  Selecione o nome para o qual você deseja ver detalhes de URL simples e clique em **Propriedades**.
+<div>
 
-6.  Quando terminar de exibir os detalhes, clique em **Fechar** .
+## <a name="to-view-simple-url-details"></a>Para exibir detalhes da URL simples
 
-## Consulte Também
+1.  Usando uma conta de usuário atribuída à função do CsServerAdministrator, CsAdministrator, CsHelpDesk, ou CsViewOnlyAdministrator, faça logon em qualquer computador de sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidas disponíveis no Lync Server 2013, consulte [planejando o controle de acesso baseado em função no Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
 
-#### Outros Recursos
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-[Gerenciando a topologia do Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)
+3.  Na barra de navegação à esquerda, clique em **topologia** e, em seguida, clique em **URL simples**.
+
+4.  Na página **URL simples** , clique em um título de coluna para classificar a lista, se necessário.
+
+5.  Selecione o nome do qual você deseja ver detalhes da URL simples e, em seguida, clique em **Propriedades**.
+
+6.  Quando terminar de exibir os detalhes, clique em **fechar**.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Gerenciando a topologia do Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

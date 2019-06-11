@@ -1,53 +1,91 @@
-﻿---
-title: Impedir sessões de serviços
-TOCTitle: Impedir sessões de serviços
-ms:assetid: 4b541c72-cdc1-4f86-a5a8-c43c24f41d8b
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688049(v=OCS.15)
-ms:contentKeyID: 49886213
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Evitar sessões de serviços
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Prevent sessions for services
+ms:assetid: 4b541c72-cdc1-4f86-a5a8-c43c24f41d8b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688049(v=OCS.15)
+ms:contentKeyID: 49733642
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 19f3ed7c788db120782966541bfea9813328d90c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844162"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Impedir sessões de serviços
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-04_
+# <a name="prevent-sessions-for-services"></a>Evitar sessões de serviços
 
-Você pode usar o Painel de Controle do Microsoft Lync Server 2010 para impedir novas sessões de todos os serviços do Lync Server 2010 em execução em um computador específico ou para impedir novas sessões de um serviço específico do Lync Server 2010.
+</div>
 
-## Para impedir novas sessões para todos os serviços do Lync Server em um computador
+<div id="mainSection">
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Lync Server 2013.
+<div id="mainBody">
 
-2.  Abrir o Painel de Controle do Lync Server.
+<span> </span>
 
-3.  Na barra de navegação esquerda, clique em **Topologia** e em **Status** .
+_**Tópico da última modificação:** 2012-10-04_
 
-4.  Na página **Status** , classifique ou pesquise na lista conforme o necessário para encontrar o computador que está executando os serviços para os quais você deseja impedir novas sessões e clique nele.
+Você pode usar o painel de controle do Microsoft Lync Server 2010 para impedir novas sessões para todos os serviços do Lync Server 2010 em execução em um computador específico ou para impedir novas sessões para um serviço específico do Lync Server 2010.
 
-5.  Clique em **Ação** .
+<div>
 
-6.  Clique em **Impedir novas sessões para todos os serviços** .
+## <a name="to-prevent-new-sessions-for-all-lync-server-services-on-a-computer"></a>Para impedir novas sessões para todos os serviços do Lync Server em um computador
 
-## Para impedir novas sessões para um serviço específico
+1.  Em uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Lync Server 2013.
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Lync Server 2013.
+2.  Abra o Painel de Controle do Lync Server.
 
-2.  Abrir o Painel de Controle do Lync Server.
+3.  Na barra de navegação à esquerda, clique em **topologia** e, em seguida, clique em **status**.
 
-3.  Na barra de navegação esquerda, clique em **Topologia** e em **Status** .
+4.  Na página **status** , classifique ou pesquise a lista, conforme necessário, para localizar o computador que está executando os serviços para os quais você deseja impedir novas sessões e, em seguida, clique nela.
 
-4.  Na página **Status** , classifique ou pesquise na lista conforme o necessário para encontrar o computador que está executando o serviço que você deseja iniciar ou interromper e clique nele.
+5.  Clique em **ação**.
 
-5.  Clique em **Propriedades** .
+6.  Clique em **impedir novas sessões para todos os serviços**.
 
-6.  Classifique a lista de serviços, se necessário e clique no serviço para o qual você deseja impedir novas sessões.
+</div>
 
-7.  Clique em **Ação** .
+<div>
 
-8.  Clique em **Impedir novas sessões para o serviço** .
+## <a name="to-prevent-new-sessions-for-a-specific-service"></a>Para impedir novas sessões para um serviço específico
 
-9.  Clique em **Fechar** .
+1.  Em uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Lync Server 2013.
+
+2.  Abra o Painel de Controle do Lync Server.
+
+3.  Na barra de navegação à esquerda, clique em **topologia** e, em seguida, clique em **status**.
+
+4.  Na página **status** , classifique ou pesquise a lista, conforme necessário, para localizar o computador que está executando o serviço que você deseja iniciar ou parar e, em seguida, clique nele.
+
+5.  Clique em **Propriedades**.
+
+6.  Classifique a lista de serviços, se necessário, e clique no serviço para o qual você deseja impedir novas sessões.
+
+7.  Clique em **ação**.
+
+8.  Clique em **impedir novas sessões para o serviço**.
+
+9.  Clique em **Fechar**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,44 +1,88 @@
-﻿---
-title: Remover pool Front-End ou servidor Standard Edition
-TOCTitle: Remover pool Front-End ou servidor Standard Edition
-ms:assetid: 83c39a36-49a1-4ac6-9cc5-b0e441b1fdec
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688115(v=OCS.15)
-ms:contentKeyID: 49886289
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Remover um pool Front-End ou um servidor Standard Edition
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove Front End pool or Standard Edition server
+ms:assetid: 83c39a36-49a1-4ac6-9cc5-b0e441b1fdec
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688115(v=OCS.15)
+ms:contentKeyID: 49733713
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a5a3b08d6e8b4f0b792063b19a47889de11283c6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844154"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Remover pool Front-End ou servidor Standard Edition
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-04_
+# <a name="remove-front-end-pool-or-standard-edition-server"></a>Remover um pool Front-End ou um servidor Standard Edition
 
-Este tópico guia o usuário pelo processo de remoção de Pool de Front-Ends ou da versão Standard Edition Servidor Front-End. Ao remover um Pool de Front-Ends, você remove todos os Servidor Front-End que pertencem ao pool como parte do processo de remoção do pool. Ao remover a versão Standard Edition Servidor Front-End, remova a definição de Repositório SQL de Construtor de Topologias.
+</div>
 
-## Para remover pools de servidor front-end
+<div id="mainSection">
 
-1.  Abrir o Construtor de Topologias.
+<div id="mainBody">
 
-2.  Navegue para o nó Lync Server 2010.
+<span> </span>
 
-3.  Expanda os **pools de front-end Enterprise Edition** , expanda o Pool de Front-Ends, clique como botão direito no Pool de Front-Ends que deseja remover e, em seguida, clique em **Excluir** .
+_**Tópico da última modificação:** 2012-10-04_
 
-4.  Publique a topologia, verifique o status de replicação e execute o Assistente de Implantação do Lync Server conforme necessário.
+Este tópico fornece orientações sobre o processo de remoção de um pool de front-end ou um servidor front-end Standard Edition. Quando você remove um pool de front-end, Remove cada servidor front-end que pertence ao pool como parte do processo de remoção de pool. Quando você remove um servidor front-end padrão da edição, deve remover a definição do SQL Store do construtor de topologias.
 
-## Para remover servidores front-end Standard Edition
+<div>
 
-1.  Abrir o Construtor de Topologias.
+## <a name="to-remove-a-front-end-server-pool"></a>Para remover um pool de servidores front-end
 
-2.  Navegue para o nó Lync Server 2010.
+1.  Abrir o construtor de topologias.
 
-3.  Expanda **Servidores front-end Standard Edition** , clique com o botão direito do mouse no Servidor Front-End que deseja remover e clique em **Excluir** .
+2.  Navegue até o nó do Lync Server 2010.
 
-4.  Expanda **Repositórios SQL** , clique com o botão direito do mouse no banco de dados do SQL Server que está associado à Servidor Front-End Standard Edition e clique em **Excluir** .
+3.  Expanda Pools de **front-end do Enterprise Edition**, expanda o pool de front-ends, clique com o botão direito do mouse no pool de front-ends que você deseja remover e clique em **excluir**.
+
+4.  Publique a topologia, verifique o status da replicação e execute o assistente de implantação do Lync Server conforme necessário.
+
+</div>
+
+<div>
+
+## <a name="to-remove-a-standard-edition-front-end-server"></a>Para remover um servidor front-end padrão da edição
+
+1.  Abrir o construtor de topologias.
+
+2.  Navegue até o nó do Lync Server 2010.
+
+3.  Expanda **servidores front-end padrão da edição**, clique com o botão direito do mouse no servidor front-end que você deseja remover e, em seguida, clique em **excluir**.
+
+4.  Expanda **repositórios SQL**, clique com o botão direito do mouse no banco de dados do SQL Server associado ao servidor front-end Standard Edition e clique em **excluir**.
     
-    > [!IMPORTANT]  
-    > Você deve remover a definição dos bancos de dados do SQL Server colocados da Servidor Front-End Standard Edition.
+    <div>
+    
 
-5.  Publique a topologia, verifique o status de replicação e execute o Assistente de Implantação do Lync Server conforme necessário.
+    > [!IMPORTANT]  
+    > Você deve remover a definição dos bancos de dados do SQL Server posicionado do servidor front-end da Standard Edition.
+
+    
+    </div>
+
+5.  Publique a topologia, verifique o status da replicação e execute o assistente de implantação do Lync Server conforme necessário.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

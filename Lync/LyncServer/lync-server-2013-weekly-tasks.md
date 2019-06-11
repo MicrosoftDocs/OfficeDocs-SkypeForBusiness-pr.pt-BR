@@ -1,137 +1,193 @@
-﻿---
-title: 'Lync Server 2013: Tarefas semanais'
-TOCTitle: Tarefas semanais
-ms:assetid: d564839b-b49d-4c5d-b67e-dc5abb0f6980
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn722432(v=OCS.15)
-ms:contentKeyID: 62281971
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tarefas semanais'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Weekly tasks
+ms:assetid: d564839b-b49d-4c5d-b67e-dc5abb0f6980
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn722432(v=OCS.15)
+ms:contentKeyID: 63969650
+ms.date: 08/20/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7d3128780c456c3f38f306d31f258ce903eb50a5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844296"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tarefas semanais no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="weekly-tasks-in-lync-server-2013"></a>Tarefas semanais no Lync Server 2013
 
-As tarefas semanais são geralmente relacionadas à coleta e à análise de logs e relatórios.
+</div>
 
-## Arquivar logs de eventos
+<div id="mainSection">
 
-Se os logs de eventos não estiverem configurados para substituir eventos, conforme necessário, eles deverão ser arquivados e excluídos regularmente .
+<div id="mainBody">
 
-Sua organização deverá definir políticas e procedimentos para o arquivamento de logs.
+<span> </span>
 
-## Criar relatórios
+_**Tópico da última modificação:** 2015-08-17_
 
-Crie relatórios de status para auxiliar no planejamento da capacidade, nas revisões de SLA e na análise de desempenho. Use dados diários do log de eventos e o Monitor do Sistema para criar relatórios sobre uso do disco, da memória e da CPU. Use System Center Operations Manager para gerar relatórios de tempo de atividade e disponibilidade.
+As tarefas semanais geralmente estão relacionadas à coleta e análise de logs e relatórios.
 
-Sua organização deverá definir políticas e procedimentos para os relatórios de status.
+<div>
 
-## Relatórios de incidentes
+## <a name="archive-event-logs"></a>Arquivar logs de eventos
 
-Execute uma auditoria semanal dos relatórios de incidentes da sua organização que estejam relacionados ao Lync Server. Essa auditoria deve incluir o seguinte:
+Se os logs de eventos não estiverem configurados para substituir eventos conforme necessário, eles deverão ser arquivados e excluídos regularmente. Essa ação é especialmente importante para logs de segurança, que podem ser necessários quando a investigação tentava violações de segurança.
 
-  - Os principais incidentes gerados, resolvidos e pendentes.
+Sua organização precisará definir políticas e procedimentos para o arquivamento de logs.
 
-  - Soluções para os incidentes não resolvidos.
+</div>
 
-  - Relatórios de atualização para incluir novos tíquetes de problemas.
+<div>
 
-  - Atualização de um repositório de documentos para guias de solução de problemas e post-mortems sobre interrupções.
+## <a name="create-reports"></a>Criar relatórios
 
-Como o sistema de acompanhamento de incidentes de sua organização é uma escolha independente do Lync Server, instruções ou ponteiros específicos não estão disponíveis. Consulte a documentação do sistema escolhido pela sua organização.
+Crie relatórios de status para ajudar com o planejamento da capacidade, análises de SLA e análise de desempenho. Use dados diários do log de eventos e do monitor do sistema para criar relatórios sobre o disco, a memória e o uso da CPU. Use o System Center Operations Manager para gerar relatórios de tempo de atividade e disponibilidade.
 
-## Verificar logs e desempenho do IIS
+Sua organização precisará definir políticas e procedimentos para relatórios de status.
 
-Realize uma revisão semanal dos logs e do desempenho do IIS (Serviços de Informações da Internet). Para obter mais informações sobre como monitorar os logs e o desempenho do IIS, consulte [Visão Geral do Log de Eventos do Windows Server 2003 Internet Information Services (IIS)](http://go.microsoft.com/fwlink/?linkid=36077). A revisão deve incluir o seguinte:
+</div>
 
-  - Contadores do Cache do Serviço da Web para monitorar o cache do serviço WWW.
+<div>
 
-  - Contadores de Active Server Pages (ASPs) para monitorar os aplicativos executados como ASPs.
+## <a name="incident-reports"></a>Relatórios de incidentes
 
-Para obter mais informações sobre como monitorar os logs e o desempenho do IIS, consulte [Visão Geral do Log de Eventos do Windows Server 2003 Internet Information Services (IIS)](http://go.microsoft.com/fwlink/?linkid=36077).
+Realize uma auditoria semanal dos relatórios de incidentes da sua organização relacionados ao Lync Server. Essa auditoria deve incluir o seguinte:
 
-## Gerar relatórios de banco de dados
+  - Os incidentes de alta geração, resolvidos e pendentes.
 
-**Para gerar relatórios sobre o Banco de Dados SQL**
+  - Soluções para incidentes não resolvidos.
+
+  - Atualizando relatórios para incluir novos tickets de problemas.
+
+  - Atualizar um repositório de documentos para obter guias de solução de problemas e postar mortes sobre interrupções.
+
+Como o sistema de rastreamento de incidentes da sua organização é uma opção independente do Lync Server, instruções específicas ou ponteiros não estão disponíveis. Consulte a documentação do sistema que sua organização escolheu.
+
+</div>
+
+<div>
+
+## <a name="check-iis-logs-and-performance"></a>Verificar os logs e o desempenho do IIS
+
+Realize uma revisão semanal dos logs e do desempenho dos serviços de informações da Internet (IIS). Para obter mais informações sobre como monitorar os logs e o desempenho do IIS, consulte [visão geral do log de eventos dos serviços de informações da Internet (IIS) do Windows Server 2003](http://go.microsoft.com/fwlink/?linkid=36077). A revisão deve incluir o seguinte:
+
+  - Contadores de cache do serviço Web para monitorar o cache do serviço WWW.
+
+  - Contadores ASPs (Active Server Pages) para monitorar aplicativos que são executados como ASPs.
+
+</div>
+
+<div>
+
+## <a name="generate-database-reports"></a>Gerar relatórios de banco de dados
+
+**Para gerar relatórios no banco de dados SQL**
 
 1.  Abra o Lync Server 2013.
 
-2.  Na árvore de console, expanda o nó de floresta, expanda **Pools Enterprise** e clique no pool para o qual deseja gerar um relatório de banco de dados.
+2.  Na árvore do console, expanda o nó da floresta ****, expanda Pools corporativos e clique no pool para o qual você deseja gerar um relatório de banco de dados.
 
-3.  No painel de detalhes, clique na guia **Banco de Dados**.
+3.  No painel detalhes, clique na guia **banco de dados** .
 
-4.  Na guia **Banco de Dados**, faça o seguinte:
+4.  Na guia **banco de dados** , faça o seguinte:
     
-    1.  Para exibir o nome do banco de dados, expanda **Configurações Gerais** e exiba o nome do banco de dados.
+    1.  Para exibir o nome do banco de dados, expanda **configurações gerais**e exiba o nome do banco de dados.
     
-    2.  Para recuperar as estatísticas atuais de resumo do usuário para o pool, expanda **Relatórios de Resumo do Usuário**, clique em **Ir** e exiba os resultados.
+    2.  Para recuperar as estatísticas de resumo do usuário atual do pool, expanda **relatórios de resumo do usuário**, clique em **ir**e veja os resultados.
     
-    3.  Para recuperar os dados atuais por usuário para um único usuário do pool, expanda **Relatórios por Usuário**, digite o URI SIP do usuário, clique em **Ir** e exiba os resultados.
+    3.  Para recuperar os dados atuais por usuário para um único usuário do pool, expanda **relatórios por usuário**, digite o URI SIP do usuário, clique em **ir**e veja os resultados.
 
-Para recuperar as estatísticas atuais de resumo de conferência para o pool, expanda **Relatórios de Resumo de Conferência**, clique em **Ir** e exiba os resultados.
+Para recuperar as estatísticas de Resumo de conferência atuais do pool, expanda **relatórios de resumo da conferência**, clique em **ir**e veja os resultados.
 
-## Verificar a segurança e as atualizações do Lync Server
+</div>
 
-Identifique qualquer novo service pack, hotfix ou atualização. Se for apropriado, teste isso em um laboratório de teste e use os procedimentos de controle de alterações para providenciar a implantação nos servidores de produção. Além disso, as atualizações do componente Lync Server agora estão disponíveis como parte da atualização do Windowsl. Todas as atualizações do componente Lync Server devem ser atualizadas simultaneamente em todos os servidores que executam o Lync Server para o qual as atualizações são aplicáveis.
+<div>
 
-## Executar o Analisador de Práticas Recomendadas do Lync Server 2013
+## <a name="check-for-security-and-lync-server-updates"></a>Verificar se há atualizações de segurança e do Lync Server
 
-A Ferramenta Analisador de Práticas Recomendadas do Lync Server 2013 é uma ferramenta de diagnóstico que coleta informações de configuração e determina se a configuração está definida de acordo com as práticas recomendadas da Microsoft. A documentação dessa ferramenta está disponível em [Analisador de Práticas Recomendadas do Lync Server 2013](lync-server-2013-lync-server-best-practices-analyzer.md) e [Executar o Best Practices Analyzer](https://technet.microsoft.com/pt-br/library/gg398652\(v=ocs.15\)).
+Identifique qualquer novo Service Pack, hotfixes ou atualizações. Se for apropriado, teste isso em um laboratório de teste e use os procedimentos de controle de alteração para organizar a implantação nos servidores de produção. Além disso, as atualizações de componentes do Lync Server agora estão disponíveis como parte do Windows Update. Todas as atualizações de componentes do Lync Server devem ser atualizadas ao mesmo tempo em todos os servidores que estão executando o Lync Server para os quais as atualizações são aplicáveis.
 
-A ferramenta compara os dados de configuração de sua implantação com um conjunto de regras predefinidas para o Lync Server e relata possíveis problemas. Para cada problema relatado, a ferramenta fornece a configuração atual no ambiente do Lync Server e a configuração recomendada.
+</div>
 
-Com o acesso de rede correto, a ferramenta pode examinar seu AD DS e os servidores que executam o Lync Server 2013 para fazer o seguinte:
+<div>
 
-  - Realizar verificações de integridade de maneira proativa, examinando se a configuração está definida de acordo com as práticas recomendadas
+## <a name="run-the-lync-server-2013-best-practice-analyzer"></a>Executar o analisador de práticas recomendadas do Lync Server 2013
 
-  - Gerar uma lista de problemas, como parâmetros de configuração de qualidade inferior ou opções sem suporte ou não recomendadas
+A ferramenta do analisador de práticas recomendadas do Lync Server 2013 é uma ferramenta de diagnóstico que coleta informações de configuração e determina se a configuração é definida de acordo com as práticas recomendadas da Microsoft. A documentação para essa ferramenta se encontra no analisador de [práticas recomendadas do Lync Server 2013](lync-server-2013-lync-server-best-practices-analyzer.md).
+
+A ferramenta compara os dados de configuração da sua implantação com um conjunto de regras predefinidas para o Lync Server e relata possíveis problemas. Para cada problema relatado, a ferramenta fornece a configuração atual no ambiente do Lync Server e a configuração recomendada.
+
+Com o acesso à rede correto, a ferramenta pode examinar o AD DS e os servidores que executam o Lync Server 2013 para fazer o seguinte:
+
+  - Realize verificações de integridade de forma proativa, verificando se a configuração está definida de acordo com as práticas recomendadas
+
+  - Gerar uma lista de problemas, como configurações de configuração otimizadas ou opções não aceitas ou não recomendadas
 
   - Julgar a integridade geral de um sistema
 
   - Ajudar a solucionar problemas específicos
 
-  - Solicitar que você baixe atualizações se elas estiverem disponíveis
+  - Solicitar o download de atualizações se elas estiverem disponíveis
 
-  - Fornecer documentação online e local sobre os problemas relatados e incluir dicas de solução de problemas
+  - Fornecer documentação online e local sobre problemas relatados e incluir dicas para solução de problemas
 
-  - Gerar informações de configuração que possam ser capturadas para revisão posterior
+  - Gerar informações de configuração que podem ser capturadas para revisão posterior
 
-Assegurar que o RTCBPA.msi esteja instalado em todos os servidores Lync Server 2013 e gerar um Relatório de Verificação de Integridade semanal. Observe os resultados e corrija, se necessário.
+Verifique se o RTCBPA. msi está instalado em todos os servidores do Lync Server 2013 e gere um relatório semanal de verificação de integridade. Observe os resultados e corrija, se necessário.
 
-## Examinar os indicadores de desempenho de SLA
+</div>
 
-Verifique os principais dados de desempenho da semana anterior. Examine o desempenho em relação aos requisitos do SLA. Identifique tendências e itens que não atenderam aos objetivos.
+<div>
 
-## Examinar os relatórios do Pacote de Gerenciamento do System Center Operations Manager e de qualidade de experiência
+## <a name="review-sla-performance-figures"></a>Analisar os valores de desempenho do SLA
 
-Obtenha e examine os relatórios do Pacote de Gerenciamento do Lync Server 2013 e de Qualidade de Experiência.
+Verifique os dados de desempenho principais da semana anterior. Revisar o desempenho com base nos requisitos do SLA. Identifique tendências e itens que não atingiram seus alvos.
 
-## Gerando e exibindo relatórios de banco de dados para pools enterprise
+</div>
 
-**Para gerar relatórios de pools**
+<div>
+
+## <a name="review-system-center-operations-manager-management-pack-and-quality-of-experience-reports"></a>Examinar os relatórios do pacote de gerenciamento do System Center Operations Manager e do Quality of Experience
+
+Obtenha e revise os relatórios do pacote de gerenciamento do Lync Server 2013 e qualidade de experiência.
+
+</div>
+
+<div>
+
+## <a name="generating-and-viewing-database-reports-for-enterprise-pools"></a>Gerando e exibindo relatórios do banco de dados para pools corporativos
+
+**Para gerar relatórios de pool**
 
 1.  Abra o Lync Server 2013.
 
-2.  Na árvore do console, expanda o nó de floresta, expanda **Pools Enterprise** e clique no pool para o qual você deseja gerar um relatório de banco de dados.
+2.  Na árvore do console, expanda o nó da floresta ****, expanda Pools corporativos e clique no pool para o qual você deseja gerar um relatório de banco de dados.
 
-3.  No painel de detalhes, clique na guia **Banco de Dados**.
+3.  No painel detalhes, clique na guia **banco de dados** .
 
-4.  Na guia **Banco de Dados**, faça o seguinte:
+4.  Na guia **banco de dados** , faça o seguinte:
     
-    1.  Para exibir o nome do banco de dados, expanda **Configurações Gerais** e exiba o nome do banco de dados.
+    1.  Para exibir o nome do banco de dados, expanda **configurações gerais**e exiba o nome do banco de dados.
     
-    2.  Para recuperar as estatísticas atuais de resumo do usuário para o pool, expanda **Relatórios de Resumo do Usuário**, clique em **Ir** e exiba os resultados.
+    2.  Para recuperar as estatísticas de resumo do usuário atual do pool, expanda **relatórios de resumo do usuário**, clique em **ir**e veja os resultados.
     
-    3.  Para recuperar os dados atuais por usuário para um único usuário do pool, expanda **Relatórios por Usuário**, digite o URI SIP do usuário, clique em **Ir** e exiba os resultados.
+    3.  Para recuperar os dados atuais por usuário para um único usuário do pool, expanda **relatórios por usuário**, digite o URI SIP do usuário, clique em **ir**e veja os resultados.
 
-Para recuperar as estatísticas atuais de resumo de conferência para o pool, expanda **Relatórios de Resumo de Conferência**, clique em **Ir** e exiba os resultados.
+Para recuperar as estatísticas de Resumo de conferência atuais do pool, expanda **relatórios de resumo da conferência**, clique em **ir**e veja os resultados.
 
-Para cada Pool Enterprise, os administradores poderão usar a guia **Banco de Dados** para exibir o nome do banco de dados e recuperar e exibir relatórios do banco de dados.
+Para cada pool de empresas, os administradores podem usar a guia **banco de dados** para exibir o nome do banco de dados e recuperar e exibir relatórios do banco de dados.
 
-### Relatórios de Bancos de Dados e Descrições
+### <a name="database-reports-and-descriptions"></a>Relatórios e descrições de banco de dados
 
 <table>
 <colgroup>
@@ -146,82 +202,81 @@ Para cada Pool Enterprise, os administradores poderão usar a guia **Banco de Da
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Relatórios de Resumo do Usuário</p></td>
-<td><p>Dbanalyze /v /report:diag [/sqlserver:value]</p>
-<p>Essa seção exibe informações de agregação sobre os usuários de um pool, como o número de usuários habilitados, o número médio de contatos por usuário e o número de usuários para recursos específicos.</p>
-<p>Durante o uso desses relatórios, estas informações poderão ser úteis:</p>
+<td><p>Relatórios de resumo do usuário</p></td>
+<td><p>Dbanalyze/v/Report: diag [/SqlServer: valor]</p>
+<p>Esta seção exibe informações de agregação sobre os usuários em um pool, como o número de usuários habilitados, o número médio de contatos por usuário e o número de usuários para recursos específicos.</p>
+<p>Ao usar esses relatórios, as seguintes informações podem ser úteis:</p>
 <ul>
-<li><p>Um usuário habilitado é um usuário que está habilitado para o Lync Server 2013 usando o Snap-in Usuários e Computadores do Active Directory.</p></li>
-<li><p>Um usuário ativo é um usuário que fez logon ou se registrou.</p></li>
-<li><p>Os relatórios de resumo também oferecem um conjunto de informações estatísticas sobre os contatos. Essas estatísticas somente são válidas para a população de usuários que fizeram logon pelo menos uma vez e que têm, no mínimo, um contato. Consequentemente, você normalmente não verá um número mínimo de contatos igual a 0. Devido a esse comportamento, se um usuário não tiver contatos (mas estiver ativo, ou seja, tiver se registrado), você poderá ver: &lt;vazio&gt; para alguns campos estatísticos.</p></li>
+<li><p>Um usuário habilitado é um usuário habilitado para o Lync Server 2013 usando o snap-in usuários e computadores do Active Directory.</p></li>
+<li><p>Um usuário ativo é um usuário que fez logon ou registrou.</p></li>
+<li><p>Os relatórios de resumo também oferecem um conjunto de informações estatísticas sobre contatos. Essas estatísticas são válidas apenas para o preenchimento de usuários que fizeram logon pelo menos uma vez e que têm pelo menos um contato. Consequentemente, você normalmente não verá um número mínimo de contatos de 0. Por causa desse comportamento, se um usuário não tiver contatos (mas estiver ativo, se o usuário tiver registrado), você poderá ver: &lt;vazio&gt; para alguns campos de estatísticas.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Relatórios por Usuário</p></td>
-<td><p>Dbanalyze /v /report:disk [/sqlserver:value]</p>
-<p>Diferentemente dos relatórios de resumo, que são calculados em relação a uma população de usuários, esses relatórios são sobre um usuário específico.</p></td>
+<td><p>Relatórios por usuário</p></td>
+<td><p>Dbanalyze/v/Report: disco [/SqlServer: valor]</p>
+<p>Ao contrário dos relatórios de resumo, que são calculados sobre uma população do usuário, são relatórios sobre um usuário específico.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Relatórios de Resumo de Conferência</p></td>
-<td><p>Dbanalyze /v /report:conf [/sqlserver:value]</p>
-<p>Essa seção exibe informações de agregação sobre as estatísticas de resumo de conferência para o pool, como o número de conferências ativas e o número total de participantes.</p></td>
-</tr>
-<tr class="even">
-<td><p>Relatórios de Resumo do Usuário</p></td>
-<td><p>Dbanalyze /v /report:diag [/sqlserver:value]</p>
-<p>Essa seção exibe informações de agregação sobre os usuários de um pool, como o número de usuários habilitados, o número médio de contatos por usuário e o número de usuários para recursos específicos.</p>
-<p>Durante o uso desses relatórios, estas informações poderão ser úteis:</p>
-<ul>
-<li><p>Um usuário habilitado é um usuário que está habilitado para o Lync Server 2013 usando o Snap-in Usuários e Computadores do Active Directory.</p></li>
-<li><p>Um usuário ativo é um usuário que fez logon ou se registrou.</p></li>
-<li><p>Os relatórios de resumo também oferecem um conjunto de informações estatísticas sobre os contatos. Essas estatísticas somente são válidas para a população de usuários que fizeram logon pelo menos uma vez e que têm, no mínimo, um contato. Consequentemente, você normalmente não verá um número mínimo de contatos igual a 0. Devido a esse comportamento, se um usuário não tiver contatos (mas estiver ativo, ou seja, tiver se registrado), você poderá ver: &lt;vazio&gt; para alguns campos estatísticos.</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>Relatórios por Usuário</p></td>
-<td><p>Dbanalyze /v /report:disk [/sqlserver:value]</p>
-<p>Diferentemente dos relatórios de resumo, que são calculados em relação a uma população de usuários, esses relatórios são sobre um usuário específico.</p></td>
-</tr>
-<tr class="even">
-<td><p>Relatórios de Resumo de Conferência</p></td>
-<td><p>Dbanalyze /v /report:conf [/sqlserver:value]</p>
-<p>Essa seção exibe informações de agregação sobre as estatísticas de resumo de conferência para o pool, como o número de conferências ativas e o número total de participantes.</p></td>
+<td><p>Relatórios de Resumo de conferências</p></td>
+<td><p>Dbanalyze/v/Report: conf [/SqlServer: valor]</p>
+<p>Esta seção exibe informações de agregação sobre as estatísticas de resumo da conferência para o pool, como o número de conferências ativas e o número total de participantes.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Executando o Analisador de Utilização de Largura de Banda
+</div>
 
-O Analisador de Utilização de Largura de Banda é uma ferramenta que cria relatórios sobre várias exibições de consumo de largura de banda pelos pontos de extremidade de UC nos links WAN da rede corporativa. Esses relatórios podem ser usados para compreender o padrão atual de consumo da largura de banda e auxiliar no planejamento da capacidade da largura de banda. Ele também itera na capacidade da largura de banda atribuída a diversos links.
+<div>
+
+## <a name="running-bandwidth-utilization-analyzer"></a>Sistema de utilização de largura de banda em execução
+
+O Analisador de Utilização da Largura de Banda é uma ferramenta que cria relatórios sobre diversas exibições do consumo de largura de banda pelos pontos de extremidade de UC nos links WAN da rede corporativa. Esses relatórios podem ser usados para compreender o padrão de consumo de largura de banda atual e para ajudar no planejamento da capacidade de largura de banda. Também itera na capacidade de largura de banda atribuída a diversos links.
 
 Essa ferramenta faz o seguinte:
 
-  - Gera relatórios específicos para uso de áudio na rede
+  - Gera relatórios específicos para uso de áudio pela rede
 
-  - Ajuda com um planejamento de capacidade mais eficaz e iteração na capacidade da largura de banda atribuída a diversos links
+  - Ajuda com um planejamento de capacidade mais eficaz e com a iteração na capacidade de largura de banda atribuída a vários links.
 
-O Analisador de Utilização de Largura de Banda pode gerar plotagens gráficas dos relatórios de uso e capacidade da largura de banda. São elas:
+O analisador de utilização de largura de banda pode gerar plotagem gráficas da capacidade de largura de banda e dos relatórios Elas são as seguintes:
 
-  - Todos os links WAN da rede corporativa
+  - Todos os links WAN na rede corporativa.
 
-  - Filtradas por links WAN selecionados que foram escolhidos
+  - Filtrado por links WAN selecionados que foram escolhidos
 
-  - Filtradas por links WAN que excederam a capacidade do link
+  - Filtradas pelos links WAN que excederam o limite de capacidade.
 
-  - Filtradas por links WAN que subutilizaram a largura de banda provisionada
+  - Filtrado por links WAN que estavam usando a largura de banda provisionada
 
-  - Filtrar por links WAN que estavam atingindo níveis críticos (uso da largura de banda maior que 90% da capacidade de largura de banda do link WAN)
+  - Filtrar por links WAN que atingiram níveis críticos (um uso de largura de banda superior a 90% da capacidade de largura de banda do link de WAN)
 
-  - Filtradas por tipo de link WAN — links de sites da rede, links interregionais e links dentro de um site
+  - Filtrado por tipo de link de WAN — links de site de rede, links interregional e links dentro de um site
 
-  - Filtradas pela região da rede
+  - Filtradas por região de rede.
 
-A documentação dessa ferramenta está disponível em [Documentação das Ferramentas do Resource Kit do Lync Server 2013](https://technet.microsoft.com/pt-br/library/jj945604\(v=ocs.15\)).
+A documentação para esta ferramenta está disponível na [documentação de ferramentas do kit de recursos do Lync Server 2013](http://go.microsoft.com/fwlink/?linkid=623245).
 
-## Consulte Também
+</div>
 
-#### Outros Recursos
+<div>
 
-[Lista de verificação semanal de tarefas](lync-server-2013-operations-checklists.md)
+## <a name="see-also"></a>Confira também
+
+
+[Lista de verificação semanal de tarefas](lync-server-2013-operations-checklists.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

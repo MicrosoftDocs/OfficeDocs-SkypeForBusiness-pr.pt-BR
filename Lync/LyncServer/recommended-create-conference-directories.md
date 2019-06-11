@@ -1,43 +1,80 @@
-﻿---
-title: (Recomendado) Criar diretórios de conferência
-TOCTitle: (Recomendado) Criar diretórios de conferência
-ms:assetid: 787f4c94-1c96-468a-a74d-e06b7bd4b8a3
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn832056(v=OCS.15)
-ms:contentKeyID: 63257627
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: (Recomendado) Criar diretórios de conferência
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: (Recommended) Create Conference Directories
+ms:assetid: 787f4c94-1c96-468a-a74d-e06b7bd4b8a3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn832056(v=OCS.15)
+ms:contentKeyID: 63146389
+ms.date: 10/03/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e912beac1eeffe3214f8a8d638926d84f547a270
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844165"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# (Recomendado) Criar diretórios de conferência
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-10-03_
+# <a name="recommended-create-conference-directories"></a>(Recomendado) Criar diretórios de conferência
 
-Diretórios de conferência mantêm um mapeamento entre o ID alfanumérico da reunião que o participante usa para entrar em uma conferência quando estiver usando o Lync 2013 e o ID exclusivamente numérico da conferência que o participante da conferência discada usa para entrar nela. O formato do ID de conferência é como segue:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-10-03_
+
+As pastas de conferência mantêm um mapeamento entre a ID de reunião alfanumérica que um participante usa para ingressar em uma conferência ao usar o Lync 2013 e a ID de conferência somente numérico que um participante de conferência discada usa para participar da conferência. O formato do ID de conferência é como segue:
 
     <housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
 
-Criar vários diretórios de conferência garantirá que os IDs de conferência sejam curtos até que uma quantidade significativa de conferências seja criada. Em uma organização com um número comum de conferências por usuário, é recomendável criar um diretório de conferência para cada 999 usuários no pool. Usando essa diretriz, os IDs podem ser geralmente mantidos pequenos. No entanto, assim que o número de diretórios de conferência (em todos os pools) ultrapassar 9, o tamanho do ID de conferência aumentará para suportar conferências adicionais.
+Criar vários diretórios de conferência garantirá que os IDs de conferência sejam curtos até que uma quantidade significativa de conferências seja criada. Em uma organização com um número comum de conferências por usuário, recomendamos criar um diretório de conferência para cada 999 usuários no pool. Usando esta diretriz, as IDs de conferência geralmente podem ser mantidas pequenas. No entanto, assim que o número de diretórios de conferência (em todos os pools) ultrapassar 9, o tamanho do ID de conferência aumentará para suportar conferências adicionais.
 
-## Criando um diretório de conferência
+<div>
 
-1.  Em Shell de Gerenciamento do Lync Server, digite o seguinte cmdlet:
+## <a name="creating-a-conference-directory"></a>Criando um diretório de conferência
+
+1.  No Shell de gerenciamento do Lync Server, digite o seguinte cmdlet:
     
         New-CsConferenceDirectory -Identity <XdsGlobalRelativeIdentity> -HomePool <String> [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-WhatIf [<SwitchParameter>]]
     
-    Por exemplo, o seguinte cria um diretório de conferência com a identidade 42, hospedado no pool atl-cs-001.litwareinc.com:
+    Por exemplo, o seguinte cria um diretório de conferência com a identidade 42, hospedada na atl-cs-001.litwareinc.com do pool:
     
         New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
 
-## Consulte Também
+</div>
 
-#### Conceitos
+<div>
 
-[Exigências da conferência discada no Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md)  
+## <a name="see-also"></a>Confira também
 
-#### Outros Recursos
 
-[New-CsConferenceDirectory](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsConferenceDirectory)
+[Requisitos de conferência discada no Lync Server 2013](lync-server-2013-dial-in-conferencing-requirements.md)  
+
+
+[New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/New-CsConferenceDirectory)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

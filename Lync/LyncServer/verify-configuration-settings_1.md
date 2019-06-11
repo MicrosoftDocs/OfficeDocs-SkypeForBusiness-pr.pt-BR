@@ -1,23 +1,45 @@
-﻿---
-title: Verificar configurações
-TOCTitle: Verificar configurações
-ms:assetid: 41dbf91c-f2e1-4b9a-88cf-959575558cf2
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204848(v=OCS.15)
-ms:contentKeyID: 49306520
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Verificar as definições da configuração
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Verify configuration settings
+ms:assetid: 41dbf91c-f2e1-4b9a-88cf-959575558cf2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204848(v=OCS.15)
+ms:contentKeyID: 48183997
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a20b78ac9275657461beb74a7325c0c46e4e40fd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844123"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verificar configurações
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="verify-configuration-settings"></a>Verificar as definições da configuração
 
-Após mesclar a topologia e executar o cmdlet **Import-CsLegacyConfiguration** , verifique se suas políticas e configurações do Office Communications Server 2007 R2 foram importadas para o Lync Server 2013. A tabela a seguir lista as políticas e configurações que você deve verificar.
+</div>
 
-## Políticas e configurações a serem verificadas após a migração
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-28_
+
+Depois de mesclar a topologia e executar o cmdlet **Import-CsLegacyConfiguration** , verifique se suas configurações e políticas do Office Communications Server 2007 R2 foram importadas para o Lync Server 2013. A tabela a seguir lista as políticas e configurações que devem ser verificadas.
+
+<div>
+
+## <a name="policies-and-settings-to-verify-after-migration"></a>Políticas e configurações para verificar após a migração
 
 
 <table>
@@ -27,19 +49,19 @@ Após mesclar a topologia e executar o cmdlet **Import-CsLegacyConfiguration** ,
 </colgroup>
 <thead>
 <tr class="header">
-<th>Se você utiliza esta carga de trabalho:</th>
+<th>Se você usar essa carga de trabalho:</th>
 <th>Verifique essas políticas e configurações:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Mensagem instantânea (IM) e conferência</p></td>
+<td><p>Mensagens instantâneas (IM) e conferência</p></td>
 <td><p>Política de presença</p>
 <p>Política de conferência</p></td>
 </tr>
 <tr class="even">
-<td><p>Conferência Discada</p></td>
-<td><p>Números de acesso de discagem</p>
+<td><p>Conferência discada</p></td>
+<td><p>Números de acesso discado</p>
 <p>Planos de discagem</p></td>
 </tr>
 <tr class="odd">
@@ -47,76 +69,116 @@ Após mesclar a topologia e executar o cmdlet **Import-CsLegacyConfiguration** ,
 <td><p>Política de voz</p>
 <p>Rotas de voz</p>
 <p>Planos de discagem</p>
-<p>Configurações de uso do PSTN</p></td>
+<p>Configurações de uso de PSTN</p></td>
 </tr>
 <tr class="even">
 <td><p>Communicator Web Access</p></td>
-<td><p>URLs simples</p></td>
+<td><p>URLs simples </p></td>
 </tr>
 <tr class="odd">
 <td><p>Usuários externos</p></td>
 <td><p>Políticas de acesso externo</p></td>
 </tr>
 <tr class="even">
-<td><p>Arquivamento</p></td>
+<td><p>Archiving</p></td>
 <td><p>Política de arquivamento</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Para verificar as políticas e configurações
+</div>
 
-1.  No seu ambiente Office Communications Server 2007 R2, anote os nomes dos planos de discagem (conhecido anteriormente como perfis de localização), números de acesso de discagem (números e regiões de telefone para acesso do Atendedor de Conferência), rotas de voz e as políticas listadas na tabela anterior, além de URLs utilizadas para o Communicator Web Access.
+<div>
 
-2.  No servidor de Front End Lync Server 2013, abra Painel de Controle do Lync Server.
+## <a name="to-verify-policies-and-settings"></a>Para verificar políticas e configurações
 
-3.  Para verificar as políticas de conferência importadas, no painel à esquerda, clique em **Conferência** , clique em **Política de conferência** e, então, verifique se todas as políticas de conferência do seu ambiente Office Communications Server 2007 R2 foram incluídas na lista.
+1.  No ambiente do Office Communications Server 2007 R2, anote os nomes dos planos de discagem (anteriormente conhecidos como perfis de localização), números de acesso discado (regiões e números de telefone de acesso do atendente de conferência), rotas de voz e as políticas listadas na tabela anterior, além das URLs usadas para o Communicator Web Access.
+
+2.  No servidor front-end do Lync Server 2013, abra o painel de controle do Lync Server.
+
+3.  Para verificar as políticas de conferência importadas, no painel esquerdo, clique em **conferência**, clique em **política de conferência**e verifique se todas as políticas de conferência no ambiente do Office Communications Server 2007 R2 estão incluídas na lista.
     
-    > [!NOTE]  
-    > A política de <strong>Reunião</strong> de versões anteriores do Office Communications Server agora é conhecido como a política de conferência no Lync Server 2013. Além disso, a configuração <strong>Participantes anônimos</strong> de versões anteriores do Office Communications Server agora é uma configuração na política de conferência do Lync Server 2013.    
-    > [!NOTE]  
-    > Em Office Communications Server 2007 R2, se a política de conferência não for definida para <strong>uso por usuário</strong> , apenas configurações de política global são importadas. Nenhuma outra política de conferência é importada neste caso.    
-    > [!NOTE]  
-    > O <strong>Participantes anônimos</strong> está definido para <strong>Impor por usuário</strong> na sua Office Communications Server 2007 R2 política de conferência, duas políticas de conferência são criadas durante a migração: uma com <strong>AllowAnonymousParticipantsInMeetings</strong> definida como <strong>Verdadeira</strong> e uma com <strong>AllowAnonymousParticipantsInMeetings</strong> definida como <strong>Falso</strong> .
-
-4.  Para verificar planos importados, clique em **Roteamento de voz** , clique em **Plano de discagem** e, então, verifique se todos os planos de discagem no seu ambiente Office Communicator 2007 R2 estão incluídos na lista.
+    <div>
     
-    > [!NOTE]  
-    > Em Lync Server 2013, <strong>perfis de localização</strong> agora estão referenciados como <strong>dial-plans</strong> .
 
-5.  Para verificar políticas de voz importadas, clique em **Roteamento de voz** , clique em **Política de voz** e, então, verifique se todas as suas políticas de voz do ambiente Office Communicator 2007 R2 estão incluídas na lista.
+    > [!NOTE]  
+    > A política de <STRONG>reunião</STRONG> de versões anteriores do Office Communications Server agora é conhecida como a política de conferência no Lync Server 2013. Além disso, a configuração <STRONG>particpants anônima</STRONG> de versões anteriores do Office Communications Server agora é uma configuração na política de conferência do Lync Server 2013.
+
     
+    </div>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Se a política não estiver definida como <strong>uso por usuário</strong> no seu ambiente Office Communications Server 2007 R2, apenas configurações de políticas globais são importadas. Nenhuma outra política de voz é importada nesta situação.
+    > No Office Communications Server 2007 R2, se a política de conferência não estiver definida como <STRONG>usar por usuário</STRONG>, somente as configurações de política global serão importadas. Nenhuma outra política de conferência é importada nessa situação.
 
-6.  Para verificar rotas de voz importadas, clique em **Rota de voz** , clique em **Rota** e, então, verifique se todas as rotas de voz no seu ambiente Office Communicator 2007 R2 estão incluídas na lista.
+    
+    </div>
+    
+    <div>
+    
 
-7.  Para verificar configurações de uso do PSTN, clique em **Roteamento de voz** , clique em **Uso do PSTN** e, então, verifique se as configurações de Uso do PSTN do seu ambiente Office Communicator 2007 R2 foram incluídas na lista.
+    > [!NOTE]  
+    > Se <STRONG>os participantes anônimos</STRONG> estiverem definidos para <STRONG>impor por usuário</STRONG> em sua política de conferência do Office Communications Server 2007 R2, duas políticas de conferência serão criadas durante a migração: uma com <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> definido como <STRONG>True</STRONG> e um com <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> definido como <STRONG>false</STRONG>.
 
-8.  Para verificar políticas de acesso externo importadas, clique em **Federação e acesso externo** , clique em **Política de acesso externo** e, então, verifique se todas as políticas de acesso externo no seu ambiente Office Communicator 2007 R2 estão incluídas na lista.
+    
+    </div>
 
-9.  Para verificar as políticas de arquivamento, clique em **Monitoramento e arquivamento** , clique em **Política de arquivamento** e, então, verifique se todas as políticas de arquivamento no seu ambiente Office Communications Server 2007 R2 estão incluídas na lista.
+4.  Para verificar os planos de discagem importados, clique em **Roteamento de voz**, clique em **plano**de discagem e verifique se todos os planos de discagem no ambiente do Office Communicator 2007 R2 estão incluídos na lista.
+    
+    <div>
+    
 
-10. Abra o Shell de Gerenciamento do Lync Server.
+    > [!NOTE]  
+    > No Lync Server 2013, os <STRONG>perfis de localização</STRONG> agora são chamados de planos de <STRONG>discagem</STRONG>.
+
+    
+    </div>
+
+5.  Para verificar as políticas de voz importadas, clique em **Roteamento de voz**, clique em **política de voz**e verifique se todas as políticas de voz no ambiente do Office Communicator 2007 R2 estão incluídas na lista.
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > Se a política de voz não estiver definida como <STRONG>usar por usuário</STRONG> no ambiente do Office Communications Server 2007 R2, somente as configurações de política global serão importadas. Nenhuma outra política de voz é importada nessa situação.
+
+    
+    </div>
+
+6.  Para verificar as rotas de voz importadas, clique em **Roteamento de voz**, clique em **rota**e verifique se todas as rotas de voz no ambiente do Office Communicator 2007 R2 estão incluídas na lista.
+
+7.  Para verificar as configurações de uso de PSTN importadas, clique em **Roteamento de voz**, clique em **uso PSTN**e verifique se as configurações de uso PSTN do ambiente do Office Communicator 2007 R2 estão incluídas na lista.
+
+8.  Para verificar as políticas de acesso externo importadas, clique em **Federação e acesso externo**, clique em **política de acesso externo**e verifique se todas as políticas de acesso externo em seu ambiente do Office Communicator 2007 R2 estão incluídas na lista.
+
+9.  Para verificar as políticas de arquivamento, clique em **monitoramento e arquivamento**, clique em **política**de arquivamento e verifique se todas as políticas de arquivamento no ambiente do Office Communications Server 2007 R2 estão incluídas na lista.
+
+10. Abra o Shell de gerenciamento do Lync Server.
 
 11. Para verificar as políticas de presença, na linha de comando, digite o seguinte:
     
         Get-CsPresencePolicy
     
-    Ao olhar para o nome no parâmetro **Identidade** , verifique se todas as políticas de presença no seu ambiente Office Communications Server 2007 R2 foram importadas.
+    Olhando o nome no parâmetro **Identity** , verifique se todas as políticas de presença no ambiente do Office Communications Server 2007 R2 foram importadas.
 
-## Para verificar políticas e configurações utilizando cmdlets
+</div>
 
-1.  Abra o Shell de Gerenciamento do Lync Server.
+<div>
 
-2.  Execute os cmdlets na tabela a seguir para verificar políticas e configurações.
+## <a name="to-verify-policies-and-settings-by-using-cmdlets"></a>Para verificar políticas e configurações usando cmdlets
+
+1.  Abra o Shell de gerenciamento do Lync Server.
+
+2.  Execute os cmdlets na tabela a seguir para verificar as políticas e configurações.
     
-    A sintaxe desses cmdlets são como o exemplo a seguir:
+    A sintaxe desses cmdlets é como o seguinte exemplo:
     
         Get-CsConferencingPolicy
     
-    Para detalhes sobre esses cmdlets, execute:
+    Para obter detalhes sobre estes cmdlets, execute:
     
         Get-Help <cmdlet name> -Detailed
 
@@ -128,8 +190,8 @@ Após mesclar a topologia e executar o cmdlet **Import-CsLegacyConfiguration** ,
 </colgroup>
 <thead>
 <tr class="header">
-<th>Para essa política ou configuração:</th>
-<th>Utilize este :</th>
+<th>Para esta política ou configuração:</th>
+<th>Use este cmdlet:</th>
 </tr>
 </thead>
 <tbody>
@@ -142,7 +204,7 @@ Após mesclar a topologia e executar o cmdlet **Import-CsLegacyConfiguration** ,
 <td><p><strong>Get-CsConferencingPolicy</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p>Números de acesso de discagem</p></td>
+<td><p>Números de acesso discado</p></td>
 <td><p><strong>Get-CsDialInConferencingAccessNumber</strong></p></td>
 </tr>
 <tr class="even">
@@ -175,4 +237,17 @@ Após mesclar a topologia e executar o cmdlet **Import-CsLegacyConfiguration** ,
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

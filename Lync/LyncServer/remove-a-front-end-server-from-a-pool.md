@@ -1,29 +1,63 @@
-﻿---
-title: Remover um Servidor Front-End de um pool
-TOCTitle: Remover um Servidor Front-End de um pool
-ms:assetid: 767225c9-7c0b-4d54-a407-d77134ba2abe
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688095(v=OCS.15)
-ms:contentKeyID: 49886266
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Remover um Servidor Front-End de um pool
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove a Front End Server from a pool
+ms:assetid: 767225c9-7c0b-4d54-a407-d77134ba2abe
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688095(v=OCS.15)
+ms:contentKeyID: 49733694
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b798674173d14c2bd3f5638f6049c3a723786f91
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844157"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Remover um Servidor Front-End de um pool
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-04_
+# <a name="remove-a-front-end-server-from-a-pool"></a>Remover um Servidor Front-End de um pool
 
-O Microsoft Lync Server 2010 Enterprise Edition Servidor Front-End não pode existir como um computador autônomo. Ele deverá ser definido como um Pool de Front-Ends, mesmo se houver apenas um único computador no pool.
+</div>
 
-Este tópico o guia através do processo de remoção de um Servidor Front-End individual de um Pool de Front-Ends existente. Se o Servidor Front-End for o último servidor do pool ou se você remover o pool completamente, consulte [Remover pool Front-End ou servidor Standard Edition](remove-front-end-pool-or-standard-edition-server.md). Não é necessário remover o Servidores Front-End individual antes de remover o Pool de Front-Ends. Quando você remover o pool, remova cada Servidor Front-End.
+<div id="mainSection">
 
-## Para remover um servidor Front-End de um pool
+<div id="mainBody">
 
-1.  Abra o servidor de front-end do Lync Server 2013, abra o Construtor de Topologia.
+<span> </span>
 
-2.  Navegue para o nó Lync Server 2010.
+_**Tópico da última modificação:** 2012-10-04_
 
-3.  Expanda **pools de Front-Ends do Enterprise Edition** , expanda o Pool de Front-Ends com o Servidor Front-End que você deseja remover, clique com botão direito do mouse no Servidor Front-End que você deseja remover e clique em **Excluir** .
+O servidor front-end do Microsoft Lync Server 2010 Enterprise Edition não pode existir como um computador autônomo. Ele deve ser definido como um pool de front-end, mesmo se houver apenas um único computador no pool.
+
+Este tópico orienta você pelo processo de remoção de um servidor front-end individual de um pool de front-end existente. Se o servidor front-end for o último servidor do pool ou se você estiver removendo o pool completamente, consulte [remover o pool de front-end ou o servidor Standard Edition](remove-front-end-pool-or-standard-edition-server.md). Não é necessário remover os servidores front-end individuais antes de remover o pool de front-ends. Ao remover o pool, você remove cada servidor front-end.
+
+<div>
+
+## <a name="to-remove-a-front-end-server-from-a-pool"></a>Para remover um servidor front-end de um pool
+
+1.  Abra o servidor front-end do Lync Server 2013, abra o construtor de topologias.
+
+2.  Navegue até o nó do Lync Server 2010.
+
+3.  Expanda Pools de **front-end do Enterprise Edition**, expanda o pool de front-ends com o servidor front-end que você deseja remover, clique com o botão direito do mouse no servidor front-end que você deseja remover e clique em **excluir**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

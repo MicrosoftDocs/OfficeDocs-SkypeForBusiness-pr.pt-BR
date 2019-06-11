@@ -1,29 +1,59 @@
-﻿---
-title: Migrar o Servidor de Mediação
-TOCTitle: Migrar o Servidor de Mediação
-ms:assetid: b0b77121-2c8f-413e-b276-dbf1038361d3
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205173(v=OCS.15)
-ms:contentKeyID: 49307812
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migrar servidor de mediação
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrate Mediation Server
+ms:assetid: b0b77121-2c8f-413e-b276-dbf1038361d3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205173(v=OCS.15)
+ms:contentKeyID: 48185117
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 79fc35a7641b4acb42578ec4e75375e171ae905e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844268"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migrar o Servidor de Mediação
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-28_
+# <a name="migrate-mediation-server"></a>Migrar servidor de mediação
 
-O seu Servidor de mediação é mesclado a sua topologia piloto do Lync Server 2013 ao executar o assistente de Mesclagem. No entanto, é possível configurar o Servidor de mediação do Lync Server 2013 depois que todos os usuários são migrados, pois um pool do Office Communications Server 2007 R2 não pode ser comunicar com um Servidor de mediação do Lync Server 2013. Durante a migração lado a lado, o pool do Lync Server 2013 se comunica com o Servidor de mediação do Office Communications Server 2007 R2.
+</div>
 
-Ao configurar o seu Servidor de mediação do Lync Server 2013, você também deve atualizar ou substituir seus gateways do Office Communications Server 2007 R2. Os gateways do Office Communications Server 2007 R2 não oferecem suporte ao Servidor de mediação do Lync Server 2013. É necessário implantar gateways certificados para Lync Server 2013 e associá-los ao Servidor de mediação do Lync Server 2013. Esta etapa é necessária antes de você encerrar totalmente sua implantação do Office Communications Server 2007 R2.
+<div id="mainSection">
 
-Os tópicos nesta seção descrevem as tarefas de configuração que você precisa executar depois de concluir a migração do Servidor de mediação do Lync Server 2013. A transição do Servidor de mediação colocado para um Servidor de mediação independente é uma tarefa opcional.
+<div id="mainBody">
 
-  - [Configurar o Servidor de Mediação](configure-mediation-server.md)
+<span> </span>
 
-  - [Alterar rotas de voz para usar o novo Servidor de Mediação do Lync Server 2013](change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md)
+_**Tópico da última modificação:** 2012-09-28_
 
-  - [Transição de um Servidor de Mediação colocado em conjunto com um Servidor de Mediação autônomo (opcional)](transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md)
+O servidor de mediação é mesclado à sua topologia piloto do Lync Server 2013 quando você executa o assistente de mesclagem. No entanto, você pode configurar o servidor de mediação do Lync Server 2013, quando todos os usuários forem migrados porque um pool do Office Communications Server 2007 R2 não pode se comunicar com um servidor de mediação do Lync Server 2013. Durante a migração lado a lado, o pool do Lync Server 2013 se comunica com o servidor de mediação do Office Server 2007 R2.
+
+Ao configurar o servidor de mediação do Lync Server 2013, você também deve atualizar ou substituir seus gateways do Office Communications Server 2007 R2. Os gateways do Office Communications Server 2007 R2 não oferecem suporte ao Lync Server 2013 Media Server. Você precisa implantar gateways certificados para o Lync Server 2013 e associá-los ao servidor do Lync Server 2013 Media Server. Esta etapa é necessária para que você possa encerrar completamente a implantação do Office Communications Server 2007 R2.
+
+Os tópicos desta seção descrevem tarefas de configuração que você precisa executar após concluir a migração do servidor de mediação do Lync Server 2013. A transição do servidor de mediação posicionado para um servidor de mediação autônomo é uma tarefa opcional.
+
+  - [Configurar o servidor de mediação](configure-mediation-server.md)
+
+  - [Alterar as rotas de voz para usar o novo servidor de mediação do Lync Server 2013](change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md)
+
+  - [Fazer a transição de um servidor de mediação posicionado para um servidor autônomo de mediação (opcional)](transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

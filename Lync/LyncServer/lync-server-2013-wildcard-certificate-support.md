@@ -1,56 +1,93 @@
-﻿---
-title: 'Lync Server 2013: Suporte a certificado curinga'
-TOCTitle: Suporte a certificado curinga
-ms:assetid: 0bae2aa8-b6dc-46f5-a3be-3fe7581809d4
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh202161(v=OCS.15)
-ms:contentKeyID: 49305852
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Suporte a certificado curinga'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Wildcard certificate support
+ms:assetid: 0bae2aa8-b6dc-46f5-a3be-3fe7581809d4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202161(v=OCS.15)
+ms:contentKeyID: 48183382
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9422c3bebbb5fb32be88cfe5c41968207bbed2ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844290"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Suporte a certificado curinga no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-03-21_
+# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Suporte a certificado curinga no Lync Server 2013
 
-O Lync Server 2013 usa os certificados para fornecer criptografias de comunicações e autenticação de identidade do servidor. Em alguns casos, como em publicações na web através do proxy reverso, uma entrada forte de nome alternativo da entidade (SAN) que corresponda ao nome de domínio totalmente qualificado (FQDN) do servidor apresentando o serviço não é necessária. Nesses casos, é possível usar certificados com entradas curingas de SAN (comumente conhecidos como "certificados curinga") para reduzir o custo de um certificado solicitado por uma autoridade de certificação pública e para reduzir a complexidade do processo de planejamento para certificados.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-03-21_
+
+O Lync Server 2013 usa certificados para fornecer criptografia de comunicação e autenticação de identidade do servidor. Em alguns casos, como a publicação na Web por meio do proxy inverso, a entrada de nome alternativo de assunto (SAN) forte para o nome de domínio totalmente qualificado (FQDN) do servidor que está apresentando o serviço não é necessária. Nesses casos, você pode usar certificados com entradas de SAN curinga (geralmente conhecidas como "certificados curinga") para reduzir o custo de um certificado solicitado de uma autoridade de certificação pública e para reduzir a complexidade do processo de planejamento de certificados .
+
+<div>
 
 
 > [!WARNING]  
-> Para reter a funcionalidade de dispositivos de comunicações unificadas (UC) (por exemplo, telefones de mesa), você deve testar o certificado implantado com cuidado para garantir que os dispositivos funcionem adequadamente depois de implantar um certificado curinga.
+> Para manter a funcionalidade dos dispositivos de comunicação unificada (UC) (por exemplo, telefones de mesa), você deve testar cuidadosamente o certificado implantado para garantir que os dispositivos funcionarão corretamente após a implementação de um certificado curinga.
 
 
 
-Não há suporte para uma entrada curinga como nome de entidade (também conhecido como nome comum ou CN) para nenhuma função. As funções do servidor apresentadas a seguir são suportadas quando são usadas entradas curinga no SAN:
+</div>
 
-   **Proxy reverso.**   A entrada de SAN curinga tem suporte do certificado de publicação de URL simples (reunir e discar).
+Não há suporte para uma entrada de curinga como o nome do requerente (também conhecido como o nome comum ou CN) para qualquer função. As seguintes funções de servidor são suportadas ao usar entradas de curinga na SAN:
 
-   **Proxy reverso.**   A entrada de SAN curinga tem suporte do certificado de publicação do LyncDiscover.
+  - <span></span>  
+    **Proxy reverso.**    Há suporte para a entrada de San curinga para o certificado de publicação URL simples (reunião e discagem).
 
-   **Diretor.** A entrada de SAN curinga tem suporte de URLs simples (reunir e e discar) e por entradas do LyncDiscover e LyncDiscoverInternal nos componentes de Web do Diretor.
+  - <span></span>  
+    **Proxy reverso.**    Há suporte para a entrada de San curinga nas entradas de San para LyncDiscover no certificado de publicação.
 
-   **Servidor Front-End ( Standard Edition) e Pool de Front-Ends ( Enterprise Edition).** A entrada de SAN curinga é suportada para URLs simples (reunir e discar) e por entradas SAN para o LyncDiscover e LyncDiscoverInternal de componentes da Web de Front-Ends.
+  - <span></span>  
+    **Diretor.**    Há suporte para a entrada de San curinga para URLs simples (atender e fazer chamadas) e para entradas de San para LyncDiscover e LyncDiscoverInternal em Web Components do director.
 
-   **Unificação de Mensagens (UM) do Exchange.** O servidor não usa entradas de SAN quando implantado como um servidor autônomo.
+  - <span></span>  
+    **Servidor front-end (Standard Edition) e pool de front-end (Enterprise Edition).** Há suporte para a entrada de SAN curinga para URLs simples (atender e discagem) e para entradas de SAN para LyncDiscover e LyncDiscoverInternal em componentes de front-end Web.
 
-   Servidor de Acesso para Cliente do **Microsoft Exchange Server.** As entradas curinga no SAN são suportadas por clientes internos e externos.
+  - <span></span>  
+    **Exchange Unified Messaging (UM).**    O servidor não usa entradas de San quando implantado como um servidor autônomo.
 
-   Servidor de Acesso para Cliente **Unificação de Mensagens (UM) do Exchange e Microsoft Exchange Server no mesmo servidor.** As entradas curinga de SAN são suportadas.
+  - <span></span>  
+    **Servidor de acesso para cliente do Microsoft Exchange Server.**    As entradas CURINGA na San têm suporte para clientes internos e externos.
 
-As funções do servidor que não são abordadas neste tópico:
+  - <span></span>  
+    **Exchange Unified Messaging (UM) e servidor de acesso para cliente do Microsoft Exchange Server no mesmo servidor.**    Há suporte para entradas de San curinga.
 
-  - Funções do servidor interno (incluindo, mas não limitado ao Servidor de Mediação, ao Servidor de Arquivamento e Monitoramento, ao Aparelho de Filial Persistente ou ao Servidor de Filial Persistente)
+Funções de servidor que não são abordadas neste tópico:
 
-  - Interfaces externas do Servidor de Borda
+  - Funções de servidor interno (incluindo, entre outros, o servidor de mediação, o servidor de monitoramento e o servidor de mediação, o aparelho de ramificação sobreviventes ou o servidor de ramificação sobreviventes)
 
-  - Servidor de Borda interno
+  - Interfaces do servidor de borda externa
+
+  - Servidor de borda interna
     
-    > [!NOTE]  
-    > Para a interface interna do Servidor de Borda, uma entrada curinga pode ser designada ao SAN e é suportada. O SAN no Servidor de Borda interno não é consultado, e uma entrada curinga de SAN tem valor limitado.
+    <div>
+    
 
-Para obter detalhes sobre o uso de certificados no Exchange, consulte o seguinte:
+    > [!NOTE]  
+    > Para a interface do servidor de borda interna, uma entrada de curinga pode ser atribuída à SAN e é compatível. A SAN no servidor de borda interno não é consultada e uma entrada de SAN por curinga tem um valor limitado.
+
+    
+    </div>
+
+Para obter detalhes sobre configurações de certificado, incluindo o uso de caracteres curinga em certificados, consulte os seguintes tópicos:
 
   - [Requisitos de certificado para servidores internos no Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md)
 
@@ -66,5 +103,15 @@ Para obter detalhes sobre o uso de certificados no Exchange, consulte o seguinte
 
   - [Orientações para integração de Unificação de Mensagens local e Lync Server 2013](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
 
-Para detalhes sobre como configurar certificados para o Exchange, incluindo o uso de curingas, consulte a documentação do produto Exchange 2013.
+Para obter detalhes sobre como configurar certificados para Exchange, incluindo o uso de caracteres curinga, consulte a documentação do produto Exchange 2013.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

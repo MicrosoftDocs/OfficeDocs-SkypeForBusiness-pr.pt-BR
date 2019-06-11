@@ -1,35 +1,65 @@
-﻿---
-title: Migrando federação XMPP
-TOCTitle: Migrando federação XMPP
-ms:assetid: b8d2b4b9-d0ed-4b48-820a-2c257fbdd2fb
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721861(v=OCS.15)
-ms:contentKeyID: 49886377
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migrar a federação XMPP
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrating XMPP federation
+ms:assetid: b8d2b4b9-d0ed-4b48-820a-2c257fbdd2fb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721861(v=OCS.15)
+ms:contentKeyID: 49733794
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 400377610728bc401d65d9039bea308cff1fb437
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844250"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migrando federação XMPP
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-19_
+# <a name="migrating-xmpp-federation"></a>Migrar a federação XMPP
 
-As versões anteriores do Lync Server e do Office Communications Server forneceram um gateway de protocolo XMPP que poderia ser implantada como uma função de servidor separada e permitir a federação com implantações de XMPP. No Lync Server 2013, a funcionalidade XMPP pode ser implantada como um recurso. A funcionalidade XMPP é instalada em duas partes: como um proxy XMPP que funciona no Servidor de borda do Lync Server 2013 e o Gateway XMPP que funciona no Servidor front-end do Lync Server 2013.
+</div>
 
-Da perspectiva de migração, uma conta de usuário do Lync Server pode ser movida para um pool do Lync Server 2013 e continuar a usar o gateway XMPP herdado. Isso é possível somente quando o parceiro federado XMPP não está configurado no Lync Server 2013.
+<div id="mainSection">
 
-Em resumo, se o Lync Server 2010 foi implantado com o Gateway XMPP do Office Communications Server 2007 R2 e a federação XMPP foi ativada para usuários herdados do Lync Server 2010, para migrar a federação XMPP para o Lync Server 2013:
+<div id="mainBody">
 
-1.  Implante um pool do Lync Server 2013.
+<span> </span>
 
-2.  Implante um servidor de borda do Lync Server 2013.
+_**Tópico da última modificação:** 2012-10-19_
 
-3.  Mova todos os usuários para o pool do Lync Server 2013
+As versões anteriores do Lync Server e do Office Communications Server forneciam um gateway de protocolo de presença e mensagens (XMPP) extensível que poderia ser implantado como uma função de servidor separada para permitir a Federação com implantações do XMPP. No Lync Server 2013, a funcionalidade XMPP pode ser implantada como um recurso. A funcionalidade XMPP é instalada em duas partes: como um proxy do XMPP que é executado no servidor de borda do Lync Server 2013 e o Gateway XMPP executado no servidor front-end do Lync Server 2013.
 
-4.  Crie políticas de acesso XMPP e certificados para o Servidor de borda.
+De uma perspectiva de migração, uma conta de usuário do Lync Server pode ser movida para um pool do Lync Server 2013 e continuar a usar o gateway herdado XMPP. Isso só é possível quando o parceiro federado XMPP não está configurado no Lync Server 2013.
 
-5.  Ative a federação XMPP no Lync Server 2013. 
+Em resumo, se o Lync Server 2010 tiver sido implantado com o gateway do Office Communications Server 2007 R2 XMPP e a Federação do XMPP tiver sido habilitada para usuários herdados do Lync Server 2010, para migrar a Federação do XMPP para o Lync Server 2013:
 
-6.  Atualize as entradas DNS para que apontem para o Gateway XMPP do Lync Server 2013.
+1.  Implantar um pool do Lync Server 2013.
+
+2.  Implantar um servidor de borda do Lync Server 2013.
+
+3.  Mover todos os usuários para o pool do Lync Server 2013
+
+4.  Criar políticas e certificados de acesso XMPP para o servidor de borda.
+
+5.  Habilite a Federação do XMPP no Lync Server 2013. 
+
+6.  Atualize as entradas de DNS para apontar para o gateway do Lync Server 2013 XMPP.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

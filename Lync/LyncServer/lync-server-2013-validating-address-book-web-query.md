@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Validating address book web query'
+---
+title: 'Lync Server 2013: Validando a consulta à Web do catálogo de endereços'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Validating address book web query
 ms:assetid: e6ae0a5a-e131-4cfe-9a33-6e611831072d
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn720925(v=OCS.15)
-ms:contentKeyID: 62240146
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720925(v=OCS.15)
+ms:contentKeyID: 63969662
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 44c43b4332be67bb164f21a2bb07459d61b23e85
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844447"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Validating address book web query in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="validating-address-book-web-query-in-lync-server-2013"></a>Validando a consulta da Web do catálogo de endereços no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-06-05_
 
 
 <table>
@@ -23,109 +43,135 @@ _**Tópico modificado em:** 2016-12-08_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Cronograma de verificação</p></td>
+<td><p>Diário</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de Gerenciamento do Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsAddressBookWebQuery cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permissões necessárias</p></td>
+<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet Test-CsAddressBookWebQuery. Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAddressBookWebQuery&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsAddressBookWebQuery cmdlet enables administrators to verify that users can use the Address Book Web Query service to search for a specific contact. When you run the cmdlet, Test-CsAddressBookWebQuery will first connect to the Web Ticket service to be authenticated. If authentication is successful, the cmdlet will then connect to the Address Book Web Query service and search for the specified contact. If that contact is found, the cmdlet will attempt to return that information to the local computer. The test will be marked a success only if all those steps can be completed.
+## <a name="description"></a>Descrição
 
-For more information, see the Help documentation for the [Test-CsAddressBookWebQuery](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAddressBookWebQuery) cmdlet.
+O cmdlet Test-CsAddressBookWebQuery permite que os administradores verifiquem se os usuários podem usar o serviço de consulta à Web do catálogo de endereços para pesquisar um contato específico. Quando você executar o cmdlet, Test-CsAddressBookWebQuery primeiro se conectará ao serviço de tíquete da Web para ser autenticado. Se a autenticação for bem-sucedida, o cmdlet se conectará ao serviço de consulta à Web do catálogo de endereços e pesquisará o contato especificado. Se esse contato for encontrado, o cmdlet tentará retornar essas informações para o computador local. O teste será marcado como sucesso apenas se todas essas etapas puderem ser concluídas.
 
-## Running the test
+Para obter mais informações, consulte a documentação da ajuda para o cmdlet [Test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery) .
 
-The Test-CsAddressBookWebQuery cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server. To run this check using a test account, you just have to specify the FQDN of the Lync Server pool and the SIP address of the user acting as the target of the search. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Executar o teste
+
+O cmdlet Test-CsAddressBookWebQuery pode ser executado usando uma conta de teste pré-configurada (consulte Configurando contas de teste para executar testes do Lync Server) ou a conta de qualquer usuário habilitado para o Lync Server. Para executar essa verificação usando uma conta de teste, basta especificar o FQDN do pool do servidor do Lync e o endereço SIP do usuário que atua como o destino da pesquisa. Por exemplo:
 
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com"
 
-To run this check using an actual user account, you must create a Windows PowerShell credentials object that contains a valid user name and password. You must then include that credentials object and the SIP address assigned to the account when the code calls Test-CsAddressBookWebQuery:
+Para executar essa verificação usando uma conta de usuário real, você deve criar um objeto de credenciais do Windows PowerShell que contenha um nome de usuário e senha válidos. Em seguida, você deve incluir esse objeto de credenciais e o endereço SIP atribuído à conta quando o código chamar Test-CsAddressBookWebQuery:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsAddressBookWebQuery](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAddressBookWebQuery) cmdlet.
+Para obter mais informações, consulte a documentação da ajuda para o cmdlet [Test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery) .
 
-## Determining success or failure
+</div>
 
-If the specified user can connect to the Address Book Service and retrieve the targeted user address, you'll return output similar to this with the Result property marked as Success:
+<div>
 
-TargetUri : https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Se o usuário especificado puder se conectar ao serviço de catálogo de endereços e recuperar o endereço de usuário direcionado, você retornará uma saída semelhante a isso com a propriedade Result marcada como Success:
 
-Result : Success
+TargetUri :https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
-Latency : 00:00:06.2611356
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+Resultado: êxito
 
-Diagnosis :
+Latência: 00:00:06.2611356
 
-If the specified user can't connect or if the target user address cannot be retrieved, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+Erros
 
-TargetUri : https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+Correto
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Se o usuário especificado não puder se conectar ou se o endereço de usuário de destino não puder ser recuperado, o resultado será mostrado como uma falha, e informações adicionais serão gravadas nas propriedades erro e diagnóstico:
 
-Result : Failure
+TargetUri :https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error : Address Book Web service request has failed with response code
+Resultado: falha
+
+Latência: 00:00:00
+
+Erro: falha na solicitação de serviço Web de catálogo de endereços com código de resposta
 
 NoEntryFound.
 
-Diagnosis :
+Correto
 
-The previous output states that the test failed because the target user couldn't be found. You can determine whether or not a valid SIP address was passed to Test-CsAddressBookWebQuery by running a command similar to the following:
+A saída anterior informa que o teste falhou porque o usuário de destino não foi encontrado. Você pode determinar se um endereço SIP válido foi passado para Test-CsAddressBookWebQuery executando um comando semelhante ao seguinte:
 
     Get-CsUser | Where-Object {$_.SipAddress -eq "sip:davidlongmire@litwareinc.com"
 
-If Test-CsAddressBookWebQuery fails, then you might want to rerun the test, this time including the Verbose parameter:
+Se Test-CsAddressBookWebQuery falhar, talvez você queira executar novamente o teste, desta vez, incluindo o parâmetro Verbose:
 
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com" -Verbose
 
-When the Verbose parameter is included, Test-CsAddressBookWebQuery will return a step-by-step account of each action it tried while checking the ability of the specified user to log on to Lync Server. For example, this output indicates that Test-CsAddressBookWebQuery was able to connect to the Address Book Service, but was not able to locate the target SIP address:
+Quando o parâmetro Verbose estiver incluído, Test-CsAddressBookWebQuery retornará uma conta passo a passo de cada ação que ele tentou ao verificar a capacidade do usuário especificado de fazer logon no Lync Server. Por exemplo, essa saída indica que Test-CsAddressBookWebQuery foi capaz de se conectar ao serviço de catálogo de endereços, mas não pôde localizar o endereço SIP de destino:
 
-'QueryAddressBookWebService' activity started.
+Atividade "QueryAddressBookWebService" iniciada.
 
-Calling Address Book Web Query Service. ABWS URL =
+Fazendo chamadas para o serviço de consulta da Web Catálogo de endereços. URL ABWS =
 
 https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
-Address book query exception : Address Book Web service request has failed with response code NoEntryFound.
+Exceção de consulta do catálogo de endereços: falha na solicitação de serviço Web do catálogo de endereços com o código de resposta NoEntryFound.
 
-## Reasons Why the Test Might Have Failed
+</div>
 
-Here are some common reasons why Test-CsAddressBookWebQuery might fail:
+<div>
 
-  - You specified an invalid user account. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
+
+Aqui estão alguns motivos comuns pelos quais Test-CsAddressBookWebQuery pode falhar:
+
+  - Você especificou uma conta de usuário inválida. Você pode verificar se existe uma conta de usuário executando um comando semelhante a este:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is not currently enabled for Lync Server. To verify that a user account has been enabled for Lync Server, run a command similar to the following:
+  - A conta de usuário é válida, mas a conta não está habilitada no momento para o Lync Server. Para verificar se uma conta de usuário foi habilitada para o Lync Server, execute um comando semelhante ao seguinte:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False that means that the user is not currently enabled for Lync Server.
+    Se a propriedade Enabled estiver definida como false, isso significa que o usuário não está habilitado no momento para o Lync Server.
 
-  - The target user might not be in the Address Book.
+  - O usuário de destino pode não estar no catálogo de endereços.
 
-  - The Address Book might not have fully updated and replicated. You can force an update of all the Address Book Servers in your organization by running the following command:
+  - O catálogo de endereços pode não ter sido totalmente atualizado e replicado. Você pode forçar uma atualização de todos os servidores de catálogo de endereços em sua organização executando o seguinte comando:
     
         Update-CsAddressBook
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

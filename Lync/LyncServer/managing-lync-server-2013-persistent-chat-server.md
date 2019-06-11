@@ -1,32 +1,61 @@
-﻿---
-title: Gerenciar Lync Server 2013, Servidor de Chat Persistente
-TOCTitle: Gerenciar Lync Server 2013, Servidor de Chat Persistente
-ms:assetid: 82befdc6-5d32-45f1-bfd7-aaedffed1ab8
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398657(v=OCS.15)
-ms:contentKeyID: 49307298
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Gerenciar Lync Server 2013, Servidor de Chat Persistente
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing Lync Server 2013, Persistent Chat Server
+ms:assetid: 82befdc6-5d32-45f1-bfd7-aaedffed1ab8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398657(v=OCS.15)
+ms:contentKeyID: 48184672
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: de49e9843c5243457d1c4d736d9bfeda246f042e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844285"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gerenciar Lync Server 2013, Servidor de Chat Persistente
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-11_
+# <a name="managing-lync-server-2013-persistent-chat-server"></a>Gerenciar Lync Server 2013, Servidor de Chat Persistente
 
-Você pode usar Lync Server 2013, Servidor de Chat Persistente para permitir que múltiplos usuários participam em conversas nas quais podem publicar e acessar conteúdo sobre tópicos específicos, incluindo texto, links e arquivos. Embora os usuários possam se comunicar em tempo real durante a sessão, o conteúdo de cada sessão é permanente, o que significa que continuarrá disponível depois que a sessão for encerrada.
+</div>
 
-O conteúdo das salas Chat Persistente consiste primariamente de mensagens de texto curtas, embora possa incluir mensagens mais longas, referidas como *stories* , além de hyperlinks, emoticons e documentos compartilhados.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-11_
+
+Você pode usar o Lync Server 2013, o servidor de chat persistente para permitir que vários usuários participem de conversas em que eles publicarem e acessem o conteúdo sobre tópicos específicos, incluindo texto, links e arquivos. Embora os usuários possam se comunicar em tempo real durante uma sessão, o conteúdo de cada sessão é persistente, o que significa que ele continua disponível após o término de uma sessão.
+
+O conteúdo de salas de chat persistente consiste basicamente em breves mensagens de texto, embora possa incluir mensagens mais longas, chamadas como *matérias*e também hiperlinks, emoticons e documentos carregados.
+
+<div>
+
 
 > [!NOTE]  
-> O upload e download de arquivos não é suportado pelo cliente Lync 2013, mas ainda é suportado por Lync Server 2013, Servidor de Chat Persistente. O cliente legacy Chat de Grupo pode publicar e visualizar arquivos, mas se a mesma sala de chat for acessada pelo cliente Lync 2013, ele não poderá acessar os arquivos.
+> O download e o download de arquivos não são compatíveis com o cliente Lync 2013; no entanto, ele ainda tem suporte do Lync Server 2013, servidor de chat persistente. O cliente de chat em grupo herdado pode publicar e exibir arquivos, mas se a mesma sala de chat for acessada pelo cliente do Lync 2013, ele não poderá acessar os arquivos.
 
-O acesso à sala de chat é controlado por uma lista de associações. Todo o histórico da sala de chat está disponível a qualquer membro para revisão cronológica ou busca de todo o texto. Para detalhes sobre como usar o cliente Chat Persistente, consulte [Planejamento para clientes no Lync Server 2013](lync-server-2013-planning-for-clients.md) na documentação de Planejamento e [Implantando clientes e dispositivos no Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) na documentação de Implantação.
 
-Quando configurar o Servidor de Chat Persistente para sua empresa, especifique a configuração inicial durante a implantação. Contudo, haverá vezes em que você quiser modificar a implantação do suporte de Servidor de Chat Persistente. Por exemplo, você pode precisar configurar o suporte e controles de Servidor de Chat Persistente de forma diferente para uma equipe ou um grupo específico em sua empresa. Esta seção contém informações e procedimentos para ajudá-lo a personalizar sua implantação de Servidor de Chat Persistente. Para detalhes sobre os recursos e funcionalidade que você pode configurar para Servidor de Chat Persistente, consulte [Definindo os requisitos de sua organização para o Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md) na documentação de Planejamento e [Como o servidor de chat persistente funciona no Lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md) na documentação de planejamento, implantação ou doOperações. Para detalhes sobre a implantação de Servidor de Chat Persistente para Lync Server 2013, consulte [Implantando Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) na documentação de Implantação.
 
-## Nesta seção
+</div>
+
+O acesso a uma sala de chat é controlado por uma lista de membros. Todo o histórico de salas de chat está disponível para qualquer membro para análise cronológica ou pesquisa de texto completo. Para obter detalhes sobre como usar o cliente de chat persistente, consulte [planejando clientes no Lync server 2013](lync-server-2013-planning-for-clients.md) na documentação de planejamento e implantando [clientes e dispositivos no Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) na documentação de implantação.
+
+Ao configurar o servidor de chat persistente para a sua organização, você especifica a configuração inicial durante a implantação. No entanto, pode haver ocasiões em que você queira alterar a maneira de implementar o suporte persistente do chat Server. Por exemplo, talvez você precise configurar o suporte e os controles persistentes do servidor de chat de forma diferente para uma equipe específica ou um grupo dentro de sua organização. Esta seção fornece informações e procedimentos para ajudá-lo a personalizar a implantação do servidor de chat persistente. Para obter detalhes sobre os recursos e funcionalidades que você pode configurar para o servidor de chat persistente, consulte [definindo os requisitos da sua organização para o servidor de chat persistente no Lync server 2013](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md) na documentação de planejamento e [como o chat persistente O servidor funciona no Lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md) na documentação de planejamento, documentação de implantação ou documentação de operações. Para obter detalhes sobre a implantação do servidor de chat persistente para o Lync Server 2013, consulte Implantando o [servidor de chat persistente no Lync server 2013](lync-server-2013-deploying-persistent-chat-server.md) na documentação de implantação.
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Como o servidor de chat persistente funciona no Lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md)
 
@@ -41,4 +70,16 @@ Quando configurar o Servidor de Chat Persistente para sua empresa, especifique a
   - [Gerenciando acesso do usuário de Chat Persistente no Lync Server 2013](lync-server-2013-managing-persistent-chat-user-access.md)
 
   - [Operação e manutenção do sistema de Chat Persistente no Lync Server 2013](lync-server-2013-operating-and-maintaining-the-persistent-chat-system.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

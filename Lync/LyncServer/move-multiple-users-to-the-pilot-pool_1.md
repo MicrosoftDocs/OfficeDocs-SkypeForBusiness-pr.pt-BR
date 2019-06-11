@@ -1,85 +1,127 @@
-﻿---
-title: Mover vários usuários para o pool piloto
-TOCTitle: Mover vários usuários para o pool piloto
-ms:assetid: 9492797f-2a26-4773-8ad2-97cb53fa68fc
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688143(v=OCS.15)
-ms:contentKeyID: 49886319
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Mover vários usuários para o pool piloto
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Move multiple users to the pilot pool
+ms:assetid: 9492797f-2a26-4773-8ad2-97cb53fa68fc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688143(v=OCS.15)
+ms:contentKeyID: 49733745
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2ffc3e01df30f4a8e1b9c9b9aeca2b2013003980
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844223"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Mover vários usuários para o pool piloto
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-02_
+# <a name="move-multiple-users-to-the-pilot-pool"></a>Mover vários usuários para o pool piloto
 
-Você pode mover vários usuários do seu pool Office Communications Server 2007 R2 para seu pool piloto Lync Server 2013, usando Painel de Controle do Lync Server 2013 ou Shell de Gerenciamento do Lync Server 2013.
+</div>
 
-## Para mover vários usuários usando o Painel de Controle do Lync Server 2013
+<div id="mainSection">
 
-1.  Abra **Painel de Controle do Lync Server** .
+<div id="mainBody">
 
-2.  Na guia **Pesquisa de Usuário**, clique no botão **Pesquisar**.
+<span> </span>
 
-3.  Depois, clique em **Adicionar filtro**.
+_**Tópico da última modificação:** 2012-10-02_
 
-4.  Crie um filtro onde o **usuário do Office Communications Server** seja igual a **True**.
+Você pode mover vários usuários do pool do Office Communications Server 2007 R2 para o pool piloto do Lync Server 2013 usando o painel de controle do Lync Server 2013 ou o Shell de gerenciamento do Lync Server 2013.
 
-5.  Clique em **Localizar** e procure por usuários herdados do Office Communications Server 2007 R2.
+<div>
 
-6.  Selecione dois usuários que você deseja mover para o pool Lync Server 2013. Neste exemplo, vamos mover os usuários Chen Yang e Claus Hansen.
+## <a name="to-move-multiple-users-by-using-the-lync-server-2013-control-panel"></a>Para mover vários usuários usando o painel de controle do Lync Server 2013
+
+1.  Abra o **Painel de Controle do Lync Server**.
+
+2.  Na guia **pesquisa de usuário** , clique no botão **Pesquisar** .
+
+3.  Em seguida, clique em **Adicionar filtro**.
+
+4.  Crie um filtro onde o **usuário do Office Communications Server** é igual a **true**.
+
+5.  Clique em **Localizar** para pesquisar usuários herdados do Office Communications Server 2007 R2.
+
+6.  Selecione dois usuários que você deseja mover para o pool do Lync Server 2013. Neste exemplo, vamos mover os usuários Yang Yang e Claus Hansen.
     
-    ![Lista de usuários exibida com base na procura de usuários de OCS](images/JJ688143.76beb4fa-72e0-41ef-b96e-3553e96645c0(OCS.15).jpg "Lista de usuários exibida com base na procura de usuários de OCS")  
+    ![Lista de usuários exibida na pesquisa de usuários do OCS] (images/JJ688143.76beb4fa-72e0-41ef-b96e-3553e96645c0(OCS.15).jpg "Lista de usuários exibida na pesquisa de usuários do OCS")  
 
-7.  No menu **Ação** , selecione **Mover usuários selecionados para o pool** .
+7.  No menu **ação** , selecione **mover os usuários selecionados para o pool**.
 
-8.  A partir da lista suspensa, selecione o pool do Lync Server 2013.
+8.  Na lista suspensa, selecione o pool do Lync Server 2013.
 
-9.  Clique em **Ação** e depois em **Mover usuários selecionados para o pool** . Clique em OK.
+9.  Clique em **Ação** e em **Mover usuários selecionados para o pool**. Clique em OK.
     
-    ![Mover Usuários, caixa de diálogo de pool de registros de destino](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Mover Usuários, caixa de diálogo de pool de registros de destino")  
+    ![Caixa de diálogo mover usuários, pool de registradores de destino] (images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Caixa de diálogo mover usuários, pool de registradores de destino")  
 
-10. Verifique se a coluna **Pool do Registrador** dos usuários agora contém o pool Lync Server 2013, o que indica que os usuários foram movidos com êxito.
+10. Verifique se a coluna do **pool** de registradores dos usuários agora contém o pool do Lync Server 2013, que indica que os usuários foram movidos com êxito.
 
-## Para mover vários usuários usando o Shell de Gerenciamento do Lync Server 2013
+</div>
 
-1.  Abra o Shell de Gerenciamento do Lync Server 2013.
+<div>
 
-2.  Na linha de comando, digite o seguinte e substitua **User1** e **User2** pelos nomes de usuário específicos que deseja mover e substitua o **pool\_FQDN** pelo nome do pool de destino. Neste exemplo, vamos mover os usuários Hao Chen e Katie Jordan.
+## <a name="to-move-multiple-users-by-using-the-lync-server-2013-management-shell"></a>Para mover vários usuários usando o Shell de gerenciamento do Lync Server 2013
+
+1.  Abra o Shell de gerenciamento do Lync Server 2013.
+
+2.  Na linha de comando, digite o seguinte e substitua **Usuário1** e **user2** por nomes de usuário específicos que você deseja mover e substitua o **FQDN do\_pool** pelo nome do pool de destino. Neste exemplo, mudaremos os usuários de Hao Chen e Katie Jordânia.
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsLegacyUser -Target "pool_FQDN"
     
-    ![Cmdlet de exemplo para mover um usuário legado](images/JJ688143.57cfc28e-3df5-459f-83ef-8b0edf182a25(OCS.15).jpg "Cmdlet de exemplo para mover um usuário legado")  
+    ![Cmdlet de exemplo para mover um usuário herdado] (images/JJ688143.57cfc28e-3df5-459f-83ef-8b0edf182a25(OCS.15).jpg "Cmdlet de exemplo para mover um usuário herdado")  
 
 3.  Na linha de comando, digite o seguinte
     
         Get-CsUser -Identity "User1"
 
-4.  A identidade do **Pool de registradores** deve apontar agora para o pool especificado como **pool\_FQDN** na etapa anterior. A presença dessa identidade confirma que o usuário foi movido com sucesso. Repita a etapa para verificar se o **User2** foi movido.
+4.  A identidade do **pool** do registrador agora deve apontar para o pool especificado como **FQDN do pool\_** na etapa anterior. A presença dessa identidade confirma que o usuário foi movido com êxito. A etapa repetir para verificar o **user2** foi movida.
     
-    ![Saída do cmdlet PowerShell Get-UsUser -Identity](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Saída do cmdlet PowerShell Get-UsUser -Identity")  
+    ![Saída do cmdlet Get-UsUser-Identity do PowerShell] (images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Saída do cmdlet Get-UsUser-Identity do PowerShell")  
 
-## Para mover todos os usuários ao mesmo tempo usando o Shell de Gerenciamento do Lync Server 2013
+</div>
 
-Neste exemplo, todos os usuários foram devolvidos para o pool Office Communications Server 2007 R2 (pool01.contoso.net). Usando o Shell de Gerenciamento do Lync Server 2013, vamos mover todos os usuários ao mesmo tempo para o pool Lync Server 2013 (pool02.contoso.net).
+<div>
 
-1.  Abra o **Shell de Gerenciamento do Lync Server 2013**.
+## <a name="to-move-all-users-at-the-same-time-by-using-the-lync-server-2013-management-shell"></a>Para mover todos os usuários ao mesmo tempo usando o Shell de gerenciamento do Lync Server 2013
+
+Neste exemplo, todos os usuários foram retornados ao pool do Office Communications Server 2007 R2 (pool01.contoso.net). Usando o Shell de gerenciamento do Lync Server 2013, todos os usuários serão movidos ao mesmo tempo para o Lync Server 2013 pool (pool02.contoso.net).
+
+1.  Abra o **Shell de gerenciamento do Lync Server 2013**.
 
 2.  Na linha de comando, digite o seguinte:
     
         Get-CsUser -OnOfficeCommunicationServer | Move-CsLegacyUser -Target "pool_FQDN"
     
-    ![Cmdlet de exemplo para mover todos os usuários legados em um pool](images/JJ688143.e6a2d578-296e-476c-bd45-d757917ea853(OCS.15).jpg "Cmdlet de exemplo para mover todos os usuários legados em um pool")  
+    ![Cmdlet de exemplo para mover todos os usuários herdados em um pool] (images/JJ688143.e6a2d578-296e-476c-bd45-d757917ea853(OCS.15).jpg "Cmdlet de exemplo para mover todos os usuários herdados em um pool")  
 
-3.  Depois, execute **Get-CsUser** de um dos usuários piloto.
+3.  Em seguida, execute **Get-CsUser** para um dos usuários piloto.
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  A identidade **Pool de registradores** de cada usuário aponta agora para o pool que você especificou como "pool\_FQDN" na etapa anterior. A presença dessa identidade confirma que o usuário foi movido com sucesso.
+4.  A identidade do **pool** de registradores para cada usuário agora aponta para o pool especificado como\_"FQDN do pool" na etapa anterior. A presença dessa identidade confirma que o usuário foi movido com êxito.
 
-5.  Além disso, podemos exibir a lista de usuários no Painel de Controle do Lync Server 2013 e verificar que o valor do Pool de registradores aponta agora para o pool Lync Server 2013.
+5.  Além disso, podemos exibir a lista de usuários no painel de controle do Lync Server 2013 e verificar se o valor do pool do registrador agora aponta para o pool do Lync Server 2013.
     
-    ![Lista de usuários do Painel de Controle do Lync Server 2013](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lista de usuários do Painel de Controle do Lync Server 2013")
+    ![Lista de usuários do painel de controle do Lync Server 2013] (images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lista de usuários do painel de controle do Lync Server 2013")  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

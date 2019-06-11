@@ -1,45 +1,71 @@
-﻿---
-title: Usar a autenticação de dois fatores com o cliente do Lync
-TOCTitle: Usar a autenticação de dois fatores com o cliente do Lync
-ms:assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn338071(v=OCS.15)
-ms:contentKeyID: 56270476
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: usando a autenticação de dois fatores com o cliente Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using two-factor authentication with Lync client
+ms:assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn338071(v=OCS.15)
+ms:contentKeyID: 55115593
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5af9e9b5268fd218bfe5856473124514cfe34945
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844446"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Usar a autenticação de dois fatores com o cliente do Lync
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="using-two-factor-authentication-with-lync-client-and-lync-server-2013"></a>Usando a autenticação de dois fatores com o Lync Client e o Lync Server 2013
 
-Este tópico descreveu como aproveitar as vantagens da autenticação de dois fatores com o cliente do Lync 2013.
+</div>
 
-## Entrar no Lync 2013 pela primeira vez
+<div id="mainSection">
 
-Suas informações de entrada no Lync são normalmente configuradas de forma automática quando o Lync 2013 é instalado. Mas, na primeira vez em que você usar o Lync, talvez seja necessário iniciar manualmente o sistema.
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-07-11_
+
+Este tópico descreveu como tirar proveito da autenticação de dois fatores com o cliente Lync 2013.
+
+<div>
+
+## <a name="sign-in-to-lync-2013-for-the-first-time"></a>Entrar no Lync 2013 pela primeira vez
+
+Suas informações de entrada do Lync geralmente são configuradas automaticamente quando o Lync 2013 está instalado. Mas, na primeira vez que você usar o Lync, talvez seja necessário iniciar manualmente o cliente.
 
 **Para entrar no Lync pela primeira vez**
 
 1.  Faça logon na rede da sua organização.
 
-2.  Selecione **Iniciar** \> **Todos os Programas** \> **Microsoft Lync \> Lync 2013**.
+2.  Selecione **Iniciar** \> **todos os programas** \> **Microsoft \> Lync Lync 2013**.
     
-    Você deverá ver a tela de entrada do Lync.
+    Você verá a tela de entrada do Lync.
     
       - Se a caixa de endereço de entrada já estiver preenchida, confirme se o endereço mostrado está correto.
     
-      - Se não estiver correto, ou se a caixa estiver vazia, insira seu endereço de entrada do Lync (normalmente ele será igual ao seu endereço de email).
+      - Se não estiver correto ou se a caixa estiver vazia, insira seu endereço de entrada do Lync (geralmente é o mesmo que o seu endereço de email).
     
       - Se uma caixa de senha vazia for exibida, adicione sua senha.
 
 3.  Selecione **Entrar**.
 
-## Sair do Lync
+</div>
 
-Quando você tiver terminado de usar o Lync, poderá fechar a tela, sair da sua sessão ou sair do programa, tudo do menu Arquivo. A tabela a seguir explica as diferenças nas opções.
+<div>
+
+## <a name="sign-out-of-lync"></a>Sair do Lync
+
+Quando terminar de usar o Lync, você pode fechar a exibição, sair da sessão ou sair do programa, tudo a partir do menu arquivo. A tabela a seguir explica as diferenças nas opções.
 
 
 <table>
@@ -58,59 +84,79 @@ Quando você tiver terminado de usar o Lync, poderá fechar a tela, sair da sua 
 <tbody>
 <tr class="odd">
 <td><p>Fechar</p></td>
-<td><p>Fecha a tela do Lync mas permite que a sessão do Lync identificada pela ID do usuário continue a ser executada. Isso acontece para que você possa continuar a obter notificações e a interagir com outras pessoas.</p>
-<p>Você pode abrir a tela novamente em qualquer ocasião clicando no ícone do Lync na barra de tarefas ou na área de notificação na parte inferior da sua tela.</p></td>
-<td><p>Na janela principal do Lync, siga um destes procedimentos:</p><ol><li><p>Selecione o botão <strong>Opções</strong>, então selecione <strong>Arquivo</strong> &gt; <strong>Fechar</strong>.</p></li>
-> 
-> 
-> <li><p>Clique no botão <strong>Fechar</strong> (X) no canto superior direito da janela.</p></li></ol></td>
+<td><p>Fecha a exibição do Lync, mas permite que a sessão do Lync identificada com sua ID de usuário continue sendo executada. Isso acontece para que você possa continuar a obter notificações e a interagir com outras pessoas.</p>
+<p>Você pode retomar a exibição a qualquer momento clicando no ícone do Lync na barra de tarefas ou na área de notificação na parte inferior da tela.</p></td>
+<td><p>Na janela principal do Lync, siga um destes procedimentos:</p>
+<ol>
+<li><p>Selecione o botão <strong>Opções</strong> e, em seguida, selecione <strong>arquivo</strong> &gt; <strong>fechar</strong>.</p></li>
+<li><p>Clique no botão <strong>Fechar</strong> (X) no canto superior direito da janela.</p></li>
+</ol></td>
 </tr>
 <tr class="even">
 <td><p>Sair</p></td>
-<td><p>Encerra a sessão do Lync associada à sua ID de usuário, mas o Lync continua a ser executado em segundo plano. Quando você sair, a janela de entrada aparecerá.</p>
-
+<td><p>Finaliza a sessão do Lync associada à sua ID de usuário, mas o Lync continua a ser executado em segundo plano. Quando você sair, a janela de entrada aparecerá.</p>
+<div>
 
 > [!TIP]  
 > Selecione <STRONG>Excluir minhas informações de entrada</STRONG> ao sair para remover o registro de sua ID de logon e da senha do computador. Fazer isso torna mais fácil para o pessoal de suporte solucionar problemas de entrada. Também ajuda a garantir que suas informações de entrada fiquem mais seguras ao dificultar que usuários não autorizados façam logon com suas credenciais.
 
 
 </div></td>
-<td><p>Na janela principal do Lync, selecione o botão <strong>Opções</strong>, então selecione <strong>Arquivo</strong> &gt; <strong>Sair</strong>.</p></td>
+<td><p>Na janela principal do Lync, selecione o botão <strong>Opções</strong> e, em seguida, selecione <strong>arquivo</strong> &gt; <strong>sair</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Fechar</p></td>
-<td><p>Encerra sua sessão do Lync e fecha o Lync em seu computador. Depois de fechar, se você quiser reiniciar o Lync, selecione <strong>Iniciar</strong> &gt; <strong>Todos os Programas</strong> &gt; <strong>Microsoft Lync</strong> &gt; <strong>Lync 2013</strong>.</p></td>
-<td><p>Na janela principal do Lync, selecione o botão <strong>Opções</strong>, então selecione <strong>Arquivo</strong> &gt; <strong>Fechar</strong>.</p></td>
+<td><p>Encerra a sessão do Lync e desliga o Lync em seu computador. Depois de sair, se você quiser reiniciar o Lync, selecione <strong>Iniciar</strong> &gt; <strong>todos os programas</strong> &gt; <strong>Microsoft Lync</strong> &gt; <strong>Lync 2013</strong>.</p></td>
+<td><p>Na janela principal do Lync, selecione o botão <strong>Opções</strong> e, em seguida, selecione <strong>arquivo</strong> &gt; <strong>sair</strong>.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Entrar no Lync com um cartão inteligente
+</div>
 
-Algumas organizações usam um processo de entrada de várias etapas, chamado de autenticação de dois fatores, para aumentar a segurança de seus usuários do Lync 2013. Se você pretende usar essa opção, precisará de um "cartão inteligente" para entrar no Lync. Existem duas variedades de cartões inteligentes, físico e virtual:
+<div>
 
-  - **Físico**   Quase do tamanho de um cartão de crédito. Você o insere em um leitor de cartão inteligente ao fazer logon.
+## <a name="sign-in-to-lync-with-a-smart-card"></a>Entrar no Lync com um cartão inteligente
 
-  - **Virtual**   Não é um objeto físico, mas um identificador eletrônico gravado em um chip especial do seu computador que, em essência, cria o cartão inteligente em seu computador. Disponível somente para uso com computadores com Windows 8 que contenham o chip TPM (Trusted Platform Module).
+Algumas organizações agora usam um processo de entrada em várias etapas, chamado de autenticação de dois fatores, para aumentar a segurança dos usuários do Lync 2013. Se você espera usar esta opção, precisará de um "cartão inteligente" para entrar no Lync. Os cartões inteligentes vêm em duas variedades, físicas e virtuais:
 
-## Registrar seu cartão inteligente
+  - **Físico**   sobre o tamanho de um cartão de crédito. Você o insere em um leitor de cartão inteligente ao fazer logon.
 
-Antes que seja possível entrar com um cartão inteligente, o cartão deverá ser "registrado" — ou seja, suas credenciais devem ser identificadas com o cartão. Esse será o caso seja o cartão físico ou virtual. Esse processo pode já ter sido realizado pelo administrador do Lync Server. Verifique com ele se não tiver certeza se isso foi feito.
+  - **Virtual**   não é um objeto físico, mas um identificador eletrônico que é escrito para um chip especial em seu computador, que, em essência, cria o cartão inteligente no seu computador. Disponível somente para uso com computadores com Windows 8 que contenham o chip TPM (Trusted Platform Module).
+
+<div>
+
+## <a name="enroll-your-smart-card"></a>Registrar seu cartão inteligente
+
+Antes que seja possível entrar com um cartão inteligente, o cartão deverá ser "registrado" — ou seja, suas credenciais devem ser identificadas com o cartão. Esse será o caso seja o cartão físico ou virtual. Esse processo já pode ser realizado pelo administrador do Lync Server. Verifique com ele se não tiver certeza se isso foi feito.
+
+<div>
+
 
 > [!NOTE]  
-> Uma vez que cada cartão inteligente está associado somente ao dispositivo em que está instalado, um cartão separado deverá ser registrado para cada computador com o Windows 8 usado.
+> Como cada cartão inteligente virtual está associado somente ao dispositivo em que ele está instalado, um cartão separado precisará ser registrado para cada computador com o Windows 8 que você usar.
+
+
+
+</div>
 
 **Para registrar manualmente seu cartão inteligente**
 
-1.  Faça logon no computador em que o Lync será executado.
+1.  Faça logon no computador em que você está executando o Lync.
 
 2.  Usando o Internet Explorer, navegue até a página de Registro da Autoridade de Certificação da sua organização.
     
-    Peça ao administrador do Lync Server o endereço da Web desse recurso se ainda não o tiver. A URL será parecida com esta: https://MinhaCA.\[nomedasuaempresa\].com/certsrv.
+    Pergunte ao administrador do Lync Server o endereço Web desse recurso, se ainda não o tiver. A URL terá a seguinte aparência: https://MyCA.\[nomedesuaempresa\]. com/certsrv.
     
+    <div>
+    
+
     > [!NOTE]  
     > Se você estiver usando o Internet Explorer 10, talvez precise exibir o site em Modo de Compatibilidade.
+
+    
+    </div>
 
 3.  Quando solicitado a fazer logon na página de certificação, faça logon usando sua conta de domínio (em vez do administrador do seu computador).
 
@@ -138,8 +184,14 @@ Antes que seja possível entrar com um cartão inteligente, o cartão deverá se
 
 9.  Quando solicitado, insira seu número de identificação pessoal (PIN) e clique em **OK**.
     
+    <div>
+    
+
     > [!NOTE]  
     > Se o encarregado do suporte técnico não tiver dado um PIN para você registrar seu cartão inteligente, use o valor padrão de PIN de cartão inteligente, 12345678.
+
+    
+    </div>
 
 10. Selecione a opção para forçar o usuário (você) a alterar o PIN na primeira vez em que o cartão inteligente for usado.
 
@@ -147,8 +199,14 @@ Antes que seja possível entrar com um cartão inteligente, o cartão deverá se
 
 12. Quando solicitado, insira seu número de identificação pessoal (PIN) e clique em **OK**.
     
+    <div>
+    
+
     > [!NOTE]  
     > Se o encarregado do suporte técnico não tiver dado um PIN para você registrar seu cartão inteligente, use o valor padrão de PIN de cartão inteligente, 12345678.
+
+    
+    </div>
 
 13. Selecione a opção para forçar o usuário (você) a alterar o PIN na primeira vez em que o cartão inteligente for usado.
 
@@ -156,11 +214,15 @@ Antes que seja possível entrar com um cartão inteligente, o cartão deverá se
 
 15. Assim que for exibido o aviso de que o certificado foi emitido, clique em **Instalar este certificado** para concluir o processo de registro.
 
-## Entrar no Lync com suas credenciais de cartão inteligente
+</div>
 
-Antes de usar seu cartão inteligente pela primeira vez, é recomendável que você clique em **Excluir minhas informações de entrada** na página de entrada do Lync. Fazer isso limpará qualquer credencial de entrada armazenada no computador e eliminará uma possível origem de erros.
+<div>
 
-**Para entrar no Lync com suas credenciais de cartão inteligente**
+## <a name="sign-in-to-lync-with-your-smart-card-credentials"></a>Entre no Lync com as credenciais do seu cartão inteligente
+
+Antes de usar o cartão inteligente pela primeira vez, é recomendável clicar em **excluir minhas informações de entrada** na página de entrada do Lync. Fazer isso limpará qualquer credencial de entrada armazenada no computador e eliminará uma possível origem de erros.
+
+**Para entrar no Lync com as credenciais do seu cartão inteligente**
 
 1.  Inicie o cliente do Lync.
 
@@ -172,5 +234,26 @@ Antes de usar seu cartão inteligente pela primeira vez, é recomendável que vo
 
 4.  Digite o número PIN do seu cartão inteligente e clique em **OK**.
     
+    <div>
+    
+
     > [!NOTE]  
     > Se você não tiver recebido um número PIN de cartão inteligente do pessoal de suporte, use o valor padrão, que é 12345678.
+
+    
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

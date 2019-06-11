@@ -1,58 +1,105 @@
-﻿---
-title: "Usando o analisador de práticas recomend. p/ buscar possíveis probl. na impl."
-TOCTitle: "Usando o analisador de práticas recomend. p/ buscar possíveis probl. na impl."
-ms:assetid: 09c84509-dc91-4e7b-882b-3c467b6b026d
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg591343(v=OCS.15)
-ms:contentKeyID: 49305824
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Usar o analisador de práticas recomendadas para verificar a implantação em busca de possíveis problemas
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Best Practices Analyzer to scan your deployment for potential issues
+ms:assetid: 09c84509-dc91-4e7b-882b-3c467b6b026d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591343(v=OCS.15)
+ms:contentKeyID: 48183359
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 17c7d881ebc35a4f56207fedaa8533f0a3df3c7a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844501"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Usando o analisador de práticas recomendadas para buscar possíveis problemas em sua implantação
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-21_
+# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>Usar o analisador de práticas recomendadas para verificar a implantação do Lync Server 2013 em busca de possíveis problemas
 
-Para executar um exame do Analisador de Práticas Recomendadas, é necessário especificar o seguinte:
+</div>
 
-  - **Credenciais**   Para executar um exame, é necessário fazer logon em um computador no qual o Analisador de Práticas Recomendadas está instalado usando uma conta membro do grupo local Administradores. Além disso, é necessário fazer logon usando uma conta de usuário que tenha os direitos e permissões necessários para executar os exames apropriados, ou é necessário especificar credenciais que tenham os direitos e permissões de usuário apropriados ao executar o Analisador de Práticas Recomendadas. Para obter detalhes, consulte [Associações de Grupo e Requisitos de Direitos do Usuário para o Analisador de Práticas Recomendadas](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md).
+<div id="mainSection">
 
-  - **Escopo do exame**   Para especificar o escopo do exame, selecione as categorias e servidores que você deseja examinar. É possível selecionar todas as categorias, um ou mais categorias, ou um ou mais servidores dentro de uma categoria específica em seu ambiente do Lync Server.
+<div id="mainBody">
 
-  - **Tipo de exame**   Atualmente, o exame de Verificação de Integridade é o único tipo de exame disponível (selecionado por padrão). A Verificação de Integridade pode gerar um relatório que inclui erros, avisos e outras informações para todos os servidores especificados no escopo.
+<span> </span>
 
-  - **Velocidade de rede**   As opções de velocidade de rede incluem Fast LAN (100 Mbps ou mais), LAN (10 Mbps), Fast WAN (1,5 Mbps) ou WAN (64 kbps). O tempo estimado para completar o exame tem base nessa configuração. Essa configuração também é usada para definir o período de tempo limite. Durante o exame, o Analisador de Práticas Recomendadas espera uma resposta de um servidor durante um tempo especificado. Se não receber uma resposta dentro do período de tempo limite especificado, ele vai para o próximo servidor no exame. Em redes mais lentas, esse período de tempo limite especificado é maior para acomodar latências de rede maiores. Recomendamos a seleção do link mais lento em sua topologia para esse parâmetro de modo que a ferramenta não ultrapasse o tempo limite muito rápido.
+_**Tópico da última modificação:** 2012-10-21_
 
-## Para examinar sua implantação do Lync Server 2013
+Para executar uma verificação do analisador de práticas recomendadas, você deve especificar o seguinte:
 
-1.  Faça logon em um computador no qual o Analisador de Práticas Recomendadas está instalado usando uma conta membro do grupo local Administradores, e com outros direitos e permissões necessárias.
+  - **Credenciais**   para executar uma verificação, você deve fazer logon em um computador no qual o Best Practices Analyzer está instalado usando uma conta que seja membro do grupo Administradores local. Além disso, você precisa fazer logon usando uma conta de usuário que tenha os direitos de usuário e as permissões necessárias para executar as verificações adequadas ou especificar as credenciais que têm direitos e permissões de usuário apropriados ao executar o analisador de práticas recomendadas. Para obter detalhes, consulte [associações de grupo e requisitos de direitos de usuário para o analisador de práticas recomendadas no Lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md).
 
-2.  Clique em **Iniciar**, aponte para **Todos os Programas**, clique em **Microsoft Lync Server 2013** e clique em **Analisador de Práticas Recomendadas**.
+  - **Escopo da verificação**   para especificar o escopo da verificação, selecione as categorias e os servidores que você deseja verificar. Você pode selecionar todas as categorias, uma ou mais categorias ou um ou mais servidores em uma categoria específica em seu ambiente do Lync Server.
 
-3.  Na tela **Boas-vindas**, clique em **Selecionar opções para uma nova verificação**.
+  - **Tipo de verificação**   atualmente, a verificação de verificação de integridade é o único tipo de verificação disponível (selecionada por padrão). A verificação de verificação de integridade gera um relatório que inclui erros, avisos e outras informações para todos os servidores especificados no escopo.
 
-4.  Na página **Conectar ao Active Directory**, verifique o nome especificado em **Servidor Active Directory** e execute uma das seguintes opções:
+  - ****   Opções de velocidade de rede de velocidade de rede incluem LAN rápida (100 Mbps ou mais), LAN (10 Mbps), rede remota rápida (1,5 Mbps) ou WAN (64 Kbps). O tempo estimado para concluir a verificação é baseado nessa configuração. Essa configuração também é usada para definir o período de tempo limite. Durante a verificação, o analisador de práticas recomendadas aguarda uma resposta de um servidor por um período especificado. Se não receber uma resposta dentro do período de tempo limite especificado, ela será movida para o próximo servidor na verificação. Em redes mais lentas, esse período de tempo limite especificado está mais em conta com latências de rede mais longas. Recomendamos que você selecione o link mais lento na sua topologia para esse parâmetro, para que a ferramenta não tenha tempo limite muito rápido.
+
+<div>
+
+## <a name="to-scan-your-lync-server-2013-deployment"></a>Para verificar a implantação do Lync Server 2013
+
+1.  Faça logon em um computador no qual o analisador de práticas recomendadas está instalado usando uma conta que é membro do grupo Administradores local e tem outros direitos e permissões de usuário necessários.
+
+2.  Clique em **Iniciar**, aponte para **todos os programas**, clique em **Microsoft Lync Server 2013**e, em seguida, clique em analisador de **práticas recomendadas**.
+
+3.  Na tela de **boas-vindas** , clique em **selecionar opções para uma nova digitalização**.
+
+4.  Na página **conectar-se ao Active Directory** , verifique o nome especificado no **servidor do Active Directory**e siga um destes procedimentos:
     
-      - Para executar um exame usando as credenciais usadas para fazer logon no computador, clique em **Conectar ao servidor do Active Directory**.
+      - Para executar uma verificação usando as credenciais que você usou para fazer logon no computador, clique em **conectar-se ao servidor do Active Directory**.
     
-      - Para especificar credenciais diferentes que você deseja usar para os Serviços de Domínio do Active Directory, Servidor de Borda ou Exchange Server, clique em **Mostrar opções avançadas de logon**, marca cada caixa de seleção para a qual as credenciais separadas são necessárias, especifique as credenciais para cada caixa de seleção marcada e clique em **Conectar ao servidor do Active Directory**.
+      - Para especificar credenciais diferentes que você deseja usar nos serviços de domínio Active Directory, no servidor de borda ou no Exchange Server, clique em **Mostrar opções de logon avançadas**, selecione cada caixa de seleção para a qual credenciais separadas são necessárias, especifique as credenciais para cada caixa de seleção marcada e clique em **conectar ao servidor do Active Directory**.
     
-    > [!NOTE]  
-    > Antes de começar o exame, o Analisador de Práticas Recomendadas executa uma verificação de rede e de permissões a fim de assegurar que as credenciais de conta especificadas sejam válidas e que o Analisador de Práticas Recomendadas possa se conectar aos Serviços de Domínio do Active Directory. Se a ferramenta estiver em execução em um servidor de grupo de trabalho, a ferramenta também verificará se pode se conectar aos Servidores de Borda na rede de perímetro (ou seja, se estiverem incluídos no exame).
+    <div>
+    
 
-5.  Na página **Iniciar uma nova verificação das Práticas Recomendadas**, selecione as opções que você deseja incluir no exame, especifique a velocidade da rede e clique em **Iniciar exame**.
+    > [!NOTE]
+    > Antes de iniciar a verificação, o analisador de práticas recomendadas executa uma verificação de rede e permissões para garantir que as credenciais de conta especificadas sejam válidas e que o analisador de práticas recomendadas possa se conectar aos serviços de domínio do Active Directory. Se a ferramenta estiver em execução em um servidor de grupo de trabalho, a ferramenta também verificará se ela pode se conectar a servidores de borda na rede de perímetro (isto é, se estiverem incluídos na verificação).
 
-6.  Na página **Verificação concluída**, clique em **Exibir um relatório desta verificação das Práticas Recomendadas**.
+    
+    </div>
 
-7.  Na página **Exibir Relatório das Práticas Recomendadas**, execute uma das seguintes ações:
+5.  Na página **iniciar uma nova verificação de práticas recomendadas** , selecione as opções que você deseja incluir na verificação, especifique a velocidade da rede e clique em **Iniciar verificação**.
+
+6.  Na página **scanning Completed Completed** , clique em **exibir um relatório desta análise de práticas recomendadas**.
+
+7.  Na página **Exibir relatório de práticas recomendadas** , siga um destes procedimentos:
     
-      - Para exibir os relatórios em uma lista organizada pelo componente de servidor, clique em **Listar Relatórios** e clique na guia **Todos os Problemas** ou na guia **Itens Informativos**.
+      - Para exibir relatórios em uma lista organizada por componente de servidor, clique em **relatórios de lista**e, em seguida, clique na guia **todos os problemas** ou **itens** informativos.
     
-      - Para exibir os relatórios como uma lista hierárquica organizada por tipos de resultados, clique em **Relatórios em Árvore** e clique na guia **Exibição Detalhada** ou na guia **Exibição Resumida**.
+      - Para exibir relatórios como uma lista hierárquica organizada por tipos de resultados, clique em **relatórios de árvore**e, em seguida, clique na guia modo de **exibição detalhado** ou na guia **modo de exibição de resumo** .
     
-      - Para exibir outros relatórios, clique em **Outros Relatórios**.
+      - Para ver outros relatórios, clique em **outros relatórios**.
     
-    > [!NOTE]  
-    > Para obter detalhes sobre os relatórios do Analisador de Práticas Recomendadas e os problemas identificados por eles, consulte <a href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Exibir e trabalhar com relatórios gerados pelo Analisador de Práticas Recomendadas</a> e <a href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analisando e Resolvendo Problemas Identificados pelo Analisador de Práticas Recomendadas</a>.
+    <div>
+    
+
+    > [!NOTE]
+    > Para obter detalhes sobre os relatórios do analisador de práticas recomendadas e os problemas que eles identificam, consulte <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">exibindo e trabalhando com relatórios criados pelo analisador de práticas recomendadas no Lync Server 2013</A> e <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">analisando e resolvendo problemas identificados pelo analisador de práticas recomendadas no Lync Server 2013</A>.
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

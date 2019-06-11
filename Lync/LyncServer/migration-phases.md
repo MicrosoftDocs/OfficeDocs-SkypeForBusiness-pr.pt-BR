@@ -1,39 +1,69 @@
-﻿---
-title: Fases de migração
-TOCTitle: Fases de migração
-ms:assetid: cb7747ba-b872-42ca-ab41-76e3c4e77d06
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205336(v=OCS.15)
-ms:contentKeyID: 49308120
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Fases de migração
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migration phases
+ms:assetid: cb7747ba-b872-42ca-ab41-76e3c4e77d06
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205336(v=OCS.15)
+ms:contentKeyID: 48185642
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fa7226a442d8e41d4ab0e6e3511a35e020decb65
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844241"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Fases de migração
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-17_
+# <a name="migration-phases"></a>Fases de migração
 
-No Lync Server 2013, você define os sites da sua rede que contêm os componentes do Lync Server 2013. Um site é um conjunto de computadores bem conectados por uma rede de baixa latência e alta velocidade, como uma única LAN ou duas redes conectadas por uma rede de fibra óptica de alta velocidade.
+</div>
 
-Um *Pool de front-end* é um conjunto de servidores de front-end configurados identicamente e que trabalham juntos para oferecer serviços para um grupo de usuários comum. Um pool oferece escalabilidade e capacidade de failover aos seus usuários. Cada servidor em um pool deve executar uma função ou funções do servidor idênticas. Um Servidor Standard Edition, projetado para pequenas empresas, também define um pool e execute em um único servidor. Isto permite você ter a funcionalidade do Lync Server 2013 por um custo menor, mas não oferece uma verdadeira solução de alta disponibilidade.
+<div id="mainSection">
 
-As fases a seguir descrevem o processo de uma migração do pool do Lync Server 2010 para o Lync Server 2013. Para vários sites que contêm pools, cada pool individual deve seguir esta abordagem por fase.
+<div id="mainBody">
 
-1.  [Fase 1: Planejar a migração do Lync Server 2010](phase-1-plan-your-migration-from-lync-server-2010.md)
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-17_
+
+No Lync Server 2013, você define sites em sua rede que contenham componentes do Lync Server 2013. Um site é um conjunto de computadores que são bem conectados por uma rede de alta velocidade e baixa latência, como uma única rede local (LAN) ou duas redes conectadas por uma rede de fibra ótica de alta velocidade.
+
+Um *pool de front-ends* é um conjunto de servidores front-end que são configurados de maneira idêntica e trabalham juntos para fornecer serviços para um grupo comum de usuários. Um pool fornece recursos de escalabilidade e failover para seus usuários. Cada servidor de um pool deve executar funções idênticas de servidor. Um servidor Standard Edition, projetado para pequenas organizações, também define um pool e é executado em um único servidor. Isso permite que você tenha a funcionalidade do Lync Server 2013 para um custo menor, mas não oferece uma solução real de alta disponibilidade.
+
+As fases a seguir descrevem o processo de uma migração de pool do Lync Server 2010 para o Lync Server 2013. Para vários sites que contêm vários pools, cada pool individual deve seguir essa abordagem em fases.
+
+1.  [Fase 1: planejar a migração do Lync Server 2010](phase-1-plan-your-migration-from-lync-server-2010.md)
 
 2.  [Fase 2: Preparar para migração](phase-2-prepare-for-migration.md)
 
-3.  [Fase 3: Implantar o pool piloto do Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool.md)
+3.  [Fase 3: implantar o pool piloto do Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
-4.  [Fase 4: Mover usuários de teste para o pool piloto](phase-4-move-test-users-to-the-pilot-pool.md)
+4.  [Fase 4: mover os usuários de teste para o pool piloto](phase-4-move-test-users-to-the-pilot-pool.md)
 
-5.  [Fase 5: Adicionar o Servidor de Borda do Lync Server 2013 ao pool piloto](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
+5.  [Fase 5: Adicionar o servidor de borda do Lync Server 2013 ao pool piloto](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-6.  [Fase 6: Mover da implatação piloto para produção](phase-6-move-from-pilot-deployment-into-production.md)
+6.  [Fase 6: Mover da implantação piloto para produção](phase-6-move-from-pilot-deployment-into-production.md)
 
 7.  [Fase 7: Concluir tarefas pós-migração](phase-7-complete-post-migration-tasks.md)
 
-8.  [Fase 8: Encerrar os Pools herdados](phase-8-decommission-legacy-pools.md)
+8.  [Fase 8: Encerrar os pools herdados](phase-8-decommission-legacy-pools.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

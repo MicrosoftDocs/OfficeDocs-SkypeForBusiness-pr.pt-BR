@@ -1,27 +1,57 @@
-﻿---
-title: Migrar reuniões e conteúdo de reuniões existentes
-TOCTitle: Migrar reuniões e conteúdo de reuniões existentes
-ms:assetid: 30516731-2ae1-4a6d-a7e1-d3f05778c954
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688011(v=OCS.15)
-ms:contentKeyID: 49886158
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migrar reuniões existentes e conteúdo de reunião
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrate existing meetings and meeting content
+ms:assetid: 30516731-2ae1-4a6d-a7e1-d3f05778c954
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688011(v=OCS.15)
+ms:contentKeyID: 49733599
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 38b4f374aef66fa95d49b2330a07f9def4135328
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844264"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migrar reuniões e conteúdo de reuniões existentes
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-22_
+# <a name="migrate-existing-meetings-and-meeting-content"></a>Migrar reuniões existentes e conteúdo de reunião
 
-Quando uma conta do usuário é movida do Lync Server 2010 para um servidor do Lync Server 2013, a seguinte informação é movida com essa conta do usuário:
+</div>
 
-  - **As reuniões já foram programadas pelo usuário**. Isto inclui mover os diretórios de conferência e dados de conferência.
+<div id="mainSection">
 
-  - **Número de identificação pessoal (PIN) do usuário**. O PIN atual do usuário continua a funcionar até vencer ou o usuário solicitar um novo PIN.
+<div id="mainBody">
 
-A seguinte informação de conta do usuário não é movida para o novo servidor.
+<span> </span>
 
-  - **Conteúdo da reunião**. Para poder mover o conteúdo compartilhado durante uma reunião, por exemplo, PowerPoint, Quadro de Avisos, anexos ou dados do pool, use o parâmetro **-MoveConferenceData** como parte do cmdlet **Move-CsUser**.
+_**Tópico da última modificação:** 2013-02-22_
+
+Quando uma conta de usuário é movida do Lync Server 2010 para um servidor do Lync Server 2013, as seguintes informações são movidas com essa conta de usuário:
+
+  - **Reuniões já programadas pelo usuário**. Isso inclui a movimentação dos diretórios de conferências e dos dados de conferência.
+
+  - **PIN (número de identificação pessoal) do usuário**. O PIN atual do usuário continua a funcionar até que ele expire ou que o usuário solicitou um novo PIN.
+
+As seguintes informações da conta de usuário não se movem para o novo servidor.
+
+  - **Conteúdo da reunião**. Para mover o conteúdo compartilhado durante uma reunião, por exemplo, PowerPoint, quadro de comunicações, anexos ou dados de votação, use o parâmetro **-MoveConferenceData** como parte do cmdlet **move-CsUser** .
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

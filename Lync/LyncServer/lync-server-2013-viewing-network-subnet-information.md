@@ -1,48 +1,82 @@
-﻿---
-title: Visualizando informações de subrede
-TOCTitle: Visualizando informações de subrede
-ms:assetid: 46f165f2-efe3-4cc1-9fee-a78b7f2ed41e
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688044(v=OCS.15)
-ms:contentKeyID: 49886203
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: exibindo informações de sub-rede da rede'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Viewing network subnet information
+ms:assetid: 46f165f2-efe3-4cc1-9fee-a78b7f2ed41e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688044(v=OCS.15)
+ms:contentKeyID: 49733636
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a157746e40de8f4793fab24e7e91121779d7602e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844351"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Visualizando informações de subrede
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-23_
+# <a name="viewing-network-subnet-information-in-lync-server-2013"></a>Exibir informações de sub-rede de rede no Lync Server 2013
 
-Você pode utilizar o seguinte procedimento para visualizar uma sub-rede da rede. Do Painel de Controle do Lync Server, você pode criar, modificar ou excluir uma sub-rede da rede. Para detalhes sobre a criação ou modificação de sub-redes de rede, consulte [Criar ou modificar subredes](lync-server-2013-create-or-modify-network-subnets.md).
+</div>
 
-## Para visualizar uma sub-rede de rede
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-23_
+
+Você pode usar o procedimento a seguir para exibir uma sub-rede de rede. No painel de controle do Lync Server, você pode criar, modificar ou excluir uma sub-rede de rede. Para obter detalhes sobre como criar ou modificar sub-redes de rede, consulte [criar ou modificar sub-redes de rede no Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md).
+
+<div>
+
+## <a name="to-view-a-network-subnet"></a>Para exibir uma sub-rede de rede
 
 1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **Configuração de rede** e, então, em **Sub-rede**.
+3.  Na barra de navegação à esquerda, clique em **configuração de rede** e, em seguida, clique em **sub-rede**.
 
-4.  Na página de **Sub-rede**, clique na sub-rede que deseja visualizar.
+4.  Na página **sub-rede** , clique na sub-rede que você deseja exibir.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Você só pode visualizar uma sub-rede por vez.
+    > Você só pode exibir uma sub-rede de cada vez.
 
-5.  No menu **Editar**, clique em **Exibir detalhes…**.
+    
+    </div>
 
-## Visualizando informação de configuração de sub-rede da rede utilizando os cmdlets do Lync Server PowerShell
+5.  No menu **Editar** , clique em **Mostrar detalhes..**..
 
-Informações de sub-rede da rede também podem ser visualizadas utilizando o Lync Server PowerShell e o cmdlet Get-CsNetworkSubnet. Este cmdlet pode ser executado do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
+</div>
 
-## Visualizando informações de sub-rede da rede
+<div>
 
-  - Para visualizar informações sobre todas as sub-redes da rede, digite o comando a seguir no Shell de Gerenciamento do Lync Server e pressione ENTER:
+## <a name="viewing-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>Exibir informações de configuração de sub-rede de rede usando cmdlets do Windows PowerShell
+
+As informações de sub-rede da rede podem ser visualizadas usando o Windows PowerShell e o cmdlet Get-CsNetworkSubnet. Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+
+<div>
+
+## <a name="to-view-network-subnet-information"></a>Para ver as informações de sub-rede da rede
+
+  - Para ver as informações sobre todas as suas sub-redes de rede, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
     
         Get-CsNetworkSubnet
     
-    Isso irá retornar uma informação similar a esta:
+    Isso retornará informações parecidas com:
     
         Identity      : 172.11.15.0
         MaskBits      : 28
@@ -50,12 +84,30 @@ Informações de sub-rede da rede também podem ser visualizadas utilizando o Ly
         NetworkSiteID : Redmond
         SubnetID      : 172.11.15.0
 
-Para mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet).
+</div>
 
-## Consulte Também
+Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet) .
 
-#### Tarefas
+</div>
 
-[Criar ou modificar subredes](lync-server-2013-create-or-modify-network-subnets.md)  
-[Excluir subredes](lync-server-2013-deleting-network-subnets.md)
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Criar ou modificar sub-redes de rede no Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md)  
+[Excluindo sub-redes de rede no Lync Server 2013](lync-server-2013-deleting-network-subnets.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,58 +1,121 @@
-﻿---
-title: Migrar grupos de resposta
-TOCTitle: Migrar grupos de resposta
-ms:assetid: 5c07bf4b-ad8a-4b83-b970-7d933bb7c4ef
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204931(v=OCS.15)
-ms:contentKeyID: 49306832
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migrar grupos de resposta
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrate response groups
+ms:assetid: 5c07bf4b-ad8a-4b83-b970-7d933bb7c4ef
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204931(v=OCS.15)
+ms:contentKeyID: 48184250
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4bf7f0fa04f494eb49a0537011d5f9affcc68065
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844256"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migrar grupos de resposta
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-19_
+# <a name="migrate-response-groups"></a>Migrar grupos de resposta
 
-Depois que seus usuários forem transferidos para pools do Lync Server 2013, você poderá migrar seus grupos de resposta. A migração de grupos de resposta inclui a cópia de grupos de agentes, filas, fluxos de trabalho e arquivos de áudio, bem como a transferência de objetos de contato de Grupo de Resposta da implantação antiga para o pool do Lync Server 2013. Depois que você migrar seus grupos de resposta antigos, as chamadas aos grupos de resposta serão processadas pelo Aplicativo Grupo de Resposta no pool do Lync Server 2013. As chamadas aos grupos de resposta não serão mais processadas pelo pool antigo.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-19_
+
+Depois que os usuários forem movidos para pools do Lync Server 2013, você poderá migrar seus grupos de resposta. Migrar grupos de resposta inclui copiar grupos de agente, filas, fluxos de trabalho e arquivos de áudio, além de mover objetos de contato de grupo de resposta da implantação herdada para o pool do Lync Server 2013. Depois de migrar seus grupos de resposta herdados, as chamadas para os grupos de resposta são manipuladas pelo aplicativo grupo de resposta no pool do Lync Server 2013. As chamadas para grupos de resposta não são mais manipuladas pelo pool herdado.
+
+<div>
+
 
 > [!NOTE]  
-> Apesar de ser possível migrar grupos de resposta antes de mover todos os usuários para o pool Lync Server 2013, recomendamos que você mova os usuários primeiro. Particularmente, os usuários que são agentes do grupo de resposta não irão ter total funcionalidade dos novos recursos até serem movidos para o pool Lync Server 2013.
+> Embora seja possível migrar grupos de resposta antes de mover todos os usuários para o pool do Lync Server 2013, recomendamos que você mova todos os usuários primeiro. Em particular, os usuários que são agentes de grupo de resposta não terão funcionalidade completa dos novos recursos até serem movidos para o pool do Lync Server 2013.
 
-Antes de migrar os grupos de resposta, você deve possuir um pool Lync Server 2013 implantado que inclua o Aplicativo Grupo de Resposta. O Aplicativo Grupo de Resposta está instalado e ativado por padrão ao implantar o Enterprise Voice. Você pode certificar-se de que o Aplicativo Grupo de Resposta está instalado executando o cmdlet **Get-CsService–ApplicationServer**.
+
+
+</div>
+
+Antes de migrar grupos de resposta, você deve ter implantado um pool do Lync Server 2013 que inclui o aplicativo do grupo de resposta. O aplicativo grupo de resposta é instalado e ativado por padrão ao implantar o Enterprise Voice. Você pode garantir que o aplicativo do grupo de resposta seja instalado executando o cmdlet **Get-CsService-ApplicationServer** .
+
+<div>
+
 
 > [!NOTE]  
-> Você pode criar novos grupos de resposta Lync Server 2013 no pool Lync Server 2013 antes de migrar os grupos de resposta de legado.
-
-Para migrar grupos de resposta de um pool antigo para o Lync Server 2013, você deve executar o cmdlet **Move-CsRgsConfiguration**. Para poder executar o **Move-CsRgsConfiguration**, primeiro você precisa instalar o pacote de interfaces de compatibilidade com versões anteriores WMI (Instrumentação de Gerenciamento do Windows). Instale esse aplicativo executando o OCSWMIBC.msi. Você pode encontrar o OCSWMIBC.msi na pasta Setup da mídia de instalação.
-
-> [!IMPORTANT]  
-> O cmdlet de migração Grupo de Resposta move a configuração Grupo de Resposta para todo o pool. Você não pode selecionar grupos específicos, filas ou grupos de trabalho para migrar.
-
-Depois que você migrar os grupos de resposta, precisará atualizar a URL que os agentes formais usam para entrar e sair de seus grupos de resposta e usar os cmdlets do Painel de Controle do Lync Server ou do Shell de Gerenciamento do Lync Server para verificar se todos os fluxos de trabalho, filas e grupos de agente foram transferidos com êxito.
+> Você pode criar novos grupos de resposta do Lync Server 2013 no pool do Lync Server 2013 antes de migrar seus grupos de respostas herdadas.
 
 
-> [!CAUTION]
-> Quando você migra grupos de resposta, os grupos de resposta do Office Communications Server 2007 R2 não são removidos. Não remova os grupos de resposta do Office Communications Server 2007 R2. Se você remover um grupo de resposta do Office Communications Server 2007 R2, os grupos de resposta do Lync Server 2013 pararão de funcionar.
+
+</div>
+
+Para migrar grupos de resposta de um pool herdado para o Lync Server 2013, execute o cmdlet **move-CsRgsConfiguration** . Antes de executar **move-CsRgsConfiguration**, você deve primeiro instalar o pacote de interfaces de compatibilidade com versões anteriores do Windows Management Instrumentation (WMI). Instale esse aplicativo executando OCSWMIBC. msi. Você pode encontrar o OCSWMIBC. msi na mídia de instalação na pasta de instalação.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Recomendamos que você não remova dados da sua implantação anterior até suspender o pool. Além disso, é altamente recomendável que você exporte os grupos de resposta imediatamente após a migração. Se um grupo de resposta do Office Communications Server 2007 R2 for removido, você poderá restaurar seus grupos de resposta do backup para fazer os grupos de resposta do Lync Server 2013 voltarem a funcionar.
+> O cmdlet de migração do grupo de resposta move a configuração do grupo de resposta para o pool inteiro. Não é possível selecionar grupos, filas ou fluxos de trabalho específicos para migrar.
 
-ao executar o cmdlet **Move-CsRgsConfiguration**, os grupos de agente, filas, fluxos de trabalho e arquivos de áudio permanecem no pool de legado para propósitos de reversão. Caso você precise fazer uma reversão para o pool de legado, entretanto, você precisará executar o cmdlet **Move-CsApplicationEndpoint** para mover objetos de contato de volta para o pool de legado.
+
+
+</div>
+
+Depois de migrar os grupos de resposta, você precisa atualizar a URL que os agentes formais usam para entrar e sair de seus grupos de resposta e usar o painel de controle do Lync Server ou cmdlets do Shell de gerenciamento do Lync Server para verificar se todos os grupos de agente, filas e fluxos de trabalho foram movidos com êxito.
+
+<div>
+
+
+> [!WARNING]  
+> Quando você migra grupos de resposta, os grupos de resposta do Office Communications Server 2007 R2 não são removidos. Não remova os grupos de resposta do Office Communications Server 2007 R2. Se você remover um grupo de resposta do Office Communications Server 2007 R2, os grupos de resposta no Lync Server 2013 param de funcionar.
+
+
+
+</div>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Recomendamos que você não exclua dados de grupos de resposta do pool antigo até suspendê-lo.
+> Recomendamos que você não remova dados de sua implantação anterior até encerrar o pool. Além disso, recomendamos enfaticamente que você exporte os grupos de resposta imediatamente após a migração. Se um grupo de resposta do Office Communications Server 2007 R2 for removido, você poderá restaurar seus grupos de resposta do backup para obter os grupos de resposta do Lync Server 2013 sendo executados novamente.
 
-O procedimento de migração de configurações do Grupo de Resposta a seguir pressupõe uma relação um-para-um entre seus pools antigos e os pools do Lync Server 2013. Se você pretende consolidar ou dividir pools durante a migração e implantação, precisará planejar qual pool antigo será mapeado para qual pool do Lync Server 2013.
 
-## Para migrar configurações do Grupo de Resposta
 
-1.  Localize o OCSWMIBC.msi na pasta Setup da mídia de instalação e instale-o.
+</div>
 
-2.  Efetue login no computador com uma conta que é membro do grupo RTCUniversalServerAdmins ou possui direitos de administrador e permissões equivalentes.
+Quando você executa o cmdlet **move-CsRgsConfiguration** , os grupos de agente, filas, fluxos de trabalho e arquivos de áudio permanecem no pool herdado para fins de reversão. No entanto, se você precisar reverter para o pool herdado, será necessário executar o cmdlet **move-CsApplicationEndpoint** para mover objetos de contato de volta para o pool herdado.
 
-3.  Abra o Shell de Gerenciamento do Lync Server.
+<div>
+
+
+> [!IMPORTANT]  
+> Recomendamos que você não exclua dos dados do grupo de resposta do pool herdado até encerrar o pool.
+
+
+
+</div>
+
+O procedimento a seguir para migrar configurações de grupo de resposta pressupõe que você tenha uma relação um-para-um entre seus pools herdados e os pools do Lync Server 2013. Se você planeja consolidar ou dividir os pools durante a migração e a implantação, será necessário planejar quais pools herdados são mapeados para qual Lync Server 2013 pool.
+
+<div>
+
+## <a name="to-migrate-response-group-configurations"></a>Migrar configurações de grupo de resposta
+
+1.  Localize OCSWMIBC. msi na pasta Setup da mídia de instalação e instale-o.
+
+2.  Faça logon no computador com uma conta que seja membro do grupo RTCUniversalServerAdmins ou tenha direitos e permissões de administrador equivalentes.
+
+3.  Abra o Shell de gerenciamento do Lync Server.
 
 4.  Na linha de comando, digite o seguinte:
     
@@ -62,36 +125,62 @@ O procedimento de migração de configurações do Grupo de Resposta a seguir pr
     
         Move-CsRgsConfiguration -Source pool01.contoso.net -Destination pool02.contoso.net
 
-5.  Caso tenha implantado a guia Grupo de Resposta no Microsoft Office Communicator 2007 R2 em seu ambiente do Office Communications Server 2007 R2, remova a guia do arquivo tabs.xml do Office Communicator 2007 R2.
+5.  Se você implantou a guia grupo de resposta do Microsoft Office Communicator 2007 R2 em seu ambiente do Office Communications Server 2007 R2, remova a guia do arquivo tabulares. XML do Office Communicator 2007 R2.
     
-    > [!NOTE]  
-    > Agentes formais usavam a guia Grupo de Resposta para entrar em seus grupos de resposta para poderem receber chamadas. Se você implantou a guia Grupo de Resposta, escolheu o local do arquivo tabs.xml do Office Communicator 2007 R2 quando o implantou.
-
-6.  Forneça aos usuários a URL atualizada de que os agentes precisam para entrar e sair de seus grupos de resposta.
+    <div>
     
-    > [!NOTE]  
-    > A URL normalmente é https://webpoolFQDN/RgsClients/Tab.aspx, na qual <em>webpoolFQDN</em> é o FQDN (nome de domínio totalmente qualificado) do pool da Web associado ao pool que você migrou para o Lync Server 2013.    
 
     > [!NOTE]  
-    > Esta etapa não é necessária depois que os usuários atualizam para o Lync 2013, pois a URL está disponível no menu <strong>Ferramentas</strong> no Lync.
+    > Agentes formais usaram a guia grupo de resposta para entrar em seus grupos de resposta antes de poderem receber chamadas. Se você implantou a guia grupo de resposta, você escolheu o local do arquivo tabular. XML do Office Communicator 2007 R2 quando a implantou.
 
-## Para confirmar a migração do grupo de resposta usando o Painel de Controle do Lync Server
-
-1.  Abra o Painel de Controle do Lync Server.
-
-2.  No painel de navegação à esquerda, clique em **Grupos de Resposta** .
-
-3.  Na guia **Fluxo de trabalho** , verifique se todos os fluxos de trabalho no seu ambiente Office Communications Server 2007 R2 estão incluídos na lista.
-
-4.  Clique na guia **Fila** e verifique se todas as filas no seu ambiente Office Communications Server 2007 R2 estão incluídas na lista.
-
-5.  Clique na guia **Grupo** e verifique se todos os grupos de agente no seu ambiente Office Communications Server 2007 R2 estão incluídos na lista.
-
-## Para confirmar a migração do grupo de resposta usando o cmdlets
-
-1.  Abra o Shell de Gerenciamento do Lync Server.
     
-    Para detalhes sobre os cmdlets a seguir, execute:
+    </div>
+
+6.  Forneça aos usuários a URL atualizada que os agentes precisam entrar e sair de seus grupos de resposta.
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > A URL geralmente https://webpoolFQDN/RgsClients/Tab.aspxé, em que webpoolFQDN é o nome de domínio totalmente qualificado (FQDN) do pool da Web que está associado ao pool que você migrau para o Lync Server 2013.
+
+    
+    </div>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > Esta etapa não é necessária após a atualização dos usuários para o Lync 2013 porque a URL está disponível no menu <STRONG>ferramentas</STRONG> do Lync.
+
+    
+    </div>
+
+</div>
+
+<div>
+
+## <a name="to-verify-response-group-migration-by-using-lync-server-control-panel"></a>Para verificar a migração do grupo de resposta usando o painel de controle do Lync Server
+
+1.  Abra o painel de controle do Lync Server.
+
+2.  No painel de navegação esquerdo, clique em **grupos de resposta**.
+
+3.  Na guia **fluxo de trabalho** , verifique se todos os fluxos de trabalho no ambiente do Office Communications Server 2007 R2 estão incluídos na lista.
+
+4.  Clique na guia **fila** e verifique se todas as filas no ambiente do Office Communications Server 2007 R2 estão incluídas na lista.
+
+5.  Clique na guia **grupo** e verifique se todos os grupos de agente no ambiente do Office Communications Server 2007 R2 estão incluídos na lista.
+
+</div>
+
+<div>
+
+## <a name="to-verify-response-group-migration-by-using-cmdlets"></a>Para verificar a migração do grupo de resposta usando cmdlets
+
+1.  Abra o Shell de gerenciamento do Lync Server.
+    
+    Para obter detalhes sobre os seguintes cmdlets, execute:
     
         Get-Help <cmdlet name> -Detailed
 
@@ -99,17 +188,29 @@ O procedimento de migração de configurações do Grupo de Resposta a seguir pr
     
         Get-CsRgsAgentGroup
 
-3.  Verifique se todos os grupos de agente no seu ambiente Office Communications Server 2007 R2 estão incluídos na lista.
+3.  Verifique se todos os grupos de agente no ambiente do Office Communications Server 2007 R2 estão incluídos na lista.
 
 4.  Na linha de comando, digite o seguinte:
     
         Get-CsRgsQueue
 
-5.  Verifique se todas as filas no seu ambiente Office Communications Server 2007 R2 estão incluídos na lista.
+5.  Verifique se todas as filas no ambiente do Office Communications Server 2007 R2 estão incluídas na lista.
 
 6.  Na linha de comando, digite o seguinte:
     
         Get-CsRgsWorkflow
 
-7.  Verifique se todos os fluxos de trabalho no seu ambiente Office Communications Server 2007 R2 estão incluídos na lista.
+7.  Verifique se todos os fluxos de trabalho no ambiente do Office Communications Server 2007 R2 estão incluídos na lista.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

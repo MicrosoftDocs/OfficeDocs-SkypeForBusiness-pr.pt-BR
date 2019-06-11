@@ -1,69 +1,114 @@
-﻿---
-title: Mover um único usuário ao pool piloto
-TOCTitle: Mover um único usuário ao pool piloto
-ms:assetid: 80d5b365-f153-4c61-a148-f9e18ce6e027
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688109(v=OCS.15)
-ms:contentKeyID: 49886282
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Mover um único usuário para o pool piloto
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Move a single user to the pilot pool
+ms:assetid: 80d5b365-f153-4c61-a148-f9e18ce6e027
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688109(v=OCS.15)
+ms:contentKeyID: 49733708
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 086af622644f8d8285ef5f7be8e17f75ff436000
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844234"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Mover um único usuário ao pool piloto
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-28_
+# <a name="move-a-single-user-to-the-pilot-pool"></a>Mover um único usuário para o pool piloto
 
-Você pode mover um usuário do pool Office Communications Server 2007 R2 para o pool piloto Lync Server 2013 usando Painel de Controle do Lync Server 2013 ou Shell de Gerenciamento do Lync Server 2013. No exemplo abaixo, na coluna de pool Registrar, **\<Office Communications Server\>** está o pool Office Communications Server 2007 R2 e todos os seis usuários estão conectados a este pool. Use os procedimentos a seguir para mover um usuário para seu pool Lync Server 2013 usando Painel de Controle do Lync Server 2013 e Shell de Gerenciamento do Lync Server.
+</div>
 
-![Procurar usuários de OCS no Painel de Controle do Lync Server](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Procurar usuários de OCS no Painel de Controle do Lync Server")
+<div id="mainSection">
 
-## Para mover um usuário usando o Painel de Controle do Lync Server 2013
+<div id="mainBody">
 
-1.  Faça o logon no Servidor Front-End com uma conta que seja membro do grupo RTCUniversalServerAdmins ou membro da função administrativa do CsAdministrator ou do CsUserAdministrator .
+<span> </span>
 
-2.  Abrir o Painel de Controle do Lync Server.
+_**Tópico da última modificação:** 2012-09-28_
 
-3.  Clique em **Usuários**.
+Você pode mover um usuário do pool do Office Communications Server 2007 R2 para o pool piloto do Lync Server 2013 usando o painel de controle do Lync Server 2013 ou o Shell de gerenciamento do Lync Server 2013. No exemplo a seguir, na coluna pool de registradores, ** \<o Office\> Communications Server** é o pool do Office Communications Server 2007 R2 e todos os seis usuários estão conectados a esse pool. Use os procedimentos a seguir para mover um usuário para o pool do Lync Server 2013 usando o painel de controle do Lync Server 2013 e o Shell de gerenciamento do Lync Server.
 
-4.  Na guia **Pesquisa de Usuário**, clique no botão **Pesquisar**.
+![Pesquisar usuários do OCS no painel de controle do Lync Server] (images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Pesquisar usuários do OCS no painel de controle do Lync Server")
 
-5.  Depois, clique em **Adicionar filtro**.
+<div>
 
-6.  Crie um filtro onde o **usuário do Office Communications Server** seja igual a **True**.
+## <a name="to-move-a-user-by-using-the-lync-server-2013-control-panel"></a>Para mover um usuário usando o painel de controle do Lync Server 2013
 
-7.  Clique em **Localizar** e procure por usuários herdados do Office Communications Server 2007 R2.
+1.  Faça logon no Servidor Front-end com uma conta que seja membro do grupo de RTCUniversalServerAdmins ou membro da função administrativa do CsAdministrator ou CsUserAdministrator.
+
+2.  Abra o Painel de Controle do Lync Server.
+
+3.  Clique em **usuários**.
+
+4.  Na guia **pesquisa de usuário** , clique no botão **Pesquisar** .
+
+5.  Em seguida, clique em **Adicionar filtro**.
+
+6.  Crie um filtro onde o **usuário do Office Communications Server** é igual a **true**.
+
+7.  Clique em **Localizar** para pesquisar usuários herdados do Office Communications Server 2007 R2.
     
-    ![Procurar usuários de OCS no Painel de Controle do Lync Server](images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "Procurar usuários de OCS no Painel de Controle do Lync Server")  
+    ![Pesquisar usuários do OCS no painel de controle do Lync Server] (images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "Pesquisar usuários do OCS no painel de controle do Lync Server")  
 
-8.  Selecione um usuário que você deseja mover para o pool de Lync Server 2013. Nesse exemplo, moveremos o usuário Sara Davis.
+8.  Selecione o usuário que você deseja mover para o pool do Lync Server 2013. Neste exemplo, moveremos a usuária Sara Davis.
 
 9.  No menu **Ação**, selecione **Mover usuários selecionados para o pool**.
 
-10. A partir da lista suspensa, selecione o pool do Lync Server 2013.
+10. Na lista suspensa, selecione o pool do Lync Server 2013.
 
-11. Clique em **Ação** e, em seguida, em **Mover usuários selecionados para o pool**. Clique em **OK**.
+11. Clique em **Ação** e em **Mover usuários selecionados para o pool**. Clique em **OK**.
     
-    ![Definindo o pool de destinos na a caixa de diálogo Mover Usuários](images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "Definindo o pool de destinos na a caixa de diálogo Mover Usuários")  
+    ![Configurando o pool de destino na caixa de diálogo mover usuários] (images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "Configurando o pool de destino na caixa de diálogo mover usuários")  
 
-12. Verifique se o **pool registrador** agora contém uma coluna para o usuário do Lync Server 2013pool, que indica que o usuário foi movido com êxito
+12. Verifique se a coluna do **pool** de registradores do usuário agora contém o pool do Lync Server 2013, que indica que o usuário foi movido com êxito
 
-## Para mover um usuário utilizando o Shell de Gerenciamento do Lync Server 2013
+</div>
 
-1.  Abra o Shell de Gerenciamento do Lync Server.
+<div>
+
+## <a name="to-move-a-user-by-using-the-lync-server-2013-management-shell"></a>Para mover um usuário usando o Shell de gerenciamento do Lync Server 2013
+
+1.  Abra o Shell de gerenciamento do Lync Server.
 
 2.  Na linha de comando, digite o seguinte:
     
         Move-CsLegacyUser -Identity "David Pelton" -Target "pool02.contoso.net"
 
-3.  Então, na linha de comando, digite o seguinte:
+3.  Em seguida, na linha de comando, digite o seguinte:
     
         Get-CsUser -Identity "David Pelton"
 
-4.  A identidade do **RegistrarPool** agora aponta para o pool do Lync Server 2013. A presença dessa identidade confirma que o usuário foi movido com sucesso.
+4.  A identidade **RegistrarPool** agora aponta para o pool do Lync Server 2013. A presença dessa identidade confirma que o usuário foi movido com êxito.
     
-    ![Saída do cmdlet Get-CsUser com filtro de identidade](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Saída do cmdlet Get-CsUser com filtro de identidade")  
+    ![Saída do cmdlet Get-CsUser com filtro de identidade] (images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Saída do cmdlet Get-CsUser com filtro de identidade")  
     
+    <div>
+    
+
     > [!NOTE]  
-    > Para obter detalhes sobre o cmdlet <strong>Get-CsUser</strong>, execute: <strong>Get-Help Get-CsUser –Detailed</strong>
+    > Para obter detalhes sobre o cmdlet <STRONG>Get-CsUser</STRONG> , execute: <STRONG>Get-Help Get-CsUser – detailed</STRONG>
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

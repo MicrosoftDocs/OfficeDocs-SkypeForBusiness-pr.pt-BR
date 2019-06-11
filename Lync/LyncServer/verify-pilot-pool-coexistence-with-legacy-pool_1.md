@@ -1,47 +1,89 @@
-﻿---
-title: Verificar coexistência de pool piloto com o pool herdado
-TOCTitle: Verificar coexistência de pool piloto com o pool herdado
-ms:assetid: 597d0fa6-ca04-4521-b1c2-72d7f35ecd08
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204914(v=OCS.15)
-ms:contentKeyID: 49306798
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Verificar coexistência de pool piloto com pool herdado
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Verify pilot pool coexistence with legacy pool
+ms:assetid: 597d0fa6-ca04-4521-b1c2-72d7f35ecd08
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204914(v=OCS.15)
+ms:contentKeyID: 48184209
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f67b113a4619d90345df9858f348d663383066d7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844118"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verificar coexistência de pool piloto com o pool herdado
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-28_
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Verificar coexistência de pool piloto com pool herdado
 
-## Verifique o pool na ferramenta administrativa do Office Communications Server 2007 R2
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-28_
+
+<div>
+
+## <a name="verify-the-pool-in-office-communications-server-2007-r2-administrative-tool"></a>Verificar o pool na ferramenta administrativa do Office Communications Server 2007 R2
 
 1.  Abra a ferramenta administrativa do Office Communications Server 2007 R2.
 
-2.  Expanda o nó **Floresta**, expanda o nó dos pools dos **Servidores Standard Edition** ou **Enterprise** e expanda o pool ou o nome do servidor.
+2.  Expanda o nó da **floresta** , expanda o nó **servidores de edição padrão** ou **pools corporativos** e, em seguida, expanda o pool ou o nome do servidor.
 
-3.  Certifique-se de que os serviços do Office Communications Server 2007 R2 estejam em execução no pool.
+3.  Verifique se os serviços do Office Communications Server 2007 R2 estão em execução no pool.
     
-    ![Console administrativo do Office Communications Server 2007 R2](images/JJ204914.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Console administrativo do Office Communications Server 2007 R2")  
+    ![Console de administração do Office Communications Server 2007 R2] (images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Console de administração do Office Communications Server 2007 R2")  
 
-## Verifique o pool piloto no Painel de Controle do Lync Server 2013
+</div>
 
-1.  A partir de uma conta de usuário que seja membro da função CsAdministrator, faça logon no servidor front-end do Lync Server 2013.
+<div>
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="verify-the-pilot-pool-in-lync-server-2013-control-panel"></a>Verificar o pool piloto no painel de controle do Lync Server 2013
 
-3.  Clique em **Topologia** .
+1.  Em uma conta de usuário que seja membro da função CsAdministrator, faça logon no servidor front-end do Lync Server 2013.
 
-4.  Verifique se os servidores implantados estão presentes no seu pool piloto.
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Clique em **topologia**.
+
+4.  Verifique se os servidores que você implantou estão presentes no pool piloto.
     
-    ![Página de Topologia do Painel de Controle do Lync Server](images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "Página de Topologia do Painel de Controle do Lync Server")  
+    ![Página de topologia do painel de controle do Lync Server] (images/JJ204914.a3d1ba5f-c1a7-45e8-b9a5-7cb07b01af8c(OCS.15).jpg "Página de topologia do painel de controle do Lync Server")  
 
-## Verifique se os serviços do Lync Server 2013 foram iniciados
+</div>
 
-1.  No servidor front-end do Lync Server 2013, abra o miniaplicativo **Serviços** a partir do grupo **Ferramentas Administrativas** .
+<div>
 
-2.  Verifique se os serviços relacionados coincidem com a lista na figura a seguir.
+## <a name="verify-lync-server-2013-services-have-started"></a>Verificar se os serviços do Lync Server 2013 começaram
+
+1.  No servidor de front-end do Lync Server 2013, abra o applet **Serviços** do grupo **Ferramentas administrativas** .
+
+2.  Verifique se os serviços listados correspondem à lista na figura a seguir.
     
-    ![Página Serviços que mostra os serviços iniciados do Lync](images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "Página Serviços que mostra os serviços iniciados do Lync")
+    ![Página serviços mostrando os serviços do Lync iniciado] (images/JJ204914.fd35d54a-2ab6-4c09-b5e9-fd5bf10f6f51(OCS.15).jpg "Página serviços mostrando os serviços do Lync iniciado")  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

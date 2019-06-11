@@ -1,29 +1,47 @@
-﻿---
-title: Exibir Informações de Aplicativos Confiáveis
-TOCTitle: Exibir Informações de Aplicativos Confiáveis
-ms:assetid: 7b916323-96fb-4308-bc95-c178de41a3d3
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688103(v=OCS.15)
-ms:contentKeyID: 49886275
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: exibir informações de aplicativos confiáveis'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View trusted application information
+ms:assetid: 7b916323-96fb-4308-bc95-c178de41a3d3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688103(v=OCS.15)
+ms:contentKeyID: 49733702
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 139a4fedbfd703fea77464929ef3f5800517260e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844378"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Exibir Informações de Aplicativos Confiáveis
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-30_
+# <a name="view-trusted-application-information-in-lync-server-2013"></a>Exibir informações de aplicativos confiáveis no Lync Server 2013
 
-Use o procedimento a seguir para visualizar Shell de Gerenciamento do Lync Server 2013 informações confiáveis de aplicativo em Shell de Gerenciamento do Lync Server.
+</div>
 
-## Visualizar Informações de Aplicativos Confiáveis Usando Shell de Gerenciamento do Lync Server Cmdlets
+<div id="mainSection">
 
-Você pode ver informações sobre seus aplicativos confiáveis usando Shell de Gerenciamento do Lync Server e **Get-CsTrustedApplication** cmdlet. Esse cmdlet pode ser executado de Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div id="mainBody">
 
-## Para ver aplicativos confiáveis
+<span> </span>
 
-  - Para ver todos os seus aplicativos confiáveis, digite o seguinte comando no Shell de Gerenciamento do Lync Server e pressione ENTER:
+_**Tópico da última modificação:** 2013-02-23_
+
+Você pode exibir informações sobre seus aplicativos confiáveis usando o Windows PowerShell e o cmdlet **Get-CsTrustedApplication** . Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+
+<div>
+
+## <a name="to-view-trusted-applications"></a>Para exibir aplicativos confiáveis
+
+  - Para exibir todos os seus aplicativos confiáveis, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
     
         Get-CsConferenceDisclaimer
     
@@ -44,6 +62,18 @@ Você pode ver informações sobre seus aplicativos confiáveis usando Shell de 
         EnterpriseVoiceEnabled : True
         ExUmEnabled            : False
         Enabled                : True
+    
+    Para obter detalhes, consulte [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).
 
-Para detalhes, consulte [Get-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrustedApplication).
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

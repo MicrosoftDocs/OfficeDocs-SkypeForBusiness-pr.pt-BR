@@ -1,41 +1,70 @@
-﻿---
-title: Gerenciar categorias
-TOCTitle: Gerenciar categorias
-ms:assetid: 1b118d91-b4c4-4b2f-b842-b451417ec2c6
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204719(v=OCS.15)
-ms:contentKeyID: 49306042
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Gerenciar categorias
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Manage categories
+ms:assetid: 1b118d91-b4c4-4b2f-b842-b451417ec2c6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204719(v=OCS.15)
+ms:contentKeyID: 48183543
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c7632c0de3c17c921af05a8daa225364727a3a3d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844278"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gerenciar categorias
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-06_
+# <a name="manage-categories"></a>Manage categories
 
-Para criar uma nova Categoria do Servidor de Chat Persistente
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-06_
+
+Para criar uma nova categoria de servidor de chat persistente
 
     New-CsPersistentChatCategory -Name Foo -PersistentChatPoolFqdn client.contoso1b118d91-b4c4-4b2f-b842-b451417ec2c6.com [other parameters]
 
-> [!IMPORTANT]  
-> O PersistentChatPoolFqdn é necessário apenas se existe mais de um Pool de Servidor de Chat Persistente.
+<div>
 
-Para fazer alterações em uma Categoria do Servidor de Chat Persistente já existente
+
+> [!IMPORTANT]  
+> PersistentChatPoolFqdn é necessário apenas se houver mais de um pool de servidores de chat persistente.
+
+
+
+</div>
+
+Para fazer alterações na categoria de servidor de chat persistente existente
 
     Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 
-Windows PowerShell: AllowedMembers, DeniedMembers, e Creators podem ser definidos simultaneamente. Creators deve ser o subconjunto de AllowedMembers menos DeniedMembers. Você também pode configurar as propriedades de uma categoria ao mesmo tempo que os membros e criadores.
+Windows PowerShell: AllowedMembers, DeniedMembers e Creator podem ser definidos simultaneamente. Os criadores devem ser o subconjunto de AllowedMembers menos DeniedMembers. Você também pode definir as propriedades de uma categoria ao mesmo tempo que os membros e os criadores.
 
-## Criar, obter, configurar ou remover uma categoria
+<div>
 
-Para criar uma nova Categoria
+## <a name="create-get-set-or-remove-a-category"></a>Criar, obter, definir ou remover uma categoria
+
+Para criar uma nova categoria
 
     New-CsPersistentChatCategory -Name <String> [-PersistentChatPoolFqdn <String>] [-Description <String>] [-EnableInvitations<Switch Parameter>] [-EnableFileUpload <Switch Parameter>] [-RemoveChatHistory <Switch Parameter>] [-MaxContentSize <Integer>]
 
-Para obter uma Categoria
+Para obter uma categoria
 
     Get-CsPersistentChatCategory -Identity <String>
 
@@ -43,7 +72,7 @@ ou
 
     Get-CsPersistentChatCategory -PersistentChatPoolFqdn <String>
 
-Para configurar uma Categoria
+Para definir uma categoria
 
     Set-CsPersistentChatCategory -Instance <CategoryObject> [-WhatIf] [-Confirm] [<CommonParameters>]
 
@@ -51,11 +80,23 @@ ou
 
     Set-CsPersistentChatCategory [-Identity] <string> [-Name <string>] [-Description <string>] [-Invitations <bool>] [-FileUpload <bool>] [-ChatHistory <bool>] [-AllowedMembers <PSListModifier[string]>] [-DeniedMembers <PSListModifier[string]>] [-Creators <PSListModifier[string]>] [-WhatIf] [-Confirm]  [<CommonParameters>]
 
-Para remover uma Categoria
+Para remover uma categoria
 
     Remove-CsPersistentChatCategory -Instance <CategoryObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
 ou
 
     Remove-CsPersistentChatCategory -Identity <String> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

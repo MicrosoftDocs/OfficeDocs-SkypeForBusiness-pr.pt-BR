@@ -1,47 +1,85 @@
-﻿---
-title: Exibir detalhes sobre um Serviço no Lync Server 2013
-TOCTitle: Exibir detalhes sobre um Serviço no Lync Server 2013
-ms:assetid: bc8e8202-cd68-47e4-95b2-bb36e51cc124
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182578(v=OCS.15)
-ms:contentKeyID: 49307934
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Exibir detalhes sobre um serviço'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View details about a service
+ms:assetid: bc8e8202-cd68-47e4-95b2-bb36e51cc124
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182578(v=OCS.15)
+ms:contentKeyID: 48185253
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 65fd84ad7290f3b82130f04d8b81955f6ffb4921
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844401"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Exibir detalhes sobre um Serviço no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-21_
+# <a name="view-details-about-a-service-in-lync-server-2013"></a>Exibir detalhes sobre um serviço no Lync Server 2013
 
-É possível usar o Painel de Controle do Lync Server para exibir detalhes sobre cada serviço em execução em determinado computador na sua topologia. É possível exibir o status e os detalhes de cada serviço, como bancos de dados, portas e serviços dependentes associados.
+</div>
 
-## Para exibir detalhes de um serviço
+<div id="mainSection">
 
-1.  Usando uma conta de usuário atribuída à qualquer uma das funções administrativas predefinidas para o Lync Server 2013, faça logon em qualquer computador de sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidas disponíveis no Lync Server 2013, consulte [Planejamento de controle de acesso baseado em função no Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+<div id="mainBody">
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Na barra de navegação esquerda, clique em **Topologia** e em **Status**.
+_**Tópico da última modificação:** 2012-09-21_
 
-4.  Na página **Status**, classifique ou pesquisa na lista e clique no computador que deseja exibir.
+Você pode usar o painel de controle do Lync Server para ver detalhes sobre cada serviço em execução em um computador específico na sua topologia. Você pode exibir o status de cada serviço e detalhes, como os bancos de dados, portas e serviços dependentes associados.
+
+<div>
+
+## <a name="to-view-details-for-a-service"></a>Para ver os detalhes de um serviço
+
+1.  Em uma conta de usuário que é atribuída a qualquer uma das funções administrativas predefinidas do Lync Server 2013, faça logon em qualquer computador na sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidas disponíveis no Lync Server 2013, consulte [planejando o controle de acesso baseado em função no Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Na barra de navegação à esquerda, clique em **topologia** e, em seguida, clique em **status**.
+
+4.  Na página **status** , classifique ou pesquise na lista e, em seguida, clique no computador que você deseja exibir.
 
 5.  Clique em **Propriedades**.
 
-6.  Na janela **Exibir Detalhes do Computador**, classifique a lista de serviços, se for necessário, e clique no serviço que você deseja exibir.
+6.  Na janela **Exibir detalhes do computador** , classifique a lista de serviços, se necessário, e clique no serviço que você deseja exibir.
 
-7.  Siga um destes procedimentos, conforme o necessário:
+7.  Siga um destes procedimentos conforme necessário:
     
-      - Para ver o status mais recente desse serviço específico, clique em **Obter o status do serviço**.
+      - Para ver o status mais recente desse serviço específico, clique em **obter status do serviço**.
     
-      - Para ver detalhes desse serviço específico, clique em **Propriedades** e em **Fechar**.
+      - Para ver os detalhes desse serviço específico, clique em **Propriedades** e, em seguida, clique em **fechar**.
     
-      - Para retornar à lista com todos os computadores em sua topologia, clique **Fechar**.
+      - Para retornar à lista de todos os computadores na sua topologia, clique em **fechar**.
 
-## Consulte Também
+</div>
 
-#### Outros Recursos
+<div>
 
-[Gerenciando a topologia do Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)
+## <a name="see-also"></a>Confira também
+
+
+[Gerenciando a topologia do Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
