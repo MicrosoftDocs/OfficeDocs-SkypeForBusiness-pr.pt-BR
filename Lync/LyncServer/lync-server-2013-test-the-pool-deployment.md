@@ -1,83 +1,133 @@
-﻿---
-title: 'Lync Server 2013: Testar a implantação de pool '
-TOCTitle: 'Testar a implantação de pool '
-ms:assetid: ffd80617-155a-4041-bbeb-74503e7938dd
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg413092(v=OCS.15)
-ms:contentKeyID: 49308729
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Testar a implantação de pool'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Test the pool deployment
+ms:assetid: ffd80617-155a-4041-bbeb-74503e7938dd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413092(v=OCS.15)
+ms:contentKeyID: 48185976
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 70a1dc68b8dbe6285cdf4b7e9c21c873caaf730d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844656"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testar a implantação de pool no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-09-25_
+# <a name="test-the-pool-deployment-in-lync-server-2013"></a><span data-ttu-id="d1b8a-102">Testar a implantação de pool no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d1b8a-102">Test the pool deployment in Lync Server 2013</span></span>
 
-The following procedure describes how to test the deployment of the Pool de Front-Ends.
+</div>
 
-## Para testar a implantação do pool
+<div id="mainSection">
 
-1.  Use Computadores e Usuários do Active Directory para adicionar o objeto do usuário do Active Directory da função de administrador para a implantação do Lync Server 2013 (na qual o Painel de Controle do Lync Server 2013 está instalado) para o grupo **CSAdministrator** .
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="d1b8a-103">_**Tópico da última modificação:** 2013-09-25_</span><span class="sxs-lookup"><span data-stu-id="d1b8a-103">_**Topic Last Modified:** 2013-09-25_</span></span>
+
+<span data-ttu-id="d1b8a-104">O procedimento a seguir descreve como testar a implantação do pool de front-end.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-104">The following procedure describes how to test the deployment of the Front End pool.</span></span>
+
+<div>
+
+## <a name="to-test-the-pool-deployment"></a><span data-ttu-id="d1b8a-105">Para testar a implantação do pool</span><span class="sxs-lookup"><span data-stu-id="d1b8a-105">To test the pool deployment</span></span>
+
+1.  <span data-ttu-id="d1b8a-106">Use computadores e usuários do Active Directory para adicionar o objeto de usuário do Active Directory da função Administrador para a implantação do Lync Server 2013 (em que o painel de controle do Lync Server 2013 está instalado) no grupo **CSAdministrator** .</span><span class="sxs-lookup"><span data-stu-id="d1b8a-106">Use Active Directory Computers and Users to add the Active Directory user object of the administrator role for the Lync Server 2013 deployment (on which Lync Server 2013 Control Panel is installed) to the **CSAdministrator** group.</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Se você não adicionar os usuários e grupos apropriados ao grupo CsAdministors, receberá um erro ao abrir o Painel de Controle do Lync Server, afirmando que &quot;Não autorizado: acesso negado devido a uma falha de autorização do controle de acesso baseado em função (RBAC).&quot;
+    > <span data-ttu-id="d1b8a-107">Se você não adicionar os usuários e grupos apropriados ao grupo CsAdministors, receberá um erro ao abrir o painel de controle do Lync Server, que afirma que "não autorizado: o acesso é negado devido a uma falha de autorização de controle de acesso baseado em função (RBAC)."</span><span class="sxs-lookup"><span data-stu-id="d1b8a-107">If you do not add the appropriate users and groups to the CsAdministors group, you will receive an error when opening Lync Server Control Panel, which states that “Unauthorized: Access is denied due to a role-based access control (RBAC) authorization failure.”</span></span>
 
-2.  Se o objeto do usuário está conectado atualmente, desconecte e conecte-se novamente para registrar a nova atribuição de grupo.
     
+    </div>
+
+2.  <span data-ttu-id="d1b8a-108">Se o objeto do usuário está conectado atualmente, desconecte e conecte-se novamente para registrar a nova atribuição de grupo.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-108">If the user object is currently logged on, log off and then log on again to register the new group assignment.</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > A conta de usuário não pode ser o administrador local de qualquer servidor executando o Lync Server 2013.
+    > <span data-ttu-id="d1b8a-109">A conta de usuário não pode ser o administrador local de qualquer servidor que esteja executando o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-109">The user account cannot be the local administrator of any server running Lync Server 2013.</span></span>
 
-3.  Use a conta administrativa para fazer o login no computador onde o Painel de Controle do Lync Server está instalado.
-
-4.  Inicie o Painel de Controle do Lync Server e forneça as credenciais se solicitado. O Painel de Controle do Lync Server exibe as informações sobre a implantação.
-
-5.  Na barra de navegação esquerda, clique em **Topologia** e confirme se o status do serviço mostra um computador com uma seta verde e que uma marca de seleção verde para status de replicação está próxima a cada função do servidor do Lync Server que foi implantada e colocada online.
-
-6.  Na barra de navegação esquerda, clique em **Usuários** e em **Habilitar usuários** .
-
-7.  Na página **Novo usuário do Lync Server** , clique em **Adicionar** .
-
-8.  Para definir os parâmetros de pesquisa para os objetos que deseja localizar, na página **Selecionar do Active Directory** , você pode selecionar **Pesquisa** e, opcionalmente, clique em **Adicionar filtro** . Também é possível selecionar **Pesquisa LDAP** e inserir uma expressão LDAP para filtrar ou limitar os objetos que serão retornados. Após decidir suas opções de pesquisa, clique em **Localizar** .
-
-9.  No painel de resultados da pesquisa, selecione todos os objetos para esta sessão de pesquisa e clique em **OK** .
-
-10. Na página **Novo usuário do Lync Server** , o objeto ou objetos selecionados estão na tela **Usuários** . Em **Atribuir usuários a uma lista de pools** , selecione o servidor onde os objetos devem ser hospedados.
     
-    A seguir estão várias opções para configurar os objetos.
-    
-      - **Gerar o URI SIP do usuário**
-    
-      - **Telefonia**
-    
-      - **URI de linha**
-    
-      - **Política de conferência**
-    
-      - **Política de versão do cliente**
-    
-      - **Política de PIN**
-    
-      - **Política de acesso externo**
-    
-      - **Política de arquivamento**
-    
-      - **Política local**
-    
-      - **Política do cliente**
-    
-    Para fins de teste da funcionalidade básica, selecione a opção que preferir para a configuração **Gerar URI SIP do usuário** (as outras opções na configuração usarão as configurações padrões) e clique em **Habilitar** .
+    </div>
 
-11. Será exibida uma página de resumo mostrando uma marca de verificação na coluna **Habilitado** coluna para indicar que os objetos agora estão prontos para uso. A coluna **Endereço SIP** exibe o endereço necessário para a configuração de login do usuário.
+3.  <span data-ttu-id="d1b8a-110">Use a conta administrativa para fazer logon no computador em que o painel de controle do Lync Server está instalado.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-110">Use the administrative account to log on to the computer where Lync Server Control Panel is installed.</span></span>
 
-12. Faça o login de um usuário em um computador que esteja conectado ao domínio e outro usuário em outro computador no domínio.
+4.  <span data-ttu-id="d1b8a-111">Inicie o painel de controle do Lync Server e forneça as credenciais, se for solicitado.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-111">Start Lync Server Control Panel, and then provide credentials, if prompted.</span></span> <span data-ttu-id="d1b8a-112">O painel de controle do Lync Server exibe informações de implantação.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-112">Lync Server Control Panel displays deployment information.</span></span>
 
-13. Instale o Lync 2013 em cada um dos dois computadores clientes e verifique se ambos os usuários podem se conectar ao Lync Server 2013 e enviar mensagens instantâneas um para o outro.
+5.  <span data-ttu-id="d1b8a-113">Na barra de navegação à esquerda, clique em **topologia**e, em seguida, confirme se o status do serviço mostra um computador com uma seta verde e se uma marca de seleção verde para o status de replicação está ao lado de cada função de servidor do Lync que foi implantada e colocada online.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-113">In the left navigation bar, click **Topology**, and then confirm that the service status shows a computer with a green arrow and that a green check mark for replication status is next to each Lync Server server role that has been deployed and brought online.</span></span>
 
-## Consulte Também
+6.  <span data-ttu-id="d1b8a-114">Na barra de navegação esquerda, clique em **Usuários** e em **Habilitar usuários**.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-114">In the left navigation bar, click **Users**, and then click **Enable users**.</span></span>
 
-#### Conceitos
+7.  <span data-ttu-id="d1b8a-115">Na página **novo usuário do Lync Server** , clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-115">On the **New Lync Server User** page, click **Add**.</span></span>
 
-[Implantando clientes e dispositivos no Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md)
+8.  <span data-ttu-id="d1b8a-116">Para definir os parâmetros de pesquisa para os objetos que deseja localizar, na página **Selecionar do Active Directory**, você pode selecionar **Pesquisa** e, opcionalmente, clique em **Adicionar filtro**.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-116">To define search parameters for the objects you want to find, on the **Select from Active Directory** page, you can select **Search**, and then optionally click **Add Filter**.</span></span> <span data-ttu-id="d1b8a-117">Também é possível selecionar **Pesquisa LDAP** e inserir uma expressão LDAP para filtrar ou limitar os objetos que serão retornados.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-117">You can also select **LDAP search** and enter an LDAP expression to filter or limit the objects that will be returned.</span></span> <span data-ttu-id="d1b8a-118">Depois de decidir nas opções de pesquisa, **Localize**o o.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-118">After you have decided on your Search options, clink **Find**.</span></span>
+
+9.  <span data-ttu-id="d1b8a-119">No painel resultados da pesquisa, selecione todos os objetos para esta sessão de pesquisa e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-119">In the Search results pane, select all the objects for this search session, and then click **OK**.</span></span>
+
+10. <span data-ttu-id="d1b8a-120">Na página **novo usuário do Lync Server** , o objeto ou os objetos selecionados estão na exibição **usuários** .</span><span class="sxs-lookup"><span data-stu-id="d1b8a-120">On the **New Lync Server User** page, the object or objects you selected are in the **Users** display.</span></span> <span data-ttu-id="d1b8a-121">Na lista **atribuir usuários a um pool** , selecione o servidor em que os objetos devem ser hospedados.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-121">In the **Assign users to a pool** list, select the server where the objects should be homed.</span></span>
+    
+    <span data-ttu-id="d1b8a-122">Veja a seguir várias opções para configurar os objetos.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-122">Following are a number of options for configuring the objects.</span></span>
+    
+      - <span data-ttu-id="d1b8a-123">**Gerar o URI SIP do usuário**</span><span class="sxs-lookup"><span data-stu-id="d1b8a-123">**Generate user’s SIP URI**</span></span>
+    
+      - <span data-ttu-id="d1b8a-124">**Telefonia**</span><span class="sxs-lookup"><span data-stu-id="d1b8a-124">**Telephony**</span></span>
+    
+      - <span data-ttu-id="d1b8a-125">**URI de linha**</span><span class="sxs-lookup"><span data-stu-id="d1b8a-125">**Line URI**</span></span>
+    
+      - <span data-ttu-id="d1b8a-126">**Política de conferência**</span><span class="sxs-lookup"><span data-stu-id="d1b8a-126">**Conferencing policy**</span></span>
+    
+      - <span data-ttu-id="d1b8a-127">**Política de versão do cliente**</span><span class="sxs-lookup"><span data-stu-id="d1b8a-127">**Client version policy**</span></span>
+    
+      - <span data-ttu-id="d1b8a-128">**Política de PIN**</span><span class="sxs-lookup"><span data-stu-id="d1b8a-128">**PIN policy**</span></span>
+    
+      - <span data-ttu-id="d1b8a-129">**Política de acesso externo**</span><span class="sxs-lookup"><span data-stu-id="d1b8a-129">**External access policy**</span></span>
+    
+      - <span data-ttu-id="d1b8a-130">**Política de arquivamento**</span><span class="sxs-lookup"><span data-stu-id="d1b8a-130">**Archiving policy**</span></span>
+    
+      - <span data-ttu-id="d1b8a-131">**Política local**</span><span class="sxs-lookup"><span data-stu-id="d1b8a-131">**Location policy**</span></span>
+    
+      - <span data-ttu-id="d1b8a-132">**Política de cliente**</span><span class="sxs-lookup"><span data-stu-id="d1b8a-132">**Client policy**</span></span>
+    
+    <span data-ttu-id="d1b8a-133">Para fins de teste da funcionalidade básica, selecione a opção que você prefere para a configuração **gerar URI SIP do usuário** (as outras opções na configuração usarão as configurações padrão) e clique em **habilitar**.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-133">For the purposes of testing the basic functionality, select the option you prefer for the **Generate user’s SIP URI** setting (the other options in the configuration will use default settings), and then click **Enable**.</span></span>
+
+11. <span data-ttu-id="d1b8a-134">Será exibida uma página de resumo que mostra uma marca de seleção na coluna **habilitado** para indicar que os objetos estão agora prontos para uso.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-134">A summary page is displayed that shows a check mark in the **Enabled** column to indicate that the objects are now ready for use.</span></span> <span data-ttu-id="d1b8a-135">A coluna **Endereço SIP** exibe o endereço necessário para a configuração de login do usuário.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-135">The **SIP address** column displays the address you need for the user sign-in configuration.</span></span>
+
+12. <span data-ttu-id="d1b8a-136">Registrar um usuário em um computador que ingressou no domínio e outro usuário em outro computador no domínio.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-136">Log one user on to a computer that is joined to the domain, and another user on to another computer in the domain.</span></span>
+
+13. <span data-ttu-id="d1b8a-137">Instale o Lync 2013 em cada um dos dois computadores cliente e verifique se os dois usuários podem entrar no Lync Server 2013 e enviar mensagens de chat para os outros.</span><span class="sxs-lookup"><span data-stu-id="d1b8a-137">Install Lync 2013 on each of the two client computers, and then verify that both users can sign in to Lync Server 2013 and can send instant messages to each other.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="d1b8a-138">Confira também</span><span class="sxs-lookup"><span data-stu-id="d1b8a-138">See Also</span></span>
+
+
+[<span data-ttu-id="d1b8a-139">Implantando clientes e dispositivos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d1b8a-139">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

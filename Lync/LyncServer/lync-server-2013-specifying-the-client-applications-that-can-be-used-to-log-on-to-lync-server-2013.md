@@ -1,104 +1,89 @@
-﻿---
-title: "Especificando apps de cl. que podem ser usados p/ fazer logon no Lync Server 2013"
-TOCTitle: "Especificando apps de cl. que podem ser usados p/ fazer logon no Lync Server 2013"
-ms:assetid: d256a581-9a48-4d1a-82cc-2e1f520d7d2e
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182591(v=OCS.15)
-ms:contentKeyID: 49308205
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: especificando os aplicativos cliente que podem ser usados para fazer logon no Lync Server 2013'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Specifying the client applications that can be used to log on to Lync Server 2013
+ms:assetid: d256a581-9a48-4d1a-82cc-2e1f520d7d2e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182591(v=OCS.15)
+ms:contentKeyID: 48185450
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 42f1135349c7caab0f8e3fe2e428a1bad59466ee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844873"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Especificando aplicativos de client que podem ser usados para fazer logon no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-12-11_
+# <a name="specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013"></a><span data-ttu-id="d0c61-102">Especificando os aplicativos cliente que podem ser usados para fazer logon no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0c61-102">Specifying the client applications that can be used to log on to Lync Server 2013</span></span>
 
-O Lync Server 2013 permite especificar a versão dos clientes que são compatíveis com o seu ambiente. Quando dois clientes que executam versões diferentes interagem, os recursos disponíveis de um cliente podem ficar limitados devido às capacidade do outro cliente. Para maximizar a utilização dos recursos incluídos no Lync Server 2013 e para melhorar a experiência geral do usuário, é possível usar o filtro de versão do cliente para restringir as versões do cliente que são usadas no seu ambiente do Lync Server 2013. Usando o filtro de versão do cliente, também é possível reduzir os custos associados ao suporte de várias versões de clientes.
+</div>
 
-Além de criar uma política global, é possível criar políticas de versão do cliente para um serviço ou site específico ou políticas com escopo no usuário que podem ser atribuídas a usuários individuais. A política de versão cliente com escopo no usuário pode ser atribuída a usuários individuais a partir do grupo **Usuários** no Painel de Controle do Lync Server.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="d0c61-103">_**Tópico da última modificação:** 2012-12-11_</span><span class="sxs-lookup"><span data-stu-id="d0c61-103">_**Topic Last Modified:** 2012-12-11_</span></span>
+
+<span data-ttu-id="d0c61-104">O Lync Server 2013 permite que você especifique a versão dos clientes que têm suporte no seu ambiente.</span><span class="sxs-lookup"><span data-stu-id="d0c61-104">Lync Server 2013 enables you to specify the version of clients that are supported in your environment.</span></span> <span data-ttu-id="d0c61-105">Usar políticas de versão do cliente pode ajudar a reduzir os custos associados ao suporte a várias versões de cliente.</span><span class="sxs-lookup"><span data-stu-id="d0c61-105">Using client version policies can help reduce the costs associated with supporting multiple client versions.</span></span> <span data-ttu-id="d0c61-106">Ele também pode melhorar a experiência geral do usuário, porque quando versões anteriores e posteriores dos clientes interagem, os recursos disponíveis podem ser limitados pela versão anterior do cliente.</span><span class="sxs-lookup"><span data-stu-id="d0c61-106">It can also improve the overall user experience, because when earlier and later versions of clients interact, the available features can be limited by the earlier version of the client.</span></span>
+
+<span data-ttu-id="d0c61-107">Há três componentes do controle de versão do cliente:</span><span class="sxs-lookup"><span data-stu-id="d0c61-107">There are three components of client version control:</span></span>
+
+  - <span data-ttu-id="d0c61-108">As configurações de versão do cliente são usadas para ativar ou desativar o controle de versão do cliente, seja globalmente ou para sites específicos.</span><span class="sxs-lookup"><span data-stu-id="d0c61-108">Client version configuration settings are used to turn client version control on or off, either globally or for particular sites.</span></span>
+
+  - <span data-ttu-id="d0c61-109">As políticas de versão do cliente são usadas para atribuir um conjunto de regras globalmente ou para um determinado site, pool ou grupo de usuários.</span><span class="sxs-lookup"><span data-stu-id="d0c61-109">Client version policies are used to assign a set of rules globally, or to a particular site, pool, or group of users.</span></span>
+
+  - <span data-ttu-id="d0c61-110">As regras de política de versão do cliente compõem uma política de versão do cliente e são usadas para definir as ações que devem ser executadas quando os usuários tentarem fazer logon com clientes e versões específicas do cliente.</span><span class="sxs-lookup"><span data-stu-id="d0c61-110">Client version policy rules make up a client version policy, and are used to define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Como os usuários anônimos não são associados a um usuário, site ou serviço, eles são afetados somente por políticas de nível global.
+> <span data-ttu-id="d0c61-111">Como os usuários anônimos não são associados a um usuário, site ou serviço, eles são afetados somente por políticas de nível global.</span><span class="sxs-lookup"><span data-stu-id="d0c61-111">Because anonymous users are not associated with a user, site, or service, anonymous users are affected by global-level policies only.</span></span>
 
-> [!IMPORTANT]  
-> Os filtros são listados em ordem de precedência. Por exemplo, se você tiver um filtro que permite a conexão de clientes que executam a versão 1.5 ou mais recente, seguido por um filtro que bloqueia os clientes executando uma versão anterior a 2.0, o primeiro filtro terá precedência e os clientes que executam a versão 1.5 terão permissão para se conectar.
 
-## Para editar a política de versão de cliente padrão
 
-1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+</div>
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<div>
 
-3.  Na barra de navegação esquerda, clique em **Clientes**.
-    
-    > [!NOTE]  
-    > A guia <strong>Política de Versões de Clientes</strong> está selecionada por padrão.
+## <a name="in-this-section"></a><span data-ttu-id="d0c61-112">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="d0c61-112">In This Section</span></span>
 
-4.  Na página **Política de Versões de Clientes**, clique duas vezes na política **Global** na lista.
+  - [<span data-ttu-id="d0c61-113">Definições de configuração de versão do cliente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0c61-113">Client version configuration settings in Lync Server 2013</span></span>](lync-server-2013-client-version-configuration-settings.md)
 
-5.  Em **Editar Política de Versões de Clientes**, execute uma das seguintes ações:
-    
-      - Clique em **Nova** para criar uma nova regra de versão de cliente.
-    
-      - Clique em um dos tipos de cliente definidos na lista e em **Mostrar detalhes**.
-    
-    > [!NOTE]  
-    > É possível usar caracteres curinga para indicar o tipo de cliente.
+  - [<span data-ttu-id="d0c61-114">Políticas de versão do cliente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0c61-114">Client version policies in Lync Server 2013</span></span>](lync-server-2013-client-version-policies.md)
 
-6.  Em **Agente do usuário**, selecione um tipo de cliente.
+  - [<span data-ttu-id="d0c61-115">Regras de versão do cliente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0c61-115">Client version rules in Lync Server 2013</span></span>](lync-server-2013-client-version-rules.md)
 
-7.  Em **Número de versão**, faça o seguinte:
-    
-      - Em **Versão principal**, digite o número que corresponde à versão principal do cliente.
-    
-      - Em **Versão secundária**, digite o número que corresponde à versão secundária do cliente.
-    
-      - Em **Compilação**, digite o número que corresponde à versão principal e secundária do cliente.
-    
-      - Em **Atualização**, digite o número que corresponde à versão atualizada do cliente.
-    
-    > [!NOTE]  
-    > Você pode usar caracteres curinga para indicar o número da versão do cliente.
+</div>
 
-8.  Para especificar a operação correspondente para a versão do cliente especificada nas etapas anteriores, em **Operação de comparação**, clique em um dos seguintes:
-    
-      - **Igual a**
-    
-      - **Não é**
-    
-      - **Mais novo que**
-    
-      - **Mais novo ou igual a**
-    
-      - **Mais antigo que**
-    
-      - **Mais antigo ou igual a**
+<div>
 
-9.  Para especificar a ação a ser executada quando os critérios nas etapas anteriores forem atendidos, clique em uma das seguintes opções em **Ação**:
-    
-      - Para permitir o logon do cliente, clique em **Permitir**.
-    
-      - Para permitir que o cliente faça o login e receba atualizações do Windows Server Update Service ou Microsoft Update, clique em **Permitir e atualizar**. Esta seção está disponível apenas quando o agente de usuário **OC** é selecionado.
-        
-        > [!NOTE]  
-        > Selecionar esta ação faz com que uma notificação seja exibida na próxima vez que o usuário fizer o login em um Lync 2013. A notificação declara que uma atualização está disponível, mesmo se as atualizações ainda não tiverem sido lançadas pelo Windows Server Update Service ou Microsoft Update. Para evitar confusão, você deve escolher esta ação apenas após as atualizações se tornarem disponíveis.    
-      - Para permitir que o cliente faça logon e exiba uma mensagem sobre onde baixar outra versão de cliente, clique em **Permitir com URL**. Você especifica a URL posteriormente neste procedimento.
-    
-      - Para impedir que o cliente faça logon, clique em **Bloquear**.
-    
-      - Para evitar que o cliente faça o login e permitir que ele receba atualizações do Windows Server Update Service ou Microsoft Update, clique em **Bloquear e atualizar**. Esta ação está disponível apenas quando o agente do usuário **OC** é selecionado.
-    
-      - Para impedir o cliente de fazer logon e exibir uma mensagem sobre onde baixar outra versão de cliente, clique em **Bloquear com URL**. Você especifica a URL posteriormente neste procedimento.
+## <a name="see-also"></a><span data-ttu-id="d0c61-116">Confira também</span><span class="sxs-lookup"><span data-stu-id="d0c61-116">See Also</span></span>
 
-10. (Opcional) se você clicou em **Permitir com URL** ou **Bloquear com URL** na etapa anterior, digite a URL de download do cliente para incluir na mensagem em **URL**.
 
-11. Clique em **OK** e clique em **Confirmar**.
+[<span data-ttu-id="d0c61-117">Gerenciando dispositivos, telefones e aplicativos do cliente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0c61-117">Managing devices, phones, and client applications in Lync Server 2013</span></span>](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+  
 
-## Consulte Também
+</div>
 
-#### Outros Recursos
+</div>
 
-[Gerenciando dispositivos, telefones e aplicativos do cliente no Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

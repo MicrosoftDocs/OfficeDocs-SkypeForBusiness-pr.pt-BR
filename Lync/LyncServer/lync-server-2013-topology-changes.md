@@ -1,47 +1,85 @@
-﻿---
-title: 'Lync Server 2013: Alterações de topologia'
-TOCTitle: Alterações de topologia
-ms:assetid: 9e40ef93-9ab0-498c-9bbf-f94584353e53
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688153(v=OCS.15)
-ms:contentKeyID: 49886332
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Alterações de topologia'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Topology changes
+ms:assetid: 9e40ef93-9ab0-498c-9bbf-f94584353e53
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688153(v=OCS.15)
+ms:contentKeyID: 49733756
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3f0ea02d1643a686e16d3d1984e756a48311b421
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844590"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Alterações de topologia no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-02_
+# <a name="topology-changes-in-lync-server-2013"></a><span data-ttu-id="2bcbb-102">Alterações de topologia no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2bcbb-102">Topology changes in Lync Server 2013</span></span>
 
-Os requisitos e as considerações de topologia para o Lync Server 2013 são diferentes dos aplicados às versões anteriores, conforme explicado nas seções a seguir.
+</div>
 
-## Nova arquitetura de pools de front end
+<div id="mainSection">
 
-No Lync Server 2013, a arquitetura do Enterprise EditionPools de Front-Ends foi alterada para uma arquitetura de sistemas distribuídos.
+<div id="mainBody">
 
-Com essa nova arquitetura, o banco de dados de backend não é mais o armazenamento de dados em tempo real no pool. Informações sobre um usuário específico são mantidas em três servidores de front end no pool. Para cada usuário, um servidor de front end age como o mestre das informações desse usuário, e os outros dois servidores de front end servem como réplicas. Se um servidor de front end cair, outro servidor de front end que servia como réplica será automaticamente promovido a mestre.
+<span> </span>
 
-Isso acontece nos bastidores e os administradores não precisam saber quais servidores de front end são os mestres para quais usuários. Essa distribuição de armazenamento de dados melhora o desempenho e dimensionamento dentro do pool e elimina o ponto único de falha de um único Servidor Back-End.
+<span data-ttu-id="2bcbb-103">_**Tópico da última modificação:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="2bcbb-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-O servidor de back end serve como armazenamento de back up do usuário e dados de conferência, e também é o armazenamento principal de outros bancos de dados, como o banco de dados do Grupo de Resposta.
+<span data-ttu-id="2bcbb-104">Os requisitos de topologia e as considerações para o Lync Server 2013 são diferentes dos requisitos para versões anteriores, conforme descrito nesta seção.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-104">Topology requirements and considerations for Lync Server 2013 are different from those for earlier releases, as described in this section.</span></span>
 
-Essas melhorias também significam que há mudanças em como planejar e manter seus pools. Recomendamos que todos seus Enterprise EditionPools de Front-Ends incluam pelo menos três Servidores Front-End, para fornecer o número completo de réplicas para a qual a arquitetura do Pool de Front-Ends foi projetada. Além disso, é necessário seguir alguns procedimentos ao adicionar servidores a um Pool de Front-Ends, remover servidores dele ou atualizar servidores. Para obter mais informações, consulte [Topologias e componentes para Servidores Front-End, serviço de mensagens instantâneas e presença no Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).
+<div>
 
-## Alterações na topologia de função do servidor
+## <a name="new-front-end-pools-architecture"></a><span data-ttu-id="2bcbb-105">Nova arquitetura de grupos de front-end</span><span class="sxs-lookup"><span data-stu-id="2bcbb-105">New Front End Pools Architecture</span></span>
 
-Algumas funções de servidor que eram executadas antes em servidores separados são agora consolidadas na função de servidor de front end, permitindo economizar em custos de hardware
+<span data-ttu-id="2bcbb-106">No Lync Server 2013, a arquitetura dos pools de front-end do Enterprise Edition foi alterada para uma arquitetura de sistema distribuído.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-106">In Lync Server 2013, the architecture of Enterprise Edition Front End pools has changed to a distributed systems architecture.</span></span>
 
-  - No Lync Server 2013, o servidor de conferência A/V é sempre colocado com o servidor de front end.
+<span data-ttu-id="2bcbb-107">Com essa nova arquitetura, o banco de dados back-end não é mais o repositório de dados em tempo real em um pool.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-107">With this new architecture, the Back End database is no longer the real-time data store in a pool.</span></span> <span data-ttu-id="2bcbb-108">As informações sobre um determinado usuário são mantidas em três servidores front-end no pool.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-108">Information about a particular user is kept on three Front End Servers in the pool.</span></span> <span data-ttu-id="2bcbb-109">Para cada usuário, um servidor front-end atua como mestre para as informações do usuário e outros dois servidores front-end servem como réplicas.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-109">For each user, one Front End Server acts as the master for that user’s information, and two other Front End Servers serve as replicas.</span></span> <span data-ttu-id="2bcbb-110">Se um servidor front-end for desligado, outro servidor front-end que seja servido como réplica será automaticamente promovido para Master.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-110">If a Front End Server goes down, another Front End Server which served as a replica is automatically promoted to master.</span></span>
 
-  - Os servidores de front end de Monitoramento e arquivamento são sempre colocados com o servidor de front end. O Monitoramento e arquivamento exigem, cada um deles, um banco de dados de backend separado, que pode ser colocado no mesmo servidor do banco de dados de backend do pool de front end, ou pode ser hospedado em servidores de backend separados.
+<span data-ttu-id="2bcbb-111">Isso acontece nos bastidores, e os administradores não precisam saber quais servidores de front-end são os mestres para os quais os usuários.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-111">This happens behind the scenes, and administrators do not need to know which Front End Servers are the masters for which users.</span></span> <span data-ttu-id="2bcbb-112">Essa distribuição de armazenamento de dados melhora o desempenho e a escalabilidade dentro do pool e elimina o único ponto de falha de um único servidor back-end.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-112">This distribution of data storage improves performance and scalability within the pool, and eliminates the single point of failure of a single Back End Server.</span></span>
 
-  - O Servidor de Chat Persistente é agora uma função de servidor. No Microsoft Lync Server 2010, o Servidor de Chat de Grupo era um aplicativo confiável de terceiros Microsoft Lync Server 2010. No Lync Server 2013, a funcionalidade do Servidor de Chat Persistente é implementada usando três novas funções de servidor:
+<span data-ttu-id="2bcbb-113">O servidor back-end funciona como armazenamento de backup para dados de usuários e de conferências e também é o armazenamento principal para outros bancos de dados, como o banco de dados do grupo de resposta.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-113">The Back End Server serves as backup storage for user and conference data, and is also the primary storage for other databases such as the Response Group database.</span></span>
+
+<span data-ttu-id="2bcbb-114">Esses aprimoramentos também significam que há alterações na maneira como você planeja e mantém seus pools.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-114">These improvements also mean there are changes in how you plan and maintain your pools.</span></span> <span data-ttu-id="2bcbb-115">Recomendamos que todos os seus pools do front-end do Enterprise Edition incluam pelo menos três servidores front end para fornecer o número total de réplicas para as quais a arquitetura do pool de front-end foi desenvolvida.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-115">We recommend that all your Enterprise Edition Front End pools include at least three Front End Servers, to provide the full number of replicas that the Front End pool architecture is designed for.</span></span> <span data-ttu-id="2bcbb-116">Além disso, você deve seguir determinados procedimentos ao adicionar servidores a um pool de front-end, remover servidores dele ou atualizar servidores.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-116">Additionally, you must follow certain procedures when adding servers to a Front End pool, removing servers from it, or upgrading servers.</span></span> <span data-ttu-id="2bcbb-117">Para obter mais informações, consulte [topologias e componentes para servidores front-end, mensagens instantâneas e presença no Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).</span><span class="sxs-lookup"><span data-stu-id="2bcbb-117">For more information, see [Topologies and components for Front End Servers, instant messaging, and presence in Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).</span></span>
+
+<div>
+
+## <a name="server-role-topology-changes"></a><span data-ttu-id="2bcbb-118">Alterações de topologia de função de servidor</span><span class="sxs-lookup"><span data-stu-id="2bcbb-118">Server Role Topology Changes</span></span>
+
+<span data-ttu-id="2bcbb-119">Algumas funções de servidor executadas anteriormente em servidores separados agora são consolidadas na função de servidor front-end, permitindo que você economize em custos de hardware</span><span class="sxs-lookup"><span data-stu-id="2bcbb-119">Some server roles that previously ran on separate servers are now consolidated into the Front End Server role, enabling you to save on hardware costs</span></span>
+
+  - <span data-ttu-id="2bcbb-120">No Lync Server 2013, o servidor de conferência A/V sempre é posicionado com o servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-120">In Lync Server 2013, A/V Conferencing Server is always collocated with Front End Server.</span></span>
+
+  - <span data-ttu-id="2bcbb-121">Os front-ends para monitoramento e arquivamento agora são sempre posicionados com o servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-121">The front ends for both Monitoring and Archiving are now always collocated with Front End Server.</span></span> <span data-ttu-id="2bcbb-122">Monitorar e arquivar cada um ainda exige um banco de dados back-end separado, que pode ser posicionado no mesmo servidor que o banco de dados back-end do pool de front-end, ou pode ser hospedado em servidores back-end separados.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-122">Monitoring and Archiving each still require a separate Back-End Database, which can be collocated on the same server as the Front End Pool’s back-end database, or can be hosted on separate Back-End Servers.</span></span>
+
+  - <span data-ttu-id="2bcbb-123">O servidor de chat persistente agora é uma função de servidor.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-123">Persistent Chat Server is now a server role.</span></span> <span data-ttu-id="2bcbb-124">No Microsoft Lync Server 2010, o servidor de chat de grupo era um aplicativo confiável de terceiros para o Microsoft Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="2bcbb-124">In Microsoft Lync Server 2010, Group Chat Server was a third-party trusted application for Microsoft Lync Server 2010.</span></span> <span data-ttu-id="2bcbb-125">No Lync Server 2013, a funcionalidade do servidor de chat persistente é implementada usando três novas funções de servidor:</span><span class="sxs-lookup"><span data-stu-id="2bcbb-125">In Lync Server 2013, Persistent Chat Server functionality is implemented using three new server roles:</span></span>
     
-      - **PersistentChatService :** Serviços principais do Servidor de Chat Persistente implementados como uma função de front
+      - <span data-ttu-id="2bcbb-126">**PersistentChatService:** Principais serviços de servidor de chat persistentes implementados como uma função de front-end</span><span class="sxs-lookup"><span data-stu-id="2bcbb-126">**PersistentChatService:** Main Persistent Chat Server services implemented as a front end role</span></span>
     
-      - **PersistentChatStore :** Função de servidor de back end
+      - <span data-ttu-id="2bcbb-127">**PersistentChatStore:** Função de servidor back-end</span><span class="sxs-lookup"><span data-stu-id="2bcbb-127">**PersistentChatStore:** Back End Server role</span></span>
     
-      - **PersistentChatComplianceStore :** Função de servidor de back end para conformidade do Chat Persistente
+      - <span data-ttu-id="2bcbb-128">**PersistentChatComplianceStore:** Função de servidor back-end para conformidade com o chat persistente</span><span class="sxs-lookup"><span data-stu-id="2bcbb-128">**PersistentChatComplianceStore:** Back End Server role for Persistent Chat Compliance</span></span>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

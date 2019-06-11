@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblSystemRevision'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblSystemRevision
 ms:assetid: 95b8e307-117c-4fb0-bd52-bc5a5b9ade55
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg615019(v=OCS.15)
-ms:contentKeyID: 49307511
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615019(v=OCS.15)
+ms:contentKeyID: 48184901
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 5d2412260eb88b256ac6cf69cc155db71ca1bf56
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844764"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblSystemRevision no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="tblsystemrevision-in-lync-server-2013"></a><span data-ttu-id="113be-102">tblSystemRevision no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="113be-102">tblSystemRevision in Lync Server 2013</span></span>
 
-tblSystemRevision contém o número de revisão usado com a tabela tblAdminLock para obter consistência entre vários clientes administradores.
+</div>
 
-### Colunas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="113be-103">_**Tópico da última modificação:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="113be-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+
+<span data-ttu-id="113be-104">tblSystemRevision contém o número de revisão usado com a tabela tblAdminLock para obter a consistência entre vários clientes administradores.</span><span class="sxs-lookup"><span data-stu-id="113be-104">tblSystemRevision contains the revision number that is used with the tblAdminLock table to achieve consistency across multiple administrator clients.</span></span>
+
+### <a name="columns"></a><span data-ttu-id="113be-105">Colunas</span><span class="sxs-lookup"><span data-stu-id="113be-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -27,17 +47,28 @@ tblSystemRevision contém o número de revisão usado com a tabela tblAdminLock 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Coluna</th>
-<th>Tipo</th>
-<th>Descrição</th>
+<th><span data-ttu-id="113be-106">Coluna</span><span class="sxs-lookup"><span data-stu-id="113be-106">Column</span></span></th>
+<th><span data-ttu-id="113be-107">Tipo</span><span class="sxs-lookup"><span data-stu-id="113be-107">Type</span></span></th>
+<th><span data-ttu-id="113be-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="113be-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>sysRevision</p></td>
-<td><p>bigint, não nulo</p></td>
-<td><p>Número da revisão.</p></td>
+<td><p><span data-ttu-id="113be-109">sysRevision</span><span class="sxs-lookup"><span data-stu-id="113be-109">sysRevision</span></span></p></td>
+<td><p><span data-ttu-id="113be-110">bigint, e não nulo</span><span class="sxs-lookup"><span data-stu-id="113be-110">bigint, not null</span></span></p></td>
+<td><p><span data-ttu-id="113be-111">Número da revisão.</span><span class="sxs-lookup"><span data-stu-id="113be-111">Revision number.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

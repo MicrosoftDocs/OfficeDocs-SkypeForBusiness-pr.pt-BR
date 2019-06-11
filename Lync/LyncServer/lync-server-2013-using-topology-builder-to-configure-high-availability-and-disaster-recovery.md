@@ -1,35 +1,65 @@
-﻿---
-title: "Lync Server 2013: Usando Constr.r de Topol. p/ config. alta dispon. e recup. desastre"
-TOCTitle: Usando o Construtor de Topologia para configurar alta disponibilidade e recuperação de desastre
-ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205172(v=OCS.15)
-ms:contentKeyID: 49307763
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Usando o Construtor de Topologia para configurar alta disponibilidade e recuperação de desastre
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Topology Builder to configure high availability and disaster recovery
+ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205172(v=OCS.15)
+ms:contentKeyID: 48185113
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b167ea64f42510febe0f405d15e2eafab7efc2bd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844453"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Usando o Construtor de Topologia para configurar alta disponibilidade e recuperação de desastre no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-06_
+# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="45fe7-102">Usando o Construtor de Topologia para configurar alta disponibilidade e recuperação de desastre no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="45fe7-102">Using Topology Builder to configure high availability and disaster recovery in Lync Server 2013</span></span>
 
-Execute as seguintes etapas no Construtor de Topologias para configurar a alta disponibilidade e a recuperação de desastres do Servidor de Chat Persistente.
+</div>
 
-1.  Adicione os bancos de dados espelho e o banco de dados secundário de envio de logs de repositórios do SQL Server.
+<div id="mainSection">
 
-2.  Edite as propriedades de serviço do Servidor de Chat Persistente para:
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="45fe7-103">_**Tópico da última modificação:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="45fe7-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+
+<span data-ttu-id="45fe7-104">Execute as etapas a seguir no construtor de topologias para configurar a alta disponibilidade e a recuperação de desastres para o servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="45fe7-104">Perform the following steps within Topology Builder to configure high availability and disaster recovery for Persistent Chat Server.</span></span>
+
+1.  <span data-ttu-id="45fe7-105">Adicione os bancos de dados espelho e os repositórios secundários do banco de dados do SQL Server de envio de log.</span><span class="sxs-lookup"><span data-stu-id="45fe7-105">Add the mirror databases and the log shipping secondary database SQL Server stores.</span></span>
+
+2.  <span data-ttu-id="45fe7-106">Edite as propriedades do serviço do servidor de chat persistente para:</span><span class="sxs-lookup"><span data-stu-id="45fe7-106">Edit the Persistent Chat Server service properties to:</span></span>
     
-    1.  Ativar espelhamento do banco de dados primário.
+    1.  <span data-ttu-id="45fe7-107">Ativar o espelhamento do banco de dados primário.</span><span class="sxs-lookup"><span data-stu-id="45fe7-107">Enable mirroring for the primary database.</span></span>
     
-    2.  Adicione o armazenamento SQL Server do espelho primário.
+    2.  <span data-ttu-id="45fe7-108">Adicione a loja principal do SQL Server do espelho.</span><span class="sxs-lookup"><span data-stu-id="45fe7-108">Add the primary mirror SQL Server store.</span></span>
     
-    3.  Ativar o banco de dados de envio de logs do SQL Server.
+    3.  <span data-ttu-id="45fe7-109">Habilite o banco de dados de envio de log do SQL Server.</span><span class="sxs-lookup"><span data-stu-id="45fe7-109">Enable the SQL Server Log Shipping database.</span></span>
     
-    4.  Adicionar o armazenamento SQL Server secundário de envio de logs do repositório do SQL Server.
+    4.  <span data-ttu-id="45fe7-110">Adicione o repositório do SQL Server secundário de envio de logs do SQL Server.</span><span class="sxs-lookup"><span data-stu-id="45fe7-110">Add the SQL Server Log Shipping secondary SQL Server store.</span></span>
     
-    5.  Adicionar o espelho de armazenamento do SQL Server para o banco de dados secundário.
+    5.  <span data-ttu-id="45fe7-111">Adicione o espelho do SQL Server Store para o banco de dados secundário.</span><span class="sxs-lookup"><span data-stu-id="45fe7-111">Add the SQL Server store mirror for the secondary database.</span></span>
     
-    6.  Publique a topologia.
+    6.  <span data-ttu-id="45fe7-112">Publique a topologia.</span><span class="sxs-lookup"><span data-stu-id="45fe7-112">Publish the topology.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

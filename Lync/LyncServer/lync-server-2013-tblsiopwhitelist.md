@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblSiopWhiteList'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblSiopWhiteList
 ms:assetid: 05fc1df4-32eb-4d46-9d1c-e0b607091142
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558607(v=OCS.15)
-ms:contentKeyID: 49305744
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558607(v=OCS.15)
+ms:contentKeyID: 48183310
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: fff11d98d35b288436922477025ea9cf49e924cb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844759"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblSiopWhiteList no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="tblsiopwhitelist-in-lync-server-2013"></a><span data-ttu-id="d9e57-102">tblSiopWhiteList no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d9e57-102">tblSiopWhiteList in Lync Server 2013</span></span>
 
-A tabela SiopWhiteList é a lista de suplementos registrados que podem ser associados aos nós.
+</div>
 
-### Colunas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="d9e57-103">_**Tópico da última modificação:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="d9e57-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+
+<span data-ttu-id="d9e57-104">tblSiopWhiteList é a lista de suplementos registrados que podem ser associados a nós.</span><span class="sxs-lookup"><span data-stu-id="d9e57-104">tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.</span></span>
+
+### <a name="columns"></a><span data-ttu-id="d9e57-105">Colunas</span><span class="sxs-lookup"><span data-stu-id="d9e57-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -27,32 +47,32 @@ A tabela SiopWhiteList é a lista de suplementos registrados que podem ser assoc
 </colgroup>
 <thead>
 <tr class="header">
-<th>Coluna</th>
-<th>Tipo</th>
-<th>Descrição</th>
+<th><span data-ttu-id="d9e57-106">Coluna</span><span class="sxs-lookup"><span data-stu-id="d9e57-106">Column</span></span></th>
+<th><span data-ttu-id="d9e57-107">Tipo</span><span class="sxs-lookup"><span data-stu-id="d9e57-107">Type</span></span></th>
+<th><span data-ttu-id="d9e57-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="d9e57-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>siopID</p></td>
-<td><p>GUID, não nulo</p></td>
-<td><p>GUID do suplemento.</p></td>
+<td><p><span data-ttu-id="d9e57-109">siopID</span><span class="sxs-lookup"><span data-stu-id="d9e57-109">siopID</span></span></p></td>
+<td><p><span data-ttu-id="d9e57-110">GUID, não nulo</span><span class="sxs-lookup"><span data-stu-id="d9e57-110">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="d9e57-111">GUID do suplemento.</span><span class="sxs-lookup"><span data-stu-id="d9e57-111">GUID of the add-in.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>siopName</p></td>
-<td><p>nvarchar (50), não nulo</p></td>
-<td><p>Nome de exibição do suplemento.</p></td>
+<td><p><span data-ttu-id="d9e57-112">siopName</span><span class="sxs-lookup"><span data-stu-id="d9e57-112">siopName</span></span></p></td>
+<td><p><span data-ttu-id="d9e57-113">nvarchar (50), NOT NULL</span><span class="sxs-lookup"><span data-stu-id="d9e57-113">nvarchar (50), not null</span></span></p></td>
+<td><p><span data-ttu-id="d9e57-114">Display-nome do suplemento.</span><span class="sxs-lookup"><span data-stu-id="d9e57-114">Display-name of the add-in.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>siopUrl</p></td>
-<td><p>nvarchar (255), não nulo</p></td>
-<td><p>URL do suplemento.</p></td>
+<td><p><span data-ttu-id="d9e57-115">siopUrl</span><span class="sxs-lookup"><span data-stu-id="d9e57-115">siopUrl</span></span></p></td>
+<td><p><span data-ttu-id="d9e57-116">nvarchar (255), NOT NULL</span><span class="sxs-lookup"><span data-stu-id="d9e57-116">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="d9e57-117">URL do suplemento.</span><span class="sxs-lookup"><span data-stu-id="d9e57-117">URL of the add-in.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Chave
+### <a name="key"></a><span data-ttu-id="d9e57-118">Chave</span><span class="sxs-lookup"><span data-stu-id="d9e57-118">Key</span></span>
 
 <table>
 <colgroup>
@@ -61,15 +81,26 @@ A tabela SiopWhiteList é a lista de suplementos registrados que podem ser assoc
 </colgroup>
 <thead>
 <tr class="header">
-<th>Coluna</th>
-<th>Descrição</th>
+<th><span data-ttu-id="d9e57-119">Coluna</span><span class="sxs-lookup"><span data-stu-id="d9e57-119">Column</span></span></th>
+<th><span data-ttu-id="d9e57-120">Descrição</span><span class="sxs-lookup"><span data-stu-id="d9e57-120">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>siopID</p></td>
-<td><p>Chave primária.</p></td>
+<td><p><span data-ttu-id="d9e57-121">siopID</span><span class="sxs-lookup"><span data-stu-id="d9e57-121">siopID</span></span></p></td>
+<td><p><span data-ttu-id="d9e57-122">Chave primária.</span><span class="sxs-lookup"><span data-stu-id="d9e57-122">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

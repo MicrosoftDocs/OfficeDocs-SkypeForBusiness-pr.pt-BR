@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing peer to peer audio/video call'
+---
+title: 'Lync Server 2013: testando a chamada de áudio/vídeo ponto a ponto'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing peer to peer audio/video call
 ms:assetid: 95eb3693-b866-4652-bc45-9b75fdb40b49
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn743835(v=OCS.15)
-ms:contentKeyID: 62279295
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743835(v=OCS.15)
+ms:contentKeyID: 63969627
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 43fc4da7619dcc4cfd88417b52543dc23c447883
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844625"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing peer to peer audio/video call in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="testing-peer-to-peer-audiovideo-call-in-lync-server-2013"></a><span data-ttu-id="b7973-102">Testando a chamada de áudio/vídeo ponto a ponto no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b7973-102">Testing peer to peer audio/video call in Lync Server 2013</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="b7973-103">_**Tópico da última modificação:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="b7973-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -23,112 +43,138 @@ _**Tópico modificado em:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p><span data-ttu-id="b7973-104">Cronograma de verificação</span><span class="sxs-lookup"><span data-stu-id="b7973-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="b7973-105">Diário</span><span class="sxs-lookup"><span data-stu-id="b7973-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p><span data-ttu-id="b7973-106">Ferramenta de teste</span><span class="sxs-lookup"><span data-stu-id="b7973-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="b7973-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="b7973-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de Gerenciamento do Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsP2PAV cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p><span data-ttu-id="b7973-108">Permissões necessárias</span><span class="sxs-lookup"><span data-stu-id="b7973-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="b7973-109">Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="b7973-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="b7973-110">Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet Test-CsP2PAV.</span><span class="sxs-lookup"><span data-stu-id="b7973-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsP2PAV cmdlet.</span></span> <span data-ttu-id="b7973-111">Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="b7973-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsP2PAV&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-Test-CsP2PAV is used to determine whether a pair of test users can participate in a peer-to-peer A/V conversation. To test this scenario, the cmdlet starts off by logging on the two users to Lync Server. Assuming that the two logons succeed, the first user then invites the second user to join an A/V call. The second user accepts the call, the connection between the two users is tested, and then the call is ended and the test users are logged off from the system.
+## <a name="description"></a><span data-ttu-id="b7973-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="b7973-112">Description</span></span>
 
-Test-CsP2PAV does not actually conduct an A/V call. Multimedia information is not exchanged between the test users. Instead, the cmdlet merely verifies that the appropriate connections can be made and that the two users can conduct such a call.
+<span data-ttu-id="b7973-113">Test-CsP2PAV é usado para determinar se um par de usuários de teste podem participar de uma conversa ponto a ponto A/V.</span><span class="sxs-lookup"><span data-stu-id="b7973-113">Test-CsP2PAV is used to determine whether a pair of test users can participate in a peer-to-peer A/V conversation.</span></span> <span data-ttu-id="b7973-114">Para testar esse cenário, o cmdlet começa a fazer logon nos dois usuários do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b7973-114">To test this scenario, the cmdlet starts off by logging on the two users to Lync Server.</span></span> <span data-ttu-id="b7973-115">Pressupondo que os dois logons sejam bem-sucedidos, o primeiro usuário convida o segundo usuário para ingressar em uma chamada A/V.</span><span class="sxs-lookup"><span data-stu-id="b7973-115">Assuming that the two logons succeed, the first user then invites the second user to join an A/V call.</span></span> <span data-ttu-id="b7973-116">O segundo usuário aceita a chamada, a conexão entre os dois usuários é testada e, em seguida, a chamada é encerrada e os usuários de teste são desconectados do sistema.</span><span class="sxs-lookup"><span data-stu-id="b7973-116">The second user accepts the call, the connection between the two users is tested, and then the call is ended and the test users are logged off from the system.</span></span>
 
-For more information, see the Help documentation for the [Test-CsP2PAV](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsP2PAV) cmdlet.
+<span data-ttu-id="b7973-117">Test-CsP2PAV não realiza uma chamada A/V.</span><span class="sxs-lookup"><span data-stu-id="b7973-117">Test-CsP2PAV does not actually conduct an A/V call.</span></span> <span data-ttu-id="b7973-118">As informações de multimídia não são trocadas entre os usuários do teste.</span><span class="sxs-lookup"><span data-stu-id="b7973-118">Multimedia information is not exchanged between the test users.</span></span> <span data-ttu-id="b7973-119">Em vez disso, o cmdlet verifica apenas se as conexões apropriadas podem ser feitas e se os dois usuários podem conduzir essa chamada.</span><span class="sxs-lookup"><span data-stu-id="b7973-119">Instead, the cmdlet merely verifies that the appropriate connections can be made and that the two users can conduct such a call.</span></span>
 
-## Running the test
+<span data-ttu-id="b7973-120">Para obter mais informações, consulte a documentação da ajuda para o cmdlet [Test-CsP2PAV](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV) .</span><span class="sxs-lookup"><span data-stu-id="b7973-120">For more information, see the Help documentation for the [Test-CsP2PAV](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV) cmdlet.</span></span>
 
-The Test-CsP2PAV cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server. To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a><span data-ttu-id="b7973-121">Executar o teste</span><span class="sxs-lookup"><span data-stu-id="b7973-121">Running the test</span></span>
+
+<span data-ttu-id="b7973-122">O cmdlet Test-CsP2PAV pode ser executado usando um par de contas de teste pré-configuradas (consulte Configurando contas de teste para executar testes do Lync Server) ou das contas de dois usuários que estão habilitados para o Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b7973-122">The Test-CsP2PAV cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server.</span></span> <span data-ttu-id="b7973-123">Para executar essa verificação usando contas de teste, basta especificar o FQDN do pool do servidor do Lync que está sendo testado.</span><span class="sxs-lookup"><span data-stu-id="b7973-123">To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="b7973-124">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="b7973-124">For example:</span></span>
 
     Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com"
 
-To run this check using actual user accounts, you must create two Lync Server credentials objects (objects that contain the account name and password) for each account. You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsP2PAV:
+<span data-ttu-id="b7973-125">Para executar essa verificação usando contas de usuário reais, você deve criar dois objetos de credenciais do Lync Server (objetos que contêm o nome da conta e a senha) para cada conta.</span><span class="sxs-lookup"><span data-stu-id="b7973-125">To run this check using actual user accounts, you must create two Lync Server credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="b7973-126">Em seguida, você deve incluir esses objetos de credenciais e os endereços SIP das duas contas ao chamar Test-CsP2PAV:</span><span class="sxs-lookup"><span data-stu-id="b7973-126">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsP2PAV:</span></span>
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-## Determining success or failure
+</div>
 
-If the two test users can complete a peer-to-peer A/V call, then you'll receive output similar to this with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a><span data-ttu-id="b7973-127">Determinação do sucesso ou falha</span><span class="sxs-lookup"><span data-stu-id="b7973-127">Determining success or failure</span></span>
 
-Result : Success
+<span data-ttu-id="b7973-128">Se os dois usuários do teste puderem concluir uma chamada de A/V ponto a ponto, você receberá uma saída semelhante a isso com a propriedade Result marcada como **Success:**</span><span class="sxs-lookup"><span data-stu-id="b7973-128">If the two test users can complete a peer-to-peer A/V call, then you'll receive output similar to this with the Result property marked as **Success:**</span></span>
 
-Latency : 00:00:06.8630376
+<span data-ttu-id="b7973-129">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="b7973-129">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-Error :
+<span data-ttu-id="b7973-130">Resultado: êxito</span><span class="sxs-lookup"><span data-stu-id="b7973-130">Result : Success</span></span>
 
-Diagnosis :
+<span data-ttu-id="b7973-131">Latência: 00:00:06.8630376</span><span class="sxs-lookup"><span data-stu-id="b7973-131">Latency : 00:00:06.8630376</span></span>
 
-If the test users can't complete the call, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+<span data-ttu-id="b7973-132">Erros</span><span class="sxs-lookup"><span data-stu-id="b7973-132">Error :</span></span>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+<span data-ttu-id="b7973-133">Correto</span><span class="sxs-lookup"><span data-stu-id="b7973-133">Diagnosis :</span></span>
 
-Result : Failure
+<span data-ttu-id="b7973-134">Se os usuários do teste não puderem concluir a chamada, o resultado será mostrado como uma falha, e informações adicionais serão gravadas nas propriedades de erro e diagnóstico:</span><span class="sxs-lookup"><span data-stu-id="b7973-134">If the test users can't complete the call, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-Latency : 00:00:00
+<span data-ttu-id="b7973-135">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="b7973-135">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-Error : 480, Temporarily Unavailable
+<span data-ttu-id="b7973-136">Resultado: falha</span><span class="sxs-lookup"><span data-stu-id="b7973-136">Result : Failure</span></span>
 
-Diagnosis : ErrorCode=15030,Source=atl-cs-001.litwareinc.com,Reason=Failed
+<span data-ttu-id="b7973-137">Latência: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="b7973-137">Latency : 00:00:00</span></span>
 
-to route to Exchange Server
+<span data-ttu-id="b7973-138">Erro: 480, temporariamente indisponível</span><span class="sxs-lookup"><span data-stu-id="b7973-138">Error : 480, Temporarily Unavailable</span></span>
 
-Microsoft.Rtc.Signaling.DiagnosticHeader
+<span data-ttu-id="b7973-139">Diagnóstico: ErrorCode = 15030, Source = ATL-cs-001. litwareinc. com, Reason = Failed</span><span class="sxs-lookup"><span data-stu-id="b7973-139">Diagnosis : ErrorCode=15030,Source=atl-cs-001.litwareinc.com,Reason=Failed</span></span>
 
-For example, the previous output states that the test failed because the Microsoft Exchange Server couldn't be contacted. This error message typically indicates a problem the configuration of Exchange Unified Messaging.
+<span data-ttu-id="b7973-140">para circular para o Exchange Server</span><span class="sxs-lookup"><span data-stu-id="b7973-140">to route to Exchange Server</span></span>
 
-If Test-CsP2PAV fails then you might want to rerun the test, this time including the Verbose parameter:
+<span data-ttu-id="b7973-141">Microsoft. RTC. Signaling. DiagnosticHeader</span><span class="sxs-lookup"><span data-stu-id="b7973-141">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
 
-Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
+<span data-ttu-id="b7973-142">Por exemplo, a saída anterior informa que o teste falhou porque não foi possível entrar em contato com o Microsoft Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="b7973-142">For example, the previous output states that the test failed because the Microsoft Exchange Server couldn't be contacted.</span></span> <span data-ttu-id="b7973-143">Geralmente, essa mensagem de erro indica um problema com a configuração da Unificação de mensagens do Exchange.</span><span class="sxs-lookup"><span data-stu-id="b7973-143">This error message typically indicates a problem the configuration of Exchange Unified Messaging.</span></span>
 
-When the Verbose parameter is included, Test-CsP2PAV will return a step-by-step account of each action it tried as it checked the ability of the specified user to log on to Lync Server. For example, suppose that your test failed with the following Diagnosis:
+<span data-ttu-id="b7973-144">Se Test-CsP2PAV falhar, talvez você queira executar novamente o teste, desta vez, incluindo o parâmetro Verbose:</span><span class="sxs-lookup"><span data-stu-id="b7973-144">If Test-CsP2PAV fails then you might want to rerun the test, this time including the Verbose parameter:</span></span>
 
-ErrorCode=6003,Source=atl-cs-001.litwareinc.com,Reason=Unsupported out of dialog request
+<span data-ttu-id="b7973-145">Test-CsP2PAV-TargetFqdn "atl-cs-001.litwareinc.com"-detalhado</span><span class="sxs-lookup"><span data-stu-id="b7973-145">Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose</span></span>
 
-If you rerun Test-CsP2PAV and include the Verbose parameter, you'll get output similar to this:
+<span data-ttu-id="b7973-146">Quando o parâmetro Verbose estiver incluído, Test-CsP2PAV retornará uma conta passo a passo de cada ação que tentou verificar se verificou a capacidade do usuário especificado de fazer logon no Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b7973-146">When the Verbose parameter is included, Test-CsP2PAV will return a step-by-step account of each action it tried as it checked the ability of the specified user to log on to Lync Server.</span></span> <span data-ttu-id="b7973-147">Por exemplo, suponha que o teste falhou com o seguinte diagnóstico:</span><span class="sxs-lookup"><span data-stu-id="b7973-147">For example, suppose that your test failed with the following Diagnosis:</span></span>
 
-VERBOSE: 'Register' activity started.
+<span data-ttu-id="b7973-148">ErrorCode = 6003, Source = ATL-cs-001. litwareinc. com, Reason = incompatível solicitação de caixa de diálogo</span><span class="sxs-lookup"><span data-stu-id="b7973-148">ErrorCode=6003,Source=atl-cs-001.litwareinc.com,Reason=Unsupported out of dialog request</span></span>
 
-Sending Registration request:
+<span data-ttu-id="b7973-149">Se você reexecutar o Test-CsP2PAV e incluir o parâmetro Verbose, você receberá uma saída semelhante a esta:</span><span class="sxs-lookup"><span data-stu-id="b7973-149">If you rerun Test-CsP2PAV and include the Verbose parameter, you'll get output similar to this:</span></span>
 
-Target Fqdn = atl-cs-011.litwareinc.com
+<span data-ttu-id="b7973-150">VERBOse: atividade de ' registro ' iniciada.</span><span class="sxs-lookup"><span data-stu-id="b7973-150">VERBOSE: 'Register' activity started.</span></span>
 
-User Sip Address = sip:kenmyer@litwareinc.com
+<span data-ttu-id="b7973-151">Enviando solicitação de registro:</span><span class="sxs-lookup"><span data-stu-id="b7973-151">Sending Registration request:</span></span>
 
-Registrar Port = 5062.
+<span data-ttu-id="b7973-152">FQDN de destino = atl-cs-011.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="b7973-152">Target Fqdn = atl-cs-011.litwareinc.com</span></span>
 
-Auth Type 'IWA' is selected.
+<span data-ttu-id="b7973-153">Endereço SIP do usuário = sip:kenmyer@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="b7973-153">User Sip Address = sip:kenmyer@litwareinc.com</span></span>
 
-An exception 'The endpoint was unable to register. See the ErrorCode for specific reason.' occurred during workflow Microsoft.Rtc.SyntheticTransactions.Workflows.STP2PAVWorkflow execution.
+<span data-ttu-id="b7973-154">Porta do registrador = 5062.</span><span class="sxs-lookup"><span data-stu-id="b7973-154">Registrar Port = 5062.</span></span>
 
-Although it might not be immediately obvious, if you examine the output carefully you’ll see that an incorrect Registrar port (port 5062) was specified. In turn, that caused the test to fail.
+<span data-ttu-id="b7973-155">O tipo de autenticação ' IWA ' é selecionado.</span><span class="sxs-lookup"><span data-stu-id="b7973-155">Auth Type 'IWA' is selected.</span></span>
 
-## Reasons why the test might have failed
+<span data-ttu-id="b7973-156">Uma exceção ' o ponto de extremidade não pôde se registrar.</span><span class="sxs-lookup"><span data-stu-id="b7973-156">An exception 'The endpoint was unable to register.</span></span> <span data-ttu-id="b7973-157">Veja ErrorCode por motivo específico. '</span><span class="sxs-lookup"><span data-stu-id="b7973-157">See the ErrorCode for specific reason.'</span></span> <span data-ttu-id="b7973-158">ocorrido durante a execução do fluxo de trabalho Microsoft. RTC. SyntheticTransactions. workflows. STP2PAVWorkflow.</span><span class="sxs-lookup"><span data-stu-id="b7973-158">occurred during workflow Microsoft.Rtc.SyntheticTransactions.Workflows.STP2PAVWorkflow execution.</span></span>
 
-Here are some common reasons why Test-CsP2PAV might fail:
+<span data-ttu-id="b7973-159">Embora talvez não seja imediatamente óbvio, se você examinar a saída cuidadosamente, verá que uma porta de registrador incorreta (porta 5062) foi especificada.</span><span class="sxs-lookup"><span data-stu-id="b7973-159">Although it might not be immediately obvious, if you examine the output carefully you’ll see that an incorrect Registrar port (port 5062) was specified.</span></span> <span data-ttu-id="b7973-160">Por sua vez, isso fez com que o teste falhasse.</span><span class="sxs-lookup"><span data-stu-id="b7973-160">In turn, that caused the test to fail.</span></span>
 
-  - You specified a user account that is not valid. You can verify that a user account exists by running a command similar to this:
+</div>
+
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="b7973-161">Motivos pelos quais o teste pode ter falhado</span><span class="sxs-lookup"><span data-stu-id="b7973-161">Reasons why the test might have failed</span></span>
+
+<span data-ttu-id="b7973-162">Aqui estão alguns motivos comuns pelos quais Test-CsP2PAV pode falhar:</span><span class="sxs-lookup"><span data-stu-id="b7973-162">Here are some common reasons why Test-CsP2PAV might fail:</span></span>
+
+  - <span data-ttu-id="b7973-163">Você especificou uma conta de usuário que não é válida.</span><span class="sxs-lookup"><span data-stu-id="b7973-163">You specified a user account that is not valid.</span></span> <span data-ttu-id="b7973-164">Você pode verificar se existe uma conta de usuário executando um comando semelhante a este:</span><span class="sxs-lookup"><span data-stu-id="b7973-164">You can verify that a user account exists by running a command similar to this:</span></span>
     
-    Get-CsUser "sip:kenmyer@litwareinc.com"
+    <span data-ttu-id="b7973-165">Get-CsUser "sip:kenmyer@litwareinc.com"</span><span class="sxs-lookup"><span data-stu-id="b7973-165">Get-CsUser "sip:kenmyer@litwareinc.com"</span></span>
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account is enabled for Lync Server, run a command similar to the following:
+  - <span data-ttu-id="b7973-166">A conta de usuário é válida, mas a conta não está habilitada no momento para o Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b7973-166">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="b7973-167">Para verificar se uma conta de usuário está habilitada para o Lync Server, execute um comando semelhante ao seguinte:</span><span class="sxs-lookup"><span data-stu-id="b7973-167">To verify that a user account is enabled for Lync Server, run a command similar to the following:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.
+    <span data-ttu-id="b7973-168">Se a propriedade Enabled estiver definida como false, isso significa que o usuário não está habilitado no momento para o Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b7973-168">If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

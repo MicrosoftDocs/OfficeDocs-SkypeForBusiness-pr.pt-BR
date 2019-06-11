@@ -1,60 +1,98 @@
-﻿---
-title: Usando o Serviço de Registro em Log no Lync Server 2013
-TOCTitle: Usando o Serviço de Registro em Log no Lync Server 2013
-ms:assetid: 7b05aaef-f0ea-4649-ba8a-02e68b0cdf23
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688101(v=OCS.15)
-ms:contentKeyID: 49886274
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: usando o serviço de log centralizado'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using the Centralized Logging Service
+ms:assetid: 7b05aaef-f0ea-4649-ba8a-02e68b0cdf23
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688101(v=OCS.15)
+ms:contentKeyID: 49733700
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 03b5e4e2582c7b1738f0a6072197643f4df99238
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844450"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Usando o Serviço de Registro em Log no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-11-01_
+# <a name="using-the-centralized-logging-service-in-lync-server-2013"></a><span data-ttu-id="e66a1-102">Usar o serviço de log centralizado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e66a1-102">Using the Centralized Logging Service in Lync Server 2013</span></span>
 
-O Serviço de Log Centralizado é uma nova função em Lync Server 2013. É uma substituição melhorada para as ferramentas **OCSLogger** e **OCSTracer** fornecidas em lançamentos anteriores. Você pode usar o Serviço de Log Centralizado para realizar as seguintes tarefas:
+</div>
 
-  - Faça login em um ou mais computadores e pools de um único local e comando.
+<div id="mainSection">
 
-  - Pare o login em um ou mais computadores e pools de um único local e comando.
+<div id="mainBody">
 
-  - Busque logs em um ou mais computadores e pools de um único local e comando. É possível personalizar o comando de busca para retornar todo o conjunto de logs que foram capturados e armazenados em todas as máquinas, ou retornar um resultado reduzido que capture dados específicos.
+<span> </span>
 
-  - Configurar as sessões de login conforme segue:
+<span data-ttu-id="e66a1-103">_**Tópico da última modificação:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="e66a1-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+
+<span data-ttu-id="e66a1-104">O serviço de log centralizado é um novo recurso do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e66a1-104">The Centralized Logging Service is a new feature in Lync Server 2013.</span></span> <span data-ttu-id="e66a1-105">É uma substituição aprimorada para as ferramentas **OCSLogger** e **OCSTracer** fornecidas em versões anteriores.</span><span class="sxs-lookup"><span data-stu-id="e66a1-105">It is an enhanced replacement for the **OCSLogger** and **OCSTracer** tools that were provided in previous releases.</span></span> <span data-ttu-id="e66a1-106">Você pode usar o serviço de log centralizado para executar as seguintes tarefas:</span><span class="sxs-lookup"><span data-stu-id="e66a1-106">You can use the Centralized Logging Service to perform the following tasks:</span></span>
+
+  - <span data-ttu-id="e66a1-107">Comece a fazer logon em um ou mais computadores e pools a partir de um único local e comando.</span><span class="sxs-lookup"><span data-stu-id="e66a1-107">Start logging on one or more computers and pools from a single location and command.</span></span>
+
+  - <span data-ttu-id="e66a1-108">Parar de fazer logon em um ou mais computadores e pools a partir de um único local e comando.</span><span class="sxs-lookup"><span data-stu-id="e66a1-108">Stop logging on one or more computers and pools from a single location and command.</span></span>
+
+  - <span data-ttu-id="e66a1-109">Pesquisar logs em um ou mais computadores e pools para um único local e comando.</span><span class="sxs-lookup"><span data-stu-id="e66a1-109">Search logs on one or more computers and pools for a single location and command.</span></span> <span data-ttu-id="e66a1-110">Você pode personalizar o comando Pesquisar para retornar toda a agregação de registros que foram capturados e armazenados em todas as máquinas ou retornar um resultado aparado que captura dados específicos.</span><span class="sxs-lookup"><span data-stu-id="e66a1-110">You can tailor the search command to return the entire aggregation of logs that were captured and stored on all machines, or return a trimmed-down result that captures specific data.</span></span>
+
+  - <span data-ttu-id="e66a1-111">Configurar as sessões de registro em log conforme segue:</span><span class="sxs-lookup"><span data-stu-id="e66a1-111">Configure logging sessions as follows:</span></span>
     
-      - Defina um **Cenário** ou use um cenário default. Um *cenário* em Serviço de Log Centralizado é feito de escopo (global ou local), um nome de cenário para identificar o objetivo do cenário e um ou mais provedores. Você pode executar dois cenários a qualquer momento em um computador.
+      - <span data-ttu-id="e66a1-112">Definir um **Cenário** ou usar um cenário padrão.</span><span class="sxs-lookup"><span data-stu-id="e66a1-112">Define a **Scenario**, or use a default scenario.</span></span> <span data-ttu-id="e66a1-113">Um *cenário* no serviço de log centralizado é composto de escopo (global ou de site), um nome de cenário para identificar a finalidade do cenário e um ou mais provedores.</span><span class="sxs-lookup"><span data-stu-id="e66a1-113">A *scenario* in Centralized Logging Service is made up of scope (global or site), a scenario name to identify the purpose of the scenario, and one or more providers.</span></span> <span data-ttu-id="e66a1-114">Você pode executar dois cenários a qualquer momento em um computador.</span><span class="sxs-lookup"><span data-stu-id="e66a1-114">You can run two scenarios at any given time on a computer.</span></span>
     
-      - Use um .*provedor*local ou crie um novo provedor. Um *provedor* define o que será coletado pela sessão de registro em log, qual o detalhamento, quais componentes rastrear e quais o que sinalizadores são aplicados.
+      - <span data-ttu-id="e66a1-p104">Usar um *provedor* local ou criar um novo provedor. Um *provedor* define o que será coletado pela sessão de registro em log, o nível de detalhamento, quais componentes serão rastreados e quais sinalizadores serão aplicados.</span><span class="sxs-lookup"><span data-stu-id="e66a1-p104">Use an existing *provider* or create a new provider. A *provider* defines what the logging session collects, what level of detail, what components to trace, and what flags are applied.</span></span>
+        
+        <div>
         
 
         > [!TIP]  
-        > Se estiver familiarizado com OCSLogger, o termo <EM>provedores</EM> se refere à coleta de <STRONG>componentes</STRONG> (por exemplo, S4, SIPStack), um <STRONG>tipo de registro de log</STRONG> (por exemplo, WPP, EventLog ou IIS logfile), um <STRONG>nível de rastreamento</STRONG> (por exemplo, All, verbose, debug) e <STRONG>sinalizadores</STRONG> (por exemplo, TF_COMPONENT, TF_DIAG). Esses itens são definidos no provedor (uma Windows PowerShell variável) e repassados ao Serviço de Log Centralizado comando.
+        > <span data-ttu-id="e66a1-117">Se estiver familiarizado com OCSLogger, o termo <EM>provedores</EM> se refere à coleta de <STRONG>componentes</STRONG> (por exemplo, S4, SIPStack), um <STRONG>tipo de registro de log</STRONG> (por exemplo, WPP, EventLog ou IIS logfile), um <STRONG>nível de rastreamento</STRONG> (por exemplo, All, verbose, debug) e <STRONG>sinalizadores</STRONG> (por exemplo, TF_COMPONENT, TF_DIAG).</span><span class="sxs-lookup"><span data-stu-id="e66a1-117">If you are familiar with OCSLogger, the term <EM>providers</EM> refers to the collection of <STRONG>components</STRONG> (for example, S4, SIPStack), a <STRONG>logging type</STRONG> (for example, WPP, EventLog, or IIS logfile), a <STRONG>tracing level</STRONG> (for example, All, verbose, debug), and <STRONG>flags</STRONG> (for example, TF_COMPONENT, TF_DIAG).</span></span> <span data-ttu-id="e66a1-118">Esses itens são definidos no provedor (uma variável do Windows PowerShell) e passados para o comando de serviço de log centralizado.</span><span class="sxs-lookup"><span data-stu-id="e66a1-118">These items are defined in the provider (a Windows PowerShell variable) and passed into the Centralized Logging Service command.</span></span>
 
+        
+        </div>
     
-      - Configure os computadores e pools dos quais deseja coletar registros log.
+      - <span data-ttu-id="e66a1-119">Configurar os computadores e os pools dos quais você deseja coletar logs.</span><span class="sxs-lookup"><span data-stu-id="e66a1-119">Configure the computers and pools that you want to collect logs from.</span></span>
     
-      - Defina o escopo da sessão de registro log nas opções**Local** (executa capturas de registro log em computadores somente naquele local) ou **Global** (executa capturas de registro log em todos os computadores da implantação).
+      - <span data-ttu-id="e66a1-120">Defina o escopo da sessão de log no **site** de opções (execute o log de capturas somente em computadores nesse site) ou **global** (execute a captura de log em todos os computadores na implantação).</span><span class="sxs-lookup"><span data-stu-id="e66a1-120">Define the scope for the logging session from the options **Site** (run logging captures on computers in that site only), or **Global** (run logging capture on all computers in the deployment).</span></span>
 
-O Serviço de Log Centralizado é extremamente potente e pode atender praticamente todas as necessidades de resolução de problemas —grandes ou pequenos. Da análise da possível causa a problemas de desempenho, o Serviço de Log Centralizado pode ser uma ferramenta importante para qualquer administrador. Todos os exemplos são mostrados usando Shell de Gerenciamento do Lync Server. Há um componente de linha de comando para o Serviço de Log Centralizado chamado **CLSController.exe**. A ajuda para a ferramenta de linha de comando está disponível na própria ferramenta. Por esta razão, a primeira linha neste exemplo é uma chamada ao cmdlet do nm-winshell-2nd Read-Host. Usando Shell de Gerenciamento do Lync Server, você pode acessar muitos outros recursos configuráveis. Você deve sempre considerar Shell de Gerenciamento do Lync Server como o primeiro e único método ao usar o Serviço de Log Centralizado.
+<span data-ttu-id="e66a1-121">O serviço de registro centralizado é extremamente eficiente e atende a praticamente todas as necessidades para solucionar problemas, sejam grandes ou pequenos.</span><span class="sxs-lookup"><span data-stu-id="e66a1-121">The Centralized Logging Service is extremely powerful and can meet nearly all of the needs for troubleshooting problems—large or small.</span></span> <span data-ttu-id="e66a1-122">Da análise de causa raiz para problemas de desempenho, o serviço de registro em log centralizado pode ser uma ferramenta importante para qualquer administrador.</span><span class="sxs-lookup"><span data-stu-id="e66a1-122">From root cause analysis to performance problems, the Centralized Logging Service can be an important tool for any administrator.</span></span> <span data-ttu-id="e66a1-123">Todos os exemplos são exibidos usando o Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e66a1-123">All examples are shown using the Lync Server Management Shell.</span></span> <span data-ttu-id="e66a1-124">Há um componente de linha de comando para o serviço de log centralizado chamado **CLSController. exe**.</span><span class="sxs-lookup"><span data-stu-id="e66a1-124">There is a command-line component for the Centralized Logging Service called **CLSController.exe**.</span></span> <span data-ttu-id="e66a1-125">A ajuda é fornecida para a ferramenta de linha de comando por meio da própria ferramenta.</span><span class="sxs-lookup"><span data-stu-id="e66a1-125">Help is provided for the command-line tool through the tool itself.</span></span> <span data-ttu-id="e66a1-126">No entanto, há um conjunto limitado de funções que você pode executar a partir da linha de comando.</span><span class="sxs-lookup"><span data-stu-id="e66a1-126">However, there is a limited set of functions that you can execute from the command line.</span></span> <span data-ttu-id="e66a1-127">Ao usar o Shell de gerenciamento do Lync Server, você tem acesso a um conjunto muito maior e muito mais configurável de recursos.</span><span class="sxs-lookup"><span data-stu-id="e66a1-127">By using Lync Server Management Shell, you have access to a much larger and much more configurable set of features.</span></span> <span data-ttu-id="e66a1-128">Você sempre deve considerar o Shell de gerenciamento do Lync Server como o principal método ao usar o serviço de log centralizado.</span><span class="sxs-lookup"><span data-stu-id="e66a1-128">You should always consider Lync Server Management Shell as the first and foremost method when using the Centralized Logging Service.</span></span>
 
-Os tópicos nesta seção explicam como usar o Serviço de Log Centralizado e fornecem exemplos de como usar seus diversos recursos.
+<span data-ttu-id="e66a1-129">Os tópicos desta seção explicam como usar o serviço de log centralizado e exemplos de como usar seus muitos recursos.</span><span class="sxs-lookup"><span data-stu-id="e66a1-129">The topics in this section explain how to use the Centralized Logging Service and examples of how to use its many features.</span></span>
 
-## Nesta seção
+<div>
 
-  - [Visão Geral do Serviço de Registro em Log](lync-server-2013-overview-of-the-centralized-logging-service.md)
+## <a name="in-this-section"></a><span data-ttu-id="e66a1-130">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="e66a1-130">In This Section</span></span>
 
-  - [Gerenciando as configurações do serviço de registro em log centralizado usando PowerShell](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)
+  - [<span data-ttu-id="e66a1-131">Visão geral do serviço de log centralizado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e66a1-131">Overview of the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-centralized-logging-service.md)
 
-  - [Entendendo as configurações do serviço de registro em log centralizado](lync-server-2013-understanding-centralized-logging-service-configuration-settings.md)
+  - [<span data-ttu-id="e66a1-132">Gerenciar as configurações centralizadas de configuração do serviço de log no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e66a1-132">Managing the Centralized Logging Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)
 
-  - [Usando Iniciar para o Serviço de Registro em Log para Capturar Logs](lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md)
+  - [<span data-ttu-id="e66a1-133">Compreendendo as configurações centralizadas de configuração do serviço de log no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e66a1-133">Understanding Centralized Logging Service configuration settings in Lync Server 2013</span></span>](lync-server-2013-understanding-centralized-logging-service-configuration-settings.md)
 
-  - [Usando Parar para o Serviço de Registro em Log](lync-server-2013-using-stop-for-the-centralized-logging-service.md)
+  - [<span data-ttu-id="e66a1-134">Usar o Start para o serviço de log centralizado para capturar logs no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e66a1-134">Using Start for the Centralized Logging Service to capture logs in Lync Server 2013</span></span>](lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md)
 
-  - [Usando Buscar em Logs de Captura criados para o Serviço de Registro em Log](lync-server-2013-using-search-on-capture-logs-created-by-the-centralized-logging-service.md)
+  - [<span data-ttu-id="e66a1-135">Usar stop para o serviço de log centralizado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e66a1-135">Using Stop for the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-using-stop-for-the-centralized-logging-service.md)
 
-  - [Lendo Registros de Captura do Serviço de Registro em Log](lync-server-2013-reading-capture-logs-from-the-centralized-logging-service.md)
+  - [<span data-ttu-id="e66a1-136">Usar a pesquisa em logs de captura criados pelo serviço de log centralizado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e66a1-136">Using search on capture logs created by the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-using-search-on-capture-logs-created-by-the-centralized-logging-service.md)
+
+  - [<span data-ttu-id="e66a1-137">Ler logs de captura do serviço de log centralizado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e66a1-137">Reading capture logs from the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-reading-capture-logs-from-the-centralized-logging-service.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

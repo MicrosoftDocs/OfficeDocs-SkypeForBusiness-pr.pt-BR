@@ -1,65 +1,124 @@
-﻿---
-title: 'Lync Server 2013: Única borda consolidada com endereços IP privados e NAT'
-TOCTitle: Única borda consolidada com endereços IP privados e NAT
-ms:assetid: e1e5189e-f17d-45e9-b177-e0e6f97f8951
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg399001(v=OCS.15)
-ms:contentKeyID: 49308380
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Única borda consolidada com endereços IP privados e NAT'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Single consolidated edge with private IP addresses and NAT
+ms:assetid: e1e5189e-f17d-45e9-b177-e0e6f97f8951
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399001(v=OCS.15)
+ms:contentKeyID: 48185691
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f37395f840e8811d343f11f6ee2a84bd4fcfbf82
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844915"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Única borda consolidada com endereços IP privados e NAT no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="single-consolidated-edge-with-private-ip-addresses-and-nat-in-lync-server-2013"></a><span data-ttu-id="f2546-102">Única borda consolidada com endereços IP privados e NAT no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f2546-102">Single consolidated edge with private IP addresses and NAT in Lync Server 2013</span></span>
 
-Se a sua organização requer suporte para menos de 15.000 conexões de cliente do serviço de Borda de Acesso, 1.000 conexões de cliente ativas do serviço de conferência da Web do Lync Server e 500 sessões de borda A/V simultâneas, e a alta disponibilidade do Servidor de Borda não for importante, esta topologia oferece vantagens de custo de hardware mais baixo e implantação mais simples. Se você precisar de mais capacidade ou alta disponibilidade, precisará implantar a topologia de Servidor de Borda Consolidada Dimensionada. Para obter detalhes, consulte Reference Architecture 2: Scaled Consolidated Edge (DNS Load Balanced).
+</div>
 
-   [Borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT no Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+<div id="mainSection">
 
-   [Borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos no Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+<div id="mainBody">
 
-   [Borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+<span> </span>
 
-O guia não mostra o Diretores, uma função do servidor opcional implantada na rede interna entre o Servidores de Borda e seu Pools de Front-Ends ou servidor. Para obter detalhes sobre a topologia para Diretores, consulte [Componentes necessários para o diretor no Lync Server 2013](lync-server-2013-components-required-for-the-director.md). A figura representa um único proxy reverso.
+<span data-ttu-id="f2546-103">_**Tópico da última modificação:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="f2546-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+
+<span data-ttu-id="f2546-104">Se sua organização requer suporte para menos de 15.000 conexões de cliente de serviço de borda de acesso, 1.000 conexões de cliente de serviço de Webconferência do Lync Server Web 500 e as sessões de borda de A/V simultâneas, a alta disponibilidade do servidor de borda não é importante, essa topologia oferece as vantagens de reduzir o custo de hardware e a implantação mais simples.</span><span class="sxs-lookup"><span data-stu-id="f2546-104">If your organization requires support for fewer than 15,000 Access Edge service client connections, 1,000 active Lync Server Web Conferencing service client connections, and 500 concurrent A/V Edge sessions, and high availability of the Edge Server is not important, this topology offers the advantages of lower hardware cost and simpler deployment.</span></span> <span data-ttu-id="f2546-105">Se você precisa de maior capacidade ou requer alta disponibilidade, é preciso implantar uma topologia de servidor de borda consolidada em escala.</span><span class="sxs-lookup"><span data-stu-id="f2546-105">If you need greater capacity or you require high availability, you need to deploy a scaled consolidated Edge Server topology.</span></span> <span data-ttu-id="f2546-106">Para obter detalhes, consulte um dos seguintes procedimentos:</span><span class="sxs-lookup"><span data-stu-id="f2546-106">For details, see one of the following:</span></span>
+
+  - <span></span>  
+    [<span data-ttu-id="f2546-107">Borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f2546-107">Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+
+  - <span></span>  
+    [<span data-ttu-id="f2546-108">Borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f2546-108">Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+
+  - <span></span>  
+    [<span data-ttu-id="f2546-109">Borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f2546-109">Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+
+<span data-ttu-id="f2546-110">A figura não mostra diretores, uma função de servidor opcional implantada na rede interna entre os servidores de borda e seus pools ou servidores de front-end.</span><span class="sxs-lookup"><span data-stu-id="f2546-110">The figure does not show Directors, an optional server role deployed in the internal network between the Edge Servers and your Front End pools or server.</span></span> <span data-ttu-id="f2546-111">Para obter detalhes sobre a topologia para diretores, consulte [os componentes necessários para o diretor no Lync Server 2013](lync-server-2013-components-required-for-the-director.md).</span><span class="sxs-lookup"><span data-stu-id="f2546-111">For details about the topology for Directors, see [Components required for the Director in Lync Server 2013](lync-server-2013-components-required-for-the-director.md).</span></span> <span data-ttu-id="f2546-112">A figura representa um único proxy reverso.</span><span class="sxs-lookup"><span data-stu-id="f2546-112">The figure represents a single reverse proxy.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> A figura mostrada é para orientação e exemplo de endereço IP, mas não é destinada a representar os fluxos de comunicação reais com o tráfego de entrada e saída corretos. A figura representa um alto nível de exibição do possível tráfego. Detalhes para fluxo de tráfego conforme eles pertencem à entrada (portas do ouvinte) e saída (servidores de destino ou clientes) é representado no diagrama de Resumo da porta em cada cenário. Por exemplo, o TCP 443 é realmente apenas entrada (para o proxy reverso ou Borda) e é apenas um fluxo de duas vias por uma perspectiva de protocolo (TCP). Além disso, a figura mostra a natureza do tráfego conforme muda quando o NAT ocorre (endereço de destino é alterado na entrada, endereço de origem é alterado na saída). Exemplo de firewall externo e interno e interfaces do servidor são mostrados apenas para fins de referência. Por fim, o exemplo de gateway padrão e relações de rota são mostrados, onde aplicável. Observe também que o diagrama usa a zona DNS <em>.com</em> para representar a zona DNS externa para o proxy reverso e Servidores de Borda, e a zona DNS <em>.net</em> refere-se à zona DNS interna.
+> <span data-ttu-id="f2546-113">A imagem mostrada é para orientação e exemplo de endereçamento IP, mas não pretende representar os fluxos de comunicação reais com o tráfego de entrada e saída correto.</span><span class="sxs-lookup"><span data-stu-id="f2546-113">The figure shown is for orientation and example IP addressing, but does not intend to represent actual communication flows with the correct incoming and outgoing traffic.</span></span> <span data-ttu-id="f2546-114">A figura representa uma exibição de alto nível do possível tráfego.</span><span class="sxs-lookup"><span data-stu-id="f2546-114">The figure represents a high level view of possible traffic.</span></span> <span data-ttu-id="f2546-115">Os detalhes do fluxo de tráfego que pertencem à entrada (em portas de escuta) e saída (para clientes ou servidores de destino) são representados no diagrama de Resumo de porta em cada cenário.</span><span class="sxs-lookup"><span data-stu-id="f2546-115">Details for traffic flow as they pertain to incoming (to listening ports) and outgoing (to destination servers or clients) is represented in the Port Summary diagram in each scenario.</span></span> <span data-ttu-id="f2546-116">Por exemplo, o TCP 443 é realmente de entrada (apenas para a borda ou proxy reverso) e só é um fluxo bidirecional de uma perspectiva de protocolo (TCP).</span><span class="sxs-lookup"><span data-stu-id="f2546-116">For example, TCP 443 is actually inbound (to the Edge or reverse proxy) only, and is only a two-way flow from a protocol (TCP) perspective.</span></span> <span data-ttu-id="f2546-117">Além disso, a figura mostra a natureza do tráfego à medida que ele muda quando o NAT (conversão de endereço de rede) ocorre (o endereço de destino é alterado em entrada, o endereço de origem é alterado na saída).</span><span class="sxs-lookup"><span data-stu-id="f2546-117">Additionally, the figure shows the nature of traffic as it changes when NAT (network address translation) occurs (destination address is changed on inbound, source address is changed on outbound).</span></span> <span data-ttu-id="f2546-118">Exemplo de firewall externo e interno e interfaces do servidor são mostradas somente para fins de referência.</span><span class="sxs-lookup"><span data-stu-id="f2546-118">Example external and internal firewall, and server interfaces are shown for reference purposes only.</span></span> <span data-ttu-id="f2546-119">Por fim, o gateway padrão e as relações de rota são exibidos, quando aplicável.</span><span class="sxs-lookup"><span data-stu-id="f2546-119">Finally, example default gateway and route relationships are shown, where applicable.</span></span> <span data-ttu-id="f2546-120">Observe também que o diagrama usa a zona DNS <EM>. com</EM> para representar a zona DNS externa para servidores de proxy reverso e Edge e a zona DNS do <EM>.net</EM> refere-se à zona DNS interna.</span><span class="sxs-lookup"><span data-stu-id="f2546-120">Note also that the diagram uses the <EM>.com</EM> DNS zone to represent the external DNS zone for both reverse proxy and Edge Servers, and the <EM>.net</EM> DNS zone refers to the internal DNS zone.</span></span>
 
-Novo no Microsoft Lync Server 2013 é o suporte para endereço IPv6. Parecido com o endereço IPv4, os endereços IPv6 devem ser atribuídos de forma que os endereços façam parte do seu espaço de endereço IPv6 atribuído. Os endereços neste tópico são apenas para exemplo. Você deve adquirir endereços IPv6 que irão funcionar na sua implantação, ofereça o escopo correta e irá interoperar com endereço interno e externo. O Windows Server oferece um recurso importante para operação IPv6 transicional e comunicação de IPv4 para IPv6 chamada *pilha dupla* . A pilha dupla é uma pilha de rede distinta e separada para IPv4 e IPv6. A pilha dupla permite atribuir endereço para IPv4 e IPv6 simultaneamente e permite o servidor se comunicar com outros hosts e clientes baseados em seus requisitos.
 
-Tipos de endereço comuns que você usará para endereço IPv6 serão os endereços globais IPv6 (semelhante aos endereços IPv4 públicos), endereços locais únicos IPv6 (semelhante aos intervalos de endereço IPv4 privado) e endereços de link local IPv6 (semelhantes aos endereços IP privados automáticos no Windows Server para IPv4)
 
-NAT para IPv6 existe que permite o NAT IPv6 para IPv4 (geralmente chamado como NAT64) e NAT IPv6 para IPv6 (geralmente chamado como NAT66). A existência de tecnologias NAT significa que os cinco cenários apresentados para o Lync ServerServidores de Borda ainda são válidos.
+</div>
+
+<span data-ttu-id="f2546-121">O novo para o Microsoft Lync Server 2013 é compatível com endereçamento IPv6.</span><span class="sxs-lookup"><span data-stu-id="f2546-121">New to Microsoft Lync Server 2013 is support for IPv6 addressing.</span></span> <span data-ttu-id="f2546-122">Como endereçamento IPv4, os endereços IPv6 devem ser atribuídos de forma que os endereços sejam parte do espaço de endereço IPv6 atribuído.</span><span class="sxs-lookup"><span data-stu-id="f2546-122">Much like IPv4 addressing, IPv6 addresses must be assigned in such a way that the addresses are part of your assigned IPv6 address space.</span></span> <span data-ttu-id="f2546-123">Os endereços neste tópico são somente por exemplo.</span><span class="sxs-lookup"><span data-stu-id="f2546-123">The addresses in this topic are for example only.</span></span> <span data-ttu-id="f2546-124">Você deve adquirir endereços IPv6 que funcionarão na sua implantação, fornecer o escopo correto e interoperar com o endereçamento interno e externo.</span><span class="sxs-lookup"><span data-stu-id="f2546-124">You must acquire IPv6 addresses that will function in your deployment, provide the correct scope and will interoperate with internal and external addressing.</span></span> <span data-ttu-id="f2546-125">O Windows Server fornece um recurso que é importante para a operação IPv6 de transição e comunicação IPv4 para IPv6 chamada de *pilha dupla*.</span><span class="sxs-lookup"><span data-stu-id="f2546-125">Windows Server provides a feature that is important to transitional IPv6 operation and IPv4 to IPv6 communication called the *dual stack*.</span></span> <span data-ttu-id="f2546-126">A pilha dupla é uma pilha de rede separada e distinta para IPv4 e IPv6.</span><span class="sxs-lookup"><span data-stu-id="f2546-126">The dual stack is a separate and distinct network stack for IPv4 and for IPv6.</span></span> <span data-ttu-id="f2546-127">A pilha dupla é o que permite atribuir endereçamento para IPv4 e IPv6 simultaneamente e permite que o servidor se comunique com outros hosts e clientes de acordo com suas necessidades.</span><span class="sxs-lookup"><span data-stu-id="f2546-127">The dual stack is what allows you to assign addressing for IPv4 and IPv6 concurrently, and allows the server to communicate with other hosts and clients based on what their requirements are.</span></span>
+
+<span data-ttu-id="f2546-128">Os tipos de endereços típicos que você usará para endereçamento IPv6 serão os endereços globais IPv6 (semelhantes aos endereços IPv4 públicos), os endereços locais exclusivos do IPv6 (semelhantes aos intervalos de endereços IPv4 particulares) e os endereços locais de link IPv6 (semelhante ao IP particular automático endereços no Windows Server para IPv4)</span><span class="sxs-lookup"><span data-stu-id="f2546-128">Typical address types that you will use for IPv6 addressing will be the IPv6 global addresses (similar to public IPv4 addresses), IPv6 unique local addresses (similar to the private IPv4 address ranges) and IPv6 link-local addresses (similar to automatic private IP addresses in Windows Server for IPv4)</span></span>
+
+<span data-ttu-id="f2546-129">Há tecnologias de conversão de endereços de rede (NAT) para IPv6 que permitirão o NAT IPv6 para IPv4 (comumente chamado de NAT64) e para IPv6 NAT para IPv6 (geralmente chamado de NAT66).</span><span class="sxs-lookup"><span data-stu-id="f2546-129">Network address translation technologies (NAT) for IPv6 exist that will allow for NAT IPv6 to IPv4 (commonly referred to as NAT64) and for NAT IPv6 to IPv6 (commonly referred to as NAT66).</span></span> <span data-ttu-id="f2546-130">A existência de tecnologias NAT significa que os cinco cenários apresentados para servidores do Lync Server Edge ainda são válidos.</span><span class="sxs-lookup"><span data-stu-id="f2546-130">The existence of NAT technologies means that the five scenarios presented for Lync Server Edge Servers are still valid.</span></span>
+
+<div>
 
 
 > [!WARNING]  
-> IPv6 é um tópico complexo e exige planejamento cuidadoso com sua equipe de rede e seu provedor de Internet para garantir que os endereços atribuídos no nível do servidor Windows e no nível do Lync Server 2013 funcionarão como esperado. Consulte os links no final deste tópico para obter recursos adicionais no endereço IPv6 e planejamento.
+> <span data-ttu-id="f2546-131">O IPv6 é um tópico complexo e requer planejamento cuidadoso com sua equipe de rede e seu provedor de Internet para garantir que os endereços que você atribuir no nível do Windows Server e no nível do Lync Server 2013 funcionarão conforme o esperado.</span><span class="sxs-lookup"><span data-stu-id="f2546-131">IPv6 is a complex topic and requires careful planning with your networking team and your Internet provider to ensure that the addresses you assign at the Windows server level and at the Lync Server 2013 level will work as expected.</span></span> <span data-ttu-id="f2546-132">Consulte os links no final deste tópico para obter recursos adicionais sobre o endereço IPv6 e planejamento.</span><span class="sxs-lookup"><span data-stu-id="f2546-132">See the links at the end of this topic for additional resources on IPv6 addressing and planning.</span></span>
 
 
 
-**Topologia de borda consolidada única**
+</div>
 
-![Topologia de borda consolidada única](images/Gg399001.d9b889c1-587c-4732-9b68-841186ccff78(OCS.15).jpg "Topologia de borda consolidada única")
+<span data-ttu-id="f2546-133">**Topologia de borda consolidada única**</span><span class="sxs-lookup"><span data-stu-id="f2546-133">**Single consolidated edge topology**</span></span>
+
+<span data-ttu-id="f2546-134">![d9b889c1-587c-4732-9b68-841186ccff78] (images/Gg399001.d9b889c1-587c-4732-9b68-841186ccff78(OCS.15).jpg "d9b889c1-587c-4732-9b68-841186ccff78")</span><span class="sxs-lookup"><span data-stu-id="f2546-134">![d9b889c1-587c-4732-9b68-841186ccff78](images/Gg399001.d9b889c1-587c-4732-9b68-841186ccff78(OCS.15).jpg "d9b889c1-587c-4732-9b68-841186ccff78")</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Se estiver usando CAC, você ainda deve atribuir endereços IPv4 para a interface interna do Servidor de Borda. O CAC usa endereços IPv4 e você deve disponibilizá-los para operar.
+> <span data-ttu-id="f2546-135">Se você estiver usando o controle de admissão de chamadas (CAC), ainda deverá atribuir endereços IPv4 à interface interna do servidor de borda.</span><span class="sxs-lookup"><span data-stu-id="f2546-135">If you are using Call Admission Control (CAC), you still must assign IPv4 addresses to the Edge Server internal interface.</span></span> <span data-ttu-id="f2546-136">O CAC usa endereços IPv4 e deve tê-los disponíveis para operação.</span><span class="sxs-lookup"><span data-stu-id="f2546-136">CAC uses IPv4 addresses and must have them available to operate.</span></span>
 
-## Nesta seção
 
-  - [Resumo de certificado - única borda consolidada com endereços IP privados usando NAT no Lync Server 2013](lync-server-2013-certificate-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
 
-  - [Resumo de porta - única borda consolidada com endereços IP privados usando NAT no Lync Server 2013](lync-server-2013-port-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
+</div>
 
-  - [Resumo de DNS - única borda consolidada com endereços IP privados usando NAT no Lync Server 2013](lync-server-2013-dns-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
+<div>
 
-## Consulte Também
+## <a name="in-this-section"></a><span data-ttu-id="f2546-137">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="f2546-137">In This Section</span></span>
 
-#### Outros Recursos
+  - [<span data-ttu-id="f2546-138">Resumo de certificado - única borda consolidada com endereços IP privados usando NAT no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f2546-138">Certificate summary - Single consolidated edge with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
 
-[Arquitetura de endereço IP versão 6](http://tools.ietf.org/html/rfc4291)  
-[Formato de endereço unicast global IPv6](http://tools.ietf.org/html/rfc3587)  
-[Endereços unicast IPv6 locais exclusivos](http://tools.ietf.org/html/rfc4193)
+  - [<span data-ttu-id="f2546-139">Resumo de porta - única borda consolidada com endereços IP privados usando NAT no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f2546-139">Port summary - Single consolidated edge with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-port-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
+
+  - [<span data-ttu-id="f2546-140">Resumo de DNS - única borda consolidada com endereços IP privados usando NAT no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f2546-140">DNS summary - Single consolidated edge with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-dns-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="f2546-141">Confira também</span><span class="sxs-lookup"><span data-stu-id="f2546-141">See Also</span></span>
+
+
+[<span data-ttu-id="f2546-142">Arquitetura de endereçamento de IP versão 6</span><span class="sxs-lookup"><span data-stu-id="f2546-142">IP Version 6 Addressing Architecture</span></span>](http://tools.ietf.org/html/rfc4291)  
+[<span data-ttu-id="f2546-143">Formato de endereço de difusão ponto a ponto global IPv6</span><span class="sxs-lookup"><span data-stu-id="f2546-143">IPv6 Global Unicast Address Format</span></span>](http://tools.ietf.org/html/rfc3587)  
+[<span data-ttu-id="f2546-144">Endereços exclusivos de unicast IPv6 locais</span><span class="sxs-lookup"><span data-stu-id="f2546-144">Unique Local IPv6 Unicast Addresses</span></span>](http://tools.ietf.org/html/rfc4193)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
