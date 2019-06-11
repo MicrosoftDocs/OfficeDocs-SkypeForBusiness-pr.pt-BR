@@ -1,43 +1,69 @@
-﻿---
-title: Alterações feitas pela preparação da floresta no Lync Server 2013
-TOCTitle: Alterações feitas pela preparação da floresta no Lync Server 2013
-ms:assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425791(v=OCS.15)
-ms:contentKeyID: 49306252
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: alterações feitas pela preparação da floresta'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Changes made by forest preparation
+ms:assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425791(v=OCS.15)
+ms:contentKeyID: 48183734
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ef94ea82f31871cf90939aa25a130903f15ef756
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836615"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Alterações feitas pela preparação da floresta no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Alterações feitas pela preparação da floresta no Lync Server 2013
 
-Esta seção descreve os objetos e as configurações globais, além dos grupos universais de serviço e administração criados pela etapa de preparação de floresta.
+</div>
 
-## Objetos e configurações globais do Active Directory
+<div id="mainSection">
 
-Se você armazenar as configurações globais no contêiner Configuração (como é o caso para todas as implantações novas do Lync Server 2013), a preparação da floresta usará o contêiner Serviços existente e adicionará um objeto **Serviço de RTC** sob o objeto Configuração\\Serviços. Sob a implantação do Serviço de RTC, a preparação da floresta adiciona um objeto **Configurações Globais** do tipo msRTCSIP-GlobalContainer. O objeto de configurações global armazena todas as configurações que se aplicam à implantação do Lync Server. Se você armazenar as configurações globais no contêiner Sistema, a preparação da floresta usará um contêiner Microsoft sob o contêiner Sistema do domínio raiz e um objeto Serviço de RTC sob o objeto Sistema\\Microsoft.
+<div id="mainBody">
 
-A preparação de floresta também adiciona um novo objeto **msRTCSIP-Domain** ao domínio raiz no qual o procedimento é executado.
+<span> </span>
 
-## Grupos universais de serviço e administração do Active Directory
+_**Tópico da última modificação:** 2012-10-30_
 
-A preparação de floresta cria grupos universais com base no domínio especificado e adiciona entradas de controle de acesso (ACEs) para esses grupos. Essa etapa cria os grupos universais nos contêineres Usuário do domínio especificado.
+Esta seção descreve as configurações globais e os objetos, e o serviço universal e os grupos de administração criados pela etapa de preparação da floresta.
 
-Os grupos universais permitem que os administradores acessem e gerenciem as configurações e serviços globais. A preparação da floresta adiciona os seguintes tipos de grupos universais:
+<div>
 
-  - **Grupos administrativos**   Esses grupos definem as funções de administrador para uma rede Lync Server.
+## <a name="active-directory-global-settings-and-objects"></a>Objetos e configurações globais do Active Directory
 
-  - **Grupos de infraestrutura**   Esses grupos fornecem permissão para acessar áreas específicas da infraestrutura do Lync Server. Eles funcionam como componentes dos grupos administrativos. Não modifique esses grupos ou adicione usuários diretamente a eles.
+Se você armazenar configurações globais no contêiner de configuração (como é o caso de todas as novas implantações do Lync Server 2013), a preparação da floresta usará o contêiner de serviços existentes e adicionará um objeto de **serviço RTC** nos serviços de configuração\\ objeto. No objeto de serviço RTC, a preparação da floresta adiciona um objeto de **configurações globais** do tipo MsRTCSIP-GlobalContainer. O objeto de configurações globais armazena todas as configurações que se aplicam à implantação do Lync Server. Se você armazenar configurações globais no contêiner do sistema, a preparação da floresta usará um contêiner da Microsoft no contêiner do sistema do domínio raiz e um objeto\\de serviço RTC sob o objeto do sistema Microsoft.
 
-  - **Grupos de serviço**   Esses grupos são contas de serviço necessárias para acessar diversos serviços do Lync Server.
+A preparação da floresta também adiciona um novo objeto **msRTCSIP-Domain** para o domínio raiz no qual o procedimento é executado.
 
-A tabela seguir descreve os grupos administrativos.
+</div>
 
-### Grupos administrativos criados durante a preparação da floresta
+<div>
+
+## <a name="active-directory-universal-service-and-administration-groups"></a>Grupos de administração e serviço universal do Active Directory
+
+A preparação da floresta cria grupos universais baseados no domínio que você especifica e adiciona entradas de controle de acesso (ACEs) a esses grupos. Esta etapa cria os grupos universais nos contêineres de usuários do domínio que você especificar.
+
+Os grupos universais permitem que os administradores acessem e gerenciem serviços e configurações globais. A preparação da floresta adiciona os seguintes tipos de grupos universais:
+
+  - **Grupos administrativos esses**   grupos definem funções de administrador para uma rede do Lync Server.
+
+  - **Grupos de infraestrutura**   esses grupos fornecem permissão para acessar áreas específicas da infraestrutura do Lync Server. Elas funcionam como componentes de grupos administrativos. Você não deve modificar esses grupos ou adicionar usuários diretamente a eles.
+
+  - **Grupos de serviços**   esses grupos são contas de serviço que são necessárias para acessar vários serviços do Lync Server.
+
+A tabela a seguir descreve os grupos administrativos.
+
+### <a name="administrative-groups-created-during-forest-preparation"></a>Grupos administrativos criados durante a preparação da floresta
 
 <table>
 <colgroup>
@@ -53,11 +79,11 @@ A tabela seguir descreve os grupos administrativos.
 <tbody>
 <tr class="odd">
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p>Permite que os membros gerenciem as configurações de servidor e de pool, incluindo todas as funções de servidor, configurações globais e usuários.</p></td>
+<td><p>Permite que os membros gerenciem as configurações do servidor e do pool, incluindo todas as funções do servidor, configurações globais e usuários.</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Permite que os membros gerenciem configurações de usuário e movam usuários de um servidor ou pool para outro.</p></td>
+<td><p>Permite que os membros gerenciem as configurações do usuário e movam os usuários de um servidor ou pool para outro.</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalReadOnlyAdmins</p></td>
@@ -67,9 +93,9 @@ A tabela seguir descreve os grupos administrativos.
 </table>
 
 
-A tabela seguir descreve os grupos de infraestrutura.
+A tabela a seguir descreve os grupos de infraestrutura.
 
-### Grupos de infraestrutura criados durante a preparação da floresta
+### <a name="infrastructure-groups-created-during-forest-preparation"></a>Grupos de infraestrutura criados durante a preparação da floresta
 
 <table>
 <colgroup>
@@ -85,11 +111,11 @@ A tabela seguir descreve os grupos de infraestrutura.
 <tbody>
 <tr class="odd">
 <td><p>RTCUniversalGlobalWriteGroup</p></td>
-<td><p>Concede acesso de gravação aos objetos de configuração global para o Lync Server.</p></td>
+<td><p>Concede acesso de gravação a objetos de configuração global do Lync Server.</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalGlobalReadOnlyGroup</p></td>
-<td><p>Concede acesso somente leitura aos objetos de configuração global para o Lync Server.</p></td>
+<td><p>Concede acesso somente leitura aos objetos de configuração global do Lync Server.</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserReadOnlyGroup</p></td>
@@ -97,19 +123,19 @@ A tabela seguir descreve os grupos de infraestrutura.
 </tr>
 <tr class="even">
 <td><p>RTCUniversalServerReadOnlyGroup</p></td>
-<td><p>Concede acesso somente leitura para as configurações do Lync Server. Este grupo não tem acesso às configurações no nível do pool, mas apenas às configurações específicas de um servidor individual.</p></td>
+<td><p>Concede acesso somente leitura às configurações do Lync Server. Esse grupo não tem acesso às configurações do nível do pool, somente para configurações específicas de um servidor individual.</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalSBATechnicians</p></td>
-<td><p>Concede acesso somente leitura à configuração do Lync Server e são colocados no grupo Local Administradores de aparelhos de filial persistentes durante a instalação.</p></td>
+<td><p>Concede acesso somente leitura à configuração do Lync Server e é colocado no grupo Administradores local dos aparelhos de ramificação sobreviventes durante a instalação.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-A tabela seguir descreve os grupos de serviço.
+A tabela a seguir descreve os grupos de serviços.
 
-### Grupos de serviço criados durante a preparação da floresta
+### <a name="service-groups-created-during-forest-preparation"></a>Grupos de serviço criados durante a preparação da floresta
 
 <table>
 <colgroup>
@@ -118,36 +144,36 @@ A tabela seguir descreve os grupos de serviço.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo de serviço</th>
+<th>Grupo de serviços</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>RTCHSUniversalServices</p></td>
-<td><p>Inclui contas de serviço usadas para executar os servidores Servidor Front-End e Standard Edition. Esse grupo permite aos servidores acesso de leitura/gravação para as configurações globais do Lync Server e aos objetos de usuário do Active Directory.</p></td>
+<td><p>Inclui contas de serviço usadas para executar servidores front-end Server e Standard Edition. Esse grupo permite que os servidores tenham acesso de leitura/gravação para configurações globais do Lync Server e objetos de usuário do Active Directory.</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCComponentUniversalServices</p></td>
-<td><p>Inclui contas de serviço usadas para executar os Servidores de Conferência A/V, o Serviços Web, o Servidor de Mediação, o Servidor de Arquivamento e o Servidor de Monitoramento.</p></td>
+<td><p>Inclui contas de serviço usadas para executar servidores de conferência A/V, serviços Web, servidor de mediação, servidor de arquivamento e Monitoring Server.</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCProxyUniversalServices</p></td>
-<td><p>Inclui contas de serviço usadas para executar os Servidores de Borda do Lync Server.</p></td>
+<td><p>Inclui contas de serviço usadas para executar servidores do Lync Server Edge.</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalConfigReplicator</p></td>
-<td><p>Inclui servidores que podem participar da replicação do Lync ServerRepositório de Gerenciamento Central.</p></td>
+<td><p>Inclui servidores que podem participar da replicação do repositório de gerenciamento central do Lync Server.</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCSBAUniversalServices</p></td>
-<td><p>Concede acesso somente leitura ás configurações do Lync Server, mas permite a configuração da instalação de um servidor de filial persistente e da implantação de um aparelho de filial persistente.</p></td>
+<td><p>Concede acesso somente leitura às configurações do Lync Server, mas permite a configuração de um servidor de ramificação para a instalação de um servidor de ramificação sobreviventes e a implantação de dispositivos em filiais sobreviventes.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Em seguida, a preparação de floresta adiciona os grupos de serviço e administração aos grupos de infraestrutura apropriados, da seguinte maneira:
+A preparação da floresta adiciona grupos de serviços e de administração aos grupos de infraestrutura apropriados, da seguinte maneira:
 
   - RTCUniversalServerAdmins é adicionado a RTCUniversalGlobalReadOnlyGroup, RTCUniversalGlobalWriteGroup, RTCUniversalServerReadOnlyGroup e RTCUniversalUserReadOnlyGroup.
 
@@ -155,7 +181,7 @@ Em seguida, a preparação de floresta adiciona os grupos de serviço e administ
 
   - RTCHSUniversalServices, RTCComponentUniversalServices e RTCUniversalReadOnlyAdmins são adicionados como membros de RTCUniversalGlobalReadOnlyGroup, RTCUniversalServerReadOnlyGroup e RTCUniversalUserReadOnlyGroup.
 
-A preparação da floresta também cria os seguintes grupos RBAC (controle de acesso baseado na função):
+A preparação da floresta também cria os seguintes grupos de controle de acesso baseado na função (RBAC):
 
   - CSAdministrator
 
@@ -179,11 +205,11 @@ A preparação da floresta também cria os seguintes grupos RBAC (controle de ac
 
   - CsResponseGroupManager
 
-Para obter detalhes sobre as funções de RBAC e as tarefas permitidas para cada, consulte [Planejamento de controle de acesso baseado em função no Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md) na documentação Planejamento.
+Para obter detalhes sobre as funções RBAC e as tarefas permitidas para cada uma, consulte [planejando o controle de acesso baseado em função no Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md) na documentação de planejamento.
 
-A preparação de floresta cria ACEs particulares e públicas. Ela cria ACEs privados no contêiner de configurações globais usados por Lync Server. Esse contêiner é usado somente por Lync Server e está localizado no contêiner Configuração ou no contêiner Sistema no domínio raiz, dependendo de onde você armazenou as configurações globais. As ACEs públicas criadas pela preparação de floresta estão listadas na tabela a seguir.
+A preparação da floresta cria ACEs públicas e privadas. Ele cria ACEs privadas no contêiner de configurações globais usado pelo Lync Server. Esse contêiner é usado apenas pelo Lync Server e está localizado no contêiner de configuração ou no contêiner do sistema do domínio raiz, dependendo de onde você armazenou as configurações globais. As ACEs públicas criadas pela preparação da floresta são listadas na tabela a seguir.
 
-### ACEs públicas criadas pela preparação de floresta
+### <a name="public-aces-created-by-forest-preparation"></a>ACEs públicas criadas pela preparação da floresta
 
 <table>
 <colgroup>
@@ -198,29 +224,48 @@ A preparação de floresta cria ACEs particulares e públicas. Ela cria ACEs pri
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Ler o contêiner Sistema do domínio raiz (não herdado)<strong>*</strong></p></td>
+<td><p>Ler contêiner do sistema de domínio raiz (não herdado)<strong>*</strong></p></td>
 <td><p>X</p></td>
 </tr>
 <tr class="even">
-<td><p>Ler o contêiner DisplaySpecifiers de Configuração (não herdado)</p></td>
+<td><p>Ler o contêiner DisplaySpecifiers da configuração (não herdado)</p></td>
 <td><p>X</p></td>
 </tr>
 </tbody>
 </table>
 
 
+<div>
+
+
 > [!NOTE]  
-> <strong>*</strong>As ACEs que não são herdadas não concedem acesso aos objetos filho desses contêineres. As ACEs que são herdadas concedem acesso aos objetos filho desses contêineres.
+> <STRONG>*</STRONG>As ACEs que não são herdadas não concedem acesso a objetos filho sob esses contêineres. ACEs que são herdadas conceder acesso a objetos filho sob esses contêineres.
 
-No contêiner Configuração, no contexto de nomenclatura de configuração, a preparação de floresta executa as seguintes tarefas:
 
-  - Adiciona uma entrada **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** para a página **Propriedade RTC** dos atributos adminContextMenu e adminPropertyPages do especificador de exibição de idioma para usuários, contatos e InetOrgPersons (por exemplo, CN=user-Display,CN=409,CN=DisplaySpecifiers).
 
-  - Adiciona um objeto **RTCPropertySet** do tipo **controlAccessRight** em **Extended-Rights**, que se aplica às classes Usuário e Contato.
+</div>
 
-  - Adiciona um objeto **RTCUserSearchPropertySet** do tipo **controlAccessRight** em **Extended-Rights**, que se aplica às classes Usuário, Contato, UO e DomainDNS.
+No contêiner de configuração, no contexto de nomenclatura de configuração, a preparação da floresta executa as seguintes tarefas:
 
-  - Adiciona **msRTCSIP-PrimaryUserAddress** sob o atributo **extraColumns** do especificador de exibição da UO (unidade organizacional) de cada idioma (por exemplo, CN=organizationalUnit-Display,CN=409,CN=DisplaySpecifiers) e copia os valores do atributo **extraColumns** da exibição padrão (por exemplo, CN=default-Display, CN=409,CN=DisplaySpecifiers).
+  - Adiciona uma entrada **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** para a página de **Propriedades RTC** nos atributos adminContextMenu e adminPropertyPages do especificador de exibição de idioma para usuários, contatos e inetOrgPersons (por exemplo, CN = user-Display, CN = 409, CN = DisplaySpecifiers).
 
-  - Adiciona os atributos de filtragem **msRTCSIP-PrimaryUserAddress**, **msRTCSIP-PrimaryHomeServer** e **msRTCSIP-UserEnabled** sob o atributo **attributeDisplayNames** do especificador de exibição de cada idioma para os objetos Usuários, Contatos e InetOrgPerson (por exemplo, em inglês: CN=user-Display,CN=409,CN=DisplaySpecifiers).
+  - Adiciona um objeto **RTCPropertySet** do tipo **ControlAccessRight** em **direitos estendidos** que se aplicam às classes de usuário e de contato.
+
+  - Adiciona um objeto **RTCUserSearchPropertySet** do tipo **ControlAccessRight** em **direitos estendidos** que se aplicam às classes usuário, contato, UO e DomainDNS.
+
+  - Adiciona **msRTCSIP-PrimaryUserAddress** sob o atributo **extraColumns** de cada especificador de exibição de unidade organizacional ou de idioma (por exemplo, CN = ORGANIZATIONALUNIT-display, CN = 409, CN = DisplaySpecifiers) e copia os valores do **extraColumns** atributo da exibição padrão (por exemplo, CN = padrão-display, CN = 409, CN = DisplaySpecifiers).
+
+  - Adiciona atributos de filtragem **msRTCSIP-PrimaryUserAddress**, **msRTCSIP-PrimaryHomeServer**e **msRTCSIP-** UserEnabled sob o atributo **attributeDisplayNames** de cada especificador de exibição de idioma para usuários, contatos e os objetos InetOrgPerson (por exemplo, em inglês: CN = user-Display, CN = 409, CN = DisplaySpecifiers).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

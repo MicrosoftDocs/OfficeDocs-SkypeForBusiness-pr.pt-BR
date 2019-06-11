@@ -1,37 +1,83 @@
-﻿---
-title: 'Lync Server 2013: Definir configurações de reroteamento de caixa postal'
-TOCTitle: Definir configurações de reroteamento de caixa postal
-ms:assetid: 7ab6be28-eabb-4a79-a796-648887d71b83
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398606(v=OCS.15)
-ms:contentKeyID: 49307205
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Definir configurações de reroteamento de caixa postal'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure voice mail rerouting settings
+ms:assetid: 7ab6be28-eabb-4a79-a796-648887d71b83
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398606(v=OCS.15)
+ms:contentKeyID: 48184593
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 73aa16f7c18665c0b74c1e31e2ce888abdbe1c5a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836307"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Definir configurações de reroteamento de caixa postal no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-18_
+# <a name="configure-voice-mail-rerouting-settings-in-lync-server-2013"></a>Definir configurações de reroteamento de caixa postal no Lync Server 2013
 
-Aparelho de Filial Persistente e Servidor de Filial Persistente poderão oferecer capacidade de persistência de caixa postal para usuários de filiais durante o tempo de interrupção da WAN se o Unificação de Mensagens (UM) do Exchange estiver instalado no local central e se um AA (Atendedor Automático) de Mensagens do UM do Exchange estiver implantado. Recomendamos que o seu administrador do Exchange configure o AA para aceitar somente mensagens, o que desabilitará outra funcionalidade genérica, como a transferência para um usuário ou a transferência para uma telefonista. Como alternativa, você poderia usar um AA genérico ou um AA personalizado para rotear a chamada.
+</div>
 
-Para obter detalhes, consulte a seção Preparando para a Sustentabilidade da Caixa Postal no [Requisitos de resiliência do site da filial para Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md) na documentação de planejamento.
+<div id="mainSection">
 
-## Para configurar a sustentabilidade da caixa postal
+<div id="mainBody">
 
-1.  Peça ao administrador do Exchange para configurar o AA somente para aceitar mensagens (no Shell do Exchange, use o seguinte cmdlet: **Set-UMAutoAttendant \<AA name\> -CallSomeoneEnabled $false**. O parâmetro que especifica que se permita deixar mensagens ( *SendVoiceMsgEnabled*) é verdadeiro por padrão.
+<span> </span>
 
-2.  No Shell de Gerenciamento do Lync Server, use o cmdlet **New-CSVoiceMailReroutingConfiguration** para definir o número de telefone do AA como o UM do Exchange número de telefone do Atendedor Automático na configuração de redirecionamento da caixa postal Aparelho de Filial Persistente ou Servidor de Filial Persistente.
+_**Tópico da última modificação:** 2012-10-18_
+
+Os aparelhos de ramificação sobreviventes e os servidores de filiais sobreviventes podem fornecer impossibilitação da caixa postal para os usuários da filial durante uma interrupção da WAN, se o Exchange Unified Messaging (UM) estiver instalado no site central e um assistente de troca automática de mensagem do Exchange (AA) estiver implantado. Recomendamos que o administrador do Exchange configure o AA para aceitar somente mensagens, o que desabilita outras funcionalidades genéricas, como transferência para um usuário ou transferência para um operador. Você também pode usar um AA genérico ou um AA personalizado para encaminhar a chamada.
+
+Para obter detalhes, consulte a seção "preparando a imsustentabilidade da caixa postal" dos [requisitos de resiliência de site para o Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md) na documentação de planejamento.
+
+<div>
+
+## <a name="to-configure-voice-mail-survivability"></a>Para configurar a imsustentabilidade da caixa postal
+
+1.  Peça ao administrador do Exchange para configurar o AA para aceitar somente mensagens (no Shell do Exchange Use o seguinte cmdlet: **set- \<UMAutoAttendant AA\> nome-CallSomeoneEnabled $false**. O parâmetro que especifica a permissão para deixar mensagens (*SendVoiceMsgEnabled*) é verdadeiro por padrão.
+
+2.  No Shell de gerenciamento do Lync Server, use o cmdlet **New-CSVoiceMailReroutingConfiguration** para definir o número de telefone AA como o número de telefone do atendedor automático do Exchange na caixa de entrada de redirecionamento de correio de voz na ramificação da ramificação sobreviventes ou Servidor de ramificação sobreviventes.
     
-    > [!NOTE]  
-    > Se você precisar modificar a configuração do roteamento da caixa postal posteriormente, use o cmdlet <strong>Set-CsVoiceMailReRoutingConfiguration</strong>. Para obter detalhes, sobre <strong>New-</strong> e <strong>Set-CSVoiceMailReroutingConfiguration</strong>, nos tópicos da Ajuda do Shell.
-
-3.  Defina o número de acesso do assinante UM do Exchange que corresponde ao plano de discagem da filial do usuário UM do Exchange como o número de acesso do assinante UM do Exchange na configuração de roteamento da caixa postal do Aparelho de Filial Persistente ou Servidor de Filial Persistente.
+    <div>
     
-    > [!NOTE]  
-    > Configure o plano de discagem UM do Exchange de usuários para que haja apenas um plano de discagem associado a todos os usuários de filiais que precisam acessar a funcionalidade Obter caixa postal durante uma interrupção da WAN.
 
-**Próxima etapa** para Aparelho de Filial Persistente ou Servidor de Filial Persistente: [Usuários domésticos em um Home users on a Aparelho de Filial Persistente ou Servidor no Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).
+    > [!NOTE]  
+    > Se você precisar modificar a configuração de redirecionamento de caixa postal mais tarde, use o cmdlet <STRONG>set-CsVoiceMailReRoutingConfiguration</STRONG> para fazer isso. Para obter detalhes, sobre <STRONG>novo-</STRONG> e <STRONG>set-CSVoiceMailReroutingConfiguration</STRONG>, nos tópicos da ajuda do Shell.
+
+    
+    </div>
+
+3.  Defina o número de acesso do assinante do Exchange UM que corresponda ao plano de discagem de UM do usuário da filial como o número de acesso do assinante do Exchange na configuração de redirecionamento de caixa postal para o aparelho de ramificação sobreviventes ou o servidor de ramificação sobreviventes.
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > Configure o plano de discagem dos usuários do Exchange UM para que haja apenas um plano de discagem associado a todos os usuários da filial que precisam acessar a funcionalidade obter caixa postal durante uma falha de WAN.
+
+    
+    </div>
+
+**Próxima etapa** para aparelhos de ramificação sobreviventes ou servidores de filiais sobreviventes: [usuários domésticos em um aplicativo ou aplicativo de ramificação sobreviventes no Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

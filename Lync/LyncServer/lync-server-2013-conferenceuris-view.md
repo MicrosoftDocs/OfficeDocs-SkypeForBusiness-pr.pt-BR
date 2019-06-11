@@ -1,21 +1,41 @@
-﻿---
-title: Exibir ConferenceUris
-TOCTitle: Exibir ConferenceUris
-ms:assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688148(v=OCS.15)
-ms:contentKeyID: 49886327
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: modo de exibição ConferenceUris'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ConferenceUris view
+ms:assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688148(v=OCS.15)
+ms:contentKeyID: 49733750
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ba86314944502acfa85bd71e121880f9d5cf26dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836472"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Exibir ConferenceUris
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="conferenceuris-view-in-lync-server-2013"></a>Exibição ConferenceUris no Lync Server 2013
 
-A exibição ConfernceUris armazena informações sobre URIs que participaram das sessões da conferência. Esta exibição foi introduzida no Microsoft Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-01_
+
+A exibição ConfernceUris armazena informações sobre os URIs que participaram de sessões de conferência. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
 
 
 <table>
@@ -39,14 +59,25 @@ A exibição ConfernceUris armazena informações sobre URIs que participaram da
 </tr>
 <tr class="even">
 <td><p>ConferenceUri</p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>URI da conferência.</p></td>
+<td><p>nvarchar (450)</p></td>
+<td><p>URL da conferência.</p></td>
 </tr>
 <tr class="odd">
 <td><p>ConferenceUriType</p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Tipo do URI da conferência. Consulte <a href="lync-server-2013-uritypes-table.md">Tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Tipo de URI de conferência. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

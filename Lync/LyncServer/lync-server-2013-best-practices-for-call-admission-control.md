@@ -1,32 +1,75 @@
-﻿---
-title: 'Lync Server 2013: Práticas recomendadas para controle de admissão de chamada'
-TOCTitle: Práticas recomendadas para controle de admissão de chamada
-ms:assetid: 97173cca-8175-4ae2-a247-eb7ef809da93
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398770(v=OCS.15)
-ms:contentKeyID: 49307528
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Práticas recomendadas para controle de admissão de chamada'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Best practices for call admission control
+ms:assetid: 97173cca-8175-4ae2-a247-eb7ef809da93
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398770(v=OCS.15)
+ms:contentKeyID: 48184913
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b89be654a01615c750ce4f49f866e9339bc7e261
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836724"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Práticas recomendadas para controle de admissão de chamada no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-22_
+# <a name="best-practices-for-call-admission-control-in-lync-server-2013"></a>Práticas recomendadas para controle de admissão de chamada no Lync Server 2013
 
-Para aprimorar o desempenho e facilitar a implantação, aplique as práticas recomendadas a seguir quando implantar o controle de admissão de chamadas:
+</div>
 
-  - Garanta que as WANs estejam adequadamente provisionadas para o tráfego de mídia atual e antecipado.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-22_
+
+Para melhorar o desempenho e facilitar a implantação, aplique as seguintes práticas recomendadas ao implantar o controle de admissão de chamadas:
+
+  - Garanta que as WANs sejam provisionadas de forma adequada para tráfego de mídia atual e previsto.
     
-    > [!NOTE]  
-    > É recomendável que você leve em consideração um buffer para seus limites de largura de banda. Existem cenários como condições de corrida que afetam a largura de banda total usada e podem resultar em situações em que o limite da largura de banda é excedido. Por exemplo, se duas chamadas tentarem iniciar enquanto o tráfego de mídia está alcançando um limite da largura de banda, uma delas pode ser recusada porque a outra conseguiu iniciar primeiro.
-
-  - Monitore o uso da rede e registros de detalhes de chamadas para que possa escolher configurações de CAC ótimas e atualizá-las conforme o uso da rede muda.
-
-  - Use políticas de largura de banda de CAC para complementar as configurações de QoS.
-
-  - Se você desejar rerotear chamadas bloqueadas para o PSTN, verifique a funcionalidade e a capacidade do PSTN. Para detalhes, consulte [Planejando roteamento de voz de saída no Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).
+    <div>
     
+
     > [!NOTE]  
-    > A capacidade refere-se ao número de portas que precisam ser abertas para oferecer suporte a um possível reroteamento do PSTN.
+    > Recomendamos que você Fatore em um buffer para seus limites de largura de banda. Há cenários como condições de corrida que afetam a largura de banda total usada e podem resultar em situações em que o limite de largura de banda é excedido. Por exemplo, se duas chamadas tentam iniciar enquanto o tráfego de mídia está se aproximando de um limite de largura de banda, um deles pode ser negado porque o outro gerenciado para iniciar primeiro.
+
+    
+    </div>
+
+  - Monitorar o uso da rede e os registros de detalhes da chamada para que você possa escolher as configurações de CAC otimizadas e atualizar as configurações de CAC como alterações de uso de rede.
+
+  - Use as políticas de largura de banda do CAC para complementar as configurações de QoS.
+
+  - Se você quiser redirecionar chamadas bloqueadas para a PSTN, verifique a funcionalidade e a funcionalidade da PSTN. Para obter detalhes, consulte [planejando o roteamento de voz de saída no Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > A capacidade se refere ao número de portas que você precisa abrir para dar suporte a redirecionamento PSTN potencial.
+
+    
+    </div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

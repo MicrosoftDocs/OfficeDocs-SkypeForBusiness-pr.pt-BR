@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Relatório Detalhado de Chamadas'
-TOCTitle: Relatório Detalhado de Chamadas
-ms:assetid: 38862e35-3fec-41b9-a035-0b301942d446
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558637(v=OCS.15)
-ms:contentKeyID: 49306414
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: relatório de detalhes da chamada'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call Detail Report
+ms:assetid: 38862e35-3fec-41b9-a035-0b301942d446
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558637(v=OCS.15)
+ms:contentKeyID: 48183843
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a258a5c228cfe96218c9c694b05055cc5ebd7eb6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836712"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Relatório Detalhado de Chamadas no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="call-detail-report-in-lync-server-2013"></a>Relatório de detalhes da chamada no Lync Server 2013
 
-O Relatório Detalhado de Chamadas apresenta uma visão detalhada de uma chamada individual; o relatório contém praticamente todas as medidas e estatísticas de qualidade da experiência coletados pelo Lync Server, divididas em sessões do relatório, tais como:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-02-05_
+
+O relatório de detalhes da chamada fornece uma visão detalhada de uma chamada individual; o relatório inclui praticamente todas as métricas de experiência de experiência e estatísticas coletadas pelo Lync Server, divididas em seções de relatório, como:
 
   - Informações da chamada
 
@@ -35,49 +55,63 @@ O Relatório Detalhado de Chamadas apresenta uma visão detalhada de uma chamada
 
   - Fluxo de vídeo (de quem é chamado para o chamador)
 
-Lembre-se de que as categorias e medidas de um determinado relatório dependem de duas coisas: o tipo de sessão e o tipo de ponto de extremidade usados na sessão. Por exemplo, uma chamada com apenas áudio não reportará medidas de fluxo de vídeo; isso se deve ao fato de a chamada não ter um fluxo de vídeo. Da mesma forma, é possível ter um relatório que liste estatísticas do chamador, mas não de quem é chamado. Normalmente, isso ocorre quando quem foi chamado não usa um dispositivo compatível com SIP. Os pontos de extremidade são responsáveis por reportar estatísticas no final de uma chamada; no entanto, um telefone celular (que desconhece SIP ou as estatísticas de SIP) não pode reportar esse tipo de informação. Se você ligar para alguém e essa pessoa atender em um telefone celular, você não obterá um relatório desse telefone celular quando a chamada terminar.
+Lembre-se de que as categorias e métricas de um determinado relatório dependem de duas coisas: o tipo de sessão e o tipo de ponto de extremidade usados na sessão. Por exemplo, uma chamada com apenas áudio não reportará métricas de fluxo de vídeo; isso se deve ao fato de a chamada não ter um fluxo de vídeo. Da mesma forma, é possível ter um relatório que liste estatísticas do chamador, mas não de quem é chamado. Normalmente, isso ocorre quando quem foi chamado não usa um dispositivo compatível com SIP. Os pontos de extremidade são responsáveis por reportar estatísticas no final de uma chamada; no entanto, um telefone celular (que desconhece SIP ou as estatísticas de SIP) não pode reportar esse tipo de informação. Se você ligar para alguém e essa pessoa atender em um telefone celular, você não obterá um relatório desse telefone celular quando a chamada terminar.
 
 O Relatório Detalhado de Chamadas é especialmente útil quando você está tentando determinar exatamente porque determinada chamada enfrentou problemas de qualidade de mídia.
 
-## Acessando o Relatório Detalhado de Chamadas
+<div>
+
+## <a name="accessing-the-call-detail-report"></a>Acessando o Relatório Detalhado de Chamadas
 
 O Relatório Detalhado de Chamadas pode ser acessado a partir de qualquer um dos seguintes relatórios:
 
-  - O [Relatório de Localização no Lync Server 2013](lync-server-2013-location-report.md) (clicando no volume da chamada ou na medida Percentual de chamadas ruins)
+  - O [relatório de localização no Lync Server 2013](lync-server-2013-location-report.md) (clicando no volume da chamada ou na métrica de porcentagem baixa de chamada)
 
-  - O [Relatório de Resumo de Qualidade de Mídia no Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (clicando no volume da chamada ou na medida Percentual de chamadas ruins)
+  - O [relatório de Resumo de qualidade de mídia no Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (clicando no volume da chamada ou na métrica de porcentagem baixa de chamada)
 
-  - O [Relatório de comparação de qualidade de mídia](lync-server-2013-media-quality-comparison-report.md) (clicando no [Relatório de Lista de chamadas no Lync Server 2013](lync-server-2013-call-list-report.md) e, depois, na medida Detalhes).
+  - O [relatório de comparação de qualidade de mídia no Lync server 2013](lync-server-2013-media-quality-comparison-report.md) (clicando no [relatório lista de chamadas no Lync Server 2013](lync-server-2013-call-list-report.md) e, em seguida, clicando na métrica de detalhes).
 
-  - O [Relatório de Desempenho do Servidor no Lync Server 2013](lync-server-2013-server-performance-report.md) (clicando no volume da chamada ou na medida Percentual de chamadas ruins)
+  - O [relatório de desempenho do servidor no Lync Server 2013](lync-server-2013-server-performance-report.md) (clicando no volume da chamada ou na métrica de porcentagem baixa de chamada)
 
-  - O [Relatório de Lista de chamadas no Lync Server 2013](lync-server-2013-call-list-report.md) (clicando na medida Detalhes)
+  - O [relatório lista de chamadas no Lync Server 2013](lync-server-2013-call-list-report.md) (clicando na métrica detalhe)
 
-No Relatório Detalhado de Chamadas, é possível acessar o [Relatório de Dispositivos no Lync Server 2013](lync-server-2013-device-report.md) clicando em uma das seguintes medidas:
+No relatório de detalhes da chamada, você pode acessar o [relatório de dispositivo no Lync Server 2013](lync-server-2013-device-report.md) clicando em uma das seguintes métricas:
 
   - Dispositivo de captura
 
-  - Dispositivo de renderização
+  - Dispositivos de renderização
 
-Também é possível acessar o Relatório de Tendências de Qualidade de Mídia clicando na medida Servidor de borda de áudio/vídeo.
+Também é possível acessar o Relatório de Tendências de Qualidade de Mídia clicando na métrica Servidor de borda de áudio/vídeo.
 
-## Fazendo o melhor uso do Relatório Detalhado de Chamadas
+</div>
 
-O Relatório Detalhado de Chamadas normalmente contém 250 medidas diferentes, inclusive itens como Descompasso do carimbo de data/hora do microfone, Tempo de SNR baixo e Extremidade próxima ao tempo de eco. Se não conseguir se lembrar o que exatamente todas essas medidas avaliam, tente pousar o mouse sobre o nome da medida; na maioria das vezes, uma dica de ferramenta será exibida descrevendo a medida.
+<div>
 
-Se tiver problemas para localizar uma medida, digite parte do nome da medida na caixa de pesquisa e clique em Localizar. Por exemplo, se não puder localizar a medida Tempo de SNR baixo, digite SNR na caixa de pesquisa e clique em Localizar.
+## <a name="making-the-best-use-of-the-call-detail-report"></a>Fazendo o melhor uso do Relatório Detalhado de Chamadas
+
+O Relatório Detalhado de Chamadas normalmente contém 250 métricas diferentes, inclusive itens como Descompasso do carimbo de data/hora do microfone, Tempo de SNR baixo e Extremidade próxima ao tempo de eco. Se não conseguir se lembrar o que exatamente todas essas métricas avaliam, tente pousar o mouse sobre o rótulo da métrica; na maioria das vezes, uma dica de ferramenta será exibida descrevendo a métrica.
+
+Se você tiver problemas para localizar uma métrica, digite parte do rótulo métrica na caixa de pesquisa e clique em localizar. Por exemplo, se você não conseguir encontrar a métrica de tempo SNR baixa, digite SNR na caixa de pesquisa e clique em localizar.
 
 Observe que o relatório rastreia apenas as informações sobre uma chamada. A chamada em si não é gravada.
 
-## Filtros
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtros
 
 Nenhum. Você não pode filtrar o Relatório Detalhado de Chamadas.
 
-## Métricas
+</div>
+
+<div>
+
+## <a name="metrics"></a>Métricas
 
 A tabela a seguir lista as informações fornecidas no Relatório Detalhado de Chamadas para cada chamada.
 
-### Métricas do Relatório Detalhado de Chamadas
+### <a name="call-detail-report-metrics"></a>Métricas do Relatório Detalhado de Chamadas
 
 <table>
 <colgroup>
@@ -164,7 +198,7 @@ A tabela a seguir lista as informações fornecidas no Relatório Detalhado de C
 <td><p>Dispositivo usado para receber a chamada.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Agente do usuário do receptor da chamada</strong></p></td>
+<td><p><strong>Agente do usuário do receptor</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Software usado no dispositivo que recebeu a chamada.</p></td>
 </tr>
@@ -205,4 +239,17 @@ A tabela a seguir lista as informações fornecidas no Relatório Detalhado de C
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

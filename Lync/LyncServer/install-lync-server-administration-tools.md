@@ -1,33 +1,71 @@
-﻿---
-title: Instalar ferramentas de administração do Lync Server
-TOCTitle: Instalar ferramentas de administração do Lync Server
-ms:assetid: a56fc6ff-6cd7-42be-a99f-9f7f5525c93d
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721840(v=OCS.15)
-ms:contentKeyID: 49886351
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Instalar as ferramentas de administração do Lync Server
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Install Lync Server administration tools
+ms:assetid: a56fc6ff-6cd7-42be-a99f-9f7f5525c93d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721840(v=OCS.15)
+ms:contentKeyID: 49733773
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0f9274b2191a8119e5caa67bd2d63820b33816a3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836986"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Instalar ferramentas de administração do Lync Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-02_
+# <a name="install-lync-server-administration-tools"></a>Instalar as ferramentas de administração do Lync Server
 
-Este tópico descreve como instalar as ferramentas administrativas necessárias para usar na implantação e gerenciamento do Lync Server 2013. Você pode instalar também as ferramentas administrativas em outros computadores, como consoles administrativos dedicados.
+</div>
 
-## Para instalar as ferramentas administrativas do Lync Server 2013
+<div id="mainSection">
 
-1.  No servidor de front-end do Lync Server 2013, execute a Instalação do Lync Server 2013.
+<div id="mainBody">
 
-2.  Na página do Assistente de Implantação do Lync Server 2013, selecione **Instalar as Ferramentas Administrativas**
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-02_
+
+Este tópico descreve como instalar as ferramentas administrativas que você precisa usar para implantar e gerenciar o Lync Server 2013. Você também pode instalar as ferramentas administrativas em outros computadores, como consoles administrativos dedicados.
+
+<div>
+
+## <a name="to-install-the-lync-server-2013-administrative-tools"></a>Para instalar as ferramentas administrativas do Lync Server 2013
+
+1.  No servidor front-end do Lync Server 2013, execute o Lync Server 2013 setup.
+
+2.  Na página do assistente de implantação do Lync Server 2013, selecione **instalar ferramentas administrativas**
     
-    ![Assistente de Implementação do Lync Server 2013, página de Boas-vindas](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Assistente de Implementação do Lync Server 2013, página de Boas-vindas")
+    ![Assistente de implantação do Lync Server 2013, página de boas-vindas] (images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Assistente de implantação do Lync Server 2013, página de boas-vindas")
 
-## Consulte Também
+</div>
 
-#### Conceitos
+<div>
 
-[Ferramentas administrativas do Lync Server 2013](lync-server-2013-lync-server-administrative-tools.md)
+## <a name="see-also"></a>Confira também
+
+
+[Ferramentas administrativas do Lync Server 2013](lync-server-2013-lync-server-administrative-tools.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

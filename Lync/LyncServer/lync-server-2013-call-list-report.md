@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Relatório de Lista de chamadas'
-TOCTitle: Relatório de Lista de chamadas
-ms:assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg615020(v=OCS.15)
-ms:contentKeyID: 49307537
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: relatório de lista de chamadas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call List Report
+ms:assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615020(v=OCS.15)
+ms:contentKeyID: 48184921
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: faf330a776f64534c02833a0472cfefea7f0998e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836706"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Relatório de Lista de chamadas no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="call-list-report-in-lync-server-2013"></a>Relatório de lista de chamadas no Lync Server 2013
 
-O Relatório de Lista de Chamadas fornece métricas de Qualidade de Experiência (QoE) para chamadas individuais feitas e recebidas em sua organização. Observe que as métricas reais relatadas dependem de como você acessa o relatório de Lista de Chamadas. Por exemplo, ao abrir o relatório do [Relatório de Dispositivos no Lync Server 2013](lync-server-2013-device-report.md), você verá métricas como as seguintes, métricas que são também relatadas no Relatório de Dispositivos:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-01_
+
+O Relatório de Lista de Chamadas fornece métricas de QoE (qualidade da experiência) para chamadas individuais feitas e recebidas em sua organização. Observe que as métricas reais relatadas dependem de como você acessa o relatório de Lista de Chamadas. Por exemplo, se você abrir o relatório do [relatório de dispositivos no Lync Server 2013](lync-server-2013-device-report.md), verá métricas como as métricas a seguir, que também são relatadas no relatório do dispositivo:
 
   - Microfone do chamador
 
@@ -27,9 +47,9 @@ O Relatório de Lista de Chamadas fornece métricas de Qualidade de Experiência
 
   - Tempo de troca da taxa de voz
 
-No entanto, se você abrir o Relatório de Lista de Chamadas do [Relatório de Localização no Lync Server 2013](lync-server-2013-location-report.md), você não verá nenhuma dessas métricas; em vez disso, você verá:
+No entanto, se você abrir o relatório de lista de chamadas do [relatório de localização no Lync Server 2013](lync-server-2013-location-report.md), não verá nenhuma dessas métricas; em vez disso, você verá métricas como estas:
 
-  - Viagem de ida e volta (ms)
+  - Ida e volta (ms)
 
   - Degradação (MOS)
 
@@ -39,33 +59,47 @@ No entanto, se você abrir o Relatório de Lista de Chamadas do [Relatório de L
 
 Há métricas relatadas no Relatório de Local. Entretanto, a partir do Relatório de Lista de Chamadas, é sempre possível clicar na métrica Detalhe para fornecer informações completas de QoE de qualquer chamada.
 
-## Como acessar o Relatório de Lista de Chamadas
+<div>
+
+## <a name="accessing-the-call-list-report"></a>Como acessar o Relatório de Lista de Chamadas
 
 O Relatório de Lista de Chamadas pode ser acessado de qualquer um dos seguintes relatórios:
 
-  - [Relatório de Localização no Lync Server 2013](lync-server-2013-location-report.md) (clicando na métrica de Volume de chamada ou Percentual de chamadas ruins)
+  - O [relatório de localização no Lync Server 2013](lync-server-2013-location-report.md) (clicando no volume da chamada ou na métrica de porcentagem baixa de chamada)
 
-  - [Relatório de Dispositivos no Lync Server 2013](lync-server-2013-device-report.md) (clicando na métrica de Volume de chamada ou Percentual de chamadas ruins)
+  - O [relatório de dispositivo no Lync Server 2013](lync-server-2013-device-report.md) (clicando no volume da chamada ou na métrica de porcentagem baixa de chamada)
 
-  - [Relatório de Resumo de Qualidade de Mídia no Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (clicando na métrica de Volume de chamada ou Percentual de chamadas ruins)
+  - O [relatório de Resumo de qualidade de mídia no Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (clicando no volume da chamada ou na métrica de porcentagem baixa de chamada)
 
-  - [Relatório de Desempenho do Servidor no Lync Server 2013](lync-server-2013-server-performance-report.md) (clicando na métrica de Volume de chamada ou Percentual de chamadas ruins)
+  - O [relatório de desempenho do servidor no Lync Server 2013](lync-server-2013-server-performance-report.md) (clicando no volume da chamada ou na métrica de porcentagem baixa de chamada)
 
-No relatório de Lista de Chamada, você pode acessar o [Relatório Detalhado de Chamadas no Lync Server 2013](lync-server-2013-call-detail-report.md) clicando na métrica Detalhe.
+No relatório de lista de chamadas, você pode acessar o [relatório de detalhes de chamadas no Lync Server 2013](lync-server-2013-call-detail-report.md) clicando na métrica de detalhes.
 
-## Como usar melhor o Relatório de Lista de Chamada
+</div>
 
-Se não conseguir se lembrar o que algumas das métricas do Relatório de Lista de Chamada (como o Tempo de troca da taxa de voz) realmente medem, coloque o mouse sobre o rótulo da métrica; um tool tip aparecerá fornecendo uma breve descrição da métrica.
+<div>
 
-## Filtros
+## <a name="making-the-best-use-of-the-call-list-report"></a>Como usar melhor o Relatório de Lista de Chamada
+
+Se não conseguir se lembrar o que algumas das métricas do Relatório de Lista de Chamada (como o Tempo de troca da taxa de voz) realmente medem, coloque o mouse sobre o rótulo da métrica; uma dica de ferramenta aparecerá fornecendo uma breve descrição da métrica.
+
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtros
 
 Nenhum. Não é possível filtrar o Relatório de Lista de Chamadas.
 
-## Métricas
+</div>
+
+<div>
+
+## <a name="metrics"></a>Métricas
 
 A tabela a seguir lista as informações detalhadas fornecidas no Relatório de Lista de Chamadas para cada chamada.
 
-### Métricas do Relatório de Lista de Chamadas
+### <a name="call-list-report-metrics"></a>Métricas do Relatório de Lista de Chamadas
 
 <table>
 <colgroup>
@@ -102,7 +136,7 @@ A tabela a seguir lista as informações detalhadas fornecidas no Relatório de 
 <td><p>Data e horário em que a chamada teve início.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Hora final</strong></p></td>
+<td><p><strong>Hora de término</strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Data e horário em que a chamada terminou.</p></td>
 </tr>
@@ -112,12 +146,12 @@ A tabela a seguir lista as informações detalhadas fornecidas no Relatório de 
 <td><p>Software usado pelo ponto de extremidade da pessoa que iniciou a chamada.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Agente do usuário do receptor da chamada</strong></p></td>
+<td><p><strong>Agente do usuário do receptor</strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Software usado pelo ponto de extremidade da pessoa que recebeu a chamada.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Viagem de ida e volta (ms)</strong></p></td>
+<td><p><strong>Ida e volta (ms)</strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Quantidade média de (em milissegundos) exigida para que um pacote RTP (protocolo de transporte em tempo real) viaje até outra extremidade e retorne. Tempos de viagem de ida e volta de 100 milissegundos ou menos são considerados de qualidade aceitável.</p>
 <p>Os valores altos de ida e volta pode ser causados por roteamento de chamada internacional, um erro de configuração de roteamento ou um servidor de mídia sobrecarregado. Tempos de ida e volta altos resultam em dificuldades com conversas de áudio em tempo real e bidirecionais.</p></td>
@@ -125,7 +159,7 @@ A tabela a seguir lista as informações detalhadas fornecidas no Relatório de 
 <tr class="odd">
 <td><p><strong>Degradação (MOS)</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Quantidade média da degradação MOS enfrentada durante uma chamada. Os valores de degradação variam de um baixo de 0,0 a um alto de 5,0. Um valor de 0,5 ou menos representa degradação aceitável. Historicamente, pontuações de opções médias foram calculadas com usuários classificando a qualidade de uma chamada em uma escala de 1 a 5. No Lync Server, o Lync Server usa um conjunto de algoritmos para prever como os usuários classificaram uma chamada.</p>
+<td><p>Quantidade média da degradação MOS (pontuação média de opinião) enfrentada durante uma chamada. Os valores de degradação variam de um baixo de 0,0 a um alto de 5,0. Um valor de 0,5 ou menos representa degradação aceitável. As pontuações médias de opinião costumava ser calculadas a partir da classificação da qualidade de uma chamada em uma escala de 1 a 5, feita pelos dos usuários. No Lync Server, o Lync Server usa um conjunto de algoritmos para prever como os usuários teriam classificado uma chamada.</p>
 <p>Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.</p></td>
 </tr>
 <tr class="even">
@@ -136,7 +170,7 @@ A tabela a seguir lista as informações detalhadas fornecidas no Relatório de 
 <tr class="odd">
 <td><p><strong>Tremulação</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medição de quanto uma chamada treme.) Valores altos de tremulação são normalmente causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em perda ou distorção de áudio.</p></td>
+<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot;shakiness&quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou um servidor de mídia sobrecarregado, resultando em áudio distorcido ou perdido.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Taxa de correção oculta</strong></p></td>
@@ -164,4 +198,17 @@ A tabela a seguir lista as informações detalhadas fornecidas no Relatório de 
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

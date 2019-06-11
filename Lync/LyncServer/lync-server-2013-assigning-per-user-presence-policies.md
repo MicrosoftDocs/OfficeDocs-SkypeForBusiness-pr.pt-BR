@@ -1,23 +1,43 @@
-﻿---
-title: Atribuir políticas de presença por usuário no Lync Server 2013
-TOCTitle: Atribuir políticas de presença por usuário no Lync Server 2013
-ms:assetid: fd1097b7-248d-4b78-8c43-456b03257c18
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182614(v=OCS.15)
-ms:contentKeyID: 49308708
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: atribuir políticas de presença por usuário'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assigning per-user presence policies
+ms:assetid: fd1097b7-248d-4b78-8c43-456b03257c18
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182614(v=OCS.15)
+ms:contentKeyID: 48185955
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 905065e231869b4b6075fc1894e51c91df8f0aee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836917"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Atribuir políticas de presença por usuário no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="assigning-per-user-presence-policies-in-lync-server-2013"></a>Como atribuir políticas de presença por usuário no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-11_
 
 Uma política de presença é um conjunto de limites e restrições que afetam a presença. A tabela a seguir descreve as configurações de política de presença disponíveis no Lync Server 2013.
 
-### Configurações da Política de Presença
+### <a name="presence-policy-settings"></a>Configurações da política de presença
 
 <table>
 <colgroup>
@@ -30,7 +50,7 @@ Uma política de presença é um conjunto de limites e restrições que afetam a
 <thead>
 <tr class="header">
 <th>Nome XML</th>
-<th>Nome de exibição</th>
+<th>Nome para exibição</th>
 <th>Descrição</th>
 <th>Tipo</th>
 <th>Valor</th>
@@ -39,32 +59,34 @@ Uma política de presença é um conjunto de limites e restrições que afetam a
 <tbody>
 <tr class="odd">
 <td><p>CategorySubscriptions</p></td>
-<td><p>Número máximo de inscrições de categoria do assinante</p></td>
-<td><p>Limita o número de inscrições de categoria do assinante. Por exemplo, quando o Communicator se inscreve para a presença de um usuário, ele obtém uma inscrição de categoria para cada cartão de contato, dados de calendário, notas, serviços e categorias de estado.</p>
-<p>Uma configuração 0 significa que o objeto de usuário ou contato não pode ser inscrito por outros.</p>
+<td><p>Número máximo de assinaturas de categoria de assinante</p></td>
+<td><p>Limita o número de assinaturas de categoria do Assinante. Por exemplo, quando o Communicator assina a presença de um usuário, ele obtém uma assinatura de categoria para cada um dos cartões de visita, dados de calendário, observações, serviços e categorias de estado.</p>
+<p>Uma configuração de 0 significa que o objeto de contato ou usuário não pode ser inscrito por outras pessoas.</p>
+<div>
 
 > [!NOTE]  
-> Essa configuração pode ter um impacto significativo no desempenho se for definida para um número alto e o usuário médio tem um grande número de usuários inscrevendo para sua presença.
+> Essa configuração pode ter um impacto significativo no desempenho se estiver definida como um número alto, e o usuário médio tiver um grande número de usuários assinando sua presença.
 
-</td>
-<td><p>Inteiro</p></td>
+
+</div></td>
+<td><p>Positivo</p></td>
 <td><p>0-3000</p></td>
 </tr>
 <tr class="even">
 <td><p>PromptedSubscribers</p></td>
-<td><p>Número máximo de alertas de inscrição de presença na fila</p></td>
-<td><p>Limita o número de entradas na tabela de inscritos solicitados. Essa configuração determina o número máximo de solicitações que podem ser enfileiradas para um determinado usuário. Por exemplo, quando um usuário A se inscreve para a presença do usuário B, o usuário B recebe um prompt de que o usuário A agora está inscrito para o usuário B e um prompt de confirmação é criado na tabela de inscritos solicitados do usuário B. Após o usuário B aceitar ou confirmar a inscrição, o prompt de confirmação é removido da tabela de inscritos solicitados do usuário B.</p>
-<p>Uma configuração 0 significa que o usuário não é solicitado quando alguém se inscreve para sua presença.</p></td>
-<td><p>Inteiro ou símbolo</p></td>
+<td><p>Número máximo de alertas de assinatura de presença em fila</p></td>
+<td><p>Limita o número de entradas na tabela de assinantes solicitados. Essa configuração determina o número máximo de solicitações que podem ser enfileiradas para um determinado usuário. Por exemplo, quando o usuário assina a presença do usuário B, o usuário B recebe uma solicitação que o usuário A já está inscrito para o usuário B, e um prompt de confirmação é criado na tabela de assinantes solicitados do usuário B. Depois que o usuário B aceita, ou reconhece, a assinatura, o prompt de confirmação é removido da tabela de assinantes solicitados do usuário B.</p>
+<p>Uma configuração 0 significa que o usuário não é avisado quando alguém assina sua presença.</p></td>
+<td><p>Número inteiro ou token</p></td>
 <td><p>0-500</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Por padrão, as políticas de presença **Política padrão** e **Serviço: Médio** são instaladas ao implantar o Lync Server. A tabela a seguir descreve as configurações específicas de duas políticas de presença.
+Por padrão, a **política** e o **serviço padrão:** as políticas de presença média são instaladas quando você implanta o Lync Server. A tabela a seguir descreve as configurações específicas das duas políticas de presença.
 
-### Políticas de presença
+### <a name="presence-policies"></a>Políticas de presença
 
 <table>
 <colgroup>
@@ -84,16 +106,27 @@ Por padrão, as políticas de presença **Política padrão** e **Serviço: Méd
 <tbody>
 <tr class="odd">
 <td><p>Política padrão</p></td>
-<td><p>Política para usuários comuns. Esta é a política de presença padrão.</p></td>
+<td><p>Política para usuários típicos. Esta é a política de presença padrão.</p></td>
 <td><p>1000</p></td>
 <td><p>200</p></td>
 </tr>
 <tr class="even">
-<td><p>Serviço: Médio</p></td>
-<td><p>Política para aplicativos que exigem mais usuários para se inscrever na presença do objeto.</p></td>
+<td><p>Serviço: médio</p></td>
+<td><p>Política para aplicativos que exigem que mais usuários assinem a presença do objeto.</p></td>
 <td><p>1000</p></td>
 <td><p>0</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

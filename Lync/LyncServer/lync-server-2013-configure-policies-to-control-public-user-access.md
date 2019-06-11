@@ -1,82 +1,132 @@
-﻿---
-title: "Lync Server 2013: config. políticas p/ controlar o acesso de usuário público"
-TOCTitle: Configurar políticas para controlar o acesso de usuário público
-ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg520946(v=OCS.15)
-ms:contentKeyID: 49305811
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurar políticas para controlar o acesso de usuário público'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure policies to control public user access
+ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
+ms:contentKeyID: 48183343
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e259082aa73d4354e8e4aa93eb7a0cc8d7ed7a6e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836356"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar políticas para controlar o acesso de usuário público no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="configure-policies-to-control-public-user-access-in-lync-server-2013"></a>Configurar políticas para controlar o acesso de usuário público no Lync Server 2013
 
-A conectividade de IM (mensagem instantânea) pública permite que os usuários em sua organização usem IM para se comunicar com usuários de serviços de IM fornecidos por provedores de serviço de IM público, incluindo a rede Windows Live de serviços de Internet, Yahoo\! e AOL. Configure uma ou mais políticas de acesso de usuário externo para controlar se os usuários públicos podem colaborar com usuários internos do Lync Server. A conectividade por IM pública é um recurso adicionado que depende da configuração de sua implantação e dos usuários. Também depende do provisionamento do serviço no provedor de IM pública. Para obter mais informações sobre como provisionar sua implantação para usar os provedores públicos, consulte o guia “Public IM Connectivity Provisioning Guide for Microsoft Lync Server, Office Communications Server, and Live Communications Server”: <http://go.microsoft.com/fwlink/?linkid=269821>
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-10-07_
+
+A conectividade de mensagens instantâneas públicas permite que os usuários em sua organização usem mensagens instantâneas para se comunicar com os usuários de serviços de mensagens instantâneas fornecidos pelos provedores de serviços públicos de mensagens instantâneas, incluindo a rede do Windows Live dos serviços de Internet, o Yahoo\!e o AOL. Você pode configurar uma ou mais políticas de acesso de usuários externos para controlar se os usuários públicos podem colaborar com usuários internos do Lync Server. A conectividade de mensagens instantâneas públicas é um recurso adicionado que depende da configuração da sua implantação e dos usuários. Ele também depende do provisionamento do serviço no provedor público de IM. Para obter informações sobre como provisionar sua implantação para usar os provedores públicos, consulte o guia "guia de provisionamento de conectividade pública de IM para Microsoft Lync Server, Office Communications Server e Live Communications Server":[http://go.microsoft.com/fwlink/?LinkId=269821](http://go.microsoft.com/fwlink/?linkid=269821)
+
+<div>
+
 
 > [!IMPORTANT]  
-> <ul>
-> <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>
-> 
-> <li><p>A PIC USL é uma licença de assinatura por mês e por usuário que é necessária para o Lync Server ou o Office Communications Server federar com o Yahoo! Messenger. A capacidade da Microsoft de fornecer este serviço depende do suporte do Yahoo!, o contrato subjacente que está sendo encerrado.</p></li>
-> 
-> 
-> <li><p>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre as organizações e com pessoas de todo o mundo. A federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além do CAL padrão do Lync. A federação do Skype será adicionada a esta lista, permitindo que os usuários do Lync para atinjam centenas de milhões de pessoas com mensagens instantâneas e de voz.</p></li></ul>
+> <UL>
+> <LI>
+> <P>A partir de 1º de setembro de 2012, a licença de assinatura de usuário da conectividade de mensagem de chat pública do Microsoft Lync ("PIC USL") não está mais disponível para compra de contratos novos ou de renovação. Os clientes com licenças ativas poderão continuar a federar-se com o Yahoo! Messenger até a data de encerramento do serviço. Uma data de fim da vida útil de junho de 2014 para AOL e Yahoo! foi anunciado. Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">suporte para conectividade de mensagens instantâneas públicas no Lync Server 2013</A>.</P>
+> <LI>
+> <P>O PIC USL é uma licença de assinatura por usuário por mês necessária para o Lync Server ou o Office Communications Server se federar com o Yahoo! Spam. A capacidade da Microsoft de oferecer esse serviço por meio do suporte do Yahoo!, o contrato subjacente para o qual está prestes a ser enrolado.</P>
+> <LI>
+> <P>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre organizações e pessoas ao redor do mundo. A Federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além da CAL padrão do Lync. A Federação do Skype será adicionada a essa lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com mensagens instantâneas e voz.</P></LI></UL>
 
 
-Para acessar o site de Provisionamento de Conectividade IM Pública do Microsoft Lync Server, use o seguinte link: <http://go.microsoft.com/fwlink/?linkid=212638>
 
-Para controlar o acesso do usuário público, é possível configurar políticas no nível global, site e de usuário. Para obter detalhes sobre os tipos de políticas que você pode configurar, consulte [Configurando suporte para acesso de usuário externo no Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) na documentação Implantação ou na documentação Planejamento. As definições de política do Lync Server que são aplicadas em um nível de política podem substituir definições que são aplicadas em outro nível de política. A precedência de política do Lync Server é: política de Usuário (maior influência) substitui uma política de Site e esta substitui uma política Global (menor influência). Isso significa que, quão mais perto a definição de política está do objeto que ela está afetando, maior a influência que ela terá no objeto.
+</div>
 
-No caso de convites de IM, a resposta depende do software cliente. A solicitação é aceita a menos que remetentes externos sejam explicitamente bloqueados por uma regra configurada pelo usuário (ou seja, as configurações nas listas de cliente **Permitir** e **Bloquear** do usuário). Além disso, os convites de IM podem ser bloqueados se um usuário optar por bloquear toda IM de usuários que não estão na lista **Permitir**.
+Para acessar o site de configuração de conectividade de mensagens instantâneas públicas do Microsoft Lync Server, use o seguinte link:[http://go.microsoft.com/fwlink/p/?linkId=212638](http://go.microsoft.com/fwlink/p/?linkid=212638)
+
+Para controlar o acesso do usuário público, você pode configurar políticas nos níveis global, de site e de usuário. Para obter detalhes sobre os tipos de políticas que você pode configurar, consulte Configurando o [suporte para acesso de usuários externos no Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) na documentação de implantação ou documentação de planejamento. As configurações de política do Lync Server aplicadas em um nível de política podem substituir as configurações aplicadas em outro nível de política. A precedência da política do Lync Server é: a política do usuário (maior influência) substitui uma política do site e uma política de site substitui uma política global (influência mínima). Isso significa que, quanto mais perto a definição de política estiver do objeto que ela está afetando, maior será sua influência sobre o objeto.
+
+No caso de convites por mensagem instantânea, a resposta depende do software cliente. A solicitação é aceita, a menos que remetentes externos sejam explicitamente bloqueados por uma regra configurada pelo usuário (ou seja, as configurações nas listas **permitir** e **Bloquear** do cliente do usuário). Além disso, os convites de mensagem instantânea podem ser bloqueados se um usuário optar por bloquear todas as mensagens instantâneas de usuários que não estão na sua lista de **permissões** .
+
+<div>
+
 
 > [!NOTE]  
-> É possível configurar políticas para controlar o acesso ao usuário público, mesmo se você não tiver habilitado a federação para sua organização. No entanto, as políticas configuradas entram em vigor somente quando a federação está habilitada para sua organização. Para obter detalhes sobre como habilitar a federação, consulte <a href="lync-server-2013-enable-or-disable-remote-user-access.md">Habilitar ou desabilitar acesso de usuário remoto no Lync Server 2013</a> na documentação Implantação ou na documentação Operações. Além disso, se você especificar uma política de usuário para controlar acesso do usuário público, a política se aplicará somente aos usuários habilitados para Lync Server e configurados para usar a política. Para obter detalhes sobre como especificar usuários que pode fazer logon no Lync Server, consulte <a href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">Atribuir uma política de usuário externo a um usuário habilitado do Lync no Lync Server 2013</a> na documentação Implantação ou na documentação Operações.
+> Você pode configurar políticas para controlar o acesso ao usuário público, mesmo se você não tiver habilitado a Federação para sua organização. No entanto, as políticas que você configura são efetivadas apenas quando você tem a Federação habilitada para sua organização. Para obter detalhes sobre como habilitar a Federação, consulte <A href="lync-server-2013-enable-or-disable-remote-user-access.md">habilitar ou desabilitar o acesso de usuário remoto no Lync Server 2013</A> na documentação de implantação ou documentação de operações. Além disso, se você especificar uma política de usuário para controlar o acesso ao usuário público, a política se aplicará somente aos usuários habilitados para o Lync Server e configurados para usar a política. Para obter detalhes sobre como especificar usuários públicos que podem entrar no Lync Server, consulte <A href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">atribuir uma política de acesso de usuário externo a um usuário habilitado do Lync no Lync server 2013</A> na documentação de implantação ou documentação de operações.
 
-Use o procedimento a seguir para configurar uma política para suportar o acesso de usuários de um ou mais provedores de IM público.
 
-## Para configurar uma política de acesso externo para suportar o acesso de usuário público
+
+</div>
+
+Use o procedimento a seguir para configurar uma política para dar suporte ao acesso por usuários de um ou mais provedores de mensagens de chat públicos.
+
+<div>
+
+## <a name="to-configure-an-external-access-policy-to-support-public-user-access"></a>Para configurar uma política de acesso externo para dar suporte ao acesso de usuários públicos
 
 1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação esquerda, clique em **Acesso do Usuário Externo** e em **Política de Acesso Externo**.
+3.  Na barra de navegação à esquerda, clique em **acesso ao usuário externo**e, em seguida, clique em **política de acesso externo**.
 
-4.  Na página **Política de Acesso Externo**, execute um dos seguintes procedimentos:
+4.  Na página **política de acesso externo** , siga um destes procedimentos:
     
-      - Para configurar a política global a fim de suportar o acesso de usuário público, clique na política global, em **Editar** e clique em **Mostrar detalhes**.
+      - Para configurar a política global para dar suporte ao acesso a usuários públicos, clique na política global, clique em **Editar**e clique em **Mostrar detalhes**.
     
-      - Para criar uma nova política de site, clique em **Nova** e em **Política de site**. Em **Selecionar um Site**, clique no site apropriado na lista e em **OK**.
+      - Para criar uma nova política de site, clique em **novo**e, em seguida, clique em **política do site**. Em **selecionar um site**, clique no site apropriado na lista e, em seguida, clique em **OK**.
     
-      - Para criar uma nova política de usuário, clique em **Novo** e clique em **Política de Usuário**. Em **Nova Política de Acesso Externo**, crie um nome exclusivo no campo **Nome** que indica o que a política de usuário cobre (por exemplo, **EnablePublicUsers** para uma política de usuário que permite comunicações para usuários públicos).
+      - Para criar uma nova política de usuário, clique em **novo**e, em seguida, clique em **política de usuário**. Em **nova política de acesso externo**, crie um nome exclusivo no campo **nome** que indique a capa da política do usuário (por exemplo, **EnablePublicUsers** para uma política de usuário que permita comunicações para usuários públicos).
     
-      - Para alterar uma política existente, clique na política adequada listada na tabela, clique em **Editar** e em **Exibir detalhes**.
+      - Para alterar uma política existente, clique na política apropriada listada na tabela, clique em **Editar**e, em seguida, clique em **Mostrar detalhes**.
 
-5.  (Opcional) Se você deseja adicionar ou editar uma descrição, especifique a informação da política em **Descrição**.
+5.  Adicionais Se você quiser adicionar ou editar uma descrição, especifique as informações da política em **Descrição**.
 
 6.  Siga um destes procedimentos:
     
-      - Para habilitar o acesso de usuários públicos à política, marque a caixa de seleção **Habilitar comunicações com usuários públicos**.
+      - Para habilitar o acesso de usuário público para a política, marque a caixa de seleção **habilitar comunicações com usuários públicos** .
     
-      - Para desabilitar o acesso de usuários públicos à política, desmarque a caixa de seleção **Habilitar comunicações com usuários públicos**.
+      - Para desabilitar o acesso de usuário público para a política, desmarque a caixa de seleção **habilitar comunicações com usuários públicos** .
 
 7.  Clique em **Confirmar**.
 
-Para habilitar o acesso ao usuário público, é necessário habilitar o suporte para federação em sua organização. Para obter detalhes, consulte [Configurar políticas para controlar acesso de usuário federado no Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).
+Para habilitar o acesso de usuário público, você também deve habilitar o suporte para Federação em sua organização. Para obter detalhes, consulte [Configurar políticas para controlar o acesso de usuários federados no Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).
 
-Se for uma política de usuário, também será necessário aplicar a política aos usuários públicos para os quais você deseja permitir a colaboração com usuários públicos. Para obter detalhes, consulte [Atribuir políticas por usuário no Lync Server 2013](lync-server-2013-assigning-per-user-policies.md).
+Se esta for uma política de usuário, você também deverá aplicar a política a usuários públicos que você deseja que possam colaborar com usuários públicos. Para obter detalhes, consulte [atribuindo políticas por usuário no Lync Server 2013](lync-server-2013-assigning-per-user-policies.md).
 
-## Consulte Também
+</div>
 
-#### Tarefas
+<div>
+
+## <a name="see-also"></a>Confira também
+
 
 [Criar ou editar fornecedores SIP públicos federados no Lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md)  
 
-#### Outros Recursos
 
-[Gerenciar fornecedores SIP federados para sua organização no Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)
+[Gerenciar fornecedores SIP federados para sua organização no Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

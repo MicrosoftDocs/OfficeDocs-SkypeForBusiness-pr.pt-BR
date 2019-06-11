@@ -1,51 +1,85 @@
-﻿---
-title: Conectar pool piloto aos Servidores de Borda herdados
-TOCTitle: Conectar pool piloto aos Servidores de Borda herdados
-ms:assetid: 9ed13c41-f3ab-4e1d-beb6-a00152c541e2
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205136(v=OCS.15)
-ms:contentKeyID: 49307614
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Conectar pool piloto aos Servidores de Borda herdados
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Connect pilot pool to legacy Edge Servers
+ms:assetid: 9ed13c41-f3ab-4e1d-beb6-a00152c541e2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205136(v=OCS.15)
+ms:contentKeyID: 48185003
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 40d54a7432451901a32cb8e31d201ef732a731bd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836838"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Conectar pool piloto aos Servidores de Borda herdados
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-02_
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Conectar pool piloto aos Servidores de Borda herdados
 
-Após a implantação do Lync Server 2013, uma rota de federação desse site não está configurada. Para usar essa rota federada que está sendo usada pelo Office Communications Server 2007 R2, o Lync Server 2013 deve ser configurado para usar essa rota.
+</div>
 
-Para ativar o site do Lync Server 2013 para usar o Diretor e Servidor de Borda do BackCompatSite, use o Construtor de Topologia para associar com o pool de borda antigo.
+<div id="mainSection">
 
-## Para associar o pool de Borda herdado usando o Construtor de Topologia
+<div id="mainBody">
 
-1.  Abra a topologia do pool piloto no Construtor de Topologia.
+<span> </span>
 
-2.  Selecione o site do Lync Server 2013.
+_**Tópico da última modificação:** 2012-10-02_
 
-3.  No menu **Ação**, clique em **Editar Propriedades**.
+Após implantar o Lync Server 2013, uma rota de Federação para este site não é configurada. Para usar a rota federada que está sendo usada pelo Office Communications Server 2007 R2, o Lync Server 2013 deve ser configurado para usar essa rota.
 
-4.  Em **Atribuição da rota de federação do site**, selecione **Habilitar federação SIP** e selecione o Diretor do Office Communications Server 2007 R2 ou o Servidor de Borda do Office Communications Server 2007 R2 se nenhum Diretor estiver listado.
+Para habilitar o site do Lync Server 2013 a usar o diretor e o servidor de borda da BackCompatSite, use o construtor de topologias para associar o pool de bordas herdado.
+
+<div>
+
+## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>Para associar o pool de bordas herdado usando o construtor de topologias
+
+1.  Abra a topologia do pool piloto no construtor de topologias.
+
+2.  Selecione seu site do Lync Server 2013.
+
+3.  No menu **ação** , clique em **Editar propriedades**.
+
+4.  Em **atribuição de rota de Federação do site**, selecione **habilitar Federação SIP**e, em seguida, selecione o diretor do office Communications Server 2007 R2 ou o servidor de borda do office Communications Server 2007 R2 se nenhum diretor estiver listado.
     
-    ![Caixa de diálogo Editar Propriedades, página Rota de federação](images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "Caixa de diálogo Editar Propriedades, página Rota de federação")  
+    ![Caixa de diálogo Editar propriedades, página rota de Federação] (images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "Caixa de diálogo Editar propriedades, página rota de Federação")  
 
-5.  Clique em **OK** para fechar a página **Editar Propriedades**.
+5.  Clique em **OK** para fechar a página **Editar propriedades** .
 
-6.  No Construtor de Topologia, no nó Lync Server 2013, navegue até o **servidor do Standard Edition** ou **Pools de front-end do Enterprise Edition**, clique com o botão direito no pool e clique em **Editar propriedades**.
+6.  No construtor de topologias, no nó do Lync Server 2013, navegue até os pools do **servidor Standard Edition** ou do **front-end da edição Enterprise**, clique com o botão direito do mouse no pool e, em seguida, clique em **Editar propriedades**.
 
-7.  Em **Associações**, marque a caixa de seleção próxima ao **Associar pool de Borda (para componentes de mídia)**.
+7.  Em **associações**, marque a caixa de seleção ao lado de **associar o pool de bordas (para componentes de mídia)**.
 
-8.  Na lista, selecione a interface do Servidor de Borda do BackCompatSite.
+8.  Na lista, selecione a interface do servidor de borda para o BackCompatSite.
     
-    ![Caixa de diálogo Editar Propriedades, página Geral](images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "Caixa de diálogo Editar Propriedades, página Geral")  
+    ![Caixa de diálogo Editar propriedades, página Geral] (images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "Caixa de diálogo Editar propriedades, página Geral")  
 
-9.  Clique em **OK** para fechar a página **Editar Propriedades**.
+9.  Clique em **OK** para fechar a página **Editar propriedades** .
 
-10. Em **Construtor de Topologias**, selecione o nó superior, **Lync Server**.
+10. No **Construtor**de topologias, selecione o nó mais alto, **Lync Server**.
 
-11. No painel **Ações**, no menu **Publicar topologia** e em **Avançar**.
+11. No menu **ação** , clique em **publicar topologia**e, em seguida, clique em **Avançar**.
 
-12. Quando o **Assistente de publicação** for concluído, clique em **Finalizar**.
+12. Quando o **Assistente de publicação** for concluído, clique em **concluir**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

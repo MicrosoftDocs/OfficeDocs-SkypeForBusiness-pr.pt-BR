@@ -1,33 +1,67 @@
-﻿---
-title: Políticas de conferência no Lync Server 2013
-TOCTitle: Políticas de conferência no Lync Server 2013
-ms:assetid: 8f92eb7c-ee66-4df6-a726-4bff93b122cb
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688133(v=OCS.15)
-ms:contentKeyID: 49886312
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: políticas de conferência'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Conferencing policies
+ms:assetid: 8f92eb7c-ee66-4df6-a726-4bff93b122cb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688133(v=OCS.15)
+ms:contentKeyID: 49733732
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b60b521c69b821dacfe8bd569a6300b4c21e0287
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836468"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Políticas de conferência no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-18_
+# <a name="conferencing-policies-in-lync-server-2013"></a>Políticas de conferência no Lync Server 2013
 
-A política de conferência define os recursos e capacidades disponíveis aos usuários durante uma conferência (também conhecida como reunião). As definições de política de conferência englobam uma grande variedade de opções de agendamento e participação, desde se uma reunião pode incluir vídeo e áudio IP até o número máximo de pessoas que podem participar da reunião. Os administradores podem usar as políticas de conferência para gerenciar os aspectos legais, de segurança e de banda larga de reuniões.
+</div>
 
-Você pode definir a política de conferência em três níveis: escopo global, escopo de site e escopo de usuário. As configurações se aplicam a um usuário específico desde o menor escopo até o maior. Caso você atribua uma política de usuário a um usuário, estas configurações tem precedência. Caso você não atribua uma política de usuário, aplicam-se as definições de site. Caso políticas de usuários ou de site não sejam aplicáveis, a política global fornece as definições padrão.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-18_
+
+A política de conferência define os recursos e as funcionalidades que os usuários disponibilizam durante uma conferência (também conhecida como reunião). As definições de política de conferência englobam uma grande variedade de opções de agendamento e participação, desde se uma reunião pode incluir vídeo e áudio IP até o número máximo de pessoas que podem participar da reunião. Os administradores podem usar a política de conferência para gerenciar a segurança, a largura de banda e os aspectos legais das reuniões.
+
+Você pode definir a política de conferência em três níveis: escopo global, escopo de site e escopo de usuário. As configurações se aplicam a um usuário específico desde o menor escopo até o maior. Se você atribuir uma política de usuário a um usuário, essas configurações terão precedência. Caso você não atribua uma política de usuário, aplicam-se as definições de site. Caso políticas de usuários ou de site não sejam aplicáveis, a política global fornece as definições padrão.
 
 Há uma política global por padrão, portanto você não pode criar uma nova política global. Você também não pode excluir a política global existente, mas pode alterar a política global existente para personalizar suas configurações padrão.
 
-## Nesta seção
+<div>
 
-  - [Exibir informações da política de conferência](lync-server-2013-view-conferencing-policy-information.md)
+## <a name="in-this-section"></a>Nesta seção
 
-  - [Criar ou Modificar uma Política de Conferência no Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md)
+  - [Exibir informações de política de conferência no Lync Server 2013](lync-server-2013-view-conferencing-policy-information.md)
 
-  - [Excluir uma política de conferência existente](lync-server-2013-delete-an-existing-conferencing-policy.md)
+  - [Criar ou modificar uma política de conferência no Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md)
 
-  - [Referência das configurações da política de conferência para Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)
+  - [Excluir uma política de conferência existente no Lync Server 2013](lync-server-2013-delete-an-existing-conferencing-policy.md)
+
+  - [Referência de configurações de política de conferência para o Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

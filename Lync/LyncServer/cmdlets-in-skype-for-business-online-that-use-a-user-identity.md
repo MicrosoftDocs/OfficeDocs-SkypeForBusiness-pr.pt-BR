@@ -1,76 +1,82 @@
-﻿---
-title: Cmdlets Que Usam Identidade de Usuário
-TOCTitle: Cmdlets Que Usam Identidade de Usuário
-ms:assetid: be87409f-6372-4c70-91ac-6ef13dfbe65a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn362842(v=OCS.15)
-ms:contentKeyID: 56270466
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Cmdlets Que Usam Identidade de Usuário
+title: Cmdlets no Skype for Business online que usam a identidade do usuário
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use a user identity
+ms:assetid: be87409f-6372-4c70-91ac-6ef13dfbe65a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362842(v=OCS.15)
+ms:contentKeyID: 56558859
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 63e0086f4b04dd199a285820db811a57899cdc0f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836095"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a>Cmdlets no Skype for Business online que usam a identidade do usuário
 
  
 
-_**Tópico modificado em:** 2015-06-22_
 
-Em Skype for Business Online, há várias maneiras diferentes de referenciar uma Identidade de usuário individual:
+No Skype for Business Online, há várias maneiras diferentes de fazer referência a uma identidade de usuário individual:
 
-  - Use o nome de exibição do usuário do Serviço de Domínio do Active Directory. Por exemplo:
+  - Use o nome de exibição dos serviços de domínio Active Directory do usuário. Por exemplo:
     
         -Identity "Ken Myer"
 
-  - Use o endereço de usuário SIP. Por exemplo:
+  - Use o endereço SIP do usuário. Por exemplo:
     
         -Identity "sip:kenmyer@litwareinc.com"
 
-  - Use o usuário UPN. Por exemplo:
+  - Use o UPN do usuário. Por exemplo:
     
         -Identity " kenmyer@litwareinc.com"
 
-  - Use o nome diferenciado do usuário do Serviço de Domínio do Active Directory. Por exemplo:
+  - Use o nome diferenciado dos serviços de domínio Active Directory do usuário. Por exemplo:
     
         -Identity "CN=48ebd1ba-95d4-460c-b751-811ebf0c4611,OU=fa8226f5-14fa-46da-8 236-039b25bc7a27,OU=Lync Online Tenants,DC=litwareinc,DC=com"
 
-Os cmdlets a seguir aceitam uma Identidade de usuário:
+Os cmdlets a seguir aceitam uma identidade de usuário:
 
-  - [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom)
+  - [Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204723\(v=ocs.15\))
 
-  - [Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom)
+  - [Enable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205062\(v=ocs.15\))
 
-  - [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact)
+  - [Get-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412725\(v=ocs.15\))
 
-  - [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom)
+  - [Get-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205277\(v=ocs.15\))
 
-  - [Get-CsOnlineUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsOnlineUser?view=skype-ps)
+  - [Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/jj994026\(v=ocs.15\))
 
-  - [Get-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserAcp)
+  - [Get-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398978\(v=ocs.15\))
 
-  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
+  - [New-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398139\(v=ocs.15\))
 
-  - [Remove-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExUmContact)
+  - [Remove-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398946\(v=ocs.15\))
 
-  - [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserAcp)
+  - [Remove-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398982\(v=ocs.15\))
 
-  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
+  - [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412944\(v=ocs.15\))
 
-  - [Set-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingRoom)
+  - [Set-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204831\(v=ocs.15\))
 
-  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
+  - [Set-CsUserAcp](https://technet.microsoft.com/en-us/library/gg413018\(v=ocs.15\))
 
-Note que não é necessário especificar uma Identidade de usuário ao contactar um dos cmdlets **Get-Cs**. Nesse caso, os cmdlets retornam todas as instâncias de itens especificados. Por exemplo, este comando retorna informações sobre todos os usuários habilitados por Skype for Business Online:
+Observe que você não precisa especificar uma identidade de usuário ao chamar um dos cmdlets **Get-cs** . Nesse caso, os cmdlets retornam todas as instâncias do item especificado. Por exemplo, esse comando retorna informações sobre todos os usuários que foram habilitados para o Skype for Business Online:
 
     Get-CsOnlineUser
 
-O parâmetro Identity é exigido somente quando se quer retornar informações para um usuário específico.
+O parâmetro Identity é necessário apenas se você quiser retornar informações para um usuário específico:
 
     Get-CsOnlineUser -Identity "Ken Myer"
 
-## Consulte Também
+## <a name="see-also"></a>Confira também
 
-#### Conceitos
 
-[Identidades, escopos e locatários](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Os cmdlets do Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[Identidades, escopos e locatários no Skype for Business Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Os cmdlets do Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
 

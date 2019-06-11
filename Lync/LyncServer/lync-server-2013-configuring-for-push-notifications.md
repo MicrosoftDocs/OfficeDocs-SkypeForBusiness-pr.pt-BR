@@ -1,45 +1,80 @@
-﻿---
-title: 'Lync Server 2013: Configurando notificações por push'
-TOCTitle: Configurando notificações por push
-ms:assetid: d77f2c06-0fe6-45d5-8f08-808ab871b3e0
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh690047(v=OCS.15)
-ms:contentKeyID: 49308265
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando notificações por push'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring for push notifications
+ms:assetid: d77f2c06-0fe6-45d5-8f08-808ab871b3e0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690047(v=OCS.15)
+ms:contentKeyID: 48185574
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 08492aaa6fc8c9fb6569ad6ad642a5cc1157a2ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836250"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando notificações por push no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-12_
+# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>Configurando notificações por push no Lync Server 2013
 
-Notificações de push no formato de crachás, ícones ou alertas podem ser enviadas para um dispositivo móvel quando o aplicativo móvel estiver inativo. As notificações de push avisam um usuário de eventos como um convite de IM novo ou perdido e caixa postal. O Serviço de Mobilidade do Lync Server 2013 envia notificações para o Serviço de Notificação de Push Lync Server baseado em nuvem, que envia a notificação para o Serviço de Notificação Push da Apple (APNS), para um dispositivo Apple executando o cliente Lync 2010 Mobile; ou o Serviço de Notificação de Push da Microsoft (MPNS), para um dispositivo Windows Phone executando o cliente móvel Lync 2010 Mobile ou Lync 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-12_
+
+As notificações por push, na forma de selos, ícones ou alertas, podem ser enviadas para um dispositivo móvel mesmo quando o aplicativo móvel estiver inativo. As notificações por push notificam um usuário de eventos como um convite de mensagem instantânea novo ou perdido e caixa postal. O serviço de mobilidade do Lync Server 2013 envia as notificações para o serviço de notificação por push do Lync Server baseado na nuvem, que envia as notificações para o serviço de notificação por push da Apple (APNS) (para um dispositivo Apple executando o Lync 2010 Mobile cliente) ou o Serviço de notificação por push da Microsoft (MPNS) (para um dispositivo Windows Phone executando o Lync 2010 Mobile ou o Lync 2013 Mobile Client).
+
+<div>
+
 
 > [!IMPORTANT]  
-> Se você utiliza Windows Phone com cliente móvel Lync 2010 Mobile ou Lync 2013, notificação de push é uma consideração importante.<br />Se você utiliza Lync 2010 Mobile em dispositivos Apple, notificação de push é uma consideração importante.<br />Se você utiliza Lync 2013 móvel em dispositivos Apple, você não precisa mais de notificação de push.
+> Se você usa o Windows Phone com o Lync 2010 Mobile ou o Lync 2013 Mobile Client, a notificação por push é uma consideração importante.<BR>Se você usa o Lync 2010 Mobile em dispositivos Apple, a notificação por push é uma consideração importante.<BR>Se você usa o Lync 2013 Mobile em dispositivos Apple, você não precisa mais de notificação por push.
 
-Configure sua topologia para suportar as notificações por push fazendo o seguinte:
 
-  - Se seu ambiente possui um Lync Server 2010 ou Lync Server 2013Servidor de Borda, você precisa adicionar um novo provedor de host, o Microsoft Lync Online, e configurar a federação do provedor de host entre sua organização e o Lync Online.
 
-  - Se seu ambiente tiver um Office Communications Server 2007 R2Servidor de Borda, será necessário configurar a federação direta de SIP com push.lync.com.
+</div>
+
+Configure sua topologia para dar suporte a notificações por push fazendo o seguinte:
+
+  - Se o seu ambiente tiver um servidor do Lync Server 2010 ou Lync Server 2013 Edge Server, você precisará adicionar um novo provedor de hospedagem, o Microsoft Lync Online e, em seguida, configurar a Federação do provedor de hospedagem entre sua organização e o Lync Online.
+
+  - Se o seu ambiente tiver um servidor de borda do Office Communications Server 2007 R2, você precisará configurar a Federação SIP direta com o push.lync.com.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Push.lync.com é um domínio do Microsoft Office 365 para o Serviço de Notificação de Push.
+    > O Push.lync.com é um domínio do Microsoft Office 365 para o serviço de notificação por push.
 
-  - Para habilitar as notificações por push, você precisa executar o cmdlet **Set-CsPushNotificationConfiguration**. Por padrão, as notificações por push estão desativadas.
+    
+    </div>
 
-  - Teste a configuração de federação e as notificações por push.
+  - Para habilitar as notificações por push, você precisa executar o cmdlet **set-CsPushNotificationConfiguration** . Por padrão, as notificações por push estão desativadas.
 
-## Para configurar para notificações de push com Lync Server 2013 ou Lync Server 2010Servidor de Borda
+  - Teste a configuração de Federação e as notificações por push.
 
-1.  Faça logon no computador onde o Shell de Gerenciamento do Lync Server e o Ocscore estão instalados como membro do grupo RtcUniversalServerAdmins.
+<div>
 
-2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+## <a name="to-configure-for-push-notifications-with-lync-server-2013-or-lync-server-2010edge-server"></a>Para configurar notificações por push com o Lync Server 2013 ou o Lync Server 2010 Edge Server
 
-3.  Adicione um provedor de hospedagem online do Lync Server. Na linha de comando, digite:
+1.  Faça logon em um computador em que o Shell de gerenciamento do Lync Server e o OCScore são instalados como um membro do grupo RtcUniversalServerAdmins.
+
+2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+
+3.  Adicionar um provedor de hospedagem online do Lync Server. Na linha de comando, digite:
     
         New-CsHostingProvider -Identity <unique identifier for Lync Online hosting provider> -Enabled $True -ProxyFqdn <FQDN for the Access Server used by the hosting provider> -VerificationLevel UseSourceVerification
     
@@ -47,52 +82,70 @@ Configure sua topologia para suportar as notificações por push fazendo o segui
     
         New-CsHostingProvider -Identity "LyncOnline" -Enabled $True -ProxyFqdn "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
     
-    > [!NOTE]  
-    > Não é possível ter mais de um relacionamento de federação com um único provedor de hospedagem. Ou seja, se você já tiver configurado um provedor de hospedagem que tenha um relacionamento de federação com sipfed.online.lync.com, não adicione outro provedor de hospedagem para ele, mesmo se a identidade do provedor de hospedagem for algo além de LyncOnline.
+    <div>
+    
 
-4.  Configure a federação do provedor de hospedagem entre sua organização e o Serviço de Notificação por Push no Lync Online. Na linha de comando, digite:
+    > [!NOTE]  
+    > Você não pode ter mais de uma relação de Federação com um único provedor de hospedagem. Ou seja, se você já configurou um provedor de hospedagem que tem uma relação de Federação com o sipfed.online.lync.com, não adicione outro provedor de hospedagem para ele, mesmo que a identidade do provedor de hospedagem seja algo diferente de LyncOnline.
+
+    
+    </div>
+
+4.  Configurar a Federação do provedor de hospedagem entre sua organização e o serviço de notificação por push no Lync Online. Na linha de comando, digite:
     
         New-CsAllowedDomain -Identity "push.lync.com"
 
-## Para configurar para notificações de push com Office Communications Server 2007 R2Servidor de Borda
+</div>
 
-1.  Faça logon no Servidor de Borda como membro do grupo RtcUniversalServerAdmins.
+<div>
 
-2.  Clique em **Iniciar** , em **Todos os Programas** , em **Ferramentas Administrativas** e clique em **Gerenciamento do Computador** .
+## <a name="to-configure-for-push-notifications-with-office-communications-server-2007-r2edge-server"></a>Para configurar notificações por push com o servidor de borda do Office Communications Server 2007 R2
 
-3.  Na árvore do console, expanda **Serviços e Aplicativos** , clique com o botão direito do mouse em **Microsoft Office Communications Server 2007 R2** e clique em **Propriedades** .
+1.  Faça logon no servidor de borda como membro do grupo RtcUniversalServerAdmins.
 
-4.  Na guia **Permitir** , clique em **Adicionar** .
+2.  Clique em **Iniciar**, em **todos os programas**, em **Ferramentas administrativas**e em **Gerenciamento do computador**.
 
-5.  Na caixa de diálogo **Adicionar Parceiro Federado** , execute o seguinte procedimento:
+3.  Na árvore de console, expanda **serviços e aplicativos**, clique com o botão direito do mouse em **Microsoft Office communications Server 2007 R2**e, em seguida, clique em **Propriedades**.
+
+4.  Na guia **permitir** , clique em **Adicionar**.
+
+5.  Na caixa de diálogo **Adicionar parceiro federado** , faça o seguinte:
     
-      - Em **Nome de domínio do parceiro federado:** , digite **push.lync.com** .
+      - Em **nome do domínio do parceiro federado**, digite **Push.Lync.com**.
     
-      - Em **Servidor de Borda de Acesso do parceiro Federado** , digite **sipfed.online.lync.com**.
+      - No **servidor de borda de acesso do parceiro federado**, digite **sipfed.online.Lync.com**.
     
-      - Clique em **OK** .
+      - Clique em **OK**.
 
-## Para habilitar as notificações por push
+</div>
 
-1.  Faça logon no computador onde o Shell de Gerenciamento do Lync Server e o Ocscore estão instalados como membro da função CsAdministrator.
+<div>
 
-2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+## <a name="to-enable-push-notifications"></a>Para ativar as notificações por push
+
+1.  Faça logon em um computador em que o Shell de gerenciamento do Lync Server e o OCScore são instalados como um membro da função CsAdministrator.
+
+2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
 
 3.  Habilite as notificações por push. Na linha de comando, digite:
     
         Set-CsPushNotificationConfiguration -EnableApplePushNotificationService $True -EnableMicrosoftPushNotificationService $True
 
-4.  Habilite a federação. Na linha de comando, digite:
+4.  Habilite a Federação. Na linha de comando, digite:
     
         Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
-## Para testar a federação e as notificações por push
+</div>
 
-1.  Faça logon no computador onde o Shell de Gerenciamento do Lync Server e o Ocscore estão instalados como membro da função CsAdministrator.
+<div>
 
-2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+## <a name="to-test-federation-and-push-notifications"></a>Para testar as notificações por push e de Federação
 
-3.  Teste a configuração de federação. Na linha de comando, digite:
+1.  Faça logon em um computador em que o Shell de gerenciamento do Lync Server e o OCScore são instalados como um membro da função CsAdministrator.
+
+2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+
+3.  Testar a configuração de Federação. Na linha de comando, digite:
     
         Test-CsFederatedPartner -TargetFqdn <FQDN of Access Edge server used for federated SIP traffic> -Domain <FQDN of federated domain> -ProxyFqdn <FQDN of the Access Edge server used by the federated organization>
     
@@ -108,10 +161,26 @@ Configure sua topologia para suportar as notificações por push fazendo o segui
     
         Test-CsMcxPushNotification -AccessEdgeFqdn accessproxy.contoso.com
 
-## Consulte Também
+</div>
 
-#### Outros Recursos
+<div>
 
-[Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner)  
-[Test-CsMcxPushNotification](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxPushNotification)
+## <a name="see-also"></a>Confira também
+
+
+[Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner)  
+[Test-CsMcxPushNotification](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxPushNotification)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

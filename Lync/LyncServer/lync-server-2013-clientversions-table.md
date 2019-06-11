@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabela ClientVersions'
-TOCTitle: Tabela ClientVersions
-ms:assetid: 542316cf-a6db-4d52-ab28-8bf6d27a3b48
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398356(v=OCS.15)
-ms:contentKeyID: 49306731
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabela ClientVersions'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ClientVersions table
+ms:assetid: 542316cf-a6db-4d52-ab28-8bf6d27a3b48
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398356(v=OCS.15)
+ms:contentKeyID: 48184176
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cba578209ca6c22360da73c2317334ecf77da569
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836554"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabela ClientVersions no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="clientversions-table-in-lync-server-2013"></a>Tabela ClientVersions no Lync Server 2013
 
-ClientVersions é uma tabela de suporte que armazena uma lista dos vários tipos de cliente e as versões que participaram de sessões gravadas no banco de dados. Cada registro da tabela representa uma versão de cliente.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-28_
+
+A tabela ClientVersions é uma tabela de suporte que armazena uma lista de vários tipos de cliente e versões que participaram de sessões registradas no banco de dados. Cada registro na tabela representa uma versão do cliente.
 
 
 <table>
@@ -29,7 +49,7 @@ ClientVersions é uma tabela de suporte que armazena uma lista dos vários tipos
 <tr class="header">
 <th>Coluna</th>
 <th>Tipo de dados</th>
-<th>Chave/Índice</th>
+<th>Chave/índice</th>
 <th>Detalhes</th>
 </tr>
 </thead>
@@ -37,22 +57,33 @@ ClientVersions é uma tabela de suporte que armazena uma lista dos vários tipos
 <tr class="odd">
 <td><p><strong>VersionId</strong></p></td>
 <td><p><strong>int</strong></p></td>
-<td><p>Primário</p></td>
+<td><p>Primária</p></td>
 <td><p>Número exclusivo que identifica esse tipo de cliente e a versão.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Version</strong></p></td>
+<td><p><strong>Versão</strong></p></td>
 <td><p><strong>nvarchar(256)</strong></p></td>
-<td><p></p></td>
+<td></td>
 <td><p>Nome da versão.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>Especifique o tipo de cliente utilizado na sessão. Consulte o <a href="lync-server-2013-useragentdef-table.md">Tabela UserAgentDef no Lync Server 2013</a> para obter mais informações.</p>
-<p>Este campo foi introduzido no Microsoft Lync Server 2013.</p></td>
+<td></td>
+<td><p>Especifica o tipo de cliente usado na sessão. Consulte a <a href="lync-server-2013-useragentdef-table.md">tabela UserAgentDef no Lync Server 2013</a> para obter mais informações.</p>
+<p>Este campo foi apresentado no Microsoft Lync Server 2013.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

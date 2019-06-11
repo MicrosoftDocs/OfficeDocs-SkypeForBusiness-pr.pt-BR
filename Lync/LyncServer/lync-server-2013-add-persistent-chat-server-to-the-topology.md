@@ -1,86 +1,157 @@
-﻿---
-title: 'Lync Server 2013: Adicionar Servidor de Chat Persistente à topologia'
-TOCTitle: Adicionar Servidor de Chat Persistente à topologia
-ms:assetid: 8389b307-8c17-4e45-b3b5-5dc9fcfc2ffb
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205049(v=OCS.15)
-ms:contentKeyID: 49307316
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Adicionar Servidor de Chat Persistente à topologia'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Add Persistent Chat Server to the topology
+ms:assetid: 8389b307-8c17-4e45-b3b5-5dc9fcfc2ffb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205049(v=OCS.15)
+ms:contentKeyID: 48184682
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8985ee2fd28a81f3630e4f80c0ac4dd5a23d4475
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836941"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Adicionar Servidor de Chat Persistente à topologia no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-06_
+# <a name="add-persistent-chat-server-to-the-topology-in-lync-server-2013"></a>Adicionar Servidor de Chat Persistente à topologia no Lync Server 2013
 
-Você deve incoporar o suporte a Lync Server 2013 e Servidor de Chat Persistente na topologia antes de configurara implantação para oferecer suporte a Servidor de Chat Persistente. As informações deste tópico descrevem como usar Construtor de Topologias para adicionar suporte Servidor de Chat Persistente à topologia existente.
+</div>
 
-## Para adicionar Servidor de Chat Persistente a uma topologia
+<div id="mainSection">
 
-Siga estas instruções para instalar um único Pool de Servidor de Chat Persistente sem configuração para recuperação de desastres. Para configurar Pool de Servidor de Chat Persistente estendido a fim de garantir alta disponibilidade e recuperação de desastres, consulte [Configurando o Servidor de Chat Persistente para alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) na documentação de implantação.
+<div id="mainBody">
 
-Para implantar diversos Pools de Servidor de Chat Persistente, repita o processo para todos os pools.
+<span> </span>
 
-1.  Em um computado com Lync Server 2013 em execução ou em que as ferramentas administrativas Lync Server estejam instaladas, faça logon usando uma conta que faça parte do grupo de usuários local (ou uma conta com direitos de usuário equivalentes).
+_**Tópico da última modificação:** 2012-10-06_
+
+Você deve incorporar o Lync Server 2013, o suporte persistente do servidor de chat em sua topologia antes de poder configurar sua implantação para dar suporte ao servidor de chat persistente. As informações neste tópico descrevem como usar o construtor de topologias para adicionar o suporte do servidor de chat persistente à sua topologia existente.
+
+<div>
+
+## <a name="to-add-persistent-chat-server-to-a-topology"></a>Para adicionar um servidor de chat persistente a uma topologia
+
+Execute as etapas a seguir para instalar um único pool de servidores de chat persistente sem uma configuração de recuperação de desastres. Para configurar um pool de servidor de chat persistente ampliado para alta disponibilidade e recuperação de desastres, consulte Configurando o [servidor de chat persistente para alta disponibilidade e recuperação de desastres no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) na documentação de implantação.
+
+Para implantar vários pools de servidores de chat persistentes, repita o mesmo processo para cada pool.
+
+1.  Em um computador que está executando o Lync Server 2013 ou no qual as ferramentas administrativas do Lync Server estão instaladas, faça logon usando uma conta que seja membro do grupo usuários local (ou uma conta com direitos de usuário equivalentes).
     
+    <div>
+    
+
     > [!NOTE]  
-    > É possível definir a topologia por meio de uma conta que faça parte do grupo de usuários local. Porém, para publicar a topologia, o que é necessário para instalar servidores Lync Server 2013, é necessário usar uma conta que faça parte dos grupos <strong>Admins. do domínio</strong> e <strong>RTCUniversalServerAdmins</strong> e que tenha permissões para controle total (ou seja, ler, gravar e modificar) no repositório de arquivos que será usado para o repositório de arquivos Servidor de Chat Persistente (ou seja, para que Construtor de Topologias possa configurar DACLs) ou uma conta com direitos equivalentes.
+    > Você pode definir uma topologia usando uma conta que seja membro do grupo usuários local, mas para publicar uma topologia, que é necessária para instalar um servidor do Lync Server 2013, você deve usar uma conta que seja membro do grupo <STRONG>Administradores de domínio</STRONG> e o <STRONG>RTCUniversalS erverAdmins</STRONG> grupo, e que tem permissões de controle total (ou seja, ler, gravar e modificar) no repositório de arquivos que você vai usar para o repositório de arquivos persistente do servidor de chat (ou seja, o construtor de topologia pode configurar as DACLs obrigatórias) ou uma conta com direitos equivalentes.
 
-2.  Iniciar Construtor de Topologias.
+    
+    </div>
 
-3.  Na árvore do console, acesse o nó **Chat Persistente Pools** e expanda-o para selecionar um Pool de Servidor de Chat Persistente ou clique no nó com o botão direito e selecione **Novo Chat Persistente Pool** . Defina o nome de domínio totalmente qualificado (FQDN) do pool e indique se trata-se de implementação de pool com um só ou com diversos servidores.
+2.  Iniciar o construtor de topologias.
+
+3.  Na árvore de console, navegue até o nó de pools de **chat persistente** e expanda-o para selecionar um pool de servidores de chat persistente, ou clique com o botão direito do mouse no nó e selecione **novo pool de chat persistente**. You must define the pool’s fully qualified domain name (FQDN), and indicate whether the pool will be a single-server pool or multiple-server pool deployment.
     
-    Você pode entre **Pool de múltiplos computadores** ou **Pool de único computador** . Escolha a primeira opção se planejar ter mais de um Servidor de Chat PersistenteServidor Front-End em seu Pool de Servidor de Chat Persistente. É possível escolher agora ou depois porque após a criação do pool de único computador não é possível adicionar outros servidores. Se optar pelo pool de múltiploscomputadores, insira o nome do Servidor de Chat PersistenteServidores Front-End que contém o pool.
+    Você pode escolher entre um **Pool de múltiplos computadores** ou um **Pool de computador único**. Escolha o primeiro se estiver planejando ter mais de um servidor front-end persistente do servidor de chat em seu pool de servidores de chat persistente. É possível escolher agora ou depois, já que após a criação do pool de computador único não é possível adicionar outros servidores. Se você escolher um pool de vários computadores, insira os nomes dos servidores de front-end persistentes do servidor de chat que compõem o pool.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Se a função Servidor de Chat Persistente estiver sendo instalada em um Lync Server 2013Servidor Standard Edition, é necessário que o FQDN corresponda ao FQDN de Servidor Standard Edition.
+    > Se a função de servidor de chat persistente estiver sendo instalada em um servidor&nbsp;do Lync Server 2013 Standard Edition, o FQDN precisará corresponder ao FQDN do servidor Standard Edition.
 
-4.  Defina um **Nome de exibição** simples para Pool de Servidor de Chat Persistente. O nome de exibição pode serusado por clientes personalizados, principalmente quando há diversos Pools de Servidor de Chat Persistente, a fim de diferenciar a sala.
-
-5.  Defina a porta usada por Servidor de Chat Persistente para comunicação com Lync ServerServidores Front-End. A porta padrão é 5041.
-
-6.  Se sua organização requerer suporte à conformidade, marque a caixa de seleção **Habilitar conformidade** . Caso a caixa seja marcada, o serviço de conformidade Servidor de Chat Persistente será intalado no mesmo computador que o Servidor de Chat PersistenteServidor Front-End. O sistema solicitará que você selecione SQL ServerServidor Back-End para conformidade Servidor de Chat Persistente posterior.
-
-7.  Designe a afinidade de site para Pool de Servidor de Chat Persistente. Marque a caixa de seleção **Usar este pool como padrão para o site \<Nomedosite\>** ou **Usar este pool como padrão para todos os sites** para designar este Pool de Servidor de Chat Persistente como o pool padrão para o site atual ou para todos os sites. Quando o cliente Lync 2013 for usado para criar e gerenciar salas, o poolpadrão associado ao site do usuário é usado pela experiência de criação e gerenciamento de salas para que seja possível encaminhar as operações de criação e gerenciamento de salas para o pool em questão. Isso aplica-sesomente quando há diversos Pools de Servidor de Chat Persistente implantados e você deseja usar os recursos de criação e gerenciamento de sala de Servidor de Chat Persistente.
     
+    </div>
+
+4.  Defina um **nome de exibição** simples para o pool do servidor de chat persistente. O nome de exibição pode ser usado por clientes personalizados, especialmente quando há vários pools de servidores de chat persistentes, para diferenciar os quartos.
+
+5.  Defina a porta usada pelo servidor de chat persistente para se comunicar com os servidores front-end do Lync Server. A porta padrão é 5041.
+
+6.  Se sua organização requerer suporte à conformidade, marque a caixa de seleção **Habilitar conformidade**. Se escolhido, o serviço de conformidade do servidor de chat persistente é instalado no mesmo computador que o servidor front-end persistente do servidor de chat. Você será solicitado a selecionar um servidor back-end do SQL Server para conformidade com o servidor de chat persistente mais tarde.
+
+7.  Atribua afinidade de site ao pool de servidores de chat persistente. Marque a caixa de seleção **usar este pool como \<padrão\> para o site SiteName** ou **Use este pool como padrão para todos os sites** para designar este pool de servidores de chat persistente como o pool padrão para o site atual ou todos os sites. Quando o cliente Lync 2013 é usado para criar e gerenciar salas, o pool padrão associado ao site do usuário é usado pela criação e pela experiência de gerenciamento da sala para que possa rotear operações de criação e gerenciamento da sala para esse pool. Isso só se aplica quando você tem vários pools de servidores de chat persistentes implantados e deseja usar os recursos de criação e gerenciamento de salas do servidor de chat persistente.
+    
+    <div>
+    
+
     > [!IMPORTANT]  
-    > É possível personalizar os recursos de criação e gerenciamento de sala por meio do Software Development Kit (SDK) do Servidor de Chat Persistente.<br />    Para obter detalhes sobre como configurar bancos de dados de backup SQL Server para recuperação de desastres, consulte <a href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Configurando o Servidor de Chat Persistente para alta disponibilidade e recuperação de desastre no Lync Server 2013</a> na documentação de implantação.
+    > Você pode personalizar os recursos de criação e gerenciamento de sala usando o SDK (Kit de desenvolvimento de software) do servidor de chat persistente.<BR>Para obter detalhes sobre como configurar bancos de dados de backup do SQL Server para recuperação de desastres, consulte Configurando o <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">servidor de chat persistente para alta disponibilidade e recuperação de desastres no Lync Server 2013</A> na documentação de implantação.
 
-8.  Defina o **repositório SQL para back-end Servidor de Chat Persistente (em que o conteúdo da sala de chat é armazenado)** seguindo estas instruções:
     
-      - Para usar um banco de dados SQL Server existente, clique no nome do banco de dados SQL Server, exibido na lista suspensa, que deseja usar.
+    </div>
+
+8.  Defina o **repositório SQL para o back-end persistente do servidor de chat (onde o conteúdo da sala de chat está armazenado)** seguindo um destes procedimentos:
     
-      - Para especificar um novo banco de dados SQL Server, clique em **Novo** e em **Definir novo repositório SQL** e siga estas instruções:
+      - Para usar um banco de dados existente do SQL Server, na lista suspensa, clique no nome do banco de dados do SQL Server que você deseja usar.
+    
+      - Para especificar um novo banco de dados do SQL Server, clique em **novo**e, em **definir novo SQL Store**, execute o seguinte procedimento:
     
     <!-- end list -->
     
-      - Em **FQDN do SQL Server** , especifique o FQDN do SQL Server em que deseja criar o novo banco de dados SQL Server.
+      - No **FQDN do SQL Server**, ESPECIFIQUE o FQDN do SQL Server no qual você deseja criar o novo banco de dados do SQL Server.
     
-      - Selecione **Instância padrão** para usar a instância padrão ou **Instância nomeada** e especifique a instância que deseja usar para especificar outra instância.
+      - Selecione **Instância padrão** para usar a instância padrão ou **Instância nomeada** para especificar uma instância diferente e especifique a instância que deseja usar.
 
-9.  Defina o banco de dados de conformidade SQL Server caso a conformidade esteja ativa.
+9.  Defina o banco de dados de conformidade do SQL Server se você tiver habilitado a conformidade.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Para obter mais detalhes sobre como configurar espelhos SQL Server para alta disponibilidadepara o banco de dados Servidor de Chat Persistente e o banco de dados de conformidade Servidor de Chat Persistente, consulte <a href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Configurando o Servidor de Chat Persistente para alta disponibilidade e recuperação de desastre no Lync Server 2013</a> na documentação de implantação.
+    > Para obter detalhes sobre como configurar os espelhos do SQL Server para alta disponibilidade para o banco de dados persistente do servidor de chat e o banco de dados de conformidade do servidor de chat persistente, consulte Configurando o <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">servidor de chat persistente para alta disponibilidade e recuperação de desastre no Lync Server 2013</A> na documentação de implantação.
 
-10. Defina o reposítório do arquivo. Repositórios de arquivos são pastas em que são armazenadas cópidas de todos os arquivos enviados para o repositório de arquivos (por exemplo, para armazenar anexos postados em salas de chat). No caso de topologia Servidor de Chat Persistente com diversos servidores, o reositório deve ser um caminho UNC; no caso de topologia Servidor de Chat Persistente com um único servidor, pode ser o caminho de um arquivo local.
     
-    Para usar repositórios de arquivos existentes, siga estas instruções:
+    </div>
+
+10. Defina o repositório de arquivos. Os repositórios de arquivos são pastas em que são armazenadas cópias de todos os arquivos enviados para o repositório de arquivos (por exemplo, para armazenar anexos de arquivos publicados em salas de chat). No caso de uma topologia de servidor de chat persistente de vários servidores, isso deve ser um caminho UNC (Convenção Universal de nomenclatura); e para uma topologia de servidor de chat persistente de servidor único, pode ser um caminho de arquivo local.
     
-      - No **FQDN do servidor de arquivos** , especifique o FQDN do repositório de arquivos em que deseja criar um novo repositório.
+    Para usar um repositório de arquivos existente, execute as etapas a seguir:
     
-      - Em **Compartilhamento de arquivos** , especifique o repositório que deseja usar.
+      - Em **servidor de arquivos FQDN**, ESPECIFIQUE o FQDN do repositório de arquivos no qual você deseja criar o novo repositório de arquivos.
     
+      - Em **Compartilhamento de arquivos**, especifique o repositório de arquivos que deseja usar.
+    
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Você pode definir o repositório de arquivos em Construtor de Topologias antes de criar o repositório de arquivos, mas deve criar o repositório de arquivos no local definido por você antes de publicar a topologia.
+    > Você pode definir o repositório de arquivos no construtor de topologias antes de criar o repositório de arquivos, mas deve criar o repositório de arquivos no local definido que você define antes de publicar a topologia.
 
-11. Selecione o pool Servidor Front-End a ser usado como próximo salto para este Pool de Servidor de Chat Persistente. Este é o pool Servidor Front-End que será usado para encaminhar solicitações Servidor de Chat Persistente ao pool em questão.
+    
+    </div>
 
-12. Para salvar a configuração, clique em **Concluir** . Pool de Servidor de Chat Persistente é exibidoem Construtor de Topologias juntamente com as configurações do pool específico.
+11. Selecione o pool de servidores front-end a ser usado como um próximo nó para este pool de servidores de chat persistente. Este é o pool de servidores front-ends que poderá rotear solicitações persistentes do servidor de chat para esse pool.
+
+12. Para salvar a configuração, clique em **Concluir**. O pool de servidores de chat persistente aparece no construtor de topologia acompanhado por suas configurações de pool específicas.
     
-    Para publicar a topologia atualizada em que agora consta Servidor de Chat Persistente, consulte [Postar a topologia atualizada no Lync Server 2013](lync-server-2013-publish-the-updated-topology.md) na documentação de implantação.
+    Para publicar agora sua topologia atualizada à qual você tem o servidor de chat persistente, consulte [publicar a topologia atualizada no Lync Server 2013](lync-server-2013-publish-the-updated-topology.md) na documentação de implantação.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Com o Construtor de Topologias aberto, siga para a etapa 3 em <a href="lync-server-2013-publish-the-updated-topology.md">Postar a topologia atualizada no Lync Server 2013</a> para dar início à publicação da topologia atualizada.
+    > Com o construtor de topologias já aberto, você pode passar para a etapa 3 em <A href="lync-server-2013-publish-the-updated-topology.md">publicar a topologia atualizada no Lync Server 2013</A> para começar a publicar sua topologia atualizada.
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

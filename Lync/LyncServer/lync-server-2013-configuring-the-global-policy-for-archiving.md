@@ -1,32 +1,61 @@
-﻿---
-title: Configurando a política global de arquivamento
-TOCTitle: Configurando a política global de arquivamento
-ms:assetid: 58341d6b-c3ff-4dd9-b1c7-0048f33861ca
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204906(v=OCS.15)
-ms:contentKeyID: 49306779
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando a política global para arquivamento'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring the global policy for Archiving
+ms:assetid: 58341d6b-c3ff-4dd9-b1c7-0048f33861ca
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204906(v=OCS.15)
+ms:contentKeyID: 48184192
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9ccb5ba267c3dc94e14f00cf96f240fa2f0e91b0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836173"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando a política global de arquivamento
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-09_
+# <a name="configuring-the-global-policy-for-archiving-in-lync-server-2013"></a>Configurando a política global para arquivamento no Lync Server 2013
 
-Ao implantar seu Servidores Front-End, o Lync Server cria uma política global para arquivamento. Por padrão, o arquivamento está desabilitado na política global. A política global controla se o arquivamento está habilitador para comunicações internas e externas para toda a sua implantação, a menos que você configure as políticas de site ou de usuário, o que substitui a política global ou se você utiliza a integração do Microsoft Exchange para alguns ou todos os seus usuários. Se você utilizar a integração do Microsoft Exchange, a política global não se aplicará a quaisquer usuários que estejam hospedados no Exchange 2013 e tenham suas caixas de correio colocadas em bloqueio In-loco.
+</div>
 
-Para obter detalhes sobre como as políticas de arquivamento funcionam, incluindo a hierarquia para políticas globais, de site e de usuários, consulte [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) Documentação de planejamento, de implantação ou de operações.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-09_
+
+Quando você implanta seus servidores front-end, o Lync Server cria uma política global para arquivar. Por padrão, o arquivamento está desabilitado na política global. A política global controla se o arquivamento está habilitado para comunicações internas e externas para toda a sua implantação, a menos que você tenha configurado políticas de site ou de usuário, o que substitui a política global, ou se você usa a integração do Microsoft Exchange para alguns ou todos os seus usuários. Se você usar a integração do Microsoft Exchange, a política global não se aplicará a nenhum usuário que estiver hospedado no Exchange 2013 e ter as caixas de correio colocadas no bloqueio in-loco.
+
+Para obter detalhes sobre como as políticas de arquivamento funcionam, incluindo a hierarquia para políticas globais, de site e de usuário, consulte [como o arquivamento funciona na documentação de planejamento do Lync Server 2013](lync-server-2013-how-archiving-works.md) , documentação de implantação ou documentação de operações.
+
+<div>
+
 
 > [!NOTE]  
-> Se você habilitar a integração do Microsoft Exchange para a sua implantação, as políticas de bloqueio In-loco do Exchange controlam se o arquivamento é habilitado para usuários que estejam hospedados no Exchange 2013 e tenham suas caixas de correio colocadas em bloqueio In-loco. Para obter detalhes, consulte <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configurando Políticas para Arquivamento quando Usando Integração do Exchange Server</a> na Documentação de implantação.<br />Você deve especificar todas as opções apropriadas nas configurações de arquivamento antes de habilitar o arquivamento. Para obter detalhes, consulte <a href="lync-server-2013-configuring-archiving-options.md">Configurando opções de arquivamento</a> na Documentação de implantação.
+> Se você habilitar a integração do Microsoft Exchange para a implantação, as políticas de bloqueio do Exchange in loco controlarão se o arquivamento está habilitado para os usuários que estão hospedados no Exchange 2013 e ter suas caixas de correio colocadas no bloqueio in-loco. Para obter detalhes, consulte Configurando <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">políticas para arquivamento no Lync server 2013 ao usar a integração com o Exchange Server</A> na documentação de implantação.<BR>Você deve especificar todas as opções adequadas nas configurações de arquivamento antes de habilitar o arquivamento. Para obter detalhes, consulte Configurando <A href="lync-server-2013-configuring-archiving-options.md">Opções de arquivamento no Lync Server 2013</A> na documentação de implantação.
 
-## Para configurar a política global para arquivamento ao utilizar bancos de dados de arquivamento do Lync Server
 
-1.  A partir da conta do usuário que foi atribuída à função CsArchivingAdministrator ou CsAdministrator, faça o logon em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server 2013. Para obter detalhes sobre os diferentes métodos que você pode utilizar para iniciar o Painel de Controle do Lync Server 2013, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+</div>
+
+<div>
+
+## <a name="to-configure-the-global-policy-for-archiving-when-using-lync-server-archiving-databases"></a>Para configurar a política global para arquivamento ao usar bancos de dados de arquivamento do Lync Server
+
+1.  Usando uma conta de usuário atribuída à função CsArchivingAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server 2013. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server 2013, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Na barra de navegação da esquerda, clique em **Monitoramento e Arquivamento**, e depois, clique em **Política de Arquivamento**.
 
@@ -34,13 +63,25 @@ Para obter detalhes sobre como as políticas de arquivamento funcionam, incluind
 
 5.  Em **Editar Política de Arquivamento - Global**, faça o seguinte:
     
-      - Em **Nome**, se não desejar usar o nome padrão de global, especifique um novo nome para a política global.
+      - Em **Nome**, se não desejar usar o nome padrão da opção Global, especifique um novo nome para a política global.
     
-      - Em **Descrição**, forneça informações sobre o que a política é (por exemplo, a política global para *divisionName*).
+      - Em **Descrição**, forneça informações sobre o que a política é (por exemplo, a Política global para *divisionName*).
     
-      - Para controlar o arquivamento de comunicações internas para todos os sites e usuários que não estivem sendo controlados especificamente por meio de uma política de site ou de usuário, marque ou desmarque a caixa de seleção **Arquivar comunicações internas**.
+      - Para controlar o arquivamento de comunicações internas para todos os locais e usuários que não estivem sendo controlados especificamente por meio de uma política de local ou de usuário, marque ou desmarque a caixa de seleção **Arquivar comunicações internas**.
     
-      - Para controlar o arquivamento de comunicações externas para todos os sites e usuários que não estivem sendo controlados especificamente por meio de uma política de site ou de usuário, marque ou desmarque a caixa de seleção **Arquivar comunicações externas**.
+      - Para controlar o arquivamento de comunicações externas para todos os locais e usuários que não estivem sendo controlados especificamente por meio de uma política de local ou de usuário, marque ou desmarque a caixa de seleção **Arquivar comunicações externas**.
 
 6.  Clique em **Confirmar**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

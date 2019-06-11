@@ -1,21 +1,41 @@
-﻿---
-title: Introduction
+---
+title: Introdução
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
 TOCTitle: Introduction
 ms:assetid: 276395be-93df-4a16-97e2-cb468cd0f2e3
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ945588(v=OCS.15)
-ms:contentKeyID: 52057777
-ms.date: 06/25/2014
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945588(v=OCS.15)
+ms:contentKeyID: 51541414
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: d496d0aeaabd8ef7502cae8db89f2668d0574499
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837045"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Introduction
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-24_
+# <a name="introduction"></a>Introdução
 
-The Lync Server 2013 Stress and Performance Tool (referred to as LyncPerfTool) can simulate user load of the following types:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-24_
+
+A ferramenta de stress e desempenho do Lync Server 2013 (conhecida como LyncPerfTool) pode simular a carga do usuário dos seguintes tipos:
 
 
 <table>
@@ -25,54 +45,56 @@ The Lync Server 2013 Stress and Performance Tool (referred to as LyncPerfTool) c
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Instant messaging (IM) and presence</p></td>
-<td><p>Audio conferencing</p></td>
+<td><p>Mensagens instantâneas (IM) e presença</p></td>
+<td><p>Conferência de áudio</p></td>
 </tr>
 <tr class="even">
-<td><p>Application sharing</p></td>
-<td><p>Voice over IP (VoIP), including public switched telephone network (PSTN) simulation</p></td>
+<td><p>Compartilhamento de aplicativos</p></td>
+<td><p>Voz sobre IP (VoIP), incluindo simulação de rede telefônica pública comutada (PSTN)</p></td>
 </tr>
 <tr class="odd">
-<td><p>Web Access Client conferencing</p></td>
+<td><p>Conferência de cliente de acesso Web</p></td>
 <td><p>Microsoft Lync 2013 Attendant</p></td>
 </tr>
 <tr class="even">
-<td><p>Response Groups</p></td>
-<td><p>Distribution list expansion</p></td>
+<td><p>Grupos de resposta</p></td>
+<td><p>Expansão da lista de distribuição</p></td>
 </tr>
 <tr class="odd">
-<td><p>Address book download and address book query</p></td>
-<td><p>Enhanced 9-1-1 (E9-1-1) calls and location profile (dial plan)</p></td>
+<td><p>Consulta de download e catálogo de endereços do catálogo de endereços</p></td>
+<td><p>Avançado 9-1-1 (E9-1-1) chamadas e perfil de local (plano de discagem)</p></td>
 </tr>
 <tr class="even">
-<td><p>MultiView</p></td>
-<td><p>Viewing multiple streams from a conference</p></td>
+<td><p>Múltipla</p></td>
+<td><p>Exibir vários fluxos de uma conferência</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-The Lync Server 2013 Stress and Performance Tool supports cross-pool load generation and federation through advanced configuration only.
+A ferramenta de stress e desempenho do Lync Server 2013 oferece suporte à geração e agrupamento de carga entre pools somente com a configuração avançada.
 
-The tool also does not simulate user load for the following clients:
+A ferramenta também não simula a carga do usuário para os seguintes clientes:
 
   - Office Live Meeting 2007
 
-  - Lync 2013 Chat Persistente
+  - Chat persistente do Lync 2013
 
-As a result, the Lync Server 2013 Stress and Performance Tool will not support testing the following components:
+Como resultado, a ferramenta de stress e desempenho do Lync Server 2013 não será compatível com o teste dos seguintes componentes:
 
-  - Lync 2013 Chat Persistente
+  - Chat persistente do Lync 2013
 
-  - Exchange integration scenarios
+  - Cenários de integração do Exchange
 
-## Applications and Files Included with the Lync Server 2013 Stress and Performance Tool
+<div>
 
-The following applications are included in the Lync Server 2013 Stress and Performance Tool:
+## <a name="applications-and-files-included-with-the-lync-server-2013-stress-and-performance-tool"></a>Aplicativos e arquivos incluídos na ferramenta de stress e desempenho do Lync Server 2013
+
+Os seguintes aplicativos estão incluídos na ferramenta de stress e desempenho do Lync Server 2013:
 
 
 <table>
@@ -82,31 +104,44 @@ The following applications are included in the Lync Server 2013 Stress and Perfo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tool</th>
-<th>Description</th>
+<th>Ferramentas</th>
+<th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UserProvisioningTool.exe</p></td>
-<td><p>The Lync Server 2013 User Provisioning tool. This tool is used to create users and contacts.</p></td>
+<td><p>UserProvisioningTool. exe</p></td>
+<td><p>A ferramenta de provisionamento de usuário do Lync Server 2013. Esta ferramenta é usada para criar usuários e contatos.</p></td>
 </tr>
 <tr class="even">
-<td><p>UserProfileGenerator.exe</p></td>
-<td><p>The Lync Server 2013 Load Configuration Tool. This tool is used to configure the characteristics of the user load to simulate.</p></td>
+<td><p>UserProfileGenerator. exe</p></td>
+<td><p>A ferramenta de configuração de carregamento do Lync Server 2013. Esta ferramenta é usada para configurar as características da carga de usuário a ser simulada.</p></td>
 </tr>
 <tr class="odd">
-<td><p>LyncPerfTool.exe</p></td>
-<td><p>The Lync Server 2013 Stress and Performance Tool. LyncPerfTool is the tool that simulates the user load.</p></td>
+<td><p>LyncPerfTool. exe</p></td>
+<td><p>A ferramenta de stress e desempenho do Lync Server 2013. LyncPerfTool é a ferramenta que simula a carga do usuário.</p></td>
 </tr>
 <tr class="even">
-<td><p>Default.tmx</p></td>
-<td><p>Default.tmx is required to use the Lync Server 2013 Logging Tool.</p></td>
+<td><p>Default. TMX</p></td>
+<td><p>Default. TMX é necessário para usar a ferramenta de log do Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Example provisioning scripts</p></td>
-<td><p>These examples are used to configure the topology for running load tests, based on specific scenarios</p></td>
+<td><p>Exemplo de scripts de provisionamento</p></td>
+<td><p>Esses exemplos são usados para configurar a topologia para executar testes de carga com base em cenários específicos</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

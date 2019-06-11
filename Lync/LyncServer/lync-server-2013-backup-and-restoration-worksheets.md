@@ -1,32 +1,61 @@
-﻿---
-title: Planilhas de backup e restauração
-TOCTitle: Planilhas de backup e restauração
-ms:assetid: 26c78155-0306-41ac-845b-7ad58000a1d6
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh202169(v=OCS.15)
-ms:contentKeyID: 52057584
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: planilhas de backup e restauração'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Backup and restoration worksheets
+ms:assetid: 26c78155-0306-41ac-845b-7ad58000a1d6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202169(v=OCS.15)
+ms:contentKeyID: 51541460
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7ca10b848dfa1f6cf53724b364cf53b1fc0fad90
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836747"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planilhas de backup e restauração
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="backup-and-restoration-worksheets-for-lync-server-2013"></a>Planilhas de backup e restauração para o Lync Server 2013
 
-O plano de backup e restauração para sua organização deve conter detalhes sobre como e quando fazer backup de dados e configurações. É possível usar as planilhas apresentadas aqui para ajudá-lo a documentar essas informações para sua implantação específica e seus requisitos de backup e restauração da sua organização.
+</div>
 
-Use as seguintes planilhas para registrar as informações necessárias para fazer backup e restaurar o banco de dados, Repositório de Arquivos e informações de configurações para um pool do Lync Server ou Servidor Standard Edition. Mantenha uma ou mais cópias dessas planilhas em um local seguro para que estejam prontamente acessíveis se você precisar restaurar o Lync Server.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-18_
+
+O plano de backup e restauração da sua organização deve conter detalhes sobre como e quando você pode fazer backup de dados e configurações. Você pode usar as planilhas apresentadas aqui para ajudá-lo a documentar essas informações para sua implantação específica e para os requisitos de backup e restauração da sua organização.
+
+Use as seguintes planilhas para registrar as informações de que você precisa para fazer backup e restaurar o banco de dados, o armazenamento de arquivos e as informações de configurações de um pool de servidores do Lync ou um servidor Standard Edition. Mantenha uma ou mais cópias dessas planilhas em um local seguro para que elas fiquem facilmente acessíveis se você precisar restaurar o Lync Server.
+
+<div>
+
 
 > [!NOTE]  
-> As planilhas desta seção abordam apenas as informações necessárias para restaurar os dados e as configurações de bancos de dados e servidores do Lync Server. Se você precisa documentar outras informações de restauração, como as informações para a reinstalação de sistemas operacionais e outros softwares, use planos de implantação e planos de backup e restauração da sua organização para abordar esses requisitos.
+> As planilhas nesta seção abrangem apenas as informações necessárias para restaurar os dados e as configurações dos servidores e bancos de dados do Lync Server. Se você precisar documentar outras informações de restauração, como as informações para reinstalar sistemas operacionais e outros softwares, use os planos de implantação da sua organização e os planos de backup e restauração para atender a esses requisitos.
 
-## Planilha de restauração e backup do banco de dados
 
-Use a tabela a seguir para registrar as informações necessárias para fazer backup e restaurar os bancos de dados do Lync Server.
 
-### Informações do banco de dados para backup e restauração
+</div>
+
+<div>
+
+## <a name="database-backup-and-restoration-worksheet"></a>Planilha de backup e restauração do banco de dados
+
+Use a tabela a seguir para registrar as informações de que você precisa para fazer backup e restaurar bancos de dados do Lync Server.
+
+### <a name="database-information-for-backup-and-restoration"></a>Informações de banco de dados para backup e restauração
 
 <table style="width:100%;">
 <colgroup>
@@ -40,88 +69,92 @@ Use a tabela a seguir para registrar as informações necessárias para fazer ba
 </colgroup>
 <thead>
 <tr class="header">
-<th>Banco de dados</th>
+<th>Base</th>
 <th>Nome do servidor (FQDN)</th>
-<th>Programação de backup</th>
+<th>Agendamento de backup</th>
 <th>Ferramenta de backup do banco de dados</th>
 <th>Conjunto de backup</th>
-<th>Destino de backup</th>
+<th>Destino do backup</th>
 <th>Observações</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Banco de dados Rtc no servidor de back-end para dados de usuário</p></td>
+<td><p>Banco de dados RTC no servidor back-end para dados do usuário</p></td>
 <td><p>                    </p></td>
 <td><p>                    </p></td>
 <td><p>Cmdlet <strong>Export-CsUserData</strong></p></td>
-<td><p>Nome:</p>
-<p>Expiração:</p>
+<td><p>Sobrenome</p>
+<p>Expire</p>
 <p>                   </p></td>
 <td><p>                    </p></td>
 <td><p>                    </p></td>
 </tr>
 <tr class="even">
-<td><p>Banco de dados do LcsLog (nome padrão) no servidor do Banco de dados de arquivamento</p></td>
+<td><p>Banco de dados do LcsLog (nome padrão) no servidor de banco de dados de arquivamento</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>Ferramenta de gerenciamento do SQL Server</p></td>
-<td><p>Nome:</p>
-<p>Expiração:</p></td>
+<td><p>Sobrenome</p>
+<p>Expire</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p>Banco de dados do LcsCdr no servidor do Banco de dados de monitoramento para registros de detalhes de chamadas (CDRs)</p></td>
+<td><p>Banco de dados LcsCdr no servidor de banco de dados de monitoramento para registros de detalhes da chamada (CDRs)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>Ferramenta de gerenciamento do SQL Server</p></td>
-<td><p>Nome:</p>
-<p>Expiração:</p></td>
+<td><p>Sobrenome</p>
+<p>Expire</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p>Banco de dados QoEMetrics no servidor do Banco de dados de monitoramento para dados de Qualidade da Experiência (QoE)</p></td>
+<td><p>Banco de dados do QoEMetrics no servidor de banco de dados de monitoramento para dados de qualidade da experiência (QoE)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>Ferramenta de gerenciamento do SQL Server</p></td>
-<td><p>Nome:</p>
-<p>Expiração:</p></td>
+<td><p>Sobrenome</p>
+<p>Expire</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p>Banco de dados de Chat Persistente</p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Banco de dados de chat persistente</p></td>
+<td></td>
+<td></td>
 <td><p>Ferramenta de gerenciamento do SQL Server ou cmdlet <strong>Export-CsPersistentChatData</strong></p></td>
-<td><p>Nome:</p>
-<p>Validade:</p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Sobrenome</p>
+<p>Expire</p></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-Nenhum backup ou restauração necessário dos seguintes bancos de dados:
+Não é necessário backup ou restauração dos seguintes bancos de dados:
 
-  - Rtcdyn. Os dados do usuário temporário neste banco de dados não não necessários para a restauração do serviço.
+  - Rtcdyn. Os dados de usuário transitório nesse banco de dados não são necessários para a restauração do serviço.
 
-  - Rtcab. O banco de dados do Catálogo de endereços é recriado automaticamente pela Lista de Endereços Global (GAL) no Serviços de Domínio Active Directory.
+  - Rtcab. O banco de dados do catálogo de endereços é automaticamente recriado a partir da lista de endereços global (GAL) nos serviços de domínio Active Directory.
 
-  - Rgsdyn. O dados de serviço do Grupo de resposta temporário neste banco de dados não são necessários para a restauração do serviço.
+  - Rgsdyn. Os dados do serviço de grupo de resposta transitório nesse banco de dados não são necessários para a restauração do serviço.
 
-  - Cpsdyn. A informação dinâmica para o Aplicativo de Estacionamento de Chamada não é necessária para restauração do serviço.
+  - Cpsdyn. As informações dinâmicas do aplicativo de estacionamento de chamadas não são necessárias para a restauração do serviço.
 
-  - MgcComp. O banco de dados de conformidade para Chat Persistente não é necessário para restauração do serviço.
+  - MgcComp. O banco de dados de conformidade para chat persistente não é necessário para a restauração do serviço.
 
-## Planilha de restauração e backup do repositório de arquivos
+</div>
 
-Use a tabela a seguir para registrar as informações que necessárias para fazer backup e restaurar os repositórios de arquivos. Os repositórios de arquivos contêm dados como metadados de conteúdo da reunião, logs de conformidade de reunião, logs de atualização para atualizações de dispositivo e arquivos de áudio para o Grupo de Resposta, Estacionamento de Chamada e aplicativos de Anúncio.
+<div>
 
-### Informações do repositório de arquivos para backup e restauração
+## <a name="file-store-backup-and-restoration-worksheet"></a>Planilha de backup e restauração do repositório de arquivos
+
+Use a tabela a seguir para registrar as informações de que você precisa para fazer backup e restaurar os repositórios de arquivos. Os repositórios de arquivos contêm dados como metadados de conteúdo da reunião, logs de conformidade da reunião, logs de atualização para atualizações de dispositivos e arquivos de áudio para o grupo de resposta, o estacionamento de chamadas e os aplicativos de anúncio.
+
+### <a name="file-store-information-for-backup-and-restoration"></a>Informações do repositório de arquivos para backup e restauração
 
 <table style="width:100%;">
 <colgroup>
@@ -137,32 +170,36 @@ Use a tabela a seguir para registrar as informações que necessárias para faze
 <tr class="header">
 <th>Conteúdo</th>
 <th>Nome do servidor (FQDN)</th>
-<th>Programação de backup</th>
-<th>Ferramenta de backup de sistema de arquivos</th>
-<th>Compartilhamento de arquivos a ser realizado o backup*</th>
-<th>Destino de backup</th>
+<th>Agendamento de backup</th>
+<th>Ferramenta de backup do sistema de arquivos</th>
+<th>Compartilhamento de arquivos para backup *</th>
+<th>Destino do backup</th>
 <th>Observações</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Repositório de Arquivos do Lync Server</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>Ferramenta de backup padrão, como o Robocopy</p></td>
-<td><p>No servidor de arquivos para Enterprise Edition. No Standard Edition por padrão, para implantação do Standard Edition. Geralmente, um por local.</p></td>
-<td><p></p></td>
-<td><p>Arquivos nomeados <strong>Meeting.Active</strong> não devem ser colocados em backup. Esses arquivos estão em uso e bloqueados durante uma reunião.</p></td>
+<td><p>Repositório de arquivos do Lync Server</p></td>
+<td></td>
+<td></td>
+<td><p>Ferramenta de backup padrão, como Robocopy</p></td>
+<td><p>No servidor de arquivos para Enterprise Edition. Na Standard Edition por padrão, para implantação de edição padrão. Geralmente, um por site.</p></td>
+<td></td>
+<td><p>Arquivos chamados <strong>Meeting. Active</strong> não devem ser backups. Esses arquivos estão em uso e são bloqueados durante o momento em que uma reunião ocorre.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Planilha de configurações de backup e restauração
+</div>
 
-Use a tabela a seguir para registrar as informações necessárias para fazer backup e restaurar as configurações.
+<div>
 
-### Informações de configurações para backup e restauração
+## <a name="settings-backup-and-restoration-worksheet"></a>Configurar a planilha de backup e restauração
+
+Use a tabela a seguir para registrar as informações de que você precisa para fazer backup e restaurar as configurações.
+
+### <a name="settings-information-for-backup-and-restoration"></a>Informações de configuração para backup e restauração
 
 <table style="width:100%;">
 <colgroup>
@@ -176,18 +213,18 @@ Use a tabela a seguir para registrar as informações necessárias para fazer ba
 </colgroup>
 <thead>
 <tr class="header">
-<th>Banco de dados</th>
+<th>Base</th>
 <th>Nome do servidor (FQDN)</th>
-<th>Programação de backup</th>
+<th>Agendamento de backup</th>
 <th>Ferramenta de backup</th>
-<th>Nome do arquivo (.xml) de configuração</th>
-<th>Local de backup</th>
+<th>Nome do arquivo de configuração (. xml)</th>
+<th>Local do backup</th>
 <th>Observações</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Bancos de dados Xds no Repositório de Gerenciamento Central para configuração de topologia (global)</p></td>
+<td><p>Banco de dados XDS no repositório de gerenciamento central para configuração de topologia (global)</p></td>
 <td><p>                    </p></td>
 <td><p>                    </p></td>
 <td><p>Cmdlet <strong>Export-CsConfiguration</strong></p></td>
@@ -196,23 +233,36 @@ Use a tabela a seguir para registrar as informações necessárias para fazer ba
 <td><p>                   </p></td>
 </tr>
 <tr class="even">
-<td><p>Banco de dados do Lis na informação de localização E9-1-1 (global) do Repositório de Gerenciamento Central</p></td>
+<td><p>Lis o banco de dados no repositório de gerenciamento central para E9-1-1 informações de localização (global)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>Cmdlet <strong>Export-CsLisConfiguration</strong></p></td>
-<td><p></p></td>
+<td></td>
 <td><p> </p></td>
 <td><p>                    </p></td>
 </tr>
 <tr class="odd">
-<td><p>Banco de dados RgsConfig no servidor back-end para configuração do Grupo de Resposta (pool)</p></td>
+<td><p>Banco de dados do RgsConfig no servidor back-end para configuração de grupo de resposta (pool)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>Cmdlet <strong>Export-CsRgsConfiguration</strong></p></td>
-<td><p></p></td>
+<td></td>
 <td><p> </p></td>
 <td><p>                    </p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

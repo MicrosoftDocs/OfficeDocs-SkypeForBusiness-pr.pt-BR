@@ -1,41 +1,79 @@
-﻿---
-title: 'Lync Server 2013: Configurando comunicados de números não atribuídos'
-TOCTitle: Configurando comunicados de números não atribuídos
-ms:assetid: 45633dd3-78de-4934-867e-33969fc25368
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425944(v=OCS.15)
-ms:contentKeyID: 49306561
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando comunicados de números não atribuídos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring announcements for unassigned numbers
+ms:assetid: 45633dd3-78de-4934-867e-33969fc25368
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425944(v=OCS.15)
+ms:contentKeyID: 48184035
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8375e3481703078013d85060d20d0e9f500374b0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836283"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando comunicados de números não atribuídos no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-11_
+# <a name="configuring-announcements-for-unassigned-numbers-in-lync-server-2013"></a>Configurando comunicados de números não atribuídos no Lync Server 2013
 
-O Aplicativo Comunicado é um recurso do Enterprise Voice que permite configurar o que acontece com chamadas a ramais não atribuídos (ramais que são válidos para sua organização, mas não estão atribuídos a uma pessoa ou um telefone). Por exemplo, você pode configurar chamadas a números não atribuídos para que reproduzam uma mensagem ou sejam transferidas para um destino diferente, ou ambos.
+</div>
 
-O Aplicativo Comunicado é instalado como um recurso do Aplicativo Grupo de Resposta no Servidor Front-End ou no Servidor Standard Edition quando você implanta o Enterprise Voice. Você precisa configurar Comunicados carregando arquivos de áudio ou configurando o mecanismo TTS (conversão de texto em fala) e a tabela de números não atribuídos.
+<div id="mainSection">
 
-Esta seção orienta na configuração de Comunicados do Lync Server. Ela pressupõe que você já tenha lido as seções de planejamento relacionadas a Comunicados e que tenha implantado um servidor Enterprise Edition ou um servidor Standard Edition com o Enterprise Voice.
+<div id="mainBody">
 
-## Nesta seção
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-11_
+
+O aplicativo de anúncio é um recurso de voz empresarial que permite que você configure o que acontece às chamadas para extensões não atribuídas (extensões que são válidas para sua organização, mas não são atribuídas a uma pessoa ou telefone). Por exemplo, você pode configurar chamadas a números não atribuídos para que reproduzam uma mensagem ou sejam transferidas para um destino diferente, ou ambos.
+
+O aplicativo de anúncio é instalado como um recurso do aplicativo de grupo de resposta no servidor front-end ou Standard Edition ao implantar o Enterprise Voice. Você precisa configurar Comunicados carregando arquivos de áudio ou configurando o mecanismo TTS (conversão de texto em fala) e a tabela de números não atribuídos.
+
+Esta seção orienta você na configuração de comunicados do Lync Server. Ele pressupõe que você já leu as seções de planejamento relacionadas aos comunicados e implantou um servidor Enterprise Edition ou um servidor Standard Edition com Enterprise Voice.
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Pré-requisitos e funções de configuração de Comunicado no Lync Server 2013](lync-server-2013-announcement-configuration-prerequisites-and-roles.md)
 
-  - [Processo de implantação para o aplicativo Comunicado no Lync Server 2013](lync-server-2013-deployment-process-for-the-announcement-application.md)
+  - [Processo de implantação do aplicativo de anúncio no Lync Server 2013](lync-server-2013-deployment-process-for-the-announcement-application.md)
 
-  - [Criar um comunicado no Lync Server 2013](lync-server-2013-create-an-announcement.md)
+  - [Criar um anúncio no Lync Server 2013](lync-server-2013-create-an-announcement.md)
 
   - [Configurar a tabela de número não atribuído no Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md)
 
-  - [(Opcional) Verificar implantação de Comunicado no Lync Server 2013](lync-server-2013-optional-verify-announcement-deployment.md)
+  - [Adicionais Verificar a implantação do lançamento no Lync Server 2013](lync-server-2013-optional-verify-announcement-deployment.md)
 
-## Consulte Também
+</div>
 
-#### Outros Recursos
+<div>
 
-[Planejamento de recursos de gerenciamento de chamada no Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)
+## <a name="see-also"></a>Confira também
+
+
+[Planejando os recursos de gerenciamento de chamadas no Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

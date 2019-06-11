@@ -1,164 +1,230 @@
-﻿---
-title: Configurando um proxy reverso para a descoberta automática
-TOCTitle: Configurando um proxy reverso para a descoberta automática
-ms:assetid: 1e3c3cc2-fe55-408b-99c4-c6e0a9252689
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ945619(v=OCS.15)
-ms:contentKeyID: 52057568
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando um proxy inverso para descoberta automática'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring a reverse proxy for Autodiscover
+ms:assetid: 1e3c3cc2-fe55-408b-99c4-c6e0a9252689
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945619(v=OCS.15)
+ms:contentKeyID: 51541456
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5445a9ce81835863b610ef32ecc51ccac5331c3f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836301"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando um proxy reverso para a descoberta automática
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-12-12_
+# <a name="configuring-a-reverse-proxy-for-autodiscover-in-lync-server-2013"></a>Configurando um proxy inverso para descoberta automática no Lync Server 2013
 
-A Descoberta automática e o suporte a cliente utilizando a descoberta automática requer modificação de regra de publicação Web existente ou a criação de uma nova regra de publicação Web para o proxy reverso. A modificação ou criação de uma nova regra de publicação não depende da decisão de atualizar ou não as listas de nome alternativo de assunto nos certificados de proxy reverso.
+</div>
 
-Se decidir usar HTTPS para solicitações iniciais do Serviço Descoberta Automática do Lync Server 2013 e atualizar listas de nomes alternativos de assunto nos certificados de proxy reverso, você precisará atribuir o certificado público atualizado ao Ouvinte do SSL no proxy reverso. A atualização necessária para o certificado externo (público) incluirá a entrada do nome alternativo de assunto (SAN) para lyncdiscover.\<domain name\>. Então, será necessário modificar o ouvinte existente para os serviços Web externos ou criar uma nova regra de publicação Web para o URL do Serviço de Descoberta Automática, por exemplo **lyncdiscover.contoso.com**. Se você já não tiver uma regra de publicação Web para o URL de Serviços Web Lync Server 2013 externo para seu Pool de Front-Ends e Pool de diretores (se você tiver implantado o Diretores), você também precisará publicar uma regra para isso.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-12-12_
+
+A descoberta automática e o suporte de clientes que usam a descoberta automática exigem a modificação de uma regra de publicação na Web existente ou a criação de uma nova regra de publicação na Web para o proxy reverso. A modificação ou criação de uma nova regra de publicação não depende da decisão de atualizar ou não atualizar as listas de nomes alternativos de entidades nos certificados de proxy reverso.
+
+Se você decidir usar HTTPS para solicitações iniciais de serviço de descoberta automática do Lync Server 2013 e atualizar as listas de nomes alternativos de entidades nos certificados de proxy reverso, será necessário atribuir o certificado público atualizado ao ouvinte SSL (Secure Sockets Layer) em seu proxy reverso. A atualização necessária para o certificado externo (público) incluirá a entrada de nome alternativo (SAN) do assunto para lyncdiscover. \<nome\>do domínio. Em seguida, você precisará modificar o ouvinte existente para os serviços Web externos ou criar uma nova regra de publicação na Web para a URL do serviço de descoberta automática externa, por exemplo, **lyncdiscover.contoso.com**. Se você ainda não tiver uma regra de publicação na Web para a URL externa de serviços Web do Lync Server 2013 para seu pool de front-ends e pool de directors (se você tiver implantado directors), também precisará publicar uma regra para isso.
+
+<div>
+
 
 > [!NOTE]  
-> A regra de publicação de proxy reversa e o ouvinte podem fornecer serviços tanto para Web externa quanto para o Serviço de Descoberta Automática, desde que o certificado atribuído ao ouvinte possua o nome de assunto necessário e os nomes alternativos de assunto para ambos. Para mais detalhes sobre a configuração padrão do ouvinte da Web e regra de publicação, consulte <a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configurando servidores de proxy reverso para o Lync Server 2013</a>.
+> A regra de publicação de proxy reverso e a escuta podem atender tanto os serviços Web externos quanto o serviço de descoberta automática, desde que o certificado atribuído ao ouvinte contenha o nome da entidade e os nomes alternativos de assunto necessários para ambos. Para obter detalhes sobre a configuração padrão do ouvinte da Web e da regra de publicação, consulte Configurando <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">servidores proxy reverso para o Lync Server 2013</A> para obter mais detalhes.
 
-Se você decidir usar HTTP para solicitações iniciais de Serviço Descoberta Automática para que não precise atualizar nomes alternativos de assunto para o proxy reverso, você precisará criar ou modificar uma regra de publicação na Web para a porta 80.
 
-Os procedimentos nesta seção descrevem como criar ou modificar as regras de publicação na Web no Microsoft Forefront Threat Management Gateway 2010 para descoberta automática.
+
+</div>
+
+Se você decidir usar HTTP para solicitações de serviço de descoberta automática iniciais para que você não precise atualizar nomes alternativos de entidades para o proxy reverso, será necessário criar ou modificar uma regra de publicação na Web para a porta 80.
+
+Os procedimentos desta seção descrevem como criar ou modificar as regras de publicação na Web no Microsoft Forefront Threat Management Gateway 2010 para descoberta automática.
+
+<div>
+
 
 > [!NOTE]  
-> Esses procedimentos assumem que você possui a Standard Edition do Forefront Threat Management Gateway (TMG) 2010 instalado. Se você estiver utilizando outro proxy reverso, os procedimentos são similares, mas precisarão ser mapeados para a documentação do produto de terceiro.
+> Esses procedimentos pressupõem que você tenha instalado a edição padrão do Forefront Threat Management Gateway (TMG) 2010. Se você estiver usando outro proxy reverso, os procedimentos serão similares, mas precisarão ser mapeados para a documentação do produto de terceiros.
 
-## Para criar uma regra de publicação na Web para a URL externa de Descoberta Automática
 
-1.  Clique em **Iniciar**, aponte para **Programas**, **Microsoft Forefront TMG** e, então, clique em **Forefront TMG Management**.
 
-2.  No painel esquerdo, expanda **Nome do Servidor**, clique com o botão direito do mouse em **Diretiva de Firewall**, aponte para **Novo** e clique em **Regra de Publicação de Site**.
+</div>
 
-3.  Na página **Bem-vindo à nova regra de publicação na Web**, digite um nome para exibição para a nova regra de publicação (por exemplo, LyncDiscoveryURL).
+<div>
 
-4.  Na página **Selecionar Ação da Regra**, selecione **Permitir**.
+## <a name="to-create-a-web-publishing-rule-for-the-external-autodiscover-url"></a>Para criar uma regra de publicação na Web para a URL de descoberta automática externa
 
-5.  Na página **Tipo de Publicação**, selecione **Publicar um único site da Web ou balanceador de carga**.
+1.  Clique em **Iniciar**, aponte para **programas**, aponte para **Microsoft Forefront TMG**e clique em **Gerenciamento do Forefront TMG**.
 
-6.  Na página **Segurança da Conexão do Servidor**, selecione **Usar SSL para conectar ao servidor da Web publicado ou ao farm de servidores**.
+2.  No painel esquerdo, expanda **ServerName**, clique com o botão direito do mouse em **política de firewall**, aponte para **novo**e clique em regra de **publicação de site da Web**.
 
-7.  Na página **Detalhes de Publicação Interna**, em **Nome interno de site**, digite o FQDN (nome de domínio totalmente qualificado) do Pool de diretores (por exemplo, lyncdir01.contoso.local). Se você estiver criando uma regra para a URL de Serviço Web no Pool de Front-Ends, digite o FQDN do Pool de Front-Ends (por exemplo, lyncpool01.contoso.local).
+3.  Na página **Bem-vindo à nova regra de publicação na Web** , digite um nome para exibição para a nova regra de publicação (por exemplo, LyncDiscoveryURL).
 
-8.  Na página **Detalhes de Publicação Interna**, em **Caminho (opcional)**, digite **/\*** como o caminho da pasta a ser publicada e selecione **Encaminhar o cabeçalho de host original**.
+4.  Na página **Selecionar ação da regra** , selecione **permitir**.
 
-9.  Na página **Detalhes do Nome Público**, faça o seguinte:
+5.  Na página **tipo de publicação** , selecione **publicar um único site da Web ou um balanceador de carga**.
+
+6.  Na página **segurança de conexão do servidor** , selecione **usar SSL para se conectar ao servidor Web ou ao farm de servidores publicado**.
+
+7.  Na página **detalhes da publicação interna** , em **nome do site interno**, digite o nome de domínio totalmente qualificado (FQDN) do seu pool de diretor (por exemplo, lyncdir01. contoso. local). Se você estiver criando uma regra para a URL de serviços Web externos no pool de front-ends, digite o FQDN do pool de front-ends (por exemplo, lyncpool01. contoso. local).
+
+8.  Na página **detalhes da publicação interna** , em **caminho (opcional)**, digite ** / ** como o caminho da pasta a ser publicada e, em seguida, selecione encaminhar **o cabeçalho original do host**.
+
+9.  Na página de **detalhes do nome público** , faça o seguinte:
     
-      - Em **Aceitar Solicitações para**, selecione **Este nome de domínio**.
+      - Em **aceitar solicitações por**, selecione **este nome de domínio**.
     
-      - Em **Nome Público**, digite **lyncdiscover.***\<sipdomain\>* (o URL externo de Serviço Descoberta Automática). Se você estiver criando uma regra para o URL de Serviços Web externos no Pool de Front-Ends, digite o FQDN referente aos Serviços Web externos no Pool de Front-Ends (por exemplo, lyncwebextpool01.contoso.com).
+      - Em **nome público**, digite **lyncdiscover.** \<sipdomain\> (a URL do serviço de descoberta automática externa). Se você estiver criando uma regra para a URL de serviços Web externos no pool de front-ends, digite o FQDN dos serviços Web externos em seu pool de front-ends (por exemplo, lyncwebextpool01.contoso.com).
     
-      - Em **Caminho**, digite **/\***.
+      - Em **caminho**, digite ** / **.
 
-10. Na página **Selecionar Ouvinte da Web**, no **Ouvinte da Web**, selecione o Ouvinte SSL existente com o certificado público atualizado.
+10. Na página **selecionar ouvinte da Web** , no **ouvinte da Web**, selecione seu ouvinte SSL existente com o certificado público atualizado.
 
-11. Na página **Delegação de autenticação**, selecione **Nenhuma delegação, mas o cliente pode autenticar diretamente**.
+11. Na página **delegação de autenticação** , selecione **sem delegação, mas o cliente pode autenticar diretamente**.
 
-12. Na página **Conjunto de Usuários**, selecione **Todos os Usuários**.
+12. Na página **conjunto de usuários** , selecione **todos os usuários**.
 
-13. Na página **Concluir o novo assistente da regra de publicação da Web**, verifique se as configurações da regra de publicação da Web estão corretas e clique em **Finalizar**.
+13. Na página **concluindo o assistente de nova regra de publicação na Web** , verifique se as configurações da regra de publicação da Web estão corretas e clique em **concluir**.
 
-14. Na lista Forefront TMG de regras de publicação, clique duas vezes na nova regra que você acabou de adicionar para abrir **Propriedades**.
+14. Na lista do Forefront TMG de regras de publicação na Web, clique duas vezes na nova regra que você acabou de adicionar para abrir **as propriedades**.
 
-15. Na guia **Para**, faça o seguinte:
+15. Na guia **para** , faça o seguinte:
     
-      - Selecione **Encaminhar o cabeçalho de host original em vez do presente**.
+      - Selecione **encaminhar o cabeçalho original do host em vez do verdadeiro**.
     
-      - Selecione **As solicitações parecem vir de computador do Forefront TMG**.
+      - **As solicitações selecionadas parecem vir do computador com o FOREFRONT TMG**.
 
-16. Na guia **Ponte**, configure o seguinte:
+16. Na guia **ponte** , configure o seguinte:
     
-      - Selecione **Servidor Web**.
+      - Selecione **servidor Web**.
     
-      - Selecione **Redirecionar solicitações para a porta HTTP** e digite **8080** para o número da porta.
+      - Selecione **redirecionar solicitações para porta http**e digite **8080** para o número da porta.
     
-      - Selecione **Redirecionar solicitações para a porta SSL** e digite **4443** para o número da porta.
+      - Selecione **redirecionar solicitações para porta SSL**e digite **4443** para o número da porta.
 
 17. Clique em **OK**.
 
-18. Clique em **Aplicar** no painel de detalhes para salvar as alterações e atualizar a configuração.
+18. Clique em **aplicar** no painel detalhes para salvar as alterações e atualizar a configuração.
 
-19. Clique em **Regra de Teste** para verificar se a nova regra está definida corretamente.
+19. Clique em **testar regra** para verificar se a nova regra está configurada corretamente.
 
-## Para modificar uma regra de publicação Web existente para adicionar o SAN de Descoberta Automática externa e URL
+</div>
 
-1.  Clique em **Iniciar**, aponte para **Programas**, **Microsoft Forefront TMG** e, então, clique em **Forefront TMG Management**.
+<div>
+
+## <a name="to-modify-an-existing-web-publishing-rule-to-add-the-external-autodiscover-san-and-url"></a>Para modificar uma regra de publicação da Web existente para adicionar a SAN e a URL de descoberta automática externa
+
+1.  Clique em **Iniciar**, aponte para **programas**, aponte para **Microsoft Forefront TMG**e clique em **Gerenciamento do Forefront TMG**.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Você irá repetir a modificação para cada regra de publicação e ouvinte que possuir. Normalmente, isso será a única regra e ouvinte para Pools de Front-Ends e um para os conjuntos Diretores ou Diretor opcionais, se você tiver implantado-os.
+    > Você irá repetir a modificação para cada regra de publicação e ouvinte que você tiver. Geralmente, isso será uma regra e um ouvinte para os pools de front-end e um para os directors opcionais ou os pools de directors, se você os tiver implantado.
 
-2.  No painel à esquerda, expanda **ServerName**, clique com o botão direito em **Política de firewall** e clique na regra aplicável. Na aba **Tarefas**, clique na **regra Editar selecionado**.
-
-3.  Na aba **Nome público**, em **Esta regra se aplica a**, selecione **Solicitações para os seguintes sites da Web**.
-
-4.  Clique em **Adicionar**, digite o nome do site de Descoberta Automática novo (por exemplo, “lyncdiscover.contoso.com”) e clique em **OK**.
-
-5.  Na aba **Ouvinte**, clique em **Selecionar certificado** e atribua o novo certificado com as entradas SAN da Descoberta Automática adicionadas. Feche o Ouvinte e as propriedades de Publicação na Web.
-
-6.  Clique em **Aplicar** no painel de detalhes para salvar as alterações e atualizar a configuração.
-
-7.  Clique em **Regra de Teste** para verificar se a nova regra está definida corretamente.
-
-## Para criar uma regra de publicação na Web para a porta 80
-
-1.  Clique em **Iniciar**, aponte para **Programas**, **Microsoft Forefront TMG** e, então, clique em **Forefront TMG Management**.
-
-2.  No painel esquerdo, expanda **Nome do Servidor**, clique com o botão direito do mouse em **Diretiva de Firewall**, aponte para **Novo** e clique em **Regra de Publicação de Site**.
-
-3.  Na página **Bem-vindo à nova regra de publicação na Web**, digite um nome para exibição para a nova regra de publicação (por exemplo, Descoberta Automática do Lync (HTTP)).
-
-4.  Na página **Selecionar Ação da Regra**, selecione **Permitir**.
-
-5.  Na página **Tipo de Publicação**, selecione **Publicar um único site da Web ou balanceador de carga**.
-
-6.  Na página **Segurança da Conexão do Servidor**, selecione **Usar conexões não seguras para conectar ao servidor Web ou ao farm de servidores publicado**.
-
-7.  Na página **Detalhes da Publicação Interna**, em **Nome Interno de Site**, digite o FQDN de Serviços Web internos para o seu Pool de Front-Ends (por exemplo, lyncpool01.contoso.local).
-
-8.  Na página **Detalhes de Publicação Interna**, em **Caminho (opcional)**, digite **/\*** como o caminho da pasta a ser publicada e selecione **Encaminhar o cabeçalho de host original, em vez daquele especificado no campo de nome interno de site**.
-
-9.  Na página **Detalhes do Nome Público**, faça o seguinte:
     
-      - Em **Aceitar Solicitações para**, selecione **Este nome de domínio**.
+    </div>
+
+2.  No painel esquerdo, expanda **ServerName**, clique com o botão direito do mouse em **política de firewall**, clique na regra aplicável. Na guia **tarefas** , clique em **Editar regra selecionada**.
+
+3.  Na guia **nome público** , nesta **regra aplica-se a**, selecione **solicitações para os seguintes sites da Web**.
+
+4.  Clique em **Adicionar**, digite o nome do novo site de descoberta automática (por exemplo, "lyncdiscover.contoso.com") e clique em **OK**.
+
+5.  Na guia **ouvinte** , clique em **Selecionar certificado** e atribua o novo certificado às entradas adicionadas de San de descoberta automática. Feche as propriedades do ouvinte e publicação na Web.
+
+6.  Clique em **aplicar** no painel detalhes para salvar as alterações e atualizar a configuração.
+
+7.  Clique em **testar regra** para verificar se a nova regra está configurada corretamente.
+
+</div>
+
+<div>
+
+## <a name="to-create-a-web-publishing-rule-for-port-80"></a>Para criar uma regra de publicação na Web para a porta 80
+
+1.  Clique em **Iniciar**, aponte para **programas**, aponte para **Microsoft Forefront TMG**e clique em **Gerenciamento do Forefront TMG**.
+
+2.  No painel esquerdo, expanda **ServerName**, clique com o botão direito do mouse em **política de firewall**, aponte para **novo**e clique em regra de **publicação de site da Web**.
+
+3.  Na página **Bem-vindo à nova regra de publicação na Web** , digite um nome para exibição para a nova regra de publicação (por exemplo, descoberta automática do LYNC (http)).
+
+4.  Na página **Selecionar ação da regra** , selecione **permitir**.
+
+5.  Na página **tipo de publicação** , selecione **publicar um único site da Web ou um balanceador de carga**.
+
+6.  Na página **segurança de conexão do servidor** , selecione **usar conexões não seguras para se conectar ao servidor Web ou ao farm de servidores publicado**.
+
+7.  Na página **detalhes da publicação interna** , em **nome do site interno**, digite o FQDN de serviços Web internos para o seu pool de front-end (por exemplo, lyncpool01. contoso. local).
+
+8.  Na página **detalhes da publicação interna** , em **caminho (opcional)**, digite ** / ** como o caminho da pasta a ser publicada e, em seguida, selecione encaminhar **o cabeçalho do host original em vez do especificado no campo nome do site interno **.
+
+9.  Na página de **detalhes do nome público** , faça o seguinte:
     
-      - Em **Nome Público**, digite **lyncdiscover.***\<sipdomain\>* (o URL externo de Serviço Descoberta Automática).
+      - Em **aceitar solicitações por**, selecione **este nome de domínio**.
     
-      - Em **Caminho**, digite **/\***.
-
-10. Em **Selecionar Ouvinte da Web**, em **Ouvinte da Web**, selecione um Ouvinte da Web ou use o Assistente de Nova Definição de Ouvinte da Web para criar um novo.
-
-11. Na página **Delegação de Autenticação**, selecione **Nenhuma delegação, e o cliente não pode autenticar diretamente**.
-
-12. Na página **Conjunto de Usuários**, selecione **Todos os Usuários**.
-
-13. Na página **Concluir o novo assistente da regra de publicação da Web**, verifique se as configurações da regra de publicação da Web estão corretas e clique em **Finalizar**.
-
-14. Na lista Forefront TMG de regras de publicação, clique duas vezes na nova regra que você acabou de adicionar para abrir **Propriedades**.
-
-15. Na guia **Ponte**, configure o seguinte:
+      - Em **nome público**, digite **lyncdiscover.** \<sipdomain\> (a URL do serviço de descoberta automática externa).
     
-      - Selecione **Servidor Web**.
+      - Em **caminho**, digite ** / **.
+
+10. Na página **selecionar ouvinte da Web** , no **ouvinte da Web**, selecione um ouvinte da Web ou use o assistente de definição novo ouvinte da Web para criar um novo.
+
+11. Na página **delegação de autenticação** , selecione **sem delegação e o cliente não pode autenticar diretamente**.
+
+12. Na página **conjunto de usuários** , selecione **todos os usuários**.
+
+13. Na página **concluindo o assistente de nova regra de publicação na Web** , verifique se as configurações da regra de publicação da Web estão corretas e clique em **concluir**.
+
+14. Na lista do Forefront TMG de regras de publicação na Web, clique duas vezes na nova regra que você acabou de adicionar para abrir **as propriedades**.
+
+15. Na guia **ponte** , configure o seguinte:
     
-      - Selecione **Redirecionar solicitações para a porta HTTP** e digite **8080** para o número da porta.
+      - Selecione **servidor Web**.
     
-      - Verifique se **Redirecionar solicitações para a porta SSL** não está selecionada.
+      - Selecione **redirecionar solicitações para porta http**e digite **8080** para o número da porta.
+    
+      - Verifique se **a seleção redirecionar solicitações para a porta SSL** não está selecionada.
 
 16. Clique em **OK**.
 
-17. Clique em **Aplicar** no painel de detalhes para salvar as alterações e atualizar a configuração.
+17. Clique em **aplicar** no painel detalhes para salvar as alterações e atualizar a configuração.
 
-18. Clique em **Regra de Teste** para verificar se a nova regra está definida corretamente.
+18. Clique em **testar regra** para verificar se a nova regra está configurada corretamente.
 
-19. Verifique se a URL do Serviço Descoberta Automática externo não está definida em nenhuma outra regra de publicação na Web.
+19. Verifique se a URL do serviço de descoberta automática externa não está definida em nenhuma outra regra de publicação na Web.
 
-## Consulte Também
+</div>
 
-#### Conceitos
+<div>
 
-[Configurando servidores de proxy reverso para o Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md)
+## <a name="see-also"></a>Confira também
+
+
+[Configurando servidores de proxy reverso para o Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

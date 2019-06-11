@@ -1,41 +1,74 @@
-﻿---
-title: Resumo do certificado – descoberta automática
-TOCTitle: Resumo do certificado – descoberta automática
-ms:assetid: 16ac96bb-882a-4141-b75c-9530637548d9
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ945616(v=OCS.15)
-ms:contentKeyID: 52057559
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Resumo do certificado-descoberta automática'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate summary - Autodiscover
+ms:assetid: 16ac96bb-882a-4141-b75c-9530637548d9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945616(v=OCS.15)
+ms:contentKeyID: 51541451
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 59c3777f9b13dc18e3e52e80120009f93c20db3d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836656"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumo do certificado – descoberta automática
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>Resumo do certificado-descoberta automática no Lync Server 2013
 
-O serviço de Descoberta Automática do Lync Server 2013 é executado em servidores Diretor e pool de Front-End, e, quando publicado em DNS, pode ser usado por clientes Lync para localizar servidores e serviços de usuário. Se você estiver atualizando do Lync Server 2010 e não implantou a Mobilidade, antes de os clientes poderem usar a descoberta automática, será preciso modificar o certificado das listas de nome alternativo de assunto em qualquer Diretor e Servidor Front-End que execute o serviço de Descoberta Automática. Além disso, pode ser necessário modificar as listas de nomes alternativos de assunto nos certificados usados pelas regras de publicação de serviços de Web externa em proxies reversos.
+</div>
 
-A decisão sobre usar as listas de nomes alternativos de entidade em proxies reversos é baseada em se o serviço de Descoberta Automática foi publicado na porta 80 ou na porta 443:
+<div id="mainSection">
 
-  - **Publicado na porta 80**   Não são necessárias alterações de certificado se a consulta inicial ao serviço de Descoberta Automática ocorrer na porta 80. Isso porque os serviços móveis executados no Lync executarão o proxy reverso na porta 80 externamente e, então, farão a ponte a um Diretor ou Servidor Front-End na porta 8080 internamente. Para detalhes, consulte a seção "Processo de Descoberta automática inicial usando a porta 80" [Requisitos técnicos para mobilidade no Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).
+<div id="mainBody">
 
-  - **Publicado na porta 443**   A lista de nomes alternativos de entidade em certificados usados pela regra de serviços de publicação da Web externa deve conter uma entrada *lyncdiscover.\<sipdomain\>* para cada domínio SIP dentro da organização.
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-14_
+
+O serviço de descoberta automática do Lync Server 2013 é executado nos servidores do diretor e do pool de front-end e, quando publicados no DNS, pode ser usado pelos clientes do Lync para localizar serviços de servidor e usuário. Se você estiver atualizando do Lync Server 2010 e não implantou a mobilidade, antes que os clientes possam usar a descoberta automática, você deve modificar listas de nomes alternativos de entidades de certificado em qualquer director e servidor front-end executando o serviço descoberta automática. Além disso, pode ser necessário modificar as listas de nomes alternativos de entidades nos certificados usados para regras de publicação de serviço Web externo em proxies reverso.
+
+A decisão sobre se deve usar listas de nomes alternativos de entidades em proxies invertidos se baseia se você publica o serviço de descoberta automática na porta 80 ou na porta 443:
+
+  - **Publicado na porta 80**   nenhuma alteração de certificado será necessária se a consulta inicial para o serviço descoberta automática ocorrer na porta 80. Isso ocorre porque os dispositivos móveis que executam o Lync acessam o proxy reverso na porta 80 externamente e, em seguida, ligados a um diretor ou servidor front-end na porta 8080 internamente. Para obter detalhes, consulte a seção requisitos técnicos da seção "processo de descoberta automática inicial usando a porta 80" [para mobilidade no Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).
+
+  - **Publicado na porta 443**   a lista de nomes alternativos de entidades nos certificados usados pela regra de publicação de serviços Web externos deve conter um *lyncdiscover.\< entrada\> sipdomain* para cada domínio SIP em sua organização.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Nos recomendamos fortemente usar HTTPS em vez de HTTP. O HTTPS usa certificados para criptografar dados. O HTTP não fornece criptografia e qualquer dado enviado será em texto simples.
+    > É altamente recomendável usar HTTPS sobre HTTP. HTTPS usa certificados para criptografar o tráfego. O HTTP não fornece criptografia, e todos os dados enviados serão texto sem formatação.
 
-A reemissão de certificados usando uma autoridade de certificado interna geralmente é um processo simples, mas, para os certificados públicos usados na regra de publicação do serviço da Web, adicionar várias entradas de nomes alternativos de assunto pode se tornar caro. Para contornar esse problema, damos suporte à conexão inicial da descoberta automática na porta 80, que é redirecionada, então, à porta 8080 no Diretor ou Servidor Front-End.
+    
+    </div>
+
+A emissão de certificados por meio de uma autoridade de certificação interna geralmente é um processo simples. Mas para certificados públicos usados na regra de publicação do serviço Web, adicionar várias entradas de nomes alternativos de entidades pode ficar caro. Para contornar esse problema, oferecemos suporte para a conexão de descoberta automática inicial na porta 80, que é redirecionada para a porta 8080 do diretor ou servidor front-end.
+
+<div>
+
 
 > [!NOTE]  
-> Se a infra-estrutura do Lync Server 2013 usa certificados internos que são emitidos por uma CA (autoridade de certificação interna) e você planeja oferecer suporte a dispositivos móveis com conexão sem fio, a cadeia do certificado raiz da autoridade de certificação interna deve ser instalada nos dispositivos móveis ou você deve alterar para um certificado público na infra-estrutura do Lync Server 2013.
+> Se a sua infraestrutura do Lync Server 2013 usa certificados internos que são emitidos de uma CA (autoridade de certificação) interna e você planeja dar suporte a dispositivos móveis que se conectam sem fio, a cadeia de certificados raiz da autoridade de certificação interna deve ser instalada nos dispositivos móveis ou você deve mudar para um certificado público na sua infraestrutura do Lync Server 2013.
 
-Este tópico descreve os nomes alernativos de assunto necessários para o Diretor, Servidor Front-End e pproxy reverso. Apenas os nomes alternativos de assunto (SAN) adicionados são referenciados. Consulte as seções de planejamento para orientação em outras entradas em certificados. Para detalhes, consulte [Cenários para o Diretor no Lync Server 2013](lync-server-2013-scenarios-for-the-director.md), [Cenários de acesso de usuário externo no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) e [Cenários de proxy reverso no Lync Server 2013](lync-server-2013-scenarios-for-reverse-proxy.md).
 
-As tabelas a seguir definem as entradas SAN de Descobrimento automático para o Pool de diretores, o Pool de Front-Ends e o proxy reverso:
 
-### Requisitos de certificado do Pool de Diretores
+</div>
+
+Este tópico descreve os nomes alternativos de entidades adicionados necessários para o diretor, servidor front-end e proxy reverso. Somente os nomes alternativos de entidades (SAN) adicionados são referenciados. Consulte as seções de planejamento para obter diretrizes sobre as outras entradas em certificados. Para obter detalhes, consulte [cenários do diretor do Lync server 2013](lync-server-2013-scenarios-for-the-director.md), [cenários para acesso de usuários externos no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)e [cenários para o proxy inverso no Lync Server 2013](lync-server-2013-scenarios-for-reverse-proxy.md).
+
+As tabelas a seguir definem as entradas de SAN de descoberta automática para o pool de diretor, o pool de front-ends e o proxy reverso:
+
+### <a name="director-pool-certificate-requirements"></a>Requisitos de certificado do pool do director
 
 <table>
 <colgroup>
@@ -45,26 +78,33 @@ As tabelas a seguir definem as entradas SAN de Descobrimento automático para o 
 <thead>
 <tr class="header">
 <th>Descrição</th>
-<th>Entrada de nome de entidade alternativo</th>
+<th>Entrada de nome alternativo do assunto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>URL interna do serviço de Descoberta Automática</p></td>
-<td><p>SAN=lyncdiscoverinternal.<em>&lt;nome de domínio interno&gt;</em></p></td>
+<td><p>URL interna do serviço de descoberta automática</p></td>
+<td><p>SAN = lyncdiscoverinternal. &lt;nome de domínio interno&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>URL externa do serviço de Descoberta Automática</p></td>
-<td><p>SAN=lyncdiscover.<em>&lt;sipdomain&gt;</em></p></td>
+<td><p>URL do serviço de descoberta automática externo</p></td>
+<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
 
 
-> [!NOTE]  
-> Você designa o certificado recém atualizado com a nova entrada de SAN ao certificado padrão. Como alternativa, é possível usar SAN=*.<em>&lt;sipdomain&gt;</em>
+<div>
 
-### Requisitos de certificado do pool Front-End
+
+> [!NOTE]  
+> Você atribui o certificado recém atualizado com a nova entrada de SAN ao certificado padrão. Você também pode usar SAN = *. &lt;sipdomain&gt;.
+
+
+
+</div>
+
+### <a name="front-end-pool-certificate-requirements"></a>Requisitos de certificado de pool de front-end
 
 <table>
 <colgroup>
@@ -74,26 +114,33 @@ As tabelas a seguir definem as entradas SAN de Descobrimento automático para o 
 <thead>
 <tr class="header">
 <th>Descrição</th>
-<th>Entrada de nome de entidade alternativo</th>
+<th>Entrada de nome alternativo do assunto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>URL interna do serviço de Descoberta Automática</p></td>
-<td><p>SAN=lyncdiscoverinternal.<em>&lt;nome de domínio interno&gt;</em></p></td>
+<td><p>URL interna do serviço de descoberta automática</p></td>
+<td><p>SAN = lyncdiscoverinternal. &lt;nome de domínio interno&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>URL externa do serviço de Descoberta Automática</p></td>
-<td><p>SAN=lyncdiscover.<em>&lt;sipdomain&gt;</em></p></td>
+<td><p>URL do serviço de descoberta automática externo</p></td>
+<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
 
 
-> [!NOTE]  
-> Você deve designar o certificado atualizado com a nova entrada de SAN ao certificado padrão. Como alternativa, é possível usar SAN=*.<em>&lt;sipdomain&gt;</em>
+<div>
 
-### Requisitos de certificado de proxy reverso (CA pública)
+
+> [!NOTE]  
+> Você atribui o certificado recém atualizado com a nova entrada de SAN ao certificado padrão. Você também pode usar SAN = *. &lt;sipdomain&gt;
+
+
+
+</div>
+
+### <a name="reverse-proxy-public-ca-certificate-requirements"></a>Requisitos de certificado de proxy reverso (CA pública)
 
 <table>
 <colgroup>
@@ -103,17 +150,35 @@ As tabelas a seguir definem as entradas SAN de Descobrimento automático para o 
 <thead>
 <tr class="header">
 <th>Descrição</th>
-<th>Entrada de nome de entidade alternativo</th>
+<th>Entrada de nome alternativo do assunto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>URL externa do serviço de Descoberta Automática</p></td>
-<td><p>SAN=lyncdiscover.<em>&lt;sipdomain&gt;</em></p></td>
+<td><p>URL do serviço de descoberta automática externo</p></td>
+<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
 
 
+<div>
+
+
 > [!NOTE]  
-> Designe o certificado atualizado com a nova entrada de SAN para o Ouvinte SSL no proxy reverso.
+> Você atribui o certificado recém atualizado à nova entrada de SAN ao ouvinte SSL no proxy reverso.
+
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

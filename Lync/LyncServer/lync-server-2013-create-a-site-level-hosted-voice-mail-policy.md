@@ -1,45 +1,79 @@
-﻿---
-title: "Criar uma política de caixa postal hospedada no nível local no Lync Server 2013"
-TOCTitle: "Criar uma política de caixa postal hospedada no nível local no Lync Server 2013"
-ms:assetid: 145892c8-a6ca-45fb-9e83-786f709dd775
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398216(v=OCS.15)
-ms:contentKeyID: 49305979
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: criar uma política de correio de voz hospedada no nível do site'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create a site-level hosted voice mail policy
+ms:assetid: 145892c8-a6ca-45fb-9e83-786f709dd775
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398216(v=OCS.15)
+ms:contentKeyID: 48183481
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d9df91e28eeba8bc9769e4fcbeff6ebba2b3746d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836076"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Criar uma política de caixa postal hospedada no nível local no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-24_
+# <a name="create-a-site-level-hosted-voice-mail-policy-in-lync-server-2013"></a>Criar uma política de caixa postal hospedada no nível do site no Lync Server 2013
 
-Uma política de *local* pode afetar todos os usuários hospedados no local em que a política foi definida. Se um usuário for configurado para acesso hospedado ao serviço de UM do Exchange e não tiver recebido uma política Por usuário, a política de local será aplicada. Caso não tenha implantado uma política de local, será aplicada a política global.
+</div>
 
-Para obter detalhes sobre como configurar políticas de site, consulte a documentação do Shell de Gerenciamento do Lync Server nos seguintes cmdlets:
+<div id="mainSection">
 
-  - [New-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostedVoicemailPolicy)
+<div id="mainBody">
 
-  - [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy)
+<span> </span>
 
-  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
+_**Tópico da última modificação:** 2012-09-24_
 
-## Para criar uma política de caixa postal hospedada em um site
+Uma política de *site* pode afetar todos os usuários que estão hospedados no site para o qual a política está definida. Se um usuário estiver configurado para acesso do Exchange UM hospedado e não tiver sido atribuída uma política por usuário, a política do site será aplicada. Se você não implantou uma política de site, a política global se aplica.
 
-1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+Para obter detalhes sobre como configurar políticas de site, consulte a documentação do Shell de gerenciamento do Lync Server para os seguintes cmdlets:
+
+  - [New-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsHostedVoicemailPolicy)
+
+  - [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy)
+
+  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsHostedVoicemailPolicy)
+
+<div>
+
+## <a name="to-create-a-site-hosted-voice-mail-policy"></a>Para criar uma política de caixa postal hospedada no site
+
+1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
 
 2.  Execute o cmdlet New-CsHostedVoicemailPolicy para criar a política. Por exemplo, execute:
     
         New-CsHostedVoicemailPolicy -Identity site:Redmond -Destination ExUM.fabrikam.com -Description "Hosted voice mail policy for the Redmond site." -Organization "corp1.litwareinc.com, corp2.litwareinc.com"
     
-    Esse exemplo cria uma política de caixa postal com escopo do site e define os parâmetros a seguir:
+    Este exemplo cria uma política de caixa postal hospedada com escopo de site e define os seguintes parâmetros:
     
-      - A **Identidade** especifica um identificador único para a política, o que inclui o escopo. Para uma política com escopo de site, o valor de parâmetro de identidade deve ser especificado no formato `site:`*\<nome\>*, por exemplo, `site:Redmond`.
+      - **Identity** especifica um identificador exclusivo para a política, que inclui o escopo. Para uma política com escopo de site, o valor do parâmetro Identity deve ser especificado no `site:` * \<nome\>* do formato, por `site:Redmond`exemplo,.
     
-      - O **Destino** especifica o nome de domínio totalmente qualificado (FQDN) do serviço hospedado de UM do Exchange. Este parâmetro é opcional, mas se se tentar habilitar um usuário para correio de voz apresentado e a diretiva atribuída ao usuário não tiver um valor Destino, a habilitação falhará.
+      - **Destino** especifica o nome de domínio totalmente qualificado (FQDN) do serviço do Exchange um hospedado. Esse parâmetro é opcional, mas se você tentar habilitar um usuário para a caixa postal hospedada e a política atribuída do usuário não tiver um valor de destino, o habilitar falhará.
     
-      - A **Descrição** fornece informações descritivas opcionais sobre a política.
+      - **Descrição** fornece informações descritivas opcionais sobre a política.
     
-      - A **Organização** especifica uma lista separada por vírgulas de inquilinos do Exchange que hospedam os usuários do Lync Server 2013. Cada inquilino deve ser especificado como FQDN daquele inquilino no serviço hospedado de UM do Exchange.
+      - **Organização** especifica uma lista separada por vírgulas dos locatários do Exchange que os usuários do Lync Server 2013 em casa. Cada locatário deve ser especificado como FQDN do locatário no serviço do Exchange UM hospedado.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

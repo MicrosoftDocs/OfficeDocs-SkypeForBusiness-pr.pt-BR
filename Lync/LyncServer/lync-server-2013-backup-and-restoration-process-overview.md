@@ -1,55 +1,97 @@
-﻿---
-title: Visão geral do processo de restauração e backup
-TOCTitle: Visão geral do processo de restauração e backup
-ms:assetid: e0f23b21-070f-4df5-b795-cea2f5338d85
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh202192(v=OCS.15)
-ms:contentKeyID: 52057746
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: visão geral do processo de backup e restauração'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Backup and restoration process overview
+ms:assetid: e0f23b21-070f-4df5-b795-cea2f5338d85
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202192(v=OCS.15)
+ms:contentKeyID: 51541524
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5b01230e84c9278d5540c21d41d9af1342479e6a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836887"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Visão geral do processo de restauração e backup
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-03-26_
+# <a name="backup-and-restoration-process-overview-for-lync-server-2013"></a>Visão geral do processo de backup e restauração do Lync Server 2013
 
-Esta seção fornece uma visão geral de como funciona o processo de backup e restauração para o Lync Server 2013. O mesmo processo é usado para todos os servidores Standard Edition e Enterprise Edition, independentemente de seus locais.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-03-26_
+
+Esta seção fornece uma visão geral de como o processo de backup e restauração funciona para o Lync Server 2013. Você usa o mesmo processo para todos os servidores de edição padrão e Enterprise Edition Server, independentemente de sua localização.
 
 Em geral, o processo de backup funciona da seguinte maneira:
 
-  - Você cria um local de backup como uma pasta compartilhada em um computador autônomo que não faz parte de qualquer pool. O local do backup é citado em **$Backup**.
+  - Você cria um local de backup como uma pasta compartilhada em um computador autônomo que não faz parte de nenhum pool. O local do backup é referenciado no **$backup**.
 
-  - De forma regular e agendada, você faz o backup de todos os bancos de dados do Lync Server e de todos os repositórios de arquivo descritos em [Requisitos de backup e restauração: dados](lync-server-2013-backup-and-restoration-requirements-data.md) seguindo os procedimentos descritos em [Fazendo backup do Lync Server](lync-server-2013-backing-up-lync-server.md). O Repositório de Gerenciamento Central inclui todas as configurações de servidor.
+  - Em uma base normal e agendada, você poderá fazer backup de todos os bancos de dados do Lync Server e de todos os repositórios de arquivos descritos nos [requisitos de backup e restauração no Lync server 2013: dados](lync-server-2013-backup-and-restoration-requirements-data.md) , seguindo os procedimentos descritos em fazendo o backup do [Lync Server 2013 ](lync-server-2013-backing-up-lync-server.md)O repositório de gerenciamento central inclui todas as configurações e configurações do servidor.
 
-  - Sempre que você executa um backup subsequente, cria uma nova pasta compartilhada e muda o caminho consultado pelo **$Backup**.
+  - Toda vez que você executar um backup subsequente, crie uma nova pasta compartilhada e altere o caminho que **$backup** referências.
 
 Em geral, o processo de restauração funciona da seguinte maneira:
 
-  - Quando uma falha ou interrupção ocorre, você restaura os dados no local referenciado pelo **$Backup** para computadores novos ou limpos.
+  - Quando ocorre uma falha ou uma interrupção, você restaura os dados no local referenciado por **$backup** para computadores novos ou limpos.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Este processo de restauração não restaura os dados para um estado de servidor existente. Ou seja, esse processo exige que o servidor seja limpo ou novo.
+    > Esse processo de restauração não restaura dados em um estado de servidor existente. Ou seja, esse processo requer que o servidor seja limpo ou novo.
 
-  - Para permitir que as informações de conferência e de usuário sejam recuperáveis após uma falha, você pode implementar uma topologia de recuperação pós-desastre com pools de Front-End emparelhados, como descrito em [Planejamento para alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Além dessa opção, o Lync Server suporta somente o modelo de recuperação simples para seus bancos de dados. Com o modelo de recuperação simples, bancos de dados são recuperados até o ponto do último backup completo, o que significa que você não poderá restaurar um banco de dados até o ponto onde ocorreu a falha ou até um ponto específico no tempo. Para muitas organizações, o modelo de recuperação simples é ideal, porque o banco de dados back-end do Lync Server (RTCXDS.mdf) é na verdade menor que os arquivos de log de transação, e é significativamente menor que os arquivos de aplicativos de bancos de dados típicos de certas linhas de atuação comercial.
-
-  - Toda configuração de DNS (Sistema de Nomes de Domínio), configuração DHCP (Dynamic Host Configuration Protocol), nomes de domínio, FQDNs (nomes de domínio totalmente qualificados), caminhos de repositório de arquivo e assim por diante, precisam ser no momento da restauração iguais as do momento do backup.
-
-Se um servidor que estiver executando o Lync Server falhar, a recuperação incluirá as seguintes etapas:
-
-  - Instale o sistema operacional em um computador novo ou limpo com o mesmo FQDN que o computador com falha.
-
-  - Reinstale os certificados.
-
-  - Se o servidor hospedar um banco de dados, instale o Microsoft SQL Server 2012 ou o Microsoft SQL Server 2008 R2.
-
-  - Em geral, se o servidor hospedar um banco de dados, execute o Construtor de Topologias para criar e instalar o banco de dados e configurar as ACLs (Listas de controle de acesso).
-
-  - Em geral, se o servidor hospedar uma função de servidor, execute a Etapa 1 a 4 do Assistente de Implantação do Lync Server para instalar os arquivos de configuração local, instalar os componentes da função do servidor, atribuir certificados e iniciar os serviços.
     
-    > [!NOTE]  
-    > Se o servidor hospedar um banco de dados alinhado com a função de servidor, a execução da etapa 2 do Assistente de Implantação do Lync Server recriará o banco de dados.
+    </div>
 
-  - Se o servidor hospedou um banco de dados, restaure os dados do backup.
+  - Para permitir que suas informações de usuário e conferência sejam recuperadas ao ponto de falha, você pode implementar uma topologia de recuperação de desastres com pools front-end emparelhados, conforme descrito em [planejando para alta disponibilidade e recuperação de desastres no Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+
+  - Todas as configurações de DNS (Domain Name System), configuração de DHCP (Dynamic Host Configuration Protocol), nomes de domínio, nomes de domínio totalmente qualificados (FQDNs) do computador, caminhos do armazenamento de arquivos e assim por diante devem ser iguais no momento da restauração que estavam no momento do fazer backup.
+
+Se um servidor que executa o Lync Server falhar, a recuperação incluirá as seguintes etapas:
+
+  - Instale o sistema operacional em um computador novo ou limpo com o mesmo FQDN do computador com falha.
+
+  - Reinstalar certificados.
+
+  - Se o servidor tiver hospedado um banco de dados, instale o Microsoft SQL Server 2012 ou o Microsoft SQL Server 2008 R2.
+
+  - Em geral, se o servidor hospedasse um banco de dados, execute o construtor de topologias para criar e instalar o banco de dados e configurar listas de controle de acesso (ACLs).
+
+  - Em geral, se o servidor hospedasse uma função de servidor, execute a etapa 1 até a etapa 4 do assistente de implantação do Lync Server para instalar os arquivos de configuração local, instalar os componentes da função de servidor, atribuir certificados e iniciar os serviços.
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > Se o servidor que hospeda um banco de dados estiver posicionado com a função do servidor, executar a etapa 2 do assistente de implantação do Lync Server recriará o banco de dados.
+
+    
+    </div>
+
+  - Se o servidor hospedasse um banco de dados, restaure os dados de backup.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,78 +1,57 @@
-﻿---
-title: Interpreting the Results
+---
+title: Interpretação dos resultados
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
 TOCTitle: Interpreting the Results
 ms:assetid: dd7f199f-7075-4d88-bb84-49a7e05eb593
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ945608(v=OCS.15)
-ms:contentKeyID: 52057791
-ms.date: 06/25/2014
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945608(v=OCS.15)
+ms:contentKeyID: 51541433
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: d0a3dc473765a67db2e09f5a56db14b1ea8a41a4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837046"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Interpreting the Results
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-24_
+# <a name="interpreting-the-results"></a>Interpretação dos resultados
 
-The Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe) has many counters that you can use to understand what the client is doing and whether it is encountering issues.
+</div>
 
-## Client Counters
+<div id="mainSection">
 
-Each instance of LyncPerfTool.exe that is running has a separate instance of the counters. Each instance is named by its process ID.
+<div id="mainBody">
 
-If the clients are overloaded, issues can occur. To prevent these issues, do the following:
+<span> </span>
 
-1.  Monitor the CPU and the memory usage on the client computers. If the CPU is consistently above 90 percent, reduce the number of users.
+_**Tópico da última modificação:** 2013-02-24_
 
-2.  If the memory footprint is high, you could run into issues if the page file is not big enough. Verify that the Commit Charge is not hitting the limit on the computer. If you are running into memory limits, consider increasing the page file size or reducing the number of users
+A ferramenta de stress e desempenho do Lync Server 2013 (LyncPerfTool. exe) tem muitos contadores que você pode usar para compreender o que o cliente está fazendo e se está encontrando problemas.
 
-The following tables list the key LyncPerfTool performance counters.
+<div>
 
-**General Information**
+## <a name="client-counters"></a>Contadores de cliente
 
+Cada instância do LyncPerfTool. exe que está sendo executada tem uma instância separada dos contadores. Cada instância é nomeada pela ID do processo.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Performance Counter</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Time Spent in Minutes</p></td>
-<td><p>Time spent since the process was started.</p></td>
-</tr>
-<tr class="even">
-<td><p>Active Endpoints</p></td>
-<td><p>Number of endpoints currently connected to the server.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Failed Logons</p></td>
-<td><p>Total number of endpoint sign-in failures.</p></td>
-</tr>
-<tr class="even">
-<td><p>Logon Attempts</p></td>
-<td><p>Total number of endpoint sign-in attempts.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Endpoints Disconnected</p></td>
-<td><p>Total number of endpoints that have been disconnected.</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-</tbody>
-</table>
+Se os clientes estiverem sobrecarregados, podem ocorrer problemas. Para evitar esses problemas, faça o seguinte:
 
+1.  Monitore a CPU e o uso da memória nos computadores cliente. Se a CPU estiver consistentemente acima de 90%, reduza o número de usuários.
 
-**Presence Information**
+2.  Se o espaço da memória for alto, você poderá ter problemas se o arquivo da página não for grande o suficiente. Verifique se a carga comprometida não está atingindo o limite do computador. Se você estiver executando limites de memória, considere aumentar o tamanho do arquivo da página ou reduzir o número de usuários
+
+As tabelas a seguir listam os principais contadores de desempenho do LyncPerfTool.
+
+**Informações gerais**
 
 
 <table>
@@ -82,34 +61,40 @@ The following tables list the key LyncPerfTool performance counters.
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Performance Counter</strong></th>
-<th><strong>Description</strong></th>
+<th><strong>Contador de desempenho</strong></th>
+<th><strong>Descrição</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>SetPresence Calls</p></td>
-<td><p>Total number of presence change attempts. For different types of presence changes, see the SetPresence (Presence Type) Calls Performance Counter.</p></td>
+<td><p>Tempo gasto em minutos</p></td>
+<td><p>Tempo gasto desde o início do processo.</p></td>
 </tr>
 <tr class="even">
-<td><p>NNN Responses for SetPresence</p></td>
-<td><p>Total number of nnn response codes received from the server.</p></td>
+<td><p>Pontos de extremidade ativos</p></td>
+<td><p>Número de pontos de extremidade conectados ao servidor no momento.</p></td>
 </tr>
 <tr class="odd">
-<td><p>GetPresence Calls</p></td>
-<td><p>Total number of get presence request attempts.</p></td>
+<td><p>Logons com falha</p></td>
+<td><p>Número total de falhas de entrada de ponto de extremidade.</p></td>
 </tr>
 <tr class="even">
-<td><p>NNN Responses for GetPresence</p></td>
-<td><p>Total number of nnn response codes received from the server.</p></td>
+<td><p>Tentativas de logon</p></td>
+<td><p>Número total de tentativas de entrada no ponto de extremidade.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Pontos de extremidade desconectados</p></td>
+<td><p>Número total de pontos de extremidade desconectados.</p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-**Address Book service Information**
-
-This category includes counters used to monitor Address Book service (ABS) file downloads and Address Book Web Query service requests.
+**Informações de presença**
 
 
 <table>
@@ -119,40 +104,34 @@ This category includes counters used to monitor Address Book service (ABS) file 
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Performance Counter</strong></th>
-<th><strong>Description</strong></th>
+<th><strong>Contador de desempenho</strong></th>
+<th><strong>Descrição</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ABS Full/Delta File Downloads Attempted</p></td>
-<td><p>Total number of full or delta file download requests attempted.</p></td>
+<td><p>Chamadas de presença</p></td>
+<td><p>Número total de tentativas de alteração de presença. Para diferentes tipos de alterações de presença, consulte o contador de desempenho de chamadas de presença (tipo de presença).</p></td>
 </tr>
 <tr class="even">
-<td><p>ABS Full/Delta File Downloads Succeeded</p></td>
-<td><p>Total number of full or delta file download requests attempted.</p></td>
+<td><p>Respostas de NNN para setpresence</p></td>
+<td><p>Número total de códigos de resposta de nnn recebidos do servidor.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Address Book Web Query service related counters</p></td>
-<td><p>Address book file download related counters.</p></td>
+<td><p>Chamadas de getpresence</p></td>
+<td><p>Número total de tentativas de obter solicitação de presença.</p></td>
 </tr>
 <tr class="even">
-<td><p>ABS WS Calls attempted</p></td>
-<td><p>Total number of Address Book Web Query service requests attempted.</p></td>
-</tr>
-<tr class="odd">
-<td><p>ABS WS Calls Succeeded</p></td>
-<td><p>Total number of Address Book Web Query service requests that returned a successful response code.</p></td>
-</tr>
-<tr class="even">
-<td><p>ABS WS Calls Failed</p></td>
-<td><p>Total number of Address Book Web Query service requests that returned an error response code.</p></td>
+<td><p>Respostas NNN para getpresence</p></td>
+<td><p>Número total de códigos de resposta de nnn recebidos do servidor.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Distribution List (DL) Information**
+**Informações do serviço de catálogo de endereços**
+
+Esta categoria inclui contadores usados para monitorar downloads de arquivos do serviço de catálogo de endereços (ABS) e catálogo de endereços da Web consulta de serviço.
 
 
 <table>
@@ -162,30 +141,40 @@ This category includes counters used to monitor Address Book service (ABS) file 
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Performance Counter</strong></th>
-<th><strong>Description</strong></th>
+<th><strong>Contador de desempenho</strong></th>
+<th><strong>Descrição</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Calls Attempted</p></td>
-<td><p>Total number of distribution list expansion (DLX) web service requests attempted.</p></td>
+<td><p>Tentativas de download de arquivo completo/Delta da ABS</p></td>
+<td><p>Número total de solicitações de download de arquivos completas ou Delta tentadas.</p></td>
 </tr>
 <tr class="even">
-<td><p>Calls Succeeded</p></td>
-<td><p>Total number of DLX web service requests that returned a successful response code.</p></td>
+<td><p>Downloads de arquivo completo/Delta do ABS bem-sucedido</p></td>
+<td><p>Número total de solicitações de download de arquivos completas ou Delta tentadas.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Calls Failed</p></td>
-<td><p>Total number of DLX web service requests that returned an error response code.</p></td>
+<td><p>Contadores relacionados ao serviço de consulta na Web do catálogo de endereços</p></td>
+<td><p>Contadores relacionados ao download de arquivos do catálogo de endereços.</p></td>
+</tr>
+<tr class="even">
+<td><p>Chamadas de WS WS tentadas</p></td>
+<td><p>Número total de tentativas de solicitações de serviço de consulta à Web do catálogo de endereços.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Chamadas do WS para ABS bem-sucedidas</p></td>
+<td><p>Número total de solicitações de serviço de consulta à Web do catálogo de endereços que retornaram um código de resposta bem-sucedido.</p></td>
+</tr>
+<tr class="even">
+<td><p>Falha nas chamadas ABS WS</p></td>
+<td><p>Número total de solicitações de serviço de consulta à Web do catálogo de endereços que retornaram um código de resposta de erro.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**VoIP Basic Information**
-
-The performance counters listed below report numbers for all Voice over IP (VoIP) calls, including calls to Mediation Server, A/V Conferencing Server, Edge Server, Response Group application, and Conference Auto Attendant, when these scenarios are enabled.
+**Informações de lista de distribuição (DL)**
 
 
 <table>
@@ -195,44 +184,30 @@ The performance counters listed below report numbers for all Voice over IP (VoIP
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Performance Counter</strong></th>
-<th><strong>Description</strong></th>
+<th><strong>Contador de desempenho</strong></th>
+<th><strong>Descrição</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Calls Active</p></td>
-<td><p>Total number of incoming/outgoing voice calls ongoing currently.</p></td>
+<td><p>Chamadas tentadas</p></td>
+<td><p>Número total de solicitações de serviço Web de expansão da lista de distribuição (DLX) tentadas.</p></td>
 </tr>
 <tr class="even">
-<td><p>Calls Terminated</p></td>
-<td><p>Total number of incoming/outgoing voice calls already terminated.</p></td>
+<td><p>Chamadas com êxito</p></td>
+<td><p>Número total de solicitações de serviço Web DLX que retornaram um código de resposta bem-sucedido.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Calls Declined</p></td>
-<td><p>Total number of incoming voice calls declined.</p></td>
-</tr>
-<tr class="even">
-<td><p>Incoming/Outgoing Calls Attempted</p></td>
-<td><p>Total number of incoming/outgoing voice calls attempted.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Incoming/Outgoing Calls Established</p></td>
-<td><p>Total number of incoming/outgoing voice calls established.</p></td>
-</tr>
-<tr class="even">
-<td><p>Calls Received NNN</p></td>
-<td><p>Total number of nnn response codes received from the server.</p></td>
-</tr>
-<tr class="odd">
-<td><p>VoIP Pass Rate (%)</p></td>
-<td><p>Total calls established/Total calls attempted.</p></td>
+<td><p>Falha nas chamadas</p></td>
+<td><p>Número total de solicitações de serviço Web DLX que retornaram um código de resposta de erro.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Response Group service Call Information**
+**Informações básicas de VoIP**
+
+Os contadores de desempenho listados abaixo numeram os números de todas as chamadas de voz sobre IP (VoIP), incluindo chamadas para servidor de mediação, servidor de conferência A/V, servidor de borda, aplicativo de grupo de resposta e atendedor automático de conferência, quando esses cenários são habilitados.
 
 
 <table>
@@ -242,24 +217,44 @@ The performance counters listed below report numbers for all Voice over IP (VoIP
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Performance Counter</strong></th>
-<th><strong>Description</strong></th>
+<th><strong>Contador de desempenho</strong></th>
+<th><strong>Descrição</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Calls Active</p></td>
-<td><p>Total number of active calls to the Response Group application.</p></td>
+<td><p>Chamadas ativas</p></td>
+<td><p>Número total de chamadas de voz de entrada/saída em andamento no momento.</p></td>
 </tr>
 <tr class="even">
-<td><p>Calls Attempted</p></td>
-<td><p>Total number of calls attempted.</p></td>
+<td><p>Chamadas terminadas</p></td>
+<td><p>Número total de chamadas de voz de entrada/saída já terminadas.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Chamadas recusadas</p></td>
+<td><p>Número total de chamadas de voz recebidas recusadas.</p></td>
+</tr>
+<tr class="even">
+<td><p>Tentativa de fazer chamadas de entrada/saída</p></td>
+<td><p>Número total de chamadas de voz de entrada/saída tentadas.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Chamadas de entrada/saída estabelecidas</p></td>
+<td><p>Número total de chamadas de voz de entrada/saída estabelecidas.</p></td>
+</tr>
+<tr class="even">
+<td><p>Chamadas recebidas NNN</p></td>
+<td><p>Número total de códigos de resposta de nnn recebidos do servidor.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Taxa de aprovação de VoIP (%)</p></td>
+<td><p>Total de chamadas estabelecidas/total de chamadas tentadas.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Instant Messaging (IM) Call Information**
+**Informações de chamada do serviço de grupo de resposta**
 
 
 <table>
@@ -269,40 +264,24 @@ The performance counters listed below report numbers for all Voice over IP (VoIP
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Performance Counter</strong></th>
-<th><strong>Description</strong></th>
+<th><strong>Contador de desempenho</strong></th>
+<th><strong>Descrição</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Calls Active</p></td>
-<td><p>Total number of ongoing incoming/outgoing instant messaging calls.</p></td>
+<td><p>Chamadas ativas</p></td>
+<td><p>Número total de chamadas ativas para o aplicativo de grupo de resposta.</p></td>
 </tr>
 <tr class="even">
-<td><p>Calls Terminated</p></td>
-<td><p>Total number of incoming/outgoing instant messaging calls already terminated.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Calls Received NNN</p></td>
-<td><p>Total number of nnn response codes received from the server.</p></td>
-</tr>
-<tr class="even">
-<td><p>IM Messages Received/Sent</p></td>
-<td><p>Total number of messages received or sent for all sessions.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Incoming/Outgoing Calls Attempted</p></td>
-<td><p>Total number of incoming/outgoing instant messaging calls attempted.</p></td>
-</tr>
-<tr class="even">
-<td><p>Incoming/Outgoing Calls Established</p></td>
-<td><p>Total number of incoming/outgoing instant message calls established.</p></td>
+<td><p>Chamadas tentadas</p></td>
+<td><p>Número total de chamadas tentadas.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**App Sharing Call Information**
+**Informações de chamada de mensagens instantâneas (IM)**
 
 
 <table>
@@ -312,40 +291,40 @@ The performance counters listed below report numbers for all Voice over IP (VoIP
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Performance Counter</strong></th>
-<th><strong>Description</strong></th>
+<th><strong>Contador de desempenho</strong></th>
+<th><strong>Descrição</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Calls Active</p></td>
-<td><p>Total number of ongoing incoming/outgoing application sharing calls.</p></td>
+<td><p>Chamadas ativas</p></td>
+<td><p>Número total de chamadas de mensagens instantâneas de entrada/saída contínuas.</p></td>
 </tr>
 <tr class="even">
-<td><p>Calls Terminated</p></td>
-<td><p>Total number of incoming/outgoing application sharing calls already terminated.</p></td>
+<td><p>Chamadas terminadas</p></td>
+<td><p>Número total de chamadas de entrada/saída de mensagens instantâneas já terminadas.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Calls Received NNN</p></td>
-<td><p>Total number of nnn response codes received from the server.</p></td>
+<td><p>Chamadas recebidas NNN</p></td>
+<td><p>Número total de códigos de resposta de nnn recebidos do servidor.</p></td>
 </tr>
 <tr class="even">
-<td><p>Incoming/Outgoing Calls Attempted</p></td>
-<td><p>Total number of incoming/outgoing application sharing calls attempted.</p></td>
+<td><p>Mensagens INSTANTÂNEAs recebidas/enviadas</p></td>
+<td><p>Número total de mensagens recebidas ou enviadas para todas as sessões.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Incoming/Outgoing Calls Established</p></td>
-<td><p>Total number of incoming/outgoing application sharing calls established.</p></td>
+<td><p>Tentativa de fazer chamadas de entrada/saída</p></td>
+<td><p>Número total de tentativas de entrada/saída de mensagens instantâneas feitas.</p></td>
 </tr>
 <tr class="even">
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Chamadas de entrada/saída estabelecidas</p></td>
+<td><p>Número total de chamadas de entrada/saída de mensagens instantâneas estabelecidas.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**CAA Call Information**
+**Informações de chamada de compartilhamento de aplicativo**
 
 
 <table>
@@ -355,32 +334,40 @@ The performance counters listed below report numbers for all Voice over IP (VoIP
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Performance Counter</strong></th>
-<th><strong>Description</strong></th>
+<th><strong>Contador de desempenho</strong></th>
+<th><strong>Descrição</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Calls Active</p></td>
-<td><p>Total number of incoming/outgoing public switched telephone network (PSTN) calls ongoing currently.</p></td>
+<td><p>Chamadas ativas</p></td>
+<td><p>Número total de chamadas de compartilhamento de aplicativo de entrada/saída contínuas.</p></td>
 </tr>
 <tr class="even">
-<td><p>Calls Terminated</p></td>
-<td><p>Total number of incoming/outgoing PSTN calls already terminated.</p></td>
+<td><p>Chamadas terminadas</p></td>
+<td><p>Número total de chamadas de compartilhamento de aplicativo de entrada/saída já terminadas.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Incoming/Outgoing Calls Attempted</p></td>
-<td><p>Total number of incoming/outgoing PSTN calls attempted.</p></td>
+<td><p>Chamadas recebidas NNN</p></td>
+<td><p>Número total de códigos de resposta de nnn recebidos do servidor.</p></td>
 </tr>
 <tr class="even">
-<td><p>Incoming/Outgoing Calls Established</p></td>
-<td><p>Total number of incoming/outgoing PSTN calls established.</p></td>
+<td><p>Tentativa de fazer chamadas de entrada/saída</p></td>
+<td><p>Número total de chamadas de compartilhamento de aplicativo de entrada/saída tentadas.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Chamadas de entrada/saída estabelecidas</p></td>
+<td><p>Número total de chamadas de compartilhamento de aplicativo de entrada/saída estabelecidas.</p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-**Conference Information**
+**Informações de chamada do CAA**
 
 
 <table>
@@ -390,40 +377,32 @@ The performance counters listed below report numbers for all Voice over IP (VoIP
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Performance Counter</strong></th>
-<th><strong>Description</strong></th>
+<th><strong>Contador de desempenho</strong></th>
+<th><strong>Descrição</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Active Instant Messaging Conferences</p></td>
-<td><p>Total number of ongoing instant messaging conferences.</p></td>
+<td><p>Chamadas ativas</p></td>
+<td><p>Número total de chamadas em PSTN (rede telefônica pública comutada) de entrada/saída em andamento no momento.</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Audio/Video Conferences</p></td>
-<td><p>Total number of ongoing audio/video (A/V) conferences.</p></td>
+<td><p>Chamadas terminadas</p></td>
+<td><p>Número total de chamadas PSTN de entrada/saída já terminadas.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active Application Sharing Conferences</p></td>
-<td><p>Total number of ongoing application sharing conferences.</p></td>
+<td><p>Tentativa de fazer chamadas de entrada/saída</p></td>
+<td><p>Número total de chamadas de entrada PSTN de entrada/saída tentadas.</p></td>
 </tr>
 <tr class="even">
-<td><p>Number of Participants</p></td>
-<td><p>Total number of participants currently connected to conferences.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Conference Schedule Failure</p></td>
-<td><p>Total number of failures while trying to schedule a conference.</p></td>
-</tr>
-<tr class="even">
-<td><p>Join Conference Failure</p></td>
-<td><p>Total number of failures while trying to connect to a conference.</p></td>
+<td><p>Chamadas de entrada/saída estabelecidas</p></td>
+<td><p>Número total de chamadas PSTN de entrada/saída estabelecidas.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**UCWA Client Counters**
+**Informações de conferência**
 
 
 <table>
@@ -433,19 +412,75 @@ The performance counters listed below report numbers for all Voice over IP (VoIP
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Performance Counter</strong></th>
-<th><strong>Description</strong></th>
+<th><strong>Contador de desempenho</strong></th>
+<th><strong>Descrição</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Total Number of IMMCU Joins Succeeded</p></td>
-<td><p>Total number of instant messaging conferences joined.</p></td>
+<td><p>Conferências de mensagens instantâneas ativas</p></td>
+<td><p>Número total de conferências de mensagens instantâneas em andamento.</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Number of DMCU Joins Succeeded</p></td>
-<td><p>Total number of A/V conferences joined.</p></td>
+<td><p>Conferências de áudio/vídeo ativas</p></td>
+<td><p>Número total de conferências contínuas de áudio/vídeo (A/V).</p></td>
+</tr>
+<tr class="odd">
+<td><p>Conferências de compartilhamento de aplicativos ativos</p></td>
+<td><p>Número total de conferências de compartilhamento de aplicativos contínuas.</p></td>
+</tr>
+<tr class="even">
+<td><p>Número de participantes</p></td>
+<td><p>Número total de participantes atualmente conectados a conferências.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Falha no cronograma da conferência</p></td>
+<td><p>Número total de falhas ao tentar agendar uma conferência.</p></td>
+</tr>
+<tr class="even">
+<td><p>Ingressar na falha na conferência</p></td>
+<td><p>Número total de falhas ao tentar se conectar a uma conferência.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+**Contadores do cliente UCWA**
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Contador de desempenho</strong></th>
+<th><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Número total de junções de IMMCU bem-sucedida</p></td>
+<td><p>Número total de conferências de mensagens instantâneas Unidas.</p></td>
+</tr>
+<tr class="even">
+<td><p>Número total de junções de DMCU bem-sucedida</p></td>
+<td><p>Número total de conferências de A/V Unidas.</p></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

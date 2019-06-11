@@ -1,31 +1,51 @@
-﻿---
-title: Configurando o Repositório de Contatos Pessoais nos Computadores Cliente
-TOCTitle: Configurando o Repositório de Contatos Pessoais nos Computadores Cliente
-ms:assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721922(v=OCS.15)
-ms:contentKeyID: 49886464
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando o repositório de contatos pessoais em computadores cliente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring the personal contacts store on client computers
+ms:assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721922(v=OCS.15)
+ms:contentKeyID: 49733857
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e4f9b7bbb50b5e63e87904d29a01715fcdcac8c4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836174"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando o Repositório de Contatos Pessoais nos Computadores Cliente
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>Configurando o repositório de contatos pessoais em computadores cliente para o Lync Server 2013
 
-Se você estiver integrando o Microsoft Lync Server 2013 e o Microsoft Exchange Server 2013, será recomendável configurar o repositório de contatos pessoais nos computadores cliente executando o Microsoft Lync 2010. Em particular, você deve configurar o Lync para usar o Exchange como o repositório de contatos pessoais e, ao mesmo tempo, verifique se os usuários não podem substituir essa decisão. Isso pode ser feito com a criação e a configuração de um valor de Registro em cada computador cliente.
+</div>
 
-Observe que isso não é necessário nos computadores executando o Lync 2013.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-02-05_
+
+Se você estiver integrando o Microsoft Lync Server 2013 e o Microsoft Exchange Server 2013, recomendamos que você configure o repositório de contatos pessoais em qualquer computador cliente que esteja executando o Microsoft Lync 2010. Em particular, você deve configurar o Lync para usar o Exchange como o repositório de contatos pessoais e, ao mesmo tempo, certificar-se de que os usuários não podem substituir essa decisão. Isso pode ser feito com a criação e configuração de um valor de Registro em cada computador cliente.
+
+Observe que isso não é necessário em computadores que executam o Lync 2013.
 
 Para configurar esse valor em um único computador, execute os seguinte procedimento:
 
-1.  No computador do cliente, clique em **Iniciar**, então, clique em **Executar**.
+1.  No computador do cliente, clique em **Iniciar**, e então clique em **Executar**.
 
-2.  Na caixa de diálogo **Executar**, digite regedit, então, pressione ENTER.
+2.  Na caixa de diálogo **Executar**, digite regedit e depois pressione ENTER.
 
-3.  No Editor de Registro, expanda **HKEY\_LOCAL\_MACHINE**, expanda **Software**, expanda **Policies**, expanda **Microsoft** e expanda **Communicator**.
+3.  No editor do registro, expanda **HKEY\_local\_Machine**, expanda **software**, expanda **políticas**, expanda Microsoft e, em seguida, expanda **o** **Communicator**.
 
 4.  Clique com o botão direito do mouse em **Communicator**, aponte para **Novo** e clique no **Valor DWORD (32 bits)**.
 
@@ -33,5 +53,15 @@ Para configurar esse valor em um único computador, execute os seguinte procedim
 
 6.  Verifique se o valor de PersonalContactStoreOverride está definido para 0 e feche o Editor do Registro.
 
-Se precisar fazer esta mesma alteração em vários computadores, você pode criar um objeto personalizado de Política de Grupo. Para obter detalhes, consulte a documentação da Política de Grupo em [http://go.microsoft.com/fwlink/?linkid=268543\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=268543%26clcid=0x416).
+Se precisar fazer esta mesma alteração em vários computadores, você pode criar um objeto personalizado de Política de Grupo. Para obter detalhes, consulte a documentação da política [http://go.microsoft.com/fwlink/p/?LinkId=268543](http://go.microsoft.com/fwlink/p/?linkid=268543)de grupo em.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

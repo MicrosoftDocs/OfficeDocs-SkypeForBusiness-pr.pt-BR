@@ -1,30 +1,71 @@
-﻿---
-title: Verificação de Atualizações para o Analisador de Práticas Recomendadas
-TOCTitle: Verificação de Atualizações para o Analisador de Práticas Recomendadas
-ms:assetid: 06f1da8b-99a7-4871-911e-bfb7542baced
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204645(v=OCS.15)
-ms:contentKeyID: 49305770
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: verificando se há atualizações para o analisador de práticas recomendadas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Checking for updates to Best Practices Analyzer
+ms:assetid: 06f1da8b-99a7-4871-911e-bfb7542baced
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204645(v=OCS.15)
+ms:contentKeyID: 48183307
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6a52aec0748bb5e96de0b3e6dafae4e05ddf9c15
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836570"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verificação de Atualizações para o Analisador de Práticas Recomendadas
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a>Verificando se há atualizações para o analisador de práticas recomendadas no Lync Server 2013
 
-Ao iniciar o Analisador de Práticas Recomendadas, a ferramenta fornece uma opção de pesquisa das atualizações mais recentes para a ferramenta. Se houver uma atualização disponível, você poderá baixá-la. Se você escolher não baixar as atualizações, ou se o Analisador de Práticas Recomendadas não puder acessar a Internet, você poderá continuar a usar a versão instalada no computador.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-02_
+
+Quando você inicia o analisador de práticas recomendadas, a ferramenta oferece uma opção para pesquisar as atualizações mais recentes da ferramenta. Se houver uma atualização disponível, você pode baixar a atualização. Se você optar por não baixar as atualizações ou se o analisador de práticas recomendadas não conseguir acessar a Internet, você poderá continuar a usar a versão que já está no computador.
+
+<div>
+
 
 > [!NOTE]  
-> Se você precisar de autenticação proxy para acessar a Internet, o Analisador de Práticas Recomendadas não poderá acessar novas atualizações para download. No entanto, é possível baixar manualmente a versão mais recente do RtcBPA.msi do Centro de Download da Microsoft em <a href="http://go.microsoft.com/fwlink/?linkid=266539%26clcid=0x416" class="uri">http://go.microsoft.com/fwlink/?linkid=266539&amp;clcid=0x416</a>. Após o download do arquivo, você pode copiá-lo no computador no qual deseja atualizar o Analisador de Práticas Recomendadas e usar o arquivo .msi para instalar a nova versão da ferramenta nesse computador.
+> Se você precisar de autenticação de proxy para acessar a Internet, o analisador de práticas recomendadas não poderá acessar novas atualizações para download. No entanto, você pode baixar manualmente a versão mais recente do RtcBPA. msi no centro de <A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>download da Microsoft em. Depois de baixar o arquivo, você pode copiá-lo para o computador no qual deseja atualizar o analisador de práticas recomendadas e usar o arquivo. msi para instalar a nova versão da ferramenta nesse computador.
 
-Para atualizar as regras do Analisador de Práticas Recomendadas, é necessário executar a ferramenta como Administrador no computador local. Se você não estiver conectado usando uma conta membro do grupo Administradores e forem detectadas atualizações, feche o Analisador de Práticas Recomendadas e use o procedimento a seguir para iniciar o programa.
 
-## Para abrir o Analisador de Práticas Recomendadas como Administrador para verificar a existência de atualizações
 
-1.  Em um computador no qual o Analisador de Práticas Recomendadas está instalado, clique em **Iniciar**, aponte para **Microsoft Lync Server 2013**, clique com o botão direito do mouse em **Analisador de Práticas Recomendadas** e clique em **Executar como administrador**.
+</div>
 
-2.  Especifique credenciais de uma conta membro do grupo Administradores.
+Para atualizar as regras do analisador de práticas recomendadas, você deve executar a ferramenta como administrador no computador local. Se você não estiver conectado usando uma conta que seja membro do grupo Administradores e atualizações sejam detectadas, feche o analisador de práticas recomendadas e use o procedimento a seguir para iniciar o programa.
+
+<div>
+
+## <a name="to-open-best-practices-analyzer-as-administrator-to-check-for-updates"></a>Para abrir o analisador de práticas recomendadas como administrador para verificar se há atualizações
+
+1.  Em um computador no qual o Best Practices Analyzer está instalado, clique em **Iniciar**, aponte para **Microsoft Lync Server 2013**, clique com o botão direito do mouse em analisador de **práticas recomendadas**e clique em **Executar como administrador**.
+
+2.  Especifique as credenciais de uma conta que seja membro do grupo Administradores.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

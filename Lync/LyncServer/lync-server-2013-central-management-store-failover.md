@@ -1,29 +1,59 @@
-﻿---
-title: 'Lync Server 2013: Failover do repositório do Gerenciamento Central'
-TOCTitle: Failover do repositório do Gerenciamento Central
-ms:assetid: f464d715-68a4-462c-9584-00f41ab10db0
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205376(v=OCS.15)
-ms:contentKeyID: 49308609
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Failover do repositório do Gerenciamento Central'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Central Management store failover
+ms:assetid: f464d715-68a4-462c-9584-00f41ab10db0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205376(v=OCS.15)
+ms:contentKeyID: 48185809
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5b320b3313f37a1912b909d018bbe37de5a997be
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836665"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Failover do repositório do Gerenciamento Central no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-18_
+# <a name="central-management-store-failover-in-lync-server-2013"></a>Failover do repositório do Gerenciamento Central no Lync Server 2013
 
-O Repositório de Gerenciamento Central contém dados de configuração de servidores e serviços na sua implantação do Lync 2013. Ele oferece um armazenamento mais robusto e esquematizado dos dados necessários para definir, configurar, manter, administrar, descrever e operar uma implantação do Lync 2013. Ele também valida os dados para garantir a consistência da configuração.
+</div>
 
-Cada implantação do Lync inclui um Repositório de Gerenciamento Central, que é hospedado pelo Servidor Back-End de um Pool de Front-Ends.
+<div id="mainSection">
 
-Quando você estabelece um emparelhamento de pools que inclui o pool que hospeda o Repositório de Gerenciamento Central, um banco de dados de backup do Repositório de Gerenciamento Central é definido no pool de backup e os serviços do Repositório de Gerenciamento Central são instalados em ambos os pools. Em nenhum momento um dos dois bancos de dados do Repositório de Gerenciamento Central é o mestre ativo e o outro em espera. O conteúdo é replicado pelo Serviço de Backup do mestre ativo para o em espera.
+<div id="mainBody">
 
-Durante o failover de um pool que envolve os pools que hospedam o Repositório de Gerenciamento Central, o administrador deve transferir o processamento do Repositório de Gerenciamento Central antes de transferir o processamento do Pool de Front-Ends.
+<span> </span>
 
-Após a reparação do desastre, não é necessário transferir de volta o processamento do Repositório de Gerenciamento Central. Após o reparo, o Repositório de Gerenciamento Central no pool de backup original pode permanecer como o mestre ativo.
+_**Tópico da última modificação:** 2012-10-18_
 
-Os alvos projetados do failover de Repositório de Gerenciamento Central para objetivo de tempo de recuperação (RTO) e para objetivo de ponto de recuperação (RPO) é de 5 minutos.
+O repositório de gerenciamento central contém dados de configuração sobre servidores e serviços na sua implantação do Lync 2013. Ele fornece um armazenamento robusto e schematized dos dados necessários para definir, configurar, manter, administrar, descrever e operar uma implantação do Lync 2013. Ele também valida os dados para assegurar a consistência da configuração.
+
+Cada implantação do Lync inclui um repositório central de gerenciamento, que é hospedado pelo servidor back-end de um pool de front-ends.
+
+Quando você estabelece um emparelhamento de pool que inclui o pool que hospeda o repositório de gerenciamento central, um banco de dados de armazenamento central de gerenciamento de backup é configurado no pool de backup e os serviços do repositório de gerenciamento central são instalados nos dois pools. Em qualquer point-in-time, um dos dois bancos de dados do repositório central de gerenciamento é o mestre ativo, e o outro é um standby. O conteúdo é replicado pelo serviço de backup do mestre ativo para o modo de espera.
+
+Durante um failover de pool que envolve os pools que hospedam o repositório de gerenciamento central, o administrador deve fazer failover do repositório de gerenciamento central antes de falhar sobre o pool de front-ends.
+
+Depois que o desastre for resolvido, não será necessário fazer failback do Repositório de Gerenciamento Central. Após o reparo, o repositório de gerenciamento central no pool de backup original pode permanecer como o mestre ativo.
+
+Os destinos projetados para failover do Repositório de Gerenciamento Central para o objetivo de tempo de recuperação (RTO) e para o objetivo de ponto de recuperação (RPO) são de 5 minutos.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

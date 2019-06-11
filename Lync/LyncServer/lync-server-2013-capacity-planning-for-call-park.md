@@ -1,26 +1,55 @@
-﻿---
-title: 'Lync Server 2013: Planejamento de capacidade para Estacionamento de Chamada'
-TOCTitle: Planejamento de capacidade para Estacionamento de Chamada
-ms:assetid: 75520310-760a-4b1b-bcc1-4d724d13f87a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg416493(v=OCS.15)
-ms:contentKeyID: 49307138
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planejamento de capacidade para Estacionamento de Chamada'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Capacity planning for Call Park
+ms:assetid: 75520310-760a-4b1b-bcc1-4d724d13f87a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416493(v=OCS.15)
+ms:contentKeyID: 48184529
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5fe55e09c67e62676202def9e3def3454d7cbd33
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836677"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planejamento de capacidade para Estacionamento de Chamada no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a>Planejamento de capacidade para Estacionamento de Chamada no Lync Server 2013
 
-A tabela a seguir descreve o modelo de usuário do Estacionamento de Chamada que pode ser usado como base para requisitos de planejamento de capacidade.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-13_
+
+<div id="sectionSection0" class="section">
+
+A tabela a seguir descreve o modelo de usuário do parque de chamadas que você pode usar como base para requisitos de planejamento de capacidade.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Tenha em mente que para o planejamento de capacidade de recuperação de desastres, cada pool de um par deve ser capaz de manipular cargas de trabalho de serviços do Estacionamento de Chamada nos dois pools.
+> Lembre-se de que, para o planejamento da capacidade de recuperação de desastres, cada pool de um pool emparelhado deve ser capaz de manipular as cargas de trabalho para serviços de estacionamento de chamadas em ambos os pools.
 
-### Modelo de usuário do estacionamento de chamada Park
+
+
+</div>
+
+### <a name="call-park-user-model"></a>Modelo de usuário do estacionamento de chamada
 
 <table>
 <colgroup>
@@ -31,8 +60,8 @@ A tabela a seguir descreve o modelo de usuário do Estacionamento de Chamada que
 <thead>
 <tr class="header">
 <th>Indicador</th>
-<th>Por Pool de Front-Ends (com 8 servidores Front-End)</th>
-<th>Por Servidor Standard Edition</th>
+<th>Por pool de front-end (com 8 servidores front end)</th>
+<th>Por servidor padrão da edição</th>
 </tr>
 </thead>
 <tbody>
@@ -53,4 +82,17 @@ A tabela a seguir descreve o modelo de usuário do Estacionamento de Chamada que
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

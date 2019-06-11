@@ -1,89 +1,129 @@
-﻿---
-title: Como as fotos do usuário são exibidas no Lync
-TOCTitle: Como as fotos do usuário são exibidas no Lync
-ms:assetid: b44a364d-a1d2-4d45-b27a-b5f77775e233
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn783119(v=OCS.15)
-ms:contentKeyID: 62833689
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Como as fotos do usuário são exibidas no Lync
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: How user photos are displayed in Lync
+ms:assetid: b44a364d-a1d2-4d45-b27a-b5f77775e233
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn783119(v=OCS.15)
+ms:contentKeyID: 62835297
+ms.date: 08/27/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 941c1ab56feea557dfc792ea0af6415dd2a56851
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836872"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Como as fotos do usuário são exibidas no Lync
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="how-user-photos-are-displayed-in-lync"></a>Como as fotos do usuário são exibidas no Lync
 
-**Resumo:** as fotos de usuário exibidas no cliente Lync podem ser diferentes, dependendo do recurso do Lync que você está usando; por exemplo, quando está em uma conferência ou em um chat de mensagens instantâneas.
+</div>
 
-O Lync 2010 incorporou a capacidade de incluir uma foto com o perfil do Lync exibido para outros usuários do Lync. Você também pode decidir se exibirá ou não fotos para seus contatos no cliente Lync. No Lync 2013, há suporte para fotos de alta resolução dos usuários. Este tópico descreve como o cliente Lync obterá e exibirá as fotos do usuário, onde as imagens serão armazenadas, as limitações de cada fonte de imagens e como as fotos do usuário serão utilizadas por diferentes serviços do Lync.
+<div id="mainSection">
 
-## Considerações sobre planejamento
+<div id="mainBody">
 
-Considere o seguinte ao planejar a implementação do suporte para fotos do usuário.
+<span> </span>
 
-  - O suporte para foto de alta resolução do usuário requer que a caixa de correio do usuário esteja localizada no Exchange 2013 e que a conta de usuário do Lync esteja no pool do Lync 2013.
+_**Tópico da última modificação:** 2014-08-25_
 
-  - Somente um ambiente em que o Lync Server 2013 e o Exchange 2013 sejam utilizados oferece suporte a fotos de alta resolução do usuário.
+**Resumo:** As fotos do usuário exibidas no Lync Client podem ser diferentes dependendo de qual recurso do Lync você está usando, como quando está em uma conferência ou um chat de mensagem instantânea.
 
-  - Os usuários com caixas de correio no Exchange 2010 sempre utilizarão o atributo **thumbnailPhoto** do AD DS como fonte de suas fotos de usuário.
+O Lync 2010 introduziu a capacidade de incluir uma foto com o seu perfil do Lync que é exibido para outros usuários do Lync. Você também pode escolher se deseja ou não exibir fotos para seus contatos no cliente do Lync. No Lync 2013, suporte para fotos de alta resolução para usuários. Este tópico descreve como o Lync Client Obtém e exibe as fotos do usuário, onde as imagens são armazenadas, as limitações para cada fonte de imagem e como as fotos do usuário são usadas por diferentes serviços do Lync.
 
-  - Uma foto de usuário armazenada como atributo **thumbnailPhoto** no AD DS não será exibida para contatos externos/federados.
+<div>
 
-  - Se as fotos para os contatos do usuário forem armazenadas no AD DS, o arquivo de imagem será limitado a 96×96 pixels e não terá mais de 100 KB.
+## <a name="planning-considerations"></a>Considerações de planejamento
 
-  - Se a conectividade entre o Lync Server e o Exchange Server for perdida, o atributo **thumbnailPhoto** de baixa resolução do usuário no AD DS será exibido, e somente para os usuários internos.
+Você deve considerar o seguinte ao planejar a implementação do suporte para fotos de usuários.
 
-  - As fotos de alta resolução do usuário são exibidas nas reuniões do Lync 2013 quando um palestrante ativo não está com vídeo habilitado. Mover o mouse sobre a foto em miniatura na galeria também exibirá a foto de alta resolução.
+  - O suporte para foto de usuário de alta definição requer que a caixa de correio do usuário esteja localizada no Exchange 2013 e a conta de usuário do Lync esteja no pool do Lync 2013.
 
-## Foto do usuário no Lync 2010
+  - Só há suporte para fotos de usuários de alta definição em um ambiente no qual o Lync Server 2013 e o Exchange 2013 são usados.
 
-No cliente Lync 2010, você pode escolher entre duas opções para exibir uma foto para seu perfil: **Imagem corporativa padrão** e **Mostrar uma imagem de um endereço web**.
+  - Os usuários com caixas de correio no Exchange 2010 sempre usarão o atributo **ThumbNailPhoto** do AD DS como a origem da foto do usuário.
 
-## Imagem corporativa padrão
+  - Uma foto do usuário armazenada como o atributo **ThumbNailPhoto** do AD DS não será exibida para contatos externos/federados.
 
-Quando você escolhe a opção **Imagem corporativa padrão**, o Lync exibe a foto para você do Serviços de Domínio Active Directory. A imagem usada é a imagem definida como valor para o atributo **thumbnailPhoto** no Serviços de Domínio Active Directory. Esse é o mesmo arquivo usado pelo Exchange para exibir imagens no Outlook.
+  - Se as fotos dos contatos do usuário estiverem armazenadas no AD DS, o arquivo de imagem usado será limitado a 96 × 96 pixels e não mais do que 100 KB de tamanho de arquivo.
 
-Considerações sobre o uso de imagens do Serviços de Domínio Active Directory:
+  - Se a conectividade entre o Lync Server e o Exchange Server for perdida, o **ThumbNailPhoto** de baixa resolução do usuário do AD DS será exibido e somente para usuários internos.
 
-  - Há suporte somente para as imagens com dimensões até 96 x 96 pixels. O arquivo da imagem pode ter até 100 KB.
+  - Fotos de usuário de alta resolução são exibidas em reuniões do Lync 2013 quando um alto-falante ativo não está habilitado para vídeo. Além disso, mover o mouse sobre a foto em miniatura na Galeria mostrará a foto de alta resolução.
 
-  - Por padrão, os usuários podem alterar a imagem usada no atributo **thumbnailPhoto**, porém, não diretamente através do cliente Lync. Você pode desabilitar isso no Serviços de Domínio Active Directory.
+</div>
 
-  - As imagens armazenadas no Serviços de Domínio Active Directory não são exibidas para contatos externos da sua organização, mesmo se forem contatos federados.
+<div>
 
-  - Nas organizações de grande porte, o armazenamento e a recuperação das imagens para um grande número de usuários podem impactar o tamanho e o desempenho do banco de dados do Serviços de Domínio Active Directory.
+## <a name="user-photos-in-lync-2010"></a>Fotos do usuário no Lync 2010
 
-  - A limitação das dimensões de imagem e do tamanho de arquivo significa que somente as imagens de baixa resolução podem ser usadas.
+No cliente do Lync 2010, você pode escolher entre duas opções para exibir uma foto do seu perfil, a **imagem corporativa padrão** e **mostrar uma imagem de um endereço Web**.
 
-## Como os usuários gerenciam as fotos de usuário no Serviços de Domínio Active Directory
+<div>
 
-O usuário não pode alterar a imagem usada no perfil do Serviços de Domínio Active Directory diretamente no cliente Lync 2010. Ele pode usar uma destas opções para fazer isso, caso estejam disponíveis:
+## <a name="default-corporate-picture"></a>Imagem empresarial padrão
 
-  - **SharePoint Server**   Os usuários podem carregar uma foto para ‘Meu Site’ em um SharePoint Server e, em seguida, [configurar a sincronização do perfil no SharePoint](http://go.microsoft.com/fwlink/p/?linkid=507466) para sincronizar a foto com o atributo **thumbnailPhoto** no Serviços de Domínio Active Directory.
+Quando você escolhe a opção **padrão de imagem corporativa** , o Lync Obtém a foto exibida para você nos serviços de domínio do Active Directory. A imagem usada é a imagem definida como o valor do atributo **ThumbNailPhoto** nos serviços de domínio Active Directory. Esse é o mesmo arquivo usado pelo Exchange para exibir imagens no Outlook.
 
-  - **Foto armazenada na URL acessível publicamente**   Os usuários podem configurar a foto de usuário especificando uma URL acessível publicamente para a imagem que desejam usar. A imagem precisa ser acessada publicamente sem uma senha. A imagem armazenada no endereço web especificado é transferida para outros usuários através da categoria de cartão de visita nas informações de presença. Quando o cliente Lync precisa exibir uma foto de usuário, ele recupera a imagem no endereço web especificado.
+As considerações sobre o uso de imagens dos serviços de domínio Active Directory incluem o seguinte:
 
-  - **cmdlets para Windows PowerShell do Exchange 2010**   Os administradores podem executar o cmdlet [Import-RecipientDataProperty](http://go.microsoft.com/fwlink/p/?linkid=507468) no Shell de Gerenciamento do Exchange 2010 para gerenciar o atributo **thumbnailPhoto**. Quando as imagens forem importadas com cmdlets Exchange 2010, o tamanho de arquivo estará limitado a 10 KB.
+  - Só há suporte para imagens com dimensões de até 96 pixels por 96 pixels. O tamanho do arquivo da imagem é limitado a 100 KB.
 
-  - **Ferramentas de terceiros**   Os usuários podem carregar apenas sua própria foto para o atributo **thumbnailPhoto**.
+  - Por padrão, os usuários podem alterar a imagem usada para o atributo **ThumbNailPhoto** , mas não diretamente pelo cliente do Lync. Você pode desabilitá-lo por meio dos serviços de domínio Active Directory.
 
-## Mostrar uma imagem de um endereço web
+  - As imagens armazenadas nos serviços de domínio Active Directory não são exibidas para contatos externos à sua organização, mesmo que sejam contatos federados.
 
-Quando você escolher a opção **Mostrar uma imagem de um endereço web**, o Lync obterá a imagem no endereço que você inseriu e a exibirá como sua foto de usuário no Lync.
+  - Em grandes organizações, armazenar e recuperar as imagens para um grande número de usuários pode afetar o tamanho e o desempenho do banco de dados dos serviços de domínio Active Directory.
 
-Considerações sobre o uso de imagens de um endereço web:
+  - As dimensões de imagem limitada e o tamanho do arquivo significam que apenas imagens de baixa resolução podem ser usadas.
 
-  - Os limites de tamanho de arquivo são determinados pelo atributo **MaxPhotoSizeKB** da política de cliente, definidos com o cmdlet [New-CsClientPolicy](http://go.microsoft.com/fwlink/p/?linkid=507463). O limite de tamanho padrão é 30 KB. O valor máximo é 100 KB. Não há restrição de resolução da imagem, mas se você tentar usar um arquivo de imagem que exceda o limite de tamanho, ele não será baixado para os clientes Lync. Você pode definir o valor como 0 para desabilitar todas as fotos de usuário no Lync.
+<div>
 
-  - As fotos de usuário de um endereço web podem ser visualizadas por contatos federados externos.
+## <a name="how-users-manage-their-user-photos-in-active-directory-domain-services"></a>Como os usuários gerenciam suas fotos de usuários nos serviços de domínio do Active Directory
 
-## Gerenciando a foto do usuário com cmdlets da política de cliente
+O usuário não pode alterar a imagem usada no perfil dos serviços de domínio Active Directory diretamente pelo cliente do Lync 2010. Elas podem usar uma das seguintes opções para fazer isso, se disponíveis:
 
-No Lync Server 2010, as configurações de política de cliente são configuradas com os cmdlets CsClientPolicy. As configurações de política definidas são enviadas aos clientes através do provisionamento em banda. Os dois parâmetros dos cmdlets CsClientPolicy que determinam a experiência com foto de usuário são o **DisplayPhoto** e o **MaxPhotoSizeKB**. O parâmetro de provisionamento em banda correspondente para **DisplayPhoto** e **MaxPhotoSizeKB** recebe o nome **PhotoUsage**. Os valores do parâmetro **PhotoUsage** são enviados aos clientes através do **endpointConfigurationprovisionGroup**. Consulte [Visão geral das configurações e políticas de cliente](http://go.microsoft.com/fwlink/?linkid=507470) para obter mais informações.
+  - **Os usuários do SharePoint Server**   podem carregar uma foto em "meu site" em um servidor do SharePoint e, em seguida, [Configurar a sincronização de perfil no SharePoint](http://go.microsoft.com/fwlink/p/?linkid=507466) para sincronizar a foto com o atributo **ThumbNailPhoto** no domínio do Active Directory Aos.
 
-O valor do parâmetro **DisplayPhoto** determina a fonte da imagem da foto do usuário. Os valores com suporte foram incluídos na tabela a seguir.
+  - **Foto armazenada em URL**   publicamente acessível os usuários podem configurar a foto do usuário especificando uma URL publicamente acessível para a imagem que desejam usar. A imagem deve ser acessível publicamente sem uma senha. A imagem armazenada no endereço Web especificado é transferida para outros usuários por meio da categoria de cartão de visita nas informações de presença. Quando o cliente do Lync precisa exibir uma foto do usuário, ele recupera a imagem do endereço Web especificado.
+
+  - **Cmdlets do Exchange 2010 para administradores do Windows PowerShell**   podem executar o cmdlet [Import-RecipientDataProperty](http://go.microsoft.com/fwlink/p/?linkid=507468) no Shell de gerenciamento do Exchange 2010 para gerenciar o atributo **ThumbNailPhoto** . Quando as imagens são importadas com cmdlets do Exchange 2010, o tamanho do arquivo limita-se a 10 KB.
+
+  - **Ferramentas de terceiros**   os usuários podem carregar apenas suas próprias fotos para o atributo **ThumbNailPhoto** .
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="show-a-picture-from-a-web-address"></a>Mostrar uma imagem de um endereço Web
+
+Quando você escolhe a opção **mostrar uma imagem de um endereço Web** , o Lync Obtém a imagem no endereço que você inserir e a exibe para a foto do usuário no Lync.
+
+As considerações para usar imagens de um endereço da Web incluem o seguinte:
+
+  - Os limites de tamanho de arquivo são determinados pelo atributo **MaxPhotoSizeKB** na política do cliente, definido com o cmdlet [New-CsClientPolicy](http://go.microsoft.com/fwlink/p/?linkid=507463) . O limite de tamanho padrão é 30 KB. O valor máximo é 100 KB. Não há restrição na resolução da imagem, mas se você tentar usar um arquivo de imagem que excede o limite de tamanho, ele não será baixado para os clientes do Lync. Você pode definir o valor como 0 para desativar a utilização de todas as fotos do usuário no Lync.
+
+  - As fotos do usuário de um endereço da Web podem ser vistas por contatos federados externos.
+
+</div>
+
+<div>
+
+## <a name="managing-users-photo-with-client-policy-cmdlets"></a>Gerenciando fotos do usuário com cmdlets da política do cliente
+
+No Lync Server 2010, as configurações de política do cliente são configuradas com os cmdlets CsClientPolicy. As configurações de política definidas são enviadas aos clientes por meio do provisionamento em banda. Os dois parâmetros dos cmdlets CsClientPolicy que determinam a experiência de foto do usuário são **DisplayPhoto** e **MaxPhotoSizeKB**. O parâmetro de provisionamento em banda correspondente para **DisplayPhoto** e **MaxPhotoSizeKB** é chamado de superutilização. **** Os valores para **** o parâmetro superusage são enviados aos clientes por meio do **endpointConfiguration** **Provision**. Consulte [visão geral das políticas e configurações do cliente](http://go.microsoft.com/fwlink/?linkid=507470) para obter mais informações.
+
+O valor do parâmetro **DisplayPhoto** determina a origem da imagem de foto do usuário. Os valores com suporte estão incluídos na tabela a seguir.
 
 
 <table>
@@ -95,54 +135,65 @@ O valor do parâmetro **DisplayPhoto** determina a fonte da imagem da foto do us
 <thead>
 <tr class="header">
 <th>Valor do parâmetro DisplayPhoto</th>
-<th>Fonte da imagem</th>
-<th>Configurações do cliente Lync 2010</th>
+<th>Fonte de imagem</th>
+<th>Configurações do cliente do Lync 2010</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NoPhoto</p></td>
+<td><p>Não fotográfico</p></td>
 <td><p>nenhuma</p></td>
 <td><p><strong>Não mostrar minha imagem</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>PhotoFromADOnly</p></td>
 <td><p>Active Directory</p></td>
-<td><p><strong>Imagem corporativa padrão</strong></p></td>
+<td><p><strong>Imagem empresarial padrão</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p>AllPhotos</p></td>
-<td><p>Endereço web</p></td>
-<td><p><strong>Mostrar uma imagem de um endereço web</strong></p></td>
+<td><p>Fotos</p></td>
+<td><p>Endereço Web</p></td>
+<td><p><strong>Mostrar uma imagem de um endereço Web</strong></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Como o cliente Lync 2010 obtém fotos
+</div>
 
-No Lync 2010, as fotos de usuário são gerenciadas no servidor pelo Serviço de Catálogo de Endereços. O cliente Lync obtém as fotos de usuário consultando primeiro o serviço Consulta à Web do Catálogo de Endereços (ABWQ) no servidor, que é exposto através do serviço web Expansão da Lista de Distribuição. O cliente recebe o arquivo de imagem e o copia para o cache do usuário para que não precise baixar a imagem cada vez que for necessário exibi-la. Os valores de atributo retornados pela consulta também são armazenados para o usuário na entrada do Serviço de Catálogo de Endereços armazenada em cache. O Serviço de Catálogo de Endereços exclui todas as imagens armazenadas em cache a cada 24 horas, o que significa que pode levar até 24 horas para que as novas imagens do usuário sejam atualizadas no cache do servidor. Você pode forçar uma atualização no cache usando o cmdlet [Update-CsAddressBook](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsAddressBook).
+<div>
 
-As fotos de usuário incluídas no status Presença também têm um valor de hash associado que o cliente Lync usa para determinar se há uma imagem mais recente disponível. O cliente é notificado automaticamente das alterações feitas no arquivo de imagem usado no status Presença.
+## <a name="how-lync-2010-client-gets-photos"></a>Como o cliente do Lync 2010 Obtém fotos
+
+No Lync 2010, as fotos do usuário são gerenciadas no servidor pelo serviço de catálogo de endereços. O Lync Client Obtém as fotos do usuário consultando o serviço de consulta à Web do catálogo de endereços (ABWQ) no servidor, que é exposto por meio do serviço Web de expansão de lista de distribuição. O cliente recebe o arquivo de imagem e, em seguida, copia-o para o cache do usuário para evitar o download da imagem toda vez que precisar ser exibido. Os valores de atributo retornados da consulta também são armazenados na entrada de serviço de catálogo de endereços em cache para o usuário. O serviço de catálogo de endereços exclui todas as imagens armazenadas em cache a cada 24 horas, o que significa que pode levar até 24 horas para que as novas imagens do usuário sejam atualizadas no cache do servidor. Você pode forçar uma atualização para o cache usando o cmdlet [Update-CsAddressBook](https://docs.microsoft.com/powershell/module/skype/Update-CsAddressBook) .
+
+As fotos do usuário incluídas no status de presença também têm um valor de hash associado que o cliente Lync usa para determinar se há uma imagem mais recente disponível. O cliente é notificado automaticamente sobre alterações no arquivo de imagem usado em status de presença.
+
+<div class=" ">
+
 
 > [!NOTE]  
-> Como as fotos não são armazenadas no banco de dados GalContacts.db, o download das fotos de usuário não depende da configuração <strong>AddressBookAvailability</strong> na política de cliente (<a href="http://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</a>).
+> Como as fotos não são armazenadas no banco de dados GalContacts. DB, baixar fotos do usuário não depende da configuração <STRONG>AddressBookAvailability</STRONG> na política do cliente (<A href="http://go.microsoft.com/fwlink/p/?linkid=507508">set-CsClientPolicy</A>).
 
-A consulta ao serviço ABWQ inclui os seguintes atributos:
 
-  - **PhotoHash**   O valor de hash dos dados binários da foto; é usado para determinar se a foto atual foi alterada.
 
-  - **PhotoRelPath**   O caminho relativo para o arquivo de imagem armazenado no servidor.
+</div>
 
-  - **PhotoSize**   O tamanho do arquivo de imagem, em bytes.
+A consulta para o serviço ABWQ inclui os seguintes atributos:
 
-  - **TimeStamp**   A data e a hora em que o arquivo de imagem foi baixado pela última vez no servidor e copiado para o cache do cliente.
+  - **Keyhash**   o valor de hash dos dados binários da foto e é usado para determinar se a foto atual foi alterada.
 
-Em seguida, após recuperar o arquivo de imagem, o cliente Lync 2010 compara os valores de atributo retornados pela consulta com base nos valores de atributo recebidos pelo cliente no provisionamento em banda para verificar se são diferentes. Se eles forem diferentes, o cliente recuperará o arquivo de imagem do usuário conectado com uma solicitação HTTP GET.
+  - **PhotoRelPath**   o caminho relativo para o arquivo de imagem armazenado no servidor.
 
-Além disso, o cliente verifica o servidor a cada 24 horas, a partir do momento em que a versão armazenada em cache do arquivo de imagem foi criada, para comparar o valor do atributo **PhotoHash** no servidor com o valor existente no cliente. Se os valores forem diferentes, o cliente saberá que o arquivo de imagem foi alterado. Para obter o arquivo de imagem atualizado, o cliente consultará mais uma vez o serviço ABWQ para atualizar o arquivo de imagem no cache do cliente com o arquivo de imagem que está no servidor, o que também redefinirá o **TimeStamp** no arquivo contido no cache do cliente.
+  - ****   Fotodimensionamento do tamanho do arquivo de imagem em bytes.
 
-Este é um exemplo de resposta para uma consulta feita ao serviço ABWQ:
+  - **Timestamp**   a data e a hora em que o arquivo de imagem foi baixado pela última vez do servidor e copiado para o cache do cliente.
+
+Em seguida, depois de recuperar o arquivo de imagem, o cliente do Lync 2010 compara os valores de atributo retornados da consulta com os valores de atributo recebidos pelo cliente de provisionamento em banda para ver se eles são diferentes. Se os valores forem diferentes, o cliente recuperará o arquivo de imagem do usuário conectado com uma solicitação HTTP GET.
+
+Além disso, o cliente verifica com o servidor a cada 24 horas a partir do momento em que a versão em cache do arquivo de imagem foi criada para comparar o **** valor do atributo cohash no servidor com o valor no cliente. Se os valores forem diferentes, o cliente saberá que o arquivo de imagem foi alterado. Para obter o arquivo de imagem atualizado, o cliente consulta novamente o serviço ABWQ para atualizar o arquivo de imagem no cache do cliente com o arquivo de imagem no servidor, que também redefine o **carimbo de data/hora** no arquivo no cache do cliente.
+
+Veja a seguir um exemplo de resposta a uma consulta para o serviço ABWQ:
 
     <Attribute>
               <Name>PhotoRelPath</Name>
@@ -162,47 +213,78 @@ Este é um exemplo de resposta para uma consulta feita ao serviço ABWQ:
     i:nil="true" />
     </Attribute>
 
-## Fotos do usuário no Lync 2013
+</div>
 
-O Lync 2013 incorporou o suporte a imagens de alta resolução das fotos do usuário. O Lync 2013 também oferece suporte ao armazenamento de fotos do usuário na caixa de correio do usuário no Exchange 2013, o que eliminará as limitações de tamanho e resolução de imagem presentes no Lync 2010. As fotos do usuário no Lync 2013 podem ter até 648 x 648 pixels, com um tamanho de arquivo de, no máximo, 20 MB. As fotos de alta resolução no Lync 2013 devem estar localizadas na caixa de correio do usuário no Exchange 2013; há suporte para elas somente no cliente Lync 2013. Esta integração com o Exchange aproveita a nova estrutura de autorização incluída nas versões 2013 do Lync, do Exchange e do SharePoint, denominadas Oauth.
+</div>
 
-Se o Exchange 2013 não for usado na sua implantação, o suporte às fotos do usuário será o mesmo que o oferecido no Lync 2010. No entanto, as opções do usuário para escolher a foto a ser usada serão diferentes no cliente Lync 2013. No cliente Lync 2013, os usuários podem selecionar **Ocultar minha imagem** ou **Mostrar minha imagem**. Por padrão, a opção **Mostrar uma imagem de um site** não está disponível, mas pode ser habilitada através da atribuição de uma política de cliente.
+<div>
 
-## Ocultar minha imagem
+## <a name="user-photos-in-lync-2013"></a>Fotos do usuário no Lync 2013
 
-As configurações das fotos do usuário estão na caixa de diálogo **Opções** no Lync 2013. Quando você escolher **Ocultar minha imagem**, nenhuma foto de usuário será exibida para você no cliente Lync, mas sua foto ainda será exibida no seu cartão de visita e fora do Lync.
+O Lync 2013 introduziu suporte para imagens de alta resolução para fotos do usuário. O Lync 2013 também inclui suporte para armazenar fotos do usuário na caixa de correio do usuário no Exchange 2013, que remove a resolução da imagem e as limitações de tamanho presentes no Lync 2010. As fotos do usuário no Lync 2013 podem ter até 648 pixels por 648 pixels com um tamanho de arquivo de até 20 MB. Fotos de alta resolução no Lync 2013 devem estar localizadas na caixa de correio do usuário no Exchange 2013 e têm suporte apenas com o cliente Lync 2013. Essa integração com o Exchange aproveita a nova estrutura de autorização incluída nas versões do 2013 do Lync, Exchange e SharePoint chamados OAuth.
 
-## Mostrar minha imagem
+Se o Exchange 2013 não for usado na sua implantação, o suporte para fotos do usuário é o mesmo que o Lync 2010. No entanto, as opções do usuário para escolher a foto a ser usada são diferentes no cliente do Lync 2013. No cliente do Lync 2013, os usuários podem selecionar **ocultar minha imagem** ou **mostrar minha imagem**. A opção **mostrar uma imagem de um site** não está disponível por padrão, mas pode ser habilitada ao atribuir uma política de cliente.
 
-Quando você escolher a opção **Mostrar minha imagem**, sua foto de usuário será exibida no cliente Lync e para outros usuários nas conversas do Lync. A imagem usada é a armazenada no AD DS.
+<div>
 
-## Mostrar uma imagem de um site
+## <a name="hide-my-picture"></a>Ocultar minha imagem
 
-A opção **Mostrar imagem de um site** é disponibilizada no Lync 2013 depois que uma política de cliente é definida para habilitá-la. A versão do cliente deve ser mais recente do que 15.0.4535.1002, que é a versão instalada com as [Atualizações cumulativas do Lync: novembro de 2013](http://go.microsoft.com/fwlink/p/?linkid=509908). Talvez, os usuários precisem fazer logout e fazer login novamente para ver as alterações no cliente.
+As configurações para fotos do usuário estão na caixa de diálogo **Opções** no Lync 2013. Quando você escolhe **ocultar minha imagem**, nenhuma foto do usuário é exibida para você no cliente do Lync, mas sua foto ainda é exibida no seu cartão de visita e fora do Lync.
 
-Você pode definir a política do cliente para habilitar a configuração **Mostrar imagem de um site** executando a política [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) no Shell de Gerenciamento do Lync Server. Os cmdlets de exemplo a seguir demonstram como definir a política globalmente para todos os usuários na sua implantação:
+</div>
 
-```
+<div>
+
+## <a name="show-my-picture"></a>Mostrar minha imagem
+
+Quando você escolhe a opção **mostrar minha imagem** , sua foto do usuário é exibida no seu cliente do Lync e para outros usuários nas conversas do Lync. A imagem usada é aquela armazenada no AD DS.
+
+</div>
+
+<div>
+
+## <a name="show-a-picture-from-a-website"></a>Mostrar uma imagem de um site
+
+A opção **Mostrar imagem de um site** torna-se disponível no Lync 2013 depois que uma política de cliente é definida para habilitá-la. A versão do cliente deve ser mais recente do que o 15.0.4535.1002, que é instalado com as [atualizações cumulativas do Lync: novembro de 2013](http://go.microsoft.com/fwlink/p/?linkid=509908). Os usuários podem precisar fazer logout e, em seguida, retornar novamente para ver as alterações no cliente.
+
+Você pode definir a política de cliente para habilitar a opção **Mostrar imagem de uma configuração de site** executando a política [set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) no Shell de gerenciamento do Lync Server. Os cmdlets de exemplo a seguir demonstram como definir a política globalmente para todos os usuários em sua implantação:
+
+   ```
     $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
-```
-```
-    $po=Get-CsClientPolicy -Identity Global
-```
-```
-    $po.PolicyEntry.Add($pe)
-```
-```
-    Set-CsClientPolicy -Instance $po
-```
+   ```
 
-Quando uma imagem é carregada para a caixa de correio do usuário, o Exchange cria automaticamente uma versão de resolução mais baixa da imagem, que pode ser usada nos aplicativos cliente. A foto de usuário também é atualizada no AD DS.
+   ```
+    $po=Get-CsClientPolicy -Identity Global
+   ```
+
+   ```
+    $po.PolicyEntry.Add($pe)
+   ```
+
+   ```
+    Set-CsClientPolicy -Instance $po
+   ```
+
+
+Quando uma imagem é carregada para a caixa de correio do usuário, o Exchange cria automaticamente uma versão de resolução mais baixa da imagem que pode ser usada em aplicativos cliente. A foto do usuário também é atualizada no AD DS.
+
+<div class=" ">
+
 
 > [!NOTE]  
-> Quando um arquivo de imagem é atualizado no AD DS, uma imagem de 48 x 48 pixels é criada e utilizada para o thumbnailPhoto no AD DS. Qualquer imagem existente será substituída. Portanto, se você adicionou uma imagem de 96 x 96 pixels ao AD DS, ela será substituída pela nova imagem de 48 x 48 pixels. Isso só será importante se houver usuários no seu ambiente que usem os clientes Lync 2010, pois esses clientes obterão fotos de usuário no AD DS. Você poderá importar imagens de 96 x 96 pixels para substituir as criadas pelo AD DS, caso tenha clientes Lync 2010 na sua organização.
+> Quando um arquivo de imagem é atualizado no AD DS, uma imagem de 48 x 48 pixel é criada e usada para o thumbnailPhoto no AD DS. Qualquer imagem existente será substituída. Portanto, se você adicionou uma imagem 96 x 96 ao AD DS, ela será substituída pela nova imagem do 48 x 48. Isso é importante apenas que você tem usuários em seu ambiente usando clientes do Lync 2010, pois esses clientes obterão fotos de usuários do AD DS. Você pode importar imagens de 96 x 96 pixels para substituir aquelas criadas pelo AD DS se você tiver clientes do Lync 2010 em sua organização.
 
-## Suporte a foto de usuário no Lync 2013
 
-No Lync 2013, há suporte para três resoluções de imagem nas fotos de usuário, conforme descrito na tabela a seguir. A imagem a ser usada é determinada pela configuração de política de cliente atribuída aos usuários do Lync. Consulte “Gerenciando a foto do usuário com os cmdlets de política de cliente” neste tópico para obter mais informações.
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="user-photo-support-in-lync-2013"></a>Suporte a fotos do usuário no Lync 2013
+
+No Lync 2013, há suporte para três resoluções de imagens para fotos do usuário, conforme descrito na tabela a seguir. A imagem que é usada é determinada pela configuração de política do cliente atribuída aos usuários do Lync. Consulte "Gerenciando fotos do usuário com cmdlets de política de cliente" neste tópico para obter mais informações.
 
 
 <table>
@@ -212,36 +294,50 @@ No Lync 2013, há suporte para três resoluções de imagem nas fotos de usuári
 </colgroup>
 <thead>
 <tr class="header">
-<th>Resolução de imagem (pixels)</th>
+<th>Resolução da imagem (pixels)</th>
 <th>Aplicativo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>48 x 48</p></td>
-<td><p>Usada se não houver imagem de resolução superior selecionada</p></td>
+<td><p>Usado se nenhuma imagem de resolução mais alta estiver selecionada</p></td>
 </tr>
 <tr class="even">
 <td><p>96 x 96</p></td>
-<td><p>Usada no Outlook Web App e no Outlook 2013</p></td>
+<td><p>Usado no Outlook Web App e no Outlook 2013</p></td>
 </tr>
 <tr class="odd">
 <td><p>648 x 648</p></td>
-<td><p>Usada no cliente de desktop Lync 2013 e no Lync 2013 Web App</p></td>
+<td><p>Usado no cliente da área de trabalho do Lync 2013 e no Lync 2013 Web App</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Qualquer usuário com uma caixa de correio habilitada no Exchange 2013 pode carregar uma imagem diferente, inclusive fotos de alta resolução, através das opções do Outlook Web Access ou do cliente Lync 2013. Estas são as configurações recomendadas para as imagens usadas:
+Qualquer usuário com uma caixa de correio habilitada no Exchange 2013 pode carregar uma imagem diferente, incluindo fotos de alta resolução, através do Outlook Web Access ou do Lync 2013 cliente opções. As configurações recomendadas para imagens usadas incluem:
 
-  - **Resolução de Imagem**   648 x 648 pixels
+  - **Resolução de imagem**   648 por 648 pixels
 
-  - **Intensidade de Cor**   24 bits
+  - **Profundidade de cor**   de 24 bits
 
-  - **Tamanho do arquivo de imagem**   até 20 MB
+  - **Tamanho do arquivo de imagem**   de até 20 MB
 
-  - **Formato do arquivo**   JPEG
+  - **Formato de arquivo**   JPEG
 
-Uma imagem JPEG de 24 bits típica, com 648 x 648 pixels, tem aproximadamente 240 KB; portanto, 1 MB de espaço de armazenamento é necessário para cada quatro fotos de usuário.
+Uma imagem JPEG típica de 24 bits de 648 pixels por 648 pixels tem um tamanho de arquivo de aproximadamente 240 KB, portanto, 1 MB de espaço de armazenamento é necessário para cada 4 fotos do usuário.
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

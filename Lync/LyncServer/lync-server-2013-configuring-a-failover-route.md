@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: Configurando uma rota de failover'
-TOCTitle: Configurando uma rota de failover
-ms:assetid: 76e48df4-3b78-4fb7-b1f7-c1e604b81bad
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398581(v=OCS.15)
-ms:contentKeyID: 49307155
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando uma rota de failover'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring a failover route
+ms:assetid: 76e48df4-3b78-4fb7-b1f7-c1e604b81bad
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398581(v=OCS.15)
+ms:contentKeyID: 48184542
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9e65070326c82e3a30977b3512bd2785d6bb4bd2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836302"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando uma rota de failover no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="configuring-a-failover-route-in-lync-server-2013"></a>Configurando uma rota de failover no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-21_
 
 O exemplo abaixo mostra como um administrador pode definir uma rota de failover para utilizar se o Dallas-GW1 for desativado para manutenção ou estiver indisponível por qualquer outro motivo. As seguintes tabelas ilustram a alteração de configuração necessária.
 
-### Tabela 1. Política de usuário
+### <a name="table-1-user-policy"></a>Tabela 1. Política de usuário
 
 <table>
 <colgroup>
@@ -49,7 +69,7 @@ O exemplo abaixo mostra como um administrador pode definir uma rota de failover 
 </table>
 
 
-### Tabela 2. Rotas
+### <a name="table-2-routes"></a>Tabela 2. Rotas
 
 <table>
 <colgroup>
@@ -71,7 +91,7 @@ O exemplo abaixo mostra como um administrador pode definir uma rota de failover 
 <tbody>
 <tr class="odd">
 <td><p>Rota Local de Redmond</p></td>
-<td><p>^\+1(425|206|253)(\d{7})$</p></td>
+<td><p>^\+1 (425 | 206 | 253) (\d{7}) $</p></td>
 <td><p>Local</p>
 <p>RedmondLocal</p></td>
 <td><p>Tronco 1</p>
@@ -81,14 +101,14 @@ O exemplo abaixo mostra como um administrador pode definir uma rota de failover 
 </tr>
 <tr class="even">
 <td><p>Rota Local de Dallas</p></td>
-<td><p>^\+1(972|214|469)(\d{7})$</p></td>
+<td><p>^\+1 (972 | 214 | 469) (\d{7}) $</p></td>
 <td><p>Local</p></td>
 <td><p>Tronco 3</p></td>
 <td><p>Dallas-GW1</p></td>
 </tr>
 <tr class="odd">
 <td><p>Rota Universal</p></td>
-<td><p>^\+?(\d*)$</p></td>
+<td><p>^\+? (\d *) $</p></td>
 <td><p>GlobalPSTNHopoff</p></td>
 <td><p>Tronco 1</p>
 <p>Tronco 2</p>
@@ -99,7 +119,7 @@ O exemplo abaixo mostra como um administrador pode definir uma rota de failover 
 </tr>
 <tr class="even">
 <td><p>Rota de Usuários de Dallas</p></td>
-<td><p>^\+?(\d*)$</p></td>
+<td><p>^\+? (\d *) $</p></td>
 <td><p>DallasUsers</p></td>
 <td><p>Tronco 3</p></td>
 <td><p>Dallas-GW1</p></td>
@@ -109,4 +129,14 @@ O exemplo abaixo mostra como um administrador pode definir uma rota de failover 
 
 
 Na tabela 1, um uso de telefone de GlobalPSTNHopoff é adicionado após o uso de telefone DallasUsers na Política de Chamada de Dallas. Isso permite que as chamadas com a política de chamada de Dallas usem rotas configuradas para o uso de telefone GlobalPSTNHopoff, caso uma rota para o uso do telefone DallasUsers não esteja disponível.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

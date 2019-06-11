@@ -1,25 +1,55 @@
-﻿---
-title: "Lync Server 2013: Adicionando um link personalizado às mens. de erro do Lync"
-TOCTitle: Adicionando um link personalizado às mensagens de erro do Lync
-ms:assetid: de756088-fcc3-4e47-bde8-4fa4cc852fd1
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398979(v=OCS.15)
-ms:contentKeyID: 52057739
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Adicionando um link personalizado às mensagens de erro do Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Adding a custom link to Lync error messages
+ms:assetid: de756088-fcc3-4e47-bde8-4fa4cc852fd1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398979(v=OCS.15)
+ms:contentKeyID: 48185607
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f62dd7841f77a519653a658131423a89f77ed012
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836939"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Adicionando um link personalizado às mensagens de erro do Lync no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-20_
+# <a name="adding-a-custom-link-to-lync-error-messages-in-lync-server-2013"></a>Adicionando um link personalizado às mensagens de erro do Lync no Lync Server 2013
 
-Personalize as mensagens de erro do Lync 2013 adicionando um link às suas próprias informações de suporte técnico ou solução de problemas. Para fazer isso, use o cmdlet **New-CSClientPolicy** ou **Set-CSClientPolicy** Shell de Gerenciamento do Lync Server com o parâmetro CustomLinkInErrorMessages. O texto do link personalizado é "Clique aqui para obter tópicos de suporte do administrador" e não pode ser personalizado.
+</div>
 
-Por exemplo, o comando a seguir faz com que o link personalizado apareça na área da nota de rodapé de cada mensagem de erro do Lync 2013 e define o destino do link para http://contoso.com/help/LyncHelpDesk.aspx:
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-20_
+
+Personalize mensagens de erro do Lync 2013 adicionando um link para suas próprias informações de solução de problemas ou suporte técnico. Para fazer isso, use os cmdlets shell do Shell de gerenciamento do Lync Server **New-CSClientPolicy** ou **set-CSClientPolicy** com o parâmetro CustomLinkInErrorMessages. O texto do link personalizado é "clique aqui para obter tópicos de suporte do administrador" e não pode ser personalizado.
+
+Por exemplo, o comando a seguir faz com que o link personalizado apareça na área de notas de rodapé de cada mensagem de erro do Lync 2013 e define o destino do link comohttp://contoso.com/help/LyncHelpDesk.aspx:
 
     New-CsClientPolicy -Identity LyncErrorLink -CustomLinkInErrorMessages "http://contoso/help/LyncHelpDesk.aspx"
 
-Use o **Grant-CSClientPolicy** para atribuir essa nova política aos usuários. Para obter detalhes, consulte **New-CSClientPolicy** e **Grant-CSClientPolicy** na documentação do Shell de Gerenciamento do Lync Server.
+Use **Grant-CSClientPolicy** para atribuir esta nova política aos usuários. Para obter detalhes, consulte **New-CSClientPolicy** and **Grant-CSClientPolicy** na documentação do Shell de gerenciamento do Lync Server.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

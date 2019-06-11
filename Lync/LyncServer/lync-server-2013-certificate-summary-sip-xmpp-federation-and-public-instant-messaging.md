@@ -1,27 +1,49 @@
-﻿---
-title: Resumo de certificado - SIP, federação XMPP e mensagens instantâneas públicas
-TOCTitle: Resumo de certificado - SIP, federação XMPP e mensagens instantâneas públicas
-ms:assetid: 933d6351-cfa6-4432-b3ed-1aff3ac92065
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ618372(v=OCS.15)
-ms:contentKeyID: 49307473
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Resumo do certificado-SIP, Federação do XMPP e mensagens instantâneas públicas
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate summary - SIP, XMPP federation, and public instant messaging
+ms:assetid: 933d6351-cfa6-4432-b3ed-1aff3ac92065
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618372(v=OCS.15)
+ms:contentKeyID: 49105659
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6dccb46b9f2b6d934f1cd0960bb11a369fb585ad
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836623"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumo de certificado - SIP, federação XMPP e mensagens instantâneas públicas
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="certificate-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Resumo do certificado-SIP, Federação do XMPP e mensagens instantâneas públicas no Lync Server 2013
 
-Os certificados que são necessários para a federação com o Microsoft Lync Server 2013, Lync Server 2010 e Office Communications Server serão atendidos geralmente pelos certificados que você configurar, solicitar e atribuir a seu Servidor de Borda.
+</div>
 
-Os requisitos de certificado para ativar e estabelecer comunicações com mensagens extensíveis e parceiros de protocolo de presença (XMPP) requerem o registro adicional de seus domínios XMPP. O registro incluído no certificado como um nome alternativo da entidade (SAN) será o domínio que pode participar das comunicações XMPP. O domínio pode ser o domínio no nível raiz (por exemplo, contoso.com) se você deseja habilitar XMPP para o domínio inteiro ou pode ser determinados domínios filho (por exemplo, corp.contoso.com, finance.contoso.com) se estiver habilitando XMPP para um subconjunto de usuários.
+<div id="mainSection">
 
-Para configurar certificados para conectividade de Mensagem Instantânea pública, você deve primeiro observar que não há nada diferente de outros tipos de federação SIP ou mesmo certificados padrão do Servidor de Borda exceto que a America Online (AOL) exige o certificado ou certificados (no caso de um Pool de borda) para também conter o cliente EKU. O cliente EKU é uma adição ao certificado e faz parte do certificado público externo atribuído a seu Servidor de Borda.
+<div id="mainBody">
 
-Para confirmar que você atende aos requisitos de certificado corretos da sua implantação do Servidor de Borda, revise os tópicos listados na seção intitulada **Consulte Também**.
+<span> </span>
+
+_**Tópico da última modificação:** 2013-03-15_
+
+Os certificados que você precisa para a Federação com o Microsoft Lync Server 2013, o Lync Server 2010 e o Office Communications Server normalmente serão atendidos pelos certificados que você configurar, solicitar e atribuir ao seu servidor de borda.
+
+Os requisitos de certificado para habilitar e estabelecer comunicações com os parceiros do protocolo de presença Extensible Messaging e de presença (XMPP) exigem a adição de entradas para seus domínios do XMPP. O registro incluído no certificado como um nome alternativo de assunto (SAN) será o domínio que pode participar de comunicações XMPP. O domínio pode ser o domínio de nível raiz (por exemplo, contoso.com) se você quiser habilitar o XMPP para o seu domínio inteiro ou pode ser selecionado domínios filho (por exemplo, corp.contoso.com, finance.contoso.com) se você estiver habilitando XMPP para um subconjunto de usuários.
+
+Para configurar certificados para conectividade de mensagens instantâneas públicas, observe que não há nada diferente de outros tipos de Federação SIP ou até mesmo dos certificados de servidor de borda padrão, exceto que o America Online (AOL) requer um certificado ou certificados (em o caso de um pool de bordas) também contenha o EKU do cliente. O EKU do cliente é uma adição ao certificado e faz parte do certificado público externo atribuído ao seu servidor de borda.
+
+Para confirmar que você atendeu aos requisitos de certificado corretos para a implantação do servidor de borda, revise os tópicos listados na seção intitulada **Consulte também**.
+
+<div>
 
 
 
@@ -35,61 +57,87 @@ Para confirmar que você atende aos requisitos de certificado corretos da sua im
 <thead>
 <tr class="header">
 <th>Componente</th>
-<th>Nome da entidade</th>
-<th>Nomes de Entidade Alternativos (SAN)</th>
+<th>Nome do assunto</th>
+<th>Nomes alternativos de entidades (SAN)</th>
 <th>Comentários</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Borda de acesso/externa</p></td>
+<td><p>Borda externa/de acesso</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>contoso.com</p>
 
-> [!NOTE]  
-> Para suportar o namespace do XMPP do contoso.com
+
+
+> [!NOTE]
+> Para dar suporte ao namespace contoso.com XMPP
+
 
 <p>sip.fabrikam.com</p>
 
-> [!NOTE]  
-> Para dar suporte ao namespace do SIP do fabrikam.com
+
+
+> [!NOTE]
+> Para dar suporte ao namespace SIP fabrikam.com
+
 
 <p>fabrikam.com</p>
 
-> [!NOTE]  
-> Para dar suporte ao namespace do XMPP do fabrikam.com
+
+
+> [!NOTE]
+> Para dar suporte ao namespace fabrikam.com XMPP
 
 </td>
-<td><p>O certificado deve ser de uma CA pública e deve ter o EKU do servidor e o EKU do cliente se a conectividade de IM pública com a AOL ainda esteja para ser implementada. O certificado é atribuído para as interfaces externas do Servidor de Borda para:</p>
+<td><p>O certificado deve ser de uma CA pública e deve ter o EKU do servidor e o cliente EKU se a conectividade de IM pública com AOL for implantada. O certificado é atribuído às interfaces do servidor de borda externo para:</p>
 <ul>
 <li><p>Serviço de Borda de Acesso</p></li>
 <li><p>Serviço de Borda de Webconferência</p></li>
 <li><p>Serviço de Borda A/V</p></li>
 </ul>
 
-> [!NOTE]  
-> Tecnicamente, um certificado não é atribuído à Borda A/V Edge. A comunicação e autenticação seguras são gerenciadas por meio do Serviço de Autenticação de Media Relay (MRAS). O MRAS usa o certificado atribuído à interface interna do Servidor de Borda.
 
-<p>Observe que os SANs são adicionados automaticamente ao certificado, com base em suas definições no Construtor de Topologia. Você pode adicionar entradas de SAN conforme necessário para domínios SIP adicionais e outras entradas às quais você precisa dar suporte. O nome da entidade é replicado no SAN e deve ser apresentado para a operação correta.</p></td>
+
+> [!NOTE]
+> Tecnicamente, um certificado não é atribuído à borda A/V. A comunicação e a autenticação seguras são gerenciadas por meio do serviço de autenticação de retransmissão de mídia (MRAS). O MRAS usa o certificado atribuído à interface interna do servidor de borda.
+
+
+<p>Observe que as SANs são adicionadas automaticamente ao certificado com base em suas definições no construtor de topologias. Você adiciona entradas de SAN conforme necessário para domínios SIP adicionais e outras entradas de que você precisa para dar suporte. O nome do requerente é replicado na SAN e deve estar presente para a operação correta.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Consulte Também
+</div>
 
-#### Tarefas
+<div>
+
+## <a name="see-also"></a>Confira também
+
 
 [Exemplo de configuração de XMPP no Lync Server 2013 – federação XMPP com Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
 
-#### Conceitos
 
 [Planejar certificados do Servidor de Borda no Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md)  
 [Resumo de certificado - única borda consolidada com endereços IP privados usando NAT no Lync Server 2013](lync-server-2013-certificate-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)  
 [Resumo de certificado - Única borda consolidada com endereços IP públicos no Lync Server 2013](lync-server-2013-certificate-summary-single-consolidated-edge-with-public-ip-addresses.md)  
 [Resumo de certificado - borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT no Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)  
 [Resumo de certificado - Borda consolidade em escala, balanceamento de carga de DNS com endereços IP públicos no Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)  
-[Resumo de certificado - Borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
+[Resumo de certificado - Borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

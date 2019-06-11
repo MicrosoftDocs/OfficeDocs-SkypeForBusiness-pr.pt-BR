@@ -1,23 +1,53 @@
-﻿---
-title: 'Lync Server 2013: Relacionamentos de Registradores de backup'
-TOCTitle: Relacionamentos de Registradores de backup
-ms:assetid: 7e078271-84b9-4666-989c-c4507a0cdf4a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205033(v=OCS.15)
-ms:contentKeyID: 49307239
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Relacionamentos de Registradores de backup'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Backup Registrar relationships
+ms:assetid: 7e078271-84b9-4666-989c-c4507a0cdf4a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205033(v=OCS.15)
+ms:contentKeyID: 48184631
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3a642c8d8872b2c0d1372a209c9c05dac704ee20
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836741"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Relacionamentos de Registradores de backup no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-06-28_
+# <a name="backup-registrar-relationships-in-lync-server-2013"></a>Relacionamentos de Registradores de backup no Lync Server 2013
 
-Além de oferecer capacidade para recuperação de desastre, dois pools pareados servem como backup de Registrars. Em Lync Server 2013, o backup das relações de Registrar entre Pools de Front-Ends são sempre 1:1 e recíprocos. Isso significa que se P1 for backup de P2, P2 deve ser o backup de P1 e nenhum pode ser backup de outro pool Front End. Isso é uma mudança do Lync Server 2010, no qual Pool de Front-Ends as relações de backup podem ser mais de uma.
+</div>
 
-Ainda que as relações de backup entre dois Pools de Front-Ends devam ser 1:1 e simétricas, cada Pool de Front-Ends ainda podem ser o backup registrar para qualquer número de Aparelho de Filial Persistente, assim como em Lync Server 2010.
+<div id="mainSection">
 
-Observe que Lync Server 2013 não estende o suporte de recuperação em desastre a usuários em um Aparelho de Filial Persistente. Se um pool Front End que serve como backup para Aparelho de Filial Persistente cair, os usuários registrados no Aparelho de Filial Persistente caem em modo de resiliência mesmo após os usuários no pool Front End tenham falhado o backup Pool de Front-Ends.
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-06-28_
+
+Além de permitir a recuperação de desastre, dois pools emparelhados atuam como os Registradores de backup entre si. No Lync Server 2013, as relações de registrador de backup entre os pools front-end são sempre 1:1 e recíprocos. Isso significa que, se P1 for o backup para P2, então P2 deve ser o backup do P1, e nenhum deles pode ser o backup de qualquer outro pool de front-end. Isso é uma alteração do Lync Server 2010, no qual as relações de backup de pool de front-end podem ser muitos para um.
+
+Embora as relações de backup entre dois pools de front-end sejam 1:1 e simétrica, cada pool de front-ends ainda pode ser o registrador de backup para qualquer número de aparelhos de ramificação sobreviventes, assim como no Lync Server 2010.
+
+Observe que o Lync Server 2013 não estende o suporte à recuperação de desastres para usuários hospedados em um aparelho de ramificação sobreviventes. Se um pool de front-end que funciona como o backup para um aparelho de ramificação sobreviventes parar, os usuários que entrarem no aparelho de ramificação sobreviventes ficarão em modo de resiliência, mesmo depois que os usuários hospedados no pool de front-ends tiverem failover para o pool de front-ends de backup.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

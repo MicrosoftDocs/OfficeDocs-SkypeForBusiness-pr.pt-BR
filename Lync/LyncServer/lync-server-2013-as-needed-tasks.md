@@ -1,122 +1,163 @@
-﻿---
-title: 'Lync Server 2013: As-needed tasks'
+---
+title: 'Lync Server 2013: tarefas necessárias'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: As-needed tasks
 ms:assetid: b66bc6fe-f138-4cf4-ba7f-aee9a3e0497e
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn722431(v=OCS.15)
-ms:contentKeyID: 62281970
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn722431(v=OCS.15)
+ms:contentKeyID: 63969643
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: e96fd6e73e043c5ea7c476f939b3a3e06eadbdfb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836760"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# As-needed tasks in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="as-needed-tasks-in-lync-server-2013"></a>Tarefas o mais necessárias no Lync Server 2013
 
-Perform the following tasks as necessary. They are frequently also covered by standard procedures:
+</div>
 
-  - **Full Security Auditing   **You can perform this audit regularly, in response to an upgrade or redesign of the messaging system, or in response to an attempted (or successful) security breach. The procedure may involve port scans on servers and firewalls, audits of security fixes, and third-party penetration tests.
+<div id="mainSection">
 
-  - **Replace Certificates about to Expire**   Checking Lync Server Certificates is one of regular weekly tasks, and as part of the procedure an administrator should have a record of all certificates’ expiry dates. This record enables an administrator to create a notification when a particular certificate is about to be expired and replaced as needed.
+<div id="mainBody">
 
-  - **Updating Performance Baselines**   Update performance baselines after an upgrade or configuration change. Your organization can use baselines to measure performance changes and to detect issues that affect system performance.
+<span> </span>
 
-  - **Managing Enterprise Pool**   Initial configuration of Enterprise pools, Standard Edition servers, and any other servers in your organization's environment were done during deployment of the individual servers. Post-deployment management of servers and pools for Standard Edition servers and Enterprise pools includes the following tasks:
-    
-      - Managing Front End Servers
-    
-      - Managing Web Conferencing
-    
-      - Managing Conferencing
-    
-      - Changing Service Account Credentials
-    
-      - Managing Databases
-    
-      - Starting and Stopping Services and Deactivating Server Roles
-    
-      - Removing Servers and Server Roles, Removing Pools, and Decommissioning Servers and Pools
+_**Tópico da última modificação:** 2014-08-18_
 
-  - **Managing Usage**   You can configure Lync Server 2013 to provide the features and functionality that are most appropriate for your organization. This includes the following:
-    
-      - Managing Support for On-Premise Web Conferencing Meetings
-    
-      - Managing the Use of Distribution Groups to Send Instant Messages
-    
-      - Managing Contacts, Presence, and Queries
-    
-      - Configuring Client Version Filtering
-    
-      - Configuring Intelligent IM Filtering
-    
-      - Configuring Archiving, Call Detail Recording, and Meeting Compliance
+Execute as seguintes tarefas, conforme necessário. Eles também são cobertos pelos procedimentos padrão com frequência:
 
-  - **Managing Edge Server Connectivity**   Ongoing management of the servers and settings required to provide external connectivity includes the following:
-    
-      - Managing Connectivity between Internal Servers and Edge Servers
-    
-      - Configuring Internal and External Interfaces and Certificates for Edge Servers
-    
-      - Managing Federated Partner Access
+  - **Auditoria de segurança completa   ** Você pode realizar essa auditoria regularmente, em resposta a uma atualização ou reformulação do sistema de mensagens ou em resposta a uma falha de segurança tentada (ou bem-sucedida). O procedimento pode envolver verificações de porta em servidores e firewalls, auditorias de correções de segurança e testes de penetração de terceiros.
 
-  - **Administering the Address Book**   Administering Address Book Servers includes the following:
-    
-      - Configuring Address Book Server phone normalization
-    
-      - Managing the Address Book Server from the command line
+  - **Substituir certificados prestes a**   verificar se a validade dos certificados do Lync Server é uma das tarefas semanais regulares e, como parte do procedimento, um administrador deve ter um registro de todas as datas de vencimento dos certificados. Este registro permite que um administrador crie uma notificação quando um certificado específico estiver prestes a expirar e ser substituído conforme necessário.
 
-  - **Managing User Accounts**   Management of user accounts includes the following:
-    
-      - Enabling User Accounts for Lync Server
-    
-      - Configuring Lync Server Users using the Wizard
-    
-      - Configuring Individual Lync Server User Account Properties
-    
-      - Searching for Lync Server Users
-    
-      - Moving Lync Server Users
-    
-      - Deleting Lync Server Users
+  - **Atualizando linhas de base de desempenho**   atualize as linhas de base de desempenho após uma atualização ou alteração de configuração. Sua organização pode usar linhas de base para medir alterações de desempenho e detectar problemas que afetam o desempenho do sistema.
 
-  - **Analyzing Lync Server 2013 Log Files**   One very helpful tool, generally used for troubleshooting, is the Lync Server 2013 Logging Tool described in detail in [Using Lync Server 2013 Logging Tool](https://technet.microsoft.com/en-us/library/gg558599.aspx).
+  - **O gerenciamento**   da configuração inicial do pool de Enterprise de pools corporativos, servidores Standard Edition e quaisquer outros servidores no ambiente da organização foram feitos durante a implantação dos servidores individuais. O gerenciamento pós-implantação de servidores e pools para servidores Standard Edition e pools corporativos inclui as seguintes tarefas:
+    
+      - Gerenciamento de servidores front-end
+    
+      - Como gerenciar a conferência via Web
+    
+      - Como gerenciar a conferência
+    
+      - Alterar as credenciais da conta de serviço
+    
+      - Como gerenciar bancos de dados
+    
+      - Iniciando e parando serviços e desativando funções de servidor
+    
+      - Removendo servidores e funções de servidor, removendo pools e descomissionando servidores e pools
 
-Because the Logging Tool generates log files (on a per-server basis), these log files can be viewed and analyzed by using the Snooper tool, if the Microsoft Office Server 12 Resource Kit Tools are installed on the computer. Otherwise, logs can also be analyzed by using a text editor, which is much less transparent and more complex than using the Snooper utility.
+  - **Gerenciando o uso**   você pode configurar o Lync Server 2013 para fornecer os recursos e funcionalidades mais apropriados para a sua organização. Isso inclui o seguinte:
+    
+      - Gerenciando o suporte para reuniões do Web conferência locais
+    
+      - Gerenciar o uso de grupos de distribuição para enviar mensagens instantâneas
+    
+      - Gerenciando contatos, presença e consultas
+    
+      - Configurando a filtragem de versão do cliente
+    
+      - Configurando a filtragem inteligente de IM
+    
+      - Configurando o arquivamento, a gravação de detalhes da chamada e a conformidade da reunião
 
-To View and Analyze Protocol Messages
+  - **Gerenciamento de conectividade**   do servidor de borda o gerenciamento contínuo dos servidores e das configurações necessárias para fornecer conectividade externa inclui o seguinte:
+    
+      - Gerenciando a conectividade entre servidores internos e servidores de borda
+    
+      - Configurando interfaces internas e externas e certificados para servidores Edge
+    
+      - Gerenciando o acesso de parceiro federado
 
-In the Logging Tool, when you have ended the debug session, click Analyze Log Files to view the log files by using the Snooper tool. You can analyze protocol logs for the following components:
+  - **Administrar o catálogo**   de endereços a administração de servidores de catálogo de endereços inclui o seguinte:
+    
+      - Configurando a normalização do telefone do servidor catálogo de endereços
+    
+      - Gerenciando o servidor de catálogo de endereços na linha de comando
+
+  - **Gerenciar contas**   de usuário gerenciamento de contas de usuário inclui o seguinte:
+    
+      - Habilitando contas de usuário para o Lync Server
+    
+      - Configurar usuários do Lync Server usando o assistente
+    
+      - Configurar propriedades individuais da conta de usuário do Lync Server
+    
+      - Procurando usuários do Lync Server
+    
+      - Movendo usuários do Lync Server
+    
+      - Excluindo usuários do Lync Server
+
+  - **Analisando os arquivos**   de log do Lync Server 2013 uma ferramenta muito útil, geralmente usada para solução de problemas, é a ferramenta de log do Lync Server 2013 descrita em detalhes sobre como [usar a ferramenta de log do Lync Server 2013](http://technet.microsoft.com/en-us/library/gg558599.aspx).
+
+Como a ferramenta de log gera arquivos de log (em uma base por servidor), esses arquivos de log podem ser visualizados e analisados usando-se a ferramenta de rastreamento, se as ferramentas do Microsoft Office Server 12 Resource Kit estiverem instaladas no computador. Caso contrário, os logs também podem ser analisados usando um editor de texto, que é muito menos transparente e mais complexo do que usar o utilitário de rastreamento.
+
+Para exibir e analisar mensagens de protocolo
+
+Na ferramenta de log, quando você tiver encerrado a sessão de depuração, clique em analisar arquivos de log para ver os arquivos de log usando a ferramenta de rastreamento. Você pode analisar logs de protocolo para os seguintes componentes:
 
   - Lync Server SipStack (SIP)
 
-  - Lync Server S4 (SIP)
+  - A S4 (SIP) do Lync Server
 
-  - Lync Server Conferencing signaling traffic (C3P), including MCU Infra C3P and Focus C3P
+  - Tráfego de sinalização do Lync Server Conferencing (C3P), incluindo a MCU-C3P e o foco C3P
 
-  - Lync Server Web conferencing traffic (PSOM)
+  - Tráfego da webconferência do Lync Server (PSOM)
 
-  - Lync Server Unified Communications Client Platform client (UCCP)
+  - Cliente da plataforma de cliente de comunicação unificada do Lync Server (UCCP)
 
-  - Error reports from the archiving database
+  - Relatórios de erros do banco de dados de arquivamento
 
-To help organize the performance of as-needed tasks, see As-Needed Operations Checklist.
+Para ajudar a organizar o desempenho das tarefas necessárias, consulte lista de verificação de operações necessárias.
+
+<div>
+
 
 > [!IMPORTANT]  
-> For detailed administration and management procedures, see the Microsoft Lync Server 2013 Administration Guide.
+> Para obter procedimentos detalhados de administração e gerenciamento, consulte o guia de administração do Microsoft Lync Server 2013.
 
-## Backup (and restore) policies or configuration settings
 
-Lync Server 2013 lets you back up and restore the whole system. Iif you want to back up (and then maybe someday restore) a single policy or a single collection of configuration settings, retrieve the appropriate policy, and then pipe that object to the Export-Clixml cmdlet, which saves the policy information as an XML file:
+
+</div>
+
+<div>
+
+## <a name="backup-and-restore-policies-or-configuration-settings"></a>Políticas de backup (e restauração) ou configurações de configuração
+
+O Lync Server 2013 permite que você faça backup e restaure todo o sistema. IIf que você deseja fazer backup (e, em seguida, talvez um dia restaurar) uma única política ou um único conjunto de configurações, recuperar a política apropriada e, em seguida, canalizar esse objeto para o cmdlet Export-Clixml, que salva as informações da política como um arquivo XML:
 
 `Get-CsClientPolicy -Identity "RedmondClientPolicy" | Export-Clixml -Path C:\Backup\RedmondClientPolicy.xml`
 
-You may now experiment with RedmondClientPolicy and change lots of the settings. If you decide instead to restore the old policy, enter:
+Agora você pode experimentar o RedmondClientPolicy e alterar muitas das configurações. Se, em vez disso, você decidir restaurar a política antiga, digite:
 
 `$x = Import-Clixml -Path C:\Backup\RedmondClientPolicy.xml`
 
 `Set-CsClientPolicy -Instance $x`
 
-Note that this approach will work for most policies and settings but it won't work with some of the more complex items—items that contain multiple sub-objects (like routing configuration settings, which contain many separate voice routes).
+Observe que essa abordagem funciona para a maioria das políticas e configurações, mas não funciona com alguns dos itens mais complexos, itens que contêm vários subobjetos (como as configurações de roteamento, que contêm muitas rotas de voz separadas).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
