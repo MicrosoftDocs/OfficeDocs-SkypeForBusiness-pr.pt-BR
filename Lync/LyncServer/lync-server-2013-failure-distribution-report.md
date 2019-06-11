@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Relatório de Distribuição de Falha'
-TOCTitle: Relatório de Distribuição de Falha
-ms:assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558635(v=OCS.15)
-ms:contentKeyID: 49306368
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: relatório de distribuição de falha'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Failure Distribution Report
+ms:assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558635(v=OCS.15)
+ms:contentKeyID: 48183849
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 06481be824f6c51975431aeea2efe27e41eadabc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829175"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Relatório de Distribuição de Falha no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="failure-distribution-report-in-lync-server-2013"></a>Relatório de distribuição de falha no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-21_
 
 O Relatório de Distribuição de Falhas classifica sessões com falha nas seguintes categorias:
 
@@ -27,43 +47,49 @@ O Relatório de Distribuição de Falhas classifica sessões com falha nas segui
 
   - Principais componentes
 
-  - Principais usuários de origem
+  - Principais usuários "De"
 
-  - Principais usuários de destino
+  - Principais usuários "Para"
 
-  - Principal usuário de origem
+  - Principais agentes do usuário "De"
 
-É possível usar essas categorias para determinar exatamente onde está ocorrendo um problema e, em alguns casos, porque o problema está ocorrendo. Por exemplo, suponha que você tenha registrado 242 sessões de áudio/vídeo com falha durante um determinado dia. Se você observar o Relatório de Distribuição de Falhas, ele poderá mostrar que 237 das sessões com falha ocorreram no pool de Dublin. Isso fornece um ótimo ponto inicial para rastrear e diagnosticar as causas por trás dessas falhas. Se você clicar no pool de Dublin na categoria **Principais pools** , você verá um Relatório de Distribuição de Falhas exclusivo desse pool. Será possível então começar a analisar por que o pool de Dublin enfrentou tantas dificuldades.
+É possível usar essas categorias para determinar exatamente onde está ocorrendo um problema e, em alguns casos, porque o problema está ocorrendo. Por exemplo, suponha que você tenha registrado 242 sessões de áudio/vídeo com falha durante um determinado dia. Se você observar o Relatório de Distribuição de Falhas, ele poderá mostrar que 237 das sessões com falha ocorreram no pool de Dublin. Isso fornece um ótimo ponto inicial para rastrear e diagnosticar as causas por trás dessas falhas. Se você clicar no pool de Dublin na categoria **Principais pools**, você verá um Relatório de Distribuição de Falhas exclusivo desse pool. Será possível então começar a analisar por que o pool de Dublin enfrentou tantas dificuldades.
 
-## Exibindo o Relatório de Distribuição de Falhas
+<div>
 
-É possível acessar o Relatório de Distribuição de Falhas a partir de qualquer um dos seguintes relatórios clicando nas medidas **Volume de falhas esperado** ou **Volume de falhas não esperado** :
+## <a name="viewing-the-failure-distribution-report"></a>Exibindo o Relatório de Distribuição de Falhas
 
-  - [Relatório das principais falhas no Lync Server 2013](lync-server-2013-top-failures-report.md)
+É possível acessar o Relatório de Distribuição de Falhas a partir de qualquer um dos seguintes relatórios clicando nas medidas **Volume de falhas esperado** ou **Volume de falhas não esperado**:
 
-  - [Relatório de Diagnósticos da Conferência no Lync Server 2013](lync-server-2013-conference-diagnostic-report.md)
+  - [Relatório de falhas principais no Lync Server 2013](lync-server-2013-top-failures-report.md)
 
-  - [Relatório de Diagnóstico de Atividade Ponto a Ponto no Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)
+  - [Relatório de diagnóstico de conferência no Lync Server 2013](lync-server-2013-conference-diagnostic-report.md)
 
-No Relatório de Distribuição de Falhas, é possível clicar em qualquer uma das seguintes medidas para exibir o [Relatório de lista de falhas no Lync Server 2013](lync-server-2013-failure-list-report.md):
+  - [Relatório de diagnóstico de atividade ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)
 
-  - Top diagnostic reasons (sessions)
+No relatório de distribuição de falha, você pode clicar em qualquer uma das seguintes métricas para exibir o [relatório de lista de falhas no Lync Server 2013](lync-server-2013-failure-list-report.md):
 
-  - Top modalities (sessions)
+  - Principais motivos diagnósticos (sessões)
 
-  - Top pools (sessions)
+  - Principais modalidades (sessões)
 
-  - Top sources (sessions)
+  - Principais pools (sessões)
 
-  - Top components (sessions)
+  - Principais fontes (sessões)
 
-  - Top from users (sessions)
+  - Principais componentes (sessões)
 
-  - Top to users (sessions)
+  - Principais usuários "De" (sessões)
 
-  - Top from user agents (sessions)
+  - Principais usuários "Para" (sessões)
 
-## Usando o Relatório de Distribuição de Falhas
+  - Principais agentes do usuários "De" (sessões)
+
+</div>
+
+<div>
+
+## <a name="using-the-failure-distribution-report"></a>Usando o Relatório de Distribuição de Falhas
 
 Dependendo do tamanho de seu monitor e da resolução da tela, é possível que alguns dos dados apresentados no Relatório de Distribuição de Falhas sejam truncados que exibidos na tela. Por exemplo, um agente de usuário com o nome "UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Lync 2013)" poderá aparecer apenas parcialmente na tela:
 
@@ -73,13 +99,17 @@ Felizmente, é possível ver o nome completo mantendo o mouse sobre o valor trun
 
 Um medida interessante que pode ser filtrada usando o Relatório de Distribuição de Falhas é o ID do diagnóstico. Se vir o mesmo ID do diagnóstico surgir em outros relatórios, será possível filtrar esse ID no Relatório de Distribuição de Falhas e obter uma visão bastante detalhada de exatamente onde e com que frequência esse ID foi reportado durante uma sessão com falha.
 
-## Filtros
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtros
 
 O filtro é uma maneira de retornar um conjunto de dados mais refinado e direcionado, ou ver os dados retornados de maneiras diferentes. Por exemplo, o Relatório de Falha na Distribuição permite filtrar itens como tipo de atividade (sessão ponto a ponto ou de conferência) ou pelo ID diagnóstico que acompanha cada sessão com falha.
 
 A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha na Distribuição.
 
-### Filtros do Relatório de Falha na Distribuição.
+### <a name="failure-distribution-report-filters"></a>Filtros do Relatório de Falha na Distribuição
 
 <table>
 <colgroup>
@@ -135,7 +165,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha
 <li><p>Falha esperada</p></li>
 <li><p>Falha inesperada</p></li>
 </ul>
-<p>Uma &quot;falha esperada&quot; é aquela que se espera que ocorra. Por exemplo, se um usuário tiver definido seu status como Não incomodar, é esperado que toda chamada encaminhada para esse usuário falhe. &quot;Falha inesperada&quot; é uma falha que ocorre em um sistema que parecia estar em bom estado.Por exemplo, uma chamada não deve ser finalizada se o chamador é colocado em espera. Se isso ocorrer, a situação será sinalizada como falha inesperada.</p></td>
+<p>Uma &quot;falha&quot; esperada é uma falha que espera acontecer. Por exemplo, se um usuário tiver definido seu status como Não perturbe, é esperado que qualquer chamada para esse usuário falhe. Uma &quot;falha&quot; inesperada é uma falha que ocorre em que parece ser um sistema de outra forma saudável. Por exemplo, uma chamada não deve ser encerrada se o chamador for colocado em espera. Se isso ocorrer, isso seria sinalizado como uma falha inesperada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ID do Diagnóstico</strong></p></td>
@@ -145,11 +175,15 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha
 </table>
 
 
-## Métricas para os principais motivos diagnósticos
+</div>
+
+<div>
+
+## <a name="metrics-for-top-diagnostic-reasons"></a>Métricas para os principais motivos diagnósticos
 
 A tabela a seguir lista as informações fornecidas no Relatório de Falha de Distribuição, com base no ID diagnóstico relatado com mais frequência.
 
-### Métricas para os principais motivos diagnósticos
+### <a name="metrics-for-top-diagnostic-reasons"></a>Métricas para os principais motivos diagnósticos
 
 <table>
 <colgroup>
@@ -184,11 +218,15 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 </table>
 
 
-## Métricas para as principais modalidades
+</div>
+
+<div>
+
+## <a name="metrics-for-top-modalities"></a>Métricas para as principais modalidades
 
 A tabela a seguir lista as informações fornecidas no Relatório de Falha de Distribuição, com base nas modalidades de sessão que apresentaram mais falhas.
 
-### Métricas para as principais modalidades
+### <a name="metrics-for-top-modalities"></a>Métricas para as principais modalidades
 
 <table>
 <colgroup>
@@ -223,11 +261,15 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 </table>
 
 
-## Métricas para os principais pools
+</div>
+
+<div>
+
+## <a name="metrics-for-top-pools"></a>Métricas para os principais pools
 
 A tabela a seguir lista as informações fornecidas no Relatório de Falha de Distribuição, com base nos pools que apresentaram mais falhas.
 
-### Métricas para os principais pools
+### <a name="metrics-for-top-pools"></a>Métricas para os principais pools
 
 <table>
 <colgroup>
@@ -246,27 +288,31 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 <tr class="odd">
 <td><p><strong>Classificação</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Classificação relativa de sessões com falha com base no Pool de registradores ou no Servidor de Borda no qual a sessão foi conduzida.</p></td>
+<td><p>Classificação relativa de sessões com falha com base no pool de registradores ou no servidor de borda em que a sessão foi conduzida.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Principais pools</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Nome do Pool de registradores ou do Servidor de Borda.</p></td>
+<td><p>Nome do pool de registradores ou servidor de borda.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Sessões</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões com falha por Pool de registradores ou por Servidor de Borda.</p></td>
+<td><p>Número total de sessões com falha por pool de registradores ou servidor de borda.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Métricas para as principais fontes
+</div>
+
+<div>
+
+## <a name="metrics-for-top-sources"></a>Métricas para as principais fontes
 
 A tabela a seguir lista as informações fornecidas no Relatório de Falha de Distribuição, com base nos computadores que apresentaram mais falhas.
 
-### Métricas para as principais fontes
+### <a name="metrics-for-top-sources"></a>Métricas para as principais fontes
 
 <table>
 <colgroup>
@@ -301,11 +347,15 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 </table>
 
 
-## Métricas para os principais componentes
+</div>
 
-A tabela a seguir lista as informações fornecidas no Relatório de Falha de Distribuição, com base nos componentes do Microsoft Lync Server 2010 que apresentaram mais falhas.
+<div>
 
-### Métricas para os principais componentes
+## <a name="metrics-for-top-components"></a>Métricas para os principais componentes
+
+A tabela a seguir lista as informações fornecidas no relatório de distribuição de falha com base nos componentes do Microsoft Lync Server 2010 que tiveram mais falhas.
+
+### <a name="metrics-for-top-components"></a>Métricas para os principais componentes
 
 <table>
 <colgroup>
@@ -324,7 +374,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 <tr class="odd">
 <td><p><strong>Classificação</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Classificação relativa das sessões com falha com base no componente do Lync Server 2010 (por exemplo, ExumRouting, GroupChat ou MediationServer).</p></td>
+<td><p>Classificação relativa de sessões com falha com base no componente do Lync Server 2010 (por exemplo, ExumRouting, GroupChat ou MediationServer).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Principais componentes</strong></p></td>
@@ -340,11 +390,15 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 </table>
 
 
-## Métricas para os principais usuários "Para"
+</div>
+
+<div>
+
+## <a name="metrics-for-top-from-users"></a>Métricas para os principais usuários "Para"
 
 A tabela a seguir lista as informações fornecidas no Relatório de Falha de Distribuição, com base nos usuários que apresentaram mais falhas quando tentaram chamar alguém (conhecidos como usuários "De").
 
-### Métricas para os principais usuários "Para"
+### <a name="metrics-for-top-from-users"></a>Métricas para os principais usuários "Para"
 
 <table>
 <colgroup>
@@ -366,7 +420,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 <td><p>Classificação relativa das sessões com falha, com base no usuário convidado a entrar na sessão.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Principais usuários &quot;Para&quot;</strong></p></td>
+<td><p><strong>Principais usuários "De"</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Endereço SIP do usuário convidado para entrar na sessão.</p></td>
 </tr>
@@ -379,7 +433,11 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 </table>
 
 
-## Métricas para os principais usuários
+</div>
+
+<div>
+
+## <a name="metrics-for-top-to-users"></a>Métricas para os principais usuários
 
 A tabela a seguir lista as informações fornecidas no Relatório de Falha de Distribuição, com base nos usuários que apresentaram mais falhas quando o outro usuário tentou chamá-los (conhecidos como usuários "Para").
 
@@ -404,7 +462,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 <td><p>Classificação relativa das sessões com falha, com base no usuário que iniciou a sessão.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Principais usuários &quot;Para&quot;</strong></p></td>
+<td><p><strong>Principais usuários "Para"</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Endereço SIP do usuário que iniciou a sessão.</p></td>
 </tr>
@@ -417,11 +475,15 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 </table>
 
 
-## Métricas para os principais agentes do usuário
+</div>
+
+<div>
+
+## <a name="metrics-for-top-user-agents"></a>Métricas para os principais agentes do usuário
 
 A tabela a seguir lista as informações fornecidas no Relatório de Falha de Distribuição, com base no software de ponto de extremidade que apresentou mais falhas.
 
-### Métricas para os principais agentes do usuário
+### <a name="metrics-for-top-user-agents"></a>Métricas para os principais agentes do usuário
 
 <table>
 <colgroup>
@@ -454,4 +516,17 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

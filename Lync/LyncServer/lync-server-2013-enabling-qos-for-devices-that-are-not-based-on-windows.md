@@ -1,25 +1,45 @@
-﻿---
-title: Habilitando QoS para dispositivos não baseado no Windows
-TOCTitle: Habilitando QoS para dispositivos não baseado no Windows
-ms:assetid: 26f793df-aef8-4028-9e3b-6c2c37ea61b9
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204750(v=OCS.15)
-ms:contentKeyID: 49306175
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Habilitando a QoS para dispositivos que não são baseados no Windows'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: QoS for devices that are not based on Windows
+ms:assetid: 26f793df-aef8-4028-9e3b-6c2c37ea61b9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
+ms:contentKeyID: 48183661
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d993a6905dfad9f5f2eda10a48553f2ae29b58ef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829231"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Habilitando QoS para dispositivos não baseado no Windows
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-11-01_
+# <a name="enabling-qos-in-lync-server-2013-for-devices-that-are-not-based-on-windows"></a>Habilitando a QoS no Lync Server 2013 para dispositivos que não são baseados no Windows
 
-Ao instalar o Microsoft Lync Server 2013, a Qualidade do Serviço (QoS) não estará habilitado para qualquer dispositivo usado na organização que utiliza um sistema operacional diferente do Windows. É possível verificar isso executando o seguinte comando dentro do Shell de Gerenciamento do Lync Server 2013:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-11-01_
+
+Quando você instala o Microsoft Lync Server 2013, a qualidade do serviço (QoS) não será habilitada para nenhum dispositivo usado em sua organização que use um sistema operacional diferente do Windows. Você pode verificar isso executando o seguinte comando no Shell de gerenciamento do Lync Server 2013:
 
     Get-CsMediaConfiguration
 
-Assumindo que você não realizou qualquer mudança em suas definições de configuração de mídia, você deve obter informação semelhante ao seguinte:
+Presumindo que você não fez alterações nas configurações de sua configuração de mídia, você deve obter informações semelhantes a esta:
 
     Identity                          : Global
     EnableQoS                         : False
@@ -30,28 +50,45 @@ Assumindo que você não realizou qualquer mudança em suas definições de conf
     EnableH264Codec                   : True
     EnableAdaptiveBandwidthEstimation : True
 
-Se a propriedade EnableQoS está definida para False (como no resultado anterior) isto significa que a Qualidade do Serviço não está habilitada para computadores e dispositivos que usam um sistema operacional diferente do Windows. O QoS está habilitado por padrão para dispositivos do Lync Phone Edition; no entanto, é possível desabilitar a Qualidade do Serviço para o Lync Phone Edition.
+Se a propriedade EnableQoS estiver definida como false (como na saída anterior), isso significa que a qualidade do serviço não está habilitada para computadores e dispositivos que usam um sistema operacional diferente do Windows. A QoS é habilitada por padrão para os dispositivos do Lync Phone Edition; no entanto, é possível desabilitar a qualidade do serviço para o Lync Phone Edition.
 
-Para habilitar a Qualidade do Serviço no escopo global, execute o seguinte comando dentro do Shell de Gerenciamento do Lync Server:
+Para habilitar a qualidade de serviço no escopo global, execute o seguinte comando no Shell de gerenciamento do Lync Server:
 
     Set-CsMediaConfiguration -EnableQoS $True
 
-O comando anterior habilita o QoS no escopo global; no entanto, é importante observar que as definições de configuração de mídia também podem ser aplicadas ao escopo local. Se você precisa habilitar a Qualidade do Serviço para um site, você deve incluir a Identidade das definições de configuração ao chamar o Set-CsMediaConfiguration. Por exemplo, este comando habilita o QoS para o site Redmond:
+O comando anterior permite QoS no escopo global; no entanto, é importante observar que as configurações de configuração de mídia também podem ser aplicadas ao escopo do site. Se você precisar habilitar a qualidade do serviço para um site, deve incluir a identidade das configurações ao chamar Set-CsMediaConfiguration. Por exemplo, esse comando habilita a QoS para o site Redmond:
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $True
 
-> [!NOTE]  
-> Você não precisa habilitar o QoS no escopo local? Isto depende. As configurações atribuídas ao escopo local têm precedência sobre as configurações atribuídas para o escopo global. Suponha que você habilitou o QoS no escopo global, mas desabilitou no escopo local (para o local Redmond). Neste caso, a Qualidade do Serviço será desabilitada para o local Redmond. isto ocorre porque as configurações locais têm precedência. Para habilitar o QoS para o local Redmond, você precisará fazer isso usando as definições de configuração de mídia aplicada a este site.
+<div>
 
-Se você deseja habilitar simultaneamente o QoS para todas as suas definições de configuração de mídia (independente do escopo), execute este comando no Shell de Gerenciamento do Lync Server:
+
+> [!NOTE]  
+> Você precisa habilitar a QoS no escopo do site? Isso depende. As configurações atribuídas ao escopo do site têm precedência sobre as configurações atribuídas ao escopo global. Suponha que você tenha o QoS habilitado no escopo global, mas desabilitado no escopo do site (para o site de Redmond.) Nesse caso, a qualidade do serviço será desabilitada para o site de Redmond; Isso porque as configurações do site têm precedência. Para habilitar a QoS para o site Redmond, você precisará fazer isso usando as definições de configuração de mídia aplicadas a esse site.
+
+
+
+</div>
+
+Se você quiser habilitar simultaneamente a QoS para todas as suas configurações de mídia (independentemente do escopo), execute esse comando dentro do Shell de gerenciamento do Lync Server:
 
     Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True
 
-É possível desabilitar o QoS para dispositivos que usam um sistema operacional diferente do Windows, configurando o valor da propriedade EnableQoS para False. Por exemplo:
+Você pode desabilitar a QoS para dispositivos que usam um sistema operacional diferente do Windows definindo o valor da propriedade EnableQoS como false. Por exemplo:
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False
 
-Isto oferece a habilidade de implementar o QoS em algumas partes da sua rede (por exemplo, no local Redmond) enquanto deixa a Qualidade do Serviço desabilitada em outras partes da sua rede.
+Isso oferece a capacidade de implementar a QoS em algumas partes da rede (por exemplo, no site Redmond), deixando a qualidade do serviço desabilitada em outras partes da sua rede.
 
-O QoS pode ser habilitado e desabilitado somente usando o Shell de Gerenciamento do Lync Server. Estas opções não estão disponíveis no Painel de Controle do Lync Server.
+A QoS só pode ser habilitada e desabilitada usando o Windows PowerShell essas opções não estão disponíveis no painel de controle do Lync Server.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

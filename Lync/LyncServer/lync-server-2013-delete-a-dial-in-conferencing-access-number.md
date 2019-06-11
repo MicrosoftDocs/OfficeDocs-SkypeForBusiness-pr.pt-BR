@@ -1,55 +1,105 @@
-﻿---
-title: Excluir um número de acesso conferência discada
-TOCTitle: Excluir um número de acesso conferência discada
-ms:assetid: 199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg520956(v=OCS.15)
-ms:contentKeyID: 49306029
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: excluir um número de acesso à conferência discada'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete a dial-in conferencing access number
+ms:assetid: 199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520956(v=OCS.15)
+ms:contentKeyID: 48183522
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d2559b8a3e053c02a6a67ccc17ab5a1f25b46a05
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829648"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Excluir um número de acesso conferência discada
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-23_
+# <a name="delete-a-dial-in-conferencing-access-number-in-lync-server-2013"></a>Excluir um número de acesso à conferência discada no Lync Server 2013
 
-Siga estas etapas para excluir um número de acesso de conferência discada.
+</div>
 
-## Exclusão de um número de acesso de conferências discadas
+<div id="mainSection">
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Lync Server 2013.
+<div id="mainBody">
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Na barra de navegação à esquerda, clique em **Conferências**, e então em **Número de acesso discado**.
+_**Tópico da última modificação:** 2013-02-23_
 
-4.  Na página, clique no número de discagem que deseja excluir da lista, clique em **Editar** e clique em **Excluir**.
+Siga estas etapas para excluir um número de acesso à conferência discada.
+
+<div>
+
+## <a name="to-delete-a-dial-in-conferencing-access-number"></a>Para excluir um número de acesso à conferência discada
+
+1.  Em uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Lync Server 2013.
+
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Na barra de navegação à esquerda, clique em **Conferência**e, então, em  **Número de acesso de discagem**.
+
+4.  Na página, clique no número de discagem que deseja excluir da lista, clique em  **Editar**e, em seguida, clique em **Excluir**.
 
 5.  Clique em **OK**.
 
-## Removendo números de acesso de conferência discada usando cmdlets do Windows PowerShell
+</div>
 
-Números de acesso de conferência discada também podem ser excluídos usando o Windows PowerShell e o cmdlet **Remove-CsDialInConferencingAccessNumber**. Este cmdlet pode ser executado do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Removendo um número de acesso de conferência discada específico
+## <a name="removing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a>Removendo números de acesso à conferência discada usando cmdlets do Windows PowerShell
 
-  - Este comando exclui o número de acesso de conferência discada com o SIP de Identidade:RedmondDialInAccess@litwareinc.com:
+Os números de acesso à conferência discada podem ser excluídos usando-se o Windows PowerShell e o cmdlet **Remove-CsDialInConferencingAccessNumber** . Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+
+<div>
+
+## <a name="to-remove-a-specific-dial-in-conferencing-access-number"></a>Para remover um número de acesso de conferência discada específico
+
+  - Esse comando exclui o número de acesso à conferência discada com identidade sip:RedmondDialInAccess@litwareinc.com:
     
         Remove-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialInAccess@litwareinc.com"
 
-## Removendo todos os números de acesso de conferência discada atribuídos a uma região específica
+</div>
 
-  - Este comando exclui todos os números de acesso de conferência discada associados com a região Noroeste:
+<div>
+
+## <a name="to-remove-all-the-dial-in-conferencing-access-numbers-assigned-to-a-specific-region"></a>Para remover todos os números de acesso à conferência discada atribuídos a uma região específica
+
+  - Esse comando exclui todos os números de acesso à conferência discada associados à região noroeste:
     
         Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConferencingAccessNumber
 
-## Removendo números de acesso de conferência discada baseados no idioma principal
+</div>
 
-  - Este comando exclui todos os números de acesso de conferência discada onde italiano é o idioma principal:
+<div>
+
+## <a name="to-remove-dial-in-conferencing-access-numbers-based-on-primary-language"></a>Para remover números de acesso à conferência discada com base no idioma principal
+
+  - Esse comando exclui todos os números de acesso à conferência discada em que a italiano é o idioma principal:
     
         Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 
-Para maiores informações, consulte o tópico de ajuda para o cmdlet [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDialInConferencingAccessNumber).
+</div>
+
+Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Remove-CsDialInConferencingAccessNumber) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

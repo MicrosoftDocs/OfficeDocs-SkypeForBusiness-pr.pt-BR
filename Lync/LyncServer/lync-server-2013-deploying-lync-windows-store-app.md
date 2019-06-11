@@ -1,44 +1,74 @@
-﻿---
-title: Implantar o Lync Windows Store App no Lync Server 2013
-TOCTitle: Implantar o Lync Windows Store App no Lync Server 2013
-ms:assetid: 9e00aaf4-15f9-4356-9ed7-5a58a2bfa043
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ822971(v=OCS.15)
-ms:contentKeyID: 52057691
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Implantando o aplicativo Lync da Windows Store'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying Lync Windows Store app
+ms:assetid: 9e00aaf4-15f9-4356-9ed7-5a58a2bfa043
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ822971(v=OCS.15)
+ms:contentKeyID: 50117635
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b22880b230acda74c7485010550d5576ea200c61
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829551"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Implantar o Lync Windows Store App no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Implantando o aplicativo Lync da Windows Store no Lync Server 2013
 
-Antes de disponibilizar o Aplicativo Lync Windows Store aos usuários, verifique se a implantação atende aos [Requisitos do Aplicativo Lync da Windows Store para Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md). Para obter mais detalhes sobre como configurar o Lync Server 2013 para oferecer suporte a Aplicativo Lync Windows Store, consulte o artigo do Blog NextHop, "Descoberta Automática do Lync Server e o Lync Windows Store App," no [http://go.microsoft.com/fwlink/?LinkId=271966](http://go.microsoft.com/fwlink/?linkid=271966). Quando seu ambiente de servidor estiver configurado corretamente, pode direcionar os usuários para baixar o aplicativo Lync da Windows Store procurando por "Lync."
+</div>
 
-## Habilitar a autenticação multifator para Aplicativo Lync Windows Store
+<div id="mainSection">
 
-Atualizações acumulativas para Lync Server 2013: junho de 2013 adiciona a autenticação multifator para clientes do Aplicativo Lync Windows Store. Além do nome de usuário e senha, você pode precisar de métodos de autenticação adicionais, como cartões inteligentes ou PINs, para autenticar usuários externos quando eles entrarem em reuniões do Lync. Para ativar a autenticação multifator, implante o servidor de federação do Serviço de Federação do Active Directory (AD FS) e habilite a autenticação passiva no Lync Server 2013. Após a configuração do AD FS, usuários externos que tentarem ingressar em reuniões do Lync visualizam uma página da Web de autenticação multifator do AD FS que contém o desafio de nome de usuário e senha junto com todos os métodos de autenticação adicionais que você configurou.
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-12-03_
+
+Antes de disponibilizar o aplicativo Lync da Windows Store para os usuários, certifique-se de que sua implantação atenda aos [requisitos do aplicativo Lync da Windows Store para o Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md). Para obter detalhes sobre como configurar o Lync Server 2013 para dar suporte ao aplicativo Lync da Windows Store, consulte o artigo "NextHop" do Lync Server e o aplicativo Lync da [http://go.microsoft.com/fwlink/?LinkId=271966](http://go.microsoft.com/fwlink/?linkid=271966)Windows Store "em. Após a configuração correta do ambiente do servidor, você pode direcionar os usuários para baixar o aplicativo Lync da Windows Store ao procurar por "Lync".
+
+<div>
+
+## <a name="enabling-multi-factor-authentication-for-lync-windows-store-app"></a>Habilitando a autenticação multifator para o aplicativo Lync da Windows Store
+
+Atualizações cumulativas do Lync Server 2013:2013 de junho adiciona suporte para a autenticação multifator para os clientes do aplicativo Lync da Windows Store. Além do nome de usuário e da senha, você pode exigir métodos de autenticação adicionais, como cartões inteligentes ou PINs, para autenticar usuários externos quando eles entrarem em reuniões do Lync. Para habilitar a autenticação multifator, implante o serviço de Federação do Active Directory (AD FS) e habilite a autenticação passiva no Lync Server 2013. Após a configuração do AD FS, os usuários externos que tentam ingressar em reuniões do Lync são apresentados com uma página da Web de autenticação multifator do AD FS que contém o nome de usuário e o desafio da senha, juntamente com qualquer método de autenticação adicional que você tenha configurado .
+
+<div class=" ">
+
 
 > [!IMPORTANT]  
-> Veja a seguir considerações importantes se você pretende configurar o AD FS para autenticação multifator para o Aplicativo Lync Windows Store:<ul>
-> <li><p>Lync Server 2013 com Atualizações acumulativas para Lync Server 2013: junho de 2013 é necessário, no mínimo. Clientes de desktop Lync 2013 não requerem Atualizações acumulativas para Lync Server 2013: junho de 2013, por isso pode parecer que a autenticação passiva está funcionando porque os clientes do Lync 2013 conseguem se autenticar. No entanto, o processo de autenticação para clientes do Aplicativo Lync Windows Store não será concluído e nenhuma mensagem de notificação ou de erro será exibida.</p></li>
-> <li><p>O servidor deve ser configurado para que a autenticação passiva seja o único tipo de autenticação oferecido.</p></li>
-> 
-> <li><p>Se você usa balanceadores de carga de hardware, habilite a persistência de cookie nos balanceadores de carga para que todas as solicitações do cliente do Aplicativo Lync Windows Store sejam manipuladas pelo mesmo cookie de Servidor front-end.</p></li>
-> 
-> 
-> <li><p>Ao estabelecer uma parte confiável entre os servidores do Lync Server e do AD FS, atribua uma vida de token longa o suficiente para considerar a duração máxima de suas reuniões do Lync. Normalmente, uma vida de token de 240 minutos é suficiente.</p></li></ul>
+> Veja a seguir considerações importantes se você planeja configurar o AD FS para autenticação multifator para o aplicativo Lync da Windows Store: 
+> <UL>
+> <LI>
+> <P>Lync Server 2013 com atualizações cumulativas do Lync Server 2013:2013 de junho é necessário no mínimo. Os clientes de desktop do Lync 2013 não exigem atualizações cumulativas do Lync Server 2013:2013 de junho, portanto, pode parecer que a autenticação passiva está funcionando porque os clientes do Lync 2013 são capazes de se autenticar. No entanto, o processo de autenticação para os clientes do aplicativo Lync da Windows Store falhará em concluir, e nenhuma mensagem de erro será exibida.</P>
+> <LI>
+> <P>O servidor deve ser configurado para que a autenticação passiva seja o único tipo de autenticação oferecido.</P>
+> <LI>
+> <P>Se você usar balanceadores de carga de hardware, habilite a persistência de cookies nos balanceadores de carga para que todas as solicitações do cliente do aplicativo Lync da Windows Store sejam manipuladas pelo mesmo servidor front-end.</P>
+> <LI>
+> <P>Quando você estabelece uma relação de confiança entre terceira parte confiável entre os servidores do Lync Server e do AD FS, atribua uma vida de token longa o suficiente para abranger o tamanho máximo de suas reuniões do Lync. Normalmente, uma vida de token de 240 minutos é suficiente.</P></LI></UL>
 
 
-**Configurar a autenticação multifator**
 
-1.  Instale uma função de servidor de federação AD FS. Para obter detalhes, consulte o Guia de implantação do Active Directory Federation Services 2.0 no <http://go.microsoft.com/fwlink/p/?linkid=267511>.
+</div>
 
-2.  Crie certificados para AD FS. Para obter mais informações, consulte a seção "Certificados do servidor da federação" do tópico Planejar para e implementar AD FS para uso com o logon único em [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376).
+**Para configurar a autenticação multifator**
 
-3.  A partir da interface de linha de comando do Windows PowerShell, execute o seguinte comando:
+1.  Instale uma função de servidor de federação AD FS. Para obter detalhes, consulte o guia de implantação do serviços de Federação <http://go.microsoft.com/fwlink/p/?linkid=267511>do Active Directory 2,0 em.
+
+2.  Crie certificados para o AD FS. Para obter mais informações, consulte a seção "certificados do servidor de Federação" do tópico planejar e implantar o AD FS para uso com o tópico logon [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)único em.
+
+3.  Na interface de linha de comando do Windows PowerShell, execute o seguinte comando:
     
         add-pssnapin Microsoft.Adfs.powershell
 
@@ -48,75 +78,113 @@ Atualizações acumulativas para Lync Server 2013: junho de 2013 adiciona a aute
 
 5.  Defina as seguintes regras de confiabilidade de parte:
     
-```
+       ```
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-```
-```    
+       ```
+    
+       ```
         Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
-```
-```    
+       ```
+    
+       ```
         Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
-```
+       ```
 
-## Problemas conhecidos que podem evitar o logon
+</div>
 
-## A data e a hora não estão definidas com precisão no dispositivo executando o Aplicativo Lync Windows Store
+<div>
 
-A hora no dispositivo deve estar sincronizada com o hora do servidor. Isto é particularmente importante para dispositivos como o Microsoft Surface, e outros dispositivos que executam o Windows RT que não são parte de um domínio. Para definir a hora nesses dispositivos automaticamente a partir de um servidor de horário, execute o seguinte comando em um prompt de comando elevado no dispositivo:
+## <a name="known-issues-that-can-prevent-sign-in"></a>Problemas conhecidos que podem impedir a entrada
+
+<div>
+
+## <a name="the-time-and-date-are-not-set-accurately-on-the-device-running-lync-windows-store-app"></a>A hora e a data não estão definidas com precisão no dispositivo que está executando o aplicativo Lync da Windows Store
+
+A configuração de hora no dispositivo deve ser sincronizada com a configuração de hora no servidor. Isso é especialmente importante para dispositivos como Microsoft Surface e outros dispositivos que executam o Windows RT que não fazem parte de um domínio. Para definir o tempo desses dispositivos automaticamente a partir de um servidor de horário, execute o seguinte comando em um prompt de comando elevado no dispositivo:
 
     w32tm /resync
 
-## Aplicativo Lync Windows Store o servidor nem os serviços do Lync
+</div>
 
-Aplicativo Lync Windows Store pode não conseguir acessar o servidor nem os serviços do Lync por meio de adaptadores de rede, como modems 4G LTE USB, que não estão registrados no Windows 8 como dispositivos físicos. Aplicativo Lync Windows Store pode ter este problema, mesmo quando os aplicativos e navegadores de desktop conseguem acessar outros servidores e sites.
+<div>
 
-## O aplicativo Lync Windows Store não consegue fazer logon no Lync Server 2010 e no Office Communications Server 2007 R2 Edge Server
+## <a name="lync-windows-store-app-cannot-access-the-lync-server-or-services"></a>O aplicativo Lync da Windows Store não pode acessar o servidor ou serviços do Lync
 
-Se a sua topologia consiste em Lync Server 2010 com Office Communications Server 2007 R2 Edge Server, você terá que executar a versão atualizada do Construtor de Topologias disponível na atualização cumulativa para Lync Server 2010: julho de 2013. Versões anteriores do Construtor de Topologias não criam o mapeamento necessário para Office Communications Server 2007 Edge Server, por isso os clientes do aplicativo Lync Windows Store não conseguem fazer logon. As seguintes etapas são necessárias:
+O aplicativo Lync da Windows Store pode não conseguir acessar o servidor ou serviços do Lync por meio de adaptadores de rede, como modems USB 4G LTE, que não se registram no Windows 8 como dispositivos físicos. O aplicativo Lync da Windows Store pode ter esse problema mesmo quando os aplicativos da área de trabalho e navegadores são capazes de acessar outros servidores e sites.
 
-1.  Instale a atualização cumulativa para Lync Server 2010: julho de 2013 nos pools do Lync Server 2010 e diretores do Lync Server 2010.
+</div>
 
-2.  Atualize a configuração da Descoberta Automática do Lync para indicar que o ponto de entrada SIP externo é o endereço do servidor de borda, fazendo o seguinte:
+<div>
+
+## <a name="lync-windows-store-app-cannot-sign-in-with-lync-server-2010-and-office-communications-server-2007-r2-edge-server"></a>O aplicativo Lync da Windows Store não pode entrar com o Lync Server 2010 e o Office Communications Server 2007 R2 Edge Server
+
+Se a sua topologia consistir no Lync Server 2010 com o Office Communications Server 2007 R2 Edge Server, será necessário executar a versão atualizada do construtor de topologias disponível na atualização cumulativa do Lync Server 2010: julho de 2013. As versões anteriores do construtor de topologias não criam o mapeamento obrigatório para o servidor de borda do Office Communications Server 2007, portanto, os clientes do aplicativo Lync da Windows Store não conseguem entrar. As seguintes etapas são necessárias:
+
+1.  Instale a atualização cumulativa do Lync Server 2010:2013 de julho no Lync Server 2010 pools e nos directors do Lync Server 2010.
+
+2.  Atualize a configuração de descoberta automática do Lync para indicar que o ponto de entrada SIP externo é o endereço do servidor de borda fazendo o seguinte:
     
-    1.  Abrir o Shell de Gerenciamento do Lync Server.
+    1.  Abra o Shell de Gerenciamento do Lync Server.
     
     2.  Execute o seguinte comando:
         
             Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
 
-## O Aplicativo Windows Store do Lync não pode se conectar devido a uma falha de validação do nome do certificado
+</div>
 
-Um problema de conexão pode ocorrer para usuários do Office 365 que não estão executando a versão mais recente do Aplicativo Lync Windows Store. Esse problema geralmente ocorre ao utilizar vários domínios (por exemplo, quando o URL do SIP for **userA@domainZ.com**, exceto o Servidor de Borda for **sip.domainX.com**). Para resolver o problema, os usuários devem instalar a versão mais recente da última versão do Aplicativo Lync Windows Store, que necessita do Windows 8.1.
+<div>
 
-## Use os logs do Aplicativo Lync Windows Store para solucionar problemas
+## <a name="lync-windows-store-app-cannot-sign-in-due-to-a-certificate-name-validation-failure"></a>O aplicativo Lync da Windows Store não pode entrar devido a uma falha na validação do nome do certificado
+
+Pode ocorrer um problema de entrada para os usuários do Office 365 que não estão executando a versão mais recente do aplicativo Lync da Windows Store. Geralmente, esse problema ocorre ao usar vários domínios (por exemplo, quando o URI SIP é **UserA@domainZ.com** , mas o servidor de borda é **SIP.domainX.com**). Para corrigir o problema, os usuários devem instalar a versão mais recente do aplicativo Lync da Windows Store, que também requer o Windows 8,1.
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="use-lync-windows-store-app-logs-to-troubleshoot-issues"></a>Usar os logs do aplicativo Lync da Windows Store para solucionar problemas
 
 Você pode usar os logs gerados no dispositivo para solucionar problemas. Os logs são armazenados na seguinte pasta:
 
-%LocalAppData%\\Packages\\Microsoft.LyncMX\_8wekyb3d8bbwe\\LocalState\\Tracing
+% LocalAppData%\\pacotes\\Microsoft. LyncMX\_8wekyb3d8bbwe\\o\\rastreamento localstate
 
-Antes de obter os logs de um usuário, certifique-se que o registro em log esteja ligado, e em seguida peça para o usuário salvar os logs, de modo que todas as informações armazenadas na memória também sejam salvas em arquivos no disco rígido.
+Antes de obter os logs de um usuário, verifique se o registro em log está ativado e peça para o usuário salvar os logs para que todas as informações armazenadas na memória também sejam salvas em arquivos no disco rígido.
 
 **Para ativar o registro em log**
 
-1.  Abra Aplicativo Lync Windows Store no dispositivo.
+1.  Abra o aplicativo Lync da Windows Store no dispositivo.
 
-2.  Passe o dedo a partir do lado direito da tela. Se você estiver usando um mouse, aponte para o canto superior direito da tela e em seguida mova o ponteiro do mouse para baixo.
+2.  Passe o dedo do lado direito da tela. Se você estiver usando um mouse, aponte para o canto superior direito da tela e, em seguida, mova o ponteiro do mouse para baixo na tela.
 
-3.  Selecione **Configurações**, **Opções** e defina **Logs de diagnóstico** como **Ligado**.
+3.  Selecione **configurações**, selecione **Opções**e, em seguida, defina **os logs de diagnóstico** como **ativado**.
 
-4.  Se os **Logs de diagnóstico** estavam desligados em anteriormente, você deve reiniciar o Lync. Para reiniciar o Lync, siga um dos seguintes passos:
+4.  Se **os logs de diagnóstico** tiverem sido desativados anteriormente, reinicie o Lync. Para reiniciar o Lync, siga um destes procedimentos:
     
       - Reinicie o dispositivo.
     
-      - Finalize a tarefa do Lync e inicie o aplicativo novamente. Para terminar a tarefa, abra o Gerenciador de Tarefas do Windows, selecione **Lync**, e toque em **Finalizar tarefa**. Se o Lync não estiver listado, toque em **Mais detalhes** e procure pelo Lync em **Processos em segundo plano**.
+      - Encerre a tarefa do Lync e inicie o aplicativo novamente. Para finalizar a tarefa, abra o Gerenciador de tarefas do Windows, selecione **Lync**e, em seguida, toque em **Finalizar tarefa**. Se o Lync não estiver listado, toque em **mais detalhes** e procure o Lync em **processos em segundo plano**.
 
 **Para salvar os logs**
 
-1.  Abra Aplicativo Lync Windows Store no dispositivo.
+1.  Abra o aplicativo Lync da Windows Store no dispositivo.
 
-2.  Tente fazer logon.
+2.  Tente entrar.
 
-3.  Passe o dedo a partir do lado direito da tela. Se você estiver usando um mouse, aponte para o canto superior direito da tela e em seguida mova o ponteiro do mouse para baixo.
+3.  Passe o dedo do lado direito da tela. Se você estiver usando um mouse, aponte para o canto superior direito da tela e, em seguida, mova o ponteiro do mouse para baixo na tela.
 
-4.  Selecione **Configurações**, selecione **Sobre** e selecione **Salvar logs**.
+4.  Selecione **configurações**, selecionar **sobre**e, em seguida, selecione **salvar logs**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,122 +1,162 @@
-﻿---
-title: "Lync Server 2013: Perguntas Frequentes: Config. Lync Server p/ conectiv. com Skype"
-TOCTitle: 'Perguntas Frequentes: Configurando Lync Server para conectividade com Skype'
-ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn440172(v=OCS.15)
-ms:contentKeyID: 59602792
-ms.date: 12/29/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Perguntas Frequentes: Configurando Lync Server para conectividade com Skype'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: 'Frequently Asked Questions: Provisioning Lync Server for Skype connectivity'
+ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440172(v=OCS.15)
+ms:contentKeyID: 57793362
+ms.date: 12/29/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0fc06cda300945ccf4d7da9424b5615028c2e8f5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829150"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Perguntas Frequentes: Configurando Lync Server 2013 para conectividade com Skype
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-27_
+# <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>Perguntas Frequentes: Configurando Lync Server 2013 para conectividade com Skype
 
-**P: Que recursos têm suporte entre o Microsoft Lync e o Skype?**
+</div>
 
-**R:** Com o Skype, agora parte da família da Microsoft, novas possibilidades se abrem para a extensão de cenários de comunicações unificadas para centenas de milhões de pessoas que usam o Skype. Essa combinação permitirá que os clientes do Lync se conectem e colaborem com fornecedores, clientes e parceiros, apoiados na riqueza do Lync e no alcance do Skype.
+<div id="mainSection">
 
-  - Mensagem instantânea e Chamadas de áudio e de vídeo - Mensagens instantâneas e chamadas de áudio e de vídeo federadas entre usuários do Lync e do Skype
+<div id="mainBody">
 
-  - Compartilhamento de presença - informações de presença do Exchange entre contatos federados
+<span> </span>
 
-  - Administração simples - configurações e controles para configurar comunicações federadas de acordo com suas políticas e padrões da organização
+_**Tópico da última modificação:** 2019-03-22_
 
-**P: Como posso me qualificar para a conexão da minha implantação do Lync com o Skype?**
+A partir de abril de 2019, interromperemos a coleta e a retenção de informações de contato para clientes provisionados para o Skype Federation pelo website da pic.lync.com. Essa alteração está sendo feita para garantir que o sistema de provisionamento do pic.lync.com respeite as políticas de privacidade da Microsoft. 
+ 
+Depois que essa alteração ficar em tempo real, não poderemos mais fornecer atualizações de email em alterações de provisionamento pendentes. As alterações de provisionamento de PIC geralmente são concluídas dentro de 24-48 horas após serem inseridas. Se você ainda tiver problemas com a Federação do Skype 48 horas após o envio de uma solicitação de provisionamento, entre em contato com o suporte técnico da Microsoft para investigar ainda mais.
 
-**R:** Você estará licenciado para a conectividade do Skype se tiver:
+> [!IMPORTANT]
+> Como parte dessa mudança, todas as informações de contato inseridas anteriormente serão removidas do nosso sistema até o final de abril de 2019.
 
-  - Lync Server (2010 ou 2013) mais Licenças de Acesso para Cliente ("CALs"; 2010 ou 2013) Padrão do Lync Server para os usuários e/ou dispositivos em sua organização que se conectará ao Skype. 
 
-  - Lync Online (como licenças autônomas ou como parte de um pacote do Office 365).  Entretanto, este serviço (pic.lync.com) destina-se somente para o provisionamento de implantações do Lync Server e do Lync Server híbrido e do Lync Online.  O provisionamento do PIC do Lync Online é feito no Painel de Controle do Lync Online (LOCP).
+**P: quais recursos são suportados entre o Microsoft Lync e o Skype?**
 
-**P: O que os usuários finais do Lync deverão fazer para se conectar a contatos do Skype?**
+**R:** Agora que o Skype faz parte da família Microsoft, novas possibilidades abrem-se para estender cenários de comunicação unificada para centenas de milhões de pessoas que usam o Skype. Essa combinação permitirá que os clientes do Lync se conectem e colaborem com fornecedores, clientes e parceiros, contando com a riqueza do Lync e o alcance do Skype.
 
-**R:** Depois que um domínio tiver sido ativado e recursos tiverem sido habilitados pelo administrador de uma organização do Lync, os usuários do Lync podem adicionar contatos do Skype às suas listas de contatos no cliente do Lync.
+  - Mensagens instantâneas e chamadas de áudio e vídeo — chamadas de áudio e vídeo federadas e mensagens instantâneas entre o Lync e usuários do Skype
 
-**P: O que os usuários finais do Skype fazem para se conectar a contatos do Lync?**
+  - Compartilhamento de presença — troque informações de presença entre contatos federados
 
-**R:** Todos os usuários do Skype que esperam se conectar a um usuário do Lync deverão ter uma Conta da Microsoft associada a suas IDs do Skype e entrar usando a Conta da Microsoft.  Isso pode ser habilitado no cliente do Skype.
+  - Administração simples: configurações e controles para configurar comunicações federadas de acordo com as políticas e padrões da sua organização
 
-**P: A federação do Windows Live ainda disponível?**
+**P: Como faço para me qualificar para conectar a implantação do Lync ao Skype?**
 
-**R:** A partir de outubro de 2012, a Microsoft começou a ajudar os usuários do Windows Live Messenger (WLM) a mudarem para o Skype, a caminho de eventualmente desativar o WLM. O Lync continuará a dar suporte à federação com o WLM até quando o WLM estiver no mercado, mas nenhuma ativação de domínio adicional do Windows Live será permitida. A movimentação de usuários do WLM é habilitada pelo Skype 6.0 para Mac e Windows (lançado em 25 de outubro de 2012) que permite a entrada com uma Conta da Microsoft (isto é, as mesmas credenciais do WLM). Depois de simplesmente entrar no Skype, as listas de amigos do WLM são automaticamente preenchidas no Skype e os usuários podem aproveitar as vantagens dos recursos de comunicação expandidos do Skype, como chamar telefones fixos e móveis, compartilhamento de tela, chamada de vídeo em grupo e suporte para uma ampla variedade de dispositivos. Além disso, os contatos do Lync federados dos usuários do WLM seguem a transição para o Skype com o restante da lista de amigos, e o IM entre o Skype e o Lync para esses contatos estarão disponíveis imediatamente. Os clientes do Lync não precisam fazer nada para habilitar essa continuidade de serviço.
+**R:** Você estará licenciado para conectividade com o Skype se você tiver:
 
-**P: A federação com o Yahoo\! ou a AOL ainda está disponível?**
+  - Lync Server (2010 ou 2013) mais licenças de acesso de cliente padrão do Lync Server ("CALs"; 2010 ou 2013) para os usuários e/ou dispositivos em sua organização que se conectarão ao Skype. 
 
-**R:** A federação do Yahoo\! e da AOL estão em um caminho em direção ao final da vida útil para clientes do Lync e do Office Communications Server. A capacidade da Microsoft de fornecer cada um desses serviços tem sido contingente no suporte do Yahoo\! e da AOL, e os contratos subjacentes deles estão terminando. Para o Yahoo\! e a AOL, o serviço continuará até junho de 2014.
+  - Lync Online (como licenças autônomas ou como parte de um pacote do Office 365).No entanto, esse serviço (pic.lync.com) só se destina ao provisionamento do Lync Server e a implantações híbridas do Lync Server e Lync Online.O provisionamento da PIC do Lync Online é feito no painel de controle do Lync Online (LOCP).
 
-  - Yahoo\!: o serviço continuará até junho de 2014 e os clientes continuarão precisando da Licença de Assinatura de Usuário de Conectividade de IM Pública do Microsoft Lync ("PIC USL"). Desde 1º de setembro de 2012, a PIC USL, está indisponível para compra ou renovação. Os clientes com licenças compradas antes desta data poderão continuar a federar o Yahoo\! até a data de término do serviço ou encerramento da licença. Os clientes que possuem Licença PIC em contratos que se ultrapassam 30 de junho de 2014 receberão um crédito à proporção do valor dos pagamentos do período de tempo após 30 de junho de 2014
+**P: o que os usuários finais do Lync devem fazer para se conectar aos contatos do Skype?**
 
-  - AOL: A partir de 30 de junho de 2014, o serviço de Conectividade de IM Pública do Microsoft Lync ("PIC") não estará mais disponível. A fim de evitar a perturbação de clientes quando o serviço terminar, interrompemos o fornecimento de domínios adicionais aos clientes. Até 30 de junho de 2014, os clientes não precisarão fazer nada para continuar a suportar comunicações federadas com a AIM. Depois desta data (ou para clientes que gostariam de obter domínios adicionais durante esse período), um serviço alternativo estará disponível diretamente a partir da AOL. Para obter informações sobre o novo serviço da AOL, consulte <http://aimenterprise.aol.com/pic.php> (opens new page on AOL.com). 
+**R:** Depois que um domínio é ativado e os recursos são habilitados pelo administrador do Lync da organização, os usuários do Lync podem adicionar contatos do Skype às listas de contatos do cliente do Lync.
 
-**P: Posso experimentar a conectividade do Skype antes de comprar o Lync?**
+**P: o que os usuários finais da Skype devem fazer para se conectar aos contatos do Lync?**
 
-**R:** A conectividade do Skype não é oferecida como avaliação. No lugar de uma avaliação, os clientes do Lync com licenças qualificadas são incentivados a simplesmente assinarem o serviço a ser testado.
+**R:** Todos os usuários do Skype que desejam se conectar a um usuário do Lync devem ter uma conta da Microsoft associada a suas IDs Skype e entrar usando a conta da Microsoft.Isso pode ser habilitado dentro do cliente Skype.
 
-**P: Quais informações são necessárias para o provisionamento?**
+**P: a Federação com o Windows Live ainda está disponível?**
+
+**R:** A partir de outubro de 2012, a Microsoft começou a ajudar os usuários do Windows Live Messenger (WLM) a mudar para o Skype, encaminhar para desativá-WLM.O Lync continuará a oferecer suporte à Federação com o WLM, desde que WLM esteja no mercado, mas nenhuma ativação de domínio do Windows Live adicional será permitida.O movimento de usuários do WLM é habilitado pelo Skype 6,0 para Mac e Windows (lançado em 25 de outubro de 2012) que permite entrar com uma conta da Microsoft (por exemplo, as mesmas credenciais de WLM). Depois de conectar-se ao Skype, o WLM Buddy lista automaticamente o Skype para o Skype, e os usuários podem tirar proveito dos recursos de comunicação ampliados do Skype, como chamadas para telefones fixos e celulares, compartilhamento de tela, chamadas com vídeo em grupo e suporte para uma ampla variedade de dispositivos.Além disso, os contatos federados do Lync dos usuários do WLM seguem a transição para o Skype com o restante de suas listas de amigos, e as mensagens instantâneas entre o Skype e o Lync para estes contatos estarão disponíveis imediatamente. Os clientes do Lync não precisam fazer nada para habilitar essa continuidade de serviço.
+
+**P: a Federação com o\! Yahoo ou AOL ainda está disponível?**
+
+**R:** Não. Federação com o Yahoo\! e a AOL foram contingentes ao suporte do Yahoo\! e AOL.Para o Yahoo\! e AOL, o serviço foi encerrado em 30 de junho de 2014. 
+
+**P: posso testar a conectividade do Skype antes de comprar o Lync?**
+
+**R:** A conectividade do Skype não é oferecida com base em avaliação. No lugar de uma avaliação, os clientes do Lync com licenças qualificadas são incentivados a simplesmente se inscrever para o serviço testar.
+
+**P: quais informações são necessárias para o provisionamento?**
 
 **R:** Para enviar uma solicitação de provisionamento sob uma licença qualificada, você precisa do seguinte:
 
-  - Número do contrato da Microsoft
+  - Número do contrato da Microsoft:
     
-      - Suporte do Microsoft Volume Licensing: número do Microsoft Volume Licensing Agreement
+      - Suporte ao licenciamento por volume da Microsoft: número do contrato de licença por volume da Microsoft
     
-      - Microsoft Partner Network: ID do parceiro da sede
+      - Rede de parceiros da Microsoft: identificação de parceiro da matriz
     
-      - Service Provider Licensing Agreement: número de registro inicial
+      - Contrato de licenciamento do provedor de serviços: número inicial de inscrição
     
-      - High Volume Services: numero de registro do produto
+      - Serviços de alto volume: número de inscrição do produto
 
-  - Nomes de domínio totalmente qualificados (FQDNs) para o serviço de Borda de Acesso.
+  - FQDNs (nomes de domínio totalmente qualificados) para o serviço de borda de acesso.
     
-      - É necessário um FQDN para pelo menos um serviço de Borda de Acesso.
+      - É necessário um FQDN para pelo menos um serviço de borda de acesso.
     
-      - Se sua organização tem mais de um servidor com o serviço de Borda de Acesso, especifique os FQDNs de cada serviço de Borda de Acesso adicional. Importante: se você especificou previamente um FQDN para o serviço de Borda de Acesso e quer alterá-lo, a configuração da alteração pode levar vários dias para ser concluída e pode resultar em interrupção do serviço. Para evitar interrupção de serviço, recomendamos que você mantenha o FQDN especificado anteriormente para o serviço de Borda de Acesso.
+      - Se a sua organização tiver mais de um servidor executando o serviço de borda de acesso, especifique os FQDNs para cada serviço de borda de acesso adicional. Importante: se você especificou anteriormente um FQDN para o serviço de borda de acesso e deseja alterá-lo, o provisionamento para a alteração pode demorar vários dias para ser concluído e pode resultar em uma interrupção no serviço. Para evitar a interrupção do serviço, recomendamos que você mantenha o FQDN especificado anteriormente do serviço de borda de acesso.
 
-  - Domínios SIP. É o sufixo de domínio do URL SIP que os usuários usam atualmente para mensagens instantâneas. Se a sua organização tiver mais de um domínio SIP, especifique o sufixo de cada domínio para mensagens instantâneas. Por exemplo, para usuario1@contoso.com, especifique contoso.com como o domínio SIP; para usuário1@example.fabrikam.com, especifique example.fabrikam.com como o domínio SIP.
+  - Domínio (s) do protocolo de início de sessão (SIP). Esse é o sufixo de domínio do URI SIP que os usuários usam atualmente para mensagens instantâneas. Se a sua organização tiver mais de um domínio SIP, especifique o sufixo de domínio para cada domínio usado para mensagens instantâneas. Por exemplo, para user1@contoso.com, especifique contoso.com para o domínio SIP; para user1@example.fabrikam.com, especifique example.fabrikam.com como o domínio SIP.
     
-    > [!NOTE]  
-    > Especifique somente o sufixo de domínio para o domínio SIP. Não especifique qualquer FQDN, incluindo o FQDN do serviço de Borda de Acesso, para o domínio SIP.
+    <div>
+    
 
-  - Informações de contato. Especifique um endereço de email para o administrador de cada domínio SIP especificado por você.
+    > [!NOTE]
+    > Especifique somente o sufixo do domínio para o domínio SIP. Não especifique nenhum FQDNs, incluindo o FQDN do serviço de borda de acesso, para o domínio SIP.
 
-**P: Como eu habilito a Conectividade Lync-Skype Connectivity em um cenário de domínio dividido?**
+    
+    </div>
 
-**R:**Se você tiver um cenário de domínio dividido local do Lync Online 2013 e do Lync Server (com usuários online e locais usando o mesmo domínio SIP), habilite a Conectividade Lync-Skype executando uma destas duas etapas na ordem a seguir
+  - Informações de contato. Especifique um endereço de email para o administrador de cada domínio SIP que você especificar.
 
-1.  Configure a Conectividade Lync-Skype local como explicado no Guia de provisionamento do PIC.
+**P: Como faço para habilitar a conectividade do Lync com o Skype em um cenário de domínio dividido?**
 
-2.  Aguarde até ver a confirmação de que seu domínio tenha sido provisionado pela Microsoft.
+**R:** Se você tiver um cenário do Lync Online do Lync Online 2013 e do Lync Server local (com usuários tanto online quanto local usando o mesmo domínio SIP), habilite a conectividade do Lync-Skype fazendo essas duas etapas na seguinte ordem
 
-3.  Depois de ver a confirmação, use o Centro de administração do Lync para ativar as "comunicações externas". Para obter mais informações, consulte [http://office.microsoft.com/pt-br/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/pt-br/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+1.  Configure o Lync do Lync-local conforme explicado no guia de provisionamento da PIC.
 
-Esta ordem é importante. Você deve configurar a conectividade local antes de habilitar as comunicações no Lync Online. Se a ordem for invertida, as informações inseridas para <https://pic.lync.com> local não passarão. Se você já tiver configurado o Lync Online para comunicações com seu domínio, será necessário desativá-lo, aguarde 24 horas e comece novamente, primeiro inserindo suas informações locais em <https://pic.lync.com> e então ativando comunicações externas para o Lync Online.
+2.  Aguarde até que você veja a confirmação de que o domínio foi provisionado pela Microsoft.
 
-**P: Posso provisionar vários FQDNs do serviço de Borda de Acesso para conectividade do Skype?**
+3.  Depois de ver a confirmação, use o centro de administração do Lync para ativar "comunicações externas". Para obter mais informações, consulte[http://office.microsoft.com/en-us/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/en-us/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
-**R:** Você pode provisionar até dez FQDNs do serviço de Borda de Acesso com cada solicitação de provisionamento.
+Este pedido é importante.Você deve configurar a conectividade local antes de habilitar as comunicações no Lync Online. Se o pedido for revertido, as informações inseridas para o local no local <https://pic.lync.com> não serão passadas. Se você já configurou o Lync Online para comunicações externas com este domínio, desative-o, Aguarde 24 horas e comece novamente, inserindo suas informações no local <https://pic.lync.com> e ativando comunicações externas para o Lync Online.
 
-**P: Posso obter a lista de endereços de email da Conta da Microsoft encontrados para a organização que está solicitando o provisionamento?**
+**P: é possível configurar vários FQDNs do serviço de borda de acesso para conectividade do Skype?**
 
-**R:** Não. Esses endereços são considerados informação pessoalmente identificável e não são compartilhados.
+**R:** Você pode provisionar apenas um FQDN de borda de acesso para um ou mais domínios. Você pode provisionar vários FQDNs de borda de acesso, até 10 por solicitação, se eles tiverem domínios distintos.
 
-**P: Como adiciono um contato do Windows Live Messenger com uma ID com um domínio diferente dos domínios com suporte do Windows Live?**
+**P: posso obter a lista de endereços de email da conta da Microsoft que você pode encontrar para a organização que está solicitando o provisionamento?**
 
-**R:** Se você estiver adicionando um usuário do Windows Live Messenger com uma conta ou ID de um domínio diferente do Windows Live, insira o endereço no seguinte formato: \<nome de usuário\>(\<nome de domínio\>)@msn.com, onde \<nome de domínio\> é o nome de domínio no endereço de email do usuário. Por exemplo, se você quisesse adicionar joao@contoso.com, usaria o seguinte formato: joao(contoso.com)@msn.com. Para obter uma lista de domínios administrados pelo Windows Live, consulte a seção Domínios com suporte em "Problemas conhecidos que ocorrem com mensagens instantâneas públicas e do Lync Server ou servidor de comunicações" em http://support.microsoft.com/?kbid=897567.
+**R:** Não. Esses endereços são considerados informações de identificação pessoal e não são compartilhados.
 
-**P: Quanto tempo demora o processo de provisionamento?**
+**P: Como faço para adicionar um contato do Windows Live Messenger com uma ID contendo um domínio diferente daqueles com suporte no Windows Live?**
+
+**R:** Se você estiver adicionando um usuário do Windows Live Messenger com uma conta ou ID com um domínio que não seja do Windows Live, insira o endereço no seguinte \<formato:\>nome\<de usuário\>(nome do domínio) @msn \<. com\> , em que o nome do domínio é o nome do domínio no endereço de email do usuário. Por exemplo, se você quisesse adicionar ted@contoso.com, usaria o seguinte formato: Ted (contoso. com) @msn. com. Para obter uma lista de domínios administrados pelo Windows Live, consulte a seção domínios com suporte em "problemas conhecidos que ocorrem com o sistema de mensagens instantâneas públicas após a instalação do Live Communications http://support.microsoft.com/?kbid=897567Server Service Pack 1".
+
+**P: quanto tempo é necessário para o processo de provisionamento?**
 
 **R:** O provisionamento pode levar até 30 dias.
 
-**P: Como saberei quando o provisionamento foi concluído?**
+**P: como posso saber quando o provisionamento foi concluído?**
 
 **R:** A Microsoft enviará uma notificação por email quando o provisionamento estiver concluído.
 
-**P: Como posso atualizar a configuração ou os detalhes de contato que enviei?**
+**P: Como faço para atualizar a configuração ou os detalhes do contato que eu envio?**
 
-**R:** Você pode atualizar suas informações no mesmo site usado para solicitar o provisionamento, depois que o provisionamento estiver concluído. Insira o número do seu contrato e então clique em Atualizar serviço.
+**R:** Você pode atualizar suas informações no mesmo site da Web que usou para solicitar provisionamento, após a conclusão do provisionamento. Digite o número do contrato e clique em atualizar serviço.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,48 +1,98 @@
-﻿---
-title: Excluindo uma política de local
-TOCTitle: Excluindo uma política de local
-ms:assetid: 8ca9ba10-f45f-435a-b39c-519d251e9085
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688125(v=OCS.15)
-ms:contentKeyID: 49886301
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: excluindo uma política de localização'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deleting a location policy
+ms:assetid: 8ca9ba10-f45f-435a-b39c-519d251e9085
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688125(v=OCS.15)
+ms:contentKeyID: 49733724
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4766d2b05cef89ab29b9c303c5ba1ec456843669
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829590"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Excluindo uma política de local
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-10_
+# <a name="deleting-a-location-policy-in-lync-server-2013"></a>Excluindo uma política de localização no Lync Server 2013
 
-No Lync Server 2013, você pode usar a política de local para aplicar configurações relacionadas à funcionalidade do 9-1-1 Avançado (E9-1-1) e às configurações de local de usuários ou contatos. A política de local determina se o usuário está habilitado para o E9-1-1 e, se estiver, qual será o comportamento de uma chamada de emergência. Por exemplo, é possível usar a política de local para definir o número que constitui uma chamada de emergência (por exemplo, 911 nos Estados Unidos), se a segurança da empresa deve ser automaticamente notificada e como a chamada é roteada.
+</div>
 
-Você pode configurar as políticas de local a partir do grupo **Configuração de rede**no Painel de Controle do Lync Server 2013. Em Painel de Controle do Lync Server você pode visualizar, criar, modificar ou excluir políticas de local. Usar os procedimentos a seguir excluirá uma política de local. Para obter detalhes sobre a criação ou modificação das políticas de local, consulte [Criar ou modificar uma política de local](lync-server-2013-creating-or-modifying-a-location-policy.md).
+<div id="mainSection">
 
-## Para excluir uma política de local
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-10_
+
+No Lync Server 2013, você pode usar a política de localização para aplicar configurações relacionadas à funcionalidade Enhanced 9-1-1 (E9-1-1) e às configurações de localização para usuários ou contatos. A política de localização determina se um usuário está habilitado para E9-1-1 e, em caso afirmativo, qual é o comportamento de uma chamada de emergência. Por exemplo, você pode usar a política de localização para definir qual número constitui uma chamada de emergência (por exemplo, 911 nos Estados Unidos), se a segurança corporativa deve ser notificada automaticamente e como a chamada deve ser roteada.
+
+Você pode configurar as políticas de localização do grupo de **configuração de rede** no painel de controle do Lync Server 2013. No painel de controle do Lync Server, você pode exibir, criar, modificar ou excluir políticas de localização. Use os procedimentos a seguir para excluir uma política de localização. Para obter detalhes sobre como criar ou modificar as políticas de localização, consulte [criando ou modificando uma política de localização no Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md).
+
+<div>
+
+## <a name="to-delete-a-location-policy"></a>Para excluir uma política de localização
 
 1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação, clique em **Configuração de rede** e clique em **Política de local**.
+3.  Na barra de navegação à esquerda, clique em **configuração de rede** e, em seguida, clique em **política de localização**.
 
-4.  Na página **Política de local**, selecione a política de local que você quer excluir.
+4.  Na página **política de localização** , selecione a política de localização que você deseja excluir.
     
-    > [!NOTE]  
-    > Você pode excluir mais que uma política de local ao mesmo tempo. Para isso, mantenha a tecla CTRL e selecione várias políticas. Ou, para selecionar todas as políticas, clique em <strong>Selecionar tudo</strong> no menu <strong>Editar</strong>.
+    <div>
+    
 
-5.  No menu **Editar**, clique em **Excluir**.
+    > [!NOTE]  
+    > Você pode excluir mais de uma política de localização de cada vez. Para fazer isso, pressione CTRL e selecione várias políticas enquanto mantém a tecla CTRL pressionada. Ou, para selecionar todas as políticas, clique em <STRONG>selecionar tudo</STRONG> no menu <STRONG>Editar</STRONG> .
+
+    
+    </div>
+
+5.  No menu **Editar** , clique em **excluir**.
 
 6.  Clique em **OK**.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Você não pode excluir uma política de local Global. Se você tentar excluir a política Global, você receberá uma mensagem de aviso, e essa política será redefinida aos seus valores padrão.
+    > Não é possível excluir a política de localização global. Se você tentar excluir a política global, receberá uma mensagem de aviso e essa política será redefinida para seus valores padrão.
 
-## Consulte Também
+    
+    </div>
 
-#### Tarefas
+</div>
 
-[Criar ou modificar uma política de local](lync-server-2013-creating-or-modifying-a-location-policy.md)  
-[Visualizando informações de política de local](lync-server-2013-viewing-location-policy-information.md)
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Criando ou modificando uma política de localização no Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md)  
+[Exibindo informações de política de localização no Lync Server 2013](lync-server-2013-viewing-location-policy-information.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

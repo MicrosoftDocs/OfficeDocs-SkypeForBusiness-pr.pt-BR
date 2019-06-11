@@ -1,36 +1,69 @@
-﻿---
-title: 'Lync Server 2013: Projetar fluxos de chamada de resposta interativa de voz'
-TOCTitle: Projetar fluxos de chamada de resposta interativa de voz
-ms:assetid: f3477f0a-3ad5-4b13-a73c-046aa451db19
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg413020(v=OCS.15)
-ms:contentKeyID: 49308596
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Projetar fluxos de chamada de resposta interativa de voz'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Design interactive voice response call flows
+ms:assetid: f3477f0a-3ad5-4b13-a73c-046aa451db19
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413020(v=OCS.15)
+ms:contentKeyID: 48185826
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 487fa3d4842ad67f3433966a08a889e454450351
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829466"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Projetar fluxos de chamada de resposta interativa de voz no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-25_
+# <a name="design-interactive-voice-response-call-flows-in-lync-server-2013"></a>Projetar fluxos de chamada de resposta interativa de voz no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-25_
 
 É possível usar a resposta de voz interativa (IVR) para obter as informações dos chamadores e enviar a chamada para a fila adequada. Pares de perguntas e respostas determinam a fila a usar. Dependendo da resposta do chamador, o chamador ouve uma pergunta de acompanhamento ou é roteado para a fila adequada. As perguntas IVR e as respostas do chamador são oferecidas para o agente de resposta quando ele ou ela aceitar a chamada. O sistema oferece informações valiosas para o agente de resposta.
 
-## Visão geral dos recursos do IVR
+<div>
 
-O Aplicativo Grupo de Resposta oferece capacidades de reconhecimento de fala e conversão de texto e fala em 26 idiomas. É possível inserir perguntas IVR usando a conversão texto em fala ou um arquivo wave (.wav) ou Windows Media audio (.wma). Os chamadores podem responder usando a voz ou multifrequência de dois tons (DTMF).
+## <a name="overview-of-ivr-features"></a>Visão geral dos recursos do IVR
+
+O aplicativo grupo de resposta oferece recursos de reconhecimento de fala e conversão de texto em fala em 26 idiomas. É possível inserir perguntas IVR usando a conversão texto em fala ou um arquivo wave (.wav) ou Windows Media audio (.wma). Os chamadores podem responder usando a voz ou multifrequência de dois tons (DTMF).
 
 Os fluxos de trabalho interativos suportam até dois níveis de perguntas, com cada pergunta tendo até quatro respostas possíveis. A IVR faz uma pergunta ao chamador e, dependendo da resposta, roteia o chamador para uma fila ou faz uma segunda pergunta. A segunda pergunta também pode ter quatro respostas possíveis. Dependendo da resposta à pergunta de segundo nível, o chamador é roteado para a fila adequada.
 
+<div>
+
+
 > [!NOTE]  
-> Quando você projeta fluxos de chamada usando o Shell de Gerenciamento do Lync Server, é possível definir qualquer número de níveis de perguntas IVR e qualquer número de respostas. No entanto, para melhor usabilidade do chamador, recomendamos que você não use mais de três níveis de perguntas, com não mais do que cinco respostas cada. Além disso, se você projetar um fluxo de chamada com mais de dois níveis de perguntas e quatro respostas cada, não é possível editar o fluxo de chamada usando o Painel de Controle do Lync Server 2013.
+> Ao projetar fluxos de chamadas usando o Shell de gerenciamento do Lync Server, você pode definir quaisquer níveis de número de perguntas IVR e qualquer número de respostas. No entanto, para melhor usabilidade do chamador, recomendamos que você não use mais de três níveis de perguntas, com não mais do que cinco respostas cada. Além disso, se você criar um fluxo de chamadas com mais de dois níveis de perguntas com mais de quatro respostas, não poderá editar o fluxo de chamadas usando o painel de controle do Lync Server 2013.
+
+
+
+</div>
 
 As perguntas IVR e as respostas do chamador são fornecidas para o agente de resposta quando ele ou ela aceita a chamada.
 
-## Trabalhando com tecnologias de fala
+</div>
 
-Tecnologias de fala, como o reconhecimento de fala e conversão de texto em fala, podem aprimorar a experiência do cliente e permitir que as pessoas acessem informações de forma mais natural e eficaz. No entanto, pode haver casos em que o texto especificado ou a resposta de voz do usuário não é reconhecido corretamente pelo mecanismo de fala. Por exemplo, o símbolo "\#" é traduzido pelo mecanismo de conversão de texto em fala como a palavra "número". Este problema pode ser reduzido pelo seguinte:
+<div>
+
+## <a name="working-with-speech-technologies"></a>Trabalhando com tecnologias de fala
+
+Tecnologias de fala, como o reconhecimento de fala e conversão de texto em fala, podem aprimorar a experiência do cliente e permitir que as pessoas acessem informações de forma mais natural e eficaz. No entanto, pode haver casos em que o texto especificado ou a resposta de voz do usuário não é reconhecido corretamente pelo mecanismo de fala. Por exemplo, o símbolo\#"" é convertido pelo mecanismo de conversão de texto em fala como palavra "número". Este problema pode ser reduzido pelo seguinte:
 
   - O mecanismo de fala fornece ao chamador cinco tentativas de responder a pergunta. Se o chamador responder incorretamente (isto é, a resposta não é uma das respostas especificadas) ou não oferecer uma resposta, ele ou ela tem outra chance de responder. O chamador tem cinco tentativas de responder a pergunta antes de ser desconectado. É possível configurar a IVR para reproduzir uma mensagem personalizada após cada erro do chamador. A pergunta é repetida todas as vezes.
 
@@ -38,13 +71,19 @@ Tecnologias de fala, como o reconhecimento de fala e conversão de texto em fala
 
   - Se suas perguntas possuem respostas de fala e DTMF, configure as respostas de fala com palavras que representam um conceito ao invés da resposta DTMF. Por exemplo, ao invés de usar "Pressione ou fale 1", use "Pressione 1 ou fale faturamento."
 
-  - Após projetar sua IVR, ligue par ao fluxo de trabalho, ouça às solicitações, responda cada uma delas usando a voz e verifique se a IVR soa e se comporta conforme esperado. É possível modificar a IVR para corrigir qualquer problema de interpretação. No exemplo a seguir, se você precisa consultar a tecla \#, é possível regravar sua solicitação IVR para usar o nome da tecla ao invés do símbolo \#. Por exemplo, "Para falar com vendas, pressione a tecla jogo da velha."
+  - Após projetar sua IVR, ligue par ao fluxo de trabalho, ouça às solicitações, responda cada uma delas usando a voz e verifique se a IVR soa e se comporta conforme esperado. É possível modificar a IVR para corrigir qualquer problema de interpretação. Seguindo o exemplo anterior, se você precisar fazer referência à \# chave, poderá reconfigurar o prompt IVR para usar o nome da chave, em vez do \# símbolo. Por exemplo, "Para falar com vendas, pressione a tecla jogo da velha."
 
-## Exemplos de design de IVR
+</div>
+
+<div>
+
+## <a name="ivr-design-examples"></a>Exemplos de design de IVR
 
 As seções a seguir contêm exemplos de diferentes cenários de IVR e pares de perguntas e respostas.
 
-## IVR com um nível de perguntas
+<div>
+
+## <a name="ivr-with-one-level-of-questions"></a>IVR com um nível de perguntas
 
 O exemplo a seguir mostra uma IVR que usa um nível de perguntas. Usa reconhecimento de voz para detectar a resposta do chamador.
 
@@ -58,9 +97,13 @@ A figura a seguir mostra o fluxo de chamadas.
 
 **Fluxo de chamada interativa de um nível**
 
-![Projetar fluxos de chamada usando a resposta de voz interativa](images/Gg413020.4820a9f7-b5b0-4831-b972-baae0c015ec1(OCS.15).jpg "Projetar fluxos de chamada usando a resposta de voz interativa")
+![Criar fluxos de chamadas usando o respo de voz interativo] (images/Gg413020.4820a9f7-b5b0-4831-b972-baae0c015ec1(OCS.15).jpg "Criar fluxos de chamadas usando o respo de voz interativo")
 
-## IVR com dois níveis de perguntas
+</div>
+
+<div>
+
+## <a name="ivr-with-two-levels-of-questions"></a>IVR com dois níveis de perguntas
 
 O exemplo a seguir mostra uma IVR que usa dois níveis de perguntas. Permite aos chamadores responder usando fala ou entrada do teclado DTMF.
 
@@ -90,9 +133,15 @@ A figura a seguir mostra o fluxo de chamadas.
 
 **Fluxo de chamada interativa de dois níveis**
 
-![Projetar fluxos de chamada usando a resposta de voz interativa](images/Gg413020.a5b62083-312d-4419-898b-d1a225a5379f(OCS.15).jpg "Projetar fluxos de chamada usando a resposta de voz interativa")
+![Criar fluxos de chamadas usando o respo de voz interativo] (images/Gg413020.a5b62083-312d-4419-898b-d1a225a5379f(OCS.15).jpg "Criar fluxos de chamadas usando o respo de voz interativo")
 
-## Práticas recomendadas
+</div>
+
+</div>
+
+<div>
+
+## <a name="best-practices"></a>Práticas recomendadas
 
 A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 
@@ -107,4 +156,16 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
   - Torne as respostas de voz fáceis. Por exemplo, se você especificar as respostas DTMF e voz, use algo como: "Para falar com a equipe de vendas, pressione 1 ou diga vendas."
 
   - Teste a IVR em um grupo de usuários antes de implantar na sua organização.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,41 +1,96 @@
-﻿---
-title: "Lync Server 2013: Impl. Serv. ou Ap. de Filial Persist. - tar. de site de filial"
-TOCTitle: Implantar Servidor ou Aparelho de Filial Persistente - tarefa de site de filial
-ms:assetid: 7989ba29-0419-46dd-892c-4ad3238afd56
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398599(v=OCS.15)
-ms:contentKeyID: 49307195
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Implantar Servidor ou Aparelho de Filial Persistente - tarefa de site de filial
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploy a Survivable Branch Appliance or Server - branch site task
+ms:assetid: 7989ba29-0419-46dd-892c-4ad3238afd56
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398599(v=OCS.15)
+ms:contentKeyID: 48184586
+ms.date: 10/29/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0f9c50e2c2377ead96f155beb2471419edb9da91
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829577"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Implantar Servidor ou Aparelho de Filial Persistente com Lync Server 2013 - tarefa de site de filial
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-10-28_
+# <a name="deploy-a-survivable-branch-appliance-or-server-with-lync-server-2013---branch-site-task"></a>Implantar Servidor ou Aparelho de Filial Persistente com Lync Server 2013 - tarefa de site de filial
 
-Execute um dos dois procedimentos descritos neste tópico no site da filial depois de concluir com êxito as tarefas em [Implantando um servidor ou aparelho de filial persistente com o Lync Server 2013 - Tarefas do site central](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md).
+</div>
 
-> [!IMPORTANT]  
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-10-28_
+
+Execute um dos dois procedimentos descritos neste tópico no site da filial, depois de concluir com êxito as tarefas em Implantando [um aplicativo ou aplicativo de ramificação sobreviventes com o Lync Server 2013 – tarefas de site central](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md).
+
+<div>
+
+
+> [!IMPORTANT]
 > Para executar este procedimento, você deve ser membro do grupo RTCUniversalSBATechnicians.
 
-## Para implantar o Aparelho de Filial Persistente
 
-  - A implantação do Aparelho de Filial Persistente é habilitada pelo fornecedor do Aparelho de Filial Persistente através de uma interface do usuário da web. Para obter informações sobre como implantar o Aparelho de Filial Persistente, consulte a documentação do fornecedor do Aparelho de Filial Persistente.
 
-## Para implantar o Servidor da Filial Persistente
+</div>
 
-  - Instale o Microsoft Lync Server 2010 em um computador que executa o Windows Server 2008 ou o Windows Server 2008 R2, da mesma maneira que você instalaria qualquer outra função de servidor do Lync Server 2013.
+<div>
+
+## <a name="to-deploy-the-survivable-branch-appliance"></a>Para implantar o aparelho de ramificação sobreviventes
+
+  - A implantação de appliances de ramificação sobreviventes está habilitada pelo fornecedor da ramificação da ramificação sobreviventes por meio de uma interface de usuário da Web (UI). Para obter informações sobre a implantação do aparelho de ramificação sobreviventes, consulte a documentação do fornecedor da sua solução de ramificação sobreviventes.
+
+</div>
+
+<div>
+
+## <a name="to-deploy-the-survivable-branch-server"></a>Para implantar o servidor de ramificação sobreviventes
+
+  - Instale o Lync Server 2013 em um computador executando o Windows Server 2008 R2, o Windows Server 2012 ou o Windows Server 2012 R2, da mesma forma que você instalaria qualquer função de servidor do Lync Server 2013.
     
-    > [!NOTE]  
-    > Para obter informações sobre como instalar o Lync Server, consulte <a href="lync-server-2013-deploying-lync-server.md">Implantando o Lync Server 2013</a> na documentação de Implantação.
+    <div>
+    
 
-**Próxima etapa**: [Configurando usuários para resiliência de site da filial no Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
+    > [!NOTE]
+    > Para obter informações sobre como instalar o Lync Server, consulte Implantando o <A href="lync-server-2013-deploying-lync-server.md">Lync server 2013</A> na documentação de implantação.
 
-## Consulte Também
+    
+    </div>
 
-#### Tarefas
+**Próxima etapa**: [Configurando usuários para resiliência de site de ramificação no Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
 
-[Anexo A: Usando cmdlets para implantar uma Aparelho de Filial Persistente no Lync Server 2013](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Anexo A: Usando cmdlets para implantar uma Aparelho de Filial Persistente no Lync Server 2013](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

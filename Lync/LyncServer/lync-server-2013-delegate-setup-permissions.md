@@ -1,43 +1,90 @@
-﻿---
-title: 'Lync Server 2013: Delegar permissões de configuração'
-TOCTitle: Delegar permissões de configuração
-ms:assetid: 9dca1683-4c69-4534-8ebe-6bd635cbae49
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412735(v=OCS.15)
-ms:contentKeyID: 49307603
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Delegar permissões de configuração'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delegate setup permissions
+ms:assetid: 9dca1683-4c69-4534-8ebe-6bd635cbae49
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412735(v=OCS.15)
+ms:contentKeyID: 48184997
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e7df00740ac971fd56e289da04ca43abb1619329
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829662"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Delegar permissões de configuração no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-02-05_
+# <a name="delegate-setup-permissions-in-lync-server-2013"></a>Delegar permissões de configuração no Lync Server 2013
 
-Se você não quiser conceder associação ao grupo Administradores de Domínio para usuários ou grupos que estejam implantando o Lync Server 2013, poderá permitir que os membros do grupo RTCUniversalServerAdmins executem o cmdlet **Enable-CsTopology** do Windows PowerShell em servidores com o Lync Server 2013. Por padrão, os membros do grupo RTCUniversalServerAdmins não podem executar esse cmdlet. Conceda direitos de administrador e permissões para executar **Enable-CsTopology** em servidores com o Lync Server usando o cmdlet **Grant-CsSetupPermission** e especificando uma unidade organizacional em que estejam localizados os objetos computador para o servidor com o Lync Server 2013.
+</div>
 
-A preparação de domínio que ocorre quando você instala o Lync Server não adiciona automaticamente as permissões que permitem que os membros do grupo RTCUniversalServerAdmins executem o cmdlet Enable-CsTopology. Isso significa que, por padrão, você deve ser um administrador de domínio para habilitar uma topologia. Para dar aos membros do grupo RTCUniversalServerAdmins o direito de habilitar uma topologia, você deve executar o cmdlet Grant-CsSetupPermissions. Além disso, será necessário executar esse cmdlet em relação a cada contêiner do Active Directory que hospeda computadores executando o Lync Server.
+<div id="mainSection">
 
-Tenha em mente que esse cmdlet somente concede permissões ao grupo RTCUniversalServerAdmins; o cmdlet não pode ser usado para conceder permissões para outros grupos de segurança ou usuários individuais.
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-02-05_
+
+Se você não quiser conceder associação ao grupo Administradores de domínio para usuários ou grupos que estão implantando o Lync Server 2013, você pode habilitar os membros do grupo RTCUniversalServerAdmins para executar o cmdlet **Enable-CsTopology** do Windows PowerShell em servidores que executam o Lync Server 2013. Por padrão, os membros do grupo RTCUniversalServerAdmins não têm a capacidade de executar esse cmdlet. Conceda direitos e permissões de administrador para executar **Enable-CsTopology** em servidores que executam o Lync Server usando o cmdlet **Grant-CsSetupPermission** e especificando uma UO (unidade organizacional) onde objetos de computador para o servidor em execução O Lync Server 2013 está localizado.
+
+A preparação do domínio que ocorre quando você instala o Lync Server não adiciona automaticamente as permissões que permitem que os membros do grupo RTCUniversalServerAdmins executem o cmdlet Enable-CsTopology. Isso significa que, por padrão, você deve ser um administrador de domínio para habilitar uma topologia. Para dar aos membros do grupo RTCUniversalServerAdmins o direito de habilitar uma topologia, você deve executar o cmdlet Grant-CsSetupPermissions. Além disso, você precisará executar esse cmdlet em cada contêiner do Active Directory que abriga computadores que executam o Lync Server.
+
+Lembre-se de que esse cmdlet concede somente permissões ao grupo RTCUniversalServerAdmins; o cmdlet não pode ser usado para conceder permissões a outros grupos de segurança ou a usuários individuais.
+
+<div>
+
 
 > [!NOTE]  
-> <strong>Enable-CsTopology</strong> é o principal cmdlet para permitir que membros do grupo RTCUniversalServerAdmins configurem e implantem o Lync Server 2013.
+> <STRONG>Enable-CsTopology</STRONG> é o cmdlet principal para permitir que os membros do grupo do RTCUniversalServerAdmins configurem e implantem o Lync Server 2013.
 
-## Para adicionar a habilidade de executar o cmdlet Enable-CsTopology ao grupo RTCUniversalServerAdmins
 
-1.  Faça logon em um servidor como membro do grupo Administradores de Domínio para o domínio em que o usuário delegado executará o cmdlet **Enable-CsTopology**.
 
-2.  Abra o Shell de Gerenciamento do Lync Server 2013. O Shell de Gerenciamento do Lync Server 2013 é instalado automaticamente em cada Servidor Front-End ou computador em que as ferramentas administrativas do Lync Server 2013 estejam instaladas. Para detalhes sobre o Shell de Gerenciamento do Lync Server 2013, consulte [Shell de gerenciamento do Lync Server](lync-server-2013-lync-server-management-shell.md) na documentação de Operações.
+</div>
 
-3.  Execute o cmdlet a seguir a partir do Shell de Gerenciamento do Lync Server 2013:
+<div>
+
+## <a name="to-add-the-ability-to-run-enable-cstopology-to-the-rtcuniversalserveradmins-group"></a>Para adicionar a capacidade de executar Enable-CsTopology ao grupo RTCUniversalServerAdmins
+
+1.  Faça logon em um servidor como membro do grupo Domain admins do domínio no qual o usuário delegado irá executar **Enable-CsTopology**.
+
+2.  Abra o Shell de gerenciamento do Lync Server 2013. O Shell de gerenciamento do Lync Server 2013 é instalado automaticamente em cada servidor front-end ou em qualquer computador onde as ferramentas administrativas do Lync Server 2013 tenham sido instaladas. Para obter detalhes sobre o Shell de gerenciamento do Lync Server 2013, consulte [Shell de gerenciamento do Lync server 2013](lync-server-2013-lync-server-management-shell.md) na documentação de operações.
+
+3.  Execute o seguinte cmdlet do Shell de gerenciamento do Lync Server 2013:
     
         Grant-CsSetupPermission -ComputerOU <DN of the OU> -Domain <Domain FQDN>
     
+    <div>
+    
+
     > [!NOTE]  
-    > Se OU não for o nível superior, você deve fornecer o nome de domínio completo.  
-      
-    No exemplo a seguir, a UO é o "Lync Server", que está no domínio contoso.com.
+    > Se a UO não estiver no nível superior, você deve fornecer o nome de domínio completo.
+
+    
+    </div>
+    
+    No exemplo a seguir, a UO é "Lync Servers", que está no domínio contoso.com.
     
         Grant-CsSetupPermission -ComputerOU "OU=Lync Servers" -Domain contoso.com
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

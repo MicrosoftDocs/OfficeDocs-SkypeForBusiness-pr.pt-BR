@@ -1,29 +1,51 @@
-﻿---
-title: Como o arquivamento funciona no Lync Server 2013
-TOCTitle: Como o arquivamento funciona no Lync Server 2013
-ms:assetid: 536a52a9-cfb7-4392-9620-ffc5b319b31b
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204900(v=OCS.15)
-ms:contentKeyID: 49306722
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: como funciona o arquivamento'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: How Archiving works
+ms:assetid: 536a52a9-cfb7-4392-9620-ffc5b319b31b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204900(v=OCS.15)
+ms:contentKeyID: 48184174
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 097b40ef4194a618c090e0d67f73583d6aa427b3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829085"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Como o arquivamento funciona no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-02-04_
+# <a name="how-archiving-works-in-lync-server-2013"></a>Como o arquivamento funciona no Lync Server 2013
 
-O arquivamento do Lync Server 2013 fornece opções para ajudar você a atender às suas necessidades de conformidade. Para implementar e mantê-lo de uma maneira que atenda de forma mais eficaz aos requisitos da sua organização, você deve compreender:
+</div>
 
-  - Quais tipos de informações podem ser arquivadas.
+<div id="mainSection">
 
-  - Como habilitar e desabilitar o arquivamento na sua implantação.
+<div id="mainBody">
 
-  - As opções de arquivamento que você pode configurar para controlar como o arquivamento será implementado.
+<span> </span>
 
-## Quais tipos de informações podem ser arquivadas?
+_**Tópico da última modificação:** 2014-02-04_
+
+O arquivamento do Lync Server 2013 fornece opções para ajudá-lo a atender às suas necessidades de conformidade. Para implementá-la e mantê-la de forma que atenda aos requisitos da sua organização de forma mais eficiente, você deve entender:
+
+  - Quais informações podem ser arquivadas.
+
+  - Como habilitar e desabilitar o arquivamento em sua implantação.
+
+  - As opções de arquivamento que você pode configurar para controlar a implementação do arquivamento.
+
+<div>
+
+## <a name="what-information-can-be-archived"></a>Quais informações podem ser arquivadas?
 
 Os seguintes tipos de conteúdo podem ser arquivados:
 
@@ -39,113 +61,166 @@ Os seguintes tipos de conteúdo não são arquivados:
 
   - Transferências de arquivo de ponto a ponto
 
-  - Áudio/vídeo para mensagens instantâneas e conferências de ponto a ponto
+  - Áudio e vídeo de mensagens instantâneas e conferências de ponto a ponto
 
-  - O compartilhamento de área de trabalho e aplicativos para mensagens instantâneas e conferências de ponto a ponto
+  - Compartilhamento de área de trabalho e aplicativos em mensagens instantâneas e conferências de ponto a ponto
 
-O Lync Server também não arquiva as conversas do Chat Persistente. Para arquivar as conversas do Chat Persistente, você deve habilitar e configurar o servidor de conformidade, que é um componente que pode ser implantado com o Microsoft Lync Server 2013, Servidor de Chat Persistente. Para obter detalhes, consulte [Planejando o Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) na Documentação de planejamento.
+O Lync Server também não arquiva conversas de chat persistentes. Para arquivar conversas de chat persistentes, você deve habilitar e configurar o serviço de conformidade, que é um componente que pode ser implantado com o Microsoft Lync Server 2013, servidor de chat persistente. Para obter detalhes, consulte [planejando o servidor de chat persistente no Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) na documentação de planejamento.
 
-## Como eu começo a utilizar o arquivamento?
+</div>
 
-O arquivamento é instalado automaticamente em cada Servidor Front-End quando você implanta o servidor, mas o arquivamento não é habilitado até você configurá-lo. Como você deve configurá-lo é determinado pelo modo como você implanta o arquivamento:
+<div>
 
-  - **Arquivamento utilizando a integração do Microsoft Exchange.** Se você tiver usuários que estiverem hospedados no Exchange 2013 e tiverem suas caixas de correio colocadas em bloqueio In-loco, é possível selecionar a opção para integrar o armazenamento do Lync Server 2013 ao armazenamento do Exchange. Se você escolher a opção de integração do Microsoft Exchange, utilize as políticas e configurações do Exchange 2013 para controlar o arquivamento de dados do Lync Server 2013 para esses usuários.
+## <a name="how-do-i-start-using-archiving"></a>Como começar a usar o arquivamento?
 
-  - **Arquivamento utilizando os bancos de dados de arquivamento do Lync Server.** Se você tiver usuários que não estiverem hospedados no Exchange 2013, que não tiverem suas caixas de correio colocadas em bloqueio In-loco ou se você não quiser utilizar a integração do Microsoft Exchange para quaisquer ou todos os usuários na sua implantação, é possível implantar os bancos de dados de arquivamento do Lync Server utilizando o SQL Server para armazenar dados de arquivamento para esses usuários. Neste caso, as políticas e configurações de arquivamento do Lync Server 2013 determinam se o arquivamento está habilitado e com ele foi implantado. Para utilizar o Lync Server 2013, você deve adicionar os bancos de dados do SQL Server apropriados para a sua topologia e publicar a topologia.
+O arquivamento será automaticamente instalado em cada servidor front-end quando você implantar o servidor, mas o arquivamento não estará habilitado até você configurá-lo. A forma de configuração é determinada pelo modo de implantação do arquivamento:
 
-## Configuração de arquivamento ao utilizar a integração do Microsoft Exchange
+  - **Arquivar usando a integração do Microsoft Exchange.** Se você tiver usuários hospedados no Exchange 2013 e suas caixas de correio tiverem sido colocadas no bloqueio in-loco, você pode selecionar a opção para integrar o armazenamento do Lync Server 2013 com armazenamento do Exchange. Se você escolher a opção de integração do Microsoft Exchange, use as políticas e configurações do Exchange 2013 para controlar o arquivamento dos dados do Lync Server 2013 para esses usuários.
 
-Se seus usuários estiverem hospedados no Exchange 2013 e as caixas de correio deles tiverem sido colocadas em bloqueio In-loco, você pode escolher a opção de **integração do Microsoft Exchange** (como descrita posteriormente neste seção) para arquivar o Lync Server 2013 para esses usuários e, então será possível controlar o arquivamento para esses usuários especificando as políticas e configurações de Bloqueio In-loco do Exchange, assim como as configurações do Lync Server para controlar o seguinte:
+  - **Arquivar usando bancos de dados de arquivamento do Lync Server.** Se você tiver usuários que não são hospedados no Exchange 2013 ou que não tiveram suas caixas de correio em bloqueio in-loco, ou se você não quiser usar a integração do Microsoft Exchange para qualquer um ou todos os usuários da sua implantação, poderá implantar bancos de dados de arquivamento do Lync Server usando o SQL Server  para armazenar dados de arquivamento para esses usuários. Nesse caso, as políticas e as políticas de arquivamento do Lync Server 2013 determinam se o arquivamento está habilitado e como ele é implementado. Para usar o Lync Server 2013, você deve adicionar os bancos de dados do SQL Server apropriados à sua topologia e publicar a topologia.
 
-  - Se arquivará mensagens instantâneas, conferências ou ambas.
+<div>
 
-  - Se implementará o modo crítico para a sua implantação do Lync Server.
+## <a name="archiving-setup-when-using-microsoft-exchange-integration"></a>Configuração de arquivamento ao usar a integração do Microsoft Exchange
 
-  - Seleção das opções de integração do Microsoft Exchange para utilizar o Exchange 2013 para armazenar os dados arquivados.
+Se seus usuários estiverem hospedados no Exchange 2013 e suas caixas de correio tiverem sido colocadas no bloqueio in-loco, você poderá escolher a opção de **integração do Microsoft Exchange** (conforme descrito mais adiante nesta seção) para arquivar o Lync Server 2013 para esses usuários e, em seguida, controlar arquivamento para esses usuários especificando as configurações e políticas de bloqueio in-loco do Exchange, bem como as configurações do Lync Server para controlar o seguinte:
 
-Essas opções de configuração de arquivamento do Lync Server 2013 serão descritas posteriormente nesta seção. Para obter informações sobre como configurar as políticas e configurações de Bloqueio In-loco do Exchange para suportar o arquivamento, consulte a documentação do produto do Exchange 2013.
+  - Se deseja arquivar mensagens instantâneas, conferências ou ambos.
 
-## Configuração de arquivamento ao utilizar o armazenamento do banco de dados do Lync Server
+  - Se você deseja implementar o modo crítico para a implantação do Lync Server.
 
-Se você quiser utilizar os bancos de dados de arquivamento do Lync Server (utilizando os bancos de dados do SQL Server) para arquivar dados para quaisquer usuários na sua implantação, é possível configurar as políticas de arquivamento do Lync Server para controlar se o arquivamento está habilitado para esses usuários. Em cada política de arquivamento, você pode habilitar e desabilitar o arquivamento para uma ou ambas as opções a seguir:
+  - Seleção da opção de integração do Microsoft Exchange para usar o Exchange 2013 para armazenamento de dados arquivados.
+
+Estas opções de configuração de arquivamento do Lync Server 2013 são descritas posteriormente nesta seção. Para obter informações sobre como configurar políticas e configurações de bloqueio do Exchange in-loco para dar suporte ao arquivamento, consulte a documentação do produto Exchange 2013.
+
+</div>
+
+<div>
+
+## <a name="archiving-setup-when-using-lync-server-archiving-database-storage"></a>Configuração de arquivamento ao usar o armazenamento de banco de dados de arquivamento do Lync Server
+
+Se você quiser usar bancos de dados de arquivamento do Lync Server (usando bancos de dados do SQL Server) para arquivar dados de qualquer usuário na sua implantação, poderá configurar as políticas de arquivamento do Lync Server para controlar se o arquivamento está habilitado para esses usuários. Em cada política de arquivamento, você pode habilitar ou desabilitar o arquivamento para qualquer um dos seguintes ou ambos:
 
   - Comunicações internas
 
   - Comunicações externas
 
-Por padrão, o arquivamento não é habilitado para comunicações internas ou externas em qualquer política de arquivamento do Lync Server. Você pode habilitar e desabilitar as comunicações utilizando o Painel de Controle do Lync Server 2013 ou os cmdlets no Shell de Gerenciamento do Lync Server 2013.
+Por padrão, o arquivamento não está habilitado para comunicações internas ou comunicações externas em qualquer política de arquivamento do Lync Server. Habilite e desabilite as comunicações usando o painel de controle do Lync Server 2013 ou use cmdlets no Shell de gerenciamento do Lync Server 2013.
 
 As políticas de arquivamento do Lync Server 2013 incluem o seguinte:
 
-  - **Política de arquivamento global**. Essa é uma política de arquivamento padrão e se aplica a toda a sua implantação. Ela é criada quando você implanta o Lync Server 2013 e, por padrão, desabilita o arquivamento para as comunicações internas e externas. Não é possível excluir essa política. Se você escolher a opção excluir, a política global será redefinida para as configurações padrão.
+  - **Política de arquivamento global**. Esta é a política de arquivamento padrão e se aplica a toda a sua implantação. Ele é criado quando você implanta o Lync Server 2013 e, por padrão, desabilita o arquivamento para comunicações internas e externas. Você não pode excluir esta política. Se você escolher a opção Excluir, a política global será redefinida para as configurações padrão.
 
-  - **Política de arquivamento do site**. Opcionalmente, você pode habilitar ou desabilitar o arquivamento para um ou mais sites específicos criando e configurando uma política de arquivamento em nível de site para o site. Quando você criar uma política de arquivamento em nível de site, por padrão, o arquivamento não está ativado. Você pode excluir qualquer política de arquivamento em nível de site que tenha criado. Uma política de arquivamento em nível de site substitui a política global, mas somente para o site especificado na política. Por exemplo, se você habilitar o arquivamento de comunicações internas e externas em sua política global e criar uma política de site na qual você desabilita o arquivamento de comunicações externas, somente as comunicações internas serão arquivadas para esse site.
+  - **Política**de arquivamento do site. Opcionalmente, você pode habilitar ou desabilitar o arquivamento de um ou mais sites específicos criando e configurando uma política de arquivamento no nível do site. Quando você cria uma política de arquivamento de nível de site, por padrão, o arquivamento não está habilitado. Você pode excluir qualquer política de arquivamento de nível de site que criar. Uma política de arquivamento em nível de site substitui a política global, mas somente para o site especificado na política. Por exemplo, se você habilitar o arquivamento para comunicações internas e externas em sua política global e criar uma política de site na qual você desabilite o arquivamento de comunicações externas, somente as comunicações internas serão arquivadas para esse site.
 
-  - **Política de arquivamento do usuário**. Opcionalmente, você pode habilitar ou desabilitar o arquivamento para um ou mais usuários e grupos de usuários específicos criando, configurando e aplicando uma política de arquivamento em nível de usuário para os usuários e grupos de usuários especificados. Quando você cria uma política de arquivamento em nível de usuário, por padrão, o arquivamento não está habilitado. É possível excluir qualquer política de arquivamento em nível de usuário que você criou e também é possível alterar a quais usuários e grupos de usuários a política de arquivamento se aplica. Uma política de arquivamento em nível de usuário substitui a política global e as políticas do site, mas somente para os usuários e grupos de usuários aos quais a política foi aplicada. Por exemplo, se você desabilitar o arquivamento de comunicações internas e externas em sua política global, crie uma política em nível de site e habilite nela o arquivamento de comunicações internas e externas e, em seguida, crie uma política em nível de usuário e desabilite nela o arquivamento de comunicações externas, as comunicações serão arquivadas para as comunicações internas e externas para todos os usuários do site, exceto para os usuários aos quais você aplicar a política em nível de usuário, somente as comunicações internas seriam arquivadas.
+  - **Política**de arquivamento de usuários. Opcionalmente, você pode habilitar ou desabilitar o arquivamento para um ou mais usuários específicos e um grupo de usuários, criando, Configurando e aplicando uma política de arquivamento de nível de usuário para os usuários e grupos de usuários especificados. Quando você cria uma política de arquivamento de nível de usuário, por padrão, o arquivamento não está habilitado. Você pode excluir qualquer política de arquivamento de nível de usuário criada e pode alterar a quais usuários e grupos de usuários a política de arquivamento se aplica. Uma política de arquivamento em nível de usuário substitui a política global e as políticas do site, mas somente para os usuários e grupos de usuários aos quais a política é aplicada. Por exemplo, se você desabilitar o arquivamento de comunicações internas e externas em sua política global, crie uma política de nível de site na qual você habilitou o arquivamento para comunicações internas e externas e, em seguida, crie uma política de nível de usuário na qual você desabilita Arquivamento para comunicações externas, as comunicações serão arquivadas para comunicações internas e externas para todos os usuários do site, exceto para os usuários aos quais você aplicar a política de nível de usuário, somente as comunicações internas serão arquivadas.
 
-Para obter detalhes sobre como configurar inicialmente as políticas de arquivamento ao implantar o arquivamento, consulte [Configurando e atribuindo políticas de arquivamento](lync-server-2013-configuring-and-assigning-archiving-policies.md) na Documentação de implantação. Para obter detalhes sobre o uso das políticas de arquivamento para habilitar e desabilitar as comunicações após a implantação, consulte [Gerenciando o arquivamento de comunicações internas e externas no Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md) na Documentação de operações.
+Para obter detalhes sobre como configurar as políticas de arquivamento iniciais ao implantar o arquivamento, consulte [configurar e atribuir políticas de arquivamento no Lync Server 2013](lync-server-2013-configuring-and-assigning-archiving-policies.md) na documentação de implantação. Para obter detalhes sobre como usar as políticas de arquivamento para habilitar e desabilitar comunicações após a implantação, consulte [Gerenciando o arquivamento de comunicações internas e externas no Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md) na documentação de operações.
+
+<div>
+
 
 > [!NOTE]  
-> Se você implementar os bancos de dados do Lync Server 2013 e habilitar a integração do Microsoft Exchange, as políticas do Exchange 2013 substituirão as políticas de arquivamento do Lync Server, mas somente para os usuários que estiverem hospedados no Exchange 2013 e tiverem suas caixas de correio colocadas em bloqueio In-loco. O arquivamento do Lync Archiving depende somente da política de Bloqueio In-loco do Microsoft Exchange.
+> Se você implementar os bancos de dados de arquivamento do Lync Server 2013 e habilitar a integração do Microsoft Exchange, as políticas do Exchange 2013 substituirão as políticas de arquivamento do Lync Server, mas somente para os usuários que estiverem hospedados no Exchange 2013 e tiveram suas caixas de correio colocadas no bloqueio in-loco . O arquivamento do Lync depende somente da política de bloqueio in-loco do Microsoft Exchange.
 
-## Quais opções eu tenho para configurar um arquivamento?
 
-Além de utilizar as políticas e habilitar e desabilitar o arquivamento, você tem outras opções de arquivamento que podem ser configuradas para toda a sua implantação e, opcionalmente, para sites e pools específicos. Você controla a maioria das opções de arquivamento utilizando uma ou mais configurações de arquivamento, que estão disponíveis no Painel de Controle do Lync Server 2013, mas também tem outra opção que está disponível para configuração utilizando o Shell de Gerenciamento do Lync Server 2013.
 
-## Opções de configuração de arquivamento disponíveis no Painel de Controle do Lync Server 2013
+</div>
+
+</div>
+
+<div>
+
+## <a name="what-options-do-i-have-for-configuring-archiving"></a>Quais são as opções que eu tenho para configurar o arquivamento?
+
+Além de usar políticas e habilitar e desabilitar o arquivamento, você tem outras opções de arquivamento que podem ser configuradas para toda a implantação e, opcionalmente, para sites e pools específicos. Você controla a maioria das opções de arquivamento usando uma ou mais configurações de arquivamento, que estão disponíveis no painel de controle do Lync Server 2013, mas também tem outra opção que só está disponível para configuração usando o Shell de gerenciamento do Lync Server 2013.
+
+<div>
+
+## <a name="archiving-configuration-options-available-in-lync-server-2013-control-panel"></a>Opções de configuração de arquivamento disponíveis no painel de controle do Lync Server 2013
 
 Cada configuração de arquivamento fornece as seguintes opções:
 
-A configuração em nível global é criada automaticamente quando você implanta o arquivamento e pode ser configurada, mas não excluída. Se você selecionar a opção para excluir a configuração global, as configurações são redefinidas para os valores padrão. Você pode criar várias configurações de site e de pool que, em conjunto com a configuração global, controlam as configurações de arquivamento. Para a configuração global e cada configuração de site e de pool, você tem as seguintes opções:
+A configuração de nível global é criada automaticamente quando você implanta o arquivamento e pode ser configurada, mas não excluída. Se você selecionar a opção para excluir a configuração global, as configurações serão redefinidas para os valores padrão. Você pode criar várias configurações de site e de pool que, juntamente com a configuração global, configurações de arquivamento de controle. Para obter a configuração global e cada site e configuração de pool, você tem as seguintes opções:
 
-  - Desabilite o arquivamento, habilite o arquivamento somente para mensagens instantâneas (IM) ou habilite o arquivamento das mensagens instantâneas e das conferências.
+  - Desative o arquivamento, habilite o arquivamento somente para mensagens instantâneas (IM) ou habilite o arquivamento de mensagens instantâneas e de conferência.
 
-  - Configure o modo crítico para bloquear as mensagens instantâneas e as sessões de conferência no evento de uma falha do Lync Server. As falhas incluem o seguinte:
+  - Configurar o modo crítico para bloquear as sessões de mensagens instantâneas e de conferência no caso de uma falha do Lync Server. As falhas incluem o seguinte:
     
-      - **Mensagens instantâneas**. Um problema com o serviço de armazenamento do Lync Server. Neste caso, as mensagens instantâneas são bloqueadas para os usuários que estiverem habilitados para arquivamento.
+      - **Mensagem instantânea**. Um problema com o serviço de armazenamento do Lync Server. Nesse caso, IM fica bloqueado por usuários habilitados para Arquivamento.
     
-      - **Conferências**. Uma falha poderia ser um compartilhamento de arquivos indisponível ou um problema com o serviço de armazenamento. Neste caso, todas as conferências ativas hospedadas no pool no momento da falha serão alternadas para o modo restrito e novas conferências não poderão ser ativadas.
+      - **Conferência**. Uma falha poderia ser um compartilhamento de arquivos indisponível ou um problema com o serviço de armazenamento. Neste caso, todas as conferências ativas hospedadas no pool no momento da falha serão alternadas para o modo restrito e novas conferências não poderão ser ativadas.
     
     As mensagens instantâneas e conferências são recuperadas automaticamente após as falhas serem corrigidas.
 
-  - Especifique o uso da integração do Microsoft Exchange Server 2013 para utilizar o Exchange 2013 para armazenar os dados arquivados, em vez de configurar os bancos de dados do SQL Server separados para armazenar os dados de arquivamento do Lync Server 2013.
+  - Especifique o uso da integração do Microsoft Exchange Server 2013 para usar o Exchange 2013 para armazenamento de dados arquivados, em vez de configurar bancos de dados separados do SQL Server para armazenamento de dados de arquivamento do Lync Server 2013.
 
-  - Configure as opções de limpeza para os dados arquivados. Isso inclui especificar quando limpar os dados arquivados, que pode ser uma das opções a seguir:
+  - Configurar opções de limpeza para dados arquivados. Isso inclui especificar quando limpar dados arquivados, que podem ser um dos seguintes:
     
-      - Após um número de dias especifico que você especificou
+      - Após um número específico de dias que você especificar
     
-      - Após os dados de arquivamento terem sido exportados (o que inclui os dados que foram carregados para o Exchange, se você habilitar a integração do Microsoft Exchange).
+      - Após a exportação dos dados do arquivamento (que inclui dados que foram carregados no Exchange, se você habilitar a integração com o Microsoft Exchange).
     
+    <div>
+    
+
     > [!NOTE]  
-    > Se você habilitar a integração do Microsoft Exchange, a limpeza para os usuários hospedados no Exchange 2013 e que tiverem suas caixas de correio colocadas em bloqueio In-loco será controlada pelo Exchange. A única qualificação é para os arquivos de conferência, que estão armazenados no compartilhamento de arquivos do Lync Server. Esses arquivos são limpos a partir do compartilhamento de arquivos somente após os arquivos terem sido exportados (carregador para o Exchange), se você selecionar a opção para limpar os dados após os dados de arquivamento terem sido exportados ou após um número máximo de dias especificado, caso tenha especificado um número máximo de dias para retenção.
+    > Se você habilitar a integração do Microsoft Exchange, a limpeza para os usuários hospedados no Exchange 2013 e nas caixas de correio no bloqueio in-loco será controlada pelo Exchange. A única qualificação é para arquivos de conferência, que são armazenados no compartilhamento de arquivos do Lync Server. Esses arquivos são excluídos do compartilhamento de arquivo somente após serem exportados (carregados no Exchange), se você selecionar a opção para limpar os dados após a exportação dos dados de arquivamento ou após o número máximo de dias especificado, se você especificar um número máximo de dias para retenção.
 
-Por padrão, nenhuma opção de arquivamento está habilitada. Você pode gerenciar as configurações de arquivamento utilizando o Painel de Controle do Lync Server 2013.
+    
+    </div>
+
+Por padrão, nenhuma opção de arquivamento está habilitada. Você pode gerenciar as configurações de arquivamento usando o painel de controle do Lync Server 2013.
 
 Você pode especificar as seguintes configurações de arquivamento:
 
-  - **Configuração de arquivamento global**. Essa é a configuração de arquivamento padrão e se aplica a toda a sua implantação. Ela é criada quando você implanta o Lync Server 2013 e, por padrão, não habilita a função de arquivamento. É possível modificar a configuração global, mas não é possível excluí-la. Se você escolher excluir a opção para a configuração, a configuração global será redefinida para as configurações padrão.
+  - **Configuração de arquivamento global**. Esta é a configuração de arquivamento padrão e se aplica a toda a implantação. Ele é criado quando você implanta o Lync Server 2013 e, por padrão, não habilita a funcionalidade de arquivamento. Você pode modificar a configuração global, mas não pode excluí-la. Se você escolher a opção Excluir para a configuração, a configuração global será redefinida para as configurações padrão.
 
-  - **Configuração de arquivamento do site**. Opcionalmente, você pode configurar o arquivamento para um ou mais sites específicos criando e definindo uma configuração em nível de site para um site individual. Uma configuração de arquivamento em nível de site existe somente se você criá-la. É possível modificar e excluir qualquer configuração de arquivamento em nível de site. Uma configuração de arquivamento em nível de site substitui uma configuração global, mas somente para o site especificado na configuração em nível de site. Por exemplo, se você habilitar o arquivamento somente para as mensagens instantâneas na sua configuração global e criar uma configuração de site na qual você habilite o arquivamento para as mensagens instantâneas e conferências, as conferências serão somente arquivadas para o restante da sua organização.
+  - **Configuração**de arquivamento de sites. Opcionalmente, você pode configurar o arquivamento para um ou mais sites específicos criando e configurando uma configuração de arquivamento de nível de site para um site individual. Uma configuração de arquivamento no nível do site existe apenas se você criá-la. Você pode modificar ou excluir qualquer configuração de arquivamento no nível do site. Uma configuração de arquivamento em nível de site substitui a configuração global, mas somente para o site especificado na configuração no nível do site. Por exemplo, se você habilitar o arquivamento para apenas mensagens instantâneas em sua configuração global e criar uma configuração de site na qual você habilitou o arquivamento de mensagens instantâneas e de conferência, a conferência só seria arquivada para o site restante da sua organização.
 
-  - **Configuração de arquivamento do pool**. Opcionalmente, você pode especificar as configurações de arquivamento para um ou mais pools específicos criando e definindo uma configuração em nível de pool para um pool individual. Uma configuração de arquivamento em nível de pool existe somente se você criá-la. É possível modificar e excluir qualquer configuração de arquivamento em nível de pool. Uma configuração de arquivamento em nível de pool substitui uma configuração global e qualquer configuração de arquivamento de site que tiver sido criada. Por exemplo, se você habilitar o arquivamento somente para as mensagens instantâneas na sua configuração global, crie uma configuração em nível de site na qual você habilite o arquivamento para as mensagens instantâneas e conferências para o site e, então crie uma configuração em nível de pool na qual você habilite o arquivamento somente para as mensagens instantâneas, as comunicações devem ser arquivadas para mensagens instantâneas e conferências para todos os usuários do site, exceto para os usuários hospedados no pool especificado na configuração em nível de pool. Para todos os outros usuários na sua organização, o arquivamento deveria ser habilitado somente para mensagens instantâneas.
+  - **Configuração**de arquivamento de pool. Opcionalmente, você pode especificar configurações de arquivamento para um ou mais pools específicos, criando e configurando uma configuração de nível de pool para o pool individual. Uma configuração de arquivamento em nível de pool existe apenas se você criá-la. Você pode modificar e excluir qualquer configuração de arquivamento em nível de pool. Uma configuração de arquivamento em nível de pool substitui a configuração global e qualquer configuração de arquivamento de site que você tenha criado. Por exemplo, se você habilitar o arquivamento para apenas mensagens instantâneas em sua configuração global, crie uma configuração no nível do site na qual você habilitou o arquivamento de mensagens instantâneas e de conferência para o site e, em seguida, crie uma configuração no nível do pool na qual você habilitou o arquivamento somente para Mensagens instantâneas, as comunicações serão arquivadas para mensagens instantâneas e conferências para todos os usuários do site, exceto os usuários hospedados no pool especificado na configuração no nível do pool. Para todos os outros usuários da sua organização, o arquivamento seria habilitado somente para mensagens instantâneas.
 
-Para obter detalhes sobre como definir as configurações iniciais de arquivamento ao implantar o arquivamento, consulte [Configurando opções de arquivamento](lync-server-2013-configuring-archiving-options.md) na Documentação de implantação. Para obter detalhes sobre como utilizar as políticas de arquivamento para habilitar e desabilitar as comunicações após a implantação, consulte [Gerenciando opções de configuração do arquivamento no Lync Server 2013 para sua empresa, sites e pools](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md) na Documentação de operações.
+Para obter detalhes sobre como definir as configurações de arquivamento iniciais ao implantar o arquivamento, consulte Configurando [Opções de arquivamento no Lync Server 2013](lync-server-2013-configuring-archiving-options.md) na documentação de implantação. Para obter detalhes sobre como usar as políticas de arquivamento para habilitar e desabilitar comunicações após a implantação, consulte [Gerenciando opções de configuração de arquivamento no Lync Server 2013 para sua organização, sites e grupos](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md) na documentação de operações.
 
-## Opções de arquivamento disponíveis somente no Windows PowerShell
+</div>
 
-Utilizando o Shell de Gerenciamento do Lync Server 2013, você pode usar cmdlets para implementar as opções que não estão disponíveis no Painel de Controle do Lync Server 2013. Essas opções incluem o seguinte:
+<div>
 
-  - **Arquivar mensagens duplicadas**. Para obter detalhes, consulte [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration) e [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration) na Documentação de operações.
+## <a name="archiving-options-available-only-in-windows-powershell"></a>Opções de arquivamento disponíveis somente no Windows PowerShell
 
-  - **Exportar dados arquivados**. Para obter detalhes, consulte [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)
+Usando o Shell de gerenciamento do Lync Server 2013, você pode usar cmdlets para implementar as opções que não estão disponíveis no painel de controle do Lync Server 2013. Essas opções incluem o seguinte:
 
-## Como eu acesso os dados arquivados?
+  - **Arquivar mensagens duplicadas**. Para obter detalhes, consulte [New-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsArchivingConfiguration) e [set-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsArchivingConfiguration) na documentação de operações.
 
-O acesso aos dados arquivados depende de onde os dados estão armazenados:
+  - **Exportar dados arquivados**. Para obter detalhes, consulte [Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData)
 
-  - **Armazenamento do Microsoft Exchange**. Se você escolher a opção de integração do Exchange, o Lync Server depositará o conteúdo de arquivamento no armazenamento do Exchange 2013 para todos os usuários hospedados no Exchange 2013 e que tiveram suas caixas de correio colocadas em Retenção Local. Os dados arquivados são armazenados na pasta Itens recuperáveis das caixas de correio dos usuários, que geralmente é invisível pra os usuários e só pode ser pesquisada pelos usuários que tiverem uma função de Exchange**Gerenciamento de Descoberta**. O Exchange permite a pesquisa federada e a descoberta, junto com o SharePoint, se implantado. Para obter mais detalhes sobre armazenamento, retenção e descoberta de dados armazenados no Exchange, consulte a documentação do Exchange 2013 e do SharePoint.
+</div>
 
-  - **Arquivamento do Lync Server**. Se você configurar os bancos de dados de arquivamento do Lync Server 2013 para armazenamento dos dados do Lync Server, o conteúdo de arquivamento dos depósitos do Lync Server nos bancos de dados de arquivamento do Lync Server (bancos de dados do SQL Server) para quaisquer usuários que não estiverem hospedados no Exchange 2013 e que suas caixas de correio não tenham sido colocadas em bloqueio In-loco. Esses dados não podem ser pesquisados, mas eles podem ser exportados para formatos que podem ser pesquisados utilizando outras ferramentas. Para obter detalhes sobre a exportação de dados armazenados nos bancos de dados de arquivamento, consulte [Exportando dados arquivados do Lync Server 2013](lync-server-2013-exporting-archived-data.md) na Documentação de operações.
+</div>
 
-Para obter mais detalhes sobre como o Lync Server 2013 e o Exchange 2013 funcionam juntos, consulte [Suporte a Servidor Exchange e à integração com SharePoint no Lync Server 2013](lync-server-2013-exchange-and-sharepoint-integration-support.md) na Documentação de suporte.
+</div>
+
+<div>
+
+## <a name="how-do-i-access-archived-data"></a>Como faço para acessar dados arquivados?
+
+O acesso aos dados arquivados depende de onde eles estão armazenados:
+
+  - **Armazenamento do Microsoft Exchange**. Se você escolher a opção de integração do Exchange, o Lync Server deposita o conteúdo de arquivamento na loja do Exchange 2013 para todos os usuários que estão hospedados no Exchange 2013 e que tiveram suas caixas de correio colocadas no bloqueio in-loco. Os dados arquivados são armazenados na pasta de itens recuperáveis de caixas de correio do usuário, o que geralmente é invisível para os usuários e só pode ser pesquisado por usuários com uma função de **Gerenciamento de descoberta** do Exchange. O Exchange permite pesquisa e descoberta federada, juntamente com o SharePoint, se estiver implantado. Para obter mais detalhes sobre armazenamento, retenção e descoberta de dados armazenados no Exchange, consulte a documentação do Exchange 2013 e do SharePoint.
+
+  - **Armazenamento do Lync Server**. Se você configurar bancos de dados de arquivamento do Lync Server 2013 para armazenamento de dados do Lync Server, os depósitos do Lync Server armazenarão conteúdo nos bancos de dados de arquivamento do Lync Server (bancos de dados do SQL Server) para qualquer usuário que não seja hospedado no Exchange 2013 e que não tenham suas caixas de correio colocadas em Bloqueio in-loco. This data is not searchable, but it can be exported to formats that are searchable using other tools. Para obter detalhes sobre como exportar dados armazenados em bancos de dados de arquivamento, consulte Exportando [dados arquivados do Lync Server 2013](lync-server-2013-exporting-archived-data.md) na documentação de operações.
+
+Para obter mais detalhes sobre como o Lync Server 2013 e o Exchange 2013 trabalham juntos, consulte [suporte à integração do Exchange Server e do SharePoint no Lync server 2013](lync-server-2013-exchange-and-sharepoint-integration-support.md) na documentação de suporte.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

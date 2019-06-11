@@ -1,29 +1,51 @@
-﻿---
-title: "Lync Server 2013: Pré-requisitos e permissões de config. de confer. discada"
-TOCTitle: Pré-requisitos e permissões de configuração de conferência discada
-ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412865(v=OCS.15)
-ms:contentKeyID: 49307841
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Pré-requisitos e permissões de configuração de conferência discada
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Dial-in conferencing configuration prerequisites and permissions
+ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412865(v=OCS.15)
+ms:contentKeyID: 48185165
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a60fc58e0ec40dadff044257d43629c2f3cb01ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829407"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Pré-requisitos e permissões de configuração de conferência discada no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-06-20_
+# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Pré-requisitos e permissões de configuração de conferência discada no Lync Server 2013
 
-A conferência discada é um componente opcional da carga de trabalho de Conferência do Lync Server 2013. Os componentes que você precisa instalar para poder configurar a conferência discada são implantados quando a Construtor de Topologias para projetar a topologia e configurar o pool de Front-Ends ou o servidor Standard Edition. Este tópico descreve o que você precisa fazer para poder configurar a conferência discada.
+</div>
 
-Esta seção supõe que você leu as seções de planejamento relacionadas à carga de trabalho Conferência e conferência discada em particular.
+<div id="mainSection">
 
-## Pré-requisitos de configuração de conferência discada
+<div id="mainBody">
 
-A conferência discada exige os seguintes componentes do Lync Server 2013:
+<span> </span>
 
-  - UCAS (Unified Communications Application Service) (chamado de *Serviço de Aplicativo* )
+_**Tópico da última modificação:** 2012-06-20_
+
+A conferência discada é um componente opcional da carga de trabalho de conferência do Lync Server 2013. Os componentes que você precisa instalar antes de configurar a conferência discada são implantados quando você usa o construtor de topologias para criar sua topologia e, em seguida, configurar seu pool de front-end ou o servidor Standard Edition. Este tópico descreve o que você precisa ter feito antes de poder configurar a conferência discada.
+
+Esta seção pressupõe que você tenha lido as seções de planejamento relacionadas à carga de trabalho de conferência e conferência discada em particular.
+
+<div>
+
+## <a name="dial-in-conferencing-configuration-prerequisites"></a>Pré-requisitos de configuração da conferência discada
+
+A conferência discada requer os seguintes componentes do Lync Server 2013:
+
+  - UCAS (Unified Communications Application Service) (chamado de *Serviço de aplicativos*)
 
   - Aplicativo Atendedor de Conferência
 
@@ -31,55 +53,95 @@ A conferência discada exige os seguintes componentes do Lync Server 2013:
 
   - Página da Web Configurações de Conferência Discada
 
-  - Pelo menos um Servidor de mediação do Lync Server 2013 e pelo menos um gateway PSTN
+  - Pelo menos um servidor de mediação do Lync Server 2013 e pelo menos um gateway PSTN
 
-Você implanta esses componentes quando usa o Construtor de Topologias para definir e publicar sua topologia e implanta um pool Front-End ou um servidor Standard Edition. Se você estiver implantando o Enterprise Voice, deverá implantá-lo antes de configurar a conferência discada. Se você não estiver implantando o Enterprise Voice, poderá implantar um Servidor de mediação e um gateway PSTN (Rede Telefônica Comutada Pública) ao implantar seu pool Front-End ou servidor Standard Edition.
+Você implanta esses componentes quando usa o construtor de topologias para definir e publicar sua topologia e, em seguida, implantar um pool de front-ends ou um servidor Standard Edition. Se você estiver implantando o Enterprise Voice, deve implantá-lo antes de configurar a conferência discada. Se você não estiver implantando o Enterprise Voice, poderá implantar um servidor de mediação e um gateway PSTN (rede telefônica pública comutada) ao implantar seu pool de front-end ou o servidor Standard Edition.
 
-> [!NOTE]  
-> Se você estiver atualizando a partir do Office Communications Server 2007 R2 para o Lync Server 2013, implante a conferência discada em cada pool que você planeja usar para hospedar conferências do Lync Server 2013. Para obter detalhes sobre como migrar conferências discadas, consulte <a href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Migração do Office Communications Server 2007 R2 para Lync Server 2013</a>.
+<div>
 
-Esta seção supõe que você fez o seguinte:
 
-  - Aplicou as atualizações mais recentes no seu ambiente do Office Communications Server 2007 R2, se estiver migrando para o Lync Server 2013.
+> [!NOTE]
+> Se você estiver atualizando do Office Communications Server 2007 R2 para o Lync Server 2013, implante a conferência discada em todos os pools que planeja usar para hospedar conferências do Lync Server 2013. Para obter detalhes sobre a migração de conferência discada, consulte <A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">migração do Office Communications Server 2007 R2 para o Lync server 2013</A>.
 
-  - Usou o Construtor de Topologias para projetar e configurar sua topologia. Durante a especificação da carga de trabalho Conferência, você selecionou a opção de conferência discada. Para obter detalhes sobre como definir sua topologia, consulte [Definindo e configurando a topologia no Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md) na documentação Implantação.
 
-  - Publicou sua topologia e configurou o pool Front-End ou servidor Standard Edition. Para obter detalhes sobre como publicar a topologia e instalar o Lync Server 2013, consulte [Implantando o Lync Server 2013](lync-server-2013-deploying-lync-server.md) na documentação Implantação.
+
+</div>
+
+Esta seção pressupõe que você tenha feito o seguinte:
+
+  - Aplicadas as atualizações mais recentes para o seu ambiente do Office Communications Server 2007 R2, se você estiver migrando para o Lync Server 2013.
+
+  - Usou o construtor de topologias para projetar e configurar sua topologia. Ao especificar a carga de trabalho de conferência, você selecionou a opção de conferência discada. Para obter detalhes sobre como definir sua topologia, consulte [definindo e configurando a topologia no Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md) na documentação de implantação.
+
+  - Publicou sua topologia e configurar o pool de front-end ou o servidor Standard Edition. Para obter detalhes sobre como publicar a topologia e instalar o Lync Server 2013, consulte [implantação do Lync server 2013](lync-server-2013-deploying-lync-server.md) na documentação de implantação.
     
-    > [!NOTE]  
-    > Ao instalar sua topologia publicada, a página da Web Configurações de Conferência Discada é instalada no servidor Front-End ou servidor Standard Edition como parte dos Serviços da Web.    
-    > [!IMPORTANT]  
-    > Se você alterar o caminho para o Repositório de Arquivos em Construtor de Topologias após a implantação do Lync Server 2013, será necessário reiniciar os aplicativos Atendedor de Conferência e Anúncio de Conferência para usar o novo caminho.
+    <div>
+    
 
-  - Implantou o Enterprise Voice. Se não estiver implantando o Enterprise Voice, você terá implantado um Servidor de mediação no servidor Front-End Enterprise Edition ou servidor Standard Edition, ou terá implantado um Servidor de mediação autônomo e um gateway PSTN. Para obter detalhes sobre como implantar o Enterprise Voice, consulte [Implantando o Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) na documentação Implantação. Para obter detalhes sobre como instalar um Servidor de mediação autônomo e um gateway PSTN, consulte [Implantando Servidores de Mediação e definindo pares no Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) na documentação Implantação.
+    > [!NOTE]
+    > Quando você instala sua topologia publicada, a página da Web configurações de conferência discada é instalada no servidor front-end ou no servidor Standard Edition como parte dos serviços Web.
 
-O fluxograma a seguir mostra as etapas que devem ser executadas antes de você poder configurar a conferência discada e as etapas executadas para configurar a conferência discada.
+    
+    </div>
+    
+    <div>
+    
 
-**Implantando a conferência discada**
+    > [!IMPORTANT]
+    > Se você alterar o caminho para o repositório de arquivos no construtor de topologias depois de implantar o Lync Server 2013, será necessário reiniciar o atendedor de conferências e os aplicativos de anúncio de conferência para usar o novo caminho.
 
-![Implantação de conferência discada](images/Gg412865.fde8c246-b5ed-4323-a6e7-af1983a5ec86(OCS.15).jpg "Implantação de conferência discada")
+    
+    </div>
 
-## Permissões de conferência discada
+  - Enterprise Voice implantado. Se não estiver implantando o Enterprise Voice, você colocaria um servidor de mediação no servidor front-end do Enterprise Edition ou do servidor Standard Edition ou implantou um servidor de mediação autônomo e implantou um gateway PSTN. Para obter detalhes sobre a implantação do Enterprise Voice, consulte [implantação do Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) na documentação de implantação. Para obter detalhes sobre como instalar um servidor autônomo de mediação e um gateway PSTN, consulte [implantação de servidores de mediação e definição de pares no Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) na documentação de implantação.
 
-Para configurar a conferência discada, é necessário usar as seguintes ferramentas administrativas:
+O fluxograma a seguir mostra as etapas que você deve executar antes de poder configurar a conferência discada e as etapas que você executa para configurar a conferência discada.
+
+**Implantando conferência discada**
+
+![Fluxograma de implantação de conferência discada] (images/Gg412865.fde8c246-b5ed-4323-a6e7-af1983a5ec86(OCS.15).jpg "Fluxograma de implantação de conferência discada")
+
+</div>
+
+<div>
+
+## <a name="dial-in-conferencing-permissions"></a>Permissões de conferência discada
+
+Para configurar a conferência discada, você precisará usar as seguintes ferramentas administrativas:
 
   - Painel de Controle do Lync Server 2013
 
   - Shell de Gerenciamento do Lync Server
 
-Use essas ferramentas administrativas para definir as configurações de conferência discada e os planos, políticas e outras configurações de discagem exigidas pela conferência discada.
+Use essas ferramentas administrativas para configurar as configurações de conferência discada e os planos de discagem, as políticas e outras configurações necessárias para a conferência discada.
 
-A configuração de uma conferência discada exige qualquer uma das funções administrativas a seguir, dependendo da tarefa:
+A configuração da conferência discada requer qualquer uma das seguintes funções administrativas, dependendo da tarefa:
 
-  - **CsVoiceAdministrator**   Essa função de administrador pode criar, configurar e gerenciar configurações e políticas relacionadas a voz.
+  - **CsVoiceAdministrator**   essa função de administrador pode criar, configurar e gerenciar configurações e políticas relacionadas à voz.
 
-  - **CsUserAdministrator**   Essa função de administrador pode habilitar e desabilitar usuários para o Lync Server e atribuir políticas existentes, como políticas de conferência e políticas de PIN, aos usuários.
+  - **CsUserAdministrator**   essa função de administrador pode habilitar e desabilitar usuários do Lync Server e atribuir políticas existentes, como políticas de conferência e políticas de PIN, a usuários.
 
-  - **CsAdministrator**   Essa função de administrador pode executar todas as tarefas de CsVoiceAdministrator e CsUserAdministrator.
+  - **CsAdministrator**   essa função de administrador pode executar todas as tarefas do CsVoiceAdministrator e do CsUserAdministrator.
 
-## Consulte Também
+</div>
 
-#### Conceitos
+<div>
 
-[Implantando o Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)
+## <a name="see-also"></a>Confira também
+
+
+[Implantando o Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

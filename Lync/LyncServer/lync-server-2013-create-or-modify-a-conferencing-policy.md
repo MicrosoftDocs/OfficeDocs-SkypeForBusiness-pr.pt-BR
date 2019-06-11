@@ -1,48 +1,76 @@
-﻿---
-title: Criar ou Modificar uma Política de Conferência no Lync Server 2013
-TOCTitle: Criar ou Modificar uma Política de Conferência no Lync Server 2013
-ms:assetid: e2974030-2c0a-4634-91e8-93f4e2d674d9
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721910(v=OCS.15)
-ms:contentKeyID: 49886448
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: criar ou modificar uma política de conferência'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a conferencing policy
+ms:assetid: e2974030-2c0a-4634-91e8-93f4e2d674d9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721910(v=OCS.15)
+ms:contentKeyID: 49733844
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 898ffb4473fadd4470ef7e1559fa3cc0c54185c6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829810"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Criar ou Modificar uma Política de Conferência no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-07_
+# <a name="create-or-modify-a-conferencing-policy-in-lync-server-2013"></a>Criar ou modificar uma política de conferência no Lync Server 2013
 
-Siga estas etapas para criar uma política de conferência no nível do usuário ou no nível do site. Para detalhes sobre como atribuir uma política no nível do usuário, consulte [Atribuir uma política de conferência por usuário](lync-server-2013-assign-a-per-user-conferencing-policy.md). Para obter uma lista de todas as configurações da política de conferência disponível, consulte [Referência das configurações da política de conferência para Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
+</div>
 
-## Para criar uma nova política de usuário ou site
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-07_
+
+Siga estas etapas para criar uma política de conferência em nível de usuário ou em nível de site. Para obter detalhes sobre como atribuir uma política de nível de usuário a um usuário, consulte [atribuir uma política de conferência por usuário no Lync Server 2013](lync-server-2013-assign-a-per-user-conferencing-policy.md). Para obter uma lista de todas as configurações de política de conferência disponíveis, consulte [referência de configurações de política de conferência para o Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
+
+<div>
+
+## <a name="to-create-a-new-user-or-site-policy"></a>Para criar uma nova política de usuário ou de site
 
 1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação esquerda, clique em **Conferência** e em **Política de conferência**.
+3.  Na barra de navegação à esquerda, clique em **conferência** e, em seguida, clique em **política de conferência**.
 
 4.  Clique em **Novo** e execute uma das seguintes ações:
     
       - Para criar uma política de nível de usuário, clique em **Política de usuário**. Em **Nova Política de Conferências**, em **Nome**, digite um nome descritivo para a política.
     
-      - Para criar uma política de nível de site, clique em **Política de site**. No campo de pesquisa **Selecione um Site**, digite todo ou parte do nome do site para o qual deseja criar uma política. Na lista de sites, clique no site que deseja e em **OK**.
+      - Para criar uma política de nível de site, clique em **Política de site**. No campo de pesquisa **Selecionar um Site**, digite todo ou parte do nome do site para o qual você deseja criar uma política. Na lista de sites, clique no site que você deseja e clique em **OK**.
         
+        <div>
+        
+
         > [!NOTE]  
-        > O nome do site se tornará o nome da política de conferências e não poderá ser alterado.
+        > O nome do site se torna o nome da política de conferência e não pode ser alterado.
+
+        
+        </div>
 
 5.  Em **Descrição**, digite uma descrição para a política.
 
-6.  Sob **Política do Organizador**, em **Tamanho máximo de reuniões**, digite o número máximo de usuários que deseja permitir em uma reunião. Por padrão, o tamanho máximo de reuniões é 250.
+6.  Em **Política do Organizador**, em **Tamanho máximo de reuniões**, digite o número máximo de usuários que deseja permitir em uma reunião. Por padrão, o tamanho máximo de reuniões é 250.
 
-7.  Para impedir que usuários convidem usuários anônimos para reuniões, desmarque a opção **Permitir que participantes convidem usuários anônimos**. Usuários anônimos são usuários que não possuem credenciais no Serviços de Domínio Active Directory da sua organização e que, portanto, não são autenticados. Por padrão, usuários podem convidar usuários anônimos para reuniões.
+7.  Para impedir que usuários convidem usuários anônimos para reuniões, desmarque a opção **Permitir que participantes convidem usuários anônimos**. Usuários anônimos são usuários que não têm credenciais nos serviços de domínio do Active Directory da sua organização e quem, portanto, não são autenticados. Por padrão, usuários podem convidar usuários anônimos para reuniões.
 
 8.  Em **Gravação**, execute um dos seguintes procedimentos:
     
-      - Para impedir que os participantes gravem reuniões, clique em **Nenhuma**. Esta é a configuração padrão.
+      - Para impedir que os participantes gravem reuniões, clique em **Nenhuma**. Essa é a configuração padrão.
     
       - Para permitir que os participantes gravem reuniões, clique em **Habilitar gravação**.
 
@@ -62,13 +90,13 @@ Siga estas etapas para criar uma política de conferência no nível do usuário
     
       - Se for permitido que usuários disquem para reuniões e você desejar permitir que usuários não autenticados (anônimos) entrem em reuniões usando dial out phoning, selecione a opção **Permitir que participantes anônimos façam chamadas**. Com o dial-out phoning, o servidor de conferências faz uma chamada para o usuário e o usuário atende o telefone para e entrar na reunião. Por padrão, usuários anônimos não podem entrar em uma reunião usando dial-out phoning.
 
-12. Se você escolher permitir o uso de vídeo em **Áudio/vídeo**, marque **Permitir vários fluxos de vídeo** .
+12. Se você optou por permitir o uso de vídeo em **áudio/vídeo**, marque **permitir vários fluxos de vídeo** .
 
 13. Em **Colaboração de Dados**, execute um dos seguintes procedimentos:
     
       - Para impedir a colaboração de dados, clique em **Nenhuma**.
     
-      - Para permitir a colaboração de dados, clique em **Habilitar colaboração de dados**. Esta é a configuração padrão.
+      - Para permitir a colaboração de dados, clique em **Habilitar colaboração de dados**. Essa é a configuração padrão.
 
 14. Se você optar por permitir a colaboração de dados em **Colaboração de Dados**, execute o seguinte procedimento:
     
@@ -76,7 +104,7 @@ Siga estas etapas para criar uma política de conferência no nível do usuário
     
       - Para impedir transferências de arquivos, desmarque a opção **Permitir que participantes transfiram arquivos**. Por padrão, os usuários podem transferir arquivos.
     
-      - Para impedir o uso de anotações, desmarque a opção **Habilitar anotações**. Para usar as anotações em apresentações do PowerPoint compartilhadas, marque **Habilitar anotações do PowerPoint**. Por padrão, as anotações são permitidas.
+      - Para impedir o uso de anotações, desmarque a opção **Habilitar anotações**. Para o uso de anotações nas apresentações do PowerPoint de fragmentos, desmarque a guia **habilitar anotações do PowerPoint**. Por padrão, as anotações são permitidas.
     
       - Para impedir o uso de votações, desmarque a opção **Habilitar votações**. Por padrão, votações são permitidas.
 
@@ -108,17 +136,33 @@ Siga estas etapas para criar uma política de conferência no nível do usuário
 
 21. Clique em **Confirmar**.
 
-## Para modificar uma política de usuário ou de site existente
+</div>
+
+<div>
+
+## <a name="to-modify-an-existing-user-or-site-policy"></a>Para modificar uma política de usuário ou de site existente
 
 1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação esquerda, clique em **Conferência** e em **Política de conferência**.
+3.  Na barra de navegação à esquerda, clique em **conferência** e, em seguida, clique em **política de conferência**.
 
-4.  Na lista de políticas de conferência, clique na política que deseja alterar, em **Editar** e em **Excluir**.
+4.  Na lista de políticas de conferência, clique na política que deseja alterar, em **Editar** e em **Mostrar detalhes**.
 
 5.  Em **Editar Política de Conferências**, modifique qualquer uma das configurações de política, exceto seu nome, que não pode ser modificado.
 
 6.  Clique em **Confirmar**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

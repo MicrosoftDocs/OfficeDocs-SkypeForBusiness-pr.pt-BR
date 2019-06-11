@@ -1,26 +1,55 @@
-﻿---
-title: 'Lync Server 2013: Implantando controle de chamada remota'
-TOCTitle: Implantando controle de chamada remota
-ms:assetid: 763037f7-7a2a-49ae-acc3-9781b0bff7e0
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558664(v=OCS.15)
-ms:contentKeyID: 49307148
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Implantando controle de chamada remota'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying remote call control
+ms:assetid: 763037f7-7a2a-49ae-acc3-9781b0bff7e0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558664(v=OCS.15)
+ms:contentKeyID: 48184536
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8583a8f2e8c95ce9b12ad19d8a8e5369ba756ddd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829526"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Implantando controle de chamada remota no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-20_
+# <a name="deploying-remote-call-control-in-lync-server-2013"></a>Implantando controle de chamada remota no Lync Server 2013
 
-Esta seção fornece orientações para o processo de implantação da funcionalidade de controle de chamada remota para usuários da sua organização.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-20_
+
+Esta seção orienta você no processo de implantação da funcionalidade de controle de chamada remota para os usuários da sua organização.
+
+<div>
+
 
 > [!NOTE]  
-> Embora os recursos de controle de chamada remota estejam disponíveis aos usuários remotos enquanto estão fora do firewall da organização, os detalhes sobre a implantação de cenários de acesso externo estão fora do escopo desta documentação. Para obter detalhes sobre como implantar o acesso de usuário externo, consulte <a href="lync-server-2013-deploying-external-user-access.md">Implantação de acesso do usuário externo no Lync Server 2013</a> na documentação de Implantação.
+> Embora os recursos de controle de chamada remota estejam disponíveis para usuários remotos enquanto estiverem fora do firewall da sua organização, os detalhes sobre a implantação de cenários de acesso externo estão fora do escopo desta documentação. Para obter detalhes sobre a implantação de acesso a usuários externos, consulte Implantando o <A href="lync-server-2013-deploying-external-user-access.md">acesso de usuários externos no Lync Server 2013</A> na documentação de implantação.
 
-## Nesta seção
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Configurando o Lync Server 2013 para rotear para um gateway SIP/CSTA](lync-server-2013-configuring-lync-server-to-route-to-a-sip-csta-gateway.md)
 
@@ -28,15 +57,31 @@ Esta seção fornece orientações para o processo de implantação da funcional
 
   - [Configurar uma entrada de aplicativo confiável para controle de chamada remota no Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
 
-  - [Definir um endereço SIP de gateway SIP/CSTA no Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md) (somente se o gateway for configurado para usar TCP)
+  - [Definir um endereço IP do gateway SIP/CSTA no Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md) (somente se o gateway estiver configurado para usar TCP)
 
   - [Habilitar usuários do Lync para controle de chamada remota no Lync Server 2013](lync-server-2013-enable-lync-users-for-remote-call-control.md)
 
   - [Normalização de controle de chamada remota e de número de telefone no Lync Server 2013](lync-server-2013-remote-call-control-and-phone-number-normalization.md)
 
-  - [Remover um host autorizado herdado no Lync Server 2013 (opcional)](lync-server-2013-remove-a-legacy-authorized-host-optional.md) (somente se você migrar usuários habilitados anteriormente para o controle de chamada remota)
+  - [Remover um host autorizado herdado do Lync Server 2013 (opcional)](lync-server-2013-remove-a-legacy-authorized-host-optional.md) (somente se você estiver migrando usuários anteriormente habilitados para controle de chamada remota)
 
-## Seções relacionadas
+</div>
 
-[Planejamento de controle de chamada remota no Lync Server 2013](lync-server-2013-planning-for-remote-call-control.md)
+<div>
+
+## <a name="related-sections"></a>Seções Relacionadas
+
+[Planejando o controle de chamada remota no Lync Server 2013](lync-server-2013-planning-for-remote-call-control.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,27 +1,61 @@
-﻿---
-title: Criar ou modificar um intervalo numérico de recebimento de chamadas em grupo
-TOCTitle: Criar ou modificar um intervalo numérico de recebimento de chamadas em grupo
-ms:assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ945627(v=OCS.15)
-ms:contentKeyID: 52057601
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: criar ou modificar um intervalo de números de tira de chamada em grupo'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a Group Call Pickup number range
+ms:assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945627(v=OCS.15)
+ms:contentKeyID: 51541472
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9a82f9cdc02052bf08dba3e9529871eff2b01211
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829807"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Criar ou modificar um intervalo numérico de recebimento de chamadas em grupo
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-01-30_
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>Create or modify a Group Call Pickup number range in Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-01-30_
 
 Utilize o procedimento a seguir para criar ou modificar o intervalo de números de um grupo de atendimento de chamadas na tabela de órbita de estacionamento de chamadas.
 
+<div>
+
+
 > [!NOTE]  
-> Você precisa utilizar Shell de Gerenciamento do Lync Server para criar, modificar, remover e visualizar intervalos de números de atendimento de chamadas em grupo na tabela de órbita de estacionamento de chamadas. Intervalos de números de atendimento de chamadas em grupo não estão disponíveis em Painel de Controle do Lync Server.
+> Você deve usar o Shell de gerenciamento do Lync Server para criar, modificar, remover e exibir os intervalos de números de retirada de chamadas em grupo na tabela órbita do estacionamento de chamada. Os intervalos de números de retirada de chamadas em grupo não estão disponíveis no painel de controle do Lync Server.
+
+
+
+</div>
+
+<div>
+
 
 > [!IMPORTANT]  
-> É preciso atribuir ao intervalo de números de grupo de atendimento de chamadas o tipo GroupPickup. Usuários são habilitados para o atendimento de chamadas em grupo somente se o número de grupo a que foram atribuídos for do tipo GroupPickup.
+> O intervalo de números do grupo de recebimento de chamadas deve receber um tipo de GroupPickup. Os usuários são habilitados para o recebimento de chamadas em grupo apenas se o número do grupo ao qual eles estão atribuídos for o tipo GroupPickup.
+
+
+
+</div>
 
 Os intervalos de números de grupo de atendimento de chamadas precisam estar de acordo com as regras a seguir:
 
@@ -31,15 +65,17 @@ Os intervalos de números de grupo de atendimento de chamadas precisam estar de 
 
   - O intervalo de números precisa ser exclusivo. Esse intervalo não pode se sobrepor a nenhum outro intervalo.
 
-  - Se o intervalo de números começar com o caractere \* ou \#, o intervalo deverá ser maior do que 100.
+  - Se o intervalo de números começar com o \* caractere \#ou, o intervalo deve ser maior do que 100.
 
-  - Valores válidos: precisa corresponder à cadeia de caracteres de expressão regular (\[\\\*|\#\]?\[1-9\]\\d{0,7})|(\[1-9\]\\d{0,8}). Isso significa que o valor deve ser uma cadeia de caracteres começando com o caractere \* ou \# ou um número de 1 a 9 (o primeiro caractere não pode ser zero). Se o primeiro caractere é \* ou \#, o caractere seguinte deve ser um número de 1 a 9 (não pode ser zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo, "\#6000", "\*92000", "\*95551212" e "915551212"). Se o primeiro caractere não é \* ou \#, deve ser um número de 1 a 9 (não pode ser zero), seguido por oito caracteres, cada um com número de 0 a 9 (por exemplo: "915551212", "41212", "300").
+  - Valores válidos: devem corresponder à cadeia de caracteres de\[\\\*|\#\]expressão\[ regular (? 1-9\]\\d{0,7}) | (\[1-9\]\\d{0,8}). Isso significa que o valor deve ser uma cadeia de caracteres que comece \* com \# o caractere ou ou um número de 1 a 9 (o primeiro caractere não pode ser zero). Se o primeiro caractere for \* ou \#, o seguinte caractere deve ser um número de 1 a 9 (não pode ser zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo\#, "6000"\*, "92000"\*, "95551212" e "915551212"). Se o primeiro caractere não \* for ou \#, o primeiro caractere deve ser um número de 1 a 9 (não pode ser zero), seguido por até oito caracteres, cada um dos números de 0 a 9 (por exemplo, "915551212", "41212", "300").
 
-## Para criar ou modificar um intervalo de grupo de atendimento de chamadas
+<div>
 
-1.  Faça logon no computador onde o Shell de Gerenciamento do Lync Server está instalado como um membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [Delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+## <a name="to-create-or-modify-a-call-pickup-group-range"></a>Para criar ou modificar um intervalo de grupo de atendimento de chamadas
 
-2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+1.  Faça logon no computador em que o Shell de gerenciamento do Lync Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [permissões de configuração de representante no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+
+2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
 
 3.  Use o **New-CsCallParkOrbit** para criar um novo intervalo de números de grupo de atendimento de chamadas. Use o **Set-CsCallParkOrbit** para modificar um intervalo existente de números de atendimento de chamadas.
     
@@ -55,17 +91,38 @@ Os intervalos de números de grupo de atendimento de chamadas precisam estar de 
     
         Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Use esse cmdlet para mudar o tipo atribuído aos intervalos de números somente se você tiver especificado inicialmente o tipo incorreto e somente caso o intervalo de grupo ainda não esteja em uso. Se você alterar o intervalo de números de CallPark para GroupPickup ou vice-versa e o intervalo de números já estiver em uso, o estacionamento de chamada ou o atendimento de chamada em grupo irá parar de funcionar para aquele intervalo de números. Por exemplo, se você alterar um intervalo de números de CallPark para GroupPick, o Aplicativo de Estacionamento de Chamada não poderá mais utilizar aquele intervalo de órbitas para estacionar chamadas.
+    > Use esse cmdlet para mudar o tipo atribuído aos intervalos de números somente se você tiver especificado inicialmente o tipo incorreto e somente caso o intervalo de grupo ainda não esteja em uso. Se você alterar o intervalo de números de CallPark para GroupPickup ou vice-versa e o intervalo de números já estiver em uso, o estacionamento de chamada ou o atendimento de chamada em grupo irá parar de funcionar para aquele intervalo de números. Por exemplo, se você alterar um intervalo de números de CallPark para GroupPick, o aplicativo de estacionamento de chamadas não poderá mais usar esse intervalo de órbitas para estacionar chamadas.
 
-## Consulte Também
+    
+    </div>
 
-#### Tarefas
+</div>
 
-[Excluir um intervalo de órbita de estacionamento de chamada no Lync Server 2013](lync-server-2013-delete-a-call-park-orbit-range.md)  
+<div>
 
-#### Outros Recursos
+## <a name="see-also"></a>Confira também
 
-[New-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCallParkOrbit)  
-[Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit)
+
+[Excluir uma faixa de opções do parque de chamadas no Lync Server 2013](lync-server-2013-delete-a-call-park-orbit-range.md)  
+
+
+[New-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/New-CsCallParkOrbit)  
+[Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

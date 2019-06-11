@@ -1,39 +1,61 @@
-﻿---
-title: 'Lync Server 2013: Resumo de DNS - Proxy reverso'
-TOCTitle: Resumo de DNS - Proxy reverso
-ms:assetid: 3073affa-4d92-4453-9974-3a82ca0c6445
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204781(v=OCS.15)
-ms:contentKeyID: 49306284
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Resumo de DNS - Proxy reverso'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS summary - Reverse proxy
+ms:assetid: 3073affa-4d92-4453-9974-3a82ca0c6445
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204781(v=OCS.15)
+ms:contentKeyID: 48183755
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 47606fe71b271e01cc7fbefbcf319a2efe93f478
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829348"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumo de DNS - Proxy reverso no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="dns-summary---reverse-proxy-in-lync-server-2013"></a>Resumo de DNS - Proxy reverso no Lync Server 2013
 
-Você configura dois adaptadores de rede em seu proxy reverso como a seguir:
+</div>
 
-## Requisitos do Adaptador de Rede do Proxy Reverso
+<div id="mainSection">
 
-  - Exemplo do **Adaptador de rede 1 (interface interna)**
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-03-22_
+
+Você configura dois adaptadores de rede no seu proxy reverso da seguinte maneira:
+
+<div>
+
+## <a name="reverse-proxy-network-adapter-requirements"></a>Requisitos do adaptador de rede proxy reverso
+
+  - Exemplo **de adaptador de rede 1 (interface interna)**
     
     Interface interna com 172.25.33.40 atribuído.
     
-    Nenhum gateway padrão é definido.
+    Não há nenhum gateway padrão definido.
     
-    Certifique-se de que há uma rota para a rede contendo a interface interna do proxy reverso para qualquer rede que contém os servidores do Lync Server  Pool de Front-Ends (por exemplo, de 172.25.33.0 para 192.168.10.0).
+    Verifique se há uma rota da rede que contém a interface interna de proxy inverso para qualquer rede que contenha servidores de pool de front-end do Lync Server (por exemplo, de 172.25.33.0 para 192.168.10.0).
 
-  - Exemplo do **Adaptador de rede 2 (interface externa)**
+  - Exemplo **de adaptador de rede 2 (interface externa)**
     
-    Um mínimo de um endereço IP público é atribuído a este adaptador de rede.
+    Um mínimo de um endereço IP público é atribuído a esse adaptador de rede.
     
-    O gateway é definido para o ponto do roteador ou firewall integrado em seu perímetro externo. (10.45.16.1 nos exemplos de cenário)
+    O gateway é definido para apontar para o roteador ou o firewall integrado em seu perímetro externo. (10.45.16.1 nos exemplos de cenário)
 
-### Registros DNS necessários para proxy inverso
+### <a name="dns-records-required-for-reverse-proxy"></a>Registros DNS necessários para proxy reverso
 
 <table>
 <colgroup>
@@ -44,54 +66,69 @@ Você configura dois adaptadores de rede em seu proxy reverso como a seguir:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Local/TIPO/Porta</th>
+<th>Local/tipo/porta</th>
 <th>FQDN</th>
 <th>Endereço IP</th>
-<th>Mapear para/comentários</th>
+<th>Mapas para/comentários</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>DNS/A externo</p></td>
 <td><p>webext.contoso.com</p></td>
-<td><p>Ouvidor atribuído para recursos publicados externamente</p></td>
-<td><p>Serviços da Web externos da implantação interna. Registros adicionais podem ser definidos e criados para todos os pools e servidores únicos para qualquer domínio SIP que usará este proxy reverso e tenha os serviços da Web externos definidos.</p></td>
+<td><p>Ouvinte atribuído para recursos publicados externamente</p></td>
+<td><p>Serviços Web externos da implantação interna. Registros adicionais podem ser definidos e criados para todos os pools e servidores individuais para qualquer domínio SIP que usará esse proxy reverso e definido serviços Web externos.</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS/A externo</p></td>
 <td><p>webdirext.contoso.com</p></td>
-<td><p>Ouvidor atribuído para recursos publicados externamente</p></td>
-<td><p>Serviços da Web externos para o Diretores ou pools do Diretor em sua implantação. É possível definir o máximo de Diretores possível que sejam Diretoresdistintos, nos quais podem ser associados com outros domínios SIP.</p>
+<td><p>Ouvinte atribuído para recursos publicados externamente</p></td>
+<td><p>Serviços Web externos para os directors ou pools de directors na sua implantação. Você pode definir tantos diretores quantos são diferentes diretores, que podem estar associados a outros domínios SIP.</p>
+<div>
 
 > [!IMPORTANT]  
-> Definindo os registros DNS e publicando o Diretores não é o pool de Front-End ou a decisão do Diretor. Você deve definir e publicar o Diretor e os serviços da Web externos do Pool de Front-Ends se estiver usando o Diretores. Tipos de tráfego específicos (para autenticação e outras utilizações) serão enviados para o Diretor primeiro, se estiver definido na topologia.
+> A definição dos registros de DNS para e a publicação dos directors não é o pool de front-end ou a decisão do diretor. Você deve definir e publicar os serviços Web externos do diretor e do pool de front-end se estiver usando directors. Tipos de tráfego específicos (para autenticação e outros usos) serão enviados ao diretor primeiro, se ele for definido na topologia.
 
-</td>
+
+</div></td>
 </tr>
 <tr class="odd">
 <td><p>DNS/A externo</p></td>
 <td><p>dialin.contoso.com</p></td>
-<td><p>Ouvidor atribuído para recursos publicados externamente</p></td>
+<td><p>Ouvinte atribuído para recursos publicados externamente</p></td>
 <td><p>Conferência discada publicada externamente</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS/A externo</p></td>
 <td><p>meet.contoso.com</p></td>
-<td><p>Ouvidor atribuído para recursos publicados externamente</p></td>
+<td><p>Ouvinte atribuído para recursos publicados externamente</p></td>
 <td><p>Conferências publicadas externamente</p></td>
 </tr>
 <tr class="odd">
 <td><p>DNS/A externo</p></td>
 <td><p>officewebapps01.contoso.com</p></td>
-<td><p>Assigned listener for Servidor Office Web Apps</p></td>
-<td><p>Servidor Office Web Apps deployed internally or in the perimeter, and published for external client access</p></td>
+<td><p>Escuta atribuído para o servidor do Office Web Apps</p></td>
+<td><p>Office Web Apps Server implantado internamente ou no perímetro e publicado para acesso de cliente externo</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS/A externo</p></td>
 <td><p>lyncdiscover.contoso.com</p></td>
-<td><p>Ouvidor atribuído para recursos publicados externamente</p></td>
-<td><p>Registro de Descoberta do Lync Externo para Descoberta Automática publicada externamente e inclui Mobilidade, Microsoft Lync Web App e aplicativo da Web do programador</p></td>
+<td><p>Ouvinte atribuído para recursos publicados externamente</p></td>
+<td><p>O Lync descobriu registro externo para descoberta automática publicada externamente e inclui mobilidade, Microsoft Lync Web App e Agendador Web App</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

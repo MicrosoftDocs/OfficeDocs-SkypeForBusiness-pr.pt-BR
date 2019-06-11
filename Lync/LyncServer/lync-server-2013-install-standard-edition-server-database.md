@@ -1,38 +1,78 @@
-﻿---
-title: 'Lync Server 2013: Instalar o banco de dados do servidor Standard Edition'
-TOCTitle: Instalar o banco de dados do servidor Standard Edition
-ms:assetid: 0bd3a804-aad6-48cb-981b-54725af032db
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398167(v=OCS.15)
-ms:contentKeyID: 49305853
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Instalar o banco de dados do servidor Standard Edition'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Install Standard Edition server database
+ms:assetid: 0bd3a804-aad6-48cb-981b-54725af032db
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398167(v=OCS.15)
+ms:contentKeyID: 48183385
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5cad6f67dbf1bfff1ee16dbd7455b02d904aac0d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829000"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Instalar o banco de dados do servidor Standard Edition para o Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-01_
+# <a name="install-standard-edition-server-database-for-lync-server-2013"></a>Instalar o banco de dados do servidor Standard Edition para o Lync Server 2013
 
-Configurar um Servidor Standard Edition como o único servidor da sua infraestrutura que hospeda usuários difere de outras instalações de servidores por haver uma seleção no **Assistente de Implantação** especificamente para a configuração do servidor inicial.
+</div>
 
-## Para instalar um servidor do Standard Edition
+<div id="mainSection">
 
-1.  Faça o longi no servidor no qual você quer instalar o Servidor Standard Edition como administrador local ou um domínio equivalente.
+<div id="mainBody">
 
-2.  Se você não houver preparado o Serviços de Domínio Active Directory, então primeiro realize esses procedimentos. Para obter detalhes, consulte [Preparando Serviços de Domínio do Active Directory para o Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md).
+<span> </span>
 
-3.  No Assistente de Implantação do Lync Server, clique em **Preparar o primeiro servidor do Standard Edition** .
+_**Tópico da última modificação:** 2012-10-01_
 
-4.  Na página **Preparar primeiro servidor Standard Edition** , clique em **Avançar** .
+Configurar um servidor Standard Edition como o único servidor na sua infraestrutura que os usuários de casas, que diferem de outras instalações de servidor, há uma seleção no **Assistente de implantação** especificamente para configurar o servidor inicial.
 
-5.  Na página **Executando comandos** , o Software de banco de dados Microsoft SQL Server 2008 Express é instalado como Repositório de Gerenciamento Central. Regras de firewall necessárias são criadas. Quando a instalação do banco de dados e do software de pré-requisito estiver completa, clique em **Finalizar** .
+<div>
+
+## <a name="to-install-a-standard-edition-server"></a>Para instalar um servidor Standard Edition
+
+1.  Faça logon no servidor no qual você vai instalar o servidor Standard Edition como administrador local ou um equivalente a um domínio.
+
+2.  Se você não tiver preparado os serviços de domínio Active Directory, execute esses procedimentos primeiro. Para obter detalhes, consulte [preparando os serviços de domínio Active Directory para o Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md).
+
+3.  No assistente de implantação do Lync Server, clique em **preparar primeiro servidor Standard Edition**.
+
+4.  Na página **preparar único servidor de edição padrão** , clique em **Avançar**.
+
+5.  Na página **comandos em execução** , o SQL Server 2012 Express está instalado como o repositório de gerenciamento central. Regras de firewall necessárias são criadas. Quando a instalação do banco de dados e do software de pré-requisito estiver concluída, clique em **concluir**.
     
+    <div>
+    
+
     > [!NOTE]  
-    > A instalação inicial pode levar algum tempo sem nenhuma atualização visível na tela de resumo de saída do comando. Isto ocorre devido à instalação do SQL Server Express. Se você precisa monitorar a instalação do banco de dados, use o Gerenciador de Tarefas para monitorar a configuração.
+    > A instalação inicial pode levar algum tempo sem atualizações visíveis para a tela Resumo da saída do comando. Isso se deve à instalação do SQL Server Express. Se você precisar monitorar a instalação do banco de dados, use o Gerenciador de tarefas para monitorar a configuração.
 
-6.  Na página do Assistente de Implantação do Lync Server, clique em **Instalar Construtor de Topologias** se você ainda não instalou as ferramentas administrativas. Para obter detalhes, consulte [Instalar ferramentas administrativas do Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md).
+    
+    </div>
 
-7.  Confirme se há marcas de seleção verdes ao lado de “Preparar Active Directory,” “Preparar primeiro servidor Standard Edition” e “Instalar Construtor de Topologias”.
+6.  Na página do assistente de implantação do Lync Server, clique em **instalar Construtor de topologia** se você não tiver instalado as ferramentas administrativas anteriormente. Para obter detalhes, consulte [instalar as ferramentas administrativas do Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md).
+
+7.  Confirme se há marcas de seleção verdes ao lado de "preparar o Active Directory", "preparar primeiro servidor de edição padrão" e "instalar Construtor de topologia".
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

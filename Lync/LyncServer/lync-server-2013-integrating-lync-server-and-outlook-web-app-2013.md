@@ -1,46 +1,73 @@
-﻿---
-title: Integrando o Microsoft Lync Server 2013 e o Microsoft Outlook Web App 2013
-TOCTitle: Integrando o Microsoft Lync Server 2013 e o Microsoft Outlook Web App 2013
-ms:assetid: 513d4cc7-aa87-4f68-b99d-d58b63bdf242
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688055(v=OCS.15)
-ms:contentKeyID: 49886219
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: integrando o Lync Server e o Outlook Web App 2013'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Integrating Lync Server 2013 and Outlook Web App 2013
+ms:assetid: 513d4cc7-aa87-4f68-b99d-d58b63bdf242
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688055(v=OCS.15)
+ms:contentKeyID: 49733649
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 31a25e1d0a6410171201af578d6b28f496468e06
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828985"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Integrando o Microsoft Lync Server 2013 e o Microsoft Outlook Web App 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="integrating-microsoft-lync-server-2013-and-microsoft-outlook-web-app-2013"></a>Integração do Microsoft Lync Server 2013 e do Microsoft Outlook Web App 2013
 
-Além da integração com o Microsoft Outlook 2013, o Microsoft Lync Server 2013 pode ser totalmente integrado com o Microsoft Outlook Web App 2013; entre outras coisas, ele acrescenta mensagens instantâneas e a presença do Outlook Web App e permite que a sua lista de contatos unificada seja compartilhada entre o Outlook Web App e o Microsoft Lync 2013. A fim de integrar o Lync Server 2013 e o Outlook Web App, você deve primeiro verificar se o Unified Communications Managed API 4.0 Runtime foi instalado no seu servidor back-end do Microsoft Exchange Server 2013. Você pode fazer isso verificando a existência do seguinte valor de registro:
+</div>
 
-HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\MSExchange OWA\\InstantMessaging\\ImplementationDLLPath
+<div id="mainSection">
 
-O ImplementationDLLPath deve apontar para a localização da pasta do arquivo Micrsooft.Rtc.Internal.Ucweb.dll. Se isso não ocorrer ou se o valor do registro não existir, você deve fazer download e instalar o programa de instalação do UCMA Runtime a partir do Centro de Download da Microsoft em <http://www.microsoft.com/pt-br/download/details.aspx?id=34992>.
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-03_
+
+Além da integração com o Microsoft Outlook 2013, o Microsoft Lync Server 2013 pode ser totalmente integrado ao Microsoft Outlook Web App 2013; entre outras coisas, isso adiciona mensagem instantânea e presença ao Outlook Web App e permite que sua lista de contatos unificado seja compartilhada entre o Outlook Web App e o Microsoft Lync 2013. Para integrar o Lync Server 2013 e o Outlook Web App, primeiro você deve verificar se o tempo de execução da 4,0 API gerenciada de comunicação unificada foi instalado no servidor do Microsoft Exchange Server 2013 back-end. Você pode fazer isso verificando a existência do seguinte valor de registro:
+
+HKEY\_local\_Machine\\System\\CurrentControlSet\\Services\\MSExchange OWA\\instantmessaging\\ImplementationDLLPath
+
+O ImplementationDLLPath deve apontar para a localização da pasta do arquivo Microsoft.Rtc.Internal.Ucweb.dll. Se não houver, ou se o valor do registro não existir, você deverá baixar e instalar o programa de instalação do UCMA Runtime a partir do centro de download <http://www.microsoft.com/en-us/download/details.aspx?id=34992>da Microsoft em. As informações sobre como instalar o UCMA Runtime podem ser encontradas na mesma página da web.
 
 **Retrocompatibilidade**
 
-O Lync Server 2013 pode ser integrado com as versões Microsoft Exchange Server 2010 tanto de envio de mensagens unificado quanto do Outlook Web App. Para mais informações, consulte o artigo Implantando Envio de Mensagens Unificado do Exchange no Local Para Oferecer Correio de Voz do Lync Server 2010, em [http://technet.microsoft.com/pt-br/library/gg398768.aspx](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md). Se você integrá-lo com o Exchange 2010. não terá recursos específicos do Lync Server como o repositório unificado de contatos e o arquivamento de Lync para Exchange.
+O Lync Server 2013 pode ser integrado ao Microsoft Exchange Server 2010 versões do Unificação de mensagens e do Outlook Web App. Para obter mais informações, consulte o artigo implantando o Exchange UM local para fornecer correio de voz do Lync [http://technet.microsoft.com/en-us/library/gg398768.aspx](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)Server 2010 em. Se você se integrar ao Exchange 2010, não terá recursos específicos do Lync Server, como o repositório de contatos unificado e o arquivamento de Lync para Exchange.
 
-O Microsoft Lync 2013 também pode ser utilizado em conjunto com o Exchange 2010 e o Outlook 2010. Novamente, porém, novas funcionalidades como o repositório unificado de contatos e fotos em alta resolução não estarão disponíveis para usuários do Lync 2013. Esses novos recursos exigem ambos o Lync Server 2013 e o Exchange 2013.
+O Microsoft Lync 2013 também pode ser usado em conjunto com o Exchange 2010 e o Outlook 2010. Mais uma vez, no entanto, novas funcionalidades, como o repositório de contatos unificado e fotos de alta resolução, não estarão disponíveis para os usuários do Lync 2013. Esses novos recursos exigem o Lync Server 2013 e o Exchange 2013.
 
-**Para criar um pool de aplicativo confiável para o Outlook Web App**
+**Para criar um pool de aplicativos confiáveis para o Outlook Web App**
 
-Se você instalou o serviço Roteador de Unificação de Mensagens Microsoft Exchange e o serviço de Unificação de Mensagens Microsoft Exchange no mesmo computador, não é necessário criar um pool de aplicativos confiáveis para o Outlook Web App (assumindo que o servidor em questão esteja hospedando um plano de discagem de UM SipName). Se você estiver utilizando um único computador para hospedar ambos esses serviços, você então poderá pular para a seção deste documento intitulada **Para habilitar envio de mensagens instantâneas no Outlook Web App**.
+Se você tiver instalado o serviço de roteador de chamada de Unificação de mensagens do Microsoft Exchange e o serviço de Unificação de mensagens do Microsoft Exchange no mesmo computador, não há necessidade de criar um pool de aplicativos confiável para o Outlook Web App. (Isso pressupõe que o servidor em questão está hospedando um plano de discagem de UM SipName.) Se você estiver usando um único computador para hospedar esses dois serviços, pode pular para a seção deste documento intitulado ativando o recurso de **mensagens instantâneas no Outlook Web App**.
 
-O Lync Server 2013 pode descobrir automaticamente qualquer servidor Exchange que hospede um plano de discagem de unificação de mensagens SipName; esses servidores são automaticamente adicionados à lista de servidores conhecidos do Lync Server. Não é necessário criar um pool de aplicativos confiáveis e adicionar esses servidores à lista de servidores conhecidos. Na verdade fazer isso pode até fazer com que a integração do Outlook Web App pare de funcionar.
+O Lync Server 2013 pode descobrir a descoberta automática de qualquer servidor Exchange que hospede um plano de discagem de um SipName; Esses servidores são adicionados automaticamente à lista de servidores conhecidos do Lync Server. Não é necessário criar um pool de aplicativos confiáveis e adicionar esses servidores à lista de servidores conhecidos. Na verdade, fazer isso pode até fazer com que a integração do Outlook Web App pare de funcionar.
+
+<div>
+
 
 > [!NOTE]  
-> Isso ocorre devido ao fato de que a topologia do Lync Server terá agora duas entradas para o mesmo computador: a entrada obtida por Descoberta Automática e a entrada adicionada manualmente. Para corrigir esse problema e fazer com que o Outlook Web App volte a funcionar, use o Windows PowerShell para remover as entradas de pool confiável e aplicativo confiável para o servidor. Consulte os tópicos de ajuda para os cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplicationPool">Remove-CsTrustedApplicationPool</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplication">Remove-CsTrustedApplication</a> para obter mais informações.
+> Isso se deve ao fato de que a topologia do Lync Server agora terá duas entradas para o mesmo computador: a entrada descoberta automática e a entrada manualmente adicionada. Para corrigir esse problema e fazer com que o Outlook Web App volte a funcionar, use o Windows PowerShell para remover as entradas de pool confiável e aplicativo confiável para o servidor. Consulte os tópicos de ajuda para os cmdlets <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsTrustedApplicationPool">Remove-CsTrustedApplicationPool</A> e <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsTrustedApplication">Remove-CsTrustedApplication</A> para obter mais informações.
 
-Se esses dois serviços estiverem funcionando então em computadores separados, depois de ter verificado se o Unified Communications Managed API 4.0 Runtime foi instalado, você deve criar um pool de aplicativos confiáveis do Lync Server e um aplicativo confiável associado ao Outlook Web App; isso adicionará o servidor à lista de servidores conhecidos. Para fazer isso, primeiro execute um comando semelhante a este de dentro do Shell de Gerenciamento do Lync Server:
+
+
+</div>
+
+Se esses dois serviços estiverem em execução em computadores separados, depois de verificar se o tempo de execução da API gerenciada de comunicação unificada 4,0 foi instalado, você deve criar um pool de aplicativos confiável do Lync Server e um aplicativo confiável associado ao Outlook Web App; Isso vai adicionar o servidor à lista de servidores conhecidos. Para fazer isso, primeiro execute um comando semelhante a isso dentro do Shell de gerenciamento do Lync Server:
 
     New-CsTrustedApplicationPool -Identity atl-owa-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -Site Redmond -RequiresReplication $False
 
-No comando anterior, o atl-owa-001.litwareinc.com é o nome de domínio totalmente qualificado do pool do Outlook Web App, ele deve ter o mesmo nome que é exibido nos campos Nome da Entidade e Nome Alternativo da Entidade (SAN) do certificado que fornece acesso ao Otlook Web App. Do mesmo modo, o atl-cs-001.litwareinc.com é o nome de domínio totalmente qualificado do pool do Lync Server 2013 que hospedará o novo pool de aplicativos confiáveis. Observe também que o site especificado, Redmond, representa o SiteID do site do Lync Server. O SiteID não é necessariamente o mesmo que DisplayName do site, você pode recuperar SiteIDs para seus sites do Lync Server, executando o seguinte comando do Shell de Gerenciamento do Lync Server:
+No comando anterior, atl-owa-001.litwareinc.com é o nome de domínio totalmente qualificado do pool do Outlook Web App, ele deve ter o mesmo nome que é exibido nos campos Nome da Entidade e Nome Alternativo da Entidade (SAN) do certificado que fornece acesso ao Otlook Web App. Da mesma forma, atl-cs-001.litwareinc.com é o nome de domínio totalmente qualificado do pool do Lync Server 2013 que irá hospedar o novo pool de aplicativos confiáveis. Observe também que o site especificado, Redmond, representa o SiteId do site do Lync Server. O SiteId não é necessariamente o mesmo que o DisplayName do site; Você pode recuperar o SiteIDs para seus sites do Lync Server executando o seguinte comando no Shell de gerenciamento do Lync Server:
 
     Get-CsSite | Select-Object DisplayName, SiteID
 
@@ -50,39 +77,46 @@ Após criar um pool de aplicativos confiáveis, utilize um comando semelhante pa
 
 No comando anterior, o ApplicationID é simplesmente um identificador amigável usado para distinguir aplicativos confiáveis. O ApplicationID pode ser qualquer cadeia de caracteres de texto que não inclua espaços em branco ou outros caracteres proibidos. (Para garantir que você criará um identificador válido, é recomendado que apenas letras e números sejam utilizados ao especificar um ApplicationId.) O valor atribuído ao parâmetro Porta também é deixado ao critério do administrador: ela pode ser qualquer porta de rede disponível.
 
-Após criar o aplicativo confiável, você deve executar o seguinte comando para habilitar as alterações para a topologia do seu Lync Server:
+Depois de criar o aplicativo confiável, você deve executar o seguinte comando para habilitar as alterações na sua topologia do Lync Server:
 
     Enable-CsTopology
 
-Observe que você também precisa adicionar o acesso de cliente Exchange e servidor de caixa postal para todos os seus planos de discagem Uri SIP. Isso por sua vez vai configurar os servidores como parcerias SIP confiáveis com a topologia ExUmRouting para o Lync Server.
+Observe que você também deve adicionar seu servidor de caixa de correio e acesso de cliente do Exchange a todos os planos de discagem de URI de SIP. Em seguida, isso irá configurar os servidores como Peers SIP confiáveis com a topologia ExUmRouting para o Lync Server.
 
 **Para habilitar envio de mensagens instantâneas no Outlook Web App**
 
-Com o Lync Server configurado corretamente, você pode começar a configurar o Outlook Web App. O primeiro passo no processo é habilitar as mensagens instantâneas em todos os seus diretórios virtuais do Outlook Web App nos seus servidores front-end (não há necessidade de habilitar envio de mensagens instantâneas para os diretórios virtuais nos seus servidores de back-end; na verdade, é recomendável que para esses servidores você não o habilite). A habilitação de IM pode ser feita nos servidores de acesso do cliente executando o seguinte comando a partir do Shell de Gerenciamento do Exchange:
+Com o Lync Server corretamente configurado, você pode começar a configurar o Outlook Web App. A primeira etapa nesse processo é habilitar o sistema de mensagens instantâneas em todos os seus diretórios virtuais do Outlook Web App em seus servidores front-ends. (Não é necessário habilitar o sistema de mensagens instantâneas para os diretórios virtuais em seus servidores back-end. Na verdade, é recomendável que você não habilite o sistema de mensagens instantâneas em seus servidores back-end. O recurso de mensagens instantâneas pode ser habilitado nos servidores de acesso para cliente executando o seguinte comando no Shell de gerenciamento do Exchange:
 
     Get-OwaVirtualDirectory | Set-OwaVirtualDirectory -InstantMessagingEnabled $True -InstantMessagingType OCS
+
+<div>
+
 
 > [!NOTE]  
 > Por padrão, o envio de mensagens instantâneas é habilitado quando você instala o Outlook Web App; ou seja, a propriedade InstantMessagingEnabled é definida como True. Porém, você ainda precisa executar o comando anterior para definir o tipo de envio de mensagens instantâneas como OCS. Como padrão, InstantMessagingType é definido com o valor Nenhum.
 
-Em seguida, você deve adicionar as linhas a seguir ao arquivo Web.config do Outlook Web App (esse arquivo está, normalmente, localizado na pasta C:\\Program Files\\Microsoft\\Exchange Server\\V15\\ClientAccess\\Owa). Essas duas linhas devem ser adicionadas sob o nó AppSettings, no arquivo Web.config, sendo que esse procedimento só deve ser realizado naqueles servidores de back-end em que o Outlook Web App tenha sido instalado:
+
+
+</div>
+
+Em seguida, você deve adicionar as duas linhas a seguir ao arquivo Web. config do Outlook Web App (esse arquivo geralmente está localizado na\\pasta C\\:\\arquivos de\\programas\\Microsoft\\Exchange Server v15 ClientAccess OWA). Essas duas linhas devem ser adicionadas no \<\> nó appSettings no arquivo Web. config, e esse procedimento deve ser executado somente nos servidores back-end nos quais o Outlook Web App tenha sido instalado:
 
     <add key="IMCertificateThumbprint" value="EA5A332496CC05DA69B75B66111C0F78A110D22d"/>
     <add key="IMServerName" value="atl-cs-001.litwareinc.com"/>
 
-No exemplo anterior, o valor para IMCertificateThumbprint deve ser a impressão digital para o certificado do Exchange 2013 instalado em seus servidores de back-end. Você pode recuperar essas informações, executando o seguinte comando a partir do Shell de Gerenciamento do seu Exchange:
+No exemplo anterior, o valor de IMCertificateThumbprint deve ser a impressão digital do certificado do Exchange 2013 que está instalado em seus servidores back-end. Você pode recuperar essas informações executando o seguinte comando no Shell de gerenciamento do Exchange:
 
     Get-ExchangeCertificate
 
-Observe, também, que o valor atribuído ao IMServerName é o nome de domínio totalmente qualificado do pool do Lync Server, no qual você criou o pool de aplicativos confiáveis ​​para o Outlook Web App.
+Observe também que o valor atribuído a imservername é o nome de domínio totalmente qualificado do pool do servidor do Lync em que você criou o pool de aplicativos confiáveis para o Outlook Web App.
 
-O certificado que você utiliza para o Outlook Web App precisa ser um certificado confiável para o Lync Server. Um modo de garantir que o certificado será confiável para ambos o Lync Server e Exchange é utilizar a sua autorizade de certificado interno para criar um certificado no servidor de caixa postal, assegurando que o servidor FQDN seja usado para o nome da entidade e que esse FQDN apareça no campo de nome alternativo do certificado. Após o certificado ter sido criado, ele pode ser importado para os seus servidores de back-end. O resultado final é que o mesmo certificado é usado para dois fins: o primeiro é a comunicação entre unificação de mensagens de Exchange e Lync Server; o segundo é a integração entre o Outlook Web App e o Lync Server.
+O certificado que você usa para o Outlook Web App deve ser um certificado confiável para o Lync Server. Uma maneira de garantir que o certificado será confiado pelo Lync Server e pelo Exchange é usar sua autoridade de certificação interna para criar um certificado no servidor de caixa de correio, certificando-se de que o FQDN do servidor é usado para o nome do requerente e que esse FQDN aparece em t campo nome alternativo do certificado. Após o certificado ter sido criado, ele pode ser importado para os seus servidores de back-end. O resultado líquido é que o mesmo certificado é usado para duas finalidades: 1) comunicação entre a Unificação de mensagens do Exchange e o Lync Server; e 2) a integração entre o Outlook Web App e o Lync Server.
 
-Depois de ter atualizado o arquivo Web.config, você deve executar o seguinte comando no servidor de back-end do Exchange, para reciclar o pool do Outlook Web App:
+Depois de atualizar o arquivo Web. config, você deve executar o seguinte comando no servidor back-end do Exchange para reciclar o pool do Outlook Web App:
 
     C:\Windows\System32\Inetsrv\Appcmd.exe recycle apppool /apppool.name:"MSExchangeOWAAppPool"
 
-Se a operação de reciclagem for bem sucedida, você verá a seguinte mensagem no Shell de Gerenciamento do Exchange:
+Se a operação de reciclagem conseguir, você verá a seguinte mensagem no Shell de gerenciamento do Exchange:
 
     "MSExchangeOWAAppPool" successfully recycled
 
@@ -96,23 +130,33 @@ E esse comando habilita as mensagens instantâneas para todas as suas políticas
 
     Get-OwaMailboxPolicy | Set-OwaMailboxPolicy -InstantMessagingEnabled $True -InstantMessagingType "OCS"
 
-Após a política de caixa de correio ser habilitada, todos os usuários gerenciados por essa política terão a integração total entre o Lync Server e o Outlook Web App, desde que:
+Depois que a política de caixa de correio tiver sido habilitada, todos os usuários gerenciados por essa política terão total integração entre o Lync Server e o Outlook Web App, contanto que:
 
-  - O usuário possui uma caixa de correio no Exchange 2013.
+  - O usuário tem uma caixa de correio no Exchange 2013.
 
   - O usuário foi habilitado para o Lync Server 2013.
 
-  - O usuário possui um endereço de proxy SIP válido.
+  - O usuário possua um endereço de proxy SIP válido.
 
-**Para desabilitar envio de mensagens instantâneas no Outlook Web App**
+**Desabilitando o sistema de mensagens instantâneas no Outlook Web App**
 
-Como observado anteriormente, mensagens instantâneas estão habilitadas por padrão no Outlook Web App. Isso significa que se você não integrar o Outlook Web App com o Lync Server, os usuários verão ícones de presença em branco e uma mensagem de erro cada vez que fizerem login no Outlook Web App. Para evitar esse problema, use o comando de Shell de Gerenciamento Exchange a seguir para desabilitar as mensagens instantâneas no Outlook Web App:
+Como observado anteriormente, o sistema de mensagens instantâneas é habilitado por padrão no Outlook Web App. Isso significa que, se você não integrar o Outlook Web App ao Lync Server, os usuários verão ícones de presença em branco e uma mensagem de erro toda vez que fizerem logon no Outlook Web App. Para evitar esse problema, use o seguinte comando do Shell de gerenciamento do Exchange para desativar o sistema de mensagens instantâneas no Outlook Web App:
 
     Get-OwaVirtualDirectory | Set-OwaVirtualDirectory -InstantMessagingEnabled $False
 
 **Para verificar a integração com o Outlook Web App**
 
-Para verificar se as mensagens instantâneas e a presença foram integradas ao Outlook Web App, entre no Outlook Web App 2013. No canto superior direito da tela, você verá o seu nome para exibição do Exchange. Se houver um ícone de presença ao lado do seu nome (por exemplo, um ícone verde indicando que seu status atual é Disponível) indica que você fez com sucesso a integração do Lync Server com o Outlook Web App.
+Para verificar se a presença e o sistema de mensagens instantâneas foram integrados ao Outlook Web App, entre no Outlook Web App 2013. No canto superior direito da tela, você verá o seu nome de exibição do Exchange. Se houver um ícone de presença ao lado do seu nome (por exemplo, um ícone verde indicando que o seu status atual está disponível) indica que você integrou com êxito o Lync Server e o Outlook Web App.
 
-Após a inscrição inicial no Outlook Web App, verifique se um evento com a ID de evento 112 (e a fonte sendo Outlook Web App MSExchange) foi gravado no log de eventos no servidor da caixa postal. Esse evento indica que o gerenciador de ponto de extremidade para mensagens instantâneas foi inicializado com sucesso. Se as mensagens instantâneas não aparentarem funcionar nesse momento, acesse o servidor de caixa postal e procure por arquivos de log na pasta C:\\Program Files\\Microsoft\\Exchange server\\V15\\Logging\\OWA\\InstantMessaging. Se qualquer uma das pastas Logging ou InstantMessaging não existirem, isso indica que a integração falhou. Nesse caso, você pode utilizar rastreamento SIPStack no Lync Server (todos os níveis e todos os marcadores) para tentar determinar porque a integração falhou.
+Após a autenticação inicial no Outlook Web App, verifique se um evento com a ID 112 (e a fonte sendo Outlook Web App MSExchange) foi gravado no log de eventos no servidor da caixa postal. Esse evento indica que o gerenciador de ponto de extremidade para mensagens instantâneas foi inicializado com sucesso. Se as mensagens instantâneas não parecerem funcionar, no servidor de caixa de correio, procure arquivos de log na pasta C:\\arquivos\\de programas\\Microsoft Exchange\\Server\\v15\\Logging\\OWA instantmessaging. Se qualquer uma das pastas Logging ou InstantMessaging não existir, isso indica que a integração falhou. Nesse caso, você pode usar o rastreamento SIPStack no Lync Server (todos os níveis e todos os sinalizadores) para experimentar e determinar por que a integração falhou.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

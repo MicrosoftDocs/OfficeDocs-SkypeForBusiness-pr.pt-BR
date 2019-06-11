@@ -1,34 +1,74 @@
-﻿---
-title: 'Lync Server 2013: Criar a política de roteamento VoIP para usuários de filiais'
-TOCTitle: Criar a política de roteamento VoIP para usuários de filiais
-ms:assetid: 10deca9f-f870-4a42-b25d-e4fc53108658
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398196(v=OCS.15)
-ms:contentKeyID: 49305919
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Criar a política de roteamento VoIP para usuários de filiais'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create the VoIP routing policy for branch users
+ms:assetid: 10deca9f-f870-4a42-b25d-e4fc53108658
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398196(v=OCS.15)
+ms:contentKeyID: 48183435
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4f53e69069bc1f39f84c057f1e90882d5ae0d65d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829763"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Criar a política de roteamento VoIP para usuários de filiais no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-23_
+# <a name="create-the-voip-routing-policy-for-branch-users-in-lync-server-2013"></a>Criar a política de roteamento VoIP para usuários de filiais no Lync Server 2013
 
-É recomendável criar uma política VoIP separada para os usuários de locais de filial. Essa política deve incluir rotas para sair do gateway do Aparelho de Filial Persistente ou do gateway externo do Servidor de Filial Persistente e rotas secundárias para sair de um gateway no local central. Seja qual for o local em que o usuário está registrado, no Registrador do Aparelho de Filial Persistente ou do Servidor de Filial Persistente ou no cluster do Registrador de backup no local central, a política VoIP do usuário vai estar sempre em vigor.
+</div>
 
-## Para configurar a política de roteamento do VoIP para usuários de filiais
+<div id="mainSection">
 
-1.  Crie um plano de discagem no nível do usuário e designe-o aos usuários de filiais. (Consulte [Criar um plano de discagem no Lync Server 2013](lync-server-2013-create-a-dial-plan.md) na Ajuda do Painel de Controle do Lync Server).
+<div id="mainBody">
 
-2.  Designe regras de normalização correspondendo aos hábitos de discagem dos usuários deste site. Se o usuário do Aparelho de Filial Persistente ou do Servidor de Filial Persistente falha no pool do Registrador de backup no site central, o mesmo plano de discagem ficará em vigor. (Consulte [Criar um plano de discagem no Lync Server 2013](lync-server-2013-create-a-dial-plan.md) na Ajuda do Painel de Controle do Lync Server).
+<span> </span>
 
-3.  Configure uma rota de voz egressa do gateway do Aparelho de Filial Persistente ou do gateway externo do Servidor de Filial Persistente. (Consulte [Criar um roteamento de voz no Lync Server 2013](lync-server-2013-create-a-voice-route.md) na Ajuda Painel de Controle do Lync Server).
+_**Tópico da última modificação:** 2012-09-23_
 
-4.  Defina uma rota de chamada de backup no gateway do Aparelho de Filial Persistente ou do Servidor de Filial Persistente para apontar para o pool do Registrador de backup (colocado com o Servidor de Mediação) no site central. (Consulte sua documentação de fornecedor do Aparelho de Filial Persistente ou do Servidor de Filial Persistente).
+Recomendamos a criação de uma política de voz sobre IP (VoIP) separada para os usuários em sites de filiais. Essa política deve conter rotas para egresso do gateway de Appliance da ramificação sobreviventes ou do gateway externo do servidor de ramificação sobreviventes e rotas de backup para egresso de um gateway no site central. Independentemente de onde o usuário estiver registrado, seja no registrador do aplicativo de ramificação sobreviventes ou no servidor de ramificação sobreviventes ou no cluster de registrador de backup no site central, a política de VoIP do usuário estará sempre em vigor.
+
+<div>
+
+## <a name="to-configure-the-voip-routing-policy-for-branch-users"></a>Para configurar a política de roteamento de VoIP para usuários de filiais
+
+1.  Crie um plano de discagem de nível de usuário e atribua-o a usuários da ramificação. (Consulte [criar um plano de discagem no Lync Server 2013](lync-server-2013-create-a-dial-plan.md) na documentação de operações.)
+
+2.  Atribua regras de normalização correspondentes aos hábitos de discagem dos usuários nesse site. Se o aplicativo de ramificação sobreviventes ou o usuário do servidor de ramificação sobreviventes passar no pool de registrador de backup no site central, o mesmo plano de discagem estará em vigor. (Consulte [criar um plano de discagem no Lync Server 2013](lync-server-2013-create-a-dial-plan.md) na documentação de operações.)
+
+3.  Configure uma rota de voz que egresso do gateway de equipamento de ramificação sobreviventes ou do gateway externo do servidor de ramificação sobreviventes. (Consulte [criar uma rota de voz no Lync Server 2013](lync-server-2013-create-a-voice-route.md) na documentação de operações.)
+
+4.  Defina uma rota de chamada de backup no aparelho de ramificação sobreviventes ou gateway de servidor de ramificação sobreviventes para apontar para o pool de registrador de backup (posicionado com o servidor de mediação) no site central. (Consulte o seu aparelho de ramificação sobreviventes ou a documentação do fornecedor do servidor de ramificação sobreviventes.)
     
-    > [!NOTE]  
-    > A instalação da rota de chamada de backup ajuda a garantir que chamadas de entrada ao usuário de filial funcionarão quando o Aparelho de Filial Persistente ou o Servidor de Filial Persistente não estiver disponível (por exemplo, se estiver inoperante para manutenção). Se o Registrado e o Servidor de Mediação no Aparelho de Filial Persistente ou no Servidor de Filial Persistente não estão disponíveis, e se o usuário está registrado com o pool do Registrador de backup no site central, as chamadas de entrada ainda podem ser roteadas ao usuário.
+    <div>
+    
 
-**Próxima etapa** : [Definir configurações de reroteamento de caixa postal no Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)
+    > [!NOTE]  
+    > Esta configuração de rota de chamada de backup ajuda a garantir que as chamadas de entrada para o usuário da ramificação funcionarão quando o aplicativo Ramificable ou o servidor de ramificação sobreviventes não estiver disponível (por exemplo, se estiver inoperante para manutenção). Se o servidor de registrador e mediação na ramificação da ramificação sobreviventes ou no servidor de ramificação sobreviventes não estiver disponível, e o usuário estiver registrado no pool de registradores de backup no site central, as chamadas recebidas ainda poderão ser encaminhadas para o usuário.
+
+    
+    </div>
+
+**Próxima etapa**: [Configurar o recurso configurações de redirecionamento de caixa postal no Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

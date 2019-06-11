@@ -1,35 +1,69 @@
-﻿---
-title: 'Lync Server 2013: Implantar tipos de endereço IP em um Servidor de Borda'
-TOCTitle: Implantar tipos de endereço IP em um Servidor de Borda
-ms:assetid: 6e2fe7e8-6e90-4d1a-8fc5-e3be92c46571
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204984(v=OCS.15)
-ms:contentKeyID: 49307052
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Implantar tipos de endereço IP em um Servidor de Borda'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploy IP address types on an Edge Server
+ms:assetid: 6e2fe7e8-6e90-4d1a-8fc5-e3be92c46571
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204984(v=OCS.15)
+ms:contentKeyID: 48184435
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a094a39fd74ab30ee1dd3a5a3da4e777bcf7e338
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829573"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Implantar tipos de endereço IP em um Servidor de Borda para Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-06-14_
+# <a name="deploy-ip-address-types-on-an-edge-server-for-lync-server-2013"></a>Implantar tipos de endereço IP em um Servidor de Borda para Lync Server 2013
 
-Usando o Construtor de Topologias, execute as etapas do procedimento a seguir para implantar tipos de endereço IP em um Servidor de Borda.
+</div>
 
-## Para implantar tipos de endereço IP em um servidor de borda
+<div id="mainSection">
 
-1.  No Construtor de Topologias, em **Pools de borda** , clique com o botão direito do mouse no servidor em um pool e selecione **Editar Propriedades** (como alternativa, selecione o servidor e clique em **Editar Propriedades** no menu **Ação** ).
+<div id="mainBody">
 
-2.  Na janela **Editar Propriedades** , selecione a configuração de endereço IP para a qual deseja oferecer suporte. As figuras a seguir mostram uma configuração de pilha dupla para as interfaces interna e externa.
+<span> </span>
+
+_**Tópico da última modificação:** 2012-06-14_
+
+Usando o construtor de topologias, execute as etapas do procedimento a seguir para implantar tipos de endereços IP em um servidor de borda.
+
+<div>
+
+## <a name="to-deploy-ip-address-types-on-an-edge-server"></a>Para implantar tipos de endereço IP em um servidor de borda
+
+1.  Em Construtor de topologia, em **conjuntos de bordas**, clique com o botão direito do mouse no servidor dentro de um pool e selecione **Editar propriedades**. (Como alternativa, selecione o servidor e clique em **Editar Propriedades** no menu **Ação**.)
+
+2.  Na janela **Editar Propriedades**, selecione a configuração de endereço IP para a qual deseja oferecer suporte. As figuras a seguir mostram uma configuração de pilha dupla para as interfaces interna e externa.
     
     **Interface interna do servidor de borda com pilha dupla**
     
-    ![Página de propriedades gerais do Lync Server](images/JJ204984.5b0883ee-b9f2-4a21-91a9-3286d0beb63b(OCS.15).png "Página de propriedades gerais do Lync Server")
+    ![Página Propriedades gerais do Lync Server] (images/JJ204984.5b0883ee-b9f2-4a21-91a9-3286d0beb63b(OCS.15).png "Página Propriedades gerais do Lync Server")
     
     **Interface externa do servidor de borda com pilha dupla**
     
-    ![Página de configuração externa/de próximo salto do Lync Server](images/JJ204984.2aa00ce2-ba50-40aa-bbf1-78636016daf9(OCS.15).png "Página de configuração externa/de próximo salto do Lync Server")
+    ![Próxima página de configuração de salto/externo do Lync Server] (images/JJ204984.2aa00ce2-ba50-40aa-bbf1-78636016daf9(OCS.15).png "Próxima página de configuração de salto/externo do Lync Server")
 
 3.  Para cada tipo de endereço selecionado, você deve fornecer os endereços internos e externos apropriados.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,35 +1,85 @@
-﻿---
-title: Implantando o Portal Web administrativo do Lync Room System
-TOCTitle: Implantando o Portal Web administrativo do Lync Room System
-ms:assetid: ecba5b36-632e-40b9-9c2e-ab825baf7a46
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn436324(v=OCS.15)
-ms:contentKeyID: 59602784
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Implantando o portal da Web administrativo do sistema de salas do Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying the Lync Room System Administrative Web Portal
+ms:assetid: ecba5b36-632e-40b9-9c2e-ab825baf7a46
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn436324(v=OCS.15)
+ms:contentKeyID: 56737621
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 16fc5e7d0f136481ddce5d34de41268cb224822e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829522"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Implantando o Portal Web administrativo do Lync Room System
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="deploying-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Deploying the Lync Room System Administrative Web Portal in Lync Server 2013
 
-O Portal Web administrativo do Microsoft Lync Server 2013 Lync Room System (LRS) é um portal Web que as organizações podem usar para manter suas salas de conferência do Lync Room System. Os adminstradores podem usar o Portal Web administrativo LRS para monitorar a condição do LRS, por exemplo, monitorando os dispositivos de áudio/video conectados. Com esse portal, os administradores podem coletar remotamente informações de diagnóstico para monitrar a condição da sala de conferência.
+</div>
 
-O Portal administrativo LRS é implantado em um servidor final do Servidor Front-End Lync. Este guia fornece instruções para os administadores sobre como instalar e configurar o Portal Web administrativo LRS. É para os administradores que têm conhecimento de administração Lync Server e têm os direitos de uso do administrador para modificar a topologia Lync Server.
+<div id="mainSection">
 
-Depois do Portal Web administrativo LRS ser implantado no servidor, os administradores poderão verificar o status de todas as salas LRS fazendo logon no site a partir de seus computadores ou laptops.
+<div id="mainBody">
 
-## Nesta seção
+<span> </span>
 
-[Configurando seu ambiente do Lync Server 2013 para Porta da Web Administrativo do Sistema de Sala do Lync](lync-server-2013-configuring-your-environment-for-the-lync-room-system-administrative-web-portal.md)
+_**Tópico da última modificação:** 2015-05-04_
 
-[Instalando o Portal Administrativo da Web do Lync Room System](lync-server-2013-installing-the-lync-room-system-administrative-web-portal.md)
+O portal da Web administrativo do Microsoft Lync Server 2013 Lync (Microsoft Lync Server) é um portal da Web que as organizações podem usar para manter suas salas de conferência do sistema de sala do Lync. Os administradores podem usar o portal da Web administrativo do LRS para monitorar a integridade do LRS, por exemplo, monitorando dispositivos de áudio/vídeo conectados. Com esse portal, os administradores podem coletar remotamente informações de diagnóstico para monitorar a integridade da sala de conferência.
 
-## Consulte Também
+O portal da Web administrativo do LRS é implantado em cada servidor front-end do Lync. Este guia fornece instruções para administradores sobre como instalar e configurar o portal da Web administrativo do LRS. Destina-se a administradores que têm conhecimento da administração do Lync Server e que têm direitos de usuário de administrador para modificar a topologia do Lync Server.
 
-#### Outros Recursos
+Depois que o portal da Web administrativo do LRS for implantado no servidor, os administradores poderão verificar o status de todas as salas do LRS fazendo logon no site de seus próprios computadores ou laptops.
 
-[Implantando conferências no Lync Server 2013](lync-server-2013-deploying-conferencing.md)
+<div>
+
+
+> [!IMPORTANT]  
+> Ao instalar o portal da Web administrativo do LRS em uma implantação do Microsoft Lync Server 2013, você deve usar o <A href="http://go.microsoft.com/fwlink/p/?linkid=544806">portal da Web administrativo do sistema de sala do Microsoft Lync para o Lync Server 2013</A>.<BR>Uma nova versão do portal da Web administrativo do LRS está disponível para o Skype for Business Server 2015, mas você não deve instalar essa versão, a menos que tenha implantado o Skype for Business Server 2015. Baixe o <A href="http://go.microsoft.com/fwlink/?linkid=544807">portal da Web administrativo do sistema de sala do Microsoft Lync para o Skype for Business Server 2015</A>.
+
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
+
+[Configuring your Lync Server 2013 environment for the Lync Room System Administrative Web Portal](lync-server-2013-configuring-your-environment-for-the-lync-room-system-administrative-web-portal.md)
+
+[Installing the Lync Room System Administrative Web Portal in Lync Server 2013](lync-server-2013-installing-the-lync-room-system-administrative-web-portal.md)
+
+[Using the Lync Room System Administrative Web Portal in Lync Server 2013](lync-server-2013-using-the-lync-room-system-administrative-web-portal.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Implantando conferências no Lync Server 2013](lync-server-2013-deploying-conferencing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

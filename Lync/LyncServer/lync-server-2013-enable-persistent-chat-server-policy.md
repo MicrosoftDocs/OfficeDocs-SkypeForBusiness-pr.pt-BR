@@ -1,33 +1,69 @@
-﻿---
-title: 'Lync Server 2013: Habilitar política de Servidor de Chat Persistente'
-TOCTitle: Habilitar política de Servidor de Chat Persistente
-ms:assetid: 87063d6c-2e38-4970-b76d-2aa15f0de29e
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205056(v=OCS.15)
-ms:contentKeyID: 49307359
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Habilitar política de Servidor de Chat Persistente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable Persistent Chat Server policy
+ms:assetid: 87063d6c-2e38-4970-b76d-2aa15f0de29e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205056(v=OCS.15)
+ms:contentKeyID: 48184718
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e58e71cd92182fc9f68d272ba23079677983b399
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829282"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Habilitar política de Servidor de Chat Persistente no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-06_
+# <a name="enable-persistent-chat-server-policy-in-lync-server-2013"></a>Habilitar política de Servidor de Chat Persistente no Lync Server 2013
 
-No Painel de Controle do Lync Server 2013, é possível usar a página de **Chat PersistentePolítica** do grupo do **Chat Persistente** para gerenciar políticas em níveis global, de pool, de site ou de usuário, incluindo a configuração da política global padrão e a criação de uma ou mais políticas adicionais de usuários e sites para sua implantação. Se o usuário estiver habilitado para Servidor de Chat Persistente de acordo com a política, o ambiente do Servidor de Chat Persistente será exibido no cliente do Lync 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-06_
+
+No painel de controle do Lync Server 2013, você pode usar a página **política de chat persistente** do grupo de **chat persistente** para gerenciar políticas em um nível global, de pool, de site ou de usuário, incluindo a configuração da política global padrão e a criação de uma ou mais políticas de usuário e de site adicionais para sua implantação. Se um usuário estiver habilitado para o servidor de chat persistente por política, o ambiente do servidor de chat persistente aparecerá no cliente do Lync 2013.
+
+<div>
+
 
 > [!NOTE]  
-> Na topologia, as políticas de site do Servidor de Chat Persistente aplicam-se globalmente, por pool de usuários, por site de usuários ou por usuário.
+> Na topologia, as políticas de site do servidor de chat persistente se aplicam globalmente, o pool de cada usuário ou o site de cada usuário ou por usuário.
 
-O política global é criada automaticamente quando o Servidor de Chat Persistente é implantado. É possível configurá-la, mas não excluí-la. Como a política global aplica-se a todos os usuários, não é preciso configurá-la para cada usuário.
 
-Você pode criar e configurar diversas políticas de site e usuário, o que, com a política global, habilita os usuários para Servidor de Chat Persistente. As políticas de pool e de site do Servidor de Chat Persistente substituem a política global do Servidor de Chat Persistente, mas somente para usuários do site em questão. As políticas de usuário substituem as políticas globais, de pool e de site para os usuários aos quais são atribuídas.
+
+</div>
+
+A política global é criada automaticamente quando você implanta um servidor de chat persistente, e pode ser configurada, mas não excluída. Como ela se aplica a todos os usuários, não é necessário defini-la por usuário.
+
+Você pode criar e configurar várias políticas de site e de usuário, juntamente com a política global, habilitar usuários para o servidor de chat persistente. As políticas de servidor de chat persistente do pool e do site substituem a política global de servidor de chat persistente, mas somente para os usuários desse site. As políticas de usuário substituem as políticas globais, de pool e de site para os usuários aos quais são atribuídas.
+
+<div>
+
 
 > [!NOTE]  
-> Para configurar e usar o Servidor de Chat Persistente, é necessário primeiro usar o Construtor de Topologias para adicionar suporte de Servidor de Chat Persistenteà topologia, e depois publicar a topologia. Para obter detalhes, consulte <a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adicionando Servidor de Chat Persistente em sua implantação no Lync Server 2013</a> na documentação Implantação.
+> Para configurar e usar o servidor de chat persistente, você deve primeiro usar o construtor de topologias para adicionar suporte a servidor de chat persistente à topologia e, em seguida, publicar a topologia. Para obter detalhes, consulte <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">adicionando servidor de chat persistente à sua implantação no Lync Server 2013</A> na documentação de implantação.
 
-## Nesta seção
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Configurar a política global para Chat Persistente no Lync Server 2013](lync-server-2013-configure-the-global-policy-for-persistent-chat.md)
 
@@ -36,4 +72,16 @@ Você pode criar e configurar diversas políticas de site e usuário, o que, com
   - [Criar uma política de usuário para Chat Persistente no Lync Server 2013](lync-server-2013-create-a-user-policy-for-persistent-chat.md)
 
   - [Aplicar uma política de Chat Persistente a um usuário ou grupo de usuários no Lync Server 2013](lync-server-2013-apply-a-persistent-chat-policy-to-a-user-or-user-group.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

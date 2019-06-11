@@ -1,52 +1,103 @@
-﻿---
-title: Implantando o monitoramento no Lync Server 2013
-TOCTitle: Implantando o monitoramento no Lync Server 2013
-ms:assetid: 117f4a3e-0670-4388-a553-b9854921145f
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398199(v=OCS.15)
-ms:contentKeyID: 49305926
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Implantando o monitoramento'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying monitoring
+ms:assetid: 117f4a3e-0670-4388-a553-b9854921145f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398199(v=OCS.15)
+ms:contentKeyID: 48183442
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 584b99b6e5fad72a07a35b748ab9bafa4116701a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829536"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Implantando o monitoramento no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-12-17_
+# <a name="deploying-monitoring-in-lync-server-2013"></a>Implantando o monitoramento no Lync Server 2013
 
-Grandes alterações foram feitas na infraestrutura de monitoramento do Microsoft Lync Server 2013, começando com o fato de que a função Servidor de Monitoramento foi substituída. Em vez de separar funções Servidor de Monitoramento (o que normalmente exigia que as organizações definissem computadores dedicados para agir como servidores de Monitoramento), os serviços de monitoramento são agora colocados em cada servidor de Front End. Juntamente com outras coisas, essa alteração ajuda a:
+</div>
 
-  - Diminuir o numero de funções de servidor necessárias ao implementar o Lync Server 2013. Neste caso, reduzir a função de servidor Servidor de Monitoramento também ajuda a reduzir custos, eliminando a necessidade de manter servidores dedicados para monitoramento.
+<div id="mainSection">
 
-  - Reduzir a complexidade da instalação e administração do Lync Server. Colocando automaticamente os serviços de monitoramento em cada servidor de Front End, não é mais necessário instalar, configurar e gerenciar a função Servidor de Monitoramento.
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-12-17_
+
+Alterações importantes foram feitas na infraestrutura de monitoramento do Microsoft Lync Server 2013, começando com o fato de que a função de servidor de monitoramento foi preterida. Em vez de funções separadas de monitoração de servidor (que normalmente são necessárias às organizações para configurar computadores dedicados para atuar como servidores de monitoramento), os serviços de monitoramento são agora posicionados em cada servidor front-end. Entre outras coisas, essa alteração ajuda a:
+
+  - Diminua o número de funções de servidor necessárias ao implementar o Lync Server 2013. Nesse caso, decrementar a função de servidor do Monitoring Server também ajuda a reduzir os custos, eliminando a necessidade de manter os servidores dedicados para monitoramento.
+
+  - Reduzir a complexidade da instalação e da administração do Lync Server. Posicionando automaticamente os serviços de monitoramento em cada servidor front-end que você não precisa mais instalar, configurar e gerenciar a função do servidor de monitoramento.
+
+<div>
+
 
 > [!NOTE]  
-> O Servidor de Arquivamento também foi substituído no Lync Server 2013. Assim como os serviços de monitoramento, os serviços de arquivamento do Lync Server 2013 agora são colocados em cada servidor de Front End. Isso é importante observar simplesmente porque o monitoramento e o arquivamento frequentemente compartilham a mesma instância de banco de dados do SQL Server.
+> A função de servidor de arquivamento também foi substituída no Lync Server 2013. Como os serviços de monitoramento, os serviços de arquivamento do Lync Server 2013 agora são posicionados em cada servidor front-end. Isso é importante observar simplesmente porque o monitoramento e o arquivamento muitas vezes compartilham a mesma instância do banco de dados do SQL Server.
 
-Como você pode imaginar, essas alterações provocam um impacto significativo sobre como os serviços de monitoramento são instalados e gerenciados. Por exemplo, como a função Servidor de Monitoramento não existe mais, o nó Servidor de Monitoramento foi removido do Construtor de Topologias do Lync Server; por sua vez, isso significa que o Assistente do Novo Servidor de Monitoramento do Construtor de Topologias não é mais usado para adicionar um novo Servidor de Monitoramento à sua topologia (o assistente não existe mais). Em vez disso, você implementará serviços de monitoramento dentro da sua topologia concluindo duas etapas a seguir:
 
-1.  Habilitando o monitoramento ao mesmo tempo em que define um novo pool do Lync Server (no Lync Server 2013, o monitoramento é habilitado ou desabilitado pool por pool). Observe que você pode habilitar o monitoramento para um pool sem coletar dados de monitoramento, um processo explicado na seção Como Configurar o Registro de Detalhes de Chamadas e Configurações de Qualidade da Experiência, neste documentação.
+
+</div>
+
+Como você pode esperar, essas alterações têm um grande impacto sobre como os serviços de monitoramento são instalados e gerenciados. Por exemplo, como a função de servidor de monitoramento não existe mais, o nó do servidor de monitoramento foi removido do construtor de topologias do Lync Server; por sua vez, isso significa que você não usa mais o novo assistente do construtor de topologias para adicionar um novo servidor de monitoramento à sua topologia. (Esse assistente não existe mais.) Em vez disso, você geralmente implementará serviços de monitoramento na sua topologia completando as duas etapas a seguir:
+
+1.  Habilitar o monitoramento ao mesmo tempo em que você configura um novo pool do Lync Server. (No Lync Server 2013, o monitoramento é habilitado ou desabilitado em uma base de pool por pool.) Observe que você pode habilitar o monitoramento de um pool sem coletar dados de monitoramento, um processo explicado na seção como configurar a gravação de detalhes da chamada e as configurações de qualidade da experiência desta documentação.
 
 2.  Associando um repositório de monitoramento (ou seja, um banco de dados de monitoramento) ao novo pool. Observe que um único repositório pode ser associado a vários pools. Dependendo do número de usuários hospedados em seus pools de registradores, isso significa que não é necessário configurar um banco de dados de monitoramento separado para cada um dos seus pools. Em vez disso, um único repositório de monitoramento pode ser usado por vários pools.
 
-Embora normalmente seja mais fácil habilitar o monitoramento ao mesmo tempo em que o novo pool é criado, também é possível criar um novo pool com o monitoramento desabilitado. Se o fizer, você pode usar o Construtor de Topologias mais tarde para habilitar o serviço: o Construtor de Topologias fornece uma maneira de habilitar ou desabilitar o monitoramento para um pool ou de associar um pool a um repositório de monitoramento diferente. Tenha em mente que embora não exista mais uma função Servidor de Monitoramento, ainda será necessário criar um ou mais repositórios de monitoramento: bancos de dados de backend usados para armazenar os dados reunidos pelo serviço de monitoramento. Esses bancos de dados de backend podem ser criados usando o Microsoft SQL Server 2008 R2 ou o Microsoft SQL Server 2012.
+Embora normalmente seja mais fácil habilitar o monitoramento ao mesmo tempo em que o novo pool é criado, também é possível criar um novo pool com o monitoramento desabilitado. Se o fizer, você pode usar o Construtor de Topologias mais tarde para habilitar o serviço: o Construtor de Topologias fornece uma maneira de habilitar ou desabilitar o monitoramento para um pool ou de associar um pool a um repositório de monitoramento diferente. Lembre-se de que, mesmo que não haja mais uma função de servidor de monitoramento, você ainda precisará criar uma ou mais lojas de monitoramento: bancos de dados back-end usados para armazenar os dados coletados pelo serviço de monitoramento. Esses bancos de dados back-end podem ser criados usando o Microsoft SQL Server 2008 R2 ou o Microsoft SQL Server 2012.
+
+<div>
+
 
 > [!NOTE]  
-> Se o monitoramento foi habilitado para um pool, você pode desabilitar o processo de coletar dados de monitoramento sem a necessidade de alterar sua topologia: o Shell de Gerenciamento do Lync Server fornece uma maneira de desabilitar (e reabilitar mais tarde) o registro de detalhes de chamadas (CDR) ou a coleta de dados de Qualidade de Experiência (QoE). Para mais informações, consulte a seção Como Configurar o Registro de Detalhes de Chamadas e Configurações de Qualidade de Experiência deste documento.
+> Se o monitoramento tiver sido habilitado para um pool, você poderá desabilitar o processo de coleta de dados de monitoramento sem precisar alterar a topologia: o Shell de gerenciamento do Lync Server permite que você desative (e, em seguida, habilite novamente) registro de detalhes da chamada (CDR) ou qualidade coleta de dados da experiência (QoE). Para obter mais informações, consulte a seção Como Configurar o Registro de Detalhes das Chamadas e Configurações de Qualidade da Experiência deste documento.
 
-Outro aprimoramento importante no monitoramento do Lync Server 2013 é o fato de que os Relatórios de Monitoramento do Lync Server agora suportam IPv6: relatórios que usam o campo Endereço IP exibirão endereços IPv4 ou IPv6 dependendo: 1) da consulta SQL que estiver sendo usada e 2) se o endereço IPv6 está sendo armazenado ou não no banco de dados de monitoramento.
+
+
+</div>
+
+Outro aprimoramento importante para monitorar no Lync Server 2013 é o fato de que os relatórios de monitoramento do Lync Server agora dão suporte a IPv6: os relatórios que usam o campo endereço IP exibirão endereços IPv4 ou IPv6, dependendo de: 1) a consulta SQL sendo usada; e 2) onde ou não o endereço IPv6 está armazenado no banco de dados de monitoramento.
+
+<div>
+
 
 > [!NOTE]  
-> Verifique se o Tipo de inicialização do serviço SQL Server Agent é Automático e se o serviço SQL Server Agent está sendo executado para a Instância SQL que está mantendo os bancos de dados de Monitoramento para que os Trabalhos de manutenção do SQL de monitoramento padrão possam ser executados com base em seu agendamento sob o controle do Serviço SQL Server Agent.
+> Verifique se o Tipo de inicialização do serviço SQL Server Agent é Automático e se o serviço SQL Server Agent está sendo executado para a Instância SQL que está mantendo os bancos de dados de Monitoramento para que os Trabalhos de manutenção do SQL Server de monitoramento padrão possam ser executados com base em seu agendamento sob o controle do Serviço SQL Server Agent.
 
-Esta documentação o guiará pelo processo de instalação e configuração do monitoramento e de Relatórios de Monitoramento para o Lync Server 2013. A documentação fornece instruções passo a passo que o ajudarão a:
 
-  - Habilitar o monitoramento na sua topologia e associar um repositório de monitoramento a um pool de Front End.
 
-  - Instalar o SQL Server Reporting Services e os Relatórios de Monitoramento do Lync Server. Relatórios de Monitoramento são relatórios pré-configurados que fornecem visões diferentes das informações armazenadas em um banco de dados de monitoramento.
+</div>
 
-  - Configurar o registro de detalhes de chamadas (CDR) e a coleta de dados de Qualidade de Experiência (QoE). O registro de detalhes de chamadas fornece uma maneira de rastrear o uso dos recursos do Lync Server, como chamadas telefônicas via Voice over IP (VoIP); mensagens instantâneas (IM); transferências de arquivos; conferências de áudio/vídeo (A/V) e sessões de compartilhamento de aplicativos. Métricas de QoE rastreiam a qualidade de chamadas de áudio/vídeo feitas em sua organização, incluindo itens como o número de pacotes de rede perdidos, ruídos de fundo e o volume de "tremulação" (diferenças no intervalo de pacotes).
+Esta documentação descreve o processo de instalação e configuração de relatórios de monitoramento e monitoramento para o Lync Server 2013. A documentação fornece instruções passo a passo que o ajudarão a:
+
+  - Habilitar o monitoramento na sua topologia e associar um repositório de monitoramento a um Pool de Front-Ends.
+
+  - Instale os relatórios do SQL Server Reporting Services e do Lync Server Monitoring. Relatórios de Monitoramento são relatórios pré-configurados que fornecem visões diferentes das informações armazenadas em um banco de dados de monitoramento.
+
+  - Configurar a coleta de dados de registro de detalhes de chamadas (CDR) e qualidade da experiência (QoE). A gravação de detalhes da chamada fornece uma maneira de acompanhar o uso de recursos do Lync Server, como chamadas telefônicas de voz sobre IP (VoIP); mensagens instantâneas (IM); transferências de arquivos; Conferência de áudio/vídeo (A/V); e sessões de compartilhamento de aplicativos. Métricas de QoE acompanham a qualidade de chamadas de áudio e vídeo feitas em sua organização, incluindo itens como o número de pacotes de rede perdidos, ruídos de fundo e o volume de "tremulação" (diferenças no atraso de pacotes).
 
   - Limpar manualmente registros de CDR e/ou QoE do banco de dados de monitoramento.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

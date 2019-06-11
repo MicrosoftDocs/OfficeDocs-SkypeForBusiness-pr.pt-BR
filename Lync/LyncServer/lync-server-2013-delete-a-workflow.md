@@ -1,48 +1,80 @@
-﻿---
-title: Excluir um fluxo de trabalho
-TOCTitle: Excluir um fluxo de trabalho
-ms:assetid: 0469a6b8-ce1e-459b-bc3d-4c8adf2d97d5
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg520944(v=OCS.15)
-ms:contentKeyID: 49305719
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: excluir um fluxo de trabalho'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete a workflow
+ms:assetid: 0469a6b8-ce1e-459b-bc3d-4c8adf2d97d5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520944(v=OCS.15)
+ms:contentKeyID: 48183274
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1aabb1b46d3f67408d586bada6db3d1efaf0538e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829637"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Excluir um fluxo de trabalho
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-11-01_
+# <a name="delete-a-workflow-in-lync-server-2013"></a>Excluir um fluxo de trabalho no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-11-01_
 
 Use um dos procedimentos a seguir para excluir um fluxo de trabalho.
 
-## Para usar Painel de Controle do Lync Server exclua um fluxo de trabalho
+<div>
+
+## <a name="to-use-lync-server-control-panel-delete-a-workflow"></a>Para usar o painel de controle do Lync Server excluir um fluxo de trabalho
 
 1.  Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação esquerda, clique em **Grupos de Resposta** e clique em **Fluxo de Trabalho**.
+3.  Na barra de navegação à esquerda, clique em **Grupos de Resposta** e em **Fluxo de Trabalho**.
 
-4.  Na página do **Fluxo de Trabalho**, clique em **Criar ou editar um fluxo de trabalho**.
+4.  Na página **Fluxo de Trabalho**, clique em **Criar ou editar um fluxo de trabalho**.
 
-5.  No campo de pesquisa **Selecionar um Serviço**, insira parte ou todo o nome do serviço de **ApplicationServer** que hospeda o fluxo de trabalho que você quer excluir.
+5.  No campo **selecionar um serviço** de pesquisa, digite parte ou todo o nome do serviço **ApplicationServer** que hospeda o fluxo de trabalho que você deseja excluir.
 
-6.  Na lista de serviços, clique no serviço desejado e clique em **OK**.
+6.  Na lista de serviços, clique no serviço desejado e, em seguida, clique em **OK**.
     
-    > [!NOTE]  
-    > A página da Web do Ferramenta de Configuração de Grupo de Resposta é aberta. Você também pode abrir a página da Web do Ferramenta de Configuração de Grupo de Resposta a partir de um navegador, conectando ao <strong>https://<em>&lt;webPoolFqdn&gt;</em>/RgsConfig</strong>.
+    <div>
+    
 
-7.  Sob **Gerenciar um Fluxo de Trabalho Existente**, localize o fluxo de trabalho que você quer excluir e, sob **Ação**, clique em **Excluir**.
+    > [!NOTE]  
+    > A página da ferramenta de configuração de grupo de resposta é aberta. Você também pode abrir a página da Web da ferramenta de configuração de grupo de resposta diretamente de um navegador da web conectando-se à <STRONG>&lt;https://webPoolFqdn&gt;/RgsConfig</STRONG>.
+
+    
+    </div>
+
+7.  Em **gerenciar um fluxo de trabalho existente**, localize o fluxo de trabalho que você deseja excluir e, em seguida, em **ação**, clique em **excluir**.
 
 8.  Clique em **Sim**.
 
-## Para usar cmdlets para excluir um fluxo de trabalho
+</div>
+
+<div>
+
+## <a name="to-use-windows-powershell-to-delete-a-workflow"></a>Para usar o Windows PowerShell para excluir um fluxo de trabalho
 
 1.  Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
 
-2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
 
 3.  Na linha de comando, execute:
     
@@ -51,4 +83,16 @@ Use um dos procedimentos a seguir para excluir um fluxo de trabalho.
     Por exemplo:
     
         Get-CsRgsWorkflow -Identity service:ApplicationServer:redmond.contoso.com -Name "Help Desk" | Remove-CsRgsWorkflow
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

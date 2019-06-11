@@ -1,44 +1,88 @@
-﻿---
-title: 'Lync Server 2013: Importar casos de teste de roteamento de voz'
-TOCTitle: Importar casos de teste de roteamento de voz
-ms:assetid: 6546e24c-9ad2-428b-92b2-63948ed0f884
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398460(v=OCS.15)
-ms:contentKeyID: 49306931
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Importar casos de teste de roteamento de voz'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Import voice routing test cases
+ms:assetid: 6546e24c-9ad2-428b-92b2-63948ed0f884
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398460(v=OCS.15)
+ms:contentKeyID: 48184325
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d8b1aba05447904d4515df7ab6137743edb52ea7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829024"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Importar casos de teste de roteamento de voz no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-21_
+# <a name="import-voice-routing-test-cases-in-lync-server-2013"></a>Importar casos de teste de roteamento de voz no Lync Server 2013
 
-Os casos de teste oferecem uma maneira de testar rotas de voz em sua organização: você define elementos como o número a ser discado e o plano de discagem e a política de voz a serem aplicados. Em seguida, o Lync Server 2013 pode verificar se, dadas as condições, o número fornecido pode ser encaminhado com êxito para a rede PSTN.
+</div>
 
-Os casos de teste, que podem ser criados com o uso do Painel de Controle do Lync Server, geralmente são salvos apenas no servidor em que o caso foi originalmente criado e executado. No entanto, eles podem ser exportados como arquivos XML (com a extensão .vtest) e importados em outros servidores. Isso permite executar os mesmos testes em vários computadores localizados em diferentes pontos da sua topologia.
+<div id="mainSection">
 
-## Para importar um caso de teste de roteamento de voz
+<div id="mainBody">
 
-1.  Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [Delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+<span> </span>
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+_**Tópico da última modificação:** 2013-02-21_
+
+Os casos de teste fornecem uma maneira de testar as rotas de voz em sua organização: você define itens como o número a ser discado e o plano de discagem e a política de voz a ser empregado, e o Lync Server 2013 pode então verificar se, considerando essas condições, o número fornecido pode succes sfully ser roteado para a rede PSTN.
+
+Os casos de teste, que podem ser criados usando o painel de controle do Lync Server, geralmente são salvos apenas no servidor em que o caso foi originalmente criado e executado. No entanto, esses casos de teste podem ser exportados como arquivos XML (com a extensão. vtest) e depois importados em outros servidores. Isso permite que você execute os mesmos testes em computadores diferentes localizados em diferentes pontos da topologia.
+
+<div>
+
+## <a name="to-import-a-voice-routing-test-case"></a>Para importar um caso de teste de roteamento de voz
+
+1.  Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Na barra de navegação esquerdo, clique em **Roteamento de voz**.
 
-4.  No menu **Ações**, clique em **Importar casos de teste**.
+4.  No menu **ações** , clique em **importar casos de teste**.
 
-5.  Localize o arquivo de caso de teste (.vtest) que você deseja importar e clique em **Abrir**.
+5.  Localize o arquivo de caso de teste (. vtest) que você deseja importar e clique em **abrir**.
 
 6.  Clique em **Confirmar** e, em seguida, clique em **Confirmar tudo**.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Sempre que você importa um arquivo .vtest, deve executar o comando <strong>Confirmar todos</strong> para publicar o caso de teste. Para obter detalhes, consulte <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</a> na documentação de operações.
+    > Sempre que importar um arquivo. vtest, você deve executar o comando <STRONG>Commit All</STRONG> para publicar o caso de teste. Para obter detalhes, consulte <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</A> na documentação de operações.
 
-## Consulte Também
+    
+    </div>
 
-#### Tarefas
+</div>
 
-[Exportar casos de teste de roteamento de voz no Lync Server 2013](lync-server-2013-export-voice-routing-test-cases.md)
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Exportar casos de teste de roteamento de voz no Lync Server 2013](lync-server-2013-export-voice-routing-test-cases.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,65 +1,126 @@
-﻿---
-title: Habilitar a qualidade da experiência
-TOCTitle: Habilitar a qualidade da experiência
-ms:assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182583(v=OCS.15)
-ms:contentKeyID: 49308070
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: habilitar a qualidade da experiência'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable Quality of Experience
+ms:assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182583(v=OCS.15)
+ms:contentKeyID: 48185385
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 558e7cfef48a472b4fd9ab7f538197313a8f112a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829273"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Habilitar a qualidade da experiência
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-23_
+# <a name="enable-quality-of-experience-in-lync-server-2013"></a>Habilitar a qualidade de experiência no Lync Server 2013
 
-A QoE (Qualidade da Experiência) registra dados numéricos que indicam a qualidade da mídia e informações sobre participantes, nomes de dispositivo, drivers, endereços IP e tipos de ponto de extremidade envolvidos em chamadas e sessões. Para obter detalhes, consulte [Planejamento de monitoramento no Lync Server 2013](lync-server-2013-planning-for-monitoring.md), na documentação de Planejamento.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-23_
+
+A Qualidade de experiência (QoE) registra os dados numéricos que indicam a qualidade da mídia e informações sobre participantes, nome de dispositivos, drivers, endereços IP e tipos de pontos de extremidade envolvidos nas chamadas e sessões. Para obter detalhes, consulte [planejando a monitoração no Lync Server 2013](lync-server-2013-planning-for-monitoring.md) na documentação de planejamento.
 
 Use o procedimento a seguir para habilitar QoE para toda sua organização ou para cada site em sua organização.
 
+<div>
+
+
 > [!NOTE]  
-> Para habilitar o QoE, é necessário primeiro configurar o monitoramento e um back-end de monitoramento. Para obter detalhes, consulte <a href="lync-server-2013-deploying-monitoring.md">Implantando o monitoramento no Lync Server 2013</a>.
+> Para habilitar a QoE, é necessário primeiro configurar o monitoramento e um back-end de monitoramento. Para obter detalhes, consulte Implantando o <A href="lync-server-2013-deploying-monitoring.md">monitoramento no Lync Server 2013</A>.
 
-## Para habilitar o QoE usando o Painel de Controle do Lync Server
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Lync Server 2013.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+</div>
 
-3.  Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e em **Dados da Qualidade da Experiência**.
+<div>
 
-4.  Na página **Dados da Qualidade da Experiência**, clique no conjunto adequado na tabela, clique em **Ação** e em **habilitar QoE**.
+## <a name="to-enable-qoe-by-using-lync-server-control-panel"></a>Para habilitar a QoE usando o painel de controle do Lync Server
 
-## Para habilitar o QoE pelo uso dos cmdlets Windows PowerShell
+1.  Em uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Lync Server 2013.
 
-É possível habilitar QoE usando o Windows PowerShell e o cmdlet **Set-CsQoEConfiguration**. É possível executar este cmdlet a partir do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-## Para habilitar o QoE para um único local
+3.  Na barra de navegação esquerda, clique em **Monitoramento e arquivamento** e em **Dados de Qualidade da Experiência**.
 
-  - Para habilitar o QoE, defina o parâmetro EnableQoE para True ($True).
+4.  Na página **Dados de Qualidade da Experiência**, clique no conjunto adequado na tabela, clique em **Ação** e em **Habilitar QoE**.
+
+</div>
+
+<div>
+
+## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>Habilitando a QoE usando cmdlets do Windows PowerShell
+
+Você pode habilitar a QoE usando o Windows PowerShell e o cmdlet **set-CsQoEConfiguration** . Você pode executar esse cmdlet a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+
+<div>
+
+## <a name="to-enable-qoe-for-a-single-location"></a>Para habilitar a QoE para um único local
+
+  - Para habilitar a QoE, defina o parâmetro EnableQoE para True ($True).
     
         Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $True
 
-## Para desabilitar o QoE para um único local
+</div>
 
-  - Para desabilitar o QoE, defina o parâmetro EnableQoE para False ($False). Isto não desinstala o monitoramento. Pausa o conjunto e armazena os dados do QoE.
+<div>
+
+## <a name="to-disable-qoe-for-a-single-location"></a>Para desabilitar a QoE para um único local
+
+  - Para desabilitar a QoE, defina o parâmetro EnableQoE para False ($False). Isso não desinstala o monitoramento; pausa o conjunto e armazena os dados de QoE.
     
         Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $False
 
-## Para usar um único comando para habilitar o QoE em vários locais
+</div>
 
-  - Este comando habilita o QoE para todas as definições de configuração do QoE atualmente em uso na sua organização.
+<div>
+
+## <a name="to-use-a-single-command-to-enable-qoe-in-multiple-locations"></a>Para usar um único comando para habilitar a QoE em vários locais
+
+  - Este comando habilita a QoE para todas as definições de configuração de QoE atualmente em uso na sua organização.
     
         Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
 
-Para obter detalhes, consulte [Set-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsQoEConfiguration).
+</div>
 
-## Consulte Também
+Para obter detalhes, consulte [set-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsQoEConfiguration).
 
-#### Outros Recursos
+</div>
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
 
 [Planejamento de monitoramento no Lync Server 2013](lync-server-2013-planning-for-monitoring.md)  
-[Implantando o monitoramento no Lync Server 2013](lync-server-2013-deploying-monitoring.md)
+[Implantando o monitoramento no Lync Server 2013](lync-server-2013-deploying-monitoring.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

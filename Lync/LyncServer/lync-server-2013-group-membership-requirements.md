@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Requisitos de associação ao grupo'
-TOCTitle: Requisitos de associação em grupo
-ms:assetid: 01876843-8717-4e72-baf5-866ac8cceee6
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204623(v=OCS.15)
-ms:contentKeyID: 49305671
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Requisitos de associação ao grupo'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Group membership requirements
+ms:assetid: 01876843-8717-4e72-baf5-866ac8cceee6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204623(v=OCS.15)
+ms:contentKeyID: 48183239
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6aed308674cc334cfb8f3d4f214ce7388ae89fea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829123"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos de associação ao grupo para Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="group-membership-requirements-for-lync-server-2013"></a>Requisitos de associação ao grupo para Lync Server 2013
 
-A tabela a seguir resume o grupo ou grupos que uma pessoa deve pertencer para instalar, gerenciar e solucionar problemas com êxito do Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-05_
+
+A tabela a seguir resume o grupo ou grupos aos quais uma pessoa deve pertencer para instalar, gerenciar e solucionar problemas com êxito no Lync Server 2013.
 
 
 <table>
@@ -25,47 +45,49 @@ A tabela a seguir resume o grupo ou grupos que uma pessoa deve pertencer para in
 </colgroup>
 <thead>
 <tr class="header">
-<th>Executável Lync Server 2013</th>
-<th>Participação no grupo necessária</th>
+<th>Executável do Lync Server 2013</th>
+<th>Associação de grupo necessária</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Setup.exe</strong> - Executável que inicia a instalação das ferramentas administrativas do Lync Server 2013.</p></td>
-<td><p>Membro do grupo de Administradores Locais no computador o qual o executável está em execução. Membro do grupo Usuários do Domínio para ler informações no Serviços de Domínio Active Directory. Este nível de permissão é necessário porque a instalação automática dos pacotes MSI necessários no computador local requer privilégios que permitam ler e gravar dos recursos do computador local protegido, como diretórios de Arquivos de Programas e registros protegidos, como a ramificação da Máquina Local.</p>
-
+<td><p><strong>Setup. exe</strong> – executável que inicia a instalação das ferramentas administrativas do Lync Server 2013.</p></td>
+<td><p>Membro do grupo Administradores local no computador do qual o executável é executado. Membro do grupo usuários do domínio para ler informações nos serviços de domínio Active Directory. Este nível de permissão é necessário porque a instalação automática dos pacotes MSI necessários no computador local requer privilégios que permitem a leitura e gravação em recursos de computador local protegidos, como pastas de arquivos de programas e protegido registro como o hive do computador local.</p>
+<div>
 
 > [!TIP]  
-> Você também pode delegar permissões de instalação para usuários e grupos os quais não deseja fornecer participação no grupo de Administradores de Domínio. Para detalhes, consulte <A href="lync-server-2013-granting-setup-permissions.md">Concedendo permissões de configuração no Lync Server 2013</A> na documentação de Implantação
+> Você também pode delegar permissões de configuração para usuários ou grupos aos quais você não deseja conceder associação no grupo Domain admins. Para obter detalhes, consulte <A href="lync-server-2013-granting-setup-permissions.md">concedendo permissões de configuração no Lync Server 2013</A> na documentação de implantação.
 
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p><strong>Deploy.exe</strong> - Chamado pelo setup.exe, o deploy.exe é responsável pela implantação dos componentes de software para funções do servidor.</p></td>
-<td><p>Membros do grupo de Administradores Locais no computador o qual o executável está executando. Membros do grupo de Usuários de Domínio para ler informações no AD DS. Este nível de permissão é necessário porque a instalação automática dos pacotes MSI necessários no computador local precisam de privilégios que permitam a leitura e gravação nos recursos do computador local protegido, como Arquivos de Programas e registros protegidos, como a ramificação da Máquina Local. A participação no grupo RtcUniversalReadOnlyAdmins é necessária para ler o Repositório de Gerenciamento Central.</p>
+<td><p><strong>Deploy. exe</strong> – chamado pelo Setup. exe, Deploy. exe é responsável pela implantação dos componentes do software para as funções do servidor.</p></td>
+<td><p>Membro do grupo Administradores local no computador do qual o executável é executado. Membro do grupo usuários do domínio para ler informações no AD DS. Este nível de permissão é necessário porque a instalação automática dos pacotes MSI necessários no computador local requer privilégios que permitem a leitura e gravação em recursos de computador local protegidos, como pastas de arquivos de programas e protegido registro como o hive do computador local. A associação no grupo RtcUniversalReadOnlyAdmins é necessária para ler o repositório de gerenciamento central.</p>
+<div>
 
 > [!NOTE]  
-> Se você está executando o Sistema operacional Windows Vista ou Sistema operacional Windows 7, será solicitado pelo Controle de Conta de Usuário (UAC) para prosseguir com a instalação. Se você estiver logado em uma conta de usuário padrão, precisará de alguém que seja membro do grupo de Administradores Locais para fornecer as credenciais quando solicitado para uma conta com permissões de instalar software.
+> Se você estiver executando o sistema operacional Windows Vista ou o sistema operacional Windows 7, será solicitado que o controle de conta de usuário (UAC) prossiga com a instalação. Se você estiver conectado com uma conta de usuário padrão, precisará de alguém que seja membro do grupo local de administradores para fornecer as credenciais quando for solicitada uma conta com permissões para instalar o software.
 
-</td>
+
+</div></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Bootstrapper.exe</strong> - Chamado pelo setup.exe, o bootstrapper.exe é responsável pela implantação e configuração das funções do servidor.</p></td>
-<td><p>Membros do grupo de Administradores Locais no computador o qual o executável está sendo executado. Membro do grupo RTCUniversalServerAdmins para executar o Bootstrapper.exe. Membro do grupo de Usuários do Domínio para ler informações no AD DS. Este nível de permissão é necessário porque a instalação automática dos pacotes MSI necessários no computador local precisam de privilégios que permitam a leitura e gravação nos recursos do computador local protegido, como diretórios de Arquivos de Programas e registros protegidos, como a ramificação da Máquina Local.</p></td>
+<td><p><strong>Bootstrapper. exe</strong> – chamado pelo Setup. exe, bootstrapper. exe é responsável por implantação e configuração de funções de servidor.</p></td>
+<td><p>Membro do grupo Administradores local no computador do qual o executável é executado. Membro do grupo RTCUniversalServerAdmins para executar bootstrapper. exe. Membro do grupo usuários do domínio para ler informações no AD DS. Este nível de permissão é necessário porque a instalação automática dos pacotes MSI necessários no computador local requer privilégios que permitem a leitura e gravação em recursos de computador local protegidos, como pastas de arquivos de programas e protegido registro como o hive do computador local.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>TopologyBuilder</strong> - Interface guiada pelo assistente para criar, visualizar, ajustar e validar topologias Lync Server 2013.</p></td>
-<td><p>Membros do grupo de Administradores Locais o qual o executável está sendo executado para visualizar a topologia. Membros do grupo RTCUniversalServerAdmins para alterar as definições de configuração. Membros do grupo RTCUniversalServerAdmins e grupo de Administradores de Domínio ou membros do grupo RTCUniversalServerAdmins (somente se o grupo possuir permissões de instalação delegadas) para publicar a topologia. Para detalhes sobre a delegação de permissões de instalação para permitir que membros do grupo RTCUniversalServerAdmins publiquem a topologia sem serem membros do grupo de Administradores de Domínio, consulte <a href="lync-server-2013-granting-setup-permissions.md">Concedendo permissões de configuração no Lync Server 2013</a> na documentação de Implantação.</p></td>
+<td><p><strong>TopologyBuilder</strong> – interface do usuário orientada por assistente para criar, exibir, ajustar e validar topologias do Lync Server 2013.</p></td>
+<td><p>Membro do grupo Administradores local no computador do qual o executável é executado para exibir a topologia. Membro do grupo RTCUniversalServerAdmins para alterar as definições de configuração. Membro do grupo RTCUniversalServerAdmins e do grupo Administradores do domínio ou membro do grupo RTCUniversalServerAdmins (apenas se o grupo tiver recebido permissões de configuração do representante), para publicar a topologia. Para obter detalhes sobre como delegar permissões de configuração para permitir que os membros do grupo RTCUniversalServerAdmins publiquem a topologia sem serem membros do grupo Domain admins, consulte <a href="lync-server-2013-granting-setup-permissions.md">concedendo permissões de instalação no Lync Server 2013</a> na implantação documentação.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>AdminUIHost</strong> - Interface de usuário gráfico com base na Web para gerenciamento do Lync Server 2013.</p></td>
-<td><p>Membro do grupo ou outra função RBAC o qual a tarefa administrativa específica é atribuída. As implementações do Painel de Controle do Lync Server 2013 são alteradas ao executar cmdlets Shell de Gerenciamento do Lync Server 2013. Para uma lista de funções predefinidas e membros de cmdlets que podem ser executados, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planejamento de controle de acesso baseado em função no Lync Server 2013</a> na documentação de Planejamento.</p></td>
+<td><p><strong>AdminUIHost</strong> – interface de usuário gráfica baseada na Web para o gerenciamento do Lync Server 2013.</p></td>
+<td><p>Membro do grupo CsAdministrator ou membro de outra função de controle de acesso baseado em função (RBAC) à qual a tarefa administrativa específica é atribuída. O painel de controle do Lync Server 2013 implementa alterações de configuração Executando cmdlets do Shell de gerenciamento do Lync Server 2013. Para obter uma lista de funções predefinidas e os membros cmdlets podem ser executados, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">planejando o controle de acesso baseado em função no Lync Server 2013</a> na documentação de planejamento.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>PowerShell.exe com o módulo Lync Server 2013 carregado</strong> - Ferramenta administrativa de linha de comando com cmdlets específicos para gerenciar o Lync Server 2013.</p></td>
-<td><p>Membro do grupo CsAdministrator ou membro de outra função do RBAC o qual o cmdlet específico foi atribuído. Para uma lista de funções predefinidas e membros cmdlets que podem ser executados, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planejamento de controle de acesso baseado em função no Lync Server 2013</a> na documentação de Planejamento.</p>
-<p>Ou, membro de um ou mais dos seguintes grupos, dependendo do cmdlet:</p>
+<td><p><strong>PowerShell. exe com o módulo do Lync Server 2013 carregado</strong> – ferramenta administrativa de linha de comando com cmdlets específicos para gerenciamento do Lync Server 2013.</p></td>
+<td><p>Membro do grupo CsAdministrator ou membro de outra função RBAC à qual o cmdlet específico foi atribuído. Para obter uma lista de funções predefinidas e os membros cmdlets podem ser executados, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">planejando o controle de acesso baseado em função no Lync Server 2013</a> na documentação de planejamento.</p>
+<p>Ou um membro de um ou mais dos seguintes grupos, dependendo do cmdlet:</p>
 <ul>
 <li><p>RTCUniversalServerAdmins</p></li>
 <li><p>RTCUniversalUserAdmins</p></li>
@@ -74,4 +96,15 @@ A tabela a seguir resume o grupo ou grupos que uma pessoa deve pertencer para in
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

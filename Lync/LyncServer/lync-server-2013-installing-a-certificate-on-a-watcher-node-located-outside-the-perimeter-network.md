@@ -1,21 +1,51 @@
-﻿---
-title: Instalando um Certificado no Nó Inspetor Localizado Fora da Rede do Perímetro
-TOCTitle: Instalando um Certificado no Nó Inspetor Localizado Fora da Rede do Perímetro
-ms:assetid: 825c9c02-1951-4d7a-a25e-a313a85333f8
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688113(v=OCS.15)
-ms:contentKeyID: 49886286
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: instalando um certificado em um nó de Inspetor localizado fora da rede de perímetro'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Installing a certificate on a watcher node located outside the perimeter network
+ms:assetid: 825c9c02-1951-4d7a-a25e-a313a85333f8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688113(v=OCS.15)
+ms:contentKeyID: 49733711
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1479ffdd7f6652b96f3015e047194d76bf1e8978
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828993"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Instalando um Certificado no Nó Inspetor Localizado Fora da Rede do Perímetro
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network-of-lync-server-2013"></a>Instalar um certificado em um nó de Inspetor localizado fora da rede de perímetro do Lync Server 2013
 
-Agentes do System Center Operations Manager executando em uma rede de perímetro (como um servidor de borda Lync Server), fora da empresa (como um nó watcher externo de transação resumida) ou entre uma inicialização confiável Serviços de Domínio Active Directory, podem exigir a configuração de um Servidor de Gateway do System Center Operations Manager. Essa função do servidor permite que os agentes não tenham uma relação confiável com o Servidor de Gerenciamento Raiz para gerar alertas. Para mais detalhes, consulte "Gerenciar Servidores de Gateway em Operations Manager 2007" no System Center Operations Manager TechNet Library em [http://go.microsoft.com/fwlink/?linkid=268703\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=268703%26clcid=0x416).
+</div>
 
-Se implantar um agente em um desses locais, você também deverá solicitar e configurar um certificado que habilite o nó watcher para enviar alertas a System Center Operations Manager. Para simplificar esse processo, a equipe do Operations Manager criou um conjunto de utilitários que permitem que você solicite e instale o tipo certo de certificado no computador nó watcher. Para detalhes e para saber como baixar esses utilitários, consulte o artigo de blog "Obtaining Certificates for Non-Domain Joined Agents Made Easy With Certificate Generation Wizard" (Obtendo certificados para agentes não ingressados e que não são de domínio com o Assistente de geração de certificado) em [http://go.microsoft.com/fwlink/?linkid=267421\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=267421%26clcid=0x416).
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-22_
+
+Agentes do System Center Operations Manager em execução em uma rede de perímetro (como um servidor de borda do Lync Server), fora da empresa (como um nó de Inspetor de transação sintético externo) ou em um limite de confiança dos serviços de domínio Active Directory, podem exija a configuração de um servidor de gateway do System Center Operations Manager. Esta função de servidor permite que agentes que não têm uma relação de confiança com o servidor de gerenciamento raiz gerem alertas. Para obter detalhes, consulte "Gerenciando servidores de gateway no Operations Manager 2007", na biblioteca do TechNet [http://go.microsoft.com/fwlink/p/?LinkId=268703](http://go.microsoft.com/fwlink/p/?linkid=268703)do System Center Operations Manager em.
+
+Se você implantar um agente em um desses locais, também será necessário solicitar e configurar um certificado que permita que o nó do Inspetor envie alertas para o System Center Operations Manager. Para simplificar esse processo, a equipe do Operations Manager criou um conjunto de utilitários que permitem que você solicite e instale o tipo correto de certificado no computador do nó do Inspetor. Para obter detalhes e baixar esses utilitários, consulte o artigo "obtendo certificados para agentes associados a um domínio fácil com o assistente de geração de certificados" em [http://go.microsoft.com/fwlink/p/?LinkId=267421](http://go.microsoft.com/fwlink/p/?linkid=267421).
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

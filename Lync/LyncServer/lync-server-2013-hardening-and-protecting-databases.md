@@ -1,50 +1,102 @@
-﻿---
-title: 'Lync Server 2013: Protegendo os bancos de dados'
-TOCTitle: Protegendo os bancos de dados do Lync Server 2013
-ms:assetid: 6953e721-3511-4235-b848-51bab093dc89
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn518330(v=OCS.15)
-ms:contentKeyID: 60505936
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Protegendo os bancos de dados'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hardening and protecting the databases of Lync Server 2013
+ms:assetid: 6953e721-3511-4235-b848-51bab093dc89
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518330(v=OCS.15)
+ms:contentKeyID: 62625490
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 265ca1058b4f3b41c5f0dbc4c5b2cdcd631fa911
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829093"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Protegendo os bancos de dados do Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="hardening-and-protecting-the-databases-of-lync-server-2013"></a>Protegendo os bancos de dados do Lync Server 2013
 
-O Microsoft Lync Server 2013 também depende de bancos de dados do SQL Server para armazenar informações do usuário, o estado da conferência, os dados de arquivamento e os registros de detalhes da chamada (CDRs). Você pode maximizar a disponibilidade dos dados do Lync Server 2013 nos bancos de dados back-end do Lync Server, particionando os dados do aplicativo de modo que melhore a tolerância a falhas e simplifique a solução de problemas. Para atingir essas metas, particione os dados do aplicativo:
+</div>
 
-  - **Usando práticas recomendadas de particionamento do servidor**   Separe o sistema operacional, o aplicativo e os arquivos de programa dos arquivos de dados.
+<div id="mainSection">
 
-  - **Armazenando arquivos de log de transação e arquivos de banco de dados**   Armazene esses arquivos separadamente para aumentar a tolerância a falhas e otimizar a recuperação, e armazene-os em um disco ou volume criptografado.
+<div id="mainBody">
 
-  - **Usando a clusterização de servidor**   Clusterize os servidores back-end para otimizar a disponibilidade do sistema do Lync Server 2013.
+<span> </span>
 
-  - **Verifique se todos os backups de dados estão criptografados e corretamente tratados**    Mídias de backup perdidas, descartadas ou colocadas incorretamente podem significar uma grande ameaça para a segurança dos dados nas implantações do Lync Server 2013
+_**Tópico da última modificação:** 2013-12-05_
 
-Em qualquer servidor Lync Server 2013, exceto no servidor Standard Edition, a instância do SQL Server Express (instância RTCLOCAL) não pode ser acessada remotamente, e nenhuma exceção de firewall local é criada, exceto para o SQL Server Express em um servidor Standard Edition. Em um servidor Standard Edition, o banco de dados back-end e o Repositório de Gerenciamento Central (CMS) são configurados para serem remotamente acessíveis. Para aumentar a segurança dos bancos de dados do SQL Server, faça o seguinte:
+O Microsoft Lync Server 2013 também depende dos bancos de dados do SQL Server para armazenar informações do usuário, o estado da conferência, os dados de arquivamento e os registros de detalhes da chamada (CDRs). Você pode maximizar a disponibilidade dos dados do Lync Server 2013 em bancos de dados back-end do Lync Server, Particionando os dados do aplicativo de forma a melhorar a tolerância a falhas e simplificar a solução de problemas. Para alcançar essas metas, Particione os dados do aplicativo:
 
-  - Personalize o firewall do SQL Server Express nos servidores Standard Edition, limitando o escopo dos servidores que podem acessar remotamente o banco de dados. Por padrão, qualquer endereço IP pode acessar remotamente o banco de dados.
+  - **Usando as práticas**   recomendadas de particionamento do servidor, separe os arquivos de sistema operacional, aplicativo e programas dos arquivos de dados.
 
-  - Use o SQL Server Configuration Manager para especificar o protocolos, os endereços IP e as portas para acesso remoto do SQL Server:
+  - **O armazenamento de arquivos de log de transação e arquivos**   de banco de dados armazena esses arquivos separadamente para aumentar a tolerância a falhas e otimizar a recuperação e armazená-los em um disco ou volume criptografado.
+
+  - **Usar**   cluster de cluster de servidor os servidores back-end para otimizar a disponibilidade do sistema do Lync Server 2013.
+
+  - **Certifique-se de que todos os backups de dados sejam criptografados e devidamente manipulados**   , descartados ou que não tenham sido feitas mídia de backup possam representar uma ameaça significativa à segurança de dados para implantações do Lync Server 2013
+
+Em qualquer servidor do Lync Server 2013, exceto o Standard Edition Server, a instância do SQL Server Express (instância RTCLOCAL) não é acessível remotamente, e nenhuma exceção de firewall local é criada, exceto para o SQL Server Express em um servidor Standard Edition. Em um servidor Standard Edition, o banco de dados back-end e o repositório de gerenciamento central (CMS) estão configurados para serem acessíveis remotamente. Para proteger bancos de dados do SQL Server, você pode fazer o seguinte:
+
+  - Personalize o Firewall do SQL Server Express nos servidores do Standard Edition, limitando o escopo de servidores que podem acessar o banco de dados remotamente. Por padrão, qualquer endereço IP pode acessar remotamente o banco de dados.
+
+  - Use o Gerenciador de configuração do SQL Server para especificar os protocolos, endereços IP e portas para o acesso remoto do SQL Server:
     
-      - O Lync Server 2013 usa o protocolo TCP/IP. Ele oferece suporte a IP versão 4 (IPv4), mas não a IP versão 6 (IPv6).
+      - O Lync Server 2013 usa o protocolo TCP/IP. Ele dá suporte a IP versão 4 (IPv4), mas não IP versão 6 (IPv6).
         
+        <div>
+        
+
         > [!NOTE]  
-        > O Lync Server 2013 pode funcionar em uma rede com pilha IP dupla habilitada.    
-      - O Lync Server 2013 oferece suporte a vários endereços IP (cartões de endereço de rede com diversas bases). Você pode especificar que o SQL Server realize a escuta apenas de endereços IP específicos (endereço individual ou por sub-rede) e use apenas protocolos específicos.
+        > O Lync Server 2013 pode funcionar em uma rede com a pilha de IP duplo habilitada.
+
+        
+        </div>
     
-      - O Lync Server 2013 oferece suporte a portas estáticas e dinâmicas do SQL Server.
+      - O Lync Server 2013 dá suporte a vários endereços IP (cartões de endereço de rede de hospedagem múltipla). Você pode especificar que o SQL Server escuta apenas em endereços IP específicos (endereço individual ou sub-rede) e usar somente protocolos específicos.
+    
+      - O Lync Server 2013 dá suporte a portas estáticas e dinâmicas do SQL Server.
 
-  - Execute o SQL Server em uma porta estática (não-padrão) e não execute o SQL Server Browser (assim ele não poderá relatar a porta de listening ao cliente). Isso requer uma configuração personalizada em cada cliente do SQL Server, incluindo servidores front-end, Monitoring Server, servidor de arquivamento, consoles administrativos (que estejam executando o Shell de Gerenciamento do Lync Server, Painel de Controle do Lync Server ou Construtor de Topologias) e todos os outros servidores que executam bancos de dados do Lync Server).
+  - Execute o SQL Server em uma porta estática (não padrão) e não execute o navegador do SQL Server (para que ele não possa relatar a porta de escuta para o cliente). Isso requer uma configuração personalizada em cada cliente SQL Server, incluindo servidores front-end, Monitoring Server, servidor de arquivamento e consoles administrativos (executando o Shell de gerenciamento do Lync Server, o painel de controle do Lync Server ou o construtor de topologia) e todos os outros servidores que executam bancos de dados do Lync Server).
+
+<div>
+
 
 > [!NOTE]  
-> O acesso a bancos de dados deve ser limitado a administradores de banco de dados confiáveis. Um administrador de banco de dados mal-intencionado pode inserir ou modificar dados nos bancos de dados para obter privilégios sobre os servidores do Lync Server 2013 ou obter informações confidenciais dos serviços, mesmo se o administrador do banco de dados não tiver recebido acesso direto ou controle dos servidores do Lync Server 2013.
+> O acesso a bancos de dados deve estar limitado a administradores de banco de dados confiáveis. Um administrador de banco de dados mal-intencionado pode inserir ou modificar dados em bancos de dados para obter privilégios nos servidores do Lync Server 2013 ou obter informações confidenciais dos serviços, mesmo se o administrador do banco de dados não tiver recebido acesso direto ou controle dos servidores do Lync Server 2013.
 
-Para obter informações detalhadas sobre configurações personalizadas e aumento da segurança dos bancos de dados do SQL Server, consulte o artigo "Usando o Lync Server 2010 com uma configuração de rede personalizada do SQL Server" (em inglês) do blog NextHop em [http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008).
+
+
+</div>
+
+Para obter detalhes sobre configurações personalizadas e proteção de bancos de dados do SQL Server, consulte o artigo sobre o blog NextHop, "usando o Lync Server 2010 com uma configuração de rede [http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008)personalizada do SQL Server" em.
+
+<div>
+
 
 > [!NOTE]  
-> Você também pode aumentar a segurança dos sistemas operacionais e servidores de aplicativo, e usar a Política de Grupo para implementar bloqueios de segurança na implantação do Lync Server. Para obter detalhes, consulte <a href="lync-server-2013-hardening-and-protecting-servers-and-applications.md">Protegendo servidores e aplicativos para Lync Server 2013</a>.
+> Você também pode proteger sistemas operacionais e servidores de aplicativos, e pode usar a política de grupo para implementar bloqueios de segurança na implantação do Lync Server. Para obter detalhes, consulte <A href="lync-server-2013-hardening-and-protecting-servers-and-applications.md">protegendo e protegendo servidores e aplicativos para o Lync Server 2013</A>.
+
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

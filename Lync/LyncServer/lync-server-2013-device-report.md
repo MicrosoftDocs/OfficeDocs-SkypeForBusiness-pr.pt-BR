@@ -1,25 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Relatório de Dispositivos'
-TOCTitle: Relatório de Dispositivos
-ms:assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg615049(v=OCS.15)
-ms:contentKeyID: 49308592
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: relatório de dispositivo'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Device Report
+ms:assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615049(v=OCS.15)
+ms:contentKeyID: 48185807
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e172837622c4ad40a29cca74dcaf42497c4b2bd5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829448"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Relatório de Dispositivos no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="device-report-in-lync-server-2013"></a>Relatório de dispositivo no Lync Server 2013
 
-O Relatório de Dispositivos pode ser melhor chamado de Relatório de Microfones e Alto-Falantes; isso porque o Relatório de Dispositivos recupera métricas relacionadas às chamadas (tais como o percentual de chamadas ruins, eco e tempo de troca de voz) agrupadas por microfone e alto-falante usados na chamada. Se estiver interessado em telefones IP (também conhecidos popularmente como "dispositivos"), use o [Relatório de Inventário de Telefones IP no Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md).
+</div>
 
-O Relatório de Dispositivos é extremamente útil para os administradores ao determinar se um tipo específico de dispositivo está experienciando mais chamadas de baixa qualidade do que outros. Por outro lado, pode influenciar decisões relacionadas à compra de novos dispositivos ou à substituição de dispositivos existentes.
+<div id="mainSection">
 
-Por padrão, as informações exibidas no Relatório de Dispositivos também se baseiam no microfone (o dispositivo de captura) e alto-falantes/headset (o dispositivo de renderização) usados na chamada. Por exemplo, suponha que você tem vários usuários que utilizam os seguintes dispositivos de captura e renderização: por padrão, as informações exibidas no Relatório de Dispositivos também se baseiam no microfone (o dispositivo de captura) e alto-falantes/headset (o dispositivo de renderização) usados na chamada. Por exemplo, suponha que você tem vários usuários que utilizam os seguintes dispositivos de captura e renderização:
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-11-12_
+
+O Relatório de Dispositivos poderia trocar de nome para Relatório de Microfones e Alto-Falantes; isso porque o Relatório de Dispositivos recupera métricas relacionadas às chamadas (como o percentual de chamadas ruins, eco e tempo de troca de voz) agrupadas por microfone e alto-falante usados na chamada. Se você estiver interessado em telefones IP (também chamados de "dispositivos"), use o relatório de [inventário de telefone IP no Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md) em vez disso.
+
+O Relatório de Dispositivos é extremamente útil para os administradores ao determinar se um tipo específico de dispositivo está apresentando mais chamadas de baixa qualidade que outros. Por outro lado, pode influenciar decisões relacionadas à compra de novos dispositivos ou à substituição de dispositivos existentes.
+
+Por padrão, as informações exibidas no Relatório de Dispositivos também se baseiam no microfone (o dispositivo de captura) e alto-falantes/headset (o dispositivo de renderização) usados na chamada. Por exemplo, vamos supor que você tenha vários usuários que utilizam os seguintes dispositivos de captura e renderização: por padrão, as informações exibidas no Relatório de Dispositivos também se baseiam no microfone (o dispositivo de captura) e alto-falantes/headset (o dispositivo de renderização) usados na chamada. Por exemplo, vamos supor que você tenha vários usuários que utilizam os seguintes dispositivos de captura e renderização:
 
   - Dispositivo de captura -- Microfone (SoundMAX Integrated Digital HD Audio)
 
@@ -51,7 +71,7 @@ Se esses usuários fizerem um total de 254 chamadas, você verá uma entrada com
 </table>
 
 
-Agora, suponha que você tem um número de usuários que usam esse mesmo dispositivo de captura, mas usam um dispositivo de renderização diferente. Neste caso, você terá uma segunda linha no relatório, uma para uma para essa combinação única de dispositivo de captura e dispositivo de renderização:
+Agora, suponha que você tem um número de usuários que usam esse mesmo dispositivo de captura, mas que usam um dispositivo de renderização diferente. Neste caso, você terá uma segunda linha no relatório, uma para essa combinação exclusiva de dispositivo de captura e dispositivo de renderização:
 
 
 <table>
@@ -105,21 +125,27 @@ Se você preferir ver os totais combinados para um determinado dispositivo (por 
 </table>
 
 
-## Acessando o relatório de dispositivos
+<div>
 
-O Relatório de Dispositivos é geralmente acessado na página inicial dos Relatórios de Monitoramento. Entretanto, se você estiver exibindo o [Relatório Detalhado de Chamadas no Lync Server 2013](lync-server-2013-call-detail-report.md), poderá obter os detalhes de um dispositivo específico no Relatório de Dispositivos clicando nas seguintes métricas:
+## <a name="accessing-the-device-report"></a>Acessando o relatório de dispositivos
+
+O Relatório de Dispositivos é geralmente acessado na página inicial dos Relatórios de Monitoramento. No entanto, se você estiver exibindo o [relatório de detalhes de chamadas no Lync Server 2013](lync-server-2013-call-detail-report.md) , poderá fazer uma busca detalhada no relatório de dispositivo para um dispositivo específico clicando em uma das seguintes métricas:
 
   - Dispositivo de captura
 
   - Dispositivo de renderização
 
-No Relatório de Dispositivos, você pode obter detalhes do [Relatório de Lista de chamadas no Lync Server 2013](lync-server-2013-call-list-report.md) clicando nas seguintes métricas:
+No relatório do dispositivo, você pode fazer uma busca detalhada [no relatório de lista de chamadas no Lync Server 2013](lync-server-2013-call-list-report.md) clicando em uma das seguintes métricas:
 
   - Volume da chamada
 
-  - Porcentagem de chamada inválida
+  - Porcentagem de chamadas ruins
 
-## Como usar melhor o Relatório de Dispositivos
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-device-report"></a>Como usar melhor o Relatório de Dispositivos
 
 Tratando-se de nomes de dispositivos, o Relatório de Dispositivos é extremamente detalhado. Por exemplo, suponha que você tem os seguintes dispositivos de captura:
 
@@ -159,10 +185,17 @@ Tratando-se de nomes de dispositivos, o Relatório de Dispositivos é extremamen
 
   - Microfone Aastra 6725ip (Dispositivo de áudio USB)-V0
 
-> [!NOTE]  
-> Tenha em mente que os nomes dos dispositivos de captura podem não ser os mesmos caso esteja executando versões traduzidas do Lync Server 2013. Um dispositivo denominado Microfone Aastra 6725ip (Aastra 6725ip)-V0 em português pode ter um nome diferente em francês ou espanhol.
+<div>
 
-Muitas vezes você desejará este nível de detalhe; mas em outros momentos, você só estará interessado na quantidade de chamadas que usam um microfone Aastra, independente do número do modelo. Uma forma de obter informações deste tipo é exportar os dados do Relatório de Dispositivos para o Microsoft Excel e salvar esses dados em um arquivo de valores separados por vírgulas (por exemplo, C:\\Data\\Devices\_Report.csv). É possível usar um conjunto de comandos parecidos com esses para importar o arquivo .CSV no Windows PowerShell e relatar o número total de chamadas feitas usando um dispositivo de captura Aastra:
+
+> [!NOTE]  
+> Lembre-se de que capturar nomes de dispositivos podem não ser iguais se você estiver executando versões localizadas do Lync Server 2013. Um dispositivo denominado Microfone Aastra 6725ip (Aastra 6725ip)-V0 em português pode ter um nome diferente em francês ou espanhol.
+
+
+
+</div>
+
+Muitas vezes você precisará desse nível de detalhe; mas, em outros momentos, você só estará interessado na quantidade de chamadas que usam um microfone Aastra, independente do número do modelo. Uma maneira de obter informações como essa é exportar os dados do relatório do dispositivo para o Microsoft Excel e, em seguida, salvar esses dados em um arquivo de valores separados por vírgula\\(\\por\_exemplo, C: dispositivos de dados Report. csv). É possível usar um conjunto de comandos parecidos com esses para importar o arquivo .CSV no Windows PowerShell e relatar o número total de chamadas feitas usando um dispositivo de captura Aastra:
 
     $devices = Import-Csv "C:\Data\Device_Report.csv
     $sum = $devices | Where-Object {$_."Capture device" -match "Aastra"}
@@ -173,13 +206,17 @@ Esse procedimento retornará um único valor que representa o número total de c
 
     384
 
-## Filtros
+</div>
 
-Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado ou exibir os dados devolvidos em formas diferentes. Por exemplo, o Relatório de Dispositivo permite filtrar coisas como o tipo de chamada (isto é, a chamada foi realizada pelo cliente), uma chamada de conferência ou chamada PSTN. Também é possível escolher como os dados devem ser agrupados. Neste caso, os dispositivos são agrupados por hora, dia, semana ou mês.
+<div>
 
-A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dispositivo.
+## <a name="filters"></a>Filtros
 
-### Filtros do Relatório de Dispositivo
+Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado ou exibir os dados devolvidos em formas diferentes. Por exemplo, o Relatório de Dispositivos permite filtrar coisas como o tipo de chamada (isto é, a chamada foi realizada pelo cliente), uma chamada de conferência ou chamada PSTN. É possível também escolher como os dados devem ser agrupados. Neste caso, os dispositivos são agrupados por hora, dia, semana ou mês.
+
+A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dispositivos.
+
+### <a name="device-report-filters"></a>Filtros do Relatório de Dispositivos
 
 <table>
 <colgroup>
@@ -296,10 +333,10 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Disp
 <dd><p>[Todos]</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Interna</p>
+<dd><p>Interno</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Externa</p>
+<dd><p>Externo</p>
 </dd>
 </dl></td>
 </tr>
@@ -329,7 +366,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Disp
 <dd><p>VPN</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Não-VPN</p>
+<dd><p>Não VPN</p>
 </dd>
 </dl></td>
 </tr>
@@ -341,7 +378,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Disp
 <dd><p>Dispositivo de captura</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Dispositivo de renderização</p>
+<dd><p>Dispositivos de renderização</p>
 </dd>
 <dt><span></span></dt>
 <dd><p>Par de dispositivos de captura/renderização</p>
@@ -352,19 +389,23 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Disp
 <td><p><strong>Nome do dispositivo</strong></p></td>
 <td><p>Nome do dispositivo de captura ou renderização. É possível inserir o nome completo do dispositivo ou qualquer parte do nome. Por exemplo para encontrar o dispositivo Microfone (Microsoft LifeCam VX-1000.), é possível inserir o nome completo do dispositivo, como a seguir:</p>
 <p>Microfone (Microsoft LifeCam VX-1000.)</p>
-<p>Em alternativa, é possível inserir apenas uma parte do nome. Por exemplo:</p>
+<p>Como alternativa, é possível inserir apenas uma parte do nome. Por exemplo:</p>
 <p>LifeCam</p>
-<p>Observe que o filtro anterior retorna qualquer dispositivo que contém a cadeia de caracteres &quot;LifeCam&quot; em qualquer local do seu nome.</p></td>
+<p>Observe que o filtro anterior retorna qualquer dispositivo que contém a cadeia &quot;de&quot; caracteres LifeCam em qualquer lugar em seu nome.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Métricas
+</div>
 
-A tabela a seguir lista a informação oferecida no Relatório do Dispositivo.
+<div>
 
-### Métricas do Relatório do Dispositivo
+## <a name="metrics"></a>Métricas
+
+A tabela a seguir lista a informação apresentada no Relatório de Dispositivos.
+
+### <a name="device-report-metrics"></a>Métricas do Relatório de Dispositivos
 
 <table>
 <colgroup>
@@ -386,7 +427,7 @@ A tabela a seguir lista a informação oferecida no Relatório do Dispositivo.
 <td><p>Dispositivo (por exemplo, um microfone ou webcam) usado para transmitir áudio.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Dispositivos de renderização</strong></p></td>
+<td><p><strong>Dispositivo de renderização</strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Dispositivo (por exemplo, um fone de ouvido ou alto falantes) usados para receber áudio.</p></td>
 </tr>
@@ -396,12 +437,12 @@ A tabela a seguir lista a informação oferecida no Relatório do Dispositivo.
 <td><p>Número total de chamadas realizadas.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Porcentagem de chamada inválida</strong></p></td>
+<td><p><strong>Porcentagem de chamadas ruins</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Porcentagem de chamadas classificadas como &quot;inválidas&quot;. Uma chamada inválida é qualquer chamada na qual pelo menos uma métrica medida excede o valor permitido (por exemplo, uma chamada com jitter excessivo).</p></td>
+<td><p>Porcentagem de chamadas classificadas como &quot;ruins. &quot; Uma chamada ruim é qualquer chamada que pelo menos uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada que sofreu tremulação excessiva).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Usuários exclusivos</strong></p></td>
+<td><p><strong>Usuários únicos</strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Usuários exclusivos que utilizaram o dispositivo. Se um usuário utilizou o dispositivo 13 vezes, ele ou ela deve contar como um usuário exclusivo, o mesmo que um usuário que utilizou o dispositivo uma única vez.</p></td>
 </tr>
@@ -411,22 +452,22 @@ A tabela a seguir lista a informação oferecida no Relatório do Dispositivo.
 <td><p>Porcentagem da chamada que precisou ser conduzida no modo half duplex para evitar o eco. No modo half duplex, a comunicação pode passar apenas em uma direção por vez, semelhante a forma que os usuários revezam ao se comunicar com um walkie-talkie.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Taxa de microfone não funcionando</strong></p></td>
+<td><p><strong>Taxa de microfones não funcionando</strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Porcentagem da chamada na qual o dispositivo de captura não estava funcionando em um nível aceitável. Um valor alto sugere que os problemas de qualidade da chamada ocorreram devido principalmente ao dispositivo de captura não estar funcionando conforme esperado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Taxa de alto falante não funcionando</strong></p></td>
+<td><p><strong>Taxa de alto falantes não funcionando</strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Porcentagem da chamada na qual o dispositivo de renderização não estava funcionando em um nível aceitável. Um valor alto sugere que os problemas de qualidade da chamada ocorreram devido principalmente ao dispositivo de renderização não estar funcionando conforme esperado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Chamadas com opção de voz (%)</strong></p></td>
+<td><p><strong>Chamadas com troca de voz (%)</strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Porcentagem do total de chamadas que precisaram ser colocadas no modo half duplex. No modo half duplex, a comunicação pode passar apenas em uma direção por vez, semelhante a forma que os usuários revezam ao se comunicar com um walkie-talkie.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Eco do microfone em (%)</strong></p></td>
+<td><p><strong>Microfone com eco em (%)</strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Porcentagem de tempo em que o eco foi detectado no fluxo de captura do microfone. Normalmente, os valores são baixos para fones de ouvido ou celulares e mais altos para viva voz e auto falante. Para dispositivos que suportam cancelamento de eco acústico na placa, os altos níveis indicam vazamento de eco. Para outros dispositivos, essa métrica não deve ser utilizada para avaliar a qualidade do dispositivo.</p></td>
 </tr>
@@ -438,9 +479,21 @@ A tabela a seguir lista a informação oferecida no Relatório do Dispositivo.
 <tr class="even">
 <td><p><strong>Chamadas com eco (%)</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Porcentagem do total de chamadas que tiveram eco excedendo o nível aceitável.</p>
-<p></p></td>
+<td><p>Porcentagem do total de chamadas que tiveram eco excedendo o nível aceitável.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

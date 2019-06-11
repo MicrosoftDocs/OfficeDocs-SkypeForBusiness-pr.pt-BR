@@ -1,35 +1,65 @@
-﻿---
-title: 'Lync Server 2013: Tronco M:N'
-TOCTitle: Tronco M:N
-ms:assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398971(v=OCS.15)
-ms:contentKeyID: 49308315
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: M:N trunk'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: M:N trunk
+ms:assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398971(v=OCS.15)
+ms:contentKeyID: 48185592
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a99a76c2291b8ffcfcb1c68367ab6a999211c24f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828916"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tronco M:N no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-01_
+# <a name="mn-trunk-in-lync-server-2013"></a>Tronco M:N no Lync Server 2013
 
-O Lync Server 2013 suporta maior flexibilidade na definição de um tronco para fins de roteamento de chamada de versões anteriores. Um tronco é uma associação lógica entre um Servidor de Mediação e um número de porta do ouvinte com um gateway e um número de porta do ouvinte. Isto quer dizer várias coisas: Um Servidor de Mediação pode ter vários troncos no mesmo gateway; um Servidor de Mediação pode ter vários troncos com diferentes gateways; ao contrário, um gateway pode ter vários troncos para Servidor de Mediação diferentes.
+</div>
 
-Um tronco raiz ainda precisa ser criado quando um gateway é adicionado à topologia do Lync usando o Construtor de Topologias. O número de gateways que um determinado Servidor de Mediação pode lidar depende da capacidade de processamento do servidor durante as horas de pico. Se você implantar um Servidor de Mediação no hardware que excede os requisitos mínimos de hardware para o Lync Server 2013, conforme descrito no [Hardware suportado para Lync Server 2013](lync-server-2013-supported-hardware.md) na documentação de Suportabilidade, a estimativa de quantas chamadas não bypass ativas um Servidor de Mediação autônomo pode tratar é de aproximadamente 1000 chamadas. Ao implantar no hardware estas especificações, o Servidor de Mediação deve realizar a transcodificação, mas ainda roteará chamadas para vários gateways, mesmo se os gateways não suportam o bypass de mídia.
+<div id="mainSection">
 
-Ao definir uma rota de chamada, você especifica os troncos associados à essa rota, mas não especifica quais Servidor de Mediação estão associados a essa rota. Em vez disso, você usa o Construtor de Topologias para associar gateways ao Servidor de Mediação. Em outras palavras, o roteamento determina qual tronco usar para uma chamada e o Servidor de Mediação associado a esse tronco lida com a chamada.
+<div id="mainBody">
 
-O Servidor de Mediação pode ser implantado como um pool; esse pool pode ser colocado com um Pool de Front-Ends ou pode ser implantado como um pool autônomo. Quando um Servidor de Mediação é colocado com um Pool de Front-Ends, o tamanho do pool pode ser no máximo 10 (o limite do tamanho do pool do registrador). Reunidos, esses novos recursos aumentam a confiabilidade e a flexibilidade de implantação para o Servidor de Mediação, mas exigem recursos associados nas seguintes entidades pares:
+<span> </span>
 
-  - **Gateway PSTN.** Um gateway qualificado do Lync Server 2013 precisa implementar o balanceamento de carga DNS, que permite a um gateway PSTN qualificado agir como um balanceador de carga para um pool de Servidor de Mediação e, dessa forma, balancear a carga de chamadas no pool.
+_**Tópico da última modificação:** 2012-10-01_
 
-  - **Controlador de Borda da Sessão.** Para um tronco SIP, a entrada de ponto é um Controlador de Borda da Sessão (SBC) no provedor de serviço de telefonia pela Internet. Na direção do Pool do servidor de mediação para o SBC, o SBC pode receber conexões de qualquer Servidor de Mediação no pool. Na direção do SBC para o pool, o tráfego pode ser enviado para qualquer Servidor de Mediação no pool. Um método de obter isso é através do balanceamento de carga DNS, se suportado pelo provedor de serviço e SBC. Uma alternativa é oferecer ao provedor de serviço os endereços IP de todos os Servidor de Mediação no pool, e o provedor de serviço provisionará eles em seu SBC como um tronco SIP separado para cada Servidor de Mediação. O provedor de serviço irá tratar o balanceamento de carga em seus próprios servidores. Nem todos os provedores de serviço ou SBCs podem suportar estas capacidades. Além disso, o provedor de serviço pode cobrar mais por esta capacidade. Geralmente, cada tronco SIP para o SBC é tarifado mensalmente.
+O Lync Server 2013 dá suporte a maior flexibilidade na definição de um tronco para fins de roteamento de chamadas de versões anteriores. Um tronco é uma associação lógica entre um servidor de mediação e um número de porta de escuta com um gateway e um número de porta de escuta. Isso implica várias coisas: um servidor de mediação pode ter vários troncos para o mesmo gateway; um servidor de mediação pode ter vários troncos para gateways diferentes; por outro lado, um gateway pode ter vários troncos para diferentes servidores de mediação.
 
-  - **IP-PBX.** Na direção do Pool do servidor de mediação para a terminação SIP IP-PBX, o IP-PBX pode receber conexões de qualquer Servidor de Mediação no pool. Na direção do IP-PBX para o pool, o tráfego pode ser enviado para qualquer Servidor de Mediação no pool. Como a maioria dos IP-PBXs não suportam balanceamento de carga DNS, recomendamos que conexões SIP diretas individuais sejam definidas do IP-PBX para cada Servidor de Mediação no pool. O IP-PBX tratará seu próprio balanceamento de carga distribuindo o tráfego pelo grupo de troncos. Assumimos que o grupo de tronco possui um conjunto de regras de roteamento consistente no IP-PBX se um determinado IP-PBX suporta este conceito de grupo de tronco e como ele insere com a própria redundância do IP-PBX e arquitetura de agrupamento precisa ser determinado antes de poder decidir se um grupo do Servidor de Mediação pode interagir corretamente com um IP-PBX.
+Um tronco raiz ainda precisa ser criado quando um gateway é adicionado à topologia do Lync usando o construtor de topologias. O número de gateways que um determinado servidor de mediação pode manipular depende da capacidade de processamento do servidor durante o pico de horas de ocupação. Se você implantar um servidor de mediação em hardware que exceda os requisitos mínimos de hardware do Lync Server 2013, conforme descrito em [hardware com suporte para o Lync server 2013](lync-server-2013-supported-hardware.md) na documentação de suporte, a estimativa de quantos não-bypass ativos chama um servidor de mediação autônomo pode tratar de aproximadamente 1000 chamadas. Quando implantado em um hardware que atenda a essas especificações, espera-se que o servidor de mediação execute transcodificação, mas ainda roteia chamadas para vários gateways, mesmo que os gateways não tenham suporte para bypass de mídia.
 
-Um Pool do servidor de mediação precisa ter uma visualização uniforme do gateway par com o qual ele interage. Isso significa que todos os membros do pool acessam a mesma definição do gateway par a partir do repositório de configurações e têm a mesma probabilidade de interagir com ele para chamadas de saída. Dessa forma, não é possível segmentar o pool de modo que alguns Servidor de Mediação se comuniquem com apenas alguns gateway pares para chamadas de saída. Se essa segmentação for necessária, um pool separado de Servidor de Mediação deverá ser usado. Isso seria o caso, por exemplo, se os recursos associados nos gateways PSTN, troncos SIP ou IP-PBXs para interação com um pool, conforme detalhado anteriormente neste tópico, não estivessem presentes.
+Ao definir um roteiro de chamada, especifique os troncos associados a essa rota, mas você não especifica quais servidores de mediação estão associados a essa rota. Em vez disso, use o construtor de topologias para associar troncos a servidores de mediação. Em outras palavras, o roteamento determina qual tronco usar para uma chamada e, subsequentemente, o servidor de mediação associado a esse tronco é enviado à sinalização para essa chamada.
 
-Um determinado gateway PSTN, IP-PBX ou ponto de tronco SIP pode rotear para vários Servidor de Mediação ou troncos. O número de gateways que este determinado pool de Servidor de Mediação pode controlar depende do número de chamadas que usam bypass de mídia. Se um grande número de chamadas usam bypass de mídia, um Servidor de Mediação no pool pode tratar muitas chamadas, porque apenas o processamento de camada de sinalização é necessário.
+O servidor de mediação pode ser implantado como um pool; esse pool pode ser colocado em um pool de front-ends ou pode ser implantado como um pool autônomo. Quando um servidor de mediação é posicionado com um pool de front-end, o tamanho do pool pode ser no máximo 12 (o limite do tamanho do pool do registrador). Juntos, esses novos recursos aumentam a confiabilidade e a flexibilidade de implantação para servidores de mediação, mas exigem recursos associados nas seguintes entidades de par:
+
+  - **Gateway PSTN.** Um gateway qualificado do Lync Server 2013 deve implementar o balanceamento de carga de DNS, o que permite que um gateway PSTN (rede telefônica pública comutada) compatível atue como um balanceador de carga para um pool de servidores de mediação e, portanto, para carregar chamadas no pool.
+
+  - **Controlador de Borda da Sessão.** Para um tronco SIP, a entidade par é um SBC (Controlador de Borda da Sessão) no provedor de serviços de telefonia da Internet. Na direção do pool do servidor de mediação para o SBC, o SBC pode receber conexões de qualquer servidor de mediação no pool. Na direção do SBC para o pool, o tráfego pode ser enviado para qualquer servidor de mediação no pool. Um método que permite isso é através do balanceamento de carga DNS, se ele tiver suporte do provedor de serviços e do SBC. Uma alternativa é conceder ao provedor de serviços os endereços IP de todos os servidores de mediação do pool, e o provedor de serviço provisionará esses endereços no SBC como um tronco SIP separado para cada servidor de mediação. O provedor de serviços tratará o balanceamento de carga de seus próprios servidores. Nem todos os provedores de serviços ou SBCs podem dar suporte a essas funcionalidades. Além disso, o provedor de serviços pode cobrar mais por essa funcionalidade. Geralmente, cada tronco SIP até o SBC é tarifado mensalmente.
+
+  - **IP-PBX.** Na direção do pool do servidor de mediação para o cancelamento SIP IP-PBX, o IP-PBX pode receber conexões de qualquer servidor de mediação no pool. Na direção do PBX IP para o pool, o tráfego pode ser enviado para qualquer servidor de mediação no pool. Como a maioria dos PBXs IP não é compatível com o balanceamento de carga de DNS, recomendamos que as conexões SIP diretas SIP sejam definidas a partir do IP-PBX para cada servidor de mediação do pool. Depois disso, o IP-PBX tratará seu próprio balanceamento de carga distribuindo o tráfego pelo grupo de troncos. Presume-se que o grupo de troncos tenha um conjunto de regras de roteamento consistente no IP-PBX. Se um IP-PBX específico dá suporte a esse conceito de grupo de troncos e como ele faz a interseção entre a redundância do IP-PBX e a arquitetura de clustering precisa ser determinada antes que você possa decidir se um cluster do servidor de mediação pode interagir corretamente com um IP-PBX.
+
+Um pool de servidores de mediação deve ter uma exibição uniforme do gateway de par com o qual ele interage. Isso significa que todos os membros do pool acessam a mesma definição do gateway par a partir do repositório de configurações e têm a mesma probabilidade de interagir com ele para as chamadas de saída. Portanto, não há nenhuma maneira de segmentar o pool para que alguns servidores de mediação se comuniquem somente em determinados pares de gateway para chamadas feitas. Se tal segmentação for necessária, um pool separado de servidores de mediação deve ser usado. Isso seria o caso, por exemplo, se as funcionalidades associadas nos gateways PSTN, nos troncos SIP ou nos IP-PBXs para interagir com um pool, conforme detalhado anteriormente neste tópico, não estivessem presentes.
+
+Um determinado gateway PSTN, IP-PBX ou par de tronco SIP podem ser roteados para vários servidores de mediação ou troncos. O número de gateways que um determinado pool de servidores de mediação pode controlar depende do número de chamadas que usam bypass de mídia. Se um grande número de chamadas usar bypass de mídia, um servidor de mediação no pool pode manipular muitas outras chamadas, pois somente o processamento da camada de sinalização é necessário.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

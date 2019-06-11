@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Relatório de Localização'
-TOCTitle: Relatório de Localização
-ms:assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg615035(v=OCS.15)
-ms:contentKeyID: 49308121
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: relatório de localização'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Location Report
+ms:assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615035(v=OCS.15)
+ms:contentKeyID: 48185641
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0ac5ab1d077acb8f96849b4ac44911a4c90786fa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828943"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Relatório de Localização no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="location-report-in-lync-server-2013"></a>Relatório de localização no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-01_
 
 O Relatório de Localização oferece informações sobre as métricas de qualidade de chamada agrupadas pelo local de rede (isto é, pela subrede). Se seus usuários enfrentarem problemas com suas chamadas, este relatório pode ajudar você a determinar se estes problemas são amplos ou estão confinados a um determinado segmento da rede.
 
-## Acessando o Relatório de Localização
+<div>
+
+## <a name="accessing-the-location-report"></a>Acessando o Relatório de Localização
 
 O Relatório de Localização é acessado na página inicial de Relatórios de Monitoramento. É possível detalhar o Relatório de Lista de Chamadas clicando em uma das seguintes métricas:
 
@@ -25,13 +47,17 @@ O Relatório de Localização é acessado na página inicial de Relatórios de M
 
   - Porcentagem de chamada inválida
 
-## Filtros
+</div>
 
-Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionado ou de exibir os dados retornados de maneiras diferentes. Por exemplo, o Relatório de Locais permite que você filtre coisas como o local onde a chamada foi originada ou se a chamada ocorreu em uma conexão com ou sem fio. Também é possível escolher como os dados devem ser agrupados. Nesse caso, as chamadas são agrupadas por hora, dia, semana ou mês.
+<div>
+
+## <a name="filters"></a>Filtros
+
+Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado ou exibir os dados devolvidos em formas diferentes. Por exemplo, o Relatório de Locais permite que você filtre coisas como o local onde a chamada foi originada ou se a chamada ocorreu em uma conexão com ou sem fio. Também é possível escolher como os dados devem ser agrupados. Nesse caso, as chamadas são agrupadas por hora, dia, semana ou mês.
 
 A tabela a seguir lista os filtros que podem ser usados com o Relatório de Locais.
 
-### Filtros do Relatório de Locais
+### <a name="location-report-filters"></a>Filtros do Relatório de Locais
 
 <table>
 <colgroup>
@@ -70,7 +96,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Loca
 <td><p>Sub-rede IP do usuário que fez a chamada. É possível selecionar somente <strong>[Tudo]</strong> para indicar todas as sub-redes.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Local do receptor da chamada</strong></p></td>
+<td><p><strong>Local do computador chamado</strong></p></td>
 <td><p>Sub-rede IP do usuário que recebeu a chamada. É possível selecionar somente <strong>[Tudo]</strong> para indicar todas as sub-redes.</p></td>
 </tr>
 <tr class="odd">
@@ -95,11 +121,15 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Loca
 </table>
 
 
-## Métricas
+</div>
+
+<div>
+
+## <a name="metrics"></a>Métricas
 
 A tabela a seguir lista as informações fornecidas no Relatório de Locais.
 
-### Métricas do Relatório de Locais
+### <a name="location-report-metrics"></a>Métricas do Relatório de Locais
 
 <table>
 <colgroup>
@@ -121,7 +151,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Locais.
 <td><p>Sub-rede IP do usuário que fez a chamada.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Sub-rede do receptor da chamada</strong></p></td>
+<td><p><strong>Sub-rede do computador chamado</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Sub-rede IP do usuário que recebeu a chamada.</p></td>
 </tr>
@@ -131,9 +161,9 @@ A tabela a seguir lista as informações fornecidas no Relatório de Locais.
 <td><p>Número total de chamadas realizadas.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Porcentagem de chamada inválida</strong></p></td>
+<td><p><strong>Porcentagem de chamadas ruins</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Porcentual de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada da qual pelo menos uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada que experimentou tremulação excessiva).</p></td>
+<td><p>Percentual de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada da qual pelo menos uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada que experimentou tremulação excessiva).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Viagem de ida e volta (ms)</strong></p></td>
@@ -144,7 +174,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Locais.
 <tr class="even">
 <td><p><strong>Degradação (MOS)</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Quantidade média da degradação MOS enfrentada durante uma chamada. Os valores de degradação variam de um baixo de 0,0 a um alto de 5,0. Um valor de 0,5 ou menos representa degradação aceitável. Historicamente, pontuações de opções médias foram calculadas com usuários classificando a qualidade de uma chamada em uma escala de 1 a 5. No Lync Server, o Lync Server usa um conjunto de algoritmos para prever como os usuários classificaram uma chamada.</p>
+<td><p>Quantidade média da degradação MOS (pontuação média de opinião) enfrentada durante uma chamada. Os valores de degradação variam de um baixo de 0,0 a um alto de 5,0. Um valor de 0,5 ou menos representa degradação aceitável. As pontuações médias de opinião costumava ser calculadas a partir da classificação da qualidade de uma chamada em uma escala de 1 a 5, feita pelos dos usuários. No Lync Server, o Lync Server usa um conjunto de algoritmos para prever como os usuários teriam classificado uma chamada.</p>
 <p>Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.</p></td>
 </tr>
 <tr class="odd">
@@ -155,7 +185,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Locais.
 <tr class="even">
 <td><p><strong>Tremulação</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medição de quanto uma chamada treme.) Valores altos de tremulação são normalmente causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em perda ou distorção de áudio.</p></td>
+<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot;shakiness&quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou um servidor de mídia sobrecarregado, resultando em áudio distorcido ou perdido.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Taxa de correção oculta</strong></p></td>
@@ -174,4 +204,17 @@ A tabela a seguir lista as informações fornecidas no Relatório de Locais.
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

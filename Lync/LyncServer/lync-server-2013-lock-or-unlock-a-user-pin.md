@@ -1,103 +1,161 @@
-﻿---
-title: Bloquear ou desbloquear um PIN de usuário
-TOCTitle: Bloquear ou desbloquear um PIN de usuário
-ms:assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688028(v=OCS.15)
-ms:contentKeyID: 49886185
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: bloquear ou desbloquear um PIN de usuário'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lock or unlock a user PIN
+ms:assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688028(v=OCS.15)
+ms:contentKeyID: 49733618
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0c89923d2bd130806d84ae945720fc23d700e9f4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828935"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bloquear ou desbloquear um PIN de usuário
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-23_
+# <a name="lock-or-unlock-a-user-pin-in-lync-server-2013"></a>Bloquear ou desbloquear um PIN de usuário no Lync Server 2013
 
-Você pode bloquear ou desbloquear o PIN de um usuário a partir da seção **Usuários** de Painel de Controle do Lync Server 2013.
+</div>
 
-## Para bloquear o PIN de um usuário no Painel de Controle do Lync Server
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-23_
+
+Você pode bloquear ou desbloquear o pino de um usuário na seção **usuários** do painel de controle do Lync Server 2013.
+
+<div>
+
+## <a name="to-lock-a-users-pin-in-lync-server-control-panel"></a>Para bloquear o PIN de um usuário no painel de controle do Lync Server
 
 1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **Usuários**.
+3.  Na barra de navegação esquerda, clique em **Usuários**.
 
-4.  Utilize um dos seguintes métodos para localizar um usuário:
+4.  Use um dos seguintes métodos para localizar um usuário:
     
-      - Na caixa **Buscar usuários**, digite toda ou a primeira parte do nome de exibição, nome, sobrenome, nome da conta do Gerenciador de Contas de Segurança (SAM), endereço SIP ou linha do Uniform Resource Identifier (URI) da conta de usuário, e então clique em **Localizar**.
+      - Na caixa **Pesquisar usuários**, digite todo ou parte do nome de exibição, nome, sobrenome, nome da conta SAM, endereço SIP ou URI de linha da conta do usuário e clique em **Localizar**.
     
-      - Se você tiver uma consulta salva, clique no ícone **Abrir consulta**, utilize a caixa de diálogo **Abrir** para obter a consulta (um arquivo .usf) e, então, clique em **Localizar**.
+      - Se você salvou uma consulta, clique no ícone **Abrir consulta**, use a caixa de diálogo **Abrir** para recuperar a consulta (um arquivo .usf) e clique em **Localizar**.
 
-5.  (Opcional) Especifique critérios de busca adicionais para limitar os resultados:
+5.  (Opcional) Especifique o critério de pesquisa adicional para reduzir os resultados:
     
     1.  Clique em **Adicionar filtro**.
     
-    2.  Insira a propriedade de usuário digitando ou clicando na seta na lista suspensa para selecionar a propriedade.
+    2.  Insira a propriedade do usuário digitando ou clicando na seta da lista suspensa para selecionar a propriedade.
     
     3.  Na lista suspensa **Igual a**, clique no operador (por exemplo, **Igual a** ou **Diferente de**).
     
-    4.  Dependendo da propriedade de usuário selecionada, insira o critério que deseja utilizar para filtrar os resultados da busca digitando ou clicando na seta na lista suspensa.
+    4.  Dependendo da propriedade de usuário selecionada, insira os critérios que você deseja usar para filtrar os resultados da pesquisa digitando-os ou clicando na seta da lista suspensa.
+        
+        <div>
         
 
         > [!TIP]  
-        > Para adicionar cláusulas de busca à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
+        > Para adicionar cláusulas de pesquisa adicionais à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
 
+        
+        </div>
     
     5.  Clique em **Localizar**.
     
     6.  Clique no usuário, em **Ação** e, em seguida, em **Bloquear PIN**.
 
-## Para desbloquear o PIN de um usuário no Painel de Controle do Lync Server
+</div>
+
+<div>
+
+## <a name="to-unlock-a-users-pin-in-lync-server-control-panel"></a>Para desbloquear o PIN de um usuário no painel de controle do Lync Server
 
 1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **Usuários**.
+3.  Na barra de navegação esquerda, clique em **Usuários**.
 
-4.  Utilize um dos métodos a seguir para localizar um usuário:
+4.  Use um dos seguintes métodos para localizar um usuário:
     
-      - Na caixa **Buscar usuários**, digite toda ou a primeira parte do nome de exibição, nome, sobrenome, nome da conta do Gerenciador de Contas de Segurança (SAM), endereço SIP ou linha do Uniform Resource Identifier (URI) da conta de usuário, e então clique em **Localizar**.
+      - Na caixa **Pesquisar usuários**, digite todo ou parte do nome de exibição, nome, sobrenome, nome da conta SAM, endereço SIP ou URI de linha da conta do usuário e clique em **Localizar**.
     
-      - Se você tiver uma consulta salva, clique no ícone **Abrir consulta**, utilize a caixa de diálogo **Abrir** para obter a consulta (um arquivo .usf) e, então, clique em **Localizar**.
+      - Se você salvou uma consulta, clique no ícone **Abrir consulta**, use a caixa de diálogo **Abrir** para recuperar a consulta (um arquivo .usf) e clique em **Localizar**.
 
-5.  (Opcional) Especifique critérios de busca adicionais para limitar os resultados:
+5.  (Opcional) Especifique o critério de pesquisa adicional para reduzir os resultados:
     
     1.  Clique em **Adicionar filtro**.
     
-    2.  Insira a propriedade de usuário digitando ou clicando na seta na lista suspensa para selecionar a propriedade.
+    2.  Insira a propriedade do usuário digitando ou clicando na seta da lista suspensa para selecionar a propriedade.
     
     3.  Na lista suspensa **Igual a**, clique no operador (por exemplo, **Igual a** ou **Diferente de**).
     
-    4.  Dependendo da propriedade de usuário selecionada, insira o critério que deseja utilizar para filtrar os resultados da busca digitando ou clicando na seta na lista suspensa.
+    4.  Dependendo da propriedade de usuário selecionada, insira os critérios que você deseja usar para filtrar os resultados da pesquisa digitando-os ou clicando na seta da lista suspensa.
+        
+        <div>
         
 
         > [!TIP]  
-        > Para adicionar cláusulas de pesquisa à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
+        > Para adicionar cláusulas de pesquisa adicionais à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
 
+        
+        </div>
     
     5.  Clique em **Localizar**.
     
     6.  Clique no usuário, clique em **Ação** e, então, clique em **Desbloquear PIN**.
 
-## Para bloquear e desbloquear PINs utilizando os cmdlets Shell de Gerenciamento do Lync Server
+</div>
 
-Você também pode bloquear e desbloquear PINs utilizando o Windows PowerShell e os cmdlets Lock-CsClientPin e Unlock-CsClientPin. Você pode executar tais cmdlets do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Para bloquear um PIN de usuário
+## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>Bloqueando e desbloqueando PINs de usuários usando cmdlets do Windows PowerShell
+
+Você pode bloquear e desbloquear PINs de usuários usando o Windows PowerShell e os cmdlets Lock-CsClientPin e Unlock-CsClientPin. Você pode executar esses cmdlets a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+
+<div>
+
+## <a name="to-lock-a-user-pin"></a>Para bloquear um PIN de usuário
 
   - Para bloquear o PIN de um usuário, utilize o cmdlet Lock-CsClientPin. Por exemplo:
     
         Lock-CsClientPin -Identity "Ken Myer"
 
-## Para desbloquear um PIN de usuário
+</div>
+
+<div>
+
+## <a name="to-unlock-a-user-pin"></a>Para desbloquear um PIN de usuário
 
   - Para desbloquear o PIN de um usuário, utilize o cmdlet Unlock-CsClientPin. Por exemplo:
     
         Unlock-CsClientPin -Identity "Ken Myer"
 
-Para mais informações, consulte o tópico de ajuda para os cmdlets [Lock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Lock-CsClientPin) e [Unlock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Unlock-CsClientPin).
+</div>
+
+Para obter mais informações, consulte o tópico da ajuda para os cmdlets [Lock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/Lock-CsClientPin) e [Unlock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/Unlock-CsClientPin) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

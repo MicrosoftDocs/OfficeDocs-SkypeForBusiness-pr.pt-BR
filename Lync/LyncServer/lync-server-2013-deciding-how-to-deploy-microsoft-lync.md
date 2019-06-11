@@ -1,45 +1,83 @@
-﻿---
-title: 'Lync Server 2013: Decidindo como implantar o Microsoft Lync'
-TOCTitle: Decidindo como implantar o Microsoft Lync
-ms:assetid: 6ca677d3-745d-4935-8f05-19274a8bccf2
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204979(v=OCS.15)
-ms:contentKeyID: 49307024
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Decidindo como implantar o Microsoft Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deciding how to deploy Microsoft Lync
+ms:assetid: 6ca677d3-745d-4935-8f05-19274a8bccf2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204979(v=OCS.15)
+ms:contentKeyID: 48184423
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d641f4da1884c1fb6e84eefb2127490f2ed3c4a9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829730"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Decidindo como implantar o Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-03_
+# <a name="deciding-how-to-deploy-lync-server-2013"></a>Decidindo como implantar o Lync Server 2013
 
-Durante o planejamento do Lync, a primeira grande decisão é como implantar o Microsoft Lync: como Lync Server 2013 no local ou Skype for Business Online com Microsoft Office 365 na nuvem.
+</div>
 
-  - **Lync Server 2013 no local** : esta opção fornece o conjunto completo de recursos do Lync e proporciona o máximo de flexibilidade ao configurar, personalizar e operar a implantação. Todos os servidores são instalados no local e mantidos por sua organização. Uma implantação no local fornece a gama completa de recursos do Lync Server.
+<div id="mainSection">
 
-  - **Skype for Business Online na nuvem**Skype for Business Online foi desenvolvido para organizações que desejam os benefícios de custo e agilidade de mensagens instantâneas, presença e reuniões com base na nuvem sem sacrificar os recursos de nível corporativo do Lync Server. Com o Skype for Business Online, a Microsoft implanta e mantém a infraestrutura de servidores necessária e cuida dos procedimentos constantes de manutenção, patches e upgrades. Alguns recursos disponíveis na implantação no local não estão disponíveis no Skype for Business Online.
+<div id="mainBody">
 
-O melhor tipo de implantação para você depende das cargas de trabalho que deseja implantar e da situação geográfica e de negócios de sua organização.
+<span> </span>
 
-## Lync Server
+_**Tópico da última modificação:** 2012-10-03_
 
-Uma implantação do Lync Server no local é melhor nas seguintes situações:
+Ao planejar o Lync, a primeira decisão importante é como implantar o Microsoft Lync: como o Lync Server 2013 local ou o Lync Online com o Microsoft Office 365 na nuvem.
 
-  - **Recursos completos do Enterprise Voice**   caso planeje implantar uma solução completa do Enterprise Voice para substituir o PBX ou que utilize recursos avançados de chamadas, será necessário realizar uma implantação do Lync Server no local. Esse tipo de implantação oferece suporte a conectividade direta com sistemas e troncos PBX, além de recursos de telefonia avançados como grupos de resposta e estacionamento de chamada. Atualmente, o Lync Online não oferece suporte a esses recursos.
+  - **Lync Server 2013 local** : esta opção fornece o conjunto de recursos completo do Lync e fornece a flexibilidade máxima para configurar, personalizar e operar a implantação. Todos os servidores são instalados no local e mantidos pela sua organização. Uma implantação local fornece a gama completa de recursos do Lync Server.
 
-  - **Controles de qualidade de mídia**   Caso deseje a gama completa de recursos de garantia de qualidade de mídia, como CAC (controle de admissão de chamadas) e QoS (qualidade de serviço), convém realizar a implantação no local.
+  - **Lync Online na nuvem** O Lync Online foi projetado para organizações que desejam os benefícios de custo e agilidade das mensagens instantâneas, presença e reuniões em nuvem sem sacrificar os recursos de classe empresarial do Lync Server. Com o Lync Online, a Microsoft implanta e mantém a infraestrutura de servidor necessária e manipula manutenção, patches e atualizações contínuas. Alguns recursos disponíveis em uma implantação local não estão disponíveis no Lync Online.
 
-  - **Chat persistente**   Caso precise implantar chat persistente na organização, escolha a implantação no local.
+Qual tipo de implantação seria melhor para você depende das cargas de trabalho que você deseja implantar e o status geográfico e comercial da sua organização.
 
-  - **Aplicativos de servidores de terceiros**   Apenas as implantações no local podem trabalhar com aplicativos de terceiros confiáveis que utilizam a Microsoft Unified Communications Managed API (UCMA).
+<div>
 
-  - **Empresas multinacionais/multirregionais que necessitam de suporte regional**   Caso tenha data centers em vários países ou regiões e necessite de servidores implantados e gerenciados nas regiões, a implantação no local é a melhor, pois fornece esses recursos de gerenciamento regional.
+## <a name="lync-server"></a>Servidor Lync
 
-  - **Controle completo de políticas, relatórios e upgrades**   Com uma implantação do Lync Server no local, você obtém acesso ao conjunto completo de políticas de servidor e cliente, Monitoramento e outros relatórios e tempo dos upgrades. O Lync Online fornece um subconjunto de configurações e relatórios de políticas, além de uma janela limitada, porém significativa, de aceitação de upgrades.
+Uma implantação do Lync Server local é melhor para os seguintes cenários:
 
-## Lync Online
+  - **Recursos de voz de toda a empresa**   se você planeja implantar uma solução completa de voz empresarial para substituir seu PBX ou que usa recursos de chamada avançados, uma implantação do Lync Server local é necessária. O local é compatível com a conectividade direta com sistemas PBX e troncos e recursos de telefone avançados, como grupos de resposta e estacionamento de chamadas. No momento, o Lync Online não oferece suporte a esses recursos.
 
-Caso nenhum dos fatores na lista anterior seja essencial para você, escolha o Lync Online, que possui implantação e gerenciamento mais simples. O Lync Online fornece um conjunto robusto de IM, presença e conferências, além de permitir chamadas de voz e vídeo por IP entre usuários da organização.
+  - **Controles de qualidade de mídia**   se você quiser uma gama completa de recursos de garantia de qualidade de mídia, como o controle de admissão de chamadas (CAC) e os recursos de qualidade do serviço (QoS), será necessário uma implantação local.
+
+  - **Chat persistente se**   você precisar implantar o chat persistente para a sua organização, você deve escolher uma implantação local.
+
+  - **aplicativos de servidor de terceiros**   somente implantações locais podem funcionar com aplicativos de terceiros confiáveis que usam a API gerenciada de comunicação unificada da Microsoft (UCMA).
+
+  - **Empresas multinacionais/multinacionais que precisam de suporte**   regional se você tiver datacenters em vários países ou regiões e precisar que os servidores sejam implantados e gerenciados de forma regional, uma implantação local é melhor, pois fornece esse tipo de recursos de gerenciamento regional.
+
+  - **Controle completo sobre políticas, relatórios e atualizações**   com uma implantação local do Lync Server, você tem acesso ao conjunto completo de políticas de servidor e de cliente, monitoramento e outros relatórios e tempo de atualizações. O Lync Online fornece um subconjunto de relatórios e configurações de política e fornece uma janela limitada, embora significativa, para aceitar atualizações.
+
+</div>
+
+<div>
+
+## <a name="lync-online"></a>Lync Online
+
+Se nenhum dos fatores na lista anterior for essencial para você, talvez você queira escolher o Lync Online, para implantação e gerenciamento mais simples. O Lync Online oferece um conjunto robusto de recursos de chat, presença e conferência e também permite chamadas de voz e vídeo por IP entre os usuários da sua organização.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

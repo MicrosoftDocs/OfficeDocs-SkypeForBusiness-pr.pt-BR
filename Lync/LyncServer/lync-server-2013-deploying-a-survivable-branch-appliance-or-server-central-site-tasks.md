@@ -1,31 +1,81 @@
-﻿---
-title: "Lync Server 2013: Implant. Serv. ou apar. de filial persist. - Tarefas do site central"
-TOCTitle: Implantando um servidor ou aparelho de filial persistente - Tarefas do site central
-ms:assetid: 0f631a36-fc2e-41cd-8a0d-f27e84f4a89e
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398189(v=OCS.15)
-ms:contentKeyID: 49305899
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Implantando um servidor ou aparelho de filial persistente - Tarefas do site central
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying a Survivable Branch Appliance or Server - central site tasks
+ms:assetid: 0f631a36-fc2e-41cd-8a0d-f27e84f4a89e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398189(v=OCS.15)
+ms:contentKeyID: 48183422
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c2b31e191dc2726c7e7962b0daa4ee5655245117
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829570"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Implantando um servidor ou aparelho de filial persistente com o Lync Server 2013 - Tarefas do site central
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-18_
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>Implantando um servidor ou aparelho de filial persistente com o Lync Server 2013 - Tarefas do site central
 
-Conclua as tarefas seguintes no local central. Se estiver implantando um Servidor de Filial Persistente, ignore a primeira tarefa.
+</div>
 
-> [!IMPORTANT]  
-> Antes de realizar as tarefas desta seção, as condições a seguir devem estar em vigor:<ul><li><p>O Lync Server deve ser instalado no site central.</p></li><li><p>Um técnico de instalação do site de filial deve ser adicionado ao grupo RTCUniversalSBATechnicians.</p></li></ul>
-> Além disso, recomendamos que você faça o seguinte:<ul><li><p>Implantar um servidor DHCP no site de filial para permitir que os cliente obtenham os endereços IP.</p></li><li><p>Como alternativa para implantar um servidor DHCP em cada site de filial, habilite o DHCP do Lync Server no Aparelho de Filial Persistente ou Servidor de Filial Persistente utilizando o cmdlet Shell de Gerenciamento do Lync Server<strong>Set-CsRegistrarConfiguration –EnableDHCPServer $true</strong>. Para obter detalhes, consulte a seção “Requisitos de Hardware e Software” do <a href="lync-server-2013-branch-site-resiliency-requirements.md">Requisitos de resiliência do site da filial para Lync Server 2013</a> na documentação de Planejamento.</p></li></ul>
+<div id="mainSection">
 
-## Nesta seção
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-18_
+
+Conclua as tarefas nesta seção no site central. Se você estiver implantando um servidor de ramificação sobreviventes, pule a primeira tarefa.
+
+<div>
+
+
+> [!IMPORTANT]
+> Antes de executar as tarefas nesta seção, as seguintes condições devem estar em vigor: 
+> <UL>
+> <LI>
+> <P>O Lync Server deve ser configurado no site central.</P>
+> <LI>
+> <P>Um técnico de instalação no site de filial deve ser adicionado ao grupo RTCUniversalSBATechnicians.</P></LI></UL>Além disso, recomendamos que você faça o seguinte:
+> <UL>
+> <LI>
+> <P>Implante um servidor DHCP em cada site de ramificação para permitir que os clientes obtenham endereços IP.</P>
+> <LI>
+> <P>Como uma alternativa para implantar um servidor DHCP em cada site de ramificação, habilite o DHCP do Lync Server no aparelho de ramificação ou servidor de ramificação sobreviventes usando o cmdlet do Shell de gerenciamento do Lync Server <STRONG>set-CsRegistrarConfiguration-EnableDHCPServer $true </STRONG>. Para obter detalhes, consulte a seção "requisitos de hardware e software" dos <A href="lync-server-2013-branch-site-resiliency-requirements.md">requisitos de resiliência de site para o Lync Server 2013</A> na documentação de planejamento.</P></LI></UL>
+
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Adicionar um Aplicativo de Filial Persistente ao Active Directory no Lync Server 2013](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)
 
   - [Adicionar sites de filial a sua topologia no Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)
 
   - [Definir um Servidor ou Aparelho de Filial Persistente no Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Suporte a software de banco de dados'
-TOCTitle: Suporte a software de banco de dados
-ms:assetid: e05d0032-bbea-4e61-987d-d07b1c045fd5
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398990(v=OCS.15)
-ms:contentKeyID: 49308365
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Suporte a software de banco de dados'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Database software support
+ms:assetid: e05d0032-bbea-4e61-987d-d07b1c045fd5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398990(v=OCS.15)
+ms:contentKeyID: 48185517
+ms.date: 12/02/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8bc8daef764ce5b15fd8c8b7e29f7031ebcfbafc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829737"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Suporte a software de banco de dados no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="database-software-support-in-lync-server-2013"></a>Suporte a software de banco de dados no Lync Server 2013
 
-O Lync Server 2013 oferece suporte aos sistemas de gerenciamento do banco de dados a seguir:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-12-01_
+
+O Lync Server 2013 é compatível com os seguintes sistemas de gerenciamento de banco de dados:
 
   - **Banco de dados Back-end de um pool de Front-End, banco de dados de Arquivamento, banco de dados de Monitoramento, banco de dados de chat persistente e banco de dados de conformidade do chat persistente**
     
@@ -27,36 +47,58 @@ O Lync Server 2013 oferece suporte aos sistemas de gerenciamento do banco de dad
     
       - Microsoft SQL Server 2012 Standard (edição de 64 bits). Além disso, executar o service pack mais recente é recomendado.
 
-  - **Banco de dados do servidor Standard Edition e banco de dados Servidor Front-End**
+  - **Bancos de dados do servidor do servidor de front-end do Standard Edition**
     
       - Microsoft SQL Server 2012 Express (edição de 64 bits). A execução adicional do service pack mais recente é recomendada
         
-        Suportamos patch e atualização do Microsoft SQL Server em Servidores Front-End e em Servidores Standard Edition. No entanto, quando você faz qualquer tipo de atualização ou patch em Servidores Front-End, você deve considerar requisitos de quórum. Para mais informações, veja [Atualizar servidores Front End no Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md) e [Topologias e componentes para Servidores Front-End, serviço de mensagens instantâneas e presença no Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).
+        Oferecemos suporte para o patch e a atualização do Microsoft SQL Server em servidores front-end e servidores Standard Edition. No entanto, ao fazer qualquer tipo de atualização ou patch em servidores front end, você deve considerar os requisitos de quorum. Para mais informações, veja [Upgrade or update Front End Servers in Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md) e [Topologies and components for Front End Servers, instant messaging, and presence in Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).
     
+    <div>
+    
+
     > [!NOTE]  
-    > O Microsoft SQL Server 2012 Express (64-bit edition) é instalado automaticamente pelo Lync Server 2013 em cada servidor Standard Edition e em cada servidor Servidor Front-End.
+    > O Microsoft SQL Server 2012 Express (64-bit Edition) é instalado automaticamente pelo Lync Server 2013 em cada servidor Standard Edition e cada servidor de servidor front-end.
+
+    
+    </div>
+
+<div>
+
 
 > [!IMPORTANT]  
-> <ul>
-> <li><p>O Lync Server 2013 não suporta a edição de 32 bits do SQL Server. Você deve usar a edição de 64 bits.</p></li>
-> <li><p>O SQL Server Web Edition e o SQL Server Workgroup Edition não são suportados. Não é possível usá-los com o Lync Server 2013.</p></li>
-> 
-> <li><p>O Lync Server 2013 suporta espelhamento de banco de dados nativo.</p></li>
-> 
-> 
-> <li><p>Para usar a função Monitoring Server, instale o Reporting Services do SQL Server.</p></li></ul>
+> <UL>
+> <LI>
+> <P>O Lync Server 2013 não é compatível com a edição de 32 bits do SQL Server. Você deve usar a edição de 64 bits.</P>
+> <LI>
+> <P>Não há suporte para SQL Server Web Edition e SQL Server Workgroup Edition. Você não pode usá-los com o Lync Server 2013.</P>
+> <LI>
+> <P>O Lync Server 2013 suporta o espelhamento de banco de dados nativo.</P>
+> <LI>
+> <P>Para usar a função de servidor de monitoramento, você deve instalar o SQL Server Reporting Services.</P></LI></UL>
 
 
-Em um pool de front-end, o banco de dados de back-end pode ser um único computador SQL Server.
+
+</div>
+
+Em um pool de front-ends, o banco de dados back-end pode ser um único computador SQL Server.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Se você posicionar bancos de dados do Lync Server com outros bancos de dados, recomendamos avaliar todos os fatores que podem afetar a disponibilidade e desempenho, assim como garantir que, se um nó falhar, o nó restante pode lidar com a carga. Para verificar as capacidades de failover, recomendamos o teste de todos os cenários de failover.
+> Se você colocar bancos de dados do Lync Server com outros bancos de dados, é altamente recomendável avaliar todos os fatores que podem afetar a disponibilidade e o desempenho, além de garantir que, se um nó falhar, o nó restante pode manipular a carga. Para verificar as capacidades de failover, recomendamos o teste de todos os cenários de failover.
 
-## Usando o espelhamento SQL e o cluster SQL
 
-Lync Server 2013 suporta o uso do espelhamento SQL ou do cluster SQL para cada banco de dados do Lync Server. Você pode configurar facilmente o espelhamento SQL com a ferramenta Construtor de Topologias em Lync Server 2013. Para o cluster de failover SQK, você deve usar o SQL Server para a configuração.
 
-O Lync Server 2013 oferece suporte às topologias de espelhamento do SQL e de clustering do SQL para todas as implantações, inclusive as inteiramente novas e as organizações que foram atualizadas a partir das versões anteriores do Lync Server.
+</div>
+
+<div>
+
+## <a name="using-sql-mirroring-and-sql-clustering"></a>Usando o espelhamento SQL e o cluster SQL
+
+O Lync Server 2013 oferece suporte ao uso do SQL Mirroring ou do SQL clustering para cada banco de dados do Lync Server. Você pode configurar facilmente o espelhamento do SQL com a ferramenta Construtor de topologias no Lync Server 2013. Para o cluster de failover SQK, você deve usar o SQL Server para a configuração.
+
+O Lync Server 2013 oferece suporte ao espelhamento do SQL e às topologias de cluster do SQL para todas as implantações, incluindo implantações e organizações do Greenfield que foram atualizadas a partir de versões anteriores do Lync Server.
 
 O suporte do cluster SQL é para uma configuração ativa/passiva. Por motivos de desempenho, o nó passivo não deve ser compartilhado por nenhuma outra instância SQL.
 
@@ -74,7 +116,19 @@ O suporte a seguir é incluído:
     
       - Software do banco de dados do Microsoft SQL Server 2008 R2 Enterprise (edição de 64 bits). Além disso, executar o service pack mais atual é recomendado.
 
-Para mais informações sobre o espelhamento SQL, consulte [Alta disponibilidade do Servidor Back-End no Lync Server 2013](lync-server-2013-back-end-server-high-availability.md). Para detalhes sobre como implantar o cluster SQL, consulte [Configurar Agrupamento do SQL Server para Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md).
+Para obter mais informações sobre o espelhamento do SQL, consulte [back-end Server High Availability in Lync server 2013](lync-server-2013-back-end-server-high-availability.md). Para obter detalhes sobre como implantar o SQL clustering, consulte [Configurar o cluster do SQL Server para o Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md).
 
-Para mais informações e melhores práticas para o cluster de failover no SQL Server 2012, consulte <http://technet.microsoft.com/pt-br/library/hh231721.aspx>. Para o cluster de failover no SQL Server 2008, consulte <http://technet.microsoft.com/pt-br/library/ms189134(v=sql.105).aspx>.
+Para obter mais informações e práticas recomendadas para cluster de failover no SQL Server 2012 <http://technet.microsoft.com/en-us/library/hh231721.aspx>, consulte. Para o cluster de failover no SQL Server 2008, <http://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx>consulte.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

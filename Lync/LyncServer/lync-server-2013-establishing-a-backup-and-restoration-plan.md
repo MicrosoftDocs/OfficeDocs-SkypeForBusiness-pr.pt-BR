@@ -1,118 +1,179 @@
-﻿---
-title: Estabelecendo um plano de restauração e backup
-TOCTitle: Estabelecendo um plano de restauração e backup
-ms:assetid: 9f562ef1-3804-41e2-b3e4-d45b2e8c63c9
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh202183(v=OCS.15)
-ms:contentKeyID: 52057660
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: estabelecendo um plano de backup e restauração'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Establishing a backup and restoration plan
+ms:assetid: 9f562ef1-3804-41e2-b3e4-d45b2e8c63c9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202183(v=OCS.15)
+ms:contentKeyID: 51541499
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3b3516e63a7cbada4a89fad3540406e38b299fef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829193"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Estabelecendo um plano de restauração e backup
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-17_
+# <a name="establishing-a-backup-and-restoration-plan-for-lync-server-2013"></a>Como estabelecer um plano de backup e restauração para o Lync Server 2013
 
-Criar um plano de backup e restauração envolve as seguintes etapas:
+</div>
 
-  - Desenvolver o plano.
+<div id="mainSection">
 
-  - Implementar o plano.
+<div id="mainBody">
 
-  - Manter o plano.
+<span> </span>
 
-## Como desenvolver um plano de backup e restauração
+_**Tópico da última modificação:** 2013-02-17_
 
-Depois de desenvolver sua estratégia de backup e restauração para o Lync Server, use-a para documentar um plano detalhado de backup e restauração. Seu plano deve transmitir claramente as prioridades e requisitos para fazer backup de dados e configurações. Você pode usar as informações em [Estabelecendo uma estratégia de restauração e backup](lync-server-2013-establishing-a-backup-and-restoration-strategy.md) e as planilhas em [Planilhas de backup e restauração](lync-server-2013-backup-and-restoration-worksheets.md) para facilitar a documentação da sua estratégia. Seu plano também deve conter critérios para decidir quando e como restaurar serviços.
+A criação de um plano de backup e restauração envolve as seguintes etapas:
 
-Enquanto desenvolve seu plano, você precisa considerar, e reponsabilizar-se por, o seguinte:
+  - Desenvolvendo o plano.
 
-  - Como recuperará servidores no novo hardware.
+  - Implementação do plano.
 
-  - Como recuperará serviços que exigem ações da parte de várias áreas de negócio ou departamentos.
+  - Manutenção do plano.
 
-  - Como poderá obter servidores sobressalentes de forma rápida.
+<div>
 
-  - O tempo necessário para a recuperação usando sua estratégia. Considere as exigências da sua organização com relação ao objetivo de tempo de recuperação (RTO).
+## <a name="developing-a-backup-and-restoration-plan"></a>Desenvolvendo um plano de backup e restauração
 
-Modifique os procedimentos de backup e restauração neste tópico, adicionando-os e excluindo-os conforme o apropriado para refletir os servidores e componentes na sua implantação. Você também pode adicionar detalhes como a agenda do backup aos procedimentos adequados, para garantir que a informação não seja negligenciada.
+Depois de desenvolver sua estratégia de backup e restauração para o Lync Server, use-a para documentar um plano detalhado de backup e restauração. Seu plano deve transmitir claramente as prioridades e os requisitos para fazer backup de dados e configurações. Você pode usar as informações em [estabelecer uma estratégia de backup e restauração para o Lync server 2013](lync-server-2013-establishing-a-backup-and-restoration-strategy.md) e as planilhas nas planilhas de [backup e restauração do Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md) para facilitar a documentação da sua estratégia. Seu plano também deve conter critérios para decidir quando e como restaurar o serviço.
+
+Ao desenvolver seu plano, você precisa considerar e fazer uma conta do seguinte:
+
+  - Como você vai recuperar os servidores em um novo hardware.
+
+  - Como você recuperará os serviços que exigem uma ação na parte de várias áreas comerciais ou departamentos.
+
+  - Como você pode adquirir servidores sobressalentes rapidamente.
+
+  - O tempo que leva para fazer a recuperação usando sua estratégia. Considere os requisitos da sua organização para o objetivo de tempo de recuperação (RTO).
+
+Modifique os procedimentos de backup e restauração neste tópico, adicionando e excluindo procedimentos conforme apropriado, para refletir os servidores e componentes na sua implantação. Você também pode adicionar os detalhes apropriados, como o agendamento de backup, aos procedimentos apropriados para garantir que as informações não sejam ignoradas.
+
+<div>
+
 
 > [!NOTE]  
-> É boa prática criar scripts para tantas etapas quanto forem possíveis para ajudar a garantir a qualidade e a reprodutibilidade dos procedimentos.
+> É uma prática recomendada criar scripts para o maior número possível de etapas, para ajudar a garantir a qualidade e a Reproducibility de procedimentos.
 
-Em seu plano, especifique quem será responsável por analisá-lo, testá-lo e pela validação de quaisquer procedimentos ou ferramentas novos e quem deve aprovar quaisquer mudanças no plano e procedimentos relacionados.
 
-Para garantir que seu plano de backup e restauração atinja completamente todas as metas e prioridades estabelecidas, obtenha a aprovação dos tomadores de decisão corporativas e técnicas em sua organização antes de implementá-lo.
 
-## Como implementar o plano de backup e restauração
+</div>
 
-Implementar um plano de backup e restauração exige as seguintes etapas:
+Em seu plano, especifique quem é o responsável por revisar o plano, quem é responsável por testar e validar quaisquer novos procedimentos ou ferramentas e quem deve aprovar qualquer alteração no plano e nos procedimentos relacionados.
+
+Para garantir que seu plano de backup e restauração atenda totalmente a todas as metas e prioridades estabelecidas, obtenha a aprovação dos tomadores de decisões de negócios e tomadores de decisões técnicas adequados em sua organização antes de implementar o plano.
+
+</div>
+
+<div>
+
+## <a name="implementing-the-backup-and-restoration-plan"></a>Implementando o plano de backup e restauração
+
+A implementação de um plano de backup e restauração requer as seguintes etapas:
 
   - Testar e validar o plano.
 
   - Comunicar o plano.
 
-  - Validar as operações de backup e restauração.
+  - Validando operações de backup e restauração.
 
-## Testar e validar o plano
+<div>
 
-Os procedimentos aqui descritos foram testados e validados em um ambiente de laboratório. Para garantir que estes ou quaisquer outros procedimentos funcionem no seu ambiente, você deve testar e validar cada procedimento que pretende implementar. Conclua os testes e a validação antes de enviar seu plano para a aprovação final.
+## <a name="testing-and-validating-the-plan"></a>Testando e validando o plano
 
-## Comunicar o plano
+Os procedimentos descritos aqui foram testados e validados em um ambiente de laboratório. Para garantir que esses ou outros procedimentos funcionem em seu ambiente, você deve testar e validar cada procedimento que pretende implementar. Conclua o teste e a validação antes de enviar seu plano para aprovação final.
 
-Seu plano de backup e restauração deve descrever claramente quem implementará os procedimentos e incluir instruções passo a passo para executá-los. Você deve garantir que todos os responsáveis por qualquer aspecto do plano o compreendam, entendam como será implementado e quais são os seus papéis. Isso inclui todos os requisitos da implementação para:
+</div>
 
-  - Backup do pool e de servidores.
+<div>
 
-  - Restauração de serviços.
+## <a name="communicating-the-plan"></a>Comunicando o plano
 
-**Backup do pool e de servidores**
+Seu plano de backup e restauração deve descrever claramente quem implementa procedimentos e instruções passo a passo para executar os procedimentos. Você deve certificar-se de que todos responsáveis por qualquer aspecto de backup e restauração compreendam o plano, como ele deve ser implementado e qual é a função deles. Isso inclui todos os requisitos de implementação para o seguinte:
 
-O plano de backup e restauração deve incluir todas as informações necessárias para concluir os procedimentos de backup continuamente. As principais informações a serem comunicadas aos membros da equipe responsável incluem:
+  - Backup do pool e do servidor.
 
-  - Equipe ou pessoa (especificado como um indivíduo ou função) responsável por realizar o backup de cada servidor.
+  - Restauração do serviço.
 
-  - Agendas específicas para realizar o backup de cada servidor.
+**Backup do pool e do servidor**
+
+O plano de backup e restauração deve incluir todas as informações necessárias para concluir os procedimentos de backup continuamente. As informações principais a serem comunicadas aos membros da equipe responsável incluem o seguinte:
+
+  - Equipe ou pessoa (especificada como uma pessoa ou função) responsável por fazer backup de cada servidor.
+
+  - Agendas específicas para fazer backup de cada servidor.
 
   - Locais de backup para cada tipo de dados (configurações, banco de dados e compartilhamentos de arquivos).
 
-  - Procedimentos de backup a serem usados, incluindo as ferramentas necessárias para concluir cada um deles.
+  - Procedimentos de backup a serem usados, incluindo as ferramentas necessárias para concluir cada procedimento.
 
-  - As informações necessárias para concluir os backups, conforme descrito em [Planilhas de backup e restauração](lync-server-2013-backup-and-restoration-worksheets.md).
+  - Informações necessárias para concluir backups, conforme abordado nas [planilhas de backup e restauração do Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).
 
-  - Métodos de validação a serem usados para ajudar a garantir que o backup dos dados e configurações foi executado apropriadamente e está disponível para restauração, que pode incluir auditorias periódicas e restaurações de teste.
+  - Métodos de validação a serem usados para ajudar a garantir que os dados e configurações sejam backups adequadamente e disponíveis para restauração, que podem incluir auditorias periódicas e restaurações de teste.
 
-**Restauração de serviços**
+**Restauração do serviço**
 
-O plano de backup e restauração deve incluir todas as informações necessárias para restaurar serviços para casos de um ou mais servidores sofrer uma perda que os tornem indisponíveis. As principais informações a serem comunicadas aos membros da equipe responsável são:
+O plano de backup e restauração deve incluir todas as informações necessárias para restaurar o serviço, caso um ou mais servidores tenham uma perda que torna o serviço indisponível. As informações principais a serem comunicadas aos membros da equipe responsável incluem o seguinte:
 
-  - Equipe ou pessoa (especificado como indivíduo ou função) responsável por determinar quando a restauração de serviços será necessária e os procedimentos a serem usados para restaurá-los e, também, a equipe ou pessoa responsável por implementar procedimentos para cada cenário de restauração.
+  - Equipe ou pessoa (especificada como uma pessoa ou uma função) que é responsável por determinar quando a restauração do serviço é necessária e os procedimentos a serem usados para restaurar o serviço e também a equipe ou pessoa responsável pela implementação de procedimentos para cada um cenário de restauração.
 
-  - Critérios para determinar quais procedimentos de restauração são mais apropriados para uma situação específica.
+  - Os critérios para determinar quais procedimentos de restauração são mais apropriados para uma situação específica.
 
-  - Estimativas de tempo para a restauração de serviços e tempo de recuperação (RTO) em cada cenário de restauração.
+  - Estimativas de tempo para restauração do RTO (objetivo de tempo de recuperação) e de serviço (RTO) em cada cenário de restauração.
 
-  - Procedimentos de restauração a serem usados, incluindo as ferramentas necessárias para concluir cada um deles.
+  - Procedimentos de restauração a serem usados, incluindo as ferramentas necessárias para concluir cada procedimento.
 
-  - As informações necessárias para restaurar dados e configurações. Planilhas são fornecidas em [Planilhas de backup e restauração](lync-server-2013-backup-and-restoration-worksheets.md).
+  - Informações necessárias para restaurar dados e configurações. As planilhas são fornecidas em [planilhas de backup e restauração para o Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).
 
-## Como validar as operações de backup e restauração
+</div>
 
-Depois de concluir os esforços iniciais de backup em seu ambiente de produção e a intervalos específicos (conforme descrito em seu plano de backup e restauração), você deve verificar se:
+<div>
 
-  - Os backups estão ocorrendo conforme o solicitado.
+## <a name="validating-backup-and-restoration-operations"></a>Validando operações de backup e restauração
 
-  - Os dados e as configurações incluídos no backup estão disponíveis.
+Depois de concluir os esforços iniciais de backup em seu ambiente de produção e em intervalos específicos (conforme abordado em seu plano de backup e restauração), você deve verificar o seguinte:
 
-  - Procedimentos de restauração podem ser executados dentro dos períodos de tempo de recuperação (RTO) especificados no plano de backup e restauração e os resultados estarão de acordo com todos os requisitos de negócio.
+  - Os backups ocorrem conforme necessário.
 
-  - Planilhas de backup foram preenchidas e verificadas e estão armazenadas em um local seguro. Estas planilhas são fornecidas em [Planilhas de backup e restauração](lync-server-2013-backup-and-restoration-worksheets.md).
+  - Dados de backup e configurações são acessíveis.
 
-  - Procedimentos de restauração foram testados e verificados se funcionam conforme o esperado, de acordo com o especificado no plano.
+  - Os procedimentos de restauração podem ser executados dentro dos tempos de objetivo de tempo de recuperação especificados no plano de backup e restauração, e os resultados atendem a todas as necessidades de negócios.
 
-## Como manter o plano de backup e restauração
+  - As planilhas de backup foram concluídas e verificadas e são armazenadas em um local seguro. Essas planilhas são fornecidas em [planilhas de backup e restauração para o Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).
 
-Uma topologia do Lync Server é um ambiente dinâmico que muda com a sua organização. Reavalie seu plano de backup e restauração conforme sua organização muda e reveja-o periodicamente para garantir que continua atendendo as necessidades do seu negócio.
+  - Procedimentos de restauração foram testados e verificados para funcionar como esperado, conforme especificado no seu plano de backup e restauração.
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="maintaining-the-backup-and-restoration-plan"></a>Manutenção do plano de backup e restauração
+
+Uma topologia do Lync Server é um ambiente dinâmico que muda para a sua organização. Reavalie seu plano de backup e restauração à medida que sua organização muda e revise-a periodicamente para garantir que ela continue atendendo às necessidades da sua empresa.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

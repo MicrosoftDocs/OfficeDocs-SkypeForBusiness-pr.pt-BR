@@ -1,48 +1,95 @@
-﻿---
-title: Excluindo regiões de rede existentes
-TOCTitle: Excluindo regiões de rede existentes
-ms:assetid: c7293a2f-2b49-4c4a-903f-f7edcea2bc5f
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721882(v=OCS.15)
-ms:contentKeyID: 49886404
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: excluir regiões de rede existentes'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deleting existing network regions
+ms:assetid: c7293a2f-2b49-4c4a-903f-f7edcea2bc5f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721882(v=OCS.15)
+ms:contentKeyID: 49733815
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ea9d08121a7d62d10b44f97ff46ff8d4a5ca129e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829583"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Excluindo regiões de rede existentes
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-21_
+# <a name="deleting-existing-network-regions-in-lync-server-2013"></a>Excluindo regiões de rede existentes no Lync Server 2013
 
-Uma região de rede interconecta várias partes de uma rede entre várias áreas geográficas. Cada região de rede deve ser associada com um local central. O local central é o local do centro de dados no qual o serviço da política de largura de banda CAC está funcionando. É possível usar o Painel de Controle do Lync Server para configurar regiões de rede. As regiões de rede incluem configurações que determinam se os caminhos alternativos através da Internet são permitidos para conexões de áudio e vídeo. Do Painel de Controle do Lync Server, é possível criar, modificar ou excluir uma região de rede. Use este tópico para excluir regiões de rede existentes. Para obter detalhes sobre a criação e modificação de regiões de rede, consulte [Criar ou modificar regiões de rede](lync-server-2013-creating-or-modifying-network-regions.md)
+</div>
 
-## Para excluir uma região de rede
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-21_
+
+Uma região de rede interconecta várias partes de uma rede em várias áreas geográficas. Todas as regiões de rede devem estar associadas a um site central. O site central é o site do Data Center no qual o serviço de política de largura de banda do controle de admissão de chamadas (CAC) está em execução. Você pode usar o painel de controle do Lync Server para configurar regiões de rede. As regiões de rede incluem configurações que determinam se caminhos alternativos pela Internet são permitidos para conexões de áudio e vídeo. No painel de controle do Lync Server, você pode criar, modificar ou excluir uma região de rede. Use este tópico para excluir regiões de rede existentes. Para obter detalhes sobre como criar ou modificar regiões de rede existentes, consulte [criando ou modificando regiões de rede no Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md).
+
+<div>
+
+## <a name="to-delete-a-network-region"></a>Para excluir uma região de rede
 
 1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à direita, clique em **Configuração de Rede** e clique em **Região**.
+3.  Na barra de navegação à esquerda, clique em **configuração de rede** e, em seguida, clique em **região**.
 
-4.  Na página **Região**, clique na região que você deseja excluir.
+4.  Na página **região** , clique na região que você deseja excluir.
     
-    > [!NOTE]  
-    > É possível excluir mais de uma região por vez. Para fazer isso, pressione CTRL e selecione várias regiões enquanto mantém pressionada a tecla CTRL. Ou, para selecionar todas as regiões, clique em <strong>Selecionar tudo</strong> no menu <strong>Editar</strong>.
+    <div>
+    
 
-5.  No menu **Editar**, clique em **Excluir**.
+    > [!NOTE]  
+    > Você pode excluir mais de uma região de cada vez. Para fazer isso, pressione CTRL e selecione várias regiões enquanto mantém a tecla CTRL pressionada. Ou, para selecionar todas as regiões, clique em <STRONG>selecionar tudo</STRONG> no menu <STRONG>Editar</STRONG> .
+
+    
+    </div>
+
+5.  No menu **Editar** , clique em **excluir**.
 
 6.  Clique em **OK**.
     
+    <div>
+    
 
     > [!WARNING]  
-    > Uma região de rede não pode ser removida se estiver associada a um site de rede. Se você quiser tentar remover uma região associada a um site, receberá uma mensagem de erro. Para ver se um região está associada a algum site, selecione a região e clique em <STRONG>Mostrar detalhes</STRONG> no menu <STRONG>Editar</STRONG>.
+    > Uma região de rede não poderá ser removida se estiver associada a um site de rede. Se você tentar remover uma região associada a um site, receberá uma mensagem de erro. Para ver se uma região está associada a qualquer site, selecione a região e clique em <STRONG>Mostrar detalhes</STRONG> no menu <STRONG>Editar</STRONG> .
+
+    
+    </div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Confira também
 
 
+[Criando ou modificando regiões de rede no Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md)  
+  
 
-## Consulte Também
+</div>
 
-#### Tarefas
+</div>
 
-[Criar ou modificar regiões de rede](lync-server-2013-creating-or-modifying-network-regions.md)
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

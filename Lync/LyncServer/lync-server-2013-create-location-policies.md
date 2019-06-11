@@ -1,27 +1,47 @@
-﻿---
-title: Criar políticas de localização no Lync Server 2013
-TOCTitle: Criar políticas de localização no Lync Server 2013
-ms:assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg413006(v=OCS.15)
-ms:contentKeyID: 49308556
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: criar políticas de localização'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create location policies
+ms:assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413006(v=OCS.15)
+ms:contentKeyID: 48185794
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6f420d3b634df79411bbc72cd4c029f9b5d97e19
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829851"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Criar políticas de localização no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="create-location-policies-in-lync-server-2013"></a>Criar políticas de localização no Lync Server 2013
 
-O Lync Server usa uma política de localização para habilitar os clientes do Lync para o E9-1-1 durante o registro do cliente. Uma política de localização contém as configurações que definem como o E9-1-1 será implementado.
+</div>
 
-É possível editar a política de localização global e criar novas políticas de localização sinalizadas. Um cliente obtém uma política global quando não está localizado dentro de uma subrede com uma política de localização associada ou quando o cliente não foi atribuído diretamente com uma política de localização. As políticas sinalizadas são atribuídas à subredes ou usuários.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-11_
+
+O Lync Server usa uma política de localização para habilitar os clientes do Lync para E9-1-1 durante o registro do cliente. Uma política de local contém as configurações que definem como o serviço E9-1-1 será implementado.
+
+É possível editar a política de localização global e criar novas políticas de localização sinalizadas. Um cliente obtém uma política global quando não está localizado dentro de uma sub-rede com uma política de localização associada ou quando o cliente não foi atribuído diretamente com uma política de localização. As políticas sinalizadas são atribuídas à sub-redes ou usuários.  
 
 Para criar uma política de localização, você deve usar uma conta membro do grupo RTCUniversalServerAdmins, membro da função administrativa CsVoiceAdministrator ou com direitos e permissões de administrador equivalentes.
 
-Para uma descrição completa das políticas de localização, consulte [Definindo a política de local para Lync Server 2013](lync-server-2013-defining-the-location-policy.md). Os cmdlets deste procedimento usam uma política de localização definida usando os seguintes valores:
+Para obter uma descrição completa das políticas de localização, consulte [definindo a política de localização do Lync Server 2013](lync-server-2013-defining-the-location-policy.md). Cmdlets neste procedimento usam uma política de localização definida com os seguintes valores:
 
 
 <table>
@@ -38,11 +58,11 @@ Para uma descrição completa das políticas de localização, consulte [Definin
 <tbody>
 <tr class="odd">
 <td><p>EnhancedEmergencyServicesEnabled</p></td>
-<td><p><strong>Verdadeiro</strong></p></td>
+<td><p><strong>True</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>LocationRequired</p></td>
-<td><p><strong>Responsabilidade</strong></p></td>
+<td><p><strong>Disclaimer</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p>EnhancedEmergencyServiceDisclaimer</p></td>
@@ -50,7 +70,7 @@ Para uma descrição completa das políticas de localização, consulte [Definin
 </tr>
 <tr class="even">
 <td><p>UseLocationForE911Only</p></td>
-<td><p><strong>Falso</strong></p></td>
+<td><p><strong>False</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p>PstnUsage</p></td>
@@ -84,7 +104,7 @@ Para uma descrição completa das políticas de localização, consulte [Definin
 </table>
 
 
-Para obter detalhes sobre como trabalhar com políticas de localização, consulte a documentação do Shell de Gerenciamento do Lync Server dos seguintes cmdlets:
+Para obter detalhes sobre como trabalhar com políticas de localização, consulte a documentação do Shell de gerenciamento do Lync Server para os seguintes cmdlets:
 
   - New-CsLocationPolicy
 
@@ -94,14 +114,22 @@ Para obter detalhes sobre como trabalhar com políticas de localização, consul
 
   - Remove-CsLocationPolicy
 
-  - Grant-CsLocationPolicy
+  - Grant CsLocationPolicy
 
-## Para criar políticas de localização
+<div>
 
-1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+## <a name="to-create-location-policies"></a>Para criar políticas de localização
+
+1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
     
+    <div>
+    
+
     > [!NOTE]  
-    > O CsLocationPolicy irá falhar se a configuração do <strong>PstnUsage</strong> ainda não estiver na lista Global de PstnUsages.
+    > O CsLocationPolicy irá falhar se a configuração do <STRONG>PstnUsage</STRONG> ainda não estiver na lista Global de PstnUsages.
+
+    
+    </div>
 
 2.  Opcionalmente, execute o seguinte cmdlet para editar a política de localização global:
     
@@ -114,4 +142,16 @@ Para obter detalhes sobre como trabalhar com políticas de localização, consul
 4.  Execute o seguinte cmdlet para aplicar a política de localização sinalizada criada na etapa 3 em uma política de usuário.
     
         (Get-CsUser | where { $_.Name -match "UserName" }) | Grant-CsLocationPolicy -PolicyName Redmond
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

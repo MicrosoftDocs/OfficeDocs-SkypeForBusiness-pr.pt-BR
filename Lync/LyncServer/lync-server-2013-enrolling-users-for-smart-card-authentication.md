@@ -1,34 +1,62 @@
-﻿---
-title: Registrando usuários para a autenticação de cartão inteligente
-TOCTitle: Registrando usuários para a autenticação de cartão inteligente
-ms:assetid: a6445a83-a94b-423f-ba2a-12b5f84c5d75
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn308570(v=OCS.15)
-ms:contentKeyID: 56270458
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: registrando usuários para autenticação de cartão inteligente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enrolling users for smart card authentication
+ms:assetid: a6445a83-a94b-423f-ba2a-12b5f84c5d75
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308570(v=OCS.15)
+ms:contentKeyID: 54973691
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 11e74f35119a083aacd8440aec53594b8091b8e8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829210"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Registrando usuários para a autenticação de cartão inteligente
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Registrar usuários para autenticação de cartão inteligente no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-07-03_
 
 Em geral, há dois métodos para registrar usuários para autenticação de cartão inteligente. O método mais fácil envolve ter usuários registrados diretamente para autenticação de cartão inteligente usando o registro via Web, enquanto o método mais complexo envolve o uso de um agente de registro. Este tópico se concentra no autorregistro para certificados de cartões inteligentes.
 
-Para obter mais informações sobre o registro em nome de usuários como um agente de registro, consulte Registrar-se para certificados em nome de outros usuários[http://go.microsoft.com/fwlink/p/?LinkID=313367](http://go.microsoft.com/fwlink/p/?linkid=313367).
+Para obter mais informações sobre como registrar-se em nome dos usuários como um agente de inscrição, consulte registrar-se para obter certificados [http://go.microsoft.com/fwlink/p/?LinkID=313367](http://go.microsoft.com/fwlink/p/?linkid=313367)em nome de outros usuários em.
 
-## Para registrar usuários para autenticação de cartão inteligente
+<div>
 
-1.  Faça o logon na estação de trabalho com o Windows 8 usando as credenciais de um usuário habilitado no Lync.
+## <a name="to-enroll-users-for-smart-card-authentication"></a>Para registrar usuários para autenticação de cartão inteligente
+
+1.  Faça logon na estação de trabalho do Windows 8 usando as credenciais de um usuário compatível com o Lync.
 
 2.  Inicie o Internet Explorer.
 
-3.  Acesse a página **Inscrição na Web de Autoridade de Certificação** (por exemplo, https://MinhaCA.contoso.com/certsrv).
+3.  Navegue até a página de **registro na Web da autoridade** de https://MyCA.contoso.com/certsrv)certificação (por exemplo,.
     
+    <div>
+    
+
     > [!NOTE]  
     > Caso esteja usando o Internet Explorer 10, pode ser necessário visualizar esta página em Modo de Compatibilidade.
+
+    
+    </div>
 
 4.  Na **Página Inicial**, selecione **Solicitar um certificado**.
 
@@ -58,7 +86,7 @@ Para obter mais informações sobre o registro em nome de usuários como um agen
         
           - Em **Algoritmo de Hash**, selecione **sha1**.
         
-          - Em **Nome Amigável**, digite **Certificado de Cartão Inteligente**.
+          - Em **Nome Amigável**, digite **Smardcard Certificate**.
 
 8.  Caso você esteja usando um leitor de cartão inteligente físico, insira o cartão inteligente no dispositivo.
 
@@ -66,14 +94,42 @@ Para obter mais informações sobre o registro em nome de usuários como um agen
 
 10. Quando solicitado, digite o PIN usado para criar o cartão inteligente virtual.
     
+    <div>
+    
+
     > [!NOTE]  
     > O PIN padrão do cartão inteligente virtual é ‘12345678’.
 
+    
+    </div>
+
 11. Depois que o certificado tiver sido emitido, clique em **Instalar este certificado** para concluir o processo de registro.
     
+    <div>
+    
+
     > [!NOTE]  
     > Caso sua solicitação de certificado falhe com o erro “Este navegador da Web não dá suporte à geração de solicitações de certificados”, há três maneiras possíveis para resolver o problema: 
-    > <ol><li><p>Habilitar o Modo de Exibição de Compatibilidade no Internet Explorer</p></li>    
-    > <li><p>Habilitar a opção Ativar configurações de Intranet no Internet Explorer</p></li>    
-    > <li><p>Selecionar a configuração Restaurar o nível padrão de todas as zonas na guia Segurança no menu de opções do Internet Explorer.</p></li>    </ol>
+    > <OL>
+    > <LI>
+    > <P>Habilitar o Modo de Exibição de Compatibilidade no Internet Explorer</P>
+    > <LI>
+    > <P>Habilitar a opção Ativar configurações de Intranet no Internet Explorer</P>
+    > <LI>
+    > <P>Selecionar a configuração Restaurar o nível padrão de todas as zonas na guia Segurança no menu de opções do Internet Explorer.</P></LI></OL>
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

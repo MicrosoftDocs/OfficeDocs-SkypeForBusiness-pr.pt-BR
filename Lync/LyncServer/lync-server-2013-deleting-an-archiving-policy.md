@@ -1,30 +1,59 @@
-﻿---
-title: Excluindo uma política de arquivamento
-TOCTitle: Excluindo uma política de arquivamento
-ms:assetid: 4739a691-41cc-4128-8bb8-6d5a4c02107a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg520989(v=OCS.15)
-ms:contentKeyID: 49306586
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: excluindo uma política de arquivamento'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deleting an Archiving policy
+ms:assetid: 4739a691-41cc-4128-8bb8-6d5a4c02107a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520989(v=OCS.15)
+ms:contentKeyID: 48184043
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3f151a940958273509191b35ed817409ba52b6dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829588"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Excluindo uma política de arquivamento
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-23_
+# <a name="deleting-an-archiving-policy-in-lync-server-2013"></a>Excluindo uma política de arquivamento no Lync Server 2013
 
-Você pode excluir uma política de usuário ou uma política de site. A política global não pode ser removida. Se você tentar excluir a política global, o Lync Server 2013 automaticamente redefine a política para os valores padrão.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-23_
+
+Você pode excluir uma política de usuário ou política do site. A política global não pode ser removida. Se você tentar excluir a política global, o Lync Server 2013 redefine automaticamente a política para os valores padrão.
+
+<div>
+
 
 > [!NOTE]  
-> Se você ativar a integração do Microsoft Exchange para a implantação, as políticas Exchange controlam se o arquivamento está ativado para usuários hospedados no Exchange 2013 e têm as caixas de correio no Bloqueio In-loco. Para detalhes, consulte <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configurando Políticas para Arquivamento quando Usando Integração do Exchange Server</a> na documentação de Implantação.
+> Se você tiver habilitado a integração do Microsoft Exchange para a implantação, as políticas do Exchange controlarão se o arquivamento está habilitado para os usuários que estão hospedados no Exchange 2013 e ter suas caixas de correio no bloqueio in-loco. Para obter detalhes, consulte Configurando <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">políticas para arquivamento no Lync server 2013 ao usar a integração com o Exchange Server</A> na documentação de implantação.
 
-## Para excluir uma política de usuário ou site para arquivamento
+
+
+</div>
+
+<div>
+
+## <a name="to-delete-a-user-or-site-policy-for-archiving"></a>Para excluir um usuário ou uma política de site para arquivamento
 
 1.  Usando uma conta de usuário atribuída à função CsArchivingAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Na barra de navegação da esquerda, clique em **Monitoramento e Arquivamento**, e depois, clique em **Política de Arquivamento**.
 
@@ -32,33 +61,65 @@ Você pode excluir uma política de usuário ou uma política de site. A políti
 
 5.  Clique em **Confirmar**.
 
-## Removendo políticas de arquivamento utilizando cmdlets Shell de Gerenciamento do Lync Server
+</div>
 
-As políticas de arquivamento também podem ser excluídas utilizando o Windows PowerShell e o cmdlet **Remove-CsArchivingPolicy**. Este cmdlet pode ser executado do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Removendo uma política de arquivamento específica
+## <a name="removing-archiving-policies-by-using-windows-powershell-cmdlets"></a>Removendo políticas de arquivamento usando cmdlets do Windows PowerShell
 
-  - Como exemplo, o **Remove-CsArchivingPolicy** exclui a política com a Identidade site:Redmond. Observe que quando uma política configurada no escopo do site é excluída, os usuários gerenciados anteriormente pela política do site irão automaticamente ser governados pela política de arquivamento global. O comando a seguir remove o arquivamento aplicado ao site Redmond:
+As políticas de arquivamento podem ser excluídas usando o Windows PowerShell e o cmdlet **Remove-CsArchivingPolicy** . Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+
+<div>
+
+## <a name="to-remove-a-specified-archiving-policy"></a>Para remover uma política de arquivamento especificada
+
+  - Como exemplo, **Remove-CsArchivingPolicy** exclui a política com o site de identidade: Redmond. Observe que, quando uma política configurada no escopo do site for excluída, os usuários gerenciados anteriormente pela política do site serão automaticamente regidos pela política de arquivamento global. O comando a seguir remove o arquivamento aplicado ao site Redmond:
     
         Remove-CsArchivingPolicy -Identity site:Redmond
 
-## Removendo todas as políticas de arquivamento aplicadas ao escopo por usuário
+</div>
 
-  - Este comando remove todas as políticas de arquivamento aplicadas ao escopo por usuário:
+<div>
+
+## <a name="to-remove-all-the-archiving-policies-applied-to-the-per-user-scope"></a>Para remover todas as políticas de arquivamento aplicadas ao escopo por usuário
+
+  - Esse comando Remove todas as políticas de arquivamento aplicadas ao escopo por usuário:
     
         Get-CsArchivingPolicy -Filter "tag:*" | Remove-CsArchivingPolicy
 
-## Removendo todas as políticas de arquivamento que desativam o arquivamento interno
+</div>
+
+<div>
+
+## <a name="to-remove-all-the-archiving-policies-that-disable-internal-archiving"></a>Para remover todas as políticas de arquivamento que desativam o arquivamento interno
 
   - Este comando remove todas as políticas de arquivamento onde o arquivamento interno foi desativado:
     
         Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 
-Para mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsArchivingPolicy).
+</div>
 
-## Consulte Também
+Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Remove-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingPolicy) .
 
-#### Outros Recursos
+</div>
 
-[Gerenciando o arquivamento de comunicações internas e externas no Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Gerenciar o arquivamento de comunicações internas e externas no Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

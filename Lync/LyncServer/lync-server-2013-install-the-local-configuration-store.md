@@ -1,42 +1,83 @@
-﻿---
-title: 'Lync Server 2013: Instalar o repositório de Configuração Local'
-TOCTitle: Instalar o repositório de Configuração Local
-ms:assetid: b563030d-d338-411f-9611-28d5eb4b3238
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412874(v=OCS.15)
-ms:contentKeyID: 49307857
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Instalar o repositório de Configuração Local'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Install the Local Configuration store
+ms:assetid: b563030d-d338-411f-9611-28d5eb4b3238
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412874(v=OCS.15)
+ms:contentKeyID: 48185180
+ms.date: 06/28/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 135dedc38bbc24dd69dfd44b74c70db8e3397252
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828991"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Instalar o repositório de Configuração Local no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-06-27_
+# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>Instalar o repositório de Configuração Local no Lync Server 2013
 
-Antes de seguir os passos, certifique-se de estar registrado no servidor com uma conta de usuário do domínio que seja administrador local e membro do grupo RTCUniversalReadOnlyAdmin.
+</div>
 
-Para que possa fazer qualquer coisa com o Assistente de Implantação do Lync Server, precisamos do armazenamento de Configuração Local que existe no servidor. O armazenamento de Configuração Local é cópia somente leitura do Repositório de Gerenciamento Central, que foi criado após a instalação local do SQL Server Express. O próprio Repositório de Gerenciamento Central foi adicionado ao banco de dados SQL Server instalado existente no banco de dados com base em Servidor Standard Edition ou SQL Server Express.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-06-27_
+
+Antes de seguir essas etapas, verifique se você está conectado ao servidor com uma conta de usuário de domínio que seja um administrador local e um membro do grupo RTCUniversalReadOnlyAdmin.
+
+Para poder fazer algo com o assistente de implantação do Lync Server, precisamos que o repositório de configuração local exista em um servidor. O repositório de configuração local é uma cópia somente leitura do repositório de gerenciamento central, que é criado após a instalação local do SQL Server Express. O próprio repositório de gerenciamento central é adicionado ao banco de dados existente do SQL Server instalado no servidor Standard Edition ou no banco de dados baseado no SQL Server Express.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Se você não tiver executado a configuração do Lync Server 2013 no servidor anteriormente, será solicitado uma unidade e um caminho para instalar o Lync Server 2013. Isso permitirá a você instalar em uma unidade diferente da unidade do sistema, caso a sua organização necessite, ou caso você tenha problemas de espaço. Somente é possível alterar o caminho do local de instalação para os arquivos do Lync Server na caixa de diálogo Configuração para uma nova unidade disponível. Se você instalar os arquivos de Configuração nesse caminho, incluindo o OCSCore.msi, o restante dos arquivos do Lync Server 2013 será implantado nessa unidade também.
+> Se você não tiver executado a instalação do Lync Server 2013 nesse servidor antes, será solicitado que você solicite uma unidade e um caminho para instalar o Lync Server 2013. Isso permitirá que você instale em uma unidade diferente da unidade do sistema, se a sua organização exigir, ou se você tiver problemas de espaço. Você pode simplesmente alterar o caminho do local de instalação dos arquivos do Lync Server na caixa de diálogo Configurar para uma nova unidade disponível. Se você instalar os arquivos de instalação nesse caminho, incluindo o OCSCore. msi, o restante dos arquivos do Lync Server 2013 também será implantado.
 
-## Para instalar o repositório Configuração Local
 
-1.  A partir da mídia de instalação, navegue até \\setup\\amd64\\Setup.exe, e clique em **OK**.
 
-2.  Se você receber uma solicitação para instalar o Microsoft Visual C++ 2012 Redistributable, clique em **Sim**.
+</div>
 
-3.  Na página **Lync Server 2013 Local de instalação** , clique em **OK** .
+<div>
 
-4.  Na página **Contrato de Licença de Usuário Final**, revise os termos da licença, selecione **Aceito os termos do contrato de licença**, e clique em **OK** para continuar.
+## <a name="to-install-the-local-configuration-store"></a>Para instalar o repositório de configuração local
 
-5.  Na página Assistente de Implantação, clique em **Instalar ou Atualizar o Sistema do Lync Server** .
+1.  Na mídia de instalação, navegue até \\Setup\\AMD64\\setup. exe e clique em **OK**.
 
-6.  Na página **Lync Server 2013**, ao lado de **Etapa 1: instalar repositório de configuração local** , clique em **Executar** .
+2.  Se você for solicitado a instalar o Microsoft Visual C++ 2012 Redistributable, clique em **Sim**.
 
-7.  Na página **Instalar Configurações de Armazenamento Local** , verifique se a opção **Recuperar diretamente do repositório de Gerenciamento Central** está selecionada, e clique em **Próximo** .
+3.  Na página **local de instalação do Lync Server 2013** , clique em **OK**.
 
-8.  Quando a instalação da configuração do servidor local estiver concluída, será necessário clicar em **Concluir**.
+4.  Na página **contrato de licença de usuário final** , examine os termos de licença, você precisará **aceitar os termos do contrato de licença**e, em seguida, clicar em **OK** para poder continuar.
+
+5.  Na página Assistente de implantação, clique em **instalar ou atualizar o sistema do Lync Server**.
+
+6.  Na página do **Lync Server 2013** , ao lado de **Step1: instalar o repositório de configuração local**, clique em **executar**.
+
+7.  Na página **Instalar Configurações de Armazenamento Local**, verifique se a opção **Recuperar diretamente do repositório de Gerenciamento Central** está selecionada, e clique em **Próximo**.
+
+8.  Quando a instalação de configuração do servidor local estiver concluída, clique em **concluir**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

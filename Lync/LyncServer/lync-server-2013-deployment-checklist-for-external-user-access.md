@@ -1,49 +1,75 @@
-﻿---
-title: "Lync Server 2013: Lista de verif. de implant. p/ acesso de usuário externo"
-TOCTitle: Llista de verificação de implantação para acesso de usuário externo
-ms:assetid: 3f55f502-88a0-4315-8783-45a32a0b78ea
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425910(v=OCS.15)
-ms:contentKeyID: 49306487
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Llista de verificação de implantação para acesso de usuário externo'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment checklist for external user access
+ms:assetid: 3f55f502-88a0-4315-8783-45a32a0b78ea
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425910(v=OCS.15)
+ms:contentKeyID: 48183947
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0c8831e8bd94040095fabd9fb335113b62b5287b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829518"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Llista de verificação de implantação para acesso de usuário externo no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Llista de verificação de implantação para acesso de usuário externo no Lync Server 2013
 
-Antes de implantar a rede de perímetro e implementar o suporte para usuários externos, você já deve ter implantado os servidores internos do Microsoft Lync Server 2013, incluindo um Pool de Front-Ends ou um Servidor Standard Edition. Se você planeja implantar o Diretores opcional em sua rede interna, também deve implantá-los antes de implantar Servidores de Borda. Para obter detalhes sobre o processo de implantação do Diretor, consulte [Cenários para o Diretor no Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) na documentação de Planejamento.
+</div>
 
-Microsoft Lync Server 2013 inclui ferramentas para facilitar o planejamento e implantação de ambos os servidores internos e de Borda. Depois que a topologia estiver concluída, publique a definição de topologia resultante no seu ambiente de produção. Para tal, você precisa ser membro do grupo de **Administradores de domínio** e do grupo **RTCUniversalServerAdmins**.
+<div id="mainSection">
 
-  - **Ferramenta de planejamento**    Office Communications Server 2007 R2 incluída uma Ferramenta de Planejamento e uma Ferramenta de Planejamento de Borda que podem ser utilizadas para auxiliar a guiar no projeto de topologia. Em Lync Server 2010, essas duas ferramentas eram combinadas em um único Ferramenta de Planejamento que possui recursos e funcionalidades adicionais, como coleta de contagem de usuário planejada, requisitos de voz, tipos de acesso de usuário externo e opções de federação. Além disso, você pode planejar os parâmetros de rede da infraestrutura, como o endereço IP, tipos de balanceadores de carga e outras considerações de rede de perímetro.
+<div id="mainBody">
 
-  - **Construtor de topologia**    Lync Server 2013  Construtor de Topologias auxilia na definição da topologia e componentes. Construtor de Topologias é essencial para implantar servidores executando o Lync Server 2013. Construtor de Topologias publica os resultados em um Repositório de Gerenciamento Central que costuma configurar todos os servidores que executam Lync Server 2013 na sua organização. Você não pode instalar o Lync Server 2013 em servidores sem utilizar o Construtor de Topologias.
+<span> </span>
 
-Se você projetou a topologia de borda durante o processo de planejamento, incluindo o Construtor de Topologias em execução para definir a topologia de borda, você pode utilizar tais resultados para iniciar a implantação do seu Servidor de Borda. Se você não terminou de construir a topologia de borda antes ou deseja alterar a informação especificada anteriormente, deverá finalizar a execução de Construtor de Topologias antes de prosseguir em outra etapa de implantação. Para detalhes sobre como construir a topologia, consulte [Cenários de acesso de usuário externo no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+_**Tópico da última modificação:** 2014-02-04_
 
-Para detalhes sobre a Ferramenta de Planejamento e o Construtor de Topologia, consulte [Iniciando o processo de planejamento para Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) na documentação de Planejamento.
+Antes de implantar a sua rede de perímetro e implementar o suporte para usuários externos, você já deve ter implantado seus servidores internos do Microsoft Lync Server 2013, incluindo um pool de front-ends ou um servidor Standard Edition. Se você planeja implantar os diretores opcionais na sua rede interna, também deve implantá-los antes de implantar servidores de borda. Para obter detalhes sobre o processo de implantação do diretor, consulte [cenários do diretor do Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) na documentação de planejamento.
 
-A tabela a seguir apresenta uma visão geral do processo de implantação do Servidor de Borda. Para revisar as decisões que precisam ser tomadas antes de implantar o acesso de usuário externo, consulte [Cenários de acesso de usuário externo no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+O Microsoft Lync Server 2013 inclui ferramentas para facilitar o planejamento e a implantação de servidores internos e de servidores de borda. Após a conclusão da topologia, publique a definição de topologia resultante em seu ambiente de produção. Para fazer isso, você deve ser membro do grupo **Domain admins** e do grupo **RTCUniversalServerAdmins** .
+
+  - **Ferramenta de planejamento**   o Office Communications Server 2007 R2 incluía uma ferramenta de planejamento e uma ferramenta de planejamento de borda que você pode usar para ajudar a orientar o design da topologia. No Lync Server 2010, essas duas ferramentas foram combinadas em uma única ferramenta de planejamento que tem recursos e funcionalidades adicionais, como coletar contagem de usuários, requisitos de voz, tipos de acesso de usuário externo e opções de Federação. Além disso, você pode planejar os parâmetros de rede de sua infraestrutura, como endereços IP, tipos de balanceador de carga e outras considerações de rede do perímetro.
+
+  - **Construtor Topology Builder**   o construtor de topologias do Lync Server 2013 ajuda você a definir sua topologia e seus componentes. O construtor de topologias é essencial para implantar servidores que executam o Lync Server 2013. O construtor de topologias publica os resultados em um repositório de gerenciamento central que é usado para configurar todos os servidores que executam o Lync Server 2013 em sua organização. Não é possível instalar o Lync Server 2013 em servidores sem usar o construtor de topologias.
+
+Se você tiver projetado a topologia de borda durante o processo de planejamento, incluindo a execução do construtor de topologias para definir sua topologia de borda, você pode usar esses resultados para iniciar a implantação do servidor de borda. Se você não concluiu a criação da sua topologia de borda anteriormente ou deseja alterar as informações especificadas anteriormente, deverá concluir a execução do construtor de topologias antes de prosseguir com outras etapas de implantação. Para obter detalhes sobre como criar sua topologia, consulte [cenários para acesso de usuários externos no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+
+Para obter detalhes sobre a ferramenta de planejamento e o construtor de topologias, consulte [iniciar o processo de planejamento do Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) na documentação de planejamento.
+
+A tabela a seguir fornece uma visão geral do processo de implantação do servidor de borda. Para revisar as decisões de planejamento que devem ser tomadas antes de implantar o acesso de usuários externos, consulte [cenários para acesso de usuários externos no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+
+<div>
 
 
 > [!WARNING]  
-> As informações na tabela a seguir enfatizam uma nova implementação. Se você tiver implantado Servidores de Borda em um ambiente Lync Server 2010, Office Communications Server 2007 R2 ou Office Communications Server 2007, consulte <A href="migration.md">Migração</A> para obter detalhes sobre como migrar para o Lync Server 2013. Não há suporte para a migração em nenhuma versão anterior à Office Communications Server 2007 R2, incluindo Office Communications Server 2007, Live Communications Server 2005 e Live Communications Server 2003.
+> As informações na tabela a seguir se concentram em uma nova implantação. Se você implantou servidores de borda em um ambiente do Lync Server 2010, do Office Communications Server 2007 R2 ou do Office Communications Server 2007, consulte a <A href="migration.md">migração</A> para obter detalhes sobre a migração para o Lync Server 2013. Não há suporte para a migração de nenhuma versão anterior ao Office Communications Server 2007 R2, incluindo o Office Communications Server 2007, o Live Communications Server 2005 e o Live Communications Server 2003.
 
 
 
-Para aprimorar o desempenho e a segurança do Servidor de Borda e para facilitar a implantação, aplique as melhores práticas a seguir ao implantar sua rede de perímetro e Servidores de Borda:
+</div>
 
-  - Implante Servidores de Borda apenas após ter testado e verificado a operação do Lync Server 2013 dentro da organização.
+Para melhorar o desempenho e a segurança do servidor de borda e facilitar a implantação, aplique as seguintes práticas recomendadas ao implantar seus servidores de rede de perímetro e de borda:
 
-  - Recomendamos que você implante os Servidores de Borda em um grupo de trabalho em vez de um domínio. Fazer isso simplifica a instalação e mantém os Serviços de Domínio de Diretório Ativo (AD DS) fora da rede de perímetro. Localizar os AD DS na rede de perímetro podem apresentar um risco à segurança significante.
+  - Implante os servidores de borda somente depois de testar e verificar a operação do Lync Server 2013 dentro da sua organização.
 
-  - Reunir um Servidor de Borda a um domínio localizado totalmente na rede de perímetro é suportado, mas não recomendado. Um servidor de Borda como parte de um domínio interno viola os limites de rede confiáveis, onde a Internet é o menos confiável, e o perímetro de rede é mais confiável que a Internet e a rede interna a mais confiável. Um servidor de Borda como membro do domínio é automaticamente uma parte da rede mais confiável, mas reside em uma rede menos confiável (o perímetro).
+  - Recomendamos que você implante os servidores de borda em um grupo de trabalho em vez de um domínio. Isso simplifica a instalação e mantém os serviços de domínio Active Directory (AD DS) fora da rede de perímetro. Localizar o AD DS na rede de perímetro pode apresentar um risco de segurança significativo.
 
-## Processo de implantação para Servidores de Borda
+  - Ingressar em um servidor de borda em um domínio localizado inteiramente na rede de perímetro é compatível, mas não é recomendado. Um servidor de borda como parte do domínio interno viola os limites de rede confiáveis, em que a Internet é menos confiável, a rede de perímetro é mais confiável do que a Internet, e a rede interna é mais confiável. Um servidor de borda como membro do domínio é automaticamente parte da rede mais confiável, mas reside em uma rede menos confiável (o perímetro).
+
+<div>
+
+## <a name="deployment-process-for-edge-servers"></a>Processo de implantação para servidores de borda
 
 
 <table>
@@ -63,104 +89,121 @@ Para aprimorar o desempenho e a segurança do Servidor de Borda e para facilitar
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Criar a topologia de borda apropriada e determinar os componentes apropriados.</p></td>
+<td><p>Crie a topologia de borda apropriada e determine os componentes apropriados.</p></td>
 <td><ul>
-<li><p>Execute o Construtor de Topologias para definir as configurações do Servidor de Borda e criar e publicar a topologia. Em seguida, use o Shell de Gerenciamento do Lync Server para exportar o arquivo de configuração de topologia.</p></li>
-</ul>
-<p></p></td>
-<td><p>Grupo <strong>Admins. do Domínio</strong> e grupo <strong>RTCUniversalServerAdmins</strong> ou <strong>CsAdmins</strong></p>
+<li><p>Execute o construtor de topologias para definir as configurações do servidor de borda e criar e publicar a topologia e, em seguida, use o Shell de gerenciamento do Lync Server para exportar o arquivo de configuração de topologia.</p></li>
+</ul></td>
+<td><p>Grupo <strong>Administradores de domínio</strong> e grupo <strong>RTCUniversalServerAdmins</strong> ou <strong>CsAdmins</strong></p>
+<div>
 
 > [!NOTE]  
-> Você pode definir uma topologia usando uma conta que seja membro do grupo de usuários locais, mas a publicação de uma topologia requer uma conta que seja membro do grupo <strong>Admins. do Domínio</strong> e do grupo <strong>RTCUniversalServerAdmins</strong>.
+> Você pode definir uma topologia usando uma conta que seja membro do grupo usuários local, mas publicar uma topologia requer uma conta que seja membro do grupo <STRONG>Domain admins</STRONG> e do grupo <STRONG>RTCUniversalServerAdmins</STRONG> .
 
-</td>
-<td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Criando uma topologia de borda e de diretor no Lync Server 2013</a> na documentação de Implantação</p></td>
+
+</div></td>
+<td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Criando uma topologia de Edge e Director no Lync Server 2013</a> na documentação de implantação</p></td>
 </tr>
 <tr class="even">
-<td><p>Preparar para instalação.</p></td>
+<td><p>Prepare-se para a instalação.</p></td>
 <td><ol>
-<li><p>Garanta que os pré-requisitos do sistema sejam atendidos.</p></li>
-<li><p>Configure endereços IP (IPv4 e IPv6, se utilizados) para interfaces de rede internas e públicas em cada Servidor de Borda.</p></li>
-<li><p>Configure registros DNS internos e externos (host A e AAAA para IPv4 e IPv6), incluindo a configuração do sufixo DNS no computador para ser implantado como um Servidor de Borda.</p></li>
-<li><p>(Opcional) Crie e instale certificados públicos. O tempo necessário para obter certificados depende de qual CA (autoridade de certificação) emite o certificado. Se você não executar essa etapa neste ponto, você deverá fazê-lo durante a instalação do Servidor de Borda. O serviço de Servidor de Borda não pode ser iniciado enquanto os certificados não forem obtidos e instalados.</p></li>
-<li><p>Forneça suporte para conectividade de IM pública, se a sua implantação for dar suporte a comunicações com usuários do Windows Live, AOL ou Yahoo!.</p>
+<li><p>Certifique-se de que os pré-requisitos do sistema sejam atendidos.</p></li>
+<li><p>Configurar endereços IP (IPv4 e IPv6, se usados) para interfaces de rede internas e públicas voltadas para cada servidor de borda.</p></li>
+<li><p>Configurar registros DNS internos e externos (host A e AAAA para IPv4 e IPv6), incluindo a configuração do sufixo DNS no computador a ser implantado como um servidor de borda.</p></li>
+<li><p>Adicionais Criar e instalar certificados públicos. O tempo necessário para obter certificados depende de qual a autoridade de certificação (CA) emite o certificado. Se você não executar esta etapa neste ponto, deverá fazê-lo durante a instalação do servidor de borda. Os serviços de servidor de borda não podem ser iniciados até que os certificados sejam obtidos e instalados.</p></li>
+<li><p>Provisionar o suporte para conectividade de IM pública, se sua implantação for dar suporte a comunicações com o Windows Live, AOL ou Yahoo! Eles.</p>
+<div>
 
 > [!IMPORTANT]  
-> <ul>
-> <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>
-> <li><p>A PIC USL é uma licença de assinatura por mês e por usuário que é necessária para o Lync Server ou o Office Communications Server federar com o Yahoo! Messenger. A capacidade da Microsoft de fornecer este serviço depende do suporte do Yahoo!, o contrato subjacente que está sendo encerrado.</p></li>
-> <li><p>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre as organizações e com pessoas de todo o mundo. A federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além do CAL padrão do Lync. A federação do Skype será adicionada a esta lista, permitindo que os usuários do Lync para atinjam centenas de milhões de pessoas com mensagens instantâneas e de voz.</p></li></ul>
+> <UL>
+> <LI>
+> <P>A partir de 1º de setembro de 2012, a licença de assinatura de usuário da conectividade de mensagem de chat pública do Microsoft Lync ("PIC USL") não está mais disponível para compra de contratos novos ou de renovação. Os clientes com licenças ativas poderão continuar a federar-se com o Yahoo! Messenger até a data de encerramento do serviço. Uma data de fim da vida útil de junho de 2014 para AOL e Yahoo! foi anunciado. Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">suporte para conectividade de mensagens instantâneas públicas no Lync Server 2013</A>.</P>
+> <LI>
+> <P>O PIC USL é uma licença de assinatura por usuário por mês necessária para o Lync Server ou o Office Communications Server se federar com o Yahoo! Spam. A capacidade da Microsoft de oferecer esse serviço por meio do suporte do Yahoo!, o contrato subjacente para o qual está prestes a ser enrolado.</P>
+> <LI>
+> <P>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre organizações e pessoas ao redor do mundo. A Federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além da CAL padrão do Lync. A Federação do Skype será adicionada a essa lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com mensagens instantâneas e voz.</P></LI></UL>
 
-</li>
-<li><p>Fornecimento de suporte para XMPP e suporte de federação para parceiros Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010caso a sua implantação utilize-os</p></li>
-<li><p>Configure firewalls.</p></li>
+
+</div></li>
+<li><p>Provisionar suporte para XMPP e suporte de Federação para o Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 Partners, se a sua implantação usar esses</p></li>
+<li><p>Configurar firewalls.</p></li>
 </ol></td>
-<td><p>Conforme apropriado para sua organização</p></td>
-<td><p><a href="lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md">Preparando para instalação de servidores na rede de perímetro para Lync Server 2013</a> na documentação de Implantação</p></td>
+<td><p>Conforme apropriado para a sua organização</p></td>
+<td><p><a href="lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md">Preparando para a instalação de servidores na rede de perímetro do Lync Server 2013</a> na documentação de implantação</p></td>
 </tr>
 <tr class="odd">
-<td><p>Configurar proxy reverso.</p></td>
+<td><p>Configurar o proxy reverso.</p></td>
 <td><ul>
-<li><p>Configure o proxy inverso (por exemplo, para o Microsoft Forefront Threat Management Gateway 2010 ou o Microsoft Internet Security and Acceleration (ISA) Server com Service Pack 1) na rede de perímetro, obtenha os certificados públicos necessários e configure as regras de publicação na Web no servidor proxy reverso.</p>
-<p>Prepare o proxy reverso para serviços de Mobilidade se você tiver planejado para Mobilidade e está implantando serviços de Mobilidade no pool de Front End ou no servidor Standard Edition.</p></li>
+<li><p>Configurar o proxy inverso (por exemplo, para Microsoft Forefront Threat Management Gateway 2010 ou Microsoft Internet Security and Acceleration (ISA) Server with Service Pack 1) na rede de perímetro, obter os certificados públicos necessários e configurar o regras de publicação na Web no servidor proxy reverso.</p>
+<p>Prepare o proxy reverso para serviços de mobilidade se você tiver planejado para a mobilidade e estiver implantando os serviços de mobilidade no pool de front-ends ou no servidor Standard Edition.</p></li>
 </ul></td>
-<td><p>Grupo <strong>Administrators</strong> ou administrador de Proxy Reversa</p></td>
-<td><p></p>
-<p><a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configurando servidores de proxy reverso para o Lync Server 2013</a> na documentação de Implantação</p></td>
+<td><p>Grupo <strong>Administradores</strong> ou administrador de proxy reverso</p></td>
+<td><p><a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configurando servidores proxy inversos para o Lync Server 2013</a> na documentação de implantação</p></td>
 </tr>
 <tr class="even">
-<td><p>Configurar um Diretor (opcional).</p></td>
+<td><p>Configurar um diretor (opcional).</p></td>
 <td><ul>
-<li><p>(Opcional) Instale e configure um ou mais Diretores na rede interna.</p></li>
+<li><p>Adicionais Instale e configure um ou mais directors na rede interna.</p></li>
 </ul></td>
 <td><p>Grupo <strong>Administradores</strong></p></td>
-<td><p><a href="lync-server-2013-setting-up-the-director.md">Configurando o Diretor no Lync Server 2013</a> na documentação de Implantação</p></td>
+<td><p><a href="lync-server-2013-setting-up-the-director.md">Configurando o diretor do Lync Server 2013</a> na documentação de implantação</p></td>
 </tr>
 <tr class="odd">
-<td><p>Configurar os Servidores de Borda.</p></td>
+<td><p>Configurar servidores de borda.</p></td>
 <td><ol>
-<li><p>Instalar o software de pré-requisito</p></li>
-<li><p>Transporte o arquivo de configuração de topologia exportado para cada Servidor de Borda.</p></li>
-<li><p>Instale o software Lync Server 2013 em cada Servidor de Borda.</p></li>
-<li><p>Configure os Servidores de Borda.</p></li>
-<li><p>Solicite e instale certificados para cada Servidor de Borda.</p></li>
-<li><p>Inicie os serviços dos Servidores de Borda.</p></li>
+<li><p>Instale o software de pré-requisito.</p></li>
+<li><p>Transportar o arquivo de configuração de topologia exportado para cada servidor de borda.</p></li>
+<li><p>Instale o software do Lync Server 2013 em cada servidor de borda.</p></li>
+<li><p>Configurar os servidores de borda.</p></li>
+<li><p>Solicitar e instalar certificados para cada servidor de borda.</p></li>
+<li><p>Inicie os serviços do servidor de borda.</p></li>
 </ol></td>
 <td><p>Grupo <strong>Administradores</strong></p></td>
-<td><p><a href="lync-server-2013-setting-up-edge-servers.md">Configurando os servidores de borda no Lync Server 2013</a> na documentação de Implantação</p></td>
+<td><p><a href="lync-server-2013-setting-up-edge-servers.md">Configurando servidores de borda no Lync Server 2013</a> na documentação de implantação</p></td>
 </tr>
 <tr class="even">
-<td><p>Configuração de implantação para acesso de usuário externo.</p></td>
+<td><p>Configurar a implantação para acesso ao usuário externo.</p></td>
 <td><ol>
-<li><p>Use o Painel de Controle do Lync Serverpara configurar o suporte para cada uma das seguintes (conforme aplicável):</p>
+<li><p>Use o painel de controle do Lync Server para configurar o suporte para cada um dos seguintes (conforme aplicável):</p>
 <ul>
 <li><p>Retransmissão de mídia</p></li>
-<li><p>Rota de federação</p></li>
-<li><p>Acesso de usuários remotos</p></li>
-<li><p>Federação com Lync Server, Office Communications Server e Live Communications Server</p></li>
-<li><p>Conectividade a redes públicas de mensagens instantâneas</p></li>
-<li><p>Federação XMPP</p></li>
+<li><p>Roteiro de Federação</p></li>
+<li><p>Acesso de usuário remoto</p></li>
+<li><p>Federação com o Lync Server, o Office Communications Server e o Live Communications Server</p></li>
+<li><p>Conectividade de mensagem de chat Pública</p></li>
+<li><p>Federação do XMPP</p></li>
 <li><p>Usuários anônimos</p></li>
 </ul></li>
-<li><p>Configure contas de usuário para acesso de usuário remoto, federação, conectividade pública de IM, XMPP e suporte de usuário anônimo (conforme aplicável).</p></li>
+<li><p>Configurar contas de usuário para acesso de usuário remoto, Federação, conectividade de mensagem de chat pública, suporte a XMPP e usuários anônimos (conforme aplicável)</p></li>
 </ol></td>
-<td><p>Grupo <strong>RTCUniversalServerAdmins</strong> ou conta de usuário que é atribuído à função <strong>CSAdministrator</strong></p>
-<p></p></td>
-<td><p><a href="lync-server-2013-configuring-support-for-external-user-access.md">Configurando suporte para acesso de usuário externo no Lync Server 2013</a> na documentação de Implantação</p></td>
+<td><p>Grupo <strong>RTCUniversalServerAdmins</strong> ou conta de usuário atribuída à função <strong>CSAdministrator</strong></p></td>
+<td><p>Configurando o <a href="lync-server-2013-configuring-support-for-external-user-access.md">suporte para acesso de usuários externos no Lync Server 2013</a> na documentação de implantação</p></td>
 </tr>
 <tr class="odd">
-<td><p>Verificar sua configuração do Servidor de Borda.</p></td>
+<td><p>Verifique a configuração do servidor de borda.</p></td>
 <td><ol>
-<li><p>Verifique a conectividade de servidor e replicação de dados de configuração de servidores internos.</p></li>
-<li><p>Verifique se os usuários externos podem se conectar, incluindo usuários remotos, usuários em domínios federados, usuários públicos de mensagens instantâneas e usuários anônimos, conforme apropriado para sua implantação.</p></li>
-<li><p>Verifique a configuração e comunicação utilizando o Lync Server Remote Connectivity Analyzer <a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
-<li><p>Solução de problemas de dificuldades de configuração e comunicação</p></li>
+<li><p>Verifique a conectividade do servidor e a replicação de dados de configuração de servidores internos.</p></li>
+<li><p>Verifique se usuários externos podem se conectar, incluindo usuários remotos, usuários em domínios federados, usuários de mensagens de chat públicas e usuários anônimos, conforme apropriado para a sua implantação.</p></li>
+<li><p>Verificar a configuração e a comunicação usando o analisador de conectividade remota do Lync Server<a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
+<li><p>Solucionar problemas de configuração e dificuldade de comunicação</p></li>
 </ol></td>
-<td><p>Para verificação de replicação, o grupo <strong>RTCUniversalServerAdmins</strong> ou a conta de usuário que é atribuída à função <strong>CSAdministrator</strong></p>
-<p>Para a verificação de conectividade de usuário, um usuário para cada tipo de acesso de usuário externo que você dê suporte.</p>
+<td><p>Para verificar a replicação, grupo <strong>RTCUniversalServerAdmins</strong> ou conta de usuário atribuída à função <strong>CSAdministrator</strong></p>
+<p>Para verificar a conectividade do usuário, um usuário para cada tipo de acesso de usuário externo ao qual você dá suporte</p>
 <p>Usuários remotos</p></td>
-<td><p><a href="lync-server-2013-verifying-your-edge-deployment.md">Verificando a implantação de borda no Lync Server 2013</a> na documentação de Implantação</p></td>
+<td><p><a href="lync-server-2013-verifying-your-edge-deployment.md">Verificando a implantação de borda no Lync Server 2013</a> na documentação de implantação</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

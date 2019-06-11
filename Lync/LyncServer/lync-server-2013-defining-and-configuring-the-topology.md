@@ -1,43 +1,69 @@
-﻿---
-title: 'Lync Server 2013: Definindo e configurando a topologia'
-TOCTitle: Definindo e configurando a topologia
-ms:assetid: 51d1601e-4f83-48d4-ad08-3b4d5e2003aa
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398339(v=OCS.15)
-ms:contentKeyID: 49306712
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Definindo e configurando a topologia'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Defining and configuring the topology
+ms:assetid: 51d1601e-4f83-48d4-ad08-3b4d5e2003aa
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398339(v=OCS.15)
+ms:contentKeyID: 48184146
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8660ac75e325e5737ceb5df59e9463c88ef1c077
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829709"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Definindo e configurando a topologia no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-14_
+# <a name="defining-and-configuring-the-topology-in-lync-server-2013"></a>Definindo e configurando a topologia no Lync Server 2013
 
-Você define e configura a topologia usando o Construtor de Topologias. O Construtor de Topologias não exige que você seja membro do grupo Administradores local nem de um grupo de domínio privilegiado (como Admins. do Domínio). Você pode definir a topologia como um usuário padrão. Quando você inicia o Construtor de Topologias para a primeira utilização e nas sessões de edição subsequentes, é solicitado o local onde você deseja que o Construtor de Topologias carregue o documento de configuração atual. As opções são:
+</div>
 
-  - Baixar a topologia da implantação existente
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-14_
+
+Você define e configura sua topologia usando o construtor de topologias. O construtor de topologias não requer que você seja membro do grupo Administradores local ou de um grupo de domínio privilegiado (como administradores de domínio). Você pode definir sua topologia como um usuário padrão. Ao iniciar o construtor de topologia na primeira utilização e em sessões de edição subsequentes, você será solicitado a fornecer o local onde deseja que o construtor de topologias carregue o documento de configuração atual. As opções são as seguintes:
+
+  - Baixar topologia da implantação existente
 
   - Abrir a topologia de um arquivo local
 
   - Nova topologia
 
-Se você já definiu uma topologia e estabeleceu o Repositório de Gerenciamento Central, deve baixar uma topologia de uma implantação existente. O Construtor de Topologias lerá o banco de dados e recuperará a definição atual. Se você tiver um Repositório de Gerenciamento Central existente, sempre deverá escolher esta opção.
+Se já definiu uma topologia e estabeleceu o repositório de gerenciamento central, você deve optar por baixar uma topologia de uma implantação existente. O construtor de topologias lerá o banco de dados e recuperará a definição atual. Se você tiver um repositório de gerenciamento central existente, você deve sempre escolher essa opção.
 
-Se você não estabeleceu um Repositório de Gerenciamento Central e deseja editar uma configuração salva anteriormente, deve escolher abrir a topologia de um arquivo local. O arquivo que será aberto seria o arquivo de configuração salvo em uma sessão anterior. Você pode usar esta opção para editar a topologia salva anteriormente.
+Se você não tiver estabelecido um repositório de gerenciamento central e quiser editar uma configuração salva anteriormente, deve optar por abrir a topologia a partir de um arquivo local. O arquivo que você abrir será o arquivo de configuração que foi salvo em uma sessão anterior. Você pode usar essa opção para editar a topologia salva anteriormente.
+
+<div>
 
 
 > [!WARNING]  
-> Se você já tem uma topologia publicada, não deve carregar um arquivo de configuração local. Você deve baixar topologia de uma implantação existente.
+> Se já tiver uma topologia publicada, você não deverá carregar um arquivo de configuração local. Você deve optar por baixar a topologia de uma implantação existente.
 
 
 
-Escolha para criar uma nova topologia, quando você deseja criar uma nova configuração de Construtor de Topologias. Um projeto salvo anteriormente não é substituído, a menos que você escolha salvá-lo como o mesmo arquivo criado em uma sessão anterior do design.
+</div>
 
-Em cada uma dessas opções, um local será solicitado para armazenar o arquivo de configuração de Construtor de Topologias. O local do arquivo poderia ser local, um local compartilhado em um compartilhamento de arquivos estabelecido ou uma mídia removível.
+Escolha se deseja criar uma nova topologia, se você quiser criar uma nova configuração do construtor de topologias. Um design salvo anteriormente não será substituído, a menos que você opte por salvá-lo como o mesmo arquivo que você criou em uma sessão de design anterior.
 
-## Nesta seção
+Em cada uma dessas opções, você será solicitado a fornecer um local para armazenar o arquivo de configuração do construtor de topologias. O local para o arquivo pode ser um local local, um local compartilhado em um compartilhamento de arquivos estabelecido ou uma mídia removível.
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Definir e configurar uma topologia no Construtor de Topologia para Lync Server 2013](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md)
 
@@ -50,4 +76,16 @@ Em cada uma dessas opções, um local será solicitado para armazenar o arquivo 
   - [Editar ou configurar URLs simples no Lync Server 2013](lync-server-2013-edit-or-configure-simple-urls.md)
 
   - [Selecionar o Servidor de Gerenciamento Central no Lync Server 2013](lync-server-2013-select-the-central-management-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

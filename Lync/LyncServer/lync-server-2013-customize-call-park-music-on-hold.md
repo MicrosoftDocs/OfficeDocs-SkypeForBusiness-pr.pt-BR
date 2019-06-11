@@ -1,49 +1,98 @@
-﻿---
-title: "Personalizar a música de espera do estacion. de chamada no Lync Server 2013"
-TOCTitle: "Personalizar a música de espera do estacion. de chamada no Lync Server 2013"
-ms:assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688031(v=OCS.15)
-ms:contentKeyID: 49886186
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: personalizar a chamada de música do parque em espera'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Customize Call Park music on hold
+ms:assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688031(v=OCS.15)
+ms:contentKeyID: 49733621
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 62983c10033ddc350b39a123c62fa31c132bb9c9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829747"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Personalizar a música de espera do estacionamento de chamada no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-10_
+# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>Personalizar a chamada de música do parque em espera no Lync Server 2013
 
-Você pode especificar seu próprio arquivo de música para utilizar para música em espera em vez do arquivo de música padrão que é enviado com Lync Server 2013. Para personalizar música em espera, utilize o cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-10_
+
+Você pode especificar seu próprio arquivo de música para usar para música em espera, em vez do arquivo de música padrão que acompanha o Lync Server 2013. Para personalizar música em espera, utilize o cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.
+
+<div>
+
 
 > [!NOTE]  
-> Se você personalizar a música em espera e quiser a mesma música para diversos sites, você deve configurar o arquivo para cada site que executa o Aplicativo de Estacionamento de Chamada.
+> Se você personalizar música em espera e quiser a mesma música para vários sites, deve configurar o arquivo de música para cada site que executa o aplicativo de estacionamento de chamadas.
 
-## Para personalizar o arquivo de música
 
-1.  Faça logon no computador onde o Shell de Gerenciamento do Lync Server está instalado como um membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [Delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+</div>
+
+<div>
+
+## <a name="to-customize-the-music-file"></a>Para personalizar o arquivo de música
+
+1.  Faça logon no computador em que o Shell de gerenciamento do Lync Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [permissões de configuração de representante no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+
+2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
 
 3.  Execute:
     
         Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
     
+    <div>
+    
 
     > [!TIP]  
-    > Utilize o cmdlet <STRONG>Get-CsService</STRONG> para identificar o serviço. Para detalhes, consulte <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService">Get-CsService</A>.
+    > Utilize o cmdlet <STRONG>Get-CsService</STRONG> para identificar o serviço. Para obter detalhes, consulte <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">Get-CsService</A>.
 
     
-    O exemplo a seguir mostra como obter o conteúdo de um arquivo, soothingmusic.wma, como uma matriz de byte e atribuí-lo a uma variável. Então, o arquivo de áudio é atribuído como o arquivo de música em espera para Estacionamento de Chamada. Para detalhes, consulte [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile).
+    </div>
+    
+    O exemplo a seguir mostra como obter o conteúdo de um arquivo, soothingmusic.wma, como uma matriz de byte e atribuí-lo a uma variável. Então, o arquivo de áudio é atribuído como o arquivo de música em espera para Estacionamento de Chamada. Para obter detalhes, consulte [set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile).
     
         $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
         Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
 
-## Consulte Também
+</div>
 
-#### Outros Recursos
+<div>
 
-[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
-[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)
+## <a name="see-also"></a>Confira também
+
+
+[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
+[Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

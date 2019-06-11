@@ -1,39 +1,93 @@
-﻿---
-title: 'Lync Server 2013: Recursos de Unificação de Mensagens integrada'
-TOCTitle: Recursos de Unificação de Mensagens integrada e do Lync Server
-ms:assetid: 094f549d-fccc-43ab-9f39-6ddd18130915
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398144(v=OCS.15)
-ms:contentKeyID: 49305818
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Recursos de Unificação de Mensagens integrada'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Features of integrated Unified Messaging and Lync Server
+ms:assetid: 094f549d-fccc-43ab-9f39-6ddd18130915
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398144(v=OCS.15)
+ms:contentKeyID: 48183353
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b5dc6396bd78977d099e650f14ae1a0b4b46c54e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829159"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Recursos de Unificação de Mensagens integrada e do Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="features-of-integrated-unified-messaging-and-lync-server-2013"></a>Recursos de Unificação de Mensagens integrada e do Lync Server 2013
 
-O Lync Server 2013, Enterprise Voice utiliza a Unificação de Mensagens (UM) do Exchange infraestrutura do fea-ent-voice para fornecer atendimento de chamadas, notificação de chamadas, acesso de voz (incluindo caixa postal) e serviços de atendedor automático.
+</div>
 
-## Atendimento de chamadas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-01_
+
+Lync Server 2013, o Enterprise Voice usa a infraestrutura de Unificação de mensagens do Exchange para fornecer atendimento de chamada, notificação de chamada, acesso de voz (incluindo caixa postal) e serviços de atendedor automático.
+
+<div>
+
+## <a name="call-answering"></a>Atendimento de Chamadas
 
 O atendimento de chamadas é o recebimento das mensagens de voz em favor dos usuários cujas ligações não são atendidas ou estão ocupados. Ele inclui uma saudação pessoal, a gravação de uma mensagem e seu envio ao Transporte de Hub do Exchange Server para ficar na fila de entrega à caixa de correio do usuário, que está armazenada no servidor de caixa de correio do Exchange.
 
 Se o chamador deixar uma mensagem, está é roteada até a Caixa de entrada do usuário. Se o chamador optar por não deixar uma mensagem, uma notificação de chamada perdida será armazenada na caixa de correio do usuário. Os usuários podem, então, acessar sua Caixa de entrada usando o cliente de mensagem e de colaboração do Microsoft Outlook, o Outlook Web Access, a tecnologia Exchange ActiveSync ou o Outlook Voice Access. O assunto e a prioridade das chamadas podem ser exibidos de uma maneira muito semelhante àquela do e-mail.
 
-## Outlook Voice Access
+</div>
 
-O Outlook Voice Access habilita o acesso de um usuário Enterprise Voice o Enterprise Voice não apenas ao correio de voz, mas também à caixa de entrada do Exchange, incluindo e-mail, calendário e contatos de uma interface de telefonia. O número de acesso do assinante é designado por um administrador do UM do Exchange.
+<div>
 
-## Atendedor automático
+## <a name="outlook-voice-access"></a>Outlook Voice Access
 
-O atendedor automático é um recurso do UM do Exchange que pode ser usado para configurar um número de telefone o qual usuário de fora pode discar para contatar representantes da empresa. Especificamente, ele fornece uma série de avisos de voz que auxiliam um chamador externo a navegar por um sistema de menus. A lista de opções disponíveis é configurada no servidor do UM do Exchange pelo administrador do UM do Exchange.
+O Outlook Voice Access permite que um usuário do Enterprise Voice tenha acesso não apenas à caixa postal, mas também à caixa de entrada do Exchange, incluindo email, calendário e contatos de uma interface de telefonia. O número de acesso do assinante é atribuído por um administrador de UM do Exchange.
 
-## Serviços de fax
+</div>
 
-UM do Exchange inclui recursos de fax, que permitem aos usuários receber fax de entrada em suas Caixas de Correio do Exchange. Para obter detalhes, consulte "Unificação de Mensagens" na documentação do Microsoft Exchange Server em [http://go.microsoft.com/fwlink/p/?linkId=135652](http://go.microsoft.com/fwlink/p/?linkid=135652).
+<div>
+
+## <a name="auto-attendant"></a>Atendedor automático
+
+O atendedor automático é um recurso do Exchange UM que pode ser usado para configurar um número de telefone que os usuários externos podem discar para acessar os representantes da empresa. Especificamente, ele fornece uma série de avisos de voz que auxiliam um chamador externo a navegar por um sistema de menus. A lista de opções disponíveis é configurada no servidor do Exchange UM pelo administrador de UM do Exchange.
+
+</div>
+
+<div>
+
+## <a name="fax-services"></a>Serviços de fax
+
+O Exchange UM inclui recursos de fax, que permitem que os usuários recebam faxes de entrada nas caixas de correio do Exchange. Para obter detalhes, consulte "Unified Messaging" na documentação do Microsoft Exchange [http://go.microsoft.com/fwlink/p/?linkId=135652](http://go.microsoft.com/fwlink/p/?linkid=135652)Server em.
+
+<div>
+
 
 > [!NOTE]  
-> Os serviços de fax fornecidos pelo servidor UM do Exchange não estão disponíveis em implantações do Lync Server integradas ao Microsoft Exchange Server 2010, Exchange 2010 com o pacote de serviços mais recente, ou Exchange 2013.
+> Os serviços de fax fornecidos pelo Exchange UM servidor não estão disponíveis nas implantações do Lync Server integradas ao Microsoft Exchange Server 2010, Exchange 2010 com o Service Pack mais recente ou Exchange 2013.
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

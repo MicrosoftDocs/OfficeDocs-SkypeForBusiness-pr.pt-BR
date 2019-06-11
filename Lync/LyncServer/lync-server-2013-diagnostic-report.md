@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Relatório de diagnósticos'
-TOCTitle: Relatório de diagnósticos
-ms:assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg615445(v=OCS.15)
-ms:contentKeyID: 49307840
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: relatório de diagnóstico'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Diagnostic Report
+ms:assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615445(v=OCS.15)
+ms:contentKeyID: 48185159
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b314bccb0c1df539598e17ffc8ca12b30287b8eb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829413"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Relatório de diagnósticos no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="diagnostic-report-in-lync-server-2013"></a>Relatório de diagnóstico no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-02-07_
 
 O Relatório de diagnóstico fornece diagnósticos e informações para a solução de problemas de uma sessão com falha. Essas informações incluem a ID de diagnóstico e o cabeçalho de Diagnóstico que foram importados quando a sessão falhou. A ID de diagnóstico é um identificador exclusivo (na forma de um cabeçalho ms-diagnostics) que é anexado a uma mensagem SIP, enquanto a cabeçalho de Diagnóstico fornece uma descrição da ID de diagnóstico. O relatório também pode conter detalhes importantes para a solução de problemas e que são conhecidos pelo componente de relatório. Por exemplo:
 
@@ -23,19 +43,29 @@ O Relatório de diagnóstico fornece diagnósticos e informações para a soluç
 
   - Nomes pesquisados por falhas de resolução de DNS. A resolução DNS ocorre sempre que um cliente entra em contato com um servidor de nomes e solicita o endereço IP que corresponde ao nome de dispositivo especificado.
 
-## Acessando o relatório de diagnósticos
+<div>
 
-O Relatório de diagnósticos pode ser acessado clicando na métrica Relatório de diagnósticos (Detalhe) no [Relatório de Detalhes de Sessão Ponto a Ponto no Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) no Relatório de detalhes de conferência.
+## <a name="accessing-the-diagnostic-report"></a>Acessando o relatório de diagnósticos
 
-## Filtros
+O relatório de diagnóstico pode ser acessado clicando na métrica relatório de diagnóstico (detalhe) em um [relatório de detalhes de sessão ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) ou no relatório de detalhes da conferência.
+
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtros
 
 Nenhum. Não é possível filtrar o Relatório de Diagnóstico.
 
-## Métricas
+</div>
+
+<div>
+
+## <a name="metrics"></a>Métricas
 
 A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstico para cada sessão.
 
-### Métricas do Relatório de Diagnóstico
+### <a name="diagnostic-report-metrics"></a>Métricas do Relatório de Diagnóstico
 
 <table>
 <colgroup>
@@ -84,7 +114,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstic
 <tr class="odd">
 <td><p><strong>ID do Diagnóstico</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Identificador exclusivo (na forma de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que frequentemente fornece informações úteis para solução de erros.</p></td>
+<td><p>Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de conteúdo</strong></p></td>
@@ -115,5 +145,17 @@ A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstic
 </table>
 
 
-Uma lista de erros de diagnóstico pode ser encontrada na [página Cabeçalho Ms-Diagnostics](http://msdn.microsoft.com/en-us/library/gg132446\(v=office.12\).aspx).
+Uma lista de erros de diagnóstico pode ser encontrada na [página de cabeçalho MS-Diagnostics](http://msdn.microsoft.com/en-us/library/gg132446\(v=office.12\).aspx).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
