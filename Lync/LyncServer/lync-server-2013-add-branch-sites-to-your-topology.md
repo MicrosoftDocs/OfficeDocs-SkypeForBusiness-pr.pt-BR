@@ -1,53 +1,87 @@
-﻿---
-title: 'Lync Server 2013: Adicionar sites de filial a sua topologia'
-TOCTitle: Adicionar sites de filial a sua topologia
-ms:assetid: b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412905(v=OCS.15)
-ms:contentKeyID: 49307907
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Adicionar sites de filial a sua topologia'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Add branch sites to your topology
+ms:assetid: b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412905(v=OCS.15)
+ms:contentKeyID: 48185216
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 029627060ff03b804d0d2f76f40fdd4052f0d1c6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836949"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Adicionar sites de filial a sua topologia no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-05_
+# <a name="add-branch-sites-to-your-topology-in-lync-server-2013"></a><span data-ttu-id="73cd6-102">Adicionar sites de filial a sua topologia no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="73cd6-102">Add branch sites to your topology in Lync Server 2013</span></span>
 
-Os sites de filial representam os escritórios de filial físicos que estão conectados aos escritórios principais por um link WAN link. Para adicionar um site de filial à sua topologia do Lync, execute este procedimento no site central.
+</div>
 
-## Para adicionar sites de filiais à sua topologia
+<div id="mainSection">
 
-1.  Clique em **Iniciar** , **Todos os programas** , **Microsoft Lync Server** e em **Construtor de topologias do Lync Server** .
+<div id="mainBody">
 
-2.  Na árvore do console, expanda o site central, clique com o botão direito do mouse em **Sites de filia** e clique em **Novo site de filial** .
+<span> </span>
 
-3.  Na caixa de diálogo **Definir Novo Site de Filial** , clique em **Nome** e digite o nome do site de filial.
+<span data-ttu-id="73cd6-103">_**Tópico da última modificação:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="73cd6-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-4.  (Opcional) Clique em **Descrição** e digite uma descrição significativa para o site de filial.
+<span data-ttu-id="73cd6-104">Os sites de filiais representam filiais físicas conectadas a seus escritórios principais por meio de um link de WAN.</span><span class="sxs-lookup"><span data-stu-id="73cd6-104">Branch sites represent physical branch offices that are connected to your main offices over a WAN link.</span></span> <span data-ttu-id="73cd6-105">Para adicionar um site de ramificação à sua topologia do Lync, execute este procedimento no site central.</span><span class="sxs-lookup"><span data-stu-id="73cd6-105">To add a branch site to your Lync topology, perform this procedure at the central site.</span></span>
 
-5.  Clique em **Avançar** .
+<div>
 
-6.  (Opcional) Na próxima caixa de diálogo **Definir Novo Site de Filial** , execute uma das seguintes ações:
+## <a name="to-add-branch-sites-to-your-topology"></a><span data-ttu-id="73cd6-106">Para adicionar sites de filiais à sua topologia</span><span class="sxs-lookup"><span data-stu-id="73cd6-106">To add branch sites to your topology</span></span>
+
+1.  <span data-ttu-id="73cd6-107">Clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server**e, em seguida, clique em **Construtor de topologia do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="73cd6-107">Click **Start**, click **All Programs**, click **Microsoft Lync Server**, and then click **Lync Server Topology Builder**.</span></span>
+
+2.  <span data-ttu-id="73cd6-108">Na árvore de console, expanda o site central, clique com o botão direito do mouse em **sites**de ramificação e clique em **novo site de filial**.</span><span class="sxs-lookup"><span data-stu-id="73cd6-108">In the console tree, expand the central site, right-click **Branch Sites**, and then click **New Branch Site**.</span></span>
+
+3.  <span data-ttu-id="73cd6-109">Na caixa de diálogo **definir novo site de filial** , clique em **nome**e digite o nome do site de filial.</span><span class="sxs-lookup"><span data-stu-id="73cd6-109">In the **Define New Branch Site** dialog box, click **Name**, and then type the name of the branch site.</span></span>
+
+4.  <span data-ttu-id="73cd6-110">Adicionais Clique em **Descrição**e digite uma descrição significativa para o site da filial.</span><span class="sxs-lookup"><span data-stu-id="73cd6-110">(Optional) Click **Description**, and then type a meaningful description for the branch site.</span></span>
+
+5.  <span data-ttu-id="73cd6-111">Click **Next**.</span><span class="sxs-lookup"><span data-stu-id="73cd6-111">Click **Next**.</span></span>
+
+6.  <span data-ttu-id="73cd6-112">Adicionais Na caixa de diálogo próximo **definir novo site** de filiais, siga um destes procedimentos:</span><span class="sxs-lookup"><span data-stu-id="73cd6-112">(Optional) In the next **Define New Branch Site** dialog box, do any of the following:</span></span>
     
-      - Clique em **Cidade** e digite o nome da cidade na qual o site de filial está localizado.
+      - <span data-ttu-id="73cd6-113">Clique em **cidade**e digite o nome da cidade na qual o site da filial está localizado.</span><span class="sxs-lookup"><span data-stu-id="73cd6-113">Click **City**, and then type the name of the city in which the branch site is located.</span></span>
     
-      - Clique em **Estado/Região** e digite o nome do estado ou região na qual o site de filial está localizado.
+      - <span data-ttu-id="73cd6-114">Clique em **estado/região**e, em seguida, digite o nome do Estado ou da região em que o site da filial está localizado.</span><span class="sxs-lookup"><span data-stu-id="73cd6-114">Click **State/Region**, and then type the name of the state or region in which the branch site is located.</span></span>
     
-      - Clique em **Código do País** e digite o código de chamada de dois dígitos para o país/região no qual o site de filial está localizado.
+      - <span data-ttu-id="73cd6-115">Clique em **código do país**e, em seguida, digite o código de chamada de dois dígitos para o país/região no qual o site da filial está localizado.</span><span class="sxs-lookup"><span data-stu-id="73cd6-115">Click **Country Code**, and then type the two-digit calling code for the country/region in which the branch site is located.</span></span>
 
-7.  Clique em **Avançar** e execute uma das seguintes ações:
+7.  <span data-ttu-id="73cd6-116">Clique em **Avançar**e, em seguida, siga um destes procedimentos:</span><span class="sxs-lookup"><span data-stu-id="73cd6-116">Click **Next**, and then do one of the following:</span></span>
     
-      - Se você estiver usando um Aparelho de Filial Persistente ou um servidor neste site,certifique-se de marcar a caixa de seleção **Abrir o Novo Assistente Persistente quando este assistente fechar** , clique em **Concluir** e siga as direções no assistente que abrir. Para obter mais informações sobre itens do assistente, consulte [Definir um Servidor ou Aparelho de Filial Persistente no Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
+      - <span data-ttu-id="73cd6-117">Se você estiver usando um aplicativo ou um aplicativo de ramificação sobreviventes neste site, certifique-se de que a caixa de seleção **abrir o assistente para uso futuro quando este assistente for fechado** estiver marcada, clique em **concluir**e siga as instruções no assistente que é aberta.</span><span class="sxs-lookup"><span data-stu-id="73cd6-117">If you are using a Survivable Branch Appliance or Server at this site, be sure that the **Open the New Survivable Wizard when this wizard closes** check box is selected, click **Finish**, and then follow the directions in the wizard that opens.</span></span> <span data-ttu-id="73cd6-118">Para saber mais sobre os itens do assistente, confira [definir um aplicativo ou aplicativo de ramificação sobreviventes no Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).</span><span class="sxs-lookup"><span data-stu-id="73cd6-118">For information about wizard items, see [Define a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).</span></span>
     
-      - Se você não estiver usando um Aparelho de Filial Persistente ou servidores neste site, desmarque a caixa de seleção **Abrir o Novo Assistente Persistente quando este assistente fechar** e clique em **Concluir** .
+      - <span data-ttu-id="73cd6-119">Se você não estiver usando um aplicativo ou aplicativo de ramificação sobreviventes neste site, desmarque a caixa de seleção **abrir o assistente de Nova persistência quando este assistente for fechado** e clique em **concluir**.</span><span class="sxs-lookup"><span data-stu-id="73cd6-119">If you are not using a Survivable Branch Appliance or Server at this site, clear the **Open the New Survivable Wizard when this wizard closes** check box, and then click **Finish**.</span></span>
 
-8.  Repita as etapas anteriores para cada site de filial que você deseja adicionar à topologia.
+8.  <span data-ttu-id="73cd6-120">Repita as etapas anteriores para cada site de ramificação que você deseja adicionar à topologia.</span><span class="sxs-lookup"><span data-stu-id="73cd6-120">Repeat the previous steps for each branch site that you want to add to the topology.</span></span>
 
-**Próxima etapa:**
+<span data-ttu-id="73cd6-121">**Próxima etapa:**</span><span class="sxs-lookup"><span data-stu-id="73cd6-121">**Next step:**</span></span>
 
-Para Aparelhos de Filial Persistentes ou Servidores: [Definir um Servidor ou Aparelho de Filial Persistente no Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
+<span data-ttu-id="73cd6-122">Para aplicativos ou aparelhos de ramificação sobreviventes: [definir um aplicativo ou aplicativo de ramificação sobreviventes no Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)</span><span class="sxs-lookup"><span data-stu-id="73cd6-122">For Survivable Branch Appliances or Servers: [Define a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)</span></span>
 
-Para conectividade PSTN não resiliente: [Definir um gateway de PSTN para um site de filial no Lync Server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md), [Configurar um tronco com bypass de mídia no Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) ou [Configurar um tronco sem bypass de mídia no Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+<span data-ttu-id="73cd6-123">Para conectividade PSTN não resiliente: [defina um gateway PSTN para um site de filial no Lync server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md), [Configure um tronco com bypass de mídia no Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)ou [Configure um tronco sem bypass de mídia no Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)</span><span class="sxs-lookup"><span data-stu-id="73cd6-123">For non-resilient PSTN connectivity: [Define a PSTN gateway for a branch site in Lync Server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md), [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md), or [Configure a trunk without media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

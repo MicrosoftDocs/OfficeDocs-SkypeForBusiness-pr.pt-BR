@@ -1,39 +1,73 @@
-﻿---
-title: "Autorizar conexão com o serv.de borda do Office Communications Server 2007 R2"
-TOCTitle: "Autorizar conexão com o serv.de borda do Office Communications Server 2007 R2"
-ms:assetid: 14f6798a-28d6-4b3d-8734-942192e1bbf5
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204702(v=OCS.15)
-ms:contentKeyID: 49305974
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Autorizar conexão com o servidor de borda do Office Communications Server 2007 R2
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Authorize connection to Office Communications Server 2007 R2 Edge Server
+ms:assetid: 14f6798a-28d6-4b3d-8734-942192e1bbf5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204702(v=OCS.15)
+ms:contentKeyID: 48183493
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f81d8aaf9a01fc73516778487f8cc9a2d28a04ca
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836106"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Autorizar a conexão com o servidor de borda do Office Communications Server 2007 R2
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-28_
+# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a><span data-ttu-id="7ad08-102">Autorizar conexão com o servidor de borda do Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="7ad08-102">Authorize connection to Office Communications Server 2007 R2 Edge Server</span></span>
 
-Para cada servidor Front-End do Lync Server 2013 ou servidor Standard Edition em seu pool piloto, você deve atualizar a lista de servidores internos que estão autorizados a conectar ao Servidor de Borda do Office Communications Server 2007 R2. Sem estas atualizações, conferências A/V (audiovisual) externas para usuários ingressando usando o Servidor de Borda herdado não irão funcionar.
+</div>
 
-## Para autorizar conexão ao Servidor de Borda do Office Communications Server 2007 R2
+<div id="mainSection">
 
-1.  A partir do Servidor de Borda do Office Communications Server 2007 R2, do grupo **Ferramentas Administrativas** , abra o snap-in **Gerenciamento do Computador** .
+<div id="mainBody">
 
-2.  Na árvore do console, expanda **Serviços e Aplicativos** .
+<span> </span>
 
-3.  Clique com o botão direito em **Office Communications Server 2007 R2**, e então clique em **Propriedades** .
+<span data-ttu-id="7ad08-103">_**Tópico da última modificação:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="7ad08-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-4.  Clique na guia **Interno** .
+<span data-ttu-id="7ad08-104">Para cada servidor front-end do Lync Server 2013 ou Standard Edition no pool piloto, você deve atualizar a lista de servidores internos que têm autorização para se conectar ao servidor do Office Communications Server 2007 R2 Edge Server.</span><span class="sxs-lookup"><span data-stu-id="7ad08-104">For each Lync Server 2013 Front End Server or Standard Edition server in your pilot pool, you must update the list of internal servers that are authorized to connect to the Office Communications Server 2007 R2 Edge Server.</span></span> <span data-ttu-id="7ad08-105">Sem essas atualizações, a conferência de áudio/visual (A/V) externa para usuários que ingressarem usando o servidor de borda herdada não funcionará.</span><span class="sxs-lookup"><span data-stu-id="7ad08-105">Without these updates, external audio/visual (A/V) conferencing for users joining by using the legacy Edge Server will not work.</span></span>
 
-5.  Em **Adicionar Servidor** , clique em **Adicionar** .
+<div>
 
-6.  Na caixa de diálogo **Adicionar Office Communications Server**, insira as informações adequadas:
+## <a name="to-authorize-connection-to-office-communications-server-2007-r2-edge-server"></a><span data-ttu-id="7ad08-106">Para autorizar a conexão com o servidor de borda do Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="7ad08-106">To Authorize Connection to Office Communications Server 2007 R2 Edge Server</span></span>
+
+1.  <span data-ttu-id="7ad08-107">No servidor do Office Communications Server 2007 R2 Edge, a partir do grupo **Ferramentas administrativas** , abra o snap-in **Gerenciamento do computador** .</span><span class="sxs-lookup"><span data-stu-id="7ad08-107">From the Office Communications Server 2007 R2 Edge Server, from the **Administrative Tools** group, open the **Computer Management** snap-in.</span></span>
+
+2.  <span data-ttu-id="7ad08-108">Na árvore de console, expanda **serviços e aplicativos**.</span><span class="sxs-lookup"><span data-stu-id="7ad08-108">In the console tree, expand **Services and Applications**.</span></span>
+
+3.  <span data-ttu-id="7ad08-109">Clique com o botão direito do mouse em **Office Communications Server 2007 R2**e, em seguida, clique em **Propriedades**.</span><span class="sxs-lookup"><span data-stu-id="7ad08-109">Right-click **Office Communications Server 2007 R2**, and then click **Properties**.</span></span>
+
+4.  <span data-ttu-id="7ad08-110">Clique na guia **interno** .</span><span class="sxs-lookup"><span data-stu-id="7ad08-110">Click the **Internal** tab.</span></span>
+
+5.  <span data-ttu-id="7ad08-111">Em **Adicionar servidor**, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="7ad08-111">Under **Add Server**, click **Add**.</span></span>
+
+6.  <span data-ttu-id="7ad08-112">Na caixa de diálogo **Adicionar o Office Communications Server** , insira as informações apropriadas:</span><span class="sxs-lookup"><span data-stu-id="7ad08-112">In the **Add Office Communications Server** dialog box, enter the appropriate information:</span></span>
     
-      - Especifique o FQDN (nome de domínio totalmente qualificado) de cada servidor Front-End do Lync Server 2013 ou servidor Standard Edition e pool do Lync Server 2013.
+      - <span data-ttu-id="7ad08-113">Especifique o nome de domínio totalmente qualificado (FQDN) de cada servidor front-end do Lync Server 2013 ou do servidor Standard Edition e do Lync Server 2013 pool.</span><span class="sxs-lookup"><span data-stu-id="7ad08-113">Specify the fully qualified domain name (FQDN) of each Lync Server 2013 Front End Server or Standard Edition server, and Lync Server 2013 pool.</span></span>
     
-      - Especifique o FQDN do Diretor do Lync Server 2013 se você configurou um roteamento estático no pool que especifica o próximo computador de salto por seu FQDN.
+      - <span data-ttu-id="7ad08-114">Especifique o FQDN do diretor do Lync Server 2013 se você configurou uma rota estática no pool que especifica o próximo nó do computador pelo seu FQDN.</span><span class="sxs-lookup"><span data-stu-id="7ad08-114">Specify the FQDN of the Lync Server 2013 Director if you configured a static route on the pool that specifies the next hop computer by its FQDN.</span></span>
 
-7.  Após ter adicionado uma entrada para cada Lync Server 2013, servidor Front-End, servidor Standard Edition, pool e Diretor, clique em **Aplicar** e então em **OK** para fechar a página Propriedades.
+7.  <span data-ttu-id="7ad08-115">Depois de adicionar uma entrada para cada Lync Server 2013, servidor front-end, servidor Standard Edition, pool e diretor, clique em **aplicar** e, em seguida, clique em **OK** para fechar a página Propriedades.</span><span class="sxs-lookup"><span data-stu-id="7ad08-115">After you have added an entry for each Lync Server 2013, Front End Server, Standard Edition server, pool, and Director, click **Apply** and then click **OK** to close the Properties page.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

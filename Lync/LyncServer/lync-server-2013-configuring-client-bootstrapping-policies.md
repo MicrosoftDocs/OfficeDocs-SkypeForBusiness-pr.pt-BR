@@ -1,25 +1,45 @@
-﻿---
-title: Configurando políticas de bootstrap de cliente no Lync Server 2013
-TOCTitle: Configurando políticas de bootstrap de cliente no Lync Server 2013
-ms:assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425941(v=OCS.15)
-ms:contentKeyID: 49306576
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando políticas de inicialização do cliente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring client bootstrapping policies
+ms:assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425941(v=OCS.15)
+ms:contentKeyID: 48184031
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 06119d5488b47adfe01a934aca9a55581feaf33e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836288"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando políticas de bootstrap de cliente no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a><span data-ttu-id="31c01-102">Configurando as políticas de inicialização do cliente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="31c01-102">Configuring client bootstrapping policies in Lync Server 2013</span></span>
 
-O Console de Gerenciamento de Política de Grupo (GPMC) e o Editor de Objeto de Política de Grupo são ferramentas que você utiliza para gerenciar Políticas de Grupo. Incluído no Modelo Administrativo de Política de Grupo do Office, estão os Modelos Administrativos Lync 2013.admx (ADMX) e .adml (ADML), que contém configurações de políticas com base em registro para configurar os objetos da Política de Grupo no domínio. Os arquivos ADML são complementos específicos de idioma para arquivos ADMX. Cada arquivo ADMX e ADML contém as configurações de política para um único aplicativo Office.
+</div>
 
-Para Lync 2013, existem várias políticas de bootstrap do cliente que você deve considerar configurar antes de entrar no servidor pela primeira vez. Por exemplo, os servidores padrão e modo de segurança que o cliente deve utilizar até sair é completo. Você pode usar uma Política de Grupo para estabelecer tais configurações em registros de computador dos usuários antes que eles entrem e comecem a receber configurações de provisionamento em banda para o servidor. A tabela a seguir lista as configurações de Política de Grupo disponíveis para Lync 2013.
+<div id="mainSection">
 
-### Configurações de Política de Grupo para Lync 2013
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="31c01-103">_**Tópico da última modificação:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="31c01-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+
+<span data-ttu-id="31c01-104">O Console de Gerenciamento de Política de Grupo (GPMC) e o Editor de Objeto de Política de Grupo são ferramentas que você utiliza para gerenciar Políticas de Grupo.</span><span class="sxs-lookup"><span data-stu-id="31c01-104">The Group Policy Management Console (GPMC) and the Group Policy Object Editor are tools that you use to manage Group Policy.</span></span> <span data-ttu-id="31c01-105">Incluído no modelo administrativo da política de grupo do Office há modelos administrativos do Lync 2013. admx (ADMX) e. adml (ADML), que contêm as configurações de política baseadas no registro que você configura para objetos de política de grupo no domínio.</span><span class="sxs-lookup"><span data-stu-id="31c01-105">Included with the Office Group Policy Administrative Template are Lync 2013.admx (ADMX) and .adml (ADML) Administrative Templates, which contain the registry-based policy settings that you configure for Group Policy objects in the domain.</span></span> <span data-ttu-id="31c01-106">Os arquivos ADML são complementos específicos de idioma para arquivos ADMX.</span><span class="sxs-lookup"><span data-stu-id="31c01-106">ADML files are language-specific complements to ADMX files.</span></span> <span data-ttu-id="31c01-107">Cada arquivo ADMX e ADML contém as configurações de política para um único aplicativo do Office.</span><span class="sxs-lookup"><span data-stu-id="31c01-107">Each ADMX and ADML file contains the policy settings for a single Office application.</span></span> <span data-ttu-id="31c01-108">Para obter mais informações, consulte "arquivos de modelo administrativo do Office 2013 (ADMX, ADML)" na documentação do <http://go.microsoft.com/fwlink/p/?linkid=267516>Office 2013 em.</span><span class="sxs-lookup"><span data-stu-id="31c01-108">For more information, see “Office 2013 Administrative Template files (ADMX, ADML)” in the Office 2013 documentation at <http://go.microsoft.com/fwlink/p/?linkid=267516>.</span></span>
+
+<span data-ttu-id="31c01-109">Para o Lync 2013, há várias políticas de inicialização do cliente que você deve considerar Configurando antes de os usuários entrarem no servidor pela primeira vez.</span><span class="sxs-lookup"><span data-stu-id="31c01-109">For Lync 2013, there are several client bootstrapping policies that you should consider configuring before users sign in to the server for the first time.</span></span> <span data-ttu-id="31c01-110">Por exemplo, os servidores padrão e o modo de segurança que o cliente deve utilizar até que a entrada esteja concluída.</span><span class="sxs-lookup"><span data-stu-id="31c01-110">For example, the default servers and security mode that the client should use until sign-in is complete.</span></span> <span data-ttu-id="31c01-111">Você pode usar uma Política de Grupo para estabelecer essas configurações nos Registros dos computadores dos usuários antes que eles entrem e comecem a receber configurações de provisionamento em banda do servidor.</span><span class="sxs-lookup"><span data-stu-id="31c01-111">You can use Group Policy to establish these settings in users’ computer registries before they sign in and begin receiving in-band provisioning settings from the server.</span></span> <span data-ttu-id="31c01-112">A tabela a seguir lista as configurações de política de grupo que estão disponíveis para o Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="31c01-112">The following table lists the Group Policy settings that are available for Lync 2013.</span></span>
+
+### <a name="group-policy-settings-for-lync-2013"></a><span data-ttu-id="31c01-113">Configurações da política de grupo para o Lync 2013</span><span class="sxs-lookup"><span data-stu-id="31c01-113">Group Policy Settings for Lync 2013</span></span>
 
 <table>
 <colgroup>
@@ -28,80 +48,97 @@ Para Lync 2013, existem várias políticas de bootstrap do cliente que você dev
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuração de Política de Grupo</th>
-<th>Descrição</th>
+<th><span data-ttu-id="31c01-114">Configuração de Política de Grupo</span><span class="sxs-lookup"><span data-stu-id="31c01-114">Group Policy setting</span></span></th>
+<th><span data-ttu-id="31c01-115">Descrição</span><span class="sxs-lookup"><span data-stu-id="31c01-115">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Especificar servidor<br />(ConfigurationMode)</p></td>
-<td><p>Especifica como o Lync 2013 identifica o transporte e servidor a utilizar durante a assinatura. Com essa configuração, você especifica o seguinte:</p><ul><li><p>ServerAddressExternal: Especifica o nome de servidor ou endereço IP utilizado pelos clientes e contatos federados ao se conectar de fora do firewall externo.</p></li><li><p>ServerAddressInternal: Especifica o nome de servidor ou endereço IP utilizado quando os clientes se conectam de dentro do firewall da organização.</p></li><li><p>Transport: Especifica o protocolo TCP ou protocolo TLS.</p></li></ul></td>
+<td><p><span data-ttu-id="31c01-116">Especificar servidor</span><span class="sxs-lookup"><span data-stu-id="31c01-116">Specify Server</span></span><br />
+<span data-ttu-id="31c01-117">(ConfigurationMode)</span><span class="sxs-lookup"><span data-stu-id="31c01-117">(ConfigurationMode)</span></span></p></td>
+<td><p><span data-ttu-id="31c01-118">Especifica como o Lync 2013 identifica o transporte e o servidor a serem usados durante a entrada.</span><span class="sxs-lookup"><span data-stu-id="31c01-118">Specifies how Lync 2013 identifies the transport and server to use during sign-in.</span></span> <span data-ttu-id="31c01-119">Com essa configuração, você especifica o seguinte:</span><span class="sxs-lookup"><span data-stu-id="31c01-119">Within this setting, you specify the following:</span></span></p>
+<ul>
+<li><p><span data-ttu-id="31c01-120">ServerAddressExternal: Especifica o nome de servidor ou endereço IP utilizado pelos clientes e contatos federados ao se conectar de fora do firewall externo.</span><span class="sxs-lookup"><span data-stu-id="31c01-120">ServerAddressExternal: Specifies the server name or IP address used by clients and federated contacts when connecting from outside the external firewall.</span></span></p></li>
+<li><p><span data-ttu-id="31c01-121">ServerAddressInternal: Especifica o nome de servidor ou endereço IP utilizado quando os clientes se conectam de dentro do firewall da organização.</span><span class="sxs-lookup"><span data-stu-id="31c01-121">ServerAddressInternal: Specifies the server name or IP address used when clients connect from inside the organization’s firewall.</span></span></p></li>
+<li><p><span data-ttu-id="31c01-122">Transport: Especifica o protocolo TCP ou protocolo TLS.</span><span class="sxs-lookup"><span data-stu-id="31c01-122">Transport: Specifies either Transmission Control Protocol (TCP) or Transport Layer Security (TLS).</span></span></p></li>
+</ul></td>
 </tr>
 <tr class="even">
-<td><p>Versões de servidor adicionais suportadas<br />(ConfiguredServerCheckValues)</p></td>
-<td><p>Especifica uma lista de nomes de versão de servidor separadas por ponto e vírgula que o Lync Server 2013 irá efetuar login, além das versões de servidor que são suportadas por padrão.</p></td>
+<td><p><span data-ttu-id="31c01-123">Versões adicionais do servidor com suporte</span><span class="sxs-lookup"><span data-stu-id="31c01-123">Additional server versions supported</span></span><br />
+<span data-ttu-id="31c01-124">(ConfiguredServerCheckValues)</span><span class="sxs-lookup"><span data-stu-id="31c01-124">(ConfiguredServerCheckValues)</span></span></p></td>
+<td><p><span data-ttu-id="31c01-125">Especifica uma lista de nomes de versão do servidor separados por ponto-e-vírgulas nos quais o Lync Server 2013 fará logon, além das versões do servidor com suporte por padrão.</span><span class="sxs-lookup"><span data-stu-id="31c01-125">Specifies a list of server version names separated by semi-colons that Lync Server 2013 will log on to, in addition to the server versions that are supported by default.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Desativa o upload automático de logs de falha de assinatura (DisableAutomaticSendTracing)</p></td>
-<td><p>Efetua upload automaticamente dos logs de falha de assinatura para análise do Lync Server. Nenhum log é enviado automaticamente se a assinatura ocorrer com sucesso. Se esta política não estiver configurada, o seguinte ocorre:</p>
+<td><p><span data-ttu-id="31c01-126">Desativa o upload automático de logs de falha de assinatura (DisableAutomaticSendTracing)</span><span class="sxs-lookup"><span data-stu-id="31c01-126">Disable automatic upload of sign-in failure logs (DisableAutomaticSendTracing)</span></span></p></td>
+<td><p><span data-ttu-id="31c01-127">Carrega automaticamente os logs de falha de entrada no Lync Server para análise.</span><span class="sxs-lookup"><span data-stu-id="31c01-127">Automatically uploads sign-in failure logs to Lync Server for analysis.</span></span> <span data-ttu-id="31c01-128">Nenhum log será carregado automaticamente se a entrada ocorrer com êxito.</span><span class="sxs-lookup"><span data-stu-id="31c01-128">No logs are automatically uploaded if sign-in is successful.</span></span> <span data-ttu-id="31c01-129">Se essa política não estiver configurada, ocorrerá o seguinte:</span><span class="sxs-lookup"><span data-stu-id="31c01-129">If this policy is not configured, the following happens:</span></span></p>
 <dl>
 <dt><span></span></dt>
-<dd><p>Para usuários Lync Online: Logs de falha de assinatura são enviados automaticamente..</p>
+<dd><p><span data-ttu-id="31c01-130">Para usuários do Lync Online: logs de falha de entrada são carregados automaticamente.</span><span class="sxs-lookup"><span data-stu-id="31c01-130">For Lync Online users: Sign-in failure logs are automatically uploaded.</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Para usuários locais Lync: Uma caixa de diálogo de confirmação é exibida ao usuário antes do envio.</p>
+<dd><p><span data-ttu-id="31c01-131">Para usuários do Lync local: uma caixa de diálogo de confirmação é exibida para o usuário antes do carregamento.</span><span class="sxs-lookup"><span data-stu-id="31c01-131">For Lync on-premises users: A confirmation dialog box is shown to the user before upload.</span></span></p>
 </dd>
 </dl>
-<p>Quando a configuração estiver desativada, os logs de assinatura são enviados automaticamente para o Lync Server para Lync locais e usuários Lync Online. Quando essa configuração estiver ativada, os logs de assinatura nunca são enviados automaticamente.</p></td>
+<p><span data-ttu-id="31c01-132">Quando essa configuração estiver desabilitada, os logs de entrada serão carregados automaticamente para o servidor do Lync para os usuários do Lync local e do Lync Online.</span><span class="sxs-lookup"><span data-stu-id="31c01-132">When this setting is disabled, sign-in logs are automatically uploaded to the Lync Server for both Lync on-premises and Lync Online users.</span></span> <span data-ttu-id="31c01-133">Quando essa configuração é habilitada, os logs de entrada nunca são carregados automaticamente.</span><span class="sxs-lookup"><span data-stu-id="31c01-133">When this setting is enabled, sign-in logs are never uploaded automatically.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Desativar o fallback de HTTP para conexão SIP<br />(DisableHttpConnect)</p></td>
-<td><p>Previne que o Lync Server tente se conectar com o servidor utilizando HTTP, caso TLS ou TCP estejam indisponíveis. Por padrão, o Lync tenta primeiro se conectar ao servidor utilizando o TLS ou TCP e, se nenhum destes métodos de transporte estejam funcionando, o Lync tenta se conectar utilizando HTTP. Utilize essa política para desativar a tentativa de conexão por HTTP de fallback.</p></td>
+<td><p><span data-ttu-id="31c01-134">Desabilitar o fallback de HTTP para conexão SIP</span><span class="sxs-lookup"><span data-stu-id="31c01-134">Disable HTTP fallback for SIP connection</span></span><br />
+<span data-ttu-id="31c01-135">(DisableHttpConnect)</span><span class="sxs-lookup"><span data-stu-id="31c01-135">(DisableHttpConnect)</span></span></p></td>
+<td><p><span data-ttu-id="31c01-136">Impede que o Lync Server tente se conectar ao servidor usando HTTP, se TLS ou TCP não estiverem disponíveis.</span><span class="sxs-lookup"><span data-stu-id="31c01-136">Prevents Lync Server from trying to connect to the server by using HTTP, if TLS or TCP are unavailable.</span></span> <span data-ttu-id="31c01-137">Por padrão, o Lync tenta primeiro se conectar ao servidor usando TLS ou TCP e, se nenhum desses métodos de transporte for bem-sucedido, o Lync tenta se conectar usando HTTP.</span><span class="sxs-lookup"><span data-stu-id="31c01-137">By default, Lync first attempts to connect to the server by using TLS or TCP and, if neither of these transport methods is successful, Lync tries to connect by using HTTP.</span></span> <span data-ttu-id="31c01-138">Use essa política para desabilitar a tentativa de conexão por HTTP de fallback.</span><span class="sxs-lookup"><span data-stu-id="31c01-138">Use this policy to disable the fallback HTTP connection attempt.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Requer credenciais de login<br />(DisableNTCredentials)</p></td>
-<td><p>Requer que o usuário forneça credenciais de login para Lync em vez de utilizar automaticamente credenciais do Windows durante a assinatura a um servidor SIP.</p></td>
+<td><p><span data-ttu-id="31c01-139">Exigir credenciais de logon</span><span class="sxs-lookup"><span data-stu-id="31c01-139">Require logon credentials</span></span><br />
+<span data-ttu-id="31c01-140">(DisableNTCredentials)</span><span class="sxs-lookup"><span data-stu-id="31c01-140">(DisableNTCredentials)</span></span></p></td>
+<td><p><span data-ttu-id="31c01-141">Requer que o usuário forneça credenciais de logon para o Lync em vez de usar as credenciais do Windows automaticamente durante a entrada em um servidor SIP.</span><span class="sxs-lookup"><span data-stu-id="31c01-141">Requires the user to provide logon credentials for Lync rather than automatically using Windows credentials during sign-in to a SIP server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Desativar a verificação de versão de servidor<br />(DisableServerCheck)</p></td>
-<td><p>Se esta política estiver definida para 1, evita que Lync verifique o nome do servidor e versão antes de assinar. Por padrão, o Lync efetua tais verificações antes de assinar.</p></td>
+<td><p><span data-ttu-id="31c01-142">Desabilitar a verificação de versão do servidor</span><span class="sxs-lookup"><span data-stu-id="31c01-142">Disable server version check</span></span><br />
+<span data-ttu-id="31c01-143">(DisableServerCheck)</span><span class="sxs-lookup"><span data-stu-id="31c01-143">(DisableServerCheck)</span></span></p></td>
+<td><p><span data-ttu-id="31c01-144">Se você definir essa política como 1, o Lync não verifica o nome e a versão do servidor antes de entrar.</span><span class="sxs-lookup"><span data-stu-id="31c01-144">If you set this policy to 1, prevents Lync from checking the server name and version before signing in.</span></span> <span data-ttu-id="31c01-145">Por padrão, o Lync faz essas verificações antes de entrar.</span><span class="sxs-lookup"><span data-stu-id="31c01-145">By default, Lync makes these checks before signing in.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ativar o uso de BITS para baixar arquivos do Serviço de Catálogo de Endereços<br />(EnableBitsForGalDownload)</p></td>
-<td><p>Ativa o Lync para utilizar o Serviço de transferência inteligente de plano de fundo (BITS) para baixar os arquivos do Serviço de Catálogo de Endereços.</p></td>
+<td><p><span data-ttu-id="31c01-146">Habilitar o uso do BITS para baixar arquivos do serviço de catálogo de endereços</span><span class="sxs-lookup"><span data-stu-id="31c01-146">Enable using BITS to download Address Book Service files</span></span><br />
+<span data-ttu-id="31c01-147">(EnableBitsForGalDownload)</span><span class="sxs-lookup"><span data-stu-id="31c01-147">(EnableBitsForGalDownload)</span></span></p></td>
+<td><p><span data-ttu-id="31c01-148">Permite que o Lync use o serviço de transferência inteligente em segundo plano (BITS) para baixar os arquivos dos serviços de catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="31c01-148">Enables Lync to use Background Intelligent Transfer Service (BITS) to download the Address Book Services files.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Configurar o modo de segurança do SIP<br />(EnableSIPHighSecurityMode)</p></td>
-<td><p>Ativa o Lync a enviar e receber mensagens instantâneas de forma mais segura. Esta política não possui efeito no Windows .NET ou serviços do Servidor do Microsoft Exchange.</p>
-<p>Se você não definir esta configuração de política, o Lync poderá usar qualquer transporte. Mas, caso não utilize o TLS e o servidor autenticar usuários, o Lync deve utilizar a autenticação do NTLM ou Kerberos.</p></td>
+<td><p><span data-ttu-id="31c01-149">Configurar o modo de segurança SIP</span><span class="sxs-lookup"><span data-stu-id="31c01-149">Configure SIP security mode</span></span><br />
+<span data-ttu-id="31c01-150">(EnableSIPHighSecurityMode)</span><span class="sxs-lookup"><span data-stu-id="31c01-150">(EnableSIPHighSecurityMode)</span></span></p></td>
+<td><p><span data-ttu-id="31c01-151">Permite que o Lync envie e receba mensagens de chat com mais segurança.</span><span class="sxs-lookup"><span data-stu-id="31c01-151">Enables Lync to send and receive instant messages more securely.</span></span> <span data-ttu-id="31c01-152">Essa política não tem efeito no Windows .NET, nem em serviços de Servidor do Microsoft Exchange.</span><span class="sxs-lookup"><span data-stu-id="31c01-152">This policy has no effect on Windows .NET or Microsoft Exchange Server services.</span></span></p>
+<p><span data-ttu-id="31c01-153">Se você não definir essa configuração de política, o Lync poderá usar qualquer transporte.</span><span class="sxs-lookup"><span data-stu-id="31c01-153">If you do not configure this policy setting, Lync can use any transport.</span></span> <span data-ttu-id="31c01-154">Mas se ele não usar TLS e se o servidor autenticar usuários, o Lync deverá usar a autenticação NTLM ou Kerberos.</span><span class="sxs-lookup"><span data-stu-id="31c01-154">But if it does not use TLS and if the server authenticates users, Lync must use either NTLM or Kerberos authentication.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Atraso inicial de download do Catálogo de Endereços global<br />(GalDownloadInitialDelay)</p></td>
-<td><p>Especifica o período de tempo antes de um download da lista de endereço global (GAL) ocorrer. O valor padrão é 60 minutos, o que significa que o download do arquivo GAL é atrasado para um período aleatório entre 0 e 60 minutos.</p></td>
+<td><p><span data-ttu-id="31c01-155">Atraso inicial do download do catálogo de endereços global</span><span class="sxs-lookup"><span data-stu-id="31c01-155">Global Address Book Download Initial Delay</span></span><br />
+<span data-ttu-id="31c01-156">(GalDownloadInitialDelay)</span><span class="sxs-lookup"><span data-stu-id="31c01-156">(GalDownloadInitialDelay)</span></span></p></td>
+<td><p><span data-ttu-id="31c01-p110">Especifica o período de tempo antes de um download da lista de endereço global (GAL) ocorrer. O valor padrão é 60 minutos, o que significa que o download do arquivo GAL é atrasado para um período aleatório entre 0 e 60 minutos.</span><span class="sxs-lookup"><span data-stu-id="31c01-p110">Specifies the time period before a download of the global address list (GAL) occurs. The default value is 60 minutes, which means the server delays the download of GAL file for a random period of between 0 and 60 minutes.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Evita que usuários executem o Microsoft Lync<br />(PreventRun)</p></td>
-<td><p>Evita que os usuários executem o Lync. Você pode definir esta configuração de política tanto sob a Configuração do Computador quanto da Configuração de usuário, mas a configuração de política em Configuração de Computador tem precedência.</p></td>
+<td><p><span data-ttu-id="31c01-159">Impedir que os usuários executem o Microsoft Lync</span><span class="sxs-lookup"><span data-stu-id="31c01-159">Prevent users from running Microsoft Lync</span></span><br />
+<span data-ttu-id="31c01-160">(PreventRun)</span><span class="sxs-lookup"><span data-stu-id="31c01-160">(PreventRun)</span></span></p></td>
+<td><p><span data-ttu-id="31c01-161">Impede que os usuários executem o Lync.</span><span class="sxs-lookup"><span data-stu-id="31c01-161">Prevents users from running Lync.</span></span> <span data-ttu-id="31c01-162">Você pode definir essa configuração de política na Configuração do Computador e na Configuração do Usuário, mas a configuração de política na Configuração do Computador tem precedência.</span><span class="sxs-lookup"><span data-stu-id="31c01-162">You can configure this policy setting under both Computer Configuration and User Configuration, but the policy setting under Computer Configuration takes precedence.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Permitir armazenamento de senhas de usuário<br />(SavePassword)</p></td>
-<td><p>Ativa o Lync a armazenar senhas.</p></td>
+<td><p><span data-ttu-id="31c01-163">Permitir armazenamento de senhas de usuários</span><span class="sxs-lookup"><span data-stu-id="31c01-163">Allow storage of user passwords</span></span><br />
+<span data-ttu-id="31c01-164">(SavePassword)</span><span class="sxs-lookup"><span data-stu-id="31c01-164">(SavePassword)</span></span></p></td>
+<td><p><span data-ttu-id="31c01-165">Permite que o Lync armazene senhas.</span><span class="sxs-lookup"><span data-stu-id="31c01-165">Enables Lync to store passwords.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Configurar o modo de compressão do SIP<br />(SipCompression)</p></td>
-<td><p>Especifica quando ativar a compressão do SIP. Por padrão, a compressão do SIP está ativada com base na velocidade do adaptador. Observe que configurar tal política pode causar um aumento no tempo de assinatura.</p></td>
+<td><p><span data-ttu-id="31c01-166">Configurar o modo de compactação SIP</span><span class="sxs-lookup"><span data-stu-id="31c01-166">Configure SIP compression mode</span></span><br />
+<span data-ttu-id="31c01-167">(SipCompression)</span><span class="sxs-lookup"><span data-stu-id="31c01-167">(SipCompression)</span></span></p></td>
+<td><p><span data-ttu-id="31c01-p112">Especifica quando ativar a compressão do SIP. Por padrão, a compressão do SIP está ativada com base na velocidade do adaptador. Observe que configurar tal política pode causar um aumento no tempo de assinatura.</span><span class="sxs-lookup"><span data-stu-id="31c01-p112">Specifies when to turn on SIP compression. By default, SIP compression is enabled based on the adapter speed. Note that setting this policy might cause an increase in sign-in time.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Lista de domínio confiável<br />(TrustModelData)</p></td>
-<td><p>Lista os domínios confiáveis que não correspondem ao prefixo do domínio SIP cliente.</p></td>
+<td><p><span data-ttu-id="31c01-171">Lista de domínios confiáveis</span><span class="sxs-lookup"><span data-stu-id="31c01-171">Trusted Domain List</span></span><br />
+<span data-ttu-id="31c01-172">TrustModelData</span><span class="sxs-lookup"><span data-stu-id="31c01-172">(TrustModelData)</span></span></p></td>
+<td><p><span data-ttu-id="31c01-173">Lista os domínios confiáveis que não correspondem ao prefixo do domínio SIP cliente.</span><span class="sxs-lookup"><span data-stu-id="31c01-173">Lists the trusted domains that do not match the prefix of the customer SIP domain.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-As políticas configuradas no servidor têm precedência sobre as configurações de Política de Grupo e as opções de cliente configuradas pelo usuário. A tabela a seguir resume a ordem na qual as configurações têm precedência quando ocorre um conflito.
+<span data-ttu-id="31c01-p113">As políticas configuradas no servidor têm precedência sobre as configurações de Política de Grupo e as opções de cliente configuradas pelo usuário. A tabela a seguir resume a ordem na qual as configurações têm precedência quando ocorre um conflito.</span><span class="sxs-lookup"><span data-stu-id="31c01-p113">Policies configured on the server take precedence over Group Policy settings and client options configured by the user. The following table summarizes the order in which settings take precedence when a conflict occurs.</span></span>
 
-### Precedência das Políticas de Grupo
+### <a name="group-policy-precedence"></a><span data-ttu-id="31c01-176">Precedência das Políticas de Grupo</span><span class="sxs-lookup"><span data-stu-id="31c01-176">Group Policy Precedence</span></span>
 
 <table>
 <colgroup>
@@ -110,46 +147,61 @@ As políticas configuradas no servidor têm precedência sobre as configuraçõe
 </colgroup>
 <thead>
 <tr class="header">
-<th>Precedência</th>
-<th>Local ou método da configuração</th>
+<th><span data-ttu-id="31c01-177">Precedência</span><span class="sxs-lookup"><span data-stu-id="31c01-177">Precedence</span></span></th>
+<th><span data-ttu-id="31c01-178">Local ou método da configuração</span><span class="sxs-lookup"><span data-stu-id="31c01-178">Location or Method of Setting</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>Provisionamento em banda do Lync Server 2013</p>
-<p></p></td>
+<td><p><span data-ttu-id="31c01-179">1</span><span class="sxs-lookup"><span data-stu-id="31c01-179">1</span></span></p></td>
+<td><p><span data-ttu-id="31c01-180">Provisionamento em banda do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="31c01-180">Lync Server 2013 in-band provisioning</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
-<td><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p>
-<p></p></td>
+<td><p><span data-ttu-id="31c01-181">2</span><span class="sxs-lookup"><span data-stu-id="31c01-181">2</span></span></p></td>
+<td><p><span data-ttu-id="31c01-182">HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</span><span class="sxs-lookup"><span data-stu-id="31c01-182">HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>3</p></td>
-<td><p>HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p>
-<p></p></td>
+<td><p><span data-ttu-id="31c01-183">3</span><span class="sxs-lookup"><span data-stu-id="31c01-183">3</span></span></p></td>
+<td><p><span data-ttu-id="31c01-184">HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</span><span class="sxs-lookup"><span data-stu-id="31c01-184">HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
-<td><p>A caixa de diálogo Lync - Opções no Lync 2013</p></td>
+<td><p><span data-ttu-id="31c01-185">4</span><span class="sxs-lookup"><span data-stu-id="31c01-185">4</span></span></p></td>
+<td><p><span data-ttu-id="31c01-186">A caixa de diálogo Lync-opções no Lync 2013</span><span class="sxs-lookup"><span data-stu-id="31c01-186">The Lync - Options dialog box in Lync 2013</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Para definir as configurações de Política de Grupo usando os arquivos de modelo administrativo do Lync 2013
+<div>
 
-1.  Crie uma pasta de nível de raiz para inserir todos os arquivos ADMX de idioma neutro. Por exemplo, crie uma pasta raiz para o armazenamento central no controlador de domínio neste local:
+## <a name="to-define-group-policy-settings-by-using-the-lync-2013-administrative-template-files"></a><span data-ttu-id="31c01-187">Para definir configurações de política de grupo usando os arquivos de modelo administrativo do Lync 2013</span><span class="sxs-lookup"><span data-stu-id="31c01-187">To define Group Policy settings by using the Lync 2013 administrative template files</span></span>
+
+1.  <span data-ttu-id="31c01-p114">Crie uma pasta de nível de raiz para inserir todos os arquivos ADMX de idioma neutro. Por exemplo, crie uma pasta raiz para o armazenamento central no controlador de domínio neste local:</span><span class="sxs-lookup"><span data-stu-id="31c01-p114">Create a root-level folder to contain all language-neutral ADMX files. For example, create the root folder for the central store on your domain controller at this location:</span></span>
     
     `%systemroot%\sysvol\domain\policies\PolicyDefinitions`
     
-    > [!NOTE]  
-    > Este procedimento presume que você deseja gerenciar diversos computadores no seu domínio. Neste caso, armazene os modelos em um repositório central na pasta Sysvol no controlador de domínio primário. Isso fornece uma localização de armazenamento central replicado para Modelos Administrativos.
+    <div>
+    
 
-2.  Crie uma subpasta para cada idioma que for utilizar. Essas subpastas vão conter os arquivos de recurso ADML específicos do idioma. Por exemplo, crie uma subpasta para United States English (EN-US) neste local:
+    > [!NOTE]  
+    > <span data-ttu-id="31c01-p115">Este procedimento presume que você deseja gerenciar diversos computadores no seu domínio. Neste caso, armazene os modelos em um repositório central na pasta Sysvol no controlador de domínio primário. Isso fornece uma localização de armazenamento central replicado para Modelos Administrativos.</span><span class="sxs-lookup"><span data-stu-id="31c01-p115">This procedure assumes that you want to manage multiple computers in your domain. In this case, you store the templates in a central store in the Sysvol folder on the primary domain controller. This provides a replicated central storage location for domain Administrative Templates.</span></span>
+
+    
+    </div>
+
+2.  <span data-ttu-id="31c01-p116">Crie uma subpasta para cada idioma que for utilizar. Essas subpastas vão conter os arquivos de recurso ADML específicos do idioma. Por exemplo, crie uma subpasta para United States English (EN-US) neste local:</span><span class="sxs-lookup"><span data-stu-id="31c01-p116">Create a subfolder for each language that you’ll use. These subfolders will contain the language-specific ADML resource files. For example, create a subfolder for United States English (EN-US) at this location:</span></span>
     
     `%systemroot%\sysvol\domain\policies\PolicyDefinitions\EN-US`
 
-Para detalhes sobre arquivos ADMX, consulte o Guia Passo a Passo de Arquivos ADMX para Gerenciamento de Políticas de Grupo em [http://go.microsoft.com/fwlink/?linkid=75124\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=75124%26clcid=0x416).
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
