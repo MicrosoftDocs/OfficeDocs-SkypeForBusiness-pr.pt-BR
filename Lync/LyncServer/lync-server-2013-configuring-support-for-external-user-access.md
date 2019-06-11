@@ -1,41 +1,63 @@
-﻿---
-title: 'Lync Server 2013: Configurando suporte para acesso de usuário externo'
-TOCTitle: Configurando suporte para acesso de usuário externo
-ms:assetid: f8424f8c-f965-4414-8485-30f07e10214a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg413051(v=OCS.15)
-ms:contentKeyID: 49308663
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando suporte para acesso de usuário externo'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring support for external user access
+ms:assetid: f8424f8c-f965-4414-8485-30f07e10214a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413051(v=OCS.15)
+ms:contentKeyID: 48185874
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7f10e266674d102b25753aeb58c89a365e7bb8e7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836181"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando suporte para acesso de usuário externo no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-21_
+# <a name="configuring-support-for-external-user-access-in-lync-server-2013"></a>Configurando suporte para acesso de usuário externo no Lync Server 2013
 
-Implantar um Servidor de borda ou um pool de Borda é a primeira etapa para suportar usuários externos. Para obter detalhes sobre a implantação de Servidores de borda, consulte [Implantação de acesso do usuário externo no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de Implantação. Uma consideração importante sobre a configuração de políticas é entender a precedência das políticas e como elas são aplicadas. As definições de política do Lync Server que são aplicadas em um nível de política podem substituir definições que são aplicadas em outro nível de política. A precedência de política do Lync Server é: política de Usuário (maior influência) substitui uma política de Site e esta substitui uma política Global (menor influência). Isso significa que, quão mais perto a definição de política está do objeto que ela está afetando, maior a influência que ela terá no objeto.
+</div>
 
-Após concluir a configuração de um servidor de borda ou pool de borda, você deve habilitar os tipos de acesso do usuário externo que deseja oferecer e, depois, definir as configurações do acesso externo. Em Lync Server 2013, habilite e configure o acesso e as políticas do usuário externo usando o Painel de Controle do Lync Server, o Shell de Gerenciamento do Lync Server ou os dois, com base nos requisitos da tarefa.
+<div id="mainSection">
 
-Para suportar o acesso de usuário externo, você deve fazer o seguinte:
+<div id="mainBody">
 
-  - **Habilitar o suporte da sua organização** Para habilitar o suporte para acesso de usuário externo na sua implantação, habilite cada tipo de acesso externo que deseja suportar. Você habilita e desabilita o suporte para acesso de usuário externo editando as configurações globais ou criando e configurando uma política de usuário ou local na página de **Política de acesso externo** no grupo **Acesso externo e federação** do Painel de Controle do Lync Server ou usando o cmdlet Shell de Gerenciamento do Lync Server e os cmdlets associados. Os cmdlets para gerenciar a **Política de acesso externo** podem ser encontrados no tópico [Cmdlets de federação e acesso externo no Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/). Habilitar o suporte para acesso externo especifica que seus servidores executando o Lync Server  Serviço de Borda de Acesso suporta comunicações com usuários e servidores externos. Os usuários externos e internos não podem se comunicar quando o acesso de usuário externo está desabilitado ou se nenhuma política estiver configurada para suportá-los.
+<span> </span>
 
-  - **Configurar e atribuir uma ou mais políticas** Para suportar o acesso de usuário externo, você configura políticas para abordar os requisitos que incluem:
+_**Tópico da última modificação:** 2013-02-21_
+
+Implantar um servidor de borda ou um pool de bordas é o primeiro passo para dar suporte a usuários externos. Para obter detalhes sobre a implantação de servidores de borda, consulte Implantando o [acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de implantação. Uma consideração importante para a configuração das políticas é entender a precedência de políticas e como as políticas são aplicadas. As configurações de política do Lync Server aplicadas em um nível de política podem substituir as configurações aplicadas em outro nível de política. A precedência da política do Lync Server é: a política do usuário (maior influência) substitui uma política do site e uma política de site substitui uma política global (influência mínima). Isso significa que, quanto mais perto a definição de política estiver do objeto que ela está afetando, maior será sua influência sobre o objeto.
+
+Depois de concluir a configuração de um servidor de borda ou de um pool de bordas, você deve habilitar os tipos de acesso de usuário externo que deseja fornecer e definir as configurações para o acesso externo. No Lync Server 2013, habilite e configure o acesso de usuários externos e políticas usando o painel de controle do Lync Server, o Shell de gerenciamento do Lync Server ou ambos, de acordo com os requisitos da tarefa.
+
+Para dar suporte ao acesso de usuário externo, você deve fazer o seguinte:
+
+  - **Habilite o suporte para sua organização**   para habilitar o suporte ao acesso de usuários externos na sua implantação, você deve habilitar cada tipo de acesso externo ao qual deseja dar suporte. Habilite e desabilite o suporte ao acesso de usuários externos editando as configurações globais ou criando e configurando uma política de site ou de usuário na página de **política de acesso externo** do grupo **agrupamento e acesso externo** do painel de controle do Lync Server ou usando o Shell de gerenciamento do Lync Server e cmdlets associados. Cmdlets para gerenciar a **política de acesso externo** são encontrados nos [cmdlets agrupamento de agrupamento e acesso externo no Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/). Habilitar o suporte para acesso externo especifica que os servidores que executam o serviço de borda de acesso do Lync Server ofereçam suporte à comunicação com usuários e servidores externos. Os usuários internos e externos não podem se comunicar enquanto o acesso de usuário externo estiver desabilitado ou se as políticas ainda não tiverem sido configuradas para dar suporte a ele.
+
+  - **Configurar e atribuir uma ou mais políticas**   para dar suporte a acesso externo a usuários, você configura políticas para atender a requisitos que incluem:
     
-      - **Políticas de acesso externo** Criadas com um escopo de site ou usuário (uma política global existe por padrão e não tem configurações para ser habilitada). Você cria e configura políticas para controlar o uso de um ou mais tipos de acesso de usuário externo, incluindo o acesso para usuários federados (incluindo, se selecionado, domínios XMPP federados), o acesso para usuários remotos e o acesso para provedores de serviço de IM público suportados. Você configura as políticas externas no Painel de Controle do Lync Server usando a política global ou uma ou mais políticas do usuário e local criadas para administração, na página **Política de acesso externo** no grupo **Acesso externo e federação** . A política global não pode ser excluída. Você cria e configura qualquer política do usuário e local que deseja usar para limitar o acesso de usuário externo a locais ou usuários específicos. As políticas locais e globais são atribuídas automaticamente. Se você criar e configurar uma política de usuário, deve atribui-las a usuários específicos usando a página de configuração do usuário no Painel de Controle do Lync Server na página **Usuários** . Localize o usuário ou os usuários aos quais deseja aplicar esta política e atribua a política. Para atribuir uma política de usuário configurada a um usuário, consulte [Atribuir uma política de usuário externo a um usuário habilitado do Lync no Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md). Cada política de acesso do usuário externo pode suportar um ou mais dos seguintes: acesso de usuário remoto, acesso de usuário federado SIP, acesso de usuário federado XMPP e conectividade de IM pública.
+      - **Políticas de acesso externo**   criadas com um escopo de site ou de usuário (uma política global existe por padrão e não tem configurações habilitadas). Você cria e configura políticas para controlar o uso de um ou mais tipos de acesso de usuário externo, incluindo o acesso de usuário federado (incluindo, se selecionado, domínios de XMPP federados) usuários remotos acesso de usuário e provedores públicos de serviços de mensagens de chat com suporte. Você configura políticas externas no painel de controle do Lync Server usando a política global ou uma ou mais políticas de site e de usuário criadas administrativamente, na página **política de acesso externo** no grupo **Federação e acesso externo** . A política global não pode ser excluída. Você cria e configura qualquer política de site e de usuário que você deseja usar para limitar o acesso de usuários externos a sites ou usuários específicos. Políticas globais e de site são automaticamente atribuídas. Se você criar e configurar uma política de usuário, deverá atribuí-la a usuários específicos usando a página configuração do usuário no painel de controle do Lync Server na página **usuários** . Localize o usuário ou os usuários aos quais você deseja que essa política se aplique e atribua a política. a quem você deseja que ele seja aplicado. Para atribuir uma política de usuário configurada a um usuário, consulte [atribuir uma política de acesso de usuário externo a um usuário habilitado do Lync no Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md). Cada política de acesso externo do usuário pode dar suporte a um ou mais dos seguintes: acesso de usuário remoto, acesso de usuário federado SIP, acesso de usuário federado XMPP e conectividade de IM pública.
     
-      - **Políticas de conferência**   Você cria e configura políticas para controlar as conferências na sua organização, incluindo quais usuários na sua organização podem convidar usuários anônimos para as conferências que realizam. Na página Painel de Controle do Lync Server  **Conferências** há configurações de política em escopo global, local e do usuário que controlam as configurações das conferências atuais. Para obter mais informações, consulte [Gerenciando reuniões e conferências no Lync Server 2013](lync-server-2013-managing-meetings-and-conferences.md). Você habilita usuários anônimos, usuários remotos e federados para conferências na página **Configuração da borda de acesso** . A política na **Configuração de borda de acesso** é global em escopo. Não há opções para definir uma política de local ou de usuário. O escopo é controlado na página **Política de acesso externo** por meio da utilização de configurações de políticas globais, de local ou do usuário.
+      - **Políticas de conferência**   você cria e configura políticas para controlar a conferência em sua organização, incluindo quais usuários em sua organização podem convidar usuários anônimos para conferências que eles hospedam. Na página **conferência** do painel de controle do Lync Server são configurações de política no escopo global, de site e de usuário que controlam as configurações de controle para as conferências reais. Para obter detalhes, consulte [Gerenciando reuniões e conferências no Lync Server 2013](lync-server-2013-managing-meetings-and-conferences.md). Você habilita usuários anônimos para conferências, usuários remotos e usuários federados na página de **configuração de borda de acesso** . A política na **configuração de borda de acesso** é global no escopo. Não há opções para definir uma política de site ou de usuário. O escopo é controlado na página de **política de acesso externo** por meio do uso de configurações de política global, de site ou de usuário.
         
-        Por exemplo, se você quiser permitir aos usuários criar, convidar e gerenciar conferências com usuários remotos, você deve definir **Habilitar comunicações com usuários remotos** na **Política de acesso externo** global, de local ou do usuário, e **Habilitar comunicações com usuários remotos** na página **Configuração de borda de acesso** . De forma semelhante, para permitir conferências com usuários anônimos ou parceiros federados com os quais você tem um relacionamento definido (como domínios e parceiros SIP federados configurados - a federação XMPP não suporta conferências), você deve definir **Habilitar comunicações com usuários públicos** e **Habilitar comunicações com usuários federados** na **Política de acesso externo** global, de site ou do usuário. Após, você deve selecionar as configurações complementares de política global **Habilitar acesso de usuário anônimo a conferências** e **Habilitar conectividade de IM pública e federada** na página **Configuração da borda de acesso** .
+        Por exemplo, se você quiser permitir que os usuários criem, convidem e gerenciem conferências com usuários remotos, deverá definir **habilitar comunicações com usuários remotos** na política de **acesso externo** global, política de site ou usuário e **habilitar comunicações com usuários remotos** na página de **configuração de borda de acesso** . Da mesma forma, para permitir a conferência com usuários anônimos ou parceiros federados com os quais você tem uma relação definida (como domínios e provedores SIP federados configurados – a Federação do XMPP não oferece suporte à conferência), você define **habilitar comunicações com usuários públicos** e **habilitar comunicações com usuários federados** na política global de **acesso externo** , site ou política de usuário. Em seguida, selecione configurações de política global complementar **para habilitar o acesso de usuários anônimos** e **habilitar a conectividade de mensagens instantâneas federadas e federada** na página **configuração de borda de acesso** .
 
-É possível definir as configurações de acesso de usuário externo, incluindo quaisquer políticas que você deseja usar para controlar o acesso de usuário externo, mesmo se você não tiver habilitado o acesso de usuário externo para sua organização. No entanto, as políticas e outras configurações que você definir entrarão em vigor somente quandoo acesso de usuário externo estiver habilitado para sua organização. Usuários externos não podem se comunicar com usuários de sua organização quando o acesso de usuário externo estiver desabilitado ou se não houver políticas de acesso de usuário externo configuradas para oferecer suporte a ele.
+Você pode definir as configurações de acesso de usuário externo, incluindo as políticas que deseja usar para controlar o acesso de usuários externos, mesmo que você não tenha habilitado o acesso de usuários externos para a sua organização. No entanto, as políticas e outras configurações que você configura estão em vigor apenas quando você tem acesso de usuário externo habilitado para sua organização. Os usuários externos não podem se comunicar com os usuários da sua organização quando o acesso ao usuário externo estiver desabilitado ou se nenhuma política de acesso externo do usuário estiver configurada para dar suporte a ele.
 
-Sua implantação de borda autentica os tipos de usuários externos (exceto para usuários anônimos que são autenticados pela ID de conferência e uma senha enviada para o participante anônimo ao criar a conferência e convidar participantes) e controla o acesso com base no modo como você configura o suporte de borda. Para controlar a comunicação através do firewall, é possível configurar uma ou mais políticas e definir outras configurações que definem como os usuários de dentro e fora do firewall se comunicam entre si. Isso inclui a política global para acesso de usuário externo, além de políticas de usuário e de site que você pode criar e configurar para habilitar um ou mais tipos de acesso de usuário externo para sites ou usuários específicos.
+Sua implantação de borda autentica os tipos de usuários externos (exceto para usuários anônimos, que são autenticados pela ID de conferência e uma chave de usuário que é enviada para o participante anônimo quando você cria os participantes da conferência e convida) e os controles acesso com base em como você configura o suporte de borda. Para controlar a comunicação, você pode configurar uma ou mais políticas e definir configurações que definem como os usuários dentro e fora da sua implantação se comunicam uns com os outros. As políticas e configurações incluem a política global padrão para acesso ao usuário externo, além das políticas de site e de usuário que você pode criar e configurar para habilitar um ou mais tipos de acesso de usuários externos para sites ou usuários específicos.
 
-## Nesta seção
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Configurar políticas para controle de acesso de usuário remoto no Lync Server 2013](lync-server-2013-configure-policies-to-control-remote-user-access.md)
 
@@ -44,4 +66,16 @@ Sua implantação de borda autentica os tipos de usuários externos (exceto para
   - [Habilitar ou desabilitar acesso de usuário anônimo no Lync Server 2013](lync-server-2013-enable-or-disable-anonymous-user-access.md)
 
   - [Atribuir políticas de conferência para suporte de usuários anônimos no Lync Server 2013](lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

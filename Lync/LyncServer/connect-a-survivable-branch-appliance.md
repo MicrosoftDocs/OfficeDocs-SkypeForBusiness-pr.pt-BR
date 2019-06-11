@@ -1,68 +1,104 @@
-﻿---
-title: Conectar um Aparelho de Filial Persistente
-TOCTitle: Conectar um Aparelho de Filial Persistente
-ms:assetid: fe3167e2-d1b1-4cd4-bf30-262e0e7d14e8
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721948(v=OCS.15)
-ms:contentKeyID: 49886496
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Conectar um aparelho de filial persistente
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Connect a Survivable Branch Appliance
+ms:assetid: fe3167e2-d1b1-4cd4-bf30-262e0e7d14e8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721948(v=OCS.15)
+ms:contentKeyID: 49733886
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c76e70278d709b52388c22714db85f9bae4610d9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836764"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Conectar um Aparelho de Filial Persistente
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-19_
+# <a name="connect-a-survivable-branch-appliance"></a>Conectar um aparelho de filial persistente
 
-Cada Aparelho de Filial Persistente (SBA) está associado a um pool Front End que serve como registrador de backup para o SBA. Quando o pool Front End migra para Lync Server 2013, o SBA deve estar desassociado do pool Frond End Lync Server 2010 enquanto o pool é atualizado. Uma vez que o pool tenha migrado para Lync Server 2013, o SBA pode ser associado novamente com o pool Front End atualizado. Isso envolve excluir o SBA da topologia herdada Lync Server 2010 no Construtor de Topologias e, em seguida, adicionando o SBA à topologia Lync Server 2013. Os usuários hospedados no SBA herdado Lync Server 2010 devem primeiramente ser movidos a outro pool Front End antes de remover o SBA da topologia. Uma vez que o SBA for adicionado à topologia de Lync Server 2013, aqueles usuários podem ser movidos de volta ao SBA. As etapas são resumidas abaixo:
+</div>
 
-1.  Mova os usuários ramificados hospedados no SBA herdado Lync Server 2010 para outro pool Front End.
+<div id="mainSection">
 
-2.  Remova o SBA da topologia herdada Lync Server 2010 para desconectar o pool Front End existente como um registrador de backup.
+<div id="mainBody">
 
-3.  Adicione o SBA à topologia Lync Server 2013 e configure esse novo pool Front End como registrador de backup.
+<span> </span>
 
-4.  Mova os usuários ramificados ao novo SBA Lync Server 2013.
+_**Tópico da última modificação:** 2012-10-19_
 
-**Adicione Lync Server 2010 SBA Branch Site à sua topologia**
+Cada aplicativo de ramificação sobreviventes (SBA) está associado a um pool de front-end que serve como registrador de backup para o SBA. Quando o pool de front-ends é migrado para o Lync Server 2013, o SBA deve ser desassociado do pool de front-end do Lync Server 2010 enquanto o pool é atualizado, após a migração do pool para o Lync Server 2013, o SBA pode ser novamente associado ao pool de front-end atualizado. Isso envolve excluir o SBA da topologia herdada do Lync Server 2010 no construtor de topologias e, em seguida, adicionar SBA à topologia 2013 do Lync Server. Os usuários hospedados no Lync Server 2010 herdado SBA devem ser movidos para outro pool de front-end antes de remover SBA da topologia. Depois que o SBA é adicionado à topologia do Lync Server 2013, esses usuários podem ser movidos de volta para o SBA. Estas etapas estão resumidas abaixo:
 
-1.  Abra o **Construtor de Topologias**.
+1.  Mova os usuários da ramificação hospedados no SBA do Lync Server 2010 para outro pool de front-ends.
 
-2.  No painel esquerdo, clique com o botão direito do mouse em **Locais ramificados** e clique em **Novo local ramificado**.
+2.  Remova o SBA da topologia herdada do Lync Server 2010 para desconectar o pool de front-ends existente como um registrador de backup.
 
-3.  Na caixa de diálogo **Definir Novo Site de Filial**, clique em **Nome**, e digite o nome do site de filial.
+3.  Adicione SBA à topologia do Lync Server 2013 e configure esse novo pool de front-end como o registrador de backup.
 
-4.  (Opcional) Clique em **Descrição**, e digite uma descrição significativa para o site de filial.
+4.  Mova os usuários da ramificação para o novo Lync Server 2013 SBA.
 
-5.  Clique em **Avançar**.
+**Adicionar site de ramificação do Lync Server 2010 SBA à sua topologia**
 
-6.  (Opcional) Na próxima caixa de diálogo **Definir Novo Site de Filial**, execute uma das seguintes ações:
+1.  Abrir o **Construtor**de topologias.
+
+2.  No painel esquerdo, clique com o botão direito do mouse em **sites**de ramificação e clique em **novo site de filial**.
+
+3.  Na caixa de diálogo **definir novo site de filial** , clique em **nome**e digite o nome do site de filial.
+
+4.  Adicionais Clique em **Descrição**e digite uma descrição significativa para o site da filial.
+
+5.  Click **Next**.
+
+6.  Adicionais Na caixa de diálogo próximo **definir novo site** de filiais, siga um destes procedimentos:
     
-    1.  Clique em **Cidade**, e digite o nome da cidade na qual o site de filial está localizado.
+    1.  Clique em **cidade**e digite o nome da cidade na qual o site da filial está localizado.
     
-    2.  Clique em **Estado/Região**, e digite o nome do estado ou região no qual o site de filial está localizado.
+    2.  Clique em **estado/região**e, em seguida, digite o nome do Estado ou da região em que o site da filial está localizado.
     
-    3.  Clique em **Código do País**, e digite o código de chamada de dois dígitos para o país/região no qual o site de filial está localizado.
+    3.  Clique em **código do país**e, em seguida, digite o código de chamada de dois dígitos para o país/região no qual o site da filial está localizado.
 
-7.  Clique em **Avançar**, e execute uma das seguintes ações:
+7.  Clique em **Avançar**e, em seguida, siga um destes procedimentos:
     
-    1.  Se você estiver usando um Aparelho de Filial Persistente Lync 2010 ou Servidor nesse site, certifique-se de desmarcar a caixa de seleção **Abrir o Novo Assistente Persistente quando este assistente fechar** e clique em **Concluir**.
+    1.  Se você estiver usando um aplicativo ou um aplicativo de ramificação do Lync 2010 que não seja o site, desmarque a opção **abrir o novo assistente para sobreviver quando este assistente fechar a** opção. Clique em **Concluir**.
 
-8.  Para associar o SBA herdado Lync Server 2010 ao pool Front End Lync Server 2013:
+8.  Para associar a herdada do Lync Server 2010 SBA ao pool de front-ends do Lync Server 2013:
     
-    1.  Expanda o local ramificado que foi criado.
+    1.  Expanda o site de ramificação que foi criado.
     
-    2.  Clique com o botão direito do mouse em **Lync Server 2010** e clique em **Novo**.
+    2.  Clique com o botão direito do mouse no **Lync Server 2010** e clique em **novo**.
     
-    3.  Clique em **Aparelho de Filial Persistente**
+    3.  Clique em **aparelho para ramificação sobreviventes...**
 
-9.  Siga as instruções no assistente que abrir. Para obter informações sobre os itens do assistente, consulte [Definir um Servidor ou Aparelho de Filial Persistente no Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
+9.  Siga as instruções no assistente que é aberto. Para saber mais sobre os itens do assistente, confira [definir um aplicativo ou aplicativo de ramificação sobreviventes no Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
     
+    <div>
+    
+
     > [!NOTE]  
-    > Um Lync Server 2010 Aparelho de Filial Persistente pode ser associado somente a um Repositório de Monitoramento Lync Server 2010.
+    > Um appliance de ramificação do Lync Server 2010 pode ser associado apenas a uma loja de monitoramento 2010 do Lync Server.
 
-10. Se você não estiver usando um Aparelho de Filial Persistente ou Servidor nesse site, desmarque a caixa de seleção **Abrir o Novo Assistente Persistente quando este assistente fechar** e clique em **Concluir**.
+    
+    </div>
 
-11. Repita as etapas anteriores para cada site de filial que você deseja adicionar à topologia.
+10. Se você não estiver usando um aplicativo ou aplicativo de ramificação sobreviventes neste site, desmarque a caixa de seleção **abrir o assistente de Nova persistência quando este assistente for fechado** e clique em **concluir**.
+
+11. Repita as etapas anteriores para cada site de ramificação que você deseja adicionar à topologia.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,28 +1,69 @@
-﻿---
-title: Configurar extensões de números de telefone para estacionamento de chamadas
-TOCTitle: Configurar extensões de números de telefone para estacionamento de chamadas
-ms:assetid: fbf97624-9587-42a6-b276-1b69c574a74d
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182611(v=OCS.15)
-ms:contentKeyID: 49308700
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configurar extensões de número de telefone para chamadas de estacionamento'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure phone number extensions for parking calls
+ms:assetid: fbf97624-9587-42a6-b276-1b69c574a74d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182611(v=OCS.15)
+ms:contentKeyID: 48185980
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a0a0fd55b851715fe8aef238797392af6317dff0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836338"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar extensões de números de telefone para estacionamento de chamadas
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-10_
+# <a name="configure-phone-number-extensions-for-parking-calls-in-lync-server-2013"></a>Configurar extensões de número de telefone para chamadas com estacionamento no Lync Server 2013
 
-Aplicativo de Estacionamento de Chamada usa números de extensão na tabela de órbita de Estacionamento de Chamada para estacionamento de chamada. É necessário configurar a tabela de órbita Estacionamento de Chamada com intervalos de números de extensão reservados pela organização para chamadas estacionadas. Essas extensões precisam ser extensões virtuais (ou seja, extensões com nenhum usuário ou telefone atribuído a eles). Cada pool do Lync Server onde um aplicativo de Aplicativo de Estacionamento de Chamada é implantado e configurado pode ter um ou mais intervalos de órbita. Os intervalos de órbita devem ser exclusivos globalmente entre as implantações do Lync Server.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-10_
+
+O aplicativo parque de chamadas usa números de extensão na tabela órbita do estacionamento de chamada para estacionar chamadas. Você precisa configurar a tabela órbita do estacionamento de chamada com os intervalos de números de ramal que a sua organização reserva para fazer chamadas estacionadas. Essas extensões precisam ser extensões virtuais (ou seja, extensões sem usuário ou telefone atribuídas a ela). Cada pool do Lync Server onde um aplicativo de estacionamento de chamada é implantado e configurado pode ter um ou mais intervalos de órbita. As faixas órbitas devem ser globalmente exclusivas entre a implantação do Lync Server.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Marque a caixa de seleção <strong>Habilitar estacionamento de chamada</strong> na sua política de voz antes de usar o Estacionamento de Chamada. Por padrão, essa opção não está selecionada.
+> Você deve marcar a caixa de seleção <STRONG>habilitar o parque de chamadas</STRONG> na sua política de voz para poder usar o parque de chamadas. Por padrão, essa opção não é selecionada.
 
-## Nesta seção
 
-  - [Criar ou modificar o intervalo de órbita de Estacionamento de Chamadas no Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
 
-  - [Excluir um intervalo de órbita de estacionamento de chamada no Lync Server 2013](lync-server-2013-delete-a-call-park-orbit-range.md)
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
+
+  - [Criar ou modificar uma faixa de opções do parque de chamadas no Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
+
+  - [Excluir uma faixa de opções do parque de chamadas no Lync Server 2013](lync-server-2013-delete-a-call-park-orbit-range.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

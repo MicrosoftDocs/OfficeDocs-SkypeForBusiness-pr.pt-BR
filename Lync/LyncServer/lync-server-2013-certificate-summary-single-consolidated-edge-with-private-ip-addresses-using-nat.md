@@ -1,28 +1,57 @@
-﻿---
-title: "Lync Server 2013: Res. de certif. - única borda cons.a com end.s IP priv. usando NAT"
-TOCTitle: Resumo de certificado - única borda consolidada com endereços IP privados usando NAT
-ms:assetid: 6de6680e-5f47-48e6-8e06-4994d710ea6d
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398519(v=OCS.15)
-ms:contentKeyID: 49307041
-ms.date: 12/17/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Resumo de certificado - única borda consolidada com endereços IP privados usando NAT'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate summary - Single consolidated edge with private IP addresses using NAT
+ms:assetid: 6de6680e-5f47-48e6-8e06-4994d710ea6d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398519(v=OCS.15)
+ms:contentKeyID: 48184433
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 77b9f2421d1ed6ef8a3127225f3911f0ea9a3973
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836628"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumo de certificado - única borda consolidada com endereços IP privados usando NAT no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-15_
+# <a name="certificate-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Resumo de certificado - única borda consolidada com endereços IP privados usando NAT no Lync Server 2013
 
-O Microsoft Lync Server 2013 usa certificados para autenticar mutuamente outros servidores e para criptografar dados de servidor para servidor e de servidor para cliente. Certificados requerem a correspondência dos nomes dos registros de DNS (sistema de nome de domínio) associados aos servidores e o SN (nome de entidade) e SAN (nome alternativo de entidade) no certificado. Para mapear os servidores, entradas de certificados e registros DNS com êxito, você deve planejar cuidadosamente seus nomes desejados de domínio totalmente qualificados de servidor, do mesmo modo que está registrado no SN e nas entradas de SN e SAN no certificado.
+</div>
 
-O certificado atribuído às interfaces externas do Servidor de Borda é solicitado por uma autoridade de certificação (AC) pública. As ACs públicas bem-sucedidas no fornecimento de certificados para os fins do Comunicações Unificadas são listadas neste artigo: [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395). Ao solicitar o certificado, use a solicitação de certificado gerada pelo Assistente de Implantação do Lync Server ou crie a solicitação manualmente utilizando os cmdlets Shell de Gerenciamento do Lync Server ou por um processo fornecido por uma AC pública. Para obter detalhes sobre os cmdlets Shell de Gerenciamento do Lync Server para gerenciamento de certificados, consulte [Cmdlets de certificado e autenticação no Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/) Ao atribuir o certificado, ele é atribuído à interface do Serviço de Borda de Acesso, interface do Serviço de Borda de Webconferência e o serviço de autenticação de áudio/vídeo. O serviço de autenticação de áudio/vídeo não deve ser confundido com o Serviço de Borda A/V, que não usa um certificado para criptografar os fluxos de áudio e vídeo A interface interna do Servidor de Borda pode usar um certificado de uma AC interna (para sua organização) ou um certificado de uma AC pública. O certificado de interface interna usa somente o SN e não precisa de entradas SAN nem as usa.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-22_
+
+O Microsoft Lync Server 2013 usa certificados para autenticar mutuamente outros servidores e criptografar dados do servidor para o servidor e o servidor para o cliente. Os certificados exigem correspondência de nome dos registros de sistema de nomes de domínio (DNS) associados aos servidores e o nome da entidade (SN) e o nome alternativo do assunto (SAN) no certificado. Para mapear com êxito os servidores, registros DNS e entradas de certificado, você deve planejar cuidadosamente os nomes de domínio totalmente qualificados do servidor conforme registrado no DNS e as entradas de SN e SAN no certificado.
+
+O certificado atribuído às interfaces externas do servidor de borda é solicitado a partir de uma autoridade de certificação pública (CA). As CAs públicas que demonstraram sucesso no fornecimento de certificados para a finalidade de comunicações unificadas são listadas no [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)seguinte artigo:. Ao solicitar o certificado, você pode usar a solicitação de certificado gerada pelo assistente de implantação do Lync Server ou criar a solicitação manualmente usando cmdlets do Shell de gerenciamento do Lync Server ou um processo fornecido por uma autoridade de certificação pública. Para obter detalhes sobre os cmdlets do Shell de gerenciamento do Lync Server para gerenciamento de certificados, consulte cmdlets do [certificado e de autenticação no Lync server 2013](https://docs.microsoft.com/powershell/module/skype/) ao atribuir o certificado, o certificado é atribuído à interface do serviço de borda de acesso, à Web Interface do serviço de borda de conferência e o serviço de autenticação de áudio/vídeo. O serviço de autenticação de áudio/vídeo não deve ser confundido com o serviço de borda A/V que não usa um certificado para criptografar os fluxos de áudio e vídeo. A interface do servidor de borda interna pode usar um certificado de uma autoridade de certificação interna (para a sua organização) ou de um certificado de uma autoridade de certificação pública. O certificado de interface interna usa apenas o SN e não precisa ou usa entradas de SAN.
+
+<div>
+
 
 > [!NOTE]  
-> A tabela a seguir exibe uma segunda entrada SIP (sip.fabrikam.com) na lista de nomes alternativos de entidade como referência. Para cada domínio SIP em sua organização, você precisa adicionar um FQDN correspondente listado na lista de nome alternativo de entidade do certificado.
+> A tabela a seguir mostra uma segunda entrada SIP (sip.fabrikam.com) na lista nome alternativo do assunto como referência. Para cada domínio SIP em sua organização, você precisa adicionar um FQDN correspondente listado na lista nome alternativo do requerente do certificado.
 
-## Certificados necessários para borda consolidada única com endereços IP privados usando NAT
+
+
+</div>
+
+<div>
+
+## <a name="certificates-required-for-single-consolidated-edge-with-private-ip-addresses-using-nat"></a>Certificados necessários para uma única aresta consolidada com endereços IP privados usando NAT
 
 
 <table>
@@ -36,7 +65,7 @@ O certificado atribuído às interfaces externas do Servidor de Borda é solicit
 <tr class="header">
 <th>Componente</th>
 <th>Nome da entidade (SN)</th>
-<th>Nomes alternativos de entidade (SAN)/Ordem</th>
+<th>Nomes alternativos de assunto (SAN)/Order</th>
 <th>Comentários</th>
 </tr>
 </thead>
@@ -47,20 +76,29 @@ O certificado atribuído às interfaces externas do Servidor de Borda é solicit
 <td><p>webcon.contoso.com</p>
 <p>sip.contoso.com</p>
 <p>sip.fabrikam.com</p></td>
-<td><p>O certificado deve ser de uma AC Pública, e deve possuir o EKU de servidor e de cliente se a conectividade de mensagens instantâneas pública com AOL será implantada. O certificado é atribuído às interfaces de Borda externa para:</p><ul><li><p>Borda de Acesso</p></li><li><p>Borda de Conferência</p></li><li><p>Borda A/V</p></li></ul>
-<p>Observe que os SANs são adicionados automaticamente ao certificado, com base em suas definições no Construtor de Topologia. Você pode adicionar entradas de SAN conforme necessário para domínios SIP adicionais e outras entradas às quais você precisa dar suporte. O nome da entidade é replicado no SAN e deve ser apresentado para a operação correta.</p></td>
+<td><p>O certificado deve ser de uma CA pública e deve ter o EKU do servidor e o cliente EKU se a conectividade de IM pública com AOL for implantada. O certificado é atribuído às interfaces de borda externa para:</p>
+<ul>
+<li><p>Borda de Acesso</p></li>
+<li><p>Borda de conferência</p></li>
+<li><p>Borda A/V</p></li>
+</ul>
+<p>Observe que as SANs são adicionadas automaticamente ao certificado com base em suas definições no construtor de topologias. Você adiciona entradas de SAN conforme necessário para domínios SIP adicionais e outras entradas de que você precisa para dar suporte. O nome do requerente é replicado na SAN e deve estar presente para a operação correta.</p></td>
 </tr>
 <tr class="even">
 <td><p>Borda consolidada única (borda interna)</p></td>
 <td><p>lsedge.contoso.net</p></td>
-<td><p>Nenhum SAN necessário</p></td>
-<td><p>O certificado pode ser emitido por uma AC pública ou privada, e deve conter o EKU do servidor. O certificado é atribuído à interface de Borda interna.</p></td>
+<td><p>Sem necessidade de SAN</p></td>
+<td><p>O certificado pode ser emitido por uma autoridade de certificação pública ou privada e deve conter o EKU do servidor. O certificado é atribuído à interface de borda interna.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Resumo de certificado - Conectividade de Mensagens Instantâneas Públicas
+</div>
+
+<div>
+
+## <a name="certificate-summary--public-instant-messaging-connectivity"></a>Resumo do certificado – conectividade de mensagens instantâneas públicas
 
 
 <table>
@@ -73,26 +111,35 @@ O certificado atribuído às interfaces externas do Servidor de Borda é solicit
 <thead>
 <tr class="header">
 <th>Componente</th>
-<th>Nome da entidade</th>
-<th>Nomes alternativos de entidade (SAN)/Ordem</th>
+<th>Nome do assunto</th>
+<th>Nomes alternativos de assunto (SAN)/Order</th>
 <th>Comentários</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Borda de acesso/externa</p></td>
+<td><p>Borda externa/de acesso</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>sip.fabrikam.com</p></td>
-<td><p>O certificado deve ser de uma AC Pública, e deve possuir o EKU de servidor e de cliente se a conectividade de mensagens instantâneas pública com AOL será implantada. O certificado é atribuído às interfaces de Borda externa para:</p><ul><li><p>Borda de Acesso</p></li><li><p>Borda de Conferência</p></li><li><p>Borda A/V</p></li></ul>
-<p>Observe que os SANs são adicionados automaticamente ao certificado, com base em suas definições no Construtor de Topologia. Você pode adicionar entradas de SAN conforme necessário para domínios SIP adicionais e outras entradas às quais você precisa dar suporte. O nome da entidade é replicado no SAN e deve ser apresentado para a operação correta.</p></td>
+<td><p>O certificado deve ser de uma CA pública e deve ter o EKU do servidor e o cliente EKU se a conectividade de IM pública com AOL for implantada. O certificado é atribuído às interfaces de borda externa para:</p>
+<ul>
+<li><p>Borda de Acesso</p></li>
+<li><p>Borda de conferência</p></li>
+<li><p>Borda A/V</p></li>
+</ul>
+<p>Observe que as SANs são adicionadas automaticamente ao certificado com base em suas definições no construtor de topologias. Você adiciona entradas de SAN conforme necessário para domínios SIP adicionais e outras entradas de que você precisa para dar suporte. O nome do requerente é replicado na SAN e deve estar presente para a operação correta.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Resumo de Certificado para Protocolo de Presença e Mensagem Extensível
+</div>
+
+<div>
+
+## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a>Resumo do certificado de mensagens extensíveis e protocolo de presença
 
 
 <table>
@@ -105,22 +152,35 @@ O certificado atribuído às interfaces externas do Servidor de Borda é solicit
 <thead>
 <tr class="header">
 <th>Componente</th>
-<th>Nome da entidade</th>
-<th>Nomes alternativos de entidade (SAN)/Ordem</th>
+<th>Nome do assunto</th>
+<th>Nomes alternativos de assunto (SAN)/Order</th>
 <th>Comentários</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Atribuir para Serviço de Borda de Acesso de Servidor de Borda ou Pool de borda</p></td>
+<td><p>Atribuir ao serviço Edge para acessar o servidor de borda ou o pool de bordas</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>webcon.contoso.com</p>
 <p>sip.contoso.com</p>
 <p>sip.fabrikam.com</p>
 <p>xmpp.contoso.com</p>
 <p><strong>*.contoso.com</strong></p></td>
-<td><p>As três primeiras entradas SAN são as entradas SAN normais para uma Servidor de Borda completa. A contoso.com é a entrada exigida para federação com o parceiro XMPP no nível de domínio raiz. Essa entrada habilitará XMPP para todos os domínios com sufixo *.contoso.com.</p></td>
+<td><p>As três primeiras entradas de SAN são as entradas de SAN normais para um servidor de perímetro completo. O contoso.com é a entrada necessária para federação com o parceiro XMPP no nível do domínio raiz. Essa entrada permitirá XMPP para todos os domínios com o sufixo *. contoso.com.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

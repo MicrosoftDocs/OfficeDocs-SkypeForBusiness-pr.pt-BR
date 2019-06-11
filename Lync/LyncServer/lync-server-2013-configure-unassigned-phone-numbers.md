@@ -1,30 +1,71 @@
-﻿---
-title: Configurar números telefônicos não atribuídos
-TOCTitle: Configurar números telefônicos não atribuídos
-ms:assetid: a0650659-dce7-455f-8977-02454bbfa400
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182559(v=OCS.15)
-ms:contentKeyID: 49307637
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configurar números de telefone não atribuídos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure unassigned phone numbers
+ms:assetid: a0650659-dce7-455f-8977-02454bbfa400
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182559(v=OCS.15)
+ms:contentKeyID: 48185009
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 22441573c22a932c383c7821cce16d79b9767a7c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836312"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar números telefônicos não atribuídos
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-11-01_
+# <a name="configure-unassigned-phone-numbers-in-lync-server-2013"></a>Configurar números de telefone não atribuídos no Lync Server 2013
 
-O Lync Server permite que você configure o que acontece com chamadas recebidas para números de telefone que são válidos para a sua organização, mas que não estão atribuídos a um usuário ou telefone. Para configurar o tratamento de tais chamadas, configure uma tabela de números não atribuídos. Você pode usar a tabela para rotear as chamadas a um Aplicativo Comunicado ou servidor UM do Exchange.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-11-01_
+
+O Lync Server permite configurar o que acontece com as chamadas recebidas para números de telefone que sejam válidos para a sua organização, mas não são atribuídos a um usuário ou a um telefone. Para configurar o tratamento dessas chamadas, configure uma tabela de número não atribuído. Você pode usar a tabela para direcionar as chamadas para um aplicativo de anúncio ou para um servidor de UM Exchange.
 
 Como configurar a tabela de números não atribuídos dependerá de como você deseja usá-la. Você pode configurar a tabela com todas as extensões válidas para a sua organização, somente com extensões não atribuídas ou com uma combinação de ambos os tipos de números. A tabela de números não atribuídos pode incluir ambos, números atribuídos e não atribuídos, mas será invocada somente quando um chamador discar um número que não esteja atribuído atualmente. Se você incluir todas as extensões válidas na tabela de números não atribuídos, pode especificar a ação que ocorre sempre que alguém sair da sua organização, sem a necessidade de reconfigurar a tabela. Se você incluir extensões não atribuídas na tabela, pode ajustar a ação que ocorre para números específicos. Por exemplo, se você alterar a extensão para seu serviço de atendimento ao cliente, poderá incluir o número do atendimento ao cliente antigo na tabela e atribuí-lo a um comunicado que fornece o novo número.
 
-> [!IMPORTANT]  
-> Antes de configurar a tabela de números não atribuídos, você deverá definir um ou mais comunicados ou ter configurado um Atendedor Automático do UM do Exchange. Para obter detalhes sobre a criação de comunicados, consulte <a href="lync-server-2013-create-an-announcement.md">Criar um comunicado no Lync Server 2013</a>. Para ver se você configurou o UM do Exchange, execute o cmdlet <strong>Get-CsExUmContact</strong>. Para obter detalhes, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</a>.
+<div>
 
-## Nesta seção
+
+> [!IMPORTANT]  
+> Antes de configurar a tabela número não atribuído, você já deve ter um ou mais comunicados definidos ou um atendedor automático de UM do Exchange. Para obter detalhes sobre como criar comunicados, consulte <A href="lync-server-2013-create-an-announcement.md">criar um anúncio no Lync Server 2013</A>. Para ver se você configurou as configurações de UM do Exchange UM, execute o cmdlet <STRONG>Get-CsExUmContact</STRONG> . Para obter detalhes, consulte <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</A>.
+
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Criar ou modificar um intervalo de números não atribuídos no Lync Server 2013](lync-server-2013-create-or-modify-an-unassigned-number-range.md)
 
-  - [Excluir um intervalo de número não atribuído no Lync Server 2013](lync-server-2013-delete-an-unassigned-number-range.md)
+  - [Excluir um intervalo de números não atribuído no Lync Server 2013](lync-server-2013-delete-an-unassigned-number-range.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

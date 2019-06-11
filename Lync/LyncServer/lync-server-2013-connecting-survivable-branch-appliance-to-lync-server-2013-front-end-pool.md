@@ -1,39 +1,73 @@
-﻿---
-title: "Lync Server 2013: Conect. Ap. de Filial Persist. ao pool Front-End do Lync Server 2013"
-TOCTitle: Conectando Aparelho de Filial Persistente ao pool Front-End do Lync Server 2013
-ms:assetid: 3c7ca33f-5295-4d82-9152-41d8bc6f35cf
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688026(v=OCS.15)
-ms:contentKeyID: 49886182
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Conectando Aparelho de Filial Persistente ao pool Front-End do Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Connecting Survivable Branch Appliance to Lync Server 2013 Front End pool
+ms:assetid: 3c7ca33f-5295-4d82-9152-41d8bc6f35cf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688026(v=OCS.15)
+ms:contentKeyID: 49733616
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 77d22a71272ae7dd3c426b0439f7a3765ca6848c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836145"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Conectando Aparelho de Filial Persistente ao pool Front-End do Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-05_
+# <a name="connecting-survivable-branch-appliance-to-lync-server-2013-front-end-pool"></a>Conectando Aparelho de Filial Persistente ao pool Front-End do Lync Server 2013
 
-Todo Aparelho de Filial Persistente (SBA) está associado a um Pool de Front-Ends, que serve como um Registrador para o SBA. Quando o Pool de Front-Ends é atualizado para Lync Server 2013, o SBA deve ser desassociado do Pool de Front-Ends enquanto o Pool de Front-Ends é atualizado. Após o Pool de Front-Ends ser atualizado, o SBA pode ser reassociado com o Pool de Front-Ends. Isso envolve a exclusão do SBA da topologia no Construtor de Topologia e, então, adicionando o SBA novamente no Construtor de Topologia. Os usuários hospedados no SBA devem ser movidos para outro Pool de Front-Ends antes de remover o SBA da topologia. Depois que o SBA for adicionado novamente à topologia, tais usuários poderão ser movidos de volta ao SBA.
+</div>
 
-Essas etapas estão resumidas abaixo:
+<div id="mainSection">
 
-1.  Mova os usuários da ramificação hospedada no SBA para outro Pool de Front-Ends.
+<div id="mainBody">
 
-2.  Remova o SBA da sua topologia para desassociar o Pool de Front-Ends existente como o Registrador de backup.
+<span> </span>
 
-3.  Atualize o Pool de Front-Ends para Microsoft Lync Server 2013.
+_**Tópico da última modificação:** 2012-10-05_
 
-4.  Adicione o SBA novamente à topologia.
+Cada aplicativo de ramificação sobreviventes (SBA) está associado a um pool de front-end, que atua como um registrador de backup para o SBA. Quando o pool de front-ends é atualizado para o Lync Server 2013, o SBA deve ser desassociado do pool de front-ends enquanto o pool de front-end é atualizado. Depois que o pool de front-ends é atualizado, o SBA pode ser associado novamente ao pool de front-ends. Isso envolve excluir o SBA da topologia no construtor de topologias e, em seguida, adicionar SBA, novamente, ao construtor de topologias. Os usuários hospedados no SBA devem ser movidos para outro pool de front-end antes da remoção do SBA da topologia. Depois que o SBA é adicionado novamente à topologia, esses usuários podem retornar ao SBA.
 
-5.  Associe o novo Pool de Front-Ends ao SBA como Registrador de backup.
+Estas etapas estão resumidas abaixo:
+
+1.  Mova os usuários da ramificação hospedados no SBA para outro pool de front-ends.
+
+2.  Remova o SBA da sua topologia para desassociar o pool de front-end existente como registrador de backup.
+
+3.  Atualize o pool de front-ends para o Microsoft Lync Server 2013.
+
+4.  Adicione SBA de volta à sua topologia.
+
+5.  Associe o novo pool de front-ends ao SBA como um registrador de backup.
 
 6.  Mova os usuários da ramificação de volta para o SBA.
 
-## Nesta seção
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Adicionar Aparelho de Filial Persistente do Lync Server 2013 a sua topologia](lync-server-2013-add-lync-server-2013-survivable-branch-appliance-branch-site-to-your-topology.md)
 
   - [Adicionar site de Aparelho de Filial Persistente do Lync Server 2010 a sua topologia](lync-server-2013-add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

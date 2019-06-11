@@ -1,31 +1,61 @@
-﻿---
-title: 'Lync Server 2013: Componentes usados pelo Estacionamento de Chamadas'
-TOCTitle: Componentes usados pelo Estacionamento de Chamadas
-ms:assetid: c7ffbee3-0ce1-48c0-bb56-af098b41d6d6
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398824(v=OCS.15)
-ms:contentKeyID: 49308087
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Componentes usados pelo Estacionamento de Chamadas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Components used by Call Park
+ms:assetid: c7ffbee3-0ce1-48c0-bb56-af098b41d6d6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398824(v=OCS.15)
+ms:contentKeyID: 48185374
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 64f74161230504ee3f24ed19780e0a62ad4e7d08
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836507"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Componentes usados pelo Estacionamento de Chamadas no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-13_
+# <a name="components-used-by-call-park-in-lync-server-2013"></a>Componentes usados pelo Estacionamento de Chamadas no Lync Server 2013
 
-O Aplicativo de Estacionamento de Chamada é automaticamente instalado quando você implanta o Enterprise Voice. Você habilita o Estacionamento de Chamada configurando a política de voz. Os componentes do Lync Server 2013 a seguir oferecem suporte ao Aplicativo de Estacionamento de Chamada:
+</div>
 
-  - **Serviço de aplicativos**   O Serviço de aplicativos fornece uma plataforma pata implantação, hospedagem e gerenciamento de aplicativos de comunicações unificadas, como o Aplicativo de Estacionamento de Chamada. O Serviço de aplicativos é automaticamente instalado em cada Servidor Front-End em um Pool de Front-Ends e em cada servidor Standard Edition.
+<div id="mainSection">
 
-  - **Aplicativo de Estacionamento de Chamada**   O Aplicativo de Estacionamento de Chamada é um dos aplicativos de comunicação unificados hospedados pelo Serviço de aplicativos. Ele é incluído automaticamente quando você implantar o Enterprise Voice. O Estacionamento de Chamada estaciona e recupera chamadas e gerencia as órbitas de estacionamento de chamada.
+<div id="mainBody">
 
-  - **Arquivo de música em espera**   Se a música estiver habilitada, o arquivo de música será reproduzido enquanto uma chamada está estacionada. Um arquivo de música padrão é incluído quando o Aplicativo de Estacionamento de Chamada é instalado.
+<span> </span>
 
-  - **Repositório de Arquivos**   O Aplicativo de Estacionamento de Chamada usa o Repositório de Arquivos para armazenar arquivos de áudio personalizados.
+_**Tópico da última modificação:** 2012-09-13_
 
-  - **Painel de Controle do Lync Server**   É possível usar o Painel de Controle do Lync Server para configurar a tabela de órbita de estacionamento de chamada e habilitar o Estacionamento de Chamada para usuários.
+O aplicativo de estacionamento de chamadas é instalado automaticamente quando você implanta o Enterprise Voice. Para habilitar o estacionamento de chamadas, configure a política de voz. Os seguintes componentes do Lync Server 2013 suportam o aplicativo de estacionamento de chamadas:
 
-  - **Shell de Gerenciamento do Lync Server**   Toda configuração do Aplicativo de Estacionamento de Chamada pode ser executada usando os cmdlets do Shell de Gerenciamento do Lync Server.
+  - ****   Serviço de aplicativo de serviço de aplicativo fornece uma plataforma para implantação, hospedagem e gerenciamento de aplicativos de comunicação unificada, como o aplicativo de estacionamento de chamadas. O serviço de aplicativo é instalado automaticamente em todos os servidores front-end em um pool Front-end e em cada servidor Standard Edition.
+
+  - **Aplicativo de estacionamento de chamadas**   o aplicativo de estacionamento de chamadas é um dos aplicativos de comunicação unificada hospedados pelo serviço de aplicativo. Ela é incluída automaticamente durante a implantação do Enterprise Voice. Ligue para parques e recupere chamadas e gerencie órbitas de estacionamento de chamadas.
+
+  - **Música-em reter-arquivo**   se a música estiver habilitada, o arquivo de música será reproduzido enquanto uma chamada estiver estacionada. Um arquivo de música padrão é incluído quando o aplicativo de estacionamento de chamada é instalado.
+
+  - **Repositório de arquivos**   o aplicativo parque de chamadas usa o repositório de arquivos para armazenar arquivos de áudio personalizados.
+
+  - **Painel de controle do Lync Server**   você pode usar o painel de controle do Lync Server para configurar a tabela órbita do estacionamento de chamada e habilitar o parque de chamadas para os usuários.
+
+  - **Shell de gerenciamento do Lync Server**   todas as configurações de aplicativo para estacionamento de chamadas podem ser realizadas usando cmdlets do shell do Shell de gerenciamento do Lync Server.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

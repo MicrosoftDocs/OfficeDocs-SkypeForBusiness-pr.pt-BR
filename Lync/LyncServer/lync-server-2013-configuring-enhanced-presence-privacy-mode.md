@@ -1,46 +1,90 @@
-﻿---
-title: Configurando o modo de privacidade de presença avançada
-TOCTitle: Configurando o modo de privacidade de presença avançada
-ms:assetid: e7a6b873-486d-4dfb-a967-c48f61f237f3
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg399028(v=OCS.15)
-ms:contentKeyID: 49308445
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando o modo de privacidade de presença avançada'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring enhanced presence privacy mode
+ms:assetid: e7a6b873-486d-4dfb-a967-c48f61f237f3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399028(v=OCS.15)
+ms:contentKeyID: 48185664
+ms.date: 12/09/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 878691cd7b39d893b416a128f937d2aad1e561b1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836263"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando o modo de privacidade de presença avançada
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a>Configurando o modo de privacidade de presença avançada no Lync Server 2013
 
-Com o modo de privacidade de presença avançada, os usuários podem restringir as informações de presença para que elas fiquem visíveis somente aos contatos listados na lista de Contatos do Lync 2013. O parâmetro EnablePrivacyMode do cmdlet **New-CsPrivacyConfiguration** do **Set-CsPrivacyConfiguration** controla essa opção. Quando EnablePrivacyMode está definido como True, a opção para restringir as informações de presença para os contatos se torna disponível nas opções de status do Lync 2013. Quando EnablePrivacyMode está definido como False, os usuários podem optar por sempre permitir que qualquer pessoa veja as informações de presença ou aderir a qualquer mudança futura que o administrador faça no modo de privacidade.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-12-08_
+
+Com o modo de privacidade de presença avançada, os usuários podem restringir as informações de presença para que fiquem visíveis somente para os contatos listados na lista de contatos do Lync 2013. Os cmdlets **New-CsPrivacyConfiguration** e **set-CsPrivacyConfiguration** têm um parâmetro EnablePrivacyMode controla essa opção. Quando EnablePrivacyMode está definido como true, a opção de restringir as informações de presença aos contatos torna-se disponível nas opções de status do Lync 2013. Quando EnablePrivacyMode está definido como false, os usuários podem escolher para sempre permitir que todos vejam suas informações de presença ou para aderir a quaisquer alterações futuras feitas pelo administrador no modo de privacidade.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Lync 2013 e Lync 2010 não são atendidas pelas versões anteriores (Microsoft Office Communicator 2007 R2 ou Microsoft Office Communicator 2007). Se as versões anteriores do Office Communicator tiverem permissão para fazer logon, o status, informações de contato ou foto de um usuário do Lync 2013 poderão ser vistas por alguém que não foi autorizado. Além disso, as configurações de privacidade de um usuário do Lync 2013 serão redefinidas se ele ou ela fizer logon posteriormente com a versão anterior do Communicator.<br />Por esses motivos, em um cenário de migração, antes de habilitar o modo de privacidade de presença avançada:<ul>
-> 
-> <li><p>Certifique-se de que cada usuário tenha o Lync 2013 instalado.</p></li>
-> 
-> 
-> <li><p>Defina uma regra de política de versão do cliente para impedir que as versões anteriores do Communicator faça logon.</p></li></ul>
+> As configurações de privacidade do Lync 2013 e Lync 2010 não são respeitadas pelas versões anteriores (Microsoft Office Communicator 2007 R2 ou Microsoft Office Communicator 2007). Se as versões anteriores do Office Communicator tiverem permissão para entrar, um status do usuário do Lync 2013, informações de contato ou imagem podem ser visualizados por alguém que não tenha sido autorizado a visualizá-lo. Além disso, as configurações de privacidade do usuário do Lync 2013 são redefinidas se entrarem em mais tarde com a versão anterior do Communicator.<BR>Por esses motivos, em um cenário de migração, antes de habilitar o modo de privacidade de presença avançada: 
+> <UL>
+> <LI>
+> <P>Certifique-se de que todos os usuários tenham o Lync 2013 instalado.</P>
+> <LI>
+> <P>Defina uma regra de política de versão do cliente para impedir que versões anteriores do Communicator entrem em entrar.</P></LI></UL>
 
 
-## Para habilitar o modo de privacidade de presença avançada
 
-1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+</div>
+
+<div>
+
+## <a name="to-enable-enhanced-presence-privacy-mode"></a>Para habilitar o modo de privacidade de presença avançada
+
+1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
 
 2.  Execute o seguinte comando:
     
         Get-CsPrivacyConfiguration | Set-CsPrivacyConfiguration -EnablePrivacyMode $True
     
-    Esse comando habilita o modo de privacidade para todas as definições de configuração da privacidade em uso na organização.
+    Esse comando habilita o modo de privacidade para todas as configurações de privacidade em uso no momento na organização. Para obter mais informações sobre como as configurações de política do modo de privacidade de presença avançada do Lync Server gerencia a presença de contatos para o cliente do Lync 2013, consulte o artigo Microsoft Knowledge Base habilitando o [modo de privacidade de presença avançada do Lync Server atualiza a presença status de alguns contatos do Lync para "não disponível"](http://support.microsoft.com/kb/3020057).
 
-## Consulte Também
+</div>
 
-#### Outros Recursos
+<div>
 
-[Get-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPrivacyConfiguration)  
-[New-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPrivacyConfiguration)  
-[Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)
+## <a name="see-also"></a>Confira também
+
+
+[Get-CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsPrivacyConfiguration)  
+[New-CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsPrivacyConfiguration)  
+[Set-CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPrivacyConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,38 +1,67 @@
-﻿---
-title: Configurando opções de arquivamento em nível global
-TOCTitle: Configurando opções de arquivamento em nível global
-ms:assetid: bfe415f7-2abf-41ee-a1cb-cf48b2d59c0c
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205233(v=OCS.15)
-ms:contentKeyID: 49307977
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando opções de arquivamento no nível global'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Archiving options at the global level
+ms:assetid: bfe415f7-2abf-41ee-a1cb-cf48b2d59c0c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205233(v=OCS.15)
+ms:contentKeyID: 48185303
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 21653d38c7b56fa93395422a2e20906afd0cc3e2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836286"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando opções de arquivamento em nível global
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-10_
+# <a name="configuring-archiving-options-at-the-global-level-in-lync-server-2013"></a>Configuração de opções de arquivamento no nível global do Lync Server 2013
 
-Ao adicionar Arquivamento à sua topologia e publicá-la, o Lync Server cria uma configuração global de Arquivamento. Por padrão, nenhuma opção de Arquivamento está ativada na configuração global. Os controles de configuração global que habilitam configurações para a implantação inteira, a não ser que você defina configurações de site ou pool que substituem a configuração global.
+</div>
 
-Para obter detalhes sobre como as configurações de Arquivamento funcionam, incluindo a hierarquia de configurações globais, de site e pool, consulte [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de Planejamento, Implantação ou Operações.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-10_
+
+Quando você adiciona o arquivamento à sua topologia e publica a topologia, o Lync Server cria uma configuração global para arquivamento. Por padrão, nenhuma opção de arquivamento está habilitada na configuração global. A configuração global controla quais opções são habilitadas para toda a sua implantação, a não ser que você defina configurações de site ou pool que substituam a configuração global.
+
+Para obter detalhes sobre como funcionam as configurações de arquivamento, incluindo a hierarquia para configurações globais, de site e de pool, consulte [como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de planejamento, documentação de implantação ou documentação de operações .
+
+<div>
+
 
 > [!NOTE]  
-> Você deve especificar todas as opções apropriadas nas configurações de Arquivamento antes de habilitá-lo.
+> Você deve especificar todas as opções adequadas nas configurações de arquivamento antes de habilitar o arquivamento.
 
-## Configurar opções de arquivamento a nível global
+
+
+</div>
+
+<div>
+
+## <a name="to-configure-archiving-options-at-the-global-level"></a>Para configurar opções de arquivamento no nível global
 
 1.  Usando uma conta de usuário atribuída à função CsArchivingAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e digite o URL do administrador para abrir o Painel de Controle do Lync Server 2013. Para obter detalhes sobre métodos diferentes que podem ser usados para iniciar o Painel de Controle do Lync Server 2013, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server 2013. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server 2013, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Na barra de navegação da esquerda, clique em **Monitoramento e Arquivamento**, e depois, clique em **Configuração de Arquivamento**.
 
 4.  Na página **Configuração de arquivamento**, clique em **Global**, **Editar** e **Mostrar detalhes**.
 
-5.  Em **Editar configuração de arquivamento - global**, na lista suspensa **Configuração de arquivamento**, selecione uma das seguintes opções de arquivamento:
+5.  Em **Editar configuração de arquivamento - Global**, na lista suspensa **Configuração de arquivamento**, selecione uma das seguintes opções de arquivamento:
     
       - **Desativar arquivamento**
     
@@ -40,17 +69,29 @@ Para obter detalhes sobre como as configurações de Arquivamento funcionam, inc
     
       - **Arquivar sessões de IM e conferência da Web**
 
-6.  Na página **Editar configuração de arquivamento – global**, faça o seguinte:
+6.  Na página **Editar configuração de arquivamento – Global**, faça o seguinte:
     
-      - Para bloquear a atividade quando o arquivamento não estiver disponível, marque a caixa de seleção **Bloquear sessões de IM (mensagens instantâneas) ou webconferência se ocorrer falha no arquivamento**.
+      - Para bloquear a atividade quando o arquivamento não estiver disponível, marque a caixa de seleção **Bloquear sessões de mensagem instantânea ou webconferência se o arquivamento falhar**.
     
-      - Para usar Microsoft Exchange Server e armazenar dados de arquivamento, clique na caixa de seleção de integração **Microsoft Exchange**.
+      - Para usar o Microsoft Exchange Server para armazenar dados de arquivamento, clique na caixa de seleção **integração do Microsoft Exchange** .
     
-      - Para ativar a limpeza de dados, marque a caixa de seleção **Ativar a limpeza de dados de arquivamento** e faça o seguinte:
+      - Para habilitar a exclusão de dados, marque a caixa de seleção **Habilitar exclusão dos dados de arquivamento** e execute uma das seguintes ações:
         
-          - Para especificar a limpeza após um número específico de dias, clique em **Limpar dados de arquivamento exportados e armazenados após um período máximo de (dias)** e especifique o número de dias.
+          - Para especificar a exclusão após um número específico de dias, clique em **Excluir dados de arquivamento exportados e dados de arquivamento armazenados após uma duração máxima (dias)** e especifique o número de dias.
         
-          - Para limitar a limpeza nos dados de arquivamento que foram exportados, clique em **Limpar somente dados de arquivamento**.
+          - Para limitar a exclusão de dados de arquivamento que foram exportados, clique em **Excluir apenas dados de arquivamento exportados**.
 
 7.  Clique em **Confirmar**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

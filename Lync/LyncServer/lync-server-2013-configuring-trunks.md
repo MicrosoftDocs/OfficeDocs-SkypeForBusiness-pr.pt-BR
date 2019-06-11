@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Configurando troncos'
-TOCTitle: Configurando troncos
-ms:assetid: 0c339511-a185-484e-94f0-dbe918b7e48a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398170(v=OCS.15)
-ms:contentKeyID: 49305854
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando troncos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring trunks
+ms:assetid: 0c339511-a185-484e-94f0-dbe918b7e48a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398170(v=OCS.15)
+ms:contentKeyID: 48183389
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2d40a290f75ae48b73a4695e04ea2934b0c4d695
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836165"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando troncos no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-11-01_
+# <a name="configuring-trunks-in-lync-server-2013"></a>Configurando troncos no Lync Server 2013
 
-Como parte da implantação do Enterprise Voice onfigure um tronco entre um Servidor de Mediação e um ou mais dos itens a seguir para fornecer conectividade PSTN aos clientes Enterprise Voice e dispositivos do Enterprise Voice na sua organização:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-11-01_
+
+Como parte da implantação do Enterprise Voice, você pode configurar um tronco entre um servidor de mediação e um ou mais dos seguintes pares para fornecer conectividade PSTN (rede telefônica pública comutada) para clientes e dispositivos do Enterprise Voice em sua organização:
 
   - Conexão tronco SIP em um provedor de serviço de telefonia por Internet (ITSP)
 
@@ -23,44 +43,75 @@ Como parte da implantação do Enterprise Voice onfigure um tronco entre um Serv
 
   - Central privada de comutação telefônica (PBX)
 
-Para obter detalhes, consulte [Planejamento de conectividade de PSTN no Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) na documentação de Planejamento.
+Para obter detalhes, consulte [planejando a conectividade PSTN no Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) na documentação de planejamento.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Antes de iniciar a configuração de tronco, verifique se a topologia foi criada e se o Servidor de Mediação e seu par foram configurados e associados um ao outro, conforme descrito em <a href="lync-server-2013-define-a-gateway-in-topology-builder.md">Definir um gateway no Construtor de Topologia no Lync Server 2013</a> na documentação de Implantação.
+> Antes de começar a configuração de tronco, verifique se a topologia foi criada e se o servidor de mediação e seu par foram configurados e associados uns com os outros. Para obter detalhes, consulte <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">definir um gateway no construtor de topologias no Lync Server 2013</A> na documentação de implantação.
+
+
+
+</div>
+
+<div>
+
 
 > [!NOTE]  
-> Como parte da configuração por tronco, você pode habilitar o recurso de desvio de mídia do Lync Server 2013, que permite que a mídia desvie para o Servidor de Mediação. Os troncos podem ser configurados com ou sem o desvio de mídia habilitado, mas recomendamos fortemente que você o habilite. Para obter detalhes, consulte <a href="lync-server-2013-planning-for-media-bypass.md">Planejamento de bypass de mídia no Lync Server 2013</a>, na documentação de Planejamento.
+> Como parte da configuração de tronco, você pode habilitar o recurso de bypass de mídia do Lync Server 2013, que permite que a mídia ignore o servidor de mediação. Os troncos podem ser configurados com ou sem bypass de mídia habilitados, mas é altamente recomendável que você o habilite. Para obter detalhes, consulte <A href="lync-server-2013-planning-for-media-bypass.md">planejando o bypass de mídia no Lync Server 2013</A> na documentação de planejamento.
 
-## Nesta seção
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Suporte a vários troncos no Lync Server 2013](lync-server-2013-multiple-trunk-support.md)
 
-  - [Roteamento entre troncos no Lync Server 2013](lync-server-2013-inter-trunk-routing.md)
+  - [Roteamento inter-trunk no Lync Server 2013](lync-server-2013-inter-trunk-routing.md)
 
-  - [Visualizar Informações de Configuração do Tronco no Lync Server 2013](lync-server-2013-view-trunk-configuration-information.md)
+  - [Exibir informações de configuração de tronco no Lync Server 2013](lync-server-2013-view-trunk-configuration-information.md)
 
-  - [Configurar um tronco com bypass de mídia no Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
+  - [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
 
   - [Configurar um tronco sem bypass de mídia no Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
-  - [Cria um novo conjunto de definições de configuração de tronco no Lync Server 2013](lync-server-2013-create-a-new-collection-of-trunk-configuration-settings.md)
+  - [Criar uma nova coleção de definições de configuração de tronco no Lync Server 2013](lync-server-2013-create-a-new-collection-of-trunk-configuration-settings.md)
 
-  - [Excluir um conjunto existente das configurações do Tronco SIP no Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-sip-trunk-configuration-settings.md)
+  - [Excluir uma coleção existente de definições de configuração de tronco SIP no Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-sip-trunk-configuration-settings.md)
 
-  - [Modificar as Configurações do Tronco SIP no Lync Server 2013](lync-server-2013-modify-sip-trunk-configuration-settings.md)
+  - [Modificar as configurações de tronco SIP no Lync Server 2013](lync-server-2013-modify-sip-trunk-configuration-settings.md)
 
-  - [Testar as Configurações do Tronco SIP no Lync Server 2013](lync-server-2013-test-sip-trunk-configuration-settings.md)
+  - [Testar as configurações de tronco SIP no Lync Server 2013](lync-server-2013-test-sip-trunk-configuration-settings.md)
 
-  - [Exibir Informações sobre Troncos SIP Individuais no Lync Server 2013](lync-server-2013-view-information-about-individual-sip-trunks.md)
+  - [Exibir informações sobre troncos SIP individuais no Lync Server 2013](lync-server-2013-view-information-about-individual-sip-trunks.md)
 
-## Consulte Também
+</div>
 
-#### Tarefas
+<div>
 
-[Definir um gateway no Construtor de Topologia no Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md)  
+## <a name="see-also"></a>Confira também
 
-#### Outros Recursos
 
-[Planejamento de conectividade de PSTN no Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md)  
-[Planejamento de bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
+[Definir um gateway no construtor de topologias no Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md)  
+
+
+[Planejando a conectividade PSTN no Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md)  
+[Planejamento de bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

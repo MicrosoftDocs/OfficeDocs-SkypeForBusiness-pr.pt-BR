@@ -1,44 +1,84 @@
-﻿---
-title: 'Lync Server 2013: Configurar FQDNs da web farm'
-TOCTitle: Configurar FQDNs da web farm
-ms:assetid: cb25dbbd-dcea-4997-8e14-e5007dd7d3ca
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg429722(v=OCS.15)
-ms:contentKeyID: 49308119
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurar FQDNs da web farm'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure web farm FQDNs
+ms:assetid: cb25dbbd-dcea-4997-8e14-e5007dd7d3ca
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429722(v=OCS.15)
+ms:contentKeyID: 48185481
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 517e00baef63e3597c2f5b2b6621e62efb02ca62
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836305"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar FQDNs da web farm para Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-03-29_
+# <a name="configure-web-farm-fqdns-for-lync-server-2013"></a>Configurar FQDNs da web farm para Lync Server 2013
 
-Ao definir a configuração do servidor Standard Edition, Pool de Front-Ends, Diretor ou Pool de diretores no Construtor de Topologias, você configura um FQDN dos serviços da Web externos. Durante o processo de login de um cliente hospedado no servidor do Standard Edition ou Pool de Front-Ends, os FQDNs dos serviços da Web configurados são enviados através de um provisionamento em banda. Se você precisar adicionar ou alterar a URL dos serviços da Web externos, você usa o Construtor de Topologias para configurar ou reconfigurar as definições dos serviços da Web usando o procedimento neste tópico.
+</div>
 
-## Para configurar um FQDN de pool externo para serviços da Web
+<div id="mainSection">
 
-1.  Inicie o Construtor de Topologias: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Construtor de Topologias do Lync Server**.
+<div id="mainBody">
 
-2.  No Construtor de Topologias, na árvore de console em **Front-ends do Standard Edition** , **Front-ends do Enterprise Edition** e **Diretores** , clique com o botão direito no nome do pool que você precisa editar e clique em **Editar propriedades** .
+<span> </span>
 
-3.  Na seção **Serviços da Web** , adicione ou edite o **FQDN de serviços da Web externos** .
+_**Tópico da última modificação:** 2013-03-29_
 
-4.  Revise e ajuste as **Portas do ouvinte** para HTTP e HTTPS. Os padrões serão:
+Quando você definiu a configuração do servidor Standard Edition, do servidor de front-end, do director ou do diretor do criador no construtor de topologias, você configura um nome de domínio totalmente qualificado (FQDN) dos serviços Web externos. Durante o processo de logon de um cliente hospedado no servidor Standard Edition ou no pool de front-end, os FQDNs dos serviços Web configurados são enviados por meio de provisionamento em banda. Se você precisar adicionar ou alterar a URL de serviços Web externos, use o construtor de topologias para configurar ou reconfigurar a configuração de serviços Web usando o procedimento deste tópico.
+
+<div>
+
+## <a name="to-configure-an-external-pool-fqdn-for-web-services"></a>Para configurar um FQDN do pool externo para serviços Web
+
+1.  Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.
+
+2.  No construtor de topologias, na árvore de console, em **front-ends da edição padrão**, **front-ends**e **directors**da edição Enterprise, clique com o botão direito do mouse no nome do pool que você precisa editar e clique em **Editar propriedades**.
+
+3.  Na seção **Serviços Web** , adicione ou edite o **FQDN dos serviços Web externos**.
+
+4.  Revise e ajuste as **portas de escuta** para http e HTTPS. Os padrões serão:
     
-      - **Portas do ouvinte:** HTTP 8080, HTTPS 4443
+      - **Portas de escuta:** HTTP 8080, HTTPS 4443
     
       - **Portas publicadas:** HTTP 80, HTTPS 443
     
-    Onde as **Portas do ouvinte** são as portas onde os serviços da Web externos serão configurados para receber solicitações do proxy inverso e as **Portas publicadas** são as portas publicadas externamente pelo proxy inverso e são comunicadas para clientes durante o provisionamento em banda.
+    Onde as **portas de escuta** são a porta que os serviços Web externos serão configurados para receber solicitações do proxy reverso, e as **portas publicadas** são as portas publicadas externamente pelo proxy reverso e comunicadas ao clientes durante o provisionamento em banda.
 
-5.  Ao concluir as adições e atualizações, clique em **OK** para continuar.
+5.  Quando tiver concluído suas adições e atualizações, clique em **OK** para continuar.
 
-6.  Clique com o botão direito em **Lync Server 2013** e clique em **Publicar** .
+6.  Clique com o botão direito do mouse no **Lync Server 2013**e, em seguida, clique em **publicar**.
     
-    > [!IMPORTANT]  
-    > Após a publicação concluir com sucesso, um link pode ser apresentado informando que existem etapas adicionais que precisam ser realizadas. O link, se clicado, abre uma lista de servidores afetados pelas alterações realizadas no Construtor de Topologias que exigem a nova execução do Assistente de Implantação do Lync Server em cada servidor listado para atualizar a configuração de componentes adicionados, removidos ou alterados.
+    <div>
+    
 
-7.  Repita essas etapas para cada servidor Standard Edition, Pool de Front-Ends, Diretor ou Pool de diretores na organização.
+    > [!IMPORTANT]  
+    > Após a publicação ser concluída com êxito, pode ser apresentado um link que informa que há etapas adicionais que precisam ser executadas. O link, se clicado, abre uma lista de servidores afetados pelas alterações feitas no construtor de topologias que exigirão que você execute novamente o assistente de implantação do Lync Server em cada servidor listado para atualizar a configuração de componentes adicionados, removidos ou alterados.
+
+    
+    </div>
+
+7.  Repita essas etapas para cada servidor Standard Edition, o pool de front-end, o diretor ou o pool do diretor da organização.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

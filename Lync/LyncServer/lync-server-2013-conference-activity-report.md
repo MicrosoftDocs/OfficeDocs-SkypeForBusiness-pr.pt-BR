@@ -1,33 +1,59 @@
-﻿---
-title: 'Lync Server 2013: Relatório de Atividades de Conferência'
-TOCTitle: Relatório de Atividades de Conferência
-ms:assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558627(v=OCS.15)
-ms:contentKeyID: 49306131
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: relatório de atividade de conferência'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Conference Activity Report
+ms:assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558627(v=OCS.15)
+ms:contentKeyID: 48183618
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f96ddc5dfda18fa1d96903eb5755481f76853c06
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836504"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Relatório de Atividades de Conferência no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="conference-activity-report-in-lync-server-2013"></a>Relatório de atividade de conferências no Lync Server 2013
 
-O Relatório de Atividade de Conferência torna fácil responder perguntas como estas: quantas conferências estão sendo realizadas diariamente e quando estas conferências são realizadas? Informações como estas são úteis não apenas em seu próprio direito, mas também como uma ferramenta de resolução de problemas. Por exemplo, vamos supor que os usuários estão reclamando que a rede parece particularmente lenta no meio do dia. Uma rápida visualização dos relatórios de Atividade de Conferência pode sugerir uma razão possível: muitas conferências estão sendo programadas entre as 10:00 horas e as 14:00 horas do que em qualquer outro horário.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-22_
+
+O Relatório de Atividade de Conferência torna fácil responder perguntas como estas: quantas conferências estão sendo realizadas diariamente e quando estas conferências são realizadas? Informações como estas são úteis não apenas em seu próprio direito, mas também como uma ferramenta de resolução de problemas. Por exemplo, vamos supor que os usuários estão reclamando que a rede parece particularmente lenta no meio do dia. Uma rápida descrição dos relatórios de atividade de conferência pode sugerir um possível motivo: muito mais conferências estão sendo agendadas entre as horas de 10:00 AM e 2:00 PM em qualquer momento.
 
 Se a rede lenta está causando problemas, é possível incentivar os usuários a reprogramar algumas de suas conferências durante horários com menos tráfego durante o dia.
 
-## Acessando o Relatório de Atividade da Conferência
+<div>
 
-O Relatório de Atividade da Conferência é acessado em [Relatório de Resumo da Conferência no Lync Server 2013](lync-server-2013-conference-summary-report.md) clicando em uma das seguintes métricas:
+## <a name="accessing-the-conference-activity-report"></a>Acessando o Relatório de Atividade da Conferência
 
-  - Conferências totais
+O relatório atividade de conferência é acessado do [relatório Resumo de conferências no Lync Server 2013](lync-server-2013-conference-summary-report.md) clicando em uma das seguintes métricas:
+
+  - Total de conferências
 
   - Total de participantes
 
-## Tendo o melhor uso do Relatório de Atividade de Conferência
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-conference-activity-report"></a>Fazendo o melhor uso do Relatório de Atividade de Conferência
 
 Por padrão, o Relatório de Atividade de Conferência mostra o número total de conferências para um determinado período de tempo (por exemplo, o número total de conferências por dia ou o número total de conferências por hora do dia). No entanto, é possível escolher exibir o número total de participantes neste período de tempo ou o número total de participantes em minutos. Para fazer isso, clique no botão Exibir/Ocultar parâmetros para exibir as opções de filtragem e selecione um dos seguintes na lista suspensa Relatar por:
 
@@ -37,11 +63,15 @@ Por padrão, o Relatório de Atividade de Conferência mostra o número total de
 
   - Contagem de conferência
 
-## Filtros
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtros
 
 Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionadas ou para exibir os dados retornados de diferentes maneiras. A tabela a seguir lista os filtros que você pode usar com o Relatório de Atividades de Conferência.
 
-### Filtros de relatório de atividade de conferência
+### <a name="conference-activity-report-filters"></a>Filtros de relatório de atividade de conferência
 
 <table>
 <colgroup>
@@ -84,10 +114,10 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
 <li><p>Semanalmente (é possível exibir no máximo 12 semanas)</p></li>
 <li><p>Mensalmente (é possível exibir no máximo 12 meses)</p></li>
 </ul>
-<p>Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diariamente com data de início em 7/7/2012 e data de término de 2/28/2012, os dados serão exibidos do dia 8/7/2012, às 12:00 AM, até o dia 9/7/2012, às 12:00 AM (ou seja, um total de 31 dias de dados).</p></td>
+<p>Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo diário com uma data de início de 7/7/2012 e uma data de término de 2/28/2012, os dados serão exibidos para os dias 8/7/2012 12:00 AM a 9/7/2012 12:00 AM (ou seja, um total de 31 dias da importância dos dados).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relatório de</strong></p></td>
+<td><p><strong>Relatar por</strong></p></td>
 <td><p>Indica os valores a serem usados no relatório. Você pode selecionar um dos seguintes:</p>
 <ul>
 <li><p>Contagem de participantes</p></li>
@@ -99,11 +129,15 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
 </table>
 
 
-## Métricas para conferências por pool
+</div>
+
+<div>
+
+## <a name="metrics-for-conferences-by-pool"></a>Métricas para conferências por pool
 
 A tabela a seguir lista as informações no Relatório de Atividade de Conferência para cada pool.
 
-### Métricas para conferências por pool
+### <a name="metrics-for-conferences-by-pool"></a>Métricas para conferências por pool
 
 <table>
 <colgroup>
@@ -138,11 +172,15 @@ A tabela a seguir lista as informações no Relatório de Atividade de Conferên
 </table>
 
 
-## Métricas para conferência por tipo de servidor
+</div>
+
+<div>
+
+## <a name="metrics-for-conferences-by-server-type"></a>Métricas para conferência por tipo de servidor
 
 A tabela a seguir lista as informações no relatório de atividade de conferência para cada tipo de servidor.
 
-### Métricas para conferência por tipo de servidor
+### <a name="metrics-for-conferences-by-server-type"></a>Métricas para conferência por tipo de servidor
 
 <table>
 <colgroup>
@@ -166,7 +204,7 @@ A tabela a seguir lista as informações no relatório de atividade de conferên
 <li><p>Servidor de conferência da Web</p></li>
 <li><p>Servidor de conferência de IM</p></li>
 <li><p>Servidor de conferência com telefonia</p></li>
-<li><p>Servidor de conferência de AV.</p></li>
+<li><p>Servidor de conferência de AV</p></li>
 <li><p>Compartilhamento de Aplicativos</p></li>
 </ul></td>
 </tr>
@@ -182,4 +220,17 @@ A tabela a seguir lista as informações no relatório de atividade de conferên
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,29 +1,63 @@
-﻿---
-title: Visão geral da escalabilidade de conferência do Lync Server 2013
-TOCTitle: Visão geral da escalabilidade de conferência do Lync Server 2013
-ms:assetid: 12da650b-4361-4487-91cb-1a2e9a0a7e19
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204687(v=OCS.15)
-ms:contentKeyID: 49305945
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Visão geral da redimensionamento de conferência do Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of Lync Server 2013 conferencing scalability
+ms:assetid: 12da650b-4361-4487-91cb-1a2e9a0a7e19
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204687(v=OCS.15)
+ms:contentKeyID: 48183461
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0b76e32dc6a8dff8d3aa8aa94731095fa3be7e9a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836460"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Visão geral da escalabilidade de conferência do Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-01_
+# <a name="overview-of-conferencing-scalability-in-lync-server-2013"></a>Visão geral da escalabilidade de conferência no Lync Server 2013
 
-O tamanho máximo de uma conferência hospedada no Lync Server 2013 em um pool compartilhado (ou seja, um pool que hospeda todas as cargas de trabalho do Lync Server 2013, incluindo mensagens instantâneas (IM) e presença, conferências e Enterprise Voice) é 250 usuários.
+</div>
 
-Antes de discutirmos o uso do Lync Server para suportar reuniões maiores, vejamos a metodologia de teste de escalabilidade que usamos e como determinamos o modelo de 250 usuários para teste do pool compartilhado.
+<div id="mainSection">
 
-## Nesta seção
+<div id="mainBody">
 
-  - [Teste de Escalabilidade](lync-server-2013-scalability-testing.md)
+<span> </span>
 
-  - [O modelo de usuário de conferência](lync-server-2013-conferencing-user-model.md)
+_**Tópico da última modificação:** 2012-10-01_
 
-  - [Distribuição de carga de conferência](lync-server-2013-conferencing-load-distribution.md)
+O tamanho máximo de uma conferência hospedada no Lync Server 2013 em um pool compartilhado (ou seja, um pool que hospeda todas as cargas de trabalho do Lync Server 2013, incluindo mensagens instantâneas (IM) e presença, conferência e Enterprise Voice, é a 250 usuários.
+
+Antes de discutirmos a utilização do Lync Server para dar suporte a reuniões maiores, vamos examinar a metodologia de teste de escalabilidade que usamos e como determinamos o modelo de usuário 250 para o teste de pool compartilhado.
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
+
+  - [Testes de escalabilidade no Lync Server 2013](lync-server-2013-scalability-testing.md)
+
+  - [O modelo de usuário de conferência no Lync Server 2013](lync-server-2013-conferencing-user-model.md)
+
+  - [Distribuição de carga de conferência no Lync Server 2013](lync-server-2013-conferencing-load-distribution.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

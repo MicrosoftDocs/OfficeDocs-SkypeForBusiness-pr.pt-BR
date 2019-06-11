@@ -1,21 +1,51 @@
-﻿---
-title: Aplicar atualizações do Office Communications Server 2007 R2
-TOCTitle: Aplicar atualizações do Office Communications Server 2007 R2
-ms:assetid: d5f298ed-2d7d-4e0f-b45b-b2d665e5945e
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205302(v=OCS.15)
-ms:contentKeyID: 49308243
-ms.date: 12/17/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Aplicar atualizações do Office Communications Server 2007 R2
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Apply Office Communications Server 2007 R2 updates
+ms:assetid: d5f298ed-2d7d-4e0f-b45b-b2d665e5945e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205302(v=OCS.15)
+ms:contentKeyID: 48185546
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 670f5a453afa7890027585e56b249246bdc716c3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836107"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Aplicar atualizações do Office Communications Server 2007 R2
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-16_
+# <a name="apply-office-communications-server-2007-r2-updates"></a>Aplicar atualizações do Office Communications Server 2007 R2
 
-Antes de migrar para o Lync Server 2013, as atualizações devem ser aplicadas em seu ambiente do Office Communications Server 2007 R2. Para obter informações mais atualizadas sobre o Office Communications Server 2007 R2, consulte **Atualizações doCommunications Server 2007 R2** em [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802).
+</div>
 
-Para instalar atualizações do Office Communications Server 2007 R2, recomendamos seguir o procedimento **Método 1 Instalador da atualização do servidor cumulativa** descrito no artigo 968802 do Banco de Dados de Conhecimento da Microsoft, "Atualizações para o Communications Server 2007 R2," em [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802).
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-19_
+
+Antes de migrar para o Lync Server 2013, as atualizações devem ser aplicadas ao seu ambiente do Office Communications Server 2007 R2. Para obter as informações mais atualizadas sobre o Office Communications Server 2007 R2, confira **atualizações para** o **communications Server 2007 R2** em [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802).
+
+Para instalar as atualizações para o Office Communications Server 2007 R2, recomendamos que você siga o **método 1 do instalador de atualização do servidor cumulativo** descrito no artigo 968802 do Microsoft Knowledge Base, "atualizações para o Communications Server 2007 R2", em [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802).
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
