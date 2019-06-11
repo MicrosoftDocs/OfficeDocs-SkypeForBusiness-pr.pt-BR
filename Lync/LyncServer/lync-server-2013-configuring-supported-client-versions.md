@@ -1,25 +1,59 @@
-﻿---
-title: Configurando versões de cliente suportadas
-TOCTitle: Configurando versões de cliente suportadas
-ms:assetid: aebf7b48-9aa2-4a06-adc5-0c9d11b6358d
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412832(v=OCS.15)
-ms:contentKeyID: 49307819
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando versões de cliente com suporte'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring supported client versions
+ms:assetid: aebf7b48-9aa2-4a06-adc5-0c9d11b6358d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412832(v=OCS.15)
+ms:contentKeyID: 48185137
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 14bc6decfea38151d1f060b13fa55c81006e98e2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836175"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando versões de cliente suportadas
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-12-14_
+# <a name="configuring-supported-client-versions-in-lync-server-2013"></a>Configurando as versões de cliente com suporte no Lync Server 2013
 
-No Lync Server 2013, você pode configurar políticas de versão do cliente para especificar as versões dos clientes que são suportadas no ambiente. Além disso, é possível usar a configuração global de versão do cliente para especificar uma ação padrão de clientes que não têm uma política de versão definida e, portanto, não são suportados ou restritos explicitamente.
+</div>
 
-Também é possível usar políticas de versão do cliente para gerenciar atualizações do cliente. Ao definir uma política de versão do cliente e usar as opções **Permitir e atualizar** e **Bloquear e atualizar**, os clientes receberão software atualizado do Windows Server Update Service (se estiver usando este serviço) ou do Microsoft Update.
+<div id="mainSection">
 
-## Configurações de política de versão de cliente
+<div id="mainBody">
 
-A a política de versão padrão do cliente exige que todos os clientes executem o Lync ou o Microsoft Office Communicator 2007 R2. Se os cliente em seu ambiente estiverem executando versões anteriores do Communicator, pode ser necessário reconfigurar as regras da Versão do cliente para impedir que clientes e dispositivos sejam bloqueados ou atualizados inesperadamente ao se conectarem com Lync Server 2013. É possível modificar a regra padrão ou você pode adicionar uma regra superior na lista de Política de versão do cliente para substituir a regra padrão. Além disso, conforme as Atualizações cumulativas (CUs) são lançadas, você deve configurar a Política de versão do cliente para exigir as atualizações mais recentes.
+<span> </span>
+
+_**Tópico da última modificação:** 2012-12-14_
+
+No Lync Server 2013, você pode configurar políticas de versão do cliente para especificar as versões dos clientes com suporte no seu ambiente. Além disso, você pode usar a configuração de versão do cliente global para especificar uma ação padrão para clientes que ainda não têm uma política de versão definida e, portanto, não têm suporte explícito ou restrito.
+
+Você também pode usar políticas de versão do cliente para gerenciar as atualizações do cliente. Quando você define uma política de versão do cliente e usa as opções **permitir e atualizar** e **bloquear e atualizar**, os clientes receberão software atualizado do serviço de atualização do Windows Server (se você estiver usando este serviço) ou do Microsoft Update.
+
+<div>
+
+## <a name="client-version-policy-settings"></a>Configurações de política de versão do cliente
+
+A política de versão do cliente padrão requer que todos os clientes executem o Lync. Se os clientes em seu ambiente estiverem executando versões anteriores do Communicator, talvez seja necessário reconfigurar as regras de versão do cliente para impedir que os clientes e dispositivos sejam bloqueados ou atualizados inesperadamente ao se conectar ao Lync Server 2013. Você pode modificar a regra padrão ou pode adicionar uma regra mais alta na lista de política de versão do cliente para substituir a regra padrão. Além disso, como as atualizações cumulativas (CUs) são lançadas, você deve configurar a política de versão do cliente para exigir as atualizações mais recentes. Para obter detalhes, consulte [especificando os aplicativos cliente que podem ser usados para fazer logon no Lync Server 2013](lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013.md) na documentação de operações.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
