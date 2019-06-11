@@ -1,71 +1,116 @@
-﻿---
-title: Configurando links locais de rede
-TOCTitle: Configurando links locais de rede
-ms:assetid: 7e9147ae-e727-46c8-8c1a-6c13201f09be
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg521023(v=OCS.15)
-ms:contentKeyID: 49307252
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando links de sites de rede'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring network site links
+ms:assetid: 7e9147ae-e727-46c8-8c1a-6c13201f09be
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521023(v=OCS.15)
+ms:contentKeyID: 48184622
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fd0ddd5e28cd37cd31e28e5c6427b9b700b5a4c9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836202"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando links locais de rede
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-11-01_
+# <a name="configuring-network-site-links-in-lync-server-2013"></a><span data-ttu-id="a2476-102">Configurar links de sites de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2476-102">Configuring network site links in Lync Server 2013</span></span>
 
-Em uma configuração de controle de admissão de chamada, você pode criar políticas entre locais de rede que definem as limitações de largura de banda entre os locais que estejam diretamente vinculados. Quando os locais de uma rede compartilham um link direto, é possível definir limitações de largura de banda às conexões audiovisuais entre esses dois locais. Você não pode usar o Painel de Controle do Lync Server para configurar políticas de locais de rede, isso só pode ser feito usando cmdlets do Shell de Gerenciamento do Lync Server. Você pode criar, modificar e remover um link de local de rede (também conhecido como política entre locais de rede) do Shell de Gerenciamento do Lync Server.
+</div>
 
-## Para criar um link de site de rede
+<div id="mainSection">
 
-1.  Faça logon no computador onde o Shell de Gerenciamento do Lync Server está instalado como um membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [Delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+<div id="mainBody">
 
-2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+<span> </span>
 
-3.  No prompt de comando, digite o seguinte comando, substituindo os valores que são válidos para a sua configuração:
+<span data-ttu-id="a2476-103">_**Tópico da última modificação:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="a2476-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+
+<span data-ttu-id="a2476-104">Em uma configuração de controle de admissão de chamadas (CAC), você pode criar políticas entre sites de rede que definem as limitações de largura de banda entre sites vinculados diretamente.</span><span class="sxs-lookup"><span data-stu-id="a2476-104">Within a call admission control (CAC) configuration, you can create network inter-site policies that define bandwidth limitations between sites that are directly linked.</span></span> <span data-ttu-id="a2476-105">Quando os sites de rede compartilham um link direto, as limitações de largura de banda para conexões de áudio e vídeo podem ser definidas entre esses dois sites.</span><span class="sxs-lookup"><span data-stu-id="a2476-105">When network sites share a direct link, bandwidth limitations for audio and video connections can be defined between those two sites.</span></span> <span data-ttu-id="a2476-106">Você não pode usar o painel de controle do Lync Server para configurar políticas de site de rede, isso pode ser feito somente usando cmdlets do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a2476-106">You cannot use the Lync Server Control Panel to configure network site policies, this can be done only by using cmdlets from the Lync Server Management Shell.</span></span> <span data-ttu-id="a2476-107">Você pode criar, modificar e remover um link de site de rede (também conhecido como política entre sites de rede) a partir do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a2476-107">You can create, modify, and remove a network site link (also known as a network inter-site policy) from the Lync Server Management Shell.</span></span>
+
+<div>
+
+## <a name="to-create-a-network-site-link"></a><span data-ttu-id="a2476-108">Para criar um link de site de rede</span><span class="sxs-lookup"><span data-stu-id="a2476-108">To create a network site link</span></span>
+
+1.  <span data-ttu-id="a2476-109">Faça logon no computador em que o Shell de gerenciamento do Lync Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [permissões de configuração de representante no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="a2476-109">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+
+2.  <span data-ttu-id="a2476-110">Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="a2476-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+3.  <span data-ttu-id="a2476-111">No prompt de comando, digite o comando a seguir, substituindo os valores válidos para a sua configuração:</span><span class="sxs-lookup"><span data-stu-id="a2476-111">From the command prompt, type the following command, substituting values that are valid for your configuration:</span></span>
     
         New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
     
-    Este exemplo cria um novo link de site de rede chamado Reno\_Portland que define as limitações de largura de banda entre os sites de rede Reno e Portland. Os sites de rede e o perfil da política de largura de banda já devem existir antes de executar este comando.
+    <span data-ttu-id="a2476-112">Este exemplo cria um novo link de site de rede\_chamado Reno Portland que define as limitações de largura de banda entre os sites de rede Reno e Portland.</span><span class="sxs-lookup"><span data-stu-id="a2476-112">This example creates a new network site link named Reno\_Portland that sets bandwidth limitations between the Reno and Portland network sites.</span></span> <span data-ttu-id="a2476-113">Os sites de rede e o perfil da política de largura de banda já devem existir antes de executar este comando.</span><span class="sxs-lookup"><span data-stu-id="a2476-113">The network sites and the bandwidth policy profile must already exist before running this command.</span></span>
 
-Para obter descrições detalhadas de parâmetro, consulte [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy) na documentação do Shell de Gerenciamento do Lync Server. Para recuperar uma lista de perfis de políticas de largura de banda que podem ser aplicada ao link de site de rede, chame o cmdlet de **Get-CsNetworkBandwidthPolicyProfile**. Para obter detalhes, consulte [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) na documentação do Shell de Gerenciamento do Lync Server.
+<span data-ttu-id="a2476-114">Para obter descrições de parâmetros detalhadas, consulte [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) na documentação do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a2476-114">For detailed parameter descriptions, see [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) in the Lync Server Management Shell documentation.</span></span> <span data-ttu-id="a2476-115">Para recuperar uma lista de perfis de política de largura de banda que podem ser aplicados ao link de site de rede, chame o cmdlet **Get-CsNetworkBandwidthPolicyProfile** .</span><span class="sxs-lookup"><span data-stu-id="a2476-115">To retrieve a list of bandwidth policy profiles that can be applied to the network site link, call the **Get-CsNetworkBandwidthPolicyProfile** cmdlet.</span></span> <span data-ttu-id="a2476-116">Para obter detalhes, consulte [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) na documentação do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a2476-116">For details, see [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) in the Lync Server Management Shell documentation.</span></span>
 
-## Para modificar um link de site de rede
+</div>
 
-1.  Faça logon no computador onde o Shell de Gerenciamento do Lync Server está instalado como um membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [Delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+<div>
 
-2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+## <a name="to-modify-a-network-site-link"></a><span data-ttu-id="a2476-117">Para modificar um link de site de rede</span><span class="sxs-lookup"><span data-stu-id="a2476-117">To modify a network site link</span></span>
 
-3.  Use o cmdlet **Set-CsNetworkInterSitePolicy** para modificar as propriedades de um link de site de rede fornecido. Você pode modificar um (ou ambos) dos sites conectados e modificar o perfil da política de largura de banda associado ao link. Aqui está um exemplo de modificação do perfil da política de largura de banda do link de um site chamado Reno\_Portland:
+1.  <span data-ttu-id="a2476-118">Faça logon no computador em que o Shell de gerenciamento do Lync Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [permissões de configuração de representante no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="a2476-118">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+
+2.  <span data-ttu-id="a2476-119">Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="a2476-119">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+3.  <span data-ttu-id="a2476-120">Use o cmdlet **set-CsNetworkInterSitePolicy** para modificar as propriedades de um determinado link de site de rede.</span><span class="sxs-lookup"><span data-stu-id="a2476-120">Use the **Set-CsNetworkInterSitePolicy** cmdlet to modify the properties of a given network site link.</span></span> <span data-ttu-id="a2476-121">Você pode modificar um (ou ambos) ou os sites conectados, e pode modificar o perfil da política de largura de banda associado ao link.</span><span class="sxs-lookup"><span data-stu-id="a2476-121">You can modify either (or both) or the connected sites, and you can modify the bandwidth policy profile associated with the link.</span></span> <span data-ttu-id="a2476-122">Aqui está um exemplo de modificação do perfil da política de largura de banda de um\_link de site chamado Reno Portland:</span><span class="sxs-lookup"><span data-stu-id="a2476-122">Here is an example of modifying the bandwidth policy profile of a site link named Reno\_Portland:</span></span>
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
-Para obter descrições detalhadas do parâmetro, consulte [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy) na documentação do Shell de Gerenciamento do Lync Server.
+<span data-ttu-id="a2476-123">Para obter descrições de parâmetros detalhadas, consulte [set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy) na documentação do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a2476-123">For detailed parameter descriptions, see [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy) in the Lync Server Management Shell documentation.</span></span>
 
-## Para excluir um link de site de rede
+</div>
 
-1.  Faça logon no computador onde o Shell de Gerenciamento do Lync Server está instalado como um membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [Delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+<div>
 
-2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+## <a name="to-delete-a-network-site-link"></a><span data-ttu-id="a2476-124">Para excluir um link de site de rede</span><span class="sxs-lookup"><span data-stu-id="a2476-124">To delete a network site link</span></span>
 
-3.  Use o cmdlet **Remove-CsNetworkInterSitePolicy** para remover um link de site de rede. O seguinte exemplo exclui o link de site de rede Reno\_Portland:
+1.  <span data-ttu-id="a2476-125">Faça logon no computador em que o Shell de gerenciamento do Lync Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [permissões de configuração de representante no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="a2476-125">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+
+2.  <span data-ttu-id="a2476-126">Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="a2476-126">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+3.  <span data-ttu-id="a2476-127">Use o cmdlet **Remove-CsNetworkInterSitePolicy** para remover um link de site de rede.</span><span class="sxs-lookup"><span data-stu-id="a2476-127">Use the **Remove-CsNetworkInterSitePolicy** cmdlet to remove a network site link.</span></span> <span data-ttu-id="a2476-128">O exemplo a seguir exclui o\_link de site de rede de Portland Reno:</span><span class="sxs-lookup"><span data-stu-id="a2476-128">The following example deletes the Reno\_Portland network site link:</span></span>
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
-Para obter descrições detalhadas do parâmetro, consulte [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy) na documentação do Shell de Gerenciamento do Lync Server.
+<span data-ttu-id="a2476-129">Para obter descrições de parâmetros detalhadas, consulte [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy) na documentação do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a2476-129">For detailed parameter descriptions, see [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy) in the Lync Server Management Shell documentation.</span></span>
 
-## Consulte Também
+</div>
 
-#### Conceitos
+<div>
 
-[Cmdlets de controle de admissão de chamadas](https://docs.microsoft.com/en-us/powershell/module/skype/)  
+## <a name="see-also"></a><span data-ttu-id="a2476-130">Confira também</span><span class="sxs-lookup"><span data-stu-id="a2476-130">See Also</span></span>
 
-#### Outros Recursos
 
-[New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy)  
-[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
-[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
-[Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
-[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
+[<span data-ttu-id="a2476-131">Cmdlets do controle de admissão de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2476-131">Call admission control cmdlets in Lync Server 2013</span></span>](https://docs.microsoft.com/powershell/module/skype/)  
+
+
+[<span data-ttu-id="a2476-132">New-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="a2476-132">New-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)  
+[<span data-ttu-id="a2476-133">Set-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="a2476-133">Set-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
+[<span data-ttu-id="a2476-134">Remove-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="a2476-134">Remove-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
+[<span data-ttu-id="a2476-135">Get-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="a2476-135">Get-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
+[<span data-ttu-id="a2476-136">Get-CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="a2476-136">Get-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

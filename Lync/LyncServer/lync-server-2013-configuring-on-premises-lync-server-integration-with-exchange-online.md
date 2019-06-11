@@ -1,79 +1,140 @@
-﻿---
-title: "Lync Server 2013: Config. Integr. local do Lync Server 2013 c/ Exchange Online"
-TOCTitle: Configurando integração local do Lync Server 2013 com o Exchange Online
-ms:assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh533880(v=OCS.15)
-ms:contentKeyID: 49307510
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configurando a integração do Lync Server local com o Exchange Online
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring on-premises Lync Server integration with Exchange Online
+ms:assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh533880(v=OCS.15)
+ms:contentKeyID: 48184900
+ms.date: 03/30/2018
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ae1ba45ace830f33b239bf2f8ead1a75fcee3417
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836207"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando integração local do Lync Server 2013 com o Exchange Online
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-07-02_
+# <a name="configuring-on-premises-lync-server-2013-integration-with-exchange-online"></a><span data-ttu-id="376cc-102">Configurando a integração do Lync Server 2013 local com o Exchange Online</span><span class="sxs-lookup"><span data-stu-id="376cc-102">Configuring on-premises Lync Server 2013 integration with Exchange Online</span></span>
 
-Clientes que estiverem usando implantações locais do Lync Server 2013 podem configurar a interoperabilidade com o Microsoft Outlook Web App no Microsoft Exchange Online em um modo de implantação híbrido. Recursos de interoperabilidade incluem logon único, sistemas de mensagens instantâneas (IM) e integração de presença com a interface do Outlook Web App. Para habilitar esta integração, você deve configurar o Servidor de Borda em sua implantação local do Lync Server concluindo as seguintes tarefas:
+</div>
 
-  - Configurar um espaço de endereçamento SIP compartilhado
+<div id="mainSection">
 
-  - Configurar um provedor de hospedagem no Servidor de Borda
+<div id="mainBody">
 
-  - Verificar a replicação do Repositório de Gerenciamento Central atualizado
+<span> </span>
 
-## Configurar um espaço de endereçamento SIP compartilhado
+<span data-ttu-id="376cc-103">_**Tópico da última modificação:** 2018-03-30_</span><span class="sxs-lookup"><span data-stu-id="376cc-103">_**Topic Last Modified:** 2018-03-30_</span></span>
 
-Para integrar o Lync Server 2013 local com o Exchange Online, você deve configurar um espaço de endereçamento SIP compartilhado. O mesmo espaço de endereçamento de domínio SIP é suportado pelo Lync Server e o serviço do Exchange Online.
+<span data-ttu-id="376cc-104">Os clientes que usam implantações locais do Lync Server 2013 podem configurar a interoperabilidade com o Microsoft Outlook Web App no Microsoft Exchange Online em um modo de implantação híbrido.</span><span class="sxs-lookup"><span data-stu-id="376cc-104">Customers who are using on-premises Lync Server 2013 deployments can configure interoperability with Microsoft Outlook Web App in Microsoft Exchange Online in a hybrid deployment mode.</span></span> <span data-ttu-id="376cc-105">Recursos de interoperabilidade incluem logon único, sistemas de mensagens instantâneas (IM) e integração de presença com a interface do Outlook Web App.</span><span class="sxs-lookup"><span data-stu-id="376cc-105">Interoperability features include single sign on and instant messaging (IM) and presence integration with the Outlook Web App interface.</span></span> <span data-ttu-id="376cc-106">Para habilitar essa integração, você deve configurar o servidor de borda na implantação do Lync Server local completando as seguintes tarefas:</span><span class="sxs-lookup"><span data-stu-id="376cc-106">To enable this integration, you must configure the Edge Server in your on-premises Lync Server deployment by completing the following tasks:</span></span>
 
-Usando o Shell de Gerenciamento do Lync Server, configure o Servidor de Borda para federação executando o cmdlet **Set-CSAccessEdgeConfiguration** usando os parâmetros exibidos no exemplo a seguir:
+  - <span data-ttu-id="376cc-107">Configurar um espaço de endereçamento SIP compartilhado</span><span class="sxs-lookup"><span data-stu-id="376cc-107">Configure a shared SIP address space</span></span>
+
+  - <span data-ttu-id="376cc-108">Configurar um provedor de hospedagem no servidor de borda</span><span class="sxs-lookup"><span data-stu-id="376cc-108">Configure a hosting provider on the Edge Server</span></span>
+
+  - <span data-ttu-id="376cc-109">Verificar a replicação do repositório de gerenciamento central atualizado</span><span class="sxs-lookup"><span data-stu-id="376cc-109">Verify replication of the updated Central Management store</span></span>
+
+<span data-ttu-id="376cc-110">Se o Lync Server 2013 estiver integrado ao Exchange Online, um usuário que está tentando entrar para enviar mensagens instantâneas pelo OWA será considerado um usuário remoto ou externo.</span><span class="sxs-lookup"><span data-stu-id="376cc-110">If Lync Server 2013 is integrated with Exchange Online, a user who is trying to sign in to IM from OWA is considered a remote or external user.</span></span> <span data-ttu-id="376cc-111">Nesse cenário, esse usuário deve ter uma política de acesso externo atribuída que tenha a seguinte opção selecionada:</span><span class="sxs-lookup"><span data-stu-id="376cc-111">In this scenario, this user must have an external access policy assigned that has the following option selected:</span></span>
+
+<span data-ttu-id="376cc-112">**Habilitar comunicações com usuários remotos**</span><span class="sxs-lookup"><span data-stu-id="376cc-112">**Enable communications with remote users**</span></span>
+
+<span data-ttu-id="376cc-113">Habilite esta opção se quiser que os usuários da organização que estão fora do seu firewall, como telecomutadores e usuários que estiverem viajando, possam se conectar ao Lync Server pela Internet.</span><span class="sxs-lookup"><span data-stu-id="376cc-113">Enable this option if you want users in your organization who are outside your firewall, such as telecommuters and users who are traveling, to be able to connect to Lync Server over the Internet.</span></span>
+
+<span data-ttu-id="376cc-114">Para obter mais informações, consulte [gerenciar a política de acesso externo no Lync Server 2013](lync-server-2013-manage-external-access-policy-for-your-organization.md).</span><span class="sxs-lookup"><span data-stu-id="376cc-114">For more information, see [Manage external access policy in Lync Server 2013](lync-server-2013-manage-external-access-policy-for-your-organization.md).</span></span>
+
+<div>
+
+## <a name="configure-a-shared-sip-address-space"></a><span data-ttu-id="376cc-115">Configurar um espaço de endereçamento SIP compartilhado</span><span class="sxs-lookup"><span data-stu-id="376cc-115">Configure a Shared SIP Address Space</span></span>
+
+<span data-ttu-id="376cc-116">Para integrar o Lync Server 2013 local com o Exchange Online, você deve configurar um espaço de endereço SIP compartilhado.</span><span class="sxs-lookup"><span data-stu-id="376cc-116">To integrate on-premises Lync Server 2013 with Exchange Online, you must configure a shared SIP address space.</span></span> <span data-ttu-id="376cc-117">O mesmo espaço de endereço de domínio SIP é compatível com o Lync Server e o serviço do Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="376cc-117">The same SIP domain address space is supported by both Lync Server and the Exchange Online service.</span></span>
+
+<span data-ttu-id="376cc-118">Usando o Shell de gerenciamento do Lync Server, configure o servidor de borda para Federação executando o cmdlet **set-CSAccessEdgeConfiguration** usando os parâmetros exibidos no seguinte exemplo:</span><span class="sxs-lookup"><span data-stu-id="376cc-118">Using the Lync Server Management Shell, configure the Edge Server for federation by running the **Set-CSAccessEdgeConfiguration** cmdlet, using the parameters that are displayed in the following example:</span></span>
 
     Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
-  - O parâmetro **AllowFederatedUsers** especifica se usuários internos têm permissão para se comunicar com usuários de domínios federados. Esta propriedade também determina se usuários internos podem se comunicar com usuários em um cenário de espaço de endereçamento SIP compartilhado com o Lync Server e o Exchange Online.
+  - <span data-ttu-id="376cc-119">\*\*AllowFederatedUsers \*\* especifica se os usuários internos têm permissão para se comunicar com usuários de domínios federados.</span><span class="sxs-lookup"><span data-stu-id="376cc-119">**AllowFederatedUsers** specifies whether internal users are allowed to communicate with users from federated domains.</span></span> <span data-ttu-id="376cc-120">Essa propriedade também determina se os usuários internos podem se comunicar com usuários em um cenário de espaço de endereço SIP compartilhado com o Lync Server e o Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="376cc-120">This property also determines whether internal users can communicate with users in a shared SIP address space scenario with Lync Server and Exchange Online.</span></span>
 
-Para detalhes sobre como usar o Shell de Gerenciamento do Lync Server, consulte [Shell de gerenciamento do Lync Server](lync-server-2013-lync-server-management-shell.md).
+<span data-ttu-id="376cc-121">Para obter detalhes sobre como usar o Shell de gerenciamento do Lync Server, consulte [Shell de gerenciamento do Lync server 2013](lync-server-2013-lync-server-management-shell.md).</span><span class="sxs-lookup"><span data-stu-id="376cc-121">For details about how to use the Lync Server Management Shell, see [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md).</span></span>
 
-## Configurar um provedor de hospedagem no Servidor de Borda
+</div>
 
-Usando o Shell de Gerenciamento do Lync Server, configure um provedor de hospedagem no Servidor de Borda executando o cmdlet **New-CsHostingProvider**, com os parâmetros do exemplo a seguir:
+<div>
+
+## <a name="configure-a-hosting-provider-on-the-edge-server"></a><span data-ttu-id="376cc-122">Configurar um provedor de hospedagem no Servidor de Borda</span><span class="sxs-lookup"><span data-stu-id="376cc-122">Configure a Hosting Provider on the Edge Server</span></span>
+
+<span data-ttu-id="376cc-123">Use o Shell de gerenciamento do Lync Server para configurar um provedor de hospedagem no servidor de borda.</span><span class="sxs-lookup"><span data-stu-id="376cc-123">Use the Lync Server Management Shell to configure a hosting provider on the Edge Server.</span></span> <span data-ttu-id="376cc-124">Para fazer isso, execute o cmdlet **New-CsHostingProvider** usando os parâmetros no exemplo a seguir:</span><span class="sxs-lookup"><span data-stu-id="376cc-124">To do this, run the **New-CsHostingProvider** cmdlet, using the parameters in the following example:</span></span>
 
     New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 
-> [!NOTE]  
-> Se você estiver usando o Office 365 operado pela 21Vianet na China, substitua o valor do parâmetro <strong>ProxyFqdn</strong> neste exemplo (&quot;exap.um.outlook.com&quot;) pelo FQDN do serviço operado pela 21Vianet: &quot;exap.um.partner.outlook.cn&quot;.
+<div>
 
-  - **Identity** especifica um identificador de valor de cadeia de caracteres único para o provedor de hospedagem que está sendo criado (por exemplo "Exchange Online"). Valores que contêm espaços devem estar entre aspas duplas.
 
-  - **Enabled** indica se a conexão de rede entre seu domínio e o provedor de hospedagem está habilitada. Deve ser definido como True.
+> [!NOTE]
+> <span data-ttu-id="376cc-125">Se você estiver usando o Office 365 operado pela 21Vianet na China, substitua o valor do parâmetro <STRONG>ProxyFqdn</STRONG> neste exemplo ("exap.um.outlook.com") pelo FQDN do serviço operado pela 21Vianet: "exap.um.partner.outlook.cn".</span><span class="sxs-lookup"><span data-stu-id="376cc-125">If you are using Office 365 operated by 21Vianet in China, replace the value for the <STRONG>ProxyFqdn</STRONG> parameter in this example ("exap.um.outlook.com") with the FQDN for the service operated by 21Vianet: "exap.um.partner.outlook.cn".</span></span>
 
-  - **EnabledSharedAddressSpace** indica se o provedor de hospedagem será usado em um cenário de espaço de endereçamento SIP compartilhado. Deve ser definido como True.
 
-  - **HostsOCSUsers** indica se o provedor de hospedagem será usado para hospedar o Office Communications Server ou Lync Server. Deve ser definido como False.
 
-  - **ProxyFQDN** especifica o nome de domínio totalmente qualificado (FQDN) para o servidor de proxy usado pelo provedor de hospedagem. Para o Exchange Online, o FQDN é exap.um.outlook.com.
+</div>
 
-  - **IsLocal** indica se o servidor de proxy usado pelo provedor de hospedagem está contido em sua topologia do Lync Server. Deve ser definido como False.
+  - <span data-ttu-id="376cc-126">**Identity** especifica um identificador de valor de cadeia de caracteres único para o provedor de hospedagem que está sendo criado (por exemplo "Exchange Online").</span><span class="sxs-lookup"><span data-stu-id="376cc-126">**Identity** specifies a unique string value identifier for the hosting provider that you are creating (for example, "Exchange Online").</span></span> <span data-ttu-id="376cc-127">Os valores que contêm espaços devem estar entre aspas duplas.</span><span class="sxs-lookup"><span data-stu-id="376cc-127">Values that contain spaces must be in double quotation marks.</span></span>
 
-  - **VerificationLevel** indica o nível de verificação permitido para mensagens enviadas para e a partir do provedor hospedado. Especifique **UseSourceVerification**, que depende do nível de verificação incluso em mensagens enviadas a partir do provedor hospedado. Se este nível não for especificado, a mensagem será rejeitada como sendo não-verificável.
+  - <span data-ttu-id="376cc-128">\*\*Habilitado \*\* indica se a conexão de rede entre seu domínio e o provedor de hospedagem está habilitado.</span><span class="sxs-lookup"><span data-stu-id="376cc-128">**Enabled** indicates whether the network connection between your domain and the hosting provider is enabled.</span></span> <span data-ttu-id="376cc-129">Isso deve ser definido como **true**.</span><span class="sxs-lookup"><span data-stu-id="376cc-129">This must be set to **True**.</span></span>
 
-## Verificar a replicação do Repositório de Gerenciamento Central Atualizado
+  - <span data-ttu-id="376cc-130">**EnabledSharedAddressSpace** indica se o provedor de hospedagem será usado em um cenário de espaço de endereçamento SIP compartilhado.</span><span class="sxs-lookup"><span data-stu-id="376cc-130">**EnabledSharedAddressSpace** indicates whether the hosting provider will be used in a shared SIP address space scenario.</span></span> <span data-ttu-id="376cc-131">Isso deve ser definido como **true**.</span><span class="sxs-lookup"><span data-stu-id="376cc-131">This must be set to **True**.</span></span>
 
-As alterações realizadas usando os cmdlets nas seções anteriores são automaticamente aplicadas ao Servidor de Borda e geralmente levam menos de um minuto para serem replicadas. Você pode validar o status da replicação e confirmar se as alterações foram aplicadas ao seu Servidor de Borda usando os cmdlets a seguir.
+  - <span data-ttu-id="376cc-132">**HostsOCSUsers** indica se o provedor de hospedagem é usado para hospedar o Office Communications Server ou o Lync Server.</span><span class="sxs-lookup"><span data-stu-id="376cc-132">**HostsOCSUsers** indicates whether the hosting provider is used to host Office Communications Server or Lync Server.</span></span> <span data-ttu-id="376cc-133">Isso deve ser definido como **false**.</span><span class="sxs-lookup"><span data-stu-id="376cc-133">This must be set to **False**.</span></span>
 
-Para verificar as atualizações de replicação em um servidor interno à sua implantação do Lync Server, execute o cmdlet a seguir:
+  - <span data-ttu-id="376cc-134">**ProxyFQDN** especifica o nome de domínio totalmente qualificado (FQDN) para o servidor de proxy usado pelo provedor de hospedagem.</span><span class="sxs-lookup"><span data-stu-id="376cc-134">**ProxyFQDN** specifies the fully qualified domain name (FQDN) for the proxy server used by the hosting provider.</span></span> <span data-ttu-id="376cc-135">Para o Exchange Online, o FQDN é exap.um.outlook.com.</span><span class="sxs-lookup"><span data-stu-id="376cc-135">For Exchange Online, the FQDN is exap.um.outlook.com.</span></span>
+
+  - <span data-ttu-id="376cc-136">**IsLocal** indica se o servidor proxy usado pelo provedor de hospedagem está contido na sua topologia do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="376cc-136">**IsLocal** indicates whether the proxy server used by the hosting provider is contained within your Lync Server topology.</span></span> <span data-ttu-id="376cc-137">Isso deve ser definido como **false**.</span><span class="sxs-lookup"><span data-stu-id="376cc-137">This must be set to **False**.</span></span>
+
+  - <span data-ttu-id="376cc-138">**VerificationLevel** indica o nível de verificação permitido para mensagens enviadas de e para o provedor hospedado.</span><span class="sxs-lookup"><span data-stu-id="376cc-138">**VerificationLevel** indicates the verification level allowed for messages that are sent to and from the hosted provider.</span></span> <span data-ttu-id="376cc-139">Especifique **UseSourceVerification**.</span><span class="sxs-lookup"><span data-stu-id="376cc-139">Specify **UseSourceVerification**.</span></span> <span data-ttu-id="376cc-140">Essa opção depende do nível de verificação incluído nas mensagens enviadas do provedor de hospedagem.</span><span class="sxs-lookup"><span data-stu-id="376cc-140">This option relies on the verification level that is included in messages that are sent from the hosting provider.</span></span> <span data-ttu-id="376cc-141">Se esse nível não for especificado, a mensagem será rejeitada como não verificável.</span><span class="sxs-lookup"><span data-stu-id="376cc-141">If this level is not specified, the message will be rejected as being unverifiable.</span></span>
+
+</div>
+
+<div>
+
+## <a name="verify-replication-of-the-updated-central-management-store"></a><span data-ttu-id="376cc-142">Verificar a replicação do Repositório de Gerenciamento Central Atualizado</span><span class="sxs-lookup"><span data-stu-id="376cc-142">Verify Replication of the Updated Central Management Store</span></span>
+
+<span data-ttu-id="376cc-143">As alterações feitas usando cmdlets nas seções anteriores são automaticamente aplicadas ao servidor de borda e geralmente levam menos de um minuto para serem replicadas.</span><span class="sxs-lookup"><span data-stu-id="376cc-143">The changes that you made by using the cmdlets in the preceding sections are automatically applied to the Edge Server, and generally take less than one minute to replicate.</span></span> <span data-ttu-id="376cc-144">Você pode verificar o status da replicação e se as alterações foram aplicadas ao servidor de borda usando os cmdlets a seguir.</span><span class="sxs-lookup"><span data-stu-id="376cc-144">You can verify the replication status and that the changes were applied to your Edge Server by using the following cmdlets.</span></span>
+
+<span data-ttu-id="376cc-145">Para verificar as atualizações de replicação em um servidor interno na implantação do Lync Server, execute o seguinte cmdlet:</span><span class="sxs-lookup"><span data-stu-id="376cc-145">To verify replication updates on a server internal in your Lync Server deployment, run the following cmdlet:</span></span>
 
     Get-CsManagementStoreReplicationStatus
 
-Para confirmar que as alterações foram aplicadas, no Servidor de Borda, execute o cmdlet a seguir:
+<span data-ttu-id="376cc-146">Para verificar se as alterações foram aplicadas, execute o seguinte cmdlet no servidor de borda:</span><span class="sxs-lookup"><span data-stu-id="376cc-146">To verify that the changes were applied, run the following cmdlet on the Edge Server:</span></span>
 
     Get-CsHostingProvider -LocalStore
 
-## Consulte Também
+</div>
 
-#### Outros Recursos
+<div>
 
-[Fornecendo caixa postal a usuários do Lync Server 2013 no Exchange UM hospedado](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)  
-[Integração de Unificação de Mensagens do Exchange hospedado no Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md)
+## <a name="see-also"></a><span data-ttu-id="376cc-147">Confira também</span><span class="sxs-lookup"><span data-stu-id="376cc-147">See Also</span></span>
+
+
+[<span data-ttu-id="376cc-148">Fornecendo caixa postal a usuários do Lync Server 2013 no Exchange UM hospedado</span><span class="sxs-lookup"><span data-stu-id="376cc-148">Providing Lync Server 2013 users voice mail on hosted Exchange UM</span></span>](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)  
+[<span data-ttu-id="376cc-149">Integração de Unificação de Mensagens do Exchange hospedado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="376cc-149">Hosted Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-hosted-exchange-unified-messaging-integration.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

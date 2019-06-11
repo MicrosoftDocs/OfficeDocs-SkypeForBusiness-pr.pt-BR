@@ -1,90 +1,151 @@
-﻿---
-title: "Config. o Lync Server 2013 p/ trabalhar c/ a Unif. de Mensagens no M. Exchange Server"
-TOCTitle: Configurar o Lync Server 2013 para trabalhar com a Unificação de Mensagens no Microsoft Exchange Server
-ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398193(v=OCS.15)
-ms:contentKeyID: 49305914
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurar o Lync Server 2013 para trabalhar com a Unificação de Mensagens no Microsoft Exchange Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server
+ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398193(v=OCS.15)
+ms:contentKeyID: 48183430
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 27909f4ae6231b1452cbfefdd82e0a0eb107c6fa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836361"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar o Lync Server 2013 para trabalhar com a Unificação de Mensagens no Microsoft Exchange Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a><span data-ttu-id="589be-102">Configurar o Lync Server 2013 para trabalhar com a Unificação de Mensagens no Microsoft Exchange Server</span><span class="sxs-lookup"><span data-stu-id="589be-102">Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server</span></span>
 
-Esta etapa requer o Utilitário de Integração do UM do Exchange (OcsUmUtil.exe). Esta ferramenta está localizada no servidor do Lync Server 2013 na pasta ..\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Support.
+</div>
 
-## Executando o Utilitário de Integração do UM do Exchange
+<div id="mainSection">
 
-O Utilitário de Integração do UM do Exchange deve ser executado em uma conta de usuário com as seguintes características:
+<div id="mainBody">
 
-  - Associação nos grupos RTCUniversalServerAdmins e RtcUniversalUserAdmins (que inclui a permissão para ler as configurações da Unificação de Mensagens do Exchange Server).
+<span data-ttu-id="589be-103">_**Tópico da última modificação:** 2013-04-03_</span><span class="sxs-lookup"><span data-stu-id="589be-103">_**Topic Last Modified:** 2013-04-03_</span></span>
 
-  - Direitos do usuário dentro do domínio para criar objetos de contato no contêiner específico da unidade organizacional (OU).
+<span data-ttu-id="589be-104">Esta etapa requer o utilitário de integração do Exchange UM (OcsUmUtil. exe).</span><span class="sxs-lookup"><span data-stu-id="589be-104">This step requires the Exchange UM Integration Utility (OcsUmUtil.exe).</span></span> <span data-ttu-id="589be-105">Esta ferramenta está localizada no servidor do Lync Server 2013 em.. \\Arquivos de\\programas arquivos\\comuns Microsoft Lync Server\\2013 support Folder.</span><span class="sxs-lookup"><span data-stu-id="589be-105">This tool is located on the Lync Server 2013 server in the ..\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Support folder.</span></span>
 
-Quando você executa o Utilitário de Integração do UM do Exchange, ele realiza as seguintes tarefas:
+<div>
 
-  - Cria objetos de contato para cada atendedor automático e número de telefone do assinante a ser utilizado pelos usuários do Enterprise Voice.
+## <a name="running-the-exchange-um-integration-utility"></a><span data-ttu-id="589be-106">Executando o utilitário de integração de UM Exchange</span><span class="sxs-lookup"><span data-stu-id="589be-106">Running the Exchange UM Integration Utility</span></span>
 
-  - Verifica se o nome de cada plano de discagem do Enterprise Voice corresponde ao contexto de telefone do plano de discagem da UM (Unificação de Mensagens). Essa correspondência é necessária somente se o plano de discagem da UM estiver sendo executado em uma versão do Exchange *anterior* ao Exchange 2010 Service Pack 1 (SP1).
+<span data-ttu-id="589be-107">O utilitário de integração do Exchange UM deve ser executado a partir de uma conta de usuário com as seguintes características:</span><span class="sxs-lookup"><span data-stu-id="589be-107">The Exchange UM Integration Utility must be run from a user account with the following characteristics:</span></span>
 
-> [!IMPORTANT]  
-> Antes de executar o Utilitário de Integração do UM do Exchange, certifique-se de ter feito o seguinte:
+  - <span data-ttu-id="589be-108">Associação nos grupos RTCUniversalServerAdmins e RtcUniversalUserAdmins (que inclui a permissão para ler as configurações de mensagens unificadas do Exchange Server).</span><span class="sxs-lookup"><span data-stu-id="589be-108">Membership in the RTCUniversalServerAdmins and RtcUniversalUserAdmins groups (which includes permission to read Exchange Server Unified Messaging settings).</span></span>
+
+  - <span data-ttu-id="589be-109">Direitos de usuário no domínio para criar objetos de contato no contêiner de unidade organizacional (OU) especificado.</span><span class="sxs-lookup"><span data-stu-id="589be-109">User rights within the domain to create contact objects in the specified organizational unit (OU) container.</span></span>
+
+<span data-ttu-id="589be-110">Quando você executa o utilitário de integração do Exchange UM, ele executa as seguintes tarefas:</span><span class="sxs-lookup"><span data-stu-id="589be-110">When you run the Exchange UM Integration Utility, it performs the following tasks:</span></span>
+
+  - <span data-ttu-id="589be-111">Cria objetos de contato para cada número de atendente e acesso do assinante a ser usado por usuários do Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="589be-111">Creates contact objects for each auto-attendant and subscriber access number to be used by Enterprise Voice users.</span></span>
+
+  - <span data-ttu-id="589be-112">Verifica se o nome de cada plano de discagem de voz empresarial corresponde ao seu próprio contexto de telefone de plano de discagem de mensagens unificadas (UM).</span><span class="sxs-lookup"><span data-stu-id="589be-112">Verifies that the name of each Enterprise Voice dial plan matches its corresponding unified messaging (UM) dial plan phone context.</span></span> <span data-ttu-id="589be-113">Essa correspondência só será necessária se o plano de discagem do UM estiver sendo executado em uma versão do Exchange *anterior* ao Exchange 2010 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="589be-113">This matching is necessary only if the UM dial plan is running on a version of Exchange *earlier* than Exchange 2010 Service Pack 1 (SP1).</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="589be-114">Antes de executar o utilitário de integração do Exchange UM, certifique-se de ter feito o seguinte:</span><span class="sxs-lookup"><span data-stu-id="589be-114">Before running the Exchange UM Integration Utility, be sure that you have done the following:</span></span>
 > <ul>
-> <li>Criar um ou mais planos de discagem do UM do Exchange, conforme descrito na documentação do produto do Exchange.
-> 
-> Para Microsoft Exchange Server 2010, consulte " Criar um Plano de Discagem da UM" em http://go.microsoft.com/fwlink/p/?linkId=186177.
-> 
-> Para Microsoft Exchange Server 2007 Service Pack 1 (SP1), consulte "Como criar um plano de discagem URI de SIP de Unificação de Mensagens" em [http://go.microsoft.com/fwlink/p/?linkId=185771](http://go.microsoft.com/fwlink/p/?linkId=185771).</li>
-> <li>Crie um ou mais planos de discagem correspondentes do Lync Server, conforme descrito em <a href="lync-server-2013-create-a-dial-plan.md">Criar um plano de discagem no Lync Server 2013</a>.</li>
-> </ul>
-> Se você estiver utilizando uma versão do Exchange que seja anterior ao Microsoft Exchange Server 2010 SP1, é necessário inserir o FQDN (nome de domínio totalmente qualificado) do plano de discagem de SIP correspondente do Unificação de Mensagens (UM) do Exchange no campo Nome simples do plano de discagem do Lync Server 2013. Se você estiver usando o Microsoft Exchange Server 2010 SP1 ou service pack mais recente, essa correspondência de nome de plano de discagem não é necessária.
-> <ul>
-> <li>Crie um atendedor automático e certifique-se que o número de acesso do assinante e o número do atendedor automático estejam no formato E.164.</li>
-> </ul>
+> <li><p><span data-ttu-id="589be-115">Crie um ou mais planos de discagem de UM do Exchange, conforme descrito na documentação do produto Exchange.</span><span class="sxs-lookup"><span data-stu-id="589be-115">Create one or more Exchange UM dial plans, as described in the Exchange product documentation.</span></span></p>
+> <p><span data-ttu-id="589be-116">Para o Microsoft Exchange Server 2010, &quot;consulte criar um plano&quot; de discagem de um em. <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a></span><span class="sxs-lookup"><span data-stu-id="589be-116">For Microsoft Exchange Server 2010, see &quot;Create a UM Dial Plan&quot; at <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>.</span></span></p>
+> <p><span data-ttu-id="589be-117">Para Microsoft Exchange Server 2007 Service Pack 1 (SP1), consulte &quot;como criar um plano&quot; de DISCAgem de URI SIP de <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>Unificação de mensagens em.</span><span class="sxs-lookup"><span data-stu-id="589be-117">For Microsoft Exchange Server 2007 Service Pack 1 (SP1), see &quot;How to Create a Unified Messaging SIP URI Dial Plan&quot; at <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>.</span></span></p></li>
+> <li><p><span data-ttu-id="589be-118">Crie um ou mais planos de discagem do Lync Server correspondentes, conforme descrito em <a href="lync-server-2013-create-a-dial-plan.md">criar um plano de discagem no Lync server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="589be-118">Create one or more corresponding Lync Server dial plans, as described in <a href="lync-server-2013-create-a-dial-plan.md">Create a dial plan in Lync Server 2013</a>.</span></span></p></li>
+> <ul><li><span data-ttu-id="589be-119">Se você estiver usando uma versão do Exchange anterior ao Microsoft Exchange Server 2010 SP1, deverá digitar o nome de domínio totalmente qualificado (FQDN) do plano de discagem SIP do Exchange Unified Messaging (UM) correspondente no Lync Server 2013 nome simples do plano de discagem <STRONG> </STRONG>campo.</span><span class="sxs-lookup"><span data-stu-id="589be-119">If you are using a version of Exchange that is earlier than Microsoft Exchange Server 2010 SP1, you must enter the fully qualified domain name (FQDN) of the corresponding Exchange Unified Messaging (UM) SIP dial plan in the Lync Server 2013 dial plan <STRONG>Simple name</STRONG> field.</span></span> <span data-ttu-id="589be-120">Se você estiver usando o Microsoft Exchange Server 2010 SP1 ou Service Pack mais recente, o nome do plano de discagem correspondente não será necessário.</span><span class="sxs-lookup"><span data-stu-id="589be-120">If you are using Microsoft Exchange Server 2010 SP1 or latest service pack, this dial plan name matching is not necessary.</span></span></li></ul>
+> <li><span data-ttu-id="589be-121">Crie um atendedor automático e certifique-se de que o número de acesso do assinante e o número do auto Attendant estejam no formato E. 164.</span><span class="sxs-lookup"><span data-stu-id="589be-121">Create an auto-attendant and make sure that both the subscriber access number and auto-attendant number are in E.164 format.</span></span></li></ul>
 
 
-## Para executar o Utilitário de Integração do UM do Exchange
+<div>
 
-1.  Em um Servidor Front-End, abra um prompt de comando e digite **cd %CommonProgramFiles%\\Microsoft Lync Server 2010\\Support** , depois pressione ENTER.
+## <a name="to-run-the-exchange-um-integration-utility"></a><span data-ttu-id="589be-122">Para executar o utilitário de integração de UM Exchange</span><span class="sxs-lookup"><span data-stu-id="589be-122">To run the Exchange UM Integration Utility</span></span>
 
-2.  Digite **OcsUmUtil.exe** e pressione ENTER.
+1.  <span data-ttu-id="589be-123">Em um servidor front-end, abra um prompt de comando e digite **CD%\\COMMONPROGRAMFILES% Microsoft Lync\\Server 2013 support**e pressione Enter.</span><span class="sxs-lookup"><span data-stu-id="589be-123">On a Front End Server, open a command prompt and type **cd %CommonProgramFiles%\\Microsoft Lync Server 2013\\Support**, and then press ENTER.</span></span>
 
-3.  Clique em **Carregar Dados** para localizar todas as florestas confiáveis do Exchange.
+2.  <span data-ttu-id="589be-124">Digite **OcsUmUtil. exe**e pressione Enter.</span><span class="sxs-lookup"><span data-stu-id="589be-124">Type **OcsUmUtil.exe**, and then press ENTER.</span></span>
 
-4.  Na lista **Planos de Discagem SIP**, selecione o plano de discagem SIP do UM para o qual você deseja criar objetos de contato e clique em **Adicionar**.
+3.  <span data-ttu-id="589be-125">Clique em **carregar dados** para localizar todas as florestas do Exchange confiáveis.</span><span class="sxs-lookup"><span data-stu-id="589be-125">Click **Load Data** to find all trusted Exchange forests.</span></span>
 
-5.  Na caixa **Contato**, aceite a unidade organizacional padrão ou clique em **Procurar** para iniciar o **Seletor de UO**. Na caixa **Seletor de UO**, você pode selecionar uma UO e clicar em **OK**, ou pode clicar em **Criar Nova UO** para criar uma nova unidade organizacional na raiz ou em qualquer outra UO do domínio (por exemplo, "OU=RTC Special Accounts,DC=fourthcoffee,DC=com"); em seguida, clique em **OK**.
+4.  <span data-ttu-id="589be-126">Na lista **planos de discagem SIP** , selecione um plano de discagem do um SIP para o qual você deseja criar objetos de contato e clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="589be-126">In the **SIP Dial Plans** list, select a UM SIP dial plan for which you want to create contact objects, and then click **Add**.</span></span>
+
+5.  <span data-ttu-id="589be-127">Na caixa de **contato** , aceite a unidade organizacional padrão ou clique em **procurar** para iniciar o **seletor de ou**.</span><span class="sxs-lookup"><span data-stu-id="589be-127">In the **Contact** box, accept the default organizational unit, or click **Browse** to start the **OU Picker**.</span></span> <span data-ttu-id="589be-128">Na caixa **seletor de ou** , você pode selecionar uma UO e clicar em **OK**, ou pode clicar em **fazer nova UO** para criar uma nova unidade organizacional na raiz ou em qualquer outra UO do domínio (por exemplo, "ou = contas especiais do RTC, DC = fourthcoffee, DC = com") e, em seguida, clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-128">In the **OU Picker** box, you can select an OU and click **OK**, or you can click **Make New OU** to create a new organizational unit under the root or any other OU in the domain (for example, "OU=RTC Special Accounts,DC=fourthcoffee,DC=com"), and then click **OK**.</span></span>
     
-    > [!NOTE]  
-    > O nome diferenciado (DN) da UO selecionada ou criada será agora exibido na caixa <strong>Unidade Organizacional</strong>.
-
-6.  Na caixa **Nome**, aceite o nome padrão do plano de discagem ou digite um novo nome de exibição para o objeto de contato que você está criando.
+    <div>
     
-    > [!NOTE]  
-    > Por exemplo, se estiver criando um objeto de contato de acesso do assinante, bastará nomeá-lo como Acesso do Assinante.
 
-7.  Na caixa **Endereço SIP**, aceite o endereço SIP padrão ou digite um novo endereço SIP.
+    > [!NOTE]  
+    > <span data-ttu-id="589be-129">O nome diferenciado (DN) da OU que você selecionou ou criou agora é exibido na caixa <STRONG>unidade organizacional</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="589be-129">The distinguished name (DN) of the OU that you have selected or created is now displayed in the <STRONG>Organizational Unit</STRONG> box.</span></span>
+
     
-    > [!NOTE]  
-    > Se você digitar um novo endereço SIP, ele deve começar com <strong>SIP:</strong> (isto é, &quot;SIP:&quot; incluindo os dois pontos).
+    </div>
 
-8.  Na lista **Servidor ou Pool**, selecione o servidor do Standard Edition ou o Pool de Front-Ends no qual o objeto de contato será habilitado.
+6.  <span data-ttu-id="589be-130">Na caixa **nome** , aceite o nome do plano de discagem padrão ou digite um novo nome para exibição para o objeto de contato que você está criando.</span><span class="sxs-lookup"><span data-stu-id="589be-130">In the **Name** box, either accept the default dial plan name or type a new display name for the contact object that you are creating.</span></span>
     
-    > [!NOTE]  
-    > Preferencialmente, o pool selecionado é o mesmo em que os usuários habilitados para Enterprise Voice e UM do Exchange estão implantados.
-
-9.  Na lista **Número de Telefone**, selecione **Insira o número de telefone** ou **Usar este número piloto do UM do Exchange** e digite um número de telefone.
-
-10. Na lista **Tipo de Contato**, selecione o tipo de contato que deseja criar e clique em **OK**.
-
-11. Repita as etapas de 1 a 10 para outros objetos de contato que você deseje criar.
+    <div>
     
-    > [!NOTE]  
-    > Você deve criar pelo menos um contato para cada atendedor automático. Se desejar acesso externo, você também precisará de um contato Acesso do Assinante e terá que especificar números DID (discagem direta interna).
 
-Para verificar se os objetos de contato foram criados, abra Usuários e Computadores do Active Directory e selecione a UO na qual os objetos foram criados. Os objetos de contato devem aparecer no painel de detalhes.
+    > [!NOTE]  
+    > <span data-ttu-id="589be-131">Por exemplo, se você estiver criando um objeto de contato do acesso ao Assinante, você pode simplesmente nomeá-lo como assinante.</span><span class="sxs-lookup"><span data-stu-id="589be-131">For example, if you are creating a subscriber access contact object, you might simply name it Subscriber Access.</span></span>
+
+    
+    </div>
+
+7.  <span data-ttu-id="589be-132">Na caixa **endereço SIP** , aceite o endereço SIP padrão ou digite um novo endereço SIP.</span><span class="sxs-lookup"><span data-stu-id="589be-132">In the **SIP Address** box, either accept the default SIP address or type a new SIP address.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="589be-133">Se você digitar um novo endereço SIP, ele deve começar com <STRONG>SIP:</STRONG> (isto é, "SIP:" incluindo os dois-pontos).</span><span class="sxs-lookup"><span data-stu-id="589be-133">If you type a new SIP address, it must begin with <STRONG>SIP:</STRONG> (that is, "SIP:" including the colon).</span></span>
+
+    
+    </div>
+
+8.  <span data-ttu-id="589be-134">Na lista **servidor ou pool** , selecione o servidor Standard Edition ou o pool de front-end no qual o objeto de contato deve ser habilitado.</span><span class="sxs-lookup"><span data-stu-id="589be-134">In the **Server or Pool** list, select the Standard Edition server or Front End pool in which the contact object is to be enabled.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="589be-135">Preferencialmente, o pool selecionado é o mesmo pool em que os usuários habilitados para o Enterprise Voice e o Exchange UM são implantados.</span><span class="sxs-lookup"><span data-stu-id="589be-135">Preferably, the pool you select is the same one pool where users enabled for Enterprise Voice and Exchange UM are deployed.</span></span>
+
+    
+    </div>
+
+9.  <span data-ttu-id="589be-136">Na lista **número de telefone** , selecione **Inserir número de telefone** ou **Use este número piloto no Exchange um** e, em seguida, digite um número de telefone.</span><span class="sxs-lookup"><span data-stu-id="589be-136">In the **Phone Number** list, select either **Enter phone number** or **Use this pilot number from Exchange UM** and then enter a phone number.</span></span>
+
+10. <span data-ttu-id="589be-137">Na lista **tipo de contato** , selecione o tipo de contato que você deseja criar e, em seguida, clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="589be-137">In the **Contact Type** list, select the contact type that you want to create, and then click **OK**.</span></span>
+
+11. <span data-ttu-id="589be-138">Repita as etapas de 1 a 10 para objetos de contato adicionais que você deseja criar.</span><span class="sxs-lookup"><span data-stu-id="589be-138">Repeat steps 1 through 10 for additional contact objects that you want to create.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="589be-139">Você deve criar pelo menos um contato para cada atendedor automático.</span><span class="sxs-lookup"><span data-stu-id="589be-139">You should create at least one contact for each auto attendant.</span></span> <span data-ttu-id="589be-140">Se você quiser acesso externo, também precisará de um contato do acesso do assinante e especificar números do Direct Inward Dial (DID).</span><span class="sxs-lookup"><span data-stu-id="589be-140">If you want external access, you also need a Subscriber Access contact and to specify Direct Inward Dial (DID) numbers.</span></span>
+
+    
+    </div>
+
+</div>
+
+<span data-ttu-id="589be-141">Para verificar se os objetos de contato foram criados, abra usuários e computadores do Active Directory e selecione a OU em que os objetos foram criados.</span><span class="sxs-lookup"><span data-stu-id="589be-141">To verify that the contact objects have been created, open Active Directory Users and Computers and select the OU in which the objects were created.</span></span> <span data-ttu-id="589be-142">Os objetos de contato devem aparecer no painel de detalhes.</span><span class="sxs-lookup"><span data-stu-id="589be-142">The contact objects should appear in the details pane.</span></span>
+
+<span data-ttu-id="589be-143"></div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</span><span class="sxs-lookup"><span data-stu-id="589be-143"></span></span></div>
 
