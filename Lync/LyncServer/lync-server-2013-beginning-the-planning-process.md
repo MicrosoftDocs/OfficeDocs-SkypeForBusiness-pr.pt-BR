@@ -1,68 +1,121 @@
-﻿---
-title: 'Lync Server 2013: Iniciando o processo de planejamento'
-TOCTitle: Iniciando o processo de planejamento
-ms:assetid: df3722b3-f859-49e1-b3ff-ee6863483731
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398986(v=OCS.15)
-ms:contentKeyID: 49308340
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Iniciando o processo de planejamento'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Beginning the planning process
+ms:assetid: df3722b3-f859-49e1-b3ff-ee6863483731
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398986(v=OCS.15)
+ms:contentKeyID: 48185618
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 582769109a3792ddc2efdbef5d4a557b781c39b8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836743"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Iniciando o processo de planejamento para Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="beginning-the-planning-process-for-lync-server-2013"></a>Iniciando o processo de planejamento para Lync Server 2013
 
-Como o planejamento de uma implantação de comunicação unificada pode ser um pouco intimidador, o  Lync Server oferece duas ferramentas valiosas para ajudar você:
+</div>
 
-  - **O Ferramenta de Planejamento** é um assistente que apresenta uma série de perguntas sobre sua organização, os recursos do Lync Server que você deseja habilitar e suas necessidades de planejamento de capacidade. Cria uma topologia de implantação recomendada com base nas suas respostas e produz um diagrama do Microsoft Visio desta implantação.
+<div id="mainSection">
 
-  - **Construtor de Topologias** é um componente de instalação do Lync Server. É possível usar o Construtor de Topologias para criar, ajustar e publicar sua topologia planejada. Ele também valida sua topologia antes de começar as instalações do servidor. Quando você instala o Lync Server em servidores individuais, os servidores leem a topologia publicada como parte do processo de instalação e o programa de instalação implanta o servidor conforme direcionado na topologia.
+<div id="mainBody">
 
-## Ferramenta de planejamento do Lync Server
+<span> </span>
 
-O Ferramenta de Planejamento usa suas respostas para as perguntas na ferramenta e gera uma topologia baseada em diretrizes e melhores práticas do Lync Server. Também fornece diversas exibições de uma implantação com base em suas respostas. Ele mostra uma exibição global de todos os seus sites (ou seja, incluindo sites centrais e sites filiais) e as exibições detalhadas mostrando os servidores e outros componentes em cada site.
+_**Tópico da última modificação:** 2012-09-24_
 
-A execução do Ferramenta de Planejamento não o prende a nenhuma implantação específica ou inicia qualquer processo. Na verdade, a execução do Ferramenta de Planejamento mesmo antes de você ter um plano sólido em mente pode ser uma forma bastante instrutiva de entender os tipos de perguntas nas quais você precisa pensar em seu processo de planejamento.
+Ao planejar uma implantação de comunicação unificada local pode parecer intimidante, o Lync Server oferece duas ferramentas importantes para ajudá-lo a:
 
-É possível executar o Ferramenta de Planejamento diversas vezes, respondendo a perguntas de forma diferente, e comparar os resultados. Se você tiver um design com o qual esteja quase satisfeito, mas precisar fazer alterações, poderá retornar ao Ferramenta de Planejamento, carregar o design e fazer as alterações. Demora cerca de 15 minutos para completar o Ferramenta de Planejamento uma vez.
+  - **A ferramenta de planejamento** é um assistente que apresenta uma série de perguntas sobre sua organização, os recursos do Lync Server que você deseja habilitar e suas necessidades de planejamento de capacidade. Em seguida, ele cria uma topologia de implantação recomendada com base nas suas respostas e produz um diagrama do Microsoft Visio dessa implantação.
 
-Após estar satisfeito, é possível usar o Ferramenta de Planejamento para criar um diagrama da sua implantação planejada. É possível usar este diagrama enquanto cria a implantação no Construtor de Topologias.
+  - O **Construtor** de topologias é um componente de instalação do Lync Server. Você usa o construtor de topologias para criar, ajustar e publicar sua topologia planejada. Ele também valida sua topologia antes de começar as instalações do servidor. Quando você instala o Lync Server em servidores individuais, os servidores lêem a topologia publicada como parte do processo de instalação, e o programa de instalação implanta o servidor conforme direcionado na topologia.
+
+<div>
+
+## <a name="lync-server-planning-tool"></a>Ferramenta de planejamento do Lync Server
+
+A ferramenta de planejamento leva suas respostas às perguntas na ferramenta e gera uma topologia com base nas diretrizes do Lync Server e nas práticas recomendadas. Ele também fornece vários modos de exibição de uma implantação com base nas suas respostas. Ele mostra uma exibição global de todos os sites (ou seja, incluindo sites centrais e sites de filiais) e modos de exibição detalhados que mostram os servidores e outros componentes em cada site.
+
+Executar a ferramenta de planejamento não compromete você a realizar uma implantação específica nem iniciará processos. Na verdade, executar a ferramenta de planejamento mesmo antes de ter um plano de confirmação em mente pode ser uma maneira bastante orientada para compreender os tipos de perguntas que você precisa pensar no processo de planejamento.
+
+Você pode executar a ferramenta de planejamento várias vezes, responder a perguntas de maneira diferente e comparar os resultados. Se você tiver um design com o qual está mais satisfeito, mas precisar fazer alterações, poderá retornar à ferramenta de planejamento, carregar o design e fazer as alterações. É preciso cerca de 15 minutos para concluir a ferramenta de planejamento uma vez.
+
+Depois de estar satisfeito, você pode usar a ferramenta de planejamento para criar um diagrama de sua implantação planejada. Você pode usar esse diagrama ao criar a implantação no construtor de topologias.
+
+<div>
+
 
 > [!NOTE]  
-> A Ferramenta de Planejamento incluída com esta versão do Lync Server 2013 é uma versão de pré-lançamento. Observe que os números do planejamento de capacidade na Ferramenta de Planejamento são preliminares e não são suportados pela versão final.
+> A ferramenta de planejamento incluída nesta versão do Lync Server 2013 é uma versão de pré-lançamento. Observe que os números do planejamento de capacidade na Ferramenta de Planejamento são preliminares e não são aceitos na versão final.
 
-## Construtor de Topologia do Lync Server
 
-Ao decidir seu plano de implantação, você usa o Construtor de Topologias para começar a implantar. Ao finalizar, você usa o Construtor de Topologias para validar a topologia e, se aprovada, é possível publicá-la. Ao publicar a topologia, o Lync Server a coloca no Repositório de Gerenciamento Central, que é criado neste momento se já não existir. Ao instalar o Lync Server em cada servidor da sua implantação, o servidor lê a topologia do Repositório de Gerenciamento Central e instala sozinho para se encaixar em sua função na implantação.
 
-Como alternativa, se você estiver familiarizado com o Lync Server e precisar de menos orientação prescritiva, ignore o Ferramenta de Planejamento e use os assistentes no Construtor de Topologias para o design inicial de sua implantação e também para as etapas de validação e publicação.
+</div>
 
-O uso do Construtor de Topologias para planejar e publicar uma topologia é uma etapa necessária. Não é possível ignorar o Construtor de Topologias e instalar o Lync Server individualmente nos servidores em sua implantação. Cada servidor precisa ler a topologia a partir de uma topologia validada e publicada no Repositório de Gerenciamento Central.
+</div>
 
-## Processo de planejamento de alto nível
+<div>
 
-Recomendamos o seguinte processo geral para usar a documentação e o Ferramenta de Planejamentopara planejar sua implantação do Lync Server.
+## <a name="lync-server-topology-builder"></a>Construtor de topologias do Lync Server
 
-1.  Se você está familiarizado com as versões anteriores do Lync Server, leia o [Novos recursos no Lync Server 2013](lync-server-2013-new-features.md) para se familiarizar com os novos recursos e requisitos no Lync Server 2013.
+Depois de decidir em seu plano de implantação, você usará o construtor de topologias para começar a implantar. Ao terminar, você usa o construtor de topologias para validar a topologia e, em seguida, se ele passar, você poderá publicar a topologia. Quando você publica a topologia, o Lync Server coloca a topologia no repositório central de gerenciamento, que é criado no momento, caso ainda não exista. Quando você instala o Lync Server em cada servidor na sua implantação, o servidor lê a topologia do repositório de gerenciamento central e se instala para se encaixar em sua função na sua implantação.
 
-2.  Leia os outros tópicos nesta seção de documentação: [Conhecimentos básicos de topologia para planejamento do Lync Server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md), [Topologias de referência no Lync Server 2013](lync-server-2013-reference-topologies.md), [Decisões de planejamento inicial para Lync Server 2013](lync-server-2013-initial-planning-decisions.md) e [Clientes para Lync Server 2013](lync-server-2013-clients.md). Observe as decisões de planejamento representadas no [Topologias de referência no Lync Server 2013](lync-server-2013-reference-topologies.md).
+Como alternativa, se você estiver familiarizado com o Lync Server e precisar de menos orientação prescritiva, ignore a ferramenta de planejamento e use os assistentes no construtor de topologias para o design inicial da sua implantação e também para as etapas de validação e publicação.
 
-3.  Agora que você está mais familiarizado com os recursos do Lync Server e os tipos de perguntas que devem ser respondidas, execute o Ferramenta de Planejamento e veja a topologia resultante e seus detalhes. Certifique-se de que a topologia esteja adequada para os requisitos exclusivos da sua organização.
+Usar o construtor de topologias para planejar e publicar uma topologia é uma etapa obrigatória. Você não pode ignorar o construtor de topologias e instalar o Lync Server individualmente nos servidores da sua implantação. Cada servidor deve ler a topologia de uma topologia publicada validada no repositório de gerenciamento central.
 
-4.  Se houver cargas de trabalho ou recursos específicos nos quais você esteja interessado ou que precise saber, leia as seções apropriadas do [Planejamento para Lync Server 2013](lync-server-2013-planning.md).
+</div>
 
-5.  Execute o Ferramenta de Planejamento novamente. É possível iniciar com a implantação criada na etapa 3 e modificar os resultados ou começar desde o início.
+<div>
+
+## <a name="high-level-planning-process"></a>Processo de planejamento de alto nível
+
+Recomendamos o seguinte processo geral para usar a documentação e a ferramenta de planejamento para planejar a implantação do Lync Server.
+
+1.  Se você estiver familiarizado com versões anteriores do Lync Server, leia os [novos recursos do Lync server 2013](lync-server-2013-new-features.md) para se familiarizar com os novos recursos e requisitos do lync Server 2013.
+
+2.  Leia os outros tópicos desta seção da documentação: [noções básicas de topologia que você precisa saber antes de planejar o Lync server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md), topologias de [referência no Lync Server 2013](lync-server-2013-reference-topologies.md), [decisões iniciais de planejamento para o Lync Server 2013](lync-server-2013-initial-planning-decisions.md)e [ Clientes para Lync Server 2013](lync-server-2013-clients.md). Observe as decisões de planejamento representadas em [topologias de referência no Lync Server 2013](lync-server-2013-reference-topologies.md).
+
+3.  Agora que você está mais familiarizado com os recursos do Lync Server e os tipos de perguntas que devem ser respondidas, execute a ferramenta de planejamento e veja a topologia resultante e seus detalhes. Certifique-se de que a topologia atenda aos requisitos exclusivos da sua organização.
+
+4.  Se houver alguma carga de trabalho ou recurso em particular no qual você esteja interessado ou precisar de mais informações, leia as seções apropriadas de [planejamento para o Lync Server 2013](lync-server-2013-planning.md).
+
+5.  Execute a ferramenta de planejamento novamente. Você pode começar com a implantação criada na etapa 3 e modificar os resultados ou começar do início.
     
-    Se for necessário, execute o Ferramenta de Planejamento pela terceira vez e repita até que esteja satisfeito com o resultado.
+    Se necessário, execute a ferramenta de planejamento uma terceira vez e repita até que você esteja satisfeito com a saída.
 
-6.  Ao finalizar o plano de topologia, use o Ferramenta de Planejamento para criar e imprimir um diagrama do Visio da sua topologia. É possível usar este diagrama durante o trabalho com o Construtor de Topologias para inserir sua topologia.
+6.  Depois de finalizar o plano de topologia, use a ferramenta de planejamento para criar e imprimir um diagrama do Visio da sua topologia. Você pode usar esta cópia impressa enquanto trabalha com o construtor de topologias para inserir sua topologia.
 
-7.  Antes de começar a implantar, leia [Determinando seus requisitos de sistema para Lync Server 2013](lync-server-2013-determining-your-system-requirements.md) e [Determinando seus requisitos de infraestrutura para Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) para se familiarizar com os pré-requisitos e infraestrutura necessária para Lync Server. Além disso, certifique-se de que leu todas as seções do [Planejamento para Lync Server 2013](lync-server-2013-planning.md) que se aplicam às cargas de trabalho e aos recursos que você planeja implantar.
+7.  Antes de começar a implantação, leia [determinação dos requisitos do sistema do Lync server 2013](lync-server-2013-determining-your-system-requirements.md) e [determinação dos requisitos de infraestrutura do Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) para se familiarizar com os pré-requisitos e a infraestrutura necessária para o Lync Server. Além disso, certifique-se de ter lido todas as seções de [planejamento do Lync Server 2013](lync-server-2013-planning.md) que se aplicam às cargas de trabalho e aos recursos que você planeja implantar.
 
-## Migrando de versões anteriores
+</div>
 
-Se você estiver migrando para o Lync Server a partir de uma versão anterior, consulte a documentação [Migração](migration.md) para obter instruções específicas à sua migração e implantação.
+<div>
+
+## <a name="migrating-from-previous-versions"></a>Migrando de versões anteriores
+
+Se você estiver migrando para o Lync Server de uma versão anterior, consulte a documentação de [migração](migration.md) para obter instruções específicas para sua migração e implantação.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

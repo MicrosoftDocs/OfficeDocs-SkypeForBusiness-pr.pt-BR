@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Relatório de Resumo de Diagnóstico de Chamadas'
-TOCTitle: Relatório de Resumo de Diagnóstico de Chamadas
-ms:assetid: 9091de56-13e6-440e-9353-f57c10c906fe
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg615016(v=OCS.15)
-ms:contentKeyID: 49307466
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: relatório de Resumo de diagnóstico de chamadas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call Diagnostic Summary Report
+ms:assetid: 9091de56-13e6-440e-9353-f57c10c906fe
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615016(v=OCS.15)
+ms:contentKeyID: 48184789
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e747d257e7c88973790e8fd0c9ba828949248598
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836708"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Relatório de Resumo de Diagnóstico de Chamadas no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="call-diagnostic-summary-report-in-lync-server-2013"></a>Relatório de resumo do diagnóstico de chamadas no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-06-06_
 
 O Relatório de Resumo de Diagnóstico de Chamadas fornece uma visão geral de sessões peer-to-peer e de conferências que falharam. O relatório mostra a taxa de falha geral para os dois tipos de sessão, e detalha as informações de falha por tipo de modalidade de sessão:
 
@@ -27,9 +47,11 @@ O Relatório de Resumo de Diagnóstico de Chamadas fornece uma visão geral de s
 
   - Vídeo
 
-## Como acessar o Relatório de resumo de diagnóstico de chamadas
+<div>
 
-O Relatório de resumo de diagnóstico de chamadas é acessado a partir da página inicial dos Relatórios de Monitoramento. A partir do Relatório de resumo de diagnóstico de chamadas, você pode acessar o [Relatório de Diagnóstico de Atividade Ponto a Ponto no Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) clicando na métrica de taxa de falha sob a seção Resumo da Sessão Peer-to-Peer. Você pode também ascessar [Relatório de Diagnósticos da Conferência no Lync Server 2013](lync-server-2013-conference-diagnostic-report.md), clicando em qualquer das seguintes métricas da conferência:
+## <a name="accessing-the-call-diagnostic-summary-report"></a>Como acessar o Relatório de resumo de diagnóstico de chamadas
+
+O Relatório de resumo de diagnóstico de chamadas é acessado na página inicial dos Relatórios de Monitoramento. No relatório de resumo do diagnóstico de chamadas, você pode acessar o [relatório de diagnóstico de atividades ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) clicando na métrica de taxa de falha na seção Resumo de sessão ponto a ponto do relatório. Você também pode acessar o [relatório de diagnóstico de conferência no Lync Server 2013](lync-server-2013-conference-diagnostic-report.md) clicando em qualquer uma das seguintes métricas de conferência:
 
   - Taxa de falha de sessão geral
 
@@ -37,17 +59,25 @@ O Relatório de resumo de diagnóstico de chamadas é acessado a partir da pági
 
   - Taxa de falha de MCU
 
-## Como usar melhor o Relatório de resumo de diagnóstico de chamadas
+</div>
 
-O Relatório de resumo de diagnóstico de chamadas contém gráficos que comparam taxas de falha de várias modalidades usadas no Microsoft Lync Server 2013. As colunas nesses gráficos são na verdade hotlinks; por exemplo, se você clicar na coluna Mensagens Instantâneas para sessões peer-to-peer, você obterá os detalhes de uma instância do [Relatório de Diagnóstico de Atividade Ponto a Ponto no Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md), um relatório que fornece mais detalhes sobre todas as sessões de mensagens instantâneas inclusas no Relatório de resumo de diagnóstico de chamadas.
+<div>
 
-## Filtros
+## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Como usar melhor o Relatório de resumo de diagnóstico de chamadas
+
+O relatório de resumo do diagnóstico de chamadas inclui gráficos que comparam as tarifas de falha para as diversas modalidades usadas no Microsoft Lync Server 2013. As colunas nestes gráficos são na verdade hotlinks; por exemplo, se você clicar na coluna mensagens instantâneas para sessões ponto a ponto, fará Drill down até uma instância do [relatório de diagnóstico de atividade ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md), um relatório que fornece mais detalhes sobre todas as mensagens de chat sessões de mensagens incluídas no relatório de resumo do diagnóstico de chamadas.
+
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtros
 
 Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibir os dados retornados de diferentes formas. Por exemplo, o Relatório de Resumo de Diagnóstico de Chamadas permite filtrar por informações como pool do Registrador Avançado ou Servidor de Borda usado na sessão. Você também pode escolher como os dados serão agrupados. Neste caso, as chamadas são agrupadas por hora, dia, semana ou mês.
 
 A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resumo de Diagnóstico de Chamadas.
 
-### Filtros do Relatório de Resumo de Diagnóstico de Chamadas
+### <a name="call-diagnostic-summary-report-filters"></a>Filtros do Relatório de Resumo de Diagnóstico de Chamadas
 
 <table>
 <colgroup>
@@ -90,7 +120,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
 <li><p>Semanalmente (é possível exibir no máximo 12 semanas)</p></li>
 <li><p>Mensalmente (é possível exibir no máximo 12 meses)</p></li>
 </ul>
-<p>Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diariamente com data de início em 7/7/2012 e data de término de 2/28/2012, os dados serão exibidos do dia 8/7/2012, às 12:00 AM, até o dia 9/7/2012, às 12:00 AM (ou seja, um total de 31 dias de dados).</p></td>
+<p>Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo diário com uma data de início de 7/7/2012 e uma data de término de 2/28/2012, os dados serão exibidos para os dias 8/7/2012 12:00 AM a 9/7/2012 12:00 AM (ou seja, um total de 31 dias da importância dos dados).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Pool</strong></p></td>
@@ -100,11 +130,15 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
 </table>
 
 
-## Métricas para sessões ponto a ponto
+</div>
+
+<div>
+
+## <a name="metrics-for-peer-to-peer-sessions"></a>Métricas para sessões ponto a ponto
 
 A tabela a seguir lista as informações fornecidas no Relatório de Resumo de Diagnóstico de Chamadas para sessões ponto a ponto (ou seja, sessões envolvendo somente dois participantes).
 
-### Métricas para sessões ponto a ponto
+### <a name="metrics-for-peer-to-peer-sessions"></a>Métricas para sessões ponto a ponto
 
 <table>
 <colgroup>
@@ -134,11 +168,15 @@ A tabela a seguir lista as informações fornecidas no Relatório de Resumo de D
 </table>
 
 
-## Métricas para sessões de conferência
+</div>
+
+<div>
+
+## <a name="metrics-for-conferencing-sessions"></a>Métricas para sessões de conferência
 
 A tabela a seguir lista as informações fornecidas pelo Relatório de Diagnóstico de Chamadas para sessões de conferência (ou seja, sessões envolvendo três ou mais participantes).
 
-### Métricas para sessões de conferência
+### <a name="metrics-for-conferencing-sessions"></a>Métricas para sessões de conferência
 
 <table>
 <colgroup>
@@ -170,12 +208,12 @@ A tabela a seguir lista as informações fornecidas pelo Relatório de Diagnóst
 <td><p>Percentual de sessões de conferência totais que falharam.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Sessões de Foco</strong></p></td>
+<td><p><strong>Sessões de foco</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Número total de sessões de conferência baseadas em Foco que falharam.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Taxa de falha de Foco</strong></p></td>
+<td><p><strong>Taxa de falha de foco</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Percentual de sessões de conferência baseadas em Foco que falharam.</p></td>
 </tr>
@@ -191,4 +229,17 @@ A tabela a seguir lista as informações fornecidas pelo Relatório de Diagnóst
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

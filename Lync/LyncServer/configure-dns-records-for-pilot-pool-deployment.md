@@ -1,35 +1,65 @@
-﻿---
-title: Configurar registros de DNS para implantação de pool piloto
-TOCTitle: Configurar registros de DNS para implantação de pool piloto
-ms:assetid: eb421bad-4bf1-4837-a077-7795094692d9
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721921(v=OCS.15)
-ms:contentKeyID: 49886462
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configurar registros de DNS para implantação de pool piloto
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Configure DNS records for pilot pool deployment
+ms:assetid: eb421bad-4bf1-4837-a077-7795094692d9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721921(v=OCS.15)
+ms:contentKeyID: 49733855
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: afde57a9ed64dbff537395ccef908ae44b86177d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836080"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar registros de DNS para implantação de pool piloto
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-29_
+# <a name="configure-dns-records-for-pilot-pool-deployment"></a>Configurar registros de DNS para implantação de pool piloto
 
-Antes de implantar o pool piloto Lync Server 2013, você deve atualizar as entradas de DNS Host A do pool piloto. Para realizar este procedimento com sucesso, é necessário fazer login no servidor ou domínio como membro do grupo Admins. de Domínio ou do grupo DnsAdmins.
+</div>
 
-**Para configurar os registros de DNS Host A**
+<div id="mainSection">
 
-1.  No servidor de Sistema de Nomes de Domínio (DNS), clique em **Iniciar** , em **Ferramentas Administrativas** e depois em **DNS** .
+<div id="mainBody">
 
-2.  Na árvore do console do seu domínio, expanda **Zonas de Consulta Direta** e clique com o botão direito do mouse no domínio em que o Lync Server 2013 será instalado.
+<span> </span>
 
-3.  Clique em **Novo Host (A ou AAAA)** .
+_**Tópico da última modificação:** 2012-09-29_
 
-4.  Clique em **Nome** , digite o nome de host do pool Lync Server 2013 (o nome de domínio é presumido de acordo com a zona em que o registro está definido e não precisa ser informado como parte do registro A).
+Antes de implantar o pool piloto do Lync Server 2013, você deve atualizar as entradas do host DNS a para o pool piloto. Para concluir esse procedimento com êxito, você deve estar conectado ao servidor ou ao domínio como membro do grupo Domain admins ou de um membro do grupo DnsAdmins.
 
-5.  Clique em **Endereço IP** , digite o endereço IP do Pool de Front-Ends.
+**Para configurar registros do host DNS A**
 
-6.  Clique em **Adicionar Host** e, depois, em **OK** .
+1.  No servidor DNS (sistema de nomes de domínio), clique em **Iniciar**, clique em **Ferramentas administrativas**e clique em **DNS**.
 
-7.  Quando tiver terminado, clique em **Concluído** .
+2.  Na árvore de console do seu domínio, expanda **zonas de pesquisa direta**e clique com o botão direito do mouse no domínio no qual o Lync Server 2013 será instalado.
+
+3.  Clique em **novo host (A ou aaaa)**.
+
+4.  Clique em **nome**, digite o nome do host do pool do Lync Server 2013 (o nome do domínio é presumido na zona em que o registro é definido e não precisa ser inserido como parte do registro a).
+
+5.  Clique em **endereço IP**, digite o endereço IP do pool de front-ends.
+
+6.  Clique em **Adicionar host**e, em seguida, clique em **OK**.
+
+7.  Quando terminar, clique em **concluído**.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

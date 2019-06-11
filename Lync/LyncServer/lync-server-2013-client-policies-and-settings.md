@@ -1,33 +1,69 @@
-﻿---
-title: Políticas e configurações de cliente
-TOCTitle: Políticas e configurações de cliente
-ms:assetid: c3ee47c0-7e20-47ec-809a-f4502d939586
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412966(v=OCS.15)
-ms:contentKeyID: 49308030
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: políticas e configurações do cliente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Client policies and settings
+ms:assetid: c3ee47c0-7e20-47ec-809a-f4502d939586
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412966(v=OCS.15)
+ms:contentKeyID: 48185330
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2bbe37efc3c1c5ab430137d47dd8d08a91041010
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836549"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Políticas e configurações de cliente
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-06-18_
+# <a name="client-policies-and-settings-in-lync-server-2013"></a>Políticas e configurações do cliente no Lync Server 2013
 
-Este tópico oferece uma visão geral das configurações relacionadas ao cliente e políticas que você pode configurar no Lync Server 2013. O Lync Server 2013 inclui as seguintes ferramentas para gerenciar e configurar clientes:
+</div>
 
-  - **Painel de Controle do Lync Server 2013**   Uma interface do usuário gráfica baseada na Web para gerenciar e configurar servidores, usuários, clientes e dispositivos.
+<div id="mainSection">
 
-  - **Shell de Gerenciamento do Lync Server**   Uma interface de gerenciamento com um conjunto avançado de cmdlets da interface da linha de comando do Windows PowerShell e um número de scripts pré-definidos.
+<div id="mainBody">
 
-  - **Lync 2013 Política de Grupo**    Um conjunto de políticas que você pode configurar para clientes usando o Modelo Administrativo da Política de Grupo do Office. Determinadas políticas de bootstrapping do cliente devem ser configuradas antes de implantar clientes do Lync 2013. Outras configurações opcionais do Lync 2010 continuam a funcionar no Lync 2013.
+<span> </span>
+
+_**Tópico da última modificação:** 2012-06-18_
+
+Este tópico fornece uma visão geral das configurações e políticas relacionadas ao cliente que você pode configurar no Lync Server 2013. O Lync Server 2013 inclui as seguintes ferramentas para gerenciar e configurar clientes:
+
+  - **Painel de controle do Lync Server 2013**   uma interface de usuário gráfica baseada na Web para gerenciar e configurar servidores, usuários, clientes e dispositivos.
+
+  - **Shell de gerenciamento do Lync Server**   uma interface de gerenciamento com um conjunto rico de cmdlets da interface de linha de comando do Windows PowerShell e vários scripts predefinidos.
+
+  - **Política de grupo do Lync 2013**     um conjunto de políticas que você pode configurar para clientes usando o modelo administrativo de política de grupo do Office. Algumas políticas de inicialização de cliente devem ser configuradas antes da implantação de clientes do Lync 2013. Outras configurações opcionais do Lync 2010 continuam a ser respeitadas no Lync 2013.
 
 Esta seção descreve as alterações nas configurações relacionadas ao cliente no Lync Server 2013.
 
-## Nesta seção
+<div>
 
-   [Configurações Novas e Modificadas para Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md)
+## <a name="in-this-section"></a>Nesta seção
 
-   [Configurações da política de grupo para o Lync 2013](lync-server-2013-group-policy-settings-for-lync-2013.md)
+  - <span></span>  
+    [Configurações novas e alteradas para o Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md)
+
+  - <span></span>  
+    [Configurações da política de grupo para o Lync 2013](lync-server-2013-group-policy-settings-for-lync-2013.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

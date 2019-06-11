@@ -1,23 +1,45 @@
-﻿---
-title: Alterações feitas pela preparação de domínio no Lync Server 2013
-TOCTitle: Alterações feitas pela preparação de domínio no Lync Server 2013
-ms:assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398742(v=OCS.15)
-ms:contentKeyID: 49307455
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: alterações feitas pela preparação do domínio'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Changes made by domain preparation
+ms:assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398742(v=OCS.15)
+ms:contentKeyID: 48184845
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3b674e2c3d65aeda22838dca08ac5b016fa83359
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836611"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Alterações feitas pela preparação de domínio no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="changes-made-by-domain-preparation-in-lync-server-2013"></a>Alterações feitas por preparação do domínio no Lync Server 2013
 
-A tabela a seguir lista as ACEs (entradas de controle de acesso) que a preparação de domínio cria na raiz do domínio. Todas as ACEs serão herdadas, salvo indicação em contrário.
+</div>
 
-### ACEs adicionadas à raiz do domínio
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2010-10-18_
+
+A tabela a seguir lista as entradas de controle de acesso (ACEs) que a preparação do domínio cria na raiz do domínio. Todas as ACEs são herdadas, a menos que indicado de outra forma.
+
+<div id="sectionSection0" class="section">
+
+### <a name="aces-added-to-domain-root"></a>ACEs adicionadas à raiz do domínio
 
 <table style="width:100%;">
 <colgroup>
@@ -31,16 +53,16 @@ A tabela a seguir lista as ACEs (entradas de controle de acesso) que a preparaç
 <thead>
 <tr class="header">
 <th>ACE</th>
-<th>RTCUniversal-UserReadOnly-Group</th>
+<th>RTCUniversal-userreadonly-Group</th>
 <th>RTCUniversal-ServerReadOnly-Group</th>
-<th>RTCUniversal-UserAdmins</th>
-<th>RTCHSUniversal-Services</th>
+<th>RTCUniversal-administradores do useradmin</th>
+<th>RTCHSUniversal-serviços</th>
 <th>Usuários autenticados</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Ler contêiner (não herdado)</p></td>
+<td><p>Contêiner de leitura (não herdado)</p></td>
 <td><p><strong>Sim</strong></p></td>
 <td><p><strong>Sim</strong></p></td>
 <td><p>Não</p></td>
@@ -48,7 +70,7 @@ A tabela a seguir lista as ACEs (entradas de controle de acesso) que a preparaç
 <td><p>Não</p></td>
 </tr>
 <tr class="even">
-<td><p>Ler User PropertySet User-Account-Restrictions</p></td>
+<td><p>Ler propriedades do usuário-User-Restriction-restrições de conta</p></td>
 <td><p><strong>Sim</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
@@ -56,7 +78,7 @@ A tabela a seguir lista as ACEs (entradas de controle de acesso) que a preparaç
 <td><p>Não</p></td>
 </tr>
 <tr class="odd">
-<td><p>Ler User PropertySet Personal-Information</p></td>
+<td><p>Ler propriedades do usuário pessoal-informações</p></td>
 <td><p><strong>Sim</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
@@ -64,7 +86,7 @@ A tabela a seguir lista as ACEs (entradas de controle de acesso) que a preparaç
 <td><p>Não</p></td>
 </tr>
 <tr class="even">
-<td><p>Ler User PropertySet General-Information</p></td>
+<td><p>Ler propriedades do usuário – informações gerais-informações</p></td>
 <td><p><strong>Sim</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
@@ -72,7 +94,7 @@ A tabela a seguir lista as ACEs (entradas de controle de acesso) que a preparaç
 <td><p>Não</p></td>
 </tr>
 <tr class="odd">
-<td><p>Ler User PropertySet Public-Information</p></td>
+<td><p>Ler as informações públicas de propriedades do usuário</p></td>
 <td><p><strong>Sim</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
@@ -80,7 +102,7 @@ A tabela a seguir lista as ACEs (entradas de controle de acesso) que a preparaç
 <td><p>Não</p></td>
 </tr>
 <tr class="even">
-<td><p>Ler User PropertySet RTCUserSearchProperty-Set</p></td>
+<td><p>Ler conjunto de RTCUserSearchProperty de propriedades do usuário</p></td>
 <td><p><strong>Sim</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
@@ -88,7 +110,7 @@ A tabela a seguir lista as ACEs (entradas de controle de acesso) que a preparaç
 <td><p><strong>Sim</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ler User PropertySet RTCPropertySet</p></td>
+<td><p>Ler RTCPropertySet de propriedades do usuário</p></td>
 <td><p><strong>Sim</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
@@ -96,7 +118,7 @@ A tabela a seguir lista as ACEs (entradas de controle de acesso) que a preparaç
 <td><p>Não</p></td>
 </tr>
 <tr class="even">
-<td><p>Gravar User Property Proxy-Addresses</p></td>
+<td><p>Gravar endereços de proxy de propriedade de usuário</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
 <td><p><strong>Sim</strong></p></td>
@@ -104,7 +126,7 @@ A tabela a seguir lista as ACEs (entradas de controle de acesso) que a preparaç
 <td><p>Não</p></td>
 </tr>
 <tr class="odd">
-<td><p>Gravar User PropertySet RTCUserSearchProperty-Set</p></td>
+<td><p>Gravar RTCUserSearchProperty de propriedades do usuário-definir</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
 <td><p><strong>Sim</strong></p></td>
@@ -112,7 +134,7 @@ A tabela a seguir lista as ACEs (entradas de controle de acesso) que a preparaç
 <td><p>Não</p></td>
 </tr>
 <tr class="even">
-<td><p>Gravar User PropertySet RTCPropertySet</p></td>
+<td><p>Gravar usuário do RTCPropertySet de propriedades</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
 <td><p><strong>Sim</strong></p></td>
@@ -131,9 +153,9 @@ A tabela a seguir lista as ACEs (entradas de controle de acesso) que a preparaç
 </table>
 
 
-A tabela a seguir lista as ACEs que a preparação do domínio cria nos três contêineres internos: Usuários, Computadores e Controladores de Domínio. Todas as ACEs são herdadas, a menos que especificado de outra forma.
+A tabela a seguir lista as ACEs que a preparação do domínio cria nos três contêineres internos: usuários, computadores e controladores de domínio. Todas as ACEs são herdadas, a menos que indicado de outra forma.
 
-### ACEs adicionadas à contêineres internos
+### <a name="aces-added-to-built-in-containers"></a>ACEs adicionadas a contêineres internos
 
 <table>
 <colgroup>
@@ -144,16 +166,29 @@ A tabela a seguir lista as ACEs que a preparação do domínio cria nos três co
 <thead>
 <tr class="header">
 <th>ACE</th>
-<th>RTCUniversal-UserReadOnly-Group</th>
+<th>RTCUniversal-userreadonly-Group</th>
 <th>RTCUniversal-ServerReadOnly-Group</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Ler contêiner (não herdado)</p></td>
+<td><p>Contêiner de leitura (não herdado)</p></td>
 <td><p><strong>Sim</strong></p></td>
 <td><p><strong>Sim</strong></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

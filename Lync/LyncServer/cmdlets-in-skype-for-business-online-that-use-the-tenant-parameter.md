@@ -1,63 +1,69 @@
-﻿---
-title: Cmdlets que usam o parâmetro Tenant
-TOCTitle: Cmdlets que usam o parâmetro Tenant
-ms:assetid: e7fe7c12-fbe0-49c1-9e8c-eef6958f27d0
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn362850(v=OCS.15)
-ms:contentKeyID: 56270482
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Cmdlets que usam o parâmetro Tenant
+title: Cmdlets no Skype for Business online que usam o parâmetro locatário
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use the Tenant parameter
+ms:assetid: e7fe7c12-fbe0-49c1-9e8c-eef6958f27d0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362850(v=OCS.15)
+ms:contentKeyID: 56558865
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: aa3b09e6f419c7425332427ccf4a4ff664b9e395
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836089"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>Cmdlets no Skype for Business online que usam o parâmetro locatário
 
  
 
-_**Tópico modificado em:** 2015-06-22_
 
-Ao modificar suas definições do provedor público, você sempre precisará fornecer uma identidade Tenant; isto ocorrerá mesmo que você tenha apenas um único locatário. Por exemplo, este comando define Windows Live como o único provedor púlico com o qual seus usuários têm permissão de se comunicar
+Ao modificar suas configurações de provedor público, você sempre precisa fornecer uma identidade de locatário; Isso é verdadeiro mesmo se você tiver apenas um único locatário. Por exemplo, este comando define o Windows Live como o único provedor público com o qual os usuários podem se comunicar:
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-Felizmente, você não precisa digitar o ID do locatário (por exemplo, bf19b7db-6960-41e5-a139-2aa373474354) sempre que executa esses cmdlets. Ao contrário, poderá recuperar o ID executando o cmdlet [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant), armazenando o ID do locatário em uma variável, então, usando essa variável quando chamar um dos outros cmdlets. Por exemplo:
+Felizmente, você não precisa digitar a ID do locatário (por exemplo, bf19b7db-6960-41e5-a139-2aa373474354) toda vez que executar um destes cmdlets. Em vez disso, você pode recuperar a ID do locatário executando o cmdlet [Get-CsTenant](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\)) , armazenando a ID do locatário em uma variável e, em seguida, usando essa variável quando você chama um dos outros cmdlets. Por exemplo:
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
 
-Como alternativa, você pode fazer isto em um único comando recuperando o ID do locatário,então, canalizando esse valor para o cmdlet Set-CsTenantPublicProvider:
+Você também pode fazer isso em um único comando ao recuperar a ID do locatário e, em seguida, canalizar esse valor para o cmdlet Set-CsTenantPublicProvider:
 
     Get-CsTenant | Select-Object TenantId | ForEach-Object {Set-CsTenantPublicProvider -Tenant $_.TenantId -Provider "WindowsLive"}
 
-Você não precisa especificar o ID do locatário ao chamar o cmdlet **Get-CsTenant**. Esse comando retorna informações sobre seu locatário:
+Você não precisa especificar a ID do locatário ao chamar o cmdlet **Get-CsTenant** . Esse comando retorna informações sobre o seu locatário:
 
     Get-CsTenant
 
-Os seguintes cmdlets aceitam a identidade de um locatário. Contudo, nestes casos, o parâmetro é opcional e não precisa ser digitado ao chamar o cmdlet. Ao contrário, Windows PowerShell digitará defetivamente a identidade do locatário para você com base no locatário Skype for Business Online ao qual você está conectado atualmente:
+Os cmdlets a seguir aceitam uma identidade de locatário. No entanto, nesses casos, o parâmetro é opcional e não precisa ser inserido ao chamar o cmdlet. Em vez disso, o Windows PowerShell inserirá efetivamente a identidade do locatário para você com base no locatário do Skype for Business online ao qual você está conectado:
 
-  - [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant)
+  - [Get-CsTenant](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\))
 
-  - [Set-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantFederationConfiguration)
+  - [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080\(v=ocs.15\))
 
-  - [Set-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTenantHybridConfiguration)
+  - [Set-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994046\(v=ocs.15\))
 
-  - [Get-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantFederationConfiguration)
+  - [Get-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994072\(v=ocs.15\))
 
-  - [Get-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantHybridConfiguration)
+  - [Get-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994034\(v=ocs.15\))
 
-  - [Get-CsTenantLicensingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantLicensingConfiguration)
+  - [Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/en-us/library/dn362770\(v=ocs.15\))
 
 Por exemplo, o cmdlet **Get-CsTenantFederationConfiguration** pode ser chamado usando este comando:
 
     Get-CsTenantFederationConfiguration
 
-Embora não seja requerido, você pode incluir o parâmetro Tenant ao chamar Get-CsTenantFederationConfiguration :
+Embora não seja necessário, você pode incluir o parâmetro locatário ao chamar Get-CsTenantFederationConfiguration:
 
     Get-CsTenantFederationConfiguration -Tenant "bf19b7db-6960-41e5-a139-2aa373474354"
 
-## Consulte Também
+## <a name="see-also"></a>Confira também
 
-#### Conceitos
 
-[Identidades, escopos e locatários](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Os cmdlets do Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[Identidades, escopos e locatários no Skype for Business Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Os cmdlets do Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
 

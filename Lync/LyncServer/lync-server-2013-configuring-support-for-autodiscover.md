@@ -1,39 +1,77 @@
-﻿---
-title: Configurando o suporte para a descoberta automática
-TOCTitle: Configurando o suporte para a descoberta automática
-ms:assetid: 3a266456-69a0-4539-ba99-d388b83799a8
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ945622(v=OCS.15)
-ms:contentKeyID: 52057581
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando o suporte para descoberta automática'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring support for Autodiscover
+ms:assetid: 3a266456-69a0-4539-ba99-d388b83799a8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945622(v=OCS.15)
+ms:contentKeyID: 51541463
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8eb83156d319db96a4c6ed79768193a24e5cc3e0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836178"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando o suporte para a descoberta automática
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="configuring-support-for-autodiscover-in-lync-server-2013"></a>Configurando o suporte para descoberta automática no Lync Server 2013
 
-Os serviços da Web do Lync Server do **serviço de Descoberta Automática** apareceu pela primeira vez na Lync Server 2010 Atualização cumulativa: Novembro de 2011. Essa atualização estava acompanhada pela versão inicial dos clientes Lync Mobile. O serviço de descoberta automática expõe os serviços de mobilidade, conhecido como serviço Mcx.
+</div>
 
-O serviço de descoberta automática age como um local único para todos os clientes solicitarem informações sobre quais serviços e recursos estão disponíveis e como contatar os serviços, seja por um nome de domínio totalmente qualificado ou por referência do localizador de recurso uniforme da Web. A descoberta automática apresenta vários recursos, e cada cliente poderá fazer solicitações com base no recurso que ele pode usar. Por exemplo, um cliente Lync 2013 de área de trabalho usará a descoberta automática para determinar os serviços Web externos, mas não usará os serviços de mobilidade (Mcx). Para definir de forma adequada e permitir que os clientes usem os recursos disponíveis a eles, os cenários que permitem que um cliente encontre e use efetivamente as entradas da descoberta automática devem ser definidos. Para usar a descoberta automática, a implantação precisa que um proxy reverso publique os serviços Web do Lync Server, que os registros do DNS estejam configurados para resolver consultas de DNS para o serviço de descoberta automática do Lync Server e serviços Web do Lync Server, e que os serviços de certificado estejam configurados adequadamente para o cenário específico.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-01-21_
+
+O **serviço de descoberta automática** de serviços Web do Lync Server apareceu pela primeira vez na atualização cumulativa do lync Server 2010: de novembro de 2011. Esta atualização foi acompanhada pela versão inicial dos clientes móveis do Lync. O serviço de descoberta automática expôs os serviços de mobilidade, conhecidos como o serviço MCX.
+
+O serviço de descoberta automática age como um local único para que todos os clientes solicitem informações sobre quais serviços e recursos estão disponíveis, e como entrar em contato com o sevices – seja por um nome de domínio totalmente qualificado ou uma referência do localizador de recursos uniforme da Web. A descoberta automática expõe diversos recursos, e cada cliente fará solicitações com base nos recursos que o cliente pode usar. Por exemplo, um cliente do Lync da área de trabalho do 2013 usará o autodiscvoer para determinar os serviços Web externos, mas não usará os serviços de mobilidade (MCX). Para definir e habilitar corretamente seus clientes para usar os recursos disponíveis para eles, os cenários que permitem que um cliente encontre e use entradas de descoberta automática devem ser definidos. Para usar o autodoscover, sua implantação requer que um proxy reverso publique os serviços Web do Lync Server, que os registros DNS são configurados para resolver consultas DNS para o serviço de descoberta automática do Lync e para serviços Web do Lync Server e para os serviços de certificado estão configurados corretamente para o seu cenário específico.
+
+<div>
 
 
 > [!TIP]  
-> Para detalhes técnicos sobre quais elementos na solicitação de descoberta automática/resposta usar, consulte <A href="lync-server-2013-understanding-autodiscover.md">Noções básicas sobre a descoberta automática no Lync Server 2013</A>.
+> Para obter detalhes técnicos sobre o que os elementos da solicitação/resposta do autodiscover fazem, consulte Compreendendo a <A href="lync-server-2013-understanding-autodiscover.md">descoberta automática no Lync Server 2013</A>.
 
 
 
-A informação a seguir e tabela definem, por cenário, quais configurações (se alguma) você precisa implementar para fornecer um uso efetivo e completo do serviço de descoberta automática. A informação nos tópicos a seguir é específica para o Microsoft Lync Server 2013. Se você estiver procurando orientação sobre como planejar Mobilidade para Lync Server 2010, consulte <http://go.microsoft.com/fwlink/?linkid=275113>. Para implantar o serviço de Mobilidade para Lync Server 2010, consulte <http://go.microsoft.com/fwlink/?linkid=275114>
+</div>
 
-## Nesta seção
+As seguintes informações e tabelas definem, por cenário, quais configurações (se houver) que você precisa implementar para fornecer o uso completo e efetivo do serviço de descoberta automática. As informações nos tópicos a seguir são específicas do Microsoft Lync Server 2013. Se você estiver procurando orientação sobre como planejar a mobilidade do Lync Server 2010, consulte [http://go.microsoft.com/fwlink/?LinkId=275113](http://go.microsoft.com/fwlink/?linkid=275113). Para implantar o Mobility para o Lync Server 2010, consulte[http://go.microsoft.com/fwlink/?LinkId=275114](http://go.microsoft.com/fwlink/?linkid=275114)
 
-  - [Configurando o DNS para a descoberta automática](lync-server-2013-configuring-dns-for-autodiscover.md)
+<div>
 
-  - [Configurando certificados para a descoberta automática](lync-server-2013-configuring-certificates-for-autodiscover.md)
+## <a name="in-this-section"></a>Nesta seção
 
-  - [Configurando um proxy reverso para a descoberta automática](lync-server-2013-configuring-a-reverse-proxy-for-autodiscover.md)
+  - [Configurando o DNS para descoberta automática no Lync Server 2013](lync-server-2013-configuring-dns-for-autodiscover.md)
 
-  - [Configurando a descoberta automática para implantações híbridas](lync-server-2013-configuring-autodiscover-for-hybrid-deployments.md)
+  - [Configurando certificados para descoberta automática no Lync Server 2013](lync-server-2013-configuring-certificates-for-autodiscover.md)
+
+  - [Configurando um proxy inverso para descoberta automática no Lync Server 2013](lync-server-2013-configuring-a-reverse-proxy-for-autodiscover.md)
+
+  - [Configurando a descoberta automática no Lync Server 2013 para implantações híbridas](lync-server-2013-configuring-autodiscover-for-hybrid-deployments.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

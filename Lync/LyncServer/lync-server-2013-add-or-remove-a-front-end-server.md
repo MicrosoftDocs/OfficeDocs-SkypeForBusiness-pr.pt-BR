@@ -1,39 +1,83 @@
-﻿---
-title: Adicionar ou Remover um Servidor Front-End no Lync Server 2013
-TOCTitle: Adicionar ou Remover um Servidor Front-End no Lync Server 2013
-ms:assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205153(v=OCS.15)
-ms:contentKeyID: 49307779
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Adicionar ou remover um servidor front-end'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Add or remove a Front End Server
+ms:assetid: ab748733-6bad-4c93-8dda-db8d5271653d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205153(v=OCS.15)
+ms:contentKeyID: 48185050
+ms.date: 01/21/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b1fe1e81d3983b89d4f68111179c3adc7409bee2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836943"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Adicionar ou Remover um Servidor Front-End no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-01-21_
+# <a name="add-or-remove-a-front-end-server-in-lync-server-2013"></a>Add or remove a Front End Server in Lync Server 2013
 
-Ao adicionar um servidor de Front End a um pool, ou remover um servidor de Front End de um pool, você precisará reiniciar o pool. Para evitar interrupção do serviço aos usuários, siga o procedimento a seguir ao remover ou adicionar um servidor de Front End.
+</div>
 
-## Para adicionar ou remover servidores Front-End
+<div id="mainSection">
 
-1.  Se estiver removendo servidores de Front End, primeiro interrompa novas conexões a esses servidores. Para fazer isso, é possível usar o seguinte cmdlet:
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2016-01-21_
+
+Ao adicionar um servidor front-end a um pool ou remover um servidor front-end de um pool, você precisará reiniciar o pool. Para evitar qualquer interrupção do serviço para os usuários, use o procedimento a seguir ao adicionar ou remover um servidor front-end.
+
+<div>
+
+
+> [!NOTE]  
+> Se estiver adicionando novos servidores ao pool, atualize os novos servidores do pool no mesmo nível de Atualização Cumulativa dos servidores existentes no Pool.
+
+
+
+</div>
+
+<div>
+
+## <a name="to-add-or-remove-front-end-servers"></a>Para adicionar ou remover servidores de front-end
+
+1.  Se você estiver removendo qualquer servidor front-end, primeiro interrompa novas conexões para esses servidores. Para fazer isso, é possível usar o seguinte cmdlet:
     
-        Stop -CsWindowsServices -Graceful
+        Stop-CsWindowsServices -Graceful
 
-2.  Quando os servidores sendo removidos não têm sessões atuais, interrompa os serviços do Lync Server neles.
+2.  Quando os servidores que estão sendo removidos não tiverem sessões atuais, interrompa os serviços do Lync Server.
 
-3.  Abra o Construtor de Topologias, e adiciona ou remova os servidores necessários.
+3.  Abra o construtor de topologias e adicione ou remova os servidores necessários.
 
 4.  Publique a topologia.
 
-5.  Se o pool tiver ido de dois Servidores Front-End para mais que dois, ou de mais de dois servidores para exatamente dois, será necessário digitar o seguinte cmdlet:
+5.  Se o pool deixou de ter dois servidores front-end para mais de dois ou sair de mais de dois servidores para exatamente dois, você precisará digitar o seguinte cmdlet:
     
         Reset-CsPoolRegistrarState-ResetType FullReset -PoolFqdn <PoolFqdn>
     
-    Se o pool tinha três ou mais servidores, então pelo menos três desses servidores deve ser executado ao digitar esse cmdlet.
+    Se o pool tiver três ou mais servidores, pelo menos três desses servidores deverão estar em execução quando você digitar esse cmdlet.
 
-6.  Reinicie todos os Servidores Front-End no pool, um de cada vez.
+6.  Reinicie todos os servidores front-end do pool, um de cada vez.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

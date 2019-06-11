@@ -1,21 +1,51 @@
-﻿---
-title: Associar subredes com locais de rede para o CAC no Lync Server 2013
-TOCTitle: Associar subredes com locais de rede para o CAC no Lync Server 2013
-ms:assetid: a749c9b3-15f3-4e74-9f43-1507d3c2c940
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412786(v=OCS.15)
-ms:contentKeyID: 49307719
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: associar sub-redes a sites de rede para o CAC'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Associate subnets with network sites for CAC
+ms:assetid: a749c9b3-15f3-4e74-9f43-1507d3c2c940
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412786(v=OCS.15)
+ms:contentKeyID: 48185017
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9c00205e8aa070eacb7b5d99ec724ad8b67fa2ae
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836913"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Associar subredes com locais de rede para o CAC no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-20_
+# <a name="associate-subnets-with-network-sites-for-cac-in-lync-server-2013"></a>Associar sub-redes a sites de rede de CAC no Lync Server 2013
 
-Todas as sub-redes em sua rede devem ser associadas a um site de rede específico. A razão para isso é que as informações de sub-rede são usadas para determinar o site de rede em que um ponto de extremidade está localizado. Quando os locais de ambas as partes de uma sessão são conhecidos, o controle de admissão de chamadas (CAC) pode determinar se há largura de banda suficiente para estabelecer uma chamada.
+</div>
 
-O controle de admissão de chamadas não possui requisitos especiais para associar sub-redes a sites de rede. Para criar uma associação entre as sub-redes e sites de rede em sua topologia, siga os procedimentos em [Associar uma subrede a um site de rede no Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md). Para exibir os sites de rede (e suas respectivas sub-redes) na topologia de rede de exemplo para o controle de admissão de chamadas, consulte [Exemplo: Coletando seus requisitos para controle de admissão de chamada no Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) na documentação de Planejamento.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-20_
+
+Todas as sub-redes na rede devem estar associadas a um site de rede específico. Isso ocorre porque as informações de sub-rede são usadas para determinar o site de rede no qual se encontra um ponto de extremidade. Quando os locais de ambas as partes de uma sessão são conhecidos, o controle de admissão de chamadas (CAC) pode determinar se há largura de banda suficiente para estabelecer uma chamada.
+
+O controle de admissão de chamadas não tem nenhum requisito especial para associar sub-redes a sites de rede. Para criar uma associação entre as sub-redes e os sites de rede em sua topologia, siga os procedimentos em [associar uma sub-rede a um site de rede no Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md). Para exibir os sites de rede (e suas respectivas sub-redes) na topologia de rede de exemplo para o controle de admissão de chamadas, consulte [exemplo: reunir seus requisitos de controle de admissão de chamadas no Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) na documentação de planejamento.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

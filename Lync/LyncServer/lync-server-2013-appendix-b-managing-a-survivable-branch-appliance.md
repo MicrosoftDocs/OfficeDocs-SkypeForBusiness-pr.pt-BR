@@ -1,93 +1,135 @@
-﻿---
-title: 'Lync Server 2013: Anexo B: Gerenciando um Aplicativo de Filial Persistente'
-TOCTitle: 'Anexo B: Gerenciando um Aplicativo de Filial Persistente'
-ms:assetid: 2ec9d505-6d39-491c-9524-8cf36866b855
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425797(v=OCS.15)
-ms:contentKeyID: 49306265
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Anexo B: Gerenciando um Aplicativo de Filial Persistente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: 'Appendix B: Managing a Survivable Branch Appliance'
+ms:assetid: 2ec9d505-6d39-491c-9524-8cf36866b855
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425797(v=OCS.15)
+ms:contentKeyID: 48183773
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e267f81327e9d1f49b81ab0d999c37c02da55b31
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34837033"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Anexo B: Gerenciando um Aplicativo de Filial Persistente no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-18_
+# <a name="appendix-b-managing-a-survivable-branch-appliance-in-lync-server-2013"></a>Anexo B: Gerenciando um Aplicativo de Filial Persistente no Lync Server 2013
 
-Este tópico inclui procedimentos sobre o gerenciamento do Aparelho de Filial Persistente. Especificamente, como substituir e renomear um Aparelho de Filial Persistente e como alterar o pool de Front-End do Lync Server 2013 que o Aparelho de Filial Persistente está associado.
+</div>
 
-## Para substituir um aplicativo de filial persistente
+<div id="mainSection">
 
-1.  Pare todos os serviços do Lync Server 2013 no Aparelho de Filial Persistente. (Consulte a documentação do fornecedor do Aparelho de Filial Persistente.)
+<div id="mainBody">
 
-2.  (Recomendado) Remova o Aparelho de Filial Persistente do domínio.
+<span> </span>
 
-3.  Exclua o objeto de computador do Aparelho de Filial Persistente no Serviços de Domínio Active Directory, executando estas etapas:
+_**Tópico da última modificação:** 2012-10-18_
+
+Este tópico descreve os procedimentos para gerenciar um aparelho de ramificação sobreviventes. Especificamente, como substituir e renomear um aparelho de ramificação sobreviventes e como alterar o pool de front-ends do Lync Server 2013 ao qual o aparelho de ramificação sobreviventes está associado.
+
+<div>
+
+## <a name="to-replace-a-survivable-branch-appliance"></a>Para substituir um aparelho de ramificação sobreviventes
+
+1.  Pare todos os serviços do Lync Server 2013 no aparelho de ramificação sobreviventes. (Consulte a documentação do fornecedor da solução ramificada da ramificação.)
+
+2.  Usar Remova o aparelho de ramificação sobreviventes do domínio.
+
+3.  Exclua o objeto de computador de aparelho de ramificação sobreviventes nos serviços de domínio Active Directory, seguindo estas etapas:
     
-      - Faça logon em um servidor membro como um membro do grupo Administração de Empresa.
+      - Faça logon em um servidor membro como membro do grupo Administradores da empresa.
     
-      - Clique em **Iniciar** , depois em **Ferramentas Administrativas** e, em seguida, clique em **Usuários e Computadores do Active Directory** .
+      - Clique em **Iniciar**, em **Ferramentas administrativas**e em **usuários e computadores do Active Directory**.
     
-      - Clique com o botão direito do mouse no objeto Aparelho de Filial Persistente e clique em **Excluir** .
+      - Clique com o botão direito do mouse no objeto de aparelho de ramificação sobreviventes e clique em **excluir**.
 
-4.  Adicione o objeto de computador Aparelho de Filial Persistente novamente. (Consulte [Adicionar um Aplicativo de Filial Persistente ao Active Directory no Lync Server 2013](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md).)
+4.  Adicione o objeto de computador de aparelho de ramificação sobreviventes novamente. (Consulte [Adicionar um aparelho de ramificação sobreviventes ao Active Directory no Lync Server 2013](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md).)
 
-5.  Aguarde a replicação do Active Directory ocorrer.
+5.  Aguarde a duplicação do Active Directory ocorrer.
 
-6.  Abra o Shell de Gerenciamento do Lync Server e digite **Enable-CSTopology** .
+6.  Abra o Shell de gerenciamento do Lync Server e digite **Enable-CSTopology**.
 
-7.  Conecte o novo Aparelho de Filial Persistente à rede e execute as etapas em [Implantando um servidor ou aparelho de filial persistente com o Lync Server 2013 - Tarefas do site central](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) e [Implantar Servidor ou Aparelho de Filial Persistente com Lync Server 2013 - tarefa de site de filial](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md).
+7.  Conecte o novo aplicativo de ramificação sobreviventes à rede e siga as etapas em Implantando [um aplicativo ou aplicativo de ramificação sobreviventes com o Lync server 2013 – tarefas de site central](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) e [implantar um aplicativo ou aplicativo de ramificação sobreviventes com o Lync Server 2013- tarefa do site de filial](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md).
 
-## Para renomear um aplicativo de filial persistente
+</div>
 
-1.  Mova os usuários para o site central. Para obter detalhes, consulte [Mover usuários para outro pool](lync-server-2013-move-users-to-another-pool.md).
+<div>
 
-2.  Pare todos os serviços do Lync Server 2013 no Aparelho de Filial Persistente. (Consulte a documentação do fornecedor do Aparelho de Filial Persistente.)
+## <a name="to-rename-a-survivable-branch-appliance"></a>Para renomear um aparelho de ramificação sobreviventes
 
-3.  Remova a Aparelho de Filial Persistente da topologia, executando estas etapas:
+1.  Mover usuários para o site central. Para obter detalhes, consulte [mover usuários para outro pool no Lync Server 2013](lync-server-2013-move-users-to-another-pool.md).
+
+2.  Pare todos os serviços do Lync Server 2013 no aparelho de ramificação sobreviventes. (Consulte a documentação do fornecedor da solução ramificada da ramificação.)
+
+3.  Remova o aparelho de ramificação sobreviventes da topologia seguindo estas etapas:
     
-      - Clique em **Iniciar** , **Todos os programas** , **Microsoft Lync Server** e em **Construtor de topologias do Lync Server** .
+      - Clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server**e, em seguida, clique em **Construtor de topologia do Lync Server**.
     
-      - Na árvore de console, expanda **Sites locais** , clique em Aparelho de Filial Persistente e em **Excluir** no painel Ações.
+      - Na árvore do console, expanda **Branch sites**, clique no aparelho da ramificação sobreviventes e clique em **excluir** no painel ação.
 
-4.  Remova o Aparelho de Filial Persistente do domínio.
+4.  Remova o aparelho de ramificação sobreviventes do domínio.
 
-5.  Exclua o objeto de computador do Aparelho de Filial Persistente no Active Directory, executando estas etapas:
+5.  Exclua o objeto de computador de aparelho de ramificação sobreviventes do Active Directory seguindo estas etapas:
     
-      - Faça logon no controlador de domínio como membro do grupo Administradores de Empresa.
+      - Faça logon em um controlador de domínio como membro do grupo Administradores da empresa.
     
-      - Clique em **Iniciar** , depois em **Ferramentas Administrativas** e, em seguida, clique em **Usuários e Computadores do Active Directory** .
+      - Clique em **Iniciar**, em **Ferramentas administrativas**e em **usuários e computadores do Active Directory**.
     
-      - Clique com o botão direito do mouse no objeto Aparelho de Filial Persistente e clique em **Excluir** .
+      - Clique com o botão direito do mouse no objeto de aparelho de ramificação sobreviventes e clique em **excluir**.
 
-6.  Restaure o Aparelho de Filial Persistente para os padrões de fábrica. (Consulte a documentação do fornecedor do Aparelho de Filial Persistente.)
+6.  Restaure o aparelho de ramificação sobreviventes para os padrões de fábrica. (Consulte a documentação do fornecedor da solução ramificada da ramificação.)
 
-7.  Execute as etapas em [Implantando um servidor ou aparelho de filial persistente com o Lync Server 2013 - Tarefas do site central](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) e em [Implantar Servidor ou Aparelho de Filial Persistente com Lync Server 2013 - tarefa de site de filial](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md).
+7.  Siga as etapas em [implantando um aplicativo ou aplicativo de ramificação sobreviventes com o Lync server 2013 – tarefas de site central](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) e [implante um aplicativo ou aplicativo de ramificação sobreviventes com o Lync Server 2013-tarefa do site de filial](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md).
 
-8.  Mova os usuários para o Aparelho de Filial Persistente renomeado. Para obter detalhes, consulte [Mover usuários para outro pool](lync-server-2013-move-users-to-another-pool.md).
+8.  Mover usuários para o aparelho de ramificação renomeado. Para obter detalhes, consulte [mover usuários para outro pool no Lync Server 2013](lync-server-2013-move-users-to-another-pool.md).
 
-## Para alterar o pool de front-end do Lync Server que o aplicativo de filial persistente está associado
+</div>
 
-1.  Mova os usuários do Aparelho de Filial Persistente para o pool de Front-End do Lync Server no site central. Para obter detalhes, consulte [Mover usuários para outro pool](lync-server-2013-move-users-to-another-pool.md).
+<div>
 
-2.  Pare todos os serviços do Lync Server no Aparelho de Filial Persistente. (Consulte a documentação de fornecedor do Aparelho de Filial Persistente).
+## <a name="to-change-the-lync-server-front-end-pool-that-the-survivable-branch-appliance-is-associated-with"></a>Para alterar o pool de front-ends do Lync Server ao qual o aparelho de ramificação sobreviventes está associado
 
-3.  Atualize o pool de Front-end do Lync Server que o Aparelho de Filial Persistente está associado seguindo estas etapas:
+1.  Mova os usuários do aparelho de ramificação sobreviventes para o pool de front-ends do Lync Server no site central. Para obter detalhes, consulte [mover usuários para outro pool no Lync Server 2013](lync-server-2013-move-users-to-another-pool.md).
+
+2.  Pare todos os serviços do Lync Server no aparelho de ramificação sobreviventes. (Consulte a documentação do fornecedor da solução ramificada da ramificação).
+
+3.  Atualize o pool de front-ends do Lync Server ao qual o aparelho de ramificação sobreviventes está associado, seguindo estas etapas:
     
-      - Clique em **Iniciar** , **Todos os programas** , **Microsoft Lync Server** e em **Construtor de topologias do Lync Server** .
+      - Clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server**e, em seguida, clique em **Construtor de topologia do Lync Server**.
     
-      - Expanda **Sites de filial** .
+      - Expanda **sites**de filiais.
     
-      - Clique com o botão direito no objeto do Aparelho de Filial Persistente a modificar e clique em **Editar propriedades**
+      - Clique com o botão direito do mouse no objeto de aparelho de ramificação sobreviventes para modificar e clique em **Editar propriedades** .
     
-      - Em Resiliência, selecione o novo Pool de Front-Ends que o Aparelho de Filial Persistente deve ser associado e clique em **Avançar** .
+      - Em resiliência, selecione o novo pool de front-ends ao qual o aparelho de ramificação sobreviventes deve estar associado e clique em **Avançar**.
     
-      - Na árvore do console, clique com o botão direito do mouse no novo Aparelho de Filial Persistente, clique em **Topologia** e clique em **Publicar** .
+      - Na árvore de console, clique com o botão direito do mouse no novo aplicativo de ramificação sobreviventes, clique em **topologia**e, em seguida, clique em **publicar**.
 
-4.  Reinicie todos os Serviços do Lync Server no Aparelho de Filial Persistente.
+4.  Reinicie todos os serviços do Lync Server no aparelho de ramificação sobreviventes.
 
-5.  Teste o Aparelho de Filial Persistente. Para obter detalhes, consulte [Usuários domésticos em um Home users on a Aparelho de Filial Persistente ou Servidor no Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).
+5.  Teste o aparelho de ramificação sobreviventes. Para obter detalhes, consulte [usuários residenciais em um aplicativo ou aplicativo de ramificação sobreviventes no Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).
 
-6.  Mova os usuários do pool de Front-end do Lync Server no site central para o Aparelho de Filial Persistente.
+6.  Mova os usuários do pool de front-ends do Lync Server no site central para o aparelho de ramificação sobreviventes.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Detalhes da tabela CDR'
-TOCTitle: Detalhes da tabela CDR
-ms:assetid: 896198f5-672b-48ea-852f-0211c0c90857
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398693(v=OCS.15)
-ms:contentKeyID: 49307386
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Detalhes da tabela CDR'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: CDR table details
+ms:assetid: 896198f5-672b-48ea-852f-0211c0c90857
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398693(v=OCS.15)
+ms:contentKeyID: 48184730
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f87e681cc25f9ed64509ff3bdb31abc5fd77101d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836675"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Detalhes da tabela CDR no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-18_
+# <a name="cdr-table-details-in-lync-server-2013"></a>Detalhes da tabela CDR no Lync Server 2013
 
-Os tópicos a seguir detalham as colunas de cada tabela de esquema de banco de dados de registro de detalhes das chamadas (CDR).
+</div>
 
-## Nesta seção
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-18_
+
+Os tópicos a seguir detalham as colunas em cada tabela de esquema de banco de dados de registros de detalhes de chamadas (CDR).
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Tabela de aplicativos no Lync Server 2013](lync-server-2013-application-table.md)
 
@@ -57,7 +79,7 @@ Os tópicos a seguir detalham as colunas de cada tabela de esquema de banco de d
 
   - [Tabela FocusJoinsAndLeaves no Lync Server 2013](lync-server-2013-focusjoinsandleaves-table.md)
 
-  - [Tabela FrontEnd no Lync Server 2013](lync-server-2013-frontend-table.md)
+  - [Tabela de front-end no Lync Server 2013](lync-server-2013-frontend-table.md)
 
   - [Tabela Gateways no Lync Server 2013](lync-server-2013-gateways-table.md)
 
@@ -99,11 +121,11 @@ Os tópicos a seguir detalham as colunas de cada tabela de esquema de banco de d
 
   - [Tabela SIPResponseMetaData no Lync Server 2013](lync-server-2013-sipresponsemetadata-table.md)
 
-  - [Tabela Syndicators no Lync Server 2013](lync-server-2013-syndicators-table.md)
+  - [Tabela sindicadores no Lync Server 2013](lync-server-2013-syndicators-table.md)
 
   - [Tabela SyndicatorsTenantMap no Lync Server 2013](lync-server-2013-syndicatorstenantmap-table.md)
 
-  - [Tabela Task no Lync Server 2013](lync-server-2013-task-table.md)
+  - [Tabela de tarefas no Lync Server 2013](lync-server-2013-task-table.md)
 
   - [Tabela Tenants no Lync Server 2013](lync-server-2013-tenants-table.md)
 
@@ -113,7 +135,19 @@ Os tópicos a seguir detalham as colunas de cada tabela de esquema de banco de d
 
   - [Tabela UserAgentDef no Lync Server 2013](lync-server-2013-useragentdef-table.md)
 
-  - [Tabela UserStatistics no Lync Server 2013](lync-server-2013-userstatistics-table.md)
+  - [Tabela userstatistics no Lync Server 2013](lync-server-2013-userstatistics-table.md)
 
   - [Tabela VoipDetails no Lync Server 2013](lync-server-2013-voipdetails-table.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

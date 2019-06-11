@@ -1,37 +1,67 @@
-﻿---
-title: Configurar servidores de aplicativo confiáveis
-TOCTitle: Configurar servidores de aplicativo confiáveis
-ms:assetid: 20c3815f-3048-4940-8c0f-cdfcd0801d5d
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204735(v=OCS.15)
-ms:contentKeyID: 49306102
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configurar servidores de aplicativo confiáveis
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Configure trusted application servers
+ms:assetid: 20c3815f-3048-4940-8c0f-cdfcd0801d5d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204735(v=OCS.15)
+ms:contentKeyID: 48183592
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5a27dbab3e954c96a07739f8a214ae7d1ec87ace
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836849"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar servidores de aplicativo confiáveis
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-11-05_
+# <a name="configure-trusted-application-servers"></a>Configurar servidores de aplicativo confiáveis
 
-Em um ambiente misturado, se você criar um novo servidor do aplicativo confiável, deve definir o próximo pool de salto como um pool do Lync Server 2013. Em um ambiente misturado, o pool herdado do Lync Server 2010 e o pool do Lync Server 2013 aparecem na lista suspensa. Selecionar o pool herdado não é suportado.
+</div>
 
-**Selecione Lync Server 2013 como o próximo salto ao criar um servidor de aplicativo Confiável**
+<div id="mainSection">
 
-1.  Abra o Construtor de Topologia.
+<div id="mainBody">
 
-2.  No painel à esquerda, clique com o botão direito do mouse em **Servidores de aplicativos confiáveis** e clique em **Novo pool de aplicativo confiável** .
+<span> </span>
 
-3.  Insira o **FQDN do Pool** do pool de aplicativos confiáveis e selecione se será um servidor múltiplo ou único.
+_**Tópico da última modificação:** 2012-10-11_
 
-4.  Clique em **Avançar** .
+Em um ambiente misto, se você criar um novo servidor de aplicativos confiável, deverá definir o próximo pool de saltos como um pool do Lync Server 2013. Em um ambiente misto, o pool herdado do Lync Server 2010 e o pool do Lync Server 2013 aparecem na lista suspensa. Não há suporte para a seleção do pool herdado.
 
-5.  Na página **Selecionar próximo salto** , a partir da lista, selecione o pool de Front End Lync Server 2013.
+**Selecione o Lync Server 2013 como próximo nó ao criar um servidor de aplicativos confiável**
 
-6.  Clique em **Concluir** .
+1.  Abrir o construtor de topologias.
 
-7.  Selecione o nó superior **Lync Server** e no menu **Ações** , selecione **Publicar** .
+2.  No painel esquerdo, clique com o botão direito do mouse em **servidores de aplicativos confiáveis** e clique em **novo pool de aplicativos confiáveis**.
+
+3.  Digite o **FQDN do pool** do pool de aplicativos confiável e selecione se ele será um único servidor ou vários servidores.
+
+4.  Click **Next**.
+
+5.  Na página **selecionar o próximo salto** , na lista, selecione o pool de front-end do Lync Server 2013.
+
+6.  Clique em **Concluir**.
+
+7.  Selecione o servidor de **Lync** do nó superior e, no menu **ação** , selecione **publicar**.
     
-    Verifique se o **Pool de Aplicativos Confiáveis** foi criado com êxito e estará associado ao pool de Front-End correto.
+    Verifique se o **pool de aplicativos confiável** foi criado com êxito e associado ao pool de front-end correto.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

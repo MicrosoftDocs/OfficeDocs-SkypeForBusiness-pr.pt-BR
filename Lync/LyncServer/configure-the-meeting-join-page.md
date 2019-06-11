@@ -1,25 +1,45 @@
-﻿---
-title: Configurar a página de ingresso na reunião
-TOCTitle: Configurar a página de ingresso na reunião
-ms:assetid: 036c9d03-ad95-4d63-a3d8-6cae1a8ad530
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204635(v=OCS.15)
-ms:contentKeyID: 49305702
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configurar a página de ingresso na reunião
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Configure the meeting join page
+ms:assetid: 036c9d03-ad95-4d63-a3d8-6cae1a8ad530
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204635(v=OCS.15)
+ms:contentKeyID: 48183260
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 71e71ef3eafbd1b263d4bb6867c6601e5a7d8047
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836850"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar a página de ingresso na reunião
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="configure-the-meeting-join-page"></a>Configurar a página de ingresso na reunião
 
-Quando um usuário clica em um link de reunião em uma solicitação de reunião, a página de ingresso em reunião detecta se um cliente do Lync 2013 já está instalado no computador do usuário. Se um cliente já estiver instalado, esse cliente abre e participa da reunião. Se não estiver instalado, como padrão, a versão 2013 do Lync Web App é aberta.
+</div>
 
-Você pode modificar o comportamento da página de ingresso em reunião se desejar permitir que os usuários participem de reuniões com o Office Communicator 2007 R2 ou Lync 2010 Attendant. Essas opções de configuração foram removidas do Painel de Controle do Lync Server 2013, mas você pode configurá-las usando o cmdlet CsWebServiceConfiguration.
+<div id="mainSection">
 
-### Parâmetros CsWebServiceConfiguration da página de ingresso em reunião
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-12-14_
+
+Quando um usuário clica em um link de reunião em uma solicitação de reunião, a página ingressar na reunião detecta se um cliente do Lync 2013 já está instalado no computador do usuário. Se um cliente já estiver instalado, esse cliente abrirá e ingressará na reunião. Se um cliente não estiver instalado, por padrão, a versão 2013 do Lync Web App será aberta.
+
+Você pode modificar o comportamento da página de associação de reunião se desejar permitir que os usuários ingressem em reuniões com o Office Communicator 2007 R2 ou o Lync 2010 Attendant. Essas opções de configuração foram removidas do painel de controle do Lync Server 2013, mas você as configura usando o cmdlet CsWebServiceConfiguration.
+
+### <a name="meeting-join-page-cswebserviceconfiguration-parameters"></a>Parâmetros de CsWebServiceConfiguration da página de ingresso na reunião
 
 <table>
 <colgroup>
@@ -35,27 +55,41 @@ Você pode modificar o comportamento da página de ingresso em reunião se desej
 <tbody>
 <tr class="odd">
 <td><p>ShowJoinUsingLegacyClientLink</p></td>
-<td><p>Se definido como True, os usuários que participarem de uma reunião usando um aplicativo cliente diferente do Lync terão a oportunidade de participar da reunião usando o Office Communicator 2007 R2. O valor padrão é False.</p></td>
+<td><p>Se definido como true, os usuários que ingressam em uma reunião usando um aplicativo cliente que não seja o Lync terão a oportunidade de ingressar na reunião usando o Office Communicator 2007 R2. O valor padrão é False.</p></td>
 </tr>
 <tr class="even">
 <td><p>ShowAlternateJoinOptionsExpanded</p></td>
-<td><p>Quando definido para True, as opções alternativas para participar de uma conferência online (como o Office Communicator 2007 R2) serão expandidas automaticamente e mostrada aos usuários. Quando definido para False (o valor padrão), essas opções estarão disponíveis, mas o usuário precisará exibir a lista de opções sozinho.</p></td>
+<td><p>Quando definida como true, as opções alternativas para ingressar em uma conferência online (como o Office Communicator 2007 R2) serão expandidas automaticamente e exibidas para os usuários. Quando definido como falso (o valor padrão), essas opções estarão disponíveis, mas o usuário precisará exibir a lista de opções para si mesmo.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Para configurar a página de participação da reunião usando o Shell de Gerenciamento do Lync Server 2013
+<div>
 
-1.  Inicie o Shell de Gerenciamento do Lync Server 2013: Clique em **Iniciar** , em **Todos os Programas** , em **Microsoft Lync Server 2013**, e depois em **Shell de Gerenciamento do Lync Server**.
+## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a>Para configurar a página ingressar na reunião usando o Shell de gerenciamento do Lync Server 2013
+
+1.  Inicie o Shell de gerenciamento do Lync Server 2013: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
 
 2.  Execute o seguinte cmdlet:
     
         Get-CsWebServiceConfiguration
     
-    Este cmdlet retorna as definições de configurações do serviço da Web.
+    Esse cmdlet retorna as configurações de serviço Web.
 
-3.  Execute o seguinte comando, com os parâmetros definidos como True ou False, dependendo de sua preferência (para detalhes sobre os parâmetros deste cmdlet, consulte a documentação do Shell de Gerenciamento do Lync Server 2013):
+3.  Execute o seguinte comando, com os parâmetros definidos como verdadeiro ou falso, dependendo da sua preferência (para obter detalhes sobre os parâmetros para esse cmdlet, consulte a documentação do Shell de gerenciamento do Lync Server 2013):
     
         Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

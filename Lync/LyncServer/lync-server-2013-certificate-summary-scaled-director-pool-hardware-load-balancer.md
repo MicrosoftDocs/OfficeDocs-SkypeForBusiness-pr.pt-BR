@@ -1,23 +1,43 @@
-﻿---
-title: "Res. de cert. - pool Certificate sum. - pool de direts esc, balanc. de c de hardware"
-TOCTitle: Resumo de certificado - pool Certificate summary - pool de diretores em escala, balanceador de carga de hardware
-ms:assetid: 45940add-8027-418d-b79a-9033b494762f
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204846(v=OCS.15)
-ms:contentKeyID: 49306581
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Resumo de certificado - pool Certificate summary - pool de diretores em escala, balanceador de carga de hardware
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate summary - Scaled Director pool, hardware load balancer
+ms:assetid: 45940add-8027-418d-b79a-9033b494762f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204846(v=OCS.15)
+ms:contentKeyID: 48183992
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 21b1688641d09e00c82ea952d57bd2a9547ac0dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836626"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumo de certificado - pool Certificate summary - pool de diretores em escala, balanceador de carga de hardware no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="certificate-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Resumo de certificado - pool Certificate summary - pool de diretores em escala, balanceador de carga de hardware no Lync Server 2013
 
-Os requisitos de certificado para um Diretor com balanceador de carga de hardware utilizará o certificado padrão que possui o nome de entidade e nomes alternativos de entidade para serviços o qual o Pool de diretores pode receber. Um certificado é solicitado para cada Diretor no pool. Adicionalmente, há um certificado OAuth Token para propósitos de autenticação servidor para servidor que é instalado em cada servidor.
+</div>
 
-### Certificados para um Diretor escalado utilizando um balanceador de carga de hardware
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-20_
+
+Os requisitos de certificado para um diretor com um balanceador de carga de hardware usarão um certificado padrão que tenha um nome de requerente e nomes alternativos de assunto para os serviços que o pool do diretor pode receber. Um certificado é solicitado para cada diretor do pool. Além disso, há um certificado de token OAuth para fins de autenticação do servidor para servidor que está instalado em cada servidor.
+
+### <a name="certificates-for-a-scaled-director-using-a-hardware-load-balancer"></a>Certificados para um diretor em escala usando um balanceador de carga de hardware
 
 <table>
 <colgroup>
@@ -30,7 +50,7 @@ Os requisitos de certificado para um Diretor com balanceador de carga de hardwar
 <tr class="header">
 <th>Componente</th>
 <th>Nome da entidade (SN)</th>
-<th>Nomes de Entidade Alternativos (SAN)</th>
+<th>Nomes alternativos de entidades (SAN)</th>
 <th>Comentários</th>
 </tr>
 </thead>
@@ -44,22 +64,35 @@ Os requisitos de certificado para um Diretor com balanceador de carga de hardwar
 <p>meet.contoso.com</p>
 <p>lyncdiscoverinternal.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
-<p>(Opcional) *.contoso.com</p></td>
-<td><p>Certificados Diretor podem ser solicitados de uma Autoridade de Certificação (CA) interna ou uma CA pública.</p>
-<p>O Diretor responde a solicitações do proxy reverso no perímetro ou do Servidor de Borda.</p>
-<p>Ou, uma entrada curinga para os URLs simples</p></td>
+<p>(Opcionalmente) *. contoso.com</p></td>
+<td><p>Os certificados do diretor podem ser solicitados de uma CA (autoridade de certificação) gerenciada internamente ou de uma CA pública.</p>
+<p>O diretor responde a solicitações do proxy reverso no perímetro ou do servidor de borda.</p>
+<p>Ou uma entrada curinga para as URLs simples</p></td>
 </tr>
 <tr class="even">
 <td><p>OAuthTokenIssuer</p></td>
 <td><p>dir01.contoso.net</p></td>
-<td><p>Nenhuma entrada</p></td>
+<td><p>Sem entrada</p></td>
 <td>
 
-> [!IMPORTANT]  
-> Observe que o comprimento mínimo de chave é 1024, mas você pode receber um aviso de que o comprimento de chave mínimo recomendado é 2048 bits.
 
-<p>O certificado OAuthTokenIssuer é um certificado para o fim único de autenticar servidores em um ambiente de grande escala e pode ser solicitado de um CA interno ou público. O certificado é exigido.</p></td>
+> [!IMPORTANT]
+> Observe que o tamanho mínimo da chave é 1024, mas você pode receber um aviso de que o tamanho mínimo recomendado da chave é 2048 bits.
+
+
+<p>O certificado OAuthTokenIssuer é um certificado de finalidade única para a finalidade de autenticar servidores em um ambiente em larga escala e pode ser solicitado de uma CA interna ou de uma CA pública. O certificado é necessário.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
