@@ -1,35 +1,73 @@
-﻿---
-title: Requisitos do Lync para Android
-TOCTitle: Requisitos do Lync para Android
-ms:assetid: 4ff53e03-0c1f-4a2b-9cec-1131c2a48563
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh690980(v=OCS.15)
-ms:contentKeyID: 53901651
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: requisitos do Lync para Android'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync for Android requirements
+ms:assetid: 4ff53e03-0c1f-4a2b-9cec-1131c2a48563
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690980(v=OCS.15)
+ms:contentKeyID: 53312965
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fb4c7ce56fb65b9f5998af90bfe63ab6eed5d28c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828928"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos do Lync para Android
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-04-24_
+# <a name="lync-for-android-requirements-in-lync-server-2013"></a><span data-ttu-id="d2f20-102">Requisitos do Lync para Android no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d2f20-102">Lync for Android requirements in Lync Server 2013</span></span>
 
-O Microsoft Lync 2013 Microsoft Lync 2013 para Android fornece IM (mensagens instantâneas), presença avançada e recursos para participação de reuniões do Lync para usuários em sua organização que estão se conectando de um telefone Android. Este tópico descreve as considerações para o Lync 2013 para Android, incluindo os pré-requisitos, requisitos técnicos e componentes exigidos.
+</div>
 
-## Pré-requisitos do Lync para Android
+<div id="mainSection">
 
-Para dar suporte ao Lync 2013 para Android, o telefone Android deve estar de acordo com os seguintes requisitos:
+<div id="mainBody">
 
-  - O telefone Android deve estar executando o Android 4.0 ou outro sistema operacional voltado para telefone mais recente.
+<span> </span>
 
-  - O dispositivo deve ter uma CPU com 1.2 GHz dual core ou superior.
+<span data-ttu-id="d2f20-103">_**Tópico da última modificação:** 2014-04-24_</span><span class="sxs-lookup"><span data-stu-id="d2f20-103">_**Topic Last Modified:** 2014-04-24_</span></span>
 
-  - A resolução da câmera do dispositivo (frontal/traseira) deve ser VGA ou superior.
+<span data-ttu-id="d2f20-104">Microsoft Lync 2013 o Microsoft Lync 2013 para Android fornece mensagens instantâneas (IM), presença aprimorada e recursos de junção de reunião do Lync para usuários em sua organização que estão se conectando de um dispositivo Android.</span><span class="sxs-lookup"><span data-stu-id="d2f20-104">Microsoft Lync 2013 Microsoft Lync 2013 for Android provides instant messaging (IM), enhanced presence, and Lync meeting join capabilities for users in your organization who are connecting from an Android device.</span></span> <span data-ttu-id="d2f20-105">Este tópico descreve as considerações sobre o Lync 2013 para Android, incluindo pré-requisitos, requisitos técnicos e componentes obrigatórios.</span><span class="sxs-lookup"><span data-stu-id="d2f20-105">This topic describes considerations for Lync 2013 for Android, including prerequisites, technical requirements, and required components.</span></span>
 
-  - Outros requisitos de hardware devem estar de acordo com o Documento de Definição de Compatibilidade do Android 4.0.
+<div>
 
-## Outras considerações técnicas
+## <a name="lync-for-android-prerequisite"></a><span data-ttu-id="d2f20-106">Pré-requisito do Lync para Android</span><span class="sxs-lookup"><span data-stu-id="d2f20-106">Lync for Android Prerequisite</span></span>
 
-Na plataforma móvel do Android, o aplicativo do Lync pode ser executado no plano de fundo. Dessa forma, ao contrário de outras plataformas de dispositivo móvel, as notificações de push não são necessárias para os dispositivos móveis Android. A única forma de sair do aplicativo do Lync em um dispositivo móvel Android é explicitamente desconectando-se do Lync. Essa versão do aplicativo do Lync não tem suporte de dispositivos com chipsets Tegra 2.
+<span data-ttu-id="d2f20-107">Para dar suporte ao Lync 2013 para Android, o dispositivo Android deve atender aos seguintes requisitos:</span><span class="sxs-lookup"><span data-stu-id="d2f20-107">To support Lync 2013 for Android, the Android device must meet the following requirements:</span></span>
+
+  - <span data-ttu-id="d2f20-108">O dispositivo Android deve estar executando o Android 4,0 ou um sistema operacional mais recente orientado por telefone ou Tablet, incluindo tablets, exceto aqueles com o chip Tegra2.</span><span class="sxs-lookup"><span data-stu-id="d2f20-108">The Android device must be running Android 4.0 or a later phone- or tablet-oriented operating system, including tablets, except those with the Tegra2 chip.</span></span>
+
+  - <span data-ttu-id="d2f20-109">O dispositivo deve ter uma CPU dual core de 1,2 GHz ou superior.</span><span class="sxs-lookup"><span data-stu-id="d2f20-109">The device must have a 1.2 GHz dual core or higher CPU.</span></span>
+
+  - <span data-ttu-id="d2f20-110">A resolução da câmera (frontal/traseira) do dispositivo deve ser VGA ou superior.</span><span class="sxs-lookup"><span data-stu-id="d2f20-110">The device camera (front/rear) resolution should be VGA or higher.</span></span>
+
+  - <span data-ttu-id="d2f20-111">Outros requisitos de hardware devem ser alinhados ao documento de definição de compatibilidade do Android 4,0.</span><span class="sxs-lookup"><span data-stu-id="d2f20-111">Other hardware requirements should be aligned with Android 4.0 Compatibility Definition Document.</span></span>
+
+</div>
+
+<div>
+
+## <a name="other-technical-considerations"></a><span data-ttu-id="d2f20-112">Outras considerações técnicas</span><span class="sxs-lookup"><span data-stu-id="d2f20-112">Other Technical Considerations</span></span>
+
+<span data-ttu-id="d2f20-113">Na plataforma de dispositivo Android, o aplicativo Lync pode ser executado em segundo plano.</span><span class="sxs-lookup"><span data-stu-id="d2f20-113">On the Android device platform, the Lync application can run in the background.</span></span> <span data-ttu-id="d2f20-114">Portanto, ao contrário de outras plataformas de dispositivos móveis, as notificações por push não são necessárias para dispositivos Android.</span><span class="sxs-lookup"><span data-stu-id="d2f20-114">Therefore, unlike other mobile device platforms, push notifications are not required for Android devices.</span></span> <span data-ttu-id="d2f20-115">A única maneira de sair do aplicativo do Lync em um dispositivo Android é explicitamente desconectar-se do Lync.</span><span class="sxs-lookup"><span data-stu-id="d2f20-115">The only way to exit the Lync application on an Android device is to explicitly sign out of Lync.</span></span> <span data-ttu-id="d2f20-116">Não há suporte para esta versão do aplicativo do Lync em dispositivos com chipsets Tegra 2.</span><span class="sxs-lookup"><span data-stu-id="d2f20-116">This version of the Lync application is not supported on devices with Tegra 2 chipsets.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

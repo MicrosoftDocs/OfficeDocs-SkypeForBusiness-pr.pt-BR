@@ -1,67 +1,105 @@
-﻿---
-title: Estabelecendo uma estratégia de restauração e backup
-TOCTitle: Estabelecendo uma estratégia de restauração e backup
-ms:assetid: f545a75f-bbc4-4968-b510-8f6f3920112b
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh202195(v=OCS.15)
-ms:contentKeyID: 52057760
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: estabelecendo uma estratégia de backup e restauração'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Establishing a backup and restoration strategy
+ms:assetid: f545a75f-bbc4-4968-b510-8f6f3920112b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202195(v=OCS.15)
+ms:contentKeyID: 51541532
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d378c66ae820ef0be7b7b3b0492b023863e977ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829194"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Estabelecendo uma estratégia de restauração e backup
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-03-26_
+# <a name="establishing-a-backup-and-restoration-strategy-for-lync-server-2013"></a><span data-ttu-id="b307b-102">Como estabelecer uma estratégia de backup e restauração para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b307b-102">Establishing a backup and restoration strategy for Lync Server 2013</span></span>
 
-Antes de poder desenvolver um plano de backup e restauração para o Lync Server, você precisa desenvolver uma estratégia adequada para as metas de sua organização. Para desenvolver uma estratégia de backup e restauração, você deverá:
+</div>
 
-  - Estabelecer prioridades de negócios.
+<div id="mainSection">
 
-  - Identificar os requisitos de backup e restauração.
+<div id="mainBody">
 
-## Estabelecer as prioridades comerciais
+<span> </span>
 
-Avaliar as prioridades comerciais da sua organização. Geralmente, as prioridades comerciais primárias que afetam sua estratégia de backup e restauração são as seguintes:
+<span data-ttu-id="b307b-103">_**Tópico da última modificação:** 2013-03-26_</span><span class="sxs-lookup"><span data-stu-id="b307b-103">_**Topic Last Modified:** 2013-03-26_</span></span>
 
-  - Requisitos de continuidade comercial
+<span data-ttu-id="b307b-104">Antes de poder desenvolver um plano de backup e restauração para o Lync Server, você precisará desenvolver uma estratégia que se adapte às metas da sua organização.</span><span class="sxs-lookup"><span data-stu-id="b307b-104">Before you can develop a backup and restoration plan for Lync Server, you need to develop a strategy that fits with your organization's goals.</span></span> <span data-ttu-id="b307b-105">Para desenvolver uma estratégia eficaz de backup e restauração, será necessário:</span><span class="sxs-lookup"><span data-stu-id="b307b-105">To develop an effective backup and restoration strategy, you will need to:</span></span>
 
-  - Plenitude de dados
+  - <span data-ttu-id="b307b-106">Estabeleça prioridades de negócios.</span><span class="sxs-lookup"><span data-stu-id="b307b-106">Establish business priorities.</span></span>
 
-  - Criticidade de dados
+  - <span data-ttu-id="b307b-107">Identifique os requisitos de backup e restauração.</span><span class="sxs-lookup"><span data-stu-id="b307b-107">Identify backup and restoration requirements.</span></span>
 
-  - Requisitos de portabilidade
+<div>
 
-  - Restrições de custo
+## <a name="establishing-business-priorities"></a><span data-ttu-id="b307b-108">Estabelecendo prioridades de negócios</span><span class="sxs-lookup"><span data-stu-id="b307b-108">Establishing Business Priorities</span></span>
 
-Necessidades comerciais como essas ajudam a determinar os SLAs (contrato de nível de serviço) desenvolvidos com seus clientes. Os contratos de nível de serviço influenciam muito sua estratégia de backup e recuperação.
+<span data-ttu-id="b307b-109">Avaliar as prioridades comerciais da sua organização.</span><span class="sxs-lookup"><span data-stu-id="b307b-109">Evaluate the business priorities of your organization.</span></span> <span data-ttu-id="b307b-110">Geralmente, as principais prioridades de negócios que afetam a estratégia de backup e restauração são as seguintes:</span><span class="sxs-lookup"><span data-stu-id="b307b-110">Typically, the primary business priorities that affect your backup and restoration strategy are the following:</span></span>
 
-## Identificar os requisitos de backup e restauração
+  - <span data-ttu-id="b307b-111">Requisitos de continuidade de negócios</span><span class="sxs-lookup"><span data-stu-id="b307b-111">Business continuity requirements</span></span>
 
-As prioridades de negócios e os contratos de nível de serviço atuam na determinação dos requisitos de sua organização para backup e restauração do Lync Server. Identifique e documente seus requisitos para o seguinte:
+  - <span data-ttu-id="b307b-112">Integridade dos dados</span><span class="sxs-lookup"><span data-stu-id="b307b-112">Data completeness</span></span>
 
-  - **Frequência dos backups**   Lembre-se de que, exceto para os pools de front-ends nas relações emparelhadas conforme descrito em [Planejamento para alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md), o Lync Server oferece suporte apenas ao modelo de recuperação simples, o que significa que a restauração é feita para o último backup completo. Planeje detalhadamente a frequência em que você precisará de um backup completo. Para obter detalhes sobre as práticas recomendadas de frequência de backup, consulte [Práticas recomendadas para backup e restauração](lync-server-2013-best-practices-for-backup-and-restoration.md).
+  - <span data-ttu-id="b307b-113">Criticalidade de dados</span><span class="sxs-lookup"><span data-stu-id="b307b-113">Data criticality</span></span>
 
-  - **Ferramentas de backup e restauração**   Inclua quem usará as ferramentas e em quais computadores. Para detalhes sobre as ferramentas analisadas neste tópico e as permissões necessárias, consulte [Requisitos de backup e restauração: ferramentas e permissões](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
+  - <span data-ttu-id="b307b-114">Requisitos de portabilidade</span><span class="sxs-lookup"><span data-stu-id="b307b-114">Portability requirements</span></span>
 
-  - **Localização do backup**   Identifica se os backups são mantidos local ou remotamente, levando em consideração a segurança e acessibilidade. Especifique a mídia a ser usada para os backups.
+  - <span data-ttu-id="b307b-115">Restrições de custo</span><span class="sxs-lookup"><span data-stu-id="b307b-115">Cost constraints</span></span>
 
-  - **Requisitos de hardware e software**   Identifique e documente seus requisitos de hardware e software exigidos, incluindo o hardware para armazenamento de backup e restauração de componentes específicos e qualquer conectividade de rede e software necessária para suportar o backup e restauração. Conforme você desenvolve seus requisitos de hardware e software, lembre-se dos vários cenários de restauração a seguir.
+<span data-ttu-id="b307b-116">Necessidades comerciais, como estes ajudam a determinar os contratos de nível de serviço (SLAs) que você desenvolve com seus clientes.</span><span class="sxs-lookup"><span data-stu-id="b307b-116">Business needs such as these help to determine the service level agreements (SLAs) that you develop with your customers.</span></span> <span data-ttu-id="b307b-117">Contratos de nível de serviço influenciam bastante sua estratégia de backup e recuperação.</span><span class="sxs-lookup"><span data-stu-id="b307b-117">Service level agreements greatly influence your backup and recovery strategy.</span></span>
 
-  - **Cenários de restauração**   Eis aqui o processo de restauração para os seguintes cenários:
+</div>
+
+<div>
+
+## <a name="identifying-backup-and-restoration-requirements"></a><span data-ttu-id="b307b-118">Identificar requisitos de backup e restauração</span><span class="sxs-lookup"><span data-stu-id="b307b-118">Identifying Backup and Restoration Requirements</span></span>
+
+<span data-ttu-id="b307b-119">Suas prioridades de negócios e contratos de nível de serviço atuam para determinar os requisitos da sua organização para o backup e a restauração do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b307b-119">Your business priorities and service level agreements act in determining your organizations' requirements for backing up and restoring Lync Server.</span></span> <span data-ttu-id="b307b-120">Identifique e documente seus requisitos para o seguinte:</span><span class="sxs-lookup"><span data-stu-id="b307b-120">Identify and document your requirements for the following:</span></span>
+
+  - <span data-ttu-id="b307b-121">**Frequência de backups**   para obter detalhes sobre as práticas recomendadas para a frequência de backup, consulte [práticas recomendadas de backup e restauração do Lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md).</span><span class="sxs-lookup"><span data-stu-id="b307b-121">**Frequency of backups**   For details about best practices for backup frequency, see [Best practices for backup and restoration for Lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md).</span></span>
+
+  - <span data-ttu-id="b307b-122">**As ferramentas**   de backup e restauração incluem quem deve usar as ferramentas e em quais computadores.</span><span class="sxs-lookup"><span data-stu-id="b307b-122">**Backup and restoration tools**   Include who is to use the tools, and on which computers.</span></span> <span data-ttu-id="b307b-123">Para obter detalhes sobre as ferramentas discutidas neste tópico e as permissões necessárias, consulte [requisitos de backup e restauração no Lync Server 2013: ferramentas e permissões](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="b307b-123">For details about the tools discussed in this topic and necessary permissions, see [Backup and restoration requirements in Lync Server 2013: tools and permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span></span>
+
+  - <span data-ttu-id="b307b-124">**Local de backup**   identifique se os backups são mantidos localmente ou remotamente, levando a segurança e acessibilidade em consideração.</span><span class="sxs-lookup"><span data-stu-id="b307b-124">**Backup location**   Identify whether the backups are kept locally or remotely, taking security and accessibility into consideration.</span></span> <span data-ttu-id="b307b-125">Especifique a mídia a ser usada para os backups.</span><span class="sxs-lookup"><span data-stu-id="b307b-125">Specify the media to be used for the backups.</span></span>
+
+  - <span data-ttu-id="b307b-126">**Os requisitos**   de hardware e software identificam e documentam seus requisitos específicos de hardware e software, incluindo o hardware para armazenamento de backup e restauração de componentes específicos e qualquer conectividade de software e rede necessária para suporte para backup e restauração.</span><span class="sxs-lookup"><span data-stu-id="b307b-126">**Hardware and software requirements**   Identify and document your specific hardware and software requirements, including the hardware for backup storage and restoration of specific components and any software and network connectivity required to support backup and restoration.</span></span> <span data-ttu-id="b307b-127">Ao desenvolver seus requisitos de hardware e software, tenha em mente os vários cenários de restauração que se seguem.</span><span class="sxs-lookup"><span data-stu-id="b307b-127">As you develop your hardware and software requirements, keep in mind the various restoration scenarios that follow.</span></span>
+
+  - <span data-ttu-id="b307b-128">**Cenários de restauração**   aqui estão os processos de restauração dos seguintes cenários:</span><span class="sxs-lookup"><span data-stu-id="b307b-128">**Restoration scenarios**   Here are the restoration processes for the following scenarios:</span></span>
     
-      - Um pool do Lync Server falha. Esse cenário exige a recompilação de cada servidor no pool.
+      - <span data-ttu-id="b307b-129">Um pool de servidores do Lync falha.</span><span class="sxs-lookup"><span data-stu-id="b307b-129">A Lync Server pool fails.</span></span> <span data-ttu-id="b307b-130">Esse cenário requer a recriação de cada servidor no pool.</span><span class="sxs-lookup"><span data-stu-id="b307b-130">This scenario requires rebuilding each server in the pool.</span></span>
     
-      - Um Servidor Standard Edition falha. Este cenário exige a recompilação do servidor em um computador novo ou limpo e bancos de dados de restauração.
+      - <span data-ttu-id="b307b-131">Um servidor Standard Edition falha.</span><span class="sxs-lookup"><span data-stu-id="b307b-131">A Standard Edition server fails.</span></span> <span data-ttu-id="b307b-132">Esse cenário requer a recriação do servidor em um computador novo ou limpo e a restauração de bancos de dados.</span><span class="sxs-lookup"><span data-stu-id="b307b-132">This scenario requires rebuilding the server on a new or clean computer and restoring databases.</span></span>
     
-      - Perda do Repositório de Gerenciamento Central. Como mínimo, este cenário exige a restauração e publicação do Repositório de Gerenciamento Central.
+      - <span data-ttu-id="b307b-133">Perda do repositório de gerenciamento central.</span><span class="sxs-lookup"><span data-stu-id="b307b-133">Loss of the Central Management store.</span></span> <span data-ttu-id="b307b-134">No mínimo, esse cenário exige a restauração e a publicação do repositório de gerenciamento central.</span><span class="sxs-lookup"><span data-stu-id="b307b-134">At a minimum, this scenario requires restoring and publishing the Central Management store.</span></span>
     
-      - Perda do servidor back-end quando o Repositório de Gerenciamento Central ainda estiver funcionando normalmente. Este cenário exige a recompilação do servidor em um computador novo ou limpo e a restauração dos bancos de dados.
+      - <span data-ttu-id="b307b-135">Perda de um servidor back-end quando o repositório de gerenciamento central ainda estiver funcionando normalmente.</span><span class="sxs-lookup"><span data-stu-id="b307b-135">Loss of a Back End Server when the Central Management store is still functioning normally.</span></span> <span data-ttu-id="b307b-136">Esse cenário requer a recriação do servidor em um computador novo ou limpo e a restauração de bancos de dados.</span><span class="sxs-lookup"><span data-stu-id="b307b-136">This scenario requires rebuilding the server on a new or clean computer and restoring databases.</span></span>
     
-      - Um servidor membro de um pool do Lync Server falha. Esse cenário exige a recompilação do servidor em um computador novo ou limpo.
+      - <span data-ttu-id="b307b-137">Um servidor que é membro de um pool do Lync Server falha.</span><span class="sxs-lookup"><span data-stu-id="b307b-137">A server that is a member of a Lync Server pool fails.</span></span> <span data-ttu-id="b307b-138">Esse cenário requer a recriação do servidor em um computador novo ou limpo.</span><span class="sxs-lookup"><span data-stu-id="b307b-138">This scenario requires rebuilding the server on a new or clean computer.</span></span>
     
-      - Um Repositório de Arquivos falha. Este cenário exige a restauração do servidor de arquivos ou cluster de arquivos.
+      - <span data-ttu-id="b307b-139">Um repositório de arquivos falha.</span><span class="sxs-lookup"><span data-stu-id="b307b-139">A File Store fails.</span></span> <span data-ttu-id="b307b-140">Esse cenário requer a restauração do servidor de arquivos ou do cluster de arquivos.</span><span class="sxs-lookup"><span data-stu-id="b307b-140">This scenario requires restoring the file server or file cluster.</span></span>
     
-      - Um banco de dados de arquivamento, monitoramento ou chat persistente falha. Este cenário exige a recriação dos bancos de dados e, caso os dados sejam críticos a sua organização, a restauração dos dados. Os dados de arquivamento, monitoramento e chat persistente não são necessários para o backup e a execução do Lync Server.
+      - <span data-ttu-id="b307b-141">Falha em um banco de dados de arquivamento, monitoramento ou de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="b307b-141">An Archiving, Monitoring, or Persistent Chat database fails.</span></span> <span data-ttu-id="b307b-142">Esse cenário exige a recriação de bancos de dados e, se os dados forem críticos para a sua organização, a restauração dos dados.</span><span class="sxs-lookup"><span data-stu-id="b307b-142">This scenario requires recreating the databases, and, if the data is critical to your organization, restoring the data.</span></span> <span data-ttu-id="b307b-143">O arquivamento, o monitoramento e os dados de chat persistentes não são necessários para ter backup e execução do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b307b-143">Archiving, Monitoring, and Persistent Chat data is not required to get Lync Server back up and running.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

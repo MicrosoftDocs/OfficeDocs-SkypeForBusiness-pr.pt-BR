@@ -1,45 +1,79 @@
-﻿---
-title: 'Lync Server 2013: Coleta de dados'
-TOCTitle: Coleta de dados
-ms:assetid: e40b03e5-455d-4bbc-831a-c61b1380db53
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg399008(v=OCS.15)
-ms:contentKeyID: 49308407
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Coleta de dados'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Data collection
+ms:assetid: e40b03e5-455d-4bbc-831a-c61b1380db53
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399008(v=OCS.15)
+ms:contentKeyID: 48185722
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: df4f19df012dfeac7576cc5b39d749564a4350a1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829740"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Coleta de dados no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-08_
+# <a name="data-collection-in-lync-server-2013"></a><span data-ttu-id="367d0-102">Coleta de dados no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="367d0-102">Data collection in Lync Server 2013</span></span>
 
-No Microsoft Lync Server 2013  software de comunicação, é possível executar o Microsoft Lync Server 2013, Ferramenta de Planejamento sem documentar os endereços IP e os FQDNs (nomes de domínio totalmente qualificado) do Servidor de Borda existentes e propostos, mas é muito mais difícil fazer isso sem causar erros de configuração. Por exemplo, se for necessária uma coexistência durante um período, um erro comum é reutilizar os FQDNs de uma implantação de Borda existente na implantação de Borda do Lync Server 2013. Tendo endereços IP existentes e propostos e FQDNs gravados em uma planilha, tabela ou outro formato visual, você ajuda a evitar problemas de configuração durante a instalação.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="367d0-103">_**Tópico da última modificação:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="367d0-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+
+<span data-ttu-id="367d0-104">No software de comunicação do Microsoft Lync Server 2013, você pode executar o Microsoft Lync Server 2013, ferramenta de planejamento sem documentar os endereços IP existentes e propostos e os nomes de domínio totalmente qualificados do servidor de borda (FQDNs), mas é muito mais difícil de fazer Portanto, sem causar erros de configuração.</span><span class="sxs-lookup"><span data-stu-id="367d0-104">In Microsoft Lync Server 2013 communications software, you can run the Microsoft Lync Server 2013, Planning Tool without documenting your existing and proposed IP addresses and Edge Server fully qualified domain names (FQDNs), but it is significantly harder to do so without causing configuration errors.</span></span> <span data-ttu-id="367d0-105">Por exemplo, se a coexistência for necessária por um período de tempo, um erro comum será reutilizar FQDNs de uma implantação de borda existente para a implantação de borda do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="367d0-105">For example, if coexistence is required for a period of time, a common mistake is to reuse FQDNs from an existing Edge deployment for your Lync Server 2013 Edge deployment.</span></span> <span data-ttu-id="367d0-106">Ao ter os endereços IP existentes e propostos e FQDNs gravados em uma planilha, tabela ou outro formulário Visual, você ajuda a evitar problemas de instalação durante a instalação.</span><span class="sxs-lookup"><span data-stu-id="367d0-106">By having the existing and proposed IP addresses and FQDNs written down in a spreadsheet, table, or other visual form, you help prevent setup problems during installation.</span></span>
+
+<div>
 
 
 > [!WARNING]  
-> Se você usou versões anteriores do Ferramenta de Planejamento, pode ter usado a ferramenta para criar sua topologia e exportado o documento de topologia para uso no Construtor de Topologias para publicar sua topologia. A capacidade de exportar a topologia foi removida do Ferramenta de Planejamento. Usar uma versão anterior do Ferramenta de Planejamento para criar um documento de topologia para o Lync Server 2013 não é recomendado e produzirá resultados inesperados;
+> <span data-ttu-id="367d0-107">Se você usou versões anteriores da ferramenta de planejamento, talvez tenha usado a ferramenta para criar sua topologia e o documento de topologia exportado para uso no construtor de topologias para publicar sua topologia.</span><span class="sxs-lookup"><span data-stu-id="367d0-107">If you have used previous versions of the Planning Tool, you may have used the tool to create your topology and the exported the topology document for use in Topology Builder to publish your topology.</span></span> <span data-ttu-id="367d0-108">A capacidade de exportar a topologia foi removida da ferramenta de planejamento.</span><span class="sxs-lookup"><span data-stu-id="367d0-108">The ability to export the topology was removed from Planning Tool.</span></span> <span data-ttu-id="367d0-109">Usar uma versão anterior da ferramenta de planejamento para criar um documento de topologia para o Lync Server 2013 é altamente desencorajado e produzirá resultados inesperados.</span><span class="sxs-lookup"><span data-stu-id="367d0-109">Using a previous version of the Planning Tool to create a topology document for Lync Server 2013 is strongly discouraged, and will produce unexpected results.</span></span>
 
 
 
-Portanto, a abordagem recomendada é usar o seguinte modelo de coleta de dados, que corresponde à sua topologia de Borda, para coletar os diversos FQDN e endereços IP que precisam ser inseridos no Ferramenta de Planejamento. Ao documentar a configuração atual e proposta, é possível colocar os valores no contexto apropriado para seu ambiente de produção. Você é forçado a pensar sobre como configurará a coexistência e os novos recursos, como URLs simples, compartilhamentos de arquivo, Servidores de Conferência A/V dedicados e balanceamento de carga DNS.
+</div>
 
-Para implantar com sucesso o Microsoft Lync Server 2013, você precisa compreender a interação e a confiança de componentes individuais. Ao coletar dados da sua rede existente e infraestrutura do servidor e aplicar as diretrizes nestas seções, é possível integrar os componentes do Lync Server 2013  Servidor de Borda em sua infraestrutura.
+<span data-ttu-id="367d0-110">Portanto, a abordagem recomendada é usar o modelo de coleta de dados a seguir, que corresponde à sua topologia de borda, para coletar os vários endereços IP e FQDN que você precisará inserir na ferramenta de planejamento.</span><span class="sxs-lookup"><span data-stu-id="367d0-110">Therefore, the recommended approach is to use the following data collection template, which corresponds to your Edge topology, to gather the various FQDN and IP addresses that you will need to enter into the Planning Tool.</span></span> <span data-ttu-id="367d0-111">Ao documentar a configuração atual e proposta, você pode colocar os valores no contexto apropriado para o seu ambiente de produção.</span><span class="sxs-lookup"><span data-stu-id="367d0-111">By documenting the current and proposed configuration, you can put the values in the proper context for your production environment.</span></span> <span data-ttu-id="367d0-112">E você é obrigado a pensar sobre como você configurará a coexistência e recursos como URLs simples, compartilhamentos de arquivos e balanceamento de carga.</span><span class="sxs-lookup"><span data-stu-id="367d0-112">And, you are forced to think about how you will configure coexistence and features such as simple URLs, file shares, and load balancing.</span></span>
 
-Introduzido no [Escolhendo uma topologia no Lync Server 2013](lync-server-2013-choosing-a-topology.md), existem três arquiteturas principais com duas variações, para um total de cinco cenários de implantação possíveis. Um destes cenários será o ponto inicial da sua coleta de dados. O endereço IP, nome do servidor e de domínio são exemplos que coincidem com o certificado, firewall e diagramas DNS que detalham a informação necessária para uma solução de planejamento completa. Os diagramas e preenchimento no seu certificado necessário, valores de DNS e firewall são especialmente importantes em comunicações entre equipes onde o gerenciamento da autoridade de certificação, configuração de firewall e DNS é gerenciado por equipes diferentes da equipe que planeja a implantação. O diagrama oferece informações sobre os componentes necessários que podem ser usados para comunicar estes requisitos para a colaboração entre equipes.
+<span data-ttu-id="367d0-113">Para implantar com êxito o Microsoft Lync Server 2013, você precisa entender a interação e a confiança dos componentes individuais.</span><span class="sxs-lookup"><span data-stu-id="367d0-113">To successfully deploy Microsoft Lync Server 2013, you need to understand the interaction of and reliance on the individual components.</span></span> <span data-ttu-id="367d0-114">Coletando dados da infraestrutura de rede e do servidor existentes e aplicando as diretrizes de planejamento nessas seções, você pode integrar componentes do Lync Server 2013 Edge Server à sua infraestrutura.</span><span class="sxs-lookup"><span data-stu-id="367d0-114">By collecting data from your existing network and server infrastructure, and applying the planning guidance in these sections, you can integrate Lync Server 2013 Edge Server components into your infrastructure.</span></span>
 
-Os diagramas oferecidos são genéricos intencionalmente, mas permitem a coleta de todos os dados pertinentes que serão necessários para comunicação dos requisitos em um cenário de várias equipes onde a rede, firewall, criação e gerenciamento de certificados, implantação do servidor e gerenciamento do servidor são tratados por grupos diferentes. Com os detalhes necessários para configuração de rede, firewalls, portas e protocolos, certificados e servidores não tem valor quando a implantação do Lync Server está em andamento.
+<span data-ttu-id="367d0-115">Introduzidas na [escolha de uma topologia no Lync Server 2013](lync-server-2013-choosing-a-topology.md), há três arquiteturas principais com duas variações, para um total de cinco possíveis cenários de implantação.</span><span class="sxs-lookup"><span data-stu-id="367d0-115">Introduced in [Choosing a topology in Lync Server 2013](lync-server-2013-choosing-a-topology.md), there are three main architectures with two variations, for a total of five possible deployment scenarios.</span></span> <span data-ttu-id="367d0-116">Um desses cenários será o ponto de partida para sua coleta de dados.</span><span class="sxs-lookup"><span data-stu-id="367d0-116">One of these scenarios will be the starting point for your data collection.</span></span> <span data-ttu-id="367d0-117">Os endereços IP, nomes de servidor e nomes de domínio são exemplos que coincidem com o certificado, o firewall e os diagramas DNS correspondentes que detalham as informações necessárias para uma solução de planejamento completa.</span><span class="sxs-lookup"><span data-stu-id="367d0-117">The IP addresses, server names, and domain names are examples that coincide with the matching certificate, firewall, and DNS diagrams that detail the information required for a complete planning solution.</span></span> <span data-ttu-id="367d0-118">Os diagramas e o preenchimento dos seus valores obrigatórios de certificado, DNS e firewall são especialmente importantes em comunicações entre equipes onde o gerenciamento da autoridade de certificação, a configuração de firewall e o DNS são gerenciados por equipes diferentes da equipe que planeja a implantação.</span><span class="sxs-lookup"><span data-stu-id="367d0-118">The diagrams and filling in your required certificate, DNS and firewall values is especially important in cross-team communications where the management of the certification authority, firewall configuration and DNS is managed by teams other than the team that plans the deployment.</span></span> <span data-ttu-id="367d0-119">Os diagramas fornecem informações sobre os componentes obrigatórios que podem ser usados para comunicar esses requisitos de colaboração entre a equipe.</span><span class="sxs-lookup"><span data-stu-id="367d0-119">The diagrams provide information on required components that can be used to communicate these requirements for cross-team collaboration.</span></span>
 
-**Servidor de Borda e Pool de borda**
+<span data-ttu-id="367d0-120">Os diagramas fornecidos são intencionalmente genéricos, mas permitem a coleta de todos os dados pertinentes que seriam necessários para a comunicação de requisitos em um cenário de equipe cruzado em que rede, firewall, criação e gerenciamento de certificados, servidor a implantação e o gerenciamento de servidor são manipulados por grupos diferentes.</span><span class="sxs-lookup"><span data-stu-id="367d0-120">The provided diagrams are intentionally generic, but allow for the collection of all pertinent data that would be necessary for communication of requirements in a cross team scenario where networking, firewall, certificate creation and management, server deployment, and server management are handled by different groups.</span></span> <span data-ttu-id="367d0-121">Ter os detalhes necessários para a configuração de redes, firewalls, portas e protocolos, certificados e servidores é inestimável quando a implantação do Lync Server está em andamento.</span><span class="sxs-lookup"><span data-stu-id="367d0-121">Having the required details for configuration of networking, firewalls, ports and protocols, certificates, and servers is invaluable when the deployment of Lync Server is underway.</span></span>
 
-![Servidor de Borda e Pool de Borda](images/Gg399008.7624717a-ce99-4ae8-a929-2c4d74a2e47d(OCS.15).jpg "Servidor de Borda e Pool de Borda")
+<span data-ttu-id="367d0-122">**Servidor de borda e o pool de bordas**</span><span class="sxs-lookup"><span data-stu-id="367d0-122">**Edge Server and Edge pool**</span></span>
 
-**Proxy Reverso**
+<span data-ttu-id="367d0-123">![7624717a-ce99-4ae8-A929-2c4d74a2e47d] (images/Gg399008.7624717a-ce99-4ae8-a929-2c4d74a2e47d(OCS.15).jpg "7624717a-ce99-4ae8-A929-2c4d74a2e47d")</span><span class="sxs-lookup"><span data-stu-id="367d0-123">![7624717a-ce99-4ae8-a929-2c4d74a2e47d](images/Gg399008.7624717a-ce99-4ae8-a929-2c4d74a2e47d(OCS.15).jpg "7624717a-ce99-4ae8-a929-2c4d74a2e47d")</span></span>
 
-![Proxy reverso](images/Gg399008.cf63fc50-2d11-4334-afc8-2d664ba1b6bb(OCS.15).jpg "Proxy reverso")
+<span data-ttu-id="367d0-124">**Proxy reverso**</span><span class="sxs-lookup"><span data-stu-id="367d0-124">**Reverse Proxy**</span></span>
 
-**Diretor ou Pool de diretores**
+<span data-ttu-id="367d0-125">![cf63fc50-2D11-4334-afc8-2d664ba1b6bb] (images/Gg399008.cf63fc50-2d11-4334-afc8-2d664ba1b6bb(OCS.15).jpg "cf63fc50-2D11-4334-afc8-2d664ba1b6bb")</span><span class="sxs-lookup"><span data-stu-id="367d0-125">![cf63fc50-2d11-4334-afc8-2d664ba1b6bb](images/Gg399008.cf63fc50-2d11-4334-afc8-2d664ba1b6bb(OCS.15).jpg "cf63fc50-2d11-4334-afc8-2d664ba1b6bb")</span></span>
 
-![Diretor e Pool de Diretores](images/Gg399008.56ba29ff-1309-4d5d-bf5c-35372169e947(OCS.15).jpg "Diretor e Pool de Diretores")
+<span data-ttu-id="367d0-126">**Pool de directors ou diretor**</span><span class="sxs-lookup"><span data-stu-id="367d0-126">**Director or Director pool**</span></span>
+
+<span data-ttu-id="367d0-127">![56ba29ff-1309-4d5d-bf5c-35372169e947] (images/Gg399008.56ba29ff-1309-4d5d-bf5c-35372169e947(OCS.15).jpg "56ba29ff-1309-4d5d-bf5c-35372169e947")</span><span class="sxs-lookup"><span data-stu-id="367d0-127">![56ba29ff-1309-4d5d-bf5c-35372169e947](images/Gg399008.56ba29ff-1309-4d5d-bf5c-35372169e947(OCS.15).jpg "56ba29ff-1309-4d5d-bf5c-35372169e947")</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
