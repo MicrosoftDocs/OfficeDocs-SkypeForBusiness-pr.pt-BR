@@ -1,27 +1,49 @@
-﻿---
-title: 'Lync Server 2013: Modelos de usuário'
-TOCTitle: Modelos de usuário no Lync Server 2013
-ms:assetid: c551371c-d740-4372-bada-f0d713ec0d33
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398811(v=OCS.15)
-ms:contentKeyID: 49886401
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: modelos de usuário'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync Server 2013 user models
+ms:assetid: c551371c-d740-4372-bada-f0d713ec0d33
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398811(v=OCS.15)
+ms:contentKeyID: 49733811
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8185fc2fdb92f907eb013349b8a202df2b7b62bb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844551"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Modelos de usuário no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="user-models-in-lync-server-2013"></a><span data-ttu-id="4416d-102">Modelos de usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4416d-102">User models in Lync Server 2013</span></span>
 
-Os modelos de usuário descritos aqui oferecem a base para as medições de planejamento de capacidade e recomendações descritas no [Planejamento de capacidade para Lync Server 2013 usando modelos de usuário](lync-server-2013-capacity-planning-using-the-user-models.md).
+</div>
 
-## Modelos de usuário do Lync Server 2013
+<div id="mainSection">
 
-A tabela a seguir descreve o modelo do usuário para registro, contato, mensagem instantânea (IM) e presença para Lync Server 2013.
+<div id="mainBody">
 
-### Modelo de usuário de ambiente e registro
+<span> </span>
+
+<span data-ttu-id="4416d-103">_**Tópico da última modificação:** 2013-10-07_</span><span class="sxs-lookup"><span data-stu-id="4416d-103">_**Topic Last Modified:** 2013-10-07_</span></span>
+
+<span data-ttu-id="4416d-104">Os modelos de usuário descritos aqui fornecem a base das medidas e das recomendações de planejamento de capacidade descritas no [planejamento da capacidade do Lync Server 2013 usando os modelos de usuário](lync-server-2013-capacity-planning-using-the-user-models.md).</span><span class="sxs-lookup"><span data-stu-id="4416d-104">The user models described here provide the basis for the capacity planning measurements and recommendations described in [Capacity planning for Lync Server 2013 using the user models](lync-server-2013-capacity-planning-using-the-user-models.md).</span></span>
+
+<div>
+
+## <a name="lync-server-2013-user-models"></a><span data-ttu-id="4416d-105">Modelos de usuário do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4416d-105">Lync Server 2013 User Models</span></span>
+
+<span data-ttu-id="4416d-106">A tabela a seguir descreve o modelo de usuário para registro, contatos, mensagens instantâneas (IM) e presença para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4416d-106">The following table describes the user model for registration, contacts, instant messaging (IM), and presence for Lync Server 2013.</span></span>
+
+### <a name="environment-and-registration-user-model"></a><span data-ttu-id="4416d-107">Modelo de usuário de ambiente e registro</span><span class="sxs-lookup"><span data-stu-id="4416d-107">Environment and Registration User Model</span></span>
 
 <table>
 <colgroup>
@@ -30,83 +52,88 @@ A tabela a seguir descreve o modelo do usuário para registro, contato, mensagem
 </colgroup>
 <thead>
 <tr class="header">
-<th>Categoria</th>
-<th>Descrição</th>
+<th><span data-ttu-id="4416d-108">Categoria</span><span class="sxs-lookup"><span data-stu-id="4416d-108">Category</span></span></th>
+<th><span data-ttu-id="4416d-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="4416d-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Tamanho da implantação e distribuição</p></td>
-<td><p>Modelamos uma grande implantação com três locais centrais, com um pool de Front-end por local.</p></td>
+<td><p><span data-ttu-id="4416d-110">Tamanho da implantação e distribuição</span><span class="sxs-lookup"><span data-stu-id="4416d-110">Deployment size and distribution</span></span></p></td>
+<td><p><span data-ttu-id="4416d-111">Modelamos uma grande implantação com três locais centrais, com um pool de Front-end por local.</span><span class="sxs-lookup"><span data-stu-id="4416d-111">We model a large deployment with three central sites, with one Front End pool per site.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Porcentagem de usuários do Active Directory</p></td>
-<td><p>Supomos que 70% de todos os usuários do Active Directory na organização estão habilitados para Lync Server. 80% desses usuários habilitados estão registrados no Lync Server diariamente (80% de simultaneidade). Os usuários simultâneos são a base para os números no restante desta seção.</p></td>
+<td><p><span data-ttu-id="4416d-112">Porcentagem de usuários do Active Directory</span><span class="sxs-lookup"><span data-stu-id="4416d-112">Percentage of Active Directory users</span></span></p></td>
+<td><p><span data-ttu-id="4416d-113">Presumimos que 70% de todos os usuários do Active Directory na organização estão habilitados para o Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4416d-113">We assume that 70% of all Active Directory users in the organization are enabled for Lync Server.</span></span> <span data-ttu-id="4416d-114">80% desses usuários habilitados estão conectados ao Lync Server por dia (80% de simultaneidade).</span><span class="sxs-lookup"><span data-stu-id="4416d-114">80% of those enabled users are logged on to Lync Server each day (80% concurrency).</span></span> <span data-ttu-id="4416d-115">Os usuários simultâneos são a base para os números no restante desta seção.</span><span class="sxs-lookup"><span data-stu-id="4416d-115">The concurrent users are the basis for the numbers in the rest of this section.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Mudanças do Active Directory</p></td>
-<td><p>Assumimos que 0,5% do total de usuários foram criados e habilitados para o Lync no Active Directory cada semana e que 0,5% do total de usuários são desabilitados do Active Directory e do Lync por semana. 5% dos usuários possuem pelo menos um atributo do Active Directory alterado cada semana.</p></td>
+<td><p><span data-ttu-id="4416d-116">Alterações do Active Directory</span><span class="sxs-lookup"><span data-stu-id="4416d-116">Active Directory changes</span></span></p></td>
+<td><p><span data-ttu-id="4416d-117">Presumimos que 0,5% do total de usuários são criados e habilitados para o Lync no Active Directory a cada semana, e que 0,5% do total de usuários são desativados do Active Directory e do Lync a cada semana.</span><span class="sxs-lookup"><span data-stu-id="4416d-117">We assume that 0.5% of total users are created and enabled for Lync in Active Directory each week, and that 0.5% of total users are disabled from Active Directory and from Lync each week.</span></span> <span data-ttu-id="4416d-118">5% dos usuários têm pelo menos um atributo do Active Directory alterado a cada semana.</span><span class="sxs-lookup"><span data-stu-id="4416d-118">5% of users have at least one Active Directory attribute changed each week.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Grupos de distribuição do Active Directory</p></td>
-<td><p>Supomos que o número de grupos de distribuição do Active Directory na organização seja igual a três vezes o número de todos os usuários no Active Directory. Os grupos de distribuição têm os seguintes tamanhos:</p>
+<td><p><span data-ttu-id="4416d-119">Grupos de distribuição do Active Directory</span><span class="sxs-lookup"><span data-stu-id="4416d-119">Active Directory distribution groups</span></span></p></td>
+<td><p><span data-ttu-id="4416d-120">Presumimos que o número de grupos de distribuição do Active Directory na organização é igual a três vezes o número de todos os usuários no Active Directory.</span><span class="sxs-lookup"><span data-stu-id="4416d-120">We assume that the number of Active Directory distribution groups in the organization is equal to three times the number of all users in Active Directory.</span></span> <span data-ttu-id="4416d-121">Os grupos de distribuição têm os seguintes tamanhos:</span><span class="sxs-lookup"><span data-stu-id="4416d-121">The distribution groups have the following sizes:</span></span></p>
 <ul>
-<li><p>64% têm de 2 a 30 usuários</p></li>
-<li><p>13% têm de 31 a 50 usuários</p></li>
-<li><p>10% têm de 51 a 100 usuários</p></li>
-<li><p>13% têm de 101 a 500 usuários</p></li>
+<li><p><span data-ttu-id="4416d-122">64% têm de 2 a 30 usuários</span><span class="sxs-lookup"><span data-stu-id="4416d-122">64% have 2-30 users</span></span></p></li>
+<li><p><span data-ttu-id="4416d-123">13% têm de 31 a 50 usuários</span><span class="sxs-lookup"><span data-stu-id="4416d-123">13% have 31-50 users</span></span></p></li>
+<li><p><span data-ttu-id="4416d-124">10% têm de 51 a 100 usuários</span><span class="sxs-lookup"><span data-stu-id="4416d-124">10% have 51-100 users</span></span></p></li>
+<li><p><span data-ttu-id="4416d-125">13% têm de 101 a 500 usuários</span><span class="sxs-lookup"><span data-stu-id="4416d-125">13% have 101-500 users</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Usuários de VoIP (Voz sobre IP)</p></td>
-<td><p>60% dos usuários do Lync Server estão habilitados para unified communications (UC) (isto é, seus números de telefone são pertencidos por Lync Server).</p></td>
+<td><p><span data-ttu-id="4416d-126">Usuários de VoIP (Voz sobre IP)</span><span class="sxs-lookup"><span data-stu-id="4416d-126">Voice over IP (VoIP) users</span></span></p></td>
+<td><p><span data-ttu-id="4416d-127">60% dos usuários do Lync Server são habilitados para comunicação unificada (ou seja, os números de telefone deles são pertencentes ao Lync Server).</span><span class="sxs-lookup"><span data-stu-id="4416d-127">60% of Lync Server users are enabled for unified communications (UC) (that is, their phone numbers are owned by Lync Server).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Distribuição dos cliente registrados</p></td>
-<td><p>65% dos clientes executam software do Lync 2013, incluindo Lync e Lync Phone Edition.</p>
-<p>30% dos clientes executam software cliente de uma versão anterior do Lync.</p>
-<p>5% dos clientes usam Lync Web App.</p>
-<p>Se a mobilidade está habilitada, assumimos que 40% dos usuários utilizam simultaneamente mobilidade e outras opções de cliente registrado citadas anteriormente. Nesse caso, a taxa do o ponto de presença múltiplo de cliente (MPOP) é de 1:1.9. Se a mobilidade está desabilitada, a taxa MPOP é de 1:1.5.</p></td>
+<td><p><span data-ttu-id="4416d-128">Distribuição dos cliente registrados</span><span class="sxs-lookup"><span data-stu-id="4416d-128">Registered client distribution</span></span></p></td>
+<td><p><span data-ttu-id="4416d-129">65% dos clientes executam o software Lync 2013, incluindo o Lync e o Lync Phone Edition.</span><span class="sxs-lookup"><span data-stu-id="4416d-129">65% of clients run Lync 2013 software, including Lync and Lync Phone Edition.</span></span></p>
+<p><span data-ttu-id="4416d-130">30% dos clientes que executam o software cliente a partir de uma versão anterior do Lync.</span><span class="sxs-lookup"><span data-stu-id="4416d-130">30% of clients running client software from a previous version of Lync.</span></span></p>
+<p><span data-ttu-id="4416d-131">5% de clientes usando o Lync Web App.</span><span class="sxs-lookup"><span data-stu-id="4416d-131">5% of clients using Lync Web App.</span></span></p>
+<p><span data-ttu-id="4416d-p104">Se a mobilidade está habilitada, assumimos que 40% dos usuários utilizam simultaneamente mobilidade e outras opções de cliente registrado citadas anteriormente. Nesse caso, a taxa do o ponto de presença múltiplo de cliente (MPOP) é de 1:1.9. Se a mobilidade está desabilitada, a taxa MPOP é de 1:1.5.</span><span class="sxs-lookup"><span data-stu-id="4416d-p104">If mobility is enabled, we assume that 40% of users are using mobility concurrently with the other previously cited registered client options. In this case the client multiple point of presence (MPOP) ratio is 1:1.9. If mobility is disabled, the MPOP ratio is 1:1.5.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Distribuição dos usuários remotos</p></td>
-<td><p>70% os usuários se conectam internamente.</p>
-<p>30% dos usuários se conectam por meio de um Servidor de Borda e um Diretor.</p></td>
+<td><p><span data-ttu-id="4416d-135">Distribuição dos usuários remotos</span><span class="sxs-lookup"><span data-stu-id="4416d-135">Remote user distribution</span></span></p></td>
+<td><p><span data-ttu-id="4416d-136">70% os usuários se conectam internamente.</span><span class="sxs-lookup"><span data-stu-id="4416d-136">70% of users connecting internally.</span></span></p>
+<p><span data-ttu-id="4416d-137">30% dos usuários se conectando por meio de um servidor de borda e um diretor.</span><span class="sxs-lookup"><span data-stu-id="4416d-137">30% of users connecting through an Edge Server and a Director.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Distribuição dos contatos</p></td>
-<td><p>O número máximo de contatos de um usuário é 1.000. Menos de um 1% dos usuários tem 1.000 contatos. Menos de 25% dos usuários têm 100 ou mais contatos.</p>
-<p>Média de 80 contatos para usuários com conectividade pública na nuvem. Desses usuários:</p>
+<td><p><span data-ttu-id="4416d-138">Distribuição dos contatos</span><span class="sxs-lookup"><span data-stu-id="4416d-138">Contact distribution</span></span></p></td>
+<td><p><span data-ttu-id="4416d-p105">O número máximo de contatos de um usuário é 1.000. Menos de um 1% dos usuários tem 1.000 contatos. Menos de 25% dos usuários têm 100 ou mais contatos.</span><span class="sxs-lookup"><span data-stu-id="4416d-p105">The maximum number of contacts a user has is 1,000. Less than 1% of users have 1,000 contacts. Less than 25% of users have 100 or more contacts.</span></span></p>
+<p><span data-ttu-id="4416d-p106">Média de 80 contatos para usuários com conectividade pública na nuvem. Desses usuários:</span><span class="sxs-lookup"><span data-stu-id="4416d-p106">Average of 80 contacts for users with public cloud connectivity. Of these users:</span></span></p>
 <ul>
-<li><p>50% dos contatos estão dentro da organização. 10% desses usuários são usuários remotos, se conectando de fora do firewall.</p></li>
-<li><p>40% dos contatos são usuários públicos na nuvem (como usuários do AOL, Yahoo!, MSN ou Google Talk).</p></li>
-<li><p>10% dos contatos são de parceiros federados.</p>
+<li><p><span data-ttu-id="4416d-p107">50% dos contatos estão dentro da organização. 10% desses usuários são usuários remotos, se conectando de fora do firewall.</span><span class="sxs-lookup"><span data-stu-id="4416d-p107">50% of the contacts are within the organization. 10% of those users are remote users, connecting from outside the firewall.</span></span></p></li>
+<li><p><span data-ttu-id="4416d-146">40% dos contatos são usuários da nuvem pública (como usuários do AOL, Yahoo!, MSN ou Google Talk).</span><span class="sxs-lookup"><span data-stu-id="4416d-146">40% of the contacts are public cloud users (such as users of AOL, Yahoo!, MSN, or Google Talk).</span></span></p></li>
+<li><p><span data-ttu-id="4416d-147">10% dos contatos são de parceiros federados.</span><span class="sxs-lookup"><span data-stu-id="4416d-147">10% of the contacts are from federated partners.</span></span></p>
+<div>
 
 > [!IMPORTANT]  
-> <ul>
-> <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>
-> <li><p>A PIC USL é uma licença de assinatura por mês e por usuário que é necessária para o Lync Server ou o Office Communications Server federar com o Yahoo! Messenger. A capacidade da Microsoft de fornecer este serviço depende do suporte do Yahoo!, o contrato subjacente que está sendo encerrado.</p></li>
-> <li><p>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre as organizações e com pessoas de todo o mundo. A federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além do CAL padrão do Lync. A federação do Skype será adicionada a esta lista, permitindo que os usuários do Lync para atinjam centenas de milhões de pessoas com mensagens instantâneas e de voz.</p></li></ul>
+> <UL>
+> <LI>
+> <P><span data-ttu-id="4416d-148">A partir de 1º de setembro de 2012, a licença de assinatura de usuário da conectividade de mensagem de chat pública do Microsoft Lync ("PIC USL") não está mais disponível para compra de contratos novos ou de renovação.</span><span class="sxs-lookup"><span data-stu-id="4416d-148">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements.</span></span> <span data-ttu-id="4416d-149">Os clientes com licenças ativas poderão continuar a federar-se com o Yahoo!</span><span class="sxs-lookup"><span data-stu-id="4416d-149">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="4416d-150">Messenger até a data de encerramento do serviço.</span><span class="sxs-lookup"><span data-stu-id="4416d-150">Messenger until the service shut down date.</span></span> <span data-ttu-id="4416d-151">Uma data de fim da vida útil de junho de 2014 para AOL e Yahoo!</span><span class="sxs-lookup"><span data-stu-id="4416d-151">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="4416d-152">foi anunciado.</span><span class="sxs-lookup"><span data-stu-id="4416d-152">has been announced.</span></span> <span data-ttu-id="4416d-153">Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">suporte para conectividade de mensagens instantâneas públicas no Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="4416d-153">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="4416d-154">O PIC USL é uma licença de assinatura por usuário por mês necessária para o Lync Server ou o Office Communications Server se federar com o Yahoo!</span><span class="sxs-lookup"><span data-stu-id="4416d-154">The PIC USL is a per-user per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="4416d-155">Spam.</span><span class="sxs-lookup"><span data-stu-id="4416d-155">Messenger.</span></span> <span data-ttu-id="4416d-156">A capacidade da Microsoft de oferecer esse serviço por meio do suporte do Yahoo!, o contrato subjacente para o qual está prestes a ser enrolado.</span><span class="sxs-lookup"><span data-stu-id="4416d-156">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which is winding down.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="4416d-157">Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre organizações e pessoas ao redor do mundo.</span><span class="sxs-lookup"><span data-stu-id="4416d-157">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="4416d-158">A Federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além da CAL padrão do Lync.</span><span class="sxs-lookup"><span data-stu-id="4416d-158">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="4416d-159">A Federação do Skype será adicionada a essa lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com mensagens instantâneas e voz.</span><span class="sxs-lookup"><span data-stu-id="4416d-159">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people with IM and voice.</span></span></P></LI></UL>
 
-</li>
+
+</div></li>
 </ul>
-<p>Média de 50 contatos para usuários sem conectividade pública na nuvem. Desses usuários:</p>
+<p><span data-ttu-id="4416d-p111">Média de 50 contatos para usuários sem conectividade pública na nuvem. Desses usuários:</span><span class="sxs-lookup"><span data-stu-id="4416d-p111">Average of 50 contacts for users without public cloud connectivity. Of these users:</span></span></p>
 <ul>
-<li><p>80% dos contatos estão dentro da organização. 10% desses usuários são usuários remotos, se conectando de fora do firewall.</p></li>
-<li><p>20% dos contatos são de parceiros federados.</p>
-<p>Cada usuário possui 1 grupo de distribuição em sua lista de contatos. Para testar o desempenho, assumimos que os grupos de distribuição são sempre expandidos.</p></li>
+<li><p><span data-ttu-id="4416d-p112">80% dos contatos estão dentro da organização. 10% desses usuários são usuários remotos, se conectando de fora do firewall.</span><span class="sxs-lookup"><span data-stu-id="4416d-p112">80% of the contacts are within the organization. 10% of those users are remote users, connecting from outside the firewall.</span></span></p></li>
+<li><p><span data-ttu-id="4416d-164">20% dos contatos são de parceiros federados.</span><span class="sxs-lookup"><span data-stu-id="4416d-164">20% of the contacts are from federated partners.</span></span></p>
+<p><span data-ttu-id="4416d-p113">Cada usuário possui 1 grupo de distribuição em sua lista de contatos. Para testar o desempenho, assumimos que os grupos de distribuição são sempre expandidos.</span><span class="sxs-lookup"><span data-stu-id="4416d-p113">Each user has 1 distribution group in their contact list. For performance testing, we assume that distribution groups are always expanded.</span></span></p></li>
 </ul>
-<p>25% dos contatos do usuário utilizam XMPP.</p></td>
+<p><span data-ttu-id="4416d-167">25% dos contatos de um usuário usam o XMPP.</span><span class="sxs-lookup"><span data-stu-id="4416d-167">25% of a user’s contacts use XMPP.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Tempo de sessão</p></td>
-<td><p>A sessão média de logon do usuário dura 12 horas. Todos os usuários fazem logon em até 120 minutos após o início da sessão.</p></td>
+<td><p><span data-ttu-id="4416d-168">Tempo de sessão</span><span class="sxs-lookup"><span data-stu-id="4416d-168">Session time</span></span></p></td>
+<td><p><span data-ttu-id="4416d-p114">A sessão média de logon do usuário dura 12 horas. Todos os usuários fazem logon em até 120 minutos após o início da sessão.</span><span class="sxs-lookup"><span data-stu-id="4416d-p114">The average user logon session lasts 12 hours. All users log on within 120 minutes of the start of the session.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Modelo de usuário de IM e presença
+### <a name="im-and-presence-user-model"></a><span data-ttu-id="4416d-171">Modelo de usuário de IM e presença</span><span class="sxs-lookup"><span data-stu-id="4416d-171">IM and Presence User Model</span></span>
 
 <table>
 <colgroup>
@@ -115,50 +142,49 @@ A tabela a seguir descreve o modelo do usuário para registro, contato, mensagem
 </colgroup>
 <thead>
 <tr class="header">
-<th>Categoria</th>
-<th>Descrição</th>
+<th><span data-ttu-id="4416d-172">Categoria</span><span class="sxs-lookup"><span data-stu-id="4416d-172">Category</span></span></th>
+<th><span data-ttu-id="4416d-173">Descrição</span><span class="sxs-lookup"><span data-stu-id="4416d-173">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Sessões de IM ponto a ponto</p></td>
-<td><p>Cada usuário tem em média seis sessões de IM ponto a ponto por dia.</p>
-<p>10 mensagens instantâneas por sessão.</p>
-<p>Cada mensagem é correspondida com duas mensagens de INFO SIP e 2 mensagens SIP 200 OK (para os indicadores de status como “&lt;Name&gt; está digitando”)</p></td>
+<td><p><span data-ttu-id="4416d-174">Sessões de IM ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="4416d-174">Peer-to-peer IM sessions</span></span></p></td>
+<td><p><span data-ttu-id="4416d-175">Cada usuário tem em média seis sessões de IM ponto a ponto por dia.</span><span class="sxs-lookup"><span data-stu-id="4416d-175">Each user averages six peer-to-peer IM sessions per day.</span></span></p>
+<p><span data-ttu-id="4416d-176">10 mensagens instantâneas por sessão.</span><span class="sxs-lookup"><span data-stu-id="4416d-176">10 instant messages per session.</span></span></p>
+<p><span data-ttu-id="4416d-177">Cada mensagem é correspondida por duas mensagens SIP INFO e duas mensagens SIP 200 OK (para os indicadores de status, como&lt;"&gt; nome está digitando")</span><span class="sxs-lookup"><span data-stu-id="4416d-177">Each message is matched by two SIP INFO messages and 2 SIP 200 OK messages (for the status indicators such as “&lt;Name&gt; is Typing”)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Sondagem de presença</p></td>
-<td><p>Em geral, supomos o pool de presença com uma média de 60 pools por usuário, por hora. Para cada usuário, suponha uma média de:</p>
+<td><p><span data-ttu-id="4416d-178">Sondagem de presença</span><span class="sxs-lookup"><span data-stu-id="4416d-178">Presence polling</span></span></p></td>
+<td><p><span data-ttu-id="4416d-p115">Em geral, supomos o pool de presença com uma média de 60 pools por usuário, por hora. Para cada usuário, suponha uma média de:</span><span class="sxs-lookup"><span data-stu-id="4416d-p115">Overall, we assume presence polling at an average of 60 polls per user per hour. For each user, assume an average of:</span></span></p>
 <ul>
-<li><p>Um pool por dia de presença de usuários na guia organização do usuário (mas não na Lista de contatos). O número médio de não contatos na guia organização do usuário é de 15 usuários. Dois cartões de visita visualizando operações por dia.</p></li>
-<li><p>Um pool de presença sempre que o usuário clica em outro usuário para começar uma conversa, estimativa de uma vez por hora.</p></li>
-<li><p>Seis pesquisas do usuário por hora. Cada vez que uma pesquisa é realizada, um pool de lote é enviado para todos na lista de resultados da pesquisa. Suponha que o tamanho médio dos resultados da pesquisa é 20. Se os resultados da pesquisa permanecem na tela, o pool de lote é atualizado a cada 5 minutos; assumimos que haverá duas atualizações por hora.</p></li>
-<li><p>Quando o usuário abre ou visualiza um email no Outlook, um pool de presença de usuários nos campos Para: e Cc: do email, com estimativa de cinco emails por hora e quatro usuários por email.</p></li>
+<li><p><span data-ttu-id="4416d-p116">Um pool por dia de presença de usuários na guia organização do usuário (mas não na Lista de contatos). O número médio de não contatos na guia organização do usuário é de 15 usuários. Dois cartões de visita visualizando operações por dia.</span><span class="sxs-lookup"><span data-stu-id="4416d-p116">One poll per day of the presence of users in the user’s organization tab (but not Contacts list). Average number of non-contacts in the user’s organization tab is 15 users. Two contact card viewing operations per day.</span></span></p></li>
+<li><p><span data-ttu-id="4416d-184">Um pool de presença sempre que o usuário clica em outro usuário para começar uma conversa, estimativa de uma vez por hora.</span><span class="sxs-lookup"><span data-stu-id="4416d-184">One presence poll every time the user clicks another user to start a conversation, estimated at once per hour.</span></span></p></li>
+<li><p><span data-ttu-id="4416d-p117">Seis pesquisas do usuário por hora. Cada vez que uma pesquisa é realizada, um pool de lote é enviado para todos na lista de resultados da pesquisa. Suponha que o tamanho médio dos resultados da pesquisa é 20. Se os resultados da pesquisa permanecem na tela, o pool de lote é atualizado a cada 5 minutos; assumimos que haverá duas atualizações por hora.</span><span class="sxs-lookup"><span data-stu-id="4416d-p117">Six user searches per hour. Every time a search is performed, a batch poll is sent for everyone in the search result list. We assume the average size of search results is 20. If the search results stay on screen, the batch poll is refreshed every 5 minutes; we assume that there will be two such refreshes per hour.</span></span></p></li>
+<li><p><span data-ttu-id="4416d-189">Quando o usuário abre ou visualiza um email no Outlook, um pool de presença de usuários nos campos Para: e Cc: do email, com estimativa de cinco emails por hora e quatro usuários por email.</span><span class="sxs-lookup"><span data-stu-id="4416d-189">When the user opens or previews an email in Outlook, a poll of the presence of users in the To: and CC: fields of the email, estimated at five emails per hour and four users per email.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Assinaturas de presença</p></td>
-<td><p>Quando um usuário adiciona outro como contato, o primeiro usuário está se <em>inscrevendo</em> em cinco categorias de informação sobre o segundo usuário. As atualizações dessas categorias de informação são automaticamente enviadas ao primeiro usuário.</p>
-<p>Para cada cliente, uma única solicitação de inscrição em lote é enviada para obter o estado de presença em uma média de 40 contatos, com 40 diálogos adicionais para obter presença de contatos federados.</p>
-<p>A presença de membros de um grupo de distribuição expandido é encontrada através de inscrições de presença persistente, não pool, e é modelada como 1 expansão por usuário para cada 2 horas.</p>
-<p><em>Descrições curtas</em> ocorrem quando um usuário faz o login, há uma inscrição de lote para todos os contatos do usuário e o usuário faz o logoff logo. Assumimos 6 inscrições curtas por usuário, por hora, onde cada inscrição dura 10 minutos.</p></td>
+<td><p><span data-ttu-id="4416d-190">Assinaturas de presença</span><span class="sxs-lookup"><span data-stu-id="4416d-190">Presence subscriptions</span></span></p></td>
+<td><p><span data-ttu-id="4416d-p118">Quando um usuário adiciona outro como contato, o primeiro usuário está se <em>inscrevendo</em> em cinco categorias de informação sobre o segundo usuário. As atualizações dessas categorias de informação são automaticamente enviadas ao primeiro usuário.</span><span class="sxs-lookup"><span data-stu-id="4416d-p118">When one user adds another as a contact, the first user is <em>subscribing</em> to five categories of information about the second user. Updates of these categories of information are automatically sent to the first user.</span></span></p>
+<p><span data-ttu-id="4416d-193">Para cada cliente, uma única solicitação de inscrição em lote é enviada para obter o estado de presença em uma média de 40 contatos, com 40 diálogos adicionais para obter presença de contatos federados.</span><span class="sxs-lookup"><span data-stu-id="4416d-193">For each client, a single batch subscription request is sent to obtain the presence state of an average of 40 contacts, with an additional 40 dialogs to obtain presence for federated contacts.</span></span></p>
+<p><span data-ttu-id="4416d-194">A presença de membros de um grupo de distribuição expandido é encontrada através de inscrições de presença persistente, não pool, e é modelada como 1 expansão por usuário para cada 2 horas.</span><span class="sxs-lookup"><span data-stu-id="4416d-194">Presence for members of an expanded distribution group is found through persistent presence subscriptions, not polling, and is modeled as 1 expansion per user for each 2 hours.</span></span></p>
+<p><span data-ttu-id="4416d-p119"><em>Descrições curtas</em> ocorrem quando um usuário faz o logon, há uma inscrição de lote para todos os contatos do usuário e o usuário faz o logoff logo. Assumimos 6 inscrições curtas por usuário, por hora, onde cada inscrição dura 10 minutos.</span><span class="sxs-lookup"><span data-stu-id="4416d-p119"><em>Short subscriptions</em> happen when a user logs in, there is a batch subscription for all the user’s contacts, and then the user soon logs off. We assume 6 short subscriptions per user per hour, where each subscription lasts 10 minutes.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Publicação de Presença</p></td>
-<td><p>O estado de presença é publicado em uma média de 4 publicações por usuário, por hora, com um máximo de 6 por usuário, por hora.</p>
-<p></p></td>
+<td><p><span data-ttu-id="4416d-197">Publicação de Presença</span><span class="sxs-lookup"><span data-stu-id="4416d-197">Presence Publication</span></span></p></td>
+<td><p><span data-ttu-id="4416d-198">O estado de presença é publicado em uma média de 4 publicações por usuário, por hora, com um máximo de 6 por usuário, por hora.</span><span class="sxs-lookup"><span data-stu-id="4416d-198">Presence state is published at an average of 4 publications per user per hour, with a maximum 6 per user per hour.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Tamanho do Documento de Presença</p></td>
-<td><p>O tamanho médio de um documento de presença completo é assumido como 4K, com um máximo de 25K.</p></td>
+<td><p><span data-ttu-id="4416d-199">Tamanho do Documento de Presença</span><span class="sxs-lookup"><span data-stu-id="4416d-199">Presence Document Size</span></span></p></td>
+<td><p><span data-ttu-id="4416d-200">O tamanho médio de um documento de presença completo é assumido como 4K, com um máximo de 25K.</span><span class="sxs-lookup"><span data-stu-id="4416d-200">The average size of a complete presence document is assumed to be 4K, with a maximum of 25K.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-A tabela a seguir descreve o modelo de usuário para uso do catálogo de endereços.
+<span data-ttu-id="4416d-201">A tabela a seguir descreve o modelo de usuário para uso do catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="4416d-201">The following table describes the user model for address book use.</span></span>
 
-### Modelo de usuário para uso do catálogo de endereços
+### <a name="address-book-usage-user-model"></a><span data-ttu-id="4416d-202">Modelo de usuário para uso do catálogo de endereços</span><span class="sxs-lookup"><span data-stu-id="4416d-202">Address Book Usage User Model</span></span>
 
 <table>
 <colgroup>
@@ -167,31 +193,31 @@ A tabela a seguir descreve o modelo de usuário para uso do catálogo de endere�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Modo de pesquisa do Catálogo de endereços</th>
-<th>Uso</th>
+<th><span data-ttu-id="4416d-203">Modo de pesquisa do Catálogo de endereços</span><span class="sxs-lookup"><span data-stu-id="4416d-203">Address Book search mode</span></span></th>
+<th><span data-ttu-id="4416d-204">Uso</span><span class="sxs-lookup"><span data-stu-id="4416d-204">Usage</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Consulta da web do Catálogo de endereços somente (todas as consultas realizadas pelo serviço Consulta da web do Catálogo de endereços)</p></td>
-<td><p>Quatro consultas de prefixo por usuário, por dia.</p>
-<p>60 consultas de pesquisa exatas por usuário, por dia. 40% delas são em lote, com uma média de 20 contatos por consulta. Os outros 60% das consultas servem para um único contato.</p>
-<p>25 consultas de foto por usuário, por dia. 24 para uma única foto, o restante é uma consulta em lote com uma média de 20 contatos.</p>
-<p>Uma consulta de pesquisa de organização por usuário, por dia.</p></td>
+<td><p><span data-ttu-id="4416d-205">Consulta da web do Catálogo de endereços somente (todas as consultas realizadas pelo serviço Consulta da web do Catálogo de endereços)</span><span class="sxs-lookup"><span data-stu-id="4416d-205">Address Book Web Query only (all queries performed by Address Book Web Query service)</span></span></p></td>
+<td><p><span data-ttu-id="4416d-206">Quatro consultas de prefixo por usuário, por dia.</span><span class="sxs-lookup"><span data-stu-id="4416d-206">Four prefix queries per user per day.</span></span></p>
+<p><span data-ttu-id="4416d-p120">60 consultas de pesquisa exatas por usuário, por dia. 40% delas são em lote, com uma média de 20 contatos por consulta. Os outros 60% das consultas servem para um único contato.</span><span class="sxs-lookup"><span data-stu-id="4416d-p120">60 exact search queries per user per day. 40% of those are batched, with an average of 20 contacts per query. The other 60% of the queries are for a single contact.</span></span></p>
+<p><span data-ttu-id="4416d-p121">25 consultas de foto por usuário, por dia. 24 para uma única foto, o restante é uma consulta em lote com uma média de 20 contatos.</span><span class="sxs-lookup"><span data-stu-id="4416d-p121">25 photo queries per user per day. 24 are for a single photo, the other is a batch query with an average of 20 contacts.</span></span></p>
+<p><span data-ttu-id="4416d-212">Uma consulta de pesquisa de organização por usuário, por dia.</span><span class="sxs-lookup"><span data-stu-id="4416d-212">One total organization search query per user per day.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Modo misto, arquivo do catálogo de endereços e consultas da web usadas. Esse é o modo padrão.</p></td>
-<td><p>Somente dois tipos de consulta vão para a rede, as consultas de pesquisa de foto e organizacional total.</p>
-<p>25 consultas de foto por usuário, por dia. 24 para uma única foto, o restante é uma consulta em lote com uma média de 20 contatos.</p>
-<p>Uma consulta de pesquisa de organização por usuário, por dia.</p></td>
+<td><p><span data-ttu-id="4416d-p122">Modo misto, arquivo do catálogo de endereços e consultas da web usadas. Esse é o modo padrão.</span><span class="sxs-lookup"><span data-stu-id="4416d-p122">Mixed mode, both address book file and web queries used. This is the default mode.</span></span></p></td>
+<td><p><span data-ttu-id="4416d-215">Somente dois tipos de consulta vão para a rede, as consultas de pesquisa de foto e organizacional total.</span><span class="sxs-lookup"><span data-stu-id="4416d-215">Only two types of queries go to the network, the photo and total organizational search queries.</span></span></p>
+<p><span data-ttu-id="4416d-p123">25 consultas de foto por usuário, por dia. 24 para uma única foto, o restante é uma consulta em lote com uma média de 20 contatos.</span><span class="sxs-lookup"><span data-stu-id="4416d-p123">25 photo queries per user per day. 24 are for a single photo, the other is a batch query with an average of 20 contacts.</span></span></p>
+<p><span data-ttu-id="4416d-218">Uma consulta de pesquisa de organização por usuário, por dia.</span><span class="sxs-lookup"><span data-stu-id="4416d-218">One total organization search query per user per day.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-A tabela a seguir descreve o modelo de conferência.
+<span data-ttu-id="4416d-219">A tabela a seguir descreve o modelo de conferência.</span><span class="sxs-lookup"><span data-stu-id="4416d-219">The following table describes the conferencing model.</span></span>
 
-### Modelo de conferência
+### <a name="conferencing-model"></a><span data-ttu-id="4416d-220">Modelo de conferência</span><span class="sxs-lookup"><span data-stu-id="4416d-220">Conferencing Model</span></span>
 
 <table>
 <colgroup>
@@ -200,87 +226,90 @@ A tabela a seguir descreve o modelo de conferência.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Categoria</th>
-<th>Descrição</th>
+<th><span data-ttu-id="4416d-221">Categoria</span><span class="sxs-lookup"><span data-stu-id="4416d-221">Category</span></span></th>
+<th><span data-ttu-id="4416d-222">Descrição</span><span class="sxs-lookup"><span data-stu-id="4416d-222">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Reuniões agendadas versus reuniões do tipo &quot;Reunir Agora&quot;</p></td>
-<td><p>60% agendadas, 40% não agendadas.</p>
-<p>Das reuniões programadas, assumimos que 80% são conferências atribuídas, que são ocorrências de conferências recorrentes; 10% são reuniões abertas uma vez; 8% são reuniões anônimas únicas, e 2% são reuniões fechadas uma vez.</p></td>
+<td><p><span data-ttu-id="4416d-223">Reuniões agendadas &quot;em reuniões&quot; já cumpridas</span><span class="sxs-lookup"><span data-stu-id="4416d-223">Scheduled meetings versus &quot;Meet now&quot; meetings</span></span></p></td>
+<td><p><span data-ttu-id="4416d-224">60% agendadas, 40% não agendadas.</span><span class="sxs-lookup"><span data-stu-id="4416d-224">60% scheduled, 40% unscheduled.</span></span></p>
+<p><span data-ttu-id="4416d-225">Das reuniões agendadas, presumimos que os 80% são conferências atribuídas, que são ocorrências de conferências recorrentes; 10% são reuniões abertas uma única vez; 8% são reuniões anônimas únicas e 2% são reuniões com um único tempo fechado.</span><span class="sxs-lookup"><span data-stu-id="4416d-225">Of the scheduled meetings, we assume that 80% are assigned conferences, which are occurences of recurring conferences; 10% are one-time open meetings; 8% are one-time anonymous meetings, and 2% are one-time closed meetings.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Distribuição de cliente de conferência</p></td>
-<td><p>Para reuniões agendadas:</p>
+<td><p><span data-ttu-id="4416d-226">Distribuição de cliente de conferência</span><span class="sxs-lookup"><span data-stu-id="4416d-226">Conferencing client distribution</span></span></p></td>
+<td><p><span data-ttu-id="4416d-227">Para reuniões agendadas:</span><span class="sxs-lookup"><span data-stu-id="4416d-227">For scheduled meetings:</span></span></p>
 <ul>
-<li><p>65% dos usuários de conferência utilizam Lync 2013.</p></li>
-<li><p>5% dos usuários de conferência utilizam Microsoft Lync Web App.</p></li>
-<li><p>30% dos usuários de conferência utilizam clientes anteriores, incluindo Microsoft Lync 2010, Office Communicator 2007 R2, Office Communicator 2007 e Microsoft Office Communicator Web Access (versão 2007).</p></li>
+<li><p><span data-ttu-id="4416d-228">65% de usuários de conferência usam o Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="4416d-228">65% of conferencing users use Lync 2013.</span></span></p></li>
+<li><p><span data-ttu-id="4416d-229">5% dos usuários de conferência usam o Microsoft Lync Web App.</span><span class="sxs-lookup"><span data-stu-id="4416d-229">5% of conferencing users use Microsoft Lync Web App.</span></span></p></li>
+<li><p><span data-ttu-id="4416d-230">30% dos usuários de conferência usam clientes anteriores, incluindo o Microsoft Lync 2010, o Office Communicator 2007 R2, o Office Communicator 2007 e o Microsoft Office Communicator Web Access (versão 2007).</span><span class="sxs-lookup"><span data-stu-id="4416d-230">30% of conferencing users use earlier clients, including Microsoft Lync 2010, Office Communicator 2007 R2, Office Communicator 2007, and Microsoft Office Communicator Web Access (2007 release).</span></span></p></li>
 </ul>
-<p>Para reuniões não agendadas:</p>
+<p><span data-ttu-id="4416d-231">Para reuniões não agendadas:</span><span class="sxs-lookup"><span data-stu-id="4416d-231">For unscheduled meetings:</span></span></p>
 <ul>
-<li><p>70% dos usuários de conferência utilizam Lync 2013.</p></li>
-<li><p>30% dos usuários de conferência utilizam clientes anteriores, incluindo Microsoft Lync 2010, Office Communicator 2007 R2, Office Communicator 2007 e Microsoft Office Communicator Web Access (versão 2007).</p></li>
+<li><p><span data-ttu-id="4416d-232">70% de usuários de conferência usam o Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="4416d-232">70% of conferencing users use Lync 2013.</span></span></p></li>
+<li><p><span data-ttu-id="4416d-233">30% dos usuários de conferência usam clientes anteriores, incluindo o Microsoft Lync 2010, o Office Communicator 2007 R2, o Office Communicator 2007 e o Microsoft Office Communicator Web Access (versão 2007).</span><span class="sxs-lookup"><span data-stu-id="4416d-233">30% of conferencing users use earlier clients, including Microsoft Lync 2010, Office Communicator 2007 R2, Office Communicator 2007, and Microsoft Office Communicator Web Access (2007 release).</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Simultaneidade de reunião</p></td>
-<td><p>5% dos usuários estarão em conferências durante as horas de trabalho. Dessa forma, em um pool de 80.000 usuários, 4.000 usuários poderão estar em conferências a qualquer momento.</p></td>
+<td><p><span data-ttu-id="4416d-234">Simultaneidade de reunião</span><span class="sxs-lookup"><span data-stu-id="4416d-234">Meeting concurrency</span></span></p></td>
+<td><p><span data-ttu-id="4416d-p124">5% dos usuários estarão em conferências durante as horas de trabalho. Dessa forma, em um pool de 80.000 usuários, 4.000 usuários poderão estar em conferências a qualquer momento.</span><span class="sxs-lookup"><span data-stu-id="4416d-p124">5% of users will be in conferences during working hours. Thus, in an 80,000-user pool, as many as 4,000 users might be in conferences at any one time.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Distribuição do áudio de reunião</p></td>
-<td><p>40% de combinação entre conferência de áudio VoIP e discada, com uma proporção de 3:1 de usuários VoIP para usuários discados.</p>
-<p>35% somente de áudio VoIP.</p>
-<p>15% somente de áudio de conferência discada.</p>
-<p>10% sem áudio (conferências somente de IM, com uma média de cinco mensagens enviadas por usuário).</p></td>
+<td><p><span data-ttu-id="4416d-237">Distribuição do áudio de reunião</span><span class="sxs-lookup"><span data-stu-id="4416d-237">Meeting audio distribution</span></span></p></td>
+<td><p><span data-ttu-id="4416d-238">40% de combinação entre conferência de áudio VoIP e discada, com uma proporção de 3:1 de usuários VoIP para usuários discados.</span><span class="sxs-lookup"><span data-stu-id="4416d-238">40% mixed VoIP audio and dial-in conferencing, with a 3:1 ratio of VoIP users to dial-in users.</span></span></p>
+<p><span data-ttu-id="4416d-239">35% somente de áudio VoIP.</span><span class="sxs-lookup"><span data-stu-id="4416d-239">35% VoIP audio only.</span></span></p>
+<p><span data-ttu-id="4416d-240">15% somente de áudio de conferência discada.</span><span class="sxs-lookup"><span data-stu-id="4416d-240">15% dial-in conferencing audio only.</span></span></p>
+<p><span data-ttu-id="4416d-241">10% sem áudio (conferências somente de IM, com uma média de cinco mensagens enviadas por usuário).</span><span class="sxs-lookup"><span data-stu-id="4416d-241">10% no audio (IM-only conferences, with an average of five messages sent per user).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Combinação de mídias para conferências</p></td>
-<td><p>75% das conferências são conferências da Web, com áudio mais alguma outra modalidade de colaboração.</p>
-<p>Para essas conferências, os outros métodos de colaboração são os seguintes:</p>
+<td><p><span data-ttu-id="4416d-242">Combinação de mídias para conferências</span><span class="sxs-lookup"><span data-stu-id="4416d-242">Media mix for conferences</span></span></p></td>
+<td><p><span data-ttu-id="4416d-243">75% das conferências são conferências da Web, com áudio mais alguma outra modalidade de colaboração.</span><span class="sxs-lookup"><span data-stu-id="4416d-243">75% of conferences are web conferences, which include audio plus some other collaboration modalities.</span></span></p>
+<p><span data-ttu-id="4416d-244">Para essas conferências, os outros métodos de colaboração são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="4416d-244">For these conferences, the other collaboration methods are as follows:</span></span></p>
+<div>
 
 > [!NOTE]  
-> Esses números somam mais de 100%, pois uma conferência pode ter vários métodos de colaboração.
+> <span data-ttu-id="4416d-245">Esses números somam mais de 100%, pois uma conferência pode ter vários métodos de colaboração.</span><span class="sxs-lookup"><span data-stu-id="4416d-245">These numbers add up to more than 100% because one conference can have multiple collaboration methods.</span></span>
 
+
+</div>
 <ul>
-<li><p>50% adiciona compartilhamento de aplicativos. Assumimos que um usuário envia dados a um pico de 1,1 MB por segundo.</p></li>
-<li><p>50% adicionam mensagem instantânea (com média de 2 mensagens por usuário).</p></li>
-<li><p>20% de colaboração de dados adicionados, incluindo PowerPoint ou quadro de anotações. Nestes, uma média de 2 arquivos 2 PowerPoint apresentados por conferência, com um tamanho de arquivo médio do PowerPoint de 10 MB (sem vídeo integrado) ou 30 MB (com vídeo integrado). Média de 20 anotações por quadro de anotações.</p></li>
-<li><p>20% de vídeo adicionado. Destes usuários, 70% estão em conferências habilitadas para vídeo multivisualização, onde cada usuário recebe 2-3 fluxos de vídeo.</p></li>
-<li><p>15% notas compartilhadas adicionadas.</p></li>
+<li><p><span data-ttu-id="4416d-p125">50% adiciona compartilhamento de aplicativos. Assumimos que um usuário envia dados a um pico de 1,1 MB por segundo.</span><span class="sxs-lookup"><span data-stu-id="4416d-p125">50% add application sharing. We assume one users sends data at a peak of 1.1 MB per second.</span></span></p></li>
+<li><p><span data-ttu-id="4416d-248">50% adicionam mensagem instantânea (com média de 2 mensagens por usuário).</span><span class="sxs-lookup"><span data-stu-id="4416d-248">50% add instant messaging (with an average of 2 messages per user).</span></span></p></li>
+<li><p><span data-ttu-id="4416d-p126">20% de colaboração de dados adicionados, incluindo PowerPoint ou quadro de anotações. Nestes, uma média de 2 arquivos 2 PowerPoint apresentados por conferência, com um tamanho de arquivo médio do PowerPoint de 10 MB (sem vídeo integrado) ou 30 MB (com vídeo integrado). Média de 20 anotações por quadro de anotações.</span><span class="sxs-lookup"><span data-stu-id="4416d-p126">20% add data collaboration, including PowerPoint or whiteboard In these, an average of 2 PowerPoint files presented per conference, with an average PowerPoint file size of 10 MB (without embedded video) or 30 MB (with embedded video). Average of 20 annotations per whiteboard.</span></span></p></li>
+<li><p><span data-ttu-id="4416d-p127">20% de vídeo adicionado. Destes usuários, 70% estão em conferências habilitadas para vídeo multivisualização, onde cada usuário recebe 2-3 fluxos de vídeo.</span><span class="sxs-lookup"><span data-stu-id="4416d-p127">20% add video. Of these users, 70% are in conferences enabled for multiview video, where each user receives 2-3 video streams.</span></span></p></li>
+<li><p><span data-ttu-id="4416d-253">15% notas compartilhadas adicionadas.</span><span class="sxs-lookup"><span data-stu-id="4416d-253">15% add shared notes.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Distribuição dos participantes da reunião</p></td>
-<td><p>50% de usuários internos autenticados.</p>
-<p>25% de usuários de acesso remoto autenticados.</p>
-<p>15% de usuários anônimos.</p>
-<p>10% de usuários federados.</p></td>
+<td><p><span data-ttu-id="4416d-254">Distribuição dos participantes da reunião</span><span class="sxs-lookup"><span data-stu-id="4416d-254">Meeting participant distribution</span></span></p></td>
+<td><p><span data-ttu-id="4416d-255">50% de usuários internos autenticados.</span><span class="sxs-lookup"><span data-stu-id="4416d-255">50% internal, authenticated users.</span></span></p>
+<p><span data-ttu-id="4416d-256">25% de usuários de acesso remoto autenticados.</span><span class="sxs-lookup"><span data-stu-id="4416d-256">25% remote access, authenticated users.</span></span></p>
+<p><span data-ttu-id="4416d-257">15% de usuários anônimos.</span><span class="sxs-lookup"><span data-stu-id="4416d-257">15% anonymous users.</span></span></p>
+<p><span data-ttu-id="4416d-258">10% de usuários federados.</span><span class="sxs-lookup"><span data-stu-id="4416d-258">10% federated users.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Distribuição de ingresso na reunião</p></td>
-<td><p>Os usuários são simulados como participação da reunião dentro dos primeiros 5 minutos.</p></td>
+<td><p><span data-ttu-id="4416d-259">Distribuição de ingresso na reunião</span><span class="sxs-lookup"><span data-stu-id="4416d-259">Meeting join distribution</span></span></p></td>
+<td><p><span data-ttu-id="4416d-260">Os usuários são simulados como participação da reunião dentro dos primeiros 5 minutos.</span><span class="sxs-lookup"><span data-stu-id="4416d-260">Users are simulated as joining the meeting within the first 5 minutes.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-Em pools de Front-End regulares, o Lync Server 2013 possui um tamanho de reunião suportado máximo de 250 usuários. Cada pool pode hospedar uma reunião de 250 usuários por vez. Enquanto esta grande reunião está ocorrendo, o pool também pode hospedar outras conferências menores. Além disso, é possível suportar reuniões de até 1000 usuários configurando um pool exclusivo para hospedar estas reuniões. Para obter detalhes, consulte [Suporte a reuniões grandes no Lync Server 2013](lync-server-2013-support-for-large-meetings.md).
+<span data-ttu-id="4416d-261">Em pools de front-end regulares, o Lync Server 2013 tem um tamanho máximo de reunião compatível com 250 usuários.</span><span class="sxs-lookup"><span data-stu-id="4416d-261">In regular Front End pools, Lync Server 2013 has a maximum supported meeting size of 250 users.</span></span> <span data-ttu-id="4416d-262">Cada pool pode hospedar uma reunião de 250 usuários por vez.</span><span class="sxs-lookup"><span data-stu-id="4416d-262">Each pool can host one 250-user meeting at a time.</span></span> <span data-ttu-id="4416d-263">Enquanto esta grande reunião está ocorrendo, o pool também pode hospedar outras conferências menores.</span><span class="sxs-lookup"><span data-stu-id="4416d-263">While this large meeting is occurring, the pool can also host other smaller conferences.</span></span> <span data-ttu-id="4416d-264">Além disso, é possível suportar reuniões de até 1000 usuários configurando um pool exclusivo para hospedar estas reuniões.</span><span class="sxs-lookup"><span data-stu-id="4416d-264">Additionally, you can support meetings of up to 1000 users by setting up a dedicated pool to host these meetings.</span></span> <span data-ttu-id="4416d-265">Para obter detalhes, consulte [suporte para reuniões grandes no Lync Server 2013](lync-server-2013-support-for-large-meetings.md).</span><span class="sxs-lookup"><span data-stu-id="4416d-265">For details, see [Support for large meetings in Lync Server 2013](lync-server-2013-support-for-large-meetings.md).</span></span>
 
-Conferências foram simuladas como a seguir:
+<span data-ttu-id="4416d-266">Conferências foram simuladas como a seguir:</span><span class="sxs-lookup"><span data-stu-id="4416d-266">Conferences were simulated as follows:</span></span>
 
-  - 85% das conferências tinham quatro participantes.
+  - <span data-ttu-id="4416d-267">85% das conferências tinham quatro participantes.</span><span class="sxs-lookup"><span data-stu-id="4416d-267">85% of conferences had four participants.</span></span>
 
-  - 10% das conferências tinham seis participantes.
+  - <span data-ttu-id="4416d-268">10% das conferências tinham seis participantes.</span><span class="sxs-lookup"><span data-stu-id="4416d-268">10% of conferences had six participants.</span></span>
 
-  - 5% das conferências tinham 11 participantes.
+  - <span data-ttu-id="4416d-269">5% das conferências tinham 11 participantes.</span><span class="sxs-lookup"><span data-stu-id="4416d-269">5% of conferences had 11 participants.</span></span>
 
-  - Uma grande conferência de 250 usuários.
+  - <span data-ttu-id="4416d-270">Uma grande conferência de 250 usuários.</span><span class="sxs-lookup"><span data-stu-id="4416d-270">One large conference of 250 users.</span></span>
 
-A tabela a seguir fornece detalhes sobre o modelo de usuário para conferências envolvendo usuários discados.
+<span data-ttu-id="4416d-271">A tabela a seguir fornece detalhes sobre o modelo de usuário para conferências envolvendo usuários discados.</span><span class="sxs-lookup"><span data-stu-id="4416d-271">The following table provides details about the user model for conferences involving dial-in users.</span></span>
 
-### Modelo de usuário de conferência discada
+### <a name="dial-in-conferencing-user-model"></a><span data-ttu-id="4416d-272">Modelo de usuário de conferência discada</span><span class="sxs-lookup"><span data-stu-id="4416d-272">Dial-In Conferencing User Model</span></span>
 
 <table>
 <colgroup>
@@ -289,36 +318,36 @@ A tabela a seguir fornece detalhes sobre o modelo de usuário para conferências
 </colgroup>
 <thead>
 <tr class="header">
-<th>Categoria</th>
-<th>Descrição</th>
+<th><span data-ttu-id="4416d-273">Categoria</span><span class="sxs-lookup"><span data-stu-id="4416d-273">Category</span></span></th>
+<th><span data-ttu-id="4416d-274">Descrição</span><span class="sxs-lookup"><span data-stu-id="4416d-274">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Autenticado/anônimo</p></td>
-<td><p>70% de chamadores participaram como anônimos e foram solicitados por um nome de registro. 30% participaram como usuários autenticados.</p></td>
+<td><p><span data-ttu-id="4416d-275">Autenticado/anônimo</span><span class="sxs-lookup"><span data-stu-id="4416d-275">Authenticated/anonymous</span></span></p></td>
+<td><p><span data-ttu-id="4416d-p129">70% de chamadores participaram como anônimos e foram solicitados por um nome de registro. 30% participaram como usuários autenticados.</span><span class="sxs-lookup"><span data-stu-id="4416d-p129">70% of callers join as anonymous and are prompted for a recorded name. 30% join as authenticated users.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Duração da chamada e música em espera</p></td>
-<td><p>A duração média da chamada sem música em espera: 50 segundos.</p>
-<p>50% dos usuários de chamada recebida ouvem música em espera, durante uma média de 5 minutos.</p></td>
+<td><p><span data-ttu-id="4416d-278">Duração da chamada e música em espera</span><span class="sxs-lookup"><span data-stu-id="4416d-278">Call duration and music on hold</span></span></p></td>
+<td><p><span data-ttu-id="4416d-279">A duração média da chamada sem música em espera: 50 segundos.</span><span class="sxs-lookup"><span data-stu-id="4416d-279">Average call duration without music on hold: 50 seconds.</span></span></p>
+<p><span data-ttu-id="4416d-280">50% dos usuários de chamada recebida ouvem música em espera, durante uma média de 5 minutos.</span><span class="sxs-lookup"><span data-stu-id="4416d-280">50% of call-in users hear music on hold, for an average of 5 minutes.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>DTMF (Dual-tone multifrequency)</p></td>
-<td><p>15% das conferências somente discadas têm líderes de telefone. 10% das conferências mistas que incluem usuários discados também têm líderes de telefone.</p>
-<p>20% dos líderes de telefone usam 2 comandos DTMF por conferência.</p></td>
+<td><p><span data-ttu-id="4416d-281">DTMF (Dual-tone multifrequency)</span><span class="sxs-lookup"><span data-stu-id="4416d-281">Dual-tone multifrequency (DTMF)</span></span></p></td>
+<td><p><span data-ttu-id="4416d-p130">15% das conferências somente discadas têm líderes de telefone. 10% das conferências mistas que incluem usuários discados também têm líderes de telefone.</span><span class="sxs-lookup"><span data-stu-id="4416d-p130">15% of conferences that are dial-in only have phone leaders. 10% of mixed conferences that include dial-in users also have phone leaders.</span></span></p>
+<p><span data-ttu-id="4416d-284">20% dos líderes de telefone usam 2 comandos DTMF por conferência.</span><span class="sxs-lookup"><span data-stu-id="4416d-284">20% of phone leaders use 2 DTMF commands per conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Idiomas do anúncio</p></td>
-<td><p>As simulações usam Inglês como o idioma de anúncio.</p></td>
+<td><p><span data-ttu-id="4416d-285">Idiomas do anúncio</span><span class="sxs-lookup"><span data-stu-id="4416d-285">Announcement languages</span></span></p></td>
+<td><p><span data-ttu-id="4416d-286">As simulações usam Inglês como o idioma de anúncio.</span><span class="sxs-lookup"><span data-stu-id="4416d-286">Simulations use English as the announcement language.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-A tabela a seguir fornece detalhes sobre o modelo de usuário para lobbies de conferência.
+<span data-ttu-id="4416d-287">A tabela a seguir fornece detalhes sobre o modelo de usuário para lobbies de conferência.</span><span class="sxs-lookup"><span data-stu-id="4416d-287">The following table provides details about the user model for conference lobbies.</span></span>
 
-### Modelo de usuário de lobby de conferência
+### <a name="conference-lobby-user-model"></a><span data-ttu-id="4416d-288">Modelo de usuário de lobby de conferência</span><span class="sxs-lookup"><span data-stu-id="4416d-288">Conference Lobby User Model</span></span>
 
 <table>
 <colgroup>
@@ -327,26 +356,26 @@ A tabela a seguir fornece detalhes sobre o modelo de usuário para lobbies de co
 </colgroup>
 <thead>
 <tr class="header">
-<th>Categoria</th>
-<th>Descrição</th>
+<th><span data-ttu-id="4416d-289">Categoria</span><span class="sxs-lookup"><span data-stu-id="4416d-289">Category</span></span></th>
+<th><span data-ttu-id="4416d-290">Descrição</span><span class="sxs-lookup"><span data-stu-id="4416d-290">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Número de usuários no lobby</p></td>
-<td><p>5% dos usuários discados passam pelo lobby e 25% dos outros usuários passam pelo lobby</p></td>
+<td><p><span data-ttu-id="4416d-291">Número de usuários no lobby</span><span class="sxs-lookup"><span data-stu-id="4416d-291">Number of users in lobby</span></span></p></td>
+<td><p><span data-ttu-id="4416d-292">5% dos usuários discados passam pelo lobby e 25% dos outros usuários passam pelo lobby</span><span class="sxs-lookup"><span data-stu-id="4416d-292">5% of dial-in users go through the lobby, and 25% of other users go through the lobby</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Admissão a partir do lobby</p></td>
-<td><p>Em simulações, todos os usuários foram admitidos pelo apresentador antes do tempo limite do cliente.</p></td>
+<td><p><span data-ttu-id="4416d-293">Admissão a partir do lobby</span><span class="sxs-lookup"><span data-stu-id="4416d-293">Admitting from lobby</span></span></p></td>
+<td><p><span data-ttu-id="4416d-294">Em simulações, todos os usuários foram admitidos pelo apresentador antes do tempo limite do cliente.</span><span class="sxs-lookup"><span data-stu-id="4416d-294">In simulations, all users were admitted by the presenter before client timeout.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-A tabela a seguir descreve o modelo de usuário para outras sessões ponto a ponto.
+<span data-ttu-id="4416d-295">A tabela a seguir descreve o modelo de usuário para outras sessões ponto a ponto.</span><span class="sxs-lookup"><span data-stu-id="4416d-295">The following table describes the user model for other peer-to-peer sessions.</span></span>
 
-### Modelo de usuário de sessões ponto a ponto
+### <a name="peer-to-peer-sessions-user-model"></a><span data-ttu-id="4416d-296">Modelo de usuário de sessões ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="4416d-296">Peer-to-Peer Sessions User Model</span></span>
 
 <table>
 <colgroup>
@@ -355,26 +384,26 @@ A tabela a seguir descreve o modelo de usuário para outras sessões ponto a pon
 </colgroup>
 <thead>
 <tr class="header">
-<th>Categoria</th>
-<th>Descrição</th>
+<th><span data-ttu-id="4416d-297">Categoria</span><span class="sxs-lookup"><span data-stu-id="4416d-297">Category</span></span></th>
+<th><span data-ttu-id="4416d-298">Descrição</span><span class="sxs-lookup"><span data-stu-id="4416d-298">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Compartilhamento de aplicativos</p></td>
-<td><p>Cada usuário participa de 5 sessões de compartilhamento de aplicativo ponto a ponto por mês, uma média de 0,25 sessões por dia.</p></td>
+<td><p><span data-ttu-id="4416d-299">Compartilhamento de aplicativos</span><span class="sxs-lookup"><span data-stu-id="4416d-299">Application sharing</span></span></p></td>
+<td><p><span data-ttu-id="4416d-300">Cada usuário participa de 5 sessões de compartilhamento de aplicativo ponto a ponto por mês, uma média de 0,25 sessões por dia.</span><span class="sxs-lookup"><span data-stu-id="4416d-300">Each user participates in 5 peer-to-peer application sharing sessions per month, for an average of 0.25 sessions per day.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Transferência de arquivos</p></td>
-<td><p>Cada usuário participa de uma sessão de transferência de arquivo ponto a ponto por mês (como parte de uma sessão de IM), para uma média de 0,05 sessões por dia. O tamanho de arquivo médio da sessão transferido é de 1 MB.</p></td>
+<td><p><span data-ttu-id="4416d-301">Transferência de arquivos</span><span class="sxs-lookup"><span data-stu-id="4416d-301">File transfer</span></span></p></td>
+<td><p><span data-ttu-id="4416d-p131">Cada usuário participa de uma sessão de transferência de arquivo ponto a ponto por mês (como parte de uma sessão de IM), para uma média de 0,05 sessões por dia. O tamanho de arquivo médio da sessão transferido é de 1 MB.</span><span class="sxs-lookup"><span data-stu-id="4416d-p131">Each user participates in 1 peer-to-peer file transfer session per month (as part of an IM session), for an average of 0.05 sessions per day. The average session file size transferred is 1 MB.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-A tabela a seguir descreve o modelo de usuário para políticas.
+<span data-ttu-id="4416d-304">A tabela a seguir descreve o modelo de usuário para políticas.</span><span class="sxs-lookup"><span data-stu-id="4416d-304">The following table describes the user model for policies.</span></span>
 
-### Políticas de Modelo do Usuário
+### <a name="policies-user-model"></a><span data-ttu-id="4416d-305">Políticas de Modelo do Usuário</span><span class="sxs-lookup"><span data-stu-id="4416d-305">Policies User Model</span></span>
 
 <table>
 <colgroup>
@@ -383,56 +412,88 @@ A tabela a seguir descreve o modelo de usuário para políticas.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Categoria</th>
-<th>Descrição</th>
+<th><span data-ttu-id="4416d-306">Categoria</span><span class="sxs-lookup"><span data-stu-id="4416d-306">Category</span></span></th>
+<th><span data-ttu-id="4416d-307">Descrição</span><span class="sxs-lookup"><span data-stu-id="4416d-307">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Políticas de Arquiamento, Presença e Conferência</p></td>
-<td><p>Assumimos que há uma política global, 10 políticas de conferência de marcação, 4 políticas de Arquivamento e 10 políticas de presença de tag.</p></td>
+<td><p><span data-ttu-id="4416d-308">Políticas de Arquiamento, Presença e Conferência</span><span class="sxs-lookup"><span data-stu-id="4416d-308">Conferencing, Presence, and Archiving Policies</span></span></p></td>
+<td><p><span data-ttu-id="4416d-309">Assumimos que há uma política global, 10 políticas de conferência de marcação, 4 políticas de Arquivamento e 10 políticas de presença de tag.</span><span class="sxs-lookup"><span data-stu-id="4416d-309">We assume that there is one global policy, 10 tag conferencing policies, 4 Archiving policies, and 10 tag presence policies.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Política de voz</p></td>
-<td><p>Assumimos que há uma política global e 2 políticas de tag por local. 100% dos locais possuem uma política local e 30% dos usuários possuem uma política por usuário atribuída. Assumimos um plano de discagem por local e duas rotas por local.</p></td>
+<td><p><span data-ttu-id="4416d-310">Política de voz</span><span class="sxs-lookup"><span data-stu-id="4416d-310">Voice Policy</span></span></p></td>
+<td><p><span data-ttu-id="4416d-311">Assumimos que há uma política global e 2 políticas de tag por local.</span><span class="sxs-lookup"><span data-stu-id="4416d-311">We assume that there is one global policy and 2 tag policies per site.</span></span> <span data-ttu-id="4416d-312">100% dos locais possuem uma política local e 30% dos usuários possuem uma política por usuário atribuída.</span><span class="sxs-lookup"><span data-stu-id="4416d-312">100% of sites have a site policy, and 30% of users have a per-user policy assigned.</span></span> <span data-ttu-id="4416d-313">Assumimos um plano de discagem por local e duas rotas por local.</span><span class="sxs-lookup"><span data-stu-id="4416d-313">We assume one dial plan per site and two routes per site.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Horário de pico
+</div>
 
-Para sessões ponto a ponto, a carga durante o pico é calculada usando tentativas de chamada no horário de pico (BHCA). Esse termo do setor de voz supõe que 50% de todas as chamadas para esse dia serão completadas em 20% do tempo. Isso é calculado usando a seguinte fórmula:
+<div>
+
+## <a name="busy-hour"></a><span data-ttu-id="4416d-314">Horário de pico</span><span class="sxs-lookup"><span data-stu-id="4416d-314">Busy Hour</span></span>
+
+<span data-ttu-id="4416d-p133">Para sessões ponto a ponto, a carga durante o pico é calculada usando tentativas de chamada no horário de pico (BHCA). Esse termo do setor de voz supõe que 50% de todas as chamadas para esse dia serão completadas em 20% do tempo. Isso é calculado usando a seguinte fórmula:</span><span class="sxs-lookup"><span data-stu-id="4416d-p133">For peer-to-peer sessions, peak load is calculated using busy hour call attempts (BHCA). This voice industry term assumes that 50% of all calls for the day will be completed in 20% of the time. It is calculated using the following formula:</span></span>
 
 `BHCA=(total calls * 0.5) / 1.6`
 
-O teste de desempenho simulou o horário de pico executando sessões VoIP e outras sessões ponto a ponto com uma carga de hora de pico durante pelo menos 1,6 hora por dia.
+<span data-ttu-id="4416d-318">O teste de desempenho simulou o horário de pico executando sessões VoIP e outras sessões ponto a ponto com uma carga de hora de pico durante pelo menos 1,6 hora por dia.</span><span class="sxs-lookup"><span data-stu-id="4416d-318">Performance testing simulated busy hour by running VoIP and other peer-to-peer sessions at a busy hour load for at least 1.6 hours per day.</span></span>
 
-A carga de pico de conferência supõe que 75% de todas as conferências para um dia de oito horas ocorre em 4 horários de pico. Esses horários de pico têm 1,5 vezes a carga média de conferência.
+<span data-ttu-id="4416d-p134">A carga de pico de conferência supõe que 75% de todas as conferências para um dia de oito horas ocorre em 4 horários de pico. Esses horários de pico têm 1,5 vezes a carga média de conferência.</span><span class="sxs-lookup"><span data-stu-id="4416d-p134">Conferencing peak load assumes that 75% of all conferences for an eight-hour day happen in 4 peak time hours. Those peak hours have 1.5 times the average conferencing load.</span></span>
 
-## Enterprise Voice para chamadas PSTN
+</div>
 
-As seguintes previsões aplicam-se às chamadas do Enterprise Voice:
+<div>
 
-  - 50% dos usuários são habilitados para Enterprise Voice e 60% destes usuários são habilitados para chamada PSTN.
+## <a name="enterprise-voice-to-pstn-calls"></a><span data-ttu-id="4416d-321">Chamadas Enterprise Voice para PSTN</span><span class="sxs-lookup"><span data-stu-id="4416d-321">Enterprise Voice to PSTN Calls</span></span>
 
-  - Cada um destes usuários habilitados para chamada PSTN faz 4 chamadas PSTN durante a hora ocupada. Cada duração de chamada é de 3 minutos.
+<span data-ttu-id="4416d-322">As seguintes pressuposições se aplicam às chamadas do Enterprise Voice:</span><span class="sxs-lookup"><span data-stu-id="4416d-322">The following assumptions apply to Enterprise Voice calls:</span></span>
 
-  - 65% destas chamadas de voz PSTN usam bypass de mídia.
+  - <span data-ttu-id="4416d-323">50% dos usuários estão habilitados para o Enterprise Voice e 60% desses usuários estão habilitados para chamadas PSTN.</span><span class="sxs-lookup"><span data-stu-id="4416d-323">50% of users are enabled for Enterprise Voice, and 60% of these users are enabled for PSTN calling.</span></span>
 
-## Mobilidade
+  - <span data-ttu-id="4416d-p135">Cada um destes usuários habilitados para chamada PSTN faz 4 chamadas PSTN durante a hora ocupada. Cada duração de chamada é de 3 minutos.</span><span class="sxs-lookup"><span data-stu-id="4416d-p135">Each of these users enabled for PSTN calling makes 4 PSTN calls during the busy hour. Each call duration is 3 minutes.</span></span>
 
-40% dos usuários registrados são assumidos como habilitados para Mobilidade. Para cada usuário que possui habilidade habilitado, assumimos que a atividade do cliente móvel é aditivo àquelas de outras instâncias MPOP deste usuário, com exceção das interações de conferência, para as quais o cliente de mobilidade é apenas outro tipo de cliente que pode ser usado para participar de conferências.
+  - <span data-ttu-id="4416d-326">65% destas chamadas de voz PSTN usam bypass de mídia.</span><span class="sxs-lookup"><span data-stu-id="4416d-326">65% of these PSTN voice calls use media bypass.</span></span>
 
-## Chat Persistente
+</div>
 
-Assumimos que 25% dos usuários registrados sejam envolvidos em sessões de chat Persistente, com as seguintes características:
+<div>
 
-  - Uma média de 1,5 salas de bate-papo por usuário
+## <a name="mobility"></a><span data-ttu-id="4416d-327">Mobilidade</span><span class="sxs-lookup"><span data-stu-id="4416d-327">Mobility</span></span>
 
-  - Cada sala de bate-papo resulta em 12 solicitações de pool por hora, indicando uma média de 10 usuários cada
+<span data-ttu-id="4416d-p136">40% dos usuários registrados são assumidos como habilitados para Mobilidade. Para cada usuário que possui habilidade habilitado, assumimos que a atividade do cliente móvel é aditivo àquelas de outras instâncias MPOP deste usuário, com exceção das interações de conferência, para as quais o cliente de mobilidade é apenas outro tipo de cliente que pode ser usado para participar de conferências.</span><span class="sxs-lookup"><span data-stu-id="4416d-p136">40% of registered users are assumed to be enabled for Mobility. For each user that has mobility enabled, we assume that the activity of the mobile client is additive to that of the other MPOP instances for that user, with the exception of conferencing interactions, for which the mobility client is just another client type that can be used to participate in conferences.</span></span>
 
-## Grupo de Resposta e Estacionamento de Chamadas
+</div>
 
-Assumimos que 0,15% dos usuários registrados pertencem aos grupos de resposta. Assumimos que 0,02% dos usuários registrados possuem chamadas estacionadas em um determinado ponto do tempo.
+<div>
+
+## <a name="persistent-chat"></a><span data-ttu-id="4416d-330">Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="4416d-330">Persistent Chat</span></span>
+
+<span data-ttu-id="4416d-331">Assumimos que 25% dos usuários registrados sejam envolvidos em sessões de chat Persistente, com as seguintes características:</span><span class="sxs-lookup"><span data-stu-id="4416d-331">We assume that 25% of registered users will be involved in Persistent chat sessions, with the following characteristics:</span></span>
+
+  - <span data-ttu-id="4416d-332">Uma média de 1,5 salas de bate-papo por usuário</span><span class="sxs-lookup"><span data-stu-id="4416d-332">An average of 1.5 chat rooms per user</span></span>
+
+  - <span data-ttu-id="4416d-333">Cada sala de bate-papo resulta em 12 solicitações de pool por hora, indicando uma média de 10 usuários cada</span><span class="sxs-lookup"><span data-stu-id="4416d-333">Each chat room results in 12 polling requests per hour, targeting an average of 10 users each</span></span>
+
+</div>
+
+<div>
+
+## <a name="response-group-and-call-park"></a><span data-ttu-id="4416d-334">Grupo de Resposta e Estacionamento de Chamadas</span><span class="sxs-lookup"><span data-stu-id="4416d-334">Response Group and Call Park</span></span>
+
+<span data-ttu-id="4416d-p137">Assumimos que 0,15% dos usuários registrados pertencem aos grupos de resposta. Assumimos que 0,02% dos usuários registrados possuem chamadas estacionadas em um determinado ponto do tempo.</span><span class="sxs-lookup"><span data-stu-id="4416d-p137">We assume that 0.15% of registered users belong to response groups. We assume that 0.02% of registered users have parked calls at any given point of time.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

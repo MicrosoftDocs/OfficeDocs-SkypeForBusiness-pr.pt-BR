@@ -1,59 +1,101 @@
-﻿---
-title: Exibir atualizações de software para dispositivos no Lync Server 2013
-TOCTitle: Exibir atualizações de software para dispositivos no Lync Server 2013
-ms:assetid: d2cca12b-ed43-4e1f-90ab-d14bca8b482c
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182592(v=OCS.15)
-ms:contentKeyID: 49308189
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: exibir atualizações de software para dispositivos em sua organização'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View software updates for devices in your organization
+ms:assetid: d2cca12b-ed43-4e1f-90ab-d14bca8b482c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182592(v=OCS.15)
+ms:contentKeyID: 48185418
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 06700e198dcd1923e875401b4539a0af84417c44
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844385"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Exibir atualizações de software para dispositivos no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="view-software-updates-for-devices-in-lync-server-2013"></a><span data-ttu-id="e1da3-102">Exibir atualizações de software para dispositivos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1da3-102">View software updates for devices in Lync Server 2013</span></span>
 
-Com o Lync Server 2013, use o Serviço Web de Atualização de Dispositivos para visualizar e gerenciar atualizações de software para os dispositivos da sua organização. Essas atualizações estão disponíveis em arquivos .cab (gabinete) no site Microsoft Support em [http://go.microsoft.com/fwlink/?linkid=204091\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=204091%26clcid=0x416). Depois de baixar o arquivo .cab, execute o cmdlet **Import-CSdeviceUpdate** para importar as regras de atualização de dispositivos do arquivo .cab. Para obter detalhes sobre o cmdlet **Import-CSdeviceUpdate**, consulte [Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate), na documentação do Shell de Gerenciamento do Lync Server.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="e1da3-103">_**Tópico da última modificação:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="e1da3-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+
+<span data-ttu-id="e1da3-104">Com o Lync Server 2013, você usa o serviço Web de atualização de dispositivo para exibir e gerenciar atualizações de software para os dispositivos da sua organização.</span><span class="sxs-lookup"><span data-stu-id="e1da3-104">With Lync Server 2013, you use Device Update Web service to view and manage software updates for your organization’s devices.</span></span> <span data-ttu-id="e1da3-105">Essas atualizações estão disponíveis em arquivos. cab (Cabinet) a partir do website de suporte [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)da Microsoft em.</span><span class="sxs-lookup"><span data-stu-id="e1da3-105">These updates are available in .cab (cabinet) files from the Microsoft Support website at [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091).</span></span> <span data-ttu-id="e1da3-106">Depois de baixar o arquivo. cab, execute o cmdlet **Import-CSDeviceUpdate** para importar as regras de atualização de dispositivo do arquivo. cab.</span><span class="sxs-lookup"><span data-stu-id="e1da3-106">After you download the .cab file, run the **Import-CSDeviceUpdate** cmdlet to import the device update rules from the .cab file.</span></span> <span data-ttu-id="e1da3-107">Para obter detalhes sobre o cmdlet **Import-CSDeviceUpdate** , consulte [importar-CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) na documentação do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e1da3-107">For details about the **Import-CSDeviceUpdate** cmdlet, see [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) in the Lync Server Management Shell documentation.</span></span>
+
+<div>
 
 
 > [!TIP]  
-> Antes de implantar uma nova atualização em sua organização, verifique se ele funciona corretamente em um dispositivo de teste.
+> <span data-ttu-id="e1da3-108">Antes de implantar uma nova atualização em sua organização, verifique se ela funciona corretamente em um dispositivo de teste.</span><span class="sxs-lookup"><span data-stu-id="e1da3-108">Before deploying a new update to your organization, verify that it functions correctly on a test device.</span></span>
 
 
 
-## Para exibir as atualizações de software para dispositivos UC
+</div>
 
-1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+<div>
 
-2.  No site Microsoft Support em [http://go.microsoft.com/fwlink/?linkid=204091\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=204091%26clcid=0x416), baixe o arquivo .cab para um local em um computador com Lync Server 2013 (por exemplo, C:\\Updates\\UCUpdates.cab).
+## <a name="to-view-software-updates-for-uc-devices"></a><span data-ttu-id="e1da3-109">Para exibir atualizações de software para dispositivos de comunicação unificada</span><span class="sxs-lookup"><span data-stu-id="e1da3-109">To view software updates for UC devices</span></span>
 
-3.  Importe as regras de atualização de dispositivo do arquivo C:\\Updates\\UCUpdates.cab executando um dos seguintes cmdlets:
+1.  <span data-ttu-id="e1da3-110">Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="e1da3-110">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="e1da3-111">No site de suporte da Microsoft [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)em, baixe o arquivo. cab para um local em um computador com o Lync Server 2013 (por exemplo\\,\\C: atualiza UCUpdates. cab).</span><span class="sxs-lookup"><span data-stu-id="e1da3-111">From the Microsoft Support website at [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091), download the .cab file to a location on a Lync Server 2013 computer (for example, C:\\Updates\\UCUpdates.cab).</span></span>
+
+3.  <span data-ttu-id="e1da3-112">Importe as regras de atualização de dispositivo do arquivo\\C\\: updates UCUpdates. cab executando um dos seguintes cmdlets:</span><span class="sxs-lookup"><span data-stu-id="e1da3-112">Import the device update rules from the C:\\Updates\\UCUpdates.cab file by running one of the following cmdlets:</span></span>
     
-      - Se o arquivo. cab estiver localizado no mesmo computador que está executando o serviço a ser atualizado (serviço: Redmond-websvc-2), execute o seguinte cmdlet:
+      - <span data-ttu-id="e1da3-113">Se o arquivo. cab estiver localizado no mesmo computador que está executando o serviço a ser atualizado (serviço: Redmond-websvc-2), execute o seguinte cmdlet:</span><span class="sxs-lookup"><span data-stu-id="e1da3-113">If the .cab file is located on the same computer as the one running the service to be updated (service:Redmond-websvc-2), run the following cmdlet:</span></span>
         
             Import-CsDeviceUpdate -Identity service:Redmond-websvc-2 -FileName C:\Updates\UCUpdates.cab
     
-      - Se o arquivo. cab estiver localizado em um computador diferente do que está executando o serviço a ser atualizado (serviço: Redmond-websvc-3), execute o seguinte cmdlet:
+      - <span data-ttu-id="e1da3-114">Se o arquivo. cab estiver localizado em um computador diferente do que o que está executando o serviço a ser atualizado (serviço: Redmond-websvc-3), execute o seguinte cmdlet:</span><span class="sxs-lookup"><span data-stu-id="e1da3-114">If the .cab file is located on a different computer than the one running the service to be updated (service:Redmond-websvc-3), run the following cmdlet:</span></span>
         
             Import-CsDeviceUpdate -Identity service:Redmond-websvc-3 -ByteInput C:\Updates\UCUpdates.cab
 
-4.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+4.  <span data-ttu-id="e1da3-115">Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e1da3-115">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="e1da3-116">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="e1da3-116">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-5.  Na barra de navegação esquerda, clique em **Cliente** e em **Atualização de Dispositivo**.
+5.  <span data-ttu-id="e1da3-117">Na barra de navegação à esquerda, clique em **clientes**e em **atualização de dispositivo**.</span><span class="sxs-lookup"><span data-stu-id="e1da3-117">In the left navigation bar, click **Clients**, and then click **Device Update**.</span></span>
 
-6.  Na página **Atualização de Dispositivo**, clique em uma atualização na lista e execute um dos seguintes procedimentos:
+6.  <span data-ttu-id="e1da3-118">Na página **atualização do dispositivo** , clique em uma atualização na lista e siga um destes procedimentos:</span><span class="sxs-lookup"><span data-stu-id="e1da3-118">On the **Device Update** page, click an update in the list, and then do one of the following:</span></span>
     
-      - **Cancelar uma atualização pendente.** Para impedir que a atualização selecionada seja implantada nos dispositivos de sua organização, clique no menu **Ação** e clique em **Cancelar atualizações pendentes**.
+      - <span data-ttu-id="e1da3-119">**Cancelar uma atualização pendente.**</span><span class="sxs-lookup"><span data-stu-id="e1da3-119">**Cancel a pending update.**</span></span> <span data-ttu-id="e1da3-120">Para impedir que a atualização selecionada seja implantada nos dispositivos da sua organização, clique no menu **ação** e, em seguida, clique em **cancelar atualizações pendentes**.</span><span class="sxs-lookup"><span data-stu-id="e1da3-120">To prevent the selected update from being deployed to your organization’s devices, click the **Action** menu, and then click **Cancel pending updates**.</span></span>
     
-      - **Aprovar uma atualização.** Para permitir que a atualização selecionada seja implantada em dispositivos de sua organização, clique no menu **Ação** e, em seguida, clique **Aprovar**.
+      - <span data-ttu-id="e1da3-121">**Aprove uma atualização.**</span><span class="sxs-lookup"><span data-stu-id="e1da3-121">**Approve an update.**</span></span> <span data-ttu-id="e1da3-122">Para permitir que a atualização selecionada seja implantada nos dispositivos da sua organização, clique no menu **ação** e, em seguida, clique em **aprovar**.</span><span class="sxs-lookup"><span data-stu-id="e1da3-122">To allow the selected update to be deployed to your organization’s devices, click the **Action** menu, and then click **Approve**.</span></span>
     
-      - **Restaurar uma atualização.** Para permitir que uma atualização aprovada anteriormente seja implantada nos dispositivos de sua organização, clique no menu **Ação** e, em seguida, clique **Restaurar**.
+      - <span data-ttu-id="e1da3-123">**Restaurar uma atualização.**</span><span class="sxs-lookup"><span data-stu-id="e1da3-123">**Restore an update.**</span></span> <span data-ttu-id="e1da3-124">Para permitir que uma atualização aprovada anteriormente seja implantada nos dispositivos da sua organização, clique no menu **ação** e, em seguida, clique em **restaurar**.</span><span class="sxs-lookup"><span data-stu-id="e1da3-124">To allow a previously approved update to be deployed to your organization’s devices, click the **Action** menu, and then click **Restore**.</span></span>
 
-## Consulte Também
+</div>
 
-#### Outros Recursos
+<div>
 
-[Gerenciando dispositivos, telefones e aplicativos do cliente no Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)
+## <a name="see-also"></a><span data-ttu-id="e1da3-125">Confira também</span><span class="sxs-lookup"><span data-stu-id="e1da3-125">See Also</span></span>
+
+
+[<span data-ttu-id="e1da3-126">Gerenciando dispositivos, telefones e aplicativos do cliente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1da3-126">Managing devices, phones, and client applications in Lync Server 2013</span></span>](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

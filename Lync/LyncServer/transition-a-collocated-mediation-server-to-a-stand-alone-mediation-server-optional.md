@@ -1,53 +1,87 @@
-﻿---
-title: "Transição de Serv. de Mediação colocado em conj. c/ Serv. de Mediação autônomo (opc.)"
-TOCTitle: "Transição de Serv. de Mediação colocado em conj. c/ Serv. de Mediação autônomo (opc.)"
-ms:assetid: 7c3c2fb4-4ff2-47b1-aab3-0aa91472eadb
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205026(v=OCS.15)
-ms:contentKeyID: 49307225
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Fazer a transição de um servidor de mediação posicionado para um servidor autônomo de mediação (opcional)
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
+ms:assetid: 7c3c2fb4-4ff2-47b1-aab3-0aa91472eadb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205026(v=OCS.15)
+ms:contentKeyID: 48184602
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0c49b75845bb9a673872c5f08225dd6e1c96b69a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844134"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Transição de um Servidor de Mediação colocado em conjunto com um Servidor de Mediação autônomo (opcional)
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-19_
+# <a name="transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional"></a><span data-ttu-id="b4684-102">Fazer a transição de um servidor de mediação posicionado para um servidor autônomo de mediação (opcional)</span><span class="sxs-lookup"><span data-stu-id="b4684-102">Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)</span></span>
 
-Use o procedimento a seguir para fazer a transição do seu Servidor de Mediação, colocado no seu servidor Standard Edition ou no pool de Front-Ends, para um Servidor de Mediação autônomo para uma implantação em um único local.
+</div>
 
-## Para mudar um Servidor de Mediação colocado para um Servidor de Mediação autônomo
+<div id="mainSection">
 
-1.  Abrir uma topologia existente do Topology Builder.
+<div id="mainBody">
 
-2.  No painel à esquerda, navegue até **Pools de mediação**.
+<span> </span>
 
-3.  Clique com o botão direito em **Pools de mediação** e selecione **Novo Servidor de Mediação**.
+<span data-ttu-id="b4684-103">_**Tópico da última modificação:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="b4684-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-4.  Na página **Definir Novo Pool de Mediação**, forneça o FQDN do novo pool do Servidor de Mediação. Selecione também se este será um pool de servidor único ou de vários servidores e clique em **Avançar**.
+<span data-ttu-id="b4684-104">Use o procedimento a seguir para fazer a transição do servidor de mediação, posicionado no seu servidor Standard Edition ou no pool Front-end, em um servidor autônomo de mediação para uma implantação de um único site.</span><span class="sxs-lookup"><span data-stu-id="b4684-104">Use the procedure that follows to transition your Mediation Server, collocated on your Standard Edition server or Front End pool, to a stand-alone Mediation Server for a single-site deployment.</span></span>
 
-5.  Selecione o pool do próximo salto do servidor Front-End para o qual no novo Servidor de Mediação roteará chamadas de entrada e clique em **Avançar**.
+<div>
 
-6.  Selecione o pool de Borda a ser usado pelo Servidor de Mediação e clique em **Avançar**.
+## <a name="to-transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server"></a><span data-ttu-id="b4684-105">Para fazer a transição de um servidor de mediação posicionado para um servidor de mediação autônomo</span><span class="sxs-lookup"><span data-stu-id="b4684-105">To transition a collocated Mediation Server to a stand-alone Mediation Server</span></span>
 
-7.  Na página **Especificar gateways PSTN**, associe o gateway PSTN anterior ao Servidor de Mediação. Selecione o gateway e clique em **Adicionar**.
+1.  <span data-ttu-id="b4684-106">Abra uma topologia existente do construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="b4684-106">Open an existing topology from Topology Builder.</span></span>
 
-8.  Clique em **Concluir** para fechar o assistente **Definir Novo Pool de Mediação**.
+2.  <span data-ttu-id="b4684-107">No painel esquerdo, navegue até pools de **mediação**.</span><span class="sxs-lookup"><span data-stu-id="b4684-107">In the left pane, navigate to **Mediation pools**.</span></span>
 
-9.  No **Topology Builder**, selecione o primeiro nó **Lync Server 2013**.
+3.  <span data-ttu-id="b4684-108">Clique com o \*\*\*\* botão direito em pools de mediação e selecione **novo servidor**de mediação.</span><span class="sxs-lookup"><span data-stu-id="b4684-108">Right-click **Mediation pools** and select **New Mediation Server**.</span></span>
 
-10. No painel **Ações**, selecione **Publicar Topologia** e conclua o assistente.
+4.  <span data-ttu-id="b4684-109">Na página **definir novo pool** de mediação, forneça o FQDN do novo pool do servidor de mediação.</span><span class="sxs-lookup"><span data-stu-id="b4684-109">On the **Define New Mediation Pool** page, provide the FQDN of the new Mediation Server pool.</span></span> <span data-ttu-id="b4684-110">Além disso, selecione se este pool será um pool de servidor único ou de vários servidores e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="b4684-110">Also, select whether this pool will be a single-server or multiple-server pool, and then click **Next**.</span></span>
 
-11. Siga as etapas em [Instalar os arquivos para o Servidor de Mediação no Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) na documentação de Implantação para instalar os arquivos no novo Servidor de Mediação.
+5.  <span data-ttu-id="b4684-111">Selecione o pool do servidor front-end de salto seguinte para o qual o novo servidor de mediação roteará chamadas de entrada e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="b4684-111">Select the next hop Front End server pool to which the new Mediation Server will route inbound calls, and then click **Next**.</span></span>
 
-12. Depois que os arquivos estiverem instalados no Servidor de Mediação, volte para o Construtor de Topologias e, no painel à esquerda, navegue até o pool.
+6.  <span data-ttu-id="b4684-112">Selecione o pool de bordas a ser usado pelo servidor de mediação e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="b4684-112">Select the Edge pool to be used by the Mediation Server and then click **Next**.</span></span>
 
-13. Clique com o botão direito no pool e selecione **Editar Propriedades**.
+7.  <span data-ttu-id="b4684-113">Na página **especificar gateways PSTN** , associe o gateway PSTN anterior ao servidor de mediação.</span><span class="sxs-lookup"><span data-stu-id="b4684-113">On the **Specify PSTN gateways** page, associate the previous PSTN gateway with the Mediation Server.</span></span> <span data-ttu-id="b4684-114">Selecione o gateway e clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="b4684-114">Select the gateway and then click **Add**.</span></span>
 
-14. Sob **Servidor de Mediação**, desmarque a opção **Servidor de Mediação posicionado habilitado** e clique em **OK**.
+8.  <span data-ttu-id="b4684-115">Clique em **concluir** para fechar o assistente para **definir novo pool** de mediação.</span><span class="sxs-lookup"><span data-stu-id="b4684-115">Click **Finish** to close the **Define New Mediation Pool** wizard.</span></span>
 
-15. No **Topology Builder**, selecione o primeiro nó **Lync Server 2013**.
+9.  <span data-ttu-id="b4684-116">No **Construtor**de topologias, selecione o nó superior do **Lync Server 2013**.</span><span class="sxs-lookup"><span data-stu-id="b4684-116">From **Topology Builder**, select the top node **Lync Server 2013**.</span></span>
 
-16. No menu **Ações**, selecione **Publicar Topologia** e conclua o assistente.
+10. <span data-ttu-id="b4684-117">No painel **ações** , selecione **publicar topologia** e conclua o assistente.</span><span class="sxs-lookup"><span data-stu-id="b4684-117">From the **Actions** pane, select **Publish Topology** and complete the wizard.</span></span>
+
+11. <span data-ttu-id="b4684-118">Siga as etapas em [instalar os arquivos para o servidor de mediação no Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) na documentação de implantação para instalar os arquivos no novo servidor de mediação.</span><span class="sxs-lookup"><span data-stu-id="b4684-118">Follow the steps in [Install the files for Mediation Server in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) in the Deployment documentation to install the files on the new Mediation Server.</span></span>
+
+12. <span data-ttu-id="b4684-119">Após a instalação dos arquivos no servidor de mediação, retorne ao construtor de topologias e, no painel esquerdo, navegue até o pool.</span><span class="sxs-lookup"><span data-stu-id="b4684-119">After the files are installed on the Mediation Server, return to Topology Builder, and in the left pane navigate to the pool.</span></span>
+
+13. <span data-ttu-id="b4684-120">Clique com o botão direito do mouse no pool e selecione **Editar propriedades**.</span><span class="sxs-lookup"><span data-stu-id="b4684-120">Right-click the pool and select **Edit Properties**.</span></span>
+
+14. <span data-ttu-id="b4684-121">Em **servidor**de mediação, desmarque a caixa de seleção posicionada no **servidor** de mediação posicionado e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="b4684-121">Under **Mediation Server**, clear the check box **Collocated Mediation Server enabled** and then click **OK**.</span></span>
+
+15. <span data-ttu-id="b4684-122">No **Construtor**de topologias, selecione o nó superior do **Lync Server 2013**.</span><span class="sxs-lookup"><span data-stu-id="b4684-122">From **Topology Builder**, select the top node **Lync Server 2013**.</span></span>
+
+16. <span data-ttu-id="b4684-123">No menu **ação** , selecione **publicar topologia** e conclua o assistente.</span><span class="sxs-lookup"><span data-stu-id="b4684-123">From the **Action** menu, select **Publish Topology** and complete the wizard.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

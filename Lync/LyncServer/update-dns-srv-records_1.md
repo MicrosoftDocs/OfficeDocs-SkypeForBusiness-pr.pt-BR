@@ -1,45 +1,75 @@
-﻿---
-title: Atualizar registros DNS SRV
-TOCTitle: Atualizar registros DNS SRV
-ms:assetid: a29149aa-30cc-4a59-af98-fb95c2385cce
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688161(v=OCS.15)
-ms:contentKeyID: 49886344
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Atualizar registros de DNS SRV
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Update DNS SRV records
+ms:assetid: a29149aa-30cc-4a59-af98-fb95c2385cce
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688161(v=OCS.15)
+ms:contentKeyID: 49733765
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 97ff3eed81a90960444b260bd0ca5b9c4c67022e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844129"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Atualizar registros DNS SRV
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-29_
+# <a name="update-dns-srv-records"></a><span data-ttu-id="7cc65-102">Atualizar registros de DNS SRV</span><span class="sxs-lookup"><span data-stu-id="7cc65-102">Update DNS SRV records</span></span>
 
-Para realizar este procedimento com sucesso, é necessário fazer login no servidor ou domínio como membro do grupo Admins. de Domínio ou do grupo DnsAdmins.
+</div>
 
-Este tópico descreve como atualizar os registros de DNS (Domain Name System) após migrar para o Lync Server 2013. Depois que todos os usuário forem movidos para Lync Server 2013, mas antes que o pool ou Diretor antigo do Office Communications Server 2007 R2 seja descomissionado, é necessário atualizar os registros DNS SRV em seu DNS interno para cada domínio SIP. Este procedimento supõe que o DNS interno tem zonas para os domínios de usuário do SIP.
+<div id="mainSection">
 
-**Para configurar um registro SRV de DNS**
+<div id="mainBody">
 
-1.  No servidor DNS, clique em **Iniciar** , clique em **Ferramentas Administrativas** e em **DNS** .
+<span> </span>
 
-2.  Na árvore do console para o seu domínio SIP, expanda **Zonas de Pesquisa Direta** , expanda o domínio SIP em que o Lync Server 2013 será instalado e navegue para a configuração **\_tcp**.
+<span data-ttu-id="7cc65-103">_**Tópico da última modificação:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="7cc65-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-3.  No painel direito, clique com o botão direito em **\_sipinternaltls** e selecione **Propriedades**.
+<span data-ttu-id="7cc65-104">Para concluir esse procedimento com êxito, você deve estar conectado ao servidor ou ao domínio como membro do grupo Domain admins ou de um membro do grupo DnsAdmins.</span><span class="sxs-lookup"><span data-stu-id="7cc65-104">To successfully complete this procedure, you should be logged on to the server or domain as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
 
-4.  Em **Host que oferece este serviço** , atualize o FQDN do host para apontar para o pool Lync Server 2013.
+<span data-ttu-id="7cc65-105">Este tópico descreve como atualizar os registros DNS (sistema de nomes de domínio) após a migração para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7cc65-105">This topic describes how to update the Domain Name System (DNS) records after migrating to Lync Server 2013.</span></span> <span data-ttu-id="7cc65-106">Depois que todos os usuários tiverem sido movidos para o Lync Server 2013, mas antes do pool herdado do Office Communications Server 2007 R2 ser encerrado, você deve atualizar os registros SRV DNS no seu DNS interno para cada domínio SIP.</span><span class="sxs-lookup"><span data-stu-id="7cc65-106">After all users have been moved to Lync Server 2013, but before the legacy Office Communications Server 2007 R2 pool or Director is decommissioned, you must update the DNS SRV records in your internal DNS for every SIP domain.</span></span> <span data-ttu-id="7cc65-107">Este procedimento pressupõe que o seu DNS interno tem zonas para seus domínios de usuário SIP.</span><span class="sxs-lookup"><span data-stu-id="7cc65-107">This procedure assumes that your internal DNS has zones for your SIP user domains.</span></span>
 
-5.  Clique em **OK** .
+<span data-ttu-id="7cc65-108">**Para configurar um registro SRV DNS**</span><span class="sxs-lookup"><span data-stu-id="7cc65-108">**To configure a DNS SRV record**</span></span>
 
-**Para verificar se o FQDN do servidor Standard Edition ou pool de Front-Ends pode ser resolvido**
+1.  <span data-ttu-id="7cc65-109">No servidor DNS, clique em **Iniciar**, clique em **Ferramentas administrativas**e, em seguida, clique em **DNS**.</span><span class="sxs-lookup"><span data-stu-id="7cc65-109">On the DNS server, click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-1.  Faça logon em um computador cliente no domínio.
+2.  <span data-ttu-id="7cc65-110">Na árvore de console do seu domínio SIP, expanda **zonas de pesquisa direta**, expanda o domínio SIP no qual o Lync Server 2013 está instalado e \*\* \_\*\* navegue até a configuração TCP.</span><span class="sxs-lookup"><span data-stu-id="7cc65-110">In the console tree for your SIP domain, expand **Forward Lookup Zones**, expand the SIP domain in which Lync Server 2013 is installed, and navigate to the **\_tcp** setting.</span></span>
 
-2.  Clique em **Iniciar** e em **Executar** .
+3.  <span data-ttu-id="7cc65-111">No painel direito, clique com o botão direito do mouse em \*\* \_sipinternaltls\*\* e selecione **Propriedades**.</span><span class="sxs-lookup"><span data-stu-id="7cc65-111">In the right pane, right click **\_sipinternaltls** and select **Properties**.</span></span>
 
-3.  Na caixa **Abrir** , digite **cmd** e clique em **OK** .
+4.  <span data-ttu-id="7cc65-112">Em **host oferecendo esse serviço**, atualize o FQDN do host para apontar para o pool do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7cc65-112">In **Host offering this service**, update the host FQDN to point to the Lync Server 2013 pool.</span></span>
 
-4.  No prompt de comando, digite **nslookup** *\<FQDN do pool de Front End\>* ou *\<FQDN do servidor Standard Edition\>* e pressione ENTER.
+5.  <span data-ttu-id="7cc65-113">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="7cc65-113">Click **OK**.</span></span>
 
-5.  Verifique se recebeu uma resposta que resolve para o endereço IP apropriado para o FQDN.
+<span data-ttu-id="7cc65-114">**Para verificar se o FQDN do servidor de front-end ou do servidor Standard Edition pode ser resolvido**</span><span class="sxs-lookup"><span data-stu-id="7cc65-114">**To verify that the FQDN of the Front End pool or Standard Edition server can be resolved**</span></span>
+
+1.  <span data-ttu-id="7cc65-115">Faça logon em um computador cliente no domínio.</span><span class="sxs-lookup"><span data-stu-id="7cc65-115">Log on to a client computer in the domain.</span></span>
+
+2.  <span data-ttu-id="7cc65-116">Clique em  \*\*Iniciar \*\* e em  \*\*Executar \*\*.</span><span class="sxs-lookup"><span data-stu-id="7cc65-116">Click **Start**, and then click **Run**.</span></span>
+
+3.  <span data-ttu-id="7cc65-117">Na caixa **abrir** , digite **cmd**e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="7cc65-117">In the **Open** box, type **cmd**, and then click **OK**.</span></span>
+
+4.  <span data-ttu-id="7cc65-118">No prompt de comando, digite FQDN do **nslookup** \<do pool\> de front- \<end ou FQDN do servidor\>Standard Edition e, em seguida, pressione Enter.</span><span class="sxs-lookup"><span data-stu-id="7cc65-118">At the command prompt, type **nslookup** \<FQDN of the Front End pool\> or \<FQDN of the Standard Edition server\>, and then press ENTER.</span></span>
+
+5.  <span data-ttu-id="7cc65-119">Verifique se você recebe uma resposta que é resolvida para o endereço IP apropriado para o FQDN.</span><span class="sxs-lookup"><span data-stu-id="7cc65-119">Verify that you receive a reply that resolves to the appropriate IP address for the FQDN.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

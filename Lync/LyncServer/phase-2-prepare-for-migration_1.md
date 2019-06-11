@@ -1,33 +1,67 @@
-﻿---
-title: 'Fase 2: Preparar para migração'
-TOCTitle: 'Fase 2: Preparar para migração'
-ms:assetid: a0c11ad1-47b1-467e-8f49-f2fa53efcd20
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205125(v=OCS.15)
-ms:contentKeyID: 49307642
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Fase 2: Preparar para migração'
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: 'Phase 2: Prepare for migration'
+ms:assetid: a0c11ad1-47b1-467e-8f49-f2fa53efcd20
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205125(v=OCS.15)
+ms:contentKeyID: 48184944
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7542f1fdb934d655f4c7e344afdeae94869c3963
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844208"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Fase 2: Preparar para migração
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-08-24_
+# <a name="phase-2-prepare-for-migration"></a><span data-ttu-id="1f536-102">Fase 2: Preparar para migração</span><span class="sxs-lookup"><span data-stu-id="1f536-102">Phase 2: Prepare for migration</span></span>
 
-Antes de iniciar a migração para o Lync Server 2013 a partir do Office Communications Server 2007 R2, siga as etapas descritas nesta seção.
+</div>
 
-## Nesta seção
+<div id="mainSection">
 
-  - [Aplicar atualizações do Office Communications Server 2007 R2](apply-office-communications-server-2007-r2-updates.md)
+<div id="mainBody">
 
-  - [Configurar registros de DNS para implantação de pool piloto](configure-dns-records-for-pilot-pool-deployment_1.md)
+<span> </span>
 
-  - [Executar o Analisador de Práticas Recomendadas](run-best-practices-analyzer_1.md)
+<span data-ttu-id="1f536-103">_**Tópico da última modificação:** 2012-08-24_</span><span class="sxs-lookup"><span data-stu-id="1f536-103">_**Topic Last Modified:** 2012-08-24_</span></span>
 
-  - [Fazer backup de sistemas e de dados](back-up-systems-and-data_1.md)
+<span data-ttu-id="1f536-104">Antes de começar a migrar do Office Communications Server 2007 R2 para o Lync Server 2013, siga as etapas descritas nesta seção.</span><span class="sxs-lookup"><span data-stu-id="1f536-104">Before you begin to migrate to Lync Server 2013 from Office Communications Server 2007 R2, follow the steps described in this section.</span></span>
 
-  - [Configurar clientes para migração](configure-clients-for-migration_1.md)
+<div>
 
-  - [Verificar o ambiente do Office Communications Server 2007 R2](verify-office-communications-server-2007-r2-environment.md)
+## <a name="in-this-section"></a><span data-ttu-id="1f536-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="1f536-105">In This Section</span></span>
+
+  - [<span data-ttu-id="1f536-106">Aplicar atualizações do Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="1f536-106">Apply Office Communications Server 2007 R2 updates</span></span>](apply-office-communications-server-2007-r2-updates.md)
+
+  - [<span data-ttu-id="1f536-107">Configurar registros de DNS para implantação de pool piloto</span><span class="sxs-lookup"><span data-stu-id="1f536-107">Configure DNS records for pilot pool deployment</span></span>](configure-dns-records-for-pilot-pool-deployment_1.md)
+
+  - [<span data-ttu-id="1f536-108">Executar o analisador de práticas recomendadas</span><span class="sxs-lookup"><span data-stu-id="1f536-108">Run Best Practices Analyzer</span></span>](run-best-practices-analyzer_1.md)
+
+  - [<span data-ttu-id="1f536-109">Fazer backup de dados e sistemas</span><span class="sxs-lookup"><span data-stu-id="1f536-109">Back up systems and data</span></span>](back-up-systems-and-data_1.md)
+
+  - [<span data-ttu-id="1f536-110">Configurar clientes para migração</span><span class="sxs-lookup"><span data-stu-id="1f536-110">Configure clients for migration</span></span>](configure-clients-for-migration_1.md)
+
+  - [<span data-ttu-id="1f536-111">Verificar o ambiente do Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="1f536-111">Verify Office Communications Server 2007 R2 environment</span></span>](verify-office-communications-server-2007-r2-environment.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

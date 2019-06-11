@@ -1,79 +1,121 @@
-﻿---
-title: Mover vários usuários para o pool piloto
-TOCTitle: Mover vários usuários para o pool piloto
-ms:assetid: 90d0590c-922c-4933-b778-9dd850b59310
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205096(v=OCS.15)
-ms:contentKeyID: 49307468
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Mover vários usuários para o pool piloto
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Move multiple users to the pilot pool
+ms:assetid: 90d0590c-922c-4933-b778-9dd850b59310
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205096(v=OCS.15)
+ms:contentKeyID: 48184838
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bc3104566841cc70eeee489a4b8812a6b8039a31
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844226"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Mover vários usuários para o pool piloto
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-02_
+# <a name="move-multiple-users-to-the-pilot-pool"></a><span data-ttu-id="1ee41-102">Mover vários usuários para o pool piloto</span><span class="sxs-lookup"><span data-stu-id="1ee41-102">Move multiple users to the pilot pool</span></span>
 
-Você pode mover vários usuários do seu pool Lync Server 2010 para seu pool piloto Lync Server 2013, usando Painel de Controle do Lync Server 2013 ou Shell de Gerenciamento do Lync Server 2013.
+</div>
 
-## Para mover vários usuários usando o Painel de Controle do Lync Server 2013
+<div id="mainSection">
 
-1.  Abra **Painel de Controle do Lync Server**.
+<div id="mainBody">
 
-2.  Clique em **Usuários**, em Pesquisar e em **Localizar**.
+<span> </span>
 
-3.  Selecione dois usuários que você deseja mover para o pool Lync Server 2013. Neste exemplo, vamos mover os usuários Chen Yang e Claus Hansen.
+<span data-ttu-id="1ee41-103">_**Tópico da última modificação:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="1ee41-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="1ee41-104">Você pode mover vários usuários do pool do Lync Server 2010 para o pool piloto do Lync Server 2013 usando o painel de controle do Lync Server 2013 ou o Shell de gerenciamento do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1ee41-104">You can move multiple users from your Lync Server 2010 pool to your Lync Server 2013 pilot pool using Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
+
+<div>
+
+## <a name="to-move-multiple-users-by-using-the-lync-server-2013-control-panel"></a><span data-ttu-id="1ee41-105">Para mover vários usuários usando o painel de controle do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ee41-105">To move multiple users by using the Lync Server 2013 Control Panel</span></span>
+
+1.  <span data-ttu-id="1ee41-106">Abra o **Painel de Controle do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="1ee41-106">Open **Lync Server Control Panel**.</span></span>
+
+2.  <span data-ttu-id="1ee41-107">Clique em **Usuários**, em Pesquisar e em **Localizar**.</span><span class="sxs-lookup"><span data-stu-id="1ee41-107">Click **Users**, click Search, and then click **Find**.</span></span>
+
+3.  <span data-ttu-id="1ee41-108">Selecione dois usuários que você deseja mover para o pool do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1ee41-108">Select two users that you want to move to the Lync Server 2013 pool.</span></span> <span data-ttu-id="1ee41-109">Neste exemplo, vamos mover os usuários Yang Yang e Claus Hansen.</span><span class="sxs-lookup"><span data-stu-id="1ee41-109">In this example, we will move users Chen Yang and Claus Hansen.</span></span>
     
-    ![Mover usuários para o pool de registro específico](images/JJ205096.70d510e1-8e6b-40a5-a80b-27cbc63fc337(OCS.15).jpg "Mover usuários para o pool de registro específico")  
+    <span data-ttu-id="1ee41-110">![Mover usuários para um pool de registros específico] (images/JJ205096.70d510e1-8e6b-40a5-a80b-27cbc63fc337(OCS.15).jpg "Mover usuários para um pool de registros específico")</span><span class="sxs-lookup"><span data-stu-id="1ee41-110">![Move users to specific register pool](images/JJ205096.70d510e1-8e6b-40a5-a80b-27cbc63fc337(OCS.15).jpg "Move users to specific register pool")</span></span>  
 
-4.  No menu **Ação**, selecione **Mover usuários selecionados para o pool**.
+4.  <span data-ttu-id="1ee41-111">No menu **ação** , selecione **mover os usuários selecionados para o pool**.</span><span class="sxs-lookup"><span data-stu-id="1ee41-111">From the **Action** menu, select **Move selected users to pool**.</span></span>
 
-5.  A partir da lista suspensa, selecione o pool do Lync Server 2013.
+5.  <span data-ttu-id="1ee41-112">Na lista suspensa, selecione o pool do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1ee41-112">From the drop-down list, select the Lync Server 2013 pool.</span></span>
 
-6.  Clique em **Ação** e depois em **Mover usuários selecionados para o pool**. Clique em OK.
+6.  <span data-ttu-id="1ee41-113">Clique em **Ação** e em **Mover usuários selecionados para o pool**.</span><span class="sxs-lookup"><span data-stu-id="1ee41-113">Click **Action** and then click **Move selected users to pool**.</span></span> <span data-ttu-id="1ee41-114">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="1ee41-114">Click OK.</span></span>
     
-    ![Mover Usuários, caixa de diálogo de pool de registros de destino](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Mover Usuários, caixa de diálogo de pool de registros de destino")  
+    <span data-ttu-id="1ee41-115">![Caixa de diálogo mover usuários, pool de registradores de destino] (images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Caixa de diálogo mover usuários, pool de registradores de destino")</span><span class="sxs-lookup"><span data-stu-id="1ee41-115">![Move Users, destination registrar pool dialog box](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Move Users, destination registrar pool dialog box")</span></span>  
 
-7.  Verifique se a coluna **Pool do Registrador** dos usuários agora contém o pool Lync Server 2013, o que indica que os usuários foram movidos com êxito.
+7.  <span data-ttu-id="1ee41-116">Verifique se a coluna do **pool** de registradores dos usuários agora contém o pool do Lync Server 2013, que indica que os usuários foram movidos com êxito.</span><span class="sxs-lookup"><span data-stu-id="1ee41-116">Verify that the **Registrar pool** column for the users now contains the Lync Server 2013 pool, which indicates that the users have been successfully moved.</span></span>
 
-## Para mover vários usuários utilizando o Shell de Gerenciamento do Lync Server 2013
+</div>
 
-1.  Abra o Shell de Gerenciamento do Lync Server 2013.
+<div>
 
-2.  Na linha de comando, digite o seguinte e substitua **User1** e **User2** pelos nomes de usuário específicos que deseja mover e substitua o **pool\_FQDN** pelo nome do pool de destino. Neste exemplo, vamos mover os usuários Hao Chen e Katie Jordan.
+## <a name="to-move-multiple-users-by-using-the-lync-server-2013-management-shell"></a><span data-ttu-id="1ee41-117">Para mover vários usuários usando o Shell de gerenciamento do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ee41-117">To move multiple users by using the Lync Server 2013 Management Shell</span></span>
+
+1.  <span data-ttu-id="1ee41-118">Abra o Shell de gerenciamento do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1ee41-118">Open the Lync Server 2013 Management Shell.</span></span>
+
+2.  <span data-ttu-id="1ee41-119">Na linha de comando, digite o seguinte e substitua **Usuário1** e **user2** por nomes de usuário específicos que você deseja mover e substitua o **FQDN do\_pool** pelo nome do pool de destino.</span><span class="sxs-lookup"><span data-stu-id="1ee41-119">At the command line, type the following and replace **User1** and **User2** with specific user names you want to move and replace **pool\_FQDN** with the name of the destination pool.</span></span> <span data-ttu-id="1ee41-120">Neste exemplo, mudaremos os usuários de Hao Chen e Katie Jordânia.</span><span class="sxs-lookup"><span data-stu-id="1ee41-120">In this example we will move users Hao Chen and Katie Jordan.</span></span>
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
     
-    ![Exemplo de cmdlet PowerShell Get-CsUser](images/JJ205096.767ff9fc-755d-4a80-a710-5b1367aecbe0(OCS.15).jpg "Exemplo de cmdlet PowerShell Get-CsUser")  
+    <span data-ttu-id="1ee41-121">![Exemplo do cmdlet Get-CsUser do PowerShell] (images/JJ205096.767ff9fc-755d-4a80-a710-5b1367aecbe0(OCS.15).jpg "Exemplo do cmdlet Get-CsUser do PowerShell")</span><span class="sxs-lookup"><span data-stu-id="1ee41-121">![Example of PowerShell Get-CsUser cmdlet](images/JJ205096.767ff9fc-755d-4a80-a710-5b1367aecbe0(OCS.15).jpg "Example of PowerShell Get-CsUser cmdlet")</span></span>  
 
-3.  Na linha de comando, digite o seguinte
+3.  <span data-ttu-id="1ee41-122">Na linha de comando, digite o seguinte</span><span class="sxs-lookup"><span data-stu-id="1ee41-122">At the command line, type the following</span></span>
     
         Get-CsUser -Identity "User1"
 
-4.  A identidade do **Pool de registradores** deve apontar agora para o pool especificado como **pool\_FQDN** na etapa anterior. A presença dessa identidade confirma que o usuário foi movido com sucesso. Repita a etapa para verificar se o **User2** foi movido.
+4.  <span data-ttu-id="1ee41-123">A identidade do **pool** do registrador agora deve apontar para o pool especificado como **FQDN do pool\_** na etapa anterior.</span><span class="sxs-lookup"><span data-stu-id="1ee41-123">The **Registrar Pool** identity should now point to the pool you specified as **pool\_FQDN** in the previous step.</span></span> <span data-ttu-id="1ee41-124">A presença dessa identidade confirma que o usuário foi movido com êxito.</span><span class="sxs-lookup"><span data-stu-id="1ee41-124">The presence of this identity confirms that the user has been successfully moved.</span></span> <span data-ttu-id="1ee41-125">A etapa repetir para verificar o **user2** foi movida.</span><span class="sxs-lookup"><span data-stu-id="1ee41-125">Repeat step to verify **User2** has been moved.</span></span>
     
-    ![Saída do cmdlet PowerShell Get-UsUser -Identity](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Saída do cmdlet PowerShell Get-UsUser -Identity")  
+    <span data-ttu-id="1ee41-126">![Saída do cmdlet Get-UsUser-Identity do PowerShell] (images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Saída do cmdlet Get-UsUser-Identity do PowerShell")</span><span class="sxs-lookup"><span data-stu-id="1ee41-126">![Output of PowerShell Get-UsUser -Identity cmdlet](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Output of PowerShell Get-UsUser -Identity  cmdlet")</span></span>  
 
-## Para mover todos os usuários ao mesmo tempo usando o Shell de Gerenciamento do Lync Server 2013
+</div>
 
-Neste exemplo, todos os usuários foram devolvidos para o pool Lync Server 2010 (pool01.contoso.net). Usando o Shell de Gerenciamento do Lync Server 2013, vamos mover todos os usuários ao mesmo tempo para o pool Lync Server 2013 (pool02.contoso.net).
+<div>
 
-1.  Abra o **Shell de Gerenciamento do Lync Server 2013**.
+## <a name="to-move-all-users-at-the-same-time-by-using-the-lync-server-2013-management-shell"></a><span data-ttu-id="1ee41-127">Para mover todos os usuários ao mesmo tempo usando o Shell de gerenciamento do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ee41-127">To move all users at the same time by using the Lync Server 2013 Management Shell</span></span>
 
-2.  Na linha de comando, digite o seguinte:
+<span data-ttu-id="1ee41-128">Neste exemplo, todos os usuários foram retornados ao pool do Lync Server 2010 (pool01.contoso.net).</span><span class="sxs-lookup"><span data-stu-id="1ee41-128">In this example, all users have been returned to the Lync Server 2010 pool (pool01.contoso.net).</span></span> <span data-ttu-id="1ee41-129">Usando o Shell de gerenciamento do Lync Server 2013, todos os usuários serão movidos ao mesmo tempo para o Lync Server 2013 pool (pool02.contoso.net).</span><span class="sxs-lookup"><span data-stu-id="1ee41-129">Using the Lync Server 2013 Management Shell, we will move all users at the same time to the Lync Server 2013 pool (pool02.contoso.net).</span></span>
+
+1.  <span data-ttu-id="1ee41-130">Abra o **Shell de gerenciamento do Lync Server 2013**.</span><span class="sxs-lookup"><span data-stu-id="1ee41-130">Open the **Lync Server 2013 Management Shell**.</span></span>
+
+2.  <span data-ttu-id="1ee41-131">Na linha de comando, digite o seguinte:</span><span class="sxs-lookup"><span data-stu-id="1ee41-131">At the command line, type the following:</span></span>
     
         Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
     
-    ![Cmdlet PowerShell e resultados no Shell de Gerenciamento](images/JJ205096.1e57ccb1-9378-4dc7-82b7-dcaa63a285c6(OCS.15).png "Cmdlet PowerShell e resultados no Shell de Gerenciamento")  
+    <span data-ttu-id="1ee41-132">![Cmdlet do PowerShell e resulta no Shell de gerenciamento] (images/JJ205096.1e57ccb1-9378-4dc7-82b7-dcaa63a285c6(OCS.15).png "Cmdlet do PowerShell e resulta no Shell de gerenciamento")</span><span class="sxs-lookup"><span data-stu-id="1ee41-132">![PowerShell cmdlet and results in Management Shell](images/JJ205096.1e57ccb1-9378-4dc7-82b7-dcaa63a285c6(OCS.15).png "PowerShell cmdlet and results in Management Shell")</span></span>  
 
-3.  Depois, execute **Get-CsUser** de um dos usuários piloto.
+3.  <span data-ttu-id="1ee41-133">Em seguida, execute **Get-CsUser** para um dos usuários piloto.</span><span class="sxs-lookup"><span data-stu-id="1ee41-133">Next, run **Get-CsUser** for one of the pilot users.</span></span>
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  A identidade **Pool de registradores** de cada usuário aponta agora para o pool que você especificou como "pool\_FQDN" na etapa anterior. A presença dessa identidade confirma que o usuário foi movido com sucesso.
+4.  <span data-ttu-id="1ee41-134">A identidade do **pool** de registradores para cada usuário agora aponta para o pool especificado como\_"FQDN do pool" na etapa anterior.</span><span class="sxs-lookup"><span data-stu-id="1ee41-134">The **Registrar Pool** identity for each user now points to the pool you specified as “pool\_FQDN” in the previous step.</span></span> <span data-ttu-id="1ee41-135">A presença dessa identidade confirma que o usuário foi movido com êxito.</span><span class="sxs-lookup"><span data-stu-id="1ee41-135">The presence of this identity confirms that the user has been successfully moved.</span></span>
 
-5.  Além disso, podemos exibir a lista de usuários no Painel de Controle do Lync Server 2013 e verificar que o valor do Pool de registradores aponta agora para o pool Lync Server 2013.
+5.  <span data-ttu-id="1ee41-136">Além disso, podemos exibir a lista de usuários no painel de controle do Lync Server 2013 e verificar se o valor do pool do registrador agora aponta para o pool do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1ee41-136">Additionally, we can view the list of users in the Lync Server 2013 Control Panel and verify that the Registrar Pool value now points to the Lync Server 2013 pool.</span></span>
     
-    ![Lista de usuários do Painel de Controle do Lync Server 2013](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lista de usuários do Painel de Controle do Lync Server 2013")
+    <span data-ttu-id="1ee41-137">![Lista de usuários do painel de controle do Lync Server 2013] (images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lista de usuários do painel de controle do Lync Server 2013")</span><span class="sxs-lookup"><span data-stu-id="1ee41-137">![Lync Server 2013 Control Panel user list](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lync Server 2013 Control Panel user list")</span></span>  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

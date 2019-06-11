@@ -1,44 +1,84 @@
-﻿---
-title: Remover a associação do servidor de Monitoramento
-TOCTitle: Remover a associação do servidor de Monitoramento
-ms:assetid: c45b22ae-fc06-484a-a05b-735bd1bb7448
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721877(v=OCS.15)
-ms:contentKeyID: 49886400
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Remover a associação do Servidor de Monitoramento
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove the Monitoring server association
+ms:assetid: c45b22ae-fc06-484a-a05b-735bd1bb7448
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721877(v=OCS.15)
+ms:contentKeyID: 49733810
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a5703153bb1034f1318fbe14ca3583ad5744ffdb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844146"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Remover a associação do servidor de Monitoramento
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-04_
+# <a name="remove-the-monitoring-server-association"></a><span data-ttu-id="b4ad9-102">Remover a associação do Servidor de Monitoramento</span><span class="sxs-lookup"><span data-stu-id="b4ad9-102">Remove the Monitoring server association</span></span>
 
-Para remover o Servidor de Monitoramento, é preciso alterar ou limpar a dependência dos Pool de Front-Ends, Servidor Front-End, Aparelho de Filial Persistente e Servidor de Filial Persistente associados. Para remover a dependência, você edita as propriedades de Pool de Front-Ends, Servidor Front-End, Aparelho de Filial Persistente e Servidor de Filial Persistente. Depois de limpar a dependência e excluir o servidor no Construtor de Topologias, você é avisado de que o objeto de armazenamento de banco de dados associado no Construtor de Topologias também será excluído.
+</div>
 
-## Para remover a associação do Servidor de Monitoramento
+<div id="mainSection">
 
-1.  Abra o servidor de front-end do Lync Server 2013, abra o Construtor de Topologia.
+<div id="mainBody">
 
-2.  Navegue para o nó Lync Server 2010.
+<span> </span>
 
-3.  No Construtor de Topologias, expanda **Pools de Front-Ends Enterprise Edition** , **Servidor Front-End Standard Edition** ou **Sites de filiais** , com base em onde o Servidor de Monitoramento está definido.
+<span data-ttu-id="b4ad9-103">_**Tópico da última modificação:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="b4ad9-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-4.  Se você tiver o Servidor de Filial Persistente associado, expanda **Sites de filiais** , expanda o nome do site da filial e expanda **Aparelhos de Filial Persistente** .
+<span data-ttu-id="b4ad9-104">Para remover o Monitoring Server, você precisa alterar ou limpar a dependência do pool de front-ends associado, servidor front-end, aparelho para ramificação sobreviventes e servidor de ramificação sobreviventes.</span><span class="sxs-lookup"><span data-stu-id="b4ad9-104">To remove the Monitoring Server, you need to change or clear the dependency on the associated Front End pool, Front End Server, Survivable Branch Appliance and Survivable Branch Server.</span></span> <span data-ttu-id="b4ad9-105">Edite as propriedades do pool de front-end, servidor front-end, appliances para ramificação sobreviventes e servidor de ramificação sobreviventes para remover a dependência.</span><span class="sxs-lookup"><span data-stu-id="b4ad9-105">You edit the properties of the Front End pool, Front End Server, Survivable Branch Appliance and Survivable Branch Server to remove the dependency.</span></span> <span data-ttu-id="b4ad9-106">Depois de limpar a dependência e excluir o servidor no construtor de topologias, você será notificado de que o objeto de repositório de banco de dados associado também será excluído.</span><span class="sxs-lookup"><span data-stu-id="b4ad9-106">After you clear the dependency and delete the server in Topology Builder, you are notified that the associated database store object in Topology Builder will also be deleted.</span></span>
+
+<div>
+
+## <a name="to-remove-the-monitoring-server-association"></a><span data-ttu-id="b4ad9-107">Para remover a associação do Monitoring Server</span><span class="sxs-lookup"><span data-stu-id="b4ad9-107">To remove the Monitoring Server association</span></span>
+
+1.  <span data-ttu-id="b4ad9-108">Abra o servidor front-end do Lync Server 2013, abra o construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="b4ad9-108">Open the Lync Server 2013 Front End Server, open Topology Builder.</span></span>
+
+2.  <span data-ttu-id="b4ad9-109">Navegue até o nó do Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="b4ad9-109">Navigate to the Lync Server 2010 node.</span></span>
+
+3.  <span data-ttu-id="b4ad9-110">No construtor de topologia, expanda Pools de **front-end do Enterprise Edition**, **servidores front-end da edição padrão**ou **sites**de filiais com base em onde o servidor de monitoramento está definido.</span><span class="sxs-lookup"><span data-stu-id="b4ad9-110">In Topology Builder, expand **Enterprise Edition Front End pools**, **Standard Edition Front End Servers**, or **Branch sites**, based on where the Monitoring Server is defined.</span></span>
+
+4.  <span data-ttu-id="b4ad9-111">Se você tiver um servidor de ramificação sobreviventes associado, expanda **sites**de ramificação, expanda o nome do site da filial e expanda **aparelhos de ramificação sobreviventes**.</span><span class="sxs-lookup"><span data-stu-id="b4ad9-111">If you have Survivable Branch Server associated, expand **Branch sites**, expand the branch site name, and then expand **Survivable Branch Appliances**.</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-    > <strong>Aparelhos de Filial Persistente</strong> na interface do usuário aplica-se ao Servidor de Filial Persistente e ao Aparelho de Filial Persistente.
+    > <span data-ttu-id="b4ad9-112"><STRONG>Aparelhos de ramificação sobreviventes</STRONG> na interface do usuário se aplicam ao servidor de ramificação sobreviventes e ao aparelho de ramificação sobreviventes.</span><span class="sxs-lookup"><span data-stu-id="b4ad9-112"><STRONG>Survivable Branch Appliances</STRONG> in the user interface applies to both Survivable Branch Server and Survivable Branch Appliance.</span></span>
 
-5.  Clique com o botão direito do mouse no pool, servidor ou dispositivo que está associado ao Servidor de Monitoramento e clique em **Editar Propriedades** .
+    
+    </div>
 
-6.  Em **Editar Propriedades** , em **Geral** , em **Associações** , limpe a caixa de seleção **Associar Servidor de Monitoramento** e clique em **OK** .
+5.  <span data-ttu-id="b4ad9-113">Clique com o botão direito do mouse no pool, no servidor ou no dispositivo associado ao Monitoring Server e clique em **Editar propriedades**.</span><span class="sxs-lookup"><span data-stu-id="b4ad9-113">Right-click the pool, server, or device that is associated with the Monitoring Server, and then click **Edit Properties**.</span></span>
 
-7.  Repita a etapa anterior para qualquer outro pool, servidor ou dispositivo associado ao Servidor de Monitoramento.
+6.  <span data-ttu-id="b4ad9-114">Em **Editar propriedades**, em **geral**, em **associações**, desmarque a caixa de seleção **associar o servidor de monitoramento** e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="b4ad9-114">In **Edit Properties**, under **General**, under **Associations**, clear the **Associate Monitoring Server** check box, and then click **OK**.</span></span>
 
-8.  Clique com o botão direito do mouse no Servidor de Monitoramento e, em seguida, clique em **Excluir** .
+7.  <span data-ttu-id="b4ad9-115">Repita a etapa anterior para qualquer outro pool, servidor ou dispositivo associado ao servidor de monitoramento.</span><span class="sxs-lookup"><span data-stu-id="b4ad9-115">Repeat the previous step for any other pool, server or device associated with the Monitoring Server.</span></span>
 
-9.  Em **Excluir Repositórios Dependentes** , clique em **OK** .
+8.  <span data-ttu-id="b4ad9-116">Clique com o botão direito do mouse no servidor de monitoramento e clique em **excluir**.</span><span class="sxs-lookup"><span data-stu-id="b4ad9-116">Right-click the Monitoring Server, and then click **Delete**.</span></span>
 
-10. Publique a topologia, verifique o status de replicação e execute o Assistente de Implantação do Lync Server conforme necessário.
+9.  <span data-ttu-id="b4ad9-117">Em **excluir repositórios dependentes**, clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="b4ad9-117">On **Delete Dependent Stores**, click **OK**.</span></span>
+
+10. <span data-ttu-id="b4ad9-118">Publique a topologia, verifique o status da replicação e execute o assistente de implantação do Lync Server conforme necessário.</span><span class="sxs-lookup"><span data-stu-id="b4ad9-118">Publish the topology, check replication status, and run the Lync Server Deployment Wizard as needed.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

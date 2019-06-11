@@ -1,25 +1,59 @@
-﻿---
-title: "Exibir e trabalhar com relat. gerados pelo Analisador de Práticas Recomendadas"
-TOCTitle: "Exibir e trabalhar com relat. gerados pelo Analisador de Práticas Recomendadas"
-ms:assetid: 58a030ca-b827-4370-b848-1358c8bd2b68
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg607689(v=OCS.15)
-ms:contentKeyID: 49306782
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Exibir e trabalhar com relatórios criados pelo analisador de práticas recomendadas
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Viewing and working with reports created by Best Practices Analyzer
+ms:assetid: 58a030ca-b827-4370-b848-1358c8bd2b68
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg607689(v=OCS.15)
+ms:contentKeyID: 48184215
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8261f5e2d474e30d919aa5bea1538ba8636be691
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844376"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Exibir e trabalhar com relatórios gerados pelo Analisador de Práticas Recomendadas
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-06-14_
+# <a name="viewing-and-working-with-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="75606-102">Exibir e trabalhar com relatórios criados pelo analisador de práticas recomendadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="75606-102">Viewing and working with reports created by Best Practices Analyzer in Lync Server 2013</span></span>
 
-Quando você utiliza o Analisador de Práticas Recomendadas para examinar seu ambiente, o Analisador de Práticas Recomendadas cria relatórios que identificam problemas e outras informações sobre sua implantação. Você pode utilizar o Analisador de Práticas Recomendadas para visualizar os relatórios que contêm os resultados da verificação e compreender os problemas identificados nos relatórios.
+</div>
 
-## Nesta seção
+<div id="mainSection">
 
-  - [Exibir Relatórios do Analisador de Práticas Recomendadas](lync-server-2013-viewing-reports-from-best-practices-analyzer.md)
+<div id="mainBody">
 
-  - [Entendendo os relatórios criados pelo Analisador de Práticas Recomendadas](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)
+<span> </span>
+
+<span data-ttu-id="75606-103">_**Tópico da última modificação:** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="75606-103">_**Topic Last Modified:** 2012-06-14_</span></span>
+
+<span data-ttu-id="75606-104">Quando você usa o analisador de práticas recomendadas para verificar seu ambiente, o analisador de práticas recomendadas cria relatórios que identificam problemas e outras informações sobre sua implantação.</span><span class="sxs-lookup"><span data-stu-id="75606-104">When you use Best Practices Analyzer to scan your environment, Best Practices Analyzer creates reports that identify issues and other information about your deployment.</span></span> <span data-ttu-id="75606-105">Você pode usar o analisador de práticas recomendadas para exibir os relatórios que contêm os resultados da verificação e entender os problemas identificados nos relatórios.</span><span class="sxs-lookup"><span data-stu-id="75606-105">You can use Best Practices Analyzer to view the reports that contain the scan results and understand the issues identified in the reports.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="75606-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="75606-106">In This Section</span></span>
+
+  - [<span data-ttu-id="75606-107">Exibindo relatórios do analisador de práticas recomendadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="75606-107">Viewing reports from Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-viewing-reports-from-best-practices-analyzer.md)
+
+  - [<span data-ttu-id="75606-108">Noções básicas sobre relatórios criados pelo analisador de práticas recomendadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="75606-108">Understanding reports created by Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

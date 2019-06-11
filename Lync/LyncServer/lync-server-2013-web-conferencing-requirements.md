@@ -1,61 +1,89 @@
-﻿---
-title: Requisitos de webconferência no Lync Server 2013
-TOCTitle: Requisitos de webconferência no Lync Server 2013
-ms:assetid: 125f847c-58ab-450f-ae43-41219fd38477
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ619171(v=OCS.15)
-ms:contentKeyID: 49305939
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: requisitos da webconferência'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Web conferencing requirements
+ms:assetid: 125f847c-58ab-450f-ae43-41219fd38477
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619171(v=OCS.15)
+ms:contentKeyID: 49733559
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: dddfd7c2fdfe6cbcefcca7533e93c3c377cceea8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844303"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos de webconferência no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="web-conferencing-requirements-in-lync-server-2013"></a><span data-ttu-id="672eb-102">Requisitos da webconferência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="672eb-102">Web conferencing requirements in Lync Server 2013</span></span>
 
-Se você optou por habilitar a webconferência, será necessário planejar:
+</div>
 
-   O acesso ao repositório de arquivos, usado para armazenar conteúdo de webconferências.
+<div id="mainSection">
 
-   A integração com o Servidor Office Web Apps, necessária para compartilhar arquivos do PowerPoint durante uma conferência.
+<div id="mainBody">
 
-## Repositório de Arquivos
+<span> </span>
 
-O serviço de webconferência do Lync Server 2013 armazena conteúdo compartilhado durante reuniões no repositório de arquivos. Como parte da implementação, você deve especificar um compartilhamento de arquivos a ser usado como repositório para o servidor do Standard Edition ou do Enterprise EditionPool de Front-Ends. Você pode usar um repositório de arquivos existente ou pode especificar um novo compartilhamento de arquivos determinando o nome de domínio totalmente qualificado (FQDN) do servidor de arquivos em que o repositório estará localizado e um nome de pasta para o novo compartilhamento de arquivos.  Para mais informações, consulte Construtor de Topologias – Definir o Repositório de Arquivos para o Front End. O serviço de webconferências criptografa o conteúdo antes de armazená-lo no repositório de arquivos.
+<span data-ttu-id="672eb-103">_**Tópico da última modificação:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="672eb-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-O Lync Server 2013 oferece suporte ao uso de compartilhamentos de arquivos em armazenamento anexado direto (DAS) ou em uma rede de área de armazenamento (SAN), incluindo o Sistema de Arquivos Distribuídos (DFS) e em um RAID para repositórios de arquivos. Depois de a Assistente de Implantação do Lync Server definir a localização do repositório de arquivos, o Lync Server cria uma estrutura de pastas dentro do compartilhamento de arquivos similar a:
+<span data-ttu-id="672eb-104">Se você optou por habilitar a webconferência, será necessário planejar:</span><span class="sxs-lookup"><span data-stu-id="672eb-104">If you have chosen to enable web conferencing, you need to plan for the following:</span></span>
 
-  - 1-ApplicationServer-1
+  - <span></span>  
+    <span data-ttu-id="672eb-105">O acesso ao repositório de arquivos, usado para armazenar conteúdo de webconferências.</span><span class="sxs-lookup"><span data-stu-id="672eb-105">Access to the file store, which is used for storing web conferencing content.</span></span>
 
-  - 1-CentralMgmt-1
+  - <span></span>  
+    <span data-ttu-id="672eb-106">Integração com o Servidor do Office Web Apps, necessária para compartilhar arquivos do PowerPoint durante uma conferência.</span><span class="sxs-lookup"><span data-stu-id="672eb-106">Integration with Office Web Apps Server, which is necessary in order to share PowerPoint files during a conference.</span></span>
 
-  - 1-WebServices-1
+<div>
+
+## <a name="file-store"></a><span data-ttu-id="672eb-107">Repositório de Arquivos</span><span class="sxs-lookup"><span data-stu-id="672eb-107">File Store</span></span>
+
+<span data-ttu-id="672eb-108">O serviço de Webconferência do Lync Server 2013 armazena conteúdo compartilhado durante reuniões no repositório de arquivos.</span><span class="sxs-lookup"><span data-stu-id="672eb-108">The Lync Server 2013 web conferencing service stores content shared during meetings in the file store.</span></span> <span data-ttu-id="672eb-109">Como parte da implantação, você deve especificar um compartilhamento de arquivos a ser usado como o repositório de arquivos para o servidor Standard Edition ou o pool de front-end da edição Enterprise.</span><span class="sxs-lookup"><span data-stu-id="672eb-109">As part of deployment, you must specify a file share to be used as the file store for the either Standard Edition server or Enterprise Edition Front End pool.</span></span> <span data-ttu-id="672eb-110">É possível usar um compartilhamento de arquivos existente para o repositório de arquivos ou definir um novo especificando o FQDN (nome de domínio totalmente qualificado) do servidor de arquivos no qual o compartilhamento de arquivos deve estar localizado e um nome de pasta para o novo compartilhamento de arquivos.</span><span class="sxs-lookup"><span data-stu-id="672eb-110">You can use an existing file share for the file store or you can specify a new file share by specifying the fully qualified domain name (FQDN) of the file server on which the file share is to be located and a folder name for the new file share.</span></span><span data-ttu-id="672eb-111">Para obter mais informações, consulte Construtor de topologias – defina o repositório de arquivos do front-end.</span><span class="sxs-lookup"><span data-stu-id="672eb-111">  For more information, see Topology Builder – Define the File Store for the Front End.</span></span> <span data-ttu-id="672eb-112">O serviço de webconferências criptografa o conteúdo antes de armazená-lo no repositório de arquivos.</span><span class="sxs-lookup"><span data-stu-id="672eb-112">The web conferencing service encrypts the content before it stores the content in the file store.</span></span>
+
+<span data-ttu-id="672eb-113">O Lync Server 2013 oferece suporte ao uso de compartilhamentos de arquivos em DAS (armazenamento de conexão direta) ou de uma rede de área de armazenamento (SAN), incluindo o sistema de arquivos distribuídos (DFS) e um conjunto redundante de discos independentes (RAID) para armazenamentos de arquivos.</span><span class="sxs-lookup"><span data-stu-id="672eb-113">Lync Server 2013 supports using file shares on either direct attached storage (DAS) or a storage area network (SAN), including Distributed File System (DFS) and on a redundant array of independent disks (RAID) for file stores.</span></span> <span data-ttu-id="672eb-114">Depois que o assistente de implantação do Lync Server tiver definido o local do compartilhamento de arquivos, o Lync Server criará uma estrutura de pastas dentro do compartilhamento de arquivos semelhante a:</span><span class="sxs-lookup"><span data-stu-id="672eb-114">After the Lync Server Deployment Wizard has defined the location of the file share, Lync Server creates a folder structure within the file share similar to:</span></span>
+
+  - <span data-ttu-id="672eb-115">1-ApplicationServer-1</span><span class="sxs-lookup"><span data-stu-id="672eb-115">1-ApplicationServer-1</span></span>
+
+  - <span data-ttu-id="672eb-116">1-CentralMgmt-1</span><span class="sxs-lookup"><span data-stu-id="672eb-116">1-CentralMgmt-1</span></span>
+
+  - <span data-ttu-id="672eb-117">1-WebServices-1</span><span class="sxs-lookup"><span data-stu-id="672eb-117">1-WebServices-1</span></span>
     
-      - CollabContent
+      - <span data-ttu-id="672eb-118">CollabContent</span><span class="sxs-lookup"><span data-stu-id="672eb-118">CollabContent</span></span>
     
-      - CollabMetadata
+      - <span data-ttu-id="672eb-119">CollabMetadata</span><span class="sxs-lookup"><span data-stu-id="672eb-119">CollabMetadata</span></span>
     
-      - DataConf
+      - <span data-ttu-id="672eb-120">DataConf</span><span class="sxs-lookup"><span data-stu-id="672eb-120">DataConf</span></span>
 
-O serviço de webconferências então armazena conteúdo como slides do PowerPoint, quadros de comunicações, votações e anexos nas pastas CollabContent e CollabMetadata, localizadas na pasta WebServices.
+<span data-ttu-id="672eb-121">O serviço de webconferências então armazena conteúdo como slides do PowerPoint, quadros de comunicações, votações e anexos nas pastas CollabContent e CollabMetadata, localizadas na pasta WebServices.</span><span class="sxs-lookup"><span data-stu-id="672eb-121">The web conferencing service then stores content such as PowerPoint slides, whiteboards, polls, and attachments in the CollabContent and CollabMetadata folders, located in the WebServices folder.</span></span>
 
-O administrador deve definir permissões no compartilhamento de arquivos para que grupos do RTC tenham o acesso de leitura e gravação necessário.
+<span data-ttu-id="672eb-122">O administrador deve definir permissões no compartilhamento de arquivos para que os grupos RTC tenham o acesso de leitura e gravação necessário.</span><span class="sxs-lookup"><span data-stu-id="672eb-122">The administrator must set permissions on the file share so that RTC groups have the necessary read and write access.</span></span>
+
+<div>
 
 
 > [!WARNING]  
-> Se você encontrar erros com as permissões, abra o Construtor de Topologias, faça download e publique novamente a topologia existente. Publicar a topologia verificará as permissões do compartilhamento de arquivos e as redefinirá, se necessário.
+> <span data-ttu-id="672eb-123">Se você encontrar erros com as permissões, abra o construtor de topologias, baixe e Republique novamente a topologia existente.</span><span class="sxs-lookup"><span data-stu-id="672eb-123">If you encounter any errors with the permissions, open Topology Builder, download and republish the existing topology.</span></span> <span data-ttu-id="672eb-124">A publicação da topologia verificará as permissões de compartilhamento de arquivos e as redefinirá, se necessário.</span><span class="sxs-lookup"><span data-stu-id="672eb-124">Publishing the topology will verify the file share permissions and reset them if needed.</span></span>
 
 
 
-Você pode usar as configurações a seguir para gerenciar como o conteúdo será armazenado para uma reunião:
+</div>
 
-  - **ContentGracePeriod**, localizada em [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration), define por quanto tempo o conteúdo da webconferência permanecerá no servidor depois do término da reunião.
+<span data-ttu-id="672eb-125">Você pode usar as configurações a seguir para gerenciar como o conteúdo é armazenado para uma reunião:</span><span class="sxs-lookup"><span data-stu-id="672eb-125">You can use the following settings to manage how content is stored for a meeting:</span></span>
 
-  - **MaxContentStorageMb**, localizada em [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration), define o volume máximo de espaço para arquivo permitido para o armazenamento de conteúdo durante uma única reunião.
+  - <span data-ttu-id="672eb-126">**ContentGracePeriod**, localizado em [set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration), define o tempo que o conteúdo da webconferência permanecerá no servidor após o término da reunião.</span><span class="sxs-lookup"><span data-stu-id="672eb-126">**ContentGracePeriod**, located in [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration), sets how long web conferencing content will remain on the server after the meeting has ended.</span></span>
 
-**MaxUploadFileSizeMb** não limita a configuração do carregamento de arquivos para o Lync Web App. O limite de tamanho para o carregamento de arquivos para o Lync Web App está definido como aproximadamente 30MB e é controlado pelo arquivo web.config do IIS: /DataCollabWeb/Int\[Ext\]/Handler/web.config. Para configurar o limite de tamanho para o carregamento de arquivos para o Lync Web App, atualize as opções `maxRequestLength` e `maxAllowedContentLength` no arquivo web.config, conforme exibido abaixo.
+  - <span data-ttu-id="672eb-127">**MaxContentStorageMb**, localizado em [set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration), define o valor máximo de espaço de arquivo permitido para o armazenamento de conteúdo durante uma única reunião.</span><span class="sxs-lookup"><span data-stu-id="672eb-127">**MaxContentStorageMb**, located in [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration), sets the maximum amount of file space allowed for the storage of content during a single meeting.</span></span>
+
+<span data-ttu-id="672eb-128">**MaxUploadFileSizeMb** não limita a configuração de carregamento de arquivo do Lync Web App.</span><span class="sxs-lookup"><span data-stu-id="672eb-128">**MaxUploadFileSizeMb** does not limit the file upload setting for Lync Web App.</span></span> <span data-ttu-id="672eb-129">O limite de carregamento do tamanho do arquivo do Lync Web App é definido como aproximadamente 30MB e é controlado pelo arquivo Web. config do\[IIS\]:/DataCollabWeb/int ext/Handler/Web.config. Para configurar o limite de carregamento de tamanho do arquivo para o Lync `maxRequestLength` Web `maxAllowedContentLength` app, atualize e no arquivo Web. config, como mostrado a seguir.</span><span class="sxs-lookup"><span data-stu-id="672eb-129">The file size upload limit for Lync Web App is set to approximately 30MB and is controlled by the IIS web.config file: /DataCollabWeb/Int\[Ext\]/Handler/web.config. To configure the file size upload limit for Lync Web App, update `maxRequestLength` and `maxAllowedContentLength` in the web.config file as shown below.</span></span>
 
     <system.web>
         <!-- 
@@ -75,16 +103,36 @@ Você pode usar as configurações a seguir para gerenciar como o conteúdo ser�
                     </requestFiltering>
                     </security>
 
-Você deve atualizar o arquivo web.config para cada Servidor Front-End.
+<span data-ttu-id="672eb-130">Você deve atualizar o arquivo Web. config para cada servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="672eb-130">You must update the web.config file for each Front End Server.</span></span>
 
-## Servidor Office Web Apps
+</div>
 
-Para usar estes novos recursos, administradores devem instalar o Servidor Office Web Apps e configurar o Lync Server 2013 para se comunicar com o Servidor Office Web Apps. Esta documentação fornece informações sobre como configurar o Lync Server 2013 para funcionar com o Servidor Office Web Apps. O que esta documentação não fornece são informações sobre como instalar o Servidor Office Web Apps. Para detalhes da instalação, consulte o site de Implantação de Web Apps do Microsoft Office em <http://go.microsoft.com/fwlink/?linkid=257525>. Este guia inclui informações completas de pré-requisitos para o Servidor Office Web Apps. Observe que o Servidor Office Web Apps deve ser instalado em um computador autônomo que não esteja executando o Lync Server, SQL Server, ou qualquer outro aplicativo de servidor (você não deve ter qualquer versão do Office instalada neste computador). Qualquer computador usado para executar o Servidor Office Web Apps também deve ter um conjunto específico de softwares instalados (incluindo o .NET Framework 4.5 e o Windows PowerShell 3.0). Estes requisitos, juntamente com as informações sobre como configurar certificados e o IIS (Serviços de Informações da Internet), são discutidos em detalhes no site de Implantação de Web Apps do Microsoft Office em <http://go.microsoft.com/fwlink/?linkid=257525>.
+<div>
 
-## Consulte Também
+## <a name="office-web-apps-server"></a><span data-ttu-id="672eb-131">Servidor Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="672eb-131">Office Web Apps Server</span></span>
 
-#### Conceitos
+<span data-ttu-id="672eb-132">Para usar esses novos recursos, os administradores devem instalar o Office Web Apps Server e devem configurar o Lync Server 2013 para se comunicar com o servidor do Office Web Apps.</span><span class="sxs-lookup"><span data-stu-id="672eb-132">In order to use these new capabilities administrators must install Office Web Apps Server and they must configure Lync Server 2013 to communicate with Office Web Apps Server.</span></span> <span data-ttu-id="672eb-133">Esta documentação fornece informações sobre como configurar o Lync Server 2013 para trabalhar com o servidor do Office Web Apps.</span><span class="sxs-lookup"><span data-stu-id="672eb-133">This documentation provides information on how to configure Lync Server 2013 to work with Office Web Apps Server.</span></span> <span data-ttu-id="672eb-134">O que essa documentação não fornece é informações sobre como instalar o Office Web Apps Server.</span><span class="sxs-lookup"><span data-stu-id="672eb-134">What this documentation does not provide is information about how to install Office Web Apps Server.</span></span> <span data-ttu-id="672eb-135">Para obter detalhes sobre a instalação, consulte o site de implantação do <http://go.microsoft.com/fwlink/p/?linkid=257525>Microsoft Office Web Apps em.</span><span class="sxs-lookup"><span data-stu-id="672eb-135">For installation details, see the Microsoft Office Web Apps Deployment website at <http://go.microsoft.com/fwlink/p/?linkid=257525>.</span></span> <span data-ttu-id="672eb-136">Esse guia inclui informações completas de pré-requisito para o Office Web Apps Server.</span><span class="sxs-lookup"><span data-stu-id="672eb-136">That guide includes complete prerequisite information for Office Web Apps Server.</span></span> <span data-ttu-id="672eb-137">Observe que o Office Web Apps Server deve ser instalado em um computador autônomo que não esteja executando o Lync Server, o SQL Server ou qualquer outro aplicativo de servidor.</span><span class="sxs-lookup"><span data-stu-id="672eb-137">Note that Office Web Apps Server should be installed on a stand-alone computer that is not running Lync Server, SQL Server, or any other server application.</span></span> <span data-ttu-id="672eb-138">(Você não deve ter qualquer versão do Office instalada nesse computador.) Qualquer computador usado para executar o Office Web Apps Server também deve ter um conjunto específico de softwares instalado (incluindo .NET Framework 4,5 e Windows PowerShell 3,0).</span><span class="sxs-lookup"><span data-stu-id="672eb-138">(You must not have any version of Office installed on that computer.) Any computer used to run Office Web Apps Server must also have a specific set of software installed (including .NET Framework 4.5 and Windows PowerShell 3.0).</span></span> <span data-ttu-id="672eb-139">Esses requisitos, juntamente com informações sobre a configuração de certificados e serviços de informações da Internet (IIS), são discutidos em detalhes no site de implantação <http://go.microsoft.com/fwlink/p/?linkid=257525>do Microsoft Office Web Apps em.</span><span class="sxs-lookup"><span data-stu-id="672eb-139">These requirements, along with information about configuring certificates and Internet Information Services (IIS), are discussed in detail in the Microsoft Office Web Apps Deployment website at <http://go.microsoft.com/fwlink/p/?linkid=257525>.</span></span>
 
-[Visão Geral de Webconferência no Lync Server 2013](lync-server-2013-web-conferencing-overview.md)  
-[Lista de verificação de implantação para webconferência](lync-server-2013-deployment-checklist-for-web-conferencing.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="672eb-140">Confira também</span><span class="sxs-lookup"><span data-stu-id="672eb-140">See Also</span></span>
+
+
+[<span data-ttu-id="672eb-141">Visão geral da Web conferência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="672eb-141">Overview of web conferencing in Lync Server 2013</span></span>](lync-server-2013-web-conferencing-overview.md)  
+[<span data-ttu-id="672eb-142">Lista de verificação da implantação para Webconferência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="672eb-142">Deployment checklist for web conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-web-conferencing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

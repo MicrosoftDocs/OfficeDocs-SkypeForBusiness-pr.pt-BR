@@ -1,29 +1,63 @@
-﻿---
-title: 'Fase 4: Mesclar topologias'
-TOCTitle: 'Fase 4: Mesclar topologias'
-ms:assetid: 81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205044(v=OCS.15)
-ms:contentKeyID: 49307296
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Fase 4: topologias de mesclagem'
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: 'Phase 4: Merge topologies'
+ms:assetid: 81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205044(v=OCS.15)
+ms:contentKeyID: 48184668
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 77987325d7ad03b107c0f98ccc1c12a6d5e863c2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844202"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Fase 4: Mesclar topologias
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-03-29_
+# <a name="phase-4-merge-topologies"></a><span data-ttu-id="77fbd-102">Fase 4: topologias de mesclagem</span><span class="sxs-lookup"><span data-stu-id="77fbd-102">Phase 4: Merge topologies</span></span>
 
-Os tópicos a seguir descrevem as etapas necessárias para mesclar os pools do Microsoft Office Communications Server 2007 R2 com os pools Microsoft Lync Server 2013. Primeiro, use o assistente de Mesclagem do Construtor de Topologias para mesclar informações de topologias. Essa ferramenta coleta informações sobre o ambiente Office Communications Server 2007 R2, incluindo informações do Servidor de Borda, e publica essas informações em um banco de dados compartilhado com o Lync Server 2013. Depois de publicar a topologia mesclada, o Construtor de Topologias é usado para exibir as informações de topologia do Office Communications Server 2007 R2 e informações sobre a topologia do Lync Server 2013 recém implantado. Por fim, use os cmdlets do Shell de gerenciamento do Lync Server para importar as definições de política e configuração.
+</div>
 
-## Nesta seção
+<div id="mainSection">
 
-  - [Instalar o pacote de Compatibilidade com Versões Anteriores](install-wmi-backward-compatibility-package.md)
+<div id="mainBody">
 
-  - [Mesclar usando o assistente de Mesclagem do Construtor de Topologia](merge-using-topology-builder-merge-wizard.md)
+<span> </span>
 
-  - [Importar políticas e configurações](import-policies-and-settings.md)
+<span data-ttu-id="77fbd-103">_**Tópico da última modificação:** 2012-03-29_</span><span class="sxs-lookup"><span data-stu-id="77fbd-103">_**Topic Last Modified:** 2012-03-29_</span></span>
 
-  - [Verificar informações da topologia](verify-topology-information.md)
+<span data-ttu-id="77fbd-104">Os tópicos a seguir descrevem as etapas necessárias para mesclar os pools do Microsoft Office Communications Server 2007 R2 para os pools do Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="77fbd-104">The following topics outline the steps needed to merge your Microsoft Office Communications Server 2007 R2 pools to Microsoft Lync Server 2013 pools.</span></span> <span data-ttu-id="77fbd-105">Primeiro, use o assistente de mesclagem do construtor de topologias para mesclar as informações da topologia.</span><span class="sxs-lookup"><span data-stu-id="77fbd-105">First, you use the Topology Builder Merge wizard to merge topology information.</span></span> <span data-ttu-id="77fbd-106">Esta ferramenta coleta informações sobre o ambiente do Office Communications Server 2007 R2, incluindo informações do servidor de borda, e publica essas informações em um banco de dados compartilhado com o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="77fbd-106">This tool collects information about your Office Communications Server 2007 R2 environment, including Edge Server information, and publishes that information to a database shared with Lync Server 2013.</span></span> <span data-ttu-id="77fbd-107">Após a publicação da topologia mesclada, o construtor de topologias é usado para exibir as informações de topologia do Office Communications Server 2007 R2 e informações sobre a topologia recém implantada do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="77fbd-107">After you publish the merged topology, Topology Builder is used to view the Office Communications Server 2007 R2 topology information and information about the newly deployed Lync Server 2013 topology.</span></span> <span data-ttu-id="77fbd-108">Por fim, você usa cmdlets do Shell de gerenciamento do Lync Server para importar políticas e definições de configuração.</span><span class="sxs-lookup"><span data-stu-id="77fbd-108">Finally, you use Lync Server Management Shell cmdlets to import policies and configuration settings.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="77fbd-109">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="77fbd-109">In This Section</span></span>
+
+  - [<span data-ttu-id="77fbd-110">Instalar o pacote de compatibilidade com versões anteriores do WMI</span><span class="sxs-lookup"><span data-stu-id="77fbd-110">Install WMI Backward Compatibility package</span></span>](install-wmi-backward-compatibility-package.md)
+
+  - [<span data-ttu-id="77fbd-111">Mesclar usando o assistente de mesclagem do construtor de topologia</span><span class="sxs-lookup"><span data-stu-id="77fbd-111">Merge using Topology Builder Merge wizard</span></span>](merge-using-topology-builder-merge-wizard.md)
+
+  - [<span data-ttu-id="77fbd-112">Importar políticas e configurações</span><span class="sxs-lookup"><span data-stu-id="77fbd-112">Import policies and settings</span></span>](import-policies-and-settings.md)
+
+  - [<span data-ttu-id="77fbd-113">Verificar informações de topologia</span><span class="sxs-lookup"><span data-stu-id="77fbd-113">Verify topology information</span></span>](verify-topology-information.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
