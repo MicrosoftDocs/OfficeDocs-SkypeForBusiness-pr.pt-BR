@@ -1,27 +1,49 @@
-﻿---
-title: Requisitos de DNS para servidores de chat persistente
-TOCTitle: Requisitos de DNS para servidores de chat persistente
-ms:assetid: f7531374-d7ed-4b63-ae81-02294cb4496a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205391(v=OCS.15)
-ms:contentKeyID: 49308640
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: requisitos de DNS para servidores de chat persistentes'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS requirements for Persistent Chat Servers
+ms:assetid: f7531374-d7ed-4b63-ae81-02294cb4496a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205391(v=OCS.15)
+ms:contentKeyID: 48185857
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a1f52fde1ee1034f453fe62f2aa3aa44d04b389c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829364"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos de DNS para servidores de chat persistente
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="dns-requirements-for-persistent-chat-servers-in-lync-server-2013"></a><span data-ttu-id="d4add-102">Requisitos de DNS para servidores de chat persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d4add-102">DNS requirements for Persistent Chat Servers in Lync Server 2013</span></span>
 
-Esta seção descreve os registros do Sistema de Nomes de Domínio (DNS) necessários para implantar o Servidores de Chat Persistente.
+</div>
 
-## Registros DNS para servidores de chat persistente
+<div id="mainSection">
 
-A tabela a seguir especifica os requisitos de DNS para a implantação do Servidor de Chat Persistente.
+<div id="mainBody">
 
-### Requisitos de DNS para um servidor de chat persistente
+<span> </span>
+
+<span data-ttu-id="d4add-103">_**Tópico da última modificação:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="d4add-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+
+<span data-ttu-id="d4add-104">Esta seção descreve os registros DNS (sistema de nomes de domínio) necessários para a implantação de servidores de chat persistentes.</span><span class="sxs-lookup"><span data-stu-id="d4add-104">This section describes the Domain Name System (DNS) records that are required for deployment of Persistent Chat Servers.</span></span>
+
+<div>
+
+## <a name="dns-records-for-persistent-chat-servers"></a><span data-ttu-id="d4add-105">Registros DNS para servidores de chat persistentes</span><span class="sxs-lookup"><span data-stu-id="d4add-105">DNS Records for Persistent Chat Servers</span></span>
+
+<span data-ttu-id="d4add-106">A tabela a seguir especifica requisitos de DNS para a implantação do servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="d4add-106">The following table specifies DNS requirements for Persistent Chat Server deployment.</span></span>
+
+### <a name="dns-requirements-for-a-persistent-chat-server"></a><span data-ttu-id="d4add-107">Requisitos de DNS para um servidor de chat persistente</span><span class="sxs-lookup"><span data-stu-id="d4add-107">DNS Requirements for a Persistent Chat Server</span></span>
 
 <table>
 <colgroup>
@@ -30,26 +52,39 @@ A tabela a seguir especifica os requisitos de DNS para a implantação do Servid
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cenário da implantação</th>
-<th>Requisitos de DNS</th>
+<th><span data-ttu-id="d4add-108">Cenário da implantação</span><span class="sxs-lookup"><span data-stu-id="d4add-108">Deployment scenario</span></span></th>
+<th><span data-ttu-id="d4add-109">Requisitos de DNS</span><span class="sxs-lookup"><span data-stu-id="d4add-109">DNS requirement</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Um Servidor de Chat Persistente</p></td>
-<td><p>Um registro A interno que resolve o nome de domínio totalmente qualificado (FQDN) do servidor ao seu endereço IP.</p></td>
+<td><p><span data-ttu-id="d4add-110">Um servidor de chat persistente</span><span class="sxs-lookup"><span data-stu-id="d4add-110">One Persistent Chat Server</span></span></p></td>
+<td><p><span data-ttu-id="d4add-111">Um registro A interno que resolve o nome de domínio totalmente qualificado (FQDN) do servidor para seu endereço IP.</span><span class="sxs-lookup"><span data-stu-id="d4add-111">An internal A record that resolves the fully qualified domain name (FQDN) of the server to its IP address.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Pool de Chat Persistente</p></td>
-<td><p>Um registro A interno que resolve o nome de domínio totalmente qualificado (FQDN) dos servidores aos seus endereços IP.</p>
-<p><strong>Exemplo</strong></p>
-<p>PersistentChatServer01.contoso.com     10.10.10.1</p>
-<p>PersistentChatServer02.contoso.com     10.10.10.2</p>
-<p>Um registro A interno que resolve o nome de domínio totalmente qualificado (FQDN) dos servidores aos seus endereços IP.</p>
-<p><strong>Exemplo</strong></p>
-<p>PersistentChatPool.contoso.com    10.10.10.1</p>
-<p>PersistentChatPool.contoso.com    10.10.10.2</p></td>
+<td><p><span data-ttu-id="d4add-112">Pool de chat persistente</span><span class="sxs-lookup"><span data-stu-id="d4add-112">Persistent Chat pool</span></span></p></td>
+<td><p><span data-ttu-id="d4add-113">Um registro interno que resolve o nome de domínio totalmente qualificado (FQDN) dos servidores para seu endereço IP.</span><span class="sxs-lookup"><span data-stu-id="d4add-113">An internal A record that resolves the fully qualified domain name (FQDN) of the servers to its IP address.</span></span></p>
+<p><span data-ttu-id="d4add-114"><strong>Exemplo</strong></span><span class="sxs-lookup"><span data-stu-id="d4add-114"><strong>Example</strong></span></span></p>
+<p><span data-ttu-id="d4add-115">PersistentChatServer01.contoso.com 10.10.10.1</span><span class="sxs-lookup"><span data-stu-id="d4add-115">PersistentChatServer01.contoso.com     10.10.10.1</span></span></p>
+<p><span data-ttu-id="d4add-116">PersistentChatServer02.contoso.com 10.10.10.2</span><span class="sxs-lookup"><span data-stu-id="d4add-116">PersistentChatServer02.contoso.com     10.10.10.2</span></span></p>
+<p><span data-ttu-id="d4add-117">Um registro interno que resolve o nome de domínio totalmente qualificado (FQDN) dos servidores para seu endereço IP.</span><span class="sxs-lookup"><span data-stu-id="d4add-117">An internal A record that resolves the fully qualified domain name (FQDN) of the servers to its IP address.</span></span></p>
+<p><span data-ttu-id="d4add-118"><strong>Exemplo</strong></span><span class="sxs-lookup"><span data-stu-id="d4add-118"><strong>Example</strong></span></span></p>
+<p><span data-ttu-id="d4add-119">PersistentChatPool.contoso.com 10.10.10.1</span><span class="sxs-lookup"><span data-stu-id="d4add-119">PersistentChatPool.contoso.com    10.10.10.1</span></span></p>
+<p><span data-ttu-id="d4add-120">PersistentChatPool.contoso.com 10.10.10.2</span><span class="sxs-lookup"><span data-stu-id="d4add-120">PersistentChatPool.contoso.com    10.10.10.2</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

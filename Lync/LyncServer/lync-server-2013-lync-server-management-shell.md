@@ -1,43 +1,86 @@
-﻿---
-title: Shell de gerenciamento do Lync Server
-TOCTitle: Shell de gerenciamento do Lync Server
-ms:assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398474(v=OCS.15)
-ms:contentKeyID: 49306960
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Shell de gerenciamento do Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync Server Management Shell
+ms:assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398474(v=OCS.15)
+ms:contentKeyID: 48184386
+ms.date: 09/20/2017
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 29fdc8e5f13687d2bed0e0c35609187c57d11592
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828917"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Shell de gerenciamento do Lync Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="lync-server-2013-management-shell"></a><span data-ttu-id="78148-102">Shell de Gerenciamento do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="78148-102">Lync Server 2013 Management Shell</span></span>
 
-O Microsoft Lync Server 2010 introduziu um grande conjunto de recursos novos e aprimorados em comparação ao que havia disponível no Microsoft Office Communications Server 2007 R2. Um dos aprimoramentos está na forma de gerenciar a implementação. Por exemplo, a nova interface do usuário, chamada Painel de Controle do Lync Server, que representa uma mudança considerável em relação ao que a maioria das pessoas está acostumada com o Console de Gerenciamento Microsoft. Outro aperfeiçoamento importante na capacidade de gerenciamento é a inclusão do Windows PowerShell.
+</div>
 
-O Windows PowerShell permite que você gerencie aplicativos da Microsoft a partir da linha de comando. Ele inclui um ambiente de linha de comando, comandos específicos de produtos e uma linguagem de script completa. O Windows PowerShell foi lançado como uma versão para download do sistema operacional Windows no final de 2006 e foi incorporado como a interface de linha de comando para gerenciamento do Microsoft Exchange Server 2007. Desde então, ele continuou a crescer e foi incorporado à maioria dos produtos Microsoft Server, entre os quais o mais recente é o Microsoft Lync Server 2013. O Lync Server 2010 introduziu quase 550 cmdlets específicos de produto que você pode usar para gerenciar todos os aspectos da sua implantação.
+<div id="mainSection">
 
-As seções a seguir contêm uma lista de cmdlets e suas descrições. Essas informações também estão disponíveis diretamente da linha de comando. Simplesmente digite o seguinte no prompt de comando do Shell de Gerenciamento do Lync Server:
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="78148-103">_**Tópico da última modificação:** 2017-09-20_</span><span class="sxs-lookup"><span data-stu-id="78148-103">_**Topic Last Modified:** 2017-09-20_</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="78148-104">A referência do cmdlet do Skype for Business mudou para docs.microsoft.com.</span><span class="sxs-lookup"><span data-stu-id="78148-104">Skype for Business cmdlet reference has moved to docs.microsoft.com.</span></span> <span data-ttu-id="78148-105">Ao clicar nos links abaixo, você será direcionado para a nova página docs.microsoft.com.</span><span class="sxs-lookup"><span data-stu-id="78148-105">Clicking on the links below will take you to the new docs.microsoft.com page.</span></span> <span data-ttu-id="78148-106">O conteúdo agora está aberto e disponível para contribuições da comunidade através do GitHub.</span><span class="sxs-lookup"><span data-stu-id="78148-106">The content is now open sourced and available for community contributions through GitHub.</span></span> <span data-ttu-id="78148-107">Tem interesse em contribuir?</span><span class="sxs-lookup"><span data-stu-id="78148-107">Interested in contributing?</span></span> <span data-ttu-id="78148-108">Confira o LEIAme no repositório aqui:<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A></span><span class="sxs-lookup"><span data-stu-id="78148-108">Check out the README in the repo here: <A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A></span></span>
+
+
+
+</div>
+
+<span data-ttu-id="78148-109">O Microsoft Lync Server 2010 introduziu um grande conjunto de recursos novos e aprimorados em comparação com o que estava disponível no Microsoft Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="78148-109">Microsoft Lync Server 2010 introduced a large set of new and improved features compared to what was available in Microsoft Office Communications Server 2007 R2.</span></span> <span data-ttu-id="78148-110">Um aperfeiçoamento é a maneira pela qual você gerencia a implementação.</span><span class="sxs-lookup"><span data-stu-id="78148-110">One improvement is the way in which you manage your implementation.</span></span> <span data-ttu-id="78148-111">Por exemplo, há uma nova interface de usuário, chamada painel de controle do Lync Server, que representa um grande turno do que a maioria das pessoas é usada com o console de gerenciamento da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="78148-111">For example, there’s a new user interface, called the Lync Server Control Panel, which represents a big shift from what most people are used to with the Microsoft Management Console.</span></span> <span data-ttu-id="78148-112">O outro maior aprimoramento para a capacidade de gerenciamento é a inclusão do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="78148-112">The other major improvement to manageability is the inclusion of Windows PowerShell.</span></span>
+
+<span data-ttu-id="78148-113">O Windows PowerShell permite que você gerencie aplicativos da Microsoft a partir da linha de comando.</span><span class="sxs-lookup"><span data-stu-id="78148-113">Windows PowerShell allows you to manage Microsoft applications from the command line.</span></span> <span data-ttu-id="78148-114">Ele inclui um ambiente de linha de comando, comandos específicos de produtos e uma linguagem de script completa.</span><span class="sxs-lookup"><span data-stu-id="78148-114">It includes a command-line environment, product-specific commands, and a full scripting language.</span></span> <span data-ttu-id="78148-115">O Windows PowerShell foi introduzido pela primeira vez como uma versão disponível para download para o sistema operacional Windows, em 2006, e foi incorporado como a interface de linha de comando para a capacidade de gerenciamento do Microsoft Exchange Server 2007.</span><span class="sxs-lookup"><span data-stu-id="78148-115">Windows PowerShell was first introduced as a downloadable release for the Windows operating system late in 2006, and was incorporated as the command-line interface for manageability of Microsoft Exchange Server 2007.</span></span> <span data-ttu-id="78148-116">A partir desse ponto, ele continuou a crescer, e foi incorporado à maioria dos produtos de servidor da Microsoft, o que é o Microsoft Lync Server 2013 mais recente.</span><span class="sxs-lookup"><span data-stu-id="78148-116">From that point it continued to grow, and it has been incorporated into most of the Microsoft Server products, the most recent of these being Microsoft Lync Server 2013.</span></span> <span data-ttu-id="78148-117">O Lync Server 2010 introduziu próximo a 550 cmdlets específicos do produto que você pode usar para gerenciar todos os aspectos da sua implantação.</span><span class="sxs-lookup"><span data-stu-id="78148-117">Lync Server 2010 introduced close to 550 product-specific cmdlets that you can use to manage every aspect of your deployment.</span></span>
+
+<span data-ttu-id="78148-118">As seções a seguir contêm uma lista de cmdlets e suas descrições.</span><span class="sxs-lookup"><span data-stu-id="78148-118">The following sections contain a list of cmdlets and their descriptions.</span></span> <span data-ttu-id="78148-119">Essas informações também estão disponíveis diretamente na linha de comando.</span><span class="sxs-lookup"><span data-stu-id="78148-119">This information is also available directly from the command line.</span></span> <span data-ttu-id="78148-120">Basta digitar o seguinte no prompt de comando do Shell de gerenciamento do Lync Server:</span><span class="sxs-lookup"><span data-stu-id="78148-120">Simply type the following at the Lync Server Management Shell command prompt:</span></span>
 
     Get-Help <cmdlet name> -Full
 
-Por exemplo, para recuperar a Ajuda no prompt de comando, no cmdlet **New-CsVoicePolicy**, digite o seguinte:
+<span data-ttu-id="78148-121">Por exemplo, para recuperar a Ajuda no prompt de comando, no cmdlet **New-CsVoicePolicy**, digite:</span><span class="sxs-lookup"><span data-stu-id="78148-121">For example, to retrieve help from the command prompt on the **New-CsVoicePolicy** cmdlet, type the following:</span></span>
 
     Get-Help New-CsVoicePolicy -Full
 
-Informações importantes sobre o Windows PowerShell no Lync Server 2013:
+<span data-ttu-id="78148-122">O que se deve saber sobre o Windows PowerShell no Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="78148-122">Things to know about Windows PowerShell in Lync Server 2013:</span></span>
 
-  - Para executar os cmdlets do Lync Server, abra o Shell de Gerenciamento do Lync Server.
+  - <span data-ttu-id="78148-123">Para executar os cmdlets do Lync Server, abra o Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="78148-123">To run the Lync Server cmdlets, open the Lync Server Management Shell.</span></span>
+    
+    <div>
     
 
     > [!WARNING]  
-    > Se você abrir uma janela do Windows PowerShell em vez do Shell de Gerenciamento do Lync Server, por padrão, não poderá executar os cmdlets do Lync Server. Para executar os cmdlets do Lync Server a partir do Windows PowerShell, primeiro digite o seguinte no prompt de comando do Windows PowerShell:<BR>Import-Module Lync
+    > <span data-ttu-id="78148-124">Se você abrir uma janela do Windows PowerShell em vez do Shell de gerenciamento do Lync Server, por padrão, não poderá executar os cmdlets do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="78148-124">If you open a Windows PowerShell window rather than the Lync Server Management Shell, by default you will not be able to run the Lync Server cmdlets.</span></span> <span data-ttu-id="78148-125">Para executar os cmdlets do Lync Server dentro do Windows PowerShell, primeiro digite o seguinte no prompt de comando do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="78148-125">To run the Lync Server cmdlets from within Windows PowerShell, first type the following at the Windows PowerShell command prompt:</span></span><BR><span data-ttu-id="78148-126">Importar-módulo Lync</span><span class="sxs-lookup"><span data-stu-id="78148-126">Import-Module Lync</span></span>
 
+    
+    </div>
 
+  - <span data-ttu-id="78148-127">O Shell de gerenciamento do Lync Server é instalado automaticamente em cada servidor front-end do Lync Server Enterprise Edition ou Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="78148-127">Lync Server Management Shell is automatically installed on every Lync Server Enterprise Edition Front End Server or Standard Edition server.</span></span>
 
-  - O Shell de Gerenciamento do Lync Server é instalado automaticamente em cada Servidor Front-End Enterprise Edition ou servidor Standard Edition do Lync Server.
+  - <span data-ttu-id="78148-128">Informações novas e atualizadas, scripts de exemplo e ajuda para começar e saber mais sobre os cmdlets do Windows PowerShell e do Microsoft Lync Server 2013 estão disponíveis no blog [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)do Windows PowerShell do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="78148-128">New and updated information, sample scripts, and help for getting started and learning more about Windows PowerShell and Microsoft Lync Server 2013 cmdlets is available at the Lync Server Windows PowerShell Blog [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150).</span></span>
 
-  - Informações novas e atualizadas, scripts de exemplo e ajuda para começar e saber mais sobre os cmdlets do Windows PowerShell e do Microsoft Lync Server 2013 estão disponíveis no Blog do Lync Server Windows PowerShell [http://go.microsoft.com/fwlink/?linkid=203150\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=203150%26clcid=0x416).
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

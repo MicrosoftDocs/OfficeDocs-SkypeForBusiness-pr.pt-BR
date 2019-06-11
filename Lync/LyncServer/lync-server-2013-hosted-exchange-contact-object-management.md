@@ -1,55 +1,107 @@
-﻿---
-title: 'Lync Server 2013: Gerenciamento de objeto de Contato no Exchange hospedado'
-TOCTitle: Gerenciamento de objeto de Contato no Exchange hospedado
-ms:assetid: eead9d76-bc4f-4c1c-9779-683cb7a88410
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412978(v=OCS.15)
-ms:contentKeyID: 49308523
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Gerenciamento de objeto de Contato no Exchange hospedado'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hosted Exchange Contact object management
+ms:assetid: eead9d76-bc4f-4c1c-9779-683cb7a88410
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412978(v=OCS.15)
+ms:contentKeyID: 48185748
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c67438745ee7cbb9de0ccfdef1d5d8959bb4679c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829061"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gerenciamento de objeto de Contato no Exchange hospedado no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-25_
+# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a><span data-ttu-id="83df6-102">Gerenciamento de objeto de Contato no Exchange hospedado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83df6-102">Hosted Exchange Contact object management in Lync Server 2013</span></span>
 
-É preciso configurar um objeto de Contato para cada número de atendedor automático e número de telefone do assinante na implantação em vários locais.
+</div>
 
-Para integração com a UM do Exchange hospedada, o ocsumutil.exe não pode ser usado para gerenciar objetos de Contato, pois ele depende das configurações de UM do Exchange do Active Directory. Em uma implantação entre instalações, o Lync Server 2013 e a UM do Exchange hospedada são instalados em florestas separadas sem confiança entre eles. Por motivos de segurança, os administradores do Lync Server 2013 não têm acesso direto às configurações de UM do Exchange do Active Directory. Como resultado, o Lync Server 2013 fornece um modelo diferente para gerenciar objetos de Contato em um *espaço de endereço SIP compartilhado* acessível ao Lync Server 2013 e ao serviço UM do Exchange hospedado.
+<div id="mainSection">
 
-## Fluxo de trabalho de objeto de contato hospedado
+<div id="mainBody">
 
-Veja a seguir as etapas gerais para trabalhar com seu administrador de inquilino do Exchange hospedado para gerenciar objetos de contato:
+<span> </span>
 
-1.  O administrador do Exchange solicita números de telefone para acesso do assinante da UM do Exchange e objetos de Contato do atendedor automático.
+<span data-ttu-id="83df6-103">_**Tópico da última modificação:** 2012-09-25_</span><span class="sxs-lookup"><span data-stu-id="83df6-103">_**Topic Last Modified:** 2012-09-25_</span></span>
 
-2.  O administrador do Lync Server 2013 cria um objeto de Contato para cada número de telefone e atribui uma política de caixa postal hospedada a cada objeto de Contato.
+<span data-ttu-id="83df6-104">Você precisa configurar um objeto de contato para cada número de autoatendimento e número de acesso do assinante em sua implantação interfuncional.</span><span class="sxs-lookup"><span data-stu-id="83df6-104">You need to configure a Contact object for each auto-attendant number and subscriber access number in your cross-premises deployment.</span></span>
 
-3.  O administrador do Lync Server 2013 fornece os números de telefone ao administrador do Exchange.
+<span data-ttu-id="83df6-105">Para a integração com o Exchange UM hospedado, ocsumutil. exe não pode ser usado para gerenciar objetos de contato, pois isso depende das configurações de UM do Exchange UM do Active Directory.</span><span class="sxs-lookup"><span data-stu-id="83df6-105">For integration with hosted Exchange UM, ocsumutil.exe cannot be used to manage Contact objects, because it depends on Active Directory Exchange UM settings.</span></span> <span data-ttu-id="83df6-106">Em uma implantação interfuncional, o Lync Server 2013 e o Exchange UM Hosted são instalados em florestas separadas sem nenhuma confiança entre elas.</span><span class="sxs-lookup"><span data-stu-id="83df6-106">In a cross-premises deployment, Lync Server 2013 and hosted Exchange UM are installed in separate forests with no trust between them.</span></span> <span data-ttu-id="83df6-107">Por motivos de segurança, os administradores do Lync Server 2013 não têm acesso direto às configurações do Active Directory de UM Exchange.</span><span class="sxs-lookup"><span data-stu-id="83df6-107">For security reasons, Lync Server 2013 administrators have no direct access to Exchange UM Active Directory settings.</span></span> <span data-ttu-id="83df6-108">Como resultado, o Lync Server 2013 fornece um modelo diferente para o gerenciamento de objetos de contato em um *espaço de endereço SIP compartilhado* que é acessível para o Lync Server 2013 e para o serviço um Hosted Exchange um.</span><span class="sxs-lookup"><span data-stu-id="83df6-108">As a result, Lync Server 2013 provides a different model for managing Contact objects in a *shared SIP address space* that is accessible to both Lync Server 2013 and the hosted Exchange UM service.</span></span>
 
-4.  O administrador do Exchange atribui os números de telefone aos planos de discagem de UM do Exchange apropriados para acesso dos atendedores automáticos e do assinante.
+<div>
+
+## <a name="hosted-contact-object-workflow"></a><span data-ttu-id="83df6-109">Fluxo de trabalho do objeto de contato hospedado</span><span class="sxs-lookup"><span data-stu-id="83df6-109">Hosted Contact Object Workflow</span></span>
+
+<span data-ttu-id="83df6-110">Veja a seguir as etapas gerais para trabalhar com o administrador de locatários do Exchange hospedado para gerenciar objetos de contato:</span><span class="sxs-lookup"><span data-stu-id="83df6-110">The following are the general steps for working with your hosted Exchange tenant administrator to manage contact objects:</span></span>
+
+1.  <span data-ttu-id="83df6-111">O administrador do Exchange solicita números de telefone para o acesso do assinante do Exchange UM e objetos de contato do AutoAttendant.</span><span class="sxs-lookup"><span data-stu-id="83df6-111">The Exchange administrator requests phone numbers for the Exchange UM subscriber access and auto-attendant Contact objects.</span></span>
+
+2.  <span data-ttu-id="83df6-112">O administrador do Lync Server 2013 cria um objeto de contato para cada número de telefone e atribui uma política de caixa postal hospedada a cada objeto de contato.</span><span class="sxs-lookup"><span data-stu-id="83df6-112">The Lync Server 2013 administrator creates a Contact object for each phone number and assigns a hosted voice mail policy to each Contact object.</span></span>
+
+3.  <span data-ttu-id="83df6-113">O administrador do Lync Server 2013 fornece os números de telefone para o administrador do Exchange.</span><span class="sxs-lookup"><span data-stu-id="83df6-113">The Lync Server 2013 administrator provides the phone numbers to the Exchange administrator.</span></span>
+
+4.  <span data-ttu-id="83df6-114">O administrador do Exchange atribui os números de telefone aos planos de discagem de UM do Exchange apropriados para atendedores automáticos e acesso do Assinante.</span><span class="sxs-lookup"><span data-stu-id="83df6-114">The Exchange administrator assigns the phone numbers to appropriate Exchange UM dial plans for auto attendants and subscriber access.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Não há necessidade de configurar um plano de discagem do Lync Server 2013 nos objetos de Contato da mesma forma que há com as implantações em instalações.
+> <span data-ttu-id="83df6-115">Não é necessário configurar nenhuma configuração de plano de discagem do Lync Server 2013 nos objetos de contato como há implantações locais.</span><span class="sxs-lookup"><span data-stu-id="83df6-115">There is no need to configure any Lync Server 2013 dial plan settings on the Contact objects as there is with on-premises deployments.</span></span>
 
-## Configurando os objetos de contato
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="configuring-hosted-contact-objects"></a><span data-ttu-id="83df6-116">Configurar objetos de contato hospedados</span><span class="sxs-lookup"><span data-stu-id="83df6-116">Configuring Hosted Contact Objects</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Antes de os objetos de Contato do Lync Server 2013 poderem ser habilitados para a UM do Exchange hospedada, é preciso implantar uma política de caixa postal hospedada que se aplica a eles. A política pode ser de nível global, de site ou com um escopo por usuário, contanto que se aplique ao objeto de contato que você deseja habilitar. Para obter detalhes, consulte <a href="lync-server-2013-hosted-voice-mail-policies.md">Políticas de correio de voz hospedado no Lync Server 2013</a>.
+> <span data-ttu-id="83df6-117">Os objetos de contato do Lync Server 2013 podem ser habilitados para o Exchange UM hospedado, uma política de caixa postal hospedada que se aplica a ele deve ser implantada.</span><span class="sxs-lookup"><span data-stu-id="83df6-117">Before Lync Server 2013 Contact objects can be enabled for hosted Exchange UM, a hosted voice mail policy that applies to them must be deployed.</span></span> <span data-ttu-id="83df6-118">A política pode ser do escopo global, no nível do site ou por usuário, desde que ele se aplique ao objeto de contato que você deseja habilitar.</span><span class="sxs-lookup"><span data-stu-id="83df6-118">The policy can be of global, site-level, or per-user scope, as long as it applies to the contact object you want to enable.</span></span> <span data-ttu-id="83df6-119">Para obter detalhes, consulte <A href="lync-server-2013-hosted-voice-mail-policies.md">políticas de caixa postal hospedadas no Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="83df6-119">For details, see <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail policies in Lync Server 2013</A>.</span></span>
 
-Para configurar os objetos de Contato de acesso hospedado do atendedor automático e do assinante em uma implantação entre instalações, é necessário usar os seguintes cmdlets:
 
-  - **New-CsExUmContact** cria um novo objeto de Contato para a UM hospedada.
 
-  - **Set-CsExUmContact** modifica um objeto de Contato existente para a UM do Exchange hospedada.
+</div>
 
-O exemplo a seguir cria um objeto de Contato de atendedor automático:
+<span data-ttu-id="83df6-120">Para configurar objetos de contato de atendedor automático hospedado e de acesso ao assinante em uma implantação em várias instalações, você deve usar os seguintes cmdlets:</span><span class="sxs-lookup"><span data-stu-id="83df6-120">To configure hosted auto-attendant and subscriber access Contact objects in a cross-premises deployment, you must use the following cmdlets:</span></span>
+
+  - <span data-ttu-id="83df6-121">**New-CsExUmContact** cria um novo objeto de contato para um hospedado.</span><span class="sxs-lookup"><span data-stu-id="83df6-121">**New-CsExUmContact** creates a new Contact object for hosted UM.</span></span>
+
+  - <span data-ttu-id="83df6-122">**Set-CsExUmContact** modifica um objeto de contato existente para o Exchange um hospedado.</span><span class="sxs-lookup"><span data-stu-id="83df6-122">**Set-CsExUmContact** modifies an existing Contact object for hosted Exchange UM.</span></span>
+
+<span data-ttu-id="83df6-123">O exemplo a seguir cria um objeto de contato de atendente automático:</span><span class="sxs-lookup"><span data-stu-id="83df6-123">The following example creates an auto-attendant Contact object:</span></span>
 
     New-CsExUmContact -SipAddress sip:exumaa1@fabrikam.com -RegistrarPool RedmondPool.litwareinc.com -OU "OU=ExUmContacts,DC=litwareinc,DC=com" -DisplayNumber 2065559876 -AutoAttendant $True
 
-Este exemplo cria um novo objeto de Contato de UM do Exchange com o endereço SIP sip:exumaa1@fabrikam.com. O nome do pool onde o serviço Registrador do Lync Server 2013 está em execução é RedmondPool.litwareinc.com. A unidade organizacional do Active Directory onde essas informações serão armazenadas é OU=ExUmContacts,DC=litwareinc,DC=com. O número de telefone do objeto de Contato é 2065554567. O parâmetro opcional -AutoAttendant $True especifica que esse objeto é um objeto de Contato de atendedor automático. A configuração do parâmetro -AutoAttendant para Falso (padrão) especifica um objeto de Contato de acesso do assinante.
+<span data-ttu-id="83df6-124">Este exemplo cria um novo objeto de contato do Exchange UM com o endereço SIP sip:exumaa1@fabrikam.com.</span><span class="sxs-lookup"><span data-stu-id="83df6-124">This example creates a new Exchange UM Contact object with the SIP address sip:exumaa1@fabrikam.com.</span></span> <span data-ttu-id="83df6-125">O nome do pool onde o serviço registrador do Lync Server 2013 está em execução é RedmondPool.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="83df6-125">The name of the pool where the Lync Server 2013 Registrar service is running is RedmondPool.litwareinc.com.</span></span> <span data-ttu-id="83df6-126">A unidade organizacional do Active Directory na qual essas informações serão armazenadas é OU = ExUmContacts, DC = litwareinc, DC = com.</span><span class="sxs-lookup"><span data-stu-id="83df6-126">The Active Directory organizational unit where this information will be stored is OU=ExUmContacts,DC=litwareinc,DC=com.</span></span> <span data-ttu-id="83df6-127">O número de telefone do objeto de contato é 2065554567.</span><span class="sxs-lookup"><span data-stu-id="83df6-127">The phone number of the Contact object is 2065554567.</span></span> <span data-ttu-id="83df6-128">O parâmetro opcional-AutoAttendant $True especifica que esse objeto é um objeto de contato do atendente automático.</span><span class="sxs-lookup"><span data-stu-id="83df6-128">The optional -AutoAttendant $True parameter specifies that this object is an auto-attendant Contact object.</span></span> <span data-ttu-id="83df6-129">Definir o parâmetro-AutoAttendant como false (o padrão) especifica um objeto de contato do acesso do Assinante.</span><span class="sxs-lookup"><span data-stu-id="83df6-129">Setting the -AutoAttendant parameter to False (the default) specifies a subscriber access Contact object.</span></span>
 
-Para obter detalhes sobre os cmdlets New-CsExUmContact e Set-CsExUmContact, consulte a documentação do Shell de Gerenciamento do Lync Server.
+<span data-ttu-id="83df6-130">Para obter detalhes sobre os cmdlets New-CsExUmContact e Set-CsExUmContact, consulte a documentação do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="83df6-130">For details about the New-CsExUmContact and Set-CsExUmContact cmdlets, see the Lync Server Management Shell documentation.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

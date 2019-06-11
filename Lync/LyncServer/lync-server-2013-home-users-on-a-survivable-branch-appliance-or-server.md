@@ -1,43 +1,98 @@
-﻿---
-title: "Usuários domésticos em um Home users on a Aparelho de Filial Persistente ou Servidor"
-TOCTitle: Usuários domésticos em um Home users on a Aparelho de Filial Persistente ou Servidor
-ms:assetid: faf1ebb9-6d7d-4a58-8ff7-801b7b31d3ba
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg413066(v=OCS.15)
-ms:contentKeyID: 49308680
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Usuários domésticos em um Home users on a Aparelho de Filial Persistente ou Servidor'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Home users on a Survivable Branch Appliance or Server
+ms:assetid: faf1ebb9-6d7d-4a58-8ff7-801b7b31d3ba
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413066(v=OCS.15)
+ms:contentKeyID: 48185926
+ms.date: 12/11/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ceabf8fe7d8f9068e60bbc20406d2496f815b04b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829073"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Usuários domésticos em um Home users on a Aparelho de Filial Persistente ou Servidor no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-12-10_
+# <a name="home-users-on-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a><span data-ttu-id="0e4e6-102">Usuários domésticos em um Home users on a Aparelho de Filial Persistente ou Servidor no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0e4e6-102">Home users on a Survivable Branch Appliance or Server in Lync Server 2013</span></span>
 
-O processo de hospedar usuários em uma função Aparelho de Filial Persistente ou Servidor de Filial Persistente é semelhante ao processo de hospedá-los em um Pool de Front-Ends. Execute o procedimento do Aparelho de Filial Persistente ou Servidor de Filial Persistente no local central.
+</div>
 
-## Para usuários domésticos no Servidor ou Aplicativo de Filial Persistente ou Servidor de Filial Persistente
+<div id="mainSection">
 
-1.  Antes de mover usuários para o Servidor de Filial Persistente ou Servidor de Filial Persistente, abra o Shell de Gerenciamento do Lync Server e faça o seguinte:
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="0e4e6-103">_**Tópico da última modificação:** 2014-12-10_</span><span class="sxs-lookup"><span data-stu-id="0e4e6-103">_**Topic Last Modified:** 2014-12-10_</span></span>
+
+<span data-ttu-id="0e4e6-104">O processo de Hospedagem de usuários em um aparelho de ramificação sobreviventes ou um servidor de ramificação sobreviventes é semelhante ao processo de Hospedagem de usuários em um pool de front-ends.</span><span class="sxs-lookup"><span data-stu-id="0e4e6-104">The process of homing users on a Survivable Branch Appliance or a Survivable Branch Server is similar to the process of homing users on a Front End pool.</span></span> <span data-ttu-id="0e4e6-105">Realize o aplicativo de ramificação sobreviventes ou o procedimento do servidor de ramificação sobreviventes no site central.</span><span class="sxs-lookup"><span data-stu-id="0e4e6-105">Perform the Survivable Branch Appliance or Survivable Branch Server procedure at the central site.</span></span>
+
+<div>
+
+## <a name="to-home-users-on-survivable-branch-appliance-or-survivable-branch-server"></a><span data-ttu-id="0e4e6-106">Para usuários domésticos em um aparelho de ramificação sobreviventes ou em um servidor de ramificação sobreviventes</span><span class="sxs-lookup"><span data-stu-id="0e4e6-106">To home users on Survivable Branch Appliance or Survivable Branch Server</span></span>
+
+1.  <span data-ttu-id="0e4e6-107">Antes de mover os usuários para o servidor de ramificação sobreviventes ou o servidor de ramificação sobreviventes, abra o Shell de gerenciamento do Lync Server e, em seguida, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="0e4e6-107">Before moving users to the Survivable Branch Server or Survivable Branch Server, open the Lync Server Management Shell, and then do all of the following:</span></span>
     
-      - Execute o cmdlet **Test-CsPstnOutboundCall** para verificar se o Servidor de Filial Persistente é executado e a conectividade PSTN está configurada. Se você precisar modificar as propriedades do gateway PSTN, use o cmdlet **Set-CsPstnGateway**.
+      - <span data-ttu-id="0e4e6-108">Execute o cmdlet **Test-CsPstnOutboundCall** para verificar se o servidor de ramificação sobreviventes está em execução e se a conectividade PSTN (rede telefônica pública comutada) está configurada.</span><span class="sxs-lookup"><span data-stu-id="0e4e6-108">Run the cmdlet **Test-CsPstnOutboundCall** to verify that the Survivable Branch Server is running and that the public switched telephone network (PSTN) connectivity is configured.</span></span> <span data-ttu-id="0e4e6-109">Se você precisar modificar as propriedades do gateway PSTN, use o cmdlet **set-CsPstnGateway**.</span><span class="sxs-lookup"><span data-stu-id="0e4e6-109">If you need to modify PSTN gateway properties, use the cmdlet **Set-CsPstnGateway**.</span></span>
     
-      - Execute o cmdlet **Get-CsVoicePolicy** para verificar se os usuários serão hospedados no Servidor de Filial Persistente com a política de roteamento VoIP adequada. Se você precisar modificar a política VoIP, use o cmdlet **Set-CsVoicePolicy**.
+      - <span data-ttu-id="0e4e6-110">Execute o cmdlet **Get-CsVoicePolicy** para verificar se os usuários que serão hospedados no servidor de ramificação sobreviventes têm a política de roteamento de VoIP apropriada.</span><span class="sxs-lookup"><span data-stu-id="0e4e6-110">Run the cmdlet **Get-CsVoicePolicy** to verify that the users who will be homed on the Survivable Branch Server have the appropriate VoIP routing policy.</span></span> <span data-ttu-id="0e4e6-111">Se você precisar modificar a política de VoIP, use o cmdlet **set-CsVoicePolicy**.</span><span class="sxs-lookup"><span data-stu-id="0e4e6-111">If you need to modify the VoIP policy, use the cmdlet **Set-CsVoicePolicy**.</span></span>
     
-      - Execute o cmdlet **Get-CsVoicemailReroutingConfiguration** para verificar se as configurações de redirecionamento de caixa postal estão configuradas. Se você precisar modificar o configurações de redirecionamento de caixa postal, use o cmdlet **Set-CsVoicemailReroutingConfiguration**.
+      - <span data-ttu-id="0e4e6-112">Execute o cmdlet **Get-CsVoicemailReroutingConfiguration** para verificar se as configurações de redirecionamento da caixa postal estão definidas.</span><span class="sxs-lookup"><span data-stu-id="0e4e6-112">Run the cmdlet **Get-CsVoicemailReroutingConfiguration** to verify that the voice mail rerouting settings are configured.</span></span> <span data-ttu-id="0e4e6-113">Se precisar modificar as configurações de redirecionamento da caixa postal, use o cmdlet **set-CsVoicemailReroutingConfiguration**.</span><span class="sxs-lookup"><span data-stu-id="0e4e6-113">If you need to modify the voice mail rerouting settings, use the cmdlet **Set-CsVoicemailReroutingConfiguration**.</span></span>
 
-2.  No Shell de Gerenciamento do Lync Server, execute o cmdlet **Move-CsUser** para mover usuários domésticos.
+2.  <span data-ttu-id="0e4e6-114">No Shell de gerenciamento do Lync Server, execute o cmdlet **move-CsUser** para mover os usuários domésticos.</span><span class="sxs-lookup"><span data-stu-id="0e4e6-114">In the Lync Server Management Shell, run the cmdlet **Move-CsUser** to move home users.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Você também pode usar o Painel de Controle do Lync Server para verificar os pré-requisitos e os usuários domésticos.
+> <span data-ttu-id="0e4e6-115">Você também pode usar o painel de controle do Lync Server para verificar pré-requisitos e usuários domésticos.</span><span class="sxs-lookup"><span data-stu-id="0e4e6-115">You can also use Lync Server Control Panel to verify prerequisites and home users.</span></span>
 
-## Consulte Também
 
-#### Outros Recursos
 
-[Test-CsPstnOutboundCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnOutboundCall)  
-[Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)  
-[Get-CsVoicemailReroutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicemailReroutingConfiguration)  
-[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser)
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="0e4e6-116">Os usuários que estiverem hospedados em um aparelho de ramificação de Lync do Lync Server não poderão criar novas salas de chat ou exibir o cartão de sala para salas existentes.</span><span class="sxs-lookup"><span data-stu-id="0e4e6-116">Users who are homed on a Lync Server Survivable Branch Appliance are unable to create new chat rooms or view the room card for existing rooms.</span></span>
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="0e4e6-117">Confira também</span><span class="sxs-lookup"><span data-stu-id="0e4e6-117">See Also</span></span>
+
+
+[<span data-ttu-id="0e4e6-118">Test-CsPstnOutboundCall</span><span class="sxs-lookup"><span data-stu-id="0e4e6-118">Test-CsPstnOutboundCall</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnOutboundCall)  
+[<span data-ttu-id="0e4e6-119">Get-CsVoicePolicy</span><span class="sxs-lookup"><span data-stu-id="0e4e6-119">Get-CsVoicePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsVoicePolicy)  
+[<span data-ttu-id="0e4e6-120">Get-CsVoicemailReroutingConfiguration</span><span class="sxs-lookup"><span data-stu-id="0e4e6-120">Get-CsVoicemailReroutingConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsVoicemailReroutingConfiguration)  
+[<span data-ttu-id="0e4e6-121">Move-CsUser</span><span class="sxs-lookup"><span data-stu-id="0e4e6-121">Move-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

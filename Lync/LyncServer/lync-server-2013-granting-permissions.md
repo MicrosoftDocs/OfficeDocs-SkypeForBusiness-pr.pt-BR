@@ -1,35 +1,69 @@
-﻿---
-title: 'Lync Server 2013: Concedendo permissões'
-TOCTitle: Concedendo permissões
-ms:assetid: d1c9ea66-bd07-480e-99a0-011108f97e42
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398901(v=OCS.15)
-ms:contentKeyID: 49308201
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Concedendo permissões'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Granting permissions
+ms:assetid: d1c9ea66-bd07-480e-99a0-011108f97e42
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398901(v=OCS.15)
+ms:contentKeyID: 48185446
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 61c8afde42a231124648824fbf8fbae07b0beedc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829117"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Concedendo permissões no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-15_
+# <a name="granting-permissions-in-lync-server-2013"></a><span data-ttu-id="c4cb6-102">Concedendo permissões no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c4cb6-102">Granting permissions in Lync Server 2013</span></span>
 
-Para configuração, é possível conceder permissões para o grupo universal RTCUniversalServerAdmins para uma OU específica do Active Directory, permitindo os membros do grupo RTCUniversalServerAdmins nesta OU instalar o Lync Server 2013 no domínio especificado. Ao conceder permissões para um OU, as seguintes permissões são concedidas:
+</div>
 
-  - Ler
+<div id="mainSection">
 
-  - Gravar
+<div id="mainBody">
 
-  - ReadSPN
+<span> </span>
 
-  - WriteSPN
+<span data-ttu-id="c4cb6-103">_**Tópico da última modificação:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="c4cb6-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-Para administração, é possível adicionar permissões às UOs especificadas de modo que os membros dos grupos universais do RTC criados pela preparação da floresta possam acessar as UOs sem precisar ser membros do grupo Admins. do Domínio. As permissões adicionadas à UO especificada são as mesmas permissões que o cmdlet **Enable-CsAdDomain** adiciona aos recipientes de UO dos computadores e usuários.
+<span data-ttu-id="c4cb6-104">Para a instalação, você pode conceder permissões ao grupo universal RTCUniversalServerAdmins para uma unidade organizacional (OU) específica do Active Directory, permitindo que os membros do grupo RTCUniversalServerAdmins dessa UO instalem o Lync Server 2013 no domínio especificado.</span><span class="sxs-lookup"><span data-stu-id="c4cb6-104">For setup, you can grant permissions to the RTCUniversalServerAdmins universal group for a specific Active Directory organizational unit (OU), enabling members of the RTCUniversalServerAdmins group in that OU to install Lync Server 2013 in the specified domain.</span></span> <span data-ttu-id="c4cb6-105">Quando você concede permissões para uma OU, são concedidas as seguintes permissões:</span><span class="sxs-lookup"><span data-stu-id="c4cb6-105">When you grant permissions for an OU, the following permissions are granted:</span></span>
 
-## Nesta seção
+  - <span data-ttu-id="c4cb6-106">Ler</span><span class="sxs-lookup"><span data-stu-id="c4cb6-106">Read</span></span>
 
-  - [Concedendo permissões de configuração no Lync Server 2013](lync-server-2013-granting-setup-permissions.md)
+  - <span data-ttu-id="c4cb6-107">Gravação</span><span class="sxs-lookup"><span data-stu-id="c4cb6-107">Write</span></span>
 
-  - [Concedendo permissões de unidade organizacional no Lync Server 2013](lync-server-2013-granting-organizational-unit-permissions.md)
+  - <span data-ttu-id="c4cb6-108">ReadSPN</span><span class="sxs-lookup"><span data-stu-id="c4cb6-108">ReadSPN</span></span>
+
+  - <span data-ttu-id="c4cb6-109">WriteSPN</span><span class="sxs-lookup"><span data-stu-id="c4cb6-109">WriteSPN</span></span>
+
+<span data-ttu-id="c4cb6-110">Para administração, você pode adicionar permissões a UOs especificadas para que os membros dos grupos universais do RTC criados pela preparação da floresta possam acessar as UOs sem precisar ser membros do grupo Domain admins.</span><span class="sxs-lookup"><span data-stu-id="c4cb6-110">For administration, you can add permissions to specified OUs so that members of the RTC universal groups created by forest preparation can access the OUs without needing to be members of the Domain Admins group.</span></span> <span data-ttu-id="c4cb6-111">As permissões adicionadas à UO especificada são as mesmas permissões que o cmdlet **Enable-CsAdDomain** adiciona aos recipientes da ou computadores e usuários.</span><span class="sxs-lookup"><span data-stu-id="c4cb6-111">The permissions added to the specified OU are the same permissions that the **Enable-CsAdDomain** cmdlet adds to the computers and users OU containers.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="c4cb6-112">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="c4cb6-112">In This Section</span></span>
+
+  - [<span data-ttu-id="c4cb6-113">Concedendo permissões de configuração no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c4cb6-113">Granting setup permissions in Lync Server 2013</span></span>](lync-server-2013-granting-setup-permissions.md)
+
+  - [<span data-ttu-id="c4cb6-114">Concedendo permissões de unidade organizacional no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c4cb6-114">Granting organizational unit permissions in Lync Server 2013</span></span>](lync-server-2013-granting-organizational-unit-permissions.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

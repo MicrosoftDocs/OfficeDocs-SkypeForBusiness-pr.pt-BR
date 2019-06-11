@@ -1,35 +1,65 @@
-﻿---
-title: "Assoc. de Grupo e Requis. de Direitos do Usuário p/ o Analis. de Práticas Recom."
-TOCTitle: "Assoc. de Grupo e Requis. de Direitos do Usuário p/ o Analis. de Práticas Recom."
-ms:assetid: f812e343-8f75-454e-b7a8-1b404e32071a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg591354(v=OCS.15)
-ms:contentKeyID: 49308652
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Associações de grupo e requisitos de direitos de usuário para o analisador de práticas recomendadas
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Group memberships and user rights requirements for Best Practices Analyzer
+ms:assetid: f812e343-8f75-454e-b7a8-1b404e32071a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591354(v=OCS.15)
+ms:contentKeyID: 48185869
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2c60f6256cead59b16f443994143d40bdbc00393
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829110"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Associações de Grupo e Requisitos de Direitos do Usuário para o Analisador de Práticas Recomendadas
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-21_
+# <a name="group-memberships-and-user-rights-requirements-for-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="c2010-102">Associações de grupo e requisitos de direitos de usuário para o analisador de práticas recomendadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c2010-102">Group memberships and user rights requirements for Best Practices Analyzer in Lync Server 2013</span></span>
 
-Para executar com êxito o Analisador de Práticas Recomendadas, a conta de usuário utilizada para fazer login deve ser membro do grupo Administradores no computador local. Além disso, para verificar o seu ambiente, a conta de usuário deve ser membro dos seguintes grupos:
+</div>
 
-  - **Admins. do Domínio**   Para listar as informações dos Serviços de Domínio Active Directory e chamar os provedores do Windows Management Instrumentation (WMI) nos controladores do domínio e servidores de catálogo global.
+<div id="mainSection">
 
-  - **Administradores**   Necessário para cada computador interno do Lync Server 2013 e para cada Servidor de Borda chamar os provedores do Windows Management Instrumentation (WMI) e acessar o registro.
+<div id="mainBody">
 
-  - **RTCUniversalReadOnlyAdmins**   Direitos administrativos somente leitura delegados ou completos do Lync Server 2013.
+<span> </span>
 
-  - **Administrador somente exibição do Exchange**   Administrador somente exibição completo ou delegado do Exchange na organização Microsoft Exchange.
+<span data-ttu-id="c2010-103">_**Tópico da última modificação:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="c2010-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-Se a sua conta de usuário não tem os direitos de usuário suficientes, você tem duas opções:
+<span data-ttu-id="c2010-104">Para executar com êxito o analisador de práticas recomendadas, a conta de usuário que você usa para fazer logon deve ser um membro do grupo Administradores no computador local.</span><span class="sxs-lookup"><span data-stu-id="c2010-104">To successfully run Best Practices Analyzer, the user account that you use to log on must be a member of the Administrators group on the local computer.</span></span> <span data-ttu-id="c2010-105">Além disso, para verificar seu ambiente, a conta de usuário deve ser um membro dos seguintes grupos:</span><span class="sxs-lookup"><span data-stu-id="c2010-105">Additionally, to scan your environment, the user account must be a member of the following groups:</span></span>
 
-  - No prompt de comandos, use o comando **runas** para executar a ferramenta na conta com direitos de usuários suficientes. A sintaxe é a seguinte:
+  - <span data-ttu-id="c2010-106">**Administradores de domínio**   para enumerar as informações dos serviços de domínio Active Directory e para chamar os provedores de instrumentação de gerenciamento do Windows (WMI) nos controladores de domínio e nos servidores de catálogo global.</span><span class="sxs-lookup"><span data-stu-id="c2010-106">**Domain Admins**   To enumerate Active Directory Domain Services information and to call the Windows Management Instrumentation (WMI) providers on domain controllers and global catalog servers.</span></span>
+
+  - <span data-ttu-id="c2010-107">**Os administradores**   são necessários em cada computador interno do Lync Server 2013 e em cada servidor de borda para chamar os provedores de instrumentação de gerenciamento do Windows (WMI) e acessar o registro.</span><span class="sxs-lookup"><span data-stu-id="c2010-107">**Administrators**   Required on each Lync Server 2013 internal computer and each Edge Server to call the Windows Management Instrumentation (WMI) providers and to access the registry.</span></span>
+
+  - <span data-ttu-id="c2010-108">**RTCUniversalReadOnlyAdmins**   direitos administrativos do Lync Server 2013, completos ou delegados, somente leitura.</span><span class="sxs-lookup"><span data-stu-id="c2010-108">**RTCUniversalReadOnlyAdmins**   Full or delegated read only Lync Server 2013 administrative rights.</span></span>
+
+  - <span data-ttu-id="c2010-109">**Modo de exibição do Exchange somente administrador**   completo ou delegado modo de exibição do Exchange somente administrador na organização do Microsoft Exchange.</span><span class="sxs-lookup"><span data-stu-id="c2010-109">**Exchange View Only Administrator**   Full or delegated Exchange View Only Administrator on the Microsoft Exchange organization.</span></span>
+
+<span data-ttu-id="c2010-110">Se a sua conta de usuário não tiver direitos de usuário suficientes, você terá duas opções:</span><span class="sxs-lookup"><span data-stu-id="c2010-110">If your user account does not have sufficient user rights, you have two options:</span></span>
+
+  - <span data-ttu-id="c2010-111">Em um prompt de comando, use o comando **runas** para executar a ferramenta em uma conta que tem direitos de usuário suficientes.</span><span class="sxs-lookup"><span data-stu-id="c2010-111">At a command prompt, use the **runas** command to run the tool under an account that does have sufficient user rights.</span></span> <span data-ttu-id="c2010-112">A sintaxe é a seguinte:</span><span class="sxs-lookup"><span data-stu-id="c2010-112">The syntax is as follows:</span></span>
     
         runas /netonly /user:<domain>\<userName> rtcbpa.exe
 
-  - Na página **Conectar-se ao Active Directory**, defina as credenciais das contas que planeja usar para executar o Analisador de Práticas Recomendadas. Clique em **Mostrar opções de login avançadas**. Você pode inserir três contas: uma para se conectar aos Serviços de Domínio Active Directory, uma para se conectar ao Lync Server 2013Servidores de Borda e uma para se conectar aos servidores do Exchange. Se você não especificar nenhuma destas contas, a conta do usuário utilizada para fazer login e executar o Analisador de Práticas Recomendadas é usada.
+  - <span data-ttu-id="c2010-113">Na página **conectar-se ao Active Directory** , defina as credenciais das contas que você planeja usar para executar o analisador de práticas recomendadas.</span><span class="sxs-lookup"><span data-stu-id="c2010-113">On the **Connect to Active Directory** page, set the credentials for the accounts that you plan to use to run Best Practices Analyzer.</span></span> <span data-ttu-id="c2010-114">Clique em **Mostrar opções avançadas de login**.</span><span class="sxs-lookup"><span data-stu-id="c2010-114">Click **Show advanced login options**.</span></span> <span data-ttu-id="c2010-115">Você pode inserir três contas: uma para conectar-se aos serviços de domínio do Active Directory, uma para conexão com servidores de borda do Lync Server 2013 e outra para conexão com os servidores Exchange.</span><span class="sxs-lookup"><span data-stu-id="c2010-115">You can enter three accounts: one for connecting to Active Directory Domain Services, one for connecting to Lync Server 2013 Edge Servers, and one for connecting to the Exchange Servers.</span></span> <span data-ttu-id="c2010-116">Se você não especificar nenhuma dessas contas, a conta de usuário que você usou para fazer logon e executar o analisador de práticas recomendadas será usada.</span><span class="sxs-lookup"><span data-stu-id="c2010-116">If you do not specify any of these accounts, the user account that you used to log on and run Best Practices Analyzer is used.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
