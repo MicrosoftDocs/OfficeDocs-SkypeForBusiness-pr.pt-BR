@@ -1,35 +1,69 @@
-﻿---
-title: 'Lync Server 2013: Gerenciando a infraestrutura de rede do Lync Server 2013'
-TOCTitle: Gerenciando a infraestrutura de rede do Lync Server 2013
-ms:assetid: cb13456a-8f66-4595-be21-8887f30ad4eb
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg182585(v=OCS.15)
-ms:contentKeyID: 49308113
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Gerenciando a infraestrutura de rede do Lync Server 2013'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing the Lync Server 2013 network infrastructure
+ms:assetid: cb13456a-8f66-4595-be21-8887f30ad4eb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182585(v=OCS.15)
+ms:contentKeyID: 48185638
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2bd95ac0259e86f3ac8fd39a09276bffa88cfc75
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827715"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gerenciando a infraestrutura de rede do Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-02-11_
+# <a name="managing-the-lync-server-2013-network-infrastructure"></a><span data-ttu-id="3ce29-102">Gerenciando a infraestrutura de rede do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ce29-102">Managing the Lync Server 2013 network infrastructure</span></span>
 
-O Microsoft Lync Server 2013 inclui suporte para CAC e bypass de mídia. Para implementar estes recursos, você deve configurar uma rede de regiões, sites, subredes e assim por diante, que permitirão gerenciar a largura de banda em situações onde as transmissões de áudio e vídeo precisam ser restritas. Também é possível usar a tecnologia de rede QoS para oferecer uma melhor experiência ao usuário final para comunicações de áudio e vídeo.
+</div>
 
-É possível usar o Painel de Controle do Lync Server para configurar e gerenciar CAC, bypass de mídia e QoS. Os seguintes tópicos oferecem as etapas sobre como fazer isso.
+<div id="mainSection">
 
-## Nesta seção
+<div id="mainBody">
 
-  - [Gerenciando a QoS (Qualidade de Serviço) no Lync Server 2013](lync-server-2013-managing-quality-of-service-qos.md)
+<span> </span>
 
-  - [Gerenciar o Controle de Admissão de Chamadas no Lync Server 2013](lync-server-2013-managing-call-admission-control.md)
+<span data-ttu-id="3ce29-103">_**Tópico da última modificação:** 2014-02-11_</span><span class="sxs-lookup"><span data-stu-id="3ce29-103">_**Topic Last Modified:** 2014-02-11_</span></span>
 
-  - [Interfaces de rede do Lync Server 2013](lync-server-2013-lync-server-network-interfaces.md)
+<span data-ttu-id="3ce29-104">O Microsoft Lync Server 2013 inclui suporte para o controle de admissão de chamadas (CAC) e bypass de mídia.</span><span class="sxs-lookup"><span data-stu-id="3ce29-104">Microsoft Lync Server 2013 includes support for call admission control (CAC) and media bypass.</span></span> <span data-ttu-id="3ce29-105">Para implementar esses recursos, você deve configurar uma rede de regiões, sites, sub-redes e assim por diante que permitirá que você gerencie a largura de banda em situações nas quais as transmissões de áudio e vídeo precisam ser restritas.</span><span class="sxs-lookup"><span data-stu-id="3ce29-105">To implement these features you must configure a network of regions, sites, subnets, and so on that will allow you to manage bandwidth in situations where audio and video transmissions need to be restricted.</span></span> <span data-ttu-id="3ce29-106">Você também pode usar a tecnologia de rede de qualidade de serviço (QoS) para ajudar a oferecer uma experiência ideal para os usuários finais de comunicações de áudio e vídeo.</span><span class="sxs-lookup"><span data-stu-id="3ce29-106">You can also use the Quality of Service (QoS) networking technology to help provide an optimal end-user experience for audio and video communications.</span></span>
 
-  - [Impedir novas conexões do Lync Server para manutenção do servidor](lync-server-2013-prevent-new-connections-to-lync-server-for-server-maintenance.md)
+<span data-ttu-id="3ce29-107">Você pode usar o painel de controle do Lync Server para configurar e gerenciar o CAC, o bypass de mídia e a QoS.</span><span class="sxs-lookup"><span data-stu-id="3ce29-107">You can use the Lync Server Control Panel to set up and manage CAC, media bypass, and QoS.</span></span> <span data-ttu-id="3ce29-108">Os tópicos a seguir fornecem etapas para fazer isso.</span><span class="sxs-lookup"><span data-stu-id="3ce29-108">The following topics provide steps for how to do this.</span></span>
 
-  - [Metodologia de qualidade de chamada do Lync no Lync Server 2013](lync-server-2013-poster-lync-call-quality-methodology.md)
+<div>
 
-  - [Key Health Indicators no Lync Server 2013](lync-server-2013-poster-key-health-indicators.md)
+## <a name="in-this-section"></a><span data-ttu-id="3ce29-109">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="3ce29-109">In This Section</span></span>
+
+  - [<span data-ttu-id="3ce29-110">Gerenciando a qualidade do serviço (QoS) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ce29-110">Managing Quality of Service (QoS) in Lync Server 2013</span></span>](lync-server-2013-managing-quality-of-service-qos.md)
+
+  - [<span data-ttu-id="3ce29-111">Gerenciando o controle de admissão de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ce29-111">Managing call admission control in Lync Server 2013</span></span>](lync-server-2013-managing-call-admission-control.md)
+
+  - [<span data-ttu-id="3ce29-112">Interfaces de rede do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ce29-112">Lync Server 2013 network interfaces</span></span>](lync-server-2013-lync-server-network-interfaces.md)
+
+  - [<span data-ttu-id="3ce29-113">Impedir novas conexões com o Lync Server 2013 para manutenção do servidor</span><span class="sxs-lookup"><span data-stu-id="3ce29-113">Prevent new connections to Lync Server 2013 for server maintenance</span></span>](lync-server-2013-prevent-new-connections-to-lync-server-for-server-maintenance.md)
+
+  - [<span data-ttu-id="3ce29-114">Metodologia de qualidade de chamada do Lync no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ce29-114">Lync Call Quality Methodology in Lync Server 2013</span></span>](lync-server-2013-poster-lync-call-quality-methodology.md)
+
+  - [<span data-ttu-id="3ce29-115">Principais indicadores de integridade no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ce29-115">Key Health Indicators in Lync Server 2013</span></span>](lync-server-2013-poster-key-health-indicators.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

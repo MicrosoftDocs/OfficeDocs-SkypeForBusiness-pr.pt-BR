@@ -1,21 +1,51 @@
-﻿---
-title: Configurar um local de backup
-TOCTitle: Configurar um local de backup
-ms:assetid: 006732eb-3d44-414d-8010-227a855caa93
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh202158(v=OCS.15)
-ms:contentKeyID: 52057542
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando um local de backup'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up a backup location
+ms:assetid: 006732eb-3d44-414d-8010-227a855caa93
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202158(v=OCS.15)
+ms:contentKeyID: 51541440
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c6d8f91af650e68348a35e9f485f5ca5f54093fe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821877"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar um local de backup
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-17_
+# <a name="setting-up-a-backup-location-for-lync-server-2013"></a><span data-ttu-id="549e5-102">Configurar um local de backup para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="549e5-102">Setting up a backup location for Lync Server 2013</span></span>
 
-Antes de realizar o primeiro backup de Lync Server, configure o hardware e o software necessários precisa para armazenar e manter os backup. Você deve obter acesso à mídia e conteúdo, conforme apropriado, e fornecer conectividade de rede entre cada servidor para backup e a mídia de backup. A mídia e o local utilizados por você devem ser definidos em sua estratégia de backup e restauração. O local que você utiliza para backups regulares pode ser local ou remoto, mas deve ser seguro e deve ser acessível tanto para backup quanto para restauração. A utilização de um local remoto é recomendada para se proteção contra um evento catastrófico no local primário.
+</div>
 
-Após configurar e testar os componentes individuais, verifique a acessibilidade aos backups a partir de cada servidor.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="549e5-103">_**Tópico da última modificação:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="549e5-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+
+<span data-ttu-id="549e5-104">Antes de fazer o primeiro backup do Lync Server, configure o hardware e o software necessários para armazenar e manter os backups.</span><span class="sxs-lookup"><span data-stu-id="549e5-104">Before you take your first backup of Lync Server, set up the hardware and software that you need in order to store and maintain the backups.</span></span> <span data-ttu-id="549e5-105">Você precisa obter acesso à mídia e ao conteúdo, conforme apropriado, e fornecer conectividade de rede entre cada servidor para fazer backup e a mídia de backup.</span><span class="sxs-lookup"><span data-stu-id="549e5-105">You need to obtain access to the media and content, as appropriate, and provide network connectivity between each server to be backed up and the backup media.</span></span> <span data-ttu-id="549e5-106">A mídia e o local que você usa devem ser definidos na estratégia de backup e restauração.</span><span class="sxs-lookup"><span data-stu-id="549e5-106">The media and location that you use should be defined in your backup and restoration strategy.</span></span> <span data-ttu-id="549e5-107">O local que você usa para fazer backups regulares pode ser local ou remoto, mas ele deve ser seguro e deve estar acessível para backup e restauração.</span><span class="sxs-lookup"><span data-stu-id="549e5-107">The location that you use for regular backups can be local or remote, but it must be secure, and it must be accessible for both backup and restoration.</span></span> <span data-ttu-id="549e5-108">Recomendamos usar um local remoto para se proteger contra um evento catastrófico em seu local principal.</span><span class="sxs-lookup"><span data-stu-id="549e5-108">We recommend using a remote location to protect against a catastrophic event at your primary site.</span></span>
+
+<span data-ttu-id="549e5-109">Depois de configurar e testar os componentes individuais, verifique a acessibilidade aos backups de cada servidor.</span><span class="sxs-lookup"><span data-stu-id="549e5-109">After you set up and test the individual components, verify accessibility to the backups from each server.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

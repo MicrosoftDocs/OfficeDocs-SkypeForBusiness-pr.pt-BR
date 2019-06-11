@@ -1,47 +1,91 @@
-﻿---
-title: "Gerenciando as config. do serviço de registro em log centralizado usando PowerShell"
-TOCTitle: "Gerenciando as config. do serviço de registro em log centralizado usando PowerShell"
-ms:assetid: f455c3aa-0061-413d-bdfb-a3e78f82723d
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721938(v=OCS.15)
-ms:contentKeyID: 49886482
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Gerenciar as configurações centralizadas de configuração do serviço de log
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing the Centralized Logging Service configuration settings
+ms:assetid: f455c3aa-0061-413d-bdfb-a3e78f82723d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721938(v=OCS.15)
+ms:contentKeyID: 49733875
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b1ce13f34a5a48c80c1f825e225a20c96ebfa2db
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827736"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gerenciando as configurações do serviço de registro em log centralizado usando PowerShell
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-11-01_
+# <a name="managing-the-centralized-logging-service-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="1ef6d-102">Gerenciar as configurações centralizadas de configuração do serviço de log no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ef6d-102">Managing the Centralized Logging Service configuration settings in Lync Server 2013</span></span>
 
-O Serviço de Log Centralizado é controlado e configurado por definições e parâmetros criados e usados pelo Controlador do Serviço de Log Centralizado (CLSController) para enviar comandos para o Agente Serviço de Log Centralizado (CLSAgent) do computador de um indivíduo. O agente processa os comandos enviados a ele e (no caso de um comando Iniciar) usa a configuração dos cenários, provedores, tamanho de log, duração de rastreamento e sinalizadores para começar a coletar logs de rastreamento de acordo com as informações de configuração fornecidas.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="1ef6d-103">_**Tópico da última modificação:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="1ef6d-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+
+<span data-ttu-id="1ef6d-104">O serviço de log centralizado é controlado e configurado por configurações e parâmetros que são criados e usados pelo controlador de serviço de log centralizado (CLSController) para enviar comandos ao agente de serviço de log centralizado do computador individual ( CLSAgent).</span><span class="sxs-lookup"><span data-stu-id="1ef6d-104">The Centralized Logging Service is controlled and configured by settings and parameters that are created and used by the Centralized Logging Service Controller (CLSController) to send commands to the individual computer’s Centralized Logging Service Agent (CLSAgent).</span></span> <span data-ttu-id="1ef6d-105">O agente processa os comandos que são enviados a ele e (no caso de um comando Start) usa a configuração dos cenários, provedores, tamanho do log, duração do rastreamento e sinalizadores para começar a coletar logs de rastreamento de acordo com as informações de configuração fornecidas.</span><span class="sxs-lookup"><span data-stu-id="1ef6d-105">The agent processes the commands that are sent to it and (in the case of a Start command) uses the configuration of the scenarios, providers, log size, trace duration, and flags to begin collecting trace logs according to the configuration information provided.</span></span>
+
+<div>
 
 
-> [!IMPORTANT]  
-> Nem todos os cmdlets do Windows PowerShell listados para o Serviço de Log Centralizado devem ser utilizados com implantações locais do Lync Server 2013. Embora possam parecer funcionar, os seguintes cmdlets não foram projetados para funcionar com implantações locais do Lync Server 2013:<ul><li><p><strong>Cmdlets CsClsRegion:</strong> <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsRegion">Get-CsClsRegion</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsRegion">Set-CsClsRegion</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsRegion">New-CsClsRegion</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsRegion">Remove-CsClsRegion</a>.</p></li>
-> 
-> <li><p><strong>Cmdlets CsClsSearchTerm:</strong> <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsSearchTerm">Get-CsClsSearchTerm</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsSearchTerm">Set-CsClsSearchTerm</a>.</p></li>
-> 
-> 
-> <li><p><strong>Cmdlets CsClsSecurityGroup:</strong> <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsSecurityGroup">Get-CsClsSecurityGroup</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsSecurityGroup">Set-CsClsSecurityGroup</a>, <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsSecurityGroup">New-CsClsSecurityGroup</a> e <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsSecurityGroup">Remove-CsClsSecurityGroup</a>.</p></li></ul>
-> As configurações definidas nestes cmdlets não impedirão nem provocarão nenhum comportamento adverso, mas elas são projetadas para usar com o Microsoft Office 365 e não gerarão os resultados esperados em implantações locais. Isso não quer dizer que não há uso para esses cmdlets em implantações locais, mas sua utilização é um tópico mais avançado que não é abordado nesta documentação.
+> [!IMPORTANT]
+> <span data-ttu-id="1ef6d-106">Nem todos os cmdlets do Windows PowerShell listados para o serviço de log centralizado são destinados ao uso com implantações locais do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1ef6d-106">Not all Windows PowerShell cmdlets listed for the Centralized Logging Service are intended for use with Lync Server 2013 on-premises deployments.</span></span> <span data-ttu-id="1ef6d-107">Embora possam parecer funcionar, os seguintes cmdlets não foram projetados para funcionar com implantações locais do Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="1ef6d-107">Although they may appear to work, the following cmdlets are not designed to function with Lync Server 2013 on-premises deployments:</span></span> 
+> <UL>
+> <LI>
+> <P><span data-ttu-id="1ef6d-108"><STRONG>Cmdlets CsClsRegion:</STRONG> <A href="https://technet.microsoft.com/en-us/library/JJ204879(v=OCS.15)">Get-CsClsRegion</A>, <A href="https://technet.microsoft.com/en-us/library/JJ204746(v=OCS.15)">set-CsClsRegion</A>, <A href="https://technet.microsoft.com/en-us/library/JJ204658(v=OCS.15)">New-CsClsRegion</A>e <A href="https://technet.microsoft.com/en-us/library/JJ204971(v=OCS.15)">Remove-CsClsRegion</A>.</span><span class="sxs-lookup"><span data-stu-id="1ef6d-108"><STRONG>CsClsRegion cmdlets:</STRONG> <A href="https://technet.microsoft.com/en-us/library/JJ204879(v=OCS.15)">Get-CsClsRegion</A>, <A href="https://technet.microsoft.com/en-us/library/JJ204746(v=OCS.15)">Set-CsClsRegion</A>, <A href="https://technet.microsoft.com/en-us/library/JJ204658(v=OCS.15)">New-CsClsRegion</A>, and <A href="https://technet.microsoft.com/en-us/library/JJ204971(v=OCS.15)">Remove-CsClsRegion</A>.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="1ef6d-109"><STRONG>Cmdlets CsClsSearchTerm:</STRONG> <A href="https://technet.microsoft.com/en-us/library/JJ205061(v=OCS.15)">Get-CsClsSearchTerm</A> e <A href="https://technet.microsoft.com/en-us/library/JJ204911(v=OCS.15)">set-CsClsSearchTerm</A>.</span><span class="sxs-lookup"><span data-stu-id="1ef6d-109"><STRONG>CsClsSearchTerm cmdlets:</STRONG> <A href="https://technet.microsoft.com/en-us/library/JJ205061(v=OCS.15)">Get-CsClsSearchTerm</A> and <A href="https://technet.microsoft.com/en-us/library/JJ204911(v=OCS.15)">Set-CsClsSearchTerm</A>.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="1ef6d-110"><STRONG>Cmdlets CsClsSecurityGroup:</STRONG> <A href="https://technet.microsoft.com/en-us/library/JJ205285(v=OCS.15)">Get-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/en-us/library/JJ204700(v=OCS.15)">set-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/en-us/library/JJ205359(v=OCS.15)">New-CsClsSecurityGroup</A>e <A href="https://technet.microsoft.com/en-us/library/JJ204958(v=OCS.15)">Remove-CsClsSecurityGroup</A>.</span><span class="sxs-lookup"><span data-stu-id="1ef6d-110"><STRONG>CsClsSecurityGroup cmdlets:</STRONG> <A href="https://technet.microsoft.com/en-us/library/JJ205285(v=OCS.15)">Get-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/en-us/library/JJ204700(v=OCS.15)">Set-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/en-us/library/JJ205359(v=OCS.15)">New-CsClsSecurityGroup</A>, and <A href="https://technet.microsoft.com/en-us/library/JJ204958(v=OCS.15)">Remove-CsClsSecurityGroup</A>.</span></span></P></LI></UL><span data-ttu-id="1ef6d-111">As configurações definidas nesses cmdlets não impedirão nem causarão qualquer comportamento adverso, mas serão projetadas para uso com o Microsoft Office 365 e não produzirão os resultados esperados em implantações locais.</span><span class="sxs-lookup"><span data-stu-id="1ef6d-111">The settings defined in these cmdlets will not hinder or cause any adverse behavior, but they are designed for use with Microsoft Office 365 and will not yield the expected results in on-premises deployments.</span></span> <span data-ttu-id="1ef6d-112">Isso não quer dizer que não há uso para esses cmdlets em implantações locais, mas sua utilização é um tópico mais avançado, que não é abordado nesta documentação.</span><span class="sxs-lookup"><span data-stu-id="1ef6d-112">This is not to say that there is no use for these cmdlets in on-premises deployments, but their use is a more advanced topic that is not covered in this documentation.</span></span>
 
 
-## Nesta seção
 
-Os tópicos nesta seção definem as opções de configuração, parâmetros e configurações do Serviço de Log Centralizado. Informações sobre como configurar o Serviço de Log Centralizado, como recuperar as configurações, a criação de cenários, o gerenciamento de grupos de segurança do Serviço de Log Centralizado, pesquisar e mais estão contidos nos tópicos que seguem.
+</div>
 
-  - [Gerenciando a configuração do computador, local e de serviço de registro em log centralizado global](lync-server-2013-managing-computer-site-and-global-centralized-logging-service-configuration.md)
+<div>
 
-  - [Configurando provedores do serviço de registro em log centralizado](lync-server-2013-configuring-providers-for-centralized-logging-service.md)
+## <a name="in-this-section"></a><span data-ttu-id="1ef6d-113">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="1ef6d-113">In This Section</span></span>
 
-  - [Configurando cenários para o serviço de registro em log centralizado](lync-server-2013-configuring-scenarios-for-the-centralized-logging-service.md)
+<span data-ttu-id="1ef6d-114">Os tópicos desta seção definem as opções de configuração, parâmetros e configurações para o serviço de log centralizado.</span><span class="sxs-lookup"><span data-stu-id="1ef6d-114">The topics in this section define the configuration options, parameters, and settings for the Centralized Logging Service.</span></span> <span data-ttu-id="1ef6d-115">Informações sobre como configurar o serviço de log centralizado, como recuperar as definições de configuração, a criação de cenários, o gerenciamento de grupos de segurança para o serviço de log centralizado, a pesquisa e outros recursos estão contidos nos tópicos a seguir.</span><span class="sxs-lookup"><span data-stu-id="1ef6d-115">Information about how to configure the Centralized Logging Service, how to retrieve the configuration settings, creation of scenarios, management of security groups for Centralized Logging Service, searching, and more is contained in the following topics.</span></span>
 
-## Consulte Também
+  - [<span data-ttu-id="1ef6d-116">Gerenciando o computador, o site e a configuração de serviço de log centralizado global no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ef6d-116">Managing computer, site and global Centralized Logging Service configuration in Lync Server 2013</span></span>](lync-server-2013-managing-computer-site-and-global-centralized-logging-service-configuration.md)
 
-#### Conceitos
+  - [<span data-ttu-id="1ef6d-117">Configurando provedores para o serviço de log centralizado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ef6d-117">Configuring providers for Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-configuring-providers-for-centralized-logging-service.md)
 
-[Visão Geral do Serviço de Registro em Log](lync-server-2013-overview-of-the-centralized-logging-service.md)  
-[Cmdlets de registro em log centralizado](https://docs.microsoft.com/en-us/powershell/module/skype/)
+  - [<span data-ttu-id="1ef6d-118">Configurar cenários para o serviço de log centralizado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ef6d-118">Configuring scenarios for the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-configuring-scenarios-for-the-centralized-logging-service.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="1ef6d-119">Confira também</span><span class="sxs-lookup"><span data-stu-id="1ef6d-119">See Also</span></span>
+
+
+[<span data-ttu-id="1ef6d-120">Visão geral do serviço de log centralizado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ef6d-120">Overview of the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-centralized-logging-service.md)  
+[<span data-ttu-id="1ef6d-121">Cmdlets de log centralizado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ef6d-121">Centralized Logging cmdlets in Lync Server 2013</span></span>](lync-server-2013-centralized-logging-cmdlets.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

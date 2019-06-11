@@ -1,39 +1,77 @@
-﻿---
-title: 'Lync Server 2013: Cenários para Roteamento Baseado em Local'
-TOCTitle: Cenários para Roteamento Baseado em Local
-ms:assetid: a5e9355a-a64b-46fe-a1ff-25550b46cc35
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ994064(v=OCS.15)
-ms:contentKeyID: 52057704
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Cenários para Roteamento Baseado em Local'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Scenarios for Location-Based Routing
+ms:assetid: a5e9355a-a64b-46fe-a1ff-25550b46cc35
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994064(v=OCS.15)
+ms:contentKeyID: 51803975
+ms.date: 08/11/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a8ef0e8941dae57c1e9b53d767d7dd0b9d5578de
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822199"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Cenários para Roteamento Baseado em Local no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-08-11_
+# <a name="scenarios-for-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="ba904-102">Cenários para Roteamento Baseado em Local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ba904-102">Scenarios for Location-Based Routing in Lync Server 2013</span></span>
 
-O Roteamento Baseado na Localização se aplica às regras gerais ao rotear chamadas nos seguintes cenários.
+</div>
 
-## Nesta seção
+<div id="mainSection">
 
-  - [Chamadas de saída no Lync Server 2013](lync-server-2013-outgoing-calls.md)
+<div id="mainBody">
 
-  - [Chamadas de entrada no Lync Server 2013](lync-server-2013-incoming-calls.md)
+<span> </span>
 
-  - [Transferência e encaminhamento de chamadas no Lync Server 2013](lync-server-2013-call-transfers-and-call-forwarding.md)
+<span data-ttu-id="ba904-103">_**Tópico da última modificação:** 2014-08-11_</span><span class="sxs-lookup"><span data-stu-id="ba904-103">_**Topic Last Modified:** 2014-08-11_</span></span>
 
-  - [Toque simultâneo no Lync Server 2013](lync-server-2013-simultaneous-ringing.md)
+<span data-ttu-id="ba904-104">O Roteamento Baseado na Localização é aplicável às regras gerais a seguir durante o encaminhamento de chamadas nos seguintes cenários.</span><span class="sxs-lookup"><span data-stu-id="ba904-104">Location-Based Routing applies the following general rules when routing calls in the following scenarios.</span></span>
 
-  - [Delegação no Lync Server 2013](lync-server-2013-delegation.md)
+<div>
 
-  - [Chamada em equipe com o Roteamento Baseado na Localização no Lync Server 2013](lync-server-2013-team-calling-with-location-based-routing.md)
+## <a name="in-this-section"></a><span data-ttu-id="ba904-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="ba904-105">In This Section</span></span>
 
-## Consulte Também
+  - [<span data-ttu-id="ba904-106">Chamadas de saída no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ba904-106">Outgoing calls in Lync Server 2013</span></span>](lync-server-2013-outgoing-calls.md)
 
-#### Outros Recursos
+  - [<span data-ttu-id="ba904-107">Chamadas de entrada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ba904-107">Incoming calls in Lync Server 2013</span></span>](lync-server-2013-incoming-calls.md)
 
-[Planejamento de Roteamento Baseado em Local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)
+  - [<span data-ttu-id="ba904-108">Transferência e encaminhamento de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ba904-108">Call transfers and call forwarding in Lync Server 2013</span></span>](lync-server-2013-call-transfers-and-call-forwarding.md)
+
+  - [<span data-ttu-id="ba904-109">Toque simultâneo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ba904-109">Simultaneous ringing in Lync Server 2013</span></span>](lync-server-2013-simultaneous-ringing.md)
+
+  - [<span data-ttu-id="ba904-110">Delegação no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ba904-110">Delegation in Lync Server 2013</span></span>](lync-server-2013-delegation.md)
+
+  - [<span data-ttu-id="ba904-111">Chamada em equipe com o Roteamento Baseado na Localização no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ba904-111">Team calling with Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-team-calling-with-location-based-routing.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="ba904-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="ba904-112">See Also</span></span>
+
+
+[<span data-ttu-id="ba904-113">Planejamento de Roteamento Baseado em Local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ba904-113">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

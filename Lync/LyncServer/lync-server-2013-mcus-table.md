@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabela Mcus'
-TOCTitle: Tabela Mcus
-ms:assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425742(v=OCS.15)
-ms:contentKeyID: 49306177
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabela Mcus'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mcus table
+ms:assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425742(v=OCS.15)
+ms:contentKeyID: 48183674
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bf0a34d24bf60770f2b1e2664a89993f5917d854
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827533"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabela Mcus no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="mcus-table-in-lync-server-2013"></a><span data-ttu-id="eda52-102">Tabela Mcus no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eda52-102">Mcus table in Lync Server 2013</span></span>
 
-Mcus é uma tabela de suporte. Cada registro armazena informações sobre um serviço de conferência, que pode ser o serviço de Conferência de IM e o serviço de Conferência com Telefonia (executados como processos em servidores front-end), bem como o serviço de Webconferência e o serviço de Conferências A/V.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="eda52-103">_**Tópico da última modificação:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="eda52-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+
+<span data-ttu-id="eda52-104">A tabela MCUs é uma tabela de suporte.</span><span class="sxs-lookup"><span data-stu-id="eda52-104">The Mcus table is a supporting table.</span></span> <span data-ttu-id="eda52-105">Cada registro armazena informações sobre um serviço de conferência.</span><span class="sxs-lookup"><span data-stu-id="eda52-105">Each record stores information about one conferencing service.</span></span> <span data-ttu-id="eda52-106">Eles podem incluir o serviço de conferência de mensagem instantânea e o serviço de conferência de telefonia (que são executados como processos em servidores front-end) e o serviço de conferência via Web e o serviço de conferência A/V.</span><span class="sxs-lookup"><span data-stu-id="eda52-106">These can include the IM Conferencing service and the Telephony Conferencing service (which run as processes on front-end servers), and the Web Conferencing service and A/V Conferencing service.</span></span>
 
 
 <table>
@@ -27,31 +47,42 @@ Mcus é uma tabela de suporte. Cada registro armazena informações sobre um ser
 </colgroup>
 <thead>
 <tr class="header">
-<th>Coluna</th>
-<th>Tipo de dados</th>
-<th>Chave/Índice</th>
-<th>Detalhes</th>
+<th><span data-ttu-id="eda52-107">Coluna</span><span class="sxs-lookup"><span data-stu-id="eda52-107">Column</span></span></th>
+<th><span data-ttu-id="eda52-108">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="eda52-108">Data Type</span></span></th>
+<th><span data-ttu-id="eda52-109">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="eda52-109">Key/Index</span></span></th>
+<th><span data-ttu-id="eda52-110">Detalhes</span><span class="sxs-lookup"><span data-stu-id="eda52-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>McuId</strong></p></td>
-<td><p>int</p></td>
-<td><p>Primário</p></td>
-<td><p>Número exclusivo que identifica este servidor de conferência.</p></td>
+<td><p><span data-ttu-id="eda52-111"><strong>McuId</strong></span><span class="sxs-lookup"><span data-stu-id="eda52-111"><strong>McuId</strong></span></span></p></td>
+<td><p><span data-ttu-id="eda52-112">int</span><span class="sxs-lookup"><span data-stu-id="eda52-112">int</span></span></p></td>
+<td><p><span data-ttu-id="eda52-113">Primária</span><span class="sxs-lookup"><span data-stu-id="eda52-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="eda52-114">Número exclusivo que identifica esse servidor de conferência.</span><span class="sxs-lookup"><span data-stu-id="eda52-114">Unique number identifying this conferencing server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>McuUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
+<td><p><span data-ttu-id="eda52-115"><strong>McuUri</strong></span><span class="sxs-lookup"><span data-stu-id="eda52-115"><strong>McuUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="eda52-116">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="eda52-116">nvarchar(450)</span></span></p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>McuTypeId</strong></p></td>
-<td><p>inyint</p></td>
-<td><p>Estrangeiro</p></td>
-<td><p>Tipo do servidor de conferência, como conf:chat (para IMs) ou conf:audio-video. Consulte <a href="lync-server-2013-uritypes-table.md">Tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p><span data-ttu-id="eda52-117"><strong>McuTypeId</strong></span><span class="sxs-lookup"><span data-stu-id="eda52-117"><strong>McuTypeId</strong></span></span></p></td>
+<td><p><span data-ttu-id="eda52-118">inyint</span><span class="sxs-lookup"><span data-stu-id="eda52-118">inyint</span></span></p></td>
+<td><p><span data-ttu-id="eda52-119"> Exterior</span><span class="sxs-lookup"><span data-stu-id="eda52-119"> Foreign</span></span></p></td>
+<td><p><span data-ttu-id="eda52-120">Tipo de servidor de conferência, como conf: Chat (para IMs) ou conf: Audio-Video.</span><span class="sxs-lookup"><span data-stu-id="eda52-120">Conferencing server type, such as conf:chat (for IMs) or conf:audio-video.</span></span> <span data-ttu-id="eda52-121">Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="eda52-121">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

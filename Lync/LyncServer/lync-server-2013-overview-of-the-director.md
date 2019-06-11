@@ -1,23 +1,53 @@
-﻿---
-title: 'Lync Server 2013: Visão Geral do Diretor'
-TOCTitle: Visão Geral do Diretor
-ms:assetid: cf9919b3-e16b-47c5-be1d-2c4bc64f44ea
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398879(v=OCS.15)
-ms:contentKeyID: 49308162
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Visão Geral do Diretor'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of the Director
+ms:assetid: cf9919b3-e16b-47c5-be1d-2c4bc64f44ea
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398879(v=OCS.15)
+ms:contentKeyID: 48185393
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5e1c36cd556dcf641acb4571b5bb349466eb278d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825314"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Visão Geral do Diretor no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-08_
+# <a name="overview-of-the-director-in-lync-server-2013"></a><span data-ttu-id="216a4-102">Visão Geral do Diretor no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="216a4-102">Overview of the Director in Lync Server 2013</span></span>
 
-Um Diretor é um servidor executando o Lync Server 2013 que autentica as solicitações do usuário, mas não hospeda qualquer conta de usuário. É possível opcionalmente implantar o Diretor nos seguintes dois cenários:
+</div>
 
-  - Se você habilitar o acesso pelos usuários externos implantando o Servidores de Borda, também é necessário implantar um Diretor. Neste cenário, o Diretor autentica os usuários externos e passa seu tráfego para servidores internos. Quando um Diretor é usado para autenticar usuários externos, libera os servidores do Pool de Front-Ends da sobrecarga da autenticação de desempenho destes usuários. Também ajuda a vedar o Pools de Front-Ends interno de tráfego malicioso como ataques de negação de serviço. Se a rede é preenchida com tráfego externo inválido em tal ataque, este tráfego termina no Diretor.
+<div id="mainSection">
 
-  - Se você implantar vários Pools de Front-Ends no site central, adicionando um Diretor para este site, é possível reduzir as solicitações de autenticação e melhorar o desempenho. Neste cenário, todas as solicitações vão primeiro para o Diretor, que direciona para o Pool de Front-Ends correto.
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="216a4-103">_**Tópico da última modificação:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="216a4-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+
+<span data-ttu-id="216a4-104">Um diretor é um servidor que executa o Lync Server 2013 que autentica solicitações do usuário, mas não hospeda nenhuma conta de usuário.</span><span class="sxs-lookup"><span data-stu-id="216a4-104">A Director is a server running Lync Server 2013 that authenticates user requests, but does not home any user accounts.</span></span> <span data-ttu-id="216a4-105">Opcionalmente, você pode implantar um diretor nos dois cenários a seguir:</span><span class="sxs-lookup"><span data-stu-id="216a4-105">You optionally can deploy a Director in the following two scenarios:</span></span>
+
+  - <span data-ttu-id="216a4-106">Se você habilitar o acesso por usuários externos implantando servidores de borda, também deverá implantar um diretor.</span><span class="sxs-lookup"><span data-stu-id="216a4-106">If you enable access by external users by deploying Edge Servers, you should also deploy a Director.</span></span> <span data-ttu-id="216a4-107">Nesse cenário, o diretor autentica os usuários externos e, em seguida, passa o tráfego deles para servidores internos.</span><span class="sxs-lookup"><span data-stu-id="216a4-107">In this scenario, the Director authenticates the external users, and then passes their traffic on to internal servers.</span></span> <span data-ttu-id="216a4-108">Quando um diretor é usado para autenticar usuários externos, ele libera os servidores de pool de front-end da sobrecarga de execução de autenticação desses usuários.</span><span class="sxs-lookup"><span data-stu-id="216a4-108">When a Director is used to authenticate external users, it relieves Front End pool servers from the overhead of performing authentication of these users.</span></span> <span data-ttu-id="216a4-109">Também ajuda a proteger pools de front-end internos contra tráfego mal-intencionado, como ataques de negação de serviço.</span><span class="sxs-lookup"><span data-stu-id="216a4-109">It also helps insulate internal Front End pools from malicious traffic such as denial-of-service attacks.</span></span> <span data-ttu-id="216a4-110">Se a rede estiver inundada com tráfego externo inválido nesse tipo de ataque, esse tráfego terminará no diretor.</span><span class="sxs-lookup"><span data-stu-id="216a4-110">If the network is flooded with invalid external traffic in such an attack, this traffic ends at the Director.</span></span>
+
+  - <span data-ttu-id="216a4-111">Se você implantar vários pools de front-end em um site central, adicionando um diretor ao site, você pode simplificar solicitações de autenticação e melhorar o desempenho.</span><span class="sxs-lookup"><span data-stu-id="216a4-111">If you deploy multiple Front End pools at a central site, by adding a Director to that site you can streamline authentication requests and improve performance.</span></span> <span data-ttu-id="216a4-112">Nesse cenário, todas as solicitações entram primeiro no director, que, em seguida, as roteia para o pool de front-end correto.</span><span class="sxs-lookup"><span data-stu-id="216a4-112">In this scenario, all requests go first to the Director, which then routes them to the correct Front End pool.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

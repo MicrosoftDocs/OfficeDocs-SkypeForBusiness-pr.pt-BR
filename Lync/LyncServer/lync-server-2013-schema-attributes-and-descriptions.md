@@ -1,35 +1,57 @@
-﻿---
-title: Atributos e descrições de esquema no Lync Server 2013
-TOCTitle: Atributos e descrições de esquema no Lync Server 2013
-ms:assetid: b009df76-9c22-471d-b57a-bda009a98261
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412841(v=OCS.15)
-ms:contentKeyID: 49307796
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: atributos e descrições do esquema'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Schema attributes and descriptions
+ms:assetid: b009df76-9c22-471d-b57a-bda009a98261
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412841(v=OCS.15)
+ms:contentKeyID: 48185083
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fc18b4b074302ba3c233670f21fd8479bbd0b0f8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822640"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Atributos e descrições de esquema no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a><span data-ttu-id="a71f4-102">Atributos e descrições de esquema no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a71f4-102">Schema attributes and descriptions in Lync Server 2013</span></span>
 
-Esta seção descreve todos os atributos de esquema usados pelo Lync Server 2013. Para as classes associadas a atributos, consulte [Atributos de esquema por classe no Lync Server 2013](lync-server-2013-schema-attributes-by-class.md). Para uma lista de classes e atributos que são novos no Lync Server 2013, consulte [Alterações de esquema no Lync Server 2013](lync-server-2013-schema-changes-in-lync-server-2013.md).
+</div>
 
-Atributos que são pares vinculados são especificados como vínculos sequenciais ou vínculos inversos. Um atributo que faz referência a outro objeto é um vínculo sequencial; o atributo do outro objeto que faz referência de volta ao primeiro objeto é um vínculo inverso. Vínculos sequenciais são atualizáveis, enquanto vínculos inversos são somente leitura.
+<div id="mainSection">
 
-Alguns atributos possuem um valor de máscara de bit. Para estes atributos, cada configuração é representada por um bit e o valor decimal exibido representa a posição do bit. Posições de bit começam com o bit 0. Por exemplo, 1 (binário) é o bit 0 definido e 10000 (binário) é o bit 4 definido. Cada bit representa uma propriedade. A seguir, alguns exemplos:
+<div id="mainBody">
 
-  - 10000 (binário) tem o valor decimal igual a 16 (ou seja, o bit 4 está definido).
+<span> </span>
 
-  - 100000000 (binário) tem o valor decimal igual a 256 (ou seja, o bit 8 está definido).
+<span data-ttu-id="a71f4-103">_**Tópico da última modificação:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="a71f4-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-  - 1100 (binário) tem o valor decimal igual a 12 (ou seja, os bits 2 e 3 estão definidos; as propriedades representadas por ambos estão habilitadas).
+<span data-ttu-id="a71f4-104">Esta seção descreve todos os atributos de esquema usados pelo Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a71f4-104">This section describes all the schema attributes used by Lync Server 2013.</span></span> <span data-ttu-id="a71f4-105">Para as classes associadas a atributos, consulte [atributos de esquema por classe no Lync Server 2013](lync-server-2013-schema-attributes-by-class.md).</span><span class="sxs-lookup"><span data-stu-id="a71f4-105">For the classes associated with attributes, see [Schema attributes by class in Lync Server 2013](lync-server-2013-schema-attributes-by-class.md).</span></span> <span data-ttu-id="a71f4-106">Para obter uma lista de classes e atributos que são novos no Lync Server 2013, consulte [mudanças de esquema no Lync server 2013](lync-server-2013-schema-changes-in-lync-server-2013.md).</span><span class="sxs-lookup"><span data-stu-id="a71f4-106">For a list of classes and attributes that are new in Lync Server 2013, see [Schema changes in Lync Server 2013](lync-server-2013-schema-changes-in-lync-server-2013.md).</span></span>
 
-  - 1111000001 (binário) tem o valor decimal igual a 961 (ou seja, os bits 0, 6, 7, 8 e 9 estão definidos; as propriedades para cada um deles estão habilitadas).
+<span data-ttu-id="a71f4-107">Os atributos que são pares vinculados são especificados como links de encaminhamento ou links para trás.</span><span class="sxs-lookup"><span data-stu-id="a71f4-107">Attributes that are linked pairs are specified as forward links or back links.</span></span> <span data-ttu-id="a71f4-108">Um atributo que faz referência a outro objeto é um link de encaminhamento; o atributo do outro objeto que faz referência novamente ao primeiro objeto é um link para trás.</span><span class="sxs-lookup"><span data-stu-id="a71f4-108">An attribute that refers to another object is a forward link; the attribute of the other object that refers back to the first object is a back link.</span></span> <span data-ttu-id="a71f4-109">Os links de encaminhamento são atualizáveis, enquanto links de volta são somente leitura.</span><span class="sxs-lookup"><span data-stu-id="a71f4-109">Forward links are updatable, while back links are read-only.</span></span>
 
-### Atributos de esquema para o Lync Server 2013
+<span data-ttu-id="a71f4-110">Alguns atributos têm um valor de máscara de bits.</span><span class="sxs-lookup"><span data-stu-id="a71f4-110">Some attributes have a bit-mask value.</span></span> <span data-ttu-id="a71f4-111">Para esses atributos, cada configuração é representada por um bit, e o valor decimal exibido representa a posição do bit.</span><span class="sxs-lookup"><span data-stu-id="a71f4-111">For these attributes, each setting is represented by a bit, and the displayed decimal value represents the bit position.</span></span> <span data-ttu-id="a71f4-112">Posições de bit começam com bit 0.</span><span class="sxs-lookup"><span data-stu-id="a71f4-112">Bit positions start with bit 0.</span></span> <span data-ttu-id="a71f4-113">Por exemplo, 1 (binário) é bit 0 definido e 10000 (binário) é um bit 4 definido.</span><span class="sxs-lookup"><span data-stu-id="a71f4-113">For example, 1 (binary) is bit 0 set and 10000 (binary) is bit 4 set.</span></span> <span data-ttu-id="a71f4-114">Cada bit representa uma propriedade.</span><span class="sxs-lookup"><span data-stu-id="a71f4-114">Each bit represents a property.</span></span> <span data-ttu-id="a71f4-115">Veja a seguir alguns exemplos:</span><span class="sxs-lookup"><span data-stu-id="a71f4-115">The following are some examples:</span></span>
+
+  - <span data-ttu-id="a71f4-116">10000 (binário) tem um valor decimal de 16 (ou seja, bit 4 é definido).</span><span class="sxs-lookup"><span data-stu-id="a71f4-116">10000 (binary) has a decimal value of 16 (that is, bit 4 is set).</span></span>
+
+  - <span data-ttu-id="a71f4-117">100 milhões (binário) tem um valor decimal de 256 (ou seja, o bit 8 é definido).</span><span class="sxs-lookup"><span data-stu-id="a71f4-117">100000000 (binary) has a decimal value of 256 (that is, bit 8 is set).</span></span>
+
+  - <span data-ttu-id="a71f4-118">1100 (binário) tem um valor decimal de 12 (ou seja, os bits 2 e 3 são definidos; as propriedades representadas por ambos os bits são habilitadas).</span><span class="sxs-lookup"><span data-stu-id="a71f4-118">1100 (binary) has a decimal value of 12 (that is, bits 2 and 3 are set; properties represented by both bits are enabled).</span></span>
+
+  - <span data-ttu-id="a71f4-119">1111000001 (binário) tem um valor decimal de 961 (ou seja, bits 0, 6, 7, 8 e 9 são definidos; as propriedades de cada um desses bits são habilitadas).</span><span class="sxs-lookup"><span data-stu-id="a71f4-119">1111000001 (binary) has a decimal value of 961 (that is, bits 0, 6, 7, 8, and 9 are set; properties for each of these bits are enabled).</span></span>
+
+<div id="sectionSection0" class="section">
+
+### <a name="schema-attributes-for-lync-server-2013"></a><span data-ttu-id="a71f4-120">Atributos de esquema do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a71f4-120">Schema Attributes for Lync Server 2013</span></span>
 
 <table>
 <colgroup>
@@ -39,646 +61,647 @@ Alguns atributos possuem um valor de máscara de bit. Para estes atributos, cada
 </colgroup>
 <thead>
 <tr class="header">
-<th>Atributo</th>
-<th>Descrição</th>
-<th>Comentários</th>
+<th><span data-ttu-id="a71f4-121">Atributo</span><span class="sxs-lookup"><span data-stu-id="a71f4-121">Attribute</span></span></th>
+<th><span data-ttu-id="a71f4-122">Descrição</span><span class="sxs-lookup"><span data-stu-id="a71f4-122">Description</span></span></th>
+<th><span data-ttu-id="a71f4-123">Comentários</span><span class="sxs-lookup"><span data-stu-id="a71f4-123">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>dnsHostName</p></td>
-<td><p>Um atributo existente no Serviços de Domínio Active Directory que agora está associado às classes <strong>msRTCSIP-Pool</strong> e <strong>msRTCSIP-MonitoringServer</strong>. Este atributo especifica o nome de domínio totalmente qualificado (FQDN) de um pool ou Servidor de Monitoramento.</p>
-<p>O valor válido para cada segmento pode ter até 63 caracteres; o valor válido para todo o FQDN pode ter até 255 caracteres.</p></td>
-<td><p>Novo no Microsoft Office Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-124">Atributos</span><span class="sxs-lookup"><span data-stu-id="a71f4-124">dnsHostName</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-125">Um atributo existente nos serviços de domínio Active Directory que agora está associado às classes <strong>msRTCSIP-pool</strong> e <strong>msRTCSIP-MonitoringServer</strong> .</span><span class="sxs-lookup"><span data-stu-id="a71f4-125">An existing attribute in Active Directory Domain Services that is now associated with the <strong>msRTCSIP-Pool</strong> and <strong>msRTCSIP-MonitoringServer</strong> classes.</span></span> <span data-ttu-id="a71f4-126">Esse atributo especifica o nome de domínio totalmente qualificado (FQDN) de um pool ou um servidor de monitoramento.</span><span class="sxs-lookup"><span data-stu-id="a71f4-126">This attribute specifies the fully qualified domain name (FQDN) of a pool or Monitoring Server.</span></span></p>
+<p><span data-ttu-id="a71f4-127">Um valor válido para cada segmento é de 63 caracteres; um valor válido para o FQDN inteiro é de 255 caracteres.</span><span class="sxs-lookup"><span data-stu-id="a71f4-127">A valid value for each segment is 63 characters; a valid value for the entire FQDN is 255 characters.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-128">Novo no Microsoft Office Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-128">New in Microsoft Office Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msDS-SourceObjectDN</p></td>
-<td><p>Este atributo contém a representação de cadeia de caracteres do nome diferenciado (DN) do objeto em outra floresta que corresponde a este objeto. Este atributo é usado para a expansão do grupo de distribuição e auto atendimento e é definido no esquema padrão do Active Directory para o Windows Server 2003 R2.</p>
-<p>Para evitar a solicitação de uma atualização do AD DS para o Windows Server 2003 R2, a preparação do esquema do Active Directory estende o esquema do Windows Server 2003 com esta definição de atributo.</p></td>
-<td><p>Novo no Microsoft Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-129">msDS-SourceObjectDN</span><span class="sxs-lookup"><span data-stu-id="a71f4-129">msDS-SourceObjectDN</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-130">Esse atributo contém a representação de cadeia de caracteres do nome diferenciado (DN) do objeto em outra floresta que corresponde a esse objeto.</span><span class="sxs-lookup"><span data-stu-id="a71f4-130">This attribute contains the string representation of the distinguished name (DN) of the object in another forest that corresponds to this object.</span></span> <span data-ttu-id="a71f4-131">Esse atributo é usado para expansão do grupo de distribuição e atendimento automático.</span><span class="sxs-lookup"><span data-stu-id="a71f4-131">This attribute is used for distribution group expansion and auto attendance.</span></span> <span data-ttu-id="a71f4-132">Esse atributo é definido no esquema padrão do Active Directory para Windows Server 2003 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-132">This attribute is defined in the default Active Directory schema for Windows Server 2003 R2.</span></span></p>
+<p><span data-ttu-id="a71f4-133">Para evitar a necessidade de uma atualização do AD DS para o Windows Server 2003 R2, a preparação do esquema do Active Directory estende o esquema do Windows Server 2003 com essa definição de atributo.</span><span class="sxs-lookup"><span data-stu-id="a71f4-133">To avoid requiring an upgrade of AD DS to Windows Server 2003 R2, Active Directory schema preparation extends the Windows Server 2003 schema with this attribute definition.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-134">Novo no Microsoft Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-134">New in Microsoft Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msExchUCVoiceMailSettings</p></td>
-<td><p>Este atributo multivalorado armazena as configurações da caixa postal. Este atributo é compartilhado com o Unificação de Mensagens (UM) do Exchange.</p></td>
-<td><p>Novo no Microsoft Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-135">msExchUCVoiceMailSettings</span><span class="sxs-lookup"><span data-stu-id="a71f4-135">msExchUCVoiceMailSettings</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-136">Esse atributo com vários valores contém as configurações da caixa postal.</span><span class="sxs-lookup"><span data-stu-id="a71f4-136">This multi-valued attribute holds voice mail settings.</span></span> <span data-ttu-id="a71f4-137">Esse atributo é compartilhado com o Exchange Unified Messaging (UM).</span><span class="sxs-lookup"><span data-stu-id="a71f4-137">This attribute is shared with Exchange Unified Messaging (UM).</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-138">Novo no Microsoft Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-138">New in Microsoft Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msExchUserHoldPolicies</p></td>
-<td><p>Esse atributo de vários valores mantém identificadores para políticas de espera que se aplicam ao usuário. As políticas de espera preservam itens da caixa de correio para o usuário durante o período. Este atributo é compartilhado com o Exchange 2013.</p></td>
-<td><p>Novo no Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="a71f4-139">msExchUserHoldPolicies</span><span class="sxs-lookup"><span data-stu-id="a71f4-139">msExchUserHoldPolicies</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-140">Esse atributo de vários valores contém identificadores para políticas de retenção que se aplicam ao usuário.</span><span class="sxs-lookup"><span data-stu-id="a71f4-140">This multi-value attribute holds identifiers for hold policies that apply to the user.</span></span> <span data-ttu-id="a71f4-141">As políticas de retenção preservam os itens da caixa de correio para o usuário durante o período de espera.</span><span class="sxs-lookup"><span data-stu-id="a71f4-141">Hold policies preserve mailbox items for the user for the duration of the hold.</span></span> <span data-ttu-id="a71f4-142">Esse atributo é compartilhado com o Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="a71f4-142">This attribute is shared with Exchange 2013.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-143">Novo no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a71f4-143">New in Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-AcpInfo</p></td>
-<td><p>Este atributo armazena informações do provedor de serviços de audioconferência para um usuário.</p></td>
-<td><p>Novo no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-144">msRTCSIP-AcpInfo</span><span class="sxs-lookup"><span data-stu-id="a71f4-144">msRTCSIP-AcpInfo</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-145">Esse atributo armazena informações do provedor de audioconferência de áudio para um usuário.</span><span class="sxs-lookup"><span data-stu-id="a71f4-145">This attribute stores audio conferencing provider information for a user.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-146">Novo no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-146">New in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ApplicationDestination</p></td>
-<td><p>Este atributo aponta para a entrada de serviço confiável para o contato de aplicativo.</p></td>
-<td><p>Novo no Microsoft Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-147">msRTCSIP-ApplicationDestination</span><span class="sxs-lookup"><span data-stu-id="a71f4-147">msRTCSIP-ApplicationDestination</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-148">Esse atributo aponta para a entrada de serviço confiável do contato do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="a71f4-148">This attribute points to the trusted service entry for the application contact.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-149">Novo no Microsoft Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-149">New in Microsoft Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ApplicationList</p></td>
-<td><p>Este atributo contém uma lista de aplicativos hospedados no servidor de aplicativos.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-150">msRTCSIP-Aplicativolist</span><span class="sxs-lookup"><span data-stu-id="a71f4-150">msRTCSIP-ApplicationList</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-151">Esse atributo contém uma lista de aplicativos hospedados no servidor de aplicativos.</span><span class="sxs-lookup"><span data-stu-id="a71f4-151">This attribute contains a list of hosted applications on the application server.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-152">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-152">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ApplicationOptions</p></td>
-<td><p>Este atributo especifica as opções para o contato de aplicativo.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-153">msRTCSIP – ApplicationOptions</span><span class="sxs-lookup"><span data-stu-id="a71f4-153">msRTCSIP-ApplicationOptions</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-154">Esse atributo especifica as opções para o contato do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="a71f4-154">This attribute specifies the options for the application contact.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-155">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-155">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ApplicationPrimaryLanguage</p></td>
-<td><p>Este atributo contém o idioma principal para o contato de aplicativo.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-156">msRTCSIP-ApplicationPrimaryLanguage</span><span class="sxs-lookup"><span data-stu-id="a71f4-156">msRTCSIP-ApplicationPrimaryLanguage</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-157">Esse atributo contém o idioma principal para o contato do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="a71f4-157">This attribute contains the primary language for the application contact.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-158">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-158">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ApplicationSecondaryLanguages</p></td>
-<td><p>Este atributo de vários valores contém os idiomas secundários para o contato de aplicativo.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-159">msRTCSIP-ApplicationSecondaryLanguages</span><span class="sxs-lookup"><span data-stu-id="a71f4-159">msRTCSIP-ApplicationSecondaryLanguages</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-160">Esse atributo Multiple Value contém os idiomas secundários para o contato do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="a71f4-160">This multiple value attribute contains the secondary languages for the application contact.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-161">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-161">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ApplicationServerBL</p></td>
-<td><p>Este atributo contém uma lista de servidores de aplicativos que pertencem a este pool. O vínculo sequencial correspondente a este atributo de vínculo inverso é <strong>msRTCSIP-ApplicationServerPoolLink</strong>.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-162">msRTCSIP-ApplicationServerBL</span><span class="sxs-lookup"><span data-stu-id="a71f4-162">msRTCSIP-ApplicationServerBL</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-163">Esse atributo contém uma lista de servidores de aplicativos que pertencem a este pool.</span><span class="sxs-lookup"><span data-stu-id="a71f4-163">This attribute contains a list of application servers that belong to this pool.</span></span> <span data-ttu-id="a71f4-164">O link encaminhamento correspondente a este atributo de link regressivo é <strong>msRTCSIP-ApplicationServerPoolLink</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-164">The corresponding forward link to this back link attribute is <strong>msRTCSIP-ApplicationServerPoolLink</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-165">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-165">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ApplicationServerPoolLink</p></td>
-<td><p>Este atributo aponta para o pool ao qual este servidor de aplicativos pertence. Este é o vínculo sequencial. O vínculo inverso correspondente é <strong>msRTCSIP-ApplicationServerBL</strong>.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-166">msRTCSIP-ApplicationServerPoolLink</span><span class="sxs-lookup"><span data-stu-id="a71f4-166">msRTCSIP-ApplicationServerPoolLink</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-167">Esse atributo aponta para o pool ao qual esse servidor de aplicativos pertence.</span><span class="sxs-lookup"><span data-stu-id="a71f4-167">This attribute points to the pool to which this application server belongs.</span></span> <span data-ttu-id="a71f4-168">Este é o link encaminhar.</span><span class="sxs-lookup"><span data-stu-id="a71f4-168">This is the forward link.</span></span> <span data-ttu-id="a71f4-169">O link regressivo correspondente é <strong>msRTCSIP-ApplicationServerBL</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-169">The corresponding backward link is <strong>msRTCSIP-ApplicationServerBL</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-170">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-170">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ArchiveDefault (obsolete)</p></td>
+<td><p><span data-ttu-id="a71f4-171">msRTCSIP-ArchiveDefault (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-171">msRTCSIP-ArchiveDefault (obsolete)</span></span></p></td>
 <td><p>-</p></td>
-<td><p>Novo no Live Communications Server 2005.</p>
-<p>Obsoleto no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-172">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-172">New in Live Communications Server 2005.</span></span></p>
+<p><span data-ttu-id="a71f4-173">Obsoleto no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-173">Obsolete in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ArchiveDefaultFlags (obsoleto)</p></td>
-<td><p>Este atributo especifica o padrão global dentro dos limites da floresta para o arquivamento de todas as comunicações do usuário. É imposto pela camada do agente de arquivamento. O intervalo de valores para este atributo é:</p>
+<td><p><span data-ttu-id="a71f4-174">msRTCSIP-ArchiveDefaultFlags (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-174">msRTCSIP-ArchiveDefaultFlags (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-175">Esse atributo especifica o padrão global dentro do limite da floresta para arquivar todas as comunicações do usuário.</span><span class="sxs-lookup"><span data-stu-id="a71f4-175">This attribute specifies the global default within the forest boundary for archiving all user communications.</span></span> <span data-ttu-id="a71f4-176">Isso é imposto pela camada do agente de arquivamento.</span><span class="sxs-lookup"><span data-stu-id="a71f4-176">This is enforced by the archiving agent layer.</span></span> <span data-ttu-id="a71f4-177">O intervalo de valores para esse atributo é o seguinte:</span><span class="sxs-lookup"><span data-stu-id="a71f4-177">The range of values for this attribute is as follows:</span></span></p>
 <ul>
-<li><p><strong>TRUE</strong>: Arquivar todos os usuários</p></li>
-<li><p><strong>FALSE</strong>: Não arquivar todos os usuários</p></li>
+<li><p><span data-ttu-id="a71f4-178"><strong>True</strong>: arquivar todos os usuários</span><span class="sxs-lookup"><span data-stu-id="a71f4-178"><strong>TRUE</strong>: Archive all users</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-179"><strong>False</strong>: Não arquivar todos os usuários</span><span class="sxs-lookup"><span data-stu-id="a71f4-179"><strong>FALSE</strong>: Do not archive all users</span></span></p></li>
 </ul>
-<p>Este atributo controla globalmente, dentro dos limites da floresta, como as comunicações do usuário dentro de uma rede interna são arquivadas.</p>
-<p><strong>Comportamento do Live Communications Server 2005 (agora desativado)</strong></p>
-<p>O intervalo de valores para este atributo é da seguinte forma:</p>
+<p><span data-ttu-id="a71f4-180">Esse atributo controla globalmente, dentro do limite da floresta, como as comunicações do usuário em uma rede interna são arquivadas.</span><span class="sxs-lookup"><span data-stu-id="a71f4-180">This attribute globally controls, within the forest boundary, how user communications within an internal network are archived.</span></span></p>
+<p><span data-ttu-id="a71f4-181"><strong>Comportamento do Live Communications Server 2005 (agora desativado)</strong></span><span class="sxs-lookup"><span data-stu-id="a71f4-181"><strong>Live Communications Server 2005 behavior (now retired)</strong></span></span></p>
+<p><span data-ttu-id="a71f4-182">O intervalo de valores para esse atributo é o seguinte:</span><span class="sxs-lookup"><span data-stu-id="a71f4-182">The range of values for this attribute is as follows:</span></span></p>
 <ul>
-<li><p>0: Arquiva o corpo da mensagem [bit 0]</p></li>
-<li><p>1: Não arquiva o corpo da mensagem [bit 0]</p></li>
+<li><p><span data-ttu-id="a71f4-183">0: arquivar o corpo da mensagem [bit 0]</span><span class="sxs-lookup"><span data-stu-id="a71f4-183">0: Archive the message body [bit 0]</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-184">1: Não arquivar o corpo da mensagem [bit 0]</span><span class="sxs-lookup"><span data-stu-id="a71f4-184">1: Do not archive the message body [bit 0]</span></span></p></li>
 </ul>
-<p><strong>Comportamento do Office Communications Server 2007</strong></p>
-<p>O intervalo de valores para este atributo é da seguinte forma:</p>
+<p><span data-ttu-id="a71f4-185"><strong>Comportamento do Office Communications Server 2007</strong></span><span class="sxs-lookup"><span data-stu-id="a71f4-185"><strong>Office Communications Server 2007 behavior</strong></span></span></p>
+<p><span data-ttu-id="a71f4-186">O intervalo de valores para esse atributo é o seguinte:</span><span class="sxs-lookup"><span data-stu-id="a71f4-186">The range of values for this attribute is as follows:</span></span></p>
 <ul>
-<li><p>0: ArchiveFederationDefaultWithoutBody (desativado)</p></li>
-<li><p>1-2: ArchiveInternalCommunications</p></li>
-<li><p>3-4: ArchiveFederatedCommunications</p></li>
-<li><p>5: RecordPresenceRegistrations</p></li>
-<li><p>6: RecordIMCallDetails</p></li>
-<li><p>7: RecordGroupIMCallDetails</p></li>
-<li><p>8: RecordFileTransferInstances</p></li>
-<li><p>9: RecordAudioCallDetails</p></li>
-<li><p>10: RecordVideoCallDetails</p></li>
-<li><p>11: RecordRemoteAssistanceCallDetails</p></li>
-<li><p>12: RecordApplicationSharingDetails</p></li>
-<li><p>13: RecordMeetingInstantiations</p></li>
-<li><p>14: RecordMeetingJoins</p></li>
-<li><p>15: RecordDataJoins</p></li>
-<li><p>16: RecordAVJoins</p></li>
+<li><p><span data-ttu-id="a71f4-187">0: ArchiveFederationDefaultWithoutBody (desativado)</span><span class="sxs-lookup"><span data-stu-id="a71f4-187">0: ArchiveFederationDefaultWithoutBody (retired)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-188">1-2: ArchiveInternalCommunications</span><span class="sxs-lookup"><span data-stu-id="a71f4-188">1-2: ArchiveInternalCommunications</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-189">3-4: ArchiveFederatedCommunications</span><span class="sxs-lookup"><span data-stu-id="a71f4-189">3-4: ArchiveFederatedCommunications</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-190">5: RecordPresenceRegistrations</span><span class="sxs-lookup"><span data-stu-id="a71f4-190">5: RecordPresenceRegistrations</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-191">6: RecordIMCallDetails</span><span class="sxs-lookup"><span data-stu-id="a71f4-191">6: RecordIMCallDetails</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-192">7: RecordGroupIMCallDetails</span><span class="sxs-lookup"><span data-stu-id="a71f4-192">7: RecordGroupIMCallDetails</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-193">8: RecordFileTransferInstances</span><span class="sxs-lookup"><span data-stu-id="a71f4-193">8: RecordFileTransferInstances</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-194">9: RecordAudioCallDetails</span><span class="sxs-lookup"><span data-stu-id="a71f4-194">9: RecordAudioCallDetails</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-195">10: RecordVideoCallDetails</span><span class="sxs-lookup"><span data-stu-id="a71f4-195">10: RecordVideoCallDetails</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-196">11: RecordRemoteAssistanceCallDetails</span><span class="sxs-lookup"><span data-stu-id="a71f4-196">11: RecordRemoteAssistanceCallDetails</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-197">12: RecordApplicationSharingDetails</span><span class="sxs-lookup"><span data-stu-id="a71f4-197">12: RecordApplicationSharingDetails</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-198">13: RecordMeetingInstantiations</span><span class="sxs-lookup"><span data-stu-id="a71f4-198">13: RecordMeetingInstantiations</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-199">14: RecordMeetingJoins</span><span class="sxs-lookup"><span data-stu-id="a71f4-199">14: RecordMeetingJoins</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-200">15: RecordDataJoins</span><span class="sxs-lookup"><span data-stu-id="a71f4-200">15: RecordDataJoins</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-201">16: RecordAVJoins</span><span class="sxs-lookup"><span data-stu-id="a71f4-201">16: RecordAVJoins</span></span></p></li>
 </ul></td>
-<td><p>Novo no Live Communications Server 2005.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-202">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-202">New in Live Communications Server 2005.</span></span></p>
+<p><span data-ttu-id="a71f4-203">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-203">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ArchiveFederationDefault (obsoleto)</p></td>
+<td><p><span data-ttu-id="a71f4-204">msRTCSIP-ArchiveFederationDefault (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-204">msRTCSIP-ArchiveFederationDefault (obsolete)</span></span></p></td>
 <td><p>-</p></td>
-<td><p>Novo no Live Communications Server 2005.</p>
-<p>Obsoleto no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-205">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-205">New in Live Communications Server 2005.</span></span></p>
+<p><span data-ttu-id="a71f4-206">Obsoleto no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-206">Obsolete in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ArchiveFederationDefaultFlags (obsoleto)</p></td>
+<td><p><span data-ttu-id="a71f4-207">msRTCSIP-ArchiveFederationDefaultFlags (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-207">msRTCSIP-ArchiveFederationDefaultFlags (obsolete)</span></span></p></td>
 <td><p>-</p></td>
-<td><p>Novo no Live Communications Server 2005.</p>
-<p>Obsoleto no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-208">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-208">New in Live Communications Server 2005.</span></span></p>
+<p><span data-ttu-id="a71f4-209">Obsoleto no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-209">Obsolete in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ArchivingEnabled</p></td>
-<td><p>Este atributo é um inteiro usado como um campo de bit para controlar se as comunicações de um único usuário estão prestes a ser arquivadas. Este controle é imposto pela camada do agente de arquivamento. Ele é marcado para replicação do catálogo global.</p>
-<p>O escopo deste atributo é específico a um único usuário ou contato. Os valores válidos (e posições de bit associadas) no Lync Server são:</p>
+<td><p><span data-ttu-id="a71f4-210">msRTCSIP-ArchivingEnabled</span><span class="sxs-lookup"><span data-stu-id="a71f4-210">msRTCSIP-ArchivingEnabled</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-211">Esse atributo é um inteiro usado como um campo de bits para controlar se as comunicações de um único usuário devem ser arquivadas.</span><span class="sxs-lookup"><span data-stu-id="a71f4-211">This attribute is an integer used as a bit field to control whether a single user’s communications are to be archived.</span></span> <span data-ttu-id="a71f4-212">Esse controle é imposto pela camada do agente de arquivamento.</span><span class="sxs-lookup"><span data-stu-id="a71f4-212">This control is enforced by the archiving agent layer.</span></span> <span data-ttu-id="a71f4-213">Ele está marcado para replicação de catálogo global.</span><span class="sxs-lookup"><span data-stu-id="a71f4-213">It is marked for global catalog replication.</span></span></p>
+<p><span data-ttu-id="a71f4-214">O escopo desse atributo é específico para um único usuário ou contato.</span><span class="sxs-lookup"><span data-stu-id="a71f4-214">The scope of this attribute is specific to a single user or contact.</span></span> <span data-ttu-id="a71f4-215">Os valores válidos (e posições de bit associadas) do Lync Server são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="a71f4-215">The valid values (and associated bit positions) in Lync Server are as follows:</span></span></p>
 <ul>
-<li><p>0: Não arquiva (nenhum bit definido)</p></li>
-<li><p>1: Desativado (posição de bit 0)</p></li>
-<li><p>2: Desativado (posição de bit 1)</p></li>
-<li><p>4: Arquiva comunicações internas (posição de bit 2)</p></li>
-<li><p>8: Arquiva comunicações federadas (posição de bit 3)</p></li>
+<li><p><span data-ttu-id="a71f4-216">0: Não arquivar (nenhum conjunto de bits)</span><span class="sxs-lookup"><span data-stu-id="a71f4-216">0: Do not archive (no bit set)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-217">1: desativado (posição do bit 0)</span><span class="sxs-lookup"><span data-stu-id="a71f4-217">1: Retired (bit position 0)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-218">2: desativado (posição do bit 1)</span><span class="sxs-lookup"><span data-stu-id="a71f4-218">2: Retired (bit position 1)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-219">4: Arquivar comunicações internas (posição do bit 2)</span><span class="sxs-lookup"><span data-stu-id="a71f4-219">4: Archive internal communications (bit position 2)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-220">8: Arquivar comunicações federadas (posição de bit 3)</span><span class="sxs-lookup"><span data-stu-id="a71f4-220">8: Archive federated communications (bit position 3)</span></span></p></li>
 </ul>
-<p>Valores válidos anteriormente no Live Communications Server 2005 são:</p>
+<p><span data-ttu-id="a71f4-221">Os valores válidos anteriormente no Live Communications Server 2005 são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="a71f4-221">Previously valid values in Live Communications Server 2005 are as follows:</span></span></p>
 <ul>
-<li><p>0:Usa o valor padrão definido pelo <strong>msRTCSIP-ArchiveDefault</strong> e <strong>msRTCSIP-ArchiveFederation</strong> nesta ordem de precedência:</p>
+<li><p><span data-ttu-id="a71f4-222">0: Use o valor padrão definido por <strong>msRTCSIP-ArchiveDefault</strong> e <strong>msRTCSIP-ArchiveFederation</strong> nesta ordem de precedência:</span><span class="sxs-lookup"><span data-stu-id="a71f4-222">0:Use the default value defined by <strong>msRTCSIP-ArchiveDefault</strong> and <strong>msRTCSIP-ArchiveFederation</strong> in this order of precedence:</span></span></p>
 <ul>
-<li><p>1: Arquiva</p></li>
-<li><p>2: Não arquiva</p></li>
-<li><p>3: Arquiva sem o corpo da mensagem</p></li>
+<li><p><span data-ttu-id="a71f4-223">1: arquivo morto</span><span class="sxs-lookup"><span data-stu-id="a71f4-223">1: Archive</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-224">2: Não arquivar</span><span class="sxs-lookup"><span data-stu-id="a71f4-224">2: Do not archive</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-225">3: arquivar sem o corpo da mensagem</span><span class="sxs-lookup"><span data-stu-id="a71f4-225">3: Archive without the message body</span></span></p></li>
 </ul></li>
 </ul></td>
-<td><p>Novo no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-226">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-226">New in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ArchivingServerData (obsoleto)</p></td>
-<td><p>Este atributo está reservado para uso futuro.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-227">msRTCSIP-ArchivingServerData (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-227">msRTCSIP-ArchivingServerData (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-228">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-228">This attribute is reserved for future use.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-229">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-229">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ArchivingServerVersion (obsoleto)</p></td>
-<td><p>Este atributo define a versão do serviço de Arquivamento. Este atributo é um tipo de inteiro lentamente crescente que aumenta a cada lançamento de produto oficial. Os valores válidos possíveis são:</p>
+<td><p><span data-ttu-id="a71f4-230">msRTCSIP-ArchivingServerVersion (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-230">msRTCSIP-ArchivingServerVersion (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-231">Esse atributo define a versão do serviço de arquivamento.</span><span class="sxs-lookup"><span data-stu-id="a71f4-231">This attribute defines the version of the Archiving service.</span></span> <span data-ttu-id="a71f4-232">Esse atributo é um tipo de inteiro que aumenta o monotonously que aumenta com cada lançamento oficial do produto.</span><span class="sxs-lookup"><span data-stu-id="a71f4-232">This attribute is a monotonously increasing integer type that increments with each official product release.</span></span> <span data-ttu-id="a71f4-233">Os valores válidos possíveis são:</span><span class="sxs-lookup"><span data-stu-id="a71f4-233">The possible valid values are:</span></span></p>
 <ul>
-<li><p>Indefinido: Live Communications Server 2003</p>
-<p>                 Live Communications Server 2005</p>
-<p>                 Live Communications Server 2005 com SP1</p></li>
-<li><p>3: Office Communications Server 2007</p></li>
-<li><p>4: Office Communications Server 2007 R2</p></li>
+<li><p><span data-ttu-id="a71f4-234">Indefinido: Live Communications Server 2003</span><span class="sxs-lookup"><span data-stu-id="a71f4-234">Undefined: Live Communications Server 2003</span></span></p>
+<p><span data-ttu-id="a71f4-235">                 Live Communications Server 2005</span><span class="sxs-lookup"><span data-stu-id="a71f4-235">                 Live Communications Server 2005</span></span></p>
+<p><span data-ttu-id="a71f4-236">                 Live Communications Server 2005 com SP1</span><span class="sxs-lookup"><span data-stu-id="a71f4-236">                 Live Communications Server 2005 with SP1</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-237">3: Office Communications Server 2007</span><span class="sxs-lookup"><span data-stu-id="a71f4-237">3: Office Communications Server 2007</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-238">4: Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="a71f4-238">4: Office Communications Server 2007 R2</span></span></p></li>
 </ul></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-239">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-239">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-240">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-240">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-BackEndServer</p></td>
-<td><p>Este atributo especifica o FQDN do Servidor Back End do pool. Como só pode haver um único Servidor Back End por pool, este é um atributo de valor único.</p>
-<p>O valor válido para cada segmento pode ter até 63 caracteres; o valor válido para todo o FQDN pode ter até 255 caracteres.</p></td>
-<td><p>Novo no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-241">msRTCSIP-BackEndServer</span><span class="sxs-lookup"><span data-stu-id="a71f4-241">msRTCSIP-BackEndServer</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-242">Esse atributo especifica o FQDN do servidor back-end do pool.</span><span class="sxs-lookup"><span data-stu-id="a71f4-242">This attribute specifies the FQDN of the Back End Server of the pool.</span></span> <span data-ttu-id="a71f4-243">Como só pode haver um único servidor back-end por pool, esse é um atributo de valor único.</span><span class="sxs-lookup"><span data-stu-id="a71f4-243">Because there can only be a single Back End Server per pool, this is a single-valued attribute.</span></span></p>
+<p><span data-ttu-id="a71f4-244">O valor válido para cada segmento é de 63 caracteres; o valor válido para o FQDN inteiro é de 255 caracteres.</span><span class="sxs-lookup"><span data-stu-id="a71f4-244">The valid value for each segment is 63 characters; the valid value for the entire FQDN is 255 characters.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-245">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-245">New in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ConferenceDirectoryHomePool</p></td>
-<td><p>Este atributo contém o identificador do pool que hospeda o diretório de conferências.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-246">msRTCSIP-ConferenceDirectoryHomePool</span><span class="sxs-lookup"><span data-stu-id="a71f4-246">msRTCSIP-ConferenceDirectoryHomePool</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-247">Esse atributo contém o identificador do pool que hospeda o diretório de conferências.</span><span class="sxs-lookup"><span data-stu-id="a71f4-247">This attribute contains the identifier of the pool that hosts the conference directory.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-248">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-248">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ConferenceDirectoryId</p></td>
-<td><p>Este atributo contém o identificador de um diretório de conferências.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-249">msRTCSIP-ConferenceDirectoryId</span><span class="sxs-lookup"><span data-stu-id="a71f4-249">msRTCSIP-ConferenceDirectoryId</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-250">Esse atributo contém o identificador de um diretório de conferências.</span><span class="sxs-lookup"><span data-stu-id="a71f4-250">This attribute contains the identifier of a conference directory.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-251">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-251">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ConferenceDirectoryTargetPool</p></td>
-<td><p>Este atributo contém o identificador do pool para o qual o diretório de conferências está sendo movido.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-252">msRTCSIP-ConferenceDirectoryTargetPool</span><span class="sxs-lookup"><span data-stu-id="a71f4-252">msRTCSIP-ConferenceDirectoryTargetPool</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-253">Esse atributo contém o identificador do pool ao qual o diretório de conferências está sendo movido.</span><span class="sxs-lookup"><span data-stu-id="a71f4-253">This attribute contains the identifier of the pool to which the conference directory is being moved.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-254">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-254">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Default</p></td>
-<td><p>Este atributo booleano define se o uso do telefone é padrão. Se estiver definido como <strong>TRUE</strong>, o uso do telefone é padrão e não pode ser excluído pelo administrador. Se estiver definido como <strong>FALSE</strong>, o uso pode ser excluído.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-255">msRTCSIP-padrão</span><span class="sxs-lookup"><span data-stu-id="a71f4-255">msRTCSIP-Default</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-256">Esse atributo booliano define se o uso do telefone é um uso padrão.</span><span class="sxs-lookup"><span data-stu-id="a71f4-256">This Boolean attribute defines whether the phone usage is a default usage.</span></span> <span data-ttu-id="a71f4-257">Se esse atributo estiver definido como <strong>true</strong>, o uso do telefone será um uso padrão e não poderá ser excluído pelo administrador.</span><span class="sxs-lookup"><span data-stu-id="a71f4-257">If this attribute is set to <strong>TRUE</strong>, the phone usage is a default usage and cannot be deleted by the administrator.</span></span> <span data-ttu-id="a71f4-258">Se esse atributo estiver definido como <strong>false</strong>, o uso poderá ser excluído.</span><span class="sxs-lookup"><span data-stu-id="a71f4-258">If this attribute is set to <strong>FALSE</strong>, the usage can be deleted.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-259">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-259">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-DefaultCWAExternalURL</p></td>
-<td><p>Este atributo identifica a URL do Communicator Web Access para usuários que estão fora da organização.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-260">msRTCSIP-DefaultCWAExternalURL</span><span class="sxs-lookup"><span data-stu-id="a71f4-260">msRTCSIP-DefaultCWAExternalURL</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-261">Esse atributo identifica a URL do Communicator Web Access para usuários que estão fora da organização.</span><span class="sxs-lookup"><span data-stu-id="a71f4-261">This attribute identifies the Communicator Web Access URL for users who are outside the organization.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-262">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-262">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-DefaultCWAInternalURL</p></td>
-<td><p>Este atributo identifica a URL do Communicator Web Access para usuários que estão dentro da organização.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-263">msRTCSIP-DefaultCWAInternalURL</span><span class="sxs-lookup"><span data-stu-id="a71f4-263">msRTCSIP-DefaultCWAInternalURL</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-264">Esse atributo identifica a URL do Communicator Web Access para os usuários que estão dentro da organização.</span><span class="sxs-lookup"><span data-stu-id="a71f4-264">This attribute identifies the Communicator Web Access URL for users who are inside the organization.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-265">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-265">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-DefaultLocationProfileLink (obsoleto)</p></td>
-<td><p>Este atributo de valor único contém o nome diferenciado (DN) de um objeto de classe de perfil de local associado a ele.</p>
-<p>Vínculo sequencial: <strong>Link ID 11036</strong></p>
-<p>O vínculo inverso correspondente é <strong>msRTCSIP-ServerReferenceBL</strong>.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-266">msRTCSIP-DefaultLocationProfileLink (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-266">msRTCSIP-DefaultLocationProfileLink (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-267">Esse atributo com valor único contém o nome diferenciado (DN) de um objeto de classe de perfil de localização atribuído a ele.</span><span class="sxs-lookup"><span data-stu-id="a71f4-267">This single-valued attribute contains the distinguished name (DN) of a location profile class object assigned to it.</span></span></p>
+<p><span data-ttu-id="a71f4-268">Link encaminhar: <strong>ID do link 11036</strong></span><span class="sxs-lookup"><span data-stu-id="a71f4-268">Forward link: <strong>Link ID 11036</strong></span></span></p>
+<p><span data-ttu-id="a71f4-269">O link regressivo correspondente é <strong>msRTCSIP-ServerReferenceBL</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-269">The corresponding backward link is <strong>msRTCSIP-ServerReferenceBL</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-270">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-270">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-DefaultPolicy (obsoleto)</p></td>
-<td><p>Este atributo booleano especifica se a política é padrão. A política é padrão quando o atributo está definido como <strong>TRUE</strong>.</p></td>
-<td><p>Novo no Office Communications Server 2007</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-271">msRTCSIP-DefaultPolicy (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-271">msRTCSIP-DefaultPolicy (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-272">Esse atributo booliano especifica se a política é uma política padrão.</span><span class="sxs-lookup"><span data-stu-id="a71f4-272">This Boolean attribute specifies whether the policy is a default policy.</span></span> <span data-ttu-id="a71f4-273">A política é uma política padrão quando definida como <strong>true</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-273">The policy is a default policy when set to <strong>TRUE</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-274">Novo no Office Communications Server 2007</span><span class="sxs-lookup"><span data-stu-id="a71f4-274">New in Office Communications Server 2007</span></span></p>
+<p><span data-ttu-id="a71f4-275">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-275">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-DefaultRouteToEdgeProxy (obsoleto)</p></td>
-<td><p>Este atributo especifica o FQDN do Servidor de Borda que está executando o Serviço de Borda de Acesso, se puder ser acessado diretamente, ou do balanceador de carga do hardware para um pool de servidores executando o Serviço de Borda de Acesso. Se for possível acessar os servidores que estão executando o Serviço de Borda de Acesso somente através de um ou mais Diretores, este atributo especifica o FQDN e, opcionalmente, o número da porta do Diretor ou do balanceador de carga do hardware que está atendendo um pool de Diretores.</p>
-<p>O valor válido para cada segmento pode ter até 63 caracteres; o valor válido para todo o FQDN pode ter até 255 caracteres.</p></td>
-<td><p>Novo no Live Communications Server 2005.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-276">msRTCSIP-DefaultRouteToEdgeProxy (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-276">msRTCSIP-DefaultRouteToEdgeProxy (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-277">Esse atributo especifica o FQDN do servidor de borda que executa o serviço de borda de acesso, se ele puder ser acessado diretamente ou do balanceador de carga de hardware para um pool de servidores que executam o serviço de borda de acesso.</span><span class="sxs-lookup"><span data-stu-id="a71f4-277">This attribute specifies the FQDN of either the Edge Server running the Access Edge service, if it can be accessed directly, or of the hardware load balancer for a pool of servers running Access Edge service.</span></span> <span data-ttu-id="a71f4-278">Se os servidores que executam o serviço de borda de acesso só puderem ser acessados por meio de um ou mais directors, esse atributo especificará o FQDN e, opcionalmente, o número da porta do diretor ou do balanceador de carga de hardware que serve um pool de directors.</span><span class="sxs-lookup"><span data-stu-id="a71f4-278">If the servers running Access Edge service can be accessed only through one or more Directors, this attribute specifies the FQDN and, optionally, the port number of the Director or of the hardware load balancer serving a Director pool.</span></span></p>
+<p><span data-ttu-id="a71f4-279">O valor válido para cada segmento é de 63 caracteres; o valor válido para o FQDN inteiro é de 255 caracteres.</span><span class="sxs-lookup"><span data-stu-id="a71f4-279">The valid value for each segment is 63 characters; the valid value for the entire FQDN is 255 characters.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-280">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-280">New in Live Communications Server 2005.</span></span></p>
+<p><span data-ttu-id="a71f4-281">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-281">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-DefaultRouteToEdgeProxyPort (obsoleto)</p></td>
-<td><p>Este atributo representa o número da porta que deve ser usada para estabelecer conexão com o servidor que está executando o Serviço de Borda de Acesso.</p>
-<p>O valor válido é um inteiro especificando a porta a ser usada. O valor padrão é 5061.</p></td>
-<td><p>Novo no Live Communications Server 2005.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-282">msRTCSIP-DefaultRouteToEdgeProxyPort (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-282">msRTCSIP-DefaultRouteToEdgeProxyPort (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-283">Esse atributo representa o número da porta que deve ser usado para conexão com o serviço de borda de acesso do servidor que está executando.</span><span class="sxs-lookup"><span data-stu-id="a71f4-283">This attribute represents the port number that should be used to connect to the server running Access Edge service.</span></span></p>
+<p><span data-ttu-id="a71f4-284">O valor válido é um valor inteiro que especifica a porta a ser usada.</span><span class="sxs-lookup"><span data-stu-id="a71f4-284">The valid value is an integer value specifying the port to be used.</span></span> <span data-ttu-id="a71f4-285">O valor padrão é 5061.</span><span class="sxs-lookup"><span data-stu-id="a71f4-285">The default value is 5061.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-286">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-286">New in Live Communications Server 2005.</span></span></p>
+<p><span data-ttu-id="a71f4-287">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-287">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-DefPresenceSubscriptionTimeout (obsoleto)</p></td>
-<td><p>Este atributo representa o tempo limite da assinatura de presença padrão.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-288">msRTCSIP-DefPresenceSubscriptionTimeout (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-288">msRTCSIP-DefPresenceSubscriptionTimeout (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-289">Esse atributo representa o período de tempo limite da assinatura de presença padrão.</span><span class="sxs-lookup"><span data-stu-id="a71f4-289">This attribute represents the default presence subscription time-out period.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-290">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-290">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-DefRegistrationTimeout (obsoleto)</p></td>
-<td><p>Este atributo representa a janela do tempo limite do registro padrão.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-291">msRTCSIP-DefRegistrationTimeout (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-291">msRTCSIP-DefRegistrationTimeout (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-292">Esse atributo representa a janela de tempo limite de registro padrão.</span><span class="sxs-lookup"><span data-stu-id="a71f4-292">This attribute represents the default registration time-out window.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-293">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-293">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-DefRoamingDataSubscriptionTimeout (obsoleto)</p></td>
-<td><p>Este atributo representa a janela do tempo limite da assinatura de dados de roaming padrão.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-294">msRTCSIP-DefRoamingDataSubscriptionTimeout (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-294">msRTCSIP-DefRoamingDataSubscriptionTimeout (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-295">Esse atributo representa a janela de tempo limite de assinatura de dados de roaming padrão.</span><span class="sxs-lookup"><span data-stu-id="a71f4-295">This attribute represents the default roaming data subscription time-out window.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-296">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-296">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-DeploymentLocator</p></td>
-<td><p>Este atributo é usado em uma topologia de domínio dividida e contém um nome de domínio totalmente qualificado (FQDN).</p></td>
-<td><p>Novo no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-297">msRTCSIP-DeploymentLocator</span><span class="sxs-lookup"><span data-stu-id="a71f4-297">msRTCSIP-DeploymentLocator</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-298">Esse atributo é usado em uma topologia de domínio dividido e contém um FQDN (nome de domínio totalmente qualificado).</span><span class="sxs-lookup"><span data-stu-id="a71f4-298">This attribute is used in a split domain topology and contains a fully qualified domain name (FQDN).</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-299">Novo no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-299">New in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-Description (obsoleto)</p></td>
-<td><p>Este atributo de cadeia de caracteres UNICODE de valor único contém uma descrição amigável desta rota de telefone ou regra de normalização.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-300">msRTCSIP-Descrição (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-300">msRTCSIP-Description (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-301">Este atributo de cadeia de caracteres UNICODE com valor único contém uma descrição amigável da regra de normalização ou rota telefônica.</span><span class="sxs-lookup"><span data-stu-id="a71f4-301">This single-valued UNICODE string attribute contains a friendly description of this phone route or normalization rule.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-302">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-302">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-303">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-303">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-DomainData</p></td>
-<td><p>Este atributo está reservado para uso futuro.</p></td>
+<td><p><span data-ttu-id="a71f4-304">msRTCSIP-DomainData</span><span class="sxs-lookup"><span data-stu-id="a71f4-304">msRTCSIP-DomainData</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-305">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-305">This attribute is reserved for future use.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-DomainName</p></td>
-<td><p>Este atributo representa um domínio configurado para o Registrador Avançado.</p></td>
+<td><p><span data-ttu-id="a71f4-306">msRTCSIP-DomainName</span><span class="sxs-lookup"><span data-stu-id="a71f4-306">msRTCSIP-DomainName</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-307">Esse atributo representa um domínio configurado para o registrador.</span><span class="sxs-lookup"><span data-stu-id="a71f4-307">This attribute represents a domain configured for the Registrar.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-EdgeProxyData</p></td>
-<td><p>Este atributo está reservado para uso futuro.</p></td>
-<td><p>Novo no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-308">msRTCSIP-EdgeProxyData</span><span class="sxs-lookup"><span data-stu-id="a71f4-308">msRTCSIP-EdgeProxyData</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-309">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-309">This attribute is reserved for future use.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-310">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-310">New in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-EdgeProxyFQDN</p></td>
-<td><p>Este atributo especifica o FQDN do servidor que está executando o serviço de Borda de Acesso.</p>
-<p>O valor válido para cada segmento pode ter até 63 caracteres; o valor válido para todo o FQDN pode ter até 255 caracteres.</p></td>
-<td><p>Novo no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-311">msRTCSIP-EdgeProxyFQDN</span><span class="sxs-lookup"><span data-stu-id="a71f4-311">msRTCSIP-EdgeProxyFQDN</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-312">Esse atributo especifica o FQDN do serviço de borda de acesso do servidor que está executando.</span><span class="sxs-lookup"><span data-stu-id="a71f4-312">This attribute specifies the FQDN of the server running Access Edge service.</span></span></p>
+<p><span data-ttu-id="a71f4-313">O valor válido para cada segmento é de 63 caracteres; o valor válido para o FQDN inteiro é de 255 caracteres.</span><span class="sxs-lookup"><span data-stu-id="a71f4-313">The valid value for each segment is 63 characters; the valid value for the entire FQDN is 255 characters.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-314">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-314">New in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-EnableBestEffortNotify (obsoleto)</p></td>
-<td><p>Este atributo controla se um servidor gera uma solicitação Best Effort NOTIFY (BENOTIFY), em vez de uma solicitação NOTIFY, em resposta a uma solicitação SUBSCRIBE de um cliente. BENOTIFY é uma extensão de aprimoramento de desempenho para o handshake da notificação de assinatura onde o servidor gera solicitações BENOTIFY, em vez de solicitações NOTIFY regulares. O benefício no desempenho é que uma solicitação BENOTIFY não requer uma resposta 200 OK do cliente, como a solicitação NOTIFY.</p>
-<p>Os valores válidos são <strong>TRUE</strong> ou <strong>FALSE</strong>.</p>
+<td><p><span data-ttu-id="a71f4-315">msRTCSIP-EnableBestEffortNotify (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-315">msRTCSIP-EnableBestEffortNotify (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-316">Esse atributo controla se um servidor gera uma solicitação de notificação de melhor esforço (enviar notificação), em vez de uma solicitação de notificação, em resposta a uma solicitação de assinatura de um cliente.</span><span class="sxs-lookup"><span data-stu-id="a71f4-316">This attribute controls whether a server generates a Best Effort NOTIFY (BENOTIFY) request, instead of a NOTIFY request, in response to a SUBSCRIBE request from a client.</span></span> <span data-ttu-id="a71f4-317">Mynotify é uma extensão de aprimoramento do desempenho para o handshake de notificação de assinatura em que o servidor gera solicitações de notificação de notificação, em vez de solicitações regulares de notificação.</span><span class="sxs-lookup"><span data-stu-id="a71f4-317">BENOTIFY is a performance-enhancing extension to the subscribe notification handshake where the server generates BENOTIFY requests, instead of regular NOTIFY requests.</span></span> <span data-ttu-id="a71f4-318">O benefício do desempenho é que uma solicitação de notificação não requer uma resposta de 200 OK do cliente, pois a solicitação de notificação faz.</span><span class="sxs-lookup"><span data-stu-id="a71f4-318">The performance benefit is that a BENOTIFY request does not require a 200 OK response from the client as the NOTIFY request does.</span></span></p>
+<p><span data-ttu-id="a71f4-319">Os valores válidos são <strong>true</strong> ou <strong>false</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-319">The valid values are <strong>TRUE</strong> or <strong>FALSE</strong>.</span></span></p>
+<div>
 
 > [!NOTE]  
-> O Live Communications Server 2003 não é compatível com solicitações BENOTIFY. Para interoperar com aplicativos de servidor escritas com a API de servidor do Live Communications Server 2003 que está em execução no Live Communications Server 2005 e servidores de terceiros, solicitações BENOTIFY podem ser desabilitadas configurando seu valor como <strong>FALSE</strong>. BENOTIFY atualmente não é parte do processo de padronização SIP IETF (Internet Engineering Task Force).
+> <span data-ttu-id="a71f4-320">O Live Communications Server 2003 não oferece suporte a solicitações de notificação de notificação.</span><span class="sxs-lookup"><span data-stu-id="a71f4-320">Live Communications Server 2003 does not support BENOTIFY requests.</span></span> <span data-ttu-id="a71f4-321">Para interoperar com os aplicativos do servidor escritos com a API do servidor do Live Communications Server 2003 em execução no Live Communications Server 2005 e em servidores de terceiros, as solicitações de notificação podem ser desabilitadas definindo seu valor como <STRONG>false</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-321">To interoperate with server applications written with the Live Communications Server 2003 server API running on Live Communications Server 2005 and third-party servers, BENOTIFY requests can be disabled by setting its value to <STRONG>FALSE</STRONG>.</span></span> <span data-ttu-id="a71f4-322">Mynotify não faz parte do processo de padronização SIP do IETF (Internet Engineering Task Force).</span><span class="sxs-lookup"><span data-stu-id="a71f4-322">BENOTIFY is not currently part of the IETF (Internet Engineering Task Force) SIP standardization process.</span></span>
 
-</td>
-<td><p>Novo no Live Communications Server 2005.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+
+</div></td>
+<td><p><span data-ttu-id="a71f4-323">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-323">New in Live Communications Server 2005.</span></span></p>
+<p><span data-ttu-id="a71f4-324">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-324">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-EnableFederation (obsoleto)</p></td>
-<td><p>Este atributo é um comutador global que administradores de TI usam para configurar se usuários têm permissão para se comunicar com usuários de outras organizações. Ele permite que um administrador sobrescreva o atributo <strong>FederationEnabled</strong> de um usuário individual. Este atributo pode ser útil para ajudar a proteger a rede interna de ataques provenientes da Internet que podem ser causados por worms, vírus ou ataques direcionados à empresa.</p>
-<p>Os valores válidos (e posições de bit associadas) são:</p>
+<td><p><span data-ttu-id="a71f4-325">msRTCSIP-EnableFederation (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-325">msRTCSIP-EnableFederation (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-326">Esse atributo é uma opção global que os administradores de ti usam para configurar se os usuários têm permissão para se comunicar com usuários de outras organizações.</span><span class="sxs-lookup"><span data-stu-id="a71f4-326">This attribute is a global switch that IT administrators use to configure whether users are allowed to communicate with users from other organizations.</span></span> <span data-ttu-id="a71f4-327">Ele permite que um administrador substitua o atributo <strong>FederationEnabled</strong> de um usuário individual.</span><span class="sxs-lookup"><span data-stu-id="a71f4-327">It enables an administrator to overwrite an individual user’s <strong>FederationEnabled</strong> attribute.</span></span> <span data-ttu-id="a71f4-328">Esse atributo pode ser útil para ajudar a proteger a rede interna de ataques pela Internet que podem ser causados por worms, vírus ou ataques direcionados à empresa.</span><span class="sxs-lookup"><span data-stu-id="a71f4-328">This attribute can be useful to help protect the internal network from Internet attacks that may be caused by worms, viruses, or targeted attacks on the company.</span></span></p>
+<p><span data-ttu-id="a71f4-329">Os valores válidos (e posições de bit associadas) são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="a71f4-329">The valid values (and associated bit positions) are as follows:</span></span></p>
 <ul>
-<li><p>1: Habilitado para conectividade de IM pública (posição de bit 0)</p></li>
-<li><p>2: Reservado (posição de bit 1)</p></li>
-<li><p>4: Reservado (posição de bit 2)</p></li>
-<li><p>8: Reservado (posição de bit 3)</p></li>
-<li><p>16: Controle de chamada remota habilitado [Telefonia] (posição de bit 4)</p></li>
-<li><p>64: AllowOrganizeMeetingWithAnonymousParticipants (permite que usuários convidem usuários anônimos para reuniões (posição de bit 6)</p></li>
-<li><p>128: UCEnabled (habilita usuários para comunicações unificadas) (posição de bit 7)</p></li>
-<li><p>256: EnabledForEnhancedPresence (habilita o usuário para conectividade de IM pública) (posição de bit 8)</p></li>
-<li><p>512: RemoteCallControlDualMode (posição de bit 9)</p></li>
+<li><p><span data-ttu-id="a71f4-330">1: habilitado para conectividade de IM pública (posição do bit 0)</span><span class="sxs-lookup"><span data-stu-id="a71f4-330">1: Enabled for public IM connectivity (bit position 0)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-331">2: reservado (posição do bit 1)</span><span class="sxs-lookup"><span data-stu-id="a71f4-331">2: Reserved (bit position 1)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-332">4: reservado (posição do bit 2)</span><span class="sxs-lookup"><span data-stu-id="a71f4-332">4: Reserved (bit position 2)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-333">8: reservado (posição do bit 3)</span><span class="sxs-lookup"><span data-stu-id="a71f4-333">8: Reserved (bit position 3)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-334">16: controle de chamada remota habilitado [telefonia] (posição de bit 4)</span><span class="sxs-lookup"><span data-stu-id="a71f4-334">16: Remote call control Enabled [Telephony] (bit position 4)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-335">64: AllowOrganizeMeetingWithAnonymousParticipants (permite que os usuários convidem usuários anônimos para reuniões (posição de bit 6)</span><span class="sxs-lookup"><span data-stu-id="a71f4-335">64: AllowOrganizeMeetingWithAnonymousParticipants (allow users to invite anonymous users to meetings (bit position 6)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-336">128: UCEnabled (habilitar usuários para comunicação unificada) (posição de bit 7)</span><span class="sxs-lookup"><span data-stu-id="a71f4-336">128: UCEnabled (enable users for unified communications) (bit position 7)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-337">256: EnabledForEnhancedPresence (habilitar usuário para conectividade de IM pública) (posição de bit 8)</span><span class="sxs-lookup"><span data-stu-id="a71f4-337">256: EnabledForEnhancedPresence (enable user for public IM connectivity) (bit position 8)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-338">512: RemoteCallControlDualMode (posição do bit 9)</span><span class="sxs-lookup"><span data-stu-id="a71f4-338">512: RemoteCallControlDualMode (bit position 9)</span></span></p></li>
 </ul></td>
-<td><p>Novo no Live Communications Server 2005.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-339">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-339">New in Live Communications Server 2005.</span></span></p>
+<p><span data-ttu-id="a71f4-340">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-340">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-EnterpriseServices</p></td>
-<td><p>Este atributo indica se Enterprise Services estão carregados em determinado servidor.</p></td>
+<td><p><span data-ttu-id="a71f4-341">msRTCSIP-EnterpriseServices</span><span class="sxs-lookup"><span data-stu-id="a71f4-341">msRTCSIP-EnterpriseServices</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-342">Esse atributo indica se os serviços corporativos são carregados em determinado servidor.</span><span class="sxs-lookup"><span data-stu-id="a71f4-342">This attribute indicates whether the Enterprise Services are loaded on the given server.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ExtensionData</p></td>
-<td><p>Este atributo está reservado para uso futuro.</p></td>
+<td><p><span data-ttu-id="a71f4-343">msRTCSIP-ExtensionData</span><span class="sxs-lookup"><span data-stu-id="a71f4-343">msRTCSIP-ExtensionData</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-344">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-344">This attribute is reserved for future use.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ExternalAccessCode</p></td>
-<td><p>Este atributo contém o código de discagem para acesso externo.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-345">msRTCSIP-ExternalAccessCode</span><span class="sxs-lookup"><span data-stu-id="a71f4-345">msRTCSIP-ExternalAccessCode</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-346">Esse atributo contém o código de discagem para acesso externo.</span><span class="sxs-lookup"><span data-stu-id="a71f4-346">This attribute contains the dial code for external access.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-347">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-347">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-FederationEnabled</p></td>
-<td><p>Este atributo controla se um único usuário está habilitado para federação. É imposto pela camada do Enterprise Services e está marcado para replicação do catálogo global.</p>
-<p>Os valores válidos são <strong>TRUE</strong> ou <strong>FALSE</strong>.</p></td>
-<td><p>Novo no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-348">msRTCSIP-FederationEnabled</span><span class="sxs-lookup"><span data-stu-id="a71f4-348">msRTCSIP-FederationEnabled</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-349">Esse atributo controla se um único usuário está habilitado para Federação.</span><span class="sxs-lookup"><span data-stu-id="a71f4-349">This attribute controls whether a single user is enabled for federation.</span></span> <span data-ttu-id="a71f4-350">Ela é imposta pela camada de serviços corporativos.</span><span class="sxs-lookup"><span data-stu-id="a71f4-350">It is enforced by the Enterprise Services layer.</span></span> <span data-ttu-id="a71f4-351">Ele está marcado para replicação de catálogo global.</span><span class="sxs-lookup"><span data-stu-id="a71f4-351">It is marked for global catalog replication.</span></span></p>
+<p><span data-ttu-id="a71f4-352">Os valores válidos são <strong>true</strong> ou <strong>false</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-352">The valid values are <strong>TRUE</strong> or <strong>FALSE</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-353">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-353">New in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-FrontEndServers</p></td>
-<td><p>Este atributo é uma lista multivalorada dos nomes de domínio de todos os servidores Enterprise Edition associados a um pool.</p>
-<p>Vínculo inverso: <strong>Link ID 11023</strong></p>
-<p>O vínculo sequencial correspondente a este vínculo inverso é <strong>msRTCSIP-PoolAddress</strong>.</p></td>
-<td><p>Novo no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-354">msRTCSIP-FrontEndServers</span><span class="sxs-lookup"><span data-stu-id="a71f4-354">msRTCSIP-FrontEndServers</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-355">Esse atributo é uma lista de vários valores dos nomes de domínio de todos os servidores Enterprise Edition associados a um pool.</span><span class="sxs-lookup"><span data-stu-id="a71f4-355">This attribute is a multi-valued list of the domain names of all Enterprise Edition servers associated with a pool.</span></span></p>
+<p><span data-ttu-id="a71f4-356">Link para trás: <strong>ID do link 11023</strong></span><span class="sxs-lookup"><span data-stu-id="a71f4-356">Back link: <strong>Link ID 11023</strong></span></span></p>
+<p><span data-ttu-id="a71f4-357">O link encaminhamento correspondente para esse link regressivo é <strong>msRTCSIP-PoolAddress</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-357">The corresponding forward link to this back link is <strong>msRTCSIP-PoolAddress</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-358">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-358">New in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-Gateways (obsoleto)</p></td>
-<td><p>Este atributo multivalorado de cadeia de caracteres contém uma lista de gateways e portas (por gateway).</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-359">msRTCSIP-gateways (obsoletos)</span><span class="sxs-lookup"><span data-stu-id="a71f4-359">msRTCSIP-Gateways (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-360">Este atributo de cadeia de caracteres de múltiplos valores contém uma lista de gateways e portas (por gateway).</span><span class="sxs-lookup"><span data-stu-id="a71f4-360">This multi-valued string attribute contains a list of gateways and ports (per gateway).</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-361">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-361">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-GlobalSettingsData (obsoleto)</p></td>
-<td><p>Este atributo armazena pares nome:valor. Os par nome:valor já definido é para a configuração <strong>permitir sondagem de presença</strong>.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-362">msRTCSIP-GlobalSettingsData (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-362">msRTCSIP-GlobalSettingsData (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-363">Esse atributo armazena nomes de valor: pares de valores.</span><span class="sxs-lookup"><span data-stu-id="a71f4-363">This attribute stores name:value pairs.</span></span> <span data-ttu-id="a71f4-364">O par de nomes já definido: é para a configuração <strong>permitir sondagem para presença</strong> .</span><span class="sxs-lookup"><span data-stu-id="a71f4-364">The already-defined name:value pair is for the <strong>allow polling for presence</strong> setting.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-365">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-365">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-GroupingID</p></td>
-<td><p>Este atributo é um identificador único de um grupo usado para agrupar entradas do catálogo de endereços.</p></td>
-<td><p>Novo no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-366">msRTCSIP-Groupingid</span><span class="sxs-lookup"><span data-stu-id="a71f4-366">msRTCSIP-GroupingID</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-367">Esse atributo é um identificador exclusivo de um grupo usado para agrupar entradas do catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="a71f4-367">This attribute is a unique identifier of a group that is used to group address book entries.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-368">Novo no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-368">New in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-HomeServer (obsoleto)</p></td>
+<td><p><span data-ttu-id="a71f4-369">msRTCSIP-HomeServer (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-369">msRTCSIP-HomeServer (obsolete)</span></span></p></td>
 <td><p>-</p></td>
-<td><p>Novo no Live Communications Server 2003 (não utilizado).</p>
-<p>Obsoleto no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-370">Novo no Live Communications Server 2003 (não usado).</span><span class="sxs-lookup"><span data-stu-id="a71f4-370">New in Live Communications Server 2003 (not used).</span></span></p>
+<p><span data-ttu-id="a71f4-371">Obsoleto no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-371">Obsolete in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-HomeServerString (obsoleto)</p></td>
+<td><p><span data-ttu-id="a71f4-372">msRTCSIP-HomeServerString (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-372">msRTCSIP-HomeServerString (obsolete)</span></span></p></td>
 <td><p>-</p></td>
-<td><p>Novo no Live Communications Server 2003.</p>
-<p>Obsoleto no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-373">Novo no Live Communications Server 2003.</span><span class="sxs-lookup"><span data-stu-id="a71f4-373">New in Live Communications Server 2003.</span></span></p>
+<p><span data-ttu-id="a71f4-374">Obsoleto no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-374">Obsolete in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-HomeUsers (obsoleto)</p></td>
+<td><p><span data-ttu-id="a71f4-375">msRTCSIP-HomeUsers (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-375">msRTCSIP-HomeUsers (obsolete)</span></span></p></td>
 <td><p>-</p></td>
-<td><p>Novo no Live Communications Server 2003 (não utilizado).</p>
-<p>Obsoleto no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-376">Novo no Live Communications Server 2003 (não usado).</span><span class="sxs-lookup"><span data-stu-id="a71f4-376">New in Live Communications Server 2003 (not used).</span></span></p>
+<p><span data-ttu-id="a71f4-377">Obsoleto no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-377">Obsolete in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-InternetAccessEnabled</p></td>
-<td><p>Este atributo controla se um único usuário está habilitado para acesso externo de usuário. É imposto pela camada do Enterprise Services e está marcado para replicação do catálogo global.</p>
-<p>Os valores válidos são <strong>TRUE</strong> ou <strong>FALSE</strong>.</p></td>
-<td><p>Novo no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-378">msRTCSIP-InternetAccessEnabled</span><span class="sxs-lookup"><span data-stu-id="a71f4-378">msRTCSIP-InternetAccessEnabled</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-379">Esse atributo controla se um único usuário está habilitado para o acesso de usuário externo.</span><span class="sxs-lookup"><span data-stu-id="a71f4-379">This attribute controls whether a single user is enabled for outside user access.</span></span> <span data-ttu-id="a71f4-380">Ela é imposta pela camada de serviços corporativos.</span><span class="sxs-lookup"><span data-stu-id="a71f4-380">It is enforced by the Enterprise Services layer.</span></span> <span data-ttu-id="a71f4-381">Ele está marcado para replicação de catálogo global.</span><span class="sxs-lookup"><span data-stu-id="a71f4-381">It is marked for global catalog replication.</span></span></p>
+<p><span data-ttu-id="a71f4-382">Os valores válidos são <strong>true</strong> ou <strong>false</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-382">The valid values are <strong>TRUE</strong> or <strong>FALSE</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-383">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-383">New in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-IsMaster (obsoleto)</p></td>
+<td><p><span data-ttu-id="a71f4-384">msRTCSIP-IsMaster (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-384">msRTCSIP-IsMaster (obsolete)</span></span></p></td>
 <td><p>-</p></td>
-<td><p>Novo no Live Communications Server 2003</p>
-<p>Obsoleto no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-385">Novo no Live Communications Server 2003</span><span class="sxs-lookup"><span data-stu-id="a71f4-385">New in Live Communications Server 2003</span></span></p>
+<p><span data-ttu-id="a71f4-386">Obsoleto no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-386">Obsolete in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-Line</p></td>
-<td><p>Este atributo de valor único contém o ID do dispositivo (o URI do SIP ou o URI do TEL do telefone controlado pelo usuário) usado pelo Lync para telefonia. Este atributo está marcado para replicação do Catálogo Global e é indexado. Se o usuário estiver habilitado para o Enterprise Voice, este atributo armazena a versão normalizada E.164 do número do telefone do usuário.</p></td>
-<td><p>Novo no Microsoft Office Live Communications Server 2005 com SP1</p></td>
+<td><p><span data-ttu-id="a71f4-387">Linha de msRTCSIP</span><span class="sxs-lookup"><span data-stu-id="a71f4-387">msRTCSIP-Line</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-388">Esse atributo com valor único contém a ID do dispositivo (o URI SIP ou o URI do TEL do telefone que o usuário controla) usado pelo Lync para telefonia.</span><span class="sxs-lookup"><span data-stu-id="a71f4-388">This single-valued attribute contains the device ID (either the SIP URI or the TEL URI of the phone the user controls) used by Lync for telephony.</span></span> <span data-ttu-id="a71f4-389">Esse atributo está marcado para replicação de catálogo global e está indexado.</span><span class="sxs-lookup"><span data-stu-id="a71f4-389">This attribute is marked for Global Catalog replication and is indexed.</span></span> <span data-ttu-id="a71f4-390">Se um usuário estiver habilitado para o Enterprise Voice, esse atributo armazenará a versão normalizada E. 164 do número de telefone do usuário.</span><span class="sxs-lookup"><span data-stu-id="a71f4-390">If a user is enabled for Enterprise Voice, this attribute stores the E.164 normalized version of the user’s phone number.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-391">Novo no Microsoft Office Live Communications Server 2005 com SP1</span><span class="sxs-lookup"><span data-stu-id="a71f4-391">New in Microsoft Office Live Communications Server 2005 with SP1</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-LineServer</p></td>
-<td><p>Este atributo de valor único contém o URI do SIP do servidor de gateway CSTA-SIP. Este atributo está marcado para replicação do Catálogo Global mas não é indexado.</p></td>
-<td><p>Novo no Microsoft Office Live Communications Server 2005 com SP1</p></td>
+<td><p><span data-ttu-id="a71f4-392">msRTCSIP-LineServer</span><span class="sxs-lookup"><span data-stu-id="a71f4-392">msRTCSIP-LineServer</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-393">Esse atributo com valor único contém o URI SIP do servidor do gateway CSTA-SIP.</span><span class="sxs-lookup"><span data-stu-id="a71f4-393">This single-valued attribute contains the SIP URI of the CSTA-SIP gateway server.</span></span> <span data-ttu-id="a71f4-394">Esse atributo está marcado para replicação de catálogo global, mas não está indexado.</span><span class="sxs-lookup"><span data-stu-id="a71f4-394">This attribute is marked for Global Catalog replication but is not indexed.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-395">Novo no Microsoft Office Live Communications Server 2005 com SP1</span><span class="sxs-lookup"><span data-stu-id="a71f4-395">New in Microsoft Office Live Communications Server 2005 with SP1</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-LocalNormalizationData (obsoleto)</p></td>
-<td><p>Este atributo está marcado para uso futuro.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-396">msRTCSIP-LocalNormalizationData (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-396">msRTCSIP-LocalNormalizationData (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-397">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-397">This attribute is reserved for future use.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-398">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-398">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-399">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-399">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-LocalNormalizationLinks (obsoleto)</p></td>
-<td><p>Este atributo multivalorado contém uma lista de nomes diferenciados (DN) de normalização local associados a este perfil de localidade. O tipo deste atributo é binário de DN. Existe um relacionamento de um-para-muitos entre o perfil de localidade e regras de normalização local. A ordenação da lista de DNs de normalização local deve ser mantida na ordem especificada pelo administrador. A preservação da ordem é mantida pela parte binária do binário de DN, que especifica o índice da ordem.</p>
-<p>Vínculo sequencial: <strong>Link ID 11034</strong></p>
-<p>O vínculo inverso correspondente a este atributo de vínculo sequencial é <strong>msRTCSIP-LocationProfileBL</strong>.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-400">msRTCSIP-LocalNormalizationLinks (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-400">msRTCSIP-LocalNormalizationLinks (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-401">Este atributo de valores múltiplos contém uma lista de nomes diferenciais de normalização (DN) locais associados a este perfil de local.</span><span class="sxs-lookup"><span data-stu-id="a71f4-401">This multi-valued attribute contains a list of local normalization distinguished names (DN) associated with this location profile.</span></span> <span data-ttu-id="a71f4-402">O tipo desse atributo é um binário DN.</span><span class="sxs-lookup"><span data-stu-id="a71f4-402">The type of this attribute is a DN binary.</span></span> <span data-ttu-id="a71f4-403">Há uma relação um-para-muitos entre o perfil de local e as regras de normalização locais.</span><span class="sxs-lookup"><span data-stu-id="a71f4-403">There is a one-to-many relationship between location profile and local normalization rules.</span></span> <span data-ttu-id="a71f4-404">A ordenação da lista de DNs de normalização local deve ser mantida na ordem especificada pelo administrador.</span><span class="sxs-lookup"><span data-stu-id="a71f4-404">The ordering of the list of local normalization DNs must be maintained in the order specified by the administrator.</span></span> <span data-ttu-id="a71f4-405">A preservação do pedido é mantida pela parte binária do binário DN, que especifica o índice do pedido.</span><span class="sxs-lookup"><span data-stu-id="a71f4-405">The preservation of order is maintained by the binary portion of the DN binary, which specifies the order index.</span></span></p>
+<p><span data-ttu-id="a71f4-406">Link encaminhar: <strong>ID do link 11034</strong></span><span class="sxs-lookup"><span data-stu-id="a71f4-406">Forward link: <strong>Link ID 11034</strong></span></span></p>
+<p><span data-ttu-id="a71f4-407">O link regressivo correspondente a este atributo de link de encaminhamento é <strong>msRTCSIP-LocationProfileBL</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-407">The corresponding back link to this forward link attribute is <strong>msRTCSIP-LocationProfileBL</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-408">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-408">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-409">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-409">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-LocalNormalizationOptions</p></td>
-<td><p>Este atributo contém uma lista de opções para a regra de normalização.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-410">msRTCSIP-LocalNormalizationOptions</span><span class="sxs-lookup"><span data-stu-id="a71f4-410">msRTCSIP-LocalNormalizationOptions</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-411">Esse atributo contém uma lista de opções para a regra de normalização.</span><span class="sxs-lookup"><span data-stu-id="a71f4-411">This attribute contains a list of options for the normalization rule.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-412">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-412">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-LocationName (obsoleto)</p></td>
-<td><p>Este atributo de valor único contém um nome amigável para o perfil de localidade que indica o local representado por este perfil. Como podem existir vários perfis de localidade, o administrador precisa de uma forma de distinção entre os perfis.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-413">msRTCSIP-LocationName (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-413">msRTCSIP-LocationName (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-414">Esse atributo com valor único contém um nome amigável para o perfil de local que indica qual local esse perfil representa.</span><span class="sxs-lookup"><span data-stu-id="a71f4-414">This single-valued attribute contains a friendly name for the location profile that indicates which location this profile represents.</span></span> <span data-ttu-id="a71f4-415">Como pode haver vários perfis de localização, o administrador precisa de uma maneira de distinguir entre diferentes perfis.</span><span class="sxs-lookup"><span data-stu-id="a71f4-415">Because there can be multiple location profiles, the administrator needs a way to distinguish between different profiles.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-416">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-416">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-417">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-417">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-locationProfileBL (obsoleto)</p></td>
-<td><p>Este atributo multivalorado contém uma lista de nomes diferenciados de perfis de localidade. Este atributo especifica o vínculo inverso para um ou mais perfis de localidade.</p>
-<p>Vínculo inverso: <strong>Link ID 11035</strong></p>
-<p>Este atributo corresponde ao vínculo sequencial <strong>msRTCSIP-LocalNormalizationLinks</strong>.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-418">msRTCSIP-locationProfileBL (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-418">msRTCSIP-locationProfileBL (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-419">Esse atributo com valores múltiplos contém uma lista de nomes distintos do perfil de local.</span><span class="sxs-lookup"><span data-stu-id="a71f4-419">This multi-valued attribute contains a list of location profile distinguished names.</span></span> <span data-ttu-id="a71f4-420">Esse atributo especifica o link back para um ou mais perfis de local.</span><span class="sxs-lookup"><span data-stu-id="a71f4-420">This attribute specifies the back link to one or more location profiles.</span></span></p>
+<p><span data-ttu-id="a71f4-421">Link para trás: <strong>ID do link 11035</strong></span><span class="sxs-lookup"><span data-stu-id="a71f4-421">Back link: <strong>Link ID 11035</strong></span></span></p>
+<p><span data-ttu-id="a71f4-422">Esse atributo corresponde ao link Forward <strong>msRTCSIP-LocalNormalizationLinks</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-422">This attribute corresponds to the forward link <strong>msRTCSIP-LocalNormalizationLinks</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-423">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-423">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-424">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-424">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-LocationProfileData (obsoleto)</p></td>
-<td><p>Este atributo está reservado para uso futuro.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-425">msRTCSIP-LocationProfileData (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-425">msRTCSIP-LocationProfileData (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-426">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-426">This attribute is reserved for future use.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-427">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-427">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-428">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-428">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-LocationProfileOptions</p></td>
-<td><p>Este atributo contém as opções para o perfil de localidade.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-429">msRTCSIP-LocationProfileOptions</span><span class="sxs-lookup"><span data-stu-id="a71f4-429">msRTCSIP-LocationProfileOptions</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-430">Esse atributo contém as opções do perfil de local.</span><span class="sxs-lookup"><span data-stu-id="a71f4-430">This attribute contains the options for the location profile.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-431">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-431">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MappingContact</p></td>
-<td><p>Este atributo multivalorado hospeda uma lista de contatos de aplicativo.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-432">msRTCSIP-MappingContact</span><span class="sxs-lookup"><span data-stu-id="a71f4-432">msRTCSIP-MappingContact</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-433">Este atributo de vários valores contém uma lista de contatos do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="a71f4-433">This multiple-value attribute holds a list of application contacts.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-434">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-434">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MappingLocation</p></td>
-<td><p>Este atributo multivalorado hospeda uma lista de perfis de localidade.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-435">msRTCSIP-MappingLocation</span><span class="sxs-lookup"><span data-stu-id="a71f4-435">msRTCSIP-MappingLocation</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-436">Esse atributo de vários valores contém uma lista de perfis de localização.</span><span class="sxs-lookup"><span data-stu-id="a71f4-436">This multiple-value attribute holds a list of location profiles.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-437">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-437">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MaxNumOutstandingSearchPerServer (obsoleto)</p></td>
-<td><p>Este atributo representa o número máximo de solicitações de pesquisa pendentes por servidor.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-438">msRTCSIP-MaxNumOutstandingSearchPerServer (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-438">msRTCSIP-MaxNumOutstandingSearchPerServer (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-439">Esse atributo representa o número máximo de solicitações de pesquisa pendentes por servidor.</span><span class="sxs-lookup"><span data-stu-id="a71f4-439">This attribute represents the maximum number of outstanding search requests per server.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-440">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-440">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MaxNumSubscriptionsPerUser (obsoleto)</p></td>
-<td><p>O atributo representa o número máximo de assinaturas por usuário.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-441">msRTCSIP-MaxNumSubscriptionsPerUser (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-441">msRTCSIP-MaxNumSubscriptionsPerUser (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-442">O atributo representa o número máximo de assinaturas por usuário.</span><span class="sxs-lookup"><span data-stu-id="a71f4-442">The attribute represents the maximum number of subscriptions per user.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-443">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-443">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MaxPresenceSubscriptionTimeout (obsoleto)</p></td>
-<td><p>Este atributo representa a janela do tempo limite máximo da assinatura.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-444">msRTCSIP-MaxPresenceSubscriptionTimeout (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-444">msRTCSIP-MaxPresenceSubscriptionTimeout (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-445">Esse atributo representa a janela de tempo limite máximo da assinatura.</span><span class="sxs-lookup"><span data-stu-id="a71f4-445">This attribute represents the maximum subscription time-out window.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-446">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-446">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MaxRegistrationsTimeout (obsoleto)</p></td>
-<td><p>Este atributo representa a janela do tempo limite máximo de registros.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-447">msRTCSIP-MaxRegistrationsTimeout (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-447">msRTCSIP-MaxRegistrationsTimeout (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-448">Esse atributo representa a janela de tempo limite de registros máximos.</span><span class="sxs-lookup"><span data-stu-id="a71f4-448">This attribute represents the maximum registrations time-out window.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-449">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-449">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MaxRoamingDataSubscriptionTimeout (obsoleto)</p></td>
-<td><p>Este atributo representa a janela do tempo limite máximo de assinaturas de dados de roaming.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-450">msRTCSIP-MaxRoamingDataSubscriptionTimeout (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-450">msRTCSIP-MaxRoamingDataSubscriptionTimeout (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-451">Esse atributo representa a janela de tempo limite de máximo de assinaturas de roaming de dados.</span><span class="sxs-lookup"><span data-stu-id="a71f4-451">This attribute represents the maximum roaming data subscriptions time-out window.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-452">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-452">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MCUData</p></td>
-<td><p>Este atributo está reservado para uso futuro.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-453">msRTCSIP-MCUData</span><span class="sxs-lookup"><span data-stu-id="a71f4-453">msRTCSIP-MCUData</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-454">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-454">This attribute is reserved for future use.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-455">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-455">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MCUFactoryAddress</p></td>
-<td><p>Este atributo é um atributo de ponto de controle de serviço sob a classe de computador que especifica um vínculo inverso para o alocador de unidade de controle de multipontos (MCU) à qual ele pertence. Este ponto de controle de serviço e atributo é criado para cada MCU Microsoft. Cada MCU Microsoft deve encontrar o Servidor Back End do pool ao qual pertence, para recuperar configurações de nível de pool dele.</p>
-<p>O valor deste atributo é o nome diferenciado (DN) do Alocador de MCU. Este é um atributo de valor único, marcado para replicação do catálogo global.</p>
-<p>Vínculo sequencial: <strong>Link ID 11026</strong></p>
-<p>O vínculo inverso correspondente a este atributo de vínculo sequencial é <strong>msRTCSIP-MCUServers</strong>.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-456">msRTCSIP-MCUFactoryAddress</span><span class="sxs-lookup"><span data-stu-id="a71f4-456">msRTCSIP-MCUFactoryAddress</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-457">Esse atributo é um atributo de ponto de controle de serviço na classe Computer que especifica um link de volta para a fábrica da unidade de controle multiponto (MCU) à qual ele pertence.</span><span class="sxs-lookup"><span data-stu-id="a71f4-457">This attribute is a service control point attribute under the computer class that specifies a link back to the multipoint control unit (MCU) Factory to which it belongs.</span></span> <span data-ttu-id="a71f4-458">Esse atributo e este ponto de controle de serviço é criado para cada Microsoft MCU.</span><span class="sxs-lookup"><span data-stu-id="a71f4-458">This service control point and attribute is created for every Microsoft MCU.</span></span> <span data-ttu-id="a71f4-459">Cada Microsoft MCU deve encontrar o servidor back-end do pool ao qual ele pertence, para recuperar as configurações no nível do pool.</span><span class="sxs-lookup"><span data-stu-id="a71f4-459">Each Microsoft MCU must find the Back End Server of the pool to which it belongs, in order to retrieve pool-level settings from it.</span></span></p>
+<p><span data-ttu-id="a71f4-460">O valor desse atributo é o nome diferenciado (DN) da fábrica do MCU.</span><span class="sxs-lookup"><span data-stu-id="a71f4-460">The value of this attribute is the distinguished name (DN) of the MCU Factory.</span></span> <span data-ttu-id="a71f4-461">Esse é um atributo de valor único e marcado para replicação de catálogo global.</span><span class="sxs-lookup"><span data-stu-id="a71f4-461">This is a single-valued attribute and marked for global catalog replication.</span></span></p>
+<p><span data-ttu-id="a71f4-462">Link encaminhar: <strong>ID do link 11026</strong></span><span class="sxs-lookup"><span data-stu-id="a71f4-462">Forward link: <strong>Link ID 11026</strong></span></span></p>
+<p><span data-ttu-id="a71f4-463">O link regressivo correspondente a este atributo de link de encaminhamento é <strong>msRTCSIP-MCUServers</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-463">The corresponding back link to this forward link attribute is <strong>msRTCSIP-MCUServers</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-464">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-464">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MCUFactoryData</p></td>
-<td><p>Este é um atributo reservado de várias cadeias de caracteres. As configurações armazenadas neste atributo são representadas como pares nome=valor. Os pares nome=valor atualmente definidos são:</p>
+<td><p><span data-ttu-id="a71f4-465">msRTCSIP-MCUFactoryData</span><span class="sxs-lookup"><span data-stu-id="a71f4-465">msRTCSIP-MCUFactoryData</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-466">Este é um atributo reservado de várias cadeias de caracteres.</span><span class="sxs-lookup"><span data-stu-id="a71f4-466">This is a multi-string reserved attribute.</span></span> <span data-ttu-id="a71f4-467">As configurações armazenadas nesse atributo são representadas como pares nome = valor.</span><span class="sxs-lookup"><span data-stu-id="a71f4-467">Settings stored in this attribute are represented as name=value pairs.</span></span> <span data-ttu-id="a71f4-468">Pares nome = valor atualmente definidos são:</span><span class="sxs-lookup"><span data-stu-id="a71f4-468">Currently defined name=value pairs are:</span></span></p>
 <ul>
-<li><p>FactoryURL = &lt;URL&gt;</p></li>
+<li><p><span data-ttu-id="a71f4-469">FactoryURL = &lt;URL&gt;</span><span class="sxs-lookup"><span data-stu-id="a71f4-469">FactoryURL = &lt;URL&gt;</span></span></p></li>
 </ul></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-470">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-470">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MCUFactoryPath</p></td>
-<td><p>Este é um atributo de valor único que contém o nome diferenciado (DN) de um único alocador de MCU associado ao pool.</p>
-<p>Vínculo sequencial: <strong>Link ID 11024</strong></p>
-<p>O vínculo inverso correspondente a este atributo de vínculo sequencial é <strong>msRTCSIP-PoolAddresses</strong>.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-471">msRTCSIP-MCUFactoryPath</span><span class="sxs-lookup"><span data-stu-id="a71f4-471">msRTCSIP-MCUFactoryPath</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-472">Esse é um atributo de valor único que contém o nome diferenciado (DN) de uma única fábrica de MCU associada a um pool.</span><span class="sxs-lookup"><span data-stu-id="a71f4-472">This is a single-valued attribute that contains the distinguished name (DN) of a single MCU factory associated with a pool.</span></span></p>
+<p><span data-ttu-id="a71f4-473">Link encaminhar: <strong>ID do link 11024</strong></span><span class="sxs-lookup"><span data-stu-id="a71f4-473">Forward link: <strong>Link ID 11024</strong></span></span></p>
+<p><span data-ttu-id="a71f4-474">O link regressivo correspondente a este atributo de link de encaminhamento é <strong>msRTCSIP-PoolAddresses</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-474">The corresponding back link to this forward link attribute is <strong>msRTCSIP-PoolAddresses</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-475">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-475">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MCUFactoryProviderID</p></td>
-<td><p>Este atributo é uma cadeia de caracteres de valor único que especifica o GUID do provedor do alocador de MCU. Com base no valor GUID, o processo do alocador de MCU determina se atenderá este tipo de MCU. Se o valor GUID for <strong>{F0810510-424F-46ef-84FE-6CC720DF1791}</strong>, o processo do alocador de MCU (disponível por padrão no Lync Server) o processará. Para qualquer outro valor GUID, o processo do alocador de MCU não atenderá o tipo de MCU.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-476">msRTCSIP-MCUFactoryProviderID</span><span class="sxs-lookup"><span data-stu-id="a71f4-476">msRTCSIP-MCUFactoryProviderID</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-477">Esse atributo é uma cadeia de caracteres com valor único que especifica o GUID do provedor de fábrica MCU.</span><span class="sxs-lookup"><span data-stu-id="a71f4-477">This attribute is a single-valued string that specifies the GUID of the MCU factory provider.</span></span> <span data-ttu-id="a71f4-478">Com base no valor GUID, o processo de fábrica do MCU determina se o tipo de MCU deve ser atendido.</span><span class="sxs-lookup"><span data-stu-id="a71f4-478">Based on the GUID value, the MCU factory process determines whether to service this MCU type.</span></span> <span data-ttu-id="a71f4-479">Se o valor GUID for <strong>{F0810510-424F-46ef-84fe-6CC720DF1791}</strong>, o processo de fábrica do MCU (disponível por padrão no Lync Server) o processará.</span><span class="sxs-lookup"><span data-stu-id="a71f4-479">If the GUID value is <strong>{F0810510-424F-46ef-84FE-6CC720DF1791}</strong>, then the MCU factory process (available by default in Lync Server) will process it.</span></span> <span data-ttu-id="a71f4-480">Para qualquer outro valor de GUID, o processo de fábrica da MCU não irá atender ao tipo de MCU.</span><span class="sxs-lookup"><span data-stu-id="a71f4-480">For any other GUID value, the MCU factory process will not service the MCU type.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-481">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-481">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MCUServers</p></td>
-<td><p>Este atributo é uma lista multivalorada de nomes diferenciados (DN). Este atributo contém uma lista de todos os servidores MCU do mesmo tipo e fornecedor associado a este alocador de MCU. O valor válido para cada segmento pode ter até 63 caracteres; o valor válido para todo o FQDN pode ter até 255 caracteres.</p>
-<p>Vínculo inverso: Link ID 11027</p>
-<p>O vínculo sequencial correspondente a este vínculo inverso é <strong>msRTCSIP-MCUFactoryAddress</strong>.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-482">msRTCSIP-MCUServers</span><span class="sxs-lookup"><span data-stu-id="a71f4-482">msRTCSIP-MCUServers</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-483">Esse atributo é uma lista com vários valores de nomes diferenciados (DN).</span><span class="sxs-lookup"><span data-stu-id="a71f4-483">This attribute is a multi-valued list of distinguished names (DN).</span></span> <span data-ttu-id="a71f4-484">Esse atributo contém uma lista de todos os servidores MCU do mesmo tipo e fornecedor associados a essa fábrica de MCU.</span><span class="sxs-lookup"><span data-stu-id="a71f4-484">This attribute contains a list of all MCU servers of the same type and vendor associated with this MCU factory.</span></span> <span data-ttu-id="a71f4-485">O valor válido para cada segmento é de 63 caracteres; o valor válido para o FQDN inteiro é de 255 caracteres.</span><span class="sxs-lookup"><span data-stu-id="a71f4-485">The valid value for each segment is 63 characters; the valid value for the entire FQDN is 255 characters.</span></span></p>
+<p><span data-ttu-id="a71f4-486">Link para trás: ID do link 11027</span><span class="sxs-lookup"><span data-stu-id="a71f4-486">Back link: Link ID 11027</span></span></p>
+<p><span data-ttu-id="a71f4-487">O link encaminhamento correspondente para esse link regressivo é <strong>msRTCSIP-MCUFactoryAddress</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-487">The corresponding forward link to this back link is <strong>msRTCSIP-MCUFactoryAddress</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-488">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-488">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MCUType</p></td>
-<td><p>Este atributo é uma cadeia de caracteres de valor único que especifica o meio que o MCU pode tratar.</p>
-<p>Os tipos válidos suportados são:</p>
+<td><p><span data-ttu-id="a71f4-489">msRTCSIP-MCUType</span><span class="sxs-lookup"><span data-stu-id="a71f4-489">msRTCSIP-MCUType</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-490">Esse atributo é uma cadeia de caracteres com valor único que especifica a mídia que a MCU pode manipular.</span><span class="sxs-lookup"><span data-stu-id="a71f4-490">This attribute is a single-valued string that specifies the medium the MCU can handle.</span></span></p>
+<p><span data-ttu-id="a71f4-491">Os tipos válidos com suporte são:</span><span class="sxs-lookup"><span data-stu-id="a71f4-491">Supported valid types are:</span></span></p>
 <ul>
-<li><p>meeting</p></li>
-<li><p>audio-video</p></li>
-<li><p>chat</p></li>
-<li><p>phone-conf</p></li>
+<li><p><span data-ttu-id="a71f4-492">reunião</span><span class="sxs-lookup"><span data-stu-id="a71f4-492">meeting</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-493">áudio-vídeo</span><span class="sxs-lookup"><span data-stu-id="a71f4-493">audio-video</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-494">chat</span><span class="sxs-lookup"><span data-stu-id="a71f4-494">chat</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-495">telefone-conf</span><span class="sxs-lookup"><span data-stu-id="a71f4-495">phone-conf</span></span></p></li>
 </ul></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-496">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-496">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MCUVendor</p></td>
-<td><p>Este atributo é uma cadeia de caracteres de valor único que especifica um nome de fornecedor de MCU. Todos os MCUs Microsoft especificarão este atributo como <strong>Microsoft Corporation</strong>.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-497">msRTCSIP-MCUVendor</span><span class="sxs-lookup"><span data-stu-id="a71f4-497">msRTCSIP-MCUVendor</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-498">Esse atributo é uma cadeia de caracteres de valor único que especifica o nome de um fornecedor de MCU.</span><span class="sxs-lookup"><span data-stu-id="a71f4-498">This attribute is a single-valued string that specifies an MCU vendor’s name.</span></span> <span data-ttu-id="a71f4-499">Todos os Microsoft MCUs especificarão esse atributo para ser <strong>Microsoft Corporation</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-499">All Microsoft MCUs will specify this attribute to be <strong>Microsoft Corporation</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-500">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-500">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MeetingFlags (obsoleto)</p></td>
-<td><p>Este atributo define diferentes opções de reunião habilitadas globalmente para todos os usuários ou objetos de contato. Este atributo é um valor de máscara de bit do tipo inteiro.</p>
-<p>Os valores válidos (e posições de bit associadas) são:</p>
+<td><p><span data-ttu-id="a71f4-501">msRTCSIP-MeetingFlags (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-501">msRTCSIP-MeetingFlags (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-502">Esse atributo define diferentes opções de reunião que são habilitadas globalmente para todos os usuários ou objetos de contato.</span><span class="sxs-lookup"><span data-stu-id="a71f4-502">This attribute defines different meeting options that are enabled globally for all users or contact objects.</span></span> <span data-ttu-id="a71f4-503">Esse atributo é um valor de máscara de bits do tipo inteiro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-503">This attribute is a bit-mask value of integer type.</span></span></p>
+<p><span data-ttu-id="a71f4-504">Os valores válidos (e posições de bit associadas) são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="a71f4-504">The valid values (and associated bit positions) are as follows:</span></span></p>
 <ul>
-<li><p>0: AllowOrganizeMeetingWithAnonymousParticipants is None (não permite que usuários convidem usuários anônimos para reuniões) (nenhum bit definido)</p></li>
-<li><p>4: AllowOrganizeMeetingWithAnonymousParticipants is Everyone (permite que todos os usuários convidem usuários anônimos para reuniões) (posição de bit 2)</p></li>
-<li><p>8: AllowOrganizeMeetingWithAnonymousParticipants is UsePerUserSetting (permite que usuários convidem usuários anônimos para reuniões com base na configuração por usuário) (posição de bit 3)</p></li>
-<li><p>16: UserPerUserMeetingPolicy (política de reunião definida por usuário) (posição de bit 4)</p></li>
+<li><p><span data-ttu-id="a71f4-505">0: AllowOrganizeMeetingWithAnonymousParticipants é nenhum (não permitir que os usuários convidem usuários anônimos para reuniões) (nenhum bit definido)</span><span class="sxs-lookup"><span data-stu-id="a71f4-505">0: AllowOrganizeMeetingWithAnonymousParticipants is None (do not allow users to invite anonymous users to meetings) (no bits set)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-506">4: o AllowOrganizeMeetingWithAnonymousParticipants é todos (permitir que todos os usuários convidem usuários anônimos para reuniões) (posição do bit 2)</span><span class="sxs-lookup"><span data-stu-id="a71f4-506">4: AllowOrganizeMeetingWithAnonymousParticipants is Everyone (allow all users to invite anonymous users to meetings) (bit position 2)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-507">8: AllowOrganizeMeetingWithAnonymousParticipants é UsePerUserSetting (permitir que os usuários convidem usuários anônimos para reuniões com base na configuração por usuário) (posição de bit 3)</span><span class="sxs-lookup"><span data-stu-id="a71f4-507">8: AllowOrganizeMeetingWithAnonymousParticipants is UsePerUserSetting (allow users to invite anonymous users to meetings based on per user setting) (bit position 3)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-508">16: UserPerUserMeetingPolicy (a política de reunião é definida por usuário) (posição 4 do bit)</span><span class="sxs-lookup"><span data-stu-id="a71f4-508">16: UserPerUserMeetingPolicy (meeting policy is defined per user) (bit position 4)</span></span></p></li>
 </ul></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-509">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-509">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-510">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-510">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MeetingPolicy (obsoleto)</p></td>
-<td><p>Este atributo especifica o nome diferenciado (DN) da política que o administrador atribuiu a este usuário como um atributo de valor único.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-511">msRTCSIP-MeetingPolicy (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-511">msRTCSIP-MeetingPolicy (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-512">Esse atributo especifica o nome diferenciado (DN) da política que o administrador atribuiu para este usuário como um atributo de valor único.</span><span class="sxs-lookup"><span data-stu-id="a71f4-512">This attribute specifies the distinguished name (DN) of the policy the administrator has assigned for this user as a single-valued attribute.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-513">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-513">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-514">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-514">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MinPresenceSubscriptionTimeout (obsoleto)</p></td>
-<td><p>Este atributo representa a janela do tempo limite mínimo de assinatura de presença.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-515">msRTCSIP-MinPresenceSubscriptionTimeout (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-515">msRTCSIP-MinPresenceSubscriptionTimeout (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-516">Esse atributo representa a janela de tempo limite de assinatura de presença mínima.</span><span class="sxs-lookup"><span data-stu-id="a71f4-516">This attribute represents the minimum presence subscription time-out window.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-517">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-517">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MinRegistrationTimeout (obsoleto)</p></td>
-<td><p>Este atributo representa a janela de tempo limite mínimo do registro.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-518">msRTCSIP-MinRegistrationTimeout (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-518">msRTCSIP-MinRegistrationTimeout (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-519">Esse atributo representa a janela de tempo limite de inscrição mínima.</span><span class="sxs-lookup"><span data-stu-id="a71f4-519">This attribute represents the minimum registration time-out window.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-520">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-520">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-521">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-521">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MinRoamingDataSubscriptionTimeout (obsoleto)</p></td>
-<td><p>Este atributo representa a janela do tempo limite mínimo da assinatura de dados de roaming.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-522">msRTCSIP-MinRoamingDataSubscriptionTimeout (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-522">msRTCSIP-MinRoamingDataSubscriptionTimeout (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-523">Esse atributo representa a janela de tempo limite de assinatura de dados de roaming mínimo.</span><span class="sxs-lookup"><span data-stu-id="a71f4-523">This attribute represents the minimum roaming data subscription time-out window.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-524">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-524">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-525">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-525">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MirrorBackEndServer</p></td>
-<td><p>Este atributo é usado para armazenar o back-end espelhado do SQL Server usado pelo Pool de Front-Ends.</p></td>
-<td><p>Novo no Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="a71f4-526">msRTCSIP-MirrorBackEndServer</span><span class="sxs-lookup"><span data-stu-id="a71f4-526">msRTCSIP-MirrorBackEndServer</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-527">Esse atributo é usado para armazenar o back-end do SQL Server espelhado usado pelo pool de front-ends.</span><span class="sxs-lookup"><span data-stu-id="a71f4-527">This attribute is used to store the mirrored SQL Server backend used by the Front End pool.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-528">Novo no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a71f4-528">New in Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MobilityFlags</p></td>
-<td><p>Este atributo contém opções e sinalizadores que definem configurações de mobilidade.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-529">msRTCSIP-MobilityFlags</span><span class="sxs-lookup"><span data-stu-id="a71f4-529">msRTCSIP-MobilityFlags</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-530">Esse atributo contém opções e sinalizadores que definem as configurações de mobilidade.</span><span class="sxs-lookup"><span data-stu-id="a71f4-530">This attribute contains options and flags that define mobility settings.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-531">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-531">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MobilityPolicy</p></td>
-<td><p>Este atributo contém o DN de um objeto de política de mobilidade.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-532">msRTCSIP-MobilityPolicy</span><span class="sxs-lookup"><span data-stu-id="a71f4-532">msRTCSIP-MobilityPolicy</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-533">Esse atributo contém o DN para um objeto de política de mobilidade.</span><span class="sxs-lookup"><span data-stu-id="a71f4-533">This attribute contains the DN for a mobility policy object.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-534">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-534">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-NumDevicesPerUser (obsoleto)</p></td>
-<td><p>Este atributo representa o número permitido de dispositivos em que um usuário pode se registrar para comunicações SIP e assinar presença.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-535">msRTCSIP-NumDevicesPerUser (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-535">msRTCSIP-NumDevicesPerUser (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-536">Esse atributo representa o número permitido de dispositivos nos quais um usuário pode se registrar para comunicações SIP e se inscrever na presença.</span><span class="sxs-lookup"><span data-stu-id="a71f4-536">This attribute represents the allowed number of devices on which a user can register for SIP communications and subscribe to presence.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-537">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-537">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-538">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-538">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-OptionFlags</p></td>
-<td><p>Este atributo especifica as opções que estão habilitadas para o usuário ou objeto de contato. Este atributo é um valor de máscara de bit do tipo inteiro. Cada opção é representada por um bit. Este atributo está marcado para a replicação do catálogo global.</p>
-<p>Os valores válidos (e posições de bit associadas) são:</p>
+<td><p><span data-ttu-id="a71f4-539">msRTCSIP-OptionFlags</span><span class="sxs-lookup"><span data-stu-id="a71f4-539">msRTCSIP-OptionFlags</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-540">Esse atributo especifica as opções que são habilitadas para o objeto de contato ou usuário.</span><span class="sxs-lookup"><span data-stu-id="a71f4-540">This attribute specifies the options that are enabled for the user or contact object.</span></span> <span data-ttu-id="a71f4-541">Esse atributo é um valor de máscara de bits do tipo inteiro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-541">This attribute is a bit-mask value of type integer.</span></span> <span data-ttu-id="a71f4-542">Cada opção é representada por um pouco.</span><span class="sxs-lookup"><span data-stu-id="a71f4-542">Each option is represented by a bit.</span></span> <span data-ttu-id="a71f4-543">Esse atributo está marcado para replicação de catálogo global.</span><span class="sxs-lookup"><span data-stu-id="a71f4-543">This attribute is marked for global catalog replication.</span></span></p>
+<p><span data-ttu-id="a71f4-544">Os valores válidos (e posições de bit associadas) são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="a71f4-544">The valid values (and associated bit positions) are as follows:</span></span></p>
 <ul>
-<li><p>1: Habilitado para conectividade com sistemas públicos de mensagens instantâneas (IM) (posição de bit 0).</p></li>
-<li><p>2: Reservado (posição de bit 1)</p></li>
-<li><p>4: Reservado (posição de bit 2)</p></li>
-<li><p>8: Reservado (posição de bit 3)</p></li>
-<li><p>16: Controle de chamadas remotas Habilitado [Telefonia] (posição de bit 4)</p></li>
-<li><p>64: AllowOrganizeMeetingWithAnonymousParticipants (permite que usuários convidem usuários anônimos para reuniões (posição de bit 6)</p></li>
-<li><p>128: UCEnabled (habilita usuários para UC) (posição de bit 7)</p></li>
-<li><p>256: EnabledForEnhancedPresence (habilita o usuários para conectividade pública com IM) (posição de bit 8)</p></li>
-<li><p>512: RemoteCallControlDualMode (posição de bit 9)</p></li>
+<li><p><span data-ttu-id="a71f4-545">1: habilitado para conectividade de mensagens instantâneas (IM) públicas (posição do bit 0)</span><span class="sxs-lookup"><span data-stu-id="a71f4-545">1: Enabled for public instant messaging (IM) connectivity (bit position 0)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-546">2: reservado (posição do bit 1)</span><span class="sxs-lookup"><span data-stu-id="a71f4-546">2: Reserved (bit position 1)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-547">4: reservado (posição do bit 2)</span><span class="sxs-lookup"><span data-stu-id="a71f4-547">4: Reserved (bit position 2)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-548">8: reservado (posição do bit 3)</span><span class="sxs-lookup"><span data-stu-id="a71f4-548">8: Reserved (bit position 3)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-549">16: controle de chamada remota habilitado [telefonia] (posição de bit 4)</span><span class="sxs-lookup"><span data-stu-id="a71f4-549">16: Remote call control Enabled [Telephony] (bit position 4)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-550">64: AllowOrganizeMeetingWithAnonymousParticipants (permite que os usuários convidem usuários anônimos para reuniões (posição de bit 6)</span><span class="sxs-lookup"><span data-stu-id="a71f4-550">64: AllowOrganizeMeetingWithAnonymousParticipants (allow users to invite anonymous users to meetings (bit position 6)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-551">128: UCEnabled (habilitar usuários para UC) (posição do bit 7)</span><span class="sxs-lookup"><span data-stu-id="a71f4-551">128: UCEnabled (enable users for UC) (bit position 7)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-552">256: EnabledForEnhancedPresence (habilitar usuário para conectividade de IM pública) (posição de bit 8)</span><span class="sxs-lookup"><span data-stu-id="a71f4-552">256: EnabledForEnhancedPresence (enable user for public IM connectivity) (bit position 8)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-553">512: RemoteCallControlDualMode (posição do bit 9)</span><span class="sxs-lookup"><span data-stu-id="a71f4-553">512: RemoteCallControlDualMode (bit position 9)</span></span></p></li>
 </ul></td>
-<td><p>Novo no Live Communications Server 2005 com SP1.</p></td>
+<td><p><span data-ttu-id="a71f4-554">Novo no Live Communications Server 2005 com SP1.</span><span class="sxs-lookup"><span data-stu-id="a71f4-554">New in Live Communications Server 2005 with SP1.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-OriginatorSID</p></td>
-<td><p>Este atributo é usado em topologias de floresta de recursos e centrais para habilitar o logon único quando um ObjectSID de um usuário da conta principal do Windows NT Server é copiado para este atributo do usuário correspondente ou objeto de contato na floresta de recursos ou central. O Communicator Web Access procura um usuário no AD DS usando este atributo ou o ObjectSID do usuário. Este atributo está marcado para replicação do catálogo global.</p></td>
+<td><p><span data-ttu-id="a71f4-555">msRTCSIP-OriginatorSID</span><span class="sxs-lookup"><span data-stu-id="a71f4-555">msRTCSIP-OriginatorSID</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-556">Esse atributo é usado em topologias de floresta central e de recursos para habilitar o logon único quando os objetos do usuário da conta principal do Windows NT Server são copiados para esse atributo do usuário ou do objeto de contato correspondente no recurso ou na floresta central.</span><span class="sxs-lookup"><span data-stu-id="a71f4-556">This attribute is used in resource and central forest topologies to enable single sign-on when a user’s ObjectSID from the Windows NT Server principal account is copied into this attribute of the corresponding user or contact object in the resource or central forest.</span></span> <span data-ttu-id="a71f4-557">O Communicator Web Access procura por um usuário no AD DS usando esse atributo ou o ObjectID do usuário.</span><span class="sxs-lookup"><span data-stu-id="a71f4-557">Communicator Web Access searches for a user in AD DS using this attribute or the user’s ObjectSID.</span></span> <span data-ttu-id="a71f4-558">Esse atributo está marcado para replicação de catálogo global.</span><span class="sxs-lookup"><span data-stu-id="a71f4-558">This attribute is marked for global catalog replication.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-OwnerUrn</p></td>
-<td><p>Este atributo é o Uniform Resource Name (URN) do proprietário de um contato de aplicativo.</p></td>
-<td><p>Novo no Lync Server 2010.</p>
-<p></p></td>
+<td><p><span data-ttu-id="a71f4-559">msRTCSIP-OwnerUrn</span><span class="sxs-lookup"><span data-stu-id="a71f4-559">msRTCSIP-OwnerUrn</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-560">Esse atributo é o nome de recurso uniforme (URN) do proprietário de um contato de aplicativo.</span><span class="sxs-lookup"><span data-stu-id="a71f4-560">This attribute is the Uniform Resource Name (URN) of the owner for an application contact.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-561">Novo no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-561">New in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-Pattern (obsoleto)</p></td>
-<td><p>Este atributo de cadeia de caracteres de valor único contém um padrão usado para comparar números de discagem no formato E.164. Se o número de discagem corresponder a este padrão, a tradução é aplicada ao número discado.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-562">msRTCSIP-padrão (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-562">msRTCSIP-Pattern (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-563">Este atributo de cadeia de caracteres de valor único contém um padrão usado para números de discagem correspondentes no formato E. 164.</span><span class="sxs-lookup"><span data-stu-id="a71f4-563">This single-valued string attribute contains a pattern used for matching dial numbers into E.164 format.</span></span> <span data-ttu-id="a71f4-564">Se o número de discagem coincidir com esse padrão, a tradução será aplicada ao número discado.</span><span class="sxs-lookup"><span data-stu-id="a71f4-564">If the dial number matches this pattern, the translation is applied to the dialed number.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-565">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-565">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-566">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-566">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-PhoneRouteBL (obsoleto)</p></td>
-<td><p>Este atributo multivalorado contém uma lista de nomes diferenciados (DN) de rota de telefone. Este atributo especifica o vínculo inverso para uma ou mais rotas de telefone.</p>
-<p>Vínculo inverso: <strong>Link ID 11033</strong></p>
-<p>Este atributo corresponde ao vínculo sequencial <strong>msRTCSIP-RouteUsageLinks</strong>.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-567">msRTCSIP-PhoneRouteBL (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-567">msRTCSIP-PhoneRouteBL (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-568">Este atributo de valores múltiplos contém uma lista de nomes distintos de rota de telefone (DN).</span><span class="sxs-lookup"><span data-stu-id="a71f4-568">This multi-valued attribute contains a list of phone route distinguished names (DN).</span></span> <span data-ttu-id="a71f4-569">Esse atributo especifica o link para trás para uma ou mais rotas de telefone.</span><span class="sxs-lookup"><span data-stu-id="a71f4-569">This attribute specifies the back link to one or more phone routes.</span></span></p>
+<p><span data-ttu-id="a71f4-570">Link para trás: <strong>ID do link 11033</strong></span><span class="sxs-lookup"><span data-stu-id="a71f4-570">Back link: <strong>Link ID 11033</strong></span></span></p>
+<p><span data-ttu-id="a71f4-571">Esse atributo corresponde ao link Forward <strong>msRTCSIP-RouteUsageLinks</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-571">This attribute corresponds to the forward link <strong>msRTCSIP-RouteUsageLinks</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-572">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-572">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-573">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-573">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-PhoneRouteData (obsoleto)</p></td>
-<td><p>Este atributo está reservado para uso futuro.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-574">msRTCSIP-PhoneRouteData (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-574">msRTCSIP-PhoneRouteData (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-575">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-575">This attribute is reserved for future use.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-576">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-576">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-PhoneRouteName (obsoleto)</p></td>
-<td><p>Este atributo de cadeia de caracteres UNICODE de valor único especifica o nome amigável da rota de telefone, para que possa ser facilmente referenciado pelo administrador.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-577">msRTCSIP-PhoneRouteName (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-577">msRTCSIP-PhoneRouteName (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-578">Esse atributo de cadeia de caracteres UNICODE de valor único especifica o nome amigável da rota do telefone, para que ele possa ser referenciado facilmente pelo administrador.</span><span class="sxs-lookup"><span data-stu-id="a71f4-578">This single valued UNICODE string attribute specifies the friendly name of the phone route, so it can easily be referenced by the administrator.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-579">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-579">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-PhoneUsageData (obsoleto)</p></td>
-<td><p>Este atributo está reservado para uso futuro.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-580">msRTCSIP-PhoneUsageData (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-580">msRTCSIP-PhoneUsageData (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-581">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-581">This attribute is reserved for future use.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-582">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-582">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-583">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-583">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-PolicyContent (obsoleto)</p></td>
-<td><p>Este atributo é uma cadeia de caracteres Unicode de valor único. Esta cadeia de caracteres contém a definição da política no formato XML. A definição de esquema XML é comum entre diferentes tipos de política, apenas as configurações são diferentes para cada um deles.</p>
-<p>A definição de esquema XML (XSD) é definida da seguinte forma:</p>
+<td><p><span data-ttu-id="a71f4-584">msRTCSIP-PolicyContent (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-584">msRTCSIP-PolicyContent (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-585">Esse atributo é uma cadeia de caracteres Unicode com um único valor.</span><span class="sxs-lookup"><span data-stu-id="a71f4-585">This attribute is a single-valued Unicode string.</span></span> <span data-ttu-id="a71f4-586">Este atributo de cadeia de caracteres contém a definição de política no formato XML.</span><span class="sxs-lookup"><span data-stu-id="a71f4-586">This string attribute contains the policy definition in XML format.</span></span> <span data-ttu-id="a71f4-587">A definição do esquema XML é comum em diferentes tipos de política, apenas as configurações são diferentes para cada tipo de política.</span><span class="sxs-lookup"><span data-stu-id="a71f4-587">The XML schema definition is common across different policy types, only the settings are different for each policy type.</span></span></p>
+<p><span data-ttu-id="a71f4-588">A definição de esquema XML (XSD) é definida da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="a71f4-588">The XML schema definition (XSD) is defined as follows:</span></span></p>
 <pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;xs:schema id=&quot;instance&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
   &lt;xs:element name=&quot;instance&quot; msdata:IsDataSet=&quot;true&quot;&gt;
@@ -697,453 +720,458 @@ Alguns atributos possuem um valor de máscara de bit. Para estes atributos, cada
     &lt;/xs:complexType&gt;
   &lt;/xs:element&gt;
 &lt;/xs:schema&gt;</code></pre></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-589">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-589">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-590">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-590">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-PolicyData (obsoleto)</p></td>
-<td><p>Este atributo está reservado para uso futuro.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-591">msRTCSIP-PolicyData (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-591">msRTCSIP-PolicyData (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-592">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-592">This attribute is reserved for future use.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-593">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-593">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-594">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-594">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-PolicyType (obsoleto)</p></td>
-<td><p>Este atributo de cadeia de caracteres Unicode de valor único contém o tipo de política. Tipos de política válidos são:</p>
+<td><p><span data-ttu-id="a71f4-595">msRTCSIP-PolicyType (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-595">msRTCSIP-PolicyType (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-596">Esse atributo de cadeia de caracteres Unicode com valor único contém o tipo de política.</span><span class="sxs-lookup"><span data-stu-id="a71f4-596">This single-valued Unicode string attribute contains the policy type.</span></span> <span data-ttu-id="a71f4-597">Os tipos de política válidos são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="a71f4-597">Valid policy types are as follows:</span></span></p>
 <ul>
-<li><p>reunião</p></li>
-<li><p>telefonia</p></li>
+<li><p><span data-ttu-id="a71f4-598">reunião</span><span class="sxs-lookup"><span data-stu-id="a71f4-598">meeting</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-599">telefonia</span><span class="sxs-lookup"><span data-stu-id="a71f4-599">telephony</span></span></p></li>
 </ul></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-600">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-600">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-601">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-601">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-PoolAddress</p></td>
-<td><p>Este atributo especifica um link de volta ao pool ao qual um computador pertence. Este atributo é definido independente de o computador estar executando a Standard Edition ou a Enterprise Edition do Lync Server. Este atributo está marcado para replicação do catálogo global.</p>
-<p>O valor válido é o nome do domínio do pool.</p>
-<p>Vínculo sequencial: <strong>Link ID 11022</strong></p>
-<p>O vínculo inverso correspondente a este atributo de vínculo sequencial é <strong>msRTCSIP-FrontEndServers</strong>.</p></td>
-<td><p>Novo no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-602">msRTCSIP-PoolAddress</span><span class="sxs-lookup"><span data-stu-id="a71f4-602">msRTCSIP-PoolAddress</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-603">Esse atributo especifica um link de volta para o pool ao qual um computador pertence.</span><span class="sxs-lookup"><span data-stu-id="a71f4-603">This attribute specifies a link back to the pool to which a computer belongs.</span></span> <span data-ttu-id="a71f4-604">Esse atributo é definido independentemente de o computador estar executando a edição Standard ou Enterprise do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a71f4-604">This attribute is set regardless of whether the computer is running the Standard Edition or the Enterprise Edition of Lync Server.</span></span> <span data-ttu-id="a71f4-605">Esse atributo está marcado para replicação de catálogo global.</span><span class="sxs-lookup"><span data-stu-id="a71f4-605">This attribute is marked for global catalog replication.</span></span></p>
+<p><span data-ttu-id="a71f4-606">O valor válido é o nome de domínio do pool.</span><span class="sxs-lookup"><span data-stu-id="a71f4-606">The valid value is the domain name of the pool.</span></span></p>
+<p><span data-ttu-id="a71f4-607">Link encaminhar: <strong>ID do link 11022</strong></span><span class="sxs-lookup"><span data-stu-id="a71f4-607">Forward link: <strong>Link ID 11022</strong></span></span></p>
+<p><span data-ttu-id="a71f4-608">O link regressivo correspondente a este atributo de link de encaminhamento é <strong>msRTCSIP-FrontEndServers</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-608">The corresponding back link to this forward link attribute is <strong>msRTCSIP-FrontEndServers</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-609">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-609">New in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-PoolAddresses</p></td>
-<td><p>Este é um atributo multivalorado que contém uma lista dos nomes diferenciados (DN) de pools com os quais o alocador de MCU está associado.</p>
-<p>Vínculo inverso: <strong>Link ID 11025</strong></p>
-<p>O vínculo sequencial correspondente a este vínculo inverso é <strong>msRTCSIP-MCUFactoryPath</strong>.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-610">msRTCSIP-PoolAddresses</span><span class="sxs-lookup"><span data-stu-id="a71f4-610">msRTCSIP-PoolAddresses</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-611">Esse é um atributo de valores múltiplos que contém uma lista de nomes diferenciados (DN) de pools com os quais a fábrica do MCU está associada.</span><span class="sxs-lookup"><span data-stu-id="a71f4-611">This is a multi-valued attribute that contains a list of the distinguished names (DN) of pools with which the MCU factory is associated.</span></span></p>
+<p><span data-ttu-id="a71f4-612">Link para trás: <strong>ID do link 11025</strong></span><span class="sxs-lookup"><span data-stu-id="a71f4-612">Back link: <strong>Link ID 11025</strong></span></span></p>
+<p><span data-ttu-id="a71f4-613">O link encaminhamento correspondente para esse link regressivo é <strong>msRTCSIP-MCUFactoryPath</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-613">The corresponding forward link to this back link is <strong>msRTCSIP-MCUFactoryPath</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-614">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-614">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-PoolData</p></td>
-<td><p>Este atributo está reservado para uso futuro.</p></td>
-<td><p>Novo no Live Communications Server 2005 com SP1.</p></td>
+<td><p><span data-ttu-id="a71f4-615">msRTCSIP-PoolData</span><span class="sxs-lookup"><span data-stu-id="a71f4-615">msRTCSIP-PoolData</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-616">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-616">This attribute is reserved for future use.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-617">Novo no Live Communications Server 2005 com SP1.</span><span class="sxs-lookup"><span data-stu-id="a71f4-617">New in Live Communications Server 2005 with SP1.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-PoolDisplayName</p></td>
-<td><p>Este atributo especifica um nome arbitrário para um pool que é exibido no console de gerenciamento. Este nome pode ser alterado pelo administrador.</p>
-<p>O valor válido é uma cadeia de caracteres que representa o nome de um pool.</p></td>
-<td><p>Novo no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-618">msRTCSIP-PoolDisplayName</span><span class="sxs-lookup"><span data-stu-id="a71f4-618">msRTCSIP-PoolDisplayName</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-619">Esse atributo especifica um nome arbitrário para um pool que é exibido pelo console de gerenciamento.</span><span class="sxs-lookup"><span data-stu-id="a71f4-619">This attribute specifies an arbitrary name for a pool that is displayed by the management console.</span></span> <span data-ttu-id="a71f4-620">Esse nome pode ser alterado pelo administrador.</span><span class="sxs-lookup"><span data-stu-id="a71f4-620">This name can be changed by the administrator.</span></span></p>
+<p><span data-ttu-id="a71f4-621">O valor válido é uma cadeia de caracteres que representa o nome de um pool.</span><span class="sxs-lookup"><span data-stu-id="a71f4-621">The valid value is a string representing the name of a pool.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-622">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-622">New in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-PoolDomainFQDN</p></td>
-<td><p>Este atributo é um valor de cadeia de caracteres de valor único. O valor deste atributo, quando presente, representa o FQDN do domínio do pool, se o administrador quiser criar um pool de Front End com um FQDN que não esteja de acordo com a estrutura de domínio do Active Directory em que o pool de Front End foi criado (por exemplo, um namespace SIP retirado do namespace do Sistema de Nomes de Domínio (DNS)).</p>
-<p>É recomendável que você mapeie o FQDN do domínio do pool de Front End para a parte do nome de domínio como o domínio do Active Directory em que o pool está hospedado. Portanto, quando nenhum valor estiver presente neste atributo, o FQDN do pool de Front End terá, por padrão, a estrutura de nome de domínio do Active Directory, conforme representado pelo atributo <strong>dnsHostName</strong>.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-623">msRTCSIP-PoolDomainFQDN</span><span class="sxs-lookup"><span data-stu-id="a71f4-623">msRTCSIP-PoolDomainFQDN</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-624">Esse atributo é um valor de cadeia de caracteres de valor único.</span><span class="sxs-lookup"><span data-stu-id="a71f4-624">This attribute is a single-valued string value.</span></span> <span data-ttu-id="a71f4-625">O valor desse atributo, quando presente, representa o FQDN do domínio do pool se o administrador quiser criar um pool de front-end com um FQDN que não esteja em conformidade com a estrutura de domínio do Active Directory na qual o pool de front-ends é criado (por exemplo, um SIP namespace desincluído do namespace DNS (sistema de nomes de domínio)).</span><span class="sxs-lookup"><span data-stu-id="a71f4-625">The value of this attribute, when present, represents the pool’s domain FQDN if the administrator wants to create a Front End pool with an FQDN that does not conform to the Active Directory domain structure in which the Front End pool is created (for example, a SIP namespace disjoined from Domain Name System (DNS) namespace).</span></span></p>
+<p><span data-ttu-id="a71f4-626">Recomendamos que você mapeie o FQDN do domínio do pool de front-end para a parte do nome do domínio como o domínio do Active Directory no qual o pool reside.</span><span class="sxs-lookup"><span data-stu-id="a71f4-626">We recommend that you map the Front End pool domain FQDN to the domain name portion as the Active Directory domain in which the pool resides.</span></span> <span data-ttu-id="a71f4-627">Portanto, quando nenhum valor estiver presente nesse atributo, o FQDN do pool de front-end usará como padrão a estrutura de nomes de domínio do Active Directory, como indicado pelo atributo <strong>dNSHostName</strong> .</span><span class="sxs-lookup"><span data-stu-id="a71f4-627">Therefore, when no value is present in this attribute, the Front End pool FQDN will default to the Active Directory domain name structure, as denoted by the <strong>dnsHostName</strong> attribute.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-628">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-628">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-PoolFunctionality</p></td>
-<td><p>Uma lista multivalorada de nomes de domínio de todos os servidores Lync Server Enterprise Edition associados a um pool. Este atributo do tipo inteiro define se o pool está habilitado para sistemas de mensagem instantânea (IM), presença e reuniões.</p>
-<p>Os tipos de valores válidos possíveis são:</p>
+<td><p><span data-ttu-id="a71f4-629">msRTCSIP-PoolFunctionality</span><span class="sxs-lookup"><span data-stu-id="a71f4-629">msRTCSIP-PoolFunctionality</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-630">Uma lista de vários valores de todos os nomes de domínio de todos os servidores do Lync Server, Enterprise Edition associados a um pool.</span><span class="sxs-lookup"><span data-stu-id="a71f4-630">A multi-valued list of the domain names of all Lync Server, Enterprise Edition servers associated with a pool.</span></span> <span data-ttu-id="a71f4-631">Esse atributo do tipo Integer define se o pool é capaz de enviar mensagens instantâneas (IM) e presença e reuniões.</span><span class="sxs-lookup"><span data-stu-id="a71f4-631">This attribute of type integer defines whether the pool is capable of instant messaging (IM) and presence, and meetings.</span></span></p>
+<p><span data-ttu-id="a71f4-632">Os possíveis tipos de valor válidos são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="a71f4-632">The possible valid value types are as follows:</span></span></p>
 <ul>
-<li><p>Indefinido: IM e Serviço de Presença (Live Communications Server 2005 e 2003)</p></li>
-<li><p>1: IM e Serviço de Presença (Lync Server)</p></li>
-<li><p>2: IM, Serviço de Presença e Serviço de Reunião (Lync Server)</p></li>
+<li><p><span data-ttu-id="a71f4-633">Indefinido: serviço de mensagem instantânea e de presença (Live Communications Server 2005 e 2003)</span><span class="sxs-lookup"><span data-stu-id="a71f4-633">Undefined: IM and Presence Service (Live Communications Server 2005 and 2003)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-634">1: serviço de mensagem instantânea e de presença (Lync Server)</span><span class="sxs-lookup"><span data-stu-id="a71f4-634">1: IM and Presence Service (Lync Server)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-635">2: mensagens de chat e presença e serviço de reunião (Lync Server)</span><span class="sxs-lookup"><span data-stu-id="a71f4-635">2: IM and Presence and Meeting Service (Lync Server)</span></span></p></li>
 </ul></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-636">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-636">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-PoolType</p></td>
-<td><p>Este atributo especifica se um pool de servidores está executando o servidor Standard Edition ou o Enterprise Edition. Este atributo é um valor de máscara de bit do tipo inteiro. Cada opção é representada por um bit.</p>
-<p>Os valores válidos (e posições de bit associadas) são:</p>
+<td><p><span data-ttu-id="a71f4-637">msRTCSIP-Pooltype</span><span class="sxs-lookup"><span data-stu-id="a71f4-637">msRTCSIP-PoolType</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-638">Esse atributo especifica se um pool de servidores está executando o Standard Edition Server ou o Enterprise Edition Server.</span><span class="sxs-lookup"><span data-stu-id="a71f4-638">This attribute specifies whether a server pool is running Standard Edition server or Enterprise Edition server.</span></span> <span data-ttu-id="a71f4-639">Esse atributo é um valor de máscara de bits do tipo inteiro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-639">This attribute is a bit-mask value of type integer.</span></span> <span data-ttu-id="a71f4-640">Cada opção é representada por um pouco.</span><span class="sxs-lookup"><span data-stu-id="a71f4-640">Each option is represented by a bit.</span></span></p>
+<p><span data-ttu-id="a71f4-641">Os valores válidos (e posições de bit associadas) são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="a71f4-641">The valid values (and associated bit positions) are as follows:</span></span></p>
 <ul>
-<li><p>1: Servidor Standard Edition, hospeda usuários (posição de bit 0)</p></li>
-<li><p>2: Servidor Enterprise Edition, hospeda usuários (posição de bit 1)</p></li>
-<li><p>4: Servidor Standard Edition, hospeda aplicativos (posição de bit 2)</p></li>
-<li><p>8: Servidor Enterprise Edition, hospeda aplicativos (posição de bit 3)</p></li>
+<li><p><span data-ttu-id="a71f4-642">1: servidor de edição padrão, usuários de host (posição do bit 0)</span><span class="sxs-lookup"><span data-stu-id="a71f4-642">1: Standard Edition server, hosts users (bit position 0)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-643">2: Enterprise Edition Server, usuários de host (posição de bit 1)</span><span class="sxs-lookup"><span data-stu-id="a71f4-643">2: Enterprise Edition server, hosts users (bit position 1)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-644">4: servidor Standard Edition, aplicativos de host (posição 2 do bit)</span><span class="sxs-lookup"><span data-stu-id="a71f4-644">4: Standard Edition server, hosts applications (bit position 2)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-645">8: Enterprise Edition Server, aplicativos de host (posição de bit 3)</span><span class="sxs-lookup"><span data-stu-id="a71f4-645">8: Enterprise Edition server, hosts applications (bit position 3)</span></span></p></li>
 </ul>
-<p>Como o Lync Server não suporta pools que armazenam apenas aplicativos, os únicos valores válidos são:</p>
+<p><span data-ttu-id="a71f4-646">Como o Lync Server não oferece suporte a pools que hospedam apenas aplicativos, os únicos valores válidos são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="a71f4-646">Because Lync Server does not support pools that host only applications, the only valid values are as follows:</span></span></p>
 <ul>
-<li><p>5: Servidor Standard Edition, hospeda usuários e aplicativos (posições de bit 0 e 2)</p></li>
-<li><p>10: Servidor Enterprise Edition, hospeda usuários e aplicativos (posições de bit 1 e 3)</p></li>
+<li><p><span data-ttu-id="a71f4-647">5: servidor Standard Edition, hospeda usuários e aplicativos (posições de bit 0 e 2)</span><span class="sxs-lookup"><span data-stu-id="a71f4-647">5: Standard Edition server, hosts users and applications (bit positions 0 and 2)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-648">10: Enterprise Edition Server, hospeda usuários e aplicativos (posições de bit 1 e 3)</span><span class="sxs-lookup"><span data-stu-id="a71f4-648">10: Enterprise Edition server, hosts users and applications (bit positions 1 and 3)</span></span></p></li>
 </ul></td>
-<td><p>Novo no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-649">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-649">New in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-PoolVersion</p></td>
-<td><p>Este atributo define a versão do pool. É um tipo inteiro incrementado de acordo com cada lançamento de produto principal.</p>
-<p>Os tipos de valores válidos possíveis são:</p>
+<td><p><span data-ttu-id="a71f4-650">msRTCSIP-PoolVersion</span><span class="sxs-lookup"><span data-stu-id="a71f4-650">msRTCSIP-PoolVersion</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-651">Esse atributo define a versão do pool.</span><span class="sxs-lookup"><span data-stu-id="a71f4-651">This attribute defines the pool version.</span></span> <span data-ttu-id="a71f4-652">É um tipo de inteiro que é incrementado com cada lançamento de produto principal.</span><span class="sxs-lookup"><span data-stu-id="a71f4-652">It is an integer type that is incremented with each major product release.</span></span></p>
+<p><span data-ttu-id="a71f4-653">Os possíveis tipos de valor válidos são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="a71f4-653">The possible valid value types are as follows:</span></span></p>
 <ul>
-<li><p>0: Live Communications Server 2003</p></li>
-<li><p>1: Live Communications Server 2005</p></li>
-<li><p>2: Live Communications Server 2005 com SP1</p></li>
-<li><p>3: Office Communications Server 2007</p></li>
-<li><p>4: Office Communications Server 2007 R2</p></li>
-<li><p>5: Lync Server 2010</p></li>
+<li><p><span data-ttu-id="a71f4-654">0: Live Communications Server 2003</span><span class="sxs-lookup"><span data-stu-id="a71f4-654">0: Live Communications Server 2003</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-655">1: Live Communications Server 2005</span><span class="sxs-lookup"><span data-stu-id="a71f4-655">1: Live Communications Server 2005</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-656">2: Live Communications Server 2005 com SP1</span><span class="sxs-lookup"><span data-stu-id="a71f4-656">2: Live Communications Server 2005 with SP1</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-657">3: Office Communications Server 2007</span><span class="sxs-lookup"><span data-stu-id="a71f4-657">3: Office Communications Server 2007</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-658">4: Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="a71f4-658">4: Office Communications Server 2007 R2</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-659">5: Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="a71f4-659">5: Lync Server 2010</span></span></p></li>
 </ul></td>
-<td><p>Live Communications Server 2005 com SP1.</p></td>
+<td><p><span data-ttu-id="a71f4-660">Live Communications Server 2005 com SP1.</span><span class="sxs-lookup"><span data-stu-id="a71f4-660">Live Communications Server 2005 with SP1.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-PresenceFlags</p></td>
-<td><p>Este atributo contém opções e sinalizadores que definem configurações de presença.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-661">msRTCSIP-PresenceFlags</span><span class="sxs-lookup"><span data-stu-id="a71f4-661">msRTCSIP-PresenceFlags</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-662">Esse atributo contém opções e sinalizadores que definem as configurações de presença.</span><span class="sxs-lookup"><span data-stu-id="a71f4-662">This attribute contains options and flags that define presence settings.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-663">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-663">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-PresencePolicy</p></td>
-<td><p>Este atributo contém o DN para um objeto de política de presença.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-664">msRTCSIP-PresencePolicy</span><span class="sxs-lookup"><span data-stu-id="a71f4-664">msRTCSIP-PresencePolicy</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-665">Esse atributo contém o DN para um objeto de política de presença.</span><span class="sxs-lookup"><span data-stu-id="a71f4-665">This attribute contains the DN for a presence policy object.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-666">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-666">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-PrimaryHomeServer</p></td>
-<td><p>Este atributo habilita um usuário ou contato para o sistema de mensagens SIP. Ele é adicionado à classe de contato porque na topologia de floresta central, objetos de contato, não objetos de usuário, são habilitados para SIP.</p>
-<p>O valor válido é o DN do servidor Standard Edition ou pool de Front End do Enterprise Edition onde um usuário está hospedado.</p></td>
-<td><p>Novo no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-667">msRTCSIP-PrimaryHomeServer</span><span class="sxs-lookup"><span data-stu-id="a71f4-667">msRTCSIP-PrimaryHomeServer</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-668">Esse atributo habilita um usuário ou contato para mensagens SIP.</span><span class="sxs-lookup"><span data-stu-id="a71f4-668">This attribute enables a user or contact for SIP messaging.</span></span> <span data-ttu-id="a71f4-669">Ele é adicionado à classe Contact porque, na topologia de floresta central, objetos de contato, não objetos de usuário, estão habilitados para SIP.</span><span class="sxs-lookup"><span data-stu-id="a71f4-669">It is added to the contact class because in the central forest topology, contact objects, not user objects, are SIP enabled.</span></span></p>
+<p><span data-ttu-id="a71f4-670">O valor válido é o DN do servidor Standard Edition ou do pool Front-end da edição Enterprise onde um usuário é hospedado.</span><span class="sxs-lookup"><span data-stu-id="a71f4-670">The valid value is the DN of the Standard Edition server or Enterprise Edition Front End pool where a user is homed.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-671">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-671">New in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-PrimaryUserAddress</p></td>
-<td><p>Este atributo contém o endereço SIP de um determinado usuário.</p></td>
+<td><p><span data-ttu-id="a71f4-672">msRTCSIP-PrimaryUserAddress</span><span class="sxs-lookup"><span data-stu-id="a71f4-672">msRTCSIP-PrimaryUserAddress</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-673">Esse atributo contém o endereço SIP de um determinado usuário.</span><span class="sxs-lookup"><span data-stu-id="a71f4-673">This attribute contains the SIP address of a given user.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-PrivateLine</p></td>
-<td><p>Este atributo contém o ID do dispositivo de linha privada.</p></td>
-<td><p>Novo no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-674">msRTCSIP-privado</span><span class="sxs-lookup"><span data-stu-id="a71f4-674">msRTCSIP-PrivateLine</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-675">Esse atributo contém a ID do dispositivo de linha particular.</span><span class="sxs-lookup"><span data-stu-id="a71f4-675">This attribute contains the device ID of the private line device.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-676">Novo no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-676">New in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Routable</p></td>
-<td><p>Este é um atributo booleano usado para determinar se o Lync Server está autorizado a rotear para este serviço usando seu endereço GRUU. Se este valor estiver definido como <strong>TRUE</strong>, o Lync Server está autorizado a rotear para este serviço. Se estiver definido como <strong>FALSE</strong>, o Lync Server não está autorizado.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-677">msRTCSIP-roteável</span><span class="sxs-lookup"><span data-stu-id="a71f4-677">msRTCSIP-Routable</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-678">Esse atributo é um atributo booliano usado para determinar se o Lync Server está autorizado a direcionar para esse serviço usando seu endereço GRUU.</span><span class="sxs-lookup"><span data-stu-id="a71f4-678">This attribute is a Boolean attribute used to determine whether Lync Server is authorized to route to this service using its GRUU address.</span></span> <span data-ttu-id="a71f4-679">Se esse valor for definido como <strong>true</strong>, o Lync Server estará autorizado a direcionar para esse serviço.</span><span class="sxs-lookup"><span data-stu-id="a71f4-679">If this value is set to <strong>TRUE</strong>, Lync Server is authorized to route to this service.</span></span> <span data-ttu-id="a71f4-680">Se esse valor for definido como <strong>false</strong>, o Lync Server não será autorizado a encaminhar para esse serviço.</span><span class="sxs-lookup"><span data-stu-id="a71f4-680">If this value is set to <strong>FALSE</strong>, Lync Server is not authorized to route to this service.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-681">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-681">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-RouteUsageAttribute (obsoleto)</p></td>
-<td><p>Este atributo de cadeia de caracteres UNICODE de valor único define um atributo que qualifica a utilização para uma rota de telefone. A seleção de uma rota de telefone é determinada com base em dois elementos: o atributo de uso atribuído à rota de telefone e os atributos de uso da política permitida ao chamador. A primeira rota de telefone com um atributo de uso que corresponde à utilização permitida ao chamador é selecionada.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-682">msRTCSIP-RouteUsageAttribute (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-682">msRTCSIP-RouteUsageAttribute (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-683">Este atributo de cadeia de caracteres UNICODE com valor único define um atributo que qualifica o uso de uma rota telefônica.</span><span class="sxs-lookup"><span data-stu-id="a71f4-683">This single-valued UNICODE string attribute defines an attribute that qualifies the usage for a phone route.</span></span> <span data-ttu-id="a71f4-684">A seleção de uma rota telefônica é determinada com base em dois elementos: o atributo Usage atribuído à rota do telefone e os atributos de uso da política permitidos do chamador.</span><span class="sxs-lookup"><span data-stu-id="a71f4-684">Selection of a phone route is determined based on two elements: the usage attribute assigned to the phone route and the caller’s allowed policy usage attributes.</span></span> <span data-ttu-id="a71f4-685">A primeira rota telefônica com um atributo Usage que corresponda ao uso permitido pelo chamador está selecionada.</span><span class="sxs-lookup"><span data-stu-id="a71f4-685">The first phone route with a usage attribute that matches the caller’s allowed usage is selected.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-686">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-686">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-687">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-687">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-RouteUsageLinks (obsoleto)</p></td>
-<td><p>Este atributo de nome diferenciado (DN) multivalorado contém uma lista de nomes diferenciados de uso de rota.</p>
-<p>Vínculo sequencial: <strong>Link ID 11032</strong></p>
-<p>Este atributo é um vínculo sequencial para o vínculo inverso correspondente <strong>msRTCSIP-PhoneRouteBL</strong>.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p>
-<p></p></td>
+<td><p><span data-ttu-id="a71f4-688">msRTCSIP-RouteUsageLinks (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-688">msRTCSIP-RouteUsageLinks (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-689">Este atributo de nome diferenciado (DN) contém uma lista de nomes diferenciados de uso de rota.</span><span class="sxs-lookup"><span data-stu-id="a71f4-689">This multi-valued distinguished name (DN) attribute contains a list of route usage distinguished names.</span></span></p>
+<p><span data-ttu-id="a71f4-690">Link encaminhar: <strong>ID do link 11032</strong></span><span class="sxs-lookup"><span data-stu-id="a71f4-690">Forward link: <strong>Link ID 11032</strong></span></span></p>
+<p><span data-ttu-id="a71f4-691">Esse atributo é um link de encaminhamento para o link regressivo correspondente <strong>msRTCSIP-PhoneRouteBL</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-691">This attribute is a forward link to the corresponding back link <strong>msRTCSIP-PhoneRouteBL</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-692">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-692">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-RoutingPoolDN</p></td>
-<td><p>Este atributo contém o DN que aponta para o pool através do qual todo o tráfego SIP endereçado a este MCU ou Serviço Confiável deve passar.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-693">msRTCSIP-RoutingPoolDN</span><span class="sxs-lookup"><span data-stu-id="a71f4-693">msRTCSIP-RoutingPoolDN</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-694">Esse atributo contém o DN que aponta para o pool que todo o tráfego SIP endereçado a essa MCU ou serviço confiável deve passar.</span><span class="sxs-lookup"><span data-stu-id="a71f4-694">This attribute contains the DN that points to the pool that all SIP traffic addressed to this MCU or Trusted Service must go through.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-695">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-695">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-RuleName (obsoleto)</p></td>
-<td><p>Este atributo de cadeia de caracteres UNICODE de valor único especifica o nome amigável da regra de normalização, para que possa ser facilmente referenciada por um administrador.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-696">msRTCSIP-RuleName (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-696">msRTCSIP-RuleName (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-697">Esse atributo de cadeia de caracteres UNICODE com valor único especifica o nome amigável da regra de normalização para que possa ser referenciado facilmente por um administrador.</span><span class="sxs-lookup"><span data-stu-id="a71f4-697">This single-valued UNICODE string attribute specifies the friendly name of the normalization rule, so it can easily be referenced by an administrator.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-698">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-698">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-699">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-699">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-SchemaVersion</p></td>
-<td><p>Este atributo representa a versão do esquema atualmente implantada na organização.</p></td>
+<td><p><span data-ttu-id="a71f4-700">msRTCSIP-SchemaVersion</span><span class="sxs-lookup"><span data-stu-id="a71f4-700">msRTCSIP-SchemaVersion</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-701">Esse atributo representa a versão do esquema atualmente implantada na organização.</span><span class="sxs-lookup"><span data-stu-id="a71f4-701">This attribute represents the schema version currently deployed in the organization.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-SearchMaxRequests (obsoleto)</p></td>
-<td><p>Este atributo limita o número de resultados de pesquisa retornados a partir de uma pesquisa de diretório, quando um usuário busca um contato usando o Communicator. Este atributo substituirá o valor fornecido pelo cliente.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p>
-<p></p></td>
+<td><p><span data-ttu-id="a71f4-702">msRTCSIP-SearchMaxRequests (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-702">msRTCSIP-SearchMaxRequests (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-703">Esse atributo limita o número de resultados da pesquisa a ser retornado de uma pesquisa de diretório quando um usuário pesquisa um contato usando o Communicator.</span><span class="sxs-lookup"><span data-stu-id="a71f4-703">This attribute limits the number of search results to be returned from a directory search when a user searches for a contact using Communicator.</span></span> <span data-ttu-id="a71f4-704">Esse atributo irá substituir o valor fornecido pelo cliente.</span><span class="sxs-lookup"><span data-stu-id="a71f4-704">This attribute will override the value provided by the client.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-705">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-705">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-SearchMaxResults (obsoleto)</p></td>
-<td><p>Este atributo limita o número de solicitações de pesquisa retornadas.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-706">msRTCSIP-SearchMaxResults (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-706">msRTCSIP-SearchMaxResults (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-707">Esse atributo limita o número de solicitações de pesquisa retornadas.</span><span class="sxs-lookup"><span data-stu-id="a71f4-707">This attribute limits the number of search requests returned.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-708">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-708">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ServerBL</p></td>
-<td><p>Este atributo multivalorado é um vínculo inverso que contém uma lista de nomes diferenciados (DN). Estes DNs apontam para um pool ou objeto <strong>TrustedService</strong>.</p>
-<p>Este atributo corresponde ao vínculo sequencial <strong>msRTCSIP-TrustedServiceLinks</strong>.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-709">msRTCSIP-ServerBL</span><span class="sxs-lookup"><span data-stu-id="a71f4-709">msRTCSIP-ServerBL</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-710">Este atributo de valores múltiplos é um link regressivo que contém uma lista de nomes diferenciados (DN).</span><span class="sxs-lookup"><span data-stu-id="a71f4-710">This multi-valued attribute is a back link that contains a list of distinguished names (DN).</span></span> <span data-ttu-id="a71f4-711">Este DNs aponta para um objeto de pool ou <strong>TrustedService</strong> .</span><span class="sxs-lookup"><span data-stu-id="a71f4-711">These DNs point to a pool or <strong>TrustedService</strong> object.</span></span></p>
+<p><span data-ttu-id="a71f4-712">Esse atributo corresponde ao link Forward <strong>msRTCSIP-TrustedServiceLinks</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-712">This attribute corresponds to the forward link <strong>msRTCSIP-TrustedServiceLinks</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-713">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-713">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ServerData</p></td>
-<td><p>Este atributo está reservado para uso futuro.</p></td>
+<td><p><span data-ttu-id="a71f4-714">msRTCSIP-ServerData</span><span class="sxs-lookup"><span data-stu-id="a71f4-714">msRTCSIP-ServerData</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-715">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-715">This attribute is reserved for future use.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ServerReferenceBL (obsoleto)</p></td>
-<td><p>Este atributo multivalorado contém uma lista de nomes diferenciados. Estes nomes são vínculos inversos que referenciam outros objetos de servidor que podem ser atribuídos a um perfil de localidade padrão.</p>
-<p>Vínculo inverso: <strong>Link ID 11037</strong></p>
-<p>O vínculo sequencial correspondente a este vínculo inverso é <strong>msRTCSIP-DefaultLocationProfileLink</strong>.</p>
-<p>Este atributo de vínculo inverso referencia somente pools e Servidores de Mediação.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-716">msRTCSIP-ServerReferenceBL (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-716">msRTCSIP-ServerReferenceBL (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-717">Esse atributo de valores múltiplos contém uma lista de nomes distintos.</span><span class="sxs-lookup"><span data-stu-id="a71f4-717">This multi-valued attribute contains a list of distinguished names.</span></span> <span data-ttu-id="a71f4-718">Esses nomes diferenciados são links de volta que fazem referência a outros objetos do servidor que podem ser atribuídos a um perfil de local padrão.</span><span class="sxs-lookup"><span data-stu-id="a71f4-718">These distinguished names are back links that reference other server objects that can be assigned a default location profile.</span></span></p>
+<p><span data-ttu-id="a71f4-719">Link para trás: <strong>ID do link 11037</strong></span><span class="sxs-lookup"><span data-stu-id="a71f4-719">Back link: <strong>Link ID 11037</strong></span></span></p>
+<p><span data-ttu-id="a71f4-720">O link encaminhamento correspondente para esse link regressivo é <strong>msRTCSIP-DefaultLocationProfileLink</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-720">The corresponding forward link to this back link is <strong>msRTCSIP-DefaultLocationProfileLink</strong>.</span></span></p>
+<p><span data-ttu-id="a71f4-721">Este atributo back link faz referência a pools e somente servidores de mediação.</span><span class="sxs-lookup"><span data-stu-id="a71f4-721">This back link attribute references pools and Mediation Servers only.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-722">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-722">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-723">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-723">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ServerVersion</p></td>
-<td><p>Este atributo define as informações de versão do servidor. Este número de versão aplica-se a todas as funções de servidor. É um inteiro de crescimento lento que aumenta a cada lançamento de produto oficial.</p>
-<p>Os valores válidos possíveis são:</p>
+<td><p><span data-ttu-id="a71f4-724">msRTCSIP-ServerVersion</span><span class="sxs-lookup"><span data-stu-id="a71f4-724">msRTCSIP-ServerVersion</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-725">Esse atributo define as informações sobre a versão do servidor.</span><span class="sxs-lookup"><span data-stu-id="a71f4-725">This attribute defines the version information of the server.</span></span> <span data-ttu-id="a71f4-726">Este número de versão se aplica a todas as funções de servidor.</span><span class="sxs-lookup"><span data-stu-id="a71f4-726">This version number applies to all server roles.</span></span> <span data-ttu-id="a71f4-727">É um número inteiro monotonously que aumenta em incrementos com cada lançamento oficial do produto.</span><span class="sxs-lookup"><span data-stu-id="a71f4-727">It is a monotonously increasing integer that increments with each official product release.</span></span></p>
+<p><span data-ttu-id="a71f4-728">Os valores válidos possíveis são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="a71f4-728">The possible valid values are as follows:</span></span></p>
 <ul>
-<li><p>Indefinido: Live Communications Server 2003</p>
-<p>                 Live Communications Server 2005</p>
-<p>                 Live Communications Server 2005 com SP1</p></li>
-<li><p>3: Office Communications Server 2007</p></li>
-<li><p>4: Office Communications Server 2007 R2</p></li>
-<li><p>5: Lync Server 2010</p></li>
-<li><p>6: Lync Server 2013</p></li>
+<li><p><span data-ttu-id="a71f4-729">Indefinido: Live Communications Server 2003</span><span class="sxs-lookup"><span data-stu-id="a71f4-729">Undefined: Live Communications Server 2003</span></span></p>
+<p><span data-ttu-id="a71f4-730">                 Live Communications Server 2005</span><span class="sxs-lookup"><span data-stu-id="a71f4-730">                 Live Communications Server 2005</span></span></p>
+<p><span data-ttu-id="a71f4-731">                 Live Communications Server 2005 com SP1</span><span class="sxs-lookup"><span data-stu-id="a71f4-731">                 Live Communications Server 2005 with SP1</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-732">3: Office Communications Server 2007</span><span class="sxs-lookup"><span data-stu-id="a71f4-732">3: Office Communications Server 2007</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-733">4: Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="a71f4-733">4: Office Communications Server 2007 R2</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-734">5: Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="a71f4-734">5: Lync Server 2010</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-735">6: Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a71f4-735">6: Lync Server 2013</span></span></p></li>
 </ul></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-736">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-736">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-SourceObjectType</p></td>
-<td><p>Este atributo de valor único do tipo inteiro especifica o tipo de objeto para o qual o <strong>msDS-SourceObjectDN</strong> aponta, da seguinte forma:</p>
+<td><p><span data-ttu-id="a71f4-737">msRTCSIP-SourceObjectType</span><span class="sxs-lookup"><span data-stu-id="a71f4-737">msRTCSIP-SourceObjectType</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-738">Esse atributo de valor único de tipo inteiro especifica o tipo de objeto ao qual o <strong>msDS-SourceObjectDN</strong> aponta, da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="a71f4-738">This single-valued attribute of integer type specifies the type of object the <strong>msDS-SourceObjectDN</strong> points to, as follows:</span></span></p>
 <ul>
-<li><p>null | 0x00000001: Representa um objeto de usuário principal do Windows NT Server de uma floresta diferente</p></li>
-<li><p>Os atributos a seguir representam um tipo de grupo de uma floresta diferente para a expansão do grupo de distribuição:</p>
+<li><p><span data-ttu-id="a71f4-739">nulo | 0x00000001: representa um objeto de usuário principal do Windows NT Server de uma floresta diferente</span><span class="sxs-lookup"><span data-stu-id="a71f4-739">null | 0x00000001: Represents a Windows NT Server principal user object from a different forest</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-740">Os atributos a seguir representam um tipo de grupo de uma floresta diferente para expansão do grupo de distribuição:</span><span class="sxs-lookup"><span data-stu-id="a71f4-740">The following attributes represent a group type from a different forest for distribution group expansion:</span></span></p>
 <ul>
-<li><p>0x00000002: ADS_GROUP_TYPE_GLOBAL_GROUP</p></li>
-<li><p>0x00000004: ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP</p></li>
-<li><p>0x00000004: ADS_GROUP_TYPE_LOCAL_GROUP</p></li>
-<li><p>0x00000008: ADS_GROUP_TYPE_UNIVERSAL_GROUP</p></li>
-<li><p>0x80000000: ADS_GROUP_TYPE_SECURITY_ENABLED</p></li>
-<li><p>0x90000000: Representa um Atendedor Automático ou objeto de acesso do assinante da mesma floresta ou de uma floresta diferente</p></li>
+<li><p><span data-ttu-id="a71f4-741">0x00000002: ADS_GROUP_TYPE_GLOBAL_GROUP</span><span class="sxs-lookup"><span data-stu-id="a71f4-741">0x00000002: ADS_GROUP_TYPE_GLOBAL_GROUP</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-742">0x00000004: ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP</span><span class="sxs-lookup"><span data-stu-id="a71f4-742">0x00000004: ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-743">0x00000004: ADS_GROUP_TYPE_LOCAL_GROUP</span><span class="sxs-lookup"><span data-stu-id="a71f4-743">0x00000004: ADS_GROUP_TYPE_LOCAL_GROUP</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-744">0x00000008: ADS_GROUP_TYPE_UNIVERSAL_GROUP</span><span class="sxs-lookup"><span data-stu-id="a71f4-744">0x00000008: ADS_GROUP_TYPE_UNIVERSAL_GROUP</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-745">0x80000000: ADS_GROUP_TYPE_SECURITY_ENABLED</span><span class="sxs-lookup"><span data-stu-id="a71f4-745">0x80000000: ADS_GROUP_TYPE_SECURITY_ENABLED</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-746">0x90000000: representa um objeto de atendente automático ou de acesso do assinante da mesma floresta ou de uma floresta diferente</span><span class="sxs-lookup"><span data-stu-id="a71f4-746">0x90000000: Represents an Auto-Attendant or subscriber access object from the same forest or a different forest</span></span></p></li>
 </ul></li>
 </ul></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-747">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-747">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-SubscriptionAuthRequired (obsoleto)</p></td>
+<td><p><span data-ttu-id="a71f4-748">msRTCSIP-SubscriptionAuthRequired (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-748">msRTCSIP-SubscriptionAuthRequired (obsolete)</span></span></p></td>
 <td><p>-</p></td>
-<td><p>Novo no Live Communications Server 2003.</p>
-<p>Obsoleto no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-749">Novo no Live Communications Server 2003.</span><span class="sxs-lookup"><span data-stu-id="a71f4-749">New in Live Communications Server 2003.</span></span></p>
+<p><span data-ttu-id="a71f4-750">Obsoleto no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-750">Obsolete in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TargetHomeServer</p></td>
-<td><p>Este atributo permite mover um usuário ou objeto contato de um servidor ou pool do Lync Server para outro. Esse atributo é adicionado à classe de contato, pois na topologia da floresta, os objetos de contato e não objetos do usuário, estão habilitados para SIP.</p>
-<p>O valor válido é o DN do servidor Standard Edition de destino ou pool de Front End para o qual o usuário será movido.</p></td>
-<td><p>Novo no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-751">msRTCSIP-TargetHomeServer</span><span class="sxs-lookup"><span data-stu-id="a71f4-751">msRTCSIP-TargetHomeServer</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-752">Esse atributo permite mover um usuário ou objeto de contato de um pool do Lync Server para outro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-752">This attribute enables you to move a user or contact object from one Lync Server pool to another.</span></span> <span data-ttu-id="a71f4-753">Esse atributo é adicionado à classe Contact, porque na topologia de floresta central, objetos de contato, não objetos de usuário, são SIP habilitados.</span><span class="sxs-lookup"><span data-stu-id="a71f4-753">This attribute is added to the contact class, because in the central forest topology, contact objects, not user objects, are SIP enabled.</span></span></p>
+<p><span data-ttu-id="a71f4-754">O valor válido é o DN do servidor de edição padrão ou do pool de front-end para o qual um usuário deve ser movido.</span><span class="sxs-lookup"><span data-stu-id="a71f4-754">The valid value is the DN of the destination Standard Edition server or Front End pool to which a user is to be moved.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-755">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-755">New in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TargetPhoneNumber (obsoleto)</p></td>
-<td><p>Este atributo de cadeia de caracteres de valor único contém um padrão de número de telefone ou intervalo para rotear para os gateways específicos definidos no <strong>msRTCSIP-Gateways</strong>.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p>
-<p></p></td>
+<td><p><span data-ttu-id="a71f4-756">msRTCSIP-TargetPhoneNumber (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-756">msRTCSIP-TargetPhoneNumber (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-757">Este atributo de cadeia de caracteres de valor único contém um padrão ou um intervalo de números de telefone para direcionar para os gateways especificados definidos em <strong>msRTCSIP-gateways</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-757">This single-valued string attribute contains a phone number pattern or range to route to the specified gateways defined in <strong>msRTCSIP-Gateways</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-758">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-758">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TargetUserPolicies</p></td>
-<td><p>Este atributo armazena pares nome-valor para políticas de destino para usuários do Lync Server.</p></td>
-<td><p>Novo no Lync Server 2010.</p>
-<p></p></td>
+<td><p><span data-ttu-id="a71f4-759">msRTCSIP-TargetUserPolicies</span><span class="sxs-lookup"><span data-stu-id="a71f4-759">msRTCSIP-TargetUserPolicies</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-760">Esse atributo armazena pares de nome-valor para políticas de destino para usuários do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a71f4-760">This attribute stores name-value pairs for target policies for Lync Server users.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-761">Novo no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-761">New in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TenantId</p></td>
-<td><p>Este atributo armazena o identificador único para um locatário.</p></td>
-<td><p>Novo no Lync Server 2010.</p>
-<p></p></td>
+<td><p><span data-ttu-id="a71f4-762">msRTCSIP-Tenantid</span><span class="sxs-lookup"><span data-stu-id="a71f4-762">msRTCSIP-TenantId</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-763">Esse atributo armazena o identificador exclusivo de um locatário.</span><span class="sxs-lookup"><span data-stu-id="a71f4-763">This attribute stores the unique identifier for a tenant.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-764">Novo no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-764">New in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Translation (obsoleto)</p></td>
-<td><p>Este atributo é usado pelo recurso de voz do Lync Server e contém a cadeia de caracteres de tradução a serem aplicados no número discado, se uma correspondência for encontrada.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-765">msRTCSIP-tradução (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-765">msRTCSIP-Translation (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-766">Esse atributo é usado pelo recurso de voz do Lync Server e contém a cadeia de caracteres de tradução para aplicar o número discado, se for encontrada uma correspondência.</span><span class="sxs-lookup"><span data-stu-id="a71f4-766">This attribute is used by the voice feature of Lync Server and contains the translation string to apply on the dialed number, if a match is found.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-767">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-767">New in Office Communications Server 2007.</span></span></p>
+<p><span data-ttu-id="a71f4-768">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-768">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedMCUData</p></td>
-<td><p>Este atributo está reservado para uso futuro.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-769">msRTCSIP-TrustedMCUData</span><span class="sxs-lookup"><span data-stu-id="a71f4-769">msRTCSIP-TrustedMCUData</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-770">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-770">This attribute is reserved for future use.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-771">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-771">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedMCUFQDN</p></td>
-<td><p>Este atributo é um valor de cadeia de caracteres que contém o FQDN do MCU. Este é um atributo de valor único. O valor válido para cada segmento pode ter até 63 caracteres; o valor válido para todo o FQDN pode ter até 255 caracteres.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-772">msRTCSIP-TrustedMCUFQDN</span><span class="sxs-lookup"><span data-stu-id="a71f4-772">msRTCSIP-TrustedMCUFQDN</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-773">Esse atributo é um valor de cadeia de caracteres que contém o FQDN do MCU.</span><span class="sxs-lookup"><span data-stu-id="a71f4-773">This attribute is a string value that contains the FQDN of the MCU.</span></span> <span data-ttu-id="a71f4-774">Esse é um atributo de valor único.</span><span class="sxs-lookup"><span data-stu-id="a71f4-774">This is a single-valued attribute.</span></span> <span data-ttu-id="a71f4-775">O valor válido para cada segmento é de 63 caracteres; o valor válido para o FQDN inteiro é de 255 caracteres.</span><span class="sxs-lookup"><span data-stu-id="a71f4-775">The valid value for each segment is 63 characters; the valid value for the entire FQDN is 255 characters.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-776">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-776">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedProxyData</p></td>
-<td><p>Este atributo está reservado para uso futuro.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-777">msRTCSIP-TrustedProxyData</span><span class="sxs-lookup"><span data-stu-id="a71f4-777">msRTCSIP-TrustedProxyData</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-778">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-778">This attribute is reserved for future use.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-779">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-779">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedProxyFQDN</p></td>
-<td><p>Este atributo é um valor de cadeia de caracteres que contém o FQDN do servidor que está executando o Proxy Server. Este é um atributo de valor único. O valor válido para cada segmento pode ter até 63 caracteres; o valor válido para todo o FQDN pode ter até 255 caracteres.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-780">msRTCSIP-TrustedProxyFQDN</span><span class="sxs-lookup"><span data-stu-id="a71f4-780">msRTCSIP-TrustedProxyFQDN</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-781">Esse atributo é um valor de cadeia de caracteres que contém o FQDN do servidor que está executando o servidor proxy.</span><span class="sxs-lookup"><span data-stu-id="a71f4-781">This attribute is a string value that contains the FQDN of the server running Proxy Server.</span></span> <span data-ttu-id="a71f4-782">Esse atributo tem valor único.</span><span class="sxs-lookup"><span data-stu-id="a71f4-782">This attribute is single-valued.</span></span> <span data-ttu-id="a71f4-783">O valor válido para cada segmento é de 63 caracteres; o valor válido para o FQDN inteiro é de 255 caracteres.</span><span class="sxs-lookup"><span data-stu-id="a71f4-783">The valid value for each segment is 63 characters; the valid value for the entire FQDN is 255 characters.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-784">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-784">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedServerData</p></td>
-<td><p>Este atributo está reservado para uso futuro.</p></td>
+<td><p><span data-ttu-id="a71f4-785">msRTCSIP-TrustedServerData</span><span class="sxs-lookup"><span data-stu-id="a71f4-785">msRTCSIP-TrustedServerData</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-786">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-786">This attribute is reserved for future use.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedServerFQDN</p></td>
-<td><p>Este é um atributo de valor único que representa o FQDN de um servidor confiável.</p></td>
-<td><p>Novo no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-787">msRTCSIP-TrustedServerFQDN</span><span class="sxs-lookup"><span data-stu-id="a71f4-787">msRTCSIP-TrustedServerFQDN</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-788">Esse atributo é um atributo de valor único que representa o FQDN de um servidor confiável.</span><span class="sxs-lookup"><span data-stu-id="a71f4-788">This attribute is a single-valued attribute that represents the FQDN of a trusted server.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-789">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-789">New in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedServerVersion</p></td>
-<td><p>Este atributo especifica o número de versão de um servidor na lista de servidores confiáveis.</p>
-<p>Os valores válidos possíveis são:</p>
+<td><p><span data-ttu-id="a71f4-790">msRTCSIP-TrustedServerVersion</span><span class="sxs-lookup"><span data-stu-id="a71f4-790">msRTCSIP-TrustedServerVersion</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-791">Esse atributo especifica o número da versão de um servidor na lista de servidores confiáveis.</span><span class="sxs-lookup"><span data-stu-id="a71f4-791">This attribute specifies the version number of a server in the trusted server list.</span></span></p>
+<p><span data-ttu-id="a71f4-792">Os valores válidos possíveis são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="a71f4-792">The possible valid values are as follows:</span></span></p>
 <ul>
-<li><p>NULL: Live Communications Server 2003</p></li>
-<li><p>2: Live Communications Server 2005</p></li>
-<li><p>3: Office Communications Server 2007</p></li>
-<li><p>4: Office Communications Server 2007 R2</p></li>
-<li><p>5: Lync Server 2010</p></li>
-<li><p>6: Lync Server 2013</p></li>
+<li><p><span data-ttu-id="a71f4-793">NULL: Live Communications Server 2003</span><span class="sxs-lookup"><span data-stu-id="a71f4-793">NULL: Live Communications Server 2003</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-794">2: Live Communications Server 2005</span><span class="sxs-lookup"><span data-stu-id="a71f4-794">2: Live Communications Server 2005</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-795">3: Office Communications Server 2007</span><span class="sxs-lookup"><span data-stu-id="a71f4-795">3: Office Communications Server 2007</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-796">4: Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="a71f4-796">4: Office Communications Server 2007 R2</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-797">5: Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="a71f4-797">5: Lync Server 2010</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-798">6: Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a71f4-798">6: Lync Server 2013</span></span></p></li>
 </ul></td>
-<td><p>New in Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-799">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-799">New in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedServiceFlags</p></td>
-<td><p>Este atributo define as opções habilitadas para o serviço confiável.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-800">msRTCSIP-TrustedServiceFlags</span><span class="sxs-lookup"><span data-stu-id="a71f4-800">msRTCSIP-TrustedServiceFlags</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-801">Esse atributo define as opções que são habilitadas para o serviço confiável.</span><span class="sxs-lookup"><span data-stu-id="a71f4-801">This attribute defines the options that are enabled for the trusted service.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-802">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-802">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedServiceLinks</p></td>
-<td><p>Este atributo multivalorado contém uma lista de nomes diferenciados (DN) que referenciam um objeto de serviço confiável, como um Serviço de Autenticação de Media Relay. Um Serviço de Autenticação de Media Relay (fisicamente colocado no Servidor de Borda que está executando o Serviço de Conferência A/V) deve estar associado a um pool para suportar cenários de áudio para usuários remotos.</p>
-<p>O vínculo inverso correspondente a este atributo de vínculo sequencial é <strong>msRTCSIP-ServerBL</strong>.</p></td>
-<td><p>UC</p></td>
+<td><p><span data-ttu-id="a71f4-803">msRTCSIP-TrustedServiceLinks</span><span class="sxs-lookup"><span data-stu-id="a71f4-803">msRTCSIP-TrustedServiceLinks</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-804">Esse atributo com vários valores contém uma lista de nomes diferenciados (DN) que fazem referência a um objeto de serviço confiável, como um serviço de autenticação de retransmissão de mídia.</span><span class="sxs-lookup"><span data-stu-id="a71f4-804">This multi-valued attribute contains a list of distinguished names (DN) that reference a trusted service object, such as a Media Relay Authentication Service.</span></span> <span data-ttu-id="a71f4-805">Um serviço de autenticação de retransmissão de mídia (posicionado fisicamente no servidor de borda executando o serviço de conferência A/V) deve estar associado a um pool para dar suporte a cenários de áudio para usuários remotos.</span><span class="sxs-lookup"><span data-stu-id="a71f4-805">A Media Relay Authentication Service (physically collocated on the Edge Server running the A/V Conferencing service) must be associated with a pool to support audio scenarios for remote users.</span></span></p>
+<p><span data-ttu-id="a71f4-806">O link regressivo correspondente a este atributo de link de encaminhamento é <strong>msRTCSIP-ServerBL</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-806">The corresponding back link to this forward link attribute is <strong>msRTCSIP-ServerBL</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-807">UC</span><span class="sxs-lookup"><span data-stu-id="a71f4-807">UC</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedServicePort</p></td>
-<td><p>Este atributo é um inteiro que define o número de porta usado para estabelecer conexão com este serviço GRUU.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-808">msRTCSIP-TrustedServicePort</span><span class="sxs-lookup"><span data-stu-id="a71f4-808">msRTCSIP-TrustedServicePort</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-809">Esse atributo é um inteiro que define o número da porta usada para se conectar a este serviço GRUU.</span><span class="sxs-lookup"><span data-stu-id="a71f4-809">This attribute is an integer that defines the port number used to connect to this GRUU service.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-810">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-810">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedServiceType</p></td>
-<td><p>Este é um atributo de valor de cadeia de caracteres que define o tipo de serviço GRUU que representa.</p>
-<p>Os tipos de serviço GRUU válidos são:</p>
+<td><p><span data-ttu-id="a71f4-811">msRTCSIP-TrustedServiceType</span><span class="sxs-lookup"><span data-stu-id="a71f4-811">msRTCSIP-TrustedServiceType</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-812">Esse atributo é um valor de cadeia de caracteres que define o tipo de serviço GRUU que ele representa.</span><span class="sxs-lookup"><span data-stu-id="a71f4-812">This attribute is a string value that defines the type of GRUU service it represents.</span></span></p>
+<p><span data-ttu-id="a71f4-813">Os tipos de serviço GRUU válidos são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="a71f4-813">The valid GRUU service types are as follows:</span></span></p>
 <ul>
-<li><p>MediationServer</p></li>
-<li><p>Gateway</p></li>
-<li><p>Serviço de Autenticação de Media Relay (MRAS)</p></li>
-<li><p>QoSM</p></li>
-<li><p>msRTCSIP-UserExtension CWA</p></li>
+<li><p><span data-ttu-id="a71f4-814">MediationServer</span><span class="sxs-lookup"><span data-stu-id="a71f4-814">MediationServer</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-815">Gateway</span><span class="sxs-lookup"><span data-stu-id="a71f4-815">Gateway</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-816">Serviço de autenticação de retransmissão de mídia (MRAS)</span><span class="sxs-lookup"><span data-stu-id="a71f4-816">Media Relay Authentication Service (MRAS)</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-817">QoSM</span><span class="sxs-lookup"><span data-stu-id="a71f4-817">QoSM</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-818">msRTCSIP-userextension CWA</span><span class="sxs-lookup"><span data-stu-id="a71f4-818">msRTCSIP-UserExtension CWA</span></span></p></li>
 </ul></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-819">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-819">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedWebComponentsServerData</p></td>
-<td><p>Este atributo está reservado para uso futuro.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-820">msRTCSIP-TrustedWebComponentsServerData</span><span class="sxs-lookup"><span data-stu-id="a71f4-820">msRTCSIP-TrustedWebComponentsServerData</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-821">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-821">This attribute is reserved for future use.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-822">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-822">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedWebComponentsServerFQDN</p></td>
-<td><p>Este é um atributo de valor de cadeia de caracteres que contém o FQDN do IIS que está executando o Lync Server Web Services. Este á um atributo de valor único. O valor válido para cada segmento pode ter até 63 caracteres; o valor válido para todo o FQDN pode ter até 255 caracteres.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-823">msRTCSIP-TrustedWebComponentsServerFQDN</span><span class="sxs-lookup"><span data-stu-id="a71f4-823">msRTCSIP-TrustedWebComponentsServerFQDN</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-824">Esse atributo é um valor de cadeia de caracteres que contém o FQDN do IIS que executa serviços Web do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a71f4-824">This attribute is a string value that contains the FQDN of the IIS running Lync Server Web Services.</span></span> <span data-ttu-id="a71f4-825">Esse é um atributo de valor único.</span><span class="sxs-lookup"><span data-stu-id="a71f4-825">This is a single-valued attribute.</span></span> <span data-ttu-id="a71f4-826">O valor válido para cada segmento é de 63 caracteres; o valor válido para o FQDN inteiro é de 255 caracteres.</span><span class="sxs-lookup"><span data-stu-id="a71f4-826">The valid value for each segment is 63 characters; the valid value for the entire FQDN is 255 characters.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-827">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-827">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-UCFlags (obsoleto)</p></td>
-<td><p>Este atributo define diferentes opções de UC que são habilitadas globalmente para todos os objetos de usuário ou de contato. Este atributo é um valor de máscara de bit do tipo inteiro. Cada opção é representada pela presença de um bit.</p>
-<p>Os valores válidos possíveis (e posição de bit associada) são:</p>
+<td><p><span data-ttu-id="a71f4-828">msRTCSIP-UCFlags (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-828">msRTCSIP-UCFlags (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-829">Esse atributo define opções de comunicação unificadas diferentes que são habilitadas globalmente para todos os objetos de contato ou usuário.</span><span class="sxs-lookup"><span data-stu-id="a71f4-829">This attribute defines different UC options that are enabled globally to all user or contact objects.</span></span> <span data-ttu-id="a71f4-830">Esse atributo é um valor de máscara de bits do tipo inteiro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-830">This attribute is a bit-mask value of integer type.</span></span> <span data-ttu-id="a71f4-831">Cada opção é representada pela presença de um pouco.</span><span class="sxs-lookup"><span data-stu-id="a71f4-831">Each option is represented by the presence of a bit.</span></span></p>
+<p><span data-ttu-id="a71f4-832">O possível valor válido (e a posição de bit associado) são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="a71f4-832">The possible valid value (and associated bit position) are as follows:</span></span></p>
 <ul>
-<li><p>4: UsePerUserUCPolicy (posição de bit 2)</p></li>
+<li><p><span data-ttu-id="a71f4-833">4: UsePerUserUCPolicy (posição do bit 2)</span><span class="sxs-lookup"><span data-stu-id="a71f4-833">4: UsePerUserUCPolicy (bit position 2)</span></span></p></li>
 </ul>
-<p>Quando este bit está definido, a política de UC está definida por usuário.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p>
-<p></p></td>
+<p><span data-ttu-id="a71f4-834">Quando este bit é definido, a política de UC é definida por usuário.</span><span class="sxs-lookup"><span data-stu-id="a71f4-834">When this bit is set, the UC policy is defined per user.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-835">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-835">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-UCPolicy (obsoleto)</p></td>
-<td><p>Este atributo de valor único contém o nome diferenciado (DN) da política de UC atribuída a este usuário pelo administrador.</p></td>
-<td><p>Obsoleto no Lync Server 2010.</p>
-<p></p></td>
+<td><p><span data-ttu-id="a71f4-836">msRTCSIP-UCPolicy (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-836">msRTCSIP-UCPolicy (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-837">Esse atributo com valor único contém o DN (nome distinto) da política de UC que o administrador atribuiu para este usuário.</span><span class="sxs-lookup"><span data-stu-id="a71f4-837">This single-valued attribute contains the distinguished name (DN) of the UC policy that the administrator has assigned for this user.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-838">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-838">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-UserDomainList (obsoleto)</p></td>
-<td><p>Este atributo fornece uma lista de todos os domínios em uma floresta que hospeda usuários habilitados para SIP. O padrão é uma lista vazia, indicando que todos os domínios na floresta estão habilitados para SIP.</p>
-<p>Os valores válidos são várias cadeias de caracteres representando os nomes de domínio de domínios individuais.</p></td>
-<td><p>Novo no Live Communications Server 2005.</p>
-<p>Obsoleto no Lync Server 2010.</p></td>
+<td><p><span data-ttu-id="a71f4-839">msRTCSIP-userdomainlist (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-839">msRTCSIP-UserDomainList (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-840">Esse atributo fornece uma lista de todos os domínios em uma floresta que hospeda usuários habilitados para SIP.</span><span class="sxs-lookup"><span data-stu-id="a71f4-840">This attribute provides a list of all the domains in a forest that host SIP-enabled users.</span></span> <span data-ttu-id="a71f4-841">O padrão é uma lista vazia, indicando que todos os domínios na floresta são habilitados para SIP.</span><span class="sxs-lookup"><span data-stu-id="a71f4-841">The default is an empty list, indicating that all domains in the forest are SIP-enabled.</span></span></p>
+<p><span data-ttu-id="a71f4-842">Os valores válidos são várias cadeias de caracteres que representam os nomes de domínio de domínios individuais.</span><span class="sxs-lookup"><span data-stu-id="a71f4-842">Valid values are multiple strings representing the domain names of individual domains.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-843">Novo no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-843">New in Live Communications Server 2005.</span></span></p>
+<p><span data-ttu-id="a71f4-844">Obsoleto no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-844">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-UserEnabled</p></td>
-<td><p>Este atributo determina se o usuário está habilitado para o Lync Server atualmente.</p></td>
+<td><p><span data-ttu-id="a71f4-845">msRTCSIP-UserEnabled</span><span class="sxs-lookup"><span data-stu-id="a71f4-845">msRTCSIP-UserEnabled</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-846">Esse atributo determina se o usuário está habilitado no momento para o Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a71f4-846">This attribute determines whether the user is currently enabled for Lync Server.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-UserExtension</p></td>
-<td><p>Este atributo multivalorado contém uma lista de pares nome-valor no formato &quot;nome=valor&quot;. Este atributo está marcado para replicação do catálogo global.</p></td>
-<td><p>Novo no Live Communications Server 2005 com SP1.</p></td>
+<td><p><span data-ttu-id="a71f4-847">msRTCSIP-userextension</span><span class="sxs-lookup"><span data-stu-id="a71f4-847">msRTCSIP-UserExtension</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-848">Este atributo de valores múltiplos contém uma lista de pares de nomes e valores no formato de &quot;nome = valor. &quot; Esse atributo está marcado para replicação de catálogo global.</span><span class="sxs-lookup"><span data-stu-id="a71f4-848">This multi-valued attribute contains a list of name-value pairs in the format of &quot;name=value.&quot; This attribute is marked for global catalog replication.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-849">Novo no Live Communications Server 2005 com SP1.</span><span class="sxs-lookup"><span data-stu-id="a71f4-849">New in Live Communications Server 2005 with SP1.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-UserLocationProfile</p></td>
-<td><p>Este atributo contém o nome diferenciado (DN) que aponta para um objeto de perfil de localidade.</p></td>
-<td><p>Novo no Office Communications Server 2007 R2.</p></td>
+<td><p><span data-ttu-id="a71f4-850">msRTCSIP-UserLocationProfile</span><span class="sxs-lookup"><span data-stu-id="a71f4-850">msRTCSIP-UserLocationProfile</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-851">Esse atributo contém o nome diferenciado (DN) que aponta para um objeto de perfil de local.</span><span class="sxs-lookup"><span data-stu-id="a71f4-851">This attribute contains the distinguished name (DN) that points to a location profile object.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-852">Novo no Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="a71f4-852">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-UserPolicies</p></td>
-<td><p>Este atributo armazena pares nome-valor para políticas de usuário.</p></td>
-<td><p>Novo no Lync Server 2010.</p>
-<p></p></td>
+<td><p><span data-ttu-id="a71f4-853">msRTCSIP-políticas do</span><span class="sxs-lookup"><span data-stu-id="a71f4-853">msRTCSIP-UserPolicies</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-854">Esse atributo armazena pares de nome-valor para políticas de usuário.</span><span class="sxs-lookup"><span data-stu-id="a71f4-854">This attribute stores name-value pairs for user policies.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-855">Novo no Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a71f4-855">New in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-UserPolicy</p></td>
-<td><p>Este é um atributo multivalorado que contém uma lista de nomes diferenciados com binários (DN_WITH_BINARY) apontando para políticas de usuário globais de diferentes tipos. A parte binária indica o tipo de política para o qual a parte DN aponta.</p>
-<p>Os valores binários válidos são:</p>
+<td><p><span data-ttu-id="a71f4-856">msRTCSIP-UserPolicy</span><span class="sxs-lookup"><span data-stu-id="a71f4-856">msRTCSIP-UserPolicy</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-857">Esse é um atributo com valores múltiplos que contém uma lista de nomes diferenciados com binário (DN_WITH_BINARY) apontando para políticas de usuários globais de tipos diferentes.</span><span class="sxs-lookup"><span data-stu-id="a71f4-857">This is a multi-valued attribute containing a list of distinguished names with binary (DN_WITH_BINARY) pointing to global user policies of different types.</span></span> <span data-ttu-id="a71f4-858">A parte binária indica o tipo de política para a qual a parte DN aponta.</span><span class="sxs-lookup"><span data-stu-id="a71f4-858">The binary part indicates the type of policy to which the DN portion points.</span></span></p>
+<p><span data-ttu-id="a71f4-859">Os valores binários válidos são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="a71f4-859">The valid binary values are as follows:</span></span></p>
 <ul>
-<li><p>0x00000001: Política de reunião</p></li>
-<li><p>0x00000002: Política de UC</p></li>
-<li><p>0x00000005: Política de presença</p></li>
+<li><p><span data-ttu-id="a71f4-860">0x00000001: política de reunião</span><span class="sxs-lookup"><span data-stu-id="a71f4-860">0x00000001: Meeting policy</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-861">0x00000002: política de UC</span><span class="sxs-lookup"><span data-stu-id="a71f4-861">0x00000002: UC policy</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-862">0x00000005: política de presença</span><span class="sxs-lookup"><span data-stu-id="a71f4-862">0x00000005: Presence policy</span></span></p></li>
 </ul></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-863">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-863">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-UserRoutingGroupId</p></td>
-<td><p>Esta é a ID do grupo de roteamento SIP. Os usuário no mesmo grupo registrarão no mesmo servidor Front-End.</p></td>
-<td><p>Novo no Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="a71f4-864">msRTCSIP-UserRoutingGroupId</span><span class="sxs-lookup"><span data-stu-id="a71f4-864">msRTCSIP-UserRoutingGroupId</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-865">Esta é a ID do grupo de roteamento SIP.</span><span class="sxs-lookup"><span data-stu-id="a71f4-865">This is the SIP routing group ID.</span></span> <span data-ttu-id="a71f4-866">Os usuários no mesmo grupo serão registrados no mesmo servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="a71f4-866">Users in the same group will register to the same Front End Server.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-867">Novo no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a71f4-867">New in Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-WebComponentsData</p></td>
-<td><p>Este é um atributo multivalorado que está reservado para uso futuro.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-868">msRTCSIP-WebComponentsData</span><span class="sxs-lookup"><span data-stu-id="a71f4-868">msRTCSIP-WebComponentsData</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-869">Esse é um atributo com vários valores.</span><span class="sxs-lookup"><span data-stu-id="a71f4-869">This is a multi-valued attribute.</span></span> <span data-ttu-id="a71f4-870">Esse atributo é reservado para uso futuro.</span><span class="sxs-lookup"><span data-stu-id="a71f4-870">This attribute is reserved for future use.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-871">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-871">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-WebComponentsPoolAddress</p></td>
-<td><p>Este atributo de valor único aponta para o pool ou servidor Standard Edition ao qual os componentes web pertencem.</p>
-<p>Vínculo sequencial: <strong>Link ID 11028</strong></p>
-<p>O vínculo inverso correspondente a este atributo de vínculo sequencial é <strong>msRTCSIP-WebComponentsServers</strong>.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-872">msRTCSIP-WebComponentsPoolAddress</span><span class="sxs-lookup"><span data-stu-id="a71f4-872">msRTCSIP-WebComponentsPoolAddress</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-873">Esse atributo de valor único aponta para o servidor do pool ou da edição padrão ao qual os componentes Web pertencem.</span><span class="sxs-lookup"><span data-stu-id="a71f4-873">This single-valued attribute points to the pool or Standard Edition server to which the web components belong.</span></span></p>
+<p><span data-ttu-id="a71f4-874">Link encaminhar: <strong>ID do link 11028</strong></span><span class="sxs-lookup"><span data-stu-id="a71f4-874">Forward link: <strong>Link ID 11028</strong></span></span></p>
+<p><span data-ttu-id="a71f4-875">O link regressivo correspondente a este atributo de link de encaminhamento é <strong>msRTCSIP-WebComponentsServers</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-875">The corresponding back link to this forward link attribute is <strong>msRTCSIP-WebComponentsServers</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-876">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-876">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-WebComponentsServers</p></td>
-<td><p>Este atributo é uma lista multivalorada de nomes diferenciados. Ele contém uma lista de todos os servidores Web associados a este pool.</p>
-<p>Vínculo inverso: <strong>Link ID 11029</strong></p>
-<p>O vínculo sequencial correspondente a este vínculo inverso é <strong>msRTCSIP-WebComponentsPoolAddress</strong>.</p></td>
-<td><p>Novo no Office Communications Server 2007.</p></td>
+<td><p><span data-ttu-id="a71f4-877">msRTCSIP-WebComponentsServers</span><span class="sxs-lookup"><span data-stu-id="a71f4-877">msRTCSIP-WebComponentsServers</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-878">Esse atributo é uma lista de vários valores de nomes distintos.</span><span class="sxs-lookup"><span data-stu-id="a71f4-878">This attribute is a multi-valued list of distinguished names.</span></span> <span data-ttu-id="a71f4-879">Esse atributo contém uma lista de todos os servidores da Web associados a este pool.</span><span class="sxs-lookup"><span data-stu-id="a71f4-879">This attribute contains a list of all Web servers associated with this pool.</span></span></p>
+<p><span data-ttu-id="a71f4-880">Link para trás: <strong>ID do link 11029</strong></span><span class="sxs-lookup"><span data-stu-id="a71f4-880">Back link: <strong>Link ID 11029</strong></span></span></p>
+<p><span data-ttu-id="a71f4-881">O link encaminhamento correspondente para esse link regressivo é <strong>msRTCSIP-WebComponentsPoolAddress</strong>.</span><span class="sxs-lookup"><span data-stu-id="a71f4-881">The corresponding forward link to this back link is <strong>msRTCSIP-WebComponentsPoolAddress</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-882">Novo no Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a71f4-882">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-WMIInstanceId (obsoleto)</p></td>
+<td><p><span data-ttu-id="a71f4-883">msRTCSIP-WMIInstanceId (obsoleto)</span><span class="sxs-lookup"><span data-stu-id="a71f4-883">msRTCSIP-WMIInstanceId (obsolete)</span></span></p></td>
 <td><p>-</p></td>
-<td><p>Novo no Live Communications Server 2003.</p>
-<p>Obsoleto no Live Communications Server 2005.</p></td>
+<td><p><span data-ttu-id="a71f4-884">Novo no Live Communications Server 2003.</span><span class="sxs-lookup"><span data-stu-id="a71f4-884">New in Live Communications Server 2003.</span></span></p>
+<p><span data-ttu-id="a71f4-885">Obsoleto no Live Communications Server 2005.</span><span class="sxs-lookup"><span data-stu-id="a71f4-885">Obsolete in Live Communications Server 2005.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>OtherIPPhone</p></td>
-<td><p>Este atributo existente do Active Directory é usado pela telefonia para especificar a lista de endereços TCP/IP alternativos para um telefone.</p></td>
-<td><p>Novo no sistema operacional Windows Server 2008.</p></td>
+<td><p><span data-ttu-id="a71f4-886">OtherIPPhone</span><span class="sxs-lookup"><span data-stu-id="a71f4-886">OtherIPPhone</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-887">Esse atributo existente do Active Directory é usado por telefonia para especificar a lista de endereços TCP/IP alternativos para um telefone.</span><span class="sxs-lookup"><span data-stu-id="a71f4-887">This existing Active Directory attribute is used by telephony to specify the list of alternate TCP/IP addresses for a phone.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-888">Novo no sistema operacional Windows Server 2008.</span><span class="sxs-lookup"><span data-stu-id="a71f4-888">New in Windows Server 2008 operating system.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>PhoneOfficeOther</p></td>
-<td><p>Este atributo existente do Active Directory é usado pelos componentes de voz no Lync Server somente para objetos de contato, com o objetivo de rotear chamadas para os números do atendedor automático da unificação de mensagens e do acesso do assinante. O endereço de encaminhamento da chamada incondicional é armazenado neste atributo multivalorado. Esta conta é criada para o uso específico do atendedor automático e acesso do assinante. Os atributos desta conta não devem ser modificados pelos administradores.</p></td>
-<td><p>Novo no sistema operacional Windows 2000.</p></td>
+<td><p><span data-ttu-id="a71f4-889">PhoneOfficeOther</span><span class="sxs-lookup"><span data-stu-id="a71f4-889">PhoneOfficeOther</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-890">Esse atributo existente do Active Directory é usado pelos componentes de voz no Lync Server, somente para objetos de contato, com a finalidade de direcionar chamadas para o atendedor automático da Unificação de mensagens e os números de acesso do Assinante.</span><span class="sxs-lookup"><span data-stu-id="a71f4-890">This existing Active Directory attribute is used by the voice components in Lync Server, for contact objects only, for the purpose of routing calls to the unified messaging auto-attendant and subscriber access numbers.</span></span> <span data-ttu-id="a71f4-891">O endereço de encaminhamento de chamadas incondicionais é armazenado nesse atributo de vários valores.</span><span class="sxs-lookup"><span data-stu-id="a71f4-891">The unconditional call forwarding address is stored in this multi-valued attribute.</span></span> <span data-ttu-id="a71f4-892">Esta conta é criada para o propósito específico de acesso automático e do Assinante.</span><span class="sxs-lookup"><span data-stu-id="a71f4-892">This account is created for the specific purpose of auto-attendant and subscriber access.</span></span> <span data-ttu-id="a71f4-893">Os atributos da conta não devem ser modificados pelos administradores.</span><span class="sxs-lookup"><span data-stu-id="a71f4-893">This account’s attributes should not be modified by administrators.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-894">Novo no sistema operacional Windows 2000.</span><span class="sxs-lookup"><span data-stu-id="a71f4-894">New in Windows 2000 operating system.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>ProxyAddresses</p></td>
-<td><p>Este atributo multivalorado existente do Active Directory é parte do esquema do Active Directory base apresentado no Windows 2000. Este atributo contém os vários endereços X400, X500 e SMTP do e-mail de um usuário. No Live Communications Server 2003 e posteriores, o URI do SIP do usuário é adicionado a esta lista usando a marca &quot;sip:&quot;.</p>
-<p>Os aplicativos a seguir pesquisam o URI do SIP do usuário a partir deste atributo:</p>
+<td><p><span data-ttu-id="a71f4-895">ProxyAddresses</span><span class="sxs-lookup"><span data-stu-id="a71f4-895">ProxyAddresses</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-896">Este atributo de vários valores do Active Directory existente faz parte do esquema base do Active Directory introduzido no Windows 2000.</span><span class="sxs-lookup"><span data-stu-id="a71f4-896">This existing Active Directory multi-valued attribute is part of the base Active Directory schema introduced in Windows 2000.</span></span> <span data-ttu-id="a71f4-897">Esse atributo contém os vários endereços X400, X500 e SMTP do email do usuário.</span><span class="sxs-lookup"><span data-stu-id="a71f4-897">This attribute contains the various X400, X500, and SMTP addresses of the user’s email.</span></span> <span data-ttu-id="a71f4-898">No Live Communications Server 2003 e posterior, o URI SIP do usuário é adicionado a essa lista usando a &quot;marca SIP&quot; :.</span><span class="sxs-lookup"><span data-stu-id="a71f4-898">In Live Communications Server 2003 and later, the user’s SIP URI is added to this list, using the &quot;sip:&quot; tag.</span></span></p>
+<p><span data-ttu-id="a71f4-899">Os seguintes aplicativos pesquisam o URI do SIP do usuário deste atributo:</span><span class="sxs-lookup"><span data-stu-id="a71f4-899">The following applications search the user’s SIP URI from this attribute:</span></span></p>
 <ul>
-<li><p>Sistema de mensagens e cliente de colaboração do Microsoft Office Outlook 2003</p></li>
-<li><p>Microsoft Office SharePoint Server 2007</p></li>
+<li><p><span data-ttu-id="a71f4-900">Cliente de mensagens e colaboração do Microsoft Office Outlook 2003</span><span class="sxs-lookup"><span data-stu-id="a71f4-900">Microsoft Office Outlook 2003 messaging and collaboration client</span></span></p></li>
+<li><p><span data-ttu-id="a71f4-901">Microsoft Office SharePoint Server 2007</span><span class="sxs-lookup"><span data-stu-id="a71f4-901">Microsoft Office SharePoint Server 2007</span></span></p></li>
 </ul></td>
-<td><p>Novo no sistema operacional Windows 2000.</p></td>
+<td><p><span data-ttu-id="a71f4-902">Novo no sistema operacional Windows 2000.</span><span class="sxs-lookup"><span data-stu-id="a71f4-902">New in Windows 2000 operating system.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>TelephoneNumber</p></td>
-<td><p>Este atributo existente do Active Directory contém o número de telefone do usuário.</p></td>
-<td><p>Novo no sistema operacional Windows 2000.</p></td>
+<td><p><span data-ttu-id="a71f4-903">TelephoneNumber</span><span class="sxs-lookup"><span data-stu-id="a71f4-903">TelephoneNumber</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-904">Esse atributo existente do Active Directory contém o número de telefone do usuário.</span><span class="sxs-lookup"><span data-stu-id="a71f4-904">This existing Active Directory attribute contains the telephone number for the user.</span></span></p></td>
+<td><p><span data-ttu-id="a71f4-905">Novo no sistema operacional Windows 2000.</span><span class="sxs-lookup"><span data-stu-id="a71f4-905">New in Windows 2000 operating system.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

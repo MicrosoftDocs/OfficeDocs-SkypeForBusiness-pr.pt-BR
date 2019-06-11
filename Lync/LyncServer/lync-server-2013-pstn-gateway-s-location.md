@@ -1,37 +1,71 @@
-﻿---
-title: 'Lync Server 2013: Local do gateway PSTN'
-TOCTitle: Local do gateway PSTN
-ms:assetid: 49693a35-fad3-49ee-a71e-c7e4537b79aa
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ994031(v=OCS.15)
-ms:contentKeyID: 52057599
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Local do gateway PSTN'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: PSTN gateway's location
+ms:assetid: 49693a35-fad3-49ee-a71e-c7e4537b79aa
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994031(v=OCS.15)
+ms:contentKeyID: 51803940
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b897d9ce438844cde7617bb7c3e1dae086605f09
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823543"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Local do gateway PSTN no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-03-09_
+# <a name="pstn-gateways-location-in-lync-server-2013"></a><span data-ttu-id="acc9e-102">Local do gateway PSTN no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acc9e-102">PSTN gateway's location in Lync Server 2013</span></span>
 
-Chamadas roteadas por meio de gateways PSTN e PBXs podem exigir restrições de Roteamento com Base no Local dependendo da localização desses sistemas. O Roteamento com Base no Local pode ser habilitado na granularidade por tronco.
+</div>
 
-O Roteamento com Base no Local introduz o seguinte conjunto de regras quando habilitado em um tronco:
+<div id="mainSection">
 
-  - Quando o Roteamento com Base no Local é habilitado por tronco, as regras definidas naquele tronco serão aplicadas apenas a chamadas roteadas através dele.
+<div id="mainBody">
 
-  - Para impedir que ferramentas PSTN sejam ignoradas quando chamadas originadas de um local de rede diferente daquele em que está o gateway PSTN, o Roteamento com Base no Local associa um local de rede àquele determinado tronco. Isso define que o local de rede permite que chamadas sejam roteadas para um determinado tronco.
+<span> </span>
 
-Há duas formas de habilitar os troncos para o Roteamento com Base no Local:
+<span data-ttu-id="acc9e-103">_**Tópico da última modificação:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="acc9e-103">_**Topic Last Modified:** 2013-03-09_</span></span>
 
-  - O tronco é definido para um gateway PSTN que faz chamadas para o PSTN. As chamadas recebidas roteadas por um tronco deste tipo serão roteadas apenas para os pontos de extremidade localizados dentro do mesmo local de rede que o tronco.
+<span data-ttu-id="acc9e-104">Chamadas roteadas por meio de gateways PSTN e PBXs podem exigir restrições de roteamento baseado em localização, dependendo do local de tais sistemas.</span><span class="sxs-lookup"><span data-stu-id="acc9e-104">Calls routed via PSTN gateways and PBXs might require Location-Based Routing restrictions depending on the location of such systems.</span></span> <span data-ttu-id="acc9e-105">O roteamento baseado em localização pode ser habilitado na granularidade com base em cada tronco.</span><span class="sxs-lookup"><span data-stu-id="acc9e-105">Location-Based Routing can be enabled at the granularity on a per trunk basis.</span></span>
 
-  - O tronco é definido para um ponto Servidor de Mediação que não faz chamadas para o PSTN e para os usuários de serviços com telefones legados em locais estáticos (isto é, telefones PBX). Para esta configuração em particular, todas as chamadas recebidas roteadas por um tronco deste tipo serão consideradas como se fossem originadas do mesmo local de rede do tronco. Chamadas de usuários de PBX terão a mesma imposição do Roteamento com Base no Local que os usuários do Lync que estão no mesmo local de rede do tronco. Se dois sistemas PBX em locais de rede separados estiverem conectados através do Lync Server, o Roteamento com Base no Local permitirá o roteamento a partir de um ponto de extremidade PBX em um dos locais de rede para o outro ponto de extremidade PBX no outro local de rede. Este cenário não será bloqueado pelo Roteamento com Base no Local. Além deste cenário, e de modo semelhante a como um usuário do Lync no mesmo local de rede, os pontos de extremidade conectados a um ponto Servidor de Mediação com esta configuração poderão fazer ou receber chamadas com outro outro pronto Servidor de Mediação que não roteia chamadas para PSTN (isto é, um ponto de extremidade conectado.a um PBX diferente), não importando a qual local de rede o ponto Servidor de Mediação está associado. Todas as chamadas recebidas, efetuadas, transferidas e encaminhadas envolvendo pontos de extremidade PSTN estarão sujeitas ao Roteamento com Base no Local para usar apenas gateways PSTN definidos como local para tal ponto Servidor de Mediação.
+<span data-ttu-id="acc9e-106">O roteamento baseado em local introduz o seguinte conjunto de regras quando habilitado em um tronco:</span><span class="sxs-lookup"><span data-stu-id="acc9e-106">Location-Based Routing introduces the following set of rules when enabled on a trunk:</span></span>
 
-## Consulte Também
+  - <span data-ttu-id="acc9e-107">Quando o roteamento baseado em localização estiver habilitado em uma base por tronco, as regras definidas nesse tronco serão aplicadas somente a chamadas roteadas por meio desse tronco.</span><span class="sxs-lookup"><span data-stu-id="acc9e-107">When Location-Based Routing is enabled on a per trunk basis, the rules define on that trunk will be applied only to calls routed through that trunk.</span></span>
 
-#### Outros Recursos
+  - <span data-ttu-id="acc9e-108">Para evitar que as tarifas PSTNs ignorem onde as chamadas são originadas de um site de rede diferente que o site de rede onde o gateway PSTN está localizado, o roteamento baseado em local introduz a associação de um site de rede a um determinado tronco.</span><span class="sxs-lookup"><span data-stu-id="acc9e-108">To prevent PSTN tolls bypass where calls originate from a network site different that the network site where the PSTN gateway is located, Location-Based Routing introduces the association of a network site to a given trunk.</span></span> <span data-ttu-id="acc9e-109">Isso definirá o local de rede que permite o encaminhamento de chamadas para um tronco específico.</span><span class="sxs-lookup"><span data-stu-id="acc9e-109">This defines the network site that allows calls to be routed to a given trunk.</span></span>
 
-[Orientação para Roteamento Baseado em Local no Lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)
+<span data-ttu-id="acc9e-110">Os troncos podem ser habilitados para roteamento baseado em local de duas maneiras:</span><span class="sxs-lookup"><span data-stu-id="acc9e-110">Trunks can be enabled for Location-Based Routing in two ways:</span></span>
+
+  - <span data-ttu-id="acc9e-p103">O tronco é definido para um gateway PSTN que egressa chamadas para a PSTN. As chamadas de entrada encaminhadas por um tronco desse tipo serão encaminhadas apenas para os pontos de extremidade localizados dentro do mesmo local de rede do tronco.</span><span class="sxs-lookup"><span data-stu-id="acc9e-p103">The trunk is defined for a PSTN gateway that egresses calls to the PSTN. Incoming calls routed by a trunk of this type will be routed only to endpoints located within the same network site as the trunk.</span></span>
+
+  - <span data-ttu-id="acc9e-113">O tronco é definido para um peer do servidor de mediação que não faz chamadas para os usuários de serviços PSTN e PSTN com telefones herdados em locais estáticos (por exemplo, telefones PBX).</span><span class="sxs-lookup"><span data-stu-id="acc9e-113">The trunk is defined for a Mediation Server peer that doesn’t egress calls to the PSTN and services users with legacy phones in a static locations (i.e. PBX phones).</span></span> <span data-ttu-id="acc9e-114">Para essa configuração específica, todas as chamadas de entrada encaminhadas por um tronco desse tipo serão consideradas como originadas do mesmo local de rede do tronco.</span><span class="sxs-lookup"><span data-stu-id="acc9e-114">For this particular configuration, all incoming calls routed by a trunk of this type will be considered to be originating from the same network site as the trunk.</span></span> <span data-ttu-id="acc9e-115">As chamadas de usuários do PBX terão a mesma imposição de roteamento com base no local que os usuários do Lync que estão localizados no mesmo local de rede que o tronco.</span><span class="sxs-lookup"><span data-stu-id="acc9e-115">Calls from PBX users will have the same Location-Based Routing enforcement as Lync users who are located in the same network site as the trunk.</span></span> <span data-ttu-id="acc9e-116">Se dois sistemas PBX localizados em sites de rede separados estiverem conectados por meio do Lync Server, o roteamento baseado em local permitirá o roteamento de um ponto de extremidade de PBX em um site de rede para outro ponto de extremidade de PBX no outro site de rede.</span><span class="sxs-lookup"><span data-stu-id="acc9e-116">If two PBX systems located in separate network sites are connected through Lync Server, Location-Based Routing will allow routing from one PBX endpoint in one network site to another PBX endpoint in the other network site.</span></span> <span data-ttu-id="acc9e-117">Esse cenário não será bloqueado pelo roteamento baseado em local.</span><span class="sxs-lookup"><span data-stu-id="acc9e-117">This scenario will not be blocked by Location-Based Routing.</span></span> <span data-ttu-id="acc9e-118">Além desse cenário e, de forma semelhante, como um usuário do Lync no mesmo local, os pontos de extremidade conectados a um servidor de mediação de servidor com essa configuração poderão fazer ou receber chamadas para e de outros pontos do servidor de mediação que não roteiam chamadas para o PSTN (i. e. um ponto de extremidade conectado a um PBX diferente) independentemente do site de rede ao qual o servidor de mediação está associado.</span><span class="sxs-lookup"><span data-stu-id="acc9e-118">In addition to this scenario and in a similar way as a Lync user in the same location, endpoints connected to a Mediation Server peer with this configuration will be able to make or receive calls to and from other Mediation Server peer that do not route calls to the PSTN (i.e. an endpoint connected to a different PBX) regardless of the network site to which the Mediation Server peer is associated.</span></span> <span data-ttu-id="acc9e-119">Todas as chamadas recebidas, chamadas de saída, transferências de chamadas e encaminhamentos de chamadas que envolvem pontos de extremidade PSTN estarão sujeitas ao roteamento baseado em localização para usar somente gateways PSTN definidos como locais para o peer do servidor de mediação.</span><span class="sxs-lookup"><span data-stu-id="acc9e-119">All inbound calls, outbound calls, call transfers and call forwards involving PSTN endpoints will be subject to Location Based Routing to use only PSTN gateways that are defined as local to such Mediation Server peer.</span></span>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="acc9e-120">Confira também</span><span class="sxs-lookup"><span data-stu-id="acc9e-120">See Also</span></span>
+
+
+[<span data-ttu-id="acc9e-121">Orientação para Roteamento Baseado em Local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acc9e-121">Guidance for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-guidance-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

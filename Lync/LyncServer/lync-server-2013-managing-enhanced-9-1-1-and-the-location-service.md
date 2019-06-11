@@ -1,26 +1,67 @@
-﻿---
-title: 'Lync Server 2013: Gerenciando 9-1-1 Avançado e serviço de Local'
-TOCTitle: Gerenciando 9-1-1 Avançado e serviço de Local
-ms:assetid: 307c5aeb-9917-46a2-a95d-de30dea27beb
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688012(v=OCS.15)
-ms:contentKeyID: 49886159
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Gerenciando 9-1-1 Avançado e serviço de Local'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing Enhanced 9-1-1 and the Location service
+ms:assetid: 307c5aeb-9917-46a2-a95d-de30dea27beb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688012(v=OCS.15)
+ms:contentKeyID: 49733600
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4424b493218cb9c59395fe586a866d6f5f7035a8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828058"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gerenciando 9-1-1 Avançado e serviço de Local no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-11-01_
+# <a name="managing-enhanced-9-1-1-and-the-location-service-in-lync-server-2013"></a><span data-ttu-id="6d9e5-102">Gerenciando 9-1-1 Avançado e serviço de Local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d9e5-102">Managing Enhanced 9-1-1 and the Location service in Lync Server 2013</span></span>
 
-O Lync Server 2013 suporta a chamada de 9-1-1 Avançada (E9-1-1) dos clientes do Lync e dispositivos do Lync Phone Edition. Ao configurar o Lync Server 2013 para E9-1-1, chamadas de emergência colocadas do Lync 2013 ou Lync Phone Edition incluem informações do Local da Resposta de Emergência (ERL) do banco de dados do Serviço de Informações de Local. Use os procedimentos nesta seção para gerenciar a política local.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="6d9e5-103">_**Tópico da última modificação:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="6d9e5-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+
+<span data-ttu-id="6d9e5-104">O Lync Server 2013 dá suporte à chamada Enhanced 9-1-1 (E9-1-1) dos clientes do Lync e dos dispositivos Lync Phone Edition.</span><span class="sxs-lookup"><span data-stu-id="6d9e5-104">Lync Server 2013 supports Enhanced 9-1-1 (E9-1-1) calling from Lync clients and Lync Phone Edition devices.</span></span> <span data-ttu-id="6d9e5-105">Quando você configura o Lync Server 2013 para E9-1-1, as chamadas de emergência do Lync 2013 ou do Lync Phone Edition incluem informações de local de resposta de emergência (ERL) do banco de dados do serviço de informações de localização.</span><span class="sxs-lookup"><span data-stu-id="6d9e5-105">When you configure Lync Server 2013 for E9-1-1, emergency calls placed from Lync 2013 or Lync Phone Edition include Emergency Response Location (ERL) information from the Location Information service database.</span></span> <span data-ttu-id="6d9e5-106">Use os procedimentos desta seção para gerenciar a política de localização.</span><span class="sxs-lookup"><span data-stu-id="6d9e5-106">Use the procedures in this section to manage location policy.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Para obter detalhes sobre a implantação dos recursos avançados do Enterprise Voice, como o E9-1-1 e o Serviço de Informações de Local, consulte <a href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Implantando recursos avançados de Enterprise Voice no Lync Server 2013</a>.
+> <span data-ttu-id="6d9e5-107">Para obter detalhes sobre a implantação de recursos avançados do Enterprise Voice, como E9-1-1 e o local Information Service, consulte Implantando <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">recursos avançados do Enterprise Voice no Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="6d9e5-107">For details on deploying advanced Enterprise Voice features, such as E9-1-1 and the Location Information service, see <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Deploying advanced Enterprise Voice features in Lync Server 2013</A>.</span></span>
 
-## Nesta seção
 
-  - [Gerenciando a Política de Local no Lync Server 2013](lync-server-2013-managing-location-policy.md)
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="6d9e5-108">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="6d9e5-108">In This Section</span></span>
+
+  - [<span data-ttu-id="6d9e5-109">Gerenciando a política de localização no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d9e5-109">Managing location policy in Lync Server 2013</span></span>](lync-server-2013-managing-location-policy.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

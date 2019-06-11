@@ -1,25 +1,55 @@
-﻿---
-title: 'Lync Server 2013: Preparando seu ambiente para VDI'
-TOCTitle: Preparando seu ambiente para VDI
-ms:assetid: a3ec2e13-1a73-4b1c-a54a-8db7d4cd50f9
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205154(v=OCS.15)
-ms:contentKeyID: 49307674
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Preparando seu ambiente para VDI'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing your environment for VDI
+ms:assetid: a3ec2e13-1a73-4b1c-a54a-8db7d4cd50f9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205154(v=OCS.15)
+ms:contentKeyID: 48185052
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5081d1267b9de521ebd17fa5f3ec5ae57a912970
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823697"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Preparando seu ambiente no Lync Server 2013 para VDI
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-22_
+# <a name="preparing-your-lync-server-2013-environment-for-vdi"></a><span data-ttu-id="65b52-102">Preparando seu ambiente no Lync Server 2013 para VDI</span><span class="sxs-lookup"><span data-stu-id="65b52-102">Preparing your Lync Server 2013 environment for VDI</span></span>
 
-Para preparar o ambiente para o plug-in VDI do Lync, o administrador deve executar o seguinte procedimento.
+</div>
 
-1.  No Lync Server 2013, certifique-se de que o EnableMediaRedirection está definido como TRUE para todos os usuários VDI. Para obter detalhes, consulte os tópicos da Ajuda para o cmdlet [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) e o cmdlet [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy).
+<div id="mainSection">
 
-2.  No computador do data center, instale o cliente do Lync 2013 em todas as máquinas virtuais.
+<div id="mainBody">
 
-3.  Nos computadores locais, instale o plug-in VDI do Lync.
+<span> </span>
+
+<span data-ttu-id="65b52-103">_**Tópico da última modificação:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="65b52-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+
+<span data-ttu-id="65b52-104">Para preparar o ambiente para o plug-in VDI do Lync, o administrador deve executar as etapas a seguir.</span><span class="sxs-lookup"><span data-stu-id="65b52-104">To prepare the environment for the Lync VDI plug-in, the administrator must perform the following steps.</span></span>
+
+1.  <span data-ttu-id="65b52-105">No Lync Server 2013, certifique-se de que EnableMediaRedirection está definido como TRUE para todos os usuários do VDI.</span><span class="sxs-lookup"><span data-stu-id="65b52-105">In Lync Server 2013, ensure that EnableMediaRedirection is set to TRUE for all VDI users.</span></span> <span data-ttu-id="65b52-106">Para obter detalhes, consulte os tópicos da ajuda para o cmdlet [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) e o cmdlet [set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) .</span><span class="sxs-lookup"><span data-stu-id="65b52-106">For details, see the Help topics for the [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) cmdlet and the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) cmdlet.</span></span>
+
+2.  <span data-ttu-id="65b52-107">No computador do Data Center, instale o cliente do Lync 2013 em todas as máquinas virtuais.</span><span class="sxs-lookup"><span data-stu-id="65b52-107">On the data center computer, install the Lync 2013 client on all virtual machines.</span></span>
+
+3.  <span data-ttu-id="65b52-108">Nos computadores locais, instale o plug-in VDI do Lync.</span><span class="sxs-lookup"><span data-stu-id="65b52-108">On the local computers, install the Lync VDI plug-in.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

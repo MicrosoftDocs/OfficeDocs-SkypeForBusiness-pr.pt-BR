@@ -1,58 +1,119 @@
-﻿---
-title: "Lync Server 2013: Pré-requisitos de config. e segurança p/ Entreprise Voice"
-TOCTitle: " Pré-requisitos de configuração e segurança para Entreprise Voice"
-ms:assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398221(v=OCS.15)
-ms:contentKeyID: 49305998
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Pré-requisitos de configuração e segurança para Entreprise Voice
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Security and configuration prerequisites for Enterprise Voice
+ms:assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398221(v=OCS.15)
+ms:contentKeyID: 48183495
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d06cdb4c679d1a40eb5c6fa0e8cf837ec8d2e332
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822052"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Pré-requisitos de configuração e segurança para Entreprise Voice no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-18_
+# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="76abc-102">Pré-requisitos de configuração e segurança para o Enterprise Voice no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="76abc-102">Security and configuration prerequisites for Enterprise Voice in Lync Server 2013</span></span>
 
-Verifique se a sua infraestrutura atende aos seguintes pré-requisitos de segurança, configuração do usuário e hardware específico ao cenário.
+</div>
 
-## Direitos Administrativos e Infraestrutura do Certificado
+<div id="mainSection">
 
-Certifique-se que o ambiente está configurado com os grupos de usuários administrativos e infraestrutura de certificado para o uso durante o processo de implantação do Enterprise Voice.
+<div id="mainBody">
 
-  - Os administradores responsáveis pela implantação do Enterprise Voice devem ser membros do grupo RTCUniversalServerAdmins.
+<span> </span>
 
-  - Administradores realizando as tarefas de configuração devem ter direitos adequados:
+<span data-ttu-id="76abc-103">_**Tópico da última modificação:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="76abc-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+
+<span data-ttu-id="76abc-104">Verifique se a sua infraestrutura atende às seguintes configurações de segurança, configuração do usuário e de hardware específicas do cenário.</span><span class="sxs-lookup"><span data-stu-id="76abc-104">Verify that your infrastructure meets the following security, user configuration, and scenario-specific hardware prerequisites.</span></span>
+
+<div>
+
+## <a name="administrative-rights-and-certificate-infrastructure"></a><span data-ttu-id="76abc-105">Direitos administrativos e infraestrutura de certificado</span><span class="sxs-lookup"><span data-stu-id="76abc-105">Administrative Rights and Certificate Infrastructure</span></span>
+
+<span data-ttu-id="76abc-106">Certifique-se de que seu ambiente esteja configurado com os seguintes grupos de usuários administrativos e infraestrutura de certificado para uso durante o processo de implantação do Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="76abc-106">Be sure that your environment is configured with the following administrative user groups and certificate infrastructure for use during the Enterprise Voice deployment process.</span></span>
+
+  - <span data-ttu-id="76abc-107">Os administradores que implantam o Enterprise Voice devem ser membros do grupo RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="76abc-107">Administrators deploying Enterprise Voice should be members of the RTCUniversalServerAdmins group.</span></span>
+
+  - <span data-ttu-id="76abc-108">Administradores realizando as tarefas de configuração devem ter direitos adequados:</span><span class="sxs-lookup"><span data-stu-id="76abc-108">Administrators performing the configuration tasks must have adequate rights:</span></span>
     
-      - **CsVoiceAdministrator:** Essa função de administrador pode realizar as tarefas de configuração de voz, gerenciar os aplicativos de voz e designar as políticas de voz aos usuários finais.
+      - <span data-ttu-id="76abc-109">**CsVoiceAdministrator:** Essa função de administrador pode realizar as tarefas de configuração de voz, gerenciar os aplicativos de voz e designar as políticas de voz aos usuários finais.</span><span class="sxs-lookup"><span data-stu-id="76abc-109">**CsVoiceAdministrator:** This administrator role can perform voice configuration tasks, manage voice applications, and assign voice policies to end users.</span></span>
     
-      - **CsUserAdministrator:** Essa função de administrador pode gerenciar as propriedades do usuário, como habilitar o Enterprise Voice para um usuário, pode designar políticas por usuário, com exceção da política de arquivamento, além de mover usuários e gerenciar telefones de área comum e dispositivos análogos.
+      - <span data-ttu-id="76abc-p101">**CsUserAdministrator:** Essa função de administrador pode gerenciar as propriedades do usuário, como habilitar o Enterprise Voice para um usuário, pode designar políticas por usuário, com exceção da política de arquivamento, além de mover usuários e gerenciar telefones de área comum e dispositivos análogos.</span><span class="sxs-lookup"><span data-stu-id="76abc-p101">**CsUserAdministrator:** This administrator role can manage user properties, such as enabling Enterprise Voice for a user. This administrator role can also assign per-user policies, with the exception of the archiving policy; move users; and manage common area phones and analog devices.</span></span>
     
-      - **CsAdministrator:** Essa função de administrador pode realizar todas as tarefas do CsVoiceAdministrator e do CsUserAdministrator.
+      - <span data-ttu-id="76abc-112">**CsAdministrator:** Essa função de administrador pode realizar todas as tarefas do CsVoiceAdministrator e do CsUserAdministrator.</span><span class="sxs-lookup"><span data-stu-id="76abc-112">**CsAdministrator:** This administrator role can perform all of the tasks of CsVoiceAdministrator and CsUserAdministrator.</span></span>
     
-    > [!NOTE]  
-    > A representação permite que mais administradores participem da sua implantação do Lync Server sem abrir acessos não necessários a recursos.
-
-  - A infraestrutura de chave gerenciada (MKI) é implantada e configurada, usando uma infraestrutura de autoridade de certificação (CA) da Microsoft ou de um terceiro.
+    <div>
     
-    > [!NOTE]  
-    > Para obter detalhes sobre os requisitos do certificado do Lync Server, consulte <a href="lync-server-2013-certificate-infrastructure-requirements.md">Requisitos de infraestrutura de certificado para o Lync Server 2013</a> na documentação de Planejamento.
 
-## Configuração do usuário
+    > [!NOTE]
+    > <span data-ttu-id="76abc-113">A delegação permite que mais administradores participem da sua implantação do Lync Server sem abrir o acesso desnecessário aos recursos.</span><span class="sxs-lookup"><span data-stu-id="76abc-113">Delegation enables more administrators to participate in your Lync Server deployment without opening up unnecessary access to resources.</span></span>
 
-Se você colocou o Servidor de Mediação com cada pool de Front-Ends ou Servidor Standard Edition durante a implantação do Front-Ends, as configurações de usuário necessárias para Enterprise Voice foram configuradas automaticamente durante a instalação dos arquivos dessas funções do servidor.
+    
+    </div>
 
-Se você estiver recém implantando a carga de trabalho do Enterprise Voice, antes de iniciar o processo de implantação, designe um número de telefone principal para cada usuário que você planeja habilitar para o Enterprise Voice. Como administrador, você é responsável por certificar-se que esse número seja exclusivo. Antes da implementação, todos os números de telefone principais devem ser normalizados (corretamente formatados) e copiados para a propriedade **URI da Linha** de cada usuário, usando o Painel de Controle do Lync Server.
+  - <span data-ttu-id="76abc-114">A infraestrutura de chave gerenciada (MKI) é implantada e configurada, usando uma infraestrutura de autoridade de certificação (CA) da Microsoft ou de um terceiro.</span><span class="sxs-lookup"><span data-stu-id="76abc-114">Managed key infrastructure (MKI) is deployed and configured, by using either a Microsoft or a third-party certification authority (CA) infrastructure.</span></span>
+    
+    <div>
+    
 
-> [!NOTE]  
-> Para obter exemplos dos números de telefone principais necessários para a implantação do Enterprise Voice, consulte a seção <a href="lync-server-2013-dial-plans-and-normalization-rules.md">Planos de discagem e regras de normalização no Lync Server 2013</a> do <a href="lync-server-2013-dial-plans-and-normalization-rules.md">Planos de discagem e regras de normalização no Lync Server 2013</a> na documentação de Planejamento.
+    > [!NOTE]
+    > <span data-ttu-id="76abc-115">Para obter detalhes sobre os requisitos de certificado no Lync Server, consulte <A href="lync-server-2013-certificate-infrastructure-requirements.md">requisitos de infraestrutura de certificado para o Lync Server 2013</A> na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="76abc-115">For details about certificate requirements in Lync Server, see <A href="lync-server-2013-certificate-infrastructure-requirements.md">Certificate infrastructure requirements for Lync Server 2013</A> in the Planning documentation.</span></span>
 
-## Próximas etapas: Instalar arquivos ou configurar a conectividade da PSTN
+    
+    </div>
 
-Depois de verificar os pré-requisitos de software e de ambiente para o Enterprise Voice, você pode usar o conteúdo a seguir para:
+</div>
 
-  - Instalar o Servidor de Mediação, conforme descrito em [Instalar os arquivos para o Servidor de Mediação no Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), mas se você só deseja implantar um pool ou Servidor de Mediação autônomo em razão de os Servidores de Mediação estarem instalados como partes do pool de Front-Ends ou do processo de implantação do Servidor Standard Edition quando colocado.
+<div>
 
-  - Ou, iniciar a configuração para rotear chamadas para os usuários do Enterprise Voice, conforme descrito em [Configurando troncos no Lync Server 2013](lync-server-2013-configuring-trunks.md).
+## <a name="user-configuration"></a><span data-ttu-id="76abc-116">Configuração do usuário</span><span class="sxs-lookup"><span data-stu-id="76abc-116">User Configuration</span></span>
+
+<span data-ttu-id="76abc-117">Se você colocar o servidor de mediação em cada pool de front-end ou servidor Standard Edition durante a implantação de front-end, as configurações de usuário necessárias para o Enterprise Voice foram configuradas automaticamente durante a instalação dos arquivos para essas funções de servidor.</span><span class="sxs-lookup"><span data-stu-id="76abc-117">If you collocated the Mediation Server with each Front End pool or Standard Edition server during Front End deployment, user settings necessary for Enterprise Voice were configured automatically during installation of the files for those server roles.</span></span>
+
+<span data-ttu-id="76abc-118">Se você estiver implantando a carga de trabalho de Enterprise Voice no momento, antes de começar o processo de implantação, designe um número de telefone principal para cada usuário que você planeja habilitar para o Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="76abc-118">If you are newly deploying the Enterprise Voice workload at this time, before you begin the deployment process, designate a primary phone number for each user who you plan to enable for Enterprise Voice.</span></span> <span data-ttu-id="76abc-119">Como administrador, você é responsável por certificar-se que esse número seja exclusivo.</span><span class="sxs-lookup"><span data-stu-id="76abc-119">As the administrator, you are responsible for ensuring that this number is unique.</span></span> <span data-ttu-id="76abc-120">Antes da implementação, todos os números de telefone primários devem ser normalizados (formatados corretamente) e copiados para cada propriedade de **URI de linha** do usuário usando o painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="76abc-120">Before implementation, all primary phone numbers must be normalized (correctly formatted) and copied to each user’s **Line URI** property using Lync Server Control Panel.</span></span>
+
+<div>
+
+
+> [!NOTE]
+> <span data-ttu-id="76abc-121">Para obter exemplos de números de telefone primários necessários para a implantação do Enterprise Voice, consulte a seção <A href="lync-server-2013-dial-plans-and-normalization-rules.md">planos de discagem e regras de normalização no Lync server 2013</A> de <A href="lync-server-2013-dial-plans-and-normalization-rules.md">planos de discagem e regras de normalização no Lync Server 2013</A> na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="76abc-121">For examples of primary phone numbers required for Enterprise Voice deployment, see the <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> section of <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> in the Planning documentation.</span></span>
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a><span data-ttu-id="76abc-122">Próximas etapas: instalar arquivos ou configurar a conectividade PSTN</span><span class="sxs-lookup"><span data-stu-id="76abc-122">Next Steps: Install Files or Configure PSTN Connectivity</span></span>
+
+<span data-ttu-id="76abc-123">Depois de verificar o software e os pré-requisitos ambientais para o Enterprise Voice, você pode usar o seguinte conteúdo para:</span><span class="sxs-lookup"><span data-stu-id="76abc-123">After verifying software and environmental prerequisites for Enterprise Voice, you can use the following content to either:</span></span>
+
+  - <span data-ttu-id="76abc-124">Instale o servidor de mediação, conforme descrito em [instalar os arquivos para o servidor de mediação no Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), mas somente se você quiser implantar um servidor ou pool autônomo de mediação, pois os servidores de mediação são instalados como parte do pool de front-ends ou padrão Edição do processo de implantação do servidor quando posicionado.</span><span class="sxs-lookup"><span data-stu-id="76abc-124">Install the Mediation Server, as described in [Install the files for Mediation Server in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), but only if you want to deploy a stand-alone Mediation Server or pool because Mediation Servers are installed as part of the Front End pool or Standard Edition server deployment process when collocated.</span></span>
+
+  - <span data-ttu-id="76abc-125">Ou comece a definir as configurações para direcionar as chamadas para usuários do Enterprise Voice, conforme descrito em Configurando [troncos no Lync Server 2013](lync-server-2013-configuring-trunks.md).</span><span class="sxs-lookup"><span data-stu-id="76abc-125">Or, begin configuring settings to route calls for Enterprise Voice users, as described in [Configuring trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

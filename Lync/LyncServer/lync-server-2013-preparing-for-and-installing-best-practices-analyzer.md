@@ -1,67 +1,109 @@
-﻿---
-title: Preparando e Instando o Analisador de Práticas Recomendadas
-TOCTitle: Preparando e Instando o Analisador de Práticas Recomendadas
-ms:assetid: 550613dd-dc08-482e-9980-a3fe187cd162
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg591347(v=OCS.15)
-ms:contentKeyID: 49306740
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: preparando e instalando o analisador de práticas recomendadas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing for and installing Best Practices Analyzer
+ms:assetid: 550613dd-dc08-482e-9980-a3fe187cd162
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591347(v=OCS.15)
+ms:contentKeyID: 48184149
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 58d1d2f86b579bfb0259c8ad3e4b26b051b47a8b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823921"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Preparando e Instando o Analisador de Práticas Recomendadas
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="418b6-102">Preparando e instalando o analisador de práticas recomendadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="418b6-102">Preparing for and installing Best Practices Analyzer in Lync Server 2013</span></span>
 
-Você deve estar conectado como um membro do grupo Administradores para executar as tarefas que estão descritas neste tópico.
+</div>
 
-## Os requisitos de sistema para a instalação do Analisador de Práticas Recomendadas
+<div id="mainSection">
 
-Para executar o Lync Server 2013, o Analisador de Práticas Recomendadas para examinar o seu ambiente, o computador deve estar executando uma edição de 64 bits de um ou mais dos seguintes sistemas operacionais:
+<div id="mainBody">
 
-  - O sistema operacional Windows Server 2008 R2 com o Service Pack 1 (SP1) Standard
+<span> </span>
 
-  - O sistema operacional Windows Server 2008 R2 com o SP1 Enterprise
+<span data-ttu-id="418b6-103">_**Tópico da última modificação:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="418b6-103">_**Topic Last Modified:** 2013-11-07_</span></span>
 
-  - O sistema operacional Windows Server 2008 R2 com o SP1 Datacenter
+<span data-ttu-id="418b6-104">Você deve estar conectado como um membro do grupo Administradores para executar as tarefas descritas neste tópico.</span><span class="sxs-lookup"><span data-stu-id="418b6-104">You must be logged on as a member of the Administrators group to perform the tasks that are described in this topic.</span></span>
 
-  - O sistema operacional Windows Server 2012 Datacenter
+<div>
 
-  - O sistema operacional Windows Server 2012 Standard
+## <a name="system-requirements-for-best-practices-analyzer-installation"></a><span data-ttu-id="418b6-105">Requisitos do sistema para a instalação do analisador de práticas recomendadas</span><span class="sxs-lookup"><span data-stu-id="418b6-105">System Requirements for Best Practices Analyzer Installation</span></span>
 
-  - O sistema operacional Windows Server 2012 Enterprise
+<span data-ttu-id="418b6-106">Para executar o Lync Server 2013, o analisador de práticas recomendadas para verificar seu ambiente, o computador deve estar executando uma edição de 64 bits de um dos seguintes sistemas operacionais:</span><span class="sxs-lookup"><span data-stu-id="418b6-106">To run Lync Server 2013, Best Practices Analyzer to scan your environment, the computer must be running a 64-bit edition of one of the following operating systems:</span></span>
 
-  - Sistema Operacional do Datacenter do Windows Server 2012 R2
+  - <span data-ttu-id="418b6-107">Sistema operacional padrão do Windows Server 2008 R2 com Service Pack 1 (SP1)</span><span class="sxs-lookup"><span data-stu-id="418b6-107">Windows Server 2008 R2 with Service Pack 1 (SP1) Standard operating system</span></span>
 
-  - Sistema Operacional Padrão do Windows Server 2012 R2
+  - <span data-ttu-id="418b6-108">Sistema operacional Windows Server 2008 R2 com SP1 Enterprise</span><span class="sxs-lookup"><span data-stu-id="418b6-108">Windows Server 2008 R2 with SP1 Enterprise operating system</span></span>
 
-  - Sistema Operacional do Enterprise do Windows Server 2012 R2
+  - <span data-ttu-id="418b6-109">Sistema operacional de datacenter do Windows Server 2008 R2 com SP1</span><span class="sxs-lookup"><span data-stu-id="418b6-109">Windows Server 2008 R2 with SP1 Datacenter operating system</span></span>
 
-  - O sistema operacional Windows 8
+  - <span data-ttu-id="418b6-110">Sistema operacional Windows Server 2012 datacenter</span><span class="sxs-lookup"><span data-stu-id="418b6-110">Windows Server 2012 Datacenter operating system</span></span>
 
-  - O sistema operacional Windows 7
+  - <span data-ttu-id="418b6-111">Sistema operacional padrão do Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="418b6-111">Windows Server 2012 Standard operating system</span></span>
 
-O computador também deve estar executando o seguinte:
+  - <span data-ttu-id="418b6-112">Sistema operacional Windows Server 2012 Enterprise</span><span class="sxs-lookup"><span data-stu-id="418b6-112">Windows Server 2012 Enterprise operating system</span></span>
 
-  - Microsoft .NET Framework 4.5. Para o Lync Server 2013, você deve instalar manualmente a edição de 64 bits do Microsoft .NET Framework 4.5 no servidor antes de instalar Lync Server 2013.
+  - <span data-ttu-id="418b6-113">Sistema operacional Windows Server 2012 R2 Datacenter</span><span class="sxs-lookup"><span data-stu-id="418b6-113">Windows Server 2012 R2 Datacenter operating system</span></span>
 
-  - Lync Server 2013, Componentes Principais.
+  - <span data-ttu-id="418b6-114">Sistema operacional padrão do Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="418b6-114">Windows Server 2012 R2 Standard operating system</span></span>
 
-  - Pacote de compatibilidade com versões anteriores da WMI. Para obter detalhes, consulte [Instalar o pacote de Compatibilidade com Versões Anteriores](install-wmi-backward-compatibility-package.md) na Documentação de migração.
+  - <span data-ttu-id="418b6-115">Sistema operacional Windows Server 2012 R2 Enterprise</span><span class="sxs-lookup"><span data-stu-id="418b6-115">Windows Server 2012 R2 Enterprise operating system</span></span>
 
-  - Windows PowerShell 3.0. Para obter detalhes, consulte [Instalando Windows PowerShell 3.0 para Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md) na Documentação de implantação.
+  - <span data-ttu-id="418b6-116">Sistema operacional Windows 8</span><span class="sxs-lookup"><span data-stu-id="418b6-116">Windows 8 operating system</span></span>
 
-Você pode instalar o Analisador de Práticas Recomendadas nos computadores com um sistema operacional suportado que não esteja executando o Lync Server 2013, Componentes Principais ou Pacote de compatibilidade com versões anteriores da WMI, mas é possível utilizar o Analisador de Práticas Recomendadas nesses computadores somente para visualizar relatórios, não para executar verificações.
+  - <span data-ttu-id="418b6-117">Sistema operacional Windows 7</span><span class="sxs-lookup"><span data-stu-id="418b6-117">Windows 7 operating system</span></span>
 
-## Escolhendo um computador para instalação
+<span data-ttu-id="418b6-118">O computador também deve estar executando o seguinte:</span><span class="sxs-lookup"><span data-stu-id="418b6-118">The computer must also be running the following:</span></span>
 
-Recomendamos que você instale o Lync Server 2013, o Analisador de Práticas Recomendadas em um computador que está dedicado ao gerenciamento do Lync Server 2013. Você pode instalar a ferramenta em um servidor executando o Lync Server 2013 ou um computador administrativo executando ferramentas administrativas do Lync Server 2013. Se você instalar a ferramenta em um servidor que esteja executando o Lync Server, recomendamos que você utilize a ferramenta para examinar somente esse servidor.
+  - <span data-ttu-id="418b6-119">Microsoft .NET Framework 4,5.</span><span class="sxs-lookup"><span data-stu-id="418b6-119">Microsoft .NET Framework 4.5.</span></span> <span data-ttu-id="418b6-120">Para o Lync Server 2013, você deve instalar manualmente a edição de 64 bits do Microsoft .NET Framework 4,5 no servidor antes de instalar o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="418b6-120">For Lync Server 2013, you must manually install the 64-bit edition of Microsoft .NET Framework 4.5 on the server prior to installing Lync Server 2013.</span></span>
 
-## Instalando o Analisador de Práticas Recomendadas
+  - <span data-ttu-id="418b6-121">Lync Server 2013, componentes principais.</span><span class="sxs-lookup"><span data-stu-id="418b6-121">Lync Server 2013, Core Components.</span></span>
 
-Você pode fazer download do Analisador de Práticas Recomendadas para o Lync Server 2013 em [http://go.microsoft.com/fwlink/?linkid=266539\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=266539%26clcid=0x416).
+  - <span data-ttu-id="418b6-122">Pacote de compatibilidade com versões anteriores do WMI.</span><span class="sxs-lookup"><span data-stu-id="418b6-122">WMI Backward Compatibility Package.</span></span> <span data-ttu-id="418b6-123">Para obter detalhes, consulte [instalar o pacote de compatibilidade com versões anteriores do WMI](install-wmi-backward-compatibility-package.md) na documentação de migração.</span><span class="sxs-lookup"><span data-stu-id="418b6-123">For details, see [Install WMI Backward Compatibility package](install-wmi-backward-compatibility-package.md) in the Migration documentation.</span></span>
 
-Para instalar o Analisador de Práticas Recomendadas, inicie o arquivo RtcBPA.msi do Arquivo Microsoft Installer (.msi) no computador no qual você deseja instalar a ferramenta e, em seguida, siga as instruções na tela. A localização padrão para instalação dos arquivos de programas é *\<system drive\>*\\Program Files\\Lync Server 2013\\BPA.
+  - <span data-ttu-id="418b6-124">Windows PowerShell 3,0.</span><span class="sxs-lookup"><span data-stu-id="418b6-124">Windows PowerShell 3.0.</span></span> <span data-ttu-id="418b6-125">Para obter detalhes, consulte Instalando o [Windows PowerShell 3,0 para Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md) na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="418b6-125">For details, see [Installing Windows PowerShell 3.0 for Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md) in the Deployment documentation.</span></span>
+
+<span data-ttu-id="418b6-126">Você pode instalar o analisador de práticas recomendadas em computadores com um sistema operacional com suporte que não esteja executando o Lync Server 2013, componentes principais ou pacote de compatibilidade com versões anteriores do WMI, mas você pode usar o analisador de práticas recomendadas apenas nesses computadores para ver relatórios e não para executar verificações.</span><span class="sxs-lookup"><span data-stu-id="418b6-126">You can install Best Practices Analyzer on computers with a supported operating system that are not running Lync Server 2013, Core Components or WMI Backward Compatibility Package, but you can use Best Practices Analyzer on those computers only to view reports, not to run scans.</span></span>
+
+</div>
+
+<div>
+
+## <a name="choosing-a-computer-for-installation"></a><span data-ttu-id="418b6-127">Escolher um computador para instalação</span><span class="sxs-lookup"><span data-stu-id="418b6-127">Choosing a Computer for Installation</span></span>
+
+<span data-ttu-id="418b6-128">Recomendamos que você instale o Lync Server 2013, o analisador de práticas recomendadas em um computador dedicado ao gerenciamento do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="418b6-128">We recommend that you install Lync Server 2013, Best Practices Analyzer on a computer that is dedicated to Lync Server 2013 management.</span></span> <span data-ttu-id="418b6-129">Você pode instalar a ferramenta em um servidor que executa o Lync Server 2013 ou um computador administrativo executando o Lync Server 2013 ferramentas administrativas.</span><span class="sxs-lookup"><span data-stu-id="418b6-129">You can install the tool on a server running Lync Server 2013 or an administrative computer running Lync Server 2013 administrative tools.</span></span> <span data-ttu-id="418b6-130">Se você instalar a ferramenta em um servidor que está executando o Lync Server, recomendamos usar a ferramenta para verificar somente esse servidor.</span><span class="sxs-lookup"><span data-stu-id="418b6-130">If you install the tool on a server that is running Lync Server, we recommend that you use the tool to scan only that server.</span></span>
+
+</div>
+
+<div>
+
+## <a name="installing-best-practices-analyzer"></a><span data-ttu-id="418b6-131">Instalando o analisador de práticas recomendadas</span><span class="sxs-lookup"><span data-stu-id="418b6-131">Installing Best Practices Analyzer</span></span>
+
+<span data-ttu-id="418b6-132">Você pode baixar o analisador de práticas recomendadas para o [http://go.microsoft.com/fwlink/p/?linkId=266539](http://go.microsoft.com/fwlink/p/?linkid=266539)Lync Server 2013 em.</span><span class="sxs-lookup"><span data-stu-id="418b6-132">You can download the Best Practices Analyzer for Lync Server 2013 at [http://go.microsoft.com/fwlink/p/?linkId=266539](http://go.microsoft.com/fwlink/p/?linkid=266539).</span></span>
+
+<span data-ttu-id="418b6-133">Para instalar o analisador de práticas recomendadas, inicie o arquivo Microsoft Installer RtcBPA. msi no computador onde você deseja instalar a ferramenta e siga as instruções na tela.</span><span class="sxs-lookup"><span data-stu-id="418b6-133">To install Best Practices Analyzer, start the Microsoft Installer file RtcBPA.msi on the computer where you want to install the tool, and then follow the instructions on the screen.</span></span> <span data-ttu-id="418b6-134">O local padrão para a instalação dos arquivos de \<programa é\>\\arquivos\\de programa da unidade\\do sistema, Lync Server 2013 BPA.</span><span class="sxs-lookup"><span data-stu-id="418b6-134">The default location for installing the program files is \<system drive\>\\Program Files\\Lync Server 2013\\BPA.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
