@@ -1,67 +1,121 @@
-﻿---
-title: Criar ou modificar rotas da região de rede
-TOCTitle: Criar ou modificar rotas da região de rede
-ms:assetid: 76993daa-76c2-4cec-8363-de8aebef0145
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg521016(v=OCS.15)
-ms:contentKeyID: 49307153
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Criando ou modificando rotas de região de rede'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Creating or modifying network region routes
+ms:assetid: 76993daa-76c2-4cec-8363-de8aebef0145
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521016(v=OCS.15)
+ms:contentKeyID: 48184540
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2f31daafe6cafbf74f9f12812f8259c24cfa7349
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829758"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Criar ou modificar rotas da região de rede
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-08_
+# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a><span data-ttu-id="2c759-102">Criando ou modificando rotas de região de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2c759-102">Creating or modifying network region routes in Lync Server 2013</span></span>
 
-Cada região de uma configuração do serviço de controle de admissão de chamadas (CAC) deve ter alguma maneira de acessar todas as outras regiões. Enquanto os links de regiões definem limitações de largura de banda nas conexões entre regiões e também representam os links físicos, uma rota determina qual caminho vinculado a conexão vai percorrer de uma região para a outra. Você pode usar o Painel de Controle do Lync Server para configurar as rotas de região de rede. No Painel de Controle do Lync Server, você pode criar, modificar ou excluir uma rota de região de rede. Use este tópico para criar ou modificar uma rota de região de rede. Para obter mais detalhes sobre a exclusão de rotas de região de rede existentes, consulte [Excluindo rotas da região de rede existentes](lync-server-2013-deleting-existing-network-region-routes.md).
+</div>
 
-## Para criar uma rota de região de rede
+<div id="mainSection">
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+<div id="mainBody">
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Na barra de navegação esquerda, clique em **Configuração de Rede** e em **Rota de Região**.
+<span data-ttu-id="2c759-103">_**Tópico da última modificação:** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="2c759-103">_**Topic Last Modified:** 2012-10-08_</span></span>
 
-4.  Na página **Rota de Região**, clique em **Novo**.
+<span data-ttu-id="2c759-104">Todas as regiões em uma configuração de controle de admissão de chamadas (CAC) devem ter alguma maneira de acessar todas as outras regiões.</span><span class="sxs-lookup"><span data-stu-id="2c759-104">Every region within a call admission control (CAC) configuration must have some way to access every other region.</span></span> <span data-ttu-id="2c759-105">Enquanto links de região definem as limitações de largura de banda nas conexões entre regiões e também representam os links físicos, uma rota determina qual caminho vinculado a conexão passará de uma região para outra.</span><span class="sxs-lookup"><span data-stu-id="2c759-105">While region links set bandwidth limitations on the connections between regions and also represent the physical links, a route determines which linked path the connection will traverse from one region to another.</span></span> <span data-ttu-id="2c759-106">Você pode usar o painel de controle do Lync Server para configurar rotas de região de rede.</span><span class="sxs-lookup"><span data-stu-id="2c759-106">You can use Lync Server Control Panel to configure network region routes.</span></span> <span data-ttu-id="2c759-107">No painel de controle do Lync Server, você pode criar, modificar ou excluir uma rota de região de rede.</span><span class="sxs-lookup"><span data-stu-id="2c759-107">From Lync Server Control Panel, you can create, modify, or delete a network region route.</span></span> <span data-ttu-id="2c759-108">Use este tópico para criar ou modificar uma rota de região de rede.</span><span class="sxs-lookup"><span data-stu-id="2c759-108">Use this topic to create or modify a network region route.</span></span> <span data-ttu-id="2c759-109">Para obter detalhes sobre como excluir um roteiro de região de rede existente, consulte [excluindo rotas de região de rede existentes no Lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md).</span><span class="sxs-lookup"><span data-stu-id="2c759-109">For details about deleting an existing network region routes, see [Deleting existing network region routes in Lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md).</span></span>
 
-5.  Em **Nova Rota de Região**, digite um valor no campo **Nome**.
+<div>
+
+## <a name="to-create-a-network-region-route"></a><span data-ttu-id="2c759-110">Para criar uma rota de região de rede</span><span class="sxs-lookup"><span data-stu-id="2c759-110">To create a network region route</span></span>
+
+1.  <span data-ttu-id="2c759-111">Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="2c759-111">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="2c759-112">Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="2c759-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="2c759-113">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="2c759-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="2c759-114">Na barra de navegação à esquerda, clique em **configuração de rede** e, em seguida, clique em **rota de região**.</span><span class="sxs-lookup"><span data-stu-id="2c759-114">In the left navigation bar, click **Network Configuration** and then click **Region Route**.</span></span>
+
+4.  <span data-ttu-id="2c759-115">Na página **rota de região** , clique em **novo**.</span><span class="sxs-lookup"><span data-stu-id="2c759-115">On the **Region Route** page, click **New**.</span></span>
+
+5.  <span data-ttu-id="2c759-116">Em **nova rota de região**, digite um valor no campo **nome** .</span><span class="sxs-lookup"><span data-stu-id="2c759-116">In **New Region Route**, type a value in the **Name** field.</span></span>
     
-    > [!NOTE]  
-    > Este valor deve ser exclusivo na sua implantação do Microsoft Lync Server 2013.
-
-6.  Na lista suspensa **Região de rede 1**, selecione uma das duas regiões que deve ser conectada por esta rota.
-
-7.  Na lista suspensa **Região de rede 2**, selecione a região para esta rota. Esta região deve ser diferente da região selecionada para a região de rede 1.
-
-8.  Use a caixa de listagem **Links de região de rede** para adicionar os links de região para a rota. Clique no botão **Adicionar** para exibir a página **Link de Região**. Clique em um link de região para adicionar a esta rota e clique em **OK**.
+    <div>
     
+
     > [!NOTE]  
-    > Continue a clicar no botão <strong>Adicionar</strong> para adicionar mais links, ou selecione um link e clique em <strong>Remover</strong> para remover um link.
+    > <span data-ttu-id="2c759-117">Esse valor deve ser exclusivo na implantação do Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2c759-117">This value must be unique within your Microsoft Lync Server 2013 deployment.</span></span>
 
-9.  Clique em **Confirmar**.
+    
+    </div>
 
-## Para modificar uma rota de região de rede
+6.  <span data-ttu-id="2c759-118">Na lista suspensa **região \#de rede 1** , selecione uma das duas regiões a serem conectadas por essa rota.</span><span class="sxs-lookup"><span data-stu-id="2c759-118">From the **Network region \#1** drop-down list, select one of the two regions to be connected by this route.</span></span>
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+7.  <span data-ttu-id="2c759-119">Na lista suspensa **região \#de rede 2** , selecione a outra região para esta rota.</span><span class="sxs-lookup"><span data-stu-id="2c759-119">From the **Network region \#2** drop-down list, select the other region for this route.</span></span> <span data-ttu-id="2c759-120">Esta região deve ser diferente da região selecionada para a região \#de rede 1.</span><span class="sxs-lookup"><span data-stu-id="2c759-120">This region must be different from the region selected for Network region \#1.</span></span>
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+8.  <span data-ttu-id="2c759-121">Use a caixa de listagem de **links de região de rede** para adicionar links de região ao roteiro.</span><span class="sxs-lookup"><span data-stu-id="2c759-121">Use the **Network region links** list box to add region links to the route.</span></span> <span data-ttu-id="2c759-122">Clique no botão **Adicionar** para exibir a página de **link de região** .</span><span class="sxs-lookup"><span data-stu-id="2c759-122">Click the **Add** button to display the **Region Link** page.</span></span> <span data-ttu-id="2c759-123">Clique em um link de região para adicionar a essa rota e, em seguida, clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="2c759-123">Click a region link to add to this route, and then click **OK**.</span></span>
+    
+    <div>
+    
 
-3.  Na barra de navegação esquerda, clique em **Configuração de Rede** e em **Rota de Região**.
+    > [!NOTE]  
+    > <span data-ttu-id="2c759-124">Continue a clicar no botão <STRONG>Adicionar</STRONG> para adicionar mais links ou selecionar um link e clicar em <STRONG>remover</STRONG> para remover um link.</span><span class="sxs-lookup"><span data-stu-id="2c759-124">Continue to click the <STRONG>Add</STRONG> button to add more links, or select a link and click <STRONG>Remove</STRONG> to remove a link.</span></span>
 
-4.  Na página **Rota de Região**, clique no roteiro de região que você deseja alterar.
+    
+    </div>
 
-5.  No menu **Editar**, clique em **Exibir detalhes**.
+9.  <span data-ttu-id="2c759-125">Clique em **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="2c759-125">Click **Commit**.</span></span>
 
-6.  Em **Editar rota de região**, você pode alterar as regiões associadas por essa rota e os links de região associados ao roteiro.
+</div>
 
-7.  Clique em **Confirmar**.
+<div>
 
-## Consulte Também
+## <a name="to-modify-a-network-region-route"></a><span data-ttu-id="2c759-126">Para modificar uma rota de região de rede</span><span class="sxs-lookup"><span data-stu-id="2c759-126">To modify a network region route</span></span>
 
-#### Tarefas
+1.  <span data-ttu-id="2c759-127">Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="2c759-127">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-[Excluindo rotas da região de rede existentes](lync-server-2013-deleting-existing-network-region-routes.md)
+2.  <span data-ttu-id="2c759-128">Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="2c759-128">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="2c759-129">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="2c759-129">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="2c759-130">Na barra de navegação à esquerda, clique em **configuração de rede** e, em seguida, clique em **rota de região**.</span><span class="sxs-lookup"><span data-stu-id="2c759-130">In the left navigation bar, click **Network Configuration** and then click **Region Route**.</span></span>
+
+4.  <span data-ttu-id="2c759-131">Na página **rota de região** , clique na rota de região que você deseja modificar.</span><span class="sxs-lookup"><span data-stu-id="2c759-131">On the **Region Route** page, click the region route that you want to modify.</span></span>
+
+5.  <span data-ttu-id="2c759-132">No menu **Editar**, clique em **Exibir detalhes**.</span><span class="sxs-lookup"><span data-stu-id="2c759-132">On the **Edit** menu, click **Show details**.</span></span>
+
+6.  <span data-ttu-id="2c759-133">Em **Editar rota de região**, você pode modificar as regiões Unidas por essa rota e os links de região associados à rota.</span><span class="sxs-lookup"><span data-stu-id="2c759-133">In **Edit Region Route**, you can modify the regions joined by this route and the region links associated with the route.</span></span>
+
+7.  <span data-ttu-id="2c759-134">Clique em **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="2c759-134">Click **Commit**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="2c759-135">Confira também</span><span class="sxs-lookup"><span data-stu-id="2c759-135">See Also</span></span>
+
+
+[<span data-ttu-id="2c759-136">Excluindo rotas de região de rede existentes no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2c759-136">Deleting existing network region routes in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-region-routes.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

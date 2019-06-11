@@ -1,361 +1,548 @@
-﻿---
-title: 'Lync Server 2013: Definir sua topologia de borda'
-TOCTitle: Definir sua topologia de borda
-ms:assetid: 787b23f1-8fa0-4c37-abf2-c516c5dd66f0
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398591(v=OCS.15)
-ms:contentKeyID: 49307182
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: definir sua topologia de borda'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Define your edge topology
+ms:assetid: 787b23f1-8fa0-4c37-abf2-c516c5dd66f0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398591(v=OCS.15)
+ms:contentKeyID: 48184562
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d8364d2167b719e020ecebc3808c2ca850d14bc0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829749"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Definir sua topologia de borda no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-28_
+# <a name="define-your-edge-topology-in-lync-server-2013"></a><span data-ttu-id="aa5bb-102">Definir sua topologia de borda no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aa5bb-102">Define your edge topology in Lync Server 2013</span></span>
 
-Você deve usar a Construtor de Topologias para criar sua topologia e configurar pelo menos um pool de Front-Ends internos ou um servidor Standard Edition antes de poder implantar seu Servidor de Borda. Use o procedimento a seguir para definir a topologia de borda para um único Servidor de Borda e use os procedimentos mostrados em [Publicar sua topologia no Lync Server 2013](lync-server-2013-publish-your-topology.md) e em [Exportar sua topologia do Lync Server 2013 e copiá-la na mídia externa para instalação de borda](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md) para publicar a topologia e disponibilizá-la no seu Servidor de Borda.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="aa5bb-103">_**Tópico da última modificação:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="aa5bb-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+
+<span data-ttu-id="aa5bb-104">Você deve usar o construtor de topologias para criar sua topologia e deve configurar pelo menos um pool de front-end interno ou um servidor Standard Edition para poder implantar o servidor de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-104">You must use Topology Builder to build your topology and you must set up at least one internal Front End pool or Standard Edition server before you can deploy your Edge Server.</span></span> <span data-ttu-id="aa5bb-105">Use o procedimento a seguir para definir a topologia de borda para um único servidor de borda e, em seguida, use os procedimentos em [publicar sua topologia no Lync server 2013](lync-server-2013-publish-your-topology.md) e [exportar sua topologia do Lync Server 2013 e copiá-la para a mídia externa para instalação do Edge](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md) para publicar a topologia e disponibilizá-la para o servidor de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-105">Use the following procedure to define the edge topology for a single Edge Server, and then use the procedures in [Publish your topology in Lync Server 2013](lync-server-2013-publish-your-topology.md) and [Export your Lync Server 2013 topology and copy it to external media for edge installation](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md) to publish the topology and make it available to your Edge Server.</span></span>
+
+<div>
 
 
 > [!NOTE]  
-> A interface de Borda interna e externa devem usar o mesmo tipo de balanceamento de carga. Não é possível usar o balanceamento de carga DNS na interface de Borda e o balanceamento de carga de hardware na outra interface de Borda.
+> <span data-ttu-id="aa5bb-106">As interfaces de Borda interna e externa precisam usar o mesmo tipo de balanceamento de carga.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-106">The internal Edge interface and external Edge interface must use the same type of load balancing.</span></span> <span data-ttu-id="aa5bb-107">Não é possível usar balanceamento de carga DNS em uma interface de Borda e balanceamento de carga de hardware na outra interface de Borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-107">You cannot use DNS load balancing on one Edge interface and hardware load balancing on the other Edge interface.</span></span>
 
 
-Para publicar, habilitar ou desabilitar uma topologia com êxito ao adicionar ou remover uma função do servidor, você deve estar conectado a um usuário membro dos grupos RTCUniversalServerAdmins e de Administradores de Domínio. Também é possível conceder direitos e permissões do administrador exigidos para adicionar funções do servidor a uma conta do usuário. Para obter detalhes, consulte [Delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) na documentação de Implantação do servidor Standard Edition ou Enterprise Edition. Para outras alterações na configuração, apenas a associação no grupo RTCUniversalServerAdmins é necessária.
 
-Se você definiu sua topologia de borda ao definir e publicar sua topologia interna e nenhuma mudança for necessária para a topologia de borda que você definiu anteriormente, não é necessário definir e publicar novamente. Use o seguinte procedimento apenas se precisa realizar mudanças em sua topologia de borda. Você deve tornar a topologia definida e publicada anteriormente disponível para seus servidores de borda. É possível fazer isso usando o procedimento em [Exportar sua topologia do Lync Server 2013 e copiá-la na mídia externa para instalação de borda](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md).
+</div>
+
+<span data-ttu-id="aa5bb-108">Para publicar, habilitar ou desabilitar uma topologia com êxito ao adicionar ou remover uma função de servidor, você deve estar conectado como um usuário que é membro do grupo RTCUniversalServerAdmins e administradores do domínio.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-108">To successfully publish, enable, or disable a topology when adding or removing a server role, you must be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups.</span></span> <span data-ttu-id="aa5bb-109">Você também pode conceder direitos e permissões de administrador necessários para adicionar funções de servidor a uma conta de usuário.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-109">You can also grant the administrator rights and permissions required for adding server roles to a user account.</span></span> <span data-ttu-id="aa5bb-110">Para obter detalhes, consulte [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) na documentação de implantação do servidor Standard Edition ou Enterprise Edition Server.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-110">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) in the Standard Edition server or Enterprise Edition server Deployment documentation.</span></span> <span data-ttu-id="aa5bb-111">Para outras alterações de configuração, somente a associação no grupo RTCUniversalServerAdmins é necessária.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-111">For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.</span></span>
+
+<span data-ttu-id="aa5bb-112">Se você definiu a topologia de borda quando definiu e publicou sua topologia interna, e nenhuma alteração é necessária para a topologia de borda que você definiu anteriormente, você não precisa defini-la e publicá-la novamente.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-112">If you defined your edge topology when you defined and published your internal topology, and no changes are required to the edge topology that you previously defined, you do not need to do define it and publish it again.</span></span> <span data-ttu-id="aa5bb-113">Use o procedimento a seguir somente se precisar fazer alterações na sua topologia de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-113">Use the following procedure only if you need to make changes to your edge topology.</span></span> <span data-ttu-id="aa5bb-114">Você deve disponibilizar a topologia previamente definida e publicada para seus servidores de borda, usando o procedimento em [exportar sua topologia do Lync Server 2013 e copiá-la para a mídia externa para instalação do Edge](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md).</span><span class="sxs-lookup"><span data-stu-id="aa5bb-114">You must make the previously defined and published topology available to your Edge Servers, which you do by using the procedure in [Export your Lync Server 2013 topology and copy it to external media for edge installation](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md).</span></span>
+
+<div>
 
 
 > [!IMPORTANT]  
-> É possível executar o Construtor de Topologias por um Servidor de Borda. Você deve executá-lo do seu Servidor Front-End ou servidores do Standard Edition.
+> <span data-ttu-id="aa5bb-115">Não é possível executar o construtor de topologias a partir de um servidor de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-115">You cannot run Topology Builder from an Edge Server.</span></span> <span data-ttu-id="aa5bb-116">Você deve executá-lo a partir de seu servidor front-end ou servidores Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-116">You must run it from your Front End Server or Standard Edition servers.</span></span>
 
 
-O processo de definição da topologia do servidor de borda é executado no Construtor de Topologias. os três tipos principais de topologias de servidor de borda que você pode planejar e configurar são listados a seguir:
 
-  - Para definir a topologia de um único servidor de borda
+</div>
 
-  - Para definir a topologia de um pool de servidor de borda de balanceamento de carga
+<span data-ttu-id="aa5bb-117">O processo para definir a topologia do servidor de borda é feito no construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-117">The process to define your Edge Server topology is done in Topology Builder.</span></span> <span data-ttu-id="aa5bb-118">Os três tipos principais de topologias de servidor de borda que você planeja e configura estão listados abaixo:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-118">The three primary types of Edge Server topologies that you plan and configure are listed below:</span></span>
 
-  - Para definir a topologia de um pool de borda com carga de hardware balanceada
+  - <span data-ttu-id="aa5bb-119">Para definir a topologia para um servidor de borda único</span><span class="sxs-lookup"><span data-stu-id="aa5bb-119">To define the Topology for a Single Edge Server</span></span>
 
-## Para definir a topologia para um único Servidor de Borda
+  - <span data-ttu-id="aa5bb-120">Para definir a topologia de um pool de servidores de borda com balanceamento de carga</span><span class="sxs-lookup"><span data-stu-id="aa5bb-120">To define the Topology for a Load Balanced Edge Server Pool</span></span>
 
-1.  Inicie o Construtor de Topologias: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Construtor de Topologias do Lync Server**.
+  - <span data-ttu-id="aa5bb-121">Para definir a topologia de um pool de bordas com carga balanceada de hardware</span><span class="sxs-lookup"><span data-stu-id="aa5bb-121">To define the Topology for a Hardware Load Balanced Edge Pool</span></span>
 
-2.  Na árvore de console, expanda o site no qual você deseja implantar um Servidor de Borda.
+<div>
 
-3.  Com o botão direito em **Pools de borda** e clique em **Novo pool de borda**.
+## <a name="to-define-the-topology-for-a-single-edge-server"></a><span data-ttu-id="aa5bb-122">Para definir a topologia para um servidor de borda único</span><span class="sxs-lookup"><span data-stu-id="aa5bb-122">To define the topology for a single Edge Server</span></span>
 
-4.  Em **Definir o Novo Pool de Borda**, clique em **Avançar**.
+1.  <span data-ttu-id="aa5bb-123">Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-123">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
 
-5.  Em **Definir o FQDN do pool de Borda**, faça o seguinte:
+2.  <span data-ttu-id="aa5bb-124">Na árvore de console, expanda o site no qual você deseja implantar um servidor de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-124">In the console tree, expand the site in which you want to deploy an Edge Server.</span></span>
+
+3.  <span data-ttu-id="aa5bb-125">Clique com o botão direito do mouse em **conjuntos de bordas**e clique em **novo pool de bordas**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-125">Right-click **Edge pools**, and then click **New Edge Pool**.</span></span>
+
+4.  <span data-ttu-id="aa5bb-126">Em **definir o novo pool de bordas**, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-126">In **Define the New Edge Pool**, click **Next**.</span></span>
+
+5.  <span data-ttu-id="aa5bb-127">Em **definir o FQDN do pool de bordas**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-127">In **Define the Edge pool FQDN**, do the following:</span></span>
     
-      - Em **FQDN do Pool**, digite o FQDN (nome de domínio totalmente qualificado) da interface interna do Servidor de Borda.
+      - <span data-ttu-id="aa5bb-128">Em **pool FQDN**, digite o nome de domínio totalmente qualificado (FQDN) da interface interna do servidor de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-128">In **Pool FQDN**, type the fully qualified domain name (FQDN) of the internal interface for the Edge Server.</span></span>
         
-        > [!IMPORTANT]
-        > O nome especificado deve ser idêntico ao nome do computador configurado no servidor. Por padrão, o nome de um computador que não é atribuído a um domínio é um nome curto, não um FQDN. O Construtor de Topologias usa FQDNs, não nomes curtos. Portanto, você deve configurar um sufixo DNS no nome do computador para ser implantado como um Servidor de Borda que não é vinculado a um domínio. Use apenas caracteres padrões (incluindo A-Z, a-z, 0-9 e hifens) quando atribuir FQDNs a seus Lync Servers, Servidores de Borda e pools. Não use caracteres Unicode ou sublinhados. Caracteres não padrões em um FQDN frequentemente não são suportados pelo DNS externo e CAs públicas (isso é, quando o FQDN deve ser atribuído ao SN no certificado). Para obter detalhes sobre a adição de um sufixo DNS para um nome do computador, consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar DNS para suporte à borda no Lync Server 2013</a>.
-    
-      - Clique em **Pool de computador único** e em **Avançar**.
-
-6.  Em **Selecionar recursos**, faça o seguinte:
-    
-      - Caso planeje usar um único FQDN e endereço IP para um serviço de acesso SIP, serviço de Webconferência do Lync Server 2013 e serviço de borda A/V, marque a caixa de seleção **Use um único FQDN e Endereço IP**.
-    
-      - Caso planeje habilitar a federação, marque a caixa de seleção **Habilitar federação para este pool de Borda (porta 5061)**
+        <div>
         
-        > [!NOTE]  
-        > É possível selecionar esta opção, mas apenas um pool de borda ou servidor de borda de sua organização pode ser publicado externamente para federação. Todo o acesso de usuários federados, inclusive usuários públicos de IM (mensagens instantâneas), atravessa o mesmo pool de borda ou servidor de borda único. Por exemplo, se sua implantação contém um pool de borda ou servidor de borda único implantado em Nova Iorque e outro implantado um Londres e você habilita o suporte à federação no pool de borda ou servidor de borda único de Nova Iorque, o tráfego do sinal para os usuários federados atravessará o pool de borda ou servidor de borda único de Nova Iorque. Isso é verdadeiro até mesmo para comunicações com os usuários de Londres, embora um usuário interno de Londres que liga para um usuário federado do Nova Iorque use um pool ou servidor de borda de Londres para o tráfego de áudio/vídeo.
-    
-      - Caso planeje oferecer suporte ao protocolo XMPP em sua implantação, marque a caixa de seleção **Habilitar federação XMPP (porta 5269)**
 
-7.  Em **Selecionar Opções de IP**, faça o seguinte:
-    
-      - **Habilitar IPv4 na interface interna** : marque a caixa de seleção caso deseje aplicar um endereço IPv4 à interface interna do Servidor de Borda ou do Pool de borda
-    
-      - **Habilitar IPv6 na interface interna** : marque a caixa de seleção caso deseje aplicar um endereço IPv6 à interface interna do Servidor de Borda ou do Pool de borda
-    
-      - **Habilitar IPv4 na interface externa** : marque a caixa de seleção caso deseje aplicar um endereço IPv4 à interface externa do Servidor de Borda ou do Pool de borda
-    
-      - **Habilitar IPv6 na interface externa** : marque a caixa de seleção caso deseje aplicar um endereço IPv6 à interface externa do Servidor de Borda ou do Pool de borda
-    
-    Você também pode configurar o Servidor de Borda ou o Pool de borda para usar um endereço de conversão de endereço de rede para endereços IP externos. Faça isso marcando a caixa de seleção **O endereço IP externo desse pool de Borda é convertido pelo NAT**.
-
-8.  Em **FQDNs externos**, faça o seguinte:
-    
-      - Se em **Selecionar recursos** você escolher usar um FQDN único e o endereço IP para o acesso SIP, o serviço de Webconferência e um serviço de Borda A/V, digite o FQDN externo em **Acesso SIP**.
-        
-        > [!NOTE]  
-        > Se você escolher esta opção, deverá especificar um número de porta diferente para cada um dos serviços de borda (configurações de porta recomendadas: 5061 para serviço de Acesso de Borda, 444 para serviço de Borda de Conferência Web e 443 para serviço de Borda A/V). Esta opção pode ajudar a evitar possíveis problemas de conectividade e simplificar a configuração porque você pode usar o mesmo número de porta (por exemplo, 443) para os três serviços.
-    
-      - Se em **Selecionar recursos** você não escolheu usar um FQDN e endereço IP único, digite os FQDNs externo para o **Acesso SIP**, **Conferência Web** e **Áudio vídeo**, mantendo as portas padrão.
-
-9.  Clique em **Avançar**.
-
-10. Em **Definir o endereço IP interno**, digite o endereço IP do seu Servidor de Borda em **Endereço IPv4 interno** e **Endereço IPv6 interno** conforme apropriado para seus requisitos. Clique em **Avançar**.
-
-11. Em **Definir endereço IP externo**, faça o seguinte:
-    
-      - Caso opte por usar um único FQDN e endereço IP para o acesso SIP, serviço de Webconferência e serviço de borda A/V, digite o endereço IPv4 externo do servidor de borda em **Acesso SIP** e clique em **Avançar**.
-    
-      - Caso opte por usar endereços IPv6, digite o endereço IPv6 externo do servidor de borda em **Acesso SIP** e clique em **Avançar**.
-    
-      - Se você não escolheu usar um FQDN e endereço IP único para o acesso SIP, o serviço de Webconferência e o serviço de Borda A/V, digite os endereços IPv4 externos do Servidor de Borda em **Acesso SIP**, **Webconferência** e **Conferência A/V**, e clique em **Avançar**.
-    
-      - Se você optou por usar endereços IPv6 e não escolheu usar um FQDN e endereço IPv6 único para o acesso SIP, o serviço de Webconferência e o serviço de Borda A/V, digite os endereços IP externos do Servidor de Borda em **Acesso SIP**, **Webconferência** e **Conferência A/V**, e clique em **Avançar**.
-        
-        > [!NOTE]  
-        > Caso não tenha optado por habilitar e atribuir endereços IPv6, você não verá esta caixa de diálogo.
-
-
-12. Se você optou por usar NAT, uma caixa de diálogo será aberta. Em **Endereço IPv4 público para o serviço de Borda A/V**, digite o endereço IPv4 público a ser convertido pelo NAT e clique em **Avançar**.
-    
-    > [!NOTE]  
-    > Esse endereço deve ser o endereço IP externo do serviço de Borda. A/V.
-
-
-13. Se você optou por usar NAT e endereços IPv6, uma caixa de diálogo será aberta. Em **Endereço IPv6 público para o serviço de Borda A/V**, digite o endereço IPv6 público a ser convertido pelo NAT e clique em **Avançar**.
-    
-    > [!NOTE]  
-    > Esse endereço deve ser o endereço IP externo do serviço de Borda. A/V.
-
-14. Em **Definir o próximo salto**, em **Próximo pool de salto**, selecione o nome do pool interno, que pode ser um pool de Front-Ends ou um pool do Standard Edition. Em alternativa, se sua implantação incluir um Diretor, selecione o Diretor e clique em **Avançar**.
-
-15. Em **Associar pools de Front-Ends**, especifique um ou mais pools internos, que podem incluir pools de Front-Ends e servidores Standard Edition, para serem associados com este Servidor de Borda selecionando os nomes dos pools internos que devem usar este Servidor de Borda para comunicação com os usuários externos suportados.
-    
-    > [!NOTE]  
-    > Somente um pool de Borda com balanceamento de carga ou Servidor de Borda único pode ser associado a um cada pool interno para tráfego de A/V. Se você já possui um pool interno associado a um pool de Borda ou Servidor de Borda, um aviso será exibido, indicando que o pool interno já está associado a um pool de Borda ou Servidor de Borda. Se um pool que já está associado a outro Servidor de Borda for selecionado, ele alterará a associação.
-
-
-16. Clique em **Concluir**.
-
-17. Publique sua topologia.
-
-## Para definir a topologia para um pool de Servidor de Borda com balanceamento de carga de DNS
-
-1.  Inicie o Construtor de Topologias: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Construtor de Topologias do Lync Server**.
-
-2.  Na árvore do console, expanda o site em que deseja implantar Servidores de Borda.
-
-3.  Clique com o botão direito em **Pools de Borda** e clique em **Novo Pool de Borda**.
-
-4.  Em **Definir o Novo Pool de Borda**, clique em **Avançar**.
-
-5.  Em **Definir o FQDN do pool de Borda**, faça o seguinte:
-    
-      - Em **FQDN do pool**, digite o nome de domínio totalmente qualificado (FQDN) para a conexão interna do pool de Borda.
-        
         > [!IMPORTANT]  
-        > O nome especificado para o pool deve ser o nome do pool de borda interno. Ele deve ser definido como um FQDN. Construtor de Topologias usa FQDNs, não nomes curtos. Use somente caracteres padrão (incluindo A-Z, a-z, 0-9 e hifens) ao atribuir FQDNs dos seus Lync Servers, Servidores de Borda e pools. Não use caracteres Unicode nem sublinhados. Muitas vezes, o DNS externo e as autoridades de certificação públicas não oferecem suporte a caracteres diferentes do padrão em um FQDN (quando o FQDN deve ser atribuído ao SN no certificado).
-    
-      - Clique em **Pool de vários computadores** e, em seguida, clique em **Avançar**.
+        > <span data-ttu-id="aa5bb-129">O nome que você especificar dever ser idêntico ao nome de computador configurado no servidor.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-129">The name you specify must be identical to the computer name configured on the server.</span></span> <span data-ttu-id="aa5bb-130">Por padrão, o nome do computador de um computador que não está associado a um domínio é um nome curto, e não um FQDN.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-130">By default the computer name of a computer that is not joined to a domain is a short name, not an FQDN.</span></span> <span data-ttu-id="aa5bb-131">O Construtor de Topologias usa FQDNs, não nomes curtos.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-131">Topology Builder uses FQDNs, not short names.</span></span> <span data-ttu-id="aa5bb-132">Portanto, você deverá configurar um sufixo DNS no nome do computador a ser implantado no Servidor de Borda que não ingressou no domínio.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-132">So, you must configure a DNS suffix on the name of the computer to be deployed as an Edge Server that is not joined to a domain.</span></span> <span data-ttu-id="aa5bb-133">Use apenas caracteres padrão (incluindo A–Z, a–z, 0–9 e hifens) ao atribuir FQDNs de seus Lync Servers, Servidores de Borda e pools.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-133">Use only standard characters (including A–Z, a–z, 0–9, and hyphens) when assigning FQDNs of your Lync Servers, Edge Servers, and pools.</span></span> <span data-ttu-id="aa5bb-134">Não use caracteres Unicode ou sublinhados.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-134">Do not use Unicode characters or underscores.</span></span> <span data-ttu-id="aa5bb-135">Os caracteres não padrão em um FQDN geralmente não são compatíveis com o DNS externo e CAs públicas (quando o FQDN deve ser atribuído ao SN no certificado).</span><span class="sxs-lookup"><span data-stu-id="aa5bb-135">Nonstandard characters in an FQDN are often not supported by external DNS and public CAs (when the FQDN must be assigned to the SN in the certificate).</span></span> <span data-ttu-id="aa5bb-136">Para obter detalhes sobre como adicionar um sufixo DNS a um nome de computador, consulte <A href="lync-server-2013-configure-dns-for-edge-support.md">Configurar o DNS para suporte de borda no Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-136">For details about adding a DNS suffix to a computer name, see <A href="lync-server-2013-configure-dns-for-edge-support.md">Configure DNS for edge support in Lync Server 2013</A>.</span></span>
 
-6.  Em **Selecionar recursos**, faça o seguinte:
-    
-      - Caso planeje usar um único FQDN e endereço IP para o acesso SIP, o serviço de Webconferências do Lync Server 2013 e os serviços de Borda de A/V, selecione a opção **Usar um único FQDN e Endereço IP**.
-    
-      - Se você planeja habilitar a federação, marque a caixa de seleção **Habilitar federação para este pool de Borda (porta 5061)**. Clique em **Avançar**.
         
+        </div>
+    
+      - <span data-ttu-id="aa5bb-137">Clique em **pool de computador único**e, em seguida, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-137">Click **Single computer pool**, and then click **Next**.</span></span>
+
+6.  <span data-ttu-id="aa5bb-138">Em **selecionar recursos**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-138">In **Select features**, do the following:</span></span>
+    
+      - <span data-ttu-id="aa5bb-139">Se você pretende usar um único FQDN e um único endereço IP para o serviço de acesso SIP, serviço de Webconferência do Lync Server 2013 e os/V Edge Services, marque a caixa de seleção **usar um único FQDN e endereço IP** .</span><span class="sxs-lookup"><span data-stu-id="aa5bb-139">If you plan to use a single FQDN and IP address for the SIP Access service, Lync Server 2013 Web Conferencing service, and A/V Edge services, select the **Use a single FQDN and IP Address** check box.</span></span>
+    
+      - <span data-ttu-id="aa5bb-140">Se você planeja habilitar a Federação, marque a caixa de seleção **habilitar Federação para este pool de bordas (porta 5061)** .</span><span class="sxs-lookup"><span data-stu-id="aa5bb-140">If you plan to enable federation select the **Enable federation for this Edge pool (Port 5061)** check box.</span></span>
+        
+        <div>
+        
+
         > [!NOTE]  
-        > Você pode selecionar esta opção, mas somente um pool de Borda ou Servidor de Borda em sua organização pode ser publicado externamente para federação. Todo o acesso por usuários federados, incluindo sistemas de mensagens instantâneas (IM) públicos, passam pelo mesmo pool de Borda ou Servidor de Borda único. Por exemplo, se sua implantação inclui um pool de Borda ou Servidor de Borda único implantado em Nova York e um implantado em Londres e você habilitar o suporte a federação no pool de Borda de Nova York ou no Servidor de Borda único, o tráfego do sinal para usuários federados passará pelo pool de Borda de Nova York ou Servidor de Borda único. Isto é verdade mesmo para comunicações com usuários de Londres, embora um usuário interno de Londres ligando para um usuário federado de Londres use o pool desta cidade ou o Servidor de Borda para tráfego de A/V.
-    
-      - Caso planeje oferecer suporte ao protocolo XMPP em sua implantação, marque a caixa de seleção **Habilitar federação XMPP (porta 5269)**
+        > <span data-ttu-id="aa5bb-141">Você pode selecionar essa opção, mas somente um pool de bordas ou um servidor de borda em sua organização pode ser publicado externamente para Federação.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-141">You can select this option, but only one Edge pool or Edge Server in your organization can be published externally for federation.</span></span> <span data-ttu-id="aa5bb-142">Todo o acesso de usuários federados, incluindo usuários públicos de mensagens instantâneas (IM), passam pelo mesmo pool de bordas ou servidor de borda única.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-142">All access by federated users, including public instant messaging (IM) users, go through the same Edge pool or single Edge Server.</span></span> <span data-ttu-id="aa5bb-143">Por exemplo, se sua implantação inclui um pool de bordas ou um servidor de borda única implantado em Nova York e um implantado em Londres e você habilitar o suporte de Federação no pool de bordas de Nova York ou no servidor de borda único, o tráfego de sinal para usuários federados passará pela Nova York Pool de bordas ou servidor de borda único.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-143">For example, if your deployment includes an Edge pool or single Edge Server deployed in New York and one deployed in London and you enable federation support on the New York Edge pool or single Edge Server, signal traffic for federated users will go through the New York Edge pool or single Edge Server.</span></span> <span data-ttu-id="aa5bb-144">Isso se aplica inclusive para comunicações com usuários de Londres, embora um usuário interno de Londres chamando um usuário federado de Londres use o pool de Londres ou Servidor de Borda para tráfego de A/V.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-144">This is true even for communications with London users, although a London internal user calling a London federated user uses the London pool or Edge Server for A/V traffic.</span></span>
 
-7.  Clique em **Avançar**.
-
-8.  Em **Selecionar Opções de IP**, faça o seguinte:
-    
-      - **Habilitar IPv4 na interface interna** : marque a caixa de seleção caso deseje aplicar um endereço IPv4 à interface interna do Servidor de Borda ou do Pool de borda
-    
-      - **Habilitar IPv6 na interface interna** : marque a caixa de seleção caso deseje aplicar um endereço IPv6 à interface interna do Servidor de Borda ou do Pool de borda
-    
-      - **Habilitar IPv4 na interface externa** : marque a caixa de seleção caso deseje aplicar um endereço IPv4 à interface externa do Servidor de Borda ou do Pool de borda
-    
-      - **Habilitar IPv6 na interface externa** : marque a caixa de seleção caso deseje aplicar um endereço IPv6 à interface externa do Servidor de Borda ou do Pool de borda
-    
-    Você também pode configurar o Servidor de Borda ou o Pool de borda para usar um endereço de conversão de endereço de rede para endereços IP externos. Faça isso marcando a caixa de seleção **O endereço IP externo desse pool de Borda é convertido pelo NAT**.
-
-9.  Em **FQDNs externos**, faça o seguinte:
-    
-      - Se em **Selecionar recursos** você optou por usar um único FQDN e Endereço IP para o acesso SIP, serviço de Webconferências e serviço de Borda de A/V, digite o FQDN externo em **Acesso SIP**.
         
+        </div>
+    
+      - <span data-ttu-id="aa5bb-145">Se você planeja dar suporte ao protocolo de mensagens extensíveis e presença (XMPP) para a sua implantação, marque a caixa de seleção **habilitar Federação de XMPP (porta 5269)**</span><span class="sxs-lookup"><span data-stu-id="aa5bb-145">If you plan to support the extensible messaging and presence protocol (XMPP) for your deployment, select the **Enable XMPP federation (port 5269)** check box</span></span>
+
+7.  <span data-ttu-id="aa5bb-146">Em **selecionar opções de IP**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-146">In **Select IP Options**, do the following:</span></span>
+    
+      - <span data-ttu-id="aa5bb-147">**Habilitar IPv4 na interface interna**: marque a caixa de seleção se desejar aplicar um endereço IPv4 à interface interna do servidor de borda ou do pool de bordas</span><span class="sxs-lookup"><span data-stu-id="aa5bb-147">**Enable IPv4 on internal interface**: Select the check box if you want to apply an IPv4 address to the Edge Server or Edge pool internal interface</span></span>
+    
+      - <span data-ttu-id="aa5bb-148">**Habilitar o IPv6 na interface interna**: marque a caixa de seleção se desejar aplicar um endereço IPv6 à interface interna do servidor de borda ou do pool de bordas</span><span class="sxs-lookup"><span data-stu-id="aa5bb-148">**Enable IPv6 on internal interface**: Select the check box if you want to apply an IPv6 address to the Edge Server or Edge pool internal interface</span></span>
+    
+      - <span data-ttu-id="aa5bb-149">**Habilitar IPv4 na interface externa**: marque a caixa de seleção se desejar aplicar um endereço IPv4 à interface externa do servidor de borda ou do pool de bordas</span><span class="sxs-lookup"><span data-stu-id="aa5bb-149">**Enable IPv4 on external interface**: Select the check box if you want to apply an IPv4 address to the Edge Server or Edge pool external interface</span></span>
+    
+      - <span data-ttu-id="aa5bb-150">**Habilitar o IPv6 em uma interface externa**: marque a caixa de seleção se desejar aplicar um endereço IPv6 à interface externa do servidor de borda ou do pool de bordas</span><span class="sxs-lookup"><span data-stu-id="aa5bb-150">**Enable IPv6 on external interface**: Select the check box if you want to apply an IPv6 address to the Edge Server or Edge pool external interface</span></span>
+    
+    <span data-ttu-id="aa5bb-151">Você também pode configurar o servidor de borda ou o pool de bordas para usar um endereço de conversão de endereços de rede para os endereços IP externos.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-151">You can also configure the Edge Server or Edge pool to use a network address translation address for the external IP addresses.</span></span> <span data-ttu-id="aa5bb-152">Para fazer isso, marque a caixa de seleção **o endereço IP externo deste pool de bordas é convertido pela NAT**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-152">You do this by selecting the check box **The external IP address of this Edge pool is translated by NAT**.</span></span>
+
+8.  <span data-ttu-id="aa5bb-153">Em **FQDNs externos**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-153">In **External FQDNs**, do the following:</span></span>
+    
+      - <span data-ttu-id="aa5bb-154">Se, em **Selecione os recursos** , você optar por usar um único FQDN e um único endereço IP para o acesso SIP, serviço de Webconferência e a/V Edge, digite o FQDN externo no **acesso SIP**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-154">If in **Select features** you chose to use a single FQDN and IP address for the SIP access, Web Conferencing service, and A/V Edge service, type the external FQDN in **SIP Access**.</span></span>
+        
+        <div>
+        
+
         > [!NOTE]  
-        > Se você escolher esta opção, deverá especificar um número de porta diferente para cada um dos serviços de borda (configurações de porta recomendadas: 5061 para serviço de Acesso de Borda, 444 para serviço de Borda de Conferência Web e 443 para serviço de Borda A/V). Esta opção pode ajudar a evitar possíveis problemas de conectividade e simplificar a configuração porque você pode usar o mesmo número de porta (por exemplo, 443) para os três serviços.
-    
-      - Se em **Selecionar recursos** você não optou por usar um único FQDN e Endereço IP, digite o FQDN escolhido para o lado voltado ao público do pool de borda em **Acesso SIP**. Em **Webconferências**, digite o FQDN escolhido para o lado voltado ao público do pool de Borda. Em **Áudio/Vídeo**, digite o FQDN escolhido para o lado voltado ao público do pool de Borda. Use as portas padrão.
+        > <span data-ttu-id="aa5bb-155">Se você escolher essa opção, especifique um número de porta diferente para cada um dos serviços de borda (configurações de porta recomendadas: 5061 para serviço de borda de acesso, 444 para serviço de borda de Webconferência e 443 para serviço de borda A/V).</span><span class="sxs-lookup"><span data-stu-id="aa5bb-155">If you choose this option, you must specify a different port number for each of the edge services (recommended port settings: 5061 for Access Edge service, 444 for Web Conferencing Edge service, and 443 for A/V Edge service).</span></span> <span data-ttu-id="aa5bb-156">Selecionar essa opção pode ajudar a evitar possíveis problemas de conectividade e simplificar a configuração porque você pode usar o mesmo número de porta (por exemplo, 443) para todos os três serviços.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-156">Selecting this option can help prevent potential connectivity issues, and simplify the configuration because you can then use the same port number (for example, 443) for all three services.</span></span>
 
-10. Clique em **Avançar**.
-
-11. Em **Definir os computadores neste pool**, clique em **Adicionar**.
-
-12. Em **FQDN e endereço IP internos**, faça o seguinte:
-    
-      - Em **Endereço IPv4 interno**, digite o endereço IPv4 e o **Endereço IPv6 interno** conforme apropriado para seus requisitos para o primeiro servidor de borda que deseja criar no pool.
-    
-      - Em **FQDN Interno**, digite o FQDN do primeiro Servidor de Borda que deseja criar neste pool.
         
+        </div>
+    
+      - <span data-ttu-id="aa5bb-157">Se, **em Selecione os recursos** , você não tiver optado por usar um único FQDN e endereço IP, digite os FQDNs externos para **acesso SIP**, **conferência na Web** e **vídeo de áudio**, mantendo as portas padrão.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-157">If in **Select features** you did not chose to use a single FQDN and IP Address, type the External FQDNs for **SIP Access**, **Web Conferencing** and **Audio Video**, keeping the default ports.</span></span>
+
+9.  <span data-ttu-id="aa5bb-158">Click **Next**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-158">Click **Next**.</span></span>
+
+10. <span data-ttu-id="aa5bb-159">Em **definir o endereço IP interno**, digite o endereço IP do seu servidor de borda em **endereço IPv4 interno** e **endereço IPv6 interno** como apropriado para seus requisitos.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-159">In **Define the Internal IP address**, type the IP address of your Edge Server in **Internal IPv4 address** and **Internal IPv6 address** as is appropriate for your requirements.</span></span> <span data-ttu-id="aa5bb-160">Click **Next**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-160">Click **Next**.</span></span>
+
+11. <span data-ttu-id="aa5bb-161">Em **definir o endereço IP externo**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-161">In **Define the External IP address**, do the following:</span></span>
+    
+      - <span data-ttu-id="aa5bb-162">Se você optou por usar um único FQDN e um único endereço IP para o acesso SIP, serviço de Webconferência e A/V Edge, digite o endereço IPv4 externo do servidor de borda no **acesso SIP**e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-162">If you chose to use a single FQDN and IP Address for the SIP access, Web Conferencing service, and A/V Edge service, type the external IPv4 address of the Edge Server in **SIP Access**, and then, click **Next**.</span></span>
+    
+      - <span data-ttu-id="aa5bb-163">Se você optou por usar endereços IPv6, digite o endereço IPv6 externo do servidor de borda em **acesso SIP**e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-163">If you chose to use IPv6 addresses, type the external IPv6 address of the Edge Server in **SIP Access**, and then, click **Next**.</span></span>
+    
+      - <span data-ttu-id="aa5bb-164">Se você não optou por usar um único FQDN e um único endereço IP para o acesso SIP, serviço de Webconferência e a/V Edge, digite os endereços IPv4 externos do servidor de borda no **acesso SIP**, **conferência via Web**e **conferência a/v**e, em seguida, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-164">If you did not chose to use a single FQDN and IP Address for the SIP access, Web Conferencing service, and A/V Edge service, type the external IPv4 addresses of the Edge Server in **SIP Access**, **Web Conferencing**, and **A/V Conferencing**, and then click **Next**.</span></span>
+    
+      - <span data-ttu-id="aa5bb-165">Se você optou por usar endereços IPv6 e não optou por usar um único FQDN e um único endereço IP para o acesso SIP, serviço de Webconferência e a/V Edge, digite os endereços IPv6 externos do servidor de borda em **acesso SIP**, **conferência via Web**e **a/ V Conferência**e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-165">If you chose to use IPv6 addresses and did not chose to use a single FQDN and IP Address for the SIP access, Web Conferencing service, and A/V Edge service, type the external IPv6 addresses of the Edge Server in **SIP Access**, **Web Conferencing**, and **A/V Conferencing**, and then click **Next**.</span></span>
+        
+        <div>
+        
+
         > [!NOTE]  
-        > O nome especificado deve ser idêntico ao nome do computador configurado no servidor. Por padrão, o nome de um computador que não é atribuído a um domínio é um nome curto, não um FQDN. O Construtor de Topologias usa FQDNs, não nomes curtos. Portanto, você deve configurar um sufixo DNS no nome do computador para ser implantado como um Servidor de Borda que não é vinculado a um domínio. Use apenas caracteres padrões (incluindo A-Z, a-z, 0-9 e hífens) quando atribuir FQDNs a seus Lync Servers, Servidores de Borda, pools e matrizes. Não use caracteres Unicode ou sublinhados. Caracteres não padrões em um FQDN frequentemente não são suportados pelo DNS externo e CAs públicos (isso é, quando o FQDN deve ser atribuído ao SN no certificado). Para obter detalhes sobre a adição de um sufixo DNS para um nome do computador, consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar DNS para suporte à borda no Lync Server 2013</a>.
+        > <span data-ttu-id="aa5bb-166">Se você não optou por habilitar e atribuir endereçamento IPv6, esta caixa de diálogo não será exibida.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-166">If you did not choose to enable and assign IPv6 addressing, you will not see this dialog box.</span></span>
 
-
-13. Clique em **Avançar**.
-
-14. Em **Definir os endereços IP externos**, faça o seguinte:
-    
-      - Se você optou por usar um único FQDN e Endereço IP para o acesso SIP, serviço de Webconferências e serviço de Borda de A/V, digite o endereço IP externo do Servidor de Borda em **Acesso SIP**.
-    
-      - Se você não optou por usar um único FQDN e Endereço IP para o acesso SIP, serviço de Webconferências e serviço de Conferências de A/V, digite o endereço IP escolhido para o lado voltado ao público deste servidor de pool de Borda no **Acesso SIP**. Em **Webconferências**, digite o endereço IP escolhido para o lado voltado ao público deste servidor de pool de Borda. Em **Conferências de A/V**, digite o endereço IP escolhido para o lado voltado ao público deste servidor de pool de Borda.
-
-15. Clique em **Avançar**.
-
-16. Caso opte por habilitar endereços IPv6, em **Definir endereços IP externos**, faça o seguinte:
-    
-      - Se você optou por usar um único FQDN e Endereço IPv6 para o acesso SIP, serviço de Webconferências e serviço de Borda de A/V, digite o endereço IP externo do Servidor de Borda em **Acesso SIP**.
-    
-      - Se você não optou por usar um único FQDN e Endereço IP para o acesso SIP, serviço de Webconferências e serviço de Conferências de A/V, digite o endereço IPv6 escolhido para o lado voltado ao público deste servidor de pool de Borda no **Acesso SIP**. Em **Webconferências**, digite o endereço IPv6 escolhido para o lado voltado ao público deste servidor de pool de Borda. Em **Conferências de A/V**, digite o endereço IPv6 escolhido para o lado voltado ao público deste servidor de pool de Borda.
-    
-    > [!NOTE]
-    > Caso não tenha optado por habilitar e atribuir endereços IPv6, você não verá esta caixa de diálogo.
-
-
-17. Clique em **Concluir**.
-    
-    > [!NOTE]  
-    > Agora você verá o primeiro Servidor de Borda criado em seu pool na caixa de diálogo <strong>Definir os computadores neste pool</strong>.
-
-
-18. Em **Definir os computadores neste pool**, clique em **Adicionar** e repita as etapas 11 até 14 para o segundo Servidor de Borda que deseja adicionar ao seu pool de Borda.
-
-19. Depois de repetir as etapas 11 a 14, clique em **Avançar** em **Definir os computadores neste pool**.
-    
-    > [!NOTE]  
-    > Neste ponto, você poderá ver ambos os Servidores de Borda em seu pool.
-
-
-20. Se você optou por usar NAT, uma caixa de diálogo será aberta. Em **Endereço IP público**, digite o endereço IPv4 e IPv6 público (se apropriado) a ser convertido pelo NAT e clique em **Avançar**.
-    
-    > [!NOTE]  
-    > Este deve ser o endereço IP externo da Borda de A/V.
-
-21. Em **Definir o próximo salto**, na lista **Pool do próximo salto**, selecione o nome do pool interno, que pode ser um pool de Front-Ends ou um pool Standard Edition. Ou, se sua implantação inclui um Diretor, selecione o nome do Diretor. Em seguida, clique em **Avançar**.
-
-22. Em **Associar pools de Front End**, especifique um ou mais pools internos, que podem incluir pools de Front End e servidores Standard Edition, a serem associados a este Servidor de Borda, selecionando os nomes do(s) pool(s) interno(s) que usará(ão) este Servidor de Borda para comunicação com usuários externos suportados.
-    
-    > [!NOTE]  
-    > Somente um pool de Borda com balanceamento de carga ou Servidor de Borda único pode ser associado a um cada pool interno para tráfego de A/V. Se você já possui um pool interno associado a um pool de Borda ou Servidor de Borda, um aviso será exibido, indicando que o pool interno já está associado a um pool de Borda ou Servidor de Borda. Se um pool que já está associado a outro Servidor de Borda for selecionado, ele alterará a associação.
-
-
-23. Clique em **Concluir**.
-
-24. Publique sua topologia.
-
-## Para definir a topologia de um pool de Servidor de Borda com balanceamento de carga de hardware
-
-1.  Inicie o Construtor de Topologias: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Construtor de Topologias do Lync Server**.
-
-2.  Na árvore do console, expanda o site em que deseja implantar Servidores de Borda.
-
-3.  Clique com o botão direito do mouse em **Pools de Borda** e clique em **Novo Pool de Borda**.
-
-4.  Em **Definir o Novo Pool de Borda**, clique em **Avançar**.
-
-5.  Em **Definir o FQDN do pool de Borda**, faça o seguinte:
-    
-      - Em **FQDN**, digite o FQDN (nome de domínio totalmente qualificado) escolhido para o lado interno do pool de borda.
         
+        </div>
+
+12. <span data-ttu-id="aa5bb-167">Se você optou por usar o NAT, será exibida uma caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-167">If you chose to use NAT, a dialog box appears.</span></span> <span data-ttu-id="aa5bb-168">Em **endereço IPv4 público para o serviço de borda a/V**, digite o endereço IPv4 público a ser traduzido por Nat e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-168">In **Public IPv4 address for the A/V Edge service**, type the public IPv4 address to be translated by NAT, and then click **Next**.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="aa5bb-169">Este deve ser o endereço IP externo do serviço de borda A/V.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-169">This should be the external IP address of the A/V Edge service.</span></span>
+
+    
+    </div>
+
+13. <span data-ttu-id="aa5bb-170">Se você optou por usar o NAT e endereços IPv6, será exibida uma caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-170">If you chose to use NAT and IPv6 addresses, a dialog box appears.</span></span> <span data-ttu-id="aa5bb-171">Em **endereço IPv6 público para o serviço de borda a/V**, digite o endereço IPv6 público a ser traduzido por Nat e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-171">In **Public IPv6 address for the A/V Edge service**, type the public IPv6 address to be translated by NAT, and then click **Next**.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="aa5bb-172">Este deve ser o endereço IP externo do serviço de borda A/V.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-172">This should be the external IP address of the A/V Edge service.</span></span>
+
+    
+    </div>
+
+14. <span data-ttu-id="aa5bb-173">Em **definir o próximo salto**, no **próximo pool de saltos**, selecione o nome do pool interno, que pode ser um pool de front-ends ou um pool padrão de edição.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-173">In **Define the next hop**, in **Next hop pool**, select the name of the internal pool, which can be either a Front End pool or a Standard Edition pool.</span></span> <span data-ttu-id="aa5bb-174">Ou, se a sua implantação incluir um director, selecione o diretor.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-174">Or, if your deployment includes a Director, select the Director.</span></span> <span data-ttu-id="aa5bb-175">Em seguida, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-175">Then, click **Next**.</span></span>
+
+15. <span data-ttu-id="aa5bb-176">Em **pools de front-end**, especifique um ou mais pools internos, que podem incluir pools front-ends e servidores Standard Edition, a serem associados a esse servidor de borda, selecionando os nomes dos pools internos que devem usar este servidor de borda para comunicação com usuários externos com suporte.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-176">In **Associate Front End pools**, specify one or more internal pools, which can include Front End pools and Standard Edition servers, to be associated with this Edge Server, by selecting the names of the internal pools that are to use this Edge Server for communication with supported external users.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="aa5bb-177">Somente um pool de bordas com carga balanceada ou um servidor de borda única pode ser associado a cada pool interno para o tráfego A/V.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-177">Only one load-balanced Edge pool or single Edge Server can be associated with each internal pool for A/V traffic.</span></span> <span data-ttu-id="aa5bb-178">Se você já tiver um pool interno associado a um pool de bordas ou servidor de borda, um aviso será exibido indicando que o pool interno já está associado a um pool de bordas ou um servidor de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-178">If you already have an internal pool associated with an Edge pool or Edge Server, a warning appears indicating that the internal pool is already associated an Edge pool or Edge Server.</span></span> <span data-ttu-id="aa5bb-179">Se você selecionar um pool que já esteja associado a outro servidor de borda, ele alterará a associação.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-179">If you select a pool that is already associated with another Edge Server, it will change the association.</span></span>
+
+    
+    </div>
+
+16. <span data-ttu-id="aa5bb-180">Clique em **Concluir**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-180">Click **Finish**.</span></span>
+
+17. <span data-ttu-id="aa5bb-181">Publicar sua topologia.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-181">Publish your topology.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-define-the-topology-for-a-dns-load-balanced-edge-server-pool"></a><span data-ttu-id="aa5bb-182">Para definir a topologia de um pool de servidores de borda balanceada para carga de DNS</span><span class="sxs-lookup"><span data-stu-id="aa5bb-182">To define the topology for a DNS load balanced Edge Server pool</span></span>
+
+1.  <span data-ttu-id="aa5bb-183">Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-183">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+
+2.  <span data-ttu-id="aa5bb-184">Na árvore de console, expanda o site no qual você deseja implantar servidores de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-184">In the console tree, expand the site in which you want to deploy Edge Servers.</span></span>
+
+3.  <span data-ttu-id="aa5bb-185">Clique com o botão direito do mouse em **conjuntos de bordas**e clique em **novo pool de bordas**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-185">Right-click **Edge Pools**, and then click **New Edge Pool**.</span></span>
+
+4.  <span data-ttu-id="aa5bb-186">Em **definir o novo pool de bordas**, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-186">In **Define the New Edge Pool**, click **Next**.</span></span>
+
+5.  <span data-ttu-id="aa5bb-187">Em **definir o FQDN do pool de bordas**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-187">In **Define the Edge pool FQDN**, do the following:</span></span>
+    
+      - <span data-ttu-id="aa5bb-188">Em **pool FQDN**, digite o nome de domínio totalmente qualificado (FQDN) para a conexão interna do pool de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-188">In **Pool FQDN**, type the fully qualified domain name (FQDN) for the internal connection of the Edge pool.</span></span>
         
+        <div>
+        
+
         > [!IMPORTANT]  
-        > O nome especificado para o pool deve ser o nome do pool de borda interno. Ele deve ser definido como um FQDN. Construtor de Topologias usa FQDNs, não nomes curtos. Use somente caracteres padrão (incluindo A-Z, a-z, 0-9 e hifens) ao atribuir FQDNs dos seus Lync Servers, Servidores de Borda e pools. Não use caracteres Unicode nem sublinhados. Muitas vezes, o DNS externo e as autoridades de certificação públicas não oferecem suporte a caracteres diferentes do padrão em um FQDN (quando o FQDN deve ser atribuído ao SN no certificado).
+        > <span data-ttu-id="aa5bb-189">O nome que você especificar para o pool deve ser o nome do pool de bordas internas.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-189">The name you specify for the pool must be the internal edge pool name.</span></span> <span data-ttu-id="aa5bb-190">Isso deve ser definido como um FQDN.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-190">This must be defined as a FQDN.</span></span> <span data-ttu-id="aa5bb-191">O Construtor de Topologias usa FQDNs, não nomes curtos.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-191">Topology Builder uses FQDNs, not short names.</span></span> <span data-ttu-id="aa5bb-192">Use apenas caracteres padrão (incluindo A–Z, a–z, 0–9 e hifens) ao atribuir FQDNs de seus Lync Servers, Servidores de Borda e pools.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-192">Use only standard characters (including A–Z, a–z, 0–9, and hyphens) when assigning FQDNs of your Lync Servers, Edge Servers, and pools.</span></span> <span data-ttu-id="aa5bb-193">Não use caracteres Unicode ou sublinhados.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-193">Do not use Unicode characters or underscores.</span></span> <span data-ttu-id="aa5bb-194">Os caracteres não padrão em um FQDN geralmente não são compatíveis com o DNS externo e CAs públicas (quando o FQDN deve ser atribuído ao SN no certificado).</span><span class="sxs-lookup"><span data-stu-id="aa5bb-194">Nonstandard characters in an FQDN are often not supported by external DNS and public CAs (when the FQDN must be assigned to the SN in the certificate).</span></span>
+
+        
+        </div>
+    
+      - <span data-ttu-id="aa5bb-195">Clique em **vários pools de computador**e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-195">Click **Multiple computer pool**, and then click **Next**.</span></span>
+
+6.  <span data-ttu-id="aa5bb-196">Em **selecionar recursos**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-196">In **Select features**, do the following:</span></span>
+    
+      - <span data-ttu-id="aa5bb-197">Se você pretende usar um único FQDN e endereço IP para o acesso SIP, serviço de Webconferência do Lync Server 2013 e serviços de borda A/V, marque a caixa de seleção **usar um único FQDN e endereço IP** .</span><span class="sxs-lookup"><span data-stu-id="aa5bb-197">If you plan to use a single FQDN and IP address for the SIP access, Lync Server 2013 Web Conferencing service and A/V Edge services, select the **Use a single FQDN and IP Address** check box.</span></span>
+    
+      - <span data-ttu-id="aa5bb-198">Se você planeja habilitar a Federação, marque a caixa de seleção **habilitar Federação para este pool de bordas (porta 5061)** .</span><span class="sxs-lookup"><span data-stu-id="aa5bb-198">If you plan to enable federation, select the **Enable federation for this Edge pool (Port 5061)** check box.</span></span> <span data-ttu-id="aa5bb-199">Clique em **Avançar**</span><span class="sxs-lookup"><span data-stu-id="aa5bb-199">Click **Next**</span></span>
+        
+        <div>
+        
+
+        > [!NOTE]  
+        > <span data-ttu-id="aa5bb-200">Você pode selecionar essa opção, mas somente um pool de bordas ou um servidor de borda em sua organização pode ser publicado externamente para Federação.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-200">You can select this option, but only one Edge pool or Edge Server in your organization can be published externally for federation.</span></span> <span data-ttu-id="aa5bb-201">Todo o acesso de usuários federados, incluindo usuários públicos de mensagens instantâneas (IM), passam pelo mesmo pool de bordas ou servidor de borda única.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-201">All access by federated users, including public instant messaging (IM) users, go through the same Edge pool or single Edge Server.</span></span> <span data-ttu-id="aa5bb-202">Por exemplo, se sua implantação incluir um pool de Borda ou um único Servidor de Borda implantado em Nova York e outro implantado em Londres e você habilitar o suporte para federação no pool de Borda de Nova York ou único Servidor de Borda, o tráfego do sinal para usuários federados passará pelo pool de Borda ou único Servidor de Borda de Nova York.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-202">For instance, if your deployment includes an Edge pool or single Edge Server deployed in New York and one deployed in London and you enable federation support on the New York Edge pool or single Edge Server, signal traffic for federated users will go through the New York Edge pool or single Edge Server.</span></span> <span data-ttu-id="aa5bb-203">Isso se aplica inclusive para comunicações com usuários de Londres, embora um usuário interno de Londres chamando um usuário federado de Londres use o pool de Londres ou Servidor de Borda para tráfego de A/V.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-203">This is true even for communications with London users, although a London internal user calling a London federated user uses the London pool or Edge Server for A/V traffic.</span></span>
+
+        
+        </div>
+    
+      - <span data-ttu-id="aa5bb-204">Se você planeja dar suporte ao protocolo de mensagens extensíveis e presença (XMPP) para a sua implantação, marque a caixa de seleção **habilitar Federação de XMPP (porta 5269)**</span><span class="sxs-lookup"><span data-stu-id="aa5bb-204">If you plan to support the extensible messaging and presence protocol (XMPP) for your deployment, select the **Enable XMPP federation (port 5269)** check box</span></span>
+
+7.  <span data-ttu-id="aa5bb-205">Click **Next**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-205">Click **Next**.</span></span>
+
+8.  <span data-ttu-id="aa5bb-206">Em **selecionar opções de IP**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-206">In **Select IP Options**, do the following:</span></span>
+    
+      - <span data-ttu-id="aa5bb-207">**Habilitar IPv4 na interface interna**: marque a caixa de seleção se desejar aplicar um endereço IPv4 à interface interna do servidor de borda ou do pool de bordas</span><span class="sxs-lookup"><span data-stu-id="aa5bb-207">**Enable IPv4 on internal interface**: Select the check box if you want to apply an IPv4 address to the Edge Server or Edge pool internal interface</span></span>
+    
+      - <span data-ttu-id="aa5bb-208">**Habilitar o IPv6 na interface interna**: marque a caixa de seleção se desejar aplicar um endereço IPv6 à interface interna do servidor de borda ou do pool de bordas</span><span class="sxs-lookup"><span data-stu-id="aa5bb-208">**Enable IPv6 on internal interface**: Select the check box if you want to apply an IPv6 address to the Edge Server or Edge pool internal interface</span></span>
+    
+      - <span data-ttu-id="aa5bb-209">**Habilitar IPv4 na interface externa**: marque a caixa de seleção se desejar aplicar um endereço IPv4 à interface externa do servidor de borda ou do pool de bordas</span><span class="sxs-lookup"><span data-stu-id="aa5bb-209">**Enable IPv4 on external interface**: Select the check box if you want to apply an IPv4 address to the Edge Server or Edge pool external interface</span></span>
+    
+      - <span data-ttu-id="aa5bb-210">**Habilitar o IPv6 em uma interface externa**: marque a caixa de seleção se desejar aplicar um endereço IPv6 à interface externa do servidor de borda ou do pool de bordas</span><span class="sxs-lookup"><span data-stu-id="aa5bb-210">**Enable IPv6 on external interface**: Select the check box if you want to apply an IPv6 address to the Edge Server or Edge pool external interface</span></span>
+    
+    <span data-ttu-id="aa5bb-211">Você também pode configurar o servidor de borda ou o pool de bordas para usar um endereço de conversão de endereços de rede para os endereços IP externos.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-211">You can also configure the Edge Server or Edge pool to use a network address translation address for the external IP addresses.</span></span> <span data-ttu-id="aa5bb-212">Para fazer isso, marque a caixa de seleção **o endereço IP externo deste pool de bordas é convertido pela NAT**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-212">You do this by selecting the check box **The external IP address of this Edge pool is translated by NAT**.</span></span>
+
+9.  <span data-ttu-id="aa5bb-213">Em **FQDNs externos**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-213">In **External FQDNs**, do the following:</span></span>
+    
+      - <span data-ttu-id="aa5bb-214">Se, em **Selecione os recursos** , você optar por usar um único FQDN e um único endereço IP para o acesso SIP, serviço de Webconferência e a/V Edge, digite o FQDN externo no **acesso SIP**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-214">If in **Select features** you chose to use a single FQDN and IP Address for the SIP access, Web Conferencing service, and A/V Edge service, type the external FQDN in **SIP Access**.</span></span>
+        
+        <div>
+        
+
+        > [!NOTE]  
+        > <span data-ttu-id="aa5bb-215">Se você escolher essa opção, especifique um número de porta diferente para cada um dos serviços de borda (configurações de porta recomendadas: 5061 para serviço de borda de acesso, 444 para serviço de borda de Webconferência e 443 para serviço de borda A/V).</span><span class="sxs-lookup"><span data-stu-id="aa5bb-215">If you choose this option, you must specify a different port number for each of the Edge services (recommended port settings: 5061 for Access Edge service, 444 for Web Conferencing Edge service, and 443 for A/V Edge service).</span></span> <span data-ttu-id="aa5bb-216">Ao selecionar essa opção, você pode ajudar a evitar possíveis problemas de conectividade e simplificar a configuração porque pode usar o mesmo número de porta (por exemplo, 443) para todos os três serviços.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-216">By selecting this option, you can help prevent potential connectivity issues and simplify the configuration because you can then use the same port number (for example, 443) for all three services.</span></span>
+
+        
+        </div>
+    
+      - <span data-ttu-id="aa5bb-217">Se, em **Selecione os recursos** , você não tiver optado por usar um único FQDN e endereço IP, digite o FQDN escolhido para seu lado público do pool de bordas no **acesso SIP**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-217">If in **Select features** you did not chose to use a single FQDN and IP Address, type the FQDN that you have chosen for your public facing side of the edge pool for in **SIP Access**.</span></span> <span data-ttu-id="aa5bb-218">Em **Webconferência**, digite o FQDN escolhido para o seu lado público do lado do pool de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-218">In **Web Conferencing**, type the FQDN you have chosen for your public facing side of the Edge pool.</span></span> <span data-ttu-id="aa5bb-219">Em **áudio/vídeo**, digite o FQDN escolhido para seu lado público do lado do pool de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-219">In **Audio/Video**, type the FQDN you have chosen for your public facing side of the Edge pool.</span></span> <span data-ttu-id="aa5bb-220">Use as portas padrão.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-220">Use the default ports.</span></span>
+
+10. <span data-ttu-id="aa5bb-221">Click **Next**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-221">Click **Next**.</span></span>
+
+11. <span data-ttu-id="aa5bb-222">Em **definir os computadores neste pool**, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-222">In **Define the computers in this pool**, click **Add**.</span></span>
+
+12. <span data-ttu-id="aa5bb-223">Em **endereço IP e FQDN internos**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-223">In **Internal FQDN and IP address**, do the following:</span></span>
+    
+      - <span data-ttu-id="aa5bb-224">Em **endereço IPv4 interno**, digite o endereço IPv4 e o **endereço IPv6 interno** como apropriado para seus requisitos para o primeiro servidor de borda que você deseja criar nesse pool.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-224">In **Internal IPv4 address**, type the IPv4 address and **Internal IPv6 address** as is appropriate for your requirements for the first Edge Server that you want to create in this pool.</span></span>
+    
+      - <span data-ttu-id="aa5bb-225">Em **FQDN interno**, digite o FQDN do primeiro servidor de borda que você deseja criar nesse pool.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-225">In **Internal FQDN**, type the FQDN of the first Edge Server that you want to create in this pool.</span></span>
+        
+        <div>
+        
+
+        > [!NOTE]  
+        > <span data-ttu-id="aa5bb-226">O nome que você especificar dever ser idêntico ao nome de computador configurado no servidor.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-226">The name you specify must be identical to the computer name configured on the server.</span></span> <span data-ttu-id="aa5bb-227">Por padrão, o nome de computador de um computador que não faz parte de um domínio é um nome curto, não um FQDN.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-227">By default, the computer name of a computer that is not joined to a domain is a short name, not an FQDN.</span></span> <span data-ttu-id="aa5bb-228">O Construtor de Topologias usa FQDNs, não nomes curtos.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-228">Topology Builder uses FQDNs, not short names.</span></span> <span data-ttu-id="aa5bb-229">Portanto, você deverá configurar um sufixo DNS no nome do computador a ser implantado no Servidor de Borda que não ingressou no domínio.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-229">So, you must configure a DNS suffix on the name of the computer to be deployed as an Edge Server that is not joined to a domain.</span></span> <span data-ttu-id="aa5bb-230">Use somente caracteres padrão (incluindo A – Z, A – z, 0 – 9 e hifens) ao atribuir FQDNs dos seus servidores, servidores de borda, pools e matrizes do Lync.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-230">Use only standard characters (including A–Z, a–z, 0–9, and hyphens) when assigning FQDNs of your Lync Servers, Edge Servers, pools, and arrays.</span></span> <span data-ttu-id="aa5bb-231">Não use caracteres Unicode ou sublinhados.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-231">Do not use Unicode characters or underscores.</span></span> <span data-ttu-id="aa5bb-232">Os caracteres não padrão em um FQDN geralmente não são compatíveis com o DNS externo e CAs públicas (quando o FQDN deve ser atribuído ao SN no certificado).</span><span class="sxs-lookup"><span data-stu-id="aa5bb-232">Nonstandard characters in an FQDN are often not supported by external DNS and public CAs (when the FQDN must be assigned to the SN in the certificate).</span></span> <span data-ttu-id="aa5bb-233">Para obter detalhes sobre como adicionar um sufixo DNS a um nome de computador, consulte <A href="lync-server-2013-configure-dns-for-edge-support.md">Configurar o DNS para suporte de borda no Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-233">For details about adding a DNS suffix to a computer name, see <A href="lync-server-2013-configure-dns-for-edge-support.md">Configure DNS for edge support in Lync Server 2013</A>.</span></span>
+
+        
+        </div>
+
+13. <span data-ttu-id="aa5bb-234">Click **Next**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-234">Click **Next**.</span></span>
+
+14. <span data-ttu-id="aa5bb-235">Em **definir os endereços IP externos**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-235">In **Define the external IP addresses**, do the following:</span></span>
+    
+      - <span data-ttu-id="aa5bb-236">Se você optou por usar um único FQDN e um único endereço IP para o acesso SIP, serviço de Webconferência e a/V Edge, digite o endereço IP externo do servidor de borda no **acesso SIP**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-236">If you chose to use a single FQDN and IP Address for the SIP access, Web Conferencing service, and A/V Edge service, type the external IP address of the Edge Server in **SIP Access**.</span></span>
+    
+      - <span data-ttu-id="aa5bb-237">Se você não optou por usar um único FQDN e um único endereço IP para o serviço de acesso SIP, Web de Webconferência e o/V referencing, digite o endereço IP que você escolheu para o seu lado público deste servidor de pool de borda para **acesso SIP**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-237">If you did not chose to use a single FQDN and IP Address for the SIP access, Web Conferencing service, and A/V Conferencing service, type the IP address that you have chosen for your public facing side of this Edge pool server for **SIP Access**.</span></span> <span data-ttu-id="aa5bb-238">Em **Webconferência**, digite o endereço IP que você escolheu para o seu lado público deste servidor de pool de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-238">In **Web Conferencing**, type the IP address that you have chosen for your public facing side of this Edge pool server.</span></span> <span data-ttu-id="aa5bb-239">Em **conferência A/V**, digite o endereço IP escolhido para o seu lado público do lado público deste servidor de pool de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-239">In **A/V Conferencing**, type the IP address you have chosen for your public facing side of this Edge pool server.</span></span>
+
+15. <span data-ttu-id="aa5bb-240">Click **Next**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-240">Click **Next**.</span></span>
+
+16. <span data-ttu-id="aa5bb-241">Se você optou por habilitar endereços IPv6, em **definir os endereços IP externos**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-241">If you chose to enable IPv6 addresses, In **Define the external IP addresses**, do the following:</span></span>
+    
+      - <span data-ttu-id="aa5bb-242">Se você optou por usar um único FQDN e um único endereço IP para o acesso SIP, serviço de Webconferência e a/V Edge, digite o endereço IPv6 externo do servidor de borda no **acesso SIP**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-242">If you chose to use a single FQDN and IP Address for the SIP access, Web Conferencing service, and A/V Edge service, type the external IPv6 address of the Edge Server in **SIP Access**.</span></span>
+    
+      - <span data-ttu-id="aa5bb-243">Se você não optou por usar um único FQDN e um único endereço IP para o serviço de acesso SIP, Web de Webconferência e o/V referencing, digite o endereço IPv6 que você escolheu para o seu lado público deste servidor de pool de borda para **acesso SIP**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-243">If you did not chose to use a single FQDN and IP Address for the SIP access, Web Conferencing service, and A/V Conferencing service, type the IPv6 address that you have chosen for your public facing side of this Edge pool server for **SIP Access**.</span></span> <span data-ttu-id="aa5bb-244">Em **Webconferência**, digite o endereço IPv6 que você escolheu para seu lado público do lado público deste servidor de pool de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-244">In **Web Conferencing**, type the IPv6 address that you have chosen for your public facing side of this Edge pool server.</span></span> <span data-ttu-id="aa5bb-245">Em **conferência A/V**, digite o endereço IPv6 que você escolheu para seu lado público do lado público deste servidor de pool de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-245">In **A/V Conferencing**, type the IPv6 address you have chosen for your public facing side of this Edge pool server.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="aa5bb-246">Se você não optou por habilitar e atribuir endereçamento IPv6, esta caixa de diálogo não será exibida.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-246">If you did not choose to enable and assign IPv6 addressing, you will not see this dialog box.</span></span>
+
+    
+    </div>
+
+17. <span data-ttu-id="aa5bb-247">Clique em **Concluir**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-247">Click **Finish**.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="aa5bb-248">Agora, você verá o primeiro servidor de borda que você criou no pool na caixa de diálogo <STRONG>definir os computadores neste pool</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="aa5bb-248">You will now see the first Edge Server you created in your pool in the <STRONG>Define the computers in this pool</STRONG> dialog box.</span></span>
+
+    
+    </div>
+
+18. <span data-ttu-id="aa5bb-249">Em **definir os computadores nesse pool**, clique em **Adicionar**e, em seguida, repita as etapas 11 a 14 para o segundo servidor de borda que você deseja adicionar ao seu pool de bordas.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-249">In **Define the computers in this pool**, click **Add**, and then repeat steps 11 through 14 for the second Edge Server that you want to add to you Edge pool.</span></span>
+
+19. <span data-ttu-id="aa5bb-250">Após repetir as etapas 11 a 14, clique em **Avançar** em **definir os computadores nesse pool**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-250">After you repeat steps 11 through 14, click **Next** in **Define the computers in this pool**.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="aa5bb-251">Nesse ponto, você pode ver os dois servidores de borda no pool.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-251">At this point, you can see both of the Edge Servers in your pool.</span></span>
+
+    
+    </div>
+
+20. <span data-ttu-id="aa5bb-252">Se você optou por usar o NAT, será exibida uma caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-252">If you chose to use NAT, a dialog box appears.</span></span> <span data-ttu-id="aa5bb-253">Em **endereço IP público**, digite os endereços IPv4 e IPv6 públicos (conforme apropriado) a serem convertidos por Nat e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-253">In **Public IP address**, type the public IPv4 and IPv6 (as appropriate) addresses to be translated by NAT, and then click **Next**.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="aa5bb-254">Deve ser o endereço IP externo da borda A/V.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-254">This should be the external IP Address of the A/V Edge.</span></span>
+
+    
+    </div>
+
+21. <span data-ttu-id="aa5bb-255">Em **definir o próximo salto**, na lista **próximo pool de saltos** , selecione o nome do pool interno, que pode ser um pool de front-ends ou um pool padrão de edição.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-255">In **Define the next hop**, in the **Next hop pool** list, select the name of the internal pool, which can be either a Front End pool or a Standard Edition pool.</span></span> <span data-ttu-id="aa5bb-256">Ou, se a sua implantação incluir um director, selecione o nome do diretor.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-256">Or, if your deployment includes a Director, select the name of the Director.</span></span> <span data-ttu-id="aa5bb-257">Em seguida, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-257">Then, click **Next**.</span></span>
+
+22. <span data-ttu-id="aa5bb-258">Em **pools de front-end**, especifique um ou mais pools internos, que podem incluir pools front-ends e servidores Standard Edition, a serem associados a esse servidor de borda, selecionando os nomes dos pools internos que serão usados neste servidor de borda para comunicação com usuários externos com suporte.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-258">In **Associate Front End pools**, specify one or more internal pools, which can include Front End pools and Standard Edition servers, to be associated with this Edge Server, by selecting the names of the internal pool(s) that is to use this Edge Server for communication with supported external users.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="aa5bb-259">Somente um pool de bordas com carga balanceada ou um servidor de borda única pode ser associado a cada pool interno para o tráfego A/V.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-259">Only one load-balanced Edge pool or single Edge Server can be associated with each internal pool for A/V traffic.</span></span> <span data-ttu-id="aa5bb-260">Se você já tiver um pool interno associado a um pool de bordas ou servidor de borda, um aviso será exibido indicando que o pool interno já está associado a um pool de bordas ou um servidor de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-260">If you already have an internal pool associated with an Edge pool or Edge Server, a warning appears indicating that the internal pool is already associated an Edge pool or Edge Server.</span></span> <span data-ttu-id="aa5bb-261">Se você selecionar um pool que já esteja associado a outro servidor de borda, ele alterará a associação.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-261">If you select a pool that is already associated with another Edge Server, it will change the association.</span></span>
+
+    
+    </div>
+
+23. <span data-ttu-id="aa5bb-262">Clique em **Concluir**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-262">Click **Finish**.</span></span>
+
+24. <span data-ttu-id="aa5bb-263">Publicar sua topologia.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-263">Publish your topology.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-define-the-topology-for-a-hardware-load-balanced-edge-server-pool"></a><span data-ttu-id="aa5bb-264">Para definir a topologia de um pool de servidores de borda com carga balanceada de hardware</span><span class="sxs-lookup"><span data-stu-id="aa5bb-264">To define the topology for a hardware load balanced Edge Server pool</span></span>
+
+1.  <span data-ttu-id="aa5bb-265">Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-265">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+
+2.  <span data-ttu-id="aa5bb-266">Na árvore de console, expanda o site no qual você deseja implantar servidores de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-266">In the console tree, expand the site in which you want to deploy Edge Servers.</span></span>
+
+3.  <span data-ttu-id="aa5bb-267">Clique com o botão direito do mouse em **conjuntos de bordas**e selecione **novo pool de bordas**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-267">Right-click **Edge Pools**, and then select **New Edge Pool**.</span></span>
+
+4.  <span data-ttu-id="aa5bb-268">Em **definir o novo pool de bordas**, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-268">In **Define the New Edge Pool**, click **Next**.</span></span>
+
+5.  <span data-ttu-id="aa5bb-269">Em **definir o FQDN do pool de bordas**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-269">In **Define the Edge pool FQDN**, do the following:</span></span>
+    
+      - <span data-ttu-id="aa5bb-270">Em **FQDN**, digite o nome de domínio totalmente qualificado (FQDN) escolhido para o lado interno do pool de bordas.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-270">In **FQDN**, type the fully qualified domain name (FQDN) you have chosen for the internal side of the Edge pool.</span></span>
+        
+        <div>
+        
+
+        > [!IMPORTANT]  
+        > <span data-ttu-id="aa5bb-271">O nome que você especificar para o pool deve ser o nome do pool de bordas internas.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-271">The name you specify for the pool must be the internal edge pool name.</span></span> <span data-ttu-id="aa5bb-272">Isso deve ser definido como um FQDN.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-272">This must be defined as a FQDN.</span></span> <span data-ttu-id="aa5bb-273">O Construtor de Topologias usa FQDNs, não nomes curtos.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-273">Topology Builder uses FQDNs, not short names.</span></span> <span data-ttu-id="aa5bb-274">Use apenas caracteres padrão (incluindo A–Z, a–z, 0–9 e hifens) ao atribuir FQDNs de seus Lync Servers, Servidores de Borda e pools.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-274">Use only standard characters (including A–Z, a–z, 0–9, and hyphens) when assigning FQDNs of your Lync Servers, Edge Servers, and pools.</span></span> <span data-ttu-id="aa5bb-275">Não use caracteres Unicode ou sublinhados.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-275">Do not use Unicode characters or underscores.</span></span> <span data-ttu-id="aa5bb-276">Os caracteres não padrão em um FQDN geralmente não são compatíveis com o DNS externo e CAs públicas (quando o FQDN deve ser atribuído ao SN no certificado).</span><span class="sxs-lookup"><span data-stu-id="aa5bb-276">Nonstandard characters in an FQDN are often not supported by external DNS and public CAs (when the FQDN must be assigned to the SN in the certificate).</span></span>
+
+        
+        </div>
     
     <!-- end list -->
     
-      - Clique em **Vários pools de computador** e em **Avançar**.
+      - <span data-ttu-id="aa5bb-277">Clique em **vários pool de computador**e, em seguida, em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-277">Click **Multiple computer pool**, and then **Next**.</span></span>
 
-6.  Em **Selecionar recursos**, faça o seguinte:
+6.  <span data-ttu-id="aa5bb-278">Em **selecionar recursos** , faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-278">In **Select features** do the following:</span></span>
     
-      - Se você planeja usar um único endereço IP e FQDN para o serviço de acesso SIP, o serviço de Webconferência do Lync Server e os serviços de Borda de A/V, marque a caixa de seleção **Use um único FQDN e Endereço IP**.
+      - <span data-ttu-id="aa5bb-279">Se você pretende usar um único FQDN e endereço IP para o serviço de acesso SIP, serviço de Webconferência do Lync Server e A/V Edge, marque a caixa de seleção **usar um único fqdn & endereço IP** .</span><span class="sxs-lookup"><span data-stu-id="aa5bb-279">If you plan to use a single FQDN and IP address for the SIP access service, Lync Server Web Conferencing service, and A/V Edge service, select the **Use a single FQDN & IP Address** check box.</span></span>
     
-      - Se você planeja habilitar a federação, marque a caixa de seleção **Habilitar federação para este pool de Borda (porta 5061)**.
+      - <span data-ttu-id="aa5bb-280">Se você planeja habilitar a Federação, marque a caixa de seleção **habilitar Federação para este pool de bordas (porta 5061)** .</span><span class="sxs-lookup"><span data-stu-id="aa5bb-280">If you plan to enable federation, select the **Enable federation for this Edge pool (Port 5061)** check box.</span></span>
         
+        <div>
+        
+
         > [!NOTE]  
-        > Você pode selecionar esta opção, mas somente um pool de Borda ou Servidor de Borda em sua organização pode ser publicado externamente para federação. Todo o acesso por usuários federados, incluindo as mensagens instantâneas públicas de usuários, percorrem o mesmo pool de Borda ou um único Servidor de Borda. Por exemplo, se sua implantação inclui um pool de Borda ou único Servidor de Borda implantado em Nova York e um implantado em Londres e você ativar o suporte à federação no pool de Borda de Nova York ou no Servidor de Borda único, o tráfego de sinal para os usuários federados passará através do pool de Borda de Nova York ou do Servidor de Borda único. Isso se aplica mesmo para a comunicação com os usuários de Londres, embora um usuário interno de Londres que chama um usuário federado de Londres use o pool de Londres ou o Servidor de Borda para um tráfego de A/V.
-    
-      - Caso planeje oferecer suporte ao protocolo XMPP em sua implantação, marque a caixa de seleção **Habilitar federação XMPP (porta 5269)**
+        > <span data-ttu-id="aa5bb-281">Você pode selecionar essa opção, mas somente um pool de bordas ou um servidor de borda em sua organização pode ser publicado externamente para Federação.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-281">You can select this option, but only one Edge pool or Edge Server in your organization may be published externally for federation.</span></span> <span data-ttu-id="aa5bb-282">Todo o acesso de usuários federados, incluindo usuários públicos de mensagens instantâneas (IM), passam pelo mesmo pool de bordas ou servidor de borda única.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-282">All access by federated users, including public instant messaging (IM) users, go through the same Edge pool or single Edge Server.</span></span> <span data-ttu-id="aa5bb-283">Por exemplo, se sua implantação incluir um pool de Borda ou um único Servidor de Borda implantado em Nova York e outro implantado em Londres e você habilitar o suporte para federação no pool de Borda de Nova York ou único Servidor de Borda, o tráfego do sinal para usuários federados passará pelo pool de Borda ou único Servidor de Borda de Nova York.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-283">For instance, if your deployment includes an Edge pool or single Edge Server deployed in New York and one deployed in London and you enable federation support on the New York Edge pool or single Edge Server, signal traffic for federated users will go through the New York Edge pool or single Edge Server.</span></span> <span data-ttu-id="aa5bb-284">Isso se aplica inclusive para comunicações com usuários de Londres, embora um usuário interno de Londres chamando um usuário federado de Londres use o pool de Londres ou Servidor de Borda para tráfego de A/V.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-284">This is true even for communications with London users, although a London internal user calling a London federated user uses the London pool or Edge Server for A/V traffic.</span></span>
 
-7.  Clique em **Avançar**.
+        
+        </div>
+    
+      - <span data-ttu-id="aa5bb-285">Se você planeja dar suporte ao protocolo de mensagens extensíveis e presença (XMPP) para a sua implantação, marque a caixa de seleção **habilitar Federação de XMPP (porta 5269)**</span><span class="sxs-lookup"><span data-stu-id="aa5bb-285">If you plan to support the extensible messaging and presence protocol (XMPP) for your deployment, select the **Enable XMPP federation (port 5269)** check box</span></span>
 
-8.  Em **Selecionar Opções de IP**, faça o seguinte:
+7.  <span data-ttu-id="aa5bb-286">Click **Next**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-286">Click **Next**.</span></span>
+
+8.  <span data-ttu-id="aa5bb-287">Em **selecionar opções de IP**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-287">In **Select IP Options**, do the following:</span></span>
     
-      - **Habilitar IPv4 na interface interna** : marque a caixa de seleção caso deseje aplicar um endereço IPv4 à interface interna do Servidor de Borda ou do Pool de borda
+      - <span data-ttu-id="aa5bb-288">**Habilitar IPv4 na interface interna**: marque a caixa de seleção se desejar aplicar um endereço IPv4 à interface interna do servidor de borda ou do pool de bordas</span><span class="sxs-lookup"><span data-stu-id="aa5bb-288">**Enable IPv4 on internal interface**: Select the check box if you want to apply an IPv4 address to the Edge Server or Edge pool internal interface</span></span>
     
-      - **Habilitar IPv6 na interface interna** : marque a caixa de seleção caso deseje aplicar um endereço IPv6 à interface interna do Servidor de Borda ou do Pool de borda
+      - <span data-ttu-id="aa5bb-289">**Habilitar o IPv6 na interface interna**: marque a caixa de seleção se desejar aplicar um endereço IPv6 à interface interna do servidor de borda ou do pool de bordas</span><span class="sxs-lookup"><span data-stu-id="aa5bb-289">**Enable IPv6 on internal interface**: Select the check box if you want to apply an IPv6 address to the Edge Server or Edge pool internal interface</span></span>
     
-      - **Habilitar IPv4 na interface externa** : marque a caixa de seleção caso deseje aplicar um endereço IPv4 à interface externa do Servidor de Borda ou do Pool de borda
+      - <span data-ttu-id="aa5bb-290">**Habilitar IPv4 na interface externa**: marque a caixa de seleção se desejar aplicar um endereço IPv4 à interface externa do servidor de borda ou do pool de bordas</span><span class="sxs-lookup"><span data-stu-id="aa5bb-290">**Enable IPv4 on external interface**: Select the check box if you want to apply an IPv4 address to the Edge Server or Edge pool external interface</span></span>
     
-      - **Habilitar IPv6 na interface externa** : marque a caixa de seleção caso deseje aplicar um endereço IPv6 à interface externa do Servidor de Borda ou do Pool de borda
+      - <span data-ttu-id="aa5bb-291">**Habilitar o IPv6 em uma interface externa**: marque a caixa de seleção se desejar aplicar um endereço IPv6 à interface externa do servidor de borda ou do pool de bordas</span><span class="sxs-lookup"><span data-stu-id="aa5bb-291">**Enable IPv6 on external interface**: Select the check box if you want to apply an IPv6 address to the Edge Server or Edge pool external interface</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > <strong>Não</strong> marque a caixa de seleção <strong>O endereço IP externo do pool de Borda é convertido pelo NAT</strong>. A NAT (conversão de endereços de rede) não é suportada quando você está usando o balanceamento de carga de hardware.
+    > <span data-ttu-id="aa5bb-292"><STRONG>Não</STRONG> marque a caixa de seleção <STRONG>o endereço IP externo do pool de bordas é traduzido pela NAT</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="aa5bb-292"><STRONG>Do Not</STRONG> select the <STRONG>The external IP address of the Edge pool is translated by NAT</STRONG> check box.</span></span> <span data-ttu-id="aa5bb-293">Não há suporte para a conversão de endereços de rede (NAT) quando você está usando o balanceamento de carga de hardware.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-293">Network address translation (NAT) is not supported when you are using hardware load balancing.</span></span>
 
-
-9.  Em **FQDNs externos**, faça o seguinte:
     
-      - Se em **Selecionar recursos** você escolher usar um FQDN único e o endereço IP para o acesso SIP, o serviço de Webconferência e um serviço de Borda A/V, digite o FQDN externo em **Acesso SIP**.
+    </div>
+
+9.  <span data-ttu-id="aa5bb-294">Em **FQDNs externos**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-294">In **External FQDNs**, do the following:</span></span>
+    
+      - <span data-ttu-id="aa5bb-295">Se, em **Selecione os recursos** , você optar por usar um único FQDN e um único endereço IP para o acesso SIP, serviço de Webconferência e a/V Edge, digite o FQDN externo no **acesso SIP**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-295">If in **Select features** you chose to use a single FQDN and IP address for the SIP access, Web Conferencing service, and A/V Edge service, type the external FQDN in **SIP Access**.</span></span>
         
-        > [!NOTE]  
-        > Se você escolher esta opção, deverá especificar um número de porta diferente para cada um dos serviços de borda (configurações de porta recomendadas: 5061 para serviço de Acesso de Borda, 444 para serviço de Borda de Conferência Web e 443 para serviço de Borda A/V). Esta opção pode ajudar a evitar possíveis problemas de conectividade e simplificar a configuração porque você pode usar o mesmo número de porta (por exemplo, 443) para os três serviços.
-    
-      - Se em **Selecionar recursos** você não optou por usar um único FQDN e Endereço IP, digite o FQDN escolhido para o lado voltado ao público do pool de borda em **Acesso SIP**. Em **Webconferências**, digite o FQDN escolhido para o lado voltado ao público do pool de Borda. Em **Áudio/Vídeo**, digite o FQDN escolhido para o lado voltado ao público do pool de Borda. Use as portas padrão.
+        <div>
         
+
         > [!NOTE]  
-        > Estes serão os FQDNs de IP virtual (VIP) voltados ao público para o pool.
+        > <span data-ttu-id="aa5bb-296">Se optar por selecionar essa opção, você deve especificar um número de porta diferente para cada um dos serviços de borda (configurações de porta recomendadas: 5061 para serviço de borda de acesso, 444 para serviço de borda de Webconferência e 443 para serviço de borda A/V).</span><span class="sxs-lookup"><span data-stu-id="aa5bb-296">If you choose to select this option, you must specify a different port number for each of the Edge services (recommended port settings: 5061 for Access Edge service, 444 for Web Conferencing Edge service, and 443 for A/V Edge service).</span></span> <span data-ttu-id="aa5bb-297">Ao selecionar essa opção, você pode ajudar a evitar possíveis problemas de conectividade e simplificar a configuração porque pode usar o mesmo número de porta (por exemplo, 443) para todos os três serviços.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-297">By selecting this option, you can help prevent potential connectivity issues and simplify the configuration because you can then use the same port number (for example, 443) for all three services.</span></span>
 
-
-10. Clique em **Avançar**.
-
-11. Em **Definir os computadores neste pool**, clique em **Adicionar**.
-
-12. Em **Definir os endereços IP externos**, faça o seguinte:
+        
+        </div>
     
-      - Caso opte por usar um único FQDN e endereço IP para o acesso SIP, serviço de Webconferência e serviço de borda A/V, digite o endereço IPv4 externo do servidor de borda em **Acesso SIP**.endereço IP externo do servidor de borda em **Acesso SIP**.
-    
-      - Se você não optou por usar um único FQDN e Endereço IP para o acesso SIP, serviço de Webconferências e serviço de Conferências de A/V, digite o endereço IP escolhido para o lado voltado ao público deste servidor de pool de Borda no **Acesso SIP**. Em **Webconferências**, digite o endereço IP escolhido para o lado voltado ao público deste servidor de pool de Borda. Em **Conferências de A/V**, digite o endereço IP escolhido para o lado voltado ao público deste servidor de pool de Borda.
+      - <span data-ttu-id="aa5bb-298">Se, em **Selecione os recursos** , você não tiver optado por usar um único FQDN e endereço IP, digite o FQDN escolhido para seu lado público do pool de bordas no **acesso SIP**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-298">If in **Select features** you did not chose to use a single FQDN and IP address, type the FQDN that you have chosen for your public facing side of the edge pool for in **SIP Access**.</span></span> <span data-ttu-id="aa5bb-299">Em **Webconferência**, digite o FQDN escolhido para o seu lado público do lado do pool de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-299">In **Web Conferencing**, type the FQDN you have chosen for your public facing side of the Edge pool.</span></span> <span data-ttu-id="aa5bb-300">Em **áudio/vídeo**, digite o FQDN escolhido para seu lado público do lado do pool de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-300">In **Audio/Video**, type the FQDN you have chosen for your public facing side of the Edge pool.</span></span> <span data-ttu-id="aa5bb-301">Use as portas padrão.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-301">Use the default ports.</span></span>
+        
+        <div>
+        
 
-13. Clique em **Avançar**.
+        > [!NOTE]  
+        > <span data-ttu-id="aa5bb-302">Estes serão os FQDNs VIP (IP virtual) de voltagem pública para o pool.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-302">These will be the publicly facing virtual IP (VIP) FQDNs for the pool.</span></span>
 
-14. Caso opte por habilitar endereços IPv6, em **Definir endereços IP externos**, faça o seguinte:
+        
+        </div>
+
+10. <span data-ttu-id="aa5bb-303">Click **Next**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-303">Click **Next**.</span></span>
+
+11. <span data-ttu-id="aa5bb-304">Em **definir os computadores neste pool**, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-304">In **Define the computers in this pool**, click **Add**.</span></span>
+
+12. <span data-ttu-id="aa5bb-305">Em **definir os endereços IP externos**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-305">In **Define the external IP addresses**, do the following:</span></span>
     
-      - Se você optou por usar um único FQDN e Endereço IPv6 para o acesso SIP, serviço de Webconferências e serviço de Borda de A/V, digite o endereço IP externo do Servidor de Borda em **Acesso SIP**.
+      - <span data-ttu-id="aa5bb-306">Se você optou por usar um único FQDN e um único endereço IP para o acesso SIP, serviço de Webconferência e a/V Edge, digite o endereço IPv4 externo do servidor de borda no **acesso SIP**. endereço IP externo do servidor de borda no **acesso SIP**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-306">If you chose to use a single FQDN and IP Address for the SIP access, Web Conferencing service, and A/V Edge service, type the external IPv4 address of the Edge Server in **SIP Access**.external IP address of the Edge Server in **SIP Access**.</span></span>
     
-      - Se você não optou por usar um único FQDN e Endereço IP para o acesso SIP, serviço de Webconferências e serviço de Conferências de A/V, digite o endereço IPv6 escolhido para o lado voltado ao público deste servidor de pool de Borda no **Acesso SIP**. Em **Webconferências**, digite o endereço IPv6 escolhido para o lado voltado ao público deste servidor de pool de Borda. Em **Conferências de A/V**, digite o endereço IPv6 escolhido para o lado voltado ao público deste servidor de pool de Borda.
+      - <span data-ttu-id="aa5bb-307">Se você não optou por usar um único FQDN e um único endereço IP para o serviço de acesso SIP, Web de Webconferência e o/V referencing, digite o endereço IP que você escolheu para o seu lado público deste servidor de pool de borda para **acesso SIP**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-307">If you did not chose to use a single FQDN and IP Address for the SIP access, Web Conferencing service, and A/V Conferencing service, type the IP address that you have chosen for your public facing side of this Edge pool server for **SIP Access**.</span></span> <span data-ttu-id="aa5bb-308">Em **Webconferência**, digite o endereço IP que você escolheu para o seu lado público deste servidor de pool de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-308">In **Web Conferencing**, type the IP address that you have chosen for your public facing side of this Edge pool server.</span></span> <span data-ttu-id="aa5bb-309">Em **conferência A/V**, digite o endereço IP escolhido para o seu lado público do lado público deste servidor de pool de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-309">In **A/V Conferencing**, type the IP address you have chosen for your public facing side of this Edge pool server.</span></span>
+
+13. <span data-ttu-id="aa5bb-310">Click **Next**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-310">Click **Next**.</span></span>
+
+14. <span data-ttu-id="aa5bb-311">Se você optou por habilitar endereços IPv6, em **definir os endereços IP externos**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="aa5bb-311">If you chose to enable IPv6 addresses, In **Define the external IP addresses**, do the following:</span></span>
     
+      - <span data-ttu-id="aa5bb-312">Se você optou por usar um único FQDN e um único endereço IP para o acesso SIP, serviço de Webconferência e a/V Edge, digite o endereço IPv6 externo do servidor de borda no **acesso SIP**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-312">If you chose to use a single FQDN and IP Address for the SIP access, Web Conferencing service, and A/V Edge service, type the external IPv6 address of the Edge Server in **SIP Access**.</span></span>
+    
+      - <span data-ttu-id="aa5bb-313">Se você não optou por usar um único FQDN e um único endereço IP para o serviço de acesso SIP, Web de Webconferência e o/V referencing, digite o endereço IPv6 que você escolheu para o seu lado público deste servidor de pool de borda para **acesso SIP**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-313">If you did not chose to use a single FQDN and IP Address for the SIP access, Web Conferencing service, and A/V Conferencing service, type the IPv6 address that you have chosen for your public facing side of this Edge pool server for **SIP Access**.</span></span> <span data-ttu-id="aa5bb-314">Em **Webconferência**, digite o endereço IPv6 que você escolheu para seu lado público do lado público deste servidor de pool de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-314">In **Web Conferencing**, type the IPv6 address that you have chosen for your public facing side of this Edge pool server.</span></span> <span data-ttu-id="aa5bb-315">Em **conferência A/V**, digite o endereço IPv6 que você escolheu para seu lado público do lado público deste servidor de pool de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-315">In **A/V Conferencing**, type the IPv6 address you have chosen for your public facing side of this Edge pool server.</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Caso não tenha optado por habilitar e atribuir endereços IPv6, você não verá esta caixa de diálogo.
+    > <span data-ttu-id="aa5bb-316">Se você não optou por habilitar e atribuir endereçamento IPv6, esta caixa de diálogo não será exibida.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-316">If you did not choose to enable and assign IPv6 addressing, you will not see this dialog box.</span></span>
 
-
-15. Clique em **Concluir**.
     
+    </div>
+
+15. <span data-ttu-id="aa5bb-317">Clique em **Concluir**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-317">Click **Finish**.</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Agora você verá o primeiro Servidor de Borda criado em seu pool na caixa de diálogo <strong>Definir os computadores neste pool</strong>.
+    > <span data-ttu-id="aa5bb-318">Agora, você verá o primeiro servidor de borda que você criou no pool na caixa de diálogo <STRONG>definir os computadores neste pool</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="aa5bb-318">You will now see the first Edge Server you created in your pool in the <STRONG>Define the computers in this pool</STRONG> dialog box.</span></span>
 
-
-16. Em **Definir os computadores deste pool**, clique em **Adicionar** e repita as etapas de 11 a 14 para o segundo Servidor de Borda que você deseja adicionar ao pool de Borda.
-
-17. Depois de repetir as etapas 11 a 14, clique em **Avançar** em **Definir os computadores neste pool**.
     
+    </div>
+
+16. <span data-ttu-id="aa5bb-319">Em **definir os computadores nesse pool**, clique em **Adicionar**e, em seguida, repita as etapas 11 a 14 para o segundo servidor de borda que você deseja adicionar ao seu pool de bordas.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-319">In **Define the computers in this pool**, click **Add**, and then repeat steps 11 through 14 for the second Edge Server that you want to add to your Edge pool.</span></span>
+
+17. <span data-ttu-id="aa5bb-320">Após repetir as etapas 11 a 14, clique em **Avançar** em **definir os computadores nesse pool**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-320">After you repeat steps 11 through 14, click **Next** in **Define the computers in this pool**.</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Neste ponto, você poderá ver ambos os Servidores de Borda em seu pool.
+    > <span data-ttu-id="aa5bb-321">Nesse ponto, você pode ver os dois servidores de borda no pool.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-321">At this point, you can see both of the Edge Servers in your pool.</span></span>
 
-
-18. Em **Definir o próximo salto**, na lista **Pool do próximo salto**, selecione o nome do pool interno, que pode ser um pool de Front-Ends ou um pool Standard Edition. Ou, se sua implantação inclui um Diretor, selecione o nome do Diretor. Em seguida, clique em **Avançar**.
-
-19. Em **Associar pools de Front End**, especifique um ou mais pools internos, que podem incluir pools de Front End e servidores Standard Edition, a serem associados a este Servidor de Borda, selecionando os nomes do(s) pool(s) interno(s) que usará(ão) este Servidor de Borda para comunicação com usuários externos suportados.
     
-> [!NOTE]  
-> Somente um pool de Borda com balanceamento de carga ou Servidor de Borda único pode ser associado a um cada pool interno para tráfego de A/V. Se você já possui um pool interno associado a um pool de Borda ou Servidor de Borda, um aviso será exibido, indicando que o pool interno já está associado a um pool de Borda ou Servidor de Borda. Se um pool que já está associado a outro Servidor de Borda for selecionado, ele alterará a associação.
+    </div>
 
+18. <span data-ttu-id="aa5bb-322">Em **definir o próximo salto**, na lista **próximo pool de saltos** , selecione o nome do pool interno, que pode ser um pool de front-ends ou um pool padrão de edição.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-322">In **Define the next hop**, in the **Next hop pool** list, select the name of the internal pool, which can be either a Front End pool or a Standard Edition pool.</span></span> <span data-ttu-id="aa5bb-323">Ou, se a sua implantação incluir um director, selecione o nome do diretor.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-323">Or, if your deployment includes a Director, select the name of the Director.</span></span> <span data-ttu-id="aa5bb-324">Em seguida, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-324">Then, click **Next**.</span></span>
 
-20. Clique em **Concluir**.
+19. <span data-ttu-id="aa5bb-325">Em **pools de front-end**, especifique um ou mais pools internos, que podem incluir pools front-ends e servidores Standard Edition, a serem associados a esse servidor de borda, selecionando os nomes dos pools internos que serão usados neste servidor de borda para comunicação com usuários externos com suporte.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-325">In **Associate Front End pools**, specify one or more internal pools, which can include Front End pools and Standard Edition servers, to be associated with this Edge Server, by selecting the names of the internal pool(s) that is to use this Edge Server for communication with supported external users.</span></span>
+    
+    <div>
+    
 
-21. Publique sua topologia.
+    > [!NOTE]  
+    > <span data-ttu-id="aa5bb-326">Somente um pool de bordas com carga balanceada ou um servidor de borda única pode ser associado a cada pool interno para o tráfego A/V.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-326">Only one load-balanced Edge pool or single Edge Server can be associated with each internal pool for A/V traffic.</span></span> <span data-ttu-id="aa5bb-327">Se você já tiver um pool interno associado a um pool de bordas ou servidor de borda, um aviso será exibido indicando que o pool interno já está associado a um pool de bordas ou um servidor de borda.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-327">If you already have an internal pool associated with an Edge pool or Edge Server, a warning appears indicating that the internal pool is already associated an Edge pool or Edge Server.</span></span> <span data-ttu-id="aa5bb-328">Se você selecionar um pool que já esteja associado a outro servidor de borda, ele alterará a associação.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-328">If you select a pool that is already associated with another Edge Server, it will change the association.</span></span>
+
+    
+    </div>
+
+20. <span data-ttu-id="aa5bb-329">Clique em **Concluir**.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-329">Click **Finish**.</span></span>
+
+21. <span data-ttu-id="aa5bb-330">Publicar sua topologia.</span><span class="sxs-lookup"><span data-stu-id="aa5bb-330">Publish your topology.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

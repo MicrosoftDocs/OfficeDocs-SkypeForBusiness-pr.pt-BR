@@ -1,78 +1,131 @@
-﻿---
-title: Criar ou modificar perfis da política de largura de banda
-TOCTitle: Criar ou modificar perfis da política de largura de banda
-ms:assetid: 08a2e18f-9b0d-4a2f-aa14-13bbf79ec745
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg520945(v=OCS.15)
-ms:contentKeyID: 49305805
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Criando ou modificando perfis de política de largura de banda'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Creating or modifying bandwidth policy profiles
+ms:assetid: 08a2e18f-9b0d-4a2f-aa14-13bbf79ec745
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520945(v=OCS.15)
+ms:contentKeyID: 48183336
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 38f44d759a77fea03b285d2e1af10838d508a6ba
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829762"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Criar ou modificar perfis da política de largura de banda
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-15_
+# <a name="creating-or-modifying-bandwidth-policy-profiles-in-lync-server-2013"></a><span data-ttu-id="35806-102">Criando ou modificando perfis de política de largura de banda no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="35806-102">Creating or modifying bandwidth policy profiles in Lync Server 2013</span></span>
 
-Como parte do serviço de controle de admissão de chamadas (CAC), utiliza-se uma política de largura de banda para definir as limitações de largura de banda para determinadas modalidades. No Microsoft Lync Server 2013, as limitações de largura de banda podem ser atribuídas apenas às modalidades de áudio e vídeo. Você pode definir limitações gerais de largura de banda e limitações para as sessões. É possível usar o Painel de Controle do Lync Server para criar ou modificar um perfil de contêiner para essas políticas. Cada perfil de política de largura de banda pode ser associado a um ou mais sites de rede. Para excluir um perfil de política de largura de banda, consulte [Excluindo perfis da política de largura de banda da rede](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)
+</div>
 
-## Para criar um novo perfil de política de largura de banda
+<div id="mainSection">
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+<div id="mainBody">
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Na barra de navegação à esquerda, clique em **Configuração de Rede** e depois em **Política de largura de banda**.
+<span data-ttu-id="35806-103">_**Tópico da última modificação:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="35806-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-4.  Na página **Política de largura de banda**, clique em **Novo**.
+<span data-ttu-id="35806-104">Como parte do controle de admissão de chamadas (CAC), uma política de largura de banda é usada para definir limitações de largura de banda para determinadas modalidades.</span><span class="sxs-lookup"><span data-stu-id="35806-104">As part of call admission control (CAC), a bandwidth policy is used to define bandwidth limitations for certain modalities.</span></span> <span data-ttu-id="35806-105">No Microsoft Lync Server 2013, somente as modalidades de áudio e vídeo podem ter limitações de largura de banda atribuídas.</span><span class="sxs-lookup"><span data-stu-id="35806-105">In Microsoft Lync Server 2013, only audio and video modalities can be assigned bandwidth limitations.</span></span> <span data-ttu-id="35806-106">Você pode definir limitações gerais de largura de banda e limitações de sessão.</span><span class="sxs-lookup"><span data-stu-id="35806-106">You can set overall bandwidth limitations and session limitations.</span></span> <span data-ttu-id="35806-107">Você pode usar o painel de controle do Lync Server para criar, modificar ou excluir um perfil de contêiner para essas políticas.</span><span class="sxs-lookup"><span data-stu-id="35806-107">You can use the Lync Server Control Panel to create, modify, or delete a container profile for these policies.</span></span> <span data-ttu-id="35806-108">Cada perfil de política de largura de banda pode ser associado a um ou mais sites de rede.</span><span class="sxs-lookup"><span data-stu-id="35806-108">Each bandwidth policy profile can be associated with one or more network sites.</span></span> <span data-ttu-id="35806-109">Use os procedimentos a seguir para criar ou modificar um perfil de política de largura de banda.</span><span class="sxs-lookup"><span data-stu-id="35806-109">Use the following procedures to create or modify a bandwidth policy profile.</span></span> <span data-ttu-id="35806-110">Para excluir um perfil de política de largura de banda, consulte [excluindo perfis de política de largura de banda de rede no Lync Server 2013](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)</span><span class="sxs-lookup"><span data-stu-id="35806-110">To delete a bandwidth policy profile, see [Deleting network bandwidth policy profiles in Lync Server 2013](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)</span></span>
 
-5.  Em **Novo Perfil de Política de Largura de Banda**, digite um nome no campo **Nome**. Esse nome deve ser único entre todos os perfis de política de largura de banda.
+<div>
 
-6.  No campo **Limite de áudio**, digite um valor numérico. Esse valor é a quantidade máxima de largura de banda a ser alocada a todas as conexões de áudio, expressa em kbps.
+## <a name="to-create-a-new-bandwidth-policy-profile"></a><span data-ttu-id="35806-111">Para criar um novo perfil de política de largura de banda</span><span class="sxs-lookup"><span data-stu-id="35806-111">To create a new bandwidth policy profile</span></span>
 
-7.  Insira um valor numérico no campo **Limite da sessão de áudio**. Esse valor é a quantidade máxima de largura de banda a ser alocada para uma conexão de áudio individual, expressa em kbps. Esse valor precisa ser igual a ou maior que 40.
+1.  <span data-ttu-id="35806-112">Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="35806-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-8.  Insira um valor numérico no campo **Limite de vídeo**. Esse valor é quantidade máxima de largura de banda a ser alocada para todas as conexões de vídeo, expressa em kbps.
+2.  <span data-ttu-id="35806-113">Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="35806-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="35806-114">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="35806-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-9.  Insira um valor numérico no campo **Limite de sessão de vídeo**. Esse valor é a quantidade máxima de largura de banda a ser alocada para uma conexão de vídeo individual, expressa em kbps. Esse valor precisa ser igual a ou maior que 100.
+3.  <span data-ttu-id="35806-115">Na barra de navegação à esquerda, clique em **configuração de rede** e, em seguida, em política de **largura de banda**.</span><span class="sxs-lookup"><span data-stu-id="35806-115">In the left navigation bar, click **Network Configuration** and then click **Bandwidth Policy**.</span></span>
 
-10. (Opcional) Digite um valor no campo **Descrição** para fornecer mais informações sobre esse perfil da política de largura de banda que não pode ser expressa somente pelo nome.
+4.  <span data-ttu-id="35806-116">Na página **política de largura de banda** , clique em **novo**.</span><span class="sxs-lookup"><span data-stu-id="35806-116">On the **Bandwidth Policy** page, click **New**.</span></span>
 
-11. Clique em **Confirmar**.
+5.  <span data-ttu-id="35806-117">Em **novo perfil de política de largura de banda**, digite um nome no campo **nome** .</span><span class="sxs-lookup"><span data-stu-id="35806-117">In **New Bandwidth Policy Profile**, type a name in the **Name** field.</span></span> <span data-ttu-id="35806-118">Esse nome deve ser exclusivo entre todos os perfis de política de largura de banda.</span><span class="sxs-lookup"><span data-stu-id="35806-118">This name must be unique among all bandwidth policy profiles.</span></span>
+
+6.  <span data-ttu-id="35806-119">No campo **limite de áudio** , digite um valor numérico.</span><span class="sxs-lookup"><span data-stu-id="35806-119">In the **Audio limit** field, type a numeric value.</span></span> <span data-ttu-id="35806-120">Esse valor é a quantidade máxima de largura de banda a ser alocada para todas as conexões de áudio, expressa em Kbps.</span><span class="sxs-lookup"><span data-stu-id="35806-120">This value is the maximum amount of bandwidth to allocate for all audio connections, expressed in kbps.</span></span>
+
+7.  <span data-ttu-id="35806-121">Insira um valor numérico no campo **limite da sessão de áudio** .</span><span class="sxs-lookup"><span data-stu-id="35806-121">Enter a numeric value in the **Audio session limit** field.</span></span> <span data-ttu-id="35806-122">Esse valor é a quantidade máxima de largura de banda a ser alocada para uma conexão de áudio individual, expressa em Kbps.</span><span class="sxs-lookup"><span data-stu-id="35806-122">This value is the maximum amount of bandwidth to allocate for an individual audio connection, expressed in kbps.</span></span> <span data-ttu-id="35806-123">Esse valor deve ser 40 ou superior.</span><span class="sxs-lookup"><span data-stu-id="35806-123">This value must be 40 or higher.</span></span>
+
+8.  <span data-ttu-id="35806-124">Insira um valor numérico no campo **limite de vídeo** .</span><span class="sxs-lookup"><span data-stu-id="35806-124">Enter a numeric value in the **Video limit** field.</span></span> <span data-ttu-id="35806-125">Esse valor é a quantidade máxima de largura de banda a ser alocada para todas as conexões de vídeo, expressa em Kbps.</span><span class="sxs-lookup"><span data-stu-id="35806-125">This value is the maximum amount of bandwidth to allocate for all video connections, expressed in kbps.</span></span>
+
+9.  <span data-ttu-id="35806-126">Insira um valor numérico no campo **limite da sessão de vídeo** .</span><span class="sxs-lookup"><span data-stu-id="35806-126">Enter a numeric value in the **Video session limit** field.</span></span> <span data-ttu-id="35806-127">Esse valor é a quantidade máxima de largura de banda a ser alocada para uma conexão de vídeo individual, expressa em Kbps.</span><span class="sxs-lookup"><span data-stu-id="35806-127">This value is the maximum amount of bandwidth to allocate for an individual video connection, expressed in kbps.</span></span> <span data-ttu-id="35806-128">Esse valor deve ser 100 ou superior.</span><span class="sxs-lookup"><span data-stu-id="35806-128">This value must be 100 or higher.</span></span>
+
+10. <span data-ttu-id="35806-129">Adicionais Digite um valor no campo **Descrição** para fornecer mais informações sobre esse perfil de política de largura de banda que não pode ser expresso apenas com o nome.</span><span class="sxs-lookup"><span data-stu-id="35806-129">(Optional) Type a value in the **Description** field to provide more information about this bandwidth policy profile that cannot be expressed by the name alone.</span></span>
+
+11. <span data-ttu-id="35806-130">Clique em **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="35806-130">Click **Commit**.</span></span>
     
-    > [!NOTE]  
-    > Criar um novo perfil de política de largura de banda não reforça as restrições de largura de banda automaticamente. É preciso, primeiro, associar o perfil da política com um site. Para obter mais detalhes sobre como associar um perfil de política com um site, consulte <a href="lync-server-2013-creating-or-modifying-network-sites.md">Criar ou modificar sites de rede</a>.
-
-## Para modificar um perfil de política de largura de banda
-
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
-
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
-
-3.  Na barra de navegação à esquerda, clique em **Configuração de rede** e clique em **Política de largura de banda**.
-
-4.  Na página **Política de largura de banda**, clique no perfil da política de largura de banda que você quer modificar.
-
-5.  No menu **Editar**, clique em **Mostrar detalhes**.
-
-6.  Na página **Editar Perfil de Política de Largura de Banda**, modifique os campos conforme necessário (para obter mais detalhes, consulte a seção "Para criar um novo perfil de política de largura de banda", já vista neste tópico).
-
-7.  Clique em **Confirmar**.
+    <div>
     
+
     > [!NOTE]  
-    > Ao modificar o perfil de política de largura de banda, as limitações de largura de banda de todos os sites da rede associados a esse perfil serão atualizadas imediatamente.
+    > <span data-ttu-id="35806-131">A criação de um novo perfil de política de largura de banda não impõe automaticamente restrições de largura de banda.</span><span class="sxs-lookup"><span data-stu-id="35806-131">Creating a new bandwidth policy profile does not automatically enforce bandwidth restrictions.</span></span> <span data-ttu-id="35806-132">Você deve primeiro associar o perfil de política a um site.</span><span class="sxs-lookup"><span data-stu-id="35806-132">You must first associate the policy profile with a site.</span></span> <span data-ttu-id="35806-133">Para obter detalhes sobre como associar um perfil de política a um site, consulte <A href="lync-server-2013-creating-or-modifying-network-sites.md">criando ou modificando sites de rede no Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="35806-133">For details about how to associate a policy profile with a site, see <A href="lync-server-2013-creating-or-modifying-network-sites.md">Creating or modifying network sites in Lync Server 2013</A>.</span></span>
 
-## Consulte Também
+    
+    </div>
 
-#### Tarefas
+</div>
 
-[Excluindo perfis da política de largura de banda da rede](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)  
+<div>
 
-#### Outros Recursos
+## <a name="to-modify-a-bandwidth-policy-profile"></a><span data-ttu-id="35806-134">Para modificar um perfil de política de largura de banda</span><span class="sxs-lookup"><span data-stu-id="35806-134">To modify a bandwidth policy profile</span></span>
 
-[Configurar controle de admissão de chamada no Lync Server 2013](lync-server-2013-configure-call-admission-control.md)  
-[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)  
-[Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)  
-[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
+1.  <span data-ttu-id="35806-135">Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="35806-135">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="35806-136">Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="35806-136">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="35806-137">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="35806-137">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="35806-138">Na barra de navegação à esquerda, clique em **configuração de rede** e, em seguida, em política de **largura de banda**.</span><span class="sxs-lookup"><span data-stu-id="35806-138">In the left navigation bar, click **Network Configuration** and then click **Bandwidth Policy**.</span></span>
+
+4.  <span data-ttu-id="35806-139">Na página **política de largura de banda** , clique no perfil de política de largura de banda que você deseja modificar.</span><span class="sxs-lookup"><span data-stu-id="35806-139">On the **Bandwidth Policy** page, click the bandwidth policy profile that you want to modify.</span></span>
+
+5.  <span data-ttu-id="35806-140">No menu **Editar**, clique em **Exibir detalhes**.</span><span class="sxs-lookup"><span data-stu-id="35806-140">On the **Edit** menu, click **Show details**.</span></span>
+
+6.  <span data-ttu-id="35806-141">Na página **Editar perfil da política de largura de banda** , modifique os campos conforme necessário (para obter detalhes, consulte a seção "para criar um perfil de política de largura de banda" anteriormente neste tópico).</span><span class="sxs-lookup"><span data-stu-id="35806-141">On the **Edit Bandwidth Policy Profile** page, modify the fields as necessary (for details, see the "To create a bandwidth policy profile" section earlier in this topic).</span></span>
+
+7.  <span data-ttu-id="35806-142">Clique em **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="35806-142">Click **Commit**.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="35806-143">Quando você modifica o perfil da política de largura de banda, ele atualiza imediatamente as limitações de largura de banda de todos os sites de rede associados a este perfil de política de largura de banda.</span><span class="sxs-lookup"><span data-stu-id="35806-143">When you modify the bandwidth policy profile, it will immediately update the bandwidth limitations of all network sites associated with this bandwidth policy profile.</span></span>
+
+    
+    </div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="35806-144">Confira também</span><span class="sxs-lookup"><span data-stu-id="35806-144">See Also</span></span>
+
+
+[<span data-ttu-id="35806-145">Excluindo perfis de política de largura de banda de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="35806-145">Deleting network bandwidth policy profiles in Lync Server 2013</span></span>](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)  
+
+
+[<span data-ttu-id="35806-146">Configurar o controle de admissão de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="35806-146">Configure call admission control in Lync Server 2013</span></span>](lync-server-2013-configure-call-admission-control.md)  
+[<span data-ttu-id="35806-147">New-CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="35806-147">New-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)  
+[<span data-ttu-id="35806-148">Set-CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="35806-148">Set-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)  
+[<span data-ttu-id="35806-149">Get-CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="35806-149">Get-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

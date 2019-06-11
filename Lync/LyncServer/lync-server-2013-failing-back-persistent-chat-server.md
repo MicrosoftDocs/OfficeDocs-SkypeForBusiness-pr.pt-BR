@@ -1,102 +1,150 @@
-﻿---
-title: 'Lync Server 2013: Fallback do Servidor de Chat Persistente'
-TOCTitle: Fallback do Servidor de Chat Persistente
-ms:assetid: 67b91de4-6ddc-43e6-9812-5e1aa84a7980
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204970(v=OCS.15)
-ms:contentKeyID: 49306964
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Fallback do Servidor de Chat Persistente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Failing back Persistent Chat Server
+ms:assetid: 67b91de4-6ddc-43e6-9812-5e1aa84a7980
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204970(v=OCS.15)
+ms:contentKeyID: 48184396
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1d79c25d153de81906fcaf9355a543d31cb8fe0a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829182"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Fallback do Servidor de Chat Persistente no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-02-05_
+# <a name="failing-back-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="e20c5-102">Fallback do Servidor de Chat Persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e20c5-102">Failing back Persistent Chat Server in Lync Server 2013</span></span>
 
-Este procedimento descreve as etapas necessárias para recuperar-se de uma falha do Servidor de Chat Persistente e restabelecer as operações no data center primário.
+</div>
 
-Durante a falha do Servidor de Chat Persistente, o data center primário sofre uma paralisação completa e os bancos de dados primário e espelho ficam indisponíveis. O data center primário faz failover para o servidor de backup.
+<div id="mainSection">
 
-O procedimento a seguir restaura a operação normal após o backup do data center primário e a recomposição dos servidores. O procedimento pressupõe que o data center primário tenha sido recuperado da paralisação total e que o banco de dados mgc e o banco de dados mgccomp tenham sido recompostos e reinstalados com o uso do Construtor de Topologias.
+<div id="mainBody">
 
-O procedimento também pressupõe que nenhum servidor espelho ou de backup novo tenha sido implantado durante o período de failover e que o único servidor implantado seja o de backup e seu servidor espelho, conforme definido em [Failover do Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-failing-over-persistent-chat-server.md).
+<span> </span>
 
-Estas etapas foram criadas para recuperar a configuração como ela se encontrava antes do desastre que resultou no failover do servidor primário para o servidor de backup.
+<span data-ttu-id="e20c5-103">_**Tópico da última modificação:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="e20c5-103">_**Topic Last Modified:** 2014-02-05_</span></span>
 
-## Para fazer failback do Servidor de Chat Persistente
+<span data-ttu-id="e20c5-104">Este procedimento descreve as etapas necessárias para recuperar-se de uma falha persistente do servidor de chat e para restabelecer as operações do data center principal.</span><span class="sxs-lookup"><span data-stu-id="e20c5-104">This procedure outlines the steps necessary to recover from a Persistent Chat Server failure, and to reestablish operations from the primary data center.</span></span>
 
-1.  Limpe todos os servidores da lista de servidores ativos do Servidor de Chat Persistente usando o cmdlet `Set-CsPersistentChatActiveServer` do Shell de Gerenciamento do Lync Server. Isso impedirá que todos os Servidores de Chat Persistente se conectem ao banco de dados mgc e ao banco de dados mgccomp durante o failback.
+<span data-ttu-id="e20c5-105">Durante uma falha persistente do servidor de chat, o data center principal sofre uma interrupção completa, e os bancos de dados principal e espelho ficam indisponíveis.</span><span class="sxs-lookup"><span data-stu-id="e20c5-105">During Persistent Chat Server failure, the primary data center suffers complete outage, and the primary and mirror databases become unavailable.</span></span> <span data-ttu-id="e20c5-106">O data center primário faz failover para o servidor de backup.</span><span class="sxs-lookup"><span data-stu-id="e20c5-106">The primary data center fails over to the backup server.</span></span>
+
+<span data-ttu-id="e20c5-107">O procedimento a seguir restaura a operação normal após o backup do data center primário e a recompilação dos servidores.</span><span class="sxs-lookup"><span data-stu-id="e20c5-107">The following procedure restores normal operation after the primary data center is back up, and the servers have been rebuilt.</span></span> <span data-ttu-id="e20c5-108">O procedimento pressupõe que o principal centro de dados foi recuperada da interrupção total, e que o banco de dados MGC e o banco de dados do mgccomp foram recriados e reinstalados usando o construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="e20c5-108">The procedure assumes that the primary data center has been recovered from total outage, and that the mgc database and the mgccomp database have been rebuilt and reinstalled by using Topology Builder.</span></span>
+
+<span data-ttu-id="e20c5-109">O procedimento também pressupõe que nenhum novo espelho e servidores de backup foram implantados durante o período de failover e que o único servidor implantado é o servidor de backup e seu servidor de espelhamento, conforme definido em falha em um [servidor de chat persistente no Lync server 2013](lync-server-2013-failing-over-persistent-chat-server.md).</span><span class="sxs-lookup"><span data-stu-id="e20c5-109">The procedure also assumes that no new mirror and backup servers were deployed during the failover period, and that the only server deployed is the backup server and its mirror server, as defined in [Failing over Persistent Chat Server in Lync Server 2013](lync-server-2013-failing-over-persistent-chat-server.md).</span></span>
+
+<span data-ttu-id="e20c5-110">Estas etapas foram criadas para recuperar a configuração como ela se encontrava antes do desastre que resultou no failover do servidor primário para o servidor de backup.</span><span class="sxs-lookup"><span data-stu-id="e20c5-110">These steps are designed to recover configuration as it existed prior to the disaster, resulting in failover from the primary server to the backup server.</span></span>
+
+<div>
+
+## <a name="to-fail-back-persistent-chat-server"></a><span data-ttu-id="e20c5-111">Para fazer failback do servidor de chat persistente</span><span class="sxs-lookup"><span data-stu-id="e20c5-111">To fail back Persistent Chat Server</span></span>
+
+1.  <span data-ttu-id="e20c5-112">Desmarque todos os servidores da lista de servidores de chat persistentes usando `Set-CsPersistentChatActiveServer` o cmdlet do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e20c5-112">Clear all servers from the Persistent Chat Server Active Server list by using the `Set-CsPersistentChatActiveServer` cmdlet from the Lync Server Management Shell.</span></span> <span data-ttu-id="e20c5-113">Isso interrompe a conexão de todos os servidores de chat persistentes ao banco de dados do MGC e do banco de dados do mgccomp durante o failback.</span><span class="sxs-lookup"><span data-stu-id="e20c5-113">This stops all Persistent Chat Servers from connecting to the mgc database and the mgccomp database during failback.</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > O agente do SQL Server no Servidor Back-End do Servidor de Chat Persistente secundário deve estar em execução em uma conta privilegiada. Em termos específicos, a conta deve incluir:    <ul>    
-        > <li><p>Acesso de leitura ao compartilhamento de rede no qual os backups serão colocados.</p></li>    
-    > <li><p>Acesso de gravação ao diretório local específico em que os backups serão copiados.</p></li>    </ul>
+    > <span data-ttu-id="e20c5-114">O agente do SQL Server no servidor back-end persistente do servidor de chat secundário deve estar em execução em uma conta privilegiada.</span><span class="sxs-lookup"><span data-stu-id="e20c5-114">The SQL Server agent on the secondary Persistent Chat Server Back End Server should be running under a privileged account.</span></span> <span data-ttu-id="e20c5-115">Em termos específicos, a conta deve incluir:</span><span class="sxs-lookup"><span data-stu-id="e20c5-115">Specifically, the account must include:</span></span> 
+    > <UL>
+    > <LI>
+    > <P><span data-ttu-id="e20c5-116">Acesso de leitura ao compartilhamento de rede no qual os backups serão colocados.</span><span class="sxs-lookup"><span data-stu-id="e20c5-116">Read access to the network share that backups are being placed in.</span></span></P>
+    > <LI>
+    > <P><span data-ttu-id="e20c5-117">Acesso para gravação ao diretório local específico em que os backups serão copiados.</span><span class="sxs-lookup"><span data-stu-id="e20c5-117">Write access to the specific local directory that the backups are being copied to.</span></span></P></LI></UL>
 
+    
+    </div>
 
-2.  Desabilite o espelhamento no banco de dados mgc de backup:
+2.  <span data-ttu-id="e20c5-118">Desabilite o espelhamento no banco de dados mgc de backup:</span><span class="sxs-lookup"><span data-stu-id="e20c5-118">Disable mirroring on the backup mgc database:</span></span>
     
-    1.  Usando o SQL Server Management Studio, conecte-se à instância mgc de backup.
+    1.  <span data-ttu-id="e20c5-119">Usando o SQL Server Management Studio, conecte-se à instância MGC de backup.</span><span class="sxs-lookup"><span data-stu-id="e20c5-119">Using SQL Server Management Studio, connect to the backup mgc instance.</span></span>
     
-    2.  Clique com o botão direito do mouse no banco de dados mgc, aponte para **Tarefas** e clique em **Espelhar** .
+    2.  <span data-ttu-id="e20c5-120">Clique com o botão direito do mouse no banco de dados mgc, aponte para **Tarefas** e clique em **Espelhar**.</span><span class="sxs-lookup"><span data-stu-id="e20c5-120">Right-click the mgc database, point to **Tasks**, and then click **Mirror**.</span></span>
     
-    3.  Click **Remover Espelhamento** .
+    3.  <span data-ttu-id="e20c5-121">Clique em **Remover Espelhamento**.</span><span class="sxs-lookup"><span data-stu-id="e20c5-121">Click **Remove Mirroring**.</span></span>
     
-    4.  Clique em **OK** .
+    4.  <span data-ttu-id="e20c5-122">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="e20c5-122">Click **OK**.</span></span>
     
-    5.  Execute as mesmas etapas com o banco de dados mgccomp.
+    5.  <span data-ttu-id="e20c5-123">Execute as mesmas etapas com o banco de dados mgccomp.</span><span class="sxs-lookup"><span data-stu-id="e20c5-123">Perform the same steps with the mgccomp database.</span></span>
 
-3.  Faça backup do banco de dados mgc para que ele possa ser restaurado para o novo banco de dados primário:
+3.  <span data-ttu-id="e20c5-124">Faça backup do banco de dados mgc para que ele possa ser restaurado para o novo banco de dados primário:</span><span class="sxs-lookup"><span data-stu-id="e20c5-124">Back up the mgc database so that it can be restored to the new primary database:</span></span>
     
-    1.  Usando o SQL Server Management Studio, conecte-se à instância mgc de backup.
+    1.  <span data-ttu-id="e20c5-125">Usando o SQL Server Management Studio, conecte-se à instância MGC de backup.</span><span class="sxs-lookup"><span data-stu-id="e20c5-125">Using SQL Server Management Studio, connect to the backup mgc instance.</span></span>
     
-    2.  Clique com o botão direito do mouse no banco de dados mgc, aponte para **Tarefas** e clique em **Fazer Backup** . A caixa de diálogo **Backup de Banco de Dados** será exibida.
+    2.  <span data-ttu-id="e20c5-p105">Clique com o botão direito do mouse no banco de dados mgc, aponte para **Tarefas** e clique em **Fazer Backup**. A caixa de diálogo **Backup de Banco de Dados** será exibida.</span><span class="sxs-lookup"><span data-stu-id="e20c5-p105">Right-click the mgc database, point to **Tasks**, and then click **Back Up**. The **Back Up Database** dialog box appears.</span></span>
     
-    3.  Em **Tipo de backup** , selecione **Completo** .
+    3.  <span data-ttu-id="e20c5-128">Em **Tipo de backup**, selecione **Completo**.</span><span class="sxs-lookup"><span data-stu-id="e20c5-128">In **Backup type**, select **Full**.</span></span>
     
-    4.  Para **Componente de backup** , clique em **Banco de dados** .
+    4.  <span data-ttu-id="e20c5-129">Para **Componente de backup**, clique em **Banco de dados**.</span><span class="sxs-lookup"><span data-stu-id="e20c5-129">For **Backup component**, click **Database**.</span></span>
     
-    5.  Aceite o nome de conjunto de backup padrão sugerido em **Nome** ou insira outro nome para o conjunto de backup.
+    5.  <span data-ttu-id="e20c5-130">Aceite o nome de conjunto de backup padrão sugerido em **Nome** ou insira outro nome para o conjunto de backup.</span><span class="sxs-lookup"><span data-stu-id="e20c5-130">Either accept the default backup set name suggested in **Name**, or enter a different name for the backup set.</span></span>
     
-    6.  *\<Opcional\>* Em **Descrição** , insira uma descrição para o conjunto de backup.
+    6.  <span data-ttu-id="e20c5-131">\* \<\> Opcionais\* Em **Descrição**, digite uma descrição do conjunto de backup.</span><span class="sxs-lookup"><span data-stu-id="e20c5-131">*\<Optional\>* In **Description**, enter a description of the backup set.</span></span>
     
-    7.  Remova o local de backup padrão da lista de destinos.
+    7.  <span data-ttu-id="e20c5-132">Remova o local de backup padrão da lista de destino.</span><span class="sxs-lookup"><span data-stu-id="e20c5-132">Remove the default backup location from the destination list.</span></span>
     
-    8.  Adicione um arquivo à lista usando o caminho para o local de compartilhamento estabelecido para o envio de logs. Esse caminho está disponível para o banco de dados primário e para o banco de dados de backup.
+    8.  <span data-ttu-id="e20c5-p106">Adicione um arquivo à lista usando o caminho para o local de compartilhamento estabelecido para o envio de logs. Esse caminho está disponível para o banco de dados primário e para o banco de dados de backup.</span><span class="sxs-lookup"><span data-stu-id="e20c5-p106">Add a file to the list by using the path to the share location that you established for log shipping. This path is available to the primary database and to the backup database.</span></span>
     
-    9.  Clique em **OK** para fechar a caixa de diálogo e iniciar o processo de backup.
+    9.  <span data-ttu-id="e20c5-135">Clique em **OK** para fechar a caixa de diálogo e iniciar o processo de backup.</span><span class="sxs-lookup"><span data-stu-id="e20c5-135">Click **OK** to close the dialog box and begin the backup process.</span></span>
 
-4.  Restaure o banco de dados primário usando o banco de dados de backup criado na etapa anterior.
+4.  <span data-ttu-id="e20c5-136">Restaure o banco de dados primário usando o banco de dados de backup criado na etapa anterior.</span><span class="sxs-lookup"><span data-stu-id="e20c5-136">Restore the primary database by using the backup database created in the previous step.</span></span>
     
-    1.  Usando o SQL Server Management Studio, conecte-se à instância mgc primária.
+    1.  <span data-ttu-id="e20c5-137">Usando o SQL Server Management Studio, conecte-se à instância principal do MGC.</span><span class="sxs-lookup"><span data-stu-id="e20c5-137">Using SQL Server Management Studio, connect to the primary mgc instance.</span></span>
     
-    2.  Clique com o botão direito do mouse no banco de dados mgc, aponte para **Tarefas** , aponte para **Restaurar** e clique em **Banco de Dados** . A caixa de diálogo **Restaurar Banco de Dados** será exibida.
+    2.  <span data-ttu-id="e20c5-p107">Clique com o botão direito do mouse no banco de dados mgc, aponte para **Tarefas**, aponte para **Restaurar** e clique em **Banco de Dados**. A caixa de diálogo **Restaurar Banco de Dados** será exibida.</span><span class="sxs-lookup"><span data-stu-id="e20c5-p107">Right-click the mgc database, point to **Tasks**, point to **Restore**, and then click **Database**. The **Restore Database** dialog box appears.</span></span>
     
-    3.  Selecione **Do dispositivo** .
+    3.  <span data-ttu-id="e20c5-140">Selecione **Do dispositivo**.</span><span class="sxs-lookup"><span data-stu-id="e20c5-140">Select **From Device**.</span></span>
     
-    4.  Clique no botão "procurar", que abrirá a caixa de diálogo **Especificar Backup** . Em **Mídia de backup** , selecione **Arquivo** . Clique em **Adicionar** , selecione o arquivo de backup criado na etapa 3 e clique em **OK** .
+    4.  <span data-ttu-id="e20c5-p108">Clique no botão Procurar, que abrirá a caixa de diálogo **Especificar Backup**. Em **Mídia de backup**, selecione **Arquivo**. Clique em **Adicionar**, selecione o arquivo de backup criado na etapa 3 e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="e20c5-p108">Click the browse button, which opens the **Specify Backup** dialog box. In **Backup media**, select **File**. Click **Add**, select the backup file that you created in step 3, and then click **OK**.</span></span>
     
-    5.  Em **Selecione os conjuntos de backup a serem restaurados** , selecione o backup.
+    5.  <span data-ttu-id="e20c5-144">Em **Selecione os conjuntos de backup a serem restaurados**, selecione o backup.</span><span class="sxs-lookup"><span data-stu-id="e20c5-144">In **Select the backup sets to restore**, select the backup.</span></span>
     
-    6.  Clique em **Opções** no painel **Selecionar uma página** .
+    6.  <span data-ttu-id="e20c5-145">Clique em **Opções** no painel **Selecionar uma página**.</span><span class="sxs-lookup"><span data-stu-id="e20c5-145">Click **Options** in the **Select a page** pane.</span></span>
     
-    7.  Em **Opções de restauração** , selecione **Substituir o banco de dados existente** .
+    7.  <span data-ttu-id="e20c5-146">Em **Opções de restauração**, selecione **Substituir o banco de dados existente**.</span><span class="sxs-lookup"><span data-stu-id="e20c5-146">In **Restore options**, select **Overwrite the existing database**.</span></span>
     
-    8.  Em **Estado de recuperação** , selecione **Deixar o banco de dados pronto para uso** .
+    8.  <span data-ttu-id="e20c5-147">Em **Estado de recuperação**, selecione **Deixar o banco de dados pronto para uso**.</span><span class="sxs-lookup"><span data-stu-id="e20c5-147">In **Recovery State**, select **Leave the database ready to use**.</span></span>
     
-    9.  Clique em **OK** para iniciar o processo de restauração.
+    9.  <span data-ttu-id="e20c5-148">Clique em **OK** para iniciar o processo de restauração.</span><span class="sxs-lookup"><span data-stu-id="e20c5-148">Click **OK** to begin the restoration process.</span></span>
 
-5.  Configure o envio de logs do SQL Server para o banco de dados primário. Siga os procedimentos em [Configurando o Servidor de Chat Persistente para alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) para estabelecer o envio de logs para o banco de dados mgc primário.
+5.  <span data-ttu-id="e20c5-149">Configurar o envio de log do SQL Server para o banco de dados principal.</span><span class="sxs-lookup"><span data-stu-id="e20c5-149">Configure SQL Server Log Shipping for the primary database.</span></span> <span data-ttu-id="e20c5-150">Siga os procedimentos em Configurando o [servidor de chat persistente para alta disponibilidade e recuperação de desastres no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) para estabelecer o envio de log para o banco de dados principal do MGC.</span><span class="sxs-lookup"><span data-stu-id="e20c5-150">Follow the procedures in [Configuring Persistent Chat Server for high availability and disaster recovery in Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) to establish log shipping for the primary mgc database.</span></span>
 
-6.  Defina os servidores ativos do Servidor de Chat Persistente. No Shell de Gerenciamento do Lync Server, use o cmdlet **Set-CsPersistentChatActiveServer** para definir a lista de servidores ativos.
+6.  <span data-ttu-id="e20c5-151">Defina os servidores ativos do servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="e20c5-151">Set the Persistent Chat Server active servers.</span></span> <span data-ttu-id="e20c5-152">No Shell de gerenciamento do Lync Server, use o cmdlet **set-CsPersistentChatActiveServer** para definir a lista de servidores ativos.</span><span class="sxs-lookup"><span data-stu-id="e20c5-152">From the Lync Server Management Shell, use the **Set-CsPersistentChatActiveServer** cmdlet to set the list of active servers.</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Todos os servidores ativos devem estar localizados no mesmo data center que o novo banco de dados primário ou em um data center que tenha uma conexão de baixa latência/alta largura de banda com o banco de dados.
+    > <span data-ttu-id="e20c5-153">Todos os servidores ativos devem estar localizados no mesmo data center que o novo banco de dados primário ou em um data center que tenha uma conexão de baixa latência/alta largura de banda com o banco de dados.</span><span class="sxs-lookup"><span data-stu-id="e20c5-153">All the active servers must be located within the same data center as the new primary database, or in a data center that has a low latency/high bandwidth connection to the database.</span></span>
 
-Em seguira, restaure o pool ao seu estado normal executando o seguinte comando Windows PowerShell:
+    
+    </div>
+
+<span data-ttu-id="e20c5-154">O estado restaurar o pool em seu estado normal execute o seguinte comando do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="e20c5-154">The restore the pool to its normal state run the following Windows PowerShell command:</span></span>
 
     Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 
-Consulte o tópico de ajuda sobre o cmdlet [Set-CsPersistentChatState](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPersistentChatState) para obter mais informações.
+<span data-ttu-id="e20c5-155">Consulte o tópico da ajuda para o cmdlet [set-CsPersistentChatState](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatState) para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="e20c5-155">See the help topic for the [Set-CsPersistentChatState](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatState) cmdlet for more information.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
