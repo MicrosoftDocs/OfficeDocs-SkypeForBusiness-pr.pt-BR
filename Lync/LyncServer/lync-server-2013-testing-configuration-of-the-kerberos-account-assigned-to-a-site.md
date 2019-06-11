@@ -1,19 +1,39 @@
-﻿---
-title: "Lync Server 2013: Testar config. da conta Kerberos atribuída a um site"
+---
+title: Testando a configuração da conta Kerberos atribuída a um site
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing configuration of the Kerberos account assigned to a site
 ms:assetid: a087d77e-c59e-44f5-9caa-ccfd41be7276
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn743837(v=OCS.15)
-ms:contentKeyID: 62279297
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743837(v=OCS.15)
+ms:contentKeyID: 63969637
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: e12a780c4c900423b23eff6cdaae15ba15786b6c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844643"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing configuration of the Kerberos account assigned to a site in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="testing-configuration-of-the-kerberos-account-assigned-to-a-site-in-lync-server-2013"></a>Testando a configuração da conta Kerberos atribuída a um site no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-06-05_
 
 
 <table>
@@ -23,66 +43,92 @@ _**Tópico modificado em:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Cronograma de verificação</p></td>
+<td><p>Diário</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de Gerenciamento do Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsKerberosAccountAssignment cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permissões necessárias</p></td>
+<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet Test-CsKerberosAccountAssignment. Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsKerberosAccountAssignment&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsKerberosAccountAssignment cmdlet enables you to verify that a Kerberos account is associated with a given site, that this account is configured correctly, and that the account is working as expected. Kerberos accounts are computer accounts that can serve as the authentication principal for all the computers in a site that are running Internet Information Server (IIS). Because these accounts use the Kerberos authentication protocol, the accounts are known as Kerberos accounts, and the new authentication process is known as Kerberos web authentication. This enables you to manage all IIS servers by using a single account.
+## <a name="description"></a>Descrição
 
-For more information, see the Help documentation for the [Test-CsKerberosAccountAssignment](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsKerberosAccountAssignment) cmdlet.
+O cmdlet Test-CsKerberosAccountAssignment permite que você verifique se uma conta Kerberos está associada a um determinado site, se essa conta está configurada corretamente e se a conta está funcionando conforme o esperado. As contas Kerberos são contas de computador que podem servir como a entidade de autenticação para todos os computadores em um site que estejam executando o IIS (servidor de informações da Internet). Como essas contas usam o protocolo de autenticação Kerberos, as contas são conhecidas como contas Kerberos, e o novo processo de autenticação é conhecido como autenticação da Web Kerberos. Isso permite que você gerencie todos os servidores IIS usando uma única conta.
 
-## Running the Test
+Para obter mais informações, consulte a documentação da ajuda para o cmdlet [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg425938(v=OCS.15)) .
 
-By default, Test-CsKerberosAccountAssignment displays very little output on-screen. Instead, information returned by the cmdlet is written to an HTML file. Because of that, we recommend that you include the Verbose parameter and the Report parameter any time that you run Test-CsKerberosAccountAssignment. The Verbose parameter will provide slightly more detailed output on-screen while the cmdlet runs. The Report parameter allows you to specify a file path and file name for the HTML file generated by Test-CsKerberosAccountAssignment. If you do not include the Report parameter the HTML file will automatically be saved to your Users folder and be given a name similar to this: ce84964a-c4da-4622-ad34-c54ff3ed361f.html.
+</div>
 
-You must also specify a site Identity when you run Test-CsKerberosAccountAssignment. Kerberos accounts are assigned at the site scope.
+<div>
 
-The following command runs Test-CsKerberosAccountAssignment and saves the output to a file that is named C:\\Logs\\KerberosTest.html:
+## <a name="running-the-test"></a>Executar o teste
+
+Por padrão, Test-CsKerberosAccountAssignment exibe um pouco de saída na tela. Em vez disso, as informações retornadas pelo cmdlet são gravadas em um arquivo HTML. Por isso, recomendamos que você inclua o parâmetro Verbose e o parâmetro Report a qualquer momento que executar Test-CsKerberosAccountAssignment. O parâmetro Verbose fornecerá uma saída levemente mais detalhada na tela enquanto o cmdlet é executado. O parâmetro Report permite que você especifique um caminho de arquivo e um nome de arquivo para o arquivo HTML gerado por Test-CsKerberosAccountAssignment. Se você não incluir o parâmetro do relatório, o arquivo HTML será salvo automaticamente na pasta usuários e receberá um nome semelhante a este: ce84964a-c4da-4622-ad34-c54ff3ed361f. html.
+
+Você também deve especificar uma identidade de site ao executar Test-CsKerberosAccountAssignment. As contas Kerberos são atribuídas no escopo do site.
+
+O comando a seguir executa Test-CsKerberosAccountAssignment e salva a saída em um arquivo chamado C:\\logs\\KerberosTest. html:
 
     Test-CsKerberosAccountAssignment -Identity "site:Redmond" -Report "C:\Logs\KerberosTest.html" -Verbose
 
-For more information, see the Help documentation for the [Test-CsKerberosAccountAssignment](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsKerberosAccountAssignment) cmdlet.
+Para obter mais informações, consulte a documentação da ajuda para o cmdlet [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg425938(v=OCS.15)) .
 
-## Determining Success or Failure
+</div>
 
-The Test-CsKerberosAccountAssignment cmdlet does not return a simple indication of success or failure. Instead, you must view the generated HTML file by using Internet Explorer.
+<div>
 
-## Reasons Why the Test Might Have Failed
+## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
 
-Here are some common reasons why Test-CsKerberosAccountAssignment might fail:
+O cmdlet Test-CsKerberosAccountAssignment não retorna uma simples indicação de sucesso ou falha. Em vez disso, você deve exibir o arquivo HTML gerado usando o Internet Explorer.
 
-  - You might have specified an incorrect site Identity. To return a list of valid site Identity, use this command:
+</div>
+
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
+
+Aqui estão alguns motivos comuns pelos quais Test-CsKerberosAccountAssignment pode falhar:
+
+  - Você pode ter especificado uma identidade de site incorreta. Para retornar uma lista de identidade de site válida, use este comando:
     
         Get-CsSite | Select-Identity Identity
     
-    A site Identity typically looks as follows:
+    Uma identidade de site geralmente tem a seguinte aparência:
     
-    site:Redmond
+    site: Redmond
 
-  - The specified site might not have a Kerberos account assigned to it. You can determine whether or not a Kerberos account is assigned to a site by running a command similar to this:
+  - O site especificado pode não ter uma conta Kerberos atribuída a ele. Você pode determinar se uma conta Kerberos está ou não atribuída a um site executando um comando semelhante a este:
     
         Get-CsKerberosAccountAssignment -Identity "site:Redmond"
 
-  - Your Kerberos account might have a password that isn't valid. If you receive the following error message in report, you'll probably have to reset the Kerberos account password:
+  - Sua conta Kerberos pode ter uma senha que não é válida. Se você receber a seguinte mensagem de erro no relatório, provavelmente precisará redefinir a senha da conta Kerberos:
     
-    InvalidKerberosConfiguration: The Kerberos configuration is invalid.
+    InvalidKerberosConfiguration: a configuração Kerberos é inválida.
     
-    InvalidKerberosConfiguration: The Kerberos configuration on atl-cs001.litwareinc.com is invalid. The expected assigned account is litwareinc\\kerberostest. Ensure that the account has not expired, and the configured password on the machine matches the Active Directory password of the account.
+    InvalidKerberosConfiguration: a configuração Kerberos em atl-cs001.litwareinc.com é inválida. A conta atribuída esperada é\\litwareinc kerberostest. Verifique se a conta não expirou e se a senha configurada no computador corresponde à senha do Active Directory da conta.
     
-    You can set the password using the [Set-CsKerberosAccountPassword](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsKerberosAccountPassword) cmdlet.
+    Você pode definir a senha usando o cmdlet [set-CsKerberosAccountPassword](https://technet.microsoft.com/en-us/library/Gg398659(v=OCS.15)) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

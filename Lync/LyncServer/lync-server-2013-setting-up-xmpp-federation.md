@@ -1,175 +1,236 @@
-﻿---
-title: 'Lync Server 2013: Configurando federação de XMPP'
-TOCTitle: Configurando federação de XMPP
-ms:assetid: 5fda6cb7-8d4d-495d-90c7-601f1036e085
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204939(v=OCS.15)
-ms:contentKeyID: 49306868
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando federação de XMPP'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up XMPP federation
+ms:assetid: 5fda6cb7-8d4d-495d-90c7-601f1036e085
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204939(v=OCS.15)
+ms:contentKeyID: 48184270
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cda79f7b80d6f1bbdf2163ecf987f4a05949bfc4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844933"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando federação de XMPP no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-12-03_
+# <a name="setting-up-xmpp-federation-in-lync-server-2013"></a>Configurando federação de XMPP no Lync Server 2013
 
-Para implantar o proxy XMPP no servidor de borda, você deve configurar o servidor de borda para a federação XMPP. Para isso, execute as etapas a seguir.
+</div>
 
-## Configurando a Federação XMPP
+<div id="mainSection">
 
-1.  Faça logon no computador no qual o Assistente de Implantação do Lync Server está instalado como um membro do grupo Admins. do Domínio e do grupo RTCUniversalServerAdmins.
+<div id="mainBody">
 
-2.  No servidor front-end, abra o Assistente para Implantação do Lync Server. Clique em Instalar ou Atualizar o Sistema do Lync Server e depois em Instalar ou Remover os Componentes de Servidor do Lync Server. Clique em Executar Novamente.
+<span> </span>
 
-3.  Em Instalar Componentes do Lync Server, clique em Avançar. A tela de resumo mostrará as ações conforme forem executadas. Depois que a implantação estiver concluída, clique em Exibir Log para exibir os arquivos de log disponíveis. Clique em Concluir para concluir a implantação.
+_**Tópico da última modificação:** 2012-12-03_
 
-4.  No servidor de borda, abra o assistente Implantação do Lync Server. Clique em Instalar ou Atualizar Sistema do Lync Server e, então, clique em Instalar ou Remover Componentes do Lync Server. Clique em Executar Novamente.
+Para implantar o proxy XMPP no servidor de borda, você deve configurar o servidor de borda para a Federação do XMPP. Para fazer isso, siga as etapas a seguir.
 
-5.  Em Instalar Componentes do Lync Server, clique em Avançar. A tela de resumo mostrará as ações conforme forem executadas. Depois que a implantação estiver concluída, clique em Exibir Log para exibir os arquivos de log disponíveis. Clique em Concluir para concluir a implantação.
+<div>
 
-6.  No Servidor de Borda, no Assistente de Implantação, próximo a Etapa 3: Solicitar, instalar ou atribuir certificados, clique em Executar novamente.
+## <a name="setting-up-xmpp-federation"></a>Configurando a Federação do XMPP
+
+1.  Faça logon no computador em que o assistente de implantação do Lync Server está instalado como membro do grupo Domain admins e do grupo RTCUniversalServerAdmins.
+
+2.  No servidor front-end, abra o assistente de implantação do Lync Server. Clique em instalar ou atualizar o Lync Server System e, em seguida, clique em configurar ou remover componentes do Lync Server. Clique em executar novamente.
+
+3.  Em configurar componentes do Lync Server, clique em Avançar. A tela Resumo mostrará as ações conforme elas são executadas. Depois que a implantação for concluída, clique em Exibir log para exibir os arquivos de log disponíveis. Clique em concluir para concluir a implantação.
+
+4.  No servidor de borda, abra o assistente de implantação do Lync Server. Clique em instalar ou atualizar o Lync Server System e, em seguida, clique em configurar ou remover componentes do Lync Server. Clique em executar novamente.
+
+5.  Em configurar componentes do Lync Server, clique em Avançar. A tela Resumo mostrará as ações conforme elas são executadas. Depois que a implantação for concluída, clique em Exibir log para exibir os arquivos de log disponíveis. Clique em concluir para concluir a implantação.
+
+6.  No servidor de borda, no assistente de implantação, ao lado da etapa 3: solicitar, instalar ou atribuir certificados, clique novamente em executar.
+    
+    <div class=" ">
     
 
     > [!TIP]  
-    > Se estiver implantando o Servidor de Borda pela primeira vez, você verá Executar ao invés de Executar novamente.
+    > Se você estiver implantando o servidor de borda pela primeira vez, você verá executar novamente em vez de executar novamente.
 
-
-
-7.  Na página Tarefas de Certificado Disponíveis, clique em Criar uma nova solicitação de certificado.
-
-8.  Na página Solicitação de Certificado, clique em Certificado de Borda Externa.
-
-9.  Na página Solicitação Atrasada ou Imediata, marque a caixa de seleção Preparar a solicitação agora, mas enviá-la depois.
-
-10. Na página Arquivo de Solicitação de Certificado, digite o nome de arquivo e o caminho completo do arquivo no qual a solicitação será salva (por exemplo, c:\\cert\_exernal\_edge.cer).
-
-11. Na página Especificar Modelo de Certificado Alternativo, para usar um modelo diferente do modelo WebServer padrão, marque a caixa de seleção Usar o modelo de certificado alternativo para a autoridade de certificação selecionada.
-
-12. Na página Nome e Configurações de Segurança, siga estes procedimentos:
     
-    1.  Em Nome Amigável, digite um nome de exibição para o certificado.
+    </div>
+
+7.  Na página Tarefas de Certificado Disponíveis, clique em  Criar uma nova solicitação de certificado.
+
+8.  Na página solicitação de certificado, clique em certificado de borda externa.
+
+9.  Na página solicitação atrasada ou imediata, marque a caixa de seleção preparar a solicitação agora, mas enviá-la mais tarde.
+
+10. Na página arquivo de solicitação de certificado, digite o caminho completo e o nome do arquivo para o qual a solicitação deve ser salva (por exemplo, c:\\CERT\_guia\_Edge. cer).
+
+11. Na página especificar modelo de certificado alternativo, para usar um modelo diferente do modelo padrão do webserver, marque a caixa de seleção usar modelo de certificado alternativo para a autoridade de certificação selecionada.
+
+12. Na página  Nome e Configurações de Segurança, siga estes procedimentos:
     
-    2.  Em Comprimento de bit, especifique o comprimento de bit (normalmente o padrão de 2048).
+    1.  Em nome amigável, digite um nome de exibição para o certificado
     
-    3.  Verifique se a caixa de seleção Marcar chave privada de certificado como exportável está marcada.
+    2.  Em comprimento de bit, especifique o comprimento do bit (geralmente, o padrão de 2048)
+    
+    3.  Verifique se a caixa de seleção Marcar chave privada de certificado como exportável está marcada
 
-13. Na página Informações da Organização, digite o nome da organização e a unidade organizacional (por exemplo, uma divisão ou um departamento).
+13. Na página informações da organização, digite o nome da organização e da unidade organizacional (por exemplo, uma divisão ou um departamento)
 
-14. Na página Informações Geográficas, especifique as informações de localização.
+14. Na página informações geográficas, especifique as informações de localização
 
-15. Na página Nome da Entidade/Nomes Alternativos da Entidade, as informações a serem preenchidas automaticamente pelo assistente são exibidas. Se nomes alternativos de entidade adicionais forem necessários, especifique-os nas próximas duas etapas.
+15. Na página nome do assunto/nomes alternativos de assunto, as informações a serem automaticamente preenchidas pelo assistente serão exibidas. Se forem necessários nomes alternativos de entidades adicionais, você os especificará nas duas próximas etapas
 
-16. Na página Configuração do Domínio SIP em SANs (Nomes Alternativos da Entidade), marque a caixa de seleção do domínio para adicionar uma entrada sip.\<domínio\_sip\> à lista de nomes alternativos da entidade.
+16. Na configuração de domínio SIP na página de nomes alternativos de entidades (SANs), marque a caixa de seleção domínio para adicionar um SIP. \<entrada\> sipdomain para a lista de nomes alternativos de assunto.
 
-17. Na página Configurar Nomes Alternativos da Entidade Adicionais, especifique os nomes alternativos de entidade adicionais que sejam necessários.
+17. Na página Configurar nomes alternativos de entidades adicionais, especifique os nomes alternativos de entidades adicionais necessários
+    
+    <div class=" ">
     
 
     > [!TIP]  
-    > Se o proxy XMPP é instalado, por padrão o nome de domínio (como contoso.com) é preenchido nas entradas SAN. Se você precisa de mais entradas, adicione-as nesta etapa.
+    > Se o proxy XMPP estiver instalado, por padrão, o nome de domínio (como contoso.com) será preenchido nas entradas de SAN. Se você precisar de mais entradas, adicione-as nesta etapa.
 
-
-
-18. Na página Resumo da Solicitação, examine as informações do certificado a ser usado para gerar a solicitação.
-
-19. Após o comando finalizar a execução, é possível Exibir o Log ou clicar em Avançar para continuar.
-
-20. Na página Arquivo de solicitação de certificado, é possível exibir o arquivo CSR gerado clicando em Exibir ou sair do Assistente de Certificado clicando em Concluir.
-
-21. Copie o arquivo solicitado e envie-o para a autoridade de certificação pública.
-
-22. Após receber, importar e atribuir o certificado público, você deve parar e reiniciar os serviços do Servidor de Borda. Você faz isso digitando no console do Gerenciamento do Lync Server:
     
-```
+    </div>
+
+18. Na página Resumo da solicitação, examine as informações do certificado a serem usadas para gerar a solicitação.
+
+19. Após a conclusão da execução dos comandos, você pode exibir o log ou clicar em avançar para continuar.
+
+20. Na página arquivo de solicitação de certificado, você pode exibir o arquivo de solicitação de assinatura de certificado (CSR) gerado clicando em exibir ou em sair do assistente de certificado clicando em concluir.
+
+21. Copie o arquivo de solicitação e envie para sua autoridade de certificação pública.
+
+22. Depois de receber, importar e atribuir o certificado público, você deve parar e reiniciar os serviços do servidor de borda. Para fazer isso, digite no console de gerenciamento do Lync Server:
+    
+       ```
         Stop-CsWindowsService
-```
-```    
+       ```
+    
+       ```
         Start-CsWindowsService
-```
+       ```
 
-23. Para configurar o DNS para a federação XMPP, adicione o seguinte registro SRV ao DNS externo:\_xmpp-server.\_tcp.\<nome de domínio\> O registro SRV será resolvido no FQDN (nome de domínio totalmente qualificado) de borda de acesso do servidor de borda com o valor de porta 5269. Além disso, configure um registro de host "A" (por exemplo, xmpp.contoso.com) que aponte para o endereço IP do servidor de borda de acesso.
+23. Para configurar o DNS para a Federação do XMPP, adicione o seguinte registro SRV para DNS\_externo: XMPP-Server. \_TCP. \<nome\> do domínio o registro SRV será resolvido para o FQDN de borda de acesso do servidor de borda, com um valor de porta de 5269. Além disso, você configura um registro de host ' A ' (por exemplo, xmpp.contoso.com) que aponta para o endereço IP do servidor de borda de acesso.
     
+    <div class=" ">
+    
+
     > [!IMPORTANT]  
-    > Se você tiver pools de borda em vários sites, é recomendável que adicione vários registros SRV para federação XMPP. Adicione um registro SRV para cada pool de borda de sua organização e atribua a cada um desses registros SRV uma prioridade diferente. Quando todos os pools de borda estiverem em execução, as solicitações XMPP serão todas manipuladas pelo pool de borda com a maior prioridade, mas, se esse pool de borda ficar inoperante, você não precisará adicionar um novo registro SRV para recuperar a funcionalidade de federação XMPP.
+    > Se você tiver pools de bordas em vários sites, recomendamos que adicione vários registros SRV para a Federação do XMPP. Adicione um registro SRV para cada pool de bordas em sua organização e dê a cada um desses registros uma prioridade diferente. Quando todos os pools de bordas estiverem em execução, as solicitações de XMPP serão manipuladas pelo pool de bordas com a primeira prioridade, mas, se esse pool de bordas cair, você não terá que adicionar um novo registro SRV para recuperar a funcionalidade de Federação do XMPP.
 
-24. Configure uma nova política de acesso externo para habilitar todos os usuários abrindo o Shell de Gerenciamento do Lync Server no front-end e digitando:
     
-    ```
+    </div>
+
+24. Configure uma nova política de acesso externo para permitir que todos os usuários abram o Shell de gerenciamento do Lync Server no front-end e digitem:
+    
+       ```
         New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
-    ```
-    ```    
+       ```
+    
+       ```
         New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
-    ```
-    ```    
+       ```
+    
+       ```
         Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
-    ```
+       ```
     
-    Habilite o acesso XMPP para usuários externos digitando:
+    Habilite o acesso do XMPP para usuários externos digitando:
     
-    ```    
+       ```
         Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
-    ```
-    ```    
+       ```
+    
+       ```
         Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
-    ```
+       ```
 
-25. No Servidor de Borda em que o proxy XMPP está implantado, abra um prompt de comando ou uma Interface da linha de comando do Windows PowerShell™ e digite o seguinte:
+25. No servidor de borda em que o proxy XMPP está implantado, abra um prompt de comando ou uma interface de linha de comando™ do Windows PowerShell e digite o seguinte:
     
-    ```
+       ```
         Netstat -ano | findstr 5269
-    ```
-    ```    
+       ```
+    
+       ```
         Netstat -ano | findstr 23456
-    ```    
+       ```
     
-    O comando **netstat –ano** é um comando de estatísticas de rede, os parâmetros **–ano** exigem que netstat exiba todas as conexões e portas de escuta, que o endereço e as portas sejam exibidos em um formato numérico, e que o ID do processo proprietário seja associado a cada conexão. O caractere **|** define uma barra vertical ao próximo comando, **findstr**, ou localizar cadeia de caracteres. O número 5269 e 23456 passado ao findstr como parâmetro instrui findstr a pesquisar a saída de netstat para a cadeia de caracteres 5269 e 23456. Se XMPP estiver configurado corretamente, o resultado dos comandos deve resultar em conexões estabelecidas e de escuta nas interfaces externa (porta 5269) e interna (porta 23456) do Servidor de Borda.
+    O comando **netstat – ano** é um comando de estatísticas de rede, os parâmetros – pedido de **ano** em que o netstat exibe todas as conexões e portas de escuta, endereço e portas são exibidos em um formato numérico, e que a ID do processo proprietário está associada com cada conexão. O caractere **|** define um pipe para o próximo comando, **findstr**ou localizar cadeia de caracteres. O número 5269 e 23456 que é passado para findstr como parâmetro instrui findstr para pesquisar a saída do netstat para as cadeias de caracteres 5269 e 23456. Se XMPP estiver configurado corretamente, o resultado dos comandos deve resultar em conexões de escuta e estabelecidas, ambas nas interfaces externa (porta 5269) e interna (porta 23456) do servidor de borda.
     
-    Se os comandos não retornarem as portas estabelecidas ou de escuta em 5269 e 23456, verifique o seguinte:
+    Se os comandos não retornam portas estabelecidas ou em escuta no 5269 e no 23456, verifique o seguinte:
 
-## Solucionando problemas da federação XMPP
+</div>
+
+<div>
+
+## <a name="troubleshooting-xmpp-federation"></a>Solução de problemas de Federação do XMPP
 
 1.  Para determinar se o proxy XMPP está em execução, faça o seguinte:
 
-2.  Faça logon no servidor de borda que está executando o serviço do proxy XMPP como membro do grupo de administrador local.
+2.  Faça logon no servidor de borda que está executando o serviço de proxy XMPP como membro do grupo administrador local.
 
-3.  Clique em **Iniciar**, em **Todos os Programas**, em **Ferramentas Administrativas** e em **Serviços**
+3.  Clique em **Iniciar**, em **todos os programas**, em **Ferramentas administrativas**e em **Serviços**
 
-4.  Em Serviços, localize Proxy do Gateway de Tradução XMPP do Lync Server. O serviço deverá estar no estado **Iniciado**. Se ele não estiver iniciado, clique no ícone **Iniciar** na barra de ferramentas. O ícone se parece com uma seta verde apontando para a direita.
+4.  Em serviços, localize o Lync Server XMPP de converter proxy de gateway. O serviço deve estar no estado **inicial** . Se não for iniciado, clique no ícone **Iniciar** na barra de ferramentas. O ícone aparece como uma seta verde, apontando para a direita.
 
-5.  Confirme se o serviço mudou para **Iniciado**. Se ele tiver sido iniciado com êxito, feche **Serviços** e continue o procedimento.
+5.  Confirme se o serviço mudou para **iniciado**. Se ele tiver começado com êxito, feche os **Serviços** e continue.
     
-    Se o serviço não tiver sido iniciado com êxito, nas Ferramentas Administrativas, abra o Visualizador de Eventos e consulte os erros e avisos na parte **Lync Server** em **Logs de Aplicativos e Serviços**.
+    Se o serviço não foi iniciado com êxito, em ferramentas administrativas, abra o Visualizador de eventos e consulte os avisos e erros na parte do **Lync Server** em **logs de aplicativos e serviços**.
 
-6.  Depois que o serviço **Proxy do Gateway de Tradução XMPP do Lync Server** estiver em execução, verifique novamente os comandos netstat usados anteriormente. Se as sessões estabelecidas e de escuta não forem exibidas, verifique se a **Rota de Federação XMPP** está configurada corretamente no Construtor de Topologias
+6.  Depois que o serviço do **Gateway de conversão do Lync Server XMPP** estiver em execução, verifique novamente os comandos netstat usados anteriormente. Se você não estiver vendo sessões estabelecidas ou em escuta, verifique se a **rota de Federação do XMPP** está configurada corretamente no construtor de topologias
 
 7.  Faça logon no computador no qual o Construtor de Topologias está instalado como um membro do grupo Admins. do Domínio ou do grupo RTCUniversalServerAdmins.
 
-8.  Inicie o Construtor de Topologias: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Construtor de Topologias do Lync Server**.
+8.  Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.
 
-9.  No Construtor de Topologias, selecione o site para a rota de federação XMPP e verifique para confirmar se a **Atribuição da rota de federação do site** para **Federação XMPP** mostra seu Servidor de Borda ou seu Pool de borda como a atribuição de rota de federação XMPP.
+9.  No construtor de topologias, selecione o site para a rota de Federação do XMPP e a revisão para confirmar que a **atribuição de rota de Federação do site** para a **Federação XMPP** mostra o servidor de borda ou o pool de bordas como a atribuição de rota de Federação do XMPP selecionada.
     
-    Se a atribuição de rota estiver incorreta ou não estiver definida, clique com o botão direito do mouse no site e depois em **Editar Propriedades**. Marque a caixa de seleção de federação XMPP e selecione o Servidor de Borda ou Pool de borda correto.
+    Se a atribuição de roteiro estiver incorreta ou não estiver definida, clique com o botão direito do mouse no site e clique em **Editar propriedades**. Marque a caixa de seleção Federação do XMPP e selecione o servidor de borda ou o pool de bordas correto.
 
-10. Publique a topologia. Para obter detalhes, consulte [Publicar sua topologia no Lync Server 2013](lync-server-2013-publish-your-topology.md)
+10. Publique a topologia. Para obter detalhes, consulte [publicar sua topologia no Lync Server 2013](lync-server-2013-publish-your-topology.md)
+    
+    <div class=" ">
     
 
     > [!TIP]  
-    > Embora não seja obrigatório e geralmente não seja necessário, eventualmente, você talvez precise reiniciar os Servidores de Borda
+    > Embora não seja necessário e normalmente não é necessário, você pode descobrir que precisará reiniciar os servidores de borda
 
+    
+    </div>
 
+11. Usando o processo netstat usado anteriormente, confirme se o servidor de borda agora está ouvindo ou se estabeleceu sessões na porta 5269 e na porta 23456.
 
-11. Usando o processo netstat descrito anteriormente, confirme se o Servidor de Borda agora está ouvindo e tem sessões estabelecidas nas portas 5269 e 23456.
+12. Se você ainda não estiver vendo as sessões esperadas, verifique o Visualizador de eventos para possíveis causas de contribuição para o problema de comunicação.
 
-12. Se as sessões esperadas ainda não forem exibidas, verifique o Visualizador de Eventos para ver se há possíveis causas para o problema de comunicação.
+</div>
 
-## Consulte Também
+<div>
 
-#### Tarefas
+## <a name="see-also"></a>Confira também
+
 
 [Exemplo de configuração de XMPP no Lync Server 2013 – federação XMPP com Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
 
-#### Outros Recursos
 
-[Gerenciar parceiros XMPP federados no Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)
+[Gerenciar parceiros XMPP federados no Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

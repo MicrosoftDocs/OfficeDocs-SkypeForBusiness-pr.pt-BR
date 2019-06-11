@@ -1,27 +1,34 @@
-﻿---
-title: Atribuir uma política de mobilidade por usuário
-TOCTitle: Atribuir uma política de mobilidade por usuário
-ms:assetid: d8bf997f-4bc7-48d3-973b-323505f55e9d
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721902(v=OCS.15)
-ms:contentKeyID: 49886435
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Atribuir uma política de mobilidade por usuário
+title: 'Lync Server 2013: atribuir uma política de mobilidade por usuário'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign a per-user mobility policy
+ms:assetid: d8bf997f-4bc7-48d3-973b-323505f55e9d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721902(v=OCS.15)
+ms:contentKeyID: 49733836
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e79a9b76ac4774bbbac7772bef19902d6d70f15a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844993"
+---
+# <a name="assign-a-per-user-mobility-policy-in-lync-server-2013"></a>Atribuir uma política de mobilidade por usuário no Lync Server 2013
 
  
 
-_**Tópico modificado em:** 2013-02-22_
 
-A política de mobilidade é uma das configurações individuais de uma conta de usuário que você pode definir no Painel de Controle do Lync Server ou Shell de Gerenciamento do Lync Server.
+A política de mobilidade é uma das configurações individuais de uma conta de usuário que você pode configurar no painel de controle do Lync Server ou no Shell de gerenciamento do Lync Server.
 
-## Para atribuir uma política de mobilidade por usuário no Painel de Controle do Lync Server
+## <a name="to-assign-a-per-user-mobility-policy-with-lync-server-control-panel"></a>Para atribuir uma política de mobilidade por usuário com o painel de controle do Lync Server
 
 1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Na barra de navegação esquerda, clique em **Usuários**.
 
@@ -48,57 +55,59 @@ A política de mobilidade é uma das configurações individuais de uma conta de
     
     5.  Clique em **Localizar**.
 
-6.  Clique em um usuário nos resultados da pesquisa, clique em **Ação** e em **Atribuir políticas**.
+6.  Clique em um usuário nos resultados da pesquisa, clique em **Ação** e em seguida, clique em **Atribuir políticas**.
     
 
     > [!TIP]  
-    > Se você deseja aplicar a mesma política de mobilidade para usuários múltiplos, selecione os usuários nos resultados da pesquisa e clique em <STRONG>Ações</STRONG> e em <STRONG>Atribuir políticas</STRONG>.
+    > Se quiser que a mesma política de mobilidade por usuário seja aplicada a vários usuários, selecione vários usuários nos resultados da pesquisa, clique em <STRONG>ações</STRONG>e, em seguida, clique em <STRONG>atribuir políticas</STRONG>.
 
 
 
-7.  Em **Atribuir políticas**, em **Política de mobilidade**, siga um destes procedimentos:
+7.  Em **atribuir políticas**, em **política de mobilidade**, siga um destes procedimentos:
     
+
     > [!NOTE]  
-    > Como há várias políticas que você pode configurar em <strong>Atribuir políticas</strong>, <strong>&lt;Manter&gt;</strong> é selecionado por padrão para cada política na caixa de diálogo. Continue a usar a política atribuída anteriormente ao usuário sem realizar alterações nesta configuração.    
-      - Selecione **\<Automático\>** para permitir que o Lync Server 2013 escolha automaticamente a política a nível global ou, se definida, a política a nível de site.
+    > Como há várias políticas que você pode configurar em <STRONG>atribuir políticas</STRONG>, <STRONG> &lt;manter como está&gt; </STRONG> selecionado por padrão para cada política na caixa de diálogo. Continue usando a política atribuída anteriormente ao usuário não realizando alterações nesta configuração.
+
     
-      - Clique no nome de uma política de mobilidade por usuário definida anteriormente na página **Política de mobilidade**.
+      - Selecione ** \<automático\> ** para permitir que o Lync Server 2013 escolha automaticamente a política de nível global ou, se definida, a política de nível de site.
+    
+      - Clique no nome de uma política de mobilidade por usuário definida anteriormente na página da **política de mobilidade** .
         
 
         > [!TIP]  
-        > Para ajudar a decidir a política que deseja atribuir, após clicar no nome da política, clique em <STRONG>Exibir</STRONG> para ver os direitos e permissões do usuário definidos na política.
+        > Para ajudar a decidir a política que deseja atribuir, após clicar no nome da política, clique em <STRONG>Exibir</STRONG> para visualizar os direitos e permissões do usuário definidos na política.
 
 
 
 8.  Ao concluir, clique em **OK**.
 
-## Atribuir uma política de mobilidade por usuário utilizando cmdlets do Shell de Gerenciamento do Lync Server
+## <a name="assigning-a-per-user-mobility-policy-by-using-windows-powershell-cmdlets"></a>Atribuir uma política de mobilidade por usuário usando cmdlets do Windows PowerShell
 
-É possível atribuir políticas de mobilidade por usuário utilizando o Shell de Gerenciamento do Lync Server e o cmdlet **Grant-CsMobilityPolicy**. É possível executar este cmdlet do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
+Você pode atribuir políticas de mobilidade por usuário usando o Windows PowerShell e o cmdlet **Grant-CsMobilityPolicy** . Você pode executar esse cmdlet a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
 
-## Para atribuir uma política de mobilidade por usuário a um único usuário
+## <a name="to-assign-a-per-user-mobility-policy-to-a-single-user"></a>Para atribuir uma política de mobilidade por usuário a um único usuário
 
-  - O seguinte comando atribui a política de mobilidade por usuário RedmondMobilityPolicy ao usuário Ken Myer.
+  - O comando a seguir atribui a RedmondMobilityPolicy de política de mobilidade por usuário ao usuário Ken Myer.
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName "RedmondMobilityPolicy"
 
-## Para atribuir uma política de mobilidade por usuário a vários usuários
+## <a name="to-assign-a-per-user-mobility-policy-to-multiple-users"></a>Para atribuir uma política de mobilidade por usuário a vários usuários
 
-  - O seguinte comando atribui a política de mobilidade por usuário RedmondMobilityPolicy para todos os usuários atualmente atribuídos com a política NorthAmericaMobilityPolicy. Para obter detalhes sobre o parâmetro Filter usado neste comando, consulte [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
+  - O comando a seguir atribui a política de mobilidade por usuário RedmondMobilityPolicy a todos os usuários que atualmente recebem a política NorthAmericaMobilityPolicy. Para obter detalhes sobre o parâmetro de filtro usado neste comando, consulte [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)).
     
         Get-CsUser -Filter {MobilityPolicy -eq "NorthAmericaMobilityPolicy"} | Grant-CsMobilityPolicy -PolicyName "RedmondMobilityPolicy"
 
-## Para retirar a atribuição de uma política de mobilidade por usuário
+## <a name="to-unassign-a-per-user-mobility-policy"></a>Para cancelar a atribuição de uma política de mobilidade por usuário
 
-  - O seguinte comando retira a atribuição de qualquer política de mobilidade por usuário atribuída anteriormente a Ken Myer. Após a política por usuário ser retirada, Ken Myer será automaticamente gerenciado utilizando a política global ou, se existir, sua política de site local. Uma política de site tem precedência sobre a política global.
+  - O comando a seguir não atribui atribuições de política de mobilidade por usuário anteriormente atribuídas a Ken Myer. Após a política por usuário ser retirada, Ken irá automaticamente ser gerenciado usando a política global ou, se existir, sua política de site local. Uma política de site tem precedência sobre a política global.
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter detalhes, consulte [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy).
+Para obter detalhes, consulte [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/hh690038\(v=ocs.15\)).
 
-## Consulte Também
+## <a name="see-also"></a>Confira também
 
-#### Tarefas
 
 [Configurando a política de mobilidade no Lync Server 2013](lync-server-2013-configuring-mobility-policy.md)
 

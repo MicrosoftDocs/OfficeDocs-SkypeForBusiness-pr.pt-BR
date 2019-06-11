@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblEnumValue'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblEnumValue
 ms:assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg615025(v=OCS.15)
-ms:contentKeyID: 49307669
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615025(v=OCS.15)
+ms:contentKeyID: 48185040
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 1758daf16575491960415647e4c9bc4b43920d26
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844795"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblEnumValue no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="tblenumvalue-in-lync-server-2013"></a>tblEnumValue no Lync Server 2013
 
-A tabela tblEnumValue é uma tabela embutida em código que contém os valores de Visibilidade e Comportamento dos atributos usados na tabela Nó.
+</div>
 
-### Colunas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-06-28_
+
+tblEnumValue é uma tabela codificada que contém os valores de visibilidade e comportamento dos atributos usados na tabela de nós.
+
+### <a name="columns"></a>Colunas
 
 <table>
 <colgroup>
@@ -34,7 +54,7 @@ A tabela tblEnumValue é uma tabela embutida em código que contém os valores d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>valueID</p></td>
+<td><p>valueid</p></td>
 <td><p>smallint, não nulo</p></td>
 <td><p>ID do valor.</p></td>
 </tr>
@@ -44,15 +64,15 @@ A tabela tblEnumValue é uma tabela embutida em código que contém os valores d
 <td><p>ID do atributo.</p></td>
 </tr>
 <tr class="odd">
-<td><p>attributeValue</p></td>
-<td><p>nvarchar (256), não nulo</p></td>
+<td><p>atributovalue</p></td>
+<td><p>nvarchar (256), NOT NULL</p></td>
 <td><p>Nome do valor.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Chaves
+### <a name="keys"></a>As
 
 <table>
 <colgroup>
@@ -67,18 +87,18 @@ A tabela tblEnumValue é uma tabela embutida em código que contém os valores d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>valueID</p></td>
+<td><p>valueid</p></td>
 <td><p>Chave primária.</p></td>
 </tr>
 <tr class="even">
 <td><p>attributeID</p></td>
-<td><p>Chave estrangeira com pesquisa na tabela tblEnumAttribute.attributeID.</p></td>
+<td><p>Chave estrangeira com pesquisa na tabela tblEnumAttribute. attributeID.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Valores da tabela
+### <a name="table-values"></a>Valores da tabela
 
 <table>
 <colgroup>
@@ -88,9 +108,9 @@ A tabela tblEnumValue é uma tabela embutida em código que contém os valores d
 </colgroup>
 <thead>
 <tr class="header">
-<th>valueID</th>
+<th>valueid</th>
 <th>attributeID</th>
-<th>attributeValue</th>
+<th>atributovalue</th>
 </tr>
 </thead>
 <tbody>
@@ -102,30 +122,44 @@ A tabela tblEnumValue é uma tabela embutida em código que contém os valores d
 <tr class="even">
 <td><p>3</p></td>
 <td><p>1</p></td>
-<td><p>escopo</p></td>
+<td><p>com</p></td>
 </tr>
 <tr class="odd">
 <td><p>4</p></td>
 <td><p>2</p></td>
-<td><p>normal</p></td>
+<td><p>Normalmente</p></td>
 </tr>
 <tr class="even">
 <td><p>5</p></td>
 <td><p>2</p></td>
-<td><p>auditório</p></td>
+<td><p>auditorium</p></td>
 </tr>
 <tr class="odd">
 <td><p>6</p></td>
 <td><p>1</p></td>
-<td><p>aberto</p></td>
+<td><p>abriu</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Consulte Também
+<div>
 
-#### Conceitos
+## <a name="see-also"></a>Confira também
 
-[tblNode no Lync Server 2013](lync-server-2013-tblnode.md)
+
+[tblNode no Lync Server 2013](lync-server-2013-tblnode.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,29 +1,63 @@
-﻿---
-title: Atualizando a opção Habilitar Lista do Outlook
-TOCTitle: Atualizando a opção Habilitar Lista do Outlook
-ms:assetid: 5db120dc-52f9-4dde-acb9-3824ae245086
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ215438(v=OCS.15)
-ms:contentKeyID: 49306851
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: atualizando a lista de habilitação do Outlook'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Updating the Outlook enable list
+ms:assetid: 5db120dc-52f9-4dde-acb9-3824ae245086
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215438(v=OCS.15)
+ms:contentKeyID: 48242739
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 20c7ee75e70b52a4edd01230fe10aeb46f6e6e40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844560"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Atualizando a opção Habilitar Lista do Outlook
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-01-07_
+# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>Atualizando a lista de habilitação do Outlook no Lync Server 2013
 
-Você pode garantir que o Suplemento de Reunião Online para Microsoft Lync 2013 sempre permaneça habilitado para os usuários criando uma política que o inclui na Lista de Gerenciamento de Suplementos para Outlook. A política de Lista de Gerenciamento de Suplementos está incluída nos arquivos de modelos administrativos do Office do Console de Gerenciamento de Política de Grupo. Ele cria uma chave de registro em HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList. Você pode adicionar um valor para ucaddin.dll dessa chave e configurar o valor ucaddin.dll, assim ele sempre esteja habilitado e que os usuários não possam desativá-lo manualmente.
+</div>
 
-## Para adicionar o ucaddin.dll à Lista de Gerenciamento de Suplementos para Outlook
+<div id="mainSection">
 
-  - Para a chave de registro AddinList, localizada em HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList, adicione o seguinte valor:
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-01-07_
+
+Você pode garantir que o suplemento de reunião online do Microsoft Lync 2013 sempre permaneça habilitado para os usuários criando uma política que o inclui na lista de gerenciamento de suplementos do Outlook. A política de lista de gerenciamento de suplementos está incluída nos arquivos de modelo administrativo do Office para o console de gerenciamento de política de grupo. Ele cria uma chave do registro em\\políticas\\\\de software\\HKCU\\Microsoft\\Office\\15,0 Outlook15\\resiliênciay addinlist. Você pode adicionar um valor para ucaddin. dll a essa chave e configurar o valor de ucaddin. dll para que ele esteja sempre habilitado e para que os usuários não possam desabilitá-lo manualmente
+
+<div>
+
+## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>Para adicionar ucaddin. dll à lista de suplementos do Outlook
+
+  - Para a chave do registro Addinlist, localizada em\\políticas\\\\de software\\HKCU\\Microsoft\\Office\\15,0 Outlook15\\resiliênciay addinlist, adicione o seguinte valor:
     
-      - Tipo de Registro = REG\_SZ
+      - Tipo de registro =\_reg sz
     
-      - Nome = ucaddin.dll
+      - Name = ucaddin. dll
     
-      - Valor = 1 (especifica que o suplemento sempre esteja habilitado e não possa ser gerenciado pelos usuários)
+      - Valor = 1 (especifica que o suplemento está sempre habilitado e não pode ser gerenciado pelo usuário final)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

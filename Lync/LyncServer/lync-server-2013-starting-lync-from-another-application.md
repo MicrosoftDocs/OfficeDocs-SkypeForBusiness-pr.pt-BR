@@ -1,29 +1,49 @@
-﻿---
-title: Iniciando o Lync a partir de outro aplicativo
-TOCTitle: Iniciando o Lync a partir de outro aplicativo
-ms:assetid: 573b30b1-6590-4b24-8e96-a41be57cb0ef
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398376(v=OCS.15)
-ms:contentKeyID: 52057608
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Iniciando o Lync a partir de outro aplicativo'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Starting Lync from another application
+ms:assetid: 573b30b1-6590-4b24-8e96-a41be57cb0ef
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398376(v=OCS.15)
+ms:contentKeyID: 48184184
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 35e2d28a8083a7e7f1e693ddf55c5cfe3e758e96
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844857"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Iniciando o Lync a partir de outro aplicativo
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="starting-lync-from-another-application"></a>Iniciando o Lync a partir de outro aplicativo
 
-É possível usar parâmetros de linha de comando para iniciar o Lync 2013 rapidamente. Por exemplo, se um usuário clicar no número de telefone em outro aplicativo, o aplicativo iniciará uma instância do Lync 2013 e uma chamada para esse número.
+</div>
 
-O Lync 2013 também pode reconhecer uma lista delimitada por ponto-e-vírgula de nomes de contato para a conferência de grupo.
+<div id="mainSection">
 
-Se o Lync 2013 estiver configurado para entrar automaticamente quando é iniciado, inicie o Lync 2013 com os parâmetros de linha de comando para abrir a janela principal do Lync. Se o Lync não estiver configurado para entrar automaticamente quando for iniciado, a janela será aberta.
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-20_
+
+Você pode usar parâmetros de linha de comando para iniciar rapidamente o Lync 2013. Por exemplo, se um usuário clicar em um número de telefone em outro aplicativo, o aplicativo poderá iniciar uma instância do Lync 2013 e iniciar uma chamada para esse número.
+
+O Lync 2013 também pode reconhecer uma lista delimitada por ponto-e-vírgula de nomes de contatos para conferência multiparte.
+
+Se o Lync 2013 estiver configurado para entrar automaticamente quando iniciado, iniciar o Lync 2013 com parâmetros de linha de comando abrirá a janela principal do Lync. Se o Lync não estiver configurado para entrar automaticamente quando iniciado, a janela de entrada será aberta.
 
 A tabela a seguir mostra os parâmetros disponíveis.
 
-### Parâmetros de linha de comando do Lync 2013
+### <a name="lync-2013-command-line-parameters"></a>Parâmetros de linha de comando do Lync 2013
 
 <table>
 <colgroup>
@@ -33,51 +53,50 @@ A tabela a seguir mostra os parâmetros disponíveis.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Extensão</th>
-<th>Formato de dados</th>
+<th>Prorroga</th>
+<th>Formato dos dados</th>
 <th>Ação</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>tel:</p></td>
-<td><p>tel URI</p></td>
-<td><p>Abre a janela de conversação para uma chamada de áudio mas não disca o número especificado.</p></td>
+<td><p>telefone</p></td>
+<td><p>URI do Tel</p></td>
+<td><p>Abre a janela de conversa para uma chamada de áudio, mas não disca o número especificado.</p></td>
 </tr>
 <tr class="even">
-<td><p>callto:</p></td>
-<td><p>tel:, sip:, ou tel URI digitável</p></td>
-<td><p>Abre a janela de conversação para uma chamada de áudio mas não disca o número especificado.</p></td>
+<td><p>callto</p></td>
+<td><p>Tel:, SIP: ou URI de Tel digitado</p></td>
+<td><p>Abre a janela de conversa para uma chamada de áudio, mas não disca o número especificado.</p></td>
 </tr>
 <tr class="odd">
-<td><p>sip:</p></td>
+<td><p>SPI</p></td>
 <td><p>URI do SIP</p></td>
-<td><p>Abre a janela de conversação com o URI (Uniform Resource Identifier) do SIP na lista de participantes.</p></td>
+<td><p>Abre a janela de conversa com o URI (Uniform Resource Identifier) SIP especificado na lista de participantes.</p></td>
 </tr>
 <tr class="even">
-<td><p>Sips:</p></td>
+<td><p>SIPS</p></td>
 <td><p>URI do SIP</p></td>
-<td><p>Se o Lync 2013 estiver configurado para usar o protocolo TLS, ele funcionará exatamente como o sip:. Se o TLS não estiver sendo usado, uma caixa de diálogo será exibida informando ao usuário que um nível maior de segurança é necessário.</p></td>
+<td><p>Se o Lync 2013 estiver configurado para usar o protocolo TLS (Transport Layer Security), funciona exatamente como SIP:. Se o TLS não estiver sendo usado, exibe uma caixa de diálogo informando ao usuário que um nível mais alto de segurança é necessário.</p></td>
 </tr>
 <tr class="odd">
-<td><p>conf:</p></td>
-<td><p>URI do SIP da conferência para ingresso</p></td>
-<td><p>Quando o URI é self, ele cria uma instância do foco e exibe somente a lista de participantes. Caso contrário, ele exibe a lista de participantes, mas não envia INVITE.</p>
-<p></p></td>
+<td><p>Conferência</p></td>
+<td><p>URI SIP da conferência para ingressar</p></td>
+<td><p>Se URI for Self, instancia o foco e mostra o modo de exibição somente de lista. Caso contrário, exibe o modo de exibição de lista, mas não envia convite.</p></td>
 </tr>
 <tr class="even">
-<td><p>im:</p></td>
+<td><p>comunicar</p></td>
 <td><p>URI do SIP</p></td>
-<td><p>Exibe uma janela de conversação de somente mensagens instantâneas com o URI do SIP. Aceita vários URIs de SIP especificados dentro de colchetes angulares (&lt;&gt;) sem nenhum separador.</p>
+<td><p>Exibe uma janela de conversa somente de mensagens instantâneas (IM) com o URI SIP. Aceita vários URIs SIP especificados dentro dos colchetes angulares (&lt;&gt;) sem qualquer separador.</p>
 <pre><code>im:&lt;sip:user1@host&gt;&lt;sip:user2@host&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-A tabela a seguir fornece exemplos destes parâmetros de linha de comando.
+A tabela a seguir fornece exemplos desses parâmetros de linha de comando.
 
-### Exemplos de parâmetros de linha de comando
+### <a name="command-line-parameter-examples"></a>Exemplos de parâmetro de linha de comando
 
 <table>
 <colgroup>
@@ -92,25 +111,36 @@ A tabela a seguir fornece exemplos destes parâmetros de linha de comando.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Tel:+14255550101</p></td>
-<td><p>Abre uma exibição somente de telefone com +14255550101.</p></td>
+<td><p>Tel: + 14255550101</p></td>
+<td><p>Abre um modo de exibição somente telefone com + 14255550101.</p></td>
 </tr>
 <tr class="even">
-<td><p>Callto:tel:+ 14255550101</p></td>
-<td><p>Abre uma exibição somente de telefone com +14255550101.</p></td>
+<td><p>Callto: Tel: + 14255550101</p></td>
+<td><p>Abre um modo de exibição somente telefone com + 14255550101.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Callto:sip:kazuto@litwareinc.com</p></td>
-<td><p>Abre uma exibição somente de telefone com kazuto@litwareinc.com.</p></td>
+<td><p>Abre uma exibição somente de telefone com o kazuto@litwareinc.com.</p></td>
 </tr>
 <tr class="even">
 <td><p>sip:kazuto@litwareinc.com</p></td>
-<td><p>Abre uma janela de conversação com kazuto@litwareinc.com.</p></td>
+<td><p>Abre uma janela de conversa com o kazuto@litwareinc.com.</p></td>
 </tr>
 <tr class="odd">
-<td><p>conf:sip:https://meet.contoso.com/kazuto/7322994</p></td>
-<td><p>Abre uma janela de conversação e exibe as opções para ingressar em áudio de reunião.</p></td>
+<td><p>conf: SIP:https://meet.contoso.com/kazuto/7322994</p></td>
+<td><p>Abre uma janela de conversa e exibe as opções de ingresso no áudio da reunião.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

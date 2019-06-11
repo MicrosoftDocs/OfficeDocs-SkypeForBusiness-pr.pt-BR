@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing user connection to Exchange UM voicemail'
+---
+title: 'Lync Server 2013: testar a conexão do usuário com o correio de voz do Exchange UM'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing user connection to Exchange UM voicemail
 ms:assetid: 574da104-8823-4061-9fb6-353639f1884d
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn727305(v=OCS.15)
-ms:contentKeyID: 62388591
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727305(v=OCS.15)
+ms:contentKeyID: 63969604
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: f09921d62eddb1f1b426e0e3b1fc4984a0987a8e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844598"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing user connection to Exchange UM voicemail in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="testing-user-connection-to-exchange-um-voicemail-in-lync-server-2013"></a>Testando a conexão do usuário com o correio de voz do Exchange no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-11-01_
 
 
 <table>
@@ -23,110 +43,140 @@ _**Tópico modificado em:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Cronograma de verificação</p></td>
+<td><p>Diário</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de Gerenciamento do Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsExUMVoiceMail</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permissões necessárias</p></td>
+<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsExUMVoiceMail</strong> . Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsExUMVoiceMail&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsExUMVoiceMail** cmdlet enables administrators to verify that a user can access and use the Microsoft Exchange Server 2013 unified messaging service. To do this, the cmdlet connects to the unified messaging service and leaves a voice mail in the specified mailbox. This can be a system-supplied voice mail, or it can be a custom .WAV file that you have recorded yourself.
+## <a name="description"></a>Descrição
 
-## Running the test
+O cmdlet **Test-CsExUMVoiceMail** permite que os administradores verifiquem se um usuário pode acessar e usar o serviço de mensagens unificadas do Microsoft Exchange Server 2013. Para fazer isso, o cmdlet se conecta ao serviço de Unificação de mensagens e deixa uma caixa postal na caixa de correio especificada. Pode ser uma caixa postal fornecida pelo sistema ou pode ser um personalizada. WAV que você mesmo gravou.
 
-The following example tests Exchange Unified Messaging voice mail connectivity for the pool atl-cs-001.litwareinc.com. This command will work only if test users were defined for the pool atl-cs-001.litwareinc.com. If they have, then the command will determine whether the first test user can use Unified Messaging voice mail. If test users were not configured for the pool then the command will fail.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Executar o teste
+
+O exemplo a seguir testa a conectividade da caixa postal do Exchange Unified Messaging para o pool atl-cs-001.litwareinc.com. Esse comando funcionará apenas se os usuários de teste tiverem sido definidos para o pool atl-cs-001.litwareinc.com. Se eles tiverem, o comando determinará se o primeiro usuário de teste pode usar a caixa postal de mensagens unificadas. Se os usuários de teste não tiverem sido configurados para o pool, o comando irá falhar.
 
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" 
 
-The commands shown in the next example test Exchange Unified Messaging voice mail connectivity for the user litwareinc\\kenmyer. To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credentials object for the user litwareinc\\kenmyer. Note that you must supply the password for this account to create a valid credentials object and to ensure that the **Test-CsExUMVoiceMail** cmdlet can run its check.
+Os comandos mostrados no próximo exemplo testam a conectividade da caixa postal do Exchange Unified\\Messaging para o usuário litwareinc kenmyer. Para fazer isso, o primeiro comando do exemplo usa o cmdlet **Get-Credential** para criar um objeto de credenciais da interface de linha de comando do Windows PowerShell para\\o usuário litwareinc kenmyer. Observe que você deve fornecer a senha desta conta para criar um objeto de credenciais válido e para garantir que o cmdlet **Test-CsExUMVoiceMail** possa executar sua verificação.
 
-The second command in the example uses the supplied credentials object ($x) and the SIP address of the user litwareinc\\kenmyer to determine whether or this user can connect to Exchange Unified Messaging voice mail.
+O segundo comando do exemplo usa o objeto de credenciais fornecido ($x) e o endereço SIP do usuário litwareinc\\kenmyer para determinar se ou este usuário pode se conectar à caixa postal do Exchange Unified Messaging.
 
     $credential = Get-Credential "litwareinc\pilar" 
     
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $credential 
 
-The command shown in the next example is a variation of the command shown in Example 1; in this case, the OutLoggerVariable parameter is included to generate a detailed log of every step done by the **Test-CsExUMVoiceMail** cmdletand the success or failure of each of those steps. To do this, the OutLoggerVariable parameter is added alongside the parameter value ExumText; that causes detailed logging information to be stored in a variable named $ExumTest. In the final command in the example, the ToXML() method is used to convert the log information to XML format. That XML data is then written to a file that is named C:\\Logs\\VoicemailTest.xml by using the Out-File cmdlet.
+O comando mostrado no próximo exemplo é uma variação do comando mostrado no exemplo 1; Nesse caso, o parâmetro OutLoggerVariable é incluído para gerar um log detalhado de cada etapa feita pelo **Test-CsExUMVoiceMail** cmdletand o êxito ou falha de cada uma dessas etapas. Para fazer isso, o parâmetro OutLoggerVariable é adicionado juntamente com o valor de parâmetro ExumText; Isso faz com que as informações de registro detalhadas sejam armazenadas em uma variável chamada $ExumTest. No comando final do exemplo, o método ToXML () é usado para converter as informações de log em formato XML. Em seguida, esses dados XML são gravados em um arquivo chamado C\\:\\registra o VoicemailTest. xml usando o cmdlet Out-File.
 
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -OutLoggerVariable VoicemailTest 
      
     $VoicemailTest.ToXML() | Out-File C:\Logs\VoicemailTest.xml
 
-## Determining success or failure
+</div>
 
-If Exchange integration is correctly configured, you'll receive output similar to this, with the Result property marked as **Success**:
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
 
-Result : Success
+Se a integração com o Exchange estiver configurada corretamente, você receberá uma saída semelhante a isso, com a propriedade Result marcada como **Success**:
 
-Latency : 00:00:02.9911345
+FQDN de destino: atl-cs-001.litwareinc.com
 
-Error Message :
+Resultado: êxito
 
-Diagnosis :
+Latência: 00:00:02.9911345
 
-If the specified user can't connect to voicemail, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+Mensagem de erro:
 
-WARNING: Failed to read Registrar port number for the given fully qualified
+Correto
 
-domain name (FQDN). Using default Registrar port number. Exception:
+Se o usuário especificado não conseguir se conectar ao correio de voz, o resultado será mostrado como uma **falha**, e informações adicionais serão gravadas nas propriedades de erro e diagnóstico:
 
-System.InvalidOperationException: No matching cluster found in topology.
+Aviso: falha ao ler o número da porta do registrador para o número da porta de dados totalmente qualificado
 
-at
+FQDN (nome de domínio). Usando o número da porta do registrador padrão. Extremamente
 
-Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri
+System. InvalidOperationException: nenhum cluster correspondente localizado na topologia.
 
-eveRegistrarPortFromTopology(Int32& registrarPortNumber)
+como
 
-Target Fqdn : atl-cs-001.litwareinc.com
+Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryRetri
 
-Result : Failure
+eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Latency : 00:00:00
+FQDN de destino: atl-cs-001.litwareinc.com
 
-Error Message : 10060, A connection attempt failed because the connected party
+Resultado: falha
 
-did not properly respond after a period of time, or
+Latência: 00:00:00
 
-established connection failed because connected host has
+Mensagem de erro: 10060, falha na tentativa de conexão porque a parte conectada
 
-failed to respond 10.188.116.96:5061
+Não respondeu corretamente após um período de tempo ou
 
-Inner Exception:A connection attempt failed because the
+a conexão estabelecida falhou porque o host conectado tem
 
-connected party did not properly respond after a period of
+Falha ao responder 10.188.116.96:5061
 
-time, or established connection failed because connected host
+Exceção interna: falha na tentativa de conexão porque o
 
-has failed to respond 10.188.116.96:5061
+a parte conectada não respondeu corretamente após um período de
 
-Diagnosis :
+falha na hora ou estabelecida a conexão porque o host conectado
 
-## Reasons why the test might have failed
+falhou ao responder 10.188.116.96:5061
 
-Here are some common reasons why **Test-CsExUMVoiceMail** might fail:
+Correto
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+</div>
 
-  - This command will fail if the Exchange Server is misconfigured or not yet deployed.
+<div>
 
-## Consulte Também
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-#### Outros Recursos
+Aqui estão alguns motivos comuns pelos quais **Test-CsExUMVoiceMail** pode falhar:
 
-[Test-CsExUMConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMConnectivity)
+  - Um valor de parâmetro incorreto foi fornecido. Se usado, os parâmetros opcionais devem ser configurados corretamente ou o teste falhará. Execute o comando novamente sem os parâmetros opcionais e veja se isso é bem-sucedido.
+
+  - Esse comando falhará se o Exchange Server estiver configurado incorretamente ou ainda não foi implantado.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

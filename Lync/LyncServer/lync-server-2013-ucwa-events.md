@@ -1,23 +1,43 @@
-﻿---
-title: Eventos do UCWA
-TOCTitle: Eventos do UCWA
-ms:assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ945621(v=OCS.15)
-ms:contentKeyID: 52057573
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: eventos do UCWA'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: UCWA events
+ms:assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945621(v=OCS.15)
+ms:contentKeyID: 51541461
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d0671b51e5fbd4b5f072676855d9e8f5201b3e04
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844573"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Eventos do UCWA
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="ucwa-events-in-lync-server-2013"></a>Eventos do UCWA no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-15_
 
     The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-O Lync Server 2013 usa a API Web de Comunicação Unificada (UCWA) para diversos propósitos, desde acessar o Microsoft Exchange para pesquisas de contato até a atualização de presença para clientes móveis.
+O Lync Server 2013 usa a API da Web de comunicação unificada (UCWA) para várias finalidades, desde o acesso ao Microsoft Exchange para pesquisas de contato até a atualização de presença para clientes móveis.
 
 A UCWA gravará registros de comportamento operacional como tipos de evento Informacional, Aviso e Erro. A tabela a seguir descreve tais eventos que podem ser gravados com componentes da UCWA.
 
@@ -222,4 +242,15 @@ A UCWA gravará registros de comportamento operacional como tipos de evento Info
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

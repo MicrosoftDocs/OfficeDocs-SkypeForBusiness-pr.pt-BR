@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblServerIdentity'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblServerIdentity
 ms:assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558648(v=OCS.15)
-ms:contentKeyID: 49306729
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558648(v=OCS.15)
+ms:contentKeyID: 48184125
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: e7bdd939f838a9f72191d3aae27b9a4a56d26be3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844761"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblServerIdentity no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="tblserveridentity-in-lync-server-2013"></a>tblServerIdentity no Lync Server 2013
 
-O tblServerIdentity inclui os servidores de chat ativos no Pool de Servidor de Chat Persistente.
+</div>
 
-### Colunas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-12_
+
+tblServerIdentity contém os servidores de chat ativos no pool do servidor de chat persistente.
+
+### <a name="columns"></a>Colunas
 
 <table>
 <colgroup>
@@ -36,23 +56,23 @@ O tblServerIdentity inclui os servidores de chat ativos no Pool de Servidor de C
 <tr class="odd">
 <td><p>serverID</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>Identificação do Servidor. Corresponde à ID da Instância do Repositório de Gerenciamento Central.</p></td>
+<td><p>ID do servidor. Corresponde à ID da instância do repositório de gerenciamento central.</p></td>
 </tr>
 <tr class="even">
-<td><p>serverAddress</p></td>
-<td><p>nvarchar (256), não nulo</p></td>
-<td><p>Endereço do Servidor utilizando o endereço do Windows Communication Foundation.</p></td>
+<td><p>a</p></td>
+<td><p>nvarchar (256), NOT NULL</p></td>
+<td><p>Endereço do servidor usando o endereço do Windows Communication Foundation.</p></td>
 </tr>
 <tr class="odd">
 <td><p>serverLastPingTime</p></td>
 <td><p>datetime</p></td>
-<td><p>A última vez em que o Servidor de Canal atualizou esta linha para fornecer evidências de que está sendo executado.</p></td>
+<td><p>A última vez em que o servidor de canal atualizou essa linha para dar evidências de que esteja em execução.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Chave
+### <a name="key"></a>Chave
 
 <table>
 <colgroup>
@@ -72,4 +92,15 @@ O tblServerIdentity inclui os servidores de chat ativos no Pool de Servidor de C
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,46 +1,90 @@
-﻿---
-title: 'Lync Server 2013: Testar o servidor de Edição Padrão'
-TOCTitle: Testar o servidor de Edição Padrão
-ms:assetid: b6ef67bb-9665-43e4-b8b3-eac8898eebf6
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412890(v=OCS.15)
-ms:contentKeyID: 49307889
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Testar o servidor de Edição Padrão'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Test the Standard Edition server
+ms:assetid: b6ef67bb-9665-43e4-b8b3-eac8898eebf6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412890(v=OCS.15)
+ms:contentKeyID: 48185220
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a960451ebdd1e6e8728bf3b6c7df6e267c49c3f8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844697"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testar o servidor de Edição Padrão no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-01_
+# <a name="test-the-standard-edition-server-in-lync-server-2013"></a>Testar o servidor de Edição Padrão no Lync Server 2013
 
-O seguinte procedimento descreve como testar a implantação de uma Servidor Standard Edition.
+</div>
 
-## Para testar a implantação de um servidor Standard Edition
+<div id="mainSection">
 
-1.  Use Computadores e Usuários do Active Directory para adicionar o objeto do usuário do Active Directory da função de administrador para a implantação do Lync Server 2013 (na qual o Painel de Controle do Lync Server está instalado) para o grupo **CSAdministrator**.
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-01_
+
+O procedimento a seguir descreve como testar a implantação de um servidor Standard Edition.
+
+<div>
+
+## <a name="to-test-the-deployment-of-a-standard-edition-server"></a>Para testar a implantação de um servidor Standard Edition
+
+1.  Use computadores e usuários do Active Directory para adicionar o objeto de usuário do Active Directory da função Administrador para a implantação do Lync Server 2013 (em que o painel de controle do Lync Server está instalado) ao grupo **CSAdministrator** .
 
 2.  Se o objeto do usuário está conectado atualmente, desconecte e conecte-se novamente para registrar a nova atribuição de grupo.
     
+    <div>
+    
+
     > [!NOTE]  
-    > A conta de usuário não pode ser o administrador local do servidor executando Lync Server 2013, Standard Edition. Se você não adicionar os usuários e grupos apropriados ao grupo CsAdministors, você receberá um erro ao abrir Painel de Controle do Lync Server 2013, que informa “Não autorizado: acesso negado devido a uma falha na autorização de RBAC (controle de acesso baseado na função).”
+    > A conta de usuário não pode ser o administrador local do servidor que executa o Lync Server 2013, Standard Edition. Se você não adicionar os usuários e grupos apropriados ao grupo CsAdministors, receberá um erro ao abrir o painel de controle do Lync Server 2013, que afirma que "não autorizado: o acesso é negado devido a uma falha de autorização de controle de acesso baseado em função (RBAC)."
 
-3.  Use a conta administrativa para fazer o login no computador onde o Painel de Controle do Lync Server está instalado.
+    
+    </div>
 
-4.  Inicie o Painel de Controle do Lync Server e forneça credenciais, se for solicitado. O Painel de Controle do Lync Server 2013 exibe informações sobre a implantação.
+3.  Use a conta administrativa para fazer logon no computador em que o painel de controle do Lync Server está instalado.
 
-5.  Na barra de navegação esquerda, clique em **Topologia** e confirme que o status do serviço é um ícone de computador com uma seta verde e se há uma marca de seleção verde ao lado de cada função de servidor do Lync Server que foi implantada e colocada online.
+4.  Inicie o painel de controle do Lync Server e forneça as credenciais, se for solicitado. O painel de controle do Lync Server 2013 exibe informações de implantação.
 
-6.  Na barra de navegação esquerda, clique em **Usuários** e habilite os dois usuários para Lync Server 2013.
+5.  Na barra de navegação à esquerda, clique em **topologia**e, em seguida, confirme se o status do serviço é um ícone de computador com uma seta verde e se há uma marca de seleção verde ao lado de cada função de servidor do Lync que foi implantada e colocada online.
 
-7.  Faça logon de um usuário no computador que ingressou no domínio e do outro usuário em outro computador no domínio.
+6.  Na barra de navegação à esquerda, clique em **usuários**e, em seguida, habilite os dois usuários do Lync Server 2013.
 
-8.  Instale o Lync Server 2013 em cada um dos dois computadores clientes e verifique se ambos os usuários podem se conectar ao Lync Server 2013 e enviar mensagens instantâneas um para o outro.
+7.  Registrar um usuário em um computador que ingressou no domínio e o outro usuário em outro computador no domínio.
 
-## Consulte Também
+8.  Instale o Lync Server 2013 em cada um dos dois computadores cliente e verifique se os dois usuários podem entrar no Lync Server 2013 e enviar mensagens de chat para os outros.
 
-#### Conceitos
+</div>
 
-[Implantando clientes e dispositivos no Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md)
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Implantando clientes e dispositivos no Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,79 +1,131 @@
-﻿---
-title: "Config. do Em. de Logs do Serv. SQL entre esp. prim. e b. dados sec. de Envio de Logs"
-TOCTitle: Configuração do Envio de Logs do Servidor SQL entre o espelho primário e o banco de dados secundário de Envio de Logs
-ms:assetid: 4e8e9ce9-4301-47f2-a0c3-669afeb53295
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204887(v=OCS.15)
-ms:contentKeyID: 49306671
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configuração do Envio de Logs do Servidor SQL entre o espelho primário e o banco de dados secundário de Envio de Logs'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up SQL Server Log Shipping between the primary mirror and the Log Shipping secondary database
+ms:assetid: 4e8e9ce9-4301-47f2-a0c3-669afeb53295
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204887(v=OCS.15)
+ms:contentKeyID: 48184119
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3758e654826de42f6bf6bed8ead29ce03adb6ca5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844954"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuração do Envio de Logs do Servidor SQL entre o espelho primário e o banco de dados secundário de Envio de Logs no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-21_
+# <a name="setting-up-sql-server-log-shipping-between-the-primary-mirror-and-the-log-shipping-secondary-database-in-lync-server-2013"></a>Configuração do Envio de Logs do Servidor SQL entre o espelho primário e o banco de dados secundário de Envio de Logs no Lync Server 2013
 
-Execute as seguintes etapas para que o envio de log continue se o banco de dados Chat Persistente primário tiver feito um failover ao seu banco de dados espelho.
+</div>
 
-1.  Faça um failover manual no banco de dados Chat Persistente primário ao espelho. Isso pode ser realizado usando o Shell de Gerenciamento do Lync Server e o cmdlet **Invoke-CsDatabaseFailover**. Para obter informações detalhadas, consulte "Usando os Cmdlets Shell de Gerenciamento do Lync Server" em [Implantando espelhamento SQL para alta disponibilidade de Servidor Back-End no Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).
+<div id="mainSection">
 
-2.  Usando o Management Studio SQL Server, conecte a instância espelho Servidor de Chat Persistente primária.
+<div id="mainBody">
 
-3.  Certifique-se de que o Agente SQL Server esteja em execução.
+<span> </span>
 
-4.  Clique com o botão direito no banco de dados mgc e, em seguida, clique em **Propriedades** .
+_**Tópico da última modificação:** 2013-02-21_
 
-5.  Em **Selecionar uma página** , clique em **Envio de Logs de Transações** .
+Execute as etapas a seguir para envio de log para continuar se o banco de dados de chat persistente principal tiver falhado em seu banco de dados de espelho.
 
-6.  Selecione a caixa de seleção **Habilitar como banco de dados primário em uma configuração de envio de log** .
+1.  Failover manual do banco de dados persistente de chat primário para o espelho. Isso é feito por meio do Shell de gerenciamento do Lync Server e do cmdlet **Invoke-CsDatabaseFailover** . Para obter detalhes, consulte "usando cmdlets do Shell de gerenciamento do Lync Server" em Implantando [SQL Mirroring para back-end Server High Availability no Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).
 
-7.  Em **Backups de log de transações** , clique em **Configurações de Backup** .
+2.  Usando o SQL Server Management Studio, conecte-se à instância principal do espelho do servidor de chat persistente.
 
-8.  Na caixa de diálogo **Caminho de rede para a pasta Backup** , digite o caminho de rede para compartilhamento que você criou para a pasta backup de log de transação.
+3.  Certifique-se de que o agente do SQL Server esteja em execução.
 
-9.  Se a pasta de backup estiver no servidor primário, digite o caminho local na pasta de backup na caixa de diálogo **Se a pasta de backup estiver localizada no servidor primário, digite um caminho local para a pasta** . (Se a pasta de backup não estiver o servidor primário, você pode deixa essa caixa de diálogo vazia.)
+4.  Clique com o botão direito do mouse no banco de dados mgc e, em seguida, clique em **Propriedades**.
+
+5.  Em **Selecionar uma página**, clique em **Envio de Logs de Transação**.
+
+6.  Marque a caixa de seleção **Habilitar como banco de dados primário em uma configuração de envio de logs**.
+
+7.  Em **Backups de log de transação**, clique em **Configurações de Backup**.
+
+8.  Na caixa **Caminho de rede para a pasta de backup**, digite o caminho de rede para compartilhamento que você criou para a pasta de backup de log de transação.
+
+9.  Se a pasta de backup estiver no servidor primário, digite o caminho local para a pasta de backup na caixa **Se a pasta de backup estiver localizada no servidor primário, digite um caminho local para a pasta**. (Se a pasta de backup não estiver no servidor primário, você pode deixar essa caixa de diálogo em branco.)
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Se a conta de serviço SQL Server no servidor primário for executada na conta do sistema local, você deverá criar sua pasta de backup no servidor primário e especificar o caminho local desta pasta.
+    > Se a conta de serviço do SQL Server em seu servidor primário for executada na conta do sistema local, você deverá criar a pasta de backup no servidor primário e especificar um caminho local para essa pasta.
 
-10. Configure os parâmetros **Excluir arquivos com mais de** e **Alertar se nenhum backup ocorrer em** .
-
-11. Observe a agenda de backup listada na caixa de diálogo **Agendar** em **Trabalho de backup** . Para personalizar a agenda para instalação, clique em **Agendar** e ajuste o Agente SQL Server agendado, conforme solicitado.
     
+    </div>
+
+10. Configure os parâmetros **Excluir arquivos com mais de** e **Alertar se nenhum backup ocorrer em**.
+
+11. Observe a agenda de backup listada na caixa **Agenda** em **Trabalho de backup**. Para personalizar o cronograma da instalação, clique em **agendar**e ajuste o cronograma do agente do SQL Server, conforme necessário.
+    
+    <div>
+    
+
     > [!IMPORTANT]  
     > Use as mesmas configurações que você usou para o banco de dados primário.
 
-12. Em **Compactação** , selecione **Usar a configuração padrão do servidor** e clique em **OK** .
-
-13. Em **Instâncias e bancos de dados do servidor secundário** , clique em **Adicionar** .
-
-14. Clique **Conectar** e conecte-se na instância do SQL Server que você configurou como servidor secundário.
-
-15. Na caixa de diálogo **Banco de dados secundário** , selecione o banco de dados **mgc** da lista.
-
-16. Na guia **Inicializar Banco de Dados Secundário** , selecione a opção **Não, o banco de dados secundário é inicializado** .
-
-17. Na guia **Copiar Arquivos** , em **Pasta de destino dos arquivos copiados** , digite o caminho da pasta à qual a o backup de logs de transação deveriam ser copiados e clique em **OK** . Essa pasta normalmente se encontra no servidor secundário.
-
-18. Abra a lista suspensa **Configuração do Script** e selecione **Configuração de Script na Janela Nova Consulta** .
-
-19. Na nova janela de consulta, em **Propriedades do Banco de Dados** , clique em **OK** para iniciar o processo de configuração.
-
-20. Selecione e execute a primeira metade da consulta (veja etapa 18) até a linha: -- \*\*\*\*\*\* Fim: Script a ser executado no Primário: \*\*\*\*\*\*.
     
+    </div>
+
+12. Em **Compactação**, selecione **Usar a configuração padrão do servidor** e clique em **OK**.
+
+13. Em **Instâncias e bancos de dados do servidor secundário**, clique em **Adicionar**.
+
+14. Clique em **Conectar** e conecte-se à instância do SQL Server que você configurou como servidor secundário.
+
+15. Na caixa **Banco de dados secundário**, selecione o banco de dados **mgc** da lista.
+
+16. Na guia **Inicializar Banco de Dados Secundário**, selecione a opção **Não, o banco de dados secundário é inicializado**.
+
+17. Na guia **Copiar Arquivos**, em **Pasta de destino dos arquivos copiados**, digite o caminho da pasta à qual os backups de logs de transação devem ser copiados e clique em **OK**. Essa pasta normalmente se encontra no servidor secundário.
+
+18. Abra a lista suspensa **Configuração de Script** e selecione **Configuração de Script para a janela Nova Consulta**.
+
+19. Na janela Nova Consulta, em **Propriedades do Banco de Dados**, clique em **OK** para iniciar o processo de configuração.
+
+20. Selecione e execute a primeira metade da consulta (consulte a etapa 18) até a linha:-- \* \* \* \* \* \* end: script a ser \* \* \* \* \* \*executado no principal:.
+    
+    <div>
+    
+
     > [!IMPORTANT]  
-    > A execução manual desse script é necessária porque o SQL Server Management Studio não suporta banco de dados primário múltiplos em uma SQL Server configuração de Envio de Log.
+    > Executar manualmente esse script é necessário porque o SQL Server Management Studio não oferece suporte a vários bancos de dados principais em uma configuração de envio de logs do SQL Server.
 
-21. Selecione **Cancelar** para fechar o painel de configuração de envio do Arquivo de Log e para estabelecer uma configuração de trabalho que implemente corretamente o envio do arquivo de log para os bancos de dados primário e espelhado (no case de failover).
+    
+    </div>
 
-22. Faça o failback do banco de dados do Chat Persistente primário ao primário. Isso é feito usando o Shell de Gerenciamento do Lync Server e o cmdlet **Invoke-CsDatabaseFailover**. Para obter informações detalhadas, consulte "Usando os Cmdlets Shell de Gerenciamento do Lync Server" em [Implantando espelhamento SQL para alta disponibilidade de Servidor Back-End no Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).
+21. Selecione **Cancelar** para fechar o painel de configuração de envio do arquivo de log e para estabelecer uma configuração de trabalho que implemente corretamente o envio do arquivo de log para os bancos de dados primário e espelhado (no caso de failover). 
 
-## Consulte Também
+22. Faça o failback manual do banco de dados de chat persistente principal para o principal. Isso é feito usando o Shell de gerenciamento do Lync Server e o cmdlet **Invoke-CsDatabaseFailover** . Para obter detalhes, consulte "usando cmdlets do Shell de gerenciamento do Lync Server" em Implantando [SQL Mirroring para back-end Server High Availability no Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).
 
-#### Conceitos
+<div>
+
+## <a name="see-also"></a>Confira também
+
 
 [Implantando espelhamento SQL para alta disponibilidade de Servidor Back-End no Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)  
-[Implantando espelhamento SQL para alta disponibilidade de Servidor Back-End no Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)
+[Implantando espelhamento SQL para alta disponibilidade de Servidor Back-End no Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,19 +1,39 @@
-﻿---
-title: "Lync Server 2013: Testando end. Civis em relação ao guia de end. master"
+---
+title: Testando endereços cívicos no guia de endereço principal do Street
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing civic addresses against the master street address guide
 ms:assetid: dc680de9-2a0f-4fd3-a99e-9bab0bc30ae5
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn690132(v=OCS.15)
-ms:contentKeyID: 62281099
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690132(v=OCS.15)
+ms:contentKeyID: 63969657
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: dfa4dd28ec05546366e029b6fb9fdf1c4b3ae310
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844648"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing civic addresses against the master street address guide in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="testing-civic-addresses-against-the-master-street-address-guide-in-lync-server-2013"></a>Testando endereços cívicos em relação ao guia de endereço mestre do Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-06-05_
 
 
 <table>
@@ -23,52 +43,78 @@ _**Tópico modificado em:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Cronograma de verificação</p></td>
+<td><p>Diário</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de Gerenciamento do Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsRegistration cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permissões necessárias</p></td>
+<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet Test-CsRegistration. Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLisCivicAddress &quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsLisCivicAddress cmdlet is used to verify locations that were added to your Location Information service (LIS) database. The cmdlet works by comparing locations against the locations found in the Master Street Address Guide (MSAG) that belongs to your E9-1-1 Network Routing Provider. If you do not have a network routing provider or if the provider cannot be reached, then your tests will fail.
+## <a name="description"></a>Descrição
 
-If you add the optional switch parameter UpdateValidationStatus to your command, then the corresponding MSAGValid database property will be set to True for each address passing the test.
+O cmdlet Test-CsLisCivicAddress é usado para verificar os locais que foram adicionados ao seu banco de dados do serviço de informações de localização (LIS). O cmdlet funciona comparando os locais com base nos locais encontrados no guia de endereço mestre do Street (MSAG) que pertence ao seu provedor de roteamento de rede do E9-1. Se você não tiver um provedor de roteamento de rede ou se o provedor não puder ser acessado, seus testes falharão.
 
-## Running the test
+Se você adicionar o parâmetro de opção opcional UpdateValidationStatus ao seu comando, a propriedade de banco de dados MSAGValid correspondente será definida como true para cada endereço passando pelo teste.
 
-The Test-CsLisCivicAddress cmdlet can be used to test individual addresses or to test multiple addresses. For example, this command tests a single address located in Redmond, WA:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Executar o teste
+
+O cmdlet Test-CsLisCivicAddress pode ser usado para testar endereços individuais ou testar vários endereços. Por exemplo, este comando testa um único endereço localizado em Redmond, WA:
 
     Test-CsLisCivicAddress -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName Main -StreetSuffix St -PostDirectional "" -City Redmond -State WA -PostalCode 98052 -Country US -UpdateValidationStatus
 
-By comparison, this command tests all the addresses currently in your LIS database:
+Por comparação, esse comando testa todos os endereços atualmente em seu banco de dados LIS:
 
     Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
 
-For more information, see the Help documentation for the [Test-CsRegistration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsRegistration) cmdlet.
+Para obter mais informações, consulte a documentação da ajuda para o cmdlet [Test-CsRegistration](https://technet.microsoft.com/en-us/library/Gg412737(v=OCS.15)) .
 
-## Determining success or failure
+</div>
 
-Test-CsLisCivicAddress will report back Success or Failure for the supplied addresses. An address test will fail if the address cannot be found or if the service provider cannot be contacted.
+<div>
 
-## Reasons why the test might have failed
+## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
 
-Here are some common reasons why Test-CsLisCivicAddress might fail:
+Test-CsLisCivicAddress reportará o êxito ou falha dos endereços fornecidos. Um teste de endereço falhará se o endereço não for encontrado ou se não for possível entrar em contato com o provedor de serviço.
 
-  - The LIS service provider might not be available. You can retrieve the URL of your LIS service provider by running the Get-CsLisConfiguration cmdlet:
+</div>
+
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
+
+Aqui estão alguns motivos comuns pelos quais Test-CsLisCivicAddress pode falhar:
+
+  - O provedor de serviço LIS pode não estar disponível. Você pode recuperar a URL do seu provedor de serviços LIS executando o cmdlet Get-CsLisConfiguration:
     
         Get-CsLisConfiguration 
     
-    You can then ping that URL to verify that the service provider is available.
+    Em seguida, você pode executar o ping nesse URL para verificar se o provedor de serviço está disponível.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

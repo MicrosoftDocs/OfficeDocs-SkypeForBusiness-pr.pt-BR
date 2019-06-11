@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Requisitos técnicos do Grupo de Resposta'
-TOCTitle: Requisitos técnicos do Grupo de Resposta
-ms:assetid: 477488bd-124f-437b-9327-732a0d7271ca
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204863(v=OCS.15)
-ms:contentKeyID: 49306587
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Requisitos técnicos do Grupo de Resposta'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for Response Group
+ms:assetid: 477488bd-124f-437b-9327-732a0d7271ca
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204863(v=OCS.15)
+ms:contentKeyID: 48184044
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2dd87cb270d527753d9c6404ded4162791b542f7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844740"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos técnicos do Grupo de Resposta no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Requisitos técnicos do Grupo de Resposta no Lync Server 2013
 
-Esta seção descreve os seguintes requisitos técnicos para Aplicativo Grupo de Resposta:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-11-07_
+
+Esta seção descreve os seguintes requisitos técnicos para o aplicativo de grupo de resposta:
 
   - Requisitos de hardware
 
@@ -23,70 +43,116 @@ Esta seção descreve os seguintes requisitos técnicos para Aplicativo Grupo de
 
   - Requisitos de porta
 
-  - Requisitos do arquivo de áudio
+  - Requisitos de arquivo de áudio
 
-  - Requisitos de ferramenta de configuração do Grupo de Resposta
+  - Requisitos da ferramenta de configuração de grupo de resposta
 
-## Requisitos de hardware
+<div>
 
-O Aplicativo Grupo de Resposta tem os mesmos requisitos de hardware de Servidores Front-End. Para detalhes sobre requisitos de hardware, consulte [Plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md) na documentação de Suportabilidade.
+## <a name="hardware-requirements"></a>Requisitos de hardware
 
-## Requisitos de software
+O aplicativo grupo de resposta tem os mesmos requisitos de hardware que os servidores front-end. Para obter detalhes sobre os requisitos de hardware, consulte [plataformas de hardware do servidor para o Lync Server 2013](lync-server-2013-server-hardware-platforms.md) na documentação de suporte.
 
-O Aplicativo Grupo de Resposta tem os mesmos requisitos do sistema operacional e pré-requisitos de software como Servidores Front-End. Para detalhes sobre requisitos do software, consulte [Suporte a sistemas operacionais de servidor e de ferramentas no Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) na documentação de Suportabilidade.
+</div>
 
-Se você utiliza arquivos Windows Media Audio (.wma) para músicas e anúncios Grupo de Resposta, todos os Servidores Front-End ou servidores Standard Edition que executam Aplicativo Grupo de Resposta deverão ter o Windows Media Format Runtime instalado para servidores que executam Windows Server 2008 R2 ou Microsoft Media Foundation para servidores que executam Windows Server 2012 ou Windows Server 2012 R2. Para Windows Server 2008 R2, o Windows Media Format Runtime está instalado como parte da Experiência de Desktop do Windows.
+<div>
 
-Para mais detalhes sobre requisitos de áudio, consulte "Requisitos de arquivo de áudio" mais adiante nesta seção.
+## <a name="software-requirements"></a>Requisitos de software
 
-## Requisitos de porta
+O aplicativo grupo de resposta tem os mesmos requisitos de sistema operacional e pré-requisitos de software que os servidores front-end. Para obter detalhes sobre os requisitos de software, consulte [suporte ao sistema operacional do servidor e ferramentas no Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) na documentação de suporte.
 
-O Aplicativo Grupo de Resposta utiliza as seguintes portas:
+Se você usa arquivos de áudio do Windows Media (. WMA) para músicas e anúncios em grupo de resposta, todos os servidores front-end ou servidores Standard Editions que executam o aplicativo do grupo de resposta devem ter o tempo de execução do Windows Media Format instalado para servidores que executam o Windows Server 2008 R2 ou Microsoft Media Foundation para servidores que executam o Windows Server 2012 ou o Windows Server 2012 R2. Para o Windows Server 2008 R2, o tempo de execução do Windows Media Format é instalado como parte da experiência da área de trabalho do Windows.
 
-  - **Porta 5071**   Usada para solicitações de escuta de SIP
+Para obter mais detalhes sobre os requisitos de áudio, consulte "requisitos de arquivo de áudio" mais adiante nesta seção.
 
-  - **Porta 8404**   Utilizado para comunicações entre servidores
+</div>
+
+<div>
+
+## <a name="port-requirements"></a>Requisitos de porta
+
+O aplicativo grupo de resposta usa as seguintes portas:
+
+  - **Porta 5071**   usada para solicitações de escuta SIP
+
+  - **Porta 8404**   usada para comunicações entre servidores
     
+    <div>
+    
+
     > [!NOTE]  
-    > Esta porta é utilizada pra o serviço de Correspondência e é obrigatório quando o Aplicativo Grupo de Resposta é implantado em um pool que possua mais de um Servidor Front-End.
+    > Essa porta é usada para o serviço fazer correspondência e é necessária quando o aplicativo do grupo de resposta é implantado em um pool que tem mais de um servidor front-end.
+
+    
+    </div>
+
+<div>
+
 
 > [!NOTE]  
-> Essas portas são configurações padrão que você pode alterar utilizando o cmdlet <strong>Set-CsApplicationServer</strong>. Para detalhes sobre este cmdlet, consulte a documentação do Shell de Gerenciamento do Lync Server.
+> Essas portas são configurações padrão que podem ser alteradas usando o cmdlet <STRONG>set-CsApplicationServer</STRONG> . Para obter detalhes sobre esse cmdlet, consulte a documentação do Shell de gerenciamento do Lync Server.
 
-## Requisitos do arquivo de áudio
 
-O Aplicativo Grupo de Resposta suporta formato de arquivo wave (.wav) e Windows Media audio (.wma) para mensagens do Grupo de resposta, música de espera ou perguntas de resposta resposta de voz interativa (IVR).
 
-O formato de arquivo de áudio Windows Media requer que o Windows Media Format Runtime esteja instalado no Servidores Front-End executando o Windows Server 2008 R2 e Windows Server 2008. Para mais detalhes, consulte "Requisitos de software", anteriormente nesta seção.
+</div>
 
-## Formatos de arquivo wave suportados
+</div>
 
-Os arquivos wave devem atender os seguintes requisitos:
+<div>
 
-  - Arquivo 8 bits ou 16 bits
+## <a name="audio-file-requirements"></a>Requisitos do arquivo de áudio
 
-  - Formato de Modulação de código de pulso linear (LPCM), A-Law ou mu-Law
+O aplicativo de grupo de resposta suporta o formato de arquivo Wave (. wav) e o formato de áudio do Windows Media (. WMA) para perguntas sobre mensagens de grupo de resposta, música em espera ou reação de voz interativa (IVR).
+
+O formato de arquivo de áudio do Windows Media requer que o tempo de execução do Windows Media Format seja instalado em servidores front-end que executam o Windows Server 2008 R2 e o Windows Server 2008. Para obter mais detalhes, consulte "requisitos de software", anteriormente nesta seção.
+
+<div>
+
+## <a name="supported-wave-file-formats"></a>Formatos de arquivo wave compatíveis
+
+Todos os arquivos de ondas devem atender aos seguintes requisitos:
+
+  - arquivo de 8 bits ou 16 bits
+
+  - Formato de modulação de código de pulso linear (LPCM), A-lei ou MU-Law
 
   - Mono ou estéreo
 
   - 4 MB ou menos
 
-Para melhor desempenho de arquivos wave, um arquivo Wave 16 kHz, mono e de 16 bits é recomendado.
+Para obter o melhor desempenho de arquivos Wave, recomenda-se um arquivo wave de 16 kHz, mono e 16 bits.
 
-## Formatos de arquivo de áudio Windows Media
+</div>
 
-Se você utilizar um arquivo de áudio Windows Media, considere utilizar taxas de bit baixos e verifique o desempenho do sistema sob carga.
+<div>
 
-Você pode utilizar o Microsoft Expression Encoder 4 para converter um arquivo para o formato Windows Media Audio. Para baixar o Expression Encoder 4, consulte [http://go.microsoft.com/fwlink/?linkid=202843\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=202843%26clcid=0x416).
+## <a name="supported-windows-media-audio-file-formats"></a>Formatos de arquivo de áudio do Windows Media com suporte
 
-## Requisitos de ferramenta de configuração de Grupo de resposta
+Se você usar um arquivo de áudio do Windows Media, considere o uso de taxas de bits baixas e verifique se o desempenho do sistema está em carga.
 
-O Ferramenta de Configuração de Grupo de Resposta suporta as combinações de sistemas operacionais e navegadores da web descritos na tabela a seguir.
+Você pode usar o codificador do Microsoft Expression 4 para converter um arquivo para o formato de áudio do Windows Media. Para baixar o Expression Encoder 4, [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843)consulte.
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="response-group-configuration-tool-requirements"></a>Requisitos da ferramenta de configuração de grupo de resposta
+
+A ferramenta de configuração de grupo de resposta aceita as combinações de sistemas operacionais e navegadores da Web descritos na tabela a seguir.
+
+<div>
+
 
 > [!NOTE]  
-> Versões 32 bits ou 64 bits do sistema operacional são suportadas. Apenas versões 32 bits do Internet Explorer são suportadas.
+> Há suporte para as versões de 32 bits ou 64 bits dos sistemas operacionais. Só há suporte para as versões de 32 bits do Internet Explorer.
 
-### Sistemas operacionais e navegadores da web suportados
+
+
+</div>
+
+### <a name="supported-operating-systems-and-web-browsers"></a>Navegadores da Web e sistemas operacionais com suporte
 
 <table>
 <colgroup>
@@ -119,10 +185,7 @@ O Ferramenta de Configuração de Grupo de Resposta suporta as combinações de 
 <p>Internet Explorer 9 (modo nativo)</p></td>
 </tr>
 <tr class="even">
-<td><p></p>
-<p></p>
-<p></p>
-<p>Windows Server 2008 R2</p>
+<td><p>Windows Server 2008 R2</p>
 <p>Windows Server 2008 R2 com Service Pack 1</p></td>
 <td><p>Internet Explorer 8 (modo nativo)</p>
 <p>Internet Explorer 9 (modo nativo)</p></td>
@@ -131,14 +194,25 @@ O Ferramenta de Configuração de Grupo de Resposta suporta as combinações de 
 </table>
 
 
-## Console de agente do Grupo de resposta
+</div>
 
-O console de agente suporta as combinações de sistemas operacionais e navegadores da web descritas na tabela a seguir.
+<div>
+
+## <a name="response-group-agent-console"></a>Console do agente do grupo de resposta
+
+O console do agente tem suporte para as combinações de sistemas operacionais e navegadores da Web descritos na tabela a seguir.
+
+<div>
+
 
 > [!NOTE]  
-> Versões 32 bits ou 64 bits do sistema operacional são suportadas. Apenas versões 32 bits do Internet Explorer são suportadas.
+> Há suporte para as versões de 32 bits ou 64 bits dos sistemas operacionais. Só há suporte para as versões de 32 bits do Internet Explorer.
 
-### Sistemas operacionais e navegadores da web suportados
+
+
+</div>
+
+### <a name="supported-operating-systems-and-web-browsers"></a>Navegadores da Web e sistemas operacionais com suporte
 
 <table>
 <colgroup>
@@ -163,8 +237,8 @@ O console de agente suporta as combinações de sistemas operacionais e navegado
 <p>Windows 7 com Service Pack 1</p></td>
 <td><p>Internet Explorer 8 (modo nativo)</p>
 <p>Internet Explorer 9 (modo nativo)</p>
-<p>Firefox 10.0</p>
-<p>Chrome 18.0</p></td>
+<p>Firefox 10,0</p>
+<p>Chrome 18,0</p></td>
 </tr>
 <tr class="odd">
 <td><p>Windows Server 2008 com Service Pack 2</p></td>
@@ -173,17 +247,30 @@ O console de agente suporta as combinações de sistemas operacionais e navegado
 <p>Internet Explorer 9 (modo nativo)</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows Server 2008 R2</p>
+<td><p>Windows Server 2008 R2</p>
 <p>Windows Server 2008 R2 com Service Pack 1</p></td>
 <td><p>Internet Explorer 8 (modo nativo)</p>
 <p>Internet Explorer 9 (modo nativo)</p>
-<p>Firefox 10.0</p>
-<p>Chrome 18.0</p></td>
+<p>Firefox 10,0</p>
+<p>Chrome 18,0</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

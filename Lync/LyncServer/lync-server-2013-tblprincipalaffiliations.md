@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipalAffiliations'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipalAffiliations
 ms:assetid: 45fd8484-5837-44d2-85bb-45c83546607c
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558642(v=OCS.15)
-ms:contentKeyID: 49306566
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558642(v=OCS.15)
+ms:contentKeyID: 48183993
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: eb5f6400de1c71b4d11101871b2dadedd232a9ce
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844775"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblPrincipalAffiliations no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>tblPrincipalAffiliations no Lync Server 2013
 
-O tblPrincipalAffiliations inclui as principais afiliações que descrevem as associações em locais, incluindo grupos de segurança do Serviços de Domínio Active Directory, contêineres do Active Directory e domínios.
+</div>
 
-### Colunas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-12_
+
+tblPrincipalAffiliations contém as afiliações principais que descrevem associações em locais, incluindo grupos de segurança dos serviços de domínio Active Directory, em contêineres do Active Directory, em domínios.
+
+### <a name="columns"></a>Colunas
 
 <table>
 <colgroup>
@@ -34,30 +54,30 @@ O tblPrincipalAffiliations inclui as principais afiliações que descrevem as as
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>principalID</p></td>
+<td><p>entidade de segurança</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID da entidade de segurança afiliada.</p></td>
+<td><p>ID do objeto associado.</p></td>
 </tr>
 <tr class="even">
-<td><p>affiliationID</p></td>
+<td><p>afiliaid</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID da entidade de segurança que representa a afiliação. Cada entidade (exceto system-user-types) tem também uma autoafiliação.</p></td>
+<td><p>ID da entidade de segurança que representa a afiliada. Cada entidade de segurança (exceto tipos de usuário do sistema) também tem uma afiliada.</p></td>
 </tr>
 <tr class="odd">
-<td><p>index</p></td>
+<td><p>dedo</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>Índice. O valor para autoafiliações é -1 e para as outras afiliações ele aumenta sequencialmente em 1 em cada classificação de &lt;principalID, affiliationId&gt;.</p></td>
+<td><p>Dedo. O valor para autoafiliações é-1 e para as outras afiliações que ele aumenta sequencialmente de 1 dentro de cada &lt;objeto de entidade de segurança&gt; , o BucketID.</p></td>
 </tr>
 <tr class="even">
 <td><p>updatedBy</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>Entidade de segurança que fez a atualização mais recente. Isso geralmente é 1, o que significa Sincronização do Active Directory.</p></td>
+<td><p>Entidade de segurança que fez a atualização mais recente. Geralmente, isso é 1, o que significa sincronização do Active Directory.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Chaves
+### <a name="keys"></a>As
 
 <table>
 <colgroup>
@@ -72,17 +92,28 @@ O tblPrincipalAffiliations inclui as principais afiliações que descrevem as as
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;principalID, index, affiliationID&gt;</p></td>
+<td><p>&lt;entidade de segurança, índice, afiliaid&gt;</p></td>
 <td><p>Chave primária.</p></td>
 </tr>
 <tr class="even">
-<td><p>principalID</p></td>
-<td><p>Chave estrangeira com pesquisa na tabela tblPrincipal.prinID.</p></td>
+<td><p>entidade de segurança</p></td>
+<td><p>Chave estrangeira com Lookup na tabela tblPrincipal. retoid.</p></td>
 </tr>
 <tr class="odd">
-<td><p>affiliationID</p></td>
-<td><p>Chave estrangeira com pesquisa na tabela tblPrincipal.prinID.</p></td>
+<td><p>afiliaid</p></td>
+<td><p>Chave estrangeira com Lookup na tabela tblPrincipal. retoid.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

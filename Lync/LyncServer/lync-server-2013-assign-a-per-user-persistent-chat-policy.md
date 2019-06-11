@@ -1,27 +1,34 @@
-﻿---
-title: Atribuir uma política de chat persistente por usuário
-TOCTitle: Atribuir uma política de chat persistente por usuário
-ms:assetid: e22168f2-fde1-4f0a-b194-1fc881436822
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721908(v=OCS.15)
-ms:contentKeyID: 49886441
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Atribuir uma política de chat persistente por usuário
+title: 'Lync Server 2013: atribuir uma política de chat persistente por usuário'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign a per-user Persistent Chat policy
+ms:assetid: e22168f2-fde1-4f0a-b194-1fc881436822
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721908(v=OCS.15)
+ms:contentKeyID: 49733842
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 081e6724f5df2389a8ef89e83b2df91b49a1b991
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844995"
+---
+# <a name="assign-a-per-user-persistent-chat-policy-in-lync-server-2013"></a>Atribuir uma política de chat persistente por usuário no Lync Server 2013
 
  
 
-_**Tópico modificado em:** 2013-02-22_
 
-É possível atribuir uma política de chat persistente por usuário no Painel de Controle do Lync Server 2013 ou Shell de Gerenciamento do Lync Server 2013. Para obter detalhes sobre como criar políticas de usuário para o Servidor de Chat Persistente, consulte [Criar uma política de usuário para Chat Persistente no Lync Server 2013](lync-server-2013-create-a-user-policy-for-persistent-chat.md).
+Você pode atribuir uma política de chat persistente por usuário com o painel de controle do Lync Server 2013 ou o Shell de gerenciamento do Lync Server 2013. Para obter detalhes sobre como criar políticas de usuário para o servidor de chat persistente, consulte [criar uma política de usuário para chat persistente no Lync Server 2013](lync-server-2013-create-a-user-policy-for-persistent-chat.md).
 
-## Para atribuir uma política de chat persistente por usuário no Painel de Controle do Lync Server
+## <a name="to-assign-a-per-user-persistent-chat-policy-with-lync-server-control-panel"></a>Para atribuir uma política de chat persistente por usuário com o painel de controle do Lync Server
 
 1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Na barra de navegação esquerda, clique em **Usuários**.
 
@@ -48,57 +55,59 @@ _**Tópico modificado em:** 2013-02-22_
     
     5.  Clique em **Localizar**.
 
-6.  Clique em um usuário nos resultados da pesquisa, clique em **Ação** e em **Atribuir políticas**.
+6.  Clique em um usuário nos resultados da pesquisa, clique em **Ação** e em seguida, clique em **Atribuir políticas**.
     
 
     > [!TIP]  
-    > Se você deseja aplicar a mesma política de Chat persistente para usuários múltiplos, selecione os usuários nos resultados da pesquisa e clique em <STRONG>Ações</STRONG> e em <STRONG>Atribuir políticas</STRONG>.
+    > Se quiser que a mesma política de chat persistente por usuário seja aplicada a vários usuários, selecione vários usuários nos resultados da pesquisa, clique em <STRONG>ações</STRONG>e, em seguida, clique em <STRONG>atribuir políticas</STRONG>.
 
 
 
-7.  Em **Atribuir políticas**, em **Política de Chat persistente**, siga um destes procedimentos:
+7.  Em **atribuir políticas**, em **política de chat persistente**, siga um destes procedimentos:
     
+
     > [!NOTE]  
-    > Como há várias políticas que você pode configurar usando a caixa de diálogo <strong>Atribuir políticas</strong>, <strong>&lt;Manter como está&gt;</strong> é selecionado por padrão para cada política na caixa de diálogo. Continue usando a política atribuída anteriormente ao usuário para não realizar alterações desta configuração.    
-      - Selecione **\<Automático\>** para permitir que o Lync Server 2013 escolha automaticamente a política a nível global ou, se definida, a política a nível de site.
+    > Como há várias diretivas que você pode configurar usando a caixa de diálogo <STRONG>atribuir políticas</STRONG> , <STRONG> &lt;manter como está&gt; </STRONG> selecionado por padrão para cada política na caixa de diálogo. Continue usando a política atribuída anteriormente ao usuário não realizando alterações nesta configuração.
+
     
-      - Clique no nome de uma política de chat persistente por usuário definida anteriormente na página **Política de chat persistente**.
+      - Selecione ** \<automático\> ** para permitir que o Lync Server 2013 escolha automaticamente a política de nível global ou, se definida, a política de nível de site.
+    
+      - Clique no nome de uma política de chat persistente por usuário definida anteriormente na página **política de chat persistente** .
         
 
         > [!TIP]  
-        > Para ajudar a decidir a política que deseja atribuir, após clicar no nome da política, clique em <STRONG>Exibir</STRONG> para ver os direitos e permissões do usuário definidos na política.
+        > Para ajudar a decidir a política que deseja atribuir, após clicar no nome da política, clique em <STRONG>Exibir</STRONG> para visualizar os direitos e permissões do usuário definidos na política.
 
 
 
 8.  Ao concluir, clique em **OK**.
 
-## Atribuir uma política de chat persistente por usuário utilizando cmdlets do Lync Server PowerShell
+## <a name="assigning-a-per-user-persistent-chat-policy-by-using-windows-powershell-cmdlets"></a>Atribuir uma política de chat persistente por usuário usando cmdlets do Windows PowerShell
 
-As políticas de chat persistente por usuário também pode ser atribuídas utilizando o Lync Server PowerShell e o cmdlet Grant-CsPersistentChatPolicy. Este cmdlet pode ser executado do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
+Você também pode atribuir políticas de bate-papo persistentes por usuário usando o cmdlet **Grant-CsPersistentChatPolicy** . Você pode executar esse cmdlet a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
 
-## Atribuir uma política de chat persistente por usuário a um único usuário
+## <a name="to-assign-a-per-user-persistent-chat-policy-to-a-single-user"></a>Para atribuir uma política de chat persistente por usuário a um único usuário
 
-  - O seguinte comando atribui a política de Chat persistente RedmondPersistentChatPolicy para o usuário Ken Myer.
+  - O comando a seguir atribui a política de chat persistente por usuário RedmondPersistentChatPolicy ao usuário Ken Myer.
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName "RedmondPersistentChatPolicy"
 
-## Atribuir uma política de chat persistente por usuário a vários usuários
+## <a name="to-assign-a-per-user-persistent-chat-policy-to-multiple-users"></a>Para atribuir uma política de chat persistente por usuário a vários usuários
 
-  - Este comando atribui a política de chat persistente por usuário RedmondUsersPersistentChatPolicy a todos os usuários que trabalham no departamento de TI. Para obter mais informações sobre o parâmetro LdapFilter usado neste comando, consulte a documentação para o cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
+  - Esse comando atribui a política de chat persistente por usuário RedmondUsersPersistentChatPolicy a todos os usuários que trabalham para o departamento de ti. Para obter mais informações sobre o parâmetro LdapFilter usado neste comando, consulte a documentação do cmdlet [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) .
     
         Get-CsUser -LdapFilter "Department=IT" | Grant-CsPersistentChatPolicy -PolicyName "RedmondUsersPersistentChatPolicy"
 
-## Retirar atribuição de uma política de chat persistente por usuário
+## <a name="to-unassign-a-per-user-persistent-chat-policy"></a>Para cancelar a atribuição de uma política de chat persistente por usuário
 
-  - O seguinte comando retira a atribuição de qualquer política de chat persistente por usuário atribuída anteriormente à Ken Myer. Após a política por usuário ser retirada, Ken Myer irá automaticamente ser gerenciado utilizando a política global ou, se existir, sua política de site local. Uma política de site tem precedência sobre a política global.
+  - O comando a seguir não atribui atribuições de qualquer política de chat persistente por usuário atribuída anteriormente a Ken Myer. Após a política por usuário ser retirada, Ken irá automaticamente ser gerenciado usando a política global ou, se existir, sua política de site local. Uma política de site tem precedência sobre a política global.
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Grant-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPersistentChatPolicy).
+Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Grant-CsPersistentChatPolicy](https://technet.microsoft.com/en-us/library/jj204907\(v=ocs.15\)) .
 
-## Consulte Também
+## <a name="see-also"></a>Confira também
 
-#### Conceitos
 
 [Criar uma política de usuário para Chat Persistente no Lync Server 2013](lync-server-2013-create-a-user-policy-for-persistent-chat.md)
 

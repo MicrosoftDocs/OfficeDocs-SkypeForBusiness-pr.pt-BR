@@ -1,45 +1,86 @@
-﻿---
-title: Atualizar servidores Front End no Lync Server 2013
-TOCTitle: Atualizar servidores Front End no Lync Server 2013
-ms:assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204736(v=OCS.15)
-ms:contentKeyID: 49306106
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: atualizar ou atualizar servidores front-end'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Upgrade or update Front End Servers
+ms:assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204736(v=OCS.15)
+ms:contentKeyID: 48183597
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 99c91a4f5fcae9f8d78bf01b19a17795916fb660
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844559"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Atualizar servidores Front End no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-06-28_
+# <a name="upgrade-or-update-front-end-servers-in-lync-server-2013"></a>Upgrade or update Front End Servers in Lync Server 2013
 
-Os Servidores Front End em um pool do Enterprise Edition são organizados nos *domínios de atualização*. Estes são subconjuntos de Servidores de Front-End no pool. Os domínios de atualização são criados automaticamente pelo Construtor de Topologias.
+</div>
 
-Ao atualizar servidores, é necessário fazer um Domínio de Atualização por vez. Desative um servidor, atualize-o e reinicie antes de atualizar outro servidor. Certifique-se de manter um registro de quais Domínios de Atualização e Servidores já foram atualizados. Use o seguinte fluxograma ao atualizar cada servidor.
+<div id="mainSection">
 
-![Fluxograma do servidor de atualização](images/JJ204736.42ed59a4-1c26-49f7-ade4-a5a788457ab9(OCS.15).jpg "Fluxograma do servidor de atualização")
+<div id="mainBody">
 
-## Para aplicar uma atualização aos servidores Front End em um pool
+<span> </span>
 
-1.  Em um Servidor de Front-End no pool, execute o seguinte cmdlet:
+_**Tópico da última modificação:** 2013-06-28_
+
+Os servidores de front-end em um pool da edição Enterprise são organizados em *domínios de atualização*. Esses são subconjuntos de servidores front-end no pool. Os domínios de atualização são criados automaticamente pelo construtor de topologias.
+
+Ao atualizar os servidores, você deve fazer um domínio de atualização de cada vez. Coloque cada servidor em um domínio de atualização abaixo, atualize-o e reinicie-o antes de passar para outro domínio de atualização. Certifique-se de acompanhar quais domínios e servidores de atualização você atualizou até agora. Use o diagrama de fluxograma a seguir ao atualizar cada servidor.
+
+![42ed59a4-1c26-49f7-ade4-a5a788457ab9] (images/JJ204736.42ed59a4-1c26-49f7-ade4-a5a788457ab9(OCS.15).jpg "42ed59a4-1c26-49f7-ade4-a5a788457ab9")
+
+<div>
+
+## <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>Para aplicar uma atualização aos servidores Front-End em um pool
+
+1.  Em um servidor front-end do pool, execute o seguinte cmdlet:
     
     **Get-CsPoolUpgradeReadinessState**
     
-    Se o valor de *PoolUpgradeState* for **Busy**, aguarde 10 minutos e tente **Get-CsPoolUpgradeReadinessState** novamente. Se você vir **Busy** por pelo menos três vezes consecutivas, aguarde 10 minutos entre cada tentativa, ou se vir qualquer resultado do **InsufficientActiveFrontEnds** para **PoolUpgradeState,** há um problema com o pool. Se esse pool estiver emparelhado com outro pool de Front End em uma topologia de recuperação de desastres, deve falhar o pool sobre o pool de backup e atualizar os servidores neste pool. Para obter detalhes, consulte [Fazendo failover de um pool no Lync Server 2013](lync-server-2013-failing-over-a-pool.md).
+    Se o valor de *PoolUpgradeState* estiver **ocupado**, aguarde 10 minutos e tente **Get-CsPoolUpgradeReadinessState** novamente. Se você vir **ocupado** pelo menos três vezes consecutivos, após esperar 10 minutos entre cada tentativa, ou se vir qualquer resultado de **InsufficientActiveFrontEnds** para **PoolUpgradeState,** há um problema com o pool. Se esse pool estiver emparelhado com outro pool de front-ends em uma topologia de recuperação de desastre, você deverá fazer failover do pool para o pool de backup e, em seguida, atualizar os servidores nesse pool. Para obter detalhes, consulte [falha em um pool no Lync Server 2013](lync-server-2013-failing-over-a-pool.md).
     
-    Se o valor de *PoolUpgradeState* é **Pronto**, vá para a etapa 2.
+    Se o valor de *PoolUpgradeState* estiver **pronto**, vá para a etapa 2.
 
-2.  O cmdlet **Get-CsPoolUpgradeReadinessState** também retorna informações sobre cada domínio de atualização no pool e sobre quais Servidores de Front-End estão em cada domínio de atualização. Se o valor **ReadyforUpgrade** for **True** para o domínio de atualização que contém o servidor que você deseja atualizar, é possível atualizar com segurança este servidor no momento. Para fazer isso, execute:
+2.  O cmdlet **Get-CsPoolUpgradeReadinessState** também retorna informações sobre cada domínio de atualização do pool e sobre quais servidores de front-end estão em cada domínio de atualização. Se o valor de **ReadyforUpgrade** for **verdadeiro** para o domínio de atualização que contém o servidor ou servidores que você deseja atualizar, você pode atualizar os servidores com segurança agora. Para fazer isso, faça o seguinte:
     
-    1.  Pare as novas conexões do Servidor de Front-End usando o cmdlet `Stop-CsWindowsService -Graceful -Verbose`.
+    1.  Pare as novas conexões com os servidores front end que você vai atualizar usando o `Stop-CsWindowsService -Graceful -Verbose` cmdlet.
         
-        > [!NOTE]  
-        > Se essas atualizações de servidor estiverem acontecendo durante uma parada programada do servidor, é possível executar este cmdlet sem o parâmetro ‘-<strong>Graceful</strong>‘, da seguinte forma: <strong>Stop-CsWindowsService</strong>. Assim, os serviços são imediatamente interrompidos, sem esperar que todas as solicitações de serviços existentes sejam atendidas.    
-    2.  Atualize os servidores associados a este Domínio de Atualização.
-    
-    3.  Reinicie os servidores e certifique-se de que estão aceitando novas conexões.
+        <div>
+        
 
-3.  Repita as Etapas 1 e 2 para cada Domínio de Atualização no pool, até que todos os Servidores Front-End tenham sido atualizados.
+        > [!NOTE]  
+        > Se você estiver executando essas atualizações do servidor durante um tempo de inatividade do servidor programado, poderá executar esse cmdlet sem o parâmetro '-<STRONG>normal</STRONG>', da seguinte maneira: <STRONG>Stop-CsWindowsService</STRONG>. Isso encerrará imediatamente os serviços, sem esperar que todas as solicitações de serviço existentes sejam preenchidas.
+
+        
+        </div>
+    
+    2.  Atualize os servidores associados a este domínio de atualização.
+    
+    3.  Reinicie os servidores e certifique-se de que eles estejam aceitando novas conexões.
+
+3.  Repita as etapas 1 e 2 para cada outro domínio de atualização do pool, até que todos os servidores front end tenham sido atualizados.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

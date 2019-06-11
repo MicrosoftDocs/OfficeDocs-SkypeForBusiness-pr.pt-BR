@@ -1,37 +1,71 @@
-﻿---
-title: 'Lync Server 2013: Verificar acesso por meio de seu proxy reverso'
-TOCTitle: Verificar acesso por meio de seu proxy reverso
-ms:assetid: 3076a786-e022-4d41-91ec-1bf252b2a468
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg429697(v=OCS.15)
-ms:contentKeyID: 49306291
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Verificar acesso por meio de seu proxy reverso'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Verify access through your reverse proxy
+ms:assetid: 3076a786-e022-4d41-91ec-1bf252b2a468
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429697(v=OCS.15)
+ms:contentKeyID: 48183753
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e35e3908f66952b0e631484efa590bcd76fc0456
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844440"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Verificar acesso por meio de seu proxy reverso no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-03-29_
+# <a name="verify-access-through-your-reverse-proxy-in-lync-server-2013"></a>Verificar acesso por meio de seu proxy reverso no Lync Server 2013
 
-Execute o procedimento a seguir para verificar se os usuários podem acessar informações no proxy reverso. Talvez seja necessário concluir a configuração do firewall e do DNS (Sistema de Nomes de Domínio) para que o acesso funcione corretamente.
+</div>
 
-## Para verificar se você pode acessar o site via Internet
+<div id="mainSection">
 
-  - Abra um navegador da Web e, na barra **Endereço** , digite as URLs que são usadas pelos clientes para acessar os arquivos do Catálogo de Endereços e o site de Webconferências da seguinte forma:
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-03-29_
+
+Use o procedimento a seguir para verificar se os usuários podem acessar informações no proxy reverso. Talvez seja necessário concluir a configuração do firewall e a configuração do sistema de nome de domínio (DNS) antes de o Access funcionar corretamente.
+
+<div>
+
+## <a name="to-verify-that-you-can-access-the-website-through-the-internet"></a>Para verificar se você pode acessar o site pela Internet
+
+  - Abra um navegador da Web, digite as URLs na barra de **endereços** que os clientes usam para acessar os arquivos do catálogo de endereços e o site para conferência da seguinte maneira:
     
-      - Para o Servidor de Catálogo de Endereços, digite uma URL parecida com a seguinte: **https:// *externalwebfarmFQDN* /abs** onde *externalwebfarmFQDN* é o FQDN externo dos serviços da Web externos que hospeda os serviços do Catálogo de Endereço. O usuário deve receber um desafio HTTP, pois a segurança do diretório na pasta do Servidor de Catálogo de Endereço está configurada para autenticação do Windows por padrão.
+      - Para o servidor do catálogo de endereços, digite uma URL semelhante à **https://externalwebfarmFQDN/abs** seguinte: onde externalwebfarmFQDN é o FQDN externo dos serviços Web externos que hospeda os serviços de catálogo de endereços. O usuário deve receber um desafio HTTP porque a segurança do diretório na pasta do servidor do catálogo de endereços está configurada como autenticação do Windows por padrão.
     
-      - Para conferência, digite uma URL parecida com a seguinte: **https:// *externalwebfarmFQDN* /meet** onde *externalwebfarmFQDN* é o FQDN externo do web farm que hospeda o conteúdo da reunião. Essa URL deve exibir a página de solução de problemas para conferência. Em alternativa, confirme que sua URL Simples para conferência funcione corretamente. Uma URL Simples de exemplo para participar da conferência pode ser https://meet.contoso.com.
+      - Em conferência, digite uma URL semelhante à seguinte: **https://externalwebfarmFQDN/meet** onde externalwebfarmFQDN é o FQDN externo do Web farm que hospeda o conteúdo da reunião. Esta URL deve exibir a página de solução de problemas para conferência. Se preferir, confirme se sua URL simples para a conferência funciona corretamente. Um exemplo de URL simples para a junção em conferência pode serhttps://meet.contoso.com
     
-      - Para expansão do grupo de distribuição, digite uma URL parecida com a seguinte: **https:// *externalwebfarmFQDN* /GroupExpansion/service.svc**. O usuário deve receber um desafio HTTP, pois a segurança do diretório no serviço de expansão do grupo de distribuição está configurada para autenticação do Windows por padrão.
+      - Para expansão do grupo de distribuição, digite uma URL semelhante à seguinte **https://externalwebfarmFQDN/GroupExpansion/service.svc**:. O usuário deve receber um desafio HTTP porque a segurança de diretório no serviço de expansão do grupo de distribuição é configurada como autenticação do Windows por padrão.
     
-      - Para discagem, digite a URL simples semelhante à seguinte **https:// *externalwebfarmFQDN* /dialin** onde *externalwebfarmFQDN* é o FQDN externo no farm da web que hospeda a página de discagem para conferência discada. O usuário deve ser redirecionado para a página de discagem. Em alternativa, confirme que sua discagem de URL simples funcione corretamente. Uma URL Simples de exemplo para discagem pode ser https://dialin.contoso.com
+      - Para discagem, digite a URL simples semelhante à seguinte **https://externalwebfarmFQDN/dialin** em que externalwebfarmFQDN é o FQDN externo do Web farm que hospeda a página de discagem para conferência discada. O usuário deve ser direcionado para a página de discagem. Como alternativa, confirme se a sua URL simples de discagem funciona corretamente. Um exemplo de URL simples para discagem pode serhttps://dialin.contoso.com
     
-      - Para confirmar que a URL de descoberta automática esteja funcionando, digite https://lyncdiscover. *FQDNdodomínioexterno* . O navegador deverá solicitar que você abra um arquivo. Selecione o Bloco de Notas para abri-lo. Uma resposta típica seria semelhante a:
+      - Para confirmar se a URL da descoberta automática está funcionando, https://lyncdiscoverdigite. externaldomainFQDN. O navegador deve solicitar a abertura de um arquivo. Selecione bloco de notas para abri-lo. Uma resposta típica seria semelhante a:
         
             {"AccessLocation":"External","Root":{"Links":[{"href":"https:\/\/extweb.contoso.com\/Autodiscover\/AutodiscoverService.svc\/root\/domain","token":"Domain"},
             {"href":"https:\/\/extweb.contoso.com\/Autodiscover\/AutodiscoverService.svc\/root\/user","token":"User"},
             {"href":"https:\/\/lyncweb.contoso.com\/Autodiscover\/AutodiscoverService.svc\/root\/oauth\/user","token":"OAuth"}]}}
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

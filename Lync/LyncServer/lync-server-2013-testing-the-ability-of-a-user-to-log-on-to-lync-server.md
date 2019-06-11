@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing the ability of a user to log on to Lync Server'
+---
+title: 'Lync Server 2013: testando a capacidade de um usuário para fazer logon no Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing the ability of a user to log on to Lync Server
 ms:assetid: d9cd0f9b-6ef2-4050-a4ca-263c5afa93ee
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn743841(v=OCS.15)
-ms:contentKeyID: 62279301
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743841(v=OCS.15)
+ms:contentKeyID: 63969655
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: adf6cae2899d08765faf5d605ea20ae111f395ce
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844617"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing the ability of a user to log on to Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Testar a capacidade de um usuário para fazer logon no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-06-05_
 
 
 <table>
@@ -23,115 +43,141 @@ _**Tópico modificado em:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Cronograma de verificação</p></td>
+<td><p>Diário</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de Gerenciamento do Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsRegistration cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permissões necessárias</p></td>
+<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet Test-CsRegistration. Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsRegistration&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsRegistration cmdlet enables you to verify that users in your organization can log on to Lync Server. When you run Test-CsRegistration, the cmdlet attempts to sign in a test user to Lync Server and then, if it is successful, disconnects that test user from the system. All of this happens without any user interaction, and without affecting any actual users. For example, suppose that the test account sip:kenmyer@litwareinc.com corresponds to a real user who has a real Lync Server account. In that case, the test will be conducted without any disruption to the real Ken Myer. When the Ken Myer test account logs off from the system, Ken Myer the person will remain logged on.
+## <a name="description"></a>Descrição
 
-## Running the test
+O cmdlet Test-CsRegistration permite que você verifique se os usuários em sua organização podem fazer logon no Lync Server. Ao executar Test-CsRegistration, o cmdlet tenta se conectar a um usuário de teste ao Lync Server e, se tiver êxito, desconectará o usuário de teste do sistema. Tudo isso acontece sem qualquer interação do usuário e sem afetar os usuários reais. Por exemplo, suponha que o sip:kenmyer@litwareinc.com da conta de teste corresponda a um usuário real que tenha uma conta real do Lync Server. Nesse caso, o teste será realizado sem qualquer interrupção no Ken Myer verdadeiro. Quando a conta de teste de Ken Myer é desconectada do sistema, Ken Myer a pessoa permanecerá conectada.
 
-The Test-CsRegistration cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server. To run this check using a test account, you just have to specify the FQDN of the Lync Server Registrar pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Executar o teste
+
+O cmdlet Test-CsRegistration pode ser executado usando uma conta de teste pré-configurada (consulte Configurando contas de teste para executar testes do Lync Server) ou a conta de qualquer usuário habilitado para o Lync Server. Para executar essa verificação usando uma conta de teste, basta especificar o FQDN do pool de registradores do Lync Server que está sendo testado. Por exemplo:
 
     Test-CsRegistration -TargetFqdn "atl-cs-001.litwareinc.com"
 
-To run this check using an actual user account, you must first create a Windows PowerShell credentials object that contains the account name and password. You must then include that credentials object and the SIP address assigned to the account when you call Test-CsRegistration:
+Para executar essa verificação usando uma conta de usuário real, primeiro você deve criar um objeto de credenciais do Windows PowerShell que contenha o nome da conta e a senha. Em seguida, você deve incluir esse objeto de credenciais e o endereço SIP atribuído à conta ao chamar Test-CsRegistration:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsRegistration -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsRegistration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsRegistration) cmdlet.
+Para obter mais informações, consulte a documentação da ajuda para o cmdlet [Test-CsRegistration](https://docs.microsoft.com/powershell/module/skype/Test-CsRegistration) .
 
-## Determining success or failure
+</div>
 
-If the specified user can log on to (and then log off from) Lync Server, you'll receive output similar to this with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
 
-Result : Success
+Se o usuário especificado puder fazer logon (e, em seguida, fazer logoff do) Lync Server, você receberá uma saída semelhante a isso com a propriedade Result marcada como **Success:**
 
-Latency : 00:00:06.8630376
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+Resultado: êxito
 
-Diagnosis :
+Latência: 00:00:06.8630376
 
-If the specified user can't log in or log out, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+Erros
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Correto
 
-Result : Failure
+Se o usuário especificado não puder entrar ou fazer logoff, o resultado será mostrado como uma falha, e informações adicionais serão gravadas nas propriedades de erro e diagnóstico:
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error : 404, Not Found
+Resultado: falha
 
-Diagnosis : ErrorCode=1003,source=atl-cs-001.litwareinc.com,Reason=User does
+Latência: 00:00:00
 
-not exist
+Erro: 404, não encontrado
 
-Microsoft.Rtc.Signaling.DiagnosticHeader
+Diagnóstico: ErrorCode = 1003, Source = ATL-cs-001. litwareinc. com, Reason = o usuário faz
 
-For example, the previous output states that the test failed because the specified user couldn't be found. You can determine whether or not a SIP address is valid (and whether the user assigned that SIP address is enabled for Lync Server) by running this command:
+Não existe
+
+Microsoft. RTC. Signaling. DiagnosticHeader
+
+Por exemplo, a saída anterior informa que o teste falhou porque o usuário especificado não foi encontrado. Você pode determinar se um endereço SIP é válido (e se o usuário que atribuiu esse endereço SIP está habilitado para o Lync Server) executando este comando:
 
     Get-CsUser "sip:kenmyer@litwareinc.com"
 
-If Test-CsRegistration fails, then you might want to rerun the test, this time including the Verbose parameter:
+Se Test-CsRegistration falhar, talvez você queira executar novamente o teste, desta vez, incluindo o parâmetro Verbose:
 
     Test-CsRegistration -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-When the Verbose parameter is included, Test-CsRegistration will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server. For example:
+Quando o parâmetro Verbose estiver incluído, Test-CsRegistration retornará uma conta passo a passo de cada ação que tentou verificar quando verificou a capacidade do usuário especificado para fazer logon no Lync Server. Por exemplo:
 
-VERBOSE: 'Register' activity started.
+VERBOse: atividade de ' registro ' iniciada.
 
-Sending Registration request:
+Enviando solicitação de registro:
 
-Target Fqdn = atl-cs-011.litwareinc.com
+FQDN de destino = atl-cs-011.litwareinc.com
 
-User Sip Address = sip:kenmyer@litwareinc.com
+Endereço SIP do usuário = sip:kenmyer@litwareinc.com
 
-Registrar Port = 5061.
+Porta do registrador = 5061.
 
-Auth Type 'Trusted' is selected.
+O tipo de autenticação "confiável" está selecionado.
 
-An exception 'The endpoint is unable to register. See the ErrorCode for specific reason' occurred during Workflow Microsoft.Rtc.SyntheticTransactions.Workflow.STRegistrerWorkflow execution.
+Uma exceção ' o ponto de extremidade não pode se registrar. Veja o código de erro por motivo específico ' durante a execução do fluxo de trabalho Microsoft. RTC. SyntheticTransactions. Workflow. STRegistrerWorkflow.
 
-Exception Call Stack: at Microsoft.Rtc.Signaling.SipAsyncResult'1.ThrowIfFailed()
+Pilha de chamadas de exceção: em Microsoft. RTC. Signaling. SipAsyncResult'1. ThrowIfFailed ()
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsRegistration might fail:
+<div>
 
-  - You specified an incorrect user account. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
+
+Aqui estão alguns motivos comuns pelos quais Test-CsRegistration pode falhar:
+
+  - Você especificou uma conta de usuário incorreta. Você pode verificar se existe uma conta de usuário executando um comando semelhante a este:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account is enabled for Lync Server, run a command similar to the following:
+  - A conta de usuário é válida, mas a conta não está habilitada no momento para o Lync Server. Para verificar se uma conta de usuário está habilitada para o Lync Server, execute um comando semelhante ao seguinte:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.
+    Se a propriedade Enabled estiver definida como false, isso significa que o usuário não está habilitado no momento para o Lync Server.
 
-  - You specified an incorrect Registrar pool. You can return the FQDNs of your Registrar pools by using this command:
+  - Você especificou um pool de registradores incorreto. Você pode retornar os FQDNs dos seus pools de registradores usando este comando:
     
         Get-CsService -Registrar | Select-Object PoolFqdn
 
-  - The Registrar pool is currently not available. Try pinging the pool to see whether it responds:
+  - No momento, o pool de registradores não está disponível. Tente executar o ping no pool para ver se ele responde:
     
         ping atl-cs-001.litwareinc.com
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

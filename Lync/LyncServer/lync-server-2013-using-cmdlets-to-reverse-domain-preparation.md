@@ -1,27 +1,49 @@
-﻿---
-title: 'Lync Server 2013: Usando cmdlets para reverter a preparação do domínio'
-TOCTitle: Usando cmdlets para reverter a preparação do domínio
-ms:assetid: 014dba5d-fcb3-44c9-9d63-ae0755276dac
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398071(v=OCS.15)
-ms:contentKeyID: 49305670
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Usando cmdlets para reverter a preparação do domínio'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using cmdlets to reverse domain preparation
+ms:assetid: 014dba5d-fcb3-44c9-9d63-ae0755276dac
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398071(v=OCS.15)
+ms:contentKeyID: 48183227
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0b03ab3218a1568613731efe60eaa95b05a91ebc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844490"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Usando cmdlets para reverter a preparação do domínio para o Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-29_
+# <a name="using-cmdlets-to-reverse-domain-preparation-for-lync-server-2013"></a>Usando cmdlets para reverter a preparação do domínio para o Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-29_
 
 Use o cmdlet **Disable-CsAdDomain** para reverter a etapa de preparação do domínio.
 
-## Para usar cmdlets para reverter a preparação de domínio
+<div>
 
-1.  Faça logon em qualquer servidor no domínio como membro do grupo Admins. do domínio.
+## <a name="to-use-cmdlets-to-reverse-domain-preparation"></a>Para usar cmdlets para reverter a preparação do domínio
 
-2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+1.  Faça logon em qualquer servidor do domínio como membro do grupo Domain admins.
+
+2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
 
 3.  Execute:
     
@@ -32,19 +54,39 @@ Use o cmdlet **Disable-CsAdDomain** para reverter a etapa de preparação do dom
     
         Disable-CsAdDomain -Domain domain1.contoso.net -GlobalSettingsDomainController dc01.domain1.contoso.net -Force
     
-    Se o parâmetro Force estiver presente, a preparação do domínio é revertido, mesmo se um ou mais Servidores Front-End ou Servidores de Conferência A/V no domínio público estiverem ativados. Se o parâmetro Force não estiver presente, a preparação do domínio revertido é finalizado caso qualquer Servidores Front-End ou Servidores de Conferência A/V no domínio estivere ativado.
+    Se o parâmetro Force estiver presente, a preparação do domínio será revertida, mesmo se um ou mais servidores front-end ou servidores de conferência A/V do domínio estiverem ativados. Se o parâmetro Force não estiver presente, a reversão de preparação do domínio será terminada se qualquer servidor front-end ou servidores de conferência a/V do domínio estiverem ativados.
     
+    <div>
+    
+
     > [!NOTE]  
-    > O parâmetro GlobalSettingsDomainController permite que você indique onde as configurações globais estão armazenadas. Se suas configurações estão armazenadas no contêiner Sistema (o que é normal com implantações atualizadas que não tiveram a configuração global migrada para o contêiner Configuração), você define um controlador de domínio na raiz de sua floresta Active Directory. Caso as configurações globais estejam no contêiner Configuração (o que é normal com novas implantações ou implantações atualizadas onde as configurações foram migradas para o contêiner Configuração), você define qualquer controlador de domínio na floresta. Caso você não especifique este parâmetro, o cmdlet presume que as configurações estão armazenadas no contêiner Configuração e faz referência a qualquer controlador de domínio no AD DS.
+    > O parâmetro GlobalSettingsDomainController permite que você indique onde as configurações globais são armazenadas. Se as configurações estiverem armazenadas no contêiner do sistema (que é típico com implantações de atualização que não tiveram a configuração global migrada para o contêiner de configuração), defina um controlador de domínio na raiz da sua floresta do Active Directory. Se as configurações globais estiverem no contêiner Configuração (o que é normal em implantações novas ou em implantações de atualização nas quais as configurações foram migradas para o contêiner Configuração), defina qualquer controlador de domínio na floresta. Se você não especificar esse parâmetro, o cmdlet pressupõe que as configurações são armazenadas no contêiner de configuração e se refere a qualquer controlador de domínio no&nbsp;AD DS.
 
+    
+    </div>
 
-## Consulte Também
+</div>
 
-#### Tarefas
+<div>
+
+## <a name="see-also"></a>Confira também
+
 
 [Executando preparação de domínio para Lync Server 2013](lync-server-2013-running-domain-preparation.md)  
 
-#### Outros Recursos
 
-[Preparando domínios para Server 2013](lync-server-2013-preparing-domains.md)
+[Preparando domínios para Server 2013](lync-server-2013-preparing-domains.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

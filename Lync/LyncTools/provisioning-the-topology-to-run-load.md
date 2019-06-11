@@ -1,49 +1,83 @@
-﻿---
-title: Provisioning the Topology to Run Load
+---
+title: Provisionando a topologia para executar a carga
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
 TOCTitle: Provisioning the Topology to Run Load
 ms:assetid: 6fba03df-3914-4d2a-8208-e252ad993aff
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ945598(v=OCS.15)
-ms:contentKeyID: 52057782
-ms.date: 06/25/2014
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945598(v=OCS.15)
+ms:contentKeyID: 51541424
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 026915b4a08073e96d29b32278adc4e260eaaea4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34845050"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Provisioning the Topology to Run Load
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-04_
+# <a name="provisioning-the-topology-to-run-load"></a>Provisionando a topologia para executar a carga
 
-## Provisioning the Topology to Run Load
+</div>
 
-Depending on your existing settings and configuration of Lync Server 2013, you may need to make the following changes in your environment:
+<div id="mainSection">
 
-1.  Set the Windows PowerShell execution policy to Unrestricted. To check your execution policy settings, open the Shell de Gerenciamento do Lync Server and run the following command:
-    
-       ```PowerShell
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-04_
+
+<div>
+
+## <a name="provisioning-the-topology-to-run-load"></a>Provisionando a topologia para executar a carga
+
+Dependendo das configurações e da configuração existentes do Lync Server 2013, talvez seja necessário fazer as seguintes alterações no seu ambiente:
+
+1.  Defina a política de execução do Windows PowerShell como Irrestrito. Para verificar suas configurações de política de execução, abra o Shell de gerenciamento do Lync Server e execute o seguinte comando:
+
+    ``` powershell
         Get-ExecutionPolicy
-       ```
-    
-    If this command does not return the value Unrestricted, run this command:
-    
-       ```PowerShell
+    ```        
+
+    Se esse comando não retornar o valor irrestrito, execute este comando:
+
+    ``` powershell
         Set-ExecutionPolicy -Unrestricted
-       ```
+    ```
 
-2.  To effectively configure Lync Server 2013, you will need to:
+2.  Para configurar efetivamente o Lync Server 2013, será necessário:
     
-      - Be familiar with Lync Server 2013 topology (for example, computer names, service instances, site names, and policies).
+      - Familiarize-se com a topologia do Lync Server 2013 (por exemplo, nomes de computador, instâncias de serviço, nomes de site e políticas).
     
-      - Assign some of the users that were created to groups, such as Response Group hunt groups (for example, SIP URIs).
+      - Atribua alguns dos usuários que foram criados a grupos, como os números coletivos de grupos de resposta (por exemplo, URIs SIP).
 
-3.  To run the script from the command line, you may use:
-    
-       ```PowerShell
+3.  Para executar o script a partir da linha de comando, você pode usar:
+
+    ``` powershell
         Powershell.exe -file <path to the file>
-       ```
+    ```
+    
+4.  Normalmente, após a execução de um dos scripts neste pacote, os rastreamentos resultantes do script serão armazenados em um arquivo no mesmo caminho a partir do qual o script foi invocado \<, chamado\>scriptname $h $ m $ s. txt. Por exemplo, executando ArchivingPolicy. ps1 às 12:15 P.M. vai gerar um arquivo de log, como ArchivingPolicy121500. txt.
 
-4.  Typically, after one of the scripts in this package runs, the resulting traces from the script will be stored in a file in the same path from which the script was invoked, named \<scriptname\>$h$m$s.txt. For example, running ArchivingPolicy.ps1 at 12:15 P.M. will generate a log file such as ArchivingPolicy121500.txt.
+5.  Por fim, observe que, embora possamos fornecer exemplos para configurar o servidor, você é responsável por modificar ou excluir a configuração após concluir a execução da carga.
 
-5.  Finally, note that although we have provided examples to configure the server, you are responsible for modifying or deleting the configuration after you have finished running the load.
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

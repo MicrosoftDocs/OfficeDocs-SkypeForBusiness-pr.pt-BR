@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabela Users'
-TOCTitle: Tabela Users
-ms:assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412791(v=OCS.15)
-ms:contentKeyID: 49307732
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabela Users'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Users table
+ms:assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412791(v=OCS.15)
+ms:contentKeyID: 48185032
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6acc63c2271b5ab58e168d0f0f662c6cb3653aac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844519"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabela Users no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="users-table-in-lync-server-2013"></a>Tabela Users no Lync Server 2013
 
-A tabela Users é uma tabela de suporte. Cada registro da tabela armazena informações sobre um usuário envolvido em chamadas ou sessões com registros no banco de dados..
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-28_
+
+A tabela usuários é uma tabela de suporte. Cada registro na tabela armazena informações sobre um usuário envolvido em chamadas ou sessões que têm registros no banco de dados.
 
 
 <table>
@@ -29,7 +49,7 @@ A tabela Users é uma tabela de suporte. Cada registro da tabela armazena inform
 <tr class="header">
 <th>Coluna</th>
 <th>Tipo de dados</th>
-<th>Chave/Índice</th>
+<th>Chave/índice</th>
 <th>Detalhes</th>
 </tr>
 </thead>
@@ -37,33 +57,44 @@ A tabela Users é uma tabela de suporte. Cada registro da tabela armazena inform
 <tr class="odd">
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>datetime</p></td>
-<td><p></p></td>
+<td></td>
 <td><p>Carimbo de data/hora para uso interno.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserId</strong></p></td>
+<td><p><strong>ID</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primário</p></td>
-<td><p>Número único que identifica este usuário.</p></td>
+<td><p>Primária</p></td>
+<td><p>Número exclusivo que identifica esse usuário.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
+<td><p>nvarchar (450)</p></td>
 <td><p> </p></td>
-<td><p>URI do usuário.</p></td>
+<td><p>URI de usuário.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>TenantId</strong></p></td>
+<td><p><strong>Tenantid</strong></p></td>
 <td><p>int</p></td>
-<td><p>Estrangeiro</p></td>
-<td><p>ID de Locatário deste usuário. Consulte a <a href="lync-server-2013-tenants-table.md">Tabela Tenants no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Exterior</p></td>
+<td><p>A ID de locatário deste usuário. Consulte a <a href="lync-server-2013-tenants-table.md">tabela locatários no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Estrangeiro</p></td>
-<td><p>Tipo de URI deste usuário. Consulte a <a href="lync-server-2013-uritypes-table.md">Tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Exterior</p></td>
+<td><p>O tipo de URI deste usuário. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

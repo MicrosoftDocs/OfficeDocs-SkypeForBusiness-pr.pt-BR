@@ -1,41 +1,86 @@
-﻿---
-title: 'Lync Server 2013: Configurar conectividade de mensagens instantâneas públicas'
-TOCTitle: Configurar conectividade de mensagens instantâneas públicas
-ms:assetid: 816dea2a-96fa-4a36-b6c2-a9402675868b
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205041(v=OCS.15)
-ms:contentKeyID: 49307287
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurar conectividade de mensagens instantâneas públicas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up public instant messaging connectivity
+ms:assetid: 816dea2a-96fa-4a36-b6c2-a9402675868b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205041(v=OCS.15)
+ms:contentKeyID: 48184661
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1e77d8914a1f55ac10544591913a7347e271e9de
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844957"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar conectividade de mensagens instantâneas públicas no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-08_
+# <a name="setting-up-public-instant-messaging-connectivity-in-lync-server-2013"></a>Configurar conectividade de mensagens instantâneas públicas no Lync Server 2013
 
-Se sua organização desejar oferecer suporte à conectividade pública de mensagens instantâneas com o AOL, você não pode usar o Assistente de Implantação do Lync Server para solicitar o certificado. Em vez disso, siga o procedimento abaixo.
+</div>
 
-## Configurando a conectividade para redes públicas de mensagens instantâneas
+<div id="mainSection">
 
-1.  Em um servidor front-end, abra o Construtor de Topologias. Expanda os pools de borda e clique com o botão direito do mouse no servidor de borda ou pool de servidores de borda. Selecione Editar propriedades.
+<div id="mainBody">
 
-2.  Em Editar propriedades, em Geral, selecione Habilitar federação para esse pool de borda (porta 5061). Clique em OK.
+<span> </span>
 
-3.  Clique em Ação, selecione Topologia e, depois, Publicar. Quando for consultado sobre a publicação da topologia, clique em Avançar. Quando a publicação estiver concluída, clique em Concluir.
+_**Tópico da última modificação:** 2012-09-08_
 
-4.  No servidor de borda, abra o assistente Implantação do Lync Server. Clique em Instalar ou Atualizar Sistema do Lync Server e, então, clique em Instalar ou Remover Componentes do Lync Server. Clique em Executar Novamente.
+Se a sua organização quiser dar suporte à conectividade de mensagens instantâneas (IM) pública com a AOL, você não poderá usar o assistente de implantação do Lync Server para solicitar o certificado. Em vez disso, siga as etapas do procedimento a seguir.
 
-5.  Em Instalar Componentes do Lync Server, clique em Avançar. A tela de resumo mostrará as ações conforme forem executadas. Depois que a implantação estiver concluída, clique em Exibir Log para exibir os arquivos de log disponíveis. Clique em Concluir para concluir a implantação.
+<div>
 
-## Para criar uma solicitação de certificado para a interface externa do Servidor de Borda para oferecer suporte à conectividade pública de IM com o AOL
+## <a name="setting-up-public-instant-messaging-connectivity"></a>Configurar a conectividade de mensagens instantâneas públicas
 
-1.  Quando o modelo necessário estiver disponível para a autoridade de certificação, use o seguinte cmdlet Windows PowerShell no Servidor de Borda para solicitar o certificado:
+1.  Em um servidor front-end, abra o construtor de topologias. Expanda Pools de bordas e clique com o botão direito do mouse no seu servidor de borda ou no pool do servidor Selecione Editar propriedades.
+
+2.  Em Editar propriedades em geral, selecione Habilitar Federação para este pool de bordas (porta 5061). Clique em OK.
+
+3.  Clique em ação, selecione topologia, selecione publicar. Quando solicitado em publicar a topologia, clique em Avançar. Quando a publicação estiver concluída, clique em concluir.
+
+4.  No servidor de borda, abra o assistente de implantação do Lync Server. Clique em instalar ou atualizar o Lync Server System e, em seguida, clique em configurar ou remover componentes do Lync Server. Clique em executar novamente.
+
+5.  Em configurar componentes do Lync Server, clique em Avançar. A tela Resumo mostrará as ações conforme elas são executadas. Depois que a implantação for concluída, clique em Exibir log para exibir os arquivos de log disponíveis. Clique em concluir para concluir a implantação.
+
+</div>
+
+<div>
+
+## <a name="to-create-a-certificate-request-for-the-external-interface-of-the-edge-server-to-support-public-im-connectivity-with-aol"></a>Para criar uma solicitação de certificado para a interface externa do servidor de borda para dar suporte à conectividade de mensagem de chat pública com a AOL
+
+1.  Quando o modelo obrigatório estiver disponível para a autoridade de certificação, use o seguinte cmdlet do Windows PowerShell no servidor de borda para solicitar o certificado
     
         Request-CsCertificate -New -Type AccessEdgeExternal  -Output C:\ <certfilename.txt or certfilename.csr>  -ClientEku $true -Template <template name>
     
-    O nome do certificado padrão do modelo usado em Lync Server é Servidor Web. Somente especifique o \<nome do modelo\> quando precisar usar um modelo diferente do padrão.
+    O nome de certificado padrão do modelo usado para o Lync Server é o servidor Web. Especifique somente o \<nome\> do modelo se precisar usar um modelo diferente do modelo padrão.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Se sua organização desejar oferecer suporte à conectividade a redes públicas de IM com o AOL, você deverá usar o Windows PowerShell em vez do Assistente de Certificados para solicitar o certificado a ser atribuído à borda externa do serviço de Borda de Acesso. Isso ocorre porque o modelo de Servidor Web da Autoridade (CA) usado pelo Assistente de Certificados para solicitar um certificado não oferece suporte à configuração de cliente EKU. Antes de usar o Windows PowerShell para criar o certificado, o administrador deverá criar e implantar um novo modelo que oferece suporte ao cliente EKU.
+    > Se a sua organização quiser dar suporte à conectividade de mensagem instantânea pública com a AOL, você deve usar o Windows PowerShell em vez do assistente de certificado para solicitar que o certificado seja atribuído à borda externa do serviço de borda de acesso. Isso ocorre porque o modelo de servidor Web da autoridade de certificação (CA) que o assistente de certificado usa para solicitar um certificado não oferece suporte à configuração de EKU de cliente. Antes de usar o Windows PowerShell para criar o certificado, o administrador da CA deve criar e implantar um novo modelo compatível com o EKU do cliente.
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

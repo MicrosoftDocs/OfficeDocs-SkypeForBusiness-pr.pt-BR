@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing database configuration'
+---
+title: 'Lync Server 2013: configuração do banco de dados de teste'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing database configuration
 ms:assetid: 60f7fcd2-5efe-4791-b159-b0f9bf39a41b
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn727307(v=OCS.15)
-ms:contentKeyID: 62388592
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727307(v=OCS.15)
+ms:contentKeyID: 63969606
 ms.date: 07/07/2016
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 805b62e234f7a5469d3af3677ba81478fb3abc8f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844642"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing database configuration in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-07-07_
+# <a name="testing-database-configuration-in-lync-server-2013"></a>Testar a configuração do banco de dados no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2016-07-07_
 
 
 <table>
@@ -23,60 +43,70 @@ _**Tópico modificado em:** 2016-07-07_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Cronograma de verificação</p></td>
+<td><p>Diário</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de Gerenciamento do Lync Server, users must be members of the RTCUniversalServerAdmins security group, and need to have Administrator privileges on the SQL server.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsDatabase</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permissões necessárias</p></td>
+<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins e precisam ter privilégios de administrador no SQL Server.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsDatabase</strong> . Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDatabase&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsDatabase** cmdlet verifies connectivity to one or more Lync Server 2013 databases. When run, the **Test-CsDatabase** cmdlet reads the Lync Server topology, attempts to connect to relevant databases, and then reports back the success or failure of each try. If a connection can be made, the cmdlet will also report back such information as the database name, SQL Server version information, and the location of any installed mirror databases.
+## <a name="description"></a>Descrição
 
-## Running the test
+O cmdlet **Test-CsDatabase** verifica a conectividade de um ou mais bancos de dados do Lync Server 2013. Quando executado, o cmdlet **Test-CsDatabase** lê a topologia do Lync Server, tenta se conectar a bancos de dados relevantes e, em seguida, relata o êxito ou falha de cada tentativa. Se for possível fazer uma conexão, o cmdlet também reportará essas informações como o nome do banco de dados, as informações de versão do SQL Server e o local de todos os bancos de dados espelhados instalados.
 
-The command shown in Example 1 verifies the configuration of the Central Management database.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Executar o teste
+
+O comando mostrado no exemplo 1 verifica a configuração do banco de dados de gerenciamento central.
 
     Test-CsDatabase -CentralManagementDatabase
 
-Example 2 verifies all the Lync Server databases installed on the computer atl-sql-001.litwareinc.com.
+O exemplo 2 verifica todos os bancos de dados do Lync Server instalados no computador atl-sql-001.litwareinc.com.
 
     Test-CsDatabase -ConfiguredDatabases -SqlServerFqdn "atl-sql-001.litwareinc.com"
 
-In Example 3, verification is performed only for the Archiving database installed on the computer atl-sql-001.litwareinc.com. Note that the SqlInstanceName parameter is included to specify the SQL Server instance (Archinst) where the Archiving database is located.
+No exemplo 3, a verificação é realizada somente para o banco de dados de arquivamento instalado no computador atl-sql-001.litwareinc.com. Observe que o parâmetro SQLINSTANCENAME está incluído para especificar a instância do SQL Server (Archinst) em que o banco de dados de arquivamento está localizado.
 
     Test-CsDatabase -DatabaseType "Archiving" -SqlServerFqdn "atl-sql-001.litwareinc.com" -SqlInstanceName "archinst"
 
-The command shown in Example 4 verifies the databases installed on the local computer.
+O comando mostrado no exemplo 4 verifica os bancos de dados instalados no computador local.
 
     Test-CsDatabase -LocalService
 
-## Determining success or failure
+</div>
 
-If database connectivity is configured correctly, you'll receive output similar to this, with the Succeed property marked as **True**:
+<div>
 
-SqlServerFqdn : atl-sql-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
 
-SqlInstanceName : rtc
+Se a conectividade do banco de dados estiver configurada corretamente, você receberá uma saída semelhante a isso, com a propriedade sucede marcada como **verdadeira**:
+
+SqlServerFqdn: atl-sql-001.litwareinc.com
+
+SQLINSTANCENAME: RTC
 
 MirrorSqlServerFqdn :
 
 MirrorSqlInstanceName :
 
-DatabaseName : xds
+DatabaseName: XDS
 
-DataSource :
+Inclusão
 
 SQLServerVersion :
 
@@ -84,41 +114,41 @@ ExpectedVersion : 10.13.2
 
 InstalledVersion :
 
-Succeed : True
+Êxito: verdadeiro
 
-SqlServerFqdn : atl-sql-001.litwareinc.com
+SqlServerFqdn: atl-sql-001.litwareinc.com
 
-SqlInstanceName : rtc
+SQLINSTANCENAME: RTC
 
 MirrorSqlServerFqdn :
 
 MirrorSqlInstanceName :
 
-DatabaseName : lis
+DatabaseName: Lis
 
-DataSource :
+Inclusão
 
 SQLServerVersion :
 
-ExpectedVersion : 3.1.1
+ExpectedVersion: 3.1.1
 
 InstalledVersion :
 
-Succeed : True
+Êxito: verdadeiro
 
-If the database is configured correctly but still available, the Succeed field will be shown as **False**, and additional warnings and information will be provided:
+Se o banco de dados estiver configurado corretamente, mas ainda estiver disponível, o campo bem-sucedido será mostrado como **falso**, e avisos adicionais e informações serão fornecidos:
 
-SqlServerFqdn : atl-sql-001.litwareinc.com
+SqlServerFqdn: atl-sql-001.litwareinc.com
 
-SqlInstanceName : rtc
+SQLINSTANCENAME: RTC
 
 MirrorSqlServerFqdn :
 
 MirrorSqlInstanceName :
 
-DatabaseName : xds
+DatabaseName: XDS
 
-DataSource :
+Inclusão
 
 SQLServerVersion :
 
@@ -126,53 +156,73 @@ ExpectedVersion : 10.13.2
 
 InstalledVersion :
 
-Succeed : False
+Bem-sucedido: falso
 
-SqlServerFqdn : atl-cs-001.litwareinc.com
+SqlServerFqdn: atl-cs-001.litwareinc.com
 
-SqlInstanceName : rtc
+SQLINSTANCENAME: RTC
 
 MirrorSqlServerFqdn :
 
 MirrorSqlInstanceName :
 
-DatabaseName : lis
+DatabaseName: Lis
 
-DataSource :
+Inclusão
 
 SQLServerVersion :
 
-ExpectedVersion : 3.1.1
+ExpectedVersion: 3.1.1
 
 InstalledVersion :
 
-Succeed : False
+Bem-sucedido: falso
 
-WARNING: Test-CsDatabase encountered errors. Consult the log file for a
+Aviso: Test-CsDatabase encontrou erros. Consulte o arquivo de log para obter uma
 
-detailed analysis, and to make sure that all errors (2) and warnings (0) are addressed
+análise detalhada e para garantir que todos os erros (2) e avisos (0) sejam tratados
 
-before continuing.
+antes de continuar.
 
-WARNING: Detailed results can be found at
+Aviso: os resultados detalhados podem ser encontrados em
 
-"C:\\Users\\Testing\\AppData\\Local\\Temp\\2\\Test-CsDatabase-b18d488a-8044-4679-bbf2-
+"C:\\usuários\\\\testando\\AppData\\local\\2\\Test-CsDatabase-b18d488a-8044-4679-bbf2-
 
-04d593cce8e6.html".
+04d593cce8e6. html ".
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why **Test-CsDatabase** might fail:
+<div>
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-  - This command will fail if the database is misconfigured or not yet deployed.
+Aqui estão alguns motivos comuns pelos quais **Test-CsDatabase** pode falhar:
 
-## Consulte Também
+  - Um valor de parâmetro incorreto foi fornecido. Se usado, os parâmetros opcionais devem ser configurados corretamente ou o teste falhará. Execute o comando novamente sem os parâmetros opcionais e veja se isso é bem-sucedido.
 
-#### Outros Recursos
+  - Esse comando falhará se o banco de dados estiver configurado incorretamente ou ainda não foi implantado.
 
-[Get-CsDatabaseMirrorState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDatabaseMirrorState)  
-[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)  
-[Get-CsUserDatabaseState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserDatabaseState)
+</div>
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Get-CsDatabaseMirrorState](https://docs.microsoft.com/powershell/module/skype/Get-CsDatabaseMirrorState)  
+[Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[Get-CsUserDatabaseState](https://docs.microsoft.com/powershell/module/skype/Get-CsUserDatabaseState)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

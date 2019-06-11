@@ -1,47 +1,79 @@
-﻿---
-title: "Suporte p/ conectiv. a redes públicas de m. instantâneas no Lync Server 2013"
-TOCTitle: "Suporte p/ conectiv. a redes públicas de m. instantâneas no Lync Server 2013"
-ms:assetid: 9c6eb500-647b-4ccd-a00e-2b8dd7c44a76
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn458579(v=OCS.15)
-ms:contentKeyID: 59602783
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Suporte do Lync Server 2013 para conectividade de mensagem instantânea pública
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Support for public instant messenger connectivity
+ms:assetid: 9c6eb500-647b-4ccd-a00e-2b8dd7c44a76
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn458579(v=OCS.15)
+ms:contentKeyID: 59170234
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1c89cc911411095034385f7b8ebbe01edddcd20c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844841"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="support-for-public-instant-messenger-connectivity-in-lync-server-2013"></a>Suporte para conectividade de mensagem instantânea pública no Lync Server 2013
 
-## Suporte para conectividade a redes públicas de mensagens instantâneas
+</div>
 
-Este artigo fornece informações sobre o suporte para Conectividade de IM público (PIC). PIC é um recurso do Microsoft Lync que permite às organizações habilitar seus usuários do Lync à conexão com os usuários de determinados serviços públicos de mensagens instantâneas (IM) através de seus clientes Lync e identidades.
+<div id="mainSection">
 
-Os usuários finais se beneficiam da capacidade de se conectar com os clientes, parceiros e fornecedores de acordo com suas próprias condições. A TI se beneficia do suporte de um único cliente de comunicações em tempo real, mantendo o controle, conformidade e recursos de arquivamento do Lync. A conectividade do Lync com o Skype, [disponível publicamente em maio de 2013](http://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx), baseia-se na herança que o Lync/Office Communications Server (OCS)/Live Communications Server (LCS) estabeleceu primeiro com o PIC ao se conectar com o MSN/Windows Live, AOL e Yahoo.  Para obter mais informações sobre a conectividade do Lync com o Skype, consulte [conectividade do Lync com o Skype](http://office.microsoft.com/pt-br/lync/lync-skype-connectivity-fx103789635.aspx). A federação com Windows Live, AOL e Yahoo está prestes a atingir o fim da vida útil. Esta página documenta o status de cada serviço.
+<div id="mainBody">
 
-Para usar o PIC, os clientes precisam ativar o serviço para cada provedor público de serviços de mensagens instantâneas. Os requisitos e os detalhes de como fazer isso dependem do provedor de serviços de mensagens instantâneas e do programa de licenciamento subjacente do cliente.
+<span> </span>
 
-## Windows Live Messenger
+_**Tópico da última modificação:** 2013-10-07_
 
-A Microsoft uniu o Windows Live Messenger e o Skype. Em abril de 2013, os usuários do Messenger foram migrados para o Skype após o logon. Os clientes do Lync baseados na federação com o Messenger ainda conseguirão se comunicar com seus contatos do Messenger, mesmo após a atualização desses contatos para o Skype. Não há nada que os administradores do Lync ou usuários finais Lync precisem fazer para manter a continuidade do serviço e o gerenciamento desta capacidade no Lync permanece o mesmo que já é feito para comunicações com Messenger. 
+<div>
 
-Quando os usuários do Messenger entram no Skype usando suas contas da Microsoft (ou seja, as mesmas credenciais usadas para Messenger), todos os seus contatos do Messenger - incluindo contatos federados do Lync - são migrados para o Skype. O compartilhamento da presença e as mensagens instantâneas entre o Skype e o Lync para esses contatos estão disponíveis. 
+## <a name="support-for-public-instant-messenger-connectivity"></a>Suporte para conectividade de mensagem instantânea pública
 
-Conectividade do Lync com o Skype - a adição de contato, o compartilhamento de presença, as mensagens instantâneas e as chamadas de áudio entre os usuários do Lync e Skype - também já está disponível para todos os clientes do Lync.
+Este artigo fornece informações sobre o suporte para a PIC (conectividade pública de IM). A PIC é um recurso do Microsoft Lync que permite que as organizações habilitem seus usuários do Lync para se conectar com usuários de determinados serviços de mensagens instantâneas (IM) públicas por meio de seus clientes e identidades do Lync.
 
-## Mensagens Instantâneas Yahoo\! e AOL
+Os usuários finais se beneficiam da capacidade de se conectar com clientes, parceiros e fornecedores em termos de seus termos. Ele se beneficia do suporte a um único cliente de comunicação em tempo real, mantendo os recursos de controle, conformidade e arquivamento do Lync. Lync-conectividade do Skype, [disponível publicamente em maio de 2013](http://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx), depende do herdado que o Lync/Office Communications Server (OCS)/Live Communications Server (LCs) primeiro estabeleceu com a PIC na conexão com o MSN/Windows Live, AOL e Yahoo.Para obter mais informações sobre o Lync-conectividade com o Skype, consulte a [conectividade do Lync](http://office.microsoft.com/en-us/lync/lync-skype-connectivity-fx103789635.aspx). A Federação com o Windows Live, o AOL e o Yahoo são cada um deles em um caminho até o fim da vida útil.Esta página documenta o status de cada serviço.
 
-A federação com o Yahoo\! e AOL está prestes a atingir o fim de vida para os clientes do Lync (e Office Communications Server). A capacidade de a Microsoft fornecer estes serviços está determinada por condições de suporte do Yahoo\! e AOL, e os acordos subjacentes destes serviços estão acabando. Os serviços do Yahoo\! e AOL continuarão até junho de 2014.
+Para usar a PIC, os clientes precisam ativar o serviço para cada provedor de serviço de mensagens de chat públicas. Os requisitos e os detalhes de como fazer isso dependem do provedor de serviços de mensagens instantâneas e do programa de licenciamento subjacente do cliente.
 
-  - **Yahoo** - O serviço continuará até junho de 2014 e os clientes ainda precisam da licença "Lync Public IM Connectivity Licença de Assinatura de Usuário Microsoft" ("PIC USL").  A partir de 01 de setembro de 2012, a PIC USL não está mais disponível para compra para novos acordos ou de renovação.  Os clientes com licenças adquiridas antes desta data poderão continuar a federar com o Yahoo\! até a data de desativação do serviço ou até a expiração da licença. Consulte [o anúncio](http://blogs.technet.com/b/lync/archive/2012/11/26/lync-and-yahoo-federation-end-of-life.aspx) no blog da Equipe do Lync . Os clientes que tiverem licenças PIC em contratos válidos após o dia 30 de junho de 2014 receberão um crédito proporcional ao montante dos pagamentos que cobriria o período após o dia 30 de junho de 2014.
+<div>
 
-  - **AOL** - No dia 30 de junho de 2014, o serviço de conectividade de IM do Lync ("PIC") não estará mais disponível.  A fim de limitar a interrupção do cliente quando o serviço terminar, interrompemos o provisionamento de domínios de cliente adicionais. Até 30 de junho de 2014, os clientes não precisam tomar nenhuma iniciativa para continuar a oferecer suporte às comunicações federadas com AIM. Após esta data (ou para clientes que gostariam de fornecer domínios adicionais no meio tempo), um serviço  substituto está disponível diretamente do AOL. Para mais informações sobre o novo serviço do AOL , consulte [Estabelecer federação direta com o AIM](http://aimenterprise.aol.com/pic.php)  (abre uma nova página no AOL.com).  
+## <a name="windows-live-messenger"></a>Windows Live Messenger
 
-## Resumo do Provedor de IM Público
+A Microsoft colocou o Windows Live Messenger e o Skype juntos. Em abril de 2013, os usuários do Messenger migraram para o Skype quando entrarem. Os clientes do Lync que confiam na Federação com o Messenger continuarão a ser capazes de se comunicar com seus contatos do Messenger, mesmo depois que esses contatos forem atualizados para o Skype. Não há nada que os administradores do Lync ou os usuários finais do Lync precisem fazer para manter a continuidade do serviço, e o gerenciamento dessa funcionalidade no Lync permanece o mesmo que para comunicações com o Messenger. 
 
-A tabela a seguir apresenta um resumo dos provedores públicos de serviços de mensagens instantâneas, capacidades de federação com o Lync e requisitos de licenciamento.
+Quando os usuários do Messenger se conectarem ao Skype usando suas contas da Microsoft (ou seja, as mesmas credenciais usadas para o Messenger) todos os seus contatos do Messenger-incluindo contatos federados do Lync-siga-os no Skype. O compartilhamento de presença e mensagens instantâneas entre o Skype e o Lync para estes contatos está disponível. 
+
+Lync-conectividade do Skype-adição de contato, compartilhamento de presença, mensagens instantâneas e chamadas de áudio entre o Lync e usuários do Skype – também está disponível para todos os clientes do Lync.
+
+</div>
+
+<div>
+
+## <a name="yahoo-and-aol-instant-messenger"></a>Instant\! e mensagem instantânea do AOL
+
+Federação com o Yahoo\! e a AOL estão em um caminho para o fim da vida para os clientes do Lync (e do Office Communications Server). A capacidade da Microsoft de fornecer a cada um desses serviços tem o suporte contingente no Yahoo\! e a AOL, e os acordos subjacentes deles estão prestes a ser enrolados. Para o Yahoo\! e AOL, o serviço continuará até de junho de 2014.
+
+  - O **Yahoo** -Service continuará até junho de 2014, e os clientes continuarão precisando ser licenciados com a licença de assinatura de usuário da conectividade de im pública do Microsoft Lync ("pic USL").A partir de 1º de setembro de 2012, a PIC USL, não está mais disponível para compra de contratos novos ou renovadores.Os clientes com licenças compradas antes desta data poderão continuar a federar-se com o Yahoo\! até o anterior da data de encerramento do serviço ou o prazo de expiração da licença.Leia [o comunicado](http://blogs.technet.com/b/lync/archive/2012/11/26/lync-and-yahoo-federation-end-of-life.aspx) no blog da equipe do Lync.Os clientes que têm licenças de PIC em contratos que vão até 30 de junho de 2014 receberão um crédito em proporção ao valor dos pagamentos que abrangem o período de 30 de junho de 2014.
+
+  - A **AOL** – em 30 de junho de 2014, o serviço de conectividade de IM ("pic") do Lync não estará mais disponível.Para limitar a interrupção do cliente quando o serviço terminar, descontinuamos o provisionamento de domínios adicionais do cliente. Até 30 de junho de 2014, os clientes não precisam fazer nada para continuar a dar suporte às comunicações federadas com o AIM. Além dessa data (ou para clientes que queiram provisionar domínios adicionais nesse meio tempo), um serviço substituto está disponível diretamente na AOL. Para obter mais informações sobre o novo serviço da AOL, consulte [estabelecendo Federação direta com AIM](http://aimenterprise.aol.com/pic.php)  (abre a nova página no AOL.com).  
+
+</div>
+
+<div>
+
+## <a name="public-im-provider-summary"></a>Resumo do provedor de mensagens de chat públicas
+
+A tabela a seguir fornece um resumo dos provedores de serviços públicos de mensagens instantâneas, recursos de Federação com o Lync e requisitos de licenciamento.
 
 
 <table>
@@ -52,32 +84,47 @@ A tabela a seguir apresenta um resumo dos provedores públicos de serviços de m
 </colgroup>
 <thead>
 <tr class="header">
-<th>Provedor de serviço de IM Público</th>
-<th>Capacidades federadas</th>
-<th>Requisitos de Licenciamento</th>
+<th>Provedor de serviço público de mensagens instantâneas</th>
+<th>Recursos federados</th>
+<th>Requisitos de licenciamento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Skype</p></td>
-<td><p>IM, Presença, Áudio</p></td>
-<td><p>Licenças de acesso do cliente do Lync Server , Plano do Lync Online 1/2/3</p></td>
+<td><p>Mensagens instantâneas, presença, áudio</p></td>
+<td><p>Licenças de acesso para cliente do Lync Server, plano do Lync Online 1/2/3</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows Live Messenger</p></td>
-<td><p>IM, Presença, Áudio/Vídeo</p></td>
-<td><p>Licenças de acesso do cliente do Lync Server  (suportado contanto que WLM esteja no mercado)</p></td>
+<td><p>Mensagens instantâneas, presença, áudio/vídeo</p></td>
+<td><p>Licenças de acesso para cliente do Lync Server (com suporte desde que o WLM esteja no mercado)</p></td>
 </tr>
 <tr class="odd">
 <td><p>AOL</p></td>
-<td><p>IM, Presença</p></td>
-<td><p>Licenças de acesso do cliente do Lync Server ; suportado até junho de 2014 para clientes existentes.</p></td>
+<td><p>Mensagens instantâneas, presença</p></td>
+<td><p>Licenças de acesso para cliente do Lync Server; compatível até junho de 2014 para clientes atuais.</p></td>
 </tr>
 <tr class="even">
 <td><p>Yahoo!</p></td>
-<td><p>IM, Presença</p></td>
-<td><p>Requer uma Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) adicional, além de licenças de acesso de cliente do Lync Server. A partir da lista de preços de setembro de 2012, a PIC USL já não estará mais disponível para compra. Os clientes com licenças ativas poderão continuar a federação com o Yahoo! Messenger até a data de desativação do serviço no dia 30 de junho de 2014.</p></td>
+<td><p>Mensagens instantâneas, presença</p></td>
+<td><p>Requer licença de assinatura de usuário de conectividade de mensagem pública adicional do Microsoft Lync ("PIC USL"), além de licenças de acesso para cliente do Lync Server. A partir da lista de preços de setembro de 2012, o PIC USL não está mais disponível para compra. Os clientes com licenças ativas podem continuar a federar-se com o Yahoo! Messenger até a data de encerramento do serviço em 30 de junho de 2014.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

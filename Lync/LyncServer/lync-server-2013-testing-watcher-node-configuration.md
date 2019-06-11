@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing watcher node configuration'
+---
+title: 'Lync Server 2013: testar a configuração do nó do Inspetor'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing watcher node configuration
 ms:assetid: f9ecd85c-0ae9-4906-b786-6b002b5a77c6
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn751537(v=OCS.15)
-ms:contentKeyID: 62388601
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn751537(v=OCS.15)
+ms:contentKeyID: 63969667
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 65d2c79de4f86e490244ef63948c263d8f387fc5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844597"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing watcher node configuration in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>Testando a configuração do nó do Inspetor no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-11-03_
 
 
 <table>
@@ -23,93 +43,123 @@ _**Tópico modificado em:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Cronograma de verificação</p></td>
+<td><p>Diário</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de Gerenciamento do Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsWatcherNodeConfiguration</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permissões necessárias</p></td>
+<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsWatcherNodeConfiguration</strong> . Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot; Test-CsWatcherNodeConfiguration&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-If you are using Microsoft System Center Operations Manager to monitor Lync Server 2013 then you have the option of setting up "watcher nodes": computers that periodically, and automatically, run synthetic transactions to verify that Lync Server is working as expected. Watcher nodes are assigned to pools, and are managed by using the **CsWatcherNodeConfiguration** cmdlets. Note that you do not need to install watcher nodes if you are using System Center Operations Manager. You can still monitor your system without using watcher nodes. The only difference is that any synthetic transactions that you want to run must be invoked manually instead of automatically invoked by Operations Manager.
+## <a name="description"></a>Descrição
 
-The **Test-CsWatcherNodeConfiguration** cmdlet enables you to verify that a watcher node was configured correctly and is assigned to a valid Lync Server 2013 pool. Note that the **Test-CsWatcherNodeConfiguration** cmdlet must be run on the watcher node itself. The cmdlet cannot be run against remote computers.
+Se estiver usando o Microsoft System Center Operations Manager para monitorar o Lync Server 2013, você tem a opção de configurar "nós de Inspetor": computadores que periodicamente e automaticamente executam transações sintéticas para verificar se o Lync Server está funcionando como esperado. Os nós de Inspetor são atribuídos a pools e são gerenciados usando-se os cmdlets **CsWatcherNodeConfiguration** . Observe que você não precisa instalar nós do Inspetor se estiver usando o System Center Operations Manager. Você ainda pode monitorar o sistema sem usar nós de Inspetor. A única diferença é que as transações sintéticas que você deseja executar devem ser invocadas manualmente em vez de invocadas automaticamente pelo Operations Manager.
 
-## Running the test
+O cmdlet **Test-CsWatcherNodeConfiguration** permite que você verifique se um nó do inspetor foi configurado corretamente e se foi atribuído a um pool válido do Lync Server 2013. Observe que o cmdlet **Test-CsWatcherNodeConfiguration** deve ser executado no próprio nó do Inspetor. O cmdlet não pode ser executado em computadores remotos.
 
-The following command verifies the configuration settings for each watcher node that is being used in the organization.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Executar o teste
+
+O comando a seguir verifica as definições de configuração para cada nó do inspetor que está sendo usado na organização.
 
     Test-CsWatcherNodeConfiguration
 
-## Determining success or failure
+</div>
 
-The following successful sample output shows a system with four edge servers.
+<div>
 
-Validating target pool atl-cs-001.litwareinc.com against topology.
+## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
 
-Success: Target pool atl-cs-001.litwareinc.com exists in topology.
+A seguinte saída de exemplo a seguir mostra um sistema com quatro servidores de borda.
 
-Success: Target pool atl-cs-001.litwareinc.com has Registrar role installed.
+Validando o pool de destino atl-cs-001.litwareinc.com em relação à topologia.
 
-Success: Target pool atl-cs-001.litwareinc.com is supported version.
+Êxito: o pool de destino atl-cs-001.litwareinc.com existe na topologia.
 
-Success: Port number for 5061 Target pool atl-cs-001.litwareinc.com is correct.
+Êxito: o pool de destino atl-cs-001.litwareinc.com tem a função de registrador instalada.
 
-Checking for missing pools in watcher node configuration is started. If any error is detected, it will be printed.
+Êxito: versão do pool de destino atl-cs-001.litwareinc.com com suporte.
 
-Checking for missing pools in watcher node configuration is finished.
+Êxito: o número da porta para o pool de destino do 5061 atl-cs-001.litwareinc.com está correto.
 
-Checking for watcher node registry keys created by watcher node installation, is started. If any error is detected, it will be printed.
+A verificação de pools ausentes na configuração do nó do Inspetor é iniciada. Se for detectado algum erro, ele será impresso.
 
-Checking for watcher node registry keys created by watcher node installation, is finished. Detected authentication type is Negotiate.
+A verificação de pools ausentes na configuração do nó do inspetor está concluída.
 
-Successfully validated existence of test user’s credential sip:user1@ atl-cs-001.litwareinc.com in credential management store.
+A verificação de chaves do registro do nó do Inspetor criadas pela instalação do nó do Inspetor é iniciada. Se for detectado algum erro, ele será impresso.
 
-Successfully validated existence of test user’s credential sip:user2@ atl-cs-001.litwareinc.com in credential management store.
+A verificação das chaves do registro do nó do Inspetor criadas pela instalação do nó do inspetor está concluída. O tipo de autenticação detectado é Negotiate.
 
-Checking for missing pools in watcher node configuration is started. If any error is detected, it will be printed.
+Existência validada com êxito da credencial do usuário de teste SIP: Usuário1 @ atl-cs-001.litwareinc.com no repositório de gerenciamento de credenciais.
 
-WARNING: Pool atl-cs-001.litwareinc.com has Registrar
+Existência validada com êxito da credencial do usuário de teste SIP: user2 @ atl-cs-001.litwareinc.com no repositório de gerenciamento de credenciais.
 
-role installed, but there are no test users configured for it.
+A verificação de pools ausentes na configuração do nó do Inspetor é iniciada. Se for detectado algum erro, ele será impresso.
 
-Checking for missing pools in watcher node configuration is finished.
+Aviso: o pool atl-cs-001.litwareinc.com tem registrador
 
-Checking for watcher node registry keys created by watcher node installation, is
+função instalada, mas não há usuários de teste configurados para ele.
 
-started. If any error is detected, it will be printed.
+A verificação de pools ausentes na configuração do nó do inspetor está concluída.
 
-Test-CsWatcherNodeConfiguration : Cannot find Health registry key in
+Verificar as chaves do registro do nó do Inspetor criadas pela instalação do nó do Inspetor é
 
-Software\\Microsoft\\Real-Time Communications. Make sure watcher node .msi is
+vindo. Se for detectado algum erro, ele será impresso.
 
-installed properly.
+Test-CsWatcherNodeConfiguration: não é possível encontrar a chave do registro de integridade no
 
-## Reasons why the test might have failed
+Software\\de\\comunicação em tempo real da Microsoft. Verifique se o nó inspetor. msi está
 
-Here are some common reasons why **Test-CsWatcherNodeConfiguration** might fail:
+instalado corretamente.
 
-  - Watcher node is not correctly installed.
+</div>
 
-  - No test users are configured.
+<div>
 
-## Consulte Também
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-#### Outros Recursos
+Aqui estão alguns motivos comuns pelos quais **Test-CsWatcherNodeConfiguration** pode falhar:
 
-[Get-CsWatcherNodeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWatcherNodeConfiguration)  
-[New-CsWatcherNodeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsWatcherNodeConfiguration)  
-[Remove-CsWatcherNodeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWatcherNodeConfiguration)  
-[Set-CsWatcherNodeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWatcherNodeConfiguration)
+  - O nó do inspetor não está instalado corretamente.
+
+  - Nenhum usuário de teste está configurado.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Get-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsWatcherNodeConfiguration)  
+[New-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsWatcherNodeConfiguration)  
+[Remove-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsWatcherNodeConfiguration)  
+[Set-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWatcherNodeConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

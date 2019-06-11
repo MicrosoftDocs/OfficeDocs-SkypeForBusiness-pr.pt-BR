@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing PSTN phone call routing'
+---
+title: 'Lync Server 2013: testando o encaminhamento de chamadas telefônicas PSTN'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing PSTN phone call routing
 ms:assetid: 301dd44d-03e9-41cd-9722-54e00365aa45
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn727302(v=OCS.15)
-ms:contentKeyID: 62388588
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727302(v=OCS.15)
+ms:contentKeyID: 63969598
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: faa6bfe178397ab474c1bcd8edc21107faff8dc3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844630"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing PSTN phone call routing in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a>Testando o roteamento de chamadas telefônicas PSTN no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-11-01_
 
 
 <table>
@@ -23,38 +43,48 @@ _**Tópico modificado em:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Cronograma de verificação</p></td>
+<td><p>Diário</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de Gerenciamento do Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsInterTrunkRouting</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permissões necessárias</p></td>
+<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsInterTrunkRouting</strong> . Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsInterTrunkRouting&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsInterTrunkRouting** cmdlet verifies that calls can be routed from one SIP to another. To do this, the cmdlet is given a phone number and a trunk configuration. **Test-CsInterTrunkRouting** will then report back matching routes and matching PSTN usages for the specified number. Note that calls can be routed between trunks only if the trunks have a number pattern that matches the specified phone number and only if the trunks share at least one PSTN usage.
+## <a name="description"></a>Descrição
 
-## Running the test
+O cmdlet **Test-CsInterTrunkRouting** verifica se as chamadas podem ser roteadas de um SIP para outro. Para fazer isso, o cmdlet recebe um número de telefone e uma configuração de tronco. **Test-CsInterTrunkRouting** reportará os roteiros correspondentes e os usos de PSTN correspondentes para o número especificado. Observe que as chamadas podem ser roteadas entre troncos apenas se os troncos possuem um padrão de número que corresponde ao número de telefone especificado e apenas se os troncos compartilham pelo menos um uso PSTN.
 
-The commands shown below return the matching routes and matching phone usages that enable users to call the phone number 1-206-555-1219 using the trunk configuration settings for the Redmond site.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Executar o teste
+
+Os comandos exibidos abaixo retornam as rotas correspondentes e os usos de telefone correspondentes que permitem que os usuários chamem o número de telefone 1-206-555-1219 usando as configurações de tronco de configuração para o site de Redmond.
 
     $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
     
     Test-CsInterTrunkRouting -TargetNumber "tel:+12065551219" -TrunkConfiguration $trunk
 
-## Determining success or failure
+</div>
 
-If calls can be routed from one SIP to another, you'll receive output similar to this:
+<div>
+
+## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
+
+Se as chamadas puderem ser roteadas de um SIP para outro, você receberá uma saída semelhante a esta:
 
 FirstMatchingRoute MatchingUsage MatchingRoutes
 
@@ -62,42 +92,62 @@ FirstMatchingRoute MatchingUsage MatchingRoutes
 
 RedmondRoute LocalUsage {RedmondRoute}
 
-If the test did not succeed, you'll receive output similar to this:
+Se o teste não for bem-sucedido, você receberá uma saída semelhante a esta:
 
-Test-CsInterTrunkRouting : Cannot process argument transformation on parameter
+Test-CsInterTrunkRouting: não é possível processar a transformação do argumento no parâmetro
 
-'TrunkConfiguration'. Invalid TrunkConfigurationsetting (parameter). Specify a
+'TrunkConfiguration'. TrunkConfigurationsetting (parâmetro) inválido. Especificar um
 
-valid setting (parameter) and then try again.
+configuração válida (parâmetro) e tente novamente.
 
-At line:1 char:79
+Na linha: 1 caractere: 79
 
-\+ Test-CsInterTrunkRouting -TargetNumber "tel:+12065551219"
+\+Test-CsInterTrunkRouting-TargetNumber "Tel: + 12065551219"
 
-\-TrunkConfiguration $t ...
+\-TrunkConfiguration $t...
 
 \+
 
 ~~
 
-\+ CategoryInfo : InvalidData: (:) \[Test-CsInterTrunkRouting\], Par
+\+CategoryInfo: InvalidData: (:) \[Test-CsInterTrunkRouting\], par
 
 ameterBindingArgumentTransformationException
 
-\+ FullyQualifiedErrorId : ParameterArgumentTransformationError,Microsoft.R
+\+FullyQualifiedErrorId: ParameterArgumentTransformationError, Microsoft. R
 
-tc.Management.Voice.Cmdlets.TestOcsInterTrunkRoutingCmdlet
+TC. Management. Voice. cmdlets. TestOcsInterTrunkRoutingCmdlet
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why **Test-CsInterTrunkRouting** might fail:
+<div>
 
-  - You specified invalid parameters. The trunk might not yet be correctly configured and the specified target number might be incorrect or invalid.
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-## Consulte Também
+Aqui estão alguns motivos comuns pelos quais **Test-CsInterTrunkRouting** pode falhar:
 
-#### Outros Recursos
+  - Você especificou parâmetros inválidos. O tronco pode não estar corretamente configurado e o número de destino especificado pode estar incorreto ou inválido.
 
-[Get-CsTrunk](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunk)  
-[Get-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration)
+</div>
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk)  
+[Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

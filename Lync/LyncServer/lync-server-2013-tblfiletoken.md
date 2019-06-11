@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblFileToken'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblFileToken
 ms:assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558646(v=OCS.15)
-ms:contentKeyID: 49306621
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558646(v=OCS.15)
+ms:contentKeyID: 48184073
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 9146c168e62bd0602a76cd77ab678c84ba5e44da
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844793"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblFileToken no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="tblfiletoken-in-lync-server-2013"></a>tblFileToken no Lync Server 2013
 
-tblFileToken inclui tokens temporários para fins de transferência de arquivos.
+</div>
 
-### Colunas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-12_
+
+tblFileToken contém tokens temporários para fins de transferência de arquivo.
+
+### <a name="columns"></a>Colunas
 
 <table>
 <colgroup>
@@ -34,9 +54,9 @@ tblFileToken inclui tokens temporários para fins de transferência de arquivos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>fileToken</p></td>
-<td><p>nvarchar (50), não nulo</p></td>
-<td><p>Token exclusivo (uma GUID).</p></td>
+<td><p>Filetoken</p></td>
+<td><p>nvarchar (50), NOT NULL</p></td>
+<td><p>Token exclusivo (a GUID).</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenUserID</p></td>
@@ -50,39 +70,39 @@ tblFileToken inclui tokens temporários para fins de transferência de arquivos.
 </tr>
 <tr class="even">
 <td><p>fileTokenExpireDate</p></td>
-<td><p>datetime, não nulo</p></td>
-<td><p>Tempo de expiração. (Tokens expiram após 30 minutos, a menos que fixado (consultar as descrições a seguir nesta coluna).</p></td>
+<td><p>DateTime, não nulo</p></td>
+<td><p>Tempo de expiração. (Os tokens expiram após 30 minutos, a menos que sejam fixados (consulte as descrições a seguir nesta coluna).</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenComplianceFileUrl</p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>URL do arquivo transferido (para uso do serviço de Conformidade).</p></td>
+<td><p>URL do arquivo transferido (para uso do serviço de conformidade).</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenComplianceThumbnailUrl</p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>URL da miniatura para o arquivo transferido (para uso do serviço de Conformidade).</p></td>
+<td><p>URL da miniatura do arquivo transferido (para uso do serviço de conformidade).</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenComplianceTime</p></td>
 <td><p>datetime2</p></td>
-<td><p>Carimbo de data e hora para a operação de transferência de arquivo atual (para uso do serviço de Conformidade).</p></td>
+<td><p>Carimbo de data/hora para a operação de transferência de arquivo real (para uso do serviço de conformidade).</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenComplianceIsUpload</p></td>
 <td><p>bit</p></td>
-<td><p>Verdadeiro em caso de upload; Falso se download (para uso do serviço de Conformidade).</p></td>
+<td><p>Verdadeiro se for carregado; Falso se baixar (para uso do serviço de conformidade).</p></td>
 </tr>
 <tr class="odd">
 <td><p>fileTokenCompliancePinned</p></td>
-<td><p>bit, não nulo</p></td>
-<td><p>Verdadeiro se fixado. É utilizado para manter o token na tabela até que o serviço de Conformidade tenha uma chance de recuperar os campos dele.</p></td>
+<td><p>bit, e não nulo</p></td>
+<td><p>Verdadeiro se o token estiver fixado. Ele é usado para manter o token na tabela até que o serviço de conformidade tenha a chance de recuperar os campos relevantes dele.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Chaves
+### <a name="keys"></a>As
 
 <table>
 <colgroup>
@@ -97,13 +117,24 @@ tblFileToken inclui tokens temporários para fins de transferência de arquivos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>fileToken</p></td>
+<td><p>Filetoken</p></td>
 <td><p>Chave primária.</p></td>
 </tr>
 <tr class="even">
 <td><p>fileTokenChannelID</p></td>
-<td><p>Chave estrangeira com pesquisa na tabela tblNode.nodeGuid.</p></td>
+<td><p>Chave estrangeira com Lookup na tabela tblNode. nodeGuid.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

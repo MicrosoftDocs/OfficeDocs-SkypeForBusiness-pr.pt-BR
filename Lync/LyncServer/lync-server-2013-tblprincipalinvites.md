@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipalInvites'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipalInvites
 ms:assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558650(v=OCS.15)
-ms:contentKeyID: 49306736
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558650(v=OCS.15)
+ms:contentKeyID: 48184141
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 1081dbec8575eac0cc2aca7fc434b5801668f447
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844774"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblPrincipalInvites no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="tblprincipalinvites-in-lync-server-2013"></a>tblPrincipalInvites no Lync Server 2013
 
-O tblPrincipalInvites inclui convites para todos os usuários provisionados de todos os nós com a opção de convite automático ativada.
+</div>
 
-### Colunas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-06-25_
+
+tblPrincipalInvites contém convites para todos os usuários provisionados para todos os nós com convite automático ativado.
+
+### <a name="columns"></a>Colunas
 
 <table>
 <colgroup>
@@ -34,30 +54,30 @@ O tblPrincipalInvites inclui convites para todos os usuários provisionados de t
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
+<td><p>multiimprimir</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID da entidade.</p></td>
+<td><p>ID da entidade de segurança.</p></td>
 </tr>
 <tr class="even">
 <td><p>invID</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>Número sequencial exclusivo (por ID de entidade) gerado a partir da tabela tblLastInviteId.</p></td>
+<td><p>Número seqüencial exclusivo (por ID da entidade) gerado pela tabela tblLastInviteId.</p></td>
 </tr>
 <tr class="odd">
-<td><p>nodeID</p></td>
+<td><p>NodeId</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID de nó (somente sala de chat).</p></td>
+<td><p>ID do nó (somente sala de chat).</p></td>
 </tr>
 <tr class="even">
-<td><p>createdOn</p></td>
-<td><p>datetime, não nulo</p></td>
+<td><p>criar</p></td>
+<td><p>DateTime, não nulo</p></td>
 <td><p>Hora da criação.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Chaves
+### <a name="keys"></a>As
 
 <table>
 <colgroup>
@@ -72,17 +92,28 @@ O tblPrincipalInvites inclui convites para todos os usuários provisionados de t
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;prinID, nodeID&gt;</p></td>
+<td><p>&lt;, NodeId&gt;</p></td>
 <td><p>Chave primária.</p></td>
 </tr>
 <tr class="even">
-<td><p>prinID</p></td>
-<td><p>Chave estrangeira com pesquisa na tabela tblPrincipal.prinID.</p></td>
+<td><p>multiimprimir</p></td>
+<td><p>Chave estrangeira com Lookup na tabela tblPrincipal. retoid.</p></td>
 </tr>
 <tr class="odd">
-<td><p>nodeID</p></td>
-<td><p>Chave estrangeira com pesquisa na tabela tblNode.nodeID.</p></td>
+<td><p>NodeId</p></td>
+<td><p>Chave estrangeira com Lookup na tabela tblNode. NodeId.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

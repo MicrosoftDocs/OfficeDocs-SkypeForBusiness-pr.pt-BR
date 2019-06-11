@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Configurando os servidores de borda'
-TOCTitle: Configurando os servidores de borda
-ms:assetid: 09a22919-e36f-4122-8f0d-8d041198912d
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398147(v=OCS.15)
-ms:contentKeyID: 49305821
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando os servidores de borda'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up Edge Servers
+ms:assetid: 09a22919-e36f-4122-8f0d-8d041198912d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398147(v=OCS.15)
+ms:contentKeyID: 48183354
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 89c3de2695ef4e9dca538e8e0c6287a19c1a5035
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844974"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando os servidores de borda no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-08_
+# <a name="setting-up-edge-servers-in-lync-server-2013"></a>Configurando os servidores de borda no Lync Server 2013
 
-As principais tarefas necessárias para configurar os Servidores de Borda são as mesmas da instalação de um único Servidor de Borda ou de um do pool de Servidores de Borda com balanceamento de carga. Porém, o pool de Servidores de Borda com balanceamento de carga de hardware requer a implantação de balanceadores de carga e etapas adicionais para replicar a configuração em vários Servidores de Borda.
+</div>
 
-## Nesta seção
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-08_
+
+As principais tarefas necessárias para configurar servidores de borda são as mesmas para instalar um único servidor de borda ou um pool de balanceamento de carga de servidores de borda, exceto que um pool de servidores de borda com carga balanceada de hardware requer a implantação dos balanceadores de carga e etapas adicionais para duplicar a configuração em vários servidores Edge.
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Configurar interfaces de rede para Servidores de Borda no Lync Server 2013](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
 
@@ -32,4 +54,16 @@ As principais tarefas necessárias para configurar os Servidores de Borda são a
   - [Iniciar Servidores de Borda no Lync Server 2013](lync-server-2013-start-edge-servers.md)
 
   - [Configurando servidores de proxy reverso para o Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

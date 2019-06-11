@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipal'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipal
 ms:assetid: 79a24502-b4ce-41f0-8979-8caddf535338
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558667(v=OCS.15)
-ms:contentKeyID: 49307189
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558667(v=OCS.15)
+ms:contentKeyID: 48184571
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: c24f963b34ef6184675e724496d7d45ca1d40d27
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844771"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblPrincipal no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="tblprincipal-in-lync-server-2013"></a>tblPrincipal no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-12_
 
 tblPrincipal contém todas as entidades, incluindo usuários, pastas e grupos.
 
-### Colunas
+### <a name="columns"></a>Colunas
 
 <table>
 <colgroup>
@@ -34,104 +54,104 @@ tblPrincipal contém todas as entidades, incluindo usuários, pastas e grupos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
+<td><p>multiimprimir</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID da entidade.</p></td>
+<td><p>ID da entidade de segurança.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinGuid</p></td>
 <td><p>GUID, não nulo</p></td>
-<td><p>GUID da entidade. Isto é amplamente utilizado como uma chave primária alternativa porque seu significado entra no espaço do Serviços de Domínio Active Directory. (O GUID de uma entidade em cache é igual ao GUID de objeto correspondente no Active Directory).</p></td>
+<td><p>GUID principal. Isso é amplamente usado como uma chave primária alternativa porque o significado é cruzado para o espaço dos serviços de domínio Active Directory. (O GUID de uma entidade do cache é igual à GUID do objeto do Active Directory correspondente.)</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinUri</p></td>
-<td><p>nvarchar (256), não nulo</p></td>
-<td><p>URI de entidade. O esquema do SIP é usado para usuários e o ma-grp é usado para quase tudo.</p></td>
+<td><p>nvarchar (256), NOT NULL</p></td>
+<td><p>URI principal. O esquema SIP é usado para os usuários, e o ma-GRP é usado para praticamente tudo o mais.</p></td>
 </tr>
 <tr class="even">
-<td><p>prinName</p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>imprimir</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Nome comum. Usado apenas por tipos de usuário.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinDisplayName</p></td>
 <td><p>Nvarchar (256)</p></td>
-<td><p>Nome de exibição. Usado somente pelos tipos de usuário.</p></td>
+<td><p>Nome para exibição. Usado apenas por tipos de usuário.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinCompanyName</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nome da empresa. Usado somente pelos tipos de usuário.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Nome da empresa. Usado apenas por tipos de usuário.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinEmail</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>E-mail. Usado apenas pelos tipos de usuários.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Email. Usado apenas por tipos de usuário.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinADPath</p></td>
-<td><p>nvarchar(384)</p></td>
-<td><p>Nome de domínio do objeto do Active Directory do qual a entidade é uma versão em cache. Pode ser nulo para tipos que não são objetos do Active Directory (como os usuários do sistema).</p></td>
+<td><p>nvarchar (384)</p></td>
+<td><p>Nome do domínio do objeto do Active Directory que a entidade de segurança é uma versão em cache de. Pode ser NULL para tipos que não sejam objetos do Active Directory (como usuários do sistema).</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinADUserPrincipalName</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nome UPN do usuário. Usado somente pelos tipos de usuário regular.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Nome UPN do usuário. Usado apenas por tipos de usuário regulares.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDisabled</p></td>
 <td><p>smallint, não nulo</p></td>
 <td><ul>
-<li><p>0: a entidade está ativa.</p></li>
-<li><p>1: a entidade é desabilitada porque os recursos SIP do usuário estão desabilitados.</p></li>
-<li><p>2: a entidade é excluída porque o objeto associado do AD foi excluído.</p></li>
+<li><p>0: a entidade de segurança está ativa.</p></li>
+<li><p>1: o principal está desabilitado porque as funcionalidades SIP do usuário estão desabilitadas.</p></li>
+<li><p>2: o principal é excluído porque o objeto do anúncio associado foi excluído.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>prinTypeID</p></td>
 <td><p>smallint, não nulo</p></td>
-<td><p>Tipo de entidade (da tabela tblPrincipalType).</p></td>
+<td><p>Tipo de entidade de segurança (da tabela tblPrincipalType).</p></td>
 </tr>
 <tr class="even">
 <td><p>prinPoolID</p></td>
-<td><p>Int</p></td>
-<td><p>Atribuição do pool do Lync para a entidade.</p></td>
+<td><p>Núm</p></td>
+<td><p>Atribuição de pool do Lync para a entidade de segurança.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinPolicyID</p></td>
-<td><p>Int</p></td>
-<td><p>Valor de política do Servidor de Chat Persistente para o usuário, se a política de tipo de marca estiver presente.</p></td>
+<td><p>Núm</p></td>
+<td><p>Valor da política do servidor de chat persistente para o usuário, se a política de tipo de marca estiver presente.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinAddedBy</p></td>
 <td><p>int</p></td>
-<td><p>ID da entidade do criador.</p></td>
+<td><p>ID da entidade de segurança do criador.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAddedOn</p></td>
-<td><p>bigint, não nulo</p></td>
+<td><p>bigint, e não nulo</p></td>
 <td><p>Carimbo de data/hora para a hora da criação.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinUpdatedBy</p></td>
 <td><p>int</p></td>
-<td><p>ID da entidade que atualizou esta entrada pela última vez.</p></td>
+<td><p>ID da entidade de segurança que atualizou pela última vez.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinUpdatedOn</p></td>
-<td><p>bigint, não nulo</p></td>
-<td><p>Carimbo de data/hora da última atualização.</p></td>
+<td><p>bigint, e não nulo</p></td>
+<td><p>Carimbo de data/hora para a última atualização.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinVerifiedOn</p></td>
-<td><p>datetime, não nulo</p></td>
-<td><p>Data e hora da última atualização de Sincronização do Active Directory para a entidade.</p></td>
+<td><p>DateTime, não nulo</p></td>
+<td><p>Data e hora da última atualização de sincronização do Active Directory para a entidade de segurança.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Chaves
+### <a name="keys"></a>As
 
 <table>
 <colgroup>
@@ -146,13 +166,24 @@ tblPrincipal contém todas as entidades, incluindo usuários, pastas e grupos.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
+<td><p>multiimprimir</p></td>
 <td><p>Chave primária.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinTypeID</p></td>
-<td><p>Chave estrangeira com pesquisa na tabela tblPrincipalType.ptypeID.</p></td>
+<td><p>Chave estrangeira com Lookup na tabela tblPrincipalType. ptypeID.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

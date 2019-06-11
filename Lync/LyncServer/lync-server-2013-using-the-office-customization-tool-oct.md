@@ -1,35 +1,65 @@
-﻿---
-title: Usando a Ferramenta de Personalização do Office (OCT)
-TOCTitle: Usando a Ferramenta de Personalização do Office (OCT)
-ms:assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204748(v=OCS.15)
-ms:contentKeyID: 49306172
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: usando a ferramenta de personalização do Office (OCT)'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using the Office Customization Tool (OCT)
+ms:assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204748(v=OCS.15)
+ms:contentKeyID: 48183654
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cbdd9c101b9098f9a5a6ac6088740c067039921b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844448"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Usando a Ferramenta de Personalização do Office (OCT)
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="using-the-office-customization-tool-oct-in-lync-server-2013"></a>Usar a ferramenta de personalização do Office (OCT) no Lync Server 2013
 
-O Office Customization Tool (OCT) faz parte do programa de Instalação e é a ferramenta recomendada para várias personalizações. AO usar o OCT, você personaliza o Office e salva suas personalizações em um arquivo .msp de personalização de Instalação. Você coloca o arquivo na pasta Atualizações no ponto de instalação de rede. Ao instalar o Office, a Instalação procura por um arquivo de personalização da Instalação na pasta Atualizações e aplica as personalizações. A pasta Atualização pode ser usada apenas para implantar atualizações de software durante a instalação inicial do Office 2013.
+</div>
 
-O OCT faz parte da instalação e é incluído em versões de licença de volume do produto. Você executa o OCT digitando `setup.exe /admin` na linha de comando na raiz do ponto de instalação de rede que contém os arquivos de origem do Office 2013. Por exemplo, use o seguinte:
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-02_
+
+O Office Customization Tool (OCT) faz parte do programa de Instalação e é a ferramenta recomendada para várias personalizações. Ao usar o OCT, você personaliza o Office e salva suas personalizações em um arquivo msp de personalização de Instalação. Você coloca o arquivo na pasta Atualizações no ponto de instalação de rede. Ao instalar o Office, a Instalação procura por um arquivo de personalização da Instalação na pasta Atualizações e aplica as personalizações. A pasta Atualizações pode ser usada somente para implantar atualizações de software durante uma instalação inicial do Office 2013.
+
+O OCT faz parte da instalação e está incluído em versões de licença de volume do produto. Você executa a OCT digitando `setup.exe /admin` na linha de comando da raiz do ponto de instalação da rede que contém os arquivos de origem do Office 2013. Por exemplo, use o seguinte:
 
 `\\server\share\Office15\setup.exe /admin`
 
-Os administradores usam o OCT para criar um arquivo .msp de personalização da instalação. Como no OCT do Microsoft Office 2010, os administradores podem personalizar as seguintes áreas:
+Os administradores usam o OCT para criar um arquivo .msp de personalização da instalação. Como no Microsoft Office 2010 OCT, os administradores podem personalizar as seguintes áreas:
 
-  - **Instalação** Usado para especificar o local de instalação padrão no nome da organização padrão e cliente, fontes de instalação de rede adicionais, chave do produto, contrato de licença do usuário final, nível de exibição, versões anteriores do Office para remover, programas personalizados para executar durante a instalação, configurações de segurança e propriedades de Instalação.
+  - **Configurar** Usado para especificar o local de instalação padrão no cliente e o nome da organização padrão, origens adicionais de instalação de rede, chave do produto, contrato de licença de usuário final, nível de exibição, versões anteriores do Office para remover, programas personalizados a serem executados durante instalação, configurações de segurança e propriedades de configuração.
 
-  - **Recursos** Usado para definir as configurações do usuário e personalizar como os recursos do Office são instalados. Os administradores podem usar o OCT para especificar os valores padrões iniciais das configurações do aplicativo do Office para usuários. Os usuários podem modificar a maioria das configurações após a instalação.
+  - **Recursos** do Usado para definir as configurações do usuário e para personalizar como os recursos do Office são instalados. Os administradores podem usar o OCT para especificar os valores padrões iniciais das configurações do aplicativo do Office para usuários. Os usuários podem modificar a maioria das configurações após a instalação.
 
-  - **Conteúdo adicional** Usado para adicionar ou remover arquivos, adicionar ou remover entradas do Registro e configurar atalhos.
+  - **Conteúdo adicional** Usado para adicionar ou remover arquivos, adicionar ou remover entradas do registro e configurar atalhos.
 
-  - **Outlook** Usado para personalizar o perfil padrão do Outlook do usuário, especificar as configurações do Exchange, adicionar contas, remover contas, exportar configurações e especificar grupos de Envio/Recebimento.
+  - **Outlook** Usado para personalizar o perfil padrão do Outlook de um usuário, especifique as configurações do Exchange, adicione contas, Remova contas e exporte\\configurações e especifique os grupos de recebimento de envio.
 
-Para obter mais informações sobre o OCT, consulte [http://go.microsoft.com/fwlink/?linkid=267516\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=267516%26clcid=0x416).
+Para obter informações sobre a OCT, <http://go.microsoft.com/fwlink/p/?linkid=267516>consulte.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

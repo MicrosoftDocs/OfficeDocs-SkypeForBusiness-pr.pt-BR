@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing ability to connect to a federated domain'
+---
+title: 'Lync Server 2013: testando a capacidade de se conectar a um domínio federado'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing ability to connect to a federated domain
 ms:assetid: d8ccfade-ef54-47a4-9f87-36213a635ce5
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn743840(v=OCS.15)
-ms:contentKeyID: 62279300
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743840(v=OCS.15)
+ms:contentKeyID: 63969653
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 2176008e3e941068f61a2fb385fa6230df6b25dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844659"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing ability to connect to a federated domain from Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>Testar a capacidade de se conectar a um domínio federado pelo Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-06-05_
 
 
 <table>
@@ -23,96 +43,122 @@ _**Tópico modificado em:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Cronograma de verificação</p></td>
+<td><p>Diário</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de Gerenciamento do Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsFederatedPartner cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permissões necessárias</p></td>
+<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet Test-CsFederatedPartner. Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsFederatedPartner&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-Test-CsFederatedPartner verifies your ability to connect to the domain of a federated partner. To verify the connectivity to a domain, that domain must be listed in the collection of allowed (federated) domains. You can retrieve a list of the domains on your allowed domains list by using this command:
+## <a name="description"></a>Descrição
+
+Test-CsFederatedPartner verifica sua capacidade de conexão com o domínio de um parceiro federado. Para verificar a conectividade de um domínio, esse domínio deve estar listado na coleção de domínios permitidos (federados). Você pode recuperar uma lista dos domínios na lista de domínios permitidos usando este comando:
 
     Get-CsAllowedDomain
 
-For more information, see the Help documentation for the [Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner) cmdlet.
+Para obter mais informações, consulte a documentação da ajuda para o cmdlet [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) .
 
-## Running the test
+</div>
 
-The Test-FederatedPartner cmdlet requires two pieces of information: the FQDN of your Edge Server and the FQDN of the federated partner. For example, this command tests the ability to connect to the domain contoso.com:
+<div>
+
+## <a name="running-the-test"></a>Executar o teste
+
+O cmdlet Test-FederatedPartner requer duas informações: o FQDN do servidor de borda e o FQDN do parceiro federado. Por exemplo, este comando testa a capacidade de conexão com o domínio contoso.com:
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"
 
-This command enables you to test the connections to all the domains currently on your allowed domains list:
+Este comando permite testar as conexões com todos os domínios atualmente na lista de domínios permitidos:
 
     Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Identity}
 
-For more information, see the Help documentation for the [Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner) cmdlet.
+Para obter mais informações, consulte a documentação da ajuda para o cmdlet [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) .
 
-## Determining success or failure
+</div>
 
-If the specified domain can be contacted, you'll receive output similar to this with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
 
-Result : Success
+Se o domínio especificado puder ser contatado, você receberá uma saída semelhante a isso com a propriedade Result marcada como **Success:**
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+Resultado: êxito
 
-Diagnosis :
+Latência: 00:00:00
 
-If the specified domain cannot be contacted, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+Erros
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Correto
 
-Result : Failure
+Se o domínio especificado não puder ser contatado, o resultado será mostrado como uma falha, e informações adicionais serão gravadas nas propriedades de erro e diagnóstico:
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error : 504, Server time-out
+Resultado: falha
 
-Diagnosis : ErrorCode=2, Source=atl-cs-001.litwareinc.com,Reason=See
+Latência: 00:00:00
 
-response code and reason phrase.
+Erro: 504, tempo limite do servidor
 
-Microsoft.Rtc.Signaling.DiagnosticHeader
+Diagnóstico: ErrorCode = 2, origem = ATL-cs-001. litwareinc. com, motivo = Veja
 
-For example, the previous output states that the test failed because of a server time-out error. This typically indicates either network connectivity problems or problems contacting the Edge Server.
+código de resposta e frase de motivo.
 
-If Test-CsFederatedPartner fails, then you might want to rerun the test, this time including the Verbose parameter:
+Microsoft. RTC. Signaling. DiagnosticHeader
+
+Por exemplo, a saída anterior informa que o teste falhou devido a um erro de tempo limite do servidor. Isso geralmente indica problemas de conectividade de rede ou problemas para entrar em contato com o servidor de borda.
+
+Se Test-CsFederatedPartner falhar, talvez você queira executar novamente o teste, desta vez, incluindo o parâmetro Verbose:
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com" -Verbose
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsFederatedPartner might fail:
+<div>
 
-  - The Edge Server might not be available. You can the FQDNs of your Edge Servers by using this command:
+## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
+
+Aqui estão alguns motivos comuns pelos quais Test-CsFederatedPartner pode falhar:
+
+  - O servidor de borda pode não estar disponível. Você pode usar este comando para os FQDNs dos seus servidores de borda:
     
         Get-CsService -EdgeServer | Select-Object PoolFqdn
     
-    You can then ping each Edge Server to verify that it can be accessed over the network. For example:
+    Em seguida, você pode efetuar ping em cada servidor de borda para verificar se ele pode ser acessado pela rede. Por exemplo:
     
         ping atl-edge-001.litwareinc.com
 
-  - The specified domain might not be listed on the allowed domains list. To verify the domains that were added to the allowed domains list, use this command:
+  - O domínio especificado pode não estar listado na lista de domínios permitidos. Para verificar os domínios que foram adicionados à lista de domínios permitidos, use este comando:
     
         Get-CsAllowedDomain
     
-    If you’d like to see a list of domains that users were blocked from communicating with, then use this command:
+    Se você quiser ver uma lista de domínios com os quais os usuários estavam bloqueados e, em seguida, use este comando:
     
         Get-CsBlockedDomain
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

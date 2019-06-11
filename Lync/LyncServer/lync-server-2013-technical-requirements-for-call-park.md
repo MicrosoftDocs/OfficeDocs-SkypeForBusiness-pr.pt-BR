@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Requisitos técnicos para Estacionamento de Chamadas'
-TOCTitle: Requisitos técnicos para Estacionamento de Chamadas
-ms:assetid: 38bcf302-2b72-4492-9266-f6dc31b566e1
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204818(v=OCS.15)
-ms:contentKeyID: 49306419
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Requisitos técnicos para Estacionamento de Chamadas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for Call Park
+ms:assetid: 38bcf302-2b72-4492-9266-f6dc31b566e1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204818(v=OCS.15)
+ms:contentKeyID: 48183897
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 068c03c3b99e911766d2c60eec2a5515b3750d29
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844732"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos técnicos para Estacionamento de Chamadas no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="technical-requirements-for-call-park-in-lync-server-2013"></a>Requisitos técnicos para Estacionamento de Chamadas no Lync Server 2013
 
-Esta seção descreve os seguintes requisitos técnicos do Estacionamento de Chamada:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-11-07_
+
+Esta seção descreve os seguintes requisitos técnicos para o parque de chamadas:
 
   - Requisitos de hardware
 
@@ -23,30 +43,71 @@ Esta seção descreve os seguintes requisitos técnicos do Estacionamento de Cha
 
   - Requisitos de porta
 
-  - Requisitos do arquivo de áudio
+  - Requisitos de arquivo de áudio
 
-## Requisitos de hardware
+<div>
 
-O Aplicativo de Estacionamento de Chamada tem os mesmos requisitos de hardware de Servidores Front-End. Para detalhes sobre requisitos de hardware, consulte [Plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md) na documentação de Suportabilidade.
+## <a name="hardware-requirements"></a>Requisitos de hardware
 
-## Requisitos de software
+O aplicativo de estacionamento de chamadas tem os mesmos requisitos de hardware que os servidores front-end. Para obter detalhes sobre os requisitos de hardware, consulte [plataformas de hardware do servidor para o Lync Server 2013](lync-server-2013-server-hardware-platforms.md) na documentação de suporte.
 
-O Aplicativo de Estacionamento de Chamada tem os mesmos requisitos do sistema operacional e pré-requisitos de software como Servidores Front-End. Para detalhes sobre requisitos do software, consulte [Suporte a sistemas operacionais de servidor e de ferramentas no Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) na documentação de Suportabilidade.
+</div>
 
-Todos os Servidores Front-End e servidores Standard Edition em que o Aplicativo de Estacionamento de Chamada está implantado devem ter o Tempo de execução do Windows Media Format instalado para os servidores que executam o Windows Server 2008 R2 ou o Microsoft Media Foundation para servidores que executam o Windows Server 2012 ou Windows Server 2012 R2. Para o Windows Server 2008 R2, o Tempo de execução do Windows Media Format é instalado como parte da Experiência de Desktop do Windows. O Tempo de execução do Windows Media Format ou o Microsoft Media Foundation são exigidos para arquivos .wma (Windows Media Audio) que o Estacionamento de Chamada toca para músicas em espera.
+<div>
 
-## Requisitos de porta
+## <a name="software-requirements"></a>Requisitos de software
 
-O Aplicativo de Estacionamento de Chamada usa as seguintes portas:
+O aplicativo de estacionamento de chamadas tem os mesmos requisitos de sistema operacional e pré-requisitos de software que os servidores front-end. Para obter detalhes sobre os requisitos de software, consulte [suporte ao sistema operacional do servidor e ferramentas no Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) na documentação de suporte.
 
-  - **Porta 5075**   Usada para solicitações de escuta de SIP.
+Todos os servidores de front-end e servidores da edição padrão em que o aplicativo de estacionamento de chamada é implantado devem ter o tempo de execução do Windows Media Format instalado para servidores que executam o Windows Server 2008 R2 ou o Microsoft Media Foundation para servidores com Windows Server 2012 ou Windows Server 2012 R2. Para o Windows Server 2008 R2, o tempo de execução do Windows Media Format é instalado como parte da experiência da área de trabalho do Windows. O tempo de execução do Windows Media Format ou do Microsoft Media Foundation é necessário para arquivos de áudio do Windows Media (. WMA) que chamam o estacionamento reproduz para música em espera.
+
+</div>
+
+<div>
+
+## <a name="port-requirements"></a>Requisitos de porta
+
+O aplicativo de estacionamento de chamadas usa a seguinte porta:
+
+  - **Porta 5075**   usada para solicitações de escuta SIP.
+
+<div>
+
 
 > [!NOTE]  
-> Esta porta é uma configuração padrão, que pode ser alterado usando o cmdlet <strong>Set-CsApplicationServer</strong>. Para obter detalhes sobre esse cmdlet, consulte a documentação do Shell de Gerenciamento do Lync Server.
+> Esta porta é uma configuração padrão, que pode ser alterada usando o cmdlet <STRONG>Set-CsApplicationServer</STRONG>. Para obter detalhes sobre esse cmdlet, consulte a documentação do Shell de gerenciamento do Lync Server.
 
-## Requisitos do arquivo de áudio
 
-O Aplicativo de Estacionamento de Chamada dá suporte a arquivos .wma (Windows Media Audio) de músicas em espera. É possível usar o Microsoft Expression Encoder 4 para personalizar arquivos de música em espera. Para baixar o Expression Encoder 4, consulte "Expression Encoder 4" em [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843). Use a ferramenta parra converter o arquivo para o formato .wma. O formato recomendado para arquivos de música em espera do Estacionamento de Chamada é o Media Audio 9, 44 kHz, 16 bits, mono, CBR, 32 kbps.
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="audio-file-requirements"></a>Requisitos do arquivo de áudio
+
+O aplicativo de estacionamento de chamadas só dá suporte a arquivos de áudio do Windows Media (. WMA) para música em espera. É possível usar o Microsoft Expression Encoder 4 para personalizar arquivos de música em espera. Para baixar o Expression Encoder 4, consulte "Expression Encoder 4" [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843)em. Use a ferramenta para converter o arquivo para o formato .wma. O formato recomendado para os arquivos de áudio da chamada com vídeo em espera é áudio de mídia 9, 44 kHz, 16 bits, mono, CBR, 32 kbps.
+
+<div>
+
 
 > [!NOTE]  
 > O arquivo convertido é reproduzido no telefone apenas em 16 kHz, mesmo que tenha sido gravado em 44 kHz.
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

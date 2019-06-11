@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabela AppliedBandwidthSource'
-TOCTitle: Tabela AppliedBandwidthSource
-ms:assetid: 24fb3caf-19b3-4c0a-90d7-ca5d53de32ad
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425725(v=OCS.15)
-ms:contentKeyID: 49306151
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabela AppliedBandwidthSource'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: AppliedBandwidthSource table
+ms:assetid: 24fb3caf-19b3-4c0a-90d7-ca5d53de32ad
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425725(v=OCS.15)
+ms:contentKeyID: 48183638
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7f4c7d78353a60ad4c3bf9a7ff3efb363bd01c82
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844967"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabela AppliedBandwidthSource no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="appliedbandwidthsource-table-in-lync-server-2013"></a>Tabela AppliedBandwidthSource no Lync Server 2013
 
-A tabela AppliedBandwidthSource é uma tabela de suporte. Cada registro representa uma origem.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-02_
+
+A tabela AppliedBandwidthSource é uma tabela de suporte. Cada registro representa uma fonte.
 
 
 <table>
@@ -29,7 +49,7 @@ A tabela AppliedBandwidthSource é uma tabela de suporte. Cada registro represen
 <tr class="header">
 <th><strong>Coluna</strong></th>
 <th><strong>Tipo de dados</strong></th>
-<th><strong>Chave/Índice</strong></th>
+<th><strong>Chave/índice</strong></th>
 <th><strong>Detalhes</strong></th>
 </tr>
 </thead>
@@ -37,15 +57,26 @@ A tabela AppliedBandwidthSource é uma tabela de suporte. Cada registro represen
 <tr class="odd">
 <td><p><strong>AppliedBandwidthSourceKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primário</p></td>
-<td><p>Número exclusivo que identifica a origem.</p></td>
+<td><p>Primária</p></td>
+<td><p>Número exclusivo que identifica a fonte.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AppliedBandwidthSource</strong></p></td>
-<td><p>varchar(256)</p></td>
-<td><p>Exclusivo</p></td>
-<td><p>Essa é a origem do cap de largura de banda que está sendo imposto. Descreve de onde o limite de largura de banda está vindo (por exemplo, &quot;Política de servidor&quot;, &quot;Servidor TURN&quot; ou &quot;Modalidade&quot;).</p></td>
+<td><p>varchar (256)</p></td>
+<td><p>Exclusividade</p></td>
+<td><p>Essa é a origem do limite de largura de banda que está sendo imposto. Ele descreve para onde o limite de largura de banda é proveniente (por exemplo, "servidor de políticas", "Ativar servidor" ou "modalidade").</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

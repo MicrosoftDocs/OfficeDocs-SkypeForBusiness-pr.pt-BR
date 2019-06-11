@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblEnumAttribute'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblEnumAttribute
 ms:assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558617(v=OCS.15)
-ms:contentKeyID: 49306013
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558617(v=OCS.15)
+ms:contentKeyID: 48183523
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 2662f5d0ea9b55f8e3f5320b2e385157bef8bce9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844784"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblEnumAttribute no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="tblenumattribute-in-lync-server-2013"></a>tblEnumAttribute no Lync Server 2013
 
-tblEnumAttribute é uma tabela embutida em código que inclui os atributos de Visibilidade e Comportamento usados na tabela Node.
+</div>
 
-### Colunas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-12_
+
+tblEnumAttribute é uma tabela codificada que contém os atributos de visibilidade e comportamento usados na tabela de nós.
+
+### <a name="columns"></a>Colunas
 
 <table>
 <colgroup>
@@ -40,14 +60,14 @@ tblEnumAttribute é uma tabela embutida em código que inclui os atributos de Vi
 </tr>
 <tr class="even">
 <td><p>attributeName</p></td>
-<td><p>nvarchar (256), não nulo</p></td>
+<td><p>nvarchar (256), NOT NULL</p></td>
 <td><p>Nome do atributo.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Chave
+### <a name="key"></a>Chave
 
 <table>
 <colgroup>
@@ -69,7 +89,7 @@ tblEnumAttribute é uma tabela embutida em código que inclui os atributos de Vi
 </table>
 
 
-### Valores da tabela
+### <a name="table-values"></a>Valores da tabela
 
 <table>
 <colgroup>
@@ -89,15 +109,29 @@ tblEnumAttribute é uma tabela embutida em código que inclui os atributos de Vi
 </tr>
 <tr class="even">
 <td><p>2</p></td>
-<td><p>Comportamento.</p></td>
+<td><p>Funcionamento.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Consulte Também
+<div>
 
-#### Conceitos
+## <a name="see-also"></a>Confira também
 
-[tblNode no Lync Server 2013](lync-server-2013-tblnode.md)
+
+[tblNode no Lync Server 2013](lync-server-2013-tblnode.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

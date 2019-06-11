@@ -1,65 +1,95 @@
-﻿---
-title: "Usar o “Ligue p/ mim no” com um telefone habilitado p/ Lync e Lync Server 2013"
-TOCTitle: "Usar o “Ligue p/ mim no” com um telefone habilitado p/ Lync e Lync Server 2013"
-ms:assetid: 975a1df8-a159-4aa4-a991-5972a535998e
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn383570(v=OCS.15)
-ms:contentKeyID: 56558974
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: usando ligar para mim com um telefone compatível com o Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Call Me At with a Lync-enabled phone
+ms:assetid: 975a1df8-a159-4aa4-a991-5972a535998e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn383570(v=OCS.15)
+ms:contentKeyID: 56470326
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cc89ac5038d367a57b791546c287e515bfd3c7bf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844495"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Usar o “Ligue para mim no” com um telefone habilitado para Lync e Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-08-09_
+# <a name="using-call-me-at-with-a-lync-enabled-phone-and-lync-server-2013"></a>Usando ligar para mim com um telefone compatível com o Lync e o Lync Server 2013
 
-O recurso Ligue para mim no Lync fornece uma maneira de os usuários ingressarem no áudio de uma conferência usando um telefone celular, "telefone fixo" ou outro dispositivo conectado à Rede telefônica pública comutada (PSTN). Quando você tentar ingressar em uma reunião usando o Lync, normalmente aparecerá a caixa de diálogo **Ingressar no Áudio da Reunião**:
+</div>
 
-![Captura de tela da janela de áudio para ingressar na reunião do Lync](images/Dn383570.e28f17f0-9f17-44ef-b893-f4ef132f47ac(OCS.15).png "Captura de tela da janela de áudio para ingressar na reunião do Lync")
+<div id="mainSection">
 
-Se você selecionar **Ligue para mim no**, pode escolher um número de telefone a partir da lista suspensa. O Lync Server 2013 fará uma chamada telefônica para o número selecionado e então você pode usar o telefone para participar do áudio da conferência.
+<div id="mainBody">
 
-A lista suspensa é preenchida pelos números de telefone (para telefone celular, telefone residencial ou outro telefone) que você digitou na guia **Telefones**, na caixa de diálogo **Lync – Opções**:
+<span> </span>
 
-![Captura de tela da janela de configurar opções do Lync Phones](images/Dn383570.03d2f25d-49e2-47b4-b1e9-b1614fc0c11c(OCS.15).png "Captura de tela da janela de configurar opções do Lync Phones")
+_**Tópico da última modificação:** 2013-08-09_
 
-Se você não inseriu nenhum número de telefone na guia **Telefones**, não terá números disponíveis na caixa suspensa. No entanto, pode clicar em **Novo número** e discar com o Lync Server qualquer número de telefone desejado:
+O recurso ligar para mim no Lync fornece uma maneira para os usuários ingressarem na parte de áudio de uma conferência usando um telefone celular, "Land linha" ou outro dispositivo conectado à rede telefônica pública comutada (PSTN). Ao tentar ingressar em uma reunião usando o Lync, você normalmente será apresentado com a caixa de diálogo ingressar no **áudio da reunião** :
 
-![Captura de tela da janela ligue-me de áudio para ingressar na reunião do Lync](images/Dn383570.27f2ac7a-cc1c-465c-b145-202ad03af4f2(OCS.15).png "Captura de tela da janela ligue-me de áudio para ingressar na reunião do Lync")
+![Usar o Lync para ingressar na tela da janela de áudio da reunião] (images/Dn383570.e28f17f0-9f17-44ef-b893-f4ef132f47ac(OCS.15).png "Usar o Lync para ingressar na tela da janela de áudio da reunião")
 
-O recurso Ligue para mim no funciona muito bem desde que você o use para o que ele foi criado: usando o Lync Server para ligar para um número de telefone PSTN. No entanto, você pode acabar em uma em uma experiência com menos qualidade se solicitar ao Lync Server que ligue para você em um ponto de extremidade habilitado a Lync (por exemplo, um telefone em uma sala de conferência). Em seguida, vem o problema que pode encontrar bem como duas maneiras de contornar o problema.
+Se você selecionar **ligar para mim**, pode escolher um número de telefone na lista suspensa. O Lync Server 2013 fará uma chamada telefônica para o número selecionado, e você poderá usar esse telefone para participar da parte de áudio da conferência.
 
-Para começar, veja o que acontece quando você digita no recurso Ligue para mim no o número de telefone de um telefone habilitado ao Lync. Suponha que Ken Myer tente ingressar em uma reunião através de o Lync Server ligando para ele no 1-206-555-1219, um número de telefone habilitado a Lync Server. Ken será inicialmente conectado à reunião, mas depois de alguns segundos, o Lync exibirá a mensagem **Chamada Encerrada ou Não Completada** e Ken aparecerá como se tivesse se desconectado da reunião:
+A lista suspensa é preenchida pelos números de telefone (para celular, telefone residencial ou outro telefone) que você digitou na guia **telefones** na caixa de diálogo **Lync – opções** :
 
-![Captura de tela da janela de conferência de chamada do Lync](images/Dn383570.c2a81727-8751-41b5-946a-03a1b75b9d95(OCS.15).png "Captura de tela da janela de conferência de chamada do Lync")
+![Captura de tela de opções de configuração de telefones do Lync] (images/Dn383570.03d2f25d-49e2-47b4-b1e9-b1614fc0c11c(OCS.15).png "Captura de tela de opções de configuração de telefones do Lync")
 
-Observe, entretanto, que há uma discrepância na janela de conversa Lync. Ken Myer é o único nome listado no cabeçalho **Participantes**. No entanto, se você olhar na barra de título da janela, você verá que a conferência contém um total de quatro participantes.
+Se você não inseriu nenhum número de telefone na guia **telefones** , você não terá nenhum número disponível na caixa suspensa. No entanto, você sempre pode clicar em **novo número** e fazer o Lync Server discar para qualquer número de telefone que desejar:
 
-Da mesma forma, se você olhar na janela de conversa de qualquer um dos outros participantes da conferência, não verá Ken Myer listado em nenhum lugar:
+![Captura de tela do Lync ingressar na chamada de áudio da reunião na janela] (images/Dn383570.27f2ac7a-cc1c-465c-b145-202ad03af4f2(OCS.15).png "Captura de tela do Lync ingressar na chamada de áudio da reunião na janela")
 
-![Captura de tela da janela de lista de participantes do Lync](images/Dn383570.fa5990cf-2694-402c-ac06-946aa66b6837(OCS.15).png "Captura de tela da janela de lista de participantes do Lync")
+O recurso ligar para mim funciona muito bem para que você o use na maneira como foi destinado: ao fato de que o Lync Server chama um número de telefone PSTN. No entanto, você pode ter uma experiência menor do que a ideal se pedir ao Lync Server para chamá-lo em um ponto de extremidade compatível com o Lync (por exemplo, um telefone em uma sala de conferência). Veja a seguir o problema que você pode executar, bem como as duas maneiras de contornar o problema.
 
-Entretanto, ao mesmo tempo, Ken Myer poderá participar do áudio da chamada usando seu telefone habilitado a Lync. O recurso Ligue para mim no de fato funcionou, mas a experiência do usuário é inferior à ideal.
+Para começar, veja o que acontece quando você fornece o recurso ligar para mim com o número de telefone de um telefone compatível com o Lync. Suponha que Ken Myer tente ingressar em uma reunião fazendo com que o Lync Server chame-o em 1-206-555-1219, um número de telefone habilitado para o Lync Server. Ken será conectado inicialmente à reunião, mas, após alguns segundos, o Lync exibirá a mensagem a **chamada não foi concluída ou**foi encerrada e Ken parecerá ter sido cancelada na reunião:
 
-Há pelo menos duas soluções alternativas para este problema. Se você já ingressou em uma conferência desta forma (como Ken Myer fez), normalmente pode resolver o problema entrando em uma modalidade diferente. Por exemplo, se você enviar uma mensagem instantânea, a janela de conversa agora mostrará todos os participantes da conferência, incluindo você:
+![Captura de tela da janela de conferência de chamadas do Lync] (images/Dn383570.c2a81727-8751-41b5-946a-03a1b75b9d95(OCS.15).png "Captura de tela da janela de conferência de chamadas do Lync")
 
-![Captura de tela da janela da lista de conversas e participantes do Lync](images/Dn383570.9b5ff6d6-9f73-467c-99a7-ef3aa8bd7e7a(OCS.15).png "Captura de tela da janela da lista de conversas e participantes do Lync")
+Observe, porém, que há uma discrepância dentro da janela de conversa do Lync. Ken Myer é o único nome listado no título **participantes** . No entanto, se você olhar na barra de título da janela, verá que a conferência contém um total de 4 participantes.
 
-este ponto, você deve conseguir participar da reunião da forma esperada.
+Da mesma forma, se você olhar na janela de conversa de qualquer um dos outros participantes da conferência, você não verá Ken Myer listado em qualquer lugar:
 
-Como alternativa, você pode evitar esse problema por completo, mudando a maneira de ingressar da reunião. Se você precisa que o Lync Server ligue para um telefone habilitado a Lync Server, deve começar ingressando na reunião sem uma conexão de áudio . Para isso, selecione Não ingressar no áudio quando aparece a caixa de diálogo Ingressar no Áudio da Reunião:
+![Captura de tela da janela lista de participantes do Lync] (images/Dn383570.fa5990cf-2694-402c-ac06-946aa66b6837(OCS.15).png "Captura de tela da janela lista de participantes do Lync")
 
-![Captura de tela da janela de áudio para não ingressar na reunião do Lync](images/Dn383570.280a148d-cce5-4b02-87f9-9f78f17a81c1(OCS.15).png "Captura de tela da janela de áudio para não ingressar na reunião do Lync")
+E ainda, ao mesmo tempo, Ken Myer poderá participar na parte de áudio da chamada usando seu telefone compatível com o Lync. Na verdade, o recurso ligar para mim funciona, mas a experiência do usuário é menos do que o ideal.
 
-Após ter se conectado com êxito à reunião, pode "convidar" o telefone habilitado a Lync Server a também ingressar na reunião. Para isso, posicione o mouse sobre o ícone Pessoas e, em seguida, clique em **Convidar mais pessoas**:
+Há pelo menos duas maneiras de contornar esse problema. Se você já ingressou em uma conferência dessa maneira (como Ken Myer DID), normalmente é possível solucionar o problema ao envolver uma modalidade diferente. Por exemplo, se você enviar uma mensagem instantânea, a janela de conversa mostrará todos os participantes da conferência, incluindo você:
 
-![Captura de tela da janela para convidar mais participantes do Lync](images/Dn383570.69b81b29-d1d2-4ed3-acb6-e37dd18e3d86(OCS.15).png "Captura de tela da janela para convidar mais participantes do Lync")
+![Captura de tela de conversa e lista de participantes do Lync] (images/Dn383570.9b5ff6d6-9f73-467c-99a7-ef3aa8bd7e7a(OCS.15).png "Captura de tela de conversa e lista de participantes do Lync")
 
-Isso abrirá a caixa de diálogo **Enviar uma Mensagem Instantânea**. Ignore o título da caixa de diálogo (você não está realmente enviando uma mensagem instantânea) e digite o número de telefone do telefone habilitado a Lync:
+Neste ponto, você poderá participar da reunião da maneira esperada.
 
-![Captura de tela da caixa de diálogo Enviar uma Mensagem Instantânea](images/Dn383570.cd67a3f0-06d8-41ba-a808-c067f64bec9f(OCS.15).png "Captura de tela da caixa de diálogo Enviar uma Mensagem Instantânea")
+Você também pode evitar esse problema alterando o modo como ingressa na reunião. Se você precisar fazer uma chamada no Lync Server para um telefone habilitado pelo Lync Server, você deve começar entrando na reunião sem uma conexão de áudio. Para fazer isso, selecione não ingressar no áudio quando aparecer a caixa de diálogo ingressar no áudio da reunião:
 
-Após clicar em **OK**, o Lync Server ligará para o número digitado na caixa de diálogo. Quando a conexão for realizada, você terá recursos de áudio completos através do telefone habilitado ao Lync e poderá ver e interagir com todos os participantes da conferência.
+A ![captura de tela da janela de áudio do Lync não ingressa na reunião] A (images/Dn383570.280a148d-cce5-4b02-87f9-9f78f17a81c1(OCS.15).png "captura de tela da janela de áudio do Lync não ingressa na reunião")
+
+Depois de conectar-se à reunião com êxito, agora você pode "convidar" o telefone habilitado para Lync Server para ingressar na reunião também. Para fazer isso, coloque o mouse sobre o ícone pessoas e clique em **convidar mais pessoas**:
+
+![Captura de tela de mais participantes do Lync INVITE] (images/Dn383570.69b81b29-d1d2-4ed3-acb6-e37dd18e3d86(OCS.15).png "Captura de tela de mais participantes do Lync INVITE")
+
+Isso exibirá a caixa de diálogo **Enviar uma mensagem instantânea** . Ignore o título da caixa de diálogo (você não está enviando uma mensagem instantânea) e digite o número de telefone do telefone compatível com o Lync:
+
+![Enviar uma captura de tela de caixa de diálogo Enviar mensagem instantânea] (images/Dn383570.cd67a3f0-06d8-41ba-a808-c067f64bec9f(OCS.15).png "Enviar uma captura de tela de caixa de diálogo Enviar mensagem instantânea")
+
+Depois que você clicar em **OK**, o Lync Server chamará o número inserido na caixa de diálogo. Quando a conexão for feita, você terá recursos de áudio completos por meio do telefone compatível com o Lync e poderá ver e interagir com a lista completa de conferências.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

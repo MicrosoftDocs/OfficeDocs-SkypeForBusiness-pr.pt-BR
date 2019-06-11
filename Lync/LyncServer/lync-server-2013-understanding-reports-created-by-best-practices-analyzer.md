@@ -1,61 +1,99 @@
-﻿---
-title: Entendendo os relatórios criados pelo Analisador de Práticas Recomendadas
-TOCTitle: Entendendo os relatórios criados pelo Analisador de Práticas Recomendadas
-ms:assetid: 1386dd6c-7f3e-4da9-905b-cef1468bf14a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg591344(v=OCS.15)
-ms:contentKeyID: 49305955
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Noções básicas sobre relatórios criados pelo analisador de práticas recomendadas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Understanding reports created by Best Practices Analyzer
+ms:assetid: 1386dd6c-7f3e-4da9-905b-cef1468bf14a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591344(v=OCS.15)
+ms:contentKeyID: 48183471
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0903c3bafc4017d5455c188c66de3e1f2cf0b178
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844571"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Entendendo os relatórios criados pelo Analisador de Práticas Recomendadas
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-10_
+# <a name="understanding-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a>Noções básicas sobre relatórios criados pelo analisador de práticas recomendadas no Lync Server 2013
 
-O Analisador de Práticas Recomendadas fornece vários tipos de relatórios, organizados para facilitar a análise e a solução de problemas. O Analisador identifica problemas como erros, avisos e outras informações.
+</div>
 
-## Relatórios
+<div id="mainSection">
 
-Você pode acessar os resultados de uma varredura exibindo cada um dos seguintes relatórios:
+<div id="mainBody">
 
-  - **Relatórios de lista**   Relatórios de lista são organizados por um critério específico. Você pode organizar os resultados por classe, gravidade ou problema. Por exemplo, se você organizar os resultados por classe, os problemas relacionados a Diretores serão incluídos sob a seção Diretores do relatório. Você pode exibir todos os problemas ou somente os itens informativos. Você pode pesquisar um relatório de lista por itens específicos, como memória e também pode imprimir ou exportar o relatório.
+<span> </span>
 
-  - **Relatórios em árvore**   Relatórios em árvore são organizados pelas regras usadas para executar a varredura e outras opções especificadas no momento em que a varredura foi executada. Por exemplo, problemas relacionados a regras da Topologia de Teste são incluídos sob a seção Topologia de Teste do relatório. Você pode exibir detalhes de todos os problemas ou somente um resumo. Você pode pesquisar um relatório em lista por itens específicos, como memória e também pode imprimir ou exportar o relatório.
+_**Tópico da última modificação:** 2012-10-10_
 
-  - **Outros relatórios**   Itens em outros relatórios incluem o log do tempo de execução das tarefas incluídas na varredura. Você pode pesquisar os itens em outros relatórios por itens específicos, como memória e também pode imprimir ou exportar o relatório.
+O analisador de práticas recomendadas fornece vários tipos de relatórios organizados para facilitar a análise e a resolução de problemas. O analisador de práticas recomendadas identifica problemas como erros, avisos e outras informações.
 
-## Problemas
+<div>
 
-Os relatórios gerados pelo Analisador de Práticas Recomendadas indicam problemas específicos identificados durante a varredura do seu ambiente, incluindo os seguintes tipos:
+## <a name="reports"></a>Gerente
 
-  - **Erros**   Problemas críticos que exigem uma alteração no ambiente. Por exemplo, se os Componentes Principais do Lync Server 2013 não estiverem instalados, um erro é registrado no log.
+Você pode acessar os resultados de uma verificação exibindo cada um dos seguintes relatórios:
+
+  - **** Relatórios de lista relatórios de lista são organizados por critérios específicos.    Você pode organizar os resultados por classe, severidade ou problema. Por exemplo, se você organizar os resultados por classe, os problemas relacionados a directors serão incluídos na seção directors do relatório. Você pode ver todos os problemas ou apenas os itens informativos. Você pode pesquisar um relatório de lista para itens específicos, como memória. Você também pode imprimir o relatório ou exportá-lo.
+
+  - **** Relatórios de árvore relatórios em árvore são organizados por regras que são usadas para executar a verificação e outras opções que você especificou no momento em que a verificação foi executada.    Por exemplo, os problemas relacionados às regras de topologia de teste são incluídos na seção de topologia de teste do relatório. Você pode ver os detalhes de todos os problemas ou apenas um resumo dos problemas. Você pode pesquisar um relatório de árvore para itens específicos, como memória. Você também pode imprimir o relatório ou exportá-lo.
+
+  - **Outros**   itens de relatórios em outros relatórios incluem o log de tarefas em tempo de execução que foram incluídos na verificação. Você pode pesquisar itens específicos, como memória, para pesquisar itens em outros relatórios. Você também pode imprimir o relatório ou exportá-lo.
+
+</div>
+
+<div>
+
+## <a name="issues"></a>Assuntos
+
+Os relatórios gerados pelo analisador de práticas recomendadas indicam problemas específicos identificados durante a verificação do seu ambiente, incluindo os seguintes tipos de problemas:
+
+  - **Erros**   problemas críticos que exigem que você faça uma alteração no ambiente. Por exemplo, se os componentes principais do Lync Server 2013 não estiverem instalados, um erro será registrado.
     
-    Problemas classificados como erros são identificados no relatório por um símbolo X vermelho. Erros são exibidos na guia **Todos os Problemas** do modo de exibição **Relatórios de Lista** e nas guias **Exibição Detalhada** e **Exibição de Resumo** do modo de exibição **Relatórios em Árvore**. Se você não deseja ver um erro específico em um relatório, pode especificar que o erro não seja exibido para uma única instância ou para todas as instâncias do erro no relatório. O erro é então exibido somente na guia **Itens Ocultos** do modo de exibição **Outros Relatórios**, a menos que você altere a configuração e especifique que o erro seja exibido no relatório.
+    Os problemas classificados como erros são identificados no relatório por um símbolo X vermelho. Os erros são exibidos na guia **todos os problemas** do modo de exibição **relatórios de lista** e na guia modo de **exibição detalhado** e na guia modo de exibição de **Resumo** do modo de exibição relatórios em **árvore** . Se você não quiser ver um erro específico em um relatório, você pode especificar que o erro não seja mostrado para uma instância única ou para todas as instâncias desse erro no relatório. O erro é exibido apenas na guia **itens ocultos** do modo de exibição **outros relatórios** , a menos que você altere a configuração e especifique que o erro seja exibido no relatório.
 
-  - **Avisos**   Problemas que não são consistentes com a implementação de uma prática recomendada. Isso pode ou não indicar a necessidade de uma alteração no ambiente. O problema pode ser conhecido com uma configuração específica que não precisa ser alterada. Por exemplo, serviços que não são iniciados em um servidor são registrados em log como avisos.
+  - **Avisos**   sobre problemas que não são consistentes com a implementação de uma prática recomendada. Isso pode ou não indicar a necessidade de uma alteração no ambiente. O problema pode ser um problema conhecido com uma configuração específica que você não precisa alterar. Por exemplo, os serviços que não são iniciados em um servidor são registrados como avisos.
     
-    Problemas classificados como avisos são identificados no relatório com um símbolo de aviso triangular amarelo. Avisos são exibidos na guia **Todos os Problemas** do modo de exibição **Relatórios de Lista**, bem como nas guias **Exibição Detalhada** e **Exibição de Resumo** do modo de exibição **Relatórios em Árvore**. Se você não deseja ver um erro específico em um relatório, pode especificar que o erro não seja exibido para uma única instância ou para todas as instâncias do erro no relatório. O aviso é então exibido somente na guia **Itens Ocultos** do modo de exibição **Outros Relatórios**, a menos que você altere a configuração e especifique que o aviso seja exibido no relatório.
+    Os problemas classificados como avisos são identificados no relatório por um símbolo de aviso amarelo triangular. Os avisos são exibidos na guia **todos os problemas** do modo de exibição **relatórios de lista** , bem como na guia modo de **exibição detalhado** e na guia modo de exibição de **Resumo** do modo de exibição relatórios em **árvore** . Se você não quiser ver um erro específico em um relatório, você pode especificar que o erro não seja mostrado para uma instância única ou para todas as instâncias desse erro no relatório. O aviso é exibido apenas na guia **itens ocultos** do modo de exibição **outros relatórios** , a menos que você altere a configuração e especifique que o aviso seja exibido no relatório.
 
-  - **Informações**   Inclui todos os problemas que não são classificados como erros ou avisos. Por exemplo, o número de objetos de servidor Lync Server 2013 Standard Edition no Serviços de Domínio Active Directory é classificado como informação.
+  - **As informações**   incluem todos os problemas não classificados como erros ou avisos. Por exemplo, o número de objetos do servidor do Lync Server 2013 Standard Edition nos serviços de domínio Active Directory é classificado como um problema de informações.
     
-    Informações são exibidas na guia **Todos os Problemas** do modo de exibição **Relatórios de Lista** e na guia **Exibição Detalhada** do modo de exibição **Relatórios em Árvore**.
+    Problemas de informações são exibidos na guia **todos os problemas** do modo de exibição **relatórios de lista** e na guia modo de **exibição detalhado** do modo de exibição **relatórios em árvore** .
 
-O Analisador de Práticas Recomendadas do Lync Server 2013 não faz alterações no ambiente para resolver problemas. A varredura somente detecta possíveis problemas e fornece relatórios que contêm informações sobre como resolver cada um deles.
+O Lync Server 2013, o analisador de práticas recomendadas não faz alterações no seu ambiente para resolver problemas. A verificação detecta apenas possíveis problemas e fornece relatórios que contêm informações sobre como resolver cada problema.
 
-Ao clicar em um problema, uma explicação e algumas opções são exibidas para problemas específicos. Assim, você pode:
+Se você clicar em um problema, uma explicação e algumas opções serão exibidas para problemas específicos. Em seguida, você pode fazer o seguinte:
 
-  - Encontrar informações mais detalhadas sobre o problema e sobre como resolvê-lo.
+  - Encontre informações mais detalhadas sobre o problema e como resolvê-lo.
 
-  - Interromper a exibição de problemas em relatórios:
+  - Parar de mostrar problemas nos relatórios:
     
-      - Interromper a exibição de problemas para a instância selecionada.
+      - Parar de mostrar problemas para a instância selecionada.
     
-      - Interromper a exibição de problemas para todas as instâncias daquele problema.
+      - Pare de mostrar problemas para todas as ocorrências desse problema.
     
-    Para ver os problemas para os quais a exibição nos relatórios foi interrompida, vá até a guia **Itens Ocultos** do modo de exibição **Outros Relatórios**. Neste local você pode especificar para iniciar a exibição de problemas nos relatórios novamente.
+    Para ver os problemas que você parou de mostrar nos relatórios, acesse a guia **itens ocultos** do modo de exibição **outros relatórios** . A partir daí, você pode especificar para começar a mostrar problemas nos relatórios novamente.
 
-Para detalhes sobre como resolver problemas específicos, consulte [Analisando e Resolvendo Problemas Identificados pelo Analisador de Práticas Recomendadas](lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md).
+Para obter detalhes sobre como resolver problemas específicos, consulte [analisando e resolvendo problemas identificados pelo analisador de práticas recomendadas no Lync Server 2013](lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
