@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabela MediaList'
-TOCTitle: Tabela MediaList
-ms:assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398279(v=OCS.15)
-ms:contentKeyID: 49306086
-ms.date: 07/13/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabela MediaList'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: MediaList table
+ms:assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398279(v=OCS.15)
+ms:contentKeyID: 48183579
+ms.date: 07/12/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f4fa53ff1ce4ce419a4e7a29124593c7b01006a3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827267"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabela MediaList no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-07-12_
+# <a name="medialist-table-in-lync-server-2013"></a><span data-ttu-id="34908-102">Tabela MediaList no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="34908-102">MediaList table in Lync Server 2013</span></span>
 
-MediaList é uma tabela estática que armazena a lista de vários tipos de mídia.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="34908-103">_**Tópico da última modificação:** 2016-07-12_</span><span class="sxs-lookup"><span data-stu-id="34908-103">_**Topic Last Modified:** 2016-07-12_</span></span>
+
+<span data-ttu-id="34908-104">MediaList é uma tabela estática que armazena a lista de vários tipos de mídia.</span><span class="sxs-lookup"><span data-stu-id="34908-104">The MediaList table is a static table that stores the list of various media types.</span></span>
 
 
 <table>
@@ -27,34 +47,49 @@ MediaList é uma tabela estática que armazena a lista de vários tipos de mídi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Coluna</th>
-<th>Tipo de dados</th>
-<th>Chave/Índice</th>
-<th>Detalhes</th>
+<th><span data-ttu-id="34908-105">Coluna</span><span class="sxs-lookup"><span data-stu-id="34908-105">Column</span></span></th>
+<th><span data-ttu-id="34908-106">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="34908-106">Data Type</span></span></th>
+<th><span data-ttu-id="34908-107">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="34908-107">Key/Index</span></span></th>
+<th><span data-ttu-id="34908-108">Detalhes</span><span class="sxs-lookup"><span data-stu-id="34908-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>MediaId</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p>Primário</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="34908-109"><strong>MediaId</strong></span><span class="sxs-lookup"><span data-stu-id="34908-109"><strong>MediaId</strong></span></span></p></td>
+<td><p><span data-ttu-id="34908-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="34908-110">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="34908-111">Primária</span><span class="sxs-lookup"><span data-stu-id="34908-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="34908-112">Valores: 1-7</span><span class="sxs-lookup"><span data-stu-id="34908-112">Values: 1-7</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Media</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p></p></td>
-<td><p>Valores permitidos:</p>
+<td><p><span data-ttu-id="34908-113"><strong>Media</strong></span><span class="sxs-lookup"><span data-stu-id="34908-113"><strong>Media</strong></span></span></p></td>
+<td><p><span data-ttu-id="34908-114">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="34908-114">nvarchar(256)</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="34908-115">Mapeamento estático dos valores de MediaID e Media:</span><span class="sxs-lookup"><span data-stu-id="34908-115">Static mapping of MediaID and Media values:</span></span></p>
 <ul>
-<li><p>1 – IM</p></li>
-<li><p>2 – Transferência de arquivos</p></li>
-<li><p>3 – Assistência Remota</p></li>
-<li><p>4 – Compartilhamento de Aplicativos</p></li>
-<li><p>5 – Áudio</p></li>
-<li><p>6 – Vídeo</p></li>
-<li><p>7 – Convite do Aplicativo</p></li>
+<li><p><span data-ttu-id="34908-116">1 – MENSAGEM INSTANTÂNEA</span><span class="sxs-lookup"><span data-stu-id="34908-116">1 – IM</span></span></p></li>
+<li><p><span data-ttu-id="34908-117">2 – Transferência de arquivo</span><span class="sxs-lookup"><span data-stu-id="34908-117">2 – File Transfer</span></span></p></li>
+<li><p><span data-ttu-id="34908-118">3 – Assistência remota</span><span class="sxs-lookup"><span data-stu-id="34908-118">3 – Remote Assistance</span></span></p></li>
+<li><p><span data-ttu-id="34908-119">4 – Compartilhamento de aplicativos</span><span class="sxs-lookup"><span data-stu-id="34908-119">4 – Application Sharing</span></span></p></li>
+<li><p><span data-ttu-id="34908-120">5 – áudio</span><span class="sxs-lookup"><span data-stu-id="34908-120">5 – Audio</span></span></p></li>
+<li><p><span data-ttu-id="34908-121">6 – vídeo</span><span class="sxs-lookup"><span data-stu-id="34908-121">6 – Video</span></span></p></li>
+<li><p><span data-ttu-id="34908-122">7 – Convite do aplicativo</span><span class="sxs-lookup"><span data-stu-id="34908-122">7 – App Invite</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+<span data-ttu-id="34908-123">Se você está tentando determinar o tipo de modalidade dos valores em LcsCDR.SessionDetailsView.MediaTypes, use o seguinte snippet Join: </span><span class="sxs-lookup"><span data-stu-id="34908-123">If you are trying to determine the modality type for the values in LcsCDR.SessionDetailsView.MediaTypes, then you need to use the following Join snippet:</span></span>
+
+    LEFT JOIN on Media.MediaId = MediaList.MediaId
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

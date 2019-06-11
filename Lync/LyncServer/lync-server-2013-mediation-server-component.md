@@ -1,72 +1,113 @@
-﻿---
-title: 'Lync Server 2013: Componente do Servidor de Mediação'
-TOCTitle: Componente do Servidor de Mediação
-ms:assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398399(v=OCS.15)
-ms:contentKeyID: 49306817
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: componente do servidor de mediação'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mediation Server component
+ms:assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398399(v=OCS.15)
+ms:contentKeyID: 48184239
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a1f3476f8b4e99b2abccb67f1d75446a126df03d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827225"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Componente do Servidor de Mediação no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-21_
+# <a name="mediation-server-component-in-lync-server-2013"></a><span data-ttu-id="40d21-102">Componente servidor de mediação no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40d21-102">Mediation Server component in Lync Server 2013</span></span>
 
-Você deverá implantar o Lync Server 2013, Servidor de Mediação se implantar a carga de trabalho do Enterprise Voice. Esta seção descreve a funcionalidade básica, as dependências, as topologias básicas e as diretrizes de planejamento.
+</div>
 
-O Servidor de Mediação converte a sinalização e, em algumas configurações, a mídia entre seu Lync Server 2013 interno, a infraestrutura do Enterprise Voice e um gateway PSTN (rede telefônica pública comutada) ou um tronco do protocolo SIP. No lado do Lync Server 2013, o Servidor de Mediação escuta em um único endereço de transporte MTLS (TLS mútuo). No lado do gateway, o Servidor de Mediação escuta em todas as portas de escuta associadas a troncos definidos no documento da topologia. Todos os gateways qualificados devem oferecer suporte a TLS, mas também podem habilitar TCP. TCP tem suporte em gateways que não oferecem suporte a TLS.
+<div id="mainSection">
 
-Se você também tiver um PBX (Public Branch Exchange) existente no seu ambiente, o Servidor de Mediação manipulará chamadas entre os usuários do Enterprise Voice e o PBX. Se o PBX for um IP-PBX, você poderá criar uma conexão SIP direta entre o PBX e o Servidor de Mediação. Se o PBX for um TDM (Time Division Multiplex) PBX, você também deverá implantar um gateway PSTN entre o PBX e o Servidor de Mediação.
+<div id="mainBody">
 
-O Servidor de Mediação é colocado no Servidor Front-End por padrão. O Servidor de Mediação também pode ser implantado em um pool autônomo por motivos de desempenho ou quando você implanta o entroncamento SIP, caso em que o pool autônomo é altamente recomendável.
+<span> </span>
 
-Se você implantar conexões SIP diretas com um gateway PSTN qualificado que oferece suporte a bypass de mídia e balanceamento de carga DNS, um pool do Servidor de Mediação autônomo não será necessário. Um Pool do servidor de mediação autônomo não é necessário porque os gateways qualificados são capazes de balancear a carga DNS para um pool de Servidores de Mediação e eles podem receber o tráfego de qualquer Servidor de Mediação em um pool.
+<span data-ttu-id="40d21-103">_**Tópico da última modificação:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="40d21-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-Nós também recomendamos que você coloque o Servidor de Mediação em um Pool de Front-Ends quando tiver implantado IP-PBXs ou conecte-se a um Controlador de Borda da Sessão (SBC) do Provedor do servidor de telefonia Internet, contanto que as seguintes condições sejam cumpridas:
+<span data-ttu-id="40d21-104">Você deve implantar o Lync Server 2013, o servidor de mediação se implantar a carga de trabalho do Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="40d21-104">You must deploy Lync Server 2013, Mediation Server if you deploy the Enterprise Voice workload.</span></span> <span data-ttu-id="40d21-105">Esta seção descreve funcionalidade básica, dependências, topologias básicas e diretrizes de planejamento.</span><span class="sxs-lookup"><span data-stu-id="40d21-105">This section describes basic functionality, dependencies, basic topologies, and planning guidelines.</span></span>
 
-  - O IP-PBX ou o SBC está configurado para receber tráfego de qualquer Servidor de Mediação no pool e pode direcionar o tráfego uniformemente para todos os Servidor de Mediação no pool.
+<span data-ttu-id="40d21-106">O servidor de mediação traduz a sinalização e, em algumas configurações, mídia entre a sua rede do Lync Server 2013, a infraestrutura do Enterprise Voice e um gateway de rede telefônica pública comutada (PSTN) ou um tronco de protocolo de iniciação de sessão (SIP).</span><span class="sxs-lookup"><span data-stu-id="40d21-106">The Mediation Server translates signaling and, in some configurations, media between your internal Lync Server 2013, Enterprise Voice infrastructure and a public switched telephone network (PSTN) gateway or a Session Initiation Protocol (SIP) trunk.</span></span> <span data-ttu-id="40d21-107">Na 2013 do Lync Server, o servidor de mediação escuta em um único endereço de transporte de protocolo NNTP (MTLS) mútuo.</span><span class="sxs-lookup"><span data-stu-id="40d21-107">On the Lync Server 2013 side, Mediation Server listens on a single mutual TLS (MTLS) transport address.</span></span> <span data-ttu-id="40d21-108">No lado do gateway, o servidor de mediação escuta todas as portas de escuta associadas a troncos definidas no documento de topologia.</span><span class="sxs-lookup"><span data-stu-id="40d21-108">On the gateway side, Mediation Server listens on all associated listening ports associated with trunks defined in the Topology document.</span></span> <span data-ttu-id="40d21-109">Todos os gateways qualificados devem dar suporte a TLS, mas também podem habilitar o TCP.</span><span class="sxs-lookup"><span data-stu-id="40d21-109">All qualified gateways must support TLS, but can enable TCP as well.</span></span> <span data-ttu-id="40d21-110">O TCP é aceito para gateways que não dão suporte a TLS.</span><span class="sxs-lookup"><span data-stu-id="40d21-110">TCP is supported for gateways that do not support TLS.</span></span>
 
-  - O IP-PBX não suporta bypass de mídia, mas o Pool de Front-Ends hospedando o Servidor de Mediação pode lidar com a transcodificação de voz para chamadas nas quais o bypass de mídia não é aplicável.
+<span data-ttu-id="40d21-111">Se você também tiver um PBX (Exchange Branch Exchange) existente em seu ambiente, o servidor de mediação manipulará chamadas entre usuários do Enterprise Voice e o PBX.</span><span class="sxs-lookup"><span data-stu-id="40d21-111">If you also have an existing Public Branch Exchange (PBX) in your environment, Mediation Server handles calls between Enterprise Voice users and the PBX.</span></span> <span data-ttu-id="40d21-112">Se o seu PBX for um PBX IP, você poderá criar uma conexão SIP direta entre o PBX e o servidor de mediação.</span><span class="sxs-lookup"><span data-stu-id="40d21-112">If your PBX is an IP-PBX, you can create a direct SIP connection between the PBX and Mediation Server.</span></span> <span data-ttu-id="40d21-113">Se o seu PBX for um PBX TDM (Time Division multiplex), você também deve implantar um gateway PSTN entre o servidor de mediação e o PBX.</span><span class="sxs-lookup"><span data-stu-id="40d21-113">If your PBX is a Time Division Multiplex (TDM) PBX, you must also deploy a PSTN gateway between Mediation Server and the PBX.</span></span>
 
-É possível usar o Microsoft Lync Server 2013, Ferramenta de Planejamento para avaliar se Pool de Front-Ends onde você deseja posicionar o Servidor de Mediação pode lidar com a carga. Se o seu ambiente não pode cumprir estes requisitos, você deve implantar um Pool do servidor de mediação autônomo.
+<span data-ttu-id="40d21-114">O servidor de mediação é posicionado com o servidor front-end por padrão.</span><span class="sxs-lookup"><span data-stu-id="40d21-114">The Mediation Server is collocated with the Front End Server by default.</span></span> <span data-ttu-id="40d21-115">O servidor de mediação também pode ser implantado em um pool autônomo por motivos de desempenho, ou se você implantar o entroncamento SIP, caso em que o pool autônomo seja altamente recomendado.</span><span class="sxs-lookup"><span data-stu-id="40d21-115">The Mediation Server can also be deployed in a stand-alone pool for performance reasons, or if you deploy SIP trunking, in which case the stand-alone pool is strongly recommended.</span></span>
 
-Estas são as principais funções do Servidor de Mediação:
+<span data-ttu-id="40d21-116">Se você implantar conexões SIP diretas em um gateway PSTN qualificado que ofereça suporte ao bypass de mídia e ao balanceamento de carga de DNS, um pool autônomo do servidor de mediação não será necessário.</span><span class="sxs-lookup"><span data-stu-id="40d21-116">If you deploy Direct SIP connections to a qualified PSTN gateway that supports media bypass and DNS load balancing, a stand-alone Mediation Server pool is not necessary.</span></span> <span data-ttu-id="40d21-117">Um pool autônomo do servidor de mediação não é necessário porque gateways qualificados são capazes de balanceamento de carga de DNS para um pool de servidores de mediação e podem receber tráfego de qualquer servidor de mediação em um pool.</span><span class="sxs-lookup"><span data-stu-id="40d21-117">A stand-alone Mediation Server pool is not necessary because qualified gateways are capable of DNS load balancing to a pool of Mediation Servers and they can receive traffic from any Mediation Server in a pool.</span></span>
 
-  - Criptografia e descriptografia de SRTP no lado do Lync Server
+<span data-ttu-id="40d21-118">Também recomendamos que você colocar o servidor de mediação em um pool de front-end quando tiver implantado PBXs de IP ou conectar-se a um controlador de borda de sessão (SBC) do provedor de servidor de telefonia pela Internet, contanto que qualquer uma das seguintes condições seja atendida:</span><span class="sxs-lookup"><span data-stu-id="40d21-118">We also recommend that you collocate the Mediation Server on a Front End pool when you have deployed IP-PBXs or connect to an Internet Telephony Server Provider’s Session Border Controller (SBC), as long as any of the following conditions are met:</span></span>
 
-  - Conversão do SIP em TCP (para gateways que não oferecem suporte a TLS) para SIP em MTLS (TLS mútuo)
+  - <span data-ttu-id="40d21-119">O IP-PBX ou o SBC está configurado para receber tráfego de qualquer servidor de mediação no pool e pode rotear o tráfego uniformemente para todos os servidores de mediação no pool.</span><span class="sxs-lookup"><span data-stu-id="40d21-119">The IP-PBX or SBC is configured to receive traffic from any Mediation Server in the pool and can route traffic uniformly to all Mediation Servers in the pool.</span></span>
 
-  - Conversão de fluxos de mídia entre o Lync Server e o par de gateway do Servidor de Mediação
+  - <span data-ttu-id="40d21-120">O IP-PBX não é compatível com o bypass de mídia, mas o pool de front-end que hospeda o servidor de mediação pode manipular a transcodificação de voz para chamadas para as quais o bypass de mídia não se aplica.</span><span class="sxs-lookup"><span data-stu-id="40d21-120">The IP-PBX does not support media bypass, but the Front End pool that is hosting the Mediation Server can handle voice transcoding for calls to which media bypass does not apply.</span></span>
 
-  - Conexão de clientes externos à rede com componentes internos de ICE, que permitem a passagem de NATs e firewalls.
+<span data-ttu-id="40d21-121">Você pode usar o Microsoft Lync Server 2013, ferramenta de planejamento para avaliar se o pool de front-ends em que você deseja colocar o servidor de mediação pode manipular a carga.</span><span class="sxs-lookup"><span data-stu-id="40d21-121">You can use the Microsoft Lync Server 2013, Planning Tool to evaluate whether the Front End pool where you want to collocate the Mediation Server can handle the load.</span></span> <span data-ttu-id="40d21-122">Se o seu ambiente não puder atender a esses requisitos, você deve implantar um pool autônomo do servidor de mediação.</span><span class="sxs-lookup"><span data-stu-id="40d21-122">If your environment cannot meet these requirements, then you must deploy a stand-alone Mediation Server pool.</span></span>
 
-  - Atuação como intermediário nos fluxos de chamadas aos quais um gateway não oferece suporte, como chamadas de funcionários remotos em um cliente do Enterprise Voice
+<span data-ttu-id="40d21-123">As principais funções do servidor de mediação são as seguintes:</span><span class="sxs-lookup"><span data-stu-id="40d21-123">The main functions of the Mediation Server are as follows:</span></span>
 
-  - Em implantações que incluem tronco SIP, trabalho conjunto com o provedor de serviços de tronco SIP para oferecer suporte à PSTN, o que elimina a necessidade de um gateway PSTN
+  - <span data-ttu-id="40d21-124">Criptografar e descriptografar SRTP no lado do Lync Server</span><span class="sxs-lookup"><span data-stu-id="40d21-124">Encrypting and decrypting SRTP on the Lync Server side</span></span>
 
-A figura a seguir mostra os protocolos de sinalização e de mídia usados pelo Servidor de Mediação durante a comunicação com um gateway PSTN básico e a infraestrutura do Enterprise Voice.
+  - <span data-ttu-id="40d21-125">Convertendo SIP via TCP (para gateways que não são compatíveis com TLS) para SIP em TLS mútuo</span><span class="sxs-lookup"><span data-stu-id="40d21-125">Translating SIP over TCP (for gateways that do not support TLS) to SIP over mutual TLS</span></span>
 
-**Protocolos de sinalização e a mídia usados pelo Servidor de Mediação**
+  - <span data-ttu-id="40d21-126">Traduzir fluxos de mídia entre o Lync Server e o peer do gateway do servidor de mediação</span><span class="sxs-lookup"><span data-stu-id="40d21-126">Translating media streams between Lync Server and the gateway peer of the Mediation Server</span></span>
 
-![Diagrama dos protocolos do servidor de mediação](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "Diagrama dos protocolos do servidor de mediação")
+  - <span data-ttu-id="40d21-127">Conectando clientes que estão fora da rede para componentes ICE internos, que permitem a passagem de mídia de NAT e firewalls</span><span class="sxs-lookup"><span data-stu-id="40d21-127">Connecting clients that are outside the network to internal ICE components, which enable media traversal of NAT and firewalls</span></span>
+
+  - <span data-ttu-id="40d21-128">Atuar como intermediário para fluxos de chamadas aos quais um gateway não oferece suporte, como chamadas de trabalhadores remotos em um cliente Enterprise Voice</span><span class="sxs-lookup"><span data-stu-id="40d21-128">Acting as an intermediary for call flows that a gateway does not support, such as calls from remote workers on an Enterprise Voice client</span></span>
+
+  - <span data-ttu-id="40d21-129">Em implantações que incluem entroncamento SIP, trabalhando com o provedor de serviço de entroncamento SIP para fornecer suporte a PSTN, o que elimina a necessidade de um gateway PSTN</span><span class="sxs-lookup"><span data-stu-id="40d21-129">In deployments that include SIP trunking, working with the SIP trunking service provider to provide PSTN support, which eliminates the need for a PSTN gateway</span></span>
+
+<span data-ttu-id="40d21-130">A figura a seguir mostra os protocolos de sinalização e mídia usados pelo servidor de mediação durante a comunicação com um gateway PSTN básico e com a infraestrutura Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="40d21-130">The following figure shows the signaling and media protocols that are used by the Mediation Server when communicating with a basic PSTN gateway and the Enterprise Voice infrastructure.</span></span>
+
+<span data-ttu-id="40d21-131">**Protocolos de sinalização e a mídia usados pelo Servidor de Mediação**</span><span class="sxs-lookup"><span data-stu-id="40d21-131">**Signaling and media protocols used by the Mediation Server**</span></span>
+
+<span data-ttu-id="40d21-132">![Diagrama de protocolos do servidor] de mediação (images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "Diagrama de protocolos do servidor") de mediação</span><span class="sxs-lookup"><span data-stu-id="40d21-132">![Mediation Server Protocols diagram](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "Mediation Server Protocols diagram")</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Se você estiver usando TCP ou RTP/RTCP (em vez de SRTP ou SRTCP) na rede entre o gateway PSTN e o Servidor de Mediação, recomendamos que tome medidas para ajudar a garantir a segurança e a privacidade da rede.
+> <span data-ttu-id="40d21-133">Se você estiver usando TCP ou RTP/RTCP (em vez do SRTP ou SRTCP) na rede entre o gateway PSTN e o servidor de mediação, recomendamos que você tome medidas para ajudar a garantir a segurança e a privacidade da rede.</span><span class="sxs-lookup"><span data-stu-id="40d21-133">If you are using TCP or RTP/RTCP (instead of SRTP or SRTCP) on the network between the PSTN gateway and the Mediation Server, we recommend that you take measures to help ensure the security and privacy of the network.</span></span>
 
-## Nesta seção
 
-  - [Tronco M:N no Lync Server 2013](lync-server-2013-m-n-trunk.md)
 
-  - [Controle de admissão de chamada e Servidor de Mediação no Lync Server 2013](lync-server-2013-call-admission-control-and-mediation-server.md)
+</div>
 
-  - [9-1-1 Avançado (E9-1-1) e Servidor de Mediação no Lync Server 2013](lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md)
+<div>
 
-  - [Bypass de mídia e Servidor de Mediação no Lync Server 2013](lync-server-2013-media-bypass-and-mediation-server.md)
+## <a name="in-this-section"></a><span data-ttu-id="40d21-134">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="40d21-134">In This Section</span></span>
 
-  - [Componentes e topologias para o Servidor de Mediação no Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md)
+  - [<span data-ttu-id="40d21-135">Tronco M:N no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40d21-135">M:N trunk in Lync Server 2013</span></span>](lync-server-2013-m-n-trunk.md)
 
-  - [Orientações de implantação para Servidor de Mediação no Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+  - [<span data-ttu-id="40d21-136">Controle de admissão de chamada e Servidor de Mediação no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40d21-136">Call admission control and Mediation Server in Lync Server 2013</span></span>](lync-server-2013-call-admission-control-and-mediation-server.md)
+
+  - [<span data-ttu-id="40d21-137">9-1-1 Avançado (E9-1-1) e Servidor de Mediação no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40d21-137">Enhanced 9-1-1 (E9-1-1) and Mediation Server in Lync Server 2013</span></span>](lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md)
+
+  - [<span data-ttu-id="40d21-138">Bypass de mídia e Servidor de Mediação no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40d21-138">Media bypass and Mediation Server in Lync Server 2013</span></span>](lync-server-2013-media-bypass-and-mediation-server.md)
+
+  - [<span data-ttu-id="40d21-139">Componentes e topologias para o Servidor de Mediação no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40d21-139">Components and topologies for Mediation Server in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-mediation-server.md)
+
+  - [<span data-ttu-id="40d21-140">Diretrizes de implantação para o servidor de mediação no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40d21-140">Deployment guidelines for Mediation Server in Lync Server 2013</span></span>](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

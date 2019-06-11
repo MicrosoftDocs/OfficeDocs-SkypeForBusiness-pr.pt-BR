@@ -1,25 +1,45 @@
-﻿---
-title: Preencher o banco de dados de localização
-TOCTitle: Preencher o banco de dados de localização
-ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg413069(v=OCS.15)
-ms:contentKeyID: 49308692
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: popular o local do banco de dados'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Populate the location database
+ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413069(v=OCS.15)
+ms:contentKeyID: 48185939
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 08c1718c3d7ffdc79b82ac34016e79bf647ae6f3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824047"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Preencher o banco de dados de localização
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="populate-the-location-database-in-lync-server-2013"></a><span data-ttu-id="9146c-102">Preencher o banco de dados de localização no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9146c-102">Populate the location database in Lync Server 2013</span></span>
 
-Para localizar clientes automaticamente em uma rede, primeiro você precisa preencher o banco de dados de localização com um *mapa de conexões* de rede, que mapeia os elementos de rede para endereços residenciais (ou seja, ruas). Você pode usar subredes, pontos de acesso sem fio, opções e portas para definir o mapa de conexões.
+</div>
 
-É possível adicionar endereços ao banco de dados local individualmente ou em massa usando um arquivo CSV contendo os formatos de coluna descritos na tabela a seguir.
+<div id="mainSection">
 
-Se você usa um gateway de número da chamada de emergência (Emergency Location Identification Number - ELIN), inclua o ELIN no campo **CompanyName** para cada local. Você pode incluir diversos ELINs para cada local, separados por ponto e vírgula.
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="9146c-103">_**Tópico da última modificação:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="9146c-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+
+<span data-ttu-id="9146c-p101">Para localizar clientes automaticamente em uma rede, primeiro você precisa preencher o banco de dados de localização com um *mapa de conexões* de rede, que mapeia os elementos de rede para endereços residenciais (ou seja, ruas). Você pode usar sub-redes, pontos de acesso sem fio, opções e portas para definir o mapa de conexões.</span><span class="sxs-lookup"><span data-stu-id="9146c-p101">To automatically locate clients within a network, you first need to populate the location database with a network *wiremap*, which maps network elements to civic (that is, street) addresses. You can use subnets, wireless access points, switches, and ports to define the wiremap.</span></span>
+
+<span data-ttu-id="9146c-106">É possível adicionar endereços ao banco de dados local individualmente ou em massa usando um arquivo CSV contendo os formatos de coluna descritos na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="9146c-106">You can add addresses to the location database individually, or in bulk by using a CSV file that contains the column formats described in the following table.</span></span>
+
+<span data-ttu-id="9146c-p102">Se você usa um gateway de número da chamada de emergência (Emergency Location Identification Number - ELIN), inclua o ELIN no campo **CompanyName** para cada local. Você pode incluir diversos ELINs para cada local, separados por ponto e vírgula.</span><span class="sxs-lookup"><span data-stu-id="9146c-p102">If you use an Emergency Location Identification Number (ELIN) gateway, include the ELIN in the **CompanyName** field for each location. You can include multiple ELINs for each location, each separated by a semicolon.</span></span>
 
 
 <table>
@@ -29,104 +49,118 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento de rede</th>
-<th>Colunas obrigatórias</th>
+<th><span data-ttu-id="9146c-109">Elemento de rede</span><span class="sxs-lookup"><span data-stu-id="9146c-109">Network Element</span></span></th>
+<th><span data-ttu-id="9146c-110">Colunas obrigatórias</span><span class="sxs-lookup"><span data-stu-id="9146c-110">Required Columns</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Ponto de acesso sem fio</strong></p></td>
-<td><p>&lt;BSSID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</p>
-<p>…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</p></td>
+<td><p><span data-ttu-id="9146c-111"><strong>Ponto de acesso sem fio</strong></span><span class="sxs-lookup"><span data-stu-id="9146c-111"><strong>Wireless access point</strong></span></span></p></td>
+<td><p><span data-ttu-id="9146c-112">&lt;BSSID&gt;,&lt;Descrição&gt;,&lt;local&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;predirectional&gt;,...</span><span class="sxs-lookup"><span data-stu-id="9146c-112">&lt;BSSID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</span></span></p>
+<p><span data-ttu-id="9146c-113">... &lt;Streetname&gt;,&lt;StreetSuffix&gt;,&lt;monodirecional&gt;,&lt;cidade&gt;,&lt;estado&gt;,&lt;CEP&gt;,&lt;país&gt;</span><span class="sxs-lookup"><span data-stu-id="9146c-113">…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Subrede</strong></p></td>
-<td><p>&lt;Subnet&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</p>
-<p>…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</p></td>
+<td><p><span data-ttu-id="9146c-114"><strong>Sub-rede</strong></span><span class="sxs-lookup"><span data-stu-id="9146c-114"><strong>Subnet</strong></span></span></p></td>
+<td><p><span data-ttu-id="9146c-115">&lt;Sub-rede&gt;,&lt;Descrição&gt;,&lt;local&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;predirectional&gt;,...</span><span class="sxs-lookup"><span data-stu-id="9146c-115">&lt;Subnet&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</span></span></p>
+<p><span data-ttu-id="9146c-116">... &lt;Streetname&gt;,&lt;StreetSuffix&gt;,&lt;monodirecional&gt;,&lt;cidade&gt;,&lt;estado&gt;,&lt;CEP&gt;,&lt;país&gt;</span><span class="sxs-lookup"><span data-stu-id="9146c-116">…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Porta</strong></p></td>
-<td><p>&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;PortID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,…</p>
-<p>…&lt;PreDirectional&gt;,&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</p></td>
+<td><p><span data-ttu-id="9146c-117"><strong>Porta</strong></span><span class="sxs-lookup"><span data-stu-id="9146c-117"><strong>Port</strong></span></span></p></td>
+<td><p><span data-ttu-id="9146c-118">&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;portid&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt; HouseNumberSuffix&gt;,...</span><span class="sxs-lookup"><span data-stu-id="9146c-118">&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;PortID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,…</span></span></p>
+<p><span data-ttu-id="9146c-119">... &lt;Predirectional&gt;,&lt;streetname&gt;,&lt;StreetSuffix&gt;,&lt;monodirecional&gt;,&lt;cidade&gt;,&lt;estado&gt;,&lt;CEP&gt;,&lt; País&gt;</span><span class="sxs-lookup"><span data-stu-id="9146c-119">…&lt;PreDirectional&gt;,&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Opção</strong></p></td>
-<td><p>&lt;ChassisID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</p>
-<p>…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</p></td>
+<td><p><span data-ttu-id="9146c-120"><strong>Opção</strong></span><span class="sxs-lookup"><span data-stu-id="9146c-120"><strong>Switch</strong></span></span></p></td>
+<td><p><span data-ttu-id="9146c-121">&lt;ChassisID&gt;,&lt;Descrição&gt;,&lt;local&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;predirectional&gt;,...</span><span class="sxs-lookup"><span data-stu-id="9146c-121">&lt;ChassisID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</span></span></p>
+<p><span data-ttu-id="9146c-122">... &lt;Streetname&gt;,&lt;StreetSuffix&gt;,&lt;monodirecional&gt;,&lt;cidade&gt;,&lt;estado&gt;,&lt;CEP&gt;,&lt;país&gt;</span><span class="sxs-lookup"><span data-stu-id="9146c-122">…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-Se você não preencher o banco de dados local e o **Local necessário**na Política de Localização está definido para **Sim** ou **Isenção de Responsabilidade**, o cliente solicitará que o usuário insira um local manualmente.
+<span data-ttu-id="9146c-123">Se você não preencher o banco de dados local e o **Local necessário** na Política de Localização está definido para **Sim** ou **Isenção de Responsabilidade**, o cliente solicitará que o usuário insira um local manualmente.</span><span class="sxs-lookup"><span data-stu-id="9146c-123">If you do not populate the location database, and the **Location Required** in the Location Policy is set to **Yes** or **Disclaimer**, the client will prompt the user to enter a location manually.</span></span>
 
-Para obter detalhes sobre como preencher o banco de dados de localização, consulte a documentação do Shell de Gerenciamento do Lync Server para os cmdlets a seguir:
+<span data-ttu-id="9146c-124">Para obter detalhes sobre como preencher o banco de dados de localização, consulte a documentação do Shell de gerenciamento do Lync Server para os seguintes cmdlets:</span><span class="sxs-lookup"><span data-stu-id="9146c-124">For details about populating the location database, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - **Get-CsLisSubnet**
+  - <span data-ttu-id="9146c-125">**Get-CsLisSubnet**</span><span class="sxs-lookup"><span data-stu-id="9146c-125">**Get-CsLisSubnet**</span></span>
 
-  - **Set-CsLisSubnet**
+  - <span data-ttu-id="9146c-126">**Set-CsLisSubnet**</span><span class="sxs-lookup"><span data-stu-id="9146c-126">**Set-CsLisSubnet**</span></span>
 
-  - Remove-CsLisSubnet
+  - <span data-ttu-id="9146c-127">Remove-CsLisSubnet</span><span class="sxs-lookup"><span data-stu-id="9146c-127">Remove-CsLisSubnet</span></span>
 
-  - **Get-CsLisWirelessAccessPoint**
+  - <span data-ttu-id="9146c-128">**Get-CsLisWirelessAccessPoint**</span><span class="sxs-lookup"><span data-stu-id="9146c-128">**Get-CsLisWirelessAccessPoint**</span></span>
 
-  - **Set-CsLisWirelessAccessPoint**
+  - <span data-ttu-id="9146c-129">**Set-CsLisWirelessAccessPoint**</span><span class="sxs-lookup"><span data-stu-id="9146c-129">**Set-CsLisWirelessAccessPoint**</span></span>
 
-  - **Remove-CsLisWirelessAccessPoint**
+  - <span data-ttu-id="9146c-130">**Remove-CsLisWirelessAccessPoint**</span><span class="sxs-lookup"><span data-stu-id="9146c-130">**Remove-CsLisWirelessAccessPoint**</span></span>
 
-  - **Get-CsLisSwitch**
+  - <span data-ttu-id="9146c-131">**Get-CsLisSwitch**</span><span class="sxs-lookup"><span data-stu-id="9146c-131">**Get-CsLisSwitch**</span></span>
 
-  - **Set-CsLisSwitch**
+  - <span data-ttu-id="9146c-132">**Set-CsLisSwitch**</span><span class="sxs-lookup"><span data-stu-id="9146c-132">**Set-CsLisSwitch**</span></span>
 
-  - **Remove-CsLisSwitch**
+  - <span data-ttu-id="9146c-133">**Remove-CsLisSwitch**</span><span class="sxs-lookup"><span data-stu-id="9146c-133">**Remove-CsLisSwitch**</span></span>
 
-  - **Get-CsLisPort**
+  - <span data-ttu-id="9146c-134">**Get-CsLisPort**</span><span class="sxs-lookup"><span data-stu-id="9146c-134">**Get-CsLisPort**</span></span>
 
-  - **Set-CsLisPort**
+  - <span data-ttu-id="9146c-135">**Set-CsLisPort**</span><span class="sxs-lookup"><span data-stu-id="9146c-135">**Set-CsLisPort**</span></span>
 
-  - **Remove-CsLisPort**
+  - <span data-ttu-id="9146c-136">**Remove-CsLisPort**</span><span class="sxs-lookup"><span data-stu-id="9146c-136">**Remove-CsLisPort**</span></span>
 
-## Para adicionar elementos de rede no banco de dados de localização
+<div>
 
-1.  Execute o seguinte cmdlet para adicionar um local de subrede ao banco de dados de localização.
+## <a name="to-add-network-elements-to-the-location-database"></a><span data-ttu-id="9146c-137">Para adicionar elementos de rede no banco de dados de localização</span><span class="sxs-lookup"><span data-stu-id="9146c-137">To add network elements to the location database</span></span>
+
+1.  <span data-ttu-id="9146c-138">Execute o seguinte cmdlet para adicionar um local de sub-rede ao banco de dados de localização.</span><span class="sxs-lookup"><span data-stu-id="9146c-138">Run the following cmdlet to add a subnet location to the location database.</span></span>
     
         Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    Para gateways de ELIN, informe o ELIN no campo CompanyName. Você pode incluir mais de um ELIN. Exemplo:
+    <span data-ttu-id="9146c-p103">Para gateways de ELIN, informe o ELIN no campo CompanyName. Você pode incluir mais de um ELIN. Exemplo:</span><span class="sxs-lookup"><span data-stu-id="9146c-p103">For ELIN gateways, put the ELIN in the CompanyName field. You can include more than one ELIN. For example:</span></span>
     
         Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    Alternativamente, é possível executar os cmdlets a seguir e usar um arquivo denominado "subnets.csv" para atualização em massa de locais de subrede.
+    <span data-ttu-id="9146c-142">Alternativamente, é possível executar os cmdlets a seguir e usar um arquivo denominado "subnets.csv" para atualização em massa de locais de sub-rede.</span><span class="sxs-lookup"><span data-stu-id="9146c-142">Alternately, you can run the following cmdlets and use a file named "subnets.csv" to bulk update subnet locations.</span></span>
     
         $g = Import-Csv subnets.csv
         $g | Set-CsLisSubnet
 
-2.  Execute o seguinte cmdlet para adicionar locais sem fio ao banco de dados de localização.
+2.  <span data-ttu-id="9146c-143">Execute o seguinte cmdlet para adicionar locais sem fio ao banco de dados de localização.</span><span class="sxs-lookup"><span data-stu-id="9146c-143">Run the following cmdlet to add wireless locations to the location database.</span></span>
     
         Set-CsLisWirelessAccessPoint -BSSID 0A-23-CD-16-AA-2E -Description "Wireless1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
     
-    Alternativamente, é possível executar os cmdlets a seguir e usar um arquivo denominado "waps.csv" para atualização em massa de locais sem fio.
+    <span data-ttu-id="9146c-144">Alternativamente, é possível executar os cmdlets a seguir e usar um arquivo denominado "waps.csv" para atualização em massa de locais sem fio.</span><span class="sxs-lookup"><span data-stu-id="9146c-144">Alternately, you can run the following cmdlets and use a file named "waps.csv" to bulk update wireless locations.</span></span>
     
         $g = Import-Csv waps.csv
         $g | Set-CsLisWirelessAccessPoint
 
-3.  Execute o seguinte cmdlet para adicionar locais de opções ao banco de dados de localização.
+3.  <span data-ttu-id="9146c-145">Execute o seguinte cmdlet para adicionar locais de opções ao banco de dados de localização.</span><span class="sxs-lookup"><span data-stu-id="9146c-145">Run the following cmdlet to add switch locations to the location database.</span></span>
     
         Set-CsLisSwitch-ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    Alternativamente, é possível executar os cmdlets a seguir e usar um arquivo denominado "switches.csv" para atualização em locais de switch.
+    <span data-ttu-id="9146c-146">Alternativamente, é possível executar os cmdlets a seguir e usar um arquivo denominado "switches.csv" para atualização em locais de switch.</span><span class="sxs-lookup"><span data-stu-id="9146c-146">Alternately, you can run the following cmdlets and use a file named "switches.csv" to bulk update switch locations.</span></span>
     
         $g = Import-Csv switches.csv
         $g | Set-CsLisSwitch
 
-4.  Execute o seguinte cmdlet para adicionar locais de porta ao banco de dados de localização
+4.  <span data-ttu-id="9146c-147">Execute o seguinte cmdlet para adicionar locais de porta ao banco de dados de localização</span><span class="sxs-lookup"><span data-stu-id="9146c-147">Run the following cmdlet to add port locations to the location database</span></span>
     
         Set-CsLisPort -ChassisID 0C-23-CD-16-AA-CC -PortID 0A-abcd -Description "Port1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
     
-    O padrão de PortIDSubType é LocallyAssigned. Você também pode definir para InterfaceAlias ou InterfaceName
+    <span data-ttu-id="9146c-p104">O padrão de PortIDSubType é LocallyAssigned. Você também pode definir para InterfaceAlias ou InterfaceName</span><span class="sxs-lookup"><span data-stu-id="9146c-p104">The default for PortIDSubType is LocallyAssigned. You can also set it to InterfaceAlias or InterfaceName</span></span>
     
-    Alternativamente, é possível executar os cmdlets a seguir e usar um arquivo denominado "ports.csv" para atualização em massa de locais de porta.
+    <span data-ttu-id="9146c-150">Alternativamente, é possível executar os cmdlets a seguir e usar um arquivo denominado "ports.csv" para atualização em massa de locais de porta.</span><span class="sxs-lookup"><span data-stu-id="9146c-150">Alternately, you can run the following cmdlets and use a file named "ports.csv" to bulk update port locations.</span></span>
     
         $g = Import-Csv ports.csv
         $g | Set-CsLisPort
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
