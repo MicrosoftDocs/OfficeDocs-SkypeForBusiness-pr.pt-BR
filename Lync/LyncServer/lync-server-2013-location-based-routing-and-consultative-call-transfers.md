@@ -1,33 +1,53 @@
-﻿---
-title: Roteamento com Base no Local e Transferências de Chamada Consultiva
-TOCTitle: Roteamento com Base no Local e Transferências de Chamada Consultiva
-ms:assetid: b12460c2-36c8-481f-b867-fe10dc1c0bdf
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn362836(v=OCS.15)
-ms:contentKeyID: 56270463
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: roteamento baseado em localização e transferências de chamadas consultivas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Location-Based Routing and consultative call transfers
+ms:assetid: b12460c2-36c8-481f-b867-fe10dc1c0bdf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362836(v=OCS.15)
+ms:contentKeyID: 56335089
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d7c7b73efb670c5569b8c4600c1759e981cda211
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828938"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Roteamento com Base no Local e Transferências de Chamada Consultiva
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="location-based-routing-and-consultative-call-transfers-in-lync-server-2013"></a>Roteamento baseado em localização e transferências de chamadas consultivas no Lync Server 2013
 
-Além de aplicar o Roteamento com Base no Local às reuniões do Lync, o aplicativo de Roteamento com Base no Local da Conferência impõe restrições de Roteamento com Base no Local em transferências de chamada consultiva provenientes dos pontos de extremidade PSTN. Uma transferência de chamada consultiva é estabelecida entre duas partes, na qual uma das partes transfere a chamada a um novo usuário. Por exemplo, uma extremidade PSTN liga para o usuário A (destinatário do Lync). O usuário A determina que o usuário PSTN deve ser encaminhado para o usuário B (usuário Lync). O usuário A coloca a chamada com o usuário PSTN em espera e liga para o usuário B. O usuário B concorda em falar com o usuário PSTN. O usuário A transfere a ligação eM espera para o usuário B.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-07-31_
+
+Além de aplicar o roteamento baseado em localização a reuniões do Lync, o aplicativo de conferência de roteamento baseado em localização impõe restrições de roteamento baseado em localização em transferências de chamadas consuldas que entram em pontos de extremidade PSTN. Uma transferência de chamada consultiva é estabelecida entre duas partes em que uma delas transfere a chamada para um novo usuário. Por exemplo, um ponto de extremidade PSTN chama o usuário A (chamado do Lync). O usuário A determina que o usuário PSTN deve ser encaminhado para o usuário B (usuário do Lync). O usuário A coloca a chamada com o usuário PSTN em espera e liga para o usuário B. O usuário B concorda em falar com o usuário PSTN. O usuário A transfere a chamada espera para o usuário B.
 
 **Fluxo da Transferência de Chamada Consultiva**
 
-![Diagrama de roteamento baseado em local para conferência](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "Diagrama de roteamento baseado em local para conferência")
+![Roteamento baseado em local para o diagrama de conferência] (images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "Roteamento baseado em local para o diagrama de conferência")
 
-Quando um usuário habilita o Roteamento com Base no Local ele inicia uma transferência de chamada consultiva de um ponto de extremidade PSTN (como mostrado na figura anterior), isso cria duas chamadas ativas, uma entre o usuário PSTN e o usuário Lync A, e outra entre o usuário Lync A e o usuário Lync B. O comportamento seguinte é imposto pelo aplicativo de Roteamento com Base no Local da Conferência:
+Quando um usuário habilitado para roteamento baseado em local inicia uma transferência de chamadas consultivas de um ponto de extremidade PSTN (conforme mostrado na figura anterior), isso cria duas chamadas ativas, uma chamada entre o usuário PSTN e o usuário do Lync A e a outra entre o usuário do Lync A e o usuário do Lync B. o comportamento a seguir é imposto pelo aplicativo de conferência de roteamento baseado em localização:
 
-  - Se o tronco SIP roteando a chamada PSTN for autorizado a reencaminhar essa chamada para um site da rede onde o usuário Lync B esteja localizado (i.e. destino da transferência), a transferência de chamada será permitida; do contrário, a transferência consultiva de chamada será bloqueada. Essa autorização é realizada quando a pessoa transferida está no mesmo local de rede que o tronco SIP roteando a chamada ativa do ponto de extremidade PSTN.
+  - Se o encaminhamento de tronco SIP a chamada PSTN estiver autorizada a redirecionar a chamada PSTN para o site de rede onde o usuário do Lync B (ou seja, destino da transferência) estiver localizado, a transferência de chamada será permitida; caso contrário, a transferência de chamadas consultivas será bloqueada. Essa autorização é realizada caso o local da parte transferida seja no mesmo local de rede do tronco SIP que está encaminhando a chamada ativa para o ponto de extremidade PSTN.
 
-  - Se o tronco SIP roteando a chamada de entrada PSTN não for autorizado a rotear chamadas para o local de rede onde a pessoa transferida (usuário Lync B) está localizada, ou a pessoa transferida estiver localizada em um local de rede desconhecido, a transferência de chamada consultiva para o ponto de extremidade PSTN (i.e., destino de transferência de chamada) será bloqueada.
+  - Se o tronco SIP que faz a chamada PSTN não estiver autorizado a encaminhar chamadas para o site de rede onde a parte transferida (usuário B do Lync) estiver localizada ou a parte transferidas estiver localizada em um site de rede desconhecido, a transferência de chamadas Consul para a PSTN o ponto de extremidade (ou seja, destino de transferência de chamada) será bloqueado.
 
-A tabela a seguir descreve como as restrições do Roteamento com Base no Local são aplicadas pelo aplicativo de Roteamento com Base no Local da Conferência para transferências de chamada consultiva. Embora pontos de extremidade PBX não sejam diretamente associados a um local de rede, o tronco SIP do PBX é conectado para poder ser atribuído a um local de rede. Portanto, o ponto de extremidade PBX pode ser indiretamente associado a um local de rede.
+A tabela a seguir descreve como as restrições de roteamento baseadas em localização são aplicadas pelo aplicativo de videoconferência baseado em localização para transferências de chamadas consultivas. Embora os pontos de extremidade PBX não estejam associados diretamente a um local de rede, o tronco SIP ao qual o PBX está conectado pode ser atribuído a um local de rede. Portanto, o ponto de extremidade PBX pode ser indiretamente associado a um local de rede.
 
 
 <table>
@@ -38,70 +58,81 @@ A tabela a seguir descreve como as restrições do Roteamento com Base no Local 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Site de rede da pessoa em chamada transferida</p></td>
-<td><p>Site de rede de destino de chamada transferida</p></td>
+<td><p>Local de rede da parte transferida da chamada</p></td>
+<td><p>Local de rede de destino da transferência de chamada</p></td>
 <td><p>Comportamento</p></td>
 </tr>
 <tr class="even">
-<td><p>Ponto de extremidade do PSTN</p></td>
-<td><p>Usuário Lync no mesmo local de rede (i.e. site 1)</p></td>
-<td><p>Transferência consultiva permitida</p></td>
+<td><p>Ponto de extremidade PSTN</p></td>
+<td><p>Usuário do Lync no mesmo local de rede (por exemplo, site 1)</p></td>
+<td><p>A transferência consultiva será permitida</p></td>
 </tr>
 <tr class="odd">
 <td><p>Ponto de extremidade PSTN</p></td>
-<td><p>Usuário Lync em diferentes locais de rede (i.e. site 2)</p></td>
-<td><p>Transferência consultiva não permitida</p></td>
+<td><p>Usuário do Lync em sites de rede diferentes (por exemplo, site 2)</p></td>
+<td><p>A transferência consultiva não será permitida</p></td>
 </tr>
 <tr class="even">
 <td><p>Ponto de extremidade PSTN</p></td>
-<td><p>Usuário Lync em um local de rede desconhecido</p></td>
-<td><p>Transferência consultiva não permitida</p></td>
+<td><p>Usuário do Lync em um site de rede desconhecido</p></td>
+<td><p>A transferência consultiva não será permitida</p></td>
 </tr>
 <tr class="odd">
 <td><p>Ponto de extremidade PSTN</p></td>
-<td><p>Usuário Lync Federado</p></td>
-<td><p>Transferência consultiva não permitida</p></td>
+<td><p>Usuário do Lync federado</p></td>
+<td><p>A transferência consultiva não será permitida</p></td>
 </tr>
 <tr class="even">
 <td><p>Ponto de extremidade PSTN</p></td>
-<td><p>Ponto de extremidade PBX no mesmo site (i.e. site 1)</p></td>
-<td><p>Transferência consultiva permitida</p></td>
+<td><p>Ponto de extremidade do PBX no mesmo local (isto é, local 1)</p></td>
+<td><p>A transferência consultiva será permitida</p></td>
 </tr>
 <tr class="odd">
 <td><p>Ponto de extremidade PSTN</p></td>
-<td><p>Ponto de extremidade PBX em sites diferentes (i.e. site 2)</p></td>
-<td><p>Transferência consultiva não permitida</p></td>
+<td><p>Ponto de extremidade PBX em locais diferentes (isto é, local 2)</p></td>
+<td><p>A transferência consultiva não será permitida</p></td>
 </tr>
 <tr class="even">
-<td><p>Ponto de extremidade do PBX no mesmo site (i.e. site 1)</p></td>
-<td><p>Ponto de extremidade do PSTN</p></td>
-<td><p>Transferência consultiva permitida</p></td>
-</tr>
-<tr class="odd">
-<td><p>Ponto de extremidade do PBX em sites diferentes (i.e. site 2)</p></td>
+<td><p>Ponto de extremidade do PBX no mesmo local (isto é, local 1)</p></td>
 <td><p>Ponto de extremidade PSTN</p></td>
-<td><p>Transferência consultiva não permitida</p></td>
-</tr>
-<tr class="even">
-<td><p>Ponto de extremidade PBX em qualquer site</p></td>
-<td><p>Usuário Lync no mesmo local de rede (i.e. site 1)</p></td>
-<td><p>Transferência consultiva permitida</p></td>
+<td><p>A transferência consultiva será permitida</p></td>
 </tr>
 <tr class="odd">
-<td><p>Ponto de extremidade PBX em qualquer site</p></td>
-<td><p>Usuário Lync em diferentes locais de rede (i.e. site 2)</p></td>
-<td><p>Transferência consultiva permitida</p></td>
+<td><p>Ponto de extremidade do PBX em locais diferentes (i.e. local 2)</p></td>
+<td><p>Ponto de extremidade PSTN</p></td>
+<td><p>A transferência consultiva não será permitida</p></td>
 </tr>
 <tr class="even">
-<td><p>Ponto de extremidade PBX em qualquer site</p></td>
-<td><p>Usuário Lync em um local de rede desconhecido</p></td>
-<td><p>Transferência consultiva permitida</p></td>
+<td><p>Ponto de extremidade PBX em qualquer local</p></td>
+<td><p>Usuário do Lync no mesmo local de rede (por exemplo, site 1)</p></td>
+<td><p>A transferência consultiva será permitida</p></td>
 </tr>
 <tr class="odd">
-<td><p>Ponto de extremidade PBX em qualquer site</p></td>
-<td><p>Usuário Lync Federado</p></td>
-<td><p>Transferência consultiva permitida</p></td>
+<td><p>Ponto de extremidade PBX em qualquer local</p></td>
+<td><p>Usuário do Lync em sites de rede diferentes (por exemplo, site 2)</p></td>
+<td><p>A transferência consultiva será permitida</p></td>
+</tr>
+<tr class="even">
+<td><p>Ponto de extremidade PBX em qualquer local</p></td>
+<td><p>Usuário do Lync em um site de rede desconhecido</p></td>
+<td><p>A transferência consultiva será permitida</p></td>
+</tr>
+<tr class="odd">
+<td><p>Ponto de extremidade PBX em qualquer local</p></td>
+<td><p>Usuário do Lync federado</p></td>
+<td><p>A transferência consultiva será permitida</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

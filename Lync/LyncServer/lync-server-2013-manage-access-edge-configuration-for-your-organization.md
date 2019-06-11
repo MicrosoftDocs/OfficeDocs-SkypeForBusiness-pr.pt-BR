@@ -1,46 +1,73 @@
-﻿---
-title: "Lync Server 2013: Gerenciar config. da borda de acesso p/ sua organização"
-TOCTitle: Gerenciar configuração da borda de acesso para sua organização
-ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ552443(v=OCS.15)
-ms:contentKeyID: 49305668
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Gerenciar configuração da borda de acesso para sua organização'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Manage Access Edge Configuration for your organization
+ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552443(v=OCS.15)
+ms:contentKeyID: 48679555
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 05d2bcca7836bd451b2535fb02c350facd7fc1bf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828915"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gerenciar configuração da borda de acesso para sua organização no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-11-01_
+# <a name="manage-access-edge-configuration-for-your-organization-in-lync-server-2013"></a>Gerenciar configuração da borda de acesso para sua organização no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-11-01_
 
 Esta documentação é preliminar e está sujeita a alterações. Os tópicos em branco são incluídos como espaços reservados.
 
-Após a implantação de um ou mais Servidores de Borda, é necessário habilitar os tipos de domínio externo ou acesso de provedor, acesso de usuário remoto e acesso de usuário anônimo às conferências por meio do Servidores de Borda que será suportado em sua organização.
+Após implantar um ou mais servidores Edge, você deve habilitar os tipos de acesso de domínio externo ou de provedor, acesso de usuário remoto e acesso de usuário anônimo a conferências por meio dos servidores de borda que terão suporte para sua organização.
 
-Essas opções incluem os seguintes tipos de acesso que podem ser configurados por meio da página **Configuração de Borda de Acesso** :
+Essas opções incluem os seguintes tipos de acesso que podem ser configurados por meio da página de **configuração de borda de acesso** :
 
-  - **Habilitar Federação e conectividade a Redes Públicas de IM**    Habilite essa opção se quiser suportar acesso do usuário a domínios de parceiro federado. Essa configuração se aplica à federação SIP e à federação XMPP configuradas para escopos global, site ou usuário na página **Política de Acesso Externo** . Para aplicar as configurações de federação, é necessário configurar o suporte à federação em ambas as páginas.
+  - **Habilite a Federação e a conectividade**   de mensagens de chat pública habilite isso se você quiser dar suporte ao acesso de usuários a domínios de parceiros federados. Essa configuração se aplica a agrupamentos SIP e a Federação XMPP configuradas para escopos global, de site ou de usuário na página **política de acesso externo** . Para que as configurações de Federação sejam aplicadas, você deve configurar o suporte de Federação em ambas as páginas.
     
-    Há duas configurações opcionais para o modo como os parceiros federados são descobertos, e se os avisos de isenção de arquivamento (notificação a contatos federados com os quais você se comunica de que sua implantação tem o arquivamento habilitado e de que os detalhes das comunicações serão arquivados) serão enviados aos contatos
+    Há duas opções que são configurações opcionais sobre como os parceiros federados são descobertos e se o arquivamento de avisos de isenção de responsabilidade (notificação para contatos federados nos quais você se comunica com a sua implantação tem o arquivamento habilitado e se as comunicações os detalhes serão arquivados) serão enviados aos contatos
     
-      - **Habilitar descoberta de domínios de parceiros**    Selecionar essa opção habilita a descoberta automática de domínios com os quais é possível federar. O Lync Server 2013 usa registros DNS (Sistema de Nome de Domínio) para tentar descobrir domínios não listados na lista de domínios permitidos, avaliando automaticamente o tráfego de entrada de parceiros federados descobertos e limitando ou bloqueando esse tráfego com base no nível de confiança, quantidade de tráfego e configurações de administrador. Se você não selecionar essa opção, o acesso do usuário federado será habilitado somente para usuários nos domínios que você incluir na lista de domínios permitidos. Mesmo que você não selecione essa opção, poderá especificar o bloqueio ou permissão de domínios individuais, incluindo a restrição do acesso a servidores específicos, executando o serviço Borda de Acesso no domínio federado. Para obter detalhes, consulte [Configurar suprote para domínios externos permitidos no Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).
+      - **Habilitar descoberta**   de domínio de parceiro selecionar essa opção permite a descoberta automática de domínios com os quais você pode federar. O Lync Server 2013 usa registros de sistema de nomes de domínio (DNS) para tentar descobrir domínios que não estão listados na lista de domínios permitidos, avaliando automaticamente o tráfego de entrada de parceiros federados descobertos e limitando ou bloqueando esse tráfego com base no nível de confiança. quantidade de tráfego e configurações do administrador. Se você não selecionar essa opção, o acesso do usuário federado será habilitado somente para os usuários nos domínios que você incluir na lista de domínios permitidos. Independentemente de você selecionar essa opção, você pode especificar que domínios individuais sejam bloqueados ou permitidos, incluindo a restrição de acesso a servidores específicos que executam o serviço de borda de acesso no domínio federado. Para obter detalhes, consulte [Configurar o suporte para domínios externos permitidos no Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).
     
-      - **Enviar aviso de isenção de responsabilidade de arquivamento para parceiros federados**    A seleção dessa opção habilita o envio de uma mensagem de isenção de responsabilidade do arquivamento aos parceiros federados que os orienta de que os detalhes das comunicações foram registrados. Se você arquivar comunicações externas com domínios de parceiro federados, deverá habilitar a notificação de aviso de isenção de responsabilidade de arquivamento a fim de avisar os parceiros de que suas mensagens e comunicações estão sendo arquivadas por sua implantação. Para obter detalhes sobre o arquivamento, consulte [Definindo seus requisitos para Arquivamento no Lync Server 2013](lync-server-2013-defining-your-requirements-for-archiving.md).
+      - **Enviar isenção de isenção de responsabilidade para parceiros**   federados selecionar essa opção permite o envio de uma mensagem de isenção de isenção de responsabilidade para parceiros federados que os aconselha que os detalhes de comunicação sejam gravados. Se você arquivar comunicações externas com domínios de parceiros federados, habilite a notificação de isenção de isenção de responsabilidade para avisar os parceiros de que suas mensagens e os detalhes de comunicação estão sendo arquivados pela sua implantação. Para obter detalhes sobre o arquivamento, consulte [definindo seus requisitos para arquivamento no Lync Server 2013](lync-server-2013-defining-your-requirements-for-archiving.md).
 
-  - **Habilitar acesso de usuário remoto**    Habilite essa opção se quiser que os usuários em sua organização que estiverem fora de seu firewall, como usuários remotos e em viagem, possam se conectar ao Lync Server. Para obter detalhes, consulte [Habilitar ou desabilitar acesso de usuário remoto no Lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md).
+  - **Habilitar o acesso**   de usuário remoto Habilite esta opção se você quiser que os usuários de sua organização que estão fora do seu firewall, como telecomutadores e usuários que estão viajando, possam se conectar ao Lync Server. Para obter detalhes, consulte [habilitar ou desabilitar o acesso de usuário remoto no Lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md).
 
-  - **Habilitar usuários anônimos para acessar conferências**    Habilite essa opção se quiser que os usuários internos convidem usuários anônimos externos para conferências que organizam. A habilitação dessa configuração permite apenas usuários anônimos para conferências. Para configurar a experiência de conferência e opções que definirão como e o que seus usuários podem fazer com as conferências e para a inclusão de usuários anônimos, consulte detalhes em [Criar ou modificar a experiência do usuário de conferência para um local ou grupo de usuários](https://technet.microsoft.com/pt-br/library/gg429715\(v=ocs.15\)) e [Referência das configurações da política de conferência para Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
+  - **Habilitar usuários anônimos para acessar conferências**   habilite essa opção se você quiser que os usuários internos convidem usuários anônimos externos para conferências que elas organizam. Habilitar essa configuração só permite usuários anônimos para conferências. Para configurar a experiência de conferência e as opções que definirão como e o que os usuários podem fazer com conferências e para a inclusão de usuários anônimos, consulte detalhes em [criar ou modificar a experiência do usuário de conferências para um site ou usuários](https://technet.microsoft.com/en-us/library/gg429715\(v=ocs.15\)) e [ Referência de configurações de política de conferência para o Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
+
+<div>
+
 
 > [!NOTE]  
-> Além de permitir o suporte ao acesso de usuário externo, você também configura políticas para controlar o uso do acesso de usuário remoto em sua organização antes de qualquer tipo de acesso de usuário externo ficar disponível para os usuários. Para obter detalhes sobre como criar, configurar e aplicar políticas de acesso para usuário externo, consulte <a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Gerenciar política de acesso externo no Lync Server 2013</a>.
+> Além de habilitar o suporte a acesso externo do usuário, você também pode configurar políticas para controlar o uso do acesso de usuários remotos em sua organização antes de qualquer tipo de acesso de usuário externo estar disponível para os usuários. Para obter detalhes sobre como criar, configurar e aplicar políticas para acesso externo a usuários, consulte <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">gerenciar a política de acesso externo no Lync Server 2013</A>.
 
-**Exibindo as informações de configuração da Borda de Acesso utilizando os cmdlets Windows PowerShell**
 
-  - As informações de configuração da Borda de Acesso podem ser exibidas utilizando os cmdlets Windows PowerShell e **Get-CsAccessEdgeConfiguration**. Este cmdlet pode ser executado a partir do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
+
+</div>
+
+**Exibindo informações de configuração de borda de acesso usando cmdlets do Windows PowerShell**
+
+  - As informações de configuração de borda de acesso podem ser exibidas usando o Windows PowerShell e o cmdlet **Get-CsAccessEdgeConfiguration** . Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
     
-    Para exibir informações sobre todas suas configurações de Borda de Acesso, digite o seguinte comando no Shell de Gerenciamento do Lync Server e pressione ENTER:
+    Para ver informações sobre todas as suas configurações de borda de acesso, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
     
         Get-CsAccessEdgeConfiguration
     
@@ -66,7 +93,9 @@ Essas opções incluem os seguintes tipos de acesso que podem ser configurados p
         CertificatesDeletedPercentage          : 20
         RoutingMethod                          : UseDnsSrvRouting
 
-## Nesta seção
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)
 
@@ -79,4 +108,16 @@ Essas opções incluem os seguintes tipos de acesso que podem ser configurados p
   - [Habilitar ou desabilitar acesso de usuário anônimo no Lync Server 2013](lync-server-2013-enable-or-disable-anonymous-user-access.md)
 
   - [Atribuir políticas de conferência para suporte de usuários anônimos no Lync Server 2013](lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

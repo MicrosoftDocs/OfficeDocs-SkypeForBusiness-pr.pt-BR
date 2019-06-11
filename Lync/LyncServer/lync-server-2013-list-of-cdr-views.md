@@ -1,21 +1,41 @@
-﻿---
-title: Lista de Exibições de CDR no Lync Server 2013
-TOCTitle: Lista de Exibições de CDR no Lync Server 2013
-ms:assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688009(v=OCS.15)
-ms:contentKeyID: 49886156
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: lista de modos de exibição de CDR'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: List of CDR views
+ms:assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688009(v=OCS.15)
+ms:contentKeyID: 49733598
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 112e565c07c685c1ecdf5db1d8a2de8717ba959e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828941"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lista de Exibições de CDR no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="list-of-cdr-views-in-lync-server-2013"></a>Lista de modos de exibição CDR no Lync Server 2013
 
-As exibições oferecem uma forma fácil de acessar informações sobre os cenários mais comuns usados para retornar dados do banco de dados CDR. É recomendado que você use exibições para construir relatórios personalizados ao invés de usar as tabelas do banco de dados CDR atual; isto ocorre porque as exibições dos banco de dados provavelmente irão manter a compatibilidade inversa com versões futuras do Lync Server.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-01_
+
+Os modos de exibição fornecem uma maneira fácil de acessar informações sobre os cenários mais comuns usados para retornar dados do banco de dados CDR. É recomendável que você use modos de exibição para criar relatórios personalizados em vez de usar as tabelas de banco de dados CDR reais; Isso porque os modos de exibição de banco de dados são mais prováveis de manter a compatibilidade com versões anteriores do Lync Server.
 
 
 <table>
@@ -25,75 +45,86 @@ As exibições oferecem uma forma fácil de acessar informações sobre os cená
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome de exibição</th>
+<th>Nome do modo de exibição</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-clientversions-view.md">Exibir ClientVersions</a></p></td>
-<td><p>Retorna informações sobre o software/dispositivos clientes usados em uma sessão de comunicação.</p></td>
+<td><p><a href="lync-server-2013-clientversions-view.md">Exibição ClientVersions no Lync Server 2013</a></p></td>
+<td><p>Retorna informações sobre o software/dispositivos cliente usados em uma sessão de comunicação.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-conferencemessagecount-view.md">Exibir ConferenceMessageCount</a></p></td>
+<td><p><a href="lync-server-2013-conferencemessagecount-view.md">Exibição ConferenceMessageCount no Lync Server 2013</a></p></td>
 <td><p>Retorna informações sobre o número de mensagens enviadas pelos usuários em uma conferência.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-conferences-view.md">Exibir Conferências</a></p></td>
-<td><p>Retorna informações de conferência, incluindo hora inicial, final e organizador da conferência.</p></td>
+<td><p><a href="lync-server-2013-conferences-view.md">Modo de exibição conferências no Lync Server 2013</a></p></td>
+<td><p>Retorna informações de conferência, incluindo a hora de início, a hora de término e o organizador de conferências.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-conferencesessiondetails-view.md">Exibir ConferenceSessionDetails</a></p></td>
-<td><p>Retorna detalhes da sessão para todas as sessões de conferência, incluindo hora inicial e final, IDs do usuário, códigos de resposta e IDs de diagnóstico.</p></td>
+<td><p><a href="lync-server-2013-conferencesessiondetails-view.md">Exibição ConferenceSessionDetails no Lync Server 2013</a></p></td>
+<td><p>Retorna detalhes de sessão para todas as sessões de conferência, incluindo hora de início e término, IDs de usuário, códigos de resposta e IDs de diagnóstico.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-conferenceuris-view.md">Exibir ConferenceUris</a></p></td>
-<td><p>Retorna informações sobre as URIs de conferência usadas em uma conferência</p></td>
+<td><p><a href="lync-server-2013-conferenceuris-view.md">Exibição ConferenceUris no Lync Server 2013</a></p></td>
+<td><p>Retorna informações sobre URIs de conferência usados em uma conferência</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-errorreport-view.md">Exibir ErrorReport</a></p></td>
+<td><p><a href="lync-server-2013-errorreport-view.md">Exibição ErrorReport no Lync Server 2013</a></p></td>
 <td><p>Retorna informações sobre erros ocorridos durante uma sessão.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-filetransfers-view.md">Exibir FileTransfers</a></p></td>
-<td><p>Retorna informações sobre sessões de transferência de arquivos, incluindo o nome do arquivo e se a transferência foi aceitada, rejeitada ou cancelada.</p></td>
+<td><p><a href="lync-server-2013-filetransfers-view.md">Modo de exibição de transferência de fileviews no Lync Server 2013</a></p></td>
+<td><p>Retorna informações sobre as sessões de transferência de arquivos, incluindo o nome do arquivo e se a transferência foi aceita, rejeitada ou cancelada.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-focusjoinsandleaves-view.md">Exibir FocusJoinsAndLeaves</a></p></td>
-<td><p>Retorna informações sobre as atividades de participação e saída da conferência.</p></td>
+<td><p><a href="lync-server-2013-focusjoinsandleaves-view.md">Exibição FocusJoinsAndLeaves no Lync Server 2013</a></p></td>
+<td><p>Retorna informações sobre atividades de ingressar em conferência e licença.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-mcujoinsandleaves-view.md">Exibir McuJoinsAndLeaves</a></p></td>
-<td><p>Retorna informação combinada sobre as atividades de participação e saída da conferência (cada participação da conferência é emparelhada com a saída correspondente).</p></td>
+<td><p><a href="lync-server-2013-mcujoinsandleaves-view.md">Exibição McuJoinsAndLeaves no Lync Server 2013</a></p></td>
+<td><p>Retorna informações combinadas sobre atividades de ingressar em conferência e licença (cada junção de conferência está emparelhada com a saída de conferência correspondente).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-mcus-view.md">Exibir Mcus</a></p></td>
-<td><p>Retorna informações sobre os servidores de Conferência.</p></td>
+<td><p><a href="lync-server-2013-mcus-view.md">Exibição MCUs no Lync Server 2013</a></p></td>
+<td><p>Retorna informações sobre servidores de conferência.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-media-view.md">Exibir Media</a></p></td>
-<td><p>Retorna informações sobre os tipos de mídia usados nas sessões de comunicação ponto a ponto.</p></td>
+<td><p><a href="lync-server-2013-media-view.md">Modo de exibição de mídia no Lync Server 2013</a></p></td>
+<td><p>Retorna informações sobre os tipos de mídia usados em sessões de comunicação ponto a ponto.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-progressreport-view.md">Exibir ProgressReport</a></p></td>
-<td><p>Retorna informações sobre as sessões concluídas.</p></td>
+<td><p><a href="lync-server-2013-progressreport-view.md">Exibição ProgressReport no Lync Server 2013</a></p></td>
+<td><p>Retorna informações sobre sessões concluídas.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-registration-view.md">Exibir Registro</a></p></td>
-<td><p>Retorna informações sobre os registros com o Lync Server.</p></td>
+<td><p><a href="lync-server-2013-registration-view.md">Modo de exibição de registro no Lync Server 2013</a></p></td>
+<td><p>Retorna informações sobre registros com o Lync Server.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-sessiondetails-view.md">Exibir SessionDetails</a></p></td>
-<td><p>Retorna informações sobre as sessões ponto a ponto, incluindo chamadas de telefone VoIP-VoIP, sessões de IM de terceiros ou outras sessões de comunicação ponto a ponto.</p></td>
+<td><p><a href="lync-server-2013-sessiondetails-view.md">Exibição SessionDetails no Lync Server 2013</a></p></td>
+<td><p>Retorna informações sobre sessões ponto a ponto, incluindo chamadas telefônicas VoIP-VoIP, sessões de mensagens instantâneas de duas partes ou outras sessões de comunicação ponto a ponto.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-user-view.md">Exibição do Usuário</a></p></td>
-<td><p>Retorna informações sobre os usuários que participaram das sessões de comunicação.</p></td>
+<td><p><a href="lync-server-2013-user-view.md">Modo de exibição de usuário no Lync Server 2013</a></p></td>
+<td><p>Retorna informações sobre os usuários que participaram de sessões de comunicação.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-voipdetails-view.md">Exibir VoIPDetails</a></p></td>
-<td><p>Retorna informações para sessões ponto a ponto envolvendo pelo menos um usuário VoIP (Voz por IP).</p></td>
+<td><p><a href="lync-server-2013-voipdetails-view.md">Exibição VoIPDetails no Lync Server 2013</a></p></td>
+<td><p>Retorna informações sobre sessões ponto a ponto que envolvem pelo menos um usuário VoIP (voz sobre e/s).</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

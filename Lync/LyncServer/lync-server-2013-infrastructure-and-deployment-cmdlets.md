@@ -1,0 +1,249 @@
+---
+title: 'Lync Server 2013: cmdlets de infraestrutura e implantação'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Infrastructure and deployment cmdlets
+ms:assetid: 0a6e872a-9f70-4f23-a4a5-8820dbf55370
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398153(v=OCS.15)
+ms:contentKeyID: 48183364
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 38d41545c7d128e57919c4a2bc66069e9a27b67c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829011"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
+
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="infrastructure-and-deployment-cmdlets-in-lync-server-2013"></a>Cmdlets de infraestrutura e implantação no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-09_
+
+Os cmdlets de infraestrutura e implantação incluídos no Microsoft Lync Server 2013 podem ser úteis na configuração e implantação iniciais do produto; após a implantação do Lync Server, esses cmdlets podem ser usados para fazer tais coisas, como verificar se os componentes estão funcionando conforme o esperado; Gerenciar configurações de replicação; e fazer backup e restaurar a topologia, as políticas e as configurações de configuração do Lync Server.
+
+<div>
+
+## <a name="infrastructure-and-deployment-cmdlets"></a>Cmdlets de infraestrutura e implantação
+
+Os administradores raramente precisarão fazer chamadas diretamente para várias infraestruturas e implantação de forma direta. Isso ocorre porque esses cmdlets são invocados automaticamente quando você executa a instalação ou o construtor de topologias. (Uma exceção importante pode ser o cmdlet **Export-CsConfiguration** , que permite que você faça uma cópia de backup da topologia do Lync Server, das políticas e das configurações de configuração.) No entanto, quando necessário, os cmdlets de infraestrutura e implantação também podem ser executados a partir do Shell de gerenciamento do Lync Server ou de dentro de um script; usar um script permite automatizar determinadas tarefas. Veja a seguir uma lista de cmdlets relacionados diretamente à infraestrutura e implantação:
+
+**[Cmdlets do Active Directory no Lync Server 2013](lync-server-2013-active-directory-cmdlets.md)**
+
+  - <span></span>  
+    [Disable-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398785(v=OCS.15))
+
+  - <span></span>  
+    [Enable-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg412764(v=OCS.15))
+
+  - <span></span>  
+    [Get-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398453(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Disable-CsAdForest](https://technet.microsoft.com/en-us/library/Gg398122(v=OCS.15))
+
+  - <span></span>  
+    [Enable-CsAdForest](https://technet.microsoft.com/en-us/library/Gg425713(v=OCS.15))
+
+  - <span></span>  
+    [Get-CsAdForest](https://technet.microsoft.com/en-us/library/Gg412995(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg413070(v=OCS.15))
+
+  - <span></span>  
+    [Install-CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg398681(v=OCS.15))
+
+**[Cmdlets de replicação no Lync Server 2013](lync-server-2013-replication-cmdlets.md)**
+
+  - <span></span>  
+    [Debug-CsInterPoolReplication](https://technet.microsoft.com/en-us/library/JJ619185(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Invoke-CsManagementStoreReplication](https://technet.microsoft.com/en-us/library/Gg413060(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-CsManagementStoreReplicationStatus](https://technet.microsoft.com/en-us/library/Gg399052(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Enable-CsReplica](https://technet.microsoft.com/en-us/library/Gg425965(v=OCS.15))
+
+  - <span></span>  
+    [Test-CsReplica](https://technet.microsoft.com/en-us/library/JJ205289(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398548(v=OCS.15))
+
+  - <span></span>  
+    [New-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg399059(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg425738(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398540(v=OCS.15))
+
+**[Cmdlets de topologia JN Lync Server 2013](lync-server-2013-topology-cmdlets.md)**
+
+  - <span></span>  
+    [Get-CsPool](https://technet.microsoft.com/en-us/library/Gg398992(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-CsSite](https://technet.microsoft.com/en-us/library/Gg398185(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsSite](https://technet.microsoft.com/en-us/library/Gg413023(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Enable-CsTopology](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15))
+
+  - <span></span>  
+    [Get-CsTopology](https://technet.microsoft.com/en-us/library/Gg412824(v=OCS.15))
+
+  - <span></span>  
+    [Publicar-CsTopology](https://technet.microsoft.com/en-us/library/Gg398953(v=OCS.15))
+
+  - <span></span>  
+    [Test-CsTopology](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Export-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398627(v=OCS.15))
+
+  - <span></span>  
+    [Import-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398800(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-CsServerVersion](https://technet.microsoft.com/en-us/library/Gg398470(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Disable-CsComputer](https://technet.microsoft.com/en-us/library/Gg399023(v=OCS.15))
+
+  - <span></span>  
+    [Enable-CsComputer](https://technet.microsoft.com/en-us/library/Gg412815(v=OCS.15))
+
+  - <span></span>  
+    [Get-CsComputer](https://technet.microsoft.com/en-us/library/Gg425959(v=OCS.15))
+
+  - <span></span>  
+    [Test-CsComputer](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-CsNetworkInterface](https://technet.microsoft.com/en-us/library/Gg398121(v=OCS.15))
+
+**[Cmdlets de backup e alta disponibilidade no Lync Server 2013](lync-server-2013-backup-and-high-availability-cmdlets.md)**
+
+  - [Get-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205087(v=OCS.15))
+
+  - [Remove-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ204903(v=OCS.15))
+
+  - [Set-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205006(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsBackupServiceStatus](https://technet.microsoft.com/en-us/library/JJ205032(v=OCS.15))
+
+<!-- end list -->
+
+  - [Invoke-CsBackupServiceSync](https://technet.microsoft.com/en-us/library/JJ205374(v=OCS.15))
+
+<!-- end list -->
+
+  - [Debug-CsIntraPoolReplication](https://technet.microsoft.com/en-us/library/JJ205103(v=OCS.15))
+
+<!-- end list -->
+
+  - [Backup-CsPool](https://technet.microsoft.com/en-us/library/JJ204955(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsPoolBackupRelationship](https://technet.microsoft.com/en-us/library/JJ204745(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsPoolFabricState](https://technet.microsoft.com/en-us/library/JJ619188(v=OCS.15))
+
+<!-- end list -->
+
+  - [Invoke-CsPoolFailBack](https://technet.microsoft.com/en-us/library/JJ204873(v=OCS.15))
+
+<!-- end list -->
+
+  - [Invoke-CsPoolFailOver](https://technet.microsoft.com/en-us/library/JJ205189(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsPoolUpgradeReadinessState](https://technet.microsoft.com/en-us/library/JJ204689(v=OCS.15))
+
+<!-- end list -->
+
+  - [Invoke-CsStorageServiceFlush](https://technet.microsoft.com/en-us/library/JJ619175(v=OCS.15))
+
+<!-- end list -->
+
+  - [Sync-CsUserData](https://technet.microsoft.com/en-us/library/JJ205242(v=OCS.15))
+
+<!-- end list -->
+
+  - [Remove-CsUserStoreBackupData](https://technet.microsoft.com/en-us/library/JJ205003(v=OCS.15))
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Blog do PowerShell do Lync Server](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

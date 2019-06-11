@@ -1,41 +1,75 @@
-﻿---
-title: Problemas com o teste de ambiente
-TOCTitle: Problemas com o teste de ambiente
-ms:assetid: ff1fe0d3-35b2-41ef-87e7-6a61e9e1d2ca
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205421(v=OCS.15)
-ms:contentKeyID: 49308722
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: problemas com o teste de ambiente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Issues with the environment test
+ms:assetid: ff1fe0d3-35b2-41ef-87e7-6a61e9e1d2ca
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205421(v=OCS.15)
+ms:contentKeyID: 48185970
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6ed158c598b9dc5596df23cb845f0adac4c6fed3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828952"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Problemas com o teste de ambiente
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-21_
+# <a name="issues-with-the-environment-test-in-lync-server-2013"></a>Problemas com o teste de ambiente no Lync Server 2013
 
-O analisador de práticas recomendadas oferece uma forma de verificar se seu ambiente de Lync Server 2013 é uma configuração suportada. Como parte da verificação de Serviços de Domínio do Active Directory, o analisador de práticas recomendadas realiza as seguintes tarefas:
+</div>
 
-  - Verifica os Serviços de Domínio Active Directory em preparo de esquema e floresta.
+<div id="mainSection">
 
-  - Identifica o número dos sites e domínios dos Serviços de Domínio Active Directory na implantação.
+<div id="mainBody">
 
-  - Verifica os níveis de floresta e domínio.
+<span> </span>
 
-  - Verifica a versãod o controlador de domínio.
+_**Tópico da última modificação:** 2012-09-21_
 
-  - Identifica o domínio, a configuração e contexto de nomenclatura de esquema.
+O analisador de práticas recomendadas fornece uma maneira de verificar se o ambiente do Lync Server 2013 é uma configuração compatível. Como parte da verificação dos serviços de domínio Active Directory, o analisador de práticas recomendadas faz o seguinte:
+
+  - Verifica a floresta dos serviços de domínio Active Directory e a preparação do esquema.
+
+  - Identifica o número de domínios e sites de serviços de domínio Active Directory na implantação.
+
+  - Verifica os níveis da floresta e do domínio.
+
+  - Verifica a versão do controlador de domínio.
+
+  - Identifica o contexto de domínio, configuração e nomenclatura de esquema.
 
   - Identifica o número de usuários habilitados.
 
-  - Verifica onde as definições globais dos Serviços de Domínio Active Directory estão armazenadas.
+  - Verifica onde as configurações globais dos serviços de domínio Active Directory estão armazenadas.
 
-  - Verifica os pontos de conexão de serviço (SCPs) para Lync Server.
+  - Verifica os pontos de conexão de serviço (SCPs) do Lync Server.
 
   - Identifica a versão do banco de dados.
 
-## Resolve problemas com oambiente
+<div>
 
-Se o teste de ambiente encontrou problemas com seu ambiente, esses problemas são provavelmente causados por problemas com sua configuração do Active Directory ou o nível do software executando em servidores específicos. Por exemplo, se o analisador de práticas recomendadas identificar quaisquer controladores de domínio em seu ambiente executando Windows Server 2000, ele emitirá o aviso e você deverá atualizar os controladores de domínio para uma versão suportada do Windows Server.
+## <a name="resolving-issues-with-the-environment"></a>Solucionando problemas com o ambiente
+
+Se o teste de ambiente encontrou problemas em seu ambiente, esses problemas provavelmente são causados por problemas com a configuração do Active Directory ou com o nível de software em execução em servidores específicos. Por exemplo, se o analisador de práticas recomendadas identificar os controladores de domínio em seu ambiente que executam o Windows Server 2000, ele emitirá um aviso e você precisará atualizar esses controladores de domínio para uma versão com suporte do Windows Server.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
