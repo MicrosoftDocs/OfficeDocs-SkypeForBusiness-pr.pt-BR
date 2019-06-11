@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabela CallType'
-TOCTitle: Tabela CallType
-ms:assetid: a1d7187c-f851-4967-88ea-73922911ee7a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412752(v=OCS.15)
-ms:contentKeyID: 49307656
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabela CallType'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: CallType table
+ms:assetid: a1d7187c-f851-4967-88ea-73922911ee7a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412752(v=OCS.15)
+ms:contentKeyID: 48185019
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: af1fa6f96d215de9ed39311e5afc84def7d71725
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836683"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabela CallType no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="calltype-table-in-lync-server-2013"></a><span data-ttu-id="caba1-102">Tabela CallType no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="caba1-102">CallType table in Lync Server 2013</span></span>
 
-A tabela CallType é uma tabela estática que armazena a lista de possíveis tipos de chamada.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="caba1-103">_**Tópico da última modificação:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="caba1-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+
+<span data-ttu-id="caba1-104">A tabela CallType é uma tabela estática que armazena a lista de possíveis tipos de chamadas.</span><span class="sxs-lookup"><span data-stu-id="caba1-104">The CallType table is a static table that stores the list of possible call types.</span></span>
 
 
 <table>
@@ -27,33 +47,44 @@ A tabela CallType é uma tabela estática que armazena a lista de possíveis tip
 </colgroup>
 <thead>
 <tr class="header">
-<th>Coluna</th>
-<th>Tipo de dados</th>
-<th>Chave/Índice</th>
-<th>Detalhes</th>
+<th><span data-ttu-id="caba1-105">Coluna</span><span class="sxs-lookup"><span data-stu-id="caba1-105">Column</span></span></th>
+<th><span data-ttu-id="caba1-106">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="caba1-106">Data Type</span></span></th>
+<th><span data-ttu-id="caba1-107">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="caba1-107">Key/Index</span></span></th>
+<th><span data-ttu-id="caba1-108">Detalhes</span><span class="sxs-lookup"><span data-stu-id="caba1-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>CallTypeId</strong></p></td>
-<td><p>int</p></td>
-<td><p>Primário</p></td>
-<td><p></p></td>
+<td><p><span data-ttu-id="caba1-109"><strong>Callid</strong></span><span class="sxs-lookup"><span data-stu-id="caba1-109"><strong>CallTypeId</strong></span></span></p></td>
+<td><p><span data-ttu-id="caba1-110">int</span><span class="sxs-lookup"><span data-stu-id="caba1-110">int</span></span></p></td>
+<td><p><span data-ttu-id="caba1-111">Primária</span><span class="sxs-lookup"><span data-stu-id="caba1-111">Primary</span></span></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p><strong>CallType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p></p></td>
-<td><p>Valores permitidos:</p>
+<td><p><span data-ttu-id="caba1-112"><strong>CallType</strong></span><span class="sxs-lookup"><span data-stu-id="caba1-112"><strong>CallType</strong></span></span></p></td>
+<td><p><span data-ttu-id="caba1-113">nvarchar</span><span class="sxs-lookup"><span data-stu-id="caba1-113">nvarchar</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="caba1-114">Valores permitidos:</span><span class="sxs-lookup"><span data-stu-id="caba1-114">Allowed values:</span></span></p>
 <ul>
-<li><p>0 - Desconhecido</p></li>
-<li><p>1 - Mensagens instantâneas</p></li>
-<li><p>2 - Compartilhamento de Aplicativos</p></li>
-<li><p>3 – Áudio</p></li>
-<li><p>4 - Áudio e Vídeo</p></li>
-<li><p>5 - Transferência de arquivos</p></li>
+<li><p><span data-ttu-id="caba1-115">0--desconhecido</span><span class="sxs-lookup"><span data-stu-id="caba1-115">0 -- Unknown</span></span></p></li>
+<li><p><span data-ttu-id="caba1-116">1 – mensagens instantâneas</span><span class="sxs-lookup"><span data-stu-id="caba1-116">1 – Instant Messaging</span></span></p></li>
+<li><p><span data-ttu-id="caba1-117">2 – compartilhamento de aplicativos</span><span class="sxs-lookup"><span data-stu-id="caba1-117">2 -- Application Sharing</span></span></p></li>
+<li><p><span data-ttu-id="caba1-118">3--áudio</span><span class="sxs-lookup"><span data-stu-id="caba1-118">3 -- Audio</span></span></p></li>
+<li><p><span data-ttu-id="caba1-119">4 – áudio e vídeo</span><span class="sxs-lookup"><span data-stu-id="caba1-119">4 – Audio and Video</span></span></p></li>
+<li><p><span data-ttu-id="caba1-120">5 – transferência de arquivos</span><span class="sxs-lookup"><span data-stu-id="caba1-120">5 – File Transfer</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

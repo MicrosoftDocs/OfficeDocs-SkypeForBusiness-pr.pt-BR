@@ -1,153 +1,252 @@
-﻿---
-title: "config. cert.s no serv. executando o Unified Messaging do Microsoft Exchange Server"
-TOCTitle: "config. cert.s no serv. executando o Unified Messaging do Microsoft Exchange Server"
-ms:assetid: 74c883b4-cef6-41a9-b2eb-7212be32fea4
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398564(v=OCS.15)
-ms:contentKeyID: 49307126
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configurar certificados no servidor que executa o Microsoft Exchange Server Unified Messaging'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure certificates on the server running Microsoft Exchange Server Unified Messaging
+ms:assetid: 74c883b4-cef6-41a9-b2eb-7212be32fea4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398564(v=OCS.15)
+ms:contentKeyID: 48184521
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: dfc9ed0f51b3f534d5967c7195cc39736a4ecae9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836412"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar certificados no servidor executando o Unified Messaging do Microsoft Exchange Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a><span data-ttu-id="abf14-102">Configurar certificados no servidor que executa o Microsoft Exchange Server Unified Messaging</span><span class="sxs-lookup"><span data-stu-id="abf14-102">Configure certificates on the server running Microsoft Exchange Server Unified Messaging</span></span>
 
-Se você implantou o Unificação de Mensagens (UM) do Exchange, conforme descrito em [Planejamento para integração de Unificação de Mensagens do Exchange no Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) na documentação de Planejamento e deseja fornecer recursos do UM do Exchange aos usuários do Enterprise Voice na sua organização, você pode executar os procedimentos abaixo para configurar o certificado no servidor que executa o UM do Exchange.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="abf14-103">_**Tópico da última modificação:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="abf14-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+
+<span data-ttu-id="abf14-104">Se você implantou UM (a) da Exchange Unified Messaging (UM), conforme descrito em [planejando a integração de Unificação de mensagens do Exchange no Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) na documentação de planejamento e deseja fornecer recursos de um do Exchange para usuários do Enterprise Voice em seu organização, você pode usar os procedimentos a seguir para configurar o certificado no servidor que executa o Exchange UM.</span><span class="sxs-lookup"><span data-stu-id="abf14-104">If you have deployed Exchange Unified Messaging (UM), as described in [Planning for Exchange Unified Messaging integration in Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) in the Planning documentation, and you want to provide Exchange UM features to Enterprise Voice users in your organization, you can use the following procedures to configure the certificate on the server running Exchange UM.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Para os certificados internos, os servidores que executam o Lync Server 2013 e os servidores que executam o Microsoft Exchange devem ter certificados de autoridade raiz que sejam mutuamente confiáveis. A CA (autoridade de certificação) pode ser a mesma ou diferente, desde que os servidores tenham o certificado raiz da autoridade de certificação registrado em seu repositório de certificado de autoridade raiz confiável.
+> <span data-ttu-id="abf14-105">Para certificados internos, os servidores que executam o Lync Server 2013 e os servidores que executam o Microsoft Exchange devem ter certificados de autoridade raiz confiáveis que sejam confiáveis mutuamente.</span><span class="sxs-lookup"><span data-stu-id="abf14-105">For internal certificates, both the servers running Lync Server 2013 and the servers running Microsoft Exchange must have trusted root authority certificates that are mutually trusted.</span></span> <span data-ttu-id="abf14-106">A autoridade de certificação (CA) pode ser a mesma ou uma autoridade de certificação diferente, desde que os servidores tenham o certificado raiz da autoridade de certificação registrado no repositório de certificados da autoridade raiz confiável.</span><span class="sxs-lookup"><span data-stu-id="abf14-106">The certification authority (CA) can either be the same, or a different certification authority, as long as the servers have the certification authority’s root certificate registered in their trusted root authority certificate store.</span></span>
 
-O Exchange Server deve ser configurado com um certificado de servidor para se conectar a Lync Server 2013:
 
-1.  Baixe o certificado da autoridade de certificação do Exchange Server.
 
-2.  Instale o certificado da autoridade de certificação do Exchange Server.
+</div>
 
-3.  Verifique se a autoridade de certificação está na lista de autoridades de certificação raiz confiáveis do Exchange Server.
+<span data-ttu-id="abf14-107">O servidor Exchange deve ser configurado com um certificado de servidor para se conectar ao Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="abf14-107">The Exchange Server must be configured with a server certificate in order to connect to Lync Server 2013:</span></span>
 
-4.  Crie uma solicitação de certificado do Exchange Server e instale o certificado.
+1.  <span data-ttu-id="abf14-108">Baixe o certificado da CA para o servidor Exchange.</span><span class="sxs-lookup"><span data-stu-id="abf14-108">Download the CA certificate for the Exchange Server.</span></span>
 
-5.  Atribua o certificado do Exchange Server.
+2.  <span data-ttu-id="abf14-109">Instale o certificado da CA para o servidor Exchange.</span><span class="sxs-lookup"><span data-stu-id="abf14-109">Install the CA certificate for the Exchange Server.</span></span>
 
-## Para baixar o certificação da autoridade de certificação
+3.  <span data-ttu-id="abf14-110">Verifique se a CA está na lista de autoridades de certificação raiz confiáveis do servidor Exchange.</span><span class="sxs-lookup"><span data-stu-id="abf14-110">Verify that the CA is in the list of trusted root CAs of the Exchange Server.</span></span>
 
-1.  No servidor que executa o UM do Exchange, clique em **Iniciar**, em **Executar**, digite **http://\<name of your Issuing CA Server\>/certsrv** e clique em **OK**.
+4.  <span data-ttu-id="abf14-111">Crie uma solicitação de certificado para o servidor Exchange e instale o certificado.</span><span class="sxs-lookup"><span data-stu-id="abf14-111">Create a certificate request for the Exchange Server and install the certificate.</span></span>
 
-2.  Em **Selecionar uma tarefa**, clique em **Download de um certificado de autoridade de certificação, cadeia de certificados ou lista de certificados revogados**.
+5.  <span data-ttu-id="abf14-112">Atribua o certificado para o servidor Exchange.</span><span class="sxs-lookup"><span data-stu-id="abf14-112">Assign the certificate for the Exchange Server.</span></span>
 
-3.  Em **Download de um Certificado de Autoridade de Certificação, Cadeia de Certificados ou Lista de Certificados Revogados**, selecione **Método de Codificação em Base 64** e clique em **Fazer download de certificado de autoridade de certificação**.
+<div>
+
+## <a name="to-download-the-ca-certificate"></a><span data-ttu-id="abf14-113">Para baixar o certificado da CA</span><span class="sxs-lookup"><span data-stu-id="abf14-113">To download the CA certificate</span></span>
+
+1.  <span data-ttu-id="abf14-114">No servidor que executa o Exchange UM, clique em **Iniciar**, clique em **executar**, digite **http://\<nome do seu servidor\>da CA de emissão/certsrv**e, em seguida, clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="abf14-114">On the server running Exchange UM, click **Start**, click **Run**, type **http://\<name of your Issuing CA Server\>/certsrv**, and then click **OK**.</span></span>
+
+2.  <span data-ttu-id="abf14-115">Em **Selecione uma tarefa**, clique em **baixar um certificado de autoridade de certificação, uma cadeia de certificados ou uma CRL**.</span><span class="sxs-lookup"><span data-stu-id="abf14-115">Under **Select a task**, click **Download a CA certificate, certificate chain, or CRL**.</span></span>
+
+3.  <span data-ttu-id="abf14-116">Em **baixar um certificado de autoridade de certificação, uma cadeia de certificados ou uma CRL**, selecione **método de codificação para base 64**e, em seguida, clique em **baixar certificado da CA**.</span><span class="sxs-lookup"><span data-stu-id="abf14-116">Under **Download a CA Certificate, Certificate Chain, or CRL**, select **Encoding Method to Base 64**, and then click **Download CA certificate**.</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-    > Você também pode especificar a codificação DER (regras de codificação distintas) nesta etapa. Se você selecionar a codificação DER, o tipo de arquivo na próxima etapa deste procedimento e na etapa 10 de <strong>Para instalar o Certificado de autoridade de certificação</strong> é. p7b, em vez de .cer.
+    > <span data-ttu-id="abf14-117">Você também pode especificar a codificação de regras de codificação diferenciadas (DER) nesta etapa.</span><span class="sxs-lookup"><span data-stu-id="abf14-117">You can also specify Distinguished Encoding Rules (DER) encoding at this step.</span></span> <span data-ttu-id="abf14-118">Se você selecionar codificação DER, o tipo de arquivo na próxima etapa deste procedimento e na etapa 10 da <STRONG>para instalar o certificado da CA</STRONG> será. p7b em vez de. cer.</span><span class="sxs-lookup"><span data-stu-id="abf14-118">If you select DER encoding, the file type in the next step of this procedure and in step 10 of <STRONG>To Install the CA certificate</STRONG> is .p7b rather than .cer.</span></span>
 
-4.  Na caixa de diálogo **Download de Arquivo**, clique em **Salvar** e salve o arquivo no disco rígido no servidor. (O arquivo terá um .cer ou uma extensão de arquivo .p7b, dependendo da codificação que você selecionou na etapa anterior).
-
-## Para instalar o certificado da autoridade de certificação
-
-1.  No servidor que executa o UM do Exchange, abra o MMC (Console de Gerenciamento Microsoft) clicando em **Iniciar**, clique em **Executar**, digite **mmc** na caixa **Abrir** e clique em **OK**.
-
-2.  No menu **Arquivo**, clique em **Adicionar/Remover Snap-in** e em **Adicionar**.
-
-3.  Na caixa **Adicionar Snap-in Autônomo**, clique em **Certificados** e em **Adicionar**.
-
-4.  Na caixa de diálogo **Snap-in de certificados**, clique em **Conta de computador** e em **Avançar**.
-
-5.  Na caixa de diálogo **Selecionar computador**, verifique se a caixa de seleção **Computador local: (o computador que este console está executando)** está marcada e clique em **Concluir**.
-
-6.  Clique em **Fechar** e em **OK**.
-
-7.  Na árvore de console, expanda **Certificados (Computador Local)**, expanda **Autoridades de Certificação Raiz Confiáveis** e clique em **Certificados**.
-
-8.  Clique com o botão direito do mouse em **Certificados**, clique em **Todas as Tarefas** e em **Importar**.
-
-9.  Clique em **Avançar**.
-
-10. Clique em **Procurar** para localizar o arquivo e clique em **Avançar**. (O arquivo terá uma extensão de arquivo .cer ou .p7b, dependendo da codificação que você selecionou na etapa 3 de **Para baixar o certificado de autoridade de certificação**.
-
-11. Clique em **Colocar todos os certificados no repositório a seguir**.
-
-12. Clique em **Procurar** e selecione **Autoridades de Certificação Raiz Confiáveis**.
-
-13. Clique em **Avançar** para verificar as configurações e, em seguida, clique em **Concluir**.
-
-## Para verificar se a autoridade de certificação está na lista de autoridades de certificação raiz confiáveis
-
-1.  No servidor que executa o UM do Exchange, no MMC, expanda **Certificados (Computador Local)**, expanda **Autoridades de Certificação Raiz Confiáveis** e clique em **Certificados**.
-
-2.  No painel de detalhes, verifique se a autoridade de certificação está na lista de autoridades de certificação confiáveis.
-
-## Para configurar o Exchange Server 2013 UM com Lync Server
-
-1.  Para obter detalhes, consulte o tópico sobre integração do Exchange 2013 UM com Lync Server na documentação do Exchange Server, em [http://go.microsoft.com/fwlink/?linkid=265372\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=265372%26clcid=0x416).
-
-## Para criar uma solicitação de certificado e instalar o certificado no Exchange Server 2007 (SP1)
-
-1.  No servidor que executa o UM do Exchange, clique em **Iniciar**, clique em **Executar**, digite **http://\<***nome do seu servidor de autoridade de certificação emissor***\>/certsrv** e clique em **OK**.
-
-2.  Em **Selecionar uma tarefa**, clique em **Solicitar um Certificado**.
-
-3.  Em **Solicitar um Certificado**, clique em **Solicitação avançada de certificado**.
-
-4.  Em **Solicitação Avançada de Certificado**, clique em **Criar e enviar uma solicitação para a autoridade de certificação**.
-
-5.  Em **Solicitação Avançada de Certificado**, selecione **Servidor Web** ou outro modelo de certificado de servidor configurado para autenticação de servidor.
-
-6.  Em **Informações de identificação para modelo offline**, na caixa **Nome**, digite o FQDN (nome de domínio totalmente qualificado) do Exchange Server.
     
+    </div>
+
+4.  <span data-ttu-id="abf14-119">Na caixa de diálogo **download de arquivo** , clique em **salvar**e salve o arquivo no disco rígido no servidor.</span><span class="sxs-lookup"><span data-stu-id="abf14-119">In the **File Download** dialog box, click **Save**, and then save the file to the hard disk on the server.</span></span> <span data-ttu-id="abf14-120">(O arquivo terá uma extensão de arquivo. cer ou. p7b, dependendo da codificação que você selecionou na etapa anterior.)</span><span class="sxs-lookup"><span data-stu-id="abf14-120">(The file will have either a .cer or a .p7b file extension, depending on the encoding that you selected in the previous step.)</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-install-the-ca-certificate"></a><span data-ttu-id="abf14-121">Para instalar o certificado da CA</span><span class="sxs-lookup"><span data-stu-id="abf14-121">To install the CA certificate</span></span>
+
+1.  <span data-ttu-id="abf14-122">No servidor que executa o Exchange UM, abra o MMC (console de gerenciamento Microsoft) clicando em **Iniciar**, em **executar**, digitando **MMC** na caixa **abrir** e, em seguida, clicando em **OK**.</span><span class="sxs-lookup"><span data-stu-id="abf14-122">On the server running Exchange UM, open Microsoft Management Console (MMC) by clicking **Start**, clicking **Run**, typing **mmc** in the **Open** box, and then clicking **OK**.</span></span>
+
+2.  <span data-ttu-id="abf14-123">No menu **arquivo** , clique em **Adicionar/remover snap-in**e, em seguida, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="abf14-123">On the **File** menu, click **Add/Remove Snap-in**, and then click **Add**.</span></span>
+
+3.  <span data-ttu-id="abf14-124">Na caixa **Adicionar Snap-ins Autônomos** , clique em **certificados**e, em seguida, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="abf14-124">In the **Add Standalone Snap-ins** box, click **Certificates**, and then click **Add**.</span></span>
+
+4.  <span data-ttu-id="abf14-125">Na caixa de diálogo  **Snap-in de certificados**, clique em  **Conta de computador**e, em seguida, clique em  **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="abf14-125">In the **Certificate snap-in** dialog box, click **Computer account**, and then click **Next**.</span></span>
+
+5.  <span data-ttu-id="abf14-126">Na caixa de diálogo **Selecionar computador** , verifique se a caixa de seleção **computador local: (o computador em que este console está sendo executado)** está marcada e clique em **concluir**.</span><span class="sxs-lookup"><span data-stu-id="abf14-126">In the **Select Computer** dialog box, verify that the **Local computer: (the computer this console is running on)** check box is selected, and then click **Finish**.</span></span>
+
+6.  <span data-ttu-id="abf14-127">Clique em **fechar**e, em seguida, clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="abf14-127">Click **Close**, and then click **OK**.</span></span>
+
+7.  <span data-ttu-id="abf14-128">Na árvore de console, expanda **certificados (computador local)**, expanda **autoridades de certificação raiz confiáveis**e clique em **certificados**.</span><span class="sxs-lookup"><span data-stu-id="abf14-128">In the console tree, expand **Certificates (Local Computer)**, expand **Trusted Root Certification Authorities**, and then click **Certificates**.</span></span>
+
+8.  <span data-ttu-id="abf14-129">Clique com o botão direito do mouse em **certificados**, clique em **todas as tarefas**e clique em **importar**.</span><span class="sxs-lookup"><span data-stu-id="abf14-129">Right-click **Certificates**, click **All Tasks**, and click **Import**.</span></span>
+
+9.  <span data-ttu-id="abf14-130">Click **Next**.</span><span class="sxs-lookup"><span data-stu-id="abf14-130">Click **Next**.</span></span>
+
+10. <span data-ttu-id="abf14-131">Clique em **procurar** para localizar o arquivo e, em seguida, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="abf14-131">Click **Browse** to locate the file, and then click **Next**.</span></span> <span data-ttu-id="abf14-132">(O arquivo terá uma extensão de arquivo. cer ou. p7b, dependendo da codificação selecionada na etapa 3 de **para baixar o certificado da autoridade de certificação**.</span><span class="sxs-lookup"><span data-stu-id="abf14-132">(The file will have either a .cer or a .p7b file extension, depending on the encoding that you selected in step 3 of **To download the CA certificate**.</span></span>
+
+11. <span data-ttu-id="abf14-133">Clique em **colocar todos os certificados no repositório a seguir**.</span><span class="sxs-lookup"><span data-stu-id="abf14-133">Click **Place All Certificates in the following store**.</span></span>
+
+12. <span data-ttu-id="abf14-134">Clique em **procurar**e, em seguida, selecione **autoridades de certificação raiz confiáveis**.</span><span class="sxs-lookup"><span data-stu-id="abf14-134">Click **Browse**, and then select **Trusted Root Certification Authorities**.</span></span>
+
+13. <span data-ttu-id="abf14-135">Clique em **Avançar** para verificar as configurações e, em seguida, clique em **concluir**.</span><span class="sxs-lookup"><span data-stu-id="abf14-135">Click **Next** to verify the settings, and then click **Finish**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-verify-that-the-ca-is-in-the-list-of-trusted-root-cas"></a><span data-ttu-id="abf14-136">Para verificar se a CA está na lista de autoridades de certificação raiz confiáveis</span><span class="sxs-lookup"><span data-stu-id="abf14-136">To verify that the CA is in the list of trusted root CAs</span></span>
+
+1.  <span data-ttu-id="abf14-137">No servidor que executa o Exchange UM, no MMC expanda **certificados (computador local)**, expanda **autoridades de certificação raiz confiáveis**e clique em **certificados**.</span><span class="sxs-lookup"><span data-stu-id="abf14-137">On the server running Exchange UM, in MMC expand **Certificates (Local Computer)**, expand **Trusted Root Certification Authorities**, and then click **Certificates**.</span></span>
+
+2.  <span data-ttu-id="abf14-138">No painel detalhes, verifique se a sua CA está na lista de CAs confiáveis.</span><span class="sxs-lookup"><span data-stu-id="abf14-138">In the details pane, verify that your CA is on the list of trusted CAs.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-configure-exchange-server-2013-um-with-lync-server"></a><span data-ttu-id="abf14-139">Para configurar o Exchange Server 2013 UM com o Lync Server</span><span class="sxs-lookup"><span data-stu-id="abf14-139">To configure Exchange Server 2013 UM with Lync Server</span></span>
+
+1.  <span data-ttu-id="abf14-140">Para obter detalhes, consulte "integrar o Exchange 2013 UM com o Lync Server" na documentação do [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372)Exchange Server em.</span><span class="sxs-lookup"><span data-stu-id="abf14-140">For details, see "Integrate Exchange 2013 UM with Lync Server" in the Exchange Server documentation at [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372).</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-create-a-certificate-request-and-install-the-certificate-on-exchange-server-2007-sp1"></a><span data-ttu-id="abf14-141">Para criar uma solicitação de certificado e instalar o certificado no Exchange Server 2007 (SP1)</span><span class="sxs-lookup"><span data-stu-id="abf14-141">To create a certificate request and install the certificate on Exchange Server 2007 (SP1)</span></span>
+
+1.  <span data-ttu-id="abf14-142">No servidor que executa o Exchange um, clique em **Iniciar**, clique em **executar**, digite **\<http://** nome do seu servidor**\>** da CA de emissão/certsrv e, em seguida, clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="abf14-142">On the server running Exchange UM, click **Start**, click **Run**, type **http://\<** name of your Issuing CA Server**\>/certsrv**, and then click **OK**.</span></span>
+
+2.  <span data-ttu-id="abf14-143">Em **Selecione uma tarefa**, clique em **solicitar um certificado**.</span><span class="sxs-lookup"><span data-stu-id="abf14-143">Under **Select a task**, click **Request a Certificate**.</span></span>
+
+3.  <span data-ttu-id="abf14-144">Em **solicitar um certificado**, clique em **solicitação avançada de certificado**.</span><span class="sxs-lookup"><span data-stu-id="abf14-144">Under **Request a Certificate**, click **Advanced certificate request**.</span></span>
+
+4.  <span data-ttu-id="abf14-145">Em **solicitação avançada de certificado**, clique em **criar e envie uma solicitação para esta ca**.</span><span class="sxs-lookup"><span data-stu-id="abf14-145">Under **Advanced Certificate Request**, click **Create and submit a request to this CA**.</span></span>
+
+5.  <span data-ttu-id="abf14-146">Em **solicitação de certificado avançada**, selecione **servidor Web** ou outro modelo de certificado de servidor configurado para autenticação do servidor.</span><span class="sxs-lookup"><span data-stu-id="abf14-146">Under **Advanced Certificate Request**, select **Web server** or another server certificate template configured for server authentication.</span></span>
+
+6.  <span data-ttu-id="abf14-147">Em **informações de identificação para modelo offline**, na caixa **nome** , digite o nome de domínio totalmente qualificado (FQDN) do servidor Exchange.</span><span class="sxs-lookup"><span data-stu-id="abf14-147">Under **Identifying Information for Offline Template**, in the **Name** box, type the fully qualified domain name (FQDN) of the Exchange Server.</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Você deve inserir o FQDN do Exchange Server para que a comunicação funcione.
+    > <span data-ttu-id="abf14-148">Você deve digitar o FQDN do servidor Exchange para que as comunicações funcionem.</span><span class="sxs-lookup"><span data-stu-id="abf14-148">You must enter the FQDN of the Exchange Server for communications to work.</span></span>
 
-7.  Em **Opções de Chave**, clique na caixa de seleção **Armazenar certificado no armazenamento de certificados do computador local**.
-
-8.  Clique no botão **Enviar** na parte inferior da página da Web.
-
-9.  Na caixa de diálogo que solicita a confirmação, clique em **Sim**.
-
-10. Na página Certificado Emitido, em **Certificado Emitido**, clique em **Instalar este certificado**.
-
-11. Na caixa de diálogo que solicita a confirmação, clique em **Sim**.
-
-12. Verifique se a mensagem "O novo certificado foi instalado com êxito" é exibida.
-
-## Para criar um certificado no Exchange Server 2010
-
-1.  Faça logon no servidor que executa o UM do Exchange com os direitos de usuário adequados. Para obter detalhes, consulte "Permissões de acesso do cliente" em [http://go.microsoft.com/fwlink/?linkid=195499\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=195499%26clcid=0x416).
-
-2.  Consulte os seguintes procedimentos para criar o certificado:
     
-    1.  "Criar um novo certificado do Exchange" em [http://go.microsoft.com/fwlink/?linkid=195494\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=195494%26clcid=0x416)
+    </div>
+
+7.  <span data-ttu-id="abf14-149">Em **Opções de chave**, clique na caixa de seleção **armazenar certificado no repositório de certificados do computador local** .</span><span class="sxs-lookup"><span data-stu-id="abf14-149">Under **Key Options**, click the **Store certificate in the local computer certificate store** check box.</span></span>
+
+8.  <span data-ttu-id="abf14-150">Clique no botão **Enviar** na parte inferior da página da Web.</span><span class="sxs-lookup"><span data-stu-id="abf14-150">Click the **Submit** button in the bottom of the webpage.</span></span>
+
+9.  <span data-ttu-id="abf14-151">Na caixa de diálogo que é exibida solicitando confirmação, clique em **Sim**.</span><span class="sxs-lookup"><span data-stu-id="abf14-151">In the dialog box that opens asking for confirmation, click **Yes**.</span></span>
+
+10. <span data-ttu-id="abf14-152">Na página certificado emitido, em **certificado emitido**, clique em **instalar este certificado**.</span><span class="sxs-lookup"><span data-stu-id="abf14-152">On the Certificate Issued page, under **Certificate Issued**, click **Install this certificate**.</span></span>
+
+11. <span data-ttu-id="abf14-153">Na caixa de diálogo que é exibida solicitando confirmação, clique em **Sim**.</span><span class="sxs-lookup"><span data-stu-id="abf14-153">In the dialog box that opens asking for confirmation, click **Yes**.</span></span>
+
+12. <span data-ttu-id="abf14-154">Verifique se a mensagem "o novo certificado foi instalado com sucesso" é exibida.</span><span class="sxs-lookup"><span data-stu-id="abf14-154">Verify that the message "Your new certificate has been successfully installed" appears.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-create-a-certificate-on-exchange-server-2010"></a><span data-ttu-id="abf14-155">Para criar um certificado no Exchange Server 2010</span><span class="sxs-lookup"><span data-stu-id="abf14-155">To create a certificate on Exchange Server 2010</span></span>
+
+1.  <span data-ttu-id="abf14-156">Faça logon no servidor que está executando o Exchange UM com direitos de usuário adequados.</span><span class="sxs-lookup"><span data-stu-id="abf14-156">Log on to the server running Exchange UM with appropriate user rights.</span></span> <span data-ttu-id="abf14-157">Para obter detalhes, consulte "permissões de acesso do [http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499)cliente" em.</span><span class="sxs-lookup"><span data-stu-id="abf14-157">For details, see "Client Access Permissions" at [http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499).</span></span>
+
+2.  <span data-ttu-id="abf14-158">Consulte os procedimentos a seguir para criar o certificado:</span><span class="sxs-lookup"><span data-stu-id="abf14-158">Refer to the following procedures to create the certificate:</span></span>
     
-    2.  "Importar um certificado do Exchange" em [http://go.microsoft.com/fwlink/?linkid=195496\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=195496%26clcid=0x416)
+    1.  <span data-ttu-id="abf14-159">"Criar um novo certificado do Exchange" em[http://go.microsoft.com/fwlink/p/?linkId=195494](http://go.microsoft.com/fwlink/p/?linkid=195494)</span><span class="sxs-lookup"><span data-stu-id="abf14-159">"Create a New Exchange Certificate" at [http://go.microsoft.com/fwlink/p/?linkId=195494](http://go.microsoft.com/fwlink/p/?linkid=195494)</span></span>
     
+    2.  <span data-ttu-id="abf14-160">"Importar um certificado do Exchange" em[http://go.microsoft.com/fwlink/p/?linkId=195496](http://go.microsoft.com/fwlink/p/?linkid=195496)</span><span class="sxs-lookup"><span data-stu-id="abf14-160">"Import an Exchange Certificate" at [http://go.microsoft.com/fwlink/p/?linkId=195496](http://go.microsoft.com/fwlink/p/?linkid=195496)</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Para o certificado <strong>Nome da Entidade</strong>, digite o FQDN do Exchange Server para que as comunicações funcionem.
+    > <span data-ttu-id="abf14-161">Para o <STRONG>nome</STRONG>do requerente do certificado, você deve digitar o FQDN do servidor Exchange para que as comunicações funcionem.</span><span class="sxs-lookup"><span data-stu-id="abf14-161">For the certificate <STRONG>Subject Name</STRONG>, you must enter the FQDN of the Exchange Server for communications to work.</span></span>
 
-## Para atribuir o certificado no Exchange Server 2007 (SP1)
-
-1.  No servidor que executa o UM do Exchange, abra o MMC.
-
-2.  Na árvore de console, expanda **Pessoal** e clique em **Certificados**.
-
-3.  No painel de detalhes, verifique se o certificado pessoal é exibido.
-
-4.  Clique duas vezes no certificado para ler seus detalhes e verificar se ele é válido.
     
-    > [!NOTE]  
-    > Possivelmente levará alguns minutos para que o certificado apareça como válido.
+    </div>
 
-5.  Reinicie o serviço de Unificação de Mensagens do Microsoft Exchange.
+</div>
+
+<div>
+
+## <a name="to-assign-the-certificate-on-exchange-server-2007-sp1"></a><span data-ttu-id="abf14-162">Para atribuir o certificado no Exchange Server 2007 (SP1)</span><span class="sxs-lookup"><span data-stu-id="abf14-162">To assign the certificate on Exchange Server 2007 (SP1)</span></span>
+
+1.  <span data-ttu-id="abf14-163">No servidor que executa o Exchange UM, abra o MMC.</span><span class="sxs-lookup"><span data-stu-id="abf14-163">On the server running Exchange UM, open MMC.</span></span>
+
+2.  <span data-ttu-id="abf14-164">Na árvore de console, expanda **pessoal** e, em seguida, clique em **certificados**.</span><span class="sxs-lookup"><span data-stu-id="abf14-164">In the console tree, expand **Personal** and then click **Certificates**.</span></span>
+
+3.  <span data-ttu-id="abf14-165">No painel detalhes, verifique se o certificado pessoal está exibido.</span><span class="sxs-lookup"><span data-stu-id="abf14-165">In the details pane, verify that personal certificate is displayed.</span></span>
+
+4.  <span data-ttu-id="abf14-166">Clique duas vezes no certificado para ler seus detalhes e verificar se ele é válido.</span><span class="sxs-lookup"><span data-stu-id="abf14-166">Double-click the certificate to read its details and verify that it is valid.</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-    > O servidor que está executando a Unificação de Mensagens do Exchange Server 2007 SP1 recupera automaticamente o certificado correto.
+    > <span data-ttu-id="abf14-167">Pode demorar alguns minutos para que o certificado seja exibido como válido.</span><span class="sxs-lookup"><span data-stu-id="abf14-167">It may take a few minutes before the certificate displays as valid.</span></span>
 
-6.  Abra o Visualizador de Eventos e procure a ID de Evento 1112, que especifica qual certificado foi recuperado pelo servidor que está executando a Unificação de Mensagens do Exchange Server 2007 SP1.
+    
+    </div>
 
-## Para atribuir o certificado no Exchange Server 2010
+5.  <span data-ttu-id="abf14-168">Reinicie o serviço de Unificação de mensagens do Microsoft Exchange.</span><span class="sxs-lookup"><span data-stu-id="abf14-168">Restart the Microsoft Exchange Unified Messaging service.</span></span>
+    
+    <div>
+    
 
-1.  Faça logon no servidor que executa o UM do Exchange com os direitos de usuário adequados. Para obter detalhes, consulte "Permissões de acesso do cliente" em [http://go.microsoft.com/fwlink/?linkid=195499\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=195499%26clcid=0x416).
+    > [!NOTE]  
+    > <span data-ttu-id="abf14-169">O servidor que executa o Exchange Server 2007 SP1 Unified Messaging recupera automaticamente o certificado correto.</span><span class="sxs-lookup"><span data-stu-id="abf14-169">The server running Exchange Server 2007 SP1 Unified Messaging automatically retrieves the correct certificate.</span></span>
 
-2.  Para obter o procedimento de atribuição do certificado, consulte "Atribuir serviços a um certificado" em [http://go.microsoft.com/fwlink/?linkid=195497\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=195497%26clcid=0x416).
+    
+    </div>
+
+6.  <span data-ttu-id="abf14-170">Abra o Visualizador de eventos e procure o ID de evento 1112, que especifica qual certificado o servidor que está executando o Exchange Server 2007 SP1 Unified Messaging foi recuperado.</span><span class="sxs-lookup"><span data-stu-id="abf14-170">Open Event Viewer and look for Event ID 1112, which specifies what certificate the server running Exchange Server 2007 SP1 Unified Messaging has retrieved.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-assign-the-certificate-on-exchange-server-2010"></a><span data-ttu-id="abf14-171">Para atribuir o certificado no Exchange Server 2010</span><span class="sxs-lookup"><span data-stu-id="abf14-171">To assign the certificate on Exchange Server 2010</span></span>
+
+1.  <span data-ttu-id="abf14-172">Faça logon no servidor que está executando o Exchange UM com direitos de usuário adequados.</span><span class="sxs-lookup"><span data-stu-id="abf14-172">Log on to the server running Exchange UM with appropriate user rights.</span></span> <span data-ttu-id="abf14-173">Para obter detalhes, consulte "permissões de acesso do [http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499)cliente" em.</span><span class="sxs-lookup"><span data-stu-id="abf14-173">For details, see "Client Access Permissions" at [http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499).</span></span>
+
+2.  <span data-ttu-id="abf14-174">Para obter o procedimento para atribuir o certificado, consulte "atribuir serviços a um certificado" [http://go.microsoft.com/fwlink/p/?linkId=195497](http://go.microsoft.com/fwlink/p/?linkid=195497)em.</span><span class="sxs-lookup"><span data-stu-id="abf14-174">For the procedure to assign the certificate, see "Assign Services to a Certificate" at [http://go.microsoft.com/fwlink/p/?linkId=195497](http://go.microsoft.com/fwlink/p/?linkid=195497).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

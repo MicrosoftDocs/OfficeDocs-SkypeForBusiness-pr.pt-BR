@@ -1,50 +1,94 @@
-﻿---
-title: Configurar o bypass de mídia para sempre ignorar o Servidor de Mediação
-TOCTitle: Configurar o bypass de mídia para sempre ignorar o Servidor de Mediação
-ms:assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425846(v=OCS.15)
-ms:contentKeyID: 49306370
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configurar o bypass de mídia para sempre ignorar o servidor de mediação'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure media bypass to always bypass the Mediation Server
+ms:assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425846(v=OCS.15)
+ms:contentKeyID: 48183819
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7aca094110036692c5ac5327b166a3f81e4b769f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836349"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar o bypass de mídia para sempre ignorar o Servidor de Mediação
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-25_
+# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a><span data-ttu-id="e5658-102">Configure media bypass in Lync Server 2013 to always bypass the Mediation Server</span><span class="sxs-lookup"><span data-stu-id="e5658-102">Configure media bypass in Lync Server 2013 to always bypass the Mediation Server</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="e5658-103">_**Tópico da última modificação:** 2013-02-25_</span><span class="sxs-lookup"><span data-stu-id="e5658-103">_**Topic Last Modified:** 2013-02-25_</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Este tópico assume que você já configurou o desvio de mídia em qualquer conexão de tronco para um par (um gateway PSTN (Rede Telefônica Pública Comutada), um IP-PBX ou SBC (Controlador de Borda da Sessão) no ITSP (Provedor de Serviços de Telefonia da Internet)) de um local ou serviço específico no qual deseja que a mídia ignore o servidor de mediação.<br />Você não pode configurar a mídia para sempre desviar do Servidor de Mediação, enquanto também ativa o controle de admissão de chamada. Essas configurações são incompatíveis, e portanto mutuamente exclusivas, na interface de usuário do Painel de Controle do Lync Server.
+> <span data-ttu-id="e5658-104">Este tópico pressupõe que você já configurou o bypass de mídia para qualquer conexão de tronco a um par (um gateway PSTN (rede telefônica pública comutada), um PBX IP ou um controle de borda de sessão (SBC) em um provedor de serviços de telefonia pela Internet (ITSP)) para um determinado site ou serviço para o qual você deseja que a mídia ignore o servidor de mediação.</span><span class="sxs-lookup"><span data-stu-id="e5658-104">This topic assumes that you have already configured media bypass for any trunk connections to a peer (a public switched telephone network (PSTN) gateway, an IP-PBX, or a Session Border Controller (SBC) at an Internet Telephony Service Provider (ITSP)) for a specific site or service for which you want media to bypass the Mediation Server.</span></span><BR><span data-ttu-id="e5658-105">Você não pode configurar mídia para sempre ignorar o servidor de mediação enquanto também habilita o controle de admissão de chamadas.</span><span class="sxs-lookup"><span data-stu-id="e5658-105">You cannot configure media to always bypass the Mediation Server while also enabling call admission control.</span></span> <span data-ttu-id="e5658-106">Essas configurações são incompatíveis e, portanto, são configurações mutuamente excludentes na interface do usuário do painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e5658-106">These settings are incompatible and are therefore mutually exclusive settings in the Lync Server Control Panel user interface.</span></span>
 
-Além de ativar o desvio de mídia para as conexões de tronco individuais associadas a um ponto para o Servidor de Mediação, você também deve definir as configurações globais para o desvio de mídia. Se você usar as etapas deste tópico para fazer essas configurações, supõe-se que tenha uma boa conectividade entre os pontos de extremidade do Lync e qualquer ponto para o qual tenha configurado desvios de mídia na conexão de tronco.
 
-Se você não tiver uma boa conectividade entre os pontos de extremidade do Lync Server e todos os pontos do servidor de mediação cujas respectivas conexões de tronco foram habilitadas para o desvio de mídia, defina as configurações globais do desvio de mídia para usar as informações de local e região ao empregar esse desvio. Isso permite maior controle ao determinar quando a mídia desvia do servidor de mediação. Para isso, siga as etapas em [Definir as configurações globais de bypass de mídia para usar informações locais e da região](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) e [Associar uma subrede a um site de rede no Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).
 
-## Para habilitar o desvio de mídia globalmente para que sempre ignore o servidor de mediação
+</div>
 
-1.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span data-ttu-id="e5658-107">Além de habilitar a bypass de mídia para conexões de tronco individuais associadas a um par para o servidor de mediação, você também deve definir configurações globais para bypass de mídia.</span><span class="sxs-lookup"><span data-stu-id="e5658-107">In addition to enabling media bypass for individual trunk connections associated with a peer to the Mediation Server, you must also configure global settings for media bypass.</span></span> <span data-ttu-id="e5658-108">Se você usar as etapas deste tópico para definir configurações globais para bypass de mídia, pressupõe-se que você tenha uma boa conectividade entre pontos de extremidade do Lync e qualquer ponto para o qual você configurou a mídia ignorada na conexão do tronco.</span><span class="sxs-lookup"><span data-stu-id="e5658-108">If you use the steps in this topic to configure global settings for media bypass, the assumption is that you have good connectivity between Lync endpoints and any peer for which you configured media bypass on the trunk connection.</span></span>
 
-2.  Na barra de navegação da esquerda, clique em **Configuração da Rede**.
+<span data-ttu-id="e5658-109">Se você não tiver uma boa conectividade entre os pontos de extremidade do Lync Server e todos os pares do servidor de mediação cujas respectivas conexões de tronco tenham sido habilitadas para o bypass de mídia, você deve configurar as definições de bypass de mídia global para usar as informações de site e região quando empregando o bypass de mídia.</span><span class="sxs-lookup"><span data-stu-id="e5658-109">If you do not have good connectivity between Lync Server endpoints and all peers to the Mediation Server whose respective trunk connections have been enabled for media bypass, you must configure global media bypass settings to use site and region information when employing media bypass.</span></span> <span data-ttu-id="e5658-110">Isso permite que você tenha mais controle ao determinar quando a mídia ignora o servidor de mediação.</span><span class="sxs-lookup"><span data-stu-id="e5658-110">This allows for more control in determining when media bypasses the Mediation Server.</span></span> <span data-ttu-id="e5658-111">Para fazer isso, use as etapas em [Configurar o bypass de mídia para configurações globais no Lync server 2013 para usar as informações de site e região](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) e [associar uma sub-rede a um site de rede no Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md) em vez disso.</span><span class="sxs-lookup"><span data-stu-id="e5658-111">To do this, use the steps in [Configure media bypass global settings in Lync Server 2013 to use site and region information](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) and [Associate a subnet with a network site in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md) instead.</span></span>
 
-3.  Clique duas vezes na configuração **Global** na lista.
+<div>
 
-4.  Na página **Editar Configuração Global**, marque a caixa de seleção **Ativar desvio de mídia**.
+## <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a><span data-ttu-id="e5658-112">Para habilitar o desvio de mídia globalmente para que sempre ignore o servidor de mediação</span><span class="sxs-lookup"><span data-stu-id="e5658-112">To Enable Media Bypass Globally to Always Bypass the Mediation Server</span></span>
 
-5.  Clique em **Sempre desviar**.
+1.  <span data-ttu-id="e5658-113">Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e5658-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="e5658-114">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="e5658-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-6.  Clique em **Comprometer**.
+2.  <span data-ttu-id="e5658-115">Na barra de navegação esquerda, clique em **Configuração de rede**.</span><span class="sxs-lookup"><span data-stu-id="e5658-115">In the left navigation bar, click **Network Configuration**.</span></span>
 
-## Consulte Também
+3.  <span data-ttu-id="e5658-116">Clique duas vezes na configuração **Global** na lista.</span><span class="sxs-lookup"><span data-stu-id="e5658-116">Double-click the **Global** configuration in the list.</span></span>
 
-#### Conceitos
+4.  <span data-ttu-id="e5658-117">Na página **Editar Configuração Global**, marque a caixa de seleção **Ativar desvio de mídia**.</span><span class="sxs-lookup"><span data-stu-id="e5658-117">On the **Edit Global Setting** page, select the **Enable media bypass** check box.</span></span>
 
-[Configurar bypass de mídia no Lync Server 2013](lync-server-2013-configure-media-bypass.md)  
-[Opções de bypass de mídia global no Lync Server 2013](lync-server-2013-global-media-bypass-options.md)  
-[Bypass de mídia e Servidor de Mediação no Lync Server 2013](lync-server-2013-media-bypass-and-mediation-server.md)  
+5.  <span data-ttu-id="e5658-118">Clique em **Sempre desviar**.</span><span class="sxs-lookup"><span data-stu-id="e5658-118">Click **Always bypass**.</span></span>
 
-#### Outros Recursos
+6.  <span data-ttu-id="e5658-119">Clique em **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="e5658-119">Click **Commit**.</span></span>
 
-[Planejamento de bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="e5658-120">Confira também</span><span class="sxs-lookup"><span data-stu-id="e5658-120">See Also</span></span>
+
+
+[<span data-ttu-id="e5658-121">Configurar bypass de mídia no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5658-121">Configure media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-media-bypass.md)  
+[<span data-ttu-id="e5658-122">Opções de bypass de mídia global no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5658-122">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
+[<span data-ttu-id="e5658-123">Bypass de mídia e Servidor de Mediação no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5658-123">Media bypass and Mediation Server in Lync Server 2013</span></span>](lync-server-2013-media-bypass-and-mediation-server.md)  
+
+
+[<span data-ttu-id="e5658-124">Planejamento de bypass de mídia no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5658-124">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

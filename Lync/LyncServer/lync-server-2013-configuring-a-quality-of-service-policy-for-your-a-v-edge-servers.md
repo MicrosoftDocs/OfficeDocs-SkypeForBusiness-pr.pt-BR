@@ -1,87 +1,117 @@
-﻿---
-title: "Configurando uma política de Qual. de Serviço (QoS) p/ seus serv. de borda A/V"
-TOCTitle: "Configurando uma política de Qual. de Serviço (QoS) p/ seus serv. de borda A/V"
-ms:assetid: 119ee1f5-45b9-40ba-98e5-c694dd2fc5c2
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204681(v=OCS.15)
-ms:contentKeyID: 49305924
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configurando uma política de qualidade de serviço para seus servidores de borda A/V
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring a Quality of Service policy for your A/V Edge Servers
+ms:assetid: 119ee1f5-45b9-40ba-98e5-c694dd2fc5c2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204681(v=OCS.15)
+ms:contentKeyID: 48183444
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 58f5bfabfe794ed274d28074aaf162bc715a6ed3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836309"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando uma política de Qualidade de Serviço (QoS) para seus servidores de borda A/V
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-19_
+# <a name="configuring-a-quality-of-service-policy-for-your-av-edge-servers-in-lync-server-2013"></a><span data-ttu-id="fe5a5-102">Configurando uma política de qualidade de serviço para seus servidores de borda A/V no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe5a5-102">Configuring a Quality of Service policy for your A/V Edge Servers in Lync Server 2013</span></span>
 
-Além de criar políticas de QoS para seus servidores de Conferências, Aplicativos e Mediação, você também deve criar políticas de áudio e vídeo para o lado interno dos seus servidores de borda de A/V. No entanto, as políticas usadas em seus servidores de Borda são diferentes das políticas usadas em seus servidores de Conferências, Aplicativos e Mediação. Para os servidores de Conferências, Aplicativos e Mediação, você especificou um intervalo de portas de origem; com servidores de Borda, é necessário especificar um intervalo de portas de destino. Por isso não é possível simplesmente aplicar as políticas de QoS do servidor de Conferências, Aplicativos e Mediação em seus servidores de Borda: essas políticas simplesmente não funcionarão. Em vez disso, você deve criar novas políticas e aplicá-las somente aos seus servidores de Borda.
+</div>
 
-O procedimento a seguir descreve o processo para criar objetos de Política de Grupo do Active Directory que podem ser usados para gerenciar a Qualidade de Serviço em Servidores de Borda. É possível, é claro, que seus servidores de Borda sejam servidores autônomos que não possuem contas do Active Directory. Neste caso, você pode usar uma Política de Grupo local em vez da Política de Grupo do Active Directory: a única diferença é que você deve criar essas políticas locais usando o Editor de Políticas de Grupo Local e deve criar individualmente o mesmo conjunto de políticas em cada Servidor de Borda. Para iniciar o Editor de Políticas de Grupo Local em um servidor de Borda, faça o seguinte:
+<div id="mainSection">
 
-1.  Clique em **Iniciar** e em **Executar**.
+<div id="mainBody">
 
-2.  Na caixa de diálogo **Executar**, digite **gpedit.msc** e pressione ENTER.
+<span> </span>
 
-Se estiver criando políticas com base no Active Directory, você deve fazer logon em um computador em que o Gerenciamento de Política de Grupo tenha sido instalado. Neste caso, abra o Gerenciamento de Política de Grupo (clique em **Iniciar**, aponte para **Ferramentas Administrativas** e clique em **Gerenciamento de Política de Grupo**) e conclua as seguintes etapas:
+<span data-ttu-id="fe5a5-103">_**Tópico da última modificação:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="fe5a5-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-1.  No Gerenciamento de Política de Grupo, localize o contêiner em que a nova política deve ser criada. Por exemplo, se todos os seus computadores Lync Server estiverem localizados em uma UO chamada Lync Server, a nova política deve ser criada na UO Lync Server.
+<span data-ttu-id="fe5a5-104">Além de criar políticas de QoS para seus servidores de conferência, aplicativo e mediação, você também deve criar políticas de áudio e de vídeo para o lado interno dos seus servidores de borda A/V.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-104">In addition to creating QoS policies for your Conferencing, Application, and Mediation servers, you must also create both audio and video policies for the internal side of your A/V Edge servers.</span></span> <span data-ttu-id="fe5a5-105">No entanto, as políticas usadas em seus servidores de borda são diferentes das políticas usadas em seus servidores de conferência, aplicativo e mediação.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-105">However, the policies used on your Edge servers are different from the policies used on your Conferencing, Application, and Mediation servers.</span></span> <span data-ttu-id="fe5a5-106">Para os servidores de conferência, aplicativo e mediação, você especificou um intervalo de porta de origem; com os servidores de borda, você precisa especificar um intervalo de porta de destino.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-106">For the Conferencing, Application, and Mediation servers you specified a source port range; with Edge servers, you need to specify a destination port range.</span></span> <span data-ttu-id="fe5a5-107">Por isso você não pode simplesmente aplicar as políticas de QoS do servidor de conferência, aplicativo e mediação a seus servidores de borda: essas políticas simplesmente não funcionarão.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-107">Because of that you cannot simply apply the Conferencing, Application, and Mediation server QoS policies to your Edge servers: these policies simply won't work.</span></span> <span data-ttu-id="fe5a5-108">Em vez disso, você deve criar novas políticas e aplicar essas políticas somente a seus servidores de borda.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-108">Instead, you must create new policies and apply those policies to your Edge servers only.</span></span>
 
-2.  Clique com o botão direito no contêiner adequado e clique em **Criar um GPO neste domínio e fornecer um link para ele aqui**.
+<span data-ttu-id="fe5a5-109">O procedimento a seguir descreve o processo de criação de objetos de política de grupo do Active Directory que podem ser usados para gerenciar a qualidade do serviço em servidores Edge.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-109">The following procedure describes the process for creating Active Directory Group Policy objects that can be used to manage Quality of Service on Edge Servers.</span></span> <span data-ttu-id="fe5a5-110">É claro que é possível que seus servidores de borda sejam servidores autônomos que não tenham contas do Active Directory.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-110">Of course, it's possible that your Edge servers are stand-alone servers that do not have Active Directory accounts.</span></span> <span data-ttu-id="fe5a5-111">Se esse for o caso, você pode usar a política de grupo local em vez da política de grupo do Active Directory: a única diferença é que você deve criar essas políticas locais usando o editor de política de grupo local e deve criar individualmente o mesmo conjunto de políticas em cada servidor de borda.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-111">If that's the case, you can use local Group Policy instead of Active Directory Group Policy: the only difference is that you must create these local policies using the Local Group Policy Editor, and must individually create the same set of policies on each Edge Server.</span></span> <span data-ttu-id="fe5a5-112">Para iniciar o editor de política de grupo local em um servidor de borda, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="fe5a5-112">To start the Local Group Policy Editor on an Edge server do the following:</span></span>
 
-3.  Na caixa de diálogo **Novo GPO**, digite um nome para o novo objeto de Política de Grupo na caixa **Nome** (por exemplo, **Áudio do Lync Server**) e clique em **OK**.
+1.  <span data-ttu-id="fe5a5-113">Clique em **Iniciar** e em **executar**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-113">Click **Start** and then click **Run**.</span></span>
 
-4.  Clique com o botão direito na política recém criada e clique em **Editar**.
+2.  <span data-ttu-id="fe5a5-114">Na caixa de diálogo **executar** , digite **gpedit. msc** e pressione Enter.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-114">In the **Run** dialog box, type **gpedit.msc** and then press ENTER.</span></span>
 
-A partir daqui o processo é idêntico, independente de você estar criando uma política do Active Directory ou uma política local:
+<span data-ttu-id="fe5a5-115">Se você estiver criando políticas baseadas no Active Directory, faça logon em um computador onde o gerenciamento de política de grupo foi instalado.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-115">If you are creating Active Directory-based policies, then you should log on to a computer where Group Policy Management has been installed.</span></span> <span data-ttu-id="fe5a5-116">Nesse caso, abra gerenciamento de política de grupo (clique em **Iniciar**, aponte para **Ferramentas administrativas**e clique em **Gerenciamento de política de grupo**) e conclua as seguintes etapas:</span><span class="sxs-lookup"><span data-stu-id="fe5a5-116">In that case, open Group Policy Management (click **Start**, point to **Administrative Tools**, and then click **Group Policy Management**) and then complete the following steps:</span></span>
 
-1.  No Editor do Gerenciamento de Política de Grupo ou no Editor de Política de Grupo Local, expanda **Configuração do Computador**, **Políticas**, **Configurações do Windows**, clique com o botão direito em **QoS baseada em política** e clique em **Criar nova política**.
+1.  <span data-ttu-id="fe5a5-117">No gerenciamento de política de grupo, localize o contêiner em que a nova política deve ser criada.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-117">In Group Policy Management, locate the container where the new policy should be created.</span></span> <span data-ttu-id="fe5a5-118">Por exemplo, se todos os seus computadores do Lync Server estiverem localizados em uma OU chamada Lync Server, a nova política deve ser criada na OU do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-118">For example, if all your Lync Server computers are located in an OU named Lync Server then the new policy should be created in the Lync Server OU.</span></span>
 
-2.  Na caixa de diálogo **QoS baseada em política**, na página inicial, digite um nome para a nova política (por exemplo, **Áudio do Lync Server**) na caixa **Nome**. Selecione **Especificar valor de DSCP** e defina o valor como **46**. Deixe a opção **Especificar Taxa de Aceleração de Saída** desmarcada e clique em **Avançar**.
+2.  <span data-ttu-id="fe5a5-119">Clique com o botão direito do mouse no contêiner apropriado e, em seguida, clique em **criar um GPO neste domínio e vincule-o aqui**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-119">Right-click the appropriate container and then click **Create a GPO in this domain, and Link it here**.</span></span>
 
-3.  Na página seguinte, certifique-se de que a opção **Todos os aplicativos** esteja selecionada e clique em **Avançar**. Esta configuração instrui a rede a procurar todos os pacotes com uma marcação de DSCP igual a 46, não somente pacotes criados por um aplicativo específico.
+3.  <span data-ttu-id="fe5a5-120">Na caixa de diálogo **novo GPO** , digite um nome para o novo objeto de política de grupo na caixa **nome** (por exemplo, o **áudio do Lync Server**) e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-120">In the **New GPO** dialog box, type a name for the new Group Policy object in the **Name** box (for example, **Lync Server Audio**) and then click **OK**.</span></span>
 
-4.  Na terceira página, certifique-se de que ambas as opções **Qualquer endereço IP de origem** e **Qualquer endereço IP de destino** estejam selecionadas e clique em **Avançar**. Essas duas configurações garantem que os pacotes serão gerenciados independente de qual computador (endereço IP) tenha os enviado e de qual computador (endereço IP) os receberá.
+4.  <span data-ttu-id="fe5a5-121">Clique com o botão direito do mouse na política recém-criada e clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-121">Right-click the newly-created policy and then click **Edit**.</span></span>
 
-5.  Na página quatro, selecione **TCP e UDP** na lista suspensa **Selecione o protocolo ao qual esta política de QoS se aplica**. TCP (Transmission Control Protocol) e UDP (User Datagram Protocol) são os dois protocolos de rede mais comumente usados pelo Lync Server e seus aplicativos clientes.
+<span data-ttu-id="fe5a5-122">Aqui, o processo é idêntico independentemente de você estar criando uma política do Active Directory ou uma política local:</span><span class="sxs-lookup"><span data-stu-id="fe5a5-122">From here the process is identical regardless of whether you are creating an Active Directory policy or a local policy:</span></span>
 
-6.  Sob o cabeçalho **Especifique o número da porta de destino**, selecione **A partir desta porta de destino ou intervalo**. Na caixa de texto que acompanha, digite o intervalo de portas reservado para transmissões de áudio. Por exemplo, se você reservou as portas 49152 até as portas 57500 para o tráfego de áudio, insira o intervalo de portas usando este formato: **49152:57500**. Clique em **Concluir**.
+1.  <span data-ttu-id="fe5a5-123">No editor de gerenciamento de política de grupo ou no editor de política de grupo local, expanda **configuração do computador**, expanda **políticas**, expanda **configurações do Windows**, clique com o botão direito do mouse em **QoS baseada em política**e clique em **criar nova política**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-123">In the Group Policy Management Editor or the Local Group Policy Editor, expand **Computer Configuration**, expand **Policies**, expand **Windows Settings**, right-click **Policy-based QoS**, and then click **Create new policy**.</span></span>
 
-Depois de criar a política de QoS para o tráfego de áudio, você deve criar uma segunda política para o tráfego de vídeo. Para criar uma política para vídeo, siga o mesmo procedimento básico da criação da política de áudio, fazendo as seguintes substituições:
+2.  <span data-ttu-id="fe5a5-124">Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política (por exemplo, **áudio do Lync Server**) na caixa **nome** .</span><span class="sxs-lookup"><span data-stu-id="fe5a5-124">In the **Policy-based QoS** dialog box, on the opening page, type a name for the new policy (e.g., **Lync Server Audio**) in the **Name** box.</span></span> <span data-ttu-id="fe5a5-125">Selecione **especificar valor DSCP** e defina o valor como **46**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-125">Select **Specify DSCP Value** and set the value to **46**.</span></span> <span data-ttu-id="fe5a5-126">Deixe **especificar a taxa** de aceleração de saída desmarcada e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-126">Leave **Specify Outbound Throttle Rate** unselected, and then click **Next**.</span></span>
 
-  - Use um nome de política diferente (e único) (por exemplo, **Vídeo do Lync Server**).
+3.  <span data-ttu-id="fe5a5-127">Na página seguinte, verifique se a opção **todos os aplicativos** está selecionada e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-127">On the next page, make sure that **All applications** is selected and then click **Next**.</span></span> <span data-ttu-id="fe5a5-128">Essa configuração instrui a rede a procurar todos os pacotes com uma marcação DSCP de 46, não apenas pacotes criados por um aplicativo específico.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-128">This setting instructs the network to look for all packets with a DSCP marking of 46, not just packets created by a specific application.</span></span>
 
-  - Defina o valor do DSCP como **34** em vez de 46 (observe que você não precisa usar o valor 34 para o DSCP. O único requisito é usar para o vídeo um valor de DSCP diferente do valor usado para o áudio).
+4.  <span data-ttu-id="fe5a5-129">Na terceira página, verifique se **qualquer endereço IP de origem** e **qualquer endereço IP de destino** estão selecionados e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-129">On the third page, make sure that both **Any source IP address** and **Any destination IP address** are selected and then click **Next**.</span></span> <span data-ttu-id="fe5a5-130">Essas duas configurações garantem que os pacotes serão gerenciados independentemente de qual computador (endereço IP) enviou esses pacotes e qual computador (endereço IP) receberá esses pacotes.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-130">These two settings ensure that packets will be managed regardless of which computer (IP address) sent those packets and which computer (IP address) will receive those packets.</span></span>
 
-  - Use o intervalo de portas configurado anteriormente para o tráfego de vídeo. Por exemplo, se você reservou as portas 57501 a 65535 para vídeo, defina o intervalo de portas como: **57501:65535**. Novamente, isso deve ser configurado como intervalo de portas de destino.
+5.  <span data-ttu-id="fe5a5-131">Na página quatro, selecione **TCP e UDP** na lista **Selecione o protocolo que esta política de QoS se aplica à** lista suspensa.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-131">On page four, select **TCP and UDP** from the **Select the protocol this QoS policy applies to** dropdown list.</span></span> <span data-ttu-id="fe5a5-132">TCP (Transmission Control Protocol) e UDP (User Datagram Protocol) são os dois protocolos de rede mais comumente usados pelo Lync Server e seus aplicativos cliente.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-132">TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the two networking protocols most-commonly used by Lync Server and its client applications.</span></span>
 
-Se você decidir criar uma política para gerenciar o tráfego de compartilhamento de aplicativos, deve criar uma terceira política, fazendo as seguintes substituições:
+6.  <span data-ttu-id="fe5a5-133">Em título **especifique o número da porta de destino**, selecione uma **destas portas de destino ou intervalo**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-133">Under the heading **Specify the destination port number**, select **From this destination port or range**.</span></span> <span data-ttu-id="fe5a5-134">Na caixa de texto acompanhada, digite o intervalo de porta reservado para transmissões de áudio.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-134">In the accompanying text box, type the port range reserved for audio transmissions.</span></span> <span data-ttu-id="fe5a5-135">Por exemplo, se você reservou portas 49152 pelas portas 57500 para tráfego de áudio, insira o intervalo de porta usando este formato: **49152:57500**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-135">For example, if you reserved ports 49152 through ports 57500 for audio traffic then enter the port range using this format: **49152:57500**.</span></span> <span data-ttu-id="fe5a5-136">Clique em **Concluir**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-136">Click **Finish**.</span></span>
 
-  - Use um nome de política diferente (e único) (por exemplo, **Compartilhamento de Aplicativos do Lync Server**).
+<span data-ttu-id="fe5a5-137">Depois de criar a política de QoS para o tráfego de áudio, você deve criar uma segunda política para o tráfego de vídeo.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-137">After you have created the QoS policy for audio traffic you should create a second policy for video traffic.</span></span> <span data-ttu-id="fe5a5-138">Para criar uma política de vídeo, siga o mesmo procedimento básico que você seguiu ao criar a política de áudio, como fazer essas substituições:</span><span class="sxs-lookup"><span data-stu-id="fe5a5-138">To create a policy for video, follow the same basic procedure you followed when creating the audio policy, making these substitutions:</span></span>
 
-  - Defina o valor do DSCP como **24** em vez de 46 (novamente, não é necessário usar o valor 24 para o DSCP. O único requisito é usar para o compartilhamento de aplicativos um valor de DSCP diferente do valor usado para áudio e vídeo).
+  - <span data-ttu-id="fe5a5-139">Use um nome de política diferente (e exclusivo) (por exemplo, **vídeo do Lync Server**).</span><span class="sxs-lookup"><span data-stu-id="fe5a5-139">Use a different (and unique) policy name (for example, **Lync Server Video**).</span></span>
 
-  - Use o intervalo de portas configurado anteriormente para o tráfego de vídeo. Por exemplo, se você reservou as portas 40803 a 49151 para o compartilhamento de aplicativos, defina o intervalo de portas como: **40803:49151**.
+  - <span data-ttu-id="fe5a5-140">Defina o valor de DSCP para **34** em vez de 46.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-140">Set the DSCP value to **34** instead of 46.</span></span> <span data-ttu-id="fe5a5-141">(Observe que você não precisa usar um valor de DSCP de 34.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-141">(Note that you do not have to use a DSCP value of 34.</span></span> <span data-ttu-id="fe5a5-142">O único requisito é que você use um valor DSCP diferente para vídeo do que o usado para áudio.)</span><span class="sxs-lookup"><span data-stu-id="fe5a5-142">The only requirement is that you use a different DSCP value for video than you used for audio.)</span></span>
 
-As novas políticas criadas não terão efeito até que a Política de Grupo tenha sido atualizada nos servidores de Borda. Embora a Política de Grupo seja atualizada periodicamente sozinha, você pode forçar uma atualização imediata executando o comando a seguir em cada computador em que for necessário atualizar a Política de Grupo:
+  - <span data-ttu-id="fe5a5-143">Use o intervalo de porta configurado anteriormente para o tráfego de vídeo.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-143">Use the previously-configured port range for video traffic.</span></span> <span data-ttu-id="fe5a5-144">Por exemplo, se você reservou portas de 57501 a 65535 para vídeo, defina o intervalo de porta como: **57501:65535**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-144">For example, if you have reserved ports 57501 through 65535 for video, then set the port range to this: **57501:65535**.</span></span> <span data-ttu-id="fe5a5-145">Novamente, isso deve ser configurado como o intervalo de porta de destino.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-145">Again, this should be configured as the destination port range.</span></span>
+
+<span data-ttu-id="fe5a5-146">Se você decidir criar uma política para gerenciar o tráfego de compartilhamento de aplicativos, será necessário criar uma terceira política e fazer as seguintes substituições:</span><span class="sxs-lookup"><span data-stu-id="fe5a5-146">If you decide to create a policy for managing application sharing traffic you must create a third policy, making the following substitutions:</span></span>
+
+  - <span data-ttu-id="fe5a5-147">Use um nome de política diferente (e exclusivo) (por exemplo, **compartilhamento de aplicativos do Lync Server**).</span><span class="sxs-lookup"><span data-stu-id="fe5a5-147">Use a different (and unique) policy name (for example, **Lync Server Application Sharing**).</span></span>
+
+  - <span data-ttu-id="fe5a5-148">Defina o valor de DSCP para **24** em vez de 46.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-148">Set the DSCP value to **24** instead of 46.</span></span> <span data-ttu-id="fe5a5-149">(Novamente, você não precisa usar um valor de DSCP de 24.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-149">(Again, you do not have to use a DSCP value of 24.</span></span> <span data-ttu-id="fe5a5-150">O único requisito é que você use um valor DSCP diferente para compartilhamento de aplicativos do que usou para áudio ou vídeo.)</span><span class="sxs-lookup"><span data-stu-id="fe5a5-150">The only requirement is that you use a different DSCP value for application sharing than you used for audio or for video.)</span></span>
+
+  - <span data-ttu-id="fe5a5-151">Use o intervalo de porta configurado anteriormente para o tráfego de vídeo.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-151">Use the previously-configured port range for video traffic.</span></span> <span data-ttu-id="fe5a5-152">Por exemplo, se você reservou portas de 40803 a 49151 para compartilhamento de aplicativos, defina o intervalo de porta como: **40803:49151**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-152">For example, if you have reserved ports 40803 through 49151 for application sharing, then set the port range to this: **40803:49151**.</span></span>
+
+<span data-ttu-id="fe5a5-153">As novas políticas que você criou não entrarão em vigor até que a política de grupo seja atualizada em seus servidores de borda.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-153">The new policies you have created will not take effect until Group Policy has been refreshed on your Edge servers.</span></span> <span data-ttu-id="fe5a5-154">Embora a Política de Grupo seja periodicamente atualizada por si só, você pode forçar a atualização imediata executando o comando a seguir em cada computador em que a Política de Grupo deve ser atualizada:</span><span class="sxs-lookup"><span data-stu-id="fe5a5-154">Although Group Policy periodically refreshes on its own, you can force an immediate refresh by running the following command on each computer where Group Policy needs to be refreshed:</span></span>
 
     Gpudate.exe /force
 
-Este comando pode ser executado de dentro do Lync Server ou a partir de qualquer janela de comando que esteja sendo executada sob credenciais de administrador. Para executar uma janela de comando sob credenciais de administrador, clique em **Iniciar**, clique com o botão direito em **Prompt de Comando** e clique em **Executar como administrador**. Observe que pode ser necessário reiniciar o servidor de Borda mesmo depois de executar o arquivo Gpudate.exe.
+<span data-ttu-id="fe5a5-155">Esse comando pode ser executado no servidor do Lync ou em qualquer janela de comando que esteja em execução em credenciais de administrador.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-155">This command can be run from within the Lync Server or from any command window that is running under administrator credentials.</span></span> <span data-ttu-id="fe5a5-156">Para executar uma janela de comando com credenciais de administrador, clique em **Iniciar**, clique com o botão direito do mouse em **Prompt de Comando** e clique em **Executar como administrador**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-156">To run a command window under administrator credentials, click **Start**, right-click **Command Prompt**, and then click **Run as administrator**.</span></span> <span data-ttu-id="fe5a5-157">Observe que talvez seja necessário reiniciar o servidor de borda, mesmo depois de executar o GPUDATE. exe.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-157">Note that you might need to restart the Edge server even after running Gpudate.exe.</span></span>
 
-Para ajudar a garantir que os pacotes de rede sejam marcados com o valore DSCP correto, você também deve criar uma nova entrada de registro em cada computador, concluindo o procedimento a seguir:
+<span data-ttu-id="fe5a5-158">Para ajudar a garantir que os pacotes de rede sejam marcados com o valor DSCP apropriado, você também deve criar uma nova entrada de registro em cada computador completando o seguinte procedimento:</span><span class="sxs-lookup"><span data-stu-id="fe5a5-158">To help ensure that network packets are marked with the appropriate DSCP value, you should also create a new registry entry on each computer by completing the following procedure:</span></span>
 
-1.  Clique em **Iniciar** e em **Executar**.
+1.  <span data-ttu-id="fe5a5-159">Clique em **Iniciar** e em **executar**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-159">Click **Start** and then click **Run**.</span></span>
 
-2.  Na caixa de diálogo **Executar**, digite **regedit** e pressione ENTER.
+2.  <span data-ttu-id="fe5a5-160">Na caixa de diálogo **executar** , digite **regedit** e pressione Enter.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-160">In the **Run** dialog box, type **regedit** and then press ENTER.</span></span>
 
-3.  No Editor do Registro, expanda **HKEY\_LOCAL\_MACHINE**, **SYSTEM**, **CurrentControlSet**, **services** e **Tcpip**.
+3.  <span data-ttu-id="fe5a5-161">No editor do registro, expanda **\_hKey\_local Machine**, expanda **System**, expanda **CurrentControlSet**, expanda **Services**e, em seguida, expanda **tcpip**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-161">In the Registry Editor, expand **HKEY\_LOCAL\_MACHINE**, expand **SYSTEM**, expand **CurrentControlSet**, expand **services**, and then expand **Tcpip**.</span></span>
 
-4.  Clique com o botão direito em **Tcpip**, aponte para **Novo** e clique em **Chave**. Depois de criar a nova chave de registro, digite **QoS** e pressione ENTER para renomear a chave.
+4.  <span data-ttu-id="fe5a5-162">Clique com o botão direito do mouse em **tcpip**, aponte para **novo**e, em seguida, clique em **tecla**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-162">Right-click **Tcpip**, point to **New**, and then click **Key**.</span></span> <span data-ttu-id="fe5a5-163">Após a criação da nova chave do registro, digite **QoS** e pressione ENTER para renomear a chave.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-163">After the new registry key is created, type **QoS** and then press ENTER to rename the key.</span></span>
 
-5.  Clique com o botão direito em **QoS**, aponte para **Novo** e clique em **Valor da Sequência**. Depois de criar o novo valor do registro, digite **Não usar NLA** e pressione ENTER para renomear o valor.
+5.  <span data-ttu-id="fe5a5-164">Clique com o botão direito do mouse em **QoS**, aponte para **novo**e clique em **valor da cadeia de caracteres**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-164">Right-click **QoS**, point to **New**, and then click **String Value**.</span></span> <span data-ttu-id="fe5a5-165">Depois que o novo valor do registro for criado, digite não **use NLA** e pressione ENTER para renomear o valor.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-165">After the new registry value is created, type **Do not use NLA** and then press ENTER to rename the value.</span></span>
 
-6.  Dê um duplo clique em **Não usar NLA**. Na caixa de diálogo **Editar Sequência**, digite **1** na caixa **Dados de valor** e clique em **OK**.
+6.  <span data-ttu-id="fe5a5-166">Clique duas vezes em **não usar NLA**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-166">Double-click **Do no use NLA**.</span></span> <span data-ttu-id="fe5a5-167">Na caixa de diálogo **Editar Cadeia de caracteres** , digite **1** na caixa **dados do valor** e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-167">In the **Edit String** dialog box, type **1** in the **Value data** box and then click **OK**.</span></span>
 
-7.  Feche o Editor do Registro e reinicie o computador.
+7.  <span data-ttu-id="fe5a5-168">Feche o editor do registro e reinicie o computador.</span><span class="sxs-lookup"><span data-stu-id="fe5a5-168">Close the Registry Editor and then reboot your computer.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

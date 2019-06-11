@@ -1,35 +1,69 @@
-﻿---
-title: 'Lync Server 2013: Componentes usados pelo aplicativo Comunicado'
-TOCTitle: Componentes usados pelo aplicativo Comunicado
-ms:assetid: 7b1a0281-cf31-459d-a734-5f10a129089c
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398608(v=OCS.15)
-ms:contentKeyID: 49307210
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Componentes usados pelo aplicativo Comunicado'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Components used by the Announcement application
+ms:assetid: 7b1a0281-cf31-459d-a734-5f10a129089c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398608(v=OCS.15)
+ms:contentKeyID: 48184595
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7e8e4a0fdfe0dcdd69a3f371aed338caf7f73348
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836501"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Componentes usados pelo aplicativo Comunicado no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-13_
+# <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a><span data-ttu-id="e0de6-102">Componentes usados pelo aplicativo Comunicado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e0de6-102">Components used by the Announcement application in Lync Server 2013</span></span>
 
-No Lync Server 2013, o Aplicativo Comunicado é um componente do Aplicativo Grupo de Resposta. Quando você implanta o Enterprise Voice, o Aplicativo Comunicado é automaticamente instalado e ativado junto com o Aplicativo Grupo de Resposta. Esta seção descreve os componentes que oferecem suporte ao Aplicativo Comunicado.
+</div>
 
-## Componentes de Aplicativo de Comunicado
+<div id="mainSection">
 
-Os componentes do Lync Server a seguir oferecem suporte ao Aplicativo Comunicado:
+<div id="mainBody">
 
-  - **Serviço de aplicativos**    Serviço de aplicativos oferece uma plataforma para a implantação, hospedagem e gerenciamento de aplicativos de comunicação unificada. Serviço de aplicativos é automaticamente instalado em cada servidor Front-End em um Pool de Front-Ends e em cada servidor Standard Edition.
+<span> </span>
 
-  - **Aplicativo Grupo de Resposta** O Aplicativo Grupo de Resposta é um dos aplicativos de comunicação unificada hospedados pelo Serviço de aplicativos. Quando um intervalo de números de telefone não atribuído é configurado para rotear para um comunicado, o Aplicativo Grupo de Resposta é necessário para rotear as chamadas feitas ao número de telefone. ( Aplicativo Grupo de Resposta não é necessário se todos os intervalos são configurados para rotear para o UM do Exchange.)
+<span data-ttu-id="e0de6-103">_**Tópico da última modificação:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="e0de6-103">_**Topic Last Modified:** 2012-09-13_</span></span>
 
-  - **Arquivos de áudio** Os arquivos de áudio são usados para os comunicados.
+<span data-ttu-id="e0de6-104">No Lync Server 2013, o aplicativo de anúncio é um componente do aplicativo de grupo de resposta.</span><span class="sxs-lookup"><span data-stu-id="e0de6-104">In Lync Server 2013, the Announcement application is a component of the Response Group application.</span></span> <span data-ttu-id="e0de6-105">Quando você implanta o Enterprise Voice, o aplicativo de anúncio é automaticamente instalado e ativado juntamente com o aplicativo de grupo de resposta.</span><span class="sxs-lookup"><span data-stu-id="e0de6-105">When you deploy Enterprise Voice, the Announcement application is automatically installed and activated along with the Response Group application.</span></span> <span data-ttu-id="e0de6-106">Esta seção descreve os componentes que dão suporte ao aplicativo de anúncio.</span><span class="sxs-lookup"><span data-stu-id="e0de6-106">This section describes the components that support the Announcement application.</span></span>
 
-  - **Armazenamento de arquivos** A Aplicativo Comunicado usa o repositorio de arquivos para armazenar seus arquivos de áudio.
+<div>
 
-  - **Painel de Controle do Lync Server** Você pode usar Painel de Controle do Lync Server para configurar a tabela de números não atribuída.
+## <a name="announcement-application-components"></a><span data-ttu-id="e0de6-107">Componentes do aplicativo de anúncio</span><span class="sxs-lookup"><span data-stu-id="e0de6-107">Announcement Application Components</span></span>
 
-  - **Shell de Gerenciamento do Lync Server** Você pode usar os cmdlets Shell de Gerenciamento do Lync Server para definir as configurações de lançamento e a tabela de número não atribuída.
+<span data-ttu-id="e0de6-108">Os seguintes componentes do Lync Server são compatíveis com o aplicativo de anúncio:</span><span class="sxs-lookup"><span data-stu-id="e0de6-108">The following Lync Server components support the Announcement application:</span></span>
+
+  - <span data-ttu-id="e0de6-109">\*\*\*\*   Serviço de aplicativo de serviço de aplicativo fornece uma plataforma para implantação, hospedagem e gerenciamento de aplicativos de comunicação unificada.</span><span class="sxs-lookup"><span data-stu-id="e0de6-109">**Application service**   Application service provides a platform for deploying, hosting, and managing unified communications applications.</span></span> <span data-ttu-id="e0de6-110">O serviço de aplicativo é instalado automaticamente em todos os servidores front-end em um pool Front-end e em cada servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="e0de6-110">Application service is automatically installed on every Front End Server in a Front End pool and on every Standard Edition server.</span></span>
+
+  - <span data-ttu-id="e0de6-111">**Aplicativo de grupo de resposta**   o aplicativo grupo de resposta é um dos aplicativos de comunicação unificada hospedados pelo serviço de aplicativo.</span><span class="sxs-lookup"><span data-stu-id="e0de6-111">**Response Group application**   The Response Group application is one of the unified communications applications that are hosted by Application service.</span></span> <span data-ttu-id="e0de6-112">Quando um intervalo de números de telefone não atribuído está configurado para direcionar para um comunicado, o aplicativo grupo de resposta é necessário para direcionar as chamadas feitas para o número de telefone.</span><span class="sxs-lookup"><span data-stu-id="e0de6-112">When an unassigned phone number range is configured to route to an announcement, the Response Group application is required to route the calls made to the phone number.</span></span> <span data-ttu-id="e0de6-113">(O aplicativo de grupo de resposta não será necessário se todos os intervalos estiverem configurados para direcionar a UM (a) Unificação de mensagens do Exchange.)</span><span class="sxs-lookup"><span data-stu-id="e0de6-113">(Response Group application is not required if all the ranges are configured to route to Exchange Unified Messaging (UM).)</span></span>
+
+  - <span data-ttu-id="e0de6-114">**Arquivos de áudio**   os arquivos de áudio são usados para os comunicados.</span><span class="sxs-lookup"><span data-stu-id="e0de6-114">**Audio files**   Audio files are used for the announcements.</span></span>
+
+  - <span data-ttu-id="e0de6-115">**Repositório de arquivos**   o aplicativo de anúncio usa o repositório de arquivos para armazenar seus arquivos de áudio.</span><span class="sxs-lookup"><span data-stu-id="e0de6-115">**File Store**   The Announcement application uses File Store to store its audio files.</span></span>
+
+  - <span data-ttu-id="e0de6-116">**Painel de controle do Lync Server**   você pode usar o painel de controle do Lync Server para configurar a tabela numérica não atribuída.</span><span class="sxs-lookup"><span data-stu-id="e0de6-116">**Lync Server Control Panel**   You can use Lync Server Control Panel to configure the unassigned number table.</span></span>
+
+  - <span data-ttu-id="e0de6-117">**Shell de gerenciamento do Lync Server**   você pode usar cmdlets do Shell de gerenciamento do Lync Server para definir as configurações de anúncio e a tabela de número não atribuído.</span><span class="sxs-lookup"><span data-stu-id="e0de6-117">**Lync Server Management Shell**   You can use Lync Server Management Shell cmdlets to configure Announcement settings and the unassigned number table.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

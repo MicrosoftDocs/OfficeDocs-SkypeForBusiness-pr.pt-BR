@@ -1,69 +1,124 @@
-﻿---
-title: "Lync Server 2013: Pré-requisitos de Estac. de Chamadas e direitos de usuário"
-TOCTitle: Pré-requisitos de Estacionamento de Chamadas e direitos de usuário
-ms:assetid: 25b8cfe0-e4e7-487c-9e78-8c040f629059
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425730(v=OCS.15)
-ms:contentKeyID: 49306160
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Pré-requisitos de Estacionamento de Chamadas e direitos de usuário'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call Park configuration prerequisites and user rights
+ms:assetid: 25b8cfe0-e4e7-487c-9e78-8c040f629059
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425730(v=OCS.15)
+ms:contentKeyID: 48183648
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 64a2f322ffec1d2ffa7aa238b76686391fc76ed7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836697"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Pré-requisitos de Estacionamento de Chamadas e direitos de usuário no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-10_
+# <a name="call-park-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a><span data-ttu-id="a78a2-102">Pré-requisitos de Estacionamento de Chamadas e direitos de usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a78a2-102">Call Park configuration prerequisites and user rights in Lync Server 2013</span></span>
 
-O Estacionamento de Chamada é um recurso de gerenciamento de chamada instalado por padrão ao implantar o Enterprise Voice. Este tópico descreve o que você precisa ter antes de poder configurar o Estacionamento de Chamada e os direitos de usuário que você precisará para realizar tarefas de configuração.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="a78a2-103">_**Tópico da última modificação:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="a78a2-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+
+<span data-ttu-id="a78a2-104">O estacionamento de chamadas é um recurso de gerenciamento de chamadas que é instalado por padrão quando você implanta o Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="a78a2-104">Call Park is a call management feature that is installed by default when you deploy Enterprise Voice.</span></span> <span data-ttu-id="a78a2-105">Este tópico descreve o que você precisa ter em vigor antes de poder configurar o estacionamento de chamadas e os direitos de usuário necessários para executar tarefas de configuração.</span><span class="sxs-lookup"><span data-stu-id="a78a2-105">This topic describes what you need to have in place before you can configure Call Park and the user rights that you need to perform configuration tasks.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Arquivos de música em espera personalizada para o Aplicativo de Estacionamento de Chamada não são armazenados como parte do processo de recuperação de desastres do Lync Server 2013 e os arquivos serão perdidos se forem carregados para o pool danificado, corrompido ou apagado. Sempre mantenha uma cópia reserva separada dos arquivos de música em espera personalizada que você carregou para o Estacionamento de Chamada.
+> <span data-ttu-id="a78a2-106">Os arquivos personalizados de música em espera para o aplicativo de estacionamento de chamadas não são submetidos a backup como parte do processo de recuperação de desastre do Lync Server 2013, e os arquivos serão perdidos se os arquivos carregados no pool estiverem danificados, corrompidos ou apagados.</span><span class="sxs-lookup"><span data-stu-id="a78a2-106">Customized music-on-hold files for the Call Park application are not backed up as part of the Lync Server 2013 disaster recovery process, and the files will be lost if the files uploaded to the pool are damaged, corrupted, or erased.</span></span> <span data-ttu-id="a78a2-107">Mantenha sempre uma cópia de backup separada dos arquivos de música de espera personalizados que você enviar ao Estacionamento de Chamada.</span><span class="sxs-lookup"><span data-stu-id="a78a2-107">Always keep a separate backup copy of the customized music-on-hold files that you have uploaded for Call Park.</span></span>
 
-Esta seção assume que você leu a documentação de planejamento relacionada ao Estacionamento de Chamada (consulte [Planejamento de recursos de gerenciamento de chamada no Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).
 
-## Estacionamento de Chamada Pré-requisitos de configuração
 
-Estacionamento de Chamada requer os seguintes componentes:
+</div>
 
-  - Serviço de aplicativos
+<span data-ttu-id="a78a2-108">Esta seção pressupõe que você leu a documentação de planejamento relacionada ao estacionamento de chamadas (consulte [planejando os recursos de gerenciamento de chamadas no Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).</span><span class="sxs-lookup"><span data-stu-id="a78a2-108">This section assumes that you have read the planning documentation related to Call Park (see [Planning for call management features in Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).</span></span>
 
-  - Aplicativo de Estacionamento de Chamada
+<div>
 
-Estes componentes são instalados automaticamente ao implantar o Enterprise Voice.
+## <a name="call-park-configuration-prerequisites"></a><span data-ttu-id="a78a2-109">Pré-requisitos de configuração do parque da chamada</span><span class="sxs-lookup"><span data-stu-id="a78a2-109">Call Park Configuration Prerequisites</span></span>
 
-Se você deseja que os chamadores ouçam música enquanto a chamada estiver estacionada, um arquivo de música em espera também é necessário. Um arquivo de música em espera padrão é instalado automaticamente ao implantar o Enterprise Voice. É possível substituir o arquivo padrão com seu próprio arquivo de música em espera. O Estacionamento de Chamada usa o Repositório de Arquivos para manter o arquivo de áudio.
+<span data-ttu-id="a78a2-110">O estacionamento de chamadas requer os seguintes componentes:</span><span class="sxs-lookup"><span data-stu-id="a78a2-110">Call Park requires the following components:</span></span>
 
-## Direitos do Usuário de Configuração do Estacionamento de Chamada
+  - <span data-ttu-id="a78a2-111">Serviço de aplicativos</span><span class="sxs-lookup"><span data-stu-id="a78a2-111">Application service</span></span>
 
-Você pode utilizar as seguintes ferramentas administrativas para configurar o Estacionamento de Chamada:
+  - <span data-ttu-id="a78a2-112">Aplicativo de Estacionamento de Chamada</span><span class="sxs-lookup"><span data-stu-id="a78a2-112">Call Park application</span></span>
 
-  - Painel de Controle do Lync Server
+<span data-ttu-id="a78a2-113">Esses componentes são instalados automaticamente quando você implanta o Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="a78a2-113">These components are installed automatically when you deploy Enterprise Voice.</span></span>
 
-  - Shell de Gerenciamento do Lync Server
+<span data-ttu-id="a78a2-114">Se você quiser que os chamadores ouvissem música enquanto a chamada estiver estacionada, um arquivo de música em espera também será necessário.</span><span class="sxs-lookup"><span data-stu-id="a78a2-114">If you want callers to hear music while the call is parked, a music-on-hold file is also required.</span></span> <span data-ttu-id="a78a2-115">Um arquivo de música em espera padrão é instalado automaticamente quando você implanta o Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="a78a2-115">A default music-on-hold file is installed automatically when you deploy Enterprise Voice.</span></span> <span data-ttu-id="a78a2-116">Você pode substituir o arquivo padrão pelo seu próprio arquivo de música em espera.</span><span class="sxs-lookup"><span data-stu-id="a78a2-116">You can substitute the default file with your own music-on-hold file.</span></span> <span data-ttu-id="a78a2-117">O parque de chamadas usa o armazenamento de arquivos para armazenar o arquivo de áudio.</span><span class="sxs-lookup"><span data-stu-id="a78a2-117">Call Park uses File Store to hold the audio file.</span></span>
 
-É possível usar estas ferramentas para configurar a tabela de órbita do Estacionamento de Chamada e definir outras configurações usadas pelo Estacionamento de Chamada.
+</div>
 
-Configurar o Estacionamento de Chamada exige qualquer uma das seguintes funções administrativas, dependendo da tarefa:
+<div>
 
-  - **CsVoiceAdministrator :** Esta função de administrador pode criar, configurar e gerenciar todas as políticas e configurações relacionadas à voz.
+## <a name="call-park-configuration-user-rights"></a><span data-ttu-id="a78a2-118">Direitos de usuário de configuração do estacionamento de chamada</span><span class="sxs-lookup"><span data-stu-id="a78a2-118">Call Park Configuration User Rights</span></span>
 
-  - **CsUserAdministrator :** Esta função de administração pode habilitar o Estacionamento de Chamada na política de voz. Esta função de administração também pode ter acesso de exibição somente leitura para todas as configurações de voz.
+<span data-ttu-id="a78a2-119">Você pode usar as seguintes ferramentas administrativas para configurar o parque de chamadas:</span><span class="sxs-lookup"><span data-stu-id="a78a2-119">You can use the following administrative tools to configure Call Park:</span></span>
 
-  - **CsServerAdministrator :** Esta função de administrador pode gerenciar, monitorar e solucionar problemas de servidores e serviços.
+  - <span data-ttu-id="a78a2-120">Painel de Controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="a78a2-120">Lync Server Control Panel</span></span>
 
-  - **CsAdministrator :** Esta função de administrador pode executar todas as tarefas do CsVoiceAdministrator, CsServerAdministrator e CsUserAdministrator.
+  - <span data-ttu-id="a78a2-121">Shell de Gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="a78a2-121">Lync Server Management Shell</span></span>
+
+<span data-ttu-id="a78a2-122">Use essas ferramentas para configurar a tabela órbita do parque de chamadas e para definir outras configurações usadas pelo parque de chamadas.</span><span class="sxs-lookup"><span data-stu-id="a78a2-122">You use these tools to set up the Call Park orbit table and to configure other settings used by Call Park.</span></span>
+
+<span data-ttu-id="a78a2-123">A configuração do estacionamento de chamadas requer qualquer uma das seguintes funções administrativas, dependendo da tarefa:</span><span class="sxs-lookup"><span data-stu-id="a78a2-123">Configuring Call Park requires any of the following administrative roles, depending on the task:</span></span>
+
+  - <span data-ttu-id="a78a2-124">**CsVoiceAdministrator:** Essa função de administrador pode criar, configurar e gerenciar todas as configurações e políticas relacionadas a voz.</span><span class="sxs-lookup"><span data-stu-id="a78a2-124">**CsVoiceAdministrator:** This administrator role can create, configure, and manage all voice-related settings and policies.</span></span>
+
+  - <span data-ttu-id="a78a2-125">**CsUserAdministrator:** Esta função de administrador pode habilitar o parque de chamadas na política de voz.</span><span class="sxs-lookup"><span data-stu-id="a78a2-125">**CsUserAdministrator:** This administrator role can enable Call Park in voice policy.</span></span> <span data-ttu-id="a78a2-126">Essa função de administrador também tem acesso de exibição somente leitura a todas as configurações de voz.</span><span class="sxs-lookup"><span data-stu-id="a78a2-126">This administrator role also has read-only view access to all voice configurations.</span></span>
+
+  - <span data-ttu-id="a78a2-127">**CsServerAdministrator:** Essa função de administrador pode gerenciar, monitorar e solucionar problemas de servidores e serviços.</span><span class="sxs-lookup"><span data-stu-id="a78a2-127">**CsServerAdministrator:** This administrator role can manage, monitor, and troubleshoot servers and services.</span></span>
+
+  - <span data-ttu-id="a78a2-128">**CsAdministrator:** Essa função de administrador pode executar todas as tarefas de CsVoiceAdministrator, CsServerAdministrator e CsUserAdministrator.</span><span class="sxs-lookup"><span data-stu-id="a78a2-128">**CsAdministrator:** This administrator role can perform all of the tasks of CsVoiceAdministrator, CsServerAdministrator, and CsUserAdministrator.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Para obter detalhes sobre direitos administrativos, consulte <a href="lync-server-2013-planning-for-role-based-access-control.md">Planejamento de controle de acesso baseado em função no Lync Server 2013</a> na documentação de planejamento.
+> <span data-ttu-id="a78a2-129">Para obter detalhes sobre direitos administrativos, consulte <A href="lync-server-2013-planning-for-role-based-access-control.md">planejando o controle de acesso baseado em função no Lync Server 2013</A> na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="a78a2-129">For details about administrative rights, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span>
 
-## Consulte Também
 
-#### Conceitos
 
-[Implantando o Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  
+</div>
 
-#### Outros Recursos
+</div>
 
-[Planejamento de recursos de gerenciamento de chamada no Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="a78a2-130">Confira também</span><span class="sxs-lookup"><span data-stu-id="a78a2-130">See Also</span></span>
+
+
+[<span data-ttu-id="a78a2-131">Implantando o Enterprise Voice no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a78a2-131">Deploying Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deploying-enterprise-voice.md)  
+
+
+[<span data-ttu-id="a78a2-132">Planejando os recursos de gerenciamento de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a78a2-132">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

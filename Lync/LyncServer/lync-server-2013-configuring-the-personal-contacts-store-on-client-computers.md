@@ -1,37 +1,67 @@
-﻿---
-title: Configurando o Repositório de Contatos Pessoais nos Computadores Cliente
-TOCTitle: Configurando o Repositório de Contatos Pessoais nos Computadores Cliente
-ms:assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721922(v=OCS.15)
-ms:contentKeyID: 49886464
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando o repositório de contatos pessoais em computadores cliente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring the personal contacts store on client computers
+ms:assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721922(v=OCS.15)
+ms:contentKeyID: 49733857
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e4f9b7bbb50b5e63e87904d29a01715fcdcac8c4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836174"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando o Repositório de Contatos Pessoais nos Computadores Cliente
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a><span data-ttu-id="55713-102">Configurando o repositório de contatos pessoais em computadores cliente para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="55713-102">Configuring the personal contacts store on client computers for Lync Server 2013</span></span>
 
-Se você estiver integrando o Microsoft Lync Server 2013 e o Microsoft Exchange Server 2013, será recomendável configurar o repositório de contatos pessoais nos computadores cliente executando o Microsoft Lync 2010. Em particular, você deve configurar o Lync para usar o Exchange como o repositório de contatos pessoais e, ao mesmo tempo, verifique se os usuários não podem substituir essa decisão. Isso pode ser feito com a criação e a configuração de um valor de Registro em cada computador cliente.
+</div>
 
-Observe que isso não é necessário nos computadores executando o Lync 2013.
+<div id="mainSection">
 
-Para configurar esse valor em um único computador, execute os seguinte procedimento:
+<div id="mainBody">
 
-1.  No computador do cliente, clique em **Iniciar**, então, clique em **Executar**.
+<span> </span>
 
-2.  Na caixa de diálogo **Executar**, digite regedit, então, pressione ENTER.
+<span data-ttu-id="55713-103">_**Tópico da última modificação:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="55713-103">_**Topic Last Modified:** 2014-02-05_</span></span>
 
-3.  No Editor de Registro, expanda **HKEY\_LOCAL\_MACHINE**, expanda **Software**, expanda **Policies**, expanda **Microsoft** e expanda **Communicator**.
+<span data-ttu-id="55713-104">Se você estiver integrando o Microsoft Lync Server 2013 e o Microsoft Exchange Server 2013, recomendamos que você configure o repositório de contatos pessoais em qualquer computador cliente que esteja executando o Microsoft Lync 2010.</span><span class="sxs-lookup"><span data-stu-id="55713-104">If you are integrating Microsoft Lync Server 2013 and Microsoft Exchange Server 2013 then it is recommended that you configure the personal contact store on any client computers running Microsoft Lync 2010.</span></span> <span data-ttu-id="55713-105">Em particular, você deve configurar o Lync para usar o Exchange como o repositório de contatos pessoais e, ao mesmo tempo, certificar-se de que os usuários não podem substituir essa decisão.</span><span class="sxs-lookup"><span data-stu-id="55713-105">In particular, you should configure Lync to use Exchange as the personal contact store, and, at the same time, ensure that users are not able to override that decision.</span></span> <span data-ttu-id="55713-106">Isso pode ser feito com a criação e configuração de um valor de Registro em cada computador cliente.</span><span class="sxs-lookup"><span data-stu-id="55713-106">This can be done by creating and configuring a Registry value on each client computer.</span></span>
 
-4.  Clique com o botão direito do mouse em **Communicator**, aponte para **Novo** e clique no **Valor DWORD (32 bits)**.
+<span data-ttu-id="55713-107">Observe que isso não é necessário em computadores que executam o Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="55713-107">Note that this is not required on computers running Lync 2013.</span></span>
 
-5.  Depois do novo valor ser criado, digite **PersonalContactStoreOverride** e pressione ENTER para renomear o valor.
+<span data-ttu-id="55713-108">Para configurar esse valor em um único computador, execute os seguinte procedimento:</span><span class="sxs-lookup"><span data-stu-id="55713-108">To configure this value on a single computer, complete the following procedure:</span></span>
 
-6.  Verifique se o valor de PersonalContactStoreOverride está definido para 0 e feche o Editor do Registro.
+1.  <span data-ttu-id="55713-109">No computador do cliente, clique em **Iniciar**, e então clique em **Executar**.</span><span class="sxs-lookup"><span data-stu-id="55713-109">On the client computer, click **Start** and then click **Run**.</span></span>
 
-Se precisar fazer esta mesma alteração em vários computadores, você pode criar um objeto personalizado de Política de Grupo. Para obter detalhes, consulte a documentação da Política de Grupo em [http://go.microsoft.com/fwlink/?linkid=268543\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=268543%26clcid=0x416).
+2.  <span data-ttu-id="55713-110">Na caixa de diálogo **Executar**, digite regedit e depois pressione ENTER.</span><span class="sxs-lookup"><span data-stu-id="55713-110">In the **Run** dialog box, type regedit and then press ENTER.</span></span>
+
+3.  <span data-ttu-id="55713-111">No editor do registro, expanda **HKEY\_local\_Machine**, expanda **software**, expanda **políticas**, expanda Microsoft e, em seguida, expanda **o** **Communicator**.</span><span class="sxs-lookup"><span data-stu-id="55713-111">In Registry Editor, expand **HKEY\_LOCAL\_MACHINE**, expand **Software**, expand **Policies**, expand **Microsoft**, and then expand **Communicator**.</span></span>
+
+4.  <span data-ttu-id="55713-112">Clique com o botão direito do mouse em **Communicator**, aponte para **Novo** e clique no **Valor DWORD (32 bits)**.</span><span class="sxs-lookup"><span data-stu-id="55713-112">Right-click **Communicator**, point to **New**, and then click **DWORD (32-bit) Value**.</span></span>
+
+5.  <span data-ttu-id="55713-113">Depois do novo valor ser criado, digite **PersonalContactStoreOverride** e pressione ENTER para renomear o valor.</span><span class="sxs-lookup"><span data-stu-id="55713-113">After the new value is created, type **PersonalContactStoreOverride** and then press ENTER to rename the value.</span></span>
+
+6.  <span data-ttu-id="55713-114">Verifique se o valor de PersonalContactStoreOverride está definido para 0 e feche o Editor do Registro.</span><span class="sxs-lookup"><span data-stu-id="55713-114">Verify that the value of PersonalContactStoreOverride is set to 0 and then close Registry Editor.</span></span>
+
+<span data-ttu-id="55713-115">Se precisar fazer esta mesma alteração em vários computadores, você pode criar um objeto personalizado de Política de Grupo.</span><span class="sxs-lookup"><span data-stu-id="55713-115">If you need to make this same change on multiple computers you can do so by creating a custom Group Policy object.</span></span> <span data-ttu-id="55713-116">Para obter detalhes, consulte a documentação da política [http://go.microsoft.com/fwlink/p/?LinkId=268543](http://go.microsoft.com/fwlink/p/?linkid=268543)de grupo em.</span><span class="sxs-lookup"><span data-stu-id="55713-116">For details, see the Group Policy documentation at [http://go.microsoft.com/fwlink/p/?LinkId=268543](http://go.microsoft.com/fwlink/p/?linkid=268543).</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,164 +1,230 @@
-﻿---
-title: Configurando um proxy reverso para a descoberta automática
-TOCTitle: Configurando um proxy reverso para a descoberta automática
-ms:assetid: 1e3c3cc2-fe55-408b-99c4-c6e0a9252689
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ945619(v=OCS.15)
-ms:contentKeyID: 52057568
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando um proxy inverso para descoberta automática'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring a reverse proxy for Autodiscover
+ms:assetid: 1e3c3cc2-fe55-408b-99c4-c6e0a9252689
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945619(v=OCS.15)
+ms:contentKeyID: 51541456
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5445a9ce81835863b610ef32ecc51ccac5331c3f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836301"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando um proxy reverso para a descoberta automática
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-12-12_
+# <a name="configuring-a-reverse-proxy-for-autodiscover-in-lync-server-2013"></a><span data-ttu-id="b4757-102">Configurando um proxy inverso para descoberta automática no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b4757-102">Configuring a reverse proxy for Autodiscover in Lync Server 2013</span></span>
 
-A Descoberta automática e o suporte a cliente utilizando a descoberta automática requer modificação de regra de publicação Web existente ou a criação de uma nova regra de publicação Web para o proxy reverso. A modificação ou criação de uma nova regra de publicação não depende da decisão de atualizar ou não as listas de nome alternativo de assunto nos certificados de proxy reverso.
+</div>
 
-Se decidir usar HTTPS para solicitações iniciais do Serviço Descoberta Automática do Lync Server 2013 e atualizar listas de nomes alternativos de assunto nos certificados de proxy reverso, você precisará atribuir o certificado público atualizado ao Ouvinte do SSL no proxy reverso. A atualização necessária para o certificado externo (público) incluirá a entrada do nome alternativo de assunto (SAN) para lyncdiscover.\<domain name\>. Então, será necessário modificar o ouvinte existente para os serviços Web externos ou criar uma nova regra de publicação Web para o URL do Serviço de Descoberta Automática, por exemplo **lyncdiscover.contoso.com**. Se você já não tiver uma regra de publicação Web para o URL de Serviços Web Lync Server 2013 externo para seu Pool de Front-Ends e Pool de diretores (se você tiver implantado o Diretores), você também precisará publicar uma regra para isso.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="b4757-103">_**Tópico da última modificação:** 2012-12-12_</span><span class="sxs-lookup"><span data-stu-id="b4757-103">_**Topic Last Modified:** 2012-12-12_</span></span>
+
+<span data-ttu-id="b4757-104">A descoberta automática e o suporte de clientes que usam a descoberta automática exigem a modificação de uma regra de publicação na Web existente ou a criação de uma nova regra de publicação na Web para o proxy reverso.</span><span class="sxs-lookup"><span data-stu-id="b4757-104">Autodiscover and the support of clients using autodiscover requires modification of an existing web publishing rule or creating a new web publishing rule for the reverse proxy.</span></span> <span data-ttu-id="b4757-105">A modificação ou criação de uma nova regra de publicação não depende da decisão de atualizar ou não atualizar as listas de nomes alternativos de entidades nos certificados de proxy reverso.</span><span class="sxs-lookup"><span data-stu-id="b4757-105">The modification or creation of a new publishing rule is not dependent on the decision to update or not update the subject alternative name lists on the reverse proxy certificates.</span></span>
+
+<span data-ttu-id="b4757-106">Se você decidir usar HTTPS para solicitações iniciais de serviço de descoberta automática do Lync Server 2013 e atualizar as listas de nomes alternativos de entidades nos certificados de proxy reverso, será necessário atribuir o certificado público atualizado ao ouvinte SSL (Secure Sockets Layer) em seu proxy reverso.</span><span class="sxs-lookup"><span data-stu-id="b4757-106">If you decide to use HTTPS for initial Lync Server 2013 Autodiscover Service requests and update the subject alternative names lists on the reverse proxy certificates, you need to assign the updated public certificate to the Secure Sockets Layer (SSL) Listener on your reverse proxy.</span></span> <span data-ttu-id="b4757-107">A atualização necessária para o certificado externo (público) incluirá a entrada de nome alternativo (SAN) do assunto para lyncdiscover. \<nome\>do domínio.</span><span class="sxs-lookup"><span data-stu-id="b4757-107">The required update to the external (public) certificate will include the subject alternate name (SAN) entry for lyncdiscover.\<domain name\>.</span></span> <span data-ttu-id="b4757-108">Em seguida, você precisará modificar o ouvinte existente para os serviços Web externos ou criar uma nova regra de publicação na Web para a URL do serviço de descoberta automática externa, por exemplo, **lyncdiscover.contoso.com**.</span><span class="sxs-lookup"><span data-stu-id="b4757-108">You then need to modify the existing listener for the external web services or create a new web publishing rule for the external Autodiscover Service URL, for example **lyncdiscover.contoso.com**.</span></span> <span data-ttu-id="b4757-109">Se você ainda não tiver uma regra de publicação na Web para a URL externa de serviços Web do Lync Server 2013 para seu pool de front-ends e pool de directors (se você tiver implantado directors), também precisará publicar uma regra para isso.</span><span class="sxs-lookup"><span data-stu-id="b4757-109">If you do not already have a web publishing rule for the external Lync Server 2013 Web Services URL for your Front End pool and Director pool (if you have deployed Directors), you also need to publish a rule for that.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> A regra de publicação de proxy reversa e o ouvinte podem fornecer serviços tanto para Web externa quanto para o Serviço de Descoberta Automática, desde que o certificado atribuído ao ouvinte possua o nome de assunto necessário e os nomes alternativos de assunto para ambos. Para mais detalhes sobre a configuração padrão do ouvinte da Web e regra de publicação, consulte <a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configurando servidores de proxy reverso para o Lync Server 2013</a>.
+> <span data-ttu-id="b4757-110">A regra de publicação de proxy reverso e a escuta podem atender tanto os serviços Web externos quanto o serviço de descoberta automática, desde que o certificado atribuído ao ouvinte contenha o nome da entidade e os nomes alternativos de assunto necessários para ambos.</span><span class="sxs-lookup"><span data-stu-id="b4757-110">The reverse proxy publishing rule and listener can service both the external web services and the Autodiscover Service, as long as the certificate assigned to the listener contains the necessary subject name and subject alternative names for both.</span></span> <span data-ttu-id="b4757-111">Para obter detalhes sobre a configuração padrão do ouvinte da Web e da regra de publicação, consulte Configurando <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">servidores proxy reverso para o Lync Server 2013</A> para obter mais detalhes.</span><span class="sxs-lookup"><span data-stu-id="b4757-111">For details on the default configuration of the web listener and publishing rule, see <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Setting up reverse proxy servers for Lync Server 2013</A> for more details.</span></span>
 
-Se você decidir usar HTTP para solicitações iniciais de Serviço Descoberta Automática para que não precise atualizar nomes alternativos de assunto para o proxy reverso, você precisará criar ou modificar uma regra de publicação na Web para a porta 80.
 
-Os procedimentos nesta seção descrevem como criar ou modificar as regras de publicação na Web no Microsoft Forefront Threat Management Gateway 2010 para descoberta automática.
+
+</div>
+
+<span data-ttu-id="b4757-112">Se você decidir usar HTTP para solicitações de serviço de descoberta automática iniciais para que você não precise atualizar nomes alternativos de entidades para o proxy reverso, será necessário criar ou modificar uma regra de publicação na Web para a porta 80.</span><span class="sxs-lookup"><span data-stu-id="b4757-112">If you decide to use HTTP for initial Autodiscover Service requests so that you do not need to update subject alternative names for the reverse proxy, you need to create or modify a web publishing rule for port 80.</span></span>
+
+<span data-ttu-id="b4757-113">Os procedimentos desta seção descrevem como criar ou modificar as regras de publicação na Web no Microsoft Forefront Threat Management Gateway 2010 para descoberta automática.</span><span class="sxs-lookup"><span data-stu-id="b4757-113">The procedures in this section describe how to create or modify the web publishing rules in Microsoft Forefront Threat Management Gateway 2010 for automatic discovery.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Esses procedimentos assumem que você possui a Standard Edition do Forefront Threat Management Gateway (TMG) 2010 instalado. Se você estiver utilizando outro proxy reverso, os procedimentos são similares, mas precisarão ser mapeados para a documentação do produto de terceiro.
+> <span data-ttu-id="b4757-114">Esses procedimentos pressupõem que você tenha instalado a edição padrão do Forefront Threat Management Gateway (TMG) 2010.</span><span class="sxs-lookup"><span data-stu-id="b4757-114">These procedures assume that you have installed the Standard Edition of Forefront Threat Management Gateway (TMG) 2010.</span></span> <span data-ttu-id="b4757-115">Se você estiver usando outro proxy reverso, os procedimentos serão similares, mas precisarão ser mapeados para a documentação do produto de terceiros.</span><span class="sxs-lookup"><span data-stu-id="b4757-115">If you are using another reverse proxy, the procedures are similar, but will need to be mapped to the documentation for the third-party product.</span></span>
 
-## Para criar uma regra de publicação na Web para a URL externa de Descoberta Automática
 
-1.  Clique em **Iniciar**, aponte para **Programas**, **Microsoft Forefront TMG** e, então, clique em **Forefront TMG Management**.
 
-2.  No painel esquerdo, expanda **Nome do Servidor**, clique com o botão direito do mouse em **Diretiva de Firewall**, aponte para **Novo** e clique em **Regra de Publicação de Site**.
+</div>
 
-3.  Na página **Bem-vindo à nova regra de publicação na Web**, digite um nome para exibição para a nova regra de publicação (por exemplo, LyncDiscoveryURL).
+<div>
 
-4.  Na página **Selecionar Ação da Regra**, selecione **Permitir**.
+## <a name="to-create-a-web-publishing-rule-for-the-external-autodiscover-url"></a><span data-ttu-id="b4757-116">Para criar uma regra de publicação na Web para a URL de descoberta automática externa</span><span class="sxs-lookup"><span data-stu-id="b4757-116">To create a web publishing rule for the external Autodiscover URL</span></span>
 
-5.  Na página **Tipo de Publicação**, selecione **Publicar um único site da Web ou balanceador de carga**.
+1.  <span data-ttu-id="b4757-117">Clique em **Iniciar**, aponte para **programas**, aponte para **Microsoft Forefront TMG**e clique em **Gerenciamento do Forefront TMG**.</span><span class="sxs-lookup"><span data-stu-id="b4757-117">Click **Start**, point to **Programs**, point to **Microsoft Forefront TMG**, and then click **Forefront TMG Management**.</span></span>
 
-6.  Na página **Segurança da Conexão do Servidor**, selecione **Usar SSL para conectar ao servidor da Web publicado ou ao farm de servidores**.
+2.  <span data-ttu-id="b4757-118">No painel esquerdo, expanda **ServerName**, clique com o botão direito do mouse em **política de firewall**, aponte para **novo**e clique em regra de **publicação de site da Web**.</span><span class="sxs-lookup"><span data-stu-id="b4757-118">In the left pane, expand **ServerName**, right-click **Firewall Policy**, point to **New**, and then click **Web Site Publishing Rule**.</span></span>
 
-7.  Na página **Detalhes de Publicação Interna**, em **Nome interno de site**, digite o FQDN (nome de domínio totalmente qualificado) do Pool de diretores (por exemplo, lyncdir01.contoso.local). Se você estiver criando uma regra para a URL de Serviço Web no Pool de Front-Ends, digite o FQDN do Pool de Front-Ends (por exemplo, lyncpool01.contoso.local).
+3.  <span data-ttu-id="b4757-119">Na página **Bem-vindo à nova regra de publicação na Web** , digite um nome para exibição para a nova regra de publicação (por exemplo, LyncDiscoveryURL).</span><span class="sxs-lookup"><span data-stu-id="b4757-119">On the **Welcome to the New Web Publishing Rule** page, type a display name for the new publishing rule (for example, LyncDiscoveryURL).</span></span>
 
-8.  Na página **Detalhes de Publicação Interna**, em **Caminho (opcional)**, digite **/\*** como o caminho da pasta a ser publicada e selecione **Encaminhar o cabeçalho de host original**.
+4.  <span data-ttu-id="b4757-120">Na página **Selecionar ação da regra** , selecione **permitir**.</span><span class="sxs-lookup"><span data-stu-id="b4757-120">On the **Select Rule Action** page, select **Allow**.</span></span>
 
-9.  Na página **Detalhes do Nome Público**, faça o seguinte:
+5.  <span data-ttu-id="b4757-121">Na página **tipo de publicação** , selecione **publicar um único site da Web ou um balanceador de carga**.</span><span class="sxs-lookup"><span data-stu-id="b4757-121">On the **Publishing Type** page, select **Publish a single Web site or load balancer**.</span></span>
+
+6.  <span data-ttu-id="b4757-122">Na página **segurança de conexão do servidor** , selecione **usar SSL para se conectar ao servidor Web ou ao farm de servidores publicado**.</span><span class="sxs-lookup"><span data-stu-id="b4757-122">On the **Server Connection Security** page, select **Use SSL to connect to the published Web server or server farm**.</span></span>
+
+7.  <span data-ttu-id="b4757-123">Na página **detalhes da publicação interna** , em **nome do site interno**, digite o nome de domínio totalmente qualificado (FQDN) do seu pool de diretor (por exemplo, lyncdir01. contoso. local).</span><span class="sxs-lookup"><span data-stu-id="b4757-123">On the **Internal Publishing Details** page, in **Internal Site name**, type the fully qualified domain name (FQDN) of your Director pool (for example, lyncdir01.contoso.local).</span></span> <span data-ttu-id="b4757-124">Se você estiver criando uma regra para a URL de serviços Web externos no pool de front-ends, digite o FQDN do pool de front-ends (por exemplo, lyncpool01. contoso. local).</span><span class="sxs-lookup"><span data-stu-id="b4757-124">If you are creating a rule for the external Web Services URL on the Front End pool, type the FQDN of the Front End pool (for example, lyncpool01.contoso.local).</span></span>
+
+8.  <span data-ttu-id="b4757-125">Na página **detalhes da publicação interna** , em **caminho (opcional)**, digite \*\* / \*\* como o caminho da pasta a ser publicada e, em seguida, selecione encaminhar **o cabeçalho original do host**.</span><span class="sxs-lookup"><span data-stu-id="b4757-125">On the **Internal Publishing Details** page, in **Path (optional)**, type **/\*** as the path of the folder to be published, and then select **Forward the original host header**.</span></span>
+
+9.  <span data-ttu-id="b4757-126">Na página de **detalhes do nome público** , faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="b4757-126">On the **Public Name Details** page, do the following:</span></span>
     
-      - Em **Aceitar Solicitações para**, selecione **Este nome de domínio**.
+      - <span data-ttu-id="b4757-127">Em **aceitar solicitações por**, selecione **este nome de domínio**.</span><span class="sxs-lookup"><span data-stu-id="b4757-127">Under **Accept Requests for**, select **This domain name**.</span></span>
     
-      - Em **Nome Público**, digite **lyncdiscover.***\<sipdomain\>* (o URL externo de Serviço Descoberta Automática). Se você estiver criando uma regra para o URL de Serviços Web externos no Pool de Front-Ends, digite o FQDN referente aos Serviços Web externos no Pool de Front-Ends (por exemplo, lyncwebextpool01.contoso.com).
+      - <span data-ttu-id="b4757-128">Em **nome público**, digite **lyncdiscover.** \<sipdomain\> (a URL do serviço de descoberta automática externa).</span><span class="sxs-lookup"><span data-stu-id="b4757-128">In **Public Name**, type **lyncdiscover.**\<sipdomain\> (the external Autodiscover Service URL).</span></span> <span data-ttu-id="b4757-129">Se você estiver criando uma regra para a URL de serviços Web externos no pool de front-ends, digite o FQDN dos serviços Web externos em seu pool de front-ends (por exemplo, lyncwebextpool01.contoso.com).</span><span class="sxs-lookup"><span data-stu-id="b4757-129">If you are creating a rule for the external Web Services URL on the Front End pool, type the FQDN for the external Web Services on your Front End pool (for example, lyncwebextpool01.contoso.com).</span></span>
     
-      - Em **Caminho**, digite **/\***.
+      - <span data-ttu-id="b4757-130">Em **caminho**, digite \*\* / \*\*.</span><span class="sxs-lookup"><span data-stu-id="b4757-130">In **Path**, type **/\***.</span></span>
 
-10. Na página **Selecionar Ouvinte da Web**, no **Ouvinte da Web**, selecione o Ouvinte SSL existente com o certificado público atualizado.
+10. <span data-ttu-id="b4757-131">Na página **selecionar ouvinte da Web** , no **ouvinte da Web**, selecione seu ouvinte SSL existente com o certificado público atualizado.</span><span class="sxs-lookup"><span data-stu-id="b4757-131">On **Select Web Listener** page, in **Web Listener**, select your existing SSL Listener with the updated public certificate.</span></span>
 
-11. Na página **Delegação de autenticação**, selecione **Nenhuma delegação, mas o cliente pode autenticar diretamente**.
+11. <span data-ttu-id="b4757-132">Na página **delegação de autenticação** , selecione **sem delegação, mas o cliente pode autenticar diretamente**.</span><span class="sxs-lookup"><span data-stu-id="b4757-132">On the **Authentication Delegation** page, select **No delegation, but client may authenticate directly**.</span></span>
 
-12. Na página **Conjunto de Usuários**, selecione **Todos os Usuários**.
+12. <span data-ttu-id="b4757-133">Na página **conjunto de usuários** , selecione **todos os usuários**.</span><span class="sxs-lookup"><span data-stu-id="b4757-133">On the **User Set** page, select **All Users**.</span></span>
 
-13. Na página **Concluir o novo assistente da regra de publicação da Web**, verifique se as configurações da regra de publicação da Web estão corretas e clique em **Finalizar**.
+13. <span data-ttu-id="b4757-134">Na página **concluindo o assistente de nova regra de publicação na Web** , verifique se as configurações da regra de publicação da Web estão corretas e clique em **concluir**.</span><span class="sxs-lookup"><span data-stu-id="b4757-134">On the **Completing the New Web Publishing Rule Wizard** page, verify that the web publishing rule settings are correct, and then click **Finish**.</span></span>
 
-14. Na lista Forefront TMG de regras de publicação, clique duas vezes na nova regra que você acabou de adicionar para abrir **Propriedades**.
+14. <span data-ttu-id="b4757-135">Na lista do Forefront TMG de regras de publicação na Web, clique duas vezes na nova regra que você acabou de adicionar para abrir **as propriedades**.</span><span class="sxs-lookup"><span data-stu-id="b4757-135">In the Forefront TMG list of web publishing rules, double-click the new rule you just added to open **Properties**.</span></span>
 
-15. Na guia **Para**, faça o seguinte:
+15. <span data-ttu-id="b4757-136">Na guia **para** , faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="b4757-136">On the **To** tab, do the following:</span></span>
     
-      - Selecione **Encaminhar o cabeçalho de host original em vez do presente**.
+      - <span data-ttu-id="b4757-137">Selecione **encaminhar o cabeçalho original do host em vez do verdadeiro**.</span><span class="sxs-lookup"><span data-stu-id="b4757-137">Select **Forward the original host header instead of the actual one**.</span></span>
     
-      - Selecione **As solicitações parecem vir de computador do Forefront TMG**.
+      - <span data-ttu-id="b4757-138">**As solicitações selecionadas parecem vir do computador com o FOREFRONT TMG**.</span><span class="sxs-lookup"><span data-stu-id="b4757-138">Select **Requests appear to come from the Forefront TMG computer**.</span></span>
 
-16. Na guia **Ponte**, configure o seguinte:
+16. <span data-ttu-id="b4757-139">Na guia **ponte** , configure o seguinte:</span><span class="sxs-lookup"><span data-stu-id="b4757-139">On the **Bridging** tab, configure the following:</span></span>
     
-      - Selecione **Servidor Web**.
+      - <span data-ttu-id="b4757-140">Selecione **servidor Web**.</span><span class="sxs-lookup"><span data-stu-id="b4757-140">Select **Web server**.</span></span>
     
-      - Selecione **Redirecionar solicitações para a porta HTTP** e digite **8080** para o número da porta.
+      - <span data-ttu-id="b4757-141">Selecione **redirecionar solicitações para porta http**e digite **8080** para o número da porta.</span><span class="sxs-lookup"><span data-stu-id="b4757-141">Select **Redirect requests to HTTP port**, and type **8080** for the port number.</span></span>
     
-      - Selecione **Redirecionar solicitações para a porta SSL** e digite **4443** para o número da porta.
+      - <span data-ttu-id="b4757-142">Selecione **redirecionar solicitações para porta SSL**e digite **4443** para o número da porta.</span><span class="sxs-lookup"><span data-stu-id="b4757-142">Select **Redirect requests to SSL port**, and type **4443** for the port number.</span></span>
 
-17. Clique em **OK**.
+17. <span data-ttu-id="b4757-143">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="b4757-143">Click **OK**.</span></span>
 
-18. Clique em **Aplicar** no painel de detalhes para salvar as alterações e atualizar a configuração.
+18. <span data-ttu-id="b4757-144">Clique em **aplicar** no painel detalhes para salvar as alterações e atualizar a configuração.</span><span class="sxs-lookup"><span data-stu-id="b4757-144">Click **Apply** in the details pane to save the changes and update the configuration.</span></span>
 
-19. Clique em **Regra de Teste** para verificar se a nova regra está definida corretamente.
+19. <span data-ttu-id="b4757-145">Clique em **testar regra** para verificar se a nova regra está configurada corretamente.</span><span class="sxs-lookup"><span data-stu-id="b4757-145">Click **Test Rule** to verify that your new rule is set up correctly.</span></span>
 
-## Para modificar uma regra de publicação Web existente para adicionar o SAN de Descoberta Automática externa e URL
+</div>
 
-1.  Clique em **Iniciar**, aponte para **Programas**, **Microsoft Forefront TMG** e, então, clique em **Forefront TMG Management**.
+<div>
+
+## <a name="to-modify-an-existing-web-publishing-rule-to-add-the-external-autodiscover-san-and-url"></a><span data-ttu-id="b4757-146">Para modificar uma regra de publicação da Web existente para adicionar a SAN e a URL de descoberta automática externa</span><span class="sxs-lookup"><span data-stu-id="b4757-146">To modify an existing web publishing rule to add the external Autodiscover SAN and URL</span></span>
+
+1.  <span data-ttu-id="b4757-147">Clique em **Iniciar**, aponte para **programas**, aponte para **Microsoft Forefront TMG**e clique em **Gerenciamento do Forefront TMG**.</span><span class="sxs-lookup"><span data-stu-id="b4757-147">Click **Start**, point to **Programs**, point to **Microsoft Forefront TMG**, and then click **Forefront TMG Management**.</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Você irá repetir a modificação para cada regra de publicação e ouvinte que possuir. Normalmente, isso será a única regra e ouvinte para Pools de Front-Ends e um para os conjuntos Diretores ou Diretor opcionais, se você tiver implantado-os.
+    > <span data-ttu-id="b4757-148">Você irá repetir a modificação para cada regra de publicação e ouvinte que você tiver.</span><span class="sxs-lookup"><span data-stu-id="b4757-148">You will repeat the modification for each publishing rule and listener that you have.</span></span> <span data-ttu-id="b4757-149">Geralmente, isso será uma regra e um ouvinte para os pools de front-end e um para os directors opcionais ou os pools de directors, se você os tiver implantado.</span><span class="sxs-lookup"><span data-stu-id="b4757-149">Typically, this will be one rule and listener for the Front End pools and one for the optional Directors or Director pools, if you have deployed them.</span></span>
 
-2.  No painel à esquerda, expanda **ServerName**, clique com o botão direito em **Política de firewall** e clique na regra aplicável. Na aba **Tarefas**, clique na **regra Editar selecionado**.
-
-3.  Na aba **Nome público**, em **Esta regra se aplica a**, selecione **Solicitações para os seguintes sites da Web**.
-
-4.  Clique em **Adicionar**, digite o nome do site de Descoberta Automática novo (por exemplo, “lyncdiscover.contoso.com”) e clique em **OK**.
-
-5.  Na aba **Ouvinte**, clique em **Selecionar certificado** e atribua o novo certificado com as entradas SAN da Descoberta Automática adicionadas. Feche o Ouvinte e as propriedades de Publicação na Web.
-
-6.  Clique em **Aplicar** no painel de detalhes para salvar as alterações e atualizar a configuração.
-
-7.  Clique em **Regra de Teste** para verificar se a nova regra está definida corretamente.
-
-## Para criar uma regra de publicação na Web para a porta 80
-
-1.  Clique em **Iniciar**, aponte para **Programas**, **Microsoft Forefront TMG** e, então, clique em **Forefront TMG Management**.
-
-2.  No painel esquerdo, expanda **Nome do Servidor**, clique com o botão direito do mouse em **Diretiva de Firewall**, aponte para **Novo** e clique em **Regra de Publicação de Site**.
-
-3.  Na página **Bem-vindo à nova regra de publicação na Web**, digite um nome para exibição para a nova regra de publicação (por exemplo, Descoberta Automática do Lync (HTTP)).
-
-4.  Na página **Selecionar Ação da Regra**, selecione **Permitir**.
-
-5.  Na página **Tipo de Publicação**, selecione **Publicar um único site da Web ou balanceador de carga**.
-
-6.  Na página **Segurança da Conexão do Servidor**, selecione **Usar conexões não seguras para conectar ao servidor Web ou ao farm de servidores publicado**.
-
-7.  Na página **Detalhes da Publicação Interna**, em **Nome Interno de Site**, digite o FQDN de Serviços Web internos para o seu Pool de Front-Ends (por exemplo, lyncpool01.contoso.local).
-
-8.  Na página **Detalhes de Publicação Interna**, em **Caminho (opcional)**, digite **/\*** como o caminho da pasta a ser publicada e selecione **Encaminhar o cabeçalho de host original, em vez daquele especificado no campo de nome interno de site**.
-
-9.  Na página **Detalhes do Nome Público**, faça o seguinte:
     
-      - Em **Aceitar Solicitações para**, selecione **Este nome de domínio**.
+    </div>
+
+2.  <span data-ttu-id="b4757-150">No painel esquerdo, expanda **ServerName**, clique com o botão direito do mouse em **política de firewall**, clique na regra aplicável.</span><span class="sxs-lookup"><span data-stu-id="b4757-150">In the left pane, expand **ServerName**, right-click **Firewall Policy**, click the applicable rule.</span></span> <span data-ttu-id="b4757-151">Na guia **tarefas** , clique em **Editar regra selecionada**.</span><span class="sxs-lookup"><span data-stu-id="b4757-151">On the **Tasks** tab, click **Edit Selected rule**.</span></span>
+
+3.  <span data-ttu-id="b4757-152">Na guia **nome público** , nesta **regra aplica-se a**, selecione **solicitações para os seguintes sites da Web**.</span><span class="sxs-lookup"><span data-stu-id="b4757-152">On the **Public Name** tab, in **This rule applies to**, select **Requests for the following Web sites**.</span></span>
+
+4.  <span data-ttu-id="b4757-153">Clique em **Adicionar**, digite o nome do novo site de descoberta automática (por exemplo, "lyncdiscover.contoso.com") e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="b4757-153">Click **Add**, type the name of the new Autodiscover site (for example, “lyncdiscover.contoso.com”), and then click **OK**.</span></span>
+
+5.  <span data-ttu-id="b4757-154">Na guia **ouvinte** , clique em **Selecionar certificado** e atribua o novo certificado às entradas adicionadas de San de descoberta automática.</span><span class="sxs-lookup"><span data-stu-id="b4757-154">On the **Listener** tab, click **Select Certificate** and assign the new certificate with the added Autodiscover SAN entries.</span></span> <span data-ttu-id="b4757-155">Feche as propriedades do ouvinte e publicação na Web.</span><span class="sxs-lookup"><span data-stu-id="b4757-155">Close the Listener and Web Publishing properties.</span></span>
+
+6.  <span data-ttu-id="b4757-156">Clique em **aplicar** no painel detalhes para salvar as alterações e atualizar a configuração.</span><span class="sxs-lookup"><span data-stu-id="b4757-156">Click **Apply** in the details pane to save the changes and update the configuration.</span></span>
+
+7.  <span data-ttu-id="b4757-157">Clique em **testar regra** para verificar se a nova regra está configurada corretamente.</span><span class="sxs-lookup"><span data-stu-id="b4757-157">Click **Test Rule** to verify that your new rule is set up correctly.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-create-a-web-publishing-rule-for-port-80"></a><span data-ttu-id="b4757-158">Para criar uma regra de publicação na Web para a porta 80</span><span class="sxs-lookup"><span data-stu-id="b4757-158">To create a web publishing rule for port 80</span></span>
+
+1.  <span data-ttu-id="b4757-159">Clique em **Iniciar**, aponte para **programas**, aponte para **Microsoft Forefront TMG**e clique em **Gerenciamento do Forefront TMG**.</span><span class="sxs-lookup"><span data-stu-id="b4757-159">Click **Start**, point to **Programs**, point to **Microsoft Forefront TMG**, and then click **Forefront TMG Management**.</span></span>
+
+2.  <span data-ttu-id="b4757-160">No painel esquerdo, expanda **ServerName**, clique com o botão direito do mouse em **política de firewall**, aponte para **novo**e clique em regra de **publicação de site da Web**.</span><span class="sxs-lookup"><span data-stu-id="b4757-160">In the left pane, expand **ServerName**, right-click **Firewall Policy**, point to **New**, and then click **Web Site Publishing Rule**.</span></span>
+
+3.  <span data-ttu-id="b4757-161">Na página **Bem-vindo à nova regra de publicação na Web** , digite um nome para exibição para a nova regra de publicação (por exemplo, descoberta automática do LYNC (http)).</span><span class="sxs-lookup"><span data-stu-id="b4757-161">On the **Welcome to the New Web Publishing Rule** page, type a display name for the new publishing rule (for example, Lync Autodiscover (HTTP)).</span></span>
+
+4.  <span data-ttu-id="b4757-162">Na página **Selecionar ação da regra** , selecione **permitir**.</span><span class="sxs-lookup"><span data-stu-id="b4757-162">On the **Select Rule Action** page, select **Allow**.</span></span>
+
+5.  <span data-ttu-id="b4757-163">Na página **tipo de publicação** , selecione **publicar um único site da Web ou um balanceador de carga**.</span><span class="sxs-lookup"><span data-stu-id="b4757-163">On the **Publishing Type** page, select **Publish a single Web site or load balancer**.</span></span>
+
+6.  <span data-ttu-id="b4757-164">Na página **segurança de conexão do servidor** , selecione **usar conexões não seguras para se conectar ao servidor Web ou ao farm de servidores publicado**.</span><span class="sxs-lookup"><span data-stu-id="b4757-164">On the **Server Connection Security** page, select **Use non-secured connections to connect to the published Web server or server farm**.</span></span>
+
+7.  <span data-ttu-id="b4757-165">Na página **detalhes da publicação interna** , em **nome do site interno**, digite o FQDN de serviços Web internos para o seu pool de front-end (por exemplo, lyncpool01. contoso. local).</span><span class="sxs-lookup"><span data-stu-id="b4757-165">On the **Internal Publishing Details** page, in **Internal Site name**, type the internal Web Services FQDN for your Front End pool (for example, lyncpool01.contoso.local).</span></span>
+
+8.  <span data-ttu-id="b4757-166">Na página **detalhes da publicação interna** , em **caminho (opcional)**, digite \*\* / \*\* como o caminho da pasta a ser publicada e, em seguida, selecione encaminhar \*\*o cabeçalho do host original em vez do especificado no campo nome do site interno \*\*.</span><span class="sxs-lookup"><span data-stu-id="b4757-166">On the **Internal Publishing Details** page, in **Path (optional)**, type **/\*** as the path of the folder to be published, and then select **Forward the original host header instead of the one specified in the Internal site name field**.</span></span>
+
+9.  <span data-ttu-id="b4757-167">Na página de **detalhes do nome público** , faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="b4757-167">On the **Public Name Details** page, do the following:</span></span>
     
-      - Em **Nome Público**, digite **lyncdiscover.***\<sipdomain\>* (o URL externo de Serviço Descoberta Automática).
+      - <span data-ttu-id="b4757-168">Em **aceitar solicitações por**, selecione **este nome de domínio**.</span><span class="sxs-lookup"><span data-stu-id="b4757-168">Under **Accept Requests for**, select **This domain name**.</span></span>
     
-      - Em **Caminho**, digite **/\***.
-
-10. Em **Selecionar Ouvinte da Web**, em **Ouvinte da Web**, selecione um Ouvinte da Web ou use o Assistente de Nova Definição de Ouvinte da Web para criar um novo.
-
-11. Na página **Delegação de Autenticação**, selecione **Nenhuma delegação, e o cliente não pode autenticar diretamente**.
-
-12. Na página **Conjunto de Usuários**, selecione **Todos os Usuários**.
-
-13. Na página **Concluir o novo assistente da regra de publicação da Web**, verifique se as configurações da regra de publicação da Web estão corretas e clique em **Finalizar**.
-
-14. Na lista Forefront TMG de regras de publicação, clique duas vezes na nova regra que você acabou de adicionar para abrir **Propriedades**.
-
-15. Na guia **Ponte**, configure o seguinte:
+      - <span data-ttu-id="b4757-169">Em **nome público**, digite **lyncdiscover.** \<sipdomain\> (a URL do serviço de descoberta automática externa).</span><span class="sxs-lookup"><span data-stu-id="b4757-169">In **Public Name**, type **lyncdiscover.**\<sipdomain\> (the external Autodiscover Service URL).</span></span>
     
-      - Selecione **Servidor Web**.
+      - <span data-ttu-id="b4757-170">Em **caminho**, digite \*\* / \*\*.</span><span class="sxs-lookup"><span data-stu-id="b4757-170">In **Path**, type **/\***.</span></span>
+
+10. <span data-ttu-id="b4757-171">Na página **selecionar ouvinte da Web** , no **ouvinte da Web**, selecione um ouvinte da Web ou use o assistente de definição novo ouvinte da Web para criar um novo.</span><span class="sxs-lookup"><span data-stu-id="b4757-171">On **Select Web Listener** page, in **Web Listener**, select a Web Listener or use the New Web Listener Definition Wizard to create a new one.</span></span>
+
+11. <span data-ttu-id="b4757-172">Na página **delegação de autenticação** , selecione **sem delegação e o cliente não pode autenticar diretamente**.</span><span class="sxs-lookup"><span data-stu-id="b4757-172">On the **Authentication Delegation** page, select **No delegation, and client cannot authenticate directly**.</span></span>
+
+12. <span data-ttu-id="b4757-173">Na página **conjunto de usuários** , selecione **todos os usuários**.</span><span class="sxs-lookup"><span data-stu-id="b4757-173">On the **User Set** page, select **All Users**.</span></span>
+
+13. <span data-ttu-id="b4757-174">Na página **concluindo o assistente de nova regra de publicação na Web** , verifique se as configurações da regra de publicação da Web estão corretas e clique em **concluir**.</span><span class="sxs-lookup"><span data-stu-id="b4757-174">On the **Completing the New Web Publishing Rule Wizard** page, verify that the web publishing rule settings are correct, and then click **Finish**.</span></span>
+
+14. <span data-ttu-id="b4757-175">Na lista do Forefront TMG de regras de publicação na Web, clique duas vezes na nova regra que você acabou de adicionar para abrir **as propriedades**.</span><span class="sxs-lookup"><span data-stu-id="b4757-175">In the Forefront TMG list of web publishing rules, double-click the new rule you just added to open **Properties**.</span></span>
+
+15. <span data-ttu-id="b4757-176">Na guia **ponte** , configure o seguinte:</span><span class="sxs-lookup"><span data-stu-id="b4757-176">On the **Bridging** tab, configure the following:</span></span>
     
-      - Selecione **Redirecionar solicitações para a porta HTTP** e digite **8080** para o número da porta.
+      - <span data-ttu-id="b4757-177">Selecione **servidor Web**.</span><span class="sxs-lookup"><span data-stu-id="b4757-177">Select **Web server**.</span></span>
     
-      - Verifique se **Redirecionar solicitações para a porta SSL** não está selecionada.
+      - <span data-ttu-id="b4757-178">Selecione **redirecionar solicitações para porta http**e digite **8080** para o número da porta.</span><span class="sxs-lookup"><span data-stu-id="b4757-178">Select **Redirect requests to HTTP port**, and type **8080** for the port number.</span></span>
+    
+      - <span data-ttu-id="b4757-179">Verifique se **a seleção redirecionar solicitações para a porta SSL** não está selecionada.</span><span class="sxs-lookup"><span data-stu-id="b4757-179">Verify that **Redirect requests to SSL port** is not selected.</span></span>
 
-16. Clique em **OK**.
+16. <span data-ttu-id="b4757-180">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="b4757-180">Click **OK**.</span></span>
 
-17. Clique em **Aplicar** no painel de detalhes para salvar as alterações e atualizar a configuração.
+17. <span data-ttu-id="b4757-181">Clique em **aplicar** no painel detalhes para salvar as alterações e atualizar a configuração.</span><span class="sxs-lookup"><span data-stu-id="b4757-181">Click **Apply** in the details pane to save the changes and update the configuration.</span></span>
 
-18. Clique em **Regra de Teste** para verificar se a nova regra está definida corretamente.
+18. <span data-ttu-id="b4757-182">Clique em **testar regra** para verificar se a nova regra está configurada corretamente.</span><span class="sxs-lookup"><span data-stu-id="b4757-182">Click **Test Rule** to verify that your new rule is set up correctly.</span></span>
 
-19. Verifique se a URL do Serviço Descoberta Automática externo não está definida em nenhuma outra regra de publicação na Web.
+19. <span data-ttu-id="b4757-183">Verifique se a URL do serviço de descoberta automática externa não está definida em nenhuma outra regra de publicação na Web.</span><span class="sxs-lookup"><span data-stu-id="b4757-183">Verify that the external Autodiscover Service URL is not defined on any other web publishing rule.</span></span>
 
-## Consulte Também
+</div>
 
-#### Conceitos
+<div>
 
-[Configurando servidores de proxy reverso para o Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md)
+## <a name="see-also"></a><span data-ttu-id="b4757-184">Confira também</span><span class="sxs-lookup"><span data-stu-id="b4757-184">See Also</span></span>
+
+
+[<span data-ttu-id="b4757-185">Configurando servidores de proxy reverso para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b4757-185">Setting up reverse proxy servers for Lync Server 2013</span></span>](lync-server-2013-setting-up-reverse-proxy-servers.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

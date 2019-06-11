@@ -1,39 +1,73 @@
-﻿---
-title: Configurando o recebimento de chamadas em grupo
-TOCTitle: Configurando o recebimento de chamadas em grupo
-ms:assetid: b4b0a9a0-91c6-43a5-9e2b-a086caeb3f94
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ945645(v=OCS.15)
-ms:contentKeyID: 52057714
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando o recebimento de chamadas em grupo'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Group Call Pickup
+ms:assetid: b4b0a9a0-91c6-43a5-9e2b-a086caeb3f94
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945645(v=OCS.15)
+ms:contentKeyID: 51541505
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4d7f82d976d3e6e2594cecafe5634edfe0b52841
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34836240"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando o recebimento de chamadas em grupo
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-01_
+# <a name="configuring-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="3f70a-102">Configurando a coleta de chamadas em grupo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f70a-102">Configuring Group Call Pickup in Lync Server 2013</span></span>
 
-Atualização cumulativa para o Lync Server 2013: em fevereiro de 2013 é introduzido o atendimento de chamada em grupo como um novo recurso de Enterprise Voice. O atendimento de chamada em grupo permite que os usuários atendam chamadas que tocam para outro usuário, discando um número de grupo de atendimento de chamada.
+</div>
 
-Os componentes que o atendimento de chamada em grupo exige são instalados e habilitados automaticamente no servidor de Front-End ou no servidor do Standard Edition ao implantar o Enterprise Voice. No entanto, você precisa configurar o atendimento de chamada em grupo antes que ele fique disponível para os usuários.
+<div id="mainSection">
 
-Esta seção guia você pela configuração do atendimento de chamada em grupo.
+<div id="mainBody">
 
-## Nesta seção
+<span> </span>
 
-[Pré-requisitos de configuração do recebimento de chamadas em grupo e direitos do usuário](lync-server-2013-group-call-pickup-configuration-prerequisites-and-user-rights.md)
+<span data-ttu-id="3f70a-103">_**Tópico da última modificação:** 2013-02-01_</span><span class="sxs-lookup"><span data-stu-id="3f70a-103">_**Topic Last Modified:** 2013-02-01_</span></span>
 
-[Processo de implantação do recebimento de chamadas em grupo](lync-server-2013-deployment-process-for-group-call-pickup.md)
+<span data-ttu-id="3f70a-104">Atualização cumulativa do Lync Server 2013: fevereiro de 2013 introduz o recebimento de chamadas em grupo como um novo recurso Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="3f70a-104">Cumulative update for Lync Server 2013: February 2013 introduces Group Call Pickup as a new Enterprise Voice feature.</span></span> <span data-ttu-id="3f70a-105">A retirada de chamadas em grupo permite que os usuários selecionem chamadas que estejam tocando para outro usuário discando um número de grupo de recebimento de chamadas.</span><span class="sxs-lookup"><span data-stu-id="3f70a-105">Group Call Pickup lets users pick up calls that are ringing for another user by dialing a call pickup group number.</span></span>
 
-[Implantar a ferramenta SEFAUtil](lync-server-2013-deploy-the-sefautil-tool.md)
+<span data-ttu-id="3f70a-106">Os componentes que o recurso de retirada de chamadas em grupo usam são instalados e habilitados automaticamente no servidor front-end ou no servidor Standard Edition quando você implanta Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="3f70a-106">The components that Group Call Pickup uses are automatically installed and enabled on the Front End Server or Standard Edition server when you deploy Enterprise Voice.</span></span> <span data-ttu-id="3f70a-107">No entanto, você deve configurar o recebimento de chamadas em grupo antes de disponibilizá-lo para os usuários.</span><span class="sxs-lookup"><span data-stu-id="3f70a-107">However, you must configure Group Call Pickup before it is available to users.</span></span>
 
-[Configurar os números do recebimento de chamadas em grupo](lync-server-2013-configure-call-pickup-group-numbers.md)
+<span data-ttu-id="3f70a-108">Esta seção orienta você na configuração da retirada de chamadas em grupo.</span><span class="sxs-lookup"><span data-stu-id="3f70a-108">This section guides you through the configuration of Group Call Pickup.</span></span>
 
-[Habilitar o recebimento de chamadas em grupo para os usuários e atribuir um número de grupo](lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md)
+<div>
 
-[Comunicar a atribuição do recebimento de chamadas de grupo aos usuários](lync-server-2013-communicate-group-call-pickup-assignment-to-users.md)
+## <a name="in-this-section"></a><span data-ttu-id="3f70a-109">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="3f70a-109">In This Section</span></span>
 
-[(Opcional) Verificar a implantação do recebimento de chamadas em grupo](lync-server-2013-optional-verify-the-group-call-pickup-deployment.md)
+[<span data-ttu-id="3f70a-110">Chamadas em grupo escolha pré-requisitos de configuração e direitos de usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f70a-110">Group Call Pickup configuration prerequisites and user rights in Lync Server 2013</span></span>](lync-server-2013-group-call-pickup-configuration-prerequisites-and-user-rights.md)
+
+[<span data-ttu-id="3f70a-111">Processo de implantação para retirada de chamadas em grupo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f70a-111">Deployment process for Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-group-call-pickup.md)
+
+[<span data-ttu-id="3f70a-112">Deploy the SEFAUtil tool in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f70a-112">Deploy the SEFAUtil tool in Lync Server 2013</span></span>](lync-server-2013-deploy-the-sefautil-tool.md)
+
+[<span data-ttu-id="3f70a-113">Configurar números de grupo de recebimento de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f70a-113">Configure call pickup group numbers in Lync Server 2013</span></span>](lync-server-2013-configure-call-pickup-group-numbers.md)
+
+[<span data-ttu-id="3f70a-114">Habilitar o recebimento de chamadas em grupo para usuários no Lync Server 2013 e atribuir um número de grupo</span><span class="sxs-lookup"><span data-stu-id="3f70a-114">Enable Group Call Pickup for users in Lync Server 2013 and assign a group number</span></span>](lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md)
+
+[<span data-ttu-id="3f70a-115">Comunicar as atribuições de recebimento de chamadas em grupo aos usuários no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f70a-115">Communicate Group Call Pickup assignments to users in Lync Server 2013</span></span>](lync-server-2013-communicate-group-call-pickup-assignment-to-users.md)
+
+[<span data-ttu-id="3f70a-116">Adicionais Verificar a implantação da retirada de chamadas em grupo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f70a-116">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</span></span>](lync-server-2013-optional-verify-the-group-call-pickup-deployment.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
