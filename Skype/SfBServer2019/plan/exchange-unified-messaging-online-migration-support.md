@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: A Microsoft está desativando o serviço online de Unificação de mensagens do Exchange (ExchUMO) em fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: 785c80b435bfff5b8a9cda3fca17d57756d06091
-ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
+ms.openlocfilehash: 3beaceb8da8169a6d2bb702841e5f040d2e22a66
+ms.sourcegitcommit: ba5ee891e5b16c8bece475133a0b6cd1d1f9c145
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34702677"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34813079"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
@@ -137,7 +137,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 | VIRTUAIS | Recursos do chamador  | Experiência de chamadas-correio de voz particular | O chamador pode escolher uma opção para marcar uma mensagem gravada como particular  | N | Y    |
 | VIRTUAIS | Recursos do chamador  | Detecção de silêncio   |  | N | Y    |
 | VIRTUAIS | Locatário-recursos de administração | Correio de voz protegido no nível do servidor    | Locatário-o administrador pode configurar uma regra de nível de serviço para marcar o correio de voz recebido como protegido | Y | S    |
-| VIRTUAIS | Locatário-recursos de administração | Alterar o limite de tempo de duração da gravação  | CVM embutido em 5 minutos    | N | Y    |
+| VIRTUAIS | Locatário-recursos de administração | Alterar o limite de tempo de duração da gravação  |     | Y | S    |
 | VIRTUAIS | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | N/D    | Y    |
 | VIRTUAIS | Locatário-recursos de administração | Alterar o número de falhas de entrada | CVM: embutido em código para 3 | N | Y    |
 | VIRTUAIS | Locatário-recursos de administração | Alterar o idioma padrão |  | Y | S    |

@@ -23,6 +23,7 @@
 ## [Práticas recomendadas para organizar equipes no Teams](best-practices-organizing.md)
 ## [Criar uma equipe englobando toda a organização no Teams](create-an-org-wide-team.md)
 ## [Gerenciar a descoberta de equipes particulares no Teams](manage-discovery-of-private-teams.md)
+## [Compartilhando arquivos no Teams](sharing-files-in-teams.md)
 ## [Gerenciar políticas de mensagens](messaging-policies-in-teams.md)
 ## [Visão geral da associação dinâmica de equipes](dynamic-memberships.md)
 ## [Presença](presence-admins.md)
@@ -692,6 +693,7 @@
 ## Instalar o Teams
 ### [Obter clientes para o Teams](get-clients.md)
 ### [Requisitos de hardware para o aplicativo Teams](hardware-requirements-for-the-teams-app.md)
+### [Recomendações para o driver codificador e decodificador de hardware](hardware-decoders-and-encoders.md)
 ### [Instalar o Teams usando MSI](msi-deployment.md)
 ### [Habilitar o Teams em sua organização](Office-365-set-up.md)
 ### [URLs e intervalos de endereços IP do Office 365](office-365-urls-ip-address-ranges.md)

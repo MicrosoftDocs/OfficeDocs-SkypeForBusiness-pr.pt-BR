@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81bfde91cb73ed6741138be390533d56dc2e60e3
-ms.sourcegitcommit: 3678dbbc8c36010fbf12c57b52281ef4fca9f065
+ms.openlocfilehash: 2e9bf9993311ae723557b8d6f8c5ab777ebccd7c
+ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34695945"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748384"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acesso para convidado no Microsoft Teams
 ======================================
@@ -30,7 +30,7 @@ ms.locfileid: "34695945"
 
 O acesso a convidados é um dos recursos mais pedidos pelos clientes. Veja como você pode acompanhar nosso progresso com o acesso a convidados e nos contar sua opinião:
 
-- Se tiver problemas com o acesso de convidados, confira [Problemas conhecidos do Microsoft Teams](Known-issues.md).
+- Se você estiver com problemas com o acesso a convidados, confira [Problemas conhecidos do Microsoft Teams](Known-issues.md).
 - Conheça recursos novos ou atualizados no [Roteiro do Microsoft Teams](https://aka.ms/teamsroadmap).
 - Diga como podemos deixar o [Teams UserVoice](https://aka.ms/TeamsUserVoice) ainda melhor.
 - Compartilhe sua experiência na seção Comentários a seguir.
@@ -49,7 +49,7 @@ O acesso a convidados é uma configuração a nível de locatário no Microsoft 
 Convidado é alguém que não é um funcionário, aluno ou membro da sua organização. Eles não têm uma conta escolar nem de trabalho com a sua organização. Por exemplo, convidados podem incluir parceiros, revendedores, fornecedores ou consultores. Qualquer pessoa que não faça parte da sua organização pode ser adicionada como convidado no Teams. Isso significa que qualquer pessoa com uma conta comercial (ou seja, uma conta do Azure Active Directory) ou uma conta de email de consumidor (com Outlook.com, Gmail.com ou outros) pode participar como convidado no Teams, com acesso total a equipes e experiências de canal. (Você pode ler sobre restrições de convidados em [Autorizar o acesso a convidados no Microsoft Teams](teams-dependencies.md).) Todos os convidados no Teams estão cobertos pela mesma proteção de conformidade e auditoria que o restante do Office 365, e podem ser gerenciados com segurança no Azure AD.
 
 ## <a name="why-use-guest-access"></a>Por que usar o acesso de convidado?
-      
+
 Com o acesso a convidados, as organizações que usam o Teams podem fornecer acesso externo a equipes, documentos em canais, recursos, bate-papos e aplicativos para seus parceiros, enquanto mantêm controle total sobre seus próprios dados corporativos. Todos os convidados no Teams estão cobertos pela mesma proteção de conformidade e auditoria que o restante do Office 365, e os convidados podem ser gerenciados com segurança no Azure AD.  
 
 O Teams é baseado nos Grupos do Office 365, e fornece uma nova maneira de acessar ativos compartilhados de um grupo do Office 365. O Teams é a melhor solução de bate-papo persistente entre os membros doe grupos/equipes. Os grupos do Office 365 são um serviço que oferece assinatura cruzada de aplicativos para um conjunto de ativos compartilhados de equipe, como um site do SharePoint ou um painel de controle do Power BI, para que a equipe possa colaborar de forma eficaz e segura. 
