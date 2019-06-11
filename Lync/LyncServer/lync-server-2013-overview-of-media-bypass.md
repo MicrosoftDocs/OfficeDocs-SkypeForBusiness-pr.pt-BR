@@ -1,52 +1,93 @@
-﻿---
-title: 'Lync Server 2013: Visão geral de bypass de mídia'
-TOCTitle: Visão geral de bypass de mídia
-ms:assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412740(v=OCS.15)
-ms:contentKeyID: 49307629
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: visão geral do bypass de mídia'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of media bypass
+ms:assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412740(v=OCS.15)
+ms:contentKeyID: 48184924
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a04bc9dfa250bc399f10a56ef58f78462044f5cc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825412"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Visão geral de bypass de mídia no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-21_
+# <a name="overview-of-media-bypass-in-lync-server-2013"></a>Visão geral do bypass de mídia no Lync Server 2013
 
-O bypass de mídia é útil quando você deseja minimizar o número de Servidores de Mediação implantados. Geralmente, um pool de Servidores de Mediação será implantado em um site central e controlará os gateways em sites locais. Habilitar o bypass de mídia permite que a mídia para chamadas PSTN de clientes em sites locais flua diretamente pelos gateways para estes sites. As rotas da chamada de saída do Lync Server 2013 e as políticas do Enterprise Voice devem ser configuradas adequadamente para que as chamadas PSTN dos clientes em um site local seja roteadas para o gateway adequado.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-21_
+
+O bypass de mídia é útil quando você deseja minimizar o número de servidores de mediação implantados. Geralmente, um pool de servidores de mediação será implantado em um site central, e ele controlará os gateways em sites de filiais. Habilitar o bypass de mídia permite que a mídia para chamadas PSTN de clientes em sites locais flua diretamente pelos gateways para estes sites. Os roteamentos de chamadas de saída do Lync Server 2013 e as políticas de voz corporativa devem ser configurados corretamente para que chamadas PSTN de clientes em um site de filial sejam roteadas para o gateway apropriado.
 
 As redes Wi-Fi geralmente enfrentam uma maior perda de pacotes do que as redes com fio. A recuperação desta perda de pacotes não é algo que geralmente possa ser acomodado por gateways. Assim, recomendamos a avaliação da qualidade da rede Wi-Fi antes de determinar se o bypass deve estar habilitado para uma sub-rede sem fio. Há uma compensação na redução da latência contra a recuperação da perda de pacotes a considerar. RTAudio, um codec disponível para chamadas que não ignorem o Servidor de Mediação, é mais adequado para tratar da perda de pacotes.
 
-Após inserir a estrutura do seu Enterprise Voice, o planejamento do bypass de mídia será aberto.
+Depois que a estrutura da sua empresa estiver no lugar certo, é simples planejar o bypass de mídia.
 
   - Se você possui uma topologia centralizada sem links WAN para sites de filiais, é possível habilitar o bypass de mídia global, pois é necessário um ajuste refinado.
 
-  - Se você não possui uma topologia distribuída que consiste de uma ou mais regiões de rede e seus sites de filiais associados, determine o seguinte:
+  - Se você não tem uma topologia distribuída que consiste em uma ou mais regiões de rede e seus sites de filiais associados, determine o seguinte:
     
-      - Se os seus colegas do Servidor de Mediação podem suportar as capacidades necessárias para bypass de mídia.
+      - Se os seus colegas do Servidor de Mediação oferecem suporte aos recursos necessários para o bypass de mídia.
     
       - Quais sites em cada região de rede estão bem conectados.
     
       - Qual combinação de bypass de mídia e controle de admissão de chamada é adequada para sua rede.
 
-Quando o desvio de mídia é habilitado, um ID de desvio exclusivo é gerado automaticamente para uma região de rede e para todos os sites de rede sem limites de largura de banda nessa região. Os sites com limites de largura de banda na região e os sites conectados à região por links WAN com limites de largura de banda obtêm seus próprios IDs de desvio exclusivos.
+Quando o bypass de mídia é habilitado, uma ID de bypass exclusiva é gerado automaticamente para uma região de rede e para todos os sites de rede sem limites de largura de banda nessa região. Os sites com limites de largura de banda na região e os sites conectados à região por links WAN com limites de largura de banda obtêm suas próprias IDs de bypass exclusivas.
 
-Quando um usuário faz uma chamada para o PSTN, o Servidor de Mediação compara o ID do desvio da sub-rede do cliente com o ID do desvio da sub-rede do gateway. Se os dois IDs de desvio forem correspondentes, o desvio de mídia será usado para a chamada. Se os IDs de desvio não corresponderem, a mídia para a chamada deverá fluir através do Servidor de Mediação.
+Quando um usuário faz uma chamada para a PSTN, o servidor de mediação compara a ID de bypass da sub-rede do cliente com a ID de bypass da sub-rede do gateway. Se as duas IDs de bypass forem correspondentes, o bypass de mídia será usado na chamada. Se as IDs de bypass não corresponderem, a mídia para a chamada deve fluir pelo servidor de mediação.
 
-Quando um usuário recebe uma chamada do PSTN, o cliente do usuário compara seu ID de desvio com aquele do gateway PSTN. Se os dois IDs de desvio corresponderem, a mídia fluirá diretamente do gateway para o cliente, contornando o Servidor de Mediação.
+Quando um usuário recebe uma chamada do PSTN, o cliente do usuário compara seu ID de bypass com aquele do gateway PSTN. Se as duas IDs de bypass corresponderem, a mídia fluirá diretamente do gateway para o cliente, ignorando o servidor de mediação.
 
-Apenas o Lync 2010 ou os clientes e dispositivos acima suportam interações de bypass de mídia com um Servidor de Mediação.
+Somente os clientes ou dispositivos do Lync 2010 ou posterior dão suporte a interações de bypass de mídia com um servidor de mediação.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Além de habilitar o bypass de mídia globalmente, é necessário habilitar o bypass de mídia individualmente em cada tronco PSTN. Se o bypass estiver habilitado globalmente, mas não estiver habilitado para um determinado tronco PSTN, o bypass de mídia não será invocado para qualquer chamada envolvendo aquele tronco PSTN. Além disso, quando o bypass de mídia é definido para <strong>Usar a informação do site e da região</strong> , é necessário associar todas as sub-redes roteáveis com os sites nos quais estão localizadas. Se há sub-redes roteáveis dentro de um site no qual o bypass não é desejado, estas sub-redes devem ser agrupadas dentro de um novo site antes de habilitar o bypass de mídia. Fazer isso garantirá que as sub-redes não roteáveis sejam atribuídas com uma ID de bypass diferente.
+> Além de habilitar o bypass de mídia globalmente, é necessário habilitar o bypass de mídia individualmente em cada tronco PSTN. Se o bypass estiver habilitado globalmente, mas não estiver habilitado para um determinado tronco PSTN, o bypass de mídia não será invocado para qualquer chamada envolvendo aquele tronco PSTN. Além disso, quando o bypass de mídia é definido para <STRONG>Use Site and Region Information</STRONG> (Usar informações do site e da região) é necessário associar todas as sub-redes roteáveis com os sites nos quais estão localizadas. Se há sub-redes roteáveis dentro de um site no qual o bypass não é desejado, estas sub-redes devem ser agrupadas dentro de um novo site antes de habilitar o bypass de mídia. Fazer isso garantirá que as sub-redes não roteáveis sejam atribuídas com uma ID de bypass diferente.
 
-## Consulte Também
 
-#### Conceitos
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
 
 [Modos de bypass de mídia no Lync Server 2013](lync-server-2013-media-bypass-modes.md)  
 [Bypass de mídia e controle de admissão de chamadas no Lync Server 2013](lync-server-2013-media-bypass-and-call-admission-control.md)  
-[Requisitos técnicos para bypass de mídia no Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md)
+[Requisitos técnicos para bypass de mídia no Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

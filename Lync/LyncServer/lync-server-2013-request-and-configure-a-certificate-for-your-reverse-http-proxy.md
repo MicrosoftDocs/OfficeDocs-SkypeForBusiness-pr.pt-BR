@@ -1,23 +1,43 @@
-﻿---
-title: "Lync Server 2013: Solicitar e config. um cert. p/ seu proxy HTTP reverso"
-TOCTitle: Solicitar e configurar um certificado para seu proxy HTTP reverso
-ms:assetid: 4b70991e-5f10-40a3-b069-0b227c3a3a0a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg429704(v=OCS.15)
-ms:contentKeyID: 49306635
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Solicitar e configurar um certificado para seu proxy HTTP reverso
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Request and configure a certificate for your reverse HTTP proxy
+ms:assetid: 4b70991e-5f10-40a3-b069-0b227c3a3a0a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429704(v=OCS.15)
+ms:contentKeyID: 48184085
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ffe1ce6a4b206b927b2fcdec4c02b905e01d5bd1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823305"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Solicitar e configurar um certificado para seu proxy HTTP reverso no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Solicitar e configurar um certificado para seu proxy HTTP reverso no Lync Server 2013
 
-Você precisa instalar o certificado de autoridade de certificação (CA) raiz no servidor que está executando o Microsoft Forefront Threat Management Gateway 2010 ou ARR do IIS para a infraestrutura da CA que emitiu os certificados de servidor para os servidores internos que estão executando o Microsoft Lync Server 2013.
+</div>
 
-Você também deve instalar um certificado de servidor web público no seu servidor proxy reverso. Os nomes alternativos de entidade desse certificado devem conter os FQDNs (nomes de domínio totalmente qualificados) externos publicados de cada pool que é o início para usuários habilitados para acesso remoto, e os FQDNs externos de todos os Diretores ou pools de Diretores que serão usados dentro dessa infraestrutura de Borda. O nome alternativo da entidade também deve conter a URL simples de reunião, a URL simples de discagem e, se você estiver implantando aplicativos móveis e planejar usar descoberta automática, a URL do Serviço Descoberta Automática externo, como mostrado na tabela a seguir.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-02-14_
+
+Você precisa instalar o certificado de autoridade de certificação (CA) raiz no servidor que executa o Microsoft Forefront Threat Management Gateway 2010 ou o IIS ARR para a infraestrutura da CA que emitiu os certificados do servidor para os servidores internos que executam o Microsoft Lync Server 2013.
+
+Você também deve instalar um certificado de servidor Web público em seu servidor proxy reverso. Os nomes alternativos da entidade deste certificado devem conter os nomes de domínio totalmente qualificados externos (FQDNs) publicados de cada pool que seja home para os usuários habilitados para acesso remoto e os FQDNs externos de todos os diretores ou pools de directors que serão usados dentro Essa infraestrutura de borda. O nome alternativo do assunto também deve conter a URL simples da reunião, a URL simples discada e, se você estiver implantando aplicativos móveis e planejar usar a descoberta automática, a URL do serviço de descoberta automática externa, conforme mostrado na tabela a seguir.
 
 
 <table>
@@ -35,7 +55,7 @@ Você também deve instalar um certificado de servidor web público no seu servi
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nome da entidade</p></td>
+<td><p>Nome do assunto</p></td>
 <td><p>FQDN do pool</p></td>
 <td><p>webext.contoso.com</p></td>
 </tr>
@@ -44,22 +64,26 @@ Você também deve instalar um certificado de servidor web público no seu servi
 <td><p>FQDN do pool</p></td>
 <td><p>webext.contoso.com</p>
 
-> [!IMPORTANT]  
-> O nome da entidade também deve estar presente no nome alternativo da entidade.
+
+
+> [!IMPORTANT]
+> O nome do requerente também deve estar presente no nome alternativo do assunto.
 
 </td>
 </tr>
 <tr class="odd">
 <td><p>Nome alternativo de entidade</p></td>
-<td><p>Serviços Web do Diretor opcionais (se Diretor for implantado)</p></td>
+<td><p>Serviços Web de director opcionais (se o diretor for implantado)</p></td>
 <td><p>webdirext.contoso.com</p></td>
 </tr>
 <tr class="even">
 <td><p>Nome alternativo de entidade</p></td>
 <td><p>URL simples de reunião</p>
 
-> [!NOTE]  
-> Todas as URLs simples de reunião devem estar no nome alternativo da região. Cada domínio SIP deve ter pelo menos uma URL simples de reunião ativa.
+
+
+> [!NOTE]
+> Todas as URLs simples de reunião devem estar no nome alternativo da entidade. Cada domínio SIP deve ter pelo menos uma URL simples de reunião ativa.
 
 </td>
 <td><p>meet.contoso.com</p></td>
@@ -71,16 +95,18 @@ Você também deve instalar um certificado de servidor web público no seu servi
 </tr>
 <tr class="even">
 <td><p>Nome alternativo de entidade</p></td>
-<td><p>Servidor do Office Web Apps</p></td>
+<td><p>Servidor Office Web Apps</p></td>
 <td><p>officewebapps01.contoso.com</p></td>
 </tr>
 <tr class="odd">
 <td><p>Nome alternativo de entidade</p></td>
-<td><p>URL de Serviço Descoberta Automática Externo</p></td>
+<td><p>URL do serviço de descoberta automática externo</p></td>
 <td><p>lyncdiscover.contoso.com</p>
 
-> [!NOTE]  
-> Se você também estiver usando o Microsoft Exchange Server também precisará configurar regras de proxy reverso para a descoberta automática do Exchange e URLs de serviços Web.
+
+
+> [!NOTE]
+> Se você também estiver usando o Microsoft Exchange Server, também precisará configurar regras de proxy reverso para as URLs de serviços Web e descoberta automática do Exchange.
 
 </td>
 </tr>
@@ -88,69 +114,121 @@ Você também deve instalar um certificado de servidor web público no seu servi
 </table>
 
 
-> [!NOTE]  
-> Se sua implantação interna consiste em mais de um servidor Standard Edition ou pool de Front-End, você deve configurar regras de publicação na Web para cada FQDN de web farm externo e será necessário um ouvinte da web e certificado para cada um, ou você deve obter um certificado cujo nome alternativo da entidade contém os nomes usados por todos os pools, atribuí-lo a um ouvinte da web e compartilhá-lo entre várias regras de publicação na web.
-
-## Criar uma solicitação de certificado
-
-Você cria uma solicitação de certificado no proxy reverso. Uma solicitação é criada em outro computador, mas é preciso exportar o certificado assinado com a chave privada e importá-lo para o proxy reverso assim que você o tiver recebido da autoridade de certificação pública.
-
-> [!NOTE]  
-> Uma solicitação de certificado ou uma solicitação de assinatura de certificado (CSR) é uma solicitação para uma autoridade de certificação pública (CA) confiável para validar e assinar a chave pública do computador solicitante. Quando um certificado é gerado, uma chave pública e uma chave privada são criadas. Somente a chave pública é compartilhada e assinada. Como o nome implica, a chave pública é disponibilizada para todas as solicitações públicas. A chave pública destina-se a ser usada por clientes, servidores e outros solicitantes que precisam trocar informações com segurança e validar uma identidade de um computador. A chave privada é mantida segura e é usada somente pelo computador que criou o par de chaves para descriptografar mensagens criptografadas com sua chave pública. A chave privada pode ser usada para outros fins. Para fins de proxy reverso, a codificação de dados é o uso principal. De forma secundária, a autenticação do certificado no nível da chave de certificado é outro uso e é limitada somente à validação de que um solicitante tenha a chave pública do computador ou que o computador em que você tenha uma chave pública seja realmente o computador que diz ser.
+<div>
 
 
-> [!TIP]  
-> Se você planejar seus certificados do Servidor de Borda e seus certificados de proxy reverso ao mesmo tempo, deverá observar que há muita semelhança entre os dois requisitos de certificado. Quando você configurar e solicitar seu certificado do Servidor de Borda, combine o Servidor de Borda e os nomes alternativos de entidade de proxy reverso. Você poderá usar o mesmo certificado para seu proxy reverso se exportar o certificado e a chave privada e copiar o arquivo exportado para o proxy reverso e então importar o par certificado/chave e o atribuir como necessário aos próximos procedimentos. Consulte os requisitos de certificado para o Servidor de Borda&nbsp; <A href="lync-server-2013-plan-for-edge-server-certificates.md">Planejar certificados do Servidor de Borda no Lync Server 2013</A> e o proxy reverso <A href="lync-server-2013-certificate-summary-reverse-proxy.md">Resumo de certificado - Proxy reverso no Lync Server 2013</A>. Crie o certificado com uma chave privada exportável. A criação do certificado e da solicitação de certificado com uma chave privada exportável é necessária para o Servidores de Borda em pool, portanto essa é uma prática normal e o Assistente de Certificado na Assistente de Implantação do Lync Server para a Servidor de Borda permitirá que você defina o sinalizador <STRONG>Tornar a chave privada exportável</STRONG>. Assim que você receber a solicitação de certificado de volta da autoridade de certificação pública, você exportará o certificado e a chave privada. Consulte a seção "Para exportar o certificado com a chave privada para Servidores Edge em um pool" no tópico <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Configurar certificados para a interface de borda externa para Lync Server 2013</A> para obter detalhes sobre como criar e exportar seu certificado com uma chave privada. A extensão do certificado deverá ser do tipo <STRONG>.pfx</STRONG>.
+> [!NOTE]
+> Se a sua implantação interna consistir em mais de um servidor Standard Edition ou pool de front-end, você precisará configurar regras de publicação na Web para cada FQDN do Web farm externo e será necessário um ouvinte de certificado e Web para cada um, ou você deve obter um certificado cujo nome alternativo para o assunto contém os nomes usados por todos os grupos, atribua-os a um ouvinte da Web e compartilhe-os entre várias regras de publicação na Web.
 
 
 
-Para gerar uma solicitação de assinatura de certificado no computador para onde o certificado e a chave privada serão atribuídos, faça o seguinte:
+</div>
+
+<div>
+
+## <a name="create-a-certificate-request"></a>Criar uma solicitação de certificado
+
+Crie uma solicitação de certificado no proxy reverso. Você cria uma solicitação em outro computador, mas deve exportar o certificado assinado com a chave privada e importá-lo para o proxy inverso após tê-lo recebido da autoridade de certificação pública.
+
+<div>
+
+
+> [!NOTE]
+> Uma solicitação de certificado ou um CSR (solicitação de assinatura de certificado) é uma solicitação para uma autoridade de certificação pública (CA) confiável para validar e assinar a chave pública do computador solicitante. Quando um certificado é gerado, uma chave pública e uma chave privada são criadas. Somente a chave pública é compartilhada e assinada. Como o nome indica, a chave pública é disponibilizada para qualquer solicitação Pública. A chave pública é usada por clientes, servidores e outros solicitantes que precisam trocar informações com segurança e validar a identidade do computador. A chave privada é mantida protegida e é usada somente pelo computador que criou o par de chaves para descriptografar mensagens criptografadas com sua chave pública. A chave privada pode ser usada para outras finalidades. Para fins de proxy reverso, a codificação de dados é o uso principal. O secondarily, a autenticação de certificado no nível da chave do certificado, é limitado apenas à validação de que um solicitante tem a chave pública do computador ou de que o computador com o qual você tem uma chave pública é realmente o computador que ele alega ser.
+
+
+
+</div>
+
+<div>
+
+
+> [!TIP]
+> Se você planejar os certificados do servidor de borda e os certificados de proxy inversos ao mesmo tempo, observe que há uma excelente semelhança entre os dois requisitos de certificado. Ao configurar e solicitar o certificado do servidor de borda, combine o servidor de borda e os nomes alternativos de entidades de proxy reverso. Você pode usar o mesmo certificado para seu proxy reverso se exportar o certificado e a chave privada e copiar o arquivo exportado para o proxy reverso e, em seguida, importar o par de certificados/chaves e atribuí-lo conforme necessário nos procedimentos futuros. Consulte os requisitos de certificado para o plano do&nbsp;servidor de borda<A href="lync-server-2013-plan-for-edge-server-certificates.md">para certificados do servidor de borda no Lync Server 2013</A> e o resumo de certificado de proxy reverso <A href="lync-server-2013-certificate-summary-reverse-proxy.md">-proxy reverso no Lync Server 2013</A>. Certifique-se de criar o certificado com uma chave privada exportável. A criação do certificado e da solicitação de certificado com uma chave privada exportável é necessária para servidores de borda em pool, portanto, isso é uma prática normal e o assistente de certificado no assistente de implantação do Lync Server para o servidor de borda permite que você defina a <STRONG>marca </STRONG>sinalizador exportável de chave privada. Depois de receber a solicitação de certificado de volta da autoridade de certificação pública, você exportará o certificado e a chave privada. Consulte a seção "para exportar o certificado com a chave privada para servidores de borda em um pool" no tópico <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">configurar certificados para a interface de borda externa do Lync Server 2013</A> para obter detalhes sobre como criar e exportar seu certificado com uma chave privada. A extensão do certificado deve ser do tipo <STRONG>. pfx</STRONG>.
+
+
+
+</div>
+
+Para gerar uma solicitação de assinatura de certificado no computador em que o certificado e a chave privada serão atribuídos, faça o seguinte:
 
 **Criando uma solicitação de assinatura de certificado**
 
-1.  Abra o Console de Gerenciamento Microsoft (MMC) e adicione o snap-in Certificados e selecione **Computadores** e então expanda **Pessoal**. Para obter detalhes sobre como criar um console de certificados no Console de Gerenciamento Microsoft (MMC), consulte [http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616).
+1.  Abra o console de gerenciamento Microsoft (MMC) e adicione o snap-in de certificados e selecione **computadores**e, em seguida, expanda **pessoal**. Para obter detalhes sobre como criar um console de certificados no console de gerenciamento Microsoft (MMC), [http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616)consulte.
 
-2.  Clique com o botão direito do mouse em **Certificados**, clique em **Todas as Tarefas**, clique em **Operações Avançadas**, clique em **Criar Solicitação Personalizada**.
+2.  Clique com o botão direito do mouse em **certificados**, clique em **todas as tarefas**, clique em **operações avançadas**, clique em **criar solicitação personalizada**.
 
-3.  Na página **Registro de Certificado**, clique em **Avançar**.
+3.  Na página **registro de certificado** , clique em **Avançar**.
 
-4.  Na página **Selecionar Política de Registro de Certificado**, em **Solicitação Personalizada**, selecione **Prosseguir sem a política de registro**. Clique em **Avançar**.
+4.  Na página **selecionar política de registro de certificado** em **solicitação personalizada**, selecione **continuar sem política de registro**. Click **Next**.
 
-5.  Na página **Solicitação Personalizada**, para **Modelo** selecione **(Sem modelo) Chave herdada**. A menos que direcionado por seu provedor de certificado, deixe **Suprimir extensões padrão** desmarcado e a seleção **Solicitar formato** em **PKCS \#10**. Clique em **Avançar**.
+5.  Na página **solicitação personalizada** , em **modelo** , selecione **(nenhum modelo) chave herdada**. A menos que seja direcionado de outra forma pelo seu provedor de certificado, deixe a opção **suprimir extensões padrão** desmarcada e a seleção de **formato de solicitação** em **PKCS \#10**. Click **Next**.
 
-6.  Na página **Informações do Certificado**, clique em **Detalhes**, então clique em **Propriedades**.
+6.  Na página **informações do certificado** , clique em **detalhes**e, em seguida, clique em **Propriedades**.
 
-7.  Na página **Propriedades do Certificado** na guia **Geral** no campo **Nome Amigável**, digite um nome para este certificado. Opcionalmente, digite uma descrição no campo **Descrição**. O Nome Amigável e a descrição são normalmente usados pelo Administrador para identificar a finalidade do certificado, como **Ouvinte de Proxy Reverso para o Lync Server**.
+7.  Na página **Propriedades do certificado** , na guia **geral** , no campo **nome amigável** , digite um nome para este certificado. Opcionalmente, digite uma descrição no campo **Descrição** . O nome amigável e a descrição geralmente são usados pelo administrador para identificar qual é a finalidade do certificado, como **ouvinte de proxy reverso para o Lync Server**.
 
-8.  Selecione a guia **Entidade**. Em **Nome da entidade** para o **Tipo**, selecione **Nome comum** para o tipo de nome de Entidade. Para o **Valor**, digite o nome da entidade que você usará para o proxy reverso e então clique em **Adicionar**. No exemplo fornecido na tabela neste tópico, o nome da entidade é webext.contoso.com e seria digitado no campo Valor para o nome da Entidade.
+8.  Selecione a guia **assunto** . Em **nome do assunto** do **tipo**, selecione **nome comum** para o tipo de nome do assunto. Para o **valor**, digite o nome do requerente que você usará para o proxy reverso e clique em **Adicionar**. No exemplo fornecido na tabela deste tópico, o nome do assunto é webext.contoso.com e seria digitado no campo valor para o nome do assunto.
 
-9.  Na guia **Entidade**, em **Nome alternativo**, selecione **DNS** na lista suspensa de **Tipo**. Para cada nome alternativo de entidade definido exigido no certificado, digite o nome de domínio totalmente qualificado e então clique em **Adicionar**. Por exemplo, na tabela há três nomes alternativos de entidade, meet.contoso.com, dialin.contoso.com e lyncdiscover.contoso.com. No campo **Valor**, digite meet.contoso.com, então clique em **Adicionar**. Repita esse procedimento para cada nome alternativo de entidade que seja necessário definir.
+9.  Na guia **assunto** em **nome alternativo**, selecione **DNS** na lista suspensa para o **tipo**. Para cada nome alternativo de assunto definido que você precisa no certificado, digite o nome de domínio totalmente qualificado e clique em **Adicionar**. Por exemplo, na tabela, há três nomes alternativos de entidades, meet.contoso.com, dialin.contoso.com e lyncdiscover.contoso.com. No campo **valor** , digite Meet.contoso.com e, em seguida, clique em **Adicionar**. Repita para cada assunto nomes alternativos que você precisa definir.
 
-10. Na página **Propriedades do Certificado**, clique na guia **Extensões**. Nessa página, você definirá as finalidades da chave criptográfica no **Uso de chave** e o uso estendido de chave em **Uso Estendido de Chave (políticas de aplicação)**.
+10. Na página **Propriedades do certificado** , clique na guia **extensões** . Nesta página, você definirá os objetivos da chave criptográfica em **uso da chave** e o uso estendido da chave em **uso estendido da chave (políticas de aplicativo)**.
 
-11. Clique na seta **Uso de chave** para mostrar as **Opções disponíveis**. Em Opções disponíveis, clique em **Assinatura digital**, então clique em **Adicionar**. Clique em **Codificação de chave**, então clique em **Adicionar**. Se a caixa de seleção de **Tornar estes usos de chave críticos** estiver desmarcada, marque-a.
+11. Clique na seta **uso da chave** para mostrar as **opções disponíveis**. Em opções disponíveis, clique em **assinatura digital**e, em seguida, clique em **Adicionar**. Clique em **codificação de chave**e, em seguida, clique em **Adicionar**. Se a caixa de seleção **fazer com que esses usos de chave críticos** estiver desmarcada, marque a caixa de seleção.
 
-12. Clique na seta **Uso Estendido de Chave (políticas de aplicação)** para mostrar as **Opções disponíveis**. Em Opções disponíveis, clique em **Autenticação do Servidor**, então clique em **Adicionar**. Clique em **Autenticação do Cliente**, então clique em **Adicionar**. Se a caixa de seleção de **Tornar os Usos Estendidos de Chave críticos** estiver marcada, desmarque-a. Ao contrário da caixa de seleção Uso de chave (que deverá ser marcada), certifique-se de que a caixa de seleção Uso Estendido de Chave não esteja marcada.
+12. Clique na seta **uso estendido da chave (políticas do aplicativo)** para mostrar as **opções disponíveis**. Em opções disponíveis, clique em **autenticação do servidor**e, em seguida, clique em **Adicionar**. Clique em **autenticação do cliente**e, em seguida, clique em **Adicionar**. Se a caixa de seleção para fazer com que **os usos da chave estendida** forem marcada, desmarque a caixa de seleção. Ao contrário da caixa de seleção uso da chave (que deve ser marcada), você deve ter certeza de que a caixa de seleção uso estendido da chave não está marcada.
 
-13. Na página **Propriedades do Certificado**, clique na guia **Chave Privada**. Clique na seta **Opções de chave**. Para **Tamanho de chave**, selecione **2048** na lista suspensa. Se você estiver gerando esse par de chaves e o CSR em um computador diferente do proxy reverso para o qual este certificado se destina, selecione **Tornar a chave privada exportável**.
+13. Na página **Propriedades do certificado** , clique na guia **chave privada** . Clique na seta **Opções de tecla** . Em **tamanho da chave**, selecione **2048** na lista suspensa. Se você estiver gerando este par de chaves e o CSR em um computador diferente do proxy inverso ao qual esse certificado se destina, selecione **tornar a chave privada**exportável.
     
-    <table summary="table"><tbody><tr><th align="left" scope="col"><img id="security" alt="security" src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="security" xmlns="" class="cl_IC101171">Segurança Observação: </th></tr><tr><td>
-										A seleção de  <strong>Tornar uma chave privada exportável </strong> é geralmente aconselhável quando você tem mais de um proxy reverso em um farm, porque você copiará o certificado e a chave privada para cada máquina no farm. Se você permitir uma chave privada exportável, deverá tomar cuidado adicional com o certificado e o computador em que ele será gerado. A chave privada, se comprometida, inutilizará o certificado, além de potencialmente expor o computador ou computadores a acesso externo e a outras vulnerabilidades de segurança.
-									</td></tr></tbody></table>
-
-14. Na guia **Chave Privada**, clique na seta **Tipo de chave**. Selecione a opção **Exchange**.
-
-15. Clique em **OK** para salvar as **Propriedades do Certificado** que você definiu.
-
-16. Na página **Registro de Certificado**, clique em **Avançar**.
-
-17. Na página **Onde você deseja salvar a solicitação offline?**, será solicitado um **Nome de Arquivo** e um **Formato de Arquivo** para salvar a solicitação de assinatura do certificado.
-
-18. No campo de entrada **Nome do Arquivo**, digite um caminho e um nome de arquivo para a solicitação ou clique em **Procurar** para selecionar um local para o arquivo e digite o nome de arquivo para a solicitação.
-
-19. Para o **Formato de arquivo**, clique em **Base 64** ou em **Binário**. Selecione **Base 64** a menos que seja instruído o contrário pelo fornecedor de seus certificados.
-
-20. Localize o arquivo de solicitação salvo na etapa anterior. Envie para sua autoridade de certificação pública.
+    <div>
     
-    > [!IMPORTANT]  
-    > A Microsoft identificou CAs públicas que atendem aos requisitos para fins de Comunicações Unificadas. Uma lista é mantida no seguinte artigo da base de dados de conhecimento. <a href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</a>
+    <table>
+    <thead>
+    <tr class="header">
+    <th><img src="images/Gg398321.security(OCS.15).gif" title="segurança" alt="security" />Observação de segurança:</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>Selecionar <strong>tornar uma chave privada</strong> exportável geralmente é avisado quando você tem mais de um proxy reverso em um farm, pois você copiará o certificado e a chave privada para cada máquina no farm. Se você permitir uma chave privada exportável, deve tomar cuidado com o certificado e o computador em que ele é gerado. A chave privada, se comprometida, tornará o certificado inútil, bem como exporá potencialmente o computador ou computadores a acesso externo e outras vulnerabilidades de segurança.</td>
+    </tr>
+    </tbody>
+    </table>
+    
+    </div>
+
+14. Na guia **chave privada** , clique na seta **tipo de chave** . Selecione a opção **Exchange** .
+
+15. Clique em **OK** para salvar as **Propriedades de certificado** que você definiu.
+
+16. Na página **registro de certificado** , clique em **Avançar**.
+
+17. Na página **onde você deseja salvar a solicitação offline?** , você será solicitado a fornecer um **nome de arquivo** e um formato de **arquivo** para salvar a solicitação de assinatura de certificado.
+
+18. No campo de entrada **nome do arquivo** , digite um caminho e um nome de arquivo para a solicitação ou clique em **procurar** para selecionar um local para o arquivo e digite o nome do arquivo para a solicitação.
+
+19. Em **formato de arquivo**, clique em **base 64** ou **binário**. Selecione **Base 64** , a menos que você seja instruído de outra forma pelo fornecedor dos seus certificados.
+
+20. Localize o arquivo de solicitação que você salvou na etapa anterior. Envie à sua autoridade de certificação pública.
+    
+    <div>
+    
+
+    > [!IMPORTANT]
+    > A Microsoft identificou CAs públicas que atendem aos requisitos para fins de comunicação unificada. Uma lista é mantida no seguinte artigo da base de dados de conhecimento. <A href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</A>
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

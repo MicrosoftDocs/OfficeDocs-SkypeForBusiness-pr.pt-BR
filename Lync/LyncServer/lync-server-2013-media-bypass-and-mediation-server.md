@@ -1,31 +1,64 @@
-﻿---
-title: 'Lync Server 2013: Bypass de mídia e Servidor de Mediação'
-TOCTitle: Bypass de mídia e Servidor de Mediação
-ms:assetid: 8ed35f95-05cd-4b5d-8470-442d2323df71
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398719(v=OCS.15)
-ms:contentKeyID: 49307432
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Bypass de mídia e Servidor de Mediação'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Media bypass and Mediation Server
+ms:assetid: 8ed35f95-05cd-4b5d-8470-442d2323df71
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398719(v=OCS.15)
+ms:contentKeyID: 48184774
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8524c0f2556eec339b6698f156966ea95538dbaa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827519"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Bypass de mídia e Servidor de Mediação no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-21_
+# <a name="media-bypass-and-mediation-server-in-lync-server-2013"></a>Bypass de mídia e Servidor de Mediação no Lync Server 2013
 
-Desvio de mídia é um recurso do Lync Server que permite que o administrador configure o roteamento de chamadas para que ela flua de forma direta entre o ponto de extremidade do usuário e o gateway de PSTU (rede de telefonia comutada pública) sem atravessar o Servidor de Mediação. O desvio de mídia aprimora a qualidade das chamadas reduzindo a latência, a conversão desnecessária, a possibilidade de perda de pacotes e o número de possíveis pontos de falha. Onde um local remoto sem um a Servidor de Mediação estiver conectado a um local central por um ou mais links WAN com largura de banda limitada, o desvio de mídia reduz o requisito de largura de banda permitindo que a mídia de um cliente em um local remoto flua diretamente para seu gateway local sem passar primeiro pelo link WAN para um Servidor de Mediação no site central e voltar. Essa redução no processamento da mídia também complementa a capacidade do Servidor de Mediação de controlar vários gateways.
+</div>
 
-O desvio de mídia e o controle de admissão de chamadas (CAC) são mutuamente exclusivos. Se o desvio de mídia for empregado para uma chamada, o CAC não é executado para esta chamada. Assume-se que não existem links com largura de banda restrita envolvidos na chamada.
+<div id="mainSection">
 
-## Consulte Também
+<div id="mainBody">
 
-#### Conceitos
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-21_
+
+O bypass de mídia é um recurso do Lync Server que permite que um administrador configure o roteamento de chamadas para fluir diretamente entre o ponto de extremidade do usuário e o gateway PSTN (rede telefônica pública comutada) sem atravessar o servidor de mediação. O bypass de mídia melhora a qualidade da chamada reduzindo a latência, a tradução desnecessária, a possibilidade de perda de pacotes e a quantidade de pontos de falha em potencial. Quando um site remoto sem um servidor de mediação está conectado a um site central por um ou mais links de WAN com largura de banda restrita, o bypass de mídia reduz a necessidade de largura de banda habilitando a mídia de um cliente em um site remoto para fluir diretamente para seu gateway local sem Primeiro, é necessário fluir pelo link de WAN para um servidor de mediação no site central e para trás. Essa redução no processamento de mídia também complementa a capacidade do servidor de mediação de controlar vários gateways.
+
+O bypass de mídia e o CAC (controle de admissão de chamadas) são mutuamente exclusivos. Se o bypass de mídia for empregado para uma chamada, o CAC não será executado para essa chamada. Presume-se que não haja links com largura de banda restrita envolvidos na chamada.
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
 
 [Controle de admissão de chamada e Servidor de Mediação no Lync Server 2013](lync-server-2013-call-admission-control-and-mediation-server.md)  
 
-#### Outros Recursos
 
-[Planejamento de bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
+[Planejamento de bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

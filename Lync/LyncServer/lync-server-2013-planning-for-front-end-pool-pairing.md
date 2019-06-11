@@ -1,27 +1,49 @@
-﻿---
-title: 'Lync Server 2013: Planejamento para emparelhamento de pool Front-End'
-TOCTitle: Planejamento para emparelhamento de pool Front-End
-ms:assetid: cca5773d-57ff-45ce-a7b4-f82ae697c477
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205293(v=OCS.15)
-ms:contentKeyID: 49308140
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planejamento para emparelhamento de pool Front-End'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Front End pool pairing
+ms:assetid: cca5773d-57ff-45ce-a7b4-f82ae697c477
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205293(v=OCS.15)
+ms:contentKeyID: 48185508
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a0445a6d952ba7311b8f6b5435c16d9e91de587f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824964"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planejamento para emparelhamento de pool Front-End no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-28_
+# <a name="planning-for-front-end-pool-pairing-in-lync-server-2013"></a>Planejamento para emparelhamento de pool Front-End no Lync Server 2013
 
-Para melhor capacidade de recuperação de desastres no Lync Server 2013, implante pares de pools do Front-End pools em dois locais dispersos geograficamente. Cada site contém um pool de Front-End que é emparelhado com um pool de Front-End correspondente em outro local. Ambos os locais estão ativos e o Serviço de Backup do Lync Server oferece replicação de dados em tempo real para manter os pools sincronizados. O Serviço de Backup é um novo recurso no Lync Server 2013, projetado para suportar a solução de recuperação de desastres. Está instalado em um pool de Front-End ao emparelhar o pool com outro pool de Front-End.
+</div>
 
-Se o pool em um local falhar, é possível fazer o failover dos usuários deste pool para o pool em outro local, que oferece serviços para todos os usuários em ambos os pools. Para fins de planejamento de capacidade, cada pool deve ser atribuído para lidar com cargas de trabalho de todos os usuários em ambos os pools em caso de desastre.
+<div id="mainSection">
 
-## Nesta seção
+<div id="mainBody">
 
-  - [Opções e práticas recomendadas de emparelhamento de pool com suporte para o Lync Server 2013](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-28_
+
+Para obter os melhores recursos de recuperação de desastre no Lync Server 2013, implante pares de pools front-end em dois locais geograficamente dispersos. Cada site contém um pool de front-ends que está emparelhado com um pool de front-end correspondente no outro site. Os dois sites estão ativos e o serviço de backup do Lync Server fornece replicação de dados em tempo real para manter os pools sincronizados. O serviço de backup é um novo recurso do Lync Server 2013, projetado para dar suporte à solução de recuperação de desastres. Ele é instalado em um pool de front-ends quando você emparelha o pool com outro pool de front-end.
+
+Se o pool em um site falhar, você poderá fazer failover dos usuários desse pool para o pool no outro site, que fornece serviços a todos os usuários em ambos os pools. Para fins de planejamento da capacidade, cada pool deve ser projetado para lidar com as cargas de trabalho de todos os usuários em ambos os pools, no caso de um desastre.
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
+
+  - [Opções de emparelhamento de pool compatível e práticas recomendadas para o Lync Server 2013](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
 
   - [Relacionamentos de Registradores de backup no Lync Server 2013](lync-server-2013-backup-registrar-relationships.md)
 
@@ -30,4 +52,16 @@ Se o pool em um local falhar, é possível fazer o failover dos usuários deste 
   - [Failover do repositório do Gerenciamento Central no Lync Server 2013](lync-server-2013-central-management-store-failover.md)
 
   - [Segurança de dados de emparelhamento do pool Front End no Lync Server 2013](lync-server-2013-front-end-pool-pairing-data-security.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

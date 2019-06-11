@@ -1,30 +1,71 @@
-﻿---
-title: 'Lync Server 2013: Planejamento para serviços de emergência (E9-1-1)'
-TOCTitle: Planejamento para serviços de emergência (E9-1-1)
-ms:assetid: 0a76f97b-474a-4bc1-8cd3-28c7e2bb57b9
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398154(v=OCS.15)
-ms:contentKeyID: 49305830
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planejamento para serviços de emergência (E9-1-1)'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for emergency services (E9-1-1)
+ms:assetid: 0a76f97b-474a-4bc1-8cd3-28c7e2bb57b9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398154(v=OCS.15)
+ms:contentKeyID: 48183363
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 98479ec674627cd663eb0d83fc670eb3feb5a8b1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824824"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planejamento para serviços de emergência (E9-1-1) no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-17_
+# <a name="planning-for-emergency-services-e9-1-1-in-lync-server-2013"></a>Planejamento para serviços de emergência (E9-1-1) no Lync Server 2013
 
-Lync Server 2013 á suporte aos serviços do Enhanced 9-1-1 (E9-1-1) dentro dos Estados Unidos como parte de uma implantação do Enterprise Voice O E9-1-1 é um recurso de remessa de emergência que associa uma chamada 9-1-1 a um Emergency Response Location (ERL) que consiste em endereços cívicos (ou seja, ruas) e outras informações de local mais específicas, como os números dos andares, para ligações de prédios comerciais e outras instalações multilocatárias. Ao usar o ERL fornecido, um ponto de atendimento público seguro (PSAP) pode remeter serviços de emergência imediatamente ao chamador em apuros com risco reduzido de direcionar o respondente de forma não intencional a um local incorreto ou vago.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-17_
+
+O Lync Server 2013 tem suporte para serviços avançados do 9-1-1 (E9-1-1) nos Estados Unidos, como parte de uma implantação do Enterprise Voice. O E9-1-1 é um recurso de expedição de emergência que associa uma chamada a 9-1-1 a uma ERL (Localização de Resposta à Emergência), que consiste em endereços cívicos (ou seja, ruas) e outras informações de local mais específicas, como os números dos andares, para ligações de prédios comerciais e outras instalações multilocatário. Com o uso da ERL fornecida, um PSAP (ponto de atendimento público seguro) pode expedir os serviços de emergência imediatamente ao chamador em apuros, com risco reduzido de direcionar o respondente de forma não intencional a um local incorreto ou ambíguo.
+
+<div>
+
 
 > [!NOTE]  
-> O Lync Server possui três recursos avançados de Enterprise Voice: ontrole de admissão de chamadas, serviços de emergência (E9-1-1) e desvio de mídia. Para obter uma visão geral das informações de planejamento que é comum aos três recursos, consulte <a href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Configurações de rede para recursos avançados do Enterprise Voice no Lync Server 2013</a>.
+> O Lync Server tem três recursos avançados do Enterprise Voice: controle de admissão de chamadas, serviços de emergência (E9-1-1) e bypass de mídia. Para obter uma visão geral do planejamento de informações comuns a todos esses três recursos, consulte <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">configurações de rede para os recursos avançados de voz empresarial no Lync Server 2013</A>.
 
-## Nesta seção
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Visão geral de E9-1-1 no Lync Server 2013](lync-server-2013-overview-of-e9-1-1.md)
 
   - [Definindo seus requisitos para chamadas de emergência no Lync Server 2013](lync-server-2013-defining-your-requirements-for-emergency-calls.md)
 
-  - [Lista de verificação de implantação para E9-1-1 no Lync Server 2013](lync-server-2013-deployment-checklist-for-e9-1-1.md)
+  - [Lista de verificação de implantação do E9-1-1 no Lync Server 2013](lync-server-2013-deployment-checklist-for-e9-1-1.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

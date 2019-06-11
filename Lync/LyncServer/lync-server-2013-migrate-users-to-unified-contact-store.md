@@ -1,41 +1,71 @@
-﻿---
-title: 'Lync Server 2013: Migrar usuários para o repositório unificado de contatos'
-TOCTitle: Migrar usuários para o repositório unificado de contatos
-ms:assetid: 215a8ec1-d63e-4fdf-b73d-75aeb9dddb43
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204737(v=OCS.15)
-ms:contentKeyID: 49306112
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Migrar usuários para o repositório unificado de contatos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Migrate users to unified contact store
+ms:assetid: 215a8ec1-d63e-4fdf-b73d-75aeb9dddb43
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204737(v=OCS.15)
+ms:contentKeyID: 48183600
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fd0ec64192f1aa83eb9c076976c20a9e87ab9115
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827211"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migrar usuários para o repositório unificado de contatos no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-15_
+# <a name="migrate-users-to-unified-contact-store-in-lync-server-2013"></a>Migrar usuários para o repositório unificado de contatos no Lync Server 2013
 
-Os contatos do usuário são migrados automaticamente para o servidor do Exchange 2013 quando o usuário:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-15_
+
+Os contatos de um usuário são migrados automaticamente para o servidor Exchange 2013 quando o usuário:
 
   - For atribuído com uma política de serviços do usuário com UcsAllowed definido para True.
 
-  - Tenha sido provisionado com uma caixa de correio do Exchange 2013 e se conectado a ela pelo menos uma vez.
+  - Foi provisionado com uma caixa de correio do Exchange 2013 e entrou na caixa de correio pelo menos uma vez.
 
-  - Faça o login usando um cliente avançado do Lync 2013.
+  - Conecta-se usando um cliente avançado do Lync 2013.
 
-Se o usuário faz o login com um cliente do Lync 2010 ou anterior ou se o usuário não está conectado a um servidor do Exchange 2013, a política de serviços do usuário é ignorada e os contatos do usuário permanecem no Lync Server.
+Se o usuário fizer logon com um cliente do Lync 2010 ou anterior, ou se o usuário não estiver conectado a um servidor do Exchange 2013, a política de serviços do usuário será ignorada e os contatos do usuário permanecerão no Lync Server.
 
 É possível determinar se os contatos do usuário foram migrados usando um dos seguintes métodos:
 
   - Verifique a chave do registro no computador cliente:
     
-    HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync\\\<SIP URL\>\\UCS
+    HKey\_Current\_user\\software\\Microsoft\\Office\\15,0\\Lync\\\<SIP URL\>\\UCS
     
-    Se os contatos do usuário estão armazenados no Exchange 2013, esta chave contém um valor do InUCSMode de 2165.
+    Se os contatos do usuário estiverem armazenados no Exchange 2013, essa chave contém um valor de InUCSMode com um valor de 2165.
 
-  - Execute o cmdlet **Test-CsUnifiedContactStore**. Na linha de comando do Shell de Gerenciamento do Lync Server, digite:
+  - Execute o cmdlet **Test-CsUnifiedContactStore**. Na linha de comando do Shell de gerenciamento do Lync Server, digite:
     
         Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
     
     Se o **Test-CsUnifiedContactStore** tiver êxito, os contatos do usuário foram migrados para o repositório de contatos unificados.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

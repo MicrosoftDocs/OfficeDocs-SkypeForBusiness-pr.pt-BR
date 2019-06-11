@@ -1,35 +1,57 @@
-﻿---
-title: 'Lync Server 2013: Planejamento para Enterprise Voice'
-TOCTitle: Planejamento para Enterprise Voice
-ms:assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg413081(v=OCS.15)
-ms:contentKeyID: 49308712
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: planejando para Enterprise Voice'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Enterprise Voice
+ms:assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413081(v=OCS.15)
+ms:contentKeyID: 48185959
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 29732d1690e1934f811df6fc448596e987205791
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824845"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planejamento para Enterprise Voice no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-11-01_
+# <a name="planning-for-enterprise-voice-in-lync-server-2013"></a>Planejando para Enterprise Voice no Lync Server 2013
 
-O processo de implantação do Enterprise Voice depende da topologia e da infraestrutura existentes e da funcionalidade do Enterprise Voice à qual você deseja dar suporte. Os procedimentos necessários dependem dos recursos que você escolher, mas há outras considerações de planejamento a fazer em um nível elevado.
+</div>
 
-Em geral, considere o tipo e o número locais que você deseja implantar e suas localizações geográficas, o volume de chamadas em cada local, os tipos de links de rede que se conectam aos locais, se você deseja fornecer redundância e failover para a funcionalidade de voz para cada local e se você deseja usar o equipamento PBX existente. Há algumas considerações, como alta disponibilidade, que devem ser levadas em conta ao planejar o Lync Server  software de comunicação como um todo e são repetidas em tópicos ao longo desta seção conforme necessário.
+<div id="mainSection">
 
-## Considerações de planejamento
+<div id="mainBody">
 
-Para o planejamento de decisões relativas à implantação de uma determinada capacidade do Enterprise Voice ou cenário de implantação ou componente, consulte os tópicos nesta seção.
+<span> </span>
+
+_**Tópico da última modificação:** 2013-11-01_
+
+O processo de implantação do Enterprise Voice depende da topologia existente, da infraestrutura e da funcionalidade do Enterprise Voice às quais você deseja dar suporte. Os procedimentos necessários dependem dos recursos que você escolher, mas há outras considerações de planejamento a fazer em um nível elevado.
+
+Em geral, considere o tipo e o número de sites que você deseja implantar e seus locais geográficos, o volume da chamada em cada site, os tipos de links de rede que conectam sites, se você deseja fornecer redundância e failover para funcionalidade de voz para cada e se você deseja usar equipamento PBX existente. Há certas considerações, como alta disponibilidade, que você deve considerar ao planejar o software de comunicação do Lync Server como um todo. Essas considerações são discutidas em tópicos em toda esta seção, conforme necessário.
+
+<div>
+
+## <a name="planning-considerations"></a>Considerações de planejamento
+
+Para decisões de planejamento que pertencem à implantação de uma determinada funcionalidade ou componente de voz ou componente da empresa, consulte os tópicos desta seção.
 
   - [Definindo seus requisitos para Enterprise Voice no Lync Server 2013](lync-server-2013-defining-your-requirements-for-enterprise-voice.md)
 
   - [Estimando uso e tráfego de voz para Lync Server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md)
 
-  - [Configurações de rede para recursos avançados do Enterprise Voice no Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)
+  - [Network settings for the advanced Enterprise Voice features in Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)
 
-  - [Componentes obrigatórios para Enterprise Voice no Lync Server 2013](lync-server-2013-components-required-for-enterprise-voice.md)
+  - [Components required for Enterprise Voice in Lync Server 2013](lync-server-2013-components-required-for-enterprise-voice.md)
 
   - [Planejamento para resiliência do Enterprise Voice no Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
@@ -41,7 +63,7 @@ Para o planejamento de decisões relativas à implantação de uma determinada c
 
   - [Planejamento de bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
 
-  - [Planejamento de linhas de telefone privadas com Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md)
+  - [Planejando linhas telefônicas particulares com o Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md)
 
   - [Planejamento de Roteamento Baseado em Local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)
 
@@ -53,5 +75,17 @@ Para o planejamento de decisões relativas à implantação de uma determinada c
 
   - [Movendo usuários para o Enterprise Voice no Lync Server 2013](lync-server-2013-moving-users-to-enterprise-voice.md)
 
-  - [Ferramenta de diagnósticos do Lync PreCall no Lync Server 2013](lync-server-2013-lync-precall-diagnostics-tool.md)
+  - [Ferramenta de diagnóstico de chamadas do Lync no Lync Server 2013](lync-server-2013-lync-precall-diagnostics-tool.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,33 +1,55 @@
-﻿---
-title: Restaurando um servidor back-end Enterprise Edition espelhado – primário
-TOCTitle: Restaurando um servidor back-end Enterprise Edition espelhado – primário
-ms:assetid: bc555b46-70c5-4eee-ae91-e195df238293
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ945648(v=OCS.15)
-ms:contentKeyID: 52057701
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Restaurando um servidor back-end do Enterprise Edition espelhado-primário
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Restoring a mirrored Enterprise Edition Back End Server - primary
+ms:assetid: bc555b46-70c5-4eee-ae91-e195df238293
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945648(v=OCS.15)
+ms:contentKeyID: 51541512
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: dbf0c8562ed4180fb14bf0bda74a03dd4ee8f746
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823060"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Restaurando um servidor back-end Enterprise Edition espelhado – primário
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-17_
+# <a name="restoring-a-mirrored-enterprise-edition-back-end-server-in-lync-server-2013---primary"></a>Restaurando um servidor back-end da edição Enterprise espelhada no Lync Server 2013-principal
 
-Se você tiver um Servidor de Back End Enterprise Edition em uma configuração em espelho e somente o banco de dados primário falhar, siga os procedimentos nesta seção. Se ambos o banco de dados primário e o de espelho falharem, consulte [Restaurando um servidor de back-end do Enterprise Edition](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md). Se somente o espelho falhar, consulte [Restaurando um servidor back-end Enterprise Edition espelhado – espelho](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md). Se o banco de dados hospedando o repositório de Gerenciamento Central falhar, consulte [Restaurar o servidor que hospeda o Repositório de Gerenciamento Central](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). Se um servidor membro do Enterprise Edition que não for o Back End Server falhar, consulte [Restaurando um servidor membro do Enterprise Edition](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
+</div>
 
-Recomendamos que você realize uma imagem de backup do sistema antes de dar início à restauração. Você pode utilizar essa imagem como um ponto de retorno, caso algo dê errado durante a restauração. Você pode desejar utilizar a imagem de backup após a instalação do sistema operacional e servidor SQL, e restaurar ou reinscrever os certificados.
+<div id="mainSection">
 
-Neste tópico, o banco de dados primário usado como exemplo terá um nome de domínio totalmente qualificado (FQDN) de BE1.contoso.com, e o banco de dados de espelho terá um FQDN de BE2.contoso.com.
+<div id="mainBody">
 
-## Para restaurar um banco de dados primário de Servidor de Back End Enterprise Edition
+<span> </span>
 
-1.  A partir de uma conta de usuário membro do grupo RTCUniversalServerAdmins, faça logon em um Servidor Front End.
+_**Tópico da última modificação:** 2013-02-17_
 
-2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+Se você tiver um servidor back-end do Enterprise Edition em uma configuração espelhada e somente o banco de dados principal falhar, siga os procedimentos desta seção. Se o banco de dados primário e o espelhamento falharem, consulte [restaurando um servidor back-end do Enterprise Edition no Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md). Se apenas o espelho falhar, consulte [restaurando um servidor back-end do espelhado Enterprise Edition no Lync server 2013-Mirror](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md). Se o banco de dados que hospeda o repositório de gerenciamento central falhar, consulte [restaurando o servidor que hospeda o repositório de gerenciamento central no Lync server 2013](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). Se um servidor membro da edição Enterprise que não for o servidor back-end falhar, consulte [restaurando um servidor membro da Enterprise Edition no Lync server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
 
-3.  Force todos os bancos de dados configurados a realizarem failover para o espelho. Para cada um dos tipos de bancos de dados que você tiver configurado neste servidor, digite o cmdlet a seguir:
+Recomendamos que você tire uma cópia da imagem do sistema antes de iniciar a restauração. Você pode usar essa imagem como um ponto de recuperação, caso algo dê errado durante a restauração. Talvez você queira fazer a cópia da imagem depois de instalar o sistema operacional e o SQL Server, e restaurar ou registrar novamente os certificados.
+
+Neste tópico, o banco de dados primário de exemplo terá um FQDN (nome de domínio totalmente qualificado) de BE1.contoso.com e o banco de dados espelho terá um FQDN de BE2.contoso.com.
+
+<div>
+
+## <a name="to-restore-an-enterprise-edition-back-end-server-primary-database"></a>Para restaurar um banco de dados primário do servidor back-end do Enterprise Edition
+
+1.  Em uma conta de usuário que seja um membro do grupo RTCUniversalServerAdmins, faça logon em um servidor front-end.
+
+2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+
+3.  Force o failover de todos os bancos de dados configurados para o espelho. Para cada um dos tipos de banco de dados que você configurou neste servidor, digite o seguinte cmdlet:
     
         Invoke-CsDataBaseFailover -PoolFqdn <Pool FQDN> -DatabaseType <Configured Database Type> -NewPrincipal Mirror -Force -Verbose
     
@@ -35,30 +57,33 @@ Neste tópico, o banco de dados primário usado como exemplo terá um nome de do
     
         Invoke-CsDataBaseFailover -PoolFqdn pool0.vdomain.com -DatabaseType User -NewPrincipal Mirror -Force -Verbose
     
+    <div>
+    
 
-    > [!WARNING]  
-    > Caso tenha configurado o banco de dados back-end para usar espelhamento sincronizado com uma testemunha, o failover será automático.
+    > [!WARNING]
+    > Se você tiver configurado seu banco de dados back-end para usar o espelhamento sincronizado com uma testemunha, o failover será automático.
 
+    
+    </div>
 
-
-4.  Após completar o failover, faça o seguinte:
+4.  Após concluir o failover, execute o seguinte procedimento:
     
-      - Inicie o Construtor de Topologias: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Construtor de Topologias do Lync Server**.
+      - Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.
     
-      - Desabilite o espelhamento no Servidor de Back End: clique com o botão direito no pool sob **pools de Front-End Enterprise Edition** e selecione **Editar Propriedades**. Na guia **Geral**, sob **Associações**, limpe a caixa de marcar **Habilitar espelhamento do SQL Server store**. Faça isso para Arquivamento e Monitoramento conforme necessário. Em seguida, clique em **OK**.
+      - Desabilitar o espelhamento no servidor back-end: clique com o botão direito do mouse no pool em pools de **front-end do Enterprise Edition** e selecione **Editar propriedades**. Na guia **geral** , em **associações**, desmarque a caixa de seleção Habilitar o espelhamento da **loja do SQL Server** . Faça isso para arquivamento e monitoramento conforme necessário. Em seguida, clique em **OK**.
     
-      - Clique com o botão direito sobre o nó do Lync Server 2013, clique em **Topologia** e então em **Publicar**.
+      - Clique com o botão direito do mouse no nó do Lync Server 2013, clique em **topologia**e, em seguida, clique em **publicar**.
     
-      - Selecione o backend ainda operante (BE2.contoso.com) como o novo SQL store. Para fazer isso, clique com o botão direito no pool sob **pools de Front End Enterprise Edition** e selecione **Editar Propriedades**. Na guia **Geral**, sob **Associações**, digite o FQDN do backend operante no campo **SQL Server store** (no exemplo dado a você, BE2.contoso.com).
+      - Selecione o back-end que ainda funciona (BE2.contoso.com) para ser o novo repositório do SQL. Para fazer isso, clique com o botão direito do mouse no pool em pools de **front-end do Enterprise Edition** e selecione **Editar propriedades**. Na guia **geral** , em **associações**, digite o FQDN do back-end que funciona no campo da **loja do SQL Server** (em nosso exemplo, BE2.contoso.com).
     
-      - Clique com o botão direito sobre o nó do Lync Server 2013, clique em **Topologia** e então em **Publicar**.
+      - Clique com o botão direito do mouse no nó do Lync Server 2013, clique em **topologia**e, em seguida, clique em **publicar**.
     
-      - Reinicie os serviços de modo que cada servidor possa ler a nova topologia. A partir de um Shell de Gerenciamento do Lync Server, execute os cmdlets a seguir em cada Servidor de Front End que pertença a esse pool:
+      - Reinicie os serviços para que cada servidor possa ler a nova topologia. Em um shell de gerenciamento do Lync Server, execute os seguintes cmdlets em cada servidor front-end que pertence a este pool:
         
             Stop-CsWindowsService
             Start-CsWindowsService
 
-5.  Desinstale o espelhamento. A partir de um Shell de Gerenciamento do Lync Server, execute o cmdlet a seguir:
+5.  Desinstale o espelhamento. Em um shell de gerenciamento do Lync Server, execute o seguinte cmdlet:
     
         Uninstall-CsMirrorDatabase -DatabaseType User -SqlServerFqdn <MirrorServerFqdn> -SqlInstanceName <SQLInstance> -verbose
     
@@ -66,27 +91,39 @@ Neste tópico, o banco de dados primário usado como exemplo terá um nome de do
     
         Uninstall-CsMirrorDatabase -DatabaseType User -SqlServerFqdn DB2.contoso.com -SqlInstanceName rtc -verbose
     
-    Faça isso para todos os tipos de bancos de dados em seu sistema.
+    Faça isso para todos os tipos de banco de dados neste servidor.
 
-6.  Crie um servidor novo ou limpo que tenha o mesmo FQDN (neste exemplo, DB1.contoso.com) como o computador com falha, instale o sistema operacional e então restaure ou atribua os certificados. Esse servidor funcionará como o novo espelho.
+6.  Crie um servidor limpo ou novo que tenha o mesmo FQDN (neste exemplo, DB1.contoso.com) como o computador com falha, instale o sistema operacional e, em seguida, restaure ou registre novamente os certificados. Este servidor funcionará como o novo espelho.
 
-7.  A partir de uma conta de usuário membro do grupo RTCUniversalServerAdmins, faça logon no novo servidor.
+7.  Em uma conta de usuário que seja um membro do grupo RTCUniversalServerAdmins, faça logon no novo servidor.
 
-8.  Instale o servidor SQL 2012 ou servidor SQL 2008 R2, mantendo os nomes das instâncias idênticos àqueles prévios à falha.
+8.  Instale o SQL Server 2012 ou o SQL Server 2008 R2, mantendo os nomes das instâncias iguais aos anteriores à falha.
 
-9.  A partir de uma conta de usuário membro do grupo RTCUniversalServerAdmins, faça logon em um Servidor Front End.
+9.  Em uma conta de usuário que seja um membro do grupo RTCUniversalServerAdmins, faça logon em um servidor front-end.
 
-10. Use o Construtor de Topologia para instalar o banco de dados do espelho. Realize as etapas a seguir:
+10. Use o construtor de topologias para instalar o Mirror DB. Execute as seguintes etapas:
     
-      - Inicie o Construtor de Topologias: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Construtor de Topologias do Lync Server**.
+      - Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.
     
-      - Habilite o espelhamento no Servidor de Back End. Para isso, clique com o botão direito no pool sob **pools de Front-End Enterprise Edition** e selecione **Editar Propriedades**. Na guia **Geral**, sob **Associações**, selecione a caixa de marcar **Habilitar espelhamento do SQL Server store**. Faça isso também para Arquivamento e Monitoramento, se necessário.
+      - Habilite o espelhamento no servidor back-end. Para fazer isso, clique com o botão direito do mouse no pool em pools de **front-end do Enterprise Edition** e selecione **Editar propriedades**. Na guia **geral** , em **associações**, marque a caixa de seleção Habilitar o espelhamento da **loja do SQL Server** . Além disso, faça isso para arquivamento e monitoramento, se necessário.
         
-        Então, no campo **Espelhando o SQL Server store**, digite o FQDN do novo servidor (neste exemplo, BE1.contoso.com). Em seguida, clique em **OK**.
+        Em seguida, no campo espelhar o **repositório do SQL Server** , digite o FQDN do novo servidor (n este exemplo, BE1.contoso.com). Em seguida, clique em **OK**.
     
-      - Clique com o botão direito no nó do Lync Server 2013, clique em **Topologia** e então em **Instalar Banco de Dados**.
+      - Clique com o botão direito do mouse no nó do Lync Server 2013, clique em **topologia**e clique em **instalar banco de dados**.
     
-      - Siga o procedimento do assistente para **Instalar Banco de Dados**. Na página **Criar bancos de dados**, selecione os bancos de dados que você deseja recriar.
+      - Siga o assistente de **instalação de banco de dados** . Na página **criar bancos de dados** , selecione os bancos de dados que você deseja recriar.
     
-      - Siga o assistente até que você chegue ao prompt **Criar Banco de Dados de Espelho**. Selecione o banco de dados que você deseja instalar e complete o processo.
+      - Siga o assistente até chegar ao prompt, **criar banco de dados espelho**. Selecione o banco de dados que você deseja instalar e conclua esse processo.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

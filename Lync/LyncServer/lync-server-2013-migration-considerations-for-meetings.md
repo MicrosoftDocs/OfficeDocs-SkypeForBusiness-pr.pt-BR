@@ -1,41 +1,63 @@
-﻿---
-title: Considerações sobre migração para reuniões
-TOCTitle: Considerações sobre migração para reuniões
-ms:assetid: a9807d58-99a3-4cff-b4c6-74950d106a2b
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412800(v=OCS.15)
-ms:contentKeyID: 61160126
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: considerações de migração para reuniões'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Migration considerations for meetings
+ms:assetid: a9807d58-99a3-4cff-b4c6-74950d106a2b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412800(v=OCS.15)
+ms:contentKeyID: 61097556
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 67816dd8f2b9d8be3862994c735040c703bd2231
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827127"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Considerações sobre migração para reuniões
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-02-10_
+# <a name="migration-considerations-for-meetings-in-lync-server-2013"></a>Considerações de migração para reuniões no Lync Server 2013
 
-Os seguintes tópicos são discutidos nesta seção:
+</div>
 
-  - Alterações em reuniões no Microsoft Lync Server 2013
+<div id="mainSection">
 
-  - Migrando usuários com base em suas necessidades de conferência
+<div id="mainBody">
 
-  - Migrando reuniões existentes e conteúdo de reunião
+<span> </span>
+
+_**Tópico da última modificação:** 2014-02-10_
+
+Os tópicos a seguir são discutidos nesta seção:
+
+  - Alterações nas reuniões no Microsoft Lync Server 2013
+
+  - Migrando usuários com base nas necessidades de conferência
+
+  - Migrando reuniões e conteúdo de reunião existentes
 
   - Experiência do usuário durante a migração do Lync Server 2010
 
   - Experiência do usuário durante a migração do Office Communications Server 2007 R2
 
-  - Compatibilidade do Microsoft Lync 2013 com reuniões em versões anteriores de servidor
+  - Compatibilidade do Microsoft Lync 2013 com reuniões em versões anteriores do servidor
 
-## Alterações em reuniões no Lync Server 2013
+<div>
 
-Recursos do **Lync Server 2013. O**   Lync Server 2013 fornece novos recursos de conferência que ficam disponíveis para os usuários depois que suas contas são movidas para o Lync Server 2013 e eles entram com o cliente do Lync 2013. Os novos recursos são destacados em [Novos recursos de conferência no Lync Server 2013](lync-server-2013-new-conferencing-features.md) e [Novidades para clientes no Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).
+## <a name="changes-to-meetings-in-lync-server-2013"></a>Alterações nas reuniões no Lync Server 2013
 
-**URL da reunião.**   Assim como no Lync Server 2010, todas as reuniões recém-agendadas no Lync Server 2013 têm um prefixo de URL de https:// e as reuniões existentes são migradas junto com as contas de usuário. No entanto, o Lync Server 2013 não oferece suporte à chamada de conferência do Office Communications Server 2007 R2 (prefixo de URL conf://) ou conferência na Web (prefixo de URL meet://). Consulte “Migrando reuniões do Office Communications Server 2007 R2” posteriormente neste tópico para obter mais informações.
+**Recursos do Lync Server 2013.**    O Lync Server 2013 oferece novos recursos de conferência que se tornam disponíveis para os usuários após suas contas serem movidos para o Lync Server 2013 e que entram com o cliente Lync 2013. Novos recursos estão descritos nos [novos recursos de conferência do Lync server 2013](lync-server-2013-new-conferencing-features.md) e novidades [para clientes no Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).
 
-**Suporte ao cliente.**   Diferentemente do Lync Server 2010, o Lync Server 2013 não oferece suporte aos clientes do Office Communicator para conferência. Não é possível usar os seguintes clientes para ingressar em reuniões agendadas por meio do Suplemento de Reunião Online para Lync 2013:
+**URL da reunião.**    Como no lync Server 2010, todas as reuniões agendadas recentemente no Lync Server 2013 têm um prefixo de URL de https://e as reuniões existentes são migradas juntamente com as contas de usuário. No entanto, o Lync Server 2013 não é compatível com a chamada em conferência do Office Communications Server 2007 R2 (prefixo da URL conf://) ou conferência via Web (prefixo da URL meet://). Consulte "migrando reuniões do Office Communications Server 2007 R2" mais adiante neste tópico para obter mais informações.
+
+**Suporte ao cliente.**    Ao contrário do lync Server 2010, o Lync Server 2013 não é compatível com clientes do Office Communicator para conferência. Você não pode usar os seguintes clientes para ingressar em reuniões agendadas por meio do suplemento de reunião online do Lync 2013:
 
   - Office Communicator 2007 R2
 
@@ -45,72 +67,128 @@ Recursos do **Lync Server 2013. O**   Lync Server 2013 fornece novos recursos
 
   - Office Live Meeting 2007
 
-Durante a migração, os usuários do Office Communicator 2007 R2 deverão usar o Lync Web App 2013 para ingressar em reuniões do Lync Server 2013 até seus clientes serem atualizados. Observe que os usuários do Office Communicator 2007 R2 podem continuar usando o cliente existente em relação ao Lync Server 2013 para recursos de presença e mensagens instantâneas, mas não há suporte aos recursos de conferência.
+Durante a migração, os usuários do Office Communicator 2007 R2 devem usar o Lync Web App 2013 para ingressar em reuniões do Lync Server 2013 até que seus clientes sejam atualizados. Observe que os usuários do Office Communicator 2007 R2 podem continuar a usar o cliente existente no Lync Server 2013 para recursos de presença e IM, mas os recursos de conferência não são compatíveis.
+
+<div>
 
 
-## Migrando usuários com base em suas necessidades de conferência
+</div>
 
-**Organizadores de reuniões frequentes.**   Considere migrar os organizadores de reuniões frequentes no início do processo para que eles possam tirar proveito dos novos recursos do Lync Server 2013 e do Lync 2013 destacados em [Novos recursos de conferência no Lync Server 2013](lync-server-2013-new-conferencing-features.md) e em [Novidades para clientes no Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).
+</div>
 
-**Usuários do Live Meeting.**   Se você estiver migrando do Office Communications Server 2007 R2 e houver usuários que precisarem de recursos de conferência na Web específicos do Live Meeting — em particular o suporte para reuniões grandes e salões — haverá as seguintes opções:
+<div>
 
-  - Oriente os organizadores a usarem o serviço Live Meeting, se disponível na sua organização.
+## <a name="migrating-users-based-on-their-conferencing-needs"></a>Migrando usuários com base nas necessidades de conferência
 
-  - Deixe os organizadores hospedados na versão anterior do Office Communications Server, para que eles possam continuar agendando conferências na Web do Live Meeting baseadas em servidor.
+**Organizadores de reuniões frequentes.**    Considere migrar os organizadores de reunião frequentes no início do processo para que possam aproveitar os novos recursos do lync Server 2013 e do Lync 2013 descritos nos [novos recursos de conferência do Lync Server 2013](lync-server-2013-new-conferencing-features.md) e novidades [para clientes no Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).
 
-## Migrando reuniões existentes e conteúdo de reunião
+**Usuários do Live Meeting.**    Se você estiver migrando do Office Communications Server 2007 R2 e tiver usuários que precisem de recursos de Webconferência específicos do Live Meeting, particularmente o suporte para reuniões grandes e salas de desativação, você terá as seguintes opções:
 
-## Migrando reuniões do Lync Server 2010
+  - Organizadores de recomendação para usar o serviço Live Meeting, se disponível em sua organização.
 
-Quando você move um usuário do Lync Server 2010 para o Lync Server 2013, as seguintes informações são movidas com a conta de usuário:
+  - Deixe os organizadores em casa na versão anterior do Office Communications Server, para que eles possam continuar a agendar conferências da Web de reunião ao vivo baseadas em servidor.
 
-  - Reuniões já agendadas pelo usuário. Incluem diretórios e dados de conferência.
+</div>
 
-  - O PIN (número de identificação pessoal) do usuário. O PIN atual do usuário continuará funcionando até expirar ou até o usuário selecionar um novo PIN.
+<div>
 
-No entanto, as seguintes informações de conta do usuário não são movidas para o novo servidor:
+## <a name="migrating-existing-meetings-and-meeting-content"></a>Migrando reuniões e conteúdo de reunião existentes
 
-  - Conteúdo de reunião, por exemplo, apresentações do PowerPoint, conteúdo de quadro branco e dados de sondagem
+<div>
 
-Para mover o conteúdo que foi compartilhado nas reuniões, use o parâmetro MoveMeetingContent do cmdlet Move-CsUser. Para obter detalhes sobre como usar esse cmdlet, consulte [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser) na documentação de cmdlets do Lync Server 2013.
+## <a name="migrating-meetings-from-lync-server-2010"></a>Migrando reuniões do Lync Server 2010
 
-## Migrando reuniões do Office Communications Server 2007 R2
+Quando você move um usuário do Lync Server 2010 para o Lync Server 2013, as seguintes informações se movem com a conta do usuário:
 
-As reuniões do Office Communications Server 2007 R2 são chamadas de conferência (prefixo de URL conf://) ou conferências da Web (prefixo de URL meet://). O Lync Server 2013 não oferece suporte a essas conferências conf:// e meet:// anteriores e elas não foram migradas junto com a conta de usuário. Após a migração, você deve instruir os usuários a atualizarem os links de qualquer reunião online que tenham agendado. Eles poderão fazer isso depois de instalar o cliente do Lync 2013 abrindo um convite de reunião programada — que atualiza a URL de reunião — e o reenvio do convite aos participantes.
+  - Reuniões já programadas pelo usuário. Isso inclui diretórios de conferência e dados de conferência.
 
-## Experiência do usuário durante a migração do Lync Server 2010
+  - O PIN (número de identificação pessoal) do usuário. O PIN atual do usuário continua a funcionar até que ele expire ou que o usuário solicitou um novo PIN.
 
-Esta seção apresenta um resumo da experiência de conferência dos usuários durante a migração do Lync 2010. Para obter mais detalhes sobre como os clientes do Lync Server 2013 podem coexistir e interagir com as versões anteriores de cliente e servidor, consulte [Interoperabilidade do Cliente no Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md).
+No entanto, as seguintes informações da conta de usuário não se movem para o novo servidor:
 
-## Ingressando em reuniões do Lync Server 2010 com um cliente do Lync 2013
+  - Conteúdo da reunião, por exemplo, apresentações do PowerPoint, conteúdo do quadro de comunicações e dados de votação
 
-Durante a migração do Lync Server 2010, pode haver um período de coexistência quando os usuários ingressam em reuniões do Lync Server 2010 com um cliente do Lync 2013. Esses usuários têm acesso aos recursos de cliente do Lync 2013 com as seguintes exceções:
+Para mover o conteúdo que foi compartilhado em reuniões, use o parâmetro MoveMeetingContent do cmdlet Move-CsUser. Para obter detalhes sobre como usar esse cmdlet, consulte [move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) na documentação de cmdlets do Lync Server 2013.
 
-  - Nas opções de gerenciamento de **Participantes**, que podem ser acessadas apontando-se para o ícone de pessoas na janela de reunião, a opção **Sem Mensagens Instantâneas na Reunião** não funciona.
+</div>
 
-  - O Modo de Exibição da Galeria não funciona em videoconferências. O usuário visualiza apenas o orador ativo, em vez de todos os oradores. Na lista de opções **Selecionar um Layout**, o **Modo de Exibição de Galeria** está indisponível
+<div>
 
-  - Por padrão, a lista de participantes é exibida nas videoconferências.
+## <a name="migrating-meetings-from-office-communications-server-2007-r2"></a>Migrando reuniões do Office Communications Server 2007 R2
 
-  - As opções de gerenciamento de participantes **Bloquear Destaque de Vídeo** e **Fixar na Galeria** não estão disponíveis quando você clica com o botão direito do mouse na lista de participantes.
+As reuniões do Office Communications Server 2007 R2 são chamadas em conferência (prefixo de URL conf://) ou conferências via Web (prefixo de URL meet://). O Lync Server 2013 não é compatível com essas conferências anteriores do conf://e do meet://, e elas não são migradas juntamente com a conta do usuário. Após a migração, você deve instruir os usuários a atualizar os links para todas as reuniões online agendadas. Isso pode fazer isso após a instalação do cliente do Lync 2013 abrindo um convite de reunião agendada, que atualiza a URL da reunião, e reenvia o convite aos participantes.
 
-## Experiência do usuário durante a migração do Office Communications Server 2007 R2
+</div>
 
-Esta seção apresenta um resumo da experiência de conferência dos usuários durante a migração do Office Communications Server 2007 R2, antes e depois da instalação do Lync 2013. Para obter mais detalhes sobre como os clientes do Lync Server 2013 podem coexistir e interagir com as versões anteriores de cliente e servidor, consulte [Interoperabilidade do Cliente no Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md).
+</div>
 
-## Após a migração de conta de usuário, antes da instalação do Lync 2013
+<div>
 
-Depois que um usuário é migrado para o servidor do Lync Server 2013, mas antes da instalação de novos clientes, os usuários do Office Communicator 2007 R2 podem continuar utilizando seu cliente existente no Lync Server 2013 para recursos de presença e mensagens instantâneas, mas não há suporte para os recursos de conferência.
+## <a name="user-experience-during-lync-server-2010-migration"></a>Experiência do usuário durante a migração do Lync Server 2010
 
-## Após a migração da conta de usuário, após a instalação do Lync 2013
+Esta seção fornece um resumo da experiência de Conferência dos usuários durante a migração do Lync 2010. Para obter mais detalhes sobre como os clientes do Lync Server 2013 podem coexistir e interagir com versões anteriores do cliente e do servidor, consulte interoperabilidade [do cliente no Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md).
 
-Quando um usuário migrado instala o Lync 2013, o Suplemento de Reunião Online do Lync 2013 é instalado também. Isso tem os seguintes efeitos:
+<div>
 
-  - Todas as reuniões agendadas seguintes usam o novo formato de reunião, que utiliza um endereço https://, em vez do endereço legado do Live Meeting meet://.
+## <a name="joining-lync-server-2010-meetings-with-a-lync-2013-client"></a>Ingressando em reuniões do Lync Server 2010 com um cliente do Lync 2013
 
-  - Em uma implantação gerenciada de TI do Lync 2013, o administrador tem a opção de desinstalar o Suplemento de Conferência do Microsoft Office Outlook, que é usado para agendar reuniões de servidor do Live Meeting e baseadas em serviço. No entanto, talvez haja usuários que precisem continuar agendando reuniões de serviço do Live Meeting. Nesse caso, é possível permitir a coexistência de ambos os suplementos.
+Durante a migração do Lync Server 2010, pode haver um período de coexistência quando os usuários ingressam em reuniões do Lync Server 2010 com um cliente Lync 2013. Esses usuários têm acesso aos recursos do cliente do Lync 2013 com as seguintes exceções:
 
-## Reuniões com organizações federadas que usam clientes anteriores
+  - Nas opções de gerenciamento de **participantes** , que podem ser acessadas apontando para o ícone pessoas na janela da reunião, a opção **nenhuma mensagem instantânea de reunião** não funciona.
 
-Os usuários em organizações federadas que estiverem usando o Microsoft Office Communicator 2007 não poderão ingressar em reuniões do Lync Server 2013 na sua organização se essas reuniões estiverem bloqueadas pelo organizador. Você precisa reagendar essas reuniões no Lync Server 2013 de modo que quando os participantes federados ingressarem na reunião usando a nova URL de reunião https://, eles possam usar o Lync Web App.
+  - O modo de exibição de galeria não funciona em videoconferências. O usuário vê apenas o alto-falante ativo em vez de todos os alto-falantes. Na lista de opções **escolher um layout** , o **modo de exibição Galeria** não está disponível
+
+  - A lista de participantes é exibida por padrão em videoconferências.
+
+  - Ao clicar com o botão direito do mouse em um usuário na lista de participantes, o botão **bloquear as opções de gerenciamento de participantes do vídeo** e **fixar em Galeria** não estará disponível.
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="user-experience-during-office-communications-server-2007-r2-migration"></a>Experiência do usuário durante a migração do Office Communications Server 2007 R2
+
+Esta seção fornece um resumo da experiência de Conferência dos usuários ao migrar do Office Communications Server 2007 R2, antes e depois que o Lync 2013 está instalado. Para obter mais detalhes sobre como os clientes do Lync Server 2013 podem coexistir e interagir com versões anteriores do cliente e do servidor, consulte interoperabilidade [do cliente no Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md).
+
+<div>
+
+## <a name="after-user-account-is-migrated-before-lync-2013-is-installed"></a>Após a migração da conta de usuário, antes que o Lync 2013 seja instalado
+
+Após a migração de um usuário para o servidor do Lync Server 2013, mas antes de novos clientes serem instalados, os usuários do Office Communicator 2007 R2 podem continuar a usar o cliente existente no Lync Server 2013 para recursos de presença e IM, mas os recursos de conferência não são suporte.
+
+</div>
+
+<div>
+
+## <a name="after-user-account-is-migrated-after-lync-2013-is-installed"></a>Após a migração da conta de usuário, após a instalação do Lync 2013
+
+Quando um usuário migrado instalar o Lync 2013, o suplemento de reunião online do Lync 2013 também será instalado. Isso tem os seguintes efeitos:
+
+  - Todas as reuniões agendadas subsequentemente usam o novo formato de reunião, que usa um endereço https://em vez do endereço herdado do Live Meeting do meet://.
+
+  - Em uma implantação gerenciada por ti do Lync 2013, o administrador tem a opção de desinstalar o suplemento de conferência do Microsoft Office Outlook, que é usado para agendar reuniões com base em serviço e servidor de reunião ao vivo. No entanto, você pode ter usuários que precisam continuar a agendar reuniões do serviço Live Meeting. Nesse caso, você pode permitir que ambos os suplementos coexistam.
+
+</div>
+
+<div>
+
+## <a name="meetings-with-federated-organizations-that-use-previous-clients"></a>Reuniões com organizações federadas que usam clientes anteriores
+
+Os usuários de organizações federadas que estiverem usando o Microsoft Office Communicator 2007 não poderão ingressar em reuniões do Lync Server 2013 em sua organização se essas reuniões estiverem bloqueadas pelo organizador. Você precisa reagendar essas reuniões no Lync Server 2013 para que os participantes federados ingressem na reunião usando a nova URL de reunião do https://, eles podem usar o Lync Web App.
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

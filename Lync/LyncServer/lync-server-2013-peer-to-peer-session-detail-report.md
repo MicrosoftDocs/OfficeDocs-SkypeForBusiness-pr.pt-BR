@@ -1,41 +1,67 @@
-﻿---
-title: 'Lync Server 2013: Relatório de Detalhes de Sessão Ponto a Ponto'
-TOCTitle: Relatório de Detalhes de Sessão Ponto a Ponto
-ms:assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558659(v=OCS.15)
-ms:contentKeyID: 49307014
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: relatório detalhado de sessão ponto a ponto'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Peer-to-Peer Session Detail Report
+ms:assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558659(v=OCS.15)
+ms:contentKeyID: 48184416
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ec73febb248a8b61979c0aad2df6977c9feccb91
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825398"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Relatório de Detalhes de Sessão Ponto a Ponto no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="peer-to-peer-session-detail-report-in-lync-server-2013"></a>Relatório detalhado de sessão ponto a ponto no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-06-06_
 
 O Relatório Detalhado de Sessão Ponto a Ponto retorna informações detalhadas sobre uma sessão ponto a ponto. Por exemplo, se você selecionar uma sessão de mensagens instantâneas, o relatório informará o número de mensagens enviadas por cada um dos dois usuários na seção.
 
-## Acessando o Relatório Detalhado de Sessão Ponto a Ponto
+<div>
+
+## <a name="accessing-the-peer-to-peer-session-detail-report"></a>Acessando o Relatório Detalhado de Sessão Ponto a Ponto
 
 O Relatório Detalhado de Sessão Ponto a Ponto pode ser acessado a partir de qualquer um dos relatórios a seguir (todos os quais podem ser acessados a partir da home page Relatórios de Monitoramento):
 
-  - Relatório de inventário de telefones IP
+  - Relatório de Inventário de Telefones IP
 
-  - Relatório de atividades do usuário
+  - Relatório de Atividades do Usuário
 
-  - Relatório de controle de admissão de chamadas
+  - Relatório de Controle de Admissão de Chamadas
 
   - Relatório de lista de falhas
 
-A partir do Relatório Detalhado de Sessão Ponto a Ponto, você pode acessar o [Relatório de diagnósticos no Lync Server 2013](lync-server-2013-diagnostic-report.md) clicando na métrica Relatório de Diagnóstico (Detalhes). Você também pode acessar o Relatório das Principais Falhas clicando em uma destas duas métricas:
+No relatório de detalhes da sessão ponto a ponto, você pode acessar o [relatório de diagnóstico no Lync Server 2013](lync-server-2013-diagnostic-report.md) clicando na métrica relatório de diagnóstico (detalhes). Você também pode acessar o Relatório das Principais Falhas clicando em uma destas duas métricas:
 
   - Resposta
 
   - ID do Diagnóstico
 
-## Usando o Relatório Detalhado de Sessão Ponto a Ponto da melhor maneira possível
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-peer-to-peer-session-detail-report"></a>Usando o Relatório Detalhado de Sessão Ponto a Ponto da melhor maneira possível
 
 O Relatório Detalhado de Sessão Ponto a Ponto inclui um grande número de métricas, muitas das quais os administradores de sistemas podem desconhecer. Muitas vezes, porém, você pode exibir uma dica de ferramenta que oferece uma breve descrição da métrica. Para isso, basta manter o cursor do mouse sobre o rótulo da métrica.
 
@@ -43,15 +69,23 @@ Observe que as métricas mostradas em determinado relatório dependerão do tipo
 
 Você também pode manter o cursor do mouse sobre as métricas Código de resposta e ID de diagnóstico para obter uma descrição desses valores:
 
-## Filtros
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtros
 
 Nenhum. Não é possível filtrar o relatório de Detalhes de Sessão Ponto a Ponto.
 
-## Métricas de informações da sessão
+</div>
+
+<div>
+
+## <a name="session-information-metrics"></a>Métricas de informações da sessão
 
 A tabela a seguir lista as informações fornecidas no relatório de Detalhes de Sessão Ponto a Ponto para cada sessão.
 
-### Métricas de informações da sessão
+### <a name="session-information-metrics"></a>Métricas de informações da sessão
 
 <table>
 <colgroup>
@@ -78,19 +112,19 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 <td><p>Data e hora de recebimento da aceitação do convite.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Usuário &quot;De&quot;</strong></p></td>
+<td><p><strong>Usuário "De"</strong></p></td>
 <td><p>Endereço SIP do usuário que iniciou a sessão.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Representante do usuário de origem</strong></p></td>
+<td><p><strong>Agente do usuário "De"</strong></p></td>
 <td><p>Software usado pelo ponto de extremidade do usuário que iniciou a sessão.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>É Usuário interno de origem</strong></p></td>
+<td><p><strong>É usuário "De" interno</strong></p></td>
 <td><p>Indica se o usuário que iniciou a sessão estava conectado à rede interna.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>É Usuário de origem integrado ao telefone de mesa</strong></p></td>
+<td><p><strong>É usuário "De" integrado com telefone de mesa</strong></p></td>
 <td><p>Indica se o ponto de extremidade usado pelo usuário que iniciou a sessão está integrado ao seu telefone de mesa.</p></td>
 </tr>
 <tr class="even">
@@ -102,7 +136,7 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 <td><p>Código da resposta SIP enviado quando a sessão falhou.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Front-End</strong> .</p></td>
+<td><p><strong>Front-End</strong></p></td>
 <td><p>Nome do Servidor Front-End usado na conferência.</p></td>
 </tr>
 <tr class="odd">
@@ -114,19 +148,19 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 <td><p>Data e hora em que a sessão foi encerrada.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Usuário &quot;Para&quot;</strong></p></td>
+<td><p><strong>Usuário "Para"</strong></p></td>
 <td><p>Endereço SIP do usuário convidado para a sessão.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Para o agente do usuário</strong></p></td>
+<td><p><strong>Agente do usuário "Para"</strong></p></td>
 <td><p>Software usado pelo ponto de extremidade do usuário que foi convidado para a sessão.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>É Usuário interno de destino</strong></p></td>
+<td><p><strong>É usuário "Para" interno</strong></p></td>
 <td><p>Indica se o usuário que foi convidado para a sessão estava conectado à rede interna.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>É Usuário de destino integrado ao telefone de mesa</strong></p></td>
+<td><p><strong>É usuário "Para" integrado com telefone de mesa</strong></p></td>
 <td><p>Indica se o ponto de extremidade usado pelo usuário que foi convidado para a sessão está integrado ao seu telefone de mesa.</p></td>
 </tr>
 <tr class="odd">
@@ -141,11 +175,15 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 </table>
 
 
-## Métricas para modalidades
+</div>
+
+<div>
+
+## <a name="metrics-for-modalities"></a>Métricas para modalidades
 
 A tabela a seguir lista as informações fornecidas no relatório de Detalhes de Sessão Ponto a Ponto para cada sessão de modalidade.
 
-### Métricas para modalidades
+### <a name="metrics-for-modalities"></a>Métricas para modalidades
 
 <table>
 <colgroup>
@@ -167,12 +205,12 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 <td><p>Modalidades usadas na sessão. Por exemplo, mensagens instantâneas ou transferência de arquivo.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Mensagens do usuário de origem</strong></p></td>
+<td><p><strong>Mensagens do usuário "De"</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Número de mensagens enviadas pelo usuário que iniciou a sessão.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Mensagens do usuário de destino</strong></p></td>
+<td><p><strong>Mensagens do usuário "Para"</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Número de mensagens enviadas pelo usuário que foi convidado para a sessão.</p></td>
 </tr>
@@ -180,11 +218,15 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 </table>
 
 
-## Métricas para relatórios de diagnóstico
+</div>
+
+<div>
+
+## <a name="metrics-for-diagnostic-reports"></a>Métricas para relatórios de diagnóstico
 
 A tabela a seguir lista as informações fornecidas no relatório de Detalhes de Sessão Ponto a Ponto para cada relatório de diagnóstico.
 
-### Métricas para relatórios de diagnóstico
+### <a name="metrics-for-diagnostic-reports"></a>Métricas para Relatórios de Diagnóstico
 
 <table>
 <colgroup>
@@ -218,7 +260,7 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 <tr class="even">
 <td><p><strong>ID do Diagnóstico</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Identificador exclusivo (na forma de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que frequentemente fornece informações úteis para solução de erros.</p></td>
+<td><p>Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Tipo de conteúdo</strong></p></td>
@@ -232,4 +274,17 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

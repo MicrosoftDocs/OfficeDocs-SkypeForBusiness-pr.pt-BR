@@ -1,31 +1,51 @@
-﻿---
-title: Modificar as Configurações do Tronco SIP no Lync Server 2013
-TOCTitle: Modificar as Configurações do Tronco SIP no Lync Server 2013
-ms:assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688104(v=OCS.15)
-ms:contentKeyID: 49886277
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: modificar as configurações de configuração de tronco SIP'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Modify SIP trunk configuration settings
+ms:assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688104(v=OCS.15)
+ms:contentKeyID: 49733703
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3b70b005fc0a276ea7585d2953a3419c713fe478
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826910"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Modificar as Configurações do Tronco SIP no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="modify-sip-trunk-configuration-settings-in-lync-server-2013"></a>Modificar as configurações de tronco SIP no Lync Server 2013
 
-As configurações do tronco SIP definem a relação e e as capacidades entre um Servidor de Mediação e o gateway da PSTN (rede telefônica pública comutada), um IP-PBX ou SBC (Controlador de Borda de Sessão) no provedor de serviços. Essas configurações fazem como especificado:
+</div>
 
-  - O bypass de mídia deve ser habilitado nos troncos.
+<div id="mainSection">
 
-  - As condições sob as quais os pacotes de RTCP são enviadas.
+<div id="mainBody">
 
-  - Se a encriptação do protocolo a tempo real (SRTP) é ou não segura é exigida em cada tronco.
+<span> </span>
 
-Ao instalar Microsoft Lync Server 2013, uma coleção global de configurações do tronco SIP é criada. Além disso, os administradores podem criar coleções de configurações personalizadas no escopo do local ou no escopo do serviço (somente para o serviço de gateway PSTN). Quaisquer dessas coleções podem ser modificadas posteriormente usando Painel de Controle do Lync Server ou Windows PowerShell.
+_**Tópico da última modificação:** 2013-02-22_
 
-Ao modificar a configuração do tronco SIP usando Painel de Controle do Lync Server, as opções a seguir estão disponíveis:
+As configurações de tronco SIP definem a relação e os recursos entre um servidor de mediação e o gateway PSTN (rede telefônica pública comutada), um PBX (PBX IP-Public Branch Exchange) ou um SBC (controlador de borda de sessão) no provedor de serviços. Essas configurações realizam atividades como especificar:
+
+  - Se o desvio de mídia deve ser ativado nos troncos.
+
+  - As condições em que os pacotes de protocolo de controle de transporte em tempo real (RTCP) são enviados.
+
+  - Se a criptografia SRTP (Secure Real-Time Protocol) é necessária ou não em cada tronco.
+
+Ao instalar o Microsoft Lync Server 2013, uma coleção global de configurações de tronco SIP é criada para você. Além disso, os administradores podem criar coleções de configurações personalizadas no escopo do site ou no escopo do serviço (somente para o serviço de gateway PSTN). Qualquer uma dessas coleções pode ser modificada posteriormente usando o painel de controle do Lync Server ou o Windows PowerShell.
+
+Ao modificar as configurações de tronco SIP usando o painel de controle do Lync Server, as seguintes opções estão disponíveis para você:
 
 
 <table>
@@ -36,8 +56,8 @@ Ao modificar a configuração do tronco SIP usando Painel de Controle do Lync Se
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuração da IU</th>
-<th>Parâmetro PowerShell</th>
+<th>Configuração de UI</th>
+<th>Parâmetro do PowerShell</th>
 <th>Descrição</th>
 </tr>
 </thead>
@@ -60,21 +80,26 @@ Ao modificar a configuração do tronco SIP usando Painel de Controle do Lync Se
 <tr class="even">
 <td><p>Nível de suporte de criptografia</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>Indica o nível de suporte para proteção do tráfego de mídia entre o Servidor de Medicação e o Gateway de PSTN, IP-PBX ou SBC no provedor de serviços. Para casos de bypass de mídia, esse valor deve ser compatível com a configuração EncryptionLevel na configuração de mídia. A configuração de mídia é definida usando <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> and <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a> cmdlets.</p>
-<p>Os valores permitidos são:</p><ul><li><p>- Obrigatório: Deve se utilizar a criptografia SRTP.</p></li><li><p>- Optional: O SRTP será utilizado se o gateway lhe fornecer apoio.</p></li><li><p>Não suportado: A encriptação de SRTP não é suportada e, portanto, não será usada.</p></li></ul>
+<td><p>Indica o nível de suporte para proteção do tráfego de mídia entre o Servidor de Medicação e o Gateway de PSTN, IP-PBX ou SBC no provedor de serviços. Para casos de bypass de mídia, esse valor deve ser compatível com a configuração EncryptionLevel na configuração de mídia. A configuração de mídia é definida usando cmdlets <a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> e <a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">set-CsMediaConfiguration</a> .</p>
+<p>Os valores permitidos são:</p>
+<ul>
+<li><p>- Obrigatório: Deve se utilizar a criptografia SRTP.</p></li>
+<li><p>- Optional: O SRTP será utilizado se o gateway lhe fornecer apoio.</p></li>
+<li><p>Não suportado: A encriptação de SRTP não é suportada e, portanto, não será usada.</p></li>
+</ul>
 <p>SRTPMode é usado apenas se o gateway estiver configurado para usar a Segurança da Camada de Transporte (TLS). Se o gateway estiver configurado com o Protocolo de Controle de Transmissão (TCP) como transporte, SRTPMode será internamente definido como NotSupported.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Suporte</p></td>
 <td><p>Enable3pccRefer</p>
 <p>EnableReferSupport</p></td>
-<td><p>Se definido como <strong>Habilitar endio ao gateway</strong>, indica que o tronco suporta receber solicitações de Refer do Servidor de Mediação.</p>
-<p>Se definido como <strong>Habilitar refer usando controle de chamada terceirizado</strong>, indica que o protocolo 3pcc pode ser usado para permitir que chamadas transferidas pulem o local host. 3pcc também é conhecido como &quot;controle terceirizado&quot; e ocorre quando um terceiro é usado para conectar dois chamadores (por exemplo, um operados conectando a chamada da pessoa A à pessoa B).</p></td>
+<td><p>Se definido como <strong>Habilitar envio ao gateway</strong>, indica que o tronco suporta receber solicitações de Refer do Servidor de Mediação.</p>
+<p>Se definido como <strong>Habilitar refer usando controle de chamada terceirizado</strong>, indica que o protocolo 3pcc pode ser usado para permitir que chamadas transferidas pulem o local host. o 3pcc também é conhecido &quot;como controle de terceiros&quot; e ocorre quando um terceiro é usado para conectar um par de chamadores (por exemplo, um operador fazendo uma chamada da pessoa para a pessoa B).</p></td>
 </tr>
 <tr class="even">
 <td><p>Habilitar bypass de mídia</p></td>
 <td><p>EnableBypass</p></td>
-<td><p>Selecione a opção <strong>Habilitar bypass de mídia</strong> se você deseja que que a mídia desvie do Servidor de Mediação para processamento pelo ponto do tronco.</p></td>
+<td><p>Indica se o bypass de mídia foi habilitado para esse tronco. O bypass de mídia só pode ser habilitado se <strong>Processamento centralizado de mídia</strong> também for habilitado.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Processamento centralizado de mídia</p></td>
@@ -89,7 +114,7 @@ Ao modificar a configuração do tronco SIP usando Painel de Controle do Lync Se
 <tr class="odd">
 <td><p>Habilitar histórico de encaminhamento de chamada</p></td>
 <td><p>ForwardCallHistory</p></td>
-<td><p>Indica se as informações de histórico de chamada serão encaminhadas pelo tronco.</p></td>
+<td><p>Indica se as informações do histórico de chamada serão encaminhadas por meio do tronco.</p></td>
 </tr>
 <tr class="even">
 <td><p>Habilitar dados de encaminhamento P-Asserted-Identity</p></td>
@@ -104,7 +129,7 @@ Ao modificar a configuração do tronco SIP usando Painel de Controle do Lync Se
 <tr class="even">
 <td><p>Uso associado de PSTNsages</p></td>
 <td><p>PSTNUsages</p></td>
-<td><p>Coleção de usos de PSTN atribuídos ao tronco.</p></td>
+<td><p>Conjunto de usos PSTN atribuídos ao tronco.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Número convertido para testar</p></td>
@@ -119,7 +144,7 @@ Ao modificar a configuração do tronco SIP usando Painel de Controle do Lync Se
 <tr class="odd">
 <td><p>Regras de conversão do número chamado</p></td>
 <td><p>OutboundCallingNumberTranslationRulesList</p></td>
-<td><p>Coleção de regras de conversão do número de chamada de saída atribuído ao tronco.</p></td>
+<td><p>Conjunto de regras de conversão de número de chamada de saída atribuídas ao tronco.</p></td>
 </tr>
 <tr class="even">
 <td><p>Número de telefone a ser de testado.</p></td>
@@ -140,20 +165,41 @@ Ao modificar a configuração do tronco SIP usando Painel de Controle do Lync Se
 </table>
 
 
+<div>
+
+
 > [!NOTE]  
-> Os Lync Server cmdlets CsTrunkConfiguration suportam propriedades adicionais não exibidas em Painel de Controle do Lync Server. Para mais informações, veja o tópico de ajuda para <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</a> cmdlet.
+> Os cmdlets CsTrunkConfiguration do Lync Server dão suporte a propriedades adicionais não mostradas no painel de controle do Lync Server. Para obter mais informações, consulte o tópico da ajuda para o cmdlet <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration">set-CsTrunkConfiguration</A> .
 
-## Modificar as Configurações do Tronco SIP Usando Painel de Controle do Lync Server
 
-1.  Em Painel de Controle do Lync Server, clique em **Roteamento de voz** e em **Configuração de Tronco**.
+
+</div>
+
+<div>
+
+## <a name="to-modify-sip-trunk-configuration-settings-by-using-lync-server-control-panel"></a>Para modificar as configurações de tronco SIP usando o painel de controle do Lync Server
+
+1.  No painel de controle do Lync Server, clique em **Roteamento de voz**e, em seguida, clique em **configuração de tronco**.
 
 2.  Na guia **Configuração de Tronco**, clique duas vezes nas configurações do tronco a ser modificado. Observe que é possível editar somente uma coleção de configurações por vez. Se quiser fazer as mesmas alterações em múltiplas coleções, use Windows PowerShell.
 
-3.  No diálogo E**ditar Configuração do Tronco**, faça as seleções apropriadas e clique em **OK**.
+3.  Na caixa de diálogo **Editar Configuração de Tronco**, faça as seleções apropriadas e clique em **OK**.
 
 4.  A propriedade **Estado** da coleção será atualizada para **Não vinculado**. Para vincular as alterações e excluir a coleção, clique em **Vincular** e em **Vincular tudo**.
 
 5.  Na caixa de diálogo **Configurações de Voz Não Vinculadas**, clique em **OK**.
 
-6.  Na caixa de diálogo **Painel de Controle do Microsoft Lync Server 2013**, clique em **OK**.
+6.  Na caixa de diálogo **painel de controle do Microsoft Lync Server 2013** , clique em **OK**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

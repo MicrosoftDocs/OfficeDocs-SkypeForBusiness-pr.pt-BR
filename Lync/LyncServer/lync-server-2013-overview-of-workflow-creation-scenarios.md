@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Visão geral dos cenários de criação do fluxo de trabalho'
-TOCTitle: Visão geral dos cenários de criação do fluxo de trabalho
-ms:assetid: 05e0c175-0f1a-4bb1-b048-c68584d00649
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204646(v=OCS.15)
-ms:contentKeyID: 49305741
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Visão geral dos cenários de criação do fluxo de trabalho'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of workflow creation scenarios
+ms:assetid: 05e0c175-0f1a-4bb1-b048-c68584d00649
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204646(v=OCS.15)
+ms:contentKeyID: 48183309
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1fc785392c50ea0ea1babe79ca5d30b455844ecd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825307"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Visão geral dos cenários de criação do fluxo de trabalho no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-17_
+# <a name="overview-of-workflow-creation-scenarios-in-lync-server-2013"></a>Visão geral dos cenários de criação do fluxo de trabalho no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-17_
 
 Ao criar um fluxo de trabalho, há duas possibilidades de cenário:
 
@@ -21,5 +41,22 @@ Ao criar um fluxo de trabalho, há duas possibilidades de cenário:
 
   - **O Administrador cria o fluxo de trabalho e o Gerente configura as opções** — O membro da função CsResponseGroupAdministrator (ou equivalente) define o o URI do SIP principal, Nome de exibição, atribui um membro ou membros da função CsResponseGroupManager e seleciona uma fila e ativa o fluxo de trabalho. O CsResponseGroupManager pode então fazer logon e editar a configuração do fluxo de trabalho criando grupos de agente e também atribui o grupo à fila, configurando o número de telefone, férias e horário comercial, música de espera, etc.
     
+    <div>
+    
+
     > [!NOTE]  
     > Quando quiser criar um fluxo de trabalho gerenciado, é necessário criar o fluxo como ativo. Após salvar um fluxo gerenciado e ativo, é possível modificar e desativar o fluxo de trabalho.
+
+    
+    </div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

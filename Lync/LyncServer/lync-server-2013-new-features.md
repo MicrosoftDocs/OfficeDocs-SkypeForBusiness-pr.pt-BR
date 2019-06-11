@@ -1,25 +1,47 @@
-﻿---
-title: 'Lync Server 2013: Novos recursos'
-TOCTitle: Novos recursos de servidor
-ms:assetid: 2e6f8a57-ab84-4578-b358-870796cddf31
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425795(v=OCS.15)
-ms:contentKeyID: 49306260
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Novos recursos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New server features
+ms:assetid: 2e6f8a57-ab84-4578-b358-870796cddf31
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425795(v=OCS.15)
+ms:contentKeyID: 48183722
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8fa65936e2e27a2b33595778961ca7edd1a2bcb4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826224"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Novos recursos no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-04_
+# <a name="new-features-in-lync-server-2013"></a>Novos recursos no Lync Server 2013
 
-O Lync Server 2013 introduz vários novos recursos, junto com melhorias significativas para a funcionalidade existente. Esta seção oferece uma introdução de alto nível para estes novos recursos e melhorias.
+</div>
 
-As discussões sobre os novos recursos do Lync Server 2013 estão agrupadas entre os tópicos nesta seção.
+<div id="mainSection">
 
-## Nesta seção
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-04_
+
+O Lync Server 2013 introduz muitos recursos novos, além de aprimoramentos significativos na funcionalidade existente. Esta seção fornece uma introdução de alto nível a esses novos recursos e aprimoramentos.
+
+As discussões de novos recursos no Lync Server 2013 são agrupadas entre os tópicos desta seção.
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Novos recursos de gerenciamento e de administração no Lync Server 2013](lync-server-2013-new-management-and-administration-features.md)
 
@@ -50,4 +72,16 @@ As discussões sobre os novos recursos do Lync Server 2013 estão agrupadas entr
   - [Novo recurso de repositório unificado de contatos no Lync Server 2013](lync-server-2013-new-unified-contact-store-feature.md)
 
   - [Novos recursos de vídeo no Lync Server 2013](lync-server-2013-new-video-features.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,69 +1,131 @@
-﻿---
-title: 'Lync Server 2013: Recursos de mobilidade'
-TOCTitle: Recursos de mobilidade
-ms:assetid: 12517a88-2531-44a5-bea5-d8884aff53eb
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh689983(v=OCS.15)
-ms:contentKeyID: 49305950
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Recursos de mobilidade'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mobility features and capabilities
+ms:assetid: 12517a88-2531-44a5-bea5-d8884aff53eb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh689983(v=OCS.15)
+ms:contentKeyID: 48183457
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4e47a37acd45ed577b9ad730de39c79d4113c8f0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827190"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Recursos de mobilidade no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a>Recursos de mobilidade no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-19_
 
     The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-O recurso de mobilidade no Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013 suporta a funcionalidade de clientes móveis Lync 2010 Mobile e Lync 2013. Ao implantar o Serviço de Mobilidade do Lync Server 2013, os usuários podem usar os dispositivos móveis suportados Apple iOS, Android, Windows Phone ou Nokia Symbian para realizar atividades como enviar e receber mensagens instantâneas, visualizar contatos e visualizar presença. Além disso, os dispositivos móveis suportam alguns recursos do Enterprise Voice, como clicar para participar de uma conferência, Chamada via Trabalho, acesso a único número, caixa postal e chamadas perdidas. Novos recursos introduzidos pelas Atualizações Cumulativas para Lync Server: Fevereiro de 2013 incluem o recurso VoIP e vídeo (H264) para participante de reunião.
+O recurso de mobilidade apresentado nas atualizações cumulativas do Lync Server 2013:2013 de fevereiro suporta a funcionalidade do Lync 2010 Mobile e do Lync 2013 para clientes móveis. Ao implantar o serviço de mobilidade do Lync Server 2013, os usuários podem usar dispositivos móveis Apple iOS, Android e Windows Phone, ou dispositivos móveis Nokia Symbian para executar atividades como enviar e receber mensagens instantâneas, ver contatos e ver a presença. Além disso, os dispositivos móveis dão suporte a alguns recursos de voz empresarial, como o clique para ingressar em uma conferência, fazer chamadas pelo trabalho, por um único número, por correio de voz e chamadas perdidas. Novos recursos apresentados nas atualizações cumulativas do Lync Server 2013: fevereiro de 2013 incluem recurso de voz sobre IP (VoIP) e vídeo (H. 264) para participantes da reunião.
 
-O recurso de mobilidade apresentado nas Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013 suporta a funcionalidade de cliente móvel Lync 2013. As Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013 instalam a API Web de Comunicações Unificadas, ou UCWA. A UCWA é o componente usado para clientes móveis Lync 2013. No Lync Server 2013, o Mcx é usado para clientes Lync 2010 Mobile. As Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013 apresentam o UCWA como um novo ponto de entrada para serviços de mobilidade. Lync Server 2013, ao mesmo tempo, implementa o Serviço de mobilidade (Mcx), introduzido no Atualizações Cumulativas para Lync Server 2010: Novembro de 2011, e fornece suporte para Lync 2010 Mobile. Ao implantar as Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013, os usuários podem usar os dispositivos suportados Apple iOS, Android e Windows Phone para efetuar as seguintes atividades:
+O recurso de mobilidade apresentado nas atualizações cumulativas do Lync Server 2013:2013 de fevereiro suporta a funcionalidade de cliente móvel do Lync 2013. As atualizações cumulativas do Lync Server 2013: fevereiro de 2013 instale a API da Web de comunicação unificada ou UCWA. UCWA é o componente usado para clientes móveis do Lync 2013. No Lync Server 2013, MCX é usado para clientes móveis do Lync 2010. Atualizações cumulativas do Lync Server 2013:2013 de fevereiro introduz UCWA como o novo ponto de entrada para serviços de mobilidade. O Lync Server 2013 implementa simultaneamente o serviço de mobilidade (MCX), introduzido nas atualizações cumulativas do Lync Server 2010: de novembro de 2011 e fornece suporte para o Lync 2010 Mobile. Ao implantar as atualizações cumulativas do Lync Server 2013:2013 de fevereiro, os usuários podem usar dispositivos móveis do Windows Phone, Android e Windows Phone compatíveis para executar tais atividades como:
+
+<div>
+
 
 > [!IMPORTANT]  
-> Recursos suportados pelo Serviço de Mobilidade do Atualizações Cumulativas para Lync Server 2010: Novembro de 2011 estão marcadas com (Mcx). Todos os recursos listados são suportados pela UCWA, apresentados na Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.
+> Recursos compatíveis com o serviço de mobilidade nas atualizações cumulativas do Lync Server 2010: novembro de 2011 são observados com (MCX). Todos os recursos listados são compatíveis com o UCWA, introduzidos nas atualizações cumulativas do Lync Server 2013:2013 de fevereiro.
 
-  - Enviar e receber mensagens instantâneas (Mcx)
 
-  - Visualizar presença (Mcx)
 
-  - Visualizar contatos (Mcx)
+</div>
 
-  - Clicar para participar de uma conferência (Mcx)
+  - Envie e receba mensagens instantâneas (MCX)
 
-  - Chamada via Trabalho (Mcx)
+  - Exibir presença (MCX)
 
-  - Acesso a número único (Mcx)
+  - Exibir Contatos (MCX)
 
-  - Mensagem por voz (Mcx)
+  - Clique para ingressar em uma conferência (MCX)
 
-  - Notificação de chamada perdida (Mcx)
+  - Ligar por trabalho (MCX)
 
-  - Voz sobre IP (VoIP)
+  - Alcance de número único (MCX)
+
+  - Caixa postal (MCX)
+
+  - Notificação de chamada perdida (MCX)
+
+  - Voz sobre IP  (VoIP)
 
   - Vídeo de participante (H.264)
 
-> [!NOTE]  
-> O Lync 2010 Mobile forneceu um cliente para dispositivos Nokia Symbian. O Lync 2013 móvel não possui um cliente para dispositivos com base em Nokia Symbian.
+<div>
 
-Usuários do Apple iPad terão acesso a recursos avançados. Depois de entrar em uma reunião usando retorno de chamada de áudio, um usuário do iPad poderá visualizar apresentações do Microsoft PowerPoint carregadas dentro de uma reunião, compartilhar aplicativos e áreas de trabalho, visualizar a lista de participantes da reunião e receber notificações de outros tipos de conteúdo que estiverem sendo compartilhados dentro da reunião.
+
+> [!NOTE]  
+> O Lync 2010 Mobile forneceu um cliente para dispositivos Nokia Symbian. O Lync 2013 Mobile não terá um cliente para dispositivos baseados em Nokia Symbian.
+
+
+
+</div>
+
+Os usuários do iPad da Apple terão acesso às funcionalidades aprimoradas. Depois de ingressar em uma reunião usando o recurso de retorno de chamada de áudio, um usuário do iPad poderá ver as apresentações do Microsoft PowerPoint carregadas em uma reunião, compartilhar aplicativos e áreas de trabalho, exibir a lista de participantes da reunião e receber notificações de outros tipos de conteúdo que estão sendo compartilhados na reunião.
+
+<div>
 
 
 > [!TIP]  
-> Com o acesso a único número, um usuário recebe chamadas feitas de um telefone móvel que discou para o número do trabalho. Com o Chamada via Trabalho, o usuário estabelece uma chamada de saída de um cliente Lync Mobile usando o número de telefone do trabalho em vez do número do celular. Com a discagem, o cliente envia uma solicitação ao Mcx ou UCWA (com base na versão Lync Mobile) para chamar. O servidor inicia a chamada e depois retorna a chamada no celular do usuário. Quando o usuário atende, o servidor completa a chamada discando para a outra parte. Usando o Chamada via Trabalho, os usuários podem manter sua identidade de trabalho durante uma chamada, o que significa que o destinatário da chamada não visualiza o número de celular do chamador, e este evita incorrer em tarifas da chamada de saída.
+> Com o alcance de um único número, um usuário recebe chamadas em um celular que foram discadas para o número do trabalho. Com a chamada por meio do trabalho, o usuário insere uma chamada de saída do cliente móvel Lync usando um número de telefone comercial em vez do número de telefone celular. Com o dial-out, o cliente envia uma solicitação para MCX ou UCWA (com base na versão do Lync Mobile) para fazer a chamada para ele. O servidor inicia a chamada e, em seguida, chama o usuário de volta no celular. Quando o usuário atende, o servidor conclui a chamada discando a outra pessoa. Ao usar a chamada por meio do trabalho, os usuários podem manter a identidade do trabalho durante uma chamada, o que significa que o destinatário da chamada não vê o número do celular do chamador, e o chamador evita cobranças de chamadas de saída.
 
+
+
+</div>
+
+<div>
 
 
 > [!NOTE]  
-> Nem todos os recursos funcionam exatamente da mesma forma em dispositivos móveis. Para obter informações sobre os recursos suportados nos dispositivos móveis, consulte Tabelas de comparação do cliente móvel em <a href="http://go.microsoft.com/fwlink/p/?linkid=234777">http://go.microsoft.com/fwlink/p/?LinkId=234777</a>. Para obter informações sobre os dispositivos suportados e os sistemas operacionais, consulte os tópicos de requisitos em <a href="lync-server-2013-planning-for-mobile-clients.md">Planejamento para clientes móveis no Lync Server 2013</a>.
+> Nem todos os recursos funcionam exatamente da mesma forma em todos os dispositivos móveis. Para obter detalhes sobre os recursos com suporte em dispositivos móveis, consulte as tabelas de <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">http://go.microsoft.com/fwlink/p/?LinkId=234777</A>comparação de clientes móveis em. Para obter detalhes sobre dispositivos e sistemas operacionais com suporte, consulte os tópicos de requisitos em <A href="lync-server-2013-planning-for-mobile-clients.md">planejando para clientes móveis no Lync Server 2013</A>.
 
-Quando você usa o Serviço de Descoberta Automática do Lync Server 2013, os aplicativos móveis podem localizar automaticamente os Serviços da Web do Lync Server 2013 sem solicitar que os usuários insiram manualmente as URLs em suas configurações dos dispositivos. A inserção manual de URLs nas configurações do dispositivo móvel também é suportada, principalmente para fins de solução de problemas.
+
+
+</div>
+
+Quando você usa o recurso de descoberta automática do Lync Server 2013, os aplicativos móveis podem localizar automaticamente os serviços Web do Lync Server 2013 sem exigir que os usuários insiram manualmente as URLs nas configurações do dispositivo. A inserção manual de URLs nas configurações do dispositivo móvel também é suportada, principalmente para fins de solução de problemas.
+
+<div>
+
 
 > [!IMPORTANT]  
-> O Mcx e a UCWA são serviços complementares e implantados para fornecer suporte a clientes móveis Lync 2010 Mobile e Lync 2013. O Lync 2013 móvel não pode entrar em implantações Lync Server 2010. Lync 2010 Mobile e Lync 2013 móveis poderão usar uma implantação Lync Server 2013 com Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013 aplicada.
+> Os MCX e UCWA são serviços complementares e ambos são implantados para dar suporte aos clientes móveis do Lync 2010 e Lync 2013. O Lync 2013 Mobile não poderá entrar nas implantações do Lync Server 2010. O Lync 2010 móvel e o Lync 2013 Mobile poderão usar uma implantação do Lync Server 2013 com as atualizações cumulativas do Lync Server 2013:2013 de fevereiro aplicado.
 
-O recurso de mobilidade também dá suporte às *notificações por push* para dispositivos móveis que não suportam os aplicativos executados em segundo plano. Uma notificação por push é um aviso enviado a um dispositivo móvel sobre um evento que ocorre enquanto o aplicativo está inativo. Por exemplo, um convite de mensagem instantânea pode resultar em uma notificação por push.
 
-O Mcx, UCWA, Serviço de Descoberta Automática e o suporte a notificações por push são fornecidos no Lync Server 2013. Recursos de clientes atualizados, capacidades e o uso do UCWA como ponto de entrada de mobilidade são introduzidos no Atualizações Cumulativas para Lync Server 2013: Fevereiro de 2013.
+
+</div>
+
+O recurso de mobilidade também oferece suporte a *notificações por push* em dispositivos móveis que não aceitam aplicativos executados em segundo plano. Uma notificação por push é uma notificação enviada a um dispositivo móvel sobre um evento que ocorre enquanto o aplicativo móvel está inativo. Por exemplo, um convite perdido de mensagens instantâneas (IM) pode resultar em uma notificação por push.
+
+O MCX, o UCWA, o serviço de descoberta automática e o suporte para notificações por push são fornecidos no Lync Server 2013. Recursos de cliente atualizados, recursos e o uso de UCWA como o ponto de entrada da mobilidade são introduzidos nas atualizações cumulativas do Lync Server 2013:2013 de fevereiro.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

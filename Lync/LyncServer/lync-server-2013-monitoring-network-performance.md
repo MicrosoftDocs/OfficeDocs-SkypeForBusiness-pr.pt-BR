@@ -1,78 +1,143 @@
-﻿---
-title: 'Lync Server 2013: Monitorando o desempenho da rede'
-TOCTitle: Monitorando o desempenho da rede
-ms:assetid: bc3a01da-91eb-4c0c-9598-35e5e46b00f6
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn720923(v=OCS.15)
-ms:contentKeyID: 62240144
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Monitorando o desempenho da rede'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Monitoring network performance
+ms:assetid: bc3a01da-91eb-4c0c-9598-35e5e46b00f6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720923(v=OCS.15)
+ms:contentKeyID: 63969647
+ms.date: 04/27/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a2fa3c2685b4da32d5f2e3f123a938920b5ce9f7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826714"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Monitorando o desempenho da rede no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="monitoring-network-performance-in-lync-server-2013"></a>Monitorando o desempenho da rede no Lync Server 2013
 
-O Lync Server 2013 é uma tecnologia de comunicação em tempo real bastante dependente da rede para permitir a comunicação entre os usuários, seja através de mensagens instantâneas (IM), chamadas de voz ou comunicação por vídeo. Portanto, é importante monitorar o desempenho da rede continuamente para ajudar a garantir que a modalidade de comunicação escolhida por um usuário forneça a melhor experiência possível.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2016-04-27_
+
+O Lync Server 2013 é uma tecnologia de comunicação em tempo real que depende muito da rede para permitir a comunicação entre usuários, seja por meio de mensagens instantâneas (IM), chamadas de voz ou comunicação com vídeo. Portanto, é importante monitorar o desempenho da rede continuamente para ajudar a garantir que a modalidade de comunicação escolhida pelo usuário ofereça a melhor experiência possível.
 
 O desempenho da rede pode ser medido em dois níveis:
 
-  - **Desempenho geral da rede**   Esse nível de medição de desempenho permitirá a uma organização obter uma visão geral da rede e, geralmente, é implementado através de sistemas de monitoramento de rede de terceiros. Esses sistemas receberão dados de desempenho e capacidade de dispositivos de rede remotos, como roteadores e rede comutada em toda a rede para permitir que os administradores determinem a integridade de qualquer componente de rede em qualquer hora do dia.
+  - **Desempenho geral da rede**   esse nível de medição de desempenho permitirá que uma organização crie uma exibição "grande" da rede e, em geral, é implementada por sistemas de monitoramento de rede de terceiros. Esses sistemas receberão dados de desempenho e capacidade de dispositivos de rede remoto, como roteadores e comutados em toda a rede, para permitir que os administradores determinem a integridade de qualquer componente de rede fornecido a qualquer hora do dia.
 
-  - **Desempenho individual do servidor**   Esse nível de medição de desempenho é limitado a um servidor específico e ajudará os administradores a medir o desempenho de um determinado servidor na rede para auxiliar na solução de um problema de desempenho específico ou para medir o desempenho do respectivo servidor em um período específico como parte do processo de planejamento de capacidade.
+  - **Desempenho individual do servidor**   esse nível de medição de desempenho é limitado a um servidor específico e ajuda os administradores com o gauging o desempenho de rede de um servidor específico para ajudar a solucionar um desempenho específico problema ou para medir o desempenho do respectivo servidor em um determinado período como parte de um processo de planejamento de capacidade.
 
 Você pode monitorar a rede usando as ferramentas descritas nas seções a seguir.
 
-## Ferramentas para monitoramento do desempenho geral da rede
+<div>
 
-## System Center Operations Manager 2012
+## <a name="tools-for-overall-network-performance-monitoring"></a>Ferramentas para monitoramento geral do desempenho de rede
 
-O System Center Operations Manager fornece gerenciamento de serviços ponta a ponta, fácil de personalizar e estender para níveis de serviço aprimorados em um ambiente de TI. Isso permite que as equipes de Operações e Gerenciamento de TI identifiquem e resolvam os problemas que afetam a integridade dos serviços de TI distribuídos. O gerenciamento de serviços ponta a ponta não se restringe a ambientes baseados na Microsoft. O suporte para o Web Services for Management (WS-Management), o protocolo SNMP e as soluções de parceiros permitem que sistemas que não executam os sistemas operacionais Microsoft e o hardware sejam incluídos no monitoramento de serviços dentro do System Center Operations Manager 2012.
+<div>
 
-## System Center Operations Manager 2012 e soluções de gerenciamento de rede de terceiros
+## <a name="system-center-operations-manager-2012"></a>System Center Operations Manager 2012
 
-**EMC Smarts**   As EMC Solutions for Operations Manager o ajudam a resolver rapidamente os problemas que afetam completamente os níveis de serviço. Ao usar as EMC Solutions for Operations Manager, você poderá gerenciar e monitorar toda a sua cadeia de serviços de TI com uma única solução automatizada integrada. Você identificará facilmente as causas principais dos problemas de desempenho e disponibilidade, resolvendo-os com mais rapidez, o que reduzirá efeitos e custos. Os principais benefícios incluem:
+O System Center Operations Manager fornece gerenciamento de serviços de ponta a ponta que é fácil de personalizar e estender para níveis de serviço aprimorados em um ambiente de ti. Isso permite às operações e às equipes de gerenciamento de ti identificar e resolver problemas que afetem a integridade dos serviços de ti distribuídos. O gerenciamento de serviços completo não está restrito a ambientes baseados na Microsoft. Suporte para serviços Web para gerenciamento (WS-Management), protocolo de gerenciamento de rede simples (SNMP) e soluções de parceiros permitem que sistemas que não executam sistemas operacionais e hardware da Microsoft sejam incluídos no monitoramento de serviços no System Center Operations Manager 2012.
 
-  - Gerenciamento avançado, fácil de usar   Foco na entrega de valor comercial estratégico em vez de classificar e filtrar manualmente alertas confusos.
+</div>
 
-  - **Resolução mais rápida**   Solucione problemas de TI e atenda às necessidades comerciais com mais rapidez, reduzindo efeito e custo.
+<div>
 
-  - **Operações simples**   Evite a complexidade da TI, combinando várias ferramentas, aplicativos e terminais de gerenciamento.
+## <a name="system-center-operations-manager-2012-and-third-party-network-management-solutions"></a>System Center Operations Manager 2012 e soluções de gerenciamento de rede de terceiros
 
-Para obter mais informações, consulte:
+**EMC Smarts**   EMC Solutions for Operations Manager ajudam a resolver rapidamente problemas que afetem os níveis de serviço. Ao usar o EMC Solutions for Operations Manager, você pode gerenciar e monitorar toda a sua cadeia de serviços de ti com uma solução integrada e automatizada. Você identificará facilmente as causas de desempenho e a disponibilidade dos problemas de desempenho e os resolverá mais rapidamente, o que reduz os efeitos e os custos. Os principais benefícios incluem o seguinte:
 
-[Microsoft System Center Operations Manager](http://go.microsoft.com/fwlink/p/?linkid=243651)
+  - O gerenciamento avançado e fácil de usar se concentra em oferecer um valor estratégico para os negócios, em vez de classificar e filtrar alertas confusos manualmente.
+
+  - **Solução mais rápida**   solucione problemas e atenda às necessidades dos negócios com mais rapidez, reduzindo o efeito e o custo.
+
+  - **Operações simplificadas**   evitam a complexidade da ti ao combinar várias ferramentas de gerenciamento, aplicativos e terminais.
+
+Mais informações podem ser encontradas aqui:
+
+[Gerenciador de operações do Microsoft System Center](http://go.microsoft.com/fwlink/p/?linkid=243651)
 
 [Soluções para o Microsoft System Center Operations Manager](http://www.emc.com/collateral/software/data-sheet/h6135-server-manager-ds.pdf)
 
-## Soluções de terceiros
+</div>
 
-**HP Network Management Center (anteriormente conhecido como HP OpenView)**   [HP Network Management Center](https://h10078.www1.hp.com/cda/hpms/display/main/hpms_content.jsp?zn=bto%26cp=1-11-15-119_4000_100__) fornece gerenciamento integrado de falhas e desempenho para melhorar o desempenho e a disponibilidade da rede. O Network Management Center faz parte da solução automatizada de gerenciamento de rede HP que unifica gerenciamento de falhas, desempenho, configuração e alterações.
+<div>
 
-**Produtos Cisco Network Management and Automation**   Para o Enterprise, a Cisco tem vários produtos de gerenciamento disponíveis, incluindo o CiscoWorks LAN Management Solution e o Cisco Network Analysis Module, para ajudar a melhorar a eficiência operacional e reduzir o tempo de inatividade da rede. Para obter dados adicionais sobre esses produtos, consulte o site da Cisco em [http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html).
+## <a name="third-party-solutions"></a>Soluções de terceiros
 
-Simple Network Management Protocol (SNMP)   O SNMP é um padrão de gerenciamento de rede que define uma estratégia para o gerenciamento de redes TCP/IP. Ele permite que você capture informações de configuração e status sobre a rede e envie as informações para um computador designado para monitoramento de eventos. Esse protocolo de gerenciamento de rede com base em padrões usa uma arquitetura distribuída que inclui o seguinte:
+**Centro de gerenciamento de redes HP (anteriormente conhecido como HP OpenView)** O    [centro de gerenciamento de redes HP](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__) oferece gerenciamento integrado de falhas e desempenho para melhorar a disponibilidade e o desempenho da rede. O centro de gerenciamento de rede é parte da solução de gerenciamento automatizado de rede da HP que unifica o gerenciamento de falhas, desempenho, configuração e alterações.
 
-  - Vários nós gerenciados e, cada um deles com uma entidade SNMP denominada agente que fornece acesso remoto para instrumentação de gerenciamento.
+**Gerenciamento de rede e produtos**   de automação da Cisco para empresas, a Cisco tem vários produtos de gerenciamento disponíveis, incluindo a solução de gerenciamento de LAN da CiscoWorks e o módulo de análise de rede da Cisco, para ajudar a melhorar a eficiência operacional e reduzir o tempo de inatividade da rede. Para obter dados adicionais sobre esses produtos, consulte o website da Cisco [http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)em.
 
-  - Pelo menos uma entidade SNMP, conhecida como gerenciador, que executa aplicativos de gerenciamento para monitorar e controlar elementos gerenciados. Os elementos gerenciados são dispositivos, como hosts, roteadores etc. Eles são monitorados e controlados acessando suas informações de gerenciamento.
+O protocolo de gerenciamento de rede simples (SNMP) é um padrão de gerenciamento de rede (SNMP) que define uma estratégia para gerenciar redes TCP/IP. O SNMP permite que você capture informações de configuração e status sobre a rede e envie as informações para um computador designado para monitoramento de eventos. Esse protocolo baseado em padrões de gerenciamento de rede usa uma arquitetura distribuída que inclui o seguinte:
 
-  - Um protocolo de gerenciamento, SNMP, é usado para comunicar as informações de gerenciamento entre as estações e os agentes de gerenciamento. As informações de gerenciamento referem-se a um conjunto de objetos gerenciados que residem em um repositório virtual de informações, denominado MIB (base de informações de gerenciamento).
+  - Vários nós gerenciados, cada um com uma entidade SNMP chamada de agente, que fornece acesso remoto à instrumentação de gerenciamento.
+
+  - Pelo menos uma entidade SNMP conhecida como gerente que executa aplicativos de gerenciamento para monitorar e controlar elementos gerenciados. Elementos gerenciados são dispositivos como hosts, roteadores e assim por diante. Elas são monitoradas e controladas acessando suas informações de gerenciamento.
+
+  - Um protocolo de gerenciamento, SNMP, é usado para comunicar informações de gerenciamento entre as estações de gerenciamento e agentes. Informações de gerenciamento referem-se a uma coleção de objetos gerenciados que residem em um repositório de informações virtual chamado de uma base de informações de gerenciamento (MIB).
+
+<div>
+
 
 > [!NOTE]  
-> Os exemplos de soluções de monitoramento de rede de terceiros são fornecidos acima. Essa lista não é definitiva, e a Microsoft não favorece nenhuma solução de fornecedor específica. Consulte um provedor de serviços de rede e/ou seu respectivo provedor de tecnologia para determinar a melhor solução de monitoramento de rede para a sua organização.
+> Exemplos de soluções de monitoramento de rede de terceiros são fornecidos acima. Esta lista não é definitiva, e a Microsoft não favorece nenhuma solução específica de fornecedor. Consulte um provedor de serviços de rede e ou seu respectivo provedor de tecnologia para determinar a melhor solução de monitoramento de rede para a sua organização.
 
-## Ferramentas para monitorar o desempenho individual da rede dos servidores
 
-## System Center Operations Manager 2012
 
-O System Center Operations Manager 2012 permite que os administradores exibam o desempenho de rede dos servidores individuais através do Pacote de Gerenciamento do Windows Server 2012: o pacote de gerenciamento do sistema operacional do Windows Server inclui um pacote de gerenciamento de "Desempenho" que permite aos administradores monitorarem o desempenho e a integridade do Adaptador de Rede.
+</div>
 
-## Monitor de Rede do Windows
+</div>
 
-Coleta, exibe, analisa o uso de recursos em um servidor e mede o tráfego de rede. O Monitor de Rede controla exclusivamente a atividade da rede. Por meio da captura e da análise dos dados de rede e utilização desses dados com logs de desempenho, você poderá determinar o uso da rede, identificar problemas de rede e prever as necessidades futuras da rede.
+</div>
 
-Para obter mais informações sobre o Network Monitor 3.4 e saber como instalar e configurar o Monitor de Rede e capturar e analisar dados, examine esta sessão: Visão geral do Network Monitor 3.3. Consulte também o blog do Monitor de Rede em: <http://blogs.technet.com/b/netmon/>.
+<div>
+
+## <a name="tools-for-monitoring-individual-server-network-performance"></a>Ferramentas para monitorar o desempenho de uma rede de servidor individual
+
+<div>
+
+## <a name="system-center-operations-manager-2012"></a>System Center Operations Manager 2012
+
+O System Center Operations Manager 2012 permite que os administradores visualizem o desempenho de rede de servidores individuais por meio do pacote de gerenciamento do Windows Server 2012: o pacote de gerenciamento do sistema operacional Windows Server inclui um pacote de gerenciamento de "desempenho" Isso permite que os administradores monitorem o desempenho do adaptador de rede e a integridade do adaptador.
+
+</div>
+
+<div>
+
+## <a name="windows-network-monitor"></a>Monitor de rede do Windows
+
+Coleta, exibe, analisa o uso de recursos em um servidor e mede o tráfego de rede. O monitor de rede monitora exclusivamente as atividades da rede. Ao capturar e analisar dados de rede e usar esses dados com logs de desempenho, você pode determinar o uso da rede, identificar problemas de rede e prever as necessidades futuras de rede.
+
+Para obter mais informações sobre o monitor de rede 3,4 e sobre como instalar e configurar o monitor de rede e capturar e analisar dados, Confira esta sessão: monitor de rede 3,3 visão geral. Além disso, examine o [blog do monitor de rede](http://blogs.technet.com/b/netmon/).
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

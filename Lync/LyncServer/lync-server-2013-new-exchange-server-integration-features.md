@@ -1,32 +1,66 @@
-﻿---
-title: 'Lync Server 2013: Novos recursos de integração do Servidor Exchange'
-TOCTitle: Novos recursos de integração do Servidor Exchange
-ms:assetid: cad9cbfa-f213-42af-9c8b-9baf1a5bf6bd
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205269(v=OCS.15)
-ms:contentKeyID: 49308116
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Novos recursos de integração do Servidor Exchange'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New Exchange Server integration features
+ms:assetid: cad9cbfa-f213-42af-9c8b-9baf1a5bf6bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205269(v=OCS.15)
+ms:contentKeyID: 48185431
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d39aad7f2df2f02983bad50cae8e81e711065456
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826357"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Novos recursos de integração do Servidor Exchange no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-24_
+# <a name="new-exchange-server-integration-features-in-lync-server-2013"></a>Novos recursos de integração do Servidor Exchange no Lync Server 2013
 
-O Lync Server 2013 suporta novos recursos quando é implantado junto com Microsoft Exchange Server 2013, conforme descrito na lista a seguir. Para cada um destes recursos funcionarem, o Lync Server 2013 e o Exchange 2013 devem ser implantados.
+</div>
 
-  - É possível usar um **repositório de contato unificado**, no qual a lista de contatos do Lync está armazenada no Exchange 2013 e você pode gerenciar o repositório de contatos no Lync 2013, Outlook 2013 e Outlook Web App.
+<div id="mainSection">
 
-  - É possível usar **fotos de alta resolução** para contatos. As fotos com até 648x648 pixels são armazenadas no Exchange 2013 e disponibilizadas para clientes incluindo o Lync 2013, Outlook 2013, Microsoft Lync Web App e Outlook Web App.
+<div id="mainBody">
 
-  - É possível habilitar a **integração do Arquivamento do Lync**, que integra o Arquivamento do Lync Server 2013 no recurso de Retenção Local do Exchange 2013, para usuários hospedados no Exchange 2013, que permite uma experiência comum para administradores sobre conformidade e eDiscovery.
+<span> </span>
 
-## Consulte Também
+_**Tópico da última modificação:** 2012-09-24_
 
-#### Conceitos
+O Lync Server 2013 oferece suporte a novos recursos quando ele é implantado junto com o Microsoft Exchange Server 2013, conforme descrito na lista a seguir. Para que cada um desses recursos funcione, tanto o Lync Server 2013 quanto o Exchange 2013 devem ser implantados.
 
-[Planejamento e implantação de repositório unificado de contatos no Lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)  
-[Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md)
+  - Você pode usar um **repositório de contatos**unificado, no qual a lista de contatos do Lync está armazenada no Exchange 2013, e você pode gerenciar o repositório de contatos no Lync 2013, no Outlook 2013 e no Outlook Web App.
+
+  - Você pode usar **fotos de alta resolução** para contatos. As fotos com até 648x648 pixels são armazenadas no Exchange 2013 e disponibilizadas para clientes, incluindo o Lync 2013, o Outlook 2013, o Microsoft Lync Web App e o Outlook Web App.
+
+  - Você pode habilitar a integração de arquivamento do **Lync**, que integra o arquivamento do lync Server 2013 no recurso de bloqueio in-loco do Exchange 2013, para os usuários hospedados no Exchange 2013, o que permite uma experiência comum para administradores em relação à conformidade e descoberta eletrônica.
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Planejando e implantando o repositório de contatos unificado no Lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)  
+[Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

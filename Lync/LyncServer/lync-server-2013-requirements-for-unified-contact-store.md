@@ -1,29 +1,66 @@
-﻿---
-title: 'Lync Server 2013: Requisitos para repositório unificado de contato'
-TOCTitle: Requisitos para repositório unificado de contato
-ms:assetid: dab47e4d-6fc7-47a8-aefd-1499bf0d8c89
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205317(v=OCS.15)
-ms:contentKeyID: 49308309
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Requisitos para repositório unificado de contato'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Requirements for unified contact store
+ms:assetid: dab47e4d-6fc7-47a8-aefd-1499bf0d8c89
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205317(v=OCS.15)
+ms:contentKeyID: 48185590
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f9e183b83457f11358539c5d7f7a315d53093a72
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823235"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos para repositório unificado de contato no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-01_
+# <a name="requirements-for-unified-contact-store-in-lync-server-2013"></a>Requisitos para repositório unificado de contato no Lync Server 2013
 
-A lista a seguir descreve os requisitos para implementar o repositório de contato unificado no Lync Server 2013:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-01_
+
+A lista a seguir descreve os requisitos para implementar o repositório de contatos unificado no Lync Server 2013:
 
   - Você deve estar executando o Microsoft Lync Server 2013 e o Exchange 2013.
 
-  - Os usuários devem utilizar o Lync 2013 para iniciar a migração de contatos do Lync Server 2013 para o Exchange 2013.
+  - Os usuários devem usar o Lync 2013 para iniciar a migração de contatos do Lync Server 2013 para o Exchange 2013.
 
-  - As caixas de correio do usuário devem ser migrados para o Exchange 2013.
+  - As caixas de correio do usuário devem ser migradas para o Exchange 2013.
 
-  - Você deve ter uma autenticação servidor para servidor configurada entre o Lync Server 2013 e o Exchange 2013.
+  - Você deve ter autenticação de servidor para servidor configurada entre o Lync Server 2013 e o Exchange 2013.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Para obter requisitos detalhados sobre a configuração de autenticação entre o Lync Server 2013 e o Exchange 2013, consulte <a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Gerenciando autenticação de servidor para servidor (Oauth) e inscrições de parceiros no Lync Server 2013</a> na documentação de Operações.
+    > Para obter requisitos detalhados sobre a configuração da autenticação entre o Lync Server 2013 e o Exchange 2013, consulte Gerenciando a <A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">autenticação de servidor para servidor (OAuth) e aplicativos de parceiros no Lync Server 2013</A> na documentação de operações.
+
+    
+    </div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+
