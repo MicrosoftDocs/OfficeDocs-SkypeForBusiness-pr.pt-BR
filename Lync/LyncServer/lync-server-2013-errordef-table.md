@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabela ErrorDef'
-TOCTitle: Tabela ErrorDef
-ms:assetid: 6acf3b86-da61-4923-9812-300db6f66dec
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398503(v=OCS.15)
-ms:contentKeyID: 49307006
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabela ErrorDef'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ErrorDef table
+ms:assetid: 6acf3b86-da61-4923-9812-300db6f66dec
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398503(v=OCS.15)
+ms:contentKeyID: 48184403
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ef21484d564419a5ab5cce7373ceb0b0b71e4a29
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829199"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabela ErrorDef no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="errordef-table-in-lync-server-2013"></a>Tabela ErrorDef no Lync Server 2013
 
-A tabela ErrorDef armazena informações sobre cada tipo de erro que possa ocorrer. Cada registro é um tipo de erro.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-05-25_
+
+A tabela ErrorDef armazena informações sobre cada tipo de erro que pode ocorrer. Cada registro é um tipo de erro.
 
 
 <table>
@@ -29,15 +49,15 @@ A tabela ErrorDef armazena informações sobre cada tipo de erro que possa ocorr
 <tr class="header">
 <th>Coluna</th>
 <th>Tipo de dados</th>
-<th>Chave/Índice</th>
+<th>Chave/índice</th>
 <th>Detalhes</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ErrorId</strong></p></td>
+<td><p><strong>ErrorID</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primário</p></td>
+<td><p>Primária</p></td>
 <td><p>Número de identificação exclusivo que identifica esse tipo de erro.</p></td>
 </tr>
 <tr class="even">
@@ -50,30 +70,41 @@ A tabela ErrorDef armazena informações sobre cada tipo de erro que possa ocorr
 <td><p><strong>MsDiagId</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>ID de Diagnóstico da Microsoft.</p></td>
+<td><p>IDENTIFICAÇÃO do diagnóstico da Microsoft.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CallTypeId</strong></p></td>
-<td><p>int</p></td>
-<td><p>Estrangeiro</p></td>
-<td><p>Tipo da chamada. Consulte <a href="lync-server-2013-calltype-table.md">Tabela CallType no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p><strong>Callid</strong></p></td>
+<td><p>Núm</p></td>
+<td><p>Exterior</p></td>
+<td><p>Tipo de chamada. Consulte a <a href="lync-server-2013-calltype-table.md">tabela CallType no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RequestType</strong></p></td>
-<td><p>varbinary(33)</p></td>
+<td><p>varbinary (33)</p></td>
 <td><p> </p></td>
 <td><p>Tipo de solicitação que falhou.</p>
-<p>Este dado pode ser convertido para o formato de texto usando esta sintaxe:</p>
+<p>Esses dados podem ser convertidos em um formato de texto usando esta sintaxe:</p>
 <p><code>cast(cast(RequestType as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentType</strong></p></td>
-<td><p>varbinary(257)</p></td>
+<td><p>varbinary (257)</p></td>
 <td><p> </p></td>
 <td><p>Tipo de conteúdo da solicitação que falhou.</p>
-<p>Esses dados podem ser convertidos para o formato de texto com o uso desta sintaxe:</p>
+<p>Esses dados podem ser convertidos em um formato de texto usando esta sintaxe:</p>
 <p><code>cast(cast(ContentType as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

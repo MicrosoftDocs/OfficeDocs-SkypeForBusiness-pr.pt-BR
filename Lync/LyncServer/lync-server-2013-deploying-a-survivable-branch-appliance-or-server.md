@@ -1,30 +1,69 @@
-﻿---
-title: 'Lync Server 2013: Implantando Aplicativo ou Servidor de Filial Persistente'
-TOCTitle: Implantando Aplicativo ou Servidor de Filial Persistente
-ms:assetid: cb780c14-dc5f-41ba-8092-f20ae905bd16
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398849(v=OCS.15)
-ms:contentKeyID: 49308123
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Implantando Aplicativo ou Servidor de Filial Persistente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying a Survivable Branch Appliance or Server
+ms:assetid: cb780c14-dc5f-41ba-8092-f20ae905bd16
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398849(v=OCS.15)
+ms:contentKeyID: 48185643
+ms.date: 12/11/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c7cf894fe6650ff3c06eaaa37f6ba05d70f50eeb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829566"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Implantando Aplicativo ou Servidor de Filial Persistente com Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-12-10_
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>Implantando Aplicativo ou Servidor de Filial Persistente com Lync Server 2013
 
-O Enterprise Voice resiliente refere-se à resiliência de site de filial, isto é, a capacidade de oferecer serviço do Enterprise Voice contínuo para usuários do site de lote em caso onde o link para o site central se tornar indisponível.
+</div>
 
-Para sites de filial de pequeno e médio porte (sites de filial com 25 a 1.000 usuários), recomendamos a implantação de um Aparelho de Filial Persistente, que encerrará chamadas PSTN (rede telefônica pública comutada) usando seu gateway PSTN integrado ou um tronco SIP para um provedor de serviço telefônico. Um Aparelho de Filial Persistente é um dispositivo de terceiros que inclui um blade server executando o Sistema operacional Windows Server 2008 R2, o Registrador do Lync Server 2013, o software Servidor de Mediação e um gateway PSTN, tudo em um único chassi de aparelho.
+<div id="mainSection">
 
-Para sites de filial com 1.000 a 5.000 usuários e nenhum WAN resiliente, recomendamos um Servidor de Filial Persistente conectado a um gateway PSTN ou um tronco SIP a um provedor de serviço telefônico. Um Servidor de Filial Persistente é um computador baseado em Windows Server com um Registrador e software do Servidor de Mediação instalado.
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-12-10_
+
+O recurso de voz corporativo resistente refere-se à resiliência de filiais, ou seja, a capacidade de fornecer serviço contínuo de voz empresarial a usuários de sites de filiais em caso de o link para o site central ficar indisponível.
+
+Para sites de filiais de pequeno e médio porte (sites de filiais com 25 a 1.000 usuários), recomendamos implantar um aparelho de ramificação sobreviventes, que encerrará chamadas PSTN (rede telefônica pública comutada) usando seu gateway PSTN embutido ou um tronco SIP para um telefone provedor de serviços. Um aparelho de ramificação sobreviventes é um dispositivo de terceiros que inclui um servidor blade executando o sistema operacional Windows Server 2008 R2, o Lync Server 2013 registrador, o software do servidor de mediação e um gateway PSTN, tudo em um chassi único de dispositivo.
+
+Para sites de filiais com 1.000 a 5.000 usuários e sem conexão de longa distância, recomendamos um servidor de ramificação sobreviventes conectado a um gateway PSTN ou um tronco SIP para um provedor de serviços de telefonia. Um servidor de ramificação sobreviventes é um computador baseado no Windows Server que tem o software servidor de registrador e mediação instalado.
+
+<div>
+
 
 > [!NOTE]  
-> Para sites de filial com mais de 5.000 usuários e administradores de Lync Server dedicados, recomendamos uma implantação total do Lync Server 2013, separada do site central.<br />Para obter detalhes sobre como escolher a melhor solução de resiliência para sites de filial em sua organização, incluindo considerações sobre pré-requisitos e planejamento, consulte <a href="lync-server-2013-branch-site-resiliency-requirements.md">Requisitos de resiliência do site da filial para Lync Server 2013</a> na documentação Planejamento.
+> Para sites de filiais com mais de 5.000 usuários e administradores dedicados do Lync Server, recomendamos uma implantação completa do Lync Server 2013, separada do site central.<BR>Para obter detalhes sobre como escolher a melhor solução de resiliência para os sites de filiais em sua organização, incluindo pré-requisitos e considerações de planejamento, consulte <A href="lync-server-2013-branch-site-resiliency-requirements.md">requisitos de resiliência de site para o Lync Server 2013</A> na documentação de planejamento.
 
-## Nesta seção
+
+
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> Os usuários que estiverem hospedados em um aparelho de ramificação de Lync do Lync Server não poderão criar novas salas de chat ou exibir o cartão de sala para salas existentes.
+
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Implantando um servidor ou aparelho de filial persistente com o Lync Server 2013 - Tarefas do site central](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md)
 
@@ -36,9 +75,25 @@ Para sites de filial com 1.000 a 5.000 usuários e nenhum WAN resiliente, recome
 
   - [Anexos: Servidores e Aplicativos de Filial Persistente no Lync Server 2013](lync-server-2013-appendices-survivable-branch-appliances-and-servers.md)
 
-## Consulte Também
+</div>
 
-#### Outros Recursos
+<div>
 
-[Implantando o Lync Server 2013](lync-server-2013-deploying-lync-server.md)
+## <a name="see-also"></a>Confira também
+
+
+[Implantando o Lync Server 2013](lync-server-2013-deploying-lync-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

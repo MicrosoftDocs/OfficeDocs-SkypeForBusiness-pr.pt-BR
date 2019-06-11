@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: Personalização do arquivo de definição do XSLT'
-TOCTitle: Personalização do arquivo de definição do XSLT
-ms:assetid: f18dd78c-3598-4f38-b496-96b750c6e518
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ679898(v=OCS.15)
-ms:contentKeyID: 49886476
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Personalização do arquivo de definição do XSLT'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Customizing the XSLT definition file
+ms:assetid: f18dd78c-3598-4f38-b496-96b750c6e518
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ679898(v=OCS.15)
+ms:contentKeyID: 49557733
+ms.date: 09/11/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e57acbd4cbcd66a3a3371c4ce144fcd2a23bd0ed
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829743"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Personalização do arquivo de definição do XSLT no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Personalização do arquivo de definição do XSLT no Lync Server 2013
 
-O serviço de Conformidade registra e arquiva dados relacionados a cada Lync Server 2013, conversa Servidor de Chat Persistente, incluindo quando um participante:
+</div>
 
-  - Ingressa em uma sala de Chat Persistente
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-09-11_
+
+O serviço de conformidade registra e arquiva dados relacionados a cada Lync Server 2013, conversa persistente do servidor de chat, incluindo quando um participante:
+
+  - Ingressa em uma sala de chat persistente
 
   - Sai de uma sala de chat
 
@@ -29,11 +49,13 @@ O serviço de Conformidade registra e arquiva dados relacionados a cada Lync Ser
 
   - Baixa um arquivo
 
-Os dados são entregues como XML, que você pode transformar no formato mais adequado para a sua organização, usando um arquivo de definição XSLT. Este tópico descreve o arquivo XML que o serviço de Conformidade cria. Ele também fornece exemplos de arquivos de saída e definição XSLT.
+Os dados são entregues como XML, que você pode transformar no formato que melhor se adapte à sua organização usando um arquivo de definição XSLT. Este tópico descreve o arquivo XML que o serviço de Conformidade cria. Ele também fornece exemplos de arquivos de saída e definição XSLT.
 
-## Formato de saída
+<div>
 
-A saída do serviço de Conformidade é categorizada por conversa (o elemento Conversation) e depois por mensagem (o elemento Messages), conforme mostrado no exemplo de código a seguir.
+## <a name="output-format"></a>Formato de saída
+
+A saída do serviço de conformidade é categorizada por conversa (o elemento de conversa) e, em seguida, por mensagem (o elemento Messages), conforme mostrado no exemplo de código a seguir.
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -48,14 +70,14 @@ A saída do serviço de Conformidade é categorizada por conversa (o elemento Co
       </Conversation>
     </Conversations>
 
-Um elemento Conversation contém quatro elementos (Channel, FirstMessage, StartTimeUTC e EndTimeUTC). O elemento Channel contém o URI (Uniform Resource Identifier) da sala de chat, e o elemento FirstMessage descreve a primeira mensagem no elemento Messages. Os elementos StartTimeUTC e EndTimeUTC fornecem os horários de início e término da conversa, como mostrado no exemplo de código a seguir.
+Um elemento Conversation contém quatro elementos (Channel, FirstMessage, StartTimeUTC e EndTimeUTC). O elemento Channel contém o Uniform Resource Identifier (URI) da sala de chat, e o elemento FirstMessage descreve a primeira mensagem no elemento Messages. Os elementos StartTimeUTC e EndTimeUTC fornecem as horas de início e de término para a conversa, conforme mostrado no exemplo de código a seguir.
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-Um elemento Message contém dois elementos (Sender e DateTimeUTC) e três atributos (Type, Content e ID). O elemento Sender representa o usuário que envia a mensagem e o elemento DateTimeUTC representa quando ocorre um evento, conforme mostrado no exemplo de código a seguir.
+Um elemento Message contém dois elementos (Sender e DateTimeUTC) e três atributos (Type, Content e ID). O elemento remetente representa o usuário que envia a mensagem, e o elemento DateTimeUTC representa quando ocorre um evento, conforme mostrado no exemplo de código a seguir.
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -64,7 +86,7 @@ Um elemento Message contém dois elementos (Sender e DateTimeUTC) e três atribu
 
 Os atributos de mensagem Type, Content e ID são descritos na tabela a seguir.
 
-### Atributos do elemento Messages
+### <a name="messages-element-attributes"></a>Atributos do elemento Messages
 
 <table>
 <colgroup>
@@ -86,7 +108,7 @@ Os atributos de mensagem Type, Content e ID são descritos na tabela a seguir.
 <td><p>Obrigatório</p></td>
 </tr>
 <tr class="even">
-<td><p>Content</p></td>
+<td><p>Conteúdo</p></td>
 <td><p>Contém o conteúdo da mensagem. As mensagens com um tipo Ingressar ou Participar não usam esse atributo.</p></td>
 <td><p>Opcional</p></td>
 </tr>
@@ -101,7 +123,7 @@ Os atributos de mensagem Type, Content e ID são descritos na tabela a seguir.
 
 Cada elemento Sender contém cinco atributos: nome de usuário, identificação, email, interno e URI. Esses atributos são descritos na tabela a seguir.
 
-### Atributos do elemento Sender
+### <a name="sender-element-attributes"></a>Atributos do elemento Sender
 
 <table>
 <colgroup>
@@ -133,7 +155,7 @@ Cada elemento Sender contém cinco atributos: nome de usuário, identificação,
 <td><p>Opcional</p></td>
 </tr>
 <tr class="even">
-<td><p>Interna</p></td>
+<td><p>Interno</p></td>
 <td><p>Determina se o usuário é um usuário interno ou um usuário federado. Se o valor for definido como true, o usuário será interno.</p></td>
 <td><p>Opcional</p></td>
 </tr>
@@ -148,7 +170,7 @@ Cada elemento Sender contém cinco atributos: nome de usuário, identificação,
 
 A tabela a seguir descreve os tipos de mensagem que o elemento Messages pode conter. Ela também fornece exemplos de como cada elemento é usado.
 
-### Tipos de mensagem do elemento Message
+### <a name="message-element-message-types"></a>Tipos de mensagem do elemento Message
 
 <table>
 <colgroup>
@@ -216,9 +238,11 @@ A tabela a seguir descreve os tipos de mensagem que o elemento Messages pode con
 </table>
 
 
-## XSD de saída do Chat Persistente padrão e exemplo de transformação em XSL
+<div>
 
-O exemplo de código a seguir contém a saída padrão do Servidor de Conformidade.
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>Saída do chat persistente padrão XSD e exemplo de transformação XSL
+
+O exemplo de código a seguir contém a saída padrão do servidor de conformidade.
 
     <?xml version="1.0" encoding="utf-8"?>
     <xs:schema id="Conversations"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -315,7 +339,7 @@ O exemplo de código a seguir contém a saída padrão do Servidor de Conformida
       </xs:element>
     </xs:schema>
 
-O exemplo de código a seguir contém um exemplo de transformação em XSL.
+O exemplo de código a seguir contém uma transformação XSL de amostra.
 
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
        <xsl:output method="xml" encoding="UTF-8" indent="yes" />
@@ -384,4 +408,18 @@ O exemplo de código a seguir contém um exemplo de transformação em XSL.
           <DateTimeUTC><xsl:value-of select="DateTimeUTC/@since1970" /></DateTimeUTC>
        </xsl:template>
     </xsl:stylesheet>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

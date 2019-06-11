@@ -1,51 +1,77 @@
-﻿---
-title: Criar links de região de rede no Lync Server 2013
-TOCTitle: Criar links de região de rede no Lync Server 2013
-ms:assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg413047(v=OCS.15)
-ms:contentKeyID: 49308653
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: criar links de região de rede'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create network region links
+ms:assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413047(v=OCS.15)
+ms:contentKeyID: 48185873
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7715aa258c56e98789f12d3c057047d947fd3c51
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829833"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Criar links de região de rede no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-19_
+# <a name="create-network-region-links-in-lync-server-2013"></a>Criar links de região de rede no Lync Server 2013
 
-Regiões dentro de uma rede são vinculadas através de uma conectividade WAN física. Um *link de região de rede* cria um link entre duas regiões configuradas para controle de admissão de chamada (CAC) e define os limites da largura de banda em tráfego de áudio e vídeo entre estas regiões.
+</div>
 
-Para obter detalhes sobre o trabalho com links da região de rede, consulte a documentação Shell de Gerenciamento do Lync Server para os seguintes cmdlets:
+<div id="mainSection">
 
-  - [New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)
+<div id="mainBody">
 
-  - [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
+<span> </span>
 
-  - [Set-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegionLink)
+_**Tópico da última modificação:** 2012-10-19_
 
-  - [Remove-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegionLink)
+Regiões dentro de uma rede são vinculadas através de uma conectividade WAN física. Um *link de região de rede* cria um link entre duas regiões configuradas para o controle de admissão de chamadas (CAC) e define as limitações de largura de banda do tráfego de áudio e vídeo entre essas regiões.
 
-A topologia de exemplo possui um link entre as regiões da América do Norte e APAC e um link entre as regiões EMEA e APAC. Cada um destes links de região são restritos pela largura de banda WAN, conforme descrito na tabela de Informação de largura de banda do link de região na seção [Exemplo: Coletando seus requisitos para controle de admissão de chamada no Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) da documentação de implantação.
+Para obter detalhes sobre como trabalhar com links de região de rede, consulte a documentação do Shell de gerenciamento do Lync Server para os seguintes cmdlets:
 
-## Para criar links de região de rede usando o Shell de Gerenciamento do Lync Server
+  - [New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)
 
-1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+  - [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)
+
+  - [Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)
+
+  - [Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)
+
+A topologia de exemplo possui um link entre as regiões da América do Norte e APAC e um link entre as regiões EMEA e APAC. Cada um desses links de região é restringido pela largura de banda de WAN, conforme descrito na seção informações de largura de banda do link de região no [exemplo: reunir seus requisitos para o controle de admissão de chamadas na seção do Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) da documentação de planejamento.
+
+<div>
+
+## <a name="to-create-network-region-links-by-using-lync-server-management-shell"></a>Para criar links de região de rede usando o Shell de gerenciamento do Lync Server
+
+1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
 
 2.  Execute o cmdlet New-CsNetworkRegionLink para criar os links de região e aplicar os perfis da política de largura de banda adequados. Por exemplo, execute:
     
-```
+      ```
         New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
-```
-```
-   
-       New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
-```
+      ```
+    
+      ```
+        New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
+      ```
 
-## Para criar links de região de rede usando o Painel de controle do Lync Server
+</div>
 
-1.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<div>
+
+## <a name="to-create-network-region-links-by-using-lync-server-control-panel"></a>Para criar links de região de rede usando o painel de controle do Lync Server
+
+1.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  Na barra de navegação esquerda, clique em **Configuração de rede**.
 
@@ -55,16 +81,33 @@ A topologia de exemplo possui um link entre as regiões da América do Norte e A
 
 5.  Na página **Novo link de região**, clique em **Nome** e digite um nome para o link de região de rede.
 
-6.  Clique em **Região de rede 1** e clique na região de rede da lista que deseja vincular para a Região de rede 2.
+6.  Clique na **região \#de rede 1**e, em seguida, clique na região de rede na lista que você deseja vincular \#à região de rede 2.
 
-7.  Clique em **Região de rede 2** e clique na região de rede da lista que deseja vincular para a Região de rede 1.
+7.  Clique em **rede \#2**e, em seguida, clique em uma região de rede na lista que você deseja vincular à \#região 1 da rede.
 
 8.  Opcionalmente, clique em **Política da largura de banda** e selecione o perfil da política de largura de banda que deseja aplicar para o link de região de rede.
     
+    <div class=" ">
+    
+
     > [!NOTE]  
     > Aplique uma política de largura de banda apenas se o link de região de rede é restrito por largura de banda e se deseja usar o CAC para controlar o tráfego de mídia naquele link.
+
+    
+    </div>
 
 9.  Clique em **Confirmar**.
 
 10. Para finalizar a criação de links de região de rede para sua topologia, repita as etapas 4 a 9 com as configurações de outras regiões.
 
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>

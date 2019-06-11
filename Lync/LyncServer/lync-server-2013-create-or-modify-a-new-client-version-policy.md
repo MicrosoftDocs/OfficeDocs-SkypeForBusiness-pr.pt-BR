@@ -1,56 +1,108 @@
-﻿---
-title: Criar ou modificar uma nova política de versão do cliente
-TOCTitle: Criar ou modificar uma nova política de versão do cliente
-ms:assetid: 4be6e449-aa82-4b46-abb1-d31281573a72
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ898476(v=OCS.15)
-ms:contentKeyID: 52057625
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: criar ou modificar uma nova política de versão do cliente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a new client version policy
+ms:assetid: 4be6e449-aa82-4b46-abb1-d31281573a72
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898476(v=OCS.15)
+ms:contentKeyID: 50873756
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 64e9d9d2879d4633b1775f8934186b8b01992d13
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829779"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Criar ou modificar uma nova política de versão do cliente
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-23_
+# <a name="create-or-modify-a-new-client-version-policy-in-lync-server-2013"></a>Criar ou modificar uma nova política de versão do cliente no Lync Server 2013
 
-Você pode utilizar políticas de versão de cliente para especificar as versões de clientes que são suportadas em seu ambiente. Utilizar versionamento de cliente pode ajudar a reduzir os custos associados com suportar múltiplas versões de clientes. Também pode aprimorar a experiência de usuário como um todo, porque quando versões de cliente mais recentes e antigas interagem, os recursos disponíveis podem ser limitados pela versão mais antiga do cliente. Você pode criar ou modificar políticas de versão de cliente a partir de Painel de Controle do Lync Server 2013 ou Shell de Gerenciamento do Lync Server 2013.
+</div>
 
-## Para criar ou modificar políticas de versão de cliente utilizando Painel de Controle do Lync Server
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-23_
+
+Você pode usar políticas de versão do cliente para especificar as versões dos clientes com suporte no seu ambiente. Usar o controle de versão do cliente pode ajudar a reduzir os custos associados ao suporte a várias versões de cliente. Ele também pode melhorar a experiência geral do usuário, porque quando versões anteriores e posteriores dos clientes interagem, os recursos disponíveis podem ser limitados pela versão anterior do cliente. Você pode criar ou modificar as políticas de versão do cliente no painel de controle do Lync Server 2013 ou no Shell de gerenciamento do Lync Server 2013.
+
+<div>
+
+## <a name="to-create-or-modify-client-version-policies-by-using-lync-server-control-panel"></a>Para criar ou modificar políticas de versão do cliente usando o painel de controle do Lync Server
 
 1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação esquerda, clique em **Clientes**.
+3.  Na barra de navegação à esquerda, clique em **clientes**.
     
+    <div>
+    
+
     > [!NOTE]  
-    > A guia <strong>Política de Versão de Cliente</strong> está selecionada por padrão.
+    > A guia <STRONG>política de versão do cliente</STRONG> é selecionada por padrão.
 
-4.  Na página **Política de Versão de Cliente**, siga um dos seguintes procedimentos:
     
-      - Para criar uma nova política de versão, clique em **Nova** e selecione **Política de site**, **Política de pool** ou **Política de usuário**, então clique em **OK**.
+    </div>
+
+4.  Na página **política de versão do cliente** , siga um destes procedimentos:
     
-      - Para modificar a política global ou outra política existente de versão de cliente, clique em **Editar** e depois em **Exibir detalhes**.
+      - Para criar uma política de versão do cliente, clique em **novo**, selecione **política do site**, **política de pool**ou **política do usuário**e clique em **OK**.
+    
+      - Para modificar a política global ou outra política de versão do cliente existente, selecione a política, clique em **Editar**e, em seguida, clique em **Mostrar detalhes**.
 
-5.  Na página **Editar política de versão de cliente**, crie ou modifique regras conforme descrito em [Criar ou modificar uma nova regra da política de versão do cliente](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md).
+5.  Na página **Editar política de versão do cliente** , crie ou modifique regras conforme descrito em [criar ou modificar uma nova regra de política de versão do cliente no Lync Server 2013](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md).
 
-## Para criar ou modificar políticas de versão de cliente utilizando Cmdlets Windows PowerShell
+</div>
 
-Você pode criar políticas de versão de cliente utilizando o cmdlet **New-CsClientVersionPolicy** e modificá-las utilizando o cmdlet **Set-CsClientVersionPolicy**. Esses cmdlets podem ser executados a partir do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Para criar uma nova política de versão de cliente no escopo de site
+## <a name="creating-or-modifying-client-version-policies-by-using-windows-powershell-cmdlets"></a>Criando ou modificando políticas de versão do cliente usando cmdlets do Windows PowerShell
 
-  - O comando a seguir cria uma nova política de versão de cliente aplicada ao site Redmond. Como não há parâmetros adicionais especificados, a nova política utilizará as configurações padrão de versão de cliente.
+Você pode criar políticas de versão do cliente usando o cmdlet **New-CsClientVersionPolicy** e modificá-las usando o cmdlet **set-CsClientVersionPolicy** . Esses cmdlets podem ser executados no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+
+<div>
+
+## <a name="to-create-a-new-site-scoped-client-version-policy"></a>Para criar uma nova política de versão de cliente com escopo de site
+
+  - O comando a seguir cria uma nova política de versão do cliente aplicada ao site Redmond. Como nenhum parâmetro adicional é especificado, a nova política usará as configurações de versão do cliente padrão.
     
         New-CsClientVersionPolicy -Identity "site:Redmond"
 
-## Para criar uma nova política de versão de cliente no escopo de usuário
+</div>
 
-  - Para criar uma política por usuário, utilize um comando similar a esse:
+<div>
+
+## <a name="to-create-a-new-per-user-client-version-policy"></a>Para criar uma nova política de versão de cliente por usuário
+
+  - Para criar uma política por usuário, use um comando semelhante a este:
     
         New-CsClientVersionPolicy -Identity "RedmondClientVersionPolicy"
 
-Para detalhes, veja os tópicos de Ajuda para os cmdlets [New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) e [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy).
+</div>
+
+Para obter detalhes, consulte os tópicos da ajuda para o cmdlet [New-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientVersionPolicy) e o cmdlet [set-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionPolicy) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

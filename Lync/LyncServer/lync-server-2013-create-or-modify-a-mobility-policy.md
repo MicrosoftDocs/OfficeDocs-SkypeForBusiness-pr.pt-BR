@@ -1,89 +1,151 @@
-﻿---
-title: Criar ou Modificar uma Política de Mobilidade
-TOCTitle: Criar ou Modificar uma Política de Mobilidade
-ms:assetid: fc2dfea0-2215-440d-9f4b-7c985da29211
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721946(v=OCS.15)
-ms:contentKeyID: 49886497
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: criar ou modificar uma política de mobilidade'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a mobility policy
+ms:assetid: fc2dfea0-2215-440d-9f4b-7c985da29211
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721946(v=OCS.15)
+ms:contentKeyID: 49733884
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 91d3f03735048ab4354db9653554b6227bb7399e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829793"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Criar ou Modificar uma Política de Mobilidade
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-23_
+# <a name="create-or-modify-a-mobility-policy-in-lync-server-2013"></a>Criar ou modificar uma política de mobilidade no Lync Server 2013
 
-Você pode criar ou modificar a política de mobilidade para permitir que usuários móveis usem os dispositivos móveis suportados para a funcionalidade Lync, como mensagens instântaneas (IM), presença e contatos. Você pode criar ou modificar políticas de mobilidade de Painel de Controle do Lync Server 2013 ou Shell de Gerenciamento do Lync Server 2013
+</div>
 
-## Para criar uma política de mobilidade em Painel de Controle do Lync Server
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-23_
+
+Você pode criar ou modificar a política de mobilidade para permitir que os usuários móveis usem dispositivos móveis compatíveis para a funcionalidade do Lync, como mensagens instantâneas (IM), presença e contatos. Você pode criar ou modificar políticas de mobilidade no painel de controle do Lync Server 2013 ou no Shell de gerenciamento do Lync Server 2013
+
+<div>
+
+## <a name="to-create-a-mobility-policy-with-lync-server-control-panel"></a>Para criar uma política de mobilidade com o painel de controle do Lync Server
 
 1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação esquerda, clique em **Clientes** e no botão de navegação **Política de Mobilidade**.
+3.  Na barra de navegação à esquerda, clique em **clientes**e, em seguida, clique no botão de navegação da **política de mobilidade** .
 
-4.  Na página **Política de Mobilidade**, clique em **Novo** e execute uma das seguintes ações:
+4.  Na página **política de mobilidade** , clique em **novo**e siga um destes procedimentos:
     
-    1.  Para criar uma política de mobilidade do site, clique em **Política do Site**, clique em um site e en **OK**; reveja as configurações e faça as mudanças desejadas, se aplicável.
+    1.  Para criar uma política de mobilidade do site, clique em **política do site**, clique em um site, clique em **OK**, examine as configurações padrão e, se quiser, faça as alterações.
     
-    2.  Para criar uma política de mobilidade do usuário, clique em **Política do Usuário**, digite um nome, reveja as configurações e faça as mudanças desejadas, se aplicável.
+    2.  Para criar uma política de mobilidade de usuário, clique em **política de usuário**, digite um nome, examine as configurações padrão e, se quiser, faça as alterações.
 
 5.  Clique em **Confirmar**.
 
-## Para modificar uma política de mobilidade em Painel de Controle do Lync Server
+</div>
+
+<div>
+
+## <a name="to-modify-a-mobility-policy-with-lync-server-control-panel"></a>Para modificar uma política de mobilidade com o painel de controle do Lync Server
 
 1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação esquerda, clique em **Clientes** e no botão de navegação **Política de Mobilidade**.
+3.  Na barra de navegação à esquerda, clique em **clientes**e, em seguida, clique no botão de navegação da **política de mobilidade** .
 
-4.  Na página **Política de Mobilidade**, clique em uma das políticas de mobilidade existentes.
+4.  Na página **política de mobilidade** , clique em uma das políticas de mobilidade existentes.
 
 5.  No menu **Editar**, clique em **Exibir detalhes**.
 
-6.  Edite as configurações.
+6.  Edite qualquer uma das configurações.
 
 7.  Clique em **Confirmar**.
 
-## Remover Políticas de Acesso Externo Usando Windows PowerShell e Cmdlets
+</div>
 
-As políticas de mobilidade também podem ser criadas (no escopo do site ou do usuário) usando Windows PowerShell e o cmdlet **New-CsMobilityPolicy**. Ademais, você pode usar o cmdlet **Set-CsMobilityPolicy** para modificar qualquer política existente, incluindo a política global. Esses cmdlets podem ser executados no Shell de Gerenciamento do Lync Server 2013 ou em uma sessão remota de Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Criar uma política de mobilidade no escopo do site
+## <a name="creating-external-access-policies-by-using-windows-powershell-cmdlets"></a>Criando políticas de acesso externo usando cmdlets do Windows PowerShell
 
-  - Esse comando cria uma nova política de mobilidade para o site de Redmond:
+Você pode criar políticas de mobilidade (no escopo do site ou no escopo por usuário) usando o Windows PowerShell e o cmdlet **New-CsMobilityPolicy** . Além disso, você pode usar o cmdlet **set-CsMobilityPolicy** para modificar qualquer uma de suas políticas existentes, incluindo a política global. Esses cmdlets podem ser executados no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+
+<div>
+
+## <a name="to-create-a-mobility-policy-at-the-site-scope"></a>Para criar uma política de mobilidade no escopo do site
+
+  - Este comando cria uma nova política de mobilidade para o site de Redmond:
     
         New-CsMobilityPolicy -Identity "site:Redmond"
     
-    Já que nenhum parâmetro (além do parâmetro obrigatório Identity) foi especificado no comando precedente, as políticas usarão os valores padrão para todas as suas propriedades.
+    Como nenhum parâmetro (que não seja o parâmetro Identity obrigatório) foi especificado no comando anterior, as políticas usarão os valores padrão para todas as suas propriedades.
 
-## Criar uma política de mobilidade no escopo do usuário
+</div>
 
-  - Para criar uma política de mobilidade no escopo por usuário, especifique uma Identidade exclusiva para a política:
+<div>
+
+## <a name="to-create-a-mobility-policy-at-the-per-user-scope"></a>Para criar uma política de mobilidade no escopo por usuário
+
+  - Para criar uma política de mobilidade no escopo por usuário, especifique uma identidade exclusiva para a política:
     
         New-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-## Modificar um valor único de propriedade ao criar uma política de mobilidade
+</div>
 
-  - Para criar políticas que usam diferentes valores de propriedade, inclua o parâmetro e o valor de parâmetro adequados. Por exemplo, esse comando cria a política de mobilidade que desabilita Chamada via Trabalho:
+<div>
+
+## <a name="to-change-a-single-property-value-when-creating-a-mobility-policy"></a>Para alterar um único valor de propriedade ao criar uma política de mobilidade
+
+  - Para criar políticas que usam valores de propriedades diferentes, inclua o parâmetro apropriado e o valor do parâmetro. Por exemplo, esse comando cria uma política de mobilidade que desabilita a chamada por meio do trabalho:
     
         New-CsMobilityPolicy -Identity "site:Redmond" -EnableOutsideVoice $False
 
-## Modificar valores múltiplos de propriedade ao criar uma política de mobilidade
+</div>
 
-  - Valores múltiplos de propriedade podem ser modificados incluindo parâmetros múltiplos. Por exemplo, esse comando cria uma política que desabilita mobilidade e Chamada via Trabalho:
+<div>
+
+## <a name="to-change-multiple-property-values-when-creating-a-mobility-policy"></a>Para alterar vários valores de propriedade ao criar uma política de mobilidade
+
+  - Vários valores de propriedade podem ser modificados incluindo vários parâmetros. Por exemplo, esse comando cria uma política que desabilita a mobilidade e a chamada por meio do trabalho:
     
         New-CsMobilityPolicy "site:Redmond" -EnableMobility $False -EnableOutsideVoice $False
 
-Para detalhes, consulte o tópico de ajuda para os cmdlets [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy) e [Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy).
+</div>
 
-## Consulte Também
+Para obter detalhes, consulte o tópico da ajuda para os cmdlets [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy) e [set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy) .
 
-#### Tarefas
+</div>
 
-[Configurando a política de mobilidade no Lync Server 2013](lync-server-2013-configuring-mobility-policy.md)
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Configurando a política de mobilidade no Lync Server 2013](lync-server-2013-configuring-mobility-policy.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

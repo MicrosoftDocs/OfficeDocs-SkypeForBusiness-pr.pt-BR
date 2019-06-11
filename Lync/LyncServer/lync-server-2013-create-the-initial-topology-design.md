@@ -1,80 +1,140 @@
-﻿---
-title: 'Lync Server 2013: Criar o design de topologia inicial'
-TOCTitle: Criar o design de topologia inicial
-ms:assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg615047(v=OCS.15)
-ms:contentKeyID: 52057767
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: criar o design inicial da topologia'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create the initial design
+ms:assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615047(v=OCS.15)
+ms:contentKeyID: 51541530
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 656e9605695fe7dab160469ffa9e9c5075ac807b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829768"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Criar o design de topologia inicial para Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-21_
+# <a name="create-the-initial-topology-design-for-lync-server-2013"></a>Criar o design de topologia inicial para o Lync Server 2013
 
-Após concluir a instalação do Lync Server 2013, Ferramenta de Planejamento, você estará pronto para iniciar a Ferramenta de Planejamento e começar a projetar a infraestrutura do Lync Server 2013 proposta.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-21_
+
+Após concluir a instalação do Lync Server 2013, ferramenta de planejamento, você estará pronto para iniciar a ferramenta de planejamento e começar a projetar a infraestrutura proposta do Lync Server 2013.
+
+<div>
+
 
 > [!NOTE]  
-> A Ferramenta de Planejamento é uma ferramenta orientada por assistente, com guias detalhados para informá-lo no processo de tomada de decisões durante o design dos seus sites e da sua topologia. Este tópico não tem a intenção de servir como guia detalhado, mas simplesmente de ajudá-lo a começar a usar a Ferramenta de Planejamento em suas sessões de design.
+> A ferramenta de planejamento é uma ferramenta orientada por assistente com guias detalhadas para informar o processo de tomada de decisões na criação de sites e topologias. Este tópico não se destina como um guia exaustivo, mas basta ajudá-lo a começar a usar a ferramenta de planejamento em suas sessões de design.
 
-## Para iniciar usando a Ferramenta de Planejamento e criar o design inicial
 
-1.  Inicie o Lync Server 2013, Ferramenta de Planejamento: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Ferramenta de Planejamento**.
 
-2.  Após a Ferramenta de Planejamento ser iniciada, a página **Bem-vindo à Ferramenta de Planejamento do Microsoft Lync Server 2013** será exibida. Escolha uma das seguintes opções para começar seu design:
+</div>
+
+<div>
+
+## <a name="to-get-started-using-the-planning-tool-and-create-the-initial-design"></a>Para começar a usar a ferramenta de planejamento e criar o design inicial
+
+1.  Inicie o Lync Server 2013, ferramenta de planejamento: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e em **ferramenta de planejamento**.
+
+2.  Após o início da ferramenta de planejamento, a página **Bem-vindo à ferramenta de planejamento para o Microsoft Lync Server 2013** é exibida. Escolha uma das seguintes opções para começar seu design:
     
-      - **Opção 1: Iniciando**   Clicar em **Iniciando** oferece uma série específica de perguntas de entrevista com as seleções relevantes para definir o critério. Após ter finalizado a seção de entrevista **Iniciando** inicial, você continua com **Design de sites** para definir sua arquitetura de site. Para concluir esta opção, continue na etapa 3.
+      - **Opção 1:**   comece a clicar **** em introdução fornece uma série específica de perguntas de entrevista com seleções relevantes para definir os critérios. Após ter finalizado a seção de entrevista  **Iniciando** inicial, você continua com  **Design de sites** para definir sua arquitetura de site. Para concluir esta opção, continue na etapa 3.
     
-      - **Opção 2: Projetar sites**   Se você clicar em **Projetar sites** na página de Boas-vindas, as perguntas de entrevista apresentadas na seção **Introdução** serão ignoradas. Com esta opção, as informações que teriam sido recolhidas com as respostas às perguntas da entrevistas na seção **Introdução** são definidas como os valores padrão. Ao clicar em **Projetar sites** , o designer experiente pode ignorar a entrevista inicial e alterar os valores padrões conforme necessário na página inicial **Sites centrais** . Para concluir esta opção, pule as etapas de 3 a 5 e comece na etapa 6.
+      - **Opção 2: sites**   de design clicar em **sites de design** na página de boas-vindas ignora as **** perguntas da entrevista apresentadas na seção Introdução. Com esta opção, as informações que teriam sido recolhidas com as respostas às perguntas da entrevistas na seção **Introdução** são definidas como os valores padrão. Ao clicar em **Projetar sites**, o designer experiente pode ignorar a entrevista inicial e alterar os valores padrões conforme necessário na página inicial  **Sites centrais**. Para concluir esta opção, pule as etapas de 3 a 5 e comece na etapa 6.
     
-      - **Opção 3: Exibir sua topologia salva**   Se você já concluiu e salvou uma topologia usada anteriormente na Ferramenta de Planejamento, poderá ignorar a maioria dessas etapas e começar abrindo e exibindo a topologia. Você também pode fazer alterações e atualizações na topologia, salvá-la novamente e exportá-la para o Microsoft Excel ou Microsoft Visio. Para concluir esta opção, pule as etapas de 3 a 12 e comece na etapa 13.
+      - **Opção 3: exibir sua topologia**   salva se você já tiver concluído e salvo uma topologia por meio do uso anterior da ferramenta de planejamento, poderá ignorar a maioria dessas etapas e começar abrindo e exibindo a topologia. Você também pode fazer alterações e atualizações na topologia, salvá-la novamente e exportá-la para o Microsoft Excel ou Microsoft Visio. Para concluir esta opção, pule as etapas de 3 a 12 e comece na etapa 13.
 
-3.  Clique em **Iniciando** para começar o design da sua topologia do Lync Server 2013.
+3.  Clique **** em introdução para começar a criar sua topologia do Lync Server 2013.
 
-4.  Responda cada seção selecionando os critérios apropriados para seu design e clique em **Avançar** para prosseguir à próxima página do assistente. Clique em **Voltar** para fazer alterações nas páginas anteriores.
+4.  Responda cada seção selecionando os critérios apropriados para seu design e clique em **Avançar ** para prosseguir à próxima página do assistente. Clique em **Voltar** para fazer alterações nas páginas anteriores.
+    
+    <div>
     
 
     > [!TIP]  
-    > Cada página possui uma descrição do critério de seleção e recomendações com base nas práticas preferidas e no planejamento de capacidade. Se você precisa de mais detalhes, clique em <STRONG>Saber mais</STRONG> para ler a informação detalhada da documentação de Planejamento do Lync Server 2013 no site da Microsoft TechNet. Você deve ter uma conectividade com a Internet para acessar o site da Microsoft TechNet.
+    > Cada página possui uma descrição do critério de seleção e recomendações com base nas práticas preferidas e no planejamento de capacidade. Se você precisar de mais detalhes, clique em <STRONG>saiba mais</STRONG> para ler informações detalhadas na documentação de planejamento do Lync Server 2013 no site do Microsoft TechNet. Você deve ter uma conectividade com a Internet para acessar o site da Microsoft TechNet.
 
-
+    
+    </div>
 
 5.  Selecione as opções adequadas para seu design. Após o critério inicial ser definido, uma página confirmará que sua Visão Geral dos Recursos está concluída.
 
-6.  Clique em **Design de sites** para definir seu site central.
+6.  Clique em **design sites** para definir seu site central.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Cada topologia do Lync Server 2013 terá pelo menos um site central. Seu design pode ter um único site central, um site central com vários sites de lote, vários sites centrais ou vários sites centrais com sites de lote associados com cada site central.
+    > Cada topologia do Lync Server 2013 terá pelo menos um site central. Seu design pode ter um único site central, um site central com vários sites de filiais, vários sites centrais ou vários sites centrais com sites de filiais associados a cada site central.
 
-7.  Em **Nome do site** , digite o nome que identificará este site central.
+    
+    </div>
 
-8.  Em **Usuários Hospedados no SIte** , digite o número esperado de usuários simultâneos locais que serão hospedados neste site central.
+7.  Em **nome do site**, digite o nome que identificará esse site central.
 
-9.  Em **Usuários Hospedados na Nuvem** , digite o número esperado de usuários simultâneos online que serão hospedados neste site central.
+8.  Em **usuários**de residências do site, digite o número esperado de usuários simultâneos locais que serão hospedados neste site central.
+
+9.  Em **usuários de casa na nuvem**, digite o número esperado de usuários simultâneos online que serão hospedados neste site central.
 
 10. Modifique as seleções para Colaboração Online, Usuários, Voz, Opções de Implantação Adicional ou Aplicativos do Servidor conforme necessário.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Neste ponto do design, você pode apenas selecionar ou desmarcar opções de sua implantação. No entanto, você pode configurar outras opções em uma fase posterior da Ferramenta de Planejamento. Existem também opções que não estão disponíveis e não podem ser desmarcadas. Além disso, talvez você precisa desmarcar uma opção para desmarcar outra. Por exemplo, se você desmarcar a opção <strong>Enterprise Voice</strong> em Voz, as opções <strong>Grupo de Resposta</strong> , <strong>Anúncio</strong> e <strong>Estacionamento de Chamada</strong> em Aplicativos do Servidor (todas elas recursos do Enterprise Voice) também serão desmarcadas.
+    > Neste ponto do design, você pode apenas selecionar ou desmarcar opções de sua implantação. No entanto, você pode configurar mais opções em uma fase posterior da ferramenta de planejamento. Existem também opções que não estão disponíveis e não podem ser desmarcadas. Além disso, talvez você precisa desmarcar uma opção para desmarcar outra. Por exemplo, se você desmarcar a opção <STRONG>Enterprise Voice</STRONG> em Voz, as opções <STRONG>Grupo de Resposta</STRONG>, <STRONG>Anúncio</STRONG> e <STRONG>Estacionamento de Chamada</STRONG> em Aplicativos do Servidor (todas elas recursos do Enterprise Voice) também serão desmarcadas.
 
-11. Após definir um nome de site e número de usuários, clique em **Avançar** .
+    
+    </div>
 
-12. As páginas a seguir solicitam informações sobre domínios SIP, configurações de conferência, configurações e infraestrutura de voz, UM do Exchange, acesso de usuário externo, configurações do Chat Persistente, configurações de cliente, opções de colocação e sites de filial. Responda a essas perguntas conforme apropriado.
+11. Após definir um nome de site e número de usuários, clique em  **Avançar**.
 
-13. A pergunta final está relacionada à criação de outro site central. Se você selecionar **Sim** , a Ferramenta de Planejamento voltará à página Sites centrais. Se selecionar **Não** , clique em **Avançar** e, depois, em **Desenho** para obter uma exibição de alto nível da topologia global.
+12. As páginas a seguir pedem informações sobre domínios SIP, configurações de conferência, configurações de voz e infraestrutura, Exchange UM, acesso de usuário externo, configurações de chat persistente, configurações de cliente, opções de colocação e sites de ramificação. Responda a essas perguntas conforme apropriado.
 
-14. Para exibir uma topologia existente, clique em **Exibir** .
+13. A pergunta final pergunta se você deseja criar outro site central. Se você selecionar **Sim**, a ferramenta de planejamento retornará para a página sites centrais. Se selecionar **Não **, clique em **Avançar ** e, depois, em **Desenho ** para obter uma exibição de alto nível da topologia global.
 
-15. Clique no arquivo .xml que representa a topologia salva anteriormente e clique em **Abrir** .
+14. Para exibir uma topologia existente, clique em  **Exibir**.
 
-16. A Ferramenta de Planejamento exibe a página Topologia global. Agora, você pode começar a editar, atualizar ou alterar a topologia usando as ferramentas disponíveis na Ferramenta de Planejamento.
+15. Clique no arquivo .xml que representa a topologia salva anteriormente e clique em **Abrir**.
 
-## Consulte Também
+16. A ferramenta de planejamento exibe a página global Topology. Agora você pode começar a editar, atualizar ou alterar a topologia usando as ferramentas disponíveis na ferramenta de planejamento.
 
-#### Conceitos
+</div>
 
-[Editando o design no Lync Server 2013](lync-server-2013-editing-the-design.md)
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Editando o design no Lync Server 2013](lync-server-2013-editing-the-design.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

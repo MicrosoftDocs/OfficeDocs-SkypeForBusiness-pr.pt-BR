@@ -1,68 +1,112 @@
-﻿---
-title: "Lync Server 2013: Criar/modif, config, PIN de conf, disc. p/ site ou g. usuários"
-TOCTitle: Criar ou modificar as configurações de PIN de conferência discada para um site ou grupo de usuários
-ms:assetid: c29bab5c-2b93-48e0-ae0b-29564daaff9a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412959(v=OCS.15)
-ms:contentKeyID: 49308011
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Criar ou modificar as configurações de PIN de conferência discada para um site ou grupo de usuários'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify dial-in conferencing PIN settings for a site or group of users
+ms:assetid: c29bab5c-2b93-48e0-ae0b-29564daaff9a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412959(v=OCS.15)
+ms:contentKeyID: 48185326
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2af1dc8e3f9bde06e799c758b711f94b7c0e6411
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34829780"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Criar ou modificar as configurações de PIN de conferência discada no Lync Server 2013 para um site ou grupo de usuários
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-18_
+# <a name="create-or-modify-dial-in-conferencing-pin-settings-in-lync-server-2013-for-a-site-or-group-of-users"></a>Criar ou modificar as configurações de PIN de conferência discada no Lync Server 2013 para um site ou grupo de usuários
 
-Siga estas etapas para criar ou modificar uma política de PIN (número de identificação pessoal) de conferência discada no nível do usuário ou no nível do local. Para obter detalhes sobre como alterar a política de PIN global, consulte [Modificar as configurações de PIN de conferência discada no Lync Server 2013](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md).
+</div>
 
-## Para criar uma política de PIN de site ou usuário
+<div id="mainSection">
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Lync Server 2013.
+<div id="mainBody">
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Na barra de navegação esquerda, clique em **Conferência** e **Política de PIN** .
+_**Tópico da última modificação:** 2012-10-18_
 
-4.  Na página **Política de PIN** , clique em **Novo** e execute uma das seguintes ações:
+Siga estas etapas para criar ou modificar uma política de número de identificação pessoal (PIN) de conferência discada em nível de usuário ou em nível de site. Para obter detalhes sobre como alterar a política de PIN global, consulte [modificar as configurações de PIN de conferência discada padrão no Lync Server 2013](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md).
+
+<div>
+
+## <a name="to-create-a-user-or-site-pin-policy"></a>Para criar uma política de PIN de site ou usuário
+
+1.  Em uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Lync Server 2013.
+
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Na barra de navegação esquerda, clique em **Conferência** e **Política de PIN**.
+
+4.  Na página **Política de PIN**, clique em **Novo** e execute uma das seguintes ações:
     
-      - Para criar uma política de nível de usuário, clique em **Política de usuário** . Em **Nova Política de PIN** , em **Nome** , digite um nome que descreve a política.
+      - Para criar uma política de nível de usuário, clique em **Política de usuário**. Em **Nova Política de PIN**, em **Nome**, digite um nome que descreve a política.
     
-      - Para criar uma política de nível de site, clique em **Política de site** . No campo de pesquisa **Selecionar um Site** , digite todo ou parte do nome do site para o qual você deseja criar uma política. Na lista de sites, clique no site que você deseja e clique em **OK** .
+      - Para criar uma política de nível de site, clique em **Política de site**. No campo de pesquisa **Selecionar um Site**, digite todo ou parte do nome do site para o qual você deseja criar uma política. Na lista de sites, clique no site que você deseja e clique em **OK**.
 
-5.  No campo **Descrição** , digite uma descrição da política de PIN.
+5.  No campo **Descrição**, digite uma descrição da política de PIN.
 
-6.  No campo **Tamanho mínimo do PIN** , digite ou selecione o tamanho mínimo do PIN que você deseja permitir. O tamanho mínimo padrão é de cinco dígitos.
+6.  No campo **Tamanho mínimo do PIN**, digite ou selecione o tamanho mínimo do PIN que você deseja permitir. O tamanho mínimo padrão é de cinco dígitos.
 
-7.  Para poder especificar o número máximo de tentativas de logon antes que um usuário seja bloqueado, marque a caixa de seleção **Especificar o máximo de tentativas de logon** . Se você não selecionar essa opção, o número máximo de tentativas permitidas será determinado automaticamente com base no tamanho do PIN. Por padrão, o número máximo de tentativas é determinado automaticamente.
+7.  Para poder especificar o número máximo de tentativas de logon antes que um usuário seja bloqueado, marque a caixa de seleção **Especificar o máximo de tentativas de logon**. Se você não selecionar essa opção, o número máximo de tentativas permitidas será determinado automaticamente com base no tamanho do PIN. Por padrão, o número máximo de tentativas é determinado automaticamente.
 
-8.  Se você marcou a caixa de seleção **Especificar o máximo de tentativas de logon** , em **Máximo de tentativas de logon** , digite ou selecione o número máximo de tentativas de logon que você deseja permitir.
+8.  Se você marcou a caixa de seleção **Especificar o máximo de tentativas de logon**, em **Máximo de tentativas de logon**, digite ou selecione o número máximo de tentativas de logon que você deseja permitir.
 
-9.  Para fazer com que os PINs expirem, marque a caixa de seleção **Habilitar validade do PIN** . Se você não selecionar essa opção, os PINs nunca expirarão. Por padrão, os PINs nunca expiram.
+9.  Para fazer com que os PINs expirem, marque a caixa de seleção **Habilitar validade do PIN**. Se você não selecionar essa opção, os PINs nunca expirarão. Por padrão, os PINs nunca expiram.
 
-10. Se você marcou a caixa de seleção **Habilitar validade do PIN** , em **O PIN expira após (dias)** , digite ou selecione o número de dias após o qual o PIN expirará.
+10. Se você marcou a caixa de seleção **Habilitar validade do PIN**, em **O PIN expira após (dias)**, digite ou selecione o número de dias após o qual o PIN expirará.
 
-11. Em **Contagem do histórico de PINs** , digite o número de PINs que um usuário precisa criar antes de poder reutilizar um PIN. Por padrão, os usuários podem reutilizar seus PINs.
+11. Em **Contagem do histórico de PINs**, digite o número de PINs que um usuário precisa criar antes de poder reutilizar um PIN. Por padrão, os usuários podem reutilizar seus PINs.
 
-12. Para permitir padrões comuns de dígitos nos PINs, como números sequenciais e conjuntos repetitivos de números, marque a caixa de seleção **Permitir padrões comuns** . Se você não selecionar essa opção, somente os padrões complexos de dígitos serão permitidos. Por padrão, somente os padrões complexos de dígitos são permitidos.
+12. Para permitir padrões comuns de dígitos nos PINs, como números sequenciais e conjuntos repetitivos de números, marque a caixa de seleção **Permitir padrões comuns**. Se você não selecionar essa opção, somente os padrões complexos de dígitos serão permitidos. Por padrão, somente os padrões complexos de dígitos são permitidos.
     
-    > [!IMPORTANT]  
+    <div>
+    
+
+    > [!IMPORTANT]
     > Recomendamos que você não permita os padrões comuns.
 
-13. Clique em **Confirmar** .
+    
+    </div>
 
-## Para alterar uma política de PIN de site ou usuário
+13. Clique em **Confirmar**.
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que está na rede na qual você implantou o Lync Server 2013.
+</div>
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<div>
 
-3.  Na barra de navegação esquerda, clique em **Conferência** e **Política de PIN** .
+## <a name="to-change-a-user-or-site-pin-policy"></a>Para alterar um usuário ou uma política de PIN do site
 
-4.  Na página **Política de PIN** , clique na política de PIN que você deseja alterar, clique em **Editar** e clique em **Mostrar detalhes** .
+1.  Em uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Lync Server 2013.
 
-5.  Em **Editar Política de PIN** , modifique quaisquer configurações de política (exceto o nome da política, que não pode ser modificado).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-6.  Clique em **Confirmar** .
+3.  Na barra de navegação esquerda, clique em **Conferência** e **Política de PIN**.
+
+4.  Na página **Política de PIN**, clique na política de PIN que você deseja alterar, clique em **Editar** e clique em **Mostrar detalhes**.
+
+5.  Em **Editar Política de PIN**, modifique quaisquer configurações de política (exceto o nome da política, que não pode ser modificado).
+
+6.  Clique em **Confirmar**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

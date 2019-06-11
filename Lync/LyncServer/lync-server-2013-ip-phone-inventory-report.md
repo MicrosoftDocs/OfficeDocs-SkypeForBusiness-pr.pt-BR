@@ -1,46 +1,76 @@
-﻿---
-title: 'Lync Server 2013: Relatório de Inventário de Telefones IP'
-TOCTitle: Relatório de Inventário de Telefones IP
-ms:assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg615027(v=OCS.15)
-ms:contentKeyID: 49307759
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: relatório de inventário de telefone IP'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: IP Phone Inventory Report
+ms:assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615027(v=OCS.15)
+ms:contentKeyID: 48185044
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 335b74b742f3b32437892e27f7db3ecadc5f3b3d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828961"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Relatório de Inventário de Telefones IP no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Relatório de inventário de telefone IP no Lync Server 2013
 
-O Relatório de inventário de telefones IP relata informações sobre os telefones IP em uso no momento em sua organização. O Relatório de inventário de telefones IP fornece uma lista detalhada de telefones IP que foram usados durante o período de relatório especificado. Entre outras coisas, esse relatório permite que os administradores saibam se há algum telefone velho e desatualizado em uso que deveria ser substituído; ele também alerta os administradores para o fato de que há telefones caros na organização, que raramente são usados. Esse tipo de informação pode ser inestimável quando se trata de comprar novos telefones ou redistribuir os existentes. (Por exemplo, um usuário que raramente usa seu telefone caro pode pedir para trocar com um usuário que usa seu telefone com muito mais frequência).
+</div>
 
-Deve-se observar que esse relatório tem algumas limitações quando se trata de ser usado como um relatório de inventário verdadeiro. Por um lado, o Relatório de Telefone IP simplesmente lista todos os telefones logados no Lync Server durante o período de tempo especificado, classificados por sua última hora de logon. Se um telefone não fizer logon durante o período de tempo especificado, então ele não será listado no relatório de inventário. Isso inclui telefones que fizeram logon antes do período de tempo iniciar e que ainda estavam logados durante esse intervalo especificado. Por exemplo, suponha que você queira examinar todo o inventário de telefones de julho de 2012. Suponha também que vários telefones logados no Lync Server em 30 de junho de 2012 estavam ainda logados no dia 1º de julho. Esses telefones não serão exibidos no relatório de inventário do dia 1º de julho.
+<div id="mainSection">
 
-É também importante observar que o relatório de inventário pode incluir telefones que sua organização não usa mais. Por exemplo, suponha uma série de telefones da Fabrikam logados no sistema no dia 1 de julho de 2012; 5 dias mais tarde sua organização decide se livrar de todos esses telefones da Fabrikam e substituí-los por um novo modelo Contoso. Os telefones da Fabrikam ainda aparecerão no relatório de "inventário" simplesmente porque eles estavam logados no sistema durante o mês de julho.
+<div id="mainBody">
 
-Além disso, o Relatório de inventário de telefones IP não relata totais resumidos de diferentes tipos de telefones. Por exemplo, suponha que você tenha 105 telefones Polycom CX600. O relatório não dirá que você tem 105 desses telefones; em vez disso, ele simplesmente vê 105 entidades separadas do Polycom CX600. A única maneira de saber que há 105 entradas do Polycom Cx600 seria contar cada uma dessas entradas manualmente.
+<span> </span>
+
+_**Tópico da última modificação:** 2012-11-12_
+
+O Relatório de Inventário de Telefones IP relata informações sobre os telefones IP em uso no momento em sua organização. O Relatório de Inventário de Telefones IP fornece uma lista detalhada de telefones IP que foram usados durante o período de relatório especificado. Entre outras coisas, esse relatório permite que os administradores saibam se há algum telefone velho e desatualizado em uso que deveria ser substituído; ele também alerta os administradores para o fato de que há telefones caros na organização, que raramente são usados. Esse tipo de informação pode ser inestimável quando se trata de comprar novos telefones ou redistribuir os existentes. (Por exemplo, um usuário que raramente usa seu telefone caro pode pedir para trocar com um usuário que usa seu telefone com muito mais frequência).
+
+Deve-se observar que esse relatório tem algumas limitações quando se trata de ser usado como um relatório de inventário verdadeiro. Para uma coisa, o relatório de telefone IP simplesmente lista todos os telefones conectados ao Lync Server durante o período de tempo especificado, classificados pelo último horário de logon. Se um telefone não fizer logon durante o período especificado, ele não será listado no relatório de inventário. Isso inclui telefones que fizeram logon antes de o período iniciar e que ainda estavam conectados durante esse intervalo especificado. Por exemplo, suponha que você queira examinar todo o inventário de telefone de julho de 2012. Suponha também que vários telefones conectados ao Lync Server em 30 de junho de 2012 e ainda estavam conectados a partir de 1º de julho. Esses telefones não serão exibidos no relatório de inventário do dia 1º de julho.
+
+Também é importante observar que o relatório de inventário pode incluir telefones que sua organização não usa mais. Por exemplo, suponha que um número de telefones da Fabrikam conectados ao sistema em 1 ° de julho de 2012; cinco dias mais tarde sua organização se livraru de todos esses telefones da Fabrikam e os substituiu por um modelo da Contoso mais recente. Os telefones da Fabrikam ainda aparecerão no relatório de "inventário" simplesmente porque eles fizeram logon no sistema durante o mês de julho.
+
+Além disso, o Relatório de Inventário de Telefones IP não relata totais resumidos de diferentes tipos de telefones. Por exemplo, suponhamos que você tenha 105 telefones Polycom CX600. O relatório não dirá que você tem 105 desses telefones; ele simplesmente verá 105 entidades separadas do Polycom CX600. A única maneira de saber que há 105 entradas do Polycom Cx600 seria contar cada uma dessas entradas manualmente.
+
+<div>
 
 
 > [!WARNING]  
-> Ou exportar os dados e usar o Microsoft Excel ou Windows PowerShell para fazer essa contagem.
+> Você também pode exportar os dados e usar o Microsoft Excel ou Windows PowerShell para fazer essa contagem.
 
 
 
-## Como acessar o Relatório de inventário de telefones IP
+</div>
 
-O Relatório de inventário de telefones IP é acessado a partir da página inicial dos Relatórios de Monitoramento. Se você clicar na métrica URI do Usuário, você pode acessar o Relatório de atividades do usuário desse usuário. Clicar na métrica Última atividade para uma chamada ponto a ponto levará você ao Relatório de detalhes de sessão ponto a ponto; clicar na mesma métrica de uma conferência levará ao Relatório de detalhes de conferência.
+<div>
 
-## Como usar melhor o Relatório de inventário de telefones IP
+## <a name="accessing-the-ip-phone-inventory-report"></a>Como acessar o Relatório de Inventário de Telefones IP
 
-Se você estiver interessado apenas nas informações de uso de um tipo de telefone específico (por exemplo, "Qual é a frequência que os usuários usam um telefone Polycom CX600?"), você poderá obter essas informações diretamente do Relatório de inventário de telefones IP, filtrando esse tipo específico de telefone. No entanto, se desejar informações resumidas sobre todos os seus telefones (quantas pessoas estão usando o Polycom CX600, quantas usam o LG-Nortel IP8540 etc.), então será necessário exportar os dados e usar outro aplicativo (como Windows PowerShell) para fazer esse tipo de análise. Por exemplo, suponha que você exporte os dados para um arquivo com valores separados por vírgula (C:\\Data\\IP\_Phone\_Inventory\_Report.csv). Neste caso, você poderá usar esses dois comandos para fornecer dados de resumo de todos seus telefones:
+O Relatório de Inventário de Telefones IP é acessado a partir da página inicial de Relatórios de Monitoramento. Se clicar na métrica URI do Usuário, você poderá acessar o Relatório de Atividades do Usuário desse usuário. Clicar na métrica Última atividade para uma chamada ponto a ponto levará você ao Relatório Detalhado de Sessão Ponto a Ponto; clicar na mesma métrica de uma conferência levará ao Relatório Detalhado de Conferências.
+
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a>Como usar o Relatório de Inventário de Telefones IP da melhor maneira possível
+
+Se você estiver interessado apenas em informações de uso de um determinado tipo de telefone (por exemplo, "com que frequência os usuários usam um telefone Polycom CX600?"), você pode obter essas informações diretamente no relatório de inventário de telefone IP filtrando esse tipo específico de telefone. No entanto, se você quiser informações resumidas para todos os seus telefones (quantas pessoas estão usando um Polycom CX600, quantos estão usando um LG-Nortel IP8540, etc.), você precisará exportar os dados e usar outro aplicativo (como o Windows PowerShell) para fazer esse tipo de análise. Por exemplo, suponha que você exporte os dados para um arquivo de valores separados por vírgula\\(\\C\_:\_relatório\_de inventário de telefone IP de dados. csv). Nesse caso, você poderia usar esses dois comandos para fornecer dados de resumo para todos os seus telefones:
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
 
-That will return data similar to this:
+Isso retornará dados similares a estes:
 
     Count    Name
     -----    ----
@@ -56,12 +86,12 @@ That will return data similar to this:
         9    POLYCOM, CX500
         7    Aastra, 6721ip
 
-Similarmente, esses dois comandos dizem quais telefones fizeram logon no sistema, mas nunca foram realmente usados para fazer uma chamada (o valor da métrica Última atividade está em branco, indicando que nunca houve nenhuma última atividade):
+Similarmente, estes dois comandos dizem quais telefones fizeram logon no sistema, mas nunca foram realmente usados para fazer uma chamada (o valor da métrica Última atividade está em branco, indicando que nunca houve nenhuma última atividade):
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones | Where-Object {$_."Last activity" -eq ""}
 
-Isso retorna dados similares a esses para cada telefone que não foi usado:
+Isso retorna dados similares a estes para cada telefone que não foi usado:
 
     Manufacturer     : POLYCOM
     Hardware version : CX600
@@ -72,15 +102,19 @@ Isso retorna dados similares a esses para cada telefone que não foi usado:
     Last logoff time : 8/30/2010 5:59:07 PM
     Last activity    :
 
-Outra maneira interessante de usar o Relatório de inventário de telefones IP é esse: se você tiver o endereço MAC de um telefone IP, você poderá descobrir o usuário que usou o telefone por último, simplesmente inserindo esse endereço na caixa de texto do endereço MAC. O Relatório de inventário de telefones IP irá então relatar de volta (entre outras coisas) o endereço SIP do usuário que fez o logon por último com esse telefone. Como alternativa, você pode inserir o endereço SIP do usuário (na caixa de prefixo do URI do usuário) para descobrir todos os telefones que foram usados por esse usuário.
+Outra maneira interessante de usar o Relatório de Inventário de Telefones IP é este: sabendo o endereço MAC de um telefone IP, você poderá descobrir o usuário que usou o telefone por último, simplesmente inserindo esse endereço na caixa de texto Endereço MAC. O Relatório de Inventário de Telefones IP relatará (entre outras coisas) o endereço SIP do usuário que fez logon por último com esse telefone. Como alternativa, você pode inserir o endereço SIP do usuário (na caixa Prefixo URI do Usuário) para descobrir todos os telefones que foram usados por esse usuário.
 
-## Filtros
+</div>
 
-Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibir os dados retornados de diferentes formas. Por exemplo, o Inventário de Telefones IP permite exibir somente os telefones fabricados por uma empresa específica ou até mesmo uma versão específica desses telefones. Você também pode escolher como os dados serão agrupados. Neste caso, os registros são agrupados por hora, dia, semana ou mês.
+<div>
+
+## <a name="filters"></a>Filtros
+
+Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibir os dados retornados de diferentes formas. Por exemplo, o Inventário de Telefones IP permite exibir somente os telefones fabricados por uma empresa específica ou até mesmo uma versão específica desses telefones. Você também pode escolher como os dados serão agrupados. Nesse caso, os registros são agrupados por hora, dia, semana ou mês.
 
 A tabela seguir lista os filtros que podem ser usados com o Relatório de Inventário de Telefones IP.
 
-### Filtros do Relatório de Inventário de Telefones IP
+### <a name="ip-phone-inventory-report-filters"></a>Filtros do Relatório de Inventário de Telefones IP
 
 <table>
 <colgroup>
@@ -116,20 +150,20 @@ A tabela seguir lista os filtros que podem ser usados com o Relatório de Invent
 </tr>
 <tr class="odd">
 <td><p><strong>Fabricante</strong></p></td>
-<td><p>Nome da empresa que fabricou o telefone IP. Os valores para este filtro são preenchidos automaticamente, com base nos telefones IP que estão atualmente no banco de dados.</p></td>
+<td><p>Nome da empresa que fabricou o telefone IP. Os valores desse filtro são preenchidos automaticamente, com base nos telefones IP que estão atualmente no banco de dados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Versão do hardware</strong></p></td>
-<td><p>Número da versão to telefone IP; usando os filtros Fabricante e Versão do hardware, é possível identificar de forma única um tipo em particular de telefone. Os valores para este filtro são preenchidos automaticamente com base nos telefones IP que estão atualmente no banco de dados.</p></td>
+<td><p>Número da versão do telefone IP; usando os filtros Fabricante e Versão do hardware, é possível identificar de forma única um tipo específico de telefone. Os valores desse filtro são preenchidos automaticamente, com base nos telefones IP que estão atualmente no banco de dados.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Agente do usuário</strong></p></td>
-<td><p>Identificador do software usado pelo telefone IP. Os valores para este filtro são preenchidos automaticamente com base nos telefones IP que estão atualmente no banco de dados.</p></td>
+<td><p><strong>Agente de usuário</strong></p></td>
+<td><p>Identificador do software usado pelo telefone IP. Os valores desse filtro são preenchidos automaticamente, com base nos telefones IP que estão atualmente no banco de dados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Endereço MAC</strong></p></td>
-<td><p>Identificador único da interface de rede no telefone IP. O endereço de Controle de Acesso de Mídia (MAC) normalmente é atribuído no momento em que o telefone é fabricado e está programado no hardware do dispositivo.</p>
-<p>Para pesquisar registros pertencentes a um endereço MAC específico, simplesmente insira o endereço. Por exemplo:</p>
+<td><p>Identificador único da interface de rede no telefone IP. O endereço de Controle de Acesso à Mídia (MAC) normalmente é atribuído no momento em que o telefone é fabricado e é programado no hardware do dispositivo.</p>
+<p>Para pesquisar registros pertencentes a um endereço MAC específico, baste inserir o endereço. Por exemplo:</p>
 <p>00-08-5D-16-16-48</p>
 <p>Você deve inserir o endereço completo. Um endereço parcial (por exemplo, 00-08-5D) não retorna dados.</p></td>
 </tr>
@@ -138,34 +172,38 @@ A tabela seguir lista os filtros que podem ser usados com o Relatório de Invent
 <td><p>Selecione um dos seguintes valores:</p>
 <ul>
 <li><p>[Todos]</p></li>
-<li><p>10</p></li>
-<li><p>20</p></li>
+<li><p>254</p></li>
+<li><p>cedido</p></li>
 <li><p>30</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>Dias antes da hora do último logoff:</strong></p></td>
+<td><p><strong>Dias antes da hora do último logoff</strong></p></td>
 <td><p>Selecione um dos seguintes valores:</p>
 <ul>
 <li><p>[Todos]</p></li>
-<li><p>10</p></li>
-<li><p>20</p></li>
+<li><p>254</p></li>
+<li><p>cedido</p></li>
 <li><p>30</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Prefixo de URI do usuário</strong></p></td>
+<td><p><strong>Prefixo URI do usuário</strong></p></td>
 <td><p>Endereço SIP do usuário que utilizou o telefone IP.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Métricas
+</div>
+
+<div>
+
+## <a name="metrics"></a>Métricas
 
 A tabela a seguir lista as informações fornecidas no Relatório de Inventário de Telefones IP.
 
-### Métricas do Relatório de Inventário de Telefones IP
+### <a name="ip-phone-inventory-report-metrics"></a>Métricas do Relatório de Inventário de Telefones IP
 
 <table>
 <colgroup>
@@ -194,10 +232,10 @@ A tabela a seguir lista as informações fornecidas no Relatório de Inventário
 <tr class="odd">
 <td><p><strong>Endereço MAC</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Identificador único da interface de rede no telefone IP. O endereço MAC normalmente é atribuído no momento em que o telefone é fabricado e está programado no hardware do dispositivo.</p></td>
+<td><p>Identificador único da interface de rede no telefone IP. O endereço MAC normalmente é atribuído no momento em que o telefone é fabricado e é programado no hardware do dispositivo.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>URI do usuário</strong></p></td>
+<td><p><strong>URI do Usuário</strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Endereço SIP do usuário que utilizou o telefone IP.</p></td>
 </tr>
@@ -209,12 +247,12 @@ A tabela a seguir lista as informações fornecidas no Relatório de Inventário
 <tr class="even">
 <td><p><strong>Horário do último logon</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Data e hora do último logon do telefone IP no Lync Server.</p></td>
+<td><p>Data e hora em que o telefone IP foi conectado ao Lync Server pela última vez.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Horário do último logoff</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Data e hora do último logoff do telefone IP do Lync Server.</p></td>
+<td><p>Data e hora em que o telefone IP fez o último logoff do Lync Server.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Última atividade</strong></p></td>
@@ -223,4 +261,17 @@ A tabela a seguir lista as informações fornecidas no Relatório de Inventário
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
